@@ -213,6 +213,7 @@ export default function AbcEditor(props) {
                             createOptionPosition={"first"}
                             allowCreateWhileLoading={true}
                             loadingMessage ="Loading ..."
+                            controlShouldRenderValue={true}
                           />
                       
                       </Form.Group>

@@ -15,7 +15,7 @@ import LinksEditorModal from './LinksEditorModal'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
-import ParserProblemsDiff from './ParserProblemsDiff'
+//import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
 
   //return (
@@ -351,9 +351,6 @@ export default function MusicSingle(props) {
                                     
                                     }}  />
                     </div>}
-                    {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com'  && props.token) && <div style={{clear:'both',  textAlign:'left', marginTop:'2.6em'}} ><ParserProblemsDiff  tunebook={props.tunebook} abc={abc} /></div>}
-                    
-                    
                      
               
             </div>

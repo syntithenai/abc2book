@@ -25,7 +25,7 @@ function GroupBySelectorModal(props) {
             id="custom-switch"
             label=""
             checked={props.showPreviewInList ? true : false}  
-            onClick={function() {
+            onChange={function() {
                 props.setShowPreviewInList(!props.showPreviewInList)
             }}
           />

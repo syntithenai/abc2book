@@ -12,7 +12,7 @@ export default function useAppData() {
   var [groupBy, setGroupBy] = useState('')
   var [tagFilter, setTagFilter] = useState('')
   // list
-  var [filtered, setFiltered] = useState('')
+  var [filtered, setFiltered] = useState(null)
   var [grouped, setGrouped] = useState({})
   var [tuneStatus, setTuneStatus] = useState({})
   var [selected, setSelected] = useState({})

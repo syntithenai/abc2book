@@ -25,14 +25,15 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
       tunebook.bulkChangeTunes(currentSelection, selectedField, value)
       //.then(function() {
       //setTimeout(function() {
-      navigate('/blank')
-      setTimeout(function() {
-          navigate('/tunes')
-      },500)
+      //navigate('/blank')
+      //setTimeout(function() {
+          //navigate('/tunes')
+      //},500)
         //forceRefresh()
         //handleClose()
       //})
-      //handleClose
+      forceRefresh()
+      handleClose()
   }
   
   var selectedCount = Object.keys(selected).filter(function(item) {

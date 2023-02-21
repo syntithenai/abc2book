@@ -124,7 +124,7 @@ function AddSongModal(props) {
       // matching from resources
       if (songTitle.trim()) { 
           props.searchIndex(songTitle,function(data) {
-              console.log("SE",data)
+              //console.log("SE",data)
               setIndexMatches(data)  
           })
       }
@@ -177,7 +177,7 @@ function AddSongModal(props) {
   }
   
   function selectSetting(setting) {
-        console.log('select setting ', setting, props.currentTune)
+        //console.log('select setting ', setting, props.currentTune)
         var tune = props.tunebook.abcTools.abc2json(setting)
         tune.books = (props.currentTuneBook ? [props.currentTuneBook] : [])
         tune.tags = songTags
@@ -200,7 +200,11 @@ function AddSongModal(props) {
         props.setCurrentTuneBook('')
         setTimeout(function() {
           props.setCurrentTuneBook(finalTuneBook)
-          navigate("/tunes"+((newTune && newTune.id) ? "/" + newTune.id : ''))
+          if (newTune && newTune.id) {   
+            navigate("/editor"+"/" + newTune.id)
+          } else {
+              navigate("/tunes")
+          }
         },800)
         handleClose() 
   }
@@ -252,7 +256,11 @@ function AddSongModal(props) {
     props.setCurrentTuneBook('')
     setTimeout(function() {
       props.setCurrentTuneBook(finalTuneBook)
-      navigate("/tunes"+((newTune && newTune.id) ? "/" + newTune.id : ''))
+      if (newTune && newTune.id) {   
+        navigate("/editor"+"/" + newTune.id)
+      } else {
+          navigate("/tunes")
+      }
     },800)
     handleClose() 
   }
