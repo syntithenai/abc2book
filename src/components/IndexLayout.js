@@ -52,7 +52,7 @@ export default function IndexLayout(props) {
 
     // reset selection when grouping, book or tag filters change (but not text filter)
     useEffect(function() {
-        console.log('CLEAR SELECTION',props.groupBy,props.currentTuneBook, props.tagFilter)
+        //console.log('CLEAR SELECTION',props.groupBy,props.currentTuneBook, props.tagFilter)
         setSelected({})
         setSelectedCount(0)
     },[props.groupBy,props.currentTuneBook, props.tagFilter])
@@ -62,9 +62,9 @@ export default function IndexLayout(props) {
     }
     
     useEffect(function() {
-        console.log("IL boot")
+        //console.log("IL boot")
         if (true || filtered === null || filtered === undefined) {
-          console.log('RUN SEARCH on init')
+          //console.log('RUN SEARCH on init')
           //var filtered = Object.values(props.tunes).filter(filterSearch)
           //console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
           //filtered.sort(function(a,b) { 
@@ -76,7 +76,7 @@ export default function IndexLayout(props) {
           //setSelected({})
           //setSelectedCount(0)
         } else {
-            console.log('RUN SEARCH init use cache')
+            //console.log('RUN SEARCH init use cache')
             console.log( filtered, grouped,'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
         }
         setTimeout(function() {
@@ -138,7 +138,7 @@ export default function IndexLayout(props) {
                 }
           })
           setTuneStatus(tuneStatus)
-          console.log('runfilter',props.groupBy)
+          //console.log('runfilter',props.groupBy)
           if (props.groupBy && filtered.length < LIST_PROTECTION_LIMIT) {
               if (props.groupBy === "tuneStatus") {
                   setGrouped(tuneStatusGroups)
@@ -165,11 +165,11 @@ export default function IndexLayout(props) {
     
     useEffect(function() {
         var newHash = JSON.stringify([props.groupBy, props.filter,props.currentTuneBook, props.tagFilter])
-      console.log('CHANGE', 'OLD',listHash,'NEW', newHash)
+      //console.log('CHANGE', 'OLD',listHash,'NEW', newHash)
       if (listHash !== newHash) {
           //console.log("IL currentTuneBook", props.currentTuneBook, props.filter,  props.tagFilter)
             if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)) {
-                console.log('RUN SEARCH on change')
+                //console.log('RUN SEARCH on change')
                 runFilter()
             
                 setTimeout(function() {
