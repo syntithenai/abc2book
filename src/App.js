@@ -71,7 +71,7 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    //console.log('apply',changes)
+    console.log('apply',changes)
     // save all inserts and updates
     // keep all local items that don't exist remotely
     Object.keys(deletes).forEach(function(d) {
@@ -79,8 +79,8 @@ function App(props) {
        //delete tunes[d]
     })
     Object.keys(updates).map(function(u)  {
-      if (updates[u] && updates[u].id) {
-        tunes[updates[u].id] = updates[u]
+      if (updates[u] && updates[u][1].id) {
+        tunes[updates[u][1].id] = updates[u][1]
       }
     })
     Object.values(inserts).forEach(function(tune) {
