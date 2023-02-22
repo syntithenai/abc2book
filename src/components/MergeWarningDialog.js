@@ -1,5 +1,5 @@
 import {Tabs, Tab, Modal, Button} from 'react-bootstrap'
-
+import DiffModal from './DiffModal'
 export default function MergeWarningDialog(props) {
 //console.log('MW',props.sheetUpdateResults)
 return <Modal.Dialog 
@@ -37,7 +37,7 @@ return <Modal.Dialog
           </Tab>
           <Tab eventKey="updates" title="Updated" >
           {Object.values(props.sheetUpdateResults.updates).map(function(v,k) {
-              return <div key={k} >{v.name}</div>
+              return <div style={{marginTop:'0.3em', borderTop:'1px solid black'}} key={k} >{v[0].name}&nbsp;&nbsp;&nbsp;<DiffModal label={'Show Differences'} original={props.tunebook.abcTools.json2abc(v[0])}  modified={props.tunebook.abcTools.json2abc(v[1])} /></div>
             })}
           </Tab>
           <Tab eventKey="deletes" title="New tunes" >
@@ -47,7 +47,7 @@ return <Modal.Dialog
           </Tab>
           <Tab eventKey="local" title="Local Updates" >
           {Object.values(props.sheetUpdateResults.localUpdates).map(function(v,k) {
-              return <div key={k} >{v.name}</div>
+              return <div  style={{marginTop:'0.3em', borderTop:'1px solid black'}}  key={k} >{v[0].name}&nbsp;&nbsp;&nbsp;&nbsp;<DiffModal label={'Show Differences'} original={props.tunebook.abcTools.json2abc(v[0])}  modified={props.tunebook.abcTools.json2abc(v[1])} /></div>
             })}
           </Tab>
         </Tabs>

@@ -141,6 +141,27 @@ export default function HelpPage(props) {
       </ul>
       </Tab>
       
+       <Tab eventKey="youtube" title="YouTube">
+                    
+            <div class="c4 youtube-help-content">
+
+            <p class="c1"><span class="c3"><h3>Selecting a YouTube link</h3></span></p><p class="c1 c2"><span class="c3"></span></p><p class="c1"><span class="c0">Click the blue button with the song title to view a tune.</span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image3.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c0">Scroll up slightly to see the tune buttons and click the red media selection button.</span></p><p class="c1"><span ><img alt="" src="helpimages/image9.png"  title="" /></span></p><p class="c1 c2"><span class="c3"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c0">Click &quot;Search YouTube&quot;</span></p><p class="c1"><span ><img alt="" src="helpimages/image10.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c3"></span></p><p class="c1"><span class="c0">In the resulting dialog, click the green Select button to choose a YouTube video to associate with the tune record.</span></p><p class="c1"><span ><img alt="" src="helpimages/image7.png" title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span>&#8203;</span><span class="c3"><h3>Logging In</h3></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c5">To import and export a playlist, you need to first login</span><span class="c0">&nbsp;(with Google) using the green button in the menu.</span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span ><img alt="" src="helpimages/image5.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c3"><h3>Exporting a book to a YouTube playlist</h3></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c0">The tunebook software can behave as a playlist manager in a web browser. This has limits as an audio player around device screen locking.</span></p><p class="c1"><span class="c0">By exporting a book of tunes with YouTube links that a user is interested in, it is possible to play them through the official youtube app or voice controlled devices like Google Nest.</span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c0">Go to the Books page by clicking the first menu item.&#8203;</span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image1.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c0">Click the dropdown arrow next to one of your books to see a dialog with options for the book including &quot;Export YouTube Playlist&quot;</span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image2.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c0">Clicking the &quot;Export YouTube Playlist&quot; button will create a YouTube playlist and playlist items for the logged in user for up to 50 items in the book.</span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image4.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c3"><h3>Importing a playlist</h3></span></p>
+            <p class="c1"><span class="c0">&#8203;Importing a playlist from YouTube can be a quick start to collecting a genre or artist in the Tune Book.</span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c0">The green &quot;Import&quot; button on the books and list pages brings up a dialog with import options.</span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image11.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><hr /><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span class="c0">Click the button to import from YouTube</span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span ><img alt="" src="helpimages/image12.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p>
+            <p class="c1"><span class="c0">Paste the id of a YouTube playlist or select one of the logged in users playlists to import.</span></p>
+            <p class="c1"><span class="c0">Importing playlist items creates tune records with a title and a YouTube link for every playlist item that is not already in the local tune database.</span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1"><span ><img alt="" src="helpimages/image8.png"  title="" /></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p><p class="c1 c2"><span class="c0"></span></p></div>
+      </Tab>
       
      
       <Tab eventKey="story" title="Story">
@@ -174,6 +195,7 @@ That said, ABC notation can be used to score multi part and multi instrument mus
         <PrivacyContent/>
       </Tab>
       
+     
     </Tabs>
     
     
@@ -266,3 +288,4 @@ That said, ABC notation can be used to score multi part and multi instrument mus
       //</div>
       //<br/>
       //</Tab>
+

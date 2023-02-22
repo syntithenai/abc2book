@@ -96,6 +96,10 @@ input[type=checkbox]
   
 }
 
+.youtube-help-content img {
+   width: 50%;
+}
+
 .index-layout {
   margin-top: 1em;
 }

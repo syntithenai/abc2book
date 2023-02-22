@@ -7,7 +7,7 @@ export default function useYouTubePlaylist() {
   
   function getMyPlaylists(accessToken) {
     return new Promise(function(resolve,reject) {
-      //console.log('get my playlists' ,accessToken)
+      console.log('get my playlists' ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (accessToken) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&maxResults=50&mine=true&key='+process.env.REACT_APP_GOOGLE_API_KEY
@@ -40,7 +40,7 @@ export default function useYouTubePlaylist() {
   }
   
   function getPlaylistItemsRecursive(playlistId, accessToken, nextPageToken='') {
-      //console.log('getPlaylistItemsRecursive',nextPageToken)
+      console.log('getPlaylistItemsRecursive',nextPageToken)
       return new Promise(function(resolve,reject) {
             var url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=300&playlistId='+playlistId + '&key=' + process.env.REACT_APP_GOOGLE_API_KEY
             if (nextPageToken) {
@@ -89,7 +89,7 @@ export default function useYouTubePlaylist() {
   
   function insertPlaylist(title, accessToken) {
       return new Promise(function(resolve,reject) {
-      //console.log('create playlist')
+      console.log('create playlist')
       //var useToken = accessToken ? accessToken : access_token
       if (accessToken) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2Cstatus&key=' + process.env.REACT_APP_GOOGLE_API_KEY
@@ -130,7 +130,7 @@ export default function useYouTubePlaylist() {
  
   function insertOrUpdatePlaylistItems(playlistId,  items, accessToken) {
       return new Promise(function(resolve,reject) {
-          //console.log('insertOrUpdatePlaylistItems' ,playlistId, items)
+          console.log('insertOrUpdatePlaylistItems' ,playlistId, items)
           //var useToken = accessToken ? accessToken : access_token
           if (Array.isArray(items)) {
               getPlaylistItems(playlistId, accessToken).then(function(currentItems) {
@@ -149,13 +149,13 @@ export default function useYouTubePlaylist() {
                   items.forEach(function(item) {
                     if (item && lookups.hasOwnProperty(item)) {
                         // already exists
-                        //console.log('skip',item)
+                        console.log('skip',item)
                         var lookup = lookups[item]
                         if (lookup && lookup.id) {
                             cleanups[lookup.id] = null
                         }
                     } else {
-                        //console.log('create',item)
+                        console.log('create',item)
                         promises.push(insertPlaylistItem(count,playlistId, item, accessToken))
                         count ++
                     }
@@ -164,12 +164,12 @@ export default function useYouTubePlaylist() {
                   //// clear out old playlist items not on new items list
                   Object.keys(cleanups).forEach(function(item) {
                       if (item && cleanups[item]) {
-                          //console.log('delete',item, cleanups[item])
-                          //promises.push(deletePlaylistItem(playlistId, id, accessToken))
+                          console.log('delete',item, cleanups[item])
+                          promises.push(deletePlaylistItem(item, accessToken))
                       }
                   })
                   Promise.all(promises).then(function() {
-                       //console.log('insertOrUpdatePlaylistItems done')
+                       console.log('insertOrUpdatePlaylistItems done')
                     resolve()  
                   })
                   //resolve()
@@ -183,9 +183,10 @@ export default function useYouTubePlaylist() {
       
   }
   
-  function insertPlaylistItem(position, playlistId, youtubeId, accessToken, note = '') {
+  function insertPlaylistItem(position, playlistId, item, accessToken, note = '') {
+      var youtubeId = item.id
       return new Promise(function(resolve,reject) {
-          //console.log('insertPlaylistItem',playlistId, youtubeId, note)
+          console.log('insertPlaylistItem',playlistId, youtubeId, note)
           //var useToken = accessToken ? accessToken : access_token
           if (accessToken) {
             var url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&key=' + process.env.REACT_APP_GOOGLE_API_KEY
@@ -201,6 +202,13 @@ export default function useYouTubePlaylist() {
                       "kind": "youtube#video",
                       "videoId": youtubeId
                     }
+                    //,
+                    //"contentDetails": {
+                        //"videoId": youtubeId,
+                        //"startAt": String(item.start),
+                        //"endAt": String(item.end),
+                        //"note": item.note
+                    //}
                   }
                 }
             }).then(function(postRes) {
@@ -211,7 +219,7 @@ export default function useYouTubePlaylist() {
                     reject()
                 }
             }).catch(function(e) {
-              reject(null)
+              resolve(null)
             })
           } else {
             //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -223,7 +231,7 @@ export default function useYouTubePlaylist() {
    
   function deletePlaylistItem(playlistItemId, accessToken) {
       return new Promise(function(resolve,reject) {
-      //console.log('deletePlaylistItem',playlistItemId)
+      console.log('deletePlaylistItem',playlistItemId)
       //var useToken = accessToken ? accessToken : access_token
       if (accessToken) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?id=' + playlistItemId
@@ -244,13 +252,13 @@ export default function useYouTubePlaylist() {
   }
   
   function insertPlaylistItems(playlistId, items, accessToken) {
-      //console.log('insertPlaylistItems', playlistId, items)
+      console.log('insertPlaylistItems', playlistId, items)
       return new Promise(function(resolve,reject) {
         var promises = []
         if (Array.isArray(items)) {
             var count = 0
             items.forEach(function(item) {
-                promises.push(insertPlaylistItem(count, playlistId, item))
+                promises.push(insertPlaylistItem(count, playlistId, item, accessToken))
                 count++
             })
         }
@@ -261,7 +269,7 @@ export default function useYouTubePlaylist() {
   }
     
   function insertOrUpdatePlaylist(title, items, accessToken) {
-      //console.log('insertOrUpdatePlaylist',title, items)
+      console.log('insertOrUpdatePlaylist',title, items)
       getMyPlaylists(accessToken).then(function(playlists) {
           console.log('got pl',playlists)
           var found = null

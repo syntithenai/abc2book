@@ -3,10 +3,12 @@ import {Button, Modal, ListGroup, Badge} from 'react-bootstrap'
 
 function TagsSearchSelectorModal(props) {
      //console.log(props)
+     //console.log(props.defaultOptions())
   const [show, setShow] = useState(false);
   const [selectedTags, setSelectedTags] = useState(Array.isArray(props.value) ? props.value : []);
   const [filter, setFilter] = useState('');
-  const [options, setOptions] = useState(props.defaultOptions());
+  const [options, setOptions] = useState(props.defaultOptions())
+ 
   const handleClose = () => {
       setShow(false);
       if (props.handleClose) props.handleClose()
@@ -45,13 +47,21 @@ function TagsSearchSelectorModal(props) {
           return true
         }
       })
-     setSelectedTags(uniqueTagsSelected)
-      
+      setSelectedTags(uniqueTagsSelected)
     }
     
-   
-    
-  var sortedOptions = Object.keys(options)
+    var sortedOptions = Object.keys(options).filter(function(a) {
+          // filter to tags in search results
+          if (!props.tagCollation) {
+              return true
+          } else {
+              if (props.tagCollation[a]) {
+                  return true
+              } else {
+                return false
+              }
+          }
+    });
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   return (
     <>

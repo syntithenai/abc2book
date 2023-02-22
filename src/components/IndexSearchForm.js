@@ -58,7 +58,7 @@ export default function IndexSearchForm(props) {
           
           <span style={{ marginLeft:'0.1em'}} >
           
-                <TagsSearchSelectorModal  setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={props.tagFilter} onChange={function(val) { 
+                <TagsSearchSelectorModal tagCollation={props.tagCollation} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={props.tagFilter} onChange={function(val) { 
                     props.setTagFilter(val)
                     props.forceRefresh()
                     //console.log('change search filter ',val)
@@ -75,7 +75,7 @@ export default function IndexSearchForm(props) {
                />
               </span>
            
-         <>{(props.tunes && props.filtered && props.filtered.length < props.LIST_PROTECTION_LIMIT) && <GroupBySelectorModal onChange={function(val) { props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} />}</>
+         <>{(props.tunes && props.filtered && props.filtered.length < props.LIST_PROTECTION_LIMIT*5) && <GroupBySelectorModal LIST_PROTECTION_LIMIT={props.LIST_PROTECTION_LIMIT} onChange={function(val) { props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} />}</>
         
          
     </div>

@@ -17,7 +17,8 @@ function GroupBySelectorModal(props) {
           <Modal.Title>List Layout</Modal.Title>
           
         </Modal.Header>
-         <Modal.Body>
+         {(Array.isArray(props.tunes) && props.tunes.length < props.LIST_PROTECTION_LIMIT/2) && <Modal.Body>
+         
          <Form.Label>Show preview? </Form.Label>
          <Form.Check 
             style={{float:'right'}} 
@@ -29,7 +30,7 @@ function GroupBySelectorModal(props) {
                 props.setShowPreviewInList(!props.showPreviewInList)
             }}
           />
-         </Modal.Body>
+         </Modal.Body>}
         <Modal.Footer>
           <Modal.Title style={{width:'100%'}} >Group By</Modal.Title>
           <ListGroup  style={{clear:'both', width: '100%'}}>

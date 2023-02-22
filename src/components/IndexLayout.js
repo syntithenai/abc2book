@@ -33,7 +33,8 @@ export default function IndexLayout(props) {
     var setSelected = props.setSelected
     var setLastSelected = props.setLastSelected
     var setSelectedCount = props.setSelectedCount
-    
+    var tagCollation = props.tagCollation
+    var setTagCollation = props.setTagCollation
     
     function filterSearchNoBooks(tune) {
         if (tune.books && tune.books.length > 0) {
@@ -99,7 +100,14 @@ export default function IndexLayout(props) {
           setFiltered(filtered)
           var tuneStatus = {}
           var tuneStatusGroups = {}
+          var tc = {}                
           filtered.forEach(function(tune, tuneKey) {
+                // collate books in this search result set
+                if (Array.isArray(tune.tags)) {
+                    Object.values(tune.tags).forEach(function(tag) {
+                        tc[tag] = true
+                    })
+                }
                 if (filtered.length < LIST_PROTECTION_LIMIT) {
                     var hasNotes = false
                     var hasChords = false
@@ -137,9 +145,10 @@ export default function IndexLayout(props) {
                     tuneStatusGroups[tuneStatusKey.join(",")].push(tuneKey)
                 }
           })
+          setTagCollation(tc)
           setTuneStatus(tuneStatus)
           //console.log('runfilter',props.groupBy)
-          if (props.groupBy && filtered.length < LIST_PROTECTION_LIMIT) {
+          if (props.groupBy && filtered.length < LIST_PROTECTION_LIMIT * 5) {
               if (props.groupBy === "tuneStatus") {
                   setGrouped(tuneStatusGroups)
               } else {
@@ -160,7 +169,6 @@ export default function IndexLayout(props) {
           })
           setSelected(selected)
           setSelectedCount(count)
-        
     }
     
     useEffect(function() {
@@ -394,7 +402,7 @@ export default function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={function() { setListHash(''); props.forceRefresh()}}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} filtered={props.filtered} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList}LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} />
+            } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={function() { setListHash(''); props.forceRefresh()}}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} filtered={props.filtered} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList}LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} tagCollation={tagCollation} />
         </div>
         
         {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >

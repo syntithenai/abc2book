@@ -30,7 +30,7 @@ function TuneBookOptionsModal(props) {
                           //console.log('extract id from ', link.link)
                           var newId = YouTubeGetID(link.link)
                           if (newId && typeof link.link === 'string') {
-                            ids.push(newId)
+                            ids.push({id: newId, start: (link.startAt > 0 ? link.startAt : 0), end: (link.endAt > 0 ? link.endAt : 0), note:'Tune Book'})
                           }
                       }  
                     })
@@ -38,7 +38,7 @@ function TuneBookOptionsModal(props) {
             })
             //console.log(ids)
         }
-        insertOrUpdatePlaylist(props.currentTuneBook, ids, ((props.token && props.token.access_token) ? props.token.access_token : null))
+        insertOrUpdatePlaylist(props.currentTuneBook, ids.slice(0,4), ((props.token && props.token.access_token) ? props.token.access_token : null))
         handleClose()
      }
   }

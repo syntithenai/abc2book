@@ -1,5 +1,5 @@
 import {Link , Outlet } from 'react-router-dom'
-import {Button, ButtonGroup, Tabs, Tab} from 'react-bootstrap'
+import {Button, ButtonGroup, Tabs, Tab, Badge} from 'react-bootstrap'
 import MusicLayout from '../components/MusicLayout'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
 import FeaturedTune from '../components/FeaturedTune'
@@ -43,12 +43,18 @@ export default function BooksPage(props) {
     
    
     
-    var tbOptions = Object.keys(props.tunebook.getTuneBookOptions())
-    var tagOptions = Object.keys(props.tunebook.getTuneTagOptions())
+    var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
+    var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     return <div className="App-books">
+        
         <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
+            <div>
+                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
+                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
+                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+            </div>
             {tbOptions.length == 0 && <div>
                 <h4>Import a Book</h4>
                  <div style={{float:'left'}} >
