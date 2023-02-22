@@ -108,7 +108,7 @@ export default function IndexLayout(props) {
                         tc[tag] = true
                     })
                 }
-                if (filtered.length < LIST_PROTECTION_LIMIT) {
+                if (filtered.length < LIST_PROTECTION_LIMIT * 5) {
                     var hasNotes = false
                     var hasChords = false
                     if (tune.voices) {
