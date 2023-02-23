@@ -5,7 +5,7 @@ import LinksEditor from './LinksEditor'
 
 export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortcuts, icon, autoPlay, setStartPlaying}) {
   const [show, setShow] = useState(false);
- 
+  var [proxyTune,setProxyTune] = useState(tune)
   const handleClose = () => {
       setShow(false);
       
@@ -18,6 +18,16 @@ export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortc
     ////if (setBlockKeyboardShortcuts) 
     //setBlockKeyboardShortcuts(true)
   //}, [])
+  
+   useEffect(function(e) {
+        //console.log('ensure links',tune.links)
+        if (!Array.isArray(tune.links) || tune.links.length < 1) {
+            console.log('ensure links')
+            tune.links = [{title:'',link:''}]; 
+            //tunebook.saveTune(tune); 
+            setProxyTune(tune)
+        }
+  },[tune])
 
   return (
     <>
@@ -27,11 +37,14 @@ export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortc
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Audio Links and Files</Modal.Title>
+          <Modal.Title>Links</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <LinksEditor setStartPlaying={setStartPlaying} autoplay={autoPlay}  tunebook={tunebook} tune={tune} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} handleClose={handleClose} />
+            <LinksEditor setStartPlaying={setStartPlaying} autoplay={autoPlay}  tunebook={tunebook} tune={proxyTune} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} handleClose={handleClose} />
+        
+         
         </Modal.Body>
+        
       </Modal>
     </>
   );

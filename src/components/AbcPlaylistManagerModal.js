@@ -35,7 +35,9 @@ function AbcPlaylistManagerModal(props) {
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {(props.abcPlaylist && props.abcPlaylist.tunes) ? props.abcPlaylist.tunes.map(function(tune,tk) {
               return (!filter || filter.trim().length === 0 || tune && filter && tune.name && tune.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1) ?  <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{border:(tk === props.abcPlaylist.currentTune ? '2px solid blue' : 'none')}} >
-                <Link to={"/tunes/"+tune.id} onClick={handleClose} ><b>{tune.name}</b></Link>
+                <Link to={"/tunes/"+tune.id} onClick={function() {var newPL = props.abcPlaylist
+                    newPL.currentTune = tk
+                   props.setAbcPlaylist(newPL); handleClose()}} ><b>{tune.name}</b></Link>
                 <Button style={{float:'right'}} variant="success"  onClick={function() {
                     var newPL = props.abcPlaylist
                     newPL.currentTune = tk

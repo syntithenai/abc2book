@@ -100,7 +100,9 @@ export default function IndexLayout(props) {
           setFiltered(filtered)
           var tuneStatus = {}
           var tuneStatusGroups = {}
-          var tc = {}                
+          var tc = {}   
+          var anyTunesHaveNotes = false
+          var anyTunesHaveLinks = false
           filtered.forEach(function(tune, tuneKey) {
                 // collate books in this search result set
                 if (Array.isArray(tune.tags)) {
@@ -116,7 +118,10 @@ export default function IndexLayout(props) {
                             if (Array.isArray(voice.notes)) {
                                 for (var i=0 ; i < voice.notes.length; i++) {
                                     if (voice.notes[i]) {
-                                        hasNotes = true
+                                        if (voice.notes[i].replaceAll('z','').replaceAll('|','').split('"').filter(function(a,ak) { return (ak %2 ==0)}).join('').trim().length > 0  ) {
+                                            hasNotes = true
+                                            anyTunesHaveNotes = true
+                                        }
                                         if (voice.notes[i].indexOf('"') !== -1) {
                                             hasChords = true
                                         }
@@ -138,7 +143,10 @@ export default function IndexLayout(props) {
                     if (hasLyrics) tuneStatusKey.push('lyrics')
                     if (hasNotes) tuneStatusKey.push('notes')
                     if (hasChords) tuneStatusKey.push('chords')
-                    if ((Array.isArray(tune.links) && tune.links.length > 0)) tuneStatusKey.push('media')
+                    if ((Array.isArray(tune.links) && tune.links.length > 0)) {
+                        tuneStatusKey.push('media')
+                        anyTunesHaveLinks = true
+                    }
                     if (!tuneStatusGroups.hasOwnProperty(tuneStatusKey.join(","))) {
                         tuneStatusGroups[tuneStatusKey.join(",")] = []
                     }
@@ -392,9 +400,19 @@ export default function IndexLayout(props) {
     }
     
     
+    var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
+    var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
+    tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
+    tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
+    
     return <div className="index-layout"  >
     
         <div id={JSON.stringify(selected)} >
+        <div  >
+            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
+            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
+            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+        </div>
         <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
                 if (selected[v]) {
                      return v

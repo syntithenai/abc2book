@@ -46,6 +46,7 @@ export default function LinksEditor(props) {
 
   const [warning, setWarning] = useState('')
   
+ 
     
   return (
     <div  >
@@ -79,6 +80,8 @@ export default function LinksEditor(props) {
             
           
           <span  >
+          <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')} ><Button>{props.tunebook.icons.externallink}</Button>
+            </a>
             <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}  onChange={function(link) {
                     var tune = props.tune
                     var links = Array.isArray(props.tune.links) ? props.tune.links : []
@@ -128,7 +131,7 @@ export default function LinksEditor(props) {
                     
                     <Form.Group  >
                         <Button variant="danger" style={{float:'right'}} onClick={function() {
-                            if (window.confirm("Are you sure you want to delete this audio?")) {
+                            if (window.confirm("Are you sure you want to delete this link?")) {
                                 var links = props.tune.links
                                 links.splice(lk,1)
                                 var tune = props.tune

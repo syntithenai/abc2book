@@ -122,94 +122,96 @@ export default function useAbcjsParser() {
         var symbolsSinceLastBar = 0
         abc[0].lines.forEach(function(line, lineNumber) {
             //console.log(lineNumber, line)
-            line.staff[0].voices.forEach(function(symbols, voiceNumber) {
-               symbols.forEach(function(symbol,symbolNumber) {
-                   //console.log(symbol)
-                   var originalString = abcString && abcString.length >= symbol.startChar && abcString.length > symbol.endChar ? abcString.slice(symbol.startChar,symbol.endChar + 1) : ''
-                   var trailingSpace = originalString.endsWith(' ')
-                   if (symbol.el_type === 'note') {
-                        symbolsSinceLastBar++
-                        var note = ''
-                        if (symbol.pitches && symbol.pitches.length > 1 && symbol.duration > 0) {
-                            note = '[' + symbol.pitches.map(function(pitch) { return pitch.name}).join('') + ']' +  durationToNoteLength(symbol.duration, noteLength)
-                        } else if (symbol.pitches && symbol.pitches.length === 1 && symbol.duration > 0) {
-                            note = pitchToNote(symbol.pitches[0], symbol.duration, noteLength)
-                        } else if (symbol.rest && symbol.rest.type === 'rest' && symbol.duration > 0) {
-                            note = 'z' + durationToNoteLength(symbol.duration, noteLength)
-                        } else if (symbol.rest && symbol.rest.type === 'spacer') {
-                            note = 'y' + (trailingSpace ? ' ' : '')
-                        }
-                        if (Array.isArray(symbol.decoration) && symbol.decoration.length > 0) {
-                            symbol.decoration.reverse().forEach(function(decoration) {
-                               note = lookupDecoration(decoration) + note  
-                            })
-                        }
-                        if (symbol.startTriplet > 0) {
-                            note = "(" + String(symbol.startTriplet) + note
-                        }
-                        if (Array.isArray(symbol.gracenotes) && symbol.gracenotes.length > 0) {
-                            note = "{" + symbol.gracenotes.map(function(note) {
-                                    if (note.acciaccatura) {
-                                        return "/" + note.name
-                                    } else {
-                                        return note.name
-                                    }
-                                }).join("") + "}" + note
-                            
-                        }
-                        if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
-                            note = '"' +symbol.chord.map(function(chord) {
-                                    return  chord.name.replace("♭","b").replace("♯","#")
-                                }).join(" ").trim()  + '"' +  note
-                        }
-                        if (trailingSpace) {// && note.length > 0) {
-                            note = note + ' '
-                        }
-                        if (note.length > 0) {
-                            //console.log("NOTE",note, lineNumber)
-                            final.push({note: note, lineNumber: lineNumber})
-                        } 
-                   }  else if (symbol.el_type === "tempo")  {
-                       var note = '[Q:' + symbol.bpm + "]" + (trailingSpace ? ' ' : '')
-                       final.push({note: note, lineNumber: lineNumber})
-                   }  else if (symbol.el_type === "keySignature")  {
-                       var note = '[K:' + symbol.root + "]" + (trailingSpace ? ' ' : '')
-                       final.push({note: note, lineNumber: lineNumber})
-                   }  else if (symbol.el_type === "timeSignature")  {
-                       var note = '[M:' + symbol.value[0].num + "/" + symbol.value[0].den + "]" + (trailingSpace ? ' ' : '')
-                       final.push({note: note, lineNumber: lineNumber})
-                   }  else if (symbol.el_type === "part" && symbol.title && symbol.title.length > 0)  {
-                       var note = '[P:' + symbol.title + "]" + (trailingSpace ? ' ' : '')
-                       final.push({note: note, lineNumber: lineNumber})
-                   } else if (symbol.el_type === 'bar') {
-                       //console.log("BAR")
-                       symbolsSinceLastBar = 0
-                       if (symbol.type === 'bar_thin') {
-                           var note = "|" + (trailingSpace ? ' ' : '')
+            if (line && line.staff && line.staff.length > 0) {
+                line.staff[0].voices.forEach(function(symbols, voiceNumber) {
+                   symbols.forEach(function(symbol,symbolNumber) {
+                       //console.log(symbol)
+                       var originalString = abcString && abcString.length >= symbol.startChar && abcString.length > symbol.endChar ? abcString.slice(symbol.startChar,symbol.endChar + 1) : ''
+                       var trailingSpace = originalString.endsWith(' ')
+                       if (symbol.el_type === 'note') {
+                            symbolsSinceLastBar++
+                            var note = ''
+                            if (symbol.pitches && symbol.pitches.length > 1 && symbol.duration > 0) {
+                                note = '[' + symbol.pitches.map(function(pitch) { return pitch.name}).join('') + ']' +  durationToNoteLength(symbol.duration, noteLength)
+                            } else if (symbol.pitches && symbol.pitches.length === 1 && symbol.duration > 0) {
+                                note = pitchToNote(symbol.pitches[0], symbol.duration, noteLength)
+                            } else if (symbol.rest && symbol.rest.type === 'rest' && symbol.duration > 0) {
+                                note = 'z' + durationToNoteLength(symbol.duration, noteLength)
+                            } else if (symbol.rest && symbol.rest.type === 'spacer') {
+                                note = 'y' + (trailingSpace ? ' ' : '')
+                            }
+                            if (Array.isArray(symbol.decoration) && symbol.decoration.length > 0) {
+                                symbol.decoration.reverse().forEach(function(decoration) {
+                                   note = lookupDecoration(decoration) + note  
+                                })
+                            }
+                            if (symbol.startTriplet > 0) {
+                                note = "(" + String(symbol.startTriplet) + note
+                            }
+                            if (Array.isArray(symbol.gracenotes) && symbol.gracenotes.length > 0) {
+                                note = "{" + symbol.gracenotes.map(function(note) {
+                                        if (note.acciaccatura) {
+                                            return "/" + note.name
+                                        } else {
+                                            return note.name
+                                        }
+                                    }).join("") + "}" + note
+                                
+                            }
+                            if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
+                                note = '"' +symbol.chord.map(function(chord) {
+                                        return  chord.name.replace("♭","b").replace("♯","#")
+                                    }).join(" ").trim()  + '"' +  note
+                            }
+                            if (trailingSpace) {// && note.length > 0) {
+                                note = note + ' '
+                            }
+                            if (note.length > 0) {
+                                //console.log("NOTE",note, lineNumber)
+                                final.push({note: note, lineNumber: lineNumber})
+                            } 
+                       }  else if (symbol.el_type === "tempo")  {
+                           var note = '[Q:' + symbol.bpm + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
-                       } else if (symbol.type === 'bar_thin_thin') {
-                           var note = "||" + (trailingSpace ? ' ' : '')
+                       }  else if (symbol.el_type === "keySignature")  {
+                           var note = '[K:' + symbol.root + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
-                       } else if (symbol.type === 'bar_thin_thick') {
-                           var note = "|]" + (trailingSpace ? ' ' : '')
+                       }  else if (symbol.el_type === "timeSignature")  {
+                           var note = '[M:' + symbol.value[0].num + "/" + symbol.value[0].den + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
-                       } else if (symbol.type === 'bar_thick_thin') {
-                           var note = "[|" + (trailingSpace ? ' ' : '')
+                       }  else if (symbol.el_type === "part" && symbol.title && symbol.title.length > 0)  {
+                           var note = '[P:' + symbol.title + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
-                       } else if (symbol.type === 'bar_left_repeat') {
-                           var note = "|:" + (trailingSpace ? ' ' : '')
-                           final.push({note: note, lineNumber: lineNumber})
-                       } else if (symbol.type === 'bar_right_repeat') {
-                           var note = ":|" + (trailingSpace ? ' ' : '')
-                           final.push({note: note, lineNumber: lineNumber})
-                       }
-                       if (symbol.startEnding > 0)  {
-                           var em = (symbolsSinceLastBar > 0 ? "[" : '') +String(symbol.startEnding)
-                           final.push({note: em, lineNumber: lineNumber})
-                       }
-                    }
+                       } else if (symbol.el_type === 'bar') {
+                           //console.log("BAR")
+                           symbolsSinceLastBar = 0
+                           if (symbol.type === 'bar_thin') {
+                               var note = "|" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_thin_thin') {
+                               var note = "||" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_thin_thick') {
+                               var note = "|]" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_thick_thin') {
+                               var note = "[|" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_left_repeat') {
+                               var note = "|:" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           } else if (symbol.type === 'bar_right_repeat') {
+                               var note = ":|" + (trailingSpace ? ' ' : '')
+                               final.push({note: note, lineNumber: lineNumber})
+                           }
+                           if (symbol.startEnding > 0)  {
+                               var em = (symbolsSinceLastBar > 0 ? "[" : '') +String(symbol.startEnding)
+                               final.push({note: em, lineNumber: lineNumber})
+                           }
+                        }
+                    })
                 })
-            })
+            }
         }) 
         //console.log(final)
         var lastLineNumber = 0
@@ -235,103 +237,104 @@ export default function useAbcjsParser() {
         var noteLengthsSinceLastBar = 0
         abc[0].lines.forEach(function(line, lineNumber) {
             //line.staff[0].voices.forEach(function(symbols, voiceNumber) {
-                var symbols = line.staff[0].voices[0]
-                //console.log(lineNumber,symbols)
-                var barLayout = []
-                for (var i=0; i < barSize; i++) {
-                    barLayout[i] = []
-                }
-                // iterate symbols mapping to barLayout
-                // for each symbol if there is a chord attached, assign it to the closest noteLength in barLayout
-                // if the symbol is a bar
-                var lastSymbol = null
-                symbols.forEach(function(symbol,symbolNumber) {
-                   lastSymbol = symbol
-                   if (symbol.el_type === 'note') {
-                        // assign note to bar layout
-                        var chord = ''
-                        if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
-                            chord = symbol.chord.reverse().map(function(chord) {
-                                return chord.name.replace("♭","b").replace("♯","#")
-                            }).join("").trim()
-                            var assignChordToBeat = parseInt(noteLengthsSinceLastBar / noteLength)
-                            if (assignChordToBeat <= barSize && Array.isArray(barLayout.at(assignChordToBeat))) {
-                                var current = Array.isArray(barLayout.at(assignChordToBeat)) ? barLayout.at(assignChordToBeat) : []
-                                current.push(chord.trim())
-                                barLayout.splice(assignChordToBeat,1,current)
-                            }
-                        }
-                        if (symbol.duration > 0) {
-                            noteLengthsSinceLastBar = noteLengthsSinceLastBar + symbol.duration
-                        }
-                   } else if (symbol.el_type === 'bar') {
-                       noteLengthsSinceLastBar = 0
-                       // write bar to final array
-                       var maxLength = 0
-                       for (var i=0; i < barSize; i++) {
-                            if (Array.isArray(barLayout[i]) && barLayout[i].length > maxLength) {
-                                maxLength = barLayout[i].length
-                            }
-                       }
-                       for (var i=0; i < barSize; i++) {
-                            if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
-                                final.push(barLayout[i].join(' ').trim())
-                                var extraDots = maxLength - barLayout[i].length
-                                for (var j=0; j< extraDots; j++) {
-                                    if (showDots) final.push(".")
-                                    //else final.push(" ")
-                                }
-                            } else {
-                                for (var j=0; j< maxLength; j++) {
-                                    if (showDots) final.push(".")
-                                    //else final.push(" ")
-                                }
-                            }
-                       }
-                       final.push("|")
-                       if (symbol.type === 'bar_thin_thin') {
-                           final.push("\n" )
-                       }
-                       // clear barLayout
-                       barLayout = []
-                        for (var i=0; i < barSize; i++) {
-                            barLayout.push([])
-                        }
-                        
+                if (line && line.staff && line.staff.length > 0) {
+                    var symbols = line.staff[0].voices[0]
+                    //console.log(lineNumber,symbols)
+                    var barLayout = []
+                    for (var i=0; i < barSize; i++) {
+                        barLayout[i] = []
                     }
-                })
-                if (lastSymbol.el_type !== 'bar') {
-                    noteLengthsSinceLastBar = 0
-                       // write bar to final array
-                       var maxLength = 0
-                       for (var i=0; i < barSize; i++) {
-                            if (Array.isArray(barLayout[i]) && barLayout[i].length > maxLength) {
-                                maxLength = barLayout[i].length
-                            }
-                       }
-                       for (var i=0; i < barSize; i++) {
-                            if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
-                                final.push(barLayout[i].join(' ').trim())
-                                var extraDots = maxLength - barLayout[i].length
-                                for (var j=0; j< extraDots; j++) {
-                                    if (showDots) final.push(".")
-                                    //else final.push(" ")
-                                }
-                            } else {
-                                for (var j=0; j< maxLength; j++) {
-                                    if (showDots) final.push(".")
-                                    //else final.push(" ")
+                    // iterate symbols mapping to barLayout
+                    // for each symbol if there is a chord attached, assign it to the closest noteLength in barLayout
+                    // if the symbol is a bar
+                    var lastSymbol = null
+                    symbols.forEach(function(symbol,symbolNumber) {
+                       lastSymbol = symbol
+                       if (symbol.el_type === 'note') {
+                            // assign note to bar layout
+                            var chord = ''
+                            if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
+                                chord = symbol.chord.reverse().map(function(chord) {
+                                    return chord.name.replace("♭","b").replace("♯","#")
+                                }).join("").trim()
+                                var assignChordToBeat = parseInt(noteLengthsSinceLastBar / noteLength)
+                                if (assignChordToBeat <= barSize && Array.isArray(barLayout.at(assignChordToBeat))) {
+                                    var current = Array.isArray(barLayout.at(assignChordToBeat)) ? barLayout.at(assignChordToBeat) : []
+                                    current.push(chord.trim())
+                                    barLayout.splice(assignChordToBeat,1,current)
                                 }
                             }
-                       }
-                       final.push("|")
-                       if (lastSymbol.type === 'bar_thin_thin') {
-                           final.push("\n" )
-                       }
-                }
-                final.push("\n")
-            //})
-            
+                            if (symbol.duration > 0) {
+                                noteLengthsSinceLastBar = noteLengthsSinceLastBar + symbol.duration
+                            }
+                       } else if (symbol.el_type === 'bar') {
+                           noteLengthsSinceLastBar = 0
+                           // write bar to final array
+                           var maxLength = 0
+                           for (var i=0; i < barSize; i++) {
+                                if (Array.isArray(barLayout[i]) && barLayout[i].length > maxLength) {
+                                    maxLength = barLayout[i].length
+                                }
+                           }
+                           for (var i=0; i < barSize; i++) {
+                                if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
+                                    final.push(barLayout[i].join(' ').trim())
+                                    var extraDots = maxLength - barLayout[i].length
+                                    for (var j=0; j< extraDots; j++) {
+                                        if (showDots) final.push(".")
+                                        //else final.push(" ")
+                                    }
+                                } else {
+                                    for (var j=0; j< maxLength; j++) {
+                                        if (showDots) final.push(".")
+                                        //else final.push(" ")
+                                    }
+                                }
+                           }
+                           final.push("|")
+                           if (symbol.type === 'bar_thin_thin') {
+                               final.push("\n" )
+                           }
+                           // clear barLayout
+                           barLayout = []
+                            for (var i=0; i < barSize; i++) {
+                                barLayout.push([])
+                            }
+                            
+                        }
+                    })
+                    if (lastSymbol.el_type !== 'bar') {
+                        noteLengthsSinceLastBar = 0
+                           // write bar to final array
+                           var maxLength = 0
+                           for (var i=0; i < barSize; i++) {
+                                if (Array.isArray(barLayout[i]) && barLayout[i].length > maxLength) {
+                                    maxLength = barLayout[i].length
+                                }
+                           }
+                           for (var i=0; i < barSize; i++) {
+                                if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
+                                    final.push(barLayout[i].join(' ').trim())
+                                    var extraDots = maxLength - barLayout[i].length
+                                    for (var j=0; j< extraDots; j++) {
+                                        if (showDots) final.push(".")
+                                        //else final.push(" ")
+                                    }
+                                } else {
+                                    for (var j=0; j< maxLength; j++) {
+                                        if (showDots) final.push(".")
+                                        //else final.push(" ")
+                                    }
+                                }
+                           }
+                           final.push("|")
+                           if (lastSymbol.type === 'bar_thin_thin') {
+                               final.push("\n" )
+                           }
+                    }
+                    final.push("\n")
+                //})
+            }
         }) 
         //console.log(final)
         return final.join(' ').replaceAll("\n ","\n")

@@ -182,6 +182,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
       //console.log('save tune id', tune.id)
+      tune.links = Array.isArray(tune.links) ? tune.links.filter(function(link) {
+          return (link && (link.title || link.link || link.startAt || link.endAt))
+      }) : [] 
       tunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
@@ -1083,7 +1086,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes = fillTunes.sort(function(a,b) {
                 return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
             })
-            setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes})
+            setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes.slice(0,20)})
         }
         setAbcPlaylist(null)
     }
@@ -1109,7 +1112,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes = fillTunes.sort(function(a,b) {
                 return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
             })
-            setMediaPlaylist({currentTune: 0, book:'', tunes:fillTunes})
+            setMediaPlaylist({currentTune: 0, book:'', tunes:fillTunes.slice(0,20)})
         }
         setAbcPlaylist(null)
     }
@@ -1147,7 +1150,30 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         fillTunes = fillTunes.sort(function(a,b) {
             return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
         })
-        //console.log('fill abxz',useBook, fillTunes)
+        fillTunes = fillTunes.filter(function(tune) {
+            var hasNotes = false
+            if (tune.voices) {
+                Object.values(tune.voices).forEach(function(voice) {
+                    if (Array.isArray(voice.notes)) {
+                        for (var i=0 ; i < voice.notes.length; i++) {
+                            if (voice.notes[i]) {
+                               if (voice.notes[i].replaceAll('z','').replaceAll('|','').split('"').filter(function(a,ak) { 
+                                   return (ak %2 ==0)
+                                }).join('').trim().length > 0  ) {
+                                    hasNotes = true
+                                }
+                            }
+                        }
+                    }
+                })
+            }  
+            return hasNotes
+        }).slice(0,30)
+        
+        
+        
+        
+        console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
         setMediaPlaylist(null)
         if (fillTunes.length > 0 && fillTunes[0].id) {

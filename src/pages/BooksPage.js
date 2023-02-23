@@ -50,39 +50,23 @@ export default function BooksPage(props) {
     return <div className="App-books">
         
         <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
-            <div>
-                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
-                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
-                <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
-            </div>
-            {tbOptions.length == 0 && <div>
-                <h4>Import a Book</h4>
-                 <div style={{float:'left'}} >
-                    <hr/>
-                    <div style={{marginTop:'1em'}} >
-                    This tune book software helps musicians collect and organise and practice their music.
-                    </div>
-                     <div style={{marginTop:'1em'}} >
-                    The software helps you to find and manage lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. 
-                    </div>
-                     <div style={{marginTop:'1em',marginBottom:'1em'}} >
-                    Import one of the curated tunebooks to get started.
-                    </div>
-                    
-                    <ImportCollectionsAccordion tunebook={props.tunebook} />
-                    
-                </div>
-            </div>}
+            
+            
         
             {tbOptions.length > 0 && <div>
-                <span style={{float:'right',  padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
+                <div style={{float:'left'}} >
+                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
+                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
+                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+                </div>
+                <div style={{textAlign:'right',  padding:'0.2em'}} id="tunebookbuttons" >
                     <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
                     <ImportOptionsModal  token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
                     <Button variant="info" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
                     {props.tunebook.icons.save} Download
-                </Button>
-                </span>
-                <div style={{clear:'both'}} > </div>
+                    </Button>
+                </div>
+                <div style={{clear:'both'}} >&nbsp;</div>
                 <Tabs defaultActiveKey="books" >
                     <Tab  eventKey="books" title="Your Books">
                         <input style={{float:'left'}} type='search'  value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
@@ -134,7 +118,24 @@ export default function BooksPage(props) {
      
             </div>}
 
-            
+            {tbOptions.length == 0 && <div>
+                <h4>Import a Book</h4>
+                 <div style={{float:'left'}} >
+                    <hr/>
+                    <div style={{marginTop:'1em'}} >
+                    This tune book software helps musicians collect and organise and practice their music.
+                    </div>
+                     <div style={{marginTop:'1em'}} >
+                    The software helps you to find and manage lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. 
+                    </div>
+                     <div style={{marginTop:'1em',marginBottom:'1em'}} >
+                    Import one of the curated tunebooks to get started.
+                    </div>
+                    
+                    <ImportCollectionsAccordion tunebook={props.tunebook} />
+                    
+                </div>
+            </div>}
           
             <div style={{float:'left', width:'100%'}} >
                 <hr/>

@@ -504,7 +504,7 @@ export default function Abc(props) {
                  soundFontUrl: a + '/midi-js-soundfonts/abcjs',
                  soundFontVolumeMultiplier: 1.6,
                  //program: 21,
-                 chordsOff: true,
+                 chordsOff: false,
                  //options: {
                      //program: 21,
                      //chordsOff: true
