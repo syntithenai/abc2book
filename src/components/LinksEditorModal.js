@@ -23,7 +23,7 @@ export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortc
     <>
       <Button variant="danger"   onClick={function() {
           handleShow()
-        }}>{icon ==="media" ?  tunebook.icons.youtube : tunebook.icons.dropdown}</Button>
+        }}>{icon ==="media" ?  tunebook.icons.link : tunebook.icons.dropdown}</Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

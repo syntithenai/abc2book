@@ -330,7 +330,7 @@ function AddSongModal(props) {
                     //props.tunebook.saveTune(tune); 
                 //}}
                 //setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
-                //triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
+                //triggerElement={<>Search YouTube</>}
                 //value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
             ///>
     return (
@@ -545,7 +545,7 @@ function AddSongModal(props) {
                     setSongMedia(link.link)
                 }}
                 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
-                triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
+                triggerElement={<>Search YouTube</>}
                 value={(songTitle) + (songComposer ? ' ' + songComposer : '')}
                />
                

@@ -89,7 +89,7 @@ export default function LinksEditor(props) {
                     
                 }}
                 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
-                triggerElement={<>{props.tunebook.icons.youtube} Search YouTube</>}
+                triggerElement={<>Search YouTube</>}
                 value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
             />
           </span>

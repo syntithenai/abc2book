@@ -304,13 +304,9 @@ export default function MusicSingle(props) {
                     
     
                     {props.mediaPlaylist === null && <ButtonGroup style={{float:'left', marginLeft:'0.2em', maxWidth:'50px'}} >
-                        {/*
-                            !(Array.isArray(tune.links) && tune.links.length > 0) && <><a target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>{props.tunebook.icons.youtube}</Button>
-                        </a>
-                        </>
-                        */}
+                        
                         {/* Have at least one link, play button starts playing*/}
-                        {(Array.isArray(tune.links) && tune.links.length > 0) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.youtube)}</Button>
+                        {(Array.isArray(tune.links) && tune.links.length > 0) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.link)}</Button>
                         }
                         {/* Have no link, play button triggers youtube search*/}
                         {!(Array.isArray(tune.links) && tune.links.length > 0) && 

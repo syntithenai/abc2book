@@ -94,7 +94,7 @@ export default function BooksPage(props) {
                                     <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}} >{option}&nbsp;&nbsp; {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} />}
                                     {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
                                     </Button></Link>
-                                    <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
+                                    <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
                                 </ButtonGroup>
                             } else {
                                 return null
@@ -119,7 +119,7 @@ export default function BooksPage(props) {
                                     //props.setFilter(''); 
                                     props.tunebook.fillMediaPlaylistFromTag(option);
                                     navigate("/tunes")
-                                }} variant={"primary"} size="small" >{props.tunebook.icons.youtube}</Button>
+                                }} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
                                     
                             </ButtonGroup>
                                 

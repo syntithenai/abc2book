@@ -57,7 +57,7 @@ function TuneBookOptionsModal(props) {
           <Button variant="success"  style={{color:'black'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
             {props.tunebook.icons.save}  Download
           </Button>
-          <Button style={{marginLeft:'0.1em'}} onClick={function() {props.tunebook.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"danger"} size="small" >{props.tunebook.icons.youtube} Play Media</Button>
+          <Button style={{marginLeft:'0.1em'}} onClick={function() {props.tunebook.fillMediaPlaylist(props.tunebookOption); navigate("/tunes")}} variant={"danger"} size="small" >{props.tunebook.icons.play} Play Media</Button>
           
           <Button style={{marginLeft:'0.1em'}}  onClick={function() {props.tunebook.fillAbcPlaylist(props.tunebookOption,'',navigate); navigate("/tunes")}} variant={"success"} size="small" >{props.tunebook.icons.play} Play Midi</Button>
          
@@ -66,7 +66,7 @@ function TuneBookOptionsModal(props) {
            {<span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
            
            
-           {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com' && props.currentTuneBook && props.token) && <Button style={{color:'black'}} variant="info" onClick={exportYouTubePlaylist} >{props.tunebook.icons.add} {props.tunebook.icons.youtubeblack} Export YouTube Playlist</Button>}
+           {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com' && props.currentTuneBook && props.token) && <Button style={{color:'black'}} variant="info" onClick={exportYouTubePlaylist} >{props.tunebook.icons.add} Export YouTube Playlist</Button>}
            
          <hr style={{width:'100%', clear:'both'}} />
           <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >
