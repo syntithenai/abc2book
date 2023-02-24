@@ -1,5 +1,40 @@
 
 X: 0
+T: Penny on the Water
+C:Trad.
+B: kids songs
+B: traditional songs
+M:4/4
+L:1/8
+R: Hornpipe
+Q: 1/4=150
+K:G
+V:1 
+(3DEF|"G"G2G2 G2G2|"D7"FGAF "G"G3A|B2B2 "Em"B2B2|"D7"ABcA "G"B4|
+"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"GABc d4|
+"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"G2G2 G2|]
+W: One, two, three, four, five, six, seven,
+W: All good children go to heaven.
+W: Penny on the water, tuppence on the sea,
+W: Thruppence on the roundabout, and round go we.
+W: Penny on the water, tuppence on the sea,
+W: Thruppence on the roundabout, and round go we.
+% abcbook-tune_id 63e4c84a414596f3a40de41d
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=0Lstj1h_FIU
+% abcbook-link-title-0 Penny on the Water
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676950111835
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1
 T: Amazing Grace
 C:John Newton
 B: songs
@@ -38,7 +73,7 @@ W: Than when we first begun.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Obp-9BEZe1c
 % abcbook-link-title-0 Pentatonix - Amazing Grace (My Chains Are Gone) (Official Video)
-% abcbook-boost 20
+% abcbook-boost 0
 % abcbook-difficulty 5
 % abcbook-tags begged borrowed and stolen,traditional songs,© free,steve ryan
 % abcbook-tablature 
@@ -62,7 +97,7 @@ W: Than when we first begun.
 % Text Has notes text
 % Has_accompaniment_chords Has chords
 
-X: 1
+X: 2
 T: The Rose Of Aranmore
 B: songs
 B: traditional songs
@@ -125,7 +160,7 @@ W:
 % abc-sessionorg_setting_id 43571
 % abc-boost 1
 
-X: 2
+X: 3
 T: Ye Banks And Braes
 C:Traditional
 B: songs
@@ -169,7 +204,7 @@ W: And ah! She left the thorn wi' me.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=qnTLR54Coz8
 % abcbook-link-title-0 Ye Banks and Braes - Holly Tomas
-% abcbook-boost 17
+% abcbook-boost 0
 % abcbook-difficulty 7
 % abcbook-tags begged borrowed and stolen,traditional songs,© free,steve ryan
 % abcbook-tablature 
@@ -183,7 +218,7 @@ W: And ah! She left the thorn wi' me.
 % abc-sessionorg_setting_id 6718
 % abc-boost 1
 
-X: 3
+X: 4
 T: Wild Mountain Thyme
 B: songs
 B: traditional songs
@@ -242,7 +277,7 @@ W: Chorus
 % abc-sessionorg_setting_id undefined
 % abc-boost 0
 
-X: 4
+X: 5
 T: Lanigan's Ball
 B: songs
 B: traditional songs
@@ -311,7 +346,7 @@ W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
 % abc-sessionorg_setting_id 43100
 % abc-boost 0
 
-X: 5
+X: 6
 T: The Muckin' O' Geordie's Byre
 B: songs
 B: traditional songs
@@ -379,7 +414,6 @@ W: At the muckin' o' Geordie's byre-
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=7XgMxKP_Jcs
 % abcbook-link-title-0 Andy Stewart - The Muckin&#39; O&quot; Geordie&#39;s Byre
-% abcbook-link-start-at-0 12
 % abcbook-boost 0
 % abcbook-difficulty 7
 % abcbook-tags begged borrowed and stolen,celtic tunes,nick hutten,traditional songs,© free
@@ -394,7 +428,7 @@ W: At the muckin' o' Geordie's byre-
 % abc-sessionorg_setting_id 1110
 % abc-boost 0
 
-X: 6
+X: 7
 T: Drumdelgie
 B: songs
 B: traditional songs
@@ -461,7 +495,7 @@ W: An' I leave ye as I got ye, a maist unceevil crew.
 % abc-sessionorg_setting_id 5534
 % abc-boost 0
 
-X: 7
+X: 8
 T: Merrily Kissed The Quaker
 B: songs
 B: traditional songs
@@ -503,7 +537,7 @@ W: Merrily danced the quakers wife and merrily danced the quaker
 % abc-sessionorg_setting_id 70
 % abc-boost 0
 
-X: 8
+X: 9
 T: Off She Goes
 B: songs
 B: traditional songs
@@ -539,189 +573,7 @@ W: Off she goes to Donnybrook Fair
 % abc-sessionorg_setting_id 1133
 % abc-boost 0
 
-X: 9
-T: New York Girls
-B: songs
-B: traditional songs
-B: tunes
-B: good tune book
-M:4/4
-L:1/4
-R: polka
-Q: 1/4=170
-K:G
-V:1 
-d|"G"GB dB|"C"ce-eg|"D"fd cd|"G"B3 d|"G"g>g gd|"C"fe ce|"D7"dd cA|"G"GA Bc|
-"G"d3 B|"C"c e3|"D"d2 c2|"G"B G3|"G"g3 d|"C"fe c2|"D7"d>d cA|"G"A G2|]
-W: As I walked down through Chatham Street
-W: A fair maid I did meet
-W: She asked me to see her home--
-W: She lived in Bleecker Street
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: And when we got to Bleecker Street
-W: We stopped at forty-four
-W: Her mother and her sister there
-W: To meet her at the door
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: And when I got inside the house
-W: The drinks were passed around
-W: The liquor was so awful strong
-W: My head went round and round
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: And then we had another drink
-W: Before we sat to eat
-W: The liquor was so awful strong
-W: I quickly fell asleep
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: When I awoke next morning
-W: I had an aching head
-W: There was I, Jack all alone
-W: Stark naked in me bed
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: Chorus:
-W: My gold watch and my pocketbook
-W: And lady friend were gone;
-W: And there was I, Jack all alone
-W: Stark naked in the room
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: On looking round this little room
-W: There's nothing I could see
-W: But a woman's shift and apron
-W: That were no use to me
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: With a flour barrel for a suit of clothes
-W: Down Cherry Street forlorn
-W: There Martin Churchill took me in
-W: And sent me 'round Cape Horn
-W: 
-W: Chorus:
-W: To me a-weigh, you Santy, My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-W: 
-W: To me a-weigh, you Santy, My honey , My dear Annie
-W: Oh, you New York girls, Can't you dance the polka?
-% abcbook-tune_id 62828a3ad97168c2033c5a8e
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=wPjJoNqFCwY
-% abcbook-link-title-0 New York Girls Finbar Furey Lyrics
-% abcbook-boost 0
-% abcbook-difficulty 6
-% abcbook-tags begged borrowed and stolen,traditional songs,© free,good tune book
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675773614691
-% abcbook-soundfonts 
-% abcbook-repeats 3
-% abc-sessionorg_id 
-% abc-sessionorg_setting 0
-% abc-sessionorg_setting_id undefined
-% abc-boost 0
-% Rhythm Polka
-% Transcriptions Only 1 transcription
-% Mode major
-% Key G
-% Time_signature 4/4
-% Has_accompaniment_chords Has chords
-
 X: 10
-T: The Rose Tree
-C:Traditional
-B: tunes
-B: traditional songs
-M:2/4
-L:1/8
-R: polka
-Q: 1/4=100
-K:D
-V:1 
-f/e/|:"D"dB AF|A>B AB|"D"d2 "G"ed/e/|"A"fe ef/e/|
- "D"dB AF|A>B AB|"G"d2 "A"ed/e/|"D"fd d2:|
- |:"D"fe fg|a2 gf|"G"eb ba|"A"be ef/e/|
-"D" dB AF|"G"A>B AB|"D"d2 "A"ed/e/|"D"fd d2:|
-W: A rose tree in full bearing,
-W: Had sweet flowers fair to see,
-W: One rose beyond comparing,
-W: For beauty attracted me;
-W: Tho’ eager then to win it,
-W: Lovely, blooming, fresh and gay.
-W: I find a canker in it,
-W: And now throw it far away.
-W: 
-W: How fine this morning early,
-W: All sun shiny, clear and bright
-W: So late I lov’d you dearly,
-W: Tho’ lost now each fond delight.
-W: The clouds seem big with showers,
-W: Sunny beams no more are seen.
-W: Farewell ye fleeting hours,
-W: Your falsehood has chang’d the scene.
-W: 
-% abcbook-tune_id 62828a3abf72e6ad4809eeae
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=JEcYKsEs3Ak
-% abcbook-boost 14
-% abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677032842652
-% abcbook-soundfonts 
-% abcbook-repeats 3
-% abc-sessionorg_id 1123
-% abc-sessionorg_setting 0
-% abc-sessionorg_setting_id 1123
-% abc-boost 0
-
-X: 11
 T: The Bog Down in the Valley-oh
 B: songs
 B: traditional songs
@@ -1040,7 +892,7 @@ W: Rare bog, a rattlin' bog, a bog down in the valley-o
 % Time_signature 4/4
 % Has_accompaniment_chords Has chords
 
-X: 12
+X: 11
 T: Hundred Pipers
 B: songs
 B: traditional songs
@@ -1119,7 +971,7 @@ W: https://lyricstranslate.com
 % abc-sessionorg_setting_id 24519
 % abc-boost 0
 
-X: 13
+X: 12
 T: Roddy McCorley
 B: songs
 B: traditional songs
@@ -1186,7 +1038,7 @@ W: And young Roddy McCorley goes to die on the bridge of Toome today.
 % abcbook-repeats 3
 
 
-X: 14
+X: 13
 T: The Mountains Of Pomeroy
 B: songs
 B: traditional songs
@@ -1258,7 +1110,6 @@ W: On the mountains of Pomeroy.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=es0T5aw06YU
 % abcbook-link-title-0 The mountains of Pomeroy
-% abcbook-link-start-at-0 32
 % abcbook-boost 0
 % abcbook-difficulty 6
 % abcbook-tags begged borrowed and stolen,traditional songs,© free
@@ -1270,7 +1121,7 @@ W: On the mountains of Pomeroy.
 % abcbook-repeats 3
 
 
-X: 15
+X: 14
 T: Ashokan Farewell
 C:Jay Unger
 B: songs
@@ -1325,7 +1176,7 @@ W: Or leave them behind
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2kZASM8OX7s
 % abcbook-link-title-0 Folk Alley Sessions: Jay Ungar &amp; Molly Mason Family Band, &quot;Ashokan Farewell&quot;
-% abcbook-boost 16
+% abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,ralph cullen,steve ryan,traditional songs,© free
 % abcbook-tablature 
@@ -1336,445 +1187,7 @@ W: Or leave them behind
 % abcbook-repeats 2
 
 
-X: 16
-T: Ora Lee
-B: songs
-B: traditional songs
-B: tunes
-M:4/4
-L:1/8
-Q: 1/4=141
-K:G
-V:1 
-{F/}G3E|:"G" D2G4 AB|"D"AG E2 {G/}A3G|F2D2 EDFD|"G"G3A BAGE|
-D (3D/E/F/ G4 AB|"D"AGEG A3G|"D"~F2 D2 ED F2|1 "G"G6 GE:|2 "G"[G4B4]G2A2||
-|:"G"[D3B3] d BA G2|([D4B4]B2) [Gd][Ac]|BAGE D2G2|[G4B4] [A2c2][B2d2]|
-"C"[E4c4]c2B2|"D"A[GA][FA][GA] A3G|~F2D2 ED [F2A2]|1 [G2B4] G2A2:|2 ([G4B4]G4)||
-W: [Verse 1]
-W: When the blackbird in the Spring
-W: 'Neath the willow tree
-W: Sat and rocked, I heard him sing
-W: Singing Aura Lea!
-W: Aura Lea!, Aura Lea!
-W: Maid of golden hair
-W: Sunshine came along with thee
-W: And swallows in the air
-W: 
-W: [Chorus]
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Sunshine came along with thee
-W: And swallows in the air
-W: Sunshine came along with thee
-W: And swallows in the air
-W: [Verse 2]
-W: In thy blush the rose was born
-W: Music when you spake
-W: In thine azure eye the morn
-W: Sparkling, seemed to break
-W: Aura Lea!, Aura Lea!
-W: Take my golden ring
-W: Love and life return with thee
-W: And swallows in the Spring
-W: 
-W: [Chorus]
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Sunshine came along with thee
-W: And swallows in the air
-W: Sunshine came along with thee
-W: And swallows in the air
-W: 
-W: [Verse 3]
-W: Aura Lea! The bird may flee
-W: The willow's golden hair
-W: Swing through winter fitfully
-W: On the stormy air
-W: Yet if thy blue eyes I see
-W: Gloom will soon depart
-W: For to me, sweet Aura Lea
-W: Is sunshine through the heart
-W: 
-W: 
-W: [Chorus]
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Sunshine came along with thee
-W: And swallows in the air
-W: Sunshine came along with thee
-W: And swallows in the air
-W: 
-W: [Verse 4]
-W: When the mistletoe was green
-W: Midst the winter's snows
-W: Sunshine in thy face was seen
-W: Kissing lips of rose
-W: Aura Lea!, Aura Lea!
-W: Take my golden ring
-W: Love and light return with thee
-W: And swallows with the Spring
-W: 
-W: [Chorus]
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Aura Lea!, Aura Lea!
-W: Maid with golden hair
-W: Sunshine came along with thee
-W: And swallows in the air
-W: Sunshine came along with thee
-W: And swallows in the air
-% abcbook-tune_id 63ae8f1cb365b3a4b8fb95d2
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=cw-Wxt4FVyM
-% abcbook-boost 10
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675313462945
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 17
-T: Little Liza Jane
-B: songs
-B: traditional songs
-B: tunes
-M:4/4
-L:1/8
-Q: 1/4=170
-K:A
-V:1 
-ef | a2 f2 e3 e | fecB  A2 ef | a2 f2 e2 c2 | f6
-ef | a2 e2 e3 e | fecB  A4    | cBAF  E2 F2 | A4 A2 :|
-z2 | Bccc  c3 A | B2 A6       | Bccc  cB A2 | F6 
-E2 | F A3  B3 A | B c3  B3  A | cBAF  E2 F2 | A4 A2 :|]
-W: There’s a house in Baltimore
-W: Sixteen stories high
-W: And every story in that house
-W: Was full of chicken pie
-W: 
-W: Oh Liza poor girl
-W: Oh Liza Jane
-W: Oh Liza poor girl
-W: She died on the train
-W: 
-W: I went up on the mountain
-W: To give my horn a blow
-W: And every girl in the countryside
-W: Said yonder comes my beau
-W: 
-W: When I was a little boy
-W: I liked to go in swimming
-W: Now I am a bigger boy
-W: I like to go with women
-W: 
-W: I wish I had a candy box
-W: To put my sweetheart in
-W: I’d take her out and kiss her twice
-W: And put her back again
-W: 
-W: One day I set a-courting
-W: A girl as dear as life
-W: When a woman she said to me
-W: Mr.Jones
-W: how is your wife
-% abcbook-tune_id 63ae8f1cae27b563b216a2b9
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=2X7TdfMd3ns
-% abcbook-boost 9
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning AEAE
-% abcbook-lastupdated 1675315358532
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 18
-T: June Apple
-C:R-109
-B: songs
-B: traditional songs
-B: tunes
-M:4/4
-R: reel
-Q: 1/4=146
-K:Amixolydian
-V:1 
-eg| "A"ageg ageg| aged ""cdef| "A"gfef gfef| "D"gagf e2eg|
-"A"ageg ageg| aged cBAA| "E"G2GA BAG2| "A"A3B A2 :|
-|:\
-ed| "A"c2cB A2AB| c2cd e2A2| "G"G2A2 Bc3| d3e d4|
-"A"cdcB A2AB| cBcd e2A2| "E"GFGA BAG2|1 "A"A3B A2 :|2 "A"A6 |]
-W: Wish I was a june apple
-W: Hanging on a tree
-W: Every time my love went by
-W: She'd take a bite of me
-W: Take a bite of me my love
-W: Take a bite of me
-W: Every time my love went by
-W: She'd take a bite of me.
-W: 
-W: Made this banjo from a gourd.
-W: It's strings are made of twine.
-W: Only tune it will play
-W: Is trouble on my mind.
-W: Trouble on my mind love
-W: Trouble on my mind.
-W: Only tune it will play
-W: Is trouble on my mind.
-W: 
-W: Train out on the island love,
-W: I heard that whistle blow.
-W: Tell my friends I'm sorry
-W: I'm sick and I must go.
-W: Sick and I must go my love,
-W: Sick and I must go.
-W: Tell my friends I'm sorry
-W: I'm sick and I must go.
-% abcbook-tune_id 63ae8f1c06b44a1c00a30794
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=JPNUBR1sTfA
-% abcbook-boost 18
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning AEAE
-% abcbook-lastupdated 1675313352782
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%text 9/1/98
-
-X: 19
-T: The Blackest Crow
-C:Traditional
-B: songs
-B: traditional songs
-B: tunes
-M:3/4
-L:1/8
-R: waltz
-Q: 1/4=170
-K:Em
-V:1 
-|:B2|"D"A4 G2|E4 D2|"G"G4 A2|B4 d2|"D"B4 A2|G4 D2|
-"Em"E6|E4 B2|"D"A2 A2 G2|E4 DD|"G"G4 A2|B4 d2|
-"D"B4 A2|G4 D2|"Em"E6|E4 D2|"G"G4 G2|G2 A2 B2|d4 d2|
-B4 dd|"Em"e4 e2|"D"d4 e2|"Em"B6|B4 B2|"D"A4 G2|E4 D2|
-"G"G2 G2 A2|B4 d2|"D"B4 A2|G4 D2|"Em"E6|E2:|
-W: As time draws near my dearest dear when you and I must part
-W: How little you know of the grief and woe in my poor aching heart
-W: Each night I suffer for your sake, you’re the girl I love so dear
-W: I wish that I was going with you or you were staying here
-W: 
-W: I wish my breast were made of glass wherein you might behold
-W: Upon my heart your name lies wrote in letters made of gold
-W: In letters made of gold my love, believe me when I say
-W: You are the one that I will adore until my dying day
-W: 
-W: The blackest crow that ever flew would surely turn to white
-W: If ever I prove false to you bright day will turn to night
-W: Bright day will turn to night my love, the elements will mourn
-W: If ever I prove false to you the seas will rage and burn
-W: 
-W: And when you’re on some distant shore think of your absent friend
-W: And when the wind blows high and clear a light to me pray send
-W: And when the wind blows high and clear pray send your love to me
-W: That I might know by your hand light how time has gone with thee
-% abcbook-tune_id 63ae8f1c14209a9859ef8fcc
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=4wRnDa7GdzQ
-% abcbook-link-title-0 The Blackest Crow - Red Tail Ring
-% abcbook-boost 14
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose -2
-% abcbook-tuning 
-% abcbook-lastupdated 1675740255634
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%MIDI transpose      -2
-
-
-X: 20
-T: Arkansas Traveler
-B: songs
-B: traditional songs
-B: tunes
-B: good tune book
-M:4/4
-L:1/8
-R: reel
-Q: 1/4=100
-K:D
-V:1 
-A2 |: "D"dfed "G"B2B2 | "D"A2A2 d2d2 | "A"e2e2 f2f2 | efed B2A2 |
-   |"D"dfed "G"B2B2 | "D"A2A2 d4 | "D"dcdA "G"BdAG |1 "A"F2E2"D"D2A2:|2 "A"F2E2D2 "D"fg||
-   |: "D"agfa "G"gfeg | "D"fedf "A"e2A2 | "D"dcde "G"fefg | "D"afdf "A"e2fg |
-   |"D"agfa "G"gfeg | "D"fedf "A"e2A2 |1 "D"dcdA "G"BdAG |1 "A"F2E2D2 "D"fg:|2 "A"F2E2D2 "D"A2 ||
-W: Oh once upon a time in Arkansas
-W: An old man sat in his little cabin door
-W: And fiddled at a tune that he liked to hear
-W: A jolly old tune that he played by ear
-W: 
-W: It was raining hard but the fiddler didn’t care
-W: He sawed away at the popular air
-W: Though his rooftop leaked like a waterfall
-W: That didn’t seem to bother the old man at all
-W: 
-W: A traveler was riding by that day
-W: And stopped to hear him a-fiddling away
-W: The cabin was afloat and his feet were wet
-W: But the old man still didn’t seem to fret
-W: 
-W: So the stranger said Now the way it seems to me
-W: You’d better mend your roof said he
-W: But the old man said as he played away
-W: I couldn’t mend it now it’s a rainy day
-W: 
-W: The traveler replied that’s all quite true
-W: But this I think is the thing for you to do
-W: Get busy on a day that is fair and bright
-W: Then patch the old roof till it’s good and tight
-W: 
-W: But the old man kept on a-playing at his reel
-W: And tapped the ground with his leathery heel
-W: Get along said he for you give me a pain
-W: My cabin never leaks when it doesn’t rain
-% abcbook-tune_id 63ae8f1c89025064e80480e3
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=PB3tSSlq130
-% abcbook-link-title-0 &quot;Arkansas Traveler&quot;  -  Katrina Nicolayeff  -  Camp Sumner Sessions
-% abcbook-link-1 35
-% abcbook-link-2 317
-% abcbook-boost 16
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,nick hutten,old time tunes,ralph cullen,steve ryan,traditional songs,© free,jims roots and blues,good tune book,max campbell
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677031472293
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 21
-T: Angeline The Baker
-C:Stephen Foster
-B: songs
-B: traditional songs
-B: tunes
-L:1/8
-Q: 1/4=100
-K:D
-V:1 
-dB|:"D"A2B2 d3 A|B2 d4 dB|A2 B2 dB A2 |"G"B6 dB|
-  |"D"A2B2 d3 e|f2e2 d3 e |"D"f2e2 "G"d2B2|1 "D"A6 dB:|2 "D"A6 fg ||
-  |:"D"a2f2 e2 de|f2e2 d2 fg|a2f2 e2d2|"G"B6 fg|
-  |"D"a2f2 e2 de|f2e2 d2 de|"D"f2e2 "G"d2B2|1 "D"A6 fg:|2 "D"A6 dB||
-W: Angeline the baker, lives on the village green
-W: The way I always loved her, beats all you've ever seen
-W: Angeline the baker, Angeline I know
-W: Should have married Angeline, twenty years ago
-W: 
-W: Angeline the baker, age of 43
-W: Fed her sugar candy, but she still won't marry me
-W: Angeline the baker, Angeline I know
-W: Should have married Angeline, just twenty years ago
-W: 
-W: Her father was a baker, his name was Uncle Sam
-W: I never can forget her, no matter where I am
-W: She said couldn't do hard work, because she is not stout
-W: Baked the biscuits every day and poured the coffee out
-W: Angeline the baker, age of 43
-W: Fed her sugar candy, but she still won't marry me
-W: Angeline the baker, Angeline I know
-W: Should have married Angeline, just twenty years ago
-W: 
-W: I bought Angeline a brand new dress, neither black nor brown
-W: It was the colour of a stormy skies, before the rain came down
-W: Sixteen horses in my team, the leader he was blind
-W: I dreamed that I was dying, I saw my Angeline
-W: 
-W: Angeline the baker, age of 43
-W: Fed her sugar candy, but she still won't marry me
-W: Angeline the baker, Angeline I know
-W: Should have married Angeline, just twenty years ago
-% abcbook-tune_id 63ae8f1cd6ad05957363f8a9
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=bZxdXLtDuIA
-% abcbook-boost 18
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,ralph cullen,steve old time,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675347967282
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 22
-T: All The Good Times
-B: songs
-B: traditional songs
-B: tunes
-M:3/4
-L:1/4
-Q: 1/4=180
-K:G
-V:1 
- "G"B3/2 A/2 B| "G7"G2 A| "C"G- F E| "G"D3|
- "G"B3/2 A/2 B| G2 E| "D7"F- A2-| A2 z|
- "G"B3/2 A/2 B|\ "G7"G2 G| "C"G- F E| "G"D2 D/2D/2|
- "C"D G G/2G/2| "D7"F- G A| "G"G3-| G2 z|
-W: I wish to the Lord I’d never been born
-W: Or died when I was young
-W: I never would a’ seen your sparklin’ blue eyes
-W: Or heard your lying tongue
-W: 
-W: All the good times are past and gone
-W: All the good times are o’er
-W: All the good times are past and gone
-W: Little darlin’ don’t you weep no more.
-W: 
-W: Now don’t you see that turtle dove
-W: Flyin from pine to pine
-W: It’s mournin’ for It’s own true love
-W: Just like I mourn for mine.
-W: 
-W: Come back, come back my own true love
-W: And stay a while with me
-W: For if ever I’ve had a friend in this world
-W: You’ve been a friend to me
-% abcbook-tune_id 63ae8f1c6f964548c581da13
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=43zqJnNdNWQ
-% abcbook-boost 6
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve old time,steve ryan,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675227840746
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 23
+X: 15
 T: Babethandaza/Sin Nje Nje
 C:African Traditional
 B: songs
@@ -1810,7 +1223,7 @@ W: Babethandaza, Babethandaza
 % abcbook-repeats 1
 
 
-X: 24
+X: 16
 T: Raglan Road
 C:Traditional
 B: songs
@@ -1864,7 +1277,6 @@ W: His wings at the dawn of day
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=e05Xfys4wxg
 % abcbook-link-title-0 Raglan Road - John Sheahan – 80th Birthday Concert - Featuring Glen Hansard and Declan O&#39;Rourke
-% abcbook-link-start-at-0 102
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,traditional songs,max campbell,© free
@@ -1874,7 +1286,7 @@ W: His wings at the dawn of day
 % abcbook-lastupdated 1676950207120
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                        -05
+%%MIDI transpose                                                            -05
 % Rhythm Waltz
 % Transcriptions Only 1 transcription
 % Mode major
@@ -1883,7 +1295,7 @@ W: His wings at the dawn of day
 % Text Has notes text
 % Has_accompaniment_chords Has chords
 
-X: 25
+X: 17
 T: Earl Richard
 C:Traditional
 B: songs
@@ -1969,7 +1381,7 @@ W: Among the leaves so green.”
 % abcbook-repeats 1
 
 
-X: 26
+X: 18
 T: Lazy John
 C:Traditional Bluegrass
 B: songs
@@ -2026,10 +1438,10 @@ W: Why don't you get away, Lazy John.
 % abcbook-lastupdated 1674125126994
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                 05
+%%MIDI transpose                                     05
 
 
-X: 27
+X: 19
 T: Off To Sea Once More
 C:Jerry Garcia
 B: songs
@@ -2134,11 +1546,10 @@ W:
 % abcbook-repeats 1
 
 
-X: 28
+X: 20
 T: Mary Ellen Carter
 C:Stan Rogers
 B: songs
-B: incoming
 B: traditional songs
 M:4/4
 Q: 1/4=155
@@ -2227,27 +1638,25 @@ W: Like the Mary Ellen Carter, rise again!
 % abcbook-tablature 
 % abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1674206684516
+% abcbook-lastupdated 1677221123920
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                     7
+%%MIDI transpose                                                         7
 
 
-X: 29
+X: 21
 T: Waxies Dargle
 C:Traditional
 B: songs
 B: traditional songs
 M:4/4
 Q: 1/4=170
-K:D
+K:G
 V:1 
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"A7"zzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzz"A"zzzz|"D"zzzzzzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"A7"zzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"A"zzzz|"D"zzzzzzzz|
-"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"A"zzzz|
-"D"zzzzzzzz|"G"zzzzzzzz|"D"zzzz"A"zzzz|"D"zzzzzzzz|
+|: gf | "G"efed B2 G2 | "C"ABAG E2 DE | "G"G2 GF GABc | "D"dedc B2 gf |
+"G"efed B2 G2 | "C"ABAG E2 G2 | "D"FGAF DEFA | "G"G4 G2 :|
+|:dc | "G"BGBd "D"edef | "G"gedB "D"AGGA | "G"BGBd "Em"edef |
+"C"g4 "D"f2 gf | "G"e2d2 B2G2 | "C"ABAG E2G2 | "D"F2A2 D2 EF | "G"G2 G :|
 W: Says my aul' wan to your aul' wan "Will ye come to the Waxies dargle?"
 W: Says your aul' wan to my aul' wan, "Sure I haven't got a farthing.
 W: I've just been down to Monto town to see uncle McArdle
@@ -2273,14 +1682,15 @@ W: "When food is scarce and you see the hearse you'll know you have died of hung
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,max campbell,© free
 % abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1673938635296
+% abcbook-transpose -5
+% abcbook-tuning -5
+% abcbook-lastupdated 1677120777446
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose      -5
 
 
-X: 30
+X: 22
 T: Some Say The Devil is Dead
 C:Traditional
 B: songs
@@ -2321,7 +1731,7 @@ W: It's going back on Monday. CHORUS
 % abcbook-link-title-0 Spiritual Seasons &quot;Some Say The Devil Is Dead&quot; Traditional Irish Song.
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,© free
+% abcbook-tags steve ryan,© free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2330,7 +1740,7 @@ W: It's going back on Monday. CHORUS
 % abcbook-repeats 1
 
 
-X: 31
+X: 23
 T: Blackleg Miner
 B: songs
 B: traditional songs
@@ -2389,7 +1799,7 @@ W: You dirty blackleg miner.
 % abcbook-repeats 1
 
 
-X: 32
+X: 24
 T: Irish Rover
 C:The Irish Rovers
 B: songs
@@ -2455,7 +1865,7 @@ W: Now I'm the last of the Irish Rover
 % abcbook-repeats 1
 
 
-X: 33
+X: 25
 T: My Son John
 C:Traditional
 B: songs
@@ -2520,7 +1930,7 @@ W: Whack for a diddle to me ooh rum rye
 % abcbook-repeats 1
 
 
-X: 34
+X: 26
 T: A Man You Don't Meet Every Day
 C:Traditional
 B: songs
@@ -2566,7 +1976,7 @@ W: I'm a man you don't meet every day
 % abcbook-repeats 1
 
 
-X: 35
+X: 27
 T: Down By The Sally Gardens
 C:Traditional
 B: songs
@@ -2594,7 +2004,7 @@ W: But I was young and foolish, and now am full of tears.
 % abcbook-link-title-0 Down By The Salley Gardens - William Butler Yeats
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,steve ryan,copyright,© free,©
+% abcbook-tags charlotte lyngbye,steve ryan,© free,©,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2603,7 +2013,7 @@ W: But I was young and foolish, and now am full of tears.
 % abcbook-repeats 1
 
 
-X: 36
+X: 28
 T: Black Velvet Band
 C:Traditional
 B: songs
@@ -2688,7 +2098,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 37
+X: 29
 T: Adieu Sweet Lovely Nancy
 C:Traditional
 B: songs
@@ -2747,7 +2157,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 38
+X: 30
 T: Cunla
 C:Planxty
 B: songs
@@ -2841,7 +2251,7 @@ W: Yea ra maybe I shouldn't, says Cúnla
 % abcbook-repeats 1
 
 
-X: 39
+X: 31
 T: As I Roved Out
 C:Traditional
 B: songs
@@ -2933,7 +2343,7 @@ W: {c: CHORUS}
 % abcbook-repeats 1
 
 
-X: 40
+X: 32
 T: Rosemary Lane
 C:Traditional
 B: songs
@@ -2989,7 +2399,7 @@ W: And that was the beginning of my downfall
 % abcbook-repeats 1
 
 
-X: 41
+X: 33
 T: The Parting Glass
 C:Traditional
 B: songs
@@ -3096,7 +2506,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 42
+X: 34
 T: Cumberland Gap
 C:Traditional
 B: songs
@@ -3144,7 +2554,7 @@ W: We’ll all pull together and sing this song. Refrain
 % abcbook-link-title-0 Cumberland Gap -- The Wayfarers
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,© free
+% abcbook-tags steve ryan,© free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -3153,7 +2563,7 @@ W: We’ll all pull together and sing this song. Refrain
 % abcbook-repeats 1
 
 
-X: 43
+X: 35
 T: Farther Along
 C:W B. Stevens
 B: songs
@@ -3212,7 +2622,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 44
+X: 36
 T: Lancashire
 B: songs
 B: traditional songs
@@ -3280,7 +2690,7 @@ W: No wonder we sing of Lancashire to beat the rural blues.
 % abcbook-repeats 1
 
 
-X: 45
+X: 37
 T: Do You Love An Apple
 C:Traditional
 B: songs
@@ -3327,7 +2737,7 @@ W:
 % abcbook-link-title-0 The Secret Sisters - Do You Love An Apple
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,velma mckeachie,steve ryan,copyright,© free,©
+% abcbook-tags charlotte lyngbye,velma mckeachie,steve ryan,© free,©,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -3336,7 +2746,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 46
+X: 38
 T: Like A Songbird That Has Fallen
 C:Reeltime Travelers
 B: songs
@@ -3378,7 +2788,7 @@ W: From this frozen shadow valley, they must weary fly
 % abcbook-repeats 1
 
 
-X: 47
+X: 39
 T: The Raggle Taggle Gypsy
 C:Christy Moore
 B: songs
@@ -3451,7 +2861,7 @@ W: Than all the cash and money-o”
 % abcbook-repeats 1
 
 
-X: 48
+X: 40
 T: Mingulay Boat Song
 B: songs
 B: traditional songs
@@ -3516,10 +2926,10 @@ W: Sailing homeward to Mingulay
 % abcbook-lastupdated 1676948713201
 % abcbook-soundfonts 
 % abcbook-repeats 2
-%%MIDI transpose       -2
+%%MIDI transpose           -2
 
 
-X: 49
+X: 41
 T: Come By The Hills
 C:Gordon Smith
 B: songs
@@ -3532,7 +2942,6 @@ V:1
 E2 F2 G2|A2 G2 F2|G2 F2 E2|C2 E2 G2|"Bb"F6-|F4 GA|
 "Eb"B2 G2 F2|E4 FG|"Ab"A2 B2 c2|"Eb"B2 G2 F2|"Bb"F6-|F4 EF|\
 "Eb"G4 FG|"Ab"F2 E2 C2|"Eb"B,4 B,2|"Bb"C2 E2 F2|"Eb"E6||
-
 W: Come by the hills to the land where fancy is free
 W: And stand where the peaks meet the sky and the lochs meet the sea
 W: Where the rivers run clear and the bracken is gold in the sun
@@ -3560,7 +2969,7 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % abcbook-lastupdated 1677040901028
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                        4
+%%MIDI transpose                                                            4
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Has lots of stepwise movement
@@ -3573,7 +2982,7 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % Text Has history text
 % Has_accompaniment_chords No chords
 
-X: 50
+X: 42
 T: Siuil A Ruin
 C:Clannad
 B: songs
@@ -3642,7 +3051,7 @@ W: Iss guh day thoo avorneen slawn.
 % abcbook-repeats 1
 
 
-X: 51
+X: 43
 T: I'll Tell Me Ma
 B: songs
 B: traditional songs
@@ -3736,7 +3145,7 @@ W: Pray, want you tell me who is she?
 % abcbook-repeats 1
 
 
-X: 52
+X: 44
 T: Joshua Fit The Battle Of Jericho
 C:Sidney Bechet / Georgeann Hodes
 B: songs
@@ -3800,7 +3209,7 @@ W: And the walls came tumbling down!
 % abcbook-repeats 1
 
 
-X: 53
+X: 45
 T: Alfie's Song/A Gypsy Came To The Castle Gate
 C:Traditional/Lark Rise To Candleford
 B: songs
@@ -3863,7 +3272,7 @@ W: And ne’er was alone no more.
 % abcbook-link-title-0 Alfie&#39;s Song
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,© free
+% abcbook-tags steve ryan,© free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -3872,7 +3281,7 @@ W: And ne’er was alone no more.
 % abcbook-repeats 2
 
 
-X: 54
+X: 46
 T: She Moved Through The Fair
 C:Traditional
 B: songs
@@ -3924,7 +3333,7 @@ W: till our wedding-day".
 % abcbook-repeats 3
 
 
-X: 55
+X: 47
 T: The Blacksmith
 C:Traditional
 B: songs
@@ -3978,10 +3387,10 @@ W: And if I were with my love, I would live forever
 % abcbook-lastupdated 1673934003852
 % abcbook-soundfonts 
 % abcbook-repeats 6
-%%MIDI transpose                                                        5
+%%MIDI transpose                                                            5
 
 
-X: 56
+X: 48
 T: Matty Groves
 C:Traditional
 B: songs
@@ -4098,7 +3507,7 @@ W: For she was of noble kin”
 % abcbook-repeats 1
 
 
-X: 57
+X: 49
 T: Fields Of Athenry
 C:Traditional
 B: songs
@@ -4167,7 +3576,7 @@ W: It's so lonely around the fields of Athenry
 % abcbook-repeats 3
 
 
-X: 58
+X: 50
 T: Corbies
 C:Traditional
 B: songs
@@ -4209,7 +3618,6 @@ W: The wind sall blow forever mair
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=e4gLZe15BFQ
 % abcbook-link-title-0 Ayreheart - Twa Corbies
-% abcbook-link-start-at-0 7
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,© free
@@ -4221,7 +3629,7 @@ W: The wind sall blow forever mair
 % abcbook-repeats 1
 
 
-X: 59
+X: 51
 T: By Chance It Was
 C:Clannad
 B: songs
@@ -4297,7 +3705,7 @@ W:
 % abcbook-repeats 5
 
 
-X: 60
+X: 52
 T: Annachie Gordon
 C:Traditional
 B: songs
@@ -4409,7 +3817,7 @@ W: And he's died in the chamber that his love she lies in
 % abcbook-link-title-0 Mary Black-Annachie Gordon
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags velma mckeachie,traditional songs,copyright
+% abcbook-tags velma mckeachie,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -4418,7 +3826,7 @@ W: And he's died in the chamber that his love she lies in
 % abcbook-repeats 1
 
 
-X: 61
+X: 53
 T: Green Fields Of France
 C:Traditional
 B: songs
@@ -4559,7 +3967,7 @@ W: And did the pipes play the Flowers of the Forest?
 % abcbook-repeats 1
 
 
-X: 62
+X: 54
 T: Hard Times
 C:Stephen Foster
 B: songs
@@ -4619,7 +4027,7 @@ W: ​Oh! Hard Times, come again no more.
 % abcbook-repeats 1
 
 
-X: 63
+X: 55
 T: Song For Ireland
 C:Phil Colclough
 B: songs
@@ -4674,7 +4082,7 @@ W: I stood by your Atlantic sea and I sang a song for Ireland
 % abcbook-repeats 1
 
 
-X: 64
+X: 56
 T: A Kiss in the Morning Early
 C:Traditional
 B: songs
@@ -4747,7 +4155,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 65
+X: 57
 T: Auld Lang Syne
 B: songs
 B: traditional songs
@@ -4801,7 +4209,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 66
+X: 58
 T: Boston and St John's
 C:Great Big Sea
 B: songs
@@ -4856,7 +4264,7 @@ W: Love me anyway, love me anyway, no no oh
 % abcbook-repeats 1
 
 
-X: 67
+X: 59
 T: Carrickfergus
 C:Traditional
 B: songs
@@ -4905,7 +4313,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 68
+X: 60
 T: Charlie Is My Darling
 C:Traditional
 B: songs
@@ -4961,7 +4369,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 69
+X: 61
 T: Come Thou Fount
 C:Robert Robinson
 B: songs
@@ -5044,7 +4452,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 70
+X: 62
 T: Dimming Of The Day
 C:Richard Thompson
 B: songs
@@ -5090,7 +4498,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 71
+X: 63
 T: When I Was A Fair Maid
 C:Traditional
 B: songs
@@ -5155,7 +4563,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 72
+X: 64
 T: Flower of Scotland
 C:Roy Williamson
 B: songs
@@ -5216,7 +4624,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 73
+X: 65
 T: I Wish My Love Was A Red Red Rose
 C:Traditional
 B: songs
@@ -5266,7 +4674,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 74
+X: 66
 T: My Old Kentucky Home
 C:Stephen Foster
 B: songs
@@ -5331,7 +4739,7 @@ W: Chorus
 % abcbook-repeats 1
 
 
-X: 75
+X: 67
 T: My Love Is Like a Red Red Rose
 C:Traditional
 B: songs
@@ -5385,7 +4793,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 76
+X: 68
 T: The Singing Bird
 C:Traditional
 B: songs
@@ -5424,7 +4832,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 77
+X: 69
 T: Pretty Peg
 C:Bothy Band
 B: songs
@@ -5500,7 +4908,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 78
+X: 70
 T: Red Haired Mary
 C:Traditional
 B: songs
@@ -5604,7 +5012,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 79
+X: 71
 T: Reilly’s Daughter
 C:Traditional
 B: songs
@@ -5674,7 +5082,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 80
+X: 72
 T: Sally Gardens
 C:William Butler Yeats
 B: songs
@@ -5712,7 +5120,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 81
+X: 73
 T: Sands o the shore
 C:Traditional
 B: songs
@@ -5769,7 +5177,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 82
+X: 74
 T: Swing Low
 C:Traditional
 B: songs
@@ -5811,7 +5219,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 83
+X: 75
 T: The Connemara Cradle Song
 C:Tommy Makem
 B: songs
@@ -5856,7 +5264,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 84
+X: 76
 T: The Hills of Greenmore
 C:Traditional
 B: songs
@@ -5897,7 +5305,7 @@ W:
 % abcbook-tune_id 63c54bb2fe40a32961505b7f
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=4u9InH7ltyE
-% abcbook-boost 1
+% abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
@@ -5908,7 +5316,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 85
+X: 77
 T: The Irish Washerwoman
 C:Traditional
 B: songs
@@ -5955,7 +5363,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 86
+X: 78
 T: The Rigs of Rye
 C:Niamh Parsons
 B: songs
@@ -6012,7 +5420,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 87
+X: 79
 T: The Bonnie Lass Of Fyvie
 C:The Corries
 B: songs
@@ -6077,7 +5485,7 @@ W: And to ride when your captain he is ready-o
 % abcbook-repeats 1
 
 
-X: 88
+X: 80
 T: The Jolly Beggar
 C:Traditional
 B: songs
@@ -6143,7 +5551,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 89
+X: 81
 T: The Maid that Sold Her Barley
 C:Traditional
 B: songs
@@ -6201,7 +5609,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 90
+X: 82
 T: I Courted A Wee Girl
 C:Traditional
 B: songs
@@ -6256,7 +5664,7 @@ W: Since love was the cause of my ruin.
 % abcbook-repeats 1
 
 
-X: 91
+X: 83
 T: Pretty Peggy-o
 C:Traditional
 B: songs
@@ -6314,7 +5722,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 92
+X: 84
 T: The Wee Lass On The Brae
 C:Jim MacFarland
 B: songs
@@ -6372,7 +5780,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 93
+X: 85
 T: Fly Away
 C:Albert E. Brumley
 B: songs
@@ -6420,7 +5828,7 @@ W: I'll fly away
 % abcbook-repeats 1
 
 
-X: 94
+X: 86
 T: Fare Thee Well
 C:Traditional
 B: songs
@@ -6453,7 +5861,7 @@ W: Fare thee well, oh honey, fare thee well
 % abcbook-link-title-0 Oscar Isaac - Fare thee well Orignal soundtrack (Inside Llewyn Davis)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags © free,mandira
+% abcbook-tags © free,mandira,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -6462,7 +5870,7 @@ W: Fare thee well, oh honey, fare thee well
 % abcbook-repeats 1
 
 
-X: 95
+X: 87
 T: Moreton Bay
 C:Traditional
 B: songs
@@ -6509,7 +5917,7 @@ W: Our former sufferings shall fade from mind
 % abcbook-link-title-0 Moreton Bay (traditional Australian folk song)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags copyright,© free,©,mandira
+% abcbook-tags © free,©,mandira,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -6518,7 +5926,7 @@ W: Our former sufferings shall fade from mind
 % abcbook-repeats 1
 
 
-X: 96
+X: 88
 T: Tennessee Waltz
 C:Pee Wee King
 B: songs
@@ -6563,85 +5971,23 @@ W: The beautiful Tennessee Waltz!
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=ePwI5KEd8D0
 % abcbook-link-title-0 1947 Pee Wee King - Tennessee Waltz (Redd Stewart, vocal)
-% abcbook-boost 11
+% abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,mike martin,steve ryan,traditional songs,© free
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -7
 % abcbook-tuning 
-% abcbook-lastupdated 1677042840827
+% abcbook-lastupdated 1677232177224
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -7
 
 
-X: 97
-T: Over The Waterfall
-B: songs
-B: traditional songs
-B: tunes
-M:4/4
-L:1/4
-R: reel
-Q: 1/4=100
-K:D
-V:1 
-  d/2e/2|\
- "D" fa "A7" g/2f/2e | "D" dB Ad/2e/2 | "D" fa "A7" g/2f/2e | "D" d3 d/2e/2 | 
- "D" fa "A7" g/2f/2e | "D" dB A>B     | "C" =cc     BA      | "G" G3       :|
-|:F/2G/2|\
- "D" A2 "G"  B2 | "D" A/2B/2A/2G/2 FF/2G/2 | "D" Ad "A7" c/2d/2e | "D" d4  |
- "D" A2 "G"  B2 | "D" A/2B/2A/2G/2 FF/2G/2 | "D" AD "A7" G/2F/2E | "D" D3 :|
-W: I thought I knew what I was doing
-W: I was wrong
-W: Mistakes I've made and lived to tell
-W: I tell them in a song
-W: 
-W: I knew a river wide and deep
-W: Her banks were very tall
-W: At one end was a mountain stream
-W: The other was a waterfall, boys
-W: The other was a waterfall
-W: 
-W: I asked the old man by the river
-W: He did not recall
-W: The last attempt to ride a barrel
-W: Over the waterfall
-W: 
-W: The ferry boatman, he did tell me
-W: That the chance was very small
-W: None survived who went alive
-W: Over the waterfall, boys
-W: Over the waterfall
-W: 
-W: So I built myself an oaken barrel
-W: And inside I did crawl
-W: I broke the record but I broke my back
-W: Going over the waterfall
-W: 
-W: And it's been my luck to live to tell
-W: The only tale I can
-W: It don't hurt you when you fall
-W: Only when you land, boys
-W: Only when you land
-% abcbook-tune_id 63da593445a97366b79cf7ac
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=W1PXDwVDkZc
-% abcbook-boost 16
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1675313468350
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%gchordfont "itim-music,Itim" 20
-
-X: 98
+X: 89
 T: Auld Lang Syne (Old English Lyrics)
 C:Trad. Words by Burns.
-B: traditional songs
 B: songs
+B: traditional songs
 M:4/4
 L:1/8
 Q: 1/4=100
@@ -6683,374 +6029,11 @@ W:
 %%voicecolor black
 %%voicecolor maroon
 
-X: 99
-T: The Cock Lane Ghost
-C:Wm Herschel c1762
-B: traditional songs
-M:3/4
-L:1/4
-R: Waltz
-Q: 1/4=100
-K:D
-V:1 
-A|d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F|
-|:F3/2 A/ G|F3/2 E/ D|G3/2 G/ G|F2 F|F F A|d d F|F F A|d d F|F E G|G F A|D3/2 d/ c|d2 A|
-d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F:|d2|]
-V:2 
-z|z3|z3|z3|z3|z3|z3|z3|z3|z3|z3|z3|z z A|
-|:d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F|F3/2 A/ G|
-F3/2 E/ D|G3/2 G/ G|F2 F|F F A|d d F|F F A|d d F|F E G|G F A|D3/2 d/ c|d2 A:|d2|]
-W: The Ghost will be heard in Cock Lane tonight. The Ghost!
-W: The Ghost! The Ghost will be heard in Cock Lane tonight.
-W: Our Children and parsons and Lords to afright. Our Children and parsons,
-W: Our Children and parsons and Lords to afright.
-W: The Ghost will be heard in Cock Lane tonight. The Ghost!
-W: The Ghost! The Ghost will be heard in Cock Lane tonight.
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84a0eb5657da456c94b
-% abcbook-tune_composer_id 
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags multipart,no youtube available,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676946391210
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 100
-T: Danny Boy
-C:Trad.
-B: traditional songs
-M:4/4
-L:1/8
-R: Air
-Q: 1/4=72
-K:C
-V:1 
-B,CD|"C"E3 D EAGE|"F"DC A,2 zCEF|"C"G3 A GE"Am"CE|"D7"D4 "G"z B,CD|
-"C"E3 D EAGE|"F"DC A,2 "G7"z B,CD|"C"E3F "G7"EDCD|"C"C4 "G7"z GAB||
-"C"c3B "F"BA"G7"GA|"C"GE "F"C2 "G7"z GAB|"C"c3B "F"BA"A7"GE|"D7"D4 "G7"z GGG|
-"C"e3d "F"dcAc|"C"GE "Am7"C2 "F"zB,"G7"CD|"C"EAGE "G7"DCA,B,|"C"C2-"F"C2- "C"C||
-V:2 
-GAB|cB/2A/2 G2 cfec|f4 c'agf|ed c2 B2 A2
-|fAdc BGAB|cB/2A/2 G2 cfec|f4 c'baf|gecA G2 AB|cefa gefd
-|ef g2 f2 ef|ecfa gefd|ef g2 f2 ec|fAdc BGBd
-|cegb a2 f2|e/2d/2c/2B/2 Ae f4|gfec f3 g|c2-c2-c||
-V:3 
-G,A,B,|CB,/2A,/2 G,2 CFEC|c2 A2 G2 F2|ED C2 B,2 A,2|FA,DC B,G,A,B,|
-CB,/2A,/2 G,2 CFEC|F4 cB AF|GECA, G,2 A,B,|CEFA GEFD||
-EF G2 F2 EF|ECFA GEFD|EF G2 F2 EC|FA,DC B,2 B,D|
-CEGB A2 F2|E/2D/2C/2B,/2 A,E F4|GFED F3 G|EcAF E||
-W: Oh, Danny Boy, the pipes, the pipes are calling
-W: From glen to glen, and down the mountain side,
-W: The summer's gone, and all the roses falling,
-W: It's you, it's you must go and I must bide.
-W: But come ye back when summer's in the meadow,
-W: Or when the valley's hushed and white with snow,
-W: It's I'll be here in sunshine or in shadow,
-W: Oh, Danny Boy, oh Danny Boy, I love you so!
-W: 
-W: But when ye come, and all the flowers are dying,
-W: If I am dead, as dead I well may be,
-W: Ye'll come and find the place where I am lying,
-W: And kneel and say an Ave there for me;
-W: And I shall hear, though soft you tread above me,
-W: And all my grave will warmer, sweeter be,
-W: For you will bend and tell me that you love me,
-W: And I shall sleep in peace until you come to me!
-W: 
-W: Frederic Weatherly (1848 - 1929)
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84af53a1e96e646e05c
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=a9CKSLG5cck
-% abcbook-link-title-0 Daniel O&#39;Donnell - Danny Boy
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags multipart,traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676946950589
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%voicecolor black
-%%voicecolor maroon
-%%voicecolor teal
-%%score [1|2|3]
-
-X: 101
-T: God Save The King
-C:Traditional
-B: traditional songs
-M:3/4
-L:1/4
-R: Air
-Q: 1/4=90
-K:G
-V:1 
-"G"G"Em"G"Am"A|"D7" F>G"D"A|"G" B"Em"B"C"c|"G" B>A"Em"G|"Am" A"G"G"D"F|"G"G3||
-"G"ddd|d>cB|"Am" ccc|"D7" c>B"D"A|"G" B"Am"c/2B/2A/2G/2|"G" B>c"D"d|"C" e/c/"G"HB"D7" [I: pos stem down]HA|[I: pos stem auto]"G"G3|]
-W: God save our gracious King,
-W: Long live our noble King,
-W: God save the King:
-W: 
-W: Send him victorious, Happy and glorious,
-W: Long to reign over us:
-W: God save the King.
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84a018d18bf40bb3da3
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=0a5KcGHwnzA
-% abcbook-link-title-0 God Save the King - The British National Anthem 2022 Lyrics.
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676947529111
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 102
-T: I'll Take You Home Again, Kathleen
-C:Thomas Westerndorf, 1875
-B: traditional songs
-M:4/4
-L:1/8
-R: Air
-Q: 1/4=80
-K:G
-V:1 
-z D|B3 B cAe^c|d6 z B|B3 A ^GAcB|G6 z D|
-B3 B cAe^c|d6 z B|A2 ^c2 ecBA|d6 d2|
-e2 d2 cBc^c|d6 d2|f3 e dcAc|B6 B2|
-B3 e BBcc|B6 B2|A3 A BAB^c|(d4 c2) D2|
-B3 B cAe^c|d6 z B|B3 A ^GAcB|G6 z d|
-d3 B AAEG|e6 fe|d3 B ABcF|G6|]
-W: I'll Take You Home Again Kathleen
-W: across the ocean wild and wide
-W: to where your heart has ever been
-W: since first you were my bonny bride
-W: The roses all have left your cheeks
-W: I watched them fade away and die
-W: You voice is sad whene're you speak
-W: and tears bedim your loving eyes
-W: So I will take you back Kathleen
-W: to where your heart will feel no pain
-W: And when the fields are fresh and green
-W: I will take you to your home again
-W: 
-W: I know you love me Kathleen dear
-W: your heart was ever fond and true
-W: I always feel when you are near
-W: That life holds nothing dear but you
-W: the smiles that once you gave to me
-W: I scarcely ever see them now
-W: the many, many times I see
-W: a darkening shadow on your brow
-W: Oh So I will take you back Kathleen
-W: to where your heart will feel no pain
-W: And when the fields are fresh and green
-W: I will take you to your home again
-W: 
-W: To that dear home beyond the sea
-W: My Kathleen shall again return
-W: And when thy old friends welcome thee
-W: Thy loving heart will cease to yearn
-W: Where laughs the little silver stream
-W: beside your mother's humble cot
-W: and brightest rays of sunshine gleam
-W: To where your grief will be forgot
-W: so So I will take you back Kathleen
-W: to where your heart will feel no pain
-W: And when the fields are fresh and green
-W: I will take you to your home again
-% abcbook-tune_id 63e4c84a20c15c78b6ab2d44
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=ogXOCvj0-hA
-% abcbook-link-title-0 Daniel O&#39;Donnell - I&#39;ll Take You Home Again Kathleen (1997)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676948139725
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 103
-T: John Anderson, My Jo
-C:Trad.
-B: traditional songs
-M:4/4
-L:1/8
-R: Reel
-Q: 1/4=100
-K:Em
-V:1 
-(ED)|B,2 E2 E2 F2|G4 G2 (AG)|F3 E D2 ^C2|D6|
-(ED)|B,2 E2 E2 F2|G4 G2 A2|B3 A G2 A2|B6|
-(dc)|B3 A G2 B2|d4 c2 B2|A3 G F2 G2|A6|
-(GA)|B2 G2 A2 F2|G2 (FE) B2 E2|B,3E E2 ^D2|E6|]
-W: 
-W: John Anderson, my jo, John,
-W: We clamb the hill the gither;
-W: And mony a canty day, John,
-W: We've had wi' ane anither:
-W: 
-W: 
-W: Now we maun totter down, John,
-W: And hand in hand we'll go,
-W: And sleep the gither at the foot,
-W: John Anderson, my Jo.
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84a43c383b018f4b77a
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=Ef93XIIMtv4
-% abcbook-link-title-0 John Anderson, my Jo - Robert Burns - trad. Scottish (Christy-Lyn)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676948281802
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 104
-T: Landlord Fill the Flowing Bowl
-C:Trad. Song. Arr J McKenzie 2018
-B: traditional songs
-M:2/2
-L:1/4
-R: March
-Q: 1/2=90
-K:D
-V:1 
-%%MIDI program 23 % Tango Accd.
-A|"D"dA FA|"G"d>d dd|"A"e>e ee|"D"f2 dA|
-dA FA|d d/d/ dd|"A"e e/e/ ee|"D"f2 d||
-|:A|"D"f>f fa|"A"ag g2|e>e eg|"D"gf f2|
-d>d df|"Em"f e/e/ ge|"A"cA Bc|"D"d2 d:|
-V:2 clef=treble
-%%MIDI program 73 % Flute
-z|F F D D|B B G2|A3/2 F/ G G/E/|A F [A,D]2|
-F F D D|A A F2|A3/2 F/ G G/E/|A F [A,D]
-|:z|A A F F|E E D2|A3/2 F/ E C|E D [A,D]2|
-A F D F|B B G2|A3/2 F/ G E|A F [A,D]:|
-W: Come landlord fill the flowing bowl until it doth run over
-W: Come landlord fill the flowing bowl until it doth run over
-W: For tonight we'll merry merry be, for tonight we'll merry merry be
-W: For tonight we'll merry merry be
-W: Tomorrow we'll be sober
-W: 
-W: The man who'd kiss the pretty girl and go and tell his mother
-W: The man who'd kiss the pretty girl and go and tell his mother
-W: Ought to have his lips cut off, ought to have his lips cut off
-W: Ought to have his lips cut off
-W: And never kiss another
-W: 
-W: The man who drinks his small ale and goes to bed right sober
-W: The man who drinks his small ale and goes to bed right sober
-W: Fades as the leaves do fade, fades as the leaves do fade
-W: Fades as the leaves do fade
-W: And drop off in October
-W: 
-W: But the man who drinks his real ale and goes to bed right mellow
-W: But the man who drinks his real ale and goes to bed right mellow
-W: Lives as he ought to live, lives as he ought to live
-W: Lives as he ought to live
-W: And dies a jolly good fellow
-% abcbook-tune_id 63e4c84a886389ff3580e405
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=6yph8ZC-QRc
-% abcbook-link-title-0 Come Landlord Fill the Flowing Bowl
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags multipart,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676948492308
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%score [ 1|2 ]
-%%voicecolor black
-%%voicecolor maroon
-
-X: 105
-T: Minstrel Boy, The
-C:Trad. Arr PGH
-B: traditional songs
-M:2/4
-L:1/8
-R: Air
-Q: 1/4=100
-K:G
-V:1 
-%%MIDI program 23 % Tango Accd.
-D|"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|"G"Bc dB|"D7"A4|"G"G2 D2|
-"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|B>c dB|"D7"A4|"G"G2 d2|
-"Em"g2 "B7"f2|"Em"e2 "A7"fg|"D"f2 "A7"e2|"D"d3^d|"Em"e3B|"B7"B2 ^d2|"Em"e2 "B7"f2|"Em"g3g|
-"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|Bc dB|"D7"A4|"G"G3|]
-V:2 clef=treble
-%%MIDI program 73 % Flute
-z|B3D|GFAd|G2D2|E2D2|C3G|G>A B2|DFAd|GABc|
-B3D|GFAd|G2D2|E2D2|C3G|GA B2|D4|GABc|
-E2DF|E2A2|DFAG|D4|E4|B4|E2B2|E4|
-B3D|GFAd|G2D2|E2D2|C3G|G>A B2|DFAd|G3|]
-W: The minstrel boy to the war is gone
-W: In the ranks of death you will find him
-W: His father's sword he's girded on
-W: And his wild harp slung behind him
-W: 
-W: "Land of Song" said the warrior bard
-W: "Tho' all the world betrays thee
-W: One sword, at least, thy rights shall guard
-W: One faithful harp shall praise thee"
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84aa612fdab2dfdf510
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=gQjo-nU9-us
-% abcbook-link-title-0 The Irish Tenors- Minstrel Boy (LIVE)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676948987969
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%score [ 1|2 ]
-%%voicecolor black
-%%voicecolor maroon
-
-X: 106
+X: 90
 T: Molly Malone
 C:Traditional
-B: traditional songs
 B: songs
+B: traditional songs
 B: tunes
 M:3/4
 L:1/8
@@ -7095,7 +6078,7 @@ W:
 % abcbook-link-0 https://www.youtube.com/watch?v=YCjXkV1aaC8
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags © free
+% abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -7104,319 +6087,11 @@ W:
 % abcbook-repeats 1
 
 
-X: 107
-T: My Bonnie Lies Over the Ocean
-C:C Pratt 1881
-B: traditional songs
-M:3/4
-L:1/4
-R: Waltz
-Q: 1/4=150
-K:G
-V:1 
-D|"G"BAG|"C"AGE|"G"DB,2-|B, z D|BAG|"A7"GFG|"D"A3-|"D7"A z D|
-"G"BAG|"C"AGE|"G"DB,2-|B, z D|"Am"EAG|"D7"FEF|"G"G3-|G2z|
-"G"D3|"G7"G3|"C"E3|A2G|"D"FFF|"D7"FEF|"G"G2A|"G"B3|
-"G"D3|"G7"G3|"C"E3|A2G|"D"FFF|"D7"FEF|"G"G3-|"G"G2|]
-W: My Bonnie lies over the ocean
-W: My Bonnie lies over the sea
-W: My Bonnie lies over the ocean
-W: Oh, bring back my Bonnie to me...
-W: 
-W: REFRAIN
-W: Bring back, bring back
-W: Bring back my Bonnie to me, to me
-W: Bring back, bring back
-W: Bring back my Bonnie to me
-W: 
-W: Last night as I lay on my pillow
-W: Last night as I lay on my bed
-W: Last night as I lay on my pillow
-W: I dreamt that my Bonnie was dead
-W: 
-W: Oh blow the winds over the ocean
-W: And blow the winds over the sea
-W: Oh blow the winds over the ocean
-W: And bring back my Bonnie to me
-W: 
-W: The winds have blown over the ocean
-W: The winds have blown over the sea
-W: The winds have blown over the ocean
-W: And brought back my Bonnie to me
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84ab3585c7c906a6670
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=LpKYbpTsOTM
-% abcbook-link-title-0 1938 Ella Logan - My Bonnie Lies Over The Ocean
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676949620100
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 108
-T: Penny on the Water
-C:Trad.
-B: traditional songs
-B: kids songs
-M:4/4
-L:1/8
-R: Hornpipe
-Q: 1/4=150
-K:G
-V:1 
-(3DEF|"G"G2G2 G2G2|"D7"FGAF "G"G3A|B2B2 "Em"B2B2|"D7"ABcA "G"B4|
-"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"GABc d4|
-"C"cdec "D7"A2A2|"G"BcdB "Em"G4|"Am"ABcA "D7"FDEF|"G"G2G2 G2|]
-W: One, two, three, four, five, six, seven,
-W: All good children go to heaven.
-W: Penny on the water, tuppence on the sea,
-W: Thruppence on the roundabout, and round go we.
-W: Penny on the water, tuppence on the sea,
-W: Thruppence on the roundabout, and round go we.
-% abcbook-tune_id 63e4c84a414596f3a40de41d
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=0Lstj1h_FIU
-% abcbook-link-title-0 Penny on the Water
-% abcbook-link-start-at-0 6
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1676950111835
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 109
-T: Scarborough Fair
-C:Trad.
-B: traditional songs
-M:3/4
-L:1/8
-R: Waltz
-Q: 1/4=120
-K:Ddor
-V:1 
-"Dm"D4D2|A4A2|"C"E3FE2|"Dm"D6-|
-D2 A2c2|d4c2|"G"A2B2G2|"Dm"A6-|A4d2|
-d4d2|"F"c4A2|A2G2F2|"C"E2C4-|C6|
-"Dm"D4A2|"C"G4"F"F2|"C"E2D2C2|"Dm"D6-|D6:|]
-
-W: Are you going to Scarborough Fair?
-W: Parsley, sage, rosemary, and thyme;
-W: Remember me to the one who lives there,
-W: For once she was a true love of mine.
-W: 
-W: Tell her to make me a cambric shirt,
-W: Parsley, sage, rosemary, and thyme;
-W: Sewn without seams or fine needlework,
-W: If she would be a true love of mine.
-W: 
-W: Tell her to wash it in yonder well,
-W: Parsley, sage, rosemary, and thyme;
-W: Where never spring water or rain ever fell,
-W: And she shall be a true lover of mine.
-W: 
-W: Tell her to dry it on yonder thorn,
-W: Parsley, sage, rosemary, and thyme;
-W: Which never bore blossom since Adam was born,
-W: Then she shall be a true lover of mine.
-W: 
-W: Now he has asked me questions three,
-W: Parsley, sage, rosemary, and thyme;
-W: I hope he'll answer as many for me
-W: Before he shall be a true lover of mine.
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84a60d780a52944b10a
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=-BakWVXHSug
-% abcbook-link-title-0 Simon &amp; Garfunkel - Scarborough Fair (Full Version) Lyrics
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags 
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677042400089
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 110
-T: Sumer Is Icumen In
-C:Trad 13th C
-B: traditional songs
-M:6/8
-L:1/8
-R: March
-Q: 3/8=100
-K:D
-V:1 
-d2 c B2 c|d2 d (c>BA)|F2 F G2 E|F3 z3|
-D2F E2 G|F2 F E2 D|F2 A B2 B|A3 z3|
-d3 B3|d3 z3|A2 F G2 E|F2 A G2 F|
-D2 F E2 C|D3 z3|F2 F E2 G|A2 A B2 c|
-d2 c B2 c|d3 z3|A3 B3|A3 G2 F|
-D2 F G2 E|(F3 G2) A|F2 A E2 C|D3 z3|]
-|:"D"A3"G"G3|"D"A3 z3|"D"D3"Em"E3|"D"D3 "A"E2F|
-"D"D3"Em"E3|"D"D3"Em"E2F|"D"A3"G"G3|"D"A3 z3::|
-W: {language:Middle English}
-W: 
-W: Sumer is icumen in
-W: Lhude sing cuccu
-W: Groweþ sed
-W: and bloweþ med
-W: and springþ þe wde nu
-W: Sing cuccu
-W: 
-W: Awe bleteþ after lomb
-W: lhouþ after calue cu
-W: Bulluc sterteþ
-W: bucke uerteþ
-W: murie sing cuccu
-W: 
-W: Cuccu cuccu
-W: Wel singes þu cuccu
-W: ne swik þu nauer nu
-W: 
-W: Sing cuccu nu • Sing cuccu.
-W: Sing cuccu • Sing cuccu nu
-% abcbook-tune_id 63e4c84a239d63930a75147d
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=LPauypfqhdU
-% abcbook-link-title-0 Sumer is icumen in / Perspice Christicola, Anonymous 13th-century English, sung by Quire Cleveland
-% abcbook-link-start-at-0 7
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free,choir
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677042819185
-% abcbook-soundfonts 
-% abcbook-repeats 1
-%%voicecolor maroon
-
-X: 111
-T: Two Little Girls in Blue
-C:Charles Graham, 1893
-B: traditional songs
-M:3/4
-L:1/8
-R: Waltz
-Q: 1/4=140
-K:G
-V:1 
-D2|"G"G4 G2|G2 A2 B2|"Em"E4 E2|E2 _E2 =E2|"D"F2 F2 F2|"Em"E4 D2|"G"G6-|G4 D2|
-"G"G2 G2 G2|G2 A2 B2|"Em"E4 E2|E4 "Am"A2|"D"A2 B2 A2|"Em"G4 E2|"D7"A6-|A2 z2 B2|
-"C"c2 c2 c2|"Am"A2 B2 c2|"G"B2 B2 B2|G4 B2|"D"A2 B2 A2|"Em"G4 E2|"D7"A6-|A4 D2|
-"G"G2 G2 G2|G2 A2 B2|"Em"E4 E2|"Am"c4 A2|"G"B2 A2 G2|"D7"A4 F2|"G"G6-|G2 z2 z2|
-"G"G3 A B2|"Em"G4 E2|"G"G6|"D"D6|"G"G3 A B2|G4 F2|"Am"E6-|E4 z2|
-"D"F4 F2|F2 A4|"G"G4 G2|G2 A2 B2|"Am"A4 E2|A4 G2|"D"F6-|F2 z2 D2|
-"G"G2 A2 B2|G4 F2|"G"G6|"D"D4 D2|"Em"E4 E2|"D"A4 B2|"C"c6-|c4 c2|
-"D"F4 F2|F2 E2 D2|"G"G2 F2 G2|"Am"A2 B2 c2|"G"d2 d2 B2|"D7"A2 G2 A2|"G"G6-|G4|]
-W: An old man gazed on a photograph
-W: In a locket he'd worn for years;
-W: His nephew then asked him the reason why
-W: That picture had caused him tears.
-W: "Come listen," he said, "I will tell you, lad,
-W: A story that's strange, but true!
-W: Your father and I, at the school one day,
-W: Met two little girls in blue.
-W: That picture is one of those girls," he said
-W: And to me she was once a wife;
-W: I thought her unfaithful, we quarrelled lad,
-W: And parted that night for life.
-W: My fancy of jealousy wronged a heart,
-W: A heart that was good and true -
-W: For two better girls never lived than they,
-W: Those two little girls in blue."
-W: 
-W: Refrain
-W: 
-W: Two little girls in blue, lad,
-W: Two little girls in blue.
-W: They were sisters, we were brothers
-W: And learned to love the two.
-W: And one little girl in blue, lad,
-W: Who won your father's heart,
-W: Became your mother. I married the other,
-W: And now we have drifted apart.
-W: 
-% abcbook-tune_id 63e4c84a38acdcc17a68a397
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=qhFkGpxnAj8
-% abcbook-link-title-0 Two Little Girls in Blue (1893)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677043312842
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 112
-T: Ukrainian National Anthem
-C:Mykhaylo Verbytsky (1815-1870)
-B: traditional songs
-M:4/4
-L:1/8
-R: March
-Q: 1/4=100
-K:G
-V:1 
-"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E3F G2A2|
-"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E4 E2z2||
-"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2G2"D"A2A2|"G"B4 B2z2|
-"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2B2"B"F2B2|"Em"E3F "G"GABc||
-"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2G2 "D"A2A2|"G"B3A "Em"GABc|
-"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2B2 "B7"F2B2|"Em"e4 e4|]
-W: The glory and freedom of Ukraine has not yet perished
-W: Luck will still smile on us brother Ukrainians.
-W: 
-W: Our enemies will die, as the dew does in the sunshine,
-W: and we, too, brothers, we'll live happily in our land.
-W: 
-W: We'll not spare either our souls or bodies to get freedom
-W: and we'll prove that we brothers are of Kozak kin.
-W: 
-W: 
-W: 
-% abcbook-tune_id 63e4c84a5ce6ed59b69068a8
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=liEqx4dhq8Q
-% abcbook-link-title-0 Ukraine National Anthem - Mykhaylo Verbytsky (1815-1870) | Hauptwerk Bégard
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags © free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1677040576125
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 113
+X: 91
 T: The Wellerman
 C:Traditional
-B: traditional songs
 B: songs
+B: traditional songs
 M:4/4
 L:1/8
 R: Shanty
@@ -7480,7 +6155,7 @@ W:
 % abcbook-link-title-0 The Wellerman (Traditional sea shanty)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags multipart,sea shanties,© free,choir,steve ryan
+% abcbook-tags multipart,sea shanties,© free,choir,steve ryan,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -7491,7 +6166,1420 @@ W:
 %%voicecolor black
 %%voicecolor maroon
 
+X: 92
+T: Will Ye Go Lassie Go
+C:Traditional
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: Oh the summertime is coming
+W: And the trees are sweetly blooming
+W: And the wild mountain thyme
+W: Grows around the blooming heather
+W: Will ye go, Lassie go?
+W: 
+W: {c: Chorus}
+W: And we'll all go together
+W: To pluck wild mountain thyme
+W: All around the blooming heather
+W: Will ye go, Lassie go?
+W: 
+W: I will build my love a tower
+W: Near yon' pure crystal fountain
+W: And on it I will build
+W: All the flowers of the mountain
+W: Will ye go, Lassie go?
+W: 
+W: If my true love she were gone
+W: I would surely find another
+W: Where wild mountain thyme
+W: Grows around the blooming heather
+W: Will ye go, Lassie go?
+W: 
+W: 
+W: 
+% abcbook-tune_id 63c54bb22e9ee6aa78958168
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=SVQkdV4GwLc
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1673937059110
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 93
+T: Ora Lee
+B: songs
+B: traditional songs
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=141
+K:G
+V:1 
+{F/}G3E|:"G" D2G4 AB|"D"AG E2 {G/}A3G|F2D2 EDFD|"G"G3A BAGE|
+D (3D/E/F/ G4 AB|"D"AGEG A3G|"D"~F2 D2 ED F2|1 "G"G6 GE:|2 "G"[G4B4]G2A2||
+|:"G"[D3B3] d BA G2|([D4B4]B2) [Gd][Ac]|BAGE D2G2|[G4B4] [A2c2][B2d2]|
+"C"[E4c4]c2B2|"D"A[GA][FA][GA] A3G|~F2D2 ED [F2A2]|1 [G2B4] G2A2:|2 ([G4B4]G4)||
+W: [Verse 1]
+W: When the blackbird in the Spring
+W: 'Neath the willow tree
+W: Sat and rocked, I heard him sing
+W: Singing Aura Lea!
+W: Aura Lea!, Aura Lea!
+W: Maid of golden hair
+W: Sunshine came along with thee
+W: And swallows in the air
+W: 
+W: [Chorus]
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Sunshine came along with thee
+W: And swallows in the air
+W: Sunshine came along with thee
+W: And swallows in the air
+W: [Verse 2]
+W: In thy blush the rose was born
+W: Music when you spake
+W: In thine azure eye the morn
+W: Sparkling, seemed to break
+W: Aura Lea!, Aura Lea!
+W: Take my golden ring
+W: Love and life return with thee
+W: And swallows in the Spring
+W: 
+W: [Chorus]
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Sunshine came along with thee
+W: And swallows in the air
+W: Sunshine came along with thee
+W: And swallows in the air
+W: 
+W: [Verse 3]
+W: Aura Lea! The bird may flee
+W: The willow's golden hair
+W: Swing through winter fitfully
+W: On the stormy air
+W: Yet if thy blue eyes I see
+W: Gloom will soon depart
+W: For to me, sweet Aura Lea
+W: Is sunshine through the heart
+W: 
+W: 
+W: [Chorus]
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Sunshine came along with thee
+W: And swallows in the air
+W: Sunshine came along with thee
+W: And swallows in the air
+W: 
+W: [Verse 4]
+W: When the mistletoe was green
+W: Midst the winter's snows
+W: Sunshine in thy face was seen
+W: Kissing lips of rose
+W: Aura Lea!, Aura Lea!
+W: Take my golden ring
+W: Love and light return with thee
+W: And swallows with the Spring
+W: 
+W: [Chorus]
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Aura Lea!, Aura Lea!
+W: Maid with golden hair
+W: Sunshine came along with thee
+W: And swallows in the air
+W: Sunshine came along with thee
+W: And swallows in the air
+% abcbook-tune_id 63ae8f1cb365b3a4b8fb95d2
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=cw-Wxt4FVyM
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1675313462945
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 94
+T: Little Liza Jane
+B: songs
+B: traditional songs
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=170
+K:A
+V:1 
+ef | a2 f2 e3 e | fecB  A2 ef | a2 f2 e2 c2 | f6
+ef | a2 e2 e3 e | fecB  A4    | cBAF  E2 F2 | A4 A2 :|
+z2 | Bccc  c3 A | B2 A6       | Bccc  cB A2 | F6 
+E2 | F A3  B3 A | B c3  B3  A | cBAF  E2 F2 | A4 A2 :|]
+W: There’s a house in Baltimore
+W: Sixteen stories high
+W: And every story in that house
+W: Was full of chicken pie
+W: 
+W: Oh Liza poor girl
+W: Oh Liza Jane
+W: Oh Liza poor girl
+W: She died on the train
+W: 
+W: I went up on the mountain
+W: To give my horn a blow
+W: And every girl in the countryside
+W: Said yonder comes my beau
+W: 
+W: When I was a little boy
+W: I liked to go in swimming
+W: Now I am a bigger boy
+W: I like to go with women
+W: 
+W: I wish I had a candy box
+W: To put my sweetheart in
+W: I’d take her out and kiss her twice
+W: And put her back again
+W: 
+W: One day I set a-courting
+W: A girl as dear as life
+W: When a woman she said to me
+W: Mr.Jones
+W: how is your wife
+% abcbook-tune_id 63ae8f1cae27b563b216a2b9
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=2X7TdfMd3ns
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning AEAE
+% abcbook-lastupdated 1675315358532
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 95
+T: June Apple
+C:R-109
+B: songs
+B: traditional songs
+B: tunes
+M:4/4
+R: reel
+Q: 1/4=146
+K:Amixolydian
+V:1 
+eg| "A"ageg ageg| aged ""cdef| "A"gfef gfef| "D"gagf e2eg|
+"A"ageg ageg| aged cBAA| "E"G2GA BAG2| "A"A3B A2 :|
+|:\
+ed| "A"c2cB A2AB| c2cd e2A2| "G"G2A2 Bc3| d3e d4|
+"A"cdcB A2AB| cBcd e2A2| "E"GFGA BAG2|1 "A"A3B A2 :|2 "A"A6 |]
+W: Wish I was a june apple
+W: Hanging on a tree
+W: Every time my love went by
+W: She'd take a bite of me
+W: Take a bite of me my love
+W: Take a bite of me
+W: Every time my love went by
+W: She'd take a bite of me.
+W: 
+W: Made this banjo from a gourd.
+W: It's strings are made of twine.
+W: Only tune it will play
+W: Is trouble on my mind.
+W: Trouble on my mind love
+W: Trouble on my mind.
+W: Only tune it will play
+W: Is trouble on my mind.
+W: 
+W: Train out on the island love,
+W: I heard that whistle blow.
+W: Tell my friends I'm sorry
+W: I'm sick and I must go.
+W: Sick and I must go my love,
+W: Sick and I must go.
+W: Tell my friends I'm sorry
+W: I'm sick and I must go.
+% abcbook-tune_id 63ae8f1c06b44a1c00a30794
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=JPNUBR1sTfA
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning AEAE
+% abcbook-lastupdated 1675313352782
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%text 9/1/98
+
+X: 96
+T: The Blackest Crow
+C:Traditional
+B: songs
+B: traditional songs
+B: tunes
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=170
+K:Em
+V:1 
+|:B2|"D"A4 G2|E4 D2|"G"G4 A2|B4 d2|"D"B4 A2|G4 D2|
+"Em"E6|E4 B2|"D"A2 A2 G2|E4 DD|"G"G4 A2|B4 d2|
+"D"B4 A2|G4 D2|"Em"E6|E4 D2|"G"G4 G2|G2 A2 B2|d4 d2|
+B4 dd|"Em"e4 e2|"D"d4 e2|"Em"B6|B4 B2|"D"A4 G2|E4 D2|
+"G"G2 G2 A2|B4 d2|"D"B4 A2|G4 D2|"Em"E6|E2:|
+W: As time draws near my dearest dear when you and I must part
+W: How little you know of the grief and woe in my poor aching heart
+W: Each night I suffer for your sake, you’re the girl I love so dear
+W: I wish that I was going with you or you were staying here
+W: 
+W: I wish my breast were made of glass wherein you might behold
+W: Upon my heart your name lies wrote in letters made of gold
+W: In letters made of gold my love, believe me when I say
+W: You are the one that I will adore until my dying day
+W: 
+W: The blackest crow that ever flew would surely turn to white
+W: If ever I prove false to you bright day will turn to night
+W: Bright day will turn to night my love, the elements will mourn
+W: If ever I prove false to you the seas will rage and burn
+W: 
+W: And when you’re on some distant shore think of your absent friend
+W: And when the wind blows high and clear a light to me pray send
+W: And when the wind blows high and clear pray send your love to me
+W: That I might know by your hand light how time has gone with thee
+% abcbook-tune_id 63ae8f1c14209a9859ef8fcc
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=4wRnDa7GdzQ
+% abcbook-link-title-0 The Blackest Crow - Red Tail Ring
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose -2
+% abcbook-tuning 
+% abcbook-lastupdated 1675740255634
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%MIDI transpose            -2
+
+
+X: 97
+T: Angeline The Baker
+C:Stephen Foster
+B: songs
+B: traditional songs
+B: tunes
+L:1/8
+Q: 1/4=100
+K:D
+V:1 
+dB|:"D"A2B2 d3 A|B2 d4 dB|A2 B2 dB A2 |"G"B6 dB|
+  |"D"A2B2 d3 e|f2e2 d3 e |"D"f2e2 "G"d2B2|1 "D"A6 dB:|2 "D"A6 fg ||
+  |:"D"a2f2 e2 de|f2e2 d2 fg|a2f2 e2d2|"G"B6 fg|
+  |"D"a2f2 e2 de|f2e2 d2 de|"D"f2e2 "G"d2B2|1 "D"A6 fg:|2 "D"A6 dB||
+W: Angeline the baker, lives on the village green
+W: The way I always loved her, beats all you've ever seen
+W: Angeline the baker, Angeline I know
+W: Should have married Angeline, twenty years ago
+W: 
+W: Angeline the baker, age of 43
+W: Fed her sugar candy, but she still won't marry me
+W: Angeline the baker, Angeline I know
+W: Should have married Angeline, just twenty years ago
+W: 
+W: Her father was a baker, his name was Uncle Sam
+W: I never can forget her, no matter where I am
+W: She said couldn't do hard work, because she is not stout
+W: Baked the biscuits every day and poured the coffee out
+W: Angeline the baker, age of 43
+W: Fed her sugar candy, but she still won't marry me
+W: Angeline the baker, Angeline I know
+W: Should have married Angeline, just twenty years ago
+W: 
+W: I bought Angeline a brand new dress, neither black nor brown
+W: It was the colour of a stormy skies, before the rain came down
+W: Sixteen horses in my team, the leader he was blind
+W: I dreamed that I was dying, I saw my Angeline
+W: 
+W: Angeline the baker, age of 43
+W: Fed her sugar candy, but she still won't marry me
+W: Angeline the baker, Angeline I know
+W: Should have married Angeline, just twenty years ago
+% abcbook-tune_id 63ae8f1cd6ad05957363f8a9
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=bZxdXLtDuIA
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,ralph cullen,steve old time,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677227858310
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 98
+T: All The Good Times
+B: songs
+B: traditional songs
+B: tunes
+M:3/4
+L:1/4
+Q: 1/4=180
+K:G
+V:1 
+ "G"B3/2 A/2 B| "G7"G2 A| "C"G- F E| "G"D3|
+ "G"B3/2 A/2 B| G2 E| "D7"F- A2-| A2 z|
+ "G"B3/2 A/2 B|\ "G7"G2 G| "C"G- F E| "G"D2 D/2D/2|
+ "C"D G G/2G/2| "D7"F- G A| "G"G3-| G2 z|
+W: I wish to the Lord I’d never been born
+W: Or died when I was young
+W: I never would a’ seen your sparklin’ blue eyes
+W: Or heard your lying tongue
+W: 
+W: All the good times are past and gone
+W: All the good times are o’er
+W: All the good times are past and gone
+W: Little darlin’ don’t you weep no more.
+W: 
+W: Now don’t you see that turtle dove
+W: Flyin from pine to pine
+W: It’s mournin’ for It’s own true love
+W: Just like I mourn for mine.
+W: 
+W: Come back, come back my own true love
+W: And stay a while with me
+W: For if ever I’ve had a friend in this world
+W: You’ve been a friend to me
+% abcbook-tune_id 63ae8f1c6f964548c581da13
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=43zqJnNdNWQ
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve old time,steve ryan,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1675227840746
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 99
+T: Over The Waterfall
+B: songs
+B: traditional songs
+B: tunes
+M:4/4
+L:1/4
+R: reel
+Q: 1/4=100
+K:D
+V:1 
+  d/2e/2|\
+ "D" fa "A7" g/2f/2e | "D" dB Ad/2e/2 | "D" fa "A7" g/2f/2e | "D" d3 d/2e/2 | 
+ "D" fa "A7" g/2f/2e | "D" dB A>B     | "C" =cc     BA      | "G" G3       :|
+|:F/2G/2|\
+ "D" A2 "G"  B2 | "D" A/2B/2A/2G/2 FF/2G/2 | "D" Ad "A7" c/2d/2e | "D" d4  |
+ "D" A2 "G"  B2 | "D" A/2B/2A/2G/2 FF/2G/2 | "D" AD "A7" G/2F/2E | "D" D3 :|
+W: I thought I knew what I was doing
+W: I was wrong
+W: Mistakes I've made and lived to tell
+W: I tell them in a song
+W: 
+W: I knew a river wide and deep
+W: Her banks were very tall
+W: At one end was a mountain stream
+W: The other was a waterfall, boys
+W: The other was a waterfall
+W: 
+W: I asked the old man by the river
+W: He did not recall
+W: The last attempt to ride a barrel
+W: Over the waterfall
+W: 
+W: The ferry boatman, he did tell me
+W: That the chance was very small
+W: None survived who went alive
+W: Over the waterfall, boys
+W: Over the waterfall
+W: 
+W: So I built myself an oaken barrel
+W: And inside I did crawl
+W: I broke the record but I broke my back
+W: Going over the waterfall
+W: 
+W: And it's been my luck to live to tell
+W: The only tale I can
+W: It don't hurt you when you fall
+W: Only when you land, boys
+W: Only when you land
+% abcbook-tune_id 63da593445a97366b79cf7ac
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=W1PXDwVDkZc
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1675313468350
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%gchordfont "itim-music,Itim" 20
+
+X: 100
+T: The Rose Tree
+C:Traditional
+B: traditional songs
+B: tunes
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:D
+V:1 
+f/e/|:"D"dB AF|A>B AB|"D"d2 "G"ed/e/|"A"fe ef/e/|
+ "D"dB AF|A>B AB|"G"d2 "A"ed/e/|"D"fd d2:|
+ |:"D"fe fg|a2 gf|"G"eb ba|"A"be ef/e/|
+"D" dB AF|"G"A>B AB|"D"d2 "A"ed/e/|"D"fd d2:|
+W: A rose tree in full bearing,
+W: Had sweet flowers fair to see,
+W: One rose beyond comparing,
+W: For beauty attracted me;
+W: Tho’ eager then to win it,
+W: Lovely, blooming, fresh and gay.
+W: I find a canker in it,
+W: And now throw it far away.
+W: 
+W: How fine this morning early,
+W: All sun shiny, clear and bright
+W: So late I lov’d you dearly,
+W: Tho’ lost now each fond delight.
+W: The clouds seem big with showers,
+W: Sunny beams no more are seen.
+W: Farewell ye fleeting hours,
+W: Your falsehood has chang’d the scene.
+W: 
+% abcbook-tune_id 62828a3abf72e6ad4809eeae
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=JEcYKsEs3Ak
+% abcbook-boost 0
+% abcbook-difficulty 7
+% abcbook-tags begged borrowed and stolen,© free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677032842652
+% abcbook-soundfonts 
+% abcbook-repeats 3
+% abc-sessionorg_id 1123
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 1123
+% abc-boost 0
+
+X: 101
+T: Brose and Butter
+B: tunes
+B: traditional songs
+M:9/8
+L:1/8
+R: slip jig
+Q: 3/8=100
+K:D
+V:1 
+"Bm" def ~B2 B d2 B | "Bm" def ~B2 B "A" ecA | "Bm" def ~B2 B Bcd | "A" c2 A Aaf ecA :|
+"D"  def  faf   faf | "D"  def  faf  "A" ecA | "D"  def  faf  faf | "A" ecA a^gf ecA :|
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: 
+W: And Jenny sits up the loft
+W: Johnny was glad to be at her
+W: There came a wind came out o’ the west
+W: Made all the windows to clatter
+W: 
+W: And gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: A dow is a dainty dish
+W: Goose is hollow within
+W: The sight would make you blush
+W: But aw the fun is to finishing
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: 
+W: My daddie sent me to the hill
+W: To pull my minnie some heather
+W: And drive it intae yur fill
+W: Yur welcome tae the leather
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: 
+W: A mouse is a merry wee beast
+W: The moodiewark wants the een
+W: And oh for the touch o’ the thing
+W: I had in my nieve yestreen
+W: 
+W: Oh gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: 
+W: The lark she loves the grass
+W: The hen she loves the stubble
+W: And hey for the gardner lad
+W: Tae gully away wi’ his dibble
+W: 
+W: And gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: 
+W: And Jenny sits up at the laft
+W: Johnny was glad to be at her
+W: There came a wind came oot o’ the west
+W: Made all the windows to clatter
+W: 
+W: And gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: 
+W: A dow is a dainty dish
+W: Goose is hollow within
+W: The sight would make you blush
+W: Aw the fun is to finishing
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: And Jenny sits up at the loft
+W: Johnny was glad to be at her
+W: There came a wind came oot o’ the west
+W: Made all the windows to clatter
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: Yestreen he wanted his supper
+W: 
+W: A dow is a dainty dish
+W: The goose is hollow within
+W: The sight would make you blush
+W: But aw the fun is to finishing
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose, brose
+W: Gie my love brose, brose
+W: Gie my love brose, brose
+W: 
+W: Gie my love brose, brose
+W: Gie my love brose and butter
+W: And gie my love brose, brose
+W: 
+W: Jenny sits up at the loft
+W: Johnny was glad to be at her
+W: There came a wind came out o’ the west
+W: Made all the windows to clatter… oh-oh
+% abcbook-tune_id 63443f9f1cab566fd111c439
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=3WfG90m2Yco
+% abcbook-link-title-0 Brose and Butter
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags celtic tunes,steve ryan,traditional songs
+% abcbook-tablature 
+% abcbook-transpose -5
+% abcbook-tuning 
+% abcbook-lastupdated 1677232199844
+% abcbook-soundfonts 
+% abcbook-repeats 3
+%%MIDI transpose      -5
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords
+
+X: 102
+T: Cock of the North
+B: tunes
+B: traditional songs
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:G
+V:1 
+GA|:"G"G2B BAG|B2dd2g|B2B BAG|"D"A3 ABA|"G"G2B BAG|B2dd2g|B2B"D" AFA|"G"G3 dBd|
+"G"g2d "C"e2d|"G"g2d "C"e2g|"G"B2B BAG|"D"A3-A2d|"G"g2d "C"e2d|"G"g2d "C"e2g|"G"B2B "D"AFA|"G"G3DEF|
+"G"G2B BAG|B2dd2g|B2B BAG|"D"A3- ABA|"G"G2B BAG|B2dd2g|B2B"D" AFA|"G"G3 z3:|
+W: Auntie Mary had a canary
+W: Up the leg of her drawers;
+W: She was sleeping, it was creeping,
+W: Up the leg of her drawers.
+W: 
+W: When I followed a lass.
+W: When I followed a lass who was froward and shy
+W: I stuck to her, stuff
+W: Til I mad her comply.
+W: I took her so lovingly round the waist,
+W: And hugged her tight and held her fast;
+W: When hugged and hauled,
+W: She screamed and squalled.
+W: But, tho’ she vowed all that I did was in vain,
+W: I pleased her so well, that she bore it again.
+W: I pleased her so well, that she bore it again.
+W: Hoighty toity, whisking frisking,
+W: Green was her gown upon the grass,
+W: Oh, those were the joys of our dancing days,
+W: Oh, those were the joys of our dancing days.
+% abcbook-tune_id 6342d53a0c6306db58169d65
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=1adh3bdCx3Y
+% abcbook-link-title-0 The Cock O&#39; the North - British Army Song
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags australian traditional tunes,australian traditional tunes wiki,celtic tunes,nick hutten,begged borrowed and stolen,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677157763991
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% NFF Book 2020
+
+X: 103
+T: Nut Brown Maiden
+B: tunes
+B: traditional songs
+M:2/4
+R: polka
+Q: 1/4=100
+K:G
+V:1 
+A2| "D"d2>c2 B2 A2| d4 A2 d2| "D"f2>d2 "Bm"g2 f2| "Em"f2 e2 "A"e2 g2|"D"f2<a2 f2<a2| "D"A4 d2 e2|
+ "Em"f2>f2 "A"g2 e2| "D"d4 d2||g2| "D"f2<a2 g2 B2| "A"A4 d2 e2| "D"f2>d2 g2 f2|
+"G"f2 e2 "A"e2 g2| "D"f2<a2 g2 B2| "D"A4 d2 e2| "Em"f2>f2 "A"g2 e2|"D"d4 d2||
+W: Ho ro my nut-brown maiden,
+W: Hee ree my nut-brown maiden,
+W: Ho ro ro maiden,
+W: For she's the maid for me.
+W: 
+W: Her eye so mildly beaming,
+W: Her look so frank and free,
+W: In waking or in dreaming,
+W: Is evermore with me.
+W: 
+W: Ho ro my nut-brown maiden,
+W: Hee ree my nut-brown maiden,
+W: Ho ro ro maiden,
+W: For she's the maid for me.
+W: 
+W: O Mary, mild-eyed Mary,
+W: By land or on the sea,
+W: Though time or tide may vary
+W: My heart beats true for thee.
+W: 
+W: Ho ro my nut-brown maiden,
+W: Hee ree my nut-brown maiden,
+W: Ho ro ro maiden,
+W: For she's the maid for me.
+W: 
+W: And when the blossoms laden,
+W: Bright summer comes again,
+W: I'll fetch my nut-brown maiden
+W: Down from the bonnie glen.
+W: 
+W: Ho ro my nut-brown maiden,
+W: Hee ree my nut-brown maiden,
+W: Ho ro ro maiden,
+W: For she's the maid for me.
+% abcbook-tune_id 634562151c4d07b74a010919
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=RXILQsEQJ-M
+% abcbook-link-title-0 15 - Nut Brown Maiden
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags celtic tunes,nick hutten,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677147137792
+% abcbook-soundfonts 
+% abcbook-repeats 3
+
+
+X: 104
+T: The Cock Lane Ghost
+C:Wm Herschel c1762
+B: traditional songs
+M:3/4
+L:1/4
+R: Waltz
+Q: 1/4=100
+K:D
+V:1 
+A|d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F|
+|:F3/2 A/ G|F3/2 E/ D|G3/2 G/ G|F2 F|F F A|d d F|F F A|d d F|F E G|G F A|D3/2 d/ c|d2 A|
+d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F:|d2|]
+V:2 
+z|z3|z3|z3|z3|z3|z3|z3|z3|z3|z3|z3|z z A|
+|:d3/2 c/ B|A3/2 G/ F|B2 B|A2 A|d2 z|z z A|d2 z|z z A|B B B|c2 d|d/e/ f e|d2 F|F3/2 A/ G|
+F3/2 E/ D|G3/2 G/ G|F2 F|F F A|d d F|F F A|d d F|F E G|G F A|D3/2 d/ c|d2 A:|d2|]
+W: The Ghost will be heard in Cock Lane tonight. The Ghost!
+W: The Ghost! The Ghost will be heard in Cock Lane tonight.
+W: Our Children and parsons and Lords to afright. Our Children and parsons,
+W: Our Children and parsons and Lords to afright.
+W: The Ghost will be heard in Cock Lane tonight. The Ghost!
+W: The Ghost! The Ghost will be heard in Cock Lane tonight.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a0eb5657da456c94b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags multipart,no youtube available,© free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676946391210
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 105
+T: Danny Boy
+C:Trad.
+B: traditional songs
+M:4/4
+L:1/8
+R: Air
+Q: 1/4=72
+K:C
+V:1 
+B,CD|"C"E3 D EAGE|"F"DC A,2 zCEF|"C"G3 A GE"Am"CE|"D7"D4 "G"z B,CD|
+"C"E3 D EAGE|"F"DC A,2 "G7"z B,CD|"C"E3F "G7"EDCD|"C"C4 "G7"z GAB||
+"C"c3B "F"BA"G7"GA|"C"GE "F"C2 "G7"z GAB|"C"c3B "F"BA"A7"GE|"D7"D4 "G7"z GGG|
+"C"e3d "F"dcAc|"C"GE "Am7"C2 "F"zB,"G7"CD|"C"EAGE "G7"DCA,B,|"C"C2-"F"C2- "C"C||
+V:2 
+GAB|cB/2A/2 G2 cfec|f4 c'agf|ed c2 B2 A2
+|fAdc BGAB|cB/2A/2 G2 cfec|f4 c'baf|gecA G2 AB|cefa gefd
+|ef g2 f2 ef|ecfa gefd|ef g2 f2 ec|fAdc BGBd
+|cegb a2 f2|e/2d/2c/2B/2 Ae f4|gfec f3 g|c2-c2-c||
+V:3 
+G,A,B,|CB,/2A,/2 G,2 CFEC|c2 A2 G2 F2|ED C2 B,2 A,2|FA,DC B,G,A,B,|
+CB,/2A,/2 G,2 CFEC|F4 cB AF|GECA, G,2 A,B,|CEFA GEFD||
+EF G2 F2 EF|ECFA GEFD|EF G2 F2 EC|FA,DC B,2 B,D|
+CEGB A2 F2|E/2D/2C/2B,/2 A,E F4|GFED F3 G|EcAF E||
+W: Oh, Danny Boy, the pipes, the pipes are calling
+W: From glen to glen, and down the mountain side,
+W: The summer's gone, and all the roses falling,
+W: It's you, it's you must go and I must bide.
+W: But come ye back when summer's in the meadow,
+W: Or when the valley's hushed and white with snow,
+W: It's I'll be here in sunshine or in shadow,
+W: Oh, Danny Boy, oh Danny Boy, I love you so!
+W: 
+W: But when ye come, and all the flowers are dying,
+W: If I am dead, as dead I well may be,
+W: Ye'll come and find the place where I am lying,
+W: And kneel and say an Ave there for me;
+W: And I shall hear, though soft you tread above me,
+W: And all my grave will warmer, sweeter be,
+W: For you will bend and tell me that you love me,
+W: And I shall sleep in peace until you come to me!
+W: 
+W: Frederic Weatherly (1848 - 1929)
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84af53a1e96e646e05c
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=a9CKSLG5cck
+% abcbook-link-title-0 Daniel O&#39;Donnell - Danny Boy
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags multipart,traditional songs,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676946950589
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%voicecolor black
+%%voicecolor maroon
+%%voicecolor teal
+%%score [1|2|3]
+
+X: 106
+T: God Save The King
+C:Traditional
+B: traditional songs
+M:3/4
+L:1/4
+R: Air
+Q: 1/4=90
+K:G
+V:1 
+"G"G"Em"G"Am"A|"D7" F>G"D"A|"G" B"Em"B"C"c|"G" B>A"Em"G|"Am" A"G"G"D"F|"G"G3||
+"G"ddd|d>cB|"Am" ccc|"D7" c>B"D"A|"G" B"Am"c/2B/2A/2G/2|"G" B>c"D"d|"C" e/c/"G"HB"D7" [I: pos stem down]HA|[I: pos stem auto]"G"G3|]
+W: God save our gracious King,
+W: Long live our noble King,
+W: God save the King:
+W: 
+W: Send him victorious, Happy and glorious,
+W: Long to reign over us:
+W: God save the King.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a018d18bf40bb3da3
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=0a5KcGHwnzA
+% abcbook-link-title-0 God Save the King - The British National Anthem 2022 Lyrics.
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676947529111
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 107
+T: I'll Take You Home Again, Kathleen
+C:Thomas Westerndorf, 1875
+B: traditional songs
+M:4/4
+L:1/8
+R: Air
+Q: 1/4=80
+K:G
+V:1 
+z D|B3 B cAe^c|d6 z B|B3 A ^GAcB|G6 z D|
+B3 B cAe^c|d6 z B|A2 ^c2 ecBA|d6 d2|
+e2 d2 cBc^c|d6 d2|f3 e dcAc|B6 B2|
+B3 e BBcc|B6 B2|A3 A BAB^c|(d4 c2) D2|
+B3 B cAe^c|d6 z B|B3 A ^GAcB|G6 z d|
+d3 B AAEG|e6 fe|d3 B ABcF|G6|]
+W: I'll Take You Home Again Kathleen
+W: across the ocean wild and wide
+W: to where your heart has ever been
+W: since first you were my bonny bride
+W: The roses all have left your cheeks
+W: I watched them fade away and die
+W: You voice is sad whene're you speak
+W: and tears bedim your loving eyes
+W: So I will take you back Kathleen
+W: to where your heart will feel no pain
+W: And when the fields are fresh and green
+W: I will take you to your home again
+W: 
+W: I know you love me Kathleen dear
+W: your heart was ever fond and true
+W: I always feel when you are near
+W: That life holds nothing dear but you
+W: the smiles that once you gave to me
+W: I scarcely ever see them now
+W: the many, many times I see
+W: a darkening shadow on your brow
+W: Oh So I will take you back Kathleen
+W: to where your heart will feel no pain
+W: And when the fields are fresh and green
+W: I will take you to your home again
+W: 
+W: To that dear home beyond the sea
+W: My Kathleen shall again return
+W: And when thy old friends welcome thee
+W: Thy loving heart will cease to yearn
+W: Where laughs the little silver stream
+W: beside your mother's humble cot
+W: and brightest rays of sunshine gleam
+W: To where your grief will be forgot
+W: so So I will take you back Kathleen
+W: to where your heart will feel no pain
+W: And when the fields are fresh and green
+W: I will take you to your home again
+% abcbook-tune_id 63e4c84a20c15c78b6ab2d44
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=ogXOCvj0-hA
+% abcbook-link-title-0 Daniel O&#39;Donnell - I&#39;ll Take You Home Again Kathleen (1997)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676948139725
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 108
+T: John Anderson, My Jo
+C:Trad.
+B: traditional songs
+M:4/4
+L:1/8
+R: Reel
+Q: 1/4=100
+K:Em
+V:1 
+(ED)|B,2 E2 E2 F2|G4 G2 (AG)|F3 E D2 ^C2|D6|
+(ED)|B,2 E2 E2 F2|G4 G2 A2|B3 A G2 A2|B6|
+(dc)|B3 A G2 B2|d4 c2 B2|A3 G F2 G2|A6|
+(GA)|B2 G2 A2 F2|G2 (FE) B2 E2|B,3E E2 ^D2|E6|]
+W: 
+W: John Anderson, my jo, John,
+W: We clamb the hill the gither;
+W: And mony a canty day, John,
+W: We've had wi' ane anither:
+W: 
+W: 
+W: Now we maun totter down, John,
+W: And hand in hand we'll go,
+W: And sleep the gither at the foot,
+W: John Anderson, my Jo.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a43c383b018f4b77a
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=Ef93XIIMtv4
+% abcbook-link-title-0 John Anderson, my Jo - Robert Burns - trad. Scottish (Christy-Lyn)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676948281802
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 109
+T: Landlord Fill the Flowing Bowl
+C:Trad. Song. Arr J McKenzie 2018
+B: traditional songs
+M:2/2
+L:1/4
+R: March
+Q: 1/2=90
+K:D
+V:1 
+%%MIDI program 23 % Tango Accd.
+A|"D"dA FA|"G"d>d dd|"A"e>e ee|"D"f2 dA|
+dA FA|d d/d/ dd|"A"e e/e/ ee|"D"f2 d||
+|:A|"D"f>f fa|"A"ag g2|e>e eg|"D"gf f2|
+d>d df|"Em"f e/e/ ge|"A"cA Bc|"D"d2 d:|
+V:2 clef=treble
+%%MIDI program 73 % Flute
+z|F F D D|B B G2|A3/2 F/ G G/E/|A F [A,D]2|
+F F D D|A A F2|A3/2 F/ G G/E/|A F [A,D]
+|:z|A A F F|E E D2|A3/2 F/ E C|E D [A,D]2|
+A F D F|B B G2|A3/2 F/ G E|A F [A,D]:|
+W: Come landlord fill the flowing bowl until it doth run over
+W: Come landlord fill the flowing bowl until it doth run over
+W: For tonight we'll merry merry be, for tonight we'll merry merry be
+W: For tonight we'll merry merry be
+W: Tomorrow we'll be sober
+W: 
+W: The man who'd kiss the pretty girl and go and tell his mother
+W: The man who'd kiss the pretty girl and go and tell his mother
+W: Ought to have his lips cut off, ought to have his lips cut off
+W: Ought to have his lips cut off
+W: And never kiss another
+W: 
+W: The man who drinks his small ale and goes to bed right sober
+W: The man who drinks his small ale and goes to bed right sober
+W: Fades as the leaves do fade, fades as the leaves do fade
+W: Fades as the leaves do fade
+W: And drop off in October
+W: 
+W: But the man who drinks his real ale and goes to bed right mellow
+W: But the man who drinks his real ale and goes to bed right mellow
+W: Lives as he ought to live, lives as he ought to live
+W: Lives as he ought to live
+W: And dies a jolly good fellow
+% abcbook-tune_id 63e4c84a886389ff3580e405
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=6yph8ZC-QRc
+% abcbook-link-title-0 Come Landlord Fill the Flowing Bowl
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags multipart,© free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676948492308
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%score [ 1|2 ]
+%%voicecolor black
+%%voicecolor maroon
+
+X: 110
+T: The Minstrel Boy
+C:Traditional
+B: traditional songs
+M:2/4
+L:1/8
+R: Air
+Q: 1/4=100
+K:G
+V:1 
+%%MIDI program 23 % Tango Accd.
+D|"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|"G"Bc dB|"D7"A4|"G"G2 D2|
+"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|B>c dB|"D7"A4|"G"G2 d2|
+"Em"g2 "B7"f2|"Em"e2 "A7"fg|"D"f2 "A7"e2|"D"d3^d|"Em"e3B|"B7"B2 ^d2|"Em"e2 "B7"f2|"Em"g3g|
+"G"G3"D7"A|"G"cB AG|B2 "D"d2|"Em"g2 "D"fg|"C"e2 "G"d2|Bc dB|"D7"A4|"G"G3|]
+V:2 clef=treble
+%%MIDI program 73 % Flute
+z|B3D|GFAd|G2D2|E2D2|C3G|G>A B2|DFAd|GABc|
+B3D|GFAd|G2D2|E2D2|C3G|GA B2|D4|GABc|
+E2DF|E2A2|DFAG|D4|E4|B4|E2B2|E4|
+B3D|GFAd|G2D2|E2D2|C3G|G>A B2|DFAd|G3|]
+W: The minstrel boy to the war is gone
+W: In the ranks of death you will find him
+W: His father's sword he's girded on
+W: And his wild harp slung behind him
+W: 
+W: "Land of Song" said the warrior bard
+W: "Tho' all the world betrays thee
+W: One sword, at least, thy rights shall guard
+W: One faithful harp shall praise thee"
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84aa612fdab2dfdf510
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=gQjo-nU9-us
+% abcbook-link-title-0 The Irish Tenors- Minstrel Boy (LIVE)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677228872769
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%score [ 1|2 ]
+%%voicecolor black
+%%voicecolor maroon
+
+X: 111
+T: My Bonnie Lies Over the Ocean
+C:C Pratt 1881
+B: traditional songs
+M:3/4
+L:1/4
+R: Waltz
+Q: 1/4=150
+K:G
+V:1 
+D|"G"BAG|"C"AGE|"G"DB,2-|B, z D|BAG|"A7"GFG|"D"A3-|"D7"A z D|
+"G"BAG|"C"AGE|"G"DB,2-|B, z D|"Am"EAG|"D7"FEF|"G"G3-|G2z|
+"G"D3|"G7"G3|"C"E3|A2G|"D"FFF|"D7"FEF|"G"G2A|"G"B3|
+"G"D3|"G7"G3|"C"E3|A2G|"D"FFF|"D7"FEF|"G"G3-|"G"G2|]
+W: My Bonnie lies over the ocean
+W: My Bonnie lies over the sea
+W: My Bonnie lies over the ocean
+W: Oh, bring back my Bonnie to me...
+W: 
+W: REFRAIN
+W: Bring back, bring back
+W: Bring back my Bonnie to me, to me
+W: Bring back, bring back
+W: Bring back my Bonnie to me
+W: 
+W: Last night as I lay on my pillow
+W: Last night as I lay on my bed
+W: Last night as I lay on my pillow
+W: I dreamt that my Bonnie was dead
+W: 
+W: Oh blow the winds over the ocean
+W: And blow the winds over the sea
+W: Oh blow the winds over the ocean
+W: And bring back my Bonnie to me
+W: 
+W: The winds have blown over the ocean
+W: The winds have blown over the sea
+W: The winds have blown over the ocean
+W: And brought back my Bonnie to me
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84ab3585c7c906a6670
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=LpKYbpTsOTM
+% abcbook-link-title-0 1938 Ella Logan - My Bonnie Lies Over The Ocean
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1676949620100
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 112
+T: Scarborough Fair
+C:Trad.
+B: traditional songs
+M:3/4
+L:1/8
+R: Waltz
+Q: 1/4=120
+K:Ddor
+V:1 
+"Dm"D4D2|A4A2|"C"E3FE2|"Dm"D6-|
+D2 A2c2|d4c2|"G"A2B2G2|"Dm"A6-|A4d2|
+d4d2|"F"c4A2|A2G2F2|"C"E2C4-|C6|
+"Dm"D4A2|"C"G4"F"F2|"C"E2D2C2|"Dm"D6-|D6:|]
+W: Are you going to Scarborough Fair?
+W: Parsley, sage, rosemary, and thyme;
+W: Remember me to the one who lives there,
+W: For once she was a true love of mine.
+W: 
+W: Tell her to make me a cambric shirt,
+W: Parsley, sage, rosemary, and thyme;
+W: Sewn without seams or fine needlework,
+W: If she would be a true love of mine.
+W: 
+W: Tell her to wash it in yonder well,
+W: Parsley, sage, rosemary, and thyme;
+W: Where never spring water or rain ever fell,
+W: And she shall be a true lover of mine.
+W: 
+W: Tell her to dry it on yonder thorn,
+W: Parsley, sage, rosemary, and thyme;
+W: Which never bore blossom since Adam was born,
+W: Then she shall be a true lover of mine.
+W: 
+W: Now he has asked me questions three,
+W: Parsley, sage, rosemary, and thyme;
+W: I hope he'll answer as many for me
+W: Before he shall be a true lover of mine.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a60d780a52944b10a
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=-BakWVXHSug
+% abcbook-link-title-0 Simon &amp; Garfunkel - Scarborough Fair (Full Version) Lyrics
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677042400089
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 113
+T: Sumer Is Icumen In
+C:Trad 13th C
+B: traditional songs
+M:6/8
+L:1/8
+R: March
+Q: 3/8=100
+K:D
+V:1 
+d2 c B2 c|d2 d (c>BA)|F2 F G2 E|F3 z3|
+D2F E2 G|F2 F E2 D|F2 A B2 B|A3 z3|
+d3 B3|d3 z3|A2 F G2 E|F2 A G2 F|
+D2 F E2 C|D3 z3|F2 F E2 G|A2 A B2 c|
+d2 c B2 c|d3 z3|A3 B3|A3 G2 F|
+D2 F G2 E|(F3 G2) A|F2 A E2 C|D3 z3|]
+|:"D"A3"G"G3|"D"A3 z3|"D"D3"Em"E3|"D"D3 "A"E2F|
+"D"D3"Em"E3|"D"D3"Em"E2F|"D"A3"G"G3|"D"A3 z3::|
+W: {language:Middle English}
+W: 
+W: Sumer is icumen in
+W: Lhude sing cuccu
+W: Groweþ sed
+W: and bloweþ med
+W: and springþ þe wde nu
+W: Sing cuccu
+W: 
+W: Awe bleteþ after lomb
+W: lhouþ after calue cu
+W: Bulluc sterteþ
+W: bucke uerteþ
+W: murie sing cuccu
+W: 
+W: Cuccu cuccu
+W: Wel singes þu cuccu
+W: ne swik þu nauer nu
+W: 
+W: Sing cuccu nu • Sing cuccu.
+W: Sing cuccu • Sing cuccu nu
+% abcbook-tune_id 63e4c84a239d63930a75147d
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=LPauypfqhdU
+% abcbook-link-title-0 Sumer is icumen in / Perspice Christicola, Anonymous 13th-century English, sung by Quire Cleveland
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,choir,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677042819185
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%voicecolor maroon
+
 X: 114
+T: Two Little Girls in Blue
+C:Charles Graham, 1893
+B: traditional songs
+M:3/4
+L:1/8
+R: Waltz
+Q: 1/4=140
+K:G
+V:1 
+D2|"G"G4 G2|G2 A2 B2|"Em"E4 E2|E2 _E2 =E2|"D"F2 F2 F2|"Em"E4 D2|"G"G6-|G4 D2|
+"G"G2 G2 G2|G2 A2 B2|"Em"E4 E2|E4 "Am"A2|"D"A2 B2 A2|"Em"G4 E2|"D7"A6-|A2 z2 B2|
+"C"c2 c2 c2|"Am"A2 B2 c2|"G"B2 B2 B2|G4 B2|"D"A2 B2 A2|"Em"G4 E2|"D7"A6-|A4 D2|
+"G"G2 G2 G2|G2 A2 B2|"Em"E4 E2|"Am"c4 A2|"G"B2 A2 G2|"D7"A4 F2|"G"G6-|G2 z2 z2|
+"G"G3 A B2|"Em"G4 E2|"G"G6|"D"D6|"G"G3 A B2|G4 F2|"Am"E6-|E4 z2|
+"D"F4 F2|F2 A4|"G"G4 G2|G2 A2 B2|"Am"A4 E2|A4 G2|"D"F6-|F2 z2 D2|
+"G"G2 A2 B2|G4 F2|"G"G6|"D"D4 D2|"Em"E4 E2|"D"A4 B2|"C"c6-|c4 c2|
+"D"F4 F2|F2 E2 D2|"G"G2 F2 G2|"Am"A2 B2 c2|"G"d2 d2 B2|"D7"A2 G2 A2|"G"G6-|G4|]
+W: An old man gazed on a photograph
+W: In a locket he'd worn for years;
+W: His nephew then asked him the reason why
+W: That picture had caused him tears.
+W: "Come listen," he said, "I will tell you, lad,
+W: A story that's strange, but true!
+W: Your father and I, at the school one day,
+W: Met two little girls in blue.
+W: That picture is one of those girls," he said
+W: And to me she was once a wife;
+W: I thought her unfaithful, we quarrelled lad,
+W: And parted that night for life.
+W: My fancy of jealousy wronged a heart,
+W: A heart that was good and true -
+W: For two better girls never lived than they,
+W: Those two little girls in blue."
+W: 
+W: Refrain
+W: 
+W: Two little girls in blue, lad,
+W: Two little girls in blue.
+W: They were sisters, we were brothers
+W: And learned to love the two.
+W: And one little girl in blue, lad,
+W: Who won your father's heart,
+W: Became your mother. I married the other,
+W: And now we have drifted apart.
+W: 
+% abcbook-tune_id 63e4c84a38acdcc17a68a397
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=qhFkGpxnAj8
+% abcbook-link-title-0 Two Little Girls in Blue (1893)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677043312842
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 115
+T: Ukrainian National Anthem
+C:Mykhaylo Verbytsky (1815-1870)
+B: traditional songs
+M:4/4
+L:1/8
+R: March
+Q: 1/4=100
+K:G
+V:1 
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E3F G2A2|
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E4 E2z2||
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2G2"D"A2A2|"G"B4 B2z2|
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2B2"B"F2B2|"Em"E3F "G"GABc||
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2G2 "D"A2A2|"G"B3A "Em"GABc|
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2B2 "B7"F2B2|"Em"e4 e4|]
+W: The glory and freedom of Ukraine has not yet perished
+W: Luck will still smile on us brother Ukrainians.
+W: 
+W: Our enemies will die, as the dew does in the sunshine,
+W: and we, too, brothers, we'll live happily in our land.
+W: 
+W: We'll not spare either our souls or bodies to get freedom
+W: and we'll prove that we brothers are of Kozak kin.
+W: 
+W: 
+W: 
+% abcbook-tune_id 63e4c84a5ce6ed59b69068a8
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=liEqx4dhq8Q
+% abcbook-link-title-0 Ukraine National Anthem - Mykhaylo Verbytsky (1815-1870) | Hauptwerk Bégard
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677040576125
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 116
 T: When You and I Were Young, Maggie
 C:James Butterfield, 1866
 B: traditional songs
@@ -7547,7 +7635,7 @@ W:
 % abcbook-link-title-0 &quot;When You And I Were Young, Maggie&quot; (1923) Henry Burr, I wandered today to the hill, Maggie, to...
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags © free
+% abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -7556,7 +7644,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 115
+X: 117
 T: When You Were Sweet Sixteen
 C:James Thornton, 1898
 B: traditional songs
@@ -7598,7 +7686,7 @@ W: When you were sweet sixteen.
 % abcbook-link-title-1 WHEN YOU WERE SWEET SIXTEEN, A SONG FROM 1898, WORDS AND MUSIC BY JAMES THORNTON
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags © free
+% abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 

@@ -371,6 +371,7 @@ var useAbcTools = () => {
         if (Array.isArray(tune.links)&& tune.links.length > 0) {
             tune.links.forEach(function(link,k) {
                 if (link.link) {
+                    
                     linksRendered.push("% abcbook-link-"+k + ' ' +  ensureText(link.link,"") )
                     if (link.title) {
                         linksRendered.push("% abcbook-link-title-"+k + ' ' +  ensureText(link.title,"") )
@@ -381,7 +382,9 @@ var useAbcTools = () => {
                     if (link.endAt) {
                         linksRendered.push("% abcbook-link-end-at-"+k + ' ' +  ensureText(link.endAt,"") )
                     }
+                    //console.log("TOABC",link.link,JSON.stringify(linksRendered))
                 }
+                
             })
         }
         var filesRendered = []
@@ -1167,9 +1170,9 @@ var useAbcTools = () => {
         return final
     }
 
-    function ensureText(val, defaultVal) {
-        if (val !== null && val !== undefined && val && val.trim && val.trim().length > 0) {
-          return val.trim()
+     function ensureText(val, defaultVal) {
+        if (val !== null && val !== undefined && (val && String(val).trim().length > 0)) {
+          return String(val).trim()
         } else {
           return defaultVal && defaultVal.trim ? defaultVal.trim() : ''
         }

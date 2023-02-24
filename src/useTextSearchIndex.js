@@ -8,112 +8,128 @@ export default function useTextSearchIndex() {
   var utils = useUtils()  
   var abcTools = useAbcTools()
   
+  /** 
+   * Load the text search index into memory
+   */
   function loadTextSearchIndex(index, callback) {
-      //console.log('load index')
     return new Promise(function(resolve,reject) {
       if (index.tokens && Object.keys(index.tokens).length > 0) {
-          //console.log('load index already loaded')
         setTextSearchIndex(index)
         resolve(index)
       } else {
         // load the index from online
           var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/textsearch_index.json' : '/textsearch_index.json'
-          //console.log('load index get')
           axios.get(a).then(function(index) {
-           console.log('got index',index)
+            //console.log('got index',index)
             setTextSearchIndex(index.data)
             resolve(index.data)
           }).catch(function(e) {
             console.log(["ERR",e])
           })
-          
       }
     })
   }
   
+  /** 
+   * Search the resource index for text
+   * Stopwords are removed from text
+   * 
+   */
   function searchIndex(text, callback) {
       //console.log('sesarch index',text,textSearchIndex)
-    
-      var matches = {}
-      var cleanText = utils.stripText(text).toLowerCase()
-      var parts = cleanText.split(" ")
-      //console.log('sesarch tokens',parts)
-      parts.forEach(function(part) {
-        //console.log('sesarch tokens P',part, index.tokens)
-        if (textSearchIndex && textSearchIndex.tokens && textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(textSearchIndex.tokens[part])) {
-          textSearchIndex.tokens[part].forEach(function(matchItem) {
-            //console.log('handlepart',part,matchItem,matches,matches[matchItem])
-            if (matches[matchItem] > 0) {
-              matches[matchItem] = matches[matchItem] + 1
-            } else {
-              matches[matchItem] = 1
+      if (text && text.trim()) {
+          var matches = {}
+          var cleanText = utils.stripText(utils.stripCommonWords(text.toLowerCase()))
+          var parts = cleanText.split(" ")
+          //console.log('sesarch tokens',parts)
+          parts.forEach(function(part) {
+            //console.log('sesarch tokens P',part, index.tokens)
+            if (textSearchIndex && textSearchIndex.tokens && textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(textSearchIndex.tokens[part])) {
+              textSearchIndex.tokens[part].forEach(function(matchItem) {
+                //console.log('handlepart',part,matchItem,matches,matches[matchItem])
+                if (matches[matchItem] > 0) {
+                  matches[matchItem] = matches[matchItem] + 1
+                } else {
+                  matches[matchItem] = 1
+                }
+              })
             }
           })
-        }
-      })
-      var fullMatches = Object.keys(matches).map(function(match) {
-        return {id: match, score: matches[match], name: utils.stripText(textSearchIndex.lookups[match])}
-      })
-      var seen = {}
-      var final = []
-      fullMatches.forEach(function(a) {
-        var lowerName = a.name.toLowerCase()
-        if (!seen[lowerName]) seen[lowerName] = {ids:[]}
-        seen[lowerName].ids.push(a.id)
-        var score = 0
-        parts.forEach(function(part) {
-              if (lowerName.indexOf(part.toLowerCase()) !== -1) {  
-                score = score + 1
-              }
+          var fullMatches = Object.keys(matches).map(function(match) {
+            return {id: match, score: matches[match], name: utils.stripText(textSearchIndex.lookups[match])}
           })
-         seen[lowerName].score = score
-        
-      })
-      Object.keys(seen).forEach(function(seenName) {
-        final.push({ids: seen[seenName].ids, score: seen[seenName].score, name: seenName})
-      })
-      final.sort(function(a,b) {
-          //console.log('SC check',a,b) 
-          //var scoreA = 0
-          //var scoreB = 0
-          //parts.forEach(function(part) {
-              //console.log('SC check', part, "AA",a.name, "BB",b.name, a.name.indexOf(part)) 
-              //if (a.name.indexOf(part) !== -1) {  
-                //scoreA = scoreA + 1
-                //console.log('Sc bosot a')
-              //}
-              //if (b.name.indexOf(part) !== -1) {  
-                  //scoreB = scoreB + 1
-                  //console.log('Sc bosot b')
-              //}
-          //})
-            //console.log('SC', parts, a.name, b.name, scoreA , scoreB)  
-            if (a.score < b.score) {
-              return -1
-            } else {
-              return 1
-            }
-      })
-      final = final.slice(0,200)
-      final.sort(function(a,b) {
-          if (a && b && a.score === b.score) {
-              if (a && b && a.name < b.name) {
+          var seen = {}
+          var final = []
+          fullMatches.forEach(function(a) {
+            var lowerName = a.name.toLowerCase()
+            if (!seen[lowerName]) seen[lowerName] = {ids:[]}
+            seen[lowerName].ids.push(a.id)
+            var score = 0
+            parts.forEach(function(part) {
+                  if (lowerName.indexOf(part.toLowerCase()) !== -1) {  
+                    score = score + 1
+                  }
+              })
+             seen[lowerName].score = score
+            
+          })
+          Object.keys(seen).forEach(function(seenName) {
+            final.push({ids: seen[seenName].ids, score: seen[seenName].score, name: seenName})
+          })
+          //console.log(final)
+          final.sort(function(a,b) {
+              //console.log('SC check',a,b) 
+              //var scoreA = 0
+              //var scoreB = 0
+              //parts.forEach(function(part) {
+                  //console.log('SC check', part, "AA",a.name, "BB",b.name, a.name.indexOf(part)) 
+                  //if (a.name.indexOf(part) !== -1) {  
+                    //scoreA = scoreA + 1
+                    //console.log('Sc bosot a')
+                  //}
+                  //if (b.name.indexOf(part) !== -1) {  
+                      //scoreB = scoreB + 1
+                      //console.log('Sc bosot b')
+                  //}
+              //})
+                //console.log('SC', parts, a.name, b.name, scoreA , scoreB)  
+                if (a.score < b.score) {
                   return -1
-              } else {
+                } else {
                   return 1
+                }
+          })
+          final.sort(function(a,b) {
+              if (a && b && a.score === b.score) {
+                  if (a && b && a.name < b.name) {
+                      return -1
+                  } else {
+                      return 1
+                  }
+              } else if (a && b && a.score && b.score && a.score < b.score) {
+                  return 1
+              } else {
+                  return -1
+                  //return (a && b && a.ids && b.ids && a.name < b.name) ? -1 : 1
               }
-          } else if (a && b && a.score && b.score && a.score < b.score) {
-              return 1
-          } else {
-              return -1
-              //return (a && b && a.ids && b.ids && a.name < b.name) ? -1 : 1
-          }
-      })  
-       //console.log('TEXTSEARCH full matches', matches, final)
-      callback(final)
-    
+          })  
+          final = final.slice(0,200)
+          
+        //console.log('TEXTSEARCH full matches', matches, final)
+        callback(final)
+      } else {
+          callback([])
+      }
   }
   
+  /** 
+   * Load abc resource files given a list of text search index ids
+   * Index ids are in three parts <collectionId>-<fileId>-<tuneNumberInBook>
+   * The collectionId identifies the folder where the abc files are stored
+   * The fileId is used to generate the file name to load
+   * The tuneNumberInBook is the index of the tune within the loaded file
+   * @return {} containing json representation of abc tune
+   */
   function loadTuneTexts(tuneIds) {
     return new Promise(function(resolve,reject) {
       if (Array.isArray(tuneIds)) {
@@ -124,8 +140,7 @@ export default function useTextSearchIndex() {
           var fileNumber = tuneIdParts[1]
           // id in three parts [<collectionId>-<fileId>-<tuneNumberInBook>]
           var filePaths =  ['abcresources/folktunefinder/abc_tune_folktunefinder_','abcresources/thesession/abc_tune_thesession_','abcresources/jimsroots/abc_tune_jimsroots_','abcresources/misc/abc_tune_misc_','abcresources/norbeck/abc_tune_norbeck_','abcresources/folkinfo/abc_tune_folkinfo_']
-          var fileExtensions = [".txt" , ".abc", ".abc", ".abc", ".abc", ".abc"]
-          console.log(tuneIdParts, "C",filePaths.length ,collectionNumber,filePaths[collectionNumber])
+          var fileExtensions = [".txt" , ".abc", ".abc", ".abc", ".abc", ".abc"] // corresponds to file paths above
           if (filePaths.length >= parseInt(collectionNumber) && filePaths[collectionNumber]) {
               var filePath = filePaths[collectionNumber]
               var tuneNumber = tuneIdParts[2]
@@ -140,8 +155,8 @@ export default function useTextSearchIndex() {
           }
         })
         var tune = null
+        // for each of the loaded resources, extract the tunes and convert to json
         Promise.all(promises).then(function(extractData) {
-            console.log(extractData)
             if (extractData.length > 0) {
                 var s = extractData.map(function(bookTextAndKey) {
                     var bookText = bookTextAndKey[1].data
@@ -150,12 +165,9 @@ export default function useTextSearchIndex() {
                     if (Array.isArray(tunes) && tunes.length > tuneKey && tunes[tuneKey]) {
                       return abcTools.json2abc(tunes[tuneKey])
                     } 
-                    
                 })
-                console.log(s)
                 resolve(s)
             }
-         
         }).catch(function(e) {console.log(e); resolve()})
       }
     })  

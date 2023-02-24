@@ -12,6 +12,8 @@ function LocalSearchSelectorModal(props) {
   const handleClose = () => setShow(false);
   const handleShow = (e) => setShow(true);
   const [settings, setSettings] = useState(null)
+  const [scores, setScores] = useState({}) 
+  
   useEffect(function() {
       setFilter(props.value)
   },[])
@@ -25,13 +27,19 @@ function LocalSearchSelectorModal(props) {
   function searchOptions(text, callback) {
     props.searchIndex(text,function(searchRes) {
       var final = {}
+      var sc = {}
       if (Array.isArray(searchRes)) {
-        searchRes.forEach(function(result)  {
-          final[result.ids.join(",")] = result.name
+        var lastScore = 0
+        searchRes.forEach(function(result,rk)  {
+            //console.log(result)
+            final[result.ids.join(",")] = result.name
+            if (lastScore != result.score) sc[rk] = true
+            lastScore = result.score
         })
       }
       //console.log('sesarch index',text,final)
       callback(final)
+      setScores(sc)
     }) 
   }  
   
@@ -45,14 +53,14 @@ function LocalSearchSelectorModal(props) {
   },[show])
   
   function selectSetting(setting) {
-    console.log('select setting ', setting, props.currentTune)
+    //console.log('select setting ', setting, props.currentTune)
     if (props.currentTune && setting) {
         var tune = props.tunebook.abcTools.abc2json(setting)
         tune.id  = props.currentTune.id
         tune.books = props.currentTune.books
         tune.tags = props.currentTune.tags
         tune.links = props.currentTune.links
-        console.log('final tuine ',tune) 
+        //console.log('final tuine ',tune) 
         props.tunebook.saveTune(tune)
     }
   }
@@ -74,11 +82,11 @@ function LocalSearchSelectorModal(props) {
   
   
   function selectTune(key,value) {
-    console.log('select tune ',key,value)
+    //console.log('select tune ',key,value)
       var tuneIds = key.split(",")
-      console.log('select tune ',tuneIds)
+      //console.log('select tune ',tuneIds)
       props.loadTuneTexts(tuneIds).then(function(s) {
-          console.log('got sets',s)
+          //console.log('got sets',s)
           setSettings(s)
       })
       
@@ -147,12 +155,20 @@ function LocalSearchSelectorModal(props) {
           <Modal.Title>Search the collection</Modal.Title>
         </Modal.Header>
           <Modal.Body>
+          {(filter && filter.trim() ) && <>
+          <a target="_new" href={"https://www.google.com/search?q=abc notation "+(filter ? filter.trim() : '')} ><Button>{props.tunebook.icons.externallink} Google</Button></a>
+          <a target="_new" href={"https://thesession.org/tunes/search?q="+(filter ? filter.trim() : '')} ><Button>{props.tunebook.icons.externallink} TheSession.org</Button></a>
+          <hr/>
+          </>}
           <input type='text' value={filter} onChange={filterChange}   style={{width:'50%'}} />
+          
+          
+
          </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {Object.keys(options).map(function(option,tk) {
-              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {selectTune(option,options[option])}} >{options[option]}</ListGroup.Item>
+              return <ListGroup.Item  key={tk} style={scores[tk] === true ? {borderTop:'3px solid black'} : {}}  className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {selectTune(option,options[option])}} >{options[option]}</ListGroup.Item>
             })}
           </ListGroup>
            

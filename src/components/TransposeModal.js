@@ -44,7 +44,9 @@ export default function TransposeModal(props) {
       const renderChord = chordRendererFactory(config);
       const destChord = parseChord(tune.key);
       if (!destChord.error) {
-        dest = renderChord(destChord)
+          try {
+            dest = renderChord(destChord)
+           } catch (e) {}
       }
       //console.log('tk dd',dest,destChord)
       //setDestKey(dest)

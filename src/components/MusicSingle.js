@@ -168,7 +168,7 @@ export default function MusicSingle(props) {
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
-        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name) + firstVoice.notes.join("\n"), false)
+        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key)
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
         //console.log('sING',chords, JSON.stringify(chordsArray))
@@ -306,7 +306,7 @@ export default function MusicSingle(props) {
                     {props.mediaPlaylist === null && <ButtonGroup style={{float:'left', marginLeft:'0.2em', maxWidth:'50px'}} >
                         
                         {/* Have at least one link, play button starts playing*/}
-                        {(Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0].link) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.link)}</Button>
+                        {(Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0].link) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.play)}</Button>
                         }
                         {/* Have no link, play button triggers youtube search*/}
                         {!(Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0].link) && 

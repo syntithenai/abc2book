@@ -1,10 +1,74 @@
 import abcjs from "abcjs";
 import * as localForage from "localforage";
 import localforage from "localforage";
+import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 
     
 export default function utilsFunctions(props) {
 
+    function canonicalChordForKey(key,chord) {
+        var letters=['A','B','C','D','E','F','G']
+        //console.log('CCFK',key,chord)
+        var keyLetter = (chord && chord.length > 0 && chord[0].toUpperCase)  ? chord[0].toUpperCase() : ''
+        if (!keyLetter) return ''
+        var modifierLetter =(chord.length > 1 && (chord[1] === 'b' || chord[1] === '#')) ? chord[1] : ''
+        //console.log('CCFK',showFlats(key),"K",key,chord,"KL",keyLetter,"ML",modifierLetter)
+        
+        if (showFlats(key)) {
+            if (modifierLetter == '#') {
+                var letterIndex = letters.indexOf(keyLetter)
+                keyLetter = letters[(letterIndex + 1)%letters.length]
+                modifierLetter = "b"
+            }
+        } else {
+            if (modifierLetter == 'b') {
+                var letterIndex = letters.indexOf(keyLetter)
+                keyLetter = letters[(letterIndex - 1)%letters.length]
+                modifierLetter = "#"
+            }
+        }
+        if (modifierLetter.length > 0) {
+            return keyLetter + modifierLetter + chord.slice(2)
+        } else {
+            return keyLetter + chord.slice(1)
+        }
+    }
+
+    function showFlats(key) {
+        var keyMap = {
+            "A": false, "A#": true, "Ab": true, 
+            "B": false, "B#": false, "Bb": true, 
+            "C": false, "C#": true, "Cb": false, 
+            "D": false, "D#": true, "Db": true, 
+            "E": false, "E#": true, "Eb": true, 
+            "F": true, "F#": false, "Fb": false, 
+            "G": false, "G#": true, "Gb": true
+        }
+        var keyLetter =''
+        var modifierLetter =''
+        if (key && key.length > 1) {
+            if (key[1] == 'b' || key[1] == '#') {
+                keyLetter = key[0].toUpperCase() 
+                modifierLetter = key[1]
+            } else {
+                keyLetter = key[0].toUpperCase() 
+            }
+        } else if (key && key.length > 0) {
+            keyLetter = key[0].toUpperCase() 
+        } else {
+            return false
+        }
+        //console.log('showFlats',key,keyLetter + modifierLetter,keyMap[keyLetter + modifierLetter])
+        return keyMap[keyLetter + modifierLetter]
+    }
+
+
+    function stripCommonWords(text) {
+        text = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').trim()
+        var commonWords={"a":true,"also":true,"am":true,"an":true,"and":true,"any":true,"are":true,"as":true,"at":true,"be":true,"became":true,"become":true,"but":true,"by":true,"can":true,"could":true,"did":true,"do":true,"does":true,"each":true,"either":true,"else":true,"for":true,"had":true,"has":true,"have":true,"how":true,"i":true,"if":true,"in":true,"is":true,"it":true,"its":true,"me":true,"must":true,"my":true,"nor":true,"not":true,"of":true,"oh":true,"ok":true,"the":true,"who":true,"whom":true,"will":true,"with":true,"within":true,"without":true,"would":true,"yes":true,"yet":true,"you":true,"your":true}
+        var final = text.split(' ').filter(function(word) {return  (!commonWords.hasOwnProperty(word)) }).join(' ')
+        return final
+    }
 
 /**
      *  Load a local storage key and parse it as JSON 
@@ -215,6 +279,6 @@ export default function utilsFunctions(props) {
     }
      
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
     
 }

@@ -20,7 +20,13 @@ const tools = useAbcTools()
     //"lookups": {"1001": "joe cat", "1004": "cat my arse", "1003": "who cat", "1002": "dog gone"}
 //}
 
-
+function stripCommonWords(text) {
+        text = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').trim()
+        var commonWords={"a":true,"also":true,"am":true,"an":true,"and":true,"any":true,"are":true,"as":true,"at":true,"be":true,"became":true,"become":true,"but":true,"by":true,"can":true,"could":true,"did":true,"do":true,"does":true,"each":true,"either":true,"else":true,"for":true,"had":true,"has":true,"have":true,"how":true,"i":true,"if":true,"in":true,"is":true,"it":true,"its":true,"me":true,"must":true,"my":true,"nor":true,"not":true,"of":true,"oh":true,"ok":true,"the":true,"who":true,"whom":true,"will":true,"with":true,"within":true,"without":true,"would":true,"yes":true,"yet":true,"you":true,"your":true}
+        var final = text.split(' ').filter(function(word) {return  (!commonWords.hasOwnProperty(word)) }).join(' ')
+        return final
+    }
+    
 function isAliasLine(line) {
     return (line.startsWith("N: AKA: "))
 }
@@ -174,7 +180,10 @@ function processFile(filename, dir,folderIndex,folderKey, forceDups = false) {
                         
                     }
                 })
-                pushSetting(stripText(title), tk)
+                var final = stripCommonWords(title)
+                if (final && final.trim && final.trim()) {
+                    pushSetting(final, tk)
+                }
              } else {
                  duplicates[dir+filename] = duplicates[dir+filename] > 0 ? duplicates[dir+filename] + 1 : 1
              }
