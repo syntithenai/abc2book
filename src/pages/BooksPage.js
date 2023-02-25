@@ -101,7 +101,7 @@ export default function BooksPage(props) {
                                     //props.setTagFilter([option]);
                                     //props.setCurrentTuneBook(''); 
                                     //props.setFilter(''); 
-                                    props.tunebook.fillMediaPlaylistFromTag(option);
+                                    props.tunebook.fillMediaPlaylist('','',option);
                                     navigate("/tunes")
                                 }} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
                                     

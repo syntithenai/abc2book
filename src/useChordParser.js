@@ -1,4 +1,4 @@
-
+/** DEPRECATED **/
 
 export default function useChordParser() {
 

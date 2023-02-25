@@ -3,10 +3,20 @@ import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 
+/**
+ * Utilities for converting to/from abcjs object format
+ * Also utilities for extracting and rendering chord data from abc notation (using abcjs)
+ */
 export default function useAbcjsParser() {
     
     var abcTools = useAbcTools()
     var utils = useUtils()
+    
+    /**
+     * Get note length as a decimal number from abc notation string
+     * 1/8 note == 0.125 is default
+     * Seek note length in abc
+     */
     function getNoteLength(abc) {
         var nl = 0.125
         var parts = abc.split("\n")
@@ -24,6 +34,9 @@ export default function useAbcjsParser() {
        return nl
     }
     
+    /** 
+     * Get the time signature from an abc string
+     */
     function getMeter(abc) {
         var nl = '4/4'
         var parts = abc.split("\n")
@@ -41,10 +54,16 @@ export default function useAbcjsParser() {
        return nl
     }
     
+    /** 
+     * Greatest common denominator of a and b
+     */
     function gcd(a, b) {
         return (b) ? gcd(b, a % b) : a;
     }
     
+    /**
+     * Convert a decimal number to a fraction object 
+     */
     var decimalToFraction = function (_decimal) {
 
         if (_decimal == 1){
@@ -69,24 +88,34 @@ export default function useAbcjsParser() {
         }
     };
     
+    /**
+     * Convert duration to number of noteLengths as a fraction string
+     * that can be used in abc notation to describe note length
+     */
     function durationToNoteLength(duration, noteLength=0.125) {
         var l = duration / noteLength 
-        if (l > 1) {
+        if (l >= 1) {
+            // avoid fraction if possible
             if (Math.round(l) == l) {
                 return l
             } else {
                 // fraction
                 var f = decimalToFraction(l)
-                //console.log("FFFF",f)
                 return f.top + "/" + f.bottom
             }
         } else if (l < 1) {
+            // just denominator for durations less than notelength 
+            // assumes durations less than notelenght are an even fraction of notelength
             return "/" + parseInt((1/l))
         } else {
             return ''
         }
     }
     
+    /**
+     * Convert abcjs pitch element to string that can 
+     * be used in abc notation to represent note 
+     */
     function pitchToNote(pitch,duration, noteLength) {
         var note = ''
         if (pitch && pitch.name && duration > 0) {
@@ -102,31 +131,32 @@ export default function useAbcjsParser() {
         } else if (pitch.endTie) {
             
         }
-        
         return note
     }
 
+    /**
+     * Convert decoration string to canonical short form
+     */
     function lookupDecoration(d) {
-        
         var decorations = {'upbow': 'u','downbow':'v','fermata': 'H','accent': 'L','mordent': 'M','coda':'O','pralltriller':'P','segno':'S','trill':'T','staccato':'.', 'wedge': "!wedge!", 'uppermordent': "!uppermordent!", 'turn': "!turn!", 'thumb': "!thumb!", 'tenuto': "!tenuto!", 'snap': "!snap!", 'shortphrase': "!shortphrase!", 'roll': "!roll!", 'pppp': "!pppp!", 'ppp': "!ppp!", 'pp': "!pp!", 'p': "!p!", 'open': "!open!", 'mf': "!mf!", 'mediumphrase': "!mediumphrase!", 'lowermordent': "!lowermordent!", 'longphrase': "!longphrase!", 'invertedfermata': "!invertedfermata!", 'fine': "!fine!", 'ffff': "!ffff!", 'fff': "!fff!", 'ff': "!ff!", 'f': "!f!", 'diminuendo)': "!diminuendo)!", 'diminuendo(': "!diminuendo(!", 'crescendo)': "!crescendo)!", 'crescendo(': "!crescendo(!", 'breath': "!breath!", 'D.S.': "!D.S.!", 'D.C.': "!D.C.!", '5': "!5!", '4': "!4!", '3': "!3!", '2': "!2!", '1': "!1!", '0': "!0!", '+': "!+!"}
         return decorations.hasOwnProperty(d) ? decorations[d] : '' //'{'+d+"}"
     }   
        
        
-    // convert from abcjs parsed object to ABC notation string
-    // the original string is required as well as the parsed version 
-    // to determine note spacings  and note length  
+    /**
+     * Convert from abcjs parsed object to ABC notation string
+     * the original string is required as well as the parsed version 
+     * to determine note spacings  and note length  
+     */
     function render(abc, abcString) {
         //console.log('ren',abc)
         var noteLength = getNoteLength(abcString)
         var final = []
         var symbolsSinceLastBar = 0
         abc[0].lines.forEach(function(line, lineNumber) {
-            //console.log(lineNumber, line)
             if (line && line.staff && line.staff.length > 0) {
                 line.staff[0].voices.forEach(function(symbols, voiceNumber) {
                    symbols.forEach(function(symbol,symbolNumber) {
-                       //console.log(symbol)
                        var originalString = abcString && abcString.length >= symbol.startChar && abcString.length > symbol.endChar ? abcString.slice(symbol.startChar,symbol.endChar + 1) : ''
                        var trailingSpace = originalString.endsWith(' ')
                        if (symbol.el_type === 'note') {
@@ -164,11 +194,10 @@ export default function useAbcjsParser() {
                                         return  chord.name.replace("♭","b").replace("♯","#")
                                     }).join(" ").trim()  + '"' +  note
                             }
-                            if (trailingSpace) {// && note.length > 0) {
+                            if (trailingSpace) {
                                 note = note + ' '
                             }
                             if (note.length > 0) {
-                                //console.log("NOTE",note, lineNumber)
                                 final.push({note: note, lineNumber: lineNumber})
                             } 
                        }  else if (symbol.el_type === "tempo")  {
@@ -184,7 +213,6 @@ export default function useAbcjsParser() {
                            var note = '[P:' + symbol.title + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
                        } else if (symbol.el_type === 'bar') {
-                           //console.log("BAR")
                            symbolsSinceLastBar = 0
                            if (symbol.type === 'bar_thin') {
                                var note = "|" + (trailingSpace ? ' ' : '')
@@ -226,7 +254,14 @@ export default function useAbcjsParser() {
         }).join("")
     }
    
-        
+    /**
+     * Extract the chords from an abc string and render them
+     * in a format suitable for guitar players
+     * @param boolean showDots - use dots to show chord spacing within the bar
+     * @param number transpose - transpose chords before rendering
+     * @param key - key of abc song (NOT extract from string) used to
+     *  determine whether to use # or b for display
+     */    
     function renderChords(abcString, showDots=true, transpose = 0, key='') {
         const parseChord = chordParserFactory();
         var noteLength = getNoteLength(abcString)
@@ -363,11 +398,17 @@ export default function useAbcjsParser() {
         return final.join(' ').replaceAll("\n ","\n")
     }
     
+    /**
+     * Parse an abc string into abcjs object format
+     */
     function parse(abc) {
         return abcjs.renderAbc("*", abc)
     }
     
-    
+    /**
+     * Parse an string containing compressed chord format 
+     * into an object representing the lines, bars and timing of the chords
+     */
     function parseChordText(chordText, abcString) {
         var noteLengthsPerBar = abcTools.getNoteLengthsPerBar(abcTools.abc2json(abcString)) 
         var result = []
@@ -400,7 +441,10 @@ export default function useAbcjsParser() {
         return result
     }
     
-    
+    /**
+     * Merge compressed chord text into an abcString
+     * and return the updated abcString
+     */
     function  mergeChords(chordText, abcString) {
         var chordLayout = parseChordText(abcTools.justNotes(chordText))
         var abc = parse(abcString)
@@ -591,16 +635,19 @@ export default function useAbcjsParser() {
         //console.log(abc,final)
         return final
     }
-     
+    
+    /** 
+     * Take text containing lyrics and chords and extract the chords and 
+     * lyrics returning an object with extracted data
+     * @return {chords:'', lyrics:'']
+     */  
     function parseChordsAndText(chords) {
         const parseChord = chordParserFactory();
         const renderChord = chordRendererFactory({ useShortNamings: true });
         var lines = chords.replaceAll(/[(){}\[\]]/g, ' ').replaceAll("|"," | ").split("\n")
         // first by tokens
         var parsedLines = {}
-        console.log(lines)
         lines.forEach(function(line, lineKey) {
-            //console.log(line)
             if (line.trim().length > 0) {
                 var chordTokens = []
                 var textTokens = []
@@ -609,7 +656,6 @@ export default function useAbcjsParser() {
                      const chord = parseChord(token);
                      const chordRendered = renderChord(chord)
                      if (chordRendered !== null) {
-                          console.log("CT",chordRendered)
                           chordTokens.push(chordRendered)
                      } else {
                          if (token.trim().length > 0) {
@@ -617,18 +663,15 @@ export default function useAbcjsParser() {
                                  chordTokens.push(token.trim())
                              } else {
                                 textTokens.push(token.trim())
-                                console.log("TT",token.trim())
                              }
                          }
                      }
                 })
                 parsedLines[lineKey] = {chords:chordTokens, text: textTokens, line: line}
             } else {
-                console.log("EMPTY")
                 parsedLines[lineKey] = {chords:[], text: [], line: line} 
             }
         })
-        //console.log(parsedLines)
         var lyricsLineKeys = Object.keys(parsedLines).filter(function(lineKey) {
             if (parsedLines[lineKey].text.join(' ').trim().length === 0 && parsedLines[lineKey].chords.length === 0) {
                 return true
@@ -657,11 +700,17 @@ export default function useAbcjsParser() {
 
     }
     
+    /**
+     * Extract the chords from a text containing chords and lyrics
+     */
     function cleanupChords(val) {
         var data = parseChordsAndText(val)
         return data && data.chords ? data.chords : (val ? val : '')
     }
     
+    /**
+     * Extract the lyrics from a text containing chords and lyrics
+     */
     function cleanupLyrics(val) {
            var data = parseChordsAndText(val)
            return data && data.lyrics ? data.lyrics :  ''

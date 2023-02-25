@@ -49,7 +49,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                           tunebook.applyMergeData(results).then(function(mergedTunes) {
                                 //console.log('applied', mergedTunes)
                               if (autoplay && setMediaPlaylist && mergedTunes) {
-                                    var tunes=tunebook.mediaFromBook(params.bookName, mergedTunes)
+                                    var tunes=[]
                                     //forceRefresh()
                                     //console.log('aplay tunes from book',tunes)
                                     //setTunes(tunes)
@@ -61,9 +61,19 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                                     setTagFilter([])
                                     if (params.tagName) {
                                         setTagFilter([params.tagName])
+                                        //tunes = tunebook.mediaFromTag(params.tagName)
                                     }
+                                     //else {
+                                        //tunes = tunebook.mediaFromBook(params.bookName, mergedTunes)
+                                    //}
+                                    
+                                    tunebook.fillMediaPlaylist(
+                                        params.bookName,
+                                        (Array.isArray(results) ? results.map(function(result) {
+                                            return result.id
+                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? params.tagName : [])) 
                                     //navigate("/tunes")
-                                    setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
+                                    //setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
                                     setClickToStart(true)
                                     //}, 200)
                               } else {  

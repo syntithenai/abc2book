@@ -55,7 +55,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
         </Modal.Header>
         <Modal.Body style={{height:'40em'}}>
             <Form.Text style={{marginBottom:'1.5em', display:'block'}} >
-            Change a field value in {selectedCount} tunes
+            Change a field value in {selectedCount} selected tunes
             </Form.Text>
             <Form.Label>Field to change</Form.Label>
            <Form.Select onChange={function(e) {setSelectedField(e.target.value)}} value={selectedField} >

@@ -1,3 +1,6 @@
+/**
+ * Used to generate list of curated collections when importing tunes
+ */
 export default {
   "steve's tunes": {group:'Collections', link:'tunes.abc', image:'stevetunes.jpeg', book:'tunes'},
   

@@ -2,31 +2,54 @@ import {useState, useEffect} from 'react'
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 
+/**
+ * Top level state for tunebook application
+ */
 export default function useAppData() {
 
   let utils = useUtils();
   let abcTools = useAbcTools();
+  
+  // refresh hash is used to force components to rerender
   const [refreshHash, setRefreshHash] = useState(utils.generateObjectId())
-  const [googleDocumentId, setGoogleDocumentId] = useState(null)
-  var [filter, setFilter] = useState('')
-  var [groupBy, setGroupBy] = useState('')
-  var [tagFilter, setTagFilter] = useState('')
-  // list
-  var [filtered, setFiltered] = useState(null)
-  var [grouped, setGrouped] = useState({})
-  var [tuneStatus, setTuneStatus] = useState({})
-  var [selected, setSelected] = useState({})
-  var [lastSelected, setLastSelected] = useState({})
-  var [selectedCount, setSelectedCount] = useState({})
-  var [listHash, setListHash] = useState('')
-  var [showPreviewInList, setShowPreviewInList] = useState(false)
-  var [tagCollation, setTagCollation] = useState({})
   function forceRefresh() {
     setRefreshHash(utils.generateObjectId())
   }
-  const [pageMessage, setPageMessageInner] = useState('')  
-  var messageTimeout = null
   
+  // what is the current google document we are saving to
+  const [googleDocumentId, setGoogleDocumentId] = useState(null)
+  
+  // list search filters
+  var [filter, setFilter] = useState('')
+  var [groupBy, setGroupBy] = useState('')
+  var [tagFilter, setTagFilter] = useState('')
+  var [showPreviewInList, setShowPreviewInList] = useState(false)
+  // currentTuneBook is used as list filter and in many other places
+  const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
+  function setCurrentTuneBook(val) {
+    setCurrentTuneBookInner(val)
+    setScrollOffsetReal(0)
+    localStorage.setItem('bookstorage_current_tunebook', val)
+  }
+  
+  
+  // list cache
+  var [filtered, setFiltered] = useState(null)
+  var [grouped, setGrouped] = useState({})
+  var [tuneStatus, setTuneStatus] = useState({})
+  var [listHash, setListHash] = useState('')
+  var [tagCollation, setTagCollation] = useState({})
+  
+  // selected tunes (list checkboxes) 
+  // eg {<tuneId>:true, <tuneId>:true, <tuneId>:false }
+  var [selected, setSelected] = useState({})
+  // used for shift select
+  var [lastSelected, setLastSelected] = useState({})
+  // note that selected count needs to maintained when changing selection
+  // value is cached to save rendering time
+  var [selectedCount, setSelectedCount] = useState({})
+  
+  // waiting overlay
   const [waiting, setWaiting] = useState('') 
   function startWaiting() {
     setWaiting(true)
@@ -34,6 +57,10 @@ export default function useAppData() {
   function stopWaiting() {
     setWaiting(false)
   }
+  
+  // auto closing popup messages 
+  const [pageMessage, setPageMessageInner] = useState('')  
+  var messageTimeout = null
   
   function setPageMessage(message,timeout=0) {
       setPageMessageInner(message)
@@ -43,31 +70,25 @@ export default function useAppData() {
       }
   }
   
-  
+    // scroll offset is saved when scrolling so list can automatically 
+    // restore scroll on load
     const [scrollOffset, setScrollOffsetReal] = useState(null);
     const setScrollOffset = (e) => {
         //console.log('setScroll',window.pageYOffset,e)
         setScrollOffsetReal(window.pageYOffset);
     };
   
-  
+  // current tune is set when clicking list item or next/prev buttons
+  // it is used to add a header icon allowing quick navigation back to the last tune
   const [currentTune, setCurrentTuneInner] = useState(localStorage.getItem('bookstorage_current_tune') ? localStorage.getItem('bookstorage_current_tune') : 0);
   function setCurrentTune(val) {
     setCurrentTuneInner(val)
     localStorage.setItem('bookstorage_current_tune', val)
   }
-  const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
-  function setCurrentTuneBook(val) {
-    setCurrentTuneBookInner(val)
-    setScrollOffsetReal(0)
-    localStorage.setItem('bookstorage_current_tunebook', val)
-  }
   
-   
-  //const [beatsPerBar, setBeatsPerBar] = useState(4) 
-  
-  //const [tempo, setTempo] = useState('') //localStorage.getItem('bookstorage_tempo') ? localStorage.getItem('bookstorage_tempo') : '')
-  //const [showTempo, setShowTempo] = useState(false)
+  // the tunes hash is used to determine if the audio generated from abc
+  // notation needs to be updated
+  // the hash maps from tune ids to a hash dependant on tune voices, key, .... (see abcTools.getTuneHash)
   const [tunesHash, setTunesHashInner] = useState({})
   useEffect(function() {
       utils.loadLocalforageObject('bookstorage_tunes_hash').then(function(data) {
@@ -85,21 +106,17 @@ export default function useAppData() {
     var ids = {}
     var importhashes = {}
     var useTunes = forceTunes ? forceTunes : tunes;
-    //console.log('Build THash',{useTunes, tunes, forceTunes})
     if (useTunes && Object.values(useTunes).length > 0) {
       Object.values(useTunes).forEach(function(tune) {
         if (tune.id && tune.voices) {
-          //console.log('BTHBB',tune.notes)
           var hash = abcTools.getTuneHash(tune) 
           var importhash = abcTools.getTuneImportHash(tune) 
-          //utils.hash(tune.notes.join("\n"))
           if (!Array.isArray(hashes[hash])) hashes[hash] = []
           hashes[hash].push(tune.id)
           ids[tune.id] = hash
           importhashes[tune.id] = importhash
         }
       })
-      //console.log('Build THash',{ids, hashes})
       setTunesHash({ids, hashes, importhashes})
     } else {
       setTunesHash({ids:{}, hashes:{}, importhash: {}})
@@ -108,11 +125,9 @@ export default function useAppData() {
   }
   
   function updateTunesHash(tune) {
-    //console.log('update tune hash',tunesHash)
      if (tune.id ) {
         var oldHash = tunesHash && tunesHash.ids ? tunesHash.ids[tune.id] : null
         if (oldHash) {
-          //console.log('update tune hash have old', oldHash, tunesHash.hashes[oldHash])
           if (Array.isArray(tunesHash.hashes[oldHash])) {
             tunesHash.hashes[oldHash] = tunesHash.hashes[oldHash].filter(function(ids) {
               if (Array.isArray(ids) && ids.indexOf(tune.id) === -1) {
@@ -128,8 +143,6 @@ export default function useAppData() {
           if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
         }
         var hash = hash = abcTools.getTuneHash(tune) 
-        //utils.hash(tune.notes.join("\n"))
-        //console.log('update tune hash have new', hash)
         if (!tunesHash)  tunesHash = {}
         if (!tunesHash.hashes)  tunesHash.hashes = {}
         if (!tunesHash.ids)  tunesHash.ids = {}
@@ -139,35 +152,37 @@ export default function useAppData() {
      }
   }
   
+  // display single view as music notation OR chords and lyrics
   const [viewMode, setViewMode] = useState('music')
+  
+  // memory copy of all tunes in the current database
   const [tunes, setTunesInner] = useState({});
-  
-  useEffect(function() {
-      //console.log('UE')
-    utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
-        //console.log("load LS tunes", typeof tunesString)
-        //try {
-            //var t = JSON.parse(tunesString)
-            //console.log('loaded',t)
-            setTunesInner(t)
-            forceRefresh()
-        //} catch (e) {
-            //console.log(e)
-        //}
-    })
-  },[])
-  
   function setTunes(val) {
     setTunesInner(val)
     utils.saveLocalforageObject('bookstorage_tunes', val)
   }
   
+  // load tunes when the page first loads
+  useEffect(function() {
+    utils.loadLocalforageObject('bookstorage_tunes').then(function(t) {
+            setTunesInner(t)
+            forceRefresh()
+    })
+  },[])
+  
+  // staging value for merge results (from online polling)
+  // existence of this value triggers merge warning 
   const [sheetUpdateResults, setSheetUpdateResults] = useState(null)
+  
+  // staging value for import results to show changes before final import
   const [importResults, setImportResultsReal] = useState(null)
   function setImportResults(res) {
       utils.scrollTo('topofpage')
       setImportResultsReal(res)
   }
+  
+  // when a playlist is created, the tunebook automatically navigates to the
+  // next tune when playback finishes
   const [mediaPlaylist, setMediaPlaylistReal] = useState(null)
   const [abcPlaylist, setAbcPlaylist] = useState(null)
   
@@ -194,4 +209,3 @@ export default function useAppData() {
  return {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset, abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation} 
   
 }
-//tempo, setTempo, beatsPerBar, setBeatsPerBar,, showTempo, setShowTempo

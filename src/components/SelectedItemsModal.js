@@ -61,11 +61,14 @@ export default function SelectedItemsModal(props) {
   
   function newTag() {
       if(filterAddTag && filterAddTag.trim()) {
-        if (window.confirm("Are you sure that you want to add  the tag "+filterAddTag+" to all the selected tunes?")) {
+        if (window.confirm("Are you sure that you want to add the tag "+filterAddTag+" to all the "+props.selectedCount+" selected tunes?")) {
         //console.log('new',filterAddTag)
         //console.log(props.tunebook)
+          var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
           props.tunebook.indexes.addTagToIndex(filterAddTag); 
-          props.tunebook.addTunesToTag(Object.keys(props.selected), filterAddTag)
+          props.tunebook.addTunesToTag(currentSelection, filterAddTag)
           //console.log(props.tunebook.indexes)
           //props.onChange(filterAdd); 
           setFilterAddTag(''); 
@@ -78,11 +81,15 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickAddTagOption(option) {
-    //console.log('add',option)
+    console.log('add',option)
     if(option && option.trim()) {
-       if (window.confirm("Are you sure that you want to add the tag "+option+" to all the selected tunes ?")) {
+       if (window.confirm("Are you sure that you want to add the tag "+option+" to all the "+props.selectedCount+" selected tunes ?")) {
          //props.onChange(filterAdd); 
-          props.tunebook.addTunesToTag(Object.keys(props.selected), option)
+          var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
+          console.log('attttTTTT',currentSelection, option)
+          props.tunebook.addTunesToTag(currentSelection, option)
           setFilterAdd(''); 
           setFilterRemove(''); 
           props.forceRefresh()
@@ -94,8 +101,11 @@ export default function SelectedItemsModal(props) {
   function clickRemoveTagOption(option) {
     //console.log('rem',option)
     if(option && option.trim()) {
-      if (window.confirm("Are you sure that you want to remove the tag "+option+" from all the selected tunes ?")) {
-        props.tunebook.removeTunesFromTag(Object.keys(props.selected), option)
+      if (window.confirm("Are you sure that you want to remove the tag "+option+" from all the "+props.selectedCount+" selected tunes ?")) {
+        var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
+        props.tunebook.removeTunesFromTag(currentSelection, option)
         //props.onChange(filterRemove); 
         setFilterAdd(''); 
         setFilterRemove('');
@@ -139,8 +149,11 @@ export default function SelectedItemsModal(props) {
         if (window.confirm("Are you sure that you want to add all the selected tunes to the new book  "+filterAdd+" ?")) {
         //console.log('new',filterAdd)
         //console.log(props.tunebook)
+        var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
           props.tunebook.indexes.addBookToIndex(filterAdd); 
-          props.tunebook.addTunesToBook(Object.keys(props.selected), filterAdd)
+          props.tunebook.addTunesToBook(currentSelection, filterAdd)
           //console.log(props.tunebook.indexes)
           //props.onChange(filterAdd); 
           setFilterAdd(''); 
@@ -157,7 +170,10 @@ export default function SelectedItemsModal(props) {
     if(option && option.trim()) {
        if (window.confirm("Are you sure that you want to add all the selected tunes to the book "+option+" ?")) {
          //props.onChange(filterAdd); 
-          props.tunebook.addTunesToBook(Object.keys(props.selected), option)
+         var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
+          props.tunebook.addTunesToBook(currentSelection, option)
           setFilterAdd(''); 
           setFilterRemove(''); 
           props.forceRefresh()
@@ -170,7 +186,10 @@ export default function SelectedItemsModal(props) {
     //console.log('rem',option)
     if(option && option.trim()) {
       if (window.confirm("Are you sure that you want to remove all the selected tunes from the book "+option+" ?")) {
-        props.tunebook.removeTunesFromBook(Object.keys(props.selected), option)
+        var currentSelection = Object.keys(props.selected).filter(function(item) {
+            return (props.selected[item] ? true : false)
+          })
+          props.tunebook.removeTunesFromBook(currentSelection, option)
         //props.onChange(filterRemove); 
         setFilterAdd(''); 
         setFilterRemove('');
@@ -181,8 +200,11 @@ export default function SelectedItemsModal(props) {
   }   
   
   function clickDelete(e) {
-    if (window.confirm("Are you sure that you want to delete all the selected tunes?")) {
-      props.tunebook.deleteTunes(Object.keys(props.selected))
+    if (window.confirm("Are you sure that you want to delete all the "+props.selectedCount+" selected tunes?")) {
+      var currentSelection = Object.keys(props.selected).filter(function(item) {
+        return (props.selected[item] ? true : false)
+      })
+      props.tunebook.deleteTunes(currentSelection)
       //setTimeout(function() {
         props.setSelected({})
         props.setSelectedCount(0)
@@ -196,7 +218,11 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickDownload() {
-      props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(props.tunebook.fromSelection(props.selected))) 
+      
+      var currentSelection = Object.keys(props.selected).filter(function(item) {
+        return (props.selected[item] ? true : false)
+      })
+      props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(props.tunebook.fromSelection(currentSelection))) 
   }
   
   //function fillMediaPlaylist() {
@@ -223,11 +249,11 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
           
         </Modal.Header>
         <Modal.Body>
-          
+          {JSON.stringify(Object.keys(props.selected))}
           <div style={{clear:'both', width:'100%', height:'4em', borderBottom:'1px solid black'}} >
              <div style={{float:'left'}} ><BulkChangeValueModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} onClose={handleClose} selected={props.selected} selectedCount={props.selectedCount} /></div>
 
-             <div style={{float:'left'}} ><BoostSettingsModal tunebook={props.tunebook} value={''} onChange={function(val) {
+             <div style={{float:'left'}} ><BoostSettingsModal count={props.selectedCount}  tunebook={props.tunebook} value={''} onChange={function(val) {
                      var currentSelection = Object.keys(props.selected).filter(function(item) {
                         return (props.selected[item] ? true : false)
                       })

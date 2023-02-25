@@ -268,7 +268,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function addTunesToTag(tuneIds,tag) {
-      //console.log()
+      console.log('attt',tuneIds,tag)
     if (Array.isArray(tuneIds) && tag && tag.trim()) {
        pauseSheetUpdates.current = true
        tuneIds.forEach(function(id) {
@@ -501,6 +501,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           //setTuneStatus(tuneStatus)
       ////},100)
     //},[filter,props.currentTuneBook])
+    function hasLinks(tune) {
+        return (Array.isArray(tune.links) && tune.links.length > 0 && (tune.links[0].link || tune.links[0].title || tune.links[0].startAt || tune.links[0].endAt  ))
+    }
     
     function hasLyrics(tune) {
         if (tune && tune.words) {
@@ -959,11 +962,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     return res
   }
   
-  function filterSearch(tune, filter, bookFilter, tagFilter) {
+  function filterSearch(tune, filter, bookFilter, tagFilter = []) {
        //console.log('filterSearch',props.currentTuneBook,props.filter, props.tagFilter)
         var filterOk = false
         var bookFilterOk = false
         var tagFilterOk = false
+        var tagFilterClean = Array.isArray(tagFilter) ? tagFilter.filter(function(t) {
+            return (t) ? true : false
+        }) : []
         // no filters means show tunes with NO book selected
         if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0)  ) {
             if (tune.books && tune.books.length > 0) {
@@ -990,15 +996,16 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                     })
                 } 
             }
-            if (!Array.isArray(tagFilter) || tagFilter.length === 0) {
+            if (!Array.isArray(tagFilterClean) || tagFilterClean.length === 0) {
                  //console.log('skip tag filt')
                 tagFilterOk = true
             } else {
                 //console.log(' tag filt',tune.tags,tagFilter)
-                if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilter) && tagFilter.length > 0) {
+                if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
-                    tagFilter.forEach(function(tag) {
-                        if (tune.tags.indexOf(tag.toLowerCase()) !== -1) {
+                    tagFilterClean.forEach(function(tag) {
+                        console.log(tag)
+                        if (tag && tune.tags.indexOf(tag.toLowerCase()) !== -1) {
                             //tagFilterOk = true
                         } else {
                             tagFilterOk = false
@@ -1015,7 +1022,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     if (!useTunes) useTunes = tunes
     console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter)
+        return hasLinks(tune) && filterSearch(tune, filter, bookFilter, tagFilter)
     })
     console.log('to abc res',res)
     res = shuffle(res)
@@ -1031,17 +1038,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             if (tunes[tuneId]) {
                   var tune = tunes[tuneId]
                   //console.log('m from sel',tune)
-                  if (tune.links && tune.links.length > 0) {
-                        tune.links.forEach(function(link) {
-                          if (link.link && link.link.trim()) {
+                  if (hasLinks(tune)) {
+                        //tune.links.forEach(function(link) {
+                          //if (link.link && link.link.trim()) {
                               final.push(tune)
-                          }
-                        })
+                          //}
+                        //})
                   }
             }
         })
     //res = shuffle(res)
-    //console.log('m from sel res',final)
+    console.log('m from sel res',final)
         
     }
     return final
@@ -1071,17 +1078,30 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   
-  function fillMediaPlaylist(book, selectedIds = null) {
-        console.log('fill media',book, selectedIds)
+  function fillMediaPlaylist(book = null, selectedIds = null, tag = null) {
+        console.log('fill media',book, selectedIds, tag)
         var fillTunes = []
-        if (selectedIds) {
-            fillTunes=mediaFromSelection(selectedIds)
-        } else if (book) {
-            fillTunes=mediaFromBook(book)
-        }
-        //console.log('fill media tunes',fillTunes)
+        var selectedArray = selectedIds ? selectedIds.split(",").filter(function(v) {return (v ? true : false)}) : []
+        if (selectedArray && selectedArray.length > 0) {
+            fillTunes=mediaFromSelection(utils.uniquifyArray(selectedArray).join(",")).filter(function(tune) {
+                if (book && tune.books && tune.books.indexOf(book) !== -1) {
+                    return true
+                } else if (tag && tune.tags && tune.tags.indexOf(tag) !== -1) {
+                    return true
+                } else {
+                    if (book || tag) {
+                        return false
+                    } else {
+                        return true
+                    }
+                }  
+            })
+        } else {
+            fillTunes=mediaFromSearch('',book,[tag])
+        } 
+        console.log('fill media tunes',fillTunes)
         shuffleArray(fillTunes)
-        //console.log('shuffle media tunes',fillTunes)
+        // sort playlist by boost
         if (Array.isArray(fillTunes)) {
             fillTunes = fillTunes.sort(function(a,b) {
                 return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
@@ -1091,31 +1111,31 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         setAbcPlaylist(null)
     }
     
-    function fillMediaPlaylistFromTag(tag) {
-        console.log('fill media by tag',tag)
-        var fillTunes = mediaFromSearch('','',[tag])
-        fillTunes = fillTunes.filter(function(tune) {
-              var ret = false
-              if (tune.links && tune.links.length > 0) {
-                    tune.links.forEach(function(link) {
-                      if (link.link && link.link.trim()) {
-                          ret = true
-                      }
-                    })
-              }
-              return ret
-        })
-        console.log('fill media tunes',fillTunes)
-        shuffleArray(fillTunes)
-        //console.log('shuffle media tunes',fillTunes)
-        if (Array.isArray(fillTunes)) {
-            fillTunes = fillTunes.sort(function(a,b) {
-                return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
-            })
-            setMediaPlaylist({currentTune: 0, book:'', tunes:fillTunes.slice(0,20)})
-        }
-        setAbcPlaylist(null)
-    }
+    //function fillMediaPlaylistFromTag(tag) {
+        //console.log('fill media by tag',tag)
+        //var fillTunes = mediaFromSearch('','',[tag])
+        //fillTunes = fillTunes.filter(function(tune) {
+              //var ret = false
+              //if (tune.links && tune.links.length > 0) {
+                    //tune.links.forEach(function(link) {
+                      //if (link.link && link.link.trim()) {
+                          //ret = true
+                      //}
+                    //})
+              //}
+              //return ret
+        //})
+        //console.log('fill media tunes',fillTunes)
+        //shuffleArray(fillTunes)
+        ////console.log('shuffle media tunes',fillTunes)
+        //if (Array.isArray(fillTunes)) {
+            //fillTunes = fillTunes.sort(function(a,b) {
+                //return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+            //})
+            //setMediaPlaylist({currentTune: 0, book:'', tunes:fillTunes.slice(0,20)})
+        //}
+        //setAbcPlaylist(null)
+    //}
     
     
     
@@ -1182,6 +1202,6 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist,fillMediaPlaylistFromTag, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes  };
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes  };
 }
 export default useTuneBook

@@ -35,6 +35,8 @@ export default function IndexLayout(props) {
     var setSelectedCount = props.setSelectedCount
     var tagCollation = props.tagCollation
     var setTagCollation = props.setTagCollation
+    var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false) 
+    var selectChangeTimeout = null
     
     function filterSearchNoBooks(tune) {
         if (tune.books && tune.books.length > 0) {
@@ -143,7 +145,7 @@ export default function IndexLayout(props) {
                     if (hasLyrics) tuneStatusKey.push('lyrics')
                     if (hasNotes) tuneStatusKey.push('notes')
                     if (hasChords) tuneStatusKey.push('chords')
-                    if ((Array.isArray(tune.links) && tune.links.length > 0)) {
+                    if (props.tunebook.hasLinks(tune)) {
                         tuneStatusKey.push('media')
                         anyTunesHaveLinks = true
                     }
@@ -303,9 +305,10 @@ export default function IndexLayout(props) {
                 selected[tuneId] = true
                 setLastSelected(tuneId)
             }
+            
             setSelected(selected)
             setSelectedCount(countSelected())
-            props.forceRefresh()
+            //props.forceRefresh()
         }
         
         //console.log('HSend',tuneId,selected[tuneId],selected)
@@ -373,10 +376,10 @@ export default function IndexLayout(props) {
                 </>}
                 
                       {(tune.books && tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
-                        {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <Button onClick={function() { props.setCurrentTune(book); props.setFilter(''); props.forceRefresh()}} key={book} variant="primary" style={{color:'white', marginRight:'0.1em', fontSize:'0.5em'}} >{book}</Button>}})}
+                        {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <Button onClick={function() { props.setCurrentTuneBook(book); props.setFilter(''); props.forceRefresh()}} key={book} variant="primary" style={{color:'white', marginRight:'0.1em', fontSize:'0.5em'}} >{book}</Button>}})}
                     </span>}
                     {(Array.isArray(tune.tags) && tune.tags.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
-                        {tune.tags.map(function(tag,count) { return props.tagFilter.indexOf(tag) === -1 ? <Button  key={tag} variant="info" style={{marginRight:'0.1em', fontSize:'0.5em'}} >{tag}</Button> : ''})}
+                        {tune.tags.map(function(tag,count) { return props.tagFilter.indexOf(tag) === -1 ? <Button  key={tag} variant="info" onClick={function() { props.setTagFilter([tag]); props.setFilter(''); props.forceRefresh()}} style={{marginRight:'0.1em', fontSize:'0.5em'}} >{tag}</Button> : ''})}
                     </span>}
                 {(Object.keys(filtered).length > 0 && Object.keys(filtered).length < LIST_PROTECTION_LIMIT) && <>    
                     {tune.key && <Button style={{ marginRight:'1em', float:'right'}} variant={'outline-success'}   >{tune.key}</Button>}
@@ -404,6 +407,7 @@ export default function IndexLayout(props) {
     var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
+    var freshSelectedCount = countSelected()
     
     return <div className="index-layout"  >
     
@@ -422,15 +426,15 @@ export default function IndexLayout(props) {
             }).join(",") 
             } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={function() { setListHash(''); props.forceRefresh()}}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} filtered={props.filtered} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList}LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} tagCollation={tagCollation} />
         </div>
+
+        {props.tunes && <div style={{position: 'sticky', top: '3.9em', zIndex: 1,  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
         
-        {props.tunes && <div style={{float:'left',  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
-        
-        {(filtered && filtered.length > 0) &&<span  ><Button variant={countSelected() > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
-        
-        {countSelected() > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={selectedCount} setSelectedCount={setSelectedCount} />}
-        
-        {selectedCount > 0 && <span style={{marginLeft:'0.5em'}} >{selectedCount}/{filtered.length} tunes selected</span>}
-        {selectedCount === 0 && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
+            {(filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
+            
+            {freshSelectedCount > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} />}
+            
+            {(freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
+            {(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
         
         </div>}
         

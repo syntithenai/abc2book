@@ -3,6 +3,11 @@ import axios from 'axios'
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 
+/** 
+ * An static index of resource files (abc) is built with the software
+ * These functions assist to load and search the index as well as load
+ * resource files using index keys
+ */
 export default function useTextSearchIndex() {
   const [textSearchIndex, setTextSearchIndex] = useState({}) 
   var utils = useUtils()  
@@ -17,10 +22,9 @@ export default function useTextSearchIndex() {
         setTextSearchIndex(index)
         resolve(index)
       } else {
-        // load the index from online
+          // load the index from online
           var a=process.env.NODE_ENV === "development" ? 'http://localhost:4000/textsearch_index.json' : '/textsearch_index.json'
           axios.get(a).then(function(index) {
-            //console.log('got index',index)
             setTextSearchIndex(index.data)
             resolve(index.data)
           }).catch(function(e) {
@@ -33,20 +37,20 @@ export default function useTextSearchIndex() {
   /** 
    * Search the resource index for text
    * Stopwords are removed from text
-   * 
+   * Results are returned sorted in order of number of matching tokens then 
+   * alphabetically by title
+   * Results reference resources by three part resourceId key
+   * [<collectionId>-<fileId>-<tuneNumberInBook>]
+   * @return [{ids:[resourceId,..],score:integer, name:''}]
    */
   function searchIndex(text, callback) {
-      //console.log('sesarch index',text,textSearchIndex)
       if (text && text.trim()) {
           var matches = {}
           var cleanText = utils.stripText(utils.stripCommonWords(text.toLowerCase()))
           var parts = cleanText.split(" ")
-          //console.log('sesarch tokens',parts)
           parts.forEach(function(part) {
-            //console.log('sesarch tokens P',part, index.tokens)
             if (textSearchIndex && textSearchIndex.tokens && textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(textSearchIndex.tokens[part])) {
               textSearchIndex.tokens[part].forEach(function(matchItem) {
-                //console.log('handlepart',part,matchItem,matches,matches[matchItem])
                 if (matches[matchItem] > 0) {
                   matches[matchItem] = matches[matchItem] + 1
                 } else {
@@ -76,23 +80,7 @@ export default function useTextSearchIndex() {
           Object.keys(seen).forEach(function(seenName) {
             final.push({ids: seen[seenName].ids, score: seen[seenName].score, name: seenName})
           })
-          //console.log(final)
           final.sort(function(a,b) {
-              //console.log('SC check',a,b) 
-              //var scoreA = 0
-              //var scoreB = 0
-              //parts.forEach(function(part) {
-                  //console.log('SC check', part, "AA",a.name, "BB",b.name, a.name.indexOf(part)) 
-                  //if (a.name.indexOf(part) !== -1) {  
-                    //scoreA = scoreA + 1
-                    //console.log('Sc bosot a')
-                  //}
-                  //if (b.name.indexOf(part) !== -1) {  
-                      //scoreB = scoreB + 1
-                      //console.log('Sc bosot b')
-                  //}
-              //})
-                //console.log('SC', parts, a.name, b.name, scoreA , scoreB)  
                 if (a.score < b.score) {
                   return -1
                 } else {
@@ -110,13 +98,10 @@ export default function useTextSearchIndex() {
                   return 1
               } else {
                   return -1
-                  //return (a && b && a.ids && b.ids && a.name < b.name) ? -1 : 1
               }
           })  
           final = final.slice(0,200)
-          
-        //console.log('TEXTSEARCH full matches', matches, final)
-        callback(final)
+          callback(final)
       } else {
           callback([])
       }

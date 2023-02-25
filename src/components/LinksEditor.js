@@ -98,7 +98,7 @@ export default function LinksEditor(props) {
           </span>
           <Button style={{marginLeft:'0.3em',color:'black'}} variant="success" onClick={function(e) {
                 var links = Array.isArray(props.tune.links) ? props.tune.links : []
-                links.unshift({title:'', link:'', startAt:'', endAt: ''})
+                links.unshift({title:' ', link:' ', startAt:'', endAt: ''})
                 var tune = props.tune
                 tune.links = links; 
                 props.tunebook.saveTune(tune); 

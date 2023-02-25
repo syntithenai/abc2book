@@ -9,7 +9,16 @@ function PlaylistManagerModal(props) {
   const handleClose = () => {
     setShow(false);
   }
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+      setShow(true);
+      //console.log('SHOW',props.mediaPlaylist.currentTune)
+      //if (props.mediaPlaylist.currentTune > 0) {
+          //console.log('SCROLLTO','playlist-tune-'+props.mediaPlaylist.currentTune)
+        //setTimeout(function() {
+            //props.tunebook.utils.scrollTo('playlist-tune-'+props.mediaPlaylist.currentTune)
+        //},200)
+      //}
+  }
   const navigate = useNavigate()
   return (
     <>
@@ -30,8 +39,9 @@ function PlaylistManagerModal(props) {
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {props.mediaPlaylist.tunes.map(function(tune,tk) {
-              return (!filter || filter.trim().length === 0 || tune && filter && tune.name && tune.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1) ?  <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{border:(tk === props.mediaPlaylist.currentTune ? '2px solid blue' : 'none')}} >
-                <b>{tune.name}</b>
+              return (!filter || filter.trim().length === 0 || tune && filter && tune.name && tune.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1) ?  <ListGroup.Item   key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{border:(tk === props.mediaPlaylist.currentTune ? '2px solid blue' : 'none')}} >
+                <b >{tune.name}</b>
+                {JSON.stringify(tune.links)}
                 <div>{tune.links.map(function(link,lk) {
                     return <div key={lk} style={{borderBottom:'1px solid black',borderTop:'1px solid black', minHeight:'3em'}} >
                         <Button style={{float:'right'}} variant="success"  onClick={function() {
@@ -43,7 +53,7 @@ function PlaylistManagerModal(props) {
                            handleClose()
                            
                         }} >{props.tunebook.icons.play}</Button>
-                        <span>{link.title}</span>
+                        <span >{link.title}</span>
                         
                     </div> 
                 })}</div>

@@ -33,6 +33,7 @@ function AddSongModal(props) {
   const [matchingTunes, setMatchingTunes] = useState([])
   const [indexMatches, setIndexMatches] = useState([])
   const [settings, setSettings] = useState(null)
+  const [scores, setScores] = useState({}) 
   
   
   
@@ -114,6 +115,7 @@ function AddSongModal(props) {
           const matching = Object.values(props.tunes).filter(filterSearch).sort(function(a,b) {
             return (a && b && a.name < b.name)  ? -1 : 1
           })
+         
           setMatchingTunes(matching)
           setForceNewTune(false)
           //console.log('set tunes',songTitle,matching,props.tunes)
@@ -124,7 +126,17 @@ function AddSongModal(props) {
       // matching from resources
       if (songTitle.trim()) { 
           props.searchIndex(songTitle,function(data) {
-              //console.log("SE",data)
+               console.log("SE",data)
+                var sc = {}
+                var lastScore = 0
+                Object.values(data).forEach(function(result,rk)  {
+                    //console.log(result)
+                    if (lastScore != result.score) sc[rk] = true
+                    lastScore = result.score
+                })
+                  //console.log('sesarch index',text,final)
+                  setScores(sc)
+              console.log(sc)
               setIndexMatches(data)  
           })
       }
@@ -467,7 +479,7 @@ function AddSongModal(props) {
           {!forceNewTune && <>
                <ListGroup >
                     {indexMatches.map(function(work,tk) {
-                      return <ListGroup.Item key={tk} disabled={props.currentTuneBook ? false : true} variant="outline-info"  onClick={function() {
+                      return <ListGroup.Item key={tk} style={scores[tk] === true ? {borderTop:'3px solid black'} : {}}  disabled={props.currentTuneBook ? false : true} variant="outline-info"  onClick={function() {
                         //addTuneToBook({name:work.label, composer: songComposer, tags: songTags,books :(props.currentTuneBook ? [props.currentTuneBook] : []) , notes:[] , voices:{} ,words: [] ,links: []},props.currentTuneBook); return false  
                           setForceNewTune(true)
                           setSongTitle(work.name)

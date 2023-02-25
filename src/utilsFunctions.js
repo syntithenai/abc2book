@@ -3,17 +3,21 @@ import * as localForage from "localforage";
 import localforage from "localforage";
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 
-    
+
+/**
+ * Miscellaneous utility functions
+ */    
 export default function utilsFunctions(props) {
 
+    /**
+     * Convert a chord symbol to use sharps or flats appropriate to the 
+     * key signature
+     */
     function canonicalChordForKey(key,chord) {
         var letters=['A','B','C','D','E','F','G']
-        //console.log('CCFK',key,chord)
         var keyLetter = (chord && chord.length > 0 && chord[0].toUpperCase)  ? chord[0].toUpperCase() : ''
         if (!keyLetter) return ''
         var modifierLetter =(chord.length > 1 && (chord[1] === 'b' || chord[1] === '#')) ? chord[1] : ''
-        //console.log('CCFK',showFlats(key),"K",key,chord,"KL",keyLetter,"ML",modifierLetter)
-        
         if (showFlats(key)) {
             if (modifierLetter == '#') {
                 var letterIndex = letters.indexOf(keyLetter)
@@ -34,6 +38,10 @@ export default function utilsFunctions(props) {
         }
     }
 
+    /**
+     * Given a key signature, return a boolean indicating whether the key
+     * uses sharps(false) or flats(true)
+     */
     function showFlats(key) {
         var keyMap = {
             "A": false, "A#": true, "Ab": true, 
@@ -58,11 +66,12 @@ export default function utilsFunctions(props) {
         } else {
             return false
         }
-        //console.log('showFlats',key,keyLetter + modifierLetter,keyMap[keyLetter + modifierLetter])
         return keyMap[keyLetter + modifierLetter]
     }
 
-
+    /**
+     * Strip stop words from text
+     */
     function stripCommonWords(text) {
         text = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').trim()
         var commonWords={"a":true,"also":true,"am":true,"an":true,"and":true,"any":true,"are":true,"as":true,"at":true,"be":true,"became":true,"become":true,"but":true,"by":true,"can":true,"could":true,"did":true,"do":true,"does":true,"each":true,"either":true,"else":true,"for":true,"had":true,"has":true,"have":true,"how":true,"i":true,"if":true,"in":true,"is":true,"it":true,"its":true,"me":true,"must":true,"my":true,"nor":true,"not":true,"of":true,"oh":true,"ok":true,"the":true,"who":true,"whom":true,"will":true,"with":true,"within":true,"without":true,"would":true,"yes":true,"yet":true,"you":true,"your":true}
@@ -123,6 +132,9 @@ export default function utilsFunctions(props) {
       return text ? text.toLowerCase().trim() : ''
     }
     
+    /**
+     * Strip everything but letters and number from a string
+     */
     function stripText(text) {
       var result = ''
       if (text && text.trim) {
@@ -130,7 +142,10 @@ export default function utilsFunctions(props) {
       }
      return result
     }
-        
+    
+    /** 
+     * Scroll to an element identified by DOM id
+     */    
     function scrollTo(id, offset) {
         var element = document.getElementById(id);
         if (element) {
@@ -142,7 +157,9 @@ export default function utilsFunctions(props) {
         }
     }
 
-        
+    /**
+     * Generate a new random object id
+     */
     function generateObjectId(otherId) {
         var timestamp = otherId ? otherId.toString(16) : (new Date().getTime() / 1000 | 0).toString(16);
         
@@ -151,6 +168,9 @@ export default function utilsFunctions(props) {
         }).toLowerCase();
     }
     
+    /**
+     * Generate a hash for a string
+     */
     const hash = function(str, seed = 0) {
       //cyrb53 
         let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
@@ -164,67 +184,55 @@ export default function utilsFunctions(props) {
         return 4294967296 * (2097151 & h2) + (h1>>>0);
     };
 
+  
+    /**
+    * Get the next integer
+    * If the integer is larger than max, return the result % max
+    */  
+    function nextNumber(current, max) {
+        var val = current > 0 ? parseInt(current) + 1 : 1
+        if (max > 0) val = val % max
+        return val
+    }
 
-    function saveLastPlayed(tuneId) {
-      var lastPlayeds =  {}
-      try {
-          lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
-      } catch (e) {}
-      if (!lastPlayeds) lastPlayeds = {}
-      lastPlayeds[tuneId] = new Date().getTime()
-      localStorage.setItem('bookstorage_lastplayed',JSON.stringify(lastPlayeds))
+    /**
+    * Get the previous integer
+    * If the integer is less than 0, return the result % max
+    */ 
+    function previousNumber(current, max) {
+        if (current == 0) return (max - 1)
+        else return (current > 0 ? parseInt(current) - 1 : 0)
     }
-    
-    function hasPlayedInLast24Hours(tuneId) {
-      var lastPlayeds =  {}
-      try {
-          lastPlayeds = JSON.parse(localStorage.getItem('bookstorage_lastplayed'))
-      } catch (e) {}
-      
-      var now = new Date().getTime()
-      if (lastPlayeds && lastPlayeds[tuneId] && now - lastPlayeds[tuneId] < 86400000) {
-        return true
-      } else {
-        return false
-      }
-    }
-    
-  function nextNumber(current, max) {
-    var val = current > 0 ? parseInt(current) + 1 : 1
-    if (max > 0) val = val % max
-    return val
-  }
-  
-  function previousNumber(current, max) {
-    if (current == 0) return (max - 1)
-    else return (current > 0 ? parseInt(current) - 1 : 0)
-    
-  }
-  
-  function download(filename, text) {
+
+    /**
+    * Trigger a browser to download text as filename
+    */
+    function download(filename, text) {
       var element = document.createElement('a');
       element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
       element.setAttribute('download', filename);
-
       element.style.display = 'none';
       document.body.appendChild(element);
-
       element.click();
-
       document.body.removeChild(element);
-  }
-    
-  function copyText(text) {
-      const cb = navigator.clipboard;
-      cb.writeText(text).then(function() {
-         alert('Copied!')
-      }).catch(function(e) {
-          console.log(e)
-      });
-  }  
-     
+    }
+
+    /**
+    * Copy text from the clipboard
+    */  
+    function copyText(text) {
+        const cb = navigator.clipboard;
+        cb.writeText(text).then(function() {
+            alert('Copied!')
+        }).catch(function(e) {
+            console.log(e)
+        });
+    }  
+
+    /**
+     * Remove all duplicates from an array
+     */ 
     function uniquifyArray(a) {
-        ////console.log(['UNIQARRAY',a])
         if (Array.isArray(a)) {
             var index = {}
             a.map(function(value) {
@@ -237,26 +245,31 @@ export default function utilsFunctions(props) {
         }
     } 
     
+    /**
+     * Clear everything in the audio cache (of files generated from abc notation)
+     */
     function resetAudioCache() {
       
       var store = localForage.createInstance({
           name: "abcaudiocache"
       });     
-
       store.clear().then(function() {
-          // Run this code once the database has been entirely deleted.
-          //console.log('Database is now empty.');
       }).catch(function(err) {
-          // This code runs if there were any errors
           console.log(err);
       }); 
     }
     
+    /**
+     * Get the id of a youtube video resource from a URL
+     */
     function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
             return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
     }
-      
+    
+    /** 
+     * Remove quoted("") sections from a string
+     */  
     function removeQuotedSections(str) {
         var flag = false
         var newStr = ""
@@ -267,6 +280,9 @@ export default function utilsFunctions(props) {
         return newStr
     }
     
+    /** 
+     * Remove square bracked sections from a string
+     */
     function removeSquareBracketedSections(str) {
         var flag = false
         var newStr = ""
@@ -279,6 +295,6 @@ export default function utilsFunctions(props) {
     }
      
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, saveLastPlayed, hasPlayedInLast24Hours, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
     
 }

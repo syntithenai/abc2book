@@ -73,7 +73,7 @@ function BoostSettingsModal(props) {
               boostUp()
           }} >{props.tunebook.icons.add} Boost</Button>
           
-         <span  >{props.explicitSave ? 'How well do you know these tunes?' : 'How well do you know this tune?'}</span>
+         <span  >{props.explicitSave ? 'How well do you know these '+(props.count > 0 ? props.count : '')+' tunes?' : 'How well do you know this tune?'}</span>
           <br/>
 
           <input style={{width:'100%'}} type="range"  name="boost" min="0" max="20" step="1" value={boost} onChange={function(e) {if (props.explicitSave) {
