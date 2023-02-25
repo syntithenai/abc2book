@@ -249,7 +249,6 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
           
         </Modal.Header>
         <Modal.Body>
-          {JSON.stringify(Object.keys(props.selected))}
           <div style={{clear:'both', width:'100%', height:'4em', borderBottom:'1px solid black'}} >
              <div style={{float:'left'}} ><BulkChangeValueModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} onClose={handleClose} selected={props.selected} selectedCount={props.selectedCount} /></div>
 

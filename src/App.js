@@ -289,7 +289,7 @@ function App(props) {
   function showImportWarning() {
     //if (sheetUpdateResults) return true
     //return false 
-    //console.log('showWarning')
+    console.log('showWarning', localStorage.getItem('bookstorage_mergewarnings'), importResults)
     if (importResults !== null) {
         //return true
         if (localStorage.getItem('bookstorage_mergewarnings') === "true")  {

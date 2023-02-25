@@ -22,10 +22,10 @@ function ImportAbcModal(props) {
   var [message, setMessage] = useState(null)
   
   function doImport(list) {
-    //console.log('import',list)
+    console.log('import',list)
       //console.log("gotres",res.data.length)
-      var results = props.tunebook.importAbc(list,props.currentTuneBook)
-      //console.log("gotreeees",results)
+          var results = props.tunebook.importAbc(list,props.currentTuneBook)
+      console.log("gotreeees",results,props.tunebook.showImportWarning(results))
       if (!props.tunebook.showImportWarning(results)) {
           props.tunebook.applyImportData(results)
           setTimeout(function() {

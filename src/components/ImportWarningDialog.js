@@ -28,7 +28,7 @@ export default function ImportWarningDialog(props) {
           
           <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
-            &nbsp;{(Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" onClick={function() {props.tunebook.applyImport()}} >Import</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" onClick={function() {props.tunebook.applyImport()}} >Import</Button> : null}
             
             &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true)}} >Import With Duplicates</Button> : null}
             
@@ -37,12 +37,8 @@ export default function ImportWarningDialog(props) {
             &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0 && Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true,true)}} >Import Duplicates and Discard Local Changes</Button> : null}
             
             &nbsp;
-            {(Object.keys(props.importResults.updates).length === 0 && Object.keys(props.importResults.inserts).length === 0) && <Link to="/tunes"><Button variant="success" onClick={function() {
-              props.setImportResults(null)
-              props.closeWarning()
-              
-            }} >OK</Button></Link>}
-            {(Object.keys(props.importResults.updates).length > 0 || Object.keys(props.importResults.inserts).length > 0) && <Link to="/tunes"><Button variant="danger" onClick={function() {
+            
+            {<Link to="/tunes"><Button variant="danger" onClick={function() {
               props.setImportResults(null)
               props.closeWarning()
               
