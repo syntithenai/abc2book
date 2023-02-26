@@ -218,11 +218,8 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickDownload() {
-      
-      var currentSelection = Object.keys(props.selected).filter(function(item) {
-        return (props.selected[item] ? true : false)
-      })
-      props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(props.tunebook.fromSelection(currentSelection))) 
+      var sel = props.tunebook.fromSelection(props.selected)
+      props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(sel)) 
   }
   
   //function fillMediaPlaylist() {

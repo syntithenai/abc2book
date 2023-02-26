@@ -41,7 +41,6 @@ function PlaylistManagerModal(props) {
             {props.mediaPlaylist.tunes.map(function(tune,tk) {
               return (!filter || filter.trim().length === 0 || tune && filter && tune.name && tune.name.toLowerCase().indexOf(filter.toLowerCase()) !== -1) ?  <ListGroup.Item   key={tk} className={(tk%2 === 0) ? 'even': 'odd'} style={{border:(tk === props.mediaPlaylist.currentTune ? '2px solid blue' : 'none')}} >
                 <b >{tune.name}</b>
-                {JSON.stringify(tune.links)}
                 <div>{tune.links.map(function(link,lk) {
                     return <div key={lk} style={{borderBottom:'1px solid black',borderTop:'1px solid black', minHeight:'3em'}} >
                         <Button style={{float:'right'}} variant="success"  onClick={function() {
@@ -53,7 +52,7 @@ function PlaylistManagerModal(props) {
                            handleClose()
                            
                         }} >{props.tunebook.icons.play}</Button>
-                        <span >{link.title}</span>
+                        
                         
                     </div> 
                 })}</div>

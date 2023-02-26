@@ -120,7 +120,7 @@ export default function MusicSingle(props) {
                 setAutoStart(false)
                 if (Array.isArray(tune.links) && tune.links.length > 0) {
                     //setMediaLinkNumber(0)
-                    if (tune.links[0].startAt) {
+                    if (tune.links[0].startAt > 0) {
                         setMediaProgress(tune.links[0].startAt) 
                     } else {
                         setMediaProgress(0)
@@ -254,6 +254,23 @@ export default function MusicSingle(props) {
                 window.URL.revokeObjectURL(url);
             }
         }
+        
+        
+        function fixLinks(tune,index,field,startOrEnd) {
+            var previousKey = parseInt(index - 1)
+            var link = tune.links[index]
+            if (startOrEnd === 'start' && link[field] > 0) tune.links[previousKey].startAt = link[field]
+            if (startOrEnd === 'end' && link[field] > 0) tune.links[previousKey].endAt = link[field]
+            //console.log('update tune',tune,tune.links)
+            props.tunebook.saveTune(tune)
+        }
+        
+        function removeLink(tune,index) {
+            console.log('remove links',tune.links,index)
+            tune.links.splice(index,1)
+            props.tunebook.saveTune(tune)
+        }
+        
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
@@ -306,20 +323,20 @@ export default function MusicSingle(props) {
                     {props.mediaPlaylist === null && <ButtonGroup style={{float:'left', marginLeft:'0.2em', maxWidth:'50px'}} >
                         
                         {/* Have at least one link, play button starts playing*/}
-                        {(Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0].link) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.play)}</Button>
+                        {props.tunebook.hasLinks(tune) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.play)}</Button>
                         }
                         {/* Have no link, play button triggers youtube search*/}
-                        {!(Array.isArray(tune.links) && tune.links.length > 0 && tune.links[0].link) && 
+                        {!(props.tunebook.hasLinks(tune)) && 
                         <LinksEditorModal autoplay={true} icon="media" tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} /> 
                     }
                         
-                        {(Array.isArray(tune.links) && tune.links.length > 0&& tune.links[0].link) && <LinksEditorModal  tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
+                        {props.tunebook.hasLinks(tune) && <LinksEditorModal  tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
                         
                     </ButtonGroup>}
-                    
+                   
                   
                 </ButtonToolbar>
-
+                
                
                 
                             
@@ -334,15 +351,15 @@ export default function MusicSingle(props) {
                                         setMediaProgress(e.target.value); 
                                             
                                         try {
-                                            console.log(e.target.value); 
+                                            //console.log(e.target.value); 
                                             if (ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.seekTo) {
-                                                ytMediaPlayer.seekTo(e.target.value * ytMediaPlayer.getDuration()) 
+                                                ytMediaPlayer.seekTo(parseFloat(e.target.value * ytMediaPlayer.getDuration()).toFixed(2)) 
                                             };
                                         } catch (e) {
                                             console.log(e)
                                         }
                                         if (audioPlayer && audioPlayer.current) {
-                                            audioPlayer.current.currentTime = e.target.value * audioPlayer.current.duration 
+                                            audioPlayer.current.currentTime = parseFloat(e.target.value * audioPlayer.current.duration ).toFixed(2)
                                         }
                                     
                                     }}  />
@@ -351,7 +368,9 @@ export default function MusicSingle(props) {
               
             </div>
             
-
+           
+           
+            
              {props.viewMode === 'chords' && <>
                 <div style={{border:'1px solid black'}}>
                      <div className="title" style={{ marginTop:'2.5em', width:'70%', paddingLeft:'0.3em'}} >
@@ -553,3 +572,19 @@ export default function MusicSingle(props) {
              //</div>
              //</>}
 
+ //{(window.location.href.startsWith('http://localhost') || (props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com')) &&  <div> {props.tunebook.hasLinks(tune) ? <div>
+            //<div style={{clear:'both'}} ><br/><br/>    </div>
+            //{tune.links.map(function(link,lk) {
+                //return <div>{lk}&nbsp; 
+                    //{true ? <>
+                        //S:{link.startAt} {(parseInt(lk) > 0 && parseFloat(link.startAt) > 0) ? <><Button onClick={function() {fixLinks(tune,lk,'startAt','start')}}>Start</Button><Button onClick={function() {fixLinks(tune,lk,'startAt','end')}}>End</Button></> : ''} 
+                        //E:{link.endAt} {(parseInt(lk) > 0 && parseFloat(link.endAt) > 0) ? <><Button onClick={function() {fixLinks(tune,lk,'endAt','start')}}>Start</Button><Button onClick={function() {fixLinks(tune,lk,'endAt','end')}}>End</Button></>:''}
+                        //L:{link.link} {(parseInt(lk) > 0 && link.link.trim().length > 0) ? <><Button onClick={function() {fixLinks(tune,lk,'link','start')}}>Start</Button><Button onClick={function() {fixLinks(tune,lk,'link','end')}}>End</Button></> : ''}
+                        //<Button variant="danger" onClick={function() {removeLink(tune,lk)}}>X</Button>
+                    //</> : ''}
+                    
+                //</div>
+            //})}
+            
+            //</div> : ''}
+           //</div>}

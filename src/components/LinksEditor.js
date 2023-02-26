@@ -88,6 +88,7 @@ export default function LinksEditor(props) {
                     links.unshift({title:link.title, link: link.link, startAt:'', endAt: ''})
                     tune.links = links
                     if (props.autoPlay && props.setStartPlaying) props.setStartPlaying()
+                    
                     props.tunebook.saveTune(tune); 
                     
                 }}
@@ -101,8 +102,9 @@ export default function LinksEditor(props) {
                 links.unshift({title:' ', link:' ', startAt:'', endAt: ''})
                 var tune = props.tune
                 tune.links = links; 
-                props.tunebook.saveTune(tune); 
                 
+                props.tunebook.saveTune(tune); 
+                props.forceRefresh()
             }} >{props.tunebook.icons.add} New Link</Button>
             
             
@@ -198,6 +200,7 @@ export default function LinksEditor(props) {
                             links[lk].startAt = e.target.value
                             var tune = props.tune
                             tune.links = links; 
+                            //console.log("save links start ",tune.links)
                             props.tunebook.saveTune(tune); 
                         }  } />
                     </Form.Group>
@@ -209,6 +212,7 @@ export default function LinksEditor(props) {
                             links[lk].endAt = e.target.value
                             var tune = props.tune
                             tune.links = links; 
+                            //console.log("save links end ",tune.links)
                             props.tunebook.saveTune(tune); 
                         }  } />
                     </Form.Group>

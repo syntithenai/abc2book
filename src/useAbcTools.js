@@ -377,10 +377,10 @@ var useAbcTools = () => {
                         linksRendered.push("% abcbook-link-title-"+k + ' ' +  ensureText(link.title,"") )
                     }
                     if (link.startAt) {
-                        linksRendered.push("% abcbook-link-start-at-"+k + ' ' +  ensureText(link.startAt,"") )
+                        linksRendered.push("% abcbook-link-start-at-"+k + ' ' +  ensureNumber(link.startAt,"") )
                     }
                     if (link.endAt) {
-                        linksRendered.push("% abcbook-link-end-at-"+k + ' ' +  ensureText(link.endAt,"") )
+                        linksRendered.push("% abcbook-link-end-at-"+k + ' ' +  ensureNumber(link.endAt,"") )
                     }
                     //console.log("TOABC",link.link,JSON.stringify(linksRendered))
                 }
@@ -424,16 +424,15 @@ var useAbcTools = () => {
                     + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
-                    + "% abcbook-boost " +  ensureInteger(boost,0) + "\n" 
-                    + "% abcbook-difficulty " +  ensureInteger(tune.difficulty,0) + "\n" 
+                    + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
+                    + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 
-                    + "% abcbook-lastupdated " +  ensureInteger(tune.lastUpdated) + "\n" 
+                    + "% abcbook-lastupdated " +  ensureNumber(tune.lastUpdated) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
                     + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 
-                    //+ "% abcbook-lastHash " +  ensureInteger(tune.lastHash,0) + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : "\n")) 
                     
@@ -1178,7 +1177,7 @@ var useAbcTools = () => {
         }
     }
 
-    function ensureInteger(val) {
+    function ensureNumber(val) {
         if (val && val > 0) {
           return val
         } else {
@@ -1417,6 +1416,6 @@ var useAbcTools = () => {
      
      
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureInteger, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC}
 }
 export default useAbcTools;

@@ -3,7 +3,7 @@
  */
 export default {
   "steve's tunes": {group:'Collections', link:'tunes.abc', image:'stevetunes.jpeg', book:'tunes'},
-  
+  'all the tunes': {group:'Collections', link:'tunes.abc', image:'tunes.jpeg', book:'tunes'},
   "traditional songs": {group:'Collections', link:'traditional songs.abc', image:'traditionalsongs.jpeg', book:'traditional songs'},
   //"songs": {group:'Collections', link:'songs.abc', image:'songs.jpeg', book:'songs'},
   'christmas songs': {group:'Collections',link:'christmas songs.abc' ,image:'christmassongs.jpeg', book:'christmas songs'},

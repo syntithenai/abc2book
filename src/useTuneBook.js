@@ -556,7 +556,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       ////},100)
     //},[filter,props.currentTuneBook])
     function hasLinks(tune) {
-        return (Array.isArray(tune.links) && tune.links.length > 0 && (tune.links[0].link || tune.links[0].title || tune.links[0].startAt || tune.links[0].endAt  ))
+        //console.log('HL',tune,Array.isArray(tune.links))
+        //if (Array.isArray(tune.links)) console.log((tune.links[0] && tune.links[0].link && tune.links[0].link.trim().length > 0))
+        var a = (tune && Array.isArray(tune.links) && tune.links.length > 0 && ((tune.links[0].link && tune.links[0].link.trim().length > 0) || (tune.links[0].title && tune.links[0].title.trim().length > 0) || (tune.links[0].startAt && tune.links[0].startAt.trim().length > 0) || (tune.links[0].endAt && tune.links[0].endAt.trim().length > 0) ) )
+        //console.log(a)
+        return a
+        
+        //return true
+        //(
+            //Array.isArray(tune.links) && 
+            //tune.links.length > 0 && 
+            //((tune.links[0].link && tune.links[0].trim()) || (tune.links[0].title && tune.links[0].title.trim()) || (tune.links[0].startAt && tune.links[0].startAt.trim()) || (tune.links[0].endAt && tune.links[0].endAt.trim())))
     }
     
     function hasLyrics(tune) {
@@ -1059,8 +1069,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
                     tagFilterClean.forEach(function(tag) {
-                        console.log(tag)
-                        if (tag && tune.tags.indexOf(tag.toLowerCase()) !== -1) {
+                        //console.log(tag)
+                        if (tag && tag.toLowerCase && tune.tags.indexOf(tag.toLowerCase()) !== -1) {
                             //tagFilterOk = true
                         } else {
                             tagFilterOk = false
@@ -1079,7 +1089,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     var res = Object.values(useTunes).filter(function(tune) {
         return hasLinks(tune) && filterSearch(tune, filter, bookFilter, tagFilter)
     })
-    console.log('to abc res',res)
+    console.log('from search res',res)
     res = shuffle(res)
     return res
   }
@@ -1103,7 +1113,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             }
         })
     //res = shuffle(res)
-    console.log('m from sel res',final)
+    //console.log('m from sel res',final)
         
     }
     return final
@@ -1133,26 +1143,32 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   }
   
   
-  function fillMediaPlaylist(book = null, selectedIds = null, tag = null) {
-        console.log('fill media',book, selectedIds, tag)
+  function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null) {
+        console.log('fisll media',book, selectedIds, filterTags)
         var fillTunes = []
         var selectedArray = selectedIds ? selectedIds.split(",").filter(function(v) {return (v ? true : false)}) : []
         if (selectedArray && selectedArray.length > 0) {
             fillTunes=mediaFromSelection(utils.uniquifyArray(selectedArray).join(",")).filter(function(tune) {
                 if (book && tune.books && tune.books.indexOf(book) !== -1) {
                     return true
-                } else if (tag && tune.tags && tune.tags.indexOf(tag) !== -1) {
-                    return true
+                } else if (filterTags && filterTags.length > 0 && tune.tags) {
+                    for (var i =0; i< filterTags.length ; i++) {
+                         var tag = filterTags[i]
+                         if (tune.tags.indexOf(tag) !== -1) {
+                             return true
+                         }
+                    }
+                    return false
                 } else {
-                    if (book || tag) {
+                    if (book || (filterTags && filterTags.length > 0)) {
                         return false
                     } else {
                         return true
                     }
                 }  
             })
-        } else {
-            fillTunes=mediaFromSearch('',book,[tag])
+        } else { 
+            fillTunes=mediaFromSearch('',book,filterTags)
         } 
         console.log('fill media tunes',fillTunes)
         shuffleArray(fillTunes)
@@ -1161,6 +1177,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes = fillTunes.sort(function(a,b) {
                 return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
             })
+            console.log('fill media tunes SET',fillTunes)
             setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes.slice(0,20)})
         }
         setAbcPlaylist(null)
@@ -1248,7 +1265,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         
         
         
-        console.log('fill abxz',useBook, fillTunes)
+        //console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
         setMediaPlaylist(null)
         if (fillTunes.length > 0 && fillTunes[0].id) {

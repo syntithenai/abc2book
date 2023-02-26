@@ -59,13 +59,16 @@ console.log(process.argv)
 if (process.argv.length > 2 && process.argv[2].toLowerCase().endsWith('.abc') && fs.existsSync(process.argv[2])) {
     var sw = fs.readFileSync(process.argv[2], 'utf8')
     var tunebook = tools.abc2Tunebook(sw)
-    var folderNameParts = process.argv[2].split(".")
+    var fileNameParts = process.argv[2].split("/")
+    var fileName = fileNameParts[fileNameParts.length - 1]
+    var folderNameParts = fileName.split(".")
     var folderName = ''
     if (folderNameParts.length > 1) {
-        folderName = 'mp3_' + folderNameParts.slice(0,-1).join(".")
+        folderName = './mp3_' + folderNameParts.slice(0,-1).join(".")
     } else {
-        folderName = 'mp3_' + folderNameParts[0]
+        folderName = './mp3_' + folderNameParts[0]
     }
+    folderName = String(folderName).replace(new RegExp(' ' , 'g'),'')
     if (!fs.existsSync(folderName)) fs.mkdirSync(folderName)
     //console.log(tunebook)
     var links = []
