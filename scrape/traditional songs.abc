@@ -23,13 +23,14 @@ W: Thruppence on the roundabout, and round go we.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=0Lstj1h_FIU
 % abcbook-link-title-0 Penny on the Water
+% abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676950111835
+% abcbook-lastupdated 1677419050696
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -223,7 +224,8 @@ W: And ah! She left the thorn wi' me.
 % abc-boost 1
 
 X: 4
-T: Wild Mountain Thyme
+T: Will Ye Go Lassie Go
+C:Traditional
 B: songs
 B: traditional songs
 B: tunes
@@ -268,13 +270,15 @@ W: Chorus
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=hKvB3g3HEPQ
 % abcbook-link-title-0 The Corries - The Wild Mountain Thyme
+% abcbook-link-start-at-0 16
+% abcbook-link-end-at-0 252
 % abcbook-boost 0
 % abcbook-difficulty 7
 % abcbook-tags begged borrowed and stolen,traditional songs,© free,steve ryan,celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675771885497
+% abcbook-lastupdated 1677420657555
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % abc-sessionorg_id 
@@ -1041,13 +1045,14 @@ W: And young Roddy McCorley goes to die on the bridge of Toome today.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Slu23kGEw48
 % abcbook-link-title-0 Tommy Makem - Roddy McCorley
+% abcbook-link-start-at-0 29
 % abcbook-boost 0
 % abcbook-difficulty 7
 % abcbook-tags begged borrowed and stolen,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675773931969
+% abcbook-lastupdated 1677419312949
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -1125,13 +1130,15 @@ W: On the mountains of Pomeroy.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=es0T5aw06YU
 % abcbook-link-title-0 The mountains of Pomeroy
+% abcbook-link-start-at-0 32
+% abcbook-link-end-at-0 314
 % abcbook-boost 0
 % abcbook-difficulty 6
 % abcbook-tags begged borrowed and stolen,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675774799631
+% abcbook-lastupdated 1677420037039
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -1293,16 +1300,17 @@ W: His wings at the dawn of day
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=e05Xfys4wxg
 % abcbook-link-title-0 Raglan Road - John Sheahan – 80th Birthday Concert - Featuring Glen Hansard and Declan O&#39;Rourke
+% abcbook-link-start-at-0 103
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,traditional songs,max campbell,© free
 % abcbook-tablature 
 % abcbook-transpose -05
 % abcbook-tuning 
-% abcbook-lastupdated 1676950207120
+% abcbook-lastupdated 1677419197651
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                              -05
+%%MIDI transpose                                                               -05
 % Rhythm Waltz
 % Transcriptions Only 1 transcription
 % Mode major
@@ -1385,14 +1393,14 @@ W: I'd shoot a dart at thy proud heart
 W: Among the leaves so green.”
 % abcbook-tune_id 62964884f2ea9b957efebe88
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://tunebook.net/music/Earl
+% abcbook-link-0 https://tunebook.net/music/Earl Richard.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags charlotte lyngbye,steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676943215115
+% abcbook-lastupdated 1677417462350
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1454,7 +1462,7 @@ W: Why don't you get away, Lazy John.
 % abcbook-lastupdated 1674125126994
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                       05
+%%MIDI transpose                                        05
 
 
 X: 19
@@ -1657,7 +1665,7 @@ W: Like the Mary Ellen Carter, rise again!
 % abcbook-lastupdated 1677380348568
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                           7
+%%MIDI transpose                                                            7
 
 
 X: 21
@@ -1767,7 +1775,7 @@ W: "When food is scarce and you see the hearse you'll know you have died of hung
 % abcbook-lastupdated 1677120777446
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose        -5
+%%MIDI transpose         -5
 
 
 X: 23
@@ -1809,13 +1817,14 @@ W: It's going back on Monday. CHORUS
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2P-vMjv1PoI
 % abcbook-link-title-0 Spiritual Seasons &quot;Some Say The Devil Is Dead&quot; Traditional Irish Song.
+% abcbook-link-start-at-0 4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,© free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677042661248
+% abcbook-lastupdated 1677419478464
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1934,13 +1943,14 @@ W: Now I'm the last of the Irish Rover
 % abcbook-tune_id 629b4f7284369d9e8e26968e
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=aUw2IvJoBYI
+% abcbook-link-start-at-0 8
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673925628911
+% abcbook-lastupdated 1677417924113
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -1999,13 +2009,14 @@ W: Whack for a diddle to me ooh rum rye
 % abcbook-tune_id 629b4f72a5bdc3f656a6de4d
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=w9n0M9jLkQM
+% abcbook-link-end-at-0 202
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,traditional songs,© free
+% abcbook-tags steve ryan,traditional songs,© free,sea shanties
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673928758561
+% abcbook-lastupdated 1677418920048
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -2576,13 +2587,14 @@ W:
 % abcbook-tune_id 629ed7606ab24cb772f534b9
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2Sql9X4H0VY
+% abcbook-link-end-at-0 186
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,max campbell,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673934264542
+% abcbook-lastupdated 1677420075191
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -3007,7 +3019,7 @@ W: Sailing homeward to Mingulay
 % abcbook-lastupdated 1676948713201
 % abcbook-soundfonts 
 % abcbook-repeats 2
-%%MIDI transpose             -2
+%%MIDI transpose              -2
 
 
 X: 42
@@ -3019,10 +3031,11 @@ M:3/4
 L:1/8
 Q: 1/4=100
 V:1 
-"Eb"G4 FG|"Bb"F4 EC|"Ab"B,4 B,2|"Eb"C2 E2 F2|"Eb"E6-|E4 B,2|\  
-E2 F2 G2|A2 G2 F2|G2 F2 E2|C2 E2 G2|"Bb"F6-|F4 GA|
-"Eb"B2 G2 F2|E4 FG|"Ab"A2 B2 c2|"Eb"B2 G2 F2|"Bb"F6-|F4 EF|\
+"Eb"G4 FG|"Bb"F4 EC|"Ab"B,4 B,2|"Eb"C2 E2 F2|"Eb"E6-|E4 B,2|
+  E2 F2 G2|A2 G2 F2|G2 F2 E2|C2 E2 G2|"Bb"F6-|F4 GA|
+"Eb"B2 G2 F2|E4 FG|"Ab"A2 B2 c2|"Eb"B2 G2 F2|"Bb"F6-|F4 EF|
 "Eb"G4 FG|"Ab"F2 E2 C2|"Eb"B,4 B,2|"Bb"C2 E2 F2|"Eb"E6||
+
 W: Come by the hills to the land where fancy is free
 W: And stand where the peaks meet the sky and the lochs meet the sea
 W: Where the rivers run clear and the bracken is gold in the sun
@@ -3047,10 +3060,10 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % abcbook-tablature 
 % abcbook-transpose 4
 % abcbook-tuning 
-% abcbook-lastupdated 1677040901028
+% abcbook-lastupdated 1677412485316
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose                                                              4
+%%MIDI transpose                                                               4
 % Titles One title
 % Transcriptions Only 1 transcription
 % Movement Has lots of stepwise movement
@@ -3279,13 +3292,14 @@ W: And the walls came tumbling down!
 % abcbook-tune_id 62a420d1e038c0c1a17dadbc
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=C_V66kIEhUs
+% abcbook-link-start-at-0 11
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673926217225
+% abcbook-lastupdated 1677417991367
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -3404,13 +3418,14 @@ W: till our wedding-day".
 % abcbook-tune_id 62a420d11f3b9d3480d0e166
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=3dyUsXgL7ow
+% abcbook-link-end-at-0 137
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,© free,charlotte lyngbye
 % abcbook-tablature 
 % abcbook-transpose 0
 % abcbook-tuning 
-% abcbook-lastupdated 1676943864707
+% abcbook-lastupdated 1677419454247
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -3460,16 +3475,17 @@ W: And if I were with my love, I would live forever
 % abcbook-tune_id 62a420d1ee0e07f6e10f11d2
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=g2OeYdJrTrU
+% abcbook-link-start-at-0 6
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 5
 % abcbook-tuning 
-% abcbook-lastupdated 1673934003852
+% abcbook-lastupdated 1677419686561
 % abcbook-soundfonts 
 % abcbook-repeats 6
-%%MIDI transpose                                                              5
+%%MIDI transpose                                                               5
 
 
 X: 49
@@ -3700,13 +3716,15 @@ W: The wind sall blow forever mair
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=e4gLZe15BFQ
 % abcbook-link-title-0 Ayreheart - Twa Corbies
+% abcbook-link-start-at-0 7
+% abcbook-link-end-at-0 176
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676946445510
+% abcbook-lastupdated 1677412672321
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -4743,13 +4761,15 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=1o8M74ufF4Q
 % abcbook-link-title-0 Bonnie Raitt &amp; Richard Thompson - Dimming of the Day
+% abcbook-link-start-at-0 48
+% abcbook-link-end-at-0 274
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676946970949
+% abcbook-lastupdated 1677417360769
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -4808,13 +4828,14 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=CUrC290xYfE
 % abcbook-link-title-0 When I Was A Fair Maid - Triona ni Dhomhnaill
+% abcbook-link-start-at-0 4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677041905528
+% abcbook-lastupdated 1677420438541
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -4834,6 +4855,7 @@ W: And stood against him
 W: Proud Edward's army
 W: And sent him homeward
 W: Tae think again
+W: 
 W: The hills are bare now
 W: And autumn leaves lie thick and still
 W: For land that is lost now
@@ -4842,6 +4864,7 @@ W: And stood against him
 W: Proud Edward's army
 W: And sent him homeward
 W: Tae think again
+W: 
 W: Those days are past now
 W: And in the past, they must remain
 W: But we can still rise now
@@ -4850,6 +4873,7 @@ W: That stood against him
 W: Proud Edward's Army
 W: And sent him homeward
 W: Tae think again
+W: 
 W: The hills are bare now
 W: And autumn leaves lie thick and still
 W: For land that is lost now
@@ -4857,6 +4881,7 @@ W: Which those so dearly held
 W: Oh Flower Of Scotland
 W: When will we see
 W: Yer like again
+W: 
 W: That fought and died for
 W: Yer wee bit hill and glen
 W: And stood against him
@@ -4875,7 +4900,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673911836819
+% abcbook-lastupdated 1677417710443
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -4919,13 +4944,15 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=uzL1YqrgMKw
 % abcbook-link-title-0 Bothy Band - I Wish My Love Was A Red Red Rose
+% abcbook-link-start-at-0 9
+% abcbook-link-end-at-0 163
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673913688366
+% abcbook-lastupdated 1677417879827
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5153,13 +5180,15 @@ W:
 % abcbook-tune_id 63c54bb2ebda5067daae9675
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=iQr2KRP8Hgw
+% abcbook-link-start-at-0 40
+% abcbook-link-end-at-0 197
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676950140180
+% abcbook-lastupdated 1677419121663
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5365,13 +5394,14 @@ W:
 % abcbook-tune_id 63c54bb2598a95ea3def1e9d
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=_GnVf9SqB5Q
+% abcbook-link-end-at-0 125
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673932892199
+% abcbook-lastupdated 1677419368297
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5422,13 +5452,14 @@ W:
 % abcbook-tune_id 63c54bb232a1097fce900481
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=DsvH0O379xM
+% abcbook-link-end-at-0 222
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673933046536
+% abcbook-lastupdated 1677419404884
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5464,13 +5495,14 @@ W:
 % abcbook-tune_id 63c54bb2783e45fba30ca9e0
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=3bxf2X4zP5k
+% abcbook-link-start-at-0 19
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677041610189
+% abcbook-lastupdated 1677419594585
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5796,13 +5828,14 @@ W:
 % abcbook-tune_id 63c54bb256b45310b910c05b
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=aJ0vRnwUfGQ
+% abcbook-link-start-at-0 16
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673934847161
+% abcbook-lastupdated 1677419945862
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5854,13 +5887,14 @@ W:
 % abcbook-tune_id 63c54bb217f856b9d947c6c3
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=XAqOBiJz5cQ
+% abcbook-link-end-at-0 154
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673937190753
+% abcbook-lastupdated 1677419991787
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -6134,13 +6168,14 @@ W: Then will my love return to me
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Kjop8FQmtyo
 % abcbook-link-title-0 The Seekers - The Water Is Wide: Special Farewell Performance
+% abcbook-link-end-at-0 285
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,©,mandira,fiona cullen
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1669771302114
+% abcbook-lastupdated 1677420223124
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -6232,13 +6267,14 @@ W: Our former sufferings shall fade from mind
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=yv-AVKJ_kCg
 % abcbook-link-title-0 Moreton Bay (traditional Australian folk song)
+% abcbook-link-start-at-0 28
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,©,mandira,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1669774794964
+% abcbook-lastupdated 1677418795785
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -6483,53 +6519,6 @@ W:
 %%voicecolor maroon
 
 X: 97
-T: Will Ye Go Lassie Go
-C:Traditional
-B: songs
-B: traditional songs
-Q: 1/4=100
-V:1 
-W: Oh the summertime is coming
-W: And the trees are sweetly blooming
-W: And the wild mountain thyme
-W: Grows around the blooming heather
-W: Will ye go, Lassie go?
-W: 
-W: {c: Chorus}
-W: And we'll all go together
-W: To pluck wild mountain thyme
-W: All around the blooming heather
-W: Will ye go, Lassie go?
-W: 
-W: I will build my love a tower
-W: Near yon' pure crystal fountain
-W: And on it I will build
-W: All the flowers of the mountain
-W: Will ye go, Lassie go?
-W: 
-W: If my true love she were gone
-W: I would surely find another
-W: Where wild mountain thyme
-W: Grows around the blooming heather
-W: Will ye go, Lassie go?
-W: 
-W: 
-W: 
-% abcbook-tune_id 63c54bb22e9ee6aa78958168
-% abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=SVQkdV4GwLc
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags traditional songs,© free
-% abcbook-tablature 
-% abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1673937059110
-% abcbook-soundfonts 
-% abcbook-repeats 1
-
-
-X: 98
 T: Ora Lee
 B: songs
 B: traditional songs
@@ -6636,7 +6625,7 @@ W: And swallows in the air
 % abcbook-repeats 1
 
 
-X: 99
+X: 98
 T: Little Liza Jane
 B: songs
 B: traditional songs
@@ -6694,9 +6683,9 @@ W: how is your wife
 % abcbook-repeats 1
 
 
-X: 100
+X: 99
 T: June Apple
-C:R-109
+C:Traditional
 B: songs
 B: traditional songs
 B: tunes
@@ -6745,12 +6734,12 @@ W: I'm sick and I must go.
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1675313352782
+% abcbook-lastupdated 1677418024579
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%text 9/1/98
 
-X: 101
+X: 100
 T: The Blackest Crow
 C:Traditional
 B: songs
@@ -6790,19 +6779,20 @@ W: That I might know by your hand light how time has gone with thee
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=4wRnDa7GdzQ
 % abcbook-link-title-0 The Blackest Crow - Red Tail Ring
+% abcbook-link-start-at-0 3
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-tuning 
-% abcbook-lastupdated 1675740255634
+% abcbook-lastupdated 1677419622474
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose              -2
+%%MIDI transpose               -2
 
 
-X: 102
+X: 101
 T: Angeline The Baker
 C:Stephen Foster
 B: songs
@@ -6860,7 +6850,7 @@ W: Should have married Angeline, just twenty years ago
 % abcbook-repeats 1
 
 
-X: 103
+X: 102
 T: All The Good Times
 B: songs
 B: traditional songs
@@ -6907,7 +6897,7 @@ W: You’ve been a friend to me
 % abcbook-repeats 1
 
 
-X: 104
+X: 103
 T: Over The Waterfall
 B: songs
 B: traditional songs
@@ -6970,7 +6960,7 @@ W: Only when you land
 % abcbook-repeats 1
 %%gchordfont "itim-music,Itim" 20
 
-X: 105
+X: 104
 T: The Rose Tree
 C:Traditional
 B: traditional songs
@@ -7021,7 +7011,7 @@ W:
 % abc-sessionorg_setting_id 1123
 % abc-boost 0
 
-X: 106
+X: 105
 T: Brose and Butter
 B: tunes
 B: traditional songs
@@ -7145,7 +7135,7 @@ W: Made all the windows to clatter… oh-oh
 % abcbook-lastupdated 1677054967185
 % abcbook-soundfonts 
 % abcbook-repeats 3
-%%MIDI transpose        -5
+%%MIDI transpose         -5
 % Rhythm Slip jig
 % Titles One title
 % Transcriptions Only 1 transcription
@@ -7156,7 +7146,7 @@ W: Made all the windows to clatter… oh-oh
 % Text Has source text
 % Has_accompaniment_chords Has chords
 
-X: 107
+X: 106
 T: Cock of the North[1]
 B: tunes
 B: traditional songs
@@ -7205,7 +7195,7 @@ W: Oh, those were the joys of our dancing days.
 % abcbook-repeats 1
 % NFF Book 2020
 
-X: 108
+X: 107
 T: Nut Brown Maiden
 B: tunes
 B: traditional songs
@@ -7255,18 +7245,19 @@ W: For she's the maid for me.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=RXILQsEQJ-M
 % abcbook-link-title-0 15 - Nut Brown Maiden
+% abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags celtic tunes,nick hutten,traditional songs,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677147137792
+% abcbook-lastupdated 1677418964297
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
 
-X: 109
+X: 108
 T: The Cock Lane Ghost
 C:Wm Herschel c1762
 B: traditional songs
@@ -7305,7 +7296,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 110
+X: 109
 T: Danny Boy
 C:Trad.
 B: traditional songs
@@ -7369,7 +7360,7 @@ W:
 %%voicecolor teal
 %%score [1|2|3]
 
-X: 111
+X: 110
 T: God Save The King
 C:Traditional
 B: traditional songs
@@ -7406,7 +7397,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 112
+X: 111
 T: I'll Take You Home Again, Kathleen
 C:Thomas Westerndorf, 1875
 B: traditional songs
@@ -7475,7 +7466,7 @@ W: I will take you to your home again
 % abcbook-repeats 1
 
 
-X: 113
+X: 112
 T: John Anderson, My Jo
 C:Trad.
 B: traditional songs
@@ -7518,7 +7509,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 114
+X: 113
 T: Landlord Fill the Flowing Bowl
 C:Trad. Song. Arr J McKenzie 2018
 B: traditional songs
@@ -7579,7 +7570,7 @@ W: And dies a jolly good fellow
 %%voicecolor black
 %%voicecolor maroon
 
-X: 115
+X: 114
 T: Minstrel Boy, The
 C:Trad. Arr PGH
 B: traditional songs
@@ -7616,20 +7607,21 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=gQjo-nU9-us
 % abcbook-link-title-0 The Irish Tenors- Minstrel Boy (LIVE)
+% abcbook-link-end-at-0 130
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676948987969
+% abcbook-lastupdated 1677418750052
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%score [ 1|2 ]
 %%voicecolor black
 %%voicecolor maroon
 
-X: 116
+X: 115
 T: My Bonnie Lies Over the Ocean
 C:C Pratt 1881
 B: traditional songs
@@ -7686,7 +7678,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 117
+X: 116
 T: Scarborough Fair
 C:Trad.
 B: traditional songs
@@ -7731,18 +7723,19 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=-BakWVXHSug
 % abcbook-link-title-0 Simon &amp; Garfunkel - Scarborough Fair (Full Version) Lyrics
+% abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677042400089
+% abcbook-lastupdated 1677419416491
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 118
+X: 117
 T: Sumer Is Icumen In
 C:Trad 13th C
 B: traditional songs
@@ -7785,18 +7778,20 @@ W: Sing cuccu • Sing cuccu nu
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=LPauypfqhdU
 % abcbook-link-title-0 Sumer is icumen in / Perspice Christicola, Anonymous 13th-century English, sung by Quire Cleveland
+% abcbook-link-start-at-0 7
+% abcbook-link-end-at-0 91
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,choir,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677042819185
+% abcbook-lastupdated 1677419566501
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%voicecolor maroon
 
-X: 119
+X: 118
 T: Two Little Girls in Blue
 C:Charles Graham, 1893
 B: traditional songs
@@ -7846,18 +7841,19 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=qhFkGpxnAj8
 % abcbook-link-title-0 Two Little Girls in Blue (1893)
+% abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677043312842
+% abcbook-lastupdated 1677420342178
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 120
+X: 119
 T: Ukrainian National Anthem
 C:Mykhaylo Verbytsky (1815-1870)
 B: traditional songs
@@ -7899,7 +7895,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 121
+X: 120
 T: When You and I Were Young, Maggie
 C:James Butterfield, 1866
 B: traditional songs
@@ -7953,18 +7949,19 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=TaZc6VH96zQ
 % abcbook-link-title-0 &quot;When You And I Were Young, Maggie&quot; (1923) Henry Burr, I wandered today to the hill, Maggie, to...
+% abcbook-link-start-at-0 3
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677043475765
+% abcbook-lastupdated 1677420481733
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 122
+X: 121
 T: When You Were Sweet Sixteen
 C:James Thornton, 1898
 B: traditional songs
@@ -8002,20 +7999,22 @@ W: When you were sweet sixteen.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=SU98RGKt3h0
 % abcbook-link-title-0 Harry Macdonough - When You Were Sweet Sixteen (1901)
+% abcbook-link-start-at-0 4
 % abcbook-link-1 https://www.youtube.com/watch?v=5U2k11f6sdo
 % abcbook-link-title-1 WHEN YOU WERE SWEET SIXTEEN, A SONG FROM 1898, WORDS AND MUSIC BY JAMES THORNTON
+% abcbook-link-start-at-1 4
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags © free,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677043789928
+% abcbook-lastupdated 1677420522406
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 123
+X: 122
 T: New York Girls
 B: songs
 B: traditional songs
@@ -8148,7 +8147,7 @@ W: Oh, you New York girls, Can't you dance the polka?
 % Time_signature 4/4
 % Has_accompaniment_chords Has chords
 
-X: 124
+X: 123
 T: Arkansas Traveler
 B: songs
 B: traditional songs

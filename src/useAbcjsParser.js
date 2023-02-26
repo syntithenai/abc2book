@@ -316,8 +316,8 @@ export default function useAbcjsParser() {
                                 //console.log('RAW t',transpose,'chord',chord,'renkey',renderedKey,'renchrd',renderedChord,'renchrd2',renderedChord2,'parsedchord',parsedChord,'renderoptions',renderOptions,'key renderoptions',keyRenderOptions)
                                 
                                 var assignChordToBeat = parseInt(noteLengthsSinceLastBar / noteLength)
-                                if (assignChordToBeat <= barSize && Array.isArray(barLayout.at(assignChordToBeat))) {
-                                    var current = Array.isArray(barLayout.at(assignChordToBeat)) ? barLayout.at(assignChordToBeat) : []
+                                if (assignChordToBeat <= barSize && Array.isArray(barLayout[assignChordToBeat])) {
+                                    var current = Array.isArray(barLayout[assignChordToBeat]) ? barLayout.at(assignChordToBeat) : []
                                     current.push(renderedChord2 ? renderedChord2.trim() : '')
                                     barLayout.splice(assignChordToBeat,1,current)
                                 }
