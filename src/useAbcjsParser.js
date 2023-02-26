@@ -317,7 +317,7 @@ export default function useAbcjsParser() {
                                 
                                 var assignChordToBeat = parseInt(noteLengthsSinceLastBar / noteLength)
                                 if (assignChordToBeat <= barSize && Array.isArray(barLayout[assignChordToBeat])) {
-                                    var current = Array.isArray(barLayout[assignChordToBeat]) ? barLayout.at(assignChordToBeat) : []
+                                    var current = Array.isArray(barLayout[assignChordToBeat]) ? barLayout[assignChordToBeat] : []
                                     current.push(renderedChord2 ? renderedChord2.trim() : '')
                                     barLayout.splice(assignChordToBeat,1,current)
                                 }
