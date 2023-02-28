@@ -9,7 +9,7 @@ import ReactDiffViewer from 'react-diff-viewer-continued';
  
 
 export default function ParserProblemsDiff(props) {
-    var [newValue, setNewValue] = useState(props.abc)
+    var [newValue, setNewValue] = useState(props.tunebook.abcTools.justNotesNoMeta(props.abc))
     const [show, setShow] = useState(false);
     const {parse,render} = useAbcjsParser({tunebook: props.tunebook})
     const handleClose = () => setShow(false);
@@ -18,7 +18,7 @@ export default function ParserProblemsDiff(props) {
     class Diff extends PureComponent {
       render = () => {
         return (
-          <ReactDiffViewer oldValue={props.tunebook.abcTools.justNotes(props.abc.trim())} newValue={newValue} splitView={false} />
+          <ReactDiffViewer oldValue={props.tunebook.abcTools.justNotesNoMeta(props.abc.trim())} newValue={newValue} splitView={false} />
         );
       };
     }
@@ -28,7 +28,7 @@ export default function ParserProblemsDiff(props) {
         var t = abcParsed[0]
         var beatLength = t.getBeatLength()
         var rerendered = render(abcParsed,props.abc)
-        setNewValue(rerendered)
+        setNewValue(props.tunebook.abcTools.justNotesNoMeta(rerendered))
     }
 
     useEffect(function() {
@@ -41,11 +41,11 @@ export default function ParserProblemsDiff(props) {
 
    return (
     <>
-      {(props.tunebook.abcTools.justNotes(props.abc.trim()).replaceAll(' ','') !== newValue.replaceAll(' ','')) && <Button  variant="warning"  onClick={handleShow}>
+      {(props.tunebook.abcTools.justNotesNoMeta(props.abc.trim()).replaceAll(' ','') !== newValue.replaceAll(' ','')) && <Button  variant="warning"  onClick={handleShow}>
         Merge Warning
       </Button>}
  
-      <Modal contentClassName="parser-problems-diff-modal" show={show} onHide={handleClose}>
+      <Modal  dialogClassName="parserdiff" contentClassName="parser-problems-diff-modal" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Differences</Modal.Title>
         </Modal.Header>

@@ -67,7 +67,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
               <option value="boost">Confidence</option>
               <option value="difficulty">Difficulty</option>
               <option value="rhythm">Rhythm</option>
-              <option value="composer">Composer</option>
+              <option value="composer">Artist</option>
               <option value="tranpose">Transpose</option>
               <option value="repeats">Repeats</option>
            </Form.Select>

@@ -47,6 +47,24 @@ var useAbcTools = () => {
         //}).join("\n")
     }
     
+    function justNotesNoMeta(text) {
+        var final = []
+        var parts = text.split("\n")
+        for (var lineNumber in parts) {
+            var line = parts[lineNumber]
+            if ((line.trim() === "" || isNoteLine(line)) && !isDataLine(line) && !line.startsWith('%%MIDI ')) {
+                final.push(line)
+            }
+            if (isVoiceMeta(line) && final.length > 0) {
+                break
+            }
+        }
+        return final.join("\n")
+        //return text.split("\n").filter(function(line) {
+            //return line.trim() === "" || isNoteLine(line)
+        //}).join("\n")
+    }
+    
    
     function pushMeta(meta,key,line) {
         //console.log('pushemeta',meta,key,line)
@@ -282,7 +300,7 @@ var useAbcTools = () => {
                             //console.log('numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
-                                links[numberParts[0]].link = numberParts[1]
+                                links[numberParts[0]].link = numberParts.slice(1).join(' ')
                             }
                         }
                     }
@@ -292,7 +310,7 @@ var useAbcTools = () => {
                 //console.log('LINE ISNOTE', line)
                 if (line.trim().length > 0) {
                     if (line.startsWith('%%MIDI transpose')) {
-                        tune.transpose = line.slice(16)
+                        tune.transpose = line.slice(16).trim()
                     } else if (line.trim().startsWith('[V:') && line.indexOf(']') !== -1 ) {
                         var key = line.slice(1,line.indexOf(']'))
                         //console.log(key)
@@ -801,22 +819,16 @@ var useAbcTools = () => {
 
 
     function getMetaValueFromAbc(key,abc) {
-        var found = null
-        try {
+        var found = ''
+        if (abc && abc.split && key && key.trim && key.trim().length > 0)  {
             var parts = abc.split("\n")
             for (var partKey in parts) {
-                var part = parts[partKey]
+                var part = parts[partKey].trim()
                 if (part.startsWith(key + ':')) {
-                    //if (part[0] === 'T') {
-                        //found = stripLeadingNumber(part.slice(2).trim())
-                    //} else {
-                        found = part.slice(2).trim()
-                    //}
+                    found = part.trim().slice(2)
                     break;
                 }
             }
-        } catch (e) {
-            console.log(e)
         }
         return found
     }
@@ -1390,9 +1402,9 @@ var useAbcTools = () => {
   
   
   
-    function getNoteLengthFraction(tune) {
-        if (tune && tune.noteLength) {
-            var noteLengthParts = tune.noteLength.split("/")
+    function getNoteLengthFraction(noteLength) {
+        if (noteLength) {
+            var noteLengthParts = noteLength.split("/")
             if (noteLengthParts == 2) {
                 return new Fraction(noteLengthParts[0],noteLengthParts[1])
             } else {
@@ -1402,9 +1414,9 @@ var useAbcTools = () => {
         return new Fraction(1,8)
     }
     
-    function getNoteLengthsPerBar(tune) {
-        var noteLength = getNoteLengthFraction()
-         var meterParts=tune && tune.meter ? tune.meter.trim().split("/") : ['4','4']
+    function getNoteLengthsPerBar(noteLength, meter) {
+        var noteLength = getNoteLengthFraction(noteLength)
+         var meterParts=meter ? meter.trim().split("/") : ['4','4']
          if (meterParts.length === 2) {
              var meterFraction = new Fraction(meterParts[0],meterParts[1])
              var noteLengthsPerBar = meterFraction.divide(noteLength)
@@ -1413,9 +1425,9 @@ var useAbcTools = () => {
         }
         return 4
     }
-     
+      
      
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes, getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc}
 }
 export default useAbcTools;

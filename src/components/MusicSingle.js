@@ -17,7 +17,7 @@ import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
 //import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
-
+import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
   //return (
     //<ReactTags
       //ref={reactTags}
@@ -47,6 +47,8 @@ export default function MusicSingle(props) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [autoStart, setAutoStart] = useState(false)
     const [hasSpoken, setHasSpoken] = useState(false)
+    const [zoomChords, setZoomChords] = useState(false)
+    const [squashLyrics, setSquashLyrics] = useState(false)
     //const [abc, setAbc] = useState('')
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
@@ -168,22 +170,12 @@ export default function MusicSingle(props) {
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
-        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key)
+        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
-        //console.log('sING',chords, JSON.stringify(chordsArray))
-        //var chordLines = chords.split("\n")
-        //chordLines.forEach(function(chordLine) {
-            //var chordParts = chordLine.split("|")
-            //chordParts.forEach(function(chordPart) {
-                //var chordPartsInner = chordPart.split(" ")
-                //chordPartsInner.forEach(function(cpi) {
-                    //if (cpi.trim().length > 0) {
-                       //uniqueChords[cpi] = true 
-                    //}
-                //})
-            //})
-        //})
+        chords.replaceAll("|",' ').split(' ').forEach(function(chord) {
+            if (chord.trim().length > 0) uniqueChords[chord.trim()] = true
+        })
         
         function getYouTubeId(url) {
             const arr = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -316,7 +308,7 @@ export default function MusicSingle(props) {
                     className=""
                   >
                   
-                  <span style={{float:'left', marginLeft:'0.1em'}} ><ViewModeSelectorModal tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
+                  <span style={{float:'left', marginLeft:'0.1em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                     
                     
     
@@ -327,10 +319,24 @@ export default function MusicSingle(props) {
                         }
                         {/* Have no link, play button triggers youtube search*/}
                         {!(props.tunebook.hasLinks(tune)) && 
-                        <LinksEditorModal autoplay={true} icon="media" tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} /> 
-                    }
+                        <LinksEditorModal autoplay={true} icon="media" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} onChange={
+                            function(links) { 
+                                if (tune) {
+                                    tune.links = links
+                                    props.tunebook.saveTune(tune)
+                                }
+                            }
+                        } /> 
+                        }
                         
-                        {props.tunebook.hasLinks(tune) && <LinksEditorModal  tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />}
+                        {props.tunebook.hasLinks(tune) && <LinksEditorModal  forceRefresh={props.forceRefresh}tunebook={props.tunebook}  tune={tune}  onChange={
+                            function(links) { 
+                                if (tune) {
+                                    tune.links = links
+                                    props.tunebook.saveTune(tune)
+                                }
+                            }    
+                        } />}
                         
                     </ButtonGroup>}
                    
@@ -370,14 +376,14 @@ export default function MusicSingle(props) {
             
            
            
-            
              {props.viewMode === 'chords' && <>
-                <div style={{border:'1px solid black'}}>
-                     <div className="title" style={{ marginTop:'2.5em', width:'70%', paddingLeft:'0.3em'}} >
-                        <b>{tune.name}</b>
+                {!zoomChords && <div style={{border:'1px solid black'}}>
+                     <div className="title" style={{ marginTop:'2.5em',marginBottom:'1em', width:'70%', paddingLeft:'0.3em'}} >
+                        <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
-                     {Object.keys(words).length > 0 && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
+                     <Button onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>
+                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                                     return <div key={lk} className="lyrics-line" >{line}</div>
@@ -385,9 +391,19 @@ export default function MusicSingle(props) {
                         })}
                         
                      </div>}
-                </div>  
+                     {(squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
+                        {Object.keys(words).map(function(key) {
+                            return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >
+                                    <div  className="lyrics-line" >{words[key][0]}</div>
+                             </div>
+                        })}
+                        
+                     </div>}
+                </div>  }
       
-                 <div style={{position:'fixed', fontSize:'1.1em', width: '30%',  right:'0.1em', top:'7.4em', bottom:'0%', zIndex: 999, backgroundColor: 'white'}} >
+                 <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '30%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                    {!(zoomChords === true) && <Button onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
+                    {(zoomChords === true) && <Button onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
                     <div style={{ overflowY:'scroll', height:'100%'}} >
                         <pre style={{ border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
                         

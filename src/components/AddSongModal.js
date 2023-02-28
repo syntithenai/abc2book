@@ -419,7 +419,7 @@ function AddSongModal(props) {
            <Form>
            
            <Form.Group className="mb-3" controlId="composer">
-                <Form.Label>Composer </Form.Label>
+                <Form.Label>Artist </Form.Label>
                 <AsyncCreatableSelect
                          
                             value={songComposer ? {value:songComposerId, label:songComposer} : {value:'', label:''}}

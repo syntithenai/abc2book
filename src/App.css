@@ -96,6 +96,11 @@ input[type=checkbox]
   
 }
 
+.parserdiff { 
+max-width: 90% !important ;
+}
+
+
 .youtube-help-content img {
    width: 50%;
 }

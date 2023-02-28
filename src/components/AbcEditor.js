@@ -201,12 +201,12 @@ export default function AbcEditor(props) {
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
                       </Form.Group>
                       
-                      <Form.Group className="mb-3" controlId="title">
-                        <Form.Label>Composer</Form.Label>
+                      <Form.Group className="mb-3" controlId="composer">
+                        <Form.Label>Artist</Form.Label>
                         
                       <AsyncCreatableSelect
-                            value={tune.composer ? {value:tune.composer, label:tune.composer} : {value:'', label:''}}
-                            onChange={function(val) {tune.composer = val.label; tune.id = params.tuneId; saveTune(tune)  }}
+                            value={tune && tune.composer ? {value:tune.composer, label:tune.composer} : {value:'', label:''}}
+                            onChange={function(val) {if (val) {tune.composer = val.label; tune.id = params.tuneId; saveTune(tune)  }}}
                             defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
                             isClearable={false}
                             blurInputOnSelect={true}
@@ -358,7 +358,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="audio" title="Audio" >
                         <Form.Group className="mb-3" controlId="audio">
                             <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
-                            <LinksEditor forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
+                            <LinksEditor links={tune.links} tune={tune} onChange={function(links) {tune.links = links; props.tunebook.saveTune(tune)}} tunebook={props.tunebook} />
                         </Form.Group>
                   </Tab>
                   

@@ -69,7 +69,7 @@ export default function TransposeModal(props) {
           </Form.Group>
           <Form.Group className="mb-3" controlId="transpose">
             <Form.Label>Transpose</Form.Label>
-            <Form.Control disabled={!tune.key} type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/>
+            <Form.Control disabled={!tune.key} type="number" value={tune.transpose ? Number(tune.transpose) : 0} onChange={function(e) {tune.transpose = e.target.value; props.saveTune(tune);  }}/>
           </Form.Group> 
         </Modal.Body> 
         

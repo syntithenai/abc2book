@@ -27,14 +27,14 @@ export default function DiffModal(props) {
         {props.label ? props.label : "Diff"}
       </Button>
  
-      <Modal contentClassName="parser-problems-diff-modal" show={show} onHide={handleClose}>
+      <Modal  dialogClassName="parserdiff" contentClassName="parser-problems-diff-modal" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Differences</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Diff/>
         </Modal.Body>
-       
+         
       </Modal>
     </>
   );   

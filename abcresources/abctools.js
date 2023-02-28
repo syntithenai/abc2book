@@ -282,7 +282,7 @@ var useAbcTools = () => {
                             //console.log('numparts',numberParts)
                             if (numberParts.length > 1) {
                                 if (!links[numberParts[0]]) links[numberParts[0]] = {}
-                                links[numberParts[0]].link = numberParts[1]
+                                links[numberParts[0]].link = numberParts.slice(1).join(' ')
                             }
                         }
                     }

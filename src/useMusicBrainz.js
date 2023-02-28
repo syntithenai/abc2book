@@ -26,21 +26,21 @@ function useMusicBrainz() {
     function worksByArtist(artistId) {
         const chunkSize = 100
          return new Promise(function(resolve, reject) {
-            console.log('MB SEARCH works by ARTIST',artistId)
+            //console.log('MB SEARCH works by ARTIST',artistId)
             if (artistId) {
                 //clearTimeout(searchTimeout)
                 //searchTimeout = setTimeout(function() {
                   axios.get('https://musicbrainz.org/ws/2/work?artist=' + artistId + '&limit='+chunkSize+'&fmt=json', axiosOptions).then(function(results) {
-                      console.log('MB SEARCH ARTIST works init result ',results )
+                      //console.log('MB SEARCH ARTIST works init result ',results )
                       if (results && results.data && Array.isArray(results.data.works) && results.data['work-count'] > 0) {
                           if (results.data.works.length < results.data['work-count']) {
-                              console.log('MB SEARCH ARTIST works parital result ',artistId,results )
+                              //console.log('MB SEARCH ARTIST works parital result ',artistId,results )
                               //resolve(results && results.data && results.data.works ? results.data.works : [])
                               var promises = []
                               const chunks = parseInt((results.data['work-count'] - 1) / chunkSize)
-                              console.log('CUNKS',chunks)
+                              //console.log('CUNKS',chunks)
                               for (var i = 1; i <= chunks ; i++) {
-                                  console.log('PPPROm',i,chunks)
+                                  //console.log('PPPROm',i,chunks)
                                   function aa(i) {
                                       promises.push(new Promise(function(resolve,reject) {
                                           setTimeout(function() {
@@ -54,7 +54,7 @@ function useMusicBrainz() {
                               }
                               Promise.all(promises).then(function(resultsArray) {
                                 //console.log(resultsArray)    
-                                console.log('MB SEARCH ARTIST collated extras ',resultsArray )
+                                //console.log('MB SEARCH ARTIST collated extras ',resultsArray )
                                 var final = {}
                                 if (results && results.data && Array.isArray(results.data.works)) {
                                     results.data.works.forEach(function(work) {
@@ -66,12 +66,12 @@ function useMusicBrainz() {
                                         if (result.title) final[result.title] = result
                                     })
                                 })
-                                console.log("FINAL",final)
+                                //console.log("FINAL",final)
                                 resolve(Object.values(final))
                                 
                               })
                           } else {
-                              console.log('MB SEARCH ARTIST works result ',artistId,results )
+                              //console.log('MB SEARCH ARTIST works result ',artistId,results )
                               resolve(results && results.data && results.data.works ? results.data.works : [])
                           }
                       } else {

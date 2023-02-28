@@ -3,42 +3,24 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import LinksEditor from './LinksEditor'
 
 
-export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortcuts, icon, autoPlay, setStartPlaying}) {
+export default function LinksEditorModal(props) {
+    var {tunebook, tune, icon, onChange, forceRefresh} = props
   const [show, setShow] = useState(false);
-  var [proxyTune,setProxyTune] = useState(tune)
+  var [links, setLinks] = useState(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  
+  
   const handleClose = () => {
       setShow(false);
-      
+      onChange(JSON.parse(links)) 
   }
   const handleShow = () => {
       setShow(true);
   }
   
-  //useEffect(function() {
-    ////if (setBlockKeyboardShortcuts) 
-    //setBlockKeyboardShortcuts(true)
-  //}, [])
-  //function checkProxyTune() {
-      //if (!Array.isArray(tune.links) || tune.links.length < 1) {
-            //console.log('ensure links')
-            //tune.links = [{title:'',link:''}]; 
-            ////tunebook.saveTune(tune); 
-            //setProxyTune(tune)
-        //}
-  //}
-  
-   //useEffect(function(e) {
-        //console.log('ensure links',tune.links)
-        //checkProxyTune()
-  //},[tune, tune.links])
-
-   //useEffect(function(e) {
-        //console.log('ensure links boot',tune.links)
-        //checkProxyTune()
-  //},[])
 
   return (
     <>
+        
       <Button variant="danger"   onClick={function() {
           handleShow()
         }}>{icon ==="media" ?  tunebook.icons.link : tunebook.icons.dropdown}</Button>
@@ -48,8 +30,11 @@ export default function LinksEditorModal({tunebook, tune, setBlockKeyboardShortc
           <Modal.Title>Links</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <LinksEditor setStartPlaying={setStartPlaying} autoplay={autoPlay}  tunebook={tunebook} tune={tune} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} handleClose={handleClose} />
-        
+            <div  >
+                <LinksEditor onChange={function(links) {
+                        setLinks(JSON.stringify(links))
+                    }}  tunebook={tunebook} links={JSON.parse(links)} tune={tune} handleClose={handleClose} />
+            </div>
          
         </Modal.Body>
         

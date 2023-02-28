@@ -76,16 +76,21 @@ if (process.argv.length > 2 && process.argv[2].toLowerCase().endsWith('.abc') &&
         if (tune.links && tune.links.length > 0) {
             //console.log(tune ? tune.id + ":" + tune.name : '')
             tune.links.forEach(function(link,linkNumber) {
+                console.log(link)
                 if (link.link && link.link.trim()) {
                     var key = tune.id+'-'+linkNumber
-                    var dlCmd = 'yt-dlp -xv --audio-format wav  -o audio-'+key+'.wav -- '+link.link 
-                    var startAt = link.startAt > 0 ? link.startAt : 0
-                    var endAt = link.endAt > 0 ? link.endAt : 0
-                    var duration = endAt - startAt
-                    var mp3TagFlags = '-movflags use_metadata_tags  -map_metadata 0 -metadata title="'+(tune.name ? tune.name.trim() : '')+'"  -metadata artist="'+(tune.composer ? tune.composer.trim() : '')+'"'
-                    var mp3Cmd = 'ffmpeg '+(startAt > 0 ? '-ss '+startAt : '' )+(duration > 0 ? ' -t '+duration : '' )+' -i audio-'+key+'.wav -ac 1 '+mp3TagFlags + ' '+folderName+'/audio-'+key+'.mp3' 
                     
-                    links.push({key:key, link: link.link, dlCmd:dlCmd, mp3Cmd: mp3Cmd, dlFile: 'audio-'+key+'.wav'})
+                    // already downloaded ?
+                    if (!fs.existsSync(folderName+'/audio-'+key+'.mp3'))  {
+                        var dlCmd = 'yt-dlp -xv --audio-format wav  -o audio-'+key+'.wav -- "'+link.link +'"'
+                        var startAt = link.startAt > 0 ? link.startAt : 0
+                        var endAt = link.endAt > 0 ? link.endAt : 0
+                        var duration = endAt - startAt
+                        var mp3TagFlags = '-movflags use_metadata_tags  -map_metadata 0 -metadata title="'+(tune.name ? tune.name.trim() : '')+'"  -metadata artist="'+(tune.composer ? tune.composer.trim() : '')+'"'
+                        var mp3Cmd = 'ffmpeg '+(startAt > 0 ? '-ss '+startAt : '' )+(duration > 0 ? ' -t '+duration : '' )+' -i audio-'+key+'.wav -ac 1 '+mp3TagFlags + ' '+folderName+'/audio-'+key+'.mp3' 
+                        
+                        links.push({key:key, link: link.link, dlCmd:dlCmd, mp3Cmd: mp3Cmd, dlFile: 'audio-'+key+'.wav'})
+                    }
                 }
             })
         }
