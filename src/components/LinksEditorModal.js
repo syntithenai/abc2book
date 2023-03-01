@@ -17,6 +17,20 @@ export default function LinksEditorModal(props) {
       setShow(true);
   }
   
+  useEffect(function() {
+      console.log('tune change a', props.tune , props.tune ?  props.tune.name + JSON.stringify(props.tune.links) : 'notune')
+      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  },[props.tune])
+
+  useEffect(function() {
+      console.log('tune change b', props.tune , props.tune ?  props.tune.name +  JSON.stringify(props.tune.links) : 'notune')
+      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  },[JSON.stringify(props.tune.links)])
+
+    useEffect(function() {
+        console.log('tune change boot',props.tune ,  props.tune ?  props.tune.name +  JSON.stringify(props.tune.links): 'notune')
+      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  },[props.tune])
 
   return (
     <>

@@ -260,6 +260,7 @@ export default function useAbcjsParser() {
      * or an empty string if not a valid chord symbol
      */
     function cleanChord(key = null , chord, transpose = 0) {
+        
         const parseChord = chordParserFactory();
         
         var parsedChord = parseChord(chord)
@@ -282,6 +283,7 @@ export default function useAbcjsParser() {
         var renderedKey = renderKey(parsedKey)
         
         var renderedChord2 = utils.canonicalChordForKey(renderedKey,renderedChord)
+        //console.log('CLEAN',key,chord,transpose,renderedChord, renderedKey, renderedChord2)
         return renderedChord2
     }
    
@@ -399,7 +401,7 @@ export default function useAbcjsParser() {
                 }
             }
         }) 
-        console.log(final.join(' '))
+        //console.log(final.join(' '))
         return final.join(' ').replaceAll("\n ","\n")
     }
     
@@ -441,7 +443,7 @@ export default function useAbcjsParser() {
                     barChords.forEach(function(barToken, barTokenKey) {
                         var position = (barTokenKey/barChords.length) * noteLengthsPerBar
                         if (barChords[barTokenKey].replaceAll('.','').trim().length !== 0)  {
-                            console.log("PARSECHORDTEXT",position,barChords[barTokenKey], barTokenKey, barChords.length, noteLengthsPerBar) 
+                            //console.log("PARSECHORDTEXT",position,barChords[barTokenKey], barTokenKey, barChords.length, noteLengthsPerBar) 
                             if (!Array.isArray(newChords[position])) {
                                 newChords[position] = []
                             }  
@@ -458,7 +460,7 @@ export default function useAbcjsParser() {
             
             })
         }
-        console.log('CHORDTEXT',result)
+        //console.log('CHORDTEXT',result)
         return result
     }
     
@@ -508,7 +510,7 @@ export default function useAbcjsParser() {
                 }
             })
            
-            console.log("BARIND",barIndex, chordLayout)    
+            //console.log("BARIND",barIndex, chordLayout)    
             
             // ensure the correct number of lines
             var parsedLength = abc[0].lines.length
@@ -636,18 +638,18 @@ export default function useAbcjsParser() {
                         var key = lineCount + "-" + barNumber + "-" + Math.floor(barKey)
                         console.log(key,chords)
                         if (barIndex.hasOwnProperty(key) && barIndex[key] && barIndex[key].length > 0) {
-                            console.log('note exists at correct time ' ,barKey , Math.floor(barKey))
+                            //console.log('note exists at correct time ' ,barKey , Math.floor(barKey))
                             var firstNoteSymbolNumber = barIndex[key][0]
                             lastSymbolNumber = firstNoteSymbolNumber
                             abc[0].lines[lineCount].staff[0].voices[0][firstNoteSymbolNumber].chord = chords.reverse().map(function(c) {
                               return {name: c}  
                             })
                         } else {
-                            console.log('NO note exists at correct time ' + Math.floor(barKey))
+                            //console.log('NO note exists at correct time ' + Math.floor(barKey))
                             //var akey = lineCount + "-" + barNumber + "-" + Math.floor(barKey * 2) / 2
                             if (lastSymbolNumber !== null) {
                                 //barIndex.hasOwnProperty(akey) && barIndex[akey] && barIndex[akey].length > 0) {
-                                console.log('use previous note ' + lastSymbolNumber)
+                                //console.log('use previous note ' + lastSymbolNumber)
                                 //var firstNoteSymbolNumber = barIndex[akey][0]
                                 var oldChords = abc[0].lines[lineCount].staff[0].voices[0][lastSymbolNumber].chord 
                                 
@@ -656,7 +658,7 @@ export default function useAbcjsParser() {
                                 })
                                 abc[0].lines[lineCount].staff[0].voices[0][lastSymbolNumber].chord = oldChords
                             } else {
-                                console.log('DUMP NOTE',key, barIndex, barKey) //.hasOwnProperty(akey) )
+                                //console.log('DUMP NOTE',key, barIndex, barKey) //.hasOwnProperty(akey) )
                                 //if (barIndex[akey]) console.log(barIndex[akey] , barIndex[akey].length > 0)
                             }
                         }
@@ -674,7 +676,7 @@ export default function useAbcjsParser() {
         }
 
         var final = render(abc, abcString)            
-        console.log("MERGED",abc,final)
+        //console.log("MERGED",abc,final)
         return final
     }
     

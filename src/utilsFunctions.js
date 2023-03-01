@@ -18,17 +18,32 @@ export default function utilsFunctions(props) {
         var keyLetter = (chord && chord.length > 0 && chord[0].toUpperCase)  ? chord[0].toUpperCase() : ''
         if (!keyLetter) return ''
         var modifierLetter =(chord.length > 1 && (chord[1] === 'b' || chord[1] === '#')) ? chord[1] : ''
+        //console.log('km',keyLetter,modifierLetter, key, showFlats(key))
         if (showFlats(key)) {
+            //console.log('showfloat')
             if (modifierLetter == '#') {
                 var letterIndex = letters.indexOf(keyLetter)
-                keyLetter = letters[(letterIndex + 1)%letters.length]
-                modifierLetter = "b"
+                if (letterIndex !== -1) { 
+                    var useLetterIndex = letterIndex + 1
+                    if (useLetterIndex >= letters.length) useLetterIndex = useLetterIndex - letters.length
+                    //console.log('km2',letters.length, letterIndex, (letterIndex + 1)%letters.length, useLetterIndex)
+                    keyLetter = letters[useLetterIndex]
+                    //console.log('km2t',keyLetter, letters.length, letterIndex, (letterIndex + 1)%letters.length)
+                    modifierLetter = "b"
+                }
             }
         } else {
+            //console.log('showsharp')
             if (modifierLetter == 'b') {
                 var letterIndex = letters.indexOf(keyLetter)
-                keyLetter = letters[(letterIndex - 1)%letters.length]
-                modifierLetter = "#"
+                if (letterIndex !== -1) { 
+                    var useLetterIndex = letterIndex - 1
+                    if (useLetterIndex < 0) useLetterIndex = useLetterIndex + letters.length
+                    //console.log('km3',letters.length, letterIndex, (letterIndex + 1)%letters.length, useLetterIndex)
+                    keyLetter = letters[useLetterIndex]
+                    //console.log('km3t',keyLetter, letters.length, letterIndex, (letterIndex + 1)%letters.length)
+                    modifierLetter = "#"
+                }
             }
         }
         if (modifierLetter.length > 0) {

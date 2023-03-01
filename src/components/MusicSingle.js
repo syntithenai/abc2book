@@ -353,7 +353,7 @@ export default function MusicSingle(props) {
                             {(mediaProgress && ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.getDuration()  && ytMediaPlayer.seekTo) ? <b>{(mediaProgress * ytMediaPlayer.getDuration()).toFixed(2)}/{ytMediaPlayer.getDuration().toFixed(2)}</b> : null}
                         </div>
                         
-                        <input style={{width:'100%', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
+                        <input style={{width:'100%',height:'40px', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
                                         setMediaProgress(e.target.value); 
                                             
                                         try {
@@ -378,12 +378,12 @@ export default function MusicSingle(props) {
            
              {props.viewMode === 'chords' && <>
                 {!zoomChords && <div style={{border:'1px solid black'}}>
-                     <div className="title" style={{ marginTop:'2.5em',marginBottom:'1em', width:'70%', paddingLeft:'0.3em'}} >
+                     <div className="title" style={{ marginTop:'2.5em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
                         <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
                      <Button onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>
-                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
+                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                                     return <div key={lk} className="lyrics-line" >{line}</div>
@@ -391,7 +391,7 @@ export default function MusicSingle(props) {
                         })}
                         
                      </div>}
-                     {(squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'65%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
+                     {(squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >
                                     <div  className="lyrics-line" >{words[key][0]}</div>
@@ -401,19 +401,20 @@ export default function MusicSingle(props) {
                      </div>}
                 </div>  }
       
-                 <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '30%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
-                    {!(zoomChords === true) && <Button onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
-                    {(zoomChords === true) && <Button onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
-                    <div style={{ overflowY:'scroll', height:'100%'}} >
-                        <pre style={{ border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
-                        
-                        <div>
+                 <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                    {!(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
+                    {(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
+                    <span>
                         {Object.keys(uniqueChords).map(function(chord) {
                             var chordLetter = chord
                             var chordType = ''
                             return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                         })}
-                        </div>
+                        </span>
+                    <div style={{ overflowY:'scroll', height:'100%'}} >
+                        <pre style={{ border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
+                        
+                        
                         <br/><br/><br/>
                     </div>
                  </div>

@@ -18,7 +18,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook}) {
   let params = useParams();
   return (
     <>
-        <div onClick={handleShow} style={{fontWeight:'bold'}} >{tune ? tune.name : ''}</div>
+        <span onClick={handleShow} style={{fontWeight:'bold'}} >{tune ? tune.name : ''}</span>
     
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
