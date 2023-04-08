@@ -78,11 +78,11 @@ W: Than when we first begun.
 % abcbook-link-title-0 Amazing Grace (John Newton)
 % abcbook-boost 0
 % abcbook-difficulty 5
-% abcbook-tags begged borrowed and stolen,© free,steve ryan
+% abcbook-tags begged borrowed and stolen,© free,steve ryan,robert kingston
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677638512899
+% abcbook-lastupdated 1678279937985
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % abc-sessionorg_id 
@@ -2312,11 +2312,12 @@ W: You dirty blackleg miner.
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan,© free
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 3
 % abcbook-tuning 
-% abcbook-lastupdated 1676945153857
+% abcbook-lastupdated 1678184445831
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 7
+%%MIDI transpose 3
 
 
 X: 31
@@ -2788,6 +2789,7 @@ W:
 
 X: 39
 T: Bound For Botany Bay
+C:Traditional
 B: songs
 B: traditional songs
 M:3/4
@@ -2837,11 +2839,11 @@ W: Or you'll find us in Botany Bay
 % abcbook-link-title-0 Bound For Botany Bay
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan
+% abcbook-tags steve ryan,robert kingston,© free
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1677463245442
+% abcbook-lastupdated 1678362389074
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%MIDI transpose -5
@@ -4613,11 +4615,11 @@ W: Let's get this damn job over boys.
 % abcbook-link-end-at-0 184
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,incoming traditional songs,sea shanties
+% abcbook-tags steve ryan,incoming traditional songs,sea shanties,robert kingston,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677466155730
+% abcbook-lastupdated 1678280349153
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -5761,11 +5763,12 @@ W:
 % abcbook-difficulty 0
 % abcbook-tags steve ryan,max campbell,incoming traditional songs
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1677467775502
+% abcbook-lastupdated 1679189183375
 % abcbook-soundfonts 
 % abcbook-repeats 5
+%%MIDI transpose 7
 
 
 X: 81
@@ -7707,38 +7710,49 @@ W:
 
 X: 108
 T: Auld Lang Syne
+C:Robert Burns
 B: songs
 B: traditional songs
+M:4/4
 Q: 1/4=100
 V:1 
+"G"zzzzzzzz|"D"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"D"zzzzzzzz|"Em"zzzz"C"zzzz|"G"zzzzzzzz|
+zzzzzzzz|
+"G"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"D"zzzzzzzz|"Em"zzzz"C"zzzz|"G"zzzzzzzz|
 W: Should old acquaintance be forgot
 W: And never brought to mind
 W: Should all acquaintance be forgot
 W: And auld lang syne
+W: 
+W: CHORUS
 W: For auld lang syne, my dear,
 W: For auld lang syne,
 W: We'll take a cup o' kindness yet,
 W: For auld lang syne
+W: 
 W: And surely you will buy your cup
 W: And surely I'll buy mine
 W: And we'll take a cup o'kindness yet
 W: For auld lang syne
+W: 
+W: CHORUS
+W: 
 W: We too have run around the slopes
 W: And picked the daisies fine
 W: We've londoned many weary foot
 W: Since auld lang syne
-W: For auld lang syne, my dear,
-W: For auld lang syne,
-W: We'll take a cup o' kindness yet,
-W: For auld lang syne
+W: 
+W: CHORUS
+W: 
 W: We too have paddled in the stream
 W: From morning sun to night
 W: But the seas between us broad have roared
 W: From auld lang syne
-W: For auld lang syne, my dear,
-W: For auld lang syne,
-W: We'll take a cup o' kindness yet,
-W: For auld lang syne
+W: 
+W: CHORUS
+W: 
 W: We'll take a cup o'kindness yet
 W: For auld langs syne
 W: 
@@ -7750,11 +7764,11 @@ W:
 % abcbook-link-title-0 Auld Lang Syne - The Choral Scholars of University College Dublin
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags © free
+% abcbook-tags © free,robert kingston
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673905759938
+% abcbook-lastupdated 1678355252670
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -8007,6 +8021,7 @@ T: Cornbread and Butterbeans
 C:Carolina Chocolate Drops
 B: songs
 B: traditional songs
+B: carolina chocolate drops
 Q: 1/4=100
 V:1 
 W: Chorus
@@ -8050,7 +8065,7 @@ W: Chorus
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677464329408
+% abcbook-lastupdated 1678353190359
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -10697,11 +10712,12 @@ W: Over the blackberry blossom and the blackberry bush
 % abcbook-difficulty 0
 % abcbook-tags ralph cullen,©,mandira
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1677463090403
+% abcbook-lastupdated 1678158922413
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -5
 
 
 X: 155
@@ -11240,8 +11256,18 @@ T: Wayfaring Stranger
 C:Johnny Cash
 B: songs
 B: traditional songs
+M:4/4
 Q: 1/4=100
 V:1 
+"Dm"zzzzzzzz|"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
+"Dm"zzzzzzzz|"Gm"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"Dm"zzzzzzzz|"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
+zzzzzzzz|
+"F"zzzzzzzz|"F"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
+"F"zzzzzzzz|"F"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"Dm"zzzzzzzz|"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz| 
 W: [Verse 1]
 W: I am a poor wayfaring stranger,
 W: While journeying through,
@@ -11318,7 +11344,7 @@ W: Yeah, only....[repeat till fade]
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677473563063
+% abcbook-lastupdated 1678330584190
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -12007,7 +12033,7 @@ W: You’ve been a friend to me
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675227840746
+% abcbook-lastupdated 1678279058667
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -12854,11 +12880,11 @@ W:
 % abcbook-link-start-at-0 5
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags 
+% abcbook-tags leila elkilany
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677419416491
+% abcbook-lastupdated 1680144521047
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -14325,11 +14351,12 @@ W: 2 × Chorus
 % abcbook-difficulty 0
 % abcbook-tags good tune book,© free
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1675475828408
+% abcbook-lastupdated 1677719166910
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -5
 
 
 X: 211
@@ -14361,3 +14388,665 @@ W:
 % abcbook-lastupdated 1675476581964
 % abcbook-soundfonts 
 % abcbook-repeats 1
+
+
+X: 212
+T: Marie's Wedding
+B: traditional songs
+B: songs
+L:1/8
+Q: 1/4=100
+K:G
+V:1 
+"G"D3/2E/ DE GA B2|"C"AG EG "D"BA B/d3/2|"G"D3/2E/ DE GA B2|\
+"C"AG EC "D"D2 D2:|
+"G"dd de dc B2|"C"AG EG "D"BA B/d3/2|"G"d3/2d/ de dc B2|\
+"C"AG EC "D"D2 D2:|
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: [Verse 1]
+W: Over hillways up and down
+W: Myrtle green and bracken brown
+W: Past the sheeling, through the town
+W: All for sake of Marie
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Verse 2]
+W: Red her cheeks as rowans are
+W: Bright her eyes as any star
+W: Fairest of them all by far
+W: Is our darling Marie
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Verse 3]
+W: Plenty herring, plenty meal
+W: Plenty peat to fill her creel
+W: Plenty bonny bairns as well
+W: That’s the toast for Marie
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+W: 
+W: [Chorus]
+W: Step we gaily, on we go
+W: Heel for heel and toe for toe
+W: Arm in arm and row in row
+W: All for Marie’s wedding
+% abcbook-tune_id 6406a829414fd8a28f28c9c1
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags max campbell
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678158281057
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 213
+T: Michael Row The Boat Ashore
+C:Traditional
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: [Chorus]
+W: Michael row the boat ashore, hallelujah
+W: Michael row the boat ashore, hallelujah
+W: 
+W: [Verse 1]
+W: Sister help to trim the sails, hallelujah
+W: Sister help to trim the sails, hallelujah
+W: 
+W: [Verse 2]
+W: Jordan's River is deep and wide, hallelujah
+W: And I've got a home on the other side, hallelujah
+W: [Chorus]
+W: Michael row the boat ashore, hallelujah
+W: Michael row the boat ashore, hallelujah
+W: 
+W: [Verse 3]
+W: Michael's boat is a music boat, hallelujah
+W: Michael's boat is a music boat, hallelujah
+W: 
+W: [Chorus]
+W: Michael row the boat ashore, hallelujah
+W: Michael row the boat ashore, hallelujah
+W: 
+W: [Verse 4]
+W: The trumpets sound (The trumpets sound) the Jubilee, hallelujah
+W: Trumpets sound for you and me, hallelujah
+W: 
+W: [Chorus]
+W: Michael row (Michael row) the boat ashore, hallelujah (Hallelujah)
+W: Michael row the boat ashore, hallelujah
+W: Michael row the boat ashore, hallelujah
+W: Michael row the boat ashore, hallelujah
+% abcbook-tune_id 640896adc00698843aca6960
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=WrH2qV8NjHw
+% abcbook-link-title-0 Michael Row the Boat Ashore
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags robert kingston,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678362670367
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords
+
+X: 214
+T: Skye Boat Song
+B: traditional songs
+L:1/8
+Q: 1/4=100
+K:D
+V:1 
+"D"  A3 B A2 | "B7" d4      d2 | "Em" e3 f e2 | "A"  a6 |
+"D"  f3 e f2 | "G" B3 c "G" B2 | "D"       A6 |      A6 :|
+"Bm" f3 d f2 | f3         g f2 | "Em" e3 B e2 | e3 f e2 |
+"Bm" d4   Bc | d4           c2 | "Em"       B6|       B6:|
+W: [Chorus:]
+W: Speed, bonnie boat, like a bird on the wing,
+W: Onward! the sailors cry;
+W: Carry the lad that's born to be king
+W: Over the sea to Skye.
+W: 
+W: 1. Loud the winds howl, loud the waves roar,
+W: Thunderclaps rend the air;
+W: Baffled, our foes stand by the shore,
+W: Follow they will not dare.
+W: 
+W: [Chorus]
+W: 
+W: 2. Many's the lad, fought on that day
+W: Well the claymore did wield;
+W: When the night came, silently lay
+W: Dead on Culloden's field.
+W: 
+W: [Chorus]
+W: 
+W: 3. Though the waves leap, soft shall ye sleep,
+W: Ocean's a royal bed.
+W: Rocked in the deep, Flora will keep
+W: Watch by your weary head.
+W: 
+W: [Chorus]
+W: 
+W: 4. Burned are their homes, exile and death
+W: Scatter the loyal men;
+W: Yet ere the sword cool in the sheath
+W: Charlie will come again.
+% abcbook-tune_id 6409753e1a43b77873dd926d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678341529992
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords
+
+X: 215
+T: This Little Light Of Mine
+C:Traditional
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: This little light of mine, I'm gonna let it shine.
+W: This little light of mine, I'm gonna let it shine,
+W: This little light of mine, I'm gonna let it shine,
+W: let it shine, let it shine, let it shine.
+W: 
+W: Hide it under a bushel - NO!
+W: I'm gonna let it shine.
+W: Hide it under a bush - OH NO!
+W: I'm gonna let it shine,
+W: Hide it under a bush - OH NO!
+W: I'm gonna let it shine, Let it shine,
+W: let it shine, let it shine.
+W: 
+W: Don't let Satan blow it!
+W: I'm gonna let it shine.
+W: Don't let Satan blow it out.
+W: I'm gonna let it shine
+W: Don't let Satan blow it out.
+W: I'm gonna let it shine,
+W: let it shine, let it shine, let it shine.
+W: 
+W: Let it shine til Jesus comes.
+W: I'm gonna let it shine.
+W: Let it shine til Jesus comes.
+W: I'm gonna let it shine,
+W: Let it shine til Jesus comes.
+W: I'm gonna let it shine.
+W: let it shine, let it shine, let it shine.
+W: 
+W: This little light of mine, I'm gonna let it shine.
+W: This little light of mine, I'm gonna let it shine,
+W: This little light of mine, I'm gonna let it shine,
+W: let it shine, let it shine, let it shine.
+W: let it shine, let it shine, let it shine.
+W: 
+% abcbook-tune_id 64098c8dc6c420374a4c4dfa
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=cqXDPnBPa3o
+% abcbook-link-title-0 The Dead South - This Little Light of Mine | OurVinyl Sessions
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags robert kingston,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678363593469
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 216
+T: This Train Is Bound For Glory
+C:Traditional
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: This train is bound for glory, this train.
+W: This train is bound for glory, this train.
+W: This train is bound for glory,
+W: Don't carry nothing but the righteous and the holy.
+W: This train is bound for glory, this train.
+W: 
+W: This train don't carry no gamblers, this train;
+W: This train don't carry no gamblers, this train;
+W: This train don't carry no gamblers,
+W: Liars, thieves, nor big shot ramblers,
+W: This train is bound for glory, this train.
+W: 
+W: This train don't carry no liars, this train;
+W: This train don't carry no liars, this train;
+W: This train don't carry no liars,
+W: She's streamlined and a midnight flyer,
+W: This train don't carry no liars, this train.
+W: 
+W: This train don't carry no smokers, this train;
+W: This train don't carry no smokers, this train
+W: This train don't carry no smokers,
+W: Two bit liars, small time jokers,
+W: This train don't carry no smokers, this train.
+W: 
+W: This train don't carry no con men, this train;
+W: This train don't carry no con men, this train;
+W: This train don't carry no con men,
+W: No wheeler dealers, here and gone men,
+W: This train don't carry no con men, this train.
+W: 
+W: This train don't carry no rustlers, this train;
+W: This train don't carry no rustlers, this train;
+W: This train don't carry no rustlers,
+W: Sidestreet walkers, two bit hustlers,
+W: This train is bound for glory, this train.
+% abcbook-tune_id 64098ccdce1fb9face9d1863
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=GKhfgV1zJL0
+% abcbook-link-title-0 This Train Is Bound For Glory - The Rolltones
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags robert kingston,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678363751911
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 217
+T: Waltzing Matilda
+C:Banjo Paterson
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: Once a jolly swagman camped by a billabong
+W: Under the shade of a Coolibah tree
+W: And he sang as he watched and waited till his billy boiled
+W: "You'll come a Waltzing Matilda with me"
+W: 
+W: Down came a jumbuck to drink at that billabong
+W: Up jumped the swagging and grabbed him with glee
+W: And he sang as he stowed that jumbuck in his tucker bag
+W: "You'll come a Waltzing Matilda with me"
+W: 
+W: Waltzing Matilda, Waltzing Matilda
+W: You'll come a Waltzing Matilda with me
+W: And he sang as he stowed that jumbuck in his tucker bag
+W: "You'll come a Waltzing Matilda with me"
+W: 
+W: Down came the squatter mounted on his thorough-bred
+W: Up came the troopers one, two, three
+W: "Whose that jolly jumbuck you've got in your tucker bag?
+W: You'll come a Waltzing Matilda with me"
+W: 
+W: Waltzing Matilda, Waltzing Matilda
+W: You'll come a Waltzing Matilda with me
+W: "Whose that jolly jumbuck you've got in your tucker-bag?
+W: You'll come a Waltzing Matilda with me"
+W: 
+W: Up cut the swagging and jumped into the billabong
+W: "You'll never catch me alive" said he
+W: And his ghost may be heard if you pass by that billabong
+W: "Who'll come a Waltzing Matilda with me?"
+W: 
+W: Waltzing Matilda, Waltzing Matilda
+W: You'll come a Waltzing Matilda with me
+W: And his ghost may be heard if you pass by that billabong
+W: "You'll come a Waltzing Matilda with me"
+W: 
+W: Waltzing Matilda, Waltzing Matilda
+W: You'll come a Waltzing Matilda with me
+W: And his ghost may be heard if you pass by that billabong
+W: "You'll come a Waltzing Matilda with me"
+W: 
+% abcbook-tune_id 64098d5d31744d1a5fa1d242
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=FqtttbbYfSM
+% abcbook-link-title-0 Slim Dusty - Waltzing Matilda
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags robert kingston,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678364306007
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 218
+T: Will The Circle Be Unbroken
+C:Ada Ruth Habershon
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: I was standing by my window
+W: On a cold and cloudy day
+W: When I saw the hearse come rolling
+W: For to carry my mother away.
+W: 
+W: Will the circle be unbroken
+W: By and by Lord, by and by
+W: There's a better home awaiting
+W: In the sky Lord, in the sky.
+W: 
+W: Well, I went back home, home was lonely
+W: For my mother she was gone
+W: And all my family there was cryin'
+W: For out home felt sad and alone.
+W: 
+W: Will the circle be unbroken
+W: By and by Lord, by and by
+W: There's a better home awaiting
+W: In the sky Lord, in the sky.
+W: 
+W: Undertaker, undertaker, undertaker
+W: Won't you please drive slow
+W: For that lady you are haulin'
+W: Lord, I hate to see her go.
+W: 
+W: Will the circle be unbroken
+W: By and by Lord, by and by
+W: There's a better home awaiting
+W: In the sky Lord, in the sky.
+W: 
+W: There's a better home awaiting
+W: In the sky Lord, in the sky...
+% abcbook-tune_id 64098e0d7ed97e401e48d6dd
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=_5f7eH0Ej8Y
+% abcbook-link-title-0 Ada Ruth Habershon &amp; Charles Hutchinson Gabriel - Will The Circle Be Unbroken
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags robert kingston,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1678364653010
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 219
+T: Lanigan's Ball
+B: songs
+B: traditional songs
+B: tunes
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Em
+V:1 
+|:D|"Em"EDE G2A|B2A B^cd|"D"DED F2G|AdB AFD|
+ "Em"EDE G2A|B2A B^cd|edB "Am"cBA|"Em"BGE E2:|
+|:d|"Em"e2f g2e|"D"fag fed|"Em"e2f g2e|"Bm"fdB B2d|
+"Em"e2f g2e|"D"fag fed|"Em"edB "Am"cBA|"Em"BGE E2:|
+W: In the town of Athy, one Jeremy Lanigan battered away till he hadn’t a shilling.
+W: His father died, made him a man again, left him a farm and ten acres of ground.
+W: Myself, to be sure, got invitations for the boys and girls I might ask.
+W: Having been asked, friends and relations danced like bees around a sweet cask.
+W: There was lashings of drink wine for the ladies, potatoes and cake bacon and tea.
+W: Nolans and Dolans and all the O’Gradys, courting the girls and dancing away.
+W: While songs went round as plenty as water,
+W: The harps that are sounded through Tara’s old hall,
+W: Biddie Grey and the rat catcher’s daughter singing away at Lanigan’s ball.
+W: 
+W: CHORUS
+W: 
+W: Six long months I spent in Dublin, six long months doing nothing at all,
+W: Six long months I spent in Dublin, learning to dance for Lanigan’s ball.
+W: She stepped out, I stepped in again. I stepped out and she stepped in again.
+W: She stepped out, I stepped in again, learning to dance for Lanigan’s ball.
+W: 
+W: They were doing all kinds of nonsensical dances all around in a whirligig.
+W: Julie and I soon banished their nonsense,
+W: Out on the floor for a reel and a jig.
+W: How the girls all got mad at me for they thought the ceilings would fall.
+W: I spent six months in Brook’s Academy learning to dance for Lanigan’s ball.
+W: Well the boys were merry and the girls all hearty
+W: Dancing around in their couples and groups.
+W: An accident happened; Terence McCarthy,
+W: He put his boot through Miss Finnerty’s hoops.
+W: She fell down in a faint and cried, ‘Holy murder!’
+W: Called her brothers and gathered them all.
+W: Carmody swore he’d go no further till he got revenge at Lanigan’s ball.
+W: 
+W: CHORUS
+W: 
+W: Boys oh boys ’tis then there was ructions. I got a belt from Phelim Mc Hugh.
+W: I replied to his introduction, kicked up a terrible hullabaloo.
+W: Moloney the piper was near gettin’ smothered.
+W: They leapt on his pipes, bellows, chanter and all.
+W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
+% abcbook-tune_id 62828a3a9ed88430095357f3
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=YySRJ6B-xIw
+% abcbook-boost 0
+% abcbook-difficulty 7
+% abcbook-tags begged borrowed and stolen,ralph cullen,traditional songs,© free,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1675772089871
+% abcbook-soundfonts 
+% abcbook-repeats 3
+% abc-sessionorg_id 264
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 43100
+% abc-boost 0
+
+X: 220
+T: Moreton Bay
+C:Traditional
+B: songs
+B: traditional songs
+Q: 1/4=100
+V:1 
+W: One Sunday morning as I went walking
+W: By Brisbane waters I chanced to stray
+W: I heard a prisoner his fate bewailing
+W: As on the sunny river bank he lay
+W: I am a native from Erin's island
+W: Transported now from my native shore
+W: They tore me from my aged parents
+W: And from the maiden whom I adore
+W: 
+W: I've been a prisoner at Port Macquarie
+W: At Norfolk Island and Emu Plains
+W: At Castle Hill and cursed Toongabbie
+W: At all those settlements I've woked in chains
+W: But of all places of condemnation
+W: And penal stations of New South Wales
+W: Of Moreton Bay I have found no equal
+W: Excessive tyranny each day prevails
+W: For three long years I was beastly treated
+W: And heavy irons on my legs I wore
+W: My back from flogging was lacerated
+W: And often slain with my crimson gore
+W: And many a man from downright starvation
+W: Lies mouldering underneath the clay
+W: And Captain Logan he had us mangled
+W: At the triangles in Moreton Bay
+W: 
+W: Like the Egyptians and ancient Hebrews
+W: We were oppressed under Logan's yoke
+W: Till a native black lying there in ambush
+W: Did give our tyrant his mortal stroke
+W: My fellow prisoners exhilarated
+W: That all such monsters a death shall find
+W: And when from bondage we're liberated
+W: Our former sufferings shall fade from mind
+% abcbook-tune_id 638486c2000dab90f7bb8b79
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=yv-AVKJ_kCg
+% abcbook-link-title-0 Moreton Bay (traditional Australian folk song)
+% abcbook-link-start-at-0 28
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags © free,©,mandira,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677418795785
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 221
+T: Bonaparte's Retreat
+C:Glen Campbell
+B: traditional songs
+B: songs
+M:2/4
+L:1/8
+Q: 1/4=100
+K:D
+V:1 
+|"D""^PART A"F4 z3/2 E/2 DF|A2 F2 E2 D2|"A"E4 E3/2D/2 EF|"A7"G2 F/2G/2F E2 D2
+|"D"F4 F3/2E/2 DF|A2 F2 E2 D2|"A"E2 FG F2 E2|"D"D6 z2||
+|"D""^PART B"F4 z3/2 E/2 DF|A2 F2 E2 D2|"A"E4 EDEF|G2 F/2G/2F E2 D2
+|"D"F4 z EDF|A2 F2 E2 D2|"A"E2 F3/2G/2 F E|"D"D4 z A3/2B/2||
+|"D""^PART C"d4 d3/2e/2 f3/2e/2|d2 d2 A2 A3/2B/2|d2 B2 A2 F2|D6 A3/2B/2
+|"D"d4 d3/2e/2 fe|d2 d2 A2 AB|d2 B2 A3/2B/2 AF|D6 D2||
+|"Am""^PART D"=c4 "G"B4|"Am""^Hootchy Kootchy"A4 A2 B2|"Am"=c2 d2 "G"B2 c2|"Am"A4 A2 B2
+|"Am"=c4 "G"B4|"Am"A4 A2 B2|"Am"=c2 d2 "G"B2 c2|"Am"A8|| 
+W: Met the girl I love in a town way down in Dixie
+W: Beneath the stars up above, she was the sweetest girl I ever did see
+W: So I held her in my arms and told her of her many charms, I
+W: Kissed her while the guitars played The Bonaparte's Retreat
+W: 
+W: All the world was bright as I held her on that night
+W: And I heard her say, "Please, don't you go away"
+W: So I held her in my arms and told her of her many charms, I
+W: Kissed her while the bagpipe played The Bonaparte's Retreat
+W: 
+W: Well, I met the girl I love in a town way down in Dixie
+W: Beneath the stars up above, she was the sweetest girl I ever did see
+W: So I held her in my arms and told her of her many charms, I
+W: Kissed her while the fiddles played The Bonaparte's Retreat
+W: 
+W: All the world was bright as I held her on that night
+W: And I heard her say, "Please, don't you go away"
+W: So I held her in my arms and told her of her many charms, I
+W: Kissed her while everybody played The Bonaparte's Retreat
+W: 
+W: Yes, I held her in my arms and told her of her many charms, I
+W: Kissed her while everybody's playin' The Bonaparte's Retreat
+W: Yes I held her in my arms, I told her of her many charms, and I
+W: Kissed her while everybody's playin'
+% abcbook-tune_id 64269156bcdb850996f88f23
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=2gyCc8JbDEs
+% abcbook-link-title-0 Bonaparte&#39;s Retreat
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags max campbell,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1680250151438
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%vskip 0
+%%vskip 0
+%%vskip 0
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

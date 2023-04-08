@@ -198,11 +198,11 @@ W: Than when we first begun.
 % abcbook-link-title-0 Amazing Grace (John Newton)
 % abcbook-boost 0
 % abcbook-difficulty 5
-% abcbook-tags begged borrowed and stolen,© free,steve ryan
+% abcbook-tags begged borrowed and stolen,© free,steve ryan,robert kingston
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677638512899
+% abcbook-lastupdated 1678279937985
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % abc-sessionorg_id 
@@ -1748,7 +1748,7 @@ W: You’ve been a friend to me
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675227840746
+% abcbook-lastupdated 1678279058667
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
@@ -3627,13 +3627,14 @@ DF|:"D"A2 A>B|AF ED|f2 f2|ed Bd|A2 A>B|AF ED|"A"E2 E>F|E2 DF|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=7rWZx6UDlak
 % abcbook-link-title-0 The Centenary March
+% abcbook-link-start-at-0 20
 % abcbook-boost 0
 % abcbook-difficulty 8
 % abcbook-tags begged borrowed and stolen,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675774540456
+% abcbook-lastupdated 1678320338228
 % abcbook-soundfonts 
 % abcbook-repeats 3
 % Rhythm March
@@ -4088,13 +4089,16 @@ V:1
 % abcbook-tune_id 627e2b1f97b518588f3e80cc
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=ohQ2cF4H6NE
+% abcbook-link-1 https://www.youtube.com/watch?v=iEpIaUiVFAo
+% abcbook-link-title-1 Irish Pub Sessions: Sally Gardens | Drowsie Maggie | The Tulla Reel 🎶
+% abcbook-link-end-at-1 139
 % abcbook-boost 0
 % abcbook-difficulty 10
 % abcbook-tags begged borrowed and stolen,© free,celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675771829569
+% abcbook-lastupdated 1679308083192
 % abcbook-soundfonts 
 % abcbook-repeats 3
 
@@ -10769,7 +10773,7 @@ W:
 % abcbook-tablature violin
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675502230992
+% abcbook-lastupdated 1677678860783
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%staffsep      50
@@ -19651,11 +19655,12 @@ W: 2 × Chorus
 % abcbook-difficulty 0
 % abcbook-tags good tune book,© free
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1675475828408
+% abcbook-lastupdated 1677719166910
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -5
 
 
 X: 612
@@ -20537,3 +20542,74 @@ B/A/|FA dF|A3 B/A/|GB dG|B3 c/B/|
 % abcbook-lastupdated 1675482230133
 % abcbook-soundfonts 
 % abcbook-repeats 1
+
+
+X: 645
+T: Lanigan's Ball
+B: songs
+B: traditional songs
+B: tunes
+B: begged borrowed and stolen
+M:6/8
+L:1/8
+R: jig
+Q: 3/8=100
+K:Em
+V:1 
+|:D|"Em"EDE G2A|B2A B^cd|"D"DED F2G|AdB AFD|
+ "Em"EDE G2A|B2A B^cd|edB "Am"cBA|"Em"BGE E2:|
+|:d|"Em"e2f g2e|"D"fag fed|"Em"e2f g2e|"Bm"fdB B2d|
+"Em"e2f g2e|"D"fag fed|"Em"edB "Am"cBA|"Em"BGE E2:|
+W: In the town of Athy, one Jeremy Lanigan battered away till he hadn’t a shilling.
+W: His father died, made him a man again, left him a farm and ten acres of ground.
+W: Myself, to be sure, got invitations for the boys and girls I might ask.
+W: Having been asked, friends and relations danced like bees around a sweet cask.
+W: There was lashings of drink wine for the ladies, potatoes and cake bacon and tea.
+W: Nolans and Dolans and all the O’Gradys, courting the girls and dancing away.
+W: While songs went round as plenty as water,
+W: The harps that are sounded through Tara’s old hall,
+W: Biddie Grey and the rat catcher’s daughter singing away at Lanigan’s ball.
+W: 
+W: CHORUS
+W: 
+W: Six long months I spent in Dublin, six long months doing nothing at all,
+W: Six long months I spent in Dublin, learning to dance for Lanigan’s ball.
+W: She stepped out, I stepped in again. I stepped out and she stepped in again.
+W: She stepped out, I stepped in again, learning to dance for Lanigan’s ball.
+W: 
+W: They were doing all kinds of nonsensical dances all around in a whirligig.
+W: Julie and I soon banished their nonsense,
+W: Out on the floor for a reel and a jig.
+W: How the girls all got mad at me for they thought the ceilings would fall.
+W: I spent six months in Brook’s Academy learning to dance for Lanigan’s ball.
+W: Well the boys were merry and the girls all hearty
+W: Dancing around in their couples and groups.
+W: An accident happened; Terence McCarthy,
+W: He put his boot through Miss Finnerty’s hoops.
+W: She fell down in a faint and cried, ‘Holy murder!’
+W: Called her brothers and gathered them all.
+W: Carmody swore he’d go no further till he got revenge at Lanigan’s ball.
+W: 
+W: CHORUS
+W: 
+W: Boys oh boys ’tis then there was ructions. I got a belt from Phelim Mc Hugh.
+W: I replied to his introduction, kicked up a terrible hullabaloo.
+W: Moloney the piper was near gettin’ smothered.
+W: They leapt on his pipes, bellows, chanter and all.
+W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
+% abcbook-tune_id 62828a3a9ed88430095357f3
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=YySRJ6B-xIw
+% abcbook-boost 0
+% abcbook-difficulty 7
+% abcbook-tags begged borrowed and stolen,ralph cullen,traditional songs,© free,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1675772089871
+% abcbook-soundfonts 
+% abcbook-repeats 3
+% abc-sessionorg_id 264
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id 43100
+% abc-boost 0
