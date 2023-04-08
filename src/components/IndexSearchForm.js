@@ -47,12 +47,12 @@ export default function IndexSearchForm(props) {
       <span style={{zIndex:999, float:'right', backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
             <AddSongModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}/>
             <ImportOptionsModal show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} token={props.token}  />
-            <Button onClick={function() {console.log("CC"); props.tunebook.fillMediaPlaylist(props.currentTuneBook,props.selected,props.tagFilter )}} variant={"danger"} size="small" >{props.tunebook.icons.play} {props.tunebook.icons.headphone}  </Button>
-            <Button onClick={function() {props.tunebook.fillAbcPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"success"} size="small" >{props.tunebook.icons.play} {props.tunebook.icons.music} </Button>
+            
+            
         </span>
          <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([]); props.setSelected({}); props.setSelectedCount(0); props.setFiltered(''); props.setGrouped({}); props.setListHash('')}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
          
-         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor  }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
+         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor , 'marginRight': '1em' }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
          
            <BookSelectorModal blockKeyboardShortcuts={props.blockKeyboardShortcuts} forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh();}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>} />
           
@@ -75,7 +75,7 @@ export default function IndexSearchForm(props) {
                />
               </span>
            
-         <>{(props.tunes && props.filtered && props.filtered.length < props.LIST_PROTECTION_LIMIT*5) && <GroupBySelectorModal LIST_PROTECTION_LIMIT={props.LIST_PROTECTION_LIMIT} onChange={function(val) { props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} />}</>
+         <>{(props.tunes && props.filtered && props.filtered.length < props.LIST_PROTECTION_LIMIT*5) && <GroupBySelectorModal LIST_PROTECTION_LIMIT={props.LIST_PROTECTION_LIMIT} onChange={function(val) { props.setGroupBy(val)}}  value={props.groupBy} tunebook={props.tunebook}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} tunes={Object.keys(props.filtered)} />}</>
         
          
     </div>
@@ -83,7 +83,7 @@ export default function IndexSearchForm(props) {
 }
 
 
- 
+ //<Button onClick={function() {props.tunebook.fillAbcPlaylist(props.currentTuneBook,props.selected,navigate)}} variant={"success"} size="small" >{props.tunebook.icons.play} {props.tunebook.icons.music} </Button>
 
 //{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}
  //<div style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}   id="tunesearchextras" >

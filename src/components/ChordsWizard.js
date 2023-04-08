@@ -6,6 +6,7 @@ import patienceDiff from '../patienceDiff'
 //import ChordSheetJS from 'chordsheetjs';
 import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
+import CreatableSelect from 'react-select/creatable';
 
 export default function ChordsWizard(props) {
     const [chords, setChords] = useState(props.chords)
@@ -69,7 +70,18 @@ export default function ChordsWizard(props) {
             </div>
             <div style={{clear:'both'}} > </div>
             <Form.Label>Time Signature</Form.Label>
-            <Form.Control type="text" placeholder="eg 4/4" value={tune.meter ? tune.meter : ''} onChange={function(e) {tune.meter = e.target.value;  props.saveTune(tune)  }}  />
+            <CreatableSelect
+                    value={tune.meter ? {value:tune.meter, label:tune.meter} : {value:'', label:''}}
+                    onChange={function(val) {tune.meter = val.label;  props.saveTune(tune)  }}
+                    options={props.tunebook.abcTools.getTimeSignatureTypes().map(function(type,key) {
+                        return {value:type, label: type}
+                    })}
+                    isClearable={false}
+                    blurInputOnSelect={true}
+                    createOptionPosition={"first"}
+                    allowCreateWhileLoading={true}
+                    allowCreate={true}
+                  />
             <Form.Label>Repeats</Form.Label>
             <Form.Control type="text" placeholder="eg 100" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = props.tuneId;  props.saveTune(tune)  }}  />
         </Form.Group>

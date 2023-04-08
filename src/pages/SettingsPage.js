@@ -61,11 +61,12 @@ export default function SettingsPage(props) {
       } 
       
    }
-  
-    return <div className="App-settings">
+  //{props.user && <div>Current User: {props.user.name}</div>}
+       
+    return <div style={{marginLeft:'0.3em'}} className="App-settings">
     <h1>Settings</h1>
-   
-       <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
+    <br/>
+       
        
        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="danger" onClick={function(e) {
            if (props.token) {
@@ -83,28 +84,34 @@ export default function SettingsPage(props) {
             }
         }} >Delete All Tunes</Button><br/>
        
-       
-       <div>
-         <label>Pre Render Audio ?<input type="checkbox" onChange={clickPreRenderAudio} checked={preRenderAudioCheckbox} /></label>
-         <br/><b>This may cause the user interface to freeze temporarily without warning!</b>
-       </div>
-       <hr style={{margin:'1em'}}  />
-       <div>
-         <label>Enable Merge Warnings ?<input type="checkbox" onChange={clickEnableMergeWarnings} checked={mergeWarningsCheckbox} /></label>
-         <br/><b></b>
-       </div>
-       <hr style={{margin:'1em'}}  />
-       <div>
-         <label>Enable Inline Audio ?<input type="checkbox" onChange={clickEnableInlineAudio} checked={inlineAudioCheckbox} /></label>
-         <br/><b>This will make your song book much bigger so online synchronisation will be slower.</b>
-         <br/><b></b>
-       </div>
-       <hr style={{margin:'1em'}}  />
+         <hr style={{margin:'1em'}}  />
         <div>
          <label>Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
          <br/><b>The software will speak the title before playing the tune.</b>
          <br/><b></b>
        </div>
-    </div>
+     </div>
 }
+
+
+      //<Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
+       
+       //<div>
+         //<label>Pre Render Audio ?<input type="checkbox" onChange={clickPreRenderAudio} checked={preRenderAudioCheckbox} /></label>
+         //<br/><b>This may cause the user interface to freeze temporarily without warning!</b>
+       //</div>
+       //<hr style={{margin:'1em'}}  />
+       //<div>
+         //<label>Enable Merge Warnings ?<input type="checkbox" onChange={clickEnableMergeWarnings} checked={mergeWarningsCheckbox} /></label>
+         //<br/><b></b>
+       //</div>
+       //<hr style={{margin:'1em'}}  />
+       //<div>
+         //<label>Enable Inline Audio ?<input type="checkbox" onChange={clickEnableInlineAudio} checked={inlineAudioCheckbox} /></label>
+         //<br/><b>This will make your song book much bigger so online synchronisation will be slower.</b>
+         //<br/><b></b>
+       //</div>
+     
+
+
 //<Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={function() {if (window.confirm("Do you really want to clear your review list?")) {tunebook.clearBoost()} }} >Clear Review Progress</Button><br/>

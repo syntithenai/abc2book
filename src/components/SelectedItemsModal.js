@@ -220,6 +220,7 @@ export default function SelectedItemsModal(props) {
   function clickDownload() {
       var sel = props.tunebook.fromSelection(props.selected)
       props.tunebook.utils.download('selected.abc',props.tunebook.abcTools.tunesToAbc(sel)) 
+      handleClose()
   }
   
   //function fillMediaPlaylist() {

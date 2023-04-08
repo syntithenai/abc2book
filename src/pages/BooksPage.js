@@ -4,13 +4,14 @@ import MusicLayout from '../components/MusicLayout'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
 import FeaturedTune from '../components/FeaturedTune'
 //import curated from '../CuratedTuneBooks'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useRef} from 'react'
 import AddSongModal from '../components/AddSongModal'
 import ImportOptionsModal from '../components/ImportOptionsModal'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
+import MediaPlayer from '../components/MediaPlayer'
 //import Accordion from 'react-bootstrap/Accordion';
 import {useNavigate} from 'react-router-dom'
-//import VennDiagram from '../components/VennDiagram'
+import VennDiagram from '../components/VennDiagram'
 
 export default function BooksPage(props) {
     const navigate = useNavigate()
@@ -58,6 +59,7 @@ export default function BooksPage(props) {
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+                    <Link style={{marginLeft:'1em'}} to="/tunes"><Button variant="info" >{props.tunebook.icons.search}</Button></Link>
                 </div>
                 <div style={{textAlign:'right',  padding:'0.2em'}} id="tunebookbuttons" >
                     <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
@@ -98,9 +100,9 @@ export default function BooksPage(props) {
                                 &nbsp;
                                 
                                 <Button onClick={function() {
-                                    //props.setTagFilter([option]);
-                                    //props.setCurrentTuneBook(''); 
-                                    //props.setFilter(''); 
+                                    props.setTagFilter([option]);
+                                    props.setCurrentTuneBook(''); 
+                                    props.setFilter(''); 
                                     props.tunebook.fillMediaPlaylist('','',option);
                                     navigate("/tunes")
                                 }} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>

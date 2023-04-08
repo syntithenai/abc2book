@@ -20,9 +20,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //indexes.indexTune(tune)
     //dbTunes[tune.id] = tune
   //})
-     
-  function navigateToNextSong(currentSongId, navigate) {
-        //console.log("NEXT", mediaPlaylist, abcPlaylist)
+  var navTimeout = null
+  function navigateToNextSong(currentSongId,  navigate = function(a) {clearTimeout(navTimeout); navTimeout = setTimeout(function() {console.log("NAVTO",a); window.location = "#"+a},100)}) {
+        console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
     if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
         //console.log("NEXT abc")
         var newPL = abcPlaylist
@@ -83,15 +83,25 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
           //console.log("NEXT found ",found)
           if (found) {
             setCurrentTune(found)
-            navigate('/tunes/' + found)
+            var playUrl = ''
+            if (window.location.hash.indexOf('/playMidi') !== -1) {
+                playUrl = '/playMidi'
+            } else if (window.location.hash.indexOf('/playMedia') !== -1) {
+                playUrl = '/playMedia'
+            }
+            if (window.location.hash.indexOf('/editor/') !== -1) {
+                navigate('/editor/' + found)
+            } else {
+                navigate('/tunes/' + found + playUrl)
+            }
           }
         } 
         
     }
   }
   
-  function navigateToPreviousSong(currentSongId, navigate) {
-    //console.log("PREV")
+  function navigateToPreviousSong(currentSongId, navigate = function(a) {window.location = a}) {
+    console.log("PREV")
     if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
         //console.log("NEXT")
         var newPL = abcPlaylist
@@ -147,10 +157,22 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
               }
               i++
           }
-          //console.log("PREV found ",found)
+          console.log("PREV found ",found)
           if (found) {
+            // save last seen tune since not click trigger
             setCurrentTune(found)
-            navigate('/tunes/' + found)
+            //console.log(window.location)
+            if (window.location.hash.indexOf('/editor/') !== -1) {
+                navigate('/editor/' + found)
+            } else {
+                var playUrl = ''
+                if (window.location.hash.indexOf('/playMidi') !== -1) {
+                    playUrl = '/playMidi'
+                } else if (window.location.hash.indexOf('/playMedia') !== -1) {
+                    playUrl = '/playMedia'
+                }
+                navigate('/tunes/' + found + playUrl)
+            }
           }
         }
         
@@ -1087,7 +1109,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     if (!useTunes) useTunes = tunes
     console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
-        return hasLinks(tune) && filterSearch(tune, filter, bookFilter, tagFilter)
+        return filterSearch(tune, filter, bookFilter, tagFilter)
     })
     console.log('from search res',res)
     res = shuffle(res)
@@ -1220,7 +1242,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
     }
 
-    function fillAbcPlaylist(book, selected, navigate) {
+    function fillAbcPlaylist(book, selected, tagFilter, navigate) {
+        console.log('fill abc',book, selected, navigate)
         var fillTunes = []
         var useBook = book
         var sel = []
@@ -1236,9 +1259,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             shuffleArray(fillTunes)
             useBook = 'Selection'
         } else {
-            fillTunes=fromBook(book)
+            fillTunes=mediaFromSearch('',book,tagFilter)  //fromBook(book)
             shuffleArray(fillTunes)
         }
+        console.log('fill abxz 1',fillTunes)
         fillTunes = fillTunes.sort(function(a,b) {
             return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
         })
@@ -1265,7 +1289,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         
         
         
-        //console.log('fill abxz',useBook, fillTunes)
+        console.log('fill abxz',useBook, fillTunes)
         setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
         setMediaPlaylist(null)
         if (fillTunes.length > 0 && fillTunes[0].id) {
@@ -1273,7 +1297,67 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         }
     }
     
+    function fillAnyPlaylist(book, selected, tagFilter, navigate) {
+        //console.log('fill any',book, selected, navigate)
+        var fillTunes = []
+        var useBook = book
+        var sel = []
+        var selectedMess = selected && selected.split ? selected.split(",") : []
+        selectedMess.forEach(function(val) {
+          if (val && val.trim().length > 0 ) sel.push(val)
+        })
+            
+        if (sel.length > 0) {
+            sel.forEach(function(tuneKey) {
+                if (tunes[tuneKey]) fillTunes.push(tunes[tuneKey])
+            })
+            shuffleArray(fillTunes)
+            useBook = 'Selection'
+        } else {
+            fillTunes=mediaFromSearch('',book,tagFilter)  //fromBook(book)
+            shuffleArray(fillTunes)
+        }
+        //console.log('fill abxz 1',fillTunes)
+        fillTunes = fillTunes.sort(function(a,b) {
+            return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+        })
+        fillTunes = fillTunes.filter(function(tune) {
+            //var hasNotes = false
+            //if (tune.voices) {
+                //Object.values(tune.voices).forEach(function(voice) {
+                    //if (Array.isArray(voice.notes)) {
+                        //for (var i=0 ; i < voice.notes.length; i++) {
+                            //if (voice.notes[i]) {
+                               //if (voice.notes[i].replaceAll('z','').replaceAll('|','').split('"').filter(function(a,ak) { 
+                                   //return (ak %2 ==0)
+                                //}).join('').trim().length > 0  ) {
+                                    //hasNotes = true
+                                //}
+                            //}
+                        //}
+                    //}
+                //})
+            //}  
+            //console.log(hasNotesOrChords(tune),  hasLinks(tune))
+            return hasNotesOrChords(tune) || hasLinks(tune)
+        }).slice(0,30)
+        
+        
+        
+        
+        //console.log('fill any',useBook, fillTunes)
+        setMediaPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
+        setAbcPlaylist(null)
+        if (fillTunes.length > 0 && fillTunes[0].id) {
+            if (navigate) navigate("/tunes/"+fillTunes[0].id+"/playMedia") 
+        }
+    }
+    
+    function hasNotesOrChords(tune) {
+        return (tune && (hasNotes(tune) || abcTools.hasChords(abcTools.getNotes(tune)))) ? true : false
+    }
+    
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes  };
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords };
 }
 export default useTuneBook

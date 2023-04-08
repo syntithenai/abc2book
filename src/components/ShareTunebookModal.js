@@ -25,7 +25,8 @@ export default function ShareTunebookModal({tunebook, token,googleDocumentId, ti
     if (!buttonSize) style.fontSize = '1.42em'
     style.marginLeft = '0.1em'
   }
-  
+  // disabled
+  return null
   return (
     <>{token ? <>
       <Button variant={variant ? variant : (tiny ? "info" : "info")} size={tiny ? "large" : ""}  style={style} onClick={function() {

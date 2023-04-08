@@ -36,15 +36,17 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
       } else {
           if (token) {
               // load document 
-              //console.log('ldd DO',params.googleDocumentId)
-              docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
-                  //console.log('ldd',fullSheet)
+              console.log('ldd DO',params.googleDocumentId)
+              docs.exportDocument(params.googleDocumentId).then(function(fullSheet) {
+                  console.log('ldd',fullSheet)
                   if (fullSheet) {
                       tunebook.importAbc(fullSheet,null,params.tuneId,params.bookName)
                       navigate("/tunes")
                   } else {
                       setError("Unable to load import source")
                   }
+              }).catch(function(e) {
+                console.log(e)  
               })
             }
       }

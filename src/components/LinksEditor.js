@@ -6,7 +6,7 @@ import {Link , useParams , useNavigate} from 'react-router-dom'
 
 export default function LinksEditor(props) {
     const navigate = useNavigate()
-    const [isPlayingLink, setIsPlayingLink] = useState(null)
+    //const [isPlayingLink, setIsPlayingLink] = useState(null)
     const audioPlayer = useRef(); 
     const [showMedia, setShowMedia] = useState(false)
     const [mediaLoading, setMediaLoading] = useState(false)
@@ -114,22 +114,7 @@ export default function LinksEditor(props) {
         </div>
         <Form >
             <div style={{clear:'both'}}>
-                {(isPlayingLink !== null && Array.isArray(props.links) && props.links[isPlayingLink]) ? <>
-                    <>{!isYoutubeLink(props.links[isPlayingLink].link) ? <audio  ref={audioPlayer} onCanPlay={function(event) {  }} width="1px" height="1px" autoPlay={true} >
-                    <source src={props.links[isPlayingLink].link} type="video/ogg" />
-                    Your browser does not support the video tag.
-                    </audio> : <div style={{clear:'both'}} >
-                    
-                    <YouTube videoId={getYouTubeId(props.links[isPlayingLink].link)} opts={{
-                      height: '1px',
-                      width: '1px',
-                      playerVars: {
-                        loop : 1,
-                        controls: 0,
-                      },
-                    }} onReady={function(event) {setYTMediaPlayer(event.target);  event.target.playVideo()}} /> 
-                    </div>}</>
-                </>:''}
+               
             
             {Array.isArray(props.links) && props.links.map(function(link,lk) {
                 return <div key={lk} style={{marginTop:'0.3em', backgroundColor:'lightgrey', border:'1px solid black', padding:'0.3em'}} >
@@ -233,4 +218,24 @@ export default function LinksEditor(props) {
     </div>
   );
 }
+
+  
+                        
+
 //  
+ //{(isPlayingLink !== null && Array.isArray(props.links) && props.links[isPlayingLink]) ? <>
+                    //<>{!isYoutubeLink(props.links[isPlayingLink].link) ? <audio  ref={audioPlayer} onCanPlay={function(event) {  }} width="1px" height="1px" autoPlay={true} >
+                    //<source src={props.links[isPlayingLink].link} type="video/ogg" />
+                    //Your browser does not support the video tag.
+                    //</audio> : <div style={{clear:'both'}} >
+                    
+                    //<YouTube videoId={getYouTubeId(props.links[isPlayingLink].link)} opts={{
+                      //height: '1px',
+                      //width: '1px',
+                      //playerVars: {
+                        //loop : 1,
+                        //controls: 0,
+                      //},
+                    //}} onReady={function(event) {setYTMediaPlayer(event.target);  event.target.playVideo()}} /> 
+                    //</div>}</>
+                //</>:''}

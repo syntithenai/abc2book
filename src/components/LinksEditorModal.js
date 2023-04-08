@@ -17,27 +17,27 @@ export default function LinksEditorModal(props) {
       setShow(true);
   }
   
-  useEffect(function() {
-      console.log('tune change a', props.tune , props.tune ?  props.tune.name + JSON.stringify(props.tune.links) : 'notune')
-      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
-  },[props.tune])
+  //useEffect(function() {
+      ////console.log('tune change a', props.tune , props.tune ?  props.tune.name + JSON.stringify(props.tune.links) : 'notune')
+      //setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  //},[props.tune])
 
-  useEffect(function() {
-      console.log('tune change b', props.tune , props.tune ?  props.tune.name +  JSON.stringify(props.tune.links) : 'notune')
-      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
-  },[JSON.stringify(props.tune.links)])
+  //useEffect(function() {
+      ////console.log('tune change b', props.tune , props.tune ?  props.tune.name +  JSON.stringify(props.tune.links) : 'notune')
+      //setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+  //},[JSON.stringify(props.tune.links)])
 
     useEffect(function() {
-        console.log('tune change boot',props.tune ,  props.tune ?  props.tune.name +  JSON.stringify(props.tune.links): 'notune')
+        //console.log('tune change boot',props.tune ,  props.tune ?  props.tune.name +  JSON.stringify(props.tune.links): 'notune')
       setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
   },[props.tune])
 
   return (
     <>
         
-      <Button variant="danger"   onClick={function() {
+      <Button style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="danger"   onClick={function() {
           handleShow()
-        }}>{icon ==="media" ?  tunebook.icons.link : tunebook.icons.dropdown}</Button>
+        }}><span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}}>{tunebook.icons.link} </span><Badge size="sm" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{JSON.parse(links).length}</Badge></Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -45,7 +45,7 @@ export default function LinksEditorModal(props) {
         </Modal.Header>
         <Modal.Body>
             <div  >
-                <LinksEditor onChange={function(links) {
+                <LinksEditor mediaController={props.mediaController} onChange={function(links) {
                         setLinks(JSON.stringify(links))
                     }}  tunebook={tunebook} links={JSON.parse(links)} tune={tune} handleClose={handleClose} />
             </div>

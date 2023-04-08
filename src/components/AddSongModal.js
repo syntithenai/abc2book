@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup, Form, Row, Col} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {Fraction} from '../Fraction'
@@ -6,6 +6,7 @@ import {useNavigate} from 'react-router-dom'
 import YouTubeSearchModal from './YouTubeSearchModal'    
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import CreatableSelect from 'react-select/creatable';
+import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
 import TagsSelectorModal from './TagsSelectorModal'
 import Abc from './Abc'
@@ -35,7 +36,21 @@ function AddSongModal(props) {
   const [settings, setSettings] = useState(null)
   const [scores, setScores] = useState({}) 
   
-  
+  const [artistOptions, setArtistOptions] = useState([])
+  var artistLoadTimeout = useRef()
+  useEffect(function() {
+      //console.log("COMPOSER CHANGE", songComposer)
+      if (songComposer) {
+          clearTimeout(artistLoadTimeout.current)
+          artistLoadTimeout.current = setTimeout(function() {
+              //console.log("load artists "+songComposer)
+              musicBrainz.artistOptions(songComposer).then(function(o) {
+                  //console.log("loaded artists "+songComposer, o)
+                setArtistOptions(o.map(function(v) {return v.label}))
+              })
+          },500)
+      }
+  },[songComposer])  
   
   
   useEffect(function() {
@@ -84,7 +99,10 @@ function AddSongModal(props) {
       clearForm()
       if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
   }
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+      setShow(true);
+      clearForm()
+  }
   const boostUp = () => {}
   const boostDown = () => {}
   
@@ -221,10 +239,16 @@ function AddSongModal(props) {
         handleClose() 
   }
   
-  function addTuneToBook(tune, book) {
+  function addTuneToBook(tune, book, tags) {
     var books = Array.isArray(tune.books) ? tune.books : []
-    books.push(book.toLowerCase())
+    if (book && book.trim().length > 0) books.push(book.toLowerCase())
     tune.books = [...new Set(books)]
+    if (Array.isArray(tags)) {
+        tune.tags = Array.isArray(tune.tags) ? tune.tags : []
+        tags.forEach(function(tag) {
+          tune.tags.push(tag)  
+        })
+    }
     props.tunebook.saveTune(tune); 
     props.setFilter('') ; 
     setSongTitle('')
@@ -321,7 +345,8 @@ function AddSongModal(props) {
   
   
   function clearForm() {
-      setSongTags([])
+      //console.log('clear')
+      setSongTags(Array.isArray(props.tagFilter) ? props.tagFilter : [])
       setSongRhythm('')
       setSongMeter('')
       setSongWords('')
@@ -409,7 +434,7 @@ function AddSongModal(props) {
            
         </Modal.Body>
         <hr/>
-        <Modal.Body > 
+        {(props.currentTuneBook ? true : false) && <Modal.Body > 
             <div style={{marginLeft:'0.3em'}} >
                
            
@@ -420,22 +445,12 @@ function AddSongModal(props) {
            
            <Form.Group className="mb-3" controlId="composer">
                 <Form.Label>Artist </Form.Label>
-                <AsyncCreatableSelect
-                         
-                            value={songComposer ? {value:songComposerId, label:songComposer} : {value:'', label:''}}
-                            onChange={function(val,type) {setSongComposerId(val.value); setSongComposer(val.label)  }}
-                            defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
-                            isClearable={false}
-                            blurInputOnSelect={true}
-                            createOptionPosition={"first"}
-                            allowCreateWhileLoading={true}
-                            styles={{
-                                control: (baseStyles, state) => ({
-                                  ...baseStyles,
-                                  minWidth: '400px',
-                                }),
-                            }}
-                          />
+                <SelectInput 
+                        onChange={function(val) { setSongComposer(val);setSongComposerId(val); }} 
+                        value={songComposer ? songComposer : ''}  
+                        options={artistOptions} 
+                      />  
+               
             </Form.Group>
            
           <Form.Group className="mb-3" controlId="title">
@@ -444,11 +459,12 @@ function AddSongModal(props) {
           </Form.Group>
           {!forceNewTune && <>
                <ListGroup >
-                  <ListGroup.Item variant="success"  onClick={function() {clearForm(); setForceNewTune(true)}}>
+                  <ListGroup.Item variant="success"  onClick={function() {setForceNewTune(true)}}>
                         New Tune
                   </ListGroup.Item>
+                  {matchingTunes.length > 0 && <ListGroup.Item key={'space1'}  variant="secondary"  onClick={function() {}} ><b>From Your Tunebook</b></ListGroup.Item>}
                   {matchingTunes.map(function(tune,tk) {
-                      return <ListGroup.Item key={tk} disabled={props.currentTuneBook ? false : true} variant="primary" action onClick={function() {addTuneToBook(tune,props.currentTuneBook)}}>
+                      return <ListGroup.Item key={tk}  disabled={(props.currentTuneBook || Array.isArray(songTags) && songTags.length > 0)? false : true} variant="primary" action onClick={function() {addTuneToBook(tune,props.currentTuneBook,songTags)}}>
                         {tune.name}
                       </ListGroup.Item>
                   })}
@@ -456,6 +472,7 @@ function AddSongModal(props) {
           </>}
           {!forceNewTune && <>
                <ListGroup >
+                    {worksOptions.length > 0 && <ListGroup.Item key={'space1'}  variant="secondary"  onClick={function() {}} ><b>By Artist</b></ListGroup.Item>}
                   {worksOptions.filter(function(work) {
                         if (!songTitle) return true
                         if (work && work.label && work.label.toLowerCase().indexOf(songTitle.toLowerCase()) !== -1) {
@@ -465,24 +482,27 @@ function AddSongModal(props) {
                       }).sort(function(a,b) {
                           return (a && b && a.label < b.label) ? -1 : 1
                       }).map(function(work,tk) {
-                      return <ListGroup.Item key={tk} disabled={props.currentTuneBook ? false : true} variant="info"  onClick={function() {
+                          var label = work && work.label ? work.label.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ') : ''
+                      return <ListGroup.Item key={tk} disabled={(props.currentTuneBook || Array.isArray(songTags) && songTags.length > 0)? false : true} variant="info"  onClick={function() {
                         //addTuneToBook({name:work.label, composer: songComposer, tags: songTags,books :(props.currentTuneBook ? [props.currentTuneBook] : []) , notes:[] , voices:{} ,words: [] ,links: []},props.currentTuneBook); return false  
                           setForceNewTune(true)
-                          setSongTitle(work.label)
+                          setSongTitle(label)
                           props.forceRefresh()
                         } }>
-                        {work.label}
+                        {label}
                       </ListGroup.Item>
                   })}
                 </ListGroup>
           </>}
           {!forceNewTune && <>
                <ListGroup >
+                    {indexMatches.length > 0 && <ListGroup.Item key={'space1'}  variant="secondary"  onClick={function() {}} ><b>From ABC Library</b></ListGroup.Item>}
                     {indexMatches.map(function(work,tk) {
-                      return <ListGroup.Item key={tk} style={scores[tk] === true ? {borderTop:'3px solid black'} : {}}  disabled={props.currentTuneBook ? false : true} variant="outline-info"  onClick={function() {
+                       var label = work && work.name ? work.name.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ') : ''
+                      return <ListGroup.Item key={tk} style={scores[tk] === true ? {borderTop:'3px solid black'} : {}}  disabled={(props.currentTuneBook || Array.isArray(songTags) && songTags.length > 0)? false : true} variant="outline-info"  onClick={function() {
                         //addTuneToBook({name:work.label, composer: songComposer, tags: songTags,books :(props.currentTuneBook ? [props.currentTuneBook] : []) , notes:[] , voices:{} ,words: [] ,links: []},props.currentTuneBook); return false  
                           setForceNewTune(true)
-                          setSongTitle(work.name)
+                          setSongTitle(label)
                           props.loadTuneTexts(work.ids).then(function(texts) {
                               setSettings(texts)
                                 props.forceRefresh()
@@ -490,7 +510,7 @@ function AddSongModal(props) {
                            //setSettings()
                            
                         } }>
-                        {work.name}
+                        {label}
                       </ListGroup.Item>
                   })}
                 </ListGroup>
@@ -573,7 +593,7 @@ function AddSongModal(props) {
             </>}
             </Form>
             </div>
-        </Modal.Body></>}
+        </Modal.Body>}</>}
         
       </Modal>
     </>

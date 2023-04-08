@@ -30,8 +30,8 @@ function useMusicBrainz() {
             if (artistId) {
                 //clearTimeout(searchTimeout)
                 //searchTimeout = setTimeout(function() {
-                  axios.get('https://musicbrainz.org/ws/2/work?artist=' + artistId + '&limit='+chunkSize+'&fmt=json', axiosOptions).then(function(results) {
-                      //console.log('MB SEARCH ARTIST works init result ',results )
+                  axios.get('https://musicbrainz.org/ws/2/work?query=' + artistId + '&limit='+chunkSize+'&fmt=json', axiosOptions).then(function(results) {
+                      console.log('MB SEARCH ARTIST works init result ',results )
                       if (results && results.data && Array.isArray(results.data.works) && results.data['work-count'] > 0) {
                           if (results.data.works.length < results.data['work-count']) {
                               //console.log('MB SEARCH ARTIST works parital result ',artistId,results )
@@ -44,7 +44,7 @@ function useMusicBrainz() {
                                   function aa(i) {
                                       promises.push(new Promise(function(resolve,reject) {
                                           setTimeout(function() {
-                                              axios.get('https://musicbrainz.org/ws/2/work?artist=' + artistId + '&limit='+chunkSize+'&fmt=json&offset=' + i, axiosOptions).then(function(res) {
+                                              axios.get('https://musicbrainz.org/ws/2/work?query=' + artistId + '&limit='+chunkSize+'&fmt=json&offset=' + i, axiosOptions).then(function(res) {
                                                   resolve(res && res.data && Array.isArray(res.data.works) ? res.data.works : [])
                                                })
                                             },1000*i)

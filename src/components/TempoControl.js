@@ -11,8 +11,8 @@ export default function TempoControl(props) {
     const [started, setStarted] = useState(false)
     const [tempo, setTempo] = useState(props.value)
     //const [show, setShow] = useState(false)
-    var options = {30:'Grave',42:'Lento', 47:'Largo', 60: 'Adagio', 67: 'Adagietto', 75: 'Andante', 91: 'Moderato', 104: 'Allegretto', 120: 'Allegro', 136:'Vivace', 170: 'Presto', 180:'Prestissimo'}
-    
+    //var options = {30:'Grave',42:'Lento', 47:'Largo', 60: 'Adagio', 67: 'Adagietto', 75: 'Andante', 91: 'Moderato', 104: 'Allegretto', 120: 'Allegro', 136:'Vivace', 170: 'Presto', 180:'Prestissimo'}
+    var options = {20:'Larghissimo',24:'Adagissimo',28:'Sostenuto',32:'Grave',40:'Largo',50:'Lento',60:'Larghetto',68:'Adagio',74:'Adagietto',80:'Andante',88:'Andantino',84:'Marcia Moderato',100:'Andante Moderato',112:'Moderato',116:'Allegretto',120:'Allegro Moderato',126:'Allegro',132:'Animato',140:'Agitato',148:'Veloce',156:'Mosso Vivo',164:'Vivace',172:'Vivacissimo',176:'Allegrissimo',184:'Presto',210:'Prestissimo'}
     //useEffect(function() {
       //return function cleanup() {
           //if (metronome.current) metronome.current.stop()

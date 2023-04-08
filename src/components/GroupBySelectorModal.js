@@ -17,7 +17,7 @@ function GroupBySelectorModal(props) {
           <Modal.Title>List Layout</Modal.Title>
           
         </Modal.Header>
-         {(Array.isArray(props.tunes) && props.tunes.length < props.LIST_PROTECTION_LIMIT/2) && <Modal.Body>
+         {((Array.isArray(props.tunes) && props.tunes.length < props.LIST_PROTECTION_LIMIT/2)) && <Modal.Body>
          
          <Form.Label>Show preview? </Form.Label>
          <Form.Check 

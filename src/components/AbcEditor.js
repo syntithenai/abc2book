@@ -11,8 +11,9 @@ import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import useAbcjsParser from '../useAbcjsParser'
-
+import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
+import MediaPlayerMedia from '../components/MediaPlayerMedia'
 
 
 export default function AbcEditor(props) {
@@ -34,16 +35,32 @@ export default function AbcEditor(props) {
   const textareaRef_8 = useRef(null);
   const textareaRef_9 = useRef(null);
   var refs = {textareaRef_0, textareaRef_1, textareaRef_2, textareaRef_3, textareaRef_4, textareaRef_5, textareaRef_6, textareaRef_7, textareaRef_8, textareaRef_9}
+  var tune = props.tune
   
   //var inputRefs = []
   const [warnings, setWarnings] = useState([])
   var [saveTimeout, setSaveTimeout] = useState(null)
   const [noteEditorWidth, setNoteEditorWidth] = useState(2)
   var [chordsChanged, setChordsChanged] = useState(false)
+  
+  const [artistOptions, setArtistOptions] = useState([])
+  var artistLoadTimeout = useRef()
+  useEffect(function() {
+      console.log("COMPOSER CHANGE", tune)
+      if (tune && tune.composer) {
+          clearTimeout(artistLoadTimeout.current)
+          artistLoadTimeout.current = setTimeout(function() {
+              console.log("load artists "+tune.composer)
+              musicBrainz.artistOptions(tune.composer).then(function(o) {
+                  console.log("loaded artists "+tune.composer, o)
+                setArtistOptions(o.map(function(v) {return v.label}))
+              })
+          },500)
+      }
+  },[(tune && tune.composer ? tune.composer : null)])
    
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
-  var tune = props.tune
   useEffect(() => {
     setAbcText(props.abc);
     //var tune = props.tunebook.abcTools.abc2json(props.abc)
@@ -57,7 +74,8 @@ export default function AbcEditor(props) {
     //return function() {
         //console.log('UNLOAD',chordsChanged)
     //}
-    
+    //props.mediaController.setTune(props.tune)
+    //props.mediaController.setSrc('')
   }, [props.abc]);
   
   
@@ -175,7 +193,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="musiceditor" title="Music">
                       <Row style={{width:'100%'}}>
                         <Col xs={12} md={6}>
-                          <Abc audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
+                          <Abc showRepeats={true} mediaController={props.mediaController} audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
                         </Col>
                         <Col xs={12} md={6}>
                           <Button style={{float:'left', marginRight:'0.2em'}}  variant="success" size="sm" onClick={addVoice} >+</Button>
@@ -203,18 +221,12 @@ export default function AbcEditor(props) {
                       
                       <Form.Group className="mb-3" controlId="composer">
                         <Form.Label>Artist</Form.Label>
-                        
-                      <AsyncCreatableSelect
-                            value={tune && tune.composer ? {value:tune.composer, label:tune.composer} : {value:'', label:''}}
-                            onChange={function(val) {if (val) {tune.composer = val.label; tune.id = params.tuneId; saveTune(tune)  }}}
-                            defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
-                            isClearable={false}
-                            blurInputOnSelect={true}
-                            createOptionPosition={"first"}
-                            allowCreateWhileLoading={true}
-                            loadingMessage ="Loading ..."
-                            controlShouldRenderValue={true}
-                          />
+                      <SelectInput 
+                        onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune)  }} 
+                        value={tune && tune.composer ? tune.composer : ''}  
+                        options={artistOptions} 
+                      />  
+                     
                       
                       </Form.Group>
 
@@ -272,7 +284,7 @@ export default function AbcEditor(props) {
                         <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
                       
-                      <Form.Group className="mb-3" controlId="tempo">
+                      <Form.Group className="mb-3" controlId="repeats">
                         <Form.Label>Repeats</Form.Label>
                         <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
                       </Form.Group>
@@ -355,7 +367,7 @@ export default function AbcEditor(props) {
                         </Form.Group>
                   </Tab>}
                   
-                  <Tab eventKey="audio" title="Audio" >
+                  <Tab eventKey="audio" title="Links" >
                         <Form.Group className="mb-3" controlId="audio">
                             <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
                             <LinksEditor links={tune.links} tune={tune} onChange={function(links) {tune.links = links; props.tunebook.saveTune(tune)}} tunebook={props.tunebook} />
@@ -388,6 +400,7 @@ export default function AbcEditor(props) {
                   </Tab>
                 
                 </Tabs> 
+                 <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} />
         </div>
     );
     

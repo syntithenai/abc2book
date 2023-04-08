@@ -17,7 +17,7 @@ export default function MusicEditor(props) {
     
     
       
-      
+    // prevent playlist redirects while editing  
     useEffect(function() {
       //pushHistory(tune)  
       props.setAbcPlaylist(null)
@@ -44,7 +44,7 @@ export default function MusicEditor(props) {
             
            
         </div>
-        <AbcEditor pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
+        <AbcEditor mediaController={props.mediaController} pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
         
     </div>
 }

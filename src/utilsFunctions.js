@@ -281,6 +281,15 @@ export default function utilsFunctions(props) {
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
             return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
     }
+    function isYoutubeLink(urlToParse){
+        if (urlToParse) {
+            var regExp = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+            if (urlToParse.match(regExp)) {
+                return true;
+            }
+        }
+        return false;
+    }
     
     /** 
      * Remove quoted("") sections from a string
@@ -310,6 +319,6 @@ export default function utilsFunctions(props) {
     }
      
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
     
 }

@@ -175,18 +175,18 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     }
  function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
-      //console.log('get public rec',id ,accessToken)
+      console.log('get public rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id ) {
         axios({
           method: 'get',
-          //https://drive.google.com/u/0/uc?id=1ob9DTfROfBzIzON2cnIceQtmynt14Gnl&export=download
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'/export?mimeType='+mimeType+'&nocache='+String(parseInt(Math.random()*1000000000))
+          url: 'https://drive.google.com/u/0/uc?id='+id+'&export=download',
+          //url: 'https://www.googleapis.com/drive/v3/files/'+id+'/export?mimeType='+mimeType+'&nocache='+String(parseInt(Math.random()*1000000000))
           //url: 'https://drive.google.com/file/d/'+id+'/view?usp=sharing',
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          //console.log("USE GOT public DOC",postRes)
+          console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -202,7 +202,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',id ,accessToken)
+      console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -210,7 +210,33 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log("USE GOT DOC",postRes)
+          console.log("USE GOT DOC",postRes)
+          resolve(postRes.data)
+          
+        }).catch(function(e) {
+          console.log(e)
+          //getToken()
+          //refresh()
+          resolve()
+        })
+      } else {
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        resolve()
+      }
+    })
+  }
+  
+  function exportDocument(id) {
+    return new Promise(function(resolve,reject) {
+      console.log('export rec',id ,accessToken)
+      //var useToken = accessToken ? accessToken : access_token
+      if (id && accessToken) {
+        axios({
+          method: 'get',
+          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          console.log("export GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -228,7 +254,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocumentBlob(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',id ,accessToken)
+      console.log('get g bloib',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -237,7 +263,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          //console.log("USE GOT DOC blob",postRes)
+          console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -255,7 +281,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocumentMeta(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec meta',id ,accessToken)
+      console.log('get rec meta',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -264,7 +290,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          //console.log(postRes)
+          console.log(postRes)
         }).catch(function(e) {
           //getToken()
           //refresh()
@@ -468,6 +494,6 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     })
   }
   
-  return {getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission}
+  return {getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
   
 }

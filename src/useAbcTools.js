@@ -378,7 +378,7 @@ var useAbcTools = () => {
         if (tune.voices && Object.keys(tune.voices).length > 0) {
             Object.keys(tune.voices).forEach(function(voice) {
                 if (Array.isArray(tune.voices[voice].notes)) {
-                    voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
+                    voicesAndNotes.push("V:"+voice+" "+ensureText(tune.voices[voice].meta,""))
                     tune.voices[voice].notes.forEach(function(noteLine) {
                         voicesAndNotes.push(noteLine)
                     })
@@ -418,10 +418,10 @@ var useAbcTools = () => {
         }
         //if (voicesAndNotes.length === 0) {
             //voicesAndNotes.push('V:default')
-            //voicesAndNotes.push('|')
+            //voicesAnd Notes.push('|')
         //}
         var otherHeaders = renderOtherHeaders(tune)
-       
+       //console.log('voicesAndNotes',voicesAndNotes)
         //console.log(otherHeaders)
         //console.log('voicesandnotes',tune.voices,voicesAndNotes)
         //console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
@@ -877,20 +877,24 @@ var useAbcTools = () => {
       return abc ? abc : ''
     }
     
-    function hasChords(abc) {
-      var chords = getInnerStrings(abc)
-      var haveChords = false;
-      // any match success
-      chords.map(function(chord,k) {
-          if (chord.indexOf('"') !== -1) {
-              haveChords = true;
-          }
-         //if (isChord(chord)) {
-            //haveChords = true;
-         //}
-      })
-      return haveChords
+    function hasChords(abcNotes) {
+        //console.log('haschords',abcNotes)
+        return (abcNotes && abcNotes.indexOf('"') !== -1)
     }
+      //var chords = getInnerStrings(abc)
+      //console.log('haschords',chords)
+      //var haveChords = false;
+      //// any match success
+      //chords.map(function(chord,k) {
+          //if (chord.indexOf('"') !== -1) {
+              //haveChords = true;
+          //}
+         ////if (isChord(chord)) {
+            ////haveChords = true;
+         ////}
+      //})
+      //return haveChords
+    //}
     
     function getInnerStrings(abc) {
         var s = []
@@ -1359,6 +1363,26 @@ var useAbcTools = () => {
     }
   }
   
+  function getNotes(tune) {
+      //console.log('getnotes',tune)
+      var voicesAndNotes=[]
+      if (tune) {
+        
+        if (tune.voices) {
+            Object.keys(tune.voices).forEach(function(voice) {
+                if (Array.isArray(tune.voices[voice].notes)) {
+                    //voicesAndNotes.push("V:"+voice+" "+tune.voices[voice].meta)
+                    tune.voices[voice].notes.forEach(function(noteLine) {
+                        voicesAndNotes.push(noteLine)
+                    })
+                }
+            })
+        }
+        return voicesAndNotes.join("\n")
+    }
+    return voicesAndNotes.join("\n")
+  }
+  
   function getTuneImportHash(tune) {
     if (tune) {
         var voicesAndNotes=[]
@@ -1428,6 +1452,6 @@ var useAbcTools = () => {
       
      
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, hasChords, getNotes}
 }
 export default useAbcTools;

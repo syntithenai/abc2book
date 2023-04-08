@@ -131,6 +131,7 @@ function LocalSearchSelectorModal(props) {
           {settings.map(function(setting, sk) {
             var tune = props.tunebook.abcTools.abc2json(setting)
             var useSetting = props.tunebook.abcTools.json2abc_cheatsheet(tune)
+            //console.log(useSetting,setting,tune)
             return <div key={sk} >
               <Button  style={{float:'right'}} onClick={function(e) {
                 if (window.confirm('Do you really want to replace this tune with information from the collection?')) {

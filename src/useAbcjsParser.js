@@ -159,7 +159,7 @@ export default function useAbcjsParser() {
                    symbols.forEach(function(symbol,symbolNumber) {
                        var originalString = abcString && abcString.length >= symbol.startChar && abcString.length > symbol.endChar ? abcString.slice(symbol.startChar,symbol.endChar + 1) : ''
                        var trailingSpace = originalString.endsWith(' ')
-                       if (symbol.el_type === 'note') {
+                       if (symbol && symbol.el_type === 'note') {
                             symbolsSinceLastBar++
                             var note = ''
                             if (symbol.pitches && symbol.pitches.length > 1 && symbol.duration > 0) {
@@ -206,7 +206,7 @@ export default function useAbcjsParser() {
                        }  else if (symbol.el_type === "keySignature")  {
                            var note = '[K:' + symbol.root + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
-                       }  else if (symbol.el_type === "timeSignature")  {
+                       }  else if (symbol && symbol.value && symbol.el_type === "timeSignature")  {
                            var note = '[M:' + symbol.value[0].num + "/" + symbol.value[0].den + "]" + (trailingSpace ? ' ' : '')
                            final.push({note: note, lineNumber: lineNumber})
                        }  else if (symbol.el_type === "part" && symbol.title && symbol.title.length > 0)  {
@@ -389,12 +389,12 @@ export default function useAbcjsParser() {
                     }
                 }) 
                 //console.log("LASTBAR",lineNumber)
-                if (lastSymbol.el_type == 'bar') {
+                if (lastSymbol && lastSymbol.el_type == 'bar') {
                     final.push("\n")
                     if (lastSymbol.type === 'bar_thin_thin') {
                        final.push("\n" )
                     }
-                } else if (lastSymbol.el_type !== 'bar') {
+                } else if (lastSymbol && lastSymbol.el_type !== 'bar') {
                     writeBar(barLayout)
                     final.push("\n")
                  
@@ -453,14 +453,15 @@ export default function useAbcjsParser() {
                     })
                   
                     result[lineNumber][bk] = newChords
-                  } else {
-                      result[lineNumber][bk] = {}
                   }
+                   //else {
+                      //result[lineNumber][bk] = {}
+                  //}
               })
             
             })
         }
-        //console.log('CHORDTEXT',result)
+        console.log('CHORDTEXT',result)
         return result
     }
     
@@ -510,7 +511,7 @@ export default function useAbcjsParser() {
                 }
             })
            
-            //console.log("BARIND",barIndex, chordLayout)    
+            console.log("BARIND",barIndex, chordLayout)    
             
             // ensure the correct number of lines
             var parsedLength = abc[0].lines.length
@@ -542,7 +543,7 @@ export default function useAbcjsParser() {
                         var restChord = chordLinesNotEmpty[parsedLength + i][k]
                         for (var j = 0; j< barSize; j++) {
                             var r = {rest: {type:'rest'}, el_type:'note', duration: noteLength}
-                            if (restChord[j]) r.chord = restChord[j].map(function(c) {return {name: c}})
+                            if (restChord && Array.isArray(restChord[j])) r.chord = restChord[j].map(function(c) {return {name: c}})
                             //console.log("RRRR",restChord,r)
                             restLine.push(r)
                         }

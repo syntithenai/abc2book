@@ -18,6 +18,8 @@ import abcjs from "abcjs";
 //import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
 import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
+import MediaSeekSlider from '../components/MediaSeekSlider'
+import MediaPlayerMedia from '../components/MediaPlayerMedia'
   //return (
     //<ReactTags
       //ref={reactTags}
@@ -32,7 +34,7 @@ export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
     const audioPlayer = useRef(); 
-    var youtubeProgressInterval = useRef()
+    //var youtubeProgressInterval = useRef()
     var speakTimeout = null
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
     //var {searchYouTube} = useYouTubeSearch()
@@ -47,31 +49,33 @@ export default function MusicSingle(props) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [autoStart, setAutoStart] = useState(false)
     const [hasSpoken, setHasSpoken] = useState(false)
-    const [zoomChords, setZoomChords] = useState(false)
     const [squashLyrics, setSquashLyrics] = useState(false)
+    
     //const [abc, setAbc] = useState('')
     let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
+    const [zoomChords, setZoomChords] = useState(!props.tunebook.hasLyrics(tune))
+    
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
         delta:300,
         trackMouse: false,    
       onSwipedRight: (eventData) => {
-          props.tunebook.navigateToPreviousSong(tune.id,navigate)
+          props.tunebook.navigateToPreviousSong(tune.id, navigate)
       },
       onSwipedLeft: (eventData) => {
-          props.tunebook.navigateToNextSong(tune.id,navigate)
+          props.tunebook.navigateToNextSong(tune.id, navigate)
       }
     });  
     
     
     
-    useEffect(function() {
-        if (!showMedia) {
-            //console.log('stop tom er')
-            clearInterval(youtubeProgressInterval.current)
-            youtubeProgressInterval.current = null
-        }
-    }, [showMedia])
+    //useEffect(function() {
+        //if (!showMedia) {
+            ////console.log('stop tom er')
+            //clearInterval(youtubeProgressInterval.current)
+            //youtubeProgressInterval.current = null
+        //}
+    //}, [showMedia])
     
     function getBeatsPerBar(meter) {
           switch (meter) {
@@ -105,10 +109,16 @@ export default function MusicSingle(props) {
     }
     
 
-    useEffect(function() {
-       let tune = props.tunes ? props.tunes[params.tuneId] : null
-       if (tune) {
-           if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
+    function setupTune() {
+        let tune = props.tunes ? props.tunes[params.tuneId] : null
+        setZoomChords(!props.tunebook.hasLyrics(tune))
+        //console.log('setuptune',tune)
+        if (tune) {
+           // just lyrics
+           if (!props.tunebook.hasNotesOrChords(tune))  {
+               props.setViewMode('chords')
+           // lyrics but no notes
+           } else if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
                props.setViewMode('chords')
            }
            // has music but no words
@@ -116,27 +126,59 @@ export default function MusicSingle(props) {
                props.setViewMode('music')
            }
            props.tunebook.utils.scrollTo('topofpage')
-           setMediaLinkNumber(params.mediaLinkNumber)
+           //setMediaLinkNumber(params.mediaLinkNumber)
            //console.log(params,tune.links)
-           if (params.playState === "playMedia") {
-                setAutoStart(false)
-                if (Array.isArray(tune.links) && tune.links.length > 0) {
-                    //setMediaLinkNumber(0)
-                    if (tune.links[0].startAt > 0) {
-                        setMediaProgress(tune.links[0].startAt) 
-                    } else {
-                        setMediaProgress(0)
-                    }
-                    setMediaLoading(true); 
-                    setShowMedia(true)
-                }
-           } else if (params.playState === "playMidi") {
-                setAutoStart(true)
-            } else {
-                setAutoStart(false)
-            }
+           //props.mediaController.setTune(tune)
+           //if (params.mediaLinkNumber > 0) props.mediaController.setSourceFromTune(params.mediaLinkNumber)
+           
+           //if (params.playState === "playMedia") {
+               //props.mediaController.play()
+                ////setAutoStart(false)
+                ////if (Array.isArray(tune.links) && tune.links.length > 0) {
+                    //////setMediaLinkNumber(0)
+                    ////if (tune.links[0].startAt > 0) {
+                        ////setMediaProgress(tune.links[0].startAt) 
+                    ////} else {
+                        ////setMediaProgress(0)
+                    ////}
+                    ////setMediaLoading(true); 
+                    ////setShowMedia(true)
+                ////}
+           //} else if (params.playState === "playMidi") {
+               ////console.log('playmidi')
+               //props.mediaController.setSrc('')
+               ////props.mediaController.ytPlayerRef.current = null
+               ////props.mediaController.playerRef.current = null
+                 ////props.mediaController.initMidi().then(function() {
+                     ////props.mediaController.setCurrentTime(0)
+                     //props.mediaController.play()
+                 ////})
+            //}
+             ////else {
+                ////props.mediaController.stop()
+            ////}
+             ////else {
+                ////setAutoStart(false)
+            ////}
+            //console.log('Set Tune',tune)
+            
+        } else {
+            //props.mediaController.setTune(null)
         }
-    },[params.tuneId, params.mediaLinkNumber, params.playState])
+    }
+
+    useEffect(function() {
+        setZoomChords(false)
+        setupTune()
+    },[params.tuneId,props.tunes])  //, params.mediaLinkNumber, params.playState
+
+    useEffect(function() {
+        setZoomChords(false)
+        setupTune()
+        //return function() {
+            //props.mediaController.setTune(null)
+        //}
+    },[])
 
     function getTempo() {
         // use page tempo that has been updated from tune
@@ -200,7 +242,7 @@ export default function MusicSingle(props) {
         
         // update state to next link or navigate to next tune where there is a currentMediaPlaylist
         function nextLinkOrTune() {
-            props.tunebook.navigateToNextSong(tune.id,navigate)
+            props.tunebook.navigateToNextSong(tune.id, navigate)
         }
         
         function onEnded(progress, start, stop,seek) {
@@ -232,8 +274,9 @@ export default function MusicSingle(props) {
                     console.log("Failed tranpose", e)
                 }
             }
+            var a = new Date().getTime()
             var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: "binary" });
-            
+            console.log(new Date().getTime() - a,"ms to render midi")
             //document.getElementById("midi-link").innerHTML = midi;
             if (midi) { 
                 var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
@@ -302,87 +345,51 @@ export default function MusicSingle(props) {
                 
                 <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
 
-  
+                <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                 <ButtonToolbar
                 
                     className=""
                   >
                   
-                  <span style={{float:'left', marginLeft:'0.1em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                     
                     
     
-                    {props.mediaPlaylist === null && <ButtonGroup style={{float:'left', marginLeft:'0.2em', maxWidth:'50px'}} >
+                    {props.mediaPlaylist === null && <span style={{float:'left', marginLeft:'0.2em'}} >
                         
-                        {/* Have at least one link, play button starts playing*/}
-                        {props.tunebook.hasLinks(tune) && <Button onClick={function() {setMediaProgress(0);  setMediaLoading(!showMedia); if (!showMedia) {navigate("/tunes/"+tune.id)} ; setShowMedia(!showMedia);  }} variant={"danger"} size="small" >{mediaLoading ? props.tunebook.icons.waiting : (showMedia ? props.tunebook.icons.stopsmall : props.tunebook.icons.play)}</Button>
-                        }
-                        {/* Have no link, play button triggers youtube search*/}
-                        {!(props.tunebook.hasLinks(tune)) && 
-                        <LinksEditorModal autoplay={true} icon="media" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} onChange={
+                        
+                        
+                        <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
                             function(links) { 
                                 if (tune) {
                                     tune.links = links
                                     props.tunebook.saveTune(tune)
-                                }
-                            }
-                        } /> 
-                        }
-                        
-                        {props.tunebook.hasLinks(tune) && <LinksEditorModal  forceRefresh={props.forceRefresh}tunebook={props.tunebook}  tune={tune}  onChange={
-                            function(links) { 
-                                if (tune) {
-                                    tune.links = links
-                                    props.tunebook.saveTune(tune)
+                                    //console.log("FR")
+                                    //props.forceRefresh()
                                 }
                             }    
-                        } />}
+                        } />
                         
-                    </ButtonGroup>}
+                         
+                 
+                        
+                    </span>}
                    
                   
                 </ButtonToolbar>
                 
-               
-                
-                            
-                  {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"--"+params.playState+"-"+useMediaLinkNumber} >
-                        <div style={{float: 'left', fontSize:'0.6em', position:'relative', top:'1.5em'}} >
-                            {(audioPlayer && audioPlayer.current && audioPlayer.current.currentTime && audioPlayer.current.duration) ? <b>{audioPlayer.current.currentTime.toFixed(2)}/{audioPlayer.current.duration.toFixed(2)}</b> : null}
-                            
-                            {(mediaProgress && ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.getDuration()  && ytMediaPlayer.seekTo) ? <b>{(mediaProgress * ytMediaPlayer.getDuration()).toFixed(2)}/{ytMediaPlayer.getDuration().toFixed(2)}</b> : null}
-                        </div>
-                        
-                        <input style={{width:'100%',height:'40px', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
-                                        setMediaProgress(e.target.value); 
-                                            
-                                        try {
-                                            //console.log(e.target.value); 
-                                            if (ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.seekTo) {
-                                                ytMediaPlayer.seekTo(parseFloat(e.target.value * ytMediaPlayer.getDuration()).toFixed(2)) 
-                                            };
-                                        } catch (e) {
-                                            console.log(e)
-                                        }
-                                        if (audioPlayer && audioPlayer.current) {
-                                            audioPlayer.current.currentTime = parseFloat(e.target.value * audioPlayer.current.duration ).toFixed(2)
-                                        }
-                                    
-                                    }}  />
-                    </div>}
-                     
-              
             </div>
             
-           
+             <MediaSeekSlider  mediaController={props.mediaController} />
+          
            
              {props.viewMode === 'chords' && <>
                 {!zoomChords && <div style={{border:'1px solid black'}}>
-                     <div className="title" style={{ marginTop:'2.5em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
+                     <div className="title" style={{ marginTop:'0.25em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
+                        {Object.keys(words).length > 0  && <Button style={{marginRight:'1em'}}  onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
                         <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
-                     <Button onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>
+                     
                      {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
@@ -395,13 +402,19 @@ export default function MusicSingle(props) {
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >
                                     <div  className="lyrics-line" >{words[key][0]}</div>
+                                    {words[key].length > 1 && <div  className="lyrics-line-first words" >{words[key].slice(1).map(function(line,lk) {
+                                            var parts = line.trim().split(' ')
+                                            return <span>{parts[0]} {parts[1]}...</span>
+                                        })}
+                                    </div>}
+                                    
                              </div>
                         })}
                         
                      </div>}
                 </div>  }
       
-                 <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                 {(Object.keys(uniqueChords).length > 0) && <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
                     {!(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
                     {(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
                     <span>
@@ -411,19 +424,22 @@ export default function MusicSingle(props) {
                             return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                         })}
                         </span>
+                        {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >
-                        <pre style={{ border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
+                        <pre style={{ fontSize:(zoomChords === true ? '2.4em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
                         
                         
                         <br/><br/><br/>
                     </div>
-                 </div>
+                 </div>}
              </>}
+             
+             
              {<div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
                  <div id={"abccontainer-"+(autoStart?"Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
-                    {autoStart && <Abc speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
-                     {!autoStart && <Abc  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={(autoStart || localStorage.getItem('bookstorage_autoprime') === "true") ? true : false} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={(showMedia && Array.isArray(tune.links) && tune.links.length > 0) || props.mediaPlaylist !== null  } />}
+                    {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
                   </div>
              </div>}
              
@@ -433,140 +449,167 @@ export default function MusicSingle(props) {
                   })}
               </div>}
              
-          
-              {(!props.abcPlaylist && props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
-                    <ButtonGroup variant="danger">
-                        {(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {
-                            //console.log(audioPlayer)
-                                try {
-                                    if (audioPlayer && audioPlayer.current) audioPlayer.current.pause()
-                                    if (ytMediaPlayer) ytMediaPlayer.pauseVideo()
-                                } catch (e) {
-                                    console.log(e)
-                                }
-                                try {
-                                    setIsPlaying(false)
-                                } catch (e) {
-                                    console.log(e)
-                                }
-                            }} >{props.tunebook.icons.pause}</Button>}
-                        {(!mediaLoading && showMedia && !isPlaying) && <Button variant="success" onClick={function() {
-                                try {
-                                    if (audioPlayer && audioPlayer.current) audioPlayer.current.play()
-                                    if (ytMediaPlayer) ytMediaPlayer.playVideo()
-                                } catch (e) {
-                                    console.log(e)
-                                }
-                                try {
-                                    setIsPlaying(true)
-                                } catch (e) {
-                                    console.log(e)
-                                }
-                            }} >{props.tunebook.icons.play}</Button>}
-                        <Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
-                        
-                    </ButtonGroup>
-               </div>}
-              {(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
-                        {!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
-                            onCanPlay={function(event) { 
-                                setMediaLoading(false);
-                                var toSpeak = tune.name
-                                if (tune.composer) toSpeak += " by " + tune.composer
-                                var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
-                                if (speakTitle && !hasSpoken) window.speak(toSpeak)
-                                setHasSpoken(true)
-                                setIsPlaying(true)
-                                
-                                
-                            }} 
-                            width="1px" height="1px" autoPlay={"true"} 
-                            onEnded={function() {
-                                //console.log('ended a')
-                                // next link
-                                if (props.mediaPlaylist || props.abcPlaylist) {
-                                    nextLinkOrTune()
-                                }
-                            }}
-                            onError={function(e) {
-                                console.log('err media',e); 
-                                if (props.mediaPlaylist || props.abcPlaylist) {
-                                    nextLinkOrTune()
-                                }
-                            }} 
-                            onTimeUpdate={function(e) {
-                                setMediaProgress(e.target.currentTime/e.target.duration)
-                            }}
-                             >
-                                <source src={tune.links[useMediaLinkNumber].link} type="video/ogg" />
-                                Your browser does not support the video tag.
-                                </audio> : <div style={{clear:'both'}} >
-                                
-                                <YouTube videoId={getYouTubeId(tune.links[useMediaLinkNumber].link)} opts={{
-                                  width: '100%',
-                                  playerVars: {
-                                    loop : 1,
-                                    autoplay: 1,
-                                    controls: 0,
-                                    start: (tune.links[useMediaLinkNumber].startAt ? parseInt(tune.links[useMediaLinkNumber].startAt) : 0),
-                                    end: (tune.links[useMediaLinkNumber].endAt ? parseInt(tune.links[useMediaLinkNumber].endAt) : 0)
-                                  },
-                                }} 
-                                onEnd={function() {
-                                    //console.log('ty ended')
-                                    clearInterval(youtubeProgressInterval.current)
-                                    youtubeProgressInterval.current = null
-                                    if (props.mediaPlaylist || props.abcPlaylist) {
-                                        nextLinkOrTune()
-                                    }
-                                }} 
-                                onError={function(e) {
-                                    console.log('err yt',e)
-                                    clearInterval(youtubeProgressInterval.current)
-                                    youtubeProgressInterval.current = null
-                                    if (props.mediaPlaylist || props.abcPlaylist) {
-                                        nextLinkOrTune()
-                                    }
-                                }} 
-                                onReady={
-                                    function(event) {
-                                        setYTMediaPlayer(event.target); 
-                                        console.log('YTREDD')
-                                        var toSpeak = tune.name
-                                        if (tune.composer) toSpeak += " by " + tune.composer
-                                        var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
-            
-                                        if (speakTitle && !hasSpoken) window.speak(toSpeak)
-                                        setHasSpoken(true)
-                                        event.target.playVideo()
-                                        setIsPlaying(true)
-                                        
-                                    }    
-                                }
-                                onStateChange={
-                                    function(e) {
-                                        if (e.data === 1) {
-                                            setMediaLoading(false)
-                                            clearInterval(youtubeProgressInterval.current)
-                                            youtubeProgressInterval.current = setInterval(function() {
-                                                setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
-                                                //console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
-                                            }, 100)
-                                        }
-                                    }
-                                } 
-                                
-                                 /> 
-                                
-                            </div>
-                            
-                        }
-                        
-                   </div>}
+             <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook}  tune={tune} onEnded={onEnded} />
+             
              <div style={{display:'none'}} id="transpose_render"></div>
         </div>
     }
 }
+ //{(!props.abcPlaylist && props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
+                    //<ButtonGroup variant="danger">
+                        //{(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {
+                            ////console.log(audioPlayer)
+                                //try {
+                                    //if (audioPlayer && audioPlayer.current) audioPlayer.current.pause()
+                                    //if (ytMediaPlayer) ytMediaPlayer.pauseVideo()
+                                //} catch (e) {
+                                    //console.log(e)
+                                //}
+                                //try {
+                                    //setIsPlaying(false)
+                                //} catch (e) {
+                                    //console.log(e)
+                                //}
+                            //}} >{props.tunebook.icons.pause}</Button>}
+                        //{(!mediaLoading && showMedia && !isPlaying) && <Button variant="success" onClick={function() {
+                                //try {
+                                    //if (audioPlayer && audioPlayer.current) audioPlayer.current.play()
+                                    //if (ytMediaPlayer) ytMediaPlayer.playVideo()
+                                //} catch (e) {
+                                    //console.log(e)
+                                //}
+                                //try {
+                                    //setIsPlaying(true)
+                                //} catch (e) {
+                                    //console.log(e)
+                                //}
+                            //}} >{props.tunebook.icons.play}</Button>}
+                        //<Button variant="danger" size="xl"  onClick={function() {props.setMediaPlaylist(null); setShowMedia(false)}} >{mediaLoading ? props.tunebook.icons.waiting : props.tunebook.icons.stop} </Button>
+                        
+                    //</ButtonGroup>
+               //</div>}
+              //{(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"-"+params.playState+"-"+useMediaLinkNumber} >
+                        //{!isYoutubeLink(tune.links[useMediaLinkNumber].link) ? <audio  ref={audioPlayer} 
+                            //onCanPlay={function(event) { 
+                                //setMediaLoading(false);
+                                //var toSpeak = tune.name
+                                //if (tune.composer) toSpeak += " by " + tune.composer
+                                //var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
+                                //if (speakTitle && !hasSpoken) window.speak(toSpeak)
+                                //setHasSpoken(true)
+                                //setIsPlaying(true)
+                                
+                                
+                            //}} 
+                            //width="1px" height="1px" autoPlay={"true"} 
+                            //onEnded={function() {
+                                ////console.log('ended a')
+                                //// next link
+                                //if (props.mediaPlaylist || props.abcPlaylist) {
+                                    //nextLinkOrTune()
+                                //}
+                            //}}
+                            //onError={function(e) {
+                                //console.log('err media',e); 
+                                //if (props.mediaPlaylist || props.abcPlaylist) {
+                                    //nextLinkOrTune()
+                                //}
+                            //}} 
+                            //onTimeUpdate={function(e) {
+                                //setMediaProgress(e.target.currentTime/e.target.duration)
+                            //}}
+                             //>
+                                //<source src={tune.links[useMediaLinkNumber].link} type="video/ogg" />
+                                //Your browser does not support the video tag.
+                                //</audio> : <div style={{clear:'both'}} >
+                                
+                                //<YouTube videoId={getYouTubeId(tune.links[useMediaLinkNumber].link)} opts={{
+                                  //width: '100%',
+                                  //playerVars: {
+                                    //loop : 1,
+                                    //autoplay: 1,
+                                    //controls: 0,
+                                    //start: (tune.links[useMediaLinkNumber].startAt ? parseInt(tune.links[useMediaLinkNumber].startAt) : 0),
+                                    //end: (tune.links[useMediaLinkNumber].endAt ? parseInt(tune.links[useMediaLinkNumber].endAt) : 0)
+                                  //},
+                                //}} 
+                                //onEnd={function() {
+                                    ////console.log('ty ended')
+                                    //clearInterval(youtubeProgressInterval.current)
+                                    //youtubeProgressInterval.current = null
+                                    //if (props.mediaPlaylist || props.abcPlaylist) {
+                                        //nextLinkOrTune()
+                                    //}
+                                //}} 
+                                //onError={function(e) {
+                                    //console.log('err yt',e)
+                                    //clearInterval(youtubeProgressInterval.current)
+                                    //youtubeProgressInterval.current = null
+                                    //if (props.mediaPlaylist || props.abcPlaylist) {
+                                        //nextLinkOrTune()
+                                    //}
+                                //}} 
+                                //onReady={
+                                    //function(event) {
+                                        //setYTMediaPlayer(event.target); 
+                                        //console.log('YTREDD')
+                                        //var toSpeak = tune.name
+                                        //if (tune.composer) toSpeak += " by " + tune.composer
+                                        //var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
+            
+                                        //if (speakTitle && !hasSpoken) window.speak(toSpeak)
+                                        //setHasSpoken(true)
+                                        //event.target.playVideo()
+                                        //setIsPlaying(true)
+                                        
+                                    //}    
+                                //}
+                                //onStateChange={
+                                    //function(e) {
+                                        //if (e.data === 1) {
+                                            //setMediaLoading(false)
+                                            //clearInterval(youtubeProgressInterval.current)
+                                            //youtubeProgressInterval.current = setInterval(function() {
+                                                //setMediaProgress(e.target.getCurrentTime()/e.target.getDuration())
+                                                ////console.log('yt progress',e.target.getCurrentTime(),e.target.getDuration())
+                                            //}, 100)
+                                        //}
+                                    //}
+                                //} 
+                                
+                                 ///> 
+                                
+                            //</div>
+                            
+                        //}
+                        
+                   //</div>}
+//{(showMedia && Array.isArray(tune.links) && tune.links.length > useMediaLinkNumber && tune.links[useMediaLinkNumber]) && <div style={{  clear:'both',  width:'100%'}} key={tune.id+"--"+params.playState+"-"+useMediaLinkNumber} >
+                        
+                        
+                        //<div style={{float: 'left', fontSize:'0.6em', position:'relative', top:'1.5em'}} >
+                            //{(audioPlayer && audioPlayer.current && audioPlayer.current.currentTime && audioPlayer.current.duration) ? <b>{audioPlayer.current.currentTime.toFixed(2)}/{audioPlayer.current.duration.toFixed(2)}</b> : null}
+                            
+                            //{(mediaProgress && ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.getDuration()  && ytMediaPlayer.seekTo) ? <b>{(mediaProgress * ytMediaPlayer.getDuration()).toFixed(2)}/{ytMediaPlayer.getDuration().toFixed(2)}</b> : null}
+                        //</div>
+                        
+                        //<input style={{width:'100%',height:'40px', zIndex:9999999, marginTop:'1em'}} className="mediaprogressslider" type="range" min='0' max='1' step='0.0001' value={mediaProgress} onChange={function(e) {
+                                        //setMediaProgress(e.target.value); 
+                                            
+                                        //try {
+                                            ////console.log(e.target.value); 
+                                            //if (ytMediaPlayer && ytMediaPlayer.getDuration && ytMediaPlayer.seekTo) {
+                                                //ytMediaPlayer.seekTo(parseFloat(e.target.value * ytMediaPlayer.getDuration()).toFixed(2)) 
+                                            //};
+                                        //} catch (e) {
+                                            //console.log(e)
+                                        //}
+                                        //if (audioPlayer && audioPlayer.current) {
+                                            //audioPlayer.current.currentTime = parseFloat(e.target.value * audioPlayer.current.duration ).toFixed(2)
+                                        //}
+                                    
+                                    //}}  />
+                    //</div>}
 //<Badge>{props.mediaPlaylist && props.mediaPlaylist.currentTune > 0 ? parseInt(props.mediaPlaylist.currentTune) + 1 : 1}/{props.mediaPlaylist.tunes.length}</Badge>
  //<Button title="Print" className='btn-primary'  style={{float:'left'}} onClick={window.print} >{props.tunebook.icons.printer}</Button>
                 //<Button title="Download" className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save}</Button>
