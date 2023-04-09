@@ -38,7 +38,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
       } else {
           //if (token) {
               // load document 
-              //console.log('ldd DO',params.link, params)
+              console.log('ldd DO',params.link, params)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
                       //console.log("gotres",res.data.length)
@@ -47,7 +47,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                       if (!tunebook.showImportWarning(results)) {
                           //console.log("no show warning", autoplay , setMediaPlaylist)
                           tunebook.applyMergeData(results).then(function(mergedTunes) {
-                                //console.log('applied', mergedTunes)
+                                console.log('applied', mergedTunes)
                               if (autoplay && setMediaPlaylist && mergedTunes) {
                                     var tunes=[]
                                     //forceRefresh()
@@ -71,7 +71,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                                         params.bookName,
                                         (Array.isArray(results) ? results.map(function(result) {
                                             return result.id
-                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? params.tagName : []),mergedTunes) 
+                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? [params.tagName] : []),mergedTunes) 
                                     navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + '/playMedia' : ''))
                                     //setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
                                         //setClickToStart(true)

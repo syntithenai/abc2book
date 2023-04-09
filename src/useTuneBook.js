@@ -1091,10 +1091,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 } 
             }
             if (!Array.isArray(tagFilterClean) || tagFilterClean.length === 0) {
-                 //console.log('skip tag filt')
+                 console.log('skip tag filt')
                 tagFilterOk = true
             } else {
-                //console.log(' tag filt',tune.tags,tagFilter)
+                console.log(' tag filt',tune.tags,tagFilter)
                 if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
                     tagFilterClean.forEach(function(tag) {
@@ -1114,17 +1114,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null) {
     if (!useTunes) useTunes = tunes
-    //console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
+    console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
         return filterSearch(tune, filter, bookFilter, tagFilter)
     })
-    //console.log('from search res',res)
+    console.log('from search res',res)
     res = shuffle(res)
     return res
   }
   
   function mediaFromSelection(selection, mergedTunes) {
-    //console.log('m from sel',selection)
+    console.log('m from sel',selection)
     var final = []
     if (selection && selection.split) {
         var res = selection.split(",").forEach(function(tuneId) {
@@ -1174,7 +1174,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null) {
-        //console.log('fisll media',book, selectedIds, filterTags)
+        console.log('fisll media',book, selectedIds, filterTags)
         var fillTunes = []
         var selectedArray = selectedIds ? selectedIds.split(",").filter(function(v) {return (v ? true : false)}) : []
         if (selectedArray && selectedArray.length > 0) {
