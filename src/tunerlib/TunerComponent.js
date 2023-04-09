@@ -9,9 +9,9 @@ export default function TunerComponent(props) {
     var frequencyBars = useRef()
     var app = useRef()
     useEffect(function() {
-        console.log('tc eff',meter.current,notes.current,frequencyBars.current)
+        //console.log('tc eff',meter.current,notes.current,frequencyBars.current)
         if (meter.current && notes.current && frequencyBars.current) {
-            console.log('tc eff start',meter.current,notes.current,frequencyBars.current)
+            //console.log('tc eff start',meter.current,notes.current,frequencyBars.current)
             console.log(Application)
             app.current = new Application(meter.current,notes.current,frequencyBars.current)
         }

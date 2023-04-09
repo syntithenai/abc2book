@@ -1065,7 +1065,7 @@ MIDIFile.prototype.parseSong = function () {
 		beats: []
 	};
 	var events = this.getMidiEvents();
-	console.log(events);
+	//console.log(events);
 	for (var i = 0; i < events.length; i++) {
 		//console.log('		next',events[i]);
 		if (song.duration < events[i].playTime / 1000) {

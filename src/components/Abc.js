@@ -12,7 +12,7 @@ import RepeatsEditorModal from './RepeatsEditorModal'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
-        console.log("ABC END")
+        //console.log("ABC END")
         props.tunebook.navigateToNextSong(null,navigate)
     } }))
     var {metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying} = abcSynth
@@ -27,7 +27,7 @@ export default function Abc(props) {
         tune.tempo = tune.tempo > 0 ? tune.tempo * useWarp : 100 * useWarp
         //console.log("WARPED TEMPO", tune.tempo)
         //if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo ) {
-          console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,tune.tempo , lastTempo,props.boost ,lastBoost)
+          //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,tune.tempo , lastTempo,props.boost ,lastBoost)
           var abc = props.tunebook.abcTools.json2abc(tune)
           renderTune(abc)
           setSeekTo(0)
@@ -45,7 +45,7 @@ export default function Abc(props) {
         //}
         
         return function cleanup() {
-           console.log('ABC CLEANUP')
+           //console.log('ABC CLEANUP')
            resetAudioState()
         }
     }
@@ -125,7 +125,7 @@ export default function Abc(props) {
         var o = res && res.length > 0 ? res[0] : null
         setVisualObj(o)
                
-        console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
+        //console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             //if (props.onWarnings) props.onWarnings(o.warnings)
              ////&& (isPlayingRef.current || isPlaying)
@@ -135,7 +135,7 @@ export default function Abc(props) {
                //if (props.autoPrime)  setStarted(true)
                //var hash = tune.transpose  + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
                //if (props.autoPrime && hash !== audioChangedHash) {
-                console.log('RENDER TUNE AUDIODDD')
+                //console.log('RENDER TUNE AUDIODDD')
                 //setAudioChangedHash(hash)
                 setStarted(true)
                 //resetAudioState()

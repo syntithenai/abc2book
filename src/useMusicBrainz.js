@@ -31,7 +31,7 @@ function useMusicBrainz() {
                 //clearTimeout(searchTimeout)
                 //searchTimeout = setTimeout(function() {
                   axios.get('https://musicbrainz.org/ws/2/work?query=' + artistId + '&limit='+chunkSize+'&fmt=json', axiosOptions).then(function(results) {
-                      console.log('MB SEARCH ARTIST works init result ',results )
+                      //console.log('MB SEARCH ARTIST works init result ',results )
                       if (results && results.data && Array.isArray(results.data.works) && results.data['work-count'] > 0) {
                           if (results.data.works.length < results.data['work-count']) {
                               //console.log('MB SEARCH ARTIST works parital result ',artistId,results )

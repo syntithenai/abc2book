@@ -137,7 +137,7 @@ export default function MP3Converter(config) {
       for(var i=1; i < arguments.length;i++){
         opts.push(arguments[i]);
       }
-      console.log(tag, 'Starting conversion');
+      //console.log(tag, 'Starting conversion');
       var preferredConfig = {}, onSuccess, onProgress, onError;
       if (typeof opts[0] == 'object') {
           preferredConfig = opts.shift();
@@ -157,7 +157,7 @@ export default function MP3Converter(config) {
         startTime = Date.now();
 
       fileReader.onload = function (e) {
-        console.log(tag, "Passed to BG process",e.target.result,preferredConfig);
+        //console.log(tag, "Passed to BG process",e.target.result,preferredConfig);
         mp3Worker.postMessage({
           cmd: 'init',
           config: preferredConfig
@@ -168,14 +168,14 @@ export default function MP3Converter(config) {
 
         mp3Worker.onmessage = function (e) {
           if (e.data.cmd == 'end') {
-            console.log(tag, "Done converting to Mp3");
+            //console.log(tag, "Done converting to Mp3");
             var mp3Blob = new Blob(e.data.buf, {type: 'audio/mp3'});
-            console.log(tag, "Conversion completed in: " + ((Date.now() - startTime) / 1000) + 's');
+            //console.log(tag, "Conversion completed in: " + ((Date.now() - startTime) / 1000) + 's');
             var finalSize = mp3Blob.size;
-            console.log(tag +
-              "Initial size: = " + initialSize + ", " +
-              "Final size = " + finalSize
-              + ", Reduction: " + Number((100 * (initialSize - finalSize) / initialSize)).toPrecision(4) + "%");
+            //console.log(tag +
+              //"Initial size: = " + initialSize + ", " +
+              //"Final size = " + finalSize
+              //+ ", Reduction: " + Number((100 * (initialSize - finalSize) / initialSize)).toPrecision(4) + "%");
 
             busy = false;
 

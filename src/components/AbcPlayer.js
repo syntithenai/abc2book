@@ -20,13 +20,13 @@ export default function AbcPlayer(props) {
     //console.log(props.timing)
     
     function initMidi() {
-        console.log('init midi',playerRef.current, synth.current, isLoading.current)
+        //console.log('init midi',playerRef.current, synth.current, isLoading.current)
         return new Promise(function(resolve,reject) {
             if (!isLoading.current) { 
                 isLoading.current = true
         
                 if (props.abc) {
-                    console.log(props.abc)
+                    //console.log(props.abc)
                     var a = new Date().getTime()
                     var linkBase = process.env.NODE_ENV === "development" ? 'http://localhost:4000' : ''
                          
@@ -36,7 +36,7 @@ export default function AbcPlayer(props) {
                     
                     var myContext = new AudioContext();
                     var visualObj = abcjs.renderAbc(null, props.abc, {});
-                    console.log(visualObj)
+                    //console.log(visualObj)
                     var jsonAbc = props.tunebook.abcTools.abc2json(props.abc)
                     var tempo = jsonAbc.tempo > 20 ? jsonAbc.tempo : 100
                     var timingConfig = props.timing
@@ -45,7 +45,7 @@ export default function AbcPlayer(props) {
                     var s = new abcjs.synth.CreateSynth()
                     
                     if (abcjs.synth.supportsAudio()) {
-                      console.log('PRIMAUDIO support ok')
+                      //console.log('PRIMAUDIO support ok')
                       window.AudioContext = window.AudioContext ||
                         window.webkitAudioContext ||
                         navigator.mozAudioContext ||
@@ -58,14 +58,14 @@ export default function AbcPlayer(props) {
                           //options: {onEnded: props.onEnded}
                           
                       }).then(() => {
-                          console.log('init')
+                          //console.log('init')
                           s.prime().then((response) => {
                               synth.current = s
                               isLoading.current = false
                               if (props.onReady) props.onReady(s, timingCallbacks, audioContext, response)
                                
-                              console.log('primed')
-                              console.log(response.status)
+                              //console.log('primed')
+                              //console.log(response.status)
                               //synth.start()
                               resolve()
                           });

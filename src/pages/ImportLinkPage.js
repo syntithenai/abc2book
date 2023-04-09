@@ -67,14 +67,14 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                                         //tunes = tunebook.mediaFromBook(params.bookName, mergedTunes)
                                     //}
                                     
-                                    tunebook.fillMediaPlaylist(
+                                    var firstTuneId = tunebook.fillMediaPlaylist(
                                         params.bookName,
                                         (Array.isArray(results) ? results.map(function(result) {
                                             return result.id
-                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? params.tagName : [])) 
-                                    //navigate("/tunes")
+                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? params.tagName : []),mergedTunes) 
+                                    navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + '/playMedia' : ''))
                                     //setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
-                                    setClickToStart(true)
+                                        //setClickToStart(true)
                                     //}, 200)
                               } else {  
                                   setTagFilter([])

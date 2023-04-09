@@ -46,13 +46,13 @@ export default function AbcEditor(props) {
   const [artistOptions, setArtistOptions] = useState([])
   var artistLoadTimeout = useRef()
   useEffect(function() {
-      console.log("COMPOSER CHANGE", tune)
+      //console.log("COMPOSER CHANGE", tune)
       if (tune && tune.composer) {
           clearTimeout(artistLoadTimeout.current)
           artistLoadTimeout.current = setTimeout(function() {
-              console.log("load artists "+tune.composer)
+              //console.log("load artists "+tune.composer)
               musicBrainz.artistOptions(tune.composer).then(function(o) {
-                  console.log("loaded artists "+tune.composer, o)
+                  //console.log("loaded artists "+tune.composer, o)
                 setArtistOptions(o.map(function(v) {return v.label}))
               })
           },500)

@@ -64,7 +64,7 @@ export default function useTuneBookMediaController(props) {
     }
     
     function onAbcTimeUpdate(time) {
-        console.log('abcv time update',time)
+        //console.log('abcv time update',time)
         setCurrentTime(time) 
     }
   
@@ -78,7 +78,7 @@ export default function useTuneBookMediaController(props) {
             if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber) {
                 //console.log('onTimeUpdate have link', tune.links[mediaLinkNumber])
                 if (tune.links[mediaLinkNumber] && tune.links[mediaLinkNumber].endAt > 0 && ((tune.links[mediaLinkNumber].endAt) < playerRef.current.currentTime)) {
-                    console.log('foirce stop on timeupdate past end setting')
+                    //console.log('foirce stop on timeupdate past end setting')
                     if (isPlaying) stop()
                 }
             } 
@@ -108,7 +108,7 @@ export default function useTuneBookMediaController(props) {
     
     
     function onEnded() {
-        console.log('ENDED',props.onEnded)
+        //console.log('ENDED',props.onEnded)
         cleanupTimers()
         if (props.onEnded) {
             props.onEnded()
@@ -132,7 +132,7 @@ export default function useTuneBookMediaController(props) {
     
     
     function onMediaReady(e) {
-        console.log('media ready',e, playerRef.current)
+        //console.log('media ready',e, playerRef.current)
         cleanupTimers()
         //setIsPlaying(false)
         //if (isPlaying) {
@@ -227,14 +227,14 @@ export default function useTuneBookMediaController(props) {
 
     function play() { //useMediaLinkNumber=null, forceTune = null, playType='' ) {
         const useTune =  tune //(forceTune && forceTune.id) ? forceTune : tune
-        console.log("CONTROLLER play", useTune ,mediaLinkNumber,playerRef.current,ytPlayerRef.current )
+        //console.log("CONTROLLER play", useTune ,mediaLinkNumber,playerRef.current,ytPlayerRef.current )
         setIsPlaying(true)
         if (props.forceRefresh) props.forceRefresh()
         //forceMidiChange()
         const src = getSrc(useTune,mediaLinkNumber)
         const srcType = getSrcType(src)
         if (srcType === 'audio' && playerRef && playerRef.current) {
-            console.log('start audio')
+            //console.log('start audio')
             try {
                 playerRef.current.play()
             } catch (e) {
@@ -243,7 +243,7 @@ export default function useTuneBookMediaController(props) {
                 console.log(e)
             }
         } else if (srcType === 'youtube' && ytPlayerRef && ytPlayerRef.current) {
-            console.log('start yt',ytPlayerRef.current)
+            //console.log('start yt',ytPlayerRef.current)
             
             try {
                 ytPlayerRef.current.playVideo()
@@ -256,7 +256,7 @@ export default function useTuneBookMediaController(props) {
     }
     
     function pause() {
-        console.log("CONTROLLER pause", playerRef.current,ytPlayerRef.current)
+        //console.log("CONTROLLER pause", playerRef.current,ytPlayerRef.current)
         setIsPlaying(false)
         if (playerRef && playerRef.current) {
             playerRef.current.pause()
@@ -271,7 +271,7 @@ export default function useTuneBookMediaController(props) {
     }
 
     function stop() {
-        console.log("CONTROLLER stop", playerRef.current,ytPlayerRef.current)
+        //console.log("CONTROLLER stop", playerRef.current,ytPlayerRef.current)
         setIsPlaying(false)
         setCurrentTime(0)
         if (playerRef && playerRef.current) {
@@ -293,7 +293,7 @@ export default function useTuneBookMediaController(props) {
     }
 
     function seek(val) {
-        console.log("CONTROLLER seek",val, duration, playerRef.current,ytPlayerRef.current)
+        //console.log("CONTROLLER seek",val, duration, playerRef.current,ytPlayerRef.current)
         //console.log("CONTROLLER seek src ",duration,val,src,"||  ",srcType,"||||",tune,mediaLinkNumber)
 
         if (parseFloat(val) >= 0 && parseFloat(duration) > 0) {

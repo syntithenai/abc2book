@@ -78,7 +78,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     function handleCredentialResponse(response) {
       //console.log("handle CREDS")
       var decoded = jwt_decode(response.credential)
-      console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
+      //console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
       setUser({email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture})
       localStorage.setItem('google_login_user',decoded.email)
        //application/vnd.google-apps.spreadsheet
@@ -87,7 +87,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     } 
     
     function loadCurrentUser(accessToken) {
-        console.log('load current',accessToken)
+        //console.log('load current',accessToken)
         return new Promise(function(resolve,reject) {
           if (accessToken) { 
             var url = 'https://www.googleapis.com/oauth2/v3/userinfo?access_token='+accessToken.access_token
@@ -96,7 +96,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
               url: url,
               headers: {'Authorization': 'Bearer '+accessToken.access_token},
             }).then(function(postRes) {
-              console.log(postRes)
+              //console.log(postRes)
               resolve(postRes.data)
               
             }).catch(function(e) {
@@ -113,7 +113,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     //?access_token='+accessToken.access_token
     function loadUserImage(accessToken) {
-        console.log('load user image',accessToken, user)
+        //console.log('load user image',accessToken, user)
         return new Promise(function(resolve,reject) {
           if (accessToken && user && user.picture) { 
             var url = user.picture 
@@ -122,7 +122,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
               url: url,
               headers: {'Authorization': 'Bearer '+accessToken.access_token},
             }).then(function(postRes) {
-              console.log('load user image',postRes)
+              //console.log('load user image',postRes)
               resolve(postRes.data)
               
             }).catch(function(e) {
@@ -163,7 +163,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     
     useEffect(function() {
       loadCurrentUser(accessToken).then(function(user) {
-          console.log("loaded user",user)
+          //console.log("loaded user",user)
           setUser(user)
           
       })

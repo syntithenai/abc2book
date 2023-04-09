@@ -175,7 +175,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     }
  function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
-      console.log('get public rec',id ,accessToken)
+      //console.log('get public rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id ) {
         axios({
@@ -186,7 +186,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log("USE GOT public DOC",postRes)
+          //console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           //getToken()
@@ -202,7 +202,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get rec',id ,accessToken)
+      //console.log('get rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -210,7 +210,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log("USE GOT DOC",postRes)
+          //console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -228,7 +228,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function exportDocument(id) {
     return new Promise(function(resolve,reject) {
-      console.log('export rec',id ,accessToken)
+      //console.log('export rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -236,7 +236,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          console.log("export GOT DOC",postRes)
+          //console.log("export GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -254,7 +254,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocumentBlob(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get g bloib',id ,accessToken)
+      //console.log('get g bloib',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -263,7 +263,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          console.log("USE GOT DOC blob",postRes)
+          //console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -281,7 +281,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function getDocumentMeta(id) {
     return new Promise(function(resolve,reject) {
-      console.log('get rec meta',id ,accessToken)
+      //console.log('get rec meta',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (id && accessToken) {
         axios({
@@ -290,7 +290,7 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          console.log(postRes)
+          //console.log(postRes)
         }).catch(function(e) {
           //getToken()
           //refresh()

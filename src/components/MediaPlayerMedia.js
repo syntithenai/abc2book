@@ -19,37 +19,37 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     
     function handleChange(useMediaLinkNumber) {
         var hasLinks = tune  && Array.isArray(tune.links)  && tune.links.length > 0 ? true : false
-        console.log("MEDIA PLAYER CHANGE",params.playState, useMediaLinkNumber, hasLinks, tunebook.hasNotesOrChords(tune))
+        //console.log("MEDIA PLAYER CHANGE",params.playState, useMediaLinkNumber, hasLinks, tunebook.hasNotesOrChords(tune))
         
         if (params.playState === 'playMidi' || useMediaLinkNumber === null) {
             if (tunebook.hasNotesOrChords(tune)) {
-                console.log("OK PLAY MIDI")
+                //console.log("OK PLAY MIDI")
                 setSrc('')
                 mediaController.setMediaLinkNumber(null)
             } else {
                 if (hasLinks) {
-                    console.log("ABC FALLBACK TO MEDIA")
+                    //console.log("ABC FALLBACK TO MEDIA")
                     var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
                     mediaController.setMediaLinkNumber(useMediaLinkNumber)
                     setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
                 } else {
-                    console.log("NO PLAY OPTION")
+                    //console.log("NO PLAY OPTION")
                     setSrc(null)
                     mediaController.setMediaLinkNumber(null)
                 }
             }
         } else if (hasLinks) {
             var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
-            console.log("OK PLAY MEDIA", mediaController.getSrc(tune, useMediaLinkNumber))
+            //console.log("OK PLAY MEDIA", mediaController.getSrc(tune, useMediaLinkNumber))
             mediaController.setMediaLinkNumber(useMediaLinkNumber)
             setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
         } else {
             if (tunebook.hasNotesOrChords(tune))  {
-                console.log("FALLBACK MIDI")
+                //console.log("FALLBACK MIDI")
                 setSrc('')
                 mediaController.setMediaLinkNumber(null)
             } else {
-                console.log("NO PLAY OPTION")
+                //console.log("NO PLAY OPTION")
                 setSrc(null)
                 mediaController.setMediaLinkNumber(null)
             }
@@ -58,7 +58,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     }
     
     useEffect(function() {
-        console.log("MEDIA PLAYER CHANGE",(tune ? tune.id : 'NOTUNE'), lastTuneId,'PLAYSTATE', params.playState, lastPlayState, "TAPTOPLAY",tapToPlay,"LINKNUM",params.mediaLinkNumber)
+        //console.log("MEDIA PLAYER CHANGE",(tune ? tune.id : 'NOTUNE'), lastTuneId,'PLAYSTATE', params.playState, lastPlayState, "TAPTOPLAY",tapToPlay,"LINKNUM",params.mediaLinkNumber)
         setPlayCancelled(false)
         //if (!mediaController.checkAudioContext()) {
             //setTapToPlay(true)
@@ -70,7 +70,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             mediaController.setMediaLinkNumber(useMediaLinkNumber)
             // destroy synth if playState changes
             if (tune && tune.id !== lastTuneId) {
-                console.log("MPLAYER TUNE ID CHANGE",tune ? tune.id : null,lastTuneId)
+                //console.log("MPLAYER TUNE ID CHANGE",tune ? tune.id : null,lastTuneId)
                 mediaController.setTune(tune)
                 mediaController.setCurrentTime(0)
                 mediaController.setClickSeek(0)
@@ -98,7 +98,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
                     //}
                 }
             } else if (useMediaLinkNumber !== lastMediaLinkNumber) {
-                console.log("link num change",useMediaLinkNumber,"old",lastMediaLinkNumber)
+                //console.log("link num change",useMediaLinkNumber,"old",lastMediaLinkNumber)
                 //mediaController.setTune(tune)
                 mediaController.setCurrentTime(0)
                 mediaController.setClickSeek(0)
@@ -122,7 +122,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
                 }
             } 
             else if (params.playState !== lastPlayState) {
-                console.log("playstate change",params.playState, lastPlayState)
+                //console.log("playstate change",params.playState, lastPlayState)
                 //mediaController.setTune(tune)
                 //mediaController.setMediaLinkNumber(useMediaLinkNumber)
                 //handleChange(useMediaLinkNumber)

@@ -81,14 +81,14 @@ export default function SelectedItemsModal(props) {
   }
   
   function clickAddTagOption(option) {
-    console.log('add',option)
+    //console.log('add',option)
     if(option && option.trim()) {
        if (window.confirm("Are you sure that you want to add the tag "+option+" to all the "+props.selectedCount+" selected tunes ?")) {
          //props.onChange(filterAdd); 
           var currentSelection = Object.keys(props.selected).filter(function(item) {
             return (props.selected[item] ? true : false)
           })
-          console.log('attttTTTT',currentSelection, option)
+          //console.log('attttTTTT',currentSelection, option)
           props.tunebook.addTunesToTag(currentSelection, option)
           setFilterAdd(''); 
           setFilterRemove(''); 

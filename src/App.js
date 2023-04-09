@@ -76,7 +76,7 @@ function App(props) {
    
   function applyMergeChanges(changes) {
     var {inserts, updates, deletes, localUpdates} = changes
-    console.log('apply',changes)
+    //console.log('apply',changes)
     // save all inserts and updates
     // keep all local items that don't exist remotely
     Object.keys(deletes).forEach(function(d) {
@@ -211,7 +211,7 @@ function App(props) {
   var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist})
   //var abcPlayerRef = useRef()
   let mediaController = useTuneBookMediaController({tunebook, tunes,forceRefresh, onEnded:function() {
-      console.log('app ended')
+      //console.log('app ended')
         tunebook.navigateToNextSong()
   }})
   

@@ -461,7 +461,7 @@ export default function useAbcjsParser() {
             
             })
         }
-        console.log('CHORDTEXT',result)
+        //console.log('CHORDTEXT',result)
         return result
     }
     
@@ -511,7 +511,7 @@ export default function useAbcjsParser() {
                 }
             })
            
-            console.log("BARIND",barIndex, chordLayout)    
+            //console.log("BARIND",barIndex, chordLayout)    
             
             // ensure the correct number of lines
             var parsedLength = abc[0].lines.length
@@ -637,7 +637,7 @@ export default function useAbcjsParser() {
                     Object.keys(bar).sort(function(a,b) {return (parseFloat(a) < parseFloat(b) ? -1 : 1) }).forEach(function(barKey, barCount) {
                         var chords = bar[barKey]
                         var key = lineCount + "-" + barNumber + "-" + Math.floor(barKey)
-                        console.log(key,chords)
+                        //console.log(key,chords)
                         if (barIndex.hasOwnProperty(key) && barIndex[key] && barIndex[key].length > 0) {
                             //console.log('note exists at correct time ' ,barKey , Math.floor(barKey))
                             var firstNoteSymbolNumber = barIndex[key][0]

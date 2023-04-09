@@ -23,11 +23,9 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
                     {(showButtons && mediaController.isLoading) && <Button size={useButtonSize} variant="secondary" onClick={function() {mediaController.pause(); mediaController.setIsLoading(false); mediaController.setIsReady(false)}} >{tunebook.icons.waiting}</Button>}
                     {(showButtons  && !mediaController.isLoading) && <>
                         {(mediaController.isPlaying) 
-                            ? <Button size={useButtonSize} variant="warning" onClick={function() {mediaController.pause()}} >{tunebook.icons.pause}</Button>
-                           
-                            : <Button size={useButtonSize} variant="success"  onClick={function() {
+                            ? <Button size={useButtonSize} variant="warning" onClick={function() {
                                     if (clickTimeout) {
-                                        console.log('CCdouble')
+                                        //console.log('CCdouble')
                                         // double click
                                         clearTimeout(clickTimeout)
                                         clickTimeout = null
@@ -35,19 +33,36 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
                                         mediaController.setCurrentTime(0); 
                                         mediaController.play()
                                     } else {
-                                        console.log('CCsingle start')
+                                        //console.log('CCsingle start')
                                          clickTimeout = setTimeout(function() {
-                                            console.log('CCsingle run')
+                                            //console.log('CCsingle run')
+                                            mediaController.pause()
+                                            clearTimeout(clickTimeout)
+                                            clickTimeout = null
+                                        },800)
+                                    }
+                                    
+                            }} >{tunebook.icons.pause}</Button>
+                           
+                            : <Button size={useButtonSize} variant="success"  onClick={function() {
+                                    if (clickTimeout) {
+                                        //console.log('CCdouble')
+                                        // double click
+                                        clearTimeout(clickTimeout)
+                                        clickTimeout = null
+                                        mediaController.setClickSeek(0); 
+                                        mediaController.setCurrentTime(0); 
+                                        mediaController.play()
+                                    } else {
+                                        //console.log('CCsingle start')
+                                         clickTimeout = setTimeout(function() {
+                                            //console.log('CCsingle run')
                                             mediaController.play()
                                             clearTimeout(clickTimeout)
                                             clickTimeout = null
                                         },800)
                                     }
-                                    //clearTimeout(clickTimeout)
-                                    //clickTimeout = null
                                     
-                             
-                                
                             }} >{tunebook.icons.play}</Button>}
                     </>}
                     <MediaPlayerOptionsModal currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} mediaController={mediaController} tunebook={tunebook} buttonSize={buttonSize} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} />
