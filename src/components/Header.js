@@ -31,6 +31,15 @@ export default function Header(props) {
         if (props.token && props.user) props.loadUserImage(props.token, props.user)
     },[props.user])
     
+    useEffect(function() {
+        //console.log("FORCE NAV", props.forceNav)
+        if (props.forceNav) {
+            //console.log("REALLY FORCE NAV", props.forceNav)
+            props.setForceNav(null)
+            navigate(props.forceNav)
+        }
+    },[props.forceNav])
+    
     const onKeyPress = (event) => {
         if (!props.blockKeyboardShortcuts) {
             if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {

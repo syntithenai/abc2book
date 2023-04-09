@@ -20,12 +20,13 @@ export default function Abc(props) {
         //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
     
     function updateOnChange() {
-        //console.log('ABC CHANGE') //, props.tempo, lastTempo,  props.abc , lastAbc )
+         //, props.tempo, lastTempo,  props.abc , lastAbc )
         var tune = props.tunebook.abcTools.abc2json(props.abc)
         var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
+        console.log('ABC CHANGE', tune.tempo, useWarp, props.warp)
         // set warped tempo
         tune.tempo = tune.tempo > 0 ? tune.tempo * useWarp : 100 * useWarp
-        //console.log("WARPED TEMPO", tune.tempo)
+        console.log("WARPED TEMPO", tune.tempo)
         //if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo ) {
           //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,tune.tempo , lastTempo,props.boost ,lastBoost)
           var abc = props.tunebook.abcTools.json2abc(tune)
@@ -118,8 +119,8 @@ export default function Abc(props) {
         if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
           renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
         } 
-        var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
-        tune.tempo = tune.tempo * useWarp
+        //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
+        //tune.tempo = tune.tempo * useWarp
         var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
             
         var o = res && res.length > 0 ? res[0] : null

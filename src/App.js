@@ -68,9 +68,11 @@ function App(props) {
   var {user, token, login, logout, refresh,loadCurrentUser, loadUserImage} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset , abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset , abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav} = useAppData()
   useServiceWorker()
-    
+  
+  
+  
   const indexes = useIndexes()
   const [blockKeyboardShortcuts, setBlockKeyboardShortcuts] = useState(false)
    
@@ -208,13 +210,13 @@ function App(props) {
   const recordingsManager = useRecordingsManager(token)
   //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav})
   //var abcPlayerRef = useRef()
-  let mediaController = useTuneBookMediaController({tunebook, tunes,forceRefresh, onEnded:function() {
-      //console.log('app ended')
-        tunebook.navigateToNextSong()
-  }})
-  
+  let mediaController = useTuneBookMediaController({tunebook, tunes,forceRefresh}) 
+  //, onEnded:function() {
+      //console.log('app ended',this)
+        //tunebook.navigateToNextSong()
+  //}})
   
   
   function onMerge(fullSheet) {
@@ -348,7 +350,7 @@ function App(props) {
             </> : null}
   
            {((!showWarning(sheetUpdateResults)|| !user) && !showImportWarning(importResults)  && tunes !== null) && <div >   
-              <Header mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} loadUserImage={loadUserImage} />
+              <Header forceNav={forceNav} setForceNav={setForceNav} mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} loadUserImage={loadUserImage} />
               <div className="App-body">
                   <Routes>
                     <Route  path={``}   element={<BooksPage mediaController={mediaController}  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />}  />

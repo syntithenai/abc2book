@@ -107,7 +107,7 @@ function ImportOptionsModal(props) {
             <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             {props.token && <ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} />}
             <div>
-                <ImportCollectionsAccordion tunebook={props.tunebook} />
+                <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} />
             </div>
         </Modal.Footer>
       </Modal>

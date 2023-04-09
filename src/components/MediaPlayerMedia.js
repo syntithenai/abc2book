@@ -7,7 +7,9 @@ import {useState, useEffect} from 'react'
 export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     const params = useParams()
     const location = useLocation()
-    
+    //console.log("MediaPlayerMedia")
+    const isFirefox = typeof InstallTrigger !== 'undefined';
+                    
     const [tapToPlay, setTapToPlay] = useState(false)
     const [playCancelled, setPlayCancelled] = useState(false)
     
@@ -19,37 +21,43 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     
     function handleChange(useMediaLinkNumber) {
         var hasLinks = tune  && Array.isArray(tune.links)  && tune.links.length > 0 ? true : false
-        //console.log("MEDIA PLAYER CHANGE",params.playState, useMediaLinkNumber, hasLinks, tunebook.hasNotesOrChords(tune))
+        console.log("MEDIA PLAYER CHANGE",params.playState, useMediaLinkNumber, hasLinks, tunebook.hasNotesOrChords(tune))
         
         if (params.playState === 'playMidi' || useMediaLinkNumber === null) {
             if (tunebook.hasNotesOrChords(tune)) {
-                //console.log("OK PLAY MIDI")
+                console.log("OK PLAY MIDI")
                 setSrc('')
                 mediaController.setMediaLinkNumber(null)
             } else {
                 if (hasLinks) {
-                    //console.log("ABC FALLBACK TO MEDIA")
+                    console.log("ABC FALLBACK TO MEDIA")
                     var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
                     mediaController.setMediaLinkNumber(useMediaLinkNumber)
                     setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
                 } else {
-                    //console.log("NO PLAY OPTION")
+                    console.log("NO PLAY OPTION")
                     setSrc(null)
                     mediaController.setMediaLinkNumber(null)
                 }
             }
         } else if (hasLinks) {
             var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
-            //console.log("OK PLAY MEDIA", mediaController.getSrc(tune, useMediaLinkNumber))
+            console.log("OK PLAY MEDIA", mediaController.getSrc(tune, useMediaLinkNumber))
             mediaController.setMediaLinkNumber(useMediaLinkNumber)
-            setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
+            setSrc(null)
+            // hack to force reload of youtube video when click next/prev ??
+            var to = null
+            clearTimeout(to)
+            to = setTimeout(function() {
+                setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
+            },300)
         } else {
             if (tunebook.hasNotesOrChords(tune))  {
-                //console.log("FALLBACK MIDI")
+                console.log("FALLBACK MIDI")
                 setSrc('')
                 mediaController.setMediaLinkNumber(null)
             } else {
-                //console.log("NO PLAY OPTION")
+                console.log("NO PLAY OPTION")
                 setSrc(null)
                 mediaController.setMediaLinkNumber(null)
             }
@@ -58,6 +66,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     }
     
     useEffect(function() {
+        console.log("MediaPlayerMedia CHANGE")
         //console.log("MEDIA PLAYER CHANGE",(tune ? tune.id : 'NOTUNE'), lastTuneId,'PLAYSTATE', params.playState, lastPlayState, "TAPTOPLAY",tapToPlay,"LINKNUM",params.mediaLinkNumber)
         setPlayCancelled(false)
         //if (!mediaController.checkAudioContext()) {
@@ -69,8 +78,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             }
             mediaController.setMediaLinkNumber(useMediaLinkNumber)
             // destroy synth if playState changes
-            if (tune && tune.id !== lastTuneId) {
-                //console.log("MPLAYER TUNE ID CHANGE",tune ? tune.id : null,lastTuneId)
+            if (tune && JSON.stringify(tune) !== lastTuneId) {
+                console.log("MPLAYER TUNE ID CHANGE",mediaController.playbackRate, tune ? tune.id : null,lastTuneId)
+                var useWarp = (mediaController.playbackRate > 0.1 && mediaController.playbackRate <= 2) ? parseFloat(mediaController.playbackRate) : 1
+                tune.tempo = tune.tempo * useWarp
+                console.log("SET TUNE TEMPO TO ",tune.tempo)
                 mediaController.setTune(tune)
                 mediaController.setCurrentTime(0)
                 mediaController.setClickSeek(0)
@@ -80,7 +92,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
                 handleChange(useMediaLinkNumber)
                 if (params.playState === 'playMidi' || params.playState === 'playMedia') {
                     if (!mediaController.checkAudioContext()) {
-                        setTapToPlay(true)
+                        if (!isFirefox) {
+                            setTapToPlay(true)
+                        } else {
+                            mediaController.stop()
+                        }
                     }
                     //mediaController.play()
                     // don't interfere with play status but force synth to update
@@ -109,9 +125,15 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
                 handleChange(useMediaLinkNumber)
                 if (params.playState === 'playMidi' || params.playState === 'playMedia') {
                     if (!mediaController.checkAudioContext()) {
-                        setTapToPlay(true)
+                        if (!isFirefox) {
+                            setTapToPlay(true)
+                            mediaController.play()
+                        } else {
+                            mediaController.stop()
+                        }
+                    } else {
+                        mediaController.play()
                     }
-                    mediaController.play()
                     //mediaController.forceMidiChange()
                     //if (mediaController.isPlaying) {
                         //mediaController.play()
@@ -128,10 +150,17 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
                 //handleChange(useMediaLinkNumber)
                 if (params.playState === 'playMidi' || params.playState === 'playMedia') {
                     if (!mediaController.checkAudioContext()) {
-                        setTapToPlay(true)
+                        if (!isFirefox) {
+                            setTapToPlay(true)
+                            mediaController.play()
+                        } else {
+                            mediaController.stop()
+                        }
+                    } else {
+                        mediaController.play()
                     }
                     //if (params.playState) {
-                        mediaController.play()
+                        //mediaController.play()
                         //mediaController.forceMidiChange()
                     //} else {
                         //mediaController.stop()
@@ -142,18 +171,25 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             }
             //console.log("CHANGE DONE",mediaController.mediaLinkNumber, src)
         //}    
-        setLastTuneId(tune ? tune.id : null)
+        setLastTuneId(tune ? JSON.stringify(tune) : null)
         setLastMediaLinkNumber(useMediaLinkNumber)
         setLastPlayState(params.playState)
     
-    },[(tune ? tune.id : null), tapToPlay, params.mediaLinkNumber, params.playState])
+    },[(tune ? JSON.stringify(tune) : null), tapToPlay, params.mediaLinkNumber, params.playState])
     
     useEffect(function() {
+        console.log("MediaPlayerMedia LOAD")
         if (params.playState === 'playMidi' || params.playState === 'playMedia') {
             if (!mediaController.checkAudioContext()) {
-                setTapToPlay(true)
+                if (!isFirefox) {
+                    setTapToPlay(true)
+                    mediaController.play()
+                } else {
+                    mediaController.stop()
+                }
+            } else {
+                mediaController.play()
             }
-            mediaController.play()
         }
     },[])
     
@@ -219,7 +255,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
          />
     }
     return <div id={src} >
-    <div style={{display:'none'}}>{src}</div>
+    <div style={{display:'nddone'}}>{src}</div>
         {content}
     </div>
     

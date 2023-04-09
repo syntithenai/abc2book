@@ -103,7 +103,7 @@ export default function BooksPage(props) {
                                     props.setTagFilter([option]);
                                     props.setCurrentTuneBook(''); 
                                     props.setFilter(''); 
-                                    props.tunebook.fillMediaPlaylist('','',option);
+                                    props.tunebook.fillMediaPlaylist('','',[option]);
                                     navigate("/tunes")
                                 }} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
                                     
@@ -134,7 +134,7 @@ export default function BooksPage(props) {
                     Import one of the curated tunebooks to get started.
                     </div>
                     
-                    <ImportCollectionsAccordion tunebook={props.tunebook} />
+                    <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} />
                     
                 </div>
             </div>}

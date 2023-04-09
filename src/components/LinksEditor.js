@@ -149,10 +149,7 @@ export default function LinksEditor(props) {
                             //window.URL.revokeObjectURL(url);
                         }} >{props.tunebook.icons.save}</Button>}
                         
-                        {<Button  style={{float:'right', marginRight:'0.3em'}} variant="success" onClick={function() {
-                            //setIsPlayingLink(lk)
-                            navigate("/tunes/"+props.tune.id+'/playMedia/'+lk)
-                        }} >{props.tunebook.icons.play}</Button>}
+                        
                         
                         {(props.tune && Array.isArray(props.links) && props.links.length > lk && props.links[lk] && props.links[lk].link && props.links[lk].link.indexOf("youtube") !== -1) && <a target="_new" href={props.links[lk].link} ><Button  style={{float:'right', marginRight:'0.3em'}} variant="primary" onClick={function() {
                             
@@ -220,7 +217,10 @@ export default function LinksEditor(props) {
 }
 
   
-                        
+                        //{<Button  style={{float:'right', marginRight:'0.3em'}} variant="success" onClick={function() {
+                            ////setIsPlayingLink(lk)
+                            //navigate("/tunes/"+props.tune.id+'/playMedia/'+lk)
+                        //}} >{props.tunebook.icons.play}</Button>}
 
 //  
  //{(isPlayingLink !== null && Array.isArray(props.links) && props.links[isPlayingLink]) ? <>

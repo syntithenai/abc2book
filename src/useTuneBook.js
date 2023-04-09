@@ -7,7 +7,7 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -21,10 +21,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //dbTunes[tune.id] = tune
   //})
   var navTimeout = null
-  function navigateToNextSong(currentSongId,  navigate = function(a) {console.log("NAVTO",a); window.location = "#"+a}) {
+  function navigate(to) {
+      setForceNav(to)
+  }
+  //,  navigate = function(a) {console.log("NAVTO",a); window.location = "#"+a}
+  function navigateToNextSong(currentSongId, failCallback) {
       clearTimeout(navTimeout); 
       navTimeout = setTimeout(function() {
-        //console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
+        console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
         if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
             //console.log("NEXT abc")
             var newPL = abcPlaylist
@@ -82,7 +86,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                   }
                   i++
               }
-              //console.log("NEXT found ",found)
+              console.log("NEXT found ",found)
               if (found) {
                 setCurrentTune(found)
                 var playUrl = ''
@@ -96,14 +100,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 } else {
                     navigate('/tunes/' + found + playUrl)
                 }
+              } else {
+                  failCallback()
               }
-            } 
+            } else {
+                failCallback()
+            }
         }    
     },300)
     
   }
   
-  function navigateToPreviousSong(currentSongId, navigate = function(a) {window.location = a}) {
+  function navigateToPreviousSong(currentSongId) {
      clearTimeout(navTimeout); 
       navTimeout = setTimeout(function() {
         //console.log("PREV")
@@ -1091,10 +1099,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                 } 
             }
             if (!Array.isArray(tagFilterClean) || tagFilterClean.length === 0) {
-                 console.log('skip tag filt')
+                 //console.log('skip tag filt')
                 tagFilterOk = true
             } else {
-                console.log(' tag filt',tune.tags,tagFilter)
+                //console.log(' tag filt',tune.tags,tagFilter)
                 if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
                     tagFilterClean.forEach(function(tag) {
@@ -1114,17 +1122,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null) {
     if (!useTunes) useTunes = tunes
-    console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
+    //console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
         return filterSearch(tune, filter, bookFilter, tagFilter)
     })
-    console.log('from search res',res)
+    //console.log('from search res',res)
     res = shuffle(res)
     return res
   }
   
   function mediaFromSelection(selection, mergedTunes) {
-    console.log('m from sel',selection)
+    //console.log('m from sel',selection)
     var final = []
     if (selection && selection.split) {
         var res = selection.split(",").forEach(function(tuneId) {
@@ -1174,7 +1182,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   
   
   function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null) {
-        console.log('fisll media',book, selectedIds, filterTags)
+        //console.log('fisll media',book, selectedIds, filterTags)
         var fillTunes = []
         var selectedArray = selectedIds ? selectedIds.split(",").filter(function(v) {return (v ? true : false)}) : []
         if (selectedArray && selectedArray.length > 0) {
@@ -1200,6 +1208,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         } else { 
             fillTunes=mediaFromSearch('',book,filterTags, mergedTunes)
         } 
+        fillTunes = fillTunes.filter(function(tune) {
+            var hasLinks = tune  && Array.isArray(tune.links)  && tune.links.length > 0 ? true : false
+            return hasLinks
+        })
         //console.log('fill media tunes',fillTunes)
         shuffleArray(fillTunes)
         // sort playlist by boost
@@ -1207,7 +1219,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
             fillTunes = fillTunes.sort(function(a,b) {
                 return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
             })
-            console.log('fill media tunes SET',fillTunes)
+            //console.log('fill media tunes SET',fillTunes)
             setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes.slice(0,20)})
         }
         setAbcPlaylist(null)

@@ -11,12 +11,16 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
    const [showButtons, setShowButtons] = useState(false)
    var clickTimeout = null
    useEffect(function() {
+       console.log("BUTTON change",mediaController.tune)
            if (mediaController.tune && (tunebook.hasNotesOrChords(mediaController.tune) || (Array.isArray(mediaController.tune.links) && mediaController.tune.links.length > 0))) {
               setShowButtons(true)
+              console.log("BUTTON change true")
            } else {
+               console.log("BUTTON change false")
                setShowButtons(false)
            }
-   },[mediaController.tune])
+   },[mediaController.tune ? JSON.stringify(mediaController.tune) : null])
+   
    if (mediaController.tune && (location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0)) { 
        return <ButtonGroup>
                 <>
@@ -31,6 +35,7 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
                                         clickTimeout = null
                                         mediaController.setClickSeek(0); 
                                         mediaController.setCurrentTime(0); 
+                                        mediaController.seek(0)
                                         mediaController.play()
                                     } else {
                                         //console.log('CCsingle start')
@@ -39,28 +44,32 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
                                             mediaController.pause()
                                             clearTimeout(clickTimeout)
                                             clickTimeout = null
-                                        },800)
+                                        },200)
                                     }
                                     
                             }} >{tunebook.icons.pause}</Button>
                            
                             : <Button size={useButtonSize} variant="success"  onClick={function() {
                                     if (clickTimeout) {
-                                        //console.log('CCdouble')
+                                        console.log('CCdouble')
                                         // double click
                                         clearTimeout(clickTimeout)
                                         clickTimeout = null
+                                        mediaController.pause()
                                         mediaController.setClickSeek(0); 
                                         mediaController.setCurrentTime(0); 
-                                        mediaController.play()
+                                        mediaController.seek(0)
+                                        setTimeout(function() {
+                                            mediaController.play()
+                                        },500)
                                     } else {
-                                        //console.log('CCsingle start')
+                                        console.log('CCsingle start')
                                          clickTimeout = setTimeout(function() {
-                                            //console.log('CCsingle run')
+                                            console.log('CCsingle run')
                                             mediaController.play()
                                             clearTimeout(clickTimeout)
                                             clickTimeout = null
-                                        },800)
+                                        },400)
                                     }
                                     
                             }} >{tunebook.icons.play}</Button>}

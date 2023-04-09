@@ -159,18 +159,18 @@ export default function useAbcSynth(props) {
      
       //// listen to properties on media controller to control local player
     useEffect(function() {
-        //console.log("SYNTH change", props.mediaController.mediaLinkNumber, props.mediaController)
+        console.log("SYNTH change", props.mediaController.mediaLinkNumber, props.mediaController)
         //if (props.mediaController) console.log("SYNTH",[(props.mediaController ? props.mediaController.isPlaying : null), (props.mediaController ? props.mediaController.clickSeek : null), (props.mediaController ?  props.mediaController.mediaLinkNumber : null), (props.mediaController ? props.mediaController.playbackSpeed : null), (props.mediaController ? props.mediaController.midiHash.current : null), (props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null)]) 
         //props.mediaController.isPlaying, isLastPlaying,"TIME", props.mediaController.currentTime,"CLICKTIME", props.mediaController.clickSeek,clickSeek,  props.mediaController.mediaLinkNumber, props.mediaController.midiHash.current, props.mediaController.mediaLinkNumber,lastMediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
             if (props.mediaController.playbackSpeed !== lastPlaybackSpeed) {
-                //console.log("SYNTH play speed change", props.mediaController.playbackSpeed)
-                //stopPlaying()
-                //resetAudioState()
+                console.log("SYNTH play speed change", props.mediaController.playbackSpeed)
+                stopPlaying()
+                resetAudioState()
             }
             var nowTuneId = props.mediaController.tune ? props.mediaController.tune.id : null
             if (nowTuneId !== lastTuneId) {
-                //console.log("SYNTH tune id change to",props.mediaController.tune.id)
+                console.log("SYNTH tune id change to",props.mediaController.tune.id)
                 //stopPlaying()
                 resetAudioState()
                 if (props.mediaController.isPlaying) {
@@ -181,7 +181,7 @@ export default function useAbcSynth(props) {
                 } 
             }
             if (props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
-                //console.log("SYNTH medialinknumber change to",props.mediaController.mediaLinkNumber)
+                console.log("SYNTH medialinknumber change to",props.mediaController.mediaLinkNumber)
                 //stopPlaying()
                 resetAudioState()
                 if (props.mediaController.isPlaying) {
@@ -193,7 +193,7 @@ export default function useAbcSynth(props) {
             } 
 
             if (props.mediaController.currentTime == 0 ||props.mediaController.clickSeek !== clickSeek) {
-                //console.log("SYNTH click seek change", props.mediaController.clickSeek)
+                console.log("SYNTH click seek change", props.mediaController.clickSeek)
                 if (gmidiBuffer.current) {
                     setSeekTo(props.mediaController.clickSeek * gmidiBuffer.current.duration)
                     seekPlayer(parseFloat(props.mediaController.clickSeek))
@@ -201,7 +201,7 @@ export default function useAbcSynth(props) {
                 }
             }
             if (props.mediaController.isPlaying !== isLastPlaying) {
-                //console.log("SYNTH playing change to ",props.mediaController.isPlaying)
+                console.log("SYNTH playing change to ",props.mediaController.isPlaying)
                 if (props.mediaController.isPlaying) {
                     //console.log('SYNTH change play')
                     startPlaying()
@@ -404,7 +404,7 @@ export default function useAbcSynth(props) {
     }
     
       async function saveAudioToCache(tuneId,audioBuffers, duration) {
-      //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
+      console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
       if (duration > 0) {
         //let encoder = new Encoder();
         //var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
@@ -413,7 +413,7 @@ export default function useAbcSynth(props) {
         converter.convertAudioBuffer(audioBuffers[0], {
             bitRate: 96
         }).then(function (blob) {
-          //console.log('SAVEaudio converted',blob)
+          console.log('SAVEaudio converted',blob)
           store.setItem(tuneId, [duration, blob] ).then(function () {
             return store.getItem(tuneId);
           })
@@ -423,7 +423,7 @@ export default function useAbcSynth(props) {
     }
     
     async function  getAudioFromCache(tuneId) {
-      //console.log('getaudio',tuneId)
+      console.log('getaudio',tuneId)
       //let decoder = new Decoder();
       return store.getItem(tuneId).then(function (val) {
         if (val && Array.isArray(val)) {
@@ -434,7 +434,7 @@ export default function useAbcSynth(props) {
             //console.log('getaudio got',duration, buffers, arrayBuffer)
             //var audioBuffer = await 
             return context.decodeAudioData(arrayBuffer).then(function(audioBuffer) {
-              //console.log('getaudio decoded',audioBuffer)
+              console.log('getaudio decoded',audioBuffer)
               return [duration, [audioBuffer,audioBuffer]]
             })
           })
@@ -593,7 +593,7 @@ export default function useAbcSynth(props) {
                     //console.log('start with metro')
                     if (props.metronomeCountIn) {
                       var warp =  props.warp > 0 ? props.warp : 1
-                      metronome.current = new Metronome(props.tunebook.abcTools.cleanTempo(tune.tempo * warp), o.getBeatsPerMeasure(), metronomeBeats , function() {
+                      metronome.current = new Metronome(tune.tempo * warp, o.getBeatsPerMeasure(), metronomeBeats , function() {
                         // wait one more beat
                         metronomeTimeout.current = setTimeout(function() {
                             try {
@@ -684,8 +684,8 @@ export default function useAbcSynth(props) {
   } 
 
   function primeTune(tune, audioContext, visualObj, force = false) {
-      //console.log('PRIME TUNE',isLoading.current, tune, audioContext, visualObj,props)
-      var tempo = tune ? tune.tempo : 100
+      console.log('PRIME TUNE',tune.tempo, isLoading.current, tune, audioContext, visualObj,props)
+      //var tempo = tune ? tune.tempo : 100
       return new Promise(function(resolve,reject) {
           if (isLoading.current) {
               //console.log('ALREADY LOADINGWHEN ATTEMPT PRIME')
@@ -715,19 +715,18 @@ export default function useAbcSynth(props) {
                  soundFontVolumeMultiplier: 1.6,
                  //program: 21,
                  chordsOff: false,
-                 warp: 1, //getWarp(),
                  programOffsets: programOffsets,
                },
             }
-            //console.log('prime init options',initOptions)
-            var tune = props.tunebook.abcTools.abc2json(props.abc)
+            console.log('prime init options',initOptions)
+            //var tune = props.tunebook.abcTools.abc2json(props.abc)
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
               initOptions.options.midiTranspose = parseInt(visualObj.visualTranspose)
             }
          
             function getAudioHash(tune) {
-              return tune.id + "-" + props.tunebook.abcTools.cleanTempo(tune.tempo)+'-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
+              return tune.id + "-" + tune.tempo  + '-'+tune.transpose+"-"+props.tunebook.utils.hash(props.tunebook.abcTools.getNotesFromAbc(props.abc))
             }
             
             function resolveWithTimingAndCursor(midiBuffer) {
@@ -745,14 +744,14 @@ export default function useAbcSynth(props) {
             }
              
             function primeAndResolve() {
-               //console.log('preinit primresolve',force)
+               console.log('preinit primresolve',force)
                 //if (force) { 
                   midiBuffer.init(initOptions).then(
                   function (response) { 
-                    //console.log('iniprime',initOptions)
+                    console.log('iniprime',initOptions)
                     //console.log('preinit pr inited')
                     midiBuffer.prime().then(function(presponse) {
-                      //console.log('preinit prime tune primed AAA')
+                      console.log('preinit prime tune primed AAA')
                       //console.log('preinit prime tune primed', presponse, midiBuffer)
                       //if (props.setMidiData) props.setMidiData(abcjs.synth.getMidiFile(visualObj, { midiOutputType: 'binary', bpm: tune.tempo ? tune.tempo : 100 }))
                       if (tune && tune.id && props.cacheAudio !== false) { 

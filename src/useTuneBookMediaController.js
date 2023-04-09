@@ -65,14 +65,16 @@ export default function useTuneBookMediaController(props) {
     
     function onAbcTimeUpdate(time) {
         //console.log('abcv time update',time)
-        setCurrentTime(time) 
+        if (isPlaying) {
+            setCurrentTime(time) 
+        }
     }
   
     function onTimeUpdate() {
         //if (playerRef.current) 
         if (playerRef.current) {
             //console.log('onTimeUpdate2',playerRef.current, tune, mediaLinkNumber)
-            setCurrentTime(playerRef.current.currentTime)
+            if (isPlaying) setCurrentTime(playerRef.current.currentTime)
             //console.log('onTimeUpdate', playerRef.current, tune, mediaLinkNumber, playerRef.current.currentTime)
             
             if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber) {
@@ -102,22 +104,30 @@ export default function useTuneBookMediaController(props) {
    
     
     function onYtTimeUpdate() {
-        //if (ytPlayerRef.current) console.log('onYtTimeUpdate',ytPlayerRef.current.getCurrentTime())
-        if (ytPlayerRef.current) setCurrentTime(ytPlayerRef.current.getCurrentTime())
+        //if (ytPlayerRef.current) console.log('onYtTimeUpdate',isPlaying,ytPlayerRef.current.getCurrentTime())
+        if (ytPlayerRef.current && isPlaying) setCurrentTime(ytPlayerRef.current.getCurrentTime())
     }
     
     
-    function onEnded() {
+    function onEnded() { 
         //console.log('ENDED',props.onEnded)
         cleanupTimers()
-        if (props.onEnded) {
-            props.onEnded()
-        } else {
+        props.tunebook.navigateToNextSong(null,function() {
+            //console.log('ENDED callback stop')
             stop()
             setIsPlaying(false)
             setIsLoading(false)
             setCurrentTime(0)
-        }
+        })
+        //if (props.onEnded) {
+            ////stop()
+            //props.onEnded(stop)
+        //} else {
+            //stop()
+            //setIsPlaying(false)
+            //setIsLoading(false)
+            //setCurrentTime(0)
+        //}
         //setIsPlaying(false)
         
         

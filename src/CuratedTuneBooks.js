@@ -8,10 +8,9 @@ export default {
   //"songs": {group:'Collections', link:'songs.abc', image:'songs.jpeg', book:'songs'},
   'christmas songs': {group:'Collections',link:'christmas songs.abc' ,image:'christmassongs.jpeg', book:'christmas songs'},
   'kids songs': {group:'Collections',link:'kids songs.abc',  image:'kidssongs.jpeg', book:'kids songs'},
-  'canberra pickers and fiddlers': {group:'Collections', link:'tunes.abc', image:'canberrapickersandfiddlers.jpeg', book:"canberra pickers and fiddlers"},
+  'canberra pickers and fiddlers': {group:'Collections', link:'tunes.abc', image:'canberrapickersandfiddlers.jpeg', book:"tunes", tag:"canberra pickers and fiddlers"},
   'jims roots and blues': {group:'Collections',link:'jims roots.abc', image:'jimsrootsandblues.jpeg'},
-    
-    'begged borrowed and stolen': {group:'Collections', link:'tunes.abc', image:'beggedborrowedandstolen.jpeg', book:'tunes', tag:"begged borrowed and stolen"},
+  'begged borrowed and stolen': {group:'Collections', link:'tunes.abc', image:'beggedborrowedandstolen.jpeg', book:'tunes', tag:"begged borrowed and stolen"},
     //'max campbell': {group:'Friends',link:'songs.abc', image:'max.jpeg', book:"songs", tag: 'max campbell'},
     //'max new tunes': {group:'Friends',link:'tunes.abc', image:'maxnewtunes.jpeg', book:'tunes', tag:"max new tunes"},
     //'charlotte lyngbye': {group:'Friends',link:'songs.abc', image:'charlotte.jpeg', book:"songs", tag:"charlotte lyngbye"},

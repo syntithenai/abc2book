@@ -50,9 +50,20 @@ export default function MusicSingle(props) {
     const [autoStart, setAutoStart] = useState(false)
     const [hasSpoken, setHasSpoken] = useState(false)
     const [squashLyrics, setSquashLyrics] = useState(false)
+    const [tune, setTune] = useState(null)
+    
+    useEffect(function() {
+        var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
+        if (t) {
+            //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
+            //console.log("HACK TUNE TEMPO", t.tempo)
+            setTune(t)
+        }
+        
+    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed])
     
     //const [abc, setAbc] = useState('')
-    let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
+    //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     const [zoomChords, setZoomChords] = useState(!props.tunebook.hasLyrics(tune))
     
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
@@ -437,9 +448,9 @@ export default function MusicSingle(props) {
              
              {<div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
-                 <div id={"abccontainer-"+(autoStart?"Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
-                    {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)} tempo={getTempo()} meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                 <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
+                    {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
                   </div>
              </div>}
              

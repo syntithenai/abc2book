@@ -84,7 +84,12 @@ export default function SettingsPage(props) {
             }
         }} >Delete All Tunes</Button><br/>
        
+       <hr style={{margin:'1em'}}  />
+        
+        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
+        
          <hr style={{margin:'1em'}}  />
+        
         <div>
          <label>Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
          <br/><b>The software will speak the title before playing the tune.</b>
@@ -94,7 +99,7 @@ export default function SettingsPage(props) {
 }
 
 
-      //<Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="warning" onClick={tunebook.utils.resetAudioCache} >Clear Audio Cache</Button><br/>
+     
        
        //<div>
          //<label>Pre Render Audio ?<input type="checkbox" onChange={clickPreRenderAudio} checked={preRenderAudioCheckbox} /></label>
