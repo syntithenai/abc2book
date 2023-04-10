@@ -40,6 +40,19 @@ export default function Header(props) {
         }
     },[props.forceNav])
     
+    const [width, setWidth] = useState(window.innerWidth);
+    const breakpoint = 620;
+
+    useEffect(() => {
+    /* Inside of a "useEffect" hook add an event listener that updates
+       the "width" state variable when the window size changes */
+    window.addEventListener("resize", () => {setWidth(window.innerWidth)});
+
+    /* passing an empty array as the dependencies of the effect will cause this
+       effect to only run when the component mounts, and not each time it updates.
+       We only want the listener to be added once */
+    }, []);
+
     const onKeyPress = (event) => {
         if (!props.blockKeyboardShortcuts) {
             if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
@@ -67,7 +80,8 @@ export default function Header(props) {
     return <header className="App-header" style={{zIndex:11, fontSize:'1.2em'}} >
         <span>
             <ButtonGroup>
-               <Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null);props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70); props.mediaController.setTune(null)}} >{props.tunebook.icons.bookheader}</Button></Link>
+               {(width > breakpoint) &&<Link to="/books" ><Button size="lg" variant="info" style={{marginLeft:'0em', color: 'black', border: (location.pathname === '/' ? '1px solid black' : '')}} onClick={function(e) {props.setAbcPlaylist(null);props.setMediaPlaylist(null); props.tunebook.utils.scrollTo('topofpage',70); props.mediaController.setTune(null)}} >{props.tunebook.icons.bookheader}</Button></Link>}
+               
                <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',70); props.setAbcPlaylist(null); props.setMediaPlaylist(null); }} >{props.tunebook.icons.searchheader}</Button></Link>
                 
                  {(!isMobile && props.mediaPlaylist === null && props.currentTune && props.tunes && props.tunes[props.currentTune]) ? <Link to={"/tunes/"+props.currentTune} ><Button size="lg" variant="info" style={{marginLeft:'0.1em', color: 'black',  border: (location.pathname.startsWith('/tunes/') ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',10)}} >{props.tunebook.icons.musicheader}</Button></Link> : null}
