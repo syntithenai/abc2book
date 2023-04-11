@@ -11,12 +11,12 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
    const [showButtons, setShowButtons] = useState(false)
    var clickTimeout = null
    useEffect(function() {
-       console.log("BUTTON change",mediaController.tune)
+       //console.log("BUTTON change",mediaController.tune)
            if (mediaController.tune && (tunebook.hasNotesOrChords(mediaController.tune) || (Array.isArray(mediaController.tune.links) && mediaController.tune.links.length > 0))) {
               setShowButtons(true)
-              console.log("BUTTON change true")
+              //console.log("BUTTON change true")
            } else {
-               console.log("BUTTON change false")
+               //console.log("BUTTON change false")
                setShowButtons(false)
            }
    },[mediaController.tune ? JSON.stringify(mediaController.tune) : null])

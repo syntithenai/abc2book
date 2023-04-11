@@ -1,8 +1,9 @@
 export default class Metronome
 {
-    constructor(tempo = 120, beatsPerBar=4, maxBeats = 0, callback)
+    constructor(audioContext, tempo = 120, beatsPerBar=4, maxBeats = 0, callback, errorCallback)
     {
-        this.audioContext = null;
+        console.log("MET C cons",audioContext)
+        this.audioContext = audioContext;
         this.notesInQueue = [];         // notes that have been put into the web audio and may or may not have been played yet {note, time}
         this.currentBeatInBar = 0;
         this.beatsPerBar = beatsPerBar;
@@ -14,6 +15,7 @@ export default class Metronome
         this.intervalID = null;
         this.maxBeats = maxBeats  // stop after this many beats and call callback
         this.callback = callback
+        this.errorCallback = errorCallback
         this.currentBeat = 0
     }
 
@@ -42,11 +44,9 @@ export default class Metronome
         envelope.gain.value = 1;
         envelope.gain.exponentialRampToValueAtTime(1, time + 0.001);
         envelope.gain.exponentialRampToValueAtTime(0.001, time + 0.02);
-
         osc.connect(envelope);
         envelope.connect(this.audioContext.destination);
-    
-        osc.start(time);
+        osc.start(time)
         osc.stop(time + 0.03);
         this.currentBeat += 1
         
@@ -78,13 +78,17 @@ export default class Metronome
         {
             this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
         }
+        console.log("MET C",this.audioContext)
+        if (this.audioContext.state !== 'running') {
+            this.errorCallback()
+        } else {
+            this.isRunning = true;
 
-        this.isRunning = true;
+            this.currentBeatInBar = 0;
+            this.nextNoteTime = this.audioContext.currentTime + 0.05;
 
-        this.currentBeatInBar = 0;
-        this.nextNoteTime = this.audioContext.currentTime + 0.05;
-
-        this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
+            this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
+        }
     }
 
     stop()

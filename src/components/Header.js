@@ -26,7 +26,7 @@ export default function Header(props) {
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
     const [userImageError, setUserImageError] = useState(false)
     useEffect(function() {
-        console.log(props.user, props.token)
+        //console.log(props.user, props.token)
         setUserImageError(false)
         if (props.token && props.user) props.loadUserImage(props.token, props.user)
     },[props.user])

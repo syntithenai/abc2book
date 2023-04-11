@@ -8,6 +8,8 @@ export default function useTuneBookMediaController(props) {
     
     const [tune, setTune] = useState(null)
     var [mediaLinkNumber, setMediaLinkNumber] = useState(0)
+    const [tapToPlay, setTapToPlay] = useState(false)
+    const [playCancelled, setPlayCancelled] = useState(false)
     
     const [isPlaying, setIsPlaying] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
@@ -20,7 +22,9 @@ export default function useTuneBookMediaController(props) {
     var youtubeProgressInterval = useRef()
     
     function cleanupTimers() {
+        console.log('CLEANUP TIMERS')
         clearInterval(youtubeProgressInterval.current)
+        youtubeProgressInterval.current = null
     }
     
     var midiHash = useRef()
@@ -28,7 +32,26 @@ export default function useTuneBookMediaController(props) {
         midiHash.current = Math.random()* 1000000000
     }
     //forceMidiChange()
-    
+    useEffect(function() {
+         //console.log('TTP',tapToPlay , playCancelled)
+         if (mediaLinkNumber !== null) {
+             if (isPlaying && !tapToPlay && !playCancelled) {
+                 //console.log('TTP play') //,gaudioContext.current)
+                 //if (gaudioContext.current && gaudioContext.current.state == "running") {
+                     //console.log('TTP play OK')
+                     play()
+                 //} else {
+                     //console.log('TTP play fail')
+                     //stop()
+                 //} 
+                //startPlaying()
+                //setPlayCancelled(false)
+             } else {
+                 //setPlayCancelled(false)
+                 //setTapToPlay(false)
+             }
+         }
+     },[tapToPlay])
     
     function getSrc(tune, mediaLinkNumber) {
         if (tune) {
@@ -145,9 +168,9 @@ export default function useTuneBookMediaController(props) {
         //console.log('media ready',e, playerRef.current)
         cleanupTimers()
         //setIsPlaying(false)
-        //if (isPlaying) {
-            //play()
-        //} 
+        if (isPlaying) {
+            play()
+        } 
         //ytPlayerRef.current = null
         setIsLoading(false)
         setIsReady(true)
@@ -167,9 +190,9 @@ export default function useTuneBookMediaController(props) {
             //console.log('yt ready real')
             cleanupTimers()
             //setIsPlaying(false)
-            //if (isPlaying) {
-                //play()
-            //}
+            if (isPlaying) {
+                play()
+            }
             setIsLoading(false)
             setIsReady(true)
             //playerRef.current = null
@@ -237,16 +260,24 @@ export default function useTuneBookMediaController(props) {
 
     function play() { //useMediaLinkNumber=null, forceTune = null, playType='' ) {
         const useTune =  tune //(forceTune && forceTune.id) ? forceTune : tune
-        //console.log("CONTROLLER play", useTune ,mediaLinkNumber,playerRef.current,ytPlayerRef.current )
         setIsPlaying(true)
         if (props.forceRefresh) props.forceRefresh()
         //forceMidiChange()
         const src = getSrc(useTune,mediaLinkNumber)
         const srcType = getSrcType(src)
+        //console.log("CONTROLLER play", src, srcType, useTune ,mediaLinkNumber,playerRef.current,ytPlayerRef.current )
+        
         if (srcType === 'audio' && playerRef && playerRef.current) {
             //console.log('start audio')
             try {
-                playerRef.current.play()
+                playerRef.current.play().then(
+                    function() {
+                        //console.log("play oinmg NOW")
+                    }).catch(function(e) {
+                        //console.log("play audio ERR")
+                        setTapToPlay(true)
+                    })
+                //console.log("play audio done")
             } catch (e) {
                 setIsPlaying(false)
                 setIsLoading(false)
@@ -256,10 +287,21 @@ export default function useTuneBookMediaController(props) {
             //console.log('start yt',ytPlayerRef.current)
             
             try {
-                ytPlayerRef.current.playVideo()
+                //console.log('start yt try')
+                var res = ytPlayerRef.current.playVideo()
+                //console.log('start yt called play')
+                setTimeout(function() {
+                    //console.log('start yt TO')
+                    //console.log(res, ytPlayerRef.current.getPlayerState())
+                    if (ytPlayerRef.current.getPlayerState() === -1) {
+                        //console.log('start yt set tap to play')
+                        setTapToPlay(true)
+                    }
+                },300)
             } catch (e) {
-                setIsPlaying(false)
-                setIsLoading(false)
+                console.log("YT play err",e)
+                //setIsPlaying(false)
+                //setIsLoading(false)
                 //console.log(e,ytPlayerRef.current)
             }
         } 
@@ -338,7 +380,7 @@ export default function useTuneBookMediaController(props) {
     }
     
     
-    return {play, stop, pause, seek, currentTime,setCurrentTime, duration, setDuration, playerRef,ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash}
+    return {play, stop, pause, seek, currentTime,setCurrentTime, duration, setDuration, playerRef,ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

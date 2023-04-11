@@ -6,7 +6,7 @@ import SearchModal from './SearchModal'
 import WizardOptionsModal from './WizardOptionsModal'
 import LocalSearchSelectorModal from './LocalSearchSelectorModal'
 import TheSessionSearchSelectorModal from './TheSessionSearchSelectorModal'
-
+import MediaSeekSlider from './MediaSeekSlider'
 export default function MusicEditor(props) {
     var [ready, setReady] = useState(false)
     let [seekTo, setSeekTo] = useState(false)
@@ -44,6 +44,7 @@ export default function MusicEditor(props) {
             
            
         </div>
+        <MediaSeekSlider  mediaController={props.mediaController} />
         <AbcEditor mediaController={props.mediaController} pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
         
     </div>

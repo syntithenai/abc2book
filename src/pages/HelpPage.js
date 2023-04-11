@@ -92,7 +92,6 @@ export default function HelpPage(props) {
       The software library that turns an ABC string into printable music is also able to play the music. Where chords are annotated with the music, it will generate and play an piano accompaniment.
       <br/><br/>
       Chords can be entered into the ABC notes by placing quotes around the chord name <i>eg aaaa"C"abcd| "F#m"dcba "Gbdim" ddd||</i>
-      <b>Chords are not saved automatically. Be sure to use the "Generate Music" button to save your chords.</b>
       <br/><br/>
       The harmony structure for a song can be quickly scaffolded using a more compressed format in the chords tab of the editing page.
       <br/><br/>

@@ -179,6 +179,7 @@ export default function useAbcSynth(props) {
                         startPlaying(true)
                     //},100)
                 } 
+                
             }
             if (props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
                 console.log("SYNTH medialinknumber change to",props.mediaController.mediaLinkNumber)
@@ -199,6 +200,13 @@ export default function useAbcSynth(props) {
                     seekPlayer(parseFloat(props.mediaController.clickSeek))
                     currentTime.current = parseFloat(props.mediaController.clickSeek)  * gmidiBuffer.current.duration
                 }
+                //if (props.mediaController.isPlaying) {
+                    ////console.log('SYNTH change play')
+                    //startPlaying()
+                //} else {
+                    ////console.log('SYNTH change stop',gmidiBuffer.current)
+                    //stopPlaying()
+                //}
             }
             if (props.mediaController.isPlaying !== isLastPlaying) {
                 console.log("SYNTH playing change to ",props.mediaController.isPlaying)
@@ -241,6 +249,7 @@ export default function useAbcSynth(props) {
             setClickSeek(props.mediaController.clickSeek)
             setLastPlaybackSpeed(props.mediaController.playbackSpeed)
             setIsLastPlaying(props.mediaController.isPlaying)
+            
         }  else {
             //console.log('USE MEDIA SO CLEAR MIDI')
             resetAudioState()
@@ -253,7 +262,26 @@ export default function useAbcSynth(props) {
         
     },[(props.mediaController ? props.mediaController.isPlaying : null), (props.mediaController ? props.mediaController.clickSeek : null), (props.mediaController ?  props.mediaController.mediaLinkNumber : null), (props.mediaController ? props.mediaController.playbackSpeed : null), (props.mediaController ? props.mediaController.midiHash.current : null), (props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null)])
     
-     
+     useEffect(function() {
+         //console.log('TTP',tapToPlay , playCancelled)
+         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
+             if (!tapToPlay && !playCancelled) {
+                 console.log('TTP play',gaudioContext.current)
+                 if (gaudioContext.current && gaudioContext.current.state == "running") {
+                     console.log('TTP play OK')
+                     startPlaying()
+                 } else {
+                     console.log('TTP play fail')
+                     stopPlaying()
+                 } 
+                //startPlaying()
+                //setPlayCancelled(false)
+             } else {
+                 //setPlayCancelled(false)
+                 //setTapToPlay(false)
+             }
+         }
+     },[tapToPlay])
      
      function createCursor() {
         var line = document.querySelector("#abc_music_viewer svg line");
@@ -450,24 +478,24 @@ export default function useAbcSynth(props) {
     function startPlaying(force = false) {
         //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
         setForceStop(false)
-        //console.log("SYNTH START PLAYING",tune, isPlaying)
+        console.log("SYNTH START PLAYING",tune, isPlaying, force)
         if (gaudioContext.current && gmidiBuffer.current) {
           //console.log('start playing ok - tune primed')
 
           startPrimedTune(force)
           if (props.onStarted) props.onStarted()
         } else {
-            //console.log('start playing NOT ok ')
+            console.log('start playing NOT ok ')
             setStarted(true)
             //resetAudioState()
             createPlayer(tune, gvisualObj.current).then(function(p) {
-                  //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
+                  console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
                  var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                  assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
                  setSeekTo(0)
                  setPlayCount(0)
                  //if (audioContext && props.autoStart) {
-                    //console.log('start playing NOT ok ')
+                    console.log('start playing NOT ok ')
                    startPlaying(true)
                    //if (props.onStarted) props.onStarted()
                  //}
@@ -535,29 +563,32 @@ export default function useAbcSynth(props) {
                if (gtimingCallbacks.current) gtimingCallbacks.current.setProgress(0)
            } catch (e) {}
         }
-        try {
-          if (gmidiBuffer.current && play)  gmidiBuffer.current.start()
-          if (gtimingCallbacks.current && play) gtimingCallbacks.current.start()
-        } catch (e) {}
+        if (play) startMidiAndTiming()
     }
     
-    
+  function startMidiAndTiming() {
+       console.log("start buffer and timing",gmidiBuffer.current)
+      try {
+          if (gmidiBuffer.current)  gmidiBuffer.current.start()
+          if (gtimingCallbacks.current) gtimingCallbacks.current.start()
+      } catch (e) {
+        console.log("start buffer and timing ERROR")
+        console.log(e)
+      }
+  }
     
   function startPrimedTune(force = false) {
-    //console.log('SYNTH startPrimedTune primed tune',currentTime, gmidiBuffer.current.duration, seekTo, 'rp',realProgress, 'clickseek',clickSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
+    console.log('SYNTH startPrimedTune primed tune',currentTime, gmidiBuffer.current.duration, seekTo, 'rp',realProgress, 'clickseek',clickSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
     var emergencyStop = getForceStop()
     var seekTo = currentTime.current
     if (!isPlaying) { // || force) {
         if (!emergencyStop) {
           if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
               if (seekTo > 0) { 
-                //console.log('SYNTH startPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
+                console.log('SYNTH startPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
                 //seekPlayer(seekTo/gmidiBuffer.current.duration, true)
                 setIsPlaying(true)
-                try {
-                    gmidiBuffer.current.start()
-                    gtimingCallbacks.current.start()
-                } catch(e) {} 
+                startMidiAndTiming()
                 if (props.onStarted) props.onStarted()
               } else {
                 //console.log('SYNTH startPrimedTune with metronome',gvisualObj)
@@ -590,26 +621,26 @@ export default function useAbcSynth(props) {
                 //console.log('metro beats','PICKUP LENGTH',o.getPickupLength(),'BEAT LENGTH',o.getBeatLength(), 'BEATS PER MEASURE',o.getBeatsPerMeasure(), 'MS PER MEASURE',o.millisecondsPerMeasure(), 'METRONOME BEATS',metronomeBeats, 'BEAT OVERFLOW',beatOverflow,'BEAT DURATION', beatDuration, 'DELAY',delay)
                 
                 function startWithMetronome() {
-                    //console.log('start with metro')
+                    //console.log('start with metro',delay)
                     if (props.metronomeCountIn) {
                       var warp =  props.warp > 0 ? props.warp : 1
-                      metronome.current = new Metronome(tune.tempo * warp, o.getBeatsPerMeasure(), metronomeBeats , function() {
+                      
+                       metronome.current = new Metronome(gaudioContext.current, tune.tempo * warp, o.getBeatsPerMeasure(), metronomeBeats , function() {
+                        //console.log('metronome CB')
                         // wait one more beat
                         metronomeTimeout.current = setTimeout(function() {
-                            try {
-                              gmidiBuffer.current.start()
-                              gtimingCallbacks.current.start()
-                            } catch (e) {}
+                            //console.log('metronome CB start')
+                            startMidiAndTiming()
                         },delay)
+                      }, function() {
+                          //console.log('metronome failed CB')
+                          setTapToPlay(true)
                       });
                       //console.log('start metronome')
                       metronome.current.start()
                     } else {
-                        //console.log('start NO metronome')
-                        try {
-                            gmidiBuffer.current.start()
-                            gtimingCallbacks.current.start()
-                        } catch (e) {}
+                        console.log('start NO metronome')
+                       startMidiAndTiming()
                     }
                   
                 }
@@ -636,11 +667,11 @@ export default function useAbcSynth(props) {
           }
           //console.log('started primed tune')
         } else {
-            //console.log('SYNTH start primed tune emergency stop')
+            console.log('SYNTH start primed tune emergency stop')
           stopPlaying()
         }
     } else {
-        //console.log('SYNTH start primed tune already started')
+        console.log('SYNTH start primed tune already started')
         //stopPlaying()
         //setTimeout(function() {
             //startPlaying()
@@ -648,13 +679,10 @@ export default function useAbcSynth(props) {
         //props.mediaController.forceMidiChange()
         if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
               //if (seekTo > 0) { 
-                //console.log('SYNTH startPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
+                console.log('SYNTH REstartPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
                 //seekPlayer(seekTo/gmidiBuffer.current.duration, true)
                 //setIsPlaying(true)
-                try {
-                    gmidiBuffer.current.start()
-                    gtimingCallbacks.current.start()
-                } catch(e) {} 
+                startMidiAndTiming()
                 if (props.onStarted) props.onStarted()
             //}
         }
