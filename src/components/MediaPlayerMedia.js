@@ -257,7 +257,10 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             onReady={mediaController.onYtReady}
          />
     }
-    return <div >{content}</div>
+    return <div id={src} >
+        <div style={{display:'none'}}>{src}</div>
+        {content}
+    </div>
     
 }
 //<div id={src} >

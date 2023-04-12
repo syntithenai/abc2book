@@ -1,14 +1,54 @@
 import {Tabs, Tab, Modal, Button, ListGroup, Container, Col, Row} from 'react-bootstrap'
-import {Link} from 'react-router-dom'
-
+import {Link, useNavigate} from 'react-router-dom'
+import DiffModal from './DiffModal'
+//<DiffModal label={'Show Differences'} original={props.tunebook.abcTools.json2abc(v[0])}  modified={props.tunebook.abcTools.json2abc(v[1])} />
 
 export default function ImportWarningDialog(props) {
 //console.log(props.importResults)
-
+  var navigate = useNavigate()
+  
   function handleClose(e) {
     props.closeWarning()
   }
-
+  
+  function handleNavigation(tunes) {
+      //console.log("NAV",tunes,props.navigateTo)
+      props.setImportResults(null)
+      //props.forceRefresh()
+      var params = {}
+      try {
+          params = props.navigateAfterImport
+      } catch (e) {
+        params = {}  
+      }
+      //console.log("NAV PARAMS",params)
+      //navigate('/tunes')
+      
+      if (params.autoplay && tunes) {
+            if (params.tuneId) {
+                navigate("/tunes"+(params.tuneId ? "/" + params.tuneId + (params.autoplay ? "/playMedia" : '') : ''))
+            } else {
+                var firstTuneId = props.tunebook.fillMediaPlaylist(
+                    params.bookName,
+                    '', (params.tagName && params.tagName.trim() ? [params.tagName] : []),tunes) 
+                navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + (params.autoplay ? "/playMedia" : '') : ''))
+            }
+            
+      } else { 
+          if (params.tuneId) {
+              navigate("/tunes/"+params.tuneId + (params.autoplay ? "/playMedia" : ''))
+          } else if (params.bookName || params.tagName) {
+              navigate("/tunes")
+          } else {
+              navigate("/books")
+          }
+          //console.log("GO TO ",params.bookName  )
+          
+      }
+      
+      
+  }
+    
   return <Modal.Dialog  show="true" onHide={handleClose}
     backdrop="static"
     style={{minWidth:'95%'}} 
@@ -28,13 +68,13 @@ export default function ImportWarningDialog(props) {
           
           <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
-            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" onClick={function() {props.tunebook.applyImport()}} >Import</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
             
-            &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true)}} >Import With Duplicates</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true).then(handleNavigation)}} >Import With Duplicates</Button> : null}
             
-            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(false,true)}} >Discard Local Changes</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(false,true).then(handleNavigation)}} >Discard Local Changes</Button> : null}
             
-            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0 && Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true,true)}} >Import Duplicates and Discard Local Changes</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0 && Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true,true).then(handleNavigation)}} >Import Duplicates and Discard Local Changes</Button> : null}
             
             &nbsp;
             
@@ -52,12 +92,13 @@ export default function ImportWarningDialog(props) {
               {Object.values(props.importResults.inserts).map(function(v,k) {
                 return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
                    <Container><Row>
-                     <Col xs='3' > &nbsp;
+                     <Col xs='4' > &nbsp;
+                        
                         <span >{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasNotes) ? <Button variant="outline-primary">{props.tunebook.icons.music}</Button> : null}</span>
                         <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
                         <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.words}</Button> : null}</span>
                     </Col>
-                    <Col xs='9'  >{v.name} </Col>
+                    <Col xs='8'  >{v.name} </Col>
                   </Row></Container> 
                 </ListGroup.Item>
               })}

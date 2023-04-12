@@ -20,6 +20,7 @@ import useAbcjsParser from '../useAbcjsParser'
 import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
+import SharePublicTuneModal from '../components/SharePublicTuneModal'
   //return (
     //<ReactTags
       //ref={reactTags}
@@ -322,7 +323,8 @@ export default function MusicSingle(props) {
         //console.log('uniq',uniqueChords)
         return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
-                
+                 <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
+               
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
                  <Dropdown >
                       <Dropdown.Toggle variant="info" id="dropdown-basic" style={{height:'2.4em'}}>
@@ -356,20 +358,11 @@ export default function MusicSingle(props) {
                 
                 <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
 
-                <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
-                <ButtonToolbar
                 
-                    className=""
-                  >
-                  
-                    
-                    
-    
-                    {props.mediaPlaylist === null && <span style={{float:'left', marginLeft:'0.2em'}} >
-                        
-                        
-                        
-                        <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
+                <ButtonToolbar
+                    className="" style={{float:'left'}}
+                  >{<span style={{float:'left', marginLeft:'0.1em'}} >
+                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
                             function(links) { 
                                 if (tune) {
                                     tune.links = links
@@ -387,7 +380,8 @@ export default function MusicSingle(props) {
                    
                   
                 </ButtonToolbar>
-                
+                 <span style={{float:'left', marginLeft:'0.2em'}} ><SharePublicTuneModal tunebook={props.tunebook} tune={tune} /></span>
+
             </div>
             
              <MediaSeekSlider  mediaController={props.mediaController} />

@@ -334,6 +334,11 @@ export default function AbcEditor(props) {
                        
                       </Form.Group>
                       
+                       <Form.Group className="mb-3" controlId="srcUrl">
+                        <Form.Label>Source URL</Form.Label>
+                        <Form.Control   value={tune.srcUrl ? tune.srcUrl : ''} onChange={function(e) {tune.srcUrl = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
+                      </Form.Group>
+                      
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >

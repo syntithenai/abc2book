@@ -233,8 +233,9 @@ var useAbcTools = () => {
                     tune.soundFonts = line.slice(21).trim()
                 } else  if (line.startsWith('% abcbook-repeats')) {
                     tune.repeats = line.slice(17).trim()
-               
-                } else  if (line.startsWith('% abcbook-file-')) {
+               } else  if (line.startsWith('% abcbook-src-url')) {
+                    tune.srcUrl = line.slice(17).trim()
+               } else  if (line.startsWith('% abcbook-file-')) {
                     if (line.startsWith('% abcbook-file-type-')) {
                         var parts = line.trim().split('% abcbook-file-type-')
                         //console.log('TTs',parts)
@@ -449,6 +450,7 @@ var useAbcTools = () => {
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 
                     + "% abcbook-lastupdated " +  ensureNumber(tune.lastUpdated) + "\n" 
+                    + "% abcbook-src-url " +  ensureText(tune.srcUrl) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
                     + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')

@@ -70,6 +70,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
               <option value="composer">Artist</option>
               <option value="tranpose">Transpose</option>
               <option value="repeats">Repeats</option>
+              <option value="srcUrl">Source URL</option>
            </Form.Select>
            <Form.Label>New Value</Form.Label>
            <Form.Control type="text" placeholder="" onChange={function(e) {setValue(e.target.value)}} value={value} />

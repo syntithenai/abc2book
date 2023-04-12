@@ -164,13 +164,13 @@ export default function useAbcSynth(props) {
         //props.mediaController.isPlaying, isLastPlaying,"TIME", props.mediaController.currentTime,"CLICKTIME", props.mediaController.clickSeek,clickSeek,  props.mediaController.mediaLinkNumber, props.mediaController.midiHash.current, props.mediaController.mediaLinkNumber,lastMediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
             if (props.mediaController.playbackSpeed !== lastPlaybackSpeed) {
-                console.log("SYNTH play speed change", props.mediaController.playbackSpeed)
+                //console.log("SYNTH play speed change", props.mediaController.playbackSpeed)
                 stopPlaying()
                 resetAudioState()
             }
             var nowTuneId = props.mediaController.tune ? props.mediaController.tune.id : null
             if (nowTuneId !== lastTuneId) {
-                console.log("SYNTH tune id change to",props.mediaController.tune.id)
+                //console.log("SYNTH tune id change to",props.mediaController.tune.id)
                 //stopPlaying()
                 resetAudioState()
                 if (props.mediaController.isPlaying) {
@@ -182,7 +182,7 @@ export default function useAbcSynth(props) {
                 
             }
             if (props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
-                console.log("SYNTH medialinknumber change to",props.mediaController.mediaLinkNumber)
+                //console.log("SYNTH medialinknumber change to",props.mediaController.mediaLinkNumber)
                 //stopPlaying()
                 resetAudioState()
                 if (props.mediaController.isPlaying) {
@@ -194,7 +194,7 @@ export default function useAbcSynth(props) {
             } 
 
             if (props.mediaController.currentTime == 0 ||props.mediaController.clickSeek !== clickSeek) {
-                console.log("SYNTH click seek change", props.mediaController.clickSeek)
+                //console.log("SYNTH click seek change", props.mediaController.clickSeek)
                 if (gmidiBuffer.current) {
                     setSeekTo(props.mediaController.clickSeek * gmidiBuffer.current.duration)
                     seekPlayer(parseFloat(props.mediaController.clickSeek))
@@ -266,12 +266,12 @@ export default function useAbcSynth(props) {
          //console.log('TTP',tapToPlay , playCancelled)
          if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
              if (!tapToPlay && !playCancelled) {
-                 console.log('TTP play',gaudioContext.current)
+                 //console.log('TTP play',gaudioContext.current)
                  if (gaudioContext.current && gaudioContext.current.state == "running") {
-                     console.log('TTP play OK')
+                     //console.log('TTP play OK')
                      startPlaying()
                  } else {
-                     console.log('TTP play fail')
+                     //console.log('TTP play fail')
                      stopPlaying()
                  } 
                 //startPlaying()
@@ -432,7 +432,7 @@ export default function useAbcSynth(props) {
     }
     
       async function saveAudioToCache(tuneId,audioBuffers, duration) {
-      console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
+      //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
       if (duration > 0) {
         //let encoder = new Encoder();
         //var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
@@ -441,7 +441,7 @@ export default function useAbcSynth(props) {
         converter.convertAudioBuffer(audioBuffers[0], {
             bitRate: 96
         }).then(function (blob) {
-          console.log('SAVEaudio converted',blob)
+          //console.log('SAVEaudio converted',blob)
           store.setItem(tuneId, [duration, blob] ).then(function () {
             return store.getItem(tuneId);
           })
@@ -451,7 +451,7 @@ export default function useAbcSynth(props) {
     }
     
     async function  getAudioFromCache(tuneId) {
-      console.log('getaudio',tuneId)
+      //console.log('getaudio',tuneId)
       //let decoder = new Decoder();
       return store.getItem(tuneId).then(function (val) {
         if (val && Array.isArray(val)) {
@@ -462,7 +462,7 @@ export default function useAbcSynth(props) {
             //console.log('getaudio got',duration, buffers, arrayBuffer)
             //var audioBuffer = await 
             return context.decodeAudioData(arrayBuffer).then(function(audioBuffer) {
-              console.log('getaudio decoded',audioBuffer)
+              //console.log('getaudio decoded',audioBuffer)
               return [duration, [audioBuffer,audioBuffer]]
             })
           })
@@ -478,18 +478,18 @@ export default function useAbcSynth(props) {
     function startPlaying(force = false) {
         //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
         setForceStop(false)
-        console.log("SYNTH START PLAYING",tune, isPlaying, force)
+        //console.log("SYNTH START PLAYING",tune, isPlaying, force)
         if (gaudioContext.current && gmidiBuffer.current) {
           //console.log('start playing ok - tune primed')
 
           startPrimedTune(force)
           if (props.onStarted) props.onStarted()
         } else {
-            console.log('start playing NOT ok ')
+            //console.log('start playing NOT ok ')
             setStarted(true)
             //resetAudioState()
             createPlayer(tune, gvisualObj.current).then(function(p) {
-                  console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
+                  //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
                  var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                  assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
                  setSeekTo(0)
@@ -567,7 +567,7 @@ export default function useAbcSynth(props) {
     }
     
   function startMidiAndTiming() {
-       console.log("start buffer and timing",gmidiBuffer.current)
+       //console.log("start buffer and timing",gmidiBuffer.current)
       try {
           if (gmidiBuffer.current)  gmidiBuffer.current.start()
           if (gtimingCallbacks.current) gtimingCallbacks.current.start()
@@ -578,14 +578,14 @@ export default function useAbcSynth(props) {
   }
     
   function startPrimedTune(force = false) {
-    console.log('SYNTH startPrimedTune primed tune',currentTime, gmidiBuffer.current.duration, seekTo, 'rp',realProgress, 'clickseek',clickSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
+    //console.log('SYNTH startPrimedTune primed tune',currentTime, gmidiBuffer.current.duration, seekTo, 'rp',realProgress, 'clickseek',clickSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
     var emergencyStop = getForceStop()
     var seekTo = currentTime.current
     if (!isPlaying) { // || force) {
         if (!emergencyStop) {
           if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
               if (seekTo > 0) { 
-                console.log('SYNTH startPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
+                //console.log('SYNTH startPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
                 //seekPlayer(seekTo/gmidiBuffer.current.duration, true)
                 setIsPlaying(true)
                 startMidiAndTiming()
@@ -639,7 +639,7 @@ export default function useAbcSynth(props) {
                       //console.log('start metronome')
                       metronome.current.start()
                     } else {
-                        console.log('start NO metronome')
+                        //console.log('start NO metronome')
                        startMidiAndTiming()
                     }
                   
@@ -679,7 +679,7 @@ export default function useAbcSynth(props) {
         //props.mediaController.forceMidiChange()
         if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
               //if (seekTo > 0) { 
-                console.log('SYNTH REstartPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
+                //console.log('SYNTH REstartPrimedTune with seek ',seekTo, currentTime, gmidiBuffer.current.duration)
                 //seekPlayer(seekTo/gmidiBuffer.current.duration, true)
                 //setIsPlaying(true)
                 startMidiAndTiming()
@@ -712,7 +712,7 @@ export default function useAbcSynth(props) {
   } 
 
   function primeTune(tune, audioContext, visualObj, force = false) {
-      console.log('PRIME TUNE',tune.tempo, isLoading.current, tune, audioContext, visualObj,props)
+      //console.log('PRIME TUNE',tune.tempo, isLoading.current, tune, audioContext, visualObj,props)
       //var tempo = tune ? tune.tempo : 100
       return new Promise(function(resolve,reject) {
           if (isLoading.current) {

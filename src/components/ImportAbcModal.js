@@ -27,17 +27,18 @@ function ImportAbcModal(props) {
           var results = props.tunebook.importAbc(list,props.currentTuneBook)
       console.log("gotreeees",results,props.tunebook.showImportWarning(results))
       if (!props.tunebook.showImportWarning(results)) {
-          props.tunebook.applyImportData(results)
-          setTimeout(function() {
-              if (props.currentTuneBook) {
-                  navigate("/blank")
-                  setTimeout(function() {
-                    navigate("/tunes")
-                  },200)
-              } else {
-                navigate("/books")
-              }
-          },800)
+          props.tunebook.applyImportData(results).then(function() {
+              //setTimeout(function() {
+                  if (props.currentTuneBook) {
+                      navigate("/blank")
+                      setTimeout(function() {
+                        navigate("/tunes")
+                      },200)
+                  } else {
+                    navigate("/books")
+                  }
+              //},800)
+         })
           
       }
     

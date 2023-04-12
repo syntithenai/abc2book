@@ -22,7 +22,7 @@ export default function useTuneBookMediaController(props) {
     var youtubeProgressInterval = useRef()
     
     function cleanupTimers() {
-        console.log('CLEANUP TIMERS')
+        //console.log('CLEANUP TIMERS')
         clearInterval(youtubeProgressInterval.current)
         youtubeProgressInterval.current = null
     }
@@ -289,17 +289,17 @@ export default function useTuneBookMediaController(props) {
             try {
                 //console.log('start yt try')
                 var res = ytPlayerRef.current.playVideo()
-                //console.log('start yt called play')
+                console.log('start yt called play')
                 setTimeout(function() {
-                    //console.log('start yt TO')
-                    //console.log(res, ytPlayerRef.current.getPlayerState())
+                    console.log('start yt TO')
+                    console.log(res, ytPlayerRef.current.getPlayerState())
                     if (ytPlayerRef.current.getPlayerState() === -1) {
-                        //console.log('start yt set tap to play')
+                        console.log('start yt set tap to play')
                         setTapToPlay(true)
                     }
-                },300)
+                },4000)
             } catch (e) {
-                console.log("YT play err",e)
+                //console.log("YT play err",e)
                 //setIsPlaying(false)
                 //setIsLoading(false)
                 //console.log(e,ytPlayerRef.current)

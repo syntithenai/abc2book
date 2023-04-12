@@ -3,10 +3,16 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
 
-export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter}) {
+export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter,  navigateAfterImport, setNavigateAfterImport }) {
+    
+    //useEffect(function() {
+        //localStorage.setItem('importPlay',(autoplay ? 'true' : 'false'))
+    //},[])
+    
     var navigate = useNavigate()
     var params = useParams()
-    //console.log(params)
+    //console.log("IMPLINK",params, {tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter, setNavigateAfterImport})
+    
     const [error,setError] = useState('')
     const [clickToStart, setClickToStart] = useState(false)
     //if (curated.hasOwnProperty(params.curation)) {
@@ -18,7 +24,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
     function handleCloseAgree() {
         //console.log('close',params)
         if (params.tuneId) {
-            navigate("/tunes/")
+            navigate("/tunes/"+params.tuneId)
         } else {
             navigate("/tunes")
         }
@@ -38,63 +44,53 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
       } else {
           //if (token) {
               // load document 
-              console.log('ldd DO',params.link, params)
+              //console.log('ldd DO',params.link, params)
               axios.get(params.link).then(function(res) {
                   if (res.data) {
                       //console.log("gotres",res.data.length)
+                      
                       var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName, params.tagName)
-                      //console.log("gotreeees",results)
+                      setCurrentTuneBook('')
+                      if (params.bookName) {
+                      //setTimeout(function() {
+                          setCurrentTuneBook(params.bookName)
+                      }
+                      setTagFilter([])
+                      if (params.tagName) {
+                          setTagFilter([params.tagName])
+                      }
+                      //console.log("gotreeees",results) 
                       if (!tunebook.showImportWarning(results)) {
                           //console.log("no show warning", autoplay , setMediaPlaylist)
                           tunebook.applyMergeData(results).then(function(mergedTunes) {
-                                console.log('applied', mergedTunes)
+                              
                               if (autoplay && setMediaPlaylist && mergedTunes) {
-                                    var tunes=[]
-                                    //forceRefresh()
-                                    //console.log('aplay tunes from book',tunes)
-                                    //setTunes(tunes)
-                                    setCurrentTuneBook('')
-                                    if (params.bookName) {
-                                    //setTimeout(function() {
-                                        setCurrentTuneBook(params.bookName)
-                                    }
-                                    setTagFilter([])
-                                    if (params.tagName) {
-                                        setTagFilter([params.tagName])
-                                        //tunes = tunebook.mediaFromTag(params.tagName)
-                                    }
-                                     //else {
-                                        //tunes = tunebook.mediaFromBook(params.bookName, mergedTunes)
-                                    //}
-                                    
-                                    var firstTuneId = tunebook.fillMediaPlaylist(
-                                        params.bookName,
-                                        (Array.isArray(results) ? results.map(function(result) {
-                                            return result.id
-                                        }).join(","): ''), (params.tagName && params.tagName.trim() ? [params.tagName] : []),mergedTunes) 
-                                    navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + '/playMedia' : ''))
-                                    //setMediaPlaylist({currentTune: 0, book:params.bookName, tunes:tunes})
-                                        //setClickToStart(true)
-                                    //}, 200)
-                              } else {  
-                                  setTagFilter([])
-                                  if (params.tagName) {
-                                    setTagFilter([params.tagName])
-                                  }
-                                  setCurrentTuneBook('')
-                                    if (params.bookName) {
-                                    //setTimeout(function() {
-                                        setCurrentTuneBook(params.bookName)
-                                    }
-                                    if (params.bookName || params.tagName) {
-                                        navigate("/tunes")
+                                    if (params.tuneId) {
+                                        navigate("/tunes"+(params.tuneId ? "/" + params.tuneId + (autoplay ? "/playMedia" : '') : ''))
                                     } else {
-                                        navigate("/books")
+                                        var firstTuneId = tunebook.fillMediaPlaylist(
+                                            params.bookName,
+                                            (Array.isArray(results) ? results.map(function(result) {
+                                                return result.id
+                                            }).join(","): ''), (params.tagName && params.tagName.trim() ? [params.tagName] : []),mergedTunes) 
+                                        navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + (autoplay ? "/playMedia" : '') : ''))
                                     }
+                                    
+                              } else { 
+                                  if (params.tuneId) {
+                                      navigate("/tunes/"+params.tuneId + (autoplay ? "/playMedia" : ''))
+                                  } else if (params.bookName || params.tagName) {
+                                      navigate("/tunes")
+                                  } else {
+                                      navigate("/books")
+                                  }
                                   //console.log("GO TO ",params.bookName  )
                                   
                               }
                           })
+                      } else {
+                          setNavigateAfterImport(Object.assign({},params,{autoplay:autoplay}))
+                          //localStorage.setItem('afterImportNavigateTo',(autoplay ? 'true' : 'false'))
                       }
                       
                   } else {
