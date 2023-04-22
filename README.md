@@ -76,10 +76,20 @@ The scrape folder includes scripts for scraping data from Internet sources.
 - https://github.com/tombatossals/react-chords
 - https://chordmark.netlify.app/docs/overview/what-is-chordmark
 - https://github.com/tonaljs/tonal
-## other links
 
+## other links
 - https://github.com/WebAudio/web-audio-api/issues/2423
 - https://web.dev/service-worker-lifecycle/
 
+### pitch detection
+- https://github.com/peterkhayes/pitchfinder
+- https://mtg.github.io/essentia.js/
+- https://www.tensorflow.org/hub/tutorials/spice
+
+### midi
+- https://github.com/grimmdude/MidiPlayerJS
+- https://github.com/danigb/soundfont-player
+- https://github.com/danigb/sample-player
+- https://github.com/audiojs/audio-loader
 
 

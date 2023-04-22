@@ -231,6 +231,22 @@ export default function utilsFunctions(props) {
       element.click();
       document.body.removeChild(element);
     }
+    
+    
+    function loadFileFromUrl(url) {
+        return new Promise(function(resolve,reject) {
+            const xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+              if (this.readyState === 4 && this.status === 200) {
+                resolve(xhr.response)
+              }
+            };
+            xhr.open('GET', url, true);
+            xhr.responseType = 'arraybuffer';
+            xhr.send();
+        })
+    }
+        
 
     /**
     * Copy text from the clipboard
@@ -319,6 +335,6 @@ export default function utilsFunctions(props) {
     }
      
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey}
+    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl}
     
 }

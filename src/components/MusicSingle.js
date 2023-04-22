@@ -264,42 +264,7 @@ export default function MusicSingle(props) {
         }
        
         function downloadMidi() {
-            //console.log('DL')
-            var useTune = JSON.parse(JSON.stringify(tune))
-            // multiply notes to support repeats
-            if (useTune.repeats > 1 && useTune.voices && Object.keys(useTune.voices).length > 0) {
-                var newVoices = {}
-                Object.keys(useTune.voices).map(function(vKey) {
-                  newVoices[vKey] = useTune.voices[vKey]  
-                  newVoices[vKey].notes = newVoices[vKey].notes.join("\n").repeat(useTune.repeats).split("\n")
-                })
-                useTune.voices = newVoices
-            } 
-            // transpose
-            var abc = props.tunebook.abcTools.json2abc(useTune)
-            //console.log("adddbc",abc)    
-            if (useTune.transpose !== 0) { 
-                var visualObj = abcjs.renderAbc("transpose_render", abc);
-                try {
-                    abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
-                } catch (e) {
-                    console.log("Failed tranpose", e)
-                }
-            }
-            var a = new Date().getTime()
-            var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: "binary" });
-            console.log(new Date().getTime() - a,"ms to render midi")
-            //document.getElementById("midi-link").innerHTML = midi;
-            if (midi) { 
-                var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
-                var a = document.createElement("a");
-                document.body.appendChild(a);
-                a.style = "display: none";
-                a.href = url;
-                a.download = (tune.name ? tune.name : 'download') + ".midi";
-                a.click();
-                window.URL.revokeObjectURL(url);
-            }
+            props.tunebook.downloadMidi(tune)
         }
         
         
@@ -383,8 +348,7 @@ export default function MusicSingle(props) {
                  <span style={{float:'left', marginLeft:'0.2em'}} ><SharePublicTuneModal tunebook={props.tunebook} tune={tune} /></span>
 
             </div>
-            
-             <MediaSeekSlider  mediaController={props.mediaController} />
+             {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
           
            
              {props.viewMode === 'chords' && <>

@@ -21,32 +21,14 @@ export default function MediaPlayerButtons({mediaController, tunebook, buttonSiz
            }
    },[mediaController.tune ? JSON.stringify(mediaController.tune) : null])
    
-   if (mediaController.tune && (location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0)) { 
+   if (mediaController.tune && (location.pathname.indexOf("/blank") === 0 ||location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0)) { 
        return <ButtonGroup>
                 <>
                     {(showButtons && mediaController.isLoading) && <Button size={useButtonSize} variant="secondary" onClick={function() {mediaController.pause(); mediaController.setIsLoading(false); mediaController.setIsReady(false)}} >{tunebook.icons.waiting}</Button>}
                     {(showButtons  && !mediaController.isLoading) && <>
                         {(mediaController.isPlaying) 
                             ? <Button size={useButtonSize} variant="warning" onClick={function() {
-                                    if (clickTimeout) {
-                                        //console.log('CCdouble')
-                                        // double click
-                                        clearTimeout(clickTimeout)
-                                        clickTimeout = null
-                                        mediaController.setClickSeek(0); 
-                                        mediaController.setCurrentTime(0); 
-                                        mediaController.seek(0)
-                                        mediaController.play()
-                                    } else {
-                                        //console.log('CCsingle start')
-                                         clickTimeout = setTimeout(function() {
-                                            //console.log('CCsingle run')
-                                            mediaController.pause()
-                                            clearTimeout(clickTimeout)
-                                            clickTimeout = null
-                                        },200)
-                                    }
-                                    
+                                    mediaController.pause()
                             }} >{tunebook.icons.pause}</Button>
                            
                             : <Button size={useButtonSize} variant="success"  onClick={function() {

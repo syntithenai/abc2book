@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import BooksPage from './pages/BooksPage'
 import PrintPage from './pages/PrintPage'
 import PianoPage from './pages/PianoPage'  
+import BlankPage from './pages/BlankPage'
 import TunerPage from './pages/TunerPage'
 import DownloadPlaylistPage from './pages/DownloadPlaylistPage'
 import MetronomePage from './pages/MetronomePage'
@@ -442,7 +443,7 @@ function App(props) {
                     </Route>
                     
                     
-                    <Route path={'blank'} element={<></>} />
+                    <Route path={'blank'} element={<BlankPage mediaController={mediaController} />} />
                     
                   </Routes>
                   

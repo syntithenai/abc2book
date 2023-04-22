@@ -45,7 +45,7 @@ export default function RepeatsEditorModal(props) {
   
   return (
     <>
-      {<Button onClick={handleShow} variant="primary" >{props.tunebook.icons.timer2line} {props.playCount + 1}/{repeats}</Button>}
+      {(props.mediaController && props.mediaController.mediaLinkNumber === null) && <Button onClick={handleShow} variant="primary" >{props.tunebook.icons.timer2line} {props.playCount + 1}/{repeats}</Button>}
 
       <Modal  onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>

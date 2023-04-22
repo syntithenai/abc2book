@@ -6,6 +6,7 @@ import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
+import abcjs from "abcjs";
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
   //console.log('usetuneook',typeof tunes)
@@ -1391,7 +1392,54 @@ The main difference between the two functions is the additional condition in app
         return (tune && (hasNotes(tune) || abcTools.hasChords(abcTools.getNotes(tune)))) ? true : false
     }
     
+    function getMidiData(tune, outputType="binary") {
+        //console.log('getMidiData',tune)
+        if (tune) {
+            var useTune = JSON.parse(JSON.stringify(tune))
+            // multiply notes to support repeats
+            if (useTune.repeats > 1 && useTune.voices && Object.keys(useTune.voices).length > 0) {
+                var newVoices = {}
+                Object.keys(useTune.voices).map(function(vKey) {
+                  newVoices[vKey] = useTune.voices[vKey]  
+                  newVoices[vKey].notes = newVoices[vKey].notes.join("\n").repeat(useTune.repeats).split("\n")
+                })
+                useTune.voices = newVoices
+            } 
+            // transpose
+            var abc = abcTools.json2abc(useTune)
+            //console.log("adddbc",abc)    
+            if (useTune.transpose !== 0) { 
+                var visualObj = abcjs.renderAbc("transpose_render", abc);
+                try {
+                    abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
+                } catch (e) {
+                    console.log("Failed tranpose", e)
+                }
+            }
+            var a = new Date().getTime()
+            var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: outputType });
+            return midi
+        }
+    }
+    
+    function downloadMidi(tune) {
+            //console.log('DL')
+            var midi = getMidiData(tune)
+            console.log(new Date().getTime() - a,"ms to render midi")
+            //document.getElementById("midi-link").innerHTML = midi;
+            if (midi) { 
+                var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
+                var a = document.createElement("a");
+                document.body.appendChild(a);
+                a.style = "display: none";
+                a.href = url;
+                a.download = (tune.name ? tune.name : 'download') + ".midi";
+                a.click();
+                window.URL.revokeObjectURL(url);
+            }
+        }
+    
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords };
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData};
 }
 export default useTuneBook

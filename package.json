@@ -27,6 +27,7 @@
     "jwt-decode": "^3.1.2",
     "localforage": "^1.10.0",
     "mathjs": "^10.5.2",
+    "midi-player-js": "^2.0.16",
     "midi.js": "^0.3.1",
     "music-scale": "^1.2.0",
     "puppeteer": "^14.2.0",
