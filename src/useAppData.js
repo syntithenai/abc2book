@@ -40,6 +40,7 @@ export default function useAppData() {
   var [listHash, setListHash] = useState('')
   var [tagCollation, setTagCollation] = useState({})
   
+  //var [zoom, setZoom] = useState(1)
   // selected tunes (list checkboxes) 
   // eg {<tuneId>:true, <tuneId>:true, <tuneId>:false }
   var [selected, setSelected] = useState({})

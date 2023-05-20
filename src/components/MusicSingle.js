@@ -283,13 +283,31 @@ export default function MusicSingle(props) {
             props.tunebook.saveTune(tune)
         }
         
+        function zoomIn() {
+            console.log("zoomin",tune)
+            var zoom = tune && tune.zoom && tune.zoom < 5 ? tune.zoom : 1 
+            tune.zoom = zoom + 0.1
+            props.tunebook.saveTune(tune)
+        }
+        
+        function zoomOut() {
+            console.log("zoomout",tune)
+            var zoom = tune && tune.zoom && tune.zoom < 5 ? tune.zoom : 1 
+            tune.zoom = zoom - 0.1
+            props.tunebook.saveTune(tune)
+        }
+        
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
         return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                  <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
-               
+                 
+                 {props.viewMode === 'chords' && <>
+                 <Button onClick={zoomIn} style={{float:'right', marginLeft:'0.3em'}} >{props.tunebook.icons.zoomin}</Button>
+                 <Button onClick={zoomOut} style={{float:'right', marginLeft:'0.3em'}} >{props.tunebook.icons.zoomout}</Button>
+                  </>}
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
                  <Dropdown >
                       <Dropdown.Toggle variant="info" id="dropdown-basic" style={{height:'2.4em'}}>
@@ -359,7 +377,7 @@ export default function MusicSingle(props) {
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
                      
-                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
+                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ fontSize:(tune && tune.zoom > 0 ? tune.zoom : 1) * 100+"%" , width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                                     return <div key={lk} className="lyrics-line" >{line}</div>
