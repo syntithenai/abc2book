@@ -1452,8 +1452,12 @@ var useAbcTools = () => {
         return 4
     }
       
-     
+    function tunesToLinkList (tunes) {
+        return tunes.map(function(tune) {
+            return tune.name  + (tune.composer ? '  -  ' + tune.composer : '') + "\n" + (Array.isArray(tune.links) ? tune.links.map(function(link) {return link.link}).join("\n") : "\n")
+        }).join("\n\n")
+    }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, hasChords, getNotes}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, hasChords, getNotes, tunesToLinkList}
 }
 export default useAbcTools;

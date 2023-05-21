@@ -223,6 +223,14 @@ export default function SelectedItemsModal(props) {
       handleClose()
   }
   
+  function clickLinks() {
+      var sel = props.tunebook.fromSelection(props.selected)
+      var links = props.tunebook.abcTools.tunesToLinkList(sel)
+      //console.log(sel,links)
+      props.tunebook.utils.download('selected.abc',links) 
+      handleClose()
+  }
+  
   //function fillMediaPlaylist() {
     //var tunes=props.tunebook.mediaFromSelection(props.selected)
     //console.log(tunes)
@@ -264,6 +272,7 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
                  
              </div>
              
+              <Button style={{float:'right', marginLeft:'0.2em'}} variant="success" onClick={clickLinks} >Links</Button>
               <Button style={{float:'right', marginLeft:'0.2em'}} variant="success" onClick={clickDownload} >Download</Button>
               <Button style={{float:'right'}} variant="danger" onClick={clickDelete} >Delete</Button>
           </div>    
