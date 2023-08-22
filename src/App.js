@@ -54,6 +54,21 @@ import useGoogleLogin from './useGoogleLogin'
 //import GoogleLogin from './GoogleLogin'
 import useTuneBookMediaController from './useTuneBookMediaController'
 
+
+function YouTubeGetID(url){
+            url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+            return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
+    }
+    function isYoutubeLink(urlToParse){
+        if (urlToParse) {
+            var regExp = /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+            if (urlToParse.match(regExp)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 function App(props) {
   let params = useParams();
   //console.log(window.location.href)
