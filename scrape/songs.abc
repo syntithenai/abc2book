@@ -41966,7 +41966,9 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:Bm
 V:1 
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|
 W: Meanwhile                                                                 C Lyngbye 13/8/16
 W: 
 W: Meanwhile in an old movie
@@ -42010,13 +42012,14 @@ W:
 W: 
 % abcbook-tune_id 634b4e5759633be877a1f695
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/meanwhile.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879942265
+% abcbook-lastupdated 1694066848181
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -42532,65 +42535,74 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:Em
 V:1 
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
 W: CAST IRON MAN                                                Charlotte Lyngbye  -  14 June 2018
 W: 
 W: I'm a Cast Iron Man
 W: I have a Cast Iron plan
-W: I am tough as nails and I'm fast on my feet
-W: I can take the sweat and I can take the heat
+W: I am tough as nails and I'm fast on my feet  [ooh ooh]
+W: I can take the sweat and I can take the heat [ooh ooh]
 W: 
-W: I'm gonna be like Tarzan
+W: I'm gonna be like Tarzan 
 W: 
 W: I'm a Cast Iron Man
 W: So please understand
-W: I can run for miles and never give up
-W: I'k gonna keep on running till I get to the top
-W: I sweat and I grunt as I'm running through the sand
-W: I' a helluva world-class Cast Iron Man
+W: I can run for miles and never give up [ooh ooh]
+W: I'k gonna keep on running till I get to the top [ooh ooh]
+W: I sweat and I grunt as I'm running through the sand [ooh ooh]
+W: I' a helluva world-class Cast Iron Man [ooh ooh]
 W: 
 W: I'm gonna be like Tarzan
 W: 
-W: I'm a Cast Iron Man
+W: [I'm a Cast Iron Man
 W: I have a Cast Iron plan
 W: I'm a Cast Iron Man
-W: With Cast Iron plan
+W: With Cast Iron plan]
 W: 
 W: I'm gonna be like Tarzan
 W: 
 W: I'm a Cast Iron Man
 W: And the toughest in the land
-W: I put on my sneakers and I go like a rocket
-W: Keep my Energy drink right here in my pocket
-W: I run and I swim till I can barely stand
-W: I tear up the road while working on my tan
+W: I put on my sneakers and I go like a rocket [ooh ooh]
+W: Keep my Energy drink right here in my pocket [ooh ooh]
+W: I run and I swim till I can barely stand [ooh ooh]
+W: I tear up the road while working on my tan [ooh ooh]
 W: 
 W: I'm gonna be like Tarzan
 W: 
 W: I'm a Cast Iron Man
 W: I'm my own biggest fan
-W: I sing this song as I'm running down the track
-W: `Cos nothing, NOTHING's gonna hold me back
-W: I take my protein pills and I eat my bran
-W: I'm doing absolutely everything I can
+W: I sing this song as I'm running down the track [ooh ooh]
+W: `Cos nothing, NOTHING's gonna hold me back [ooh ooh]
+W: I take my protein pills and I eat my bran [ooh ooh]
+W: I'm doing absolutely everything I can [ooh ooh]
 W: 
 W: I'm gonna be like Tarzan
 W: 
-W: I'm a Cast Iron Man
+W: [I'm a Cast Iron Man
 W: With Cast Iron plan
 W: I'm a Cast Iron Man
-W: With Cast Iron plan
+W: With Cast Iron plan]
 W: I'm gonna be like Tarzan
 W: 
 % abcbook-tune_id 634b4e575215946284556141
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/cast iron man.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879942435
+% abcbook-lastupdated 1694066488721
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43014,7 +43026,12 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
+"E"zzzzzzzz||"A"zzzz"B"zzzz||"E"zzzzzzzz||"A"zzzz"B"zzzz||
+"A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"B"zzzzzzzz||
+"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|
+"F#m"zzzz"G#m"zzzz|"A"zzzz"B"zzzz|"F#m"zzzz"G#m"zzzz|"A"zzzz"B"zzzz|"B"zzzzzzzz|"B"zzzzzzzz|
 W: In The Water                                                 Charlotte Lyngbye 25/6/201
 W: 
 W: Another life, another lover runs out the door
@@ -43058,13 +43075,14 @@ W: I'm going under
 W: And I'm desperately struggling to breathe
 % abcbook-tune_id 634b4e57b2b070bf35d6b1ac
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/in the water.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879942663
+% abcbook-lastupdated 1694066803030
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43524,7 +43542,12 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
+"E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|
+"D7"zzzzzzzz|"D7"zzzzzzzz|"D7"zzzzzzzz|"D7"zzzzzzzz|
+"A"zzzzzzzz|"B"zzzzzzzz|"C#m"zzzzzzzz|"A"zzzzzzzz|"A7"zzzzzzzz|
+"E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|
 W: The Tudor Court Hotel                 Charlotte Lyngbye 15 February 2018
 W: 
 W: I left my home in Denmark when I was just eighteen
@@ -43578,13 +43601,14 @@ W: E7  /   /   /	|   E7   /   /   /
 W: 
 % abcbook-tune_id 634b4f86c17b415792d9e718
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/the tudor court hotel.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879942836
+% abcbook-lastupdated 1694067099444
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43642,7 +43666,14 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:A
 V:1 
+"A"zzzzzzzz|"Bm"zzzzzzzz|"D"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"Bm"zzzzzzzz|"D"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"Bm"zzzzzzzz|"D"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz||"Bm"zzzzzzzz||"D"zzzzzzzz||"E"zzzzzzzz||"E"zzzzzzzz||
+"D"zzzzzzzz|"A"zzzz"F#m"zzzz|"Bm"zzzzzzzz|"Bm"zzzz"E"zzzz|
+"D"zzzzzzzz|"A"zzzz"F#m"zzzz|"E"zzzzzzzz|"A"zzzzzzzz|
 W: Happy Hour	     C. Lyngbye Nov 2016
 W: 
 W: I've come out into the wild with a group of my friends
@@ -43692,13 +43723,14 @@ W: But who cares............................?
 W: These pretzels are making me thirsty
 % abcbook-tune_id 634b4f86fcb79f362f4cff7c
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/happy hour.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879942912
+% abcbook-lastupdated 1694066647058
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43710,7 +43742,16 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:Gm
 V:1 
+"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||
+"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
+"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
+"D#"zzzzzzzz|"Cm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
+"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
+"D#"zzzzzzzz||"Cm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||
+"D#"zzzzzzzz|"Cm"zzzzzzzz|"A#"zzzzzzzz|"Gm"zzzzzzzz|
+"D#"zzzzzzzz|"F"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
 W: Frantic Frenzy (Frankly Charlotte)                                            Charlotte Lyngbye 1/12/16
 W: 
 W: Oh it's been so long since my world stood still,
@@ -43755,14 +43796,15 @@ W: Can't put on the parking brakes,
 W: It's the cross that I must bear
 % abcbook-tune_id 634b4f86d0bddbd50904f07a
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/frenzy.m4a
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/frankly frantic frenzy.mp3
+% abcbook-link-start-at-0 12
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1684703217210
+% abcbook-lastupdated 1694066597436
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43774,7 +43816,15 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:Em
 V:1 
+"Em"zzzzzzzz||"Gm"zzzzzzzz||"Em"zzzzzzzz||"Gm"zzzzzzzz||
+"Em"zzzzzzzz|"Gm"zzzzzzzz|"Em"zzzzzzzz|"Gm"zzzzzzzz|
+"Em"zzzzzzzz|"Gm"zzzzzzzz|"A"zzzzzzzz|"B"zzzzzzzz|
+"Em"zzzzzzzz|"Gm"zzzzzzzz|"Em"zzzzzzzz|"Gm"zzzzzzzz|
+"Em"zzzzzzzz||"Gm"zzzzzzzz||"A"zzzzzzzz||"B"zzzzzzzz||
+"Em"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"B"zzzzzzzz|
+"Em"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"B"zzzzzzzz|
 W: Sinister                                                                Charlotte Lyngbye 31/3/16
 W: 
 W: It's like a strange presence, an alarm in the air
@@ -43811,11 +43861,11 @@ W: Chorus
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/sinister.m4a
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1684842448979
+% abcbook-lastupdated 1694066935708
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43827,7 +43877,18 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
+"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz||
+"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"B"zzzz"E"zzzz|
+"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"E"zzzzzzzz||"E"zzzzzzzz||"E"zzzzzzzz||"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"B"zzzz"E"zzzz|
+"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"B"zzzzzzzz|"C"zzzz"B"zzzz|
+"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
 W: Everything Has To Be Goat Blues                Charlotte Lyngbye - 28 October 2015
 W: 
 W: I used to drink milk from a cow, when having my cuppa tea
@@ -43862,13 +43923,14 @@ W: This year it's GOAT but however it comes I just can't feel the passion
 W: 
 % abcbook-tune_id 634b4f87439d1395be2faa29
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/everything has to be goat blues.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943024
+% abcbook-lastupdated 1694066571879
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43915,13 +43977,15 @@ W: New Gucci loafers as well
 W: On your road to consumer hell
 % abcbook-tune_id 634b4f87cd0fcf083a819906
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=XXBvaR8fHnw
+% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943062
+% abcbook-lastupdated 1693867875226
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44286,7 +44350,9 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:G
 V:1 
+"G"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|"G"zzzzzzzz|
 W: Fugitive                                    C Lyngbye 14 Dec 2016
 W: 
 W: Too easy how a life can life change
@@ -44330,13 +44396,14 @@ W:
 W: 
 % abcbook-tune_id 634b4f877cd3ca0609155745
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/fugitive.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943330
+% abcbook-lastupdated 1694066618519
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44348,7 +44415,14 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:G
 V:1 
+"G"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+"G"zzzzzzzz||"Bm"zzzzzzzz||"Em"zzzzzzzz||"Em"zzzzzzzz||
+"G"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
+"C"zzzzzzzz||"G"zzzzzzzz||"D"zzzzzzzz||"D"zzzzzzzz||
+"Em"zzzzzzzz|"D"zzzzzzzz|"Bm"zzzzzzzz|"D"zzzzzzzz|
+"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"Bm"zzzz|"Em"zzzzzzzz|
 W: Grudge                                                        Charlotte Lyngbye    1/2/2018
 W: 
 W: While you're out there somewhere
@@ -44393,13 +44467,14 @@ W: But you're living rent free in my head
 W: 
 % abcbook-tune_id 634b4f87efea0ddd46ccbfb7
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/grudge.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943369
+% abcbook-lastupdated 1694066635497
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44411,7 +44486,11 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:A
 V:1 
+"A"zzzzzzzz||"A"zzzzzzzz||"C#m"zzzzzzzz||"D"zzzzzzzz||
+"D"zzzzzzzz||"F#m"zzzzzzzz||"E"zzzzzzzz||"D"zzzzzzzz||
+"F#m"zzzzzzzz|"E"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
 W: Underground                         7 september 2017
 W: 
 W: When i returned to my town of youth
@@ -44453,13 +44532,15 @@ W: I tell ya, I'm not going underground
 W: I'll never go underground
 % abcbook-tune_id 634b4f87b9f0116e3c1afee5
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/underground.mp3
+% abcbook-link-start-at-0 24
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1665879943407
+% abcbook-tuning EAEABE
+% abcbook-lastupdated 1694067125956
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44471,7 +44552,12 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:A
 V:1 
+"A"zzzzzzzz|"A"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"A"zzzzzzzz||"A"zzzzzzzz||"G"zzzzzzzz||"D"zzzzzzzz||"A"zzzzzzzz||"A"zzzzzzzz||
+"C"zzzzzzzz|"B"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"C"zzzzzzzz|"B"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
 W: I Cancelled My Subscription             Charlotte Lyngbye   6/7/16
 W: 
 W: I don't like your pitch
@@ -44513,13 +44599,14 @@ W:
 W: 
 % abcbook-tune_id 634b4f879f5023962d43a2c0
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/subscription.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943441
+% abcbook-lastupdated 1694066666526
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44766,7 +44853,10 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:G
 V:1 
+"D"zzzzzzzz||"F"zzzzzzzz||"C"zzzzzzzz||"G"zzzzzzzz||
+"Em"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"Em"zzzzzzzz|
 W: Concrete     Charlotte Lyngbye 21/1/2016
 W: 
 W: I'm tired of trying to guess
@@ -44812,11 +44902,11 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/concrete.m4a
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1684842416726
+% abcbook-lastupdated 1694066562583
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44828,7 +44918,18 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:C
 V:1 
+"C"zzzzzzzz|"Em"zzzzzzzz|"Am"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"F"zzzzzzzz|"C"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz||"C"zzzzzzzz||"G"zzzzzzzz||"C"zzzzzzzz||
+"F"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"F"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"F"zzzzzzzz|"C"zzzzzzzz|"F"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
 W: The Meaning of Leif                                                   C Lyngbye 6/8/16
 W: 
 W: It's Sunday, it's morning I wake from my sleep
@@ -44870,13 +44971,14 @@ W: CHORUS
 W: 
 % abcbook-tune_id 634b4f87e6d57ab567ba686c
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/the meaning of leif.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665879943621
+% abcbook-lastupdated 1694067057441
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -76255,14 +76357,14 @@ W: A day for the hunter, a day for the prey
 W: A day for the hunter, a day for the prey
 % abcbook-tune_id 6409a3a8613febf72a339ad0
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=czmaR4wVqoQ
+% abcbook-link-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags ss1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1687931222290
+% abcbook-lastupdated 1693637456036
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -76431,6 +76533,7 @@ W: You gotta come on up to the house
 W: And you been whipped by the forces
 W: That are inside you
 W: Gotta come on up to the house
+W: 
 W: Well you're high on top
 W: Of your mountain of woe
 W: Gotta come on up to the house
@@ -76458,7 +76561,7 @@ W: yeah
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1682896229560
+% abcbook-lastupdated 1693281629073
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77527,6 +77630,7 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
 "E"zzzzzzzz|"F#"zzzzzzzz|"G#"zzzzzzzz|"A"zzzzzzzz|
 "E"zzzzzzzz||"F#"zzzzzzzz||"G#"zzzzzzzz||"A"zzzzzzzz||
@@ -77587,11 +77691,11 @@ W: It’s all false &amp; counterfeit (Rpt)
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/artificial.m4a
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags vcs,candelo songwriters,charlotte lyngbye,charlotte lyngbye originals
+% abcbook-tags vcs,candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1684840078124
+% abcbook-tuning EAEABE
+% abcbook-lastupdated 1694066428911
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77681,6 +77785,7 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
 "E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
 "E"zzzzzzzz||"E"zzzzzzzz||"E"zzzzzzzz||"E"zzzzzzzz||
@@ -77735,13 +77840,15 @@ W: So sweet the sound
 W: We’ll play around and around and around
 % abcbook-tune_id 646c9fc5e085511cff7588a9
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/saxy%20bass.m4a
+% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals
+% abcbook-tags charlotte lyngbye originals,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1684842019495
+% abcbook-lastupdated 1694066833808
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77863,12 +77970,24 @@ W: You’d think we’d wisened up at last
 
 
 X: 1165
-T: You
+T: You/Special
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:E
 V:1 
+"E"zzzz"E6"zzzz||"E7"zzzz"E7"zzzz|"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz||
+"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz||"E"zzzz"E6"zzzz||"E7"zzzz"E7"zzzz|
+"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|"E7"zzzzzzzz|
+"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz|"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz|
+"A"zzzz"B"zzzz||"E"zzzzzzzz||"A"zzzz"B"zzzz||"E"zzzzzzzz||"E"zzzzzzzz||
+"D"zzzz"A"zzzz|"E"zzzzzzzz|"D"zzzz"A"zzzz|"E"zzzzzzzz|
+"D"zzzz"A"zzzz|"C"zzzzzzzz|"B"zzzzzzzz|"B"zzzzzzzz|
+"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz|"E"zzzz"E6"zzzz|"E7"zzzz"E7"zzzz||
+"E"zzzzzzzz||"A"zzzzzzzz||"A"zzzzzzzz||"C"zzzzzzzz|
+"E"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|
+"E"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|"B"zzzzzzzz|"B"zzzzzzzz|
 W: Charlotte Lyngbye 5/4/2023
 W: EAEADE Tuning
 W: 
@@ -77908,13 +78027,15 @@ W: ‘Cos you and me
 W: We’re a special to be
 % abcbook-tune_id 646ca1851bbfd79752065240
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=HyqR0zM2_VE
+% abcbook-link-start-at-0 15
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1684840854327
+% abcbook-tuning EAEADE
+% abcbook-lastupdated 1694067310457
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77926,7 +78047,16 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:Dm
 V:1 
+"Dm"zzzzzzzz||"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzz"G"zzzz|
+"Dm"zzzzzzzz|"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzzzzzz||
+"Dm"zzzzzzzz|"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzz"G"zzzz|
+"Dm"zzzzzzzz|"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzz"G"zzzz|
+"Dm"zzzzzzzz|"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzz"G"zzzz|
+"Dm"zzzzzzzz|"F"zzzzzzzz|"G"zzzzzzzz|"Gm"zzzzzzzz|
+"A#"zzzzzzzz|"C"zzzzzzzz|"A#"zzzzzzzz|"C"zzzzzzzz|
+"A#"zzzzzzzz|"C"zzzzzzzz|"A#"zzzzzzzz|"C"zzzzzzzz|
 W: DADGAD Tuning Charlotte Lyngbye 28/3/2023
 W: 
 W: Watch those swine,
@@ -77975,13 +78105,14 @@ W: And for girls sake
 W: I’ll show you what Mama is really made of
 % abcbook-tune_id 646ca4788526c70a70b5a9e1
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/swine.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals
+% abcbook-tags charlotte lyngbye originals,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
-% abcbook-tuning 
-% abcbook-lastupdated 1684841603418
+% abcbook-tuning DADGAD
+% abcbook-lastupdated 1694066957515
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78058,7 +78189,15 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
+K:F#m
 V:1 
+"F#m"zzzzzz"Bm"zz||"F#m"zzzzzz"Bm"zz||"F#m"zzzzzz"Bm"zz||"C#"zzzzzzzz||
+"F#m"zzzzzzzz|"F#m"zzzzzzzz|"Bm"zzzzzzzz|"F#m"zzzz"E"zzzz|"D"zzzzzzzz|"E"zzzzzzzz|
+"F#m"zzzzzzzz||"F#m"zzzzzzzz||"Bm"zzzzzzzz||"F#m"zzzz"E"zzzz||"D"zzzzzzzz||"E"zzzzzzzz||
+"Bm"zzzzzzzz|"Bm"zzzzzzzz|"F#m"zzzzzzzz|"F#m"zzzzzzzz|
+"Bm"zzzzzzzz||"Bm"zzzzzzzz||"F#m"zzzzzzzz||"C#"zzzzzzzz||
+"A"zzzzzzzz|"G"zzzzzzzz|"F#m"zzzz"E"zzzz|"D"zzzzzzzz|
+"E"zzzzzzzz|"F#m"zzzzzzzz|"E"zzzzzzzz|"D"zzzzzzzz|
 W: Standard tuning – Em -Capo 2nd
 W: Charlotte Lyngbye 12 April 2023. (65)
 W: 
@@ -78109,13 +78248,14 @@ W:
 W: CHORUS
 % abcbook-tune_id 646ca56899b4496a350ac83e
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/werewolf.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals
+% abcbook-tags charlotte lyngbye originals,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1684841872668
+% abcbook-lastupdated 1694067823378
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78198,6 +78338,7 @@ B: working
 B: songs
 M:4/4
 Q: 1/4=100
+K:Am
 V:1 
 "Am"zzzzzzzz|
 "C"zzzzzzzz|
@@ -78269,11 +78410,11 @@ W: INSTR
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/journey%20home.m4a
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,projects
+% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1689087294242
+% abcbook-lastupdated 1694066815898
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78629,7 +78770,7 @@ W:
 %%MIDI transpose -2
 
 
-X: 34198
+X: 1176
 T: Milk
 C:Steve Ryan
 B: songs
@@ -78637,23 +78778,32 @@ B: working
 M:4/4
 Q: 1/4=100
 V:1 
-
+"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"Bm"zzzzzzzz||"Bm"zzzzzzzz||"G"zzzzzzzz||"D"zzzzzzzz||
+"G"zzzz"D"zzzz|"G"zzzz"D"zzzz|"G"zzzz"D"zzzz|"D"zzzz"Bm"zzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|
+"G"zzzz"D"zzzz|"G"zzzz"D"zzzz|"G"zzzz"D"zzzz|"D"zzzz"Bm"zzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|
+"Bm"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"Bm"zzzzzzzz||"G"zzzzzzzz||"D"zzzz"G"zzzz||"D"zzzzzzzz||
+"Bm"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"Bm"zzzzzzzz|"G"zzzzzzzz|"D"zzzz"G"zzzz|"D"zzzzzzzz||
 W: Milk - Steve Ryan 19/08/2023
 W: 
 W: # Chorus
-W: D D G G 
+W: D D G G
 W: Bm Bm G G
-W: D D G G 
+W: D D G G
 W: Bm Bm G D
 W: 
 W: # Verse
 W: G/D G/D G/D D/Bm Bm Bm
 W: G/D G/D G/D D/Bm Bm Bm
-W: Bm G D A 
+W: Bm G D A
 W: Bm G D/G D
 W: 
 W: # Bridge
-W: Bm Bm G G 
+W: Bm G D A
 W: Bm G D/G D
 W: 
 W: # Chorus
@@ -78694,7 +78844,7 @@ W: # Verse
 W: Acupuncture aids the flows of life within my flesh.
 W: Helping with my aches and pains and energetic mess.
 W: Balancing of tendencies, opening the mesh.
-W: Millennia of wisdom, observed from human tests.
+W: Millennia of wisdom, observing human tests.
 W: 
 W: # Verse
 W: When I feel the achy signs of flu I mega dose.
@@ -78723,13 +78873,696 @@ W:
 W: # Chorus
 % abcbook-tune_id 64e41b71fff72f824e6af349
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=xCAuxOZ8MHQ
+% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags candelo songwriters,steve ryan originals,steve ryan
 % abcbook-tablature 
+% abcbook-transpose -2
+% abcbook-tuning 
+% abcbook-lastupdated 1692772731720
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%MIDI transpose -2
+
+
+X: 11047
+T: Run Dotteral Run
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: run dotteral run - steve ryan 27 Aug 2023  
+W: 
+W: # C
+W: F C G Dm   
+W: F C G G
+W: G G Dm Dm
+W: 
+W: # V1
+W: Dm ......
+W: Dm G Dm
+W: 
+W: # V2
+W: C G C Dm
+W: Bb Gm 
+W: Gm A
+W: 
+W: # V3
+W: C F C F
+W: F C/F 
+W: Bb/F C/F Bb/F C/F
+W: 
+W: run dotteral run
+W: run down the river in the sun 
+W: gotta get going `for the goanna comes
+W: wit a wit,  dotteral run
+W: 
+W: # v1 (wade in the water)
+W: wade in the water
+W: searching for tasty titbits on the
+W: edges of the muddy water
+W: for the wiggling worms it's a slaughter
+W: 
+W: # v2 
+W: duck and dive when the gulls attack
+W: into the bushes and don't look back
+W: then rush back to the tidal zone
+W: to build our fat, for the long trip home
+W: 
+W: # v3 (sin dje dje)
+W: investment in our tiny eggs
+W: we dig a hole to keep them wet
+W: that humans in the high tide zone
+W: with booted feet crush shell and bone
+% abcbook-tune_id 64ebca2e12ff8a779f5cd82e
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/dotteral.mp3
+% abcbook-link-title-0 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan,steve ryan originals
+% abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1692675790343
+% abcbook-lastupdated 1693923754813
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1178
+T: Mia's Song
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+K:Gm
+V:1 
+"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||
+"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|
+"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|
+"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|
+"Gm"zzzzzzzz||"D#"zzzz"Cm"zzzz||"Gm"zzzzzzzz||"D#"zzzz"Cm"zzzz||
+"Gm"zzzz"F"zzzz|"A#"zzzzzzzz|"D#"zzzzzzzz|"D#"zzzzzzzz||
+"Gm"zzzzzzzz|"D#"zzzzzzzz|"A#"zzzzzzzz|"Cm"zzzzzzzz|
+"A#"zzzzzzzz||"D#"zzzzzzzz||"A#"zzzzzzzz||"D#"zzzzzzzz|
+W: Mia’s song                                                    C Lyngbye 30/3/17
+W: 
+W: (Based on the concept of the Lonely Painter & Something to Make You Cry)
+W: 
+W: # V
+W: The colors often clash on the surface of my canvas
+W: Not everyone gets it - You want to to see a pretty picture
+W: There’s no sense in the chaos, but life is not like that
+W: It just seem to go with the job
+W: 
+W: You say I can’t paint, and I used to let that stop me
+W: I wanna paint and create, to please no one in particular
+W: Just to pass the time, and to abandon all those rules
+W: Rules that dictates, what I can and cannot do
+W: 
+W: # Instr
+W: Do da doo, doo doo doo doo.
+W: 
+W: # Chorus
+W: Let it happen to see what happens
+W: Let the colors run and crackle
+W: Let me be sad when I am sad
+W: Let me be happy when I am happy
+W: Let me let go, till I feel yellow green and blue
+W: And let gravity do what it needs to do
+W: 
+W: # Instr
+W: 
+W: # Verse
+W: Sometimes my colors smudge, and run away from me
+W: They dry to fast or just refuse to even blend
+W: But to me that’s just the fun part, the loosing of control
+W: Surprisingly it comes together in the end
+W: 
+W: ‘Cos all these imperfections, is what makes the work so real
+W: Like a playground full of children, they interact together
+W: It sums up all the elements to a random outcome
+W: Reflective of the moment or the changing of the weather
+W: 
+W: # Instr
+W: 
+W: # Chorus
+W: 
+W: # Instr
+W: 
+W: # Instr
+W: 
+W: # Chorus
+W: 
+W: # Instr
+W: 
+W: # Instr
+W: 
+W: 
+W: 
+% abcbook-tune_id 64f3c3c2f3a660cd2fa26340
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/mias song.mp3
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte setlist,charlotte lyngbye,charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694066002524
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1179
+T: Shell Shocked
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+K:D
+V:1 
+"D"zzzzzzzz||"F"zzzzzzzz||"G"zzzzzzzz||"G"zzzzzzzz||
+"D"zzzzzzzz||"F"zzzzzzzz||"G"zzzzzzzz||"A#"zzzzzzzz||
+"Em"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|
+W: Intro
+W: 
+W: # Verse 1
+W: Tons of bricks,
+W: Stones and sticks,
+W: broken bones
+W: Savage tones
+W: 
+W: Shelled and shocked
+W: Rocked to the core
+W: We’ve never been
+W: this close before
+W: 
+W: Let’s build a Wall
+W: Guns for all
+W: Standing tall
+W: And we all fall
+W: 
+W: And we all fall
+W: 
+W: # Chorus
+W: We’ll fall down onto our fate
+W: Until we learn our place
+W: 
+W: We’ll fall down onto our fate
+W: Until we learn our place
+W: 
+W: We’ll fall down onto our fate
+W: Until we learn our place
+W: 
+W: # Verse 2
+W: Catastrophized
+W: Paralysed
+W: Traumatized
+W: 
+W: Subscribing to
+W: some compromised
+W: version of events
+W: 
+W: The lessons learned
+W: from the past
+W: You’d think we’d wisened up at last
+W: 
+W: You’d think we’d wisened up at last
+W: 
+W: # Chorus
+W: We fall flat onto our face
+W: When it’s all too late
+W: 
+W: We fall flat onto our face
+W: When it’s all too late
+W: 
+W: We fall flat onto our face
+W: When it’s all too late
+W: 
+W: # Bridge
+W: Please stand down
+W: Let there be no more tug of war
+W: My head is hurting
+W: I can’t take it anymore
+W: 
+W: 
+W: # Chorus
+W: Don’t want to fall
+W: Flat onto my face
+W: When it’s all too late
+W: 
+W: Fall flat onto my face
+W: When it’s all too late
+W: 
+W: Flat onto my face
+W: When it’s all too late
+W: 
+W: Outro
+% abcbook-tune_id 64f522792ddd486d6050af7b
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/shell shocked.mp3
+% abcbook-link-title-0 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694066887920
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 52142
+T: I Promise
+C:Charlotte Lyngbye
+B: songs
+Q: 1/4=100
+V:1 
+
+W: I PROMISE                       Key=  C        STD tuning /Capo 0            Charlotte Lyngbye 16/8/2023
+W:    
+W: C                G          Am
+W: Here you are my love
+W:                              F
+W: And though it’s early days
+W: C                G          Am
+W: We’ve read the stars above
+W:  F                                           C
+W: Construed in different ways
+W: C                   G             D
+W: Attraction’s is undeniable
+W:               F             C                 G
+W: but let common sense prevail
+W:               F              C                  G
+W: And behold this cautionary tale    
+W: 
+W: I’ve already been around the block
+W: And so have you
+W: My past trail me ‘round the clock
+W: And yours will too
+W: I’ve never been no angel
+W: Let me be straight from the start
+W: I am not fit to play that part
+W:    C              
+W: CHORUS:       I promise to keep it real
+W:    G                                          G7         
+W: Through the thick and the thin
+W:    Am                Am/G
+W: To keep my end of the deal
+W:    D/F#              
+W: Whether I lose or I win
+W:                           F                G              
+W: And if you me put to the test
+W:    C              Em          Am           
+W: or you ever say goodbye
+W:    F              
+W: I will do my very best
+W:    F                              G             
+W: And promise not to cry
+W: 
+W: So let’s take it slow
+W: And not get ahead of ourselves
+W: Easy come and easy go
+W: It’s a cautionary tale
+W: Love can make us blind
+W: To take just one day at a time
+W: and heed the warning sign
+W: 
+W: CHORUS:
+% abcbook-tune_id 64f549306bfca0bedc2d5b0b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693796656601
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 94704
+T: Displeasure
+C:Charlotte Lyngbye
+B: songs
+Q: 1/4=100
+V:1 
+
+W: Displeasure                                        STD tuning - D - no capo  - Charlotte Lyngbye 23/8/2023
+W: 
+W: I get annoyed with doors that squeak 
+W: Blocked up drains and taps that leak
+W: And at careless folks who litter the place
+W: I don’t much like getting egg on my face
+W: 
+W: I hate it when people smack when they eat
+W: When someone leaves up the toilet seat
+W: Fake fingernails make me nauseous
+W: But to speak it loudly I must be cautious
+W: 
+W: Everywhere I look I find food for my displeasure 
+W: I find it when I’m busy, even when I am at leisure
+W: So much in this world goes against my grain
+W: It prays on my mind and drives me insane
+W: 
+W: CHORUS:    But maybe it’s just me
+W: Maybe it’s just me
+W: Maybe it’s just me
+W: Because I want what I want 
+W: or only see what I want to see
+W: 
+W: And don’t get me started on PMT
+W: And the Uber rich and pay TV
+W: Or lame moronic bumper stickers 
+W: And yuppy hipster city slickers
+W: 
+W: I worry when my kids don’t call me back  
+W: about getting old and having a heart attack
+W: About boisterous men in bars
+W: And pimply teens in souped up cars
+W: 
+W: This constant outrage must give me some kind of kick 
+W: Or why keep beating myself with my frustration stick
+W: There’s so much for me to feel uptight about  
+W: From atop of my soap box I’ll shout, shout, shout
+W: 
+W: CHORUS:        
+W: 
+W: I worry about singing out of tune
+W: And sound like I’m howling at the moon
+W: When I get stuck writing a song 
+W: and every line sounds terribly wrong
+W: 
+W: I don’t like the fret buzz on my guitar 
+W: And the fact that I’ll never be a rock star
+W: I despair when I’m feeling uncertain 
+W: Or find mould on my shower curtain
+% abcbook-tune_id 64f55856fc9b205da72400dd
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693800534434
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 14882
+T: Fight Or Flight
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: Fight or Flight                   Standard Tuning/ Capo 2           Charlotte Lyngbye 6/7/2023
+W: 
+W: I’ve changed my clothes a hundred times wondering what to wear.  
+W: Dress up or down, and will anyone really care?
+W: And who’s gonna be there when I’m going out tonight
+W: A red-nose clown, stepping into the light
+W: 
+W: I’m walking through the door, there’re people everywhere
+W: I am shaking in my boots until I find a chair
+W: Feeling safer now I’ve got my back against a wall
+W: I face the floor, afraid of standing tall
+W: 
+W: 
+W: CHORUS:   I’ve been here before, It’s an old and familiar fear
+W: I‘ll  fight or flight or just plainly disappear
+W: Clinging to my drink just to occupy my hands 
+W: An awkwardness that no one understands  
+W: 
+W: I watch you walk across the room, heading in my way
+W: My words escape and I’m afraid of what to say
+W: You seem so warm and friendly as you fidget with your keys
+W: I’m wondering do you feel as scared as me
+W: 
+W: BRIDGE:    Could it really be, that you are just like me
+W: That we’re all the same, playing the same game?
+W: Pretending we’re ok, to make it through the day
+W: Trying to shake it, we fake it to make it
+W: 
+W: You seem to buy my act; I am pretending to be cool
+W: My foot in my mouth I’m feeling like a fool
+W: I act so brave; I laugh and giggle but crumbling inside 
+W: When you smile at me, I have nowhere left to hide
+W: 
+W: 
+W: CHORUS:   I’ve been here before, It’s an old and familiar fear
+W: I‘ll  fight or flight or just plainly disappear
+W: Clinging to my drink just to occupy my hands 
+W: An awkwardness that no one understands
+% abcbook-tune_id 64f558b7b37500fa8dad26e0
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693800631871
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 70365
+T: Robbery
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: ROBBERY                                        Charlotte Lyngbye 7/6/2023
+W: 
+W: VERSE 
+W: You’ve been stealing kisses from me since the day we met 
+W: And you look so pleased each time and laugh inside I bet
+W: I can’t help surrendering, because you look so nice
+W: And I don’t mind it when you kiss me twice
+W: 
+W: Then you stole my balance too, I feel weak in my knee
+W: And you took my eyesight so I no longer can see
+W: All I have are spectacles now tinted with a rose
+W: You smell so lovely, since you seized my nose
+W: 
+W: CHORUS
+W: A thief and a knave, you seem to rob me blind
+W: I’ll let you seize my heart and soul, I’ve let you steal my mind
+W: I’ll let you poach my house, my bike, my cat, my friends, my car
+W: But keep your thieving hands off my guitar.
+W: 
+W: Now I lost my hearing too, you plundered it away
+W: I struggle hearing others talking right throughout my day
+W: But once you whisper words of love close into my ear
+W: All my trials and troubles disappear
+W: 
+W: So promise you’ll come home to me each and every night 
+W: You can pick my locks because I know you’ll do it right 
+W: Feel free to rummage through my pantry looking for a feed
+W: And devour whatever it is you think you need
+W: 
+W: CHORUS
+W: A thief and a knave, you seem to rob me blind
+W: I’ll let you seize my heart and soul, I’ve let you steal my mind
+W: I’ll let you poach my house, my bike, my cat, my friends, my car
+W: But no way in hell you’re touching my guitar.
+W: 
+W: You pilfer, burgle, poach, embezzle, confiscate and snatch
+W: My heart was under lock and key but you still picked my latch
+W: You wrote the book on hijack, grand theft and larceny
+W: Each day with you is daylight robbery
+W: 
+W: 
+W: CHART
+% abcbook-tune_id 64f5613f88f3c170846c4ee3
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693802815218
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 53159
+T: Bye Bye Clawhammer
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: Bye Bye Clawhammer -  (James Bond Theme)                             Charlotte Lyngbye 24 May 2023
+W: 
+W: 
+W: 
+W: A rogue and traitor
+W: A malicious buffoon
+W: A liar and a hater
+W: A vindictive tycoon
+W: 
+W: A fool who fools the fools
+W: In his petulant manner
+W: Breaking all the rules
+W: wielding his clawhammer
+W: 
+W: Gold on his fingers
+W: From the day that he was born
+W: We’ll have no peace
+W: Until he’s dead and gone
+W: 
+W: His monkey wrenched mouth
+W: Commands death and destruction
+W: With speech and tiny hammer fist
+W: He begs a bloody production
+W: 
+W: CHORUS
+W: For the love of God and homeland
+W: For the love of you
+W: I pledge to stand up 
+W: and fight for what is true
+W: 
+W: He must be silenced
+W: And banished once and for all
+W: To the sound of a drum, we’ll
+W: nail him to his own wall
+W: 
+W: He’ll do no harm
+W: Once he’s gagged and bound
+W: With his own clawhammer
+W: We’ll put him ten feet under ground
+W: 
+W: 
+W: 
+W: 
+W: BRIDGE
+W: Bye bye Clawhammer
+W: Bye bye Clawhammer
+W: 
+W: 
+W: CHORUS
+W: For the love of my homeland
+W: For the love of you
+W: I pledge to stand up
+W: and fight for what is true
+W: 
+W: But this is not a TV show
+W: In which Mr Bond gets his girl
+W: But a real-life death blow
+W: To the state of our world  
+W: 
+W: Truth can be stranger than fiction
+W: depending on perception
+W: And though I am not a murderess
+W: To stamp out him out I’d gladly make an exception.
+% abcbook-tune_id 64f561996df4579191fe0f96
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693812806825
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1185
+T: Creamy Streets
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+[|: "D"defd a3 (a | a)bag f d3 | defd a2 g2 | "D" fe d2 "C"c3 (c | 
+"C" c)`d`c`B "D" A2 G2 | FF G2  A4:|"D" AcAG FE D2 |"C"C C3 "D"D3 (D | 
+[|:"D"D)A,CA, DA,CA, | D D3 F3(F | F)EFG A3 (A | A)cAG FE D2|
+"D"E F3 "G"G4 |"G" BdBA "D"FE D2 | F G3A3 (A | A)cAG FE D2|"C"C C3 "D"D4 :|
+W: Creamy Streets - steve ryan 29 Aug 2023
+W: 
+W: set to the tune "Boys them flies are buzzing" by Donna Vaughan 
+W: https://tunebook.net/#/importlink/https%3A%2F%2Ftunebook.net%2Fscrape%2Ftunes.abc/tune/63ae8f1c6160d4a519f05e5f/play
+W: 
+W: # A
+W: Fondest memories of my childhood, 
+W: choosing icecreams as a treat, 
+W: at the local grocery store.
+W: Calypso gelato in summer is refreshing, 
+W: but the milky choices always abound, 
+W: reaching deep into the freezer
+W: Rich  and creamy, cool and fresh
+W: 
+W: # B
+W: Nibble on the nuts atop a cornetto
+W: Peel the chocolate sheets from a magnum
+W: Bite the nose of, bubble oh bill or a caramello
+W: Ice cream is the way to go
+W: 
+W: # A
+W: A Paddle Pop from Streets is unadulterated, 
+W: maybe try a Splice with a layer of ice. 
+W: Or a yummy crunchy Golden Gaytime.
+W: Try a Peters' Drumstick or simple frozen Frosty Fruit, 
+W: or a Bulla creamy choc chip tub. 
+W: Biscuit layered Cadberries Oreo.
+W: Many choices, what is best?
+W: 
+W: # B
+W: Nibble on the nuts atop a cornetto
+W: Peel the chocolate sheets from a magnum
+W: Bite the nose of bubble oh bill or a caramello
+W: Ice cream is the way to go
+W: 
+W: # A 
+W: Sitting soaked in sunscreen in the summer sun. 
+W: Watching icecream dribble down my thumb. 
+W: Licking it all up before it runs.
+W: Better finish quick 'for it starts to slide off the, 
+W: little wooden handle to the waiting sand. 
+W: Still too cold to hold in my hand.
+W: 
+W: # B
+W: Nibble on the nuts atop a cornetto
+W: Peel the chocolate sheets from a magnum
+W: Bite the nose of bubble oh bill or a caramello
+W: Ice cream is the way to go
+W: 
+W: 
+% abcbook-tune_id 64f6743958c4b5159420dad9
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/creamy streets.mp3
+% abcbook-link-title-0 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan originals,candelo songwriters
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1693923720679
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
