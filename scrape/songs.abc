@@ -41968,9 +41968,10 @@ M:4/4
 Q: 1/4=100
 K:Bm
 V:1 
-"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
 W: Meanwhile                                                                 C Lyngbye 13/8/16
 W: 
+W: # verse
 W: Meanwhile in an old movie
 W: Two men ride out together
 W: And happily shoot down a bunch of Indians
@@ -41985,14 +41986,15 @@ W: It's such a peaceful day
 W: And I'm hoping that the ocean
 W: Is NOT one day gonna wash everything away
 W: 
-W: CHORUS:
-W: `Cos the world is going crazy
+W: # chorus
+W: [`Cos the world is going crazy
 W: It's gone totally insane
 W: We're caught between our pleasure and our pain
 W: There'll be no super hero
 W: No magic fairy friend
-W: Who will wave his wand and make the it right again
+W: Who will wave his wand and make the it right again]
 W: 
+W: # verse
 W: Meanwhile somewhere else,
 W: A man with a gun says
 W: "Do you feel lucky punk",
@@ -42007,7 +42009,12 @@ W: Since the day that I was born
 W: Good luck has come my way
 W: Yet it grinds on my conscience every day
 W: 
-W: CHORUS:
+W: # chorus
+W: 
+W: # chorus
+W: 
+W: To wave his wand and make it right again
+W: To wave her wand and make it right again
 W: 
 W: 
 % abcbook-tune_id 634b4e5759633be877a1f695
@@ -42019,7 +42026,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066848181
+% abcbook-lastupdated 1694143554794
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -42543,25 +42550,30 @@ V:1
 "Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
 "G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
 "G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz||
+"G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"G"zzzzzzzz|"G"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|
 "Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
 W: CAST IRON MAN                                                Charlotte Lyngbye  -  14 June 2018
 W: 
+W: # verse
 W: I'm a Cast Iron Man
 W: I have a Cast Iron plan
-W: I am tough as nails and I'm fast on my feet  [ooh ooh]
-W: I can take the sweat and I can take the heat [ooh ooh]
-W: 
-W: I'm gonna be like Tarzan 
-W: 
-W: I'm a Cast Iron Man
-W: So please understand
-W: I can run for miles and never give up [ooh ooh]
-W: I'k gonna keep on running till I get to the top [ooh ooh]
-W: I sweat and I grunt as I'm running through the sand [ooh ooh]
-W: I' a helluva world-class Cast Iron Man [ooh ooh]
+W: [I am tough as nails and I'm fast on my feet  
+W: I can take the sweat and I can take the heat]  
 W: 
 W: I'm gonna be like Tarzan
 W: 
+W: I'm a Cast Iron Man
+W: So please understand
+W: [I can run for miles and never give up
+W: I'k gonna keep on running till I get to the top
+W: I sweat and I grunt as I'm running through the sand
+W: I' a helluva world-class] Cast Iron Man
+W: 
+W: I'm gonna be like Tarzan
+W: 
+W: # chorus
 W: [I'm a Cast Iron Man
 W: I have a Cast Iron plan
 W: I'm a Cast Iron Man
@@ -42569,24 +42581,26 @@ W: With Cast Iron plan]
 W: 
 W: I'm gonna be like Tarzan
 W: 
+W: # verse
 W: I'm a Cast Iron Man
 W: And the toughest in the land
-W: I put on my sneakers and I go like a rocket [ooh ooh]
-W: Keep my Energy drink right here in my pocket [ooh ooh]
-W: I run and I swim till I can barely stand [ooh ooh]
-W: I tear up the road while working on my tan [ooh ooh]
+W: I [put on my sneakers and I go like a rocket
+W: Keep my Energy drink right here in my pocket
+W: I run and I swim till I can barely stand
+W: I tear up the road while working on my tan]
 W: 
 W: I'm gonna be like Tarzan
 W: 
 W: I'm a Cast Iron Man
 W: I'm my own biggest fan
-W: I sing this song as I'm running down the track [ooh ooh]
-W: `Cos nothing, NOTHING's gonna hold me back [ooh ooh]
-W: I take my protein pills and I eat my bran [ooh ooh]
-W: I'm doing absolutely everything I can [ooh ooh]
+W: I [sing this song as I'm running down the track
+W: `Cos nothing, NOTHING's gonna hold me back
+W: I take my protein pills and I eat my bran
+W: I'm doing absolutely everything I can]
 W: 
 W: I'm gonna be like Tarzan
 W: 
+W: # chorus
 W: [I'm a Cast Iron Man
 W: With Cast Iron plan
 W: I'm a Cast Iron Man
@@ -42602,7 +42616,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066488721
+% abcbook-lastupdated 1694220039324
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43028,51 +43042,59 @@ M:4/4
 Q: 1/4=100
 K:E
 V:1 
-"E"zzzzzzzz||"A"zzzz"B"zzzz||"E"zzzzzzzz||"A"zzzz"B"zzzz||
+"E"zzzzzzzz||"A"zzzz"B"zzzz||"E"zzzzzzzz||"A"zzzz"B"zzzz|
 "A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"A"zzzz"B"zzzz||"B"zzzzzzzz||
 "E"zzzzzzzz|"A"zzzz"B"zzzz|"E"zzzzzzzz|"A"zzzz"B"zzzz|
 "F#m"zzzz"G#m"zzzz|"A"zzzz"B"zzzz|"F#m"zzzz"G#m"zzzz|"A"zzzz"B"zzzz|"B"zzzzzzzz|"B"zzzzzzzz|
 W: In The Water                                                 Charlotte Lyngbye 25/6/201
 W: 
+W: # verse
 W: Another life, another lover runs out the door
 W: with his tail between his legs
-W: I should have seen this moment coming before
-W: you left me here with the dregs
+W: I should have seen this moment coming before you
+W: left me here with the dregs
 W: 
 W: Now I know that I'm not a fool
 W: And you warned me not to get too excited
 W: But you don't always play by the rules
 W: And so my feelings must remain unrequited
 W: 
-W: I'm in the water
+W: # chorus
+W: [I'm in the water
 W: I'm in the deep black and stormy sea
 W: You threw me I'm in the water
-W: Please come back and rescue me
+W: Please come back and rescue me]
 W: 
 W: And I'm slowly drowning
 W: In the cold darkness from down underneath
 W: I'm going under
 W: And I'm desperately struggling to breathe
 W: 
-W: Like a bolt of lightening out of the blue,
-W: like a blow to my heart  -
+W: # verse
+W: Like a bolt of lightening out of the blue you,
+W: crashed into my heart
 W: I could never have counted on you
-W: I should have known right from the start
+W: I could have known that right from the start
 W: 
 W: Now I know that I'm not a fool
 W: And you warned me not to get too excited
 W: But you don't always play by the rules
 W: And so my love must remain unrequited
 W: 
-W: I'm in the water
-W: I'm in the deep black and stormy sea
+W: # chorus
+W: [When you throw me in the water
+W: Into the deep black and stormy sea
 W: You threw me I'm in the water
-W: Please come back and rescue me
+W: Please come back and rescue me]
 W: 
 W: And I'm slowly drowning
 W: In the cold darkness from down underneath
-W: I'm going under
+W: And I'm going under
 W: And I'm desperately struggling to breathe
+W: 
+W: In the water, 
+W: You threw me in the water
+W: 
 % abcbook-tune_id 634b4e57b2b070bf35d6b1ac
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/in the water.mp3
@@ -43082,7 +43104,7 @@ W: And I'm desperately struggling to breathe
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066803030
+% abcbook-lastupdated 1694120726934
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43550,54 +43572,55 @@ V:1
 "E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|"E7"zzzzzzzz|
 W: The Tudor Court Hotel                 Charlotte Lyngbye 15 February 2018
 W: 
+W: # intro
+W: 
+W: # verse
 W: I left my home in Denmark when I was just eighteen
 W: Went off to work in London as an aupair  - what was I thinking
 W: With guitar in hand and army jacket I arrived in Golders Green
 W: To a suburban Jewish family, both orthodox and mean
 W: So being me and a bit of a rebel, that didn't work out too well
 W: But thankfully I scored a new job
-W: At The Tudor Court Hotel
+W: At The [Tudor Court Hotel]
 W: 
+W: # verse
 W: This run down backpackers in the heart of Paddington
 W: A 5 storey terrace with polyester sheets in every room
 W: I worked in the reception and as a chambermaid
 W: I lived in on the premises as well as getting paid
 W: The young folks there were friendly, and we'd party till we fell
 W: And I sowed a bunch of wild oats
-W: At The Tudor Court Hotel
+W: At The [Tudor Court Hotel]
 W: 
+W: # verse
 W: When Rob, a tall dark stranger, who came all the way from Broome
 W: We danced and held hands 5 flights upstairs to his room
 W: He was leaving the next day so it was never meant to be
 W: Years later he was in a Caltex advertising on TV
 W: I'm glad to see Rob has a job, and that he still looks so well
 W: But I still recall that night on the 5[th] floor
-W: Of The Tudor Court Hotel
+W: Of The [Tudor Court Hotel]
 W: 
+W: # verse
 W: But the good times wouldn't last, and trouble was ahead
 W: When they hired a new manager to run the Tudor Court instead
 W: His name was Elvis, I kid you not, he smelt and he was greek
 W: Nothing wrong with being greek as long as you don't reek
 W: His hands were often sweaty and he was creepy as all hell
-W: So bolted for the door and quit my job
-W: at The Tudor Court Hotel
+W: So bolted for the door and I quit my job
+W: at The [Tudor Court Hotel]
 W: 
+W: # verse
 W: But a girl I worked with, Catherine, she was an English rose
 W: Later on we spent some girl time travelling the globe
-W: We visited her handsome cousin who lived in ACT
+W: We visited her handsome cousin who lived in the ACT
 W: Then yada yada yada and the rest is history
 W: So that's the story of how I got here, there's probably more to tell
 W: But it all started when I rang the door bell
-W: of The Tudor Court Hotel
+W: at The [Tudor Court Hotel]
 W: 
-W: E7   /   /   /   	|   E7   /   /   /
-W: E7   /   /   /   	|   E7   /   /   /
-W: D7   /   /   /   	|   D7   /   /   /
-W: D7   /   /   /   	|   D7   /   /   /
-W: A    /   /   /    	|   B   /   /   /
-W: Cm  /   /   /     	|   A   /   /   /
-W: A7  /   /   /
-W: E7  /   /   /	|   E7   /   /   /
+W: # outro
+W: [la la la .....]
 W: 
 % abcbook-tune_id 634b4f86c17b415792d9e718
 % abcbook-tune_composer_id 
@@ -43608,7 +43631,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694067099444
+% abcbook-lastupdated 1694124343895
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43676,6 +43699,7 @@ V:1
 "D"zzzzzzzz|"A"zzzz"F#m"zzzz|"E"zzzzzzzz|"A"zzzzzzzz|
 W: Happy Hour	     C. Lyngbye Nov 2016
 W: 
+W: # verse
 W: I've come out into the wild with a group of my friends
 W: It's time to re-connect with Mother Nature again
 W: It's windy and dusty and the mosquitos are biting
@@ -43683,16 +43707,17 @@ W: Goannas underfoot and the kangaroos are fighting
 W: 
 W: We gather together every afternoon
 W: It's time for a snack and refreshment and soon
-W: The tables are crammed with bisquits and dip
-W: With cheeses and colorful drinks to sip
+W: The tables are crammed with biscuits and dip
+W: With cheeses and colourful drinks to sip
 W: 
-W: CHORUS:
-W: So what is your poison I ask you my friend
-W: A Margerita, a or a triple Whiskey Sour again
-W: Pina Colada, a Cosmo, Aperitivo or Manhatten
+W: # chorus
+W: [So what is your poison I ask you my friend
+W: A Margarita, a or a triple Whiskey Sour again
+W: Pina Colada, a Cosmo, Aperitivo or Manhattan]
 W: Cos' these pretzels are making me thirsty
 W: 
-W: A handful of Dorritos goes right down my hatch
+W: # verse
+W: A handful of Doritos goes right down my hatch
 W: A grasshopper suddenly awaits in my glass
 W: I drink it down in one gulp and I show it no mercy
 W: `Cos dammit these cheesy corn chips are making me thirsty
@@ -43702,20 +43727,22 @@ W: It's looking to become a wild afternoon
 W: The next thing it's gone I have sculled the whole lot
 W: I'm well on my way to loosing the plot
 W: 
-W: CHORUS:
+W: # chorus 
 W: 
-W: I can't resist these drinks so colorful and bright
+W: # verse
+W: I can't resist these drinks so colourful and bright
 W: That cheer up my day and match my fairy light
 W: Too easy to drink like it's mothers milk
 W: I'm feeling like singing, my voice as smooth as silk
 W: 
 W: Bloody Mary quite contrary how does your garden grow
 W: With beer nuts and tequila but I'll have you know
-W: That if I have one more strawberry daquiry
+W: That if I have one more strawberry daiquiri
 W: I'll be comatose and ready for the knackery
 W: 
-W: CHORUS:
+W: # chorus
 W: 
+W: # verse
 W: But these friends can no longer be friends of mine
 W: Leading me astray till I neglect to tow the line
 W: I know there is a price to pay for having such fun
@@ -43730,7 +43757,7 @@ W: These pretzels are making me thirsty
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066647058
+% abcbook-lastupdated 1694119920981
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43742,7 +43769,7 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
-K:Gm
+K:Bb
 V:1 
 "Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||
 "Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|
@@ -43804,7 +43831,7 @@ W: It's the cross that I must bear
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066597436
+% abcbook-lastupdated 1694236441621
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -43827,35 +43854,41 @@ V:1
 "Em"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"B"zzzzzzzz|
 W: Sinister                                                                Charlotte Lyngbye 31/3/16
 W: 
+W: # verse
 W: It's like a strange presence, an alarm in the air
 W: Unseen and unspoken, it does not declare
-W: So slowly, it creeps up your spine
-W: Sneaks up on you, and approach from behind
+W: [So slowly, it creeps up your spine
+W: Sneaks up on you, and approach from behind]
 W: 
 W: I can feel my blood freeze, and my stomach curdle
 W: It takes all I have, to climb over this hurdle
-W: It gropes my back, like the hand of an unwelcome stranger
-W: The hair on my neck stands on end as I sense the danger
+W: [It gropes my back, like the hand of an unwelcome stranger
+W: The hair on my neck stands on end as I sense the danger]
 W: 
-W: Chorus
+W: # chorus
 W: Oh Lord so help me run
 W: Run from this evil within
-W: Please give me the strength to stand up face off my sin
+W: Please [give me the strength to stand up face off my sin]
 W: I'm so scared
 W: It's taking me over
-W: This dark energy is getting under my skin
+W: This [dark energy is getting under my skin]
 W: 
+W: # instr
+W: 
+W: # verse
 W: So am I deluded, is that my new deal
 W: Or is it just my imagination that makes it so real
-W: The band is playing danger music inside my head
-W: There's the smell of foreboding and the sinister feeling of dread
+W: [The band is playing danger music inside my head
+W: There's the smell of foreboding and the sinister feeling of dread]
 W: 
 W: I am uncertain, of what it is I am fighting
-W: Like a sitting duck, just prior to hell fire igniting
-W: Why am I being saddled, with all this anguish
-W: Invaded by angry demons that I must vanquish
+W: I'm like a sitting duck, just waiting for hell fire igniting
+W: [Why am I being saddled, with all this anguish
+W: I'm invaded by angry demons that I now must vanquish]
 W: 
-W: Chorus
+W: # chorus
+W: 
+W: # instr
 % abcbook-tune_id 634b4f869a0c0adfdc9623d4
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/sinister.m4a
@@ -43865,7 +43898,7 @@ W: Chorus
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066935708
+% abcbook-lastupdated 1694122913436
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44355,6 +44388,9 @@ V:1
 "G"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|"G"zzzzzzzz|
 W: Fugitive                                    C Lyngbye 14 Dec 2016
 W: 
+W: # intro
+W: 
+W: # verse
 W: Too easy how a life can life change
 W: You're in the north-bound lane
 W: When at the drop of a hat
@@ -44365,7 +44401,9 @@ W: When you hear heavy boots coming down the hall
 W: Do you hide yourself under the floor
 W: or make straight for the back door?
 W: 
-W: So do you run run run run
+W: # chorus
+W: [G A F G]
+W: [So do you run run run run
 W: When the devil snapping at your tail
 W: Never thought
 W: this could happen to you
@@ -44373,8 +44411,9 @@ W:
 W: Where do you run to, Where do you hide
 W: To stay above the rising tide
 W: Keep afloat, get in the boat
-W: Just to stay alive
+W: Just to stay alive]
 W: 
+W: # verse
 W: You're a fugitive in the middle of the night
 W: You know it won't be a fair fight
 W: You believed all the lies that said
@@ -44390,7 +44429,12 @@ W: No one warned you to watch out
 W: That it was unwise to take
 W: so much for granted
 W: 
+W: # chorus
 W: 
+W: # chorus
+W: 
+W: Keep afloat, get in the boat
+W: Just to stay alive
 W: 
 W: 
 W: 
@@ -44403,7 +44447,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066618519
+% abcbook-lastupdated 1694118962031
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44417,17 +44461,21 @@ M:4/4
 Q: 1/4=100
 K:G
 V:1 
-"G"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
-"G"zzzzzzzz||"Bm"zzzzzzzz||"Em"zzzzzzzz||"Em"zzzzzzzz||
-"G"zzzzzzzz|"Bm"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|
-"C"zzzzzzzz||"G"zzzzzzzz||"D"zzzzzzzz||"D"zzzzzzzz||
-"Em"zzzzzzzz|"D"zzzzzzzz|"Bm"zzzzzzzz|"D"zzzzzzzz|
+"G"zzzz"Bm"zzzz|"Em"zzzzzzzz|"G"zzzz"Bm"zzzz|"Em"zzzzzzzz||
+"G"zzzz"Bm"zzzz||"Em"zzzzzzzz||"C"zzzz"G"zzzz||"D"zzzzzzzz|
+"G"zzzz"Bm"zzzz|"Em"zzzzzzzz|"C"zzzz"G"zzzz|"D"zzzzzzzz||
+"Em"zzzzzzzz||"D"zzzzzzzz||"Bm"zzzzzzzz||"D"zzzzzzzz||
 "Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"Bm"zzzz|"Em"zzzzzzzz|
+"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzz"Bm"zzzz|"Em"zzzzzzzz|
+"C"zzzzzzzz|"D"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|
 W: Grudge                                                        Charlotte Lyngbye    1/2/2018
 W: 
+W: # intro
+W: 
+W: # verse
 W: While you're out there somewhere
 W: Long gone and getting on with your day
-W: You're moving on and unaware
+W: You're blissfully unaware
 W: Of the price hideous that I pay
 W: 
 W: Tapping in to those pools of resentment and spite
@@ -44435,35 +44483,42 @@ W: comes way too easily
 W: and I've so wasted so much energy
 W: I've almost given up the fight
 W: 
+W: #bridge
 W: It's time for me to send you packing
 W: Take your shit and hit the road
 W: This grudge I keep is wearing thin
 W: Let someone else move in
 W: 
+W: # chorus
+W: So I'm  [tossing in my, turning in my bed
+W: Cos you're living rent free in my head
 W: Wish I could think of something else instead
-W: But you're living rent free in my head
+W: Cos you're living rent free in my head
+W: In my head, in my head, in my head], in my head
 W: 
-W: 
+W: # verse
 W: I carry a grudge the size of a boulder
 W: I keep the monkey right here on my shoulder
 W: Thinking about how you did me wrong
-W: What the hell is going on
+W: It's always the same old song
 W: 
 W: I should be laughing, I should be jumping for joy
 W: You were a lemon and a nasty boy
-W: I am better off without you
-W: But I can't stop obsessing about you
+W: But the axe that I grind every day
+W: Has become my favorite toy
 W: 
+W: # bridge
 W: It's time for me to send you packing
 W: Take your shit and hit the road
 W: This grudge I keep is wearing thin
 W: Let someone else move in
 W: 
-W: So I'm  tossing and turning in my bed
+W: # chorus
+W: So I'm  [tossing in my, turning in my bed
 W: Cos you're living rent free in my head
-W: 
-W: Wish I could think of something else instead
+W: Wish I could think of someone else instead
 W: But you're living rent free in my head
+W: In my head, in my head, in my head], in my head
 W: 
 % abcbook-tune_id 634b4f87efea0ddd46ccbfb7
 % abcbook-tune_composer_id 
@@ -44474,7 +44529,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066635497
+% abcbook-lastupdated 1694138722597
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44491,15 +44546,17 @@ V:1
 "A"zzzzzzzz||"A"zzzzzzzz||"C#m"zzzzzzzz||"D"zzzzzzzz||
 "D"zzzzzzzz||"F#m"zzzzzzzz||"E"zzzzzzzz||"D"zzzzzzzz||
 "F#m"zzzzzzzz|"E"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
-W: Underground                         7 september 2017
+W: Underground                   Charlotte Lyngbye  -    7 september 2017
 W: 
-W: When i returned to my town of youth
-W: Everywhere are cranes, hoarding and equipment
+W: # verse
+W: As I returned to my town of youth
+W: Everywhere cranes, hoarding and equipment
 W: They're digging in the parks, they're digging up the earth
 W: Digging up the roads in the city up my birth
 W: And the noise is deafening
 W: They're going underground
 W: 
+W: # verse
 W: And just like a wild fire
 W: The ugliness is spreading
 W: Out with the old, in with the new
@@ -44507,6 +44564,7 @@ W: A nasty rash on the face of my hometown
 W: Just to get under the surface
 W: And travel underground
 W: 
+W: # bridge
 W: I loathe this godless tunneled space
 W: That exists deep under the bitumen
 W: This claustrophobic beast will haunt me
@@ -44516,20 +44574,23 @@ W: As I move down
 W: I can hardly breathe
 W: As I'm going underground
 W: 
+W: # verse
 W: I want a view from my bus and my train
 W: I value my sense of direction
 W: Please don't ask me to cram together
 W: With these strangers in these gloomy tunnels
 W: Beneath the city
-W: Going underground
+W: While moving underground
 W: 
+W: # verse
 W: Thank heavens for my bike
 W: That's still my favorite way to get around town
 W: I need to feel the changing of the weather
-W: I wanna watch all the real life stories
+W: And watch all the real life stories
 W: Playing out on every street
 W: I tell ya, I'm not going underground
-W: I'll never go underground
+W: I'm not going underground
+W: I'm not going underground
 % abcbook-tune_id 634b4f87b9f0116e3c1afee5
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/underground.mp3
@@ -44540,7 +44601,7 @@ W: I'll never go underground
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEABE
-% abcbook-lastupdated 1694067125956
+% abcbook-lastupdated 1694124637955
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44560,6 +44621,7 @@ V:1
 "C"zzzzzzzz|"B"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
 W: I Cancelled My Subscription             Charlotte Lyngbye   6/7/16
 W: 
+W: # verse
 W: I don't like your pitch
 W: And I wont be your bitch that hangs
 W: On every word you say
@@ -44570,30 +44632,51 @@ W: It gives me nightmares every time
 W: You breathe those words
 W: It's a real crime
 W: 
-W: I've told you a thousand times before
-W: I don't read you anymore
+W: # chorus
+W: I've [told you a thousand times before
+W: I don't read you anymore]
 W: Well let me spell it out to ya
-W: You're walking work of fiction
-W: And I've cancelled my subscription
+W: [You're walking work of fiction
+W: And I've cancelled my subscription]
 W: You still don't get it do ya
 W: 
+W: # verse
 W: I'm am so amazed
 W: How you are so unfazed by all
 W: the evidence
-W: right in front you your face
+W: right in front of your face
 W: 
 W: You don't know what you're missing
 W: You're not even listening to
-W: All of those voices
+W: All those voices
 W: Shouting right at you
 W: 
-W: I've told you a thousand times before
-W: I don't read you anymore
+W: # chorus
+W: I've [told you a thousand times before
+W: I don't read you anymore]
 W: Well let me spell it out to ya
-W: You're walking work of fiction
-W: And I've cancelled my subscription
+W: [You're walking work of fiction
+W: And I've cancelled my subscription]
 W: You still don't get it do ya
 W: 
+W: # verse
+W: I don't like your pitch
+W: And I wont be your bitch that hangs
+W: On every word you say
+W: That's not my way
+W: 
+W: I'm not buying your wares
+W: It gives me nightmares every time
+W: You breathe those words
+W: It's a real crime
+W: 
+W: # chorus
+W: I've [told you a thousand times before
+W: I don't read you anymore]
+W: Well let me spell it out to ya
+W: [You're walking work of fiction
+W: And I've cancelled my subscription]
+W: You still don't get it do ya
 W: 
 W: 
 W: 
@@ -44606,7 +44689,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066666526
+% abcbook-lastupdated 1694120232709
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44859,6 +44942,7 @@ V:1
 "Em"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"Em"zzzzzzzz|
 W: Concrete     Charlotte Lyngbye 21/1/2016
 W: 
+W: # verse
 W: I'm tired of trying to guess
 W: your meaning,
 W: when you skirt around the edge
@@ -44868,15 +44952,17 @@ W: is wearing a bit thin
 W: It doesn't make you special
 W: It just boring and tedious
 W: 
-W: Give me something concrete
+W: # chorus
+W: [Give me something concrete
 W: Give me solid ground to stay
 W: Not a door out to the back street
 W: Or grounds to walk away
 W: Give me something concrete
 W: You're all lipstick and no kiss
 W: It's not that complicated
-W: Just Say it like it is
+W: Just Say it like it is]
 W: 
+W: # verse
 W: All this whishy washy
 W: All the airy fairy, pie in the sky
 W: What are you really saying?
@@ -44886,8 +44972,9 @@ W: What are you're so afraid of
 W: Do you think I'll look down on you
 W: If you just be you
 W: 
-W: CHORUS
+W: # chorus
 W: 
+W: # verse
 W: For once just be straight with me
 W: I've no patience for your riddles
 W: Can't you just come out and say
@@ -44906,7 +44993,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066562583
+% abcbook-lastupdated 1694216403034
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44932,24 +45019,26 @@ V:1
 "F"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
 W: The Meaning of Leif                                                   C Lyngbye 6/8/16
 W: 
+W: # verse
 W: It's Sunday, it's morning I wake from my sleep
-W: Lethargic and lazy from the hours I keep
-W: We're camped in the bush by the sesa and the sand
-W: The Meaning of Leif is the name of my Van
+W: I'm lethargic and lazy from the hours I keep
+W: We're camped in the bush by the sea and the sand
+W: The Meaning of Leif that's the name of my Van
 W: 
-W: I'm snoozy and whoozy and staying in bed
-W: But there's a man with a hammer inside of my head
+W: I'm snoozy and I'm whoozy and staying in bed
+W: Cos there's a man with a hammer inside of my head
 W: He's telling me last night I drank too much wine
 W: But with six cups of tea I'll recover just fine
 W: 
-W: CHORUS
-W: The Meaning of Leif is the name of my Van
+W: # chorus
+W: [The Meaning of Leif is the name of my Van]
 W: Leif was my Dad, he was a lively old man
-W: Sadly he passed a few years ago
+W: [Sadly he passed a few years ago]
 W: He left me a little bit of money and so
-W: I spent it to buy this old Van that I love
-W: And I know Leif is watching from heaven above
+W: [I spent it to buy this old Van that I love
+W: And I know Leif is watching from heaven above]
 W: 
+W: # verse
 W: So just as I slip away back to my dream
 W: The arrival of the brain cell recovery team
 W: A friend brings me pancakes through the caravan door
@@ -44960,15 +45049,18 @@ W: Who cooks breakfast to help me feel human again
 W: Last night we got rowdy by the light of the moon
 W: We stayed up all night singing tune after tune
 W: 
-W: CHORUS
+W: # chorus
 W: 
-W: Despite hangovers and headache it's a beautiful day
+W: # verse
+W: Despite hangovers and headaches it's a beautiful day
 W: We love the freedom of getting away
 W: Away from the phones and hustle of life
 W: From work and the news of a world deep in strife
 W: 
-W: CHORUS
+W: # chorus
 W: 
+W: I spent it to buy this old van that I love
+W: And I know he is watching from heaven above
 % abcbook-tune_id 634b4f87e6d57ab567ba686c
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/the meaning of leif.mp3
@@ -44978,7 +45070,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694067057441
+% abcbook-lastupdated 1694153583440
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77632,10 +77724,10 @@ M:4/4
 Q: 1/4=100
 K:E
 V:1 
-"E"zzzzzzzz|"F#"zzzzzzzz|"G#"zzzzzzzz|"A"zzzzzzzz|
-"E"zzzzzzzz||"F#"zzzzzzzz||"G#"zzzzzzzz||"A"zzzzzzzz||
+"E"zzzzzzzz|"F#m"zzzzzzzz|"G#m"zzzzzzzz|"A"zzzzzzzz|
+"E"zzzzzzzz||"F#m"zzzzzzzz||"G#m"zzzzzzzz||"A"zzzzzzzz||
 "A"zzzzzzzz|"B"zzzzzzzz|"A"zzzzzzzz|"B"zzzzzzzz|
-"A"zzzzzzzz||"B"zzzzzzzz||"C#"zzzzzzzz||"D#"zzzzzzzz||
+"A"zzzzzzzz||"B"zzzzzzzz||"C#m"zzzzzzzz||"D#°"zzzzzzzz||
 "E"zzzzzzzz|"F#"zzzzzzzz|"A"zzzzzzzz|"B"zzzzzzzz|
 W: Tuning EAEABE Charlotte Lyngbye 17 May 2023
 W: 
@@ -77695,7 +77787,7 @@ W: It’s all false &amp; counterfeit (Rpt)
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEABE
-% abcbook-lastupdated 1694066428911
+% abcbook-lastupdated 1694211749162
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77795,46 +77887,50 @@ V:1
 "B"zzzzzzzz|"A"zzzzzzzz|"F#"zzzzzzzz|"B"zzzzzzzz| 
 W: Charlotte Lyngbye 10/05/2023
 W: 
+W: # verse
 W: Hey,
 W: What would you say
-W: If I asked you
-W: to come my way
+W: [If I asked you
+W: to come my way]
 W: 
 W: Hey
 W: What’s it gonna be?
 W: Ya know,
-W: the simple pleasures in life are free
+W: [the simple pleasures in life are free]
 W: 
-W: What’s that there in your case
+W: [What’s that there in your case
 W: It sure looks like a bass
-W: Please bring it to my home
-W: To meet my saxophone
+W: Please bring it to my home to]
+W: Meet my saxophone
 W: 
+W: # verse
 W: Hey
 W: We’ll be all alone
-W: Just you, me, your bass
-W: And my saxophone
+W: Just [you, me, your bass
+W: And my saxophone]
 W: 
 W: Hey
 W: Let’s play around
-W: And make some of that funky
-W: sexy sound
+W: And [make some of that funky
+W: sexy sound]
 W: 
-W: My place will be nice and warm
+W: [My place will be nice and warm
 W: We’ll have some candlelight
-W: The saxy bass will keep it
+W: We'll play the saxy bass ]
 W: burning bright throughout the night
 W: 
+W: # verse
 W: We’ll make it drone and moan
 W: Hitting that hard core tone
 W: We’ll play it slow, yeah
+W: 
 W: We’ll play it right to the bone
-W: Let’s play in the pale moonlight
-W: Let’s play all through the night
+W: [Let’s play in the pale moonlight
+W: Let’s play all through the night]
 W: 
 W: We’ll play until the sun comes up
 W: We’ll play until we drop
-W: I’ll ride my saxophone
+W: [I’ll ride my saxophone]
 W: You ride your amazing bass,
 W: So sweet the sound
 W: We’ll play around and around and around
@@ -77848,7 +77944,7 @@ W: We’ll play around and around and around
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066833808
+% abcbook-lastupdated 1694121796286
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77991,40 +78087,45 @@ V:1
 W: Charlotte Lyngbye 5/4/2023
 W: EAEADE Tuning
 W: 
-W: VERSE
+W: # verse
 W: The evening sun descends around the mountain side
 W: When the day is done and it’s time for us to hide
 W: Hide away in the twilight hour
 W: Like the petals closing in upon a flower
+W: 
 W: I’ve never had pretentions of a poet
 W: But if anyone could bring one out in me
 W: It’s you, lovely you, and you know it
-W: You’re gentle and as precious as can be
+W: You’re as gentle and as precious as can be
 W: 
-W: CHORUS
-W: This one’s for YOU
-W: It’s just for YOU
-W: ‘Cos you and me
-W: We’re a special to be
+W: # chorus
+W: This one’s for [YOU]
+W: It’s just for [YOU]
+W: ‘Cos [you and me
+W: We’re a special place to be]
 W: 
-W: VERSE
+W: # verse
 W: It has been a long and interesting journey
 W: There has been pleasure and some pain
 W: There’s been ups and there’s been downs
 W: But I for one would do it all again
 W: 
-W: BRIDGE
-W: There is value in the mundane and the ordinary
+W: # instr
+W: 
+W: # bridge
+W: [There is value in the mundane and the ordinary
 W: and the routine, humdrum of every day
 W: Keeping it plain
 W: Never lifting more than we can carry
-W: So that we won’t lose our way
+W: So that we won’t lose our way]
 W: 
-W: CHORUS
-W: This one’s for YOU
-W: It’s just for YOU
-W: ‘Cos you and me
-W: We’re a special to be
+W: # chorus
+W: This one’s for [YOU]
+W: It’s just for [YOU]
+W: ‘Cos [you and me
+W: We’re a special to be]
+W: 
+W: # outro 
 % abcbook-tune_id 646ca1851bbfd79752065240
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=HyqR0zM2_VE
@@ -78035,7 +78136,7 @@ W: We’re a special to be
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEADE
-% abcbook-lastupdated 1694067310457
+% abcbook-lastupdated 1694125115506
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78047,7 +78148,7 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
-K:Dm
+K:Bb
 V:1 
 "Dm"zzzzzzzz||"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzz"G"zzzz|
 "Dm"zzzzzzzz|"F"zzzz"G"zzzz|"Dm"zzzzzzzz|"F"zzzzzzzz||
@@ -78112,7 +78213,7 @@ W: I’ll show you what Mama is really made of
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning DADGAD
-% abcbook-lastupdated 1694066957515
+% abcbook-lastupdated 1694237011920
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78201,6 +78302,7 @@ V:1
 W: Standard tuning – Em -Capo 2nd
 W: Charlotte Lyngbye 12 April 2023. (65)
 W: 
+W: # verse
 W: All alone
 W: Running down the alleyway of broken dreams
 W: Tripping over stolen bikes and busted TV screens
@@ -78209,43 +78311,53 @@ W: Sneaking round the corners hiding out
 W: From what he is
 W: Or what his mind tells him that he wants to be
 W: 
-W: CHORUS
-W: Who’s the wolf and
+W: # chorus
+W: [Who’s the wolf and
 W: who’s the sheep
 W: He’s lost himself too deep in this old tale
 W: No escape,
 W: he’s trapped and gasping
 W: Jaws agape
-W: waiting to exhale
+W: waiting to exhale]
 W: 
+W: # verse
 W: There are two of them
 W: Hanging close behind him in the night
-W: One is black, one white, one on his left, one of his right
-W: In the forum of his mind
+W: One is black, one is white, one on his left, one on his right
 W: Bloody is the fight
 W: 
-W: BRIDGE
-W: Where’s that wolf
+W: # bridge
+W: [Where’s that wolf
 W: Who’s that creature that will soon become his doom
 W: Lifting its head, baring its fangs
-W: Howling at the moon
+W: Howling at the moon]
 W: 
-W: CHORUS
-W: Who’s the wolf and
+W: # chorus
+W: [Who’s the wolf and
 W: who’s the sheep
 W: He’s lost himself too deep in this old tale
 W: No escape,
 W: he’s trapped and gasping
 W: Jaws agape
-W: waiting to exhale
+W: waiting to exhale]
 W: 
+W: # verse
 W: Just like a child
 W: His imagination’s running wild
-W: Where is the wolf, is it real
+W: Where is the wolf, 
 W: He can never tell
 W: Which is heaven or hell
 W: 
-W: CHORUS
+W: # chorus
+W: [Who’s the wolf and
+W: who’s the sheep
+W: He’s lost himself too deep in this old tale
+W: No escape,
+W: he’s trapped and gasping
+W: Jaws agape
+W: waiting to exhale]
+W: 
+W: 
 % abcbook-tune_id 646ca56899b4496a350ac83e
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/werewolf.mp3
@@ -78255,7 +78367,7 @@ W: CHORUS
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694067823378
+% abcbook-lastupdated 1694148967007
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78340,18 +78452,10 @@ M:4/4
 Q: 1/4=100
 K:Am
 V:1 
-"Am"zzzzzzzz|
-"C"zzzzzzzz|
-"A#"zzzzzzzz|
-"Am"zzzzzzzz||zzzzzzzz||zzzzzzzz||"G"zzzzzzzz||
-"C"zzzzzzzz|
-"G"zzzzzzzz|
-"Dm"zzzzzzzz|
-"Am"zzzzzzzz||zzzzzzzz||zzzzzzzz||"G"zzzzzzzz||
-"C"zzzzzzzz|
-"Am"zzzzzzzz|
-"F"zzzzzzzz|zzzzzzzz|"G"zzzzzzzz|
-"Am"zzzzzzzz|
+"Am"zzzzzzzz||"C"zzzzzzzz||"A#"zzzzzzzz||"Am"zzzz"G"zzzz||
+"C"zzzzzzzz||"G"zzzzzzzz||"Dm"zzzzzzzz||"Am"zzzz"G"zzzz||
+"C"zzzzzzzz|"Am"zzzzzzzz|"F"zzzz"G"zzzz|"Am"zzzzzzzz|
+W: # verse
 W: My tired old eyes are straightening
 W: Squinting in the yellowing light
 W: Tired and worn out I'm headed south
@@ -78368,6 +78472,7 @@ W: Don't have long to go now
 W: A journey through the night
 W: I promise I'll be coming home soon
 W: 
+W: # bridge
 W: I'm tired of motorway food
 W: Tired of mouldy motel rooms
 W: And the stink of musty old bedspreads
@@ -78376,6 +78481,7 @@ W: I've had it with bad coffee
 W: And with highway exhaust fumes
 W: Fed up with backward small town boneheads
 W: 
+W: # verse
 W: I roll my window down ?a slide?
 W: Roll into some random branch of the town
 W: Stop for fuel in the middle of nowhere
@@ -78392,10 +78498,11 @@ W: And my radio is soothing
 W: While I drive until the morn
 W: As I'm heading home, heading home to you.
 W: 
-W: Heading home, heading home, I'm heading home, heading home to you
-W: Heading home, heading home, I'm heading home, heading home to you
+W: # chorus
+W: [Heading home, heading home, I'm heading home, heading home to you
+W: Heading home, heading home, I'm heading home, heading home to you]
 W: 
-W: 
+W: # bridge
 W: I'm tired of motorway food
 W: Tired of mouldy motel rooms
 W: And the stink of musty old bedspreads
@@ -78404,7 +78511,7 @@ W: I've had it with bad coffee
 W: And with highway exhaust fumes
 W: Fed up with backward small town boneheads
 W: 
-W: INSTR
+W: INSTR (verse)
 % abcbook-tune_id 648cfdae089bede2bb392bce
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/journey%20home.m4a
@@ -78414,7 +78521,7 @@ W: INSTR
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066815898
+% abcbook-lastupdated 1694142601309
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78888,7 +78995,7 @@ W: # Chorus
 %%MIDI transpose -2
 
 
-X: 11047
+X: 45405
 T: Run Dotteral Run
 C:Steve Ryan
 B: songs
@@ -78961,7 +79068,7 @@ C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
-K:Gm
+K:Bb
 V:1 
 "Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||"Gm"zzzzzzzz||
 "Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|"Gm"zzzzzzzz|"D#"zzzz"Cm"zzzz|
@@ -78987,27 +79094,27 @@ W: Just to pass the time, and to abandon all those rules
 W: Rules that dictates, what I can and cannot do
 W: 
 W: # Instr
-W: Do da doo, doo doo doo doo.
+W: Do da [doo, doo doo doo doo.]
 W: 
 W: # Chorus
-W: Let it happen to see what happens
-W: Let the colors run and crackle
-W: Let me be sad when I am sad
-W: Let me be happy when I am happy
-W: Let me let go, till I feel yellow green and blue
-W: And let gravity do what it needs to do
+W: Let it [happen to see what happens]
+W: Let the [colors run and crackle]
+W: Let me be [sad when I am sad]
+W: Let me be [happy when I am happy]
+W: [Let me let go, till I feel yellow green and blue
+W: And let gravity do what it needs to do]
 W: 
 W: # Instr
 W: 
 W: # Verse
 W: Sometimes my colors smudge, and run away from me
-W: They dry to fast or just refuse to even blend
-W: But to me that’s just the fun part, the loosing of control
+W: They dry too fast or refuse to even blend
+W: But to me that’s just the fun part, the losing of control
 W: Surprisingly it comes together in the end
 W: 
 W: ‘Cos all these imperfections, is what makes the work so real
-W: Like a playground full of children, they interact together
-W: It sums up all the elements to a random outcome
+W: Like a playground full of children, that interact together
+W: To sums up all the elements to a random outcome
 W: Reflective of the moment or the changing of the weather
 W: 
 W: # Instr
@@ -79035,7 +79142,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066002524
+% abcbook-lastupdated 1694236976470
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79066,21 +79173,20 @@ W: We’ve never been
 W: this close before
 W: 
 W: Let’s build a Wall
-W: Guns for all
+W: Have guns for all
 W: Standing tall
 W: And we all fall
-W: 
-W: And we all fall
+W: We all fall
 W: 
 W: # Chorus
-W: We’ll fall down onto our fate
+W: We’ll fall [down onto our fate
 W: Until we learn our place
 W: 
 W: We’ll fall down onto our fate
 W: Until we learn our place
 W: 
 W: We’ll fall down onto our fate
-W: Until we learn our place
+W: Until we learn our place]
 W: 
 W: # Verse 2
 W: Catastrophized
@@ -79094,38 +79200,40 @@ W:
 W: The lessons learned
 W: from the past
 W: You’d think we’d wisened up at last
-W: 
 W: You’d think we’d wisened up at last
 W: 
 W: # Chorus
-W: We fall flat onto our face
+W: We fall [flat onto our face
 W: When it’s all too late
 W: 
 W: We fall flat onto our face
 W: When it’s all too late
 W: 
 W: We fall flat onto our face
-W: When it’s all too late
+W: When it’s all too late]
 W: 
 W: # Bridge
 W: Please stand down
 W: Let there be no more tug of war
 W: My head is hurting
-W: I can’t take it anymore
+W: I can’t take it anymore]
 W: 
 W: 
 W: # Chorus
 W: Don’t want to fall
-W: Flat onto my face
+W: [Flat onto my face
 W: When it’s all too late
 W: 
 W: Fall flat onto my face
 W: When it’s all too late
 W: 
 W: Flat onto my face
-W: When it’s all too late
+W: When it’s all too late]
 W: 
-W: Outro
+W: When it's all too late
+W: When it's all too late
+W: 
+W: # Outro
 % abcbook-tune_id 64f522792ddd486d6050af7b
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/shell shocked.mp3
@@ -79136,13 +79244,13 @@ W: Outro
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066887920
+% abcbook-lastupdated 1694122617308
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 52142
+X: 79201
 T: I Promise
 C:Charlotte Lyngbye
 B: songs
@@ -79213,7 +79321,7 @@ W: CHORUS:
 % abcbook-repeats 1
 
 
-X: 94704
+X: 25854
 T: Displeasure
 C:Charlotte Lyngbye
 B: songs
@@ -79283,7 +79391,7 @@ W: Or find mould on my shower curtain
 % abcbook-repeats 1
 
 
-X: 14882
+X: 76402
 T: Fight Or Flight
 B: songs
 M:4/4
@@ -79342,7 +79450,7 @@ W: An awkwardness that no one understands
 % abcbook-repeats 1
 
 
-X: 70365
+X: 25823
 T: Robbery
 C:Charlotte Lyngbye
 B: songs
@@ -79406,7 +79514,7 @@ W: CHART
 % abcbook-repeats 1
 
 
-X: 53159
+X: 10130
 T: Bye Bye Clawhammer
 C:Charlotte Lyngbye
 B: songs
@@ -79495,6 +79603,7 @@ X: 1185
 T: Creamy Streets
 C:Steve Ryan
 B: songs
+B: working
 M:4/4
 Q: 1/4=100
 V:1 
@@ -79504,65 +79613,65 @@ V:1
 "D"E F3 "G"G4 |"G" BdBA "D"FE D2 | F G3A3 (A | A)cAG FE D2|"C"C C3 "D"D4 :|
 W: Creamy Streets - steve ryan 29 Aug 2023
 W: 
-W: set to the tune "Boys them flies are buzzing" by Donna Vaughan 
+W: set to the tune "Boys them flies are buzzing" by Donna Vaughan
 W: https://tunebook.net/#/importlink/https%3A%2F%2Ftunebook.net%2Fscrape%2Ftunes.abc/tune/63ae8f1c6160d4a519f05e5f/play
 W: 
 W: # A
-W: Fondest memories of my childhood, 
-W: choosing icecreams as a treat, 
+W: Fondest memories of my childhood,
+W: choosing icecreams as a treat,
 W: at the local grocery store.
-W: Calypso gelato in summer is refreshing, 
-W: but the milky choices always abound, 
+W: Calypso gelato in summer is refreshing,
+W: but the milky choices always abound,
 W: reaching deep into the freezer
 W: Rich  and creamy, cool and fresh
 W: 
 W: # B
-W: Nibble on the nuts atop a cornetto
-W: Peel the chocolate sheets from a magnum
-W: Bite the nose of, bubble oh bill or a caramello
+W: Nibble on the nuts atop a Cornetto
+W: Peel the chocolate sheets from a Magnum
+W: Bite the nose of, bubble oh bill or a Caramello
 W: Ice cream is the way to go
 W: 
 W: # A
-W: A Paddle Pop from Streets is unadulterated, 
-W: maybe try a Splice with a layer of ice. 
+W: A Paddle Pop from Streets is unadulterated,
+W: maybe try a Splice with a layer of ice.
 W: Or a yummy crunchy Golden Gaytime.
-W: Try a Peters' Drumstick or simple frozen Frosty Fruit, 
-W: or a Bulla creamy choc chip tub. 
+W: Try a Peters' Drumstick or simple frozen Frosty Fruit,
+W: or a Bulla creamy choc chip tub.
 W: Biscuit layered Cadberries Oreo.
 W: Many choices, what is best?
 W: 
 W: # B
-W: Nibble on the nuts atop a cornetto
+W: Nibble on the nuts atop a Cornetto
 W: Peel the chocolate sheets from a magnum
-W: Bite the nose of bubble oh bill or a caramello
+W: Bite the nose of bubble oh bill or a Caramello
 W: Ice cream is the way to go
 W: 
-W: # A 
-W: Sitting soaked in sunscreen in the summer sun. 
-W: Watching icecream dribble down my thumb. 
+W: # A
+W: Sitting soaked in sunscreen in the summer sun.
+W: Watching ice cream dribble down my thumb.
 W: Licking it all up before it runs.
-W: Better finish quick 'for it starts to slide off the, 
-W: little wooden handle to the waiting sand. 
+W: Better finish quick 'for it starts to slide off the,
+W: little wooden handle to the waiting sand.
 W: Still too cold to hold in my hand.
+W: Summer ice creams, what a mess.
 W: 
 W: # B
-W: Nibble on the nuts atop a cornetto
+W: Nibble on the nuts atop a Cornetto
 W: Peel the chocolate sheets from a magnum
-W: Bite the nose of bubble oh bill or a caramello
+W: Bite the nose of bubble oh bill or a Caramello
 W: Ice cream is the way to go
 W: 
 W: 
 % abcbook-tune_id 64f6743958c4b5159420dad9
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/creamy streets.mp3
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1693923720679
+% abcbook-lastupdated 1694265034130
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
