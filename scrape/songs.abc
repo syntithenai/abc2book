@@ -2871,8 +2871,6 @@ B: songs
 B: traditional songs
 B: tunes
 B: good tune book
-B: working
-B: test
 M:4/4
 L:1/8
 R: reel
@@ -2920,11 +2918,11 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-link-end-at-0 316
 % abcbook-boost 10
 % abcbook-difficulty 1
-% abcbook-tags canberra pickers and fiddlers,nick hutten,old time tunes,ralph cullen,steve ryan,© free,jims roots and blues,good tune book,test,ss1,ss2,ss3
+% abcbook-tags canberra pickers and fiddlers,nick hutten,old time tunes,ralph cullen,steve ryan,© free,jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1691803608813
+% abcbook-lastupdated 1694555071534
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -5528,7 +5526,6 @@ X: 71
 T: Romeo And Juliet
 C:Dire Straits
 B: songs
-B: working
 M:4/4
 Q: 1/4=85
 K:C
@@ -10564,7 +10561,7 @@ W: But I was young and foolish, and now am full of tears.
 % abcbook-link-title-0 Down By The Salley Gardens - William Butler Yeats
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,steve ryan,© free,©,ss3
+% abcbook-tags charlotte lyngbye,steve ryan,© free,©,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -13936,7 +13933,6 @@ X: 190
 T: Sunday Bloody Sunday
 C:U2
 B: songs
-B: working
 M:4/4
 Q: 1/4=100
 K:G
@@ -14907,7 +14903,7 @@ W: They are for each other
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,steve ryan,kameruka choir,©,ss3
+% abcbook-tags charlotte lyngbye,steve ryan,kameruka choir,©,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -17918,7 +17914,7 @@ W: When the smoke gets in your eyes
 % abcbook-link-title-0 Indoor Fireworks
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,test,vcs,ss3
+% abcbook-tags steve ryan,test,vcs,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -18056,7 +18052,7 @@ W: The same old fears, wish you were here
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,ss3
+% abcbook-tags steve ryan,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -18437,7 +18433,7 @@ W: And the tears of a people ran together
 % abcbook-link-0 https://www.youtube.com/watch?v=zJTPV2clKZs
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags velma mckeachie,steve ryan,incoming traditional songs,test,vcs,ss1,ss2,ss3
+% abcbook-tags velma mckeachie,steve ryan,incoming traditional songs,test,vcs,ss1,ss2,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning 
@@ -18494,7 +18490,7 @@ W: On this harvest moon
 % abcbook-link-title-0 The Brothers Comatose &amp; AJ Lee - &quot;Harvest Moon&quot; (by Neil Young)
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags charlotte lyngbye,steve ryan,©,test,vcs,ss2,ss3
+% abcbook-tags charlotte lyngbye,steve ryan,©,test,vcs,ss2,ss3,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -21953,11 +21949,11 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©
+% abcbook-tags charlotte lyngbye,©,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665890133268
+% abcbook-lastupdated 1694312837638
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -42616,7 +42612,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694220039324
+% abcbook-lastupdated 1694571114040
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44403,6 +44399,7 @@ W: or make straight for the back door?
 W: 
 W: # chorus
 W: [G A F G]
+W: # no harmony first time
 W: [So do you run run run run
 W: When the devil snapping at your tail
 W: Never thought
@@ -44412,6 +44409,8 @@ W: Where do you run to, Where do you hide
 W: To stay above the rising tide
 W: Keep afloat, get in the boat
 W: Just to stay alive]
+W: 
+W: # solo
 W: 
 W: # verse
 W: You're a fugitive in the middle of the night
@@ -44440,14 +44439,14 @@ W:
 W: 
 % abcbook-tune_id 634b4f877cd3ca0609155745
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/fugitive.mp3
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/fugitive.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694118962031
+% abcbook-lastupdated 1694690684992
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -44497,6 +44496,9 @@ W: Cos you're living rent free in my head
 W: In my head, in my head, in my head], in my head
 W: 
 W: # verse
+W: 
+W: # solo
+W: 
 W: I carry a grudge the size of a boulder
 W: I keep the monkey right here on my shoulder
 W: Thinking about how you did me wrong
@@ -44529,7 +44531,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694138722597
+% abcbook-lastupdated 1694318800733
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -45121,11 +45123,11 @@ W: He plays accordion for Mr. Weiss
 % abcbook-link-title-0 Tom Waits - Cemetery Polka
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags charlotte lyngbye,steve ryan,©,test,vcs
+% abcbook-tags charlotte lyngbye,steve ryan,©,test,vcs,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1672803748253
+% abcbook-lastupdated 1694339916174
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -70400,7 +70402,6 @@ X: 1059
 T: Guinnevere
 C:Crosby, Stills & Nash
 B: songs
-B: working
 M:4/4
 Q: 1/4=100
 V:1 
@@ -71531,7 +71532,7 @@ W: Let the water come and carry us away
 % abcbook-link-0 https://www.youtube.com/watch?v=6EI2of1PTW4
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags crosby stills nash and young,test,vcs2,ss2,projects
+% abcbook-tags crosby stills nash and young,test,vcs2,ss2,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -76180,7 +76181,6 @@ T: Hit 'Em Up Style
 C:Carolina Chocolate Drops
 B: carolina chocolate drops
 B: songs
-B: working
 M:4/4
 Q: 1/4=100
 V:1 
@@ -76452,7 +76452,7 @@ W: A day for the hunter, a day for the prey
 % abcbook-link-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags ss1
+% abcbook-tags ss1,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -76649,7 +76649,7 @@ W: yeah
 % abcbook-link-0 https://www.youtube.com/watch?v=vbzASqc9Zqo
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,test,vcs,ss1,ss2,ss3,projects
+% abcbook-tags steve ryan,test,vcs,ss1,ss2,ss3,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -76663,7 +76663,6 @@ X: 1142
 T: Star Shocked
 C:Steve Ryan
 B: songs
-B: working
 M:3/4
 Q: 1/4=100
 V:1 
@@ -77058,7 +77057,6 @@ X: 1150
 T: Gracias A La Vida
 C:Violeta Parra
 B: songs
-B: working
 Q: 1/4=100
 V:1 
 W: [Verso 1]
@@ -77272,7 +77270,7 @@ W: riff then chord
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve%20ryan/sexy%20saxophone.m4a
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags steve ryan originals,candelo songwriters,test,vcs,projects
+% abcbook-tags steve ryan originals,candelo songwriters,test,vcs,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -77335,7 +77333,6 @@ W: We'll play around and around and around ......
 X: 1155
 T: Ars Facere
 C:Steve Ryan
-B: working
 B: songs
 M:4/4
 Q: 1/4=100
@@ -77421,7 +77418,6 @@ W: manu nostra peritia semper.	(	Through the skill of our hands, always.	)
 X: 1156
 T: Song For A Dark Girl
 C:Leila McCalla
-B: working
 B: traditional songs
 B: songs
 M:4/4
@@ -77562,11 +77558,11 @@ W: When all the world is green
 % abcbook-link-title-1 Tom Waits - All The World is Green with Lyrics
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags mathew perry,vcs
+% abcbook-tags mathew perry,vcs,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1692261816510
+% abcbook-lastupdated 1694337503497
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77575,7 +77571,6 @@ W: When all the world is green
 X: 1158
 T: Clawhammer
 C:Steve Ryan
-B: working
 B: songs
 M:4/4
 Q: 1/4=100
@@ -77647,11 +77642,11 @@ W: The showdown awaits, Bond holds fate in his hand
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags projects,candelo songwriters
+% abcbook-tags candelo songwriters,steve ryan originals,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1687160244873
+% abcbook-lastupdated 1694913195928
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78213,7 +78208,7 @@ W: I’ll show you what Mama is really made of
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning DADGAD
-% abcbook-lastupdated 1694237011920
+% abcbook-lastupdated 1694561646261
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78332,6 +78327,8 @@ W: Who’s that creature that will soon become his doom
 W: Lifting its head, baring its fangs
 W: Howling at the moon]
 W: 
+W: # solo over verse
+W: 
 W: # chorus
 W: [Who’s the wolf and
 W: who’s the sheep
@@ -78367,7 +78364,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694148967007
+% abcbook-lastupdated 1694314736198
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78404,7 +78401,7 @@ Q: 1/4=100
 K:Dm
 V:1 
 "Dm"zz"A#"zz"Gm"zz"A"zz||"Dm"zzzzzzzz||
-"Dm"zz"A#"zz"Gm"zz"A"zz|
+"Dm"zz"Gm"zz"Bb"zz"A"zz|
 "Gm/Bb"zz"C/Bb"zz"Gm/Bb"zz"A/Bb"zz|"Dm"zzzzzzzz|
 W: 
 W: 
@@ -78433,11 +78430,11 @@ W: Life sux, and it's awesome as hell
 % abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags candelo songwriters,steve ryan,steve ryan originals,ss1,ss3,projects
+% abcbook-tags candelo songwriters,steve ryan,steve ryan originals,ss1,ss3,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1689133636630
+% abcbook-lastupdated 1695092568714
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -78446,7 +78443,6 @@ W: Life sux, and it's awesome as hell
 X: 1171
 T: Journey Home
 C:Charlotte Lyngbye
-B: working
 B: songs
 M:4/4
 Q: 1/4=100
@@ -78584,7 +78580,7 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,ss2,ss3,projects
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,ss2,ss3,projects,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 5
 % abcbook-tuning 
@@ -78995,7 +78991,7 @@ W: # Chorus
 %%MIDI transpose -2
 
 
-X: 45405
+X: 82405
 T: Run Dotteral Run
 C:Steve Ryan
 B: songs
@@ -79056,7 +79052,7 @@ W: with booted feet crush shell and bone
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1693923754813
+% abcbook-lastupdated 1695092579226
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79081,7 +79077,7 @@ V:1
 W: Mia’s song                                                    C Lyngbye 30/3/17
 W: 
 W: (Based on the concept of the Lonely Painter & Something to Make You Cry)
-W: 
+W: [skip vocal harmony prefer flute]
 W: # V
 W: The colors often clash on the surface of my canvas
 W: Not everyone gets it - You want to to see a pretty picture
@@ -79142,7 +79138,7 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694236976470
+% abcbook-lastupdated 1694317958678
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79250,7 +79246,7 @@ W: # Outro
 % abcbook-repeats 1
 
 
-X: 79201
+X: 86412
 T: I Promise
 C:Charlotte Lyngbye
 B: songs
@@ -79321,7 +79317,7 @@ W: CHORUS:
 % abcbook-repeats 1
 
 
-X: 25854
+X: 86696
 T: Displeasure
 C:Charlotte Lyngbye
 B: songs
@@ -79391,7 +79387,7 @@ W: Or find mould on my shower curtain
 % abcbook-repeats 1
 
 
-X: 76402
+X: 61790
 T: Fight Or Flight
 B: songs
 M:4/4
@@ -79450,7 +79446,7 @@ W: An awkwardness that no one understands
 % abcbook-repeats 1
 
 
-X: 25823
+X: 39314
 T: Robbery
 C:Charlotte Lyngbye
 B: songs
@@ -79514,7 +79510,7 @@ W: CHART
 % abcbook-repeats 1
 
 
-X: 10130
+X: 184
 T: Bye Bye Clawhammer
 C:Charlotte Lyngbye
 B: songs
@@ -79667,11 +79663,234 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/creamy streets.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters,steve ryan
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
 % abcbook-lastupdated 1694265034130
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1186
+T: Leave It Underground
+C:Steve Ryan
+B: songs
+B: working
+M:4/4
+Q: 1/4=100
+K:Bb
+V:1 
+"Dm"zzzzzzzz|"F"zzzz"C"zzzz|"Bb"zzzz"Dm"zzzz|"C"zzzz"Bb"zzzz|
+"Bb"zzzz"Dm"zzzz||"F"zzzz"G"zzzz||"Dm"zzzz"C"zzzz||"Bb"zzzzzzzz||
+"F"zzzzzzzz|"Am"zzzzzzzz|"Dm"zzzzzzzz|"Bb"zzzzzzzz|
+"F"zzzzzzzz||"Am"zzzzzzzz||"Bb"zzzz"Gm"zzzz||"Dm"zzzz"C"zzzz||
+"Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
+"Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
+W:  
+W: 
+W: # verse
+W: In the warm hint of Spring I feel, fear in my bones
+W: And despair as I watch my poor trees dry as stone
+W: And the wind makes me think of a raging firestorm
+W: That will come as we head into Summer.
+W: 
+W: The weeks upon weeks choking smoke, seems like yesterday
+W: Air filter, masks I have stashed away for next time.
+W: Fear watching fire reports, guessing where wind will go
+W: If it comes, I know for sure, my home is gone.
+W: 
+W: 
+W: #chorus
+W: Just leave it underground
+W: No cause to burn our crust
+W: We can find our energy
+W: In sunshine and wind, oceans and rain
+W: 
+W: 
+W: Too late for our children, who will bear the brunt of change
+W: And wear the task to find better ways to sustain
+W: Need to be real that the horrors foreseen
+W: Assumed that we'd pull in our heads.
+W: 
+W: A future of violence of climate and more,
+W: as political borders restrict what we need
+W: and the scum at the top hang on to their greed
+W: And islands sink under the sea.
+W: 
+W: # chorus
+W: 
+W: # bridge
+W: I feel helpless, contemplating, just how little I can do
+W: Living simply is an answer but not if it's just me and you.
+W: 
+W: # verse
+W: Against opposition, it's government policy,
+W: managing climate and thinking ahead
+W: But still not enough to stop climate disaster
+W: Hindered by lobby groups
+W: 
+W: A plan protecting our, human resources
+W: To find opportunity, in changing times
+W: 'though our politics stinking, our superpower thinking,
+W: A plan for a future based on what we know.
+W: 
+W: # solo
+W: 
+W: # chorus
+W: 
+W: # chorus
+% abcbook-tune_id 64fe4f208452a4eb23b2d10a
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan originals,steve ryan,candelo songwriters
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694569928024
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 27299
+T: Six Feet Underground
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: 6 Feet Under Ground  EAEABE/ Capo 0           Charlotte Lyngbye 13/9/2023
+W:  
+W: #verse
+W: Right here and right now
+W: It’s all getting kinda scary
+W: Uncertain and unsettling
+W: It’s getting hard to keep it light
+W: 
+W:  What kind of fresh hell awaits us all
+W: Or calamity on the horizon
+W: Who is the boogieman waiting around the corner
+W: Hiding in behind my door 
+W: 
+W: # chorus
+W: But on a long enough timeline
+W: none of this will matter
+W: Cos we’ll all be 6 feet under ground
+W: With or without us
+W: Dead or alive
+W: This earth will keep spinning around around  around
+W: 
+W: # verse
+W: They say let’s work for change
+W: Build resilience and adapt
+W: I wish I had the answer
+W: but I don’t
+W: 
+W: We’re all expendable
+W: And will one day be forgotten
+W: Or only remembered for doing a bad job
+W: And fucking it all up
+W: 
+W: # bridge
+W:  I am worried and angry
+W: And I know that it seems
+W: I have an awful lot to say
+W: I know when I point my finger
+W: At others wrongdoing
+W: The other 3 points my own way
+W: 
+W: # chorus
+W: But on a long enough timeline
+W: none of this will matter
+W: Cos we’ll all be 6 feet under ground
+W: With or without us
+W: Dead or alive
+% abcbook-tune_id 6500ff275e677e8731f2e7b7
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals,candelo songwriters
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694564479026
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1188
+T: Wrong Man At The Wrong Time
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzz"A"zzzz|"F#m"zzzzzzzz|
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
+"Bm"zzzzzzzz||"A"zzzzzzzz||"G"zzzz"A"zzzz|"F#m"zzzzzzzz||
+"A"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
+"A"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzz"A"zzzz|"D"zzzzzzzz||
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
+
+W: # verse
+W: At sixteen, at a concert, where the waving fans all screamed
+W: With the last of six adopted girls, I fell head over heels
+W: Her mum cracked me up, waved a finger, "you wear two condoms young man"
+W: While the silky played chase with the cats in a general pandemonium.
+W: 
+W: Twenty three  a hot blond mum in a sweet little country town
+W: where theatre and musical community abound
+W: Despite the lusting, trusting and the music that we shared
+W: In my tender years, free as a bird, commitment wasn't there
+W: 
+W: # chorus
+W: I was the wrong man at the wrong time
+W: it just wasn't meant to be
+W: The wrong man at the wrong time
+W: was all that I could be
+W: 
+W: #verse
+W: Twenty seven a Nederlander, of a serious tone
+W: Both sensible and anxious, prone to gnaw a mental bone
+W: As we separated, a child she started growth
+W: And the consequential story surely brought me low
+W: 
+W: Thirty six a young traveller spent a year here on the farm
+W: She was easy, smart and gentle, helped me start to feel alive
+W: But she had a future of study, a home on a different shore
+W: Now we always write on birthdays, sharing joyful crazy tales.
+W: 
+W: # chorus
+W: 
+W: #verse
+W: Forty three a love challenging, facing temper based in fear
+W: Alcohol fuelled anger is not, something nice to see
+W: I tried to be healing and but also retreating back into my shell
+W: Torn between the comfort and desire to run like hell
+W: 
+W: Fifty, a lifelong friend, her /marriage met it's end
+W: Fire kindled but aborted, as re/ality kicked in
+W: Her head full of so many things that our /sparks were a stress not a win
+W: And again, not the time or the /place, to begin
+W: 
+W: # chorus
+% abcbook-tune_id 650651a34b7a63c2f12f828a
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/wrong man wrong time.mp3
+% abcbook-link-title-0 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan originals,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695092653655
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
