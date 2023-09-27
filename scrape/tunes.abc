@@ -1218,6 +1218,7 @@ C:Jay Unger
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -1267,9 +1268,9 @@ W: Or leave them behind
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2kZASM8OX7s
 % abcbook-link-title-0 Folk Alley Sessions: Jay Ungar &amp; Molly Mason Family Band, &quot;Ashokan Farewell&quot;
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,ralph cullen,steve ryan,© free
+% abcbook-boost 3
+% abcbook-difficulty 1
+% abcbook-tags jims roots and blues,ralph cullen,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1285,6 +1286,7 @@ C:Pee Wee King
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -1324,9 +1326,9 @@ W: The beautiful Tennessee Waltz!
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=ePwI5KEd8D0
 % abcbook-link-title-0 1947 Pee Wee King - Tennessee Waltz (Redd Stewart, vocal)
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags jims roots and blues,mike martin,steve ryan,© free
+% abcbook-boost 3
+% abcbook-difficulty 1
+% abcbook-tags jims roots and blues,mike martin,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1400,6 +1402,7 @@ T: Ora Lee
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:4/4
 L:1/8
 Q: 1/4=141
@@ -1491,9 +1494,9 @@ W: And swallows in the air
 % abcbook-tune_id 63ae8f1cb365b3a4b8fb95d2
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=cw-Wxt4FVyM
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free,test,ss3
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1607,7 +1610,7 @@ W: I'm sick and I must go.
 % abcbook-tune_id 63ae8f1c06b44a1c00a30794
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=JPNUBR1sTfA
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -1625,6 +1628,7 @@ C:Traditional
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:3/4
 L:1/8
 R: waltz
@@ -1660,13 +1664,13 @@ W: That I might know by your hand light how time has gone with thee
 % abcbook-link-0 https://www.youtube.com/watch?v=4wRnDa7GdzQ
 % abcbook-link-title-0 The Blackest Crow - Red Tail Ring
 % abcbook-link-start-at-0 3
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free,test,vcs,ss3
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-tuning 
-% abcbook-lastupdated 1677419622474
+% abcbook-lastupdated 1682823918839
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -1720,7 +1724,7 @@ W: Should have married Angeline, just twenty years ago
 % abcbook-link-0 https://www.youtube.com/watch?v=bZxdXLtDuIA
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 317
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,ralph cullen,steve ryan,© free
 % abcbook-tablature 
@@ -1737,6 +1741,7 @@ T: All The Good Times
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:3/4
 L:1/4
 Q: 1/4=180
@@ -1768,9 +1773,9 @@ W: You’ve been a friend to me
 % abcbook-tune_id 63ae8f1c6f964548c581da13
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=43zqJnNdNWQ
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1785,6 +1790,7 @@ T: Over The Waterfall
 B: songs
 B: traditional songs
 B: tunes
+B: working
 M:4/4
 L:1/4
 R: reel
@@ -1832,9 +1838,9 @@ W: Only when you land
 % abcbook-tune_id 63da593445a97366b79cf7ac
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=W1PXDwVDkZc
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2013,9 +2019,9 @@ W: Made all the windows to clatter… oh-oh
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=3WfG90m2Yco
 % abcbook-link-title-0 Brose and Butter
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags celtic tunes,steve ryan,© free
+% abcbook-boost 3
+% abcbook-difficulty 1
+% abcbook-tags celtic tunes,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning -2
@@ -5234,6 +5240,7 @@ V:1
 X: 125
 T: Maeve's
 B: tunes
+M:4/4
 Q: 1/4=100
 K:G
 V:1 
@@ -5251,7 +5258,7 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675313399753
+% abcbook-lastupdated 1687913850532
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 3
@@ -9666,6 +9673,7 @@ X: 267
 T: Andrews Medieval Tune
 C:Andrew Kordas
 B: tunes
+B: ukranian
 M:4/4
 Q: 1/4=120
 K:Am
@@ -10065,7 +10073,7 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677051274940
+% abcbook-lastupdated 1687435322846
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 3
@@ -11100,6 +11108,7 @@ W:
 X: 316
 T: Laras Theme
 B: tunes
+B: ukranian
 Q: 1/4=100
 V:1 
 W: 
@@ -11122,6 +11131,7 @@ W:
 X: 317
 T: Andrews Viazanka
 B: tunes
+B: ukranian
 M:4/4
 L:1/4
 Q: 1/4=100
@@ -11170,9 +11180,9 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=nhoLqrdcKUo
 % abcbook-link-title-0 LA PALOMA - INKA GOLD feat TERESA JOY
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags andrew kordas,steve ryan,© free,world music
+% abcbook-boost 3
+% abcbook-difficulty 1
+% abcbook-tags andrew kordas,steve ryan,© free,world music,test
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning 
@@ -11186,6 +11196,7 @@ W:
 X: 319
 T: Ride On Cossacks
 B: tunes
+B: ukranian
 M:4/4
 Q: 1/4=100
 K:Am
@@ -11214,6 +11225,7 @@ W:
 X: 320
 T: Hopak 1
 B: tunes
+B: ukranian
 Q: 1/4=100
 V:1 
 V:s-63 key=Dmaj
@@ -11239,6 +11251,7 @@ W:
 X: 321
 T: Ukrainian waltz  [Am]
 B: tunes
+B: ukranian
 M:3/4
 L:1/8
 R: waltz
@@ -11277,6 +11290,7 @@ V:1
 X: 322
 T: Andrews Hopak
 B: tunes
+B: ukranian
 M:4/4
 L:1/8
 Q: 1/4=100
@@ -11587,9 +11601,9 @@ de \
 % abcbook-tune_id 63ae8f1cd22c748aacec2c77
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=piSFb03Bzqs
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free,test,ss1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -11647,7 +11661,7 @@ V:1
 % abcbook-tune_id 63ae8f1c853b7f74b627f7f8
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=iyAtuF_4bu4
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -11760,13 +11774,13 @@ afbf afde|fafd edBc|dedB ABde|fdec d2||
 % abcbook-tune_id 63ae8f1c02a027c81fc758df
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=G7bdW-VZZ3I
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675315043691
+% abcbook-lastupdated 1694556008314
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -11787,7 +11801,7 @@ B d2 e d3 d|edBc d2 d2|B3 c BAGB|A (G G4):|
 % abcbook-tune_id 63ae8f1c0d2b3879622448a8
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=IldRYzTIzB8
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,ralph cullen,steve ryan,© free
 % abcbook-tablature 
@@ -11871,7 +11885,7 @@ V:1
 % abcbook-tune_id 63ae8f1c17771784f6e2ee9d
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=1W9vzn7Xqeo
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12040,13 +12054,13 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Im3cTI-jIXc
 % abcbook-link-end-at-0 169
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677374521441
+% abcbook-lastupdated 1691630381656
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12122,13 +12136,13 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=ce6jRfY4K0U
 % abcbook-link-title-0 Newt Payne&#39;s Tune
-% abcbook-boost 0
-% abcbook-difficulty 0
+% abcbook-boost 10
+% abcbook-difficulty 9
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675263691895
+% abcbook-lastupdated 1691445877015
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12269,7 +12283,7 @@ V:1
 % abcbook-link-title-0 Kitchen Girl
 % abcbook-link-start-at-0 21
 % abcbook-link-end-at-0 90
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12297,9 +12311,9 @@ V:1
 % abcbook-tune_id 63ae8f1c0993bf7d1312d706
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=6rIq5bRdWMg
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -12386,13 +12400,13 @@ ef|[M:4/4]"E"g2 ge [E2B2][E2B2]|egge [E2B2][E2B2]|"A"e2e2 efed|"E"cAB^G "A"A2A2|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=K1L8GNBZRt4
 % abcbook-link-end-at-0 116
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1677372073752
+% abcbook-lastupdated 1694512089192
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12402,6 +12416,7 @@ X: 361
 T: Indian Corn
 C:Traditional, from Willie O. Ault
 B: tunes
+B: working
 M:4/4
 L:1/8
 Q: 1/4=100
@@ -12415,13 +12430,13 @@ zD-|:"G" DGBG BGBG |"C" DGcG cGcG |"G" DGBG BGBB |"D" cBAG FDEG |"G" DGBG BGBG
 % abcbook-tune_id 63ae8f1cb496fdd00f2b720c
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=nCaNAqwgkKA
-% abcbook-boost 0
-% abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free
+% abcbook-boost 10
+% abcbook-difficulty 1
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,traditional songs,© free,test
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675313337581
+% abcbook-lastupdated 1682934861526
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12444,13 +12459,13 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=qkugtEba46o
 % abcbook-link-end-at-0 177
-% abcbook-boost 0
+% abcbook-boost 3
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677372011140
+% abcbook-lastupdated 1691630114018
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12529,7 +12544,7 @@ DF|:"G" GFDC B,G,B,G, |"C" ECEG FDFG |"D" A2 AG FDFG |"D" AcAF DFDF |
 % abcbook-tune_id 63ae8f1c7ebfbeecb05fa715
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=hmX1X1ybBuQ
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -12617,13 +12632,13 @@ V:1
 % abcbook-tune_id 63ae8f1cfb0ab07dd1eda7fc
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=TRkguVuLOSo
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675315101401
+% abcbook-lastupdated 1691629931787
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12772,7 +12787,7 @@ A4- A:|]
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=AzrfJws6l_o
 % abcbook-link-end-at-0 172
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12801,7 +12816,7 @@ agbg ageg | agbg agef | gfed BAFD | G3F G2 :||
 % abcbook-link-0 https://www.youtube.com/watch?v=uCvL0dQ0E1E
 % abcbook-link-start-at-0 30
 % abcbook-link-end-at-0 244
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12829,7 +12844,7 @@ f a2 a- abag|fd2 d- d2 AB|d2 AB dBAG|FDEF D4:|]
 % abcbook-tune_id 63ae8f1c7b6dd2ba21fd38e7
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=bDAqHcvzi0s
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12858,7 +12873,7 @@ AB|"D"d2d2 e2de|"D"faef d2AB|"D"d2d2 e2de|"A7"f2 a2- a2AB|!
 % abcbook-link-0 https://www.youtube.com/watch?v=wu3vn98zCGc
 % abcbook-link-start-at-0 9
 % abcbook-link-end-at-0 60
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12887,7 +12902,7 @@ gef2e3 f|gefd e3f|gefd e2d2|cABc AGFE||
 % abcbook-tune_id 63ae8f1c204a5d4e8c2ff20b
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=v8VkMkCpXuk
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12915,7 +12930,7 @@ d3e dBAB|d2 Bd AFE-D|F3B AF (E/F/E)|1D6:|2D8||
 % abcbook-tune_id 63ae8f1c34649c19ad7cd97a
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=z6181O9AVZ4
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12942,13 +12957,13 @@ a)bag edcd| e2e2dcAB|cABc AGED |EA2B A4:|
 % abcbook-tune_id 63ae8f1c09869fd7330313c3
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Hyawt5UvzoU
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675313151292
+% abcbook-lastupdated 1694511553644
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -12971,7 +12986,7 @@ A/B/ A/G/ | "D"F2 F E/2F/2 | "G"G>F E/F/ G | "D"A A/B/ A/G/ /D/ | "A"E>F E F/G/ 
 % abcbook-tune_id 63ae8f1cde8ad354017900ba
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=R0VI30yvTqg
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -12998,7 +13013,7 @@ e4e3d|BABd e3d|BABd e2d2|BdBG AG3|[M:2/4][G,3G2]:|
 % abcbook-tune_id 63ae8f1c9f26a47421ba00a5
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=FiX_zKczmM0
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13025,7 +13040,7 @@ B/d/e/f/ e/d/B/d/|e/d/e/f/ e/g/f/a/|g/b/a/g/ f/e/d/c/|(3B/c/B/A A:|
 % abcbook-tune_id 63ae8f1cbaa1b96f25950c3c
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=uBtNEzVmJ7U
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13058,7 +13073,7 @@ A3B A2A2 | "D"(FED)D (ED)F2 | "A"A3B A2 AF | "E"A,2 A,B, "A"C(E E2) ||
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=TYS7xyNW8Mc
 % abcbook-link-start-at-0 12
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13115,7 +13130,7 @@ F/2G/2|"A"AA/2B/2 AA/2B/2|"A"c/2B/2A "D"FE/2F/2|"A"AA/2B/2c/2d/2e|"F#m"f/2e/2f/2
 % abcbook-tune_id 63ae8f1ce842a9991dff42d1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Pdq6Nw1Qc8U
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,ralph cullen,steve ryan,© free
 % abcbook-tablature 
@@ -13145,13 +13160,13 @@ cd|"C"ecGE CDEF|"C"GAcA a2g2|"C"c'age aged|"G"edcA "C"c2c2|
 % abcbook-tune_id 63ae8f1c8ae87dcc73a10c95
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=DGTumdE2wfQ
-% abcbook-boost 0
+% abcbook-boost 7
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1672384284225
+% abcbook-lastupdated 1692476492333
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13173,7 +13188,7 @@ DE |: "D"F2F2 FE DF | A2B2 AF DE | F2F2 AB AF | "A"(ED) EF E2 DE |
 % abcbook-tune_id 63ae8f1c4aee520db6f70913
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=8f7MR_dTOTY
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13201,7 +13216,7 @@ V:1
 % abcbook-tune_id 63ae8f1cac62f5e6acc36bbd
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=nEcYXqlSte8
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13228,7 +13243,7 @@ e|:"D"fedB ABd2|(e[d2f2)](e [d3f3)]e|fedB ABd2|(e[d2f2)](e[d2f2)]ef|!
 % abcbook-tune_id 63ae8f1cce182cf254839810
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=DF1Ij4_V72g
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13257,7 +13272,7 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=EKA8yTAO7YI
 % abcbook-link-start-at-0 38
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13316,13 +13331,13 @@ E F3 G4 | BdBA FE D2 | F G3A3 (A | A)cAG FE D2|C C3 D4 :|
 % abcbook-tune_id 63ae8f1c6160d4a519f05e5f
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=8RkN3nSkmz4
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1674560997296
+% abcbook-lastupdated 1693570406410
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13377,13 +13392,13 @@ V:1
 % abcbook-link-0 https://www.youtube.com/watch?v=szYeC6F7HWU
 % abcbook-link-start-at-0 8
 % abcbook-link-end-at-0 99
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1677636972434
+% abcbook-lastupdated 1691801405566
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13409,7 +13424,7 @@ GFGG BAGF|G2 GD B,2 B,C|D2 DF EDEF|1 G3G G2 ef:|2 G3 G G4||
 % abcbook-link-0 https://www.youtube.com/watch?v=szYeC6F7HWU
 % abcbook-link-start-at-0 8
 % abcbook-link-end-at-0 99
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13438,7 +13453,7 @@ AB|"A"ce2f e3e|"D"fa2b a3(f|"A"e2)cB AcBA|"F#m"[F3A3][F3A3][EA]B|
 % abcbook-tune_id 63ae8f1c362bf193f9ab5379
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=UQveux304rk
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13468,13 +13483,13 @@ FG | "D"A>B AF A2 de | f>e fa d2 dc | "G"BcdB "D"AFDF | "A7"E2 E>F E2 FG |
 % abcbook-link-0 https://www.youtube.com/watch?v=8S4rHbXWL6Q
 % abcbook-link-start-at-0 11
 % abcbook-link-end-at-0 160
-% abcbook-boost 0
-% abcbook-difficulty 0
+% abcbook-boost 10
+% abcbook-difficulty 8
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677370571893
+% abcbook-lastupdated 1694558527795
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13498,7 +13513,7 @@ V:1
 % abcbook-link-0 https://www.youtube.com/watch?v=eLjzmF-8y_g
 % abcbook-link-start-at-0 34
 % abcbook-link-end-at-0 122
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13527,7 +13542,7 @@ D2 E2GEGA|Bd2eg2 eg|ageg edBA|BdAF G4:|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=AIikbUZ69Ho
 % abcbook-link-start-at-0 50
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13555,7 +13570,7 @@ A,2A,A, B,-CEF|(F[AA])[AA][AB] [A2A2][EA]-[FA]-|[FA]AF-E CCEF-|AFEC B,A,CB,|
 % abcbook-tune_id 63ae8f1ce12fb4f4b7b3b9b7
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=fIEhYKstV1Y
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13585,7 +13600,7 @@ V:1
 % abcbook-link-title-0 David Grier - Bill Cheatum
 % abcbook-link-1 https://www.youtube.com/watch?v=SMREtffhP9w
 % abcbook-link-title-1 Bill Cheathum
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13615,7 +13630,7 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=N7fjVjLsiXU
 % abcbook-link-title-0 Benton Flippen - Benton&#39;s Dream
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13643,7 +13658,7 @@ A2 G2 G2 (A2|A2) Ad BA G2|A2 d2 G2 (A2|A2) Ad BAGB|A2 G2 G2||
 % abcbook-tune_id 63ae8f1c89c73438417e6f41
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=5jQo0LsGrQo
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13676,7 +13691,7 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=TQyPAw-lk9A
 % abcbook-link-start-at-0 48
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13706,7 +13721,7 @@ V:1
 % abcbook-link-0 https://www.youtube.com/watch?v=38rEbkprDU4
 % abcbook-link-title-0 American civil war music - Abe&#39;s Retreat
 % abcbook-link-start-at-0 45
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13734,7 +13749,7 @@ V:1
 % abcbook-tune_id 63da593450b9fd41a8ce9055
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=wIMjq833WQ0
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -13763,13 +13778,13 @@ eec2 eeff|aafe d2d2|ccee BAcA|1d2ff d2:|2d4 d2||
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=h_QRH6pvFM4
 % abcbook-link-start-at-0 6
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677371669549
+% abcbook-lastupdated 1694511544115
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13778,6 +13793,7 @@ eec2 eeff|aafe d2d2|ccee BAcA|1d2ff d2:|2d4 d2||
 X: 408
 T: Greasy Coat
 B: tunes
+B: working
 M:C|
 L:1/8
 R: reel
@@ -13788,16 +13804,63 @@ AB|"Am"c2A2 G2AB|cA3 G2AB|c2A2 "G"G2AG|"Em"EGA2 "Am"A2AB|!
 "Am"c2A2 [c2e2][d2e2]|"C"[e4e4] [e2e2]A2|"Am"c2A2 "G"G2AG | "Em"EGA2 "Am"A2 :|!
 |: AG |"A"ABcd edef| "G"g3f g3A- | "A"ABcd efge | a3g a3A- |!
 "A"ABcd e2fe | "G"g2ag eAdA | [K:ADor]"Am"c2AA "G"G2AG | "Em"EDEG "Am"A2 :|]
+W: I don't drink, and I don't smoke, and I don't wear no greasy coat,
+W: I don't spit, and I don't chew, and I don't kiss the girls that do. (or 'go with' instead of 'kiss')
+W: 
+W: I don't drink, and I don't smoke, and I don't wear no greasy coat
+W: I don't kiss, and I don't tell, and all you sinners gonna go to hell
+W: 
+W: When I ride my house to town, I see that man in a greasy gown,
+W: Preaching and praying and singing so fine, I see that pastor abiding his time.
+W: 
+W: Children chase, never get no will, It's better than taking a sleeping pill.
+W: Staying awake is an awful fight, But it sure builds up when it's late at night.
+W: 
+W: -------------------------------------------------------------------
+W: 
+W: I don't drink and I don't smoke, I don't wear no greasy coat.
+W: I don't smoke and I don't drink and I don't like boys that stink.
+W: I don't kiss and I don't tell, all you sinners go to hell.
+W: I don't cheat and I don't lie, gonna go to heaven when I die.
+W: I don't brush my hair with gel, I don't ride a horse that smell.
+W: I don't spit and I don't chew, I don't mess with boys that do.
+W: I don't cuss and I don't snore, I'm going back to Arkansas.
+W: I don't care what he said, I won't drink that dog fish head.
+W: 
+W: -------------------------------------------------------------------
+W: I've felt up, and I've felt down, but when I saw her, I felt "all-around"
+W: Well I don't cheat, and I don't lie, but with a girl like you, I'd give it a try
+W: -------------------------------------------------------------------
+W: 
+W: I don't drink, I don't smoke
+W: I don't wear no greasy coat
+W: I don't cuss, I don't chew
+W: I don't like them Boys In Blue
+W: 
+W: Cuckhold hand, good ol' hand
+W: Lays no fix to the Railroad Man
+W: Sometimes five, sometimes ten
+W: Lays no fix to the Railroad Man
+W: 
+W: Tell the preacher, tell the Pope
+W: I don't wear no greasy coat
+W: I don't need no reason why
+W: Ain't goin'a Heaven, honey, when I die
+W: 
+W: I don't drink, I don't smoke
+W: I don't wear no greasy coat
+W: I don't kiss, I don't tell
+W: All you sinners are goin' to Hell
 % abcbook-tune_id 63da5934dafb07416681a830
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=OJJJZdITnzg
-% abcbook-boost 0
+% abcbook-boost 12
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675254068533
+% abcbook-lastupdated 1694511563408
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -13857,7 +13920,7 @@ A2|:"D" (Bd2) (B dB)AB|(BA)dA (Bd)A2|"A"e3(f e2) de|(fe)fe d2B2|
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677371868027
+% abcbook-lastupdated 1693791682020
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -14098,13 +14161,13 @@ e3f edBc|dBdB A2G2|D2 ED G2 Bd|ed BG AG-G2:|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=yYyDUnIop1Y
 % abcbook-link-end-at-0 147
-% abcbook-boost 0
-% abcbook-difficulty 0
+% abcbook-boost 10
+% abcbook-difficulty 6
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677372341920
+% abcbook-lastupdated 1691445427009
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -14276,13 +14339,13 @@ D2 AF G2B2|A2d2 fedf|gfec ABcA|"**"d2de d2A2:|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=X4AlxBicWXU
 % abcbook-link-end-at-0 88
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677372821585
+% abcbook-lastupdated 1691887883277
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -14474,7 +14537,7 @@ F A2B (AD)FD|GB2A (Bc)BA|FA2F (DF)AA|d2F2E2D2:|
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=w56ulHn-Auk
 % abcbook-link-start-at-0 6.5
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -14513,7 +14576,7 @@ af \
 % abcbook-link-0 https://www.youtube.com/watch?v=A1nRl42j1bI
 % abcbook-link-start-at-0 16
 % abcbook-link-end-at-0 120
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -14569,7 +14632,7 @@ GF \
 % abcbook-tune_id 63da59341ee0a34e4d5fdfc9
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=F-SASKMpjgk
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15006,7 +15069,7 @@ fafd egec |1 d6 de :|2 d6 z2 |]
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=CZYyVtRAkZ4
 % abcbook-link-start-at-0 6
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15034,7 +15097,7 @@ V:1
 % abcbook-tune_id 63da59342632fece87ae93fd
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=T5FiOU56wXw
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15062,7 +15125,7 @@ V:1
 % abcbook-tune_id 63da5934dbfe724ef7749ced
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=b0igMpl5xIw
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15118,7 +15181,7 @@ baa^g "(D)"a2a=g | "D"fdAd fdfa | "Em"aggf g2ef | "A7"gfec Aceg | "D"fd"A7"ec "D
 % abcbook-link-0 https://www.youtube.com/watch?v=AXRD-Rj23Ao
 % abcbook-link-start-at-0 22
 % abcbook-link-end-at-0 218
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15295,7 +15358,7 @@ e2d2cABG|1A2AB A2A2:|2[M:2/4]A2A2||
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1677375676120
+% abcbook-lastupdated 1687920316673
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -15349,13 +15412,13 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=7aVj9DsM46U
 % abcbook-link-1 https://www.youtube.com/watch?v=aiBLtBNJNpE
-% abcbook-boost 0
+% abcbook-boost 6
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675486866682
+% abcbook-lastupdated 1694556345217
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -15573,7 +15636,7 @@ B2A2 GBAG|[M:3/2] EDEG E2EG E2ed|[M:C|]B2-A2 GBAG| EDEF G2||
 % abcbook-tune_id 63da59340c1de96322511e78
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=Mx8AsJbuNak
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
@@ -15746,13 +15809,13 @@ d2 fe d2 fe|defg a2 fg|afaf gecA|d2 dd d2:|]
 % abcbook-link-0 https://www.youtube.com/watch?v=MI8UzzLJdPk
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 312
-% abcbook-boost 0
+% abcbook-boost 9
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677372766372
+% abcbook-lastupdated 1691630212804
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -15796,6 +15859,7 @@ X: 478
 T: Crested Hens
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 Q: 1/4=100
 K:D
@@ -16127,6 +16191,7 @@ X: 485
 T: Inisheer
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 L:1/8
 Q: 1/4=100
@@ -16143,13 +16208,13 @@ xD GA |: "G"B2 BA Bd | "Bm"B2 BA Bd | "C"E3B AB | "D"D3B AG |
 % abcbook-link-0 https://www.youtube.com/watch?v=Ffln6y8Pe3I
 % abcbook-link-title-0 Inisheer - Irish Traditional Music
 % abcbook-link-start-at-0 4
-% abcbook-boost 0
+% abcbook-boost 13
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,jims roots and blues,ralph cullen,good tune book,© free
+% abcbook-tags celtic tunes,jims roots and blues,ralph cullen,good tune book,© free,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675431705731
+% abcbook-lastupdated 1695595727160
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -16192,6 +16257,7 @@ X: 487
 T: The Walk Around
 B: tunes
 B: good tune book
+B: tathra session
 M:6/8
 L:1/8
 R: jig
@@ -16220,6 +16286,7 @@ X: 488
 T: The Wedding of Lochan McGraw
 B: tunes
 B: good tune book
+B: tathra session
 M:6/8
 L:1/8
 R: jig
@@ -16315,6 +16382,7 @@ X: 491
 T: Calliope House
 B: tunes
 B: good tune book
+B: tathra session
 M:6/8
 R: jig
 Q: 3/8=100
@@ -16344,6 +16412,7 @@ X: 492
 T: Miss Rowan Davies
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 R: waltz
 Q: 1/4=100
@@ -16372,6 +16441,7 @@ X: 493
 T: Mazurka de Carolina
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 L:1/8
 Q: 1/4=175
@@ -16487,7 +16557,7 @@ fg|:"D" a2 af a2 af|af a2 b2 a2|"G" g2 ef g2 ef|gf g2 a2 g2|
 % abcbook-link-0 https://www.youtube.com/watch?v=MI8UzzLJdPk
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 311
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags old time tunes,ralph cullen,good tune book,canberra pickers and fiddlers,© free
 % abcbook-tablature 
@@ -16633,6 +16703,7 @@ B: tunes
 B: good tune book
 B: traditional songs
 B: songs
+B: working
 M:4/4
 L:1/8
 Q: 1/4=100
@@ -16680,13 +16751,13 @@ W: We've been drinking whiskey 'fore breakfast
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=O3maOvSbO9g
 % abcbook-link-end-at-0 114
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
-% abcbook-tags canberra pickers and fiddlers,old time tunes,ralph cullen,steve ryan,good tune book,© free,incoming traditional songs
+% abcbook-tags canberra pickers and fiddlers,old time tunes,ralph cullen,steve ryan,good tune book,© free,incoming traditional songs,ss3
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677421068366
+% abcbook-lastupdated 1692423903266
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -16707,7 +16778,7 @@ V:1
 A2 |: "D"dfed "G"B2B2 | "D"A2A2 d2d2 | "A"e2e2 f2f2 | efed B2A2 |
    |"D"dfed "G"B2B2 | "D"A2A2 d4 | "D"dcdA "G"BdAG |1 "A"F2E2"D"D2A2:|2 "A"F2E2D2 "D"fg||
    |: "D"agfa "G"gfeg | "D"fedf "A"e2A2 | "D"dcde "G"fefg | "D"afdf "A"e2fg |
-   |"D"agfa "G"gfeg | "D"fedf "A"e2A2 |1 "D"dcdA "G"BdAG |1 "A"F2E2D2 "D"fg:|2 "A"F2E2D2 "D"A2 ||
+   |"D"agfa "G"gfeg | "D"fedf "A"e2A2 |1 "D"dcdA "G"BdAG |1 "A"F2E2D2 "D"fg:|2 "A"F2E2D2 "D"A2 || 
 W: Oh once upon a time in Arkansas
 W: An old man sat in his little cabin door
 W: And fiddled at a tune that he liked to hear
@@ -16743,13 +16814,13 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-link-title-0 &quot;Arkansas Traveler&quot;  -  Katrina Nicolayeff  -  Camp Sumner Sessions
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 316
-% abcbook-boost 0
-% abcbook-difficulty 0
+% abcbook-boost 10
+% abcbook-difficulty 1
 % abcbook-tags canberra pickers and fiddlers,nick hutten,old time tunes,ralph cullen,steve ryan,© free,jims roots and blues,good tune book
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677667731401
+% abcbook-lastupdated 1694555071534
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -17183,6 +17254,7 @@ X: 514
 T: The Westphalia Waltz
 B: good tune book
 B: tunes
+B: tathra session
 M:3/4
 L:1/8
 R: waltz
@@ -17306,6 +17378,7 @@ T: Blacktown Jig
 C:Ray Schloeffel
 B: good tune book
 B: tunes
+B: tathra session
 M:6/8
 L:1/8
 R: Jig
@@ -17337,6 +17410,7 @@ X: 517
 T: The Price Of A Pig
 B: good tune book
 B: tunes
+B: tathra session
 M:6/8
 Q: 3/8=94
 K:Adorian
@@ -17481,6 +17555,7 @@ X: 522
 T: Crabbit Shona
 B: good tune book
 B: tunes
+B: tathra session
 M:6/8
 R: jig
 Q: 3/8=100
@@ -17879,13 +17954,13 @@ AB \
 % abcbook-tune_id 63ce6af379327131a568c6a4
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=rVFLGPwHyls
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free,celtic tunes
+% abcbook-tags good tune book,© free,celtic tunes,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677676414211
+% abcbook-lastupdated 1695596979897
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -17937,11 +18012,11 @@ V:1
 % abcbook-link-0 https://www.youtube.com/watch?v=3X4-b24Llp0
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free,celtic tunes
+% abcbook-tags good tune book,© free,celtic tunes,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675475002068
+% abcbook-lastupdated 1695598041176
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -18314,6 +18389,7 @@ X: 550
 T: Margaret's Waltz
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 L:1/8
 R: waltz
@@ -18330,7 +18406,7 @@ E3 FAB|ce3 AB|c2 c2 B2|A6||
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=8BOx-6vFDVw
 % abcbook-link-end-at-0 152
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book,© free
 % abcbook-tablature 
@@ -18361,7 +18437,7 @@ V:1
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=v4dN3iOZVDQ
 % abcbook-link-start-at-0 10
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book,© free
 % abcbook-tablature 
@@ -18392,7 +18468,7 @@ V:1
 % abcbook-tune_id 63da59341f322ede36b31da3
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=szt4zhnenIk
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book,© free
 % abcbook-tablature 
@@ -18410,6 +18486,7 @@ T: Westphalia Waltz
 C:Trad.
 B: tunes
 B: good tune book
+B: tathra session
 M:3/4
 L:1/8
 R: waltz
@@ -18423,7 +18500,7 @@ DEF|"G"G4A2|"Em"B4e2|"Bm"d6-|d3DEF|"G"G4A2|"E"B4c2|"Am"A4-AB|A4G2|
 % abcbook-tune_id 63da59348ffd7f470ff9c278
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=YOyMsynIoWo
-% abcbook-boost 0
+% abcbook-boost 10
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,good tune book,© free
 % abcbook-tablature 
@@ -18538,13 +18615,13 @@ e2a g>ag|e2d c>BA|1 B>AG A>BA|E2E:|2 e>de A>GE|A3||
 % abcbook-link-0 https://www.youtube.com/watch?v=OI5N5gXTEfo
 % abcbook-link-title-0 &#39;As the sun was setting&#39; by John Kirkpatrick played by Alexander Roberts
 % abcbook-link-start-at-0 7
-% abcbook-boost 0
+% abcbook-boost 6
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free
+% abcbook-tags good tune book,© free,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675423232085
+% abcbook-lastupdated 1695519413978
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -18644,6 +18721,7 @@ T: Bella Ciao
 C:Traditional
 B: good tune book
 B: tunes
+B: tathra session
 M:2/2
 L:1/8
 Q: 1/2=100
@@ -18678,6 +18756,7 @@ X: 562
 T: The Bear Dance
 B: good tune book
 B: tunes
+B: tathra session
 M:2/4
 L:1/8
 R: polka
@@ -18761,11 +18840,11 @@ V:1
 % abcbook-link-title-0 Blazin&#39; Fiddles - Catalina
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free
+% abcbook-tags good tune book,© free,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675432323006
+% abcbook-lastupdated 1695520148805
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -19016,10 +19095,10 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675427410920
-% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-lastupdated 1682216946686
+% abcbook-src-url 
 % abcbook-soundfonts 
-% abcbook-repeats 1
+% abcbook-repeats 3
 
 
 X: 573
@@ -19157,6 +19236,7 @@ X: 577
 T: Far Away
 B: good tune book
 B: tunes
+B: tathra session
 M:3/4
 R: waltz
 Q: 1/4=100
@@ -19497,13 +19577,13 @@ af f/e/d/f/|af f>e|dB cd|ed d2:|
 % abcbook-link-title-0 Hayden&#39;s Fancy
 % abcbook-link-start-at-0 10
 % abcbook-link-end-at-0 190
-% abcbook-boost 0
+% abcbook-boost 6
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free
+% abcbook-tags good tune book,© free,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677673039170
+% abcbook-lastupdated 1695594674120
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -19567,7 +19647,7 @@ V:1
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1675430544731
+% abcbook-lastupdated 1691212606737
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -19577,6 +19657,7 @@ X: 591
 T: Horses Branle (Brawl)
 B: good tune book
 B: tunes
+B: tathra session
 M:4/4
 L:1/4
 Q: 1/4=100
@@ -19593,13 +19674,13 @@ _B A/G/ _B A/G/ | FG A2 | DE FG | AG G2 :||
 % abcbook-link-0 https://www.youtube.com/watch?v=8KkPlHOndGw
 % abcbook-link-title-0 Horse&#39;s Brawl (Live)
 % abcbook-link-start-at-0 4
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free
+% abcbook-tags good tune book,© free,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677673177905
+% abcbook-lastupdated 1695595191554
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -19764,6 +19845,7 @@ X: 597
 T: Jack’s The Lad
 B: good tune book
 B: tunes
+B: tathra session
 M:4/4
 R: hornpipe
 Q: 1/4=100
@@ -19793,6 +19875,7 @@ X: 598
 T: Jesse Polka
 B: good tune book
 B: tunes
+B: working
 M:2/4
 L:1/8
 R: polka
@@ -19818,7 +19901,7 @@ G2EF|GcB_B|A2FG|Ad^c=c|B2G2|e2d2|c2GA/B/|c2c2||
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677675473023
+% abcbook-lastupdated 1695596000738
 % abcbook-src-url https://tunebook.net/scrape/tunes.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -21259,3 +21342,1348 @@ W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
 % abc-sessionorg_setting 0
 % abc-sessionorg_setting_id 43100
 % abc-boost 0
+
+X: 71458
+T: Brokeback
+C:Wayward Jane
+B: tunes
+M:4/4
+R: reel
+Q: 1/4=100
+V:1 
+
+W: 
+% abcbook-tune_id 64dc241b7ed50d4a945c252b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags old time tunes,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1692148763365
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 647
+T: Shche Ne Vmerla Ukrayiny (Ukrainian National Anthem )
+C:Mykhaylo Verbytsky (1815-1870)
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+R: March
+Q: 1/4=100
+K:G
+V:1 
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E3F G2A2|
+"G"B3B "Em"BABc|"G"d3c "Em"B2A2|"G"G2B2"B7"F2B2|"Em"E4 E2z2||
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2G2"D"A2A2|"G"B4 B2z2|
+"B"F3F "Em"BAGF|EFGE "B"F2F2|"Em"G2B2"B"F2B2|"Em"E3F "G"GABc||
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2G2 "D"A2A2|"G"B3A "Em"GABc|
+"G"d3^c d2B2|"D"A2A2 dcBA|"Em"G2B2 "B7"F2B2|"Em"e4 e4|]
+W: The glory and freedom of Ukraine has not yet perished
+W: Luck will still smile on us brother Ukrainians.
+W: 
+W: Our enemies will die, as the dew does in the sunshine,
+W: and we, too, brothers, we'll live happily in our land.
+W: 
+W: We'll not spare either our souls or bodies to get freedom
+W: and we'll prove that we brothers are of Kozak kin.
+W: 
+W: 
+W: 
+% abcbook-tune_id 6502d4bbf81fa95ee08e33f5
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684801947
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 648
+T: Ukrainskyj Tanietz  (Ukrainian Dance)
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=132
+K:Gm
+V:1 
+"Gm"Hg8 \
+"A"\
+|:"Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd | "Gm"b2b2 "D7"a3[a^f] | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2-g2 fedc | "Gm"d2B2 A2G2 | "D7"(3^FGAd2 D2=EF | "Gm"G8 |
+| "Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd |"Gm"b>ab>g "D7"a2a^f | "Gm"g2g2 "D7"^f2fd \
+| "Gm"g2g2 fedc | "Gm"d2B2 A2G2 | "D7"^F/G/Ad2 D2=EF | "Gm"G8 |]
+"B"\
+|:"Bb"f4 "F"edec | "Bb"d2d2  "F"c2c2 | "Bb"d2de "F"c2c2 | "Bb"d2d2 "F"edec \
+| "Bb"f4 "F"edec | "Bb"d2d^f "F"e2e2 | "Bb"d2d2 "D7"^f2fa |1 "Gm"g4 g4 :|2 "Gm"g6 d2 ||
+"C"\
+|:"Gm"G2B2 d2^c2 | d8- dcBA | "Gm"G2B2 d2^c2 | "Gm"d8- dcBA \
+| "Gm"G2B2 d2^c2 | d2-d2 "Cm"c2-c2 | "Gm"B2{A}cB "D7"AGAB |1 "Gm"G6 D2 :|2 "Gm"G8 "fine"y2||
+"D"\
+|:"D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B2-B2 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 |1 "Gm"G8 :|2 "Gm"G6 d2 ||
+"E"\
+|:"Gm"g2gb "D7"a2ac' | "Gm"b2bg "D7"a2a2 | "Gm"gdgb "D7"adac' \
+| "Gm"b4 "D7"a4 | "Gm"gdgb "D7"adac' | "Gm"b2bg "D7"a2ag | "D7"^f2f2 d2=ef | "Gm"g8 :|
+"D"\
+| "D"A3^F D2D2 | "Gm"G^FGA BABG | "D"A3^F D2D2 | "Gm"G^FGA B4 \
+| "D"A3^F D2D2 | "Cm"G2E2 D2C2 | "Gm"BABc "D7"d2^F2 | "Gm"G6 d2 "_to A"[|]|]
+% abcbook-tune_id 6502d4e11ded931e3c0c845f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684649267
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 649
+T: Arkan
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=100
+K:Dm
+V:1 
+|: "Dm"a2a2 ^gfed | a2a2 ^gfed | dAde f2"A7"e2 | "Dm"dAde f2"A7"e2 | "Dm"dAde f2"A7"a2 | ^gfef "Dm"d2z :|
+% abcbook-tune_id 6502d4fb0f217761f8318a48
+% abcbook-tune_composer_id 
+% abcbook-boost 10
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695788372736
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 650
+T: Ukrainian Polka
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+R: polka
+Q: 1/4=100
+K:Em
+V:1 
+[| "Em"B2 e4 f2 | g2g2 "B7"f4 \
+| "Em"e8 | "G"b2 b4 b2 \
+| "D7"a2b2 c'4 | "G"b8 ||
+|: "Em"b2b2 "Am"a4 | "Em"(3g2a2b2 "B7"f4 \
+| "Am"a2g2 f2e2 | "B7"f2^d2 B4 \
+| "Em"B2e4 f2 | "B7"g2f2 a4 \
+| "Em"e8 :|
+|: "A"a2 c'4 a2 | "E"g2 b4 g2 \
+| "B7"agfe dBcd |1,3 "E"e2ga b4 :|2,4 "E"e2g2 e4 :|
+% abcbook-tune_id 6502d510fb29623f8ed860ee
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684861284
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 651
+T: Ukrainian Waltz
+B: ukranian
+B: tunes
+M:3/4
+L:1/8
+R: waltz
+Q: 1/4=100
+K:Am
+V:1 
+"A"\
+|: "Am"A4 E2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"E2 ^G2 B2 | d2 c2 B2 | "Am"A^G AB cd | ea ed cB |
+|  "Am"A4 B2 | c3 B A2 | e3 e e2 | Te2 dc BA \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"B"\
+|: "E7"E2 ^G2 B2 | E2 ^G2 B2 | "Am"A3 B cB | A2 B2 c2 \
+|  "E7"B3 c d2 | B2 c2 d2 | Tf2 e2 d2 | "Am"e6 |
+|  "Dm"d3 e fe | df e2 d2 | "Am"TcB cd ed | ce d2 c2 \
+|  "E7"B2 f2 e2 | d2 c2 B2 | "Am"A4 E2 | A6 :|
+"C"\
+|:  "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 G2 | G4 F2 | "C"E6 |
+|   "C"G6 | {B}c2 d2 f2 | e3 d Tc2 | G6 \
+|  "G7"fe dc BA | G2 A2 B2 | "C"c2 G2 E2 | C6 :|
+% abcbook-tune_id 6502d52ba6be548a545f361c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684892962
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 652
+T: Ukrainian Tune
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: polka
+Q: 1/4=100
+K:Fmaj
+V:1 
+g_g =ga|b2 g2|fg fe|d2 a2|
+AB AG|A2 =B_d|d4|d4|
+|:AB AG|Af ef|d2 _d2|_dc d2|
+a2 e2|g2 fe|f2 dc|de fd|
+AB AG|Af ef|d2 _d2|_dc d2|
+a2 e2|g2 fe|d2 f2|d4:|
+|:g3a|b2 b2|a2 f2|e2 d2|
+eA _de|ag e_d|d_d =de|f2 ef|
+g3a|b2 b2|a2 f2|e2 d2|
+eA _de|ag fe|d2 f2|d4:|
+|:c2 dc|BA Bc|d2 c2|c3c|
+dc =Bc|bc =Bc|dc Bc|ac Bc|
+c2 dc|BA Bc|d2 c2|c4|
+c2 dc|Bc de|fd cA|F4:|
+g3a|b2 b2|a2 f2|e2 d2|
+e2 _de|ag fe|d4|d'4|
+% abcbook-tune_id 6502d711e2180be06809cd7d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694684958265
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 653
+T: Waltz from Levkivka
+B: ukranian
+B: tunes
+M:3/4
+L:1/4
+R: Waltz
+Q: 1/4=110
+K:E minor
+V:1 
+B |: \
+g2 f | e c A | B3-|B3 | B ^d f | \
+a g f | e3- | e z B | g2 e | \
+e c A | B3- | B A G | F2 A | \
+G2 F | E3-|E z2 :|
+|: D3 | G3 | B3- | B A G | \
+F3 | F G F | E3 | B,3 | \
+E3 | G3 | B3-| B A G | \
+F2 A | G2 F | E3 | E z2 :|
+% abcbook-tune_id 6502dc4f329e97a6115ed8cd
+% abcbook-tune_composer_id 
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695787237218
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 654
+T: Venherka
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=72
+K:E major
+V:1 
+E2E2 EFGA | B2B2B2 z2 | e2G2 BAGG | A2F2 F4 |\
+B,CDE FGAB | c2c2c2 z2 | B2A2 GGAF | E2E2E2 z2 |:
+e3d cBAG | F2F2F2 z2 | f3e dcBA | G2G2G2 z2 | \
+B,CDE FGAB | c2c2c2 z2 | B2A2 GGAF | E2E2E2 z2 :|
+% abcbook-tune_id 6502dc4fedc34088133b141d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 655
+T: Viys'kova
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+K:G major
+V:1 
+bb/2b/2 ba | g3 d | dd/2d/2 ed | c3 A | \
+aa/2a/2 ag | ff/2f/2 fe | d/2c/2d ba | gdg z :|
+|: db/2a/2 gd | dc c/2B/2c | \
+ca/2g/2 fe | dc d/2c/2d | \
+db/2a/2 gd | dc c/2B/2c | ca/2g/2 fd | gbgz :|
+% abcbook-tune_id 6502dc4f7fde33cc9891e30b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 656
+T: Avstriys'ka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+K:G major
+V:1 
+d2B2 | BG G/2F/2G | cA A/2^G/2A | BG G/2F/2G | \
+d2B2 | BG G/2F/2G | F/2G/2A/2B/2 cA | GBGz ::
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 |\
+cAAB | c3 c | cB/2c/2 dA | cB B/2A/2G |
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 | \
+cAAc | c3 c | cd/2c/2 BA | GDGz :|
+% abcbook-tune_id 6502dc4fa0e1f618cd92d811
+% abcbook-tune_composer_id 
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695788707967
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 657
+T: Varvarka
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=72
+K:D mixolydian
+V:1 
+{Bc^c}d2d2 d4 | {Bc^c}d2d2 d3c | \
+B2BG ABcA | G4 z4 :|\
+|: {DEF}GFGA B2B2 | A2A2 ABAG | \
+F2FD EFGE | D4 z4 :|
+% abcbook-tune_id 6502dc4f95ea535b358658ba
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 658
+T: Uvyvanets'
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=140
+K:C# minor
+V:1 
+ccGG | c c2 G | cc^Bd | c2 =B2 |:\
+ AAFF | G G2 E | FFED | C2 C2 :|
+c3/2B/4A/4 GA/2B/2 |  c3/2B/4A/4 GA/2B/2 |\
+c3/2B/4A/4 GA/2B/2 | c2{BA}G2 |: \
+F3/2E/4D/4 CD/2E/2 |  F3/2E/4D/4 CD/2E/2 | \
+F_AGF | c2c2 :|
+% abcbook-tune_id 6502dc4f87cb4404c6176c64
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 659
+T: Soloveyko
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+K:G major
+V:1 
+gBgB | BAAc | eddF | AGGG | \
+gBgB | BAAc | eddF | G2G2 ::
+d/2^c/2d/2c/2 d/2c/2d/2c/2 | ec c/2B/2A | \
+FA c/2B/2A | GGBG | \
+d/2^c/2d/2c/2 d/2c/2d/2c/2 | ec c/2B/2A | \
+FA c/2B/2A | G z G z :|
+% abcbook-tune_id 6502dc4f0e57ae9e2563be27
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 660
+T: Poltavs'kiy
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=144
+K:D minor
+V:1 
+a2 z2 f4 | egfe d2d2 | a2a2f2a2 | egfe d4 :: \
+^c2a2A2c2 | egfe d2d2 | ^c2a2A2a2 | egfe d4 :|
+% abcbook-tune_id 6502dc4f4e4d1559f7b47f83
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 661
+T: Rezvost'
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+K:C major
+V:1 
+affd | cAAc | _BGGd | cAAc | \
+affd | cAAc | ddee | fffz ::
+eegg | g/2g/2g/2g/2 ge | \
+g/2g/2g/2g/2 ge | g/2g/2g/2g/2 ge | \
+eegg | g/2g/2g/2g/2 ge | g/2g/2g/2g/2 gB | cecz :|
+% abcbook-tune_id 6502dc4f1c579a4678017e08
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 662
+T: Shevchyk
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=144
+K:G major
+V:1 
+B d d d | B d d d | A B c c | B2 G2 |:\
+B A G F | E D D2 | D c B A | G2 G z :|
+% abcbook-tune_id 6502dc4f497362399a3392be
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 663
+T: Polka Koketka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: Polka
+Q: 1/4=144
+K:C major
+V:1 
+ea^ga | efed | ee c2 | dcBA | \
+ea^ga | efed | eec'b | a2a2 ::
+geae | gggB | BBdd | feee | \
+geae | gggB | BBdd | c2c2 :|
+B2e2^d2e2 | c2(cB) (AB)(cA) | \
+B2B2 BAGF | A2.G2.F2.E2 | \
+B2e2^d2e2 | .c2(cB) (AB)c2 | \
+(BA)(Bc) g2f2 | e4 e2 z2 :|
+(d2^c)d  .g2(B2   | d2)c2 (cB)(AG) | \
+(FG)(AB) (cB)(ce) | e2d2 dcB2 | \
+(d^c)d2  .g2(B2   | d2)c2 (cB)(AG) | \
+(FGAB) (cdef) | g4 g4 |]
+W: W:H. Tantsyur
+% abcbook-tune_id 6502dc4f1365e12ff1056786
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 664
+T: Po Dorozi Zhuk, Zhuk, Po Dorozi Chorniy
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=144
+K:D mixolydian
+V:1 
+D D D F | A2 D2 | B B B B | A2 F2 |: \
+G G G G | F F F F | E E E E | D2 D2 :|
+% abcbook-tune_id 6502dc4f92b7e72a93e3201e
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 665
+T: Pishla Maty Na Selo
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=72
+K:F major
+V:1 
+c2 (dc) (BA) (BG) | F2 A2 C4 | \
+F2 F2 G2 G2 | A2 F2 d2 d2 |\
+c2 c2 (BA) (BG) | F2 A2 C2 C2 | \
+F2 A2 (GA) (BG) | F2 F2 F2 F2 |
+|: d2 d d | d e f d | c2 c c | c2 f2 |\
+B B B B | B c d B | A A G G | F2 F2 :|
+% abcbook-tune_id 6502dc4f4c30d6ebbd4754b9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 666
+T: Oy Pid Vyshneyu
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=72
+K:Bb major
+V:1 
+[Bd] [Bd] [A2c2] | [G2B2] [^F2A2] | \
+[Bd] [Bd] [A2c2] | [G2B2] [^F2A2] | \
+[Ac] [Ac] [Ac] [Ac] | [Bd] [Bd] [Bd] [Bd] | \
+[Ac] [GB] [^F2A2] | [GB] [GB] [G2B2] |]
+% abcbook-tune_id 6502dc4fa9f6b21febc430ec
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 667
+T: Perepilka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=100
+K:G major
+V:1 
+[GBd] [GBd] [G2c2e2] | [G4B4d3] c/2B/2 | \
+[Ac] [Ac] [G2B2] | [FA] [FA] G2 | \
+G2 [FA] [FA] | [G2B2] [Ec] [Fc] |\
+[GB] [GB] [F2A2] | G2 D2 | \
+G2 [FA] [FA] | [G2B3/2]e/2 [EAc] [Ac] | \
+[GB] [GB] [F2A2] | G2 G z |]
+% abcbook-tune_id 6502dc4f43233fbcf105a703
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 668
+T: Pishla B Na Muzyky
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=120
+K:F major
+V:1 
+A2  G2  | A F B B | A c (B/A/) G | A F B2 | \
+c B A G | A F B B | c B A G | A F B2 | \
+c2  G2  | A F B B |
+A2 (c>B) | (A/2G/2) F B B | \
+A A (c>B) | A F B2 | A (A/2c/2) G2 | F F F2 |: \
+(f3c) | (f3B) | A (A/c/) G2 | F F F2 :|
+% abcbook-tune_id 6502dc4f30a05c69d304239c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 669
+T: Oy Na Hori Monastyr
+B: ukranian
+B: tunes
+M:C
+L:1/8
+Q: 1/4=70
+K:D dorian
+V:1 
+A A G B A A d z | A A ^G B A2 d z | \
+F F E E D D ^C2 | F F E E D2 D z |]
+% abcbook-tune_id 6502dc4f5f56bceb215df385
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 670
+T: Opryshky
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=72
+K:D minor
+V:1 
+{c'}d'4 (ba)(ag) | (^fg) g4 g2 | \
+{c'}d'4 (ba)(ag) | {^g}a4 e3d | \
+{^c}d2A2 {c}d2A2 | {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] ::
+(^cd)(e^f) (gf)(gf) | (ga)g^f (gf)g2 | \
+(ga)g^f (gf)g^g | a4 a4 | \
+{^c}[D2d2]A2 {c}[D2d2]A2 |  {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] :|
+% abcbook-tune_id 6502dc4f6f7de6188d19c7be
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 671
+T: Od Kyyeva Do Luben
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=140
+K:A major
+V:1 
+A c c c | B d c2 | A c c c | B d c2 |\
+(B>A) G F | E (F/2G/2) A c | \
+B (B/2A/2) G F | E G A2 | \
+B (B/2A/2) G F | E G A2 |]
+% abcbook-tune_id 6502dc4f932575511027186f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 672
+T: Koval'
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=144
+K:B major
+V:1 
+{de}ff/2f/2 ff | {f}gf (e/2d/2c/2B/2) | AF ~d2 \
+|1 Bc d/2c/2d/2e/2 :|2 [FB][F/2B/2][F/2B/2] [FB]z:|\
+{de}ff/2f/2 ff | {f}gf (e/2d/2c/2B/2) |
+AF ~d2 \
+|1 Bc d/2c/2d/2e/2 :|2 [FB][F/2B/2][F/2B/2] [FB]z:| \
+|: "tap"z [.F.c]  "tap"z [.F.c] |\
+"tap"z [.F.c]  "tap"z [.F.c] \
+|1 ce d/2e/2d/2c/2 | [FB][F/2B/2][F/2B/2] [FB] z \
+:|2 f2 a2 | bb/2b/2 b z |]
+% abcbook-tune_id 6502dc4fe034a9d4f99ce792
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 673
+T: Kucheryava Kateryna
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=72
+K:G major
+V:1 
+(GA) (Bc) d2 d2 | (ed) e2 d2 g2 | \
+(cB) c2 (BA) B2 | (AG) G2 G2 G2 :|
+|: B2 B2 (AG) A2 | (BA) B2 c2 c2 | \
+(BA) B2 (AG) A2 |1 G2 g2 (gf) g2 :|2 G2 G2 G2 G2 |]
+% abcbook-tune_id 6502dc4f03619231b988cf5c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 674
+T: Metelytsya
+B: ukranian
+B: tunes
+M:2/2
+L:1/16
+Q: 1/2=144
+K:G minor
+V:1 
+d2d2B2d2 cBAc GABc | d2d2B2d2 cBAB GABG | \
+^F2F2D2d2 cBAB GABA | ^F2F2D2d2 cBAB G z2 z|]
+% abcbook-tune_id 6502dc4ffcada029984b9681
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 675
+T: Korol'
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=144
+K:D dorian
+V:1 
+[E2c2][GB][FA] [E4G4] | \
+[Ec] [Ec] [E2c2] [F2d2] [F2G2] | \
+[E2c2][GB][FA] [E4G4] | [E2c2][Fd][Ec] [D4G2]AF | \
+[CE] [DF] [E2G2] [E3c2]G [^FA] | \
+G2 G z ||
+(e3d/2c/2) d2 (ed) | A2 (ce) d4 | \
+[c3e3][B/2d/2][A/2c/2] [B2d2] [ce][Bd] | \
+A2 (ce) d4 :|\
+|: e3d/2c/2 d2 (ed) | A2 (ce) d4 | \
+d d ^c A | e e e ^c | d d ^c A | \
+e e e ^c | d d (^c>A) | A ^c d2 |]
+% abcbook-tune_id 6502dc4fb3c6d2266c7e8601
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 676
+T: Kolomiyka from Podilia
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=200
+K:A minor
+V:1 
+eeee | dddd | \
+deee | d2 d2{cBA} | \
+cccB | AAAB |
+cccB | A2A2 | 	\
+cccB | AAAB |  \
+cccB | A2 A2 ::
+%
+aaaa  | ag^fe | \
+ag^fe | e2e2  | \
+dddd  | dcBA  | \
+cc B/2A/2B | A2A2 |
+dddd | dcBA | \
+cc B/2A/2B | A2A2 ::\
+%
+Ee d/2c/2B/2A/2 | ccBA | \
+Ee d/2c/2B/2A/2 | (c>B) A2 |
+Ee d/2c/2B/2A/2 | ccBA | \
+E^GBG | A2A2 :|
+% abcbook-tune_id 6502dc4f078aff0bdb0dd231
+% abcbook-tune_composer_id 
+% abcbook-boost 9
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695789263779
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 677
+T: Kolomiyka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=140
+K:G minor
+V:1 
+G A B A | B A B A | G A B A | B G2 z | \
+G A B A | B A B A | B d D D | G G2 z |]
+ga {c'}ba | {c'}ba {c'}ba \
+|1 ga {c'}ba | b a2 z \
+:|2 b{^c'}d' dd | {^f}g g2 z |]
+% abcbook-tune_id 6502dc4fa00ef17aa7df00d1
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 678
+T: Pishla Maty Na Selo
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=72
+K:F major
+V:1 
+c2 (dc) (BA) (BG) | F2 A2 C4 | \
+F2 F2 G2 G2 | A2 F2 d2 d2 |\
+c2 c2 (BA) (BG) | F2 A2 C2 C2 | \
+F2 A2 (GA) (BG) | F2 F2 F2 F2 |
+|: d2 d d | d e f d | c2 c c | c2 f2 |\
+B B B B | B c d B | A A G G | F2 F2 :|
+% abcbook-tune_id 6502dc4f2eb94503c8982963
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 679
+T: Kabardynka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=240
+K:D minor
+V:1 
+A A2 B | c2 BA | G2 c2 | G G2 A | B2 AG | A2 F2 :: \
+D D2 F | A2 GF | E2 A2 | E E2 F | G2 FE | F2 D2 :|
+% abcbook-tune_id 6502dc4f056d033e5ff1fcb9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 680
+T: Kamaryns'kiy
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=100
+K:D major
+V:1 
+a3f g2b2 | f2a2 gfed | cABc defg | a3f g2b2 | \
+f2a2 gfed | cABc d2 z2 |]
+% abcbook-tune_id 6502dc4fbedb3c1aaa155d7c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 681
+T: Hramofon
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+R: Polka
+Q: 1/4=72
+K:C lydian
+V:1 
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | G2B2G2 z2 ::
+A4A4 | AGFG A4 | A2G2 GFG2 | B2A2 AGA2 | \
+A4 A4 | AGFG A4 | A2G2F2E2 | D2 z2 D2 z2 :|
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c4 | B2A2 AGA2 | G2F2E2D2 |:
+G4 E2C2 | A4 F2D2 | B2B2 B^AB2 | c2c2 cBc2 | \
+G4 E2C2 | A4 F2D2 | GAG2 FGAB | c2 z2 c2 z2 :|
+% abcbook-tune_id 6502dc4ff019c68f3ac3dbd9
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 682
+T: Divchyno Moya, Pereyaslavko
+B: ukranian
+B: tunes
+M:4/4
+L:1/8
+Q: 1/4=120
+K:E phrygian
+V:1 
+[c2e2] c2 c [ce] [c2e2g2] | \
+[Bd] [ce] [Bd][Ac] [GB]A G2 :| \
+|: [Ace][Bd] [Ac] [E^GB] A [AB] [Ac] [Ac] | \
+[EB] [EB] ^G2 E2 E2 :|
+% abcbook-tune_id 6502dc4f5babac59b55c9c90
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 683
+T: Chumak
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=144
+K:F# minor
+V:1 
+dfff | f(g/2f/2) ed | \
+cd B2 | [EB][c/2e/2][c/2e/2] [ce][ce] | \
+[ce]fed | [A2c2] A2 |:
+BcdB | (cdcB ABAG) \
+|1 Ff/2f/2 ff :|2 [F2c2] [F2c2] |] \
+F{GABcdefg}a c2 | f2 z2 |]
+% abcbook-tune_id 6502dc4f96b9e600a3e288cc
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 684
+T: Chabans'koho Kozachka
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+Q: 1/4=120
+K:A minor
+V:1 
+cd ec | fd ec | cd ec | g/2f/2e/2d/2 c2 :: \
+ba bg | c'a bg | fg bg | c'a g2 ::
+cdec | fdec | cdec \
+|1 g/2f/2e/2d/2 c2 :|2 g/2f/2e/2d/2 cd | \
+ecdB | e/2d/2c/2B/2 AA | ecdB | e/2d/2c/2B/2 A2 |
+^GGEG | ABcA | ^GGEG | A2A2 | \
+^GGEG | AB d/2c/2B/2A/2 | ^GGEG | A2A2 |]
+% abcbook-tune_id 6502dc4f5c15a328b3993452
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 685
+T: Bile Krylo
+B: ukranian
+B: tunes
+M:2/4
+L:1/16
+Q: 1/4=72
+K:C# minor
+V:1 
+E3F GB | FEFG EDCB, | E3F GB | FEFG E2 z2 ::
+C2F>D E3D |  C2F>DE3D | C2FD E3E | DFED C2 z2 :|
+% abcbook-tune_id 6502dc4f5dc8021364fc2a55
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 686
+T: Berehom, Berehom, Berezhynoyu
+B: ukranian
+B: tunes
+M:6/8
+L:1/8
+Q: 3/8=100
+K:A mixolydian
+V:1 
+A A F A A F | G G G F E z |: \
+D D D D G E | F D D D A, z :|
+A A A F d z | A F G F E z |: \
+D D D D (GE) | _F D D D A, z :|
+% abcbook-tune_id 6502dc4f35bcba8923368fae
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686287487
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 687
+T: Bandura Waltz
+C:trad. Ukraine
+B: ukranian
+B: tunes
+M:3/4
+L:1/4
+R: waltz
+Q: 1/4=100
+K:Dm
+V:1 
+"^A"[|\
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fe | "Dm"d3- | dzc/B/ ||
+"A7"A^ce | A^ce | "Dm"d3 | f3 | "A7"efg | g{ag}fg | "Dm"a3- | "D7"azB/A/ |]
+"^B"[|\
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FG | "Dm"A3- | "D7"Az B/A/ ||
+"Gm"GAB | dcB | "Dm"A3- | AGF | "A7"EFG | G{AG}FE | "Dm"D3- | Dz2 |]
+% abcbook-tune_id 6502ddf8b42818f974da099d
+% abcbook-tune_composer_id 
+% abcbook-boost 8
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695786659024
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 688
+T: Katushka, aka Ukranian Love Song
+C:Trad
+B: ukranian
+B: tunes
+M:2/4
+L:1/8
+R: reel
+Q: 1/4=130
+K:Am
+V:1 
+|:"Am" .AA2 B|c2 A3/2A/|\
+Ac BA|"E7"B^GE2|!
+"E7".BB2c|d2 B3/2B/|\
+Bd cB|"Am"A2- A2:|!
+"Am".e2.a2|"G".g2.a2|\
+"Dm"zf ed|"Am"e2A2|!
+"Dm"zd2B|"Am"c2A3/2A/|\
+"E7"Bd cB|"Am"A2- A2:|!
+% abcbook-tune_id 6502ddf89e01402431b69bfe
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686712886
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 689
+T: Ukranian Waltz
+B: ukranian
+B: tunes
+M:3/4
+Q: 1/4=145
+K:Dm
+V:1 
+z2zA,_A,=A,|:"Dm"A3F ED|^C2D4|"Gm"E3D ^CB,|A,2 B,4|"A7"A,3B, ^CD|E3G FE|
+"Dm"D3E FG|A3 A,_A,=A,|"Dm"A3F ED|^C2D4|"Gm"E3D ^CB,|A,2 B,4|"A7"A,3B, ^CD|E3G FE|
+"Dm"D3A, FE|1D3 A,_A,=A,:|2D3 !fine!A,_B,=B,||:"F"C3 A AG|G3F FE|"F"E3D DC|C6|
+"Gm"A,2_B,2B,2|E3D DC|"F"C3A, _B,D|C3A, _B,=B,|"F"C3 A AG|G3F FE|"F"E3D DC|
+C3G ^GA|"Gm"_B3 A GF|"C"E3 A ^G=G|"F"F3A ^G=G|1F3 A, _B,=B,:|2F3 !D.S.!A, _A,=A,|]
+% abcbook-tune_id 6502ddf8448d8d46702b8e7d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1694686712886
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 690
+T: Big Mon
+C:Bill Monroe
+B: tunes
+B: working
+Q: 1/4=100
+K:Gmajor
+V:1 
+D2 E2 F2|:"G"GF GA BG AG|"F"=FE FG AG FE|"G"DE GA Bc de|
+=fe dc BA GA|GF GA BG AG|"F"=FE FG AG FE|"G"DE GA BG de|"D"dc BA "G"G2 DE:|
+"G"Gd BG d2 de|_BA G=F GF DC|D=F GD _B=B GF|GD =FG "D"A2 z2|
+"G"Gd BG d2 de|_BA G=F GF DC|D=F GD _B=B GF|"D"DC _B,=B, "G"G,2 z2|
+"G"Gd BG d2 de|_BA G=F GF DC|D=F GD _B=B GF|GD =FG "D"A2 z2|
+"G"D2 d=f ^cd f_d|c_B _dc BG =FB|G=F _BG FD GF|"D"DC _B,=B, "G"G,2 z2||
+% abcbook-tune_id 650d58754f39cb7538bb9a44
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=G1snM_q0fH0
+% abcbook-link-title-0 Big Mon
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695494951244
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
