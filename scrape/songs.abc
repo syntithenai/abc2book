@@ -1390,13 +1390,13 @@ W: how is your wife
 % abcbook-tune_id 63ae8f1cae27b563b216a2b9
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2X7TdfMd3ns
-% abcbook-boost 0
+% abcbook-boost 5
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning AEAE
-% abcbook-lastupdated 1675315358532
+% abcbook-lastupdated 1696198013888
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -2598,6 +2598,38 @@ W: Sally Goodin. Sally Goodin. Sally Goody, Goody, Goodin.
 % Has_accompaniment_chords Has chords
 
 X: 35
+T: Dogs Breakfast
+C:Steve Ryan
+B: tunes
+B: songs
+M:6/8
+L:1/8
+Q: 3/8=70
+K:D
+V:1 
+|:"D" DFE DFE | "Bm"BFd "A"EcB| "G"DGd "A"cAE| "Em"GfF "A"EFG |
+"D" DFE "Bm"BFE |"A" Adc "Bm"BAF| "Em"Bcd "Bm"BAF | "A"EFE "D"D3 :|
+ |: "G"GDB "A"AcA  | "G"GAE  "D"FAc | "G"BGF GFD  |"A" cdB ABc |
+ "G"GDB "A"ABc  | "A"efe "D"d_dA  | "G"Gfe "A"cAE  | "D"FD z z3 :|
+% abcbook-tune_id 62a544e595164916cbf12358
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags no youtube available,steve ryan originals,© free
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1677113032237
+% abcbook-src-url https://tunebook.net/scrape/tunes.abc
+% abcbook-soundfonts 
+% abcbook-repeats 3
+%%scale 0.71
+%%pagewidth 21.59cm
+%%leftmargin 2.13cm
+%%rightmargin 2.13cm
+%%score ( 1 2 )
+
+X: 36
 T: Lanigan's Ball
 B: tunes
 B: traditional songs
@@ -2665,7 +2697,7 @@ W: CHORUS
 % abcbook-repeats 3
 
 
-X: 36
+X: 37
 T: New York Girls
 B: songs
 B: traditional songs
@@ -2799,7 +2831,7 @@ W: Oh, you New York girls, Can't you dance the polka?
 % Time_signature 4/4
 % Has_accompaniment_chords Has chords
 
-X: 37
+X: 38
 T: Whiskey before Breakfast
 B: tunes
 B: good tune book
@@ -2865,7 +2897,7 @@ W: We've been drinking whiskey 'fore breakfast
 % abcbook-repeats 1
 
 
-X: 38
+X: 39
 T: Arkansas Traveler
 B: songs
 B: traditional songs
@@ -2928,7 +2960,7 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-repeats 1
 
 
-X: 39
+X: 40
 T: Give The Fiddler A Dram
 B: good tune book
 B: tunes
@@ -2977,7 +3009,7 @@ W: Come on and give the fiddler a dram
 % abcbook-repeats 1
 
 
-X: 40
+X: 41
 T: Jump At The Sun
 B: good tune book
 B: tunes
@@ -3068,7 +3100,7 @@ W: You might as well jump at the sun
 % abcbook-repeats 3
 
 
-X: 41
+X: 42
 T: Johnny Cope
 C:Traditional
 B: good tune book
@@ -3144,7 +3176,7 @@ W: So I wish you a' good morning.'
 % abcbook-repeats 1
 
 
-X: 42
+X: 43
 T: Midnight on the Water
 B: good tune book
 B: tunes
@@ -3196,7 +3228,7 @@ W: 2 × Chorus
 %%MIDI transpose -5
 
 
-X: 43
+X: 44
 T: O the Breeches Full of Stitches
 B: good tune book
 B: tunes
@@ -3228,7 +3260,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 44
+X: 45
 T: Lanigan's Ball
 B: songs
 B: traditional songs
@@ -3299,7 +3331,7 @@ W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
 % abc-sessionorg_setting_id 43100
 % abc-boost 0
 
-X: 45
+X: 46
 T: Scarborough Fair
 C:Trad.
 B: traditional songs
@@ -3358,7 +3390,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 46
+X: 47
 T: Nothing Else Matters
 C:Metallica
 B: songs
@@ -3486,7 +3518,7 @@ W: Em
 % abcbook-repeats 3/4
 
 
-X: 47
+X: 48
 T: To Be With You
 C:Mr Big
 B: songs
@@ -3631,7 +3663,7 @@ W: Just to  be  the next to be with you.
 % abcbook-repeats 1
 
 
-X: 48
+X: 49
 T: Is God Real
 C:Kasey Chambers
 B: songs
@@ -3723,7 +3755,7 @@ W: Some-thing, some-thing, some-thing
 % abcbook-repeats 1
 
 
-X: 49
+X: 50
 T: Heart Of Gold
 C:Neil Young
 B: songs
@@ -3828,7 +3860,7 @@ W: I've been a miner for a heart of gold      ahhhhhh
 % abcbook-repeats 1
 
 
-X: 50
+X: 51
 T: Needle And The Damage Done
 C:Neil Young
 B: songs
@@ -3883,7 +3915,7 @@ W: D C Cadd9  G Gm Bb
 % abcbook-repeats 1
 
 
-X: 51
+X: 52
 T: Be With You
 C:The Angels
 B: songs
@@ -3949,7 +3981,7 @@ W: Lead: E-A
 % abcbook-repeats 1
 
 
-X: 52
+X: 53
 T: Dream Builder
 C:The Angels
 B: songs
@@ -4063,7 +4095,7 @@ W: Dreambuilder, build a dream for me
 % abcbook-repeats 1
 
 
-X: 53
+X: 54
 T: Life By The Drop
 C:Stevie Ray Vaughan
 B: songs
@@ -4131,7 +4163,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 54
+X: 55
 T: El Condor Pasa
 C:Simon & Garfunkel
 B: songs
@@ -4199,7 +4231,7 @@ W: C  G   C  G  Em  G Em G Em . . .
 % Time_signature 2/4
 % Has_accompaniment_chords No chords
 
-X: 55
+X: 56
 T: Patience
 C:Guns N’ Roses
 B: songs
@@ -4358,7 +4390,7 @@ W: Ooooh, this time
 % abcbook-repeats 1
 
 
-X: 56
+X: 57
 T: The Story
 C:Brandi Carlile
 B: songs
@@ -4439,7 +4471,7 @@ W: Oh yeah well it's true, I was made for you
 % abcbook-repeats 1
 
 
-X: 57
+X: 58
 T: My Kind of Angel
 C:Tony King
 B: songs
@@ -4516,7 +4548,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 58
+X: 59
 T: Can't Help Falling In Love With You
 C:Elvis Presley
 B: songs
@@ -4586,7 +4618,7 @@ W: For I can't help falling in love with you
 % abcbook-repeats 1
 
 
-X: 59
+X: 60
 T: Pharoah
 C:Richard Thompson
 B: songs
@@ -4655,7 +4687,7 @@ W: We're all working for the Pharaoh
 % abcbook-repeats 1
 
 
-X: 60
+X: 61
 T: Masochism Tango
 C:Tom Lehrer
 B: songs
@@ -4740,7 +4772,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 61
+X: 62
 T: Raglan Road
 C:Traditional
 B: songs
@@ -4815,7 +4847,7 @@ W: His wings at the dawn of day
 % Text Has notes text
 % Has_accompaniment_chords Has chords
 
-X: 62
+X: 63
 T: Hallelujah
 C:Leonard Cohen
 B: songs
@@ -4925,7 +4957,7 @@ W: It's a cold and it's a broken Hallelujah
 % abcbook-repeats 1
 
 
-X: 63
+X: 64
 T: Lazy John
 C:Traditional Bluegrass
 B: songs
@@ -4986,7 +5018,7 @@ W: Why don't you get away, Lazy John.
 %%MIDI transpose 05
 
 
-X: 64
+X: 65
 T: Waxies Dargle
 C:Traditional
 B: songs
@@ -5033,7 +5065,7 @@ W: "When food is scarce and you see the hearse you'll know you have died of hung
 %%MIDI transpose -5
 
 
-X: 65
+X: 66
 T: Cunla
 C:Planxty
 B: songs
@@ -5128,7 +5160,7 @@ W: Yea ra maybe I shouldn't, says Cúnla
 % abcbook-repeats 1
 
 
-X: 66
+X: 67
 T: All Gods Creatures Got A Place In The Choir
 C:Bill Staines
 B: songs
@@ -5192,7 +5224,7 @@ W: [Chorus x3]
 % abcbook-repeats 1
 
 
-X: 67
+X: 68
 T: The Parting Glass
 C:Traditional
 B: songs
@@ -5302,7 +5334,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 68
+X: 69
 T: Falling Slowly
 C:Glen Hansard, Marketa Irglova
 B: songs
@@ -5368,7 +5400,7 @@ W: I'll sing along
 % abcbook-repeats 1
 
 
-X: 69
+X: 70
 T: Bottle Of Wine
 C:Tom Paxton
 B: songs
@@ -5451,7 +5483,7 @@ W: Let me go home and start over
 % abcbook-repeats 1
 
 
-X: 70
+X: 71
 T: Whiskey On A Sunday
 C:Glyn Hughes
 B: songs
@@ -5522,7 +5554,7 @@ W: Whiskey on a Sunday
 % abcbook-repeats 1
 
 
-X: 71
+X: 72
 T: Romeo And Juliet
 C:Dire Straits
 B: songs
@@ -5619,7 +5651,7 @@ W: "You and me babe, how about it?"
 % abcbook-repeats 1
 
 
-X: 72
+X: 73
 T: Farther Along
 C:W B. Stevens
 B: songs
@@ -5679,7 +5711,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 73
+X: 74
 T: Cotton Eyed Joe
 C:Michelle Shocked
 B: songs
@@ -5749,7 +5781,7 @@ W: Singing, oh Cotton Eyed Joe
 % abcbook-repeats 1
 
 
-X: 74
+X: 75
 T: Like A Songbird That Has Fallen
 C:Reeltime Travelers
 B: songs
@@ -5792,7 +5824,7 @@ W: From this frozen shadow valley, they must weary fly
 % abcbook-repeats 1
 
 
-X: 75
+X: 76
 T: Vatican Rag
 C:Tom Lehrer
 B: songs
@@ -5850,7 +5882,7 @@ W: Doin' the Vatican Rag!
 % abcbook-repeats 1
 
 
-X: 76
+X: 77
 T: Man Of Constant Sorrow
 C:The Soggy Bottom Boys
 B: songs
@@ -5907,7 +5939,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 77
+X: 78
 T: May You Never
 C:Eric Clapton
 B: songs
@@ -5980,7 +6012,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 78
+X: 79
 T: Barretts Privateers
 C:Stan Rogers
 B: songs
@@ -6111,7 +6143,7 @@ W:
 %%MIDI transpose 7
 
 
-X: 79
+X: 80
 T: No Love Today
 C:Chris Smithers
 B: songs
@@ -6224,7 +6256,7 @@ W: No love today
 % abcbook-repeats 1
 
 
-X: 80
+X: 81
 T: Bring On The Sun/Chicken Reel
 C:Steve Ryan
 B: songs
@@ -6287,7 +6319,7 @@ W:
 % Time_signature 2/4
 % Has_accompaniment_chords Has chords
 
-X: 81
+X: 82
 T: Mingulay Boat Song
 B: songs
 B: traditional songs
@@ -6356,7 +6388,7 @@ W: Sailing homeward to Mingulay
 %%MIDI transpose -2
 
 
-X: 82
+X: 83
 T: Come By The Hills
 C:Gordon Smith
 B: songs
@@ -6410,7 +6442,7 @@ W: Ah, the cares of to-morrow can wait 'til this  day  is  done
 % Text Has history text
 % Has_accompaniment_chords No chords
 
-X: 83
+X: 84
 T: Ride On
 C:Christy Moore
 B: songs
@@ -6458,7 +6490,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 84
+X: 85
 T: I'll Tell Me Ma
 B: songs
 B: traditional songs
@@ -6553,7 +6585,7 @@ W: Pray, want you tell me who is she?
 % abcbook-repeats 1
 
 
-X: 85
+X: 86
 T: Killing The Blues
 C:Rowland Jon Salley
 B: songs
@@ -6612,7 +6644,7 @@ W: Killing the blues
 % abcbook-repeats 4
 
 
-X: 86
+X: 87
 T: Joshua
 C:Nitty Gritty Dirt Band
 B: songs
@@ -6675,7 +6707,7 @@ W: Plenty of money left for rum to add power to our dancing legs.
 % abcbook-repeats 1
 
 
-X: 87
+X: 88
 T: Lookin' For Money
 B: songs
 B: traditional songs
@@ -6742,7 +6774,7 @@ W:
 %%MIDI transpose 7
 
 
-X: 88
+X: 89
 T: Church Street Blues
 C:Tony Rice
 B: songs
@@ -6791,7 +6823,7 @@ W: Try to make me a little change and give them folks a smile
 % abcbook-repeats 1
 
 
-X: 89
+X: 90
 T: Matty Groves
 C:Traditional
 B: songs
@@ -6909,7 +6941,7 @@ W: For she was of noble kin”
 % abcbook-repeats 1
 
 
-X: 90
+X: 91
 T: Hard Times
 C:Stephen Foster
 B: songs
@@ -6970,7 +7002,7 @@ W: ​Oh! Hard Times, come again no more.
 % abcbook-repeats 1
 
 
-X: 91
+X: 92
 T: Comes a Time
 C:Max Campbell
 B: songs
@@ -7013,7 +7045,7 @@ W: Through the clear clear skies... the skies
 % abcbook-repeats 2
 
 
-X: 92
+X: 93
 T: Diamonds On The Soles Of Her Shoes
 C:Paul Simon
 B: songs
@@ -7097,7 +7129,7 @@ W: Diamonds on the soles of our shoes
 % abcbook-repeats 1
 
 
-X: 93
+X: 94
 T: Long Time Gone
 C:Dixie Chicks
 B: songs
@@ -7203,7 +7235,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 94
+X: 95
 T: Fly Away
 C:Albert E. Brumley
 B: songs
@@ -7252,7 +7284,7 @@ W: I'll fly away
 % abcbook-repeats 1
 
 
-X: 95
+X: 96
 T: The Scarlet Tide
 C:Alison Kraus
 B: songs
@@ -7312,7 +7344,7 @@ W: And separates the widow from the bride
 % abcbook-repeats 1
 
 
-X: 96
+X: 97
 T: Pancho And Lefty
 C:Merle Haggard and Willie Nelson
 B: songs
@@ -7397,7 +7429,7 @@ W: Out of kindness, I suppose
 % abcbook-repeats 1
 
 
-X: 97
+X: 98
 T: Cordelia Brown
 C:Mathew Perry
 B: songs
@@ -7444,7 +7476,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 98
+X: 99
 T: Ruby, Are You Mad At Your Man?
 C:Cousin Emmy
 B: songs
@@ -7499,7 +7531,7 @@ W: Honey, are you mad at your man?
 % abcbook-repeats 1
 
 
-X: 99
+X: 100
 T: Spanish Johnny
 C:Paul Siebel
 B: songs
@@ -7548,7 +7580,7 @@ W: And we shipped it out to mexico, along with his mandolin
 % abcbook-repeats 1
 
 
-X: 100
+X: 101
 T: We'll Be Ok
 B: songs
 M:4/4
@@ -7573,7 +7605,7 @@ W: If you're with me, we'll be OK
 % abcbook-repeats 1
 
 
-X: 101
+X: 102
 T: Marie's Wedding
 B: traditional songs
 B: songs
@@ -7689,7 +7721,7 @@ W: All for Marie’s wedding
 % Time_signature 4/4
 % Has_accompaniment_chords Has chords
 
-X: 102
+X: 103
 T: Union Maid
 C:Woody Guthrie
 B: songs
@@ -7732,7 +7764,7 @@ W: A union man has a happy life when he's got a union wife.
 % abcbook-repeats 1
 
 
-X: 103
+X: 104
 T: Bonaparte's Retreat
 C:Glen Campbell
 B: traditional songs
@@ -7800,7 +7832,7 @@ W: Kissed her while everybody's playin'
 % Time_signature 2/4
 % Has_accompaniment_chords Has chords
 
-X: 104
+X: 105
 T: The Classical Greek
 C:Mark Graham
 B: songs
@@ -7870,7 +7902,7 @@ W: Not one MBA graced the whole sorry lot.
 % abcbook-repeats 1
 
 
-X: 105
+X: 106
 T: Drinking White Wine In The Sun
 C:Tim Minchin
 B: christmas songs
@@ -8154,7 +8186,7 @@ W: It's sentimental, I know
 % abcbook-repeats 3
 
 
-X: 106
+X: 107
 T: Silent Night
 B: christmas songs
 B: songs
@@ -8209,7 +8241,7 @@ W: Jesus Lord, at Thy birth
 % Time_signature 3/4
 % Has_accompaniment_chords No chords
 
-X: 107
+X: 108
 T: Fairytale of New York
 B: christmas songs
 B: songs
@@ -8342,7 +8374,7 @@ W: For Christmas Day
 % abcbook-repeats 1
 
 
-X: 108
+X: 109
 T: Penny on the Water
 C:Trad.
 B: kids songs
@@ -8380,7 +8412,7 @@ W: Thruppence on the roundabout, and round go we.
 % abcbook-repeats 1
 
 
-X: 109
+X: 110
 T: The Circle Game
 B: songs
 M:4/4
@@ -8452,7 +8484,7 @@ W: And go round and round and round, in the circle game
 % abcbook-repeats 1
 
 
-X: 110
+X: 111
 T: Earl Grey
 C:Enda Kenny
 B: songs
@@ -8516,7 +8548,7 @@ W: All I want is a proper cup of tea
 % abcbook-repeats 1
 
 
-X: 111
+X: 112
 T: Singing In The Shower
 C:Dan Johnson
 B: songs
@@ -8587,7 +8619,7 @@ W: I mean standing in my ooooold shower stall!
 %%MIDI transpose -7
 
 
-X: 112
+X: 113
 T: Ederlezi/Sao Roma
 B: songs
 M:4/4
@@ -8628,7 +8660,7 @@ W:
 %%MIDI transpose -2
 
 
-X: 113
+X: 114
 T: Vincent
 C:Don McLean
 B: songs
@@ -8706,7 +8738,7 @@ W: Perhaps they never will
 % abcbook-repeats 1
 
 
-X: 114
+X: 115
 T: Wine Song
 C:Cat Empire
 B: songs
@@ -8866,7 +8898,7 @@ W: [Scatting]
 % abcbook-repeats 1
 
 
-X: 115
+X: 116
 T: Don't Worry Be Happy
 C:Bobby McFerrin
 B: songs
@@ -8951,7 +8983,7 @@ W: (Ooh, ooh ooh ooh oo-ooh ooh oo-ooh) I'm not worried, I'm happy
 % abcbook-repeats 1
 
 
-X: 116
+X: 117
 T: Babethandaza/Sin Nje Nje
 C:African Traditional
 B: songs
@@ -8989,7 +9021,7 @@ W: Babethandaza, Babethandaza
 % abcbook-repeats 1
 
 
-X: 117
+X: 118
 T: Not Perfect
 C:Tim Minchin
 B: songs
@@ -9104,7 +9136,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 118
+X: 119
 T: Both Sides Now
 C:Joni Mitchell
 B: songs
@@ -9182,7 +9214,7 @@ W: I really don't know life at all
 %%MIDI transpose -2
 
 
-X: 119
+X: 120
 T: The Elements
 C:Tom Lehrer
 B: songs
@@ -9239,7 +9271,7 @@ W: And there may be many others but they haven't been discovered
 %%MIDI transpose -7
 
 
-X: 120
+X: 121
 T: Earl Richard
 C:Traditional
 B: songs
@@ -9326,7 +9358,7 @@ W: Among the leaves so green.”
 % abcbook-repeats 1
 
 
-X: 121
+X: 122
 T: Olga
 C:Herman van Dooren
 B: songs
@@ -9418,7 +9450,7 @@ W: En kind die is zo koud!
 %%MIDI transpose -5
 
 
-X: 122
+X: 123
 T: Off To Sea Once More
 C:Jerry Garcia
 B: songs
@@ -9525,7 +9557,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 123
+X: 124
 T: Mary Ellen Carter
 C:Stan Rogers
 B: songs
@@ -9624,7 +9656,7 @@ W: Like the Mary Ellen Carter, rise again!
 %%MIDI transpose 7
 
 
-X: 124
+X: 125
 T: Ready For The Storm
 C:Dougie Maclean
 B: songs
@@ -9689,7 +9721,7 @@ W: I am ready for the storm, I'm ready for the storm
 % abcbook-repeats 1
 
 
-X: 125
+X: 126
 T: In The Pines
 C:Lead Belly
 B: songs
@@ -9739,7 +9771,7 @@ W: You've caused me to leave my home
 % abcbook-repeats 1
 
 
-X: 126
+X: 127
 T: Boys From The County Hell
 C:The Pogues
 B: songs
@@ -9810,7 +9842,7 @@ W: And mother wake me early in the morning
 % abcbook-repeats 1
 
 
-X: 127
+X: 128
 T: A Pair Of Brown Eyes
 C:The Pogues
 B: songs
@@ -9888,7 +9920,7 @@ W: [Chorus]
 % abcbook-repeats 1
 
 
-X: 128
+X: 129
 T: Sally McLennane
 C:The Pogues
 B: songs
@@ -9987,7 +10019,7 @@ W: To the greatest little boozer and to Sally MacLennane
 % abcbook-repeats 1
 
 
-X: 129
+X: 130
 T: Dirty Old Town
 C:The Pogues
 B: songs
@@ -10055,7 +10087,7 @@ W: Dirty old town, dirty old town
 % abcbook-repeats 1
 
 
-X: 130
+X: 131
 T: Some Say The Devil is Dead
 C:Traditional
 B: songs
@@ -10107,7 +10139,7 @@ W: It's going back on Monday. CHORUS
 % abcbook-repeats 1
 
 
-X: 131
+X: 132
 T: Paddy Stole The Rope
 C:Tim Hart & Maddy Prior
 B: songs
@@ -10182,7 +10214,7 @@ W: Than when they broke inside a church to go and steal the rope.
 %%MIDI transpose 5
 
 
-X: 132
+X: 133
 T: Blackleg Miner
 B: songs
 B: traditional songs
@@ -10243,7 +10275,7 @@ W: You dirty blackleg miner.
 %%MIDI transpose 3
 
 
-X: 133
+X: 134
 T: Irish Rover
 C:The Irish Rovers
 B: songs
@@ -10311,7 +10343,7 @@ W: Now I'm the last of the Irish Rover
 % abcbook-repeats 1
 
 
-X: 134
+X: 135
 T: Navigator
 C:The Pogues
 B: songs
@@ -10372,7 +10404,7 @@ W: [Chorus]
 % abcbook-repeats 1
 
 
-X: 135
+X: 136
 T: My Son John
 C:Traditional
 B: songs
@@ -10439,7 +10471,7 @@ W: Whack for a diddle to me ooh rum rye
 % abcbook-repeats 1
 
 
-X: 136
+X: 137
 T: The Devil May Care
 C:Steve/Sue
 B: songs
@@ -10486,7 +10518,7 @@ W: We went up to Sydney for the long week end
 % abcbook-repeats 1
 
 
-X: 137
+X: 138
 T: A Man You Don't Meet Every Day
 C:Traditional
 B: songs
@@ -10533,7 +10565,7 @@ W: I'm a man you don't meet every day
 % abcbook-repeats 1
 
 
-X: 138
+X: 139
 T: Down By The Sally Gardens
 C:Traditional
 B: songs
@@ -10571,7 +10603,7 @@ W: But I was young and foolish, and now am full of tears.
 % abcbook-repeats 1
 
 
-X: 139
+X: 140
 T: Black Velvet Band
 C:Traditional
 B: songs
@@ -10658,7 +10690,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 140
+X: 141
 T: Adieu Sweet Lovely Nancy
 C:Traditional
 B: songs
@@ -10718,7 +10750,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 141
+X: 142
 T: Bound For Botany Bay
 C:Traditional
 B: songs
@@ -10781,7 +10813,7 @@ W: Or you'll find us in Botany Bay
 %%MIDI transpose -5
 
 
-X: 142
+X: 143
 T: Bridget O'Malley
 C:Silly Wizard
 B: songs
@@ -10835,7 +10867,7 @@ W: And your beauty will haunt me, wherever I go
 %%MIDI transpose -02
 
 
-X: 143
+X: 144
 T: Jesse James
 C:The Pogues
 B: songs
@@ -10928,7 +10960,7 @@ W: Have laid Jesse James in his grave
 % abcbook-repeats 1
 
 
-X: 144
+X: 145
 T: Kitty
 C:The Pogues
 B: songs
@@ -10978,7 +11010,7 @@ W: And write to me won't you, goodbye
 % abcbook-repeats 1
 
 
-X: 145
+X: 146
 T: Woman
 C:The Anti Nowhere League
 B: songs
@@ -11064,7 +11096,7 @@ W: I hate you
 % abcbook-repeats 1
 
 
-X: 146
+X: 147
 T: The Intergalactic Laxative
 C:Donovan
 B: songs
@@ -11187,7 +11219,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 147
+X: 148
 T: As I Roved Out
 C:Traditional
 B: songs
@@ -11280,7 +11312,7 @@ W: {c: CHORUS}
 % abcbook-repeats 1
 
 
-X: 148
+X: 149
 T: Botany Bay
 C:The Wolfe Tones
 B: songs
@@ -11353,7 +11385,7 @@ W: To the shores of Botany Bay
 %%MIDI transpose -5
 
 
-X: 149
+X: 150
 T: Rosemary Lane
 C:Traditional
 B: songs
@@ -11410,7 +11442,7 @@ W: And that was the beginning of my downfall
 % abcbook-repeats 1
 
 
-X: 150
+X: 151
 T: Smoke On The Water
 B: songs
 M:4/4
@@ -11474,7 +11506,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 151
+X: 152
 T: Blister In The Sun
 C:Violent Femmes
 B: songs
@@ -11548,7 +11580,7 @@ W: Big hands, I know you're the one
 % abcbook-repeats 1
 
 
-X: 152
+X: 153
 T: Roxanne
 B: songs
 M:4/4
@@ -11646,7 +11678,7 @@ W: (Roxanne) Put on the red light
 % abcbook-repeats 1
 
 
-X: 153
+X: 154
 T: Green Island
 C:Ewan McColl
 B: songs
@@ -11721,7 +11753,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 154
+X: 155
 T: Cumberland Gap
 C:Traditional
 B: songs
@@ -11780,7 +11812,7 @@ W: We’ll all pull together and sing this song. Refrain
 % abcbook-repeats 1
 
 
-X: 155
+X: 156
 T: Happy Trails
 C:Van Halen
 B: songs
@@ -11815,7 +11847,7 @@ W: Til we meet again
 % abcbook-repeats 1
 
 
-X: 156
+X: 157
 T: The Irish Ballad
 C:Tom Lehrer
 B: songs
@@ -11905,7 +11937,7 @@ W: You should never have let me begin.
 % abcbook-repeats 1
 
 
-X: 157
+X: 158
 T: Are You Strong Enough
 C:Sheryl Crow
 B: songs
@@ -11974,7 +12006,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 158
+X: 159
 T: Take Her In Your Arms
 C:Trail West
 B: songs
@@ -12101,7 +12133,7 @@ W: If you're going to love a woman then be sure to do it right
 %%MIDI transpose -2
 
 
-X: 159
+X: 160
 T: Baby Of Mine
 B: songs
 M:3/4
@@ -12164,7 +12196,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 160
+X: 161
 T: Thula Mama
 B: songs
 M:4/4
@@ -12200,7 +12232,7 @@ W: wathi . Amandla.
 % abcbook-repeats 1
 
 
-X: 161
+X: 162
 T: Zaspo Yanko
 B: songs
 M:4/4
@@ -12237,7 +12269,7 @@ W: Pogledajte na me
 % abcbook-repeats 1
 
 
-X: 162
+X: 163
 T: Saint Patrick Was A Gentleman
 B: songs
 B: traditional songs
@@ -12329,7 +12361,7 @@ W: And banish them forever!
 % abcbook-repeats 1
 
 
-X: 163
+X: 164
 T: Muskrat
 B: songs
 B: traditional songs
@@ -12388,7 +12420,7 @@ W: Even been in the onion patch
 % abcbook-repeats 1
 
 
-X: 164
+X: 165
 T: Como Poden
 C:King Alfonso X
 B: songs
@@ -12437,7 +12469,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 165
+X: 166
 T: Blackbird Melody Line
 C:Beatles
 B: songs
@@ -12469,7 +12501,7 @@ B/2A/2z G/2EA3/2B A/2GG/2-|G2 z2 GG G/2G/2B/2A/2-|A/2z3/2G/2EA3/2G B/2A/2G/2A/2|
 % abcbook-repeats 1
 
 
-X: 166
+X: 167
 T: Yesterday: Beatles
 B: songs
 M:4/4
@@ -12497,7 +12529,7 @@ A,G,4D,|F,2 A,A,3/2z3z/2|F,2 A,G,4D,|F,2 A,A,3/2
 % abcbook-repeats 1
 
 
-X: 167
+X: 168
 T: Yellow Submarine Melody Line
 C:The Beatles
 B: songs
@@ -12537,7 +12569,7 @@ G3/2G/2 G3/2G/2 G2- G/2
 % abcbook-repeats 1
 
 
-X: 168
+X: 169
 T: You Are My Sunshine
 C:Jimmie Davis
 B: songs
@@ -12564,7 +12596,7 @@ G2) G A|B3 c|A3 B|(G4):|
 % abcbook-repeats 1
 
 
-X: 169
+X: 170
 T: It's Hard To Be Humble
 C:Mac Davis
 B: songs
@@ -12650,7 +12682,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 170
+X: 171
 T: The Rose
 C:Mc Broom Amanda
 B: songs
@@ -12708,7 +12740,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 171
+X: 172
 T: Lancashire
 B: songs
 B: traditional songs
@@ -12777,7 +12809,7 @@ W: No wonder we sing of Lancashire to beat the rural blues.
 % abcbook-repeats 1
 
 
-X: 172
+X: 173
 T: Do You Love An Apple
 C:Traditional
 B: songs
@@ -12834,7 +12866,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 173
+X: 174
 T: Rosie's House
 B: songs
 M:4/4
@@ -12883,7 +12915,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 174
+X: 175
 T: Discovery
 C:Steve Ryan
 B: songs
@@ -12936,7 +12968,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 175
+X: 176
 T: Uh Oh, Springs Here
 C:Steve Ryan
 B: songs
@@ -12976,7 +13008,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 176
+X: 177
 T: The Idiot Song
 C:Monty Python
 B: songs
@@ -13091,7 +13123,7 @@ W: How sweet, how sweet, how sweet
 % abcbook-repeats 1
 
 
-X: 177
+X: 178
 T: Tina Singu
 B: songs
 M:4/4
@@ -13124,7 +13156,7 @@ W: La, la la la la la, la, la la la la la, la, la la la la la, la...
 % abcbook-repeats 1
 
 
-X: 178
+X: 179
 T: Hine E Hine
 C:Maori Lullaby
 B: songs
@@ -13158,7 +13190,7 @@ W: Hine i hine. Hine e Hine
 % abcbook-repeats 1
 
 
-X: 179
+X: 180
 T: Sto Mi E Milelo
 B: songs
 M:2/4
@@ -13186,7 +13218,7 @@ W: E sto mi o milelo
 % abcbook-repeats 1
 
 
-X: 180
+X: 181
 T: Bright Eyes
 C:Art Garfunkle
 B: songs
@@ -13257,7 +13289,7 @@ W: Bright eyes
 %%MIDI transpose 7
 
 
-X: 181
+X: 182
 T: House Of The Rising Sun
 B: songs
 B: traditional songs
@@ -13320,7 +13352,7 @@ W: And God, I know I'm one
 % abcbook-repeats 1
 
 
-X: 182
+X: 183
 T: Only The Good Die Young
 B: songs
 Q: 1/4=100
@@ -13340,7 +13372,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 183
+X: 184
 T: Yellow Submarine
 C:The Beatles
 B: songs
@@ -13416,7 +13448,7 @@ W: Yellow submarine, yellow submarine
 % abcbook-repeats 1
 
 
-X: 184
+X: 185
 T: Blowin In The Wind
 C:Bob Dylan
 B: songs
@@ -13477,7 +13509,7 @@ W: The answer is blowin' in the wind
 % abcbook-repeats 1
 
 
-X: 185
+X: 186
 T: Who Wants To Live Forever
 C:Queen
 B: songs
@@ -13605,7 +13637,7 @@ W: Who waits forever anyway?
 % abcbook-repeats 1
 
 
-X: 186
+X: 187
 T: Message In A Bottle
 C:The Police
 B: songs
@@ -13700,7 +13732,7 @@ W: Sending out an S.O.S.
 % abcbook-repeats 1
 
 
-X: 187
+X: 188
 T: Four Nights Drunk
 C:Steeleye Span
 B: songs
@@ -13762,7 +13794,7 @@ W: Whiskers on a baby I've never seen before, oh
 % abcbook-repeats 1
 
 
-X: 188
+X: 189
 T: So Far Away
 C:Dire Straits
 B: songs
@@ -13845,7 +13877,7 @@ W: You're just so far away from me
 % abcbook-repeats 1
 
 
-X: 189
+X: 190
 T: Bittersweet
 C:Hoodoo Gurus
 B: songs
@@ -13929,7 +13961,7 @@ W: Bittersweet, bittersweet
 % abcbook-repeats 1
 
 
-X: 190
+X: 191
 T: Sunday Bloody Sunday
 C:U2
 B: songs
@@ -14035,7 +14067,7 @@ W: Sunday, Bloody Sunday
 % abcbook-repeats 1
 
 
-X: 191
+X: 192
 T: Blue
 C:Joni Mitchell
 B: songs
@@ -14104,7 +14136,7 @@ W: There is your song from me
 % abcbook-repeats 1
 
 
-X: 192
+X: 193
 T: New Shine
 C:Jigzag
 B: songs
@@ -14167,7 +14199,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 193
+X: 194
 T: I Saw Her Standing There The Beatles
 B: songs
 Q: 1/4=100
@@ -14187,7 +14219,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 194
+X: 195
 T: Brown Eyed Girl
 B: songs
 Q: 1/4=100
@@ -14207,7 +14239,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 195
+X: 196
 T: Nothing Ever Happens
 B: songs
 Q: 1/4=100
@@ -14227,7 +14259,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 196
+X: 197
 T: Bound For  South Australia
 C:Traditional
 B: songs
@@ -14289,7 +14321,7 @@ W: Let's get this damn job over boys.
 % abcbook-repeats 1
 
 
-X: 197
+X: 198
 T: Paint It Black
 C:Rolling Stones
 B: songs
@@ -14334,7 +14366,7 @@ W: My love will laugh with me before the morning comes
 % abcbook-repeats 1
 
 
-X: 198
+X: 199
 T: She's Leaving Home The Beatles
 B: songs
 Q: 1/4=100
@@ -14354,7 +14386,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 199
+X: 200
 T: The Raggle Taggle Gypsy
 C:Christy Moore
 B: songs
@@ -14428,7 +14460,7 @@ W: Than all the cash and money-o”
 % abcbook-repeats 1
 
 
-X: 200
+X: 201
 T: Apeman
 C:The Kinks
 B: songs
@@ -14531,7 +14563,7 @@ W: And make like an ape man
 %%MIDI transpose 07
 
 
-X: 201
+X: 202
 T: Norwegian Wood
 C:The Beatles
 B: songs
@@ -14581,7 +14613,7 @@ W: Isn't it good, Norwegian wood?
 % abcbook-repeats 1
 
 
-X: 202
+X: 203
 T: Lighthouse Keeper
 C:Erika Eigen
 B: songs
@@ -14654,7 +14686,7 @@ W: Won't that be okay?
 %%MIDI transpose 7
 
 
-X: 203
+X: 204
 T: Rivers Of Babylon
 B: songs
 B: working
@@ -14696,7 +14728,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 204
+X: 205
 T: Candle In The Wind
 C:Elton John
 B: songs
@@ -14783,7 +14815,7 @@ W: Your legend ever did
 %%MIDI transpose -2
 
 
-X: 205
+X: 206
 T: The Letter
 C:The Box Tops
 B: songs
@@ -14845,7 +14877,7 @@ W: Oh, go, my baby, just-a wrote me a letter
 % abcbook-repeats 1
 
 
-X: 206
+X: 207
 T: Helplessly Hoping
 C:Stephen Stills
 B: songs
@@ -14913,7 +14945,7 @@ W: They are for each other
 % abcbook-repeats 1
 
 
-X: 207
+X: 208
 T: Summerfly
 C:Mary Black
 B: songs
@@ -14975,7 +15007,7 @@ W: I don't know why you even try to win
 % abcbook-repeats 1
 
 
-X: 208
+X: 209
 T: Let It Be
 C:The Beatles
 B: songs
@@ -15042,7 +15074,7 @@ W: Whisper words of wisdom, let it be
 % abcbook-repeats 1
 
 
-X: 209
+X: 210
 T: Celia
 C:Simon And Garfunkle
 B: songs
@@ -15108,7 +15140,7 @@ W: Oh-oh-oh-oh, oh-oh-oh-oh oh-oh-oh-oh
 % abcbook-repeats 1
 
 
-X: 210
+X: 211
 T: Sultans Of Swing
 C:Dire Straits
 B: songs
@@ -15182,7 +15214,7 @@ W: Creole
 % abcbook-repeats 1
 
 
-X: 211
+X: 212
 T: Siuil A Ruin
 C:Clannad
 B: songs
@@ -15252,7 +15284,7 @@ W: Iss guh day thoo avorneen slawn.
 % abcbook-repeats 1
 
 
-X: 212
+X: 213
 T: Why Worry
 C:Dire Straits
 B: songs
@@ -15305,7 +15337,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 213
+X: 214
 T: Lets Go Down To The River To Pray
 B: songs
 B: traditional songs
@@ -15385,7 +15417,7 @@ W: Good Lord show me the way
 % abcbook-repeats 1
 
 
-X: 214
+X: 215
 T: Whiter Shade Of Pale
 C:Procol Harum
 B: songs
@@ -15449,7 +15481,7 @@ W: As the miller told his tale...
 % abcbook-repeats 1
 
 
-X: 215
+X: 216
 T: SOS To The World
 C:The Police
 B: songs
@@ -15525,7 +15557,7 @@ W: Message in a bottle (Yeah)
 % abcbook-repeats 1
 
 
-X: 216
+X: 217
 T: Wild World
 C:Cat Stevens
 B: songs
@@ -15591,7 +15623,7 @@ W: La-la-la-la-la-la-la-la la la-la, la
 % abcbook-repeats 1
 
 
-X: 217
+X: 218
 T: So Lonely
 C:The Police
 B: songs
@@ -15599,7 +15631,7 @@ M:4/4
 Q: 1/4=170
 K:Am
 V:1 
-"C"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|
+"C"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|
 W: Well someone told me yesterday
 W: That when you throw your love away
 W: You act as if you just don't care
@@ -15692,13 +15724,13 @@ W: So lonely...
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1654907445330
+% abcbook-lastupdated 1696545877876
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 218
+X: 219
 T: Children Of The Revolution
 C:T Rex
 B: songs
@@ -15740,7 +15772,7 @@ W: No, you won't fool the children of the revolution, no way, yeah, wow
 % abcbook-repeats 1
 
 
-X: 219
+X: 220
 T: Moreton Bay/Brisbane Waters
 C:Robert Hughes
 B: songs
@@ -15801,7 +15833,7 @@ W: And when from bondage we are liberated, our former sufferings shall fade from
 % Time_signature 3/4
 % Has_accompaniment_chords Has chords
 
-X: 220
+X: 221
 T: Fat Bottomed Girls
 C:Queen
 B: songs
@@ -15869,7 +15901,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 221
+X: 222
 T: Tom Dooley
 B: songs
 B: traditional songs
@@ -15958,7 +15990,7 @@ W: Poor boy, you're bound to die
 % abcbook-repeats 1
 
 
-X: 222
+X: 223
 T: Joshua Fit The Battle Of Jericho
 C:Sidney Bechet / Georgeann Hodes
 B: songs
@@ -16024,7 +16056,7 @@ W: And the walls came tumbling down!
 % abcbook-repeats 1
 
 
-X: 223
+X: 224
 T: A Bit Of You Ma
 C:Steve Ryan
 B: songs
@@ -16080,7 +16112,7 @@ W: You will always be inside of me. A bit of you, inside of me.
 % abcbook-repeats 1
 
 
-X: 224
+X: 225
 T: What's Up
 C:4 Non Blondes
 B: songs
@@ -16180,7 +16212,7 @@ W: For a destination, mmm
 % abcbook-repeats 1
 
 
-X: 225
+X: 226
 T: A Kind Of Loneliness
 C:Rory Mcleod
 B: songs
@@ -16218,7 +16250,7 @@ W: Just a little bit, just a little bit , just a little bit, just a bit but enou
 % abcbook-repeats 1
 
 
-X: 226
+X: 227
 T: Alfie's Song/A Gypsy Came To The Castle Gate
 C:Traditional/Lark Rise To Candleford
 B: songs
@@ -16292,7 +16324,7 @@ W: And ne’er was alone no more.
 % abcbook-repeats 2
 
 
-X: 227
+X: 228
 T: Need
 C:Steve Ryan
 B: songs
@@ -16332,7 +16364,7 @@ W: Always churning in my head..
 % abcbook-repeats 1
 
 
-X: 228
+X: 229
 T: Open Hand
 C:Jez
 B: songs
@@ -16382,7 +16414,7 @@ W: Captivity or bind...
 % abcbook-repeats 1
 
 
-X: 229
+X: 230
 T: Wade In The Water
 B: songs
 M:4/4
@@ -16411,7 +16443,7 @@ W: I want to die easy, when I die.
 % abcbook-repeats 1
 
 
-X: 230
+X: 231
 T: Be My Girl Sally
 C:The Police
 B: songs
@@ -16496,7 +16528,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 231
+X: 232
 T: My Love Is In America
 C:Dolores Keane
 B: songs
@@ -16581,7 +16613,7 @@ W: I need you tonight (I need you tonight)
 % abcbook-repeats 2
 
 
-X: 232
+X: 233
 T: She Moved Through The Fair
 C:Traditional
 B: songs
@@ -16636,7 +16668,7 @@ W: till our wedding-day".
 % abcbook-repeats 3
 
 
-X: 233
+X: 234
 T: The Blacksmith
 C:Traditional
 B: songs
@@ -16695,7 +16727,7 @@ W: And if I were with my love, I would live forever
 %%MIDI transpose 5
 
 
-X: 234
+X: 235
 T: The Swallow
 C:Joan Baez
 B: songs
@@ -16749,7 +16781,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 235
+X: 236
 T: Fields Of Athenry
 C:Traditional
 B: songs
@@ -16819,7 +16851,7 @@ W: It's so lonely around the fields of Athenry
 % abcbook-repeats 3
 
 
-X: 236
+X: 237
 T: Sonny's Dream
 C:Ron Hynes
 B: songs
@@ -16876,7 +16908,7 @@ W: I'm feeling so tired and not all that strong.
 % abcbook-repeats 6
 
 
-X: 237
+X: 238
 T: Corbies
 C:Traditional
 B: songs
@@ -16932,7 +16964,7 @@ W: The wind sall blow forever mair
 % abcbook-repeats 1
 
 
-X: 238
+X: 239
 T: Doomba
 B: songs
 M:4/4
@@ -16960,7 +16992,7 @@ W: Na na na na na na)
 % abcbook-repeats 1
 
 
-X: 239
+X: 240
 T: So So Bambo
 B: songs
 M:4/4
@@ -16985,7 +17017,7 @@ W: So Man Ay Barr gess o day.
 % abcbook-repeats 1
 
 
-X: 240
+X: 241
 T: Zamangwaza
 B: songs
 M:4/4
@@ -17007,7 +17039,7 @@ W: Awai awai zamangwaza manyoor way, your way
 % abcbook-repeats 1
 
 
-X: 241
+X: 242
 T: My Girl
 C:Hoodoo Gurus
 B: songs
@@ -17055,11 +17087,10 @@ W:
 %%MIDI transpose -2
 
 
-X: 242
+X: 243
 T: Blackbird
 C:The Beatles
 B: songs
-B: working
 M:4/4
 Q: 1/4=135
 V:1 
@@ -17101,14 +17132,14 @@ W:
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1675662388061
+% abcbook-lastupdated 1696130437501
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%MIDI transpose -5
 
 
-X: 243
+X: 244
 T: By Chance It Was
 C:Clannad
 B: songs
@@ -17185,7 +17216,7 @@ W:
 % abcbook-repeats 5
 
 
-X: 244
+X: 245
 T: The Seasons
 B: songs
 M:4/4
@@ -17207,7 +17238,7 @@ W: tis of the four seasons of the year..
 % abcbook-repeats 1
 
 
-X: 245
+X: 246
 T: Annachie Gordon
 C:Traditional
 B: songs
@@ -17330,7 +17361,7 @@ W: And he's died in the chamber that his love she lies in
 % abcbook-repeats 1
 
 
-X: 246
+X: 247
 T: Sun, Sun , Shining On The Water
 C:Anna McGerrigle
 B: songs
@@ -17352,7 +17383,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 247
+X: 248
 T: Salty Sailor
 C:Steeleye Span
 B: songs
@@ -17449,7 +17480,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 248
+X: 249
 T: Mirrors
 B: songs
 M:4/4
@@ -17471,7 +17502,7 @@ W: We are singing and dancing in perfect time..
 % abcbook-repeats 1
 
 
-X: 249
+X: 250
 T: Spirit Of The Wind
 B: songs
 M:4/4
@@ -17510,7 +17541,7 @@ W: Spirit of the land, hold me in your hand.
 % abcbook-repeats 1
 
 
-X: 250
+X: 251
 T: On Any Other Day
 C:The Police
 B: songs
@@ -17580,7 +17611,7 @@ W: (Happy birthday, dear daddy, happy birthday to you)
 % abcbook-repeats 1
 
 
-X: 251
+X: 252
 T: Every Evening
 C:Keb Mo
 B: songs
@@ -17622,7 +17653,7 @@ W: The way you love me, through and through
 % abcbook-repeats 5
 
 
-X: 252
+X: 253
 T: The L&N  Don't Stop Here Any More
 C:Michelle Shocked
 B: songs
@@ -17682,7 +17713,7 @@ W: [Chorus: ]
 % abcbook-repeats 4
 
 
-X: 253
+X: 254
 T: Mother
 C:Pink Floyd
 B: songs
@@ -17754,7 +17785,7 @@ W: Mother, did it need to be so high?
 % abcbook-repeats 2
 
 
-X: 254
+X: 255
 T: The Star of the County Down
 B: songs
 B: traditional songs
@@ -17843,7 +17874,7 @@ W: Sits the star of the County Down
 % abcbook-repeats 1
 
 
-X: 255
+X: 256
 T: Indoor Fireworks
 C:Elvis Costello
 B: songs
@@ -17924,7 +17955,7 @@ W: When the smoke gets in your eyes
 % abcbook-repeats 1
 
 
-X: 256
+X: 257
 T: Boy In The Bubble
 C:Paul Simon
 B: songs
@@ -18008,7 +18039,7 @@ W: Oooooh...
 %%MIDI transpose 7
 
 
-X: 257
+X: 258
 T: Wish You Were Here
 C:Pink Floyd
 B: songs
@@ -18062,7 +18093,7 @@ W: The same old fears, wish you were here
 % abcbook-repeats 1
 
 
-X: 258
+X: 259
 T: Lighthouse
 C:The Waifs
 B: songs
@@ -18123,7 +18154,7 @@ W: Shine a little lighthouse light on me
 % abcbook-repeats 1
 
 
-X: 259
+X: 260
 T: The Hanging Tree
 C:James Newton Howard
 B: songs
@@ -18215,7 +18246,7 @@ W: If we met at midnight in the hanging tree
 %%MIDI transpose -7
 
 
-X: 260
+X: 261
 T: Queen Of Waters
 C:Nancy Kerr
 B: songs
@@ -18310,7 +18341,7 @@ W:
 % abcbook-repeats 3
 
 
-X: 261
+X: 262
 T: Diamantina Drover
 C:Hugh Mcdonald
 B: songs
@@ -18374,7 +18405,7 @@ W: And I won't be back when the droving's done
 % abcbook-repeats 1
 
 
-X: 262
+X: 263
 T: There Were Roses
 C:Thomas Sands
 B: songs
@@ -18444,7 +18475,7 @@ W: And the tears of a people ran together
 %%MIDI transpose -5
 
 
-X: 263
+X: 264
 T: Harvest Moon
 C:Crosby Stills Nash and Young
 B: songs
@@ -18500,7 +18531,7 @@ W: On this harvest moon
 % abcbook-repeats 1
 
 
-X: 264
+X: 265
 T: Just A Gigolo
 C:Brammer Julius
 B: songs
@@ -18564,7 +18595,7 @@ W: Nobody cares for me
 % abcbook-repeats 1
 
 
-X: 265
+X: 266
 T: Green Fields Of France
 C:Traditional
 B: songs
@@ -18706,7 +18737,7 @@ W: And did the pipes play the Flowers of the Forest?
 % abcbook-repeats 1
 
 
-X: 266
+X: 267
 T: Lily the pink
 B: songs
 Q: 1/4=100
@@ -18726,7 +18757,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 267
+X: 268
 T: Hollywood
 B: songs
 M:4/4
@@ -18885,7 +18916,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 268
+X: 269
 T: Creep
 C:Radiohead
 B: songs
@@ -18949,7 +18980,7 @@ W: Songwriters: Albert Hammond / Colin Greenwood / Edward O'Brien / Jonathan Gre
 % abcbook-repeats 1
 
 
-X: 269
+X: 270
 T: Simple Twist Of Fate
 C:Bob Dylan
 B: songs
@@ -19031,7 +19062,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 270
+X: 271
 T: It's Only Natural
 C:Crowded House
 B: songs
@@ -19096,7 +19127,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 271
+X: 272
 T: Looking For The Heart of Saturday Night
 C:Tom Waits
 B: songs
@@ -19217,7 +19248,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 272
+X: 273
 T: I’m So Tired
 C:Beatles
 B: songs
@@ -19293,7 +19324,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 273
+X: 274
 T: The Pheasant Plucking Song
 B: songs
 M:4/4
@@ -19394,7 +19425,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 274
+X: 275
 T: River
 C:Joni Mitchell
 B: songs
@@ -19494,7 +19525,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 275
+X: 276
 T: Love Hurts
 C:Nazareth
 B: songs
@@ -19551,7 +19582,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 276
+X: 277
 T: On A Clear Day
 B: songs
 M:4/4
@@ -19602,7 +19633,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 277
+X: 278
 T: New Shoes
 C:Paolo Nutini
 B: songs
@@ -19738,7 +19769,7 @@ W: 'Cause I'm wearing my brand new shoes
 % abcbook-repeats 1
 
 
-X: 278
+X: 279
 T: Bluesette
 B: songs
 M:4/4
@@ -19799,7 +19830,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 279
+X: 280
 T: Dancing Queen
 C:ABBA
 B: songs
@@ -19905,7 +19936,7 @@ W: REPEAT CHORUS
 % abcbook-repeats 1
 
 
-X: 280
+X: 281
 T: Pumped Up Kicks
 C:Foster The People
 B: songs
@@ -19967,7 +19998,7 @@ W: CHORUS:
 % abcbook-repeats 1
 
 
-X: 281
+X: 282
 T: Marrowbones
 B: songs
 M:4/4
@@ -20013,7 +20044,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 282
+X: 283
 T: Come what May
 B: songs
 M:4/4
@@ -20222,7 +20253,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 283
+X: 284
 T: New Thing Now
 B: songs
 M:4/4
@@ -20315,7 +20346,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 284
+X: 285
 T: Autumn Leaves
 B: songs
 M:4/4
@@ -20352,7 +20383,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 285
+X: 286
 T: You Ain't Goin' Nowhere
 C:The Byrds
 B: songs
@@ -20419,7 +20450,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 286
+X: 287
 T: Just The Way You Are
 B: songs
 M:4/4
@@ -20488,7 +20519,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 287
+X: 288
 T: Blue
 C:The Jayhawks
 B: songs
@@ -20560,7 +20591,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 288
+X: 289
 T: Don't Worry Baby
 C:Cesar Rosas/Louie Perez/T-Bone Burnett) LOS LOBOS
 B: songs
@@ -20665,7 +20696,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 289
+X: 290
 T: Cowgirl in the Sand
 C:Neil Young
 B: songs
@@ -20730,7 +20761,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 290
+X: 291
 T: I Wish You Love
 B: songs
 M:4/4
@@ -20780,7 +20811,7 @@ W: I wish you love
 % abcbook-repeats 1
 
 
-X: 291
+X: 292
 T: Stronger
 B: songs
 M:4/4
@@ -20997,7 +21028,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 292
+X: 293
 T: Let Me Touch You For Awhile
 C:I Wish You Love
 B: songs
@@ -21059,7 +21090,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 293
+X: 294
 T: The Lucky One
 C:Alison Krauss
 B: songs
@@ -21131,7 +21162,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 294
+X: 295
 T: Crazy Faith
 C:Alison Krauss
 B: songs
@@ -21204,7 +21235,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 295
+X: 296
 T: I'm Gone
 C:Alison Krauss
 B: songs
@@ -21256,7 +21287,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 296
+X: 297
 T: Daylight
 C:Alison Krauss
 B: songs
@@ -21324,7 +21355,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 297
+X: 298
 T: Take Me For Longing
 C:Alison Krauss
 B: songs
@@ -21365,7 +21396,7 @@ W: Take me for longing or leave me behind.
 % abcbook-repeats 1
 
 
-X: 298
+X: 299
 T: New Favorite
 C:Alison Krauss
 B: songs
@@ -21407,7 +21438,7 @@ W: You've got a new favorite
 % abcbook-repeats 1
 
 
-X: 299
+X: 300
 T: Seven Bridges Road
 C:The Eagles
 B: songs
@@ -21493,7 +21524,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 300
+X: 301
 T: Drunken Angel
 C:Lucinda Williams
 B: songs
@@ -21587,7 +21618,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 301
+X: 302
 T: Star Of Bethlehem
 B: songs
 M:4/4
@@ -21631,7 +21662,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 302
+X: 303
 T: No Moon At All
 C:Songwriters: Redd Evans / David Mann
 B: songs
@@ -21689,7 +21720,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 303
+X: 304
 T: Lily The Pink
 C:Songwriters: Trad / John Henry Gorman / Roger Joseph Mcgough / Michael Mcgear
 B: songs
@@ -21788,7 +21819,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 304
+X: 305
 T: Peaceful Easy Feeling
 C:The Eagles
 B: songs
@@ -21856,7 +21887,7 @@ W:
 %%MIDI transpose 5
 
 
-X: 305
+X: 306
 T: Mudpile
 C:Dave Anderson
 B: songs
@@ -21871,12 +21902,12 @@ W: Their frantic pace and their crazy ways
 W: Life's too full to be rushing on by
 W: When we are living and growing and breathing and thriving
 W: 
-W: I'm so tired of sitting in the park drinking
+W: I'm so tired of sitting in the park drinking 
 W: Numbing my senses, no more thinking
 W: Comes a pattern well it's hard to break
 W: Too much of fighting, too much of crying, too much of loosing
 W: 
-W: I need to clean the ?????   in my blood stream
+W: I need to clean the clean mountain air  in my blood stream
 W: And salt from the sea on my skin away
 W: Not far to go today
 W: Wait no more, its never too far
@@ -21887,7 +21918,7 @@ W: I'm just one of the caretakers of our lives
 W: I need a paper to hang a sign that says "Dave's Place"
 W: 
 W: I'm so tired of peoples lies
-W: Breeding envy harm so many
+W: Greed and envy harm so many
 W: Betrayal by false friends cuts hard
 W: I treat every man as my brother, every woman as my sister
 W: 
@@ -21895,6 +21926,8 @@ W: For United we can sustain our ways
 W: Helping each as we fall away
 W: Not far to go today
 W: Wait no more, its never too far
+W: 
+W: # solo
 W: 
 W: Ohhh Im so tired
 W: Ohhh Im so tired
@@ -21905,10 +21938,10 @@ W: The latest wars and people dying
 W: For their religion, their country, their colour
 W: Does it make us feel any better
 W: 
-W: So tired of what many people call love
+W: I'm so tired of what many people call love
 W: Seem too self-possessing
 W: I think that love's all about giving away everything you've got
-W: Aint funny how a little can make you happy
+W: Aint it funny how a little can make you happy
 W: 
 W: And my life's become a jigsaw
 W: 52 pieces for each year of my life
@@ -21922,7 +21955,7 @@ W: that I will have my doubts about the outcome
 W: 
 W: And in my dreams I've only told the story
 W: In my songs well I just dance in the rain but
-W: And the time I spend with you right now
+W: The time I spend with you right now
 W: Is just a little bit of pleasure to ease my pain
 W: 
 W: And I'm getting tired of wandering
@@ -21953,13 +21986,13 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694312837638
+% abcbook-lastupdated 1696025226620
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 306
+X: 307
 T: MARBLE HALLS
 B: songs
 M:4/4
@@ -22024,7 +22057,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 307
+X: 308
 T: My Foolish Heart
 C:Washington/Young
 B: songs
@@ -22079,7 +22112,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 308
+X: 309
 T: Like someone in love
 B: songs
 M:4/4
@@ -22116,7 +22149,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 309
+X: 310
 T: Bed of Roses
 C:Bette Midler
 B: songs
@@ -22196,7 +22229,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 310
+X: 311
 T: We've Started A Fire
 C:Paul Kelly
 B: songs
@@ -22255,7 +22288,7 @@ W: Source: Musixmatch  Songwriters: Paul Kelly
 % abcbook-repeats 1
 
 
-X: 311
+X: 312
 T: Gulf Coast Highway
 C:Nancy Griffith
 B: songs
@@ -22321,7 +22354,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 312
+X: 313
 T: Find The Cost of Freedom
 C:Stephen Stills
 B: songs
@@ -22347,7 +22380,7 @@ W: Lay your body down
 % abcbook-repeats 1
 
 
-X: 313
+X: 314
 T: Peace In Our Time
 B: songs
 M:4/4
@@ -22418,7 +22451,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 314
+X: 315
 T: Into My Arms
 C:Nick Cave
 B: songs
@@ -22495,7 +22528,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 315
+X: 316
 T: Pilgrim (You Can't Go Home)
 C:Dave Rawlings Machine
 B: songs
@@ -22569,7 +22602,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 316
+X: 317
 T: Going Back to Georgia
 C:Nanci Griffith
 B: songs
@@ -22629,7 +22662,7 @@ W: Source: LyricFind  Songwriters: Brian Claffin / Adam Duritz / Nanci Griffith 
 % abcbook-repeats 1
 
 
-X: 317
+X: 318
 T: S ‘wonderful!
 C:George Gershwin
 B: songs
@@ -22683,7 +22716,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 318
+X: 319
 T: Summertime
 C:George Gershwin
 B: songs
@@ -22735,7 +22768,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 319
+X: 320
 T: All Of Me
 C:George Gershwin
 B: songs
@@ -22773,7 +22806,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 320
+X: 321
 T: Blue Heaven
 C:George Gershwin
 B: songs
@@ -22828,7 +22861,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 321
+X: 322
 T: Watermelon Man
 C:George Gershwin
 B: songs
@@ -22884,7 +22917,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 322
+X: 323
 T: My Baby Just Cares For Me
 C:Nina Simone
 B: songs
@@ -22956,7 +22989,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 323
+X: 324
 T: Don't Get Around Much Anymore
 B: songs
 M:4/4
@@ -22991,7 +23024,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 324
+X: 325
 T: Listen To The Music
 C:The Doobie Brothers
 B: songs
@@ -23056,7 +23089,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 325
+X: 326
 T: Fragile
 C:Sting
 B: songs
@@ -23118,7 +23151,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 326
+X: 327
 T: Down By The River
 C:Neil Young
 B: songs
@@ -23199,7 +23232,7 @@ W: Dead, oh, shot her dead.
 % abcbook-repeats 1
 
 
-X: 327
+X: 328
 T: Fields Of Gold
 C:Sting
 B: songs
@@ -23277,7 +23310,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 328
+X: 329
 T: Kid
 C:The Pretenders
 B: songs
@@ -23344,7 +23377,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 329
+X: 330
 T: You’ve Changed
 B: songs
 M:4/4
@@ -23421,7 +23454,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 330
+X: 331
 T: Suite Judy Blue Eyes
 C:Crosby, Stills & Nash
 B: songs
@@ -23524,7 +23557,7 @@ W: A- [002220]     Em- [022000]
 % abcbook-repeats 1
 
 
-X: 331
+X: 332
 T: Mean to Me
 B: songs
 M:4/4
@@ -23579,7 +23612,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 332
+X: 333
 T: You Don’t Own Me
 C:David White & Lesley
 B: songs
@@ -23676,7 +23709,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 333
+X: 334
 T: Goodbye Pork Pie Hat
 C:Charles Mingus/Joni Mitchell
 B: songs
@@ -23751,7 +23784,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 334
+X: 335
 T: Throw it away
 B: songs
 M:4/4
@@ -23868,7 +23901,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 335
+X: 336
 T: Be Cool
 C:Joni Mitchell
 B: songs
@@ -23967,7 +24000,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 336
+X: 337
 T: A Thousand Years
 B: songs
 M:4/4
@@ -24070,7 +24103,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 337
+X: 338
 T: And So It Goes
 C:Billy Joel
 B: songs
@@ -24145,7 +24178,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 338
+X: 339
 T: Almost cut my hair
 C:David Crosby
 B: songs
@@ -24273,7 +24306,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 339
+X: 340
 T: Across the Universe
 C:The Beatles
 B: songs
@@ -24353,7 +24386,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 340
+X: 341
 T: If I Needed You
 C:Emmelou Harris
 B: songs
@@ -24459,7 +24492,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 341
+X: 342
 T: Alcohol
 C:The Kinks
 B: songs
@@ -24520,7 +24553,7 @@ W: Alcohol lyrics (C) Sony/ATV Music Publishing LLC, Universal Music Publishing 
 % abcbook-repeats 1
 
 
-X: 342
+X: 343
 T: Birthday
 C:Beatles
 B: songs
@@ -24611,7 +24644,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 343
+X: 344
 T: Nothing Else
 C:Angus and Julia Stone
 B: songs
@@ -24671,7 +24704,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 344
+X: 345
 T: I’ve been so lonely
 B: songs
 M:4/4
@@ -24725,7 +24758,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 345
+X: 346
 T: I'm Fine
 B: songs
 M:4/4
@@ -24810,7 +24843,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 346
+X: 347
 T: Something to Talk About
 C:Bonnie Raitt
 B: songs
@@ -24906,7 +24939,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 347
+X: 348
 T: Wild Horses
 C:Rolling Stones
 B: songs
@@ -25050,7 +25083,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 348
+X: 349
 T: Folsom Prison Blues
 C:Johnny Cash
 B: songs
@@ -25104,7 +25137,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 349
+X: 350
 T: Heartbreaker, Doo doo doo doo doo
 C:Rolling Stones
 B: songs
@@ -25168,7 +25201,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 350
+X: 351
 T: Detour Ahead
 B: songs
 M:4/4
@@ -25231,7 +25264,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 351
+X: 352
 T: The Water.
 C:Johnny Flynn, Johnny Flynn & The Sussex Wit
 B: songs
@@ -25302,7 +25335,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 352
+X: 353
 T: Sweetheart Come
 C:Nick Cave
 B: songs
@@ -25367,7 +25400,7 @@ W: It ain't that bad
 % abcbook-repeats 1
 
 
-X: 353
+X: 354
 T: A Natural Woman Lyrics
 B: songs
 M:4/4
@@ -25432,7 +25465,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 354
+X: 355
 T: Baby I Love You
 B: songs
 M:4/4
@@ -25527,7 +25560,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 355
+X: 356
 T: Chain Of Fools
 B: songs
 M:4/4
@@ -25592,7 +25625,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 356
+X: 357
 T: I Say A Little Prayer
 B: songs
 M:4/4
@@ -25671,7 +25704,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 357
+X: 358
 T: Respect
 B: songs
 M:4/4
@@ -25796,7 +25829,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 358
+X: 359
 T: Son Of A Preacher Man
 B: songs
 M:4/4
@@ -25902,7 +25935,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 359
+X: 360
 T: Sweet Sweet Baby Since You've Been Gone
 B: songs
 M:4/4
@@ -26022,7 +26055,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 360
+X: 361
 T: The House That Jack Built
 B: songs
 M:4/4
@@ -26133,7 +26166,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 361
+X: 362
 T: I Never Loved A Man The Way I Love You
 B: songs
 M:4/4
@@ -26224,7 +26257,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 362
+X: 363
 T: Freeway Of Love
 B: songs
 M:4/4
@@ -26301,7 +26334,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 363
+X: 364
 T: Think
 B: songs
 M:4/4
@@ -26403,7 +26436,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 364
+X: 365
 T: Who Knows Where the Time Goes.
 C:Sandy Denny
 B: songs
@@ -26452,7 +26485,7 @@ W: Who Knows Where the Time Goes lyrics (C) Sony/ATV Music Publishing LLC, Unive
 % abcbook-repeats 1
 
 
-X: 365
+X: 366
 T: Magic Man
 C:Heart
 B: songs
@@ -26554,7 +26587,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 366
+X: 367
 T: I Can't Make You Love Me
 C:Bonnie Raitt
 B: songs
@@ -26602,7 +26635,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 367
+X: 368
 T: Green Pastures
 C:Emmylou Harris
 B: songs
@@ -26674,7 +26707,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 368
+X: 369
 T: Love Song To A Stranger
 C:Joan Baez
 B: songs
@@ -26852,7 +26885,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 369
+X: 370
 T: Don't Think Twice It's Allright
 C:Bob Dylan
 B: songs
@@ -26957,7 +26990,7 @@ W: Songwriters: Bob Dylan - Don't Think Twice, It's All Right lyrics (C) Univers
 % abcbook-repeats 1
 
 
-X: 370
+X: 371
 T: Consider Me Gone
 C:Sting
 B: songs
@@ -27024,7 +27057,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 371
+X: 372
 T: Vennesang
 C:Benny Andersen
 B: songs
@@ -27128,7 +27161,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 372
+X: 373
 T: Fare The Well - Dink's Song
 C:Dave Van Ronk
 B: songs
@@ -27188,7 +27221,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 373
+X: 374
 T: Georgia
 B: songs
 M:4/4
@@ -27239,7 +27272,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 374
+X: 375
 T: Love for sale,
 B: songs
 M:4/4
@@ -27308,7 +27341,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 375
+X: 376
 T: Lost on the River #20.
 C:The New Basement Tapes
 B: songs
@@ -27356,7 +27389,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 376
+X: 377
 T: That's life
 B: songs
 M:4/4
@@ -27423,7 +27456,7 @@ W: And die...
 % abcbook-repeats 1
 
 
-X: 377
+X: 378
 T: Drinking Again
 B: songs
 M:4/4
@@ -27486,7 +27519,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 378
+X: 379
 T: Black Wolf
 C:Hanne Boel
 B: songs
@@ -27569,7 +27602,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 379
+X: 380
 T: Wish You Were Here
 C:Pink Floyd
 B: songs
@@ -27626,7 +27659,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 380
+X: 381
 T: One Day We Walked Along The Sand
 B: songs
 M:4/4
@@ -27689,7 +27722,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 381
+X: 382
 T: Skyline Pigeon
 C:Elton John, Bernie Taupin
 B: songs
@@ -27752,7 +27785,7 @@ W: Source: LyricFind   - Songwriters: Bernie Taupin / Elton John - Skyline Pigeo
 % abcbook-repeats 1
 
 
-X: 382
+X: 383
 T: Play Me Backwards
 C:Joan Baez
 B: songs
@@ -27880,7 +27913,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 383
+X: 384
 T: Strange Rivers
 C:Joan Baez
 B: songs
@@ -27944,7 +27977,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 384
+X: 385
 T: Old Man
 C:Neil Young
 B: songs
@@ -28012,7 +28045,7 @@ W: I'm a lot like you were.
 % abcbook-repeats 1
 
 
-X: 385
+X: 386
 T: ON THE WIRE
 C:KEV CARMODY
 B: songs
@@ -28069,7 +28102,7 @@ W: Their basis had no rhyme or no reason
 % abcbook-repeats 1
 
 
-X: 386
+X: 387
 T: Lovesong
 C:The Cure
 B: songs
@@ -28129,7 +28162,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 387
+X: 388
 T: Satin Doll
 C:Mercer/Ellington/Strayhorn
 B: songs
@@ -28180,7 +28213,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 388
+X: 389
 T: Moonlight in Vermont
 B: songs
 M:4/4
@@ -28224,7 +28257,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 389
+X: 390
 T: Take Me Back
 C:Sarah Jarosz
 B: songs
@@ -28279,7 +28312,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 390
+X: 391
 T: Good Year For The Roses
 C:Elvis Costello
 B: songs
@@ -28347,7 +28380,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 391
+X: 392
 T: God Bless The Child
 B: songs
 M:4/4
@@ -28402,7 +28435,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 392
+X: 393
 T: I’ve Seen That Movie Too
 C:Elton John
 B: songs
@@ -28514,7 +28547,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 393
+X: 394
 T: Walking The Dog
 C:(Thomas)
 B: songs
@@ -28578,7 +28611,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 394
+X: 395
 T: Let's Get Lost
 B: songs
 M:4/4
@@ -28625,7 +28658,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 395
+X: 396
 T: Bye Bye Blackbird
 C:(Henderson-Dixson)
 B: songs
@@ -28671,7 +28704,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 396
+X: 397
 T: If It Hadn't Been For Love
 C:The Steeldrivers - Chris Stapleton / Michael James Henderson
 B: songs
@@ -28732,7 +28765,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 397
+X: 398
 T: I’ll  Go Crazy
 C:Chuck Brown
 B: songs
@@ -28791,7 +28824,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 398
+X: 399
 T: Chicago Lyrics
 C:Sufjan Stevens
 B: songs
@@ -28890,7 +28923,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 399
+X: 400
 T: Take The A Train
 C:Duke Ellington
 B: songs
@@ -28928,7 +28961,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 400
+X: 401
 T: Angry Young man
 B: songs
 M:4/4
@@ -28967,7 +29000,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 401
+X: 402
 T: The Lonely Goatherd
 B: songs
 M:4/4
@@ -29074,7 +29107,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 402
+X: 403
 T: I'm So Excited
 C:The Pointer Sisters
 B: songs
@@ -29144,7 +29177,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 403
+X: 404
 T: VENNESANG
 B: songs
 M:4/4
@@ -29307,7 +29340,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 404
+X: 405
 T: BILLY JEAN
 C:MICHAEL JACKSON
 B: songs
@@ -29388,7 +29421,7 @@ W: Billie Jean is not my lover
 % abcbook-repeats 1
 
 
-X: 405
+X: 406
 T: INVITATION.
 C:(Kaper / Webster)
 B: songs
@@ -29431,7 +29464,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 406
+X: 407
 T: Rivers Of Babylon
 C:Brent Dowe and Trevor McNaughton
 B: songs
@@ -29493,7 +29526,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 407
+X: 408
 T: On The Sunny Side Of The Street
 B: songs
 M:4/4
@@ -29546,7 +29579,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 408
+X: 409
 B: songs
 Q: 1/4=100
 V:1 
@@ -29564,7 +29597,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 409
+X: 410
 T: Alexandra
 C:Laura Marling
 B: songs
@@ -29633,7 +29666,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 410
+X: 411
 T: It ain’t the way you treat me
 B: songs
 M:4/4
@@ -29686,7 +29719,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 411
+X: 412
 T: Lulu
 B: songs
 M:4/4
@@ -29739,7 +29772,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 412
+X: 413
 T: The Lady Is A Tramp
 B: songs
 M:4/4
@@ -29788,7 +29821,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 413
+X: 414
 T: The Lovecats
 C:The Cure
 B: songs
@@ -29857,7 +29890,7 @@ W: Source: Musixmatch , Songwriters: Smith Robert James,  The Lovecats lyrics (C
 % abcbook-repeats 1
 
 
-X: 414
+X: 415
 T: Absence Of Fear"
 B: songs
 M:4/4
@@ -29940,7 +29973,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 415
+X: 416
 T: Down By The Water
 C:Abigail Lapell
 B: songs
@@ -29993,7 +30026,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 416
+X: 417
 T: Eight Days a Week
 C:The Beatles
 B: songs
@@ -30061,7 +30094,7 @@ W: Eight days a week
 % abcbook-repeats 1
 
 
-X: 417
+X: 418
 T: It Doesn't Matter Any More
 B: songs
 M:4/4
@@ -30118,7 +30151,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 418
+X: 419
 T: The Traveling Kind
 C:Rodney Crowell, Emmylou Harris
 B: songs
@@ -30169,7 +30202,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 419
+X: 420
 T: Come Down In Time
 C:- Taupin/John
 B: songs
@@ -30352,7 +30385,7 @@ W: stars in the night.
 % abcbook-repeats 1
 
 
-X: 420
+X: 421
 T: The Masochism Tango
 C:Tom Lehrer
 B: songs
@@ -30459,7 +30492,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 421
+X: 422
 T: Not Cause I Wanted To
 C:Bonnie Raitt
 B: songs
@@ -30539,7 +30572,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 422
+X: 423
 T: Love Song
 C:Elton John
 B: songs
@@ -30597,7 +30630,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 423
+X: 424
 T: IT’S NOT THE SPOTLIGHT
 B: songs
 M:4/4
@@ -30672,7 +30705,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 424
+X: 425
 T: Skinny Love"
 C:Bon Iver
 B: songs
@@ -30758,7 +30791,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 425
+X: 426
 T: Late Night Suite
 B: songs
 M:4/4
@@ -30815,7 +30848,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 426
+X: 427
 T: Knowing me, knowing you
 C:ABBA
 B: songs
@@ -31000,7 +31033,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 427
+X: 428
 T: Saturday Morning on Sunday Street
 C:Jayhawks
 B: songs
@@ -31066,7 +31099,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 428
+X: 429
 T: Till There Was You
 C:Beatles
 B: songs
@@ -31121,7 +31154,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 429
+X: 430
 T: There Comes A Time
 C:Neil Young
 B: songs
@@ -31176,7 +31209,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 430
+X: 431
 T: Breathless
 C:Nick Cave and The Bad Seeds
 B: songs
@@ -31253,7 +31286,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 431
+X: 432
 T: Hang Me Oh Hang
 C:Dave Van Ronk
 B: songs
@@ -31353,7 +31386,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 432
+X: 433
 T: Right in Time
 C:Lucinda Williams
 B: songs
@@ -31412,7 +31445,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 433
+X: 434
 T: Joy Spring
 B: songs
 M:4/4
@@ -31477,7 +31510,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 434
+X: 435
 T: Sleep of the Just
 C:Elvis Costello
 B: songs
@@ -31562,7 +31595,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 435
+X: 436
 T: I remember you
 B: songs
 M:4/4
@@ -31621,7 +31654,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 436
+X: 437
 B: songs
 Q: 1/4=100
 V:1 
@@ -31639,7 +31672,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 437
+X: 438
 T: Woodstock
 B: songs
 M:4/4
@@ -31742,7 +31775,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 438
+X: 439
 T: Comes Love
 B: songs
 M:4/4
@@ -31795,7 +31828,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 439
+X: 440
 T: Au Privave
 B: songs
 M:4/4
@@ -31882,7 +31915,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 440
+X: 441
 T: Talk It Out
 C:Hanne Boel
 B: songs
@@ -31963,7 +31996,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 441
+X: 442
 T: To Know Him Is To Love Him
 C:Songwriters: SPECTOR, PHIL
 B: songs
@@ -32035,7 +32068,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 442
+X: 443
 T: Once in a Very Blue Moon
 C:Nanci Griffith
 B: songs
@@ -32089,7 +32122,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 443
+X: 444
 T: THAT OLD FEELING
 B: songs
 M:4/4
@@ -32118,7 +32151,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 444
+X: 445
 T: River
 C:Bill Staines
 B: songs
@@ -32225,7 +32258,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 445
+X: 446
 T: Dear, I fear we're facing a problem
 B: songs
 M:4/4
@@ -32313,7 +32346,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 446
+X: 447
 T: Hey There
 B: songs
 M:4/4
@@ -32370,7 +32403,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 447
+X: 448
 T: Cry Me A River
 B: songs
 M:4/4
@@ -32431,7 +32464,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 448
+X: 449
 T: I Can't Get Last Night Out Of My Head
 C:Didirri
 B: songs
@@ -32487,7 +32520,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 449
+X: 450
 T: And A Smile
 B: songs
 M:4/4
@@ -32551,7 +32584,7 @@ W: REPEAT CHORUS
 % abcbook-repeats 1
 
 
-X: 450
+X: 451
 T: La La Blues
 C:Pokey Lafarge
 B: songs
@@ -32616,7 +32649,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 451
+X: 452
 T: The Sound of Music
 B: songs
 M:4/4
@@ -32655,7 +32688,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 452
+X: 453
 T: Used To Rule The World
 C:Bonnie Raitt
 B: songs
@@ -32759,7 +32792,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 453
+X: 454
 T: Let's Fall In Love
 B: songs
 M:4/4
@@ -32842,7 +32875,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 454
+X: 455
 T: The Way You Look Tonight
 B: songs
 M:4/4
@@ -32913,7 +32946,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 455
+X: 456
 T: Black Roses
 B: songs
 M:4/4
@@ -33072,7 +33105,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 456
+X: 457
 T: Grey Matter
 C:Jewel
 B: songs
@@ -33190,7 +33223,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 457
+X: 458
 T: No Frontiers
 C:Mary Black
 B: songs
@@ -33263,7 +33296,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 458
+X: 459
 T: Hallelulah
 C:Haim
 B: songs
@@ -33323,7 +33356,7 @@ W: Songwriters: Danielle Sari Haim / Este Arielle Haim / Alana Mychal Haim / Tob
 % abcbook-repeats 1
 
 
-X: 459
+X: 460
 T: You Don't Know What Love Is
 B: songs
 M:4/4
@@ -33376,7 +33409,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 460
+X: 461
 B: songs
 Q: 1/4=100
 V:1 
@@ -33394,7 +33427,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 461
+X: 462
 T: Life on Mars
 B: songs
 M:4/4
@@ -33495,7 +33528,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 462
+X: 463
 T: You Are My Home
 C:Amanda Shires
 B: songs
@@ -33550,7 +33583,7 @@ W: Am  -  G  -  Em  -  Dm - Am
 % abcbook-repeats 1
 
 
-X: 463
+X: 464
 T: Lullaby Of Birdland
 B: songs
 M:4/4
@@ -33603,7 +33636,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 464
+X: 465
 T: Cry (if you want to)
 C:Holly Cole
 B: songs
@@ -33716,7 +33749,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 465
+X: 466
 T: Trouble in the Fields
 C:Nanci Griffith
 B: songs
@@ -33771,7 +33804,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 466
+X: 467
 T: I thought about you
 C:Jimmy van heusen / johnny mercer
 B: songs
@@ -33819,7 +33852,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 467
+X: 468
 T: Whisper Not
 C:Benny Golson
 B: songs
@@ -33875,7 +33908,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 468
+X: 469
 T: Studying Stones
 C:Ani Di Franco
 B: songs
@@ -33941,7 +33974,7 @@ W: i think i'm gonna explode
 % abcbook-repeats 1
 
 
-X: 469
+X: 470
 T: Time after Time
 B: songs
 M:4/4
@@ -33982,7 +34015,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 470
+X: 471
 T: No Reply
 C:The Beatles
 B: songs
@@ -34056,7 +34089,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 471
+X: 472
 T: I Am Calling You
 B: songs
 M:4/4
@@ -34097,7 +34130,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 472
+X: 473
 T: Magdalene Laundries
 C:Joni Mitchell
 B: songs
@@ -34207,7 +34240,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 473
+X: 474
 T: Wild Wood
 C:Paul Weller
 B: songs
@@ -34281,7 +34314,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 474
+X: 475
 T: Sweet Home Alabama
 C:Lynyrd Skynyrd
 B: songs
@@ -34602,7 +34635,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 475
+X: 476
 T: Brilliant Mistake
 C:Elvis Costello
 B: songs
@@ -34723,7 +34756,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 476
+X: 477
 T: Kansas City
 C:Beatles
 B: songs
@@ -34838,7 +34871,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 477
+X: 478
 T: Angel From Montgomery
 C:John Prine
 B: songs
@@ -34890,7 +34923,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 478
+X: 479
 T: School Night
 C:Ani Difranco
 B: songs
@@ -35033,7 +35066,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 479
+X: 480
 T: Castlesw Made Of Sand
 C:TUCK & PATTI
 B: songs
@@ -35114,7 +35147,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 480
+X: 481
 T: The Lee Shore
 C:David Crosby
 B: songs
@@ -35170,7 +35203,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 481
+X: 482
 T: If I Needed Someone
 C:The Beatles  -  George Harrison
 B: songs
@@ -35219,7 +35252,7 @@ W: If I needed someone
 % abcbook-repeats 1
 
 
-X: 482
+X: 483
 T: GET OUT OF THIS HOUSE
 C:Shawn Colvin
 B: songs
@@ -35307,7 +35340,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 483
+X: 484
 T: Triste
 B: songs
 M:4/4
@@ -35350,7 +35383,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 484
+X: 485
 T: Everyday I write The Book
 C:Elvis Costello
 B: songs
@@ -35422,7 +35455,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 485
+X: 486
 T: Baby can you teach me - how to
 B: songs
 M:4/4
@@ -35511,7 +35544,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 486
+X: 487
 T: Aquarius
 B: songs
 M:4/4
@@ -36262,7 +36295,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 487
+X: 488
 T: Frank Mills
 C:From Hair - Galt McDermot 1968
 B: songs
@@ -36313,7 +36346,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 488
+X: 489
 T: A Rock 'n Roll Fantasy
 C:The Kinks
 B: songs
@@ -36375,7 +36408,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 489
+X: 490
 T: Aragunu
 C:Dave Anderson
 B: songs
@@ -36436,7 +36469,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 490
+X: 491
 T: White Lies
 C:MAX FROST
 B: songs
@@ -36560,7 +36593,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 491
+X: 492
 T: Reckless
 C:James Reyne
 B: songs
@@ -36625,7 +36658,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 492
+X: 493
 T: Love You Til Tuesday
 C:David Bowie
 B: songs
@@ -36677,7 +36710,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 493
+X: 494
 T: Hallelulah
 C:Leonard Cohen
 B: songs
@@ -36745,7 +36778,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 494
+X: 495
 T: Those memories of you still haunt me
 C:Allan O’Bryant
 B: songs
@@ -36809,7 +36842,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 495
+X: 496
 T: Out of Wardrobe
 B: songs
 M:4/4
@@ -36907,7 +36940,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 496
+X: 497
 T: Aint Misbehavin
 B: songs
 M:4/4
@@ -36974,7 +37007,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 497
+X: 498
 T: Fire In The Hole
 C:Songwriters: Becker Walter Carl / Fagen Donald Jay
 B: songs
@@ -37027,7 +37060,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 498
+X: 499
 T: It Ain't Yours To Throw Away
 B: songs
 M:4/4
@@ -37096,7 +37129,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 499
+X: 500
 T: Metal Fire Cracker
 C:Lucinda Williams
 B: songs
@@ -37278,7 +37311,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 500
+X: 501
 T: Lake Charles
 C:Lucinda Williams
 B: songs
@@ -37408,7 +37441,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 501
+X: 502
 T: Greenville
 C:Lucinda Williams
 B: songs
@@ -37478,7 +37511,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 502
+X: 503
 T: Jackson
 C:Lucinda Williams
 B: songs
@@ -37550,7 +37583,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 503
+X: 504
 T: The Whole Point Of No Return
 C:Style Council
 B: songs
@@ -37714,7 +37747,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 504
+X: 505
 T: Cricket
 B: songs
 M:4/4
@@ -37785,7 +37818,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 505
+X: 506
 T: Creeque Alley
 C:The Mamas & The Papas
 B: songs
@@ -37900,7 +37933,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 506
+X: 507
 T: Walk The Line
 C:Johnny Cash
 B: songs
@@ -37954,7 +37987,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 507
+X: 508
 T: My Sweet Lord
 C:George Harrison
 B: songs
@@ -38021,7 +38054,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 508
+X: 509
 T: Silly Love Songs
 C:Paul McCartney
 B: songs
@@ -38096,7 +38129,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 509
+X: 510
 T: Otto Titsling
 B: songs
 M:4/4
@@ -38239,7 +38272,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 510
+X: 511
 T: One Way Ticket Out Of My Door
 B: songs
 M:4/4
@@ -38313,7 +38346,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 511
+X: 512
 T: Cumberland Gap
 C:David Rawlings
 B: songs
@@ -38386,7 +38419,7 @@ W: Songwriters: David Todd Rawlings / Gillian Howard Welch, Cumberland Gap lyric
 % abcbook-repeats 1
 
 
-X: 512
+X: 513
 T: Hell To Pay
 C:Bonnie Raitt
 B: songs
@@ -38468,7 +38501,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 513
+X: 514
 T: 32 Flavours
 C:Ani Di Franco
 B: songs
@@ -38571,7 +38604,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 514
+X: 515
 B: songs
 Q: 1/4=100
 V:1 
@@ -38589,7 +38622,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 515
+X: 516
 T: Drowning In The Sea Of Love
 B: songs
 M:4/4
@@ -38692,7 +38725,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 516
+X: 517
 T: Make You Feel My Love
 C:Adele
 B: songs
@@ -38748,7 +38781,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 517
+X: 518
 T: Just For Two
 B: songs
 M:4/4
@@ -38845,7 +38878,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 518
+X: 519
 T: Når Solen Går Ned
 B: songs
 M:4/4
@@ -38889,7 +38922,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 519
+X: 520
 T: SLOW RIDE
 C:BONNIE RAITT
 B: songs
@@ -38959,7 +38992,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 520
+X: 521
 T: Pergolesi –STABAT MATER
 B: songs
 M:4/4
@@ -39006,7 +39039,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 521
+X: 522
 T: Gratitude
 C:Ani DiFranco
 B: songs
@@ -39079,7 +39112,7 @@ W: Gratitude lyrics (C) BMG Rights Management US, LLC
 % abcbook-repeats 1
 
 
-X: 522
+X: 523
 T: Charm School
 C:Elvis Costello
 B: songs
@@ -39187,7 +39220,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 523
+X: 524
 T: Tango Till They’re Sore
 B: songs
 M:4/4
@@ -39277,7 +39310,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 524
+X: 525
 T: Mambo Italiano
 C:Rosemary Clooney
 B: songs
@@ -39367,7 +39400,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 525
+X: 526
 T: There Will Never Be Another You
 B: songs
 M:4/4
@@ -39408,7 +39441,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 526
+X: 527
 T: Changing of the Guards
 C:Bob Dylan
 B: songs
@@ -39487,7 +39520,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 527
+X: 528
 T: True Colors
 C:Cyndi Lauper
 B: songs
@@ -39576,7 +39609,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 528
+X: 529
 T: Song: Something To Talk About
 C:Bonnie Raitt
 B: songs
@@ -39664,7 +39697,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 529
+X: 530
 T: Blue Valentine (1978)
 C:Tom Waits
 B: songs
@@ -39774,7 +39807,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 530
+X: 531
 T: Moses
 C:Patti Griffin
 B: songs
@@ -39835,7 +39868,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 531
+X: 532
 T: Stolen moments...
 B: songs
 M:4/4
@@ -39956,7 +39989,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 532
+X: 533
 T: Jersey Girl
 C:Bruce Springsteen, E Street Band
 B: songs
@@ -40026,7 +40059,7 @@ W: Source: LyricFind   Songwriters: Tom Waits. Jersey Girl lyrics (C) BMG Rights
 % abcbook-repeats 1
 
 
-X: 533
+X: 534
 T: Teach Your Children
 B: songs
 M:4/4
@@ -40089,7 +40122,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 534
+X: 535
 T: I'm Only Sleeping
 C:(Lennon/McCartney)
 B: songs
@@ -40177,7 +40210,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 535
+X: 536
 T: North, South, East and West
 C:The Church
 B: songs
@@ -40228,7 +40261,7 @@ W: North...............South................East.................West
 % abcbook-repeats 1
 
 
-X: 536
+X: 537
 T: Right Down the Line
 C:Gerry Rafferty
 B: songs
@@ -40297,7 +40330,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 537
+X: 538
 T: Hearts a Mess
 C:Gotye
 B: songs
@@ -40374,7 +40407,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 538
+X: 539
 T: Your Love Keeps Lifting Me Higher
 C:Jackie Wilson
 B: songs
@@ -40491,7 +40524,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 539
+X: 540
 T: All or nothing at all
 B: songs
 M:4/4
@@ -40544,7 +40577,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 540
+X: 541
 T: Try to Make a Fire Burn Again
 C:Dawn Landes
 B: songs
@@ -40598,7 +40631,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 541
+X: 542
 T: Black Eyes
 C:Jayhawks Mark Olson & Gary Louris
 B: songs
@@ -40659,7 +40692,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 542
+X: 543
 T: Det er ikke det du siger
 B: songs
 M:4/4
@@ -40720,7 +40753,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 543
+X: 544
 T: In A Sentimental Mood
 B: songs
 M:4/4
@@ -40773,7 +40806,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 544
+X: 545
 T: Sorry Seems To Be The Hardest Word
 B: songs
 M:4/4
@@ -40836,7 +40869,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 545
+X: 546
 T: I Wished On The Moon
 C:Dorothy Parker / Ralph Rainger
 B: songs
@@ -40884,7 +40917,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 546
+X: 547
 T: I'm on Fire
 C:Bruce Springsteen, E Street Band
 B: songs
@@ -40936,7 +40969,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 547
+X: 548
 T: There Are Worse Things I Could Do
 B: songs
 M:4/4
@@ -40986,7 +41019,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 548
+X: 549
 T: Forever Young
 C:Bob
 B: songs
@@ -41073,7 +41106,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 549
+X: 550
 T: Mary Had a Little Lamb
 C:Stevie Ray Vaughan
 B: songs
@@ -41121,7 +41154,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 550
+X: 551
 T: This Ole House
 B: songs
 M:4/4
@@ -41221,7 +41254,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 551
+X: 552
 T: Blue Mountains
 C:Peter Doran
 B: songs
@@ -41271,7 +41304,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 552
+X: 553
 T: Serendipitous Collectors
 C:Charlotte Lyngbye
 B: songs
@@ -41326,7 +41359,7 @@ W: That builds up in my life and takes my freedom away
 % abcbook-repeats 1
 
 
-X: 553
+X: 554
 T: Trigger
 C:Charlotte Lyngbye
 B: songs
@@ -41388,7 +41421,7 @@ W: Over Hollywood town
 % abcbook-repeats 1
 
 
-X: 554
+X: 555
 T: Lovesong To Dad & My Avan
 C:Charlotte Lyngbye
 B: songs
@@ -41443,7 +41476,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 555
+X: 556
 T: Stumble over a Toad
 C:Charlotte Lyngbye
 B: songs
@@ -41493,7 +41526,7 @@ W: I'll be dancing and reaching for the skies
 % abcbook-repeats 1
 
 
-X: 556
+X: 557
 T: City NOT Really
 C:Charlotte Lyngbye
 B: songs
@@ -41562,7 +41595,7 @@ W: Not spend the rest of my days just faking
 % abcbook-repeats 1
 
 
-X: 557
+X: 558
 T: Auntie  -  I'm all yours
 C:Charlotte Lyngbye
 B: songs
@@ -41628,7 +41661,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 558
+X: 559
 T: Shade
 C:Charlotte Lyngbye
 B: songs
@@ -41698,7 +41731,7 @@ W: Em /   bm/     am  c  d/ / /
 % abcbook-repeats 1
 
 
-X: 559
+X: 560
 T: Trip
 C:Charlotte Lyngbye
 B: songs
@@ -41745,7 +41778,7 @@ W: My lover friend and brother now that you're no longer mine
 % abcbook-repeats 1
 
 
-X: 560
+X: 561
 T: Acid
 C:Charlotte Lyngbye
 B: songs
@@ -41844,7 +41877,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 561
+X: 562
 T: Nocturnal
 C:Charlotte Lyngbye
 B: songs
@@ -41903,7 +41936,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 562
+X: 563
 T: This Charming Man/Ransom
 C:Charlotte Lyngbye
 B: songs
@@ -41956,7 +41989,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 563
+X: 564
 T: Meanwhile
 C:Charlotte Lyngbye
 B: songs
@@ -42028,7 +42061,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 564
+X: 565
 T: Noise
 C:Charlotte Lyngbye
 B: songs
@@ -42093,7 +42126,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 565
+X: 566
 T: Clockwork
 C:Charlotte Lyngbye
 B: songs
@@ -42162,7 +42195,7 @@ W: CHORUS:
 % abcbook-repeats 1
 
 
-X: 566
+X: 567
 T: Telltale
 C:Charlotte Lyngbye
 B: songs
@@ -42237,7 +42270,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 567
+X: 568
 T: What You Owe
 C:Charlotte Lyngbye
 B: songs
@@ -42312,7 +42345,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 568
+X: 569
 T: High on the Headland Poetry Festival
 B: songs
 M:4/4
@@ -42532,7 +42565,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 569
+X: 570
 T: Cast Iron Man
 C:Charlotte Lyngbye
 B: songs
@@ -42618,7 +42651,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 570
+X: 571
 T: What Will The Future Bring
 C:Charlotte Lyngbye
 B: songs
@@ -42671,7 +42704,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 571
+X: 572
 T: Goodbye
 C:Charlotte Lyngbye
 B: songs
@@ -42713,7 +42746,7 @@ W: Till I am strong enough to face what I must face
 % abcbook-repeats 1
 
 
-X: 572
+X: 573
 T: The Banjo Whisperer
 C:Charlotte Lyngbye
 B: songs
@@ -42761,7 +42794,7 @@ W: I must have a hole in my head
 % abcbook-repeats 1
 
 
-X: 573
+X: 574
 T: Shame
 C:Charlotte Lyngbye
 B: songs
@@ -42829,7 +42862,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 574
+X: 575
 T: Waiting for Christina
 C:Charlotte Lyngbye
 B: songs
@@ -42893,7 +42926,7 @@ W: This one's for you
 % abcbook-repeats 1
 
 
-X: 575
+X: 576
 T: Tension
 C:Charlotte Lyngbye
 B: songs
@@ -42969,7 +43002,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 576
+X: 577
 T: Duck Dinner
 C:Charlotte Lyngbye
 B: songs
@@ -43030,7 +43063,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 577
+X: 578
 T: In The Water
 C:Charlotte Lyngbye
 B: songs
@@ -43106,7 +43139,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 578
+X: 579
 T: Hey It's Birthday Time
 C:Charlotte Lyngbye
 B: songs
@@ -43345,7 +43378,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 579
+X: 580
 T: Go Jo Do
 C:Charlotte Lyngbye
 B: songs
@@ -43415,7 +43448,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 580
+X: 581
 T: Empty
 C:Charlotte Lyngbye
 B: songs
@@ -43478,7 +43511,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 581
+X: 582
 T: The Numerella Moon
 C:Charlotte Lyngbye
 B: songs
@@ -43554,7 +43587,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 582
+X: 583
 T: The Tudor Court Hotel
 C:Charlotte Lyngbye
 B: songs
@@ -43633,7 +43666,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 583
+X: 584
 T: Incredibly Crepuscular Creature
 C:Charlotte Lyngbye
 B: songs
@@ -43679,7 +43712,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 584
+X: 585
 T: Happy Hour
 C:Charlotte Lyngbye
 B: songs
@@ -43759,7 +43792,7 @@ W: These pretzels are making me thirsty
 % abcbook-repeats 1
 
 
-X: 585
+X: 586
 T: Frantic Frenzy (Frankly Charlotte)
 C:Charlotte Lyngbye
 B: songs
@@ -43827,13 +43860,13 @@ W: It's the cross that I must bear
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694236441621
+% abcbook-lastupdated 1695290046587
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 586
+X: 587
 T: Sinister
 C:Charlotte Lyngbye
 B: songs
@@ -43900,7 +43933,7 @@ W: # instr
 % abcbook-repeats 1
 
 
-X: 587
+X: 588
 T: Everything Has To Be Goat Blues
 C:Charlotte Lyngbye
 B: songs
@@ -43952,20 +43985,20 @@ W: This year it's GOAT but however it comes I just can't feel the passion
 W: 
 % abcbook-tune_id 634b4f87439d1395be2faa29
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/everything has to be goat blues.mp3
+% abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/everything%20has%20to%20be%20goat%20blues.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694066571879
+% abcbook-lastupdated 1695289898703
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 588
+X: 589
 T: Money
 C:Charlotte Lyngbye
 B: songs
@@ -44020,7 +44053,7 @@ W: On your road to consumer hell
 % abcbook-repeats 1
 
 
-X: 589
+X: 590
 T: Get out
 C:Charlotte Lyngbye
 B: songs
@@ -44083,7 +44116,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 590
+X: 591
 T: Demanding
 C:Charlotte Lyngbye
 B: songs
@@ -44151,7 +44184,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 591
+X: 592
 T: Frank Mills Again
 C:Charlotte Lyngbye
 B: songs
@@ -44205,7 +44238,7 @@ W: I love him  -  Let him never set me free
 % abcbook-repeats 1
 
 
-X: 592
+X: 593
 T: Swimming
 C:Charlotte Lyngbye
 B: songs
@@ -44245,7 +44278,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 593
+X: 594
 T: Primitive
 C:Charlotte Lyngbye
 B: songs
@@ -44317,7 +44350,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 594
+X: 595
 T: Call Me Up
 C:Charlotte Lyngbye
 B: songs
@@ -44373,7 +44406,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 595
+X: 596
 T: Fugitive
 C:Charlotte Lyngbye
 B: songs
@@ -44446,13 +44479,13 @@ W:
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694690684992
+% abcbook-lastupdated 1695290007856
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 596
+X: 597
 T: Grudge
 C:Charlotte Lyngbye
 B: songs
@@ -44537,7 +44570,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 597
+X: 598
 T: Underground
 C:Charlotte Lyngbye
 B: songs
@@ -44609,7 +44642,7 @@ W: I'm not going underground
 % abcbook-repeats 1
 
 
-X: 598
+X: 599
 T: I Cancelled My Subscription
 C:Charlotte Lyngbye
 B: songs
@@ -44697,7 +44730,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 599
+X: 600
 T: VENEER
 C:Charlotte Lyngbye
 B: songs
@@ -44748,7 +44781,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 600
+X: 601
 T: Tendon
 C:Charlotte Lyngbye
 B: songs
@@ -44806,7 +44839,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 601
+X: 602
 T: Time
 C:Charlotte Lyngbye
 B: songs
@@ -44871,7 +44904,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 602
+X: 603
 T: The Whistler (Drift)
 C:Charlotte Lyngbye
 B: songs
@@ -44932,7 +44965,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 603
+X: 604
 T: Concrete
 C:Charlotte Lyngbye
 B: songs
@@ -45001,7 +45034,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 604
+X: 605
 T: The Meaning of Leif
 C:Charlotte Lyngbye
 B: songs
@@ -45078,7 +45111,7 @@ W: And I know he is watching from heaven above
 % abcbook-repeats 1
 
 
-X: 605
+X: 606
 T: Cemetary Polka
 C:Tom Waits
 B: songs
@@ -45133,7 +45166,7 @@ W: He plays accordion for Mr. Weiss
 % abcbook-repeats 1
 
 
-X: 606
+X: 607
 T: I Hope That I Don't Fall In Love With You
 C:Tom Waits
 B: songs
@@ -45183,7 +45216,7 @@ W: And I think that I just fell in love with you
 % abcbook-repeats 1
 
 
-X: 607
+X: 608
 T: Water In The Ground
 C:Catherine MacLellan
 B: songs
@@ -45247,7 +45280,7 @@ W: Water from the heavens pouring in the ground
 % abcbook-repeats 2
 
 
-X: 608
+X: 609
 T: Rogues in a Nation
 B: songs
 B: traditional songs
@@ -45313,7 +45346,7 @@ W: in a na- tion
 % Text Has notes text
 % Has_accompaniment_chords No chords
 
-X: 609
+X: 610
 T: Wayfaring Stranger
 C:Steve Ryan
 B: songs
@@ -45382,7 +45415,7 @@ W:
 % abcbook-repeats 3
 
 
-X: 610
+X: 611
 T: I Will
 C:The Beatles
 B: songs
@@ -45426,7 +45459,7 @@ W: I will
 % abcbook-repeats 1
 
 
-X: 611
+X: 612
 T: Soft Rain
 C:Saul Roche
 B: songs
@@ -45470,7 +45503,7 @@ W: where Atlantic washes o'er stone walls
 % abcbook-repeats 1
 
 
-X: 612
+X: 613
 T: I'll Shine When It Shines
 C:The Ozark Mountain Daredevils
 B: songs
@@ -45536,7 +45569,7 @@ W: Yes, I'm just a good ol' boy that's learned to wait
 % abcbook-repeats 1
 
 
-X: 613
+X: 614
 T: I Am An Old Cow Hand
 C:Johny Mercer
 B: songs
@@ -45599,7 +45632,7 @@ W: Yippie yi yo kayah, oh
 % abcbook-repeats 1
 
 
-X: 614
+X: 615
 T: Standing On The Rock
 C:The Ozark Mountain Daredevils
 B: songs
@@ -45639,7 +45672,7 @@ W: I been standin' on the rock, waitin' for my seeds to grow
 % abcbook-repeats 1
 
 
-X: 615
+X: 616
 T: Caledonia
 C:Dougie MacLean
 B: songs
@@ -45718,7 +45751,7 @@ W: I've ever had
 % abcbook-repeats 1
 
 
-X: 616
+X: 617
 T: Alabama Rain
 C:Jim Croce
 B: songs
@@ -45773,7 +45806,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 617
+X: 618
 T: Song For Ireland
 C:Phil Colclough
 B: songs
@@ -45829,7 +45862,7 @@ W: I stood by your Atlantic sea and I sang a song for Ireland
 % abcbook-repeats 1
 
 
-X: 618
+X: 619
 T: Crawdad Song
 C:Glenn Williams
 B: songs
@@ -45886,7 +45919,7 @@ W: Honey, Baby mine
 % abcbook-repeats 1
 
 
-X: 619
+X: 620
 T: Compadres In The Old Sierra Madre
 C:Woody Paul
 B: songs
@@ -45950,7 +45983,7 @@ W: He'll find compadres in the old Sierra Madre
 % abcbook-repeats 1
 
 
-X: 620
+X: 621
 T: Dream a Little Dream Of Me
 B: songs
 Q: 1/4=100
@@ -46001,7 +46034,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 621
+X: 622
 T: Last Letter Home
 C:Amazing Rhythm Aces
 B: songs
@@ -46042,7 +46075,7 @@ W: And I cried not revenge I called your name
 % abcbook-repeats 1
 
 
-X: 622
+X: 623
 T: It Couldn't Be Better
 C:The Ozark Mountain Daredevils
 B: songs
@@ -46088,7 +46121,7 @@ W: Than it is right now
 % abcbook-repeats 1
 
 
-X: 623
+X: 624
 T: Hey Good Lookin'
 C:Hank Williams
 B: songs
@@ -46137,7 +46170,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 624
+X: 625
 T: All I Want
 C:Joni Mitchell
 B: songs
@@ -46202,7 +46235,7 @@ W: I wanna make you feel free
 % abcbook-repeats 1
 
 
-X: 625
+X: 626
 T: Love Like A Rock
 C:Rory Mcloud
 B: songs
@@ -46261,7 +46294,7 @@ W: Well now, ow
 % abcbook-repeats 1
 
 
-X: 626
+X: 627
 T: Grandma's Grave
 C:Rory Mcleod
 B: songs
@@ -46295,7 +46328,7 @@ W: That's why when grandma went, everyone cried.
 % abcbook-repeats 1
 
 
-X: 627
+X: 628
 T: Tea Martoonies
 C:Rory Mcleod
 B: songs
@@ -46400,7 +46433,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 628
+X: 629
 T: I Can't Get Over You
 C:Buddy Miller
 B: songs
@@ -46442,7 +46475,7 @@ W: I just can't get over you
 % abcbook-repeats 1
 
 
-X: 629
+X: 630
 T: Go Away From My Window
 C:Joan Baez
 B: songs
@@ -46485,7 +46518,7 @@ W: And bother me no more
 % abcbook-repeats 1
 
 
-X: 630
+X: 631
 T: Stairway To Heaven
 C:Led Zeppelin
 B: songs
@@ -46743,7 +46776,7 @@ W: And she's buying a stairway to Heaven
 % abcbook-repeats 1
 
 
-X: 631
+X: 632
 T: Seven Years
 C:Lucas Graham
 B: songs
@@ -46831,7 +46864,7 @@ W: Once I was seven years old
 % abcbook-repeats 1
 
 
-X: 632
+X: 633
 T: Fair And Tender Ladies
 B: songs
 B: traditional songs
@@ -46877,7 +46910,7 @@ W: And fades away like morning dew
 % abcbook-repeats 1
 
 
-X: 633
+X: 634
 T: 30 Foot Trailer
 C:Ewan MacColl
 B: songs
@@ -46937,7 +46970,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 634
+X: 635
 T: 500 Miles
 C:The Proclaimers
 B: songs
@@ -47026,7 +47059,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 635
+X: 636
 T: A Kiss in the Morning Early
 C:Traditional
 B: songs
@@ -47100,7 +47133,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 636
+X: 637
 T: A Wife in Every Port
 C:Old Blind Dogs
 B: songs
@@ -47172,7 +47205,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 637
+X: 638
 T: Across The Great Divide
 C:Nanci Griffith
 B: songs
@@ -47235,7 +47268,7 @@ W: (Repeat first chorus x 2)
 % abcbook-repeats 1
 
 
-X: 638
+X: 639
 T: After Hours
 C:The Battlefield Band
 B: songs
@@ -47288,7 +47321,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 639
+X: 640
 T: All of Me
 C:Frank Sinatra
 B: songs
@@ -47320,7 +47353,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 640
+X: 641
 T: Like An Old Fashioned Waltz
 C:Sandy Denny
 B: songs
@@ -47373,7 +47406,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 641
+X: 642
 T: Any Old Time
 C:Maria Maldaur
 B: songs
@@ -47426,7 +47459,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 642
+X: 643
 T: Arms of an Angel
 C:Sarah McLachlan
 B: songs
@@ -47480,7 +47513,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 643
+X: 644
 T: Auld Lang Syne
 C:Robert Burns
 B: songs
@@ -47546,7 +47579,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 644
+X: 645
 T: Baby of Mine
 C:Alison Krauss
 B: songs
@@ -47603,7 +47636,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 645
+X: 646
 T: Bad Moon Rising
 C:Credence Clearwater Revival
 B: songs
@@ -47646,7 +47679,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 646
+X: 647
 T: Big Big Love
 C:Wynn Stewart
 B: songs
@@ -47689,7 +47722,7 @@ W: Can't you tell my love's a growin'
 % abcbook-repeats 1
 
 
-X: 647
+X: 648
 T: Big Yellow Taxi
 C:Joni Mitchell
 B: songs
@@ -47758,7 +47791,7 @@ W: And put up a parking lot
 % abcbook-repeats 1
 
 
-X: 648
+X: 649
 T: Blue Moon
 C:Richard Rodgers and Lorenz Hart
 B: songs
@@ -47808,7 +47841,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 649
+X: 650
 T: Blue Skies
 C:Irving Berlin
 B: songs
@@ -47846,7 +47879,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 650
+X: 651
 T: Blue Suede Shoes
 C:Elvis Presley
 B: songs
@@ -47887,7 +47920,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 651
+X: 652
 T: Boogie Woogie Bugle Boy
 C:The Andrews Sisters
 B: songs
@@ -47965,7 +47998,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 652
+X: 653
 T: Boston and St John's
 C:Great Big Sea
 B: songs
@@ -48021,7 +48054,7 @@ W: Love me anyway, love me anyway, no no oh
 % abcbook-repeats 1
 
 
-X: 653
+X: 654
 T: Broken Wings
 C:Cherish The Ladies
 B: songs
@@ -48072,7 +48105,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 654
+X: 655
 T: Bye Bye Love
 C:Everly Brothers
 B: songs
@@ -48114,7 +48147,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 655
+X: 656
 T: Calico Pie
 C:Natalie Merchant
 B: songs
@@ -48168,7 +48201,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 656
+X: 657
 T: Chattanooga Choo Choo
 C:Glenn Miller Orchestra
 B: songs
@@ -48233,7 +48266,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 657
+X: 658
 T: Can You Run
 C:Steel Drivers
 B: songs
@@ -48306,7 +48339,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 658
+X: 659
 T: Carrickfergus
 C:Traditional
 B: songs
@@ -48356,7 +48389,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 659
+X: 660
 T: Charlie Is My Darling
 C:Traditional
 B: songs
@@ -48413,7 +48446,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 660
+X: 661
 T: Cold Blows The Wind
 C:Ween
 B: songs
@@ -48470,7 +48503,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 661
+X: 662
 T: Cold Cold Heart
 C:Norah Jones
 B: songs
@@ -48525,7 +48558,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 662
+X: 663
 T: Come Thou Fount
 C:Robert Robinson
 B: songs
@@ -48609,7 +48642,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 663
+X: 664
 T: Consequence Free
 C:Great Big Sea
 B: songs
@@ -48660,7 +48693,7 @@ W: {c: Chorus}
 % abcbook-repeats 1
 
 
-X: 664
+X: 665
 T: Cooler At The Edge
 C:Grada
 B: songs
@@ -48712,7 +48745,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 665
+X: 666
 T: Cornbread and Butterbeans
 C:Carolina Chocolate Drops
 B: songs
@@ -48768,7 +48801,7 @@ W: Chorus
 % abcbook-repeats 1
 
 
-X: 666
+X: 667
 T: Crazy
 C:Patsy Cline
 B: songs
@@ -48804,7 +48837,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 667
+X: 668
 T: Dancing Cheek To Cheek
 C:Fred Astaire
 B: songs
@@ -48867,7 +48900,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 668
+X: 669
 T: Destitution Road
 C:Brian McNeil
 B: songs
@@ -48931,7 +48964,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 669
+X: 670
 T: Dimming Of The Day
 C:Richard Thompson
 B: songs
@@ -48980,7 +49013,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 670
+X: 671
 T: Don't Know Why
 C:Norah Jones
 B: songs
@@ -49035,7 +49068,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 671
+X: 672
 T: Don't Bring Lulu
 C:The Andrews Sisters
 B: songs
@@ -49092,7 +49125,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 672
+X: 673
 T: Down On The Corner
 C:John C Fogerty
 B: songs
@@ -49135,7 +49168,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 673
+X: 674
 T: Perfect
 C:Eddi Reader
 B: songs
@@ -49184,7 +49217,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 674
+X: 675
 T: Fever
 C:Eddie Cooley
 B: songs
@@ -49274,7 +49307,7 @@ W: But what a lovely way to burn
 % abcbook-repeats 1
 
 
-X: 675
+X: 676
 T: When I Was A Fair Maid
 C:Traditional
 B: songs
@@ -49341,7 +49374,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 676
+X: 677
 T: False False Fly
 C:Jane Siberry
 B: songs
@@ -49411,7 +49444,7 @@ W: Said the lovely little child on the road
 % abcbook-repeats 1
 
 
-X: 677
+X: 678
 T: Fairytale of New York
 C:The Pogues
 B: songs
@@ -49513,7 +49546,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 678
+X: 679
 T: Fields of Gold
 C:Sting
 B: songs
@@ -49570,7 +49603,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 679
+X: 680
 T: Flower of Scotland
 C:Roy Williamson
 B: songs
@@ -49636,7 +49669,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 680
+X: 681
 T: Full Moon Full Of Love
 C:KD Lang
 B: songs
@@ -49691,7 +49724,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 681
+X: 682
 T: Galileo
 C:Indigo Girls
 B: songs
@@ -49766,7 +49799,7 @@ W: How long
 % abcbook-repeats 1
 
 
-X: 682
+X: 683
 T: Game of All Fours
 C:Kate Rusby
 B: songs
@@ -49829,7 +49862,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 683
+X: 684
 T: Get Along Stray Dog
 C:Steve Martin and Eddie Birckell
 B: songs
@@ -49889,7 +49922,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 684
+X: 685
 T: Going North
 C:Missy Higgins
 B: songs
@@ -49935,7 +49968,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 685
+X: 686
 T: Grace
 C:The Dubliners and Jim McCann
 B: songs
@@ -50001,7 +50034,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 686
+X: 687
 T: Great Mining Disaster
 C:Bee Gees
 B: songs
@@ -50046,7 +50079,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 687
+X: 688
 T: Gulf Coast Highway
 C:Nanci Griffith
 B: songs
@@ -50102,7 +50135,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 688
+X: 689
 T: Hang Me
 C:Oscar Isaac – Inside Llewellyn Davis
 B: songs
@@ -50156,7 +50189,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 689
+X: 690
 T: Heartache Boulevard
 C:Eilen Jewell
 B: songs
@@ -50214,7 +50247,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 690
+X: 691
 T: High Germany
 C:Martin Carthy
 B: songs
@@ -50267,7 +50300,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 691
+X: 692
 T: I Can't Make You Love Me
 C:Bonnie Raitt
 B: songs
@@ -50322,7 +50355,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 692
+X: 693
 T: I Wish My Love Was A Red Red Rose
 C:Traditional
 B: songs
@@ -50375,7 +50408,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 693
+X: 694
 T: I Will
 C:The Beatles
 B: songs
@@ -50421,7 +50454,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 694
+X: 695
 T: I Am A Country Girl
 C:Carolina Chocolate Drops
 B: songs
@@ -50485,7 +50518,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 695
+X: 696
 T: I Hear You Breathing In
 C:Eleanor McEvoy
 B: songs
@@ -50544,7 +50577,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 696
+X: 697
 T: I'll Take You Home Aagain, Kathleen
 C:Thomas P. Westendorf
 B: songs
@@ -50599,7 +50632,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 697
+X: 698
 T: I'm Gonna Be
 C:The Proclaimers
 B: songs
@@ -50683,7 +50716,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 698
+X: 699
 T: I've Just Seen A Face
 C:The Beatles
 B: songs
@@ -50759,7 +50792,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 699
+X: 700
 T: I've Come A Long Way
 C:Michelle Shocked
 B: songs
@@ -50826,7 +50859,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 700
+X: 701
 T: If I Ever Leave This World Alive
 C:Flogging Molly
 B: songs
@@ -50887,7 +50920,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 701
+X: 702
 T: Inky Sky
 C:Merrilyn Simmons
 B: songs
@@ -50936,7 +50969,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 702
+X: 703
 T: The Irish Pub
 C:The High Kings
 B: songs
@@ -51010,7 +51043,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 703
+X: 704
 T: Is The Blue Moon Still Shining
 C:Bill Monroe
 B: songs
@@ -51056,7 +51089,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 704
+X: 705
 T: It's Only A Paper Moon
 C:Ella Fitzgerald
 B: songs
@@ -51108,7 +51141,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 705
+X: 706
 T: I’m a Believer
 C:The Monkees
 B: songs
@@ -51139,7 +51172,7 @@ W: {c: CHORUS}
 % abcbook-repeats 1
 
 
-X: 706
+X: 707
 T: Jolene
 C:Dolly Parton
 B: songs
@@ -51203,7 +51236,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 707
+X: 708
 T: Jolly Ploughboys
 C:Kate Rusby
 B: songs
@@ -51271,7 +51304,7 @@ W: (Repeat x 3)
 % abcbook-repeats 1
 
 
-X: 708
+X: 709
 T: Just Once In A Very Blue Moon
 C:Nanci Griffith
 B: songs
@@ -51326,7 +51359,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 709
+X: 710
 T: Kilkelly
 C:Peter Jones
 B: songs
@@ -51456,7 +51489,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 710
+X: 711
 T: Keep It Clean
 C:Charley Jordan
 B: songs
@@ -51533,7 +51566,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 711
+X: 712
 T: Loving Hannah
 C:Mary Black
 B: songs
@@ -51600,7 +51633,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 712
+X: 713
 T: Leaboy’s Lassie
 C:Mary Black
 B: songs
@@ -51657,7 +51690,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 713
+X: 714
 T: Leezie Lindsay
 C:The Furies
 B: songs
@@ -51700,7 +51733,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 714
+X: 715
 T: A Little Bit Lonesome
 C:Casey Chambers
 B: songs
@@ -51751,7 +51784,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 715
+X: 716
 T: Love Has Come for You
 C:Steve Marin and Edie Brickell
 B: songs
@@ -51789,7 +51822,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 716
+X: 717
 T: Luck In My Eyes
 C:KD Lang
 B: songs
@@ -51849,7 +51882,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 717
+X: 718
 T: The Lucky one
 C:Alison Krauss
 B: songs
@@ -51904,7 +51937,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 718
+X: 719
 T: Misty
 C:Ella Fitzgerald
 B: songs
@@ -51949,7 +51982,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 719
+X: 720
 T: Maids When You're Young
 C:The Corries
 B: songs
@@ -52003,7 +52036,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 720
+X: 721
 T: Massachusetts
 C:The Bee Gees
 B: songs
@@ -52040,7 +52073,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 721
+X: 722
 T: Memories Of East Texas
 C:Michelle Shocked
 B: songs
@@ -52160,7 +52193,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 722
+X: 723
 T: Merry Go Round
 C:Solas
 B: songs
@@ -52247,7 +52280,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 723
+X: 724
 T: The Midnight Special
 C:Huddie Ledbetter
 B: songs
@@ -52305,7 +52338,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 724
+X: 725
 T: Moonlight Shadow
 C:Mike Oldfield
 B: songs
@@ -52372,7 +52405,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 725
+X: 726
 T: Ramblin Boy
 C:Tom Paxton
 B: songs
@@ -52435,7 +52468,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 726
+X: 727
 T: I Will
 C:The Beatles
 B: songs
@@ -52473,7 +52506,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 727
+X: 728
 T: My Grandfathers House
 C:Simone Olding
 B: songs
@@ -52532,7 +52565,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 728
+X: 729
 T: My Old Kentucky Home
 C:Stephen Foster
 B: songs
@@ -52598,7 +52631,7 @@ W: Chorus
 % abcbook-repeats 1
 
 
-X: 729
+X: 730
 T: My Baby Just Cares For Me
 C:Nina Simone
 B: songs
@@ -52649,7 +52682,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 730
+X: 731
 T: My Love Is Like a Red Red Rose
 C:Traditional
 B: songs
@@ -52704,7 +52737,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 731
+X: 732
 T: The Singing Bird
 C:Traditional
 B: songs
@@ -52744,7 +52777,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 732
+X: 733
 T: Never Tire Of The Road
 C:Andy Irvine
 B: songs
@@ -52804,7 +52837,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 733
+X: 734
 T: Nobody Sees a Fish Cry
 C:Simone Olding
 B: songs
@@ -52858,7 +52891,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 734
+X: 735
 T: One True Place
 C:Neil Murray
 B: songs
@@ -52919,7 +52952,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 735
+X: 736
 T: Pastures of Plenty
 C:Woody Guthrie
 B: songs
@@ -52964,7 +52997,7 @@ W: Cause my pastures of plenty must always be free
 % abcbook-repeats 1
 
 
-X: 736
+X: 737
 T: Pills of White Mercury
 C:Old Blind Dogs
 B: songs
@@ -53026,7 +53059,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 737
+X: 738
 T: Police Dog Blues
 C:Blind Blake
 B: songs
@@ -53078,7 +53111,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 738
+X: 739
 T: Pretty Peg
 C:Bothy Band
 B: songs
@@ -53157,7 +53190,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 739
+X: 740
 T: Queen Jane
 C:Oscar Isaac – Inside Llewellyn Davis
 B: songs
@@ -53206,7 +53239,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 740
+X: 741
 T: Red Haired Mary
 C:Traditional
 B: songs
@@ -53311,7 +53344,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 741
+X: 742
 T: Reilly’s Daughter
 C:Traditional
 B: songs
@@ -53382,7 +53415,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 742
+X: 743
 T: River
 C:Susan McLeown (Grada)
 B: songs
@@ -53429,7 +53462,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 743
+X: 744
 T: Roger the Miller
 C:Karan Casey
 B: songs
@@ -53499,7 +53532,7 @@ W: To court with a young maid, to court with a young maid and not the gray mare
 % abcbook-repeats 1
 
 
-X: 744
+X: 745
 T: Roll In My Sweet Babies Arms
 C:Earl Scruggs
 B: songs
@@ -53575,7 +53608,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 745
+X: 746
 T: Somewhere Over The Rainbow
 C:Judy Garland
 B: songs
@@ -53624,7 +53657,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 746
+X: 747
 T: Sailing to Philadelphia
 C:Mark Knopfler and James Taylor
 B: songs
@@ -53695,7 +53728,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 747
+X: 748
 T: Sally Gardens
 C:William Butler Yeats
 B: songs
@@ -53735,7 +53768,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 748
+X: 749
 T: Sands o the shore
 C:Traditional
 B: songs
@@ -53794,7 +53827,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 749
+X: 750
 T: Sarah Jane And The Iron Mountain
 C:Edie Brickell and Steve Martin
 B: songs
@@ -53835,7 +53868,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 750
+X: 751
 T: Siamese Cat
 C:Steve Martin and Eddie Birckell
 B: songs
@@ -53888,7 +53921,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 751
+X: 752
 T: Something To Talk About
 C:Bonnie Raitt
 B: songs
@@ -53944,7 +53977,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 752
+X: 753
 T: Step it Out Mary
 C:The High Kings
 B: songs
@@ -54017,7 +54050,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 753
+X: 754
 T: Streets of London
 C:Ralph McTell
 B: songs
@@ -54137,7 +54170,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 754
+X: 755
 T: Summertime
 C:George Gershwin
 B: songs
@@ -54174,7 +54207,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 755
+X: 756
 T: Swing Low
 C:Traditional
 B: songs
@@ -54218,7 +54251,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 756
+X: 757
 T: Time After TIme
 C:Cyndi Lauper
 B: songs
@@ -54261,7 +54294,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 757
+X: 758
 T: Talk To Me While I'm Listening
 C:Nanci Griffith
 B: songs
@@ -54310,7 +54343,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 758
+X: 759
 T: Tell Me She Didn’t
 C:Steve Marin and Edie Brickell
 B: songs
@@ -54344,7 +54377,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 759
+X: 760
 T: Ten Degrees And Getting Colder
 C:Gordon Lightfoot
 B: songs
@@ -54392,7 +54425,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 760
+X: 761
 T: The Connemara Cradle Song
 C:Tommy Makem
 B: songs
@@ -54438,7 +54471,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 761
+X: 762
 T: The Duke and the Tinker
 C:Kate Rusby
 B: songs
@@ -54500,7 +54533,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 762
+X: 763
 T: The Hills of Greenmore
 C:Traditional
 B: songs
@@ -54553,7 +54586,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 763
+X: 764
 T: The Irish Washerwoman
 C:Traditional
 B: songs
@@ -54601,7 +54634,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 764
+X: 765
 T: The Rigs of Rye
 C:Niamh Parsons
 B: songs
@@ -54659,7 +54692,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 765
+X: 766
 T: The Town I Loved So Well
 C:Phil Coulter
 B: songs
@@ -54726,7 +54759,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 766
+X: 767
 T: The Wild Rover
 C:The Dubliners
 B: songs
@@ -54822,7 +54855,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 767
+X: 768
 T: The Bonnie Lass Of Fyvie
 C:The Corries
 B: songs
@@ -54888,7 +54921,7 @@ W: And to ride when your captain he is ready-o
 % abcbook-repeats 1
 
 
-X: 768
+X: 769
 T: The Jolly Beggar
 C:Traditional
 B: songs
@@ -54956,7 +54989,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 769
+X: 770
 T: The Kings Shilling
 C:Karen Casey
 B: songs
@@ -55011,7 +55044,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 770
+X: 771
 T: This Shirt
 C:Mary Chapin Carpenter
 B: songs
@@ -55102,7 +55135,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 771
+X: 772
 T: Trouble In The Fields
 C:Nanci Griffith
 B: songs
@@ -55170,7 +55203,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 772
+X: 773
 T: Tuck Away My Lonesome Blues
 C:Jimmie Rodgers
 B: songs
@@ -55203,7 +55236,7 @@ W: I really need someone...
 % abcbook-repeats 1
 
 
-X: 773
+X: 774
 T: Down At The Twist and Shout
 C:Mary Chapin Carpenter
 B: songs
@@ -55287,7 +55320,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 774
+X: 775
 T: Underneath the Stars
 C:Kate Rusby
 B: songs
@@ -55338,7 +55371,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 775
+X: 776
 T: Unforgettable
 C:Irving Gordon
 B: songs
@@ -55388,7 +55421,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 776
+X: 777
 T: Union Station
 B: songs
 Q: 1/4=100
@@ -55430,7 +55463,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 777
+X: 778
 T: Wagon Wheel
 C:Old Crow Medicine Show
 B: songs
@@ -55524,7 +55557,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 778
+X: 779
 T: Walking after Midnight
 C:Patsy Cline
 B: songs
@@ -55592,7 +55625,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 779
+X: 780
 T: Western Highway
 C:Muireann Nic Amhlaoibh
 B: songs
@@ -55670,7 +55703,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 780
+X: 781
 T: What A Wonderful World
 C:Louis Armstrong
 B: songs
@@ -55713,7 +55746,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 781
+X: 782
 T: When Irish eyes are smiling
 C:Bing Crosby
 B: songs
@@ -55774,7 +55807,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 782
+X: 783
 T: When You Get To Asheville
 C:Steve Marin and Edie Brickell
 B: songs
@@ -55806,7 +55839,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 783
+X: 784
 T: Who Will Watch The Home Place
 C:Kate Long
 B: songs
@@ -55873,7 +55906,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 784
+X: 785
 T: Why Don’t you Do Right
 C:Benny Goodman
 B: songs
@@ -55918,7 +55951,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 785
+X: 786
 T: Why Walk When You Can Fly
 C:Mary Chapin Carpenter
 B: songs
@@ -55968,7 +56001,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 786
+X: 787
 T: Wild Mountain Side
 C:Eddi Reader
 B: songs
@@ -56026,7 +56059,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 787
+X: 788
 T: Willie Stewart
 C:Eddi Reader
 B: songs
@@ -56076,7 +56109,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 788
+X: 789
 T: The Maid that Sold Her Barley
 C:Traditional
 B: songs
@@ -56136,7 +56169,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 789
+X: 790
 T: You've Been A Friend Of Mine
 C:Steve Marin and Edie Brickell
 B: songs
@@ -56184,7 +56217,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 790
+X: 791
 T: I Courted A Wee Girl
 C:Traditional
 B: songs
@@ -56240,7 +56273,7 @@ W: Since love was the cause of my ruin.
 % abcbook-repeats 1
 
 
-X: 791
+X: 792
 T: It Don't Mean A Thing
 C:Duke Ellington
 B: songs
@@ -56297,7 +56330,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 792
+X: 793
 T: Pretty Peggy-o
 C:Traditional
 B: songs
@@ -56356,7 +56389,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 793
+X: 794
 T: Rockabye Dixie
 C:Walter John Stapleton and  Abby Washburn
 B: songs
@@ -56389,7 +56422,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 794
+X: 795
 T: The Old Boreen
 C:Foster and Alan
 B: songs
@@ -56452,7 +56485,7 @@ W: Whispering to Kate Muldoon
 % abcbook-repeats 1
 
 
-X: 795
+X: 796
 T: The Wee Lass On The Brae
 C:Jim MacFarland
 B: songs
@@ -56511,7 +56544,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 796
+X: 797
 T: Three days
 B: songs
 Q: 1/4=100
@@ -56532,7 +56565,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 797
+X: 798
 T: When I Grow Up
 C:Michelle Shocked
 B: songs
@@ -56583,7 +56616,7 @@ W: When I grow up I want to be an oooooold...
 % abcbook-repeats 1
 
 
-X: 798
+X: 799
 T: The Water Is Wide
 B: songs
 B: traditional songs
@@ -56646,7 +56679,7 @@ W: Then will my love return to me
 % abcbook-repeats 1
 
 
-X: 799
+X: 800
 T: Somebody That I Used To Know
 C:Gotye
 B: songs
@@ -56812,7 +56845,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 800
+X: 801
 T: 1000 Beautiful Things
 C:Annie Lennox
 B: songs
@@ -56878,7 +56911,7 @@ W: That's all I have to say
 % abcbook-repeats 1
 
 
-X: 801
+X: 802
 T: Across The Great Divide
 C:Kate Woolfe
 B: songs
@@ -56943,7 +56976,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 802
+X: 803
 T: After The Goldrush
 C:Neil Young
 B: songs
@@ -57004,7 +57037,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 803
+X: 804
 T: No One Knows My Name
 C:Gillian Welch
 B: songs
@@ -57058,7 +57091,7 @@ W: Ain't one soul in the whole world knows my name
 % abcbook-repeats 1
 
 
-X: 804
+X: 805
 T: All Along The Watch Tower
 C:Bob Dylan
 B: songs
@@ -57109,7 +57142,7 @@ W: The wind began to howl
 % abcbook-repeats 1
 
 
-X: 805
+X: 806
 T: All I Wanna Do
 B: songs
 Q: 1/4=100
@@ -57158,7 +57191,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 806
+X: 807
 T: A' Soalin'
 C:Peter, Paul And Mary
 B: songs
@@ -57220,7 +57253,7 @@ W: Oh tidings of comfort and joy.
 % abcbook-repeats 1
 
 
-X: 807
+X: 808
 T: Autumn Leaves
 C:Frank Sinatra
 B: songs
@@ -57272,7 +57305,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 808
+X: 809
 T: Bar Room Girls
 C:Gillian Welch
 B: songs
@@ -57312,7 +57345,7 @@ W: Are the bright morning stars of the barroom girls
 % abcbook-repeats 1
 
 
-X: 809
+X: 810
 T: Be Careful What You Pray For
 C:Paul Kelly
 B: songs
@@ -57386,7 +57419,7 @@ W: Be careful what you pray for
 % abcbook-repeats 1
 
 
-X: 810
+X: 811
 T: Because
 B: songs
 Q: 1/4=100
@@ -57405,7 +57438,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 811
+X: 812
 T: First We Take Manhattan
 C:Leonard Cohen
 B: songs
@@ -57467,7 +57500,7 @@ W: First we take Manhattan, then we take Berlin
 % abcbook-repeats 1
 
 
-X: 812
+X: 813
 T: Big Yellow Taxi
 C:Joni Mitchell
 B: songs
@@ -57534,7 +57567,7 @@ W: And put up a parking lot
 % abcbook-repeats 1
 
 
-X: 813
+X: 814
 T: Blackberry Blossom
 C:Norman Blake
 B: songs
@@ -57591,7 +57624,7 @@ W: Over the blackberry blossom and the blackberry bush
 %%MIDI transpose -5
 
 
-X: 814
+X: 815
 T: Blind Willy McTell
 C:Bob Dylan
 B: songs
@@ -57652,7 +57685,7 @@ W: Like Blind Willie McTell
 % abcbook-repeats 1
 
 
-X: 815
+X: 816
 T: Blowing In The Wind
 C:Bob Dylan
 B: songs
@@ -57700,7 +57733,7 @@ W: The answer is blowin’ in the wind
 % abcbook-repeats 1
 
 
-X: 816
+X: 817
 T: Blue And Lonesome
 C:Alison Kraus
 B: songs
@@ -57743,7 +57776,7 @@ W: I'm blue, and I'm lonesome, too.
 % abcbook-repeats 1
 
 
-X: 817
+X: 818
 T: Both Sides Now
 C:Joni Mitchell
 B: songs
@@ -57816,7 +57849,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 818
+X: 819
 T: Brain Damage/Eclipse
 C:Pink Floyd
 B: songs
@@ -57893,7 +57926,7 @@ W: "There is no dark side in the moon really. Matter of fact, it's all dark."
 % abcbook-repeats 1
 
 
-X: 819
+X: 820
 T: Brave Bold Woman
 B: songs
 Q: 1/4=100
@@ -57912,7 +57945,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 820
+X: 821
 T: Breaths
 C:Sweet Honey In the Rock
 B: songs
@@ -57959,7 +57992,7 @@ W: CHORUS
 % abcbook-repeats 1
 
 
-X: 821
+X: 822
 T: Burning Times
 C:Christy Moore
 B: songs
@@ -58016,7 +58049,7 @@ W: ISIS-ASTARTE-DIANA-HECATI-DEMETER-KALI-INNANNA.
 % abcbook-repeats 1
 
 
-X: 822
+X: 823
 T: California Dreaming
 C:The Mamas And the Papas
 B: songs
@@ -58067,7 +58100,7 @@ W: On such a winter's day
 % abcbook-repeats 1
 
 
-X: 823
+X: 824
 T: Can't Fake It
 C:Brooke Marshall
 B: songs
@@ -58087,7 +58120,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 824
+X: 825
 T: Can't Find My Way Home
 C:Steve Winwood
 B: songs
@@ -58129,7 +58162,7 @@ W: But I can't find my way home.
 % abcbook-repeats 1
 
 
-X: 825
+X: 826
 T: Can't Let Go
 C:Lucinda Williams
 B: songs
@@ -58215,7 +58248,7 @@ W: Well it's over - I know it - but I can't let go
 % abcbook-repeats 1
 
 
-X: 826
+X: 827
 T: Catch The Wind
 C:Donovan
 B: songs
@@ -58257,7 +58290,7 @@ W: Ah, but I may as well try and catch the wind
 % abcbook-repeats 1
 
 
-X: 827
+X: 828
 T: Cest La Vie
 C:Chuck Berry
 B: songs
@@ -58321,7 +58354,7 @@ W: It goes to show you never can tell
 % abcbook-repeats 1
 
 
-X: 828
+X: 829
 T: Chan Chan
 B: songs
 B: working
@@ -58394,7 +58427,7 @@ W:
 %%MIDI transpose 9
 
 
-X: 829
+X: 830
 T: Changing Woman
 B: songs
 Q: 1/4=100
@@ -58413,7 +58446,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 830
+X: 831
 T: Chanson De Mardi Gras
 B: songs
 Q: 1/4=100
@@ -58434,7 +58467,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 831
+X: 832
 T: Codeine Arms
 C:Eilen Jewell
 B: songs
@@ -58486,7 +58519,7 @@ W: Save me, save me, codeine arms
 % abcbook-repeats 1
 
 
-X: 832
+X: 833
 T: Copper Kettle
 C:Joni Mitchell
 B: songs
@@ -58546,7 +58579,7 @@ W: In the pale moonlight
 % abcbook-repeats 1
 
 
-X: 833
+X: 834
 T: Cotton
 B: songs
 Q: 1/4=100
@@ -58565,7 +58598,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 834
+X: 835
 T: Gracias
 C:Joan Baez
 B: songs
@@ -58634,7 +58667,7 @@ W: Gracias a la vida que me ha dado tanto.
 % abcbook-repeats 1
 
 
-X: 835
+X: 836
 T: Crazy
 C:Willy Nelson
 B: songs
@@ -58683,7 +58716,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 836
+X: 837
 T: Creepin' In
 C:Norah Jones
 B: songs
@@ -58744,7 +58777,7 @@ W: Sneaking in
 % abcbook-repeats 1
 
 
-X: 837
+X: 838
 T: Crescent City
 C:Lucinda Williams
 B: songs
@@ -58813,7 +58846,7 @@ W: (Cajun Instrumental until end)
 % abcbook-repeats 1
 
 
-X: 838
+X: 839
 T: Cruel Sister
 C:Pentangle
 B: songs
@@ -58960,7 +58993,7 @@ W: Fa, la-la-la, la, la-la, la, la-la
 % abcbook-repeats 1
 
 
-X: 839
+X: 840
 T: Cry Me A River
 C:Ella Fitzgerald
 B: songs
@@ -59022,7 +59055,7 @@ W: How I cried a river over you
 % abcbook-repeats 1
 
 
-X: 840
+X: 841
 T: Cry My Darlin
 C:Neil Marray
 B: songs
@@ -59044,7 +59077,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 841
+X: 842
 T: Dead In The Water
 B: songs
 Q: 1/4=100
@@ -59063,7 +59096,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 842
+X: 843
 T: Dear Someone
 C:Gillian Welch
 B: songs
@@ -59105,7 +59138,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 843
+X: 844
 T: Desperado
 C:The Eagles
 B: songs
@@ -59172,7 +59205,7 @@ W: Before it's too late
 % abcbook-repeats 1
 
 
-X: 844
+X: 845
 T: Different
 B: songs
 Q: 1/4=100
@@ -59191,7 +59224,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 845
+X: 846
 T: Don't Change A Thing
 C:INXS
 B: songs
@@ -59254,7 +59287,7 @@ W: Don't change
 % abcbook-repeats 1
 
 
-X: 846
+X: 847
 T: Don't Fence Me In
 C:Cole Porter
 B: songs
@@ -59327,7 +59360,7 @@ W: No, Papa, don't you fence me in
 % abcbook-repeats 1
 
 
-X: 847
+X: 848
 T: Don't Know Why
 B: songs
 Q: 1/4=100
@@ -59346,7 +59379,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 848
+X: 849
 T: Don't Let Your Heart
 C:Alison Moyet
 B: songs
@@ -59406,7 +59439,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 849
+X: 850
 T: Dusty Boxcar
 B: songs
 Q: 1/4=100
@@ -59425,7 +59458,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 850
+X: 851
 T: Evangeline
 C:The Band
 B: songs
@@ -59478,7 +59511,7 @@ W: That pulled her man away
 % abcbook-repeats 1
 
 
-X: 851
+X: 852
 T: Everything Is Free
 C:Gillian Welch
 B: songs
@@ -59548,7 +59581,7 @@ W: Even if it doesn't pay
 % abcbook-repeats 1
 
 
-X: 852
+X: 853
 T: Everywhere
 C:Fleetwood Mac
 B: songs
@@ -59628,7 +59661,7 @@ W: (I wanna be with you everywhere...)
 % abcbook-repeats 1
 
 
-X: 853
+X: 854
 T: Falling Back To You
 B: songs
 Q: 1/4=100
@@ -59647,7 +59680,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 854
+X: 855
 T: Fare Thee Well
 C:Marcus Mumford and Oscar Isaac
 B: songs
@@ -59696,7 +59729,7 @@ W: Fare thee well, oh honey, fare thee well
 %%MIDI transpose 7
 
 
-X: 855
+X: 856
 T: Feeling Good
 C:Nina Simone
 B: songs
@@ -59768,7 +59801,7 @@ W: I'm feeling good!
 % abcbook-repeats 1
 
 
-X: 856
+X: 857
 T: Fishbowl
 B: songs
 Q: 1/4=100
@@ -59787,7 +59820,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 857
+X: 858
 T: Flying Away From You
 B: songs
 Q: 1/4=100
@@ -59806,7 +59839,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 858
+X: 859
 T: Flyin' Shoes
 C:Townes Van Zandt
 B: songs
@@ -59857,7 +59890,7 @@ W: Till I'll be tying on my flying shoes
 % abcbook-repeats 1
 
 
-X: 859
+X: 860
 T: Fruits Of My Labor
 C:Lucinda Williams
 B: songs
@@ -59918,7 +59951,7 @@ W: Baby, sweet baby
 % abcbook-repeats 1
 
 
-X: 860
+X: 861
 T: When God Dips His Pen Of Love In My Heart
 C:Alison Kraus
 B: songs
@@ -59974,7 +60007,7 @@ W: When God dips His love in my heart
 % abcbook-repeats 1
 
 
-X: 861
+X: 862
 T: Going North
 C:Missy Higgins
 B: songs
@@ -60020,7 +60053,7 @@ W: Yeah I'm going north
 % abcbook-repeats 1
 
 
-X: 862
+X: 863
 T: You And Steve McQueen
 C:The Audreys
 B: songs
@@ -60066,7 +60099,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 863
+X: 864
 T: Go To Sleep You Little Baby
 C:Soggy Bottom Boys
 B: songs
@@ -60115,7 +60148,7 @@ W: And be my ever loving baby
 % abcbook-repeats 1
 
 
-X: 864
+X: 865
 T: Gravy
 B: songs
 Q: 1/4=100
@@ -60134,7 +60167,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 865
+X: 866
 T: Grey
 B: songs
 Q: 1/4=100
@@ -60153,7 +60186,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 866
+X: 867
 T: Hail Holy Queen
 C:Contractus Hermannus
 B: songs
@@ -60192,7 +60225,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 867
+X: 868
 T: Happy Together
 C:The Turtles
 B: songs
@@ -60272,7 +60305,7 @@ W: So happy together (Ba-ba-ba-ba ba-ba-ba-ba)
 % abcbook-repeats 1
 
 
-X: 868
+X: 869
 T: Harlem
 B: songs
 Q: 1/4=100
@@ -60291,7 +60324,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 869
+X: 870
 T: Havoc
 B: songs
 Q: 1/4=100
@@ -60310,7 +60343,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 870
+X: 871
 T: Heart Like A Wheel
 C:Linda Ronstadt
 B: songs
@@ -60347,7 +60380,7 @@ W: And my heart is on that ship out in mid-ocean
 % abcbook-repeats 1
 
 
-X: 871
+X: 872
 T: Heart's A Mess
 C:Gotye
 B: songs
@@ -60408,7 +60441,7 @@ W: So you can wait, but I don't wanna waste my love
 % abcbook-repeats 1
 
 
-X: 872
+X: 873
 T: Henry Martin
 C:Joan Baez
 B: songs
@@ -60491,7 +60524,7 @@ W: And all of her merry men drowned
 % abcbook-repeats 1
 
 
-X: 873
+X: 874
 T: Hit The Road Jack
 C:Ray Charles
 B: songs
@@ -60561,7 +60594,7 @@ W: What you're trying to do to me (Don'cha come back no more)
 % abcbook-repeats 1
 
 
-X: 874
+X: 875
 T: Honeysuckle Rose
 C:Ella Fitzgerald
 B: songs
@@ -60611,7 +60644,7 @@ W: Honeysuckle rose
 % abcbook-repeats 1
 
 
-X: 875
+X: 876
 T: Horse With No Name
 C:America
 B: songs
@@ -60698,7 +60731,7 @@ W: La, la, la lala la la la, la, la
 % abcbook-repeats 1
 
 
-X: 876
+X: 877
 T: How Blue Can You Get
 C:BB King
 B: songs
@@ -60746,7 +60779,7 @@ W: Baby, how blue can you get?
 % abcbook-repeats 1
 
 
-X: 877
+X: 878
 T: I Am A Little Beggar Man
 B: songs
 B: traditional songs
@@ -60810,7 +60843,7 @@ W: So good and God be with you, from auld Johnny Dhu
 % abcbook-repeats 1
 
 
-X: 878
+X: 879
 T: When I Was A Cowboy
 C:Leadbelly
 B: songs
@@ -60887,7 +60920,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 879
+X: 880
 T: Since You And I Were True
 C:Pauline Scanlon
 B: songs
@@ -60951,7 +60984,7 @@ W: Since you and I were true
 % abcbook-repeats 1
 
 
-X: 880
+X: 881
 T: You Know That I'm No Good
 C:Amy Winehouse
 B: songs
@@ -61024,7 +61057,7 @@ W: Yeah, you know that I'm no good
 % abcbook-repeats 1
 
 
-X: 881
+X: 882
 T: In My Time Of Dying
 C:Led Zeppelin
 B: songs
@@ -61131,7 +61164,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 882
+X: 883
 T: Insomnia Swing
 B: songs
 Q: 1/4=100
@@ -61150,7 +61183,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 883
+X: 884
 T: Internal Dialogue
 B: songs
 Q: 1/4=100
@@ -61169,7 +61202,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 884
+X: 885
 T: In The Big Rock Candy Mountains
 C:Harry McClintock
 B: songs
@@ -61254,7 +61287,7 @@ W: In the Big Rock Candy Mountains
 % abcbook-repeats 1
 
 
-X: 885
+X: 886
 T: In The End
 C:Eilen Jewell
 B: songs
@@ -61294,7 +61327,7 @@ W: Why did you go this way
 % abcbook-repeats 1
 
 
-X: 886
+X: 887
 T: In Your Darkened Room
 B: songs
 Q: 1/4=100
@@ -61313,7 +61346,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 887
+X: 888
 T: Irelands Green Shore
 C:Tim O'Brien
 B: songs
@@ -61365,7 +61398,7 @@ W: And I gently fell into a dream
 % abcbook-repeats 1
 
 
-X: 888
+X: 889
 T: I Scare Myself
 C:Rene Geyer
 B: songs
@@ -61422,7 +61455,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 889
+X: 890
 T: I See You
 B: songs
 Q: 1/4=100
@@ -61441,7 +61474,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 890
+X: 891
 T: Is That What You Heard
 B: songs
 Q: 1/4=100
@@ -61460,7 +61493,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 891
+X: 892
 T: I Still Cry
 B: songs
 Q: 1/4=100
@@ -61479,7 +61512,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 892
+X: 893
 T: It's Not Happening
 C:The Be Good Tanyas
 B: songs
@@ -61545,7 +61578,7 @@ W: It's not happening, oh, no, no
 % abcbook-repeats 1
 
 
-X: 893
+X: 894
 T: Dumb Things
 C:Paul Kelly
 B: songs
@@ -61597,7 +61630,7 @@ W: I've done all the dumb things
 % abcbook-repeats 1
 
 
-X: 894
+X: 895
 T: Java Jive
 C:The Manhatten Transfer
 B: songs
@@ -61659,7 +61692,7 @@ W: A cup, a cup, a cup, a cup, boy!
 % abcbook-repeats 1
 
 
-X: 895
+X: 896
 T: Jealous Of The Moon
 C:Nickel Creek
 B: songs
@@ -61739,7 +61772,7 @@ W: If you're too scared to try
 % abcbook-repeats 1
 
 
-X: 896
+X: 897
 T: Johnny Walkers Shoes
 C:Pilgram Brothers
 B: songs
@@ -61799,7 +61832,7 @@ W: How many furlongs can we step in Johnny walker's shoes
 % abcbook-repeats 1
 
 
-X: 897
+X: 898
 T: Jump Jim Crow
 C:Michelle Shocked
 B: songs
@@ -61851,7 +61884,7 @@ W: Zip-a-dee-doo-dah, zip-a-dee-aye
 % abcbook-repeats 1
 
 
-X: 898
+X: 899
 T: Junkie Song
 C:The Be Good Tanyas
 B: songs
@@ -61905,7 +61938,7 @@ W: I could easily be you
 % abcbook-repeats 1
 
 
-X: 899
+X: 900
 T: La Bamba
 C:Richie Valens
 B: songs
@@ -61973,7 +62006,7 @@ W: Bamba, bamba
 % abcbook-repeats 1
 
 
-X: 900
+X: 901
 T: Lakes Of Pontchatrain
 B: songs
 B: traditional songs
@@ -62073,7 +62106,7 @@ W: And the lakes of Pontchartrain.
 % abcbook-repeats 1
 
 
-X: 901
+X: 902
 T: Lately
 C:Lera Lynn
 B: songs
@@ -62121,7 +62154,7 @@ W: Where does love go when it goes?
 % abcbook-repeats 1
 
 
-X: 902
+X: 903
 T: Lay My Burden Down
 C:Alison Kraus
 B: songs
@@ -62164,7 +62197,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 903
+X: 904
 T: Lazy Sunday
 C:Small Faces
 B: songs
@@ -62221,7 +62254,7 @@ W: Close my eyes and drift away
 % abcbook-repeats 1
 
 
-X: 904
+X: 905
 T: Who Knows What Tomorrow May Bring
 C:Harry Hipkins
 B: songs
@@ -62278,7 +62311,7 @@ W: ‘Cause who knows what tomorrow may bring
 % abcbook-repeats 1
 
 
-X: 905
+X: 906
 T: Light Enough To Travel
 C:Geoff Berner
 B: songs
@@ -62298,7 +62331,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 906
+X: 907
 T: Lighthouse
 C:The Waifs
 B: songs
@@ -62360,7 +62393,7 @@ W: Shine a little lighthouse light on me
 % abcbook-repeats 1
 
 
-X: 907
+X: 908
 T: Little Bits And Pieces
 B: songs
 Q: 1/4=100
@@ -62379,7 +62412,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 908
+X: 909
 T: Little Kings
 C:Paul Kelly
 B: songs
@@ -62425,7 +62458,7 @@ W: Are getting away with murder
 % abcbook-repeats 1
 
 
-X: 909
+X: 910
 T: Littlest Birds
 C:The Be Good Tanyas
 B: songs
@@ -62496,7 +62529,7 @@ W: I'll do my lovin' in the wintertime
 % abcbook-repeats 1
 
 
-X: 910
+X: 911
 T: Living In A Fishbowl
 B: songs
 Q: 1/4=100
@@ -62515,7 +62548,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 911
+X: 912
 T: Lizard Klezmer
 C:Bhavit
 B: songs
@@ -62535,7 +62568,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 912
+X: 913
 T: Lonesome Blues
 C:The Be Good Tanyas
 B: songs
@@ -62585,7 +62618,7 @@ W: Left me these lonesome blues
 % abcbook-repeats 1
 
 
-X: 913
+X: 914
 T: Looks Like Mona Lisa
 C:Michelle Shocked
 B: songs
@@ -62640,7 +62673,7 @@ W: Just go away, just go away
 % abcbook-repeats 1
 
 
-X: 914
+X: 915
 T: Loop De Loop
 B: songs
 Q: 1/4=100
@@ -62659,7 +62692,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 915
+X: 916
 T: Lovecats
 C:The Cure
 B: songs
@@ -62734,7 +62767,7 @@ W: Someone as dumb as this?
 % abcbook-repeats 1
 
 
-X: 916
+X: 917
 T: Love Shack
 C:The B52's
 B: songs
@@ -62848,7 +62881,7 @@ W: At the Love Shack
 % abcbook-repeats 1
 
 
-X: 917
+X: 918
 T: Makin' Whoopee
 B: songs
 Q: 1/4=100
@@ -62867,7 +62900,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 918
+X: 919
 T: Miracle Of Love
 C:Eurythmics
 B: songs
@@ -62918,7 +62951,7 @@ W: [Chorus repeats...]
 % abcbook-repeats 1
 
 
-X: 919
+X: 920
 T: Miss Ohio
 C:Gillian Welch
 B: songs
@@ -62963,7 +62996,7 @@ W: Oh, I want do right, but not right now
 % abcbook-repeats 1
 
 
-X: 920
+X: 921
 T: Mixed Emotions
 C:Noel Whitten
 B: songs
@@ -62983,7 +63016,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 921
+X: 922
 T: More Pretty Girls Than One
 B: songs
 Q: 1/4=100
@@ -63018,7 +63051,7 @@ W: And hoping that I’ll never die
 % abcbook-repeats 1
 
 
-X: 922
+X: 923
 T: My Island Home
 C:Neil Murray
 B: songs
@@ -63105,7 +63138,7 @@ W: My island home
 % abcbook-repeats 1
 
 
-X: 923
+X: 924
 T: My Least Favorite Life
 C:Lera Lynn
 B: songs
@@ -63158,7 +63191,7 @@ W: [Outro]
 % abcbook-repeats 1
 
 
-X: 924
+X: 925
 T: Nobody Knows The Trouble I See
 C:Afro-American spiritual
 B: songs
@@ -63197,7 +63230,7 @@ W: [Refrain]
 % abcbook-repeats 1
 
 
-X: 925
+X: 926
 T: No More I Love You
 C:Annie Lennox
 B: songs
@@ -63290,7 +63323,7 @@ W: Outside the world
 % abcbook-repeats 1
 
 
-X: 926
+X: 927
 T: Ode To Billy Joe
 C:Bobbie Gentry
 B: songs
@@ -63348,7 +63381,7 @@ W: And drop them into the muddy water off the Tallahatchie Bridge
 % abcbook-repeats 1
 
 
-X: 927
+X: 928
 T: One Monkey
 C:Gillian Welch
 B: songs
@@ -63449,7 +63482,7 @@ W: So get on board
 % abcbook-repeats 1
 
 
-X: 928
+X: 929
 T: One More Cup Of Coffee
 B: songs
 Q: 1/4=100
@@ -63468,7 +63501,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 929
+X: 930
 T: Only In The Past
 C:The Be Good Tanyas
 B: songs
@@ -63514,7 +63547,7 @@ W: (Chorus)
 % abcbook-repeats 1
 
 
-X: 930
+X: 931
 T: Only You
 B: songs
 Q: 1/4=100
@@ -63533,7 +63566,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 931
+X: 932
 T: Orphan Girl
 C:Gillian Welch
 B: songs
@@ -63577,7 +63610,7 @@ W: I am an orphan girl
 % abcbook-repeats 1
 
 
-X: 932
+X: 933
 T: On Children
 C:Kahlil Gibran
 B: songs
@@ -63612,7 +63645,7 @@ W: For even as He loves the arrow that flies, so He loves also the bow that is s
 % abcbook-repeats 1
 
 
-X: 933
+X: 934
 T: Out On The Weekend
 C:Neil Young
 B: songs
@@ -63666,7 +63699,7 @@ W: Can't begin to say
 % abcbook-repeats 1
 
 
-X: 934
+X: 935
 T: Over The Rainbow
 B: songs
 Q: 1/4=100
@@ -63685,7 +63718,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 935
+X: 936
 T: Peachy
 C:Missy Higgins
 B: songs
@@ -63740,7 +63773,7 @@ W: You say life is peachy without me
 % abcbook-repeats 1
 
 
-X: 936
+X: 937
 T: Perfect Day
 C:Lou Reed
 B: songs
@@ -63790,7 +63823,7 @@ W: You're going to reap just what you sow
 % abcbook-repeats 1
 
 
-X: 937
+X: 938
 T: Pickin Fireweed
 B: songs
 Q: 1/4=100
@@ -63809,7 +63842,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 938
+X: 939
 T: Prodigal Daughter
 B: songs
 Q: 1/4=100
@@ -63828,7 +63861,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 939
+X: 940
 T: Psychotherapy
 C:Melanie Safka
 B: songs
@@ -63892,7 +63925,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 940
+X: 941
 T: Putting On The Ritz
 C:Fred Astaire
 B: songs
@@ -63942,7 +63975,7 @@ W: (Puttin' on the ritz)
 % abcbook-repeats 1
 
 
-X: 941
+X: 942
 T: Rain And Snow
 C:Pentangle
 B: songs
@@ -64004,7 +64037,7 @@ W: Ran me out in the cold rain and snow
 % abcbook-repeats 1
 
 
-X: 942
+X: 943
 T: Rain Comes Down
 B: songs
 Q: 1/4=100
@@ -64023,7 +64056,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 943
+X: 944
 T: Rattlin' Bones
 C:Casey Chambers
 B: songs
@@ -64098,7 +64131,7 @@ W: With the dust and rattlin' bones
 % abcbook-repeats 1
 
 
-X: 944
+X: 945
 T: Reasons Why
 C:Nickel Creek
 B: songs
@@ -64144,7 +64177,7 @@ W: It's hard not to wander away, it's hard not to wander away
 % abcbook-repeats 1
 
 
-X: 945
+X: 946
 T: Reuben
 C:The Be Good Tanyas
 B: songs
@@ -64215,7 +64248,7 @@ W: Run it to, the Lord knows where
 % abcbook-repeats 1
 
 
-X: 946
+X: 947
 T: Rich Mans World
 C:Eilen Jewell
 B: songs
@@ -64260,7 +64293,7 @@ W: Watch what crowd you end up in
 % abcbook-repeats 1
 
 
-X: 947
+X: 948
 T: Right In Time
 C:Lucinda Williams
 B: songs
@@ -64327,7 +64360,7 @@ W: It's right in time with me
 % abcbook-repeats 1
 
 
-X: 948
+X: 949
 T: Road To Freedom
 C:Noel Whitten
 B: songs
@@ -64347,7 +64380,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 949
+X: 950
 T: Rocket Man
 C:Elton John
 B: songs
@@ -64424,7 +64457,7 @@ W: Oh, no, no, no, no, no, no, no...
 % abcbook-repeats 1
 
 
-X: 950
+X: 951
 T: Runaway
 C:The Corrs
 B: songs
@@ -64487,7 +64520,7 @@ W: (With you, with you, with you, with you)
 % abcbook-repeats 1
 
 
-X: 951
+X: 952
 T: Sad Old Red
 C:Simply Red
 B: songs
@@ -64544,7 +64577,7 @@ W: Sad old Red, sad old Red
 % abcbook-repeats 1
 
 
-X: 952
+X: 953
 T: Scar
 C:Missy Higgins
 B: songs
@@ -64621,7 +64654,7 @@ W: Could you leave me with a scar
 % abcbook-repeats 1
 
 
-X: 953
+X: 954
 T: Seafood Mama
 C:Fats Waller
 B: songs
@@ -64668,7 +64701,7 @@ W: Want some seafood Mama
 % abcbook-repeats 1
 
 
-X: 954
+X: 955
 T: This Independence
 C:Manhatten Transfer
 B: songs
@@ -64729,7 +64762,7 @@ W: And watch the world aghast
 % abcbook-repeats 1
 
 
-X: 955
+X: 956
 T: Side Of The Road
 C:Lucinda Williams
 B: songs
@@ -64789,7 +64822,7 @@ W: Against the sun, against the wind
 % abcbook-repeats 1
 
 
-X: 956
+X: 957
 T: Slow Train
 C:Alex Lloyd
 B: songs
@@ -64831,7 +64864,7 @@ W: On a so so day on a so so day on a so sooo day
 % abcbook-repeats 1
 
 
-X: 957
+X: 958
 T: Small Things
 C:The Audreys
 B: songs
@@ -64882,7 +64915,7 @@ W: All these small things)
 % abcbook-repeats 1
 
 
-X: 958
+X: 959
 T: Soldiers Joy
 C:Traditional
 B: songs
@@ -64936,7 +64969,7 @@ W: What the bullet could not kill, the needle will
 % abcbook-repeats 1
 
 
-X: 959
+X: 960
 T: Somebody To Love
 C:Jefferson Airplane
 B: songs
@@ -65001,7 +65034,7 @@ W: You better find somebody to love
 % abcbook-repeats 1
 
 
-X: 960
+X: 961
 T: Something's Gotta Give
 C:Gyan
 B: songs
@@ -65021,7 +65054,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 961
+X: 962
 T: Sounds  Of Then
 C:Gangagang
 B: songs
@@ -65112,7 +65145,7 @@ W: Check it out
 % abcbook-repeats 1
 
 
-X: 962
+X: 963
 T: Straight Up And Fly Right
 C:Nat King Cole
 B: songs
@@ -65181,7 +65214,7 @@ W: Don't you blow your top
 % abcbook-repeats 1
 
 
-X: 963
+X: 964
 T: Stuart Highway
 C:Mandira & Bhavit
 B: songs
@@ -65229,7 +65262,7 @@ W: If you don't want to love it, better not go.
 % abcbook-repeats 1
 
 
-X: 964
+X: 965
 T: Summer Time
 C:George Gershwin
 B: songs
@@ -65273,7 +65306,7 @@ W: Oh don't you cry
 % abcbook-repeats 1
 
 
-X: 965
+X: 966
 T: Sweet Dreams
 C:Eurythmics
 B: songs
@@ -65351,7 +65384,7 @@ W: Everybody's lookin' for something
 % abcbook-repeats 1
 
 
-X: 966
+X: 967
 T: High Hopes
 C:Frank Sinatra
 B: songs
@@ -65415,7 +65448,7 @@ W: Oops, there goes another problem kerplop, kerlpop
 % abcbook-repeats 1
 
 
-X: 967
+X: 968
 T: The Boxer
 C:Paul Simon
 B: songs
@@ -65512,7 +65545,7 @@ W: I love you
 % abcbook-repeats 1
 
 
-X: 968
+X: 969
 T: The Devil's Inside My Head
 C:Casey Chambers
 B: songs
@@ -65571,7 +65604,7 @@ W: [K] The Devil's inside my head
 % abcbook-repeats 1
 
 
-X: 969
+X: 970
 T: The Good Guys
 C:Melanie Safka
 B: songs
@@ -65634,7 +65667,7 @@ W: We're gonna fill up the walls within
 % abcbook-repeats 1
 
 
-X: 970
+X: 971
 T: The Leaves They Do Grow Green
 C:Joan Baez
 B: songs
@@ -65686,7 +65719,7 @@ W: And death had put an end to his growing
 % abcbook-repeats 1
 
 
-X: 971
+X: 972
 T: The Lighthouse's Tale
 C:Nickel Creek
 B: songs
@@ -65777,7 +65810,7 @@ W: warn the sailors on their way.
 % abcbook-repeats 1
 
 
-X: 972
+X: 973
 T: The Twelve Days Of Christmas (Oz Version)
 B: songs
 Q: 1/4=100
@@ -65796,7 +65829,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 973
+X: 974
 T: The Way The Whole Thing Ends
 C:Gillian Welch
 B: songs
@@ -65868,7 +65901,7 @@ W: That's the way the whole things ends
 % abcbook-repeats 1
 
 
-X: 974
+X: 975
 T: The Weekend
 C:Dave Rawlings Machine
 B: songs
@@ -65929,7 +65962,7 @@ W: I got there early, I couldn't wait
 % abcbook-repeats 1
 
 
-X: 975
+X: 976
 T: Sounds of Then (This is Australia)
 C:Gangajang
 B: songs
@@ -66019,7 +66052,7 @@ W: Check it out
 % abcbook-repeats 1
 
 
-X: 976
+X: 977
 T: Time After Time
 C:Cindy Lauper
 B: songs
@@ -66120,7 +66153,7 @@ W: Time—
 % abcbook-repeats 1
 
 
-X: 977
+X: 978
 T: Tom's Diner
 C:Susan Vega
 B: songs
@@ -66202,7 +66235,7 @@ W: Doo-doo-doo-doo, doo-doo-doo-doo
 % abcbook-repeats 1
 
 
-X: 978
+X: 979
 T: Keep Your Lamp Trimmed And Burning
 B: songs
 B: traditional songs
@@ -66281,7 +66314,7 @@ W: See what my lord has done
 % abcbook-repeats 1
 
 
-X: 979
+X: 980
 T: Under The Stormy Sky
 C:Daniel Lanois
 B: songs
@@ -66333,7 +66366,7 @@ W: Under a stormy sky, under a stormy sky.
 % abcbook-repeats 1
 
 
-X: 980
+X: 981
 T: Under The Milky Way Tonight
 C:The Church
 B: songs
@@ -66374,7 +66407,7 @@ W: Under the Milky Way tonight
 % abcbook-repeats 1
 
 
-X: 981
+X: 982
 T: Unsuffer Me
 C:Lucinda Williams
 B: songs
@@ -66456,7 +66489,7 @@ W: Unsuffer me
 % abcbook-repeats 1
 
 
-X: 982
+X: 983
 T: Waiting Around To Die
 C:Townes Van Zandt
 B: songs
@@ -66509,7 +66542,7 @@ W: Yah together we're gonna wait around and die
 % abcbook-repeats 1
 
 
-X: 983
+X: 984
 T: Walking
 B: songs
 Q: 1/4=100
@@ -66528,7 +66561,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 984
+X: 985
 T: Watchtower
 B: songs
 Q: 1/4=100
@@ -66547,7 +66580,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 985
+X: 986
 T: Wayfaring Stranger
 C:Johnny Cash
 B: songs
@@ -66646,7 +66679,7 @@ W: Yeah, only....[repeat till fade]
 % abcbook-repeats 1
 
 
-X: 986
+X: 987
 T: Weaving Way
 C:Michelle Shocked
 B: songs
@@ -66703,7 +66736,7 @@ W: Walk a straight line on the road to hell
 % abcbook-repeats 1
 
 
-X: 987
+X: 988
 T: We Started A Fire
 C:Paul Kelly
 B: songs
@@ -66766,7 +66799,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 988
+X: 989
 T: When Will You Fall For Me
 C:Vika And Linda
 B: songs
@@ -66884,7 +66917,7 @@ W: When will you fall for me?
 % abcbook-repeats 1
 
 
-X: 989
+X: 990
 T: When You And I Were True
 B: songs
 Q: 1/4=100
@@ -66903,7 +66936,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 990
+X: 991
 T: When You Come Back Down
 C:Nickel Creek
 B: songs
@@ -66979,7 +67012,7 @@ W: When you come back down
 % abcbook-repeats 1
 
 
-X: 991
+X: 992
 T: Whispering Casuarina
 C:Neil Murray
 B: songs
@@ -66999,7 +67032,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 992
+X: 993
 T: White Rabbit
 C:Jefferson Airplane
 B: songs
@@ -67072,7 +67105,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 993
+X: 994
 T: Who's That Girl
 C:Eurythmics
 B: songs
@@ -67141,7 +67174,7 @@ W: Tell me
 % abcbook-repeats 1
 
 
-X: 994
+X: 995
 T: Why
 C:Annie Lennox
 B: songs
@@ -67223,7 +67256,7 @@ W: You don't know what I fear
 % abcbook-repeats 1
 
 
-X: 995
+X: 996
 T: Wild Colonial Boy
 C:The Clancy Brothers
 B: songs
@@ -67295,7 +67328,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 996
+X: 997
 T: Wild Horses
 C:The Rolling Stones
 B: songs
@@ -67349,7 +67382,7 @@ W: Wild, wild horses, we'll ride them some day
 % abcbook-repeats 1
 
 
-X: 997
+X: 998
 T: Windy
 B: songs
 Q: 1/4=100
@@ -67368,7 +67401,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 998
+X: 999
 T: Woodstock
 C:Joni Mitchell
 B: songs
@@ -67432,7 +67465,7 @@ W: back to the garden
 % abcbook-repeats 1
 
 
-X: 999
+X: 1000
 T: Would You Harbour Me
 C:Sweet Honey In the Rock
 B: songs
@@ -67487,7 +67520,7 @@ W: Would I harbor you? (Would I harbor you?)
 % abcbook-repeats 1
 
 
-X: 1000
+X: 1001
 T: You And I Were True
 B: songs
 Q: 1/4=100
@@ -67506,7 +67539,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1001
+X: 1002
 T: You Can Call Me Al
 C:Paul Simon
 B: songs
@@ -67613,7 +67646,7 @@ W: If you'll be my bodyguard
 % abcbook-repeats 1
 
 
-X: 1002
+X: 1003
 T: 16 Tons
 C:Ernie Ford
 B: songs
@@ -67687,7 +67720,7 @@ W: I owe my soul to the company store
 % abcbook-repeats 1
 
 
-X: 1003
+X: 1004
 T: Brand New Day
 C:Eurythmics
 B: songs
@@ -67791,7 +67824,7 @@ W: Hey! Hey!
 % abcbook-repeats 1
 
 
-X: 1004
+X: 1005
 T: We Are
 C:Sweet Honey In The Rock
 B: songs
@@ -67878,7 +67911,7 @@ W: We are one
 % abcbook-repeats 1
 
 
-X: 1005
+X: 1006
 T: Breathe
 B: songs
 Q: 1/4=100
@@ -67898,7 +67931,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1006
+X: 1007
 T: I Still Pray
 C:Casey Chambers
 B: songs
@@ -67933,7 +67966,7 @@ W: He will hold me until I wake
 % abcbook-repeats 1
 
 
-X: 1007
+X: 1008
 T: Highway Kind
 C:Townes Van Zandt
 B: songs
@@ -67990,7 +68023,7 @@ W: And why you where not there.
 % abcbook-repeats 1
 
 
-X: 1008
+X: 1009
 T: What If
 C:Lucinda Williams
 B: songs
@@ -68059,7 +68092,7 @@ W: In equal amounts
 % abcbook-repeats 1
 
 
-X: 1009
+X: 1010
 T: A Little Bit Lonesome
 C:Casey Chambers
 B: songs
@@ -68114,7 +68147,7 @@ W: Well I'm a little bit lonesome it's all your fault
 % abcbook-repeats 1
 
 
-X: 1010
+X: 1011
 T: Doolin-Dalton/Desperado (reprise)
 C:The Eagles
 B: songs
@@ -68175,7 +68208,7 @@ W: Desperado
 % abcbook-repeats 1
 
 
-X: 1011
+X: 1012
 T: Swinging On A Star
 C:Johnny Burke
 B: songs
@@ -68253,7 +68286,7 @@ W: Doo doo doo doo doo, doo doo
 % abcbook-repeats 1
 
 
-X: 1012
+X: 1013
 T: Solid Rock
 C:Goanna
 B: songs
@@ -68366,7 +68399,7 @@ W: No, oh!
 % abcbook-repeats 1
 
 
-X: 1013
+X: 1014
 T: The Water Is Wise
 C:Tim O'Brien
 B: songs
@@ -68425,7 +68458,7 @@ W: Winding its way until is runs free
 % abcbook-repeats 1
 
 
-X: 1014
+X: 1015
 T: Nothing
 C:Townes Van Zandt
 B: songs
@@ -68467,7 +68500,7 @@ W: And the only words that are worth remembering
 % abcbook-repeats 1
 
 
-X: 1015
+X: 1016
 T: The Way It Goes
 C:Gillian Welch
 B: songs
@@ -68556,7 +68589,7 @@ W: Though there was a time when you and I were friends
 % abcbook-repeats 1
 
 
-X: 1016
+X: 1017
 T: This Masquerade
 C:Leon Russel
 B: songs
@@ -68656,7 +68689,7 @@ W: We're lost in a masquerade
 % abcbook-repeats 1
 
 
-X: 1017
+X: 1018
 T: Ain't Misbehavin'
 C:Fats Waller
 B: songs
@@ -68705,7 +68738,7 @@ W: I'm savin' my love for you.
 % abcbook-repeats 1
 
 
-X: 1018
+X: 1019
 T: All Of Me
 C:Billie Holiday
 B: songs
@@ -68762,7 +68795,7 @@ W: Baby, take all of me
 % abcbook-repeats 1
 
 
-X: 1019
+X: 1020
 T: Beginning To See The Light
 C:Ella Fitzgerald
 B: songs
@@ -68800,7 +68833,7 @@ W: I'm beginning to see the light
 % abcbook-repeats 1
 
 
-X: 1020
+X: 1021
 T: Until Death Do Them Part
 C:Paul Kelly
 B: songs
@@ -68849,7 +68882,7 @@ W: Until death do them part
 % abcbook-repeats 1
 
 
-X: 1021
+X: 1022
 T: Calypso
 B: songs
 Q: 1/4=100
@@ -68868,7 +68901,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1022
+X: 1023
 T: Circus
 B: songs
 Q: 1/4=100
@@ -68887,7 +68920,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1023
+X: 1024
 T: Hobo Trail
 B: songs
 Q: 1/4=100
@@ -68906,7 +68939,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1024
+X: 1025
 T: Look Out For Love
 B: songs
 Q: 1/4=100
@@ -68925,7 +68958,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1025
+X: 1026
 T: Love Explosion
 B: songs
 Q: 1/4=100
@@ -68944,7 +68977,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1026
+X: 1027
 T: Low Budget Love
 B: songs
 Q: 1/4=100
@@ -68963,7 +68996,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1027
+X: 1028
 T: Madmen From Across The Sea
 B: songs
 Q: 1/4=100
@@ -68982,7 +69015,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1028
+X: 1029
 T: Mad World
 B: songs
 Q: 1/4=100
@@ -69001,7 +69034,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1029
+X: 1030
 T: My Blue Heaven
 B: songs
 Q: 1/4=100
@@ -69020,7 +69053,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1030
+X: 1031
 T: My Secret Life
 B: songs
 Q: 1/4=100
@@ -69039,7 +69072,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1031
+X: 1032
 T: Nest
 B: songs
 Q: 1/4=100
@@ -69058,7 +69091,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1032
+X: 1033
 T: New Orleans
 C:Robyn Ludwick
 B: songs
@@ -69078,7 +69111,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1033
+X: 1034
 T: Roots Down
 B: songs
 Q: 1/4=100
@@ -69097,7 +69130,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1034
+X: 1035
 T: Second Fiddle
 C:Bessie Smith
 B: songs
@@ -69158,7 +69191,7 @@ W: source: https://www.lyricsondemand.com/b/bessiesmithlyrics/aintgonnaplaynosec
 % abcbook-repeats 1
 
 
-X: 1035
+X: 1036
 T: Ship Of Fools
 B: songs
 Q: 1/4=100
@@ -69177,7 +69210,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1036
+X: 1037
 T: Slave To Love
 B: songs
 Q: 1/4=100
@@ -69196,7 +69229,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1037
+X: 1038
 T: Stop Just Relax
 B: songs
 Q: 1/4=100
@@ -69225,7 +69258,7 @@ W: Am
 % abcbook-repeats 1
 
 
-X: 1038
+X: 1039
 T: Tango Triste
 B: songs
 Q: 1/4=100
@@ -69244,7 +69277,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1039
+X: 1040
 T: That's What You Get
 C:Lanie Lane
 B: songs
@@ -69283,7 +69316,7 @@ W: That's what you get.
 % abcbook-repeats 1
 
 
-X: 1040
+X: 1041
 T: The Maze
 B: songs
 Q: 1/4=100
@@ -69302,7 +69335,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1041
+X: 1042
 T: Tiki God
 C:The Presidents Of The United States Of America
 B: songs
@@ -69375,7 +69408,7 @@ W: All right
 % abcbook-repeats 1
 
 
-X: 1042
+X: 1043
 T: Truck Driving Man
 B: songs
 Q: 1/4=100
@@ -69394,7 +69427,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1043
+X: 1044
 T: Under A Travelling Sign
 B: songs
 Q: 1/4=100
@@ -69413,7 +69446,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1044
+X: 1045
 T: Waiting Out The Storm
 B: songs
 Q: 1/4=100
@@ -69432,7 +69465,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1045
+X: 1046
 T: When God Dips
 B: songs
 Q: 1/4=100
@@ -69451,7 +69484,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1046
+X: 1047
 T: Why Is It So
 B: songs
 Q: 1/4=100
@@ -69470,7 +69503,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1047
+X: 1048
 T: Willow And The Dove
 B: songs
 Q: 1/4=100
@@ -69489,7 +69522,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1048
+X: 1049
 T: Wrong Reasons
 B: songs
 Q: 1/4=100
@@ -69508,7 +69541,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1049
+X: 1050
 T: What Do I Do
 C:Lanie Lane
 B: songs
@@ -69584,7 +69617,7 @@ W: What am I to do?
 % abcbook-repeats 1
 
 
-X: 1050
+X: 1051
 T: Diamonds And Rust
 C:Joan Baez
 B: songs
@@ -69659,7 +69692,7 @@ W: I've already paid
 % abcbook-repeats 1
 
 
-X: 1051
+X: 1052
 T: Down Under
 C:Men At Work
 B: songs
@@ -69714,7 +69747,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1052
+X: 1053
 T: Handle Me With Care
 C:Travelling Wilburys
 B: songs
@@ -69788,7 +69821,7 @@ W: Handle me with care
 % abcbook-repeats 1
 
 
-X: 1053
+X: 1054
 T: Long Time Gone
 C:Crosby, Stills & Nash
 B: songs
@@ -69883,7 +69916,7 @@ W: Time,  yes, a long, long, long ,long time before the dawn.
 % abcbook-repeats 1
 
 
-X: 1054
+X: 1055
 T: Just A Song Before I Go
 C:Crosby, Stills & Nash
 B: songs
@@ -69956,7 +69989,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1055
+X: 1056
 T: Southern Cross
 C:Crosby, Stills & Nash
 B: songs
@@ -70082,7 +70115,7 @@ W: In the Southern Cross
 % abcbook-repeats 1
 
 
-X: 1056
+X: 1057
 T: Marrakesh Express
 C:Crosby, Stills & Nash
 B: songs
@@ -70180,7 +70213,7 @@ W: All aboard the train, all aboard the train, all aboard
 % abcbook-repeats 1
 
 
-X: 1057
+X: 1058
 T: Shadow Captain
 C:Crosby, Stills & Nash
 B: songs
@@ -70305,7 +70338,7 @@ W: Trying to give the light the slip
 % abcbook-repeats 1
 
 
-X: 1058
+X: 1059
 T: Our House
 C:Crosby, Stills & Nash
 B: songs
@@ -70398,7 +70431,7 @@ W: That you bought today
 % abcbook-repeats 1
 
 
-X: 1059
+X: 1060
 T: Guinnevere
 C:Crosby, Stills & Nash
 B: songs
@@ -70479,7 +70512,7 @@ W: We shall be free
 % abcbook-repeats 1
 
 
-X: 1060
+X: 1061
 T: Teach Your Children
 C:Crosby, Stills & Nash
 B: songs
@@ -70565,7 +70598,7 @@ W: And know they love you
 % abcbook-repeats 1
 
 
-X: 1061
+X: 1062
 T: Wooden Ships
 C:Crosby, Stills and Nash
 B: songs
@@ -70653,7 +70686,7 @@ W: Guess I'll set a course and go
 % abcbook-repeats 1
 
 
-X: 1062
+X: 1063
 T: Delta
 C:Crosby, Stills & Nash
 B: songs
@@ -70719,7 +70752,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1063
+X: 1064
 T: 49 Bye Byes
 C:Crosby, Stills & Nash
 B: songs
@@ -70854,7 +70887,7 @@ W: Who do you, who do you love?
 % abcbook-repeats 1
 
 
-X: 1064
+X: 1065
 T: Carry On
 C:Crosby, Stills & Nash
 B: songs
@@ -70918,7 +70951,7 @@ W: Lover can you talk to me?
 % abcbook-repeats 1
 
 
-X: 1065
+X: 1066
 T: In My Dreams
 C:Crosby, Stills & Nash
 B: songs
@@ -71050,7 +71083,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1066
+X: 1067
 T: Cathedral
 C:Crosby, Stills & Nash
 B: songs
@@ -71215,7 +71248,7 @@ W: |  /  /  /  /  |  /  /  /  /  |  /  ||
 % abcbook-repeats 1
 
 
-X: 1067
+X: 1068
 T: Daylight Again
 C:Crosby, Stills & Nash
 B: songs
@@ -71266,7 +71299,7 @@ W: Lay your body down
 % abcbook-repeats 1
 
 
-X: 1068
+X: 1069
 T: Judy Blue Eyes
 C:Crosby, Stills & Nash
 B: songs
@@ -71463,7 +71496,7 @@ W: Do-do-do-do-do, do, do, do-do
 % abcbook-repeats 1
 
 
-X: 1069
+X: 1070
 T: Wasted On The Way
 C:Crosby, Stills and Nash
 B: songs
@@ -71542,7 +71575,7 @@ W: Let the water come and carry us away
 % abcbook-repeats 1
 
 
-X: 1070
+X: 1071
 T: Dark Star
 C:Crosby, Stills & Nash
 B: songs
@@ -71672,7 +71705,7 @@ W: Open up your smile and see me,  Dark star
 % abcbook-repeats 1
 
 
-X: 1071
+X: 1072
 T: 4 + 20
 C:Crosby, Stills & Nash
 B: songs
@@ -71739,7 +71772,7 @@ W: And I find myself just wishing that my life would simply cease
 % abcbook-repeats 1
 
 
-X: 1072
+X: 1073
 T: Carried Away
 C:Crosby, Stills & Nash
 B: songs
@@ -71840,7 +71873,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1073
+X: 1074
 T: Everybody's Talkin'
 C:Crosby, Stills & Nash
 B: songs
@@ -71937,7 +71970,7 @@ W: Skippin' over the ocean like a stone
 %%MIDI transpose -2
 
 
-X: 1074
+X: 1075
 T: Homeward Through The Haze
 C:Crosby, Stills & Nash
 B: songs
@@ -72000,7 +72033,7 @@ W: At how they stumble                  homeward thru the haze
 % abcbook-repeats 1
 
 
-X: 1075
+X: 1076
 T: Chicago (4 Way Street)
 C:Crosby, Stills & Nash
 B: songs
@@ -72109,7 +72142,7 @@ W: Throw 'em out the door...
 % abcbook-repeats 1
 
 
-X: 1076
+X: 1077
 T: This Old House
 C:Crosby, Stills & Nash
 B: songs
@@ -72216,7 +72249,7 @@ W: Take it all away, take it all away, take it all away.
 % abcbook-repeats 1
 
 
-X: 1077
+X: 1078
 T: Live It Up
 C:Crosby, Stills & Nash
 B: songs
@@ -72355,7 +72388,7 @@ W: I got to live it up, live it up
 % abcbook-repeats 1
 
 
-X: 1078
+X: 1079
 T: Song With No Words
 C:Crosby, Stills & Nash
 B: songs
@@ -72376,7 +72409,7 @@ V:1
 % abcbook-repeats 1
 
 
-X: 1079
+X: 1080
 T: Panama
 C:Crosby, Stills & Nash
 B: songs
@@ -72494,7 +72527,7 @@ W: La, la, la, la, la ...
 % abcbook-repeats 1
 
 
-X: 1080
+X: 1081
 T: Haven't We Lost Enough?
 C:Crosby, Stills & Nash
 B: songs
@@ -72552,7 +72585,7 @@ W: Haven't we lost enough?
 % abcbook-repeats 1
 
 
-X: 1081
+X: 1082
 T: Soldiers Of Peace
 C:Crosby, Stills & Nash
 B: songs
@@ -72633,7 +72666,7 @@ W: No more, no more, no more, no more, no more.
 % abcbook-repeats 1
 
 
-X: 1082
+X: 1083
 T: Love The One You´re With
 C:Crosby, Stills & Nash
 B: songs
@@ -72687,7 +72720,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1083
+X: 1084
 T: Right Between The Eyes
 C:Crosby, Stills & Nash
 B: songs
@@ -72745,7 +72778,7 @@ W: Na  na na  na na   na na na  na   na na
 % abcbook-repeats 1
 
 
-X: 1084
+X: 1085
 T: Black Queen
 C:Crosby, Stills & Nash
 B: songs
@@ -72784,7 +72817,7 @@ W: Black queen, you're playin' foolish cards, black queen
 % abcbook-repeats 1
 
 
-X: 1085
+X: 1086
 T: Clear Blue Skies
 C:Crosby, Stills & Nash
 B: songs
@@ -72848,7 +72881,7 @@ W: Then G Bm7 part again.
 % abcbook-repeats 1
 
 
-X: 1086
+X: 1087
 T: Sanibel
 C:Crosby, Stills & Nash
 B: songs
@@ -72942,7 +72975,7 @@ W: Calling out to me
 % abcbook-repeats 1
 
 
-X: 1087
+X: 1088
 T: Slowpoke
 C:Crosby, Stills, Nash, and Young
 B: songs
@@ -73022,7 +73055,7 @@ W: When I was faster...
 % abcbook-repeats 1
 
 
-X: 1088
+X: 1089
 T: Barrel Of Pain
 C:Crosby, Stills & Nash
 B: songs
@@ -73095,7 +73128,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1089
+X: 1090
 T: Deja Vu
 C:Crosby, Stills & Nash
 B: songs
@@ -73168,7 +73201,7 @@ W: We have all been here before
 % abcbook-repeats 1
 
 
-X: 1090
+X: 1091
 T: Hot Knife
 C:Fiona Apple
 B: songs
@@ -73345,7 +73378,7 @@ W: (He’s never gonna need another, never need another)
 % abcbook-repeats 1
 
 
-X: 1091
+X: 1092
 T: The Peoples Dream
 C:Mike Martin
 B: songs
@@ -73368,7 +73401,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1092
+X: 1093
 T: Auld Lang Syne (Old English Lyrics)
 C:Trad. Words by Burns.
 B: songs
@@ -73415,7 +73448,7 @@ W:
 %%voicecolor black
 %%voicecolor maroon
 
-X: 1093
+X: 1094
 T: Lily of Laguna
 C:Leslie Stuart, 1898
 B: songs
@@ -73507,7 +73540,7 @@ W:
 %%MIDI transpose -2
 
 
-X: 1094
+X: 1095
 T: Ma Nishtana
 C:Trad. Song.
 B: songs
@@ -73540,7 +73573,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1095
+X: 1096
 T: My Old Man, Said Follow the Van
 C:Fred W. Leigh 1919
 B: songs
@@ -73581,7 +73614,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1096
+X: 1097
 T: The Wellerman
 C:Traditional
 B: songs
@@ -73662,7 +73695,7 @@ W:
 %%voicecolor black
 %%voicecolor maroon
 
-X: 1097
+X: 1098
 T: The Cock Lane Ghost
 C:Wm Herschel c1762
 B: traditional songs
@@ -73703,7 +73736,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1098
+X: 1099
 T: Danny Boy
 C:Frederic Weatherly
 B: traditional songs
@@ -73769,7 +73802,7 @@ W:
 %%voicecolor teal
 %%score [1|2|3]
 
-X: 1099
+X: 1100
 T: God Save The King
 C:Traditional
 B: traditional songs
@@ -73808,7 +73841,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1100
+X: 1101
 T: I'll Take You Home Again, Kathleen
 C:Thomas Westerndorf, 1875
 B: traditional songs
@@ -73879,7 +73912,7 @@ W: I will take you to your home again
 % abcbook-repeats 1
 
 
-X: 1101
+X: 1102
 T: John Anderson, My Jo
 C:Trad.
 B: traditional songs
@@ -73924,7 +73957,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1102
+X: 1103
 T: Landlord Fill the Flowing Bowl
 C:Trad. Song. Arr J McKenzie 2018
 B: traditional songs
@@ -73987,7 +74020,7 @@ W: And dies a jolly good fellow
 %%voicecolor black
 %%voicecolor maroon
 
-X: 1103
+X: 1104
 T: Minstrel Boy, The
 C:Trad. Arr PGH
 B: traditional songs
@@ -74040,7 +74073,7 @@ W:
 %%voicecolor black
 %%voicecolor maroon
 
-X: 1104
+X: 1105
 T: My Bonnie Lies Over the Ocean
 C:C Pratt 1881
 B: traditional songs
@@ -74099,7 +74132,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1105
+X: 1106
 T: Sumer Is Icumen In
 C:Trad 13th C
 B: traditional songs
@@ -74157,7 +74190,7 @@ W: Sing cuccu • Sing cuccu nu
 % abcbook-repeats 1
 %%voicecolor maroon
 
-X: 1106
+X: 1107
 T: Two Little Girls in Blue
 C:Charles Graham, 1893
 B: traditional songs
@@ -74221,7 +74254,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1107
+X: 1108
 T: Ukrainian National Anthem
 C:Mykhaylo Verbytsky (1815-1870)
 B: traditional songs
@@ -74265,7 +74298,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1108
+X: 1109
 T: When You and I Were Young, Maggie
 C:James Butterfield, 1866
 B: traditional songs
@@ -74333,7 +74366,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1109
+X: 1110
 T: When You Were Sweet Sixteen
 C:James Thornton, 1898
 B: traditional songs
@@ -74388,7 +74421,7 @@ W: When you were sweet sixteen.
 % abcbook-repeats 1
 
 
-X: 1110
+X: 1111
 T: Queen And The Soldier
 C:Suzanne Vega
 B: songs
@@ -74534,7 +74567,7 @@ W: fade
 % abcbook-repeats 1
 
 
-X: 1111
+X: 1112
 T: To Go Or Not To Go The Distance
 B: songs
 M:4/4
@@ -74600,7 +74633,7 @@ W: I don't want to
 % abcbook-repeats 1
 
 
-X: 1112
+X: 1113
 T: Bourgeois Blues
 C:Leadbelly
 B: songs
@@ -74685,7 +74718,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1113
+X: 1114
 T: Don't Be Too Polite Girls
 C:Glen Tomasetti
 B: songs
@@ -74742,7 +74775,7 @@ W: It's not their balls we're after, it's a fair square deal.
 % abcbook-repeats 1
 
 
-X: 1114
+X: 1115
 T: Good Night Irene
 C:Huddie Ledbetter
 B: songs
@@ -74814,7 +74847,7 @@ W: I'm gonna take morphine and die
 % abcbook-repeats 1
 % last edit 03-02-2013
 
-X: 1115
+X: 1116
 T: I Don't Like The Way This Word Is Treatin Me
 C:Woody Guthrie
 B: songs
@@ -74865,7 +74898,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1116
+X: 1117
 T: Michael Row The Boat Ashore
 C:Traditional
 B: songs
@@ -74928,7 +74961,7 @@ W: Michael row the boat ashore, hallelujah
 % Text Has notes text
 % Has_accompaniment_chords Has chords
 
-X: 1117
+X: 1118
 T: Never Turning Back
 C:Pat Humphries
 B: songs
@@ -74985,7 +75018,7 @@ W: Never turning back
 % abcbook-repeats 1
 
 
-X: 1118
+X: 1119
 T: Pick a Bale of Cotton
 C:Huddie Ledbetter
 B: songs
@@ -75072,7 +75105,7 @@ W: Me and my papa can pick a bale a day.
 % abcbook-repeats 1
 % last edit 03-02-2013
 
-X: 1119
+X: 1120
 T: Poor Ned
 B: songs
 Q: 1/4=100
@@ -75144,7 +75177,7 @@ W: Boy, they're 'gonna hang you high
 % abcbook-repeats 1
 
 
-X: 1120
+X: 1121
 T: Satisfied Mind
 C:Red Hayes
 B: songs
@@ -75190,7 +75223,7 @@ W: One rich man in ten with a satisfied mind
 % abcbook-repeats 1
 
 
-X: 1121
+X: 1122
 T: Solidarity Forever
 B: songs
 Q: 1/4=100
@@ -75255,7 +75288,7 @@ W: For the union makes us strong
 % abcbook-repeats 1
 
 
-X: 1122
+X: 1123
 T: The Times They Are A Changin
 C:Bob Dylan
 B: songs
@@ -75310,7 +75343,7 @@ W: For the times, they are a-changin'
 % abcbook-repeats 1
 
 
-X: 1123
+X: 1124
 T: The Rebel Girl
 C:Joe Hill
 B: songs
@@ -75371,7 +75404,7 @@ W: With a Rebel Girl
 % abcbook-repeats 1
 
 
-X: 1124
+X: 1125
 T: There Is Power In A Union
 C:Joe Hill
 B: songs
@@ -75433,7 +75466,7 @@ W: (CHORUS)
 % abcbook-repeats 1
 
 
-X: 1125
+X: 1126
 T: This Little Light Of Mine
 C:Traditional
 B: songs
@@ -75492,7 +75525,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1126
+X: 1127
 T: This Train Is Bound For Glory
 C:Traditional
 B: songs
@@ -75551,7 +75584,7 @@ W: This train is bound for glory, this train.
 % abcbook-repeats 1
 
 
-X: 1127
+X: 1128
 T: Time Is A Tempest
 C:John Broomhall
 B: songs
@@ -75592,7 +75625,7 @@ W: Travelling through the storm.
 % abcbook-repeats 1
 
 
-X: 1128
+X: 1129
 T: Waltzing Matilda
 C:Banjo Paterson
 B: songs
@@ -75655,7 +75688,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1129
+X: 1130
 T: We Are Australian
 C:Bruce Woodley
 B: songs
@@ -75717,7 +75750,7 @@ W: I am, you are, we are Australian!
 % abcbook-repeats 1
 
 
-X: 1130
+X: 1131
 T: We Shall Not Be Moved
 C:Traditional
 B: songs
@@ -75775,7 +75808,7 @@ W: We shall not be moved
 % abcbook-repeats 1
 
 
-X: 1131
+X: 1132
 T: Will The Circle Be Unbroken
 C:Ada Ruth Habershon
 B: songs
@@ -75830,7 +75863,7 @@ W: In the sky Lord, in the sky...
 % abcbook-repeats 1
 
 
-X: 1132
+X: 1133
 T: A Hard Rain's Gonna Fall
 C:Bob Dylan
 B: songs
@@ -75929,7 +75962,7 @@ W: It’s a hard rain gonna fall
 % abcbook-repeats 1
 
 
-X: 1133
+X: 1134
 T: Galway Girl
 C:Steve Earl
 B: songs
@@ -75976,7 +76009,7 @@ W: Boys, I ain't never seen nothing like a Galway girl
 % abcbook-repeats 1
 
 
-X: 1134
+X: 1135
 T: Deportees
 C:Woody Guthrie
 B: songs
@@ -76052,7 +76085,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1135
+X: 1136
 T: Newry Town
 C:Paddy McElherron
 B: songs
@@ -76118,7 +76151,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1136
+X: 1137
 T: Moreton Bay
 C:Traditional
 B: songs
@@ -76176,7 +76209,7 @@ W: Our former sufferings shall fade from mind
 % abcbook-repeats 1
 
 
-X: 1137
+X: 1138
 T: Hit 'Em Up Style
 C:Carolina Chocolate Drops
 B: carolina chocolate drops
@@ -76319,7 +76352,7 @@ W: If he mess up you gotta hit 'em up
 % abcbook-repeats 1
 
 
-X: 1138
+X: 1139
 T: Trouble in Your Mind
 C:Carolina Chocolate Drops
 B: carolina chocolate drops
@@ -76391,7 +76424,7 @@ W: Don't get trouble in your mind
 % abcbook-repeats 1
 
 
-X: 1139
+X: 1140
 T: A Day For The Hunter, A Day For The Prey
 C:Leyla McCalla
 B: working
@@ -76462,7 +76495,7 @@ W: A day for the hunter, a day for the prey
 % abcbook-repeats 1
 
 
-X: 1140
+X: 1141
 T: Wild Thing
 C:The Troggs
 B: songs
@@ -76546,7 +76579,7 @@ W: Shake it, shake it, Wild Thing... 2x
 % abcbook-repeats 1
 
 
-X: 1141
+X: 1142
 T: Come On Up To The House
 C:Tom Waits
 B: songs
@@ -76659,7 +76692,7 @@ W: yeah
 % abcbook-repeats 1
 
 
-X: 1142
+X: 1143
 T: Star Shocked
 C:Steve Ryan
 B: songs
@@ -76727,7 +76760,7 @@ W: And it wasn't just for fun
 % abcbook-repeats 1
 
 
-X: 1143
+X: 1144
 T: Noche De Paz
 B: songs
 Q: 1/4=100
@@ -76766,7 +76799,7 @@ W: Brilla sobre el Rey.
 % abcbook-repeats 1
 
 
-X: 1144
+X: 1145
 T: Cumberland Gap
 B: songs
 B: incoming trad songs
@@ -76803,7 +76836,7 @@ W: To shoot him a squirrel or a turkey or a quail. Refrain
 % abcbook-repeats 1
 
 
-X: 1145
+X: 1146
 T: The Swallow
 B: songs
 B: incoming trad songs
@@ -76850,7 +76883,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1146
+X: 1147
 T: Danny Boy
 C:Frederic Weatherly
 B: songs
@@ -76895,7 +76928,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1147
+X: 1148
 T: Dirty Old Town
 C:The Pogues
 B: songs
@@ -76941,7 +76974,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1148
+X: 1149
 T: Fare Thee Well
 C:Marcus Mumford and Oscar Isaac
 B: songs
@@ -76979,7 +77012,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1149
+X: 1150
 T: Sally MacLennan
 C:The Pogues
 B: songs
@@ -77053,7 +77086,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1150
+X: 1151
 T: Gracias A La Vida
 C:Violeta Parra
 B: songs
@@ -77124,7 +77157,7 @@ W: Gracias a la vida, que me ha dado tanto	(	Thanks to life, which has given me 
 % abcbook-repeats 1
 
 
-X: 1151
+X: 1152
 T: Angeline The Baker
 B: songs
 B: incoming trad songs
@@ -77178,7 +77211,7 @@ W: Should have married Angeline, just twenty years ago
 % abcbook-repeats 3
 
 
-X: 1152
+X: 1153
 T: Danny Boy
 B: songs
 B: incoming trad songs
@@ -77234,7 +77267,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1153
+X: 1154
 T: Sexy Saxophone
 C:Steve Ryan
 B: songs
@@ -77280,7 +77313,7 @@ W: riff then chord
 % abcbook-repeats 1
 
 
-X: 1154
+X: 1155
 T: Saxy Bass
 C:Charlotte Lyngbye
 B: working
@@ -77330,7 +77363,7 @@ W: We'll play around and around and around ......
 % abcbook-repeats 1
 
 
-X: 1155
+X: 1156
 T: Ars Facere
 C:Steve Ryan
 B: songs
@@ -77415,7 +77448,7 @@ W: manu nostra peritia semper.	(	Through the skill of our hands, always.	)
 % abcbook-repeats 1
 
 
-X: 1156
+X: 1157
 T: Song For A Dark Girl
 C:Leila McCalla
 B: traditional songs
@@ -77456,7 +77489,7 @@ W: Love is a naked shadow on an alder naked tree
 % abcbook-repeats 1
 
 
-X: 1157
+X: 1158
 T: All the World is Green
 C:Tom Waits
 B: working
@@ -77568,7 +77601,7 @@ W: When all the world is green
 % abcbook-repeats 1
 
 
-X: 1158
+X: 1159
 T: Clawhammer
 C:Steve Ryan
 B: songs
@@ -77652,7 +77685,7 @@ W: The showdown awaits, Bond holds fate in his hand
 % abcbook-repeats 1
 
 
-X: 1159
+X: 1160
 T: Headjob Clowns At The Fairground
 C:Andrew  Kordas
 B: songs
@@ -77711,7 +77744,7 @@ W: Don’t put your balls in the head job clowns at the fairground
 % abcbook-repeats 1
 
 
-X: 1160
+X: 1161
 T: Artificial - Deputize My Brain
 C:Charlotte Lyngbye
 B: songs
@@ -77788,7 +77821,7 @@ W: It’s all false &amp; counterfeit (Rpt)
 % abcbook-repeats 1
 
 
-X: 1161
+X: 1162
 T: Much Against My Grain
 C:Charlotte Lyngbye
 B: songs
@@ -77866,7 +77899,7 @@ W: Now I have to start all over again
 % abcbook-repeats 1
 
 
-X: 1162
+X: 1163
 T: Let's Play Saxy Bass
 C:Charlotte Lyngbye
 B: songs
@@ -77945,7 +77978,7 @@ W: We’ll play around and around and around
 % abcbook-repeats 1
 
 
-X: 1163
+X: 1164
 T: Quagmire Blues
 C:Charlotte Lyngbye
 B: songs
@@ -78004,7 +78037,7 @@ W: Why bother
 % abcbook-repeats 1
 
 
-X: 1164
+X: 1165
 T: Falling On Your Fate
 C:Charlotte Lyngbye
 B: songs
@@ -78060,7 +78093,7 @@ W: You’d think we’d wisened up at last
 % abcbook-repeats 1
 
 
-X: 1165
+X: 1166
 T: You/Special
 C:Charlotte Lyngbye
 B: songs
@@ -78137,7 +78170,7 @@ W: # outro
 % abcbook-repeats 1
 
 
-X: 1166
+X: 1167
 T: Swine
 C:Charlotte Lyngbye
 B: songs
@@ -78214,7 +78247,7 @@ W: I’ll show you what Mama is really made of
 % abcbook-repeats 1
 
 
-X: 1167
+X: 1168
 T: I've Got You In My Telescope
 C:Charlotte Lyngbye
 B: songs
@@ -78279,7 +78312,7 @@ W: Or a big old empty space
 % abcbook-repeats 1
 
 
-X: 1168
+X: 1169
 T: Werewolf
 C:Charlotte Lyngbye
 B: songs
@@ -78370,7 +78403,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1169
+X: 1170
 T: The Swallow
 B: songs
 M:4/4
@@ -78391,7 +78424,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1170
+X: 1171
 T: Robbery
 C:Steve Ryan
 B: working
@@ -78440,7 +78473,7 @@ W: Life sux, and it's awesome as hell
 % abcbook-repeats 1
 
 
-X: 1171
+X: 1172
 T: Journey Home
 C:Charlotte Lyngbye
 B: songs
@@ -78523,7 +78556,7 @@ W: INSTR (verse)
 % abcbook-repeats 1
 
 
-X: 1172
+X: 1173
 T: Cowboy Boogie
 C:Steve Ryan
 B: songs
@@ -78591,7 +78624,7 @@ W:
 %%MIDI transpose 5
 
 
-X: 1173
+X: 1174
 T: Mesi Bondye
 C:Leyla McCalla
 B: working
@@ -78720,7 +78753,7 @@ W: Mizè nou fini
 % abcbook-repeats 1
 
 
-X: 1174
+X: 1175
 T: I Can Promise
 C:Steve Ryan
 B: songs
@@ -78797,7 +78830,7 @@ W: I can only hope you like, what you see.
 % abcbook-repeats 1
 
 
-X: 1175
+X: 1176
 T: Red Rocking Chair
 C:Traditional
 B: working
@@ -78873,7 +78906,7 @@ W:
 %%MIDI transpose -2
 
 
-X: 1176
+X: 1177
 T: Milk
 C:Steve Ryan
 B: songs
@@ -78991,7 +79024,7 @@ W: # Chorus
 %%MIDI transpose -2
 
 
-X: 82405
+X: 71921
 T: Run Dotteral Run
 C:Steve Ryan
 B: songs
@@ -79058,7 +79091,7 @@ W: with booted feet crush shell and bone
 % abcbook-repeats 1
 
 
-X: 1178
+X: 1179
 T: Mia's Song
 C:Charlotte Lyngbye
 B: songs
@@ -79144,7 +79177,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1179
+X: 1180
 T: Shell Shocked
 C:Charlotte Lyngbye
 B: songs
@@ -79246,7 +79279,7 @@ W: # Outro
 % abcbook-repeats 1
 
 
-X: 86412
+X: 18369
 T: I Promise
 C:Charlotte Lyngbye
 B: songs
@@ -79317,7 +79350,7 @@ W: CHORUS:
 % abcbook-repeats 1
 
 
-X: 86696
+X: 22715
 T: Displeasure
 C:Charlotte Lyngbye
 B: songs
@@ -79387,7 +79420,7 @@ W: Or find mould on my shower curtain
 % abcbook-repeats 1
 
 
-X: 61790
+X: 86363
 T: Fight Or Flight
 B: songs
 M:4/4
@@ -79446,7 +79479,7 @@ W: An awkwardness that no one understands
 % abcbook-repeats 1
 
 
-X: 39314
+X: 11784
 T: Robbery
 C:Charlotte Lyngbye
 B: songs
@@ -79510,7 +79543,7 @@ W: CHART
 % abcbook-repeats 1
 
 
-X: 184
+X: 53026
 T: Bye Bye Clawhammer
 C:Charlotte Lyngbye
 B: songs
@@ -79595,7 +79628,7 @@ W: To stamp out him out I’d gladly make an exception.
 % abcbook-repeats 1
 
 
-X: 1185
+X: 1186
 T: Creamy Streets
 C:Steve Ryan
 B: songs
@@ -79673,7 +79706,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 1186
+X: 1187
 T: Leave It Underground
 C:Steve Ryan
 B: songs
@@ -79688,7 +79721,7 @@ V:1
 "F"zzzzzzzz||"Am"zzzzzzzz||"Bb"zzzz"Gm"zzzz||"Dm"zzzz"C"zzzz||
 "Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
 "Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
-W:  
+W: 
 W: 
 W: # verse
 W: In the warm hint of Spring I feel, fear in my bones
@@ -79749,13 +79782,13 @@ W: # chorus
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694569928024
+% abcbook-lastupdated 1695693997077
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 27299
+X: 81105
 T: Six Feet Underground
 C:Charlotte Lyngbye
 B: songs
@@ -79823,7 +79856,7 @@ W: Dead or alive
 % abcbook-repeats 1
 
 
-X: 1188
+X: 1189
 T: Wrong Man At The Wrong Time
 C:Steve Ryan
 B: songs
@@ -79844,7 +79877,7 @@ W: With the last of six adopted girls, I fell head over heels
 W: Her mum cracked me up, waved a finger, "you wear two condoms young man"
 W: While the silky played chase with the cats in a general pandemonium.
 W: 
-W: Twenty three  a hot blond mum in a sweet little country town
+W: Twenty five  a hot blond mum in a sweet little country town
 W: where theatre and musical community abound
 W: Despite the lusting, trusting and the music that we shared
 W: In my tender years, free as a bird, commitment wasn't there
@@ -79890,7 +79923,247 @@ W: # chorus
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1695092653655
+% abcbook-lastupdated 1695113552174
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 37322
+T: The Little Girl And The Dreadful Snake
+C:Bill Monroe
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: Our darling wandered far away while she was out at play
+W: Lost in the woods she couldn't hear a sound
+W: She was our darling girl, the sweetest thing in all the world
+W: We searched for her but she couldn't be found
+W: 
+W: I heard the screams of our little girl far away
+W: "Hurry, daddy, here's an awful dreadful snake"
+W: I ran as fast as I could through the dark and weary woods
+W: But I reached our darling girl too late
+W: 
+W: Oh, I began to sigh, I knew that soon she'd have to die
+W: For the snake was warning me close by
+W: I held her close to my face, she said, "Daddy, kill that snake
+W: It's getting dark, tell mommy goodbye"
+W: 
+W: I heard the screams of our little girl far away
+W: "Hurry, daddy, here's an awful dreadful snake"
+W: I ran as fast as I could through the dark and weary woods
+W: But I reached our darling girl too late
+W: 
+W: To all parents I must say, don't let your children stray away
+W: They need your love to guide them along
+W: Oh, God, I pray we'll see our darling someday
+W: It seems I still hear her voice around our home
+W: 
+W: I heard the screams of our little girl far away
+W: "Hurry, daddy, here's an awful dreadful snake"
+W: I ran as fast as I could through the dark and weary woods
+W: But I reached our darling girl too late
+% abcbook-tune_id 650bbe8a54b5e7abd751eb75
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=mh98xtuyOpY
+% abcbook-link-title-0 Billy Monroe- The Little Girl and the Dreadful Snake
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695274401286
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 75936
+T: Uncle Pen
+C:Bill Monroe
+B: songs
+B: working
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: Oh, the people would come from far away,
+W: To dance all night to the break of day.
+W: When the caller would holler: "Do Si Do",
+W: They knew Uncle Pen was ready to go.
+W: 
+W: Late in the evening, about sundown,
+W: High on the hill, an' above the town,
+W: Uncle Pen played the fiddle, Lord, how it rang,
+W: You could hear it talk, you could hear it sing!
+W: 
+W: Well, he played an old tune they called the "Soldier's Joy",
+W: And he played the one they called the "Boston Boy".
+W: Greatest of all was the "Jennie Lynn",
+W: To me, that's where the fiddlin' begins.
+W: 
+W: Late in the evening, about sundown,
+W: High on the hill, an' above the town,
+W: Uncle Pen played the fiddle, Lord, how it rang,
+W: You could hear it talk, you could hear it sing!
+W: 
+W: I'll never forget that mournful day
+W: When old Uncle Pen was called away,
+W: He hung up his fiddle and he hung up his bow,
+W: And he knew it was time for him to go.
+W: 
+W: Late in the evening, about sundown,
+W: High on the hill, an' above the town,
+W: Uncle Pen played the fiddle, Lord, how it rang,
+W: You could hear it talk, you could hear it sing!
+W: 
+W: Late in the evening, about sundown,
+W: High on the hill, an' above the town,
+W: Uncle Pen played the fiddle, Lord, how it rang,
+W: You could hear it talk, you could hear it sing!...
+% abcbook-tune_id 650d571b82be36f0804ad79d
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=MeZPAQRl7TA
+% abcbook-link-title-0 Bill Monroe &amp; The Blue Grass Boys - Uncle Pen (1965).
+% abcbook-link-start-at-0 26
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695443722046
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 59037
+T: Watch'cha Gonna Do
+C:Bela Fleck
+B: working
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: When the land goes under the water?
+W: 
+W: Can't go east
+W: Can't go west
+W: What'cha gonna do, what'cha gonna do?
+W: Black tide's coming
+W: It'll do the rest
+W: When the land goes under the water
+W: 
+W: Can't go north
+W: Can't go south
+W: What'cha gonna do, what'cha gonna do?
+W: Can't go swimming to a big whale's mouth
+W: When the land goes under the water
+W: 
+W: The land is rogue, skies are too
+W: What'cha gonna do, what'cha gonna do?
+W: Too late already when it comes for you
+W: When the land goes under the water
+W: 
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: When the land goes under thе water?
+W: 
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: When the land goеs under the-
+W: 
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: What'cha gonna do, what'cha gonna do?
+W: When the land goes under the water? (Land goes under the water)
+W: Land goes under the water (Land goes under the water)
+W: Land goes under the water
+% abcbook-tune_id 650d5b7ae35fd88ec05cafd1
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=rCXePx2qNUU
+% abcbook-link-title-0 What’cha Gonna Do
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695862085485
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1193
+T: Reliable Soup
+C:Steve Ryan
+B: songs
+B: working
+M:4/4
+Q: 1/4=100
+V:1 
+"Em"zzzzzzzz|"Em"zzzzzzzz|"D"zzzzzzzz|"D"zzzz"Em"zzzz|"D"zzzzzzzz|"D"zzzz"Em"zzzz||
+"Em"zzzzzzzz|"Em"zzzz"G"zzzz|"G"zzzzzzzz|"G"zzzz"D"zzzz|
+"D"zzzzzzzz||"D"zzzz"Em"zzzz||"Em"zzzzzzzz||"Em"zzzzzzzz||
+"Em"zzzzzzzz|"D"zzzzzzzz|"C"zzzz"D"zzzz| "Em"zzzzzzzz||
+W: Reliable Soup - Steve Ryan 25/09/2023
+W: 
+W: 
+W: # verse full
+W: Salty, rich, warm, sweet
+W: Thick with veges, rich with meat
+W: Watery and stringy bits,
+W: hanging in my teeth
+W: Especially an old rooster,
+W: much less fun to eat
+W: 
+W: # verse spicy
+W: Arroz caldo comfort food,
+W: with rice and warming ginger heat
+W: A hug from nature to keep you warm and 
+W: fill your gut with a comforting lump
+W: Add chilli in there to make you sweat and 
+W: help you beat the heat
+W: 
+W: # verse creamy
+W: A chowder rich in butter and cream
+W: Makes me snotty and my nose stream
+W: Creamed corn a little easier done  but 
+W: nowhere near so pleasing
+W: A crunchy crust it seems like cheating, 
+W: if I call it pot pie soup
+W: 
+W: # verse thin
+W: Strained broth when I'm feeling ill
+W: or lazing on the lounge with a noodle cup
+W: Continental croutons, 
+W: crunching in my mouth
+W: Sometimes just a flavor hit is, 
+W: exactly what I need
+W: 
+W: 
+W: Is chicken soup reliable? . ..... well... it usually has meat
+% abcbook-tune_id 6514c1d634bf7b1341ad3f29
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan,steve ryan originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1695868877629
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
