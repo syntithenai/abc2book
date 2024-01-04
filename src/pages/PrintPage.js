@@ -144,7 +144,7 @@ export default function PrintPage(props) {
     
       {(useTunes === null) && <div>Loading ....</div>}
       {(useTunes!== null && useTunes.length == 0) && <div>No tunes selected to print</div>}
-      {(useTunes!== null && useTunes.length > 0) && useTunes.map(function(tune) {
+      {(useTunes!== null && useTunes.length > 0) && <div style={{pageBreakInside:'avoid'}} >{useTunes.map(function(tune) {
             var words = {}
             var current = 0
             if (Array.isArray(tune.words)) {
@@ -167,7 +167,7 @@ export default function PrintPage(props) {
             // && !hasNotes
             var useLink = tune && tune.links && tune.links[0] && tune.links[0].link ? tune.links[0].link : ''
             
-            return (true || !show) ? <div  key={(tune ? tune.id : '')} style={{clear:'both'}} className="pagebreak" >
+            return (true || !show) ? <div  key={(tune ? tune.id : '')} style={{clear:'both'}}>
 				<div className="avoidbreak" >
 					{(useQR ? true : false) && <a style={{float:'left', clear:'right'}} href={useLink} ><div style={{float:'left', clear:'right'}} id={"qrcode_" + tune.id} ></div></a>}
 					
@@ -179,23 +179,21 @@ export default function PrintPage(props) {
 					{((option === "auto" && hasNotes) || option === "justnotation" || option === "notationandlyrics" ) && <AbcPrint abc={props.tunebook.abcTools.json2abc_print(tune)} tunebook={props.tunebook} tune={tune} />}
 					
 					{((option === "auto" && !hasNotes && chords.length > 0) || option === "justchords" || option === "chordsandlyrics") && <div classname='chordsblock' style={chordBlockStyle}>
-					<Container fluid style={{ fontSize:'large' , padding:'0.3em', lineHeight:'2em', marginTop:'1em'}} >{chords.split("\n").map(function(line) {
+					<Container fluid style={{ fontSize:'x' , padding:'0.3em', lineHeight:'2em', marginTop:'1em'}} >{chords.split("\n").map(function(line) {
 						return (line && line.trim().length > 0) ?  <Row style={{borderBottom:'1px solid black'}} >{line.split("|").map(function(bar) {
 							return (bar && bar.trim().length > 0) ? <Col style={{borderRight:'1px solid black'}} >{bar}</Col> : null
 						})}</Row> : <Row>&nbsp;</Row>
 					})}</Container></div> }
 					
-					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) && <div className="lyrics" style={{float:'left' ,clear:'left',marginLeft:'2em'}} >
-						{Object.keys(words).map(function(key) {
-							return <div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
+					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) ? Object.keys(words).map(function(key) {
+							return <div className="lyrics" style={{float:'left' ,clear:'left',marginLeft:'2em'}} ><div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
 									return <div key={lk} className="lyrics-line" >{line}</div>
-								})}</div>
-						})}
-					</div>}
+								})}</div></div>
+						}) : null }
 
             	</div>
 			</div> : null
-		})}
+		})}</div>}
     
 
     </div>
