@@ -225,6 +225,8 @@ export default function MusicSingle(props) {
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
         var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
+        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), true, tune.transpose, tune.key, tune.noteLength, tune.meter)
+        
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
         chords.replaceAll("|",' ').split(' ').forEach(function(chord) {
@@ -413,9 +415,7 @@ export default function MusicSingle(props) {
                         </span>
                         {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >
-                        <pre style={{ fontSize:(zoomChords === true ? '2.4em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{chords}</pre>
-                        
-                        
+                        <pre style={{ fontSize:(zoomChords === true ? '2.4em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{(zoomChords ? chordsWithDots : chords)}</pre>
                         <br/><br/><br/>
                     </div>
                  </div>}

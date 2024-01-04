@@ -3,7 +3,7 @@ import {Button, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
 import BoostSettingsModal from './BoostSettingsModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import BulkChangeValueModal from './BulkChangeValueModal'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, Link} from 'react-router-dom'
     
     
 export default function SelectedItemsModal(props) {
@@ -227,7 +227,7 @@ export default function SelectedItemsModal(props) {
       var sel = props.tunebook.fromSelection(props.selected)
       var links = props.tunebook.abcTools.tunesToLinkList(sel)
       //console.log(sel,links)
-      props.tunebook.utils.download('selected.abc',links) 
+      props.tunebook.utils.download('selected links.txt',links) 
       handleClose()
   }
   
@@ -271,7 +271,7 @@ sortedTagOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
                  }} explicitSave={true} selected={props.selected} forceRefresh={props.forceRefresh} handleClose={handleClose} selectedCount={props.selectedCount} />
                  
              </div>
-             
+              <Link to="/print" ><Button style={{float:'right', marginLeft:'0.2em'}} variant="success"  >Print</Button></Link>
               <Button style={{float:'right', marginLeft:'0.2em'}} variant="success" onClick={clickLinks} >Links</Button>
               <Button style={{float:'right', marginLeft:'0.2em'}} variant="success" onClick={clickDownload} >Download</Button>
               <Button style={{float:'right'}} variant="danger" onClick={clickDelete} >Delete</Button>

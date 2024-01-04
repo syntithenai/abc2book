@@ -395,8 +395,8 @@ function App(props) {
                       <Route  path={`:tuneBook`} element={<CheatSheetPage   tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}   />} />
                     </Route>
                     <Route  path={`print`} >
-                      <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}    />}  />
-                      <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook}    />} />
+                      <Route index element={<PrintPage   tunes={tunes} tunebook={tunebook}  selected={selected}  />}  />
+                      <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook} selected={selected} selectedCount={selectedCount}  />} />
                     </Route>
                     <Route  path={`review`} >
                       <Route index element={<ReviewPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} tunes={tunes} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  forceRefresh={forceRefresh} tunebook={tunebook}    />}  />
