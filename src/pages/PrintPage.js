@@ -29,15 +29,15 @@ export default function PrintPage(props) {
 	
 	function createQRCodes(useTunes) {
 		if (useQR) {
-			console.log('CREATE CODES')
+			//console.log('CREATE CODES')
 			useTunes.forEach(function(tune) {
 				if (tune.links && tune.links.length > 0 && tune.links[0].link) { 
 					var div = document.getElementById("qrcode_"+tune.id)
 					try {	
 						while(div.firstChild && div.removeChild(div.firstChild));
 					} catch (e) {}
-					console.log('Cleared CODE')
-					console.log('CREATE CODE',tune.id,tune.links[0].link, document.getElementById("qrcode_"+tune.id))
+					//console.log('Cleared CODE')
+					//console.log('CREATE CODE',tune.id,tune.links[0].link, document.getElementById("qrcode_"+tune.id))
 					new QRCode(document.getElementById("qrcode_"+tune.id), {
 						text: tune.links[0].link,
 						width: 128,
@@ -52,7 +52,7 @@ export default function PrintPage(props) {
 	}
 	
 	function printMe() {
-		console.log('PRINTME')
+		//console.log('PRINTME')
 		handleClose()
 		setTimeout(function() {
 			window.print()
@@ -100,7 +100,7 @@ export default function PrintPage(props) {
 			}
 		}
 		
-    },[params.tuneBook, props.tunes, props.selected,useQR])
+    },[params.tuneBook, props.tunes, props.selected,useQR,option])
     return <div className="App-print">
     
    
@@ -158,38 +158,42 @@ export default function PrintPage(props) {
                 })
             } 
             var firstVoice = tune.voices && Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
-			var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), true, tune.transpose, tune.key, tune.noteLength, tune.meter)
+			var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
             var cleanNotes = firstVoice.notes.join("\n").replace(/"([^"]+(?="))"/g, '').replace(/z/g, '').replace(/\|/g, '')
             var hasNotes = cleanNotes.trim().length > 0 ? true : false
             //console.log(cleanNotes,hasNotes)
             
+            var  chordBlockStyle = ((option === "auto") || option === "chordsandlyrics") ? { width:'45%', padding:'1em', float:'right'} :  {display:'block', clear:'both', color:'red'}
+            // && !hasNotes
+            var useLink = tune && tune.links && tune.links[0] && tune.links[0].link ? tune.links[0].link : ''
             
-            return (true || !show) ? <div  key={(tune ? tune.id : '')} >
-				
-				{(useQR ? true : false) && <div style={{float:'left', clear:'right'}} id={"qrcode_" + tune.id} ></div>}
-				
-				{((option === "auto" && !hasNotes) || option === "justchords" || option === "justlyrics" || option === "chordsandlyrics"  ) && <div style={{marginBottom:'1.2em', clear:'both'}}>
-					{(tune.composer) && <div className="composer" style={{float:'right'}} >{tune.composer}</div>}
-					{<div className="title" style={{textAlign:'center', fontSize:'1.7em', fontFamily:'serif'}} >{tune.name}</div>}
-				</div>}
-				
-				{((option === "auto" && hasNotes) || option === "justnotation" || option === "notationandlyrics" ) && <AbcPrint abc={props.tunebook.abcTools.json2abc_print(tune)} tunebook={props.tunebook} tune={tune} />}
-				
-				{((option === "auto" && !hasNotes) || option === "justchords" || option === "chordsandlyrics") && <div classname='chordsblock' style={{display:'block', clear:'both'}}>
-				<Container fluid style={{ fontSize:'large' , padding:'0.3em', lineHeight:'2em', marginTop:'1em'}} >{chords.split("\n").map(function(line) {
-					return (line && line.trim().length > 0) ?  <Row style={{borderBottom:'1px solid black'}} >{line.split("|").map(function(bar) {
-						return (bar && bar.trim().length > 0) ? <Col style={{borderRight:'1px solid black'}} >{bar}</Col> : null
-					})}</Row> : <Row>&nbsp;</Row>
-				})}</Container></div> }
-				
-            	
-				{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) && <div className="lyrics" style={{marginLeft:'2em', clear:'both'}} >
-					{Object.keys(words).map(function(key) {
-						return <div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
-								return <div key={lk} className="lyrics-line" >{line}</div>
-							})}</div>
-					})}
-				</div>}
+            return (true || !show) ? <div  key={(tune ? tune.id : '')} style={{clear:'both'}} className="pagebreak" >
+				<div className="avoidbreak" >
+					{(useQR ? true : false) && <a style={{float:'left', clear:'right'}} href={useLink} ><div style={{float:'left', clear:'right'}} id={"qrcode_" + tune.id} ></div></a>}
+					
+					{((option === "auto" && !hasNotes) || option === "justchords" || option === "justlyrics" || option === "chordsandlyrics"  ) && <div style={{marginBottom:'1.2em'}}>
+						{(tune.composer) && <div className="composer" style={{float:'right'}} >{tune.composer}</div>}
+						{<div className="title" style={{textAlign:'center', fontSize:'1.7em', fontFamily:'serif'}} >{tune.name}</div>}
+					</div>}
+					
+					{((option === "auto" && hasNotes) || option === "justnotation" || option === "notationandlyrics" ) && <AbcPrint abc={props.tunebook.abcTools.json2abc_print(tune)} tunebook={props.tunebook} tune={tune} />}
+					
+					{((option === "auto" && !hasNotes && chords.length > 0) || option === "justchords" || option === "chordsandlyrics") && <div classname='chordsblock' style={chordBlockStyle}>
+					<Container fluid style={{ fontSize:'large' , padding:'0.3em', lineHeight:'2em', marginTop:'1em'}} >{chords.split("\n").map(function(line) {
+						return (line && line.trim().length > 0) ?  <Row style={{borderBottom:'1px solid black'}} >{line.split("|").map(function(bar) {
+							return (bar && bar.trim().length > 0) ? <Col style={{borderRight:'1px solid black'}} >{bar}</Col> : null
+						})}</Row> : <Row>&nbsp;</Row>
+					})}</Container></div> }
+					
+					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) && <div className="lyrics" style={{float:'left' ,clear:'left',marginLeft:'2em'}} >
+						{Object.keys(words).map(function(key) {
+							return <div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
+									return <div key={lk} className="lyrics-line" >{line}</div>
+								})}</div>
+						})}
+					</div>}
+
+            	</div>
 			</div> : null
 		})}
     

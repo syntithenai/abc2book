@@ -1,7 +1,8 @@
 @media print {
-  div {
+  div.avoidbreak {
     break-inside: avoid;
   }
+  div.pagebreak { page-break-before: always; }
   .App-body {
 	margin-top: 0em !important;
   }
