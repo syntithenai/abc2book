@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
 import 'react-piano/dist/styles.css';
 
-import DimensionsProvider from '../DimensionsProvider';
+import useWindowSize from '../useWindowSize'
 import SoundfontProvider from '../SoundfontProvider';
 import '../piano_styles.css';
 
@@ -94,6 +94,7 @@ function BasicPiano(props) {
 
 function ResponsivePiano(props) {
   const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
+  var windowSize = useWindowSize()
   useEffect(function() {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
       //console.log('create context',audioContext.current,props.soundFontUrl)
@@ -109,16 +110,14 @@ function ResponsivePiano(props) {
     })}
     </select></label>
     <br/><br/>
-    <DimensionsProvider>
-      {({ containerWidth, containerHeight }) => (
-        <SoundfontProvider
+     <SoundfontProvider
           instrumentName={useInstrument}
           audioContext={audioContext.current}
           hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
           render={({ isLoading, playNote, stopNote }) => (
             <Piano
               noteRange={noteRange}
-              width={containerWidth}
+              width={windowSize[0]}
               playNote={playNote}
               stopNote={stopNote}
               disabled={isLoading}
@@ -126,8 +125,8 @@ function ResponsivePiano(props) {
             />
           )}
         />
-      )}
-    </DimensionsProvider></div>
+        
+      </div>
   );
 }
 export default ResponsivePiano
