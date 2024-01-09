@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import abcjs from "abcjs";
 import {Link, useNavigate} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
-import ReactNoSleep from 'react-no-sleep';
+import ReactNoSleep from '../ReactNoSleep';
 import AbcPlayButton from './AbcPlayButton'
 import TempoControl from './TempoControl'
 import TransposeModal from './TransposeModal'
