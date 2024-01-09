@@ -3,7 +3,7 @@ import abcjs from "abcjs";
 import {Link} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
 import useAbcTools from '../useAbcTools'
-import ReactNoSleep from 'react-no-sleep';
+//import ReactNoSleep from 'react-no-sleep';
 import AbcPlayButton from './AbcPlayButton'
 import Metronome from '../Metronome'
 import * as localForage from "localforage";
@@ -1010,9 +1010,7 @@ export default function AbcSynth(props) {
             if (props.forceRefresh) props.forceRefresh()
           }
         }} />
-       <ReactNoSleep>
-            {({ isOn, enable, disable }) => (
-              <span >
+             <span >
                  <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} forceRefresh={props.forceRefresh} />
                
                 WARP{props.warp}
@@ -1020,12 +1018,14 @@ export default function AbcSynth(props) {
                 {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
                 {(!props.link && !props.hideSvg) && <div id="abc_music_viewer" ref={inputEl} ></div>}
               </span>
-            )}
-        </ReactNoSleep></>
+
       );
     }
 }
-
+  //<ReactNoSleep>
+            //{({ isOn, enable, disable }) => (
+          //)}
+        //</ReactNoSleep></>
   //{(props.tempo) ? <span  >
               //{!props.hidePlayer && <AbcPlayButton forceRefresh={props.forceRefresh} tune={tune}  started={started} ready={ready}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} clickInit={function(e) {clickInit(true) }} clickPlay={clickPlay}  clickRecord={clickRecord} clickStopPlaying={stopPlaying} tunebook={props.tunebook} />  }
             //</span> : null}
