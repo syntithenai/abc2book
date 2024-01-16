@@ -8,6 +8,7 @@ const Application = function(meter,notes, frequencyBars) {
   this.tuner = new Tuner(this.a4)
   this.notes = new Notes(notes, this.tuner)
   this.meter = new Meter(meter)
+  this.isRunning = true
   this.frequencyBars = new FrequencyBars(frequencyBars)
   this.update({ name: 'A', frequency: this.a4, octave: 4, value: 69, cents: 0 })
 }
@@ -16,10 +17,17 @@ Application.prototype.init = function(meter,notes) {
   this.tuner.init()
 }
 
+Application.prototype.stop = function(meter,notes) {
+  if (this.tuner) this.tuner.stop()
+  this.isRunning = false
+}
+
 
 Application.prototype.start = function(meter,notes) {
   const self = this
+  self.isRunning = true
   //console.log('app start')
+  //this.tuner.start()
   this.tuner.onNoteDetected = function(note) {
     if (self.notes.isAutoMode) {
       if (self.lastNote === note.name) {
@@ -36,11 +44,13 @@ Application.prototype.start = function(meter,notes) {
 Application.prototype.updateFrequencyBars = function() {
   //console.log('app update freq')
   if (this.tuner.analyser) {
-    //console.log('app update freq analysier')
-    this.tuner.analyser.getByteFrequencyData(this.frequencyData)
-    this.frequencyBars.update(this.frequencyData)
+    //console.log('app update freq analysier', this.frequencyData)
+    if (this.frequencyData)  {
+		this.tuner.analyser.getByteFrequencyData(this.frequencyData)
+		this.frequencyBars.update(this.frequencyData)
+	}
   }
-  requestAnimationFrame(this.updateFrequencyBars.bind(this))
+  if (this.isRunning) requestAnimationFrame(this.updateFrequencyBars.bind(this))
 }
 
 Application.prototype.update = function(note) {

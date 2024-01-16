@@ -62,6 +62,7 @@ export default function AbcEditor(props) {
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
   useEffect(() => {
+	  //console.log('abcedit abc change',props.abc)
     setAbcText(props.abc);
     //var tune = props.tunebook.abcTools.abc2json(props.abc)
     //setTune(tune)
@@ -86,7 +87,7 @@ export default function AbcEditor(props) {
   }
 
   function saveTune(tune) {
-    //console.log('savetune',tune)
+    //console.log('savetune abceditor',tune)
      try {
       props.pushHistory(tune)
      } catch (e) {
@@ -108,7 +109,7 @@ export default function AbcEditor(props) {
       tune.id = params.tuneId
       saveTune(tune) 
       //setTune(tune)
-      //console.log('SAVEd NOTES',tune, voice, notes, v)
+      //console.log('SAVEd NOTES',tune, "V",voice,"N", notes, "JN",v)
     }
   }
     //setAbcTuneNotes(v); 
@@ -187,7 +188,7 @@ export default function AbcEditor(props) {
     return null
   } else {
     return (
-        <div style={{minHeight: '40em'}} >
+        <div style={{minHeight: '40em'}} > 
           <div style={{display: 'none'}}  id="audio">Player</div>
           <Tabs defaultActiveKey="musiceditor" id="uncontrolled-tab-example" className="mb-3">
                   <Tab eventKey="musiceditor" title="Music">
@@ -365,10 +366,10 @@ export default function AbcEditor(props) {
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   
-                  {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Tab eventKey="files" title="Images" >
+                  {<Tab eventKey="files" title="Images" >
                         <Form.Group className="mb-3" controlId="images">
                             <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
-                            <ImagesEditor setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
+                            <ImagesEditor logout={props.logout} login={props.login} token={props.token} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
                         </Form.Group>
                   </Tab>}
                   
@@ -411,7 +412,7 @@ export default function AbcEditor(props) {
     
   }
 }
-
+//localStorage.getItem('bookstorage_inlineaudio') === "true" && 
   //<Tab eventKey="comments" title="Comments" >
     //<textarea value={Array.isArray(tune.abccomments) ? tune.abccomments.join("\n") : ''} onChange={function(e) {tune.abccomments = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
   //</Tab>

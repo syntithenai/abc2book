@@ -57,7 +57,7 @@ function BookSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='search'  onFocus={function() {props.setBlockKeyboardShortcuts(true)}} onBlur={function() {props.setBlockKeyboardShortcuts(false)}}  value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
+          <input type='search'  onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
           {(props.allowNew !== false)  && <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>}
         </Modal.Body>
         <Modal.Footer>

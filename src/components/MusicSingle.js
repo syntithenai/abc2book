@@ -21,16 +21,9 @@ import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
 import SharePublicTuneModal from '../components/SharePublicTuneModal'
-  //return (
-    //<ReactTags
-      //ref={reactTags}
-      //tags={tags}
-      //suggestions={suggestions}
-      //onDelete={onDelete}
-      //onAddition={onAddition}
-    ///>
-  //)
-
+import PDFViewer from './PDFViewer'
+import ImagesEditorModal from './ImagesEditorModal'
+  
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
@@ -53,9 +46,12 @@ export default function MusicSingle(props) {
     const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
     
+
     useEffect(function() {
-        var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
+		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
+        //console.log('single change', params.tuneId, t, props.tunes)
         if (t) {
+			//if (t && t.id && Array.isArray(t.files)) console.log('FILES',t.files)
             //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
             //console.log("HACK TUNE TEMPO", t.tempo)
             setTune(t)
@@ -225,7 +221,7 @@ export default function MusicSingle(props) {
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
         var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
-        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), true, tune.transpose, tune.key, tune.noteLength, tune.meter)
+        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
         
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
@@ -280,31 +276,31 @@ export default function MusicSingle(props) {
         }
         
         function removeLink(tune,index) {
-            console.log('remove links',tune.links,index)
+            //console.log('remove links',tune.links,index)
             tune.links.splice(index,1)
             props.tunebook.saveTune(tune)
         }
         
         function zoomIn() {
-            console.log("zoomin",tune)
+            //console.log("zoomin",tune)
             var zoom = tune && tune.zoom && tune.zoom < 5 ? tune.zoom : 1 
             tune.zoom = zoom + 0.1
             props.tunebook.saveTune(tune)
         }
         
         function zoomOut() {
-            console.log("zoomout",tune)
+            //console.log("zoomout",tune)
             var zoom = tune && tune.zoom && tune.zoom < 5 ? tune.zoom : 1 
             tune.zoom = zoom - 0.1
             props.tunebook.saveTune(tune)
         }
-        
+        // 640ac8b26312f4897797a843
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
         return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
             <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
-                 <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
+                  <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                  
                  {props.viewMode === 'chords' && <>
                  <Button onClick={zoomIn} style={{float:'right', marginLeft:'0.3em'}} >{props.tunebook.icons.zoomin}</Button>
@@ -365,12 +361,36 @@ export default function MusicSingle(props) {
                    
                   
                 </ButtonToolbar>
+                <ImagesEditorModal tunebook={props.tunebook} tune={tune} login={props.login} logout={props.logout} token={props.token} />
+                
                  <span style={{float:'left', marginLeft:'0.2em'}} ><SharePublicTuneModal tunebook={props.tunebook} tune={tune} /></span>
 
             </div>
              {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
           
-           
+				   {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%'}} >
+					   <div style={{textAlign:'center'}} >
+							<b style={{fontSize:'2em'}}>{tune.name}</b>
+							{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
+						</div>
+						 {tune.files.map(function(file,fk) {
+							if (file.type === 'image') {
+								return <img key={fk} style={{width:'100%'}} src={file.data} />
+							} else if (file.type === 'pdf') {
+								return <PDFViewer tunebook={props.tunebook} showPages='8' key={fk} style={{width:'100%'}} src={file.data} />  
+							} else {
+								return '' 
+							}
+						  })}
+					  </div>}
+              
+			  
+
+
+  
+
+              
+              
              {props.viewMode === 'chords' && <>
                 {!zoomChords && <div style={{border:'1px solid black'}}>
                      <div className="title" style={{ marginTop:'0.25em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
@@ -385,7 +405,6 @@ export default function MusicSingle(props) {
                                     return <div key={lk} className="lyrics-line" >{line}</div>
                                 })}</div>
                         })}
-                        
                      </div>}
                      {(squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
                         {Object.keys(words).map(function(key) {
@@ -415,7 +434,7 @@ export default function MusicSingle(props) {
                         </span>
                         {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >
-                        <pre style={{ fontSize:(zoomChords === true ? '2.4em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{(zoomChords ? chordsWithDots : chords)}</pre>
+                        <pre style={{ fontWeight:'bold', fontSize:(zoomChords === true ? '2.5em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{(zoomChords ? chordsWithDots : chords)}</pre>
                         <br/><br/><br/>
                     </div>
                  </div>}
@@ -430,11 +449,7 @@ export default function MusicSingle(props) {
                   </div>
              </div>}
              
-             {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} >
-                 {tune.files.map(function(file,fk) {
-                    return file.type === 'image' ? <img key={fk} style={{width:'100%'}} src={file.data} /> : '' 
-                  })}
-              </div>}
+             
              
              <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook}  tune={tune} onEnded={onEnded} />
              
@@ -442,6 +457,8 @@ export default function MusicSingle(props) {
         </div>
     }
 }
+
+
  //{(!props.abcPlaylist && props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
                     //<ButtonGroup variant="danger">
                         //{(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {

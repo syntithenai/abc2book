@@ -15,17 +15,19 @@ return <Modal.Dialog
             {props.tunebook.icons.save}  Download Tune Book
           </Button>
         <p>This database is different to what is stored in Google Drive. </p>
-        <p>To merge the changes </p>
+        {props.sheetUpdateResults && <><p>To merge the changes </p>
          {Object.keys(props.sheetUpdateResults.localUpdates).length ?<div><b>{Object.keys(props.sheetUpdateResults.localUpdates).length}</b> items updated locally will be saved</div>: ''}
          {Object.keys(props.sheetUpdateResults.inserts).length ? <div><b>{Object.keys(props.sheetUpdateResults.inserts).length}</b> items will be inserted</div>: ''}
         {Object.keys(props.sheetUpdateResults.updates).length ?<div><b>{Object.keys(props.sheetUpdateResults.updates).length}</b> items will be updated</div>: ''}
         {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> items that only exist locally will be saved. These may have been deleted on another device in which case you should discard your local differences.</div>: ''}
-       
+        {Object.keys(props.sheetUpdateResults.filesToLoad).length ?<div><b>{Object.keys(props.sheetUpdateResults.filesToLoad).length}</b> missing files will be loaded.</div>: ''}
+        {Object.keys(props.sheetUpdateResults.filesToSave).length ?<div><b>{Object.keys(props.sheetUpdateResults.filesToSave).length}</b> files will be saved online.</div>: ''}
+        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
           
           <Button variant="warning" onClick={props.closeWarning} >Logout</Button>
-          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
+          &nbsp;{Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
           &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>
           
         </div>
@@ -51,6 +53,7 @@ return <Modal.Dialog
             })}
           </Tab>
         </Tabs>
+        </>}
       </Modal.Body>
 
       

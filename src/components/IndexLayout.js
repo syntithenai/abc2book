@@ -66,22 +66,22 @@ export default function IndexLayout(props) {
     
     useEffect(function() {
         //console.log("IL boot")
-        if (true || filtered === null || filtered === undefined) {
-          //console.log('RUN SEARCH on init')
-          //var filtered = Object.values(props.tunes).filter(filterSearch)
-          //console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
-          //filtered.sort(function(a,b) { 
-              //return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-          //})
+        //if (true || filtered === null || filtered === undefined) {
+          ////console.log('RUN SEARCH on init')
+          ////var filtered = Object.values(props.tunes).filter(filterSearch)
+          ////console.log( 'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+          ////filtered.sort(function(a,b) { 
+              ////return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+          ////})
           
-          //setFiltered(filtered)
-          runFilter()
-          //setSelected({})
-          //setSelectedCount(0)
-        } else {
-            //console.log('RUN SEARCH init use cache')
-            console.log( filtered, grouped,'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
-        }
+          ////setFiltered(filtered)
+          //runFilter()
+          ////setSelected({})
+          ////setSelectedCount(0)
+        //} else {
+            ////console.log('RUN SEARCH init use cache')
+            //console.log( filtered, grouped,'F',props.filter,'B', props.currentTuneBook,"t", props.tagFilter,"G",props.groupBy)
+        //}
         setTimeout(function() {
             //console.log('doscrollSTART',props.scrollOffset)
             window.scroll(0,props.scrollOffset)
@@ -139,7 +139,8 @@ export default function IndexLayout(props) {
                     tuneStatus[tune.id] = {
                       hasLyrics:hasLyrics,
                       hasNotes: hasNotes,
-                      hasChords: hasChords
+                      hasChords: hasChords,
+                      hasImages: (Array.isArray(tune.files) && tune.files.length > 0) ? true : false
                     }
                     var tuneStatusKey = []
                     if (hasLyrics) tuneStatusKey.push('lyrics')
@@ -202,9 +203,9 @@ export default function IndexLayout(props) {
               setFiltered({})
               //setSelected({})
             } else  {
-                console.log("no books, tags or filter")
+                //console.log("no books, tags or filter")
                 var filtered = Object.values(props.tunes).filter(filterSearchNoBooks)
-                console.log(filtered)
+                //console.log(filtered)
                 filtered.sort(function(a,b) { 
                       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
                 })
@@ -370,6 +371,7 @@ export default function IndexLayout(props) {
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.quillpen}</Button> : null}</span>
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLinks) ? <Button variant="outline-primary">{props.tunebook.icons.link}</Button> : null}</span>
+                        <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasImages) ? <Button variant="outline-primary">{props.tunebook.icons.camera}</Button> : null}</span>
                     </span> 
                     {(tune && tune.id && selected && selected[tune.id]) && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                     {(tune && tune.id && (!selected || !selected[tune.id])) && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
@@ -412,14 +414,13 @@ export default function IndexLayout(props) {
     var freshSelectedCount = countSelected()
     
     return <div className="index-layout"  >
-    
-        <div id={JSON.stringify(selected)} >
-        <div  >
+      <div id={JSON.stringify(selected)} >
+        <div  style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}}  >
             <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
             <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
             <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
-            <Link style={{marginLeft:'1em'}} to="/books"><Button variant="info" >{props.tunebook.icons.book}</Button></Link>
         </div>
+        <Link style={{float:'left',marginLeft:'1em'}} to="/books"><Button variant="info" >{props.tunebook.icons.book}</Button></Link>
         <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
                 if (selected[v]) {
                      return v

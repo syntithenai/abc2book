@@ -333,8 +333,29 @@ export default function utilsFunctions(props) {
         }
         return newStr
     }
+    
+    function dataURItoBlob(dataURI, mime = 'image/jpeg') {
+		var binary = atob(dataURI.split(',')[1]);
+		var array = [];
+		for(var i = 0; i < binary.length; i++) {
+			array.push(binary.charCodeAt(i));
+		}
+		return new Blob([new Uint8Array(array)], {type: mime});
+	}
+
+	function blobToBase64(blob) {
+		return new Promise(function(resolve,reject) {
+			var reader = new FileReader();
+			reader.onload = function() {
+				var dataUrl = reader.result;
+				//var base64 = dataUrl.split(',')[1];
+				resolve(dataUrl);
+			};
+			reader.readAsDataURL(blob);
+		})
+	};
      
           
-    return {loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl}
+    return {blobToBase64, dataURItoBlob, loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl}
     
 }

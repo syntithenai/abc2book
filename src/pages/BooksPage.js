@@ -55,15 +55,15 @@ export default function BooksPage(props) {
             
         
             {tbOptions.length > 0 && <div>
-                <div style={{float:'left'}} >
+                <div style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}} >
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
                     <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
-                    <Link style={{marginLeft:'1em'}} to="/tunes"><Button variant="info" >{props.tunebook.icons.search}</Button></Link>
                 </div>
-                <div style={{textAlign:'right',  padding:'0.2em'}} id="tunebookbuttons" >
+                <Link style={{marginLeft:'1em'}} to="/tunes"><Button variant="info" >{props.tunebook.icons.search}</Button></Link>
+                <div style={{float:'right'}} id="tunebookbuttons" >
                     <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
-                    <ImportOptionsModal  token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+                    <ImportOptionsModal  tunes={props.tunes} token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
                     <Button variant="info" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
                     {props.tunebook.icons.save} Download
                     </Button>

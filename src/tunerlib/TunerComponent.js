@@ -12,9 +12,14 @@ export default function TunerComponent(props) {
         //console.log('tc eff',meter.current,notes.current,frequencyBars.current)
         if (meter.current && notes.current && frequencyBars.current) {
             //console.log('tc eff start',meter.current,notes.current,frequencyBars.current)
-            console.log(Application)
+            //console.log(Application)
             app.current = new Application(meter.current,notes.current,frequencyBars.current)
         }
+        return function() {
+			if (app.current) {
+				app.current.stop()
+			}
+		}
     },[])
     
     function initAudio() {

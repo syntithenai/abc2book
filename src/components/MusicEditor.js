@@ -45,7 +45,7 @@ export default function MusicEditor(props) {
            
         </div>
         <MediaSeekSlider  mediaController={props.mediaController} />
-        <AbcEditor mediaController={props.mediaController} pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
+        <AbcEditor  logout={props.logout} login={props.login}  token={props.token} mediaController={props.mediaController} pushHistory={props.pushHistory} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
         
     </div>
 }

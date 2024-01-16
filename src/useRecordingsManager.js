@@ -4,12 +4,12 @@ import useGoogleDocument from './useGoogleDocument'
 
 import MP3Converter from './MP3Converter'
 
-export default function useRecordingsManager(token) {
+export default function useRecordingsManager(token, logout) {
   var store = localForage.createInstance({
     name: "recordings"
   });
     //console.log('rec man ',token)
-  var docs = useGoogleDocument(token)
+  var docs = useGoogleDocument(token, logout)
   
   var mediaRecorder = useRef(null)
   let chunks = [];

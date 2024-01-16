@@ -1,34 +1,142 @@
 import axios from 'axios'
 import {useRef, useEffect} from 'react'
+import isOnline from 'is-online';
+import useUtils from './useUtils'
 
-export default function useGoogleDocument(token, refresh, onChanges, pausePolling, pollInterval) {
+//console.log(await isOnline());
+export default function useGoogleDocument(token, logout, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
   var pollChangesTimeout = useRef(null)
-     
+  var utils = useUtils()
+  var tuneBookName="ABC Tune Book"
+  
   useEffect(function() {
     //console.log('use doc tok change',onChanges, token)
     if (token && token.access_token && onChanges) {
-      //console.log('use doc tok change have changes fn start poll')
+      //console.log('START POLL')
       pollChanges(pollInterval, onChanges)
     }
     return function() {
-      //console.log('use doc unload')
+      //console.log('STOP POLL')
       stopPollChanges()
     }
   },[token])
-  
+	 
+	function syncAttachedFiles(tunes, force_token = null) {
+		 // load missing
+		 var final = {}
+		 var useToken = force_token ? force_token : (token ? token.access_token : null)
+		 console.log('sync', useToken, tunes)
+		 return new Promise(function(resolve,reject) { 
+			 var promises = []
+			 Object.values(tunes).forEach(function(tune, tuneKey) {
+				 final[tune.id] = tune
+				if (tune && tune.id && Array.isArray(tune.files)) {
+					tune.files.forEach(function(file, fileKey) {
+						// have doc but not data so load 
+						if (file && file.googleDocumentId && !file.data) { 
+							//console.log('sync load tune ',tune, file, useToken)
+							promises.push(new Promise(function(iresolve,ireject) {
+								//console.log('start prom ')
+									
+								getDocumentBlob(file.googleDocumentId, useToken).then(function(blob) {
+								 //console.log('got blob ')
+									//TODO convert base64
+									utils.blobToBase64(blob).then(function(cbData) {
+										//console.log('set final loaded',tune.id, fileKey)
+										//final[tune.id].files[fileKey].data = cbData
+										iresolve([tune.id,fileKey,cbData])
+										//console.log('sync loaded tune ',cbData, final[tune.id].files)
+									})
+								})
+							}))
+						} else {
+							if (file && !file.googleDocumentId && file.data && file.name) { 
+								//console.log('sync save tune ',tune, file, useToken)
+								//console.log('have tune data ',tunes[tuneId].files[fileKey])
+								findTuneBookFolderInDrive().then(function(folderId) {
+									createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
+										//console.log('created', res)
+										if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
+									})
+								})
+							}
+						}
+					})
+				}
+			}) 
+			//Object.keys(tunes).forEach(function(tune) {
+				//console.log('sync save file ',tune)
+				//if (tunes[tuneId]) {
+					//console.log('have tune ',filesToSave[tuneId],tunes[tuneId].files)
+					//var fileKey = filesToSave[tuneId]
+					
+				//}
+			//})
+			Promise.all(promises).then(function(f) {
+				//console.log('FINAL LOAD PROMISES',f, "FFF",final)
+				f.forEach(function(fileData) {
+					//console.log('SET FILE ',fileData)
+					final[fileData[0]].files[fileData[1]].data = fileData[2]
+				})
+				resolve(final)
+				
+			})
+		})
+		
+	}		
+			
+	
+    function findTuneBookFolderInDrive() {
+		return new Promise(function(resolve,reject) {
+			//console.log('find folder in drive')
+			var xhr = new XMLHttpRequest();
+			xhr.onload = function (res) {
+				if (res.target.responseText) {
+					var response = JSON.parse(res.target.responseText)
+					//console.log('find tunebook folder',response)
+					var found = false
+					if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
+						// load whole file
+						if (Array.isArray(response.files)) {
+							response.files.forEach(function(file) {
+								if (file && file.name === tuneBookName) {
+									found = file.id
+								}
+							})
+						}
+					}
+					//console.log('FOUND tunebook folder',found)
+					if (found) {
+						resolve(found)
+					} else {
+						createDocument(tuneBookName,null, 'application/vnd.google-apps.folder','Folder for '+tuneBookName+' data').then(function(newId) {
+							resolve(newId)
+						})
+					}
+				}
+			};
+			var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType = 'application/vnd.google-apps.folder' and trashed = false") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
+			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+			xhr.send();
+		})
+	}		
+	
   function _pollChanges(interval, onChanges, multiplier = 1) {
       //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
       if (!localStorage.getItem('google_last_page_token')) {
         getStartPageToken().then(function() {
           doPollChanges().then(function(res) {
-            if (onChanges && Array.isArray(res) && res.length > 0) {
-                onChanges(res).then(function() {
-                    pollChanges(interval, onChanges)  
-                })
-            } else {
-                pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
+            if (onChanges && Array.isArray(res)) {
+				if (res.length > 0) {
+					onChanges(res).then(function() {
+						pollChanges(interval, onChanges)  
+					})
+				} else {
+					pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
+				}
             }
             
           })
@@ -39,14 +147,15 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
       } else {
         doPollChanges().then(function(res) {
           //console.log('onChanges',onChanges)
-          if (onChanges && Array.isArray(res) && res.length > 0) {
-              onChanges(res).then(function() {
-                pollChanges(interval, onChanges)  
-              })
-          } else {
-              pollChanges(interval, onChanges, (multiplier < 18 ? multiplier + 1 : multiplier))  
-          }
-          
+          if (onChanges && Array.isArray(res)) {
+				if (res.length > 0) {
+					onChanges(res).then(function() {
+						pollChanges(interval, onChanges)  
+					})
+				} else {
+					pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
+				}
+			}
         })
         //.finally(function() {
             //pollChanges(interval, onChanges)  
@@ -59,19 +168,21 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     var useInterval = interval > 4000 ? interval : 15000
     //console.log('POLL',useInterval , interval, multiplier)
     clearTimeout(pollChangesTimeout.current) 
-    pollChangesTimeout.current = setTimeout(function() {_pollChanges(interval,onChanges, multiplier)}, useInterval * multiplier/3)
+    pollChangesTimeout.current = setTimeout(function() {_pollChanges(interval,onChanges, multiplier)}, useInterval) // * multiplier/3)
     return 
   }
   
   function stopPollChanges() {
-    clearTimeout(pollChangesTimeout.current) 
+    clearTimeout(pollChangesTimeout.current)  
   }
   
   function getStartPageToken() {
     return new Promise(function(resolve,reject) {
       //console.log('get rec' ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
-      if (accessToken) {
+      var online = isOnline()
+      //console.log('get start token' ,accessToken, online)
+      if (accessToken && online) {
         var url = 'https://www.googleapis.com/drive/v3/changes/startPageToken'
         axios({
           method: 'get',
@@ -82,6 +193,11 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log(postRes)
           resolve(postRes.data)
         }).catch(function(e) {
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  //console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           resolve()
         })
       } else {
@@ -91,46 +207,55 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     })
   }
   
-  function doPollChanges() {
-    return new Promise(function(resolve,reject) {
-      //console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
-      if (pausePolling && pausePolling.current) {
-        resolve()
-      } else {
-        //console.log('POLL')
-        if (localStorage.getItem('google_last_page_token') && accessToken) {
-            //console.log('REALLY DO POLL token ',accessToken)
-          var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
-          axios({
-            method: 'get',
-            url: url,
-            headers: {'Authorization': 'Bearer '+accessToken},
-          }).then(function(postRes) {
-            //console.log(postRes)
-            if (postRes.data && postRes.data.newStartPageToken) {
-              localStorage.setItem('google_last_page_token',postRes.data.newStartPageToken)
-            }
-            if (postRes.data) {
-              resolve(postRes.data.changes)
-            } else {
-               resolve()
-            } 
-          }).catch(function(e) {
-            resolve()
-          })
-        } else {
-          resolve()
-        }
-      }
-    })
-  }
+	function doPollChanges() {
+		return new Promise(function(resolve,reject) {
+			//console.log('DO POLL' ,accessToken, localStorage.getItem('google_last_page_token'))
+			if (pausePolling && pausePolling.current) {
+				resolve()
+			} else {
+				if (localStorage.getItem('google_last_page_token') && accessToken) {
+					//console.log('REALLY DO POLL token ',accessToken)
+					var url = 'https://www.googleapis.com/drive/v3/changes?pageToken=' + localStorage.getItem('google_last_page_token')
+					axios({
+						method: 'get',
+						url: url,
+						headers: {'Authorization': 'Bearer '+accessToken},
+					}).then(function(postRes) {
+						//console.log('CHANGES',postRes)
+						if (postRes && postRes.data && postRes.data.newStartPageToken) {
+						  localStorage.setItem('google_last_page_token',postRes.data.newStartPageToken)
+						}
+						if (postRes && postRes.data && Array.isArray(postRes.data.changes) && postRes.data.changes.length > 0) {
+						  resolve(postRes.data.changes)
+						} else {
+							//console.log('no data')
+							//stopPollChanges()
+							//refresh()
+							resolve([])
+						} 
+					}).catch(function(e) {
+						console.log('axios err', e)
+						if (e && e.response && e.response.status == '401') {
+							  console.log('LOGOUT ON AUTH TOKEN FAIL')
+							  logout()
+						}
+						resolve()
+					})
+				} else {
+					console.log('no token or last page token')
+					//stopPollChanges()
+					resolve()
+				}
+			}
+		})
+	}
 
   function findDocument(title) {
     return new Promise(function(resolve,reject) {
       //console.log('find rec',title ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
       if (title && accessToken) {
-        var filter = "?q="+ encodeURIComponent("name='ABC Tune Book'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
+        var filter = "?q="+ encodeURIComponent("name='"+title+"'") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
         var url = 'https://www.googleapis.com/drive/v3/files' + filter
         axios({
           method: 'get',
@@ -143,6 +268,10 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
         }).catch(function(e) {
           //getToken()
           //refresh()
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           resolve()
         })
       } else {
@@ -189,6 +318,10 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
           console.log(e)
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           //getToken()
           //refresh()
           resolve()
@@ -215,6 +348,10 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           
         }).catch(function(e) {
           console.log(e)
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           //getToken()
           //refresh()
           resolve()
@@ -241,6 +378,10 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           
         }).catch(function(e) {
           console.log(e)
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           //getToken()
           //refresh()
           resolve()
@@ -252,29 +393,33 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     })
   }
   
-  function getDocumentBlob(id) {
+  function getDocumentBlob(id, force_token = null) {
     return new Promise(function(resolve,reject) {
       //console.log('get g bloib',id ,accessToken)
-      //var useToken = accessToken ? accessToken : access_token
-      if (id && accessToken) {
+      var useToken = force_token ? force_token : (token ? token.access_token : null)
+      if (id && useToken) {
         axios({
           method: 'get',
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
-          headers: {'Authorization': 'Bearer '+accessToken},
+          headers: {'Authorization': 'Bearer '+useToken},
           responseType: 'blob'
         }).then(function(postRes) {
-          //console.log("USE GOT DOC blob",postRes)
+          console.log("USE GOT DOC blob",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
           console.log(e)
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           //getToken()
           //refresh()
-          resolve()
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-        resolve()
+        resolve({error: 'missing token'})
       }
     })
   }
@@ -292,6 +437,11 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           resolve(postRes.data)
           //console.log(postRes)
         }).catch(function(e) {
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
           //getToken()
           //refresh()
           resolve()
@@ -303,37 +453,52 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     })
   }
   
-  function createDocument(title, documentData, documentType='vnd.google-apps.document', documentDescription='') {
+   function createDocument(title, documentData, documentType='application/vnd.google-apps.document', documentDescription='', documentFolderId = null, force_token = null) {
     return new Promise(function(resolve,reject) {
-      //console.log('create google doc' ,token,accessToken, documentType, title)
-      if (documentType && title && accessToken) {
+		var useToken = force_token ? force_token : (token ? token.access_token : null)
+      console.log('create google doc' ,token,useToken, 'T:',title, 'Y:',documentType, 'D:',documentDescription, 'F:',documentFolderId)
+      if (documentType && title && useToken) {
         var  data = {
           "description": documentDescription,
           "kind": "drive#file",
           "name": title,
           "mimeType": documentType //"vnd.google-apps.spreadsheet"
         }
+        if (documentFolderId) data.parents = [documentFolderId]
         axios({
           method: 'post',
           url: 'https://www.googleapis.com/drive/v3/files',
           data: data,
-          headers: {'Authorization': 'Bearer '+accessToken},
+          headers: {'Authorization': 'Bearer '+useToken},
         }).then(function(postRes) {
           //googleSheetId.current = postRes.data.id
-          //console.log('created',postRes)
-          updateDocumentData(postRes.data.id, documentData).then(function(updated) {
-            //onLogin("")
-            //console.log('created',updated)
-            localStorage.setItem('google_last_page_token','')
-            resolve(postRes.data.id)
-          }).catch(function(e) {
+          console.log('created',postRes)
+			if (postRes && postRes.data && postRes.data.id) {
+				if (documentData ) {
+				  updateDocumentData(postRes.data.id, documentData, useToken).then(function(updated) {
+					//onLogin("")
+					console.log('created updated',updated)
+					localStorage.setItem('google_last_page_token','')
+					resolve(postRes.data.id)
+				  })
+				} else {
+					resolve(postRes.data.id)
+				}
+			} else {
+				resolve({error:'failed to get created document id	'})
+			}
+        }).catch(function(e) {
             //getToken()
-            resolve()
+            console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+            resolve({error:e})
           })
-        })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-        resolve()
+        resolve({error:["Invalid request missing document title or access token",title,'TTT',accessToken,'TTT']})
       }
     })
   }
@@ -353,7 +518,12 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
             localStorage.setItem('google_last_page_token','')
             resolve()
           }).catch(function(e) {
-            resolve()
+            console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+			}
+			resolve({error: e})
           })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -363,23 +533,28 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   }
   
 
-  function updateDocumentData(id,data) {
+  function updateDocumentData(id,data, force_token = null) {
     return new Promise(function(resolve,reject) {
+		var useToken = force_token ? force_token : (token ? token.access_token : null)
       //console.log('trigger  update data ', id,data, "L",accessToken,"K", token)
-      if (id && accessToken) {
+      if (id && useToken) {
         
         axios({
           method: 'patch',
           url: 'https://www.googleapis.com/upload/drive/v3/files/'+id+"?uploadType=media",
-          headers: {'Authorization': 'Bearer '+accessToken},
+          headers: {'Authorization': 'Bearer '+useToken},
           data: data,
         }).then(function(postRes) {
           //console.log('updated',postRes.data  )
           localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
-          console.log(e)  
-          resolve()
+          console.log(e)
+          if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -390,18 +565,23 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
   
   function deleteDocument(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('trigger sheet delete ', id, accessToken)
+      console.log('trigger delete ', id, accessToken)
       if (id && accessToken) {
         axios({
           method: 'delete',
           url: 'https://www.googleapis.com/drive/v2/files/'+id,
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log('deleted',postRes.data  )
+          console.log('deleted',postRes.data  )
           localStorage.setItem('google_last_page_token','')
           resolve(postRes)
         }).catch(function(e) {
-          resolve()
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -422,7 +602,12 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log('add perm',postRes  )
           resolve(postRes)
         }).catch(function(e) {
-          resolve()
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -443,7 +628,12 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log('get perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-          resolve()
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -465,7 +655,12 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log('update perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-          resolve()
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+		  }
+          resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -485,7 +680,12 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
           //console.log('del perm',postRes.data  )
           resolve(postRes)
         }).catch(function(e) {
-          resolve()
+			console.log(e)
+			if (e && e.response && e.response.status == '401') {
+			  console.log('LOGOUT ON AUTH TOKEN FAIL')
+			  logout()
+			}
+			resolve({error: e})
         })
       } else {
         if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
@@ -494,6 +694,6 @@ export default function useGoogleDocument(token, refresh, onChanges, pausePollin
     })
   }
   
-  return {getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
+  return {findTuneBookFolderInDrive, syncAttachedFiles, getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
   
 }

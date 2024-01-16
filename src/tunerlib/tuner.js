@@ -166,7 +166,7 @@ Tuner.prototype.play = function(frequency) {
 
 Tuner.prototype.stop = function() {
   //console.log('stop rec')
-  this.oscillator.stop()
+  if (this.oscillator) this.oscillator.stop()
   this.oscillator = null
 }
 export default Tuner

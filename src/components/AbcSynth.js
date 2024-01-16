@@ -102,12 +102,12 @@ export default function AbcSynth(props) {
     
 
     function updateOnChange() {
-        console.log('ABC CHANGE') //, props.tempo, lastTempo,  props.abc , lastAbc )
+        //console.log('ABC CHANGE') //, props.tempo, lastTempo,  props.abc , lastAbc )
         var tune = props.tunebook.abcTools.abc2json(props.abc)
         if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo ) {
           setSeekTo(0)
           setPlayCount(0)
-          console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo,props.boost ,lastBoost)
+          //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,props.tempo , lastTempo,props.boost ,lastBoost)
           //setStarted(true)
           setReady(false)
           //setIsPlaying(false)
@@ -126,7 +126,7 @@ export default function AbcSynth(props) {
         }
         
         return function cleanup() {
-           console.log('ABC CLEANUP')
+           //console.log('ABC CLEANUP')
            stopPlaying() 
         }
     }
@@ -141,23 +141,23 @@ export default function AbcSynth(props) {
     
     // listen to properties on media controller to control local player
     useEffect(function() {
-        console.log("MP change")
+        //console.log("MP change")
         if (props.mediaController) console.log(props.mediaController.isPlaying, props.mediaController.currentTime, props.mediaController.lastSeek,lastSeek,  props.mediaController.mediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
             if (lastPlaybackSpeed !== props.mediaController.playbackSpeed) {
-                console.log("MP changewarp change", props.mediaController.playbackSpeed)
+                //console.log("MP changewarp change", props.mediaController.playbackSpeed)
             }
             if (lastSeek !== props.mediaController.lastSeek) {
-                console.log('MP changeseek change',props.mediaController.lastSeek,props.mediaController.duration)
+                //console.log('MP changeseek change',props.mediaController.lastSeek,props.mediaController.duration)
                 //setSeekTo(props.mediaController.lastSeek)
                 seekPlayer(props.mediaController.lastSeek/props.mediaController.duration)
             }
             if (props.mediaController.isPlaying) {
-                console.log('MP change play')
+                //console.log('MP change play')
                 //bodyClick()
                 startPlaying()
             } else {
-                console.log('MP change stop',gmidiBuffer.current)
+                //console.log('MP change stop',gmidiBuffer.current)
                 stopPlaying()
             }
             setLastSeek(props.mediaController.lastSeek)
@@ -187,7 +187,7 @@ export default function AbcSynth(props) {
     }, [props.autoScroll])
 
     function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
-        console.log('BEAT',props.mediaController,gmidiBuffer.current,'MM',currentBeat,totalBeats,lastMoment,position, debugInfo, props.mediaController)
+        //console.log('BEAT',props.mediaController,gmidiBuffer.current,'MM',currentBeat,totalBeats,lastMoment,position, debugInfo, props.mediaController)
         //console.log('seekTo',"W",currentBeat, totalBeats, props.mediaController.duration, sto * props.mediaController.duration)
         //if (gmidiBuffer && gmidiBuffer.current && props.mediaController) {
             ////setForceSeekTo(sto)
@@ -199,7 +199,7 @@ export default function AbcSynth(props) {
          // FINISHED PLAYBACK
         // detect end of tune and handle repeats/call props.onEnded
          if (currentBeat === totalBeats) {
-           console.log('end tune', playCountRef.current, props.repeat)
+           //console.log('end tune', playCountRef.current, props.repeat)
            // infinite repeats
            if (parseInt(props.repeat) === -1) {
              seekPlayer(0)
@@ -272,7 +272,7 @@ export default function AbcSynth(props) {
         //console.log('evcb',ev,autoScroll.current, props.autoScroll,ev.elements[0])
         //console.log('evcbclass', ev.elements[0][0].className.baseVal)
         if (autoScroll.current && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
-          console.log('seekTo',"W",getWarp(),ev.milliseconds,gmidiBuffer.current.duration,"R",ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
+          //console.log('seekTo',"W",getWarp(),ev.milliseconds,gmidiBuffer.current.duration,"R",ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
           //setSeekTo(ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
           //if (props.mediaController)  props.mediaController.setCurrentTime((ev.milliseconds / 1000)/(gmidiBuffer.current.duration)*getWarp())
           var screenRatio = window.visualViewport.width/window.visualViewport.height
@@ -303,7 +303,7 @@ export default function AbcSynth(props) {
     
   
   function assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor) {
-     console.log("ASSIGN STATE",audioContext, midiBuffer, timingCallbacks, cursor)
+     //console.log("ASSIGN STATE",audioContext, midiBuffer, timingCallbacks, cursor)
      setAudioContext(audioContext)
      if (midiBuffer && midiBuffer.duration > 0) { 
        setMidiBuffer(midiBuffer)
@@ -342,7 +342,7 @@ export default function AbcSynth(props) {
   
   
     function resetAudioState() {
-        console.log('RESET AUDIO')
+        //console.log('RESET AUDIO')
         try {
           if (gmidiBuffer.current)  gmidiBuffer.current.stop()
           if (gtimingCallbacks.current) gtimingCallbacks.current.stop()
@@ -350,7 +350,7 @@ export default function AbcSynth(props) {
     }
 
     function seekPlayer(seekTo, play = false) {
-        console.log("SEEK PLAYER",seekTo, play,gmidiBuffer.current, gtimingCallbacks.current)
+        //console.log("SEEK PLAYER",seekTo, play,gmidiBuffer.current, gtimingCallbacks.current)
         try {
           if (gmidiBuffer.current) gmidiBuffer.current.seek(seekTo)
           if (gtimingCallbacks.current) gtimingCallbacks.current.setProgress(seekTo)
@@ -367,15 +367,15 @@ export default function AbcSynth(props) {
     }
 
   function startPrimedTune() {
-    console.log('startPrimedTune primed tune',seekTo, realProgress, lastSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
+    //console.log('startPrimedTune primed tune',seekTo, realProgress, lastSeek, gtimingCallbacks.current,gmidiBuffer.current,getForceStop())
     var emergencyStop = getForceStop()
     if (!emergencyStop) {
       if (gtimingCallbacks && gtimingCallbacks.current && gmidiBuffer && gmidiBuffer.current) {
           if (seekTo > 0) { 
-            console.log('startPrimedTune with seek ',seekTo, gmidiBuffer.current.duration)
+            //console.log('startPrimedTune with seek ',seekTo, gmidiBuffer.current.duration)
             seekPlayer(seekTo/gmidiBuffer.current.duration, true)
           } else {
-            console.log('startPrimedTune with metronome',gvisualObj)
+            //console.log('startPrimedTune with metronome',gvisualObj)
             //if (gvisualObj && gvisualObj.current)
             seekPlayer(0)
             var o = gvisualObj.current
@@ -454,12 +454,12 @@ export default function AbcSynth(props) {
       //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
       setForceStop(false)
       if (gaudioContext.current && gmidiBuffer.current) {
-          console.log('start playing ok - tune primed')
+          //console.log('start playing ok - tune primed')
       
           startPrimedTune()
           if (props.onStarted) props.onStarted()
       } else {
-          console.log('start playing NOT ok ')
+          //console.log('start playing NOT ok ')
           setStarted(true)
             //createPlayer(o).then(function(p) {
                   //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart)
@@ -483,7 +483,7 @@ export default function AbcSynth(props) {
   }
     
   function stopPlaying()  {
-    console.log('STOP PLAYING',gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
+    //console.log('STOP PLAYING',gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
     if (metronome.current) metronome.current.stop()
     clearTimeout(metronomeTimeout.current)
     if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.pause();
@@ -533,7 +533,7 @@ export default function AbcSynth(props) {
   function primeTune(audioContext, visualObj, force = false) {
     
       return new Promise(function(resolve,reject) {
-          console.log('PRIME TUNE',tune, audioContext, visualObj,props)
+          //console.log('PRIME TUNE',tune, audioContext, visualObj,props)
           if (visualObj) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
@@ -608,7 +608,7 @@ export default function AbcSynth(props) {
                },
               
             }
-            console.log('prime init options',initOptions)
+            //console.log('prime init options',initOptions)
             //console.log('prime init options',initOptions)
             //var tune = props.tunebook.abcTools.abc2json(props.abc)
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
@@ -752,16 +752,16 @@ export default function AbcSynth(props) {
   
   function createPlayer(visualObj) {
       return new Promise(function(resolve, reject) {
-        console.log('CREATE PLAYER', visualObj)
+        //console.log('CREATE PLAYER', visualObj)
         if (visualObj) {
             // already created
             if (gmidiBuffer.current && gtimingCallbacks.current && gcursor.current && gaudioContext.current) {
-                console.log('CREATE PLAYER ALREADY EXIST')
+                //console.log('CREATE PLAYER ALREADY EXIST')
             } 
             if (true) {
                 //console.log('CREATE PLAYER HAVE VISUAL OBJ')
                 primeAudio().then(function(audioContext) {
-                  console.log('CREATE PLAYER AUDIO PRIMED',audioContext)
+                  //console.log('CREATE PLAYER AUDIO PRIMED',audioContext)
                     if (audioContext) {
                         //console.log('tune update have audio context')
                         //setReady(false)
@@ -770,7 +770,7 @@ export default function AbcSynth(props) {
                         //console.log('PRIME SET TIMEOUT')
                         // use timeout to prevent duplicate calls on load
                         primeTimerRef.current = setTimeout(function() {
-                          console.log('PRIME TIMEOUT doiT')
+                          //console.log('PRIME TIMEOUT doiT')
                           primeTune(audioContext, visualObj).then(function(primeParams) {
                              if (primeParams) {
                                const {midiBuffer, timingCallbacks, cursor} = primeParams
@@ -850,7 +850,7 @@ export default function AbcSynth(props) {
         var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
             
         var o = res && res.length > 0 ? res[0] : null
-        console.log('RENDERED TUNE tempo',o) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
+        //console.log('RENDERED TUNE tempo',o) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             if (props.onWarnings) props.onWarnings(o.warnings)
              //&& (isPlayingRef.current || isPlaying)
@@ -861,13 +861,13 @@ export default function AbcSynth(props) {
                //if (props.autoPrime)  setStarted(true)
                var hash = tune.transpose  + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
                if (props.autoPrime && hash !== audioChangedHash) {
-                console.log('RENDER TUNE AUDIODDD')
+                //console.log('RENDER TUNE AUDIODDD')
                 setAudioChangedHash(hash)
                 setStarted(true)
                 resetAudioState()
                 
                 createPlayer(o).then(function(p) {
-                      console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart, p)
+                      //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart, p)
                      var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                      assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
                      if (audioContext && props.autoStart) {
@@ -875,7 +875,7 @@ export default function AbcSynth(props) {
                        if (props.onStarted) props.onStarted()
                      }
                 }).catch(function(e) {
-                  console.log('REJECT CREATE PLAYER')
+                  //console.log('REJECT CREATE PLAYER')
                   setReady(false)
                   setStarted(false)
                   if (props.onStopped) props.onStopped()
@@ -883,7 +883,7 @@ export default function AbcSynth(props) {
                 })
               
               } else {
-                console.log('SKIP RENDER TUNE AUDIO no hash change OR AUTOPRIME', props.autoPrime)
+                //console.log('SKIP RENDER TUNE AUDIO no hash change OR AUTOPRIME', props.autoPrime)
                 setReady(true)
               }
             } else {

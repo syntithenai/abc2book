@@ -210,7 +210,7 @@ export default function useAbcSynth(props) {
                 //}
             }
             if (props.mediaController.isPlaying !== isLastPlaying) {
-                console.log("SYNTH playing change to ",props.mediaController.isPlaying)
+                //console.log("SYNTH playing change to ",props.mediaController.isPlaying)
                 if (props.mediaController.isPlaying) {
                     //console.log('SYNTH change play')
                     startPlaying()
@@ -496,7 +496,7 @@ export default function useAbcSynth(props) {
                  setSeekTo(0)
                  setPlayCount(0)
                  //if (audioContext && props.autoStart) {
-                    console.log('start playing NOT ok ')
+                    //console.log('start playing NOT ok ')
                    startPlaying(true)
                    //if (props.onStarted) props.onStarted()
                  //}
@@ -661,18 +661,18 @@ export default function useAbcSynth(props) {
               }
           } else {
             // try again
-            console.log('SYNTH startPrimedTune primed tune NO BUFFER')
+            //console.log('SYNTH startPrimedTune primed tune NO BUFFER')
             //setTimeout(function() {
               //startPrimedTune()
             //},5000)
           }
           //console.log('started primed tune')
         } else {
-            console.log('SYNTH start primed tune emergency stop')
+            //console.log('SYNTH start primed tune emergency stop')
           stopPlaying()
         }
     } else {
-        console.log('SYNTH start primed tune already started')
+        //console.log('SYNTH start primed tune already started')
         //stopPlaying()
         //setTimeout(function() {
             //startPlaying()
@@ -747,7 +747,7 @@ export default function useAbcSynth(props) {
                  programOffsets: programOffsets,
                },
             }
-            console.log('prime init options',initOptions)
+            //console.log('prime init options',initOptions)
             //var tune = props.tunebook.abcTools.abc2json(props.abc)
             if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             if (visualObj.visualTranspose > 0 || visualObj.visualTranspose < 0 ) {
@@ -773,11 +773,11 @@ export default function useAbcSynth(props) {
             }
              
             function primeAndResolve() {
-               console.log('preinit primresolve',force)
+               //console.log('preinit primresolve',force)
                 //if (force) { 
                   midiBuffer.init(initOptions).then(
                   function (response) { 
-                    console.log('iniprime',initOptions)
+                    //console.log('iniprime',initOptions)
                     //console.log('preinit pr inited')
                     midiBuffer.prime().then(function(presponse) {
                       console.log('preinit prime tune primed AAA')
@@ -794,13 +794,13 @@ export default function useAbcSynth(props) {
                       }
                     })
                     .catch(function (error) {
-                      console.log("prime synth error", error);
+                      //console.log("prime synth error", error);
                       if (props.mediaController) props.mediaController.setIsLoading(false)
                       isLoading.current = false
                       resolve(null)
                     })
                   }).catch(function (error) {
-                     console.log("init synth error", error);
+                     //console.log("init synth error", error);
                      if (props.mediaController) props.mediaController.setIsLoading(false)
                      isLoading.current = false
                     resolve(null)

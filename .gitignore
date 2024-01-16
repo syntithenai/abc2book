@@ -77,3 +77,5 @@ scrape/cassidy-import.abc
 scrape/cassidy/
 
 abcresources/jc/ecf-guest.mit.edu/
+
+package-lock.json

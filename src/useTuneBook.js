@@ -29,7 +29,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
   function navigateToNextSong(currentSongId, failCallback) {
       clearTimeout(navTimeout); 
       navTimeout = setTimeout(function() {
-        console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
+        //console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
         if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
             //console.log("NEXT abc")
             var newPL = abcPlaylist
@@ -87,7 +87,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
                   }
                   i++
               }
-              console.log("NEXT found ",found)
+              //console.log("NEXT found ",found)
               if (found) {
                 setCurrentTune(found)
                 var playUrl = ''
@@ -207,6 +207,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       } else {
         tune.lastUpdated = new Date().getTime() 
       }
+      tune.books = Array.isArray(tune.books) ? tune.books : []
+      tune.voices = tune.voices ? tune.voices : {}
       return tune
   }
   
@@ -374,7 +376,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 The main difference between the two functions is the additional condition in applyImportData for handling the forceBook property of the data object, which is not present in applyMergeData. This forceBook property seems to be related to adding a book to a tune in the data. If forceBook is present, the functions will update the tune's books to include this new book. In applyImportData, this is done for both the updates and inserts keys, as well as for localUpdates and skippedUpdates, while in applyMergeData it is not done at all.
 * */
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    console.log('apply merge',data)
+    //console.log('apply merge',data)
     return new Promise(function(resolve,reject) {
         utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
             //console.log('havetunes',  tunes, tunesHash)
@@ -443,7 +445,7 @@ The main difference between the two functions is the additional condition in app
   }
   
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
-    console.log('apply import',importResults)
+    //console.log('apply import',importResults)
     return new Promise(function(resolve,reject) {
             var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook} = data
             //
@@ -802,7 +804,7 @@ The main difference between the two functions is the additional condition in app
       }
       saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus, forceBook: forceBook}
-      console.log('imported SABC',final)
+      //console.log('imported SABC',final)
       setImportResults(final)
       return final
   }

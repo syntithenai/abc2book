@@ -34,7 +34,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
                 clearTimeout(loginRefreshTimeout)
                 loginRefreshTimeout = setTimeout(function() {
                   refresh()
-                }, (tokenResponse.expires_in * 1000))
+                }, (tokenResponse.expires_in * 999))
           }
         },
       });
@@ -86,6 +86,31 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
       getToken()
     } 
     
+    function breakLoginToken() {
+		//console.log('check', 'state', accessToken)
+		return new Promise(function(resolve,reject) {
+			var t = accessToken
+			if (accessToken && accessToken.access_token) {
+				t.access_token = 'broken'
+				setAccessToken(t)
+				console.log('break token',t) 
+			}	
+			//console.log('check use ' , t)
+			//loadCurrentUser(t).then(function(res) {
+				//if (res && res.email) {
+					//console.log('loaded',res)
+					//resolve(res)
+				//} else {
+					//console.log('failed loaded',res)
+					//initClient()
+					//getToken()
+					//resolve()
+				//}
+				
+			//})
+		})
+	}
+    
     function loadCurrentUser(accessToken) {
         //console.log('load current',accessToken)
         return new Promise(function(resolve,reject) {
@@ -107,7 +132,8 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
             })
           } else {
             //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-            resolve()
+             console.log('no token given ')
+              resolve()
           }
         })
     }
@@ -171,5 +197,5 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     
     
     
-    return {user,token: accessToken, login, logout, refresh, loadUserImage}
+    return {user,token: accessToken, login, logout, refresh, loadUserImage, breakLoginToken}
 }
