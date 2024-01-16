@@ -27,7 +27,7 @@ return <Modal.Dialog
           
           
           <Button variant="warning" onClick={props.closeWarning} >Logout</Button>
-          &nbsp;{Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
+          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
           &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>
           
         </div>
