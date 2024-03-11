@@ -16,6 +16,9 @@ export default function QuickPlayButton(props) {
     
   
     function clickPlay(e) {
+		if (props.onPlay) {
+			props.onPlay()
+		}
       setStarted(true)
       props.tunebook.recordingsManager.playRecording(props.recording.id, function() {
         setStarted(false)

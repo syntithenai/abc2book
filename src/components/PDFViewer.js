@@ -95,8 +95,7 @@ export default function PDFViewer(props) {
 	
 	return <div>
 		{<Document file={props.src} onLoadSuccess={onDocumentLoadSuccess}>
-		<div id='scrollmarker' ></div>
-		<div className='pdfsearchbox' id='pdfsearchbox' style={{height:((windowSize[0] < 500) ? '6em' : '3em'), padding:'0.2em', border:'1px solid black', backgroundColor:'lightgrey'}} >
+		<div className='pdfsearchbox' id='pdfsearchbox' style={{textAlign:'left', height:((windowSize[0] < 500) ? '6em' : '3em'), padding:'0.2em', border:'1px solid black', backgroundColor:'lightgrey'}} >
 			 
 			&nbsp;<Button  onClick={function() {setShowIndex(true)}} >{props.tunebook.icons.menu}</Button>&nbsp;&nbsp; 
 			<>
@@ -164,9 +163,11 @@ export default function PDFViewer(props) {
 		
 		
 		
-			<Page pageNumber={pageNumber} width={props.width > 0 ? props.width : windowSize[0]} />
+			<Page key='page' pageNumber={pageNumber} width={props.width > 0 ? props.width : windowSize[0]} />
 				{(props.showPages > 0 && Math.min(parseInt(props.showPages - 1), (numPages - pageNumber)) > 0) && <>{Array(Math.min(parseInt(props.showPages) - 1, (numPages - pageNumber))).fill(null).map(function(n,p) {
-				return <Page pageNumber={(pageNumber + parseInt(p) + 1)} width={windowSize[0]} />
+				return <Page key={'page_'+p} pageNumber={(pageNumber + parseInt(p) + 1)} width={props.width > 0 ? props.width : windowSize[0]} >
+					
+				</Page>
 			})}</>}
 		</Document>}
 		

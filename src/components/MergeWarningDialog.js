@@ -20,9 +20,6 @@ return <Modal.Dialog
          {Object.keys(props.sheetUpdateResults.inserts).length ? <div><b>{Object.keys(props.sheetUpdateResults.inserts).length}</b> items will be inserted</div>: ''}
         {Object.keys(props.sheetUpdateResults.updates).length ?<div><b>{Object.keys(props.sheetUpdateResults.updates).length}</b> items will be updated</div>: ''}
         {Object.keys(props.sheetUpdateResults.deletes).length ?<div><b>{Object.keys(props.sheetUpdateResults.deletes).length}</b> items that only exist locally will be saved. These may have been deleted on another device in which case you should discard your local differences.</div>: ''}
-        {Object.keys(props.sheetUpdateResults.filesToLoad).length ?<div><b>{Object.keys(props.sheetUpdateResults.filesToLoad).length}</b> missing files will be loaded.</div>: ''}
-        {Object.keys(props.sheetUpdateResults.filesToSave).length ?<div><b>{Object.keys(props.sheetUpdateResults.filesToSave).length}</b> files will be saved online.</div>: ''}
-        
         <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
           

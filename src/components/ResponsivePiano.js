@@ -62,6 +62,7 @@ function BasicPiano(props) {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
       //console.log('create context',audioContext.current)
   },[])
+  const useSoundFont = props.soundFontUrl ? props.soundFontUrl : soundfontHostname
   const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
   return (
     <div>
@@ -73,10 +74,10 @@ function BasicPiano(props) {
     })}
     </select></label>
     <br/><br/>
-    <SoundfontProvider
+    {(useInstrument && useSoundFont && audioContext.current) && <SoundfontProvider
       instrumentName={useInstrument}
       audioContext={audioContext.current}
-      hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
+      hostname={useSoundFont}
       render={({ isLoading, playNote, stopNote }) => (
         <Piano
           noteRange={noteRange}
@@ -87,7 +88,7 @@ function BasicPiano(props) {
           keyboardShortcuts={keyboardShortcuts}
         />
       )}
-    />
+    />}
     </div>
   );
 }
@@ -99,6 +100,8 @@ function ResponsivePiano(props) {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
       //console.log('create context',audioContext.current,props.soundFontUrl)
   },[])
+  const useSoundFont = props.soundFontUrl ? props.soundFontUrl : soundfontHostname
+  
   const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
   return (
     <div>
@@ -110,7 +113,7 @@ function ResponsivePiano(props) {
     })}
     </select></label>
     <br/><br/>
-     <SoundfontProvider
+     {(useInstrument && useSoundFont && audioContext.current) && <SoundfontProvider
           instrumentName={useInstrument}
           audioContext={audioContext.current}
           hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
@@ -124,7 +127,7 @@ function ResponsivePiano(props) {
               {...props}
             />
           )}
-        />
+        />}
         
       </div>
   );

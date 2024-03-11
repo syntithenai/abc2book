@@ -142,6 +142,7 @@ var useAbcTools = () => {
         var currentVoice = '1'
         var links = {}
          var files = {}
+         var recordings = {}
          abc.split("\n").forEach(function(line) {
             //console.log('LINE', line)
             if (isCommentLine(line)) {
@@ -282,6 +283,53 @@ var useAbcTools = () => {
                             }
                         }
                     }
+                } else  if (line.startsWith('% abcbook-recording-')) {
+				   //console.log('read file line',line)
+                    if (line.startsWith('% abcbook-recording-type-')) {
+                        var parts = line.trim().split('% abcbook-recording-type-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
+                                recordings[numberParts[0]].type = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-recording-google-document-id-')) {
+                        var parts = line.trim().split('% abcbook-recording-google-document-id-')
+                        //console.log(parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
+                                recordings[numberParts[0]].googleDocumentId = numberParts[1]
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-recording-name-')) {
+                        var parts = line.trim().split('% abcbook-recording-name-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
+                                recordings[numberParts[0]].name = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-recording-data-')) {
+                        var parts = line.trim().split('% abcbook-recording-data-')
+                        //console.log('TTs',parts)
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            //console.log('TTs','numparts',numberParts)
+                            if (numberParts.length > 1) {
+                                if (!recordings[numberParts[0]]) recordings[numberParts[0]] = {}
+                                recordings[numberParts[0]].data = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    }
                 } else  if (line.startsWith('% abcbook-link-')) {
                     if (line.startsWith('% abcbook-link-title-')) {
                         var parts = line.trim().split('% abcbook-link-title-')
@@ -353,6 +401,7 @@ var useAbcTools = () => {
         //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
         tune.files = Object.values(files)
+        tune.recordings = Object.values(recordings)
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
           return tune
@@ -446,6 +495,23 @@ var useAbcTools = () => {
 				}
             })
         }
+        var recordingsRendered = []
+        if (Array.isArray(tune.recordings)&& tune.recordings.length > 0) {
+            tune.recordings.forEach(function(file,k) {
+                if (file.googleDocumentId) {
+                    recordingsRendered.push("% abcbook-recording-google-document-id-"+k + ' ' +  ensureText(file.googleDocumentId,"") )
+                }
+                if (file.type) {
+                        recordingsRendered.push("% abcbook-recording-type-"+k + ' ' +  ensureText(file.type,"") )
+				}
+				if (file.name) {
+					recordingsRendered.push("% abcbook-recording-name-"+k + ' ' +  ensureText(file.name,"") )
+				}
+				if (file.data) {  
+					recordingsRendered.push("% abcbook-recording-data-"+k + ' ' +  ensureText(file.data,"") )
+				}
+            })
+        }
         //if (voicesAndNotes.length === 0) {
             //voicesAndNotes.push('V:default')
             //voicesAnd Notes.push('|')
@@ -481,10 +547,10 @@ var useAbcTools = () => {
                     + "% abcbook-src-url " +  ensureText(tune.srcUrl) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
                     + "% abcbook-repeats " +  ensureText(tune.repeats,"1") + "\n" 
-                    + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
-                    
                     + ((tune.transpose < 0 || tune.transpose > 0) ? '%%MIDI transpose '+tune.transpose + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : "\n")) 
+                    + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
+                    + ((recordingsRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     
         
         //console.log('ABC OUT', finalAbc)

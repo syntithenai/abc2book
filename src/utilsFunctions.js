@@ -2,6 +2,7 @@ import abcjs from "abcjs";
 import * as localForage from "localforage";
 import localforage from "localforage";
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
+import {unzip} from 'unzipit';
 
 
 /**
@@ -135,7 +136,6 @@ export default function utilsFunctions(props) {
         })
     }
 
-
     /**
      * JSONify and save data to local storage
      */
@@ -162,13 +162,17 @@ export default function utilsFunctions(props) {
      * Scroll to an element identified by DOM id
      */    
     function scrollTo(id, offset) {
-        var element = document.getElementById(id);
+		var element = document.getElementById(id);
+        console.log('scrollto ',id,offset, element)
         if (element) {
           var headerOffset = offset ? offset : 10;
           var elementPosition = element.offsetTop;
           var offsetPosition = elementPosition - headerOffset;
-          document.documentElement.scrollTop = offsetPosition;
-          document.body.scrollTop = offsetPosition; // For Safari
+          console.log('DO scrollto ',offsetPosition)
+          setTimeout(function() {
+			document.documentElement.scrollTop = offsetPosition;
+			document.body.scrollTop = offsetPosition; // For Safari
+		  }, 300)
         }
     }
 
@@ -334,13 +338,36 @@ export default function utilsFunctions(props) {
         return newStr
     }
     
+      function onFileSelectedToBase64 (event, callback) {
+		function readFile(file){
+          var reader = new FileReader();
+          reader.onloadend = function(){
+            // skip empty files
+            if (reader.result.trim().length > 0) {
+              callback(reader.result)
+            }
+          }
+          if(file){
+              reader.readAsDataURL(file);
+          }
+      }
+      readFile(event.target.files[0])
+  }
+    
     function dataURItoBlob(dataURI, mime = 'image/jpeg') {
-		var binary = atob(dataURI.split(',')[1]);
-		var array = [];
-		for(var i = 0; i < binary.length; i++) {
-			array.push(binary.charCodeAt(i));
+		var binary = null
+		try {
+			binary = atob(dataURI.split(',')[1]);
+			var array = [];
+			for(var i = 0; i < binary.length; i++) {
+				array.push(binary.charCodeAt(i));
+			}
+			return new Blob([new Uint8Array(array)], {type: mime});
+		} catch (e) {
+			console.log(e)
+			return new Blob([], {type: mime});
 		}
-		return new Blob([new Uint8Array(array)], {type: mime});
+		
 	}
 
 	function blobToBase64(blob) {
@@ -351,11 +378,110 @@ export default function utilsFunctions(props) {
 				//var base64 = dataUrl.split(',')[1];
 				resolve(dataUrl);
 			};
-			reader.readAsDataURL(blob);
+			if (blob instanceof Blob) {
+				reader.readAsDataURL(blob);
+			} else {
+				resolve()
+			}
 		})
 	};
      
+    function blobToText(blob) {
+	  return new Promise((resolve, reject) => {
+		var reader = new FileReader();
+
+		reader.onload = function() {
+		  resolve(reader.result);
+		};
+
+		reader.onerror = function() {
+		  reject(new Error('Error reading the Blob as text.'));
+		};
+
+		// Read the Blob as text
+		if (blob instanceof Blob) {
+			reader.readAsText(blob);
+		} else {
+			resolve()
+		}
+	  });
+	}
+    
+    
+	function readFileAsBase64(f) {
+		return new Promise(function(resolve,reject) {
+			function readFile(file){
+				var reader = new FileReader();
+				reader.onloadend = function(){
+					// skip empty files
+					if (reader.result) {
+					  resolve(reader.result) //[file,reader.result])
+					}
+				  }
+				  if(file){
+					  reader.readAsDataURL(file);
+				  }
+			  }
+			readFile(f)
+		})
+	}
+	
+	function readFileAsArrayBuffer(f) {
+		//console.log('readfile2blb s',f)
+		return new Promise(function(resolve,reject) {
+			function readFile(file){
+				//console.log('readfile2blb',file)
+				var reader = new FileReader();
+				reader.onloadend = function(){
+					//console.log('readfile2blb loaded',reader.result)
+					// skip empty files
+					if (reader.result) {
+					  resolve(reader.result)
+					}
+				  }
+				  if(file){
+					  reader.readAsArrayBuffer(file);
+				  }
+			  }
+			readFile(f)
+		})
+	}
+    
+	function readFileAsText(f) {
+		//console.log('readfile2blb s',f)
+		return new Promise(function(resolve,reject) {
+			function readFile(file){
+				//console.log('readfile2blb',file)
+				var reader = new FileReader();
+				reader.onloadend = function(){
+					//console.log('readfile2blb loaded',reader.result)
+					// skip empty files
+					if (reader.result) {
+					  resolve(reader.result)
+					}
+				  }
+				  if(file){
+					  reader.readAsText(file);
+				  }
+			  }
+			readFile(f)
+		})
+	}
+	async function unzipBlob(url) {
+		const {entries} = await unzip(url);
+		return entries
+	  //// print all entries and their sizes
+	  //for (const [name, entry] of Object.entries(entries)) {
+		//console.log(name, entry.size);
+	  //}
+
+	  //// read an entry as an ArrayBuffer
+	  //const arrayBuffer = await entries['path/to/file'].arrayBuffer();
+
+	  //// read an entry as a blob and tag it with mime type 'image/png'
+	  //const blob = await entries['path/to/otherFile'].blob('image/png');
+	}
           
-    return {blobToBase64, dataURItoBlob, loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl}
+    return {onFileSelectedToBase64, unzipBlob, blobToText, blobToBase64, dataURItoBlob, loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl, readFileAsBase64, readFileAsArrayBuffer, readFileAsText}
     
 }

@@ -160,7 +160,7 @@ export default function useAbcSynth(props) {
      
       //// listen to properties on media controller to control local player
     useEffect(function() {
-        console.log("SYNTH change", props.mediaController)
+        //console.log("SYNTH change", props.mediaController)
         //if (props.mediaController) console.log("SYNTH",[(props.mediaController ? props.mediaController.isPlaying : null), (props.mediaController ? props.mediaController.clickSeek : null), (props.mediaController ?  props.mediaController.mediaLinkNumber : null), (props.mediaController ? props.mediaController.playbackSpeed : null), (props.mediaController ? props.mediaController.midiHash.current : null), (props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null)]) 
         //props.mediaController.isPlaying, isLastPlaying,"TIME", props.mediaController.currentTime,"CLICKTIME", props.mediaController.clickSeek,clickSeek,  props.mediaController.mediaLinkNumber, props.mediaController.midiHash.current, props.mediaController.mediaLinkNumber,lastMediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {

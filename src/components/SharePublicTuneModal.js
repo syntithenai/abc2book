@@ -21,8 +21,8 @@ export default function SharePublicTuneModal({tunebook, tune}) {
   
   return (
     <>{(link ? true : false) && <>
-      <Button variant="success" onClick={handleShow}>
-        {tunebook.icons.share}
+      <Button variant="info" onClick={handleShow}>
+        {tunebook.icons.share} Share
       </Button>
 
       <Modal show={show} onHide={handleClose}>

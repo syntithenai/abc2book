@@ -249,7 +249,7 @@ function AddSongModal(props) {
           tune.tags.push(tag)  
         })
     }
-    props.tunebook.saveTune(tune); 
+    var t = props.tunebook.saveTune(tune); 
     props.setFilter('') ; 
     setSongTitle('')
     setSettings(null)
@@ -260,7 +260,11 @@ function AddSongModal(props) {
     props.setCurrentTuneBook('')
     setTimeout(function() {
       props.setCurrentTuneBook(finalTuneBook)
-      navigate("/tunes")
+      if (t && t.id) {
+		  navigate("/tunes/"+t.id)
+	  } else {
+		  navigate("/tunes")
+	  }
       //setTimeout(function() {
         //props.tunebook.utils.scrollTo('bottomofpage')
       //},100)
@@ -293,7 +297,7 @@ function AddSongModal(props) {
     setTimeout(function() {
       props.setCurrentTuneBook(finalTuneBook)
       if (newTune && newTune.id) {   
-        navigate("/editor"+"/" + newTune.id)
+        navigate("/tunes"+"/" + newTune.id)
       } else {
           navigate("/tunes")
       }

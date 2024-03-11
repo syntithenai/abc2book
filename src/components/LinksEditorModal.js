@@ -35,7 +35,7 @@ export default function LinksEditorModal(props) {
   return (
     <>
         
-      <Button style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="danger"   onClick={function() {
+      <Button style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="warning"   onClick={function() {
           handleShow()
         }}><span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}}>{tunebook.icons.link} </span><Badge size="sm" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{JSON.parse(links).length}</Badge></Button>
 

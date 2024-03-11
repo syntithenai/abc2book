@@ -5,8 +5,7 @@ import {useState, useEffect} from 'react'
 import BookSelectorModal from './BookSelectorModal'
 import GroupBySelectorModal from './GroupBySelectorModal'
 import TagsSearchSelectorModal from './TagsSearchSelectorModal'
-import AddSongModal from './AddSongModal'
-import ImportOptionsModal from './ImportOptionsModal'
+
 import {useParams, useNavigate} from 'react-router-dom'
 import useKeyPress from '../useKeyPress';
 
@@ -16,12 +15,6 @@ export default function IndexSearchForm(props) {
     var navigate = useNavigate()
     var [inputColor, setInputColor] = useState('#e9ecef')
     //var [tuneBook, setTuneBook] = useState('')
-    function getShowParam() {
-        if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
-            return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
-        }
-        return ''
-    }
     
     //useEffect(function() {
         //console.log('change sel',props.selected)
@@ -40,19 +33,18 @@ export default function IndexSearchForm(props) {
     
     //console.log("SP",getShowParam())
 // props.updateList(e.target.value)
-    const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     
-    
-    return <div id="tunesearchform" style={{padding:'0.3em', minHeight:'4em', clear:'both', backgroundColor: '#d3d3d385', border:'1px solid black'}} >
-      <span style={{zIndex:999, float:'right', backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
-            <AddSongModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}/>
-            <ImportOptionsModal  tunes={props.tunes} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} token={props.token}  />
+    //5400ff52 #5400ffb3  #5400ff82
+    return <div id="tunesearchform" style={{padding:'0.3em', minHeight:'4em', clear:'both', backgroundColor: '#5400ff2e', borderRadius:'10px', border:'1px solid black'}} >
+      <span style={{zIndex:0, float:'right', backgroundColor:'#5400ff2e', padding:'0.2em', clear:'both'}} id="tunebookbuttons" >
+           
             
             
         </span>
-         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([]); props.setSelected({}); props.setSelectedCount(0); props.setFiltered(''); props.setGrouped({}); props.setListHash('')}} variant={"danger"} size="small" style={{marginRight:'0.1em'}} >{props.tunebook.icons.closecircle }</Button>
+        <span style={{fontWeight:'bold', fontSize:'1.3em'}} >Search&nbsp;&nbsp;</span>
          
-         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor , 'marginRight': '1em' }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('#e8fff4') } else {setInputColor('#e9ecef')} }} />
+         <input onBlur={function() {props.setBlockKeyboardShortcuts(false)}} onFocus={function() {props.setBlockKeyboardShortcuts(true)}} style={{width:'30%', backgroundColor: inputColor , marginRight: '0.2em', fontSize:'1.3em' }} type='search' value={props.filter ? props.filter : ''} onChange={function(e) {props.setFilter(e.target.value);  if (e.target.value.length > 1) {setInputColor('##5400ff2e') } else {setInputColor('##5400ff2e')} }} />
+         <Button onClick={function() {props.setFilter(''); props.setCurrentTuneBook(''); props.setGroupBy(''); props.setTagFilter([]); props.setSelected({}); props.setSelectedCount(0); props.setFiltered(''); props.setGrouped({}); props.setListHash('')}} variant={"danger"} size="small" style={{marginRight:'1em'}} >{props.tunebook.icons.closecircle }</Button>
          
            <BookSelectorModal  tunes={props.tunes} blockKeyboardShortcuts={props.blockKeyboardShortcuts} forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} onChange={function(val) {props.setCurrentTuneBook(val); props.forceRefresh();}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} triggerElement={<Button style={{marginLeft:'0.1em', color:'black'}} >{props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')} </Button>} />
           

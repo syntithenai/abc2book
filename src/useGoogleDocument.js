@@ -2,7 +2,7 @@ import axios from 'axios'
 import {useRef, useEffect} from 'react'
 import isOnline from 'is-online';
 import useUtils from './useUtils'
-
+import * as localForage from "localforage";
 //console.log(await isOnline());
 export default function useGoogleDocument(token, logout, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
@@ -10,7 +10,17 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   var pollChangesTimeout = useRef(null)
   var utils = useUtils()
   var tuneBookName="ABC Tune Book"
-  
+ 
+ 
+  var allowedImageMimeTypes = [] //application/musicxml
+	
+	var filestore = localForage.createInstance({
+		name: 'files'
+	});
+	var recordingsstore = localForage.createInstance({
+		name: 'recordings'
+	});
+
   useEffect(function() {
     //console.log('use doc tok change',onChanges, token)
     if (token && token.access_token && onChanges) {
@@ -23,104 +33,182 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     }
   },[token])
 	 
-	function syncAttachedFiles(tunes, force_token = null) {
-		 // load missing
-		 var final = {}
-		 var useToken = force_token ? force_token : (token ? token.access_token : null)
-		 console.log('sync', useToken, tunes)
-		 return new Promise(function(resolve,reject) { 
-			 var promises = []
-			 Object.values(tunes).forEach(function(tune, tuneKey) {
-				 final[tune.id] = tune
-				if (tune && tune.id && Array.isArray(tune.files)) {
-					tune.files.forEach(function(file, fileKey) {
-						// have doc but not data so load 
-						if (file && file.googleDocumentId && !file.data) { 
-							//console.log('sync load tune ',tune, file, useToken)
-							promises.push(new Promise(function(iresolve,ireject) {
-								//console.log('start prom ')
-									
-								getDocumentBlob(file.googleDocumentId, useToken).then(function(blob) {
-								 //console.log('got blob ')
-									//TODO convert base64
-									utils.blobToBase64(blob).then(function(cbData) {
-										//console.log('set final loaded',tune.id, fileKey)
-										//final[tune.id].files[fileKey].data = cbData
-										iresolve([tune.id,fileKey,cbData])
-										//console.log('sync loaded tune ',cbData, final[tune.id].files)
-									})
-								})
-							}))
-						} else {
-							if (file && !file.googleDocumentId && file.data && file.name) { 
-								//console.log('sync save tune ',tune, file, useToken)
-								//console.log('have tune data ',tunes[tuneId].files[fileKey])
-								findTuneBookFolderInDrive().then(function(folderId) {
-									createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
-										//console.log('created', res)
-										if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
-									})
-								})
-							}
-						}
-					})
-				}
-			}) 
-			//Object.keys(tunes).forEach(function(tune) {
-				//console.log('sync save file ',tune)
-				//if (tunes[tuneId]) {
-					//console.log('have tune ',filesToSave[tuneId],tunes[tuneId].files)
-					//var fileKey = filesToSave[tuneId]
-					
+	//function indexFiles() {
+		//console.log('create index')
+		//return new Promise(function(resolve,reject) {
+			//var final = {}
+			//filestore.iterate(function(value, key, iterationNumber) {
+				//if (value && value.tuneId) {
+					 //if (!Array.isArray(final[value.tuneId])) final[value.tuneId] = []
+					 //final[value.tuneId].push({id: value.id, googleDocumentId: value.googleId, data: value.data ? true : false, name: value.name})
 				//}
+			//}).catch(function(err) {
+				//console.log(err);
+				//resolve([])
+			//}).finally(function() {
+				////console.log('finaly', final)
+				//resolve(final)
 			//})
-			Promise.all(promises).then(function(f) {
-				//console.log('FINAL LOAD PROMISES',f, "FFF",final)
-				f.forEach(function(fileData) {
-					//console.log('SET FILE ',fileData)
-					final[fileData[0]].files[fileData[1]].data = fileData[2]
-				})
-				resolve(final)
-				
-			})
-		})
+		//})
+	//} 
+	
+	//function indexRecordings() {
+		//console.log('create r index')
+		//return new Promise(function(resolve,reject) {
+			//var final = {}
+			//recordingsstore.iterate(function(value, key, iterationNumber) {
+				//if (value && value.tuneId) {
+					 //if (!Array.isArray(final[value.tuneId])) final[value.tuneId] = []
+					 //final[value.tuneId].push({id: value.id, googleDocumentId: value.googleId, data: value.data ? true : false, name: value.name})
+				//}
+			//}).catch(function(err) {
+				//console.log(err);
+				//resolve([])
+			//}).finally(function() {
+				////console.log('finaly', final)
+				//resolve(final)
+			//})
+		//})
+	//}
+	 
+	 
+	//function syncAttachedFiles(tunes, force_token = null) {
+		//return
+		 //// load missing
+		 //var final = {}
+		 //var useToken = force_token ? force_token : (token ? token.access_token : null)
+		 //console.log('sync', useToken, tunes)
+		 //return new Promise(function(resolve,reject) { 
+			 //var promises = []
+			 //indexFiles().then(function(fileIndex) {
+				//indexRecordings().then(function(recordingsIndex) {
+					 //Object.values(tunes).forEach(function(tune, tuneKey) {
+						//final[tune.id] = tune
+						//if (tune && tune.id && Array.isArray(fileIndex[tune.id])) {
+							
+							//fileIndex[tune.id].forEach(function(file, fileKey) {
+								//// have doc but not data so load 
+								//if (file && file.googleDocumentId && !file.data) { 
+									////console.log('sync load tune ',tune, file, useToken)
+									//promises.push(new Promise(function(iresolve,ireject) {
+										////console.log('start prom ')
+											
+										//getDocumentBlob(file.googleId, useToken).then(function(blob) {
+										 ////console.log('got blob ')
+											////TODO convert base64
+											//utils.blobToBase64(blob).then(function(cbData) {
+												////console.log('set final loaded',tune.id, fileKey)
+												////final[tune.id].files[fileKey].data = cbData
+												//iresolve([tune.id,fileKey,cbData])
+												////console.log('sync loaded tune ',cbData, final[tune.id].files)
+											//})
+										//})
+									//}))
+								//} else {
+									//if (file && !file.googleDocumentId && file.data && file.name) { 
+										////console.log('sync save tune ',tune, file, useToken)
+										////console.log('have tune data ',tunes[tuneId].files[fileKey])
+										//findTuneBookFolderInDrive().then(function(folderId) {
+											//createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
+												////console.log('created', res)
+												//if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
+											//})
+										//})
+									//}
+								//}
+							//})
+						//}
+						//if (tune && tune.id && Array.isArray(recordingsIndex[tune.id])) {
+							//recordingsIndex[tune.id].forEach(function(file, fileKey) {
+								//// have doc but not data so load 
+								//if (file && file.googleDocumentId && !file.data) { 
+									////console.log('sync load tune ',tune, file, useToken)
+									//promises.push(new Promise(function(iresolve,ireject) {
+										////console.log('start prom ')
+											
+										//getDocumentBlob(file.googleDocumentId, useToken).then(function(blob) {
+										 ////console.log('got blob ')
+											////TODO convert base64
+											//utils.blobToBase64(blob).then(function(cbData) {
+												////console.log('set final loaded',tune.id, fileKey)
+												////final[tune.id].files[fileKey].data = cbData
+												//iresolve([tune.id,fileKey,cbData])
+												////console.log('sync loaded tune ',cbData, final[tune.id].files)
+											//})
+										//})
+									//}))
+								//} else {
+									//if (file && !file.googleDocumentId && file.data && file.name) { 
+										////console.log('sync save tune ',tune, file, useToken)
+										////console.log('have tune data ',tunes[tuneId].files[fileKey])
+										//findTuneBookFolderInDrive().then(function(folderId) {
+											//createDocument(file.name, utils.dataURItoBlob(file.data),'application/vnd.google-apps.document','',folderId,useToken).then(function(res) {
+												////console.log('created', res)
+												//if (!res.error) final[tune.id].files[fileKey].googleDocumentId = res
+											//})
+										//})
+									//}
+								//}
+							//})
+						//}
+					//}) 
+					////Object.keys(tunes).forEach(function(tune) {
+						////console.log('sync save file ',tune)
+						////if (tunes[tuneId]) {
+							////console.log('have tune ',filesToSave[tuneId],tunes[tuneId].files)
+							////var fileKey = filesToSave[tuneId]
+							
+						////}
+					////})
+					//Promise.all(promises).then(function(f) {
+						////console.log('FINAL LOAD PROMISES',f, "FFF",final)
+						//f.forEach(function(fileData) {
+							////console.log('SET FILE ',fileData)
+							//final[fileData[0]].files[fileData[1]].data = fileData[2]
+						//})
+						//resolve(final)
+						
+					//})
+				//})
+			//})
+		//})
 		
-	}		
+	//}		
 			
 	
     function findTuneBookFolderInDrive() {
 		return new Promise(function(resolve,reject) {
 			//console.log('find folder in drive')
-			var xhr = new XMLHttpRequest();
-			xhr.onload = function (res) {
-				if (res.target.responseText) {
-					var response = JSON.parse(res.target.responseText)
-					//console.log('find tunebook folder',response)
-					var found = false
-					if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
-						// load whole file
-						if (Array.isArray(response.files)) {
-							response.files.forEach(function(file) {
-								if (file && file.name === tuneBookName) {
-									found = file.id
-								}
+				var xhr = new XMLHttpRequest();
+				xhr.onload = function (res) {
+					if (res.target.responseText) {
+						var response = JSON.parse(res.target.responseText)
+						//console.log('find tunebook folder',response)
+						var found = false
+						if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
+							// load whole file
+							if (Array.isArray(response.files)) {
+								response.files.forEach(function(file) {
+									if (file && file.name === tuneBookName) {
+										found = file.id
+									}
+								})
+							}
+						}
+						//console.log('FOUND tunebook folder',found)
+						if (found) {
+							resolve(found)
+						} else {
+							createDocument(tuneBookName,null, 'application/vnd.google-apps.folder','Folder for '+tuneBookName+' data').then(function(newId) {
+								resolve(newId)
 							})
 						}
 					}
-					//console.log('FOUND tunebook folder',found)
-					if (found) {
-						resolve(found)
-					} else {
-						createDocument(tuneBookName,null, 'application/vnd.google-apps.folder','Folder for '+tuneBookName+' data').then(function(newId) {
-							resolve(newId)
-						})
-					}
-				}
-			};
-			var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType = 'application/vnd.google-apps.folder' and trashed = false") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
-			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
-			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-			xhr.send();
+				};
+				var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType = 'application/vnd.google-apps.folder' and trashed = false") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
+				xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
+				xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+				xhr.send();
 		})
 	}		
 	
@@ -264,7 +352,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).then(function(postRes) {
           //console.log(postRes)
           resolve(postRes.data)
-          
         }).catch(function(e) {
           //getToken()
           //refresh()
@@ -302,7 +389,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         //xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
         //xhr.send();
     }
- function getPublicDocument(id, mimeType='text') {
+    
+  function getPublicDocument(id, mimeType='text') {
     return new Promise(function(resolve,reject) {
       //console.log('get public rec',id ,accessToken)
       //var useToken = accessToken ? accessToken : access_token
@@ -315,7 +403,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           //headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          //console.log("USE GOT public DOC",postRes)
+          console.log("USE GOT public DOC",postRes)
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
@@ -343,7 +431,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
-          //console.log("USE GOT DOC",postRes)
+          console.log("USE GOT DOC",postRes)
           resolve(postRes.data)
           
         }).catch(function(e) {
@@ -431,11 +519,11 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
       if (id && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'&nocache='+String(parseInt(Math.random()*1000000000)),
+          url: 'https://www.googleapis.com/drive/v3/files/'+id  + '?fields=modifiedTime,name,kind,fileExtension,mimeType,exportLinks,thumbnailLink,size,id,description,trashed,explicitlyTrashed', //&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)
-          //console.log(postRes)
+          console.log("DOCUMENT META",postRes)
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
@@ -694,6 +782,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
   
-  return {findTuneBookFolderInDrive, syncAttachedFiles, getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
+  return {findTuneBookFolderInDrive, getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
   
 }

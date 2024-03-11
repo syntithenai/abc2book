@@ -23,6 +23,7 @@ import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
 import ImportGoogleAudioPage from './pages/ImportGoogleAudioPage'
 import ImportWarningDialog from './components/ImportWarningDialog'
 import RecordingPage from './pages/RecordingPage'
+import FilesPage from './pages/FilesPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
 import VideoPlayerTest from './components/VideoPlayerTest'
@@ -54,7 +55,8 @@ import useGoogleLogin from './useGoogleLogin'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import useTuneBookMediaController from './useTuneBookMediaController'
-
+import useFileManager from './useFileManager' 
+import useSyncWorker from './useSyncWorker'
 
 function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -72,6 +74,7 @@ function YouTubeGetID(url){
 
 function App(props) {
   let params = useParams();
+  const tuneBookName='ABC Tune Book'
   //console.log(window.location.href)
   //let mediaController = useTuneBookMediaController()
   let dbTunes = {}
@@ -128,6 +131,7 @@ function App(props) {
       indexes.indexTunes(tunes)
       setSheetUpdateResults(null)
     }
+    
     filesDocumentManager.syncAttachedFiles(tunes, (token ? token.access_token : null)).then(function(res) {setTunes(res)})     
   }
   
@@ -144,8 +148,8 @@ function App(props) {
           var deletes={}
           var localUpdates={}
           var localInserts={}
-          var filesToSave = {}
-          var filesToLoad = {}
+          //var filesToSave = {}
+          //var filesToLoad = {}
           
           var intunes = {}
           if (tunebookText) {
@@ -162,19 +166,19 @@ function App(props) {
                 //console.log('tune in',tune.id, tune)
                 if (tune.id && tunes[tune.id]) {
 					// sync files
-					if (tunes[tune.id] && Array.isArray(tunes[tune.id].files) && tunes[tune.id].files.length > 0) {
-						//console.log('tune files', tunes[tune.id].files)
-						tunes[tune.id].files.forEach(function(file, fileKey) {
-							if (file.googleDocumentId && !file.data) {
-								// load from online
-								filesToLoad[tune.id] = fileKey
-							}
-							if (!file.googleDocumentId && file.data) {
-								// save online
-								filesToSave[tune.id] = fileKey
-							}
-						})
-				  }
+					//if (tunes[tune.id] && Array.isArray(tunes[tune.id].files) && tunes[tune.id].files.length > 0) {
+						////console.log('tune files', tunes[tune.id].files)
+						//tunes[tune.id].files.forEach(function(file, fileKey) {
+							//if (file.googleDocumentId && !file.data) {
+								//// load from online
+								//filesToLoad[tune.id] = fileKey
+							//}
+							//if (!file.googleDocumentId && file.data) {
+								//// save online
+								//filesToSave[tune.id] = fileKey
+							//}
+						//})
+				  //}
                   // preserve boost
                   //tune.boost = tunes[tune.id].boost
                   if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
@@ -208,8 +212,8 @@ function App(props) {
                 }
               })
             
-              var ret = {filesToLoad, filesToSave, inserts, updates, deletes, localUpdates,localInserts, fullSheet: tunebookText}
-              //console.log('merge done' ,filesToLoad, filesToSave, ret)
+              var ret = {inserts, updates, deletes, localUpdates,localInserts, fullSheet: tunebookText}
+              //console.log('merge done' ,filesToLoad, filesToSave, ret)filesToLoad, filesToSave, 
               setShowWaitingOverlay(false)
               resolve(ret)
             })
@@ -246,8 +250,17 @@ function App(props) {
   var pollingInterval = process.env.NODE_ENV === "development" ? 5000 : 6000 //16000
   var {updateSheet} = useGoogleSheet({token, logout, refresh, tunes, pollingInterval:pollingInterval, onMerge, pausePolling: pauseSheetUpdates, setGoogleDocumentId, googleDocumentId}) 
   
+	var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
+	var fileManager = useFileManager('files',token, logout, null, allowedImageMimeTypes, false, false)
+	var allowedAudioMimeTypes = ['audio/*']
+	var recordingsFileManager = useFileManager('recordings',token, logout, null, allowedAudioMimeTypes)
+	
+  	var syncWorker = useSyncWorker(token, logout, tuneBookName)
+  
+	
+	
   //var recordingTools = {getRecording, createRecording, updateRecording, updateRecordingTitle, deleteRecording}
-  const recordingsManager = useRecordingsManager(token, logout)
+  const recordingsManager = useRecordingsManager(token, logout, recordingsFileManager)
   //console.log("app",recordingsManager)
   
   var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav})
@@ -346,12 +359,12 @@ function App(props) {
       if (sheetUpdateResults.inserts && Object.keys(sheetUpdateResults.inserts).length > 0) {
         return true
       }
-      if (sheetUpdateResults.filesToSave && Object.keys(sheetUpdateResults.filesToSave).length > 0) {
-        return true
-      }
-      if (sheetUpdateResults.filesToLoad && Object.keys(sheetUpdateResults.filesToLoad).length > 0) {
-        return true
-      }
+      //if (sheetUpdateResults.filesToSave && Object.keys(sheetUpdateResults.filesToSave).length > 0) {
+        //return true
+      //}
+      //if (sheetUpdateResults.filesToLoad && Object.keys(sheetUpdateResults.filesToLoad).length > 0) {
+        //return true
+      //}
       
       if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
         return true
@@ -403,18 +416,21 @@ function App(props) {
             </> : null}
   
            {((!showWarning(sheetUpdateResults)|| !user) && !showImportWarning(importResults)  && tunes !== null) && <div >   
-              <Header breakLoginToken={breakLoginToken} forceNav={forceNav} setForceNav={setForceNav} mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} loadUserImage={loadUserImage} />
+              <Header isSyncing={syncWorker.isRunning} breakLoginToken={breakLoginToken} forceNav={forceNav} setForceNav={setForceNav} mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  currentTuneBook={currentTuneBook} tagFilter={tagFilter} selected={selected} loadUserImage={loadUserImage} />
               <div className="App-body">
                    <Routes>
                     <Route  path={``}   element={<BooksPage mediaController={mediaController}  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />}  />
                     
                      <Route  path={`books`}   element={<BooksPage mediaController={mediaController} tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token}  user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />} />
+                     
+                     <Route  path={`tags`}   element={<BooksPage defaultTab={'tags'} mediaController={mediaController} tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token}  user={user} setTagFilter={setTagFilter} setFilter={setFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />} />
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`settings`}  element={<SettingsPage user={user}    tunebook={tunebook} token={token}  googleDocumentId={googleDocumentId} />}  />
+                    
                     <Route  path={`recordings`} >
-                      <Route index element={<RecordingsPage  mediaController={mediaController}   tunebook={tunebook} token={token} refresh={login}/>}  />
-                      <Route  path={`:recordingId`} element={<RecordingPage   tunebook={tunebook} token={token} refresh={login} />} />
+                      <Route index element={<RecordingsPage fileManager={recordingsFileManager} mediaController={mediaController}   tunebook={tunebook} tunes={tunes} logout={logout} token={token} refresh={login}/>}  />
+                      <Route  path={`:recordingId`} element={<RecordingPage fileManager={recordingsFileManager}  tunebook={tunebook} token={token} refresh={login} />} />
                     </Route>
                     
                     <Route  path={`privacy`}   element={<PrivacyPage    />}  />
@@ -494,6 +510,7 @@ function App(props) {
                        <Route  path={`:link/tune/:tuneId/play`} element={<ImportLinkPage  autoplay={true}  tunes={tunes}  setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  setTagFilter={setTagFilter}  navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />
                     </Route>
                     
+                    <Route path={'files'} element={<FilesPage  fileManager={fileManager} tunebook={tunebook}  tunes={tunes} token={token} logout={logout} />} />
                     
                     <Route path={'blank'} element={<BlankPage mediaController={mediaController} />} />
                     

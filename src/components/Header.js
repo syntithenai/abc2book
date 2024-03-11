@@ -88,7 +88,7 @@ export default function Header(props) {
                 
                 {!isMobile && <>
                       <Dropdown style={{display:'inline', marginLeft:'0.1em'}}>
-                          <Dropdown.Toggle variant="info" id="dropdown-header" style={{height:'3em', width:'3em'}}>
+                          <Dropdown.Toggle variant="info" id="dropdown-header" style={{height:'3.4em', width:'3em'}}>
                           </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item ><Link to="/settings" ><Button  size="lg" variant="warning"  >{props.tunebook.icons.settings} Settings</Button></Link> </Dropdown.Item>
@@ -103,15 +103,18 @@ export default function Header(props) {
 
                             
                             <Dropdown.Item ><Link to="/piano" ><Button  size="lg" variant="info"  >{props.tunebook.icons.piano} &nbsp;Keyboard</Button></Link> </Dropdown.Item>
+                            <Dropdown.Item> <hr/></Dropdown.Item> 
+                            
                                                 
                             
                            
                         </Dropdown.Menu>
                       </Dropdown> 
                   
-                   
-                  {props.token ? <Button  style={{padding:(props.user && props.user.picture) ? '2px' : null,  marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{(props.user && props.user.picture && !userImageError) ? <><img src={props.user.picture + '?access_token='+props.token.access_token + '&not-from-cache-please'} onError={function() {setUserImageError(true)}} style={{height:'50px'}}  /></> : props.tunebook.icons.logout}</Button> : <Button style={{marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
-               
+                  <span style={{position:'relative'}}>
+					  {props.isSyncing && <b style={{position:'absolute',top:0, left:0, backgroundColor:'lightgrey', zIndex:999}}  >SYNC</b>}
+					  {props.token ? <Button  style={{position:'absolute',top:0, left:0,padding:(props.user && props.user.picture) ? '2px' : null,  marginLeft:'0.6em', color: 'black'}} size="lg" variant="danger" onClick={function() { props.logout()}} >{(props.user && props.user.picture && !userImageError) ? <><img src={props.user.picture + '?access_token='+props.token.access_token + '&not-from-cache-please'} onError={function() {setUserImageError(true)}} style={{height:'50px'}}  /></> : props.tunebook.icons.logout}</Button> : <Button style={{position:'absolute',top:0, left:0, marginLeft:'0.6em', color: 'black'}} size="lg" variant="success" onClick={function() { props.login()}} >{props.tunebook.icons.login}</Button>}
+					</span>
                 </>
             }
            
@@ -135,10 +138,8 @@ export default function Header(props) {
 
                     
                     <Dropdown.Item style={dropdownStyle}  ><Link to="/piano" ><Button   variant="info"  >{props.tunebook.icons.piano} </Button></Link> </Dropdown.Item>
-                                        
-                 
-                   
-              
+                    <hr/>
+					
                    
                 
               </Dropdown.Menu>
@@ -148,7 +149,7 @@ export default function Header(props) {
              
        </span>
        
-        {(location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')) && <span style={{float:'right', padding:'0.1em', paddingLeft:'0.1em', backgroundColor:'#63b8c9', border:'1px solid black', borderRadius:'10px'}}>
+        {(location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')) && <span style={{float:'right', padding:'0.1em', paddingLeft:'0.1em', backgroundColor:'#5400ff'}}>
         <MediaPlayerButtons mediaController={props.mediaController} tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist}   mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} currentTuneBook={props.currentTuneBook} tagFilter={props.tagFilter} selected={selected}/>
         <>{(params.tuneId && (location.pathname.indexOf('/tunes') !== -1 || location.pathname.indexOf('/editor') !== -1)) && <ButtonGroup>
                <Button size="lg" onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button>
@@ -159,6 +160,14 @@ export default function Header(props) {
         </span>}
     </header>
 }
+
+
+//<Dropdown.Item ><Link to="/files" ><Button  size="lg" variant="info"  >{props.tunebook.icons.camera} &nbsp;Images</Button></Link> </Dropdown.Item>
+                            //<Dropdown.Item ><Link to="/recordings" ><Button  size="lg" variant="info"  >{props.tunebook.icons.recordcircle} &nbsp;Recordings</Button></Link> </Dropdown.Item>
+
+//<Dropdown.Item style={dropdownStyle}><Link to="/files" ><Button  variant="info"  >{props.tunebook.icons.camera} </Button></Link> </Dropdown.Item>
+                   //<Dropdown.Item style={dropdownStyle}><Link to="/recordings" ><Button variant="info"  >{props.tunebook.icons.recordcircle}</Button></Link> </Dropdown.Item>
+              
 //{(!params.tuneId && location.pathname.indexOf('/tunes') !== -1) && <ButtonGroup style={{float:'right'}}>
             //<Button onClick={function() {props.tunebook.fillMediaPlaylist(props.currentTuneBook,selected,props.tagFilter )}} variant={"success"} size="lg" >{props.tunebook.icons.play}</Button>
             //<MediaPlayerOptionsModal mediaController={props.mediaController} tunebook={props.tunebook} buttonSize={'lg'} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} variant={"success"} currentTuneBook={props.currentTuneBook} tagFilter={props.tagFilter} selected={selected} />

@@ -6,7 +6,9 @@ import {useState, useEffect} from 'react'
 import IndexSearchForm from './IndexSearchForm'
 import BoostSettingsModal from './BoostSettingsModal'
 import SelectedItemsModal from './SelectedItemsModal'
-
+import AddSongModal from './AddSongModal'
+import ImportOptionsModal from './ImportOptionsModal'
+    
 import Abc from './Abc'
 
 var LIST_PROTECTION_LIMIT = 500
@@ -89,8 +91,41 @@ export default function IndexLayout(props) {
         },300)
     },[])
     
-    
-    
+    let lastScrollTop = 0;
+	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
+	useEffect(() => {
+		//console.log('scroll init')
+		const handleScroll = (e) => {
+			//console.log('scroll e')
+			//console.log('scrolld e',e, e.currentTarget, e.target)
+				const currentScrollTop = window.scrollY;
+				if (currentScrollTop > lastScrollTop) {
+				  // Scrolling down
+				  //console.log('Scrolling down',window.scrollY);
+				  setFixedSingleMenu(false)
+				} else {
+				  // Scrolling up
+				  //console.log('Scrolling up',window.scrollY);
+				  if (currentScrollTop > 100) {
+					  setFixedSingleMenu(true)
+					  //setTimeout(function() { setFixedSingleMenu(false) }, 5000)
+				  } else {
+					  setFixedSingleMenu(false)
+				  }
+				}
+				
+				lastScrollTop = currentScrollTop;
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
+	
+	
+	
     function runFilter() {
           setGrouped({})
           setFiltered({})
@@ -140,12 +175,14 @@ export default function IndexLayout(props) {
                       hasLyrics:hasLyrics,
                       hasNotes: hasNotes,
                       hasChords: hasChords,
-                      hasImages: (Array.isArray(tune.files) && tune.files.length > 0) ? true : false
+                      hasImages: (Array.isArray(tune.files) && tune.files.length > 0) ? true : false,
+                      hasRecordings: (Array.isArray(tune.recordings) && tune.recordings.length > 0) ? true : false
                     }
                     var tuneStatusKey = []
                     if (hasLyrics) tuneStatusKey.push('lyrics')
                     if (hasNotes) tuneStatusKey.push('notes')
                     if (hasChords) tuneStatusKey.push('chords')
+                    if (tune.recordings && tune.recordings.length > 0) tuneStatusKey.push('recordings')
                     if (props.tunebook.hasLinks(tune)) {
                         tuneStatusKey.push('media')
                         anyTunesHaveLinks = true
@@ -159,7 +196,7 @@ export default function IndexLayout(props) {
           })
           setTagCollation(tc)
           setTuneStatus(tuneStatus)
-          //console.log('runfilter',props.groupBy)
+          console.log('runfilter',props.groupBy, tuneStatus)
           if (props.groupBy && filtered.length < LIST_PROTECTION_LIMIT * 5) {
               if (props.groupBy === "tuneStatus") {
                   setGrouped(tuneStatusGroups)
@@ -346,7 +383,15 @@ export default function IndexLayout(props) {
         //return final
     //}
     
-
+	const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
+    
+    function getShowParam() {
+        if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
+            return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
+        }
+        return ''
+    }
+    
     
     function forceRefresh() {
         setListHash("abc"+Math.random())
@@ -372,6 +417,7 @@ export default function IndexLayout(props) {
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.quillpen}</Button> : null}</span>
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasLinks) ? <Button variant="outline-primary">{props.tunebook.icons.link}</Button> : null}</span>
                         <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasImages) ? <Button variant="outline-primary">{props.tunebook.icons.camera}</Button> : null}</span>
+                        <span>{(tuneStatus[tune.id] && tuneStatus[tune.id].hasRecordings) ? <Button variant="outline-primary">{props.tunebook.icons.recordcircle}</Button> : null}</span>
                     </span> 
                     {(tune && tune.id && selected && selected[tune.id]) && <Button    variant={'success'} size="lg" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                     {(tune && tune.id && (!selected || !selected[tune.id])) && <Button variant={'secondary'} size="lg"  onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
@@ -406,22 +452,29 @@ export default function IndexLayout(props) {
         </>
     }
     
-    
+    var formStyle = {clear:'both', backgroundColor: '#5400ff2e', border:'2px solid black', width: '100%',minHeight:'6.5em', padding:'0.1em', textAlign:'left'}
+	if (fixedSingleMenu) {
+		formStyle = {zIndex:1, position:'fixed', top: '4.0em', backgroundColor: '#cabeff', clear:'both', border:'2px solid black', width: '100%',minHeight:'6.5em', padding:'0.1em', textAlign:'left'}
+	}
+	//{position:'fixed', top:'4.0em', width:'100%', zIndex:99, backgroundColor:'white', height:'6.5em'}
     var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
     var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     var freshSelectedCount = countSelected()
-    
+     
     return <div className="index-layout"  >
-      <div id={JSON.stringify(selected)} >
-        <div  style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}}  >
-            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
-            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
-            <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+      <div id={JSON.stringify(selected)} style={formStyle} >
+        <div  style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', zIndex:999 , paddingRight:'1em'}}  >
+            <Link to={'/tunes'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button></Link>
+            <Link to={'/books'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button></Link>
+            <Link to={'/tags'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button></Link>
         </div>
-        <Link style={{float:'left',marginLeft:'1em'}} to="/books"><Button variant="info" >{props.tunebook.icons.book}</Button></Link>
-        <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
+         <div style={{float:'right'}} >
+			<AddSongModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}/>
+            <ImportOptionsModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} token={props.token}  />
+         </div>
+         <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
                 if (selected[v]) {
                      return v
                 } else {
@@ -429,19 +482,19 @@ export default function IndexLayout(props) {
                 }
             }).join(",") 
             } abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter}   forceRefresh={forceRefresh} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} forceRefresh={function() { setListHash(''); props.forceRefresh()}}  groupBy={props.groupBy} setGroupBy={props.setGroupBy} token={props.token} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} filtered={props.filtered} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  showPreviewInList={props.showPreviewInList} setShowPreviewInList={props.setShowPreviewInList} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} tagCollation={tagCollation} />
-        </div>
+        
 
-        {props.tunes && <div style={{position: 'sticky', top: '3.9em', zIndex: 1,  backgroundColor:'lightgrey', padding:'0.2em', clear:'both'}}  >
-        
-            {(filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
-            
-            {freshSelectedCount > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} />}
-            
-            {(freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
-            {(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
-        
-        </div>}
-        
+			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >
+			
+				{(filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
+				
+				{freshSelectedCount > 0 &&  <SelectedItemsModal tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} />}
+				
+				{(freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
+				{(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
+			
+			</div>}
+        </div>
         <hr style={{width: '100%'}} />    
         {!grouped && renderListItems(filtered)}
         

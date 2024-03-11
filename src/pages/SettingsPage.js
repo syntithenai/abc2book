@@ -66,7 +66,9 @@ export default function SettingsPage(props) {
     return <div style={{marginLeft:'0.3em'}} className="App-settings">
     <h1>Settings</h1>
     <br/>
-       
+       <Button variant="success" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
+		{props.tunebook.icons.save} Download Tunebook
+		</Button>
        
        <Button style={{marginRight:'0.5em',marginBottom:'1em',  position:'relative', top:'2px'}}  variant="danger" onClick={function(e) {
            if (props.token) {
@@ -91,8 +93,8 @@ export default function SettingsPage(props) {
          <hr style={{margin:'1em'}}  />
         
         <div>
-         <label>Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
-         <br/><b>The software will speak the title before playing the tune.</b>
+         <label style={{fontWeight:'bold'}} >Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
+         <br/><i>The software will speak the title before playing the tune.</i>
          <br/><b></b>
        </div>
      </div>

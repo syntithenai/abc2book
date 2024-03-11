@@ -112,9 +112,7 @@ function NewRecordingDialog(props) {
                 {recordings.map(function(recording, rk) {
                   return <ListGroup.Item onClick={function(e) {recordingSelected(recording)}} className={rk %2 === 1 ? 'odd' : 'even'} key={rk} >
                     <div><b>{recording.title}</b>  <span style={{marginLeft:'1.5em',fontSize:'0.8em'}}>{new Date(recording.createdTimestamp).toLocaleDateString()} {new Date(recording.createdTimestamp).toLocaleTimeString()}</span></div>
-                    
                 </ListGroup.Item>
-              
                 })}
               </ListGroup>
               

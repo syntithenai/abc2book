@@ -64,8 +64,6 @@ export default function ImportWarningDialog(props) {
            {Object.keys(props.importResults.inserts).length ? <div><b>{Object.keys(props.importResults.inserts).length}</b> items will be inserted.</div>: ''}
            {Object.keys(props.importResults.localUpdates).length ?<div><b>{Object.keys(props.importResults.localUpdates).length}</b> locally changed items will be skipped.</div>: ''}
            {Object.keys(props.importResults.duplicates).length ?<div><b>{Object.keys(props.importResults.duplicates).length}</b> duplicate items will be skipped.</div>: ''}
-            {Object.keys(props.importResults.filesToLoad).length ?<div><b>{Object.keys(props.importResults.filesToLoad).length}</b> missing files will be loaded.</div>: ''}
-            {Object.keys(props.importResults.filesToSave).length ?<div><b>{Object.keys(props.importResults.filesToSave).length}</b> files will be saved online.</div>: ''}
           
           <div style={{marginTop:'1em', marginBottom:'1em'}} >
           

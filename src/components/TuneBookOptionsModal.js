@@ -49,7 +49,7 @@ function TuneBookOptionsModal(props) {
     <>
       <Button style={{color:'black'}} variant="primary" onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
 
-      <Modal style={{width:'100%'}} show={show} onHide={handleClose}>
+      <Modal style={{width:'100%', marginTop:'5em'}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{props.currentTuneBook ? 'Book Tools - '+props.currentTuneBook : 'Tools for All Tunes'}</Modal.Title>
         </Modal.Header>

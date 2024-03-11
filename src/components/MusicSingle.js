@@ -17,17 +17,25 @@ import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
 //import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
+import useWindowSize from '../useWindowSize'
 import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
 import SharePublicTuneModal from '../components/SharePublicTuneModal'
 import PDFViewer from './PDFViewer'
-import ImagesEditorModal from './ImagesEditorModal'
-  
+import ImagesManagerModal from './ImagesManagerModal'
+import RecordingsManagerModal from './RecordingsManagerModal'  
+import RepeatsEditorModal from './RepeatsEditorModal'  
+import OpenSheetMusicDisplay from './OpenSheetMusicDisplay'
+import useFileManager from '../useFileManager'
+import FileRenderer from './FileRenderer'
+
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
+    var windowSize = useWindowSize()
     const audioPlayer = useRef(); 
+    
     //var youtubeProgressInterval = useRef()
     var speakTimeout = null
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
@@ -46,6 +54,25 @@ export default function MusicSingle(props) {
     const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
     
+    var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
+	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
+	var allowedAudioMimeTypes = ['audio/*']
+	var recordingsManager = useFileManager('recordings',props.token ? props.token : null, props.logout, tune, allowedAudioMimeTypes)
+	
+	//const [files, setFiles] = useState([])
+	//const [recordings, setRecordings] = useState([])
+
+	//function forceFileRefresh(t) {
+		//console.log("FORCE FILE REFRESH",t)
+		//fileManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
+			//console.log("searchres files",t,res)
+			//setFiles(res)
+		//})
+		//recordingsManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
+			//console.log("searchres recs",t,res)
+			//setRecordings(res)
+		//})
+	//}
 
     useEffect(function() {
 		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -55,6 +82,7 @@ export default function MusicSingle(props) {
             //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
             //console.log("HACK TUNE TEMPO", t.tempo)
             setTune(t)
+            //forceFileRefresh(t)
         }
         
     },[params.tuneId, props.tunes, props.mediaController.playbackSpeed])
@@ -133,7 +161,7 @@ export default function MusicSingle(props) {
            if (!props.tunebook.hasLyrics(tune) && props.tunebook.hasNotes(tune))  {
                props.setViewMode('music')
            }
-           props.tunebook.utils.scrollTo('topofpage')
+           //props.tunebook.utils.scrollTo('topofpage')
            //setMediaLinkNumber(params.mediaLinkNumber)
            //console.log(params,tune.links)
            //props.mediaController.setTune(tune)
@@ -195,7 +223,39 @@ export default function MusicSingle(props) {
         if (tempo < 1) tempo = 1
         return tempo
     }
- 
+    
+    let lastScrollTop = 0;
+	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
+	useEffect(() => {
+		//console.log('scroll init')
+		const handleScroll = (e) => {
+			//console.log('scroll e')
+			//console.log('scrolld e',e, e.currentTarget, e.target)
+				const currentScrollTop = window.scrollY;
+				if (currentScrollTop > lastScrollTop) {
+				  // Scrolling down
+				  //console.log('Scrolling down',window.scrollY);
+				  setFixedSingleMenu(false)
+				} else {
+				  // Scrolling up
+				  //console.log('Scrolling up',window.scrollY);
+				  if (currentScrollTop > 100) {
+					  setFixedSingleMenu(true)
+					  //setTimeout(function() { setFixedSingleMenu(false) }, 5000)
+				  } else {
+					  setFixedSingleMenu(false)
+				  }
+				}
+				
+				lastScrollTop = currentScrollTop;
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
     
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
     //console.log('single T',params.tuneId,tune,props.tunes)
@@ -294,12 +354,18 @@ export default function MusicSingle(props) {
             tune.zoom = zoom - 0.1
             props.tunebook.saveTune(tune)
         }
+        
+         
+        
+        
         // 640ac8b26312f4897797a843
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
         return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
-            <div className='music-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
+			
+        
+            <div className='music-buttons' style={!fixedSingleMenu ? {backgroundColor: '#80808033', width: '100%',height: windowSize[0] > 500 ? '3em' : '6em', padding:'0.1em', textAlign:'center'} : {zIndex:9999, position:'fixed', top: '4.2em', backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
                   <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
                  
                  {props.viewMode === 'chords' && <>
@@ -308,88 +374,80 @@ export default function MusicSingle(props) {
                   </>}
                 <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
                  <Dropdown >
-                      <Dropdown.Toggle variant="info" id="dropdown-basic" style={{height:'2.4em'}}>
+                      <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" style={{height:'2.4em'}}>
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
+						<Dropdown.Item><Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil} Edit</Button></Link></Dropdown.Item>
+                        <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
+                        
                         <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
                         
-                         <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Save</Button></Dropdown.Item>
+                         <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Download ABC</Button></Dropdown.Item>
                         
-                         <Dropdown.Item ><Button id={'midi-download-button'} className='btn-success' style={{float:'left'}} onClick={downloadMidi} >{props.tunebook.icons.midi} MIDI</Button></Dropdown.Item>
+                         <Dropdown.Item ><Button id={'midi-download-button'} className='btn-success' style={{float:'left'}} onClick={downloadMidi} >{props.tunebook.icons.midi}  Download MIDI</Button></Dropdown.Item>
                         
-                        <Dropdown.Item><span style={{marginLeft:'0.2em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
+                         <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><SharePublicTuneModal tunebook ={props.tunebook} token={props.token} tune={tune}  /></span></Dropdown.Item>
+                         
+                         
                         
-                         <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} tuneId={tune.id} buttonSize={'small'}  /></span></Dropdown.Item>
+                        
                
                         
                       </Dropdown.Menu>
                     </Dropdown>
                     
-                       <Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil}</Button></Link>
+                       
                  </ButtonGroup>   
                 
                 
                
-                <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+               
                 
                 
-                
-                <span style={{float:'left', marginLeft:'0.1em'}} ><BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
-                
-                <span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
-
+                <ButtonGroup style={{float:'left', marginLeft:'0.3em', paddingLeft:'0em', paddingRight:'0.2em', backgroundColor:'#a29cad', paddingTop:'0.2em',paddingBottom:'0.2em' }} >
+					<span style={{float:'left', marginLeft:'0.1em'}} >
+					
+					 <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+					 
+					<BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+					
+					<span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
+				</ButtonGroup>
                 
                 <ButtonToolbar
                     className="" style={{float:'left'}}
-                  >{<span style={{float:'left', marginLeft:'0.1em'}} >
-                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
-                            function(links) { 
-                                if (tune) {
-                                    tune.links = links
-                                    props.tunebook.saveTune(tune)
-                                    //console.log("FR")
-                                    //props.forceRefresh()
-                                }
-                            }    
-                        } />
-                        
-                         
-                 
-                        
-                    </span>}
-                   
-                  
+                  >
+					<ButtonGroup style={{marginLeft:'0.3em', paddingLeft:'0em', paddingRight:'0.2em', backgroundColor:'#a29cad', paddingTop:'0.2em',paddingBottom:'0.2em' }} >
+						
+						{<span style={{float:'left', marginLeft:'0.1em'}} >
+						<LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
+								function(links) { 
+									if (tune) {
+										tune.links = links
+										props.tunebook.saveTune(tune)
+										//console.log("FR")
+										//props.forceRefresh()
+									}
+								}    
+							} />
+						</span>}
+					</ButtonGroup>
                 </ButtonToolbar>
-                <ImagesEditorModal tunebook={props.tunebook} tune={tune} login={props.login} logout={props.logout} token={props.token} />
                 
-                 <span style={{float:'left', marginLeft:'0.2em'}} ><SharePublicTuneModal tunebook={props.tunebook} tune={tune} /></span>
-
+               
             </div>
+            {(fileManager && Array.isArray(fileManager.filtered) && fileManager.filtered.length > 0 ) && <div style={{textAlign:'center'}} >
+				<b style={{fontSize:'2em'}}>{tune.name}</b>
+				{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
+			</div>}
+			
              {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
-          
-				   {(Array.isArray(tune.files) && tune.files.length > 0) && <div style={{  clear:'both',  width:'100%'}} >
-					   <div style={{textAlign:'center'}} >
-							<b style={{fontSize:'2em'}}>{tune.name}</b>
-							{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
-						</div>
-						 {tune.files.map(function(file,fk) {
-							if (file.type === 'image') {
-								return <img key={fk} style={{width:'100%'}} src={file.data} />
-							} else if (file.type === 'pdf') {
-								return <PDFViewer tunebook={props.tunebook} showPages='8' key={fk} style={{width:'100%'}} src={file.data} />  
-							} else {
-								return '' 
-							}
-						  })}
-					  </div>}
-              
-			  
-
-
-  
-
-              
+             {(fileManager && Array.isArray(fileManager.filtered))  && fileManager.filtered.map(function(file, fk) {
+				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
+			 })}
+             
+				  
               
              {props.viewMode === 'chords' && <>
                 {!zoomChords && <div style={{border:'1px solid black'}}>
@@ -458,7 +516,10 @@ export default function MusicSingle(props) {
     }
 }
 
-
+//<ImagesManagerModal tunebook={props.tunebook} tune={tune} login={props.login} logout={props.logout} token={props.token}  fileManager={fileManager} />
+						
+						//<RecordingsManagerModal tunebook={props.tunebook} tune={tune} login={props.login} logout={props.logout} token={props.token}  fileManager={recordingsManager} />
+						
  //{(!props.abcPlaylist && props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > 0) && <div style={{position:'fixed', top: '6px', right: '6px', zIndex:999}} >
                     //<ButtonGroup variant="danger">
                         //{(!mediaLoading && showMedia && isPlaying) && <Button variant="warning" onClick={function() {

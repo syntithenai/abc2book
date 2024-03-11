@@ -222,6 +222,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
       //console.log('save tune id', tune.id)
+      // clear invalid links
       tune.links = Array.isArray(tune.links) ? tune.links.filter(function(link) {
           return (link && (link.title || link.link || link.startAt || link.endAt))
       }) : [] 

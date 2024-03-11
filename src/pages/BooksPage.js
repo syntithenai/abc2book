@@ -8,7 +8,7 @@ import {useEffect, useState, useRef} from 'react'
 import AddSongModal from '../components/AddSongModal'
 import ImportOptionsModal from '../components/ImportOptionsModal'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
-import MediaPlayer from '../components/MediaPlayer'
+//import MediaPlayer from '../components/MediaPlayer'
 //import Accordion from 'react-bootstrap/Accordion';
 import {useNavigate} from 'react-router-dom'
 import VennDiagram from '../components/VennDiagram'
@@ -41,8 +41,8 @@ export default function BooksPage(props) {
         v[key] = true
         setMyBookImageIsHidden(v)
     }
-    
-   
+   const [tabKey, setTabKey] = useState(props.defaultTab === "tags" ? "tags" : "books");
+
     
     var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
     var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
@@ -50,26 +50,24 @@ export default function BooksPage(props) {
     tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     return <div className="App-books">
         
-        <div style={{clear:'both', width:'100%', marginTop: '1em'}}>
-            
-            
-        
+        <div style={{clear:'both', width:'100%'}}>
             {tbOptions.length > 0 && <div>
-                <div style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}} >
-                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button>
-                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button>
-                    <Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button>
+                <div style={{position:'fixed', top: '4.0em', zIndex:9999, width:'100%', backgroundColor:'white'}}>
+					<div style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}} >
+						<Link to={'/tunes'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button></Link>
+						<Link to={'/books'} onClick={function() {setTabKey('books')}} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button></Link>
+						<Link to={'/tags'} onClick={function() {setTabKey('tags')}} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button></Link>
+					</div>
+					<div style={{float:'right'}} id="tunebookbuttons" >
+						<AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
+						<ImportOptionsModal  tunes={props.tunes} token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
+						
+					</div>
                 </div>
-                <Link style={{marginLeft:'1em'}} to="/tunes"><Button variant="info" >{props.tunebook.icons.search}</Button></Link>
-                <div style={{float:'right'}} id="tunebookbuttons" >
-                    <AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
-                    <ImportOptionsModal  tunes={props.tunes} token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-                    <Button variant="info" title="Download" style={{color:'white', float:'right'}} onClick={function(e) { props.tunebook.downloadTuneBookAbc();}}  >
-                    {props.tunebook.icons.save} Download
-                    </Button>
-                </div>
+                
                 <div style={{clear:'both'}} >&nbsp;</div>
-                <Tabs defaultActiveKey="books" >
+                <Tabs  activeKey={tabKey}
+      onSelect={(k) => setTabKey(k)} >
                     <Tab  eventKey="books" title="Your Books">
                         <input style={{float:'left'}} type='search'  value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
                         <div style={{clear:'both'}} > </div>

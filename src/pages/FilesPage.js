@@ -1,24 +1,28 @@
-import {Link} from 'react-router-dom'
-import {ListGroup, Button, Modal} from 'react-bootstrap'
+//import {Link} from 'react-router-dom'
+//import {ListGroup, Button, Modal} from 'react-bootstrap'
 //import useFileManager from '../useFileManager'
 import {useState, useEffect, useRef} from 'react'
-import useUtils from '../useUtils'
-import OpenSheetMusicDisplay from '../components/OpenSheetMusicDisplay'
-import PDFPreviewViewer from '../components/PDFPreviewViewer'
-import useAudioUtils from '../useAudioUtils'
-import RecordingsManager from '../components/RecordingsManager'
+//import useUtils from '../useUtils'
+//import OpenSheetMusicDisplay from '../components/OpenSheetMusicDisplay'
+//import PDFPreviewViewer from '../components/PDFPreviewViewer'
+//import useAudioUtils from '../useAudioUtils'
+import ImagesManager from '../components/ImagesManager'
+//import useFileManager from '../useFileManager'
 
-export default function RecordingsPage(props) {
-	var allowedAudioMimeTypes = ['audio/*']
-	//var fileManager = useFileManager('recordings',props.token ? props.token : null, props.logout, null, allowedAudioMimeTypes, false, false)
+export default function FilesPage(props) {
+	var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml
+	var filterByTuneId = false
+	//var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, null, allowedImageMimeTypes, false, filterByTuneId)
+	
 	useEffect(function() {
 		props.fileManager.refresh()
 	},[])
+	
 	var extendedProps = Object.assign({},props,{fileManager: props.fileManager})
-	return <RecordingsManager {...extendedProps} />
+	return <ImagesManager	{...extendedProps} />
 }
-	//var allowedMimeTypes = ['audio/*'] //application/musicxml
-	//var fileManager = useFileManager('recordings',props.token ? props.token : null, props.logout, null, allowedMimeTypes)
+	//var allowedMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml
+	//var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, null, allowedMimeTypes)
 	//var utils = useUtils()
 	//var audioUtils = useAudioUtils()
 	//var [previewFile, setPreviewFile] = useState(null)
@@ -75,21 +79,16 @@ export default function RecordingsPage(props) {
 			 
 		//</Modal>}
 		 //<div style={{backgroundColor:'#1900ff1a', padding:'0.5em', border:'1px solid black'}} > 
-		 //<h3>Recordings</h3>
+		  //<h3>Images</h3>
 		//<Button variant="outline-success" size="sm" style={{float:'right'}} onClick={fileManager.pasteFiles} >{props.tunebook.icons.paste}</Button>
 		
 		//<span style={{marginRight:'1em', width:'4em', overflow:'hidden', float:'right'}} ><input multiple={true} type='file'  className='custom-file-input-button' accept={Array.isArray(allowedMimeTypes) ? allowedMimeTypes.join(",") : '*'}  onChange={fileManager.filesSelected} /></span>
 		
-		//{audioUtils.isRecording && <><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'1em', height:'2.2em'}} onClick={audioUtils.stopRecording} variant="danger" >{props.tunebook.icons.stopsmall}</Button><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'0.2em', height:'2.2em'}} variant="outline-danger">{recordingDuration + 1}s</Button></>}
-		
-		//{!audioUtils.isRecording && <Button size="sm" style={{fontWeight:'bold', float:'right', marginRight:'1em', height:'2.2em'}} onClick={startRecording} variant="success" >{props.tunebook.icons.recordcircle}</Button>}
 		
 		//{fileManager.warning && <div style={{fontSize:'1.3em', color:'red', backgroundColor:'pink', width:'10em', float:'right', clear:'both'}} >{fileManager.warning}</div>}
 		
-		
 		//<input type='search' value={fileManager.filter} onChange={function(e) {fileManager.setFilter(e.target.value)}} />
 		//</div>
-		
 		//<ListGroup style={{marginTop:'1em'}} >
 			//{fileManager.filtered.map(function(file, fk) {
 				//return <ListGroup.Item key={fk} style={{width:'100%', borderTop:'1px solid black'}}>
@@ -103,12 +102,10 @@ export default function RecordingsPage(props) {
 							
 							//<span style={{marginLeft:'0.5em'}} >{file.name}</span>
 							
+							
 							//{<Button variant="outline-primary" style={{marginLeft:'0.5em',marginBottom:'0.5em'}}>{file.type}</Button>}
 							
 							//{file.updatedTimestamp && <Button variant="outline-primary" style={{marginLeft:'0.5em',marginBottom:'0.5em'}}>{file.updatedTimestamp.toLocaleString()}</Button>}
-							
-							
-							
 							
 						//</div>
 					//</div>
@@ -117,6 +114,12 @@ export default function RecordingsPage(props) {
 		//</ListGroup>
 	//</div>
 //}
+
+////{audioUtils.isRecording && <><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'1em', height:'2.2em'}} onClick={audioUtils.stopRecording} variant="danger" >{props.tunebook.icons.stopsmall}</Button><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'0.2em', height:'2.2em'}} variant="outline-danger">{recordingDuration + 1}s</Button></>}
+		
+		////{!audioUtils.isRecording && <Button size="sm" style={{fontWeight:'bold', float:'right', marginRight:'1em', height:'2.2em'}} onClick={startRecording} variant="success" >{props.tunebook.icons.recordcircle}</Button>}
+		
+
 
 	////<span style={{marginRight:'0.3em', clear:'both', float:'left'}} >
 								////{file.type === 'pdf' && <PDFPreviewViewer width='150' pageNumber='1' tunebook={props.tunebook} style={{width:'100px'}} showPages='1' src={file.data} />  }

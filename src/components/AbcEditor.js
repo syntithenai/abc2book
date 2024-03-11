@@ -6,7 +6,7 @@ import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
 import LinksEditor from './LinksEditor'
-import ImagesEditor from './ImagesEditor'
+//import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
@@ -366,21 +366,7 @@ export default function AbcEditor(props) {
                     <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   
-                  {<Tab eventKey="files" title="Images" >
-                        <Form.Group className="mb-3" controlId="images">
-                            <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
-                            <ImagesEditor logout={props.logout} login={props.login} token={props.token} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
-                        </Form.Group>
-                  </Tab>}
-                  
-                  <Tab eventKey="audio" title="Links" >
-                        <Form.Group className="mb-3" controlId="audio">
-                            <Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
-                            <LinksEditor links={tune.links} tune={tune} onChange={function(links) {tune.links = links; props.tunebook.saveTune(tune)}} tunebook={props.tunebook} />
-                        </Form.Group>
-                  </Tab>
-                  
-                  
+                 
                   
                   <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
                     <div style={{}} id="warnings">
@@ -412,6 +398,21 @@ export default function AbcEditor(props) {
     
   }
 }
+ //{<Tab eventKey="files" title="Images" >
+                        //<Form.Group className="mb-3" controlId="images">
+                            //<Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
+                            //<ImagesEditor logout={props.logout} login={props.login} token={props.token} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} />
+                        //</Form.Group>
+                  //</Tab>}
+                  
+  //<Tab eventKey="audio" title="Links" >
+		//<Form.Group className="mb-3" controlId="audio">
+			//<Form.Label style={{paddingBottom:'1em'}} ></Form.Label>
+			//<LinksEditor links={tune.links} tune={tune} onChange={function(links) {tune.links = links; props.tunebook.saveTune(tune)}} tunebook={props.tunebook} />
+		//</Form.Group>
+  //</Tab>
+                  
+                  
 //localStorage.getItem('bookstorage_inlineaudio') === "true" && 
   //<Tab eventKey="comments" title="Comments" >
     //<textarea value={Array.isArray(tune.abccomments) ? tune.abccomments.join("\n") : ''} onChange={function(e) {tune.abccomments = e.target.value.split("\n"); tune.id = params.tuneId; saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />

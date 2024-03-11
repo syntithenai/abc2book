@@ -283,7 +283,7 @@ export default function useTuneBookMediaController(props) {
                 setIsLoading(false)
                 console.log(e)
             }
-        } else if (srcType === 'youtube' && ytPlayerRef && ytPlayerRef.current) {
+        } else if (srcType === 'youtube' && ytPlayerRef && ytPlayerRef.current && ytPlayerRef.current.playVideo) {
             //console.log('start yt',ytPlayerRef.current)
             
             try {
@@ -299,7 +299,7 @@ export default function useTuneBookMediaController(props) {
                     }
                 },4000)
             } catch (e) {
-                //console.log("YT play err",e)
+                console.log("YT play err",e)
                 //setIsPlaying(false)
                 //setIsLoading(false)
                 //console.log(e,ytPlayerRef.current)
