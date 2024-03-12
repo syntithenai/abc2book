@@ -99,13 +99,12 @@ function ImportOptionsModal(props) {
         {props.tunebook.icons.folderin} Import
       </Button>
 
-      <Modal show={show} onHide={handleClose}  >
+      <Modal show={show} onHide={handleClose}  style={{marginTop:'5em'}} >
         <Modal.Header closeButton>
           <Modal.Title >Import from </Modal.Title>
         </Modal.Header>
         <Modal.Footer  >
-			<ImportFilesModal  forceRefresh={props.forceRefresh} tunes={props.tunes} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
-            <ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
+			<ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             {props.token && <ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} />}
             <div>
@@ -117,5 +116,8 @@ function ImportOptionsModal(props) {
   );
 }
 export default ImportOptionsModal
+
+//<ImportFilesModal  forceRefresh={props.forceRefresh} tunes={props.tunes} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
+            
 //<ImportListModal tunesHash={props.tunesHash} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             //<ImportCollectionModal forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
