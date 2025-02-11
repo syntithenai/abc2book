@@ -142,7 +142,7 @@ export default function AbcSynth(props) {
     // listen to properties on media controller to control local player
     useEffect(function() {
         //console.log("MP change")
-        if (props.mediaController) console.log(props.mediaController.isPlaying, props.mediaController.currentTime, props.mediaController.lastSeek,lastSeek,  props.mediaController.mediaLinkNumber)
+        //if (props.mediaController) console.log(props.mediaController.isPlaying, props.mediaController.currentTime, props.mediaController.lastSeek,lastSeek,  props.mediaController.mediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
             if (lastPlaybackSpeed !== props.mediaController.playbackSpeed) {
                 //console.log("MP changewarp change", props.mediaController.playbackSpeed)

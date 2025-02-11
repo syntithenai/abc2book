@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
+
 import HomePage from './pages/HomePage'
 import BooksPage from './pages/BooksPage'
 import PrintPage from './pages/PrintPage'
@@ -26,12 +28,12 @@ import RecordingPage from './pages/RecordingPage'
 import FilesPage from './pages/FilesPage'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
-import VideoPlayerTest from './components/VideoPlayerTest'
-import Footer from './components/Footer'
+//import VideoPlayerTest from './components/VideoPlayerTest'
 import MergeWarningDialog from './components/MergeWarningDialog'
 import MidiPlayer from './components/MidiPlayer'
+
 import useTuneBook from './useTuneBook'
-import axios from 'axios'
+//import axios from 'axios'
 import useAppData from './useAppData'
 import useUtils from './useUtils'
 import useIndexes from './useIndexes'
@@ -41,8 +43,16 @@ import useAbcTools from './useAbcTools'
 import useHistory from './useHistory'
 import useServiceWorker from './useServiceWorker'
 import useTextSearchIndex from './useTextSearchIndex'
+import useRecordingsManager from './useRecordingsManager'
+import useGoogleLogin from './useGoogleLogin' 
+//import useGoogleDocument from './useGoogleDocument' 
+//import GoogleLogin from './GoogleLogin'
+import useTuneBookMediaController from './useTuneBookMediaController'
+import useFileManager from './useFileManager' 
+import useSyncWorker from './useSyncWorker'	
+
 import {useState, useEffect, useRef} from 'react';
-import jwt_decode from "jwt-decode";
+//import jwt_decode from "jwt-decode";
 import {useParams, useLocation, useNavigate} from 'react-router-dom';
 import {HashRouter as  Router,Routes, Route, Link  } from 'react-router-dom'
 import 'bootstrap';
@@ -50,13 +60,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
-import useRecordingsManager from './useRecordingsManager'
-import useGoogleLogin from './useGoogleLogin' 
-//import useGoogleDocument from './useGoogleDocument' 
-//import GoogleLogin from './GoogleLogin'
-import useTuneBookMediaController from './useTuneBookMediaController'
-import useFileManager from './useFileManager' 
-import useSyncWorker from './useSyncWorker'
+
 
 function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);

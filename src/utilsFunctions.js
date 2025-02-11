@@ -163,12 +163,12 @@ export default function utilsFunctions(props) {
      */    
     function scrollTo(id, offset) {
 		var element = document.getElementById(id);
-        console.log('scrollto ',id,offset, element)
+        //console.log('scrollto ',id,offset, element)
         if (element) {
           var headerOffset = offset ? offset : 10;
           var elementPosition = element.offsetTop;
           var offsetPosition = elementPosition - headerOffset;
-          console.log('DO scrollto ',offsetPosition)
+          //console.log('DO scrollto ',offsetPosition)
           setTimeout(function() {
 			document.documentElement.scrollTop = offsetPosition;
 			document.body.scrollTop = offsetPosition; // For Safari
@@ -259,7 +259,7 @@ export default function utilsFunctions(props) {
         const cb = navigator.clipboard;
         cb.writeText(text).then(function() {
             alert('Copied!')
-        }).catch(function(e) {
+        }).catch(function(e) {	
             console.log(e)
         });
     }  

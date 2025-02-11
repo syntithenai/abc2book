@@ -12,15 +12,16 @@ import OpenSheetMusicDisplay from '../components/OpenSheetMusicDisplay'
 
 //const exportedPrefix = 'exported'
 
-var d = require('../G_Minor_Bach.mxl')
-console.log(d)
+//var d = require('../G_Minor_Bach.mxl')
+//console.log(d)
 export default function BlankPage(props) {
 	
 	
     return <div>
-   <OpenSheetMusicDisplay file={d}/>
     </div>
 }
+//<OpenSheetMusicDisplay file={d}/>
+   
  //{progress}
         //<button onClick={start} >Play</button>
         //<button onClick={stop} >Pause</button>
