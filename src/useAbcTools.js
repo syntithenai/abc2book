@@ -138,13 +138,18 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, notes:[], words: [] , meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
          var recordings = {}
          abc.split("\n").forEach(function(line) {
             //console.log('LINE', line)
+            var capoMatch = line.trim().match(/^capo:\s*(\d+)/i) || line.trim().match(/^%%capo\s+(\d+)/i)
+            if (capoMatch) {
+                tune.capo = parseInt(capoMatch[1], 10) || 0
+                return
+            }
             if (isCommentLine(line)) {
                 tune.abccomments.push(line)
             } else if (isMetaLine(line)) {
@@ -222,6 +227,8 @@ var useAbcTools = () => {
                     tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
+                } else  if (line.startsWith('% abcbook-capo')) {
+                    tune.capo = parseInt(line.slice(15).trim(), 10) || 0
                 } else  if (line.startsWith('% abcbook-transpose')) {
                     tune.transpose = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tuning')) {
@@ -524,6 +531,7 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
                     + ensure(tune.composer, "C:" + ensureText(tune.composer) + "\n" )
+                    + (tune.capo && tune.capo !== '' ? 'capo: ' + ensureText(tune.capo) + "\n" : '')
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
@@ -541,6 +549,7 @@ var useAbcTools = () => {
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
+                    + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 
                     + "% abcbook-lastupdated " +  ensureNumber(tune.lastUpdated) + "\n" 
@@ -607,6 +616,7 @@ var useAbcTools = () => {
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     //+ renderWordHeaders(tune)
                     + "% abcbook-tablature " +  tune.tablature + "\n" 
+                    + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
         //console.log('ABC OUT', finalAbc)
@@ -643,6 +653,7 @@ var useAbcTools = () => {
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + firstBars.join("|")
+                    + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     

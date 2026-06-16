@@ -90,6 +90,7 @@ export default function MusicSingle(props) {
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     const [zoomChords, setZoomChords] = useState(!props.tunebook.hasLyrics(tune))
+    const [chordViewMode, setChordViewMode] = useState('transposed')
     
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
@@ -280,8 +281,10 @@ export default function MusicSingle(props) {
         //var parsed = props.tunebook.abcTools.parseAbcToBeats(firstVoice.notes.join("\n"))
         ////console.log('sING',parsed.chords)
         //var [a,b,chordsArray,c] = parsed
-        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
-        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
+        var chordTranspose = (Number(tune.transpose) || 0) + (chordViewMode === 'capo' ? (Number(tune.capo) || 0) : 0)
+        var hasCapo = Number(tune.capo) > 0
+        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
+        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
         
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
@@ -481,6 +484,9 @@ export default function MusicSingle(props) {
                 </div>  }
       
                  {(Object.keys(uniqueChords).length > 0) && <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                    <div style={{padding:'0.3em 0.4em', borderBottom:'1px solid #ddd'}}>
+                      <span style={{fontWeight:'600'}}>Chord view</span>
+                    </div>
                     {!(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
                     {(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
                     <span>
@@ -489,6 +495,13 @@ export default function MusicSingle(props) {
                             var chordType = ''
                             return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                         })}
+                        {hasCapo && <Button
+                            variant={chordViewMode === 'capo' ? 'primary' : 'outline-primary'}
+                            size="sm"
+                            style={{float:'right', marginLeft:'0.35em'}}
+                            onClick={function() {setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')}}>
+                            Capo {tune.capo}
+                        </Button>}
                         </span>
                         {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >

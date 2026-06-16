@@ -246,6 +246,16 @@ export default function AbcEditor(props) {
                         <Form.Label>Transpose</Form.Label>
                         <Form.Control   value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
                       </Form.Group>
+
+                      <Form.Group className="mb-3" controlId="capo">
+                        <Form.Label>Capo</Form.Label>
+                        <Form.Control type="number" min="0" max="12" value={tune.capo !== undefined && tune.capo !== null ? tune.capo : ''} onChange={function(e) {
+                          var value = e.target.value === '' ? 0 : parseInt(e.target.value, 10)
+                          tune.capo = Number.isFinite(value) ? value : 0
+                          tune.id = params.tuneId
+                          saveTune(tune)
+                        }} />
+                      </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="rhythm">
                         <Form.Label>Rhythm</Form.Label>

@@ -220,6 +220,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       }
       tune.books = Array.isArray(tune.books) ? tune.books : []
       tune.voices = tune.voices ? tune.voices : {}
+      tune.capo = (tune.capo === undefined || tune.capo === null || tune.capo === '') ? 0 : parseInt(tune.capo, 10) || 0
       return tune
   }
   
