@@ -5,6 +5,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:3/4
 L:1/8
 R: waltz
@@ -49,9 +50,9 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=GQ0AjAdrjQs
 % abcbook-link-title-0 Andrea Walsh The Rose of Aranmore
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,© free,celtic tunes
+% abcbook-tags begged borrowed and stolen,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -71,6 +72,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:3/4
 L:1/8
 R: waltz
@@ -110,9 +112,9 @@ W: And ah! She left the thorn wi' me.
 % abcbook-link-0 https://www.youtube.com/watch?v=qnTLR54Coz8
 % abcbook-link-title-0 Ye Banks and Braes - Holly Tomas
 % abcbook-link-start-at-0 33
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,© free,steve ryan,celtic tunes,multipart
+% abcbook-tags begged borrowed and stolen,© free,steve ryan,celtic tunes,multipart,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -132,6 +134,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:4/4
 L:1/8
 R: song
@@ -174,9 +177,9 @@ W: Chorus
 % abcbook-link-title-0 The Corries - The Wild Mountain Thyme
 % abcbook-link-start-at-0 16
 % abcbook-link-end-at-0 252
-% abcbook-boost 20
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,© free,steve ryan,celtic tunes
+% abcbook-tags begged borrowed and stolen,© free,steve ryan,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -195,6 +198,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -259,9 +263,9 @@ W: At the muckin' o' Geordie's byre-
 % abcbook-link-0 https://www.youtube.com/watch?v=7XgMxKP_Jcs
 % abcbook-link-title-0 Andy Stewart - The Muckin&#39; O&quot; Geordie&#39;s Byre
 % abcbook-link-start-at-0 13
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,celtic tunes,nick hutten,© free
+% abcbook-tags begged borrowed and stolen,celtic tunes,nick hutten,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -280,6 +284,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -328,9 +333,9 @@ W: An' I leave ye as I got ye, a maist unceevil crew.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=A56VMt5hjz8
 % abcbook-link-title-0 Drumdelgie
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 8
-% abcbook-tags begged borrowed and stolen,© free,celtic tunes
+% abcbook-tags begged borrowed and stolen,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -349,6 +354,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -372,9 +378,9 @@ W: Merrily danced the quakers wife and merrily danced the quaker
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=aA-0aBFeVLc
 % abcbook-link-title-0 Merrily Kissed The Quaker
-% abcbook-boost 20
+% abcbook-boost 1
 % abcbook-difficulty 8
-% abcbook-tags begged borrowed and stolen,celtic tunes,nick hutten,ralph cullen,steve ryan,© free
+% abcbook-tags begged borrowed and stolen,celtic tunes,nick hutten,ralph cullen,steve ryan,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -431,6 +437,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:2/4
 L:1/8
 R: march
@@ -724,9 +731,9 @@ W: Rare bog, a rattlin' bog, a bog down in the valley-o
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=aLHuu3Ygvns
 % abcbook-link-title-0 The Rattlin&#39; Bog - The Irish Rovers (w/ Lyrics)
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 4
-% abcbook-tags begged borrowed and stolen,© free,celtic tunes
+% abcbook-tags begged borrowed and stolen,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -752,6 +759,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -812,9 +820,9 @@ W: https://lyricstranslate.com
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=l286QgBHP5o
 % abcbook-link-title-0 Wi&#39; a 100 Pipers (with lyrics) - Kenneth Mc Kellar
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 6
-% abcbook-tags begged borrowed and stolen,celtic tunes,ralph cullen,steve ryan,© free,pipe tunes
+% abcbook-tags begged borrowed and stolen,celtic tunes,ralph cullen,steve ryan,© free,pipe tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -833,6 +841,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:C
 R: march
 Q: 1/4=100
@@ -885,9 +894,9 @@ W: And young Roddy McCorley goes to die on the bridge of Toome today.
 % abcbook-link-0 https://www.youtube.com/watch?v=Slu23kGEw48
 % abcbook-link-title-0 Tommy Makem - Roddy McCorley
 % abcbook-link-start-at-0 29
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,© free
+% abcbook-tags begged borrowed and stolen,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -903,6 +912,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:2/4
 R: polka
 Q: 1/4=100
@@ -972,9 +982,9 @@ W: On the mountains of Pomeroy.
 % abcbook-link-title-0 The mountains of Pomeroy
 % abcbook-link-start-at-0 32
 % abcbook-link-end-at-0 314
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 6
-% abcbook-tags begged borrowed and stolen,© free
+% abcbook-tags begged borrowed and stolen,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1041,13 +1051,13 @@ W: Or leave them behind
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2kZASM8OX7s
 % abcbook-link-title-0 Folk Alley Sessions: Jay Ungar &amp; Molly Mason Family Band, &quot;Ashokan Farewell&quot;
-% abcbook-boost 3
+% abcbook-boost 15
 % abcbook-difficulty 1
 % abcbook-tags jims roots and blues,ralph cullen,steve ryan,test,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning GDAE
-% abcbook-lastupdated 1741236338622
+% abcbook-lastupdated 1742941154878
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 2
@@ -1087,29 +1097,22 @@ W: Yes, I lost my
 W: Little darlin
 W: The night they were playing
 W: The beautiful Tennessee Waltz!
-W: I remember the night
-W: And the Tennessee Waltz
-W: Now I know just how much I have lost
-W: Yes, I lost my
-W: Little darlin
-W: The night they were playing
-W: The beautiful Tennessee Waltz!
 W: 
-W: The beautiful Tennessee Waltz!
 % abcbook-tune_id 6298c29717a984d964951b3c
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=ePwI5KEd8D0
 % abcbook-link-title-0 1947 Pee Wee King - Tennessee Waltz (Redd Stewart, vocal)
-% abcbook-boost 3
+% abcbook-boost 13
 % abcbook-difficulty 1
 % abcbook-tags jims roots and blues,mike martin,steve ryan,steve set,test,© free
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -7
 % abcbook-tuning GDAE
-% abcbook-lastupdated 1741253788626
+% abcbook-lastupdated 1778225000318
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -7
 
 
 X: 13
@@ -1281,7 +1284,7 @@ W: I'm sick and I must go.
 % abcbook-tune_id 63ae8f1c06b44a1c00a30794
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=JPNUBR1sTfA
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -1351,6 +1354,7 @@ T: Brose and Butter
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:9/8
 L:1/8
 R: slip jig
@@ -1462,9 +1466,9 @@ W: Made all the windows to clatter… oh-oh
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=3WfG90m2Yco
 % abcbook-link-title-0 Brose and Butter
-% abcbook-boost 3
+% abcbook-boost 1
 % abcbook-difficulty 1
-% abcbook-tags celtic tunes,steve ryan,© free,test
+% abcbook-tags celtic tunes,steve ryan,© free,test,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning -2
@@ -1489,6 +1493,7 @@ B: tunes
 B: traditional songs
 B: begged borrowed and stolen
 B: songs
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -1522,9 +1527,9 @@ W: Oh, those were the joys of our dancing days.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=1adh3bdCx3Y
 % abcbook-link-title-0 The Cock O&#39; the North - British Army Song
-% abcbook-boost 17
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags australian traditional tunes,australian traditional tunes wiki,celtic tunes,nick hutten,begged borrowed and stolen,© free
+% abcbook-tags australian traditional tunes,australian traditional tunes wiki,celtic tunes,nick hutten,begged borrowed and stolen,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1539,6 +1544,7 @@ T: Nut Brown Maiden
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:2/4
 R: polka
 Q: 1/4=100
@@ -1586,9 +1592,9 @@ W: For she's the maid for me.
 % abcbook-link-0 https://www.youtube.com/watch?v=RXILQsEQJ-M
 % abcbook-link-title-0 15 - Nut Brown Maiden
 % abcbook-link-start-at-0 5
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,nick hutten,© free
+% abcbook-tags celtic tunes,nick hutten,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1639,7 +1645,7 @@ W: Sometimes enough for the whole damn crew
 % abcbook-link-title-0 Cluck Old Hen (1927) The Hillbillies
 % abcbook-link-start-at-0 4
 % abcbook-link-end-at-0 168
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags jims roots and blues,max campbell,old time tunes,oldtime tunes update,ralph cullen,© free
 % abcbook-tablature 
@@ -1737,6 +1743,7 @@ T: The Girl I Left Behind Me
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:2/4
 L:1/8
 Q: 1/4=100
@@ -1777,9 +1784,9 @@ W: to the girl I left behind me.
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=oblF9EqE9RA
 % abcbook-link-title-0 The Girl I Left Behind Me
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,jims roots and blues,nick hutten,© free
+% abcbook-tags celtic tunes,jims roots and blues,nick hutten,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -1922,6 +1929,7 @@ C:Trad.
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:2/2
 L:1/8
 R: polka
@@ -1982,9 +1990,9 @@ W: CHORUS
 % abcbook-tune_id 6298c287ad9d3e2105a8bcff
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=3whUH-e6ee0
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,jims roots and blues,nick hutten,© free
+% abcbook-tags celtic tunes,jims roots and blues,nick hutten,© free,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2199,7 +2207,7 @@ W: Sally Goodin. Sally Goodin. Sally Goody, Goody, Goodin.
 % abcbook-link-0 https://www.youtube.com/watch?v=jGsWgoo37VE
 % abcbook-link-title-0 Sally Goodin&#39; - Woody Guthrie
 % abcbook-link-start-at-0 6
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags incoming traditional songs,old time tunes,steve ryan,© free
 % abcbook-tablature 
@@ -2224,6 +2232,7 @@ T: Lanigan's Ball
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:6/8
 Q: 3/8=100
 K:Em
@@ -2275,9 +2284,9 @@ W: CHORUS
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=YySRJ6B-xIw
 % abcbook-link-title-0 Lanigan&#39;s Ball
-% abcbook-boost 17
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags celtic tunes,nick hutten,ralph cullen,steve ryan,© free,incoming traditional songs,begged borrowed and stolen
+% abcbook-tags celtic tunes,nick hutten,ralph cullen,steve ryan,© free,incoming traditional songs,begged borrowed and stolen,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2427,6 +2436,7 @@ B: good tune book
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:4/4
 L:1/8
 R: reel
@@ -2458,9 +2468,9 @@ W: Come on and give the fiddler a dram
 % abcbook-link-0 https://www.youtube.com/watch?v=kBoIVNWrrEQ
 % abcbook-link-title-0 Give the Fiddler a Dram
 % abcbook-link-start-at-0 8
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags jims roots and blues,good tune book,© free,celtic tunes
+% abcbook-tags jims roots and blues,good tune book,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2681,13 +2691,13 @@ W: 2 × Chorus
 % abcbook-tune_id 63dce673f1b68ca9fa6a1553
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=EhUaqbcx10A
-% abcbook-boost 0
+% abcbook-boost 15
 % abcbook-difficulty 0
 % abcbook-tags good tune book,© free
 % abcbook-tablature 
 % abcbook-transpose -5
 % abcbook-tuning GDAE
-% abcbook-lastupdated 1741239831141
+% abcbook-lastupdated 1742817032830
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -2700,6 +2710,7 @@ B: good tune book
 B: tunes
 B: traditional songs
 B: songs
+B: celtic tunes
 M:2/4
 R: polka
 Q: 1/4=100
@@ -2714,9 +2725,9 @@ W:
 % abcbook-tune_id 63dce6d1ac50241b9b465a45
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=1iyfy--v1Mg
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags good tune book,© free,celtic tunes
+% abcbook-tags good tune book,© free,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -2732,6 +2743,7 @@ B: songs
 B: traditional songs
 B: tunes
 B: begged borrowed and stolen
+B: celtic tunes
 M:6/8
 L:1/8
 R: jig
@@ -2782,9 +2794,9 @@ W: Boys and girls all got entangled and that put an end to Lanigan’s ball.
 % abcbook-tune_id 62828a3a9ed88430095357f3
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=YySRJ6B-xIw
-% abcbook-boost 0
+% abcbook-boost 1
 % abcbook-difficulty 7
-% abcbook-tags begged borrowed and stolen,ralph cullen,traditional songs,© free,steve ryan
+% abcbook-tags begged borrowed and stolen,ralph cullen,traditional songs,© free,steve ryan,celtic tunes,steve celtic tunes
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -4294,15 +4306,14 @@ W: His wings at the dawn of day
 % abcbook-link-start-at-0 103
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,max campbell,© free,test,steve set,learnlyrics,charlotte setlist
+% abcbook-tags steve ryan,max campbell,© free,test,steve set,learnlyrics,charlotte backups
 % abcbook-tablature 
-% abcbook-transpose -05
+% abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1734134561195
+% abcbook-lastupdated 1754831986319
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose -05
 % Rhythm Waltz
 % Transcriptions Only 1 transcription
 % Mode major
@@ -4937,11 +4948,11 @@ W: Let me go home and start over
 % abcbook-link-title-0 Tom Paxton - Bottle Of Wine - 1966 45rpm
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,max campbell
+% abcbook-tags steve ryan,max campbell,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1680999796004
+% abcbook-lastupdated 1755311757606
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -5107,12 +5118,13 @@ W: "You and me babe, how about it?"
 % abcbook-difficulty 1
 % abcbook-tags steve ryan,max campbell,test,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1681000017043
+% abcbook-lastupdated 1746430348881
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 7
 
 
 X: 64
@@ -5392,11 +5404,11 @@ W:
 % abcbook-link-title-0 Soggy Bottom Boys - I Am A Man Of Constant Sorrow
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,max campbell,incoming traditional songs
+% abcbook-tags steve ryan,max campbell,incoming traditional songs,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677467820147
+% abcbook-lastupdated 1755311861207
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -5959,6 +5971,7 @@ K:D
 V:1 
 "D"A2d2 f2>f2| g2f2 f2>g2| "A7"f2e2 e2>f2| "D"e2d2 d2>d2| A2d2 f2>f2| g2f2 f2>g2| "A7"f2e2 e2>f2| "D"e2d2 d4|
  a2a2 a2<f2| "G"g2g2 g2<e2| "D"f2>f2 f2d2| "A7"e2c2 B2<A2| "D"a2a2 a2<f2| "G"g2g2 g4| "D"f2f2 "A7"e2f2| "D"e2d2 d4||
+W: # CHORUS
 W: I'll tell me ma, when I go home
 W: The boys won't leave the girls alone
 W: Pulled me hair, stolen me comb
@@ -5969,6 +5982,7 @@ W: She is the belle of Dublin city
 W: She is a-courting one, two, three
 W: Pray, want you tell me who is she?
 W: 
+W: # VERSE 1
 W: Albert Mooney says he loves her
 W: All the boys are fightin' for her
 W: Knock at the door, they're ringin' the bell
@@ -5979,15 +5993,7 @@ W: Rings on her fingers, bells on her toes
 W: Ol' Jenny Murray says she'll die
 W: If she doesn't get the fellow with the roving eye
 W: 
-W: I'll tell me ma, when I go home
-W: The boys won't leave the girls alone
-W: Pulled me hair, stolen me comb
-W: But that's alright, till I go home
-W: 
-W: She is handsome, she is pretty
-W: She is the belle of Dublin city
-W: She is a-courting one, two, three
-W: Pray, want you tell me who is she?
+W: # CHORUS
 W: 
 W: Let the wind and the rain and the hail blow high
 W: And the snow come travelin' through the sky
@@ -5999,35 +6005,11 @@ W: She won't tell her ma when she gets home
 W: Let them all come as they will
 W: It's Albert Mooney she loves still
 W: 
-W: I'll tell me ma, when I go home
-W: The boys won't leave the girls alone
-W: Pulled me hair, stolen me comb
-W: But that's alright till I get home
+W: # CHORUS
 W: 
-W: She is handsome, she is pretty
-W: She is the belle of Dublin city
-W: She is a-courting one, two, three
-W: Pray, want you tell me who is she?
+W: # VERSE 1
 W: 
-W: Albert Mooney says he loves her
-W: All the boys are fightin' for her
-W: Knock at the door, they're ringin' the bell
-W: Say, "Hello, me true love are you well?"
-W: 
-W: Out she comes white as snow
-W: Rings on her fingers, bells on her toes
-W: Ol' Jenny Murray says she'll die
-W: If she doesn't get the fellow with the roving eye
-W: 
-W: I'll tell me ma, when I go home
-W: The boys won't leave the girls alone
-W: Pulled me hair, stolen me comb
-W: But that's alright till I get home
-W: 
-W: She is handsome, she is pretty
-W: She is the belle of Dublin city
-W: She is a-courting one, two, three
-W: Pray, want you tell me who is she?
+W: # CHORUS
 % abcbook-tune_id 62a420d088258b224f63fe9a
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=XuNlgzdkE44
@@ -6038,7 +6020,7 @@ W: Pray, want you tell me who is she?
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676948161339
+% abcbook-lastupdated 1754875759471
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -6389,7 +6371,7 @@ W: For she was of noble kin”
 % abcbook-link-0 https://www.youtube.com/watch?v=1it7BP5PckI
 % abcbook-boost 16
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,max campbell,© free,charlotte setlist
+% abcbook-tags steve ryan,max campbell,© free,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -6493,11 +6475,11 @@ W: Through the clear clear skies... the skies
 % abcbook-link-0 https://tunebook.net/music/Comes A Time.mp3
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags max campbell,© granted,steve ryan,steve set
+% abcbook-tags max campbell,© granted,steve ryan,steve set,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1722736325323
+% abcbook-lastupdated 1755312349503
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 2
@@ -6683,7 +6665,7 @@ W:
 % abcbook-link-title-0 The Chicks - Long Time Gone (Official Video)
 % abcbook-boost 15
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,max campbell,©,mandira,test,vcs,charlotte setlist,steve set
+% abcbook-tags steve ryan,max campbell,©,mandira,test,vcs,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -6732,11 +6714,11 @@ W: I'll fly away
 % abcbook-link-title-0 I&#39;ll Fly Away
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags kameruka choir,mandira,max campbell,steve ryan,velma mckeachie,© free,vcs,steve set
+% abcbook-tags kameruka choir,mandira,max campbell,steve ryan,velma mckeachie,© free,vcs,steve set,banjo setlist g,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1676947458769
+% abcbook-lastupdated 1755309797930
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -6923,11 +6905,11 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags max campbell,steve ryan,test,steve set
+% abcbook-tags max campbell,steve ryan,test,steve set,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1682925987391
+% abcbook-lastupdated 1755312722685
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -6978,7 +6960,7 @@ W: Honey, are you mad at your man?
 % abcbook-link-2 https://www.youtube.com/watch?v=MV6Xs-0jmeQ
 % abcbook-boost 13
 % abcbook-difficulty 1
-% abcbook-tags max campbell,steve ryan,test,charlotte setlist,steve set
+% abcbook-tags max campbell,steve ryan,test,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -7270,13 +7252,13 @@ W: Kissed her while everybody's playin'
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=2gyCc8JbDEs
 % abcbook-link-title-0 Bonaparte&#39;s Retreat
-% abcbook-boost 0
+% abcbook-boost 8
 % abcbook-difficulty 0
 % abcbook-tags max campbell,traditional songs
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning GDAE
-% abcbook-lastupdated 1741236449629
+% abcbook-lastupdated 1743114642076
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -8663,13 +8645,12 @@ W: I really don't know life at all
 % abcbook-difficulty 0
 % abcbook-tags velma mckeachie,steve ryan
 % abcbook-tablature 
-% abcbook-transpose -2
+% abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673907371005
+% abcbook-lastupdated 1746523372897
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose -2
 
 
 X: 111
@@ -9366,11 +9347,11 @@ W: [Chorus]
 % abcbook-link-title-0 The Pogues - A Pair of Brown Eyes
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan
+% abcbook-tags steve ryan,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1673912286593
+% abcbook-lastupdated 1755312708389
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -10761,7 +10742,7 @@ W: {c: CHORUS}
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677381811218
+% abcbook-lastupdated 1753576418518
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -10952,11 +10933,11 @@ W:
 % abcbook-link-title-0 Deep Purple - Smoke On the Water (Official Music Video)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,steve set,learnlyrics
+% abcbook-tags steve ryan,steve set,learnlyrics,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1732920705420
+% abcbook-lastupdated 1755310275118
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -11258,13 +11239,13 @@ W: We’ll all pull together and sing this song. Refrain
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=61eZv4nJ_v0
 % abcbook-link-title-0 Cumberland Gap -- The Wayfarers
-% abcbook-boost 3
+% abcbook-boost 15
 % abcbook-difficulty 1
 % abcbook-tags steve ryan,steve set,test,© free
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning GDAE
-% abcbook-lastupdated 1741238965119
+% abcbook-lastupdated 1742941161681
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -11827,6 +11808,7 @@ B: canberra pickers and fiddlers
 B: old time
 M:4/4
 Q: 1/4=180
+K:G
 V:1 
 "G"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
 "G"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
@@ -11874,7 +11856,7 @@ W: Even been in the onion patch
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1739756241695
+% abcbook-lastupdated 1757894041695
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -14172,7 +14154,7 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 18
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,test,charlotte setlist,steve set
+% abcbook-tags steve ryan,test,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -15434,11 +15416,11 @@ W: Poor boy, you're bound to die
 % abcbook-link-end-at-0 248
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,incoming traditional songs,test
+% abcbook-tags steve ryan,incoming traditional songs,test,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1677473470686
+% abcbook-lastupdated 1755316272012
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -17397,7 +17379,7 @@ W: When the smoke gets in your eyes
 % abcbook-link-title-0 Indoor Fireworks
 % abcbook-boost 15
 % abcbook-difficulty 1
-% abcbook-tags steve ryan,test,vcs,charlotte setlist,steve set
+% abcbook-tags steve ryan,test,vcs,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -17978,7 +17960,7 @@ W: On this harvest moon
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1729476381569
+% abcbook-lastupdated 1774601809005
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -21330,7 +21312,7 @@ W:
 % abcbook-link-title-0 Peaceful Easy Feeling (2013 Remaster)
 % abcbook-boost 14
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©,vcs2,projects,steve ryan,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye,©,vcs2,projects,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 5
 % abcbook-tuning 
@@ -22062,7 +22044,16 @@ C:Nanci Griffith
 B: songs
 M:4/4
 Q: 1/4=100
+K:F
 V:1 
+"F"zzzzzzzz|"A#"zzzzzzzz|"F"zzzzzzzz|"A#"zzzzzzzz|
+"F"zzzzzzzz|"A#"zzzz"C"zzzz|"F"zzzzzzzz|"F"zzzzzzzz|
+"F"zzzzzzzz|"A#"zzzzzzzz|"F"zzzzzzzz|"A#"zzzzzzzz|
+"F"zzzzzzzz|"A#"zzzz"C"zzzz|"F"zzzzzzzz||"F"zzzzzzzz||
+"A#"zzzzzzzz|"A#"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz|
+"A#"zzzzzzzz|"A#"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz|"A#"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz|
+"A#"zzzzzzzz|"C"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz|
 W: 
 W: Oh the city snow makes your brown eyes shine
 W: We've gotta look real hard to find a reason to cry
@@ -22104,16 +22095,19 @@ W:
 W: Source: LyricFind  Songwriters: Brian Claffin / Adam Duritz / Nanci Griffith - Going Back to Georgia lyrics (C) Universal Music Publishing Group
 % abcbook-tune_id 634b708ed712cf64ac79df3b
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=4-fM2tiFnys
+% abcbook-link-title-0 Going Back to Georgia
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©
+% abcbook-tags charlotte lyngbye,©,charlotte backups
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 4
 % abcbook-tuning 
-% abcbook-lastupdated 1665888409811
+% abcbook-lastupdated 1746328857917
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 4
 
 
 X: 309
@@ -26155,7 +26149,7 @@ W:
 % abcbook-link-title-0 green pastures
 % abcbook-boost 18
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©,vcs,vcs2,projects,steve ryan,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye,©,vcs,vcs2,projects,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -27771,11 +27765,11 @@ W:
 % abcbook-link-title-0 Take Me Back
 % abcbook-boost 14
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©,charlotte setlist,steve ryan,steve set
+% abcbook-tags charlotte lyngbye,©,steve ryan,steve set,francesca,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1734228207960
+% abcbook-lastupdated 1753492900524
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -30884,13 +30878,15 @@ W: Source: LyricFind  - Songwriters: Lucinda Williams - Right in Time lyrics (C)
 W: 
 % abcbook-tune_id 634b708e3be2885c0f23d7b9
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=_jMyhTSLSJ4
+% abcbook-link-title-0 Lucinda Williams - &quot;Right In Time&quot; [Live from Austin, TX]
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©,charlotte setlist
+% abcbook-tags charlotte lyngbye,©,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1734228943359
+% abcbook-lastupdated 1746183312784
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -31701,7 +31697,7 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 15
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©,vcs2,projects,charlotte setlist,steve ryan,steve set
+% abcbook-tags charlotte lyngbye,©,vcs2,projects,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -33681,13 +33677,15 @@ W:
 W: 
 % abcbook-tune_id 634b708e7ec1d99f7f688668
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=G-w8WA-Axz8
+% abcbook-link-title-0 The Magdalene Laundries
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags charlotte lyngbye,©
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665888415467
+% abcbook-lastupdated 1758184654047
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -34718,9 +34716,9 @@ B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-"Am"zzzzzzzz|"Em"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz||
-"C"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|
-"C"zzzzzzzz|"G"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz||
+"Am"zzzzzzzz|"Em"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz||
+"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|
+"C"zzzzzzzz|"Em"zzzzzzzz|"F"zzzzzzzz|"F"zzzzzzzz||
 "C"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"Em"zzzzzzzz||
 W: Go jump in the lake go ride up the hill
 W: Get out of this house
@@ -34768,11 +34766,11 @@ W: Get out of this house
 % abcbook-link-title-0 Shawn Colvin - Get Out Of This House
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags ©,charlotte setlist
+% abcbook-tags ©,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1733956922164
+% abcbook-lastupdated 1746157945231
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -38664,85 +38662,64 @@ B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-W: Tom Waits
+"Em"zzzzzzzz||"Am"zzzzzzzz||"B7"zzzzzzzz||"Em"zzzzzzzz||
+"Em"zzzzzzzz|"Am"zzzzzzzz|"B7"zzzzzzzz|"Em"zzzzzzzz|
+"Em"zzzzzzzz||"Am"zzzzzzzz||"B7"zzzzzzzz||"Em"zzzzzzzz||
+"Am"zzzzzzzz|"B7"zzzzzzzz|"Em"zzzzzzzz|"Am"zzzzzzzz|
+"B7"zzzzzzzz|"Em"zzzzzzzz|"Am"zzzz"B7"zzzz|"Em"zzzzzzzz|
+W: [Verse 1]
+W: Well you play that tarantella, all the hounds will start to roar
+W: The boys all go to hell and then the Cubans hit the floor
+W: They drive along the pipeline, they tango till they're sore
+W: They take apart their nightmares and they leave 'em by the door
 W: 
-W: Well ya play that Tarantella
+W: [Chorus]
+W: Let me fall out of the window with confetti in my hair
+W: Deal out Jacks or better on a blanket by the stairs
+W: I'll tell you all my secrets, but I lie about my past
+W: And send me off to bed forevermore
 W: 
-W: All the hounds they start to roar
+W: [Verse 2]
+W: Make sure they play my theme song, I guess daisies will have to do
+W: Just get me to New Orleans and paint shadows on the pews
+W: Turn the spit on that pig and kick the drum and let me down
+W: Put my clarinet beneath your bed till I get back in town
 W: 
-W: And the boys all go to hell
+W: [Chorus]
+W: Let me fall out of the window with confetti in my hair
+W: Deal out Jacks or better on a blanket by the stairs
+W: I'll tell you all my secrets, but I lie about my past
+W: And send me off to bed forevermore
 W: 
-W: Then the Cubans hit the floor
+W: [Verse 3]
+W: Just make sure she's all in Calico and the color of a doll
+W: Wave the flag on Cadillac Day and a skillet on the wall
+W: Cut me a switch or hold your breath till the sun goes down
+W: Write my name on the hood, send me off to another town
 W: 
-W: And they drive along the pipeline
 W: 
-W: They tango till they’re sore
-W: 
-W: They take apart their nightmares
-W: 
-W: And they leave them by the door
-W: 
-W: CHORUS
-W: 
-W: Let me fall out the window
-W: 
-W: With confetti in my hair
-W: 
-W: Deal out jacks or better
-W: 
-W: On a blanket by the stairs
-W: 
-W: I’ll tell you all my secrets
-W: 
-W: But I lie about my past
-W: 
-W: So send me off to bed forever more
-W: 
-W: Make sure they play my theme song
-W: 
-W: I guess daisies will have to do
-W: 
-W: Just get me to New Orleans
-W: 
-W: And paint shadows on the pews
-W: 
-W: Turn the spit on that pig
-W: 
-W: Kick the drum and let me down
-W: 
-W: Put my clarinet beneath your bed
-W: 
-W: Till I get back in town
-W: 
-W: CHORUS
-W: 
-W: Just sure she’s all in calico
-W: 
-W: And the colour of a doll
-W: 
-W: Wave the flag on Cadillac day
-W: 
-W: And a skillet on the wall
-W: 
-W: Cut me a switch or hold your breath
-W: 
-W: Till the sun goes down
-W: 
-W: Write my name on the hood
-W: 
-W: Send me off to another town
-W: 
-W: CHORUS
-W: 
+W: [Chorus]
+W: And just let me fall out of the window with confetti in my hair
+W: Deal out Jacks or better on a blanket by the stairs
+W: Tell you all my secrets, but I lie about my past
+W: Will you send me off to bed forevermore?
+W: Fall out of the window with confetti in my hair
+W: Deal out Jacks or better on a blanket by the stairs
+W: I'll tell you all my secrets, but I lie about my past
+W: Send me off to bed forevermore
+W: Send me off to bed forevermore
 % abcbook-tune_id 634b708e3075f406ef8478de
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=FSZxJpf1IHI
+% abcbook-link-title-0 Tom Waits - &quot;Tango Till They&#39;re Sore&quot;
+% abcbook-link-1 https://www.youtube.com/watch?v=_Ian3tYnV5s
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,©
+% abcbook-tags charlotte lyngbye,©,charlotte setlist
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1665888417590
+% abcbook-lastupdated 1780785940912
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -42078,7 +42055,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/cast iron man.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -42566,7 +42543,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/in the water.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -43219,7 +43196,7 @@ W: These pretzels are making me thirsty
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/happy hour.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -43293,7 +43270,7 @@ W: It's the cross that I must bear
 % abcbook-link-start-at-0 12
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -43426,7 +43403,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/everything%20has%20to%20be%20goat%20blues.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -43912,7 +43889,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/fugitive.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -43997,7 +43974,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/grudge.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -44069,7 +44046,7 @@ W: I'm not going underground
 % abcbook-link-start-at-0 24
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEABE
@@ -44157,7 +44134,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/subscription.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -44538,7 +44515,7 @@ W: And I know he is watching from heaven above
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/the meaning of leif.mp3
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte setlist
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,© granted,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -44843,12 +44820,13 @@ W:
 % abcbook-difficulty 1
 % abcbook-tags steve ryan,steve ryan originals,incoming traditional songs,test,steve set
 % abcbook-tablature 
-% abcbook-transpose 0
+% abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1702706837973
+% abcbook-lastupdated 1775623085216
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 3
+%%MIDI transpose -5
 
 
 X: 602
@@ -53192,7 +53170,7 @@ W:
 % abcbook-link-end-at-0 125
 % abcbook-boost 16
 % abcbook-difficulty 0
-% abcbook-tags © free,charlotte setlist
+% abcbook-tags © free,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -57851,13 +57829,13 @@ W:
 % abcbook-difficulty 1
 % abcbook-tags ©,mandira,steve ryan,ss1,ss2,ss3,steve set
 % abcbook-tablature 
-% abcbook-transpose 9
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1687929019990
+% abcbook-lastupdated 1779582495997
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose 9
+%%MIDI transpose 7
 
 
 X: 821
@@ -57956,57 +57934,42 @@ X: 824
 T: Copper Kettle
 C:Joni Mitchell
 B: songs
+M:4/4
 Q: 1/4=100
 V:1 
-W: Get you a copper kettle
-W: Get you a copper coil
-W: Cover with new-made corn mash
-W: and never more you'll toil
+"C"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"Em"zzzzzzzz|"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz||
+"Am"zzzzzzzz|"Em"zzzzzzzz|"Am"zzzzzzzz|"Em"zzzzzzzz|
+"Am"zzzzzzzz|"Dm"zzzzzzzz|"Am"zzzz"E"zzzz|"Am"zzzzzzzz||
+W: Get you a copper kettle. Get you a copper coil.
+W: Cover with new-made corn mash, and never more you'll toil.
 W: 
-W: You'll just lay there by the juniper
-W: While the moon is bright
-W: Watch them jugs a-fillin'
-W: In the pale moonlight
+W: # CHORUS
+W: You'll just lay there by the juniper, while the moon is bright
+W: Watch them jugs a-fillin', in the pale moonlight
 W: 
-W: Get you a fire of hickory
-W: Get you a fire of oak
-W: Don't use no green or rotten wood
-W: they'll find you by the smoke
+W: Get you a fire of hickory. Get you a fire of oak.
+W: Don't use no green or rotten wood, they'll find you by the smoke.
+W: # CHORUS
 W: 
-W: While you lay there by the juniper
-W: While the moon is bright
-W: Watch them jugs a-fillin'
-W: In the pale moonlight
+W: My grandpappy he made whiskey. My daddy he made it too.
+W: We ain't paid no whiskey tax since 1792.
+W: # CHORUS
 W: 
-W: My grandpappy he made whiskey
-W: My daddy he made it too
-W: We ain't paid no whiskey tax since 1792
-W: 
-W: We just lay there by the juniper
-W: While the moon is bright
-W: Watch them jugs a-fillin'
-W: In the pale moonlight
-W: 
-W: Get you a copper kettle
-W: Get you a copper coil
-W: Cover with new-made corn mash
-W: and never more you will toil
-W: 
-W: You'll just lay there by the juniper
-W: While the moon is bright
-W: Watch them jugs a-fillin'
-W: In the pale moonlight
+W: Get you a copper kettle. Get you a copper coil
+W: Cover with new-made corn mash, and never more you will toil
+W: # CHORUS
 % abcbook-tune_id 638486c2726bbb3311845bf6
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=u3cbCJbr8p8
 % abcbook-link-title-0 Copper Kettle
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags ©,mandira
+% abcbook-tags ©,mandira,francesca
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1669774713210
+% abcbook-lastupdated 1780274565558
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -61525,18 +61488,21 @@ W: And I'll drink a health to my Creole girl,
 W: And the lakes of Pontchartrain.
 % abcbook-tune_id 638486c256eda2417625d30f
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=Ad8RVexRUoQ
-% abcbook-link-title-0 The Lakes of Pontchartrain - Paul Brady  1977
+% abcbook-link-0 https://www.youtube.com/watch?v=Dtywt38RnX4
+% abcbook-link-title-0 Lakes of Pontchartrain
+% abcbook-link-1 https://www.youtube.com/watch?v=Ad8RVexRUoQ
+% abcbook-link-title-1 The Lakes of Pontchartrain - Paul Brady  1977
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags ©,mandira,incoming traditional songs
+% abcbook-tags ©,mandira,incoming traditional songs,charlotte lyngbye,charlotte setlist
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 2
 % abcbook-tuning 
-% abcbook-lastupdated 1677467619080
+% abcbook-lastupdated 1745911704140
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 2
 
 
 X: 893
@@ -63494,8 +63460,10 @@ T: Rattlin' Bones
 C:Casey Chambers
 B: songs
 B: working
+M:4/4
 Q: 1/4=100
 V:1 
+"Bm"zzzzzzzz|
 W: Smoke don't rise
 W: Fuel don't burn
 W: Sun don't shine no more
@@ -63555,11 +63523,11 @@ W: With the dust and rattlin' bones
 % abcbook-link-title-0 Kasey Chambers &amp; Shane Nicholson - Rattlin&#39; Bones
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags ©,mandira,charlotte setlist,francesca
+% abcbook-tags ©,mandira,charlotte setlist,francesca,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1738630133408
+% abcbook-lastupdated 1770350921311
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -66105,12 +66073,13 @@ W: Yeah, only....[repeat till fade]
 % abcbook-difficulty 0
 % abcbook-tags ©,mandira,incoming traditional songs
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1678330584190
+% abcbook-lastupdated 1755217654481
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 7
 
 
 X: 978
@@ -66434,13 +66403,15 @@ W: When you come back down
 W: When you come back down
 % abcbook-tune_id 638486c2642086962d25380c
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=ng5-VUDcjJ8
+% abcbook-link-title-0 Nickel Creek - When You Come Back Down (HD)
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags ©,mandira
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1669782771274
+% abcbook-lastupdated 1755312413048
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -74525,11 +74496,11 @@ W: Me and my papa can pick a bale a day.
 % abcbook-link-title-0 Lead Belly - Pick A Bale Of Cotton
 % abcbook-boost 3
 % abcbook-difficulty 1
-% abcbook-tags robert kingston,© free,steve ryan,test,steve set
+% abcbook-tags robert kingston,© free,steve ryan,test,steve set,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1678362876828
+% abcbook-lastupdated 1755913397453
 % abcbook-src-url https://tunebook.net/scrape/songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -75913,11 +75884,11 @@ W: A day for the hunter, a day for the prey
 % abcbook-link-title-0 Leyla McCalla - A Day For The Hunter, A Day For The Prey [Official Music Video]
 % abcbook-boost 15
 % abcbook-difficulty 0
-% abcbook-tags ss1,steve ryan,steve set
+% abcbook-tags ss1,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1724850698008
+% abcbook-lastupdated 1746420223233
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77236,7 +77207,7 @@ W: It’s all false &amp; counterfeit (Rpt)
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte lyngbye/artificial.m4a
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,charlotte setlist,steve set
+% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEABE
@@ -77396,7 +77367,7 @@ W: We’ll play around and around and around
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1694121796286
+% abcbook-lastupdated 1745016911154
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -77584,7 +77555,7 @@ W: # outro
 % abcbook-link-start-at-0 15
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,charlotte setlist,steve set
+% abcbook-tags charlotte lyngbye originals,charlotte lyngbye,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning EAEADE
@@ -77888,12 +77859,13 @@ W: Life sux, and it's awesome as hell
 % abcbook-difficulty 0
 % abcbook-tags candelo songwriters,steve ryan,steve ryan originals,ss1,ss3,projects,charlotte setlist,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -5
 % abcbook-tuning 
-% abcbook-lastupdated 1729936711142
+% abcbook-lastupdated 1781403851891
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -5
 
 
 X: 1163
@@ -77969,7 +77941,7 @@ W: INSTR (verse)
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/charlotte%20lyngbye/journey%20home.m4a
 % abcbook-boost 1
 % abcbook-difficulty 0
-% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,projects,charlotte setlist
+% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,projects,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -78151,7 +78123,7 @@ W:
 % abcbook-link-0 https://youtu.be/NTUPZkdtTlA
 % abcbook-boost 16
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,ss2,ss3,projects,charlotte setlist,steve set
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,ss2,ss3,projects,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 5
 % abcbook-tuning 
@@ -78283,13 +78255,13 @@ W: Mizè nou fini
 % abcbook-difficulty 0
 % abcbook-tags ss1,projects,steve ryan,steve set,learnlyrics
 % abcbook-tablature 
-% abcbook-transpose 4
+% abcbook-transpose -3
 % abcbook-tuning 
-% abcbook-lastupdated 1734231684845
+% abcbook-lastupdated 1767695632494
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
-%%MIDI transpose 4
+%%MIDI transpose -3
 
 
 X: 1167
@@ -78625,7 +78597,7 @@ W: with booted feet crush shell and bone
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1730082956541
+% abcbook-lastupdated 1754101298767
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79230,7 +79202,7 @@ W:
 % abcbook-link-0 https://syntithenai.github.io/abc2book_free_music/steve ryan/creamy streets.mp3
 % abcbook-boost 18
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,charlotte setlist,steve set
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -79254,7 +79226,7 @@ V:1
 "F"zzzzzzzz||"Am"zzzzzzzz||"Bb"zzzz"Gm"zzzz||"Dm"zzzz"C"zzzz||
 "Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
 "Gm"zzzzzzzz|"Eb"zzzzzzzz|"Bb"zzzzzzzz|"C"zzzzzzzz|
-W: 
+W: Dm capo 7
 W: 
 W: # verse
 W: In the warm hint of Spring I feel, fear in my bones
@@ -79313,12 +79285,13 @@ W: # chorus
 % abcbook-difficulty 0
 % abcbook-tags steve ryan originals,steve ryan,candelo songwriters,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1698554609894
+% abcbook-lastupdated 1746512527790
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 7
 
 
 X: 1180
@@ -79380,7 +79353,7 @@ W: Dead or alive
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte lyngbye,charlotte lyngbye originals,candelo songwriters,charlotte setlist
+% abcbook-tags charlotte lyngbye,charlotte lyngbye originals,candelo songwriters,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -79507,7 +79480,7 @@ W: But I reached our darling girl too late
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1695274401286
+% abcbook-lastupdated 1753574924886
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79641,10 +79614,12 @@ B: working
 M:4/4
 Q: 1/4=100
 V:1 
-"Em"zzzzzzzz|"Em"zzzzzzzz|"D"zzzzzzzz|"D"zzzz"Em"zzzz|"D"zzzzzzzz|"D"zzzz"Em"zzzz||
-"Em"zzzzzzzz|"Em"zzzz"G"zzzz|"G"zzzzzzzz|"G"zzzz"D"zzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"D"zzzzzzzz|"D"zzzz"Em"zzzz|
+"D"zzzzzzzz|"D"zzzz"Em"zzzz|"D"zzzzzzzz|"Em"zzzzzzzz|
+"D"zzzzzzzz||"D"zzzzzzzz||"D"zzzzzzzz||"Em"zzzzzzzz||
+"Em"zzzzzzzz|"Em"zzzz"G"zzzz|"G"zzzzzzzz| "G"zzzz"D"zzzz|
 "D"zzzzzzzz||"D"zzzz"Em"zzzz||"Em"zzzzzzzz||"Em"zzzzzzzz||
-"Em"zzzzzzzz|"D"zzzzzzzz|"C"zzzz"D"zzzz| "Em"zzzzzzzz||
+"Em"zzzzzzzz|"D"zzzzzzzz|"C"zzzz"D"zzzz|"Em"zzzzzzzz|
 W: Reliable Soup - Steve Ryan 25/09/2023
 W: 
 W: 
@@ -79690,7 +79665,7 @@ W: Is chicken soup reliable? . ..... well... it usually has meat
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1730082148258
+% abcbook-lastupdated 1766541752362
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -79999,7 +79974,7 @@ V:1
 "C"zzzzzzzz||"C"zzzz"B"zzzz||"B"zz"A#"zz"A"zz"G#"zz||"G"zzzzzzzz||
 "F"zzzzzzzz|"E"zzzzzzzz|"C"zzzzzzzz|"A"zzzzzzzz|
 "G"zzzzzzzz|"G#"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
-W:  Rippin Yahoo Todo  14/11/23
+W: Rippin Yahoo Todo  14/11/23
 W: 
 W: In an old church at Candelo
 W: we'd gather to pluck and bow
@@ -80387,44 +80362,44 @@ W:
 W: 
 W: 
 W: ---------------------------------------------------
-W: Her Moon Standard/ Capo            Charlotte Lyngbye 3/12/23           
+W: Her Moon Standard/ Capo            Charlotte Lyngbye 3/12/23
 W: 
-W:             C
+W: C
 W: She explored
-W:                   Bb
+W: Bb
 W: And was caught out
-W:                F
+W: F
 W: She adored
-W:                                   C                    G
+W: C                    G
 W: And often had her doubts
 W: 
-W:             C
-W: She could laugh 
-W:      Bb
+W: C
+W: She could laugh
+W: Bb
 W: At anything crude
-W:       F
+W: F
 W: She could cry
-W:      C
+W: C
 W: To mark her gratitude
 W: 
 W: 
-W:                      Gm
+W: Gm
 W: Her blood runs through me
-W:                       F
+W: F
 W: She’s in my bone
-W:                     C
+W: C
 W: From across the sea
-W:                         Gm
+W: Gm
 W: She was my home
 W: 
 W: 
-W:                     Bb
+W: Bb
 W: She was a mover
-W:                     F
+W: F
 W: And a shaker
-W:                     Gm.     Bb
+W: Gm.     Bb
 W: She was a groover
-W:                     F.                       
+W: F.
 W: She was my maker
 W: 
 W: 
@@ -80499,7 +80474,7 @@ W: Than when we first begun.
 % abcbook-tablature 
 % abcbook-transpose 5
 % abcbook-tuning 
-% abcbook-lastupdated 1730970904813
+% abcbook-lastupdated 1754283183077
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 3
@@ -80744,7 +80719,7 @@ V:1
 "Dm"zzzz"Gm"zzzz|"Bb"zzzz"C"zzzz|
 "Bb"zzzz"Bb"zzzz|"Bb"zzzz"C"zzzz|| 
 "Bb"zzzzzzzz|"F"zzzzzzzz|"Gm"zzzzzzzz|"C"zzzzzzzz|
-W: Salamander - Steve Ryan 7-8-24
+W: Salamander - Steve Ryan 7-8-24   capo 5
 W: 
 W: When the world was young he lived a god among his dreams.
 W: Buckled down for future, amid exuberant screams.
@@ -80779,12 +80754,13 @@ W: smooth the ride
 % abcbook-difficulty 0
 % abcbook-tags steve ryan originals,steve ryan,candelo songwriters,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose -3
 % abcbook-tuning 
-% abcbook-lastupdated 1729916115056
+% abcbook-lastupdated 1767521119480
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose -3
 
 
 X: 1201
@@ -81042,7 +81018,7 @@ W: Each wonderful night in Tunisia
 % abcbook-tablature 
 % abcbook-transpose -4
 % abcbook-tuning 
-% abcbook-lastupdated 1729912866396
+% abcbook-lastupdated 1748758963241
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -81299,6 +81275,16 @@ B: songs
 M:4/4
 Q: 1/4=100
 V:1 
+"A"zzzzzzzz|"A"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"A"zzzzzzzz||"A"zzzzzzzz||"E"zzzzzzzz||"A"zzzzzzzz||
+"A"zzzzzzzz|"A"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"E"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"A"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|"A"zzzzzzzz|
+"D"zzzzzzzz|"E"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz|
+"D"zzzzzzzz|"E"zzzzzzzz|"A"zzzzzzzz|"E"zzzzzzzz||
 W: 'E 'Otua tataki au
 W: Fakaulo 'ae maama 'i hoku loto
 W: Pea ngaohi au koe fetu'u ngingila
@@ -81343,20 +81329,19 @@ W: Share
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1729911618128
+% abcbook-lastupdated 1779325507023
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 94262
+X: 1210
 T: When Doves Cry
 C:Prince
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: "When Doves Cry"
 W: (from "Purple Rain" soundtrack)
 W: 
@@ -81500,7 +81485,7 @@ W: A group of madness all together can be joy or bloody hard work
 % abcbook-tune_composer_id 
 % abcbook-boost 18
 % abcbook-difficulty 0
-% abcbook-tags steve ryan originals,candelo songwriters,charlotte setlist,steve ryan,steve set
+% abcbook-tags steve ryan originals,candelo songwriters,steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -81620,8 +81605,6 @@ V:1
 "D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
 "D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz||
 "G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzz"D"zzzz| "D"zzzzzzzz|"D"zzzzzzzz|
-
-
 W: Keep comin back to the place where it started
 W: never heard a whistle blow
 W: right back home when newly departed
@@ -81684,7 +81667,7 @@ W:
 % abcbook-repeats 1
 
 
-X: 84311
+X: 1215
 T: Jerusalem Moan
 C:Traditional
 B: songs
@@ -81692,17 +81675,16 @@ B: working
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: # VERSE
 W: Well I got a home on the other shore
 W: Don’t you hear Jerusalem moan
 W: I know I’ll live there forever more
 W: Don’t you hear Jerusalem moan
 W: # CHORUS
-W:     Don’t you hear Jerusalem moan, don’t you hear Jerusalem moan
-W:     Thank God there’s a Heaven and a ringin’ in my soul
-W:     and my soul set free
-W:     Don’t you hear Jerusalem moan
+W: Don’t you hear Jerusalem moan, don’t you hear Jerusalem moan
+W: Thank God there’s a Heaven and a ringin’ in my soul
+W: and my soul set free
+W: Don’t you hear Jerusalem moan
 W: # VERSE
 W: Well now Sister Mary she wears a chain
 W: Don’t you hear Jerusalem moan
@@ -81724,17 +81706,17 @@ W: Don’t you hear Jerusalem moan
 % abcbook-link-title-0 Billy Strings &amp; I&#39;m With Her &quot;Hear Jerusalem Moan&quot; Grey Fox 2019
 % abcbook-boost 14
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,steve set
+% abcbook-tags steve ryan,steve set,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1727499278852
+% abcbook-lastupdated 1746496377067
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 13308
+X: 1216
 T: Temperance Reel Song
 C:Luke Bulla
 B: songs
@@ -81742,7 +81724,6 @@ M:4/4
 R: reel
 Q: 1/4=100
 V:1 
-
 W: I make my livin′ playin' fiddle
 W: I play it every night
 W: To tell the truth
@@ -81790,7 +81771,6 @@ W: And play the temperance reel
 % abcbook-tune_id 6709ced25e22a6a59a62cb17
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=mgKqxoWbkQI
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags traditional songs,steve ryan
@@ -81866,22 +81846,22 @@ W:
 % abcbook-difficulty 0
 % abcbook-tags steve ryan originals,candelo songwriters,charlotte setlist,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose +2
 % abcbook-tuning 
-% abcbook-lastupdated 1729212481108
+% abcbook-lastupdated 1767435875410
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose +2
 
 
-X: 96242
+X: 1218
 T: Behind Blue Eyes
 C:The Who
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: No one knows what it's like
 W: To be the bad man
 W: To be the sad man
@@ -82082,45 +82062,44 @@ W:
 % abcbook-repeats 1
 
 
-X: 82536
+X: 1221
 T: Reliably Unreliable You
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Reliably Unreliable You          STD/ Capo 2          Charlotte Lyngbye 27/9/2023
 W: D
 W: How can you know if someone’s true
-W: 			           A
+W: A
 W: If they will love and honour you
 W: A
 W: It can be hard to read the signs
-W: 			A7                                   D
+W: A7                                   D
 W: To guess if someone’s right when hearts combines
 W: D
 W: You were a special one for me
-W:                      D7	                         G
-W:  I was too blind that I couldn’t see
-W:                                        D         B7
+W: D7	                         G
+W: I was too blind that I couldn’t see
+W: D         B7
 W: Setting myself up to be burned
-W:      Em                 A7                   D
+W: Em                 A7                   D
 W: But I take with me the lessons I have learned
 W: 
-W: 		       G
-W: Cos loving you 
-W: 		   Gm                   D     B7
-W: was like living inside a toaster 
-W:        Em                   A7                         D          B7
-W: Or riding up and down on a roller coaster 
-W:        Em                   A7                               D
-W: Or riding up and down on a roller coaster 
+W: G
+W: Cos loving you
+W: Gm                   D     B7
+W: was like living inside a toaster
+W: Em                   A7                         D          B7
+W: Or riding up and down on a roller coaster
+W: Em                   A7                               D
+W: Or riding up and down on a roller coaster
 W: 
 W: I gave you many second chances
 W: And never gave up on the hope
 W: I turned down other wild romances
-W: I gave you miles and miles of rope 
+W: I gave you miles and miles of rope
 W: 
 W: And for a time you cast a spell on me
 W: As you broke my heart repeatedly
@@ -82160,7 +82139,7 @@ W: C   /
 W: C   /
 W: C    /
 W: C    /
-W: C   /   
+W: C   /
 W: C   /
 W: C7  /
 W: C7   /
@@ -82185,7 +82164,7 @@ W: F
 W: F
 W: Chorus
 W: Bb    /
-W: Bbm   / 
+W: Bbm   /
 W: F   /
 W: D7   /
 W: Gm   /
@@ -82197,7 +82176,7 @@ W: C7     /
 W: F    /
 W: F     /
 W: F      /
-W: F      / 
+W: F      /
 W: 
 W: 
 W: 
@@ -82242,15 +82221,15 @@ W: D   /
 W: D    /
 W: Chorus
 W: G     /
-W: Gm    / 
+W: Gm    /
 W: D    /
 W: B7    /
 W: Em  /
-W:  A7    /
+W: A7    /
 W: D   /
 W: B7   /
 W: Em  /
-W:  A7    /
+W: A7    /
 W: D   /
 W: B7   /
 W: D    /
@@ -82269,17 +82248,16 @@ W: D      /
 % abcbook-repeats 1
 
 
-X: 71419
+X: 1222
 T: Telescopic
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Telescopic     (80ies style)                             Charlotte Lyngbye 8/3/2023
 W: 
-W: I met you in a pub downtown 			
+W: I met you in a pub downtown
 W: And felt your gravitational force
 W: You came on to me like a shooting star
 W: 
@@ -82290,13 +82268,13 @@ W:
 W: I quietly stood my ground
 W: And watched you from afar
 W: 
-W: ‘Cos you’re a mystery 
+W: ‘Cos you’re a mystery
 W: Hiding out in the universe
-W: Never touching down 
+W: Never touching down
 W: or connecting with the earth
 W: 
-W: I thought I’d seen a star 
-W: But all I see when I look at your face 
+W: I thought I’d seen a star
+W: But all I see when I look at your face
 W: is just a deep black hole
 W: Or a big old empty space
 W: 
@@ -82311,13 +82289,13 @@ W:
 W: I watch you do your thing
 W: Making your moves, drawing everyone in
 W: 
-W: ‘Cos you’re a mystery 
+W: ‘Cos you’re a mystery
 W: Hiding out in the universe
-W: Never touching down 
+W: Never touching down
 W: or connecting with the earth
 W: 
-W: I thought I’d seen a star 
-W: But all I see when I look at your face 
+W: I thought I’d seen a star
+W: But all I see when I look at your face
 W: is just a deep black hole
 W: Or a big old empty space
 % abcbook-tune_id 6711fbd1b7180573dbaf019d
@@ -82334,34 +82312,33 @@ W: Or a big old empty space
 % abcbook-repeats 1
 
 
-X: 74343
+X: 1223
 T: Salamander
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: SALAMANDER                     Tuning Std Baritone in G                              Charlotte Lyngbye  5 June 2024
 W: 
 W: Leave me out in the cold
 W: Till I’m close to my death
-W: You can put me on ice, 
+W: You can put me on ice,
 W: Till I’m on my last breath
 W: You can break my heart
-W: Let me down on a whim 
+W: Let me down on a whim
 W: You can tear me apart
 W: Pulling limb from limb
 W: 
-W: So make no mistake 
+W: So make no mistake
 W: Cos I know the brilliance
 W: Of a little patience
 W: And a little resilience
 W: 
-W: You thought I was done.  
+W: You thought I was done.
 W: You thought I was through.
-W: But I continue to love   
-W: And to live without you.  
+W: But I continue to love
+W: And to live without you.
 W: 
 W: So while you philander
 W: I just hibernate
@@ -82395,21 +82372,20 @@ W: Hah, the jokes on you
 % abcbook-repeats 1
 
 
-X: 31248
+X: 1224
 T: Nothing’s Gonna Spoil My Day
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Nothing’s Gonna Spoil My Day     DADGAD/ Capo 0            Charlotte Lyngbye 6/9/2023
 W: 
 W: I woke up with a smile today
 W: and looked at life a different way
 W: I wonder why
 W: 
-W: Perhaps it was the little bird 
+W: Perhaps it was the little bird
 W: Singing at my window
 W: Or because the sun sits higher in the sky
 W: 
@@ -82431,11 +82407,11 @@ W: nothing’s gonna spoil my day, ay, ay, ay, ay
 W: nothing’s gonna spoil my day
 W: 
 W: It’s hard to keep this tempo up
-W: There are things I have to do 
+W: There are things I have to do
 W: And places I must be
 W: 
 W: I need to stop and think
-W: To lean back and to relax  
+W: To lean back and to relax
 W: And take the time to just be me
 W: 
 W: Caught up in my schedule
@@ -82468,19 +82444,18 @@ W: nothing’s gonna spoil my day
 % abcbook-repeats 1
 
 
-X: 26044
+X: 1225
 T: Poppadum De Dum De Dum
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Poppadum De Dum De Dum   Drop D – In D            Charlotte Lyngbye 11/10/23
 W: 
-W: VERSE 
+W: VERSE
 W: I’ve been to New Delhi
-W: I’ve been to Bombay 
+W: I’ve been to Bombay
 W: I’ve had the Delhi Belly
 W: It spoilt my holiday
 W: It could have killed me once or twice
@@ -82488,36 +82463,36 @@ W: But instead, it me made me stronger
 W: Cos it tasted so damn nice
 W: I wish I had stayed longer
 W: 
-W: VERSE 
+W: VERSE
 W: Get that ghee into that pot
 W: Add a pinch of chilli
 W: Or just throw in the lot
 W: I’m not afraid – I like it hot
-W: Chuck in the Ginger 
+W: Chuck in the Ginger
 W: Add the coconut cream
-W: Let the flavours linger 
+W: Let the flavours linger
 W: What spicey velvety dream
 W: 
 W: CHORUS
-W: In a land of rice and curry 
-W: Enjoy your Poppadum de dum de dum  
+W: In a land of rice and curry
+W: Enjoy your Poppadum de dum de dum
 W: 
 W: If you eat this spicey slurry, better
 W: hurry to the vindaloo – de do de do de do
 W: 
-W: VERSE 
-W: Add cardamon and cloves 
+W: VERSE
+W: Add cardamon and cloves
 W: Chuck in the onions and the dahl
 W: Cook Korma, Madras or Malabar
 W: I don’t care I’ll eat it all
-W: Now I am blushing on my forehead 
+W: Now I am blushing on my forehead
 W: I’m starting to perspire
 W: Have a little naan bread
 W: To calm the ring of fire
 W: 
 W: CHORUS
-W: In a land of rice and curry 
-W: Enjoy your Poppadum de dum de dum  
+W: In a land of rice and curry
+W: Enjoy your Poppadum de dum de dum
 W: 
 W: If you eat this spicey slurry, better
 W: hurry to the vindaloo – de do de do de do
@@ -82535,25 +82510,24 @@ W: hurry to the vindaloo – de do de do de do
 % abcbook-repeats 1
 
 
-X: 55185
+X: 1226
 T: Juhu Chowpatty Beach
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Juhu Chowpatty Beach   In G                                 Capo -0            Charlotte Lyngbye 25/10/2023
 W: 
-W: It’s crowded here on Juhu Beach 
-W: Where families gather in their finery 
-W: to escape the slums and city streets 
+W: It’s crowded here on Juhu Beach
+W: Where families gather in their finery
+W: to escape the slums and city streets
 W: Bring their kids to this seaside to play
-W: Where seagulls pick through miles of litter 
+W: Where seagulls pick through miles of litter
 W: on this hazy Bombay Sunday
 W: 
 W: They are building a Bollywood set
-W: Amongst food carts and street vendors 
+W: Amongst food carts and street vendors
 W: A nearby audio cassette
 W: Plays a soundtrack for contenders
 W: 
@@ -82569,19 +82543,19 @@ W: Where the sky meets the ocean
 W: Wonder what he would have thought
 W: about all this strange commotion
 W: 
-W: Get yourself a Campa Cola, take a seat 
+W: Get yourself a Campa Cola, take a seat
 W: On this breezy Mumbai Sunday
 W: and escape the city heat
 W: Spot the jet planes flying off
 W: from nearby runway 27
 W: hear them roar before fading into the heaven
 W: 
-W: But beware during the monsoon 
+W: But beware during the monsoon
 W: When king tides are in play
 W: When paired with a full moon
 W: You might just get swept away
 W: 
-W: Down at Juhu Chowpatty Beach 
+W: Down at Juhu Chowpatty Beach
 W: 
 W: 
 W: 
@@ -82615,31 +82589,30 @@ W: Em   D/F#   G   C   D
 % abcbook-repeats 1
 
 
-X: 62824
+X: 1227
 T: I Am Not a Democracy
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: I Am Not a Democracy      EAEABE            Charlotte Lyngbye 1/10/24
 W: 
 W: I know you hold a different view
 W: That’s not my problem or concern
 W: But you refuse to understand or comprehend
-W: Beyond the point of no return 
-W: I am not a villain in your book 
-W: Or an actor in your play  
+W: Beyond the point of no return
+W: I am not a villain in your book
+W: Or an actor in your play
 W: I won’t do that part
 W: I tell my story my own way
 W: 
 W: my own way
 W: 
 W: CHORUS
-W: This is not negotiable 
+W: This is not negotiable
 W: And you don’t get to vote on
-W: who I am 
+W: who I am
 W: or what I do
 W: ‘Cos I am me you are you
 W: And I am not a democracy
@@ -82650,7 +82623,7 @@ W: And you can only ever ascertain
 W: from way behind the line
 W: Let me take my chances
 W: To be wrong or to be right
-W: to wear each consequence 
+W: to wear each consequence
 W: of fighting my own fight
 W: 
 W: fight my own fight
@@ -82660,9 +82633,9 @@ W: I know your intensions are good
 W: But I fear being misunderstood
 W: 
 W: CHORUS
-W: This is not negotiable 
+W: This is not negotiable
 W: And you don’t get to vote on
-W: who I am 
+W: who I am
 W: or what I plan
 W: ‘Cos I am me you are you
 W: And I am not a democracy
@@ -82680,32 +82653,31 @@ W: And I am not a democracy
 % abcbook-repeats 1
 
 
-X: 66223
+X: 1228
 T: Ghengis - Song For My Car
 C:Charlotte Lyngbye
 B: songs
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Ghengis – Song for my car     DADGAD     In D      Charlotte Lyngbye 22/11/2023
 W: 
 W: 
 W: He stops and he goes
 W: He pumps and he roars
-W: He takes me to places 
+W: He takes me to places
 W: I want to explore
-W: Come rain or come shine, 
+W: Come rain or come shine,
 W: come sleet or come wind
 W: I stay safe and dry
 W: From his cabin within
 W: 
-W: He never asks 
+W: He never asks
 W: for much in return
-W: He never complains 
+W: He never complains
 W: when we go for a burn
 W: When humming along
-W: And cruising around 
+W: And cruising around
 W: I’m singing this song
 W: To his engine sound
 W: 
@@ -82723,9 +82695,9 @@ W: Sometimes I take him
 W: Out for a wash
 W: I dispense Armor All
 W: All over his dash
-W: I clean and relieve him 
+W: I clean and relieve him
 W: Of all the muck
-W: I scrape every cranny 
+W: I scrape every cranny
 W: And spray every nook
 W: 
 W: I vacuum the seats
@@ -82740,9 +82712,9 @@ W:
 W: 
 W: His name is Ghengis
 W: Don’t ask me why
-W: I just liked the name 
+W: I just liked the name
 W: And he seemed like a guy
-W: I know he is only a piece 
+W: I know he is only a piece
 W: Of machinery
 W: But we have such fun
 W: Taking in the scenery
@@ -82765,12 +82737,15 @@ T: Bowling Green
 C:Traditional
 B: songs
 B: working
+M:4/4
 L:1/4
 Q: 1/4=100
 K:G
 V:1 
- g g g d|e/2-d/2 B G2| g/2g/2 g/2g/2 g d| e4| g g g d| e/2d/2 ^A/2B/2 G2|\
- B d d B| d4| B d d B| G G B d| e4| g2 e2| d d B A| G4|
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|
+"D"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
 W: Wish I was in Bowling Green sitting in a chair
 W: One arm round my pretty little girl
 W: The other 'round my dear
@@ -82815,7 +82790,7 @@ W: Hey……..good ol' Bowling Green..
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1733351536754
+% abcbook-lastupdated 1767488783745
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -82916,25 +82891,24 @@ W:
 % abcbook-link-title-0 Richie &amp; Rosie - Waterbound (official)
 % abcbook-boost 13
 % abcbook-difficulty 0
-% abcbook-tags steve ryan,charlotte setlist,traditional songs,steve set,learnlyrics
+% abcbook-tags steve ryan,charlotte setlist,traditional songs,steve set,learnlyrics,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1733029345857
+% abcbook-lastupdated 1755310689613
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%MIDI transpose 7
 
 
-X: 34801
+X: 1232
 T: Fall On My Knees
 C:Traditional
 B: songs
 B: working
 Q: 1/4=100
 V:1 
-
 W: # INSTR
 W: You told me one, and you told me two,
 W: Told me ten thousand lies little girl,
@@ -82958,7 +82932,7 @@ W: Died when I was young.
 W: 
 W: Then I'd never have kissed your red ruby lips,
 W: Or heard your lying tongue little girl,
-W: heard your lying tongue 
+W: heard your lying tongue
 W: # INSTR
 W: Well I'm down on my knees and I'm begging you please
 W: Won't you fade away, little girl
@@ -82968,9 +82942,9 @@ W: Fade away til the darkeness of the night
 W: Fade away into black little girl
 W: Fade away into black
 W: # INSTR
-W: You'll never never never never never never  never never  
+W: You'll never never never never never never  never never
 W: never get to heaven when you die little girl
-W: never get to heaven when you die 
+W: never get to heaven when you die
 W: 
 W: 
 W: 
@@ -83034,7 +83008,7 @@ W: It was Willy what got drowned in the ...Deep ...Blue ...Sea
 % abcbook-repeats 1
 % last edit 03-02-2013
 
-X: 40253
+X: 1234
 T: Honeybee
 C:Rosie Newton
 B: songs
@@ -83042,7 +83016,8 @@ B: working
 M:3/4
 Q: 1/4=100
 V:1 
-
+"D"zzzzzz|"G"zzzzzz||
+"G"zzzzzz||"D"zzzzzz||
 W: woke my the moon and the waves of the sea
 W: what is this love supposed to mean to me
 W: I'm pushed by the snow and the will to be free
@@ -83085,11 +83060,11 @@ W: what is this love supposed to mean to me
 % abcbook-link-title-0 Richie and Rosie- Honeybee
 % abcbook-boost 13
 % abcbook-difficulty 0
-% abcbook-tags charlotte setlist,steve set,steve ryan
+% abcbook-tags steve set,steve ryan,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1736037230975
+% abcbook-lastupdated 1780798098105
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -83173,12 +83148,14 @@ V:1
 "Dm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzzzzzz|
 "Dm"zzzz"C"zzzz|"Dm"zzzz"C"zzzz|
 W: Over Outrage - Steve Ryan 12/11/2024  (outrage)
-W: https://youtu.be/sGQdyauQMgo 
+W: https://youtu.be/sGQdyauQMgo
+W: # capo 5 Am -> Dm
+W: 
 W: # VERSE 1
 W: How can you see the world that way. Can you hear yourself speaking?
 W: It's wrong, you suck, leave right now, or face my fury.
 W: 
-W: Politics of fear I don't know how to res-pond to the lump in my gut. 
+W: Politics of fear I don't know how to res-pond to the lump in my gut.
 W: I don't know how, here and now, how to turn it off
 W: 
 W: # CHORUS
@@ -83189,7 +83166,7 @@ W: day I can only play, share a smile to find a better way
 W: Find a better way
 W: 
 W: # VERSE 2
-W: How did we get so far apart, to be such different ways. When 
+W: How did we get so far apart, to be such different ways. When
 W: did we lose appreci-ation of simple play
 W: 
 W: Sharing in a sunset, in vocal glories, vivid stories
@@ -83200,13 +83177,13 @@ W:
 W: # BRIDGE (hiphop)
 W: From privilege, mansplaining, how it should be
 W: Woke whining, make it hard for us, cos you sat on a bee
-W: Virtue signaling, waste my time, give me useful please, 
+W: Virtue signaling, waste my time, give me useful please,
 W: What you gonna do to fight this disease
 W: 
 W: Arrogance lies and greed, don't take advantage of me
-W: Prick cut me off, scared the shit out of me 
+W: Prick cut me off, scared the shit out of me
 W: 
-W: When we all sing together, we are like sisters and brothers 
+W: When we all sing together, we are like sisters and brothers
 W: Maybe we make us feel, with express-isiv-ity
 W: 
 W: # CHORUS
@@ -83217,9 +83194,9 @@ W: # CHORUS
 % abcbook-difficulty 0
 % abcbook-tags candelo songwriters,steve ryan,steve ryan originals,steve set
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 0
 % abcbook-tuning 
-% abcbook-lastupdated 1731825292550
+% abcbook-lastupdated 1778915653774
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -83300,7 +83277,7 @@ W:
 % abcbook-tune_composer_id 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,charlotte setlist
+% abcbook-tags candelo songwriters,charlotte lyngbye,charlotte lyngbye originals,charlotte backups
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
@@ -83380,14 +83357,25 @@ W:
 % abcbook-repeats 1
 
 
-X: 3033
+X: 1239
 T: Iowa
 C:Donovan Woods
 B: songs
 M:4/4
 Q: 1/4=100
+K:G
 V:1 
-
+"G"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzz"G"zzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzz"G"zzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzz"G"zzzz|
+"G"zzzzzzzz|"C"zzzzzzzz|"Em"zzzzzzzz|"C"zzzz"G"zzzz|
+"Em"zzzz"G"zzzz|"C"zzzzzzzz|"Em"zzzz"D"zzzz|"D"zzzz"G"zzzz|"G"zzzz"D"zzzz||
+"D"zzzzzzzz|"D"zzzzzzzz|"Em"zzzz"C"zzzz|"G"zzzz|
+"D"zzzz"G"zzzz|"F"zzzz"Em"zzzz|
+"Am"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
+"Em"zzzzzzzz|"C"zzzz"G"zzzz|"D"zzzz"G"zzzz|"F"zzzz"Em"zzzz|
+"Am"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz||
 W: I am waiting for this book to get good
 W: I do not have your patience
 W: So I'm driving up to Chicago
@@ -83440,16 +83428,19 @@ W: Hey, hey
 W: Hey, hey
 % abcbook-tune_id 675fe1f653c82a148a8d6ad5
 % abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=LoJwGWxRvL8
+% abcbook-link-title-0 Aoife O&#39;Donovan &amp; Donovan Woods - IOWA   (Live in Utrecht, NL. November 7, 2022)
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags charlotte setlist
+% abcbook-tags charlotte setlist,charlotte lyngbye
 % abcbook-tablature 
-% abcbook-transpose 
+% abcbook-transpose 7
 % abcbook-tuning 
-% abcbook-lastupdated 1734354451035
+% abcbook-lastupdated 1746324053523
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
+%%MIDI transpose 7
 
 
 X: 1240
@@ -83555,7 +83546,6 @@ W: Recorded by Paul Mauriat, 1968
 % abcbook-tune_id 677747324b38f144cef59cb6
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=gais6TIWTqQ
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags steve ryan
@@ -83568,7 +83558,7 @@ W: Recorded by Paul Mauriat, 1968
 % abcbook-repeats 1
 
 
-X: 95519
+X: 1242
 T: I Don't Want To Get Married
 C:Traditional
 B: songs
@@ -83576,7 +83566,6 @@ B: working
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: I was born in Kentucky
 W: Lived there all of my life
 W: I was very lucky
@@ -83635,7 +83624,6 @@ W: I just wanna be free
 % abcbook-tune_id 67870c1524ae97a99b6d3c45
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=nMXR4u9vJ6A
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags learnlyrics,steve ryan,traditional songs
@@ -83658,16 +83646,15 @@ Q: 1/4=100
 V:1 
 "D"zzzzzzzz||
 "G"zzzz"D"zzzz|
+W: 
 W: it's all out on the old railroad it's
 W: all out on the sea it's
 W: all out on the old railroad as
 W: far as I can see
 W: 
 W: # CHORUS
-W: singing, turn to believe live and
-W: learn to believe
-W: swinging, turn to believe and then
-W: learn to believe
+W: Swing and turn, Jubilee
+W: Live and learn, Jubilee
 W: 
 W: the hardest work I've ever done was
 W: working on the farm and the
@@ -83713,20 +83700,21 @@ W: # CHORUS
 W: 
 % abcbook-tune_id 6789975f1a180b031cecabc8
 % abcbook-tune_composer_id 
-% abcbook-link-0 https://www.youtube.com/watch?v=SwVJ7fgpqI8
-% abcbook-boost 0
+% abcbook-link-0 https://www.youtube.com/watch?v=Y9xXbop0ua4
+% abcbook-link-1 https://www.youtube.com/watch?v=SwVJ7fgpqI8
+% abcbook-boost 7
 % abcbook-difficulty 0
-% abcbook-tags traditional songs,steve ryan
+% abcbook-tags traditional songs,steve ryan,charlotte setlist,banjo setlist g
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1737183166867
+% abcbook-lastupdated 1770371939655
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
 
 
-X: 97160
+X: 1244
 T: Cochon De Lait
 C:Cedric Watson
 B: songs
@@ -83734,19 +83722,17 @@ B: working
 M:4/4
 Q: 1/4=100
 V:1 
-
 W: Cochon, cochon, cochon de lait
 % abcbook-tune_id 678c8a6cc4c45445b01f0f5c
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=elyO70kvLgc
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
-% abcbook-tags traditional songs
+% abcbook-tags traditional songs,steve ryan
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning 
-% abcbook-lastupdated 1737263756778
+% abcbook-lastupdated 1781046708573
 % abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -83896,7 +83882,6 @@ W: It gets swallowed by a wave
 % abcbook-tune_id 67a07129b8d3443a8be05a59
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://youtube.com/watch?v=SYls3ObT75Q
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags francesca
@@ -83960,7 +83945,6 @@ W: Alright, alright, alright
 % abcbook-tune_id 67a074cad742a82854dce4be
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://youtube.com/watch?v=LVELoSMnqCE
-% abcbook-link-title-0 
 % abcbook-boost 0
 % abcbook-difficulty 0
 % abcbook-tags francesca
@@ -84017,13 +84001,12 @@ W: My fingers bleed to make you rich
 % abcbook-repeats 1
 
 
-X: 83538
+X: 1249
 T: Foggy Mountain Dew
 C:Traditional
 B: songs
 Q: 1/4=100
 V:1 
-
 W: 
 % abcbook-tune_id 67a934ba6286ebd62315ae4e
 % abcbook-tune_composer_id 
@@ -84137,13 +84120,13 @@ W: And swallows in the air
 % abcbook-tune_id 63ae8f1cb365b3a4b8fb95d2
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=cw-Wxt4FVyM
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 1
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,steve set,test,© free
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,steve set,test,© free,learnlyrics
 % abcbook-tablature 
 % abcbook-transpose 
 % abcbook-tuning GDAD
-% abcbook-lastupdated 1705707807027
+% abcbook-lastupdated 1743556921212
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -84195,11 +84178,11 @@ W: That I might know by your hand light how time has gone with thee
 % abcbook-link-start-at-0 3
 % abcbook-boost 10
 % abcbook-difficulty 1
-% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,steve set,test,vcs,© free
+% abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,steve set,test,vcs,© free,learnlyrics
 % abcbook-tablature 
 % abcbook-transpose -2
 % abcbook-tuning GDAD
-% abcbook-lastupdated 1741126030726
+% abcbook-lastupdated 1743595475957
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
 % abcbook-soundfonts 
 % abcbook-repeats 1
@@ -84256,7 +84239,7 @@ W: Should have married Angeline, just twenty years ago
 % abcbook-link-0 https://www.youtube.com/watch?v=bZxdXLtDuIA
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 317
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags canberra pickers and fiddlers,max campbell,old time tunes,ralph cullen,steve ryan,© free
 % abcbook-tablature 
@@ -84306,7 +84289,7 @@ W: You’ve been a friend to me
 % abcbook-tune_id 63ae8f1c6f964548c581da13
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=43zqJnNdNWQ
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 1
 % abcbook-tags canberra pickers and fiddlers,old time tunes,steve ryan,steve set,test,© free
 % abcbook-tablature 
@@ -84441,7 +84424,7 @@ W: We've been drinking whiskey 'fore breakfast
 % abcbook-tune_composer_id 
 % abcbook-link-0 https://www.youtube.com/watch?v=O3maOvSbO9g
 % abcbook-link-end-at-0 114
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 0
 % abcbook-tags bega session,canberra pickers and fiddlers,good tune book,incoming traditional songs,old time tunes,ralph cullen,ss3,steve ryan,steve set,© free
 % abcbook-tablature 
@@ -84507,7 +84490,7 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-link-title-0 &quot;Arkansas Traveler&quot;  -  Katrina Nicolayeff  -  Camp Sumner Sessions
 % abcbook-link-start-at-0 35
 % abcbook-link-end-at-0 316
-% abcbook-boost 16
+% abcbook-boost 20
 % abcbook-difficulty 1
 % abcbook-tags bega session,canberra pickers and fiddlers,good tune book,jims roots and blues,nick hutten,old time tunes,ralph cullen,steve ryan,© free
 % abcbook-tablature 
@@ -84515,5 +84498,2129 @@ W: My cabin never leaks when it doesn’t rain
 % abcbook-tuning ADAE
 % abcbook-lastupdated 1741236292282
 % abcbook-src-url https://tunebook.net/scrape/traditional%20songs.abc
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1257
+T: Russians
+C:Sting
+B: songs
+M:4/4
+Q: 1/4=100
+K:Bb
+V:1 
+"Dm"zzzz"C"zzzz|"A#"zzzz"C"zzzz|"A#"zzzzzzzz|"C"zzzzzzzz|
+"Dm"zzzz"C"zzzz|"A#"zzzz"C"zzzz|"A#"zzzzzzzz|"C"zzzzzzzz|
+"F"zzzzzzzz|"C"zzzzzzzz|"Dm"zzzzzzzz|"C"zzzzzzzz|
+"Dm"zzzz"C"zzzz|"A#"zzzz"C"zzzz|"A#"zzzzzzzz|"A#"zzzz"C"zzzz||
+"Dm"zzzzzzzz|
+W: In Europe and America there's a growing feeling of hysteria
+W: Conditioned to respond to all the threats
+W: In the rhetorical speeches of the Soviets
+W: Mister Krushchev said, "We will bury you"
+W: I don't subscribe to this point of view
+W: It'd be such an ignorant thing to do
+W: If the Russians love their children too
+W: 
+W: How can I save my little boy from Oppenheimer's deadly toy?
+W: There is no monopoly on common sense
+W: On either side of the political fence
+W: We share the same biology, regardless of ideology
+W: Believe me when I say to you
+W: I hope the Russians love their children too
+W: 
+W: There is no historical precedent
+W: To put the words in the mouth of the president?
+W: There's no such thing as a winnable war
+W: It's a lie we don't believe anymore
+W: Mister Reagan says, "We will protect you"
+W: I don't subscribe to this point of view
+W: Believe me when I say to you
+W: I hope the Russians love their children too
+W: 
+W: We share the same biology, regardless of ideology
+W: But what might save us, me and you
+W: Is if the Russians love their children too
+% abcbook-tune_id 67f854e27302806fe5346636
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=6w3037nq23o
+% abcbook-link-title-0 Sting - Russians (Guitar / Cello Version)
+% abcbook-link-start-at-0 33
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1744329590863
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1258
+T: Oh Mama
+C:Aoife O’Donovan
+B: songs
+M:3/4
+Q: 1/4=100
+V:1 
+"D"zzzzzz|"Em"zzzzzz|"G"zzzzzz|"D"zzzzzz|
+"D"zzzzzz|"Em"zzzzzz|"G"zzzzzz|"A"zzzzzz|
+"D"zzzzzz|"Em"zzzzzz|"G"zzzzzz|"A"zzzzzz|
+"Em"zzzzzz|"Em"zzzzzz|"A"zzzzzz|"A"zzzzzz||
+"D"zzzzzz|"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|
+"D"zzzzzz|"G"zzzzzz|"Bm"zzzzzz|"Em7"zzzzzz|
+"D"zzzzzz|"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|
+"D"zzzzzz|"G"zzzzzz|"Em7"zzzzzz|"Em7"zzzzzz|
+W: When I was a barmaid, you were my mead
+W: When I was a brave knight, you were my steed
+W: When I was so lonesome I wanted to cry
+W: You came to me in the night
+W: 
+W: You cried, 'oh Mama, sing me a love song'
+W: Pour me some bourbon and lay me down low
+W: And ooh baby, my poor heart is breaking
+W: I feel the ground shaking right under my feet
+W: Just put me to sleep
+W: 
+W: When I was a sailor, you were my land
+W: Always receding nowhere to stand
+W: And when I fell over, you were the whale
+W: You picked me up on your tail
+W: 
+W: You cried, 'oh Mama, sing me a love song'
+W: Pour me some bourbon and lay me down low
+W: And ooh baby, my poor heart is breaking
+W: I feel the ground shaking right under my feet
+W: Just put me to sleep
+W: 
+W: When I was a farmer, you were my rain
+W: When I was your lover, you were my pain
+W: When all the fireflies that we trapped in jars
+W: Escaped last night under the stars
+% abcbook-tune_id 680e01fd5859448cb781860e
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=gSmZCCtyq3Q
+% abcbook-link-start-at-0 18
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte setlist,charlotte lyngbye,francesca,collected tunes from joe yates by mike martin 1999,crosby stills nash and young,fiona cullen
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1748759617969
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1259
+T: You Can Close Your Eyes
+C:James Taylor
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"Em"zzzz"Bm"zzzz|"A"zzzz"G"zzzz|"Em"zzzzzzzz|"A7"zzzzzzzz|
+"D"zzzzzzzz|"G"zzzz"D"zzzz|"A"zzzzzzzz|"A"zzzzzzzz|
+"Em"zzzz"Bm"zzzz||"A"zzzz"D"zzzz||"G"zzzz"D"zzzz||"A"zzzz"D"zzzz||
+"G"zzzz"Em"zzzz|"A"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|
+"Em"zzzzzzzz|"A"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|"Bm"zzzzzzzz|"Bm"zzzzzzzz|
+"Em"zzzz"D"zzzz|"G"zzzzzzzz|"Em"zzzz"D"zzzz|"G"zzzz"A"zzzz|"Bm"zzzzzzzz|
+W: [Verse 1]
+W: Well the sun is surely sinkin' down
+W: But the moon is slowly risin'
+W: So this old world must still be spinnin' around
+W: And I still love you
+W: 
+W: [Chorus]
+W: So close your eyes
+W: You can close your eyes, it's all right
+W: I don't know no love songs
+W: And I can't sing the blues anymore
+W: But I can sing this song
+W: And you can sing this song
+W: When I'm gone
+W: 
+W: [Verse 2]
+W: It won't be long before another day
+W: We gonna have a good time
+W: And no one's gonna take that time away
+W: You can stay as long as you like
+W: 
+W: [Chorus]
+W: So close your eyes
+W: You can close your eyes, it's all right
+W: I don't know no love songs
+W: And I can't sing the blues anymore
+W: But I can sing this song
+W: And you can sing this song
+W: When I'm gone
+% abcbook-tune_id 680ed61dbc180d712372ea12
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=mjksn8mEt8M
+% abcbook-link-title-0 You Can Close Your Eyes (HD)  - James Taylor &amp; Carly Simon
+% abcbook-link-1 https://www.youtube.com/watch?v=w4j8m_S0S14
+% abcbook-link-title-1 James Taylor - You Can Close Your Eyes (BBC In Concert, 11/16/1970)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1745968836644
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1260
+T: She Waits For Me
+C:Donovan Woods
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"C"zzzzzzzz||"C"zzzzzzzz||"G"zzzzzzzz||"G"zzzzzzzz||
+"Am"zzzzzzzz||"Am"zzzzzzzz||"C"zzzzzzzz||"C"zzzzzzzz||
+"Em"zzzz"G"zzzz|"C2"zzzzzzzz|"C2"zzzzzzzz|
+W: I get too drunk, I get too stoned
+W: I get careless on my own
+W: I get so lost, I don’t wanna be found
+W: I make a mess inside my head
+W: And she just waits beside my bed
+W: Until all the kicked-up dust settles on the ground
+W: She waits for me to come back down
+W: She waits for me to come back down
+W: 
+W: I get caught up in shallow things
+W: I care too much what people think
+W: I act like a king wearing a paper crown
+W: The loudest voice in a rowdy crowd
+W: She waits for me to come back down
+W: She waits for me to come back down
+W: 
+W: I’m a mess and she’s a masterpiece
+W: Yet she lays her love down at my feet
+W: I’m a mess and she’s a masterpiece
+W: Yeah she stays when she could leave
+W: She waits for me to come back down
+W: She waits for me to come back down
+W: 
+W: She waits for me to come back down
+W: She waits for me to come back down
+W: I run up to get my keys
+W: I see her standing in the street
+W: From the window I am looking out right now
+W: She waits for me to come back down
+W: She waits for me to come back down
+% abcbook-tune_id 680ef341fb9ad4ca90fd4749
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=nlAgJpaH4vk
+% abcbook-link-title-0 Donovan Woods - &quot;She Waits For Me to Come Back Down&quot; (World Cafe At Home)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1746146761006
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1261
+T: Long Line
+C:The Angels
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+W: He was selling postcards from a paper stand
+W: Whiskey bottle in his withered hand
+W: He put a finger on a photo from an old magazine
+W: And saw himself in the shadow of his dream
+W: 
+W: They found him with his head inside a tin-pot crown
+W: Told him his feet stank and took him downtown
+W: Called him agitator, spy and thief
+W: Shut him up in solitary third degree
+W: 
+W: Take a long line
+W: Take a long line
+W: Take a long line
+W: Reel him in
+W: 
+W: He tried to appeal to the king of might
+W: Said "I'm just exercising my sacred right"
+W: The king he said "You ain't got no rights
+W: You're a madman, a traitor, get outta my sight"
+W: 
+W: Take a long line
+W: Take a long line
+W: Take a long line
+W: Reel him in
+W: 
+W: They found him with his head inside a tin-pot crown
+W: Told him his feet stank and took him downtown
+W: Called him agitator, spy and thief
+W: Shut him up in solitary third degree
+W: 
+W: They put him aboard a well wound whirlwind
+W: Pulled out his teeth and told him to grin
+W: He gave them a smile, pulled out a bottle of wine
+W: And said "I never existed, you've been wasting your time"
+W: 
+W: Take a long line
+W: Take a long line
+W: Take a long line
+W: Reel him in
+W: 
+W: Take a long line
+W: Take a long line
+W: Take a long line
+W: Reel him in
+W: 
+W: Take a long line
+W: Take a long line
+W: Take a long, long, long, long line
+W: Reel him in
+% abcbook-tune_id 6812ae095567d2e27c754b1e
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1746054821963
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1262
+T: Dirt Floor
+C:Chris Whitley
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"G"zzzz"C"zzzz|"G"zzzz"C"zzzz|"G"zzzz"C"zzzz|"G"zzzzzzzz|
+"F"zzzzzzzz|"Em"zzzzzzzz|"G"zzzz"C"zzzz|"G"zzzzzzzz|
+W: There's a dirt floor underneath here
+W: To receive us when changes fail
+W: May this shovel loose your trouble
+W: Let them fall away
+W: 
+W: Well the mist shall be your blanket
+W: While the moss shall ease your head
+W: As the future is soon forgotten
+W: As the dirt shall be your bed
+W: 
+W: There's a dirt floor underneath here
+W: To receive us when changes fail
+W: May this shovel loose your trouble
+W: Let them fall away
+% abcbook-tune_id 681827402c9676b41555fcb6
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=PKFA9lqEUME
+% abcbook-link-title-0 Chris Whitley - Dirt Floor
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte setlist,banjo setlist g
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1754875612943
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1263
+T: Ratih Kamanjaya
+C:Dek Ulik
+B: songs
+Q: 1/4=100
+V:1 
+W: [Intro]
+W: gtr 6.7.1.2.4.5...
+W: flute 6.4.1.5.6.4.1.5...
+W: 
+W: [Verse]
+W: C      G         Am
+W: Rahina becik puniki
+W: F     C               |Dm G|
+W: Kalih tresna sida mepadu
+W: C    Am    F         C
+W: Ten wenten malih sane kesangsiang
+W: F           C         Am
+W: Makelo mangadungan pang sida
+W: G          |C |G |
+W: Pawiwahan memargi
+W: 
+W: C      G           Am
+W: Kadi ratih lan semara
+W: F     C                |Dm G|
+W: Nemu ring pejatu karmane
+W: C    Am       F            C
+W: Angayu bagia sekancan ne nyaksiang
+W: F         C
+W: Gumanti mangucapang
+W: Am      G           |C |G |
+W: Rahajeng nyalanin hidup baru
+W: 
+W: [Chorus]
+W: Am
+W: Saling salukin cincin
+W: F         Em                   C
+W: Pinaka cihna sampun sida makurenan
+W: Am                  F           Em
+W: Resepang pitutur siduri pang tusing
+W: C
+W: Nganti dadi salah pemargi
+W: 
+W: Am          Em
+W: Swadarma anake mekurenan
+W: F     G       F     G
+W: Ingetang raga matesin dewek
+W: F         G           C
+W: Pageh teken gegodane kepanggih
+W: 
+W: 
+W: gtr 6.7.1.2.4.5...
+W: flute+gtr 6.4.1.5.6.4.1.5...
+W: (Hu hu hu hu......)
+W: 
+W: C      G           Am
+W: Kadi ratih lan semara
+W: F     C                |Dm G|
+W: Nemu ring pejatu karmane
+W: C    Am       F            C
+W: Angayu bagia sekancan ne nyaksiang
+W: F         C
+W: Gumanti mangucapang
+W: Am      G           |C |G |
+W: Rahajeng nyalanin hidup baru
+W: 
+W: [Chorus]
+W: Am
+W: Saling salukin cincin
+W: F         Em                   C
+W: Pinaka cihna sampun sida makurenan
+W: Am                  F           Em
+W: Resepang pitutur siduri pang tusing
+W: C
+W: Nganti dadi salah pemargi
+W: 
+W: Am          Em
+W: Swadarma anake mekurenan
+W: F     G       F     G
+W: Ingetang raga matesin dewek
+W: F         G           C
+W: Pageh teken gegodane kepanggih
+W: 
+W: [Outro]
+W: gtr 6.7.1.2.4.5... 1
+% abcbook-tune_id 687c66f281fdadb37d71a0b9
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=otXJvAJl4os
+% abcbook-link-title-0 Dek Ulik – Ratih Kamajaya ( Official lirik Video)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags francesca
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1752983427743
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1264
+T: Cuckoo is a Pretty Bird
+C:Towns Van Zandt
+B: songs
+L:1/8
+Q: 1/4=100
+K:E
+V:1 
+C3/2C/ |C2 c2 B3/2G/|F3/2D/ B,2 C3/2-D/|E2 G2 F3/2E/|C4 C3/2-B,/|\
+C2 c2 B3/2-G/|F3/2-D/ B,2 C3/2-D/|E2 G2 F3/2-E/|C4 C3/2-D/|
+E3F G-E|F-E F2 F3/2G/|A3/2-B/ c2 G3/2-F/|G3G- AB|\
+c2 c3/2-d/ c3/2B/|G3/2-F/ E3/2-F/ G2|F3C E3/2B/|C4 ||
+W: Well the cuckoo, she's a pretty bird
+W: And she warbles as she flies
+W: She'll never says nothing
+W: Till the fourth day of July
+W: 
+W: Jack o' Diamonds, Jack o' Diamonds
+W: Well I've known, I've know you of old
+W: You robbed my poor pockets
+W: Of their Silver and their gold
+W: 
+W: Well for working, I'm too lazy
+W: And for begging, that's too slow
+W: Train a-robbing too dangerous
+W: So to gamble, did I go
+W: 
+W: Well I gambled down in England
+W: And I gambled down in Spain
+W: And it never brought me nothing
+W: Except this feelgood and this pain
+W: 
+W: Headin' out on Tenkiller Mountain
+W: I'm gonna build me, I'm gonna build me a still
+W: Well I’ll sell you five gallons
+W: For a two dollar bill
+W: 
+W: Well it’s bacon when I’m hungry
+W: And it’s Whiskey when I’m dry
+W: It’s women for my loving
+W: And it’s religion when I’m dying
+W: 
+W: Well the cuckoo, she's a pretty bird
+W: And she warbles as she flies
+W: She'll never say cuckoo
+W: Till the last day of July
+W: 
+W: Till the last day of July
+% abcbook-tune_id 68817ba1445c8b915bacd830
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=2YgFY8_Nt68
+% abcbook-link-title-0 Doc Watson - The Cuckoo Bird (Official Visualizer)
+% abcbook-link-1 https://www.youtube.com/watch?v=dJ5jrA18Tts
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags banjo setlist g,learnlyrics,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1770368959324
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords
+
+X: 1265
+T: Horney Ewe, The
+B: songs
+B: traditional songs
+M:C|
+L:1/8
+R: Reel
+Q: 1/4=100
+K:G
+V:1 
+[G,2D2]-|[G,2D2][G,2G2] [DB]dBG|[D2A2][F2A2]D2AB|cBAB B-dBG|[D2A2][G,2G2]-[G,2G2][G,2D2]-|
+[G,2D2][G,G]G [DB]dBG|[D2A2][F2A2]DDAB|[E/B/]-[E/c/]-[Ec] [D2A2]   [DB]dBG  |[D2A2][G,2G2]-[G,2G2]||
+|:[DA]-[DB]-|[DB][DB][DB]G  [DA]dGA|[D2B2][D2d2]J[e3e3][^de]-|[ee][ef][ee]d BdGB|A2 [G,2G2]-[G,2G2]:|]
+W: I split my shin and I broke my toe,
+W: And I run a little race with a hornio.
+W: 
+W: The hornio is a very fine sheep,
+W: And the rest of the flock is hard to beat.
+W: 
+W: Plant my corn all in a row,
+W: And I give it all to the hornio.
+% abcbook-tune_id 68818ded37e463379b9d7de1
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1753323011201
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1266
+T: the rainbow connection
+C:kermit
+B: songs
+M:3/4
+Q: 1/4=100
+V:1 
+W: [Verse 1]
+W: 
+W: G                 Em
+W: Why are there so many
+W: Am                D
+W: Songs about rainbows
+W: G                 Em    C
+W: And what's on the other side
+W: G                 Em
+W: Rainbow's are visions
+W: Am                D
+W: They're only illusions
+W: G                  Em         C
+W: And rainbows have nothing to hide
+W: C
+W: So we've been told and some chose to
+W: Believe it
+W: Bbmaj7
+W: But I know they're wrong wait and see
+W: 
+W: 
+W: [Chorus]
+W: 
+W: Am           D
+W: Someday we'll find it
+W: Bm         E
+W: The Rainbow Connection
+W: Am              D           G
+W: The lovers, the dreamers and me
+W: 
+W: 
+W: [Verse 2]
+W: 
+W: G                    Em
+W: Who said that every wish
+W: Am                   D
+W: Would be heard and answered
+W: G             Em       C
+W: When wished on the morning star
+W: G        Em
+W: Somebody thought of that
+W: Am           D
+W: And someone believed it
+W: G                  Em       C
+W: And look what it's done so far
+W: C
+W: What's so amazing
+W: That keeps us star gazing
+W: Bm
+W: What do we think we might see
+W: 
+W: 
+W: [Chorus]
+W: 
+W: Am            D
+W: Someday we'll find it
+W: Bm            E
+W: The Rainbow Connection
+W: Am              D          G
+W: The lovers the dreamers and me
+W: 
+W: 
+W: [Verse 3]
+W: 
+W: G                Em
+W: Have you been half asleep
+W: Am               D
+W: And have you heard voices
+W: G               Em          C
+W: I've heard them calling my name
+W: G                Em            Am
+W: Is this the sweet sound that called
+W: D
+W: The young sailors
+W: G                  Em            C
+W: The voice might be one and the same
+W: C
+W: I've heard it too many times to ignore it
+W: Bm
+W: it's something that I'm supposed to be
+W: 
+W: 
+W: [Chorus]
+W: 
+W: Am              D
+W: Someday we'll find it
+W: Bm             E
+W: The Rainbow Connection
+W: Am              D          G
+W: The lovers, the dreamers and me
+% abcbook-tune_id 6890222839160e7ecb3669ed
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1754277550479
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1267
+T: In The Pines
+C:Joseph Decosimo
+B: songs
+M:4/4
+R: reel
+Q: 1/4=100
+V:1 
+W: In the pines, In the pines,
+W: Where the sun never shines
+W: And you shiver when the cold wind blows
+W: #CHORUS
+W: In the pines, In the pines,
+W: Where the sun never shines
+W: And you shiver when the cold wind blows
+W: 
+W: If you don't think I'm right
+W: Just follow me tonight
+W: I'll take you where the sun never shines
+W: #CHORUS
+W: 
+W: If you say so
+W: I will railroad no more
+W: I'll sidetrack my train and go home
+W: #CHORUS
+W: 
+W: #CHORUS
+W: #CHORUS
+W: ---------------------------------------------
+W: Little girl, little girl, don't you lie to me
+W: Tell me where did you go last night
+W: In the pines, in the pines, where the sun it never shines
+W: And I shivered the whole night through
+W: 
+W: My husband he was a railroad man
+W: He died half a mile from here
+W: His head was found in a driving wheel and his
+W: body,it never was found
+W: 
+W: You cause me to weep, you cause me to moan
+W: You cause me to leave my home
+W: I wish to the lord, you had never been born
+W: Or died when you were young
+W: 
+W: 
+W: 
+% abcbook-tune_id 68a50b185bc0e7ad1831c738
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=WwukYLF6hQs
+% abcbook-link-1 https://www.youtube.com/watch?v=GqKVzd8S8gs
+% abcbook-link-title-1 In the Pines
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags banjo setlist g,traditional songs
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1756005279320
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1268
+T: Say Darlin Say
+C:Traditional
+B: songs
+B: old time
+B: tunes
+Q: 1/4=100
+V:1 
+W: Say little darlin won’t you marry me
+W: Live in a holler neath the old oak tree
+W: Say darlin say
+W: In the old oak tree we’ll make our home
+W: Never more in this world to roam
+W: Say darlin say
+W: 
+W: Say little darlin if you were mine
+W: You wouldn’t do nothing but starch and iron
+W: Say darlin say
+W: Starch and iron would be your trade
+W: I’d get drunk and lay in the shade
+W: Say darlin say
+W: 
+W: Say little darlin won’t you marry me
+W: Live in a holler neath the old oak tree
+W: Say darlin say
+W: Live in the holler neath the old oak tree
+W: Children bouncin’ on daddy’s knee
+W: Say darlin say
+W: 
+W: Hush little darling don’t say a word
+W: Poppa’s gonna buy you a mocking bird
+W: Say darlin say
+W: If that mocking bird don’t sing
+W: Poppa gonna buy you a diamond ring
+W: Say darlin say
+W: 
+W: If that diamond ring is brass
+W: I’m gonna buy you a looking glass
+W: Say darlin say
+W: If that looking glass gets broke
+W: Poppa gonna buy you a billy goat
+W: Say darlin say
+W: 
+W: If that billy goat won’t pull
+W: Poppa’s gonna buy you a cart and bull
+W: Say darlin say
+W: If that cart and bull falls down
+W: You’re still the sweetest baby in town
+W: Say darlin say
+% abcbook-tune_id 68a5133b96c2b815dcafe714
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=dhy100VF5Rc
+% abcbook-link-title-0 Say Darling Say
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags banjo setlist g,old time tunes
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1755994804732
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1269
+T: Appetite
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"Am"zzzzzzzz|"Gm"zzzzzzzz|"F"zzzzzzzz|"Em"zzzzzzzz|
+"Am"zzzzzzzz||"Gm"zzzzzzzz||"Dm"zzzzzzzz||"F"zzzzzzzz||
+"F"zzzzzzzz|"Am"zzzzzzzz|"Em7"zzzzzzzz|"Am"zzzzzzzz|
+"F"zzzzzzzz||"Am"zzzzzzzz||"Em7"zzzzzzzz||"F"zzzzzzzz||"F"zzzzzzzz||
+"Gm"zzzzzzzz|"F"zzzzzzzz|"Gm"zzzzzzzz|"Gm"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|
+W: Appetite - Steve Ryan 13/9/2025
+W: 
+W: # VERSE
+W: to ,do right, got to tame my desire, reign in on my
+W: appetites to be more like the diamonds in my life, appreci
+W: -ating, not underesti-mating, a growing trepi
+W: -dation as I indulge upon each   luscious bite
+W: 
+W: # CHORUS
+W: Visceral, orgasmic, gorging light fantastic
+W: rush that leaves me flattened, like a hard unleavened
+W: bread, a gentle rustling autumn leaves, a, bright and complex cup of tea
+W: Kinesthetic synesthesia, the dance of senses surely ple-ase ya
+W: not sensorary overload, but calm that, leaves me feeling light
+W: 
+W: # VERSE
+W: not deva-station, to have the revelation, that devil in the
+W: details can shine the light more bright. to be  cre
+W: -ating, admiring and engaging to measure things just
+W: right, you can make the   m last all night
+W: 
+W: # BRIDGE
+W: Smorgasbord of finest viddles
+W: Growling horde of fiddles. Gentle
+W: talented young thing
+W: Brain goes zingy zing
+W: 
+W: # CHORUS
+% abcbook-tune_id 68cbbb3098b231a3abbac826
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan originals,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1758362884076
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1270
+T: Cold Goodbye
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+W: Cold Goodbye - Steve Ryan 28/9/2025
+W: 
+W: * written on banjo
+W: 
+W: Em | Am | Em | Am | F | F
+W: 
+W: Em | Am | F | G
+W: Am | Bm | C | Em
+W: 
+W: # chorus
+W: Strange affair, while we all stared
+W: Made up face and hair but she's not there
+W: She's cold and dead
+W: 
+W: # verse
+W: The golden night, we said goodbye
+W: From afternoon of glowing color, warm and bright
+W: Down deep into the soil where you lie cold and dark
+W: To travel through the universe without a spark
+W: 
+W: # chorus
+W: 
+W: # verse
+W: The bite and spite, when we ignite
+W: The words that hurt and spiral late into the night
+W: Our last goodbye, your words were filled with lye
+W: I bit my tongue in pain, it was a cold goodbye
+W: 
+W: # chorus
+% abcbook-tune_id 68d9c3abb2d8ded0aecb7228
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan originals,candelo songwriters,banjo setlist g
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1759101867553
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1271
+T: Discord
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"C"zzzz"Cm"zzzz|"G"zzzzzzzz|"C"zzzz"Cm"zzzz|"Em"zzzz"F"zzzz|
+"F"zzzz"Fm"zzzz||"C"zzzz"G#"zzzz||"G#"zzzzzzzz||"G"zzzzzzzz||
+"C"zzzz"Am"zzzz|"G"zzzz"F"zzzz|"Em"zzzz"Dm"zzzz|"C"zzzz"Em"zzzz|
+"G"zzzz"F"zzzz|"Em"zzzz"Dm"zzzz|"Dm"zzzzzzzz|"F"zzzzzzzz|
+W: All starts neatly, bursting up and down
+W: Reaching sunwards, and deep into the ground
+W: Rows of order, following the lines
+W: Spaced just so the roots can reach around
+W: 
+W: # chorus
+W: Crawling and climbing and falling all around
+W: Reaching and stretching where water can be found
+W: Differences means sharing can really work for some, but
+W: Mostly facing discord in the race toward the sun
+W: 
+W: Crawling and buzzing, a hum amid the green
+W: The crawlers feeding, for extended sleep
+W: Emerging to fly amongst the flowers and the leaves
+W: To gobble down most everything they see
+W: 
+W: # chorus
+W: 
+W: Reaching deep for the pollen, spreading seed
+W: Munching the babies of other types and breeds
+W: Plants making poisons and spreading of disease
+W: A war that never finds it's way to peace
+W: 
+W: 
+% abcbook-tune_id 6939f934c01e85de6d739ed1
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1765407456041
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1272
+T: Trouble
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+K:G
+V:1 
+"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|
+"Am"zzzzzzzz||"Am"zzzzzzzz||"C"zzzzzzzz||"C"zzzzzzzz|
+"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz||
+"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"C"zzzzzzzz|"C"zzzzzzzz|
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Bm"zzzzzzzz|"C"zzzzzzzz|
+"G"zzzz"Em"zzzz|"G"zzzz"Em"zzzz||
+"C"zzzzzzzz|"D"zzzzzzzz|"Em"zzzzzzzz|"F"zzzzzzzz|
+"C"zzzzzzzz|"D"zzzzzzzz|"Em"zzzzzzzz|"F"zzzzzzzz||
+W: We're knocking down trees, ripping into the dirt,
+W: spreading poison all around, heating up the earth
+W: We're in trouble, disaster bubbles
+W: 
+W: Laid in front of the box, with a gut like an ox
+W: Or swiping up and down with an anxious frown
+W: We're in trouble, disaster bubbles
+W: We're in trouble, why do we have to make it double
+W: 
+W: Handing over our brains to a random generator
+W: What will it mean to say that I really really made it
+W: We're in trouble, disaster bubbles
+W: 
+W: We build machines that learn from everything they see
+W: Will they be good for us or build genetics armed disease
+W: We're in trouble, disaster bubbles
+W: We're in trouble, why do we have to make it double
+W: 
+W: They say we'll get on top if we run really fast
+W: Engineering workarounds for mistakes of our past
+W: But it looks to me like it all ends in tears, though sending
+W: millionaires to mars seems like a good idea
+W: 
+W: We've got a dick at the top, stroking his ego needs
+W: And a system built, rewarding disdain and greed
+W: We're in trouble, disaster bubbles
+W: 
+W: Information's distributing but the wealth is concentrating, need trans-
+W: -parency compassion in our wealth reallocation
+W: We're in trouble, disaster bubbles
+W: We're in trouble, why do we have to make it double
+W: 
+W: 
+W: 
+% abcbook-tune_id 6939fbd96e586ef46662b5a0
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags candelo songwriters,steve ryan originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1765779484982
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1273
+T: Wild Country
+C:Chris Whitley
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"A"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
+"A"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
+"Bm"zzzzzzzz|"Bm"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+"A"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|
+W: 
+W: Breaking rocks all day on the avenue
+W: its hard to unearth anything thats true
+W: Soon I am gonna drop this jack and run
+W: Returning to the wild where I'm from
+W: 
+W: There's miles of stone, jack hammer in my hand
+W: There's compromises, I cant comprehend
+W: soon I am gonna loose these rags and run
+W: Returning to the wild where I'm from
+W: Returning to the wild where I'm from
+W: 
+W: INSTR
+W: 
+W: Between the bricks you'll hear the children play
+W: Their callouses get harder day by day
+W: Between the cracks you'll notice where I've gone
+W: Returning to the wild, where I am from
+W: 
+W: Soon I am gonna loose these rags and run
+W: Returning to the wild, where I'm from
+W: Returning to the wild, where I'm from
+% abcbook-tune_id 69559f2737c1abff2156ca70
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=6G9co9nKwfE
+% abcbook-link-title-0 Chris Whitley - &#39;Wild Country&#39;
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags learnlyrics,charlotte lyngbye,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1770769071542
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1274
+T: Hares On The Mountain
+C:Cecil Sharp
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"G"zzzzzzzz|"D"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|
+"G"zzzzzzzz|"D"zzzzzzzz|"C"zzzzzzzz|"G"zzzzzzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"C"zzzzzzzz|"D"zzzzzzzz|
+W: if all the young girls were hares on the mountain
+W: if all the young girls were hares on the mountain
+W: how many young men would don boots  and go rambling
+W: 
+W: if all the young girls were ducks on the water
+W: if all the young girls were ducks on the water
+W: how many young men would undress and dive after
+W: if all the young girls were ducks on the water
+W: 
+W: of sally my dear, it's you i'd be kissing
+W: oh sally oh sally , it's you i'd be kissing
+W: she smiled and replied you don't know what you're missing
+W: 
+W: and if all the young girls were stars in the night sky
+W: and if all the young girls were stars in the night sky
+W: I'd stay up all night from sunset to sunrise
+W: 
+W: and if all the young girls were the sun in the morning
+W: and if all the young girls were the sun in the morning
+W: I'd stare bleary eyed just to see the day dawning
+W: 
+W: If all the young girls were hares on the mountain
+W: 
+W: ==========================================================
+W: Lyrics
+W: Horton Barker sings Hares on the Mountain
+W: Young women they’ll run like hares on the mountain (×2)
+W: Young women they’ll run like hares on the mountain
+W: 
+W: Chorus (after each verse):
+W: To my right-fol-the-diddle-dee-ro,
+W: To my right-fol-diddle-dee.
+W: 
+W: Young women they’ll swim like ducks in the water (×2)
+W: If I were but a young man I’d go and swim after
+W: 
+W: Young women they’ll sing like birds in the bushes (×2)
+W: If I were but a young man I’d go bang those bushes
+W: 
+W: Shirley Collins sings Hares on the Mountain on Sweet England
+W: If all you young men were hares on the mountain,
+W: How many young girls would take guns and go hunting?
+W: 
+W: Chorus (after each verse):
+W: With a ri-fol-de-di, cal-ol-de-day, ri-fol-ai-de
+W: 
+W: If the young men could sing like blackbirds and thrushes,
+W: How many young girls would go beating the bushes?
+W: 
+W: If all you young men were rushes a-growing,
+W: How many young girls would take scythes and go mowing?
+W: 
+W: If all you young men were ducks in the water,
+W: How many young girls would undress and dive after?
+W: 
+W: But the young men are given to frisking and fooling,
+W: I’ll leave them alone and attend to my schooling.
+W: 
+W: Shirley Collins sings Hares on the Mountain on Folk Roots, New Routes
+W: O Sally, my dear, it’s you I’d be kissing, (×2)
+W: She smiled and replied, you don’t know what you’re missing.
+W: 
+W: O Sally, my dear, I wish I could wed you, (×2)
+W: She smiled and replied, then you’d say I’d misled you.
+W: 
+W: If all you young men were hares on the mountain, (×2)
+W: How many young girls would take guns and go hunting?
+W: 
+W: If the young men could sing like blackbirds and thrushes, (×2)
+W: How many young girls would go beating the bushes?
+W: 
+W: If all you young men were fish in the water, (×2)
+W: How many young girls would undress and dive after?
+W: 
+W: But the young men are given to frisking and fooling,
+W: O the young men are given to frisking and fooling,
+W: So I’ll leave them alone and attend to my schooling
+W: 
+W: Steeleye Span sing Hares on the Mountain
+W: Young women, they run like hares on the mountain, (×2)
+W: And if I was a young man, I’d soon go a-hunting.
+W: 
+W: Chorus (after each verse):
+W: With me right fol-de diddle de-ro right fol-de diddle-day
+W: 
+W: Young women, they sing like birds in the bushes. (×2)
+W: If I was a young man I’d go beat them bushes.
+W: 
+W: Young women, they swim like ducks in the water. (×2)
+W: If I was a young man I’d soon go swim after.
+W: 
+W: (Repeat first verse)
+W: 
+W: Jeff Wesley sings Hares on the Mountain
+W: If maidens could sing like blackbirds and thrushes, (×2)
+W: How many young men’d go and hide in the bushes?
+W: 
+W: Chorus (after each verse):
+W: Sing fal-de-ral, fal-de-ral, fal-de-ral day.
+W: 
+W: If maidens were to run like hares on the common, (×2)
+W: How many young men’d take horse and ride hunting?
+W: 
+W: If maidens were to swim like fish in the water, (×2)
+W: How many young men’d undress and dive after?
+W: 
+W: If maidens were to lie like sheep on the mountain, (×2)
+W: How many young men’d go and lay down beside them?
+W: 
+W: But maidens they’re like the dew on the corn, (×2)
+W: When a young man awakes they’re gone in the morn.
+W: 
+W: If maidens were to dance like rushes a-growing, (×2)
+W: How many young men’d take scythes and go mowing?
+W: 
+W: Chris Wood sings Hares on the Mountain
+W: If all you young girls were like hares on the mountain
+W: We’d soon get our boots on and go out a-walking.
+W: But if all you young girls were like swans in the water
+W: We’d soon take those boots off and dive in there after.
+W: 
+W: And if all you young girls were like stars in the dark
+W: We’d chase round the world to avoid the dawn’s spark.
+W: And if all you young girls were like the sun in the morning
+W: We’d sit bleary-eyed just to see the day dawning.
+W: 
+W: And if all you young girls were like rain from the sky
+W: We’d stand out in T-shirts and shun all things dry.
+W: And if all you young girls were like the hot August sun
+W: Then we’d sit out with ice-cream and get nothing done.
+W: 
+W: And if all you young girls flew south like the swallow
+W: There’s be nothing for it but to up sticks and follow.
+W: But if all you young girls were like my own true lover
+W: Then all you young men would love them as I love her.
+W: 
+W: Frankie Armstrong sings Hares on the Mountain
+W: If all those young men were rushes a-growin’
+W: Then all those pretty maidens would get scythes, go mowing
+W: 
+W: Chorus (after each verse):
+W: Sing wack fol-de-dee fol-ol-de-day wack-fol-li-dee
+W: 
+W: If all those young men were hares on the mountain
+W: Then all those pretty maidens would get guns, go hunting
+W: 
+W: If all those young men were duck in the water
+W: Then all those pretty maidens would soon follow after
+W: 
+W: If all those young men were fish in the brooks-O
+W: Then all those pretty maidens would be off with their hooks-O
+W: 
+W: If all those young men were blackbirds and thrushes
+W: Then all those pretty maidens would soon beat the bushes
+W: 
+W: Mary Humphreys sings Hares on the Mountain
+W: Young women they run like hares on the mountain, (×2)
+W: If I was a young man I’d soon go a-hunting.
+W: 
+W: Chorus (after each verse):
+W: With me right fol-de diddle de-ro, right fol-de diddle-day
+W: 
+W: Young women, they swim like ducks in the water, (×2)
+W: If I was a young man I’d go and swim after.
+W: 
+W: Young women they fly like birds in the air, (×2)
+W: If I was a young man I’d cock and let fire.
+W: 
+W: Young women they are like rushes a-growing, (×2)
+W: If I was a young man I’d get a scythe and go a-mowing.
+W: 
+W: Young women they sing like blackbirds and thrushes, (×2)
+W: If I was a young man I’d go and bang the bushes.
+W: 
+W: If all you young women were bricks in a pile, (×2)
+W: Young men would turn maysome and file you in style.
+W: 
+W: If all you young women were bells in a tower, (×2)
+W: Young men would turn sexton and sang on the hour.
+% abcbook-tune_id 695cdbc29be007aab7277e32
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=k20DyJSeNzQ
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan,learnlyrics
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1770370563833
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1275
+T: Gospel Plow
+C:Traditional
+B: songs
+B: old time
+M:4/4
+Q: 1/4=100
+V:1 
+"Dm"zzzzzzzz|"Dm"zzzzzzzz|"A"zzzzzzzz|"Dm"zzzzzzzz|
+"Gm"zzzzzzzz|"Dm"zzzzzzzz|"Dm"zzzz"A"zzzz|"Dm"zzzzzzzz|
+W: Lord, I went to church one day
+W: For to hear them shout and pray
+W: All to hear preacher plow that gospel plow
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: The preacher said I must repent
+W: So right down the aisle, I went
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: 
+W: I've never been to heaven but I've been told
+W: It's a first-class city and the streets are gold
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: A-Matthew, Mark, Luke, and John
+W: All them prophets has dead and gone
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: 
+W: A-Paul and Silas bound in jail
+W: Had no one to go their bail
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: A-Paul and Silas began to shout
+W: The jail was open and they walked out
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: 
+W: There was Peter so nice and neat
+W: He wouldn't let the savior wash his feet
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: A-Peter grew anxious and he said
+W: Wash my feet, my hands, my head
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: 
+W: I got my hand on the gospel plow
+W: I won't take nothin' for my journey now
+W: Keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+W: Hold on, hold on
+W: A-keep your hand on the plow and you'll ride on
+% abcbook-tune_id 69659aafde58980e279d90e0
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags old time tunes,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1768266924724
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1276
+T: My Own Grandpa
+C:Ray Stevens/Chad Morgan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+W: I'm my own grandpa
+W: He's his own grandpa
+W: It sounds funny, I know, but it really is so
+W: For I'm my own grandpa
+W: 
+W: Many, many years ago when I was twenty-three
+W: I was married to a widow who was pretty as could be
+W: This widow had a grown-up daughter, had hair of red
+W: My father fell in love with her and soon the two were wed
+W: 
+W: This made my dad my son-in-law and changed my very life
+W: My daughter was my mother 'cause she was my father's wife
+W: To complicate the matter, even though it brought me joy
+W: I soon became the father of a bouncing baby boy
+W: My little baby then became the brother-in-law to Dad
+W: And so became my uncle though it made me very sad
+W: For if he was my uncle, that also made him brother
+W: Of the widow's grown-up daughter, who of course was my step-mother
+W: 
+W: I'm my own grandpa
+W: He's his own grandpa
+W: It sounds funny, I know, but it really is so
+W: For I'm my own grandpa
+W: 
+W: My father's wife then had a son that kept him on the run
+W: And he became my grandchild for he was my daughter's son
+W: My wife is now my mother's mother and it makes me blue
+W: Because she is my wife, she's my grandmother too
+W: Now, if my wife is my grandma, then I'm her grandchild
+W: And every time I think of this, it nearly drives me wild
+W: But now I have become the strangest case you ever saw
+W: As husband of my own grandma, I am my own grandpa
+W: 
+W: I'm my own grandpa
+W: He's his own grandpa
+W: It sounds funny, I know, but it really is so
+W: For I'm my own grandpa
+% abcbook-tune_id 699178645b5f83b60ed22611
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte setlist,charlotte lyngbye,funny
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1771141337756
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1277
+T: Harvest
+C:Neil Young
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"D"zzzz"A"zzzz|"G"zzzz"D"zzzz|"D"zzzzzzzz|"A"zzzzzzzz|
+"G"zzzz"A"zzzz|"Bm"zzzz"E"zzzz|"D"zzzz"A"zzzz|"D"zzzzzzzz|
+W: Did I see you down in a young girl's town
+W: With your mother in so much pain?
+W: I was almost there at the top of the stairs
+W: With her screamin' in the rain
+W: 
+W: Did she wake you up to tell you that
+W: It was only a change of plan?
+W: Dream up, dream up, let me fill your cup
+W: With the promise of a man
+W: 
+W: Did I see you walking with the boys
+W: Though it was not hand in hand?
+W: And was some black face in a lonely place
+W: When you could understand?
+W: 
+W: Did she wake you up to tell you that
+W: It was only a change of plan?
+W: Dream up, dream up, let me fill your cup
+W: With the promise of a man
+W: 
+W: Will I see you give more than I can take?
+W: Will I only harvest some?
+W: As the days fly past will we lose our grasp
+W: Or fuse it in the sun?
+W: 
+W: Did she wake you up to tell you that
+W: It was only a change of plan?
+W: Dream up, dream up, let me fill your cup
+W: With the promise of a man
+W: Dream up, dream up, let me fill your cup
+W: With the promise of a man
+% abcbook-tune_id 69c645709770304dea977fdf
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://youtu.be/nSkscJ3tsFo?si=nmwfbhb7VIu-hHdZ
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye,charlotte setlist
+% abcbook-tablature 
+% abcbook-transpose -2
+% abcbook-tuning 
+% abcbook-lastupdated 1778225155737
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%MIDI transpose -2
+
+
+X: 1278
+T: Summer Wine
+C:Nancy Sinatra
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"Am"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|"G"zzzzzzzz|
+"Dm"zzzzzzzz|"Am"zzzzzzzz|"Dm"zzzzzzzz|"Am"zzzzzzzz|
+"G"zzzzzzzz|"Am"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz||
+W: -- Nancy
+W: 
+W: Strawberries, cherries and an angel's kiss in spring.
+W: My summer wine is really made from all these things.
+W: 
+W: -- Lee
+W: 
+W: I walked in town on silver spurs that jingled to
+W: song that I had only sang to just a few.
+W: She saw my silver spurs and said let's pass some time.
+W: And I will give to you summer wine.
+W: Ohhh-oh, summer wine.
+W: 
+W: -- Nancy
+W: 
+W: Strawberries, cherries and an angel's kiss in spring.
+W: My summer wine is really made from all these things.
+W: Take off your silver spurs and help me pass the time.
+W: And I will give to you summer wine.
+W: Ohhh-oh, summer wine.
+W: 
+W: -- Lee
+W: 
+W: My eyes grew heavy and my lips they could not speak.
+W: I tried to get up but I couldn't find my feet.
+W: She reassured me with an unfamiliar line.
+W: And then she gave to me more summer wine.
+W: Ohhh-oh, summer wine.
+W: 
+W: -- Nancy
+W: 
+W: Strawberries, cherries and an angel's kiss in spring.
+W: My summer wine is really made from all these things.
+W: Take off your silver spurs and help me pass the time.
+W: And I will give to you summer wine.
+W: Mmmm-mm, summer wine.
+W: 
+W: -- Lee
+W: 
+W: When I woke up the sun was shining in my eyes.
+W: My silver spurs were gone, my head felt twice its size.
+W: She took my silver spurs, a dollar and a dime.
+W: And left me cravin' for more summer wine.
+W: Ohhh-oh, summer wine.
+W: 
+W: -- Nancy
+W: 
+W: Strawberries, cherries and an angel's kiss in spring.
+W: My summer wine is really made from all these things.
+W: Take off those silver spurs and help me pass the time.
+W: And I will give to you my summer wine.
+W: Ohhh-oh, summer wine.
+W: 
+W: 
+W: Outro
+W: 
+W: 
+W: 
+% abcbook-tune_id 69f2a99d510e73b8ba133c0c
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=nbtKHrI-OAs
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte setlist,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1777515727179
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1279
+T: Eyes Full Of Sand
+C:Charlotte Lyngbye
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|"Am"zzzzzzzz|
+"Am"zzzzzzzz||"Am"zzzzzzzz||"G"zzzzzzzz||"Am"zzzzzzzz||
+"G"zzzzzzzz||"Am"zzzzzzzz||"G"zzzzzzzz||"Em"zzzz"E"zzzz||"Am"zzzzzzzz||"Am"zzzzzzzz||
+"G"zzzzzzzz|"Am"zzzzzzzz|"G"zzzzzzzz|"Am"zzzzzzzz|
+"A#"zzzzzzzz|"Am"zzzzzzzz|"E"zzzz"E7"zzzz|
+W: VERSE
+W: Something’s wrong
+W: Who can say
+W: When out of nowhere
+W: In the middle of the day
+W: Needing rest
+W: With a faraway glare
+W: Chin on chest
+W: I nod off in my chair
+W: 
+W: CHORUS
+W: I lost all my command
+W: ‘Cos these tired old eyes
+W: Are full of sand
+W: 
+W: Later on
+W: When I wake up
+W: Missed the ending
+W: of my TV show
+W: When I come to
+W: Might turn in
+W: Clean my teeth
+W: and off to bed I go
+W: 
+W: Kill the light switch on the nightstand
+W: ‘Cos these tired old eyes
+W: Are full of sand
+W: 
+W: BRIDGE
+W: Now wide awake In the night
+W: body shake, I’m sliding into bedlamite
+W: Then I’m too hot, then too cold
+W: Perhaps a clear sign I’m getting old
+W: 
+W: 
+W: Get up and turn on the ceiling fan
+W: ‘Cos these tired old eyes
+W: Still full of Sand
+W: 
+W: So, I toss and turn
+W: Like a damn rotisserie chook
+W: At point of no return
+W: Try to read my book
+W: Play some iphone scrabble
+W: Outside is a full moon
+W: Check my insta-babble
+W: But it’s all a tale of doom
+W: 
+W: This turned out to be a very bad plan
+W: “Cos these tired old eyes
+W: Still full of sand
+W: 
+W: I just can’t sleep
+W: I overthink
+W: Counting sheep
+W: Thirsty, need a drink
+W: Go to the sink
+W: Water nice and cold
+W: Might help towards
+W: Soothing my soul
+W: 
+W: But there ain’t no winning in this land
+W: Where these tired old eyes
+W: are full of sand
+W: 
+W: Safe to say that I don’t give a damn
+W: Cos these tired old eyes
+W: are full of sand
+% abcbook-tune_id 6a025ca431ce9a7b3de62beb
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags charlotte lyngbye originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1778540018670
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1280
+T: Pantomime
+C:Steve Ryan
+B: songs
+M:2/4
+Q: 1/4=100
+K:Ab
+V:1 
+"Cm"zzzzzzzz|"Bb"zzzzzzzz|"Ab"zzzzzzzz|"Gm"zzzzzzzz |
+"Cm"zzzzzzzz|"Bb"zzzzzzzz|"Ab"zzzzzzzz|"F"zzzzzzzz ||
+"Cm"zzzzzzzz|"G7"zzzzzzzz|"Bb"zzzzzzzz|"F"zzzzzzzz||
+W: Pantomime - Steve Ryan 17/05/2026
+W: 
+W: # verse
+W: Satoshi a hero for the masses
+W: Bypassing all of the greedy bankses
+W: Gifting mathematics, open up the blockchain
+W: Public record how I pass my dollars round
+W: 
+W: Many have been thought to be him
+W: Bloody Aussie Craig he tried to steal him
+W: So much energy, research to find who it might be but
+W: after all these years, it's still a mystery
+W: 
+W: # chorus
+W: Satoshi Nakamoto
+W: Legend who never had existed
+W: Pseudo name, a pantomime to hide behind from
+W: those that see an enemy distruptor of the times
+W: 
+W: # verse
+W: Privacy and sovereignty and freedom how i speak. The
+W: world wide web a cable service wide to scrutiny. The
+W: tools to hide what we recieve are free cos
+W: cypherpunks write code supporting their beliefs.
+W: 
+W: Zimmerman thought  privacy was pretty good with
+W: Tor to hide by bouncing round the neighbourhood
+W: The torrent of music, film that we could share.
+W: And Bitcoin was the freedom fait de complit
+W: 
+W: # chorus
+% abcbook-tune_id 6a092a7bd06d5143c5ee8698
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan originals,steve ryan,francesca
+% abcbook-tablature 
+% abcbook-transpose -3
+% abcbook-tuning 
+% abcbook-lastupdated 1780010999617
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+%%MIDI transpose -3
+
+
+X: 1281
+T: AI Opium Pipe
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+K:Bb
+V:1 
+"Em"zzzzzzzz|"Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzz"A"zzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz||"G"zzzz"Bm"zzzz|"G"zzzz"A"zzzz||
+"Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzz"Bm"zzzz|"D"zzzz"Em"zzzz|
+"Em"zzzzzzzz|"Em"zzzzzzzz|"G"zzzz"Bm"zzzz|"A"zzzz"Em"zzzz||
+"Bm"zzzzzzzz|"A"zzzzzzzz|"G"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz||
+W: Since the earliest of days, I have always loved to read. To
+W: learn about the big wide world, so many different creeds.
+W: With my AI friend that I can ask near anything it's really
+W: hard to let it up when I go on a bender
+W: 
+W: # chorus
+W: Blood on my teeth. Fire in my gut. When I suck on the AI opium pipe.
+W: Spark in my eye. Butterflies in flight. When I suck on the AI opium pipe.
+W: 
+W: We build a little app so I can search through the resources. And
+W: add a page of graphs to help me with the understanding. Then
+W: suddenly the sun is rising through the trees. Better
+W: turn the kettle on, make another cup of coffee.
+W: 
+W: #chorus
+W: 
+W: # bridge
+W: Compared to typing every word, I feel like I'm on fire. Although the
+W: slop is getting messy, an incendiary pyre
+W: 
+W: I keep getting messages. I've used up all my credit. It
+W: hurts that I can't finish and I really want it back. I could
+W: do it myself but I wanna super brain to help me. So my
+W: poor credit card is in for mountains more of pain
+W: 
+W: #chorus
+W: 
+% abcbook-tune_id 6a0e9c35ddcbb3559d2b491d
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1779850936076
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1282
+T: Blue Velvet
+C:Bernie Wayne and Lee Morris
+B: songs
+M:4/4
+Q: 1/4=100
+K:Bb
+V:1 
+"G"zzzzzzzz|"Bm"zzzzzzzz|"Am"zzzz"D"zzzz|"G"zzzzzzzz|
+"Am"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz||
+"G"zzzzzzzz|"Bm"zzz"Bbm"zzzzz|"Am"zzzz"D"zzzz|"G"zzzzzzzz|
+"Am"zzzzzzzz|"D"zzzzzzzz|"Dm"zzzzzzzz|"G"zzzzzzzz||
+"C"zzzzzzzz|"Cm"zzzzzzzz|"Bm"zzzzzzzz|"G7"zzzzzzzz|
+"C"zzzzzzzz|"Cm"zzzzzzzz|"Bm"zzzz"A#"zzzz|"Am"zzzz"D7"zzzz||
+"G"zzzzzzzz|"Bm"zzzzzzzz|"Am"zzzz"D"zzzz|"G"zzzzzzzz|
+"Am"zzzzzzzz|"D"zzzzzzzz|"D"zzzzzzzz|"G"zzzzzzzz|
+"C"zzzzzzzz|"Cm"zzzzzzzz|"G"zzzzzzzz|"G"zzzzzzzz|
+W: [Intro]
+W: Blue velvet, woah-woah
+W: 
+W: [Verse 1]
+W: She wore blue velvet (Woah-woah)
+W: Bluer than velvet was the night (Woah-woah-woah)
+W: Softer than satin was the light
+W: From the stars
+W: 
+W: [Verse 2]
+W: She wore blue velvet (Woah-woah)
+W: Bluer than velvet were her eyes (Woah-woah-woah)
+W: Warmer than May, her tender sighs
+W: Love was ours
+W: 
+W: [Bridge]
+W: Ours, a love I held tightly
+W: Feeling the rapture grow
+W: Like a flame burning brightly
+W: But when she left gone was the glow of
+W: 
+W: [Verse 3]
+W: Blue velvet (Woah-woah)
+W: But in my heart there'll always be (Woah-woah-woah)
+W: Precious and warm a memory
+W: Through the years
+W: And I still can see blue velvet through my tears
+W: 
+W: [Verse 4]
+W: She wore blue velvet (Woah-woah)
+W: But in my heart there'll always be (Woah-woah-woah)
+W: Precious and warm a memory
+W: Through the years
+W: And I still can see blue velvet through my tears
+W: 
+W: [Outro]
+W: Blue velvet, oo-ooo-oooo-oooo
+% abcbook-tune_id 6a226c857155bc140bb01338
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags francesca
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1780645899545
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1283
+T: A Dream Is A Wish Your Heart Makes
+B: songs
+M:3/4
+Q: 1/4=100
+V:1 
+"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+"G"zzzzzz|"B7"zzzzzz|"C"zzzzzz|"E7"zzzzzz|
+"Am"zzzzzz|"E7"zzzzzz|"Am7"zzzzzz|"Am7"zzzzzz|
+"D7"zzzzzz||"D"zzzzzz||"G"zzzz"Am7"zz||"D7"zzzzzz||
+"G"zzzzzz|"D"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+"Dm7"zzzzzz|"G7"zzzzzz|"C"zzzzzz|"C"zzzzzz|
+"Am7"zzzzzz|"Cm"zzzzzz|"G"zzzzzz|"A7"zzzzzz|
+"Am7"zzzzzz|"D7"zzzzzz|"G"zzzzzz|"G"zzzzzz|
+W: G D G
+W: A dream is a wish your heart makes
+W: G B7 C E7
+W: When you&#39;re fast asleep
+W: Am E7 Am7
+W: In dreams you will lose your heartache
+W: D7 D G Am7 D7
+W: Whatever you wish for you keep
+W: 
+W: G D G
+W: Have faith in your dreams and someday
+W: Dm7 G7 C
+W: Your rainbow will come smiling through
+W: Am7 Cm
+W: No matter how your heart is grieving
+W: G A7
+W: If you keep on believing
+W: Am7 D7 G
+W: the dream that you wish will come true
+% abcbook-tune_id 6a277a16185ea3cc4c074f32
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags francesca
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1780972491272
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 47631
+T: What Is A Youth
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+
+W: [Verses]
+W: F#m
+W: What is a youth?
+W: G
+W: Impetuous fire.
+W: F#m
+W: What is a maid?
+W: Em
+W: Ice and desire.
+W: Bm
+W: The world wags on
+W: 
+W: F#m
+W: A rose will bloom,
+W: G
+W: it then will fade
+W: Em F#m
+W: So does the youth.
+W: Bm F#m Bm
+W: So does the fairest maid.
+W: 
+W: --------------------------------------------------
+W: Bm G
+W: Comes a time when one sweet smile
+W: F#m Em
+W: Has its season for a while
+W: G F#m
+W: Then love’s in love with me
+W: --------------------------------------------------
+W: D G D
+W: Some may think only to marry.
+W: Em G D A
+W: Others will tease and tarry.
+W: D G D
+W: Mine is the very best parry,
+W: Em G F#7
+W: Cupid he rules us all.
+W: 
+W: Bm F#7 Bm F#7
+W: Caper the caper; sing me the song
+W: D A D A
+W: Death will come soon to hush us along
+W: Bm F#7 Bm A
+W: Sweeter than honey and bitter as gall,
+W: D A Bm F#7
+W: Love is a pastime that never will pall.
+W: Bm F#7 Bm A
+W: Sweeter than honey and bitter as gall,
+W: D F#7 Bm
+W: Cupid he rules us all.
+W: --------------------------------------------------
+W: F#m
+W: A rose will bloom,
+W: G
+W: it then will fade
+W: Em F#m
+W: So does the youth.
+W: Bm F#m Bm
+W: So does the fairest maid.
+% abcbook-tune_id 6a277c2512c2f55598960ced
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags francesca
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1780972738427
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1285
+T: The Girl From Ipanema
+B: songs
+M:4/4
+L:1/8
+Q: 1/4=160
+K:F
+V:1 
+"FM7"G2GEE2ED| G2GEEEDG-| "G7"G2GEEEDG| ""zzzzzzzz|
+"Gm7"zzzzzzzz|"Gb7(b5)"zzzzzzzz|"FM7"zzzzzzzz|"Gb7(b5)"zzzzzzzz|
+"FM7"zzzzzzzz|zzzzzzzz|"G7"zzzzzzzz|zzzzzzzz|
+"Gm7"zzzzzzzz|"Gb7(b5)"zzzzzzzz|"FM7"zzzzzzzz|zzzzzzzz||
+"GbM7"zzzzzzzz|"B9"zzzzzzzz|"Gbm7"zzzzzzzz|"D9"zzzzzzzz|
+"Gm7"zzzzzzzz|"Eb9"zzzzzzzz|"Am7"zzzzzzzz|"Abm7"zzzzzzzz|
+"Gm7"zzzzzzzz|"Gb7(b5)"zzzzzzzz|"FM7"zzzzzzzz|zzzzzzzz||
+W: 
+W: Fmaj7
+W: Tall and tanned and young and lovely
+W: G7
+W: The girl from ipanema goes walking
+W: Gm7 F#7b5 Fmaj7 F#7b5
+W: And when she passes, each one she passes goes - ahhh!
+W: Fmaj7
+W: When she walks, shes like a samba
+W: G7
+W: That swings so cool and sways so gentle
+W: Gm7 F#7b5 Fmaj7
+W: That when she passes, each one she passes goes - oohh!
+W: F#maj7 B9
+W: Oh, but I watch her so sadly,
+W: F#m7 D9
+W: How can I tell her I love her?
+W: Gm7 Eb9
+W: Yes, I would give my heart gladly
+W: Am7 Abm7
+W: But each day, when she walks to the sea
+W: Gm7 F#7b5
+W: She looks straight ahead, not at me
+W: 
+W: Fmaj7
+W: Tall, and tanned and young and lovely
+W: 
+W: G7
+W: The girl from Ipanema goes walking
+W: Gm7 F#7b5 Fmaj7
+W: And when she passes, I smile - but she doesnt see
+W: F#7b5 Fmaj7 F#7b5 Fmaj7 F#7b5 Fmaj7
+W: She just doesn&#39;t see, no, she just doesn&#39;t see...
+W: Fmaj7 G7 Gm7 F#7b5 Fmaj7 F#7b5
+W: F#maj7 B9
+W: Oh, but I watch her so sadly,
+W: F#m7 D9
+W: How can I tell her I love her?
+W: Gm7 Eb9
+W: Yes, I would give my heart gladly
+W: Am7 Abm7
+W: But each day, when she walks to the sea
+W: Gm7 F#7b5
+W: She looks straight ahead, not at me
+W: Fmaj7
+W: Tall, and tanned and young and lovely
+W: G7
+W: The girl from Ipanema goes walking
+W: Gm7 F#7b5 Fmaj7
+W: And when she passes, I smile - but she doesnt see
+W: F#7b5 Fmaj7 F#7b5 Fmaj7 F#7b5 Fmaj7
+W: She just doesn&#39;t see, no, she just doesn&#39;t see
+% abcbook-tune_id 6a277d75b462aae515b5b45b
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=sVdaFQhS86E
+% abcbook-link-title-0 Astrud Gilberto and Stan Getz - The Girl From Ipanema (1964) LIVE
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags francesca
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1780973790713
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
+
+X: 1286
+T: The Universal Cuppa
+C:Andrew Kordas
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"F"zzzz"C"zzzz|"Gm"zzzz"F"zzzz|"F"zzzz"C"zzzz|"Gm"zzzz"F"zzzz|
+"F"zzzz"C"zzzz||"Gm"zzzz"F"zzzz||"Gm"zzzz"Am"zz"Gm"zz||"F"zzzzzzzz||
+"Gm"zzzz"Am"zzzz|"Gm"zzzz"Am"zzzz|"Gm"zzzz"Am"zz"Gm"zz|"F"zzzzzzzz|
+"Gm"zzzz"Am"zzzz|"Gm"zzzz"Am"zzzz|"Gm"zzzz"Am"zz"Gm"zz|"F"zzzzzzzz|
+W: There's a universe in every cup of tea. If you look carefully, you will see. A
+W: spiralling swirling galaxy, in a psychadelic cup of tea.
+W: 
+W: # chorus
+W: One cup for you and one cup for me. Sharing in tea for two.
+W: Quite conversally it is universally a very nice thing to do.
+W: 
+W: You can make it any way you like. Black or herbal with a bag or in a pot.
+W: Weak sweet or strong. Iced or hot. Make a cup whenever you want.
+W: 
+W: # chorus
+W: 
+W: Friends would come around and visit me. We would sit for hours, chattying happily.
+W: Playing a game of cards or simply sitting and being. Enjoying a cup of tea..
+W: 
+W: # chorus
+W: 
+W: It's a simple philosophy. If you're happy or blue as can be.
+W: If you're lonely or in good company. Have another cup of tea.
+W: 
+W: La la lala la. La la lala la.
+W: 
+W: 
+W: Quite conversally it is universally a very nice thing to do.
+W: 
+W: 
+% abcbook-tune_id 6a2b5c11007fb17a674341c7
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags andrew kordas,steve ryan
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1781226925937
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+
+X: 1287
+T: Procrustean Bed
+C:Steve Ryan
+B: songs
+M:4/4
+Q: 1/4=100
+V:1 
+"Em"zzzzzzzz|"Fm"zzzzzzzz|"Em"zzzzzzzz|"Fm"zzzzzzzz|
+"Fm"zzzzzzzz|"Em"zzzzzzzz|"Fm"zzzzzzzz|"Am"zzzzzzzz||
+"Am"zzzzzzzz|"F"zzzzzzzz|"Am"zzzzzzzz|"F"zzzzzzzz|
+"Am"zzzzzzzz|"F"zzzzzzzz|"Fm"zzzzzzzz|"Em"zzzzzzzz|"Fm"zzzzzzzz||"Em"zzzzzzzz||
+"Fm"zzzzzzzz|"Am"zzzzzzzz|"Fm"zzzzzzzz|"Em"zzzzzzzz|
+"Fm"zzzz"Em"zzzz|"Am"zzzz"F"zzzz|"Fm"zzzzzzzz|"Fm"zzzz"Am"zzzz|
+W: # verse
+W: Ubuntu, says I am because we are
+W: Xenia's not xenophobic but hospitium and regard
+W: To welcome strangers feeds a broader world
+W: But take care now, underneath whos roof you seek respite
+W: 
+W: # chorus
+W: Don't lie down, in the procrustean bed
+W: Because if you don't fit, you could lose your head
+W: Insist conventionality could lead to an atrocity and
+W: end up doing things that make no sense
+W: 
+W: # verse
+W: It starts with naming names, and the counting of things
+W: So we can plan and understand and make our brains go bing
+W: But if we insist, reality comply
+W: We could be headed for a million reasons to cry
+W: 
+W: # chorus
+W: 
+W: # bridge
+W: Poseidon probly weren't the best of daddies, to
+W: learn the skills to really think things through
+W: So Theseus was forced to take the brutalist of courses
+W: Because Procrastes, he insisted, black was blue
+W: 
+W: # chorus
+% abcbook-tune_id 6a2c76a9db9d0d6793151d7f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags steve ryan,steve ryan originals
+% abcbook-tablature 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-lastupdated 1781479731734
+% abcbook-src-url 
 % abcbook-soundfonts 
 % abcbook-repeats 1
