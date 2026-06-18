@@ -22,14 +22,7 @@ export default function Abc(props) {
     function updateOnChange() {
          //, props.tempo, lastTempo,  props.abc , lastAbc )
         var tune = props.tunebook.abcTools.abc2json(props.abc)
-        var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
-        //console.log('ABC CHANGE', tune.tempo, useWarp, props.warp)
-        // set warped tempo
-        tune.tempo = tune.tempo > 0 ? tune.tempo * useWarp : 100 * useWarp
-        //console.log("WARPED TEMPO", tune.tempo)
-        //if (gvisualObj ===null || gvisualObj.current === null  || lastAbc != props.abc || props.tempo != lastTempo ) {
-          //console.log('ABC ELEM UPDATE', lastAbc ? lastAbc.length : 0,  props.abc ? props.abc.length : 0 ,tune.tempo , lastTempo,props.boost ,lastBoost)
-          var abc = props.tunebook.abcTools.json2abc(tune)
+        var abc = props.tunebook.abcTools.json2abc(tune)
           renderTune(abc)
           setSeekTo(0)
           setPlayCount(0)
@@ -65,7 +58,7 @@ export default function Abc(props) {
         } else {
             return updateOnChange()
         }
-    }, [props.abc, props.warp])
+    }, [props.abc])
    
     useEffect(() => {
         //if (props.mediaController && props.mediaController.checkAudioContext()) {

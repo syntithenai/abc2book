@@ -1,31 +1,34 @@
 import {useState, useEffect} from 'react'
-import {Button, Modal, Badge} from 'react-bootstrap'
-import {useNavigate, Link, useLocation} from 'react-router-dom'
-import MediaSeekSlider from '../components/MediaSeekSlider'
+import {Button, Modal} from 'react-bootstrap'
+import {useNavigate, useLocation, useParams} from 'react-router-dom'
 import AbcPlaylistManager from './AbcPlaylistManager'
-import PlaybackSpeedSelector from './PlaybackSpeedSelector'
+import PitchTempoControlsPanel from './PitchTempoControlsPanel'
+import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
+import { getActiveLinkIndex } from '../mediaPlaybackUtils'
+import './MediaPlayerOptionsModal.css'
 
 import PlaylistManager from './PlaylistManager'
  
 export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, abcPlaylist,setAbcPlaylist,mediaPlaylist, setMediaPlaylist, variant, currentTuneBook, tagFilter, selected}) {
   const navigate = useNavigate()
   const location = useLocation()
+  const params = useParams()
   const [show, setShow] = useState(false);
+  const [downloadStatus, setDownloadStatus] = useState('');
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
-  const handleClose = (e) => {
+  const noop = function() {}
+
+  const handleClose = function() {
     setShow(false);
   }
-  const handleShow = (e) => {
+  const handleShow = function() {
     setShow(true);
   }
-  
  
   const [hasMusic, setHasMusic] = useState(false)
   const [hasLinks, setHasLinks] = useState(false)
    
-   useEffect(function() {
-       //console.log(location.pathname, location.pathname.indexOf("/tunes/"))
-       //console.log(tunebook.abcTools.hasChords(tunebook.abcTools.getNotes(mediaController.tune)), tunebook.abcTools.getNotes(mediaController.tune))
+  useEffect(function() {
        if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && tunebook.hasNotesOrChords(mediaController.tune)) {
           setHasMusic(true)
        } else {
@@ -36,63 +39,148 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
        } else {
           setHasLinks(false)
        } 
-   },[mediaController.tune])
-  
+   },[mediaController.tune, location.pathname, tunebook])
+
+  const activeLinkIndex = mediaController.tune
+    ? getActiveLinkIndex(mediaController.tune, mediaController.mediaLinkNumber)
+    : null
+
+  function isActiveMediaLink(linkKey) {
+    return mediaController.tune
+      && params.tuneId === mediaController.tune.id
+      && params.playState === 'playMedia'
+      && String(params.mediaLinkNumber || 0) === String(linkKey)
+  }
+
+  function isActiveMidi() {
+    return mediaController.tune
+      && params.tuneId === mediaController.tune.id
+      && params.playState === 'playMidi'
+  }
+
+  function handleLinkPlayback(linkKey) {
+    if (isActiveMediaLink(linkKey) && mediaController.isPlaying) {
+      mediaController.pause()
+      return
+    }
+    const path = '/tunes/' + mediaController.tune.id + '/playMedia/' + linkKey
+    if (location.pathname !== path) {
+      navigate(path)
+    }
+    mediaController.play()
+  }
+
+  function handleMidiPlayback() {
+    if (isActiveMidi() && mediaController.isPlaying) {
+      mediaController.pause()
+      return
+    }
+    const path = '/tunes/' + mediaController.tune.id + '/playMidi'
+    if (location.pathname !== path) {
+      navigate(path)
+    }
+    mediaController.play()
+  }
+
+  async function handleDownload() {
+    if (!mediaController.tune || activeLinkIndex === null) {
+      setDownloadStatus('No linked media to download.')
+      return
+    }
+    setDownloadStatus('Downloading…')
+    try {
+      const result = await mediaController.downloadExternalMedia(activeLinkIndex)
+      setDownloadStatus(result.cached ? 'Downloaded from cache.' : 'Downloaded and cached.')
+    } catch (e) {
+      console.log(e)
+      const hint = e && e.message ? e.message : 'Download failed.'
+      setDownloadStatus(hint.indexOf('502') >= 0 || hint.indexOf('Could not resolve') >= 0
+        ? hint + ' YouTube may be blocking resolver IPs — try a direct MP3 link if available.'
+        : hint)
+    }
+  }
+
+  const canDownload = hasLinks
+    && activeLinkIndex !== null
+    && mediaController.tune
+    && mediaController.tune.links
+    && mediaController.tune.links[activeLinkIndex]
+    && mediaController.tune.links[activeLinkIndex].link
+    && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
+
   return (
     <>
-      <Button size={useButtonSize}  onClick={handleShow} variant={(variant ? variant : (mediaController.isLoading ? "secondary" : (mediaController.isPlaying ? "warning" : "success")))}  >{tunebook.icons.dropdown}</Button>
+      <Button size={useButtonSize} onClick={handleShow} variant={(variant ? variant : (mediaController.isLoading ? "secondary" : (mediaController.isPlaying ? "warning" : "success")))}>{tunebook.icons.dropdown}</Button>
 
-      <Modal  onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose}>
+      <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>Media Controls</Modal.Title>
+          <div className="media-controls-modal-header">
+            <Modal.Title className="modal-title-text">Media Controls</Modal.Title>
+            {canDownload && (
+              <Button variant="outline-primary" size="sm" onClick={handleDownload}>
+                {tunebook.icons.save} Download
+              </Button>
+            )}
+          </div>
         </Modal.Header>
-        <Modal.Body style={{height:'40em'}}>
-         
-          {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && mediaController.tune) && <div style={{borderBottom:'1px solid black'}}>
-              
-              
-              <span >{hasLinks ? mediaController.tune.links.map(function(link,linkKey) {
-                  return <Link key={linkKey}  to={"/tunes/"+mediaController.tune.id+"/playMedia/"+linkKey}><Button style={{marginLeft:'0.1em'}}  variant="danger" onClick={function() {
-                     //mediaController.playLink(linkKey)
-                     //mediaController.cleanup()
-                     if (mediaController.getSrcType(mediaController.getSrc(mediaController.tune, mediaController.mediaLinkNumber)) === 'youtube' || mediaController.getSrcType(mediaController.getSrc(mediaController.tune, mediaController.mediaLinkNumber)) === 'audio')  {
-                         //mediaController.stop()
-                         mediaController.play(linkKey,mediaController.tune)
-                     }
-                     handleClose()
-                  }} >{tunebook.icons.link} {tunebook.icons.play} {linkKey + 1}</Button></Link>
-               }) : ''}</span>
-               { hasMusic && <Link to={"/tunes/"+mediaController.tune.id+"/playMidi"}><Button style={{marginLeft:'0.1em'}}  variant="success" onClick={function() {
-                  //mediaController.cleanupTimin()
-                 //mediaController.playMidi()
-                 //console.log("MMMMMMMMM",mediaController.getSrcType(mediaController.getSrc(mediaController.tune, mediaController.mediaLinkNumber)))
-                 if (mediaController.getSrcType(mediaController.getSrc(mediaController.tune, mediaController.mediaLinkNumber)) === 'abc')  {
-                     //mediaController.stop()
-                     mediaController.play(null,mediaController.tune,'midi')
-                 }
-                 ;handleClose()
-              }} >{tunebook.icons.music} {tunebook.icons.play}</Button></Link>}
-              
-            </div>}
-            <div style={{borderBottom:'1px solid black', paddingTop:'0.5em', marginTop:'0.5em'}}>
-                <PlaybackSpeedSelector onChange={function(val) {mediaController.setPlaybackSpeed(val)}} value={mediaController.playbackSpeed} mediaController={mediaController}/>
+        <Modal.Body style={{maxHeight:'70vh', overflowY:'auto'}}>
+          {downloadStatus && <div className="scope-note">{downloadStatus}</div>}
+
+          {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && mediaController.tune) && (
+            <div style={{borderBottom:'1px solid black', paddingBottom:'0.5em'}}>
+              <div className="media-controls-playback-row">
+                {hasLinks ? mediaController.tune.links.map(function(link, linkKey) {
+                  const isActive = isActiveMediaLink(linkKey)
+                  const showPause = isActive && mediaController.isPlaying
+                  return (
+                    <Button
+                      key={linkKey}
+                      style={{marginLeft:'0.1em'}}
+                      variant={showPause ? 'warning' : 'danger'}
+                      onClick={function() { handleLinkPlayback(linkKey) }}
+                    >
+                      {tunebook.icons.link} {showPause ? tunebook.icons.pause : tunebook.icons.play} {linkKey + 1}
+                    </Button>
+                  )
+                }) : null}
+                {hasMusic && (
+                  <Button
+                    style={{marginLeft:'0.1em'}}
+                    variant={isActiveMidi() && mediaController.isPlaying ? 'warning' : 'success'}
+                    onClick={handleMidiPlayback}
+                  >
+                    {tunebook.icons.music} {isActiveMidi() && mediaController.isPlaying ? tunebook.icons.pause : tunebook.icons.play}
+                  </Button>
+                )}
+              </div>
             </div>
-            <div style={{borderBottom:'1px solid black', paddingTop:'0.5em', marginTop:'0.5em'}}>
-                <AbcPlaylistManager handleClose={handleClose}  tunebook={tunebook} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />
-                <PlaylistManager handleClose={handleClose} tunebook={tunebook} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />
+          )}
+
+          {mediaController.tune && (
+            <div style={{borderBottom:'1px solid black', paddingTop:'0.5em', marginTop:'0.5em', paddingBottom:'0.5em'}}>
+              <PitchTempoControlsPanel
+                tune={mediaController.tune}
+                tunebook={tunebook}
+                mediaController={mediaController}
+              />
             </div>
-           
+          )}
+
+          <div style={{borderBottom:'1px solid black', paddingTop:'0.5em', marginTop:'0.5em'}}>
+            <AbcPlaylistManager handleClose={noop} tunebook={tunebook} abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist} />
+            <PlaylistManager handleClose={noop} tunebook={tunebook} mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist} />
+          </div>
+
+          {mediaController.tune && activeLinkIndex !== null && (
+            <MediaPlaybackRegionPanel
+              tune={mediaController.tune}
+              tunebook={tunebook}
+              mediaController={mediaController}
+              linkIndex={activeLinkIndex}
+            />
+          )}
         </Modal.Body>
       </Modal>
     </>
   );
 }
- 
-            //{(mediaController.tune) &&  <><Button onClick={function() {tunebook.fillMediaPlaylist(currentTuneBook,selected,tagFilter ); handleClose()}} variant={"success"}  >{tunebook.icons.play}  Links</Button>  &nbsp;&nbsp;    
-            //<Button onClick={function() {tunebook.fillAbcPlaylist(currentTuneBook,selected,tagFilter , navigate); handleClose()}} variant={"success"}  >{tunebook.icons.play} Midi</Button></>}
-// <MediaSeekSlider  mediaController={mediaController} />
-
-//<Button style={{marginLeft:'2em'}}  variant="danger" onClick={function() {
-                //handleClose()
-
-             //}} >Cancel</Button>

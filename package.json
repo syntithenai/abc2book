@@ -47,6 +47,7 @@
     "react-window": "^1.8.7",
     "react-youtube": "^10.0.0",
     "soundfont-player": "^0.12.0",
+    "soundtouchjs": "^0.3.0",
     "tone": "^14.7.77",
     "unzipit": "^1.4.3",
     "vexchords": "^1.2.0",
@@ -58,6 +59,7 @@
     "start": "react-scripts start",
     "buildresources": "cd ./abcresources; nodejs ./rename_all.js; nodejs ./indexes_from_files.js",
     "build": "react-scripts build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; node hackSw.js ",
+    "start:resolver": "cd local-resolver && docker compose up --build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serveextras": "ws --cors.origin=* -p 4000"

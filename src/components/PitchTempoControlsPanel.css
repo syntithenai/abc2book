@@ -1,0 +1,63 @@
+.pitch-tempo-panel {
+  padding: 0.25rem 0;
+}
+
+.pitch-tempo-panel .control-section {
+  margin-bottom: 1.25rem;
+}
+
+.pitch-tempo-panel .control-section h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.pitch-tempo-panel .control-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.pitch-tempo-panel .display-value {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.pitch-tempo-panel .slider {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+}
+
+.pitch-tempo-panel .slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+
+.pitch-tempo-panel .preset-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.pitch-tempo-panel .preset-buttons .btn {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.pitch-tempo-panel .scope-note {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+}
+
+.pitch-tempo-panel .transpose-section {
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #dee2e6;
+}

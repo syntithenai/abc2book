@@ -90,7 +90,7 @@ function App(props) {
     ////window.scrollTo(0,e.y)
   //}
   var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
-  var {user, token, login, logout, refresh,loadCurrentUser, loadUserImage, breakLoginToken} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
+  var {user, token, login, logout, refresh,loadCurrentUser, loadUserImage, breakLoginToken} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file', 'openid', 'email', 'profile'] })
   const filesDocumentManager = useGoogleDocument(token, logout)
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
@@ -270,7 +270,7 @@ function App(props) {
   
   var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav})
   //var abcPlayerRef = useRef()
-  let mediaController = useTuneBookMediaController({tunebook, tunes,forceRefresh}) 
+  let mediaController = useTuneBookMediaController({tunebook, tunes, forceRefresh, token, user}) 
   //, onEnded:function() {
       //console.log('app ended',this)
         //tunebook.navigateToNextSong()

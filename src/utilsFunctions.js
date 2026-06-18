@@ -1,6 +1,7 @@
 import abcjs from "abcjs";
 import * as localForage from "localforage";
 import localforage from "localforage";
+import { clearExternalMediaCache } from './externalMediaAudioCache';
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import {unzip} from 'unzipit';
 
@@ -291,7 +292,10 @@ export default function utilsFunctions(props) {
       store.clear().then(function() {
       }).catch(function(err) {
           console.log(err);
-      }); 
+      });
+      clearExternalMediaCache().catch(function(err) {
+          console.log(err);
+      });
     }
     
     /**

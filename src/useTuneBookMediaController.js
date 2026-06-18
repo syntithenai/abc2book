@@ -1,4 +1,8 @@
 import {useEffect,useState, useRef} from 'react'
+import ExternalMediaPitchTempo from './externalMediaPitchTempo'
+import { getPlaybackSettings } from './pitchTempoUtils'
+import { isPlaybackLoopEnabled, parseMsToSeconds } from './mediaPlaybackUtils'
+import { downloadAndCacheExternalMedia } from './externalMediaAudioCache'
     
 export default function useTuneBookMediaController(props) {
     const [currentTime, setCurrentTime] = useState(0) 
@@ -6,7 +10,7 @@ export default function useTuneBookMediaController(props) {
     const [duration, setDuration] = useState(0) 
     var durationRef = null
     
-    const [tune, setTune] = useState(null)
+    const [tune, setTuneState] = useState(null)
     var [mediaLinkNumber, setMediaLinkNumber] = useState(0)
     const [tapToPlay, setTapToPlay] = useState(false)
     const [playCancelled, setPlayCancelled] = useState(false)
@@ -20,11 +24,246 @@ export default function useTuneBookMediaController(props) {
     var ytPlayerRef = useRef()
     
     var youtubeProgressInterval = useRef()
+    var applyPlaybackSettingsLiveRef = useRef(null)
+    var externalMediaRef = useRef(null)
+    var externalLoadToken = useRef(0)
+    var externalLoadingRef = useRef(false)
+    var externalMediaActiveRef = useRef(false)
+    var playingIntentRef = useRef(false)
     
     function cleanupTimers() {
         //console.log('CLEANUP TIMERS')
         clearInterval(youtubeProgressInterval.current)
         youtubeProgressInterval.current = null
+    }
+
+    function getGoogleAccessToken() {
+        return props.token && props.token.access_token ? props.token.access_token : null
+    }
+
+    function usesExternalPitchTempo() {
+        if (mediaLinkNumber === null || !tune) return false
+        const src = getSrc(tune, mediaLinkNumber)
+        const srcType = getSrcType(src)
+        return srcType === 'audio' || srcType === 'youtube'
+    }
+
+    function destroyExternalMedia() {
+        externalLoadToken.current++
+        externalLoadingRef.current = false
+        externalMediaActiveRef.current = false
+        if (externalMediaRef.current) {
+            externalMediaRef.current.destroy()
+            externalMediaRef.current = null
+        }
+    }
+
+    function getLinkStartAt() {
+        if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber]) {
+            const startAt = parseMsToSeconds(tune.links[mediaLinkNumber].startAt)
+            return startAt > 0 ? startAt : 0
+        }
+        return 0
+    }
+
+    function getLinkEndAt() {
+        if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber]) {
+            const endAt = parseMsToSeconds(tune.links[mediaLinkNumber].endAt)
+            return endAt > 0 ? endAt : 0
+        }
+        return 0
+    }
+
+    function getLinkPlaybackLoop() {
+        if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber && tune.links[mediaLinkNumber]) {
+            return isPlaybackLoopEnabled(tune.links[mediaLinkNumber])
+        }
+        return false
+    }
+
+    function loopCurrentRegion() {
+        const startAt = getLinkStartAt()
+        if (duration > 0) {
+            const ratio = startAt / duration
+            setCurrentTime(startAt)
+            if (externalMediaRef.current) {
+                externalMediaRef.current.seek(ratio)
+                if (!isPlaying) {
+                    playingIntentRef.current = true
+                    setIsPlaying(true)
+                    playExternalMedia()
+                }
+            } else {
+                seek(ratio)
+                if (!isPlaying) {
+                    playingIntentRef.current = true
+                    setIsPlaying(true)
+                    playNativeMedia(getSrcType(getSrc(tune, mediaLinkNumber)))
+                }
+            }
+        }
+    }
+
+    function handlePlaybackRegionEnd() {
+        if (getLinkPlaybackLoop()) {
+            loopCurrentRegion()
+            return true
+        }
+        stop()
+        onEnded()
+        return false
+    }
+
+    function updateLinkPlaybackRegion(linkIndex, startAt, endAt, playbackLoop) {
+        if (!tune || !Array.isArray(tune.links) || !tune.links[linkIndex]) return
+        const links = tune.links.map(function(link, idx) {
+            if (idx !== linkIndex) return link
+            return Object.assign({}, link, {
+                startAt: startAt > 0 ? String(startAt) : '',
+                endAt: endAt > 0 ? String(endAt) : '',
+                playbackLoop: playbackLoop,
+            })
+        })
+        const updated = Object.assign({}, tune, { links: links })
+        setTuneState(updated)
+        if (mediaLinkNumber === linkIndex && duration > 0) {
+            const ratio = (startAt > 0 ? startAt : 0) / duration
+            if (externalMediaRef.current) {
+                externalMediaRef.current.seek(ratio)
+            } else if (playerRef.current) {
+                playerRef.current.currentTime = startAt > 0 ? startAt : 0
+            } else if (ytPlayerRef.current) {
+                try {
+                    ytPlayerRef.current.seekTo(startAt > 0 ? startAt : 0)
+                } catch (e) {}
+            }
+            setCurrentTime(startAt > 0 ? startAt : 0)
+        }
+    }
+
+    async function downloadExternalMedia(linkIndex) {
+        if (!tune) throw new Error('No tune loaded')
+        const idx = linkIndex !== undefined && linkIndex !== null ? linkIndex : mediaLinkNumber
+        if (idx === null || !tune.links || !tune.links[idx] || !tune.links[idx].link) {
+            throw new Error('No media link available')
+        }
+        const src = tune.links[idx].link
+        const srcType = getSrcType(src)
+        if (srcType === 'abc') throw new Error('Nothing to download for ABC playback')
+        const safeName = (tune.name ? tune.name.trim().replace(/[^\w\-]+/g, '_') : 'tune') || 'tune'
+        return downloadAndCacheExternalMedia({
+            tuneId: tune.id,
+            linkIndex: idx,
+            src: src,
+            srcType: srcType,
+            youtubeGetId: props.tunebook.utils.YouTubeGetID,
+            filename: safeName + '-link-' + (parseInt(idx, 10) + 1) + '.mp3',
+            accessToken: getGoogleAccessToken(),
+        })
+    }
+
+    function muteNativePlayers() {
+        if (playerRef && playerRef.current) {
+            playerRef.current.volume = 0
+            playerRef.current.pause()
+        }
+        if (ytPlayerRef && ytPlayerRef.current) {
+            try {
+                ytPlayerRef.current.mute()
+                ytPlayerRef.current.pauseVideo()
+            } catch (e) {}
+        }
+    }
+
+    function onExternalTimeUpdate(time) {
+        if (isPlaying) setCurrentTime(time)
+        const endAt = getLinkEndAt()
+        if (endAt > 0 && time >= endAt) {
+            handlePlaybackRegionEnd()
+        }
+    }
+
+    function onExternalEnded() {
+        if (getLinkPlaybackLoop()) {
+            loopCurrentRegion()
+            return
+        }
+        onEnded()
+    }
+
+    async function prepareExternalMedia(forceSrc) {
+        if (!usesExternalPitchTempo()) {
+            destroyExternalMedia()
+            return false
+        }
+        const src = forceSrc || getSrc(tune, mediaLinkNumber)
+        const srcType = getSrcType(src)
+        if (!src || srcType === 'abc') return false
+
+        const token = ++externalLoadToken.current
+        externalLoadingRef.current = true
+        setIsLoading(true)
+        destroyExternalMedia()
+        externalLoadToken.current = token
+
+        try {
+            const processor = new ExternalMediaPitchTempo(onExternalTimeUpdate, onExternalEnded)
+            const youtubeGetId = props.tunebook.utils.YouTubeGetID
+            const loadedDuration = await processor.load(src, srcType, youtubeGetId, {
+                tuneId: tune.id,
+                linkIndex: mediaLinkNumber,
+                accessToken: getGoogleAccessToken(),
+            })
+            if (token !== externalLoadToken.current) {
+                processor.destroy()
+                return false
+            }
+            if (!loadedDuration) {
+                processor.destroy()
+                externalLoadingRef.current = false
+                setIsLoading(false)
+                return false
+            }
+
+            const settings = getPlaybackSettings(tune)
+            processor.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+            if (loadedDuration > 0) {
+                processor.seek(getLinkStartAt() / loadedDuration)
+            }
+
+            externalMediaRef.current = processor
+            externalMediaActiveRef.current = true
+            setDuration(loadedDuration)
+            setCurrentTime(getLinkStartAt())
+            setIsReady(true)
+            setIsLoading(false)
+            externalLoadingRef.current = false
+            if (playingIntentRef.current) {
+                playExternalMedia()
+            }
+            return true
+        } catch (e) {
+            console.log('External pitch/tempo load failed, using native playback', e)
+            if (token === externalLoadToken.current) {
+                externalMediaActiveRef.current = false
+                externalLoadingRef.current = false
+                setIsLoading(false)
+                if (playingIntentRef.current) {
+                    playNativeMedia(getSrcType(src))
+                }
+            }
+            return false
+        }
+    }
+
+    function playExternalMedia() {
+        if (!externalMediaRef.current) return false
+        muteNativePlayers()
+        externalMediaRef.current.connect().catch(function(e) {
+            console.log('External pitch/tempo play failed', e)
+            setTapToPlay(true)
+        })
+        return true
     }
     
     var midiHash = useRef()
@@ -86,6 +325,40 @@ export default function useTuneBookMediaController(props) {
         }
     }
     
+    function setTune(t) {
+        setTuneState(t)
+        if (t) {
+            const tempo = t.playbackTempo > 0 ? parseFloat(t.playbackTempo) : 1
+            setPlaybackSpeed(tempo)
+        }
+    }
+
+    function updateTunePlaybackSettings(tempo, pitch, fineTune) {
+        if (!tune) return
+        const updated = Object.assign({}, tune, {
+            playbackTempo: tempo,
+            playbackPitch: pitch,
+            playbackFineTune: fineTune,
+        })
+        setTuneState(updated)
+        setPlaybackSpeed(tempo)
+        if (externalMediaRef.current) {
+            externalMediaRef.current.applySettings(tempo, pitch, fineTune)
+        } else {
+            if (playerRef.current) {
+                playerRef.current.playbackRate = parseFloat(tempo)
+            }
+            if (ytPlayerRef.current) {
+                try {
+                    ytPlayerRef.current.setPlaybackRate(parseFloat(tempo))
+                } catch (e) {}
+            }
+        }
+        if (applyPlaybackSettingsLiveRef.current) {
+            applyPlaybackSettingsLiveRef.current({ tempo: tempo, pitch: pitch, fineTune: fineTune })
+        }
+    }
+
     function onAbcTimeUpdate(time) {
         //console.log('abcv time update',time)
         if (isPlaying) {
@@ -102,9 +375,8 @@ export default function useTuneBookMediaController(props) {
             
             if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber) {
                 //console.log('onTimeUpdate have link', tune.links[mediaLinkNumber])
-                if (tune.links[mediaLinkNumber] && tune.links[mediaLinkNumber].endAt > 0 && ((tune.links[mediaLinkNumber].endAt) < playerRef.current.currentTime)) {
-                    //console.log('foirce stop on timeupdate past end setting')
-                    if (isPlaying) stop()
+                if (tune.links[mediaLinkNumber] && getLinkEndAt() > 0 && playerRef.current.currentTime >= getLinkEndAt()) {
+                    handlePlaybackRegionEnd()
                 }
             } 
             
@@ -127,8 +399,13 @@ export default function useTuneBookMediaController(props) {
    
     
     function onYtTimeUpdate() {
-        //if (ytPlayerRef.current) console.log('onYtTimeUpdate',isPlaying,ytPlayerRef.current.getCurrentTime())
-        if (ytPlayerRef.current && isPlaying) setCurrentTime(ytPlayerRef.current.getCurrentTime())
+        if (ytPlayerRef.current && isPlaying) {
+            setCurrentTime(ytPlayerRef.current.getCurrentTime())
+            const endAt = getLinkEndAt()
+            if (endAt > 0 && ytPlayerRef.current.getCurrentTime() >= endAt) {
+                handlePlaybackRegionEnd()
+            }
+        }
     }
     
     
@@ -165,55 +442,51 @@ export default function useTuneBookMediaController(props) {
     
     
     function onMediaReady(e) {
-        //console.log('media ready',e, playerRef.current)
         cleanupTimers()
-        //setIsPlaying(false)
-        if (isPlaying) {
+        if (externalMediaActiveRef.current && externalMediaRef.current) {
+            setIsReady(true)
+            if (isPlaying) play()
+            return
+        }
+        if (isPlaying && !externalMediaActiveRef.current) {
             play()
-        } 
-        //ytPlayerRef.current = null
-        setIsLoading(false)
-        setIsReady(true)
-        setDuration(e.target.duration)
-        playerRef.current.playbackRate = playbackSpeed
-        //setCurrentTime(0)
-        
+        }
+        if (!externalMediaActiveRef.current) {
+            setIsLoading(false)
+            setIsReady(true)
+            setDuration(e.target.duration)
+            if (playerRef.current) playerRef.current.playbackRate = playbackSpeed
+        }
     }
 
     function onYtReady(e) {
-        //console.log('yt ready',e,e.target.getDuration(),e.target.getPlayerState(),ytPlayerRef.current,e.target,e.target.getPlayerState())
-        // second time ??
         if (ytPlayerRef.current) {
-            //e.target
-            
-            //console.log("newrate",e.target.getAvailablePlaybackRates(),playbackSpeed, e.target.getPlaybackRate())
-            //console.log('yt ready real')
             cleanupTimers()
-            //setIsPlaying(false)
+            ytPlayerRef.current = e.target
+            if (externalMediaActiveRef.current && externalMediaRef.current) {
+                setIsReady(true)
+                if (isPlaying) play()
+                return
+            }
             if (isPlaying) {
                 play()
             }
             setIsLoading(false)
             setIsReady(true)
-            //playerRef.current = null
-            ytPlayerRef.current = e.target
             ytPlayerRef.current.setPlaybackRate(parseFloat(playbackSpeed))
             setDuration(e.target.getDuration())
             setCurrentTime(0)
         }
         ytPlayerRef.current = e.target
-        
-        //play()
-        //stop()
-        //stop()
-        //ytPlayerRef.current.onStateChange = onYtStateChange
-        
     }
     
     
     function onYtStateChange(e) {
-        //console.log('onYtStateChange',playbackSpeed, e.data, e.target)
-         //e.target.setPlaybackRate(playbackSpeed)
+         if (externalMediaActiveRef.current) {
+             if (e.data === 3) setIsLoading(true)
+             else setIsLoading(false)
+             return
+         }
          if (ytPlayerRef.current) {
              //console.log("SET SPEED", playbackSpeed, ytPlayerRef.current)
              ytPlayerRef.current.setPlaybackRate(playbackSpeed)
@@ -237,7 +510,11 @@ export default function useTuneBookMediaController(props) {
         // ended
         } else if (e.data === 0) {
             cleanupTimers()
-            onEnded()
+            if (!getLinkPlaybackLoop()) {
+                onEnded()
+            } else {
+                loopCurrentRegion()
+            }
         // paused
         } else if (e.data === 2) {
             cleanupTimers()
@@ -260,13 +537,34 @@ export default function useTuneBookMediaController(props) {
 
     function play() { //useMediaLinkNumber=null, forceTune = null, playType='' ) {
         const useTune =  tune //(forceTune && forceTune.id) ? forceTune : tune
+        playingIntentRef.current = true
         setIsPlaying(true)
         if (props.forceRefresh) props.forceRefresh()
-        //forceMidiChange()
         const src = getSrc(useTune,mediaLinkNumber)
         const srcType = getSrcType(src)
-        //console.log("CONTROLLER play", src, srcType, useTune ,mediaLinkNumber,playerRef.current,ytPlayerRef.current )
-        
+
+        if (usesExternalPitchTempo()) {
+            if (externalMediaRef.current) {
+                playExternalMedia()
+                return
+            }
+            if (externalLoadingRef.current) {
+                return
+            }
+            prepareExternalMedia(src).then(function(loaded) {
+                if (loaded && playingIntentRef.current) {
+                    playExternalMedia()
+                } else if (!loaded && playingIntentRef.current) {
+                    playNativeMedia(srcType)
+                }
+            })
+            return
+        }
+
+        playNativeMedia(srcType)
+    }
+
+    function playNativeMedia(srcType) {
         if (srcType === 'audio' && playerRef && playerRef.current) {
             //console.log('start audio')
             try {
@@ -315,53 +613,61 @@ export default function useTuneBookMediaController(props) {
     }
     
     function pause() {
-        //console.log("CONTROLLER pause", playerRef.current,ytPlayerRef.current)
+        playingIntentRef.current = false
         setIsPlaying(false)
+        if (externalMediaRef.current) {
+            externalMediaRef.current.disconnect()
+        }
         if (playerRef && playerRef.current) {
             playerRef.current.pause()
         } 
         if (ytPlayerRef && ytPlayerRef.current) {
             try {
                 ytPlayerRef.current.pauseVideo()
-            } catch (e) {
-                //console.log(e,ytPlayerRef.current)
-            }
+            } catch (e) {}
         }
     }
 
     function stop() {
-        //console.log("CONTROLLER stop", playerRef.current,ytPlayerRef.current)
+        playingIntentRef.current = false
         setIsPlaying(false)
-        setCurrentTime(0)
+        const startAt = getLinkStartAt()
+        if (externalMediaRef.current) {
+            externalMediaRef.current.disconnect()
+            if (duration > 0) {
+                externalMediaRef.current.seek(startAt / duration)
+            } else {
+                externalMediaRef.current.seek(0)
+            }
+        }
+        setCurrentTime(startAt)
         if (playerRef && playerRef.current) {
             playerRef.current.pause()
-            playerRef.current.currentTime = 0
+            playerRef.current.currentTime = startAt
+            playerRef.current.volume = 1
         }
         if (ytPlayerRef && ytPlayerRef.current) {
             try {
                 ytPlayerRef.current.pauseVideo()
-            } catch (e) {
-                //console.log(e,ytPlayerRef.current)
-            }
+            } catch (e) {}
             try {
-                ytPlayerRef.current.seekTo(0)
-            } catch (e) {
-                //console.log(e,ytPlayerRef.current)
-            }
+                ytPlayerRef.current.seekTo(startAt)
+            } catch (e) {}
+            try {
+                ytPlayerRef.current.unMute()
+            } catch (e) {}
         }
     }
 
     function seek(val) {
-        //console.log("CONTROLLER seek",val, duration, playerRef.current,ytPlayerRef.current)
-        //console.log("CONTROLLER seek src ",duration,val,src,"||  ",srcType,"||||",tune,mediaLinkNumber)
-
         if (parseFloat(val) >= 0 && parseFloat(duration) > 0) {
             setCurrentTime(duration * val) 
             const src = getSrc(tune,mediaLinkNumber)
             const srcType = getSrcType(src)
-                
-                
-            if (srcType === 'audio' && playerRef && playerRef.current) {
+
+            if (externalMediaRef.current) {
+                externalMediaRef.current.seek(parseFloat(val))
+            } else if (srcType === 'audio' && playerRef && playerRef.current) {
                 playerRef.current.currentTime = duration * val
             } else if (srcType === 'youtube' && ytPlayerRef && ytPlayerRef.current ) {
                 try {
@@ -387,7 +693,7 @@ export default function useTuneBookMediaController(props) {
     }
     
     
-    return {play, stop, pause, seek, currentTime,setCurrentTime, duration, setDuration, playerRef,ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled}
+    return {play, stop, pause, seek, currentTime,setCurrentTime, duration, setDuration, playerRef,ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyPlaybackSettingsLiveRef, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, prepareExternalMedia, destroyExternalMedia, updateLinkPlaybackRegion, downloadExternalMedia, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

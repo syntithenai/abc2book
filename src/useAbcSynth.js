@@ -6,6 +6,8 @@ import abcjs from "abcjs";
 import Metronome from './Metronome'
 
 import MP3Converter from './MP3Converter'
+import PitchTempoShifter from './pitchTempoShifter'
+import { getPlaybackSettings } from './pitchTempoUtils'
 
 export default function useAbcSynth(props) {
     
@@ -18,6 +20,8 @@ export default function useAbcSynth(props) {
     const gcursor = useRef(null)
     const isLoading = useRef(null)
     const currentTime = useRef(0)
+    const pitchShifterRef = useRef(null)
+    const pitchTempoSettingsRef = useRef({ tempo: 1.0, pitch: 0, fineTune: 0 })
     
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     
@@ -165,9 +169,7 @@ export default function useAbcSynth(props) {
         //props.mediaController.isPlaying, isLastPlaying,"TIME", props.mediaController.currentTime,"CLICKTIME", props.mediaController.clickSeek,clickSeek,  props.mediaController.mediaLinkNumber, props.mediaController.midiHash.current, props.mediaController.mediaLinkNumber,lastMediaLinkNumber)
         if (props.mediaController && props.mediaController.mediaLinkNumber === null) {
             if (props.mediaController.playbackSpeed !== lastPlaybackSpeed) {
-                //console.log("SYNTH play speed change", props.mediaController.playbackSpeed)
-                stopPlaying()
-                resetAudioState()
+                setTempoFactor(props.mediaController.playbackSpeed)
             }
             var nowTuneId = props.mediaController.tune ? props.mediaController.tune.id : null
             if (nowTuneId !== lastTuneId) {
@@ -262,6 +264,31 @@ export default function useAbcSynth(props) {
         //}
         
     },[(props.mediaController ? props.mediaController.isPlaying : null), (props.mediaController ? props.mediaController.clickSeek : null), (props.mediaController ?  props.mediaController.mediaLinkNumber : null), (props.mediaController ? props.mediaController.playbackSpeed : null), (props.mediaController ? props.mediaController.midiHash.current : null), (props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null)])
+
+    useEffect(function() {
+        if (props.mediaController && props.mediaController.tune) {
+            const settings = getPlaybackSettings(props.mediaController.tune)
+            pitchTempoSettingsRef.current = settings
+            if (pitchShifterRef.current) {
+                pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+            }
+        }
+    }, [
+        props.mediaController && props.mediaController.tune ? props.mediaController.tune.id : null,
+        props.mediaController && props.mediaController.tune ? props.mediaController.tune.playbackTempo : null,
+        props.mediaController && props.mediaController.tune ? props.mediaController.tune.playbackPitch : null,
+        props.mediaController && props.mediaController.tune ? props.mediaController.tune.playbackFineTune : null,
+    ])
+
+    useEffect(function() {
+        if (!props.mediaController) return
+        props.mediaController.applyPlaybackSettingsLiveRef.current = applyPlaybackSettings
+        return function() {
+            if (props.mediaController && props.mediaController.applyPlaybackSettingsLiveRef) {
+                props.mediaController.applyPlaybackSettingsLiveRef.current = null
+            }
+        }
+    }, [])
     
      useEffect(function() {
          //console.log('TTP',tapToPlay , playCancelled)
@@ -476,6 +503,76 @@ export default function useAbcSynth(props) {
     }
     
     
+    function destroyPitchShifter() {
+        if (pitchShifterRef.current) {
+            pitchShifterRef.current.destroy()
+            pitchShifterRef.current = null
+        }
+    }
+
+    function initPitchShifter(audioContext, audioBuffer) {
+        destroyPitchShifter()
+        if (!audioBuffer) return
+
+        pitchShifterRef.current = new PitchTempoShifter(
+            audioContext,
+            audioBuffer,
+            function onTimeUpdate(timePlayed) {
+                if (props.mediaController) {
+                    props.mediaController.onAbcTimeUpdate(timePlayed)
+                    currentTime.current = timePlayed
+                }
+            },
+            function onEnded() {
+                stopPlaying()
+                if (props.onEnded) props.onEnded()
+            }
+        )
+        const settings = props.mediaController && props.mediaController.tune
+            ? getPlaybackSettings(props.mediaController.tune)
+            : pitchTempoSettingsRef.current
+        pitchTempoSettingsRef.current = settings
+        pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+    }
+
+    function setTempoFactor(factor) {
+        pitchTempoSettingsRef.current.tempo = factor
+        if (pitchShifterRef.current) {
+            pitchShifterRef.current.applySettings(factor, pitchTempoSettingsRef.current.pitch, pitchTempoSettingsRef.current.fineTune)
+        }
+    }
+
+    function setPitchSemitones(semitones) {
+        pitchTempoSettingsRef.current.pitch = semitones
+        if (pitchShifterRef.current) {
+            pitchShifterRef.current.applySettings(pitchTempoSettingsRef.current.tempo, semitones, pitchTempoSettingsRef.current.fineTune)
+        }
+    }
+
+    function setFineTuneCents(cents) {
+        pitchTempoSettingsRef.current.fineTune = cents
+        if (pitchShifterRef.current) {
+            pitchShifterRef.current.applySettings(pitchTempoSettingsRef.current.tempo, pitchTempoSettingsRef.current.pitch, cents)
+        }
+    }
+
+    function getPitchTempoState() {
+        return { ...pitchTempoSettingsRef.current }
+    }
+
+    function resetPitchTempo() {
+        setTempoFactor(1.0)
+        setPitchSemitones(0)
+        setFineTuneCents(0)
+    }
+
+    function applyPlaybackSettings(settings) {
+        pitchTempoSettingsRef.current = settings
+        if (pitchShifterRef.current) {
+            pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+        }
+    }
+
     function startPlaying(force = false) {
         //console.log(gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
         setForceStop(false)
@@ -515,6 +612,7 @@ export default function useAbcSynth(props) {
         //console.log('SYNTH STOP PLAYING',gaudioContext,gmidiBuffer,gvisualObj,gtimingCallbacks,gcursor)
         if (metronome.current) metronome.current.stop()
         clearTimeout(metronomeTimeout.current)
+        if (pitchShifterRef.current) pitchShifterRef.current.disconnect()
         if (gtimingCallbacks && gtimingCallbacks.current) gtimingCallbacks.current.pause();
         if (gmidiBuffer && gmidiBuffer.current) gmidiBuffer.current.pause();
         //console.log('stopPlaying')
@@ -528,6 +626,9 @@ export default function useAbcSynth(props) {
          setAudioContext(audioContext)
          if (midiBuffer && midiBuffer.duration > 0) { 
            setMidiBuffer(midiBuffer)
+           if (midiBuffer.audioBuffers && midiBuffer.audioBuffers[0]) {
+             initPitchShifter(audioContext, midiBuffer.audioBuffers[0])
+           }
            if (props.mediaController) props.mediaController.setDuration(midiBuffer.duration)
            setTimingCallbacks(timingCallbacks)
            setCursor(cursor)
@@ -544,6 +645,7 @@ export default function useAbcSynth(props) {
     function resetAudioState() {
         //console.log('SYNTH RESET AUDIO')
         try {
+          destroyPitchShifter()
           //if (props.mediaController) props.mediaController.setDuration(0)
           if (gmidiBuffer.current)  gmidiBuffer.current.stop()
           if (gtimingCallbacks.current) gtimingCallbacks.current.stop()
@@ -557,6 +659,7 @@ export default function useAbcSynth(props) {
         if (gmidiBuffer.current)  currentTime.current = seekTo * gmidiBuffer.current.duration
         try {
           if (gmidiBuffer.current) gmidiBuffer.current.seek(seekTo)
+          if (pitchShifterRef.current) pitchShifterRef.current.seek(seekTo)
           if (gtimingCallbacks.current) gtimingCallbacks.current.setProgress(seekTo)
         } catch (e) {
            try {
@@ -570,7 +673,14 @@ export default function useAbcSynth(props) {
   function startMidiAndTiming() {
        //console.log("start buffer and timing",gmidiBuffer.current)
       try {
-          if (gmidiBuffer.current)  gmidiBuffer.current.start()
+          if (!pitchShifterRef.current && gaudioContext.current && gmidiBuffer.current && gmidiBuffer.current.audioBuffers && gmidiBuffer.current.audioBuffers[0]) {
+              initPitchShifter(gaudioContext.current, gmidiBuffer.current.audioBuffers[0])
+          }
+          if (pitchShifterRef.current) {
+              pitchShifterRef.current.connect()
+          } else if (gmidiBuffer.current) {
+              gmidiBuffer.current.start()
+          }
           if (gtimingCallbacks.current) gtimingCallbacks.current.start()
       } catch (e) {
         console.log("start buffer and timing ERROR")
@@ -624,9 +734,9 @@ export default function useAbcSynth(props) {
                 function startWithMetronome() {
                     //console.log('start with metro',delay)
                     if (props.metronomeCountIn) {
-                      var warp =  props.warp > 0 ? props.warp : 1
+                      var effectiveTempo = tune.tempo * pitchTempoSettingsRef.current.tempo
                       
-                       metronome.current = new Metronome(gaudioContext.current, tune.tempo * warp, o.getBeatsPerMeasure(), metronomeBeats , function() {
+                       metronome.current = new Metronome(gaudioContext.current, effectiveTempo, o.getBeatsPerMeasure(), metronomeBeats , function() {
                         //console.log('metronome CB')
                         // wait one more beat
                         metronomeTimeout.current = setTimeout(function() {
@@ -896,7 +1006,7 @@ export default function useAbcSynth(props) {
   }
     
   
-  return {createCursor, programOffsets, clickListener, beatCallback, eventCallback, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying}
+  return {createCursor, programOffsets, clickListener, beatCallback, eventCallback, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, setTempoFactor, setPitchSemitones, setFineTuneCents, getPitchTempoState, resetPitchTempo, applyPlaybackSettings}
 }
 
 

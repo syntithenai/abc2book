@@ -62,6 +62,17 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
         }
         
     }
+
+    useEffect(function() {
+        if (src && (mediaController.getSrcType(src) === 'audio' || mediaController.getSrcType(src) === 'youtube')) {
+            mediaController.prepareExternalMedia(src)
+        } else {
+            mediaController.destroyExternalMedia()
+        }
+        return function() {
+            mediaController.destroyExternalMedia()
+        }
+    }, [src])
     
     useEffect(function() {
         //console.log("MediaPlayerMedia CHANGE")
@@ -76,11 +87,8 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             }
             mediaController.setMediaLinkNumber(useMediaLinkNumber)
             // destroy synth if playState changes
-            if (tune && JSON.stringify(tune) !== lastTuneId) {
+            if (tune && tune.id !== lastTuneId) {
                 //console.log("MPLAYER TUNE ID CHANGE",mediaController.playbackRate, tune ? tune.id : null,lastTuneId)
-                var useWarp = (mediaController.playbackRate > 0.1 && mediaController.playbackRate <= 2) ? parseFloat(mediaController.playbackRate) : 1
-                tune.tempo = tune.tempo * useWarp
-                //console.log("SET TUNE TEMPO TO ",tune.tempo, tune)
                 mediaController.setTune(tune)
                 mediaController.setCurrentTime(0)
                 mediaController.setClickSeek(0)
@@ -170,11 +178,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             }
             //console.log("CHANGE DONE",mediaController.mediaLinkNumber, src)
         //}    
-        setLastTuneId(tune ? JSON.stringify(tune) : null)
+        setLastTuneId(tune ? tune.id : null)
         setLastMediaLinkNumber(useMediaLinkNumber)
         setLastPlayState(params.playState)
     
-    },[(tune ? JSON.stringify(tune) : null), mediaController.tapToPlay, params.mediaLinkNumber, params.playState])
+    },[(tune ? tune.id : null), mediaController.tapToPlay, params.mediaLinkNumber, params.playState])
     
     useEffect(function() {
         //console.log("MediaPlayerMedia LOAD",params.playState)

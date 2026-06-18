@@ -1,0 +1,46 @@
+.media-playback-region-panel {
+  border-top: 1px solid #ccc;
+  padding-top: 0.75em;
+  margin-top: 0.75em;
+}
+
+.media-playback-region-panel .region-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  align-items: flex-end;
+}
+
+.media-playback-region-panel .region-field {
+  flex: 1 1 6em;
+  min-width: 6em;
+  margin-bottom: 0;
+}
+
+.media-playback-region-panel .region-loop {
+  flex: 0 0 auto;
+}
+
+.media-controls-modal-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+}
+
+.media-controls-modal-header .modal-title-text {
+  flex: 1 1 auto;
+}
+
+.media-controls-playback-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  align-items: center;
+}
+
+.scope-note {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 0.75em;
+}

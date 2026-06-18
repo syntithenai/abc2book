@@ -221,6 +221,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
       tune.books = Array.isArray(tune.books) ? tune.books : []
       tune.voices = tune.voices ? tune.voices : {}
       tune.capo = (tune.capo === undefined || tune.capo === null || tune.capo === '') ? 0 : parseInt(tune.capo, 10) || 0
+      tune.playbackTempo = tune.playbackTempo > 0 ? parseFloat(tune.playbackTempo) : 1
+      tune.playbackPitch = tune.playbackPitch !== undefined && tune.playbackPitch !== null && tune.playbackPitch !== ''
+        ? parseInt(tune.playbackPitch, 10) || 0 : 0
+      tune.playbackFineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
+        ? parseInt(tune.playbackFineTune, 10) || 0 : 0
       return tune
   }
   
