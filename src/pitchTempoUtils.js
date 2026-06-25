@@ -23,6 +23,12 @@ export function formatFineTuneDisplay(cents) {
   return `${cents > 0 ? '+' : ''}${cents}¢`;
 }
 
+export function playbackNeedsExternalProcessing(settings) {
+  if (!settings) return false;
+  const tempo = settings.tempo > 0 ? settings.tempo : 1;
+  return tempo !== 1 || settings.pitch !== 0 || settings.fineTune !== 0;
+}
+
 export function getPlaybackSettings(tune) {
   if (!tune) {
     return { tempo: 1, pitch: 0, fineTune: 0 };

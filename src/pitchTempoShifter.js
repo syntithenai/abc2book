@@ -22,16 +22,22 @@ export default class PitchTempoShifter {
     return this.shifter.duration;
   }
 
+  getPlaybackRatio() {
+    return this.shifter ? this.shifter.percentagePlayed / 100 : 0;
+  }
+
   applySettings(tempo, pitchSemitones, fineTuneCents) {
-    const preserveRatio = this._connected ? this.shifter.percentagePlayed / 100 : null;
     this._tempo = clamp(tempo, TEMPO_MIN, TEMPO_MAX);
     this._pitch = clamp(pitchSemitones, PITCH_MIN, PITCH_MAX);
     this._fineTune = clamp(fineTuneCents, FINE_TUNE_MIN, FINE_TUNE_MAX);
+    // Live tempo/pitch only — resetting percentagePlayed clears SoundTouch buffers
+    // and can spuriously fire onEnd while connected.
     this.shifter.tempo = this._tempo;
     this.shifter.pitchSemitones = combinedPitchSemitones(this._pitch, this._fineTune);
-    if (preserveRatio !== null && !isNaN(preserveRatio)) {
-      this.shifter.percentagePlayed = preserveRatio * 100;
-    }
+    // SoundTouch time-stretch tends to attenuate output; keep level steadier as tempo
+    // changes and over long playback runs.
+    const compensation = this._tempo > 0 ? Math.sqrt(this._tempo) : 1;
+    this.gainNode.gain.value = Math.min(2.5, Math.max(0.75, compensation));
   }
 
   getState() {
@@ -46,6 +52,10 @@ export default class PitchTempoShifter {
     }
   }
 
+  isConnected() {
+    return this._connected;
+  }
+
   disconnect() {
     if (this._connected) {
       this.shifter.disconnect();
@@ -55,7 +65,10 @@ export default class PitchTempoShifter {
   }
 
   seek(ratio) {
-    this.shifter.percentagePlayed = clamp(ratio, 0, 1) * 100;
+    // soundtouchjs is asymmetric: the percentagePlayed getter returns 0-100 but
+    // the setter expects a 0-1 fraction (sourcePosition = perc * duration * sr).
+    // Pass the fraction directly; multiplying by 100 seeks 100x past the target.
+    this.shifter.percentagePlayed = clamp(ratio, 0, 1);
   }
 
   destroy() {

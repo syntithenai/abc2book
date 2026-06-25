@@ -15,6 +15,21 @@ var useAbcTools = () => {
     function isDataLine(line) {
         return (line.startsWith('% abcbook-'))
     }
+
+    function abcbookFieldValue(line, prefix) {
+        return line.slice(prefix.length).trim()
+    }
+
+    function renderPlaybackAbcbookFields(tune) {
+        var tempo = tune.playbackTempo > 0 ? parseFloat(tune.playbackTempo) : 1
+        var pitch = tune.playbackPitch !== undefined && tune.playbackPitch !== null && tune.playbackPitch !== ''
+            ? parseInt(tune.playbackPitch, 10) : 0
+        var fineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
+            ? parseInt(tune.playbackFineTune, 10) : 0
+        return "% abcbook-playback-tempo " + tempo + "\n"
+            + "% abcbook-playback-transpose " + pitch + "\n"
+            + "% abcbook-playback-fine-tune " + fineTune + "\n"
+    }
     
     function isVoiceMeta(line) {
         return (line.startsWith('V:'))
@@ -138,7 +153,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, notes:[], words: [] , meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [] , meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -228,7 +243,14 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-capo')) {
-                    tune.capo = parseInt(line.slice(15).trim(), 10) || 0
+                    tune.capo = parseInt(abcbookFieldValue(line, '% abcbook-capo'), 10) || 0
+                } else  if (line.startsWith('% abcbook-playback-tempo')) {
+                    var playbackTempoVal = parseFloat(abcbookFieldValue(line, '% abcbook-playback-tempo'))
+                    tune.playbackTempo = playbackTempoVal > 0 ? playbackTempoVal : 1
+                } else  if (line.startsWith('% abcbook-playback-transpose')) {
+                    tune.playbackPitch = parseInt(abcbookFieldValue(line, '% abcbook-playback-transpose'), 10) || 0
+                } else  if (line.startsWith('% abcbook-playback-fine-tune')) {
+                    tune.playbackFineTune = parseInt(abcbookFieldValue(line, '% abcbook-playback-fine-tune'), 10) || 0
                 } else  if (line.startsWith('% abcbook-transpose')) {
                     tune.transpose = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tuning')) {
@@ -531,7 +553,6 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
                     + ensure(tune.composer, "C:" + ensureText(tune.composer) + "\n" )
-                    + (tune.capo && tune.capo !== '' ? 'capo: ' + ensureText(tune.capo) + "\n" : '')
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
@@ -552,6 +573,7 @@ var useAbcTools = () => {
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 
+                    + renderPlaybackAbcbookFields(tune)
                     + "% abcbook-lastupdated " +  ensureNumber(tune.lastUpdated) + "\n" 
                     + "% abcbook-src-url " +  ensureText(tune.srcUrl) + "\n" 
                     + "% abcbook-soundfonts " +  ensureText(tune.soundFonts) + "\n" 
@@ -618,6 +640,7 @@ var useAbcTools = () => {
                     + "% abcbook-tablature " +  tune.tablature + "\n" 
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
+                    + renderPlaybackAbcbookFields(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
         //console.log('ABC OUT', finalAbc)
         return finalAbc
@@ -655,6 +678,7 @@ var useAbcTools = () => {
                     + firstBars.join("|")
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n"
+                    + renderPlaybackAbcbookFields(tune)
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     
         

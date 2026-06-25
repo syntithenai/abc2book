@@ -7,6 +7,8 @@ import WizardOptionsModal from './WizardOptionsModal'
 import LocalSearchSelectorModal from './LocalSearchSelectorModal'
 import TheSessionSearchSelectorModal from './TheSessionSearchSelectorModal'
 import MediaSeekSlider from './MediaSeekSlider'
+import { trackEditorOpen } from '../analytics'
+
 export default function MusicEditor(props) {
     var [ready, setReady] = useState(false)
     let [seekTo, setSeekTo] = useState(false)
@@ -22,6 +24,7 @@ export default function MusicEditor(props) {
       //pushHistory(tune)  
       props.setAbcPlaylist(null)
       props.setMediaPlaylist(null)
+      trackEditorOpen()
     },[])
     
     //console.log('EDIT',tune,abc)

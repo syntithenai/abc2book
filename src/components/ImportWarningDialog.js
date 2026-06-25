@@ -52,7 +52,9 @@ export default function ImportWarningDialog(props) {
   return <Modal.Dialog  show="true" onHide={handleClose}
     backdrop="static"
     style={{minWidth:'95%'}} 
-    keyboard="false"  >
+    keyboard="false"
+    data-testid="import-warning-dialog"
+    >
         <Modal.Header  >
           <Modal.Title>Import</Modal.Title>
         </Modal.Header>
@@ -67,7 +69,7 @@ export default function ImportWarningDialog(props) {
           
           <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
-            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" data-testid="import-warning-confirm" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
             
             &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true).then(handleNavigation)}} >Import With Duplicates</Button> : null}
             

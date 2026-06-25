@@ -17,9 +17,9 @@ return <div>
 			</li>
 			<li><span ><strong>Privacy</strong></span>
 				<ol>
-				<li><span >This software does not store personal information. This website is not backed by a central database. All the information required by the application is stored on your device.</span></li>
+				<li><span >This software does not store personal information on a central server. This website is not backed by a central database. All the information required by the application is stored on your device.</span></li>
 				<li><span >You can delete all the information on your device at any time using the Settings page.</span></li>
-				<li><span >The owners of this software do not know who or how many people are using the software.</span></li>
+				<li><span >Anonymous aggregate usage statistics are collected through GoatCounter, a privacy-friendly analytics service, to help understand how the app is used and to improve it. These statistics do not use cookies, do not identify individual users, and do not include tune titles, tune content, Google account details, or media URLs.</span></li>
 				<li><span >You can optionally use the software to store information on <i>Google Drive</i>. If you login, all changes to your tune book and any audio recordings are saved to <i>Google Drive</i>.</span></li>
 				<li><span >If you use the software to share either your tune book or recordings, you are granting permission for any user (with a Google account) to read the shared file.</span></li>
 				<li><span >If you choose to <i>Login With Google</i> to enable cloud storage and sharing, you are subject to the <a target="_new" href="https://www.google.com/drive/terms-of-service/">Terms and Conditions of Google Drive</a>.</span></li>
@@ -43,7 +43,7 @@ return <div>
 				
 				<li><span >Collected content only exists on your device (or your Google Drive) and can only be shared by explicit actions by you to download and send ABC files to another person by email or other electronic means.</span></li>
 				
-				<li><span >No collection of data from your device or tracking of any kind is part of this site with the exception of what is implemented through your use of Google Services. If you don't login, there is no tracking.</span></li>
+				<li><span >No collection of personal data from your device is part of this site, with the exception of what is implemented through your use of Google Services and anonymous aggregate usage statistics collected through GoatCounter as described above. If you don't login, Google does not receive your tune book data.</span></li>
 				
 				
 				<li><span >When using the features to play YouTube videos, Search, Import and Export playlists from YouTube, you are subject to <a href="https://www.youtube.com/t/terms" target="_new" >YouTube's Terms of Service</a></span></li>

@@ -29,6 +29,7 @@ import RepeatsEditorModal from './RepeatsEditorModal'
 import OpenSheetMusicDisplay from './OpenSheetMusicDisplay'
 import useFileManager from '../useFileManager'
 import FileRenderer from './FileRenderer'
+import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -78,14 +79,18 @@ export default function MusicSingle(props) {
 		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
         //console.log('single change', params.tuneId, t, props.tunes)
         if (t) {
-			//if (t && t.id && Array.isArray(t.files)) console.log('FILES',t.files)
-            //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
-            //console.log("HACK TUNE TEMPO", t.tempo)
             setTune(t)
-            //forceFileRefresh(t)
+            props.mediaController.setTune(t)
         }
         
-    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed])
+    },[params.tuneId, props.tunes])
+
+    useEffect(function() {
+        setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
+        return function() {
+            setDocumentTitle(DEFAULT_APP_TITLE)
+        }
+    }, [tune])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -365,6 +370,9 @@ export default function MusicSingle(props) {
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
+        var chordPanelTop = zoomChords
+            ? '0em'
+            : (props.mediaController.duration > 0 ? '10.5em' : '7.4em')
         return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
 			
         
@@ -445,7 +453,7 @@ export default function MusicSingle(props) {
 				{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
 			</div>}
 			
-             {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
+             {props.mediaController.duration > 0 && <MediaSeekSlider mediaController={props.mediaController} />}
              {(fileManager && Array.isArray(fileManager.filtered))  && fileManager.filtered.map(function(file, fk) {
 				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
 			 })}
@@ -456,7 +464,12 @@ export default function MusicSingle(props) {
                 {!zoomChords && <div style={{border:'1px solid black'}}>
                      <div className="title" style={{ marginTop:'0.25em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
                         {Object.keys(words).length > 0  && <Button style={{marginRight:'1em'}}  onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
-                        <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
+                        <TitleAndLyricsEditorModal
+                          tunebook={props.tunebook}
+                          tune={tune}
+                          token={props.token}
+                          recordingsManager={recordingsManager}
+                        />
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
                      
@@ -483,7 +496,7 @@ export default function MusicSingle(props) {
                      </div>}
                 </div>  }
       
-                 {(Object.keys(uniqueChords).length > 0) && <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                 {(Object.keys(uniqueChords).length > 0) && <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : chordPanelTop, bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
                     {!(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
                     {(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
                     <span>
@@ -500,7 +513,12 @@ export default function MusicSingle(props) {
                             Capo {tune.capo}
                         </Button>}
                         </span>
-                        {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
+                        {zoomChords && <TitleAndLyricsEditorModal
+                          tunebook={props.tunebook}
+                          tune={tune}
+                          token={props.token}
+                          recordingsManager={recordingsManager}
+                        />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >
                         <pre style={{ fontWeight:'bold', fontSize:(zoomChords === true ? '2.5em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{(zoomChords ? chordsWithDots : chords)}</pre>
                         <br/><br/><br/>
@@ -512,8 +530,8 @@ export default function MusicSingle(props) {
              {<div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
                  <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
-                    {autoStart && <Abc  showRepeats={true} warp={1} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={1} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                    {autoStart && <Abc  showRepeats={true} warp={1} onStarted={function() {if (props.mediaController.confirmPlayingStarted) props.mediaController.confirmPlayingStarted()}} mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={1} onStarted={function() {if (props.mediaController.confirmPlayingStarted) props.mediaController.confirmPlayingStarted()}} mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
                   </div>
              </div>}
              

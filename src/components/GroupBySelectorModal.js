@@ -9,8 +9,10 @@ function GroupBySelectorModal(props) {
     setShow(true);
   }
   return (
-    <> 
-      <Button  style={{color:'black', fontWeight:'bold'}} onClick={handleShow} >{props.tunebook.icons.stack} {props.value&& options[props.value] ? options[props.value] : ''}</Button>
+    <>
+      <Button className="tune-search-layout-btn" style={{color:'black', fontWeight:'bold'}} onClick={handleShow}>
+        {props.tunebook.icons.stack} {props.value && options[props.value] ? options[props.value] : ''}
+      </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

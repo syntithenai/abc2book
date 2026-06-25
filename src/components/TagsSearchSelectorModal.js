@@ -1,13 +1,15 @@
-import {useState} from 'react'
-import {Button, Modal, ListGroup, Badge} from 'react-bootstrap'
+import {useState, useEffect} from 'react'
+import {Button, Modal, ListGroup, Badge, ButtonGroup} from 'react-bootstrap'
 
 function TagsSearchSelectorModal(props) {
-     //console.log(props)
-     //console.log(props.defaultOptions())
   const [show, setShow] = useState(false);
   const [selectedTags, setSelectedTags] = useState(Array.isArray(props.value) ? props.value : []);
   const [filter, setFilter] = useState('');
   const [options, setOptions] = useState(props.defaultOptions())
+
+  useEffect(function() {
+    setSelectedTags(Array.isArray(props.value) ? props.value : [])
+  }, [props.value])
  
   const handleClose = () => {
       setShow(false);
@@ -63,12 +65,30 @@ function TagsSearchSelectorModal(props) {
           }
     });
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
+  const hasActiveTags = Array.isArray(props.value) && props.value.length > 0
+
+  function clearTagFilter(e) {
+    if (e) {
+      e.preventDefault()
+      e.stopPropagation()
+    }
+    setSelectedTags([])
+    props.onChange([])
+    props.forceRefresh()
+  }
+
   return (
     <>
-     
-       <Button onClick={handleShow} variant="info" >
-        <span>{props.tunebook.icons.tag} {Array.isArray(props.value) ?  props.value.join(",") : ''}</span> 
-      </Button>
+      <ButtonGroup>
+        <Button onClick={handleShow} variant="info" >
+          <span>{props.tunebook.icons.tag} {Array.isArray(props.value) ? props.value.join(",") : ''}</span>
+        </Button>
+        {hasActiveTags ? (
+          <Button variant="info" title="Clear tag filter" onClick={clearTagFilter}>
+            {props.tunebook.icons.closecircle}
+          </Button>
+        ) : null}
+      </ButtonGroup>
      
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

@@ -3,8 +3,9 @@ import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './externalMediaAudioCache';
 
 export default class ExternalMediaPitchTempo {
-  constructor(onTimeUpdate, onEnded) {
-    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  constructor(onTimeUpdate, onEnded, audioContext) {
+    this._ownsAudioContext = !audioContext;
+    this.audioContext = audioContext || new (window.AudioContext || window.webkitAudioContext)();
     this.shifter = null;
     this.onTimeUpdate = onTimeUpdate;
     this.onEnded = onEnded;
@@ -14,6 +15,10 @@ export default class ExternalMediaPitchTempo {
 
   get duration() {
     return this._duration;
+  }
+
+  get connected() {
+    return this.shifter ? this.shifter.isConnected() : false;
   }
 
   async load(src, srcType, youtubeGetId, cacheOptions) {
@@ -57,15 +62,40 @@ export default class ExternalMediaPitchTempo {
     this._loadAborted = true;
   }
 
+  getPlaybackRatio() {
+    return this.shifter ? this.shifter.getPlaybackRatio() : 0
+  }
+
   applySettings(tempo, pitch, fineTune) {
     if (this.shifter) this.shifter.applySettings(tempo, pitch, fineTune);
   }
 
-  async connect() {
+  connectIfRunning() {
+    if (!this.shifter || this.audioContext.state !== 'running') {
+      return false;
+    }
+    this.shifter.connect();
+    return true;
+  }
+
+  async resumeAudioContext() {
     if (this.audioContext.state === 'suspended') {
       await this.audioContext.resume();
     }
+    return this.audioContext.state;
+  }
+
+  async connect() {
+    const state = await this.resumeAudioContext();
+    if (state !== 'running') {
+      throw new Error('External media AudioContext is not running');
+    }
     if (this.shifter) this.shifter.connect();
+    return true;
+  }
+
+  isConnected() {
+    return this.shifter ? this.shifter.isConnected() : false;
   }
 
   disconnect() {
@@ -82,7 +112,7 @@ export default class ExternalMediaPitchTempo {
       this.shifter.destroy();
       this.shifter = null;
     }
-    if (this.audioContext && this.audioContext.state !== 'closed') {
+    if (this._ownsAudioContext && this.audioContext && this.audioContext.state !== 'closed') {
       this.audioContext.close().catch(function() {});
     }
   }

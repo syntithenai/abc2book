@@ -1,315 +1,202 @@
-import {Link , Outlet } from 'react-router-dom'
-import {Button, ButtonGroup, Tabs, Tab, Badge} from 'react-bootstrap'
-import MusicLayout from '../components/MusicLayout'
+import {Link} from 'react-router-dom'
+import {Button, ButtonGroup, Badge} from 'react-bootstrap'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
-import FeaturedTune from '../components/FeaturedTune'
-//import curated from '../CuratedTuneBooks'
-import {useEffect, useState, useRef} from 'react'
-import AddSongModal from '../components/AddSongModal'
-import ImportOptionsModal from '../components/ImportOptionsModal'
+import {useEffect, useState} from 'react'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
-//import MediaPlayer from '../components/MediaPlayer'
-//import Accordion from 'react-bootstrap/Accordion';
 import {useNavigate} from 'react-router-dom'
-import VennDiagram from '../components/VennDiagram'
 import YourFilters from '../components/YourFilters'
+import {
+  BOOKS_PAGE_SECTIONS,
+  consumeBooksPageScrollTarget,
+  getRecentTunes,
+} from '../recentTunes'
+import { trackBookSectionClick } from '../analytics'
+
+const BOOK_SECTION_NAMES = {
+  [BOOKS_PAGE_SECTIONS.filters]: 'filters',
+  [BOOKS_PAGE_SECTIONS.recent]: 'recent',
+  [BOOKS_PAGE_SECTIONS.books]: 'books',
+  [BOOKS_PAGE_SECTIONS.tags]: 'tags',
+}
 
 export default function BooksPage(props) {
     const navigate = useNavigate()
-    
-    
-    const [searchFilter, setSearchFilter ] = useState('') 
-    const [searchTagFilter, setSearchTagFilter ] = useState('') 
-    
-    function getShowParam() {
-        if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
-            return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
-        }
-        return ''
-    }
-    
-    const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
-    
+    const [searchFilter, setSearchFilter] = useState('')
+    const [searchTagFilter, setSearchTagFilter] = useState('')
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})
+    const [myBookImageIsHidden, setMyBookImageIsHidden] = useState({})
+    const [savedFilterCount, setSavedFilterCount] = useState(0)
+
     function hideTagImage(key) {
         var v = tagImageIsHidden
         v[key] = true
         setTagImageIsHidden(v)
     }
-    const [myBookImageIsHidden, setMyBookImageIsHidden] = useState({})
+
     function hideMyBookImage(key) {
         var v = myBookImageIsHidden
         v[key] = true
         setMyBookImageIsHidden(v)
     }
-        const [tabKey, setTabKey] = useState(props.defaultTab === "tags" ? "tags" : "books");
 
-    
+    function scrollToSection(sectionId) {
+        props.tunebook.utils.scrollTo(sectionId, 70)
+    }
+
+    function trackAndScrollToSection(sectionId) {
+        const section = BOOK_SECTION_NAMES[sectionId]
+        if (section) trackBookSectionClick(section)
+        scrollToSection(sectionId)
+    }
+
+    useEffect(function() {
+        const queued = consumeBooksPageScrollTarget()
+        const target = queued
+            || (props.defaultTab === 'tags' ? BOOKS_PAGE_SECTIONS.tags : null)
+        if (target) {
+            setTimeout(function() {
+                scrollToSection(target)
+            }, 300)
+        }
+    }, [])
+
     var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
     var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
     tbOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     tagOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
-    return <div className="App-books">
-        
+    const recentTunes = getRecentTunes(props.tunes)
+
+    return <div className="App-books books-page">
         <div style={{clear:'both', width:'100%'}}>
             {tbOptions.length > 0 && <div>
-                <div style={{position:'fixed', top: '4.0em', width:'100%', backgroundColor:'white'}}>
-					<div style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', paddingRight:'1em'}} >
-						<Link to={'/tunes'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button></Link>
-						<Link to={'/books'} onClick={function() {setTabKey('books')}} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button></Link>
-						<Link to={'/tags'} onClick={function() {setTabKey('tags')}} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button></Link>
-					</div>
-					<div style={{float:'right'}} id="tunebookbuttons" >
-						<AddSongModal tunes={props.tunes} show={getShowParam()} forceRefresh={function() {}} filter={''} setFilter={function() {}}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} />
-						<ImportOptionsModal  tunes={props.tunes} token={props.token} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-						
-					</div>
-                </div>
-                
-                <div style={{clear:'both'}} >&nbsp;</div>
-                <div>
-                    <YourFilters tunebook={props.tunebook} setFilter={props.setFilter} setGroupBy={props.setGroupBy} setTagFilter={props.setTagFilter} setCurrentTuneBook={props.setCurrentTuneBook} forceRefresh={props.forceRefresh} />
-                </div>
-                <Tabs  activeKey={tabKey}
-      onSelect={(k) => setTabKey(k)} >
-                    <Tab  eventKey="books" title="Your Books">
-                        <input style={{float:'left'}} type='search'  value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
-                        <div style={{clear:'both'}} > </div>
-                        <div style={{float:'left'}}>{tbOptions.map(function(option, ok) {
-                            if (option && option.trim().length > 0 && ((searchFilter.trim && searchFilter.trim() === '') || searchFilter.trim && option.trim().indexOf(searchFilter.trim())!== -1 )) { 
-                                return <ButtonGroup key={ok} style={{minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em'}} onClick={function(e) {props.setCurrentTuneBook(option); props.setTagFilter(''); props.setFilter('')}} >
-                                    <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} user={props.user} />
-                                    <Link  to='/tunes' key={ok} style={{color:'white', textDecoration:'none'}} ><Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}} >{option}&nbsp;&nbsp; {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} />}
-                                    {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
-                                    </Button></Link>
-                                    <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
-                                </ButtonGroup>
-                            } else {
-                                return null
-                            }
-                        })}</div>
-                    </Tab>
-                    <Tab eventKey="tags" title="Your Tags">
-                        <input style={{float:'left'}} type='search'  value={searchTagFilter} onChange={function(e) {setSearchTagFilter(e.target.value)}} />
-                        <div style={{clear:'both'}} ></div>
-                        <div style={{float:'left'}}>{tagOptions.map(function(option, ok) {
-                            if (option && option.trim().length > 0 && ((searchTagFilter.trim && searchTagFilter.trim() === '') || searchTagFilter.trim && option.trim().indexOf(searchTagFilter.trim())!== -1 )) { 
-                                return <ButtonGroup key={ok} style={{color:'white',minHeight:'65px', backgroundColor: '#0d6efd', borderRadius:'5px', marginTop:'0.4em', marginLeft:'0.2em', height: '90px', verticalAlign:'text-top'}}  >
-                                <Button style={{fontWeight:'bold', fontSize:'1.3em'}} onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>{option}</Button>
-                                {!tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} />}
-                                {tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} />}
-                                &nbsp;
-                                
-                                <Button onClick={function() {
-                                    props.setTagFilter([option]);
-                                    props.setCurrentTuneBook(''); 
-                                    props.setFilter(''); 
-                                    props.tunebook.fillMediaPlaylist('','',[option]);
-                                    navigate("/tunes")
-                                }} variant={"primary"} size="small" >{props.tunebook.icons.playwhite}</Button>
-                                    
-                            </ButtonGroup>
-                                
-                            } else {
-                                return null
-                            }
-                        })}
+                <nav className="books-page-nav" aria-label="Books page sections">
+                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.filters) }}>
+                        Filters {savedFilterCount > 0 && <Badge bg="secondary">{savedFilterCount}</Badge>}
+                    </Button>
+                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.recent) }}>
+                        Recent
+                    </Button>
+                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.books) }}>
+                        {props.tunebook.icons.book} Books <Badge bg="secondary">{tbOptions.length}</Badge>
+                    </Button>
+                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.tags) }}>
+                        {props.tunebook.icons.tag} Tags <Badge bg="secondary">{tagOptions.length}</Badge>
+                    </Button>
+                </nav>
+
+                <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
+                    <h3 className="books-page-section-title">Filters</h3>
+                    <YourFilters
+                        embedded
+                        showWhenEmpty
+                        onFiltersChange={function(list) { setSavedFilterCount(Object.keys(list || {}).length) }}
+                        tunebook={props.tunebook}
+                        setFilter={props.setFilter}
+                        setGroupBy={props.setGroupBy}
+                        setTagFilter={props.setTagFilter}
+                        setCurrentTuneBook={props.setCurrentTuneBook}
+                        forceRefresh={props.forceRefresh}
+                    />
+                </section>
+
+                <section id={BOOKS_PAGE_SECTIONS.recent} className="books-page-section">
+                    <h3 className="books-page-section-title">Recent</h3>
+                    {recentTunes.length > 0 ? (
+                        <div className="books-page-recent-list">
+                            {recentTunes.map(function(tune) {
+                                return (
+                                    <Link
+                                        key={tune.id}
+                                        to={'/tunes/' + tune.id}
+                                        style={{textDecoration:'none'}}
+                                        onClick={function() {
+                                            if (props.setCurrentTune) props.setCurrentTune(tune.id)
+                                        }}
+                                    >
+                                        <Button variant="primary" className="books-page-recent-btn">
+                                            {tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'}
+                                        </Button>
+                                    </Link>
+                                )
+                            })}
                         </div>
-                    </Tab>
-               
-                  </Tabs>      
-     
+                    ) : (
+                        <p className="books-page-recent-empty">Open a tune from search to see it here.</p>
+                    )}
+                </section>
+
+                <section id={BOOKS_PAGE_SECTIONS.books} className="books-page-section">
+                    <h3 className="books-page-section-title">Your Books</h3>
+                    <input className="books-page-section-search" type="search" value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
+                    <div className="books-page-grid">
+                        {tbOptions.map(function(option, ok) {
+                            if (option && option.trim().length > 0 && ((searchFilter.trim && searchFilter.trim() === '') || searchFilter.trim && option.trim().indexOf(searchFilter.trim()) !== -1)) {
+                                return <ButtonGroup key={ok} className="books-page-book-card" onClick={function(e) {props.setCurrentTuneBook(option); props.setTagFilter(''); props.setFilter('')}}>
+                                    <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} user={props.user} />
+                                    <Link to="/tunes" style={{color:'white', textDecoration:'none'}}>
+                                        <Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}}>
+                                            {option}&nbsp;&nbsp;
+                                            {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} alt="" />}
+                                            {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} alt="" />}
+                                        </Button>
+                                    </Link>
+                                    <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant="primary" size="small">{props.tunebook.icons.playwhite}</Button>
+                                </ButtonGroup>
+                            }
+                            return null
+                        })}
+                    </div>
+                </section>
+
+                <section id={BOOKS_PAGE_SECTIONS.tags} className="books-page-section">
+                    <h3 className="books-page-section-title">Your Tags</h3>
+                    <input className="books-page-section-search" type="search" value={searchTagFilter} onChange={function(e) {setSearchTagFilter(e.target.value)}} />
+                    <div className="books-page-grid">
+                        {tagOptions.map(function(option, ok) {
+                            if (option && option.trim().length > 0 && ((searchTagFilter.trim && searchTagFilter.trim() === '') || searchTagFilter.trim && option.trim().indexOf(searchTagFilter.trim()) !== -1)) {
+                                return <ButtonGroup key={ok} className="books-page-tag-card">
+                                    <Button style={{fontWeight:'bold', fontSize:'1.3em', height: '90px', verticalAlign:'text-top'}} onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>{option}</Button>
+                                    {!tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} alt="" />}
+                                    {tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} alt="" />}
+                                    <Button onClick={function() {
+                                        props.setTagFilter([option])
+                                        props.setCurrentTuneBook('')
+                                        props.setFilter('')
+                                        props.tunebook.fillMediaPlaylist('', '', [option])
+                                        navigate("/tunes")
+                                    }} variant="primary" size="small">{props.tunebook.icons.playwhite}</Button>
+                                </ButtonGroup>
+                            }
+                            return null
+                        })}
+                    </div>
+                </section>
             </div>}
 
-            {tbOptions.length == 0 && <div>
+            {tbOptions.length === 0 && <div>
                 <h4>Import a Book</h4>
-                 <div style={{float:'left'}} >
+                <div>
                     <hr/>
-                    <div style={{marginTop:'1em'}} >
+                    <div style={{marginTop:'1em'}}>
                     This tune book software helps musicians collect and organise and practice their music.
                     </div>
-                     <div style={{marginTop:'1em'}} >
-                    The software helps you to find and manage lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. 
+                    <div style={{marginTop:'1em'}}>
+                    The software helps you to find and manage lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with.
                     </div>
-                     <div style={{marginTop:'1em',marginBottom:'1em'}} >
+                    <div style={{marginTop:'1em',marginBottom:'1em'}}>
                     Import one of the curated tunebooks to get started.
                     </div>
-                    
                     <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} />
-                    
                 </div>
             </div>}
-          
-            <div style={{float:'left', width:'100%'}} >
+
+            <div style={{float:'left', width:'100%'}}>
                 <hr/>
-              
-                <div style={{marginTop:'1em',  float:'right'}}>
+                <div style={{marginTop:'1em', float:'right'}}>
                 The Tune Book is <br/>
-                <a target='_new'  href='https://github.com/syntithenai/abc2book/' ><Button><img style={{maxHeight:'1.5em'}} src="opensource.svg" /> Open Source Software</Button></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/syntithenai/abc2book/"><Button><img style={{maxHeight:'1.5em'}} src="opensource.svg" alt="" /> Open Source Software</Button></a>
                 </div>
             </div>
         </div>
-        
-       
-        
     </div>
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     //<Tab eventKey="tagsoverview" title="Tags Overview">
-                        //<VennDiagram sets={getVennData()} />
-                    //</Tab>
-
-  //<div style={{marginTop:'1em'}}>
-                //Checkout the <Link to="/help" ><Button>Help</Button></Link> section for some tips and tricks.
-                //</div>
- //<Tab eventKey="tagsoverview" title="Tags Overview">
-                    //<VennDiagram />
-                    //</Tab>
-                     
- //<ImportOptionsModal  token={props.token}show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />
-  
-            //{Object.keys(curated).length > 0 && <div style={{marginTop:'1em', float:'left'}} ><h4>Import a Book</h4>
-                 //<div style={{float:'left'}} >
-                    //<hr/>
-                    //<div style={{marginTop:'1em'}} >
-                    //This tune book software helps musicians collect and organise and practice their music.
-                    //</div>
-                     //<div style={{marginTop:'1em'}} >
-                    //The software helps you to find lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with. The importable books below have mostly been curated to ensure formatting and include chords and youtube links.
-                    //</div>
-                //</div>
-                
-             
-            //</div>}      
-
-
-//const [vennData,setVennData] = useState('')
-    //function getVennData() {
-        ////console.log('TTTTT',props.tunes)
-        //var sets = {}
-        //if (props.tunes) {
-            //var tagSets = {}
-            //var bookSets = {}
-            
-                
-            //Object.values(props.tunes).forEach(function(tune) {
-                //var items = {}
-                //if (Array.isArray(tune.books)) {
-                    //tune.books.forEach(function(book) {
-                      //if (book && book.length > 0) items[book] = 1  
-                    //})
-                //}
-                ////if (Array.isArray(tune.tags)) {
-                    ////tune.tags.forEach(function(tag) {
-                      ////items[tag] = 1
-                    ////})
-                ////}
-                //props.tunebook.utils.uniquifyArray(Object.keys(items)).sort().forEach(function(item) {
-                    //bookSets[item] = parseInt(bookSets[item]) > 0 ? bookSets[item] + 1 : 1
-                    //Object.keys(items).forEach(function(itemInner) {
-                        //if (item && itemInner && item !== itemInner) {
-                            //var comboKey = [item,itemInner].sort().join(",")
-                            ////console.log('CK',comboKey)
-                            //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
-                            //// third level
-                            //Object.keys(items).forEach(function(itemInnerInner) {
-                                //if (itemInnerInner && item !== itemInnerInner && itemInner !== itemInnerInner) {
-                                    //var comboKey = [item,itemInner, itemInnerInner].sort().join(",")
-                                    ////console.log('CK',comboKey)
-                                    //bookSets[comboKey] = parseInt(bookSets[comboKey]) > 0 ? bookSets[comboKey] + 1 : 1
-                                //}
-                            //})
-                        //}
-                    //})
-                //})
-            
-                ////if (Array.isArray(tune.tags)) {
-                    ////var tagKey = tune.tags.sort()
-                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
-                ////}
-            //})
-            //console.log('ITEMS',bookSets)
-                
-            //sets = Object.keys(bookSets).map(function(bookKey) {
-              //return { size: parseInt(Math.sqrt(bookSets[bookKey]).toFixed(0)), sets: bookKey.split(",") }  
-            //}).sort(function(a,b) {
-              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
-            //})
-            ////setVennData(sets)
-            ////[
-              ////{
-                ////size: 3411,
-                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
-              ////},
-            //console.log('TTTTT SETS',sets)
-        //}
-        //return sets
-    //}
-    //function getVennData() {
-        //console.log('TTTTT',props.tunes)
-        //var sets = {}
-        //if (props.tunes) {
-            //var tagSets = {}
-            //var bookSets = {}
-            //Object.values(props.tunes).forEach(function(tune) {
-                //if (Array.isArray(tune.books)) {
-                    //tune.books.sort().filter(function(a) {return Boolean(a)})
-                    
-                    //var bookKey = tune.books.sort().filter(function(a) {return Boolean(a)}).join(",")
-                    
-                    //bookSets[bookKey] = parseInt(bookSets[bookKey]) > 0 ? bookSets[bookKey] + 1 : 1
-                //}
-                ////if (Array.isArray(tune.tags)) {
-                    ////var tagKey = tune.tags.sort()
-                    ////tagSets[tagKey] = parseInt(tagSets[tagKey]) > 0 ? tagSets[tagKey] + 1 : 1
-                ////}
-            //})
-            //sets = Object.keys(bookSets).map(function(bookKey) {
-              //return { size: bookSets[bookKey], sets: bookKey.split(",") }  
-            //}).sort(function(a,b) {
-              //if (a.sets.length > b.sets.length) return 1 ; else return -1   
-            //})
-            ////setVennData(sets)
-            ////[
-              ////{
-                ////size: 3411,
-                ////sets: ["Radiohead", "Thom Yorke", "John Lennon"],
-              ////},
-            //console.log('TTTTT SETS',bookSets, tagSets)
-        //}
-        //return sets
-    //}
-    //useEffect(,[props.tunes])
-    
-     //<Accordion defaultActiveKey="0">
-      //<Accordion.Item eventKey="0">
-        //<Accordion.Header>Accordion Item #1</Accordion.Header>
-        //<Accordion.Body>
-//var buttonGroupStyle={marginLeft:'0.2em',backgroundColor:'#0d6efd', border:'1px solid black', borderRadius:'10px'}
-    
-    //console.log(notCollatedCurated)
-    //const [imageIsHidden, setImageIsHidden] = useState({})
-    //function hideImage(key) {
-        //var v = imageIsHidden
-        //v[key] = true
-        //setImageIsHidden(v)
-    //}

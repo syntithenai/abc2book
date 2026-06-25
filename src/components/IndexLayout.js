@@ -7,10 +7,10 @@ import {isMobile} from 'react-device-detect'
 import IndexSearchForm from './IndexSearchForm'
 import BoostSettingsModal from './BoostSettingsModal'
 import SelectedItemsModal from './SelectedItemsModal'
-import AddSongModal from './AddSongModal'
-import ImportOptionsModal from './ImportOptionsModal'
     
 import Abc from './Abc'
+import {buildSearchPageTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import { queueBooksPageScroll, BOOKS_PAGE_SECTIONS } from '../recentTunes'
 
 var LIST_PROTECTION_LIMIT = 500
 
@@ -55,6 +55,13 @@ export default function IndexLayout(props) {
             window.removeEventListener("scroll", props.setScrollOffset);
         };
     },[])
+
+    useEffect(function() {
+        setDocumentTitle(buildSearchPageTitle(props.currentTuneBook, props.tagFilter))
+        return function() {
+            setDocumentTitle(DEFAULT_APP_TITLE)
+        }
+    }, [props.currentTuneBook, props.tagFilter])
 
     // reset selection when grouping, book or tag filters change (but not text filter)
     useEffect(function() {
@@ -384,16 +391,7 @@ export default function IndexLayout(props) {
         //return final
     //}
     
-	const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
-    
-    function getShowParam() {
-        if (window.location.hash && window.location.hash.indexOf('?show=') !== -1) {
-            return window.location.hash.slice(window.location.hash.indexOf('?show=') + 6)
-        }
-        return ''
-    }
-    
-    
+
     function forceRefresh() {
         setListHash("abc"+Math.random())
         setFiltered(null)
@@ -426,10 +424,10 @@ export default function IndexLayout(props) {
                   
                 </>}
                 
-                      {(tune.books && tune.books.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
+                      {(tune.books && tune.books.length > 0) && <span className="tune-list-filter-btns" style={{ marginRight:'1em', float:'right'}} >
                             {tune.books.map(function(book,count) {if (props.currentTuneBook && props.currentTuneBook === book) {return null} else { return <Button disabled={isMobile} onClick={function() { if (!isMobile) { props.setCurrentTuneBook(book); props.setFilter(''); props.forceRefresh()} }} key={book} variant="primary" style={{color:'white', marginRight:'0.1em', fontSize:'0.5em'}} >{book}</Button>}})}
                     </span>}
-                    {(Array.isArray(tune.tags) && tune.tags.length > 0) && <span style={{ marginRight:'1em', float:'right'}} >
+                    {(Array.isArray(tune.tags) && tune.tags.length > 0) && <span className="tune-list-filter-btns" style={{ marginRight:'1em', float:'right'}} >
                         {tune.tags.map(function(tag,count) { return props.tagFilter.indexOf(tag) === -1 ? <Button disabled={isMobile} key={tag} variant="info" onClick={function() { if (!isMobile) { props.setTagFilter([tag]); props.setFilter(''); props.forceRefresh()} }} style={{marginRight:'0.1em', fontSize:'0.5em'}} >{tag}</Button> : ''})}
                     </span>}
                 {(Object.keys(filtered).length > 0 && Object.keys(filtered).length < LIST_PROTECTION_LIMIT) && <>    
@@ -466,15 +464,11 @@ export default function IndexLayout(props) {
      
     return <div className="index-layout"  >
       <div id={JSON.stringify(selected)} style={formStyle} >
-        <div  style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', zIndex:999 , paddingRight:'1em'}}  >
-            <Link to={'/tunes'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button></Link>
-            <Link to={'/books'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button></Link>
-            <Link to={'/tags'} ><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button></Link>
+        <div className="index-layout-shortcuts" style={{float:'left', border: '1px solid black', borderRadius:'10px', backgroundColor:'lightgrey', zIndex:999 , paddingRight:'1em'}}  >
+            <Link to={'/books'} onClick={function() { queueBooksPageScroll(BOOKS_PAGE_SECTIONS.recent) }}><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.music} <Badge>{props.tunes ? Object.keys(props.tunes).length : 0}</Badge></Button></Link>
+            <Link to={'/books'} onClick={function() { queueBooksPageScroll(BOOKS_PAGE_SECTIONS.books) }}><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.book} <Badge>{tbOptions.length}</Badge></Button></Link>
+            <Link to={'/books'} onClick={function() { queueBooksPageScroll(BOOKS_PAGE_SECTIONS.tags) }}><Button style={{marginLeft:'0.3em'}} variant="outline-info" >{props.tunebook.icons.tag} <Badge>{tagOptions.length}</Badge></Button></Link>
         </div>
-         <div style={{float:'right'}} >
-			<AddSongModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={getShowParam()} forceRefresh={props.forceRefresh} filter={props.filter} setFilter={props.setFilter}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}/>
-            <ImportOptionsModal setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} tunes={props.tunes} show={showImport}  tunesHash={props.tunesHash}  forceRefresh={props.forceRefresh}   tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} token={props.token}  />
-         </div>
          <IndexSearchForm tunes={props.tunes} selected={Object.keys(selected).map(function(v) {
                 if (selected[v]) {
                      return v

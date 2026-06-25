@@ -1,0 +1,52 @@
+{
+  "C": {
+    "major": { "frets": "0023", "fingers": "0012" },
+    "minor": { "frets": "0031", "fingers": "0021" },
+    "augmented": { "frets": "1032", "fingers": "1042" },
+    "diminished": { "frets": "2312", "fingers": "2413" },
+    "major6": { "frets": "0020", "fingers": "0010" },
+    "dominant7": { "frets": "0012", "fingers": "0012" },
+    "major7": { "frets": "0022", "fingers": "0012" },
+    "minor7": { "frets": "3311", "fingers": "3411", "barres": 3 }
+  },
+  "G": {
+    "major": { "frets": "2002", "fingers": "1002" },
+    "minor": { "frets": "2001", "fingers": "1002" },
+    "augmented": { "frets": "3002", "fingers": "2001" },
+    "diminished": { "frets": "4234", "fingers": "3241", "position": 2 },
+    "major6": { "frets": "2000", "fingers": "1000" },
+    "dominant7": { "frets": "2012", "fingers": "1012" },
+    "major7": { "frets": "2022", "fingers": "1012" },
+    "minor7": { "frets": "2011", "fingers": "1011" }
+  },
+  "D": {
+    "major": { "frets": "4220", "fingers": "3120" },
+    "minor": { "frets": "4230", "fingers": "3120" },
+    "dominant7": { "frets": "4210", "fingers": "3120" },
+    "minor7": { "frets": "4230", "fingers": "3110" }
+  },
+  "A": {
+    "major": { "frets": "2220", "fingers": "1110", "barres": 2 },
+    "minor": { "frets": "2210", "fingers": "2310" },
+    "dominant7": { "frets": "2221", "fingers": "1112", "barres": 2 },
+    "minor7": { "frets": "2210", "fingers": "1110", "barres": 2 }
+  },
+  "E": {
+    "major": { "frets": "1202", "fingers": "1203" },
+    "minor": { "frets": "1200", "fingers": "1200" },
+    "dominant7": { "frets": "1201", "fingers": "1201" },
+    "minor7": { "frets": "1200", "fingers": "1100" }
+  },
+  "F": {
+    "major": { "frets": "0230", "fingers": "0120" },
+    "minor": { "frets": "0130", "fingers": "0120" },
+    "dominant7": { "frets": "0131", "fingers": "0121" },
+    "minor7": { "frets": "0130", "fingers": "0110" }
+  },
+  "B": {
+    "major": { "frets": "4442", "fingers": "3331", "barres": 4, "position": 2 },
+    "minor": { "frets": "4441", "fingers": "3331", "barres": 4, "position": 2 },
+    "dominant7": { "frets": "4443", "fingers": "3331", "barres": 4, "position": 2 },
+    "minor7": { "frets": "4441", "fingers": "3331", "barres": 4, "position": 2 }
+  }
+}

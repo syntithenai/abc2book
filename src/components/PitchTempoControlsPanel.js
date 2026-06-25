@@ -1,22 +1,21 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Button } from 'react-bootstrap';
 import { formatPitchDisplay, formatFineTuneDisplay, getPlaybackSettings } from '../pitchTempoUtils';
+import MediaSeekSlider from './MediaSeekSlider';
 import './PitchTempoControlsPanel.css';
 
-const presets = {
-  standard: { label: 'Standard', tempo: 1.0, pitch: 0, fineTune: 0 },
-  slowPractice: { label: 'Slow 75%', tempo: 0.75, pitch: 0, fineTune: 0 },
-  slowPractice50: { label: 'Slow 50%', tempo: 0.5, pitch: 0, fineTune: 0 },
-  fastReview: { label: 'Fast 125%', tempo: 1.25, pitch: 0, fineTune: 0 },
-  capoSimulator: { label: 'Capo +2', tempo: 1.0, pitch: 2, fineTune: 0 },
-  learnerPack: { label: 'Learner', tempo: 0.75, pitch: -2, fineTune: 0 },
+const tempoPresets = {
+  standard: { label: 'Standard', tempo: 1.0 },
+  slowPractice: { label: 'Slow 75%', tempo: 0.75 },
+  slowPractice50: { label: 'Slow 50%', tempo: 0.5 },
+  fastReview: { label: 'Fast 125%', tempo: 1.25 },
 };
 
-export default function PitchTempoControlsPanel({ tune, tunebook, mediaController }) {
+export default function PitchTempoControlsPanel({ tune, tunebook, mediaController, showPitchControls = false }) {
   const [tempo, setTempo] = useState(1.0);
   const [pitch, setPitch] = useState(0);
   const [fineTune, setFineTune] = useState(0);
-  const [selectedPreset, setSelectedPreset] = useState('standard');
+  const [selectedTempoPreset, setSelectedTempoPreset] = useState('standard');
   const saveTimerRef = useRef(null);
 
   useEffect(function() {
@@ -47,12 +46,15 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
     }, 400);
   }
 
-  function updateSettings(nextTempo, nextPitch, nextFineTune, presetKey) {
+  function updateSettings(nextTempo, nextPitch, nextFineTune, tempoPresetKey) {
     setTempo(nextTempo);
     setPitch(nextPitch);
     setFineTune(nextFineTune);
-    if (presetKey) setSelectedPreset(presetKey);
-    else setSelectedPreset('custom');
+    if (tempoPresetKey) {
+      setSelectedTempoPreset(tempoPresetKey);
+    } else {
+      setSelectedTempoPreset('custom');
+    }
     applyLive(nextTempo, nextPitch, nextFineTune);
     scheduleSave(nextTempo, nextPitch, nextFineTune);
   }
@@ -69,13 +71,21 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
     updateSettings(tempo, pitch, value);
   }
 
-  function applyPreset(key) {
-    const preset = presets[key];
-    updateSettings(preset.tempo, preset.pitch, preset.fineTune, key);
+  function applyTempoPreset(key) {
+    const preset = tempoPresets[key];
+    updateSettings(preset.tempo, pitch, fineTune, key);
   }
 
-  function handleReset() {
-    applyPreset('standard');
+  function resetTempo() {
+    updateSettings(1.0, pitch, fineTune, 'standard');
+  }
+
+  function resetPitch() {
+    updateSettings(tempo, 0, fineTune);
+  }
+
+  function resetFineTune() {
+    updateSettings(tempo, pitch, 0);
   }
 
   if (!tune) return null;
@@ -84,12 +94,27 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
 
   return (
     <div className="pitch-tempo-panel">
-      <p className="scope-note">
-        Saved per song. Applies to synthesized ABC playback and linked audio or video.
-      </p>
+      <MediaSeekSlider mediaController={mediaController} className="compact" />
 
       <div className="control-section">
-        <h6>Tempo</h6>
+        <div className="control-section-header">
+          <h6>Tempo</h6>
+          <div className="header-inline-actions">
+            {Object.entries(tempoPresets).map(function([key, preset]) {
+              return (
+                <Button
+                  key={key}
+                  variant={selectedTempoPreset === key ? 'primary' : 'outline-primary'}
+                  size="sm"
+                  onClick={function() { applyTempoPreset(key) }}
+                >
+                  {preset.label}
+                </Button>
+              );
+            })}
+            <Button variant="outline-secondary" size="sm" onClick={resetTempo}>Reset</Button>
+          </div>
+        </div>
         <div className="control-display">
           <span className="display-value">{tempoPercent}%</span>
           <span>100% = normal</span>
@@ -106,8 +131,14 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
         <div className="slider-labels"><span>25%</span><span>50%</span><span>100%</span><span>150%</span><span>200%</span></div>
       </div>
 
+      {showPitchControls && (
       <div className="control-section">
-        <h6>Pitch</h6>
+        <div className="control-section-header">
+          <h6>Pitch</h6>
+          <div className="header-inline-actions">
+            <Button variant="outline-secondary" size="sm" onClick={resetPitch}>Reset</Button>
+          </div>
+        </div>
         <div className="control-display">
           <span className="display-value">{formatPitchDisplay(pitch)}</span>
           <span>±12 semitones</span>
@@ -123,9 +154,16 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
         />
         <div className="slider-labels"><span>-12</span><span>0</span><span>+12</span></div>
       </div>
+      )}
 
+      {showPitchControls && (
       <div className="control-section">
-        <h6>Fine tune</h6>
+        <div className="control-section-header">
+          <h6>Fine tune</h6>
+          <div className="header-inline-actions">
+            <Button variant="outline-secondary" size="sm" onClick={resetFineTune}>Reset</Button>
+          </div>
+        </div>
         <div className="control-display">
           <span className="display-value">{formatFineTuneDisplay(fineTune)}</span>
           <span>±50 cents</span>
@@ -141,23 +179,8 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
         />
         <div className="slider-labels"><span>-50¢</span><span>0¢</span><span>+50¢</span></div>
       </div>
+      )}
 
-      <div className="control-section">
-        <h6>Presets</h6>
-        <div className="preset-buttons">
-          {Object.entries(presets).map(([key, preset]) => (
-            <Button
-              key={key}
-              variant={selectedPreset === key ? 'primary' : 'outline-primary'}
-              size="sm"
-              onClick={() => applyPreset(key)}
-            >
-              {preset.label}
-            </Button>
-          ))}
-          <Button variant="outline-secondary" size="sm" onClick={handleReset}>Reset</Button>
-        </div>
-      </div>
     </div>
   );
 }

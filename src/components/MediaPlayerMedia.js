@@ -2,7 +2,7 @@ import {Button, Modal} from 'react-bootstrap'
 import YouTube from 'react-youtube';
 import AbcPlayer from './AbcPlayer'
 import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useMemo, useRef} from 'react'
 
 export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     const params = useParams()
@@ -16,217 +16,155 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     const [lastPlayState, setLastPlayState] = useState('')
     const [lastTuneId, setLastTuneId] = useState('')
     const [lastMediaLinkNumber, setLastMediaLinkNumber] = useState('')
+    const lastPreparedSrcRef = useRef(null)
     
-    function handleChange(useMediaLinkNumber) {
-        var hasLinks = tune  && Array.isArray(tune.links)  && tune.links.length > 0 ? true : false
-        //console.log("MEDIA PLAYER CHANGE",params.playState, useMediaLinkNumber, hasLinks, tunebook.hasNotesOrChords(tune))
-        
-        if (params.playState === 'playMidi' || useMediaLinkNumber === null) {
-            if (tunebook.hasNotesOrChords(tune)) {
-                //console.log("OK PLAY MIDI")
-                setSrc('')
-                mediaController.setMediaLinkNumber(null)
-            } else {
-                if (hasLinks) {
-                    //console.log("ABC FALLBACK TO MEDIA")
-                    var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
-                    mediaController.setMediaLinkNumber(useMediaLinkNumber)
-                    setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
-                } else {
-                    //console.log("NO PLAY OPTION")
-                    setSrc(null)
-                    mediaController.setMediaLinkNumber(null)
-                }
+    useEffect(function() {
+        if (!src) {
+            lastPreparedSrcRef.current = null
+            if (mediaController.destroyExternalMedia) {
+                mediaController.destroyExternalMedia()
             }
-        } else if (hasLinks) {
-            var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
-            //console.log("OK PLAY MEDIA", mediaController.getSrc(tune, useMediaLinkNumber))
-            mediaController.setMediaLinkNumber(useMediaLinkNumber)
-            setSrc(null)
-            // hack to force reload of youtube video when click next/prev ??
-            var to = null
-            clearTimeout(to)
-            to = setTimeout(function() {
-                setSrc(mediaController.getSrc(tune, useMediaLinkNumber))
-            },300)
-        } else {
-            if (tunebook.hasNotesOrChords(tune))  {
-                //console.log("FALLBACK MIDI")
-                setSrc('')
-                mediaController.setMediaLinkNumber(null)
-            } else {
-                //console.log("NO PLAY OPTION")
-                setSrc(null)
-                mediaController.setMediaLinkNumber(null)
+            return
+        }
+        const srcType = mediaController.getSrcType(src)
+        if (srcType !== 'audio' && srcType !== 'youtube') {
+            lastPreparedSrcRef.current = null
+            if (mediaController.destroyExternalMedia) {
+                mediaController.destroyExternalMedia()
+            }
+            return
+        }
+        if (src !== lastPreparedSrcRef.current) {
+            lastPreparedSrcRef.current = src
+            if (mediaController.destroyExternalMedia) {
+                mediaController.destroyExternalMedia()
             }
         }
-        
-    }
+        const needsExternal = mediaController.usesExternalPitchTempo && mediaController.usesExternalPitchTempo()
+        if (!needsExternal) {
+            if (mediaController.destroyExternalMedia) {
+                mediaController.destroyExternalMedia()
+            }
+            return
+        }
+        if (mediaController.prepareExternalMedia) {
+            mediaController.prepareExternalMedia(src, undefined, { autoPlay: false, showLoading: false })
+        }
+    }, [
+        src,
+        mediaController.mediaResolverAvailable,
+    ])
+    
+    useEffect(function() {
+        if (!tune || !mediaController.applyPlaybackRoute) return
 
-    useEffect(function() {
-        if (src && (mediaController.getSrcType(src) === 'audio' || mediaController.getSrcType(src) === 'youtube')) {
-            mediaController.prepareExternalMedia(src)
-        } else {
-            mediaController.destroyExternalMedia()
+        const isFirstTuneLoad = !lastTuneId
+        const route = mediaController.applyPlaybackRoute(
+            params.playState,
+            params.mediaLinkNumber,
+            tune,
+            tunebook
+        )
+        setSrc(route.src === null ? null : route.src)
+
+        let changeType = null
+        if (tune.id !== lastTuneId) {
+            changeType = 'tune'
+            mediaController.setTune(tune)
+            mediaController.setCurrentTime(0)
+            mediaController.setClickSeek(0)
+            mediaController.setDuration(0)
+            mediaController.cleanupTimers()
+        } else if (route.mediaLinkNumber !== lastMediaLinkNumber) {
+            changeType = 'link'
+            mediaController.setCurrentTime(0)
+            mediaController.setClickSeek(0)
+            mediaController.setDuration(0)
+            mediaController.cleanupTimers()
+        } else if (params.playState !== lastPlayState) {
+            changeType = 'playState'
         }
-        return function() {
-            mediaController.destroyExternalMedia()
+
+        if (changeType === 'playState' && params.playState !== 'playMidi' && params.playState !== 'playMedia') {
+            mediaController.stop()
+        } else if (changeType && mediaController.maybeAutostart) {
+            mediaController.maybeAutostart(params.playState, changeType, isFirstTuneLoad)
         }
-    }, [src])
-    
-    useEffect(function() {
-        //console.log("MediaPlayerMedia CHANGE")
-        //console.log("MEDIA PLAYER CHANGE",(tune ? tune.id : 'NOTUNE'), lastTuneId,'PLAYSTATE', params.playState, lastPlayState, "TAPTOPLAY",tapToPlay,"LINKNUM",params.mediaLinkNumber)
-        mediaController.setPlayCancelled(false)
-        //if (!mediaController.checkAudioContext()) {
-            //setTapToPlay(true)
-        //} else {
-            var useMediaLinkNumber = (params.mediaLinkNumber > 0 && tune  && Array.isArray(tune.links)  && tune.links.length > (params.mediaLinkNumber))? params.mediaLinkNumber : 0
-            if (params.playState === 'playMidi' || !(Array.isArray(tune.links) && tune.links.length > 0)) {
-                useMediaLinkNumber = null
-            }
-            mediaController.setMediaLinkNumber(useMediaLinkNumber)
-            // destroy synth if playState changes
-            if (tune && tune.id !== lastTuneId) {
-                //console.log("MPLAYER TUNE ID CHANGE",mediaController.playbackRate, tune ? tune.id : null,lastTuneId)
-                mediaController.setTune(tune)
-                mediaController.setCurrentTime(0)
-                mediaController.setClickSeek(0)
-                mediaController.setDuration(0)
-                mediaController.cleanupTimers()
-                //mediaController.durationRef.current = 0
-                //mediaController.setMediaLinkNumber(useMediaLinkNumber)
-                handleChange(useMediaLinkNumber)
-                if (params.playState === 'playMidi' || params.playState === 'playMedia') {
-                    //if (!mediaController.checkAudioContext()) {
-                        //if (!isFirefox) {
-                            //setTapToPlay(true)
-                        //} else {
-                            //mediaController.stop()
-                        //}
-                    //}
-                    //mediaController.play()
-                    // don't interfere with play status but force synth to update
-                    //mediaController.forceMidiChange()
-                    //if (mediaController.isPlaying) {
-                        //mediaController.stop()
-                        //setTimeout(function() {
-                          //mediaController.play()  
-                        //},300)
-                        //
-                        //mediaController.forceMidiChange()
-                    //}
-                     //else {
-                        //mediaController.stop()
-                    //}
-                }
-            } else if (useMediaLinkNumber !== lastMediaLinkNumber) {
-                //console.log("link num change",useMediaLinkNumber,"old",lastMediaLinkNumber)
-                //mediaController.setTune(tune)
-                mediaController.setCurrentTime(0)
-                mediaController.setClickSeek(0)
-                mediaController.setDuration(0)
-                //mediaController.durationRef.current = 0
-                mediaController.cleanupTimers()
-                //mediaController.setMediaLinkNumber(useMediaLinkNumber)
-                handleChange(useMediaLinkNumber)
-                if (params.playState === 'playMidi' || params.playState === 'playMedia') {
-                    //if (!mediaController.checkAudioContext()) {
-                        //if (!isFirefox) {
-                            //setTapToPlay(true)
-                            //mediaController.play()
-                        //} else {
-                            //mediaController.stop()
-                        //}
-                    //} else {
-                        mediaController.play()
-                    //}
-                    //mediaController.forceMidiChange()
-                    //if (mediaController.isPlaying) {
-                        //mediaController.play()
-                        //mediaController.forceMidiChange()
-                    //} else {
-                        //mediaController.stop()
-                    //}
-                }
-            } 
-            else if (params.playState !== lastPlayState) {
-                //console.log("playstate change",params.playState, lastPlayState)
-                //mediaController.setTune(tune)
-                //mediaController.setMediaLinkNumber(useMediaLinkNumber)
-                //handleChange(useMediaLinkNumber)
-                if (params.playState === 'playMidi' || params.playState === 'playMedia') {
-                    //if (!mediaController.checkAudioContext()) {
-                        //if (!isFirefox) {
-                            //setTapToPlay(true)
-                            //mediaController.play()
-                        //} else {
-                            //mediaController.stop()
-                        //}
-                    //} else {
-                        mediaController.play()
-                    //}
-                    //if (params.playState) {
-                        //mediaController.play()
-                        //mediaController.forceMidiChange()
-                    //} else {
-                        //mediaController.stop()
-                    //}
-                } else {
-                    mediaController.stop()
-                }
-            }
-            //console.log("CHANGE DONE",mediaController.mediaLinkNumber, src)
-        //}    
+
         setLastTuneId(tune ? tune.id : null)
-        setLastMediaLinkNumber(useMediaLinkNumber)
+        setLastMediaLinkNumber(route.mediaLinkNumber)
         setLastPlayState(params.playState)
     
-    },[(tune ? tune.id : null), mediaController.tapToPlay, params.mediaLinkNumber, params.playState])
+    },[(tune ? tune.id : null), params.mediaLinkNumber, params.playState])
     
-    useEffect(function() {
-        //console.log("MediaPlayerMedia LOAD",params.playState)
-        if (params.playState === 'playMidi' || params.playState === 'playMedia') {
-            //if (!mediaController.checkAudioContext()) {
-                //if (!isFirefox) {
-                    //setTapToPlay(true)
-                    //mediaController.play()
-                //} else {
-                    //mediaController.stop()
-                //}
-            //} else {
-            
-                mediaController.play()
-            //}
-        }
-    },[])
-    
-    //// onEnded={mediaController.onEnded} 
-    
-    function isAbcOk(mediaController) {
-        return (mediaController && mediaController.tune && tunebook.hasNotesOrChords(mediaController.tune))
-    }
-    
-    
-    var content = null
-    const useMediaLinkNumber = params.mediaLinkNumber > 0 ? params.mediaLinkNumber : 0
-
-    if (mediaController.tapToPlay) {
-        content = <>
-      <Modal   show={true} onHide={function() {mediaController.stop(); mediaController.setTapToPlay(false); mediaController.setPlayCancelled(true); }}>
+    function renderTapToPlayModal() {
+        if (!mediaController.tapToPlay) return null
+        return (
+      <Modal show={true} data-testid="tap-to-play-modal" onHide={function() {
+                mediaController.setTapToPlay(false)
+                if (mediaController.canResumePlayback && mediaController.canResumePlayback()) {
+                    return
+                }
+                mediaController.stop()
+                mediaController.setPlayCancelled(true)
+            }}>
             <Modal.Header closeButton>
               <Modal.Title>Click to allow autoplay</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <Button variant="success"  onClick={function() {mediaController.setTapToPlay(false);}}  >Play</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <Button variant="success" onClick={function() {
+                    if (mediaController.resumeAudioContextAndPlay) {
+                        mediaController.resumeAudioContextAndPlay()
+                    } else {
+                        mediaController.setTapToPlay(false)
+                        mediaController.play()
+                    }
+                }}>Play</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <Button variant="danger" onClick={function() {mediaController.stop(); mediaController.setPlayCancelled(true); mediaController.setTapToPlay(false)}} >Cancel</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href={src} target="_new" ><Button variant="primary"  >Open Link</Button></a>
+                {src && <a href={src} target="_new" rel="noreferrer"><Button variant="primary">Open Link</Button></a>}
             </Modal.Body>
       </Modal>
-      </>
-    } else if (mediaController.getSrcType(src) === 'audio') {
-        //autoPlay={mediaController.isPlaying}
-            
+        )
+    }
+
+    function handleNativePlay() {
+        if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
+            if (mediaController.confirmPlayingStarted) {
+                mediaController.confirmPlayingStarted()
+            } else {
+                mediaController.setTapToPlay(false)
+                mediaController.setIsPlaying(true)
+            }
+        }
+    }
+
+    function handleNativePause() {
+        if (mediaController.shouldSuppressSpuriousPause && mediaController.shouldSuppressSpuriousPause()) {
+            return
+        }
+        if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
+            if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+                return
+            }
+            mediaController.setIsPlaying(false)
+        }
+    }
+
+    const youtubeOpts = useMemo(function() {
+        const playerVars = {
+            loop: 0,
+            controls: 1,
+            enablejsapi: 1,
+        }
+        return {
+            width: '100%',
+            playerVars: playerVars,
+        }
+    }, [src])
+
+    var content = null
+
+    if (mediaController.getSrcType(src) === 'audio') {
         content =  <audio 
            id="tunebookaudio" 
             onEnded={mediaController.onEnded} 
@@ -236,39 +174,25 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             ref={mediaController.playerRef} 
             src={src} 
             controls={true} 
-            playbackspeed={mediaController.playbackSpeed}
-            onPlay={function() {mediaController.setIsPlaying(true)}} 
-            onPause={function() {mediaController.setIsPlaying(false)}}  
+            onPlay={handleNativePlay} 
+            onPause={handleNativePause}  
         />
     } else if (mediaController.getSrcType(src) === 'youtube') {
-        //autoplay: mediaController.isPlaying,
-                
         content =  <YouTube  
+            key={src}
             videoId={tunebook.utils.YouTubeGetID(src)} 
             id="tunebookyoutube"
-            opts={{
-              width: '100%',
-              playerVars: {
-                loop : 1,
-                controls: 1,
-                enablejsapi: 1,
-                autoplay: mediaController.isPlaying,
-                start: (mediaController.tune && Array.isArray(mediaController.tune.links) && mediaController.tune.links[useMediaLinkNumber] && mediaController.tune.links[useMediaLinkNumber].startAt ? parseInt(mediaController.tune.links[useMediaLinkNumber].startAt) : 0),
-                end: (mediaController.tune && Array.isArray(mediaController.tune.links) && mediaController.tune.links[useMediaLinkNumber] && mediaController.tune.links[useMediaLinkNumber].endAt ? parseInt(mediaController.tune.links[useMediaLinkNumber].endAt) : 0),
-                playbackRate: mediaController.playbackSpeed
-              },
-            }} 
+            opts={youtubeOpts}
             onStateChange={mediaController.onYtStateChange}
             onEnd={mediaController.onEnded}
             onError={mediaController.onError}
-            onPlay={function() {mediaController.setIsPlaying(true)}} 
-            onPause={function() {mediaController.setIsPlaying(false)}} 
             onReady={mediaController.onYtReady}
          />
     }
-    return <div id={src} >
+    return <div id={src || 'media-player'} >
         <div style={{display:'none'}}>{src}</div>
         {content}
+        {renderTapToPlayModal()}
     </div>
     
 }

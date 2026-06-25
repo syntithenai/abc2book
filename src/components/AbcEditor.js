@@ -5,6 +5,7 @@ import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
 import ChordsWizard from './ChordsWizard'
+import LyricsTranscriptionControls from './LyricsTranscriptionControls'
 import LinksEditor from './LinksEditor'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
@@ -357,7 +358,13 @@ export default function AbcEditor(props) {
                     <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ?  tune.composer : '')  +  " " + allowedChordSites} ><Button>Search Chords</Button></a>
                     <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' '+(props.tune.rhythm ? props.tune.rhythm : '')} ><Button>{props.tunebook.icons.externallink}</Button>
             </a>
-
+                    <LyricsTranscriptionControls
+                      tune={tune}
+                      tunebook={props.tunebook}
+                      token={props.token}
+                      tuneId={params.tuneId}
+                      onSaveWords={function() { saveTune(tune) }}
+                    />
                     <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                         var start = (Array.isArray(tune.words) ? tune.words.join("\n") : '')
                         var clean = abcjsParser.cleanupLyrics(start)
@@ -373,7 +380,7 @@ export default function AbcEditor(props) {
                   <Tab eventKey="chords" title="Chords" >
                     
                     
-                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id}  abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
+                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id} token={props.token} abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
                   </Tab>
                   
                  

@@ -1,0 +1,90 @@
+{
+  "G": {
+    "major": { "frets": "00000", "fingers": "00000" },
+    "minor": { "frets": "02310", "fingers": "02310" },
+    "augmented": { "frets": "03320", "fingers": "01210" },
+    "diminished": { "frets": "34343", "fingers": "32414", "position": 2 },
+    "major6": { "frets": "02020", "fingers": "01010" },
+    "dominant7": { "frets": "00011", "fingers": "00012" },
+    "major7": { "frets": "00022", "fingers": "00012" },
+    "minor7": { "frets": "02010", "fingers": "02010" }
+  },
+  "C": {
+    "major": { "frets": "02012", "fingers": "01023" },
+    "minor": { "frets": "03112", "fingers": "03124" },
+    "augmented": { "frets": "03012", "fingers": "02013" },
+    "diminished": { "frets": "34343", "fingers": "32414", "position": 2 },
+    "major6": { "frets": "02010", "fingers": "01010" },
+    "dominant7": { "frets": "02011", "fingers": "01012" },
+    "major7": { "frets": "02022", "fingers": "01023" },
+    "minor7": { "frets": "03110", "fingers": "03120" }
+  },
+  "D": {
+    "major": { "frets": "04234", "fingers": "02134" },
+    "minor": { "frets": "04334", "fingers": "02134" },
+    "augmented": { "frets": "04334", "fingers": "02134" },
+    "diminished": { "frets": "45454", "fingers": "32414", "position": 3 },
+    "major6": { "frets": "04232", "fingers": "02132" },
+    "dominant7": { "frets": "00210", "fingers": "00102" },
+    "major7": { "frets": "04232", "fingers": "02132" },
+    "minor7": { "frets": "04321", "fingers": "02131" }
+  },
+  "A": {
+    "major": { "frets": "02220", "fingers": "01230" },
+    "minor": { "frets": "02320", "fingers": "01230" },
+    "augmented": { "frets": "03320", "fingers": "01210" },
+    "diminished": { "frets": "56565", "fingers": "32414", "position": 4 },
+    "major6": { "frets": "02200", "fingers": "01200" },
+    "dominant7": { "frets": "02221", "fingers": "01112" },
+    "major7": { "frets": "02222", "fingers": "01112" },
+    "minor7": { "frets": "02320", "fingers": "01230" }
+  },
+  "E": {
+    "major": { "frets": "06456", "fingers": "02134", "position": 4 },
+    "minor": { "frets": "06556", "fingers": "02134", "position": 4 },
+    "dominant7": { "frets": "06446", "fingers": "02134", "position": 4 },
+    "minor7": { "frets": "06546", "fingers": "02134", "position": 4 }
+  },
+  "F": {
+    "major": { "frets": "32110", "fingers": "32110" },
+    "minor": { "frets": "33110", "fingers": "34110" },
+    "dominant7": { "frets": "32111", "fingers": "32110" },
+    "minor7": { "frets": "33110", "fingers": "34110" }
+  },
+  "B": {
+    "major": { "frets": "44442", "fingers": "11112", "barres": 4, "position": 2 },
+    "minor": { "frets": "44432", "fingers": "11121", "barres": 4, "position": 2 },
+    "dominant7": { "frets": "44441", "fingers": "11112", "barres": 4, "position": 2 },
+    "minor7": { "frets": "44431", "fingers": "11121", "barres": 4, "position": 2 }
+  },
+  "Bb": {
+    "major": { "frets": "33331", "fingers": "11112", "barres": 3, "position": 1 },
+    "minor": { "frets": "33321", "fingers": "11121", "barres": 3, "position": 1 },
+    "dominant7": { "frets": "33330", "fingers": "11110", "barres": 3, "position": 1 },
+    "minor7": { "frets": "33320", "fingers": "11120", "barres": 3, "position": 1 }
+  },
+  "Eb": {
+    "major": { "frets": "88886", "fingers": "11112", "barres": 8, "position": 6 },
+    "minor": { "frets": "88876", "fingers": "11121", "barres": 8, "position": 6 },
+    "dominant7": { "frets": "88885", "fingers": "11112", "barres": 8, "position": 6 },
+    "minor7": { "frets": "88875", "fingers": "11121", "barres": 8, "position": 6 }
+  },
+  "Ab": {
+    "major": { "frets": "66664", "fingers": "11112", "barres": 6, "position": 4 },
+    "minor": { "frets": "66654", "fingers": "11121", "barres": 6, "position": 4 },
+    "dominant7": { "frets": "66663", "fingers": "11112", "barres": 6, "position": 4 },
+    "minor7": { "frets": "66653", "fingers": "11121", "barres": 6, "position": 4 }
+  },
+  "Db": {
+    "major": { "frets": "99997", "fingers": "11112", "barres": 9, "position": 7 },
+    "minor": { "frets": "99987", "fingers": "11121", "barres": 9, "position": 7 },
+    "dominant7": { "frets": "99996", "fingers": "11112", "barres": 9, "position": 7 },
+    "minor7": { "frets": "99986", "fingers": "11121", "barres": 9, "position": 7 }
+  },
+  "F#": {
+    "major": { "frets": "55553", "fingers": "11112", "barres": 5, "position": 3 },
+    "minor": { "frets": "55543", "fingers": "11121", "barres": 5, "position": 3 },
+    "dominant7": { "frets": "55552", "fingers": "11112", "barres": 5, "position": 3 },
+    "minor7": { "frets": "55542", "fingers": "11121", "barres": 5, "position": 3 }
+  }
+}

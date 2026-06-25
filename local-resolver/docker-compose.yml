@@ -8,8 +8,16 @@ services:
       - .env
     environment:
       PORT: "8787"
+      # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
+      # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
+      # values in this environment block override env_file and would disable auth.
       YTDLP_COOKIES_PATH: /app/secrets/youtube-cookies.txt
       MAX_STREAM_BYTES: "83886080"
+      MODEL_PATH: /models/ggml-large-v3.bin
+      WHISPER_CPP_PATH: /app/build/bin/whisper-cli
+      WHISPER_BACKEND_PREFERENCE: auto
+      WHISPER_CPU_FALLBACK: "true"
     volumes:
       - ./secrets:/app/secrets:ro
+      - "/home/stever/projects/whisper models:/models:ro"
     restart: unless-stopped

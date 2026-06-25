@@ -7,6 +7,7 @@ import AbcPlayButton from './AbcPlayButton'
 import TempoControl from './TempoControl'
 import TransposeModal from './TransposeModal'
 import useAbcSynth from '../useAbcSynth'  
+import { getSoundFontUrl } from '../soundFontConfig'
 import RepeatsEditorModal from './RepeatsEditorModal'
 
 export default function Abc(props) {
@@ -121,42 +122,39 @@ export default function Abc(props) {
                
         //console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
-            //if (props.onWarnings) props.onWarnings(o.warnings)
-             ////&& (isPlayingRef.current || isPlaying)
-            //if (props.tempo) {
-              
-              //props.audioProps.
-               //if (props.autoPrime)  setStarted(true)
-               //var hash = tune.transpose  + '-' + props.meter + '-' + props.key + '-' + props.tempo + '-' + abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash((tune.notes ? tune.notes.join("") : '')+props.tempo+tune.tempo+tune.meter+tune.noteLength+tune.transpose)
-               //if (props.autoPrime && hash !== audioChangedHash) {
-                //console.log('RENDER TUNE AUDIODDD')
-                //setAudioChangedHash(hash)
-                setStarted(true)
-                //resetAudioState()
-                
-                //createPlayer(o).then(function(p) {
-                      //console.log("CREATED PLAYER",  props.autoPrime,  props.autoStart, p)
-                     //var [audioContext, midiBuffer, timingCallbacks, cursor] = p
-                     //assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
-                     //if (audioContext && props.autoStart) {
-                       //setIsPlaying(true)
-                       //if (props.onStarted) props.onStarted()
-                     //}
-                //}).catch(function(e) {
-                  //console.log('REJECT CREATE PLAYER')
-                  //setReady(false)
-                  //setStarted(false)
-                  //if (props.onStopped) props.onStopped()
-                  ////setIsPlaying(false)
-                //})
-              
-              //} else {
-                //console.log('SKIP RENDER TUNE AUDIO no hash change OR AUTOPRIME', props.autoPrime)
-                //setReady(true)
-              //}
-            //} else {
-              //console.log('SKIP RENDER TUNE AUDIO NO TEMPO')
-            //}
+            setStarted(true)
+            const onMidiRoute = !props.mediaController
+                || (props.mediaController.isMidiPlaybackRoute && props.mediaController.isMidiPlaybackRoute())
+            if (props.autoPrime && onMidiRoute) {
+                var primeHash = tune.transpose + '-' + props.meter + '-' + tune.tempo + '-' + abcTools.getTuneHash(tune)
+                if (primeHash !== audioChangedHash) {
+                    setAudioChangedHash(primeHash)
+                    createPlayer(tune, o).then(function(p) {
+                        var [audioContext, midiBuffer, timingCallbacks, cursor] = p
+                        if (!midiBuffer) {
+                            console.log('autoPrime failed: soundfont or synth prime returned null', getSoundFontUrl())
+                            setReady(false)
+                            setStarted(false)
+                            if (props.mediaController && props.mediaController.abortPlayingIntent) {
+                                props.mediaController.abortPlayingIntent()
+                            }
+                            return
+                        }
+                        assignStateOnCompletion(audioContext, midiBuffer, timingCallbacks, cursor)
+                        if (props.mediaController && props.mediaController.hasPlayingIntent && props.mediaController.hasPlayingIntent()
+                            && props.mediaController.isMidiPlaybackRoute && props.mediaController.isMidiPlaybackRoute()) {
+                            startPlaying(true)
+                        }
+                    }).catch(function(e) {
+                        console.log('autoPrime REJECT CREATE PLAYER', e, getSoundFontUrl())
+                        setReady(false)
+                        setStarted(false)
+                        if (props.mediaController && props.mediaController.abortPlayingIntent) {
+                            props.mediaController.abortPlayingIntent()
+                        }
+                    })
+                }
+            }
         }
          //setSeekTo(0)
       } catch (e) {
@@ -165,20 +163,50 @@ export default function Abc(props) {
    }
   }
  
-  if (tapToPlay) {
-        return <>
-      <Modal   show={true} onHide={function() {props.mediaController.stop(); setTapToPlay(false); setPlayCancelled(true); }}>
+  function renderTapToPlayModal() {
+    if (props.mediaController && props.mediaController.isMidiPlaybackRoute
+        && !props.mediaController.isMidiPlaybackRoute()) {
+      return null
+    }
+    const showTap = props.mediaController ? props.mediaController.tapToPlay : tapToPlay
+    if (!showTap) return null
+    return (
+      <Modal show={true} onHide={function() {
+        if (props.mediaController) {
+          props.mediaController.setPlayCancelled(true)
+          props.mediaController.setTapToPlay(false)
+        } else {
+          setPlayCancelled(true)
+          setTapToPlay(false)
+        }
+      }}>
             <Modal.Header closeButton>
               <Modal.Title>Click to allow autoplay</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <Button variant="success"  onClick={function() {setTapToPlay(false)}}  >Play</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Button variant="danger" onClick={function() {props.mediaController.stop(); setPlayCancelled(true); setTapToPlay(false)}} >Cancel</Button>
+                <Button variant="success" onClick={function() {
+                    if (props.mediaController && props.mediaController.resumeAudioContextAndPlay) {
+                        props.mediaController.resumeAudioContextAndPlay()
+                    } else {
+                        setTapToPlay(false)
+                        startPlaying(true)
+                    }
+                }}>Play</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <Button variant="danger" onClick={function() {
+                    if (props.mediaController) {
+                      props.mediaController.setPlayCancelled(true)
+                      props.mediaController.setTapToPlay(false)
+                    } else {
+                      setPlayCancelled(true)
+                      setTapToPlay(false)
+                    }
+                }} >Cancel</Button>
             </Modal.Body>
       </Modal>
-      </>
-  } else {
-     return (
+    )
+  }
+
+  return (
       <>
        <TempoControl showTempo={showTempo} setShowTempo={setShowTempo} value={tune.tempo} onChange={function(e) {
           var tune = props.tunebook.abcTools.abc2json(props.abc)
@@ -201,14 +229,12 @@ export default function Abc(props) {
                 {(!props.link && !props.hideSvg) && <div id="abc_music_viewer" ref={inputEl} ></div>}
               </span>
             )}
-        </ReactNoSleep></>
+        </ReactNoSleep>
+        {renderTapToPlayModal()}
+      </>
       );
-    }
+
 }
-
-
-
-
     //function clickPlay(seekTo) {
         //console.log('onClickHandler PLAY',seekTo)
         //if (playTimerRef && playTimerRef.current) {

@@ -6,10 +6,32 @@
   margin-bottom: 1.25rem;
 }
 
-.pitch-tempo-panel .control-section h6 {
+.pitch-tempo-panel .control-section-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
   margin-bottom: 0.5rem;
+}
+
+.pitch-tempo-panel .control-section-header h6 {
+  margin-bottom: 0;
   font-weight: 600;
   font-size: 0.9rem;
+  flex: 0 0 auto;
+}
+
+.pitch-tempo-panel .header-inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.pitch-tempo-panel .header-inline-actions .btn {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .pitch-tempo-panel .control-display {
@@ -39,21 +61,8 @@
   margin-top: 0.25rem;
 }
 
-.pitch-tempo-panel .preset-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-}
-
-.pitch-tempo-panel .preset-buttons .btn {
-  font-size: 0.75rem;
-  padding: 0.2rem 0.5rem;
-}
-
-.pitch-tempo-panel .scope-note {
-  font-size: 0.8rem;
-  color: #6c757d;
-  margin-bottom: 0.75rem;
+.pitch-tempo-panel .media-seek-slider {
+  margin-bottom: 0.85rem;
 }
 
 .pitch-tempo-panel .transpose-section {

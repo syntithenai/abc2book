@@ -7,6 +7,7 @@ import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
+import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
   //console.log('usetuneook',typeof tunes)
@@ -226,6 +227,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
         ? parseInt(tune.playbackPitch, 10) || 0 : 0
       tune.playbackFineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
         ? parseInt(tune.playbackFineTune, 10) || 0 : 0
+      if (Array.isArray(tune.links)) {
+        tune.links = tune.links.map(syncLegacyLinkLoopFields)
+      }
       return tune
   }
   

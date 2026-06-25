@@ -1,24 +1,64 @@
 .media-playback-region-panel {
-  border-top: 1px solid #ccc;
-  padding-top: 0.75em;
-  margin-top: 0.75em;
+  padding-top: 0.25em;
 }
 
-.media-playback-region-panel .region-inputs {
+.media-playback-region-panel .playback-loop-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75em;
+  gap: 0.5em 0.75em;
   align-items: flex-end;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.media-playback-region-panel .playback-loop-row:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0.5em;
+}
+
+.media-playback-region-panel .playback-loop-active {
+  flex: 0 0 auto;
+  margin-bottom: 0.35em;
+}
+
+.media-playback-region-panel .playback-loop-name {
+  flex: 1 1 7em;
+  min-width: 6em;
+  max-width: 12em;
+}
+
+.media-playback-region-panel .playback-loop-remove {
+  flex: 0 0 auto;
+  min-width: 2rem;
+  margin-bottom: 0.35em;
 }
 
 .media-playback-region-panel .region-field {
-  flex: 1 1 6em;
-  min-width: 6em;
+  flex: 1 1 8em;
+  min-width: 8em;
   margin-bottom: 0;
 }
 
-.media-playback-region-panel .region-loop {
-  flex: 0 0 auto;
+.media-playback-region-panel .region-field-row {
+  display: flex;
+  gap: 0.35em;
+  align-items: center;
+}
+
+.media-playback-region-panel .region-field-row .form-control {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.media-controls-settings-tabs {
+  border-bottom: 1px solid black;
+  padding-top: 0.5em;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.media-controls-settings-tabs .nav-tabs {
+  margin-bottom: 0.75em;
 }
 
 .media-controls-modal-header {
@@ -32,15 +72,41 @@
   flex: 1 1 auto;
 }
 
-.media-controls-playback-row {
+.media-controls-modal-header-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35em;
   align-items: center;
 }
 
+.media-controls-playback-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.media-controls-playback-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  align-items: center;
+}
+
+.media-controls-rewind {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
 .scope-note {
   font-size: 0.85em;
   color: #666;
   margin-bottom: 0.75em;
+}
+
+.media-resolver-retry {
+  padding: 0;
+  vertical-align: baseline;
+  font-size: inherit;
 }

@@ -21,7 +21,119 @@ export function parseMsToSeconds(value) {
 
 export function isPlaybackLoopEnabled(link) {
   if (!link) return false;
+  if (Array.isArray(link.playbackLoops) && link.playbackLoops.length > 0) {
+    return link.playbackLoops.some(function(loop) { return loop && loop.active; });
+  }
   return link.playbackLoop === true || link.playbackLoop === 1 || link.playbackLoop === '1' || link.playbackLoop === 'true';
+}
+
+export function createPlaybackLoop(overrides) {
+  return Object.assign({
+    id: 'loop_' + Date.now() + '_' + Math.random().toString(36).slice(2, 7),
+    name: '',
+    startAt: '',
+    endAt: '',
+    active: false,
+  }, overrides || {});
+}
+
+export function normalizePlaybackLoops(link) {
+  if (!link) return [];
+  if (Array.isArray(link.playbackLoops)) {
+    if (link.playbackLoops.length === 0) return [];
+    return link.playbackLoops.map(function(loop, index) {
+      return Object.assign(createPlaybackLoop(), loop, {
+        id: loop.id || ('loop_' + index),
+        name: loop.name !== undefined && loop.name !== null ? String(loop.name) : '',
+        startAt: loop.startAt !== undefined && loop.startAt !== null ? String(loop.startAt) : '',
+        endAt: loop.endAt !== undefined && loop.endAt !== null ? String(loop.endAt) : '',
+        active: !!loop.active,
+      });
+    });
+  }
+  const hadLegacyMarkers = (link.startAt && String(link.startAt).trim())
+    || (link.endAt && String(link.endAt).trim());
+  const hadLegacyLoop = isPlaybackLoopEnabled(link);
+  if (hadLegacyMarkers || hadLegacyLoop) {
+    return [createPlaybackLoop({
+      name: '',
+      startAt: link.startAt ? String(link.startAt) : '',
+      endAt: link.endAt ? String(link.endAt) : '',
+      active: hadLegacyLoop,
+    })];
+  }
+  return [];
+}
+
+export function getActivePlaybackLoop(link) {
+  if (!link) return null;
+  const loops = normalizePlaybackLoops(link);
+  return loops.find(function(loop) { return loop.active; }) || null;
+}
+
+export function getLinkRegionStart(link) {
+  if (!link) return 0;
+  if (Array.isArray(link.playbackLoops)) {
+    const active = getActivePlaybackLoop(link);
+    if (!active) return 0;
+    const candidate = active.startAt && String(active.startAt).trim() ? active.startAt : '';
+    if (!candidate) return 0;
+    const startAt = parseMsToSeconds(candidate);
+    return startAt > 0 ? startAt : 0;
+  }
+  const candidate = link.startAt && String(link.startAt).trim() ? link.startAt : '';
+  if (!candidate) return 0;
+  const startAt = parseMsToSeconds(candidate);
+  return startAt > 0 ? startAt : 0;
+}
+
+export function getLinkRegionEnd(link) {
+  if (!link) return 0;
+  if (Array.isArray(link.playbackLoops)) {
+    const active = getActivePlaybackLoop(link);
+    if (!active) return 0;
+    const candidate = active.endAt && String(active.endAt).trim() ? active.endAt : '';
+    if (!candidate) return 0;
+    const endAt = parseMsToSeconds(candidate);
+    return endAt > 0 ? endAt : 0;
+  }
+  const candidate = link.endAt && String(link.endAt).trim() ? link.endAt : '';
+  if (!candidate) return 0;
+  const endAt = parseMsToSeconds(candidate);
+  return endAt > 0 ? endAt : 0;
+}
+
+export function syncLegacyLinkLoopFields(link) {
+  if (!link) return link;
+  const active = getActivePlaybackLoop(link);
+  const next = Object.assign({}, link);
+  if (active) {
+    if (active.startAt && String(active.startAt).trim()) {
+      next.startAt = String(active.startAt);
+    }
+    if (active.endAt && String(active.endAt).trim()) {
+      next.endAt = String(active.endAt);
+    }
+    next.playbackLoop = true;
+  } else {
+    next.playbackLoop = false;
+    if (Array.isArray(next.playbackLoops)) {
+      next.startAt = '';
+      next.endAt = '';
+    }
+  }
+  return next;
+}
+
+export function ensureSingleActiveLoop(loops) {
+  let activeIndex = -1;
+  loops.forEach(function(loop, index) {
+    if (loop.active) {
+      if (activeIndex === -1) activeIndex = index;
+      else loop.active = false;
+    }
+  });
+  return loops;
 }
 
 export function getActiveLinkIndex(tune, mediaLinkNumber) {

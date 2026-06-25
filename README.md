@@ -38,7 +38,7 @@ Once loaded and populated with data,it works without ongoing access to the Inter
 The software has no central database. All cloud persistence features rely on login and document storage with Google.
 The https://tunebook.net site is hosted with Github pages.
 
-When used without logging in, the software includes NO tracking features. 
+When used without logging in, the software does not send your tune book data to Google. Anonymous aggregate usage statistics are collected through GoatCounter (a privacy-friendly, cookieless analytics service) to help improve the app.
 
 The software has been built using the React framework and relies heavily on [abcjs](https://paulrosen.github.io/abcjs/) for rendering and playback of ABC notation.
 

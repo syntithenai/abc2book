@@ -17,6 +17,8 @@ old/
 
 build/
 
+e2e/output/
+
 .env
 
 scrape/jimsroots/
@@ -79,3 +81,12 @@ scrape/cassidy/
 abcresources/jc/ecf-guest.mit.edu/
 
 package-lock.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local whisper models (too large for git; mount/download separately)
+local-resolver/whisper/
+local-resolver/whisper/models/
+*.bin

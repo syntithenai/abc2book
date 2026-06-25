@@ -5,7 +5,9 @@ export default function MergeWarningDialog(props) {
 return <Modal.Dialog 
   backdrop="static"
   style={{minWidth:'95%'}} 
-  keyboard="false"  >
+  keyboard="false"
+  data-testid="merge-warning-dialog"
+  >
       <Modal.Header closeButton>
         <Modal.Title>Update Warning</Modal.Title>
       </Modal.Header>
@@ -24,8 +26,8 @@ return <Modal.Dialog
           
           
           <Button variant="warning" onClick={props.closeWarning} >Logout</Button>
-          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
-          &nbsp;<Button variant="success" onClick={props.acceptChanges} >Merge</Button>
+          &nbsp;{(Object.keys(props.sheetUpdateResults.localUpdates).length > 0 || Object.keys(props.sheetUpdateResults.deletes).length) ? <Button variant="danger" data-testid="merge-warning-discard" onClick={function() {props.overrideTuneBook(props.sheetUpdateResults.fullSheet)}} >Discard Local Differences</Button> : null}
+          &nbsp;<Button variant="success" data-testid="merge-warning-merge" onClick={props.acceptChanges} >Merge</Button>
           
         </div>
         <Tabs>

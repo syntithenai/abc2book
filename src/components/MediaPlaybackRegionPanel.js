@@ -1,105 +1,214 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { formatSecondsToMs, parseMsToSeconds, isPlaybackLoopEnabled } from '../mediaPlaybackUtils';
+import {
+  formatSecondsToMs,
+  parseMsToSeconds,
+  normalizePlaybackLoops,
+  createPlaybackLoop,
+  syncLegacyLinkLoopFields,
+} from '../mediaPlaybackUtils';
+
+function formatLoopStartAt(startAt) {
+  if (!startAt && startAt !== 0) return '';
+  const seconds = parseMsToSeconds(startAt);
+  return seconds > 0 ? formatSecondsToMs(seconds) : '';
+}
+
+function formatLoopEndAt(endAt) {
+  if (!endAt && endAt !== 0) return '';
+  const seconds = parseMsToSeconds(endAt);
+  return seconds > 0 ? formatSecondsToMs(seconds) : '';
+}
+
+function toStoredStartAt(displayValue) {
+  const seconds = parseMsToSeconds(displayValue);
+  return seconds > 0 ? String(seconds) : '';
+}
+
+function toStoredEndAt(displayValue) {
+  const seconds = parseMsToSeconds(displayValue);
+  return seconds > 0 ? String(seconds) : '';
+}
 
 export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaController, linkIndex }) {
-  const [startMs, setStartMs] = useState('');
-  const [endMs, setEndMs] = useState('');
-  const [loopEnabled, setLoopEnabled] = useState(false);
+  const [loops, setLoops] = useState([]);
   const saveTimerRef = useRef(null);
 
   useEffect(function() {
     if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return;
-    const link = tune.links[linkIndex];
-    setStartMs(link.startAt ? formatSecondsToMs(parseMsToSeconds(link.startAt)) : '');
-    setEndMs(link.endAt ? formatSecondsToMs(parseMsToSeconds(link.endAt)) : '');
-    setLoopEnabled(isPlaybackLoopEnabled(link));
+    const normalized = normalizePlaybackLoops(tune.links[linkIndex]);
+    setLoops(normalized.map(function(loop) {
+      return Object.assign({}, loop, {
+        startDisplay: formatLoopStartAt(loop.startAt),
+        endDisplay: formatLoopEndAt(loop.endAt),
+      });
+    }));
   }, [
     tune ? tune.id : null,
     linkIndex,
+    tune && tune.links && linkIndex !== null && tune.links[linkIndex]
+      ? JSON.stringify(tune.links[linkIndex].playbackLoops || [])
+      : null,
     tune && tune.links && linkIndex !== null && tune.links[linkIndex] ? tune.links[linkIndex].startAt : null,
     tune && tune.links && linkIndex !== null && tune.links[linkIndex] ? tune.links[linkIndex].endAt : null,
-    tune && tune.links && linkIndex !== null && tune.links[linkIndex] ? tune.links[linkIndex].playbackLoop : null,
   ]);
 
-  function scheduleSave(nextStart, nextEnd, nextLoop) {
+  function scheduleSave(nextLoops) {
     if (!tune || !tunebook || linkIndex === null) return;
     if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     saveTimerRef.current = setTimeout(function() {
-      const links = tune.links.map(function(link, idx) {
-        if (idx !== linkIndex) return link;
-        return Object.assign({}, link, {
-          startAt: nextStart,
-          endAt: nextEnd,
-          playbackLoop: nextLoop,
-        });
+      const payload = nextLoops.map(function(loop) {
+        return {
+          id: loop.id,
+          name: loop.name || '',
+          startAt: toStoredStartAt(loop.startDisplay),
+          endAt: toStoredEndAt(loop.endDisplay),
+          active: !!loop.active,
+        };
       });
-      const updated = Object.assign({}, tune, { links: links });
-      tunebook.saveTune(updated);
+      tunebook.saveTune(Object.assign({}, tune, {
+        links: tune.links.map(function(link, idx) {
+          if (idx !== linkIndex) return link;
+          return syncLegacyLinkLoopFields(Object.assign({}, link, { playbackLoops: payload }));
+        }),
+      }));
     }, 400);
   }
 
-  function applyRegion(nextStart, nextEnd, nextLoop) {
-    setStartMs(nextStart);
-    setEndMs(nextEnd);
-    setLoopEnabled(nextLoop);
-    const startSeconds = parseMsToSeconds(nextStart);
-    const endSeconds = parseMsToSeconds(nextEnd);
-    if (mediaController && mediaController.updateLinkPlaybackRegion) {
-      mediaController.updateLinkPlaybackRegion(linkIndex, startSeconds, endSeconds, nextLoop);
+  function applyLoops(nextLoops, options) {
+    const opts = options || {};
+    setLoops(nextLoops);
+    const payload = nextLoops.map(function(loop) {
+      return {
+        id: loop.id,
+        name: loop.name || '',
+        startAt: toStoredStartAt(loop.startDisplay),
+        endAt: toStoredEndAt(loop.endDisplay),
+        active: !!loop.active,
+      };
+    });
+    if (mediaController && mediaController.updateLinkPlaybackLoops) {
+      mediaController.updateLinkPlaybackLoops(linkIndex, payload);
     }
-    scheduleSave(startSeconds > 0 ? String(startSeconds) : '', endSeconds > 0 ? String(endSeconds) : '', nextLoop);
+    if (!opts.skipSave) scheduleSave(nextLoops);
   }
 
-  function handleStartChange(value) {
-    applyRegion(value, endMs, loopEnabled);
+  function updateLoop(loopId, changes) {
+    applyLoops(loops.map(function(loop) {
+      if (loop.id !== loopId) return loop;
+      return Object.assign({}, loop, changes);
+    }));
   }
 
-  function handleEndChange(value) {
-    applyRegion(startMs, value, loopEnabled);
+  function handleActiveChange(loopId) {
+    const clicked = loops.find(function(loop) { return loop.id === loopId; });
+    if (clicked && clicked.active) {
+      applyLoops(loops.map(function(loop) {
+        return Object.assign({}, loop, { active: false });
+      }));
+      return;
+    }
+    applyLoops(loops.map(function(loop) {
+      return Object.assign({}, loop, { active: loop.id === loopId });
+    }));
   }
 
-  function handleLoopToggle() {
-    applyRegion(startMs, endMs, !loopEnabled);
+  function handleAddLoop() {
+    const next = loops.concat([Object.assign(createPlaybackLoop(), {
+      startDisplay: '',
+      endDisplay: '',
+    })]);
+    applyLoops(next);
+  }
+
+  function handleRemoveLoop(loopId) {
+    applyLoops(loops.filter(function(loop) { return loop.id !== loopId; }));
+  }
+
+  function getCurrentPlaybackTimeFormatted() {
+    const t = mediaController && mediaController.currentTime !== undefined && mediaController.currentTime !== null
+      ? mediaController.currentTime
+      : 0;
+    return formatSecondsToMs(t);
+  }
+
+  function handleSetStartFromCurrent(loopId) {
+    updateLoop(loopId, { startDisplay: getCurrentPlaybackTimeFormatted() });
+  }
+
+  function handleSetEndFromCurrent(loopId) {
+    updateLoop(loopId, { endDisplay: getCurrentPlaybackTimeFormatted() });
   }
 
   if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return null;
 
   return (
     <div className="media-playback-region-panel">
-      <h6>Playback region</h6>
-      <p className="scope-note">Start and end in minutes:seconds. Loop repeats the selected region.</p>
-      <div className="region-inputs">
-        <Form.Group className="region-field">
-          <Form.Label>Start</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="0:00"
-            value={startMs}
-            onChange={(e) => handleStartChange(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group className="region-field">
-          <Form.Label>End</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="0:00"
-            value={endMs}
-            onChange={(e) => handleEndChange(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group className="region-field region-loop">
-          <Form.Label>Loop</Form.Label>
-          <Button
-            variant={loopEnabled ? 'primary' : 'outline-secondary'}
-            size="sm"
-            onClick={handleLoopToggle}
-            aria-pressed={loopEnabled}
-          >
-            {loopEnabled ? 'On' : 'Off'}
-          </Button>
-        </Form.Group>
-      </div>
+      <p className="scope-note">
+        Create named loops with start and end times (m:ss). Check a loop to enable looping for that region; uncheck to turn looping off.
+      </p>
+
+      {loops.map(function(loop) {
+        return (
+          <div key={loop.id} className="playback-loop-row">
+            <Form.Check
+              type="checkbox"
+              className="playback-loop-active"
+              checked={!!loop.active}
+              onChange={function() { handleActiveChange(loop.id); }}
+              aria-label={'Active loop ' + (loop.name || loop.id)}
+            />
+            <Form.Control
+              type="text"
+              className="playback-loop-name"
+              placeholder="Name"
+              value={loop.name || ''}
+              onChange={function(e) { updateLoop(loop.id, { name: e.target.value }); }}
+            />
+            <Form.Group className="region-field">
+              <Form.Label>Start</Form.Label>
+              <div className="region-field-row">
+                <Form.Control
+                  type="text"
+                  placeholder="0:00"
+                  value={loop.startDisplay || ''}
+                  onChange={function(e) { updateLoop(loop.id, { startDisplay: e.target.value }); }}
+                />
+                <Button variant="outline-secondary" size="sm" onClick={function() { handleSetStartFromCurrent(loop.id); }}>
+                  Set
+                </Button>
+              </div>
+            </Form.Group>
+            <Form.Group className="region-field">
+              <Form.Label>End</Form.Label>
+              <div className="region-field-row">
+                <Form.Control
+                  type="text"
+                  placeholder="0:00"
+                  value={loop.endDisplay || ''}
+                  onChange={function(e) { updateLoop(loop.id, { endDisplay: e.target.value }); }}
+                />
+                <Button variant="outline-secondary" size="sm" onClick={function() { handleSetEndFromCurrent(loop.id); }}>
+                  Set
+                </Button>
+              </div>
+            </Form.Group>
+            <Button
+              variant="outline-danger"
+              size="sm"
+              className="playback-loop-remove"
+              onClick={function() { handleRemoveLoop(loop.id); }}
+              aria-label="Remove loop"
+            >
+              ×
+            </Button>
+          </div>
+        );
+      })}
+
+      <Button variant="outline-primary" size="sm" onClick={handleAddLoop}>
+        Add loop
+      </Button>
     </div>
   );
 }

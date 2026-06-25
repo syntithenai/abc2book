@@ -16,8 +16,14 @@ export default function YourFilters(props) {
             var saved = window.localStorage.getItem('bookstorage_saved_filters')
             var list = saved ? JSON.parse(saved) : {}
             setFilters(list)
+            if (typeof props.onFiltersChange === 'function') {
+                props.onFiltersChange(list)
+            }
         } catch (e) {
             setFilters({})
+            if (typeof props.onFiltersChange === 'function') {
+                props.onFiltersChange({})
+            }
         }
     }
 
@@ -68,11 +74,14 @@ export default function YourFilters(props) {
         }
     }
 
-    // if no filters, render nothing
+    // if no filters, render nothing unless showWhenEmpty
     const keys = Object.keys(filters)
-    if (!keys || keys.length === 0) return null
+    if (!keys || keys.length === 0) {
+        if (!props.showWhenEmpty) return null
+        return <p className="books-page-saved-filters-empty">No filters yet. Save a filter from the search page.</p>
+    }
 
-    return <div style={{padding:'1em'}}>
+    return <div className={props.embedded ? 'books-page-saved-filters-list' : ''} style={props.embedded ? undefined : {padding:'1em'}}>
         <div style={{display:'flex', flexWrap:'wrap'}}>
             {keys.map(function(name, idx) {
                 return <div key={idx} style={{margin: '0.2em', position: 'relative'}}>

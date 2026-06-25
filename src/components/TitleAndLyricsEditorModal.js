@@ -1,13 +1,12 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
-import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import useMusicBrainz from '../useMusicBrainz'
 import useAbcjsParser from '../useAbcjsParser'
 import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
+import LyricsTranscriptionControls from './LyricsTranscriptionControls'
 
-export default function TitleAndLyricsEditorModal({tune, tunebook}) {
-  
+export default function TitleAndLyricsEditorModal({tune, tunebook, token, recordingsManager}) {
   const [show, setShow] = useState(false)
   const handleClose = () => {
       setShow(false);
@@ -54,10 +53,20 @@ export default function TitleAndLyricsEditorModal({tune, tunebook}) {
                         <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ?  tune.composer : '')  +  " " + tunebook.allowedChordSites} ><Button>Search Chords</Button></a>
                         <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')+ ' '+(tune.rhythm ? tune.rhythm : '')} ><Button>{tunebook.icons.externallink}</Button>
                         </a>
+                        <LyricsTranscriptionControls
+                          tune={tune}
+                          tunebook={tunebook}
+                          token={token}
+                          recordingsManager={recordingsManager}
+                          tuneId={params.tuneId}
+                          onSaveWords={function(words) {
+                            tune.id = params.tuneId
+                            tunebook.saveTune(tune)
+                          }}
+                        />
                         <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                             var start = (Array.isArray(tune.words) ? tune.words.join("\n") : '')
                             var clean = abcjsParser.cleanupLyrics(start)
-                            //console.log(clean)
                             tune.words = clean.split("\n")
                             tune.id = params.tuneId
                             tunebook.saveTune(tune)
@@ -72,4 +81,3 @@ export default function TitleAndLyricsEditorModal({tune, tunebook}) {
     </>
   );
 }
-//  

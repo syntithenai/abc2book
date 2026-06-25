@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, cloneElement, isValidElement} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 
 function BookSelectorModal(props) {
@@ -44,9 +44,25 @@ function BookSelectorModal(props) {
     
     var sortedOptions = Object.keys(options)
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
+
+    function renderTrigger() {
+      if (!props.triggerElement) return null
+      if (isValidElement(props.triggerElement)) {
+        return cloneElement(props.triggerElement, {
+          onClick: function(e) {
+            if (props.triggerElement.props.onClick) {
+              props.triggerElement.props.onClick(e)
+            }
+            handleShow(e)
+          },
+        })
+      }
+      return <span onClick={handleShow}>{props.triggerElement}</span>
+    }
+
   return (
     <>
-      <span onClick={handleShow} >{props.triggerElement}</span>
+      {renderTrigger()}
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

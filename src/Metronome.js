@@ -41,8 +41,8 @@ export default class Metronome
         const envelope = this.audioContext.createGain();
         
         osc.frequency.value = (beatNumber % this.beatsPerBar == 0) ? 1000 : 800;
-        envelope.gain.value = 1;
-        envelope.gain.exponentialRampToValueAtTime(1, time + 0.001);
+        envelope.gain.value = 0.25;
+        envelope.gain.exponentialRampToValueAtTime(0.25, time + 0.001);
         envelope.gain.exponentialRampToValueAtTime(0.001, time + 0.02);
         osc.connect(envelope);
         envelope.connect(this.audioContext.destination);
@@ -78,17 +78,30 @@ export default class Metronome
         {
             this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
         }
-        console.log("MET C",this.audioContext)
-        if (this.audioContext.state !== 'running') {
+        if (this.audioContext.state === 'running') {
+            this.beginScheduling()
+        } else if (this.audioContext.state === 'suspended') {
+            this.audioContext.resume().then(() => {
+                if (this.audioContext.state === 'running') {
+                    this.beginScheduling()
+                } else if (this.errorCallback) {
+                    this.errorCallback()
+                }
+            }).catch(() => {
+                if (this.errorCallback) this.errorCallback()
+            })
+        } else if (this.errorCallback) {
             this.errorCallback()
-        } else {
-            this.isRunning = true;
-
-            this.currentBeatInBar = 0;
-            this.nextNoteTime = this.audioContext.currentTime + 0.05;
-
-            this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
         }
+    }
+
+    beginScheduling()
+    {
+        if (this.isRunning) return
+        this.isRunning = true;
+        this.currentBeatInBar = 0;
+        this.nextNoteTime = this.audioContext.currentTime + 0.05;
+        this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
     }
 
     stop()
@@ -98,7 +111,10 @@ export default class Metronome
         this.currentBeatInBar = 0
         this.notesInQueue = []
         this.nextNoteTime = 0.0;
-        clearInterval(this.intervalID);
+        if (this.intervalID) {
+            clearInterval(this.intervalID);
+            this.intervalID = null;
+        }
     }
 
     startStop()
