@@ -22,8 +22,8 @@ export default function LyricsTranscriptionControls({
   const [isTranscribing, setIsTranscribing] = useState(false)
   const utils = useUtils()
   const abortRef = useRef(null)
-  const { available: resolverAvailable } = useMediaResolverHealth({ accessToken })
   const accessToken = token && token.access_token ? token.access_token : null
+  const { available: resolverAvailable } = useMediaResolverHealth({ accessToken })
   const mediaSources = useMemo(function() {
     return getLinkedMediaSources(tune, tunebook, recordingsManager)
   }, [tune, tunebook, recordingsManager && recordingsManager.filtered])

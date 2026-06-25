@@ -16,9 +16,9 @@ export default function ChordsWizard(props) {
     const [isDiscovering, setIsDiscovering] = useState(false)
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
     const abortRef = useRef(null)
+    const accessToken = props.token && props.token.access_token ? props.token.access_token : null
     const { available: resolverAvailable } = useMediaResolverHealth({ accessToken })
     const allowedChordSites = "site:https://tabs.ultimate-guitar.com OR site:https://www.azchords.com/ OR site:https://www.chordsbase.com/ OR site:https://www.chords-and-tabs.net/ OR site:https://akordy.kytary.cz/ OR site:https://www.guitaretab.com/"
-    const accessToken = props.token && props.token.access_token ? props.token.access_token : null
     const mediaSources = useMemo(function() {
         return getLinkedMediaSources(props.tune, props.tunebook)
     }, [props.tune, props.tunebook])
