@@ -3,6 +3,7 @@ import {useState, useEffect, useRef} from 'react'
 import useGoogleDocument from './useGoogleDocument'
 import useUtils from './useUtils'
 import MP3Converter from './MP3Converter'
+import { extractMusicXmlFromMxl } from './mxlExtract'
 
 export default function useFileManager(storeName = 'files', token, logout, tune = null, allowMimeTypes=null, loadData = false, filterByTuneId = true) {
   //console.log(storeName, allowMimeTypes)
@@ -261,16 +262,11 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 						//console.log('file selected')
 						promises.push(new Promise(function(resolve,reject) {
 							utils.readFileAsArrayBuffer(file).then(function(b) {
-								//console.log(b)
-								utils.unzipBlob(b).then(function(entries) {
-									//console.log(entries)
-									entries['score.xml'].blob('application/xml').then(function (blob) {
-										//console.log('read score',blob)
-										utils.blobToText(blob).then(function(text) {
-											//console.log('read score',text)
-											resolve({id: utils.generateObjectId(), name: file.name + ".musicxml", type: 'application/musicxml', data: text, tuneId: tuneId, tuneName: tuneName})
-										})
-									})
+								extractMusicXmlFromMxl(b).then(function(text) {
+									resolve({id: utils.generateObjectId(), name: file.name + ".musicxml", type: 'application/musicxml', data: text, tuneId: tuneId, tuneName: tuneName})
+								}).catch(function(err) {
+									setWarning(err.message || "Could not read MXL file")
+									reject(err)
 								})
 							})
 						}))

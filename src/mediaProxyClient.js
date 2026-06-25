@@ -31,11 +31,28 @@ function buildAuthHeaders(accessToken) {
   return { Authorization: 'Bearer ' + accessToken };
 }
 
-function wrapFetchError(error, proxyBase) {
+function detectMixedContent(bases) {
+  if (typeof window === 'undefined' || !window.location) return false;
+  if (window.location.protocol !== 'https:') return false;
+  return bases.some(function(base) {
+    return /^http:\/\//i.test(base);
+  });
+}
+
+function wrapFetchError(error, bases) {
+  const baseList = Array.isArray(bases) ? bases : [bases];
   if (error && error.name === 'TypeError' && String(error.message).indexOf('fetch') >= 0) {
+    if (detectMixedContent(baseList)) {
+      throw new Error(
+        'Could not reach the media resolver because this page is served over HTTPS '
+        + 'but the resolver uses HTTP (' + baseList.join(', ') + '). '
+        + 'Browsers block these "mixed content" requests. Serve the resolver over HTTPS '
+        + 'or open the app over HTTP to use it.'
+      );
+    }
     throw new Error(
-      'Could not reach media resolver at ' + proxyBase
-      + '. Start it with: cd local-resolver && docker compose up --build'
+      'Could not reach any media resolver (tried: ' + baseList.join(', ') + '). '
+      + 'Start it with: cd local-resolver && docker compose up --build'
     );
   }
   throw error;
@@ -199,7 +216,7 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     }
   }
 
-  wrapFetchError(lastError || new Error('fetch failed'), bases[0]);
+  wrapFetchError(lastError || new Error('fetch failed'), bases);
 }
 
 async function tryDirectFetch(url) {

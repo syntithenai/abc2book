@@ -8,8 +8,9 @@ import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
 import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
+import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -257,9 +258,34 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     return tune
   }
   
+  // Record tombstones for one or more deleted tunes in a single state update.
+  // entries: array of { id, name }. Batching is required because setDeletedTunes
+  // is async, so calling it once per tune inside a loop would only persist the
+  // last tombstone (every call rebuilds from the same stale deletedTunes closure).
+  function commitTombstones(entries) {
+    // deletes made while logged out are a local-only reset; the remote copy
+    // re-populates them on next login, so we do not record a tombstone.
+    if (!setDeletedTunes || !isLoggedIn || !Array.isArray(entries) || entries.length === 0) return
+    var next = Object.assign({}, deletedTunes || {})
+    entries.forEach(function(entry) {
+      if (entry && entry.id) next[entry.id] = createTombstone(entry.id, entry.name)
+    })
+    setDeletedTunes(next)
+    return next
+  }
+
+  function recordTombstone(tuneId, name) {
+    if (!tuneId) return
+    return commitTombstones([{id: tuneId, name: name}])
+  }
+
   function deleteTune(tuneId) {
     pauseSheetUpdates.current = true
-    indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+    var tune = tunes[tuneId]
+    if (tune) {
+      indexes.removeTune(tune, indexes.bookIndex)
+      recordTombstone(tuneId, tune.name)
+    }
     
     delete tunes[tuneId]
     setTunes(tunes)
@@ -271,11 +297,15 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
     //console.log('delete tunes',tuneIds, tunes)
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
+      var tombstones = []
       tuneIds.forEach(function(tuneId) {
-        //console.log('deleting',tuneId,tunes[tuneId])
-        //indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+        if (tunes[tuneId]) {
+          indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+          tombstones.push({id: tuneId, name: tunes[tuneId].name})
+        }
         delete tunes[tuneId]
       })
+      commitTombstones(tombstones)
       //console.log('deleted',tuneIds)
       setTunes(tunes)
       saveTunesOnline()
@@ -397,19 +427,54 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes,  currentTu
 
 The main difference between the two functions is the additional condition in applyImportData for handling the forceBook property of the data object, which is not present in applyMergeData. This forceBook property seems to be related to adding a book to a tune in the data. If forceBook is present, the functions will update the tune's books to include this new book. In applyImportData, this is done for both the updates and inserts keys, as well as for localUpdates and skippedUpdates, while in applyMergeData it is not done at all.
 * */
+  function applyDeletedTunes(tunes, deleteMap, remoteDeleted) {
+    var nextTunes = tunes
+    var nextDeleted = Object.assign({}, deletedTunes || {})
+    Object.keys(deleteMap || {}).forEach(function(tuneId) {
+      if (nextTunes[tuneId]) {
+        indexes.removeTune(nextTunes[tuneId], indexes.bookIndex)
+        delete nextTunes[tuneId]
+      }
+      if (remoteDeleted && remoteDeleted[tuneId]) {
+        nextDeleted[tuneId] = remoteDeleted[tuneId]
+      } else {
+        nextDeleted[tuneId] = createTombstone(tuneId, deleteMap[tuneId] && deleteMap[tuneId].name)
+      }
+    })
+    if (setDeletedTunes) setDeletedTunes(nextDeleted)
+    return nextTunes
+  }
+
+  function tuneIdsFromBucket(bucket) {
+    if (Array.isArray(bucket)) {
+      return bucket.map(function(tune) { return tune && tune.id ? tune.id : null }).filter(Boolean)
+    }
+    return Object.keys(bucket || {})
+  }
+
+  function clearTombstonesForTunes(tuneIds) {
+    if (!setDeletedTunes || !tuneIds || tuneIds.length === 0) return
+    var nextDeleted = Object.assign({}, deletedTunes || {})
+    var changed = false
+    tuneIds.forEach(function(tuneId) {
+      if (nextDeleted[tuneId]) {
+        delete nextDeleted[tuneId]
+        changed = true
+      }
+    })
+    if (changed) setDeletedTunes(nextDeleted)
+  }
+
   function applyMergeData(data, forceDuplicates=false, discardLocalUpdates = false) {
     //console.log('apply merge',data)
     return new Promise(function(resolve,reject) {
         utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
             //console.log('havetunes',  tunes, tunesHash)
       
-            var {inserts, updates, duplicates, localUpdates} = data
-            //
-            // save all inserts and updates
-            // , delete all deletes
-            //Object.keys(deletes).forEach(function(d) {
-               //delete tunes[d]
-            //})
+            var {inserts, updates, duplicates, localUpdates, deletes, remoteDeleted} = data
+            if (deletes && Object.keys(deletes).length > 0) {
+              tunes = applyDeletedTunes(tunes, deletes, remoteDeleted)
+            }
             Object.keys(updates).map(function(u)  {
               if (updates[u] && updates[u].id) {
                 // preserve boost
@@ -447,8 +512,11 @@ The main difference between the two functions is the additional condition in app
               })
               //updateSheet(0)
             } 
+            clearTombstonesForTunes(
+              tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
+            )
             //console.log('done dups')
-            if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+            if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
                 //console.log('FINALLY SET ',tunes)
               setTunes(tunes)
               buildTunesHash()
@@ -469,13 +537,10 @@ The main difference between the two functions is the additional condition in app
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
     //console.log('apply import',importResults)
     return new Promise(function(resolve,reject) {
-            var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook} = data
-            //
-            // save all inserts and updates
-            // , delete all deletes
-            //Object.keys(deletes).forEach(function(d) {
-               //delete tunes[d]
-            //})
+            var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook, deletes, remoteDeleted} = data
+            if (deletes && Object.keys(deletes).length > 0) {
+              tunes = applyDeletedTunes(tunes, deletes, remoteDeleted)
+            }
             Object.keys(updates).map(function(u)  {
               if (updates[u] && updates[u].id) {
                 // preserve boost
@@ -564,11 +629,13 @@ The main difference between the two functions is the additional condition in app
               })
               //updateSheet(0)
             } 
-            
+            clearTombstonesForTunes(
+              tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
+            )
              
                       
             //console.log('done dups')
-            if (forceBook || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
+            if (forceBook || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
                 //console.log('FINALLY SET ',tunes)
               setTunes(tunes)
               buildTunesHash()
@@ -701,6 +768,14 @@ The main difference between the two functions is the additional condition in app
     return false
   }
   
+  function importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName) {
+    if (!tune) return false
+    if (limitToTuneId && tune.id != limitToTuneId) return false
+    if (limitToBookName && (!Array.isArray(tune.books) || tune.books.indexOf(limitToBookName) === -1)) return false
+    if (limitToTagName && (!Array.isArray(tune.tags) || tune.tags.indexOf(limitToTagName) === -1)) return false
+    return true
+  }
+
   /** 
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
@@ -713,7 +788,10 @@ The main difference between the two functions is the additional condition in app
       var updates=[]
       var localUpdates=[]
       var skippedUpdates=[]
-      var tuneStatus = {updates:[],inserts:[],localUpdates:[],skippedUpdates:[],duplicates:[]}
+      var deletes={}
+      var remoteDeleted = parseDeletedTunesFromAbc(abc)
+      var importedActiveIds = {}
+      var tuneStatus = {updates:[],inserts:[],localUpdates:[],skippedUpdates:[],duplicates:[],deletes:[]}
       if (abc) {
         //console.log('haveabc')
         var intunes = abcTools.abc2Tunebook(abc)
@@ -721,7 +799,14 @@ The main difference between the two functions is the additional condition in app
         intunes.forEach(function(tune) { 
           //if ((!limitToTuneId || tune.id == limitToTuneId))    console.log('HAVETUNE',limitToTuneId,tune.id, limitToBookName, (tune.books), limitToTagName, tune.tags)
             
-          if ((!limitToTuneId || tune.id == limitToTuneId) && (!limitToBookName || tune.books.indexOf(limitToBookName) !== -1) && (!limitToTagName || (Array.isArray(tune.tags) && tune.tags.indexOf(limitToTagName) !== -1)))  {
+          if (importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName))  {
+              if (tune.id) importedActiveIds[tune.id] = true
+              var localTomb = deletedTunes && tune.id ? deletedTunes[tune.id] : null
+              var localTombAt = localTomb ? parseInt(localTomb.deletedAt, 10) || 0 : 0
+              var remoteTuneAt = parseInt(tune.lastUpdated, 10) || 0
+              if (localTombAt > 0 && localTombAt >= remoteTuneAt) {
+                return
+              }
               //console.log('HAVETUNE filtered')
             var hasNotes = false
             var hasChords = false
@@ -823,9 +908,26 @@ The main difference between the two functions is the additional condition in app
           
           
         })
+        Object.keys(tunes).forEach(function(tuneId) {
+          var localTune = tunes[tuneId]
+          if (!importScopeMatch(localTune, limitToTuneId, limitToBookName, limitToTagName)) return
+          if (importedActiveIds[tuneId]) return
+          var remoteTomb = remoteDeleted[tuneId]
+          if (!remoteTomb) return
+          var remoteTombAt = parseInt(remoteTomb.deletedAt, 10) || 0
+          var localTuneAt = parseInt(localTune.lastUpdated, 10) || 0
+          if (remoteTombAt >= localTuneAt) {
+            deletes[tuneId] = localTune
+            tuneStatus.deletes.push({
+              hasLyrics: hasLyrics(localTune),
+              hasNotes: hasNotes(localTune),
+              hasChords: false
+            })
+          }
+        })
       }
       saveTunesOnline()
-      var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, tuneStatus, forceBook: forceBook}
+      var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, deletes, remoteDeleted, tuneStatus, forceBook: forceBook}
       //console.log('imported SABC',final)
       setImportResults(final)
       return final
@@ -899,6 +1001,7 @@ The main difference between the two functions is the additional condition in app
     //console.log('delete tune book',book)
     pauseSheetUpdates.current = true
     var final = {}
+    var tombstones = []
     Object.values(tunes).map(function(tune) {
       //console.log('delete tune book book',tune.books)
       if (Array.isArray(tune.books) && tune.books.indexOf(book) !== -1) {
@@ -912,13 +1015,14 @@ The main difference between the two functions is the additional condition in app
           final[tune.id] = tune
         } else {
           //console.log('last book')
-          // ignore it
+          tombstones.push({id: tune.id, name: tune.name})
         }
       } else {
         //console.log('no books for tune match')
         final[tune.id] = tune
       }
     })
+    commitTombstones(tombstones)
     indexes.removeBookFromIndex(book)
     //console.log('DEL',Object.keys(tunes).length,Object.keys(final).length,final)
     setTunes(final)
@@ -929,6 +1033,16 @@ The main difference between the two functions is the additional condition in app
   }
   
   function deleteAll() {
+    if (setDeletedTunes) {
+      if (isLoggedIn) {
+        // logged in: propagate the purge to other devices via tombstones
+        setDeletedTunes(mergeDeletedTuneMaps(deletedTunes, tombstoneAllTunes(tunes)))
+      } else {
+        // logged out: local reset only. Clear tombstones so re-login re-pulls
+        // a clean copy from Google Drive instead of suppressing inserts.
+        setDeletedTunes({})
+      }
+    }
     setTunes({})
     resetTuneBook()
     setCurrentTuneBook(null)

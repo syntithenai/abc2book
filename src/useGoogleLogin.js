@@ -139,29 +139,12 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     }
     //?access_token='+accessToken.access_token
     function loadUserImage(accessToken) {
-        //console.log('load user image',accessToken, user)
-        return new Promise(function(resolve,reject) {
-          if (accessToken && user && user.picture) { 
-            var url = user.picture 
-            axios({
-              method: 'get',
-              url: url,
-              headers: {'Authorization': 'Bearer '+accessToken.access_token},
-            }).then(function(postRes) {
-              //console.log('load user image',postRes)
-              resolve(postRes.data)
-              
-            }).catch(function(e) {
-              //getToken()
-              //refresh()
-              console.log(e)
-              resolve()
-            })
-          } else {
-            //if (!accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
-            resolve()
-          }
-        })
+        // The profile picture is a public googleusercontent.com URL that is
+        // rendered directly via an <img> tag. Fetching it with axios and an
+        // Authorization header triggers a CORS preflight that strict browsers
+        // (eg. Brave) reject, and the response body is never used, so we skip
+        // the network request entirely.
+        return Promise.resolve()
     }
     
     

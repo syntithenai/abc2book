@@ -1,126 +1,130 @@
 import {useState} from 'react'
-import {Button, Modal, ButtonGroup} from 'react-bootstrap'
+import {Button, Modal, ButtonGroup, Alert, Spinner} from 'react-bootstrap'
+import {useNavigate} from 'react-router-dom'
 import BookSelectorModal from './BookSelectorModal'
-import vertaal from '../xml2abc'
+import useMediaResolverHealth from '../useMediaResolverHealth'
+import { detectScoreFormat, importMusicXmlText, importScoreFile } from '../scoreImportClient'
+
+const OFFLINE_ACCEPT = '.xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/xml'
+const MIDI_ACCEPT = ',.mid,.midi,audio/midi,audio/mid'
 
 function ImportXmlModal(props) {
+  const navigate = useNavigate()
   const [show, setShow] = useState(false);
   const [list, setList] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [statusText, setStatusText] = useState('');
+  const [error, setError] = useState(null);
+  const accessToken = props.token && props.token.access_token ? props.token.access_token : null
+  const { available: resolverAvailable } = useMediaResolverHealth({ accessToken })
+  const scoreAccept = resolverAvailable ? OFFLINE_ACCEPT + MIDI_ACCEPT : OFFLINE_ACCEPT
   const handleClose = () => {
-      setMessage(null)
+      setError(null)
+      setStatusText('')
+      setLoading(false)
       setList('')
-      setDuplicates(null)
       setShow(false);
       if (props.closeParent) props.closeParent()
-      //props.forceRefresh()
   }
   const handleShow = () => setShow(true);
-  var [filter, setFilter] = useState('')
   var [tuneBook, setTuneBook] = useState('')
-  var [duplicates, setDuplicates] = useState([])
-  var [message, setMessage] = useState(null)
-  
-  function doImport(list) {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(list, 'text/xml');
-    const res = vertaal(xml,{ p:'f' })
-    const abc = res[0]
-    //console.log('import',xml,abc)
-    
-    const importResults = props.tunebook.importAbc(abc, props.currentTuneBook)
-    setTimeout(function() {
-      props.tunebook.utils.scrollTo('bottomofpage')
-    },100)
-    //console.log('imported',inserts,updates,duplicates)
-    //props.setImportResults(importResults)
-    //var [inserts, updates, duplicates] = importResults
-    
-    //var [inserts, updates, duplicates] = props.tunebook.importAbc(abc, props.currentTuneBook)
-    ////console.log('imported',inserts,updates,duplicates)
-    //setMessage(null)
-    
-    //if (duplicates.length > 0) {
-      //setDuplicates(duplicates)
-      //setMessage(<div>
-        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        //Skipped {duplicates.length} duplicate tunes<Button style={{marginLeft:'1em'}}  variant="primary" onClick={function(e) {forceImport(duplicates)}}>Import Duplicates</Button></div>
-      //)
-    //} else {
-      //setList('')
-      //props.forceRefresh()
-      //setMessage(<>
-        //{inserts.length > 0 && <div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-        //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
-        
-      //</>)
-    //}
+
+  function finishImport(importResults) {
+    if (!props.tunebook.showImportWarning(importResults)) {
+      props.tunebook.applyImportData(importResults).then(function() {
+        if (props.currentTuneBook) {
+          navigate("/blank")
+          setTimeout(function() {
+            navigate("/tunes")
+          }, 200)
+        } else {
+          navigate("/books")
+        }
+      })
+    }
+    handleClose()
   }
-  
-  //function forceImport(duplicates) {
-    //var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), props.currentTuneBook, true)
-    ////console.log('FFimported',inserts,updates,duplicates,d)
-     //setMessage(<>
-      //{<div style={{color:'red'}} >Inserted {inserts.length} tunes</div>}
-    //</>)
-    ////setTimeout(,2000)
-   
-  //}
+
+  function doImportText(xmlText) {
+    setError(null)
+    setLoading(true)
+    setStatusText('Converting MusicXML to ABC...')
+    try {
+      const result = importMusicXmlText(xmlText, 'pasted.musicxml')
+      const importResults = props.tunebook.importAbc(result.abc, props.currentTuneBook)
+      finishImport(importResults)
+    } catch (e) {
+      setError(e.message || 'Import failed')
+      setLoading(false)
+      setStatusText('')
+    }
+  }
+
+  function doImportFile(file) {
+    if (detectScoreFormat(file.name) === 'midi' && !resolverAvailable) {
+      setError('MIDI import needs the media resolver. Log in with an authorized Google account and make sure the resolver is running.')
+      return
+    }
+    setError(null)
+    setLoading(true)
+    setStatusText('Reading file...')
+    importScoreFile({
+      file: file,
+      accessToken: accessToken,
+      onProgress: setStatusText,
+    }).then(function(result) {
+      setStatusText('Importing tunes...')
+      const importResults = props.tunebook.importAbc(result.abc, props.currentTuneBook)
+      finishImport(importResults)
+    }).catch(function(e) {
+      setError(e.message || 'Import failed')
+      setLoading(false)
+      setStatusText('')
+    })
+  }
       
   function fileSelected (event) {
-      //console.log('FILESel',event,event.target.files[0]);
-      
-      //const fileList = event.target.files;
-      function readFile(file){
-          var reader = new FileReader();
-          reader.onloadend = function(){
-            //console.log("read"+reader.result.length )
-            if (reader.result.trim().length > 0) {
-              setList(reader.result)
-              doImport(reader.result)
-            }
-          }
-          if(file){
-              reader.readAsText(file);
-          }
+      const file = event.target.files && event.target.files[0]
+      if (file) {
+        doImportFile(file)
       }
-      readFile(event.target.files[0])
+      event.target.value = ''
   }
    
   return (
     <>
       <Button  style={{color:'black'}}  variant="primary" onClick={handleShow}>
-        {props.tunebook.icons.folderin} XML
+        {props.tunebook.icons.folderin} Score
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Import Music XML</Modal.Title>
+          <Modal.Title>Import MusicXML / MXL / MIDI</Modal.Title>
         </Modal.Header>
-        {(!message) ? <Modal.Body>
-          <div style={{backgroundColor:'lightblue', padding:'0.3em', height:'7em'}} >
+        <Modal.Body>
+          <div style={{backgroundColor:'lightblue', padding:'0.3em', minHeight:'7em'}} >
           <div style={{borderBottom:'1px solid black', marginBottom:'1em', padding:'0.3em'}} > 
             Import into &nbsp;&nbsp;
-            <ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={tuneBook} onChange={function(val) { ;props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions}   triggerElement={<Button variant="primary" >{props.tunebook.icons.book} {props.currentTuneBook ? <b>{props.currentTuneBook}</b> : ''}</Button>}  /></ButtonGroup>
+            <ButtonGroup variant="primary"  style={{ backgroundColor: '#3f81e3', borderRadius:'10px' , width: 'fit-content'}}>{props.currentTuneBook ? <Button  onClick={function(e) {props.setCurrentTuneBook('');  props.forceRefresh(); }} >{props.tunebook.icons.closecircle}</Button> : ''}<BookSelectorModal  forceRefresh={props.forceRefresh} title={'Select a Book'} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook} value={tuneBook} onChange={function(val) { props.setCurrentTuneBook(val)}} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions}   triggerElement={<Button variant="primary" >{props.tunebook.icons.book} {props.currentTuneBook ? <b>{props.currentTuneBook}</b> : ''}</Button>}  /></ButtonGroup>
           </div>
-          {(list.trim().length > 0) ? <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={function() {doImport(list)}}>Import</Button> : <Button style={{float:'left', marginBottom:'0.5em'}} variant="secondary" >Import</Button>}
+          {(list.trim().length > 0 && !loading) ? <Button style={{float:'left', marginBottom:'0.5em'}} variant="primary" onClick={function() {doImportText(list)}}>Import</Button> : <Button style={{float:'left', marginBottom:'0.5em'}} variant="secondary" disabled={loading || list.trim().length === 0}>Import</Button>}
           <span style={{marginLeft:'0.5em',width:'30%', float:'left'}} >
-            <input  style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} />
+            <input accept={scoreAccept} style={{float:'left'}} className='btn' variant="primary" type="file" onChange={fileSelected} disabled={loading} />
           </span>
+          {loading && (
+            <div style={{clear:'both', paddingTop:'0.5em'}}>
+              <Spinner animation="border" size="sm" /> {statusText || 'Working...'}
+            </div>
+          )}
           </div>
-          <textarea placeholder="Paste XML text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both'}}  />
-        </Modal.Body> : ''}
-        
-        
-        {message &&
-        <>
-        <Modal.Body> 
-          {message}
-        </Modal.Body> 
-        <Modal.Footer>
-          <Button  variant="success" onClick={handleClose} >OK</Button>
-        </Modal.Footer>
-        </>}
+          <textarea placeholder="Paste MusicXML text here" value={list} onChange={function(e) {setList(e.target.value)}} style={{width:'100%', minHeight: '10em', clear:'both', marginTop:'0.5em'}} disabled={loading} />
+          {error && <Alert variant="danger" style={{marginTop:'0.5em'}}>{error}</Alert>}
+          <div style={{fontSize:'0.85em', color:'#444', marginTop:'0.5em'}}>
+            {resolverAvailable
+              ? 'MIDI import uses the media resolver to convert MIDI to MusicXML, then to ABC. Results may be approximate.'
+              : 'MusicXML and MXL import work offline. MIDI import is unavailable until you log in and the media resolver is reachable.'}
+          </div>
+        </Modal.Body>
       </Modal>
     </>
   );

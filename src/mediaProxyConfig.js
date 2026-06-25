@@ -1,6 +1,6 @@
 const STORAGE_KEY = 'bookstorage_media_proxy_base'
 
-export const DEFAULT_PUBLIC_MEDIA_PROXY = 'http://peppertrees.syntithenai.com:8787'
+export const DEFAULT_PUBLIC_MEDIA_PROXY = 'https://peppertrees.syntithenai.com'
 
 export function normalizeMediaProxyBase(value) {
   if (value === undefined || value === null) return ''

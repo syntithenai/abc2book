@@ -1,0 +1,13 @@
+# Caddy reverse proxy that terminates TLS for the local resolver so the
+# production HTTPS site can reach it without mixed-content errors.
+#
+# Caddy automatically obtains and renews a Let's Encrypt certificate for
+# RESOLVER_DOMAIN, provided ports 80 and 443 are reachable from the internet
+# and RESOLVER_DOMAIN's DNS points at this machine.
+#
+# Setting ACME_EMAIL is optional but recommended for expiry notices. If set,
+# add `email you@example.com` under a global options block (the first `{ }`).
+
+{$RESOLVER_DOMAIN} {
+	reverse_proxy local-resolver:8787
+}

@@ -214,40 +214,27 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 	
   function _pollChanges(interval, onChanges, multiplier = 1) {
       //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
+      // Always re-arm the next poll, even when this poll was paused, errored, or
+      // returned no changes. Otherwise the recursive polling chain dies after the
+      // first paused/failed poll and cross-device changes are never seen again
+      // until the next login (token change).
+      function scheduleNext(res) {
+        if (onChanges && Array.isArray(res) && res.length > 0) {
+          onChanges(res).then(function() {
+            pollChanges(interval, onChanges)
+          }).catch(function() {
+            pollChanges(interval, onChanges)
+          })
+        } else {
+          pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))
+        }
+      }
       if (!localStorage.getItem('google_last_page_token')) {
         getStartPageToken().then(function() {
-          doPollChanges().then(function(res) {
-            if (onChanges && Array.isArray(res)) {
-				if (res.length > 0) {
-					onChanges(res).then(function() {
-						pollChanges(interval, onChanges)  
-					})
-				} else {
-					pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
-				}
-            }
-            
-          })
-          //.finally(function() {
-            //pollChanges(interval, onChanges)  
-          //})
+          doPollChanges().then(scheduleNext)
         })
       } else {
-        doPollChanges().then(function(res) {
-          //console.log('onChanges',onChanges)
-          if (onChanges && Array.isArray(res)) {
-				if (res.length > 0) {
-					onChanges(res).then(function() {
-						pollChanges(interval, onChanges)  
-					})
-				} else {
-					pollChanges(interval, onChanges, (multiplier < 6 ? multiplier + 1 : multiplier))  
-				}
-			}
-        })
-        //.finally(function() {
-            //pollChanges(interval, onChanges)  
-        //})
+        doPollChanges().then(scheduleNext)
       }
     }
   

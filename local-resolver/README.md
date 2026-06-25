@@ -131,6 +131,10 @@ Set in `local-resolver/.env`:
 | `WHISPER_CPU_FALLBACK` | Whether GPU mode falls back to CPU |
 | `WHISPER_CPP_BEST_OF` | `whisper-cli --best-of` value |
 | `WHISPER_CPP_NO_CONTEXT` | Set `true` to pass `--no-context` |
+| `WHISPER_LYRICS_FORMAT` | Set `false` to return Whisper transcription as one cleaned text block |
+| `WHISPER_LYRICS_MAX_WORDS` | Maximum words per formatted lyric line |
+| `WHISPER_LYRICS_LINE_PAUSE_SECONDS` | Pause length that starts a new lyric line |
+| `WHISPER_LYRICS_STANZA_PAUSE_SECONDS` | Pause length that inserts a blank line between lyric sections |
 | `AUTOCHORD_TIMEOUT_SECONDS` | Max time to wait for chord discovery |
 
 ## From repo root

@@ -21,3 +21,30 @@ services:
       - ./secrets:/app/secrets:ro
       - "/home/stever/projects/whisper models:/models:ro"
     restart: unless-stopped
+
+  # Optional HTTPS reverse proxy. Enable with:
+  #   docker compose --profile https up --build
+  # Requires RESOLVER_DOMAIN (and optionally ACME_EMAIL) in .env, public DNS
+  # pointing at this machine, and ports 80/443 reachable from the internet
+  # for automatic public certificates.
+  caddy:
+    image: caddy:2
+    container_name: abc2book-resolver-caddy
+    profiles: ["https"]
+    depends_on:
+      - local-resolver
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    environment:
+      RESOLVER_DOMAIN: ${RESOLVER_DOMAIN:-peppertrees.syntithenai.com}
+      ACME_EMAIL: ${ACME_EMAIL:-}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:

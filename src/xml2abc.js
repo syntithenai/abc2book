@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-//~ Revision: 117, Copyright (C) 2014-2021: Willem Vree
+//~ Revision: 118, Copyright (C) 2014-2021: Willem Vree
 //~ This program is free software; you can redistribute it and/or modify it under the terms of the
 //~ Lesser GNU General Public License as published by the Free Software Foundation;
 //~ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 //~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 //~ See the Lesser GNU General Public License for more details. <http://www.gnu.org/licenses/lgpl.html>.
 
-var xml2abc_VERSION = 117;
+var xml2abc_VERSION = 118;
 var vertaal;
 
 (function () {  // all definitions inside an anonymous function

@@ -52,6 +52,7 @@ import useTuneBookMediaController from './useTuneBookMediaController'
 import useFileManager from './useFileManager' 
 import useSyncWorker from './useSyncWorker'	
 import useRouteAnalytics from './useRouteAnalytics'
+import { compareTuneBooks, mergeDeletedTuneMaps, parseDeletedTunesFromAbc } from './tuneBookSync'
 
 import {useState, useEffect, useRef} from 'react';
 //import jwt_decode from "jwt-decode";
@@ -100,7 +101,7 @@ function App(props) {
   const filesDocumentManager = useGoogleDocument(token, logout)
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset , abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
+  const {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset , abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
   useServiceWorker()
   
   
@@ -109,14 +110,8 @@ function App(props) {
   const [blockKeyboardShortcuts, setBlockKeyboardShortcuts] = useState(false)
    
   function applyMergeChanges(changes) {
-    var {filesToLoad, filesToSave, inserts, updates, deletes, localUpdates, localInserts} = changes
-    //console.log('apply',tunes, token,changes)
-    // save all inserts and updates
-    // keep all local items that don't exist remotely
-    //Object.keys(deletes).forEach(function(d) {
-       //tunes[deletes[d].id] = deletes[d]
-       ////delete tunes[d]
-    //})
+    var {filesToLoad, filesToSave, inserts, updates, deletes, localUpdates, localInserts, fullSheet} = changes
+    var remoteDeleted = parseDeletedTunesFromAbc(fullSheet || '')
     Object.keys(updates).map(function(u)  {
       if (updates[u] && updates[u][1].id) {
         tunes[updates[u][1].id] = updates[u][1]
@@ -125,15 +120,34 @@ function App(props) {
     Object.values(inserts).forEach(function(tune) {
       if (tune && tune.id) tunes[tune.id] = tune
     })
+    Object.keys(deletes || {}).forEach(function(tuneId) {
+      if (tunes[tuneId]) {
+        indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+        delete tunes[tuneId]
+      }
+    })
+    var nextDeleted = mergeDeletedTuneMaps(deletedTunes, remoteDeleted)
+    Object.keys(deletes || {}).forEach(function(tuneId) {
+      if (!nextDeleted[tuneId]) {
+        nextDeleted[tuneId] = {
+          id: tuneId,
+          deletedAt: Date.now(),
+          name: deletes[tuneId] && deletes[tuneId].name,
+        }
+      }
+    })
+    Object.keys(inserts || {}).concat(Object.keys(updates || {})).forEach(function(tuneId) {
+      delete nextDeleted[tuneId]
+    })
+    Object.keys(localUpdates || {}).forEach(function(tuneId) {
+      delete nextDeleted[tuneId]
+    })
+    setDeletedTunes(nextDeleted)
     
-    
-    // any more recent changes locally get saved online
     if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (filesToLoad && Object.keys(filesToLoad).length > 0) || (filesToSave && Object.keys(filesToSave).length > 0)) {
       setTunes(tunes)
       updateSheet(0)
     }
-    //console.log('applied',tunes)
-    // 
     if ((localInserts && Object.keys(localInserts).length > 0) || (localUpdates && Object.keys(localUpdates).length > 0) || (deletes && Object.keys(deletes).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0)) {
       setTunes(tunes)
       buildTunesHash()
@@ -142,8 +156,6 @@ function App(props) {
       indexes.indexTunes(tunes)
       setSheetUpdateResults(null)
     }
-    
-   // filesDocumentManager.syncAttachedFiles(tunes, (token ? token.access_token : null)).then(function(res) {setTunes(res)})     
   }
   
    /** 
@@ -152,79 +164,29 @@ function App(props) {
   function mergeTuneBook(tunebookText) {
       return new Promise(function(resolve,reject) {
           setShowWaitingOverlay(true)
-          //console.log('mergetb',tunebookText)
-          var inserts={}
-          var updates={}
-          var patches={} // updates with common parent
-          var deletes={}
-          var localUpdates={}
-          var localInserts={}
-          //var filesToSave = {}
-          //var filesToLoad = {}
-          
-          var intunes = {}
-          if (tunebookText) {
-          //console.log('haveabc')
-            intunes = abcTools.abc2Tunebook(tunebookText)
-          }
-          //console.log('havetunes', intunes)
-          //var tunes = utils.loadLocalObject('bookstorage_tunes')
-          utils.loadLocalforageObject('bookstorage_tunes').then(function(tunes) {
-              //console.log('havetunes', intunes, "NOW",  tunes, tunesHash)
-              var ids = []
-              Object.values(intunes).forEach(function(tune) {
-                // existing tunes are updated
-                //console.log('tune in',tune.id, tune)
-                if (tune.id && tunes[tune.id]) {
-					// sync files
-					//if (tunes[tune.id] && Array.isArray(tunes[tune.id].files) && tunes[tune.id].files.length > 0) {
-						////console.log('tune files', tunes[tune.id].files)
-						//tunes[tune.id].files.forEach(function(file, fileKey) {
-							//if (file.googleDocumentId && !file.data) {
-								//// load from online
-								//filesToLoad[tune.id] = fileKey
-							//}
-							//if (!file.googleDocumentId && file.data) {
-								//// save online
-								//filesToSave[tune.id] = fileKey
-							//}
-						//})
-				  //}
-                  // preserve boost
-                  //tune.boost = tunes[tune.id].boost
-                  if (tune.lastUpdated > tunes[tune.id].lastUpdated) {
-                    updates[tune.id] = [tunes[tune.id], tune]
-                    //console.log('update MORE RECENT')
-                  } else if (tune.lastUpdated < tunes[tune.id].lastUpdated) {
-                    localUpdates[tune.id] = [tune,tunes[tune.id]]
-                    //console.log('local update MORE RECENT')
-                  } else {
-                    //console.log('skip update NOT MORE RECENT')
-                  }
-                  ids.push(tune.id)
-                // new tunes 
-                } else {
-                   //console.log('insert')
-                   if (!tune.id) tune.id = utils.generateObjectId()
-                   inserts[tune.id] = tune
-                }
+          Promise.all([
+            utils.loadLocalforageObject('bookstorage_tunes'),
+            utils.loadLocalforageObject('bookstorage_deleted_tunes'),
+          ]).then(function(results) {
+              var localTunes = results[0] || {}
+              var localDeleted = results[1] || {}
+              var remoteTunes = {}
+              if (tunebookText) {
+                abcTools.abc2Tunebook(tunebookText).forEach(function(tune) {
+                  if (tune && tune.id) remoteTunes[tune.id] = tune
+                })
+              }
+              var remoteDeleted = parseDeletedTunesFromAbc(tunebookText)
+              var compared = compareTuneBooks({
+                localTunes: localTunes,
+                localDeleted: localDeleted,
+                remoteTunes: remoteTunes,
+                remoteDeleted: remoteDeleted,
               })
-              //console.log(ids)
-              //console.log(tuness)
-              //
-              //for (var tkey in tunes) {
-                  //console.log(tkey)
-              //}
-              //var tkeys = Object.keys(tunes)
-              //console.log(tkeys)
-              Object.keys(tunes).forEach(function(tuneId) {
-                if (ids.indexOf(tuneId) === -1) {
-                  localInserts[tuneId] = tunes[tuneId]
-                }
+              var ret = Object.assign({}, compared, {
+                fullSheet: tunebookText,
+                remoteDeleted: remoteDeleted,
               })
-            
-              var ret = {inserts, updates, deletes, localUpdates,localInserts, fullSheet: tunebookText}
-              //console.log('merge done' ,filesToLoad, filesToSave, ret)filesToLoad, filesToSave, 
               setShowWaitingOverlay(false)
               resolve(ret)
             })
@@ -233,14 +195,13 @@ function App(props) {
   
   function overrideTuneBook(fullSheet) {
     setShowWaitingOverlay(true)
-    //console.log('overrideTuneBook')
     pauseSheetUpdates.current = true
     var tunes = {}
     abcTools.abc2Tunebook(fullSheet).forEach(function(tune) {
         if (tune && tune.id) tunes[tune.id] = tune
     })
-    //console.log("FORCE TUNESN",tunes)
-    // TODO - check in with user if applying changes
+    var remoteDeleted = parseDeletedTunesFromAbc(fullSheet)
+    setDeletedTunes(remoteDeleted)
     setTunes(tunes)
     updateSheet(0).then(function() {
       pauseSheetUpdates.current = false
@@ -274,7 +235,7 @@ function App(props) {
   const recordingsManager = useRecordingsManager(token, logout, recordingsFileManager)
   //console.log("app",recordingsManager)
   
-  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav})
+  var tunebook = useTuneBook({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn: !!(token && token.access_token), currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook, tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, buildTunesHash, updateTunesHash, pauseSheetUpdates, recordingsManager: recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav})
   //var abcPlayerRef = useRef()
   let mediaController = useTuneBookMediaController({tunebook, tunes, forceRefresh, token, user}) 
   //, onEnded:function() {
@@ -290,7 +251,7 @@ function App(props) {
         //console.log('onmerge', fullSheet.length, trialResults)
         // warning if items are being deleted
         if (trialResults) {
-			if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0) {
+			if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0 || Object.keys(trialResults.localInserts).length > 0) {
 			  //console.log('onmerge set results',trialResults)
 			  setSheetUpdateResults(trialResults)
 			  tunebook.utils.scrollTo('topofpage')
@@ -377,6 +338,9 @@ function App(props) {
         //return true
       //}
       
+      if (sheetUpdateResults.localInserts && Object.keys(sheetUpdateResults.localInserts).length > 0) {
+        return true
+      }
       if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
         return true
       }

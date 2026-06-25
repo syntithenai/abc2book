@@ -8,7 +8,7 @@ from urllib.parse import parse_qs, urlparse
 
 import httpx
 from fastapi import FastAPI, File, Header, HTTPException, Query, Request, UploadFile
-from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import JSONResponse, Response, StreamingResponse
 
 app = FastAPI()
 
@@ -27,6 +27,7 @@ REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "false").lower() in ("1", "true", "yes"
 YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
 MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
+MAX_MIDI_IMPORT_BYTES = int(os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024)))
 WHISPER_TIMEOUT_SECONDS = float(os.getenv("WHISPER_TIMEOUT_SECONDS", "600"))
 AUTOCHORD_TIMEOUT_SECONDS = float(os.getenv("AUTOCHORD_TIMEOUT_SECONDS", "900"))
 WHISPER_CPP_PATH = os.getenv("WHISPER_CPP_PATH", "/app/build/bin/whisper-cli")
@@ -35,10 +36,16 @@ WHISPER_BACKEND_PREFERENCE = os.getenv("WHISPER_BACKEND_PREFERENCE", "auto").str
 WHISPER_CPU_FALLBACK = os.getenv("WHISPER_CPU_FALLBACK", "true").strip().lower() not in {"0", "false", "no"}
 WHISPER_CPP_BEST_OF = int(os.getenv("WHISPER_CPP_BEST_OF", "1"))
 WHISPER_CPP_NO_CONTEXT = os.getenv("WHISPER_CPP_NO_CONTEXT", "false").strip().lower() not in {"0", "false", "no"}
+WHISPER_LYRICS_FORMAT = os.getenv("WHISPER_LYRICS_FORMAT", "true").strip().lower() not in {"0", "false", "no"}
+WHISPER_LYRICS_MAX_WORDS = max(1, int(os.getenv("WHISPER_LYRICS_MAX_WORDS", "10")))
+WHISPER_LYRICS_LINE_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_LINE_PAUSE_SECONDS", "1.2"))
+WHISPER_LYRICS_STANZA_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_STANZA_PAUSE_SECONDS", "4.0"))
 
 BLOCKED_HOSTS = {"localhost", "127.0.0.1", "0.0.0.0", "::1", "metadata.google.internal"}
 BLOCKED_SUFFIXES = (".local", ".internal")
 YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+SENTENCE_END_RE = re.compile(r"[.!?][\"')\]]*$")
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 
 
 def is_dev_origin(origin):
@@ -478,6 +485,81 @@ def _normalize_whisper_segments(output):
     return normalized
 
 
+def _clean_transcription_text(text):
+    return re.sub(r"\s+", " ", str(text or "")).strip()
+
+
+def _split_sentence_chunks(text):
+    cleaned = _clean_transcription_text(text)
+    if not cleaned:
+        return []
+    return [
+        chunk.strip()
+        for chunk in SENTENCE_SPLIT_RE.split(cleaned)
+        if chunk.strip()
+    ]
+
+
+def _append_wrapped_words(lines, words):
+    while len(words) > WHISPER_LYRICS_MAX_WORDS:
+        lines.append(" ".join(words[:WHISPER_LYRICS_MAX_WORDS]))
+        words = words[WHISPER_LYRICS_MAX_WORDS:]
+    return words
+
+
+def _format_transcribed_lyrics(segments, fallback_text=""):
+    if not WHISPER_LYRICS_FORMAT:
+        return _clean_transcription_text(fallback_text)
+
+    lines = []
+    current_words = []
+
+    def flush_line():
+        nonlocal current_words
+        if current_words:
+            current_words = _append_wrapped_words(lines, current_words)
+            if current_words:
+                lines.append(" ".join(current_words))
+                current_words = []
+
+    def add_blank_line():
+        if lines and lines[-1] != "":
+            lines.append("")
+
+    previous_end = None
+    usable_segments = [
+        segment
+        for segment in segments or []
+        if _clean_transcription_text(segment.get("text", ""))
+    ]
+
+    for segment in usable_segments:
+        start = _safe_float(segment.get("start", 0.0))
+        end = _safe_float(segment.get("end", start))
+        if previous_end is not None:
+            pause = max(0.0, start - previous_end)
+            if pause >= WHISPER_LYRICS_STANZA_PAUSE_SECONDS:
+                flush_line()
+                add_blank_line()
+            elif pause >= WHISPER_LYRICS_LINE_PAUSE_SECONDS:
+                flush_line()
+
+        for chunk in _split_sentence_chunks(segment.get("text", "")):
+            current_words.extend(chunk.split())
+            if SENTENCE_END_RE.search(chunk) or len(current_words) >= WHISPER_LYRICS_MAX_WORDS:
+                flush_line()
+
+        previous_end = max(previous_end or 0.0, end)
+
+    if not usable_segments:
+        for chunk in _split_sentence_chunks(fallback_text):
+            current_words.extend(chunk.split())
+            flush_line()
+
+    flush_line()
+    return "\n".join(lines).strip()
+
+
 async def _convert_audio_to_wav(input_path):
     wav_path = input_path + ".whisper.wav"
     proc = await asyncio.create_subprocess_exec(
@@ -599,11 +681,12 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request):
             with open(temp_json_path, "r", encoding="utf-8") as handle:
                 output = json.load(handle)
             segments = _normalize_whisper_segments(output)
-            text = " ".join(
+            raw_text = " ".join(
                 segment.get("text", "").strip()
                 for segment in segments
                 if segment.get("text", "").strip()
             )
+            text = _format_transcribed_lyrics(segments, raw_text)
             body = {
                 "text": text,
                 "segments": segments,
@@ -611,7 +694,8 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request):
                 "backend": active_backend,
             }
         else:
-            text = result["stdout"].strip() if result["stdout"] else ""
+            raw_text = result["stdout"].strip() if result["stdout"] else ""
+            text = _format_transcribed_lyrics([], raw_text)
             body = {
                 "text": text,
                 "segments": [],
@@ -753,7 +837,7 @@ async def root(request: Request):
         {
             "service": "abc2book-local-resolver",
             "health": "/health",
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/midi2xml"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(request.headers.get("origin")),
@@ -932,3 +1016,67 @@ async def transcribe(
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
+
+
+async def convert_midi_to_musicxml(midi_bytes: bytes, filename: str) -> str:
+    def _convert():
+        from music21 import converter
+
+        score = converter.parseData(midi_bytes, quarterLengthDivisors=(4, 6))
+        with tempfile.NamedTemporaryFile(mode="w+", suffix=".musicxml", delete=False) as temp_file:
+            temp_path = temp_file.name
+        try:
+            score.write("musicxml", fp=temp_path)
+            musicxml_path = temp_path + ".musicxml"
+            with open(musicxml_path, "r", encoding="utf-8") as handle:
+                return handle.read()
+        finally:
+            for path in (temp_path, temp_path + ".musicxml"):
+                try:
+                    os.remove(path)
+                except FileNotFoundError:
+                    pass
+
+    return await asyncio.to_thread(_convert)
+
+
+@app.post("/midi2xml")
+async def midi2xml(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+
+        midi_bytes = b""
+        filename = "import.mid"
+
+        if file is not None:
+            midi_bytes = await file.read()
+            filename = file.filename or filename
+        else:
+            return json_error(400, "Missing MIDI file upload", origin)
+
+        if not midi_bytes:
+            return json_error(400, "MIDI file is empty", origin)
+
+        if len(midi_bytes) > MAX_MIDI_IMPORT_BYTES:
+            return json_error(
+                413,
+                "MIDI file too large (limit is " + str(MAX_MIDI_IMPORT_BYTES) + " bytes)",
+                origin,
+            )
+
+        music_xml = await convert_midi_to_musicxml(midi_bytes, filename)
+        return Response(
+            content=music_xml,
+            media_type="application/xml",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "MIDI conversion failed"
+        return json_error(500, detail, origin)

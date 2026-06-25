@@ -34,7 +34,6 @@ export default function SettingsPage(props) {
   const tunebook = props.tunebook
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
-  const [announceSongCheckbox, setAnnounceSongCheckbox] = useState(localStorage.getItem('bookstorage_announcesong') === 'true' ? true : false)
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
   const [resolverStatus, setResolverStatus] = useState(null)
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
@@ -64,17 +63,6 @@ export default function SettingsPage(props) {
       cancelled = true
     }
   }, [mediaProxyUrl, accessToken])
-
-  function clickEnableAnnounceSong() {
-    const current = localStorage.getItem('bookstorage_announcesong')
-    if (current === 'true') {
-      localStorage.setItem('bookstorage_announcesong', 'false')
-      setAnnounceSongCheckbox('')
-    } else {
-      localStorage.setItem('bookstorage_announcesong', 'true')
-      setAnnounceSongCheckbox(true)
-    }
-  }
 
   function saveMediaProxy() {
     const normalized = normalizeMediaProxyBase(mediaProxyUrl)
@@ -169,14 +157,6 @@ export default function SettingsPage(props) {
           <i>Log in with Google if the shared resolver requires an authorized account.</i>
         </div>
       )}
-    </div>
-
-    <hr style={{ margin: '1em' }} />
-
-    <div>
-      <label style={{ fontWeight: 'bold' }}>Enable Spoken Song Announcements ?<input type="checkbox" onChange={clickEnableAnnounceSong} checked={announceSongCheckbox} /></label>
-      <br /><i>The software will speak the title before playing the tune.</i>
-      <br /><b></b>
     </div>
   </div>
 }

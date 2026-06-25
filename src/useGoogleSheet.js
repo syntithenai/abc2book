@@ -20,8 +20,8 @@ export default function useGoogleSheet(props) {
             } else {
               return false
             }
-          },pausePolling,pollingInterval)
-          if (matchingChanges && matchingChanges.length === 1) {
+          })
+          if (matchingChanges && matchingChanges.length >= 1) {
             docs.getDocument(googleSheetId.current).then(function(fullSheet) {
               onMerge(fullSheet)
               resolve()
@@ -55,8 +55,13 @@ export default function useGoogleSheet(props) {
       if (googleSheetId.current) { 
         clearTimeout(updateSheetTimer.current)
         updateSheetTimer.current = setTimeout(function() {
-          utils.loadLocalforageObject('bookstorage_tunes').then(function(nowTunes) {
-              var abc = abcTools.tunesToAbc(nowTunes, false)
+          Promise.all([
+            utils.loadLocalforageObject('bookstorage_tunes'),
+            utils.loadLocalforageObject('bookstorage_deleted_tunes'),
+          ]).then(function(results) {
+              var nowTunes = results[0] || {}
+              var deletedTunes = results[1] || {}
+              var abc = abcTools.tunesToAbc(nowTunes, deletedTunes)
               //console.log('do sheet update NOWTUNES', nowTunes, abc.split('abcbook-file'))
               docs.updateDocumentData(googleSheetId.current , abc).then(function() {
                   pausePolling.current = false
@@ -101,12 +106,14 @@ export default function useGoogleSheet(props) {
 					docs.findTuneBookFolderInDrive().then(function(folderId) {
 						if (folderId) {
 							//console.log('found folder creating doc',folderId)
-							docs.createDocument(tuneBookName,abcTools.tunesToAbc(tunes), 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
+							utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
+							docs.createDocument(tuneBookName,abcTools.tunesToAbc(tunes, deletedTunes || {}), 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
 								googleSheetId.current = newId
 								setGoogleDocumentId(newId)
 								docs.getDocument(newId).then(function(fullSheet) {
 									onMerge(fullSheet)
 								})
+							})
 							})
 						}
 					})

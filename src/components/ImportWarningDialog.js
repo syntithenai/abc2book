@@ -64,12 +64,13 @@ export default function ImportWarningDialog(props) {
            {Object.keys(props.importResults.updates).length ?<div><b>{Object.keys(props.importResults.updates).length}</b> items will be updated.</div>: ''}
            {Object.keys(props.importResults.skippedUpdates).length ?<div><b>{Object.keys(props.importResults.skippedUpdates).length}</b> items are up to date.</div>: ''}
            {Object.keys(props.importResults.inserts).length ? <div><b>{Object.keys(props.importResults.inserts).length}</b> items will be inserted.</div>: ''}
+           {(props.importResults.deletes && Object.keys(props.importResults.deletes).length) ? <div><b>{Object.keys(props.importResults.deletes).length}</b> items will be removed because they were deleted in the imported file.</div>: ''}
            {Object.keys(props.importResults.localUpdates).length ?<div><b>{Object.keys(props.importResults.localUpdates).length}</b> locally changed items will be skipped.</div>: ''}
            {Object.keys(props.importResults.duplicates).length ?<div><b>{Object.keys(props.importResults.duplicates).length}</b> duplicate items will be skipped.</div>: ''}
           
           <div style={{marginTop:'1em', marginBottom:'1em'}} >
           
-            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) ? <Button variant="success" data-testid="import-warning-confirm" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
+            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) || (props.importResults.deletes && Object.keys(props.importResults.deletes).length > 0) ? <Button variant="success" data-testid="import-warning-confirm" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
             
             &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true).then(handleNavigation)}} >Import With Duplicates</Button> : null}
             
@@ -153,6 +154,22 @@ export default function ImportWarningDialog(props) {
               })}
               </ListGroup>
              </Tab>}
+            {props.importResults.deletes && Object.keys(props.importResults.deletes).length > 0 && <Tab eventKey="deletes" title="Deleted" >
+            <ListGroup>
+              {Object.values(props.importResults.deletes).map(function(v,k) {
+                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
+                   <Container><Row>
+                     <Col xs='3' > &nbsp;
+                        <span >{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
+                        <span>{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
+                        <span>{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
+                    </Col>
+                    <Col xs='9'  >{v.name} </Col>
+                  </Row></Container> 
+                </ListGroup.Item>
+              })}
+              </ListGroup>
+            </Tab>}
              
             {Object.keys(props.importResults.duplicates).length > 0 && <Tab eventKey="duplicates" title="Duplicates" >
               <ListGroup>

@@ -34,6 +34,9 @@ function ImportYouTubeModal(props) {
       if (props.token && props.token.access_token) {
           getMyPlaylists(props.token.access_token).then(function(lists) {
              setOptions(lists)  
+          }).catch(function(e) {
+             console.error('Could not load YouTube playlists', e)
+             setOptions([])
           })
       }
   },[props.token])

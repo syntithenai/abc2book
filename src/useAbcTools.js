@@ -2,6 +2,7 @@ import {Fraction} from './Fraction'
 import abcjs from "abcjs";
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
+import { renderDeletedTunesToAbc } from './tuneBookSync'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -834,7 +835,14 @@ var useAbcTools = () => {
      */
 
     function abc2Tunebook(abc) {
-      var parts = abc.split('X:')
+      // Deleted-tune tombstones are appended to the document as comment lines and
+      // are parsed separately (parseDeletedTunesFromAbc). Strip them here so a
+      // document that contains only tombstones (eg. after deleting every tune)
+      // does not get turned into a phantom tune with a freshly generated id.
+      var cleaned = (abc || '').split('\n').filter(function(line) {
+        return !line.trim().startsWith('% abcbook-deleted-tune')
+      }).join('\n')
+      var parts = cleaned.split('X:')
       var final = []
       var tuneBook = parts.forEach(function(v,k) {
         if (v && v.trim().length > 0) {
@@ -1544,7 +1552,7 @@ var useAbcTools = () => {
     //return hash
   //}
 
-  function tunesToAbc(tunes) {
+  function tunesToAbc(tunes, deletedTunes) {
     //console.log('to abc',book, tunes)
     var res = Object.values(tunes).map(function(tune, k) {
       //var newTune = tune
@@ -1552,6 +1560,10 @@ var useAbcTools = () => {
       if (tune && tune.meta) tune.meta.X = k
       return json2abc(tune)
     }).join("\n")
+    var tombstones = renderDeletedTunesToAbc(deletedTunes)
+    if (tombstones) {
+      res = res ? res + '\n' + tombstones : tombstones
+    }
     //console.log('to abc res',res)
     return res
 

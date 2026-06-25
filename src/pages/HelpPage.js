@@ -54,12 +54,9 @@ export default function HelpPage(props) {
       <br/><br/>
       If you log in to the same account on a different device, the software will attempt to synchronise your local database with the version stored online. If your local database needs to be updated, a list of changes will be shown along with choices to merge the changes, discard local changes or logout and ignore the version saved to Google Drive.
       <br/><br/>
-      The green merge button will try to preserve changes everywhere by saving any locally changed files and updating any files changed or added online.
-      When tunes are deleted locally while you are logged out or offline, the merge will try to replace the tunes.
-      <br/>
-      <div style={{border:'1px solid orange', backgroundColor:'#ff400066',padding:'1em'}} >
-      The merge will not delete tunes so if you have deleted tunes on another device it is best to logout, use the <a href='/settings#/settings'><Button variant="success">Settings</Button></a> page to clear all songs on a device, then login again to get a complete clean version of the song book from the other device.
-      </div>
+      The green merge button will try to preserve changes everywhere by saving any locally changed files, updating any files changed or added online, and removing tunes that were deleted on another device.
+      <br/><br/>
+      When you merge, a <b>Deleted</b> tab lists tunes that will be removed locally because they were deleted elsewhere. Use <b>Discard Local Differences</b> if you want to keep tunes that only exist on this device.
       <br/><br/>
       The software checks regularly for changes to the Google Document so if you are logged in to two devices at the same time, changes on one devices will appear within a few seconds as an import warning on your other device.
       <br/><br/>
