@@ -31,6 +31,8 @@ Before starting the stack, make sure this host model file exists:
 
 The resolver container mounts that host directory read-only at `/models` and runs `whisper-cli` directly for lyrics transcription.
 
+Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
+
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
 
 In the project root `.env`:

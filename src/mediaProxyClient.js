@@ -31,12 +31,15 @@ function buildAuthHeaders(accessToken) {
   return { Authorization: 'Bearer ' + accessToken };
 }
 
-function detectMixedContent(bases) {
+function isMixedContentBlocked(base) {
   if (typeof window === 'undefined' || !window.location) return false;
   if (window.location.protocol !== 'https:') return false;
-  return bases.some(function(base) {
-    return /^http:\/\//i.test(base);
-  });
+  return /^http:\/\//i.test(base);
+}
+
+function detectMixedContent(bases) {
+  const baseList = Array.isArray(bases) ? bases : [bases];
+  return baseList.some(isMixedContentBlocked);
 }
 
 function wrapFetchError(error, bases) {
@@ -76,6 +79,7 @@ async function tryHealthAtBase(base, accessToken) {
         available: false,
         requireAuth: false,
         authReason: '',
+        mixedContent: false,
       };
     }
 
@@ -87,6 +91,7 @@ async function tryHealthAtBase(base, accessToken) {
         available: false,
         requireAuth: false,
         authReason: '',
+        mixedContent: false,
       };
     }
 
@@ -98,6 +103,7 @@ async function tryHealthAtBase(base, accessToken) {
         available: false,
         requireAuth: false,
         authReason: '',
+        mixedContent: false,
       };
     }
 
@@ -120,6 +126,7 @@ async function tryHealthAtBase(base, accessToken) {
       available: available,
       requireAuth: requireAuth,
       authReason: authReason,
+      mixedContent: false,
     };
   } catch (e) {
     return {
@@ -128,6 +135,7 @@ async function tryHealthAtBase(base, accessToken) {
       available: false,
       requireAuth: false,
       authReason: '',
+      mixedContent: isMixedContentBlocked(base),
     };
   }
 }

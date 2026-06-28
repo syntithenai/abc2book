@@ -16,6 +16,9 @@ import {
 
 function formatCandidateStatus(candidate, activeBase) {
   if (!candidate.reachable) {
+    if (candidate.mixedContent) {
+      return candidate.base + ' — blocked: this page is HTTPS but the resolver is HTTP. Use an https:// resolver URL.'
+    }
     return candidate.base + ' — not reachable'
   }
   if (candidate.available) {
@@ -47,6 +50,8 @@ export default function SettingsPage(props) {
         setResolverMessage('Using ' + status.activeBase)
       } else if (status.candidates.some(function(candidate) { return candidate.reachable })) {
         setResolverMessage('Resolver reachable but not available to this account. Log in with an authorized Google account or use a local resolver.')
+      } else if (status.candidates.some(function(candidate) { return candidate.mixedContent })) {
+        setResolverMessage('No resolver available. An HTTPS page cannot reach an HTTP resolver — use an https:// resolver URL (e.g. ' + DEFAULT_PUBLIC_MEDIA_PROXY + ').')
       } else {
         setResolverMessage('No resolver available')
       }

@@ -17,6 +17,8 @@ services:
       WHISPER_CPP_PATH: /app/build/bin/whisper-cli
       WHISPER_BACKEND_PREFERENCE: auto
       WHISPER_CPU_FALLBACK: "true"
+    devices:
+      - /dev/dri:/dev/dri
     volumes:
       - ./secrets:/app/secrets:ro
       - "/home/stever/projects/whisper models:/models:ro"

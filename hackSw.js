@@ -97,6 +97,8 @@ var notes = [
 
 var mainFiles = [
 'favicon.ico',
+'favicon.png',
+'manifest.json',
 'home-appicon.png',
 'home-small.png',
 'index.html',
@@ -109,6 +111,12 @@ var mainFiles = [
 'textsearch_index.json',
 'close.png',
 'arrow-up.png',
+// Helper libraries loaded directly by index.html. They are pulled in with
+// async/defer so a fresh offline install would otherwise miss them, breaking
+// the tuner/pitch detection (aubio), MP3 export (lame) and QR codes (qrcode).
+'aubio.js',
+'lame.min.js',
+'qrcode.js',
 ]
 
 
