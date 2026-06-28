@@ -40,6 +40,7 @@ WHISPER_LYRICS_FORMAT = os.getenv("WHISPER_LYRICS_FORMAT", "true").strip().lower
 WHISPER_LYRICS_MAX_WORDS = max(1, int(os.getenv("WHISPER_LYRICS_MAX_WORDS", "10")))
 WHISPER_LYRICS_LINE_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_LINE_PAUSE_SECONDS", "1.2"))
 WHISPER_LYRICS_STANZA_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_STANZA_PAUSE_SECONDS", "4.0"))
+ANALYZE_MEDIA_TIMEOUT_SECONDS = float(os.getenv("ANALYZE_MEDIA_TIMEOUT_SECONDS", "1200"))
 
 BLOCKED_HOSTS = {"localhost", "127.0.0.1", "0.0.0.0", "::1", "metadata.google.internal"}
 BLOCKED_SUFFIXES = (".local", ".internal")
@@ -794,6 +795,22 @@ async def _run_detect_chords(temp_audio_path, request):
             communicate_task.cancel()
 
 
+async def detect_chords_from_path(temp_audio_path, request):
+    returncode, stdout_text, stderr_text = await asyncio.wait_for(
+        _run_detect_chords(temp_audio_path, request),
+        timeout=AUTOCHORD_TIMEOUT_SECONDS,
+    )
+    if returncode != 0:
+        raise HTTPException(
+            status_code=502,
+            detail=(stderr_text or stdout_text or "Chord detection failed").strip()[:500],
+        )
+    try:
+        return _parse_subprocess_json(stdout_text)
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail="Chord detector returned invalid JSON") from exc
+
+
 async def detect_chords_from_audio(audio_bytes, filename, request):
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
 
@@ -802,19 +819,7 @@ async def detect_chords_from_audio(audio_bytes, filename, request):
         temp_audio_path = temp_audio.name
 
     try:
-        returncode, stdout_text, stderr_text = await asyncio.wait_for(
-            _run_detect_chords(temp_audio_path, request),
-            timeout=AUTOCHORD_TIMEOUT_SECONDS,
-        )
-        if returncode != 0:
-            raise HTTPException(
-                status_code=502,
-                detail=(stderr_text or stdout_text or "Chord detection failed").strip()[:500],
-            )
-        try:
-            return _parse_subprocess_json(stdout_text)
-        except Exception as exc:
-            raise HTTPException(status_code=502, detail="Chord detector returned invalid JSON") from exc
+        return await detect_chords_from_path(temp_audio_path, request)
     except ClientDisconnected as exc:
         raise HTTPException(status_code=499, detail="Chord discovery cancelled") from exc
     except asyncio.TimeoutError as exc:
@@ -824,6 +829,255 @@ async def detect_chords_from_audio(audio_bytes, filename, request):
             os.unlink(temp_audio_path)
         except FileNotFoundError:
             pass
+
+
+def _autochord_python_path():
+    autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
+    if not os.path.exists(autochord_python):
+        raise HTTPException(
+            status_code=502,
+            detail=f"Chord detector runtime missing ({autochord_python})",
+        )
+    return autochord_python
+
+
+async def _run_detect_melody(temp_audio_path, request):
+    autochord_python = _autochord_python_path()
+    env = os.environ.copy()
+    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
+    if os.path.isdir(autochord_libs):
+        env["LD_LIBRARY_PATH"] = autochord_libs + (
+            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
+        )
+    proc = await asyncio.create_subprocess_exec(
+        autochord_python,
+        "/app/detect_melody.py",
+        temp_audio_path,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+        env=env,
+    )
+    communicate_task = asyncio.create_task(proc.communicate())
+
+    try:
+        while True:
+            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
+            if done:
+                stdout, stderr = await communicate_task
+                return (
+                    proc.returncode or 0,
+                    stdout.decode("utf-8", errors="ignore"),
+                    stderr.decode("utf-8", errors="ignore"),
+                )
+            if await request.is_disconnected():
+                if proc.returncode is None:
+                    proc.terminate()
+                    try:
+                        await asyncio.wait_for(proc.wait(), timeout=5)
+                    except asyncio.TimeoutError:
+                        proc.kill()
+                        await proc.wait()
+                communicate_task.cancel()
+                raise ClientDisconnected()
+    finally:
+        if not communicate_task.done():
+            communicate_task.cancel()
+
+
+async def detect_melody_from_path(temp_audio_path, request):
+    returncode, stdout_text, stderr_text = await asyncio.wait_for(
+        _run_detect_melody(temp_audio_path, request),
+        timeout=AUTOCHORD_TIMEOUT_SECONDS,
+    )
+    if returncode != 0:
+        raise HTTPException(
+            status_code=502,
+            detail=(stderr_text or stdout_text or "Melody detection failed").strip()[:500],
+        )
+    try:
+        return _parse_subprocess_json(stdout_text)
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail="Melody detector returned invalid JSON") from exc
+
+
+async def _transcribe_from_wav_path(wav_path, request, require_text=True):
+    temp_json_path = wav_path + ".json"
+    result = None
+    active_backend = "unknown"
+    last_error = ""
+
+    try:
+        for backend in _whisper_backend_attempts():
+            returncode, stdout_text, stderr_text, active_backend = await asyncio.wait_for(
+                _run_whisper_cli(wav_path, backend, request),
+                timeout=WHISPER_TIMEOUT_SECONDS,
+            )
+            result = {
+                "returncode": returncode,
+                "stdout": stdout_text,
+                "stderr": stderr_text,
+            }
+            if returncode == 0:
+                break
+            last_error = stderr_text or stdout_text or f"whisper.cpp {backend} attempt failed"
+
+        if result is None or result["returncode"] != 0:
+            raise HTTPException(status_code=502, detail=(last_error or "Transcription failed").strip()[:500])
+
+        body = None
+        if os.path.exists(temp_json_path):
+            with open(temp_json_path, "r", encoding="utf-8") as handle:
+                output = json.load(handle)
+            segments = _normalize_whisper_segments(output)
+            raw_text = " ".join(
+                segment.get("text", "").strip()
+                for segment in segments
+                if segment.get("text", "").strip()
+            )
+            text = _format_transcribed_lyrics(segments, raw_text)
+            body = {
+                "text": text,
+                "segments": segments,
+                "language": "en",
+                "backend": active_backend,
+            }
+        else:
+            raw_text = result["stdout"].strip() if result["stdout"] else ""
+            text = _format_transcribed_lyrics([], raw_text)
+            body = {
+                "text": text,
+                "segments": [],
+                "language": "en",
+                "backend": active_backend,
+            }
+
+        if require_text and not body["text"]:
+            raise HTTPException(status_code=502, detail="Transcription produced no lyrics")
+
+        return body
+    finally:
+        try:
+            os.unlink(temp_json_path)
+        except FileNotFoundError:
+            pass
+
+
+def _empty_analysis_part(part_name):
+    if part_name == "lyrics":
+        return {"text": "", "segments": [], "language": "", "backend": "none", "error": ""}
+    if part_name == "chords":
+        return {"segments": [], "beatTimes": [], "tempo": 0, "duration": 0, "backend": "none", "error": ""}
+    return {"notes": [], "duration": 0, "backend": "none", "error": ""}
+
+
+def _analysis_error_message(exc):
+    if isinstance(exc, HTTPException):
+        return str(exc.detail)
+    return str(exc).strip()[:500] or "Analysis step failed"
+
+
+async def analyze_media_from_audio(audio_bytes, filename, request):
+    suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+
+    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+        temp_audio.write(audio_bytes)
+        temp_audio_path = temp_audio.name
+
+    wav_path = None
+    try:
+        wav_path = await _convert_audio_to_wav(temp_audio_path)
+        lyrics_task = asyncio.create_task(_transcribe_from_wav_path(wav_path, request, require_text=False))
+        chords_task = asyncio.create_task(detect_chords_from_path(wav_path, request))
+        melody_task = asyncio.create_task(detect_melody_from_path(wav_path, request))
+        results = await asyncio.wait_for(
+            asyncio.gather(lyrics_task, chords_task, melody_task, return_exceptions=True),
+            timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS,
+        )
+
+        lyrics = _empty_analysis_part("lyrics")
+        chords = _empty_analysis_part("chords")
+        melody = _empty_analysis_part("melody")
+
+        if isinstance(results[0], Exception):
+            lyrics["error"] = _analysis_error_message(results[0])
+        else:
+            lyrics = results[0]
+            lyrics["error"] = ""
+
+        if isinstance(results[1], Exception):
+            chords["error"] = _analysis_error_message(results[1])
+        else:
+            chords = results[1]
+            chords["error"] = ""
+
+        if isinstance(results[2], Exception):
+            melody["error"] = _analysis_error_message(results[2])
+        else:
+            melody = results[2]
+            melody["error"] = ""
+
+        if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
+            detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"
+            raise HTTPException(status_code=502, detail=detail)
+
+        return {
+            "lyrics": lyrics,
+            "chords": chords,
+            "melody": melody,
+        }
+    except ClientDisconnected as exc:
+        raise HTTPException(status_code=499, detail="Media analysis cancelled") from exc
+    except asyncio.TimeoutError as exc:
+        raise HTTPException(status_code=504, detail="Media analysis timeout") from exc
+    finally:
+        try:
+            os.unlink(temp_audio_path)
+        except FileNotFoundError:
+            pass
+        if wav_path:
+            try:
+                os.unlink(wav_path)
+            except FileNotFoundError:
+                pass
+
+
+async def _resolve_audio_payload(request, file):
+    audio_bytes = b""
+    filename = "audio.bin"
+    content_type = "application/octet-stream"
+
+    if file is not None:
+        audio_bytes = await file.read()
+        filename = file.filename or filename
+        content_type = file.content_type or content_type
+        return audio_bytes, filename, content_type
+
+    payload = await request.json()
+    source_url = str(payload.get("sourceUrl") or "").strip()
+    source_type = str(payload.get("sourceType") or "").strip().lower()
+    if not source_url:
+        raise HTTPException(status_code=400, detail="Missing sourceUrl")
+
+    if source_type == "youtube" or "youtu" in source_url.lower():
+        video_id = extract_youtube_video_id(source_url)
+        if not video_id:
+            raise HTTPException(status_code=400, detail="Invalid YouTube URL")
+        audio_bytes, content_type, error = await fetch_youtube_audio_bytes(video_id)
+        if error:
+            raise HTTPException(
+                status_code=502,
+                detail=("Could not resolve YouTube audio stream" + (": " + error if error else "")).strip(),
+            )
+        filename = video_id + ".mp3"
+    else:
+        validated, error = validate_target_url(source_url)
+        if error:
+            raise HTTPException(status_code=400, detail=error)
+        audio_bytes, content_type = await fetch_upstream_audio_bytes(validated)
+        parsed = urlparse(validated)
+        filename = os.path.basename(parsed.path) or filename
+
+    return audio_bytes, filename, content_type
 
 
 @app.options("/{path:path}")
@@ -837,7 +1091,7 @@ async def root(request: Request):
         {
             "service": "abc2book-local-resolver",
             "health": "/health",
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/midi2xml"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/analyze-media", "/midi2xml"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(request.headers.get("origin")),
@@ -957,6 +1211,40 @@ async def detect_chords(
             return json_error(413, "Media file too large", origin)
 
         body = await detect_chords_from_audio(audio_bytes, filename, request)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/analyze-media")
+async def analyze_media(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+
+        try:
+            audio_bytes, filename, _content_type = await _resolve_audio_payload(request, file)
+        except HTTPException as exc:
+            return json_error(exc.status_code, str(exc.detail), origin)
+
+        if not audio_bytes:
+            return JSONResponse(
+                {
+                    "lyrics": _empty_analysis_part("lyrics"),
+                    "chords": _empty_analysis_part("chords"),
+                    "melody": _empty_analysis_part("melody"),
+                },
+                headers=cors_headers(origin),
+            )
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        body = await analyze_media_from_audio(audio_bytes, filename, request)
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)

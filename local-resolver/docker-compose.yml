@@ -47,6 +47,23 @@ services:
       - caddy_config:/config
     restart: unless-stopped
 
+  # Optional Namecheap dynamic DNS updater. Enable with:
+  #   docker compose --profile ddns up -d
+  # (combine with the proxy, e.g. docker compose --profile https --profile ddns up -d)
+  # Keeps NAMECHEAP_DDNS_HOSTS under NAMECHEAP_DDNS_DOMAIN pointed at this
+  # machine's public IPv4. Requires Dynamic DNS enabled on the domain in the
+  # Namecheap dashboard and the Dynamic DNS password set in .env.
+  ddns:
+    image: curlimages/curl:8.11.1
+    container_name: abc2book-resolver-ddns
+    profiles: ["ddns"]
+    env_file:
+      - .env
+    entrypoint: ["/bin/sh", "/usr/local/bin/ddns-namecheap.sh"]
+    volumes:
+      - ./ddns-namecheap.sh:/usr/local/bin/ddns-namecheap.sh:ro
+    restart: unless-stopped
+
 volumes:
   caddy_data:
   caddy_config:

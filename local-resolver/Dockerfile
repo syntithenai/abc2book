@@ -61,6 +61,7 @@ RUN mkdir -p /opt/autochord-libs \
 
 COPY server.py /app/server.py
 COPY detect_chords.py /app/detect_chords.py
+COPY detect_melody.py /app/detect_melody.py
 
 EXPOSE 8787
 

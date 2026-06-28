@@ -8,11 +8,8 @@ import {
   notifyMediaProxySettingsChanged,
   setSavedMediaProxyBase,
 } from '../mediaProxyConfig'
-import {
-  clearActiveMediaProxyBase,
-  describeResolverAuthReason,
-  probeMediaResolverCandidates,
-} from '../mediaProxyClient'
+import { describeResolverAuthReason } from '../mediaProxyClient'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 
 function formatCandidateStatus(candidate, activeBase) {
   if (!candidate.reachable) {
@@ -32,42 +29,39 @@ function formatCandidateStatus(candidate, activeBase) {
   return candidate.base + ' — reachable, not available'
 }
 
+function getResolverMessage(status, checked) {
+  if (!checked || !status) {
+    return 'Checking resolvers...'
+  }
+  if (status.available && status.activeBase) {
+    return 'Using ' + status.activeBase
+  }
+  if (status.candidates.some(function(candidate) { return candidate.reachable })) {
+    return 'Resolver reachable but not available to this account. Log in with an authorized Google account or use a local resolver.'
+  }
+  if (status.candidates.some(function(candidate) { return candidate.mixedContent })) {
+    return 'No resolver available. An HTTPS page cannot reach an HTTP resolver — use an https:// resolver URL (e.g. ' + DEFAULT_PUBLIC_MEDIA_PROXY + ').'
+  }
+  return 'No resolver available'
+}
+
 export default function SettingsPage(props) {
   const navigate = useNavigate()
   const tunebook = props.tunebook
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
-  const [resolverStatus, setResolverStatus] = useState(null)
+  const { status: resolverStatus, checked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
 
-  function refreshResolverStatus() {
-    clearActiveMediaProxyBase()
-    setResolverMessage('Checking resolvers...')
-    return probeMediaResolverCandidates(accessToken).then(function(status) {
-      setResolverStatus(status)
-      if (status.available && status.activeBase) {
-        setResolverMessage('Using ' + status.activeBase)
-      } else if (status.candidates.some(function(candidate) { return candidate.reachable })) {
-        setResolverMessage('Resolver reachable but not available to this account. Log in with an authorized Google account or use a local resolver.')
-      } else if (status.candidates.some(function(candidate) { return candidate.mixedContent })) {
-        setResolverMessage('No resolver available. An HTTPS page cannot reach an HTTP resolver — use an https:// resolver URL (e.g. ' + DEFAULT_PUBLIC_MEDIA_PROXY + ').')
-      } else {
-        setResolverMessage('No resolver available')
-      }
-      return status
-    })
-  }
-
   useEffect(function() {
-    let cancelled = false
-    refreshResolverStatus().then(function() {
-      if (cancelled) return
-    })
-    return function() {
-      cancelled = true
-    }
-  }, [mediaProxyUrl, accessToken])
+    setResolverMessage(getResolverMessage(resolverStatus, checked))
+  }, [resolverStatus, checked])
+
+  function refreshResolverStatus() {
+    setResolverMessage('Checking resolvers...')
+    return refreshMediaResolverHealth()
+  }
 
   function saveMediaProxy() {
     const normalized = normalizeMediaProxyBase(mediaProxyUrl)
@@ -77,17 +71,13 @@ export default function SettingsPage(props) {
     }
     setSavedMediaProxyBase(normalized)
     setMediaProxyUrl(normalized)
-    clearActiveMediaProxyBase()
     notifyMediaProxySettingsChanged()
-    refreshResolverStatus()
   }
 
   function clearMediaProxy() {
     setSavedMediaProxyBase('')
     setMediaProxyUrl('')
-    clearActiveMediaProxyBase()
     notifyMediaProxySettingsChanged()
-    refreshResolverStatus()
   }
 
   return <div style={{ marginLeft: '0.3em' }} className="App-settings">

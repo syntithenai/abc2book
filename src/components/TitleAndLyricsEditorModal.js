@@ -5,6 +5,7 @@ import useAbcjsParser from '../useAbcjsParser'
 import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import LyricsTranscriptionControls from './LyricsTranscriptionControls'
+import { TuneMediaAnalysisProvider } from '../useTuneMediaAnalysis'
 
 export default function TitleAndLyricsEditorModal({tune, tunebook, token, recordingsManager}) {
   const [show, setShow] = useState(false)
@@ -53,17 +54,17 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, record
                         <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ?  tune.composer : '')  +  " " + tunebook.allowedChordSites} ><Button>Search Chords</Button></a>
                         <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')+ ' '+(tune.rhythm ? tune.rhythm : '')} ><Button>{tunebook.icons.externallink}</Button>
                         </a>
-                        <LyricsTranscriptionControls
+                        <TuneMediaAnalysisProvider
                           tune={tune}
                           tunebook={tunebook}
                           token={token}
                           recordingsManager={recordingsManager}
-                          tuneId={params.tuneId}
-                          onSaveWords={function(words) {
+                          onSaveTune={function() {
                             tune.id = params.tuneId
                             tunebook.saveTune(tune)
                           }}
-                        />
+                        >
+                        <LyricsTranscriptionControls />
                         <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                             var start = (Array.isArray(tune.words) ? tune.words.join("\n") : '')
                             var clean = abcjsParser.cleanupLyrics(start)
@@ -72,6 +73,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, record
                             tunebook.saveTune(tune)
                         }} >{tunebook.icons.wizard} Clean</Button>
                         <textarea value={Array.isArray(tune.words) ? tune.words.join("\n") : ''} onChange={function(e) {tune.words = e.target.value.split("\n"); tune.id = params.tuneId; tunebook.saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
+                        </TuneMediaAnalysisProvider>
                     </Form.Group>
 
         </Modal.Body> 

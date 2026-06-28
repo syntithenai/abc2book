@@ -95,9 +95,7 @@ export default function useTuneBookMediaController(props) {
     var suppressNativePlaybackEventsRef = useRef(false)
     var youtubePlayPollTokenRef = useRef(0)
     const [externalMediaActive, setExternalMediaActive] = useState(false)
-    const { available: mediaResolverAvailable, checked: mediaResolverChecked, refreshMediaResolverHealth } = useMediaResolverHealth({
-        accessToken: props && props.token && props.token.access_token ? props.token.access_token : null,
-    })
+    const { available: mediaResolverAvailable, checked: mediaResolverChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
 
     function getIntentSnapshot() {
         return {

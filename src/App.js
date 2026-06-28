@@ -49,6 +49,7 @@ import useGoogleLogin from './useGoogleLogin'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import useTuneBookMediaController from './useTuneBookMediaController'
+import { useInitMediaResolverHealth } from './useMediaResolverHealth'
 import useFileManager from './useFileManager' 
 import useSyncWorker from './useSyncWorker'	
 import useRouteAnalytics from './useRouteAnalytics'
@@ -98,6 +99,7 @@ function App(props) {
   //}
   var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
   var {user, token, login, logout, refresh,loadCurrentUser, loadUserImage, breakLoginToken} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file', 'openid', 'email', 'profile'] })
+  useInitMediaResolverHealth(token && token.access_token ? token.access_token : null)
   const filesDocumentManager = useGoogleDocument(token, logout)
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
@@ -251,12 +253,16 @@ function App(props) {
         //console.log('onmerge', fullSheet.length, trialResults)
         // warning if items are being deleted
         if (trialResults) {
-			if (Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0|| Object.keys(trialResults.localUpdates).length > 0 || Object.keys(trialResults.localInserts).length > 0) {
+			var needsWarning = Object.keys(trialResults.deletes).length > 0 || Object.keys(trialResults.updates).length > 0 || Object.keys(trialResults.inserts).length > 0
+			if (needsWarning) {
 			  //console.log('onmerge set results',trialResults)
 			  setSheetUpdateResults(trialResults)
 			  tunebook.utils.scrollTo('topofpage')
 			  forceRefresh()
-			} else { 
+			} else if (Object.keys(trialResults.localUpdates).length > 0 || Object.keys(trialResults.localInserts).length > 0) {
+			  // Local changes (edits newer than Drive, or new local-only tunes) are saved silently without warning.
+			  applyMergeChanges(trialResults)
+			} else {
 			  //console.log('onmerge empty results',trialResults)
 			  setSheetUpdateResults(trialResults)
 			  //utils.scrollTo('topofpage')
@@ -338,12 +344,9 @@ function App(props) {
         //return true
       //}
       
-      if (sheetUpdateResults.localInserts && Object.keys(sheetUpdateResults.localInserts).length > 0) {
-        return true
-      }
-      if (sheetUpdateResults.localUpdates && Object.keys(sheetUpdateResults.localUpdates).length > 0) {
-        return true
-      }
+      // Local-only changes (edits that win over a clashing online change, or
+      // new local-only tunes) are saved silently (see onMerge), so they should
+      // not trigger the warning dialog.
     }
     return false
   }

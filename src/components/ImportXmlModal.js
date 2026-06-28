@@ -16,7 +16,7 @@ function ImportXmlModal(props) {
   const [statusText, setStatusText] = useState('');
   const [error, setError] = useState(null);
   const accessToken = props.token && props.token.access_token ? props.token.access_token : null
-  const { available: resolverAvailable } = useMediaResolverHealth({ accessToken })
+  const { available: resolverAvailable } = useMediaResolverHealth()
   const scoreAccept = resolverAvailable ? OFFLINE_ACCEPT + MIDI_ACCEPT : OFFLINE_ACCEPT
   const handleClose = () => {
       setError(null)

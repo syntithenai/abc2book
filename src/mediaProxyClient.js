@@ -4,8 +4,26 @@ import {
 
 let activeProxyBase = null;
 
+// Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
+// public resolver when the browser can't reach it via NAT loopback) would
+// otherwise hang for ~70s on the browser's default connect timeout, blocking the
+// whole probe and hiding resolver-backed UI until it eventually fails.
+const HEALTH_TIMEOUT_MS = 6000;
+
 export function getMediaProxyBaseCandidates() {
   return buildMediaProxyBaseCandidates();
+}
+
+function fetchWithTimeout(url, options, timeoutMs) {
+  if (typeof AbortController === 'undefined') {
+    return fetch(url, options);
+  }
+  const controller = new AbortController();
+  const timer = setTimeout(function() { controller.abort(); }, timeoutMs);
+  const merged = Object.assign({}, options, { signal: controller.signal });
+  return fetch(url, merged).finally(function() {
+    clearTimeout(timer);
+  });
 }
 
 export function getMediaProxyBase() {
@@ -68,10 +86,10 @@ async function tryHealthAtBase(base, accessToken) {
   }
 
   try {
-    const response = await fetch(base + '/health', {
+    const response = await fetchWithTimeout(base + '/health', {
       cache: 'no-store',
       headers: headers,
-    });
+    }, HEALTH_TIMEOUT_MS);
     if (!response.ok) {
       return {
         base: base,
@@ -142,14 +160,19 @@ async function tryHealthAtBase(base, accessToken) {
 
 export async function probeMediaResolverCandidates(accessToken) {
   const bases = getMediaProxyBaseCandidates();
-  const candidates = [];
-  let activeBase = null;
 
-  for (let i = 0; i < bases.length; i++) {
-    const probe = await tryHealthAtBase(bases[i], accessToken);
-    candidates.push(probe);
-    if (probe.reachable && probe.available && !activeBase) {
-      activeBase = probe.base;
+  // Probe all candidates concurrently so one slow/unreachable base (typically
+  // the public resolver) can't block the others. Promise.all preserves order,
+  // so the active base is still chosen by candidate priority.
+  const candidates = await Promise.all(bases.map(function(base) {
+    return tryHealthAtBase(base, accessToken);
+  }));
+
+  let activeBase = null;
+  for (let i = 0; i < candidates.length; i++) {
+    if (candidates[i].reachable && candidates[i].available) {
+      activeBase = candidates[i].base;
+      break;
     }
   }
 

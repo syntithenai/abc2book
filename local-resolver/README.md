@@ -11,6 +11,7 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
+| POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody |
 
 By default no login is required (`REQUIRE_AUTH=false`). The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable.
 
@@ -116,6 +117,43 @@ docker compose exec local-resolver sh -c \
 
 A successful run prints a byte count well over `1000000` (about 3 MB for that video).
 
+## Dynamic DNS (Namecheap)
+
+If this machine sits on a home connection with a changing IP, the bundled `ddns`
+service keeps your Namecheap DNS record pointed at the current public IPv4.
+
+1. In the Namecheap dashboard: **Domain List → Manage → Advanced DNS → Dynamic DNS**,
+   toggle it **on**, and copy the generated **Dynamic DNS Password** (this is not
+   your account password). Make sure an `A + Dynamic DNS Record` exists for each
+   host you want updated (e.g. `peppertrees`).
+2. In `local-resolver/.env`:
+
+   ```bash
+   NAMECHEAP_DDNS_DOMAIN=syntithenai.com
+   NAMECHEAP_DDNS_HOSTS=peppertrees
+   NAMECHEAP_DDNS_PASSWORD=your-dynamic-dns-password
+   # NAMECHEAP_DDNS_INTERVAL=300
+   ```
+
+   Use `@` for the apex domain, or a comma-separated list like
+   `peppertrees,@,www`.
+3. Start it (combine with the HTTPS proxy as needed):
+
+   ```bash
+   docker compose --profile ddns up -d
+   # or, with the reverse proxy:
+   docker compose --profile https --profile ddns up -d
+   ```
+
+4. Check it is updating:
+
+   ```bash
+   docker compose logs -f ddns
+   ```
+
+   On success you'll see `ok: peppertrees.syntithenai.com -> <your.ip>`. The
+   updater only calls Namecheap when the detected IPv4 changes.
+
 ## Configuration
 
 Set in `local-resolver/.env`:
@@ -138,6 +176,11 @@ Set in `local-resolver/.env`:
 | `WHISPER_LYRICS_LINE_PAUSE_SECONDS` | Pause length that starts a new lyric line |
 | `WHISPER_LYRICS_STANZA_PAUSE_SECONDS` | Pause length that inserts a blank line between lyric sections |
 | `AUTOCHORD_TIMEOUT_SECONDS` | Max time to wait for chord discovery |
+| `NAMECHEAP_DDNS_DOMAIN` | Registered domain for the `ddns` service (e.g. `syntithenai.com`) |
+| `NAMECHEAP_DDNS_HOSTS` | Comma-separated hosts to update; `@` is the apex (default `@`) |
+| `NAMECHEAP_DDNS_PASSWORD` | Namecheap Dynamic DNS password (not the account password) |
+| `NAMECHEAP_DDNS_INTERVAL` | Seconds between IP checks (default `300`) |
+| `NAMECHEAP_DDNS_IP_LOOKUP_URL` | Public IPv4 echo service (default `https://ipv4.icanhazip.com`) |
 
 ## From repo root
 

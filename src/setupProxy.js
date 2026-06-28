@@ -5,7 +5,8 @@ function shouldProxyResolver(pathname) {
     || pathname.startsWith('/youtube/')
     || pathname === '/proxy-audio'
     || pathname === '/transcribe'
-    || pathname === '/detect-chords';
+    || pathname === '/detect-chords'
+    || pathname === '/analyze-media';
 }
 
 module.exports = function(app) {
