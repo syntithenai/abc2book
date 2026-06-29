@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 import {
   DEFAULT_PUBLIC_MEDIA_PROXY,
+  getLocalMediaProxyCandidates,
   getSavedMediaProxyBase,
   normalizeMediaProxyBase,
   notifyMediaProxySettingsChanged,
@@ -131,7 +132,7 @@ export default function SettingsPage(props) {
       <Button style={{ marginTop: '0.6em' }} variant="outline-secondary" onClick={refreshResolverStatus}>Refresh status</Button>
       <br />
       <i style={{ display: 'block', marginTop: '0.6em' }}>
-        Order when blank: http://localhost:8787, then {DEFAULT_PUBLIC_MEDIA_PROXY}
+        Order when blank: {getLocalMediaProxyCandidates()[0]}, then {DEFAULT_PUBLIC_MEDIA_PROXY}
       </i>
       <div style={{ marginTop: '0.6em' }}>
         <strong>{resolverMessage}</strong>

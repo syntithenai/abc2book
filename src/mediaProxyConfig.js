@@ -40,13 +40,25 @@ function isLocalHostname(host) {
     || host.startsWith('172.')
 }
 
+function getPageProtocol() {
+  if (typeof window !== 'undefined' && window.location && window.location.protocol) {
+    return window.location.protocol
+  }
+  return 'http:'
+}
+
 export function getLocalMediaProxyCandidates() {
-  const urls = ['http://localhost:8787', 'http://127.0.0.1:8787']
+  // Match the page protocol so an HTTPS site doesn't emit http:// localhost
+  // candidates the browser will block as mixed content. Running the local
+  // resolver behind TLS (e.g. the docker compose `https` profile on localhost)
+  // then lets the production HTTPS site reach it at https://localhost:8787.
+  const scheme = getPageProtocol() === 'https:' ? 'https' : 'http'
+  const urls = [scheme + '://localhost:8787', scheme + '://127.0.0.1:8787']
 
   if (typeof window !== 'undefined') {
     const host = window.location.hostname
     if (host && host !== 'localhost' && host !== '127.0.0.1' && isLocalHostname(host)) {
-      urls.push('http://' + host + ':8787')
+      urls.push(scheme + '://' + host + ':8787')
     }
   }
 
