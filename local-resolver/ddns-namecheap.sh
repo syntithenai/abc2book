@@ -2,8 +2,10 @@
 # Dynamic DNS updater for Namecheap.
 #
 # Keeps one or more Namecheap hosts pointed at this machine's current public
-# IPv4 address by polling a public IP service and calling Namecheap's Dynamic
-# DNS update API whenever the address changes.
+# IPv4 address by polling public IP services and calling Namecheap's Dynamic
+# DNS update API whenever the address changes. It also periodically reasserts
+# the current address so DNS drift can self-heal even when the local public IP
+# has not changed.
 #
 # Required env:
 #   NAMECHEAP_DDNS_DOMAIN     Registered domain, e.g. syntithenai.com
@@ -13,7 +15,11 @@
 #   NAMECHEAP_DDNS_HOSTS      Comma-separated hosts/subdomains (default "@" = apex).
 #                             Example: "peppertrees" or "peppertrees,@,www"
 #   NAMECHEAP_DDNS_INTERVAL   Seconds between checks (default 300).
-#   NAMECHEAP_DDNS_IP_LOOKUP_URL  Public IPv4 echo service (default ipv4.icanhazip.com).
+#   NAMECHEAP_DDNS_IP_LOOKUP_URLS Comma-separated public IPv4 echo services.
+#   NAMECHEAP_DDNS_IP_LOOKUP_URL  Backward-compatible single lookup URL.
+#   NAMECHEAP_DDNS_FORCE_INTERVAL Number of successful check cycles between
+#                                forced updates (default 12, roughly hourly
+#                                with the default 300s interval).
 
 set -u
 
@@ -21,7 +27,9 @@ DOMAIN="${NAMECHEAP_DDNS_DOMAIN:-}"
 PASSWORD="${NAMECHEAP_DDNS_PASSWORD:-}"
 HOSTS="${NAMECHEAP_DDNS_HOSTS:-@}"
 INTERVAL="${NAMECHEAP_DDNS_INTERVAL:-300}"
-IP_LOOKUP_URL="${NAMECHEAP_DDNS_IP_LOOKUP_URL:-https://ipv4.icanhazip.com}"
+DEFAULT_IP_LOOKUP_URLS="https://ipv4.icanhazip.com,https://api.ipify.org,https://checkip.amazonaws.com"
+IP_LOOKUP_URLS="${NAMECHEAP_DDNS_IP_LOOKUP_URLS:-${NAMECHEAP_DDNS_IP_LOOKUP_URL:-$DEFAULT_IP_LOOKUP_URLS}}"
+FORCE_INTERVAL="${NAMECHEAP_DDNS_FORCE_INTERVAL:-12}"
 
 log() {
   echo "[ddns-namecheap] $(date -u '+%Y-%m-%dT%H:%M:%SZ') $*"
@@ -50,30 +58,68 @@ update_host() {
   return 1
 }
 
-log "starting; domain=${DOMAIN} hosts=${HOSTS} interval=${INTERVAL}s lookup=${IP_LOOKUP_URL}"
+is_ipv4() {
+  printf '%s' "$1" | grep -Eq '^([0-9]{1,3}\.){3}[0-9]{1,3}$'
+}
+
+lookup_public_ip() {
+  for _url in $(echo "$IP_LOOKUP_URLS" | tr ',' ' '); do
+    [ -n "$_url" ] || continue
+    _ip="$(curl -fsS4 --max-time 30 "$_url" 2>/dev/null | tr -d '[:space:]' || true)"
+    if is_ipv4 "$_ip"; then
+      printf '%s\n' "$_ip"
+      return 0
+    fi
+    log "lookup failed: ${_url} returned '${_ip:-}'"
+  done
+  return 1
+}
+
+update_all_hosts() {
+  _ip="$1"
+  all_ok=1
+  for h in $(echo "$HOSTS" | tr ',' ' '); do
+    [ -n "$h" ] || continue
+    update_host "$h" "$_ip" || all_ok=0
+  done
+  [ "$all_ok" -eq 1 ]
+}
+
+log "starting; domain=${DOMAIN} hosts=${HOSTS} interval=${INTERVAL}s lookups=${IP_LOOKUP_URLS} force_interval=${FORCE_INTERVAL}"
 
 last_ip=""
+cycles_since_update=0
 while true; do
-  ip="$(curl -fsS4 --max-time 30 "$IP_LOOKUP_URL" 2>/dev/null | tr -d '[:space:]' || true)"
+  ip="$(lookup_public_ip || true)"
 
-  if ! printf '%s' "$ip" | grep -Eq '^([0-9]{1,3}\.){3}[0-9]{1,3}$'; then
-    log "could not determine public IPv4 (got '${ip:-}'); retrying in ${INTERVAL}s"
+  if ! is_ipv4 "$ip"; then
+    log "could not determine public IPv4; retrying in ${INTERVAL}s"
     sleep "$INTERVAL" & wait $!
     continue
   fi
 
+  force_update=0
+  if [ "$FORCE_INTERVAL" -gt 0 ] 2>/dev/null && [ "$cycles_since_update" -ge "$FORCE_INTERVAL" ]; then
+    force_update=1
+  fi
+
   if [ "$ip" != "$last_ip" ]; then
     log "public IPv4 ${last_ip:-none} -> ${ip}; updating hosts: $(echo "$HOSTS" | tr ',' ' ')"
-    all_ok=1
-    for h in $(echo "$HOSTS" | tr ',' ' '); do
-      [ -n "$h" ] || continue
-      update_host "$h" "$ip" || all_ok=0
-    done
-    if [ "$all_ok" -eq 1 ]; then
+    if update_all_hosts "$ip"; then
       last_ip="$ip"
+      cycles_since_update=0
     else
       log "one or more hosts failed; will retry next cycle"
     fi
+  elif [ "$force_update" -eq 1 ]; then
+    log "reasserting unchanged public IPv4 ${ip}; updating hosts: $(echo "$HOSTS" | tr ',' ' ')"
+    if update_all_hosts "$ip"; then
+      cycles_since_update=0
+    else
+      log "one or more hosts failed; will retry next cycle"
+    fi
+  else
+    cycles_since_update=$((cycles_since_update + 1))
   fi
 
   sleep "$INTERVAL" & wait $!
