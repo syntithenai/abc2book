@@ -3,11 +3,14 @@ export const MELODY_PROCESSING_STORAGE_KEY = 'bookstorage_melody_processing';
 export const MELODY_PROCESSING_DEFAULTS = {
   musicType: 'vocal',
   sourceSeparation: 'auto',
+  melodyBackend: 'auto',
   noiseMode: 'balanced',
   confidenceThreshold: 0.55,
   minNoteSeconds: 0.12,
   quantizeStrength: 0.7,
+  snapToScale: false,
   applyAudioFilters: true,
+  whisperLanguage: 'en',
 };
 
 export const NOISE_MODE_PRESETS = {
@@ -19,12 +22,12 @@ export const NOISE_MODE_PRESETS = {
 export const ANALYSIS_FILTER_PRESETS = {
   vocal: {
     melody: { vocals: 1, drums: 0, bass: 0, other: 0 },
-    chords: { vocals: 0.35, drums: 0.45, bass: 1, other: 1 },
+    chords: { vocals: 0.15, drums: 0, bass: 1, other: 1 },
     lyrics: { vocals: 1, drums: 0, bass: 0, other: 0 },
   },
   instrumental: {
     melody: { vocals: 0, drums: 0, bass: 0.85, other: 1 },
-    chords: { vocals: 0, drums: 0.4, bass: 1, other: 1 },
+    chords: { vocals: 0, drums: 0, bass: 1, other: 1 },
     lyrics: { vocals: 0, drums: 0, bass: 0.5, other: 1 },
   },
 };
@@ -67,19 +70,30 @@ export function loadMelodyNoteSettings() {
     confidenceThreshold: loaded.confidenceThreshold,
     minNoteSeconds: loaded.minNoteSeconds,
     quantizeStrength: loaded.quantizeStrength,
+    snapToScale: !!loaded.snapToScale,
   };
 }
 
-export function buildAnalysisProcessingPayload(processingSettings, noteSettings) {
+export function buildAnalysisProcessingPayload(processingSettings, noteSettings, transcriptionHints) {
   const resolved = resolveMelodyProcessing(Object.assign({}, processingSettings, noteSettings || {}));
+  const hints = transcriptionHints || {};
+  const whisperPrompt = [
+    hints.name,
+    hints.composer,
+    Array.isArray(hints.existingLyrics) ? hints.existingLyrics.join(' ') : hints.existingLyrics,
+  ].filter(function(part) { return part && String(part).trim(); }).join(' ').trim();
   return {
     musicType: resolved.musicType,
     sourceSeparation: resolved.sourceSeparation,
+    melodyBackend: resolved.melodyBackend || 'auto',
     noiseMode: resolved.noiseMode,
     confidenceThreshold: resolved.confidenceThreshold,
     minNoteSeconds: resolved.minNoteSeconds,
     quantizeStrength: resolved.quantizeStrength,
+    snapToScale: !!resolved.snapToScale,
     applyAudioFilters: resolved.applyAudioFilters !== false,
+    whisperPrompt: whisperPrompt,
+    whisperLanguage: resolved.whisperLanguage || 'en',
     analysisAudioFilters: {
       melody: getAnalysisAudioFilters(resolved, 'melody'),
       chords: getAnalysisAudioFilters(resolved, 'chords'),

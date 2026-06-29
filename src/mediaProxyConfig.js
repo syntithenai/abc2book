@@ -53,19 +53,34 @@ export function getLocalMediaProxyCandidates() {
   return urls
 }
 
+function parseCsvMediaProxyUrls(value) {
+  if (!value) return []
+  return String(value).split(',').map(normalizeMediaProxyBase).filter(Boolean)
+}
+
+export function getDefaultPublicMediaProxyCandidates() {
+  const urls = [DEFAULT_PUBLIC_MEDIA_PROXY]
+  parseCsvMediaProxyUrls(process.env.REACT_APP_PUBLIC_MEDIA_PROXY_URLS || '').forEach(function(url) {
+    if (urls.indexOf(url) === -1) urls.push(url)
+  })
+  return urls
+}
+
 export function getMediaProxyBaseCandidates() {
   const urls = []
   const saved = getSavedMediaProxyBase()
   if (saved) urls.push(saved)
 
-  urls.push(DEFAULT_PUBLIC_MEDIA_PROXY)
+  const fromEnv = normalizeMediaProxyBase(process.env.REACT_APP_MEDIA_PROXY_BASE || '')
+  if (fromEnv) urls.push(fromEnv)
 
   getLocalMediaProxyCandidates().forEach(function(url) {
     urls.push(url)
   })
 
-  const fromEnv = normalizeMediaProxyBase(process.env.REACT_APP_MEDIA_PROXY_BASE || '')
-  if (fromEnv) urls.push(fromEnv)
+  getDefaultPublicMediaProxyCandidates().forEach(function(url) {
+    urls.push(url)
+  })
 
   return urls.filter(function(url, index, all) {
     return url && all.indexOf(url) === index

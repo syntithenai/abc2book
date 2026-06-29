@@ -7,6 +7,15 @@ import tempfile
 
 import numpy as np
 
+from melody_pitch_processing import (
+    correct_octave_jumps,
+    detect_onset_times,
+    hz_to_midi,
+    midi_name,
+    segment_notes_from_contour,
+    smooth_frequency_contour,
+)
+
 
 NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 DEFAULT_MIN_NOTE_SECONDS = 0.12
@@ -16,10 +25,12 @@ DEFAULT_CONFIDENCE_THRESHOLD = 0.55
 def _load_config(argv):
     config = {
         "sourceSeparation": os.getenv("MELODY_SOURCE_SEPARATION", "auto"),
+        "melodyBackend": os.getenv("MELODY_BACKEND", "auto"),
         "noiseMode": "balanced",
         "confidenceThreshold": float(os.getenv("MELODY_CONFIDENCE_THRESHOLD", DEFAULT_CONFIDENCE_THRESHOLD)),
         "minNoteSeconds": float(os.getenv("MELODY_MIN_NOTE_SECONDS", DEFAULT_MIN_NOTE_SECONDS)),
         "quantizeStrength": 0.7,
+        "snapToScale": False,
         "beatTimes": [],
         "tempo": 0,
         "meter": "",
@@ -45,20 +56,6 @@ def _load_config(argv):
     return config
 
 
-def _hz_to_midi(hz):
-    if hz is None:
-        return None
-    value = float(hz)
-    if value <= 0 or np.isnan(value):
-        return None
-    return int(round(69 + 12 * np.log2(value / 440.0)))
-
-
-def _midi_name(midi):
-    midi = int(midi)
-    return NOTE_NAMES[midi % 12] + str((midi // 12) - 1)
-
-
 def _should_separate(config):
     mode = str(config.get("sourceSeparation", "auto")).lower()
     if mode == "off":
@@ -66,20 +63,6 @@ def _should_separate(config):
     if mode == "on":
         return True
     return True
-
-
-def _melody_device():
-    preference = os.getenv("MELODY_BACKEND_PREFERENCE", "auto").lower()
-    if preference == "cpu":
-        return "cpu"
-    try:
-        import torch
-
-        if torch.cuda.is_available() and preference in ("gpu", "auto", "cuda"):
-            return "cuda"
-    except Exception:
-        pass
-    return "cpu"
 
 
 def _isolate_vocal_stem(audio_path):
@@ -127,72 +110,30 @@ def _track_pyin(y, sr):
     return times, f0, confidence, "librosa-pyin"
 
 
-def _quantize_time(value, beat_times, strength):
-    if not beat_times:
-        return float(value)
-    nearest = min(beat_times, key=lambda beat: abs(float(beat) - float(value)))
-    strength = max(0.0, min(1.0, float(strength)))
-    return float(value) * (1.0 - strength) + float(nearest) * strength
+def _track_basic_pitch(audio_path):
+    try:
+        from basic_pitch.inference import predict
 
-
-def _segment_notes(times, frequency, confidence, config):
-    min_note_seconds = float(config.get("minNoteSeconds", DEFAULT_MIN_NOTE_SECONDS))
-    threshold = float(config.get("confidenceThreshold", DEFAULT_CONFIDENCE_THRESHOLD))
-    beat_times = config.get("beatTimes") or []
-    quantize_strength = float(config.get("quantizeStrength", 0.7))
-
-    notes = []
-    noise = []
-    candidates = []
-    current = None
-
-    def flush_note():
-        nonlocal current
-        if not current:
-            return
-        candidates.append(dict(current))
-        length = current["end"] - current["start"]
-        if length >= min_note_seconds and current.get("confidence", 0) >= threshold:
-            notes.append(current)
-        elif length > 0:
-            noise.append({
-                "start": current["start"],
-                "end": current["end"],
-                "reason": "low-confidence",
-            })
-        current = None
-
-    for index, hz in enumerate(frequency):
-        time = float(times[index])
-        conf = float(confidence[index]) if confidence is not None else 0.0
-        midi = _hz_to_midi(hz) if conf >= threshold * 0.5 else None
-
-        if midi is None:
-            flush_note()
-            continue
-
-        if current and current["midi"] == midi:
-            current["end"] = time
-            current["confidence"] = max(current["confidence"], conf)
-            continue
-
-        flush_note()
-        current = {
-            "start": _quantize_time(time, beat_times, quantize_strength),
-            "end": time,
-            "midi": midi,
-            "name": _midi_name(midi),
-            "confidence": conf,
-        }
-
-    flush_note()
-
-    if beat_times:
-        for note in notes:
-            note["start"] = _quantize_time(note["start"], beat_times, quantize_strength)
-            note["end"] = _quantize_time(note["end"], beat_times, quantize_strength)
-
-    return notes, noise, candidates
+        _, _, note_events = predict(audio_path)
+        notes = []
+        candidates = []
+        for event in note_events:
+            start = float(event[0])
+            end = float(event[1])
+            midi = int(round(float(event[2])))
+            amplitude = float(event[3]) if len(event) > 3 else 0.7
+            row = {
+                "start": start,
+                "end": end,
+                "midi": midi,
+                "name": midi_name(midi),
+                "confidence": min(1.0, max(0.05, amplitude)),
+            }
+            candidates.append(dict(row))
+            notes.append(row)
+        return notes, candidates, "basic-pitch"
+    except Exception:
+        return None, None, None
 
 
 def _detect_silences(notes, duration, min_gap=0.2):
@@ -211,7 +152,7 @@ def _detect_key_from_notes(notes):
     if not notes:
         return ""
     try:
-        from music21 import pitch, stream, note
+        from music21 import note, pitch, stream
 
         score = stream.Stream()
         for row in notes:
@@ -226,6 +167,15 @@ def _detect_key_from_notes(notes):
         return ""
 
 
+def _resolve_backend(config):
+    requested = str(config.get("melodyBackend") or os.getenv("MELODY_BACKEND", "auto")).lower()
+    if requested in ("basic-pitch", "basic_pitch", "basicpitch"):
+        return "basic-pitch"
+    if requested in ("crepe", "pyin", "librosa-pyin"):
+        return requested
+    return "auto"
+
+
 def _detect(audio_path, config):
     import librosa
 
@@ -237,20 +187,65 @@ def _detect(audio_path, config):
 
     y, sr = librosa.load(working_path, sr=22050, mono=True)
     duration = float(librosa.get_duration(y=y, sr=sr))
+    backend_choice = _resolve_backend(config)
+
+    if backend_choice in ("basic-pitch", "auto"):
+        notes, candidates, basic_backend = _track_basic_pitch(working_path)
+        if notes is not None:
+            backend = basic_backend
+            if separated and separation_backend:
+                backend = separation_backend + "+" + backend
+            threshold = float(config.get("confidenceThreshold", DEFAULT_CONFIDENCE_THRESHOLD))
+            min_note_seconds = float(config.get("minNoteSeconds", DEFAULT_MIN_NOTE_SECONDS))
+            filtered = [
+                note for note in notes
+                if (note["end"] - note["start"]) >= min_note_seconds and note.get("confidence", 0) >= threshold
+            ]
+            silences = _detect_silences(filtered, duration)
+            detected_key = config.get("detectedKey") or _detect_key_from_notes(filtered)
+            return _build_result(
+                filtered,
+                candidates or notes,
+                silences,
+                [],
+                duration,
+                backend,
+                separated,
+                config,
+                detected_key,
+            )
+        if backend_choice == "basic-pitch":
+            backend_choice = "crepe"
 
     backend = "librosa-pyin"
     try:
-        times, frequency, confidence, backend = _track_crepe(y, sr, config)
+        if backend_choice == "pyin":
+            times, frequency, confidence, backend = _track_pyin(y, sr)
+        else:
+            times, frequency, confidence, backend = _track_crepe(y, sr, config)
     except Exception:
         times, frequency, confidence, backend = _track_pyin(y, sr)
 
-    notes, noise, candidates = _segment_notes(times, frequency, confidence, config)
+    frequency = smooth_frequency_contour(frequency, confidence)
+    frequency = correct_octave_jumps(frequency, confidence)
+    onset_times = detect_onset_times(y, sr)
+    notes, noise, candidates = segment_notes_from_contour(
+        times,
+        frequency,
+        confidence,
+        config,
+        onset_times=onset_times,
+    )
     silences = _detect_silences(notes, duration)
     detected_key = config.get("detectedKey") or _detect_key_from_notes(notes)
 
     if separated and separation_backend:
         backend = separation_backend + "+" + backend
 
+    return _build_result(notes, candidates, silences, noise, duration, backend, separated, config, detected_key)
+
+
+def _build_result(notes, candidates, silences, noise, duration, backend, separated, config, detected_key):
     return {
         "notes": notes,
         "candidateNotes": candidates,
@@ -271,10 +266,12 @@ def _detect(audio_path, config):
         "detectedMeter": config.get("detectedMeter") or config.get("meter") or "",
         "processing": {
             "sourceSeparation": config.get("sourceSeparation"),
+            "melodyBackend": config.get("melodyBackend"),
             "noiseMode": config.get("noiseMode"),
             "confidenceThreshold": config.get("confidenceThreshold"),
             "minNoteSeconds": config.get("minNoteSeconds"),
             "quantizeStrength": config.get("quantizeStrength"),
+            "snapToScale": bool(config.get("snapToScale")),
         },
     }
 

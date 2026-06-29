@@ -1,21 +1,7 @@
 import { buildVariableMeterBars, prefixMeterChange } from './timingGridUtils';
+import { midiToAbcPitch } from './melodyPitchSpelling';
 
-const ABC_NAMES = ['C', '^C', 'D', '^D', 'E', 'F', '^F', 'G', '^G', 'A', '^A', 'B'];
-
-function midiToAbcPitch(midi) {
-  const value = Math.round(Number(midi) || 0);
-  const pitchClass = ((value % 12) + 12) % 12;
-  const octave = Math.floor(value / 12) - 1;
-  const name = ABC_NAMES[pitchClass];
-
-  if (octave >= 5) {
-    return name.toLowerCase() + "'".repeat(octave - 5);
-  }
-  if (octave === 4) {
-    return name;
-  }
-  return name + ','.repeat(Math.max(0, 4 - octave));
-}
+const SUBDIVISION_OPTIONS = [2, 3, 4];
 
 function getBeatDuration(beatTimes, beatIndex) {
   const start = Number(beatTimes[beatIndex]) || 0;
@@ -32,7 +18,39 @@ function quantizeDuration(duration, beatDuration, slotsPerBeat) {
   if (slots === 2) return '2';
   if (slots === 3) return '3';
   if (slots === 4) return '4';
+  if (slots === 6) return '6';
   return String(slots);
+}
+
+function chooseSlotsPerBeat(notes, beatTimes, beatIndex) {
+  const beatDuration = getBeatDuration(beatTimes, beatIndex);
+  const beatStart = Number(beatTimes[beatIndex]) || 0;
+  const beatEnd = beatIndex + 1 < beatTimes.length
+    ? Number(beatTimes[beatIndex + 1])
+    : beatStart + beatDuration;
+  const beatNotes = notes.filter(function(note) {
+    const start = Number(note.start) || 0;
+    return start >= beatStart - 0.001 && start < beatEnd - 0.001;
+  });
+  if (beatNotes.length === 0) {
+    return 2;
+  }
+  let bestSlots = 2;
+  let bestError = Number.POSITIVE_INFINITY;
+  SUBDIVISION_OPTIONS.forEach(function(slotsPerBeat) {
+    let error = 0;
+    beatNotes.forEach(function(note) {
+      const duration = Math.max(0.05, (Number(note.end) || 0) - (Number(note.start) || 0));
+      const slotDuration = beatDuration / slotsPerBeat;
+      const roundedSlots = Math.max(1, Math.round(duration / slotDuration));
+      error += Math.abs(duration - roundedSlots * slotDuration);
+    });
+    if (error < bestError) {
+      bestError = error;
+      bestSlots = slotsPerBeat;
+    }
+  });
+  return bestSlots;
 }
 
 function findBeatIndex(beatTimes, time) {
@@ -47,6 +65,14 @@ function findBeatIndex(beatTimes, time) {
   return index;
 }
 
+function slotForTime(start, beatTimes, beatIndex, slotsPerBeat) {
+  const beatStart = Number(beatTimes[beatIndex]) || 0;
+  const beatDuration = getBeatDuration(beatTimes, beatIndex);
+  const slotDuration = beatDuration / Math.max(1, slotsPerBeat);
+  const offset = Math.max(0, start - beatStart);
+  return Math.max(0, Math.min(slotsPerBeat - 1, Math.round(offset / slotDuration)));
+}
+
 export function formatMelodyNotes(options) {
   const {
     notes,
@@ -54,13 +80,15 @@ export function formatMelodyNotes(options) {
     beatsPerBar,
     slotsPerBeat,
     meterChanges,
+    key,
+    snapToScale,
   } = options || {};
 
   if (!Array.isArray(notes) || notes.length === 0) return '';
   if (!Array.isArray(beatTimes) || beatTimes.length === 0) return '';
 
   const safeBeatsPerBar = Math.max(1, parseInt(beatsPerBar, 10) || 4);
-  const safeSlotsPerBeat = Math.max(1, parseInt(slotsPerBeat, 10) || 2);
+  const defaultSlotsPerBeat = Math.max(1, parseInt(slotsPerBeat, 10) || 2);
   const bars = buildVariableMeterBars(beatTimes, meterChanges, safeBeatsPerBar)
     .map(function(bar) {
       return Object.assign({}, bar, { notes: [] });
@@ -80,23 +108,38 @@ export function formatMelodyNotes(options) {
         break;
       }
     }
+    const beatSlots = slotsPerBeat || chooseSlotsPerBeat(notes, beatTimes, beatIndex) || defaultSlotsPerBeat;
     const beatDuration = getBeatDuration(beatTimes, beatIndex);
-    const duration = quantizeDuration(end - start, beatDuration, safeSlotsPerBeat);
-    const pitch = midiToAbcPitch(note.midi);
+    const duration = quantizeDuration(end - start, beatDuration, beatSlots);
+    const pitch = midiToAbcPitch(note.midi, {
+      key: key,
+      snapToScale: snapToScale,
+      confidence: note.confidence,
+    });
+    const slotOffset = slotForTime(start, beatTimes, beatIndex, beatSlots);
 
     if (!bars[barNumber]) return;
     bars[barNumber].notes.push({
-      slot: beatInBar * safeSlotsPerBeat,
+      slot: beatInBar * beatSlots + slotOffset,
       token: pitch + duration,
+      slotsPerBeat: beatSlots,
     });
   });
 
   let previousMeter = null;
   return bars.map(function(bar, barIndex) {
-    const slots = new Array(bar.beatsPerBar * safeSlotsPerBeat).fill('z');
+    const barSlots = Math.max(
+      defaultSlotsPerBeat,
+      bar.notes.reduce(function(max, entry) {
+        return Math.max(max, entry.slotsPerBeat || defaultSlotsPerBeat);
+      }, defaultSlotsPerBeat)
+    );
+    const slots = new Array(bar.beatsPerBar * barSlots).fill('z');
     bar.notes.forEach(function(entry) {
       if (entry.slot >= 0 && entry.slot < slots.length) {
-        slots[entry.slot] = entry.token;
+        if (slots[entry.slot] === 'z') {
+          slots[entry.slot] = entry.token;
+        }
       }
     });
     const suffix = ((barIndex + 1) % 4 === 0) ? ' |\n' : ' | ';

@@ -36,12 +36,12 @@ describe('melodyRefilterUtils', function() {
       minNoteSeconds: 0.1,
       quantizeStrength: 1,
     }, beatTimes);
-    expect(filtered[0].start).toBe(0);
-    expect(filtered[0].end).toBe(1);
+    expect(filtered[0].start).toBeCloseTo(0.125, 3);
+    expect(filtered[0].end).toBeCloseTo(0.875, 3);
   });
 
-  test('quantizeMelodyTime blends between detected time and nearest beat', function() {
-    expect(quantizeMelodyTime(0.12, beatTimes, 0.5)).toBeCloseTo(0.06, 5);
+  test('quantizeMelodyTime blends between detected time and nearest subdivision', function() {
+    expect(quantizeMelodyTime(0.12, beatTimes, 1, 4)).toBeCloseTo(0.125, 3);
   });
 
   test('applyMelodyNoteSettingsToDraft rebuilds melody text', function() {

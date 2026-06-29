@@ -123,6 +123,18 @@ input[type=checkbox]
   padding: 10px;
 }
 
+/* Bootstrap switches are checkboxes too; the global scale/padding above breaks
+   their track sizing and click target, so keep them at their native size. */
+.form-switch input[type=checkbox],
+.form-switch .form-check-input {
+  -ms-transform: none;
+  -moz-transform: none;
+  -webkit-transform: none;
+  -o-transform: none;
+  transform: none;
+  padding: 0;
+}
+
 .dropdown-item.even {
   background-color: #a8e1e142;
 } 

@@ -169,6 +169,7 @@ export default function MediaImportWizard(props) {
                           tune={props.tune}
                           processingSettings={draft.processingSettings}
                           melodyNoteSettings={draft.melodyNoteSettings}
+                          existingLyrics={draft.existingWLines}
                           onProcessingChange={function(settings) {
                             updateDraft({ processingSettings: settings });
                           }}

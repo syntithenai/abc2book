@@ -1,23 +1,32 @@
 import { timedMelodyToAbc } from './timedMelodyModel';
 import { NOISE_MODE_PRESETS } from './melodyProcessingSettings';
 
-export function quantizeMelodyTime(value, beatTimes, strength) {
+export function quantizeMelodyTime(value, beatTimes, strength, slotsPerBeat) {
   if (!Array.isArray(beatTimes) || beatTimes.length === 0) {
     return Number(value) || 0;
   }
   const time = Number(value) || 0;
   const clampedStrength = Math.max(0, Math.min(1, Number(strength) || 0));
-  let nearest = Number(beatTimes[0]) || 0;
-  let nearestDistance = Math.abs(nearest - time);
-  beatTimes.forEach(function(beat) {
-    const candidate = Number(beat) || 0;
-    const distance = Math.abs(candidate - time);
-    if (distance < nearestDistance) {
-      nearest = candidate;
-      nearestDistance = distance;
+  const subdivisions = Math.max(1, Number(slotsPerBeat) || 4);
+  let best = time;
+  let bestDistance = Number.POSITIVE_INFINITY;
+  for (let beatIndex = 0; beatIndex < beatTimes.length; beatIndex += 1) {
+    const beatStart = Number(beatTimes[beatIndex]) || 0;
+    const beatEnd = beatIndex + 1 < beatTimes.length
+      ? Number(beatTimes[beatIndex + 1])
+      : beatStart + 0.5;
+    const beatDuration = Math.max(0.05, beatEnd - beatStart);
+    const slotDuration = beatDuration / subdivisions;
+    for (let slot = 0; slot <= subdivisions; slot += 1) {
+      const candidate = beatStart + slot * slotDuration;
+      const distance = Math.abs(candidate - time);
+      if (distance < bestDistance) {
+        best = candidate;
+        bestDistance = distance;
+      }
     }
-  });
-  return time * (1 - clampedStrength) + nearest * clampedStrength;
+  }
+  return time * (1 - clampedStrength) + best * clampedStrength;
 }
 
 export function resolveMelodyNoteSettings(settings) {
@@ -62,8 +71,8 @@ export function refilterMelodyNotes(sourceNotes, settings, beatTimes) {
         return note;
       }
       return Object.assign({}, note, {
-        start: quantizeMelodyTime(note.start, beatTimes, quantizeStrength),
-        end: quantizeMelodyTime(note.end, beatTimes, quantizeStrength),
+        start: quantizeMelodyTime(note.start, beatTimes, quantizeStrength, 4),
+        end: quantizeMelodyTime(note.end, beatTimes, quantizeStrength, 4),
       });
     });
 
@@ -107,6 +116,8 @@ export function applyMelodyNoteSettingsToDraft(draft, noteSettings, tunebook) {
   const melodyAbcText = timedMelodyToAbc(timedMelody, {
     noteLength: draft.metadata && draft.metadata.noteLength ? draft.metadata.noteLength : '',
     beatsPerBar: timedMelody.beatsPerBar || 4,
+    key: (draft.metadata && draft.metadata.key) || timedMelody.detectedKey || timedMelody.key || '',
+    snapToScale: !!(noteSettings && noteSettings.snapToScale),
   });
   const melodyNotesText = tunebook && tunebook.abcTools
     ? (tunebook.abcTools.justNotes(melodyAbcText) || melodyAbcText)

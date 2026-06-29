@@ -59,9 +59,7 @@ function WizardOptionsModal(props) {
         </Modal.Header>
         <Modal.Body>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5em', alignItems: 'center' }}>
-            {/* Temporarily hidden until transcription accuracy improves. Re-enable by
-                restoring <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} /> */}
-            {false && <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} />}
+            <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} />
             <Button variant="primary" onClick={function(e) {
                 applyToNotes(function(v) { 
                   return props.tunebook.abcTools.fixNotesBang(v)

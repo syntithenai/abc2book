@@ -28,7 +28,12 @@ export default function MediaImportAnalyzeStep(props) {
       force: true,
       processing: buildAnalysisProcessingPayload(
         processingSettings,
-        props.melodyNoteSettings
+        melodyNoteSettings,
+        {
+          name: tune && tune.name,
+          composer: tune && tune.composer,
+          existingLyrics: props.existingLyrics,
+        }
       ),
     };
   }

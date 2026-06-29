@@ -113,7 +113,7 @@ export default function SettingsPage(props) {
       <h2 style={{ fontSize: '1.2em' }}>Media resolver / proxy</h2>
       <p>
         Optional base URL for pitch/tempo playback, lyrics transcription, and chord discovery.
-        Leave blank to try the shared resolver, then localhost.
+        Leave blank to try localhost, then shared public resolvers.
       </p>
       <label htmlFor="media-proxy-url" style={{ fontWeight: 'bold' }}>Resolver URL</label>
       <br />
@@ -131,7 +131,7 @@ export default function SettingsPage(props) {
       <Button style={{ marginTop: '0.6em' }} variant="outline-secondary" onClick={refreshResolverStatus}>Refresh status</Button>
       <br />
       <i style={{ display: 'block', marginTop: '0.6em' }}>
-        Order when blank: {DEFAULT_PUBLIC_MEDIA_PROXY}, then http://localhost:8787
+        Order when blank: http://localhost:8787, then {DEFAULT_PUBLIC_MEDIA_PROXY}
       </i>
       <div style={{ marginTop: '0.6em' }}>
         <strong>{resolverMessage}</strong>

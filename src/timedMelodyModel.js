@@ -102,6 +102,8 @@ export function timedMelodyToAbc(timedMelody, options) {
     slotsPerBeat: opts.slotsPerBeat || 2,
     meterChanges: normalized.meterChanges,
     noteLength: opts.noteLength || normalized.noteLength,
+    key: opts.key || normalized.key || normalized.detectedKey || '',
+    snapToScale: !!opts.snapToScale,
   });
 }
 

@@ -1,5 +1,17 @@
 export const TIMED_LYRICS_VERSION = 1;
 
+function wordsFromSegment(segment, text, start, end) {
+  if (segment && Array.isArray(segment.words) && segment.words.length > 0) {
+    return segment.words.map(function(word) {
+      return {
+        text: String(word.text || '').trim(),
+        start: Number(word.start) || start,
+        end: Number(word.end) || end,
+      };
+    }).filter(function(word) { return word.text.length > 0; });
+  }
+  return splitWordsWithTiming(text, start, end);
+}
 function splitWordsWithTiming(text, start, end) {
   const words = String(text || '').trim().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
@@ -88,7 +100,7 @@ export function buildTimedLyricsFromTranscription(raw, sourceInfo) {
         text: trimmed,
         start: start,
         end: end,
-        words: splitWordsWithTiming(trimmed, start, end),
+        words: wordsFromSegment(segment, trimmed, start, end),
       };
     });
   } else {
@@ -102,7 +114,7 @@ export function buildTimedLyricsFromTranscription(raw, sourceInfo) {
         text: text,
         start: start,
         end: end,
-        words: splitWordsWithTiming(text, start, end),
+        words: wordsFromSegment(segment, text, start, end),
       };
     }).filter(function(line) { return line.text.length > 0; });
   }

@@ -85,7 +85,7 @@ export default function HelpPage(props) {
       <br/><br/>
       The resolver is used for MIDI import, YouTube/audio pitch and tempo adjustment, lyrics transcription and chord discovery from linked media.
       <br/><br/>
-      You can check and change the resolver from the Settings page under <b>Media resolver / proxy</b>. Leave the setting blank to try the shared resolver first, then a local resolver at <b>http://localhost:8787</b>.
+      You can check and change the resolver from the Settings page under <b>Media resolver / proxy</b>. Leave the setting blank to try a local resolver at <b>http://localhost:8787</b> first, then shared public resolvers.
       <br/><br/>
       If the Tune Book is opened from an HTTPS address, the browser will block an HTTP resolver because of mixed-content rules. Use an HTTPS resolver URL in that case, or run the app and resolver in a matching local setup.
       </Tab>

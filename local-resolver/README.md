@@ -36,7 +36,30 @@ Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/
 
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
 
-Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** (pitch), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
+Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
+
+### Transcription accuracy tuning
+
+Environment variables for the accuracy improvements:
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `WHISPER_CPP_BEST_OF` | `5` | Whisper search breadth for lyrics |
+| `WHISPER_CPP_BEAM_SIZE` | `5` | Whisper beam size |
+| `WHISPER_LANGUAGE` | `en` | Whisper language hint |
+| `WHISPER_WORD_TIMESTAMPS` | `true` | Request word-level timestamps when supported |
+| `MELODY_BACKEND` | `auto` | `auto`, `basic-pitch`, `crepe`, or `pyin` |
+| `CHORD_CONSTRAIN_TO_KEY` | `true` | Snap smoothed chords toward the detected key |
+| `CHORD_MIN_DURATION_SECONDS` | `0.35` | Merge very short chord segments |
+| `CHORD_MEDIAN_WINDOW` | `3` | Median smoothing window for chord labels |
+
+The analyze payload can also include `whisperPrompt`, `melodyBackend`, and `snapToScale`.
+
+Local smoke evaluation without the UI:
+
+```bash
+python3 local-resolver/eval_transcription.py /path/to/audio.wav
+```
 
 ### GPU resolver (optional)
 

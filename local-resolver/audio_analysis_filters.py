@@ -1,21 +1,19 @@
+import json
 import os
+import sys
 import tempfile
-
-import librosa
-import numpy as np
-import soundfile as sf
 
 STEM_KEYS = ("drums", "bass", "other", "vocals")
 
 ANALYSIS_FILTER_PRESETS = {
     "vocal": {
         "melody": {"vocals": 1.0, "drums": 0.0, "bass": 0.0, "other": 0.0},
-        "chords": {"vocals": 0.35, "drums": 0.45, "bass": 1.0, "other": 1.0},
+        "chords": {"vocals": 0.15, "drums": 0.0, "bass": 1.0, "other": 1.0},
         "lyrics": {"vocals": 1.0, "drums": 0.0, "bass": 0.0, "other": 0.0},
     },
     "instrumental": {
         "melody": {"vocals": 0.0, "drums": 0.0, "bass": 0.85, "other": 1.0},
-        "chords": {"vocals": 0.0, "drums": 0.4, "bass": 1.0, "other": 1.0},
+        "chords": {"vocals": 0.0, "drums": 0.0, "bass": 1.0, "other": 1.0},
         "lyrics": {"vocals": 0.0, "drums": 0.0, "bass": 0.5, "other": 1.0},
     },
 }
@@ -44,6 +42,10 @@ def _should_apply_filters(processing):
 
 
 def _mix_stems(stem_paths, weights, output_path, samplerate):
+    import librosa
+    import numpy as np
+    import soundfile as sf
+
     mixed = None
     sr = int(samplerate)
     for stem in STEM_KEYS:
@@ -128,3 +130,32 @@ def cleanup_analysis_audio_paths(paths):
             os.rmdir(stem_dir)
         except OSError:
             pass
+
+
+def main():
+    """CLI entry point: runs in the autochord venv (librosa + demucs available).
+
+    Usage: audio_analysis_filters.py <wav_path> [processing_json]
+    Prints the per-task filtered WAV paths as JSON on stdout.
+    """
+    if len(sys.argv) < 2:
+        print(json.dumps({"error": "missing wav_path"}))
+        return 1
+
+    wav_path = sys.argv[1]
+    processing = {}
+    if len(sys.argv) > 2 and sys.argv[2]:
+        try:
+            parsed = json.loads(sys.argv[2])
+            if isinstance(parsed, dict):
+                processing = parsed
+        except Exception:
+            processing = {}
+
+    result = prepare_analysis_audio_paths(wav_path, processing)
+    print(json.dumps(result))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

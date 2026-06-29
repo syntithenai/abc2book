@@ -164,6 +164,11 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
       : [],
   });
 
+  const detectedKey = (analysis.melody && (analysis.melody.detectedKey || analysis.melody.key))
+    || (tune && tune.key)
+    || '';
+  const snapToScale = !!(analysis.melody && analysis.melody.processing && analysis.melody.processing.snapToScale);
+
   const melodyText = formatMelodyNotes({
     notes: analysis.melody.notes,
     beatTimes: analysis.timing && analysis.timing.beatTimes && analysis.timing.beatTimes.length > 0
@@ -175,6 +180,8 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
       ? analysis.timing.meterChanges
       : [],
     noteLength: noteLength,
+    key: detectedKey,
+    snapToScale: snapToScale,
   });
 
   return {

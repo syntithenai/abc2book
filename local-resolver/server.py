@@ -35,7 +35,10 @@ WHISPER_CPP_PATH = os.getenv("WHISPER_CPP_PATH", "/app/build/bin/whisper-cli")
 MODEL_PATH = os.getenv("MODEL_PATH", "/models/ggml-large-v3.bin")
 WHISPER_BACKEND_PREFERENCE = os.getenv("WHISPER_BACKEND_PREFERENCE", "auto").strip().lower() or "auto"
 WHISPER_CPU_FALLBACK = os.getenv("WHISPER_CPU_FALLBACK", "true").strip().lower() not in {"0", "false", "no"}
-WHISPER_CPP_BEST_OF = int(os.getenv("WHISPER_CPP_BEST_OF", "1"))
+WHISPER_CPP_BEST_OF = int(os.getenv("WHISPER_CPP_BEST_OF", "5"))
+WHISPER_CPP_BEAM_SIZE = int(os.getenv("WHISPER_CPP_BEAM_SIZE", "5"))
+WHISPER_LANGUAGE = os.getenv("WHISPER_LANGUAGE", "en").strip() or "en"
+WHISPER_WORD_TIMESTAMPS = os.getenv("WHISPER_WORD_TIMESTAMPS", "true").strip().lower() not in {"0", "false", "no"}
 WHISPER_CPP_NO_CONTEXT = os.getenv("WHISPER_CPP_NO_CONTEXT", "false").strip().lower() not in {"0", "false", "no"}
 WHISPER_LYRICS_FORMAT = os.getenv("WHISPER_LYRICS_FORMAT", "true").strip().lower() not in {"0", "false", "no"}
 WHISPER_LYRICS_MAX_WORDS = max(1, int(os.getenv("WHISPER_LYRICS_MAX_WORDS", "10")))
@@ -51,6 +54,10 @@ BLOCKED_SUFFIXES = (".local", ".internal")
 YOUTUBE_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 SENTENCE_END_RE = re.compile(r"[.!?][\"')\]]*$")
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
+# whisper.cpp emits special control tokens (e.g. [_TT_542], [_BEG_], [_SOT_],
+# [_EOT_], [_NOSP_]) alongside real word tokens when token timestamps (-ojf) are
+# enabled. These must be stripped so they never leak into transcribed lyrics.
+WHISPER_SPECIAL_TOKEN_RE = re.compile(r"^\[_.*\]$")
 
 
 def is_dev_origin(origin):
@@ -467,6 +474,7 @@ def _normalize_whisper_segments(output):
         text = str(row.get("text", "") or "").strip()
         offsets = row.get("offsets") or {}
         timestamps = row.get("timestamps") or {}
+        tokens = row.get("tokens") or []
 
         start = None
         end = None
@@ -482,10 +490,38 @@ def _normalize_whisper_segments(output):
         if end is None:
             end = start
 
+        words = []
+        for token in tokens:
+            token_text = str(token.get("text", "") or "").strip()
+            if not token_text:
+                continue
+            if WHISPER_SPECIAL_TOKEN_RE.match(token_text):
+                continue
+            token_offsets = token.get("offsets") or {}
+            token_timestamps = token.get("timestamps") or {}
+            word_start = None
+            word_end = None
+            if "from" in token_offsets or "to" in token_offsets:
+                word_start = _safe_float(token_offsets.get("from", 0.0)) / 1000.0
+                word_end = _safe_float(token_offsets.get("to", 0.0)) / 1000.0
+            elif "from" in token_timestamps or "to" in token_timestamps:
+                word_start = _parse_timestamp_text(token_timestamps.get("from", "0"))
+                word_end = _parse_timestamp_text(token_timestamps.get("to", "0"))
+            if word_start is None:
+                word_start = start
+            if word_end is None:
+                word_end = end
+            words.append({
+                "text": token_text,
+                "start": float(max(0.0, word_start)),
+                "end": float(max(float(word_start), word_end)),
+            })
+
         normalized.append({
             "start": float(max(0.0, start)),
             "end": float(max(float(start), end)),
             "text": text,
+            "words": words,
         })
     return normalized
 
@@ -587,8 +623,13 @@ async def _convert_audio_to_wav(input_path):
     return wav_path
 
 
-async def _run_whisper_cli(temp_audio_path, backend, request):
+async def _run_whisper_cli(temp_audio_path, backend, request, whisper_options=None):
     env = os.environ.copy()
+    options = whisper_options if isinstance(whisper_options, dict) else {}
+    prompt = str(options.get("whisperPrompt") or options.get("prompt") or "").strip()
+    language = str(options.get("whisperLanguage") or options.get("language") or WHISPER_LANGUAGE).strip()
+    best_of = int(options.get("whisperBestOf") or WHISPER_CPP_BEST_OF)
+    beam_size = int(options.get("whisperBeamSize") or WHISPER_CPP_BEAM_SIZE)
     cmd = [
         WHISPER_CPP_PATH,
         "-m",
@@ -599,8 +640,16 @@ async def _run_whisper_cli(temp_audio_path, backend, request):
         "-of",
         temp_audio_path,
         "--best-of",
-        str(WHISPER_CPP_BEST_OF),
+        str(max(1, best_of)),
     ]
+    if beam_size > 0:
+        cmd.extend(["--beam-size", str(beam_size)])
+    if language:
+        cmd.extend(["-l", language])
+    if prompt:
+        cmd.extend(["--prompt", prompt[:800]])
+    if WHISPER_WORD_TIMESTAMPS:
+        cmd.append("-ojf")
     if WHISPER_CPP_NO_CONTEXT:
         cmd.append("--no-context")
 
@@ -1131,7 +1180,7 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
                 pass
 
 
-async def _transcribe_from_wav_path(wav_path, request, require_text=True):
+async def _transcribe_from_wav_path(wav_path, request, require_text=True, whisper_options=None):
     temp_json_path = wav_path + ".json"
     result = None
     active_backend = "unknown"
@@ -1140,7 +1189,7 @@ async def _transcribe_from_wav_path(wav_path, request, require_text=True):
     try:
         for backend in _whisper_backend_attempts():
             returncode, stdout_text, stderr_text, active_backend = await asyncio.wait_for(
-                _run_whisper_cli(wav_path, backend, request),
+                _run_whisper_cli(wav_path, backend, request, whisper_options),
                 timeout=WHISPER_TIMEOUT_SECONDS,
             )
             result = {
@@ -1235,11 +1284,98 @@ def _parse_processing_config(raw):
     return {}
 
 
-async def analyze_media_from_audio(audio_bytes, filename, request, processing=None, on_progress=None):
-    from audio_analysis_filters import (
-        cleanup_analysis_audio_paths,
-        prepare_analysis_audio_paths,
+def _fallback_analysis_audio_paths(wav_path):
+    return {
+        "timing": wav_path,
+        "lyrics": wav_path,
+        "chords": wav_path,
+        "melody": wav_path,
+        "stem_dir": None,
+        "filtered_paths": [],
+    }
+
+
+async def _run_prepare_analysis_filters(wav_path, processing, request):
+    """Run stem separation + per-task stem mixing in the autochord venv.
+
+    librosa and demucs only exist in the venv, so this must run as a subprocess
+    rather than in the (system python) server process.
+    """
+    autochord_python = _autochord_python_path()
+    env = os.environ.copy()
+    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
+    if os.path.isdir(autochord_libs):
+        env["LD_LIBRARY_PATH"] = autochord_libs + (
+            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
+        )
+    command = [
+        autochord_python,
+        "/app/audio_analysis_filters.py",
+        wav_path,
+        json.dumps(processing or {}),
+    ]
+    proc = await asyncio.create_subprocess_exec(
+        *command,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+        env=env,
     )
+    communicate_task = asyncio.create_task(proc.communicate())
+    try:
+        while True:
+            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
+            if done:
+                stdout, stderr = await communicate_task
+                return (
+                    proc.returncode or 0,
+                    stdout.decode("utf-8", errors="ignore"),
+                    stderr.decode("utf-8", errors="ignore"),
+                )
+            if await request.is_disconnected():
+                if proc.returncode is None:
+                    proc.terminate()
+                    try:
+                        await asyncio.wait_for(proc.wait(), timeout=5)
+                    except asyncio.TimeoutError:
+                        proc.kill()
+                        await proc.wait()
+                communicate_task.cancel()
+                raise ClientDisconnected()
+    finally:
+        if not communicate_task.done():
+            communicate_task.cancel()
+
+
+async def prepare_analysis_audio_paths_async(wav_path, processing, request):
+    try:
+        returncode, stdout_text, _stderr_text = await asyncio.wait_for(
+            _run_prepare_analysis_filters(wav_path, processing, request),
+            timeout=STEM_SEPARATION_TIMEOUT_SECONDS,
+        )
+    except ClientDisconnected:
+        raise
+    except Exception:
+        return _fallback_analysis_audio_paths(wav_path)
+
+    if returncode != 0:
+        return _fallback_analysis_audio_paths(wav_path)
+
+    parsed = None
+    for line in reversed((stdout_text or "").splitlines()):
+        line = line.strip()
+        if line.startswith("{") and line.endswith("}"):
+            try:
+                parsed = json.loads(line)
+                break
+            except Exception:
+                continue
+    if not isinstance(parsed, dict) or parsed.get("error"):
+        return _fallback_analysis_audio_paths(wav_path)
+    return parsed
+
+
+async def analyze_media_from_audio(audio_bytes, filename, request, processing=None, on_progress=None):
+    from audio_analysis_filters import cleanup_analysis_audio_paths
 
     async def report(stage, message, progress):
         if on_progress:
@@ -1262,7 +1398,7 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
         wav_path = await _convert_audio_to_wav(temp_audio_path)
 
         await report("filters", "Preparing audio filters...", 12)
-        audio_paths = prepare_analysis_audio_paths(wav_path, processing)
+        audio_paths = await prepare_analysis_audio_paths_async(wav_path, processing, request)
         melody_processing = dict(processing or {})
         if audio_paths.get("filtered_paths"):
             melody_processing["sourceSeparation"] = "off"
@@ -1277,7 +1413,12 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
             timing["error"] = _analysis_error_message(exc)
 
         lyrics_task = asyncio.create_task(
-            _transcribe_from_wav_path(audio_paths.get("lyrics") or wav_path, request, require_text=False)
+            _transcribe_from_wav_path(
+                audio_paths.get("lyrics") or wav_path,
+                request,
+                require_text=False,
+                whisper_options=processing,
+            )
         )
         chords_task = asyncio.create_task(
             detect_chords_from_path(audio_paths.get("chords") or wav_path, request)
@@ -1344,6 +1485,20 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
             chords["beatTimes"] = shared_beat_times
             if timing.get("tempo"):
                 chords["tempo"] = timing.get("tempo")
+
+        if isinstance(chords, dict) and isinstance(melody, dict) and chords.get("segments"):
+            try:
+                from chord_processing import post_process_chords
+
+                detected_key = melody.get("detectedKey") or melody.get("key") or ""
+                chords["segments"] = post_process_chords(
+                    chords.get("segments") or [],
+                    key_text=detected_key,
+                    constrain_to_key=True,
+                    beat_times=shared_beat_times or chords.get("beatTimes") or [],
+                )
+            except Exception:
+                pass
 
         if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
             detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"

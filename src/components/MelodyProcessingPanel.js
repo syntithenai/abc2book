@@ -32,6 +32,10 @@ const NOTATION_HELP_FIELDS = [
     title: 'Quantize',
     body: 'How strongly note starts and lengths are snapped to the detected beat grid. 0 leaves timing as detected; 1 fully aligns notes to the grid.',
   },
+  {
+    title: 'Snap to scale',
+    body: 'When enabled, low-confidence detected pitches are nudged to the nearest note in the current key signature before ABC spelling.',
+  },
 ];
 
 function getDefaultSettings(variant) {
@@ -144,6 +148,16 @@ export default function MelodyProcessingPanel(props) {
                   {icons.question}
                 </Button>
               </div>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2em' }}>
+              <Form.Label style={{ fontSize: '0.85em', marginBottom: 0 }}>Snap to scale</Form.Label>
+              <Form.Check
+                type="switch"
+                id="melody-snap-to-scale"
+                checked={!!settings.snapToScale}
+                onChange={function(e) { update('snapToScale', e.target.checked); }}
+                label={settings.snapToScale ? 'On' : 'Off'}
+              />
             </div>
           </>
         )}

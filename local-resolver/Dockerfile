@@ -19,6 +19,7 @@ COPY requirements-melody.txt /build/requirements-melody.txt
 COPY prefetch_autochord.py /build/prefetch_autochord.py
 COPY prefetch_madmom.py /build/prefetch_madmom.py
 COPY prefetch_demucs.py /build/prefetch_demucs.py
+COPY prefetch_basic_pitch.py /build/prefetch_basic_pitch.py
 
 # Applied to isolated build environments too, so legacy setup.py builds (crepe,
 # madmom) get a setuptools that still provides pkg_resources.
@@ -38,7 +39,8 @@ RUN python -m venv "${AUTOCHORD_VENV}" \
         "madmom @ git+https://github.com/CPJKU/madmom.git@main" \
     && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_autochord.py \
     && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_madmom.py \
-    && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_demucs.py
+    && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_demucs.py \
+    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_basic_pitch.py
 
 
 FROM ghcr.io/ggml-org/whisper.cpp:main-vulkan
@@ -67,6 +69,9 @@ RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 COPY --from=autochord-env /opt/autochord-venv /opt/autochord-venv
 COPY --from=autochord-env /root/.autochord /root/.autochord
+# Demucs htdemucs weights are prefetched into the torch hub cache; copy it so
+# stem separation works offline at runtime (otherwise it re-downloads).
+COPY --from=autochord-env /root/.cache/torch /root/.cache/torch
 
 # The chord venv was built with Python 3.11; copy that interpreter into the runtime image.
 COPY --from=autochord-env /usr/local/bin/python3.11 /usr/local/bin/python3.11
@@ -84,8 +89,12 @@ COPY server.py /app/server.py
 COPY detect_chords.py /app/detect_chords.py
 COPY detect_melody.py /app/detect_melody.py
 COPY detect_timing.py /app/detect_timing.py
+COPY chord_processing.py /app/chord_processing.py
+COPY melody_pitch_processing.py /app/melody_pitch_processing.py
+COPY audio_analysis_filters.py /app/audio_analysis_filters.py
 COPY stem_separation.py /app/stem_separation.py
 COPY separate_stems.py /app/separate_stems.py
+COPY eval_transcription.py /app/eval_transcription.py
 
 EXPOSE 8787
 
