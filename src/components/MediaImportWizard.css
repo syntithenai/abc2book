@@ -1,0 +1,74 @@
+.media-import-wizard-modal .modal-dialog {
+  max-width: 100vw;
+  width: 100vw;
+  margin: 0;
+  height: 100vh;
+}
+
+.media-import-wizard-modal .modal-content {
+  height: 100vh;
+  border: 0;
+  border-radius: 0;
+}
+
+.media-import-wizard-body {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+.media-import-wizard-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 1em;
+}
+
+.media-import-wizard-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.media-import-wizard-step-body {
+  flex: 1;
+  overflow: auto;
+  padding-right: 0.5em;
+}
+
+.media-import-wizard-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  height: 100%;
+  min-height: 24em;
+}
+
+.media-import-wizard-split textarea {
+  width: 100%;
+  min-height: 24em;
+  font-family: monospace;
+}
+
+@media (max-width: 900px) {
+  .media-import-wizard-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.media-import-entry-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.media-import-entry-progress {
+  margin-top: 0.35em;
+  height: 0.45em;
+  min-width: 10em;
+}

@@ -1,6 +1,7 @@
 import {useEffect,useState, useRef} from 'react'
 import ExternalMediaPitchTempo from './externalMediaPitchTempo'
-import { getPlaybackSettings, playbackNeedsExternalProcessing } from './pitchTempoUtils'
+import { getMediaPlaybackSettings, getPlaybackSettings, getAudioFilterSettings, normalizeAudioFilters, playbackNeedsExternalProcessing, audioFiltersAreNeutral } from './pitchTempoUtils'
+import { buildFilteredMediaBlob, getNativeFilteredBlobCacheKey } from './nativeFilteredMedia'
 import { parseMsToSeconds, getActivePlaybackLoop, getLinkRegionStart, getLinkRegionEnd, syncLegacyLinkLoopFields, ensureSingleActiveLoop } from './mediaPlaybackUtils'
 import { downloadAndCacheExternalMedia, isExternalMediaCached, getExternalMediaMp3Blob } from './externalMediaAudioCache'
 import useMediaResolverHealth from './useMediaResolverHealth'
@@ -59,6 +60,7 @@ export default function useTuneBookMediaController(props) {
     const [playbackSpeed, setPlaybackSpeed] = useState(1)
     
     var playerRef = useRef()
+    var filteredPlayerRef = useRef()
     var ytPlayerRef = useRef()
     
     var youtubeProgressInterval = useRef()
@@ -82,6 +84,12 @@ export default function useTuneBookMediaController(props) {
     var externalLoadingPromiseRef = useRef(null)
     var pendingExternalSettingsRef = useRef(null)
     var externalMediaActiveRef = useRef(false)
+    var nativeFilteredActiveRef = useRef(false)
+    var nativeFilteredBlobUrlRef = useRef(null)
+    var nativeFilteredDurationRef = useRef(0)
+    var nativeFilteredLoadTokenRef = useRef(0)
+    var nativeFilteredBlobCacheRef = useRef(new Map())
+    var nativeFilteredCacheKeyRef = useRef(null)
     var externalHandoffGuardUntilRef = useRef(0)
     var seekGuardUntilRef = useRef(0)
     var seekInProgressRef = useRef(false)
@@ -95,6 +103,7 @@ export default function useTuneBookMediaController(props) {
     var suppressNativePlaybackEventsRef = useRef(false)
     var youtubePlayPollTokenRef = useRef(0)
     const [externalMediaActive, setExternalMediaActive] = useState(false)
+    const [stemSeparationActive, setStemSeparationActive] = useState(false)
     const { available: mediaResolverAvailable, checked: mediaResolverChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
 
     function getIntentSnapshot() {
@@ -319,16 +328,253 @@ export default function useTuneBookMediaController(props) {
         return props.token && props.token.access_token ? props.token.access_token : null
     }
 
+    function getExternalMediaCacheOptions(currentTune, linkIndex) {
+        const resolvedTune = currentTune || tuneRef.current || tune
+        const resolvedLink = linkIndex !== null && linkIndex !== undefined
+            ? linkIndex
+            : mediaLinkNumberRef.current
+        if (!resolvedTune || resolvedLink === null || resolvedLink === undefined) {
+            return null
+        }
+        const src = getSrc(resolvedTune, resolvedLink)
+        if (!src) return null
+        return {
+            tuneId: resolvedTune.id,
+            linkIndex: resolvedLink,
+            src: src,
+            srcType: getSrcType(src),
+            label: resolvedTune.links && resolvedTune.links[resolvedLink]
+                ? resolvedTune.links[resolvedLink].label || ''
+                : '',
+            accessToken: getGoogleAccessToken(),
+        }
+    }
+
     function canUseExternalPitchTempo(settings) {
         if (mediaLinkNumber === null || !tune) return false
         const src = getSrc(tune, mediaLinkNumber)
         const srcType = getSrcType(src)
         if (srcType !== 'audio' && srcType !== 'youtube') return false
-        const resolved = settings || getPlaybackSettings(tune)
-        if (!playbackNeedsExternalProcessing(resolved)) return false
+        const resolved = settings || getMediaPlaybackSettings(tune)
+        if (!settingsRequireExternalMediaProcessor(resolved)) return false
         if (!isMediaProxyConfigured()) return false
         if (mediaResolverChecked && !mediaResolverAvailable) return false
         return true
+    }
+
+    function settingsRequireExternalMediaProcessor(settings) {
+        if (!settings) return false
+        return settings.pitch !== 0 || settings.fineTune !== 0
+    }
+
+    function settingsUseNativeFilteredPlayback(settings) {
+        if (!settings) return false
+        if (settings.pitch !== 0 || settings.fineTune !== 0) return false
+        return !!(settings.audioFilters && !audioFiltersAreNeutral(settings.audioFilters))
+    }
+
+    function canUseNativeFilteredPlayback(settings) {
+        if (mediaLinkNumber === null || !tune) return false
+        const src = getSrc(tune, mediaLinkNumber)
+        const srcType = getSrcType(src)
+        if (srcType !== 'audio' && srcType !== 'youtube') return false
+        const resolved = settings || getMediaPlaybackSettings(tune)
+        if (!settingsUseNativeFilteredPlayback(resolved)) return false
+        if (!isMediaProxyConfigured()) return false
+        if (mediaResolverChecked && !mediaResolverAvailable) return false
+        return true
+    }
+
+    function isNativeFilteredActive() {
+        return !!nativeFilteredActiveRef.current && !!filteredPlayerRef.current
+    }
+
+    function destroyNativeFilteredPlayback() {
+        nativeFilteredLoadTokenRef.current++
+        nativeFilteredActiveRef.current = false
+        nativeFilteredDurationRef.current = 0
+        nativeFilteredCacheKeyRef.current = null
+        if (nativeFilteredBlobUrlRef.current) {
+            URL.revokeObjectURL(nativeFilteredBlobUrlRef.current)
+            nativeFilteredBlobUrlRef.current = null
+        }
+        if (filteredPlayerRef.current) {
+            try {
+                filteredPlayerRef.current.pause()
+                filteredPlayerRef.current.removeAttribute('src')
+                filteredPlayerRef.current.load()
+            } catch (e) {}
+        }
+        unmuteNativePlayers()
+    }
+
+    function applyTempoToNativeElement(element, tempo) {
+        if (!element) return
+        const rate = parseFloat(tempo > 0 ? tempo : 1)
+        element.preservesPitch = true
+        element.mozPreservesPitch = true
+        element.webkitPreservesPitch = true
+        element.playbackRate = rate
+    }
+
+    function waitForMediaElementReady(element) {
+        if (!element) return Promise.resolve(false)
+        if (element.readyState >= 3) return Promise.resolve(true)
+        return new Promise(function(resolve) {
+            function done(ok) {
+                element.removeEventListener('canplaythrough', onReady)
+                element.removeEventListener('error', onError)
+                resolve(ok)
+            }
+            function onReady() { done(true) }
+            function onError() { done(false) }
+            element.addEventListener('canplaythrough', onReady)
+            element.addEventListener('error', onError)
+        })
+    }
+
+    async function attachNativeFilteredPlayback(blobUrl, duration, settings, options) {
+        const opts = options || {}
+        const player = filteredPlayerRef.current
+        if (!player) return false
+
+        muteNativePlayers()
+        nativeFilteredBlobUrlRef.current = blobUrl
+        nativeFilteredActiveRef.current = true
+        nativeFilteredDurationRef.current = duration
+        setDuration(duration)
+        setIsReady(true)
+
+        const resumeAt = opts.resumeAt !== undefined && opts.resumeAt !== null
+            ? Math.max(0, parseFloat(opts.resumeAt) || 0)
+            : 0
+        player.src = blobUrl
+        player.load()
+        await waitForMediaElementReady(player)
+        applyTempoToNativeElement(player, settings.tempo)
+        if (duration > 0) {
+            player.currentTime = Math.min(resumeAt, Math.max(0, duration - 0.05))
+            setCurrentTime(player.currentTime)
+        }
+
+        if (opts.play !== false && hasActivePlaybackIntent()) {
+            try {
+                await player.play()
+                confirmPlayingStarted()
+            } catch (e) {
+                if (isAutoplayBlockedError(e)) {
+                    setTapToPlay(true)
+                }
+                setIsPlaying(false)
+                setIsLoading(false)
+                return false
+            }
+        }
+        return true
+    }
+
+    async function applyNativeFilteredPlayback(settings, options) {
+        const opts = options || {}
+        if (!canUseNativeFilteredPlayback(settings)) {
+            destroyNativeFilteredPlayback()
+            return false
+        }
+
+        destroyExternalMedia()
+
+        const cacheOptions = getExternalMediaCacheOptions(tuneRef.current || tune, mediaLinkNumberRef.current)
+        if (!cacheOptions) return false
+
+        const token = ++nativeFilteredLoadTokenRef.current
+        const playingNow = opts.play !== false
+            && (opts.forcePlay || (playingIntentRef.current && !userPausedRef.current))
+
+        setIsLoading(true)
+        try {
+            let blob = null
+            let duration = 0
+            let cacheKey = null
+
+            const existingSeparationKey = nativeFilteredCacheKeyRef.current
+            if (existingSeparationKey) {
+                const cachedBlob = nativeFilteredBlobCacheRef.current.get(
+                    getNativeFilteredBlobCacheKey(cacheOptions, existingSeparationKey, settings.audioFilters)
+                )
+                if (cachedBlob) {
+                    blob = cachedBlob.blob
+                    duration = cachedBlob.duration
+                    cacheKey = existingSeparationKey
+                }
+            }
+
+            if (!blob) {
+                const built = await buildFilteredMediaBlob(cacheOptions, settings.audioFilters)
+                if (token !== nativeFilteredLoadTokenRef.current) return false
+                blob = built.blob
+                duration = built.duration
+                cacheKey = built.separation.cacheId
+                nativeFilteredBlobCacheRef.current.set(
+                    getNativeFilteredBlobCacheKey(cacheOptions, cacheKey, settings.audioFilters),
+                    { blob: blob, duration: duration }
+                )
+            }
+
+            nativeFilteredCacheKeyRef.current = cacheKey
+
+            if (nativeFilteredBlobUrlRef.current) {
+                URL.revokeObjectURL(nativeFilteredBlobUrlRef.current)
+            }
+            const blobUrl = URL.createObjectURL(blob)
+
+            return await attachNativeFilteredPlayback(blobUrl, duration, settings, {
+                resumeAt: opts.resumeAt !== undefined ? opts.resumeAt : getCurrentPlaybackSeconds(),
+                play: playingNow,
+            })
+        } catch (e) {
+            console.log('Native filtered playback failed', e)
+            destroyNativeFilteredPlayback()
+            return false
+        } finally {
+            if (token === nativeFilteredLoadTokenRef.current) {
+                setIsLoading(false)
+            }
+        }
+    }
+
+    function playNativeFilteredMedia(options) {
+        const opts = options || {}
+        if (!isNativeFilteredActive()) return Promise.resolve(false)
+        if (shouldBlockAutoplayDuringSeek(opts)) {
+            return Promise.resolve(true)
+        }
+
+        muteNativePlayers()
+        const player = filteredPlayerRef.current
+        const settings = getMediaPlaybackSettings(tuneRef.current || tune)
+        applyTempoToNativeElement(player, settings.tempo)
+
+        const regionStart = getLinkStartAt()
+        const currentPos = player.currentTime
+        const preserve = opts.preservePosition
+            || (playingIntentRef.current && !userPausedRef.current && currentPos > regionStart + 0.05)
+        if (!preserve) {
+            if (player.ended || (regionStart > 0 && currentPos < regionStart - 0.05)) {
+                player.currentTime = regionStart
+                setCurrentTime(regionStart)
+            }
+        }
+
+        return player.play().then(function() {
+            confirmPlayingStarted()
+            return true
+        }).catch(function(e) {
+            if (isAutoplayBlockedError(e)) {
+                setTapToPlay(true)
+            }
+            setIsPlaying(false)
+            setIsLoading(false)
+            return false
+        })
     }
 
     function usesExternalPitchTempo() {
@@ -336,13 +582,20 @@ export default function useTuneBookMediaController(props) {
     }
 
     function needsExternalPitchTempoSettings(tempo, pitch, fineTune) {
-        return playbackNeedsExternalProcessing({ tempo: tempo, pitch: pitch, fineTune: fineTune })
+        const currentTune = tuneRef.current || tune
+        return playbackNeedsExternalProcessing({
+            tempo: tempo,
+            pitch: pitch,
+            fineTune: fineTune,
+            audioFilters: getAudioFilterSettings(currentTune),
+        })
     }
 
     function applyNativeMediaPlaybackSettings(tempo) {
         const rate = parseFloat(tempo > 0 ? tempo : 1)
-        if (playerRef.current) {
-            playerRef.current.playbackRate = rate
+        applyTempoToNativeElement(playerRef.current, rate)
+        if (isNativeFilteredActive()) {
+            applyTempoToNativeElement(filteredPlayerRef.current, rate)
         }
         if (ytPlayerRef.current) {
             try {
@@ -498,6 +751,12 @@ export default function useTuneBookMediaController(props) {
     }
 
     function getNativePlaybackDuration() {
+        if (isNativeFilteredActive() && filteredPlayerRef.current && filteredPlayerRef.current.duration > 0) {
+            return filteredPlayerRef.current.duration
+        }
+        if (nativeFilteredDurationRef.current > 0) {
+            return nativeFilteredDurationRef.current
+        }
         if (ytPlayerRef && ytPlayerRef.current) {
             try {
                 const ytDuration = ytPlayerRef.current.getDuration()
@@ -576,6 +835,19 @@ export default function useTuneBookMediaController(props) {
             return
         }
 
+        if (isNativeFilteredActive() && filteredPlayerRef.current) {
+            filteredPlayerRef.current.currentTime = clamped
+            setClickSeek(nativeFilteredDurationRef.current > 0
+                ? Math.min(1, clamped / nativeFilteredDurationRef.current)
+                : 0)
+            if (wasPlaying) {
+                startProgressSync()
+                playNativeFilteredMedia({ preservePosition: true })
+            }
+            finalizeMediaSeek(wasPlaying, 'nativeFiltered')
+            return
+        }
+
         const nativeDuration = getNativePlaybackDuration()
         if (nativeDuration <= 0) {
             endSeekOperation()
@@ -609,6 +881,7 @@ export default function useTuneBookMediaController(props) {
     // active) is ignored so it cannot corrupt the position.
     function getActivePlaybackEngine() {
         if (playbackRouteRef.current.mode === 'midi') return 'midi'
+        if (isNativeFilteredActive()) return 'nativeFiltered'
         if (shouldRouteMediaThroughExternal()) {
             return isExternalOutputActive() ? 'external' : 'pending'
         }
@@ -629,6 +902,12 @@ export default function useTuneBookMediaController(props) {
         }
         if (engine === 'external') {
             return readExternalPlaybackSeconds()
+        }
+        if (engine === 'nativeFiltered') {
+            const player = filteredPlayerRef.current
+            if (!player) return null
+            const t = player.currentTime
+            return isFinite(t) ? t : null
         }
         if (engine === 'youtube') {
             try {
@@ -1250,40 +1529,61 @@ export default function useTuneBookMediaController(props) {
         const wantsOutput = hasActivePlaybackIntent()
             && opts.resumePlayback !== false
             && (opts.forcePlay || wasConnected || externalMediaActiveRef.current)
+        const cacheOptions = getExternalMediaCacheOptions(tuneRef.current || tune, mediaLinkNumberRef.current)
 
         if (wasConnected || playingIntentRef.current) {
             externalHandoffGuardUntilRef.current = Date.now() + 2000
         }
-        externalMediaRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
 
-        if (!wantsOutput) {
-            return true
+        const filtersActive = !!(settings.audioFilters && !audioFiltersAreNeutral(settings.audioFilters))
+
+        const finalize = async function() {
+            if (!wantsOutput) {
+                return true
+            }
+
+            if (wasConnected) {
+                setExternalMediaActiveState(true)
+                confirmPlayingStarted()
+                return true
+            }
+
+            let handoff = trySyncExternalHandoff()
+            if (!handoff.ok && handoff.reason === 'context-not-running') {
+                const running = await waitForExternalContextRunning(2500)
+                if (running && hasActivePlaybackIntent()) {
+                    handoff = trySyncExternalHandoff()
+                }
+            }
+            if (handoff.ok) {
+                confirmPlayingStarted()
+                return true
+            }
+
+            applyNativeTempoBridge(settings)
+            if (!filtersActive && handoff.reason === 'context-not-running') {
+                return true
+            }
+            if (playingIntentRef.current && !userPausedRef.current) {
+                setTapToPlay(true)
+            }
+            return false
         }
 
-        if (wasConnected) {
-            setExternalMediaActiveState(true)
-            confirmPlayingStarted()
-            return true
-        }
-
-        const handoff = trySyncExternalHandoff()
-        if (handoff.ok) {
-            confirmPlayingStarted()
-            return true
-        }
-
-        applyNativeTempoBridge(settings)
-        if (handoff.reason === 'context-not-running') {
-            return true
-        }
-        if (playingIntentRef.current && !userPausedRef.current) {
-            setTapToPlay(true)
-        }
-        return false
+        return externalMediaRef.current.applySettings(
+            settings.tempo,
+            settings.pitch,
+            settings.fineTune,
+            settings.audioFilters,
+            cacheOptions
+        ).then(finalize).catch(function(e) {
+            console.log('External media settings failed', e)
+            return false
+        })
     }
 
     async function prepareExternalMedia(forceSrc, playbackSettings, options) {
-        const settings = playbackSettings || getPlaybackSettings(tune)
+        const settings = playbackSettings || getMediaPlaybackSettings(tune)
         if (!canUseExternalPitchTempo(settings)) {
             destroyExternalMedia()
             return false
@@ -1345,7 +1645,19 @@ export default function useTuneBookMediaController(props) {
 
                 const finalSettings = pendingExternalSettingsRef.current || settings
                 pendingExternalSettingsRef.current = null
-                processor.applySettings(finalSettings.tempo, finalSettings.pitch, finalSettings.fineTune)
+                await processor.applySettings(
+                    finalSettings.tempo,
+                    finalSettings.pitch,
+                    finalSettings.fineTune,
+                    finalSettings.audioFilters,
+                    {
+                        tuneId: tune.id,
+                        linkIndex: mediaLinkNumber,
+                        src: src,
+                        srcType: srcType,
+                        accessToken: getGoogleAccessToken(),
+                    }
+                )
                 let seekSeconds = getCurrentPlaybackSeconds()
                 if (seekSeconds <= 0) seekSeconds = resumeAtLoadStart
                 if (seekSeconds <= 0) seekSeconds = getLinkPlaybackStartOffset()
@@ -1360,7 +1672,7 @@ export default function useTuneBookMediaController(props) {
                 setIsReady(true)
 
                 if (opts.autoPlay !== false && hasActivePlaybackIntent()) {
-                    const applied = applyExternalMediaSettings(finalSettings, {
+                    const applied = await applyExternalMediaSettings(finalSettings, {
                         resumePlayback: true,
                         forcePlay: true,
                     })
@@ -1532,25 +1844,10 @@ export default function useTuneBookMediaController(props) {
         }
     }
 
-    function updateTunePlaybackSettings(tempo, pitch, fineTune) {
-        const currentTune = tuneRef.current || tune
-        if (!currentTune) return
-        const settings = {
-            tempo: tempo,
-            pitch: pitch,
-            fineTune: fineTune,
-        }
-        const updated = Object.assign({}, currentTune, {
-            playbackTempo: tempo,
-            playbackPitch: pitch,
-            playbackFineTune: fineTune,
-        })
-        commitTuneState(updated)
-        setPlaybackSpeed(tempo)
-
+    function applyLinkedMediaPlaybackSettings(settings) {
         if (isMidiPlaybackRoute()) {
             if (applyMidiTempoRef.current) {
-                applyMidiTempoRef.current(tempo, pitch, fineTune)
+                applyMidiTempoRef.current(settings.tempo, settings.pitch, settings.fineTune)
             }
             return
         }
@@ -1559,28 +1856,43 @@ export default function useTuneBookMediaController(props) {
             return
         }
 
-        if (playbackNeedsExternalProcessing(settings)) {
+        if (settingsRequireExternalMediaProcessor(settings)) {
             resumeExternalAudioContextFromGesture()
         }
 
+        const currentTune = tuneRef.current || tune
         const linkIndex = mediaLinkNumberRef.current !== null && mediaLinkNumberRef.current !== undefined
             ? mediaLinkNumberRef.current
             : mediaLinkNumber
         const currentSrc = getSrc(currentTune, linkIndex)
         const srcType = getSrcType(currentSrc)
+        const wantsNativeFiltered = canUseNativeFilteredPlayback(settings)
         const wantsExternal = canUseExternalPitchTempo(settings)
         const playingNow = playingIntentRef.current
 
+        if (wantsNativeFiltered) {
+            return applyNativeFilteredPlayback(settings, {
+                play: playingNow,
+                resumePlayback: true,
+                forcePlay: playingNow,
+            })
+        }
+
+        if (nativeFilteredActiveRef.current) {
+            destroyNativeFilteredPlayback()
+        }
+
         if (externalMediaRef.current && externalLoadedSrcRef.current === currentSrc) {
-            applyExternalMediaSettings(settings, { resumePlayback: true, forcePlay: playingNow })
-            return
+            return applyExternalMediaSettings(settings, { resumePlayback: true, forcePlay: playingNow })
         }
 
         if (wantsExternal) {
             const resumeAt = getCurrentPlaybackSeconds()
-            const tempoOnly = settings.pitch === 0 && settings.fineTune === 0
+            const tempoOnly = settings.pitch === 0
+                && settings.fineTune === 0
+                && audioFiltersAreNeutral(settings.audioFilters)
             if (tempoOnly && playingNow && !isExternalMediaConnected()) {
-                applyNativeMediaPlaybackSettings(tempo)
+                applyNativeMediaPlaybackSettings(settings.tempo)
                 if (!externalLoadingRef.current) {
                     prepareExternalMedia(undefined, settings, {
                         autoPlay: false,
@@ -1592,20 +1904,21 @@ export default function useTuneBookMediaController(props) {
                 }
                 return
             }
-            prepareExternalMedia(undefined, settings, {
+            return prepareExternalMedia(undefined, settings, {
                 autoPlay: playingNow,
                 showLoading: false,
                 fallbackNative: true,
             }).then(function(loaded) {
                 if (!loaded && playingNow) {
                     playNativeMedia(srcType)
-                    applyNativeMediaPlaybackSettings(tempo)
+                    applyNativeMediaPlaybackSettings(settings.tempo)
                     if (resumeAt > 0) seekToSeconds(resumeAt)
                 }
             })
         } else {
+            const resumeAt = getCurrentPlaybackSeconds()
+            const playingNow = playingIntentRef.current
             if (externalMediaRef.current || externalMediaActiveRef.current) {
-                const resumeAt = getCurrentPlaybackSeconds()
                 destroyExternalMedia()
                 if (playingNow) {
                     playNativeMedia(srcType)
@@ -1613,8 +1926,62 @@ export default function useTuneBookMediaController(props) {
                         seekToSeconds(resumeAt)
                     }
                 }
+            } else if (nativeFilteredActiveRef.current) {
+                destroyNativeFilteredPlayback()
+                if (playingNow) {
+                    playNativeMedia(srcType)
+                    if (resumeAt > 0 && duration > 0) {
+                        seekToSeconds(resumeAt)
+                    }
+                }
             }
-            applyNativeMediaPlaybackSettings(tempo)
+            applyNativeMediaPlaybackSettings(settings.tempo)
+        }
+    }
+
+    function updateTunePlaybackSettings(tempo, pitch, fineTune) {
+        const currentTune = tuneRef.current || tune
+        if (!currentTune) return
+        const settings = {
+            tempo: tempo,
+            pitch: pitch,
+            fineTune: fineTune,
+            audioFilters: getAudioFilterSettings(currentTune),
+        }
+        const updated = Object.assign({}, currentTune, {
+            playbackTempo: tempo,
+            playbackPitch: pitch,
+            playbackFineTune: fineTune,
+        })
+        commitTuneState(updated)
+        setPlaybackSpeed(tempo)
+        applyLinkedMediaPlaybackSettings(settings)
+    }
+
+    function updateTuneAudioFilterSettings(filters) {
+        const currentTune = tuneRef.current || tune
+        if (!currentTune) return
+        const normalized = normalizeAudioFilters(filters)
+        const playback = getPlaybackSettings(currentTune)
+        const settings = {
+            tempo: playback.tempo,
+            pitch: playback.pitch,
+            fineTune: playback.fineTune,
+            audioFilters: normalized,
+        }
+        const updated = Object.assign({}, currentTune, {
+            playbackAudioFilters: normalized,
+        })
+        commitTuneState(updated)
+
+        const needsSeparation = !audioFiltersAreNeutral(normalized)
+            && isMediaPlaybackRoute()
+            && canUseNativeFilteredPlayback(settings)
+        const result = applyLinkedMediaPlaybackSettings(settings)
+        if (needsSeparation && result && typeof result.then === 'function') {
+            setStemSeparationActive(true)
+            const done = function() { setStemSeparationActive(false) }
+            result.then(done, done)
         }
     }
 
@@ -1629,9 +1996,10 @@ export default function useTuneBookMediaController(props) {
     // Position is owned by the progress interval (single writer). This handler
     // only drives region-end / loop detection for the native audio element.
     function onTimeUpdate() {
-        if (!playerRef.current || !hasActivePlaybackIntent()) return
+        const nativePlayer = isNativeFilteredActive() ? filteredPlayerRef.current : playerRef.current
+        if (!nativePlayer || !hasActivePlaybackIntent()) return
         if (tune && Array.isArray(tune.links) && tune.links.length > mediaLinkNumber) {
-            if (tune.links[mediaLinkNumber] && getLinkEndAt() > 0 && playerRef.current.currentTime >= getLinkEndAt()) {
+            if (tune.links[mediaLinkNumber] && getLinkEndAt() > 0 && nativePlayer.currentTime >= getLinkEndAt()) {
                 handlePlaybackRegionEnd()
             }
         }
@@ -1672,6 +2040,10 @@ export default function useTuneBookMediaController(props) {
     function onMediaReady(e) {
         cleanupTimers()
         if (isSeekGuardActive()) {
+            setIsReady(true)
+            return
+        }
+        if (isNativeFilteredActive()) {
             setIsReady(true)
             return
         }
@@ -1750,7 +2122,7 @@ export default function useTuneBookMediaController(props) {
     }
 
     function onYtStateChange(e) {
-         if (isExternalOutputActive()) {
+         if (isExternalOutputActive() || isNativeFilteredActive()) {
              if (e.data === 3) {
                  setIsLoading(true)
              } else {
@@ -1924,6 +2296,20 @@ export default function useTuneBookMediaController(props) {
 
         setIsLoading(true)
 
+        if (canUseNativeFilteredPlayback()) {
+            const preserveMediaPosition = !opts.restart && opts.preservePosition !== false
+            if (isNativeFilteredActive()) {
+                playNativeFilteredMedia({ preservePosition: preserveMediaPosition })
+                return
+            }
+            applyNativeFilteredPlayback(getMediaPlaybackSettings(useTune || tune), {
+                play: true,
+                resumeAt: preserveMediaPosition ? getCurrentPlaybackSeconds() : getLinkStartAt(),
+                forcePlay: true,
+            })
+            return
+        }
+
         if (canUseExternalPitchTempo()) {
             const preserveMediaPosition = !opts.restart && opts.preservePosition !== false
             if (externalMediaRef.current) {
@@ -2052,6 +2438,11 @@ export default function useTuneBookMediaController(props) {
             externalMediaRef.current.disconnect()
             setExternalMediaActiveState(false)
         }
+        if (filteredPlayerRef && filteredPlayerRef.current && nativeFilteredActiveRef.current) {
+            try {
+                filteredPlayerRef.current.pause()
+            } catch (e) {}
+        }
         if (playerRef && playerRef.current) {
             try {
                 playerRef.current.pause()
@@ -2086,6 +2477,12 @@ export default function useTuneBookMediaController(props) {
             } else {
                 externalMediaRef.current.seek(0)
             }
+        }
+        if (filteredPlayerRef && filteredPlayerRef.current && nativeFilteredActiveRef.current) {
+            try {
+                filteredPlayerRef.current.pause()
+                filteredPlayerRef.current.currentTime = startAt
+            } catch (e) {}
         }
         setCurrentTime(startAt)
         if (playerRef && playerRef.current) {
@@ -2215,7 +2612,7 @@ export default function useTuneBookMediaController(props) {
     })
     
     
-    return {play, playFromUserGesture, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef,ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, applyPlaybackSettingsLiveRef, applyMidiTempoRef, resumeSynthAudioContextRef, pauseSynthRef, stopMidiSynthRef, playMidiRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, userGesturePlayRef, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, prepareExternalMedia, destroyExternalMedia, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverFeaturesEnabled: isMediaProxyConfigured() && (mediaResolverAvailable || !mediaResolverChecked), refreshMediaResolverHealth, resumeAudioContextAndPlay, confirmPlayingStarted, abortPlayingIntent, hasPlayingIntent, hasActivePlaybackIntent, isSeekGuardActive, isMidiPlaybackRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart}
+    return {play, playFromUserGesture, stop, pause, restartPlaybackFromStart, canResumePlayback, seek, rewindToStart, getPlaybackProgress, getSeekSettlement, currentTime,setCurrentTime, duration, setDuration, playerRef, filteredPlayerRef, ytPlayerRef, onEnded, onError, onTimeUpdate,onAbcTimeUpdate, onYtTimeUpdate ,onYtStateChange,  onYtReady, onMediaReady, isPlaying, setIsPlaying, isLoading, setIsLoading, isReady, setIsReady,  tune, setTune, updateTunePlaybackSettings, updateTuneAudioFilterSettings, stemSeparationActive, applyPlaybackSettingsLiveRef, applyMidiTempoRef, resumeSynthAudioContextRef, pauseSynthRef, stopMidiSynthRef, playMidiRef, resumeMidiAfterSeekRef, seekMidiRef, getMidiPlaybackSecondsRef, userGesturePlayRef, mediaLinkNumber, setMediaLinkNumber, getSrc, getSrcType, playbackSpeed, setPlaybackSpeed, clickSeek, setClickSeek, checkAudioContext, forceMidiChange, midiHash, cleanupTimers, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, prepareExternalMedia, destroyExternalMedia, updateLinkPlaybackLoops, downloadExternalMedia, checkExternalMediaCached, saveExternalMediaToFile, getLinkStartAt, getLinkEndAt, getLinkPlaybackLoop, externalMediaActive, shouldIgnoreNativePlaybackEvents, shouldSuppressSpuriousPause, usesExternalPitchTempo, mediaResolverAvailable, mediaResolverChecked, mediaResolverFeaturesEnabled: isMediaProxyConfigured() && (mediaResolverAvailable || !mediaResolverChecked), refreshMediaResolverHealth, resumeAudioContextAndPlay, confirmPlayingStarted, abortPlayingIntent, hasPlayingIntent, hasActivePlaybackIntent, isSeekGuardActive, isMidiPlaybackRoute, isMediaPlaybackRoute, applyPlaybackRoute, maybeAutostart}
    //srcSelection, setSrcSelection, src, setSrc,
 }
  

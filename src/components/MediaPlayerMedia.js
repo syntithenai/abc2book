@@ -191,6 +191,16 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     }
     return <div id={src || 'media-player'} >
         <div style={{display:'none'}}>{src}</div>
+        <audio
+            ref={mediaController.filteredPlayerRef}
+            style={{ display: 'none' }}
+            onEnded={mediaController.onEnded}
+            onError={mediaController.onError}
+            onTimeUpdate={mediaController.onTimeUpdate}
+            onCanPlayThrough={mediaController.onMediaReady}
+            onPlay={handleNativePlay}
+            onPause={handleNativePause}
+        />
         {content}
         {renderTapToPlayModal()}
     </div>

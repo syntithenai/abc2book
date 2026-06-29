@@ -11,7 +11,7 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
-| POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody |
+| POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody. Runs shared beat/downbeat timing first (`detect_timing.py`, madmom when available, librosa fallback), then lyrics/chords/melody in parallel. Melody uses CREPE when available with optional Demucs vocal separation; falls back to librosa pyin. Optional `processing` JSON controls separation, noise mode, and quantize settings. Response includes `timing`, `melody.silences`, and `melody.noise`. |
 
 By default no login is required (`REQUIRE_AUTH=false`). The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable.
 
@@ -35,6 +35,20 @@ The resolver container mounts that host directory read-only at `/models` and run
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
+
+Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** (pitch), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
+
+### GPU resolver (optional)
+
+For CUDA-accelerated Demucs separation, use the GPU compose overlay (requires [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)):
+
+```bash
+cd local-resolver
+MELODY_TORCH_INDEX=https://download.pytorch.org/whl/cu121 \
+  docker compose -f docker-compose.yml -f docker-compose.gpu.yml --profile gpu up --build
+```
+
+Set `MELODY_BACKEND_PREFERENCE=gpu` in `.env` when running the GPU profile. CPU-only builds remain the default `docker compose up --build`.
 
 In the project root `.env`:
 

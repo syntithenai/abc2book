@@ -3,6 +3,8 @@ import { Link , useParams } from 'react-router-dom'
 import {Button, Modal, Form, Col, Row, Container} from 'react-bootstrap'
 import {useState, useEffect, useRef} from 'react'
 import AbcPrint from '../components/AbcPrint'
+import TimedLyricsChordsView from '../components/TimedLyricsChordsView'
+import { getLyricLines } from '../wLinesUtils'
 import useAbcjsParser from '../useAbcjsParser'
 //import useQRCode from '../useQRCode'
 // TODO DIALOG FOR OPTIONS - SHOW NOTATION, SHOW CHORDS, ...
@@ -147,8 +149,9 @@ export default function PrintPage(props) {
       {(useTunes!== null && useTunes.length > 0) && <div style={{pageBreakInside:'avoid'}} >{useTunes.map(function(tune) {
             var words = {}
             var current = 0
-            if (Array.isArray(tune.words)) {
-                tune.words.forEach(function(line) {
+            var lyricLines = getLyricLines(tune)
+            if (lyricLines.length > 0) {
+                lyricLines.forEach(function(line) {
                   if (line && line.trim().length > 0) {
                       if (!Array.isArray(words[current])) words[current] = []
                       words[current].push(line)
@@ -185,11 +188,17 @@ export default function PrintPage(props) {
 						})}</Row> : <Row>&nbsp;</Row>
 					})}</Container></div> }
 					
-					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) ? Object.keys(words).map(function(key) {
+					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) ? (
+                        tune.timedLyrics && (option === "chordsandlyrics" || option === "justlyrics")
+                          ? <div className="lyrics" style={{ float:'left', clear:'left', marginLeft:'2em' }}>
+                              <TimedLyricsChordsView tune={tune} tunebook={props.tunebook} />
+                            </div>
+                          : Object.keys(words).map(function(key) {
 							return <div className="lyrics" style={{float:'left' ,clear:'left',marginLeft:'2em'}} ><div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
 									return <div key={lk} className="lyrics-line" >{line}</div>
 								})}</div></div>
-						}) : null }
+						})
+                    ) : null }
 
             	</div>
 			</div> : null

@@ -4,6 +4,21 @@ export const PITCH_MIN = -12;
 export const PITCH_MAX = 12;
 export const FINE_TUNE_MIN = -50;
 export const FINE_TUNE_MAX = 50;
+export const AUDIO_FILTER_MIN = 0;
+export const AUDIO_FILTER_MAX = 2;
+export const AUDIO_FILTER_KEYS = ['percussion', 'vocals', 'bass', 'other'];
+export const STEM_NAME_BY_FILTER = {
+  percussion: 'drums',
+  vocals: 'vocals',
+  bass: 'bass',
+  other: 'other',
+};
+export const DEFAULT_AUDIO_FILTERS = {
+  percussion: 1,
+  vocals: 1,
+  bass: 1,
+  other: 1,
+};
 
 export function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
@@ -23,10 +38,53 @@ export function formatFineTuneDisplay(cents) {
   return `${cents > 0 ? '+' : ''}${cents}¢`;
 }
 
+export function formatAudioFilterDisplay(value) {
+  const amount = clamp(parseFloat(value), AUDIO_FILTER_MIN, AUDIO_FILTER_MAX);
+  if (amount <= 0.001) return 'Muted';
+  if (Math.abs(amount - 1) < 0.01) return '100%';
+  return Math.round(amount * 100) + '%';
+}
+
+export function normalizeAudioFilters(filters) {
+  const next = Object.assign({}, DEFAULT_AUDIO_FILTERS);
+  if (!filters || typeof filters !== 'object') {
+    return next;
+  }
+  AUDIO_FILTER_KEYS.forEach(function(key) {
+    const raw = filters[key];
+    const parsed = parseFloat(raw);
+    next[key] = clamp(isNaN(parsed) ? 1 : parsed, AUDIO_FILTER_MIN, AUDIO_FILTER_MAX);
+  });
+  return next;
+}
+
+export function audioFiltersAreNeutral(filters) {
+  const normalized = normalizeAudioFilters(filters);
+  return AUDIO_FILTER_KEYS.every(function(key) {
+    return Math.abs(normalized[key] - 1) < 0.001;
+  });
+}
+
 export function playbackNeedsExternalProcessing(settings) {
   if (!settings) return false;
   const tempo = settings.tempo > 0 ? settings.tempo : 1;
-  return tempo !== 1 || settings.pitch !== 0 || settings.fineTune !== 0;
+  if (tempo !== 1 || settings.pitch !== 0 || settings.fineTune !== 0) {
+    return true;
+  }
+  return !!(settings.audioFilters && !audioFiltersAreNeutral(settings.audioFilters));
+}
+
+export function getAudioFilterSettings(tune) {
+  if (!tune || !tune.playbackAudioFilters) {
+    return normalizeAudioFilters(null);
+  }
+  return normalizeAudioFilters(tune.playbackAudioFilters);
+}
+
+export function getMediaPlaybackSettings(tune) {
+  return Object.assign({}, getPlaybackSettings(tune), {
+    audioFilters: getAudioFilterSettings(tune),
+  });
 }
 
 export function getPlaybackSettings(tune) {
@@ -51,5 +109,6 @@ export function normalizePlaybackFields(tune) {
   tune.playbackTempo = settings.tempo;
   tune.playbackPitch = settings.pitch;
   tune.playbackFineTune = settings.fineTune;
+  tune.playbackAudioFilters = getAudioFilterSettings(tune);
   return tune;
 }

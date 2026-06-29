@@ -1,4 +1,5 @@
 import asyncio
+import hashlib
 import json
 import os
 import re
@@ -7,8 +8,8 @@ import tempfile
 from urllib.parse import parse_qs, urlparse
 
 import httpx
-from fastapi import FastAPI, File, Header, HTTPException, Query, Request, UploadFile
-from fastapi.responses import JSONResponse, Response, StreamingResponse
+from fastapi import FastAPI, File, Form, Header, HTTPException, Query, Request, UploadFile
+from fastapi.responses import FileResponse, JSONResponse, Response, StreamingResponse
 
 app = FastAPI()
 
@@ -41,6 +42,9 @@ WHISPER_LYRICS_MAX_WORDS = max(1, int(os.getenv("WHISPER_LYRICS_MAX_WORDS", "10"
 WHISPER_LYRICS_LINE_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_LINE_PAUSE_SECONDS", "1.2"))
 WHISPER_LYRICS_STANZA_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_STANZA_PAUSE_SECONDS", "4.0"))
 ANALYZE_MEDIA_TIMEOUT_SECONDS = float(os.getenv("ANALYZE_MEDIA_TIMEOUT_SECONDS", "1200"))
+STEM_CACHE_DIR = os.getenv("STEM_CACHE_DIR", "/tmp/stem-cache")
+STEM_SEPARATION_TIMEOUT_SECONDS = float(os.getenv("STEM_SEPARATION_TIMEOUT_SECONDS", "900"))
+HTDEMUCS_STEMS = ("drums", "bass", "other", "vocals")
 
 BLOCKED_HOSTS = {"localhost", "127.0.0.1", "0.0.0.0", "::1", "metadata.google.internal"}
 BLOCKED_SUFFIXES = (".local", ".internal")
@@ -841,7 +845,88 @@ def _autochord_python_path():
     return autochord_python
 
 
-async def _run_detect_melody(temp_audio_path, request):
+async def _run_detect_melody(temp_audio_path, request, config_path=None):
+    autochord_python = _autochord_python_path()
+    env = os.environ.copy()
+    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
+    if os.path.isdir(autochord_libs):
+        env["LD_LIBRARY_PATH"] = autochord_libs + (
+            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
+        )
+    command = [
+        autochord_python,
+        "/app/detect_melody.py",
+        temp_audio_path,
+    ]
+    if config_path:
+        command.append(config_path)
+    proc = await asyncio.create_subprocess_exec(
+        *command,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+        env=env,
+    )
+    communicate_task = asyncio.create_task(proc.communicate())
+
+    try:
+        while True:
+            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
+            if done:
+                stdout, stderr = await communicate_task
+                return (
+                    proc.returncode or 0,
+                    stdout.decode("utf-8", errors="ignore"),
+                    stderr.decode("utf-8", errors="ignore"),
+                )
+            if await request.is_disconnected():
+                if proc.returncode is None:
+                    proc.terminate()
+                    try:
+                        await asyncio.wait_for(proc.wait(), timeout=5)
+                    except asyncio.TimeoutError:
+                        proc.kill()
+                        await proc.wait()
+                communicate_task.cancel()
+                raise ClientDisconnected()
+    finally:
+        if not communicate_task.done():
+            communicate_task.cancel()
+
+
+async def detect_melody_from_path(temp_audio_path, request, timing=None, processing=None):
+    config_path = None
+    try:
+        config = {}
+        if isinstance(timing, dict):
+            config.update(timing)
+        if isinstance(processing, dict):
+            config.update(processing)
+        if config:
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as handle:
+                json.dump(config, handle)
+                config_path = handle.name
+        returncode, stdout_text, stderr_text = await asyncio.wait_for(
+            _run_detect_melody(temp_audio_path, request, config_path),
+            timeout=AUTOCHORD_TIMEOUT_SECONDS,
+        )
+    finally:
+        if config_path:
+            try:
+                os.unlink(config_path)
+            except FileNotFoundError:
+                pass
+    if returncode != 0:
+        raise HTTPException(
+            status_code=502,
+            detail=(stderr_text or stdout_text or "Melody detection failed").strip()[:500],
+        )
+    try:
+        return _parse_subprocess_json(stdout_text)
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail="Melody detector returned invalid JSON") from exc
+
+
+async def _run_detect_timing(temp_audio_path, request):
     autochord_python = _autochord_python_path()
     env = os.environ.copy()
     autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
@@ -851,7 +936,7 @@ async def _run_detect_melody(temp_audio_path, request):
         )
     proc = await asyncio.create_subprocess_exec(
         autochord_python,
-        "/app/detect_melody.py",
+        "/app/detect_timing.py",
         temp_audio_path,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
@@ -884,20 +969,166 @@ async def _run_detect_melody(temp_audio_path, request):
             communicate_task.cancel()
 
 
-async def detect_melody_from_path(temp_audio_path, request):
+async def detect_timing_from_path(temp_audio_path, request):
     returncode, stdout_text, stderr_text = await asyncio.wait_for(
-        _run_detect_melody(temp_audio_path, request),
+        _run_detect_timing(temp_audio_path, request),
         timeout=AUTOCHORD_TIMEOUT_SECONDS,
     )
     if returncode != 0:
         raise HTTPException(
             status_code=502,
-            detail=(stderr_text or stdout_text or "Melody detection failed").strip()[:500],
+            detail=(stderr_text or stdout_text or "Timing detection failed").strip()[:500],
         )
     try:
         return _parse_subprocess_json(stdout_text)
     except Exception as exc:
-        raise HTTPException(status_code=502, detail="Melody detector returned invalid JSON") from exc
+        raise HTTPException(status_code=502, detail="Timing detector returned invalid JSON") from exc
+
+
+def _stem_cache_dir(cache_id):
+    return os.path.join(STEM_CACHE_DIR, cache_id)
+
+
+def _stem_cache_id(source_key, model_name):
+    digest = hashlib.sha256((source_key + "|" + model_name).encode("utf-8")).hexdigest()
+    return digest[:32]
+
+
+def _stems_are_cached(cache_id):
+    cache_dir = _stem_cache_dir(cache_id)
+    if not os.path.isdir(cache_dir):
+        return False
+    return all(os.path.isfile(os.path.join(cache_dir, stem + ".wav")) for stem in HTDEMUCS_STEMS)
+
+
+def _read_stem_cache_metadata(cache_dir):
+    metadata_path = os.path.join(cache_dir, "metadata.json")
+    if os.path.isfile(metadata_path):
+        try:
+            with open(metadata_path, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+            if isinstance(data, dict):
+                return data
+        except Exception:
+            pass
+    return {}
+
+
+def _write_stem_cache_metadata(cache_dir, payload):
+    metadata_path = os.path.join(cache_dir, "metadata.json")
+    with open(metadata_path, "w", encoding="utf-8") as handle:
+        json.dump(payload, handle)
+
+
+def _build_stem_response(cache_id, model_name, cache_dir):
+    metadata = _read_stem_cache_metadata(cache_dir)
+    stems = {stem: "/stems/" + cache_id + "/" + stem for stem in HTDEMUCS_STEMS}
+    return {
+        "cacheId": cache_id,
+        "model": model_name,
+        "samplerate": int(metadata.get("samplerate") or 0),
+        "duration": float(metadata.get("duration") or 0),
+        "backend": metadata.get("backend") or "",
+        "stems": stems,
+        "cached": True,
+    }
+
+
+async def _run_separate_stems(temp_audio_path, output_dir, request):
+    autochord_python = _autochord_python_path()
+    env = os.environ.copy()
+    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
+    if os.path.isdir(autochord_libs):
+        env["LD_LIBRARY_PATH"] = autochord_libs + (
+            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
+        )
+    command = [
+        autochord_python,
+        "/app/separate_stems.py",
+        temp_audio_path,
+        output_dir,
+    ]
+    proc = await asyncio.create_subprocess_exec(
+        *command,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+        env=env,
+    )
+    communicate_task = asyncio.create_task(proc.communicate())
+
+    try:
+        while True:
+            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
+            if done:
+                stdout, stderr = await communicate_task
+                return (
+                    proc.returncode or 0,
+                    stdout.decode("utf-8", errors="ignore"),
+                    stderr.decode("utf-8", errors="ignore"),
+                )
+            if await request.is_disconnected():
+                if proc.returncode is None:
+                    proc.terminate()
+                    try:
+                        await asyncio.wait_for(proc.wait(), timeout=5)
+                    except asyncio.TimeoutError:
+                        proc.kill()
+                        await proc.wait()
+                communicate_task.cancel()
+                raise ClientDisconnected()
+    finally:
+        if not communicate_task.done():
+            communicate_task.cancel()
+
+
+async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
+    model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+    cache_id = _stem_cache_id(source_key, model_name)
+    cache_dir = _stem_cache_dir(cache_id)
+
+    if _stems_are_cached(cache_id):
+        return _build_stem_response(cache_id, model_name, cache_dir)
+
+    os.makedirs(cache_dir, exist_ok=True)
+    suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+        temp_audio.write(audio_bytes)
+        temp_audio_path = temp_audio.name
+
+    wav_path = None
+    try:
+        wav_path = await _convert_audio_to_wav(temp_audio_path)
+        returncode, stdout_text, stderr_text = await asyncio.wait_for(
+            _run_separate_stems(wav_path, cache_dir, request),
+            timeout=STEM_SEPARATION_TIMEOUT_SECONDS,
+        )
+        if returncode != 0:
+            raise HTTPException(
+                status_code=502,
+                detail=(stderr_text or stdout_text or "Stem separation failed").strip()[:500],
+            )
+        result = _parse_subprocess_json(stdout_text)
+        _write_stem_cache_metadata(cache_dir, {
+            "samplerate": result.get("samplerate") or 0,
+            "duration": result.get("duration") or 0,
+            "backend": result.get("backend") or "",
+            "model": result.get("model") or model_name,
+        })
+        return _build_stem_response(cache_id, model_name, cache_dir)
+    except ClientDisconnected as exc:
+        raise HTTPException(status_code=499, detail="Stem separation cancelled") from exc
+    except asyncio.TimeoutError as exc:
+        raise HTTPException(status_code=504, detail="Stem separation timeout") from exc
+    finally:
+        try:
+            os.unlink(temp_audio_path)
+        except FileNotFoundError:
+            pass
+        if wav_path:
+            try:
+                os.unlink(wav_path)
+            except FileNotFoundError:
+                pass
 
 
 async def _transcribe_from_wav_path(wav_path, request, require_text=True):
@@ -967,6 +1198,20 @@ def _empty_analysis_part(part_name):
         return {"text": "", "segments": [], "language": "", "backend": "none", "error": ""}
     if part_name == "chords":
         return {"segments": [], "beatTimes": [], "tempo": 0, "duration": 0, "backend": "none", "error": ""}
+    if part_name == "timing":
+        return {
+            "beatTimes": [],
+            "downbeatTimes": [],
+            "tempo": 0,
+            "meter": "",
+            "beatsPerBar": 0,
+            "meterChanges": [],
+            "detectedKey": "",
+            "detectedMeter": "",
+            "duration": 0,
+            "backend": "none",
+            "error": "",
+        }
     return {"notes": [], "duration": 0, "backend": "none", "error": ""}
 
 
@@ -976,23 +1221,101 @@ def _analysis_error_message(exc):
     return str(exc).strip()[:500] or "Analysis step failed"
 
 
-async def analyze_media_from_audio(audio_bytes, filename, request):
+def _parse_processing_config(raw):
+    if not raw:
+        return {}
+    if isinstance(raw, dict):
+        return raw
+    if isinstance(raw, str):
+        try:
+            parsed = json.loads(raw)
+            return parsed if isinstance(parsed, dict) else {}
+        except Exception:
+            return {}
+    return {}
+
+
+async def analyze_media_from_audio(audio_bytes, filename, request, processing=None, on_progress=None):
+    from audio_analysis_filters import (
+        cleanup_analysis_audio_paths,
+        prepare_analysis_audio_paths,
+    )
+
+    async def report(stage, message, progress):
+        if on_progress:
+            result = on_progress(stage, message, progress)
+            if asyncio.iscoroutine(result):
+                await result
+
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+
+    await report("prepare", "Preparing audio...", 5)
 
     with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
         temp_audio.write(audio_bytes)
         temp_audio_path = temp_audio.name
 
     wav_path = None
+    audio_paths = None
     try:
+        await report("convert", "Converting audio...", 10)
         wav_path = await _convert_audio_to_wav(temp_audio_path)
-        lyrics_task = asyncio.create_task(_transcribe_from_wav_path(wav_path, request, require_text=False))
-        chords_task = asyncio.create_task(detect_chords_from_path(wav_path, request))
-        melody_task = asyncio.create_task(detect_melody_from_path(wav_path, request))
-        results = await asyncio.wait_for(
-            asyncio.gather(lyrics_task, chords_task, melody_task, return_exceptions=True),
-            timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS,
+
+        await report("filters", "Preparing audio filters...", 12)
+        audio_paths = prepare_analysis_audio_paths(wav_path, processing)
+        melody_processing = dict(processing or {})
+        if audio_paths.get("filtered_paths"):
+            melody_processing["sourceSeparation"] = "off"
+
+        timing = _empty_analysis_part("timing")
+        try:
+            await report("timing", "Detecting timing...", 15)
+            timing = await detect_timing_from_path(wav_path, request)
+            timing["error"] = ""
+            await report("timing", "Timing detected", 25)
+        except Exception as exc:
+            timing["error"] = _analysis_error_message(exc)
+
+        lyrics_task = asyncio.create_task(
+            _transcribe_from_wav_path(audio_paths.get("lyrics") or wav_path, request, require_text=False)
         )
+        chords_task = asyncio.create_task(
+            detect_chords_from_path(audio_paths.get("chords") or wav_path, request)
+        )
+        melody_task = asyncio.create_task(
+            detect_melody_from_path(
+                audio_paths.get("melody") or wav_path,
+                request,
+                timing,
+                melody_processing,
+            )
+        )
+        task_meta = {
+            lyrics_task: ("lyrics", "Transcribing lyrics", 40),
+            chords_task: ("chords", "Detecting chords", 65),
+            melody_task: ("melody", "Extracting melody", 85),
+        }
+        pending = set(task_meta.keys())
+        results_by_task = {}
+
+        async def wait_for_parallel_tasks():
+            while pending:
+                done, still_pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
+                pending.clear()
+                pending.update(still_pending)
+                for task in done:
+                    stage, label, progress = task_meta[task]
+                    await report(stage, label + "...", progress)
+                    exc = task.exception()
+                    if exc is not None:
+                        results_by_task[task] = exc
+                    else:
+                        results_by_task[task] = task.result()
+                    await report(stage, label + " complete", min(progress + 8, 92))
+
+        await asyncio.wait_for(wait_for_parallel_tasks(), timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS)
+
+        results = [results_by_task.get(lyrics_task), results_by_task.get(chords_task), results_by_task.get(melody_task)]
 
         lyrics = _empty_analysis_part("lyrics")
         chords = _empty_analysis_part("chords")
@@ -1016,20 +1339,35 @@ async def analyze_media_from_audio(audio_bytes, filename, request):
             melody = results[2]
             melody["error"] = ""
 
+        shared_beat_times = timing.get("beatTimes") if isinstance(timing, dict) else None
+        if shared_beat_times and isinstance(chords, dict):
+            chords["beatTimes"] = shared_beat_times
+            if timing.get("tempo"):
+                chords["tempo"] = timing.get("tempo")
+
         if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
             detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"
             raise HTTPException(status_code=502, detail=detail)
 
-        return {
+        await report("finalize", "Finalizing analysis...", 98)
+        body = {
             "lyrics": lyrics,
             "chords": chords,
             "melody": melody,
+            "timing": timing,
         }
+        await report("complete", "Analysis complete", 100)
+        return body
     except ClientDisconnected as exc:
         raise HTTPException(status_code=499, detail="Media analysis cancelled") from exc
     except asyncio.TimeoutError as exc:
         raise HTTPException(status_code=504, detail="Media analysis timeout") from exc
     finally:
+        if audio_paths:
+            try:
+                cleanup_analysis_audio_paths(audio_paths)
+            except Exception:
+                pass
         try:
             os.unlink(temp_audio_path)
         except FileNotFoundError:
@@ -1041,18 +1379,68 @@ async def analyze_media_from_audio(audio_bytes, filename, request):
                 pass
 
 
-async def _resolve_audio_payload(request, file):
+async def stream_analyze_media_events(audio_bytes, filename, request, processing_config):
+    queue = asyncio.Queue()
+
+    async def on_progress(stage, message, progress):
+        await queue.put({
+            "type": "progress",
+            "stage": stage,
+            "message": message,
+            "progress": progress,
+        })
+
+    async def run():
+        try:
+            body = await analyze_media_from_audio(
+                audio_bytes,
+                filename,
+                request,
+                processing_config,
+                on_progress=on_progress,
+            )
+            await queue.put({"type": "result", "body": body})
+        except HTTPException as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc.detail),
+                "status": exc.status_code,
+            })
+        except Exception as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc),
+                "status": 500,
+            })
+        finally:
+            await queue.put(None)
+
+    task = asyncio.create_task(run())
+    try:
+        while True:
+            item = await queue.get()
+            if item is None:
+                break
+            yield json.dumps(item) + "\n"
+    finally:
+        await task
+
+
+async def _resolve_audio_payload(request, file, payload=None):
     audio_bytes = b""
     filename = "audio.bin"
     content_type = "application/octet-stream"
+    processing = {}
 
     if file is not None:
         audio_bytes = await file.read()
         filename = file.filename or filename
         content_type = file.content_type or content_type
-        return audio_bytes, filename, content_type
+        return audio_bytes, filename, content_type, processing
 
-    payload = await request.json()
+    if payload is None:
+        payload = await request.json()
+    processing = _parse_processing_config(payload.get("processing"))
     source_url = str(payload.get("sourceUrl") or "").strip()
     source_type = str(payload.get("sourceType") or "").strip().lower()
     if not source_url:
@@ -1077,7 +1465,7 @@ async def _resolve_audio_payload(request, file):
         parsed = urlparse(validated)
         filename = os.path.basename(parsed.path) or filename
 
-    return audio_bytes, filename, content_type
+    return audio_bytes, filename, content_type, processing
 
 
 @app.options("/{path:path}")
@@ -1091,7 +1479,7 @@ async def root(request: Request):
         {
             "service": "abc2book-local-resolver",
             "health": "/health",
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/analyze-media", "/midi2xml"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/analyze-media", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(request.headers.get("origin")),
@@ -1220,6 +1608,7 @@ async def detect_chords(
 async def analyze_media(
     request: Request,
     file: UploadFile | None = File(default=None),
+    processing: str | None = Form(default=None),
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
@@ -1227,7 +1616,15 @@ async def analyze_media(
         await maybe_require_auth(authorization)
 
         try:
-            audio_bytes, filename, _content_type = await _resolve_audio_payload(request, file)
+            if file is not None:
+                audio_bytes = await file.read()
+                filename = file.filename or "audio.bin"
+                processing_config = _parse_processing_config(processing)
+            else:
+                payload = await request.json()
+                audio_bytes, filename, _content_type, processing_config = await _resolve_audio_payload(
+                    request, file, payload
+                )
         except HTTPException as exc:
             return json_error(exc.status_code, str(exc.detail), origin)
 
@@ -1244,7 +1641,20 @@ async def analyze_media(
         if len(audio_bytes) > MAX_STREAM_BYTES:
             return json_error(413, "Media file too large", origin)
 
-        body = await analyze_media_from_audio(audio_bytes, filename, request)
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+        if wants_stream:
+            async def body():
+                async for line in stream_analyze_media_events(
+                    audio_bytes, filename, request, processing_config
+                ):
+                    yield line.encode("utf-8")
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
+
+        body = await analyze_media_from_audio(audio_bytes, filename, request, processing_config)
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -1326,6 +1736,72 @@ async def convert_midi_to_musicxml(midi_bytes: bytes, filename: str) -> str:
                     pass
 
     return await asyncio.to_thread(_convert)
+
+
+@app.post("/separate-stems")
+async def separate_stems(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+
+        if file is not None:
+            audio_bytes = await file.read()
+            filename = file.filename or "audio.bin"
+            source_key = "upload:" + hashlib.sha256(audio_bytes).hexdigest()
+        else:
+            payload = await request.json()
+            source_url = str(payload.get("sourceUrl") or "").strip()
+            source_type = str(payload.get("sourceType") or "").strip().lower()
+            if not source_url:
+                return json_error(400, "Missing sourceUrl", origin)
+            audio_bytes, filename, _content_type, _processing = await _resolve_audio_payload(
+                request,
+                None,
+                payload=payload,
+            )
+            source_key = source_type + ":" + source_url
+
+        if not audio_bytes:
+            return json_error(400, "No audio data", origin)
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        body = await separate_stems_from_audio(audio_bytes, filename, source_key, request)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/stems/{cache_id}/{stem_name}")
+async def get_stem_audio(
+    cache_id: str,
+    stem_name: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        if stem_name not in HTDEMUCS_STEMS:
+            return json_error(400, "Unknown stem", origin)
+        if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
+            return json_error(400, "Invalid cache id", origin)
+        stem_path = os.path.join(_stem_cache_dir(cache_id), stem_name + ".wav")
+        if not os.path.isfile(stem_path):
+            return json_error(404, "Stem not found", origin)
+        return FileResponse(
+            stem_path,
+            media_type="audio/wav",
+            filename=stem_name + ".wav",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
 
 
 @app.post("/midi2xml")

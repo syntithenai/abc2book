@@ -18,20 +18,51 @@ export default function useAbcjsParser() {
      * Seek note length in abc
      */
     function getNoteLengthDecimal(abc) {
-        var nl = 0.125
         var parts = abc.split("\n")
+        var meterText = null
         for (var partKey in parts) {
             var part = parts[partKey]
             if (part.startsWith('L:')) {
                 var found = part.slice(2).trim()
                 var foundParts = found.split("/")
-                if (foundParts.length === 2) {
-                    nl = foundParts[0]/foundParts[1]
-                } 
-                break;
+                if (foundParts.length === 2 && foundParts[0] !== '' && foundParts[1] !== '') {
+                    // an explicit, valid unit note length always wins
+                    return foundParts[0]/foundParts[1]
+                }
+            } else if (part.startsWith('M:') && meterText === null) {
+                meterText = part.slice(2).trim()
             }
         }
-       return nl
+        // No explicit L: field. Apply the ABC standard default which depends on
+        // the meter: if the meter is less than 0.75 the unit note length is 1/16,
+        // otherwise it is 1/8. abcjs parses durations using this same rule, so
+        // render() must match it or every note length is scaled incorrectly.
+        return meterToDefaultNoteLength(meterText)
+    }
+
+    /**
+     * Compute the default unit note length (as a decimal) for a meter when no
+     * explicit L: field is present, following the ABC standard / abcjs behaviour.
+     */
+    function meterToDefaultNoteLength(meterText) {
+        var meterValue = 1
+        if (meterText) {
+            var trimmed = meterText.trim()
+            if (trimmed === 'C' || trimmed === 'C|') {
+                meterValue = 1
+            } else if (trimmed === 'none' || trimmed === '') {
+                meterValue = 1
+            } else {
+                var meterParts = trimmed.split("/")
+                if (meterParts.length === 2 && meterParts[1] !== '0' && meterParts[1] !== '') {
+                    meterValue = parseFloat(meterParts[0]) / parseFloat(meterParts[1])
+                }
+            }
+        }
+        if (!isFinite(meterValue) || meterValue <= 0) {
+            meterValue = 1
+        }
+        return meterValue < 0.75 ? 0.0625 : 0.125
     }
     
     /** 
@@ -600,7 +631,7 @@ export default function useAbcjsParser() {
                     // add bars
                     //console.log('add bars',barCountDiff,parsedLength,chordLinesNotEmpty)
                     for (var k = 0; k < barCountDiff; k++) {
-                        var restChord = chordLinesNotEmpty[lineNumber][k]
+                        var restChord = chordLinesNotEmpty[lineNumber][barCount + k]
                         for (var j = 0; j< barSize; j++) {
                             var r = {rest: {type:'rest'}, el_type:'note', duration: noteLength}
                             if (restChord[j]) r.chord = restChord[j].map(function(c) {return {name: c}})
@@ -634,7 +665,13 @@ export default function useAbcjsParser() {
                 
                 line.forEach(function(bar,barNumber) {
                     var lastSymbolNumber = null
-                    Object.keys(bar).sort(function(a,b) {return (parseFloat(a) < parseFloat(b) ? -1 : 1) }).forEach(function(barKey, barCount) {
+                    Object.keys(bar).sort(function(a, b) {
+                        var fa = parseFloat(a)
+                        var fb = parseFloat(b)
+                        if (fa < fb) return -1
+                        if (fa > fb) return 1
+                        return 0
+                    }).forEach(function(barKey, barCount) {
                         var chords = bar[barKey]
                         var key = lineCount + "-" + barNumber + "-" + Math.floor(barKey)
                         //console.log(key,chords)
@@ -679,6 +716,50 @@ export default function useAbcjsParser() {
         var final = render(abc, abcString)            
         //console.log("MERGED",abc,final)
         return final
+    }
+
+    /**
+     * Merge melody note text into an ABC string while preserving existing chord symbols.
+     * The melody draft is the structural source of truth, so inline [M:] meter changes
+     * and barlines generated from detected timing survive the merge.
+     */
+    function mergeMelody(melodyText, abcString) {
+        if (!melodyText || !melodyText.trim()) return abcString
+        var abcJson = abcTools.abc2json(abcString)
+        var header = 'M:' + (abcJson.meter || '4/4') + '\n'
+            + 'L:' + (abcJson.noteLength || '1/8') + '\n'
+            + 'K:' + (abcJson.key || 'C') + '\n'
+        var melodyAbc = header + melodyText
+        var melodyParsed = parse(melodyAbc)
+        var abc = parse(abcString)
+        if (!melodyParsed || !melodyParsed[0] || !abc || !abc[0]) return abcString
+
+        var existingChords = []
+        abc[0].lines.forEach(function(line) {
+            if (line && line.staff && line.staff.length > 0 && line.staff[0].voices[0]) {
+                line.staff[0].voices[0].forEach(function(symbol) {
+                    if (symbol.el_type === 'note' && Array.isArray(symbol.chord) && symbol.chord.length > 0) {
+                        existingChords.push(symbol.chord)
+                    }
+                })
+            }
+        })
+
+        var chordIdx = 0
+        melodyParsed[0].lines.forEach(function(line) {
+            if (line && line.staff && line.staff.length > 0 && line.staff[0].voices[0]) {
+                line.staff[0].voices[0].forEach(function(symbol) {
+                    if (symbol.el_type === 'note') {
+                        if (chordIdx < existingChords.length) {
+                            symbol.chord = existingChords[chordIdx]
+                        }
+                        chordIdx++
+                    }
+                })
+            }
+        })
+
+        return render(melodyParsed, melodyAbc)
     }
     
     /** 
@@ -763,5 +844,5 @@ export default function useAbcjsParser() {
     
     
     
-    return {render,renderChords, parse, mergeChords, cleanupChords, cleanupLyrics}
+    return {render,renderChords, parse, mergeChords, mergeMelody, cleanupChords, cleanupLyrics}
 }

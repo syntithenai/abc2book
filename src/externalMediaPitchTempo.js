@@ -1,6 +1,10 @@
 import PitchTempoShifter from './pitchTempoShifter';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './externalMediaAudioCache';
+import { mixStemBuffers, resampleBufferToContextRate } from './audioStemMixer';
+import { audioFiltersAreNeutral } from './pitchTempoUtils';
+import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
+import { getCachedStemSet, getStemCacheKey, saveCachedStemSet } from './audioStemCache';
 
 export default class ExternalMediaPitchTempo {
   constructor(onTimeUpdate, onEnded, audioContext) {
@@ -11,6 +15,12 @@ export default class ExternalMediaPitchTempo {
     this.onEnded = onEnded;
     this._duration = 0;
     this._loadAborted = false;
+    this._sourceBuffer = null;
+    this._stemBuffers = null;
+    this._stemSeparation = null;
+    this._audioFilters = null;
+    this._stemLoadToken = 0;
+    this._stemLoadingPromise = null;
   }
 
   get duration() {
@@ -44,6 +54,10 @@ export default class ExternalMediaPitchTempo {
     }
 
     if (this._loadAborted) return null;
+    audioBuffer = resampleBufferToContextRate(this.audioContext, audioBuffer);
+    this._sourceBuffer = audioBuffer;
+    this._stemBuffers = null;
+    this._stemSeparation = null;
     this._duration = audioBuffer.duration;
     this.shifter = new PitchTempoShifter(
       this.audioContext,
@@ -58,16 +72,113 @@ export default class ExternalMediaPitchTempo {
     return this._duration;
   }
 
+  async ensureStemBuffers(cacheOptions, audioFilters) {
+    if (!cacheOptions || audioFiltersAreNeutral(audioFilters)) {
+      return null;
+    }
+    if (this._stemBuffers) {
+      return this._stemBuffers;
+    }
+
+    const token = ++this._stemLoadToken;
+    if (this._stemLoadingPromise) {
+      return this._stemLoadingPromise;
+    }
+
+    const loadPromise = (async () => {
+      const source = {
+        kind: 'link',
+        src: cacheOptions.src,
+        srcType: cacheOptions.srcType,
+        label: cacheOptions.label || '',
+      };
+      const separation = await separateStemsFromSource({
+        source: source,
+        accessToken: cacheOptions.accessToken,
+      });
+      if (token !== this._stemLoadToken || this._loadAborted) {
+        return null;
+      }
+
+      let stemBuffers = null;
+      const cacheKey = getStemCacheKey(
+        cacheOptions.tuneId,
+        cacheOptions.linkIndex,
+        cacheOptions.src,
+        separation.cacheId
+      );
+      const cached = await getCachedStemSet(cacheKey);
+      if (cached && cached.stemBuffers) {
+        stemBuffers = cached.stemBuffers;
+        this._stemSeparation = cached.separation || separation;
+      } else {
+        stemBuffers = await fetchStemBuffers(separation, cacheOptions.accessToken);
+        if (token !== this._stemLoadToken || this._loadAborted) {
+          return null;
+        }
+        await saveCachedStemSet(cacheKey, {
+          separation: separation,
+          stemBuffers: stemBuffers,
+        });
+        this._stemSeparation = separation;
+      }
+
+      this._stemBuffers = stemBuffers;
+      return stemBuffers;
+    })();
+
+    this._stemLoadingPromise = loadPromise;
+    try {
+      return await loadPromise;
+    } finally {
+      if (this._stemLoadingPromise === loadPromise) {
+        this._stemLoadingPromise = null;
+      }
+    }
+  }
+
+  applyStemMix(audioFilters) {
+    if (!this.shifter) return false;
+    this._audioFilters = audioFilters;
+    if (!this._stemBuffers || audioFiltersAreNeutral(audioFilters)) {
+      if (this._sourceBuffer) {
+        this.shifter.replaceBuffer(this._sourceBuffer, true);
+        this._duration = this._sourceBuffer.duration;
+      }
+      return true;
+    }
+    const mixed = mixStemBuffers(this.audioContext, this._stemBuffers, audioFilters);
+    if (!mixed) return false;
+    this.shifter.replaceBuffer(mixed, true);
+    this._duration = mixed.duration;
+    return true;
+  }
+
   abort() {
     this._loadAborted = true;
+    this._stemLoadToken++;
+    this._stemLoadingPromise = null;
   }
 
   getPlaybackRatio() {
-    return this.shifter ? this.shifter.getPlaybackRatio() : 0
+    return this.shifter ? this.shifter.getPlaybackRatio() : 0;
   }
 
-  applySettings(tempo, pitch, fineTune) {
-    if (this.shifter) this.shifter.applySettings(tempo, pitch, fineTune);
+  hasStemBuffers() {
+    return !!this._stemBuffers;
+  }
+
+  async applySettings(tempo, pitch, fineTune, audioFilters, cacheOptions) {
+    if (!this.shifter) return;
+    const nextFilters = audioFilters || this._audioFilters;
+    if (nextFilters && !audioFiltersAreNeutral(nextFilters)) {
+      await this.ensureStemBuffers(cacheOptions, nextFilters);
+      this.applyStemMix(nextFilters);
+    } else if (this._sourceBuffer) {
+      this.shifter.replaceBuffer(this._sourceBuffer, true);
+      this._duration = this._sourceBuffer.duration;
+    }
+    this.shifter.applySettings(tempo, pitch, fineTune);
   }
 
   connectIfRunning() {
@@ -112,6 +223,9 @@ export default class ExternalMediaPitchTempo {
       this.shifter.destroy();
       this.shifter = null;
     }
+    this._sourceBuffer = null;
+    this._stemBuffers = null;
+    this._stemSeparation = null;
     if (this._ownsAudioContext && this.audioContext && this.audioContext.state !== 'closed') {
       this.audioContext.close().catch(function() {});
     }

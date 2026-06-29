@@ -1,3 +1,5 @@
+import { buildVariableMeterBars, prefixMeterChange } from './timingGridUtils';
+
 function normalizeChordLabel(label) {
   const raw = String(label || '').trim();
   if (!raw || raw === 'N') return '';
@@ -33,6 +35,8 @@ export function formatDiscoveredChords(options) {
     beatsPerBar,
     slotsPerBeat,
     barsPerLine = 5,
+    meterChanges,
+    includeMeterChanges = true,
   } = options || {};
 
   if (!Array.isArray(segments) || segments.length === 0) return '';
@@ -41,18 +45,21 @@ export function formatDiscoveredChords(options) {
   const safeBeatsPerBar = Math.max(1, parseInt(beatsPerBar, 10) || 4);
   const safeSlotsPerBeat = Math.max(1, parseInt(slotsPerBeat, 10) || 1);
   const safeBarsPerLine = Math.max(1, parseInt(barsPerLine, 10) || 5);
-  const totalSlotsPerBar = safeBeatsPerBar * safeSlotsPerBeat;
-  const bars = [];
+  const bars = buildVariableMeterBars(beatTimes, meterChanges, safeBeatsPerBar)
+    .map(function(bar) {
+      return Object.assign({}, bar, {
+        slots: new Array(bar.beatsPerBar * safeSlotsPerBeat).fill('.'),
+      });
+    });
   let previousChord = '';
 
-  for (let beatIndex = 0; beatIndex < beatTimes.length; beatIndex++) {
-    if (beatIndex % safeBeatsPerBar === 0) {
-      bars.push(new Array(totalSlotsPerBar).fill('.'));
-    }
-
-    const barIndex = bars.length - 1;
-    const beatInBar = beatIndex % safeBeatsPerBar;
-    const slotIndex = beatInBar * safeSlotsPerBeat;
+  for (let barIndex = 0; barIndex < bars.length; barIndex++) {
+    const bar = bars[barIndex];
+    for (let beatNumber = 0; beatNumber < bar.beats.length; beatNumber++) {
+      const beat = bar.beats[beatNumber];
+      const beatIndex = beat.globalIndex;
+      const beatInBar = beat.index;
+      const slotIndex = beatInBar * safeSlotsPerBeat;
     const currentTime = Number(beatTimes[beatIndex]) || 0;
     const nextTime = beatIndex + 1 < beatTimes.length
       ? Number(beatTimes[beatIndex + 1])
@@ -61,13 +68,20 @@ export function formatDiscoveredChords(options) {
     const currentChord = getChordAtTime(segments, probeTime);
 
     if (currentChord && currentChord !== previousChord) {
-      bars[barIndex][slotIndex] = currentChord;
+        bar.slots[slotIndex] = currentChord;
     }
     previousChord = currentChord;
+    }
   }
 
+  let previousMeter = null;
   return bars.map(function(bar, index) {
     const suffix = ((index + 1) % safeBarsPerLine === 0) ? ' |\n' : ' | ';
-    return bar.join(' ') + suffix;
+    const barText = includeMeterChanges
+      ? prefixMeterChange(bar.slots.join(' '), bar, previousMeter)
+      : bar.slots.join(' ');
+    const text = barText + suffix;
+    previousMeter = bar.meter;
+    return text;
   }).join('').trim();
 }

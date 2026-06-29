@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import useUtils from './useUtils'
+import { normalizeViewMode } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
 
 /**
@@ -156,7 +157,23 @@ export default function useAppData() {
   }
   
   // display single view as music notation OR chords and lyrics
-  const [viewMode, setViewMode] = useState('music')
+  const [viewMode, setViewModeInner] = useState(function() {
+    try {
+      const stored = localStorage.getItem('bookstorage_view_mode')
+      return normalizeViewMode(stored || 'music')
+    } catch (e) {
+      return 'music'
+    }
+  })
+  function setViewMode(mode) {
+    const normalized = normalizeViewMode(mode)
+    setViewModeInner(normalized)
+    try {
+      localStorage.setItem('bookstorage_view_mode', normalized)
+    } catch (e) {
+      // ignore storage failures
+    }
+  }
   
   // memory copy of all tunes in the current database
   const [tunes, setTunesInner] = useState({});

@@ -1,11 +1,19 @@
 import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
+import MediaImportWizard from './MediaImportWizard'
+import MediaImportEntryButton from './MediaImportEntryButton'
 
 function WizardOptionsModal(props) {
   const [show, setShow] = useState(false);
+  const [showMediaWizard, setShowMediaWizard] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  function openMediaWizard() {
+    setShow(false);
+    setShowMediaWizard(true);
+  }
   
   //function saveNotes(noteVals) {
     //var tune = props.tune
@@ -50,7 +58,10 @@ function WizardOptionsModal(props) {
           <Modal.Title>Wizards</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5em', alignItems: 'center' }}>
+            {/* Temporarily hidden until transcription accuracy improves. Re-enable by
+                restoring <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} /> */}
+            {false && <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} />}
             <Button variant="primary" onClick={function(e) {
                 applyToNotes(function(v) { 
                   return props.tunebook.abcTools.fixNotesBang(v)
@@ -98,6 +109,15 @@ function WizardOptionsModal(props) {
           </div>
         </Modal.Body>
       </Modal>
+
+      <MediaImportWizard
+        show={showMediaWizard}
+        onClose={function() { setShowMediaWizard(false); }}
+        tune={props.tune}
+        tunebook={props.tunebook}
+        abc={props.abc}
+        forceRefresh={props.forceRefresh}
+      />
     </>
   );
 }

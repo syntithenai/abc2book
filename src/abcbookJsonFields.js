@@ -1,0 +1,82 @@
+import { audioFiltersAreNeutral } from './pitchTempoUtils';
+import { exportMinimalTimedLyrics, exportMinimalTimedChords } from './timedExportUtils';
+
+const PREFIX = '% abcbook-json ';
+const CHUNK_SIZE = 180;
+
+export const TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords'];
+export const PLAYBACK_JSON_FIELDS = ['playbackAudioFilters'];
+
+export function renderAbcbookJsonField(fieldName, value) {
+  if (value === null || value === undefined) return [];
+  const json = JSON.stringify(value);
+  if (!json || json === 'null') return [];
+  const chunks = [];
+  for (let i = 0; i < json.length; i += CHUNK_SIZE) {
+    chunks.push(json.slice(i, i + CHUNK_SIZE));
+  }
+  return chunks.map(function(chunk, idx) {
+    return PREFIX + fieldName + ' ' + (idx + 1) + '/' + chunks.length + ' ' + chunk;
+  });
+}
+
+export function renderTimedJsonFields(tune) {
+  const lines = [];
+  if (!tune) return lines;
+  const timedFields = {
+    timedLyrics: tune.timedLyrics ? exportMinimalTimedLyrics(tune.timedLyrics) : null,
+    timedChords: tune.timedChords ? exportMinimalTimedChords(tune.timedChords) : null,
+  };
+  TIMED_JSON_FIELDS.concat(PLAYBACK_JSON_FIELDS).forEach(function(fieldName) {
+    const value = fieldName === 'playbackAudioFilters'
+      ? tune[fieldName]
+      : timedFields[fieldName];
+    if (!value) return;
+    if (fieldName === 'playbackAudioFilters' && audioFiltersAreNeutral(value)) return;
+    lines.push.apply(lines, renderAbcbookJsonField(fieldName, value));
+  });
+  return lines;
+}
+
+export function parseAbcbookJsonLine(line) {
+  if (!line || !line.startsWith(PREFIX)) return null;
+  const rest = line.slice(PREFIX.length);
+  const firstSpace = rest.indexOf(' ');
+  if (firstSpace < 0) return null;
+  const fieldName = rest.slice(0, firstSpace);
+  const chunkPart = rest.slice(firstSpace + 1);
+  const match = chunkPart.match(/^(\d+)\/(\d+)\s+(.*)$/);
+  if (!match) return null;
+  return {
+    fieldName: fieldName,
+    index: parseInt(match[1], 10) - 1,
+    total: parseInt(match[2], 10),
+    data: match[3],
+  };
+}
+
+export function applyAbcbookJsonChunks(chunksByField) {
+  const result = {};
+  Object.keys(chunksByField || {}).forEach(function(fieldName) {
+    const parts = chunksByField[fieldName];
+    if (!Array.isArray(parts) || parts.length === 0) return;
+    const sorted = parts.slice().sort(function(a, b) {
+      return a.index - b.index;
+    });
+    const json = sorted.map(function(part) { return part.data; }).join('');
+    try {
+      result[fieldName] = JSON.parse(json);
+    } catch (e) {
+      // Skip corrupt chunks.
+    }
+  });
+  return result;
+}
+
+export function collectAbcbookJsonChunk(parsedChunk, chunksByField) {
+  if (!parsedChunk) return chunksByField;
+  const store = chunksByField || {};
+  if (!store[parsedChunk.fieldName]) store[parsedChunk.fieldName] = [];
+  store[parsedChunk.fieldName].push(parsedChunk);
+  return store;
+}

@@ -6,18 +6,39 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     python3-dev \
     libsndfile1 \
+    cython3 \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
+ARG MELODY_TORCH_INDEX=https://download.pytorch.org/whl/cpu
+ARG MELODY_PREFETCH_DEVICE=cpu
+
+COPY constraints-build.txt /build/constraints-build.txt
 COPY requirements-chords.txt /build/requirements-chords.txt
+COPY requirements-melody.txt /build/requirements-melody.txt
 COPY prefetch_autochord.py /build/prefetch_autochord.py
+COPY prefetch_madmom.py /build/prefetch_madmom.py
+COPY prefetch_demucs.py /build/prefetch_demucs.py
+
+# Applied to isolated build environments too, so legacy setup.py builds (crepe,
+# madmom) get a setuptools that still provides pkg_resources.
+ENV PIP_CONSTRAINT=/build/constraints-build.txt
 
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 RUN python -m venv "${AUTOCHORD_VENV}" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --upgrade pip \
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "setuptools<82" wheel \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "numpy>=1.19,<2" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --no-build-isolation vamp \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-chords.txt \
-    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_autochord.py
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir torch torchaudio --index-url ${MELODY_TORCH_INDEX} \
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-melody.txt \
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "Cython>=0.29" \
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --no-build-isolation \
+        "madmom @ git+https://github.com/CPJKU/madmom.git@main" \
+    && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_autochord.py \
+    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_madmom.py \
+    && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_demucs.py
 
 
 FROM ghcr.io/ggml-org/whisper.cpp:main-vulkan
@@ -62,6 +83,9 @@ RUN mkdir -p /opt/autochord-libs \
 COPY server.py /app/server.py
 COPY detect_chords.py /app/detect_chords.py
 COPY detect_melody.py /app/detect_melody.py
+COPY detect_timing.py /app/detect_timing.py
+COPY stem_separation.py /app/stem_separation.py
+COPY separate_stems.py /app/separate_stems.py
 
 EXPOSE 8787
 

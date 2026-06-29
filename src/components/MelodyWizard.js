@@ -5,11 +5,21 @@ import useAbcjsParser from '../useAbcjsParser';
 import CreatableSelect from 'react-select/creatable';
 import TuneMediaAnalysisButton from './TuneMediaAnalysisButton';
 import useTuneMediaAnalysis from '../useTuneMediaAnalysis';
+import { loadTimedMediaDraft, saveTimedMediaDraft } from '../timedMediaCache';
+import { timedMelodyToAbc } from '../timedMelodyModel';
+import { resolvePrimaryVoiceKey } from '../abcVoiceUtils';
+import MelodyProcessingPanel from './MelodyProcessingPanel';
+import TimedDerivationControls from './TimedDerivationControls';
+import {
+  loadMelodyProcessingSettings,
+  saveMelodyProcessingSettings,
+} from '../melodyProcessingSettings';
 
 export default function MelodyWizard(props) {
   const [melody, setMelody] = useState('');
+  const [processingSettings, setProcessingSettings] = useState(loadMelodyProcessingSettings());
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
-  const { analysis } = useTuneMediaAnalysis();
+  const { analysis } = useTuneMediaAnalysis({ tune: props.tune });
   const lastAppliedVersionRef = useRef(0);
   const tune = props.tune;
 
@@ -18,7 +28,37 @@ export default function MelodyWizard(props) {
     if (analysis.version === lastAppliedVersionRef.current) return;
     lastAppliedVersionRef.current = analysis.version;
     setMelody(analysis.formatted.melodyText);
+    if (tune && tune.id) {
+      saveTimedMediaDraft(tune.id, { melodyAbcText: analysis.formatted.melodyText });
+    }
   }, [analysis]);
+
+  useEffect(function() {
+    if (!tune || !tune.id) return;
+    loadTimedMediaDraft(tune.id).then(function(draft) {
+      if (draft && draft.melodyAbcText) {
+        setMelody(draft.melodyAbcText);
+        return;
+      }
+      if (tune.timedMelody) {
+        const meter = tune.meter || '4/4';
+        const beatsPerBar = props.tunebook.abcTools.getBeatsPerBar(meter) || 4;
+        const barSlots = props.tunebook.abcTools.getNoteLengthsPerBar(
+          tune.noteLength || '1/8',
+          meter
+        );
+        const slotsPerBeat = barSlots && beatsPerBar
+          ? Math.max(1, Math.round(barSlots / beatsPerBar))
+          : 2;
+        const abcText = timedMelodyToAbc(tune.timedMelody, {
+          beatsPerBar: beatsPerBar,
+          slotsPerBeat: slotsPerBeat,
+          noteLength: tune.noteLength,
+        });
+        if (abcText) setMelody(abcText);
+      }
+    });
+  }, [tune && tune.id]);
 
   useEffect(function() {
     if (Array.isArray(props.notes) && props.notes.length > 0) {
@@ -30,6 +70,7 @@ export default function MelodyWizard(props) {
     <Form.Group controlId="melodywiz">
       <div style={{ clear: 'both' }}>
         <TuneMediaAnalysisButton
+          tune={tune}
           label="Listen"
           activeLabel="Listening..."
           buttonStyle={{ float: 'left', marginRight: '1em' }}
@@ -37,15 +78,10 @@ export default function MelodyWizard(props) {
 
         <Button variant="success" style={{ float: 'right', marginRight: '1em' }} onClick={function() {
           if (!window.confirm('Do you really want to update your music with this melody?')) return;
-          var newAbcNotes = props.tunebook.abcTools.justNotes(melody);
+          var newAbcNotes = props.tunebook.abcTools.justNotes(abcjsParser.mergeMelody(melody, props.abc));
           var abcJson = props.tunebook.abcTools.abc2json(props.abc);
-          var keyList = Object.keys(abcJson.voices).sort();
-          var useVoiceKey = keyList.length > 0 ? keyList[0] : null;
-          if (useVoiceKey === null) {
-            abcJson.voices[1] = { meta: '', notes: newAbcNotes.split('\n') };
-          } else {
-            abcJson.voices[parseInt(useVoiceKey, 10)] = { meta: '', notes: newAbcNotes.split('\n') };
-          }
+          var useVoiceKey = resolvePrimaryVoiceKey(abcJson.voices);
+          abcJson.voices[useVoiceKey] = { meta: '', notes: newAbcNotes.split('\n') };
           props.tunebook.saveTune(abcJson);
         }}>Save</Button>
 
@@ -87,13 +123,35 @@ export default function MelodyWizard(props) {
       />
     </Form.Group>
 
+    <MelodyProcessingPanel
+      settings={processingSettings}
+      onChange={function(next) {
+        setProcessingSettings(next);
+        saveMelodyProcessingSettings(next);
+      }}
+    />
+
+    <TimedDerivationControls
+      tune={tune}
+      tunebook={props.tunebook}
+      abc={props.abc}
+      onSaveTune={function(updated) {
+        props.saveTune(updated || tune);
+      }}
+    />
+
     <Form.Control
       disabled={!tune.meter}
       style={{ height: '20em' }}
       as="textarea"
       placeholder={'eg\nC D E F | G2 A B c |'}
       value={melody}
-      onChange={function(e) { setMelody(e.target.value); }}
+      onChange={function(e) {
+        setMelody(e.target.value);
+        if (tune && tune.id) {
+          saveTimedMediaDraft(tune.id, { melodyAbcText: e.target.value });
+        }
+      }}
     />
     {!analysis && (
       <Alert variant="info" style={{ marginTop: '0.8em' }}>

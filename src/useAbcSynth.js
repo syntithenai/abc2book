@@ -431,7 +431,7 @@ export default function useAbcSynth(props) {
             setLastPlaybackSpeed(props.mediaController.playbackSpeed)
             setIsLastPlaying(props.mediaController.isPlaying)
             
-        }  else if (props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
+        }  else if (props.mediaController && props.mediaController.mediaLinkNumber !== lastMediaLinkNumber) {
             stopPlaying()
             resetAudioState()
         }

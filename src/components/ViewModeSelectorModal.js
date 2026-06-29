@@ -1,38 +1,37 @@
-import {useState} from 'react'
-import {Button, Modal, ListGroup} from 'react-bootstrap'
+import { useState } from 'react';
+import { Button, Dropdown } from 'react-bootstrap';
+import { VIEW_MODES, normalizeViewMode } from '../viewModeUtils';
 
 export default function ViewModeSelectorModal(props) {
   const [show, setShow] = useState(false);
-  const handleClose = () => {
-    setShow(false);
-    if (props.closeParent) props.closeParent()
-  }
-  const handleShow = () => setShow(true);
-  
-  function toggleViewMode() {
-      if (props.viewMode === 'music') {
-          props.onChange('chords')
-      } else {
-          props.onChange('music')
-      }
-  }
-  
+  const currentMode = normalizeViewMode(props.viewMode);
+  const currentLabel = VIEW_MODES.find(function(mode) { return mode.id === currentMode; });
+  const label = currentLabel ? currentLabel.label : 'View';
+
   return (
-    <>
-      <Button onClick={toggleViewMode} variant="secondary" >{props.tunebook.icons.eye}</Button>
-    </>
+    <Dropdown show={show} onToggle={function(next) { setShow(next); }}>
+      <Dropdown.Toggle variant="secondary" id="view-mode-dropdown">
+        {props.tunebook.icons.eye} {label}
+      </Dropdown.Toggle>
+      <Dropdown.Menu>
+        {VIEW_MODES.map(function(mode) {
+          return (
+            <Dropdown.Item
+              key={mode.id}
+              active={currentMode === mode.id}
+              onClick={function() {
+                props.onChange(mode.id);
+                setShow(false);
+                if (props.closeParent) props.closeParent();
+              }}
+            >
+              {mode.id === 'music' && props.tunebook.icons.music}
+              {(mode.id === 'chordsInline' || mode.id === 'chordsBlock') && props.tunebook.icons.guitar}
+              {' '}{mode.label}
+            </Dropdown.Item>
+          );
+        })}
+      </Dropdown.Menu>
+    </Dropdown>
   );
 }
-
-//<Modal show={show} onHide={handleClose}>
-        //<Modal.Header closeButton>
-          //<Modal.Title>View Mode</Modal.Title>
-          
-        //</Modal.Header>
-        
-        //<Modal.Body>
-            //<Button onClick={function() {props.onChange('music'); handleClose()}} >{props.tunebook.icons.music} Music Notation</Button>
-            //<Button style={{marginLeft:'0.3em'}}  onClick={function() {props.onChange('chords'); handleClose()}}>{props.tunebook.icons.guitar} Lyrics and Chords</Button>
-        //</Modal.Body>
-        
-      //</Modal>

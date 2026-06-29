@@ -2,12 +2,14 @@ import React from 'react'
 import {useState, useEffect, useRef} from 'react'
 import axios from 'axios'
 import useUtils from './useUtils'
+import { getAudioFilterSettings } from './pitchTempoUtils'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
 import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
+import { getLyricLines } from './wLinesUtils'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 
 var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
@@ -228,6 +230,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
         ? parseInt(tune.playbackPitch, 10) || 0 : 0
       tune.playbackFineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
         ? parseInt(tune.playbackFineTune, 10) || 0 : 0
+      tune.playbackAudioFilters = getAudioFilterSettings(tune)
       if (Array.isArray(tune.links)) {
         tune.links = tune.links.map(syncLegacyLinkLoopFields)
       }
@@ -707,19 +710,10 @@ The main difference between the two functions is the additional condition in app
     }
     
     function hasLyrics(tune) {
-        if (tune && tune.words) {
-            //console.log("HL",tune)
-            var found = false
-            var wordList = Object.values(tune.words)
-            for (var i = 0; i < wordList.length; i++) {
-                var word =  wordList[i]
-                if (word && word.trim()) {
-                    found = true
-                    break
-                }
-            }
-        }
-        return found
+        if (!tune) return false
+        return getLyricLines(tune).some(function(line) {
+            return line && line.trim().length > 0
+        })
     }
     
     

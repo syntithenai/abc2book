@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Button } from 'react-bootstrap';
 import { formatPitchDisplay, formatFineTuneDisplay, getPlaybackSettings } from '../pitchTempoUtils';
-import MediaSeekSlider from './MediaSeekSlider';
 import './PitchTempoControlsPanel.css';
 
 const tempoPresets = {
@@ -94,8 +93,6 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
 
   return (
     <div className="pitch-tempo-panel">
-      <MediaSeekSlider mediaController={mediaController} className="compact" />
-
       <div className="control-section">
         <div className="control-section-header">
           <h6>Tempo</h6>

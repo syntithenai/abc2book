@@ -1,3 +1,5 @@
+import { buildVariableMeterBars, prefixMeterChange } from './timingGridUtils';
+
 const ABC_NAMES = ['C', '^C', 'D', '^D', 'E', 'F', '^F', 'G', '^G', 'A', '^A', 'B'];
 
 function midiToAbcPitch(midi) {
@@ -51,6 +53,7 @@ export function formatMelodyNotes(options) {
     beatTimes,
     beatsPerBar,
     slotsPerBeat,
+    meterChanges,
   } = options || {};
 
   if (!Array.isArray(notes) || notes.length === 0) return '';
@@ -58,41 +61,47 @@ export function formatMelodyNotes(options) {
 
   const safeBeatsPerBar = Math.max(1, parseInt(beatsPerBar, 10) || 4);
   const safeSlotsPerBeat = Math.max(1, parseInt(slotsPerBeat, 10) || 2);
-  const bars = [];
-  let currentBar = null;
-
-  function ensureBar(barNumber) {
-    while (bars.length <= barNumber) {
-      bars.push([]);
-    }
-    currentBar = bars[barNumber];
-  }
+  const bars = buildVariableMeterBars(beatTimes, meterChanges, safeBeatsPerBar)
+    .map(function(bar) {
+      return Object.assign({}, bar, { notes: [] });
+    });
 
   notes.forEach(function(note) {
     const start = Number(note.start) || 0;
     const end = Number(note.end) || start;
     const beatIndex = findBeatIndex(beatTimes, start);
-    const barNumber = Math.floor(beatIndex / safeBeatsPerBar);
-    const beatInBar = beatIndex % safeBeatsPerBar;
+    let barNumber = 0;
+    let beatInBar = 0;
+    for (let i = 0; i < bars.length; i++) {
+      const found = bars[i].beats.find(function(beat) { return beat.globalIndex === beatIndex; });
+      if (found) {
+        barNumber = i;
+        beatInBar = found.index;
+        break;
+      }
+    }
     const beatDuration = getBeatDuration(beatTimes, beatIndex);
     const duration = quantizeDuration(end - start, beatDuration, safeSlotsPerBeat);
     const pitch = midiToAbcPitch(note.midi);
 
-    ensureBar(barNumber);
-    currentBar.push({
+    if (!bars[barNumber]) return;
+    bars[barNumber].notes.push({
       slot: beatInBar * safeSlotsPerBeat,
       token: pitch + duration,
     });
   });
 
-  return bars.map(function(barNotes, barIndex) {
-    const slots = new Array(safeBeatsPerBar * safeSlotsPerBeat).fill('z');
-    barNotes.forEach(function(entry) {
+  let previousMeter = null;
+  return bars.map(function(bar, barIndex) {
+    const slots = new Array(bar.beatsPerBar * safeSlotsPerBeat).fill('z');
+    bar.notes.forEach(function(entry) {
       if (entry.slot >= 0 && entry.slot < slots.length) {
         slots[entry.slot] = entry.token;
       }
     });
     const suffix = ((barIndex + 1) % 4 === 0) ? ' |\n' : ' | ';
-    return slots.join(' ') + suffix;
+    const text = prefixMeterChange(slots.join(' '), bar, previousMeter) + suffix;
+    previousMeter = bar.meter;
+    return text;
   }).join('').trim();
 }

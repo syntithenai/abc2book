@@ -2,7 +2,9 @@ import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {useNavigate, useLocation} from 'react-router-dom'
 import PitchTempoControlsPanel from './PitchTempoControlsPanel'
+import AudioFiltersPanel from './AudioFiltersPanel'
 import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
+import MediaSeekSlider from './MediaSeekSlider'
 import { getActiveLinkIndex } from '../mediaPlaybackUtils'
 import './MediaPlayerOptionsModal.css'
  
@@ -51,11 +53,20 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && mediaController.tune.links
     && mediaController.tune.links[activeLinkIndex]
 
+  const showAudioFiltersTab = !!mediaController.tune
+    && activeLinkIndex !== null
+    && mediaController.tune.links
+    && mediaController.tune.links[activeLinkIndex]
+    && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
+
   useEffect(function() {
     if (settingsTab === 'loop' && !showLoopTab) {
       setSettingsTab('playback');
     }
-  }, [settingsTab, showLoopTab]);
+    if (settingsTab === 'filters' && !showAudioFiltersTab) {
+      setSettingsTab('playback');
+    }
+  }, [settingsTab, showLoopTab, showAudioFiltersTab]);
 
   function startPlaybackFromGesture(options) {
     if (mediaController.playFromUserGesture) {
@@ -299,6 +310,14 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
 
           {mediaController.tune && (
             <div className="media-controls-settings-tabs">
+              <MediaSeekSlider mediaController={mediaController} className="compact" />
+
+              {mediaController.stemSeparationActive && (
+                <div className="media-controls-stem-status">
+                  Separating stems… the first change for a track can take a while. This continues even if you switch tabs.
+                </div>
+              )}
+
               <Tabs
                 activeKey={settingsTab}
                 onSelect={function(key) { if (key) setSettingsTab(key); }}
@@ -313,6 +332,16 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                     showPitchControls={!!mediaController.mediaResolverAvailable}
                   />
                 </Tab>
+                {showAudioFiltersTab && (
+                  <Tab eventKey="filters" title="Audio Filters">
+                    <AudioFiltersPanel
+                      tune={mediaController.tune}
+                      tunebook={tunebook}
+                      mediaController={mediaController}
+                      showFilters={!!mediaController.mediaResolverFeaturesEnabled}
+                    />
+                  </Tab>
+                )}
                 {showLoopTab && (
                   <Tab eventKey="loop" title="Loop">
                     <MediaPlaybackRegionPanel

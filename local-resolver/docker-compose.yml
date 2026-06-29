@@ -17,6 +17,9 @@ services:
       WHISPER_CPP_PATH: /app/build/bin/whisper-cli
       WHISPER_BACKEND_PREFERENCE: auto
       WHISPER_CPU_FALLBACK: "true"
+      # Melody: auto tries CUDA when available inside the container
+      MELODY_BACKEND_PREFERENCE: ${MELODY_BACKEND_PREFERENCE:-auto}
+      MELODY_SOURCE_SEPARATION: ${MELODY_SOURCE_SEPARATION:-auto}
     devices:
       - /dev/dri:/dev/dri
     volumes:

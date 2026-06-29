@@ -1,6 +1,7 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
 import { formatDiscoveredChords } from './chordDiscoveryFormatter';
 import { formatMelodyNotes } from './melodyFormatter';
+import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 
 function normalizeMediaAnalysis(body) {
   if (!body || typeof body !== 'object') {
@@ -33,10 +34,28 @@ function normalizeMediaAnalysis(body) {
     },
     melody: {
       notes: Array.isArray(melody.notes) ? melody.notes : [],
+      silences: Array.isArray(melody.silences) ? melody.silences : [],
+      noise: Array.isArray(melody.noise) ? melody.noise : [],
       duration: typeof melody.duration === 'number' ? melody.duration : 0,
       backend: typeof melody.backend === 'string' ? melody.backend : '',
+      separated: !!melody.separated,
+      melodySource: typeof melody.melodySource === 'string' ? melody.melodySource : '',
+      detectedKey: typeof melody.detectedKey === 'string' ? melody.detectedKey : '',
+      detectedMeter: typeof melody.detectedMeter === 'string' ? melody.detectedMeter : '',
+      processing: melody.processing && typeof melody.processing === 'object' ? melody.processing : {},
       error: typeof melody.error === 'string' ? melody.error : '',
     },
+    timing: body.timing && typeof body.timing === 'object' ? {
+      beatTimes: Array.isArray(body.timing.beatTimes) ? body.timing.beatTimes : [],
+      downbeatTimes: Array.isArray(body.timing.downbeatTimes) ? body.timing.downbeatTimes : [],
+      tempo: typeof body.timing.tempo === 'number' ? body.timing.tempo : 0,
+      meter: typeof body.timing.meter === 'string' ? body.timing.meter : '',
+      beatsPerBar: typeof body.timing.beatsPerBar === 'number' ? body.timing.beatsPerBar : 0,
+      meterChanges: Array.isArray(body.timing.meterChanges) ? body.timing.meterChanges : [],
+      detectedKey: typeof body.timing.detectedKey === 'string' ? body.timing.detectedKey : '',
+      detectedMeter: typeof body.timing.detectedMeter === 'string' ? body.timing.detectedMeter : '',
+      backend: typeof body.timing.backend === 'string' ? body.timing.backend : '',
+    } : null,
   };
 }
 
@@ -55,6 +74,71 @@ async function parseMediaAnalysisResponse(response) {
   return normalizeMediaAnalysis(body);
 }
 
+export function handleAnalysisStreamEvent(event, onProgress) {
+  if (!event || typeof event !== 'object') return null;
+  if (event.type === 'progress') {
+    if (typeof onProgress === 'function') {
+      onProgress(event.message || '', event.progress);
+    }
+    return null;
+  }
+  if (event.type === 'error') {
+    throw new Error(event.message || 'Media analysis failed');
+  }
+  if (event.type === 'result') {
+    return normalizeMediaAnalysis(event.body);
+  }
+  return null;
+}
+
+async function parseStreamingMediaAnalysisResponse(response, onProgress) {
+  if (!response.ok) {
+    return parseMediaAnalysisResponse(response);
+  }
+
+  if (!response.body || typeof response.body.getReader !== 'function') {
+    return parseMediaAnalysisResponse(response);
+  }
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let result = null;
+
+  while (true) {
+    const chunk = await reader.read();
+    if (chunk.done) break;
+    buffer += decoder.decode(chunk.value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop() || '';
+    lines.forEach(function(line) {
+      if (!line.trim()) return;
+      const parsed = handleAnalysisStreamEvent(JSON.parse(line), onProgress);
+      if (parsed) result = parsed;
+    });
+  }
+
+  if (buffer.trim()) {
+    const parsed = handleAnalysisStreamEvent(JSON.parse(buffer), onProgress);
+    if (parsed) result = parsed;
+  }
+
+  if (!result) {
+    throw new Error('Media analysis stream ended without a result');
+  }
+  return result;
+}
+
+async function parseAnalysisResponse(response, onProgress) {
+  const contentType = response.headers.get('content-type') || '';
+  if (contentType.indexOf('application/x-ndjson') >= 0) {
+    return parseStreamingMediaAnalysisResponse(response, onProgress);
+  }
+  return parseMediaAnalysisResponse(response);
+}
+
+const ANALYSIS_ACCEPT_HEADER = 'application/x-ndjson, application/json';
+
 export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
   const meter = tune && tune.meter ? tune.meter : '4/4';
   const noteLength = tune && tune.noteLength ? tune.noteLength : '1/8';
@@ -70,16 +154,26 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
 
   const chordsText = formatDiscoveredChords({
     segments: analysis.chords.segments,
-    beatTimes: analysis.chords.beatTimes,
+    beatTimes: analysis.timing && analysis.timing.beatTimes && analysis.timing.beatTimes.length > 0
+      ? analysis.timing.beatTimes
+      : analysis.chords.beatTimes,
     beatsPerBar: beatsPerBar,
     slotsPerBeat: slotsPerBeat,
+    meterChanges: analysis.timing && Array.isArray(analysis.timing.meterChanges)
+      ? analysis.timing.meterChanges
+      : [],
   });
 
   const melodyText = formatMelodyNotes({
     notes: analysis.melody.notes,
-    beatTimes: analysis.chords.beatTimes,
+    beatTimes: analysis.timing && analysis.timing.beatTimes && analysis.timing.beatTimes.length > 0
+      ? analysis.timing.beatTimes
+      : analysis.chords.beatTimes,
     beatsPerBar: beatsPerBar,
     slotsPerBeat: slotsPerBeat,
+    meterChanges: analysis.timing && Array.isArray(analysis.timing.meterChanges)
+      ? analysis.timing.meterChanges
+      : [],
     noteLength: noteLength,
   });
 
@@ -96,14 +190,17 @@ export async function analyzeMediaFromSource(options) {
     accessToken,
     signal,
     onProgress,
+    processing,
   } = options;
+
+  const melodyProcessing = processing || buildAnalysisProcessingPayload(loadMelodyProcessingSettings());
 
   if (!source) {
     throw new Error('No media source selected');
   }
 
   if (typeof onProgress === 'function') {
-    onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...');
+    onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...', 0);
   }
 
   if (source.kind === 'recording') {
@@ -113,26 +210,20 @@ export async function analyzeMediaFromSource(options) {
     const formData = new FormData();
     formData.append('file', source.blob, source.fileName || 'recording.wav');
     formData.append('sourceName', source.label || source.fileName || 'Recording');
-    if (typeof onProgress === 'function') {
-      onProgress('Analyzing lyrics, chords, and melody...');
-    }
+    formData.append('processing', JSON.stringify(melodyProcessing));
     const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
       method: 'POST',
       body: formData,
       signal: signal,
       headers: {
-        Accept: 'application/json',
+        Accept: ANALYSIS_ACCEPT_HEADER,
       },
     });
-    return parseMediaAnalysisResponse(response);
+    return parseAnalysisResponse(response, onProgress);
   }
 
   if (!source.src) {
     throw new Error('Media source URL is missing');
-  }
-
-  if (typeof onProgress === 'function') {
-    onProgress('Analyzing lyrics, chords, and melody...');
   }
 
   const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
@@ -141,13 +232,14 @@ export async function analyzeMediaFromSource(options) {
       sourceUrl: source.src,
       sourceType: source.srcType || 'audio',
       sourceName: source.label || '',
+      processing: melodyProcessing,
     }),
     signal: signal,
     headers: {
-      Accept: 'application/json',
+      Accept: ANALYSIS_ACCEPT_HEADER,
       'Content-Type': 'application/json',
     },
   });
 
-  return parseMediaAnalysisResponse(response);
+  return parseAnalysisResponse(response, onProgress);
 }

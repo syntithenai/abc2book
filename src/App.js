@@ -50,6 +50,7 @@ import useGoogleLogin from './useGoogleLogin'
 //import GoogleLogin from './GoogleLogin'
 import useTuneBookMediaController from './useTuneBookMediaController'
 import { useInitMediaResolverHealth } from './useMediaResolverHealth'
+import { TuneMediaAnalysisProvider } from './useTuneMediaAnalysis'
 import useFileManager from './useFileManager' 
 import useSyncWorker from './useSyncWorker'	
 import useRouteAnalytics from './useRouteAnalytics'
@@ -398,7 +399,13 @@ function App(props) {
             
               <Header isSyncing={syncWorker.isRunning} breakLoginToken={breakLoginToken} forceNav={forceNav} setForceNav={setForceNav} mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login}  googleDocumentId={googleDocumentId} currentTune={currentTune}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  abcPlaylist={abcPlaylist} setAbcPlaylist={setAbcPlaylist}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} filter={filter} setFilter={setFilter} forceRefresh={forceRefresh} tunesHash={tunesHash} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} selected={selected} loadUserImage={loadUserImage} />
               <div className="App-body">
-                
+                <TuneMediaAnalysisProvider
+                  tunebook={tunebook}
+                  tunes={tunes}
+                  token={token}
+                  recordingsManager={recordingsManager}
+                  forceRefresh={forceRefresh}
+                >
                    <Routes>
                     <Route  path={``}   element={<BooksPage mediaController={mediaController}  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} setCurrentTune={setCurrentTune}  mediaPlaylist={mediaPlaylist} setMediaPlaylist={setMediaPlaylist}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} setTagFilter={setTagFilter} setFilter={setFilter} setGroupBy={setGroupBy} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />}  />
                     
@@ -497,7 +504,7 @@ function App(props) {
                     <Route path={'blank'} element={<BlankPage mediaController={mediaController} />} />
                     
                   </Routes>
-                  
+                </TuneMediaAnalysisProvider>
               </div>
               </div>}
               

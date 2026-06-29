@@ -39,7 +39,7 @@ export default function MusicEditor(props) {
                
             </span>
             
-            <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal  abc={abc} tune={tune} tunebook={props.tunebook}  /></span>
+            <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal abc={abc} tune={tune} tunebook={props.tunebook} forceRefresh={props.forceRefresh} /></span>
             
             
             <span style={{marginLeft:'0.2em'}} ><   Button variant="warning" className='btn-secondary' onClick={function(e) {props.popHistory()}} >{props.tunebook.icons.arrowgoback}</Button></span>

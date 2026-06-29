@@ -10,6 +10,7 @@ import SelectedItemsModal from './SelectedItemsModal'
     
 import Abc from './Abc'
 import {buildSearchPageTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import { getLyricLines } from '../wLinesUtils'
 import { queueBooksPageScroll, BOOKS_PAGE_SECTIONS } from '../recentTunes'
 
 var LIST_PROTECTION_LIMIT = 500
@@ -441,7 +442,7 @@ export default function IndexLayout(props) {
                 
                 {props.showPreviewInList && <Abc link={true} scale="0.7" abc={props.tunebook.abcTools.json2abc_cheatsheet(tune)}  tunebook={props.tunebook} />}
                 
-                {props.showPreviewInList && <div>{tune.words.slice(0,3).map(function(line) {return <div>{line}</div>})}</div>}
+                {props.showPreviewInList && <div>{getLyricLines(tune).slice(0,3).map(function(line, lk) {return <div key={lk}>{line}</div>})}</div>}
             
                 
             </ListGroup.Item> : ''

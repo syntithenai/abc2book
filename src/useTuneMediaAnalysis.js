@@ -1,188 +1,283 @@
-import { createContext, useCallback, useContext, useMemo, useRef, useState } from 'react';
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useSyncExternalStore,
+} from 'react';
+import { useParams } from 'react-router-dom';
 import { analyzeMediaFromSource, formatMediaAnalysisForTune } from './mediaAnalysisClient';
+import { buildTimedModelsFromAnalysis } from './mediaAnalysisModels';
+import { saveTimedMediaDraft } from './timedMediaCache';
+import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 import { getLinkedMediaSources } from './mediaTranscriptionSources';
 import useUtils from './useUtils';
+import {
+  clearMediaAnalysisAbortController,
+  EMPTY_MEDIA_ANALYSIS_JOB,
+  getMediaAnalysisAbortController,
+  getMediaAnalysisJob,
+  patchMediaAnalysisJob,
+  setMediaAnalysisAbortController,
+  subscribeMediaAnalysisJobs,
+} from './mediaAnalysisJobs';
 
-const TuneMediaAnalysisContext = createContext(null);
+const TuneMediaAnalysisDepsContext = createContext(null);
 
-function useTuneMediaAnalysisState(options) {
-  const {
-    tune,
-    tunebook,
-    token,
-    recordingsManager,
-    pushHistory,
-    onSaveTune,
-  } = options;
+function resolveTune(deps, tune, tuneId) {
+  if (tune && tune.id) return tune;
+  if (tuneId && deps && deps.tunes) return deps.tunes[tuneId] || null;
+  return null;
+}
 
-  const utils = useUtils();
-  const accessToken = token && token.access_token ? token.access_token : null;
-  const [analysis, setAnalysis] = useState(null);
-  const [analysisVersion, setAnalysisVersion] = useState(0);
-  const [status, setStatus] = useState('');
-  const [error, setError] = useState('');
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [showSourceDialog, setShowSourceDialog] = useState(false);
-  const abortRef = useRef(null);
-  const lyricsAppliedVersionRef = useRef(0);
+async function resolveRecordingBlob(source, recordingsManager, utils) {
+  if (!recordingsManager || typeof recordingsManager.load !== 'function') {
+    throw new Error('Recording manager is not available');
+  }
+  const recording = await recordingsManager.load(source.recordingId);
+  if (!recording || !recording.data) {
+    throw new Error('Could not load recording audio');
+  }
+  const blob = utils.dataURItoBlob(recording.data, recording.type || source.mimeType || 'audio/wav');
+  return Object.assign({}, source, {
+    blob: blob,
+    fileName: recording.name || source.fileName || 'recording.wav',
+    mimeType: recording.type || source.mimeType || 'audio/wav',
+    label: recording.name || source.label || 'Recording',
+  });
+}
 
-  const mediaSources = useMemo(function() {
-    return getLinkedMediaSources(tune, tunebook, recordingsManager);
-  }, [tune, tunebook, recordingsManager && recordingsManager.filtered]);
-
-  const applyLyricsImmediately = useCallback(function(lyricsText, version) {
-    if (!tune || !lyricsText || !lyricsText.trim()) return;
-    if (lyricsAppliedVersionRef.current === version) return;
-    lyricsAppliedVersionRef.current = version;
-    if (typeof pushHistory === 'function') {
-      pushHistory(tune);
-    }
-    tune.words = lyricsText.split('\n');
-    if (typeof onSaveTune === 'function') {
-      onSaveTune(tune);
-    }
-  }, [tune, pushHistory, onSaveTune]);
-
-  async function resolveRecordingBlob(source) {
-    if (!recordingsManager || typeof recordingsManager.load !== 'function') {
-      throw new Error('Recording manager is not available');
-    }
-    const recording = await recordingsManager.load(source.recordingId);
-    if (!recording || !recording.data) {
-      throw new Error('Could not load recording audio');
-    }
-    const blob = utils.dataURItoBlob(recording.data, recording.type || source.mimeType || 'audio/wav');
-    return Object.assign({}, source, {
-      blob: blob,
-      fileName: recording.name || source.fileName || 'recording.wav',
-      mimeType: recording.type || source.mimeType || 'audio/wav',
-      label: recording.name || source.label || 'Recording',
+async function runMediaAnalysisJob(deps, tuneId, source, options) {
+  const force = !!(options && options.force);
+  const currentJob = getMediaAnalysisJob(tuneId);
+  if (!force && currentJob.analysis && currentJob.analysis.sourceId === source.id) {
+    patchMediaAnalysisJob(tuneId, {
+      showSourceDialog: false,
+      error: '',
     });
+    return currentJob.analysis;
   }
 
-  const runAnalysis = useCallback(async function(source, options) {
-    const force = !!(options && options.force);
-    if (!source) return null;
+  const abortController = new AbortController();
+  setMediaAnalysisAbortController(tuneId, abortController);
+  patchMediaAnalysisJob(tuneId, {
+    error: '',
+    status: 'Preparing audio...',
+    progress: 0,
+    isAnalyzing: true,
+    showSourceDialog: false,
+  });
 
-    if (!force && analysis && analysis.sourceId === source.id) {
-      return analysis;
-    }
-
-    abortRef.current = new AbortController();
-    setError('');
-    setStatus('Preparing audio...');
-    setIsAnalyzing(true);
-    setShowSourceDialog(false);
-
-    try {
-      const preparedSource = source.kind === 'recording'
-        ? await resolveRecordingBlob(source)
-        : source;
-      if (abortRef.current.signal.aborted) {
-        return null;
-      }
-
-      setStatus(preparedSource.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...');
-      const result = await analyzeMediaFromSource({
-        source: preparedSource,
-        accessToken: accessToken,
-        signal: abortRef.current.signal,
-        onProgress: setStatus,
-      });
-
-      const formatted = formatMediaAnalysisForTune(result, tune, tunebook);
-      const nextVersion = analysisVersion + 1;
-      const nextAnalysis = {
-        sourceId: source.id,
-        version: nextVersion,
-        raw: result,
-        formatted: formatted,
-      };
-
-      setAnalysis(nextAnalysis);
-      setAnalysisVersion(nextVersion);
-      applyLyricsImmediately(formatted.lyricsText, nextVersion);
-      setStatus('Analysis complete');
-      return nextAnalysis;
-    } catch (err) {
-      if (err && err.name === 'AbortError') {
-        setStatus('Analysis cancelled');
-      } else {
-        setError(err && err.message ? err.message : 'Media analysis failed');
-        setStatus('');
-      }
+  try {
+    const preparedSource = source.kind === 'recording'
+      ? await resolveRecordingBlob(source, deps.recordingsManager, deps.utils)
+      : source;
+    if (abortController.signal.aborted) {
       return null;
-    } finally {
-      abortRef.current = null;
-      setIsAnalyzing(false);
     }
-  }, [
-    analysis,
-    analysisVersion,
-    accessToken,
-    tune,
-    tunebook,
-    applyLyricsImmediately,
-  ]);
 
-  function requestAnalysis(options) {
-    if (isAnalyzing) {
-      if (abortRef.current) {
-        setStatus('Cancelling...');
-        abortRef.current.abort();
+    patchMediaAnalysisJob(tuneId, {
+      status: preparedSource.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...',
+      progress: 0,
+    });
+
+    const tune = resolveTune(deps, null, tuneId);
+    const result = await analyzeMediaFromSource({
+      source: preparedSource,
+      accessToken: deps.accessToken,
+      signal: abortController.signal,
+      onProgress: function(message, progressValue) {
+        const patch = { status: message };
+        if (typeof progressValue === 'number' && !isNaN(progressValue)) {
+          patch.progress = Math.max(0, Math.min(100, Math.round(progressValue)));
+        }
+        patchMediaAnalysisJob(tuneId, patch);
+      },
+      processing: (options && options.processing)
+        ? options.processing
+        : buildAnalysisProcessingPayload(loadMelodyProcessingSettings()),
+    });
+
+    const formatted = formatMediaAnalysisForTune(result, tune, deps.tunebook);
+    const timedModels = buildTimedModelsFromAnalysis(result, tune, preparedSource);
+    const nextVersion = getMediaAnalysisJob(tuneId).analysisVersion + 1;
+    const nextAnalysis = {
+      sourceId: source.id,
+      version: nextVersion,
+      raw: result,
+      formatted: formatted,
+      timed: timedModels,
+    };
+
+    const liveTune = resolveTune(deps, null, tuneId);
+    const skipPersist = !!(options && options.skipPersist);
+    if (liveTune && !skipPersist) {
+      if (timedModels.timedLyrics) liveTune.timedLyrics = timedModels.timedLyrics;
+      if (timedModels.timedChords) liveTune.timedChords = timedModels.timedChords;
+      if (timedModels.timedMelody) liveTune.timedMelody = timedModels.timedMelody;
+      if (!liveTune.meter && result.timing && result.timing.meter) {
+        liveTune.meter = result.timing.meter;
+      }
+      if (!liveTune.key && timedModels.timedMelody && timedModels.timedMelody.detectedKey) {
+        liveTune.key = timedModels.timedMelody.detectedKey;
+      }
+      if (typeof deps.tunebook.saveTune === 'function') {
+        deps.tunebook.saveTune(liveTune);
+      }
+      if (liveTune.id) {
+        await saveTimedMediaDraft(liveTune.id, {
+          chordGridText: formatted.chordsText || '',
+          melodyAbcText: formatted.melodyText || '',
+          transcriptionText: formatted.lyricsText || '',
+        });
+      }
+    }
+
+    patchMediaAnalysisJob(tuneId, {
+      analysis: nextAnalysis,
+      analysisVersion: nextVersion,
+      status: 'Analysis complete',
+      progress: 100,
+      error: '',
+      isAnalyzing: false,
+      showSourceDialog: false,
+    });
+
+    if (typeof deps.forceRefresh === 'function' && !skipPersist) {
+      deps.forceRefresh();
+    }
+
+    return nextAnalysis;
+  } catch (err) {
+    if (err && err.name === 'AbortError') {
+      patchMediaAnalysisJob(tuneId, {
+        status: 'Analysis cancelled',
+        progress: 0,
+        error: '',
+        isAnalyzing: false,
+      });
+    } else {
+      patchMediaAnalysisJob(tuneId, {
+        error: err && err.message ? err.message : 'Media analysis failed',
+        status: '',
+        progress: 0,
+        isAnalyzing: false,
+      });
+    }
+    return null;
+  } finally {
+    clearMediaAnalysisAbortController(tuneId);
+  }
+}
+
+function useTuneMediaAnalysisState(options) {
+  const deps = useContext(TuneMediaAnalysisDepsContext);
+  if (!deps) {
+    throw new Error('useTuneMediaAnalysis must be used within TuneMediaAnalysisProvider');
+  }
+
+  const tune = options && options.tune ? options.tune : null;
+  const params = useParams();
+  const tuneId = (options && options.tuneId) || (tune && tune.id) || params.tuneId || null;
+  const utils = useUtils();
+
+  const job = useSyncExternalStore(
+    subscribeMediaAnalysisJobs,
+    function() {
+      return getMediaAnalysisJob(tuneId);
+    },
+    function() {
+      return EMPTY_MEDIA_ANALYSIS_JOB;
+    }
+  );
+
+  const resolvedTune = resolveTune(deps, tune, tuneId);
+  const mediaSources = useMemo(function() {
+    return getLinkedMediaSources(resolvedTune, deps.tunebook, deps.recordingsManager);
+  }, [resolvedTune, deps.tunebook, deps.recordingsManager && deps.recordingsManager.filtered]);
+
+  const runAnalysis = useCallback(async function(source, runOptions) {
+    if (!tuneId || !source) return null;
+    return runMediaAnalysisJob(Object.assign({}, deps, { utils: utils }), tuneId, source, runOptions);
+  }, [deps, tuneId, utils]);
+
+  const requestAnalysis = useCallback(function(runOptions) {
+    if (!tuneId) return;
+    const currentJob = getMediaAnalysisJob(tuneId);
+    if (currentJob.isAnalyzing) {
+      const abortController = getMediaAnalysisAbortController(tuneId);
+      if (abortController) {
+        patchMediaAnalysisJob(tuneId, { status: 'Cancelling...' });
+        abortController.abort();
       }
       return;
     }
 
-    setError('');
+    patchMediaAnalysisJob(tuneId, { error: '' });
     if (mediaSources.length === 0) {
-      setError('No linked media is available for analysis');
+      patchMediaAnalysisJob(tuneId, {
+        error: 'No linked media is available for analysis',
+      });
       return;
     }
     if (mediaSources.length === 1) {
-      runAnalysis(mediaSources[0], options);
+      runAnalysis(mediaSources[0], runOptions);
       return;
     }
-    setShowSourceDialog(true);
-  }
+    patchMediaAnalysisJob(tuneId, { showSourceDialog: true });
+  }, [tuneId, mediaSources, runAnalysis]);
 
-  function getStatusLabel(fallback) {
-    if (isAnalyzing) {
-      return status || fallback || 'Analyzing...';
+  const setShowSourceDialog = useCallback(function(show) {
+    if (!tuneId) return;
+    patchMediaAnalysisJob(tuneId, { showSourceDialog: !!show });
+  }, [tuneId]);
+
+  function getStatusLabel(activeLabel) {
+    if (job.isAnalyzing) {
+      return job.status || activeLabel || 'Analyzing...';
     }
-    return fallback || '';
+    return '';
   }
 
   return {
-    analysis,
-    analysisVersion,
-    mediaSources,
-    isAnalyzing,
-    status,
-    error,
-    showSourceDialog,
-    setShowSourceDialog,
-    requestAnalysis,
-    runAnalysis,
-    getStatusLabel,
+    tuneId: tuneId,
+    analysis: job.analysis,
+    analysisVersion: job.analysisVersion,
+    mediaSources: mediaSources,
+    isAnalyzing: job.isAnalyzing,
+    status: job.status,
+    progress: job.progress,
+    error: job.error,
+    showSourceDialog: job.showSourceDialog,
+    setShowSourceDialog: setShowSourceDialog,
+    requestAnalysis: requestAnalysis,
+    runAnalysis: runAnalysis,
+    getStatusLabel: getStatusLabel,
   };
 }
 
-export function TuneMediaAnalysisProvider({ children, ...options }) {
-  const value = useTuneMediaAnalysisState(options);
+export function TuneMediaAnalysisProvider({ children, tunebook, tunes, token, recordingsManager, forceRefresh }) {
+  const accessToken = token && token.access_token ? token.access_token : null;
+  const value = useMemo(function() {
+    return {
+      tunebook: tunebook,
+      tunes: tunes,
+      token: token,
+      recordingsManager: recordingsManager,
+      forceRefresh: forceRefresh,
+      accessToken: accessToken,
+    };
+  }, [tunebook, tunes, token, recordingsManager, forceRefresh, accessToken]);
+
   return (
-    <TuneMediaAnalysisContext.Provider value={value}>
+    <TuneMediaAnalysisDepsContext.Provider value={value}>
       {children}
-    </TuneMediaAnalysisContext.Provider>
+    </TuneMediaAnalysisDepsContext.Provider>
   );
 }
 
-export function useTuneMediaAnalysis() {
-  const context = useContext(TuneMediaAnalysisContext);
-  if (!context) {
-    throw new Error('useTuneMediaAnalysis must be used within TuneMediaAnalysisProvider');
-  }
-  return context;
+export function useTuneMediaAnalysis(options) {
+  return useTuneMediaAnalysisState(options || {});
 }
 
 export default useTuneMediaAnalysis;

@@ -1,8 +1,9 @@
-import { Alert, Button, ListGroup, Modal } from 'react-bootstrap';
+import { Alert, Button, ListGroup, Modal, ProgressBar } from 'react-bootstrap';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useTuneMediaAnalysis from '../useTuneMediaAnalysis';
 
 export default function TuneMediaAnalysisButton({
+  tune,
   label,
   activeLabel,
   buttonStyle,
@@ -12,13 +13,15 @@ export default function TuneMediaAnalysisButton({
   const {
     mediaSources,
     isAnalyzing,
+    status,
+    progress,
     error,
     showSourceDialog,
     setShowSourceDialog,
     requestAnalysis,
     runAnalysis,
     getStatusLabel,
-  } = useTuneMediaAnalysis();
+  } = useTuneMediaAnalysis({ tune });
 
   if (!resolverAvailable || mediaSources.length === 0) {
     return error
@@ -26,7 +29,9 @@ export default function TuneMediaAnalysisButton({
       : null;
   }
 
-  const buttonLabel = getStatusLabel(activeLabel || label);
+  const buttonLabel = isAnalyzing
+    ? (getStatusLabel(activeLabel) || status || activeLabel || 'Analyzing...')
+    : (label || 'Analyze');
 
   return (
     <>
@@ -35,6 +40,11 @@ export default function TuneMediaAnalysisButton({
         style={buttonStyle || { marginLeft: '0.5em' }}
         onClick={function() { requestAnalysis(); }}
       >{buttonLabel}</Button>
+      {isAnalyzing && (
+        <div style={{ marginTop: '0.5em', marginLeft: '0.5em', maxWidth: '20em', clear: 'both' }}>
+          <ProgressBar now={progress || 0} label={`${progress || 0}%`} animated striped />
+        </div>
+      )}
       {error && <Alert variant="danger" style={{ marginTop: '1em', marginBottom: '0.5em', clear: 'both' }}>{error}</Alert>}
 
       <Modal show={showSourceDialog} onHide={function() { if (!isAnalyzing) setShowSourceDialog(false); }}>

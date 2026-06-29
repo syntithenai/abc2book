@@ -1,0 +1,7 @@
+# Legacy packages (crepe) import pkg_resources from their setup.py during
+# the PEP 517 isolated build. setuptools v82.0.0 (2026-02-08) removed
+# pkg_resources, which breaks "Getting requirements to build wheel". Pin the
+# setuptools used inside isolated build environments to the last series that
+# still ships pkg_resources. pip applies PIP_CONSTRAINT to build dependencies too.
+setuptools<82
+wheel
