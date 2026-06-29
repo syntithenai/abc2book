@@ -79,7 +79,26 @@ function wrapFetchError(error, bases) {
   throw error;
 }
 
+function unreachableHealthResult(base) {
+  return {
+    base: base,
+    reachable: false,
+    available: false,
+    requireAuth: false,
+    authReason: '',
+    mixedContent: isMixedContentBlocked(base),
+  };
+}
+
 async function tryHealthAtBase(base, accessToken) {
+  // An HTTPS page can never reach an http:// resolver. Skip the fetch entirely:
+  // besides being pointless, requests to http://localhost from a public HTTPS
+  // origin can get stuck pending in some browsers (mixed-content / private
+  // network access gating) without ever rejecting, which would hang the probe.
+  if (isMixedContentBlocked(base)) {
+    return unreachableHealthResult(base);
+  }
+
   const headers = { Accept: 'application/json' };
   if (accessToken) {
     headers.Authorization = 'Bearer ' + accessToken;
@@ -158,6 +177,33 @@ async function tryHealthAtBase(base, accessToken) {
   }
 }
 
+// Guarantees the probe for a single base always settles, even if the underlying
+// fetch never resolves or its AbortController fails to reject (observed for
+// blocked cross-origin/local requests on some browsers). Without this a single
+// stuck candidate would hang the whole Promise.all and the Settings page would
+// show "Checking resolvers..." forever.
+function probeBaseWithHardTimeout(base, accessToken) {
+  return new Promise(function(resolve) {
+    let settled = false;
+    const timer = setTimeout(function() {
+      if (settled) return;
+      settled = true;
+      resolve(unreachableHealthResult(base));
+    }, HEALTH_TIMEOUT_MS + 1000);
+
+    function finish(result) {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      resolve(result);
+    }
+
+    tryHealthAtBase(base, accessToken).then(finish, function() {
+      finish(unreachableHealthResult(base));
+    });
+  });
+}
+
 export async function probeMediaResolverCandidates(accessToken) {
   const bases = getMediaProxyBaseCandidates();
 
@@ -165,7 +211,7 @@ export async function probeMediaResolverCandidates(accessToken) {
   // the public resolver) can't block the others. Promise.all preserves order,
   // so the active base is still chosen by candidate priority.
   const candidates = await Promise.all(bases.map(function(base) {
-    return tryHealthAtBase(base, accessToken);
+    return probeBaseWithHardTimeout(base, accessToken);
   }));
 
   let activeBase = null;
