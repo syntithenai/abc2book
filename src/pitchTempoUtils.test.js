@@ -12,6 +12,8 @@ describe('audio filter settings', function() {
       percussion: 1,
       vocals: 1,
       bass: 1,
+      guitar: 1,
+      piano: 1,
       other: 1,
     });
   });
@@ -36,6 +38,8 @@ describe('audio filter settings', function() {
       percussion: 2,
       vocals: 0,
       bass: 0.5,
+      guitar: 1,
+      piano: 1,
       other: 1,
     });
   });

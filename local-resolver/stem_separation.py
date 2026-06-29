@@ -2,7 +2,18 @@ import os
 
 import numpy as np
 
-HTDEMUCS_STEMS = ("drums", "bass", "other", "vocals")
+DEMUCS_MODEL_STEMS = {
+    "htdemucs": ("drums", "bass", "other", "vocals"),
+    "htdemucs_6s": ("drums", "bass", "other", "vocals", "guitar", "piano"),
+}
+
+# Backwards-compatible alias used by separate_stems.py.
+HTDEMUCS_STEMS = DEMUCS_MODEL_STEMS["htdemucs"]
+
+
+def demucs_stems_for_model(model_name=None):
+    name = model_name or os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+    return DEMUCS_MODEL_STEMS.get(name, DEMUCS_MODEL_STEMS["htdemucs"])
 
 
 def _melody_device():
@@ -29,6 +40,7 @@ def separate_stems_to_dir(audio_path, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     device = _melody_device()
     model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+    allowed_stems = demucs_stems_for_model(model_name)
     model = get_model(model_name)
     model.eval()
     model.to(device)
@@ -42,7 +54,7 @@ def separate_stems_to_dir(audio_path, output_dir):
     paths = {}
     duration = 0.0
     for index, name in enumerate(source_names):
-        if name not in HTDEMUCS_STEMS:
+        if name not in allowed_stems:
             continue
         stem = sources[index].detach().cpu().numpy()
         if stem.ndim > 1:
@@ -58,4 +70,5 @@ def separate_stems_to_dir(audio_path, output_dir):
         "duration": duration,
         "backend": backend,
         "model": model_name,
+        "stems": list(allowed_stems),
     }

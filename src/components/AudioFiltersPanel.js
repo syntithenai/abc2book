@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, ProgressBar } from 'react-bootstrap';
 import {
-  AUDIO_FILTER_KEYS,
   AUDIO_FILTER_MAX,
   AUDIO_FILTER_MIN,
   DEFAULT_AUDIO_FILTERS,
   formatAudioFilterDisplay,
+  getAudioFilterKeysForDemucsModel,
   getAudioFilterSettings,
 } from '../pitchTempoUtils';
 import './AudioFiltersPanel.css';
@@ -14,13 +14,32 @@ const FILTER_LABELS = {
   percussion: 'Percussion',
   vocals: 'Vocals',
   bass: 'Bass',
+  guitar: 'Guitar',
+  piano: 'Piano',
   other: 'Other',
 };
 
 export default function AudioFiltersPanel({ tune, tunebook, mediaController, showFilters = false }) {
   const [filters, setFilters] = useState(DEFAULT_AUDIO_FILTERS);
+  const [analysisError, setAnalysisError] = useState('');
+  const [downloadError, setDownloadError] = useState('');
+  const [analysing, setAnalysing] = useState(false);
+  const [downloading, setDownloading] = useState(false);
   const saveTimerRef = useRef(null);
   const applyTimerRef = useRef(null);
+
+  const demucsModel = mediaController && mediaController.getDemucsModel
+    ? mediaController.getDemucsModel()
+    : 'htdemucs';
+  const filterKeys = getAudioFilterKeysForDemucsModel(demucsModel);
+  const stemsReady = !!(mediaController && mediaController.hasStemsForCurrentMedia && mediaController.hasStemsForCurrentMedia());
+  const analysisActive = !!(mediaController && (
+    mediaController.stemSeparationActive
+    || (mediaController.stemAnalysisProgress && mediaController.stemAnalysisProgress.active)
+  ));
+  const analysisProgress = mediaController && mediaController.stemAnalysisProgress
+    ? mediaController.stemAnalysisProgress
+    : { progress: 0, message: '' };
 
   useEffect(function() {
     if (tune) {
@@ -35,9 +54,6 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
     };
   }, []);
 
-  // Debounce live application: dragging a slider fires many onChange events, and
-  // each one can trigger an expensive stem-separation/external-load. Apply only
-  // once the user settles on a value so playback re-mixes from a stable state.
   function applyLive(nextFilters) {
     if (!mediaController || !mediaController.updateTuneAudioFilterSettings) return;
     if (applyTimerRef.current) clearTimeout(applyTimerRef.current);
@@ -72,11 +88,51 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   }
 
   function muteFilter(key) {
-    // Toggle: muted (0) -> restore to full, otherwise mute.
     updateFilter(key, filters[key] <= 0 ? 1 : 0);
   }
 
+  async function handleAnalyse(forceRefresh) {
+    if (!mediaController || !mediaController.analyseMediaStems) return;
+    setAnalysisError('');
+    setAnalysing(true);
+    try {
+      await mediaController.analyseMediaStems({ forceRefresh: !!forceRefresh });
+    } catch (e) {
+      const message = e && e.message ? e.message : 'Stem analysis failed';
+      if (e && e.name === 'AbortError') {
+        setAnalysisError('Analysis cancelled.');
+      } else {
+        setAnalysisError(message);
+      }
+    } finally {
+      setAnalysing(false);
+    }
+  }
+
+  async function handleDownload() {
+    if (!mediaController || !mediaController.saveProcessedMediaToFile) return;
+    setDownloadError('');
+    setDownloading(true);
+    try {
+      await mediaController.saveProcessedMediaToFile();
+    } catch (e) {
+      setDownloadError(e && e.message ? e.message : 'Download failed');
+    } finally {
+      setDownloading(false);
+    }
+  }
+
+  function handleCancelAnalysis() {
+    if (mediaController && mediaController.cancelStemAnalysis) {
+      mediaController.cancelStemAnalysis();
+    }
+    setAnalysing(false);
+  }
+
   if (!tune) return null;
+
+  const slidersDisabled = showFilters && !stemsReady;
+  const needsAnalysis = showFilters && !stemsReady && !analysisActive;
 
   return (
     <div className="audio-filters-panel">
@@ -90,14 +146,71 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
         <>
           <div className="audio-filters-panel-header">
             <p className="audio-filters-help">
-              Adjust stem levels from htdemucs separation. Changes apply during linked audio playback.
+              Adjust stem levels from Demucs separation ({demucsModel}). Analyse a track once, then slider changes apply live during playback.
             </p>
-            <Button variant="outline-secondary" size="sm" onClick={resetFilters}>
-              Reset all
-            </Button>
+            <div className="audio-filters-header-actions">
+              <Button
+                variant="primary"
+                size="sm"
+                disabled={analysisActive || analysing}
+                onClick={function() { handleAnalyse(stemsReady); }}
+              >
+                {stemsReady ? 'ReAnalyse' : 'Analyse'}
+              </Button>
+              {stemsReady && (
+                <Button
+                  variant="outline-primary"
+                  size="sm"
+                  disabled={downloading || analysisActive}
+                  onClick={handleDownload}
+                >
+                  {downloading ? 'Preparing…' : 'Download'}
+                </Button>
+              )}
+              <Button variant="outline-secondary" size="sm" onClick={resetFilters} disabled={slidersDisabled}>
+                Reset all
+              </Button>
+            </div>
           </div>
 
-          {AUDIO_FILTER_KEYS.map(function(key) {
+          {analysisActive && (
+            <div className="audio-filters-status">
+              <div className="audio-filters-status-row">
+                <span>{analysisProgress.message || 'Analysing stems...'}</span>
+                <Button variant="outline-secondary" size="sm" onClick={handleCancelAnalysis}>
+                  Cancel
+                </Button>
+              </div>
+              <ProgressBar
+                now={analysisProgress.progress || 0}
+                label={(analysisProgress.progress || 0) + '%'}
+                striped
+                animated
+              />
+            </div>
+          )}
+
+          {analysisError && (
+            <div className="audio-filters-error">{analysisError}</div>
+          )}
+
+          {downloadError && (
+            <div className="audio-filters-error">{downloadError}</div>
+          )}
+
+          {needsAnalysis && (
+            <div className="scope-note">
+              Click Analyse to generate stems before the filter sliders can be used.
+            </div>
+          )}
+
+          {stemsReady && !analysisActive && (
+            <div className="audio-filters-ready-note">
+              Stems are cached locally for this tune and media link. Download applies current tempo, pitch, and stem levels.
+            </div>
+          )}
+
+          {filterKeys.map(function(key) {
             const value = filters[key];
             return (
               <div className="control-section" key={key}>
@@ -107,6 +220,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
                     <Button
                       variant={value <= 0 ? 'secondary' : 'outline-secondary'}
                       size="sm"
+                      disabled={slidersDisabled}
                       onClick={function() { muteFilter(key); }}
                     >
                       {value <= 0 ? 'Unmute' : 'Mute'}
@@ -123,6 +237,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
                   max={AUDIO_FILTER_MAX}
                   step="0.01"
                   value={value}
+                  disabled={slidersDisabled}
                   onChange={function(e) { updateFilter(key, parseFloat(e.target.value)); }}
                   className="slider audio-filter-slider"
                 />

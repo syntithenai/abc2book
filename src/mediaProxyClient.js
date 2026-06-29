@@ -164,6 +164,8 @@ async function tryHealthAtBase(base, accessToken) {
       requireAuth: requireAuth,
       authReason: authReason,
       mixedContent: false,
+      demucsModel: typeof body.demucsModel === 'string' ? body.demucsModel : 'htdemucs',
+      demucsStems: Array.isArray(body.demucsStems) ? body.demucsStems : null,
     };
   } catch (e) {
     return {

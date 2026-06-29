@@ -5,6 +5,7 @@ import os
 import re
 import shutil
 import tempfile
+import time
 from urllib.parse import parse_qs, urlparse
 
 import httpx
@@ -47,7 +48,40 @@ WHISPER_LYRICS_STANZA_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_STANZA_PAU
 ANALYZE_MEDIA_TIMEOUT_SECONDS = float(os.getenv("ANALYZE_MEDIA_TIMEOUT_SECONDS", "1200"))
 STEM_CACHE_DIR = os.getenv("STEM_CACHE_DIR", "/tmp/stem-cache")
 STEM_SEPARATION_TIMEOUT_SECONDS = float(os.getenv("STEM_SEPARATION_TIMEOUT_SECONDS", "900"))
+# Demucs stem separation is heavily CPU/GPU bound. Without a cap, repeated
+# requests for the same source (each a cache miss until the first finishes)
+# spawn one full separation subprocess apiece, oversubscribing the box. Bound
+# the number of concurrent heavy jobs and coalesce duplicate in-flight work.
+MAX_CONCURRENT_STEM_JOBS = max(1, int(os.getenv("MAX_CONCURRENT_STEM_JOBS", "1")))
 HTDEMUCS_STEMS = ("drums", "bass", "other", "vocals")
+
+
+def _demucs_stems_for_model(model_name=None):
+    name = model_name or os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+    if name == "htdemucs_6s":
+        return ("drums", "bass", "other", "vocals", "guitar", "piano")
+    return HTDEMUCS_STEMS
+
+# Lazily created so they bind to the running event loop on first use.
+_stem_job_semaphore = None
+_stem_inflight_locks = {}
+_stem_background_tasks = {}
+STEM_SECONDS_PER_TRACK_SECOND = float(os.getenv("STEM_SECONDS_PER_TRACK_SECOND", "1.5"))
+
+
+def _get_stem_job_semaphore():
+    global _stem_job_semaphore
+    if _stem_job_semaphore is None:
+        _stem_job_semaphore = asyncio.Semaphore(MAX_CONCURRENT_STEM_JOBS)
+    return _stem_job_semaphore
+
+
+def _get_stem_inflight_lock(cache_id):
+    lock = _stem_inflight_locks.get(cache_id)
+    if lock is None:
+        lock = asyncio.Lock()
+        _stem_inflight_locks[cache_id] = lock
+    return lock
 
 BLOCKED_HOSTS = {"localhost", "127.0.0.1", "0.0.0.0", "::1", "metadata.google.internal"}
 BLOCKED_SUFFIXES = (".local", ".internal")
@@ -1043,11 +1077,13 @@ def _stem_cache_id(source_key, model_name):
     return digest[:32]
 
 
-def _stems_are_cached(cache_id):
+def _stems_are_cached(cache_id, model_name=None):
     cache_dir = _stem_cache_dir(cache_id)
     if not os.path.isdir(cache_dir):
         return False
-    return all(os.path.isfile(os.path.join(cache_dir, stem + ".wav")) for stem in HTDEMUCS_STEMS)
+    metadata = _read_stem_cache_metadata(cache_dir)
+    stems = _demucs_stems_for_model(model_name or metadata.get("model"))
+    return all(os.path.isfile(os.path.join(cache_dir, stem + ".wav")) for stem in stems)
 
 
 def _read_stem_cache_metadata(cache_dir):
@@ -1069,9 +1105,82 @@ def _write_stem_cache_metadata(cache_dir, payload):
         json.dump(payload, handle)
 
 
+def _stem_progress_path(cache_dir):
+    return os.path.join(cache_dir, "progress.json")
+
+
+def _write_stem_progress(cache_dir, payload):
+    os.makedirs(cache_dir, exist_ok=True)
+    with open(_stem_progress_path(cache_dir), "w", encoding="utf-8") as handle:
+        json.dump(payload, handle)
+
+
+def _read_stem_progress(cache_dir):
+    progress_path = _stem_progress_path(cache_dir)
+    if not os.path.isfile(progress_path):
+        return {}
+    try:
+        with open(progress_path, "r", encoding="utf-8") as handle:
+            data = json.load(handle)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _estimate_stem_job_seconds(audio_bytes):
+    duration_guess = max(30.0, len(audio_bytes or b"") / 16000.0)
+    return max(45.0, min(float(STEM_SEPARATION_TIMEOUT_SECONDS), duration_guess * STEM_SECONDS_PER_TRACK_SECOND))
+
+
+def _build_pending_stem_response(cache_id, model_name):
+    stems = {stem: "/stems/" + cache_id + "/" + stem for stem in _demucs_stems_for_model(model_name)}
+    return {
+        "cacheId": cache_id,
+        "model": model_name,
+        "samplerate": 0,
+        "duration": 0,
+        "backend": "",
+        "stems": stems,
+        "cached": False,
+        "pending": True,
+    }
+
+
+def _build_stem_status_response(cache_id, model_name, cache_dir):
+    if _stems_are_cached(cache_id):
+        metadata = _read_stem_cache_metadata(cache_dir)
+        return {
+            "cacheId": cache_id,
+            "stage": "complete",
+            "progress": 100,
+            "message": "Stems ready",
+            "cached": True,
+            "duration": float(metadata.get("duration") or 0),
+        }
+    progress = _read_stem_progress(cache_dir)
+    if progress:
+        return {
+            "cacheId": cache_id,
+            "stage": progress.get("stage") or "separating",
+            "progress": int(progress.get("progress") or 0),
+            "message": progress.get("message") or "Separating stems...",
+            "cached": False,
+            "duration": float(progress.get("duration") or 0),
+            "elapsedSeconds": float(progress.get("elapsedSeconds") or 0),
+            "estimatedSeconds": float(progress.get("estimatedSeconds") or 0),
+        }
+    return {
+        "cacheId": cache_id,
+        "stage": "queued",
+        "progress": 0,
+        "message": "Queued for stem separation",
+        "cached": False,
+    }
+
+
 def _build_stem_response(cache_id, model_name, cache_dir):
     metadata = _read_stem_cache_metadata(cache_dir)
-    stems = {stem: "/stems/" + cache_id + "/" + stem for stem in HTDEMUCS_STEMS}
+    stems = {stem: "/stems/" + cache_id + "/" + stem for stem in _demucs_stems_for_model(model_name or metadata.get("model"))}
     return {
         "cacheId": cache_id,
         "model": model_name,
@@ -1097,6 +1206,11 @@ async def _run_separate_stems(temp_audio_path, output_dir, request):
         temp_audio_path,
         output_dir,
     ]
+    async with _get_stem_job_semaphore():
+        return await _run_subprocess_with_disconnect(command, env, request)
+
+
+async def _run_subprocess_with_disconnect(command, env, request):
     proc = await asyncio.create_subprocess_exec(
         *command,
         stdout=asyncio.subprocess.PIPE,
@@ -1115,7 +1229,10 @@ async def _run_separate_stems(temp_audio_path, output_dir, request):
                     stdout.decode("utf-8", errors="ignore"),
                     stderr.decode("utf-8", errors="ignore"),
                 )
-            if await request.is_disconnected():
+            # `request` is None for detached background jobs (e.g. stem
+            # separation), which must keep running after the originating HTTP
+            # request has returned its "pending" response and disconnected.
+            if request is not None and await request.is_disconnected():
                 if proc.returncode is None:
                     proc.terminate()
                     try:
@@ -1138,7 +1255,68 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
     if _stems_are_cached(cache_id):
         return _build_stem_response(cache_id, model_name, cache_dir)
 
+    inflight_lock = _get_stem_inflight_lock(cache_id)
+    existing_task = _stem_background_tasks.get(cache_id)
+    if existing_task and not existing_task.done():
+        return _build_pending_stem_response(cache_id, model_name)
+
+    async def run_job():
+        try:
+            async with inflight_lock:
+                if _stems_are_cached(cache_id):
+                    return
+                # Detach from `request`: this job outlives the HTTP request that
+                # kicked it off (which returns a "pending" response immediately),
+                # so disconnect monitoring must not cancel the separation.
+                await _separate_stems_uncached(
+                    audio_bytes, filename, model_name, cache_id, cache_dir, None
+                )
+        except Exception as exc:
+            _write_stem_progress(cache_dir, {
+                "stage": "error",
+                "progress": 0,
+                "message": str(exc)[:200],
+            })
+            raise
+        finally:
+            _stem_background_tasks.pop(cache_id, None)
+            _stem_inflight_locks.pop(cache_id, None)
+
+    _stem_background_tasks[cache_id] = asyncio.create_task(run_job())
+    return _build_pending_stem_response(cache_id, model_name)
+
+
+async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, cache_dir, request):
     os.makedirs(cache_dir, exist_ok=True)
+    estimated_seconds = _estimate_stem_job_seconds(audio_bytes)
+    started_at = time.time()
+    _write_stem_progress(cache_dir, {
+        "stage": "preparing",
+        "progress": 5,
+        "message": "Preparing audio...",
+        "startedAt": started_at,
+        "estimatedSeconds": estimated_seconds,
+        "elapsedSeconds": 0,
+    })
+
+    async def update_progress_loop():
+        while True:
+            await asyncio.sleep(2)
+            if _stems_are_cached(cache_id):
+                return
+            elapsed = max(0.0, time.time() - started_at)
+            ratio = min(0.95, elapsed / max(1.0, estimated_seconds))
+            progress = int(10 + ratio * 85)
+            _write_stem_progress(cache_dir, {
+                "stage": "separating",
+                "progress": progress,
+                "message": "Separating stems...",
+                "startedAt": started_at,
+                "estimatedSeconds": estimated_seconds,
+                "elapsedSeconds": elapsed,
+            })
+
+    progress_task = asyncio.create_task(update_progress_loop())
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
     with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
         temp_audio.write(audio_bytes)
@@ -1163,12 +1341,22 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
             "backend": result.get("backend") or "",
             "model": result.get("model") or model_name,
         })
+        _write_stem_progress(cache_dir, {
+            "stage": "complete",
+            "progress": 100,
+            "message": "Stems ready",
+            "startedAt": started_at,
+            "estimatedSeconds": estimated_seconds,
+            "elapsedSeconds": max(0.0, time.time() - started_at),
+            "duration": float(result.get("duration") or 0),
+        })
         return _build_stem_response(cache_id, model_name, cache_dir)
     except ClientDisconnected as exc:
         raise HTTPException(status_code=499, detail="Stem separation cancelled") from exc
     except asyncio.TimeoutError as exc:
         raise HTTPException(status_code=504, detail="Stem separation timeout") from exc
     finally:
+        progress_task.cancel()
         try:
             os.unlink(temp_audio_path)
         except FileNotFoundError:
@@ -1314,36 +1502,8 @@ async def _run_prepare_analysis_filters(wav_path, processing, request):
         wav_path,
         json.dumps(processing or {}),
     ]
-    proc = await asyncio.create_subprocess_exec(
-        *command,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
-    )
-    communicate_task = asyncio.create_task(proc.communicate())
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                )
-            if await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
+    async with _get_stem_job_semaphore():
+        return await _run_subprocess_with_disconnect(command, env, request)
 
 
 async def prepare_analysis_audio_paths_async(wav_path, processing, request):
@@ -1646,6 +1806,8 @@ async def health(request: Request, authorization: str | None = Header(default=No
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
+        "demucsModel": os.getenv("MELODY_DEMUCS_MODEL", "htdemucs"),
+        "demucsStems": list(_demucs_stems_for_model()),
     }
     if REQUIRE_AUTH:
         token = get_bearer_token(authorization)
@@ -1932,6 +2094,25 @@ async def separate_stems(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.get("/stems/{cache_id}/status")
+async def get_stem_status(
+    cache_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
+            return json_error(400, "Invalid cache id", origin)
+        model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+        cache_dir = _stem_cache_dir(cache_id)
+        body = _build_stem_status_response(cache_id, model_name, cache_dir)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.get("/stems/{cache_id}/{stem_name}")
 async def get_stem_audio(
     cache_id: str,
@@ -1942,11 +2123,14 @@ async def get_stem_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        if stem_name not in HTDEMUCS_STEMS:
-            return json_error(400, "Unknown stem", origin)
         if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
             return json_error(400, "Invalid cache id", origin)
-        stem_path = os.path.join(_stem_cache_dir(cache_id), stem_name + ".wav")
+        cache_dir = _stem_cache_dir(cache_id)
+        metadata = _read_stem_cache_metadata(cache_dir)
+        allowed_stems = _demucs_stems_for_model(metadata.get("model"))
+        if stem_name not in allowed_stems:
+            return json_error(400, "Unknown stem", origin)
+        stem_path = os.path.join(cache_dir, stem_name + ".wav")
         if not os.path.isfile(stem_path):
             return json_error(404, "Stem not found", origin)
         return FileResponse(

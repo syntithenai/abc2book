@@ -11,6 +11,13 @@
   margin-bottom: 1rem;
 }
 
+.audio-filters-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
 .audio-filters-help {
   margin: 0;
   flex: 1 1 16rem;
@@ -25,6 +32,29 @@
   background: #fff3cd;
   color: #664d03;
   font-size: 0.8rem;
+}
+
+.audio-filters-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.audio-filters-error {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  background: #f8d7da;
+  color: #842029;
+  font-size: 0.8rem;
+}
+
+.audio-filters-ready-note {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #198754;
 }
 
 .audio-filters-panel .control-section {
@@ -76,6 +106,11 @@
   width: 100%;
   height: 6px;
   cursor: pointer;
+}
+
+.audio-filters-panel .slider:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .audio-filters-panel .slider-labels {

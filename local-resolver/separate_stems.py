@@ -5,7 +5,7 @@ import os
 import sys
 import tempfile
 
-from stem_separation import HTDEMUCS_STEMS, separate_stems_to_dir
+from stem_separation import demucs_stems_for_model, separate_stems_to_dir
 
 
 def main():
@@ -23,7 +23,7 @@ def main():
         "duration": result["duration"],
         "backend": result["backend"],
         "model": result["model"],
-        "stems": list(HTDEMUCS_STEMS),
+        "stems": result.get("stems") or list(result["paths"].keys()),
         "outputDir": output_dir,
     }
     sys.stdout.write(json.dumps(payload))

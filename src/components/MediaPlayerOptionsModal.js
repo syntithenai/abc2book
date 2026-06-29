@@ -78,6 +78,12 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     }
   }
 
+  function cancelPendingPlayback() {
+    mediaController.pause()
+    mediaController.setIsLoading(false)
+    mediaController.setIsReady(false)
+  }
+
   function handlePlayClick(onSingle, onDouble) {
     if (clickTimeoutRef.current) {
       clearTimeout(clickTimeoutRef.current)
@@ -150,7 +156,9 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
 
   const isAdminUser = user && user.email === 'syntithenai@gmail.com'
 
-  const canCache = isAdminUser
+  const showHeaderMediaDownloads = false
+
+  const canCache = showHeaderMediaDownloads && isAdminUser
     && mediaController.mediaResolverFeaturesEnabled
     && hasLinks
     && activeLinkIndex !== null
@@ -160,7 +168,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && mediaController.tune.links[activeLinkIndex].link
     && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
 
-  const canFileDownload = isAdminUser
+  const canFileDownload = showHeaderMediaDownloads && isAdminUser
     && hasLinks
     && activeLinkIndex !== null
     && mediaController.tune
@@ -260,7 +268,14 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
             <div style={{borderBottom:'1px solid black', paddingBottom:'0.5em'}}>
               <div className="media-controls-playback-row">
                 <div className="media-controls-playback-buttons">
-                  {mediaController.isPlaying ? (
+                  {mediaController.isLoading ? (
+                    <Button
+                      variant="secondary"
+                      onClick={cancelPendingPlayback}
+                    >
+                      {tunebook.icons.waiting}
+                    </Button>
+                  ) : mediaController.isPlaying ? (
                     <Button
                       variant="warning"
                       onClick={function() { mediaController.pause() }}
@@ -311,12 +326,6 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
           {mediaController.tune && (
             <div className="media-controls-settings-tabs">
               <MediaSeekSlider mediaController={mediaController} className="compact" />
-
-              {mediaController.stemSeparationActive && (
-                <div className="media-controls-stem-status">
-                  Separating stems… the first change for a track can take a while. This continues even if you switch tabs.
-                </div>
-              )}
 
               <Tabs
                 activeKey={settingsTab}

@@ -19,7 +19,62 @@ function normalizeStemResponse(body) {
     backend: typeof body.backend === 'string' ? body.backend : '',
     stems: body.stems,
     cached: !!body.cached,
+    pending: !!body.pending,
   };
+}
+
+function normalizeStemStatus(body) {
+  if (!body || typeof body !== 'object') {
+    return { stage: 'unknown', progress: 0, message: '' };
+  }
+  const progress = typeof body.progress === 'number'
+    ? Math.max(0, Math.min(100, body.progress))
+    : 0;
+  return {
+    stage: typeof body.stage === 'string' ? body.stage : 'unknown',
+    progress: progress,
+    message: typeof body.message === 'string' ? body.message : '',
+    cached: !!body.cached,
+    duration: typeof body.duration === 'number' ? body.duration : 0,
+    elapsedSeconds: typeof body.elapsedSeconds === 'number' ? body.elapsedSeconds : 0,
+    estimatedSeconds: typeof body.estimatedSeconds === 'number' ? body.estimatedSeconds : 0,
+  };
+}
+
+async function waitForStemSeparationComplete(separation, accessToken, signal, onProgress, onStatus) {
+  if (!separation || !separation.pending) {
+    return separation;
+  }
+
+  const pollMs = 3000;
+  const deadline = Date.now() + (15 * 60 * 1000);
+  while (Date.now() < deadline) {
+    if (signal && signal.aborted) {
+      throw new DOMException('Aborted', 'AbortError');
+    }
+    const status = await fetchStemSeparationStatus(separation.cacheId, accessToken, signal);
+    if (typeof onStatus === 'function') {
+      onStatus(status);
+    }
+    if (typeof onProgress === 'function') {
+      onProgress(status.message || 'Separating stems...', status.progress);
+    }
+    if (status.stage === 'complete' || status.cached || status.progress >= 100) {
+      return Object.assign({}, separation, {
+        pending: false,
+        cached: true,
+        duration: status.duration || separation.duration,
+      });
+    }
+    if (status.stage === 'error') {
+      throw new Error(status.message || 'Stem separation failed');
+    }
+    await new Promise(function(resolve) {
+      setTimeout(resolve, pollMs);
+    });
+  }
+
+  throw new Error('Stem separation timed out');
 }
 
 async function decodeStemResponse(response) {
@@ -41,12 +96,35 @@ async function decodeStemAudio(arrayBuffer) {
   return decode(arrayBuffer);
 }
 
+export async function fetchStemSeparationStatus(cacheId, accessToken, signal) {
+  if (!cacheId) {
+    return normalizeStemStatus(null);
+  }
+  const response = await fetchViaMediaProxy('/stems/' + cacheId + '/status', accessToken, {
+    signal: signal,
+    headers: {
+      Accept: 'application/json',
+    },
+  });
+  let body = null;
+  try {
+    body = await response.json();
+  } catch (e) {
+    throw new Error('Resolver returned an unreadable stem status response');
+  }
+  if (!response.ok) {
+    throw new Error(body && body.error ? body.error : 'Stem status request failed');
+  }
+  return normalizeStemStatus(body);
+}
+
 export async function separateStemsFromSource(options) {
   const {
     source,
     accessToken,
     signal,
     onProgress,
+    onStatus,
   } = options;
 
   if (!source) {
@@ -54,7 +132,7 @@ export async function separateStemsFromSource(options) {
   }
 
   if (typeof onProgress === 'function') {
-    onProgress(source.kind === 'recording' ? 'Uploading audio...' : 'Resolving audio...');
+    onProgress('Resolving audio...', 0);
   }
 
   let response;
@@ -65,7 +143,7 @@ export async function separateStemsFromSource(options) {
     const formData = new FormData();
     formData.append('file', source.blob, source.fileName || 'recording.wav');
     if (typeof onProgress === 'function') {
-      onProgress('Separating stems...');
+      onProgress('Uploading audio...', 5);
     }
     response = await fetchViaMediaProxy('/separate-stems', accessToken, {
       method: 'POST',
@@ -80,7 +158,7 @@ export async function separateStemsFromSource(options) {
       throw new Error('Media source URL is missing');
     }
     if (typeof onProgress === 'function') {
-      onProgress('Separating stems...');
+      onProgress('Resolving audio...', 5);
     }
     response = await fetchViaMediaProxy('/separate-stems', accessToken, {
       method: 'POST',
@@ -97,14 +175,35 @@ export async function separateStemsFromSource(options) {
     });
   }
 
-  return decodeStemResponse(response);
+  if (typeof onProgress === 'function') {
+    onProgress('Separating stems...', 10);
+  }
+
+  const separation = await decodeStemResponse(response);
+  if (separation.cached) {
+    if (typeof onProgress === 'function') {
+      onProgress('Stems ready', 100);
+    }
+    return separation;
+  }
+
+  return waitForStemSeparationComplete(
+    separation,
+    accessToken,
+    signal,
+    onProgress,
+    onStatus
+  );
 }
 
 export async function fetchStemBuffers(separation, accessToken, signal) {
   const stemBuffers = {};
-  const stemNames = Object.keys(STEM_NAME_BY_FILTER).map(function(key) {
-    return STEM_NAME_BY_FILTER[key];
-  });
+  const stemWavBytes = {};
+  const stemNames = separation && separation.stems
+    ? Object.keys(separation.stems)
+    : Object.keys(STEM_NAME_BY_FILTER).map(function(key) {
+      return STEM_NAME_BY_FILTER[key];
+    });
 
   await Promise.all(stemNames.map(async function(stemName) {
     const stemPath = separation.stems[stemName];
@@ -119,8 +218,12 @@ export async function fetchStemBuffers(separation, accessToken, signal) {
       throw new Error('Failed to fetch stem: ' + stemName);
     }
     const arrayBuffer = await response.arrayBuffer();
+    stemWavBytes[stemName] = arrayBuffer;
     stemBuffers[stemName] = await decodeStemAudio(arrayBuffer);
   }));
 
-  return stemBuffers;
+  return {
+    stemBuffers: stemBuffers,
+    stemWavBytes: stemWavBytes,
+  };
 }

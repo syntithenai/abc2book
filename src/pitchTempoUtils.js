@@ -6,19 +6,31 @@ export const FINE_TUNE_MIN = -50;
 export const FINE_TUNE_MAX = 50;
 export const AUDIO_FILTER_MIN = 0;
 export const AUDIO_FILTER_MAX = 2;
-export const AUDIO_FILTER_KEYS = ['percussion', 'vocals', 'bass', 'other'];
+export const AUDIO_FILTER_KEYS = ['percussion', 'vocals', 'bass', 'guitar', 'piano', 'other'];
+export const AUDIO_FILTER_KEYS_4STEM = ['percussion', 'vocals', 'bass', 'other'];
 export const STEM_NAME_BY_FILTER = {
   percussion: 'drums',
   vocals: 'vocals',
   bass: 'bass',
+  guitar: 'guitar',
+  piano: 'piano',
   other: 'other',
 };
 export const DEFAULT_AUDIO_FILTERS = {
   percussion: 1,
   vocals: 1,
   bass: 1,
+  guitar: 1,
+  piano: 1,
   other: 1,
 };
+
+export function getAudioFilterKeysForDemucsModel(model) {
+  if (model === 'htdemucs_6s') {
+    return AUDIO_FILTER_KEYS.slice();
+  }
+  return AUDIO_FILTER_KEYS_4STEM.slice();
+}
 
 export function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
@@ -50,7 +62,7 @@ export function normalizeAudioFilters(filters) {
   if (!filters || typeof filters !== 'object') {
     return next;
   }
-  AUDIO_FILTER_KEYS.forEach(function(key) {
+  Object.keys(DEFAULT_AUDIO_FILTERS).forEach(function(key) {
     const raw = filters[key];
     const parsed = parseFloat(raw);
     next[key] = clamp(isNaN(parsed) ? 1 : parsed, AUDIO_FILTER_MIN, AUDIO_FILTER_MAX);
@@ -60,7 +72,7 @@ export function normalizeAudioFilters(filters) {
 
 export function audioFiltersAreNeutral(filters) {
   const normalized = normalizeAudioFilters(filters);
-  return AUDIO_FILTER_KEYS.every(function(key) {
+  return Object.keys(DEFAULT_AUDIO_FILTERS).every(function(key) {
     return Math.abs(normalized[key] - 1) < 0.001;
   });
 }

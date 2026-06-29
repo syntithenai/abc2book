@@ -4,7 +4,7 @@ import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './external
 import { mixStemBuffers, resampleBufferToContextRate } from './audioStemMixer';
 import { audioFiltersAreNeutral } from './pitchTempoUtils';
 import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
-import { getCachedStemSet, getStemCacheKey, saveCachedStemSet } from './audioStemCache';
+import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet } from './audioStemCache';
 
 export default class ExternalMediaPitchTempo {
   constructor(onTimeUpdate, onEnded, audioContext) {
@@ -72,11 +72,12 @@ export default class ExternalMediaPitchTempo {
     return this._duration;
   }
 
-  async ensureStemBuffers(cacheOptions, audioFilters) {
-    if (!cacheOptions || audioFiltersAreNeutral(audioFilters)) {
+  async ensureStemBuffers(cacheOptions, audioFilters, options) {
+    const opts = options || {};
+    if (!cacheOptions) {
       return null;
     }
-    if (this._stemBuffers) {
+    if (!opts.forceRefresh && this._stemBuffers) {
       return this._stemBuffers;
     }
 
@@ -86,6 +87,32 @@ export default class ExternalMediaPitchTempo {
     }
 
     const loadPromise = (async () => {
+      const cacheKey = getStemSourceCacheKey(
+        cacheOptions.tuneId,
+        cacheOptions.linkIndex,
+        cacheOptions.src,
+        cacheOptions.demucsModel || ''
+      );
+
+      if (!opts.forceRefresh) {
+        const cached = await getCachedStemSet(cacheKey);
+        if (cached && cached.stemBuffers) {
+          if (token !== this._stemLoadToken || this._loadAborted) {
+            return null;
+          }
+          this._stemSeparation = cached.separation || this._stemSeparation;
+          this._stemBuffers = cached.stemBuffers;
+          return cached.stemBuffers;
+        }
+      } else {
+        this._stemBuffers = null;
+        this._stemSeparation = null;
+      }
+
+      if (!opts.allowNetworkSeparation) {
+        return null;
+      }
+
       const source = {
         kind: 'link',
         src: cacheOptions.src,
@@ -95,36 +122,26 @@ export default class ExternalMediaPitchTempo {
       const separation = await separateStemsFromSource({
         source: source,
         accessToken: cacheOptions.accessToken,
+        signal: opts.signal,
+        onProgress: opts.onProgress,
+        onStatus: opts.onStatus,
       });
       if (token !== this._stemLoadToken || this._loadAborted) {
         return null;
       }
 
-      let stemBuffers = null;
-      const cacheKey = getStemCacheKey(
-        cacheOptions.tuneId,
-        cacheOptions.linkIndex,
-        cacheOptions.src,
-        separation.cacheId
-      );
-      const cached = await getCachedStemSet(cacheKey);
-      if (cached && cached.stemBuffers) {
-        stemBuffers = cached.stemBuffers;
-        this._stemSeparation = cached.separation || separation;
-      } else {
-        stemBuffers = await fetchStemBuffers(separation, cacheOptions.accessToken);
-        if (token !== this._stemLoadToken || this._loadAborted) {
-          return null;
-        }
-        await saveCachedStemSet(cacheKey, {
-          separation: separation,
-          stemBuffers: stemBuffers,
-        });
-        this._stemSeparation = separation;
+      const fetched = await fetchStemBuffers(separation, cacheOptions.accessToken, opts.signal);
+      if (token !== this._stemLoadToken || this._loadAborted) {
+        return null;
       }
-
-      this._stemBuffers = stemBuffers;
-      return stemBuffers;
+      await saveCachedStemSet(cacheKey, {
+        separation: separation,
+        stemBuffers: fetched.stemBuffers,
+        stemWavBytes: fetched.stemWavBytes,
+      });
+      this._stemSeparation = separation;
+      this._stemBuffers = fetched.stemBuffers;
+      return fetched.stemBuffers;
     })();
 
     this._stemLoadingPromise = loadPromise;
@@ -168,12 +185,24 @@ export default class ExternalMediaPitchTempo {
     return !!this._stemBuffers;
   }
 
-  async applySettings(tempo, pitch, fineTune, audioFilters, cacheOptions) {
+  setStemBuffers(separation, stemBuffers) {
+    this._stemSeparation = separation || null;
+    this._stemBuffers = stemBuffers || null;
+  }
+
+  async applySettings(tempo, pitch, fineTune, audioFilters, cacheOptions, options) {
     if (!this.shifter) return;
+    const opts = options || {};
     const nextFilters = audioFilters || this._audioFilters;
     if (nextFilters && !audioFiltersAreNeutral(nextFilters)) {
-      await this.ensureStemBuffers(cacheOptions, nextFilters);
-      this.applyStemMix(nextFilters);
+      if (this._stemBuffers) {
+        this.applyStemMix(nextFilters);
+      } else {
+        const stemBuffers = await this.ensureStemBuffers(cacheOptions, nextFilters, opts);
+        if (stemBuffers) {
+          this.applyStemMix(nextFilters);
+        }
+      }
     } else if (this._sourceBuffer) {
       this.shifter.replaceBuffer(this._sourceBuffer, true);
       this._duration = this._sourceBuffer.duration;

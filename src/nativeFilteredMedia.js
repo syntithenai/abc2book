@@ -1,6 +1,6 @@
 import { mixStemBuffers } from './audioStemMixer';
 import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
-import { getCachedStemSet, getStemCacheKey, saveCachedStemSet } from './audioStemCache';
+import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet } from './audioStemCache';
 
 export function getNativeFilteredBlobCacheKey(cacheOptions, separationCacheId, audioFilters) {
   return [
@@ -12,37 +12,74 @@ export function getNativeFilteredBlobCacheKey(cacheOptions, separationCacheId, a
   ].join('|');
 }
 
-export async function loadStemBuffersForSource(cacheOptions) {
+export async function loadStemBuffersForSource(cacheOptions, options) {
+  const opts = options || {};
   const source = {
     kind: 'link',
     src: cacheOptions.src,
     srcType: cacheOptions.srcType,
     label: cacheOptions.label || '',
   };
-  const separation = await separateStemsFromSource({
-    source: source,
-    accessToken: cacheOptions.accessToken,
-  });
-  const cacheKey = getStemCacheKey(
+  const cacheKey = getStemSourceCacheKey(
     cacheOptions.tuneId,
     cacheOptions.linkIndex,
     cacheOptions.src,
-    separation.cacheId
+    cacheOptions.demucsModel || (opts.model || '')
   );
-  const cached = await getCachedStemSet(cacheKey);
-  if (cached && cached.stemBuffers) {
+
+  if (!opts.forceRefresh) {
+    const cached = await getCachedStemSet(cacheKey);
+    if (cached && cached.stemBuffers) {
+      return {
+        separation: cached.separation,
+        stemBuffers: cached.stemBuffers,
+        fromCache: true,
+      };
+    }
+  }
+
+  if (!opts.allowNetworkSeparation) {
     return {
-      separation: cached.separation || separation,
-      stemBuffers: cached.stemBuffers,
+      separation: null,
+      stemBuffers: null,
+      fromCache: false,
     };
   }
 
-  const stemBuffers = await fetchStemBuffers(separation, cacheOptions.accessToken);
-  await saveCachedStemSet(cacheKey, {
-    separation: separation,
-    stemBuffers: stemBuffers,
+  const separation = await separateStemsFromSource({
+    source: source,
+    accessToken: cacheOptions.accessToken,
+    signal: opts.signal,
+    onProgress: opts.onProgress,
+    onStatus: opts.onStatus,
   });
-  return { separation: separation, stemBuffers: stemBuffers };
+
+  const cachedAfterSeparation = opts.forceRefresh ? null : await getCachedStemSet(cacheKey);
+  if (cachedAfterSeparation && cachedAfterSeparation.stemBuffers) {
+    return {
+      separation: cachedAfterSeparation.separation || separation,
+      stemBuffers: cachedAfterSeparation.stemBuffers,
+      fromCache: true,
+    };
+  }
+
+  const fetched = await fetchStemBuffers(separation, cacheOptions.accessToken, opts.signal);
+  const saveKey = getStemSourceCacheKey(
+    cacheOptions.tuneId,
+    cacheOptions.linkIndex,
+    cacheOptions.src,
+    separation.model || cacheOptions.demucsModel || ''
+  );
+  await saveCachedStemSet(saveKey, {
+    separation: separation,
+    stemBuffers: fetched.stemBuffers,
+    stemWavBytes: fetched.stemWavBytes,
+  });
+  return {
+    separation: separation,
+    stemBuffers: fetched.stemBuffers,
+    fromCache: false,
+  };
 }
 
 export function mixStemBuffersOffline(stemBuffers, audioFilters) {
@@ -120,8 +157,8 @@ export function encodeAudioBufferToWav(audioBuffer) {
   return new Blob([buffer], { type: 'audio/wav' });
 }
 
-export async function buildFilteredMediaBlob(cacheOptions, audioFilters) {
-  const { separation, stemBuffers } = await loadStemBuffersForSource(cacheOptions);
+export async function buildFilteredMediaBlob(cacheOptions, audioFilters, options) {
+  const { separation, stemBuffers } = await loadStemBuffersForSource(cacheOptions, options);
   const mixed = mixStemBuffersOffline(stemBuffers, audioFilters);
   if (!mixed) {
     throw new Error('Stem mix produced no audio');
