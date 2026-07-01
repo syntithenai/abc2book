@@ -2314,7 +2314,7 @@ button img:after {
 }
 
 .help-section {
-  scroll-margin-top: 0.75rem;
+  scroll-margin-top: 5em;
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #e8edf2;

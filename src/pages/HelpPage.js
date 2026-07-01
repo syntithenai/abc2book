@@ -2,10 +2,13 @@ import PrivacyContent from '../components/PrivacyContent';
 import { Button, Container } from 'react-bootstrap';
 import { HELP_NAV, HELP_SECTIONS } from '../helpContent';
 
+var HELP_SECTION_SCROLL_OFFSET = 80;
+
 function scrollToSection(id) {
   var el = document.getElementById(id);
   if (el) {
-    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    var top = el.getBoundingClientRect().top + window.pageYOffset - HELP_SECTION_SCROLL_OFFSET;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
   }
 }
 
