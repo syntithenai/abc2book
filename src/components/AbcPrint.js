@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
 //import {Link, useNavigate} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
@@ -25,7 +25,8 @@ export default function AbcPrint(props) {
    
     useEffect(() => {
 		 updateOnChange()        
-    }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- re-render when abc changes only
+    }, [props.abc])
     
    
   

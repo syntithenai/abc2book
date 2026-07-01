@@ -97,7 +97,7 @@ function TagsSearchSelectorModal(props) {
         </Modal.Header>
         <Modal.Body >
         
-        <div style={{width:'100%', borderBottom:'1px solid black'}} ><Button style={{}} onClick={function() {setSelectedTags([]); props.onChange([]) ;handleClose()}} variant="warning" style={{ marginBottom:'0.3em'}}>Reset Search</Button></div>
+        <div style={{width:'100%', borderBottom:'1px solid black'}} ><Button style={{marginBottom:'0.3em'}} onClick={function() {setSelectedTags([]); props.onChange([]) ;handleClose()}} variant="warning">Reset Search</Button></div>
           <Button onClick={function() {handleClose()}} variant="danger" style={{float:'right', marginBottom:'0.3em'}}>Cancel</Button>
           <Button onClick={function() {props.onChange(selectedTags); handleClose()}} variant="success" style={{float:'right', marginBottom:'0.3em'}}>Search</Button>
      

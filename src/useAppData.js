@@ -98,6 +98,7 @@ export default function useAppData() {
       utils.loadLocalforageObject('bookstorage_tunes_hash').then(function(data) {
         setTunesHashInner(data) 
       })
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- load persisted hash once on mount
   }, [])
   function setTunesHash(val) {
     setTunesHashInner(val)
@@ -118,12 +119,17 @@ export default function useAppData() {
           if (!Array.isArray(hashes[hash])) hashes[hash] = []
           hashes[hash].push(tune.id)
           ids[tune.id] = hash
-          importhashes[tune.id] = importhash
+          if (!Array.isArray(importhashes[importhash])) importhashes[importhash] = []
+          importhashes[importhash].push(tune.id)
         }
       })
-      setTunesHash({ids, hashes, importhashes})
+      var builtTunesHash = {ids, hashes, importhashes}
+      setTunesHash(builtTunesHash)
+      return builtTunesHash
     } else {
-      setTunesHash({ids:{}, hashes:{}, importhash: {}})
+      var emptyTunesHash = {ids:{}, hashes:{}, importhashes: {}}
+      setTunesHash(emptyTunesHash)
+      return emptyTunesHash
     }
     
   }
@@ -146,10 +152,9 @@ export default function useAppData() {
           }
           if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
         }
-        var hash = hash = abcTools.getTuneHash(tune) 
-        if (!tunesHash)  tunesHash = {}
-        if (!tunesHash.hashes)  tunesHash.hashes = {}
-        if (!tunesHash.ids)  tunesHash.ids = {}
+        var hash = abcTools.getTuneHash(tune)
+        if (!tunesHash.hashes) tunesHash.hashes = {}
+        if (!tunesHash.ids) tunesHash.ids = {}
         tunesHash.hashes[hash] = true
         tunesHash.ids[tune.id] = hash
         setTunesHash(tunesHash)
@@ -197,6 +202,7 @@ export default function useAppData() {
     utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {
             setDeletedTunesInner(t || {})
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- load persisted tunes once on mount
   },[])
   
   // staging value for merge results (from online polling)

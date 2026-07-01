@@ -17,6 +17,10 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
   const [selectedTempoPreset, setSelectedTempoPreset] = useState('standard');
   const saveTimerRef = useRef(null);
 
+  const tuneId = tune ? tune.id : null
+  const playbackTempo = tune ? tune.playbackTempo : null
+  const playbackPitch = tune ? tune.playbackPitch : null
+  const playbackFineTune = tune ? tune.playbackFineTune : null
   useEffect(function() {
     if (tune) {
       const settings = getPlaybackSettings(tune);
@@ -24,7 +28,7 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
       setPitch(settings.pitch);
       setFineTune(settings.fineTune);
     }
-  }, [tune ? tune.id : null, tune ? tune.playbackTempo : null, tune ? tune.playbackPitch : null, tune ? tune.playbackFineTune : null]);
+  }, [tune, tuneId, playbackTempo, playbackPitch, playbackFineTune]);
 
   function applyLive(nextTempo, nextPitch, nextFineTune) {
     if (mediaController && mediaController.updateTunePlaybackSettings) {
@@ -94,24 +98,7 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
   return (
     <div className="pitch-tempo-panel">
       <div className="control-section">
-        <div className="control-section-header">
-          <h6>Tempo</h6>
-          <div className="header-inline-actions">
-            {Object.entries(tempoPresets).map(function([key, preset]) {
-              return (
-                <Button
-                  key={key}
-                  variant={selectedTempoPreset === key ? 'primary' : 'outline-primary'}
-                  size="sm"
-                  onClick={function() { applyTempoPreset(key) }}
-                >
-                  {preset.label}
-                </Button>
-              );
-            })}
-            <Button variant="outline-secondary" size="sm" onClick={resetTempo}>Reset</Button>
-          </div>
-        </div>
+        <h6>Tempo</h6>
         <div className="control-display">
           <span className="display-value">{tempoPercent}%</span>
           <span>100% = normal</span>
@@ -126,6 +113,23 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
           className="slider tempo-slider"
         />
         <div className="slider-labels"><span>25%</span><span>50%</span><span>100%</span><span>150%</span><span>200%</span></div>
+        <div className="preset-buttons">
+          {Object.entries(tempoPresets).map(function([key, preset]) {
+            return (
+              <Button
+                key={key}
+                variant={selectedTempoPreset === key ? 'primary' : 'outline-primary'}
+                size="sm"
+                onClick={function() { applyTempoPreset(key) }}
+              >
+                {preset.label}
+              </Button>
+            );
+          })}
+          <Button variant="outline-secondary" size="sm" className="preset-reset-btn" onClick={resetTempo}>
+            Reset
+          </Button>
+        </div>
       </div>
 
       {showPitchControls && (

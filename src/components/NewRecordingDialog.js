@@ -1,7 +1,8 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useCallback} from 'react'
 import {Button, Modal, ListGroup, Form} from 'react-bootstrap'
 
 function NewRecordingDialog(props) {
+  const { tunebook, recording: currentRecording } = props
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -10,16 +11,16 @@ function NewRecordingDialog(props) {
   const  [searchText , setSearchText] = useState('')
     
     
-    function loadRecordings() {
-      props.tunebook.recordingsManager.listRecordings().then(function(recordings) {
+    const loadRecordings = useCallback(function() {
+      tunebook.recordingsManager.listRecordings().then(function(recordings) {
           if (searchText && searchText.length > 0) {
             setRecordings(
               recordings
-              .filter(function(recording) {
-                //console.log('filter A',props.recording, recording)
+              .filter(function(item) {
+                //console.log('filter A',currentRecording, item)
               
-                if (recording.title && recording.title.trim() && recording.title.toLowerCase().indexOf(searchText.toLowerCase()) !== -1) {
-                  if (props.recording && props.recording.id && props.recording.id === recording.id) {
+                if (item.title && item.title.trim() && item.title.toLowerCase().indexOf(searchText.toLowerCase()) !== -1) {
+                  if (currentRecording && currentRecording.id && currentRecording.id === item.id) {
                     return false
                   } else {
                     return true
@@ -36,9 +37,9 @@ function NewRecordingDialog(props) {
                 }
               }))
           } else {
-            setRecordings(recordings.filter(function(recording) {
-              //console.log('filter',props.recording, recording)
-                if (props.recording && props.recording.id && props.recording.id === recording.id) {
+            setRecordings(recordings.filter(function(item) {
+              //console.log('filter',currentRecording, item)
+                if (currentRecording && currentRecording.id && currentRecording.id === item.id) {
                   return false
                 } else {
                   return true
@@ -52,7 +53,7 @@ function NewRecordingDialog(props) {
               }))
           }
        })
-    }
+    }, [tunebook, searchText, currentRecording])
     
     
     function fileSelected (event) {
@@ -64,7 +65,7 @@ function NewRecordingDialog(props) {
     
     function recordingSelected (recording) {
       //console.log('rec sel',recording);
-      props.tunebook.recordingsManager.loadRecording(recording.id).then(function(rec) {
+      tunebook.recordingsManager.loadRecording(recording.id).then(function(rec) {
           //console.log('rec sel load',rec);
           props.setIsChanged(true)
           props.ee.emit("newtrack", rec.data );
@@ -79,7 +80,7 @@ function NewRecordingDialog(props) {
     
     useEffect(function() {
        loadRecordings()
-    },[searchText])
+    },[loadRecordings])
     
   return (
     <>

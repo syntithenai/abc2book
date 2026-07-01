@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcjsParser from './useAbcjsParser';
 import useAbcTools from './useAbcTools';
 
@@ -48,5 +49,42 @@ describe('mergeChords note length roundtrip', function() {
     });
     expect(notes).toMatch(/C2/);
     expect(notes).toMatch(/G4/);
+  });
+
+  test('mergeChords uses double barlines only at section ends', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'concrete', name: 'Concrete', meter: '4/4', noteLength: '1/8', key: 'D',
+      voices: { 1: { meta: '', notes: [
+        'zzzzzzzz | zzzzzzzz | zzzzzzzz | zzzzzzzz |',
+        'zzzzzzzz | zzzzzzzz | zzzzzzzz | zzzzzzzz |',
+      ] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const chordGrid = 'D . . . | F . . . | C . . . | G . . . |\n\nEm . . . | G . . . | Am . . . | Em . . . |';
+    const merged = abcjsParser.mergeChords(chordGrid, abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes.match(/\|\|/g)).toHaveLength(1);
+    expect(notes).not.toMatch(/zzzzzzzz\|\|"[A-G#b]/);
+    expect(notes).toContain('"D"zzzzzzzz');
+    expect(notes).toContain('"G"zzzzzzzz||');
+    expect(notes).toContain('"Em"zzzzzzzz');
+  });
+
+  test('mergeChords does not double-bar every bar when extra bars are added', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'one-bar', name: 'One Bar', meter: '4/4', noteLength: '1/8', key: 'D',
+      voices: { 1: { meta: '', notes: ['zzzzzzzz |'] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const chordGrid = 'D . . . | F . . . | C . . . | G . . . |';
+    const merged = abcjsParser.mergeChords(chordGrid, abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes.match(/\|\|/g) || []).toHaveLength(0);
+    expect(notes).not.toMatch(/zzzzzzzz\|\|"[A-G#b]/);
+    expect(notes).toMatch(/"D"zzzzzzzz\|"F"zzzzzzzz\|"C"zzzzzzzz\|"G"zzzzzzzz\|/);
   });
 });

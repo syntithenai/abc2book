@@ -47,6 +47,16 @@ function getPageProtocol() {
   return 'http:'
 }
 
+function getDevServerMediaProxyBase() {
+  if (process.env.NODE_ENV !== 'development') return ''
+  if (typeof window === 'undefined' || !window.location || !window.location.origin) return ''
+  const origin = window.location.origin
+  if (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/i.test(origin)) {
+    return origin
+  }
+  return ''
+}
+
 export function getLocalMediaProxyCandidates() {
   // Match the page protocol so an HTTPS site doesn't emit http:// localhost
   // candidates the browser will block as mixed content. On HTTPS the local
@@ -91,6 +101,9 @@ export function getDefaultPublicMediaProxyCandidates() {
 
 export function getMediaProxyBaseCandidates() {
   const urls = []
+  const devBase = getDevServerMediaProxyBase()
+  if (devBase) urls.push(devBase)
+
   const saved = getSavedMediaProxyBase()
   if (saved) urls.push(saved)
 

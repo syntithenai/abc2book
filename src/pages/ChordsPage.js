@@ -14,8 +14,11 @@ import {
 import {
   canonicalChordLetter,
   stringsFromInstrument,
-  chordLabelFromQuality
+  chordLabelFromQuality,
+  chordVoicingsFromEntry,
+  vexchordsTuningFromDiagram
 } from '../chordLibUtils'
+import ChordCheatSheetModal from '../components/ChordCheatSheetModal'
 var scale = require('music-scale')
 
 const instruments = INSTRUMENTS
@@ -80,9 +83,11 @@ export default function ChordsPage(props) {
     var [useChordLetter, setUseChordLetter] = useState('C') 
     var [useChordQuality, setUseChordQuality] = useState('') 
     var [useChordLabel, setUseChordLabel] = useState('') 
-    var [secondaries, setSecondaries] = useState('') 
+    var [secondaries, setSecondaries] = useState('')
+    var [showCheatSheet, setShowCheatSheet] = useState(false)
     
     useEffect(function() {
+      var parseChordFn = chordParserFactory()
       //console.log("EFF",params)
       // for single view chord links, persist instrument selection
       var useInstrument = params.instrument ? params.instrument : (localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : "guitar")
@@ -146,8 +151,15 @@ export default function ChordsPage(props) {
       setUseChordQuality(q)
       setUseChordLabel(ll)
      
-      var primaryChord = chordLib[useInstrument] && chordLib[useInstrument][q] && chordLib[useInstrument][q][l] ? chordLib[useInstrument][q][l].main : null
-      var secondaryChords = chordLib[useInstrument] && chordLib[useInstrument][q] && chordLib[useInstrument][q][l] ? chordLib[useInstrument][q][l].secondary : null
+      var chordEntry = chordLib[useInstrument] && chordLib[useInstrument][q] && chordLib[useInstrument][q][l]
+        ? chordLib[useInstrument][q][l]
+        : null
+      var chordInfoForNotes = parseChordFn(ll)
+      var chordNotes = chordInfoForNotes.error ? [] : chordInfoForNotes.normalized.notes
+      var voicingOptions = { instrument: useInstrument, chordNotes: chordNotes }
+      var voicings = chordVoicingsFromEntry(chordEntry, ll, voicingOptions)
+      var primaryChord = voicings.primaryChord
+      var secondaryChords = voicings.secondaryChords
       //console.log("FOUND CHORD",useInstrument, q,l, primaryChord, "SEC",secondaryChords,chordLib[useInstrument])
       
       if (Array.isArray(primaryChord)) {
@@ -164,10 +176,12 @@ export default function ChordsPage(props) {
         primaryChord.forEach(function(primaryChordInner) {
           primaryChordInner.forEach(function(chordData) {
             chordBase1.numFrets = calcFrets(chordData)
-            chordBase1.tuning = chordData.tuning
-            //chordData = Object.assign({},chordBase{chordData)
-            //chordData.tuning = ['E','A','D', 'G', 'B', 'E']
-            draw('#chords',chordData, chordBase1);
+            draw('#chords', {
+              chord: chordData.chord,
+              barres: chordData.barres,
+              position: chordData.position,
+              tuning: vexchordsTuningFromDiagram(chordData, useInstrument, chordNotes)
+            }, chordBase1);
           })
         })
       } else {
@@ -184,12 +198,13 @@ export default function ChordsPage(props) {
         schordsRef.current.innerHTML =  targetDivs 
         
         secondaryChords.forEach(function(chordData,cdk) {
-          //chordData = Object.assign({},chordBase{chordData)
-          //chordData.tuning = ['E','A','D', 'G', 'B', 'E']
-          //console.log("FOUND CHORDdata s",chordData)
           chordBase2.numFrets = calcFrets(chordData)
-          //if (Array.isArray(chordData)
-          draw('#secondarychords_'+cdk,chordData, chordBase2);
+          draw('#secondarychords_'+cdk, {
+            chord: chordData.chord,
+            barres: chordData.barres,
+            position: chordData.position,
+            tuning: vexchordsTuningFromDiagram(chordData, useInstrument, chordNotes)
+          }, chordBase2);
         })
       } else {
         schordsRef.current.innerHTML = ''
@@ -235,8 +250,15 @@ export default function ChordsPage(props) {
 
     
     return <div className="App-chords">
-      
-        <div style={{float:'right'}}>
+        <ChordCheatSheetModal
+          show={showCheatSheet}
+          onHide={function() { setShowCheatSheet(false) }}
+          instrument={useInstrument}
+          tunebook={props.tunebook}
+        />
+
+        <div style={{float:'right', display:'flex', alignItems:'center', gap:'1em'}}>
+          <Button variant="outline-secondary" onClick={function() { setShowCheatSheet(true) }}>Cheat Sheet</Button>
         {instruments.map(function(instr) {
           return <Link key={instr} to={"/chords/"+encodeURIComponent(instr)+"/"+encodeURIComponent(useChordLetter)+"/"+encodeURIComponent(useChordQuality)} ><Button variant={useInstrument === instr ? "info" : "primary"}  >{INSTRUMENT_LABELS[instr] || instr}</Button></Link>
         })}

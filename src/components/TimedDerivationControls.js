@@ -25,9 +25,9 @@ export default function TimedDerivationControls(props) {
       abcJson.wLines = tune.wLines.slice();
     }
     if (typeof props.onSaveTune === 'function') {
-      props.onSaveTune(abcJson);
+      props.onSaveTune(abcJson, { historyLabel: 'Generate timing scaffold', immediate: true });
     } else {
-      tunebook.saveTune(abcJson);
+      tunebook.saveTune(abcJson, false, { historyLabel: 'Generate timing scaffold', immediate: true });
     }
     if (typeof props.onApplied === 'function') {
       props.onApplied();
@@ -37,15 +37,11 @@ export default function TimedDerivationControls(props) {
   function handleGenerateWLines() {
     if (!hasTimedLyrics || !hasTimedMelody) return;
     if (!window.confirm('Generate note-aligned w: lyric lines from timed lyrics and melody?')) return;
-    if (typeof props.pushHistory === 'function') {
-      props.pushHistory(tune);
-    }
     applyWLinesToTune(tune, tune.timedLyrics, tune.timedMelody);
-    tune.id = tune.id;
     if (typeof props.onSaveTune === 'function') {
-      props.onSaveTune(tune);
+      props.onSaveTune(tune, { historyLabel: 'Generate w: lines', immediate: true });
     } else {
-      tunebook.saveTune(tune);
+      tunebook.saveTune(tune, false, { historyLabel: 'Generate w: lines', immediate: true });
     }
     if (typeof props.onApplied === 'function') {
       props.onApplied();
@@ -55,9 +51,6 @@ export default function TimedDerivationControls(props) {
   function handleGenerateScaffold() {
     if (!hasTimedChords) return;
     if (!window.confirm('Generate a rhythmic timing scaffold in the music voice? This marks the tune as a timing scaffold.')) return;
-    if (typeof props.pushHistory === 'function') {
-      props.pushHistory(tune);
-    }
     const abc = props.abc || tunebook.abcTools.json2abc(tune);
     const merged = applyRhythmicScaffoldToAbc(tune, tunebook, abcjsParser, abc);
     const newAbcNotes = tunebook.abcTools.justNotes(merged);

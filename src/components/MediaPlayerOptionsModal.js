@@ -58,6 +58,8 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && mediaController.tune.links
     && mediaController.tune.links[activeLinkIndex]
     && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
+    && mediaController.resolverFeatures
+    && mediaController.resolverFeatures.stems
 
   useEffect(function() {
     if (settingsTab === 'loop' && !showLoopTab) {
@@ -177,6 +179,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && mediaController.tune.links[activeLinkIndex].link
     && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
 
+  const mcTuneId = mediaController.tune ? mediaController.tune.id : null
   useEffect(function() {
     if (!show || !canFileDownload || !mediaController.checkExternalMediaCached) {
       setIsMediaCached(false);
@@ -189,7 +192,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
       if (!cancelled) setIsMediaCached(false);
     });
     return function() { cancelled = true; };
-  }, [show, activeLinkIndex, canFileDownload, mediaController.tune ? mediaController.tune.id : null]);
+  }, [show, activeLinkIndex, canFileDownload, mediaController, mcTuneId]);
 
   function formatMediaError(e) {
     const hint = e && e.message ? e.message : 'Request failed.'
@@ -338,7 +341,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                     tune={mediaController.tune}
                     tunebook={tunebook}
                     mediaController={mediaController}
-                    showPitchControls={!!mediaController.mediaResolverAvailable}
+                    showPitchControls={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.proxy)}
                   />
                 </Tab>
                 {showAudioFiltersTab && (
@@ -347,7 +350,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                       tune={mediaController.tune}
                       tunebook={tunebook}
                       mediaController={mediaController}
-                      showFilters={!!mediaController.mediaResolverFeaturesEnabled}
+                      showFilters={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.stems)}
                     />
                   </Tab>
                 )}

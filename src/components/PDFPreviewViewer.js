@@ -4,7 +4,6 @@ import 'react-pdf/dist/Page/TextLayer.css';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
-import useWindowSize from '../useWindowSize'
 import utilsFunctions from '../utilsFunctions' 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',

@@ -27,8 +27,6 @@ export default function HomePage(props) {
       <br/>
       <div  >Print a <Link to="/cheatsheet" ><Button size="sm" >Cheat Sheet</Button></Link> for a compact summary to get your memory started.</div>
       <br/>
-      <div  >Boost ({props.tunebook.icons.review}) some tunes and use the <Link to="/review" ><Button size="sm" >Review</Button></Link> tool to play along. Boost affects review order and tempo.</div>
-      <br/>
       <div  >Be sure to check out the <Link to="/help" ><Button size="sm">Help</Button></Link> section for tips and tricks to make things easier.</div>
       </div>
       <FeaturedTune tunebook={props.tunebook}  />

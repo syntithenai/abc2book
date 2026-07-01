@@ -1,19 +1,19 @@
-import React, { Component , useEffect} from "react";
+import React, { useEffect, useCallback, useRef } from "react";
 import * as venn from "@upsetjs/venn.js";
 import * as d3 from "d3";
 import {useNavigate} from 'react-router-dom'
 
 export default function VennDiagram(props) {
   
-    var chartView = React.createRef();
+    const chartViewRef = useRef(null);
     var chart = venn.VennDiagram().width(800).height(800);
     var scale = 0.5
     var navigate = useNavigate()
-    function createChart(data) {
+    const createChart = useCallback(function(data) {
         try { 
             if (data) {
                 console.log(data)
-                let div = d3.select(chartView);
+                let div = d3.select(chartViewRef.current);
                 //scale = d3.selectAll('#scale_input').nodes()[0].value;
                 
                 div.datum(data).call(chart);
@@ -73,16 +73,16 @@ export default function VennDiagram(props) {
             } catch (e) {
                 console.log(e)
             }
-    }
+    }, [chart])
       
     useEffect(function() {
         console.log('SETS CHANGE',props.sets)
           createChart(props.sets)
-    },[props.sets])
+    },[props.sets, createChart])
       
      
     return <div className="venn-div">
-     <div style={{width:'1200px'}} className="" ref={(el) => (chartView = el)}></div>
+     <div style={{width:'1200px'}} className="" ref={chartViewRef}></div>
       </div>
     
 

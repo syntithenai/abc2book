@@ -58,7 +58,7 @@ export default function RecordingsManager(props) {
 			<Modal.Body>
 			 {(previewFile && previewFile.type === 'text/plain' && previewFile.data) && <pre>{previewFile.data.slice(0,500)}</pre>}
 							
-			{(previewFile && previewFile.type.startsWith('image/') && previewFile.data) && <div><img src={previewFile.data} style={{width:'100%'}} /></div>}
+			{(previewFile && previewFile.type.startsWith('image/') && previewFile.data) && <div><img alt="" src={previewFile.data} style={{width:'100%'}} /></div>}
 			
 			{(previewFile && previewFile.type === 'application/pdf' && previewFile.data) && <div><PDFPreviewViewer tunebook={props.tunebook} width='350'  style={{width:'100%'}} src={previewFile.data} />  </div>}
 			

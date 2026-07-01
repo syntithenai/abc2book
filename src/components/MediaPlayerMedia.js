@@ -36,6 +36,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
         }
         if (src !== lastPreparedSrcRef.current) {
             lastPreparedSrcRef.current = src
+            if (mediaController.notifyYoutubeSrcChanged) {
+                mediaController.notifyYoutubeSrcChanged()
+            }
             if (mediaController.destroyExternalMedia) {
                 mediaController.destroyExternalMedia()
             }
@@ -52,9 +55,11 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
         }
     }, [
         src,
+        mediaController,
         mediaController.mediaResolverAvailable,
     ])
     
+    const tuneId = tune ? tune.id : null
     useEffect(function() {
         if (!tune || !mediaController.applyPlaybackRoute) return
 
@@ -75,6 +80,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             mediaController.setClickSeek(0)
             mediaController.setDuration(0)
             mediaController.cleanupTimers()
+            if (mediaController.hasActivePlaybackIntent && !mediaController.hasActivePlaybackIntent()) {
+                mediaController.setIsLoading(false)
+            }
         } else if (route.mediaLinkNumber !== lastMediaLinkNumber) {
             changeType = 'link'
             mediaController.setCurrentTime(0)
@@ -95,7 +103,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
         setLastMediaLinkNumber(route.mediaLinkNumber)
         setLastPlayState(params.playState)
     
-    },[(tune ? tune.id : null), params.mediaLinkNumber, params.playState])
+    },[tuneId, params.mediaLinkNumber, params.playState, tune, tunebook, mediaController, lastTuneId, lastMediaLinkNumber, lastPlayState])
     
     function renderTapToPlayModal() {
         if (!mediaController.tapToPlay) return null
@@ -160,7 +168,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             width: '100%',
             playerVars: playerVars,
         }
-    }, [src])
+    }, [])
 
     var content = null
 

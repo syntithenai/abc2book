@@ -2,6 +2,13 @@ import {useState} from 'react'
 import axios from 'axios'
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
+import {
+  compareSearchResults,
+  LOCAL_SEARCH_DISPLAY_LIMIT,
+  LOCAL_SEARCH_INTERNAL_LIMIT,
+  scoreSearchResult,
+  tokenizeSearchQuery,
+} from './textSearchIndexUtils'
 
 /** 
  * An static index of resource files (abc) is built with the software
@@ -37,71 +44,79 @@ export default function useTextSearchIndex() {
   /** 
    * Search the resource index for text
    * Stopwords are removed from text
-   * Results are returned sorted in order of number of matching tokens then 
-   * alphabetically by title
+   * Results are returned sorted in order of relevance
    * Results reference resources by three part resourceId key
    * [<collectionId>-<fileId>-<tuneNumberInBook>]
-   * @return [{ids:[resourceId,..],score:integer, name:''}]
+   * @return [{ids:[resourceId,..],score:integer,matchedTokenCount,queryTokenCount,name:''}]
    */
   function searchIndex(text, callback) {
       if (text && text.trim()) {
+          var parts = tokenizeSearchQuery(text, utils.stripCommonWords)
+          if (parts.length === 0) {
+            callback([])
+            return
+          }
+
           var matches = {}
-          var cleanText = utils.stripText(utils.stripCommonWords(text.toLowerCase()))
-          var parts = cleanText.split(" ")
           parts.forEach(function(part) {
             if (textSearchIndex && textSearchIndex.tokens && textSearchIndex.tokens.hasOwnProperty(part) && Array.isArray(textSearchIndex.tokens[part])) {
               textSearchIndex.tokens[part].forEach(function(matchItem) {
-                if (matches[matchItem] > 0) {
-                  matches[matchItem] = matches[matchItem] + 1
-                } else {
-                  matches[matchItem] = 1
+                if (!matches[matchItem]) {
+                  matches[matchItem] = 0
                 }
+                matches[matchItem] = matches[matchItem] + 1
               })
             }
           })
-          var fullMatches = Object.keys(matches).map(function(match) {
-            return {id: match, score: matches[match], name: utils.stripText(textSearchIndex.lookups[match])}
+
+          var allMatchIds = Object.keys(matches)
+          var andMatchIds = allMatchIds.filter(function(matchId) {
+            return matches[matchId] >= parts.length
           })
+          var candidateIds = andMatchIds.length > 0 ? andMatchIds : allMatchIds
+
           var seen = {}
-          var final = []
-          fullMatches.forEach(function(a) {
-            var lowerName = a.name.toLowerCase()
-            if (!seen[lowerName]) seen[lowerName] = {ids:[]}
-            seen[lowerName].ids.push(a.id)
-            var score = 0
-            parts.forEach(function(part) {
-                  if (lowerName.indexOf(part.toLowerCase()) !== -1) {  
-                    score = score + 1
-                  }
-              })
-             seen[lowerName].score = score
-            
-          })
-          Object.keys(seen).forEach(function(seenName) {
-            final.push({ids: seen[seenName].ids, score: seen[seenName].score, name: seenName})
-          })
-          final.sort(function(a,b) {
-                if (a.score < b.score) {
-                  return -1
-                } else {
-                  return 1
-                }
-          })
-          final.sort(function(a,b) {
-              if (a && b && a.score === b.score) {
-                  if (a && b && a.name < b.name) {
-                      return -1
-                  } else {
-                      return 1
-                  }
-              } else if (a && b && a.score && b.score && a.score < b.score) {
-                  return 1
-              } else {
-                  return -1
+          candidateIds.forEach(function(matchId) {
+            var name = utils.stripText(textSearchIndex.lookups[matchId])
+            if (!name) return
+            var lowerName = name.toLowerCase()
+            if (!seen[lowerName]) {
+              seen[lowerName] = {
+                ids: [],
+                indexTokenScore: 0,
               }
-          })  
-          final = final.slice(0,200)
-          callback(final)
+            }
+            seen[lowerName].ids.push(matchId)
+            seen[lowerName].indexTokenScore = Math.max(
+              seen[lowerName].indexTokenScore,
+              matches[matchId] || 0
+            )
+          })
+
+          var final = Object.keys(seen).map(function(seenName) {
+            var entry = seen[seenName]
+            var scored = scoreSearchResult(text, seenName, entry.indexTokenScore, parts)
+            return {
+              ids: entry.ids,
+              name: seenName,
+              score: scored.score,
+              matchedTokenCount: scored.matchedTokenCount,
+              queryTokenCount: scored.queryTokenCount,
+              tokenCoverage: scored.tokenCoverage,
+            }
+          })
+
+          final.sort(compareSearchResults)
+
+          if (parts.length > 1) {
+            final = final.filter(function(result) {
+              return result.matchedTokenCount > 0
+                && (result.matchedTokenCount === parts.length || result.tokenCoverage >= 0.5)
+            })
+          }
+
+          final = final.slice(0, LOCAL_SEARCH_INTERNAL_LIMIT)
+          callback(final.slice(0, LOCAL_SEARCH_DISPLAY_LIMIT))
       } else {
           callback([])
       }

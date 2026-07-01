@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap';
 import { VIEW_MODES, normalizeViewMode } from '../viewModeUtils';
 
 export default function ViewModeSelectorModal(props) {
@@ -26,7 +26,9 @@ export default function ViewModeSelectorModal(props) {
               }}
             >
               {mode.id === 'music' && props.tunebook.icons.music}
+              {mode.id === 'musicAndLyrics' && props.tunebook.icons.music}
               {(mode.id === 'chordsInline' || mode.id === 'chordsBlock') && props.tunebook.icons.guitar}
+              {mode.id === 'info' && props.tunebook.icons.question}
               {' '}{mode.label}
             </Dropdown.Item>
           );

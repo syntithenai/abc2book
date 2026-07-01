@@ -43,6 +43,16 @@ export default function MediaImportMetadataStep(props) {
           onChange={function(e) { update('key', e.target.value); }}
         />
       </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Tempo (BPM)</Form.Label>
+        <Form.Control
+          type="number"
+          min="1"
+          placeholder="eg 120"
+          value={metadata.tempo || ''}
+          onChange={function(e) { update('tempo', e.target.value); }}
+        />
+      </Form.Group>
     </Form>
   );
 }

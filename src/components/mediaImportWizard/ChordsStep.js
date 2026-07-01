@@ -4,7 +4,7 @@ import useAbcjsParser from '../../useAbcjsParser';
 
 export default function MediaImportChordsStep(props) {
   const abcjsParser = useAbcjsParser();
-  const draft = props.draft;
+  const { draft, onChange } = props;
   const hasDetectedChords = !!(draft.chordGridText && draft.chordGridText.trim());
 
   // When media analysis produced no chords, fall back to the chords already
@@ -18,13 +18,13 @@ export default function MediaImportChordsStep(props) {
     } catch (e) {
       return '';
     }
-  }, [hasDetectedChords, draft.baseTuneAbc]);
+  }, [hasDetectedChords, draft.baseTuneAbc, abcjsParser]);
 
   useEffect(function() {
     if (!hasDetectedChords && derivedFromNotation && derivedFromNotation.trim()) {
-      props.onChange({ chordGridText: derivedFromNotation, chordsFromNotation: true });
+      onChange({ chordGridText: derivedFromNotation, chordsFromNotation: true });
     }
-  }, [derivedFromNotation, hasDetectedChords]);
+  }, [derivedFromNotation, hasDetectedChords, onChange]);
 
   return (
     <div>
@@ -36,7 +36,7 @@ export default function MediaImportChordsStep(props) {
       )}
       <Form.Control
         as="textarea"
-        style={{ height: '24em', fontFamily: 'monospace' }}
+        className="media-import-chords-textarea"
         value={draft.chordGridText || ''}
         onChange={function(e) {
           props.onChange({ chordGridText: e.target.value });

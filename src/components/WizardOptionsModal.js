@@ -114,6 +114,9 @@ function WizardOptionsModal(props) {
         tune={props.tune}
         tunebook={props.tunebook}
         abc={props.abc}
+        token={props.token}
+        searchIndex={props.searchIndex}
+        loadTuneTexts={props.loadTuneTexts}
         forceRefresh={props.forceRefresh}
       />
     </>

@@ -4,24 +4,25 @@ import useTuneMediaAnalysis from '../useTuneMediaAnalysis';
 import './MediaImportWizard.css';
 
 export default function MediaImportEntryButton(props) {
-  const { available, checked } = useMediaResolverHealth();
+  const { available, checked, features } = useMediaResolverHealth();
   const { isAnalyzing, status, progress } = useTuneMediaAnalysis({ tune: props.tune });
 
-  if (!checked || !available) {
+  if (!checked) {
     return null;
   }
 
-  const label = isAnalyzing ? (status || 'Analyzing...') : 'Import from media';
+  const showAnalysisState = available && features.whisper && isAnalyzing;
+  const label = showAnalysisState ? (status || 'Analyzing...') : 'Import from media';
 
   return (
     <div className="media-import-entry-button">
       <Button
-        variant={isAnalyzing ? 'warning' : 'success'}
+        variant={showAnalysisState ? 'warning' : 'success'}
         onClick={props.onOpen}
       >
         {label}
       </Button>
-      {isAnalyzing && (
+      {showAnalysisState && (
         <ProgressBar
           now={progress || 0}
           label={`${progress || 0}%`}

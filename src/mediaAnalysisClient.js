@@ -1,6 +1,7 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
 import { formatDiscoveredChords } from './chordDiscoveryFormatter';
 import { formatMelodyNotes } from './melodyFormatter';
+import { formatKeySignatureShort } from './melodyPitchSpelling';
 import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 
 function normalizeMediaAnalysis(body) {
@@ -40,7 +41,9 @@ function normalizeMediaAnalysis(body) {
       backend: typeof melody.backend === 'string' ? melody.backend : '',
       separated: !!melody.separated,
       melodySource: typeof melody.melodySource === 'string' ? melody.melodySource : '',
-      detectedKey: typeof melody.detectedKey === 'string' ? melody.detectedKey : '',
+      detectedKey: typeof melody.detectedKey === 'string'
+        ? formatKeySignatureShort(melody.detectedKey)
+        : '',
       detectedMeter: typeof melody.detectedMeter === 'string' ? melody.detectedMeter : '',
       processing: melody.processing && typeof melody.processing === 'object' ? melody.processing : {},
       error: typeof melody.error === 'string' ? melody.error : '',
@@ -52,7 +55,9 @@ function normalizeMediaAnalysis(body) {
       meter: typeof body.timing.meter === 'string' ? body.timing.meter : '',
       beatsPerBar: typeof body.timing.beatsPerBar === 'number' ? body.timing.beatsPerBar : 0,
       meterChanges: Array.isArray(body.timing.meterChanges) ? body.timing.meterChanges : [],
-      detectedKey: typeof body.timing.detectedKey === 'string' ? body.timing.detectedKey : '',
+      detectedKey: typeof body.timing.detectedKey === 'string'
+        ? formatKeySignatureShort(body.timing.detectedKey)
+        : '',
       detectedMeter: typeof body.timing.detectedMeter === 'string' ? body.timing.detectedMeter : '',
       backend: typeof body.timing.backend === 'string' ? body.timing.backend : '',
     } : null,
@@ -139,9 +144,33 @@ async function parseAnalysisResponse(response, onProgress) {
 
 const ANALYSIS_ACCEPT_HEADER = 'application/x-ndjson, application/json';
 
-export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
+export function getDetectedTempoFromAnalysis(raw) {
+  if (!raw || typeof raw !== 'object') return 0;
+
+  const candidates = [
+    raw.timing && raw.timing.tempo,
+    raw.chords && raw.chords.tempo,
+    raw.melody && raw.melody.tempo,
+  ];
+  for (let index = 0; index < candidates.length; index += 1) {
+    const value = candidates[index];
+    if (typeof value === 'number' && value > 0) {
+      return Math.round(value);
+    }
+  }
+  return 0;
+}
+
+export function tuneHasTempo(tune) {
+  if (!tune || tune.tempo == null || tune.tempo === '') return false;
+  const parsed = parseInt(String(tune.tempo).split('=').pop(), 10);
+  return !isNaN(parsed) && parsed > 0;
+}
+
+export function formatMediaAnalysisForTune(analysis, tune, tunebook, options) {
   const meter = tune && tune.meter ? tune.meter : '4/4';
   const noteLength = tune && tune.noteLength ? tune.noteLength : '1/8';
+  const includeMeterChanges = !(options && options.includeMeterChanges === false);
   const beatsPerBar = tunebook && tunebook.abcTools
     ? tunebook.abcTools.getBeatsPerBar(meter) || 4
     : 4;
@@ -162,6 +191,7 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook) {
     meterChanges: analysis.timing && Array.isArray(analysis.timing.meterChanges)
       ? analysis.timing.meterChanges
       : [],
+    includeMeterChanges: includeMeterChanges,
   });
 
   const detectedKey = (analysis.melody && (analysis.melody.detectedKey || analysis.melody.key))

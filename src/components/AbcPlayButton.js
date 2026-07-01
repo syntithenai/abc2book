@@ -1,5 +1,5 @@
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useCallback} from 'react'
 import {Link} from 'react-router-dom'
 import QuickPlayButton from '../components/QuickPlayButton'
 
@@ -8,35 +8,11 @@ var ALLOW_RECORDING = false
 export default function AbcPlayButton({tune, started, ready, isPlaying, clickInit, clickPlay, setIsPlaying, clickStopPlaying, tunebook, forceRefresh}) {
     //console.log('button',tune)
     
-    const [isRecording, setIsRecording] = useState(false) 
-    function clickStop(e) {
-      setIsRecording(false)
-      clickStopPlaying()
-      tunebook.recordingsManager.stopRecording(tune).then(function() {
-        setTimeout(function() {
-          loadRecordings()
-        },200)
-      })
-    }
-    
-    useEffect(function() {
-      if (!isPlaying && isRecording) {
-        clickStop()
-      }
-    },[isPlaying])
-    
-    function clickRecord(e) {
-      setIsRecording(true)
-      tunebook.recordingsManager.startRecording(tune).then(function() {
-        clickPlay(0)
-      })
-    }
-    
+    const [isRecording, setIsRecording] = useState(false)
     const [recordings, setRecordings] = useState([])
-    
-    function loadRecordings() {
+
+    const loadRecordings = useCallback(function() {
       tunebook.recordingsManager.listRecordingsByTuneId(tune.id).then(function(list) {
-        //console.log('loaded recs for tune',list)
         setRecordings(list.sort(function(a,b) {
           if (a && b && a.createdTimestamp < b.createdTimestamp) {
             return 1
@@ -44,6 +20,29 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
             return -1
           }
         }))
+      })
+    }, [tune, tunebook.recordingsManager])
+
+    const clickStop = useCallback(function(e) {
+      setIsRecording(false)
+      clickStopPlaying()
+      tunebook.recordingsManager.stopRecording(tune).then(function() {
+        setTimeout(function() {
+          loadRecordings()
+        },200)
+      })
+    }, [clickStopPlaying, loadRecordings, tune, tunebook.recordingsManager])
+    
+    useEffect(function() {
+      if (!isPlaying && isRecording) {
+        clickStop()
+      }
+    },[isPlaying, isRecording, clickStop])
+    
+    function clickRecord(e) {
+      setIsRecording(true)
+      tunebook.recordingsManager.startRecording(tune).then(function() {
+        clickPlay(0)
       })
     }
     
@@ -56,7 +55,7 @@ export default function AbcPlayButton({tune, started, ready, isPlaying, clickIni
         ////clickStop()
         //clickStopPlaying()
       }
-    },[])
+    }, [loadRecordings, tune])
     
     var RecordingDropdown = function() {return null}
     if (ALLOW_RECORDING) {

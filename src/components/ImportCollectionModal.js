@@ -1,9 +1,10 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useCallback} from 'react'
 import {Button, Modal, ListGroup, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {useNavigate} from 'react-router-dom'
 
 function ImportCollectionModal(props) {
+  const { setCurrentTuneBook, tunebook } = props
   //console.log(props.tunebook.curatedTuneBooks)
   const navigate = useNavigate()
   const [show, setShow] = useState(props.autoStart ? props.autoStart : '');
@@ -61,14 +62,14 @@ function ImportCollectionModal(props) {
         return filtered
     }
   
-  function doImport(collection) {
+  const doImport = useCallback(function(collection) {
     //console.log('import')
-    props.setCurrentTuneBook(collection)
-    if (props.tunebook.curatedTuneBooks[collection]) {
-      if (props.tunebook.curatedTuneBooks[collection].link) {
-        navigate("/importlink/"+encodeURIComponent(props.tunebook.curatedTuneBooks[collection].link))
-      } else if (props.tunebook.curatedTuneBooks[collection].googleDocumentId) {
-        navigate("/importdoc/"+props.tunebook.curatedTuneBooks[collection].googleDocumentId)
+    setCurrentTuneBook(collection)
+    if (tunebook.curatedTuneBooks[collection]) {
+      if (tunebook.curatedTuneBooks[collection].link) {
+        navigate("/importlink/"+encodeURIComponent(tunebook.curatedTuneBooks[collection].link))
+      } else if (tunebook.curatedTuneBooks[collection].googleDocumentId) {
+        navigate("/importdoc/"+tunebook.curatedTuneBooks[collection].googleDocumentId)
       } 
     }
     
@@ -97,7 +98,7 @@ function ImportCollectionModal(props) {
         //{updates.length > 0 && <div style={{color:'red'}}>Updated {updates.length} tunes</div>}
       //</>)
     //}
-  }
+  }, [navigate, setCurrentTuneBook, tunebook])
   
   //function forceImport(duplicates, collection) {
     //var [inserts, updates, d] = props.tunebook.importAbc(duplicates.map(function(d) {return props.tunebook.abcTools.json2abc(d) }).join("\n"), collection, true)
@@ -125,7 +126,7 @@ function ImportCollectionModal(props) {
   
   useEffect(function() {
     if (props.autoStart)  doImport(props.autoStart)
-  },[props.autoStart])
+  },[props.autoStart, doImport])
   var label = props.label ? props.label : <>{props.tunebook.icons.folderin} Book</>
   return (
     <>

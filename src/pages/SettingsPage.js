@@ -11,6 +11,18 @@ import {
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import FormFieldHelp from '../components/FormFieldHelp'
+import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
+
+function formatFeatureSummary(features) {
+  if (!features) return ''
+  const labels = []
+  if (features.proxy) labels.push('proxy')
+  if (features.stems) labels.push('stems')
+  if (features.whisper) labels.push('whisper')
+  if (features.llm) labels.push('llm')
+  return labels.length > 0 ? ' · features: ' + labels.join(', ') : ' · no optional features enabled'
+}
 
 function formatCandidateStatus(candidate, activeBase) {
   if (!candidate.reachable) {
@@ -21,7 +33,7 @@ function formatCandidateStatus(candidate, activeBase) {
   }
   if (candidate.available) {
     const inUse = activeBase && candidate.base === activeBase ? ' (in use)' : ''
-    return candidate.base + ' — available' + inUse
+    return candidate.base + ' — available' + inUse + formatFeatureSummary(candidate.features)
   }
   if (candidate.requireAuth) {
     const reason = describeResolverAuthReason(candidate.authReason)
@@ -35,7 +47,7 @@ function getResolverMessage(status, checked) {
     return 'Checking resolvers...'
   }
   if (status.available && status.activeBase) {
-    return 'Using ' + status.activeBase
+    return 'Using ' + status.activeBase + formatFeatureSummary(status.features)
   }
   if (status.candidates.some(function(candidate) { return candidate.reachable })) {
     return 'Resolver reachable but not available to this account. Log in with an authorized Google account or use a local resolver.'
@@ -52,7 +64,7 @@ export default function SettingsPage(props) {
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
-  const { status: resolverStatus, checked, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const { status: resolverStatus, checked, features, refreshMediaResolverHealth } = useMediaResolverHealth()
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
 
   useEffect(function() {
@@ -116,7 +128,10 @@ export default function SettingsPage(props) {
         Optional base URL for pitch/tempo playback, lyrics transcription, and chord discovery.
         Leave blank to try localhost, then shared public resolvers.
       </p>
-      <label htmlFor="media-proxy-url" style={{ fontWeight: 'bold' }}>Resolver URL</label>
+      <span style={{ fontWeight: 'bold' }}>
+        <label htmlFor="media-proxy-url">Resolver URL</label>
+        <FormFieldHelp title={SETTINGS_FIELD_HELP.resolverUrl.title} body={SETTINGS_FIELD_HELP.resolverUrl.body} />
+      </span>
       <br />
       <input
         id="media-proxy-url"

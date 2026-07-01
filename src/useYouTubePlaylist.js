@@ -2,8 +2,26 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 //import {useRef, useEffect} from 'react'
 
+export const YOUTUBE_FORCE_SSL_SCOPE = 'https://www.googleapis.com/auth/youtube.force-ssl'
+
+export function parseYouTubePlaylistId(input) {
+  if (!input || !String(input).trim()) return ''
+  var trimmed = String(input).trim()
+  try {
+    if (/^https?:\/\//i.test(trimmed)) {
+      var url = new URL(trimmed)
+      var listParam = url.searchParams.get('list')
+      if (listParam) return listParam
+    }
+  } catch (e) {}
+  var match = trimmed.match(/[?&]list=([^&/#]+)/i)
+  if (match && match[1]) return match[1]
+  if (/^[A-Za-z0-9_-]+$/.test(trimmed)) return trimmed
+  return ''
+}
+
 export default function useYouTubePlaylist() {
-  const MAX_EXPORT_ITEMS = 100
+  const MAX_EXPORT_ITEMS = 20
   const DEFAULT_INSERT_DELAY_MS = 300
   // export toast countdown state
   var _exportToastId = null
@@ -99,16 +117,19 @@ export default function useYouTubePlaylist() {
   }
   
   function getPlaylistItemsRecursive(playlistId, accessToken, nextPageToken='') {
-      //console.log('getPlaylistItemsRecursive',nextPageToken)
       return new Promise(function(resolve,reject) {
         var url = 'https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&playlistId='+playlistId + '&key=' + process.env.REACT_APP_GOOGLE_API_KEY
             if (nextPageToken) {
                 url = url+ '&pageToken='+nextPageToken
             }
+            var headers = {'Accept': 'application/json'}
+            if (accessToken) {
+              headers.Authorization = 'Bearer ' + accessToken
+            }
             axios({
               method: 'get',
               url: url,
-              headers: {'Authorization': 'Bearer '+accessToken, 'Accept': 'application/json'},
+              headers: headers,
             }).then(function(postRes) {
                 //console.log(postRes)
                 if (postRes && postRes.data  && Array.isArray(postRes.data.items)) {

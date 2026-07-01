@@ -1,10 +1,12 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
 import {useNavigate} from 'react-router-dom'
+import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 function BoostSettingsModal(props) {
   const navigate = useNavigate()
   const [show, setShow] = useState(false);
+  const responsiveModalProps = useResponsiveModalProps();
   const [boost, setBoost] = useState(props.value > 0 ? props.value : 0);
   
   const handleClose = (e) => {
@@ -40,6 +42,13 @@ function BoostSettingsModal(props) {
   useEffect(function() {
       setBoost(parseInt(props.value) > 0 ? parseInt(props.value) : 0)
   },[props.value])
+
+  useEffect(function() {
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(show)
+    return function() {
+      if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
+    }
+  }, [show, props.setBlockKeyboardShortcuts]);
   
   function showOrBoost(e) {
     e.preventDefault(); 
@@ -53,12 +62,12 @@ function BoostSettingsModal(props) {
   
   return (
     <>
-      <Button onClick={showOrBoost} style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="secondary" alt={'Confidence'} >
+      <Button onClick={showOrBoost} className="tune-meta-modal-btn" aria-label="Confidence and difficulty" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="secondary" alt={'Confidence'} >
         <span  style={{position:'absolute', top:props.value !== '' ? '1px': '12px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.reviewsmall}</span> 
         <Badge variant="secondary" style={{position:'absolute', top:'26px', left:(props.difficulty > 0 ? '.9em' : '1.4em'),  fontSize:'0.5em'}} onClick={showOrBoost}>{parseInt(props.value) > 0 ? props.value : 0}{parseInt(props.difficulty) > 0 ? ":" + props.difficulty : ''}</Badge>
       </Button>
 
-      <Modal  onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose}>
+      <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
           <Modal.Title>Confidence {parseInt(boost) > 0 ? parseInt(boost) : ''}</Modal.Title>
         </Modal.Header>

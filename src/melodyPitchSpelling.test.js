@@ -1,4 +1,4 @@
-import { midiToAbcPitch, parseKeySignatureForTests } from './melodyPitchSpelling';
+import { formatKeySignatureShort, midiToAbcPitch, parseKeySignatureForTests } from './melodyPitchSpelling';
 
 describe('melodyPitchSpelling', function() {
   test('uses flats in flat keys', function() {
@@ -23,5 +23,11 @@ describe('melodyPitchSpelling', function() {
 
   test('parses minor keys', function() {
     expect(parseKeySignatureForTests('Am').mode).toBe('minor');
+  });
+
+  test('formats detected keys to short form', function() {
+    expect(formatKeySignatureShort('b minor')).toBe('Bm');
+    expect(formatKeySignatureShort('F major')).toBe('F');
+    expect(formatKeySignatureShort('Am')).toBe('Am');
   });
 });

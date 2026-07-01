@@ -1,8 +1,10 @@
 import {useState, cloneElement, isValidElement} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
+import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 function BookSelectorModal(props) {
   const [show, setShow] = useState(false);
+  const responsiveModalProps = useResponsiveModalProps();
   const [filter, setFilter] = useState(props.value);
   const [options, setOptions] = useState(props.defaultOptions());
   const handleClose = () => setShow(false);
@@ -64,7 +66,7 @@ function BookSelectorModal(props) {
     <>
       {renderTrigger()}
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
           <Modal.Title style={{width:'100%'}}>{props.title}
           
@@ -79,7 +81,7 @@ function BookSelectorModal(props) {
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {sortedOptions.map(function(option,tk) {
-              return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} >{!imageIsHidden[tk] && <img style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpeg"} onError={function() {hideImage(tk)}} />} {options[option]}</ListGroup.Item>
+              return <ListGroup.Item  style={{fontSize:'1.5em'}} key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {props.onChange(option); filterChange(''); handleClose()}} >{!imageIsHidden[tk] && <img alt="" style={{height:'50px'}} src={"/book_images/"+options[option].replaceAll(" ","")+".jpeg"} onError={function() {hideImage(tk)}} />} {options[option]}</ListGroup.Item>
             })}
           </ListGroup>
         </Modal.Footer>

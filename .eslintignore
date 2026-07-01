@@ -1,0 +1,13 @@
+# Vendored / generated / data-heavy modules (not app React code)
+src/xml2abc.js
+src/Fraction.js
+src/react-chords/db/**
+src/react-chords/db.js
+
+# Legacy / stub files not in the active import graph
+src/components/AbcOld.js
+src/components/AbcSynth.js
+src/components/FileManager.js
+src/useReviewTools.js
+src/useYouTubeSearch.js
+src/Microphone.js

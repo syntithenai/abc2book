@@ -13,6 +13,7 @@ const CHORDLIB_PATH = path.join(ROOT, 'src', 'chordlib.json')
 const UKULELE_DIR = path.join(ROOT, 'src', 'react-chords', 'db', 'ukulele', 'chords')
 const BANJO4_CHART = path.join(ROOT, 'src', 'banjo4.chords.chart.json')
 const BANJO5_CHART = path.join(ROOT, 'src', 'banjo5.chords.chart.json')
+const BOUZOUKI_CHART = path.join(ROOT, 'src', 'bouzouki.gdad.chords.chart.json')
 
 const NOTES = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B']
 const CHORD_LETTER_MAP = { 'C#': 'Db', 'G#': 'Ab', 'D#': 'Eb', 'A#': 'Bb', 'Gb': 'F#' }
@@ -25,7 +26,8 @@ const INSTRUMENT_TUNINGS = {
   uke: ['G', 'C', 'E', 'A'],
   mandolin: ['G', 'D', 'A', 'E'],
   banjo4: ['C', 'G', 'D', 'A'],
-  banjo5: ['g', 'D', 'G', 'B', 'D']
+  banjo5: ['g', 'D', 'G', 'B', 'D'],
+  bouzouki: ['G', 'D', 'A', 'D']
 }
 
 const SUFFIX_TO_NAME = {
@@ -87,7 +89,7 @@ const PREFERRED_PRIMARY_FRETS = {
       C: ['02012'],
       D: ['04234', '0230x'],
       A: ['00222'],
-      F: ['00213']
+      F: ['03213']
     },
     minor: {
       E: ['02020', '00402'],
@@ -502,6 +504,46 @@ async function enrichBanjo4NeckAlternatives(lib) {
   return lib
 }
 
+async function enrichBouzoukiNeckAlternatives(lib) {
+  const vg = await loadVoicingGenerator()
+  if (!lib) return lib
+
+  Object.keys(lib).forEach((quality) => {
+    if (!vg.QUALITY_INTERVALS[quality]) return
+    Object.keys(lib[quality]).forEach((root) => {
+      const entry = lib[quality][root]
+      if (!entry) return
+      const chordInfo = parseChord(chordNameFromQuality(root, quality))
+      if (chordInfo.error) return
+      const label = renderChord(chordInfo)
+      const known = new Set()
+      entry.main.forEach((group) => {
+        group.forEach((diagram) => known.add(vg.voicingFingerprint(vg.fretsFromDiagram(diagram))))
+      })
+      entry.secondary.forEach((diagram) => {
+        known.add(vg.voicingFingerprint(vg.fretsFromDiagram(diagram)))
+      })
+
+      const specs = vg.generateAllVoicings('bouzouki', root, quality, { maxVoicings: 10, maxFret: 12 })
+      specs.forEach((spec) => {
+        const key = vg.voicingFingerprint(spec.frets)
+        if (known.has(key)) return
+        known.add(key)
+        entry.secondary.push(makeDiagramEntry(
+          vg.alternativeDiagramName(label, spec.frets),
+          spec.frets,
+          spec.fingers || '',
+          'bouzouki',
+          chordInfo.normalized.notes,
+          { position: spec.position, barres: spec.barres }
+        ))
+      })
+    })
+  })
+
+  return lib
+}
+
 async function buildBanjo4() {
   const chart = JSON.parse(fs.readFileSync(BANJO4_CHART, 'utf8'))
   const lib = await buildGeneratedBanjoInstrument(chart, 'banjo4')
@@ -511,6 +553,45 @@ async function buildBanjo4() {
 async function buildBanjo5() {
   const chart = JSON.parse(fs.readFileSync(BANJO5_CHART, 'utf8'))
   return buildGeneratedBanjoInstrument(chart, 'banjo5')
+}
+
+async function buildBouzouki() {
+  const chart = JSON.parse(fs.readFileSync(BOUZOUKI_CHART, 'utf8'))
+  const lib = await buildGeneratedBanjoInstrument(chart, 'bouzouki')
+  return enrichBouzoukiNeckAlternatives(lib)
+}
+
+async function normalizeChordLibrary(chordlib) {
+  const utils = await import(pathToFileURL(path.join(ROOT, 'src', 'chordLibUtils.js')).href)
+
+  ;['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5', 'bouzouki'].forEach(function(instrument) {
+    const lib = chordlib[instrument]
+    if (!lib) return
+    Object.keys(lib).forEach(function(quality) {
+      Object.keys(lib[quality]).forEach(function(root) {
+        const label = chordNameFromQuality(root, quality)
+        const chordInfo = parseChord(label)
+        if (chordInfo.error) return
+        const chordNotes = chordInfo.normalized.notes
+        const entry = lib[quality][root]
+        const best = utils.selectBestDiagram(entry, label, {
+          instrument: instrument,
+          chordNotes: chordNotes
+        })
+        if (!best) return
+        const all = utils.collectDiagramsFromEntry(entry)
+        const refreshedBest = utils.refreshDiagramTuning(best, instrument, chordNotes)
+        entry.main = [[refreshedBest]]
+        entry.secondary = all
+          .filter(function(diagram) { return diagram !== best })
+          .map(function(diagram) {
+            return utils.refreshDiagramTuning(diagram, instrument, chordNotes)
+          })
+      })
+    })
+  })
+
+  return chordlib
 }
 
 async function main() {
@@ -535,6 +616,13 @@ async function main() {
   console.log('Building banjo5 (open G)...')
   chordlib.banjo5 = await buildBanjo5()
   console.log('  qualities:', Object.keys(chordlib.banjo5).length)
+
+  console.log('Building bouzouki (GDAD)...')
+  chordlib.bouzouki = await buildBouzouki()
+  console.log('  qualities:', Object.keys(chordlib.bouzouki).length)
+
+  console.log('Normalizing chord voicings and note labels...')
+  await normalizeChordLibrary(chordlib)
 
   fs.writeFileSync(CHORDLIB_PATH, JSON.stringify(chordlib, null, 4))
   console.log('Wrote', CHORDLIB_PATH)

@@ -11,6 +11,7 @@ export const MELODY_PROCESSING_DEFAULTS = {
   snapToScale: false,
   applyAudioFilters: true,
   whisperLanguage: 'en',
+  enableMeterChanges: false,
 };
 
 export const NOISE_MODE_PRESETS = {
@@ -94,6 +95,7 @@ export function buildAnalysisProcessingPayload(processingSettings, noteSettings,
     applyAudioFilters: resolved.applyAudioFilters !== false,
     whisperPrompt: whisperPrompt,
     whisperLanguage: resolved.whisperLanguage || 'en',
+    enableMeterChanges: !!resolved.enableMeterChanges,
     analysisAudioFilters: {
       melody: getAnalysisAudioFilters(resolved, 'melody'),
       chords: getAnalysisAudioFilters(resolved, 'chords'),

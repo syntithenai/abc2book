@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcTools from './useAbcTools'
 import { compareTuneBooks, createTombstone, parseDeletedTunesFromAbc } from './tuneBookSync'
 

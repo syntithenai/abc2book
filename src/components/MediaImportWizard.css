@@ -2,11 +2,11 @@
   max-width: 100vw;
   width: 100vw;
   margin: 0;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .media-import-wizard-modal .modal-content {
-  height: 100vh;
+  height: 100dvh;
   border: 0;
   border-radius: 0;
 }
@@ -14,29 +14,57 @@
 .media-import-wizard-body {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 120px);
+  height: calc(100dvh - 120px);
   overflow: hidden;
-}
-
-.media-import-wizard-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.5em;
-  flex-wrap: wrap;
-  padding-bottom: 0.75em;
-  border-bottom: 1px solid #dee2e6;
-  margin-bottom: 1em;
 }
 
 .media-import-wizard-nav-actions {
   display: flex;
   align-items: center;
   gap: 0.5em;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.media-import-analyze-toolbar {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 1em;
+  padding-bottom: 0.75em;
+}
+
+.media-import-analyze-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+}
+
+.media-import-analyze-header-title {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.media-import-analyze-actions {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.media-import-analyze-progress {
+  margin-top: 0.75em;
+  max-width: 32em;
 }
 
 .media-import-wizard-step-body {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
   overflow: auto;
   padding-right: 0.5em;
 }
@@ -53,6 +81,99 @@
   width: 100%;
   min-height: 24em;
   font-family: monospace;
+}
+
+.media-import-chords-textarea {
+  height: 40em;
+  min-height: 24em;
+  font-family: monospace;
+}
+
+.media-import-lyrics-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.media-import-lyrics-current {
+  flex: 1;
+  width: 100%;
+  min-height: 12em;
+  height: 100%;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.media-import-wizard-tabs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.media-import-wizard-tabs > .nav-tabs {
+  flex: 0 0 auto;
+}
+
+.media-import-wizard-tabs > .tab-content {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-import-wizard-tabs > .tab-content > .tab-pane.active.show {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-import-lyrics-inner-tabs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.media-import-lyrics-inner-tabs > .nav-tabs {
+  flex: 0 0 auto;
+}
+
+.media-import-lyrics-inner-tabs > .tab-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.75em;
+}
+
+.media-import-lyrics-inner-tabs > .tab-content > .tab-pane.active.show {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-import-lyrics-merge-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.media-import-lyrics-merge-actions {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 0.75em;
+  flex: 0 0 auto;
+}
+
+.media-import-lyrics-merge-table td {
+  vertical-align: middle;
 }
 
 @media (max-width: 900px) {

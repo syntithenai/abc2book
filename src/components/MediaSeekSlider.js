@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect, useRef, useCallback} from 'react'
 import './MediaSeekSlider.css'
 
 function safeSeconds(value) {
@@ -27,7 +27,7 @@ export default function MediaSeekSlider({mediaController, className}) {
         refresh()
         const id = setInterval(refresh, 100)
         return function() { clearInterval(id) }
-    }, [scrubbing, mediaController.duration, mediaController.tune ? mediaController.tune.id : null])
+    }, [scrubbing, mediaController])
 
     const duration = liveProgress.duration > 0
         ? liveProgress.duration
@@ -46,6 +46,25 @@ export default function MediaSeekSlider({mediaController, className}) {
         }
     }, [progress, scrubbing])
 
+    function commitSeek(ratio) {
+        const next = Math.max(0, Math.min(1, parseFloat(ratio)))
+        if (isNaN(next)) return
+        scrubValueRef.current = next
+        setScrubValue(next)
+        if (mediaController.seek) {
+            mediaController.seek(next)
+        }
+    }
+
+    const endScrub = useCallback(function(ratio) {
+        if (!scrubbingRef.current) return
+        scrubbingRef.current = false
+        setScrubbing(false)
+        const finalRatio = ratio !== undefined && ratio !== null ? ratio : scrubValueRef.current
+        commitSeek(finalRatio)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- commitSeek uses stable mediaController.seek
+    }, [mediaController])
+
     useEffect(function() {
         if (!scrubbing) return undefined
         function endScrubFromWindow() {
@@ -59,31 +78,13 @@ export default function MediaSeekSlider({mediaController, className}) {
             window.removeEventListener('mouseup', endScrubFromWindow)
             window.removeEventListener('touchend', endScrubFromWindow)
         }
-    }, [scrubbing])
+    }, [scrubbing, endScrub])
 
     function handleScrubInput(ratio) {
         const next = Math.max(0, Math.min(1, parseFloat(ratio)))
         if (isNaN(next)) return
         scrubValueRef.current = next
         setScrubValue(next)
-    }
-
-    function commitSeek(ratio) {
-        const next = Math.max(0, Math.min(1, parseFloat(ratio)))
-        if (isNaN(next)) return
-        scrubValueRef.current = next
-        setScrubValue(next)
-        if (mediaController.seek) {
-            mediaController.seek(next)
-        }
-    }
-
-    function endScrub(ratio) {
-        if (!scrubbingRef.current) return
-        scrubbingRef.current = false
-        setScrubbing(false)
-        const finalRatio = ratio !== undefined && ratio !== null ? ratio : scrubValueRef.current
-        commitSeek(finalRatio)
     }
 
     if (!(duration > 0)) return null

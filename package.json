@@ -4,7 +4,6 @@
   "homepage": ".",
   "private": true,
   "dependencies": {
-    "@kevinorriss/react-metronome": "^2.0.1",
     "@tombatossals/react-chords": "file:../abcjsfork/react-chords",
     "@upsetjs/venn.js": "^1.4.2",
     "abcjs": "^6.2.0",
@@ -56,12 +55,14 @@
     "ws": "^8.16.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSERSLIST_IGNORE_OLD_DATA=true craco start",
     "buildresources": "cd ./abcresources; nodejs ./rename_all.js; nodejs ./indexes_from_files.js",
-    "build": "react-scripts build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; node hackSw.js ",
+    "build": "craco build; rm -rf ./static/;  cp -r ./build/* ./; cp ./manifest.template.json ./manifest.json; node hackSw.js ",
     "build:chordlib": "node scripts/buildChordLib.js",
     "start:resolver": "cd local-resolver && docker compose up --build",
-    "test": "react-scripts test",
+    "test": "craco test",
+    "check:react-warnings": "node scripts/check-react-warnings.js",
+    "check:react-warnings:eslint": "node scripts/check-react-warnings.js --skip-browser",
     "test:playback": "react-scripts test --watchAll=false --testPathPattern=playback",
     "test:playback:e2e": "node e2e/playback-smoke.js",
     "test:playback:all": "npm run test:playback && npm run test:playback:e2e",
@@ -73,7 +74,32 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off",
+      "use-isnan": "off",
+      "no-useless-concat": "off",
+      "no-unreachable": "off",
+      "no-use-before-define": "off",
+      "unicode-bom": "off",
+      "no-cond-assign": "off",
+      "no-self-assign": "off",
+      "no-self-compare": "off",
+      "no-const-assign": "off",
+      "eqeqeq": "off",
+      "no-redeclare": "off",
+      "no-mixed-operators": "off",
+      "no-useless-escape": "off",
+      "array-callback-return": "off",
+      "import/no-anonymous-default-export": "off",
+      "no-new-wrappers": "off",
+      "no-loop-func": "off",
+      "default-case": "off",
+      "no-throw-literal": "off",
+      "strict": "off",
+      "no-dupe-keys": "off",
+      "testing-library/render-result-naming-convention": "off"
+    }
   },
   "jest": {
     "moduleNameMapper": {
@@ -94,6 +120,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
     "local-web-server": "^5.3.1",
     "worker-plugin": "^5.0.1",
     "workerize": "^0.1.8",

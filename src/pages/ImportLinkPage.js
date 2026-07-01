@@ -111,6 +111,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
               //})
             //}
       }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- one-time import when link route mounts
     }, [])
     if (clickToStart) {
         return <div style={{width:'80%', margin:'5em', padding:'5em', backgroundColor:'lightgreen'}} >

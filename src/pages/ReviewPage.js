@@ -1,6 +1,6 @@
 import {Link , useParams , useNavigate} from 'react-router-dom'
 import {Button, ButtonGroup, ListGroup} from 'react-bootstrap'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useCallback} from 'react'
 import useUtils from '../useUtils'
 import BoostSettingsModal from '../components/BoostSettingsModal'
 import ReviewNavigationModal from '../components/ReviewNavigationModal'
@@ -118,7 +118,7 @@ function getReviewWarp(tune) {
     return array;
   }
 
-  function generateReviewList() {
+  const generateReviewList = useCallback(function() {
       //console.log('gen review',props.currentTuneBook)
     var reviewable = {}
    //var counter = 0
@@ -147,7 +147,7 @@ function getReviewWarp(tune) {
     })
     //console.log('gen review items',final)
     setReviewItems(final)
-  }
+  }, [props.currentTuneBook, props.tunes])
   
   
     useEffect(function() {
@@ -158,7 +158,7 @@ function getReviewWarp(tune) {
            //console.log('caaa INI',currentReviewItem)
        //}
        //setMusicItem(getReviewItemNumber(currentReviewItem))
-    },[props.currentTuneBook])
+    },[generateReviewList])
     
     //useEffect(function() {
         //console.log('caaa',currentReviewItem)

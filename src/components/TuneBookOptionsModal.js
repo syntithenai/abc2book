@@ -1,74 +1,18 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import ShareTunebookModal from './ShareTunebookModal'
 import {useNavigate} from 'react-router-dom'
-import useYouTubePlaylist from '../useYouTubePlaylist'
-import { toast } from 'react-toastify'
 
 function TuneBookOptionsModal(props) {
   const [show, setShow] = useState(false);
-  const [user, setUser] = useState(null);
-  const {insertOrUpdatePlaylist} = useYouTubePlaylist()
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const navigate = useNavigate()
 
-  function YouTubeGetID(url){
-        url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
-        return undefined !== url[2]?url[2].split(/[^0-9a-z_\-]/i)[0]:url[0];
-  }
-  
-  function exportYouTubePlaylist() {
-     if (props.currentTuneBook)   {
-        var tunes = props.tunebook.fromBook(props.currentTuneBook)
-        if (Array.isArray(tunes)) {
-            var ids = []
-            tunes.forEach(function(tune) {
-                if (Array.isArray(tune.links)) {
-                    tune.links.forEach(function(link) {
-                      if (link.link) {
-                          //console.log('extract id from ', link.link)
-                          var newId = YouTubeGetID(link.link)
-                          if (newId && typeof link.link === 'string') {
-                            ids.push({id: newId, start: (link.startAt > 0 ? link.startAt : 0), end: (link.endAt > 0 ? link.endAt : 0), note:tune.name})
-                          }
-                      }  
-                    })
-                }
-            })
-                console.log("export pl",props.currentTuneBook,props.token,ids)
-            }
-            // debug: log the slice we pass, the token string, and handle the promise result
-            try {
-              const tokenStr = (props.token && props.token.access_token) ? props.token.access_token : null
-              if (!tokenStr) {
-                toast.error('Missing Google access token. Please log in.')
-                return
-              }
-              // close modal immediately when export starts
-              try { handleClose() } catch (er) {}
-              const payload = ids
-              const p = insertOrUpdatePlaylist(props.currentTuneBook, payload, tokenStr)
-              if (p && typeof p.then === 'function') {
-                p.then(function(res) {
-                  // result handled via toast in hook
-                }).catch(function(err) {
-                  console.error('insertOrUpdatePlaylist rejected', err)
-                })
-              }
-            } catch (ex) {
-              console.error('exportYouTubePlaylist error', ex)
-            }
-        //handleClose()
-     }
-  }
-  
-
-  
   return (
     <>
-      <Button style={{color:'black'}} variant="primary" onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
+      <Button variant="primary" className={props.btnClassName} onClick={handleShow}>{props.tunebook.icons.arrowdownswhite}</Button>
 
       <Modal style={{width:'100%', marginTop:'5em'}} show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -83,11 +27,8 @@ function TuneBookOptionsModal(props) {
           <Button style={{marginLeft:'0.1em'}}  onClick={function() {props.tunebook.fillAbcPlaylist(props.tunebookOption,'',navigate); navigate("/tunes")}} variant={"success"} size="small" >{props.tunebook.icons.play} Play Midi</Button>
          
           
-          {(props.currentTuneBook && props.token) && <hr style={{width:'100%', clear:'both'}} />}
-           {<span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
-           
-           
-           {(props.user && props.user.email &&  props.user.email === 'syntithenai@gmail.com' && props.currentTuneBook && props.token) && <Button style={{color:'black'}} variant="info" onClick={exportYouTubePlaylist} >{props.tunebook.icons.add} Export YouTube Playlist</Button>}
+          {props.currentTuneBook && <hr style={{width:'100%', clear:'both'}} />}
+           {props.currentTuneBook && <span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
            
          <hr style={{width:'100%', clear:'both'}} />
           <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >

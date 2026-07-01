@@ -23,6 +23,11 @@ services:
       MELODY_SOURCE_SEPARATION: ${MELODY_SOURCE_SEPARATION:-auto}
     devices:
       - /dev/dri:/dev/dri
+    # Lets the container reach services on the host (e.g. an LM Studio LLM at
+    # host.docker.internal:1234) on Linux, where this hostname is not provided
+    # automatically as it is under Docker Desktop.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./secrets:/app/secrets:ro
       - "/home/stever/projects/whisper models:/models:ro"

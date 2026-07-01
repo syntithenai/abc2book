@@ -1,9 +1,11 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup, Badge} from 'react-bootstrap'
+import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 function TagsSelectorModal(props) {
     
   const [show, setShow] = useState(false);
+  const responsiveModalProps = useResponsiveModalProps();
   const [selectedTags, setSelectedTags] = useState(false);
   const [filter, setFilter] = useState('');
   const [options, setOptions] = useState(props.defaultOptions());
@@ -12,6 +14,13 @@ function TagsSelectorModal(props) {
       if (props.handleClose) props.handleClose()
   }
   const handleShow = () => setShow(true);
+
+  useEffect(function() {
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(show)
+    return function() {
+      if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
+    }
+  }, [show, props.setBlockKeyboardShortcuts]);
   //console.log(props,options)
   var filterChangeTimeout = null
   function filterChange(e) {
@@ -73,14 +82,14 @@ function TagsSelectorModal(props) {
   return (
     <>
      
-       <Button onClick={handleShow} style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="info" >
+       <Button onClick={handleShow} className="tune-meta-modal-btn" aria-label="Tags" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="info" >
         <span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.tag}</span> 
         <Badge style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{props.value ? props.value.length : 0}</Badge>
       </Button>
       
         
      
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
           {<Modal.Title>Edit Tags</Modal.Title>}
           

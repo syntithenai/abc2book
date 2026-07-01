@@ -34,12 +34,14 @@ export default function LyricsTranscriptionMerge(props) {
   const [choices, setChoices] = useState({});
   const [showUnchanged, setShowUnchanged] = useState(false);
 
+  const tuneId = tune && tune.id
+  const analysisVersion = analysis && analysis.version
   useEffect(function() {
     if (!tune || !tune.id) return;
     loadTimedMediaDraft(tune.id).then(function(draft) {
       setDraftText(draft && draft.transcriptionText ? draft.transcriptionText : '');
     });
-  }, [tune && tune.id, analysis && analysis.version]);
+  }, [tune, tuneId, analysisVersion]);
 
   const transcribedText = resolveTranscriptionText(analysis, draftText);
   const existingText = Array.isArray(tune && tune.words) ? tune.words.join('\n') : '';
@@ -86,9 +88,6 @@ export default function LyricsTranscriptionMerge(props) {
 
   function handleApplyMerged() {
     if (!tune) return;
-    if (typeof props.pushHistory === 'function') {
-      props.pushHistory(tune);
-    }
     tune.words = splitLyricsLines(mergedPreview);
     if (typeof props.onSaveTune === 'function') {
       props.onSaveTune(tune);
@@ -97,9 +96,6 @@ export default function LyricsTranscriptionMerge(props) {
 
   function handleReplaceAll() {
     if (!tune) return;
-    if (typeof props.pushHistory === 'function') {
-      props.pushHistory(tune);
-    }
     tune.words = splitLyricsLines(transcribedText);
     if (typeof props.onSaveTune === 'function') {
       props.onSaveTune(tune);

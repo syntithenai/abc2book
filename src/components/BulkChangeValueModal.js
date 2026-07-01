@@ -3,6 +3,8 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
 import {Form} from 'react-bootstrap';
 import {useNavigate} from 'react-router-dom'
+import { FormLabelWithHelp } from './FormFieldHelp'
+import { BULK_FIELD_HELP } from '../formFieldHelpText'
 
 export default function BulkChangeValueModal({tunebook, selected, onClose, forceRefresh}) {
   //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
@@ -57,7 +59,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
             <Form.Text style={{marginBottom:'1.5em', display:'block'}} >
             Change a field value in {selectedCount} selected tunes
             </Form.Text>
-            <Form.Label>Field to change</Form.Label>
+            <FormLabelWithHelp label="Field to change" helpBody={BULK_FIELD_HELP.fieldToChange.body} helpTitle={BULK_FIELD_HELP.fieldToChange.title} />
            <Form.Select onChange={function(e) {setSelectedField(e.target.value)}} value={selectedField} >
               <option value=""></option>
               <option value="key">Key</option>

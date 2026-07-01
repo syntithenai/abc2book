@@ -1,3 +1,9 @@
+import {
+  DEFAULT_TUNING_PRESET_ID,
+  TUNER_INSTRUMENTS,
+  defaultChordTuningForInstrument
+} from './instrumentTuningPresets.js'
+
 export const CHORD_LETTERS = ['Db', 'Ab', 'Eb', 'Bb', 'F', 'C', 'G', 'D', 'A', 'E', 'B', 'F#']
 
 export const CHORD_LETTER_MAP = { 'C#': 'Db', 'G#': 'Ab', 'D#': 'Eb', 'A#': 'Bb', 'Gb': 'F#' }
@@ -7,24 +13,28 @@ export const CHORD_LETTER_MAP_COMPLETE = {
   'Bb': 'A#', 'Eb': 'D#', 'Ab': 'G#', 'Db': 'C#', 'Gb': 'F#'
 }
 
-export const INSTRUMENTS = ['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5']
+export const INSTRUMENTS = TUNER_INSTRUMENTS
 
 export const INSTRUMENT_LABELS = {
   guitar: 'Guitar',
   mandolin: 'Mandolin',
   uke: 'Uke',
   banjo4: '4-string banjo',
-  banjo5: '5-string banjo'
+  banjo5: '5-string banjo',
+  bouzouki: 'Bouzouki'
 }
 
 /** Tuning notes low string first (string 4/5 → string 1). */
 export const INSTRUMENT_TUNINGS = {
-  guitar: ['E', 'A', 'D', 'G', 'B', 'E'],
-  mandolin: ['G', 'D', 'A', 'E'],
-  uke: ['G', 'C', 'E', 'A'],
-  banjo4: ['C', 'G', 'D', 'A'],
-  banjo5: ['g', 'D', 'G', 'B', 'D']
+  guitar: defaultChordTuningForInstrument('guitar'),
+  mandolin: defaultChordTuningForInstrument('mandolin'),
+  uke: defaultChordTuningForInstrument('uke'),
+  banjo4: defaultChordTuningForInstrument('banjo4'),
+  banjo5: defaultChordTuningForInstrument('banjo5'),
+  bouzouki: defaultChordTuningForInstrument('bouzouki')
 }
+
+export const DEFAULT_INSTRUMENT_TUNING_PRESET = DEFAULT_TUNING_PRESET_ID
 
 export const BANJO5_DRONE_STRING_INDEX = 0
 export const BANJO5_DRONE_MIN_FRET = 7
@@ -34,7 +44,8 @@ export const INSTRUMENT_STRINGS = {
   mandolin: 4,
   uke: 4,
   banjo4: 4,
-  banjo5: 5
+  banjo5: 5,
+  bouzouki: 4
 }
 
 export const UKE_QUALITIES = [

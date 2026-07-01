@@ -99,6 +99,10 @@ export default function Abc(props) {
     setForceStop(false)
     
     // listen to properties on media controller to control local player
+    const mcIsPlaying = props.mediaController ? props.mediaController.isPlaying : null
+    const mcLastSeek = props.mediaController ? props.mediaController.lastSeek : null
+    const mcMediaLinkNumber = props.mediaController ? props.mediaController.mediaLinkNumber : null
+    const mcPlaybackSpeed = props.mediaController ? props.mediaController.playbackSpeed : null
     useEffect(function() {
         console.log("MP change")
         if (props.mediaController) console.log(props.mediaController.isPlaying, props.mediaController.currentTime, props.mediaController.lastSeek,lastSeek,  props.mediaController.mediaLinkNumber)
@@ -123,7 +127,8 @@ export default function Abc(props) {
             setLastPlaybackSpeed(props.mediaController.playbackSpeed)
         } 
         
-    },[(props.mediaController ? props.mediaController.isPlaying : null), (props.mediaController ? props.mediaController.lastSeek : null), (props.mediaController ?  props.mediaController.mediaLinkNumber : null), (props.mediaController ? props.mediaController.playbackSpeed : null)])
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- syncs playback state from mediaController fields above
+    }, [mcIsPlaying, mcLastSeek, mcMediaLinkNumber, mcPlaybackSpeed, props.mediaController, lastPlaybackSpeed, lastSeek])
     
 
     // autostart
@@ -175,13 +180,14 @@ export default function Abc(props) {
     useEffect(() => {
     //console.log(props.abc)
       return updateOnChange()
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- updateOnChange calls renderTune defined below
     }, [props.abc])
 
     // save autoscroll prop to ref
     useEffect(() => {
       //console.log('set AS,',props.autoScroll)
       autoScroll.current = props.autoScroll
-    }, [props.autoScroll])
+    }, [props.autoScroll, autoScroll])
 
     function beatCallback(currentBeat,totalBeats,lastMoment,position, debugInfo) {
         console.log('BEAT',props.mediaController,gmidiBuffer.current,'MM',currentBeat,totalBeats,lastMoment,position, debugInfo, props.mediaController)

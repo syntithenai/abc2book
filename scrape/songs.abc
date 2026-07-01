@@ -92049,3 +92049,2255 @@ W: # chorus 1
 % abcbook-soundfonts 
 % abcbook-repeats 1
 %%MIDI transpose -2
+
+X: 87945
+T: test5
+B: songs
+Q: 1/4=100
+V:1 
+
+% abcbook-tune_id 6a3d6285fbb8a420095375cd
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782408991499
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1291
+T: fragile
+C:sting
+B: songs
+M:4/4
+L:1/8
+R: Strathspey
+Q: 1/4=100
+K:A
+V:1 
+E|"A"A2 c>A "E7"B>G"A"A>B|"A"c2 e>c "E7"d>B"A"c>e|"D"f2 d>f "A"e2 c>e|"B
+w: [Intro 2]
+m"(3dcB (3cBA "E7"Gc|
+w: | Dm | Gm7 | Aaug A7sus4 A7 | Dsus2 Dm |
+"A"A2 c>A "E7"B>G"A"A>B|"A"c2 e>c "E7"d>B"A"c>e|"D"f2 d>f "A"e<ac>A|"Bm"
+w: | Dm7 | Gm7 | Aaug A7sus4 A7 | Dsus2 Dm |
+(3Bcd "E7"(3dcB "A"c<A A|
+|g|"A"a>Ag>A f>Ae>A|"A"c/B/A e>g  a>ec>A|"E7"d>Ec>E B>Ec>E|"B7"d/c/B c/B
+w: [Verse]
+/A "E7"(3Bcd (3efg|
+w: If blood will flow, when flesh and steel are one
+"A"a>Ag>A f>Ae>A|"A"c/B/A e>g  a>ec>A|"D"d2 f>d "A"e/a/g f/e/d|"Bm"c/B/A
+w: Drying in the colour of the evening sun
+ "E7"G/A/B "A"A2 A||
+w: Tomorrow's rain will wash the stains away
+% abcbook-tune_id 6a4373b30dd5622edd98f03b
+% abcbook-tune_composer_id 
+% abcbook-link-0 https://www.youtube.com/watch?v=b3-QqGVt-tM
+% abcbook-link-title-0 Iron Man (2012 Remaster)
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags 
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782822795827
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+% abcbook-json backgroundInfo 1/9 "### Iron Man **Overview and Origin** \"Iron Man\" is a song performed and recorded by the English heavy metal band Black Sabbath. The track was first released in 1970 and featured
+% abcbook-json backgroundInfo 2/9  on the band's second studio album, titled *Paranoid*. Due to the band's influence and the song's inclusion on this album, Black Sabbath is most responsible for making the tune wel
+% abcbook-json backgroundInfo 3/9 l known. **Recording History** While the original studio version debuted in 1970, Black Sabbath recorded the song for several other releases over the following decades. These inclu
+% abcbook-json backgroundInfo 4/9 de: * *Black Night in San Francisco* (released in 1995) * *Going Through Changes* (released in 2003) * *The Rules of Hell* (released in 2008) * *Love in Chicago* * *One for the Nos
+% abcbook-json backgroundInfo 5/9 e* **Musical Nature and Performance** Based on the provided research, the specific musical structure, composition, and technical nature of the song are unclear. Additionally, there
+% abcbook-json backgroundInfo 6/9  is no available information regarding alternative names for the tune or other artists who have performed or recorded the song. **Production and Historical Context** The record com
+% abcbook-json backgroundInfo 7/9 panies responsible for releasing the various versions of the song are not specified in the available notes. Furthermore, there are no provided historical anecdotes or background st
+% abcbook-json backgroundInfo 8/9 ories regarding the writing or recording process of the track. **Versions and Media** There are no YouTube links provided in the research notes for versions of this song by Black S
+% abcbook-json backgroundInfo 9/9 abbath or other artists."
+
+X: 1294
+T: What Do You Want Me to Say?
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4||
+w: # Interlude (x 4)
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: I know you’re going through a rough patch
+|z4 z4 z4 z4|
+w: Can’t seem to catch a break
+|z4 z4 z4 z4|
+w: You’re at the end of your tether
+|z4 z4 z4 z4|
+w: Feel like you are about to break
+|z4 z4 z4 z4|
+w: And if it should occur to me, that you’ve been acting like your
+|z4 z4 z4 z4|
+w: own worst enemy
+|z4 z4 z4 z4||
+w: What do you want me to say?
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+|z4 z4 z4 z4|
+w: I hear hear hear hear hear you
+|z4 z4 z4 z4|
+w: You’ve been hur hur hur hur hurting
+|z4 z4 z4 z4|
+w: I hear hear hear hear hear you
+|z4 z4 z4 z4|
+w: You’ve been hur hur hur hur hurting
+|z4 z4 z4 z4|
+w: And if it should occur to me, that you’ve been acting like your
+|z4 z4 z4 z4|
+w: own worst enemy
+|z4 z4 z4 z4||
+w: What do you want me to say?
+|
+|z4 z4 z4 z4||
+w: # Interlude (x 4)
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: I want to be the height of understanding
+|z4 z4 z4 z4|
+w: I want to be on your side
+|z4 z4 z4 z4|
+w: I just want to see it through your eyes
+|z4 z4 z4 z4|
+w: The last think I want to do is criticise
+|z4 z4 z4 z4|
+w: And if it should occur to me, that you’ve been acting like your
+|z4 z4 z4 z4|
+w: own worst enemy
+|z4 z4 z4 z4||
+w: What do you want me to say?
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+|z4 z4 z4 z4|
+w: I hear hear hear hear hear you…
+|z4 z4 z4 z4|
+w: And if it should occur to me, that you’ve been acting like your
+|z4 z4 z4 z4|
+w: own worst enemy
+|z4 z4 z4 z4|
+w: What do you want me to say?
+|z4 z4 z4 z4|
+w: What do you want me to say?
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e663f84b593b1119929
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1295
+T: Can’t Fake It
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: I can’t fake it , I can’t fake it
+|z4 z4 z4 z4||
+w: I try hard but I don’t make it
+|
+|z4 z4 z4 z4|
+w: I try hard I try hard, but I can’t lie
+|z4 z4 z4 z4|
+w: I try hard I try hard
+|z4 z4 z4 z4|
+w: I try hard I try hard, but I can’t lie
+|z4 z4 z4 z4||
+w: To myself
+|
+|z4 z4 z4 z4|
+w: I can’t fake it , I can’t fake it
+|z4 z4 z4 z4||
+w: I try hard but I don’t make it
+|
+|z4 z4 z4 z4|
+w: Where’ve you been, where’ve you been, I been looking for
+|z4 z4 z4 z4|
+w: you
+|z4 z4 z4 z4|
+w: You’ve been seen, you’ve been seen
+|z4 z4 z4 z4|
+w: Where’ve you been, where’ve you been, I been looking for
+|z4 z4 z4 z4|
+w: you
+|z4 z4 z4 z4||
+w: You’ve been seen, you’ve been seen
+|
+|z4 z4 z4 z4|
+w: I can’t fake it , I can’t fake it
+|z4 z4 z4 z4||
+w: I try hard but I don’t make it
+|
+|z4 z4 z4 z4|
+w: Why’d you seem so far away, you don’t know me anyway
+|z4 z4 z4 z4|
+w: Why’d you seem so far away, you don’t know me
+|z4 z4 z4 z4|
+w: Why’d you seem so far away, you don’t know me anyway
+|z4 z4 z4 z4||
+w: Why’d you seem so far away, you don’t know me
+|
+|z4 z4 z4 z4|
+w: I can’t fake it , I can’t fake it
+|z4 z4 z4 z4|
+w: I try hard but I don’t make it
+|z4 z4 z4 z4|
+w: I can’t fake it , I can’t fake it
+|z4 z4 z4 z4|
+w: I try hard but I don’t make it
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e6627289674d640a89b
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1297
+T: Ride
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4||
+w: # Intro (x 2)
+|
+|z4 z4 z4 z4|
+w: # Verse 1 (x 2)
+| "Am" z2 "G" z2 |
+| "Dm" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: You’ve been waiting, biding your time
+|z4 z4 z4 z4|
+w: Watching, from the side lines
+|z4 z4 z4 z4|
+w: Hoping, for a sign
+|z4 z4 z4 z4|
+w: Wondering, how close am I to the end of the line?
+|z4 z4 z4 z4||
+w: To the end of the line?
+|
+|z4 z4 z4 z4|
+w: # Interlude
+| "Am" z2 "G" z2 ||
+|
+|z4 z4 z4 z4|
+w: # Verse 2 (x 2)
+| "Am" z2 "G" z2 |
+| "Dm" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Now your itching
+|z4 z4 z4 z4|
+w: Trigger fingers twitching
+|z4 z4 z4 z4|
+w: Know what you’ve been missing
+|z4 z4 z4 z4||
+w: Do you know what you’ve been missing
+|
+|z4 z4 z4 z4|
+w: # Chorus 2
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Come for a ride, you know you want to
+|z4 z4 z4 z4|
+w: Come for a ride
+|z4 z4 z4 z4|
+w: Come for a ride, you know you want to
+|z4 z4 z4 z4||
+w: Come for a ride
+|
+|z4 z4 z4 z4|
+w: # Interlude (x 2)
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Don’t know where you’re going to
+|z4 z4 z4 z4|
+w: Do you?
+|z4 z4 z4 z4|
+w: Where you going to?
+|z4 z4 z4 z4||
+w: Do you?
+|
+|z4 z4 z4 z4|
+w: # Bridge
+| "C" z "G" z "F" z "G" z |
+| "C" z2 "G" z "Dm" z |
+| "G" z4 |
+|z4 z4 z4 z4|
+w: Walking the line
+|z4 z4 z4 z4|
+w: Biding your time
+|z4 z4 z4 z4|
+w: Walking the line
+|z4 z4 z4 z4|
+w: Biding your time
+|z4 z4 z4 z4|
+w: Come for a ride
+|z4 z4 z4 z4|
+w: Come for a ride
+|z4 z4 z4 z4|
+w: Come for a ride
+|z4 z4 z4 z4||
+w: Come for a ride
+|
+| "Am" z4 |
+|z4 z4 z4 z4|
+w: Don’t know where you’re going to
+|z4 z4 z4 z4|
+w: Hard stop on
+|z4 z4 z4 z4|
+w: ‘to’
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66dfe343ea1d43df5f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1300
+T: Your Fool
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4||
+w: # Verse 4
+|
+|z4 z4 z4 z4|
+w: # Interlude
+|z4 z4 z4 z4|
+w: Oh oh oh oh
+|z4 z4 z4 z4|
+w: Oh oh oh oh
+|z4 z4 z4 z4||
+w: Oh oh oh oh
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: I wont come crawling back again
+|z4 z4 z4 z4|
+w: Im still figuring out, whos to blame
+|z4 z4 z4 z4|
+w: I know you never cared for me, but you took me on just the
+|z4 z4 z4 z4|
+w: same
+|z4 z4 z4 z4||
+w: And watched me come crawling back again
+|
+|z4 z4 z4 z4|
+w: # Interlude
+|z4 z4 z4 z4|
+w: Oh oh oh oh
+|z4 z4 z4 z4|
+w: Oh oh oh oh
+|z4 z4 z4 z4||
+w: Oh oh oh oh
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: I wont come crawling back for more
+|z4 z4 z4 z4|
+w: Im not interested in evening up the score
+|z4 z4 z4 z4|
+w: My hands and knees are bruised and sore
+|z4 z4 z4 z4||
+w: From all the times I came crawling back for more
+|
+|z4 z4 z4 z4|
+w: What I feel, what I say
+|z4 z4 z4 z4|
+w: What I know to be the truth today
+|z4 z4 z4 z4|
+w: It doesn’t hold, doesn’t stay
+|z4 z4 z4 z4||
+w: And I’ll be your fool (hold fool)
+|
+|z4 z4 z4 z4|
+w: # Verse 3
+|z4 z4 z4 z4|
+w: I wont come crawling back this time
+|z4 z4 z4 z4|
+w: Wish I could say, I found the line
+|z4 z4 z4 z4|
+w: But you got tired of me and cast this love aside
+|z4 z4 z4 z4||
+w: But released me from crawling back one more time
+|
+|z4 z4 z4 z4|
+w: What I feel, what I say
+|z4 z4 z4 z4|
+w: What I know to be the truth today
+|z4 z4 z4 z4|
+w: It doesn’t hold, doesn’t stay
+|z4 z4 z4 z4||
+w: And I’ll be your fool
+|
+|z4 z4 z4 z4||
+w: # Interlude
+|
+|z4 z4 z4 z4|
+w: I don’t want to be your fool, no
+|z4 z4 z4 z4|
+w: I don’t want to be your fool
+|z4 z4 z4 z4|
+w: I don’t want to be your fool, no
+|z4 z4 z4 z4|
+w: be your fool
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e665654170570756102
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1301
+T: Blotting Paper
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: Today, I have to watch my step
+|z4 z4 z4 z4|
+w: These puddles are deep, and I cant afford to get wet
+|z4 z4 z4 z4|
+w: Even the grass, carries too much water on its tips
+|z4 z4 z4 z4||
+w: Today I’m a wick….hang for 8
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: A silhouette, cut from tissue paper
+|z4 z4 z4 z4|
+w: Twisted fibres barely held together
+|z4 z4 z4 z4|
+w: An electric current repels then pulls them together
+|z4 z4 z4 z4||
+w: Today I’m a wick
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: I’m made of blotting paper, and the ink bleeds
+|z4 z4 z4 z4|
+w: I’m made of blotting paper, and I keep sucking it in
+|z4 z4 z4 z4|
+w: blotting paper, and the ink bleeds
+|z4 z4 z4 z4||
+w: right thru
+|
+|z4 z4 z4 z4|
+w: # Verse 3
+|z4 z4 z4 z4|
+w: So if just for today, hey go easy on me
+|z4 z4 z4 z4|
+w: Backed into a corner, the animal I don’t want to be
+|z4 z4 z4 z4|
+w: I want to stay open, when the easiest thing to do
+|z4 z4 z4 z4||
+w: is shut it down, shut it all down
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Today I’m, blotting paper, and the ink bleeds
+|z4 z4 z4 z4|
+w: blotting paper, and I keep sucking it in
+|z4 z4 z4 z4|
+w: blotting paper, and the ink bleeds
+|z4 z4 z4 z4||
+w: pause then …right thru
+|
+|z4 z4 z4 z4||
+w: # Interlude (x 4)
+|
+|z4 z4 z4 z4|
+w: Today, I’ve lost my skin
+|z4 z4 z4 z4|
+w: Don’t know what’s holding me in
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66b21712c126f6b841
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 2
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1302
+T: Hung Out to Dry
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: Hung out to dry
+|z4 z4 z4 z4|
+w: Unravel the reasons why
+|z4 z4 z4 z4|
+w: I’ve been hung out to dry
+|z4 z4 z4 z4||
+w: Unravel the reasons, unravel the reasons why
+|
+|z4 z4 z4 z4|
+w: # Echo (the reasons why)
+|z4 z4 z4 z4||
+w: # Interlude
+|
+|z4 z4 z4 z4|
+w: Would you do it again
+|z4 z4 z4 z4|
+w: Take back some of things you said
+|z4 z4 z4 z4|
+w: Would you do it again
+|z4 z4 z4 z4||
+w: Take back some of things, some of thing you said
+|
+|z4 z4 z4 z4|
+w: # Echo (oh some of things you said)
+|z4 z4 z4 z4||
+w: # Interlude
+|
+|z4 z4 z4 z4|
+w: I’m cut loose and I am blowing away, im blowing across
+|z4 z4 z4 z4|
+w: this field
+|z4 z4 z4 z4|
+w: Tiny pieces of me are weightless
+|z4 z4 z4 z4|
+w: I’m cut loose and I am blowing away, im blowing across
+|z4 z4 z4 z4|
+w: this field
+|z4 z4 z4 z4||
+w: I’m cut loose and I am weightless
+|
+|z4 z4 z4 z4||
+w: # Interlude
+|
+|z4 z4 z4 z4|
+w: I’m cut loose and I am blowing away, im blowing across
+|z4 z4 z4 z4|
+w: this field
+|z4 z4 z4 z4|
+w: Tiny pieces of me are weightless
+|z4 z4 z4 z4|
+w: I’m cut loose and I am blowing away, im blowing across
+|z4 z4 z4 z4|
+w: this field
+|z4 z4 z4 z4||
+w: I’m cut loose and I am weightless
+|
+|z4 z4 z4 z4|
+w: # Outro
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Night descends
+|z4 z4 z4 z4|
+w: Wounds appear to mend
+|z4 z4 z4 z4|
+w: But the morning, holds a warning
+|z4 z4 z4 z4|
+w: That dreaming doesn’t make it so
+|z4 z4 z4 z4|
+w: Hanging
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66ac72e5f2c791cf72
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1303
+T: Catch Me if You Can
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: You don’t seem to know exactly where you stand
+|z4 z4 z4 z4|
+w: You ve been swimming round in circles but you feet cant
+|z4 z4 z4 z4|
+w: find the sand
+|z4 z4 z4 z4|
+w: Now when you think that it will all come into view
+|z4 z4 z4 z4||
+w: The sharks turn on their tails and come for you
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: You don’t know what its like to be let down
+|z4 z4 z4 z4|
+w: You’ve always had a hand out holding you above the
+|z4 z4 z4 z4|
+w: ground
+|z4 z4 z4 z4|
+w: You didn’t know, how low
+|z4 z4 z4 z4||
+w: You were prepared to go
+|
+|z4 z4 z4 z4|
+w: # Chorus 2
+|z4 z4 z4 z4|
+w: Who, oh who
+|z4 z4 z4 z4|
+w: Who
+|z4 z4 z4 z4||
+w: Whos looking out for you
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: You don’t know exactly where you are
+|z4 z4 z4 z4|
+w: The landscape seems familiar
+|z4 z4 z4 z4|
+w: And you know home it isn’t far
+|z4 z4 z4 z4|
+w: But when you think the answer surely is at hand
+|z4 z4 z4 z4|
+w: It takes one step out the door and whispers
+|z4 z4 z4 z4||
+w: Catch me if you can
+|
+|z4 z4 z4 z4|
+w: You stay stum and hum along with the crowd
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66d7940b31d2e1be4f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1304
+T: Clumsy Love
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: Cant you read it in my eyes
+|z4 z4 z4 z4|
+w: You know words get overanalysed
+|z4 z4 z4 z4|
+w: I cared enough to push you
+|z4 z4 z4 z4|
+w: But I pushed you too far
+|z4 z4 z4 z4||
+w: Pushed you too far
+|
+|z4 z4 z4 z4|
+w: Oh im clumsy with this love
+|z4 z4 z4 z4|
+w: Thinking why just hint if I can shove
+|z4 z4 z4 z4|
+w: You know tact was never in my genes
+|z4 z4 z4 z4||
+w: Subtlety and grace; well beyond my means
+|
+|z4 z4 z4 z4|
+w: beyond my means
+|z4 z4 z4 z4||
+w: beyond my means
+|
+|z4 z4 z4 z4|
+w: So this time I’ll just play dumb
+|z4 z4 z4 z4|
+w: Close my mouth I’ll hold my tongue
+|z4 z4 z4 z4|
+w: Say nothing of the feelings, oh the wheelings and the
+|z4 z4 z4 z4|
+w: dealings
+|z4 z4 z4 z4||
+w: And you’ll mistake my silence to be apathy
+|
+|z4 z4 z4 z4|
+w: Oh oh oh
+|z4 z4 z4 z4||
+w: Oh oh oh
+|
+|z4 z4 z4 z4|
+w: Oh im clumsy with this love
+|z4 z4 z4 z4|
+w: I could use some help from above
+|z4 z4 z4 z4|
+w: I wielded my affection, in your direction
+|z4 z4 z4 z4||
+w: Watch you nursing all the bruises of my love for you
+|
+|z4 z4 z4 z4|
+w: Nursing all the bruises of my love
+|z4 z4 z4 z4|
+w: Nursing all the bruises of my love
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66f59671fd2574639c
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1305
+T: One Day
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+| "D" z2 "Am" z2 |
+|z4 z4 z4 z4|
+w: If I could have a single day to last me all eternity
+|z4 z4 z4 z4|
+w: I wouldn’t even need a whole day through
+|z4 z4 z4 z4|
+w: The hours that we watched the day, the day become the
+|z4 z4 z4 z4|
+w: night
+|z4 z4 z4 z4||
+w: They’d do, more than do
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+| "D" z2 "Am" z2 |
+|z4 z4 z4 z4|
+w: Huddled close to share the warmth of the fires flame
+|z4 z4 z4 z4|
+w: Laughing out loud at our selves
+|z4 z4 z4 z4|
+w: We watched to day become the evening then the night
+|z4 z4 z4 z4||
+w: Couldn’t hold it back, try as we might
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "D" z2 "Am" z2 |
+|z4 z4 z4 z4|
+w: Satisfaction comes in strange ways these days
+|z4 z4 z4 z4|
+w: In our labour there is love
+|z4 z4 z4 z4|
+w: And in a moment the sky takes on a different hue
+|z4 z4 z4 z4||
+w: And I saw me and you and all the things we might do
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "D" z2 "Am" z2 |
+|z4 z4 z4 z4|
+w: Satisfaction comes in strange ways these days
+|z4 z4 z4 z4|
+w: In our labour there is love
+|z4 z4 z4 z4|
+w: Looking for ways to prove to god that we exist
+|z4 z4 z4 z4|
+w: Knowing full well, that we wont be missed
+|z4 z4 z4 z4|
+w: Knowing full well that we wont be missed.
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66fc79ceacdcd95d27
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1306
+T: Find My Way Home
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Intro (x 4)
+|z4 z4 z4 z4|
+w: # Hook
+| "A" z4 ||
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+| "A" z4 |
+|z4 z4 z4 z4|
+w: Up the highway, onto the plains
+|z4 z4 z4 z4|
+w: Round the mountain, down the Brown again
+|z4 z4 z4 z4||
+w: To find my way, find my way home
+|
+| "C" z4 |
+| "A" z4 |
+|z4 z4 z4 z4||
+w: My way my way find my way home x2
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: # Bridge
+|z4 z4 z4 z4|
+w: # Bridge
+|z4 z4 z4 z4|
+w: Climb high the mountain, reach down to the
+|z4 z4 z4 z4|
+w: sea
+|z4 z4 z4 z4|
+w: So many paths, so many lives, reaching around
+|z4 z4 z4 z4|
+w: me
+|z4 z4 z4 z4|
+w: Build high your castles , but beware the tide
+|z4 z4 z4 z4||
+w: Its not on your side, its not on your side
+|
+| "Dm" z2 "Am" z2 |
+| "A" z4 |
+|z4 z4 z4 z4||
+w: Its not on your side…
+|
+|z4 z4 z4 z4|
+w: # Bridge
+|z4 z4 z4 z4||
+w: Will I ever find my way home X4
+|
+|z4 z4 z4 z4|
+w: # Break (x 4)
+|z4 z4 z4 z4|
+w: # Verse
+| "A" z4 ||
+|
+|z4 z4 z4 z4|
+w: # Verse 3
+|z4 z4 z4 z4|
+w: # Bridge
+| "A" z4 |
+|z4 z4 z4 z4|
+w: Silent but watching, waiting to see
+|z4 z4 z4 z4|
+w: If any hope, if any joy, could swim in a well so
+|z4 z4 z4 z4|
+w: that’s so deep
+|z4 z4 z4 z4|
+w: Silent but watching, waiting to see
+|z4 z4 z4 z4|
+w: If any hope, if any joy, could swim in a well so
+|z4 z4 z4 z4||
+w: that’s so deep
+|
+|z4 z4 z4 z4|
+w: # Bridge
+|z4 z4 z4 z4||
+w: Will I ever find my way home X4
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: # Bridge
+|z4 z4 z4 z4|
+w: Up the highway, to the plains
+|z4 z4 z4 z4|
+w: Round the mountain, down the Brown again
+|z4 z4 z4 z4||
+w: To find my way, find my way home
+|
+| "C" z4 |
+| "A" z4 |
+|z4 z4 z4 z4|
+w: My way my way find my way home x2
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e6693c11a08759323bb
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1307
+T: Where Does the Water Go
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Intro
+|z4 z4 z4 z4|
+w: # Intro
+|z4 z4 z4 z4||
+w: # Intro
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: Walking darkened streets
+|z4 z4 z4 z4|
+w: Foot follows foot I go
+|z4 z4 z4 z4|
+w: Gutters overflowing
+|z4 z4 z4 z4||
+w: Where does the water go?
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: Looking in lit windows
+|z4 z4 z4 z4|
+w: A golden light, a golden glow
+|z4 z4 z4 z4|
+w: A smile and a glance so tender
+|z4 z4 z4 z4||
+w: Falls so close, falls so far from me
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: The water flows
+|z4 z4 z4 z4|
+w: The water flows
+|z4 z4 z4 z4|
+w: On and on
+|z4 z4 z4 z4||
+w: Ever down it goes
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: Walking darkened streets
+|z4 z4 z4 z4|
+w: Foot follows foot I go
+|z4 z4 z4 z4|
+w: Gutters overflowing
+|z4 z4 z4 z4||
+w: Where does the water go?
+|
+|z4 z4 z4 z4|
+w: # Verse
+|z4 z4 z4 z4|
+w: Ill never know what they know
+|z4 z4 z4 z4|
+w: Golden light, a golden glow
+|z4 z4 z4 z4|
+w: Ill never see what they see
+|z4 z4 z4 z4||
+w: Walking a path laid out only for me
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: It tumbles down
+|z4 z4 z4 z4|
+w: It tumbles down
+|z4 z4 z4 z4|
+w: On and on
+|z4 z4 z4 z4||
+w: But ever down
+|
+|z4 z4 z4 z4||
+w: Short guitar tinkle
+|
+|z4 z4 z4 z4|
+w: # Solo
+|z4 z4 z4 z4||
+w: # Chorus
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: It tumbles down
+|z4 z4 z4 z4|
+w: It tumbles down
+|z4 z4 z4 z4|
+w: On and on
+|z4 z4 z4 z4||
+w: But ever down
+|
+|z4 z4 z4 z4|
+w: # Outro
+|z4 z4 z4 z4|
+w: Where does the water go?
+|z4 z4 z4 z4|
+w: Where does the water go?
+|z4 z4 z4 z4|
+w: Where.....
+|z4 z4 z4 z4|
+w: Where does the water go?
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66c22517074c25877e
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1308
+T: Loop de Loop
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+| "G" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Here I am back at the start again,
+|z4 z4 z4 z4|
+w: I swear I’ll never see the end
+|z4 z4 z4 z4|
+w: If I keep running round this
+|z4 z4 z4 z4|
+w: loop de loop
+|z4 z4 z4 z4|
+w: You say that I am not your friend,
+|z4 z4 z4 z4|
+w: I swear I’ll be until the end
+|z4 z4 z4 z4|
+w: But I’m allergic to this
+|z4 z4 z4 z4||
+w: loop de loop
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "C" z2 "C" z2 |
+| "C" z2 "C" z2 |
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: D stop
+|z4 z4 z4 z4|
+w: And all your words,
+|z4 z4 z4 z4|
+w: so many words,
+|z4 z4 z4 z4|
+w: been running round my mind
+|z4 z4 z4 z4|
+w: They run round and round and round,
+|z4 z4 z4 z4|
+w: round and round and round, round and round
+|z4 z4 z4 z4|
+w: An ever tighter bind,
+|z4 z4 z4 z4||
+w: ................A tighter bind
+|
+|z4 z4 z4 z4||
+w: Do do do do do do-do
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+| "G" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Now I’m using all my skill,
+|z4 z4 z4 z4|
+w: its taking all my will
+|z4 z4 z4 z4|
+w: Not to leap back on this
+|z4 z4 z4 z4|
+w: loop de loop
+|z4 z4 z4 z4|
+w: Now I’m standing at your door,
+|z4 z4 z4 z4|
+w: don’t know how much longer for
+|z4 z4 z4 z4|
+w: Offer me a drink
+|z4 z4 z4 z4||
+w: or throw it in my face
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "C" z2 "C" z2 |
+| "C" z2 "C" z2 |
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: D stop
+|z4 z4 z4 z4|
+w: But no more words,
+|z4 z4 z4 z4|
+w: too many words,
+|z4 z4 z4 z4|
+w: been running round my mind
+|z4 z4 z4 z4|
+w: They run round and round and round,
+|z4 z4 z4 z4|
+w: round and round and round, round and round
+|z4 z4 z4 z4|
+w: An ever tighter bind,
+|z4 z4 z4 z4||
+w: ................A tighter bind
+|
+|z4 z4 z4 z4||
+w: Do do do do do do-do
+|
+|z4 z4 z4 z4|
+w: # Verse 3
+|z4 z4 z4 z4||
+w: – solo
+|
+|z4 z4 z4 z4|
+w: # Chorus 3
+| "C" z2 "C" z2 |
+| "C" z2 "C" z2 |
+| "C" z2 "C" z2 |
+|z4 z4 z4 z4|
+w: ted
+|z4 z4 z4 z4|
+w: Now I’m using all my skill,
+|z4 z4 z4 z4|
+w: its taking all my will
+|z4 z4 z4 z4||
+w: Not to leap back on this
+|
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: D stop
+|z4 z4 z4 z4|
+w: loop de loop
+|z4 z4 z4 z4|
+w: Now I’m standing at your door,
+|z4 z4 z4 z4|
+w: don’t know how much longer for
+|z4 z4 z4 z4|
+w: Offer me a drink
+|z4 z4 z4 z4||
+w: or throw it in my face
+|
+|z4 z4 z4 z4||
+w: Do do do do do do-do
+|
+|z4 z4 z4 z4|
+w: # Outro
+| "G" z2 "G" z2 |
+| "G" z2 "G" z2 |
+| "D" z2 "D" z2 |
+| "G" z2 "G" z "G" z |
+|z4 z4 z4 z4|
+w: Here I am back at the start again,
+|z4 z4 z4 z4|
+w: I swear I’ll never see the end
+|z4 z4 z4 z4|
+w: If I keep running round this
+|z4 z4 z4 z4|
+w: loop de loop de loop
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66f7e9e5f73bf01b34
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1310
+T: Family Tree
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4||
+w: # Intro (x 2)
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+| "Am" z "E" z "Am" z "Am" z |
+|z4 z4 z4 z4|
+w: Can you believe the way he hollers?
+|z4 z4 z4 z4|
+w: Watch out Isobel, you’re gonna get collared
+|z4 z4 z4 z4|
+w: Seems his been calling you for hours
+|z4 z4 z4 z4|
+w: Now your dinner’s cold and his mood has soured
+|z4 z4 z4 z4||
+w: HARD STOP
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "D" z "E" z "Am" z "Am" z |
+|z4 z4 z4 z4|
+w: Its not for you, its not for me to say
+|z4 z4 z4 z4|
+w: He’s working on, on the family tree today
+|z4 z4 z4 z4|
+w: Its not for you, its not for me
+|z4 z4 z4 z4||
+w: He’s working on.....HARD STOP the family tree
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+| "Am" z "E" z "Am" z "Am" z |
+|z4 z4 z4 z4|
+w: She’s been skipping through wild flowers
+|z4 z4 z4 z4|
+w: Developing her magical powers
+|z4 z4 z4 z4|
+w: Sending delegates to the moon
+|z4 z4 z4 z4||
+w: On the strength of a magical tune
+|
+|z4 z4 z4 z4|
+w: # Chorus 2
+| "D" z "E" z "Am" z "Am" z |
+|z4 z4 z4 z4|
+w: But there’s a ruckus coming on the horizon
+|z4 z4 z4 z4|
+w: She hears his voice and the volumes rising
+|z4 z4 z4 z4|
+w: Time to pack it up, put it all away, for another day
+|z4 z4 z4 z4|
+w: Its time for bed, Isobel
+|z4 z4 z4 z4||
+w: HARD STOP
+|
+|z4 z4 z4 z4|
+w: # Solo
+|z4 z4 z4 z4|
+w: # Verse 1
+| "Am" z "E" z "Am" z "Am" z ||
+|
+|z4 z4 z4 z4|
+w: # Solo
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "D" z "E" z "Am" z "Am" z ||
+|
+|z4 z4 z4 z4|
+w: # Chorus 1
+| "D" z "E" z "Am" z "Am" z |
+|z4 z4 z4 z4|
+w: Its not for you, its not for me to say
+|z4 z4 z4 z4|
+w: He’s working on, on the family tree today
+|z4 z4 z4 z4|
+w: Its not for you, its not for me
+|z4 z4 z4 z4|
+w: He’s working on.....the family tree
+|z4 z4 z4 z4|
+w: Its time for bed, Isobel
+|z4 z4 z4 z4|
+w: Its time for bed, Isobel
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66113b9ca61afa9231
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1311
+T: Rub Me the Wrong Way
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: You, cant know, what you do to me
+|z4 z4 z4 z4||
+w: When you walk right, talk right, see right through me
+|
+|z4 z4 z4 z4|
+w: Its like nails on a boardThe howling wind in the night
+|z4 z4 z4 z4|
+w: Looking for a light
+|z4 z4 z4 z4||
+w: To make it alright
+|
+|z4 z4 z4 z4|
+w: You rub me the wrong (hey hey hey)
+|z4 z4 z4 z4||
+w: You rub me the wrong way (hard stop)
+|
+|z4 z4 z4 z4|
+w: You, cant know, what you do to me
+|z4 z4 z4 z4||
+w: When you walk right, talk right, see right through me
+|
+|z4 z4 z4 z4|
+w: It was so long ago
+|z4 z4 z4 z4|
+w: But still clear in my mind
+|z4 z4 z4 z4|
+w: I could recite every word
+|z4 z4 z4 z4||
+w: Oh you’re still wasting my time
+|
+|z4 z4 z4 z4|
+w: You rub me the wrong (hey hey hey)
+|z4 z4 z4 z4||
+w: You rub me the wrong way (hard stop)
+|
+|z4 z4 z4 z4|
+w: I try to reign it in
+|z4 z4 z4 z4|
+w: But the beast is loose
+|z4 z4 z4 z4|
+w: He is looking for a fight
+|z4 z4 z4 z4|
+w: Give me an excuse
+|z4 z4 z4 z4|
+w: X 2 (second time vox up
+|z4 z4 z4 z4||
+w: register)
+|
+| "Gm" z4 |
+|z4 z4 z4 z4|
+w: You rub me the wrong (hey hey hey)
+|z4 z4 z4 z4|
+w: Your rub me the wrong way
+|z4 z4 z4 z4|
+w: You rub me the wrong (hey hey hey)
+|z4 z4 z4 z4|
+w: You rub me the wrong way (hard stop)
+|z4 z4 z4 z4|
+w: Ist run Gm D7
+|z4 z4 z4 z4|
+w: 2nd run Cm D7 x 3
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e664f3dd0b85145bb54
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 4
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1312
+T: You Did Something to Me
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: Ba ba bum, Ba ba bum
+|z4 z4 z4 z4||
+w: Ba ba bum, Ba ba bum
+|
+|z4 z4 z4 z4|
+w: You you you ,
+|z4 z4 z4 z4|
+w: You did something to me
+|z4 z4 z4 z4|
+w: You you you ,
+|z4 z4 z4 z4||
+w: You did something to me
+|
+|z4 z4 z4 z4|
+w: Now there’s a
+|z4 z4 z4 z4|
+w: Spring in my step
+|z4 z4 z4 z4|
+w: A gleam in my eye
+|z4 z4 z4 z4|
+w: Theres a grin on my face that feels like
+|z4 z4 z4 z4|
+w: Its two feet wide.....
+|z4 z4 z4 z4||
+w: You did something to me
+|
+|z4 z4 z4 z4|
+w: Ba ba bum, Ba ba bum
+|z4 z4 z4 z4||
+w: Ba ba bum, Ba ba bum
+|
+|z4 z4 z4 z4|
+w: You you you ,
+|z4 z4 z4 z4|
+w: You did something to me
+|z4 z4 z4 z4|
+w: Ba ba bum
+|z4 z4 z4 z4||
+w: Ba ba bum
+|
+|z4 z4 z4 z4|
+w: Now there’s a
+|z4 z4 z4 z4|
+w: Spring in my step
+|z4 z4 z4 z4|
+w: A gleam in my eye
+|z4 z4 z4 z4|
+w: Theres a grin on my face that feels like
+|z4 z4 z4 z4|
+w: Its two feet wide.....
+|z4 z4 z4 z4||
+w: You did something to me
+|
+|z4 z4 z4 z4|
+w: Ba ba bum, Ba ba bum
+|z4 z4 z4 z4||
+w: Ba ba bum, Ba ba bum
+|
+|z4 z4 z4 z4|
+w: I am feeling like i am Ten feet tall i am
+|z4 z4 z4 z4|
+w: Bullet proof I’m invisible
+|z4 z4 z4 z4|
+w: Theres a joke that only You and i get
+|z4 z4 z4 z4|
+w: Now ive become the most annoying person in
+|z4 z4 z4 z4|
+w: the room...
+|z4 z4 z4 z4|
+w: You did something to me
+|z4 z4 z4 z4|
+w: You did something to me
+|z4 z4 z4 z4|
+w: You did something to me
+|z4 z4 z4 z4||
+w: You did something to me
+|
+|z4 z4 z4 z4|
+w: # Hard Stop
+|z4 z4 z4 z4|
+w: Ba ba bum, Ba ba bum
+|z4 z4 z4 z4|
+w: Ba ba bum, Ba ba bum
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66244ca98c42e24aa0
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1313
+T: All I Know
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Dark of night, Not sleeping
+|z4 z4 z4 z4|
+w: Wonderin if, He’s cheating
+|z4 z4 z4 z4|
+w: Look at him, Sleeping the sleep
+|z4 z4 z4 z4||
+w: of the dead
+|
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Breathing fire, but uncertain
+|z4 z4 z4 z4|
+w: Truth’s behind, this last curtain
+|z4 z4 z4 z4|
+w: Draw it back, will i find
+|z4 z4 z4 z4||
+w: It’s all in my head
+|
+|z4 z4 z4 z4|
+w: # Chorus
+| "C" z "G" z "Dm" z "F" z |
+| "Am" z4 |
+|z4 z4 z4 z4|
+w: Cant trust myself to be honest, this i this i know
+|z4 z4 z4 z4|
+w: Stepin out on shaky ground, this i this i know
+|z4 z4 z4 z4|
+w: Every murmur is a rumour, this i this i know
+|z4 z4 z4 z4|
+w: I can’t trust your good intensions, this i this i know
+|z4 z4 z4 z4||
+w: Its all i know.....
+|
+|z4 z4 z4 z4|
+w: # Verse 3
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: Ask him outright, not that’s not right
+|z4 z4 z4 z4|
+w: Dig the needle in deeper, that’s pure spite
+|z4 z4 z4 z4||
+w: Tonight, neither of us will be sleeping at all
+|
+| "Am" z2 "G" z2 |
+|z4 z4 z4 z4|
+w: He said, she said
+|z4 z4 z4 z4|
+w: Keepin the beast fed
+|z4 z4 z4 z4|
+w: Tell me I’m all that you need .....
+|z4 z4 z4 z4||
+w: And I’ll make you bleed ....
+|
+|z4 z4 z4 z4|
+w: # Chorus
+| "C" z "G" z "Dm" z "F" z ||
+|
+|z4 z4 z4 z4|
+w: # Bridge
+| "F" z2 "Am" z2 |
+|z4 z4 z4 z4|
+w: What will be will be
+|z4 z4 z4 z4||
+w: Nothing can be done by me x 2
+|
+|z4 z4 z4 z4|
+w: # Chorus
+| "C" z "G" z "Dm" z "F" z |
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e662aff004116a1e71f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1316
+T: Falling Back to You
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+| "G" z2 "D" z "C" z |
+|z4 z4 z4 z4|
+w: Feeling strong, sitting here on top of the
+|z4 z4 z4 z4|
+w: universe
+|z4 z4 z4 z4|
+w: Commanding the view
+|z4 z4 z4 z4|
+w: But it wont be long, til gravity he catches
+|z4 z4 z4 z4|
+w: up with me
+|z4 z4 z4 z4||
+w: Pulls me down to you
+|
+|z4 z4 z4 z4|
+w: # Bridge
+| "Em" z2 "A7" z2 |
+|z4 z4 z4 z4|
+w: But it Wont be long,
+|z4 z4 z4 z4|
+w: wont be long
+|z4 z4 z4 z4|
+w: wont be long
+|z4 z4 z4 z4||
+w: just wait
+|
+| "G" z2 "D" z "C" z ||
+|
+|z4 z4 z4 z4|
+w: Verse
+|z4 z4 z4 z4|
+w: Here I lie, breathing in watching clouds go by
+|z4 z4 z4 z4|
+w: Floating in the light
+|z4 z4 z4 z4|
+w: From this place, it seems all problems
+|z4 z4 z4 z4|
+w: they should evaporate
+|z4 z4 z4 z4||
+w: Its perfection its grace
+|
+|z4 z4 z4 z4|
+w: # Bridge
+| "Em" z2 "A7" z2 |
+|z4 z4 z4 z4|
+w: But it Wont be long,
+|z4 z4 z4 z4|
+w: wont be long
+|z4 z4 z4 z4|
+w: wont be long
+|z4 z4 z4 z4||
+w: just wait
+|
+|z4 z4 z4 z4|
+w: # Chorus
+| "G" z2 "D" z "C" z |
+|z4 z4 z4 z4|
+w: Until I’m falling back to you
+|z4 z4 z4 z4|
+w: Falling back to you
+|z4 z4 z4 z4|
+w: Until its tearing me in two
+|z4 z4 z4 z4||
+w: Falling back to you
+|
+| "Em" z2 "Em" z "A7" z |
+| "A7" z4 |
+| "Em" z2 "C" z2 |
+|z4 z4 z4 z4||
+w: INSTRUMENTAL Bridge HALF TIME
+|
+| "C" z "F" z "C" z "Em" z |
+|z4 z4 z4 z4|
+w: we put our hands out but you fall through
+|z4 z4 z4 z4||
+w: we put our hands out but you fall through
+|
+| "G" z2 "D" z "C" z |
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66b62c9c41f986088a
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 3
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1317
+T: Pig Pen
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+| "A" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: Well Ive been working in the pig pen
+|z4 z4 z4 z4|
+w: Ive been digging trenches in the pig pen
+|z4 z4 z4 z4|
+w: Building many fences keep the guinea pigs in
+|z4 z4 z4 z4||
+w: Keep all the other critters out
+|
+|z4 z4 z4 z4|
+w: We had a chicken incursion
+|z4 z4 z4 z4|
+w: They went on a little excursion
+|z4 z4 z4 z4|
+w: Scratching up the grass that the guinea pigs need
+|z4 z4 z4 z4||
+w: Making all the guinea pigs frown
+|
+|z4 z4 z4 z4|
+w: We had a chicken incursion
+|z4 z4 z4 z4|
+w: They need a little diversion
+|z4 z4 z4 z4|
+w: To stop them eating all the guinea pig food
+|z4 z4 z4 z4||
+w: Turning all the clean water brown
+|
+|z4 z4 z4 z4|
+w: So im back working in the pig pen
+|z4 z4 z4 z4|
+w: Digging lots of trenches in the pig pen
+|z4 z4 z4 z4|
+w: Building many fences keep the guinea pigs in
+|z4 z4 z4 z4||
+w: Keep all the other critters out
+|
+|z4 z4 z4 z4|
+w: One little piggy went walking
+|z4 z4 z4 z4|
+w: Out into the night he was stalking
+|z4 z4 z4 z4|
+w: A broccoli he found up in the garden
+|z4 z4 z4 z4||
+w: But a puppy found him and he’s gone now
+|
+|z4 z4 z4 z4|
+w: One little puppy went walking
+|z4 z4 z4 z4|
+w: Out into the night he was stalking
+|z4 z4 z4 z4|
+w: A guinea pig he found up in the garden
+|z4 z4 z4 z4||
+w: Yep the puppy found him and he’s gone now
+|
+|z4 z4 z4 z4||
+w: And I said… hey puppy…leave those pigs alone….
+|
+|z4 z4 z4 z4|
+w: So im back working in the pig pen
+|z4 z4 z4 z4|
+w: Digging lots of trenches in the pig pen
+|z4 z4 z4 z4|
+w: Building many fences keep the guinea pigs in
+|z4 z4 z4 z4|
+w: Keep all the other critters out
+|z4 z4 z4 z4|
+w: Keep 5 guinea pigs in , keep all the chickens out
+|z4 z4 z4 z4|
+w: Keep 4 guinea pigs in, Keep all the other critters out
+|z4 z4 z4 z4|
+w: Keep 2 guinea pigs in , keep 2 puppy dogs out
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66af6afc7af8c94f8a
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 3
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1318
+T: Liar Birds
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+| "A" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: On a busy day
+|z4 z4 z4 z4|
+w: People seem to say
+|z4 z4 z4 z4|
+w: Whats on their minds
+|z4 z4 z4 z4||
+w: In a hurried way
+|
+|z4 z4 z4 z4|
+w: They seem to say
+|z4 z4 z4 z4||
+w: Im doing alright
+|
+| "A" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: But in the evening time
+|z4 z4 z4 z4|
+w: When I get home
+|z4 z4 z4 z4|
+w: And I unwind
+|z4 z4 z4 z4|
+w: In the evening time
+|z4 z4 z4 z4|
+w: I take some moments that
+|z4 z4 z4 z4||
+w: Are only mine
+|
+| "A" z2 "E" z2 |
+|z4 z4 z4 z4||
+w: Coz in the morning all I hear are liar birds
+|
+| "A" z2 "E" z2 ||
+|
+| "A" z2 "D" z2 ||
+|
+| "A" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: On a busy day
+|z4 z4 z4 z4|
+w: People seem to say
+|z4 z4 z4 z4|
+w: Whats on their minds
+|z4 z4 z4 z4|
+w: In a hurried way
+|z4 z4 z4 z4|
+w: They seem to say
+|z4 z4 z4 z4||
+w: Im doing alright
+|
+| "A" z2 "D" z2 |
+|z4 z4 z4 z4|
+w: In the push and pull
+|z4 z4 z4 z4|
+w: And the round and round
+|z4 z4 z4 z4|
+w: In the back and forth
+|z4 z4 z4 z4||
+w: There’s not higher ground
+|
+| "A" z2 "E" z2 |
+|z4 z4 z4 z4||
+w: in the morning all I hear are liar birds calling x 2
+|
+| "A" z2 "E" z2 |
+|z4 z4 z4 z4|
+w: And you tell yourself what you need to and I
+|z4 z4 z4 z4||
+w: will too x 2
+|
+| "A" z2 "D" z2 ||
+|
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: This isn’t a novel
+|z4 z4 z4 z4|
+w: Not a poem I learnt by rote
+|z4 z4 z4 z4|
+w: Its more than a language
+|z4 z4 z4 z4|
+w: It’s a conversation I hope
+|z4 z4 z4 z4|
+w: And I don’t have the skills that I’d wish for
+|z4 z4 z4 z4|
+w: So I appreciate
+|z4 z4 z4 z4|
+w: The fact that you are really listening
+|z4 z4 z4 z4||
+w: Giving me room to create
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Coz you’re lifting me higher
+|z4 z4 z4 z4|
+w: than I could ever reach on my own
+|z4 z4 z4 z4|
+w: your lifting me higher
+|z4 z4 z4 z4||
+w: and it feels like where we belong
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Bringing something of ourselves
+|z4 z4 z4 z4|
+w: Joining on in
+|z4 z4 z4 z4||
+w: Bringing something that we felt
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: Its some kind of magic maybe witchcraft I don’t
+|z4 z4 z4 z4|
+w: understand
+|z4 z4 z4 z4|
+w: If there’s no time and no space we are vibrating
+|z4 z4 z4 z4||
+w: rubber bands
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Lifting our voices and notes to the air
+|z4 z4 z4 z4|
+w: Joining on it
+|z4 z4 z4 z4||
+w: This thing was meant to share
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Coz you’re lifting me higher
+|z4 z4 z4 z4|
+w: than I could ever reach on my own
+|z4 z4 z4 z4|
+w: your lifting me higher
+|z4 z4 z4 z4||
+w: and it feels like where we belong
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Bringing something of ourselves
+|z4 z4 z4 z4|
+w: Joining on in
+|z4 z4 z4 z4|
+w: Bringing something that we felt
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66d161674ebe9f948f
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1
+
+X: 1319
+T: Higher
+C:Brooke Marshal
+B: brooke marshal
+B: songs
+M:4/4
+L:1/4
+Q: 1/4=100
+K:C
+V:1 
+|z4 z4 z4 z4|
+w: # Verse 1
+|z4 z4 z4 z4|
+w: This isn’t a novel
+|z4 z4 z4 z4|
+w: Not a poem I learnt by rote
+|z4 z4 z4 z4|
+w: Its more than a language
+|z4 z4 z4 z4|
+w: It’s a conversation I hope
+|z4 z4 z4 z4|
+w: And I don’t have the skills that I’d wish for
+|z4 z4 z4 z4|
+w: So I appreciate
+|z4 z4 z4 z4|
+w: The fact that you are really listening
+|z4 z4 z4 z4||
+w: Giving me room to create
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Coz you’re lifting me higher
+|z4 z4 z4 z4|
+w: than I could ever reach on my own
+|z4 z4 z4 z4|
+w: your lifting me higher
+|z4 z4 z4 z4||
+w: and it feels like where we belong
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Bringing something of ourselves
+|z4 z4 z4 z4|
+w: Joining on in
+|z4 z4 z4 z4||
+w: Bringing something that we felt
+|
+|z4 z4 z4 z4|
+w: # Verse 2
+|z4 z4 z4 z4|
+w: Its some kind of magic maybe witchcraft I don’t
+|z4 z4 z4 z4|
+w: understand
+|z4 z4 z4 z4|
+w: If there’s no time and no space we are vibrating
+|z4 z4 z4 z4||
+w: rubber bands
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Lifting our voices and notes to the air
+|z4 z4 z4 z4|
+w: Joining on it
+|z4 z4 z4 z4||
+w: This thing was meant to share
+|
+|z4 z4 z4 z4|
+w: # Chorus
+|z4 z4 z4 z4|
+w: Coz you’re lifting me higher
+|z4 z4 z4 z4|
+w: than I could ever reach on my own
+|z4 z4 z4 z4|
+w: your lifting me higher
+|z4 z4 z4 z4||
+w: and it feels like where we belong
+|
+|z4 z4 z4 z4|
+w: When we’re joining on in
+|z4 z4 z4 z4|
+w: Bringing something of ourselves
+|z4 z4 z4 z4|
+w: Joining on in
+|z4 z4 z4 z4|
+w: Bringing something that we felt
+% abcbook-timing-scaffold true
+% abcbook-tune_id 6a450e66ba3b21746ff7d3b0
+% abcbook-tune_composer_id 
+% abcbook-boost 0
+% abcbook-difficulty 0
+% abcbook-tags brooke marshal originals
+% abcbook-tablature 
+% abcbook-capo 
+% abcbook-transpose 
+% abcbook-tuning 
+% abcbook-playback-tempo 1
+% abcbook-playback-transpose 0
+% abcbook-playback-fine-tune 0
+% abcbook-lastupdated 1782910566116
+% abcbook-src-url 
+% abcbook-soundfonts 
+% abcbook-repeats 1

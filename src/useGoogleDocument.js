@@ -8,6 +8,8 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
   var pollChangesTimeout = useRef(null)
+  var onChangesRef = useRef(onChanges)
+  var pollIntervalRef = useRef(pollInterval)
   var utils = useUtils()
   var tuneBookName="ABC Tune Book"
  
@@ -22,15 +24,21 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 	});
 
   useEffect(function() {
+    onChangesRef.current = onChanges
+    pollIntervalRef.current = pollInterval
+  }, [onChanges, pollInterval])
+
+  useEffect(function() {
     //console.log('use doc tok change',onChanges, token)
-    if (token && token.access_token && onChanges) {
+    if (token && token.access_token && onChangesRef.current) {
       //console.log('START POLL')
-      pollChanges(pollInterval, onChanges)
+      pollChanges(pollIntervalRef.current, onChangesRef.current)
     }
     return function() {
       //console.log('STOP POLL')
       stopPollChanges()
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- poll when token changes; callbacks read from refs
   },[token])
 	 
 	//function indexFiles() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect, useRef, useCallback} from 'react'
 import axios from 'axios'
 import useUtils from './useUtils'
 import { getAudioFilterSettings } from './pitchTempoUtils'
@@ -12,13 +12,14 @@ import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { getLyricLines } from './wLinesUtils'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, recordingsManager, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav, editHistory}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
   // from old data
   var dbTunes = {}
   var saveOnlineTimeout = null
+  const persistedTunesRef = useRef({})
   //indexes.resetBookIndex()
   //var tunesFrom = Object.values(utils.loadLocalObject('abc2book_tunes')).map(function(tune) {
     //tune.id = utils.generateObjectId()
@@ -230,19 +231,132 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
         ? parseInt(tune.playbackPitch, 10) || 0 : 0
       tune.playbackFineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
         ? parseInt(tune.playbackFineTune, 10) || 0 : 0
+      tune.lyricsScrollSpeed = tune.lyricsScrollSpeed > 0 ? parseFloat(tune.lyricsScrollSpeed) : 1
       tune.playbackAudioFilters = getAudioFilterSettings(tune)
+      tune.backgroundInfo = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : ''
       if (Array.isArray(tune.links)) {
         tune.links = tune.links.map(syncLegacyLinkLoopFields)
       }
       return tune
   }
+
+  function cloneTuneSnapshot(tune) {
+      if (!tune) return null
+      return JSON.parse(JSON.stringify(tune))
+  }
+
+  function getPersistedTuneSnapshot(tuneId) {
+      if (!tuneId || !persistedTunesRef.current[tuneId]) return null
+      return cloneTuneSnapshot(persistedTunesRef.current[tuneId])
+  }
+
+  function savePersistedTuneSnapshot(tune) {
+      if (tune && tune.id) {
+          persistedTunesRef.current[tune.id] = cloneTuneSnapshot(tune)
+      }
+  }
+
+  function deletePersistedTuneSnapshot(tuneId) {
+      if (tuneId && persistedTunesRef.current[tuneId]) {
+          delete persistedTunesRef.current[tuneId]
+      }
+  }
+
+  const refreshPersistedTuneSnapshots = useCallback(function(nextTunes) {
+      var nextSnapshots = {}
+      Object.values(nextTunes || {}).forEach(function(nextTune) {
+          if (nextTune && nextTune.id) {
+              nextSnapshots[nextTune.id] = cloneTuneSnapshot(nextTune)
+          }
+      })
+      persistedTunesRef.current = nextSnapshots
+  }, [])
+
+  function recordHistoryChange(change) {
+      if (editHistory && typeof editHistory.recordChange === 'function') {
+          editHistory.recordChange(change)
+      }
+  }
+
+  function setTombstoneStateForTune(tuneId, tombstone) {
+      if (!setDeletedTunes || !tuneId) return
+      var nextDeleted = Object.assign({}, deletedTunes || {})
+      if (tombstone) {
+          nextDeleted[tuneId] = JSON.parse(JSON.stringify(tombstone))
+      } else {
+          delete nextDeleted[tuneId]
+      }
+      setDeletedTunes(nextDeleted)
+  }
+
+  function applyTuneSnapshot(tuneId, snapshot, options = {}) {
+      if (!tuneId || !tunes) return null
+      pauseSheetUpdates.current = true
+      if (snapshot) {
+          var restoredTune = createTune(cloneTuneSnapshot(snapshot), true)
+          tunes[tuneId] = restoredTune
+          indexes.indexTune(restoredTune)
+          updateTunesHash(restoredTune)
+          savePersistedTuneSnapshot(restoredTune)
+          if (options.hasOwnProperty('tombstone')) {
+              setTombstoneStateForTune(tuneId, options.tombstone)
+          }
+          setTunes(tunes)
+          saveTunesOnline()
+          return restoredTune
+      }
+      if (tunes[tuneId]) {
+          indexes.removeTune(tunes[tuneId], indexes.bookIndex)
+      }
+      delete tunes[tuneId]
+      deletePersistedTuneSnapshot(tuneId)
+      if (options.hasOwnProperty('tombstone')) {
+          setTombstoneStateForTune(tuneId, options.tombstone)
+      }
+      setTunes(tunes)
+      saveTunesOnline()
+      return null
+  }
+
+  function applyHistoryEntry(entry, direction = 'undo') {
+      if (!entry) return false
+      var snapshot = direction === 'redo' ? entry.after : entry.before
+      var meta = entry.meta || {}
+      var tombstone = direction === 'redo' ? meta.tombstoneAfter : meta.tombstoneBefore
+      var tuneId = entry.after && entry.after.id ? entry.after.id : (entry.before && entry.before.id ? entry.before.id : null)
+      applyTuneSnapshot(tuneId, snapshot, {skipHistory: true, tombstone: tombstone})
+      return true
+  }
+
+  function undoTuneEdits(tuneId) {
+      if (!editHistory || typeof editHistory.undoTune !== 'function') return false
+      return editHistory.undoTune(tuneId, applyHistoryEntry)
+  }
+
+  function redoTuneEdits(tuneId) {
+      if (!editHistory || typeof editHistory.redoTune !== 'function') return false
+      return editHistory.redoTune(tuneId, applyHistoryEntry)
+  }
+
+  useEffect(function() {
+      refreshPersistedTuneSnapshots(tunes)
+  }, [tunes, refreshPersistedTuneSnapshots])
+
+  useEffect(function() {
+      if (editHistory && typeof editHistory.pruneHistory === 'function') {
+          editHistory.pruneHistory(Object.keys(tunes || {}))
+      }
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- prune when tunes change; editHistory is a new object each render
+  }, [tunes])
   
-  function saveTune(tune, skipTimestampUpdate = false) {
+  function saveTune(tune, skipTimestampUpdate = false, options = {}) {
       
     //console.log('save tune', tune, tunes)
     if (tune && tunes) {
       pauseSheetUpdates.current = true
-      tune = createTune(tune) 
+      var before = getPersistedTuneSnapshot(tune.id)
+      var tombstoneBefore = deletedTunes && tune.id ? JSON.parse(JSON.stringify(deletedTunes[tune.id] || null)) : null
+      tune = createTune(tune, skipTimestampUpdate) 
       //var cleanTune = JSON.parse(JSON.stringify(tune))
       //cleanTune.lastHash = null
       //tune.lastHash = utils.hash(JSON.stringify(cleanTune))
@@ -254,6 +368,20 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       tunes[tune.id] = tune
       indexes.indexTune(tune)
       updateTunesHash(tune)
+      savePersistedTuneSnapshot(tune)
+      if (!options.skipHistory) {
+        recordHistoryChange({
+          tuneId: tune.id,
+          before: before,
+          after: tune,
+          label: options.historyLabel || 'Edit',
+          immediate: !!options.immediate,
+          meta: {
+            tombstoneBefore: tombstoneBefore,
+            tombstoneAfter: tombstoneBefore,
+          },
+        })
+      }
       setTunes(tunes)
       //console.log('set tunes', tune, tunes)
       saveTunesOnline()
@@ -285,12 +413,27 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function deleteTune(tuneId) {
     pauseSheetUpdates.current = true
     var tune = tunes[tuneId]
+    var before = getPersistedTuneSnapshot(tuneId)
+    var tombstoneBefore = deletedTunes && tuneId ? JSON.parse(JSON.stringify(deletedTunes[tuneId] || null)) : null
+    var tombstoneAfter = tune ? createTombstone(tuneId, tune.name) : null
     if (tune) {
       indexes.removeTune(tune, indexes.bookIndex)
       recordTombstone(tuneId, tune.name)
     }
     
     delete tunes[tuneId]
+    deletePersistedTuneSnapshot(tuneId)
+    recordHistoryChange({
+      tuneId: tuneId,
+      before: before,
+      after: null,
+      label: 'Delete tune',
+      immediate: true,
+      meta: {
+        tombstoneBefore: tombstoneBefore,
+        tombstoneAfter: tombstoneAfter,
+      },
+    })
     setTunes(tunes)
     saveTunesOnline()
   }
@@ -301,14 +444,30 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
       var tombstones = []
+      var historyChanges = []
       tuneIds.forEach(function(tuneId) {
         if (tunes[tuneId]) {
           indexes.removeTune(tunes[tuneId], indexes.bookIndex)
           tombstones.push({id: tuneId, name: tunes[tuneId].name})
+          historyChanges.push({
+            tuneId: tuneId,
+            before: getPersistedTuneSnapshot(tuneId),
+            after: null,
+            label: 'Delete tune',
+            immediate: true,
+            meta: {
+              tombstoneBefore: deletedTunes && tuneId ? JSON.parse(JSON.stringify(deletedTunes[tuneId] || null)) : null,
+              tombstoneAfter: createTombstone(tuneId, tunes[tuneId].name),
+            },
+          })
         }
         delete tunes[tuneId]
+        deletePersistedTuneSnapshot(tuneId)
       })
       commitTombstones(tombstones)
+      historyChanges.forEach(function(change) {
+        recordHistoryChange(change)
+      })
       //console.log('deleted',tuneIds)
       setTunes(tunes)
       saveTunesOnline()
@@ -401,8 +560,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function bulkChangeTunes(tuneIds,key, value) {
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
+      var historyChanges = []
       tuneIds.forEach(function(id) {
         if (tunes[id] && key) {
+            var before = getPersistedTuneSnapshot(id)
             if (Array.isArray(tunes[id][key]) && Array.isArray(value) ) {
                 value.forEach(function(v) {
                     tunes[id][key].push(value)
@@ -410,6 +571,18 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
             } else {
                 tunes[id][key] = value
             }
+            savePersistedTuneSnapshot(tunes[id])
+            historyChanges.push({
+              tuneId: id,
+              before: before,
+              after: tunes[id],
+              label: 'Bulk change',
+              immediate: true,
+              meta: {
+                tombstoneBefore: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
+                tombstoneAfter: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
+              },
+            })
             
           //var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
           //if (books.indexOf(book) !== -1) {
@@ -419,6 +592,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
         }
       })
       //console.log('bulk change',tuneIds)
+      historyChanges.forEach(function(change) {
+        recordHistoryChange(change)
+      })
       setTunes(tunes)
       
     }
@@ -521,6 +697,7 @@ The main difference between the two functions is the additional condition in app
             //console.log('done dups')
             if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
                 //console.log('FINALLY SET ',tunes)
+              refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
               indexes.resetBookIndex()
@@ -540,7 +717,23 @@ The main difference between the two functions is the additional condition in app
   function applyImportData(data, forceDuplicates=false, discardLocalUpdates = false) {
     //console.log('apply import',importResults)
     return new Promise(function(resolve,reject) {
+            var beforeSnapshots = {}
             var {inserts, updates, duplicates, localUpdates, skippedUpdates, forceBook, deletes, remoteDeleted} = data
+            Object.keys(updates || {}).forEach(function(id) {
+              beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+            })
+            Object.keys(inserts || {}).forEach(function(id) {
+              beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+            })
+            Object.keys(localUpdates || {}).forEach(function(id) {
+              beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+            })
+            Object.keys(skippedUpdates || {}).forEach(function(id) {
+              beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+            })
+            Object.keys(deletes || {}).forEach(function(id) {
+              beforeSnapshots[id] = getPersistedTuneSnapshot(id)
+            })
             if (deletes && Object.keys(deletes).length > 0) {
               tunes = applyDeletedTunes(tunes, deletes, remoteDeleted)
             }
@@ -635,11 +828,96 @@ The main difference between the two functions is the additional condition in app
             clearTombstonesForTunes(
               tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
             )
+            Object.keys(updates || {}).forEach(function(id) {
+              if (tunes[id]) savePersistedTuneSnapshot(tunes[id])
+            })
+            Object.keys(inserts || {}).forEach(function(id) {
+              if (tunes[id]) savePersistedTuneSnapshot(tunes[id])
+            })
+            Object.keys(localUpdates || {}).forEach(function(id) {
+              if (tunes[id]) savePersistedTuneSnapshot(tunes[id])
+            })
+            Object.keys(skippedUpdates || {}).forEach(function(id) {
+              if (tunes[id]) savePersistedTuneSnapshot(tunes[id])
+            })
+            Object.keys(deletes || {}).forEach(function(id) {
+              deletePersistedTuneSnapshot(id)
+            })
              
                       
             //console.log('done dups')
             if (forceBook || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
+              Object.keys(updates || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: tunes[id] || null,
+                  label: 'Import',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: null,
+                    tombstoneAfter: null,
+                  },
+                })
+              })
+              Object.keys(inserts || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: tunes[id] || null,
+                  label: 'Import',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: null,
+                    tombstoneAfter: null,
+                  },
+                })
+              })
+              if (discardLocalUpdates || forceBook) {
+                Object.keys(localUpdates || {}).forEach(function(id) {
+                  recordHistoryChange({
+                    tuneId: id,
+                    before: beforeSnapshots[id] || null,
+                    after: tunes[id] || null,
+                    label: 'Import',
+                    immediate: true,
+                    meta: {
+                      tombstoneBefore: null,
+                      tombstoneAfter: null,
+                    },
+                  })
+                })
+              }
+              if (forceBook) {
+                Object.keys(skippedUpdates || {}).forEach(function(id) {
+                  recordHistoryChange({
+                    tuneId: id,
+                    before: beforeSnapshots[id] || null,
+                    after: tunes[id] || null,
+                    label: 'Import',
+                    immediate: true,
+                    meta: {
+                      tombstoneBefore: null,
+                      tombstoneAfter: null,
+                    },
+                  })
+                })
+              }
+              Object.keys(deletes || {}).forEach(function(id) {
+                recordHistoryChange({
+                  tuneId: id,
+                  before: beforeSnapshots[id] || null,
+                  after: null,
+                  label: 'Import',
+                  immediate: true,
+                  meta: {
+                    tombstoneBefore: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
+                    tombstoneAfter: remoteDeleted && remoteDeleted[id] ? remoteDeleted[id] : createTombstone(id, deletes[id] && deletes[id].name),
+                  },
+                })
+              })
                 //console.log('FINALLY SET ',tunes)
+              refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
               indexes.resetBookIndex()
@@ -776,7 +1054,7 @@ The main difference between the two functions is the additional condition in app
    */
   function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null) {
       //console.log('importabc', forceBook, limitToTuneId, limitToBookName, limitToTagName)
-      buildTunesHash(tunes)
+      var currentTunesHash = buildTunesHash(tunes) || tunesHash
       var duplicates=[]
       var inserts=[]
       var updates=[]
@@ -877,7 +1155,7 @@ The main difference between the two functions is the additional condition in app
                 var hash = abcTools.getTuneImportHash(tune)
                 //utils.hash(tune.notes.join("\n"))
                 //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
-                if (tunesHash && tunesHash.importhashes && tunesHash.importhashes[hash] ) {
+                if (currentTunesHash && currentTunesHash.importhashes && currentTunesHash.importhashes[hash] ) {
                   duplicates.push(tune)
                   tuneStatus.duplicates.push({
                     hasLyrics:hasLyrics(tune),
@@ -1249,9 +1527,12 @@ The main difference between the two functions is the additional condition in app
                 //console.log(' tag filt',tune.tags,tagFilter)
                 if (tune && tune.tags && tune.tags.length > 0 && Array.isArray(tagFilterClean) && tagFilterClean.length > 0) {
                     tagFilterOk = true
+                    var tuneTagsLower = tune.tags.map(function(t) {
+                        return (t && t.toLowerCase) ? t.toLowerCase() : t
+                    })
                     tagFilterClean.forEach(function(tag) {
                         //console.log(tag)
-                        if (tag && tag.toLowerCase && tune.tags.indexOf(tag.toLowerCase()) !== -1) {
+                        if (tag && tag.toLowerCase && tuneTagsLower.indexOf(tag.toLowerCase()) !== -1) {
                             //tagFilterOk = true
                         } else {
                             tagFilterOk = false
@@ -1572,6 +1853,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, recordingsManager: recordingsManager, navigate, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

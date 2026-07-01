@@ -22,6 +22,17 @@ describe('abcbookJsonFields', function() {
     const parsed = applyAbcbookJsonChunks(chunks);
     expect(parsed.timedLyrics).toEqual(payload);
   });
+
+  test('round-trips chunked backgroundInfo text', function() {
+    const payload = 'First recorded in 1920.\nhttps://www.youtube.com/watch?v=abc123';
+    const lines = renderAbcbookJsonField('backgroundInfo', payload);
+    const chunks = {};
+    lines.forEach(function(line) {
+      collectAbcbookJsonChunk(parseAbcbookJsonLine(line), chunks);
+    });
+    const parsed = applyAbcbookJsonChunks(chunks);
+    expect(parsed.backgroundInfo).toBe(payload);
+  });
 });
 
 describe('timed models', function() {
@@ -92,7 +103,7 @@ describe('timed models', function() {
 });
 
 describe('useAbcTools timed persistence', function() {
-  test('round-trips timedLyrics through abc2json/json2abc', function() {
+  test('does not emit timedLyrics JSON on new saves', function() {
     const abcTools = useAbcTools();
     const tune = {
       id: 'test-tune-1',
@@ -100,11 +111,20 @@ describe('useAbcTools timed persistence', function() {
       meter: '4/4',
       key: 'C',
       voices: { 1: { meta: '', notes: ['C D E F |'] } },
+      wLines: ['row your boat'],
       timedLyrics: buildTimedLyricsFromTranscription({
         segments: [{ start: 0, end: 2, text: 'row your boat' }],
       }, { id: 'src' }),
     };
     const abc = abcTools.json2abc(tune);
+    expect(abc).not.toContain('% abcbook-json timedLyrics');
+    expect(abc).not.toContain('% abcbook-json timedChords');
+    expect(abc).toContain('w: row your boat');
+  });
+
+  test('still imports legacy timedLyrics JSON from ABC comments', function() {
+    const abcTools = useAbcTools();
+    const abc = '\nX:1\nT:Test\nM:4/4\nL:1/8\nK:C\nC D E F |\n% abcbook-json timedLyrics 1/1 {"v":1,"lines":[{"t":"row your boat","s":0,"e":2}],"sections":[]}\n';
     const parsed = abcTools.abc2json(abc);
     expect(parsed.timedLyrics.lines[0].text).toBe('row your boat');
   });
@@ -129,11 +149,24 @@ describe('useAbcTools timed persistence', function() {
     expect(parsed.timingScaffold).toBe(true);
   });
 
-  test('migrates legacy W: headers into wLines on import', function() {
+  test('keeps legacy W: headers in words on import', function() {
     const abcTools = useAbcTools();
     const abc = '\nX:1\nT:Test\nM:4/4\nL:1/8\nK:C\nC D E F |\nW: legacy line\n';
     const parsed = abcTools.abc2json(abc);
-    expect(parsed.wLines).toEqual(['legacy line']);
+    expect(parsed.words).toEqual(['legacy line']);
+    expect(parsed.wLines).toEqual([]);
+  });
+
+  test('round-trips block W: lyrics through export', function() {
+    const abcTools = useAbcTools();
+    const abc = '\nX:1\nT:Bog\nM:2/4\nL:1/8\nK:G\n|:"G"B2|\nW: Rare bog\nW: A rattlin bog\n';
+    const parsed = abcTools.abc2json(abc);
+    const exported = abcTools.json2abc(parsed);
+    expect(exported).toContain('W: Rare bog');
+    expect(exported).toContain('W: A rattlin bog');
+    expect(exported).not.toMatch(/\nw: /);
+    const roundTrip = abcTools.abc2json(exported);
+    expect(roundTrip.words).toEqual(['Rare bog', 'A rattlin bog']);
   });
 });
 

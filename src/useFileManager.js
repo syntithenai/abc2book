@@ -71,7 +71,8 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 				//}))
 			})
 		}
-	},[tuneId])
+	// eslint-disable-next-line react-hooks/exhaustive-deps -- load files when tuneId changes
+	},[tuneId, filterByTuneId])
 	
 		
 	var [filterTimeout, setFilterTimeout] = useState(null)
@@ -83,7 +84,7 @@ export default function useFileManager(storeName = 'files', token, logout, tune 
 				runFilter(filter, files)
 			//}, 500))
 		}
-	},[filter])
+	},[filter, files])
 	
 	
 	
@@ -566,6 +567,6 @@ function save(file, filteredKey = null) {
 	}
 
   
-  return {load, updateFileName, deleteFile, save, search, scrapeUrl, pasteFiles, filtered, filesSelected, filter, setFilter, allowMime, addFiles, updateFiles, runFilter, refresh, allowMimeTypes, warning, setWarning, allowMimeTypes}
+  return {load, updateFileName, deleteFile, save, search, scrapeUrl, pasteFiles, filtered, filesSelected, filter, setFilter, allowMime, addFiles, updateFiles, runFilter, refresh, allowMimeTypes, warning, setWarning}
   
 }

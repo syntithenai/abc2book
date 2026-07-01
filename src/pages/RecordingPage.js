@@ -185,6 +185,7 @@ export default function RecordingPage(props) {
           //console.log('emitter',ee)
         })
       }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- load recording editor once when recordingId changes
     },[ params.recordingId])
   //{JSON.stringify(recording)}
       

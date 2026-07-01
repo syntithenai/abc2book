@@ -31,8 +31,13 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const demucsModel = mediaController && mediaController.getDemucsModel
     ? mediaController.getDemucsModel()
     : 'htdemucs';
-  const filterKeys = getAudioFilterKeysForDemucsModel(demucsModel);
+  const filterKeys = mediaController && mediaController.getAvailableAudioFilterKeys
+    ? mediaController.getAvailableAudioFilterKeys()
+    : getAudioFilterKeysForDemucsModel(demucsModel);
   const stemsReady = !!(mediaController && mediaController.hasStemsForCurrentMedia && mediaController.hasStemsForCurrentMedia());
+  const availableStemNames = mediaController && Array.isArray(mediaController.availableStemNames)
+    ? mediaController.availableStemNames
+    : [];
   const analysisActive = !!(mediaController && (
     mediaController.stemSeparationActive
     || (mediaController.stemAnalysisProgress && mediaController.stemAnalysisProgress.active)
@@ -41,11 +46,12 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
     ? mediaController.stemAnalysisProgress
     : { progress: 0, message: '' };
 
+  const playbackAudioFiltersKey = tune ? JSON.stringify(tune.playbackAudioFilters) : null
   useEffect(function() {
     if (tune) {
       setFilters(getAudioFilterSettings(tune));
     }
-  }, [tune ? tune.id : null, tune ? JSON.stringify(tune.playbackAudioFilters) : null]);
+  }, [tune, playbackAudioFiltersKey]);
 
   useEffect(function() {
     return function() {
@@ -146,16 +152,26 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
         <>
           <div className="audio-filters-panel-header">
             <p className="audio-filters-help">
-              Adjust stem levels from Demucs separation ({demucsModel}). Analyse a track once, then slider changes apply live during playback.
+              Adjust stem levels from Demucs separation ({demucsModel}
+              {stemsReady && availableStemNames.length > 0
+                ? ': ' + availableStemNames.join(', ')
+                : ''}
+              ). Analyse a track once, then slider changes apply live during playback.
             </p>
             <div className="audio-filters-header-actions">
               <Button
                 variant="primary"
                 size="sm"
-                disabled={analysisActive || analysing}
-                onClick={function() { handleAnalyse(stemsReady); }}
+                disabled={analysing && !analysisActive}
+                onClick={function() {
+                  if (analysisActive) {
+                    handleCancelAnalysis();
+                    return;
+                  }
+                  handleAnalyse(stemsReady);
+                }}
               >
-                {stemsReady ? 'ReAnalyse' : 'Analyse'}
+                {analysisActive ? 'Cancel' : (stemsReady ? 'ReAnalyse' : 'Analyse')}
               </Button>
               {stemsReady && (
                 <Button

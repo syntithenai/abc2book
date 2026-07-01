@@ -1,4 +1,121 @@
 
+.tuner-root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.tuner-controls {
+  margin-bottom: 1rem;
+}
+
+.tuner-instruments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.tuner-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tuner-preset-select {
+  max-width: 220px;
+}
+
+.tuner-a4-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.tuner-a4-input {
+  width: 5.5rem;
+  display: inline-block;
+}
+
+.tuner-strings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tuner-string-btn .tuner-string-num {
+  display: block;
+  font-size: 0.65em;
+  opacity: 0.7;
+}
+
+.tuner-string-btn.active.tuner-in-tune {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.tuner-string-btn.active.tuner-amber {
+  background-color: #f39c12;
+  border-color: #f39c12;
+}
+
+.tuner-meter-wrap.tuner-in-tune .meter-pointer {
+  background: #27ae60;
+}
+
+.tuner-meter-wrap.tuner-amber .meter-pointer {
+  background: #f39c12;
+}
+
+.tuner-meter-wrap.tuner-sharp .meter-pointer {
+  background: #e74c3c;
+}
+
+.tuner-tap-hint {
+  font-size: 0.9rem;
+}
+
+.tuner-suggested {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.tuner-intonation-hint {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.tuner-meter-wrap {
+  position: relative;
+  min-height: 420px;
+}
+
+.tuner-meter-wrap .notes {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.tuner-meter-wrap .meter {
+  position: relative;
+  bottom: auto;
+  margin: 2rem auto 0;
+}
+
+.tuner-meter-wrap .frequency-bars {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .notes {
   margin: auto;
   width: 400px;

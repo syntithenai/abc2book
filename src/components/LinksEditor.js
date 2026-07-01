@@ -3,6 +3,9 @@ import {Button, ListGroup, Form} from 'react-bootstrap'
 import YouTubeSearchModal from './YouTubeSearchModal'
 import YouTube from 'react-youtube';  
 import {Link , useParams , useNavigate} from 'react-router-dom'
+import { FormLabelWithHelp } from './FormFieldHelp'
+import { LINKS_FIELD_HELP } from '../formFieldHelpText'
+import LinkPlaybackRegionScanControls from './LinkPlaybackRegionScanControls'
 
 export default function LinksEditor(props) {
     const navigate = useNavigate()
@@ -49,15 +52,14 @@ export default function LinksEditor(props) {
   }
 
   const [warning, setWarning] = useState('')
-  
- 
-    
+  const simplified = !!props.simplified
+  const hasTitle = !!(props.tune && props.tune.name && props.tune.name.trim())
+
   return (
     <div  >
-        <div style={{textAlign:'right'}} >
-          {(warning && warning.length  > 0) && <b>{warning}</b>}
-                    
-            {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Button variant="success" style={{marginBottom:'0.6em', marginRight:'0.6em'}} ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
+        <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+          <div style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+            {localStorage.getItem('bookstorage_inlineaudio') === "true" && <Button variant="success" ><Form.Control style={{backgroundColor:'#c7eedb'}} type='file'  accept="audio/*" onChange={function(e) {
                 fileSelected(e,function(data) {
                     //console.log((data ? data.slice(0,50) : 'nodata'),e)
                     var type = e.target.files[0].type
@@ -79,12 +81,22 @@ export default function LinksEditor(props) {
                      e.target.value=''
                 })
             }  } /></Button>}
-            
-          
-          <span  >
-          <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' '+(props.tune.rhythm ? props.tune.rhythm : '')} ><Button>{props.tunebook.icons.externallink}</Button>
-            </a>
-            <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}  onChange={function(link) {
+            <Button style={{color:'black'}} variant="success" onClick={function(e) {
+                var links = Array.isArray(props.links) ? props.links : []
+                links.unshift({title:'', link:'', startAt:'', endAt: ''})
+                //var tune = props.tune
+                //tune.links = links; 
+                props.onChange(links)
+                //props.tunebook.saveTune(tune); 
+                //props.forceRefresh()
+            }} >{props.tunebook.icons.add} New Link</Button>
+          </div>
+
+          <div style={{display:'flex', alignItems:'center', flexWrap:'wrap', gap:'0.5em'}} >
+            {(warning && warning.length  > 0) && <b>{warning}</b>}
+            {!simplified && <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' '+(props.tune.rhythm ? props.tune.rhythm : '')} ><Button>{props.tunebook.icons.externallink}</Button>
+            </a>}
+            {hasTitle && <YouTubeSearchModal onClick={props.handleClose} tunebook={props.tunebook}  onChange={function(link) {
                     //var tune = props.tune
                     var links = Array.isArray(props.links) ? props.links : []
                     links.unshift({title:link.title, link: link.link, startAt:'', endAt: ''})
@@ -98,19 +110,9 @@ export default function LinksEditor(props) {
                 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} 
                 triggerElement={<>Search YouTube</>}
                 value={(props.tune.name ? props.tune.name : '') + (props.tune.composer ? ' ' + props.tune.composer : '')}
-            />
-          </span>
-          <Button style={{marginLeft:'0.3em',color:'black'}} variant="success" onClick={function(e) {
-                var links = Array.isArray(props.links) ? props.links : []
-                links.unshift({title:' ', link:' ', startAt:'', endAt: ''})
-                //var tune = props.tune
-                //tune.links = links; 
-                props.onChange(links)
-                //props.tunebook.saveTune(tune); 
-                //props.forceRefresh()
-            }} >{props.tunebook.icons.add} New Link</Button>
-            
-            
+            />}
+            {props.toolbarExtra}
+          </div>
         </div>
         <Form >
             <div style={{clear:'both'}}>
@@ -151,7 +153,7 @@ export default function LinksEditor(props) {
                         
                         
                         
-                        {(props.tune && Array.isArray(props.links) && props.links.length > lk && props.links[lk] && props.links[lk].link && props.links[lk].link.indexOf("youtube") !== -1) && <a target="_new" href={props.links[lk].link} ><Button  style={{float:'right', marginRight:'0.3em'}} variant="primary" onClick={function() {
+                        {(!simplified && props.tune && Array.isArray(props.links) && props.links.length > lk && props.links[lk] && props.links[lk].link && props.links[lk].link.indexOf("youtube") !== -1) && <a target="_new" href={props.links[lk].link} ><Button  style={{float:'right', marginRight:'0.3em'}} variant="primary" onClick={function() {
                             
                         }} >{props.tunebook.icons.externallink}</Button></a>}
                         
@@ -182,21 +184,26 @@ export default function LinksEditor(props) {
                         
                         
                     </Form.Group>
-                    <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
-                      <Form.Label>Start At (seconds)</Form.Label> 
-                       <Form.Control    type='text' value={link.startAt} onChange={function(e) {
+                    {!simplified && <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
+                      <FormLabelWithHelp label="Start At (seconds)" helpBody={LINKS_FIELD_HELP.startAt.body} helpTitle={LINKS_FIELD_HELP.startAt.title} /> 
+                      <div style={{display:'flex', gap:'0.5em', alignItems:'flex-start', flexWrap:'wrap'}}>
+                       <Form.Control style={{flex:'1 1 12em'}}   type='text' value={link.startAt} onChange={function(e) {
                             var links = props.links
                             links[lk].startAt = e.target.value
-                            //var tune = props.tune
-                            //tune.links = links; 
-                            //console.log("save links start ",tune.links)
-                            //props.tunebook.saveTune(tune); 
                             props.onChange(links)
                         }  } />
-                    </Form.Group>
+                        {props.tune && <LinkPlaybackRegionScanControls
+                          tune={props.tune}
+                          linkIndex={lk}
+                          link={link}
+                          currentLinks={props.links}
+                          onLinksUpdated={onChange}
+                        />}
+                      </div>
+                    </Form.Group>}
                     
-                    <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
-                      <Form.Label>End At (seconds)</Form.Label> 
+                    {!simplified && <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em' ,width:'100%'}} >
+                      <FormLabelWithHelp label="End At (seconds)" helpBody={LINKS_FIELD_HELP.endAt.body} helpTitle={LINKS_FIELD_HELP.endAt.title} /> 
                        <Form.Control   type='text' value={link.endAt} onChange={function(e) {
                             var links = props.links
                             links[lk].endAt = e.target.value
@@ -206,7 +213,7 @@ export default function LinksEditor(props) {
                             //props.tunebook.saveTune(tune); 
                             props.onChange(links)
                         }  } />
-                    </Form.Group>
+                    </Form.Group>}
                     
                 </div>
             }) }

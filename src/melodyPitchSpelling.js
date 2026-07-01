@@ -84,6 +84,22 @@ export function midiToAbcPitch(midi, options) {
   return name + ','.repeat(Math.max(0, 4 - octave));
 }
 
+export function formatKeySignatureShort(keyText) {
+  const parsed = parseKeySignature(keyText);
+  if (parsed) {
+    return parsed.mode === 'minor' ? parsed.root + 'm' : parsed.root;
+  }
+  const match = String(keyText || '').trim().match(/^([A-Ga-g])([#b]?)\s*(major|minor|maj|min|m)?$/i);
+  if (!match) return String(keyText || '').trim();
+  let root = match[1].toUpperCase();
+  const accidental = match[2] || '';
+  if (accidental === '#') root += '#';
+  if (accidental === 'b') root += 'b';
+  const modeToken = (match[3] || '').toLowerCase();
+  const mode = modeToken === 'm' || modeToken === 'min' || modeToken === 'minor' ? 'minor' : 'major';
+  return mode === 'minor' ? root + 'm' : root;
+}
+
 export function parseKeySignatureForTests(keyText) {
   return parseKeySignature(keyText);
 }

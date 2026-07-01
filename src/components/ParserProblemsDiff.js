@@ -1,5 +1,5 @@
 import {Button, ButtonGroup, Modal} from 'react-bootstrap'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useCallback} from 'react'
 
 import abcjs from 'abcjs'
 
@@ -23,21 +23,17 @@ export default function ParserProblemsDiff(props) {
       };
     }
 
-    function init() {
+    const init = useCallback(function() {
         var abcParsed = parse(props.abc)
         var t = abcParsed[0]
         var beatLength = t.getBeatLength()
         var rerendered = render(abcParsed,props.abc)
         setNewValue(props.tunebook.abcTools.justNotesNoMeta(rerendered))
-    }
+    }, [parse, render, props.abc, props.tunebook.abcTools])
 
     useEffect(function() {
           init()
-    },[props.abc])
-    
-    useEffect(function() {
-          init()
-    },[])
+    },[props.abc, init])
 
    return (
     <>

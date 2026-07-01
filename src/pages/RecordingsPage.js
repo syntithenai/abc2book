@@ -9,12 +9,13 @@ import useAudioUtils from '../useAudioUtils'
 import RecordingsManager from '../components/RecordingsManager'
 
 export default function RecordingsPage(props) {
+	const { fileManager } = props
 	var allowedAudioMimeTypes = ['audio/*']
 	//var fileManager = useFileManager('recordings',props.token ? props.token : null, props.logout, null, allowedAudioMimeTypes, false, false)
 	useEffect(function() {
-		props.fileManager.refresh()
-	},[])
-	var extendedProps = Object.assign({},props,{fileManager: props.fileManager})
+		fileManager.refresh()
+	},[fileManager])
+	var extendedProps = Object.assign({},props,{fileManager: fileManager})
 	return <RecordingsManager {...extendedProps} />
 }
 	//var allowedMimeTypes = ['audio/*'] //application/musicxml

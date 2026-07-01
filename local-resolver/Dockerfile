@@ -86,6 +86,14 @@ RUN mkdir -p /opt/autochord-libs \
     && ln -sf /usr/local/bin/python3.11 /opt/autochord-venv/bin/python3
 
 COPY server.py /app/server.py
+COPY recording_artists.py /app/recording_artists.py
+COPY background_markdown_links.py /app/background_markdown_links.py
+COPY chords_fetch.py /app/chords_fetch.py
+COPY notation_fetch.py /app/notation_fetch.py
+COPY lyrics_fetch.py /app/lyrics_fetch.py
+COPY tune_background_research.py /app/tune_background_research.py
+COPY voice_command.py /app/voice_command.py
+COPY playback_region_detect.py /app/playback_region_detect.py
 COPY detect_chords.py /app/detect_chords.py
 COPY detect_melody.py /app/detect_melody.py
 COPY detect_timing.py /app/detect_timing.py

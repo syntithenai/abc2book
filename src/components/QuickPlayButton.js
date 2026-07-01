@@ -12,7 +12,7 @@ export default function QuickPlayButton(props) {
          props.tunebook.recordingsManager.stopPlayRecording()
          props.tunebook.recordingsManager.stopRecording()
        }
-     },[]) 
+     },[props.tunebook.recordingsManager])
     
   
     function clickPlay(e) {

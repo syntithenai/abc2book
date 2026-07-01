@@ -32,6 +32,26 @@ export function getAudioFilterKeysForDemucsModel(model) {
   return AUDIO_FILTER_KEYS_4STEM.slice();
 }
 
+/**
+ * Return the UI filter keys that match the separated stem names actually
+ * available (eg. only guitar/piano sliders when those stems exist).
+ */
+export function getAudioFilterKeysForStemNames(stemNames) {
+  const names = Array.isArray(stemNames) ? stemNames : [];
+  if (names.length === 0) {
+    return AUDIO_FILTER_KEYS_4STEM.slice();
+  }
+  const stemSet = {};
+  names.forEach(function(name) {
+    if (name) stemSet[String(name)] = true;
+  });
+  const keys = AUDIO_FILTER_KEYS.filter(function(filterKey) {
+    const stem = STEM_NAME_BY_FILTER[filterKey];
+    return stemSet[stem];
+  });
+  return keys.length > 0 ? keys : AUDIO_FILTER_KEYS_4STEM.slice();
+}
+
 export function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
 }

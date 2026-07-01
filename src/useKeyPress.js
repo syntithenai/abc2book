@@ -10,7 +10,12 @@ const useKeyPress = (keys, callback, node = null) => {
   // handle what happens on key press
   const handleKeyPress = useCallback(
     (event) => {
-      // check if one of the key is part of the ones we want
+      const target = event.target;
+      if (target) {
+        const tagName = target.tagName;
+        if (tagName === 'INPUT' || tagName === 'TEXTAREA' || tagName === 'SELECT' || tagName === 'BUTTON') return;
+        if (target.isContentEditable) return;
+      }
       if (keys.some((key) => event.key === key)) {
         callbackRef.current(event);
       }

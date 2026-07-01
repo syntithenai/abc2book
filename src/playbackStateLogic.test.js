@@ -19,6 +19,7 @@ import {
   applyPause,
   applyResumeFromPause,
   shouldConfirmPlayingStarted,
+  shouldUseExistingPlayer,
   shouldHandleNativePause,
   clampSeekRatio,
   seekSecondsFromRatio,
@@ -29,6 +30,8 @@ import {
   isStaleSeekEngineReading,
   computeMidiMetronomeCountIn,
   computeExtraMeasuresAtBeginning,
+  isMidiStartFromBeginning,
+  shouldUseMidiMetronomeCountIn,
 } from './playbackStateLogic'
 
 const NOW = 1_000_000
@@ -114,6 +117,16 @@ describe('seek guard', function() {
     expect(shouldSuppressSpuriousPause(state, NOW + 5000)).toBe(true)
     state = clearSeekWasPlaying(state)
     expect(shouldSuppressSpuriousPause(state, NOW + 5000)).toBe(false)
+  })
+})
+
+describe('shouldUseExistingPlayer', function() {
+  test('returns true only when ready and loaded src matches active src', function() {
+    expect(shouldUseExistingPlayer('https://youtu.be/a', 'https://youtu.be/a', true)).toBe(true)
+    expect(shouldUseExistingPlayer('https://youtu.be/a', 'https://youtu.be/b', true)).toBe(false)
+    expect(shouldUseExistingPlayer('https://youtu.be/a', 'https://youtu.be/a', false)).toBe(false)
+    expect(shouldUseExistingPlayer(null, 'https://youtu.be/a', true)).toBe(false)
+    expect(shouldUseExistingPlayer('https://youtu.be/a', null, true)).toBe(false)
   })
 })
 
@@ -358,6 +371,47 @@ describe('isStaleSeekEngineReading', function() {
   })
 })
 
+describe('isMidiStartFromBeginning', function() {
+  test('zero seconds and ratio are treated as the start', function() {
+    expect(isMidiStartFromBeginning({ seconds: 0, ratio: 0 })).toBe(true)
+  })
+
+  test('mid-song position is not the start', function() {
+    expect(isMidiStartFromBeginning({ seconds: 12.5, ratio: 0.5 })).toBe(false)
+  })
+
+  test('tiny float noise near zero still counts as the start', function() {
+    expect(isMidiStartFromBeginning({ seconds: 0.01, ratio: 0.001 })).toBe(true)
+  })
+})
+
+describe('shouldUseMidiMetronomeCountIn', function() {
+  test('disabled when metronome count-in is off', function() {
+    expect(shouldUseMidiMetronomeCountIn({
+      metronomeCountIn: false,
+      seconds: 0,
+      ratio: 0,
+    })).toBe(false)
+  })
+
+  test('forced restart always uses count-in', function() {
+    expect(shouldUseMidiMetronomeCountIn({
+      metronomeCountIn: true,
+      forceRestart: true,
+      seconds: 30,
+      ratio: 0.75,
+    })).toBe(true)
+  })
+
+  test('mid-song resume skips count-in', function() {
+    expect(shouldUseMidiMetronomeCountIn({
+      metronomeCountIn: true,
+      seconds: 8,
+      ratio: 0.4,
+    })).toBe(false)
+  })
+})
+
 describe('computeMidiMetronomeCountIn', function() {
   const beatDurationMs = 500 // 120bpm quarter in 4/4
 
@@ -372,6 +426,19 @@ describe('computeMidiMetronomeCountIn', function() {
     expect(r.metronomeBeats).toBe(4)
     expect(r.delayMs).toBeCloseTo(beatDurationMs)
     expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(5 * beatDurationMs)
+  })
+
+  test('count-in beats override for practice warmups', function() {
+    const r = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 4,
+      pickupLength: 0,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBeats: 8,
+    })
+    expect(r.metronomeBeats).toBe(8)
+    expect(r.delayMs).toBeCloseTo(beatDurationMs)
   })
 
   test('one-beat anacrusis in 4/4: seven beats total, no extra delay', function() {

@@ -16,7 +16,7 @@ export default function FileRenderer(props) {
 	return props.file ? <div id={'fileimage-'+props.file.id} >
 		{(props.file && props.file.type === 'text/plain' && props.file.data) && <pre>{props.file.data.slice(0,500)}</pre>}
 							
-			{(props.file && props.file.type.startsWith('image/') && props.file.data) && <div><img src={props.file.data} style={{width:'100%'}} /></div>}
+			{(props.file && props.file.type.startsWith('image/') && props.file.data) && <div><img alt="" src={props.file.data} style={{width:'100%'}} /></div>}
 			
 			{(props.file && props.file.type === 'application/pdf' && props.file.data) && <div><PDFViewer tunebook={props.tunebook}   showPages={99} style={{width:'100%'}} src={props.file.data} />  </div>}
 			

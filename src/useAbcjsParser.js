@@ -457,8 +457,10 @@ export default function useAbcjsParser() {
             lines.forEach(function(line,lineNumber) {
               if (!Array.isArray(result[lineNumber])) result[lineNumber] = []
               var cleanLine = line.trim()
-              if (cleanLine.endsWith("|")) {
-                  cleanLine = cleanLine.slice(0,-1)
+              if (cleanLine.endsWith('||')) {
+                  cleanLine = cleanLine.slice(0, -2)
+              } else if (cleanLine.endsWith('|')) {
+                  cleanLine = cleanLine.slice(0, -1)
               }
               var bars = cleanLine.split("|")
               bars.forEach(function(bar,bk) {
@@ -565,20 +567,28 @@ export default function useAbcjsParser() {
             // chop or slice lines to ensure correct number of lines
             var chordLength = chordLinesNotEmpty.length
             //console.log("LENGS",lineNewLines,chordLength, parsedLength)    
+            function barSymbolForLine(lineIndex, barNumber, barsOnLine) {
+                var isLastBarOnLine = barNumber === barsOnLine - 1;
+                return (isLastBarOnLine && lineNewLines[lineIndex])
+                    ? { type: 'bar_thin_thin', el_type: 'bar' }
+                    : { type: 'bar_thin', el_type: 'bar' };
+            }
+
             if (chordLength > parsedLength) {
                 // create lines
                 for (var i = 0; i < (chordLength - parsedLength); i++) {
                     var restLine = []
-                    var barsToCreate = chordLinesNotEmpty[parsedLength + i].length
+                    var lineIndex = parsedLength + i
+                    var barsToCreate = chordLinesNotEmpty[lineIndex].length
                     for (var k = 0; k < barsToCreate; k++) {
-                        var restChord = chordLinesNotEmpty[parsedLength + i][k]
+                        var restChord = chordLinesNotEmpty[lineIndex][k]
                         for (var j = 0; j< barSize; j++) {
                             var r = {rest: {type:'rest'}, el_type:'note', duration: noteLength}
                             if (restChord && Array.isArray(restChord[j])) r.chord = restChord[j].map(function(c) {return {name: c}})
                             //console.log("RRRR",restChord,r)
                             restLine.push(r)
                         }
-                        restLine.push(lineNewLines[parsedLength + i] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
+                        restLine.push(barSymbolForLine(lineIndex, k, barsToCreate))
                     }
                     
                     //var totalBars = 0
@@ -637,7 +647,9 @@ export default function useAbcjsParser() {
                             if (restChord[j]) r.chord = restChord[j].map(function(c) {return {name: c}})
                             abc[0].lines[lineNumber].staff[0].voices[0].push(r)
                         }
-                        abc[0].lines[lineNumber].staff[0].voices[0].push(lineNewLines[lineNumber] ? {type:'bar_thin_thin', el_type:'bar'} : {type:'bar_thin', el_type:'bar'})
+                        abc[0].lines[lineNumber].staff[0].voices[0].push(
+                            barSymbolForLine(lineNumber, barCount + k, barsInChordText)
+                        )
                     }
                     //var totalBars = 0
                     //var totalRests = 0

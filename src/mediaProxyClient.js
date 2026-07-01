@@ -1,6 +1,8 @@
 import {
   getMediaProxyBaseCandidates as buildMediaProxyBaseCandidates,
 } from './mediaProxyConfig';
+import { trackResolverRequest } from './analytics';
+import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
 
 let activeProxyBase = null;
 
@@ -44,9 +46,19 @@ export function clearActiveMediaProxyBase() {
   activeProxyBase = null;
 }
 
+export function normalizeAccessToken(accessToken) {
+  if (!accessToken) return '';
+  if (typeof accessToken === 'string') return accessToken;
+  if (typeof accessToken === 'object' && typeof accessToken.access_token === 'string') {
+    return accessToken.access_token;
+  }
+  return '';
+}
+
 function buildAuthHeaders(accessToken) {
-  if (!accessToken) return {};
-  return { Authorization: 'Bearer ' + accessToken };
+  const token = normalizeAccessToken(accessToken);
+  if (!token) return {};
+  return { Authorization: 'Bearer ' + token };
 }
 
 function isMixedContentBlocked(base) {
@@ -60,9 +72,25 @@ function detectMixedContent(bases) {
   return baseList.some(isMixedContentBlocked);
 }
 
+function notifyResolverUnreachable() {
+  // Resolver health is cached and not re-checked on every request, so it can
+  // report "available" while the resolver is actually down. When a proxied
+  // request fails to reach any base, ask listeners (the health store) to
+  // re-probe so the UI stops claiming the resolver is available.
+  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+    try {
+      window.dispatchEvent(new Event('mediaProxyUnreachable'));
+    } catch (e) {
+      // Older environments without the Event constructor: ignore.
+    }
+  }
+}
+
 function wrapFetchError(error, bases) {
   const baseList = Array.isArray(bases) ? bases : [bases];
   if (error && error.name === 'TypeError' && String(error.message).indexOf('fetch') >= 0) {
+    activeProxyBase = null;
+    notifyResolverUnreachable();
     if (detectMixedContent(baseList)) {
       throw new Error(
         'Could not reach the media resolver because this page is served over HTTPS '
@@ -77,6 +105,24 @@ function wrapFetchError(error, bases) {
     );
   }
   throw error;
+}
+
+function resolverEndpointForPath(pathAndQuery) {
+  if (!pathAndQuery) return '';
+  if (pathAndQuery.indexOf('/proxy-audio') === 0) return 'proxy-audio';
+  if (pathAndQuery.indexOf('/youtube/') === 0) return 'youtube-audio';
+  if (pathAndQuery.indexOf('/detect-chords') === 0) return 'detect-chords';
+  if (pathAndQuery.indexOf('/detect-playback-region') === 0) return 'detect-playback-region';
+  if (pathAndQuery.indexOf('/analyze-media') === 0) return 'analyze-media';
+  if (pathAndQuery.indexOf('/search-lyrics') === 0) return 'search-lyrics';
+  if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
+  if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
+  if (pathAndQuery.indexOf('/research-tune-background') === 0) return 'research-tune-background';
+  if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
+  if (pathAndQuery.indexOf('/midi2xml') === 0) return 'midi2xml';
+  if (/^\/stems\/[^/]+\/status/.test(pathAndQuery)) return 'stem-status';
+  if (pathAndQuery.indexOf('/stems/') === 0) return 'stem-audio';
+  return '';
 }
 
 function unreachableHealthResult(base) {
@@ -166,6 +212,7 @@ async function tryHealthAtBase(base, accessToken) {
       mixedContent: false,
       demucsModel: typeof body.demucsModel === 'string' ? body.demucsModel : 'htdemucs',
       demucsStems: Array.isArray(body.demucsStems) ? body.demucsStems : null,
+      features: parseResolverFeaturesFromHealthBody(body),
     };
   } catch (e) {
     return {
@@ -217,9 +264,11 @@ export async function probeMediaResolverCandidates(accessToken) {
   }));
 
   let activeBase = null;
+  let activeCandidate = null;
   for (let i = 0; i < candidates.length; i++) {
     if (candidates[i].reachable && candidates[i].available) {
       activeBase = candidates[i].base;
+      activeCandidate = candidates[i];
       break;
     }
   }
@@ -229,6 +278,19 @@ export async function probeMediaResolverCandidates(accessToken) {
     available: !!activeBase,
     activeBase: activeBase,
     candidates: candidates,
+    // Surface the active resolver's Demucs model/stems so the UI can show the
+    // correct stem sliders (eg. guitar/piano for htdemucs_6s). Without this the
+    // aggregate status dropped these fields and getDemucsModel() always fell
+    // back to the 4-stem 'htdemucs'.
+    demucsModel: activeCandidate && activeCandidate.demucsModel
+      ? activeCandidate.demucsModel
+      : 'htdemucs',
+    demucsStems: activeCandidate && activeCandidate.demucsStems
+      ? activeCandidate.demucsStems
+      : null,
+    features: activeCandidate && activeCandidate.features
+      ? activeCandidate.features
+      : null,
   };
 }
 
@@ -262,6 +324,7 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
       });
       if (response.ok) {
         activeProxyBase = proxyBase;
+        trackResolverRequest(resolverEndpointForPath(pathAndQuery));
         return response;
       }
       let detail = '';
@@ -356,4 +419,24 @@ export function describeResolverAuthReason(authReason) {
   if (authReason === 'email_not_authorized') return 'Google account not authorized';
   if (authReason === 'invalid_token') return 'Login expired or invalid';
   return '';
+}
+
+export function isMediaResolverInfrastructureError(error) {
+  const message = error && error.message ? String(error.message) : '';
+  if (!message) return false;
+  if (message.indexOf('Could not reach any media resolver') >= 0) return true;
+  if (message.indexOf('Could not reach the media resolver') >= 0) return true;
+  if (message.indexOf('mixed content') >= 0) return true;
+  if (message.indexOf('Media proxy not configured') >= 0) return true;
+  if (message.indexOf('Media proxy error 404') >= 0) return true;
+  if (message.indexOf('Media proxy error 502') >= 0) return true;
+  if (message.indexOf('Media proxy error 503') >= 0) return true;
+  return false;
+}
+
+export function isNotationSearchEmptyError(error) {
+  const message = error && error.message ? String(error.message) : '';
+  if (!message) return false;
+  return message.indexOf('No ABC notation found') >= 0
+    || message.indexOf('No notation found') >= 0;
 }

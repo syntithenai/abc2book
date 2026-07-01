@@ -7,7 +7,7 @@ export default function TransposeModal(props) {
       props.setShow(false);
   }
   const handleShow = () => props.setShow(true);
-  var tune = props.tune 
+  var tune = props.tune || {}
   const [destKey, setDestKey] = useState('')
   
   //useEffect(function() {

@@ -1,5 +1,6 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
+import { isMobile } from 'react-device-detect';
 import {Link, useNavigate} from 'react-router-dom'
 import {Button , Modal} from 'react-bootstrap'
 import ReactNoSleep from '../ReactNoSleep';
@@ -13,10 +14,13 @@ import RepeatsEditorModal from './RepeatsEditorModal'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
-        //console.log("ABC END")
+        if (props.onEnded) {
+            props.onEnded(e)
+            return
+        }
         props.tunebook.navigateToNextSong(null,navigate)
     } }))
-    var {metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying} = abcSynth
+    var {metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, getPlaybackGeneration, isPlaybackGenerationCurrent} = abcSynth
     
         //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
     
@@ -59,16 +63,10 @@ export default function Abc(props) {
         } else {
             return updateOnChange()
         }
-    }, [props.abc])
+    // updateOnChange calls renderTune (defined below); abc/staffwidth are the intentional triggers
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [props.abc, props.staffwidth, props.mediaController])
    
-    useEffect(() => {
-        //if (props.mediaController && props.mediaController.checkAudioContext()) {
-            return updateOnChange()
-        //} else {
-            //stopPlaying()
-        //}
-    }, [])
-    
    
 
     // autostart
@@ -88,7 +86,7 @@ export default function Abc(props) {
     useEffect(() => {
       //console.log('set AS,',props.autoScroll)
       autoScroll.current = props.autoScroll
-    }, [props.autoScroll])
+    }, [props.autoScroll, autoScroll])
 
   
   function renderTune(abcTune) {
@@ -104,11 +102,14 @@ export default function Abc(props) {
           selectTypes: ['note','tempo','clef','keySignature']
         }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
-        if (tune.transpose > 0 || tune.transpose < 0 ) {
+        if (tune && (tune.transpose > 0 || tune.transpose < 0)) {
           renderOptions.visualTranspose= tune.transpose
         }
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
+        }
+        if (props.staffwidth && props.staffwidth > 0) {
+          renderOptions.staffwidth = props.staffwidth
         }
         if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
           renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
@@ -123,13 +124,21 @@ export default function Abc(props) {
         //console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
             setStarted(true)
+            const tuneObj = tune || {}
             const onMidiRoute = !props.mediaController
                 || (props.mediaController.isMidiPlaybackRoute && props.mediaController.isMidiPlaybackRoute())
-            if (props.autoPrime && onMidiRoute) {
-                var primeHash = tune.transpose + '-' + props.meter + '-' + tune.tempo + '-' + abcTools.getTuneHash(tune)
+            const practiceAutoPlay = !props.mediaController && (props.autoStart || props.practiceAutoPlay)
+            const wantsBackgroundPrime = props.autoStart
+                || practiceAutoPlay
+                || (props.mediaController && props.mediaController.hasPlayingIntent
+                    && props.mediaController.hasPlayingIntent())
+            if (props.autoPrime && onMidiRoute && wantsBackgroundPrime) {
+                var primeHash = (tuneObj.transpose || 0) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {
                     setAudioChangedHash(primeHash)
-                    createPlayer(tune, o).then(function(p) {
+                    const autoPrimeGeneration = getPlaybackGeneration()
+                    createPlayer(tune, o, { showUiLoading: false }).then(function(p) {
+                        if (!isPlaybackGenerationCurrent(autoPrimeGeneration)) return
                         var [audioContext, midiBuffer, timingCallbacks, cursor] = p
                         if (!midiBuffer) {
                             console.log('autoPrime failed: soundfont or synth prime returned null', getSoundFontUrl())
@@ -144,8 +153,11 @@ export default function Abc(props) {
                         if (props.mediaController && props.mediaController.hasPlayingIntent && props.mediaController.hasPlayingIntent()
                             && props.mediaController.isMidiPlaybackRoute && props.mediaController.isMidiPlaybackRoute()) {
                             startPlaying(true)
+                        } else if (practiceAutoPlay) {
+                            startPlaying(true)
                         }
                     }).catch(function(e) {
+                        if (e === 'cancelled' || !isPlaybackGenerationCurrent(autoPrimeGeneration)) return
                         console.log('autoPrime REJECT CREATE PLAYER', e, getSoundFontUrl())
                         setReady(false)
                         setStarted(false)
@@ -207,31 +219,35 @@ export default function Abc(props) {
   }
 
   return (
-      <>
-       <TempoControl showTempo={showTempo} setShowTempo={setShowTempo} value={tune.tempo} onChange={function(e) {
-          var tune = props.tunebook.abcTools.abc2json(props.abc)
-          if (tune) {
-            tune.tempo = e
-            props.tunebook.saveTune(tune)
+      <div className={isMobile ? 'abcjs-large' : ''}>
+       {!props.hidePlayer && !props.practiceAutoPlay ? (
+         <TempoControl showTempo={showTempo} setShowTempo={setShowTempo} value={tune && tune.tempo != null ? tune.tempo : 100} onChange={function(e) {
+          var parsedTune = props.tunebook.abcTools.abc2json(props.abc)
+          if (parsedTune && parsedTune.id) {
+            parsedTune.tempo = e
+            props.tunebook.saveTune(parsedTune)
             updateOnChange()
             if (props.forceRefresh) props.forceRefresh()
           }
         }} />
+       ) : null}
        <ReactNoSleep>
             {({ isOn, enable, disable }) => (
               <span >
-                 <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} forceRefresh={props.forceRefresh} />
+                 {!props.hidePlayer && !props.practiceAutoPlay && tune ? (
+                   <TransposeModal show={showTranspose} setShow={setShowTranspose} tune={tune} saveTune={props.tunebook.saveTune} forceRefresh={props.forceRefresh} />
+                 ) : null}
                
-                {props.showRepeats && <span style={{float:'right'}} >  
+                {props.showRepeats && !props.practiceAutoPlay && tune ? <span style={{float:'right'}} >  
                     <RepeatsEditorModal tunebook={props.tunebook} value={tune.repeats} onChange={function(value) {tune.repeats = value; props.tunebook.saveTune(tune)}} playCount={playCount} />
-                </span>}
-                {props.link && <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link>}
+                </span> : null}
+                {props.link && tune && tune.id ? <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link> : null}
                 {(!props.link && !props.hideSvg) && <div id="abc_music_viewer" ref={inputEl} ></div>}
               </span>
             )}
         </ReactNoSleep>
         {renderTapToPlayModal()}
-      </>
+      </div>
       );
 
 }

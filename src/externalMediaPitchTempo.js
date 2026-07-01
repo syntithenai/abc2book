@@ -185,6 +185,13 @@ export default class ExternalMediaPitchTempo {
     return !!this._stemBuffers;
   }
 
+  getStemBufferNames() {
+    if (!this._stemBuffers || typeof this._stemBuffers !== 'object') {
+      return [];
+    }
+    return Object.keys(this._stemBuffers);
+  }
+
   setStemBuffers(separation, stemBuffers) {
     this._stemSeparation = separation || null;
     this._stemBuffers = stemBuffers || null;

@@ -22,6 +22,18 @@ QUALITY_ALIASES = {
 }
 
 
+def format_key_signature_short(key_text):
+    text = str(key_text or "").strip()
+    if not text:
+        return ""
+    key_info = _parse_key_signature(text)
+    if not key_info:
+        return text
+    if key_info["mode"] == "minor":
+        return key_info["root"] + "m"
+    return key_info["root"]
+
+
 def _parse_key_signature(key_text):
     text = str(key_text or "").strip()
     if not text:

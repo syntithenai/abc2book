@@ -1,26 +1,78 @@
 import jwt_decode from "jwt-decode";
 import axios from 'axios'
 import {useState, useRef, useEffect} from 'react'
+import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
+
+var gsiInitialized = false
+var gsiRenderedButtonIds = {}
+var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
+
+function readStoredLoginProfile() {
+  try {
+    var raw = localStorage.getItem(GOOGLE_LOGIN_PROFILE_KEY)
+    if (!raw) return null
+    var profile = JSON.parse(raw)
+    return profile && profile.email ? profile : null
+  } catch (e) {
+    return null
+  }
+}
+
+function storeLoginProfile(profile) {
+  if (!profile || !profile.email) return
+  localStorage.setItem(GOOGLE_LOGIN_PROFILE_KEY, JSON.stringify({
+    email: profile.email,
+    family_name: profile.family_name || '',
+    given_name: profile.given_name || '',
+    name: profile.name || profile.email,
+    picture: profile.picture || '',
+  }))
+}
 
 export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     var client = useRef(null)
     //var user = useRef(null)
     //var accessToken = useRef(null)
-    const [user,setUser] = useState(null)
+    const [user,setUser] = useState(function() {
+      return localStorage.getItem('google_login_user') ? readStoredLoginProfile() : null
+    })
     const [accessToken,setAccessToken] = useState(null)
     var clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID 
     var loginRefreshTimeout = null
+    var grantedExtraScopesRef = useRef([])
+    var credentialHandlerRef = useRef(null)
      
+
+    function mergeScopes(extraScopes) {
+      var userInfoScopes = ['email']
+      var useScopes = Array.isArray(scopes) ? scopes.slice() : userInfoScopes.slice()
+      grantedExtraScopesRef.current.forEach(function(scope) {
+        if (useScopes.indexOf(scope) === -1) useScopes.push(scope)
+      })
+      if (Array.isArray(extraScopes)) {
+        extraScopes.forEach(function(extraScope) {
+          if (useScopes.indexOf(extraScope) === -1) useScopes.push(extraScope)
+        })
+      }
+      return useScopes
+    }
+
+    function rememberExtraScopes(extraScopes) {
+      if (!Array.isArray(extraScopes)) return
+      extraScopes.forEach(function(extraScope) {
+        if (grantedExtraScopesRef.current.indexOf(extraScope) === -1) {
+          grantedExtraScopesRef.current.push(extraScope)
+        }
+      })
+    }
 
     function initClient(extraScopes) {
       //console.log("initclient")
-      var userInfoScopes = ['email'] //, 'profile', 'https://www.googleapis.com/auth/userinfo.profile', 'openid', 'https://www.googleapis.com/auth/userinfo.email']
-      var useScopes = Array.isArray(scopes) ? scopes :  userInfoScopes
-      if (Array.isArray(extraScopes)) {
-        extraScopes.forEach(function(extraScope) {
-          useScopes.push(extraScope)
-        })
+      if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
+        // GSI client script not loaded yet; skip until it is available.
+        return
       }
+      var useScopes = mergeScopes(extraScopes)
       client.current = global.window.google.accounts.oauth2.initTokenClient({
         client_id: clientId,
         prompt: '',
@@ -38,7 +90,47 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
           }
         },
       });
-    } 
+    }
+
+    function ensureGoogleIdentityScopes(options) {
+      return requestGoogleScopes(GOOGLE_IDENTITY_SCOPES, options)
+    }
+
+    function requestGoogleScopes(extraScopes, options) {
+      var prompt = (options && options.forceConsent) ? 'consent' : ''
+      return new Promise(function(resolve, reject) {
+        if (!localStorage.getItem('google_login_user')) {
+          reject(new Error('Not logged in'))
+          return
+        }
+        if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
+          reject(new Error('Google sign-in is still loading'))
+          return
+        }
+        rememberExtraScopes(extraScopes)
+        var useScopes = mergeScopes(extraScopes)
+        client.current = global.window.google.accounts.oauth2.initTokenClient({
+          client_id: clientId,
+          scope: useScopes.join(' '),
+          callback: function(tokenResponse) {
+            if (tokenResponse && tokenResponse.error) {
+              reject(new Error(tokenResponse.error_description || tokenResponse.error))
+              return
+            }
+            setAccessToken(tokenResponse)
+            localStorage.setItem('google_login_user','1')
+            if (tokenResponse.expires_in > 0) {
+              clearTimeout(loginRefreshTimeout)
+              loginRefreshTimeout = setTimeout(function() {
+                refresh()
+              }, (tokenResponse.expires_in * 999))
+            }
+            resolve(tokenResponse)
+          },
+        })
+        client.current.requestAccessToken({ prompt: prompt })
+      })
+    }
      
     function getToken() {
       //console.log("gettoken",client.current)
@@ -53,6 +145,7 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
       } catch (e) {}
       setAccessToken(null)
       localStorage.setItem('google_login_user','')
+      localStorage.removeItem(GOOGLE_LOGIN_PROFILE_KEY)
     }
     
     function login() {
@@ -79,12 +172,16 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
       //console.log("handle CREDS")
       var decoded = jwt_decode(response.credential)
       //console.log("CREDS",decoded.email,decoded.family_name, decoded.given_name, decoded.name, decoded.picture, decoded)
-      setUser({email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture})
+      var profile = {email: decoded.email,family_name: decoded.family_name, given_name: decoded.given_name, name: decoded.name, picture: decoded.picture}
+      setUser(profile)
+      storeLoginProfile(profile)
       localStorage.setItem('google_login_user',decoded.email)
        //application/vnd.google-apps.spreadsheet
       initClient()
       getToken()
-    } 
+    }
+
+    credentialHandlerRef.current = handleCredentialResponse
     
     function breakLoginToken() {
 		//console.log('check', 'state', accessToken)
@@ -150,17 +247,35 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
     
     
     useEffect(function() {
-      window.onload = function () {
-        //console.log('window onload',clientId)
-        window.google.accounts.id.initialize({
-          client_id: clientId,
-          callback: handleCredentialResponse
-        });
-        if (loginButtonId) {
-          window.google.accounts.id.renderButton(
-            document.getElementById(loginButtonId),
-            { theme: "outline", size: "large" }  // customization attributes
-          );
+      var cancelled = false
+      var pollTimeout = null
+
+      function initGoogleIdentity() {
+        // The GSI client script is loaded async, so window.google may not be
+        // ready when this runs (or when window.onload fires). Poll until it is.
+        if (cancelled) return
+        if (!(window.google && window.google.accounts && window.google.accounts.id)) {
+          pollTimeout = setTimeout(initGoogleIdentity, 100)
+          return
+        }
+        if (!gsiInitialized) {
+          window.google.accounts.id.initialize({
+            client_id: clientId,
+            callback: function(response) {
+              if (credentialHandlerRef.current) credentialHandlerRef.current(response)
+            }
+          });
+          gsiInitialized = true
+        }
+        if (loginButtonId && !gsiRenderedButtonIds[loginButtonId]) {
+          var buttonEl = document.getElementById(loginButtonId)
+          if (buttonEl) {
+            window.google.accounts.id.renderButton(
+              buttonEl,
+              { theme: "outline", size: "large" }  // customization attributes
+            );
+            gsiRenderedButtonIds[loginButtonId] = true
+          }
         }
         if (usePrompt) {
           // also display the One Tap dialog
@@ -168,17 +283,33 @@ export default function useGoogleLogin({scopes, usePrompt, loginButtonId}) {
         }
         refresh()
       }
+
+      if (document.readyState === 'complete') {
+        initGoogleIdentity()
+      } else {
+        window.addEventListener('load', initGoogleIdentity)
+      }
+
+      return function() {
+        cancelled = true
+        if (pollTimeout) clearTimeout(pollTimeout)
+        window.removeEventListener('load', initGoogleIdentity)
+      }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- initialize Google Identity once on mount
     },[])
     
     useEffect(function() {
-      loadCurrentUser(accessToken).then(function(user) {
-          //console.log("loaded user",user)
-          setUser(user)
-          
+      if (!accessToken) return
+      loadCurrentUser(accessToken).then(function(loadedUser) {
+          // userinfo needs email/profile scopes; keep JWT profile when unavailable.
+          if (loadedUser && loadedUser.email) {
+            setUser(loadedUser)
+            storeLoginProfile(loadedUser)
+          }
       })
     },[accessToken])
     
     
     
-    return {user,token: accessToken, login, logout, refresh, loadUserImage, breakLoginToken}
+    return {user, token: accessToken, login, logout, refresh, requestGoogleScopes, ensureGoogleIdentityScopes, loadUserImage, breakLoginToken}
 }

@@ -65,6 +65,29 @@
   margin-bottom: 0.85rem;
 }
 
+.pitch-tempo-panel .preset-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+}
+
+.pitch-tempo-panel .preset-buttons .btn {
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.5rem;
+}
+
+.pitch-tempo-panel .preset-buttons .preset-reset-btn {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 520px) {
+  .pitch-tempo-panel .preset-buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .pitch-tempo-panel .transpose-section {
   margin-top: 0.5rem;
   padding-top: 0.75rem;

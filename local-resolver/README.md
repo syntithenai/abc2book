@@ -6,14 +6,19 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 
 | Method | Path | Description |
 |--------|------|-------------|
-| GET | `/health` | Health check; reports `requireAuth` and, when auth is enabled, whether the bearer token is authorized |
+| GET | `/health` | Health check; reports `requireAuth`, resolver `features` (`proxy`, `stems`, `whisper`, `llm`), and when auth is enabled whether the bearer token is authorized |
 | GET | `/youtube/:videoId/audio` | Stream YouTube audio |
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
+| POST | `/search-lyrics` | Search lyrics sites by title/artist (or fetch a supported lyrics URL) and return stanza chunks with ad/noise lines stripped. Accept `application/x-ndjson` for streaming progress events. |
+| POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
+| POST | `/search-notation` | Search The Session and the web for ABC notation by title (optional `songType`: `song`, `instrumental`, `traditional_tune`). Accept `application/x-ndjson` for streaming progress events. |
+| POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (LM Studio by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
+| POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
 | POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
 | POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody. Runs shared beat/downbeat timing first (`detect_timing.py`, madmom when available, librosa fallback), then lyrics/chords/melody in parallel. Melody uses CREPE when available with optional Demucs vocal separation; falls back to librosa pyin. Optional `processing` JSON controls separation, noise mode, and quantize settings. Response includes `timing`, `melody.silences`, and `melody.noise`. |
 
-By default no login is required (`REQUIRE_AUTH=false`). The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable.
+By default production compose does not require login (`REQUIRE_AUTH=false` in `.env.example`). **`docker-compose.dev.yml` sets `REQUIRE_AUTH=true`** so auth issues show up during local development. The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable (and authorized when auth is required).
 
 ## Quick start
 
@@ -35,6 +40,21 @@ The resolver container mounts that host directory read-only at `/models` and run
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
+
+Resolver-backed chord search resolves predictable per-song URLs on e-chords
+(primary) and CifraClub (fallback) directly from the title and artist slug, so it
+does not depend on scraping search-engine result pages (which are increasingly
+blocked or CAPTCHA-gated). When `BRAVE_SEARCH_API_KEY` is set, chord search also
+uses Brave's web search API to discover supported e-chords, CifraClub, and
+AZChords pages before falling back to the older Bing RSS AZChords discovery. It
+then fetches the page and normalizes the interleaved chord/lyric sheet for
+import. CifraClub section labels in Portuguese or Spanish are translated to
+English via the same `RESEARCH_LLM_*` settings used for tune background lookup.
+AZChords pages are still parsed when supplied as a direct URL. A title and
+artist are both required to build the slug URLs; when no match is found (or no
+artist is available) the app falls back to the existing external Google search
+link. Other chord hosts may still be blocked by Cloudflare or site-specific
+anti-bot protections.
 
 Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
 
@@ -60,6 +80,23 @@ Local smoke evaluation without the UI:
 ```bash
 python3 local-resolver/eval_transcription.py /path/to/audio.wav
 ```
+
+### Development (live source reload)
+
+To iterate on the Python source without rebuilding the image, use the dev
+override, which bind-mounts the `.py` files into the container and runs uvicorn
+with `--reload`:
+
+```bash
+cd local-resolver
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+```
+
+Editing any mounted source file (e.g. `server.py`, `lyrics_fetch.py`) restarts
+the server automatically. System deps, venvs, the whisper build and models still
+come from the built image; only the source is overlaid from the host. Rebuild
+normally (`docker compose up --build`) when you change `requirements*.txt` or the
+`Dockerfile`.
 
 ### GPU resolver (optional)
 
@@ -197,9 +234,11 @@ Set in `local-resolver/.env`:
 
 | Variable | Description |
 |----------|-------------|
-| `REQUIRE_AUTH` | Set `true` to require Google login (default `false`) |
+| `REQUIRE_AUTH` | Set `true` to require Google login (default `false` in `.env.example`; enabled in `docker-compose.dev.yml`) |
 | `GOOGLE_CLIENT_ID` | Required when `REQUIRE_AUTH=true` |
 | `ALLOWED_EMAILS` | Comma-separated allowlist when auth is enabled |
+| `GOATCOUNTER_API_URL` | Optional GoatCounter count API URL for resolver endpoint analytics (paths are prefixed with resolver-server/) |
+| `GOATCOUNTER_API_TOKEN` | Optional GoatCounter API token; keep server-side only |
 | `ALLOWED_ORIGINS` | CORS origins for the tunebook app |
 | `YTDLP_COOKIES_PATH` | Set automatically in docker-compose |
 | `MAX_STREAM_BYTES` | Max single-file size (default 80 MB) |

@@ -1,31 +1,32 @@
 import {Button, Modal} from 'react-bootstrap'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useCallback} from 'react'
 import { toast } from 'react-toastify'
 
 export default function YourFilters(props) {
+    const { onFiltersChange } = props
     const [filters, setFilters] = useState({})
     const [showDeleteModal, setShowDeleteModal] = useState(false)
     const [deleteName, setDeleteName] = useState(null)
 
-    useEffect(function() {
-        loadFilters()
-    },[])
-
-    function loadFilters() {
+    const loadFilters = useCallback(function() {
         try {
             var saved = window.localStorage.getItem('bookstorage_saved_filters')
             var list = saved ? JSON.parse(saved) : {}
             setFilters(list)
-            if (typeof props.onFiltersChange === 'function') {
-                props.onFiltersChange(list)
+            if (typeof onFiltersChange === 'function') {
+                onFiltersChange(list)
             }
         } catch (e) {
             setFilters({})
-            if (typeof props.onFiltersChange === 'function') {
-                props.onFiltersChange({})
+            if (typeof onFiltersChange === 'function') {
+                onFiltersChange({})
             }
         }
-    }
+    }, [onFiltersChange])
+
+    useEffect(function() {
+        loadFilters()
+    },[loadFilters])
 
     function performDelete(name) {
         try {

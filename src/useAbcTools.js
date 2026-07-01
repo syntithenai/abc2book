@@ -10,6 +10,7 @@ import {
   renderTimedJsonFields,
 } from './abcbookJsonFields'
 import { importMinimalTimedLyrics, importMinimalTimedChords } from './timedExportUtils'
+import { getInterleavedLyricLines, renderBlockLyricsAbc } from './wLinesUtils'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -152,7 +153,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -252,6 +253,9 @@ var useAbcTools = () => {
                     tune.playbackPitch = parseInt(abcbookFieldValue(line, '% abcbook-playback-transpose'), 10) || 0
                 } else  if (line.startsWith('% abcbook-playback-fine-tune')) {
                     tune.playbackFineTune = parseInt(abcbookFieldValue(line, '% abcbook-playback-fine-tune'), 10) || 0
+                } else  if (line.startsWith('% abcbook-lyrics-scroll-speed')) {
+                    var lyricsScrollSpeedVal = parseFloat(abcbookFieldValue(line, '% abcbook-lyrics-scroll-speed'))
+                    tune.lyricsScrollSpeed = lyricsScrollSpeedVal > 0 ? lyricsScrollSpeedVal : 1
                 } else  if (line.startsWith('% abcbook-transpose')) {
                     tune.transpose = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tuning')) {
@@ -446,9 +450,6 @@ var useAbcTools = () => {
         if (tune.timedChords && tune.timedChords.v) {
           tune.timedChords = importMinimalTimedChords(tune.timedChords)
         }
-        if ((!tune.wLines || tune.wLines.length === 0) && Array.isArray(tune.words) && tune.words.length > 0) {
-            tune.wLines = tune.words.slice()
-        }
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
           return tune
@@ -497,7 +498,7 @@ var useAbcTools = () => {
         var voicesAndNotes=[]
         if (tune.voices && Object.keys(tune.voices).length > 0) {
             var wLineIndex = 0
-            var wLines = Array.isArray(tune.wLines) ? tune.wLines : []
+            var wLines = getInterleavedLyricLines(tune)
             Object.keys(tune.voices).forEach(function(voice) {
                 if (Array.isArray(tune.voices[voice].notes)) {
                     voicesAndNotes.push("V:"+voice+" "+ensureText(tune.voices[voice].meta,""))
@@ -589,12 +590,14 @@ var useAbcTools = () => {
                     + aliasText 
                     + ensure(tune.key, "K:"+ensureText(tune.key)+ "\n" )
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
+                    + renderBlockLyricsAbc(tune)
                     + (tune.timingScaffold ? '% abcbook-timing-scaffold true\n' : '')
                     + "% abcbook-tune_id " + ensureText(tune.id) + "\n" 
                     + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
+                    + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
@@ -1631,6 +1634,6 @@ var useAbcTools = () => {
         }).join("\n\n")
     }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, hasChords, getNotes, tunesToLinkList}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, getNotes, tunesToLinkList}
 }
 export default useAbcTools;

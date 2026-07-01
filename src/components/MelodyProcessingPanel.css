@@ -1,0 +1,113 @@
+.melody-processing-panel {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.melody-processing-panel--no-title {
+  margin-top: 0;
+}
+
+.melody-processing-panel > .form-label {
+  margin-bottom: 0.5em;
+}
+
+.melody-processing-music-type {
+  min-width: 10em;
+  max-width: 14em;
+}
+
+.melody-processing-analysis-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75em 1.25em;
+}
+
+.melody-processing-meter-changes .form-check {
+  margin-bottom: 0;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.melody-processing-meter-changes .form-check-input {
+  -ms-transform: none;
+  -moz-transform: none;
+  -webkit-transform: none;
+  -o-transform: none;
+  transform: none;
+  padding: 0;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.melody-processing-meter-changes .form-check-label {
+  line-height: 1.25;
+  padding-top: 0;
+}
+
+.melody-processing-noise-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35rem;
+  max-width: 28em;
+  margin-bottom: 0.75em;
+}
+
+.melody-processing-noise-buttons .btn {
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.melody-processing-settings-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8em;
+  align-items: end;
+}
+
+.melody-processing-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  min-width: 0;
+}
+
+.melody-processing-field .form-label {
+  font-size: 0.85em;
+  margin-bottom: 0;
+}
+
+.melody-processing-field .form-control {
+  width: 100%;
+  min-width: 0;
+}
+
+.melody-processing-field-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.melody-processing-field-row .form-control {
+  flex: 1 1 auto;
+}
+
+.melody-processing-help-btn {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 700px) {
+  .melody-processing-settings-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .melody-processing-noise-buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .melody-processing-noise-buttons .btn:last-child {
+    grid-column: 1 / -1;
+  }
+}

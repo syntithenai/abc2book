@@ -153,6 +153,13 @@ export function shouldConfirmPlayingStarted(snapshot) {
   return true
 }
 
+/** True when an already-mounted player/processor may be used for the active source. */
+export function shouldUseExistingPlayer(loadedSrc, activeSrc, ready) {
+  if (!ready) return false
+  if (!loadedSrc || !activeSrc) return false
+  return loadedSrc === activeSrc
+}
+
 export function shouldHandleNativePause(snapshot, flags, now) {
   if (shouldSuppressSpuriousPause(snapshot, now)) return false
   if (flags && flags.externalMediaActive) return false
@@ -274,6 +281,7 @@ export function computeMidiMetronomeCountIn(input) {
   const beatLength = parseFloat(o.beatLength) || 0
   const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
   const msPerMeasure = parseFloat(o.millisecondsPerMeasure) || 0
+  const countInBeatsOverride = parseInt(o.countInBeats, 10)
 
   if (beatsPerMeasure <= 0 || beatLength <= 0 || msPerMeasure <= 0) {
     return { metronomeBeats: 0, delayMs: 0, beatDurationMs: 0 }
@@ -283,8 +291,11 @@ export function computeMidiMetronomeCountIn(input) {
   const pickupBeats = pickupLength > 0 ? pickupLength / beatLength : 0
 
   if (pickupBeats <= 0) {
+    const metronomeBeats = countInBeatsOverride > 0
+      ? countInBeatsOverride
+      : beatsPerMeasure
     return {
-      metronomeBeats: beatsPerMeasure,
+      metronomeBeats,
       delayMs: beatDurationMs,
       beatDurationMs,
     }
@@ -306,6 +317,29 @@ export function computeMidiMetronomeCountIn(input) {
  * as N measures at the start minus pickup length. Returns 0 when not an integer
  * (e.g. tunes without pickup use a fractional measure count-in).
  */
+export const MIDI_START_FROM_BEGINNING_TOLERANCE_SECONDS = 0.05
+
+/** True when playback should be treated as at the start (not mid-song resume). */
+export function isMidiStartFromBeginning(input) {
+  const o = input || {}
+  const tol = o.toleranceSeconds !== undefined
+    ? o.toleranceSeconds
+    : MIDI_START_FROM_BEGINNING_TOLERANCE_SECONDS
+  const seconds = parseFloat(o.seconds)
+  const ratio = parseFloat(o.ratio)
+  if (!isNaN(seconds) && seconds > tol) return false
+  if (!isNaN(ratio) && ratio > tol) return false
+  return true
+}
+
+/** Count-in applies on fresh starts and rewind-to-start, not mid-song resume. */
+export function shouldUseMidiMetronomeCountIn(input) {
+  const o = input || {}
+  if (!o.metronomeCountIn) return false
+  if (o.forceRestart) return true
+  return isMidiStartFromBeginning(o)
+}
+
 export function computeExtraMeasuresAtBeginning(input) {
   const o = input || {}
   const beatsPerMeasure = parseFloat(o.beatsPerMeasure) || 0

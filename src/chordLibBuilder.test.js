@@ -3,7 +3,10 @@ import {
   fretsStringToDiagram,
   stringsFromInstrument,
   noteFromFret,
-  canonicalChordLetter
+  canonicalChordLetter,
+  tuningLabelsFromDiagram,
+  selectBestDiagram,
+  chordToneMismatchCount
 } from './chordLibUtils'
 import {
   isFretAllowedOnString,
@@ -59,6 +62,7 @@ describe('chordLibUtils', () => {
     expect(stringsFromInstrument('uke')).toBe(4)
     expect(stringsFromInstrument('banjo4')).toBe(4)
     expect(stringsFromInstrument('banjo5')).toBe(5)
+    expect(stringsFromInstrument('bouzouki')).toBe(4)
   })
 
   it('parses banjo5 drone string tuning', () => {
@@ -80,14 +84,42 @@ describe('chordLibUtils', () => {
   it('canonicalizes enharmonic spellings', () => {
     expect(canonicalChordLetter('C#')).toBe('Db')
   })
+
+  it('labels guitar Em from frets not stale slash-chord data', () => {
+    const diagram = {
+      name: 'Em',
+      chord: [
+        [6, '0', ''], [5, '2', ''], [4, '2', ''], [3, '0', ''], [2, '0', ''], [1, '0', '']
+      ]
+    }
+    expect(tuningLabelsFromDiagram(diagram, 'guitar', ['E', 'G', 'B'])).toEqual(
+      ['E', 'B', 'E', 'G', 'B', 'E']
+    )
+  })
+
+  it('prefers plain Dm over Dm/C', () => {
+    const entry = {
+      main: [],
+      secondary: [
+        { name: 'Dm/C', chord: [[6, 'x', ''], [5, '3', ''], [4, '3', ''], [3, '2', ''], [2, '3', ''], [1, 'x', '']] },
+        { name: 'Dm', chord: [[6, 'x', ''], [5, 'x', ''], [4, '0', ''], [3, '2', ''], [2, '3', ''], [1, '1', '']] }
+      ]
+    }
+    const best = selectBestDiagram(entry, 'Dm', {
+      instrument: 'guitar',
+      chordNotes: ['D', 'F', 'A']
+    })
+    expect(best.name).toBe('Dm')
+    expect(chordToneMismatchCount('guitar', entry.secondary[0], ['D', 'F', 'A'])).toBeGreaterThan(0)
+  })
 })
 
 describe('chordlib.json instruments', () => {
   const chordlib = require('./chordlib.json')
 
-  it('includes all five instruments', () => {
+  it('includes all instruments', () => {
     expect(Object.keys(chordlib)).toEqual(
-      expect.arrayContaining(['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5'])
+      expect.arrayContaining(['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5', 'bouzouki'])
     )
   })
 
@@ -101,9 +133,11 @@ describe('chordlib.json instruments', () => {
     expect(frets('mandolin', 'major', 'G')).toBe('0023')
     expect(frets('banjo4', 'major', 'C')).toBe('0023')
     expect(frets('banjo5', 'major', 'G')).toBe('00000')
+    expect(frets('bouzouki', 'major', 'G')).toBe('0020')
+    expect(frets('bouzouki', 'major', 'D')).toBe('2400')
     expect(frets('banjo5', 'major', 'C')).toBe('02012')
     expect(frets('banjo5', 'major', 'A')).toBe('00222')
-    expect(frets('banjo5', 'major', 'F')).toBe('00213')
+    expect(frets('banjo5', 'major', 'F')).toBe('03213')
     const d7 = chordlib.banjo5.dominant7.D.main[0][0]
     expect(d7.chord.map((r) => r[1]).join('')).toBe('00210')
     expect(lowestFrettedPosition(d7.chord.map((r) => parseInt(r[1], 10) || 0))).toBeLessThanOrEqual(2)
@@ -123,6 +157,23 @@ describe('chordlib.json instruments', () => {
     const want = canonicalizeNotes(chordNotes('E', [0, 4, 7]))
     expect(notes).toEqual(expect.arrayContaining(['E']))
     expect([...new Set(notes)].every((note) => want.includes(note))).toBe(true)
+  })
+
+  it('uses plain guitar voicings for Dm and Em', () => {
+    const dm = chordlib.guitar.minor.D.main[0][0]
+    const em = chordlib.guitar.minor.E.main[0][0]
+    expect(dm.name).toBe('Dm')
+    expect(dm.chord.map((r) => r[1]).join('')).toBe('xx0231')
+    expect(dm.tuning.map((n) => n[0])).toEqual(['', '', 'D', 'A', 'D', 'F'])
+    expect(em.name).toBe('Em')
+    expect(em.chord.map((r) => r[1]).join('')).toBe('022000')
+    expect(em.tuning.map((n) => n[0])).toEqual(['E', 'B', 'E', 'G', 'B', 'E'])
+  })
+
+  it('frets banjo5 F major with F on the middle D string', () => {
+    const diagram = chordlib.banjo5.major.F.main[0][0]
+    expect(diagram.chord.map((r) => r[1]).join('')).toBe('03213')
+    expect(diagram.tuning.map((n) => n[0])).toEqual(['G', 'F', 'A', 'C', 'F'])
   })
 
   it('builds banjo5 Bb major from chord tones', () => {

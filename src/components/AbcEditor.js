@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import {useParams} from 'react-router-dom'
+import {useParams, Link} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
 import BookMultiSelectorModal from './BookMultiSelectorModal'
@@ -15,10 +15,14 @@ import useAbcjsParser from '../useAbcjsParser'
 import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
+import LyricsSearchButton from './LyricsSearchButton'
+import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
+import MarkdownContent from './MarkdownContent'
+import { FormLabelWithHelp } from './FormFieldHelp'
+import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 
 
 export default function AbcEditor(props) {
-  const allowedChordSites = "site:https://tabs.ultimate-guitar.com OR site:https://www.azchords.com/ OR site:https://www.chordsbase.com/ OR site:https://www.chords-and-tabs.net/ OR site:https://akordy.kytary.cz/ OR site:https://www.guitaretab.com/"
   const [abcText, setAbcText] = useState(props.abc);
   const [currentVoice, setCurrentVoice] = useState(0);
   let params = useParams();
@@ -44,19 +48,28 @@ export default function AbcEditor(props) {
   const [noteEditorWidth, setNoteEditorWidth] = useState(2)
   var [chordsChanged, setChordsChanged] = useState(false)
   const [wLinesText, setWLinesText] = useState('')
+  const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
+  const [backgroundInfoText, setBackgroundInfoText] = useState('')
+  const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
+  const backgroundInfoSaveTimeout = useRef(null)
   
+  const tuneId = tune && tune.id
   useEffect(function() {
     setWLinesText(lyricLinesToText(tune))
-  }, [props.abc, tune && tune.id])
+    setBackgroundInfoText(tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '')
+    setBackgroundInfoPreview(false)
+  }, [props.abc, tune, tuneId])
   
   useEffect(function() {
     return function() {
       if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
+      if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
     }
   }, [])
   const [artistOptions, setArtistOptions] = useState([])
   var artistLoadTimeout = useRef()
+  const tuneComposer = tune && tune.composer ? tune.composer : null
   useEffect(function() {
       //console.log("COMPOSER CHANGE", tune)
       if (tune && tune.composer) {
@@ -69,7 +82,7 @@ export default function AbcEditor(props) {
               })
           },500)
       }
-  },[(tune && tune.composer ? tune.composer : null)])
+  }, [tune, tuneComposer, musicBrainz])
    
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
@@ -98,14 +111,8 @@ export default function AbcEditor(props) {
     setWarnings(warnings)
   }
 
-  function saveTune(tune) {
-    //console.log('savetune abceditor',tune)
-     try {
-      props.pushHistory(tune)
-     } catch (e) {
-       console.log(e)
-     }
-     return props.tunebook.saveTune(tune)
+  function saveTune(tune, options) {
+     return props.tunebook.saveTune(tune, false, options)
   }
 
 
@@ -202,7 +209,7 @@ export default function AbcEditor(props) {
     return (
         <div style={{minHeight: '40em'}} > 
           <div style={{display: 'none'}}  id="audio">Player</div>
-          <Tabs defaultActiveKey="musiceditor" id="uncontrolled-tab-example" className="mb-3">
+          <Tabs defaultActiveKey="musiceditor" id="abc-editor-tabs" className="mb-3">
                   <Tab eventKey="musiceditor" title="Music">
                       <Row style={{width:'100%'}}>
                         <Col xs={12} md={6}>
@@ -213,7 +220,7 @@ export default function AbcEditor(props) {
                           {tune && tune.voices ? <Tabs id="voices-tabs" className="mb-3" activeKey={currentVoice}
                           onSelect={(k) => setCurrentVoice(k)}>
                               {Object.keys(tune.voices).map(function(voice,vk) {
-                                return <Tab  key={vk}  eventKey={vk}  title={voice} ><textarea onFocus={function() {setNoteEditorWidth('8')}} onBlur={function() {setNoteEditorWidth('2')}}  ref={refs['textareaRef_'+vk]} value={Array.isArray(tune.voices[voice].notes) ? tune.voices[voice].notes.join("\n") : ''} style={{resize:'both', fontSize:(props.isMobile?'0.8em':'1em'), minHeight: '25em', zIndex: '9999', backgroundColor: 'white', width:'100%'}} onChange={function(e) {tuneNotesChanged(voice, e.target.value)}}   /></Tab>
+                                return <Tab  key={vk}  eventKey={vk}  title={voice} ><textarea onFocus={function() {setNoteEditorWidth('8')}} onBlur={function() {setNoteEditorWidth('2')}}  ref={refs['textareaRef_'+vk]} value={Array.isArray(tune.voices[voice].notes) ? tune.voices[voice].notes.join("\n") : ''} style={{resize:'both', fontSize:'1em', minHeight: '25em', zIndex: '9999', backgroundColor: 'white', width:'100%'}} onChange={function(e) {tuneNotesChanged(voice, e.target.value)}}   /></Tab>
                               })}
                           </Tabs> : ''}
                         </Col>
@@ -226,148 +233,240 @@ export default function AbcEditor(props) {
                   </Tab>
                   
                   <Tab eventKey="info" title="Info">
-                    <Form>
-                      <Form.Group className="mb-3" controlId="title">
-                        <Form.Label>Title</Form.Label>
-                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="composer">
-                        <Form.Label>Artist</Form.Label>
-                      <SelectInput 
-                        onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune)  }} 
-                        value={tune && tune.composer ? tune.composer : ''}  
-                        options={artistOptions} 
-                      />  
-                     
-                      
-                      </Form.Group>
+                    <Form className="abc-editor-info-form">
+                      <div className="abc-editor-info-section">
+                      <Row>
+                        <Col xs={12} md={6}>
+                          <Form.Group className="mb-3" controlId="title">
+                            <Form.Label>Title</Form.Label>
+                            <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
+                          </Form.Group>
+                        </Col>
+                        <Col xs={12} md={6}>
+                          <Form.Group className="mb-3" controlId="composer">
+                            <Form.Label>Artist</Form.Label>
+                            <SelectInput 
+                              onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune)  }} 
+                              value={tune && tune.composer ? tune.composer : ''}  
+                              options={artistOptions} 
+                            />  
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      </div>
 
-                      <Form.Group className="mb-3" controlId="key">
-                        <Form.Label>Key</Form.Label>
-                        <Form.Control type="text" value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="key">
-                        <Form.Label>Tuning</Form.Label>
-                        
-                        <Form.Control type="text" value={tune.tuning ? tune.tuning : ''} onChange={function(e) {tune.tuning = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="transpose">
-                        <Form.Label>Transpose</Form.Label>
-                        <Form.Control   value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
-                      </Form.Group>
+                      <div className="abc-editor-info-section abc-editor-info-section-primary">
+                      <Row className="abc-editor-info-primary-row">
+                        <Col className="abc-editor-info-field-primary" xs={12} md={5}>
+                          <Form.Group className="mb-3" controlId="key">
+                            <Form.Label>Key</Form.Label>
+                            <Form.Control type="text" value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary" xs={4} md={2}>
+                          <Form.Group className="mb-3" controlId="tuning">
+                            <FormLabelWithHelp label="Tuning" htmlFor="tuning" helpBody={EDITOR_INFO_FIELD_HELP.tuning.body} helpTitle={EDITOR_INFO_FIELD_HELP.tuning.title} />
+                            <Form.Control type="text" value={tune.tuning ? tune.tuning : ''} onChange={function(e) {tune.tuning = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                            {params.tuneId ? (
+                              <Link to={'/tuner?tuneId=' + encodeURIComponent(params.tuneId)} className="small">Open tuner</Link>
+                            ) : null}
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary" xs={4} md={3}>
+                          <Form.Group className="mb-3" controlId="transpose">
+                            <FormLabelWithHelp label="Transpose" htmlFor="transpose" helpBody={EDITOR_INFO_FIELD_HELP.transpose.body} helpTitle={EDITOR_INFO_FIELD_HELP.transpose.title} />
+                            <Form.Control   value={tune.transpose ? tune.transpose : ''} onChange={function(e) {tune.transpose = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
+                          <Form.Group className="mb-3" controlId="capo">
+                            <FormLabelWithHelp label="Capo" htmlFor="capo" helpBody={EDITOR_INFO_FIELD_HELP.capo.body} helpTitle={EDITOR_INFO_FIELD_HELP.capo.title} />
+                            <Form.Control type="number" min="0" max="12" value={tune.capo !== undefined && tune.capo !== null ? tune.capo : ''} onChange={function(e) {
+                              var value = e.target.value === '' ? 0 : parseInt(e.target.value, 10)
+                              tune.capo = Number.isFinite(value) ? value : 0
+                              tune.id = params.tuneId
+                              saveTune(tune)
+                            }} />
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      </div>
 
-                      <Form.Group className="mb-3" controlId="capo">
-                        <Form.Label>Capo</Form.Label>
-                        <Form.Control type="number" min="0" max="12" value={tune.capo !== undefined && tune.capo !== null ? tune.capo : ''} onChange={function(e) {
-                          var value = e.target.value === '' ? 0 : parseInt(e.target.value, 10)
-                          tune.capo = Number.isFinite(value) ? value : 0
-                          tune.id = params.tuneId
-                          saveTune(tune)
-                        }} />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="rhythm">
-                        <Form.Label>Rhythm</Form.Label>
-                      
-                        <CreatableSelect
-                            value={tune.rhythm ? {value:tune.rhythm, label:tune.rhythm} : {value:'', label:''}}
-                            onChange={function(val) {tune.rhythm = val.label; if(props.tunebook.abcTools.timeSignatureFromTuneType(val.label)) {tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(val.label)};   tune.id = params.tuneId; saveTune(tune)  }}
-                            options={Object.keys(props.tunebook.abcTools.getRhythmTypes()).map(function(type,key) {
-                                return {value:type, label: type}
-                            })}
-                            isClearable={false}
-                            blurInputOnSelect={true}
-                            createOptionPosition={"first"}
-                            allowCreateWhileLoading={true}
-                            
+                      <div className="abc-editor-info-section abc-editor-info-section-primary">
+                      <Row className="abc-editor-info-primary-row">
+                        <Col className="abc-editor-info-field-primary" xs={12} md={5}>
+                          <Form.Group className="mb-3" controlId="meter">
+                            <Form.Label>Time Signature</Form.Label>
+                            <CreatableSelect
+                                value={tune.meter ? {value:tune.meter, label:tune.meter} : {value:'', label:''}}
+                                onChange={function(val) {tune.meter = val.label; tune.id = params.tuneId; saveTune(tune)  }}
+                                options={props.tunebook.abcTools.getTimeSignatureTypes().map(function(type,key) {
+                                    return {value:type, label: type}
+                                })}
+                                isClearable={false}
+                                blurInputOnSelect={true}
+                                createOptionPosition={"first"}
+                                allowCreateWhileLoading={true}
+                              />
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary" xs={4} md={3}>
+                          <Form.Group className="mb-3" controlId="rhythm">
+                            <FormLabelWithHelp label="Rhythm" helpBody={EDITOR_INFO_FIELD_HELP.rhythm.body} helpTitle={EDITOR_INFO_FIELD_HELP.rhythm.title} />
+                            <CreatableSelect
+                                value={tune.rhythm ? {value:tune.rhythm, label:tune.rhythm} : {value:'', label:''}}
+                                onChange={function(val) {tune.rhythm = val.label; if(props.tunebook.abcTools.timeSignatureFromTuneType(val.label)) {tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(val.label)};   tune.id = params.tuneId; saveTune(tune)  }}
+                                options={Object.keys(props.tunebook.abcTools.getRhythmTypes()).map(function(type,key) {
+                                    return {value:type, label: type}
+                                })}
+                                isClearable={false}
+                                blurInputOnSelect={true}
+                                createOptionPosition={"first"}
+                                allowCreateWhileLoading={true}
+                              />
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
+                          <Form.Group className="mb-3" controlId="tempo">
+                            <Form.Label>Tempo</Form.Label>
+                            <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
+                        </Col>
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
+                          <Form.Group className="mb-3" controlId="repeats">
+                            <FormLabelWithHelp label="Repeats" htmlFor="repeats" helpBody={EDITOR_INFO_FIELD_HELP.repeats.body} helpTitle={EDITOR_INFO_FIELD_HELP.repeats.title} />
+                            <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      </div>
+
+                      <div className="abc-editor-info-section abc-editor-info-section-details">
+                      <Row className="abc-editor-info-compact-row g-2 align-items-end">
+                        <Col xs="auto" className="abc-editor-info-compact-field">
+                          <Form.Group className="mb-3" controlId="boost">
+                            <FormLabelWithHelp label="Boost" htmlFor="boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
+                            <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
+                        </Col>
+                        <Col xs="auto" className="abc-editor-info-compact-field">
+                          <Form.Group className="mb-3" controlId="difficulty">
+                            <FormLabelWithHelp label="Difficulty" htmlFor="difficulty" helpBody={EDITOR_INFO_FIELD_HELP.difficulty.body} helpTitle={EDITOR_INFO_FIELD_HELP.difficulty.title} />
+                            <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
+                        </Col>
+                        <Col xs="auto" className="abc-editor-info-compact-field">
+                          <Form.Group className="mb-3" controlId="noteLength">
+                            <FormLabelWithHelp label="ABC Note Length" helpBody={EDITOR_INFO_FIELD_HELP.noteLength.body} helpTitle={EDITOR_INFO_FIELD_HELP.noteLength.title} />
+                            <Form.Select value={tune.noteLength ? tune.noteLength : ''} onChange={function(e) { tune.noteLength = e.target.value; tune.id = params.tuneId; saveTune(tune)  }} >
+                              <option value=""></option>
+                              <option value="1">1</option>
+                              <option value="1/2">1/2</option>
+                              <option value="1/3">1/3</option>
+                              <option value="1/4">1/4</option>
+                              <option value="1/6">1/6</option>
+                              <option value="1/8">1/8</option>
+                              <option value="1/12">1/12</option>
+                              <option value="1/16">1/16</option>
+                             </Form.Select> 
+                          </Form.Group>
+                        </Col>
+                        <Col xs="auto" className="abc-editor-info-compact-field">
+                          <Form.Group className="mb-3" controlId="tab">
+                            <FormLabelWithHelp label="Tablature" helpBody={EDITOR_INFO_FIELD_HELP.tablature.body} helpTitle={EDITOR_INFO_FIELD_HELP.tablature.title} />
+                            <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                              <option value=""></option>
+                              <option value="guitar" >Guitar</option>
+                              <option value="violin">Violin</option>
+                              </Form.Select> 
+                          </Form.Group>
+                        </Col>
+                        <Col xs={12} md={5} className="abc-editor-info-compact-field-wide">
+                          <Form.Group className="mb-3" controlId="fonts">
+                            <FormLabelWithHelp label="Sounds Fonts" helpBody={EDITOR_INFO_FIELD_HELP.soundFonts.body} helpTitle={EDITOR_INFO_FIELD_HELP.soundFonts.title} />
+                            <Form.Select value={tune.soundFonts ? tune.soundFonts.trim() : ''} onChange={function(e) { tune.soundFonts = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                              <option value="" >Local Sound Fonts Only (piano)</option>
+                              <option value="online">Requires Online Sound Fonts</option>
+                              </Form.Select> 
+                          </Form.Group>
+                        </Col>
+                        <Col xs={12} md className="abc-editor-info-compact-field-grow">
+                          <Form.Group className="mb-3" controlId="srcUrl">
+                            <FormLabelWithHelp label="Source URL" htmlFor="srcUrl" helpBody={EDITOR_INFO_FIELD_HELP.srcUrl.body} helpTitle={EDITOR_INFO_FIELD_HELP.srcUrl.title} />
+                            <Form.Control   value={tune.srcUrl ? tune.srcUrl : ''} onChange={function(e) {tune.srcUrl = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      <Form.Group className="mb-3 abc-editor-info-background-group" controlId="backgroundInfo">
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                          <FormLabelWithHelp
+                            label="Background information (Markdown)"
+                            helpBody={EDITOR_INFO_FIELD_HELP.backgroundInfo.body}
+                            helpTitle={EDITOR_INFO_FIELD_HELP.backgroundInfo.title}
                           />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="meter">
-                        <Form.Label>Time Signature</Form.Label>
-                        <CreatableSelect
-                            value={tune.meter ? {value:tune.meter, label:tune.meter} : {value:'', label:''}}
-                            onChange={function(val) {tune.meter = val.label; tune.id = params.tuneId; saveTune(tune)  }}
-                            options={props.tunebook.abcTools.getTimeSignatureTypes().map(function(type,key) {
-                                return {value:type, label: type}
-                            })}
-                            isClearable={false}
-                            blurInputOnSelect={true}
-                            createOptionPosition={"first"}
-                            allowCreateWhileLoading={true}
-                            
+                          <Button
+                            variant="outline-secondary"
+                            size="sm"
+                            disabled={!backgroundInfoText}
+                            onClick={function() { setBackgroundInfoPreview(!backgroundInfoPreview) }}
+                          >
+                            {backgroundInfoPreview ? 'Edit' : 'Preview'}
+                          </Button>
+                        </div>
+                        <div style={{ margin: '0.5em 0' }}>
+                          <TuneBackgroundSearchButton
+                            title={tune.name}
+                            artist={tune.composer || ''}
+                            lyrics={wLinesText}
+                            token={props.token}
+                            existingBackgroundInfo={backgroundInfoText}
+                            onBackgroundInfo={function(result) {
+                              setBackgroundInfoText(result.text)
+                              setBackgroundInfoPreview(true)
+                              tune.backgroundInfo = result.text
+                              tune.id = params.tuneId
+                              saveTune(tune)
+                            }}
                           />
+                        </div>
+                        {backgroundInfoPreview
+                          ? <div className="abc-editor-markdown-preview">
+                              <MarkdownContent text={backgroundInfoText} />
+                            </div>
+                          : <Form.Control
+                              as="textarea"
+                              rows={16}
+                              placeholder={'Performers, alternative names, first recording date, who popularized the tune, record labels, anecdotes, musical structure, YouTube links... (Markdown supported)'}
+                              value={backgroundInfoText}
+                              onChange={function(e) {
+                                var next = e.target.value
+                                setBackgroundInfoText(next)
+                                if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
+                                backgroundInfoSaveTimeout.current = setTimeout(function() {
+                                  tune.backgroundInfo = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }, 500)
+                              }}
+                            />}
                       </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="tempo">
-                        <Form.Label>Tempo</Form.Label>
-                        <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="repeats">
-                        <Form.Label>Repeats</Form.Label>
-                        <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="boost">
-                        <Form.Label>Boost</Form.Label>
-                        <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="difficulty">
-                        <Form.Label>Difficulty</Form.Label>
-                        <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="noteLength">
-                        <Form.Label>ABC Note Length</Form.Label>
-                        <Form.Select value={tune.noteLength ? tune.noteLength : ''} onChange={function(e) { tune.noteLength = e.target.value; tune.id = params.tuneId; saveTune(tune)  }} >
-                          <option value=""></option>
-                          <option value="1">1</option>
-                          <option value="1/2">1/2</option>
-                          <option value="1/3">1/3</option>
-                          <option value="1/4">1/4</option>
-                          <option value="1/6">1/6</option>
-                          <option value="1/8">1/8</option>
-                          <option value="1/12">1/12</option>
-                          <option value="1/16">1/16</option>
-                         </Form.Select> 
-                       
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="tab">
-                        <Form.Label>Tablature</Form.Label>
-                        <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                          <option value=""></option>
-                          <option value="guitar" >Guitar</option>
-                          <option value="violin">Violin</option>
-                          </Form.Select> 
-                       
-                      </Form.Group>
-                      
-                      <Form.Group className="mb-3" controlId="fonts">
-                        <Form.Label>Sounds Fonts</Form.Label>
-                        <Form.Select value={tune.soundFonts ? tune.soundFonts.trim() : ''} onChange={function(e) { tune.soundFonts = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                          <option value="" >Local Sound Fonts Only (piano)</option>
-                          <option value="online">Requires Online Sound Fonts</option>
-                          </Form.Select> 
-                       
-                      </Form.Group>
-                      
-                       <Form.Group className="mb-3" controlId="srcUrl">
-                        <Form.Label>Source URL</Form.Label>
-                        <Form.Control   value={tune.srcUrl ? tune.srcUrl : ''} onChange={function(e) {tune.srcUrl = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
-                      </Form.Group>
+                      </div>
                       
                     </Form>
                   </Tab>
                   <Tab eventKey="lyrics" title="Lyrics" >
-                    <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Lyrics</Button></a>
-                    <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ?  tune.composer : '')  +  " " + allowedChordSites} ><Button>Search Chords</Button></a>
-                    <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' '+(props.tune.rhythm ? props.tune.rhythm : '')} ><Button>{props.tunebook.icons.externallink}</Button>
+                    <LyricsSearchButton
+                      title={tune.name}
+                      artist={tune.composer || ''}
+                      token={props.token}
+                      onLyrics={function(result) {
+                        setWLinesText(result.text)
+                        setLyricLines(tune, result.lines)
+                        tune.id = params.tuneId
+                        saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
+                      }}
+                    />
+                    <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' lyrics'} ><Button>{props.tunebook.icons.externallink}</Button>
             </a>
                     <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                         var clean = abcjsParser.cleanupLyrics(wLinesText)
@@ -397,32 +496,41 @@ export default function AbcEditor(props) {
                   
                   
                   <Tab eventKey="chords" title="Chords" >
-                    <ChordsWizard tunebook={props.tunebook} tune={tune} tuneId={tune.id} token={props.token} abc={props.abc} saveTune={function(e) {saveTune(tune)}}  notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []} />
+                    <ChordsWizard
+                      tunebook={props.tunebook}
+                      tune={tune}
+                      tuneId={tune.id}
+                      token={props.token}
+                      abc={props.abc}
+                      saveTune={function() {saveTune(tune)}}
+                      notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []}
+                      pendingChordImport={pendingChordImport}
+                      onConsumePendingChordImport={function() { setPendingChordImport('') }}
+                      onLyricsImport={function(lines) {
+                        setWLinesText(lines.join('\n'))
+                        setLyricLines(tune, lines)
+                        tune.id = params.tuneId
+                        saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })
+                      }}
+                    />
                   </Tab>
                   
                  
                   
-                  <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>} >
-                    <div style={{}} id="warnings">
-                    {warnings ? warnings.map(function(warning,wk) {
-                      var pos = warning.indexOf('<span')
-                      return <div key={wk} >{warning.slice(0,pos)}</div>
-                    }) : null}
-                    </div>
-                  </Tab>
                   <Tab eventKey="abc" title="ABC">
-                    <textarea value={abcText} onChange={function(e) {setAbcText(e.target.value)}} onBlur={function(e) {var tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune, true)}}   style={{width:'100%', height:'30em'}}  />
-                  </Tab>
-                  <Tab eventKey="help" title="Help">
-                      <div>ABC notation uses letters and other symbols to represent music. </div>
-                      <div>eg</div>
-                      <i>a2bc a/4bc' | c,d,e, cde ||</i>
-                      <div></div>
-                      <br/>
-                      <div>To get up to speed, have a look through a <a href='http://www.lesession.co.uk/abc/abc_notation.htm' target="_new" >tutorial</a></div>
-                      <br/>
-                      <div>A <a href='http://abc.sourceforge.net/standard/abc2-draft.html' target="_new" >detailed reference</a> is available  </div>
-                      <div></div>
+                    <Tabs defaultActiveKey="abc-text" id="abc-editor-abc-tabs" className="mb-3">
+                      <Tab eventKey="abc-text" title="ABC">
+                        <textarea value={abcText} onChange={function(e) {setAbcText(e.target.value)}} onBlur={function(e) {var tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune, true)}}   style={{width:'100%', height:'30em'}}  />
+                      </Tab>
+                      <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>}>
+                        <div style={{}} id="warnings">
+                        {warnings ? warnings.map(function(warning,wk) {
+                          var pos = warning.indexOf('<span')
+                          return <div key={wk} >{warning.slice(0,pos)}</div>
+                        }) : null}
+                        </div>
+                      </Tab>
+                    </Tabs>
                   </Tab>
                 
                 </Tabs>

@@ -9,7 +9,7 @@ export default function TuneMediaAnalysisButton({
   buttonStyle,
   variant,
 }) {
-  const { available: resolverAvailable } = useMediaResolverHealth();
+  const { available: resolverAvailable, features } = useMediaResolverHealth();
   const {
     mediaSources,
     isAnalyzing,
@@ -23,14 +23,14 @@ export default function TuneMediaAnalysisButton({
     getStatusLabel,
   } = useTuneMediaAnalysis({ tune });
 
-  if (!resolverAvailable || mediaSources.length === 0) {
+  if (!resolverAvailable || !features.whisper || mediaSources.length === 0) {
     return error
       ? <Alert variant="danger" style={{ marginTop: '1em', marginBottom: '0.5em' }}>{error}</Alert>
       : null;
   }
 
   const buttonLabel = isAnalyzing
-    ? (getStatusLabel(activeLabel) || status || activeLabel || 'Analyzing...')
+    ? 'Cancel'
     : (label || 'Analyze');
 
   return (

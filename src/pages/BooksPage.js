@@ -1,10 +1,11 @@
 import {Link} from 'react-router-dom'
-import {Button, ButtonGroup, Badge} from 'react-bootstrap'
+import {Button, ButtonGroup} from 'react-bootstrap'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useCallback} from 'react'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 import {useNavigate} from 'react-router-dom'
 import YourFilters from '../components/YourFilters'
+import CollectionNav from '../components/CollectionNav'
 import {
   BOOKS_PAGE_SECTIONS,
   consumeBooksPageScrollTarget,
@@ -20,6 +21,7 @@ const BOOK_SECTION_NAMES = {
 }
 
 export default function BooksPage(props) {
+    const { defaultTab, tunebook } = props
     const navigate = useNavigate()
     const [searchFilter, setSearchFilter] = useState('')
     const [searchTagFilter, setSearchTagFilter] = useState('')
@@ -39,9 +41,9 @@ export default function BooksPage(props) {
         setMyBookImageIsHidden(v)
     }
 
-    function scrollToSection(sectionId) {
-        props.tunebook.utils.scrollTo(sectionId, 70)
-    }
+    const scrollToSection = useCallback(function(sectionId) {
+        tunebook.utils.scrollTo(sectionId, 70)
+    }, [tunebook])
 
     function trackAndScrollToSection(sectionId) {
         const section = BOOK_SECTION_NAMES[sectionId]
@@ -52,13 +54,13 @@ export default function BooksPage(props) {
     useEffect(function() {
         const queued = consumeBooksPageScrollTarget()
         const target = queued
-            || (props.defaultTab === 'tags' ? BOOKS_PAGE_SECTIONS.tags : null)
+            || (defaultTab === 'tags' ? BOOKS_PAGE_SECTIONS.tags : null)
         if (target) {
             setTimeout(function() {
                 scrollToSection(target)
             }, 300)
         }
-    }, [])
+    }, [defaultTab, scrollToSection])
 
     var tbOptions = Object.keys(props.tunebook.getTuneBookOptions()).filter(function(a) {return (a && a.length > 0)})
     var tagOptions = Object.keys(props.tunebook.getTuneTagOptions()).filter(function(a) {return (a && a.length > 0)})
@@ -69,20 +71,14 @@ export default function BooksPage(props) {
     return <div className="App-books books-page">
         <div style={{clear:'both', width:'100%'}}>
             {tbOptions.length > 0 && <div>
-                <nav className="books-page-nav" aria-label="Books page sections">
-                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.filters) }}>
-                        Filters {savedFilterCount > 0 && <Badge bg="secondary">{savedFilterCount}</Badge>}
-                    </Button>
-                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.recent) }}>
-                        Recent
-                    </Button>
-                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.books) }}>
-                        {props.tunebook.icons.book} Books <Badge bg="secondary">{tbOptions.length}</Badge>
-                    </Button>
-                    <Button variant="outline-secondary" size="sm" onClick={function() { trackAndScrollToSection(BOOKS_PAGE_SECTIONS.tags) }}>
-                        {props.tunebook.icons.tag} Tags <Badge bg="secondary">{tagOptions.length}</Badge>
-                    </Button>
-                </nav>
+                <CollectionNav
+                    className="books-page-nav"
+                    tunebook={props.tunebook}
+                    tbCount={tbOptions.length}
+                    tagCount={tagOptions.length}
+                    savedFilterCount={savedFilterCount}
+                    onSectionClick={trackAndScrollToSection}
+                />
 
                 <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
                     <h3 className="books-page-section-title">Filters</h3>
@@ -131,16 +127,15 @@ export default function BooksPage(props) {
                     <div className="books-page-grid">
                         {tbOptions.map(function(option, ok) {
                             if (option && option.trim().length > 0 && ((searchFilter.trim && searchFilter.trim() === '') || searchFilter.trim && option.trim().indexOf(searchFilter.trim()) !== -1)) {
-                                return <ButtonGroup key={ok} className="books-page-book-card" onClick={function(e) {props.setCurrentTuneBook(option); props.setTagFilter(''); props.setFilter('')}}>
-                                    <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} user={props.user} />
-                                    <Link to="/tunes" style={{color:'white', textDecoration:'none'}}>
-                                        <Button style={{height: '90px', verticalAlign:'text-top', fontWeight:'bold', fontSize:'1.3em'}}>
-                                            {option}&nbsp;&nbsp;
-                                            {!myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} alt="" />}
-                                            {myBookImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} alt="" />}
+                                return <ButtonGroup key={ok} className="books-page-book-card" variant="primary" onClick={function(e) {props.setCurrentTuneBook(option); props.setTagFilter(''); props.setFilter('')}}>
+                                    <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} user={props.user} btnClassName="books-page-collection-card-side" />
+                                    <Link to="/tunes" className="books-page-collection-card-link" style={{textDecoration:'none'}}>
+                                        <Button variant="primary" className="books-page-collection-card-main">
+                                            <span className="books-page-collection-card-label">{option}</span>
+                                            {!myBookImageIsHidden[ok] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideMyBookImage(ok)}} alt="" />}
                                         </Button>
                                     </Link>
-                                    <Button onClick={function() {props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant="primary" size="small">{props.tunebook.icons.playwhite}</Button>
+                                    <Button className="books-page-collection-card-side" onClick={function(e) {e.stopPropagation(); props.tunebook.fillMediaPlaylist(option); navigate("/tunes")}} variant="primary">{props.tunebook.icons.playwhite}</Button>
                                 </ButtonGroup>
                             }
                             return null
@@ -154,17 +149,18 @@ export default function BooksPage(props) {
                     <div className="books-page-grid">
                         {tagOptions.map(function(option, ok) {
                             if (option && option.trim().length > 0 && ((searchTagFilter.trim && searchTagFilter.trim() === '') || searchTagFilter.trim && option.trim().indexOf(searchTagFilter.trim()) !== -1)) {
-                                return <ButtonGroup key={ok} className="books-page-tag-card">
-                                    <Button style={{fontWeight:'bold', fontSize:'1.3em', height: '90px', verticalAlign:'text-top'}} onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>{option}</Button>
-                                    {!tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} alt="" />}
-                                    {tagImageIsHidden[ok] && <img style={{height:'80px'}} src={"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj4M37+x8ABHwCeNvV2gcAAAAASUVORK5CYII="} alt="" />}
-                                    <Button onClick={function() {
+                                return <ButtonGroup key={ok} className="books-page-tag-card" variant="primary">
+                                    <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {props.setTagFilter([option]); props.setCurrentTuneBook(''); props.setFilter(''); navigate('/tunes')}}>
+                                        <span className="books-page-collection-card-label">{option}</span>
+                                        {!tagImageIsHidden[ok] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideTagImage(ok)}} alt="" />}
+                                    </Button>
+                                    <Button className="books-page-collection-card-side" variant="primary" onClick={function() {
                                         props.setTagFilter([option])
                                         props.setCurrentTuneBook('')
                                         props.setFilter('')
                                         props.tunebook.fillMediaPlaylist('', '', [option])
                                         navigate("/tunes")
-                                    }} variant="primary" size="small">{props.tunebook.icons.playwhite}</Button>
+                                    }}>{props.tunebook.icons.playwhite}</Button>
                                 </ButtonGroup>
                             }
                             return null

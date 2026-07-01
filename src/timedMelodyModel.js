@@ -1,4 +1,5 @@
 import { formatMelodyNotes } from './melodyFormatter';
+import { formatKeySignatureShort } from './melodyPitchSpelling';
 import { normalizeMeterChanges } from './timingGridUtils';
 
 export const TIMED_MELODY_VERSION = 1;
@@ -29,11 +30,11 @@ export function normalizeTimedMelody(input) {
   return {
     version: TIMED_MELODY_VERSION,
     source: input.source && typeof input.source === 'object' ? input.source : {},
-    key: input.key ? String(input.key) : '',
+    key: input.key ? formatKeySignatureShort(input.key) : '',
     meter: input.meter ? String(input.meter) : '',
     noteLength: input.noteLength ? String(input.noteLength) : '',
     tempo: typeof input.tempo === 'number' ? input.tempo : 0,
-    detectedKey: input.detectedKey ? String(input.detectedKey) : '',
+    detectedKey: input.detectedKey ? formatKeySignatureShort(input.detectedKey) : '',
     detectedMeter: input.detectedMeter ? String(input.detectedMeter) : '',
     processing: input.processing && typeof input.processing === 'object' ? input.processing : {},
     notes: notes,

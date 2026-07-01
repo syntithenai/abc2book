@@ -7,7 +7,7 @@ export default function MusicPage(props) {
     const params = useParams()
     const navigate = useNavigate()
     useEffect(function() {
-        var currentTuneKey = props.mediaPlaylist && props.mediaPlaylist.currentTune > props.mediaPlaylist.currentTune ? parseInt(props.mediaPlaylist.currentTune) : 0
+        var currentTuneKey = props.mediaPlaylist && props.mediaPlaylist.currentTune != null ? parseInt(props.mediaPlaylist.currentTune, 10) : 0
         // if param doesn't match playlist, navigate to tune from playlist current item
         if (props.mediaPlaylist && props.mediaPlaylist.tunes && props.mediaPlaylist.tunes.length > currentTuneKey && props.mediaPlaylist.tunes[currentTuneKey]) {
             var shouldBe = props.mediaPlaylist.tunes[currentTuneKey].id
@@ -15,7 +15,7 @@ export default function MusicPage(props) {
                 navigate('/tunes/'+shouldBe+"/playMedia/0")
             }
         }
-    }, [props.mediaPlaylist])
+    }, [props.mediaPlaylist, navigate, params.tuneId])
     
     return <div className="music-page">
        <Outlet/>

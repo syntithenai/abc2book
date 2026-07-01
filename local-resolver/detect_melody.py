@@ -152,6 +152,7 @@ def _detect_key_from_notes(notes):
     if not notes:
         return ""
     try:
+        from chord_processing import format_key_signature_short
         from music21 import note, pitch, stream
 
         score = stream.Stream()
@@ -162,7 +163,15 @@ def _detect_key_from_notes(notes):
             n.duration.quarterLength = max(0.25, float(row["end"]) - float(row["start"]))
             score.append(n)
         detected = score.analyze("key")
-        return str(detected)
+        try:
+            tonic_name = detected.tonic.name
+            mode = detected.mode or "major"
+            root = tonic_name.replace("-", "b")
+            if mode == "minor":
+                return root + "m"
+            return root
+        except Exception:
+            return format_key_signature_short(str(detected))
     except Exception:
         return ""
 

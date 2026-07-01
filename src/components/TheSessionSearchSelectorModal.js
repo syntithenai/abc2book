@@ -52,7 +52,7 @@ function TheSessionSearchSelectorModal(props) {
     setSettings(null)
     //console.log('ini searc',props.value)
     if (show) searchOptions(props.value).then(function(opts) {setOptions(opts)})
-  },[show])
+  },[show, props.value])
   
   useEffect(function() {
     setSettings(null)

@@ -99,7 +99,7 @@ function YouTubeSearchModal(props) {
     //setSettings(null)
     //console.log('ini searc',props.value)
     if (show) searchOptions(props.value).then(function(opts) {setOptions(opts)})
-  },[show])
+  },[show, props.value])
   
   //useEffect(function() {
     //setSettings(null)
@@ -153,7 +153,7 @@ function YouTubeSearchModal(props) {
               return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'}  >
               <Button style={{float:'right'}}  onClick={function(e) {selectLink(options[option])}} variant="success" >Select</Button>
               <div style={{fontWeight:'bold', fontSize:'1.1em'}} >{options[option].title}</div>
-              <img src={options[option].image} style={{maxWidth:'200px',maxHeight:'200px', float:'right'}} />
+              <img alt="" src={options[option].image} style={{maxWidth:'200px',maxHeight:'200px', float:'right'}} />
               <div>{options[option].description}</div>
               
               </ListGroup.Item>

@@ -120,7 +120,146 @@ export function chordLabelFromQuality(letter, quality) {
   }
 }
 
+export function tuningLabelsFromDiagram(diagram, instrument, chordNotes) {
+  const tuning = tuningForInstrument(instrument)
+  const numStrings = tuning.length
+  const fretByString = {}
+  if (diagram && Array.isArray(diagram.chord)) {
+    diagram.chord.forEach(function(row) {
+      fretByString[row[0]] = row[1]
+    })
+  }
+  const labels = []
+  for (let i = 0; i < numStrings; i++) {
+    const stringNum = numStrings - i
+    const fretVal = fretByString[stringNum]
+    if (fretVal === undefined || fretVal === 'x') {
+      labels.push('')
+    } else {
+      const fretNum = parseInt(fretVal, 10)
+      const note = noteFromFret(instrument, i, isNaN(fretNum) ? 0 : fretNum)
+      labels.push(sharpFlatAdjust(note, chordNotes) || '')
+    }
+  }
+  return labels
+}
+
+export function vexchordsTuningFromDiagram(diagram, instrument, chordNotes) {
+  return tuningLabelsFromDiagram(diagram, instrument, chordNotes)
+}
+
+export function refreshDiagramTuning(diagram, instrument, chordNotes) {
+  if (!diagram) return diagram
+  const labels = tuningLabelsFromDiagram(diagram, instrument, chordNotes)
+  return Object.assign({}, diagram, {
+    tuning: labels.map(function(label) { return [label] })
+  })
+}
+
+function diagramNameScore(name, preferredLabel) {
+  if (!name || !preferredLabel) return 0
+  if (name === preferredLabel) return 100
+  if (name.indexOf('/') !== -1) return -20
+  if (name.indexOf(preferredLabel) === 0) return 40
+  return 5
+}
+
+export function chordToneMismatchCount(instrument, diagram, chordNotes) {
+  if (!diagram || !Array.isArray(chordNotes) || !chordNotes.length) return 0
+  const labels = tuningLabelsFromDiagram(diagram, instrument, chordNotes).filter(Boolean)
+  const unique = [...new Set(labels)]
+  return unique.filter(function(note) {
+    if (chordNotes.indexOf(note) !== -1) return false
+    if (instrument === 'banjo5' && (note === 'G' || note === 'D')) return false
+    return true
+  }).length
+}
+
+export function scoreDiagramVoicing(instrument, diagram, preferredLabel, chordNotes) {
+  let score = diagramNameScore(diagram.name, preferredLabel)
+  score -= chordToneMismatchCount(instrument, diagram, chordNotes) * 25
+  if (instrument === 'banjo5' && diagram && Array.isArray(diagram.chord)) {
+    const fretByString = {}
+    diagram.chord.forEach(function(row) { fretByString[row[0]] = row[1] })
+    const midDFret = parseInt(fretByString[4], 10)
+    if (!isNaN(midDFret) && midDFret > 0) {
+      const note = noteFromFret('banjo5', 1, midDFret)
+      if (chordNotes.indexOf(note) !== -1) score += 15
+    }
+  }
+  return score
+}
+
+export function collectDiagramsFromEntry(entry) {
+  const diagrams = []
+  if (!entry) return diagrams
+  if (Array.isArray(entry.main)) {
+    entry.main.forEach(function(group) {
+      if (Array.isArray(group)) {
+        group.forEach(function(diagram) { diagrams.push(diagram) })
+      }
+    })
+  }
+  if (Array.isArray(entry.secondary)) {
+    entry.secondary.forEach(function(diagram) { diagrams.push(diagram) })
+  }
+  return diagrams
+}
+
+export function selectBestDiagram(entry, preferredLabel, options) {
+  const diagrams = collectDiagramsFromEntry(entry)
+  if (!diagrams.length) return null
+  const instrument = options && options.instrument
+  const chordNotes = options && options.chordNotes
+  let best = diagrams[0]
+  let bestScore = -Infinity
+  diagrams.forEach(function(diagram) {
+    let score = (instrument && chordNotes)
+      ? scoreDiagramVoicing(instrument, diagram, preferredLabel, chordNotes)
+      : diagramNameScore(diagram.name, preferredLabel)
+    if (options && typeof options.scoreDiagram === 'function') {
+      score += options.scoreDiagram(diagram)
+    }
+    if (score > bestScore) {
+      bestScore = score
+      best = diagram
+    }
+  })
+  return best
+}
+
+export function primaryDiagramFromChordEntry(entry, preferredLabel, options) {
+  if (!entry) return null
+  if (preferredLabel) {
+    return selectBestDiagram(entry, preferredLabel, options)
+  }
+  if (Array.isArray(entry.main) && entry.main[0] && entry.main[0][0]) {
+    return entry.main[0][0]
+  }
+  if (Array.isArray(entry.secondary) && entry.secondary[0]) {
+    return entry.secondary[0]
+  }
+  return null
+}
+
+export function chordVoicingsFromEntry(entry, preferredLabel, options) {
+  if (!entry) {
+    return { primaryChord: null, secondaryChords: null }
+  }
+  const best = selectBestDiagram(entry, preferredLabel, options)
+  if (!best) {
+    return { primaryChord: null, secondaryChords: null }
+  }
+  const secondaryChords = collectDiagramsFromEntry(entry).filter(function(diagram) {
+    return diagram !== best
+  })
+  return {
+    primaryChord: [[best]],
+    secondaryChords: secondaryChords.length ? secondaryChords : null
+  }
+}
+
 export function stringsFromInstrument(useInstrument) {
-  const counts = { guitar: 6, mandolin: 4, uke: 4, banjo4: 4, banjo5: 5 }
+  const counts = { guitar: 6, mandolin: 4, uke: 4, banjo4: 4, banjo5: 5, bouzouki: 4 }
   return counts[useInstrument] || 0
 }

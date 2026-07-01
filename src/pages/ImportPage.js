@@ -21,7 +21,7 @@ export default function ImportPage(props) {
         } else {
             setError('Unable to import '+collection)
         }
-    }   ,[])
+    }, [collection, navigate, props.tunebook.curatedTuneBooks])
     
     return error ? <b>{error}</b> : <b>Loading....</b>
     

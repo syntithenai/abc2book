@@ -1,15 +1,16 @@
-/* global QRCode */
-import { Link , useParams } from 'react-router-dom'
+import { Link , useParams, useLocation } from 'react-router-dom'
 import {Button, Modal, Form, Col, Row, Container} from 'react-bootstrap'
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect, useCallback} from 'react'
 import AbcPrint from '../components/AbcPrint'
 import TimedLyricsChordsView from '../components/TimedLyricsChordsView'
-import { getLyricLines } from '../wLinesUtils'
+import { getLyricLinesForDisplay } from '../wLinesUtils'
+import { formatChordChartForDisplay } from '../chordSheetUtils'
 import useAbcjsParser from '../useAbcjsParser'
-//import useQRCode from '../useQRCode'
+import useQRCode from '../useQRCode'
 // TODO DIALOG FOR OPTIONS - SHOW NOTATION, SHOW CHORDS, ...
 export default function PrintPage(props) {
     var params = useParams()
+    var location = useLocation()
     //var [refs , setRefs] = useState([])
     var [useTunes , setUseTunes] = useState(null)
     var [useQR , setUseQR] = useState(true)
@@ -20,7 +21,7 @@ export default function PrintPage(props) {
     const [showNotationOrChords, setShowNotationOrChords] = useState(1);  // 0 none, 1 notation, 2 chords, 3 both
     //const [showNotation, setShowNotation] = useState(true);
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
-    //const QRCode = useQRCode(props)
+    const QRCode = useQRCode()
     
 	const handleClose = () => {
 		setShow(false);
@@ -29,36 +30,33 @@ export default function PrintPage(props) {
 		setShow(true);
 	}
 	
-	function createQRCodes(useTunes) {
-		if (useQR) {
-			//console.log('CREATE CODES')
-			useTunes.forEach(function(tune) {
-				if (tune.links && tune.links.length > 0 && tune.links[0].link) { 
-					var div = document.getElementById("qrcode_"+tune.id)
-					try {	
-						while(div.firstChild && div.removeChild(div.firstChild));
-					} catch (e) {}
-					//console.log('Cleared CODE')
-					//console.log('CREATE CODE',tune.id,tune.links[0].link, document.getElementById("qrcode_"+tune.id))
-					new QRCode(document.getElementById("qrcode_"+tune.id), {
-						text: tune.links[0].link,
-						width: 128,
-						height: 128,
-						colorDark : "#000000",
-						colorLight : "#ffffff",
-						correctLevel : QRCode.CorrectLevel.H
-					})
-				}
+	const createQRCodes = useCallback(function(tunes) {
+		if (!useQR || !tunes || !QRCode) return
+		tunes.forEach(function(tune) {
+			if (!tune.links || tune.links.length === 0 || !tune.links[0].link) return
+			var div = document.getElementById("qrcode_" + tune.id)
+			if (!div) return
+			while (div.firstChild) div.removeChild(div.firstChild)
+			new QRCode(div, {
+				text: tune.links[0].link,
+				width: 128,
+				height: 128,
+				colorDark: "#000000",
+				colorLight: "#ffffff",
+				useSVG: true,
+				correctLevel: QRCode.CorrectLevel.H
 			})
-		}
-	}
-	
+		})
+	}, [useQR, QRCode])
+
 	function printMe() {
-		//console.log('PRINTME')
 		handleClose()
 		setTimeout(function() {
-			window.print()
-		},200)
+			if (useTunes) createQRCodes(useTunes)
+			setTimeout(function() {
+				window.print()
+			}, 300)
+		}, 100)
 	}
 
 	function goBack() {
@@ -67,6 +65,7 @@ export default function PrintPage(props) {
   
     useEffect(function() {
 		// IF params.tuneBook, use that 
+		// ELSE IF location.state.tuneIds, use that
 		// ELSE IF props.selected, use that
         if (params.tuneBook) {
 			var tmp = props.tunebook.fromBook(params.tuneBook).map(function(tune) {
@@ -75,10 +74,13 @@ export default function PrintPage(props) {
 			setUseTunes(tmp)
 			setSelectedCount(tmp.length)
 			handleShow()
-			setTimeout(function() {
-				createQRCodes(tmp)
-			},200)
-			//if (tmp.length > 0) window.print()
+		} else if (location.state && Array.isArray(location.state.tuneIds) && location.state.tuneIds.length > 0) {
+			var fromState = location.state.tuneIds.map(function(tuneId) {
+				return props.tunes[tuneId]
+			}).filter(function(tune) { return tune && tune.id })
+			setUseTunes(fromState)
+			setSelectedCount(fromState.length)
+			handleShow()
 		} else {
 			var selectedIds = Object.keys(props.selected)
 			if (selectedIds.length > 0) {
@@ -91,18 +93,21 @@ export default function PrintPage(props) {
 				setUseTunes(tmp)
 				setSelectedCount(tmp.length)
 				handleShow()
-				setTimeout(function() {
-					createQRCodes(tmp)
-					
-				},200)
-				//if (tmp.length > 0) window.print()
 			} else {
 				setUseTunes([])
 				setSelectedCount(0)
 			}
 		}
 		
-    },[params.tuneBook, props.tunes, props.selected,useQR,option])
+    },[params.tuneBook, props.tunes, props.selected, props.tunebook, location.state])
+
+	useEffect(function() {
+		if (!useTunes || useTunes.length === 0) return
+		var frame = requestAnimationFrame(function() {
+			createQRCodes(useTunes)
+		})
+		return function() { cancelAnimationFrame(frame) }
+	}, [useTunes, useQR, createQRCodes])
     return <div className="App-print">
     
    
@@ -149,7 +154,7 @@ export default function PrintPage(props) {
       {(useTunes!== null && useTunes.length > 0) && <div style={{pageBreakInside:'avoid'}} >{useTunes.map(function(tune) {
             var words = {}
             var current = 0
-            var lyricLines = getLyricLines(tune)
+            var lyricLines = getLyricLinesForDisplay(tune)
             if (lyricLines.length > 0) {
                 lyricLines.forEach(function(line) {
                   if (line && line.trim().length > 0) {
@@ -161,7 +166,7 @@ export default function PrintPage(props) {
                 })
             } 
             var firstVoice = tune.voices && Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
-			var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter)
+			var chords = formatChordChartForDisplay(abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter))
             var cleanNotes = firstVoice.notes.join("\n").replace(/"([^"]+(?="))"/g, '').replace(/z/g, '').replace(/\|/g, '')
             var hasNotes = cleanNotes.trim().length > 0 ? true : false
             //console.log(cleanNotes,hasNotes)
@@ -172,7 +177,7 @@ export default function PrintPage(props) {
             
             return (true || !show) ? <div  key={(tune ? tune.id : '')} style={{clear:'both'}}>
 				<div className="avoidbreak" >
-					{(useQR ? true : false) && <a style={{float:'left', clear:'right'}} href={useLink} ><div style={{float:'left', clear:'right'}} id={"qrcode_" + tune.id} ></div></a>}
+					{(useQR ? true : false) && useLink && <a className="print-qrcode-link" style={{float:'left', clear:'right'}} href={useLink} ><div className="print-qrcode" style={{width:'128px', height:'128px'}} id={"qrcode_" + tune.id} ></div></a>}
 					
 					{((option === "auto" && !hasNotes) || option === "justchords" || option === "justlyrics" || option === "chordsandlyrics"  ) && <div style={{marginBottom:'1.2em'}}>
 						{(tune.composer) && <div className="composer" style={{float:'right'}} >{tune.composer}</div>}
@@ -189,7 +194,7 @@ export default function PrintPage(props) {
 					})}</Container></div> }
 					
 					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) ? (
-                        tune.timedLyrics && (option === "chordsandlyrics" || option === "justlyrics")
+                        (option === "chordsandlyrics" || option === "justlyrics")
                           ? <div className="lyrics" style={{ float:'left', clear:'left', marginLeft:'2em' }}>
                               <TimedLyricsChordsView tune={tune} tunebook={props.tunebook} />
                             </div>

@@ -31,8 +31,9 @@ export default function MelodyWizard(props) {
     if (tune && tune.id) {
       saveTimedMediaDraft(tune.id, { melodyAbcText: analysis.formatted.melodyText });
     }
-  }, [analysis]);
+  }, [analysis, tune]);
 
+  const tuneId = tune && tune.id
   useEffect(function() {
     if (!tune || !tune.id) return;
     loadTimedMediaDraft(tune.id).then(function(draft) {
@@ -58,13 +59,13 @@ export default function MelodyWizard(props) {
         if (abcText) setMelody(abcText);
       }
     });
-  }, [tune && tune.id]);
+  }, [tune, tuneId, props.tunebook.abcTools]);
 
   useEffect(function() {
     if (Array.isArray(props.notes) && props.notes.length > 0) {
       setMelody(props.notes.join('\n'));
     }
-  }, [props.notes]);
+  }, [props.notes, props.tunebook.abcTools, tune]);
 
   return <div>
     <Form.Group controlId="melodywiz">
@@ -82,7 +83,7 @@ export default function MelodyWizard(props) {
           var abcJson = props.tunebook.abcTools.abc2json(props.abc);
           var useVoiceKey = resolvePrimaryVoiceKey(abcJson.voices);
           abcJson.voices[useVoiceKey] = { meta: '', notes: newAbcNotes.split('\n') };
-          props.tunebook.saveTune(abcJson);
+          props.tunebook.saveTune(abcJson, false, { historyLabel: 'Apply melody', immediate: true });
         }}>Save</Button>
 
         <Button
@@ -135,8 +136,8 @@ export default function MelodyWizard(props) {
       tune={tune}
       tunebook={props.tunebook}
       abc={props.abc}
-      onSaveTune={function(updated) {
-        props.saveTune(updated || tune);
+      onSaveTune={function(updated, historyOptions) {
+        props.tunebook.saveTune(updated || tune, false, historyOptions || { historyLabel: 'Apply melody', immediate: true });
       }}
     />
 

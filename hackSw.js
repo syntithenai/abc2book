@@ -98,6 +98,8 @@ var notes = [
 var mainFiles = [
 'favicon.ico',
 'favicon.png',
+'apple-touch-icon.png',
+'tunebook-icon.svg',
 'manifest.json',
 'home-appicon.png',
 'home-small.png',

@@ -1,5 +1,6 @@
 import {
   audioFiltersAreNeutral,
+  getAudioFilterKeysForStemNames,
   getAudioFilterSettings,
   getMediaPlaybackSettings,
   normalizeAudioFilters,
@@ -42,5 +43,14 @@ describe('audio filter settings', function() {
       piano: 1,
       other: 1,
     });
+  });
+
+  test('maps available stem names to the matching UI sliders', function() {
+    expect(getAudioFilterKeysForStemNames(['drums', 'bass', 'other', 'vocals'])).toEqual([
+      'percussion', 'vocals', 'bass', 'other',
+    ]);
+    expect(getAudioFilterKeysForStemNames(['drums', 'bass', 'other', 'vocals', 'guitar', 'piano'])).toEqual([
+      'percussion', 'vocals', 'bass', 'guitar', 'piano', 'other',
+    ]);
   });
 });

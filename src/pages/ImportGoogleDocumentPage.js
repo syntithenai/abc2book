@@ -50,7 +50,7 @@ export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
               })
             }
       }
-    }, [params.googleDocumentId, token])
+    }, [params.googleDocumentId, params.tuneId, params.bookName, token, navigate, docs, tunebook])
     
     return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
      <h1>Import a Shared Tune Book </h1>

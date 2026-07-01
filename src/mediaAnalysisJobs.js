@@ -29,6 +29,12 @@ export function getMediaAnalysisJob(tuneId) {
   return jobsByTuneId[tuneId] || EMPTY_MEDIA_ANALYSIS_JOB;
 }
 
+export function hasActiveMediaAnalysisJobs() {
+  return Object.keys(jobsByTuneId).some(function(tuneId) {
+    return !!jobsByTuneId[tuneId].isAnalyzing;
+  });
+}
+
 export function patchMediaAnalysisJob(tuneId, patch) {
   if (!tuneId) return;
   jobsByTuneId[tuneId] = Object.assign({}, getMediaAnalysisJob(tuneId), patch);

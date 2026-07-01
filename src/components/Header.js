@@ -1,12 +1,14 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import AddSongModal from './AddSongModal'
-import ImportOptionsModal from './ImportOptionsModal'
 import {useEffect, useState} from 'react'
 import {isMobile} from 'react-device-detect';
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
+import PracticeSessionButton from './PracticeSessionButton'
+import VoiceCommandButton from './VoiceCommandButton'
 import useKeyPress from '../useKeyPress';
+import { useIsHeaderAuthHidden, useIsNarrowViewport } from '../useMediaQuery';
 
 
 export default function Header(props) {
@@ -17,33 +19,28 @@ export default function Header(props) {
     var parts = location.pathname.split("/")
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
     const [userImageError, setUserImageError] = useState(false)
+    const token = props.token
+    const user = props.user
+    const loadUserImage = props.loadUserImage
     useEffect(function() {
-        //console.log(props.user, props.token)
         setUserImageError(false)
-        if (props.token && props.user) props.loadUserImage(props.token, props.user)
-    },[props.user])
+        if (token && user) loadUserImage(token, user)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- loadUserImage identity is stable; token/user are the real triggers
+    },[user, token])
     
+    const forceNav = props.forceNav
+    const setForceNav = props.setForceNav
     useEffect(function() {
         //console.log("FORCE NAV", props.forceNav)
-        if (props.forceNav) {
+        if (forceNav) {
             //console.log("REALLY FORCE NAV", props.forceNav)
-            props.setForceNav(null)
-            navigate(props.forceNav)
+            setForceNav(null)
+            navigate(forceNav)
         }
-    },[props.forceNav])
+    },[forceNav, navigate, setForceNav])
     
-    const [width, setWidth] = useState(window.innerWidth);
-    const verySmallScreen = width <= 480;
-
-    useEffect(() => {
-    /* Inside of a "useEffect" hook add an event listener that updates
-       the "width" state variable when the window size changes */
-    window.addEventListener("resize", () => {setWidth(window.innerWidth)});
-
-    /* passing an empty array as the dependencies of the effect will cause this
-       effect to only run when the component mounts, and not each time it updates.
-       We only want the listener to be added once */
-    }, []);
+    const verySmallScreen = useIsHeaderAuthHidden();
+    const narrowViewport = useIsNarrowViewport();
 
     const onKeyPress = (event) => {
         if (!props.blockKeyboardShortcuts) {
@@ -68,7 +65,38 @@ export default function Header(props) {
 
     const showImport = (getShowParam() === "importList" || getShowParam() === "importAbc" || getShowParam() === "importCollection")
     const compactNav = isMobile
+    const selected = props.selected ? Object.keys(props.selected).map(function(v) {
+        if (props.selected[v]) {
+             return v
+        } else {
+            return ''
+        }
+    }).join(",") : ''
     const navButtonSize = compactNav ? undefined : 'lg'
+    const headerTunesBtnStyle = {
+        height: compactNav ? '3em' : '3.25em',
+        minWidth: compactNav ? '3.4em' : '3.8em',
+        paddingTop: 0,
+        paddingBottom: 0,
+        paddingLeft: compactNav ? '0.35em' : '0.4em',
+        paddingRight: compactNav ? '0.65em' : '0.85em',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    }
+    const playbackButtonSize = compactNav ? 'sm' : 'lg'
+    const onTunesOrEditor = location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')
+    const showHeaderPlayback = onTunesOrEditor && !narrowViewport
+    const headerDropdownBtnStyle = {
+        height: compactNav ? '2.85em' : '3.05em',
+        width: compactNav ? '2.55em' : '2.7em',
+        padding: 0,
+        minHeight: 0,
+        lineHeight: 1,
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    }
 
     function renderAuthButton(inHeader) {
         const className = inHeader ? 'header-auth-btn' : 'header-dropdown-btn'
@@ -104,9 +132,15 @@ export default function Header(props) {
             <Dropdown.Menu className="header-nav-menu" align="start">
                 <div className="header-dropdown-section header-dropdown-section-actions">
                     <AddSongModal
+                        buttonSize={navButtonSize}
+                        buttonClassName="header-dropdown-btn"
                         setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                         tunes={props.tunes}
+                        token={props.token}
+                        requestGoogleScopes={props.requestGoogleScopes}
+                        tunesHash={props.tunesHash}
                         show={getShowParam()}
+                        showImport={showImport}
                         forceRefresh={props.forceRefresh}
                         filter={props.filter}
                         setFilter={props.setFilter}
@@ -117,17 +151,6 @@ export default function Header(props) {
                         setTagFilter={props.setTagFilter}
                         searchIndex={props.searchIndex}
                         loadTuneTexts={props.loadTuneTexts}
-                    />
-                    <ImportOptionsModal
-                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        tunes={props.tunes}
-                        token={props.token}
-                        show={showImport}
-                        tunesHash={props.tunesHash}
-                        forceRefresh={props.forceRefresh}
-                        tunebook={props.tunebook}
-                        currentTuneBook={props.currentTuneBook}
-                        setCurrentTuneBook={props.setCurrentTuneBook}
                     />
                 </div>
                 <Dropdown.Divider />
@@ -181,31 +204,64 @@ export default function Header(props) {
                         </Link>
                     </Dropdown.Item>
                 </div>
+                {narrowViewport && (location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')) && <>
+                <Dropdown.Divider />
+                <div className="header-dropdown-section header-dropdown-section-media">
+                    <MediaPlayerButtons user={props.user} mediaController={props.mediaController} tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist} mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} currentTuneBook={props.currentTuneBook} tagFilter={props.tagFilter} selected={selected}/>
+                </div>
+                </>}
+                <Dropdown.Divider />
+                <div className="header-dropdown-section header-dropdown-section-actions">
+                    <PracticeSessionButton
+                        tunebook={props.tunebook}
+                        tunes={props.tunes}
+                        forceRefresh={props.forceRefresh}
+                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                        practiceSession={props.practiceSession}
+                        buttonSize={navButtonSize}
+                        buttonClassName="header-dropdown-btn"
+                    />
+                </div>
             </Dropdown.Menu>
         )
     }
 
     if (location.pathname.startsWith('/print')) return null
-    var selected = props.selected ? Object.keys(props.selected).map(function(v) {
-        if (props.selected[v]) {
-             return v
-        } else {
-            return ''
-        }
-    }).join(",") : ''
     //console.log("param  ",params,location)
     return <header className="App-header" style={{zIndex:11, fontSize:'1.2em'}} >
-        <span style={{display:'inline-flex', alignItems:'center'}}>
-            <ButtonGroup>
-               <Link to="/tunes" ><Button size="lg" variant="info" style={{marginLeft:'0.1em', color: 'black', border: (location.pathname === '/tunes' ? '1px solid black' : '')}} onClick={function(e) {props.tunebook.utils.scrollTo('topofpage',70); props.setAbcPlaylist(null); props.setMediaPlaylist(null); }} ><img src="/favicon.png" alt="Tunes" style={{height:'40px', width:'40px'}} /></Button></Link>
-
-                <Dropdown autoClose={true} style={{marginLeft:'0.1em', position:'relative'}}>
+        <span className="header-left">
+            <ButtonGroup className="header-nav-buttons">
+                <Button
+                    as={Link}
+                    to="/tunes"
+                    variant="info"
+                    className="header-nav-btn header-nav-tunes-btn"
+                    title="Tunes"
+                    aria-label="Tunes"
+                    style={{
+                        ...headerTunesBtnStyle,
+                        color: 'black',
+                    }}
+                    onClick={function() {
+                        props.tunebook.utils.scrollTo('topofpage', 70)
+                        props.setAbcPlaylist(null)
+                        props.setMediaPlaylist(null)
+                    }}
+                >
+                    {props.tunebook.icons.musicheader}
+                </Button>
+                <Dropdown as={ButtonGroup} autoClose={true} className="header-nav-dropdown" style={{position:'relative'}}>
                     {props.isSyncing && <b style={{position:'absolute', top:0, left:0, backgroundColor:'lightgrey', zIndex:999}}>SYNC</b>}
-                    <Dropdown.Toggle variant="info" id="dropdown-header" style={{height: compactNav ? '3em' : '3.4em', width: compactNav ? '2.8em' : '3em'}}>
-                    </Dropdown.Toggle>
+                    <Dropdown.Toggle
+                        variant="info"
+                        id="dropdown-header"
+                        className="header-nav-btn header-nav-dropdown-btn"
+                        style={headerDropdownBtnStyle}
+                        aria-label="Main menu"
+                    />
                     {renderNavMenu()}
                 </Dropdown>
-             </ButtonGroup>
+            </ButtonGroup>
                 {!verySmallScreen && (
                     <span className="header-auth-separator">
                         {renderAuthButton(true)}
@@ -214,16 +270,43 @@ export default function Header(props) {
             
              
        </span>
-       
-        {(location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')) && <span style={{float:'right', padding:'0.1em', paddingLeft:'0.1em', backgroundColor:'#5400ff'}}>
-        <MediaPlayerButtons user={props.user} mediaController={props.mediaController} tunebook={props.tunebook} abcPlaylist={props.abcPlaylist} setAbcPlaylist={props.setAbcPlaylist}   mediaPlaylist={props.mediaPlaylist} setMediaPlaylist={props.setMediaPlaylist} currentTuneBook={props.currentTuneBook} tagFilter={props.tagFilter} selected={selected}/>
-        <>{(params.tuneId && (location.pathname.indexOf('/tunes') !== -1 || location.pathname.indexOf('/editor') !== -1)) && <ButtonGroup>
-               <Button size="lg" onClick={function() {props.tunebook.navigateToPreviousSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipback}</Button>
-                <Button size="lg" onClick={function() {props.tunebook.navigateToNextSong(params.tuneId,navigate)}} >{props.tunebook.icons.skipforward}</Button> 
-            </ButtonGroup>
-            }</>
-        
-        </span>}
+
+        <span className="header-right">
+            {showHeaderPlayback && (
+                <span className="header-playback">
+                    <MediaPlayerButtons
+                        user={props.user}
+                        mediaController={props.mediaController}
+                        tunebook={props.tunebook}
+                        buttonSize={playbackButtonSize}
+                        abcPlaylist={props.abcPlaylist}
+                        setAbcPlaylist={props.setAbcPlaylist}
+                        mediaPlaylist={props.mediaPlaylist}
+                        setMediaPlaylist={props.setMediaPlaylist}
+                        currentTuneBook={props.currentTuneBook}
+                        tagFilter={props.tagFilter}
+                        selected={selected}
+                    />
+                    {(params.tuneId && (location.pathname.indexOf('/tunes') !== -1 || location.pathname.indexOf('/editor') !== -1)) && (
+                        <ButtonGroup className="header-skip-buttons">
+                            <Button size={playbackButtonSize} aria-label="Previous tune" onClick={function() { props.tunebook.navigateToPreviousSong(params.tuneId, navigate) }}>{props.tunebook.icons.skipback}</Button>
+                            <Button size={playbackButtonSize} aria-label="Next tune" onClick={function() { props.tunebook.navigateToNextSong(params.tuneId, navigate) }}>{props.tunebook.icons.skipforward}</Button>
+                        </ButtonGroup>
+                    )}
+                </span>
+            )}
+            <VoiceCommandButton
+                token={props.token}
+                tunebook={props.tunebook}
+                tunes={props.tunes}
+                setFilter={props.setFilter}
+                setCurrentTuneBook={props.setCurrentTuneBook}
+                setTagFilter={props.setTagFilter}
+                setGroupBy={props.setGroupBy}
+                setCurrentTune={props.setCurrentTune}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            />
+        </span>
     </header>
 }
 

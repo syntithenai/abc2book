@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {useState, useRef, useEffect} from 'react';
+import {useState, useRef, useEffect, useCallback} from 'react';
 //import jwt_decode from "jwt-decode";
 import useAbcTools from "./useAbcTools"
 import useUtils from './useUtils'
@@ -11,7 +11,24 @@ import useGoogleDocument from './useGoogleDocument'
 export default function useGoogleSheet(props) {
   const {token, logout, refresh, tunes, pollingInterval, onMerge, pausePolling, setGoogleDocumentId, googleDocumentId} = props
   var tuneBookName="ABC Tune Book"
-  
+
+  var googleSheetId = useRef(null)
+  var accessToken = token ? token.access_token : null
+  let abcTools = useAbcTools();
+  var utils = useUtils()
+  var updateSheetTimer = useRef(null)
+  var onMergeRef = useRef(onMerge)
+  var tunesRef = useRef(tunes)
+  var docsRef = useRef(null)
+
+  useEffect(function() {
+    onMergeRef.current = onMerge
+  }, [onMerge])
+
+  useEffect(function() {
+    tunesRef.current = tunes
+  }, [tunes])
+
   var docs = useGoogleDocument(token, logout, refresh,function(changes) {
       return new Promise(function(resolve,reject) {
           var matchingChanges = changes.filter(function(change) {
@@ -22,8 +39,10 @@ export default function useGoogleSheet(props) {
             }
           })
           if (matchingChanges && matchingChanges.length >= 1) {
-            docs.getDocument(googleSheetId.current).then(function(fullSheet) {
-              onMerge(fullSheet)
+            docsRef.current.getDocument(googleSheetId.current).then(function(fullSheet) {
+              if (typeof onMergeRef.current === 'function') {
+                onMergeRef.current(fullSheet)
+              }
               resolve()
             })
           } else {
@@ -31,21 +50,8 @@ export default function useGoogleSheet(props) {
           }
       })
   }, pausePolling, pollingInterval)
-  		
-  useEffect(function() {
-      if (token && token.access_token) {
-        findTuneBookInDrive()
-      } else {
-        googleSheetId.current = null
-      }
-    },[token])
-    
-  
-  var googleSheetId = useRef(null)
-  var accessToken = token ? token.access_token : null
-  let abcTools = useAbcTools();
-  var utils = useUtils()
-  var updateSheetTimer = useRef(null)
+
+  docsRef.current = docs
   
   // save current tunes database online
   function updateSheet(delay=3000) {
@@ -63,7 +69,7 @@ export default function useGoogleSheet(props) {
               var deletedTunes = results[1] || {}
               var abc = abcTools.tunesToAbc(nowTunes, deletedTunes)
               //console.log('do sheet update NOWTUNES', nowTunes, abc.split('abcbook-file'))
-              docs.updateDocumentData(googleSheetId.current , abc).then(function() {
+              docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
                   pausePolling.current = false
                   //console.log('done sheet update')
               })
@@ -77,7 +83,9 @@ export default function useGoogleSheet(props) {
   }
 
 
-	function findTuneBookInDrive() {
+	const findTuneBookInDrive = useCallback(function() {
+		if (!accessToken) return
+		if (googleSheetId.current) return
 		//console.log('find book in drive')
 		var xhr = new XMLHttpRequest();
 		xhr.onload = function (res) {
@@ -99,19 +107,23 @@ export default function useGoogleSheet(props) {
 				if (found) {
 					googleSheetId.current = found
 					setGoogleDocumentId(found)
-					docs.getDocument(found).then(function(fullSheet) {
-						onMerge(fullSheet)
+					docsRef.current.getDocument(found).then(function(fullSheet) {
+						if (typeof onMergeRef.current === 'function') {
+							onMergeRef.current(fullSheet)
+						}
 					})
 				} else {
-					docs.findTuneBookFolderInDrive().then(function(folderId) {
+					docsRef.current.findTuneBookFolderInDrive().then(function(folderId) {
 						if (folderId) {
 							//console.log('found folder creating doc',folderId)
 							utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
-							docs.createDocument(tuneBookName,abcTools.tunesToAbc(tunes, deletedTunes || {}), 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
+							docsRef.current.createDocument(tuneBookName,abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}), 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
 								googleSheetId.current = newId
 								setGoogleDocumentId(newId)
-								docs.getDocument(newId).then(function(fullSheet) {
-									onMerge(fullSheet)
+								docsRef.current.getDocument(newId).then(function(fullSheet) {
+									if (typeof onMergeRef.current === 'function') {
+										onMergeRef.current(fullSheet)
+									}
 								})
 							})
 							})
@@ -124,7 +136,16 @@ export default function useGoogleSheet(props) {
 		xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
 		xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
 		xhr.send();
-	}
+	}, [accessToken, setGoogleDocumentId, abcTools, tuneBookName, utils])
+
+  useEffect(function() {
+      if (token && token.access_token) {
+        findTuneBookInDrive()
+      } else {
+        googleSheetId.current = null
+      }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- Drive lookup once per login token; callbacks read from refs
+    },[accessToken])
     
     
     

@@ -5,6 +5,7 @@ const ALLOWED_EVENTS = new Set([
   'abc_play',
   'media_play',
   'editor_open',
+  'resolver_request',
 ])
 
 const STATIC_ROUTE_SEGMENTS = new Set([
@@ -214,4 +215,21 @@ export function trackMediaPlay() {
 
 export function trackEditorOpen() {
   trackNamedEvent('editor_open')
+}
+
+const RESOLVER_EVENTS = new Set([
+  'proxy-audio',
+  'youtube-audio',
+  'detect-chords',
+  'analyze-media',
+  'transcribe',
+  'detect-playback-region',
+  'separate-stems',
+  'stem-audio',
+  'midi2xml',
+])
+
+export function trackResolverRequest(endpoint) {
+  if (!RESOLVER_EVENTS.has(endpoint)) return
+  trackNamedEvent('resolver_request', 'resolver-client/' + endpoint)
 }

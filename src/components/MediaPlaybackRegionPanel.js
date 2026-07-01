@@ -34,6 +34,11 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
   const [loops, setLoops] = useState([]);
   const saveTimerRef = useRef(null);
 
+  const tuneId = tune ? tune.id : null
+  const linkAtIndex = tune && tune.links && linkIndex !== null ? tune.links[linkIndex] : null
+  const playbackLoopsKey = linkAtIndex ? JSON.stringify(linkAtIndex.playbackLoops || []) : null
+  const linkStartAt = linkAtIndex ? linkAtIndex.startAt : null
+  const linkEndAt = linkAtIndex ? linkAtIndex.endAt : null
   useEffect(function() {
     if (!tune || linkIndex === null || !tune.links || !tune.links[linkIndex]) return;
     const normalized = normalizePlaybackLoops(tune.links[linkIndex]);
@@ -43,15 +48,7 @@ export default function MediaPlaybackRegionPanel({ tune, tunebook, mediaControll
         endDisplay: formatLoopEndAt(loop.endAt),
       });
     }));
-  }, [
-    tune ? tune.id : null,
-    linkIndex,
-    tune && tune.links && linkIndex !== null && tune.links[linkIndex]
-      ? JSON.stringify(tune.links[linkIndex].playbackLoops || [])
-      : null,
-    tune && tune.links && linkIndex !== null && tune.links[linkIndex] ? tune.links[linkIndex].startAt : null,
-    tune && tune.links && linkIndex !== null && tune.links[linkIndex] ? tune.links[linkIndex].endAt : null,
-  ]);
+  }, [tune, tuneId, linkIndex, playbackLoopsKey, linkStartAt, linkEndAt]);
 
   function scheduleSave(nextLoops) {
     if (!tune || !tunebook || linkIndex === null) return;

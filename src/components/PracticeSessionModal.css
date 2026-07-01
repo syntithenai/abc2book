@@ -1,0 +1,120 @@
+.practice-session-modal .modal-content {
+  min-height: 100vh;
+}
+
+.practice-session-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.practice-session-header .modal-title {
+  margin: 0;
+}
+
+.practice-session-body {
+  padding-top: 0.5rem;
+}
+
+.practice-session-instruction {
+  background: #eef6ff;
+  border: 2px solid #9ec5fe;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.practice-session-instruction-happening {
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.practice-session-instruction-action {
+  font-size: clamp(1.05rem, 2.2vw, 1.45rem);
+  line-height: 1.35;
+}
+
+.practice-session-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.practice-session-warmup-notation {
+  margin-top: 0.5rem;
+}
+
+.practice-duration-buttons .btn {
+  min-width: 5rem;
+}
+
+.practice-session-header-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.practice-session-instruction-complete {
+  background: #e8f5e9;
+  border-color: #81c784;
+}
+
+.practice-session-ended .practice-session-meta,
+.practice-session-ended .practice-session-warmup-notation,
+.practice-session-ended .practice-session-tune-display {
+  display: none;
+}
+
+.practice-session-tune-display {
+  margin-top: 0.5rem;
+}
+
+.practice-tune-display {
+  max-width: 100%;
+}
+
+.practice-tune-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.practice-tune-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.practice-tune-notation {
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+.practice-tune-lyrics-panel {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.practice-tune-chord-chart {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.75em;
+  line-height: 2em;
+  white-space: pre-wrap;
+}
+
+.music-single-practice-playback-only {
+  position: absolute;
+  left: -10000px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

@@ -3,25 +3,26 @@ import {Button, Modal, Badge} from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
 
 
-export default function SharePublicTuneModal({tunebook, tune}) {
+export default function SharePublicTuneModal({tunebook, tune, buttonClassName}) {
   //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
  
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  var a=process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://tunebook.net'
+  const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://tunebook.net'
+  const tuneId = tune ? tune.id : null
   const [link, setLink] = useState('');
   useEffect(function() {
       if (tune && tune.id && tune.srcUrl) {
-        var link = a + '/#/importlink/'+encodeURIComponent(tune.srcUrl) + '/tune/'+tune.id+'/play'
+        var link = baseUrl + '/#/importlink/'+encodeURIComponent(tune.srcUrl) + '/tune/'+tune.id+'/play'
         setLink(link)
       }
-  },[(tune ? tune.id : null)])
+  },[tune, tuneId, baseUrl])
   
   
   return (
     <>{(link ? true : false) && <>
-      <Button variant="info" onClick={handleShow}>
+      <Button variant="info" className={buttonClassName || undefined} onClick={handleShow}>
         {tunebook.icons.share} Share
       </Button>
 

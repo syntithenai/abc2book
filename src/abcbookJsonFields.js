@@ -1,11 +1,11 @@
 import { audioFiltersAreNeutral } from './pitchTempoUtils';
-import { exportMinimalTimedLyrics, exportMinimalTimedChords } from './timedExportUtils';
 
 const PREFIX = '% abcbook-json ';
 const CHUNK_SIZE = 180;
 
 export const TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords'];
 export const PLAYBACK_JSON_FIELDS = ['playbackAudioFilters'];
+export const EXTRA_JSON_FIELDS = ['backgroundInfo'];
 
 export function renderAbcbookJsonField(fieldName, value) {
   if (value === null || value === undefined) return [];
@@ -20,21 +20,27 @@ export function renderAbcbookJsonField(fieldName, value) {
   });
 }
 
+export function renderExtraAbcbookJsonFields(tune) {
+  const lines = [];
+  if (!tune) return lines;
+  EXTRA_JSON_FIELDS.forEach(function(fieldName) {
+    const value = tune[fieldName];
+    if (value === null || value === undefined || value === '') return;
+    lines.push.apply(lines, renderAbcbookJsonField(fieldName, value));
+  });
+  return lines;
+}
+
 export function renderTimedJsonFields(tune) {
   const lines = [];
   if (!tune) return lines;
-  const timedFields = {
-    timedLyrics: tune.timedLyrics ? exportMinimalTimedLyrics(tune.timedLyrics) : null,
-    timedChords: tune.timedChords ? exportMinimalTimedChords(tune.timedChords) : null,
-  };
-  TIMED_JSON_FIELDS.concat(PLAYBACK_JSON_FIELDS).forEach(function(fieldName) {
-    const value = fieldName === 'playbackAudioFilters'
-      ? tune[fieldName]
-      : timedFields[fieldName];
+  PLAYBACK_JSON_FIELDS.forEach(function(fieldName) {
+    const value = tune[fieldName];
     if (!value) return;
     if (fieldName === 'playbackAudioFilters' && audioFiltersAreNeutral(value)) return;
     lines.push.apply(lines, renderAbcbookJsonField(fieldName, value));
   });
+  lines.push.apply(lines, renderExtraAbcbookJsonFields(tune));
   return lines;
 }
 

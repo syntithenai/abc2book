@@ -16,7 +16,7 @@ export default function Footer(props) {
             
             <div style={{marginTop:'1em',  float:'right'}}>
             The Tune Book is <br/>
-            <a target='_new'  href='https://github.com/syntithenai/abc2book/' ><Button><img style={{maxHeight:'1.5em'}} src="opensource.svg" /> Open Source Software</Button></a>
+            <a target='_new'  href='https://github.com/syntithenai/abc2book/' ><Button><img alt="" style={{maxHeight:'1.5em'}} src="opensource.svg" /> Open Source Software</Button></a>
             </div> 
                 
              

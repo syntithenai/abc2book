@@ -1,3 +1,17 @@
+from chords_fetch import fetch_chords_url, search_chords
+from lyrics_fetch import fetch_lyrics_url, search_lyrics
+from notation_fetch import search_notation
+from playback_region_detect import (
+    PLAYBACK_SCAN_WHISPER_OPTIONS,
+    detect_playback_region_from_wav,
+)
+from tune_background_research import research_tune_background
+from voice_command import (
+    VOICE_WHISPER_OPTIONS,
+    _empty_intent,
+    parse_catalog_json,
+    parse_voice_intent,
+)
 import asyncio
 import hashlib
 import json
@@ -30,6 +44,9 @@ YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
 MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
 MAX_MIDI_IMPORT_BYTES = int(os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024)))
+GOATCOUNTER_API_URL = os.getenv("GOATCOUNTER_API_URL", "").strip()
+GOATCOUNTER_API_TOKEN = os.getenv("GOATCOUNTER_API_TOKEN", "").strip()
+GOATCOUNTER_TIMEOUT_SECONDS = float(os.getenv("GOATCOUNTER_TIMEOUT_SECONDS", "5"))
 WHISPER_TIMEOUT_SECONDS = float(os.getenv("WHISPER_TIMEOUT_SECONDS", "600"))
 AUTOCHORD_TIMEOUT_SECONDS = float(os.getenv("AUTOCHORD_TIMEOUT_SECONDS", "900"))
 WHISPER_CPP_PATH = os.getenv("WHISPER_CPP_PATH", "/app/build/bin/whisper-cli")
@@ -67,6 +84,13 @@ _stem_job_semaphore = None
 _stem_inflight_locks = {}
 _stem_background_tasks = {}
 STEM_SECONDS_PER_TRACK_SECOND = float(os.getenv("STEM_SECONDS_PER_TRACK_SECOND", "1.5"))
+PROXY_ENABLED = os.getenv("PROXY_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
+STEMS_ENABLED = os.getenv("STEMS_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
+WHISPER_ENABLED = os.getenv("WHISPER_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
+LLM_ENABLED = os.getenv("LLM_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
+LLM_HEALTH_CACHE_SECONDS = float(os.getenv("LLM_HEALTH_CACHE_SECONDS", "60"))
+_llm_available_cache = False
+_llm_checked_at = 0.0
 
 
 def _get_stem_job_semaphore():
@@ -129,6 +153,35 @@ def json_error(status, message, origin, hint=None):
     return JSONResponse(status_code=status, content=body, headers=cors_headers(origin))
 
 
+async def _send_goatcounter_resolver_event(path):
+    if not GOATCOUNTER_API_URL or not GOATCOUNTER_API_TOKEN:
+        return
+    try:
+        async with httpx.AsyncClient(timeout=GOATCOUNTER_TIMEOUT_SECONDS) as client:
+            await client.post(
+                GOATCOUNTER_API_URL,
+                headers={
+                    "Authorization": "Bearer " + GOATCOUNTER_API_TOKEN,
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "no_sessions": True,
+                    "hits": [{"path": "resolver-server/" + path, "event": True}],
+                },
+            )
+    except Exception as exc:
+        print("WARNING: GoatCounter resolver analytics failed:", str(exc)[:200])
+
+
+def track_resolver_usage(path):
+    if not GOATCOUNTER_API_URL or not GOATCOUNTER_API_TOKEN:
+        return
+    try:
+        asyncio.create_task(_send_goatcounter_resolver_event(path))
+    except RuntimeError:
+        pass
+
+
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
     origin = request.headers.get("origin")
@@ -147,6 +200,79 @@ async def verify_autochord_runtime():
     autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
     if not os.path.exists(autochord_python):
         print(f"WARNING: autochord python not found at {autochord_python}")
+    asyncio.create_task(_probe_llm_available())
+
+
+def _proxy_available():
+    return PROXY_ENABLED
+
+
+def _stems_available():
+    return STEMS_ENABLED and _proxy_available()
+
+
+def _whisper_runtime_available():
+    if not WHISPER_ENABLED:
+        return False
+    return os.path.isfile(WHISPER_CPP_PATH) and os.path.isfile(MODEL_PATH)
+
+
+def _llm_runtime_available():
+    if not LLM_ENABLED:
+        return False
+    return _llm_available_cache
+
+
+async def _probe_llm_available():
+    global _llm_available_cache, _llm_checked_at
+    if not LLM_ENABLED:
+        _llm_available_cache = False
+        _llm_checked_at = time.time()
+        return False
+
+    from tune_background_research import LLM_API_KEY, LLM_BASE_URL
+
+    if not LLM_BASE_URL:
+        _llm_available_cache = False
+        _llm_checked_at = time.time()
+        return False
+
+    headers = {}
+    if LLM_API_KEY:
+        headers["Authorization"] = "Bearer " + LLM_API_KEY
+
+    available = False
+    try:
+        async with httpx.AsyncClient(timeout=3.0) as client:
+            response = await client.get(LLM_BASE_URL + "/models", headers=headers)
+            available = response.status_code < 500
+    except Exception:
+        available = False
+
+    _llm_available_cache = available
+    _llm_checked_at = time.time()
+    return available
+
+
+async def _refresh_llm_health_if_stale():
+    if time.time() - _llm_checked_at < LLM_HEALTH_CACHE_SECONDS:
+        return _llm_runtime_available()
+    return await _probe_llm_available()
+
+
+def resolver_features():
+    return {
+        "proxy": _proxy_available(),
+        "stems": _stems_available(),
+        "whisper": _whisper_runtime_available(),
+        "llm": _llm_runtime_available(),
+    }
+
+
+def require_resolver_feature(feature_name):
+    features = resolver_features()
+    if not features.get(feature_name):
+        raise HTTPException(status_code=503, detail=f"{feature_name} is not available on this resolver")
 
 
 def get_bearer_token(auth_header):
@@ -1368,7 +1494,7 @@ async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, 
                 pass
 
 
-async def _transcribe_from_wav_path(wav_path, request, require_text=True, whisper_options=None):
+async def _transcribe_from_wav_path(wav_path, request, require_text=True, whisper_options=None, format_as_lyrics=True):
     temp_json_path = wav_path + ".json"
     result = None
     active_backend = "unknown"
@@ -1402,7 +1528,7 @@ async def _transcribe_from_wav_path(wav_path, request, require_text=True, whispe
                 for segment in segments
                 if segment.get("text", "").strip()
             )
-            text = _format_transcribed_lyrics(segments, raw_text)
+            text = _format_transcribed_lyrics(segments, raw_text) if format_as_lyrics else raw_text
             body = {
                 "text": text,
                 "segments": segments,
@@ -1411,7 +1537,7 @@ async def _transcribe_from_wav_path(wav_path, request, require_text=True, whispe
             }
         else:
             raw_text = result["stdout"].strip() if result["stdout"] else ""
-            text = _format_transcribed_lyrics([], raw_text)
+            text = _format_transcribed_lyrics([], raw_text) if format_as_lyrics else raw_text
             body = {
                 "text": text,
                 "segments": [],
@@ -1794,7 +1920,7 @@ async def root(request: Request):
         {
             "service": "abc2book-local-resolver",
             "health": "/health",
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-chords", "/analyze-media", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/research-tune-background", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(request.headers.get("origin")),
@@ -1803,11 +1929,13 @@ async def root(request: Request):
 
 @app.get("/health")
 async def health(request: Request, authorization: str | None = Header(default=None)):
+    await _refresh_llm_health_if_stale()
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "demucsModel": os.getenv("MELODY_DEMUCS_MODEL", "htdemucs"),
         "demucsStems": list(_demucs_stems_for_model()),
+        "features": resolver_features(),
     }
     if REQUIRE_AUTH:
         token = get_bearer_token(authorization)
@@ -1836,6 +1964,8 @@ async def proxy_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        require_resolver_feature("proxy")
+        track_resolver_usage('proxy-audio')
         validated, error = validate_target_url(url)
         if error:
             return json_error(400, error, origin)
@@ -1855,6 +1985,8 @@ async def youtube_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        require_resolver_feature("proxy")
+        track_resolver_usage('youtube-audio')
         response, error = await stream_youtube_via_ytdlp(video_id)
         if error:
             status = 400 if error == "Invalid YouTube video id" else 502
@@ -1874,6 +2006,7 @@ async def detect_chords(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        track_resolver_usage('detect-chords')
 
         audio_bytes = b""
         filename = "audio.bin"
@@ -1931,6 +2064,7 @@ async def analyze_media(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        track_resolver_usage('analyze-media')
 
         try:
             if file is not None:
@@ -1986,6 +2120,8 @@ async def transcribe(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        require_resolver_feature("whisper")
+        track_resolver_usage('transcribe')
 
         audio_bytes = b""
         filename = "audio.bin"
@@ -2033,6 +2169,585 @@ async def transcribe(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+async def _transcribe_wav_for_playback_scan(wav_path, request):
+    return await _transcribe_from_wav_path(
+        wav_path,
+        request,
+        require_text=False,
+        whisper_options=PLAYBACK_SCAN_WHISPER_OPTIONS,
+        format_as_lyrics=False,
+    )
+
+
+async def detect_playback_region_from_audio(audio_bytes, filename, request, on_progress=None):
+    suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+    temp_audio_path = None
+    wav_path = None
+
+    async def emit(stage, message, progress):
+        if callable(on_progress):
+            await on_progress(stage, message, progress)
+
+    try:
+        await emit("resolve", "Preparing audio...", 0.05)
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
+
+        wav_path = await _convert_audio_to_wav(temp_audio_path)
+        return await detect_playback_region_from_wav(
+            wav_path,
+            request,
+            _transcribe_wav_for_playback_scan,
+            on_progress=emit,
+        )
+    finally:
+        if temp_audio_path:
+            try:
+                os.unlink(temp_audio_path)
+            except FileNotFoundError:
+                pass
+        if wav_path:
+            try:
+                os.unlink(wav_path)
+            except FileNotFoundError:
+                pass
+            temp_json_path = wav_path + ".json"
+            try:
+                os.unlink(temp_json_path)
+            except FileNotFoundError:
+                pass
+
+
+async def stream_playback_region_detect_events(audio_bytes, filename, request):
+    queue = asyncio.Queue()
+
+    async def on_progress(stage, message, progress):
+        await queue.put({
+            "type": "progress",
+            "stage": stage,
+            "message": message,
+            "progress": progress,
+        })
+
+    async def run():
+        try:
+            body = await detect_playback_region_from_audio(
+                audio_bytes,
+                filename,
+                request,
+                on_progress=on_progress,
+            )
+            await queue.put({"type": "result", "body": body})
+        except HTTPException as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc.detail),
+                "status": exc.status_code,
+            })
+        except Exception as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc),
+                "status": 500,
+            })
+        finally:
+            await queue.put(None)
+
+    task = asyncio.create_task(run())
+    try:
+        while True:
+            item = await queue.get()
+            if item is None:
+                break
+            yield json.dumps(item) + "\n"
+    finally:
+        await task
+
+
+@app.post("/detect-playback-region")
+async def detect_playback_region_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("whisper")
+        track_resolver_usage("detect-playback-region")
+
+        audio_bytes, filename, _content_type, _processing = await _resolve_audio_payload(
+            request,
+            None,
+        )
+        if not audio_bytes:
+            return JSONResponse(
+                {
+                    "startAt": 0,
+                    "endAt": 0,
+                    "duration": 0,
+                    "confidence": 0,
+                    "method": "none",
+                    "backend": "none",
+                },
+                headers=cors_headers(origin),
+            )
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+        if wants_stream:
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(
+                stream_playback_region_detect_events(audio_bytes, filename, request),
+                media_type="application/x-ndjson",
+                headers=headers,
+            )
+
+        body = await detect_playback_region_from_audio(audio_bytes, filename, request)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+async def _process_voice_command_audio(audio_bytes, filename, books, tags, request):
+    total_started = time.monotonic()
+    transcribe_started = time.monotonic()
+    suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
+    temp_audio_path = None
+    wav_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
+
+        wav_path = await _convert_audio_to_wav(temp_audio_path)
+        transcription = await _transcribe_from_wav_path(
+            wav_path,
+            request,
+            require_text=False,
+            whisper_options=VOICE_WHISPER_OPTIONS,
+            format_as_lyrics=False,
+        )
+        transcribe_ms = int((time.monotonic() - transcribe_started) * 1000)
+        transcript = str(transcription.get("text") or "").strip()
+        if not transcript:
+            result = _empty_intent("", "none")
+            result["timing"] = {
+                "transcribeMs": transcribe_ms,
+                "parseMs": 0,
+                "totalMs": int((time.monotonic() - total_started) * 1000),
+            }
+            return result
+
+        parse_started = time.monotonic()
+        try:
+            intent = await parse_voice_intent(transcript, books, tags)
+        except Exception as exc:
+            intent = _empty_intent(transcript, "llm")
+            intent["error"] = str(exc)[:200]
+        parse_ms = int((time.monotonic() - parse_started) * 1000)
+        intent["timing"] = {
+            "transcribeMs": transcribe_ms,
+            "parseMs": parse_ms,
+            "totalMs": int((time.monotonic() - total_started) * 1000),
+        }
+        return intent
+    finally:
+        if temp_audio_path:
+            try:
+                os.unlink(temp_audio_path)
+            except FileNotFoundError:
+                pass
+        if wav_path:
+            try:
+                os.unlink(wav_path)
+            except FileNotFoundError:
+                pass
+            temp_json_path = wav_path + ".json"
+            try:
+                os.unlink(temp_json_path)
+            except FileNotFoundError:
+                pass
+
+
+@app.post("/voice-command")
+async def voice_command_endpoint(
+    request: Request,
+    file: UploadFile = File(...),
+    books: str = Form(default="[]"),
+    tags: str = Form(default="[]"),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("whisper")
+        track_resolver_usage("voice-command")
+
+        audio_bytes = await file.read()
+        if not audio_bytes:
+            return json_error(400, "Missing audio file", origin)
+
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        try:
+            book_list = parse_catalog_json(books, "books")
+            tag_list = parse_catalog_json(tags, "tags")
+        except ValueError as exc:
+            return json_error(400, str(exc), origin)
+
+        filename = file.filename or "voice-command.webm"
+        body = await _process_voice_command_audio(
+            audio_bytes,
+            filename,
+            book_list,
+            tag_list,
+            request,
+        )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/search-lyrics")
+async def search_lyrics_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('search-lyrics')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        page_url = str(payload.get("url") or "").strip()
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+
+        if wants_stream:
+            async def stream_events():
+                queue = asyncio.Queue()
+
+                async def on_progress(stage, message, progress):
+                    await queue.put({
+                        "type": "progress",
+                        "stage": stage,
+                        "message": message,
+                        "progress": progress,
+                    })
+
+                async def run():
+                    try:
+                        if page_url:
+                            body = await fetch_lyrics_url(page_url, on_progress=on_progress)
+                        else:
+                            body = await search_lyrics(title, artist, on_progress=on_progress)
+                        await queue.put({"type": "result", "body": body})
+                    except ValueError as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 400,
+                        })
+                    except HTTPException as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc.detail),
+                            "status": exc.status_code,
+                        })
+                    except Exception as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 500,
+                        })
+                    finally:
+                        await queue.put(None)
+
+                task = asyncio.create_task(run())
+                try:
+                    while True:
+                        item = await queue.get()
+                        if item is None:
+                            break
+                        yield json.dumps(item) + "\n"
+                finally:
+                    await task
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
+
+        if page_url:
+            body = await fetch_lyrics_url(page_url)
+        else:
+            body = await search_lyrics(title, artist)
+
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/search-chords")
+async def search_chords_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('search-chords')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        page_url = str(payload.get("url") or "").strip()
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+
+        if wants_stream:
+            async def stream_events():
+                queue = asyncio.Queue()
+
+                async def on_progress(stage, message, progress):
+                    await queue.put({
+                        "type": "progress",
+                        "stage": stage,
+                        "message": message,
+                        "progress": progress,
+                    })
+
+                async def run():
+                    try:
+                        if page_url:
+                            body = await fetch_chords_url(page_url, on_progress=on_progress)
+                        else:
+                            body = await search_chords(title, artist, on_progress=on_progress)
+                        await queue.put({"type": "result", "body": body})
+                    except ValueError as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 400,
+                        })
+                    except HTTPException as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc.detail),
+                            "status": exc.status_code,
+                        })
+                    except Exception as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 500,
+                        })
+                    finally:
+                        await queue.put(None)
+
+                task = asyncio.create_task(run())
+                try:
+                    while True:
+                        item = await queue.get()
+                        if item is None:
+                            break
+                        yield json.dumps(item) + "\n"
+                finally:
+                    await task
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
+
+        if page_url:
+            body = await fetch_chords_url(page_url)
+        else:
+            body = await search_chords(title, artist)
+
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/search-notation")
+async def search_notation_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('search-notation')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        song_type = str(payload.get("songType") or "instrumental").strip()
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+
+        if wants_stream:
+            async def stream_events():
+                queue = asyncio.Queue()
+
+                async def on_progress(stage, message, progress):
+                    await queue.put({
+                        "type": "progress",
+                        "stage": stage,
+                        "message": message,
+                        "progress": progress,
+                    })
+
+                async def run():
+                    try:
+                        body = await search_notation(
+                            title,
+                            artist,
+                            song_type=song_type,
+                            on_progress=on_progress,
+                        )
+                        await queue.put({"type": "result", "body": body})
+                    except ValueError as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 400,
+                        })
+                    except HTTPException as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc.detail),
+                            "status": exc.status_code,
+                        })
+                    except Exception as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 500,
+                        })
+                    finally:
+                        await queue.put(None)
+
+                task = asyncio.create_task(run())
+                try:
+                    while True:
+                        item = await queue.get()
+                        if item is None:
+                            break
+                        yield json.dumps(item) + "\n"
+                finally:
+                    await task
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
+
+        body = await search_notation(title, artist, song_type=song_type)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+async def stream_tune_background_research_events(title, artist, lyrics=""):
+    queue = asyncio.Queue()
+
+    async def on_progress(stage, message, progress, elapsed_ms=None):
+        await queue.put({
+            "type": "progress",
+            "stage": stage,
+            "message": message,
+            "progress": progress,
+            "elapsedMs": elapsed_ms,
+        })
+
+    async def run():
+        try:
+            body = await research_tune_background(title, artist, lyrics, on_progress=on_progress)
+            await queue.put({"type": "result", "body": body})
+        except ValueError as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc),
+                "status": 400,
+            })
+        except HTTPException as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc.detail),
+                "status": exc.status_code,
+            })
+        except Exception as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc),
+                "status": 500,
+            })
+        finally:
+            await queue.put(None)
+
+    task = asyncio.create_task(run())
+    try:
+        while True:
+            item = await queue.get()
+            if item is None:
+                break
+            yield json.dumps(item) + "\n"
+    finally:
+        await task
+
+
+@app.post("/research-tune-background")
+async def research_tune_background_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("llm")
+        track_resolver_usage('research-tune-background')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        lyrics = str(payload.get("lyrics") or "")
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+        if wants_stream:
+            async def body():
+                async for line in stream_tune_background_research_events(title, artist, lyrics):
+                    yield line.encode("utf-8")
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
+
+        body = await research_tune_background(title, artist, lyrics)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 async def convert_midi_to_musicxml(midi_bytes: bytes, filename: str) -> str:
     def _convert():
         from music21 import converter
@@ -2064,6 +2779,8 @@ async def separate_stems(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        require_resolver_feature("stems")
+        track_resolver_usage('separate-stems')
 
         if file is not None:
             audio_bytes = await file.read()
@@ -2123,6 +2840,7 @@ async def get_stem_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        track_resolver_usage('stem-audio')
         if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
             return json_error(400, "Invalid cache id", origin)
         cache_dir = _stem_cache_dir(cache_id)
@@ -2152,6 +2870,7 @@ async def midi2xml(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
+        track_resolver_usage('midi2xml')
 
         midi_bytes = b""
         filename = "import.mid"

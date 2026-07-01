@@ -1,4 +1,4 @@
-export function getLinkedMediaSources(tune, tunebook, recordingsManager) {
+export function getLinkedMediaSources(tune, tunebook) {
   const sources = [];
 
   if (tune && Array.isArray(tune.links)) {
@@ -12,21 +12,6 @@ export function getLinkedMediaSources(tune, tunebook, recordingsManager) {
         srcType: tunebook.utils.isYoutubeLink(src) ? 'youtube' : 'audio',
         label: link.title || ('Linked media ' + (index + 1)),
         detail: src,
-      });
-    });
-  }
-
-  if (recordingsManager && Array.isArray(recordingsManager.filtered)) {
-    recordingsManager.filtered.forEach(function(recording) {
-      if (!recording || !recording.id || !recording.type || !recording.type.startsWith('audio/')) return;
-      sources.push({
-        id: 'recording-' + recording.id,
-        kind: 'recording',
-        recordingId: recording.id,
-        fileName: recording.name || 'recording.wav',
-        mimeType: recording.type,
-        label: recording.name || 'Recording',
-        detail: 'Stored recording',
       });
     });
   }

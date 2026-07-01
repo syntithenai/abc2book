@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal } from 'react-bootstrap';
 import Abc from '../Abc';
+import LocalSearchSelectorModal from '../LocalSearchSelectorModal';
 import MelodyProcessingPanel from '../MelodyProcessingPanel';
 import { applyMelodyNoteSettingsToDraft } from '../../melodyRefilterUtils';
 
@@ -20,12 +21,15 @@ function settingsEqual(left, right) {
   return left.noiseMode === right.noiseMode
     && Number(left.confidenceThreshold) === Number(right.confidenceThreshold)
     && Number(left.minNoteSeconds) === Number(right.minNoteSeconds)
-    && Number(left.quantizeStrength) === Number(right.quantizeStrength);
+    && Number(left.quantizeStrength) === Number(right.quantizeStrength)
+    && !!left.snapToScale === !!right.snapToScale;
 }
 
+const EMPTY_METADATA = {};
+
 export default function MediaImportNotationStep(props) {
-  const draft = props.draft;
-  const metadata = draft.metadata || {};
+  const { draft, onChange, tunebook } = props;
+  const metadata = draft.metadata || EMPTY_METADATA;
   const userEditedRef = useRef(!!draft.melodyNotesEdited);
   const [notesText, setNotesText] = useState(draft.melodyNotesText || '');
   const [debouncedPreview, setDebouncedPreview] = useState(
@@ -38,29 +42,27 @@ export default function MediaImportNotationStep(props) {
     userEditedRef.current = !!draft.melodyNotesEdited;
   }, [draft.melodyNotesEdited]);
 
-  // When analysis or note settings refresh melodyNotesText, load it unless the user has edited.
   useEffect(function() {
     if (userEditedRef.current) return;
     const next = draft.melodyNotesText || '';
     setNotesText(next);
     setDebouncedPreview(buildMelodyPreviewAbc(metadata, next));
-  }, [draft.melodyNotesText]);
+  }, [draft.melodyNotesText, metadata]);
 
-  // Re-render preview when metadata key/meter changes (e.g. detected key on Metadata tab).
   useEffect(function() {
     setDebouncedPreview(buildMelodyPreviewAbc(metadata, notesText));
-  }, [metadata.key, metadata.meter, metadata.noteLength]);
+  }, [notesText, metadata]);
 
   useEffect(function() {
     const timer = setTimeout(function() {
       setDebouncedPreview(buildMelodyPreviewAbc(metadata, notesText));
-      props.onChange({
+      onChange({
         melodyNotesText: notesText,
         melodyNotesEdited: userEditedRef.current,
       });
     }, 300);
     return function() { clearTimeout(timer); };
-  }, [notesText]);
+  }, [notesText, onChange, metadata]);
 
   function handleChange(value) {
     userEditedRef.current = true;
@@ -68,11 +70,11 @@ export default function MediaImportNotationStep(props) {
   }
 
   function applyNoteSettings(nextSettings) {
-    const patch = applyMelodyNoteSettingsToDraft(draft, nextSettings, props.tunebook);
+    const patch = applyMelodyNoteSettingsToDraft(draft, nextSettings, tunebook);
     userEditedRef.current = false;
     setNotesText(patch.melodyNotesText || '');
     setDebouncedPreview(buildMelodyPreviewAbc(metadata, patch.melodyNotesText || ''));
-    props.onChange(patch);
+    onChange(patch);
   }
 
   function handleNoteSettingsChange(nextSettings) {
@@ -100,21 +102,55 @@ export default function MediaImportNotationStep(props) {
     setShowSettingsWarning(false);
   }
 
-  if (!draft.melodyAbcText && !notesText.trim() && !(draft.melodySourceNotes || []).length) {
-    return (
-      <Alert variant="info">
-        No transcribed melody is available yet. Run analysis on the Analyze step, or paste ABC notes here after analysis completes.
-      </Alert>
-    );
+  function handleNotationImport(mergedTune) {
+    if (!mergedTune) return;
+    const abcTools = tunebook.abcTools;
+    const importedAbc = abcTools.json2abc(mergedTune);
+    const importedNotes = abcTools.justNotesNoMeta
+      ? abcTools.justNotesNoMeta(importedAbc)
+      : abcTools.justNotes(importedAbc);
+    userEditedRef.current = true;
+    setNotesText(importedNotes);
+    setDebouncedPreview(buildMelodyPreviewAbc(
+      Object.assign({}, metadata, {
+        key: mergedTune.key || metadata.key,
+        meter: mergedTune.meter || metadata.meter,
+        noteLength: mergedTune.noteLength || metadata.noteLength,
+      }),
+      importedNotes
+    ));
+    props.onChange({
+      melodyNotesText: importedNotes,
+      melodyNotesEdited: true,
+      metadata: Object.assign({}, metadata, {
+        key: mergedTune.key || metadata.key,
+        meter: mergedTune.meter || metadata.meter,
+        noteLength: mergedTune.noteLength || metadata.noteLength,
+      }),
+    });
   }
 
   return (
     <div>
+      <div style={{ display: 'flex', gap: '0.5em', alignItems: 'center', marginBottom: '0.75em', flexWrap: 'wrap' }}>
+        <LocalSearchSelectorModal
+          value={metadata.name || ''}
+          currentTune={props.tune || { id: 'wizard', name: metadata.name || '', rhythm: metadata.rhythm || '' }}
+          tunebook={props.tunebook}
+          searchIndex={props.searchIndex}
+          loadTuneTexts={props.loadTuneTexts}
+          onStageImport={handleNotationImport}
+          token={props.token}
+        />
+        <span style={{ fontSize: '0.9em', color: '#666' }}>
+          Look up ABC notation from your collection, The Session, or the web.
+        </span>
+      </div>
       <Alert variant="info" style={{ marginBottom: '1em' }}>
-        Edit the transcribed melody below. Changes are previewed with the key and meter from the Metadata step.
+        Edit the melody below. Changes are previewed with the key and meter from the Metadata step.
         The tune is not updated until you click Finish.
       </Alert>
-      {(draft.melodySourceNotes || []).length > 0 && (
+      {(draft.melodySourceNotes || []).length > 0 && props.resolverAvailable !== false && (
         <MelodyProcessingPanel
           variant="notation"
           settings={draft.melodyNoteSettings}
@@ -142,7 +178,7 @@ export default function MediaImportNotationStep(props) {
           <textarea
             value={notesText}
             onChange={function(e) { handleChange(e.target.value); }}
-            placeholder="Transcribed melody (ABC notes only)"
+            placeholder="Paste or edit ABC notes here"
           />
         </div>
       </div>

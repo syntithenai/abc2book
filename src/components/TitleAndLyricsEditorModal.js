@@ -1,25 +1,47 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
 import useMusicBrainz from '../useMusicBrainz'
 import useAbcjsParser from '../useAbcjsParser'
 import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setLyricLines } from '../wLinesUtils'
+import { applyNoteSpacingToTune } from '../noteSpacingUtils'
+import LyricsSearchButton from './LyricsSearchButton'
+import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
-export default function TitleAndLyricsEditorModal({tune, tunebook, token, recordingsManager}) {
+export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts}) {
   const [show, setShow] = useState(false)
+  const responsiveModalProps = useResponsiveModalProps()
   const handleClose = () => {
       setShow(false);
   }
   const handleShow = () => setShow(true);
+
+  useEffect(function() {
+    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show)
+    return function() {
+      if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(false)
+    }
+  }, [show, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
   var abcjsParser = useAbcjsParser()
   let params = useParams();
+
+  function saveLyrics(lines) {
+    setLyricLines(tune, lines)
+    tune.id = params.tuneId
+    tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+  }
+
+  function buildLyricsSearchQuery() {
+    return [tune.name, tune.composer || '', 'lyrics'].filter(Boolean).join(' ')
+  }
+
   return (
     <>
-        <span onClick={handleShow} style={{fontWeight:'bold'}} >{tune ? tune.name : ''}</span>
+        <button type="button" className="title-lyrics-edit-trigger" onClick={handleShow}>{tune ? tune.name : ''}</button>
     
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
           <Modal.Title>Edit</Modal.Title>
         </Modal.Header>
@@ -29,7 +51,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, record
             
              <Form.Group className="mb-3" controlId="title">
                         <Form.Label>Title</Form.Label>
-                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; tunebook.saveTune(tune)  }} />
+                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })  }} />
                       </Form.Group>
                       
                       <Form.Group className="mb-3" controlId="composer">
@@ -37,7 +59,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, record
                         
                       <AsyncCreatableSelect
                             value={tune && tune.composer ? {value:tune.composer, label:tune.composer} : {value:'', label:''}}
-                            onChange={function(val) {if (val) {tune.composer = val.label; tune.id = params.tuneId; tunebook.saveTune(tune)  }}}
+                            onChange={function(val) {if (val) {tune.composer = val.label; tune.id = params.tuneId; tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })  }}}
                             defaultOptions={[]} loadOptions={musicBrainz.artistOptions}
                             isClearable={false}
                             blurInputOnSelect={true}
@@ -49,18 +71,23 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, record
                       
                       </Form.Group>
                     <Form.Group className="mb-3" controlId="key">
-                        <a target="_new" href={"https://www.google.com/search?q=lyrics "+tune.name + ' '+(tune.composer ? tune.composer : '')} ><Button>Search Lyrics</Button></a>
-                        <a target="_new" href={"https://www.google.com/search?q=chords " + '"' +tune.name + '"' + ' '+(tune.composer ?  tune.composer : '')  +  " " + tunebook.allowedChordSites} ><Button>Search Chords</Button></a>
-                        <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+tune.name + ' '+(tune.composer ? tune.composer : '')+ ' '+(tune.rhythm ? tune.rhythm : '')} ><Button>{tunebook.icons.externallink}</Button>
+                        <LyricsSearchButton
+                          title={tune.name}
+                          artist={tune.composer || ''}
+                          token={token}
+                          onLyrics={function(result) { saveLyrics(result.lines) }}
+                        />
+                        <a style={{marginRight:'0.2em'}} target="_new" rel="noreferrer" href={'https://www.google.com/search?q=' + encodeURIComponent(buildLyricsSearchQuery())}><Button>{tunebook.icons.externallink}</Button>
                         </a>
                         <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
                             var start = lyricLinesToText(tune)
                             var clean = abcjsParser.cleanupLyrics(start)
-                            setLyricLines(tune, clean.split('\n'))
-                            tune.id = params.tuneId
-                            tunebook.saveTune(tune)
+                            saveLyrics(clean.split('\n'))
                         }} >{tunebook.icons.wizard} Clean</Button>
-                        <textarea value={lyricLinesToText(tune)} onChange={function(e) {setLyricLines(tune, e.target.value.split('\n')); tune.id = params.tuneId; tunebook.saveTune(tune)  }} style={{width:'100%', height:'30em'}}  />
+                        <Button variant="info" style={{marginLeft:'0.6em'}} onClick={function() {
+                            saveLyrics(applyNoteSpacingToTune(tune))
+                        }} >Apply Note Spacing</Button>
+                        <textarea value={lyricLinesToText(tune)} onChange={function(e) {saveLyrics(e.target.value.split('\n'))  }} className="title-lyrics-editor-textarea" style={{width:'100%', minHeight:'12em', maxHeight:'50vh'}}  />
                     </Form.Group>
 
         </Modal.Body> 

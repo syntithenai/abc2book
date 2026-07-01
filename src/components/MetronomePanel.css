@@ -1,0 +1,145 @@
+.metronome-panel {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.metronome-panel__card {
+  border: 2px solid #0d6efd;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background: #fff;
+}
+
+.metronome-panel__transport {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.metronome-panel__tempo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.metronome-panel__tempo input[type='number'] {
+  width: 5rem;
+  text-align: center;
+}
+
+.metronome-panel__tempo-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  min-width: 4rem;
+  text-align: center;
+}
+
+.metronome-panel__beat-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  min-height: 3.5rem;
+}
+
+.metronome-panel__beat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.metronome-panel__beat-pulses {
+  display: flex;
+  gap: 0.2rem;
+  min-height: 0.55rem;
+}
+
+.metronome-panel__pulse-dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: #dee2e6;
+}
+
+.metronome-panel__pulse-dot.is-active {
+  background: #ffc107;
+}
+
+.metronome-panel__beat-indicator {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 2px solid #adb5bd;
+  background: #f8f9fa;
+  transition: transform 0.08s ease, background 0.08s ease, border-color 0.08s ease;
+}
+
+.metronome-panel__beat-indicator.is-active {
+  transform: scale(1.12);
+  border-color: #0d6efd;
+  background: #cfe2ff;
+}
+
+.metronome-panel__beat-indicator.is-accent-active {
+  background: #0d6efd;
+  border-color: #0a58ca;
+}
+
+.metronome-panel__section-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.metronome-panel__presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.metronome-panel__beat-editor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.metronome-panel__beat-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.metronome-panel__beat-cell button {
+  min-width: 3rem;
+}
+
+.metronome-panel__beat-cell-label {
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+.metronome-panel__controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.metronome-panel__hint {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

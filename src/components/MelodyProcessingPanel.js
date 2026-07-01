@@ -1,17 +1,22 @@
-import { useState } from 'react';
-import { Button, Form, Modal } from 'react-bootstrap';
-import { icons } from '../Icons';
+import { Button, Form } from 'react-bootstrap';
+import FormFieldHelp from './FormFieldHelp';
 import {
   MELODY_PROCESSING_DEFAULTS,
   NOISE_MODE_PRESETS,
   loadMelodyNoteSettings,
   saveMelodyProcessingSettings,
 } from '../melodyProcessingSettings';
+import './MelodyProcessingPanel.css';
+
+const MUSIC_TYPE_OPTIONS = [
+  { value: 'vocal', label: 'Song' },
+  { value: 'instrumental', label: 'Instrumental' },
+];
 
 const ANALYSIS_HELP_FIELDS = [
   {
     title: 'Music type',
-    body: 'Chooses how Demucs stems are mixed before analysis. Vocal music sends vocals only to lyrics and melody detection, and reduces vocals and percussion for chord detection. Instrumental favours the other and bass stems for melody and reduces percussion for chords.',
+    body: 'Chooses how Demucs stems are mixed before analysis. Song sends vocals only to lyrics and melody detection, and reduces vocals and percussion for chord detection. Instrumental favours the other and bass stems for melody and reduces percussion for chords.',
   },
 ];
 
@@ -38,6 +43,12 @@ const NOTATION_HELP_FIELDS = [
   },
 ];
 
+const NOISE_MODE_OPTIONS = [
+  { key: 'sparse', label: 'Sparse' },
+  { key: 'balanced', label: 'Balanced' },
+  { key: 'permissive', label: 'Permissive' },
+];
+
 function getDefaultSettings(variant) {
   if (variant === 'notation') {
     return loadMelodyNoteSettings();
@@ -51,7 +62,6 @@ export default function MelodyProcessingPanel(props) {
   const variant = props.variant || 'analysis';
   const settings = props.settings || getDefaultSettings(variant);
   const persist = props.persist !== false;
-  const [showHelp, setShowHelp] = useState(false);
   const helpFields = variant === 'notation' ? NOTATION_HELP_FIELDS : ANALYSIS_HELP_FIELDS;
   const helpTitle = variant === 'notation' ? 'Note detection settings' : 'Analysis settings';
 
@@ -71,36 +81,65 @@ export default function MelodyProcessingPanel(props) {
   }
 
   return (
-    <div className="melody-processing-panel" style={{ marginTop: '0.8em', marginBottom: '0.8em' }}>
-      <Form.Label>{props.title || (variant === 'notation' ? 'Note detection settings' : 'Analysis settings')}</Form.Label>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.8em', alignItems: 'flex-end' }}>
-        {variant === 'analysis' && (
-          <Form.Select
-            style={{ width: '11em' }}
-            value={settings.musicType || 'vocal'}
-            onChange={function(e) { update('musicType', e.target.value); }}
-            title="Music type — controls stem mixing before analysis"
-          >
-            <option value="vocal">Vocal music</option>
-            <option value="instrumental">Instrumental</option>
-          </Form.Select>
-        )}
-        {variant === 'notation' && (
-          <>
+    <div className={'melody-processing-panel' + (props.showTitle === false ? ' melody-processing-panel--no-title' : '')}>
+      {props.showTitle !== false && (
+        <Form.Label>{props.title || (variant === 'notation' ? 'Note detection settings' : 'Analysis settings')}</Form.Label>
+      )}
+      {variant === 'analysis' && (
+        <div className="melody-processing-analysis-options">
+          <div className="melody-processing-field melody-processing-music-type">
+            <Form.Label>Music type</Form.Label>
             <Form.Select
-              style={{ width: '10em' }}
-              value={settings.noiseMode}
-              onChange={function(e) { update('noiseMode', e.target.value); }}
-              title="Note detection sensitivity preset"
+              value={settings.musicType || 'vocal'}
+              onChange={function(e) { update('musicType', e.target.value); }}
+              size="sm"
+              aria-label="Music type"
             >
-              <option value="sparse">Notes: sparse</option>
-              <option value="balanced">Notes: balanced</option>
-              <option value="permissive">Notes: permissive</option>
+              {MUSIC_TYPE_OPTIONS.map(function(option) {
+                return (
+                  <option key={option.value} value={option.value}>{option.label}</option>
+                );
+              })}
             </Form.Select>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2em' }}>
-              <Form.Label style={{ fontSize: '0.85em', marginBottom: 0 }}>Confidence</Form.Label>
+          </div>
+          <div className="melody-processing-meter-changes">
+            <Form.Check
+              type="checkbox"
+              id="analysis-enable-meter-changes"
+              label="Enable time signature changes"
+              checked={!!settings.enableMeterChanges}
+              onChange={function(e) { update('enableMeterChanges', e.target.checked); }}
+              title="Include detected meter changes in chord and melody output"
+            />
+          </div>
+          <FormFieldHelp
+            title={helpTitle}
+            fields={helpFields}
+            className="melody-processing-help-btn"
+            buttonTitle="Explain analysis settings"
+          />
+        </div>
+      )}
+      {variant === 'notation' && (
+        <>
+          <div className="melody-processing-noise-buttons">
+            {NOISE_MODE_OPTIONS.map(function(option) {
+              return (
+                <Button
+                  key={option.key}
+                  size="sm"
+                  variant={settings.noiseMode === option.key ? 'primary' : 'outline-primary'}
+                  onClick={function() { update('noiseMode', option.key); }}
+                >
+                  Notes: {option.label}
+                </Button>
+              );
+            })}
+          </div>
+          <div className="melody-processing-settings-grid">
+            <div className="melody-processing-field">
+              <Form.Label>Confidence</Form.Label>
               <Form.Control
-                style={{ width: '8em' }}
                 type="number"
                 min="0.05"
                 max="1"
@@ -110,10 +149,9 @@ export default function MelodyProcessingPanel(props) {
                 title="Pitch confidence threshold"
               />
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2em' }}>
-              <Form.Label style={{ fontSize: '0.85em', marginBottom: 0 }}>Min note (s)</Form.Label>
+            <div className="melody-processing-field">
+              <Form.Label>Min note (s)</Form.Label>
               <Form.Control
-                style={{ width: '8em' }}
                 type="number"
                 min="0.05"
                 max="1"
@@ -123,11 +161,10 @@ export default function MelodyProcessingPanel(props) {
                 title="Minimum note length (seconds)"
               />
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2em' }}>
-              <Form.Label style={{ fontSize: '0.85em', marginBottom: 0 }}>Quantize</Form.Label>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.35em' }}>
+            <div className="melody-processing-field">
+              <Form.Label>Quantize</Form.Label>
+              <div className="melody-processing-field-row">
                 <Form.Control
-                  style={{ width: '8em' }}
                   type="number"
                   min="0"
                   max="1"
@@ -136,21 +173,16 @@ export default function MelodyProcessingPanel(props) {
                   onChange={function(e) { update('quantizeStrength', parseFloat(e.target.value) || 0.7); }}
                   title="Beat grid quantize strength"
                 />
-                <Button
-                  variant="link"
-                  size="sm"
+                <FormFieldHelp
+                  title={helpTitle}
+                  fields={helpFields}
                   className="melody-processing-help-btn"
-                  style={{ padding: '0.15em 0.35em', minWidth: 'auto', lineHeight: 1 }}
-                  onClick={function() { setShowHelp(true); }}
-                  title="Explain note detection settings"
-                  aria-label="Explain note detection settings"
-                >
-                  {icons.question}
-                </Button>
+                  buttonTitle="Explain note detection settings"
+                />
               </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2em' }}>
-              <Form.Label style={{ fontSize: '0.85em', marginBottom: 0 }}>Snap to scale</Form.Label>
+            <div className="melody-processing-field">
+              <Form.Label>Snap to scale</Form.Label>
               <Form.Check
                 type="switch"
                 id="melody-snap-to-scale"
@@ -159,25 +191,12 @@ export default function MelodyProcessingPanel(props) {
                 label={settings.snapToScale ? 'On' : 'Off'}
               />
             </div>
-          </>
-        )}
-        {variant === 'analysis' && (
-          <Button
-            variant="link"
-            size="sm"
-            className="melody-processing-help-btn"
-            style={{ padding: '0.15em 0.35em', minWidth: 'auto', lineHeight: 1 }}
-            onClick={function() { setShowHelp(true); }}
-            title="Explain analysis settings"
-            aria-label="Explain analysis settings"
-          >
-            {icons.question}
-          </Button>
-        )}
-      </div>
-      {variant === 'analysis' && settings.musicType === 'vocal' && (
+          </div>
+        </>
+      )}
+      {variant === 'analysis' && (settings.musicType || 'vocal') === 'vocal' && (
         <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.5em' }}>
-          Vocal preset: melody and lyrics use the vocal stem only; chords reduce vocals and percussion.
+          Song preset: melody and lyrics use the vocal stem only; chords reduce vocals and percussion.
         </div>
       )}
       {variant === 'analysis' && settings.musicType === 'instrumental' && (
@@ -190,27 +209,6 @@ export default function MelodyProcessingPanel(props) {
           Changing these settings re-filters the detected melody and replaces any manual note edits.
         </div>
       )}
-
-      <Modal show={showHelp} onHide={function() { setShowHelp(false); }} size="lg">
-        <Modal.Header closeButton>
-          <Modal.Title>{helpTitle}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          {helpFields.map(function(field) {
-            return (
-              <div key={field.title} style={{ marginBottom: '1em' }}>
-                <strong>{field.title}</strong>
-                <div style={{ marginTop: '0.25em' }}>{field.body}</div>
-              </div>
-            );
-          })}
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" onClick={function() { setShowHelp(false); }}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
     </div>
   );
 }

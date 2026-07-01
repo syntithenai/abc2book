@@ -351,8 +351,8 @@ function ImportFilesModal(props) {
 							/>
 							</div>
 							
-							{(item && item.type === 'image' && item.data) && <img style={{height:'100px'}} src={item.data} />}
-							{(item && item.type === 'pdf' && item.data) && <iframe style={{height:'100px'}} src={item.data} />}
+							{(item && item.type === 'image' && item.data) && <img alt="" style={{height:'100px'}} src={item.data} />}
+							{(item && item.type === 'pdf' && item.data) && <iframe title="PDF preview" style={{height:'100px'}} src={item.data} />}
 							
 							{item.type === 'image' && <div style={{marginTop:'0.3em', marginBottom:'0.3em'}}>
 							<Button onClick={function() {

@@ -58,7 +58,7 @@ export default function ImportGoogleAudioPage({tunebook, token, refresh}) {
               })
             }
       }
-    }, [params.googleDocumentId, token])
+    }, [params.googleDocumentId, token, navigate, docs, tunebook.recordingsManager])
     
     return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
      <h1>Import A Recording </h1>

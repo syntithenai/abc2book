@@ -1,22 +1,25 @@
-import { useEffect, useMemo, useState } from 'react';
-import { Alert, Button, Form, Table } from 'react-bootstrap';
-import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer-continued';
+import { useMemo, useRef, useState } from 'react';
+import { Alert, Button, Form, Tab, Tabs } from 'react-bootstrap';
 import { buildSectionsFromLines } from '../../timedLyricsModel';
-import { buildAlignedLyricRows } from '../../lyricsAlignmentUtils';
-import { mergeLyricsFromChoices } from '../../lyricsMergeUtils';
+import { buildLyricsMergeResult } from './LyricsMergePanel';
+import LyricsMergePanel from './LyricsMergePanel';
 
-const CHOICE_LABELS = {
-  existing: 'Keep existing',
-  transcribed: 'Use transcribed',
-  both: 'Keep both',
-  skip: 'Omit',
-};
+function splitLyricText(text) {
+  return String(text || '').replace(/\r\n/g, '\n').split('\n');
+}
 
 export default function MediaImportLyricsStep(props) {
   const draft = props.draft;
-  const existingLines = useMemo(function() {
+  const resolverAvailable = props.resolverAvailable !== false;
+  const lyricLines = useMemo(function() {
+    if (Array.isArray(draft.lyricLines) && draft.lyricLines.length > 0) {
+      return draft.lyricLines;
+    }
+    if (Array.isArray(draft.mergedLyricLines) && draft.mergedLyricLines.length > 0) {
+      return draft.mergedLyricLines;
+    }
     return Array.isArray(draft.existingWLines) ? draft.existingWLines : [];
-  }, [(draft.existingWLines || []).join('\n')]);
+  }, [draft.lyricLines, draft.mergedLyricLines, draft.existingWLines]);
 
   const transcribedLines = useMemo(function() {
     if (!draft.timedLyrics) return [];
@@ -25,11 +28,12 @@ export default function MediaImportLyricsStep(props) {
     });
   }, [draft.timedLyrics]);
 
-  // Rows are derived synchronously during render so transcribed lyrics are
-  // always visible the moment the draft has analysis data (no effect lag).
-  const baseRows = useMemo(function() {
-    return buildAlignedLyricRows(existingLines, transcribedLines);
-  }, [existingLines.join('\n'), transcribedLines.join('\n')]);
+  const lookupLines = useMemo(function() {
+    return Array.isArray(draft.lookupLyricLines) ? draft.lookupLyricLines : [];
+  }, [draft.lookupLyricLines]);
+
+  const [innerTab, setInnerTab] = useState('current');
+  const mergePanelKeyRef = useRef(0);
 
   const sections = useMemo(function() {
     if (draft.sections && draft.sections.length > 0) return draft.sections;
@@ -37,172 +41,103 @@ export default function MediaImportLyricsStep(props) {
     return [];
   }, [draft.sections, draft.timedLyrics]);
 
-  const [choices, setChoices] = useState({});
-  const [showUnchanged, setShowUnchanged] = useState(false);
-  const [viewMode, setViewMode] = useState('merge');
-
-  useEffect(function() {
-    setChoices(function(previous) {
-      const next = {};
-      baseRows.forEach(function(row) {
-        next[row.id] = previous[row.id] || row.choice || row.defaultChoice;
-      });
-      return next;
-    });
-  }, [baseRows]);
-
-  useEffect(function() {
-    const merged = mergeLyricsFromChoices(baseRows, choices);
+  function updateLyrics(lines) {
     props.onChange({
-      lyricRows: baseRows.map(function(row) {
-        return Object.assign({}, row, { choice: choices[row.id] || row.defaultChoice });
-      }),
-      mergedLyricLines: merged,
+      lyricLines: lines,
+      mergedLyricLines: lines,
       sections: sections,
     });
-  }, [baseRows, choices, sections]);
-
-  const diffCount = baseRows.filter(function(row) { return row.type !== 'same'; }).length;
-
-  function updateChoice(rowId, value) {
-    setChoices(function(current) {
-      return Object.assign({}, current, { [rowId]: value });
-    });
   }
 
-  function setAllChoices(mapper) {
-    setChoices(function() {
-      const next = {};
-      baseRows.forEach(function(row) {
-        next[row.id] = mapper(row);
-      });
-      return next;
-    });
+  function handleMergeFromSource(sourceLines) {
+    const merged = buildLyricsMergeResult(lyricLines, sourceLines);
+    updateLyrics(merged);
+    mergePanelKeyRef.current += 1;
+    setInnerTab('current');
   }
 
-  function preferExisting() {
-    setAllChoices(function(row) { return row.type === 'added' ? 'skip' : 'existing'; });
+  function handleMergeActiveTab() {
+    if (innerTab === 'merge-transcript') {
+      handleMergeFromSource(transcribedLines);
+      return;
+    }
+    if (innerTab === 'merge-lookup') {
+      handleMergeFromSource(lookupLines);
+    }
   }
 
-  function preferTranscribed() {
-    setAllChoices(function(row) { return row.type === 'removed' ? 'skip' : 'transcribed'; });
-  }
-
-  if (!draft.timedLyrics && transcribedLines.length === 0 && existingLines.length === 0) {
-    return (
-      <Alert variant="warning">
-        No lyrics are available yet. Run the analysis on the Analyze step, or add lyrics on the tune first.
-      </Alert>
-    );
-  }
+  const canMerge = innerTab === 'merge-transcript'
+    ? transcribedLines.length > 0
+    : innerTab === 'merge-lookup'
+      ? lookupLines.length > 0
+      : false;
 
   return (
-    <div>
-      <Alert variant="info">
-        Edit stanza boundaries and choose how each line should merge.
-        Stanza endings will use double bar lines in the finished ABC.
-      </Alert>
-
-      <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap', marginBottom: '1em', alignItems: 'center' }}>
-        <Button size="sm" variant="outline-secondary" onClick={preferExisting}>Prefer existing</Button>
-        <Button size="sm" variant="outline-primary" onClick={preferTranscribed}>Prefer transcribed</Button>
-        <Form.Check
-          type="switch"
-          id="wizard-show-unchanged"
-          label="Show unchanged lines"
-          checked={showUnchanged}
-          onChange={function(e) { setShowUnchanged(e.target.checked); }}
-        />
-        <div style={{ marginLeft: 'auto' }}>
+    <div className="media-import-lyrics-step">
+      {resolverAvailable && (
+        <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap', marginBottom: '0.75em', alignItems: 'center' }}>
           <Button
             size="sm"
-            variant={viewMode === 'merge' ? 'primary' : 'outline-primary'}
-            onClick={function() { setViewMode('merge'); }}
+            variant="success"
+            disabled={!canMerge}
+            onClick={handleMergeActiveTab}
           >
             Merge
-          </Button>{' '}
-          <Button
-            size="sm"
-            variant={viewMode === 'diff' ? 'primary' : 'outline-primary'}
-            onClick={function() { setViewMode('diff'); }}
-          >
-            Side-by-side diff
           </Button>
+          <span style={{ fontSize: '0.9em', color: '#666' }}>
+            Copy merge selections from the active merge tab into current lyrics.
+          </span>
         </div>
-      </div>
-
-      {sections.length > 0 && (
-        <Table bordered size="sm" style={{ marginBottom: '1em' }}>
-          <thead>
-            <tr><th>Stanza</th><th>Lines</th></tr>
-          </thead>
-          <tbody>
-            {sections.map(function(section, index) {
-              return (
-                <tr key={section.id || index}>
-                  <td>{section.label || ('Section ' + (index + 1))}</td>
-                  <td>{section.startLine + 1} – {section.endLine + 1}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </Table>
       )}
 
-      {viewMode === 'diff' ? (
-        <div style={{ fontSize: '0.85em' }}>
-          <ReactDiffViewer
-            oldValue={existingLines.join('\n')}
-            newValue={transcribedLines.join('\n')}
-            splitView={true}
-            compareMethod={DiffMethod.WORDS}
-            leftTitle="Existing lyrics"
-            rightTitle="Transcribed lyrics"
-            showDiffOnly={!showUnchanged}
-          />
+      {resolverAvailable ? (
+        <div className="media-import-lyrics-inner-tabs">
+          <Tabs
+            activeKey={innerTab}
+            onSelect={function(key) { if (key) setInnerTab(key); }}
+            className="mb-0"
+          >
+          <Tab eventKey="current" title="Current lyrics">
+            <Form.Control
+              as="textarea"
+              className="media-import-lyrics-current"
+              value={lyricLines.join('\n')}
+              onChange={function(e) {
+                updateLyrics(splitLyricText(e.target.value));
+              }}
+              placeholder="Enter or edit lyrics here..."
+            />
+          </Tab>
+          <Tab eventKey="merge-transcript" title="Merge transcript">
+            <LyricsMergePanel
+              key={'transcript-' + mergePanelKeyRef.current}
+              currentLines={lyricLines}
+              importedLines={transcribedLines}
+              importedLabel="Transcribed"
+              emptyMessage="No transcribed lyrics yet. Run Analyze media, or use Search to fetch lyrics."
+            />
+          </Tab>
+          <Tab eventKey="merge-lookup" title="Merge lookup lyrics">
+            <LyricsMergePanel
+              key={'lookup-' + mergePanelKeyRef.current}
+              currentLines={lyricLines}
+              importedLines={lookupLines}
+              importedLabel="Lookup lyrics"
+              emptyMessage="No lookup lyrics yet. Use Search to fetch lyrics from the web."
+            />
+          </Tab>
+        </Tabs>
         </div>
       ) : (
-        <Table bordered size="sm" responsive>
-          <thead>
-            <tr>
-              <th>Existing w:</th>
-              <th>Transcribed</th>
-              <th>Change</th>
-              <th>Use</th>
-            </tr>
-          </thead>
-          <tbody>
-            {baseRows.map(function(row) {
-              if (row.type === 'same' && !showUnchanged) return null;
-              return (
-                <tr key={row.id}>
-                  <td style={{ whiteSpace: 'pre-wrap' }}>{row.existing || '—'}</td>
-                  <td style={{ whiteSpace: 'pre-wrap' }}>{row.transcribed || '—'}</td>
-                  <td>{row.type}</td>
-                  <td>
-                    {row.type === 'same' ? 'Unchanged' : (
-                      <Form.Select
-                        size="sm"
-                        value={choices[row.id] || row.defaultChoice}
-                        onChange={function(e) { updateChoice(row.id, e.target.value); }}
-                      >
-                        {Object.keys(CHOICE_LABELS).map(function(key) {
-                          if (row.type === 'added' && key === 'existing') return null;
-                          if (row.type === 'removed' && key === 'transcribed') return null;
-                          return <option key={key} value={key}>{CHOICE_LABELS[key]}</option>;
-                        })}
-                      </Form.Select>
-                    )}
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </Table>
-      )}
-
-      {diffCount === 0 && existingLines.length > 0 && (
-        <Alert variant="success">Transcription matches existing lyrics.</Alert>
+        <Form.Control
+          as="textarea"
+          className="media-import-lyrics-current"
+          value={lyricLines.join('\n')}
+          onChange={function(e) {
+            updateLyrics(splitLyricText(e.target.value));
+          }}
+          placeholder="Enter or edit lyrics here..."
+        />
       )}
     </div>
   );

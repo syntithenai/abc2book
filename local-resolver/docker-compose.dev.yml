@@ -1,0 +1,47 @@
+# Development override: bind-mount the resolver source into the running
+# container and enable uvicorn auto-reload so code changes take effect without
+# rebuilding the image.
+#
+# Usage:
+#   cd local-resolver
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+#
+# Editing any of the mounted .py files restarts the server automatically. The
+# base image is still used for the system deps, venvs (/opt/...), whisper build
+# (/app/build) and models; only the Python source is overlaid from the host.
+services:
+  local-resolver:
+    # Match production auth in dev so login + resolver scope issues surface early.
+    environment:
+      REQUIRE_AUTH: "true"
+    volumes:
+      - ./server.py:/app/server.py
+      - ./recording_artists.py:/app/recording_artists.py
+      - ./background_markdown_links.py:/app/background_markdown_links.py
+      - ./chords_fetch.py:/app/chords_fetch.py
+      - ./notation_fetch.py:/app/notation_fetch.py
+      - ./lyrics_fetch.py:/app/lyrics_fetch.py
+      - ./tune_background_research.py:/app/tune_background_research.py
+      - ./voice_command.py:/app/voice_command.py
+      - ./playback_region_detect.py:/app/playback_region_detect.py
+      - ./detect_chords.py:/app/detect_chords.py
+      - ./detect_melody.py:/app/detect_melody.py
+      - ./detect_timing.py:/app/detect_timing.py
+      - ./chord_processing.py:/app/chord_processing.py
+      - ./melody_pitch_processing.py:/app/melody_pitch_processing.py
+      - ./audio_analysis_filters.py:/app/audio_analysis_filters.py
+      - ./stem_separation.py:/app/stem_separation.py
+      - ./separate_stems.py:/app/separate_stems.py
+      - ./eval_transcription.py:/app/eval_transcription.py
+    command:
+      - python3
+      - -m
+      - uvicorn
+      - server:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8787"
+      - --reload
+      - --reload-dir
+      - /app

@@ -10,15 +10,16 @@ import ImagesManager from '../components/ImagesManager'
 //import useFileManager from '../useFileManager'
 
 export default function FilesPage(props) {
+	const { fileManager } = props
 	var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml
 	var filterByTuneId = false
 	//var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, null, allowedImageMimeTypes, false, filterByTuneId)
 	
 	useEffect(function() {
-		props.fileManager.refresh()
-	},[])
+		fileManager.refresh()
+	},[fileManager])
 	
-	var extendedProps = Object.assign({},props,{fileManager: props.fileManager})
+	var extendedProps = Object.assign({},props,{fileManager: fileManager})
 	return <ImagesManager	{...extendedProps} />
 }
 	//var allowedMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml

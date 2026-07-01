@@ -1,0 +1,6 @@
+:root {
+  --bp-compact: 620px;
+  --bp-narrow: 768px;
+  --bp-wide-split: 900px;
+  --bp-header-auth: 480px;
+}

@@ -22,8 +22,8 @@ export default function useServiceWorker() {
       }
     }
   };
-   //console.error(`Register Service worker`);
    useEffect(function() {
+    if (process.env.NODE_ENV !== 'production') return
     registerServiceWorker()
    },[])
-}    
+}

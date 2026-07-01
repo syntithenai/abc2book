@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
 //qpm	whatever is in the Q: field	Number of beats per minute.
 //extraMeasuresAtBeginning	0	Don't start the callbacks right away, but insert this number of measures first.
@@ -86,7 +86,7 @@ export default function AbcPlayer(props) {
         })
     }
     
-    function startPlaying() {
+    const startPlaying = useCallback(function() {
         console.log('start', props.duration, synth.current)
          //if (props.currentTime > props.duration) {
             //props.setCurrentTime(0)
@@ -119,7 +119,8 @@ export default function AbcPlayer(props) {
         //} else {
             //console.log('synth still loading')
         //}
-    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- startPlaying uses initMidi/props; effect below keys on isPlaying
+    }, [])
     
     function stopPlaying() {
         console.log('ABCPLAYER STOP',synth.current) //, timingCallbacks.current)
@@ -136,7 +137,7 @@ export default function AbcPlayer(props) {
         } else {
             stopPlaying()
         }
-    },[props.isPlaying])
+    },[props.isPlaying, startPlaying])
     
     //useEffect(function() {
          //console.log('abcplayer time update', props.currentTime, synth.current)
@@ -185,7 +186,7 @@ export default function AbcPlayer(props) {
             //clearTimeout(abcProgressInterval.current)
             //abcProgressInterval.current = null
         }
-    },[props.isPlaying])
+    },[props.isPlaying, startPlaying])
     
     return <b style={{display: 'block'}} ref={playerRef} >abc player</b>
 }
