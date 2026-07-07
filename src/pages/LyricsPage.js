@@ -218,11 +218,11 @@ function renderListGroup(items) {
 }
 
 function ExpandableSection(props) {
-  const [isExpanded, setIsExpanded] = useState(props.defaultExpanded !== false)
+  const [isExpanded, setIsExpanded] = useState(true)
   return (
     <div>
-      <div className="d-flex align-items-center gap-2 mb-2 cursor-pointer" onClick={function() { setIsExpanded(!isExpanded) }} style={{ userSelect: 'none' }}>
-        <span style={{ fontSize: '0.9em', minWidth: '1.2em', textAlign: 'center' }}>
+      <div className="d-flex align-items-center gap-2 mb-2" onClick={function() { setIsExpanded(!isExpanded) }} style={{ userSelect: 'none', cursor: 'pointer' }}>
+        <span style={{ fontSize: '0.9em', minWidth: '1.2em', textAlign: 'center', display: 'inline-block' }}>
           {isExpanded ? '▼' : '▶'}
         </span>
         <div className="fw-semibold">{props.title}</div>
@@ -248,12 +248,6 @@ export default function LyricsPage(props) {
   const accessToken = props.token || ''
   const [lookupQuery, setLookupQuery] = useState(searchParams.get('q') || '')
   const [toolQuery, setToolQuery] = useState(searchParams.get('toolQ') || '')
-  const [expandedSections, setExpandedSections] = useState({
-    dictionary: true,
-    thesaurus: true,
-    alliteration: true,
-    rhyme: true,
-  })
   const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
 
   useEffect(function() {
@@ -351,22 +345,12 @@ export default function LyricsPage(props) {
                   return (
                     <div className="d-grid gap-4">
                       <ExpandableSection 
-                        title="Dictionary" 
-                        defaultExpanded={expandedSections.dictionary}
+                        title="Dictionary"
                       >
-                        <div className="d-flex align-items-center gap-2 mb-2">
-                          <Button 
-                            size="sm" 
-                            variant={expandedSections.dictionary ? 'primary' : 'outline-primary'}
-                            onClick={function() { setExpandedSections({...expandedSections, dictionary: !expandedSections.dictionary}) }}
-                            style={{ display: 'none' }}
-                          ></Button>
-                        </div>
                         <DictionaryResult result={result.dictionary} />
                       </ExpandableSection>
                       <ExpandableSection 
-                        title="Thesaurus" 
-                        defaultExpanded={expandedSections.thesaurus}
+                        title="Thesaurus"
                       >
                         <div className="d-grid gap-3">
                           <div>
@@ -384,8 +368,7 @@ export default function LyricsPage(props) {
                         </div>
                       </ExpandableSection>
                       <ExpandableSection 
-                        title="Alliteration" 
-                        defaultExpanded={expandedSections.alliteration}
+                        title="Alliteration"
                       >
                         <div className="d-grid gap-3">
                           <div>
@@ -399,8 +382,7 @@ export default function LyricsPage(props) {
                         </div>
                       </ExpandableSection>
                       <ExpandableSection 
-                        title="Rhyme Finder" 
-                        defaultExpanded={expandedSections.rhyme}
+                        title="Rhyme Finder"
                       >
                         <div className="d-grid gap-3">
                           <div>

@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 import useMusicBrainz from '../useMusicBrainz'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import {useParams, useNavigate} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
@@ -30,21 +30,22 @@ function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
 export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts}) {
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
+  const [showLyricsTools, setShowLyricsTools] = useState(false)
+  const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
   const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
   const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
-  const navigate = useNavigate()
   const handleClose = () => {
       setShow(false);
   }
   const handleShow = () => setShow(true);
 
   useEffect(function() {
-    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics)
+    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics || showLyricsTools)
     return function() {
       if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(false)
     }
-  }, [show, showNoteAlignedLyrics, setBlockKeyboardShortcuts])
+  }, [show, showNoteAlignedLyrics, showLyricsTools, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
   var abcjsParser = useAbcjsParser()
   let params = useParams();
@@ -62,7 +63,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
     tunebook.saveTune(tune, false, { historyLabel: 'Apply suggested genre', immediate: true })
   }
 
-  function openLookupToolsFromSelection() {
+  function openLyricsToolsFromSelection() {
     const textarea = lyricsTextareaRef.current
     if (!textarea) {
       toast.warning('Select lyrics text first to open tools.')
@@ -75,8 +76,13 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
       return
     }
 
-    handleClose()
-    navigate('/lyrics?tab=lookup&q=' + encodeURIComponent(firstLine))
+    if (resolverChecked && !resolverAvailable) {
+      toast.warning('Lyrics tools are unavailable because the local resolver is not running.')
+      return
+    }
+
+    setLyricsToolsQuery(firstLine)
+    setShowLyricsTools(true)
   }
 
   return (
@@ -154,14 +160,14 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             var clean = abcjsParser.cleanupLyrics(start)
                             saveLyrics(clean.split('\n'))
                         }} >{tunebook.icons.wizard} Clean</Button>
-                        {resolverChecked && resolverAvailable ? (
-                          <Button
-                            variant="outline-primary"
-                            onClick={openLookupToolsFromSelection}
-                          >
-                            Tools
-                          </Button>
-                        ) : null}
+                        <Button
+                          variant="outline-primary"
+                          style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
+                          title="Open lyrics tools with selected text"
+                          onClick={openLyricsToolsFromSelection}
+                        >
+                          {tunebook.icons.quillpen} Tools
+                        </Button>
                         <Button
                           variant="outline-secondary"
                           style={{ marginLeft: 'auto' }}
@@ -187,6 +193,18 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
           tunebook.saveTune(savedTune, false, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
         }}
       />
+      <Modal show={showLyricsTools} onHide={function() { setShowLyricsTools(false) }} size="xl" {...responsiveModalProps}>
+        <Modal.Header closeButton>
+          <Modal.Title>Lyrics Tools</Modal.Title>
+        </Modal.Header>
+        <Modal.Body style={{padding: 0}}>
+          <iframe
+            title="Lyrics tools"
+            src={'/lyrics?tab=lookup&q=' + encodeURIComponent(lyricsToolsQuery) + '&toolQ=' + encodeURIComponent(lyricsToolsQuery)}
+            style={{width: '100%', minHeight: '70vh', border: 'none'}}
+          />
+        </Modal.Body>
+      </Modal>
     </>
   );
 }

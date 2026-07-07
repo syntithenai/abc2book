@@ -62,6 +62,7 @@ import {
   abcCharRangeForEventIndex,
   eventsFromVoiceBody,
   caretIndexForStartBeat,
+  eventIndexFromStaffAbcElem,
   eventIndexFromSelectableIndex,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
@@ -684,8 +685,17 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : 0;
     const fullAbc = renderedAbc || displayAbc;
-    // Centralized resolver: prefer abcelem mapping then DOM fallback.
-    // Use eventIndexFromStaffClick so all callers share the same precedence logic.
+    function resolveEventIndex() {
+      return eventIndexFromStaffAbcElem(
+        s.events,
+        tuneMeta,
+        fullAbc,
+        displayedVoiceKeys,
+        voiceIdx,
+        abcelem,
+        analysis
+      );
+    }
 
     if (drag && typeof drag.step === 'number' && drag.step !== 0 && s.mode !== EDITOR_MODES.NOTE_INPUT) {
       let dragEv = null;
@@ -695,17 +705,7 @@ export default function NotationEditor(props) {
         if (dragIdx >= 0) dragEv = s.events[dragIdx];
       }
       if (!dragEv) {
-        dragIdx = eventIndexFromStaffClick(
-          staffWrapRef && staffWrapRef.current ? staffWrapRef.current : null,
-          s.events,
-          mouseEvent,
-          abcelem,
-          analysis,
-          voiceIdx,
-          tuneMeta,
-          fullAbc,
-          displayedVoiceKeys
-        );
+        dragIdx = resolveEventIndex();
         dragEv = dragIdx >= 0 ? s.events[dragIdx] : null;
       }
       if (!dragEv && drag && typeof drag.index === 'number') {

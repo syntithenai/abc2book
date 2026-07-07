@@ -2800,6 +2800,66 @@ button img:after {
   min-height: 2rem;
 }
 
+/* Flex-based split-column layout for MusicSingle parity with GigMode */
+
+.music-view-split {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+}
+
+.music-view-split--with-chords {
+  flex-direction: row;
+}
+
+.music-view-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.music-chords-block-col {
+  flex: 0 0 40%;
+  min-width: 0;
+  max-height: calc(100vh - 12rem);
+  overflow-y: auto;
+}
+
+.music-chords-block-col--full-page {
+  flex: 1 1 auto;
+  max-height: none;
+}
+
+@media (min-width: 900px) {
+  .music-view-split--with-chords {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+  
+  .music-view-split--with-chords .music-view-main {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+  
+  .music-view-split--with-chords .music-chords-block-col {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+}
+
+.music-view-notation {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
 .view-mode-extra-menu-content {
   padding: 0.25rem 0.6rem;
 }
