@@ -107,7 +107,7 @@ export default function MP3Converter(config) {
             buffer.push(new Int8Array(d));
         }
 
-        var mp3Blob = new Blob(buffer, {type: 'audio/mp3'});
+        var mp3Blob = new Blob(buffer, {type: 'audio/mpeg'});
         //console.log('mp3blob',mp3Blob)
         return mp3Blob
         //var bUrl = window.URL.createObjectURL(mp3Blob);

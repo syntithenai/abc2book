@@ -1,25 +1,44 @@
 from chords_fetch import fetch_chords_url, search_chords
 from lyrics_fetch import fetch_lyrics_url, search_lyrics
+from lyrics_word_tools import (
+    lookup_dictionary,
+    lookup_phrase_ideas,
+    lookup_reverse_dictionary,
+    lookup_rhymes,
+    lookup_thesaurus,
+)
+from image_search import image_search_available, search_images
 from notation_fetch import search_notation
 from playback_region_detect import (
     PLAYBACK_SCAN_WHISPER_OPTIONS,
     detect_playback_region_from_wav,
 )
 from tune_background_research import research_tune_background
+from composer_discovery import discover_composer
+from sheet_image_features import sheet_image_features
+from subprocess_utils import (
+    ClientDisconnected,
+    heavy_job_slot,
+    run_subprocess_with_disconnect,
+    terminate_subprocess_tree,
+)
 from voice_command import (
     VOICE_WHISPER_OPTIONS,
     _empty_intent,
+    parse_help_intent_llm,
     parse_catalog_json,
     parse_voice_intent,
 )
 import asyncio
 import hashlib
 import json
+import mimetypes
 import os
 import re
 import shutil
 import tempfile
 import time
+from typing import Any, Callable
 from urllib.parse import parse_qs, urlparse
 
 import httpx
@@ -44,6 +63,10 @@ YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
 MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
 MAX_MIDI_IMPORT_BYTES = int(os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024)))
+MAX_ABC_IMPORT_BYTES = int(os.getenv("MAX_ABC_IMPORT_BYTES", str(512 * 1024)))
+MAX_SHEET_IMAGE_BYTES = int(os.getenv("MAX_SHEET_IMAGE_BYTES", str(20 * 1024 * 1024)))
+SHEET_IMAGE_ENABLED = os.getenv("SHEET_IMAGE_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
+VISION_VENV_PYTHON = os.getenv("VISION_VENV_PYTHON", "/opt/vision-venv/bin/python")
 GOATCOUNTER_API_URL = os.getenv("GOATCOUNTER_API_URL", "").strip()
 GOATCOUNTER_API_TOKEN = os.getenv("GOATCOUNTER_API_TOKEN", "").strip()
 GOATCOUNTER_TIMEOUT_SECONDS = float(os.getenv("GOATCOUNTER_TIMEOUT_SECONDS", "5"))
@@ -65,11 +88,9 @@ WHISPER_LYRICS_STANZA_PAUSE_SECONDS = float(os.getenv("WHISPER_LYRICS_STANZA_PAU
 ANALYZE_MEDIA_TIMEOUT_SECONDS = float(os.getenv("ANALYZE_MEDIA_TIMEOUT_SECONDS", "1200"))
 STEM_CACHE_DIR = os.getenv("STEM_CACHE_DIR", "/tmp/stem-cache")
 STEM_SEPARATION_TIMEOUT_SECONDS = float(os.getenv("STEM_SEPARATION_TIMEOUT_SECONDS", "900"))
-# Demucs stem separation is heavily CPU/GPU bound. Without a cap, repeated
-# requests for the same source (each a cache miss until the first finishes)
-# spawn one full separation subprocess apiece, oversubscribing the box. Bound
-# the number of concurrent heavy jobs and coalesce duplicate in-flight work.
-MAX_CONCURRENT_STEM_JOBS = max(1, int(os.getenv("MAX_CONCURRENT_STEM_JOBS", "1")))
+FFMPEG_TIMEOUT_SECONDS = float(os.getenv("FFMPEG_TIMEOUT_SECONDS", "120"))
+YTDLP_TIMEOUT_SECONDS = float(os.getenv("YTDLP_TIMEOUT_SECONDS", "300"))
+UPSTREAM_FETCH_TIMEOUT_SECONDS = float(os.getenv("UPSTREAM_FETCH_TIMEOUT_SECONDS", "120"))
 HTDEMUCS_STEMS = ("drums", "bass", "other", "vocals")
 
 
@@ -80,7 +101,6 @@ def _demucs_stems_for_model(model_name=None):
     return HTDEMUCS_STEMS
 
 # Lazily created so they bind to the running event loop on first use.
-_stem_job_semaphore = None
 _stem_inflight_locks = {}
 _stem_background_tasks = {}
 STEM_SECONDS_PER_TRACK_SECOND = float(os.getenv("STEM_SECONDS_PER_TRACK_SECOND", "1.5"))
@@ -89,15 +109,10 @@ STEMS_ENABLED = os.getenv("STEMS_ENABLED", "true").strip().lower() not in {"0", 
 WHISPER_ENABLED = os.getenv("WHISPER_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
 LLM_ENABLED = os.getenv("LLM_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
 LLM_HEALTH_CACHE_SECONDS = float(os.getenv("LLM_HEALTH_CACHE_SECONDS", "60"))
+STATIC_SITE_DIR = os.getenv("STATIC_SITE_DIR", "").strip()
+STATIC_SITE_ENABLED = os.getenv("STATIC_SITE_ENABLED", "auto").strip().lower() or "auto"
 _llm_available_cache = False
 _llm_checked_at = 0.0
-
-
-def _get_stem_job_semaphore():
-    global _stem_job_semaphore
-    if _stem_job_semaphore is None:
-        _stem_job_semaphore = asyncio.Semaphore(MAX_CONCURRENT_STEM_JOBS)
-    return _stem_job_semaphore
 
 
 def _get_stem_inflight_lock(cache_id):
@@ -144,6 +159,58 @@ def cors_headers(origin):
         "Access-Control-Allow-Headers": "Authorization, Content-Type, Range",
         "Access-Control-Expose-Headers": "Content-Length, Content-Range, Accept-Ranges, Content-Type",
     }
+
+
+def static_site_root():
+    if STATIC_SITE_DIR:
+        return os.path.abspath(STATIC_SITE_DIR)
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+
+def static_site_enabled():
+    root = static_site_root()
+    if not os.path.isdir(root):
+        return False
+    if STATIC_SITE_ENABLED in {"0", "false", "no"}:
+        return False
+    if STATIC_SITE_ENABLED in {"1", "true", "yes"}:
+        return True
+    return os.path.isfile(os.path.join(root, "index.html"))
+
+
+def resolve_static_file(relative_path):
+    root = static_site_root()
+    relative_path = (relative_path or "").lstrip("/")
+    if not relative_path:
+        relative_path = "index.html"
+    candidate = os.path.normpath(os.path.join(root, relative_path))
+    root_prefix = root + os.sep
+    if candidate != root and not candidate.startswith(root_prefix):
+        return None
+    if os.path.isfile(candidate):
+        return candidate
+    return None
+
+
+def static_file_headers(origin, file_path):
+    headers = cors_headers(origin)
+    if os.path.basename(file_path) == "sw.js":
+        headers["Service-Worker-Allowed"] = "/"
+    if file_path.lower().endswith((".jpg", ".jpeg", ".gif", ".png", ".webp", ".ico")):
+        headers["Cache-Control"] = "max-age=7200"
+    return headers
+
+
+def static_file_response(origin, relative_path):
+    resolved = resolve_static_file(relative_path)
+    if not resolved:
+        return None
+    media_type, _encoding = mimetypes.guess_type(resolved)
+    return FileResponse(
+        resolved,
+        media_type=media_type or "application/octet-stream",
+        headers=static_file_headers(origin, resolved),
+    )
 
 
 def json_error(status, message, origin, hint=None):
@@ -261,11 +328,16 @@ async def _refresh_llm_health_if_stale():
 
 
 def resolver_features():
+    features = sheet_image_features()
     return {
         "proxy": _proxy_available(),
         "stems": _stems_available(),
         "whisper": _whisper_runtime_available(),
         "llm": _llm_runtime_available(),
+        "sheetImage": bool(SHEET_IMAGE_ENABLED and features.get("available")),
+        "sheetImageOcr": bool(features.get("ocr")),
+        "sheetImageOmr": bool(features.get("omr")),
+        "imageSearch": image_search_available(),
     }
 
 
@@ -512,8 +584,13 @@ async def fetch_youtube_audio_bytes(video_id):
         *cmd,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
+        start_new_session=True,
     )
-    stdout, stderr = await proc.communicate()
+    try:
+        stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=YTDLP_TIMEOUT_SECONDS)
+    except asyncio.TimeoutError as exc:
+        await terminate_subprocess_tree(proc)
+        raise HTTPException(status_code=504, detail="YouTube download timeout") from exc
     stderr_text = stderr.decode("utf-8", errors="ignore").strip()[:500]
 
     if proc.returncode != 0 or not stdout:
@@ -529,7 +606,11 @@ async def stream_upstream(target_url, request):
     range_header = request.headers.get("range")
     headers = upstream_headers_for(target_url, range_header)
 
-    client = httpx.AsyncClient(follow_redirects=True, timeout=None)
+    timeout = httpx.Timeout(
+        UPSTREAM_FETCH_TIMEOUT_SECONDS,
+        connect=min(10.0, UPSTREAM_FETCH_TIMEOUT_SECONDS),
+    )
+    client = httpx.AsyncClient(follow_redirects=True, timeout=timeout)
     upstream = await client.send(
         client.build_request("GET", target_url, headers=headers),
         stream=True,
@@ -569,7 +650,11 @@ async def stream_upstream(target_url, request):
 
 async def fetch_upstream_audio_bytes(target_url):
     headers = upstream_headers_for(target_url, None)
-    async with httpx.AsyncClient(follow_redirects=True, timeout=None) as client:
+    timeout = httpx.Timeout(
+        UPSTREAM_FETCH_TIMEOUT_SECONDS,
+        connect=min(10.0, UPSTREAM_FETCH_TIMEOUT_SECONDS),
+    )
+    async with httpx.AsyncClient(follow_redirects=True, timeout=timeout) as client:
         async with client.stream("GET", target_url, headers=headers) as upstream:
             if upstream.status_code not in (200, 206):
                 raise HTTPException(status_code=upstream.status_code, detail="Upstream fetch failed")
@@ -775,8 +860,13 @@ async def _convert_audio_to_wav(input_path):
         wav_path,
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.PIPE,
+        start_new_session=True,
     )
-    _stdout, stderr = await proc.communicate()
+    try:
+        _stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=FFMPEG_TIMEOUT_SECONDS)
+    except asyncio.TimeoutError as exc:
+        await terminate_subprocess_tree(proc)
+        raise HTTPException(status_code=504, detail="Audio conversion timeout") from exc
     if proc.returncode != 0 or not os.path.exists(wav_path):
         detail = stderr.decode("utf-8", errors="ignore").strip()[:500]
         raise HTTPException(status_code=502, detail=detail or "Audio conversion failed")
@@ -818,38 +908,8 @@ async def _run_whisper_cli(temp_audio_path, backend, request, whisper_options=No
     else:
         env.pop("GGML_VK_DISABLE", None)
 
-    proc = await asyncio.create_subprocess_exec(
-        *cmd,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
-    )
-    communicate_task = asyncio.create_task(proc.communicate())
-
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                    backend,
-                )
-            if await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
+    returncode, stdout_text, stderr_text = await run_subprocess_with_disconnect(cmd, env=env, request=request)
+    return returncode, stdout_text, stderr_text, backend
 
 
 async def forward_to_whisper(audio_bytes, filename, content_type, request):
@@ -857,92 +917,89 @@ async def forward_to_whisper(audio_bytes, filename, content_type, request):
         return {"text": "", "segments": [], "language": "", "backend": "none"}
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
 
-    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
-        temp_audio.write(audio_bytes)
-        temp_audio_path = temp_audio.name
+    async with heavy_job_slot():
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
 
-    wav_path = None
-    whisper_input_path = temp_audio_path
-    temp_json_path = temp_audio_path + ".json"
+        wav_path = None
+        whisper_input_path = temp_audio_path
+        temp_json_path = temp_audio_path + ".json"
 
-    try:
-        wav_path = await _convert_audio_to_wav(temp_audio_path)
-        whisper_input_path = wav_path
-        temp_json_path = whisper_input_path + ".json"
-
-        result = None
-        active_backend = "unknown"
-        last_error = ""
-        for backend in _whisper_backend_attempts():
-            returncode, stdout_text, stderr_text, active_backend = await asyncio.wait_for(
-                _run_whisper_cli(whisper_input_path, backend, request),
-                timeout=WHISPER_TIMEOUT_SECONDS,
-            )
-            result = {
-                "returncode": returncode,
-                "stdout": stdout_text,
-                "stderr": stderr_text,
-            }
-            if returncode == 0:
-                break
-            last_error = stderr_text or stdout_text or f"whisper.cpp {backend} attempt failed"
-
-        if result is None or result["returncode"] != 0:
-            raise HTTPException(status_code=502, detail=(last_error or "Transcription failed").strip()[:500])
-
-        body = None
-        if os.path.exists(temp_json_path):
-            with open(temp_json_path, "r", encoding="utf-8") as handle:
-                output = json.load(handle)
-            segments = _normalize_whisper_segments(output)
-            raw_text = " ".join(
-                segment.get("text", "").strip()
-                for segment in segments
-                if segment.get("text", "").strip()
-            )
-            text = _format_transcribed_lyrics(segments, raw_text)
-            body = {
-                "text": text,
-                "segments": segments,
-                "language": "en",
-                "backend": active_backend,
-            }
-        else:
-            raw_text = result["stdout"].strip() if result["stdout"] else ""
-            text = _format_transcribed_lyrics([], raw_text)
-            body = {
-                "text": text,
-                "segments": [],
-                "language": "en",
-                "backend": active_backend,
-            }
-
-        if not body["text"]:
-            raise HTTPException(status_code=502, detail="Transcription produced no lyrics")
-
-        return body
-    except ClientDisconnected as exc:
-        raise HTTPException(status_code=499, detail="Transcription cancelled") from exc
-    except asyncio.TimeoutError as exc:
-        raise HTTPException(status_code=504, detail="Transcription timeout") from exc
-    finally:
         try:
-            os.unlink(temp_audio_path)
-        except FileNotFoundError:
-            pass
-        if wav_path:
+            wav_path = await _convert_audio_to_wav(temp_audio_path)
+            whisper_input_path = wav_path
+            temp_json_path = whisper_input_path + ".json"
+
+            result = None
+            active_backend = "unknown"
+            last_error = ""
+            for backend in _whisper_backend_attempts():
+                returncode, stdout_text, stderr_text, active_backend = await asyncio.wait_for(
+                    _run_whisper_cli(whisper_input_path, backend, request),
+                    timeout=WHISPER_TIMEOUT_SECONDS,
+                )
+                result = {
+                    "returncode": returncode,
+                    "stdout": stdout_text,
+                    "stderr": stderr_text,
+                }
+                if returncode == 0:
+                    break
+                last_error = stderr_text or stdout_text or f"whisper.cpp {backend} attempt failed"
+
+            if result is None or result["returncode"] != 0:
+                raise HTTPException(status_code=502, detail=(last_error or "Transcription failed").strip()[:500])
+
+            body = None
+            if os.path.exists(temp_json_path):
+                with open(temp_json_path, "r", encoding="utf-8") as handle:
+                    output = json.load(handle)
+                segments = _normalize_whisper_segments(output)
+                raw_text = " ".join(
+                    segment.get("text", "").strip()
+                    for segment in segments
+                    if segment.get("text", "").strip()
+                )
+                text = _format_transcribed_lyrics(segments, raw_text)
+                body = {
+                    "text": text,
+                    "segments": segments,
+                    "language": "en",
+                    "backend": active_backend,
+                }
+            else:
+                raw_text = result["stdout"].strip() if result["stdout"] else ""
+                text = _format_transcribed_lyrics([], raw_text)
+                body = {
+                    "text": text,
+                    "segments": [],
+                    "language": "en",
+                    "backend": active_backend,
+                }
+
+            if not body["text"]:
+                raise HTTPException(status_code=502, detail="Transcription produced no lyrics")
+
+            return body
+        except ClientDisconnected as exc:
+            raise HTTPException(status_code=499, detail="Transcription cancelled") from exc
+        except asyncio.TimeoutError as exc:
+            raise HTTPException(status_code=504, detail="Transcription timeout") from exc
+        finally:
             try:
-                os.unlink(wav_path)
+                os.unlink(temp_audio_path)
             except FileNotFoundError:
                 pass
-        try:
-            os.unlink(temp_json_path)
-        except FileNotFoundError:
-            pass
-
-
-class ClientDisconnected(Exception):
-    pass
+            if wav_path:
+                try:
+                    os.unlink(wav_path)
+                except FileNotFoundError:
+                    pass
+            try:
+                os.unlink(temp_json_path)
+            except FileNotFoundError:
+                pass
 
 
 def _parse_subprocess_json(stdout_text):
@@ -959,6 +1016,17 @@ def _parse_subprocess_json(stdout_text):
         raise
 
 
+def _autochord_env():
+    env = os.environ.copy()
+    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
+    if os.path.isdir(autochord_libs):
+        env["LD_LIBRARY_PATH"] = autochord_libs + (
+            (":" + env.get("LD_LIBRARY_PATH")) if env.get("LD_LIBRARY_PATH") else ""
+        )
+    env["TF_CPP_MIN_LOG_LEVEL"] = "2"
+    return env
+
+
 async def _run_detect_chords(temp_audio_path, request):
     autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
     if not os.path.exists(autochord_python):
@@ -966,46 +1034,11 @@ async def _run_detect_chords(temp_audio_path, request):
             status_code=502,
             detail=f"Chord detector runtime missing ({autochord_python})",
         )
-    env = os.environ.copy()
-    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
-    if os.path.isdir(autochord_libs):
-        env["LD_LIBRARY_PATH"] = autochord_libs + (
-            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
-        )
-    env["TF_CPP_MIN_LOG_LEVEL"] = "2"
-    proc = await asyncio.create_subprocess_exec(
-        autochord_python,
-        "/app/detect_chords.py",
-        temp_audio_path,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
+    return await run_subprocess_with_disconnect(
+        [autochord_python, "/app/detect_chords.py", temp_audio_path],
+        env=_autochord_env(),
+        request=request,
     )
-    communicate_task = asyncio.create_task(proc.communicate())
-
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                )
-            if await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
 
 
 async def detect_chords_from_path(temp_audio_path, request):
@@ -1027,21 +1060,22 @@ async def detect_chords_from_path(temp_audio_path, request):
 async def detect_chords_from_audio(audio_bytes, filename, request):
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
 
-    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
-        temp_audio.write(audio_bytes)
-        temp_audio_path = temp_audio.name
+    async with heavy_job_slot():
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
 
-    try:
-        return await detect_chords_from_path(temp_audio_path, request)
-    except ClientDisconnected as exc:
-        raise HTTPException(status_code=499, detail="Chord discovery cancelled") from exc
-    except asyncio.TimeoutError as exc:
-        raise HTTPException(status_code=504, detail="Chord discovery timeout") from exc
-    finally:
         try:
-            os.unlink(temp_audio_path)
-        except FileNotFoundError:
-            pass
+            return await detect_chords_from_path(temp_audio_path, request)
+        except ClientDisconnected as exc:
+            raise HTTPException(status_code=499, detail="Chord discovery cancelled") from exc
+        except asyncio.TimeoutError as exc:
+            raise HTTPException(status_code=504, detail="Chord discovery timeout") from exc
+        finally:
+            try:
+                os.unlink(temp_audio_path)
+            except FileNotFoundError:
+                pass
 
 
 def _autochord_python_path():
@@ -1056,12 +1090,6 @@ def _autochord_python_path():
 
 async def _run_detect_melody(temp_audio_path, request, config_path=None):
     autochord_python = _autochord_python_path()
-    env = os.environ.copy()
-    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
-    if os.path.isdir(autochord_libs):
-        env["LD_LIBRARY_PATH"] = autochord_libs + (
-            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
-        )
     command = [
         autochord_python,
         "/app/detect_melody.py",
@@ -1069,37 +1097,7 @@ async def _run_detect_melody(temp_audio_path, request, config_path=None):
     ]
     if config_path:
         command.append(config_path)
-    proc = await asyncio.create_subprocess_exec(
-        *command,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
-    )
-    communicate_task = asyncio.create_task(proc.communicate())
-
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                )
-            if await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
+    return await run_subprocess_with_disconnect(command, env=_autochord_env(), request=request)
 
 
 async def detect_melody_from_path(temp_audio_path, request, timing=None, processing=None):
@@ -1137,45 +1135,11 @@ async def detect_melody_from_path(temp_audio_path, request, timing=None, process
 
 async def _run_detect_timing(temp_audio_path, request):
     autochord_python = _autochord_python_path()
-    env = os.environ.copy()
-    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
-    if os.path.isdir(autochord_libs):
-        env["LD_LIBRARY_PATH"] = autochord_libs + (
-            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
-        )
-    proc = await asyncio.create_subprocess_exec(
-        autochord_python,
-        "/app/detect_timing.py",
-        temp_audio_path,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
+    return await run_subprocess_with_disconnect(
+        [autochord_python, "/app/detect_timing.py", temp_audio_path],
+        env=_autochord_env(),
+        request=request,
     )
-    communicate_task = asyncio.create_task(proc.communicate())
-
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                )
-            if await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
 
 
 async def detect_timing_from_path(temp_audio_path, request):
@@ -1320,57 +1284,13 @@ def _build_stem_response(cache_id, model_name, cache_dir):
 
 async def _run_separate_stems(temp_audio_path, output_dir, request):
     autochord_python = _autochord_python_path()
-    env = os.environ.copy()
-    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
-    if os.path.isdir(autochord_libs):
-        env["LD_LIBRARY_PATH"] = autochord_libs + (
-            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
-        )
     command = [
         autochord_python,
         "/app/separate_stems.py",
         temp_audio_path,
         output_dir,
     ]
-    async with _get_stem_job_semaphore():
-        return await _run_subprocess_with_disconnect(command, env, request)
-
-
-async def _run_subprocess_with_disconnect(command, env, request):
-    proc = await asyncio.create_subprocess_exec(
-        *command,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
-    )
-    communicate_task = asyncio.create_task(proc.communicate())
-
-    try:
-        while True:
-            done, _ = await asyncio.wait({communicate_task}, timeout=0.5)
-            if done:
-                stdout, stderr = await communicate_task
-                return (
-                    proc.returncode or 0,
-                    stdout.decode("utf-8", errors="ignore"),
-                    stderr.decode("utf-8", errors="ignore"),
-                )
-            # `request` is None for detached background jobs (e.g. stem
-            # separation), which must keep running after the originating HTTP
-            # request has returned its "pending" response and disconnected.
-            if request is not None and await request.is_disconnected():
-                if proc.returncode is None:
-                    proc.terminate()
-                    try:
-                        await asyncio.wait_for(proc.wait(), timeout=5)
-                    except asyncio.TimeoutError:
-                        proc.kill()
-                        await proc.wait()
-                communicate_task.cancel()
-                raise ClientDisconnected()
-    finally:
-        if not communicate_task.done():
-            communicate_task.cancel()
+    return await run_subprocess_with_disconnect(command, env=_autochord_env(), request=request)
 
 
 async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
@@ -1388,15 +1308,16 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
 
     async def run_job():
         try:
-            async with inflight_lock:
-                if _stems_are_cached(cache_id):
-                    return
-                # Detach from `request`: this job outlives the HTTP request that
-                # kicked it off (which returns a "pending" response immediately),
-                # so disconnect monitoring must not cancel the separation.
-                await _separate_stems_uncached(
-                    audio_bytes, filename, model_name, cache_id, cache_dir, None
-                )
+            async with heavy_job_slot():
+                async with inflight_lock:
+                    if _stems_are_cached(cache_id):
+                        return
+                    # Detach from `request`: this job outlives the HTTP request that
+                    # kicked it off (which returns a "pending" response immediately),
+                    # so disconnect monitoring must not cancel the separation.
+                    await _separate_stems_uncached(
+                        audio_bytes, filename, model_name, cache_id, cache_dir, None
+                    )
         except Exception as exc:
             _write_stem_progress(cache_dir, {
                 "stage": "error",
@@ -1616,20 +1537,13 @@ async def _run_prepare_analysis_filters(wav_path, processing, request):
     rather than in the (system python) server process.
     """
     autochord_python = _autochord_python_path()
-    env = os.environ.copy()
-    autochord_libs = os.getenv("AUTOCHORD_LD_LIBRARY_PATH", "/opt/autochord-libs")
-    if os.path.isdir(autochord_libs):
-        env["LD_LIBRARY_PATH"] = autochord_libs + (
-            (":" + env["LD_LIBRARY_PATH"]) if env.get("LD_LIBRARY_PATH") else ""
-        )
     command = [
         autochord_python,
         "/app/audio_analysis_filters.py",
         wav_path,
         json.dumps(processing or {}),
     ]
-    async with _get_stem_job_semaphore():
-        return await _run_subprocess_with_disconnect(command, env, request)
+    return await run_subprocess_with_disconnect(command, env=_autochord_env(), request=request)
 
 
 async def prepare_analysis_audio_paths_async(wav_path, processing, request):
@@ -1673,151 +1587,152 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
 
     await report("prepare", "Preparing audio...", 5)
 
-    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
-        temp_audio.write(audio_bytes)
-        temp_audio_path = temp_audio.name
+    async with heavy_job_slot():
+        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+            temp_audio.write(audio_bytes)
+            temp_audio_path = temp_audio.name
 
-    wav_path = None
-    audio_paths = None
-    try:
-        await report("convert", "Converting audio...", 10)
-        wav_path = await _convert_audio_to_wav(temp_audio_path)
-
-        await report("filters", "Preparing audio filters...", 12)
-        audio_paths = await prepare_analysis_audio_paths_async(wav_path, processing, request)
-        melody_processing = dict(processing or {})
-        if audio_paths.get("filtered_paths"):
-            melody_processing["sourceSeparation"] = "off"
-
-        timing = _empty_analysis_part("timing")
+        wav_path = None
+        audio_paths = None
         try:
-            await report("timing", "Detecting timing...", 15)
-            timing = await detect_timing_from_path(wav_path, request)
-            timing["error"] = ""
-            await report("timing", "Timing detected", 25)
-        except Exception as exc:
-            timing["error"] = _analysis_error_message(exc)
+            await report("convert", "Converting audio...", 10)
+            wav_path = await _convert_audio_to_wav(temp_audio_path)
 
-        lyrics_task = asyncio.create_task(
-            _transcribe_from_wav_path(
-                audio_paths.get("lyrics") or wav_path,
-                request,
-                require_text=False,
-                whisper_options=processing,
-            )
-        )
-        chords_task = asyncio.create_task(
-            detect_chords_from_path(audio_paths.get("chords") or wav_path, request)
-        )
-        melody_task = asyncio.create_task(
-            detect_melody_from_path(
-                audio_paths.get("melody") or wav_path,
-                request,
-                timing,
-                melody_processing,
-            )
-        )
-        task_meta = {
-            lyrics_task: ("lyrics", "Transcribing lyrics", 40),
-            chords_task: ("chords", "Detecting chords", 65),
-            melody_task: ("melody", "Extracting melody", 85),
-        }
-        pending = set(task_meta.keys())
-        results_by_task = {}
+            await report("filters", "Preparing audio filters...", 12)
+            audio_paths = await prepare_analysis_audio_paths_async(wav_path, processing, request)
+            melody_processing = dict(processing or {})
+            if audio_paths.get("filtered_paths"):
+                melody_processing["sourceSeparation"] = "off"
 
-        async def wait_for_parallel_tasks():
-            while pending:
-                done, still_pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
-                pending.clear()
-                pending.update(still_pending)
-                for task in done:
-                    stage, label, progress = task_meta[task]
-                    await report(stage, label + "...", progress)
-                    exc = task.exception()
-                    if exc is not None:
-                        results_by_task[task] = exc
-                    else:
-                        results_by_task[task] = task.result()
-                    await report(stage, label + " complete", min(progress + 8, 92))
-
-        await asyncio.wait_for(wait_for_parallel_tasks(), timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS)
-
-        results = [results_by_task.get(lyrics_task), results_by_task.get(chords_task), results_by_task.get(melody_task)]
-
-        lyrics = _empty_analysis_part("lyrics")
-        chords = _empty_analysis_part("chords")
-        melody = _empty_analysis_part("melody")
-
-        if isinstance(results[0], Exception):
-            lyrics["error"] = _analysis_error_message(results[0])
-        else:
-            lyrics = results[0]
-            lyrics["error"] = ""
-
-        if isinstance(results[1], Exception):
-            chords["error"] = _analysis_error_message(results[1])
-        else:
-            chords = results[1]
-            chords["error"] = ""
-
-        if isinstance(results[2], Exception):
-            melody["error"] = _analysis_error_message(results[2])
-        else:
-            melody = results[2]
-            melody["error"] = ""
-
-        shared_beat_times = timing.get("beatTimes") if isinstance(timing, dict) else None
-        if shared_beat_times and isinstance(chords, dict):
-            chords["beatTimes"] = shared_beat_times
-            if timing.get("tempo"):
-                chords["tempo"] = timing.get("tempo")
-
-        if isinstance(chords, dict) and isinstance(melody, dict) and chords.get("segments"):
+            timing = _empty_analysis_part("timing")
             try:
-                from chord_processing import post_process_chords
+                await report("timing", "Detecting timing...", 15)
+                timing = await detect_timing_from_path(wav_path, request)
+                timing["error"] = ""
+                await report("timing", "Timing detected", 25)
+            except Exception as exc:
+                timing["error"] = _analysis_error_message(exc)
 
-                detected_key = melody.get("detectedKey") or melody.get("key") or ""
-                chords["segments"] = post_process_chords(
-                    chords.get("segments") or [],
-                    key_text=detected_key,
-                    constrain_to_key=True,
-                    beat_times=shared_beat_times or chords.get("beatTimes") or [],
+            lyrics_task = asyncio.create_task(
+                _transcribe_from_wav_path(
+                    audio_paths.get("lyrics") or wav_path,
+                    request,
+                    require_text=False,
+                    whisper_options=processing,
                 )
-            except Exception:
-                pass
+            )
+            chords_task = asyncio.create_task(
+                detect_chords_from_path(audio_paths.get("chords") or wav_path, request)
+            )
+            melody_task = asyncio.create_task(
+                detect_melody_from_path(
+                    audio_paths.get("melody") or wav_path,
+                    request,
+                    timing,
+                    melody_processing,
+                )
+            )
+            task_meta = {
+                lyrics_task: ("lyrics", "Transcribing lyrics", 40),
+                chords_task: ("chords", "Detecting chords", 65),
+                melody_task: ("melody", "Extracting melody", 85),
+            }
+            pending = set(task_meta.keys())
+            results_by_task = {}
 
-        if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
-            detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"
-            raise HTTPException(status_code=502, detail=detail)
+            async def wait_for_parallel_tasks():
+                while pending:
+                    done, still_pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
+                    pending.clear()
+                    pending.update(still_pending)
+                    for task in done:
+                        stage, label, progress = task_meta[task]
+                        await report(stage, label + "...", progress)
+                        exc = task.exception()
+                        if exc is not None:
+                            results_by_task[task] = exc
+                        else:
+                            results_by_task[task] = task.result()
+                        await report(stage, label + " complete", min(progress + 8, 92))
 
-        await report("finalize", "Finalizing analysis...", 98)
-        body = {
-            "lyrics": lyrics,
-            "chords": chords,
-            "melody": melody,
-            "timing": timing,
-        }
-        await report("complete", "Analysis complete", 100)
-        return body
-    except ClientDisconnected as exc:
-        raise HTTPException(status_code=499, detail="Media analysis cancelled") from exc
-    except asyncio.TimeoutError as exc:
-        raise HTTPException(status_code=504, detail="Media analysis timeout") from exc
-    finally:
-        if audio_paths:
+            await asyncio.wait_for(wait_for_parallel_tasks(), timeout=ANALYZE_MEDIA_TIMEOUT_SECONDS)
+
+            results = [results_by_task.get(lyrics_task), results_by_task.get(chords_task), results_by_task.get(melody_task)]
+
+            lyrics = _empty_analysis_part("lyrics")
+            chords = _empty_analysis_part("chords")
+            melody = _empty_analysis_part("melody")
+
+            if isinstance(results[0], Exception):
+                lyrics["error"] = _analysis_error_message(results[0])
+            else:
+                lyrics = results[0]
+                lyrics["error"] = ""
+
+            if isinstance(results[1], Exception):
+                chords["error"] = _analysis_error_message(results[1])
+            else:
+                chords = results[1]
+                chords["error"] = ""
+
+            if isinstance(results[2], Exception):
+                melody["error"] = _analysis_error_message(results[2])
+            else:
+                melody = results[2]
+                melody["error"] = ""
+
+            shared_beat_times = timing.get("beatTimes") if isinstance(timing, dict) else None
+            if shared_beat_times and isinstance(chords, dict):
+                chords["beatTimes"] = shared_beat_times
+                if timing.get("tempo"):
+                    chords["tempo"] = timing.get("tempo")
+
+            if isinstance(chords, dict) and isinstance(melody, dict) and chords.get("segments"):
+                try:
+                    from chord_processing import post_process_chords
+
+                    detected_key = melody.get("detectedKey") or melody.get("key") or ""
+                    chords["segments"] = post_process_chords(
+                        chords.get("segments") or [],
+                        key_text=detected_key,
+                        constrain_to_key=True,
+                        beat_times=shared_beat_times or chords.get("beatTimes") or [],
+                    )
+                except Exception:
+                    pass
+
+            if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
+                detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"
+                raise HTTPException(status_code=502, detail=detail)
+
+            await report("finalize", "Finalizing analysis...", 98)
+            body = {
+                "lyrics": lyrics,
+                "chords": chords,
+                "melody": melody,
+                "timing": timing,
+            }
+            await report("complete", "Analysis complete", 100)
+            return body
+        except ClientDisconnected as exc:
+            raise HTTPException(status_code=499, detail="Media analysis cancelled") from exc
+        except asyncio.TimeoutError as exc:
+            raise HTTPException(status_code=504, detail="Media analysis timeout") from exc
+        finally:
+            if audio_paths:
+                try:
+                    cleanup_analysis_audio_paths(audio_paths)
+                except Exception:
+                    pass
             try:
-                cleanup_analysis_audio_paths(audio_paths)
-            except Exception:
-                pass
-        try:
-            os.unlink(temp_audio_path)
-        except FileNotFoundError:
-            pass
-        if wav_path:
-            try:
-                os.unlink(wav_path)
+                os.unlink(temp_audio_path)
             except FileNotFoundError:
                 pass
+            if wav_path:
+                try:
+                    os.unlink(wav_path)
+                except FileNotFoundError:
+                    pass
 
 
 async def stream_analyze_media_events(audio_bytes, filename, request, processing_config):
@@ -1916,19 +1831,53 @@ async def options_handler(path: str, request: Request):
 
 @app.get("/")
 async def root(request: Request):
+    origin = request.headers.get("origin")
+    if static_site_enabled():
+        response = static_file_response(origin, "index.html")
+        if response:
+            return response
     return JSONResponse(
         {
             "service": "abc2book-local-resolver",
             "health": "/health",
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/research-tune-background", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml"],
+            "staticSite": static_site_enabled(),
+            "staticSiteRoot": static_site_root() if static_site_enabled() else None,
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/search-images", "/research-tune-background", "/discover-composer", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml", "/abc2xml", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
-        headers=cors_headers(request.headers.get("origin")),
+        headers=cors_headers(origin),
     )
 
 
 @app.get("/health")
 async def health(request: Request, authorization: str | None = Header(default=None)):
+    """Cheap liveness probe — must stay fast so static imports work under ML load."""
+    body = {
+        "ok": True,
+        "requireAuth": REQUIRE_AUTH,
+        "staticSite": static_site_enabled(),
+    }
+    if REQUIRE_AUTH:
+        token = get_bearer_token(authorization)
+        if not token:
+            body["authorized"] = False
+            body["authReason"] = "login_required"
+        else:
+            verified = await verify_google_access_token(token)
+            if not verified:
+                body["authorized"] = False
+                body["authReason"] = "invalid_token"
+            elif not verified["allowed"]:
+                body["authorized"] = False
+                body["authReason"] = "email_not_authorized"
+            else:
+                body["authorized"] = True
+    return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
+
+
+@app.get("/health/ready")
+async def health_ready(request: Request, authorization: str | None = Header(default=None)):
+    """Deep readiness probe with feature detection and optional LLM check."""
     await _refresh_llm_health_if_stale()
     body = {
         "ok": True,
@@ -1936,6 +1885,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
         "demucsModel": os.getenv("MELODY_DEMUCS_MODEL", "htdemucs"),
         "demucsStems": list(_demucs_stems_for_model()),
         "features": resolver_features(),
+        "staticSite": static_site_enabled(),
     }
     if REQUIRE_AUTH:
         token = get_bearer_token(authorization)
@@ -2188,35 +2138,36 @@ async def detect_playback_region_from_audio(audio_bytes, filename, request, on_p
         if callable(on_progress):
             await on_progress(stage, message, progress)
 
-    try:
-        await emit("resolve", "Preparing audio...", 0.05)
-        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
-            temp_audio.write(audio_bytes)
-            temp_audio_path = temp_audio.name
+    async with heavy_job_slot():
+        try:
+            await emit("resolve", "Preparing audio...", 0.05)
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+                temp_audio.write(audio_bytes)
+                temp_audio_path = temp_audio.name
 
-        wav_path = await _convert_audio_to_wav(temp_audio_path)
-        return await detect_playback_region_from_wav(
-            wav_path,
-            request,
-            _transcribe_wav_for_playback_scan,
-            on_progress=emit,
-        )
-    finally:
-        if temp_audio_path:
-            try:
-                os.unlink(temp_audio_path)
-            except FileNotFoundError:
-                pass
-        if wav_path:
-            try:
-                os.unlink(wav_path)
-            except FileNotFoundError:
-                pass
-            temp_json_path = wav_path + ".json"
-            try:
-                os.unlink(temp_json_path)
-            except FileNotFoundError:
-                pass
+            wav_path = await _convert_audio_to_wav(temp_audio_path)
+            return await detect_playback_region_from_wav(
+                wav_path,
+                request,
+                _transcribe_wav_for_playback_scan,
+                on_progress=emit,
+            )
+        finally:
+            if temp_audio_path:
+                try:
+                    os.unlink(temp_audio_path)
+                except FileNotFoundError:
+                    pass
+            if wav_path:
+                try:
+                    os.unlink(wav_path)
+                except FileNotFoundError:
+                    pass
+                temp_json_path = wav_path + ".json"
+                try:
+                    os.unlink(temp_json_path)
+                except FileNotFoundError:
+                    pass
 
 
 async def stream_playback_region_detect_events(audio_bytes, filename, request):
@@ -2313,7 +2264,7 @@ async def detect_playback_region_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
-async def _process_voice_command_audio(audio_bytes, filename, books, tags, request):
+async def _process_voice_command_audio(audio_bytes, filename, books, tags, request, voice_mode):
     total_started = time.monotonic()
     transcribe_started = time.monotonic()
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
@@ -2321,42 +2272,43 @@ async def _process_voice_command_audio(audio_bytes, filename, books, tags, reque
     wav_path = None
 
     try:
-        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
-            temp_audio.write(audio_bytes)
-            temp_audio_path = temp_audio.name
+        async with heavy_job_slot():
+            with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
+                temp_audio.write(audio_bytes)
+                temp_audio_path = temp_audio.name
 
-        wav_path = await _convert_audio_to_wav(temp_audio_path)
-        transcription = await _transcribe_from_wav_path(
-            wav_path,
-            request,
-            require_text=False,
-            whisper_options=VOICE_WHISPER_OPTIONS,
-            format_as_lyrics=False,
-        )
-        transcribe_ms = int((time.monotonic() - transcribe_started) * 1000)
-        transcript = str(transcription.get("text") or "").strip()
-        if not transcript:
-            result = _empty_intent("", "none")
-            result["timing"] = {
+            wav_path = await _convert_audio_to_wav(temp_audio_path)
+            transcription = await _transcribe_from_wav_path(
+                wav_path,
+                request,
+                require_text=False,
+                whisper_options=VOICE_WHISPER_OPTIONS,
+                format_as_lyrics=False,
+            )
+            transcribe_ms = int((time.monotonic() - transcribe_started) * 1000)
+            transcript = str(transcription.get("text") or "").strip()
+            if not transcript:
+                result = _empty_intent("", "none")
+                result["timing"] = {
+                    "transcribeMs": transcribe_ms,
+                    "parseMs": 0,
+                    "totalMs": int((time.monotonic() - total_started) * 1000),
+                }
+                return result
+
+            parse_started = time.monotonic()
+            try:
+                intent = await parse_voice_intent(transcript, books, tags, voice_mode=voice_mode)
+            except Exception as exc:
+                intent = _empty_intent(transcript, "llm")
+                intent["error"] = str(exc)[:200]
+            parse_ms = int((time.monotonic() - parse_started) * 1000)
+            intent["timing"] = {
                 "transcribeMs": transcribe_ms,
-                "parseMs": 0,
+                "parseMs": parse_ms,
                 "totalMs": int((time.monotonic() - total_started) * 1000),
             }
-            return result
-
-        parse_started = time.monotonic()
-        try:
-            intent = await parse_voice_intent(transcript, books, tags)
-        except Exception as exc:
-            intent = _empty_intent(transcript, "llm")
-            intent["error"] = str(exc)[:200]
-        parse_ms = int((time.monotonic() - parse_started) * 1000)
-        intent["timing"] = {
-            "transcribeMs": transcribe_ms,
-            "parseMs": parse_ms,
-            "totalMs": int((time.monotonic() - total_started) * 1000),
-        }
-        return intent
+            return intent
     finally:
         if temp_audio_path:
             try:
@@ -2381,6 +2333,7 @@ async def voice_command_endpoint(
     file: UploadFile = File(...),
     books: str = Form(default="[]"),
     tags: str = Form(default="[]"),
+    mode: str = Form(default="playback"),
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
@@ -2402,6 +2355,10 @@ async def voice_command_endpoint(
         except ValueError as exc:
             return json_error(400, str(exc), origin)
 
+        voice_mode = (mode or "playback").strip().lower() or "playback"
+        if voice_mode not in {"playback", "help"}:
+            voice_mode = "playback"
+
         filename = file.filename or "voice-command.webm"
         body = await _process_voice_command_audio(
             audio_bytes,
@@ -2409,8 +2366,40 @@ async def voice_command_endpoint(
             book_list,
             tag_list,
             request,
+            voice_mode,
         )
         return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/help-query")
+async def help_query_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("llm")
+        track_resolver_usage("help-query")
+
+        payload = await request.json()
+        question = str(payload.get("question") or payload.get("query") or "").strip()
+        if not question:
+            return json_error(400, "Missing help question", origin)
+
+        intent = await parse_help_intent_llm(question)
+        body = {
+            "question": question,
+            "answer": intent.get("helpAnswer") or "Open the help section for the closest topic.",
+            "links": list(intent.get("helpLinks") or []),
+            "confidence": float(intent.get("confidence") or 0.0),
+            "parseMethod": str(intent.get("parseMethod") or "llm"),
+        }
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
 
@@ -2497,6 +2486,81 @@ async def search_lyrics_endpoint(
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
+
+
+def _lyrics_word_term(payload):
+    return str(
+        payload.get("term")
+        or payload.get("query")
+        or payload.get("word")
+        or payload.get("phrase")
+        or ""
+    ).strip()
+
+
+async def _run_lyrics_word_lookup(request, authorization, usage_name, lookup_fn):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage(usage_name)
+        payload = await request.json()
+        term = _lyrics_word_term(payload)
+        if not term:
+            return json_error(400, "Missing search term", origin)
+        body = await lookup_fn(term)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Lyrics word lookup failed"
+        return json_error(500, detail, origin)
+
+
+@app.post("/lyrics-dictionary")
+async def lyrics_dictionary_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(request, authorization, "lyrics-dictionary", lookup_dictionary)
+
+
+@app.post("/lyrics-thesaurus")
+async def lyrics_thesaurus_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(request, authorization, "lyrics-thesaurus", lookup_thesaurus)
+
+
+@app.post("/lyrics-rhyme")
+async def lyrics_rhyme_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(request, authorization, "lyrics-rhyme", lookup_rhymes)
+
+
+@app.post("/lyrics-reverse-dictionary")
+async def lyrics_reverse_dictionary_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(
+        request,
+        authorization,
+        "lyrics-reverse-dictionary",
+        lookup_reverse_dictionary,
+    )
+
+
+@app.post("/lyrics-phrases")
+async def lyrics_phrases_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(request, authorization, "lyrics-phrases", lookup_phrase_ideas)
 
 
 @app.post("/search-chords")
@@ -2665,6 +2729,31 @@ async def search_notation_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/search-images")
+async def search_images_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        if not image_search_available():
+            return json_error(503, "Image search is not configured (set BRAVE_SEARCH_API_KEY)", origin)
+        track_resolver_usage("search-images")
+
+        payload = await request.json()
+        query = str(payload.get("query") or payload.get("q") or "").strip()
+        count = payload.get("count")
+        body = await search_images(query, count=count or 24)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except RuntimeError as exc:
+        return json_error(502, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 async def stream_tune_background_research_events(title, artist, lyrics=""):
     queue = asyncio.Queue()
 
@@ -2748,24 +2837,334 @@ async def research_tune_background_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/discover-composer")
+async def discover_composer_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('discover-composer')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        title_hint = str(payload.get("titleHint") or payload.get("title_hint") or "").strip()
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+
+        if wants_stream:
+            async def stream_events():
+                queue = asyncio.Queue()
+
+                async def on_progress(stage, message, progress):
+                    await queue.put({
+                        "type": "progress",
+                        "stage": stage,
+                        "message": message,
+                        "progress": progress,
+                    })
+
+                async def run():
+                    try:
+                        async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                            body = await discover_composer(
+                                client,
+                                title,
+                                artist=artist,
+                                title_hint=title_hint,
+                                on_progress=on_progress,
+                            )
+                        await queue.put({"type": "result", "body": body})
+                    except ValueError as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 400,
+                        })
+                    except HTTPException as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc.detail),
+                            "status": exc.status_code,
+                        })
+                    except Exception as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 500,
+                        })
+                    finally:
+                        await queue.put(None)
+
+                task = asyncio.create_task(run())
+                try:
+                    while True:
+                        item = await queue.get()
+                        if item is None:
+                            break
+                        yield json.dumps(item) + "\n"
+                finally:
+                    await task
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
+
+        async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+            body = await discover_composer(
+                client,
+                title,
+                artist=artist,
+                title_hint=title_hint,
+            )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+def _sanitize_abc_for_musicxml(abc_text: str) -> str:
+    import re
+
+    lines = []
+    for line in str(abc_text or "").splitlines():
+        stripped = line.rstrip()
+        if not stripped:
+            continue
+        if stripped.startswith("%"):
+            continue
+        if re.match(r"^M:\s*$", stripped):
+            continue
+        lines.append(stripped)
+
+    cleaned = "\n".join(lines).strip()
+    if not cleaned:
+        raise ValueError("ABC notation is empty after cleanup")
+    return cleaned
+
+
+_ABC_HEADER_FIELD_RE = re.compile(r"^[A-Za-z]:")
+
+
+def _parse_abc_lyrics(abc_text: str):
+    block_lines = []
+    voice_w_lines = {}
+    voice_order = []
+    current_voice = "1"
+
+    for line in str(abc_text or "").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("%"):
+            continue
+        if stripped.startswith("W:"):
+            text = stripped[2:].strip()
+            if text:
+                block_lines.append(text)
+            continue
+        if stripped.startswith("w:"):
+            text = stripped[2:].strip().rstrip("|").strip()
+            if text:
+                voice_w_lines.setdefault(current_voice, []).append(text)
+            continue
+        if stripped.startswith("V:"):
+            voice_id = stripped[2:].strip().split(None, 1)[0] or "1"
+            current_voice = voice_id
+            if voice_id not in voice_order:
+                voice_order.append(voice_id)
+            continue
+        if _ABC_HEADER_FIELD_RE.match(stripped):
+            continue
+
+    if not voice_order and voice_w_lines:
+        voice_order = list(voice_w_lines.keys())
+
+    return block_lines, voice_w_lines, voice_order
+
+
+def _tokenize_abc_w_verse(verse_text: str):
+    tokens = []
+    for raw in str(verse_text or "").split():
+        if raw == "*":
+            tokens.append({"type": "skip"})
+        elif raw == "_":
+            tokens.append({"type": "extend"})
+        else:
+            hyphen = len(raw) > 1 and raw.endswith("-") and not raw.endswith("\\-")
+            text = raw[:-1] if hyphen else raw
+            text = text.replace("\\-", "-").replace("\\\\", "\\")
+            tokens.append({"type": "text", "text": text, "hyphen": hyphen})
+    return tokens
+
+
+def _collect_melodic_notes(part):
+    from music21 import note
+
+    collected = []
+    for element in part.recurse().notes:
+        if isinstance(element, note.Rest):
+            continue
+        collected.append(element)
+    return collected
+
+
+def _apply_w_lines_to_part(part, w_lines):
+    notes = _collect_melodic_notes(part)
+    note_idx = 0
+
+    for w_line in w_lines:
+        verses = [verse.strip() for verse in str(w_line or "").split("|") if verse.strip()]
+        if not verses:
+            continue
+        verse_tokens = [_tokenize_abc_w_verse(verse) for verse in verses]
+        token_count = max(len(tokens) for tokens in verse_tokens)
+
+        for token_pos in range(token_count):
+            if note_idx >= len(notes):
+                break
+            target = notes[note_idx]
+            advance = False
+
+            for verse_num, tokens in enumerate(verse_tokens, start=1):
+                if token_pos >= len(tokens):
+                    continue
+                token = tokens[token_pos]
+                token_type = token.get("type")
+                if token_type == "skip":
+                    advance = True
+                    continue
+                if token_type == "extend":
+                    if target.lyrics:
+                        target.lyrics[-1].isMelisma = True
+                    advance = True
+                    continue
+                text = token.get("text", "")
+                if not text:
+                    continue
+                target.addLyric(text, lyricNumber=verse_num)
+                if token.get("hyphen"):
+                    target.lyrics[-1].syllabic = "begin"
+                advance = True
+
+            if advance:
+                note_idx += 1
+
+
+def _apply_block_lyrics_to_part(part, block_lines):
+    notes = _collect_melodic_notes(part)
+    if not notes or not block_lines:
+        return
+
+    words = []
+    for line in block_lines:
+        text = str(line or "").strip()
+        if not text or (text.startswith("[") and text.endswith("]")):
+            continue
+        words.extend(text.split())
+
+    note_idx = 0
+    for word in words:
+        if note_idx >= len(notes):
+            break
+        notes[note_idx].addLyric(word)
+        note_idx += 1
+
+
+def _apply_block_lyrics_to_score(score, block_lines):
+    if not block_lines:
+        return
+
+    parts = list(score.parts) if score.parts else [score]
+    for part in parts:
+        if _collect_melodic_notes(part):
+            _apply_block_lyrics_to_part(part, block_lines)
+            return
+
+
+def _apply_abc_lyrics_to_score(score, block_lines, voice_w_lines, voice_order):
+    if not block_lines and not voice_w_lines:
+        return
+
+    parts = list(score.parts)
+    if not parts:
+        parts = [score]
+
+    if voice_w_lines:
+        if voice_order:
+            for voice_idx, voice_id in enumerate(voice_order):
+                w_lines = voice_w_lines.get(voice_id) or []
+                if not w_lines or voice_idx >= len(parts):
+                    continue
+                _apply_w_lines_to_part(parts[voice_idx], w_lines)
+        else:
+            first_voice = next(iter(voice_w_lines))
+            _apply_w_lines_to_part(parts[0], voice_w_lines.get(first_voice) or [])
+
+    _apply_block_lyrics_to_score(score, block_lines)
+
+
+def _finalize_score_for_musicxml(score):
+    from music21 import note, stream
+
+    prepared = score.makeNotation()
+    for part in prepared.parts:
+        part.makeRests(inPlace=True, fillGaps=True, timeRangeFromBarDuration=True)
+        for measure in part.getElementsByClass(stream.Measure):
+            notes_rests = list(measure.notesAndRests)
+            expected = measure.barDuration.quarterLength
+            if not expected:
+                continue
+            if not notes_rests:
+                measure.insert(0, note.Rest(quarterLength=expected))
+                continue
+            filled = sum(n.duration.quarterLength for n in notes_rests)
+            if filled + 0.001 < expected:
+                measure.insert(filled, note.Rest(quarterLength=expected - filled))
+    return prepared
+
+
+def _write_prepared_score_to_musicxml(prepared) -> str:
+    with tempfile.NamedTemporaryFile(mode="w+", suffix=".musicxml", delete=False) as temp_file:
+        temp_path = temp_file.name
+    try:
+        prepared.write("musicxml", fp=temp_path)
+        with open(temp_path, "r", encoding="utf-8") as handle:
+            return handle.read()
+    finally:
+        try:
+            os.remove(temp_path)
+        except FileNotFoundError:
+            pass
+
+
+def _write_score_to_musicxml(score) -> str:
+    prepared = _finalize_score_for_musicxml(score)
+    return _write_prepared_score_to_musicxml(prepared)
+
+
+async def convert_abc_to_musicxml(abc_text: str) -> str:
+    def _convert():
+        from music21 import converter
+
+        cleaned = _sanitize_abc_for_musicxml(abc_text)
+        block_lines, voice_w_lines, voice_order = _parse_abc_lyrics(abc_text)
+        score = converter.parse(cleaned, format="abc")
+        prepared = _finalize_score_for_musicxml(score)
+        _apply_abc_lyrics_to_score(prepared, block_lines, voice_w_lines, voice_order)
+        return _write_prepared_score_to_musicxml(prepared)
+
+    return await asyncio.to_thread(_convert)
+
+
 async def convert_midi_to_musicxml(midi_bytes: bytes, filename: str) -> str:
     def _convert():
         from music21 import converter
 
         score = converter.parseData(midi_bytes, quarterLengthDivisors=(4, 6))
-        with tempfile.NamedTemporaryFile(mode="w+", suffix=".musicxml", delete=False) as temp_file:
-            temp_path = temp_file.name
-        try:
-            score.write("musicxml", fp=temp_path)
-            musicxml_path = temp_path + ".musicxml"
-            with open(musicxml_path, "r", encoding="utf-8") as handle:
-                return handle.read()
-        finally:
-            for path in (temp_path, temp_path + ".musicxml"):
-                try:
-                    os.remove(path)
-                except FileNotFoundError:
-                    pass
+        return _write_score_to_musicxml(score)
 
     return await asyncio.to_thread(_convert)
 
@@ -2902,3 +3301,234 @@ async def midi2xml(
     except Exception as exc:
         detail = str(exc).strip()[:500] or "MIDI conversion failed"
         return json_error(500, detail, origin)
+
+
+async def _run_transcribe_sheet_image(
+    data: bytes,
+    filename: str,
+    on_progress: Callable[[dict[str, Any]], None] | None = None,
+    title_hints: list[str] | None = None,
+) -> dict:
+    def _run():
+        import json
+        import subprocess
+        import tempfile
+        import threading
+
+        vision_python = os.getenv("VISION_VENV_PYTHON", "").strip()
+        if vision_python and os.path.isfile(vision_python):
+            with tempfile.TemporaryDirectory(prefix="sheet-image-cli-") as work_dir:
+                image_path = os.path.join(work_dir, filename or "upload.png")
+                with open(image_path, "wb") as handle:
+                    handle.write(data)
+                env = os.environ.copy()
+                if on_progress:
+                    env["SHEET_IMAGE_PROGRESS"] = "1"
+
+                proc = subprocess.Popen(
+                    [vision_python, "/app/sheet_image_transcribe.py", image_path, "--json"],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True,
+                    env=env,
+                )
+
+                def _read_stderr() -> None:
+                    if proc.stderr is None or not on_progress:
+                        return
+                    for line in proc.stderr:
+                        cleaned = line.strip()
+                        if not cleaned.startswith("{"):
+                            continue
+                        try:
+                            event = json.loads(cleaned)
+                        except json.JSONDecodeError:
+                            continue
+                        if event.get("type") == "progress":
+                            on_progress(event)
+
+                stderr_thread = threading.Thread(target=_read_stderr, daemon=True)
+                stderr_thread.start()
+                try:
+                    stdout, stderr = proc.communicate(
+                        timeout=float(os.getenv("SHEET_IMAGE_TIMEOUT_SECONDS", "900")),
+                    )
+                except subprocess.TimeoutExpired:
+                    proc.kill()
+                    proc.communicate()
+                    raise RuntimeError("sheet image transcription timeout")
+                stderr_thread.join(timeout=1.0)
+                if proc.returncode != 0:
+                    detail = (stderr or stdout or "sheet image transcription failed").strip()
+                    raise RuntimeError(detail[:500])
+                return json.loads(stdout)
+
+        from sheet_image_transcribe import transcribe_sheet_image_sync
+
+        return transcribe_sheet_image_sync(data, filename, on_progress=on_progress)
+
+    async with heavy_job_slot():
+        body = await asyncio.to_thread(_run)
+    if title_hints:
+        hint = str(title_hints[0] or "").strip()
+        if hint:
+            body["title"] = hint
+    return body
+
+
+async def stream_transcribe_sheet_image_events(data: bytes, filename: str):
+    queue: asyncio.Queue = asyncio.Queue()
+    loop = asyncio.get_running_loop()
+
+    def on_progress(event: dict[str, Any]) -> None:
+        # Progress callbacks run in a worker thread; schedule onto the event loop.
+        loop.call_soon_threadsafe(queue.put_nowait, event)
+
+    async def run() -> None:
+        try:
+            body = await _run_transcribe_sheet_image(data, filename, on_progress=on_progress)
+            await queue.put({"type": "result", "body": body})
+        except Exception as exc:
+            await queue.put({
+                "type": "error",
+                "message": str(exc).strip()[:500] or "Sheet image transcription failed",
+            })
+
+    task = asyncio.create_task(run())
+    try:
+        while True:
+            event = await queue.get()
+            yield json.dumps(event, default=str) + "\n"
+            if event.get("type") in {"result", "error"}:
+                break
+    finally:
+        await task
+
+
+@app.post("/format-bulk-import-lines")
+async def format_bulk_import_lines(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage("format-bulk-import-lines")
+        payload = await request.json()
+        text = str(payload.get("text") or "")
+        from bulk_list_format import normalize_bulk_text
+
+        return JSONResponse(content={"lines": normalize_bulk_text(text)}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Bulk line formatting failed"
+        return json_error(500, detail, origin)
+
+
+@app.post("/transcribe-sheet-image")
+async def transcribe_sheet_image(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    titleHints: str | None = Form(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("sheetImage")
+        track_resolver_usage("transcribe-sheet-image")
+
+        if file is None:
+            return json_error(400, "Missing image upload", origin)
+
+        image_bytes = await file.read()
+        filename = file.filename or "upload.png"
+        if not image_bytes:
+            return json_error(400, "Image file is empty", origin)
+        if len(image_bytes) > MAX_SHEET_IMAGE_BYTES:
+            return json_error(
+                413,
+                "Image file too large (limit is " + str(MAX_SHEET_IMAGE_BYTES) + " bytes)",
+                origin,
+            )
+
+        title_hint_list: list[str] | None = None
+        if titleHints:
+            try:
+                parsed_hints = json.loads(titleHints)
+                if isinstance(parsed_hints, list):
+                    title_hint_list = [str(h).strip() for h in parsed_hints if str(h).strip()]
+            except json.JSONDecodeError:
+                title_hint_list = [titleHints.strip()] if titleHints.strip() else None
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+        if wants_stream:
+            async def body():
+                async for line in stream_transcribe_sheet_image_events(image_bytes, filename):
+                    yield line.encode("utf-8")
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
+
+        body = await _run_transcribe_sheet_image(image_bytes, filename, title_hints=title_hint_list)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Sheet image transcription failed"
+        return json_error(500, detail, origin)
+
+
+@app.post("/abc2xml")
+async def abc2xml(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('abc2xml')
+
+        if file is None:
+            return json_error(400, "Missing ABC file upload", origin)
+
+        abc_bytes = await file.read()
+        if not abc_bytes:
+            return json_error(400, "ABC notation is empty", origin)
+
+        if len(abc_bytes) > MAX_ABC_IMPORT_BYTES:
+            return json_error(
+                413,
+                "ABC notation is too large (limit is " + str(MAX_ABC_IMPORT_BYTES) + " bytes)",
+                origin,
+            )
+
+        abc_text = abc_bytes.decode("utf-8", errors="replace").strip()
+        if not abc_text:
+            return json_error(400, "ABC notation is empty", origin)
+
+        music_xml = await convert_abc_to_musicxml(abc_text)
+        return Response(
+            content=music_xml,
+            media_type="application/xml",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "ABC conversion failed"
+        return json_error(500, detail, origin)
+
+
+@app.get("/{full_path:path}")
+async def serve_static_asset(full_path: str, request: Request):
+    if not static_site_enabled():
+        raise HTTPException(status_code=404, detail="Not found")
+    response = static_file_response(request.headers.get("origin"), full_path)
+    if response:
+        return response
+    raise HTTPException(status_code=404, detail="Not found")

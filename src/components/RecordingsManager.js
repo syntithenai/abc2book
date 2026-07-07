@@ -8,6 +8,7 @@ import PDFPreviewViewer from '../components/PDFPreviewViewer'
 import useAudioUtils from '../useAudioUtils'
 import QuickPlayButton from '../components/QuickPlayButton'
 import FileNameEditorModal from '../components/FileNameEditorModal'
+import FileInputButton from './FileInputButton'
 
 export default function RecordingsManager(props) {
 	var allowedMimeTypes = ['audio/*'] //application/musicxml
@@ -75,7 +76,7 @@ export default function RecordingsManager(props) {
 		 <h3>Recordings</h3>
 		<Button variant="outline-success" size="sm" style={{float:'right'}} onClick={fileManager.pasteFiles} >{props.tunebook.icons.paste}</Button>
 		
-		<span style={{marginRight:'1em', width:'4em', overflow:'hidden', float:'right'}} ><input multiple={true} type='file'  className='custom-file-input-button' accept={Array.isArray(allowedMimeTypes) ? allowedMimeTypes.join(",") : '*'}  onChange={fileManager.filesSelected} /></span>
+		<FileInputButton label="Add" variant="success" size="sm" style={{float:'right', marginRight:'1em'}} multiple accept={Array.isArray(allowedMimeTypes) ? allowedMimeTypes.join(",") : '*'} onChange={fileManager.filesSelected} />
 		
 		{audioUtils.isRecording && <><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'1em', height:'2.2em'}} onClick={audioUtils.stopRecording} variant="danger" >{props.tunebook.icons.stopsmall}</Button><Button style={{color:'black', fontWeight:'bold', float:'right', marginRight:'0.2em', height:'2.2em'}} variant="outline-danger">{recordingDuration + 1}s</Button></>}
 		

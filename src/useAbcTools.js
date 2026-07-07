@@ -3,6 +3,8 @@ import abcjs from "abcjs";
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { renderDeletedTunesToAbc } from './tuneBookSync'
+import { stripPerformanceSetLines } from './performanceSetSync'
+import { stripPlaylistLines } from './playlistSync'
 import {
   applyAbcbookJsonChunks,
   collectAbcbookJsonChunk,
@@ -35,9 +37,21 @@ var useAbcTools = () => {
             ? parseInt(tune.playbackPitch, 10) : 0
         var fineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
             ? parseInt(tune.playbackFineTune, 10) : 0
-        return "% abcbook-playback-tempo " + tempo + "\n"
+        var lines = "% abcbook-playback-tempo " + tempo + "\n"
             + "% abcbook-playback-transpose " + pitch + "\n"
             + "% abcbook-playback-fine-tune " + fineTune + "\n"
+        if (tune.playbackMetronomeCountIn === false) {
+            lines += "% abcbook-playback-metronome-count-in false\n"
+        }
+        if (tune.playbackMetronomeCountInBars > 0 && tune.playbackMetronomeCountInBars !== 1) {
+            lines += "% abcbook-playback-metronome-count-in-bars " + tune.playbackMetronomeCountInBars + "\n"
+        }
+        if (tune.playbackMetronomeRhythm) {
+            try {
+                lines += "% abcbook-playback-metronome-rhythm " + JSON.stringify(tune.playbackMetronomeRhythm) + "\n"
+            } catch (e) {}
+        }
+        return lines
     }
     
     function isVoiceMeta(line) {
@@ -101,10 +115,20 @@ var useAbcTools = () => {
     }
     
     
+    function normalizeGenre(tune) {
+        if (!tune) return tune
+        if (tune.meta && tune.meta.G && !tune.genre) {
+            tune.genre = Array.isArray(tune.meta.G) ? tune.meta.G[0] : tune.meta.G
+            delete tune.meta.G
+        }
+        return tune
+    }
+
     function renderOtherHeaders(tune) {
         //console.log('RNoTER',tune.meta,tune)
       if (tune && tune.meta) {
         return Object.keys(tune.meta).map(function(key) {
+          if (key === 'G') return ''
           // exclude required headers
           if (Array.isArray(tune.meta[key])) {
             return tune.meta[key].map(function(metaLine) {
@@ -153,7 +177,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -220,6 +244,11 @@ var useAbcTools = () => {
                             tune.composer = line.slice(2).trim()
                         }
                         break
+                    case "G":
+                        if (!tune.genre) {
+                            tune.genre = line.slice(2).trim()
+                        }
+                        break
                     case "K":
                         if (!tune.key) tune.key = line.slice(2).trim()
                         break
@@ -253,15 +282,44 @@ var useAbcTools = () => {
                     tune.playbackPitch = parseInt(abcbookFieldValue(line, '% abcbook-playback-transpose'), 10) || 0
                 } else  if (line.startsWith('% abcbook-playback-fine-tune')) {
                     tune.playbackFineTune = parseInt(abcbookFieldValue(line, '% abcbook-playback-fine-tune'), 10) || 0
+                } else  if (line.startsWith('% abcbook-playback-metronome-count-in')) {
+                    var countInVal = abcbookFieldValue(line, '% abcbook-playback-metronome-count-in')
+                    tune.playbackMetronomeCountIn = countInVal !== 'false' && countInVal !== '0'
+                } else  if (line.startsWith('% abcbook-playback-metronome-count-in-bars')) {
+                    var countInBarsVal = parseInt(abcbookFieldValue(line, '% abcbook-playback-metronome-count-in-bars'), 10)
+                    tune.playbackMetronomeCountInBars = countInBarsVal > 0 ? countInBarsVal : 1
+                } else  if (line.startsWith('% abcbook-playback-metronome-rhythm')) {
+                    try {
+                        tune.playbackMetronomeRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-rhythm'))
+                    } catch (e) {}
                 } else  if (line.startsWith('% abcbook-lyrics-scroll-speed')) {
                     var lyricsScrollSpeedVal = parseFloat(abcbookFieldValue(line, '% abcbook-lyrics-scroll-speed'))
                     tune.lyricsScrollSpeed = lyricsScrollSpeedVal > 0 ? lyricsScrollSpeedVal : 1
+                } else  if (line.startsWith('% abcbook-zoom')) {
+                    var zoomVal = parseFloat(abcbookFieldValue(line, '% abcbook-zoom'))
+                    tune.zoom = zoomVal > 0 ? zoomVal : undefined
+                } else  if (line.startsWith('% abcbook-view-mode')) {
+                    var viewModeVal = abcbookFieldValue(line, '% abcbook-view-mode')
+                    if (viewModeVal) tune.viewMode = viewModeVal
+                } else  if (line.startsWith('% abcbook-active-voices')) {
+                    var activeVoicesVal = abcbookFieldValue(line, '% abcbook-active-voices')
+                    tune.activeVoices = activeVoicesVal
+                      ? activeVoicesVal.split(/[,\s]+/).map(function(part) { return part.trim() }).filter(Boolean)
+                      : []
                 } else  if (line.startsWith('% abcbook-transpose')) {
                     tune.transpose = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tuning')) {
                     tune.tuning = line.slice(17).trim()
                 } else  if (line.startsWith('% abcbook-tags')) {
                     tune.tags = line.slice(14).trim() ? line.slice(14).trim().split(",") : []
+                } else  if (line.startsWith('% abcbook-suitable-for')) {
+                    const suitableVal = abcbookFieldValue(line, '% abcbook-suitable-for')
+                    tune.suitableFor = suitableVal
+                      ? suitableVal.split(/[,\s]+/).map(function(part) { return part.trim() }).filter(Boolean)
+                      : []
+                } else  if (line.startsWith('% abcbook-suitable-for-practice')) {
+                    const practiceVal = abcbookFieldValue(line, '% abcbook-suitable-for-practice')
+                    tune.suitableForPractice = practiceVal !== 'false' && practiceVal !== '0'
                 } else  if (line.startsWith('% abcbook-lastupdated')) {
                     tune.lastUpdated = line.slice(22).trim()
                 } else  if (line.startsWith('% abcbook-soundfonts')) {
@@ -402,6 +460,24 @@ var useAbcTools = () => {
                                 links[numberParts[0]].endAt = numberParts.slice(1).join(' ')
                             }
                         }
+                    } else if (line.startsWith('% abcbook-link-recording-id-')) {
+                        var parts = line.trim().split('% abcbook-link-recording-id-')
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            if (numberParts.length > 1) {
+                                if (!links[numberParts[0]]) links[numberParts[0]] = {}
+                                links[numberParts[0]].recordingId = numberParts.slice(1).join(' ')
+                            }
+                        }
+                    } else if (line.startsWith('% abcbook-link-google-id-')) {
+                        var parts = line.trim().split('% abcbook-link-google-id-')
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            if (numberParts.length > 1) {
+                                if (!links[numberParts[0]]) links[numberParts[0]] = {}
+                                links[numberParts[0]].googleId = numberParts.slice(1).join(' ')
+                            }
+                        }
                     } else {
                         var parts = line.trim().split('% abcbook-link-')
                         //console.log(parts)
@@ -452,7 +528,7 @@ var useAbcTools = () => {
         }
         if (tune.id === null)  tune.id = utils.generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
-          return tune
+          return normalizeGenre(tune)
       }
       return {}
     }
@@ -470,6 +546,7 @@ var useAbcTools = () => {
       //console.log('json2abc',tune)
       //var bookData = {}
       if (tune) {
+        normalizeGenre(tune)
         var aliasText = ''
         if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
            var aliasChunks = sliceIntoChunks(tune.aliases,5)
@@ -500,9 +577,12 @@ var useAbcTools = () => {
             var wLineIndex = 0
             var wLines = getInterleavedLyricLines(tune)
             Object.keys(tune.voices).forEach(function(voice) {
-                if (Array.isArray(tune.voices[voice].notes)) {
-                    voicesAndNotes.push("V:"+voice+" "+ensureText(tune.voices[voice].meta,""))
-                    tune.voices[voice].notes.forEach(function(noteLine) {
+                voicesAndNotes.push("V:"+voice+" "+ensureText(tune.voices[voice].meta,""))
+                var noteLines = Array.isArray(tune.voices[voice].notes)
+                  ? tune.voices[voice].notes
+                  : (tune.voices[voice].notes ? [String(tune.voices[voice].notes)] : [''])
+                if (noteLines.length === 0) noteLines = ['']
+                noteLines.forEach(function(noteLine) {
                         voicesAndNotes.push(noteLine)
                         if (wLineIndex < wLines.length) {
                             var wText = wLines[wLineIndex]
@@ -512,7 +592,6 @@ var useAbcTools = () => {
                             wLineIndex += 1
                         }
                     })
-                }
             })
         } 
         var linksRendered = []
@@ -529,6 +608,12 @@ var useAbcTools = () => {
                     }
                     if (link.endAt) {
                         linksRendered.push("% abcbook-link-end-at-"+k + ' ' +  ensureNumber(link.endAt,"") )
+                    }
+                    if (link.recordingId) {
+                        linksRendered.push("% abcbook-link-recording-id-"+k + ' ' +  ensureText(link.recordingId,"") )
+                    }
+                    if (link.googleId) {
+                        linksRendered.push("% abcbook-link-google-id-"+k + ' ' +  ensureText(link.googleId,"") )
                     }
                     //console.log("TOABC",link.link,JSON.stringify(linksRendered))
                 }
@@ -581,6 +666,7 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
                     + ensure(tune.composer, "C:" + ensureText(tune.composer) + "\n" )
+                    + ensure(tune.genre, "G: " + ensureText(tune.genre) + "\n" )
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
@@ -598,7 +684,16 @@ var useAbcTools = () => {
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
+                    + (tune.zoom > 0 ? "% abcbook-zoom " + ensureNumber(tune.zoom, 1) + "\n" : '')
+                    + (tune.viewMode ? "% abcbook-view-mode " + ensureText(tune.viewMode) + "\n" : '')
+                    + (Array.isArray(tune.activeVoices)
+                      ? "% abcbook-active-voices " + tune.activeVoices.map(function(v) { return ensureText(v) }).filter(Boolean).join(",") + "\n"
+                      : '')
                     + "% abcbook-tags " +  ((Array.isArray(tune.tags) && tune.tags.length > 0) ? tune.tags.join(",") : '') + "\n" 
+                    + (Array.isArray(tune.suitableFor) && tune.suitableFor.length > 0
+                      ? "% abcbook-suitable-for " + tune.suitableFor.map(function(item) { return ensureText(item) }).filter(Boolean).join(",") + "\n"
+                      : '')
+                    + (tune.suitableForPractice === false ? "% abcbook-suitable-for-practice false\n" : '')
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
@@ -638,6 +733,7 @@ var useAbcTools = () => {
     }
      function json2abc_print(tune) {
       if (tune) {
+        normalizeGenre(tune)
         var aliasText = ''
         if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
            var aliasChunks = sliceIntoChunks(tune.aliases,5)
@@ -660,6 +756,7 @@ var useAbcTools = () => {
         var finalAbc = "\nX: "+tuneNumber + "\n" 
                     + "T: " + ensureText(tune.name) + "\n" 
                     + (tune.composer ? "C:" + tune.composer + "\n" :  '' )
+                    + (tune.genre ? "G: " + ensureText(tune.genre) + "\n" : '')
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
@@ -865,11 +962,11 @@ var useAbcTools = () => {
      */
 
     function abc2Tunebook(abc) {
-      // Deleted-tune tombstones are appended to the document as comment lines and
-      // are parsed separately (parseDeletedTunesFromAbc). Strip them here so a
-      // document that contains only tombstones (eg. after deleting every tune)
-      // does not get turned into a phantom tune with a freshly generated id.
-      var cleaned = (abc || '').split('\n').filter(function(line) {
+      // Deleted-tune tombstones and performance-set sections are appended to the
+      // document as comment lines and are parsed separately. Strip them here so
+      // they do not get turned into phantom tunes.
+      var withoutSets = stripPlaylistLines(stripPerformanceSetLines(abc || ''))
+      var cleaned = withoutSets.split('\n').filter(function(line) {
         return !line.trim().startsWith('% abcbook-deleted-tune')
       }).join('\n')
       var parts = cleaned.split('X:')

@@ -3,13 +3,243 @@
 }
 
 .practice-session-header {
+  display: block;
+}
+
+.practice-session-header-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  width: 100%;
+}
+
+.practice-session-header-left {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-width: 0;
+  justify-self: start;
+}
+
+.practice-session-header-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  justify-self: end;
+}
+
+.practice-session-header-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem 0.65rem;
+  min-width: 0;
+  justify-self: center;
+}
+
+.practice-session-header-title-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.practice-session-header-now-playing {
+  font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex: 1 1 auto;
+  max-width: 22rem;
+}
+
+.practice-session-header-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+}
+
+.practice-session-header-meta .practice-session-meta-highlight {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .practice-session-header-toolbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'header-left header-right'
+      'header-center header-center';
+    align-items: start;
+    row-gap: 0.45rem;
+  }
+
+  .practice-session-header-left {
+    grid-area: header-left;
+  }
+
+  .practice-session-header-center {
+    grid-area: header-center;
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .practice-session-header-right {
+    grid-area: header-right;
+  }
+
+  .practice-session-header-now-playing {
+    max-width: none;
+  }
+
+  .practice-session-header-title-row {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.practice-playback-status--compact {
+  flex-shrink: 0;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.78rem;
+}
+
+.practice-playback-status--compact .practice-playback-status-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.practice-playback-status--compact .practice-playback-status-label {
+  max-width: 5.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .practice-session-header .modal-title {
   margin: 0;
+}
+
+.practice-session-playback-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1.1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.practice-session-playback-btn.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-session-playback-btn-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.practice-session-playback-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.practice-session-playback-btn-icon svg {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.practice-session-playback-btn--play .practice-session-playback-btn-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+}
+
+.practice-session-header-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.practice-session-header-btn.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-session-header-btn-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.practice-session-header-btn--quit {
+  padding: 0.6rem 1.25rem;
+  font-size: 1.15rem;
+}
+
+.practice-session-header-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.practice-session-header-btn-icon svg {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+  vertical-align: middle;
+}
+
+.practice-session-header-btn--quit .practice-session-header-btn-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+}
+
+.practice-session-header-btn--skip {
+  background-color: #1565c0;
+  border-color: #1565c0;
+  color: #fff;
+}
+
+.practice-session-header-btn--skip:hover,
+.practice-session-header-btn--skip:focus,
+.practice-session-header-btn--skip:active {
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+  color: #fff;
+}
+
+.practice-session-header-btn--block .practice-session-header-btn-icon svg path:last-child,
+.practice-session-header-btn--skip .practice-session-header-btn-icon svg path:last-child {
+  fill: currentColor;
 }
 
 .practice-session-body {
@@ -17,8 +247,8 @@
 }
 
 .practice-session-instruction {
-  background: #eef6ff;
-  border: 2px solid #9ec5fe;
+  background: var(--app-brand-muted);
+  border: 2px solid var(--app-brand-border);
   border-radius: 0.75rem;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
@@ -36,12 +266,114 @@
   line-height: 1.35;
 }
 
+.practice-session-instruction .practice-session-meta {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--app-brand-border);
+}
+
 .practice-session-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  align-items: center;
+}
+
+.practice-session-meta-highlight {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.practice-playback-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.practice-playback-status-icon {
+  display: inline-flex;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.practice-playback-status--loading {
+  background: #fff8e1;
+  border-color: #ffcc80;
+  color: #e65100;
+}
+
+.practice-playback-status--loading .practice-playback-status-icon {
+  animation: practice-playback-spin 1s linear infinite;
+}
+
+.practice-playback-status--playing {
+  background: #e8f5e9;
+  border-color: #81c784;
+  color: #2e7d32;
+}
+
+.practice-playback-status--idle {
+  background: #eceff1;
+  border-color: #b0bec5;
+  color: #455a64;
+}
+
+@keyframes practice-playback-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.practice-session-playback-host {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  clip-path: inset(100%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.practice-tap-to-play-modal .modal-dialog {
+  max-width: 28rem;
+}
+
+.practice-tap-to-play-modal-body {
+  text-align: center;
+}
+
+.practice-tap-to-play-modal-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.practice-tap-to-play-modal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 12rem;
+  font-weight: 600;
+}
+
+.practice-tap-to-play-modal-btn-icon {
+  display: inline-flex;
+  line-height: 0;
+}
+
+.practice-tap-to-play-modal-btn-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
 }
 
 .practice-session-warmup-notation {
@@ -52,10 +384,8 @@
   min-width: 5rem;
 }
 
-.practice-session-header-actions {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+.practice-instrument-buttons .btn {
+  min-width: 7rem;
 }
 
 .practice-session-instruction-complete {
@@ -63,7 +393,7 @@
   border-color: #81c784;
 }
 
-.practice-session-ended .practice-session-meta,
+.practice-session-ended .practice-session-instruction .practice-session-meta,
 .practice-session-ended .practice-session-warmup-notation,
 .practice-session-ended .practice-session-tune-display {
   display: none;
@@ -75,12 +405,6 @@
 
 .practice-tune-display {
   max-width: 100%;
-}
-
-.practice-tune-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
 }
 
 .practice-tune-split {

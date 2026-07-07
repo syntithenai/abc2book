@@ -1,4 +1,40 @@
-import { normalizeNotationSearch, handleNotationSearchStreamEvent } from './notationSearchClient'
+import {
+  normalizeNotationSearch,
+  handleNotationSearchStreamEvent,
+  searchNotation,
+  searchNotationViaResolver,
+} from './notationSearchClient'
+import { searchNotationLight } from './notationSearchLight'
+import * as mediaProxyClient from './mediaProxyClient'
+import * as mediaResolverHealthStore from './mediaResolverHealthStore'
+
+jest.mock('./notationSearchLight', function() {
+  return {
+    searchNotationLight: jest.fn(function() {
+      return Promise.resolve({
+        abc: 'X:1\nK:G\nGAB|',
+        source: 'local',
+        multiple: false,
+      })
+    }),
+  }
+})
+
+jest.mock('./mediaProxyClient', function() {
+  const actual = jest.requireActual('./mediaProxyClient')
+  return Object.assign({}, actual, {
+    fetchViaMediaProxy: jest.fn(),
+    isMediaProxyConfigured: jest.fn(function() { return true }),
+  })
+})
+
+jest.mock('./mediaResolverHealthStore', function() {
+  return {
+    getMediaResolverHealthState: jest.fn(function() {
+      return { checked: true, available: true }
+    }),
+  }
+})
 
 describe('notationSearchClient', function() {
     test('normalizeNotationSearch builds abc candidate', function() {
@@ -62,5 +98,78 @@ describe('notationSearchClient', function() {
       progress: 0.2,
       stage: 'thesession',
     }])
+  })
+
+  describe('searchNotation facade', function() {
+    const lightResult = {
+      abc: 'X:1\nK:G\nGAB|',
+      source: 'local',
+      multiple: false,
+    }
+
+    beforeEach(function() {
+      mediaProxyClient.fetchViaMediaProxy.mockReset()
+      searchNotationLight.mockReset()
+      searchNotationLight.mockResolvedValue(lightResult)
+      mediaProxyClient.isMediaProxyConfigured.mockReturnValue(true)
+      mediaResolverHealthStore.getMediaResolverHealthState.mockReturnValue({
+        checked: true,
+        available: true,
+      })
+    })
+
+    test('uses lightweight search when resolverAvailable is false', async function() {
+      const result = await searchNotation({
+        title: 'Wild Rover',
+        resolverAvailable: false,
+      })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).not.toHaveBeenCalled()
+      expect(searchNotationLight).toHaveBeenCalledWith(expect.objectContaining({
+        title: 'Wild Rover',
+      }))
+      expect(result.source).toBe('local')
+    })
+
+    test('falls back to lightweight search on resolver infrastructure errors', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
+        new Error('Could not reach the media resolver')
+      )
+
+      const result = await searchNotation({ title: 'Wild Rover' })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).toHaveBeenCalled()
+      expect(searchNotationLight).toHaveBeenCalled()
+      expect(result.source).toBe('local')
+    })
+
+    test('rethrows non-infrastructure resolver errors', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
+        new Error('Notation search failed: invalid query')
+      )
+
+      await expect(searchNotation({ title: 'Wild Rover' }))
+        .rejects.toThrow('Notation search failed: invalid query')
+      expect(searchNotationLight).not.toHaveBeenCalled()
+    })
+
+    test('uses resolver when available and returns normalized result', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        json: async function() {
+          return {
+            abc: 'X:1\nT:Drowsy Maggie\nK:Edor\n|:E2|',
+            source: 'thesession.org',
+            title: 'Drowsy Maggie',
+          }
+        },
+      })
+
+      const result = await searchNotationViaResolver({ title: 'Drowsy Maggie' })
+
+      expect(searchNotationLight).not.toHaveBeenCalled()
+      expect(result.abc).toContain('K:Edor')
+      expect(result.source).toBe('thesession.org')
+    })
   })
 })

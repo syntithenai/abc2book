@@ -1,7 +1,9 @@
 import fs from 'fs'
 import path from 'path'
 import useAbcTools from './useAbcTools'
-import { isChordLine } from './chordSheetUtils'
+import { isChordLine, isSectionHeader } from './chordSheetUtils'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { getPlainLyricLines } from './wLinesUtils'
 
 const abcPath = path.join(__dirname, '..', 'scripts', 'brooke-marshal-output', 'brooke-marshal.abc')
 
@@ -19,6 +21,7 @@ describe('brooke-marshal.abc', function() {
       expect(tune.composer).toBe('Brooke Marshal')
       const lyricCount = Array.isArray(tune.wLines) ? tune.wLines.length : (tune.words || []).length
       expect(lyricCount).toBeGreaterThan(0)
+      expect(noteLinesHaveRealMelody(Object.values(tune.voices)[0].notes)).toBe(false)
     })
     const roots = tunes.find(function(t) { return String(t.name || '').trim() === 'Roots Down' })
     const rootsNotes = Object.values(roots.voices)[0].notes.join('\n')
@@ -27,6 +30,9 @@ describe('brooke-marshal.abc', function() {
     expect(rootsNotes).toMatch(/"A"/)
     expect(roots.wLines.some(function(l) { return /^D\s+G\s+A$/.test(String(l).trim()) })).toBe(false)
     expect(roots.wLines.some(function(l) { return String(l).startsWith('# ') })).toBe(true)
+    roots.wLines.filter(function(l) { return String(l).startsWith('# ') }).forEach(function(line) {
+      expect(isSectionHeader(line)).toBe(true)
+    })
     expect(rootsNotes).toMatch(/\|\|/)
     const cantFakeIt = tunes.find(function(t) { return /Can.t Fake It/i.test(String(t.name || '')) })
     expect(cantFakeIt).toBeTruthy()
@@ -41,8 +47,10 @@ describe('brooke-marshal.abc', function() {
     const blotting = tunes.find(function(t) { return /Blotting Paper/i.test(String(t.name || '')) })
     expect(blotting).toBeTruthy()
     expect(blotting.capo).toBe(2)
-    const pigPen = tunes.find(function(t) { return /Pig Pen/i.test(String(t.name || '')) })
-    expect(pigPen).toBeTruthy()
-    expect(pigPen.capo).toBe(3)
+    const loop = tunes.find(function(t) { return String(t.name || '').trim() === 'Loop de Loop' })
+    expect(loop).toBeTruthy()
+    expect(isSectionHeader('– solo')).toBe(true)
+    expect(loop.words.some(function(l) { return String(l).trim() === '– solo' })
+      || getPlainLyricLines(loop).some(function(l) { return String(l).trim() === '– solo' })).toBe(true)
   })
 })

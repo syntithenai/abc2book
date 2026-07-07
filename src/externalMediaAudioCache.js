@@ -1,6 +1,7 @@
 import localforage from 'localforage';
 import MP3Converter from './MP3Converter';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
+import { scheduleMediaCacheStorageCheck, tuneIdFromExternalMediaCacheKey } from './mediaCacheStorage';
 
 const store = localforage.createInstance({ name: 'externalmediacache' });
 
@@ -46,6 +47,7 @@ export async function getExternalMediaMp3Blob(options) {
     blob: blob,
     cachedAt: Date.now(),
   });
+  scheduleMediaCacheStorageCheck();
   return { blob: blob, duration: decoded.duration, cached: false };
 }
 
@@ -73,9 +75,33 @@ export async function downloadAndCacheExternalMedia(options) {
     blob: blob,
     cachedAt: Date.now(),
   });
+  scheduleMediaCacheStorageCheck();
   return { cached: false, duration: decoded.duration };
 }
 
-export async function clearExternalMediaCache() {
-  await store.clear();
+export async function putExternalMediaCache(cacheKey, blob, duration) {
+  await store.setItem(cacheKey, {
+    duration: duration || null,
+    blob: blob,
+    cachedAt: Date.now(),
+  });
+  scheduleMediaCacheStorageCheck();
+}
+
+export async function clearExternalMediaCache(lockedTuneIds) {
+  if (!lockedTuneIds || Object.keys(lockedTuneIds).length === 0) {
+    await store.clear();
+  } else {
+    const keysToRemove = [];
+    await store.iterate(function(_value, key) {
+      const tuneId = tuneIdFromExternalMediaCacheKey(key);
+      if (!tuneId || !lockedTuneIds[tuneId]) {
+        keysToRemove.push(key);
+      }
+    });
+    for (let i = 0; i < keysToRemove.length; i++) {
+      await store.removeItem(keysToRemove[i]);
+    }
+  }
+  scheduleMediaCacheStorageCheck(0);
 }

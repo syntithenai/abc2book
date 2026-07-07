@@ -1,3 +1,5 @@
+import { tunePairHasDifferingImportFields } from './tuneImportMergeUtils'
+
 const DELETED_TUNE_PREFIX = '% abcbook-deleted-tune '
 
 export function parseDeletedTunesFromAbc(abcText) {
@@ -42,8 +44,18 @@ export function mergeDeletedTuneMaps(localDeleted, remoteDeleted) {
   return merged
 }
 
-function toMs(ts) {
+export function toTuneUpdatedMs(ts) {
   return parseInt(ts, 10) || 0
+}
+
+export function isIncomingTuneNewer(localTune, incomingTune) {
+  if (!incomingTune) return false
+  if (!localTune) return true
+  return toTuneUpdatedMs(incomingTune.lastUpdated) > toTuneUpdatedMs(localTune.lastUpdated)
+}
+
+function toMs(ts) {
+  return toTuneUpdatedMs(ts)
 }
 
 function tombstoneWinsOverTune(tombAt, tuneAt) {
@@ -90,10 +102,11 @@ export function compareTuneBooks({ localTunes, localDeleted, remoteTunes, remote
     }
 
     if (localTune) {
+      const hasFieldDiff = tunePairHasDifferingImportFields(localTune, remoteTune)
       if (remoteTuneAt > localTuneAt) {
-        updates[id] = [localTune, remoteTune]
+        if (hasFieldDiff) updates[id] = [localTune, remoteTune]
       } else if (remoteTuneAt < localTuneAt) {
-        localUpdates[id] = [remoteTune, localTune]
+        if (hasFieldDiff) localUpdates[id] = [remoteTune, localTune]
       }
     } else {
       inserts[id] = remoteTune

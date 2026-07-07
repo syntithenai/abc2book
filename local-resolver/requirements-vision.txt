@@ -1,0 +1,9 @@
+# Optional vision stack for sheet image import (chord OCR + homr OMR).
+# Installed into /opt/vision-venv in the Docker image.
+paddleocr>=3.0.0
+paddlepaddle>=3.2.0,<3.3.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+pypdfium2>=4.0.0
+homr==0.7.0
+music21>=9.1.0

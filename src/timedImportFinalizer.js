@@ -7,7 +7,12 @@ import {
 } from './timedAbcDeriver';
 import { buildSectionsFromLines } from './timedLyricsModel';
 import { buildNotationWLines } from './noteSpacingUtils';
-import { getLyricLines, setLyricLines } from './wLinesUtils';
+import {
+  getPlainLyricLines,
+  setPlainLyricLines,
+  setNoteAlignedLyricLines,
+  stripNoteSpacingFromLine,
+} from './wLinesUtils';
 
 export function applyStanzaDoubleBarlines(noteLines, sections) {
   if (!Array.isArray(noteLines) || !Array.isArray(sections) || sections.length === 0) {
@@ -43,11 +48,11 @@ export function buildTimedLyricsFromMerged(draft) {
 export function noteLinesHaveRealMelody(noteLines) {
   if (!Array.isArray(noteLines)) return false;
   return noteLines.some(function(line) {
-    return String(line || '')
-      .replace(/"([^"]+)"/g, '')
-      .replace(/[|\s]/g, '')
-      .replace(/z/gi, '')
-      .trim().length > 0;
+    const stripped = String(line || '').replace(/"([^"]*)"/g, '');
+    for (let i = 0; i < stripped.length; i++) {
+      if (/[a-gA-G]/.test(stripped[i])) return true;
+    }
+    return false;
   });
 }
 
@@ -78,7 +83,7 @@ function resolveMelodyAndChordGrid(draft, tunebook, tuneMeta) {
     timingScaffold = !!melodyText.trim();
   }
 
-  if (!chordGridText.trim() && draft.timedChords) {
+  if (!chordGridText.trim() && draft.timedChords && !draft.explicitImports) {
     const derivedGrid = deriveChordSymbols(
       draft.timedChords,
       Object.assign({}, gridOptions, { includeMeterChanges: false })
@@ -94,9 +99,15 @@ function resolveMelodyAndChordGrid(draft, tunebook, tuneMeta) {
 }
 
 function deriveWLyricLines(draft, mergedTimedLyrics) {
+  if (draft.skipLyricsImport) {
+    return [];
+  }
   let wLines = (draft.lyricLines && draft.lyricLines.length > 0)
     ? draft.lyricLines.slice()
     : (draft.mergedLyricLines || []).slice();
+  if (draft.explicitImports) {
+    return wLines;
+  }
   if (mergedTimedLyrics && draft.timedMelody) {
     const derived = deriveWLines(mergedTimedLyrics, draft.timedMelody).map(function(line) {
       return line.replace(/^w:\s*/, '');
@@ -152,15 +163,28 @@ export function finalizeMediaTimedImport(options) {
   tune.id = tune.id || baseJson.id;
 
   const mergedTimedLyrics = buildTimedLyricsFromMerged(draft);
-  tune.wLines = deriveWLyricLines(draft, mergedTimedLyrics);
+  const plainLyrics = draft.explicitImports
+    ? deriveWLyricLines(draft, mergedTimedLyrics).map(stripNoteSpacingFromLine)
+    : (Array.isArray(draft.mergedLyricLines) && draft.mergedLyricLines.length > 0
+      ? draft.mergedLyricLines.slice()
+      : deriveWLyricLines(draft, mergedTimedLyrics).map(stripNoteSpacingFromLine));
+  if (plainLyrics.some(function(line) { return String(line || '').trim().length > 0; })) {
+    setPlainLyricLines(tune, plainLyrics);
+  }
 
+  const derivedAligned = deriveWLyricLines(draft, mergedTimedLyrics);
   if (resolved.timingScaffold) {
     tune.timingScaffold = true;
-  } else if (noteLinesHaveRealMelody(noteLines) && getLyricLines(tune).length > 0) {
+    setNoteAlignedLyricLines(tune, derivedAligned);
+  } else if (!draft.lyricsExplicitlyImported && noteLinesHaveRealMelody(noteLines) && getPlainLyricLines(tune).length > 0) {
     const spaced = buildNotationWLines(tune);
     if (spaced.some(function(line) { return String(line).trim().length > 0; })) {
-      tune.wLines = spaced;
+      setNoteAlignedLyricLines(tune, spaced);
+    } else if (derivedAligned.length > 0) {
+      setNoteAlignedLyricLines(tune, derivedAligned);
     }
+  } else if (derivedAligned.length > 0) {
+    setNoteAlignedLyricLines(tune, derivedAligned);
   }
 
   clearTransientTimedFields(tune);
@@ -194,21 +218,23 @@ export function finalizeChordSheetToTune(options) {
   abcJson.id = tune.id || abcJson.id;
   const voiceKey = resolvePrimaryVoiceKey(abcJson.voices);
   const noteLines = abcTools.justNotes(mergedAbc).split('\n');
+  const existingMeta = Object.assign({}, tune.meta || {});
   abcJson.voices = Object.assign({}, abcJson.voices);
   abcJson.voices[voiceKey] = Object.assign({}, abcJson.voices[voiceKey] || { meta: '', notes: [] }, {
     notes: noteLines,
   });
 
   Object.assign(tune, abcJson);
+  tune.meta = Object.assign({}, abcJson.meta || {}, existingMeta, tune.meta || {});
 
   if (Array.isArray(lyricLines)) {
-    setLyricLines(tune, lyricLines);
+    setPlainLyricLines(tune, lyricLines);
   }
 
-  if (noteLinesHaveRealMelody(noteLines) && getLyricLines(tune).length > 0) {
+  if (noteLinesHaveRealMelody(noteLines) && getPlainLyricLines(tune).length > 0) {
     const spaced = buildNotationWLines(tune);
     if (spaced.some(function(line) { return String(line).trim().length > 0; })) {
-      tune.wLines = spaced;
+      setNoteAlignedLyricLines(tune, spaced);
     }
   }
 

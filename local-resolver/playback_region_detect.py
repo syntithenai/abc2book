@@ -10,6 +10,7 @@ OUTRO_SCAN_SECONDS = 180
 INTRO_CLUSTER_GAP_SECONDS = 4.0
 SPEECH_BOUNDARY_GAP_SECONDS = 2.5
 BOUNDARY_PADDING_SECONDS = 0.3
+MUSIC_BOUNDARY_BUFFER_SECONDS = 1.0
 INTRO_MAX_SPEECH_SECONDS = 120.0
 OUTRO_ZONE_SECONDS = 150.0
 ENERGY_WINDOW_SECONDS = 1.0
@@ -235,6 +236,19 @@ def detect_end_from_outro_segments(segments, duration, tail_offset_seconds):
     return end_at, confidence, "gap"
 
 
+def apply_music_boundary_buffer(start_at, end_at, duration):
+    buffered_start = start_at
+    buffered_end = end_at
+    if start_at > 0:
+        buffered_start = _round_time(max(0.0, start_at - MUSIC_BOUNDARY_BUFFER_SECONDS))
+    if end_at > 0:
+        max_end = duration if duration > 0 else end_at + MUSIC_BOUNDARY_BUFFER_SECONDS
+        buffered_end = _round_time(min(max_end, end_at + MUSIC_BOUNDARY_BUFFER_SECONDS))
+    if buffered_start > 0 and buffered_end > 0 and buffered_end <= buffered_start:
+        return start_at, end_at
+    return buffered_start, buffered_end
+
+
 def detect_playback_region(intro_segments, outro_segments, duration, tail_offset_seconds, samples=None, sample_rate=16000):
     start_at, start_confidence, start_method = detect_start_from_intro_segments(
         intro_segments,
@@ -259,6 +273,8 @@ def detect_playback_region(intro_segments, outro_segments, duration, tail_offset
     if end_at > 0:
         methods.append("end:" + end_method)
     method = "+".join(methods) if methods else "none"
+
+    start_at, end_at = apply_music_boundary_buffer(start_at, end_at, duration)
 
     return {
         "startAt": start_at,

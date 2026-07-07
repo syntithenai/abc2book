@@ -7,7 +7,9 @@ import ImportListModal from './ImportListModal'
 import ImportXmlModal from './ImportXmlModal'
 import ImportYouTubeModal from './ImportYouTubeModal'
 import ImportCollectionsAccordion from './ImportCollectionsAccordion'
-import ImportFilesModal from './ImportFilesModal'
+import ImportChordSheetModal from './ImportChordSheetModal'
+import ImportSheetImageModal from './ImportSheetImageModal'
+import ImportChordUrlModal from './ImportChordUrlModal'
 
 function ImportOptionsModal(props) {
   const [show, setShow] = useState(props.show);
@@ -105,6 +107,9 @@ function ImportOptionsModal(props) {
         </Modal.Header>
         <Modal.Footer  >
 			<ImportAbcModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
+            <ImportChordSheetModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} />
+            <ImportSheetImageModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} requestGoogleScopes={props.requestGoogleScopes} login={props.login} mediaController={props.mediaController} />
+            <ImportChordUrlModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token} />
             <ImportXmlModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose} token={props.token}/>
             <ImportYouTubeModal  forceRefresh={props.forceRefresh}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleClose}/>
             <div>

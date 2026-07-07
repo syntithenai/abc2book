@@ -7,7 +7,10 @@ from notation_fetch import (
     build_web_abc_queries,
     extract_abc_from_text,
     extract_thesession_tune_meta,
+    extract_urls_from_search_item,
+    is_direct_abc_file_url,
     normalize_song_type,
+    validate_abc_page_url,
 )
 
 
@@ -28,6 +31,30 @@ class NotationFetchTests(unittest.TestCase):
         queries = build_web_abc_queries("Bicycle Race", "song", "Queen")
         self.assertTrue(any("Queen" in query for query in queries))
         self.assertTrue(any("Bicycle Race" in query for query in queries))
+        self.assertTrue(any("filetype:abc" in query for query in queries))
+
+    def test_is_direct_abc_file_url(self):
+        self.assertTrue(is_direct_abc_file_url("https://example.org/tunes/wild-rover.abc"))
+        self.assertTrue(is_direct_abc_file_url("https://example.org/WildRover.ABC"))
+        self.assertFalse(is_direct_abc_file_url("https://example.org/tunes/wild-rover.html"))
+
+    def test_validate_abc_page_url_allows_direct_abc_on_any_host(self):
+        url, error = validate_abc_page_url("https://personal.example.net/archive/rover.abc")
+        self.assertIsNone(error)
+        self.assertEqual(url, "https://personal.example.net/archive/rover.abc")
+
+    def test_validate_abc_page_url_rejects_unknown_html_pages(self):
+        url, error = validate_abc_page_url("https://personal.example.net/tune-page.html")
+        self.assertIsNone(url)
+        self.assertIn("not supported", error)
+
+    def test_extract_urls_from_search_item_finds_abc_in_snippet(self):
+        urls = extract_urls_from_search_item({
+            "url": "https://example.com/not-abc",
+            "snippet": "Download https://archive.example.org/tunes/drowsy.abc and enjoy.",
+        })
+        self.assertEqual(urls[0], "https://example.com/not-abc")
+        self.assertIn("https://archive.example.org/tunes/drowsy.abc", urls)
 
     def test_extract_abc_from_text_finds_x_k_block(self):
         abc = """X:1
@@ -267,6 +294,45 @@ K:D
         self.assertEqual(len(candidates), 1)
         self.assertIn("K:D", candidates[0]["abc"])
         self.assertTrue(any("Searching the web" in message for message in progress))
+
+    async def test_collect_web_abc_candidates_fetches_direct_abc_from_snippet(self):
+        from notation_fetch import collect_web_abc_candidates
+
+        web_results = [{
+            "title": "Personal tune archive",
+            "url": "https://example.com/blog/post",
+            "snippet": "ABC file: https://personal.example.net/tunes/wild-rover.abc",
+            "source": "duckduckgo",
+        }]
+        abc_file = """X:1
+T:Wild Rover
+M:4/4
+L:1/8
+K:D
+|:D|"""
+
+        class FakeClient:
+            async def get(self, url, **kwargs):
+                class Resp:
+                    text = abc_file
+                    headers = {"content-type": "text/plain; charset=utf-8"}
+
+                    def raise_for_status(self):
+                        return None
+
+                return Resp()
+
+        with patch("notation_fetch.search_web", new=AsyncMock(return_value=web_results)):
+            candidates = await collect_web_abc_candidates(
+                FakeClient(),
+                "Wild Rover",
+                "song",
+                on_progress=None,
+            )
+
+        self.assertEqual(len(candidates), 1)
+        self.assertIn("K:D", candidates[0]["abc"])
+        self.assertEqual(candidates[0]["sourceUrl"], "https://personal.example.net/tunes/wild-rover.abc")
 
     async def test_search_notation_runs_web_when_session_matches_are_weak(self):
         from notation_fetch import search_notation

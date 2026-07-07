@@ -14,6 +14,52 @@ function normalizeChordToken(token) {
     .replace(/^([A-G])sharp/i, '$1#');
 }
 
+function tokenizeLineWithOffsets(text) {
+  const raw = String(text === null || text === undefined ? '' : text);
+  const tokens = [];
+  const re = /\S+/g;
+  let match;
+  while ((match = re.exec(raw)) !== null) {
+    tokens.push({
+      text: match[0],
+      start: match.index,
+      end: match.index + match[0].length,
+    });
+  }
+  return tokens;
+}
+
+/**
+ * Token spans for a text line, preserving character offsets.
+ */
+export function getTokenSpans(text) {
+  return tokenizeLineWithOffsets(text);
+}
+
+/**
+ * Map a character offset in a lyric line to the nearest word index.
+ * Returns -1 when the line has no words.
+ */
+export function charOffsetToWordIndex(lyricLine, charOffset) {
+  const tokens = tokenizeLineWithOffsets(lyricLine);
+  if (tokens.length === 0) return -1;
+
+  const offset = Number.isFinite(charOffset) ? charOffset : 0;
+  let bestIndex = 0;
+  let bestDistance = Infinity;
+
+  tokens.forEach(function(token, index) {
+    const center = token.start + ((token.end - token.start) / 2);
+    const distance = Math.abs(offset - center);
+    if (distance < bestDistance) {
+      bestDistance = distance;
+      bestIndex = index;
+    }
+  });
+
+  return bestIndex;
+}
+
 export function tokenIsChord(token) {
   if (token === null || token === undefined) return false;
   const cleaned = normalizeChordToken(token);
@@ -25,23 +71,60 @@ export function tokenIsChord(token) {
   }
 }
 
+const SECTION_HEADER_WORD = '(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook)';
+const SECTION_HEADER_SUFFIX = '(\\s*\\d+)?(\\s*\\([^)]*\\))?\\s*[:.]?';
+const SECTION_HEADER_PREFIX = '(?:(?:guitar|bass|keyboard|piano|drum|mandolin|banjo|fiddle|harmonica|vocal?s?)\\s+)?';
+
+function stripSectionHeaderMarkup(text) {
+  return String(text || '')
+    .trim()
+    .replace(/^#+\s*/, '')
+    // Handwritten / PDF imports often use dash prefixes ("– solo") instead of "#".
+    .replace(/^[-–—−•*]\s*/, '')
+    .trim();
+}
+
+function matchesSectionHeaderText(text) {
+  const t = stripSectionHeaderMarkup(text);
+  if (!t) return false;
+  return new RegExp('^' + SECTION_HEADER_PREFIX + SECTION_HEADER_WORD + SECTION_HEADER_SUFFIX + '$', 'i').test(t);
+}
+
 /**
  * Section markers such as "[Verse 1]", "[Chorus]", "# Verse", or bare
  * "Verse 2" / "Bridge". A leading markdown-style "#" (optionally repeated) is
  * stripped before matching so "# Verse" / "## Chorus" are recognised.
  */
 export function isSectionHeader(line) {
-  let t = String(line === null || line === undefined ? '' : line).trim();
-  if (!t) return false;
-  if (/^\[.+\]$/.test(t)) return true;
-  t = t.replace(/^#+\s*/, '').trim();
-  if (!t) return false;
-  if (/^(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook)(\s*\d+)?\s*[:.]?$/i.test(t)) return true;
-  return false;
+  const raw = String(line === null || line === undefined ? '' : line).trim();
+  if (!raw) return false;
+  if (/^\[.+\]$/.test(raw)) return true;
+  return matchesSectionHeaderText(raw);
 }
 
 /**
- * A chord line is a non-empty, non-header line whose every token parses as a
+ * Rows of repeated dashes or equals separate alternate lyric versions on one tune.
+ */
+export function isLyricVersionSeparator(line) {
+  const t = String(line === null || line === undefined ? '' : line).trim();
+  if (!t) return false;
+  return /^[-=]{4,}$/.test(t);
+}
+
+/**
+ * Return only the lines before the first version separator (separator excluded).
+ */
+export function truncateLyricLinesAtVersionSeparator(lines) {
+  const result = [];
+  const source = Array.isArray(lines) ? lines : [];
+  for (let i = 0; i < source.length; i++) {
+    if (isLyricVersionSeparator(source[i])) break;
+    result.push(source[i]);
+  }
+  return result;
+}
+
+/**
  * chord. Requiring every token to be a chord keeps lyric lines (which contain
  * ordinary words) from being misread as chords.
  */
@@ -74,10 +157,10 @@ export function isChordLine(line) {
 export function classifyLyricChordLines(lines) {
   return (Array.isArray(lines) ? lines : []).map(function(raw) {
     const line = raw === null || raw === undefined ? '' : String(raw);
-    if (line.trim().length === 0) return { type: 'blank', text: '' };
-    if (isSectionHeader(line)) return { type: 'header', text: line.trim() };
-    if (isChordLine(line)) return { type: 'chord', text: line };
-    return { type: 'lyric', text: line };
+    if (line.trim().length === 0) return { type: 'blank', text: '', tokens: [] };
+    if (isSectionHeader(line)) return { type: 'header', text: line.trim(), tokens: [] };
+    if (isChordLine(line)) return { type: 'chord', text: line, tokens: tokenizeLineWithOffsets(line) };
+    return { type: 'lyric', text: line, tokens: tokenizeLineWithOffsets(line) };
   });
 }
 
@@ -108,11 +191,58 @@ export function splitIntoBlocks(lines) {
 }
 
 /**
+ * When a blank line sits between a section header and its lyrics, splitIntoBlocks
+ * leaves a header-only block. Attach that header to the following lyric block.
+ */
+export function coalesceSectionHeaderBlocks(blocks) {
+  const merged = [];
+  const source = Array.isArray(blocks) ? blocks : [];
+  for (let i = 0; i < source.length; i++) {
+    const block = source[i];
+    const next = source[i + 1];
+    if (block.length === 1 && isSectionHeader(block[0]) && next && next.length > 0 && !isSectionHeader(next[0])) {
+      merged.push([block[0]].concat(next));
+      i += 1;
+    } else if (block.length > 0) {
+      merged.push(block);
+    }
+  }
+  return merged;
+}
+
+/**
+ * Split blocks when several section headers appear back-to-back without a blank
+ * line between them (eg. "# Verse 3" followed by "– solo").
+ */
+export function splitBlocksOnInteriorHeaders(blocks) {
+  const split = [];
+  (Array.isArray(blocks) ? blocks : []).forEach(function(block) {
+    let current = [];
+    (Array.isArray(block) ? block : []).forEach(function(line) {
+      if (current.length > 0 && isSectionHeader(line)) {
+        split.push(current);
+        current = [line];
+      } else {
+        current.push(line);
+      }
+    });
+    if (current.length > 0) split.push(current);
+  });
+  return split;
+}
+
+export function normalizeLyricBlocks(lyricLines) {
+  return splitBlocksOnInteriorHeaders(
+    coalesceSectionHeaderBlocks(splitIntoBlocks(lyricLines))
+  );
+}
+
+/**
  * For display only: when a section header (eg. "# Chorus") appears without its
  * own lyric lines, repeat the words from the first stanza of that section type.
  */
 export function expandRepeatedSectionLyrics(lyricLines) {
-  const blocks = splitIntoBlocks(lyricLines);
+  const blocks = normalizeLyricBlocks(lyricLines);
   const bodyByType = {};
 
   blocks.forEach(function(block) {
@@ -216,9 +346,10 @@ export function extractChordSequence(chordChart) {
 export function chartBlockHasChords(chordChart) {
   if (!chordChart || !String(chordChart).trim()) return false;
   if (extractChordSequence(chordChart).length > 0) return true;
-  // Bar-only grids (| / . / whitespace) should read as empty even when
-  // chord-symbol rejects an unusual spelling from renderChords.
-  return String(chordChart).replace(/[|.\s\n]/g, '').length > 0;
+  // Bar-only grids (|, /, ., whitespace) should read as empty even when
+  // chord-symbol rejects an unusual spelling from renderChords. Slash chords
+  // like Dm/C still leave letter content after stripping `/`.
+  return String(chordChart).replace(/[|./\s\n]/g, '').length > 0;
 }
 
 /**
@@ -233,11 +364,34 @@ export function sanitizeChordChartBlock(chordChart) {
     .join('\n');
 }
 
+/**
+ * Replace bars that have no chord symbols with `/` so held bars and rest-only
+ * bars stay visible in block chord charts (e.g. `Fm | | Am |` → `Fm | / | Am |`).
+ * Beat placeholders (`.`) and existing `/` markers count as empty.
+ */
+export function fillEmptyBarsWithSlash(chordChart) {
+  if (!chordChart || !String(chordChart).trim()) return '';
+  return String(chordChart).split('\n').map(function(line) {
+    if (!line.trim()) return line;
+    const segments = line.split('|');
+    return segments.map(function(segment, index) {
+      // A line normally ends with '|', producing a trailing empty segment that
+      // is not a real bar.
+      if (index === segments.length - 1 && segment.trim() === '') return segment;
+      const tokens = segment.trim().split(/\s+/).filter(Boolean);
+      const hasChord = tokens.some(function(token) { return tokenIsChord(token); });
+      if (hasChord) return segment;
+      return ' / ';
+    }).join('|');
+  }).join('\n');
+}
+
 export function formatChordChartForDisplay(chordChart) {
   if (!chordChart || !String(chordChart).trim()) return '';
   const blocks = splitChordChartIntoBlocks(chordChart)
     .map(sanitizeChordChartBlock)
-    .filter(chartBlockHasChords);
+    .filter(chartBlockHasChords)
+    .map(fillEmptyBarsWithSlash);
   if (blocks.length === 0) return '';
   return blocks.join('\n\n');
 }
@@ -284,7 +438,8 @@ export function extractChordBars(chordChart) {
  *
  * @returns array of lines; each line is an array of { chord, text } tokens.
  */
-export function mergeChordsIntoLyricLines(lyricLines, chordChart) {
+export function mergeChordsIntoLyricLines(lyricLines, chordChart, options) {
+  const opts = options || {};
   const lineWords = (Array.isArray(lyricLines) ? lyricLines : [])
     .map(function(line) { return String(line || '').trim().split(/\s+/).filter(Boolean); })
     .filter(function(words) { return words.length > 0; });
@@ -320,10 +475,22 @@ export function mergeChordsIntoLyricLines(lyricLines, chordChart) {
     const wordCount = words.length;
     const barCount = lineBars.length;
     const slots = words.map(function() { return ''; });
+    const anchorWordIndexForBar = typeof opts.anchorWordIndexForBar === 'function'
+      ? opts.anchorWordIndexForBar
+      : null;
 
     if (barCount > 0) {
       lineBars.forEach(function(barChords, b) {
-        let wordIdx = Math.round((b * wordCount) / barCount);
+        let wordIdx = anchorWordIndexForBar
+          ? anchorWordIndexForBar({
+            lineIndex: li,
+            barIndex: b,
+            barCount: barCount,
+            wordCount: wordCount,
+            words: words.slice(),
+            lineText: String(lyricLines[li] || ''),
+          })
+          : Math.round((b * wordCount) / barCount);
         if (wordIdx >= wordCount) wordIdx = wordCount - 1;
         if (wordIdx < 0) wordIdx = 0;
 
@@ -374,18 +541,23 @@ export function mergeChordsIntoLyricLines(lyricLines, chordChart) {
  * carries no words of its own (eg. a chorus reference that is just a header)
  * falls back to showing the chord chart above the block.
  *
- * @returns array of { header, type, chart, lyricLines, inlineChords }
+ * chartRevisit is true when this lyric block reuses a chord stanza that was
+ * already shown (eg. a second verse or chorus, or another hymn verse under
+ * one melody chart). Display should show only the section title, not the
+ * chord chart again.
+ *
+ * @returns array of { header, type, chart, lyricLines, inlineChords, chartRevisit }
  */
 export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   const charts = Array.isArray(chordBlocks) ? chordBlocks : splitChordChartIntoBlocks(chordBlocks);
-  const rawBlocks = splitIntoBlocks(lyricLines).slice();
+  const rawBlocks = normalizeLyricBlocks(lyricLines).slice();
   const prefaceLines = [];
 
   if (rawBlocks.length > 0 && rawBlocks[0].length > 0) {
     const firstLine = rawBlocks[0][0];
     const nextLine = rawBlocks[0][1] || (rawBlocks[1] && rawBlocks[1][0]) || '';
     const likelyPreface = isLeadingTitleComposerLine(firstLine, options)
-      || (!options && rawBlocks[0].length === 1 && isSectionHeader(nextLine));
+      || (!options && rawBlocks[0].length === 1 && !isSectionHeader(firstLine) && isSectionHeader(nextLine));
     if (likelyPreface) {
       prefaceLines.push(firstLine);
       rawBlocks[0] = rawBlocks[0].slice(1);
@@ -435,6 +607,9 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
     ? combinedCharts.join('\n\n')
     : null;
 
+  const seenSectionTypes = Object.create(null);
+  const seenCharts = Object.create(null);
+
   const aligned = blocks.map(function(b, index) {
     let chart = '';
     if (hasTypes) {
@@ -452,8 +627,22 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
     if (!chartBlockHasChords(chart)) chart = '';
     else chart = sanitizeChordChartBlock(chart);
 
+    let chartRevisit = false;
+    if (chart) {
+      if (hasTypes && b.type) {
+        if (seenSectionTypes[b.type]) chartRevisit = true;
+        else seenSectionTypes[b.type] = true;
+      } else if (singleChartForAllBlocks !== null) {
+        chartRevisit = index > 0;
+      } else if (seenCharts[chart]) {
+        chartRevisit = true;
+      } else {
+        seenCharts[chart] = true;
+      }
+    }
+
     const hasWords = b.lyricLines.some(function(line) { return String(line).trim().length > 0; });
-    const inlineChords = !!(chart && hasWords);
+    const inlineChords = !!(chart && hasWords && !chartRevisit);
 
     return {
       prefaceLines: index === 0 ? prefaceLines : [],
@@ -463,6 +652,7 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
       extraChart: '',
       lyricLines: b.lyricLines,
       inlineChords: inlineChords,
+      chartRevisit: chartRevisit,
     };
   });
 

@@ -1,4 +1,5 @@
-const MAX_RECENT = 10
+export const RECENT_TUNES_DEFAULT = 10
+export const RECENT_TUNES_EXPANDED = 60
 
 function tuneLastUpdated(tune) {
   if (!tune || tune.lastUpdated === undefined || tune.lastUpdated === null || tune.lastUpdated === '') {
@@ -8,12 +9,13 @@ function tuneLastUpdated(tune) {
   return Number.isFinite(n) ? n : 0
 }
 
-export function getRecentTunes(tunes) {
+export function getRecentTunes(tunes, limit) {
   if (!tunes) return []
+  var max = typeof limit === 'number' && limit > 0 ? limit : RECENT_TUNES_DEFAULT
   return Object.values(tunes)
     .filter(function(tune) { return tune && tune.id && tuneLastUpdated(tune) > 0 })
     .sort(function(a, b) { return tuneLastUpdated(b) - tuneLastUpdated(a) })
-    .slice(0, MAX_RECENT)
+    .slice(0, max)
 }
 
 export const BOOKS_PAGE_SECTIONS = {
@@ -21,6 +23,8 @@ export const BOOKS_PAGE_SECTIONS = {
   recent: 'books-page-recent',
   books: 'books-page-books',
   tags: 'books-page-tags',
+  genres: 'books-page-genres',
+  artists: 'books-page-artists',
 }
 
 export function queueBooksPageScroll(sectionId) {

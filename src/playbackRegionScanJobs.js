@@ -65,3 +65,51 @@ export function clearPlaybackRegionScanAbortController(tuneId, linkIndex) {
   if (!key || !jobsByKey[key]) return;
   delete jobsByKey[key].abortController;
 }
+
+export function getAllPlaybackRegionScanJobs() {
+  return Object.keys(jobsByKey).map(function(key) {
+    const parts = key.split(':');
+    const tuneId = parts[0];
+    const linkIndex = parts.length > 1 ? Number(parts[1]) : 0;
+    const job = jobsByKey[key];
+    return {
+      tuneId: tuneId,
+      linkIndex: linkIndex,
+      isScanning: !!job.isScanning,
+      status: job.status || '',
+      progress: job.progress || 0,
+      error: job.error || '',
+      result: job.result || null,
+    };
+  });
+}
+
+export function cancelPlaybackRegionScanJob(tuneId, linkIndex) {
+  const key = getPlaybackRegionScanJobKey(tuneId, linkIndex);
+  if (!key || !jobsByKey[key]) return false;
+  const job = jobsByKey[key];
+  if (!job.isScanning) return false;
+  const abortController = job.abortController;
+  patchPlaybackRegionScanJob(tuneId, linkIndex, { status: 'Cancelling...' });
+  if (abortController) {
+    abortController.abort();
+  }
+  return true;
+}
+
+export function cancelAllActivePlaybackRegionScans() {
+  getAllPlaybackRegionScanJobs().forEach(function(job) {
+    if (job.isScanning) {
+      cancelPlaybackRegionScanJob(job.tuneId, job.linkIndex);
+    }
+  });
+}
+
+export function clearInactivePlaybackRegionScanJobs() {
+  Object.keys(jobsByKey).forEach(function(key) {
+    if (!jobsByKey[key].isScanning) {
+      delete jobsByKey[key];
+    }
+  });
+  notifyListeners();
+}

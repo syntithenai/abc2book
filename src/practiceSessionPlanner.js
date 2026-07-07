@@ -1,26 +1,25 @@
 import { parseKeySignatureForTests } from './melodyPitchSpelling'
 import { selectWarmupsForSession } from './practiceWarmupGenerator'
-import { getSkillTempoRange, getWarmupOptionsForSkill } from './practiceSessionSettings'
+import {
+  getSkillTempoRange,
+  getWarmupOptionsForSkill,
+  normalizePracticeInstrument,
+  tuneMatchesPracticeInstrument,
+} from './practiceSessionSettings'
+import { getRecentTunes } from './recentTunes'
+import { filterOutRecentlyPracticedTunes } from './practiceRecentHistory'
+import { tuneHasLyrics } from './practiceTuneViewUtils'
 
-const WARMUP_SECONDS_EACH = 45
+const WARMUP_SECONDS_EACH = 30
 const DEFAULT_TUNE_SECONDS = 120
 const MAX_WARMUP_FRACTION = 0.2
 const MAX_WARMUP_MINUTES = 2
+const RECENT_TUNES_FOR_PRACTICE_FILTER = 5
+const MIN_PRACTICE_CONFIDENCE = 3
 
 const ROOT_PITCH_CLASS = {
   C: 0, 'C#': 1, Db: 1, D: 2, 'D#': 3, Eb: 3, E: 4, F: 5,
   'F#': 6, Gb: 6, G: 7, 'G#': 8, Ab: 8, A: 9, 'A#': 10, Bb: 10, B: 11,
-}
-
-function shuffleArray(array) {
-  const copy = array.slice()
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    const tmp = copy[i]
-    copy[i] = copy[j]
-    copy[j] = tmp
-  }
-  return copy
 }
 
 export function normalizePracticeKey(key) {
@@ -39,6 +38,11 @@ export function getTuneKey(tune) {
     return String(tune.timedMelody.key).trim()
   }
   return ''
+}
+
+export function getTuneConfidence(tune) {
+  const value = parseInt(tune && tune.boost, 10)
+  return Number.isFinite(value) ? value : 0
 }
 
 export function pickPracticeKey(candidates) {
@@ -80,26 +84,158 @@ export function isPlayableTune(tune, helpers) {
   return helpers.hasLinks(tune) || helpers.hasNotesOrChords(tune)
 }
 
-export function collectPracticeCandidates(tunes, filters, helpers) {
+/** Voice practice: lyrics required. Other instruments: melody notes in ABC (not chord-only). */
+export function isSuitableForPractice(tune) {
+  return !!(tune && tune.suitableForPractice !== false)
+}
+
+export function tuneMatchesPracticeContent(tune, instrument, helpers) {
+  const inst = normalizePracticeInstrument(instrument)
+  if (inst === 'voice') {
+    return tuneHasLyrics(tune)
+  }
+  if (helpers.hasNotes && helpers.hasNotes(tune)) {
+    return true
+  }
+  return false
+}
+
+function normalizeBookName(name) {
+  return name != null ? String(name).trim().toLowerCase() : ''
+}
+
+function normalizeTagName(name) {
+  return name != null ? String(name).trim() : ''
+}
+
+export function derivePracticeContextFromRecentTunes(tunes, limit) {
+  const recent = getRecentTunes(tunes, limit != null ? limit : RECENT_TUNES_FOR_PRACTICE_FILTER)
+  const recentBooks = []
+  const recentTags = []
+  const seenBooks = {}
+  const seenTags = {}
+
+  recent.forEach(function(tune) {
+    ;(tune && Array.isArray(tune.books) ? tune.books : []).forEach(function(book) {
+      const normalized = normalizeBookName(book)
+      if (!normalized || seenBooks[normalized]) return
+      seenBooks[normalized] = true
+      recentBooks.push(String(book).trim())
+    })
+    ;(tune && Array.isArray(tune.tags) ? tune.tags : []).forEach(function(tag) {
+      const normalized = normalizeTagName(tag)
+      if (!normalized || seenTags[normalized]) return
+      seenTags[normalized] = true
+      recentTags.push(normalized)
+    })
+  })
+
+  return { recentBooks, recentTags }
+}
+
+export function tuneMatchesRecentPracticeContext(tune, recentBooks, recentTags) {
+  if ((!recentBooks || recentBooks.length === 0) && (!recentTags || recentTags.length === 0)) {
+    return true
+  }
+  const tuneBooks = tune && Array.isArray(tune.books) ? tune.books : []
+  for (let i = 0; i < tuneBooks.length; i++) {
+    const book = tuneBooks[i]
+    if (!book) continue
+    for (let j = 0; j < (recentBooks || []).length; j++) {
+      if (normalizeBookName(book) === normalizeBookName(recentBooks[j])) {
+        return true
+      }
+    }
+  }
+  const tuneTags = tune && Array.isArray(tune.tags) ? tune.tags : []
+  for (let i = 0; i < tuneTags.length; i++) {
+    const tag = tuneTags[i]
+    if (!tag) continue
+    for (let j = 0; j < (recentTags || []).length; j++) {
+      if (normalizeTagName(tag) === normalizeTagName(recentTags[j])) {
+        return true
+      }
+    }
+  }
+  return false
+}
+
+function sortByIncreasingConfidence(candidates) {
+  return candidates.slice().sort(function(a, b) {
+    const diff = getTuneConfidence(a) - getTuneConfidence(b)
+    if (diff !== 0) return diff
+    const aName = a && a.name ? String(a.name) : ''
+    const bName = b && b.name ? String(b.name) : ''
+    return aName.localeCompare(bName)
+  })
+}
+
+export function orderPracticeCandidates(candidates, options) {
+  const opts = options || {}
+  const instrument = normalizePracticeInstrument(opts.instrument)
+  const minConfidence = opts.minConfidence != null ? opts.minConfidence : MIN_PRACTICE_CONFIDENCE
+  const minCount = opts.minCount != null ? opts.minCount : 1
+  const pool = Array.isArray(candidates) ? candidates : []
+
+  function withInstrument(list) {
+    return list.filter(function(tune) { return tuneMatchesPracticeInstrument(tune, instrument) })
+  }
+
+  function withMinConfidence(list) {
+    return list.filter(function(tune) { return getTuneConfidence(tune) >= minConfidence })
+  }
+
+  function excludingRecentlyPracticed(list) {
+    return filterOutRecentlyPracticedTunes(list, {
+      now: opts.now,
+      cooldownMs: opts.cooldownMs,
+      recentPracticeHistory: opts.recentPracticeHistory,
+    })
+  }
+
+  const attempts = [
+    sortByIncreasingConfidence(withMinConfidence(withInstrument(excludingRecentlyPracticed(pool)))),
+    sortByIncreasingConfidence(withInstrument(excludingRecentlyPracticed(pool))),
+    sortByIncreasingConfidence(withMinConfidence(excludingRecentlyPracticed(pool))),
+    sortByIncreasingConfidence(excludingRecentlyPracticed(pool)),
+    sortByIncreasingConfidence(withMinConfidence(withInstrument(pool))),
+    sortByIncreasingConfidence(withInstrument(pool)),
+    sortByIncreasingConfidence(withMinConfidence(pool)),
+    sortByIncreasingConfidence(pool),
+  ]
+
+  for (let i = 0; i < attempts.length; i++) {
+    if (attempts[i].length >= minCount) {
+      return attempts[i]
+    }
+  }
+  return attempts[attempts.length - 1]
+}
+
+export function collectPracticeCandidates(tunes, filters, helpers, selectionOptions) {
   const bookFilter = filters && filters.bookFilter ? String(filters.bookFilter).trim() : ''
   const tagFilter = (filters && Array.isArray(filters.tagFilter) ? filters.tagFilter : [])
     .filter(function(t) { return t && String(t).trim().length > 0 })
-  const hasBook = bookFilter.length > 0
-  const hasTags = tagFilter.length > 0
+  const hasExplicitFilters = bookFilter.length > 0 || tagFilter.length > 0
+  const recentContext = derivePracticeContextFromRecentTunes(tunes, RECENT_TUNES_FOR_PRACTICE_FILTER)
+
+  const instrument = normalizePracticeInstrument(selectionOptions && selectionOptions.instrument)
 
   let candidates = Object.values(tunes || {}).filter(function(tune) {
     if (!isPlayableTune(tune, helpers)) return false
-    if (!hasBook && !hasTags) return true
-    return helpers.filterSearch(tune, '', bookFilter, tagFilter)
+    if (!isSuitableForPractice(tune)) return false
+    if (!tuneMatchesPracticeContent(tune, instrument, helpers)) return false
+    if (hasExplicitFilters) {
+      return helpers.filterSearch(tune, '', bookFilter, tagFilter)
+    }
+    return tuneMatchesRecentPracticeContext(
+      tune,
+      recentContext.recentBooks,
+      recentContext.recentTags
+    )
   })
 
-  candidates = shuffleArray(candidates)
-  candidates.sort(function(a, b) {
-    const aBoost = a && a.boost ? a.boost : 0
-    const bBoost = b && b.boost ? b.boost : 0
-    return aBoost > bBoost ? 1 : -1
-  })
-  return candidates
+  return orderPracticeCandidates(candidates, selectionOptions || {})
 }
 
 export function selectRouteForTune(tune, helpers) {
@@ -154,22 +290,33 @@ export function buildPracticeSessionPlan(options) {
   const totalMinutes = opts.totalMinutes || 10
   const includeWarmups = opts.includeWarmups !== false
   const skillLevel = opts.skillLevel != null ? opts.skillLevel : 5
+  const instrument = normalizePracticeInstrument(opts.instrument || 'mandolin')
   const tempoRange = getSkillTempoRange(skillLevel)
-  const warmupGenOptions = getWarmupOptionsForSkill(skillLevel, {})
+  const warmupGenOptions = getWarmupOptionsForSkill(skillLevel, { instrument: instrument })
   const tunes = opts.tunes || {}
   const helpers = opts.helpers || {}
   const filters = opts.filters || {}
 
-  const candidates = collectPracticeCandidates(tunes, filters, helpers)
+  const candidates = collectPracticeCandidates(tunes, filters, helpers, {
+    instrument: instrument,
+    minConfidence: MIN_PRACTICE_CONFIDENCE,
+    minCount: 1,
+  })
   const bookFilter = filters && filters.bookFilter ? String(filters.bookFilter).trim() : ''
   const tagFilter = (filters && Array.isArray(filters.tagFilter) ? filters.tagFilter : [])
     .filter(function(t) { return t && String(t).trim().length > 0 })
-  const hasActiveFilters = bookFilter.length > 0 || tagFilter.length > 0
+  const hasExplicitFilters = bookFilter.length > 0 || tagFilter.length > 0
   if (candidates.length === 0) {
+    const recentContext = derivePracticeContextFromRecentTunes(tunes, RECENT_TUNES_FOR_PRACTICE_FILTER)
+    const hasRecentContext = recentContext.recentBooks.length > 0 || recentContext.recentTags.length > 0
     return {
-      error: hasActiveFilters
+      error: hasExplicitFilters
         ? 'No playable tunes match your filters.'
-        : 'No playable tunes found in your tune book.',
+        : (hasRecentContext
+          ? 'No playable tunes match your recently viewed books or tags.'
+          : (normalizePracticeInstrument(instrument) === 'voice'
+            ? 'No tunes with lyrics found for voice practice.'
+            : 'No tunes with melody notation found for practice.')),
       steps: [],
       practiceKey: 'C',
       totalMinutes,
@@ -198,12 +345,21 @@ export function buildPracticeSessionPlan(options) {
           id: warmup.id,
           title: warmup.title,
           abc: warmup.abc,
+          meter: warmup.meter,
           action: warmup.action,
           estimatedSeconds: WARMUP_SECONDS_EACH,
         })
         warmupMinutes += WARMUP_SECONDS_EACH / 60
       }
     })
+  }
+
+  function tempoRangeForTune(tune) {
+    // Songs with lyrics stay at full speed so singing along stays natural.
+    if (tuneHasLyrics(tune)) {
+      return { tempoStart: 1, tempoEnd: 1 }
+    }
+    return tempoRange
   }
 
   let tuneSecondsUsed = 0
@@ -215,6 +371,7 @@ export function buildPracticeSessionPlan(options) {
       return
     }
     const tuneKey = getTuneKey(tune)
+    const tempos = tempoRangeForTune(tune)
     steps.push({
       type: 'tune',
       tuneId: tune.id,
@@ -222,8 +379,8 @@ export function buildPracticeSessionPlan(options) {
       route: routeInfo.route,
       linkIndex: routeInfo.linkIndex,
       pitchOffset: pitchOffsetToPracticeKey(tuneKey, practiceKey),
-      tempoStart: tempoRange.tempoStart,
-      tempoEnd: tempoRange.tempoEnd,
+      tempoStart: tempos.tempoStart,
+      tempoEnd: tempos.tempoEnd,
       estimatedSeconds: duration,
     })
     tuneSecondsUsed += duration
@@ -233,6 +390,7 @@ export function buildPracticeSessionPlan(options) {
     const first = orderedTunes[0]
     const routeInfo = selectRouteForTune(first, helpers)
     if (routeInfo) {
+      const tempos = tempoRangeForTune(first)
       steps.push({
         type: 'tune',
         tuneId: first.id,
@@ -240,8 +398,8 @@ export function buildPracticeSessionPlan(options) {
         route: routeInfo.route,
         linkIndex: routeInfo.linkIndex,
         pitchOffset: pitchOffsetToPracticeKey(getTuneKey(first), practiceKey),
-        tempoStart: tempoRange.tempoStart,
-        tempoEnd: tempoRange.tempoEnd,
+        tempoStart: tempos.tempoStart,
+        tempoEnd: tempos.tempoEnd,
         estimatedSeconds: estimateTuneDurationSeconds(first, routeInfo.route),
       })
     }
@@ -249,6 +407,7 @@ export function buildPracticeSessionPlan(options) {
 
   return {
     practiceKey,
+    instrument,
     totalMinutes,
     skillLevel,
     warmupMinutes: Math.round(warmupMinutes * 10) / 10,

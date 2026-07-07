@@ -1,16 +1,27 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { buildPracticeSessionPlan } from './practiceSessionPlanner'
-import { startPracticeTunePlayback } from './tunePlaybackActions'
+import { configurePracticeTunePlayback } from './tunePlaybackActions'
 import { savePracticeSettings } from './practiceSessionSettings'
+import { recordPracticedTune } from './practiceRecentHistory'
 import { getPlaybackSettings } from './pitchTempoUtils'
 import { pickPracticeTuneViewMode } from './practiceTuneViewUtils'
+import { getPracticePlaybackRampRatio, interpolatePracticeTempo } from './practiceSessionRamp'
+import * as mediaCacheQueue from './mediaCacheQueue'
 
 function buildHelpers(tunebook) {
   return {
     hasLinks: tunebook.hasLinks.bind(tunebook),
     hasNotesOrChords: tunebook.hasNotesOrChords.bind(tunebook),
+    hasNotes: tunebook.hasNotes.bind(tunebook),
     filterSearch: tunebook.filterSearch.bind(tunebook),
   }
+}
+
+function incrementTuneConfidence(tunebook, tune) {
+  if (!tunebook || !tune || !tune.id) return
+  const current = parseInt(tune.boost, 10)
+  const next = Number.isFinite(current) ? Math.min(20, current + 1) : 1
+  tunebook.saveTune(Object.assign({}, tune, { boost: next }))
 }
 
 export default function usePracticeSession(options) {
@@ -19,6 +30,7 @@ export default function usePracticeSession(options) {
   const mediaController = options.mediaController
   const setCurrentTune = options.setCurrentTune
   const setViewMode = options.setViewMode
+  const suspendNowPlayingQueue = options.suspendNowPlayingQueue
   const navigate = tunebook && tunebook.navigate ? tunebook.navigate.bind(tunebook) : options.navigate
 
   const tunesRef = useRef(tunes)
@@ -39,20 +51,25 @@ export default function usePracticeSession(options) {
 
   const rampTimerRef = useRef(null)
   const sessionTimerRef = useRef(null)
-  const stepStartedAtRef = useRef(0)
   const savedPlaybackRef = useRef(null)
   const planRef = useRef(null)
   const stepIndexRef = useRef(0)
   const phaseRef = useRef('idle')
+  const rampStartedRef = useRef(false)
+  const mediaControllerRef = useRef(mediaController)
+  const sessionClockPausedRef = useRef(true)
+  const [sessionGeneration, setSessionGeneration] = useState(0)
 
   useEffect(function() { planRef.current = plan }, [plan])
   useEffect(function() { stepIndexRef.current = stepIndex }, [stepIndex])
   useEffect(function() { phaseRef.current = phase }, [phase])
+  useEffect(function() { mediaControllerRef.current = mediaController }, [mediaController])
 
   const clearRampTimer = useCallback(function() {
     if (rampTimerRef.current) {
       clearInterval(rampTimerRef.current)
       rampTimerRef.current = null
+      rampStartedRef.current = false
     }
   }, [])
 
@@ -71,14 +88,31 @@ export default function usePracticeSession(options) {
     savedPlaybackRef.current = null
   }, [mediaController])
 
+  const resetPracticeMedia = useCallback(function() {
+    if (mediaController && mediaController.resetPracticeMediaPlayback) {
+      mediaController.resetPracticeMediaPlayback()
+    }
+  }, [mediaController])
+
+  const setSessionClockPaused = useCallback(function(paused) {
+    sessionClockPausedRef.current = !!paused
+  }, [])
+
   const stopSession = useCallback(function() {
     clearRampTimer()
     clearSessionTimer()
     if (mediaController) {
+      if (mediaController.setPracticeSessionActive) {
+        mediaController.setPracticeSessionActive(false)
+      }
       if (mediaController.setPracticeSessionHandler) {
         mediaController.setPracticeSessionHandler(null)
       }
       mediaController.stop()
+      if (mediaController.destroyExternalMedia) {
+        mediaController.destroyExternalMedia()
+      }
+      resetPracticeMedia()
     }
     restorePlaybackSettings()
     setPhase('idle')
@@ -90,16 +124,23 @@ export default function usePracticeSession(options) {
     setConfigOpen(false)
     setPlanError('')
     setPracticeViewMode('music')
-  }, [clearRampTimer, clearSessionTimer, mediaController, restorePlaybackSettings])
+  }, [clearRampTimer, clearSessionTimer, mediaController, restorePlaybackSettings, resetPracticeMedia])
 
   const startNewSession = useCallback(function() {
     clearRampTimer()
     clearSessionTimer()
     if (mediaController) {
+      if (mediaController.setPracticeSessionActive) {
+        mediaController.setPracticeSessionActive(false)
+      }
       if (mediaController.setPracticeSessionHandler) {
         mediaController.setPracticeSessionHandler(null)
       }
       mediaController.stop()
+      if (mediaController.destroyExternalMedia) {
+        mediaController.destroyExternalMedia()
+      }
+      resetPracticeMedia()
     }
     restorePlaybackSettings()
     setPhase('idle')
@@ -111,31 +152,49 @@ export default function usePracticeSession(options) {
     setPracticeViewMode('music')
     setConfigOpen(true)
     setPlanError('')
-  }, [clearRampTimer, clearSessionTimer, mediaController, restorePlaybackSettings])
+  }, [clearRampTimer, clearSessionTimer, mediaController, restorePlaybackSettings, resetPracticeMedia])
 
   const beginTempoRamp = useCallback(function(step, tune) {
     clearRampTimer()
     if (!step || step.type !== 'tune' || !mediaController) return
+    if (rampStartedRef.current) return
     const startTempo = step.tempoStart != null ? step.tempoStart : 0.5
     const endTempo = step.tempoEnd != null ? step.tempoEnd : 1.0
-    const durationMs = Math.max(10000, (step.estimatedSeconds || 120) * 1000)
-    stepStartedAtRef.current = Date.now()
-    setCurrentTempo(startTempo)
+    rampStartedRef.current = true
 
     const settings = getPlaybackSettings(tune)
     const pitch = (settings.pitch || 0) + (step.pitchOffset || 0)
-    mediaController.updateTunePlaybackSettings(startTempo, pitch, settings.fineTune || 0)
+    const applyLive = mediaController.applyLivePlaybackSettings || mediaController.updateTunePlaybackSettings
+    const liveOptions = { liveTempoOnly: true }
 
+    function applyRampRatio(ratio) {
+      const tempo = interpolatePracticeTempo(startTempo, endTempo, ratio)
+      applyLive(tempo, pitch, settings.fineTune || 0, liveOptions)
+    }
+
+    if (startTempo === endTempo) {
+      applyRampRatio(1)
+      rampStartedRef.current = false
+      return
+    }
+
+    applyRampRatio(0)
+
+    let lastAppliedTempoPct = null
     rampTimerRef.current = setInterval(function() {
-      const elapsed = Date.now() - stepStartedAtRef.current
-      const ratio = Math.min(1, elapsed / durationMs)
-      const tempo = startTempo + (endTempo - startTempo) * ratio
+      const controller = mediaControllerRef.current
+      const ratio = controller ? getPracticePlaybackRampRatio(controller) : null
+      if (ratio == null) return
+      const tempo = interpolatePracticeTempo(startTempo, endTempo, ratio)
+      const tempoPct = Math.round(tempo * 1000) / 10
+      if (tempoPct === lastAppliedTempoPct) return
+      lastAppliedTempoPct = tempoPct
       setCurrentTempo(tempo)
-      mediaController.updateTunePlaybackSettings(tempo, pitch, settings.fineTune || 0)
+      applyLive(tempo, pitch, settings.fineTune || 0, liveOptions)
       if (ratio >= 1) {
         clearRampTimer()
       }
-    }, 1000)
+    }, 500)
   }, [clearRampTimer, mediaController])
 
   const runTuneStep = useCallback(function(step) {
@@ -146,24 +205,74 @@ export default function usePracticeSession(options) {
     }
     const viewMode = pickPracticeTuneViewMode(tune, tunebook)
     setPracticeViewMode(viewMode)
-    if (setViewModeRef.current) setViewModeRef.current(viewMode)
-    if (setCurrentTune) setCurrentTune(step.tuneId)
     const settings = getPlaybackSettings(tune)
+    const pitch = (settings.pitch || 0) + (step.pitchOffset || 0)
+    const startTempo = step.tempoStart != null ? step.tempoStart : 0.5
+    setCurrentTempo(startTempo)
     savedPlaybackRef.current = {
       tempo: settings.tempo,
       pitch: settings.pitch,
       fineTune: settings.fineTune,
     }
-    startPracticeTunePlayback(mediaController, tunebook, navigate, tune, step)
-    beginTempoRamp(step, tune)
+    configurePracticeTunePlayback(mediaController, tunebook, tune, step)
+    const mediaLiveOpts = step.route === 'media' ? { liveTempoOnly: true } : undefined
+    if (mediaController.applyLivePlaybackSettings) {
+      mediaController.applyLivePlaybackSettings(startTempo, pitch, settings.fineTune || 0, mediaLiveOpts)
+    } else if (mediaController.updateTunePlaybackSettings) {
+      mediaController.updateTunePlaybackSettings(startTempo, pitch, settings.fineTune || 0)
+    }
+    rampStartedRef.current = false
     return true
-  }, [beginTempoRamp, mediaController, navigate, setCurrentTune, tunebook, tunes])
+  }, [mediaController, tunebook, tunes])
 
-  const advanceStep = useCallback(function() {
+  const startPendingTempoRamp = useCallback(function() {
+    if (rampStartedRef.current) return
+    const activePlan = planRef.current
+    const step = activePlan && activePlan.steps
+      ? activePlan.steps[stepIndexRef.current]
+      : null
+    if (!step || step.type !== 'tune') return
+    if (step.tempoStart != null && step.tempoEnd != null && step.tempoStart === step.tempoEnd) {
+      return
+    }
+    const tuneList = tunesRef.current || tunes || {}
+    const tune = tuneList[step.tuneId]
+    if (!tune) return
+    beginTempoRamp(step, tune)
+  }, [beginTempoRamp, tunes])
+
+  const advanceStep = useCallback(function(options) {
+    if (phaseRef.current === 'ended' || phaseRef.current === 'idle') return
+    const fromPlayback = !!(options && options.fromPlayback)
+    const fromBlock = !!(options && options.fromBlock)
+    const activePlan = planRef.current
+    const currentStep = activePlan && activePlan.steps
+      ? activePlan.steps[stepIndexRef.current]
+      : null
+    if (currentStep && currentStep.type === 'tune') {
+      const tuneList = tunesRef.current || tunes || {}
+      const completedTune = tuneList[currentStep.tuneId]
+      if (completedTune) {
+        if (fromPlayback) {
+          incrementTuneConfidence(tunebook, completedTune)
+        }
+        if (!fromBlock) {
+          recordPracticedTune(completedTune.id)
+        }
+      }
+    }
     clearRampTimer()
+    rampStartedRef.current = false
+    sessionClockPausedRef.current = true
+    if (mediaController && mediaController.stop) {
+      mediaController.stop()
+    }
+    if (mediaController && mediaController.destroyExternalMedia) {
+      mediaController.destroyExternalMedia()
+    }
+    resetPracticeMedia()
     restorePlaybackSettings()
 
-    const activePlan = planRef.current
     if (!activePlan || !activePlan.steps) {
       setPhase('ended')
       return
@@ -192,9 +301,44 @@ export default function usePracticeSession(options) {
       setPhase('warmup')
       setCurrentTempo(0.5)
     }
-  }, [clearRampTimer, restorePlaybackSettings, runTuneStep])
+  }, [clearRampTimer, restorePlaybackSettings, runTuneStep, mediaController, tunebook, tunes, resetPracticeMedia])
 
+  const blockCurrentTune = useCallback(function() {
+    if (phaseRef.current === 'ended' || phaseRef.current === 'idle') return
+    const activePlan = planRef.current
+    const currentStep = activePlan && activePlan.steps
+      ? activePlan.steps[stepIndexRef.current]
+      : null
+    if (currentStep && currentStep.type === 'tune' && tunebook && tunebook.saveTune) {
+      const tuneList = tunesRef.current || tunes || {}
+      const blockedTune = tuneList[currentStep.tuneId]
+      if (blockedTune) {
+        const updated = Object.assign({}, blockedTune, {
+          id: currentStep.tuneId,
+          suitableForPractice: false,
+        })
+        tunebook.saveTune(updated)
+      }
+    }
+    advanceStep({ fromBlock: true })
+  }, [advanceStep, tunebook, tunes])
+
+  const pendingPlaybackGestureRef = useRef(false)
   const advanceStepRef = useRef(advanceStep)
+
+  const armPlaybackGesture = useCallback(function() {
+    pendingPlaybackGestureRef.current = true
+  }, [])
+
+  const hasPlaybackGesture = useCallback(function() {
+    return !!pendingPlaybackGestureRef.current
+  }, [])
+
+  const consumePlaybackGesture = useCallback(function() {
+    const hadGesture = pendingPlaybackGestureRef.current
+    pendingPlaybackGestureRef.current = false
+    return hadGesture
+  }, [])
   useEffect(function() { advanceStepRef.current = advanceStep }, [advanceStep])
 
   const startStep = useCallback(function(index, activePlan) {
@@ -220,6 +364,7 @@ export default function usePracticeSession(options) {
         totalMinutes: config.totalMinutes,
         includeWarmups: config.includeWarmups,
         skillLevel: config.skillLevel,
+        instrument: config.instrument,
         tunes: tunesRef.current || tunes,
         helpers,
         filters: {
@@ -233,7 +378,12 @@ export default function usePracticeSession(options) {
         return false
       }
 
+      if (suspendNowPlayingQueue) {
+        suspendNowPlayingQueue()
+      }
+
       savePracticeSettings({
+        instrument: config.instrument,
         totalMinutes: config.totalMinutes,
         includeWarmups: config.includeWarmups,
         skillLevel: config.skillLevel,
@@ -243,17 +393,25 @@ export default function usePracticeSession(options) {
       setPlanError('')
       setConfigOpen(false)
       setSessionOpen(true)
+      setSessionGeneration(function(n) { return n + 1 })
+      pendingPlaybackGestureRef.current = true
       setPhase('running')
       setSecondsRemaining(built.totalMinutes * 60)
+      sessionClockPausedRef.current = true
+
+      if (mediaController && mediaController.setPracticeSessionActive) {
+        mediaController.setPracticeSessionActive(true)
+      }
 
       if (mediaController && mediaController.setPracticeSessionHandler) {
         mediaController.setPracticeSessionHandler(function() {
-          advanceStepRef.current()
+          advanceStepRef.current({ fromPlayback: true })
         })
       }
 
       clearSessionTimer()
       sessionTimerRef.current = setInterval(function() {
+        if (sessionClockPausedRef.current) return
         setSecondsRemaining(function(prev) {
           const next = prev - 1
           if (next <= 0) {
@@ -279,7 +437,7 @@ export default function usePracticeSession(options) {
       setPlanError(err && err.message ? err.message : 'Practice session failed to start.')
       return false
     }
-  }, [clearSessionTimer, mediaController, restorePlaybackSettings, startStep, tunebook, tunes])
+  }, [clearSessionTimer, mediaController, restorePlaybackSettings, startStep, suspendNowPlayingQueue, tunebook, tunes])
 
   const openConfig = useCallback(function() {
     setConfigOpen(true)
@@ -292,14 +450,27 @@ export default function usePracticeSession(options) {
   }, [])
 
   useEffect(function() {
+    if (!mediaController || !mediaController.setPracticeSessionActive) return
+    const active = sessionOpen && phase !== 'idle'
+    mediaController.setPracticeSessionActive(active)
+    if (active) {
+      mediaCacheQueue.stop()
+    }
+  }, [sessionOpen, phase, mediaController])
+
+  useEffect(function() {
     return function() {
       clearRampTimer()
       clearSessionTimer()
-      if (mediaController && mediaController.setPracticeSessionHandler) {
-        mediaController.setPracticeSessionHandler(null)
+      const controller = mediaControllerRef.current
+      if (controller && controller.setPracticeSessionHandler) {
+        controller.setPracticeSessionHandler(null)
+      }
+      if (controller && controller.setPracticeSessionActive) {
+        controller.setPracticeSessionActive(false)
       }
     }
-  }, [clearRampTimer, clearSessionTimer, mediaController])
+  }, [clearRampTimer, clearSessionTimer])
 
   const currentStep = phase === 'ended' || phase === 'idle'
     ? null
@@ -316,11 +487,18 @@ export default function usePracticeSession(options) {
     configOpen,
     sessionOpen,
     planError,
+    sessionGeneration,
+    setSessionClockPaused,
     openConfig,
     closeConfig,
     startSession,
     stopSession,
     startNewSession,
     advanceStep,
+    startPendingTempoRamp,
+    consumePlaybackGesture,
+    hasPlaybackGesture,
+    armPlaybackGesture,
+    blockCurrentTune,
   }
 }

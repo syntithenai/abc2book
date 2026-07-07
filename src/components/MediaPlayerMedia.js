@@ -4,9 +4,11 @@ import AbcPlayer from './AbcPlayer'
 import {useParams, Link, useLocation, useNavigate} from 'react-router-dom'
 import {useState, useEffect, useMemo, useRef} from 'react'
 
-export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
+export default function MediaPlayerMedia({mediaController, tunebook, tune, routePlayState, routeMediaLinkNumber, suppressAutostart, suppressTapModal, onMediaEngineReady, instanceId, compactPlayer}) {
     const params = useParams()
     const location = useLocation()
+    const playState = routePlayState != null ? routePlayState : params.playState
+    const mediaLinkNumberParam = routeMediaLinkNumber != null ? routeMediaLinkNumber : params.mediaLinkNumber
     //console.log("MediaPlayerMedia")
     const isFirefox = false; //typeof InstallTrigger !== 'undefined';
                     
@@ -17,56 +19,104 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     const [lastTuneId, setLastTuneId] = useState('')
     const [lastMediaLinkNumber, setLastMediaLinkNumber] = useState('')
     const lastPreparedSrcRef = useRef(null)
-    
+
+    // The media controller hook returns a fresh object on every App render, so
+    // it must NOT appear in the cleanup effect's deps: that would turn the
+    // "unmount" cleanup into an every-render cleanup that pauses/mutes the
+    // player continuously while it is playing. Read the latest controller
+    // through a ref instead and run the cleanup only on true unmount.
+    const mediaControllerRef = useRef(mediaController)
+    mediaControllerRef.current = mediaController
+    const instanceIdRef = useRef(instanceId)
+    instanceIdRef.current = instanceId
+
     useEffect(function() {
+        return function() {
+            const mc = mediaControllerRef.current
+            if (!mc) return
+            if (instanceIdRef.current === 'practice' && mc.destroyExternalMedia) {
+                mc.destroyExternalMedia()
+            }
+            const preserveHandoff = mc.shouldPreserveMediaEngineOnHostHandoff
+                && mc.shouldPreserveMediaEngineOnHostHandoff()
+            if (!preserveHandoff && mc.silencePlaybackOutputs) {
+                mc.silencePlaybackOutputs()
+            } else if (preserveHandoff && mc.pauseYoutubeOutputOnly) {
+                mc.pauseYoutubeOutputOnly()
+            }
+            // Only drop the shared YouTube player reference when we are NOT
+            // handing the engine off to another host/instance. Clearing it during
+            // a preserved handoff (or a React StrictMode remount) nulls the ref of
+            // the player that is meant to keep going, which stalls playback.
+            if (!preserveHandoff && mc.clearYoutubePlayerRef) {
+                mc.clearYoutubePlayerRef()
+            }
+        }
+    }, [])
+    
+    // Src-change work must only run when src actually changes. mediaController
+    // is a new object each render, so it must not be an effect dependency here
+    // (it would tear down the external audio engine on every render).
+    useEffect(function() {
+        const mc = mediaControllerRef.current
         if (!src) {
             lastPreparedSrcRef.current = null
-            if (mediaController.destroyExternalMedia) {
-                mediaController.destroyExternalMedia()
+            if (mc.destroyExternalMedia) {
+                mc.destroyExternalMedia()
             }
             return
         }
-        const srcType = mediaController.getSrcType(src)
+        const srcType = mc.getSrcType(src)
         if (srcType !== 'audio' && srcType !== 'youtube') {
             lastPreparedSrcRef.current = null
-            if (mediaController.destroyExternalMedia) {
-                mediaController.destroyExternalMedia()
+            if (mc.destroyExternalMedia) {
+                mc.destroyExternalMedia()
             }
             return
         }
         if (src !== lastPreparedSrcRef.current) {
+            const preserveEngine = src
+                && mc.shouldPreserveMediaEngineOnHostHandoff
+                && mc.shouldPreserveMediaEngineOnHostHandoff()
+                && mc.getActivePreparedMediaSrc
+                && src === mc.getActivePreparedMediaSrc()
             lastPreparedSrcRef.current = src
-            if (mediaController.notifyYoutubeSrcChanged) {
-                mediaController.notifyYoutubeSrcChanged()
-            }
-            if (mediaController.destroyExternalMedia) {
-                mediaController.destroyExternalMedia()
+            if (!preserveEngine) {
+                if (mc.notifyYoutubeSrcChanged) {
+                    mc.notifyYoutubeSrcChanged()
+                }
+                if (mc.destroyExternalMedia) {
+                    mc.destroyExternalMedia()
+                }
             }
         }
-        const needsExternal = mediaController.usesExternalPitchTempo && mediaController.usesExternalPitchTempo()
-        if (!needsExternal) {
-            if (mediaController.destroyExternalMedia) {
-                mediaController.destroyExternalMedia()
-            }
+        const needsExternal = mc.usesExternalPitchTempo && mc.usesExternalPitchTempo()
+        const deferExternalPrep = suppressAutostart && instanceId === 'practice'
+        if (!needsExternal || deferExternalPrep) {
             return
         }
-        if (mediaController.prepareExternalMedia) {
-            mediaController.prepareExternalMedia(src, undefined, { autoPlay: false, showLoading: false })
+        if (mc.prepareExternalMedia) {
+            mc.prepareExternalMedia(src, undefined, { autoPlay: false, showLoading: false })
         }
     }, [
         src,
-        mediaController,
         mediaController.mediaResolverAvailable,
+        instanceId,
     ])
     
     const tuneId = tune ? tune.id : null
     useEffect(function() {
-        if (!tune || !mediaController.applyPlaybackRoute) return
+        const mc = mediaControllerRef.current
+        if (!tune || !mc || !mc.applyPlaybackRoute) return
+        if (mc.requestedPlayState === 'playMidi') return
+        if (mc.playbackRouteMode === 'midi') return
+        if (mc.isMidiPlaybackRoute && mc.isMidiPlaybackRoute()) return
+        if (playState !== 'playMedia' && playState !== 'playMidi') return
 
         const isFirstTuneLoad = !lastTuneId
-        const route = mediaController.applyPlaybackRoute(
-            params.playState,
-            params.mediaLinkNumber,
+        const route = mc.applyPlaybackRoute(
+            playState,
+            mediaLinkNumberParam,
             tune,
             tunebook
         )
@@ -76,8 +126,29 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
         if (tune.id !== lastTuneId) {
             changeType = 'tune'
             mediaController.setTune(tune)
-            mediaController.setCurrentTime(0)
-            mediaController.setClickSeek(0)
+            if (mediaController.clearCachedNativePlaybackUrl) {
+                mediaController.clearCachedNativePlaybackUrl()
+            }
+            let resumePos = null
+            if (mediaController.consumeQueuePlaybackResume) {
+                resumePos = mediaController.consumeQueuePlaybackResume(tune.id)
+            }
+            if (resumePos == null && mediaController.getPlaybackHandoffPosition) {
+                resumePos = mediaController.getPlaybackHandoffPosition(tune.id)
+            }
+            if (resumePos != null) {
+                if (mediaController.applyPreservedPlaybackPosition) {
+                    mediaController.applyPreservedPlaybackPosition(resumePos)
+                } else {
+                    mediaController.setCurrentTime(resumePos)
+                }
+                if (mediaController.setIsPlaying) {
+                    mediaController.setIsPlaying(false)
+                }
+            } else {
+                mediaController.setCurrentTime(0)
+                mediaController.setClickSeek(0)
+            }
             mediaController.setDuration(0)
             mediaController.cleanupTimers()
             if (mediaController.hasActivePlaybackIntent && !mediaController.hasActivePlaybackIntent()) {
@@ -85,27 +156,50 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             }
         } else if (route.mediaLinkNumber !== lastMediaLinkNumber) {
             changeType = 'link'
+            if (mediaController.clearCachedNativePlaybackUrl) {
+                mediaController.clearCachedNativePlaybackUrl()
+            }
             mediaController.setCurrentTime(0)
             mediaController.setClickSeek(0)
             mediaController.setDuration(0)
             mediaController.cleanupTimers()
-        } else if (params.playState !== lastPlayState) {
+        } else if (playState !== lastPlayState) {
             changeType = 'playState'
         }
 
-        if (changeType === 'playState' && params.playState !== 'playMidi' && params.playState !== 'playMedia') {
-            mediaController.stop()
-        } else if (changeType && mediaController.maybeAutostart) {
-            mediaController.maybeAutostart(params.playState, changeType, isFirstTuneLoad)
+        if (changeType === 'playState' && playState !== 'playMidi' && playState !== 'playMedia') {
+            mc.stop()
+        } else if (changeType && !suppressAutostart) {
+            let consumed = false
+            if (mc.consumePendingPlayRequest) {
+                consumed = mc.consumePendingPlayRequest(
+                    tune.id,
+                    playState,
+                    route.mediaLinkNumber
+                )
+            }
+            if (!consumed && mc.maybeAutostart) {
+                mc.maybeAutostart(playState, changeType, isFirstTuneLoad)
+            }
         }
 
         setLastTuneId(tune ? tune.id : null)
         setLastMediaLinkNumber(route.mediaLinkNumber)
-        setLastPlayState(params.playState)
+        setLastPlayState(playState)
     
-    },[tuneId, params.mediaLinkNumber, params.playState, tune, tunebook, mediaController, lastTuneId, lastMediaLinkNumber, lastPlayState])
+    },[tuneId, mediaLinkNumberParam, playState, tune, tunebook, lastTuneId, lastMediaLinkNumber, lastPlayState, suppressAutostart])
     
+    function handleControllerMediaReady(e) {
+        if (mediaController.onMediaReady) {
+            mediaController.onMediaReady(e)
+        }
+        if (onMediaEngineReady) {
+            onMediaEngineReady()
+        }
+    }
+
     function renderTapToPlayModal() {
+        if (suppressTapModal) return null
         if (!mediaController.tapToPlay) return null
         return (
       <Modal show={true} data-testid="tap-to-play-modal" onHide={function() {
@@ -136,6 +230,14 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     }
 
     function handleNativePlay() {
+        if (mediaController.isLoading) {
+            if (mediaController.hasActivePlaybackIntent
+                && mediaController.hasActivePlaybackIntent()
+                && mediaController.confirmPlayingStarted) {
+                mediaController.confirmPlayingStarted()
+            }
+            return
+        }
         if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
             if (mediaController.confirmPlayingStarted) {
                 mediaController.confirmPlayingStarted()
@@ -147,6 +249,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
     }
 
     function handleNativePause() {
+        if (mediaController.isLoading) {
+            return
+        }
         if (mediaController.shouldSuppressSpuriousPause && mediaController.shouldSuppressSpuriousPause()) {
             return
         }
@@ -154,9 +259,18 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
                 return
             }
-            mediaController.setIsPlaying(false)
+            if (mediaController.pause) {
+                mediaController.pause()
+            } else {
+                mediaController.setIsPlaying(false)
+            }
         }
     }
+
+    const playerDomSuffix = instanceId ? '-' + instanceId : ''
+    const audioElementId = 'tunebookaudio' + playerDomSuffix
+    const youtubeElementId = 'tunebookyoutube' + playerDomSuffix
+    const mediaRootId = (src || 'media-player') + playerDomSuffix
 
     const youtubeOpts = useMemo(function() {
         const playerVars = {
@@ -165,39 +279,59 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             enablejsapi: 1,
         }
         return {
-            width: '100%',
+            width: compactPlayer ? '200' : '100%',
+            height: compactPlayer ? '150' : '390',
             playerVars: playerVars,
         }
-    }, [])
+    }, [compactPlayer])
+
+    function handleYoutubeReady(event) {
+        if (mediaController.onYtReady) {
+            mediaController.onYtReady(event)
+        }
+        if (onMediaEngineReady) {
+            onMediaEngineReady()
+        }
+    }
 
     var content = null
+    const cachedPlaybackSrc = mediaController.nativePlaybackSrcOverride
+    const useCachedAudioPlayer = !!cachedPlaybackSrc
+    const srcType = mediaController.getSrcType(src)
+    const recordingAwaitingBlob = srcType === 'recording' && !useCachedAudioPlayer
+    const nativeAudioSrc = useCachedAudioPlayer
+        ? cachedPlaybackSrc
+        : (recordingAwaitingBlob ? '' : src)
+    const needsExternalProcessor = !!(src && mediaController.usesExternalPitchTempo && mediaController.usesExternalPitchTempo())
+    const showYoutubeEmbed = srcType === 'youtube'
+        && (instanceId === 'practice' || !needsExternalProcessor || mediaController.nativePlaybackFallbackRequired)
 
-    if (mediaController.getSrcType(src) === 'audio') {
+    if (useCachedAudioPlayer || srcType === 'audio' || srcType === 'recording') {
         content =  <audio 
-           id="tunebookaudio" 
+           id={audioElementId} 
             onEnded={mediaController.onEnded} 
             onError={mediaController.onError} 
             onTimeUpdate={mediaController.onTimeUpdate} 
-            onCanPlayThrough={mediaController.onMediaReady} 
+            onCanPlayThrough={handleControllerMediaReady} 
             ref={mediaController.playerRef} 
-            src={src} 
+            src={nativeAudioSrc || undefined} 
             controls={true} 
             onPlay={handleNativePlay} 
             onPause={handleNativePause}  
         />
-    } else if (mediaController.getSrcType(src) === 'youtube') {
+    } else if (showYoutubeEmbed) {
         content =  <YouTube  
             key={src}
             videoId={tunebook.utils.YouTubeGetID(src)} 
-            id="tunebookyoutube"
+            id={youtubeElementId}
             opts={youtubeOpts}
             onStateChange={mediaController.onYtStateChange}
             onEnd={mediaController.onEnded}
             onError={mediaController.onError}
-            onReady={mediaController.onYtReady}
+            onReady={handleYoutubeReady}
          />
     }
-    return <div id={src || 'media-player'} >
+    return <div id={mediaRootId} >
         <div style={{display:'none'}}>{src}</div>
         <audio
             ref={mediaController.filteredPlayerRef}
@@ -205,7 +339,7 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune}) {
             onEnded={mediaController.onEnded}
             onError={mediaController.onError}
             onTimeUpdate={mediaController.onTimeUpdate}
-            onCanPlayThrough={mediaController.onMediaReady}
+            onCanPlayThrough={handleControllerMediaReady}
             onPlay={handleNativePlay}
             onPause={handleNativePause}
         />

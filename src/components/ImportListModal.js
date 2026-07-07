@@ -103,7 +103,7 @@ function ImportListModal(props) {
                   }
                   var hash = props.tunebook.abcTools.getTuneHash(tune) //hash = props.tunebook.utils.hash(found.notes.join("\n"))
                   //console.log("tryhash",hash,tunesHash.hashes[hash]   )
-                  if (props.tunesHash && props.tunesHash.hashes && props.tunesHash.hashes[hash] === true) {
+                  if (props.tunesHash && props.tunesHash.hashes && props.tunesHash.hashes[hash]) {
                     //console.log('dup ',found)
                     errorHistory.push('Duplicate tune '+songTitle)
                     setErrorHistory(errorHistory)

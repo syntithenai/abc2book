@@ -8,6 +8,7 @@ services:
       - .env
     environment:
       PORT: "8787"
+      STATIC_SITE_DIR: /app/www
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
       # values in this environment block override env_file and would disable auth.
@@ -21,6 +22,11 @@ services:
       MELODY_BACKEND_PREFERENCE: ${MELODY_BACKEND_PREFERENCE:-auto}
       MELODY_BACKEND: ${MELODY_BACKEND:-auto}
       MELODY_SOURCE_SEPARATION: ${MELODY_SOURCE_SEPARATION:-auto}
+      VISION_VENV_PYTHON: /opt/vision-venv/bin/python
+      VISION_CACHE_ROOT: /opt/vision-cache
+      PADDLE_PDX_CACHE_HOME: /opt/vision-cache
+      FLAGS_enable_pir_api: "0"
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
     devices:
       - /dev/dri:/dev/dri
     # Lets the container reach services on the host (e.g. an LM Studio LLM at
@@ -30,7 +36,25 @@ services:
       - "host.docker.internal:host-gateway"
     volumes:
       - ./secrets:/app/secrets:ro
-      - "/home/stever/projects/whisper models:/models:ro"
+      - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
+      - ../:/app/www:ro
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS --max-time 3 http://127.0.0.1:8787/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    restart: unless-stopped
+
+  # LM Studio binds to 127.0.0.1 by default, which Docker containers cannot
+  # reach via host.docker.internal. This bridge listens on 0.0.0.0:12340 and
+  # forwards to 127.0.0.1:1234; set RESEARCH_LLM_BASE_URL to
+  # http://host.docker.internal:12340/v1 in .env.
+  llm-bridge:
+    image: alpine/socat:1.8.0.0
+    container_name: abc2book-llm-bridge
+    network_mode: host
+    command: TCP-LISTEN:12340,bind=0.0.0.0,fork,reuseaddr TCP:127.0.0.1:1234
     restart: unless-stopped
 
   # Optional HTTPS reverse proxy. Enable with:

@@ -1,7 +1,12 @@
 import abcjs from 'abcjs';
 import { isSectionHeader } from './chordSheetUtils';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
-import { getLyricLines } from './wLinesUtils';
+import {
+  getPlainLyricLines,
+  getNoteAlignedLyricLines,
+  hasStoredNoteAlignedLyrics,
+  lyricLineHasNoteSpacing,
+} from './wLinesUtils';
 import {
   buildNotationLineBarMap,
   lyricAssignmentsForMelody,
@@ -9,17 +14,29 @@ import {
   countNotesInBarRange,
 } from './lyricBarAlignmentUtils';
 
-/**
- * Whether a lyric line already uses ABC w: note-spacing markers (hyphenated
- * syllables, melisma, skipped notes, etc.). Such lines are left unchanged.
- */
-export function lyricLineHasNoteSpacing(line) {
-  const text = String(line || '').trim();
-  if (!text) return false;
-  if (/[~*_]/.test(text)) return true;
-  if (/\w-\s/.test(text)) return true;
-  if (/  +/.test(text)) return true;
-  return false;
+export { lyricLineHasNoteSpacing };
+
+function getBoundaryAwareLyricLines(tune) {
+  const alignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
+    ? tune.meta.chordSheetAlignment
+    : [];
+  if (alignment.length === 0) return getPlainLyricLines(tune);
+
+  const lines = [];
+  alignment.forEach(function(block, blockIndex) {
+    if (block && block.header) {
+      lines.push(String(block.header));
+    }
+    const linePairs = block && Array.isArray(block.linePairs) ? block.linePairs : [];
+    linePairs.forEach(function(pair) {
+      const text = pair && pair.lyricLine != null ? String(pair.lyricLine) : '';
+      if (text.trim().length > 0) lines.push(text);
+      else lines.push('');
+    });
+    if (blockIndex < alignment.length - 1) lines.push('');
+  });
+
+  return lines.length > 0 ? lines : getPlainLyricLines(tune);
 }
 
 /**
@@ -263,13 +280,14 @@ export function applyNoteSpacingToLyrics(lyricLines, noteLines, options) {
 /**
  * Build one w: line per ABC notation line using bar-block lyric assignment, then
  * fit syllables to the note count on that staff line (notation display only).
+ * Uses plain lyrics as the source; does not read stored note-aligned lines.
  */
 export function buildNotationWLines(tune) {
   if (!tune || !tune.voices) return [];
   const voiceKey = resolvePrimaryVoiceKey(tune.voices);
   const voice = tune.voices[voiceKey];
   const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
-  const lyricLines = getLyricLines(tune);
+  const lyricLines = getBoundaryAwareLyricLines(tune);
   if (noteLines.length === 0) return [];
 
   const opts = {
@@ -295,48 +313,47 @@ export function buildNotationWLines(tune) {
 }
 
 /**
- * Apply bar-aware note spacing to stored lyric lines (one output line per input line).
+ * Resolve note-aligned w: lines for notation: prefer stored syllable-marked
+ * lines, otherwise generate from plain lyrics and melody.
+ */
+export function resolveNoteAlignedWLines(tune) {
+  if (!tune) return [];
+  if (hasStoredNoteAlignedLyrics(tune)) {
+    const stored = getNoteAlignedLyricLines(tune);
+    const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+    const voice = tune.voices && tune.voices[voiceKey];
+    const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
+    if (noteLines.length === 0) return stored;
+    const opts = {
+      meter: tune.meter,
+      noteLength: tune.noteLength,
+      key: tune.key,
+    };
+    // Pad/trim to note-line count and apply spacing to any plain stored lines.
+    return noteLines.map(function(noteLine, index) {
+      const line = index < stored.length ? stored[index] : '';
+      if (!String(line).trim()) return '';
+      if (lyricLineHasNoteSpacing(line)) return line;
+      const noteCount = countLyricSlotsInNoteLine(noteLine, opts);
+      if (noteCount <= 0) return line;
+      return fitLyricLineToNoteCount(line, noteCount);
+    });
+  }
+  return buildNotationWLines(tune);
+}
+
+/**
+ * Apply bar-aware note spacing as one w: line per melody note line.
+ * Returns lines suitable for tune.wLines (notation alignment), not plain words.
  */
 export function applyNoteSpacingToTune(tune) {
-  if (!tune || !tune.voices) return getLyricLines(tune);
-  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
-  const voice = tune.voices[voiceKey];
-  const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
-  const lyricLines = getLyricLines(tune);
-  if (noteLines.length === 0 || lyricLines.length === 0) return lyricLines.slice();
-
-  const opts = {
-    meter: tune.meter,
-    noteLength: tune.noteLength,
-    key: tune.key,
-  };
-  const assignments = lyricAssignmentsForMelody(noteLines, lyricLines);
-  let singableIndex = 0;
-
-  return lyricLines.map(function(line) {
-    if (line === null || line === undefined) return line;
-    if (!String(line).trim()) return line;
-    if (isSectionHeader(line)) return line;
-    if (lyricLineHasNoteSpacing(line)) return line;
-
-    const assignment = assignments[singableIndex];
-    singableIndex += 1;
-    if (!assignment) return line;
-
-    const noteCount = countNotesInBarRange(
-      noteLines,
-      assignment.startBar,
-      assignment.endBar,
-      function(noteLine) { return countLyricSlotsInNoteLine(noteLine, opts); }
-    );
-    if (noteCount <= 0) return line;
-    return fitLyricLineToNoteCount(line, noteCount);
-  });
+  return buildNotationWLines(tune);
 }
 
 /**
  * Build ABC for notation rendering with bar-aligned w: lines applied for display.
  * Pass { includeLyrics: false } for notation-only views that should not show w:/W: lines.
+ * Block W: lyrics are omitted so only under-staff syllable lines appear.
  */
 export function buildAbcWithNoteSpacing(tune, abcTools, options) {
   if (!tune || !abcTools || typeof abcTools.json2abc !== 'function') return '';
@@ -344,8 +361,118 @@ export function buildAbcWithNoteSpacing(tune, abcTools, options) {
   if (!includeLyrics) {
     return abcTools.json2abc(Object.assign({}, tune, { wLines: [], words: [] }));
   }
-  const lyricLines = getLyricLines(tune);
-  if (lyricLines.length === 0) return abcTools.json2abc(tune);
-  const wLines = buildNotationWLines(tune);
-  return abcTools.json2abc(Object.assign({}, tune, { wLines: wLines }));
+  const plain = getPlainLyricLines(tune);
+  const stored = getNoteAlignedLyricLines(tune);
+  if (plain.length === 0 && stored.length === 0) {
+    return abcTools.json2abc(Object.assign({}, tune, { wLines: [], words: [] }));
+  }
+  const wLines = resolveNoteAlignedWLines(tune);
+  // words cleared so only interleaved w: lines render under the staff.
+  return abcTools.json2abc(Object.assign({}, tune, { wLines: wLines, words: [] }));
+}
+
+/**
+ * Remove ABC embedded chord symbols ("Am", "G7", etc.) from notation lines.
+ */
+export function stripEmbeddedChordsFromAbc(abcText, abcTools) {
+  if (!abcText) return '';
+  const isNoteLine = abcTools && typeof abcTools.isNoteLine === 'function'
+    ? abcTools.isNoteLine.bind(abcTools)
+    : null;
+  return abcText.split('\n').map(function(line) {
+    if (!isNoteLine || !isNoteLine(line)) return line;
+    return line.replace(/"[^"]*"/g, '');
+  }).join('\n');
+}
+
+/**
+ * Remove lyric lines under notes (w:) and block words after the tune (W:).
+ */
+export function stripLyricLinesFromAbc(abcText) {
+  if (!abcText) return '';
+  return String(abcText).split('\n').filter(function(line) {
+    const trimmed = String(line || '').trim();
+    if (/^w:/i.test(trimmed)) return false;
+    if (/^W:/i.test(trimmed)) return false;
+    return true;
+  }).join('\n');
+}
+
+function defaultIsNoteLine(line) {
+  const trimmed = String(line || '').trim();
+  if (!trimmed) return false;
+  if (trimmed.startsWith('%')) return false;
+  if (/^[A-Za-z]:/.test(trimmed)) return false;
+  if (/^w:/i.test(trimmed)) return false;
+  return true;
+}
+
+/**
+ * Join each voice's note lines into a single line so ABC ignores source line
+ * breaks. Pair with staffwidth set to the page width (and no responsive
+ * shrink) so music wraps across the full page at natural size.
+ */
+export function flattenTuneNoteLineBreaks(tune) {
+  if (!tune || !tune.voices) return tune;
+  const voices = {};
+  Object.keys(tune.voices).forEach(function(key) {
+    const voice = tune.voices[key] || {};
+    const notes = Array.isArray(voice.notes) ? voice.notes : [];
+    const joined = notes
+      .map(function(line) { return String(line || '').trim(); })
+      .filter(Boolean)
+      .join(' ');
+    voices[key] = Object.assign({}, voice, { notes: joined ? [joined] : [] });
+  });
+  return Object.assign({}, tune, { voices: voices });
+}
+
+/**
+ * Join ABC note lines into one continuous staff flow, ignoring source line
+ * breaks. Interleaved w: lyric lines are merged onto a single w: line.
+ * Prefer flattenTuneNoteLineBreaks when a tune object is available.
+ */
+export function flattenAbcNoteLineBreaks(abcText, abcTools) {
+  if (!abcText) return '';
+  const isNoteLine = abcTools && typeof abcTools.isNoteLine === 'function'
+    ? abcTools.isNoteLine.bind(abcTools)
+    : defaultIsNoteLine;
+  const lines = String(abcText).split('\n');
+  const out = [];
+  let noteParts = [];
+  let lyricParts = [];
+
+  function flushNoteRun() {
+    if (noteParts.length === 0 && lyricParts.length === 0) return;
+    if (noteParts.length > 0) {
+      out.push(noteParts.filter(Boolean).join(' '));
+    }
+    if (lyricParts.length > 0) out.push('w: ' + lyricParts.join(' '));
+    noteParts = [];
+    lyricParts = [];
+  }
+
+  lines.forEach(function(line) {
+    const trimmed = String(line || '').trim();
+    // Empty lines are "note lines" in abcTools.isNoteLine but must not be
+    // collected or they can break continuous-flow rendering.
+    if (!trimmed) {
+      if (noteParts.length > 0 || lyricParts.length > 0) flushNoteRun();
+      else out.push(line);
+      return;
+    }
+    if (isNoteLine(line) && !/^w:/i.test(trimmed)) {
+      noteParts.push(trimmed);
+      return;
+    }
+    if (/^w:/i.test(trimmed)) {
+      const lyric = trimmed.replace(/^w:\s*/i, '');
+      if (lyric) lyricParts.push(lyric);
+      return;
+    }
+    flushNoteRun();
+    out.push(line);
+  });
+  flushNoteRun();
+  return out.join('\n');
 }

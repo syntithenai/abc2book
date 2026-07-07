@@ -18,6 +18,10 @@ import {
 
 const PlaybackRegionScanDepsContext = createContext(null);
 
+export function usePlaybackRegionScanDeps() {
+  return useContext(PlaybackRegionScanDepsContext);
+}
+
 function resolveTune(deps, tuneId) {
   if (!tuneId || !deps || !deps.tunes) return null;
   return deps.tunes[tuneId] || null;
@@ -92,6 +96,9 @@ async function runPlaybackRegionScanJob(deps, tuneId, linkIndex, link, options) 
     if (liveTune && typeof deps.tunebook.saveTune === 'function') {
       const updatedTune = Object.assign({}, liveTune, { links: updatedLinks });
       deps.tunebook.saveTune(updatedTune);
+      if (typeof deps.forceRefresh === 'function') {
+        deps.forceRefresh();
+      }
       if (typeof scanOptions.onLinksUpdated === 'function') {
         scanOptions.onLinksUpdated(updatedLinks);
       }
@@ -128,6 +135,23 @@ async function runPlaybackRegionScanJob(deps, tuneId, linkIndex, link, options) 
   } finally {
     clearPlaybackRegionScanAbortController(tuneId, linkIndex);
   }
+}
+
+export function requestPlaybackRegionScan(deps, tuneId, linkIndex, link, options) {
+  const opts = options || {};
+  const currentJob = getPlaybackRegionScanJob(tuneId, linkIndex);
+  if (currentJob && currentJob.isScanning) {
+    if (opts.force) {
+      const abortController = getPlaybackRegionScanAbortController(tuneId, linkIndex);
+      if (abortController) {
+        patchPlaybackRegionScanJob(tuneId, linkIndex, { status: 'Cancelling...' });
+        abortController.abort();
+      }
+    } else {
+      return Promise.resolve(null);
+    }
+  }
+  return runPlaybackRegionScanJob(deps, tuneId, linkIndex, link, options);
 }
 
 function usePlaybackRegionScanState(tuneId, linkIndex) {

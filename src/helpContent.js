@@ -10,9 +10,11 @@ export const HELP_NAV = [
   { id: 'lyrics-chords', title: 'Lyrics and chords' },
   { id: 'offline-sync', title: 'Offline and sync' },
   { id: 'media-resolver', title: 'Media resolver' },
-  { id: 'docker-resolver', title: 'Host your own resolver' },
   { id: 'automatic-detection', title: 'Automatic detection' },
   { id: 'import-from-media', title: 'Import from media' },
+  { id: 'chord-sheet-import', title: 'Chord sheet import and export' },
+  { id: 'foot-pedal', title: 'Foot pedal / page turn' },
+  { id: 'performance-sets', title: 'Performance sets and Gig Mode' },
   { id: 'more-features', title: 'More features' },
   { id: 'youtube', title: 'YouTube and linked media' },
   { id: 'abc-notation', title: 'ABC notation' },
@@ -27,7 +29,7 @@ export function HelpStartHere() {
       <ol className="help-steps">
         <li>
           <strong>Add a tune</strong> — Open the header menu (dropdown next to the Tunes icon) and tap the green <strong>Add</strong> button.
-          Use the <strong>Add</strong> tab to create a tune, or the <strong>Import</strong> tab for <strong>ABC</strong>, <strong>Score</strong> (MusicXML/MXL/MIDI), <strong>YouTube</strong> playlists (login required), or curated collections.
+          Use the <strong>Add</strong> tab to create a tune, or the <strong>Import</strong> tab for <strong>Select A File</strong> (ABC, MusicXML, chord sheets), <strong>Sheet Image</strong> (photo or scan of a lead sheet), <strong>YouTube</strong> playlists (login required), or curated collections. Use <strong>Search</strong> on the Add tab to look up notation, chords, and lyrics online.
         </li>
         <li>
           <strong>Open and edit</strong> — From the tune list, open a tune. Use the tune menu → <strong>Edit</strong> to open the editor (Music, Info, Lyrics, Chords, ABC tabs).
@@ -77,7 +79,7 @@ export function HelpWhatYouCanDo() {
       </ul>
       <h4>Lyrics, chords, background</h4>
       <ul>
-        <li><strong>Search Lyrics</strong> / <strong>Search Chords</strong> in editor tabs (resolver) with web-search fallback.</li>
+        <li><strong>Search</strong> (lyrics/chords) in editor tabs — lyrics always searches in-app (local collection + lyrics.ovh). Chords search bundled ABC for embedded chord symbols without a resolver; with a resolver, Ultimate Guitar and similar sites are searched too. ↗ opens web search when you need a site the app cannot reach.</li>
         <li><strong>Research Background</strong> in the Info tab (resolver) or web/Wikipedia search fallback.</li>
         <li>View background text in <strong>Info</strong> view mode (eye dropdown on tune page).</li>
       </ul>
@@ -85,8 +87,8 @@ export function HelpWhatYouCanDo() {
       <ul>
         <li>Books and tags; filter on the Tunes page; <strong>save filters</strong> on the Books page for one-tap recall.</li>
         <li>Book Tools (dropdown arrow on Books page): Download, Play Media, Play Midi, Cheat Sheet, Print, Share.</li>
-        <li>Share tunes/books via <strong>Share on Facebook</strong> or <strong>Share by Email</strong> when logged in.</li>
-        <li>Import <strong>shared tune books</strong> from curated collections (Add → Import) or shared import links.</li>
+        <li>Share tunes, books, or performance sets when logged in — scan the QR code, copy the link, or email it. Recipients choose what to import (one tune, a book, a set, or the whole tunebook).</li>
+        <li>Import <strong>shared tune books</strong> from curated collections (Add → <strong>Bulk</strong> tab) or shared Google import links.</li>
       </ul>
       <h4>Offline and sync</h4>
       <ul>
@@ -100,13 +102,13 @@ export function HelpWhatYouCanDo() {
 export function HelpOrganise() {
   return (
     <>
-      <p>Books and tags are the main organisation tools. Each tune can belong to many books and have many tags.</p>
-      <p>On the <strong>Tunes</strong> page, filter by book, tag, and title.</p>
+      <p>Books, tags, genres, and artists are the main organisation tools. Each tune can belong to many books and have many tags, one genre, and one artist (ABC composer).</p>
+      <p>On the <strong>Tunes</strong> page, filter by book, tag, genre, artist, and title.</p>
       <p>
         Select multiple tunes in the list, then use the grey <strong>dropdown</strong> button that appears (<strong>With N selected tunes..</strong>) to add/remove books or tags, bulk-edit fields, or set confidence.
       </p>
       <p>
-        On the <strong>Books</strong> page, use <strong>Collection nav</strong> to jump between <strong>Filters</strong>, Recent, Books, and Tags. Saved filters store your favourite book/tag/search combinations.
+        On the <strong>Books</strong> page, use <strong>Collection nav</strong> to jump between filters, recent, books, tags, genres, and artists. Saved filters store your favourite book/tag/genre/artist/search combinations.
       </p>
       <p>
         <strong>Capo in chord views:</strong> on the tune page, chord layout modes offer a <strong>Capo</strong> toggle to show chords as played with a capo vs fully transposed.
@@ -145,6 +147,7 @@ export function HelpPractise() {
         <li><strong>Loop</strong> — named practice loops saved with the tune</li>
       </ul>
       <p><strong>Book Tools</strong> on the Books page: <strong>Play Media</strong> or <strong>Play Midi</strong> for a whole book playlist.</p>
+      <p><strong>Practice sessions</strong> — open from the header menu <strong>Practice</strong> button or go to <Link to="/practice">Practice</Link>. Configure instrument, duration, and skill level, then run a guided session with warmups and tempo ramps. Use <code>?start=1</code> on the practice URL to begin immediately with saved settings.</p>
     </>
   );
 }
@@ -152,9 +155,12 @@ export function HelpPractise() {
 export function HelpLyricsChords() {
   return (
     <>
-      <p><strong>Lyrics tab:</strong> <strong>Search Lyrics</strong> fills the lyrics area when the resolver is available; otherwise use the external search link.</p>
+      <p><strong>Lyrics tab:</strong> <strong>Search</strong> fills lyrics from bundled collections and lyrics.ovh (always available); the ↗ button opens Google. With a resolver, Genius and other sites are searched too.</p>
       <p>
-        <strong>Chords tab:</strong> type a chord scaffold, use <strong>Search Chords</strong> to fetch chords (and optionally update lyrics), then press <strong>Save</strong> to write chords into the ABC. Chords are not saved until you press <strong>Save</strong>.
+        <strong>Chords tab:</strong> type a chord scaffold, use <strong>Search</strong>, then press <strong>Save</strong> to write chords into the ABC. Chords are not saved until you press <strong>Save</strong>.
+      </p>
+      <p>
+        Chord search has two tiers. <strong>Without a resolver</strong>, <strong>Search</strong> looks in bundled ABC collections for tunes whose notation already includes chord symbols (quoted names in the notes, e.g. <code>&quot;Am&quot;</code> <code>&quot;G&quot;</code>) and builds a chord scaffold from those matches. That works offline and needs no extra setup, but only helps when a matching tune in the collection already has chords. <strong>With a resolver</strong>, <strong>Search</strong> can also fetch chord sheets from Ultimate Guitar, e-chords, and similar sites. Use ↗ for manual web search when automatic lookup cannot reach a site or finds nothing.
       </p>
       <p>
         <strong>Background:</strong> edit <strong>Background information</strong> in the <strong>Info</strong> tab, or use <strong>Research Background</strong> when the resolver is available. Read it on the tune page via the view dropdown → <strong>Info</strong>.
@@ -209,6 +215,7 @@ export function HelpOfflineSync(props) {
               <li>The tune book loads from <strong>ABC Tune Book</strong> in Google Drive, even if that file is in Trash. Rename it in Drive to force creation of a new book.</li>
               <li>Deletes made while logged out only affect this device. Log in before deleting if you want deletes synced.</li>
               <li>While logged in on two devices, changes on one may appear on the other within seconds as an import/update warning.</li>
+              <li><strong>Performance sets</strong> (Sets page) sync automatically when logged in. A toast summarizes added, updated, or deleted sets; errors are shown if sync fails.</li>
               <li>Sharing requires login. Shared Google files require recipients to use their own Google account.</li>
             </ul>
             <h5>Dialog buttons</h5>
@@ -231,13 +238,13 @@ export function HelpMediaResolver() {
       <p>Some optional features need a <strong>media resolver</strong> because browsers cannot process every audio/video/MIDI source directly.</p>
       <div className="help-callout">
         <p><strong>Optional, not required.</strong> You can use ABC Tune Book without a resolver. Collecting tunes, editing ABC, books and tags, printing, generated playback, and most imports (ABC, MusicXML) work fine on their own.</p>
-        <p>When no resolver is available, buttons and controls that depend on one — such as <strong>Search Lyrics</strong>, <strong>Search Chords</strong>, <strong>Research Background</strong>, <strong>Import from media</strong>, MIDI import, and advanced pitch/tempo or stem controls on linked media — are <strong>hidden</strong>. They appear automatically once a resolver is reachable.</p>
+        <p>When no resolver is available, resolver-only controls are hidden or reduced — <strong>Search</strong> for chords still checks bundled ABC collections for embedded chord symbols; ↗ opens web search for Ultimate Guitar-style sites. <strong>Search</strong> for lyrics still works in-app. Other resolver-only features include <strong>Research Background</strong>, <strong>Import from media</strong>, MIDI import, and advanced pitch/tempo or stem controls on linked media.</p>
       </div>
       <h4>Used for</h4>
       <ul>
         <li>MIDI import (convert to ABC)</li>
         <li>Pitch/tempo adjustment and stem separation on linked media</li>
-        <li><strong>Search Lyrics</strong> and <strong>Search Chords</strong> (fetch from supported sites via resolver)</li>
+        <li><strong>Search Lyrics</strong> (extra lyric sites via resolver) and <strong>Search Chords</strong> (Ultimate Guitar, e-chords, and similar — local bundled ABC with embedded chords works without a resolver)</li>
         <li><strong>Research Background</strong> (web + LLM summary when configured)</li>
         <li><strong>Import from media</strong> / <strong>Analyze media</strong> — transcribe lyrics, detect chords, extract melody from audio</li>
       </ul>
@@ -248,6 +255,15 @@ export function HelpMediaResolver() {
         <li><strong>Refresh status</strong> shows which candidates are reachable</li>
         <li>HTTPS app pages cannot call HTTP resolvers (mixed content) — use an <code>https://</code> resolver or run both locally</li>
       </ul>
+
+      <Accordion className="help-advanced-accordion">
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Host your own resolver</Accordion.Header>
+          <Accordion.Body>
+            <HelpDockerResolver />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </>
   );
 }
@@ -278,8 +294,8 @@ export function HelpAutomaticDetection() {
       <p>When a media resolver is available, the app can analyse audio instead of typing everything by hand. These tools are optional — if no resolver is reachable, they are not shown in the UI.</p>
       <h4>Quick actions on existing tunes</h4>
       <ul>
-        <li><strong>Lyrics</strong> tab → <strong>Search Lyrics</strong> — fetch lyrics from supported sites (resolver); falls back to Google search without resolver</li>
-        <li><strong>Chords</strong> tab → <strong>Search Chords</strong> — fetch chord+lyric sheets from supported sites; optional <strong>Update lyrics</strong> checkbox</li>
+        <li><strong>Lyrics</strong> tab → <strong>Search</strong> — local collection + lyrics.ovh always; full site scrape when resolver is up; ↗ opens Google</li>
+        <li><strong>Chords</strong> tab → <strong>Search</strong> — bundled ABC with embedded chord symbols (always, no resolver); chord-site scrape when resolver is up; ↗ for web search; optional <strong>Update lyrics</strong> checkbox</li>
         <li><strong>Info</strong> tab → <strong>Research Background</strong> — auto-generate markdown background notes</li>
       </ul>
       <h4>Deep analysis from linked media</h4>
@@ -320,17 +336,72 @@ export function HelpImportFromMedia() {
   );
 }
 
+export function HelpChordSheetImport() {
+  return (
+    <>
+      <p>Import chord charts as first-class tunes — lyrics and chords appear in <strong>Lyrics with Chords</strong> view without manual editor paste.</p>
+      <h4>ChordPro / OnSong files</h4>
+      <ul>
+        <li>Add → <strong>Import</strong> → <strong>Chord sheet</strong></li>
+        <li>Paste ChordPro/OnSong text or upload <code>.cho</code>, <code>.pro</code>, <code>.crd</code>, <code>.onsong</code>, or <code>.txt</code></li>
+      </ul>
+      <h4>Chord sites by URL or search</h4>
+      <ul>
+        <li>Add → <strong>Import</strong> → <strong>Chord URL</strong></li>
+        <li>Paste a direct link from Ultimate Guitar, e-chords, WorshipTogether, or similar supported sites</li>
+        <li>Search by title/artist, or paste multiple URLs/lines for bulk import (requires a media resolver)</li>
+      </ul>
+      <h4>Export</h4>
+      <p>On a tune page or from bulk Download on the tune list, choose <strong>ChordPro</strong> (<code>.cho</code>) or <strong>OnSong</strong> (<code>.onsong</code>) to download a chart you can re-import later.</p>
+      <p className="help-tip">Automatic imports are drafts — review title, sections, and chords before relying on them on stage.</p>
+    </>
+  );
+}
+
+export function HelpFootPedal() {
+  return (
+    <>
+      <p>Bluetooth foot pedals (AirTurn, PageFlip, etc.) act as keyboard keys. Tune Book uses <strong>scroll-then-song</strong> behaviour:</p>
+      <ul>
+        <li><strong>Scroll down</strong> (default <strong>Page Down</strong>) — scrolls the chart down. At the bottom of the chart, the next press goes to the <strong>next tune</strong> (or next tune in an active performance set).</li>
+        <li><strong>Scroll up</strong> (default <strong>Page Up</strong>) — scrolls up. At the top, the next press goes to the <strong>previous tune</strong>.</li>
+      </ul>
+      <p>Configure keys and scroll step size in <Link to="/settings">Settings</Link> → <strong>Foot pedal / page turn</strong>. Pair the pedal in your device Bluetooth settings first.</p>
+      <p>Arrow keys on the tune page still skip directly to the previous/next tune in the list (when not typing in a field).</p>
+    </>
+  );
+}
+
+export function HelpPerformanceSets() {
+  return (
+    <>
+      <p><Link to="/sets">Performance sets</Link> are ordered setlists for gigs — separate from practice sessions or ephemeral media playlists. Open <Link to="/gig">Gig mode</Link> to pick a set for fullscreen playback.</p>
+      <ol>
+        <li>Open <strong>Sets</strong> from the header menu or footer.</li>
+        <li>Create a set, add tunes (and optional notes such as “Tuning break”), drag order with ↑/↓, and save.</li>
+        <li>Tap <strong>Play set</strong> for fullscreen <strong>Gig Mode</strong> — large charts, set progress, lyrics-only toggle, quick transpose/capo, and foot-pedal scrolling.</li>
+      </ol>
+      <p>While a set is active, prev/next navigation (including foot pedals at scroll limits) follows set order and stops at the ends instead of wrapping through your whole tune book.</p>
+      <p>When logged in with Google, performance sets sync to your <strong>ABC Tune Book</strong> document in Google Drive (a comment section at the end of the file). Deletes sync via tombstones, like tunes.</p>
+    </>
+  );
+}
+
 export function HelpMoreFeatures() {
   return (
     <>
       <ul>
-        <li><strong>Saved filters</strong> — Books page → <strong>Filters</strong> — save common search/book/tag combinations and reopen them from the collection nav.</li>
-        <li><strong>Import shared books</strong> — Add → <strong>Import</strong> tab → curated collections. Open a shared import link from another user to merge a tune book into yours.</li>
+        <li><strong>Performance sets</strong> — Header menu or footer → <strong>Sets</strong> — build gig setlists and play them in fullscreen Gig Mode (<Link to="/gig">/gig</Link>).</li>
+        <li><strong>Foot pedal scrolling</strong> — Settings → <strong>Foot pedal / page turn</strong> — scroll through charts hands-free; see Help → Foot pedal.</li>
+        <li><strong>Import shared books</strong> — Add → <strong>Bulk</strong> tab → curated collections. Open a shared import link from another user to merge a tune book into yours.</li>
+        <li><strong>File / Drive / Capture / Paste</strong> on the Add tab stage imports through a review queue (identity, match, optional enrich, field merge) instead of blocking the app.</li>
+        <li><strong>Bulk import</strong> — paste or load a line list (<code>Title</code>, <code>Title by Artist</code>, or <code>Title | url</code>), then import each tune through the same review queue.</li>
+        <li>Google Drive tunebook updates and tunes with a <strong>Source URL</strong> show a non-blocking toast with <strong>Accept</strong> or <strong>Merge</strong> (field-level choices).</li>
         <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits.</li>
         <li><strong>Download MIDI</strong> — Where available, export generated playback as a MIDI file.</li>
         <li><strong>Stem separation</strong> — After media analysis, <strong>Audio Filters</strong> on playback lets you mix vocals, drums, bass, and other stems for practice.</li>
         <li><strong>Tuner, metronome, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong>.</li>
-        <li><strong>Clear audio cache</strong> — Settings → <strong>Clear Audio Cache</strong> if generated playback sounds wrong or stale.</li>
+        <li><strong>Clear caches</strong> — Settings: <strong>Clear Audio Cache</strong> (downloaded linked media), <strong>Clear Midi Cache</strong> (ABC/MIDI synth playback), or <strong>Clear Stems</strong> (stem separation for audio filters).</li>
       </ul>
     </>
   );
@@ -406,6 +477,9 @@ export function HelpChordsDetail() {
       <h4>In ABC directly</h4>
       <p>Quote chord names in the notes:</p>
       <pre className="help-code">aaaa&quot;C&quot;abcd| &quot;F#m&quot;dcba &quot;Gbdim&quot; ddd||</pre>
+      <p>
+        Bundled ABC collections often include tunes notated this way. <strong>Search Chords</strong> can find them by title/artist and turn those embedded symbols into a chord-scaffold draft — no resolver required. If your tune is not in a local collection, or the source ABC has no chord symbols, use a resolver for chord-site lookup or paste from ↗ web search.
+      </p>
       <h4>Chords tab (compact format)</h4>
       <pre className="help-code">{`C|F G|G F F C|C . G C`}</pre>
       <p>Press <strong>Save</strong> to generate ABC notation. Chords are not stored until you <strong>Save</strong>.</p>
@@ -421,7 +495,7 @@ F C G C`}</pre>
 
       <h4>Ultimate Guitar / chord-sheet paste</h4>
       <p>
-        Paste chord+lyric text from sites like{' '}
+        Prefer <strong>Add → Import → Chord sheet</strong> or <strong>Chord URL</strong> for ChordPro files and supported chord sites (Ultimate Guitar, e-chords, WorshipTogether). You can still paste chord+lyric text manually in the editor: from sites like{' '}
         <a href="https://tabs.ultimate-guitar.com/" target="_blank" rel="noreferrer">Ultimate Guitar</a>, delete lyric lines to keep chord lines for the scaffold, then paste lyrics separately in the <strong>Lyrics</strong> tab so words and chords align. One line of chords becomes one bar — rhythm may be approximate but is often enough for harmony practice.
       </p>
 
@@ -432,7 +506,7 @@ F C G C`}</pre>
       <p>Chord block view then shows a blank line between sections.</p>
 
       <h4>From linked media</h4>
-      <p>With the resolver available, <strong>Search Chords</strong> or <strong>Import from media</strong> can suggest a scaffold — always review before <strong>Save</strong>.</p>
+      <p>With the resolver available, <strong>Search Chords</strong> can fetch chord sheets from supported websites, and <strong>Import from media</strong> can suggest a scaffold from audio — always review before <strong>Save</strong>.</p>
     </>
   );
 }
@@ -460,9 +534,11 @@ export const HELP_SECTIONS = [
   { id: 'lyrics-chords', title: 'Lyrics, chords, and background', Content: HelpLyricsChords },
   { id: 'offline-sync', title: 'Offline use, login, and sync', Content: HelpOfflineSync },
   { id: 'media-resolver', title: 'Media resolver', Content: HelpMediaResolver },
-  { id: 'docker-resolver', title: 'Host your own resolver', Content: HelpDockerResolver },
   { id: 'automatic-detection', title: 'Automatic lyrics, chords, and melody detection', Content: HelpAutomaticDetection },
   { id: 'import-from-media', title: 'Import from media wizard', Content: HelpImportFromMedia },
+  { id: 'chord-sheet-import', title: 'Chord sheet import and export', Content: HelpChordSheetImport },
+  { id: 'foot-pedal', title: 'Foot pedal / page turn', Content: HelpFootPedal },
+  { id: 'performance-sets', title: 'Performance sets and Gig Mode', Content: HelpPerformanceSets },
   { id: 'more-features', title: 'More useful features', Content: HelpMoreFeatures },
   { id: 'youtube', title: 'YouTube and linked media', Content: HelpYouTube },
   { id: 'abc-notation', title: 'ABC notation', Content: HelpAbcNotation },

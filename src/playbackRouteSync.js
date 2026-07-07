@@ -18,12 +18,19 @@ export function syncPlaybackRoute({ playState, mediaLinkNumberParam, tune, hasNo
   const hasMusic = hasNotesOrChords(tune)
   const hasLinks = Array.isArray(tune.links) && tune.links.length > 0
 
+  if (playState === 'playMidi') {
+    if (hasMusic) {
+      return { mode: 'midi', mediaLinkNumber: null, src: '' }
+    }
+    return { mode: 'none', mediaLinkNumber: null, src: null }
+  }
+
   let linkFromRoute = resolveMediaLinkIndex(mediaLinkNumberParam, tune)
-  if (playState === 'playMidi' || !hasLinks) {
+  if (!hasLinks) {
     linkFromRoute = null
   }
 
-  if (playState === 'playMidi' || linkFromRoute === null) {
+  if (linkFromRoute === null) {
     if (hasMusic) {
       return { mode: 'midi', mediaLinkNumber: null, src: '' }
     }

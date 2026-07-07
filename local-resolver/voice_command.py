@@ -28,12 +28,19 @@ REGEX_CONFIDENCE = float(os.getenv("VOICE_COMMAND_REGEX_CONFIDENCE", "0.92"))
 BARE_TITLE_CONFIDENCE = float(os.getenv("VOICE_COMMAND_BARE_TITLE_CONFIDENCE", "0.75"))
 SEARCH_PREFIX_CONFIDENCE = float(os.getenv("VOICE_COMMAND_SEARCH_PREFIX_CONFIDENCE", "0.80"))
 LLM_CONFIDENCE_THRESHOLD = float(os.getenv("VOICE_COMMAND_LLM_CONFIDENCE_THRESHOLD", "0.55"))
+VOICE_MODE_PLAYBACK = "playback"
+VOICE_MODE_HELP = "help"
 
 OPEN_TOOL_SUFFIX_RE = re.compile(
     r"^(?:show|open|go to|play)\s+(?:the\s+)?(.+?)\s+tool$", re.I
 )
 SHOW_PREFIX_RE = re.compile(r"^(?:show|open|go to|play)\s+(?:the\s+)?(.+)$", re.I)
 SEARCH_PREFIX_RE = re.compile(r"^(?:search|find|filter)\s+(?:for\s+)?(.+)$", re.I)
+STOP_PLAYBACK_RE = re.compile(r"^(?:stop|pause|halt|cancel)\s+(?:playing|playback|music|the music)?$", re.I)
+PLAY_FILTER_RE = re.compile(
+    r"^(?:play|queue|start)\s+(?:songs?\s+)?(?:by\s+)?(title|artist|genre|tag|book)\s+(?:the\s+)?(.+)$",
+    re.I,
+)
 APP_TOOL_ALIASES = {
     "metronome": "metronome",
     "tuner": "tuner",
@@ -55,6 +62,46 @@ SEARCH_CUE_WORDS = {
     "with",
 }
 
+HELP_LINKS = [
+    ("start-here", "Start here", "Getting started and basic workflow"),
+    ("what-you-can-do", "What you can do", "Overview of app capabilities"),
+    ("organise", "Add and organise", "Books, tags, genres, and filters"),
+    ("edit-music", "Edit music", "Music editor and notation editing"),
+    ("practise", "Practise with media", "Playback and practice controls"),
+    ("lyrics-chords", "Lyrics and chords", "Lyrics, chords, and background info"),
+    ("offline-sync", "Offline and sync", "Offline use and sync troubleshooting"),
+    ("media-resolver", "Media resolver", "Resolver-dependent features"),
+    ("automatic-detection", "Automatic detection", "Lyrics, chords, and melody analysis"),
+    ("import-from-media", "Import from media", "Importing from audio/video"),
+    ("chord-sheet-import", "Chord sheet import and export", "Chord sheet workflows"),
+    ("performance-sets", "Performance sets and Gig Mode", "Gig and set playback"),
+    ("more-features", "More features", "Extra tools and tips"),
+    ("youtube", "YouTube and linked media", "Linked media and YouTube playback"),
+    ("abc-notation", "ABC notation", "ABC syntax and notation details"),
+    ("chords-detail", "Chords in detail", "Chord notation guidance"),
+]
+
+HELP_LINK_HINTS = {
+    "start-here": ["start", "begin", "getting started", "new", "intro"],
+    "what-you-can-do": ["what can", "capabilities", "overview", "features"],
+    "organise": ["book", "books", "tag", "tags", "genre", "genres", "artist", "artists", "filter", "organise", "organize"],
+    "edit-music": ["edit", "editor", "notation", "music editor", "abc editor", "change notes", "transpose"],
+    "practise": ["practice", "practise", "playback", "play", "media", "loop", "tempo", "pitch"],
+    "lyrics-chords": ["lyrics", "chords", "background", "song info"],
+    "offline-sync": ["offline", "sync", "google drive", "login", "save"],
+    "media-resolver": ["resolver", "media resolver", "backend", "midi import"],
+    "automatic-detection": ["automatic", "detect", "detection", "lyrics and chords", "melody"],
+    "import-from-media": ["import from media", "import media", "audio", "video", "transcribe", "analyze media", "analyse media"],
+    "chord-sheet-import": ["chord sheet", "export", "import sheet", "sheet import"],
+    "performance-sets": ["gig", "set", "sets", "performance"],
+    "more-features": ["more features", "tips", "extras", "shortcuts"],
+    "youtube": ["youtube", "linked media", "link", "media links"],
+    "abc-notation": ["abc", "notation", "abc notation"],
+    "chords-detail": ["chord theory", "chord notation", "chords in detail"],
+}
+
+HELP_FALLBACK_LINKS = ["/help#start-here", "/help#what-you-can-do", "/help#edit-music", "/help#practise"]
+
 VOICE_WHISPER_OPTIONS = {
     "whisperPrompt": VOICE_WHISPER_PROMPT,
     "whisperLanguage": "en",
@@ -74,8 +121,13 @@ def _empty_intent(transcript="", parse_method="none"):
         "title": "",
         "artist": "",
         "book": "",
+        "genre": "",
         "tags": [],
         "searchText": "",
+        "filterKind": "",
+        "filterValue": "",
+        "helpAnswer": "",
+        "helpLinks": [],
         "confidence": 0.0,
         "parseMethod": parse_method,
     }
@@ -87,8 +139,13 @@ def _intent_result(
     title="",
     artist="",
     book="",
+    genre="",
     tags=None,
     search_text="",
+    filter_kind="",
+    filter_value="",
+    help_answer="",
+    help_links=None,
     confidence=0.0,
     parse_method="regex",
 ):
@@ -98,8 +155,13 @@ def _intent_result(
         "title": _normalize_space(title),
         "artist": _normalize_space(artist),
         "book": _normalize_space(book),
+        "genre": _normalize_space(genre),
         "tags": list(tags or []),
         "searchText": _normalize_space(search_text),
+        "filterKind": _normalize_space(filter_kind),
+        "filterValue": _normalize_space(filter_value),
+        "helpAnswer": _normalize_space(help_answer),
+        "helpLinks": list(help_links or []),
         "confidence": float(confidence),
         "parseMethod": parse_method,
     }
@@ -121,10 +183,127 @@ def _resolve_app_tool_name(spoken):
     return APP_TOOL_ALIASES.get(spoken_norm, "")
 
 
-def _parse_voice_intent_regex(text):
+def _normalize_help_link(link):
+    value = _normalize_space(link)
+    if not value:
+        return ""
+    if value.startswith("/help#"):
+        return value
+    if value.startswith("#"):
+        return "/help" + value
+    if value in {item[0] for item in HELP_LINKS}:
+        return "/help#" + value
+    return ""
+
+
+def _fallback_help_links(text):
+    normalized = _normalize_space(text).lower()
+    rules = [
+        ("import", "/help#import-from-media"),
+        ("media", "/help#media-resolver"),
+        ("resolver", "/help#media-resolver"),
+        ("edit", "/help#edit-music"),
+        ("notation", "/help#edit-music"),
+        ("abc", "/help#abc-notation"),
+        ("chord", "/help#lyrics-chords"),
+        ("lyrics", "/help#lyrics-chords"),
+        ("practice", "/help#practise"),
+        ("play", "/help#practise"),
+        ("sync", "/help#offline-sync"),
+        ("offline", "/help#offline-sync"),
+        ("book", "/help#organise"),
+        ("tag", "/help#organise"),
+        ("genre", "/help#organise"),
+        ("start", "/help#start-here"),
+        ("help", "/help#what-you-can-do"),
+    ]
+    links = []
+    for keyword, link in rules:
+        if keyword in normalized and link not in links:
+            links.append(link)
+    for link in HELP_FALLBACK_LINKS:
+        if link not in links:
+            links.append(link)
+    return links[:4]
+
+
+def rank_help_links(text, limit=3):
+    normalized = _normalize_space(text).lower()
+    if not normalized:
+        return HELP_FALLBACK_LINKS[:limit]
+
+    token_set = set(re.findall(r"[a-z0-9']+", normalized))
+    scored = []
+    for link_id, title, summary in HELP_LINKS:
+        score = 0
+        haystack = f"{title} {summary}".lower()
+        if link_id in normalized:
+            score += 8
+        for hint in HELP_LINK_HINTS.get(link_id, []):
+            if hint in normalized:
+                score += 5
+        for token in token_set:
+            if token and token in haystack:
+                score += 1
+        if score > 0:
+            scored.append((score, "/help#" + link_id))
+
+    if not scored:
+        return _fallback_help_links(normalized)[:limit]
+
+    scored.sort(key=lambda item: (-item[0], HELP_FALLBACK_LINKS.index(item[1]) if item[1] in HELP_FALLBACK_LINKS else 999))
+    ranked = []
+    for _score, link in scored:
+        if link not in ranked:
+            ranked.append(link)
+    for link in _fallback_help_links(normalized):
+        if link not in ranked:
+            ranked.append(link)
+    return ranked[:limit]
+
+
+def _parse_voice_intent_regex(text, voice_mode=VOICE_MODE_PLAYBACK):
     normalized = _normalize_space(text).lower()
     if not normalized:
         return None, 0.0, None
+
+    if voice_mode == VOICE_MODE_HELP:
+        return None, 0.0, None
+
+    stop_match = STOP_PLAYBACK_RE.match(normalized)
+    if stop_match:
+        return (
+            _intent_result(text, "STOP_PLAYBACK", confidence=REGEX_CONFIDENCE, parse_method="regex"),
+            REGEX_CONFIDENCE,
+            None,
+        )
+
+    play_filter_match = PLAY_FILTER_RE.match(normalized)
+    if play_filter_match:
+        filter_kind = _normalize_space(play_filter_match.group(1)).lower()
+        filter_value = _normalize_space(play_filter_match.group(2))
+        if filter_kind and filter_value and _is_meaningful_transcript(filter_value):
+            kwargs = {
+                "filter_kind": filter_kind,
+                "filter_value": filter_value,
+                "confidence": REGEX_CONFIDENCE,
+                "parse_method": "regex",
+            }
+            if filter_kind == "title":
+                kwargs["title"] = filter_value
+            elif filter_kind == "artist":
+                kwargs["artist"] = filter_value
+            elif filter_kind == "genre":
+                kwargs["genre"] = filter_value
+            elif filter_kind == "tag":
+                kwargs["tags"] = [filter_value]
+            elif filter_kind == "book":
+                kwargs["book"] = filter_value
+            return (
+                _intent_result(text, "PLAY_FILTER", **kwargs),
+                REGEX_CONFIDENCE,
+                None,
+            )
 
     open_tool_match = OPEN_TOOL_SUFFIX_RE.match(normalized)
     if open_tool_match:
@@ -249,7 +428,7 @@ def parse_llm_voice_json(content):
 
 def normalize_voice_intent_from_llm(data, transcript, force_tool=None):
     tool = force_tool or str(data.get("tool") or "NONE").strip().upper()
-    if tool not in {"SHOW", "SEARCH", "OPEN_TOOL", "NONE"}:
+    if tool not in {"SHOW", "SEARCH", "OPEN_TOOL", "PLAY_FILTER", "STOP_PLAYBACK", "ASK_HELP", "NONE"}:
         tool = "NONE"
     tags = data.get("tags")
     if isinstance(tags, str) and tags.strip():
@@ -262,27 +441,102 @@ def normalize_voice_intent_from_llm(data, transcript, force_tool=None):
         confidence = float(confidence)
     except (TypeError, ValueError):
         confidence = 0.0
+
+    help_links = data.get("helpLinks") or data.get("help_links") or []
+    if isinstance(help_links, str):
+        help_links = [help_links]
+    help_links = [normalized for normalized in (_normalize_help_link(link) for link in help_links) if normalized]
+
     return _intent_result(
         transcript,
         tool,
         title=str(data.get("title") or ""),
         artist=str(data.get("artist") or ""),
         book=str(data.get("book") or ""),
+        genre=str(data.get("genre") or ""),
         tags=tags,
         search_text=str(data.get("searchText") or data.get("search_text") or ""),
+        filter_kind=str(data.get("filterKind") or data.get("filter_kind") or ""),
+        filter_value=str(data.get("filterValue") or data.get("filter_value") or ""),
+        help_answer=str(data.get("helpAnswer") or data.get("help_answer") or ""),
+        help_links=help_links,
         confidence=confidence,
         parse_method="llm",
     )
 
 
-async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_text=""):
+def _help_answer_prompt(transcript):
+    help_index = [
+        f"- /help#{link_id}: {title} — {summary}" for link_id, title, summary in HELP_LINKS
+    ]
+    system_prompt = (
+        "You answer help questions for ABC Tune Book. Respond with JSON only, no markdown. "
+        "Schema: {\"tool\":\"ASK_HELP\",\"helpAnswer\":\"\",\"helpLinks\":[],\"confidence\":0.0-1.0} "
+        "Write one short answer, then choose up to 3 relevant helpLinks from the allowed list. "
+        "Never invent links outside the list."
+    )
+    user_prompt = (
+        f'QUESTION: "{transcript}"\n'
+        "ALLOWED HELP LINKS:\n"
+        + "\n".join(help_index)
+    )
+    return system_prompt, user_prompt
+
+
+async def parse_help_intent_llm(transcript):
+    system_prompt, user_prompt = _help_answer_prompt(transcript)
+    async with httpx.AsyncClient(timeout=LLM_TIMEOUT_SECONDS) as client:
+        resp = await client.post(
+            f"{LLM_BASE_URL}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {LLM_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "temperature": 0.2,
+                "max_tokens": LLM_MAX_TOKENS,
+            },
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+
+    choices = payload.get("choices") or []
+    if not choices:
+        raise ValueError("LLM returned no choices")
+    message = choices[0].get("message") or {}
+    data = parse_llm_voice_json(message)
+    data["tool"] = "ASK_HELP"
+    intent = normalize_voice_intent_from_llm(data, transcript, force_tool="ASK_HELP")
+    ranked_links = rank_help_links(transcript)
+    if intent.get("helpLinks"):
+        merged_links = []
+        for link in list(intent.get("helpLinks") or []) + ranked_links:
+            normalized = _normalize_help_link(link)
+            if normalized and normalized not in merged_links:
+                merged_links.append(normalized)
+        intent["helpLinks"] = merged_links[:3]
+    else:
+        intent["helpLinks"] = ranked_links
+    if not intent.get("helpAnswer"):
+        intent["helpAnswer"] = "Open the help section for the closest topic."
+    return intent
+
+
+async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_text="", voice_mode=VOICE_MODE_PLAYBACK):
     books = list(books or [])[:MAX_BOOKS]
     tags = list(tags or [])[:MAX_TAGS]
+    if voice_mode == VOICE_MODE_HELP:
+        return await parse_help_intent_llm(transcript)
     if narrow:
         system_prompt = (
             "Extract tunebook search filters from the user's phrase. "
             "Respond with JSON only, no markdown. "
-            'Schema: {"book":"","tags":[],"artist":"","searchText":"","confidence":0.0-1.0} '
+            'Schema: {"book":"","tags":[],"artist":"","genre":"","searchText":"","confidence":0.0-1.0} '
             "Map book and tags to the closest catalog entry when possible."
         )
         user_prompt = (
@@ -294,16 +548,19 @@ async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_t
     else:
         system_prompt = (
             "You classify tunebook voice commands. Respond with JSON only, no markdown.\n"
-            'Schema: {"tool":"SHOW"|"SEARCH"|"OPEN_TOOL"|"NONE","title":"","artist":"","book":"","tags":[],"searchText":"","confidence":0.0-1.0}\n'
+            'Schema: {"tool":"SHOW"|"SEARCH"|"OPEN_TOOL"|"PLAY_FILTER"|"STOP_PLAYBACK"|"ASK_HELP"|"NONE","title":"","artist":"","book":"","genre":"","tags":[],"searchText":"","filterKind":"","filterValue":"","helpAnswer":"","helpLinks":[],"confidence":0.0-1.0}\n'
             "Rules:\n"
             "- SHOW: user wants to open/jump to a specific song. Bare song title without search/filter language is SHOW.\n"
+            "- PLAY_FILTER: user wants to create a queue from a single filter. Use exactly one filterKind/value pair: title, artist, genre, tag, or book.\n"
+            "- STOP_PLAYBACK: user wants to stop or pause playback.\n"
             "- OPEN_TOOL: user wants an app tool page. Only when the phrase ends with the word 'tool' "
             "(e.g. 'open metronome tool', 'open tuner tool', 'open chords tool', 'open keyboard tool'). "
             "Put the tool name in title: metronome, tuner, chords, or keyboard.\n"
             "- SEARCH: user wants to filter the tune list. Extract book, tags (array), artist/composer, and general searchText.\n"
             "- Map book and tag strings to the closest entry from the provided catalogs; use exact catalog spelling when matched.\n"
             "- If book/tag not in catalog, leave empty rather than inventing.\n"
-            "- NONE: unintelligible or unrelated to music navigation."
+            "- NONE: unintelligible or unrelated to music navigation.\n"
+            "- ASK_HELP is not used in playback mode."
         )
         user_prompt = (
             f'TRANSCRIPT: "{transcript}"\n'
@@ -351,8 +608,13 @@ def normalize_voice_command_response(body, timing=None):
         "title": str(body.get("title") or ""),
         "artist": str(body.get("artist") or ""),
         "book": str(body.get("book") or ""),
+        "genre": str(body.get("genre") or ""),
         "tags": list(body.get("tags") or []),
         "searchText": str(body.get("searchText") or ""),
+        "filterKind": str(body.get("filterKind") or ""),
+        "filterValue": str(body.get("filterValue") or ""),
+        "helpAnswer": str(body.get("helpAnswer") or ""),
+        "helpLinks": list(body.get("helpLinks") or []),
         "confidence": float(body.get("confidence") or 0.0),
         "parseMethod": str(body.get("parseMethod") or "none"),
         "timing": {
@@ -363,10 +625,24 @@ def normalize_voice_command_response(body, timing=None):
     }
 
 
-async def parse_voice_intent(transcript, books, tags):
-    intent, confidence, search_remainder = _parse_voice_intent_regex(transcript)
+async def parse_voice_intent(transcript, books, tags, voice_mode=VOICE_MODE_PLAYBACK):
+    intent, confidence, search_remainder = _parse_voice_intent_regex(transcript, voice_mode=voice_mode)
     if intent and confidence >= REGEX_CONFIDENCE:
         return intent
+
+    if voice_mode == VOICE_MODE_HELP:
+        try:
+            return await parse_help_intent_llm(transcript)
+        except Exception:
+            fallback = _intent_result(
+                transcript,
+                "ASK_HELP",
+                help_answer="Open the help section for the closest topic.",
+                help_links=rank_help_links(transcript),
+                confidence=LLM_CONFIDENCE_THRESHOLD,
+                parse_method="fallback",
+            )
+            return fallback
 
     parse_started = time.monotonic()
     try:
@@ -377,6 +653,7 @@ async def parse_voice_intent(transcript, books, tags):
                 tags,
                 narrow=True,
                 narrow_text=search_remainder,
+                voice_mode=voice_mode,
             )
             llm_intent["parseMethod"] = "llm"
             if llm_intent.get("confidence", 0) < SEARCH_PREFIX_CONFIDENCE:
@@ -386,7 +663,7 @@ async def parse_voice_intent(transcript, books, tags):
         if intent and intent.get("tool") == "SHOW":
             return intent
 
-        llm_intent = await parse_voice_intent_llm(transcript, books, tags)
+        llm_intent = await parse_voice_intent_llm(transcript, books, tags, voice_mode=voice_mode)
         if llm_intent.get("confidence", 0) < LLM_CONFIDENCE_THRESHOLD and llm_intent.get("tool") == "NONE":
             if intent:
                 return intent

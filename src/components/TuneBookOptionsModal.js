@@ -28,7 +28,7 @@ function TuneBookOptionsModal(props) {
          
           
           {props.currentTuneBook && <hr style={{width:'100%', clear:'both'}} />}
-           {props.currentTuneBook && <span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook ={props.tunebook} token={props.token} googleDocumentId={props.googleDocumentId} tiny={false} currentTuneBook={props.currentTuneBook}  /></span>}
+           {props.currentTuneBook && <span style={{marginLeft:'0.3em',float:'right', paddingBottom:'1em'}} ><ShareTunebookModal tunebook={props.tunebook} token={props.token} login={props.login} googleDocumentId={props.googleDocumentId} shareKind="book" tiny={false} currentTuneBook={props.currentTuneBook} tunes={props.tunes} saveTune={props.tunebook.saveTune} /></span>}
            
          <hr style={{width:'100%', clear:'both'}} />
           <Button style={{float:'left', marginBottom:'1em', color:'black'}} variant="primary" onClick={function(e) { props.tunebook.copyTuneBookAbc(props.currentTuneBook);  handleClose()}}  >

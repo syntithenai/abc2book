@@ -1,15 +1,26 @@
 import { useState } from 'react'
-import { Alert, Button, ButtonGroup, ToggleButton } from 'react-bootstrap'
+import { Alert, ButtonGroup, ToggleButton } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import useAbcjsParser from '../useAbcjsParser'
 import { searchChords } from '../chordsSearchClient'
 import { buildGoogleChordsSearchUrl } from '../chordSearchSites'
 import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
+import GenreSuggestionOffer from './GenreSuggestionOffer'
+import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import {
+  buildGenreSearchContext,
+  inferGenreFromSearchContext,
+  shouldOfferGenreSuggestion,
+} from '../genreInference'
 
 export default function ChordsSearchButton({
   title,
   artist,
+  rhythm,
+  currentGenre,
+  onGenreAccept,
   token,
   onChords,
   onLyrics,
@@ -18,8 +29,10 @@ export default function ChordsSearchButton({
   disabled,
   showLyricsCheckbox = true,
   defaultUpdateLyrics = true,
+  tunebook,
+  resolverAvailable: resolverAvailableProp,
 }) {
-  const job = useCancellableAsyncJob()
+  const job = useCancellableAsyncJob('Chord search')
   const [error, setError] = useState('')
   const [source, setSource] = useState('')
   const [progressMessage, setProgressMessage] = useState('')
@@ -27,9 +40,17 @@ export default function ChordsSearchButton({
   const [updateLyrics, setUpdateLyrics] = useState(defaultUpdateLyrics)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
-  const { available: resolverAvailable } = useMediaResolverHealth()
+  const [genreSuggestion, setGenreSuggestion] = useState(null)
+  const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook })
+  const resolverAvailable = typeof resolverAvailableProp === 'boolean'
+    ? resolverAvailableProp
+    : resolverAvailableFromHealth
+  const hasLocalChordSearch = !!(tunebook && tunebook.abcTools)
+  const automaticLookup = resolverAvailable || hasLocalChordSearch
 
   const googleUrl = buildGoogleChordsSearchUrl(title, artist, extraQuery)
+  const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = job.busy
 
   function applyChordResult(result) {
@@ -49,6 +70,18 @@ export default function ChordsSearchButton({
       : ''
     setSource(sourceLabel)
     setProgressPercent(100)
+    if (typeof onGenreAccept === 'function') {
+      const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
+        title: title,
+        artist: artist,
+        rhythm: rhythm,
+      }))
+      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
+        setGenreSuggestion(inferred)
+      } else {
+        setGenreSuggestion(null)
+      }
+    }
   }
 
   function chooseChordCandidate(candidate) {
@@ -70,6 +103,9 @@ export default function ChordsSearchButton({
         artist: artist || '',
         accessToken: token,
         signal: ctx.signal,
+        resolverAvailable: resolverAvailable,
+        abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+        renderChords: function(abc) { return abcjsParser.renderChords(abc, true) },
         onProgress: function(message, progress) {
           if (!ctx.isCurrent()) return
           setProgressMessage(message || '')
@@ -103,21 +139,19 @@ export default function ChordsSearchButton({
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
       <ButtonGroup>
-        {resolverAvailable
-          ? <Button
-              style={buttonStyle}
-              variant={busy ? 'warning' : undefined}
-              disabled={!title || disabled}
-              onClick={function() { job.onTriggerClick(run) }}
-            >
-              {busy ? 'Cancel' : 'Search Chords'}
-            </Button>
-          : (disabled
-              ? <Button style={buttonStyle} disabled>Search Chords</Button>
-              : <a target="_new" rel="noreferrer" href={googleUrl}>
-                  <Button style={buttonStyle}>Search Chords</Button>
-                </a>)}
-        {showLyricsCheckbox && (
+        <FieldLookupButtonGroup
+          automaticLookup={automaticLookup}
+          busy={busy}
+          disabled={!title || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          narrow={false}
+          inline={true}
+          onSearch={function() { job.onTriggerClick(run) }}
+          buttonStyle={buttonStyle}
+          tunebook={tunebook}
+        />
+        {showLyricsCheckbox && automaticLookup && (
           <ToggleButton
             id="chords-search-update-lyrics"
             type="checkbox"
@@ -154,7 +188,7 @@ export default function ChordsSearchButton({
           {error}
           {resolverAvailable && (
             <div style={{ marginTop: '0.5em' }}>
-              <a target="_new" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+              <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
             </div>
           )}
         </Alert>
@@ -165,6 +199,15 @@ export default function ChordsSearchButton({
           {showLyricsCheckbox && updateLyrics ? ' with synced lyrics.' : '.'}
         </Alert>
       )}
+
+      <GenreSuggestionOffer
+        suggestion={genreSuggestion}
+        onAccept={function(genre) {
+          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+          setGenreSuggestion(null)
+        }}
+        onDismiss={function() { setGenreSuggestion(null) }}
+      />
 
       <SearchResultPickerModal
         show={showPicker}

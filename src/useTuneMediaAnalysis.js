@@ -16,6 +16,7 @@ import { buildTimedModelsFromAnalysis } from './mediaAnalysisModels';
 import { saveTimedMediaDraft } from './timedMediaCache';
 import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 import { getLinkedMediaSources } from './mediaTranscriptionSources';
+import { prepareMediaAnalysisSource } from './prepareMediaAnalysisSource';
 import useUtils from './useUtils';
 import {
   clearMediaAnalysisAbortController,
@@ -38,6 +39,12 @@ function resolveTune(deps, tune, tuneId) {
 async function runMediaAnalysisJob(deps, tuneId, source, options) {
   const force = !!(options && options.force);
   const currentJob = getMediaAnalysisJob(tuneId);
+  if (currentJob.isAnalyzing) {
+    const existingController = getMediaAnalysisAbortController(tuneId);
+    if (existingController) {
+      existingController.abort();
+    }
+  }
   if (!force && currentJob.analysis && currentJob.analysis.sourceId === source.id) {
     patchMediaAnalysisJob(tuneId, {
       showSourceDialog: false,
@@ -57,7 +64,6 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
   });
 
   try {
-    const preparedSource = source;
     if (abortController.signal.aborted) {
       return null;
     }
@@ -67,7 +73,15 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       progress: 0,
     });
 
-    const tune = resolveTune(deps, null, tuneId);
+    const tune = (options && options.tune) || resolveTune(deps, null, tuneId);
+    const preparedSource = await prepareMediaAnalysisSource(source, tune, {
+      accessToken: deps.accessToken,
+      driveApi: deps.driveApi,
+    });
+    if (abortController.signal.aborted) {
+      return null;
+    }
+
     const result = await analyzeMediaFromSource({
       source: preparedSource,
       accessToken: deps.accessToken,
@@ -100,7 +114,7 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       timed: timedModels,
     };
 
-    const liveTune = resolveTune(deps, null, tuneId);
+    const liveTune = (options && options.tune) || resolveTune(deps, null, tuneId);
     const skipPersist = !!(options && options.skipPersist);
     if (liveTune && !skipPersist) {
       if (timedModels.timedLyrics) liveTune.timedLyrics = timedModels.timedLyrics;
@@ -195,8 +209,11 @@ function useTuneMediaAnalysisState(options) {
 
   const runAnalysis = useCallback(async function(source, runOptions) {
     if (!tuneId || !source) return null;
-    return runMediaAnalysisJob(Object.assign({}, deps, { utils: utils }), tuneId, source, runOptions);
-  }, [deps, tuneId, utils]);
+    const mergedOptions = Object.assign({}, runOptions, {
+      tune: resolveTune(deps, tune, tuneId),
+    });
+    return runMediaAnalysisJob(Object.assign({}, deps, { utils: utils }), tuneId, source, mergedOptions);
+  }, [deps, tuneId, tune, utils]);
 
   const requestAnalysis = useCallback(function(runOptions) {
     if (!tuneId) return;
@@ -274,6 +291,25 @@ export function TuneMediaAnalysisProvider({ children, tunebook, tunes, token, fo
 
 export function useTuneMediaAnalysis(options) {
   return useTuneMediaAnalysisState(options || {});
+}
+
+export async function requestTuneMediaAnalysis(deps, tuneId, options) {
+  if (!deps || tuneId == null) return null;
+  const tune = resolveTune(deps, options && options.tune, tuneId);
+  if (!tune) return null;
+  const sources = getLinkedMediaSources(tune, deps.tunebook);
+  if (!sources.length) return null;
+
+  let source = sources[0];
+  const preferredIndex = options && options.linkIndex;
+  if (preferredIndex != null) {
+    const matched = sources.find(function(entry) {
+      return entry.linkIndex === preferredIndex;
+    });
+    if (matched) source = matched;
+  }
+
+  return runMediaAnalysisJob(deps, tuneId, source, Object.assign({}, options, { tune: tune }));
 }
 
 export default useTuneMediaAnalysis;

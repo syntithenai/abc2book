@@ -17,8 +17,13 @@ export function normalizeVoiceCommandResponse(body) {
     title: typeof body.title === 'string' ? body.title.trim() : '',
     artist: typeof body.artist === 'string' ? body.artist.trim() : '',
     book: typeof body.book === 'string' ? body.book.trim() : '',
+    genre: typeof body.genre === 'string' ? body.genre.trim() : '',
     tags: Array.isArray(body.tags) ? body.tags.filter(Boolean) : [],
     searchText: typeof body.searchText === 'string' ? body.searchText.trim() : '',
+    filterKind: typeof body.filterKind === 'string' ? body.filterKind.trim() : '',
+    filterValue: typeof body.filterValue === 'string' ? body.filterValue.trim() : '',
+    helpAnswer: typeof body.helpAnswer === 'string' ? body.helpAnswer.trim() : '',
+    helpLinks: Array.isArray(body.helpLinks) ? body.helpLinks.filter(Boolean) : [],
     confidence: typeof body.confidence === 'number' ? body.confidence : 0,
     parseMethod: typeof body.parseMethod === 'string' ? body.parseMethod : 'none',
     timing: {
@@ -50,6 +55,7 @@ export async function submitVoiceCommand(options) {
     fileName,
     books,
     tags,
+    mode,
     accessToken,
     signal,
     onProgress,
@@ -67,6 +73,7 @@ export async function submitVoiceCommand(options) {
   formData.append('file', blob, fileName || 'voice-command.webm');
   formData.append('books', JSON.stringify(Array.isArray(books) ? books : []));
   formData.append('tags', JSON.stringify(Array.isArray(tags) ? tags : []));
+  formData.append('mode', typeof mode === 'string' ? mode : 'playback');
 
   if (typeof onProgress === 'function') {
     onProgress('Processing voice command...');

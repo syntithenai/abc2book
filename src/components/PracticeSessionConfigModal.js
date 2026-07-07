@@ -1,17 +1,23 @@
 import { useEffect, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Button, Modal, Form, ButtonGroup, Alert } from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSearchSelectorModal from './TagsSearchSelectorModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import {
   DURATION_OPTIONS,
+  PRACTICE_INSTRUMENTS,
   loadPracticeSettings,
   savePracticeSettings,
   getSkillTempoRange,
+  normalizePracticeInstrument,
 } from '../practiceSessionSettings'
+import '../PracticeSessionConfigModal.css'
 
 export default function PracticeSessionConfigModal(props) {
   const responsiveModalProps = useResponsiveModalProps()
+  const [searchParams] = useSearchParams()
+  const [instrument, setInstrument] = useState('mandolin')
   const [totalMinutes, setTotalMinutes] = useState(10)
   const [bookFilter, setBookFilter] = useState('')
   const [tagFilter, setTagFilter] = useState([])
@@ -21,13 +27,34 @@ export default function PracticeSessionConfigModal(props) {
   useEffect(function() {
     if (props.show) {
       const saved = loadPracticeSettings()
+      setInstrument(saved.instrument)
       setTotalMinutes(saved.totalMinutes)
       setIncludeWarmups(saved.includeWarmups)
       setSkillLevel(saved.skillLevel)
       setBookFilter('')
       setTagFilter([])
+
+      const minutes = searchParams.get('minutes')
+      if (minutes) setTotalMinutes(parseInt(minutes, 10))
+
+      const instrumentParam = searchParams.get('instrument')
+      if (instrumentParam) setInstrument(normalizePracticeInstrument(instrumentParam))
+
+      const skill = searchParams.get('skill')
+      if (skill) setSkillLevel(parseInt(skill, 10))
+
+      const warmups = searchParams.get('warmups')
+      if (warmups != null) setIncludeWarmups(warmups !== '0' && warmups !== 'false')
+
+      const book = searchParams.get('book')
+      if (book) setBookFilter(book)
+
+      const tags = searchParams.get('tags')
+      if (tags) {
+        setTagFilter(tags.split(',').map(function(t) { return t.trim() }).filter(Boolean))
+      }
     }
-  }, [props.show])
+  }, [props.show, searchParams])
 
   useEffect(function() {
     if (props.setBlockKeyboardShortcuts) {
@@ -40,10 +67,16 @@ export default function PracticeSessionConfigModal(props) {
 
   function persistSettings(next) {
     savePracticeSettings({
+      instrument: next.instrument != null ? next.instrument : instrument,
       totalMinutes: next.totalMinutes != null ? next.totalMinutes : totalMinutes,
       includeWarmups: next.includeWarmups != null ? next.includeWarmups : includeWarmups,
       skillLevel: next.skillLevel != null ? next.skillLevel : skillLevel,
     })
+  }
+
+  function handleInstrumentChange(nextInstrument) {
+    setInstrument(nextInstrument)
+    persistSettings({ instrument: nextInstrument })
   }
 
   function handleDurationChange(minutes) {
@@ -66,9 +99,10 @@ export default function PracticeSessionConfigModal(props) {
   const tempoPreviewEnd = Math.round(tempoPreview.tempoEnd * 100)
 
   function handleStart() {
-    savePracticeSettings({ totalMinutes, includeWarmups, skillLevel })
+    savePracticeSettings({ instrument, totalMinutes, includeWarmups, skillLevel })
     if (props.onStart) {
       props.onStart({
+        instrument,
         totalMinutes,
         bookFilter,
         tagFilter,
@@ -79,11 +113,31 @@ export default function PracticeSessionConfigModal(props) {
   }
 
   return (
-    <Modal show={!!props.show} onHide={props.onHide} {...responsiveModalProps}>
+    <Modal
+      show={!!props.show}
+      onHide={props.onHide}
+      {...responsiveModalProps}
+      dialogClassName="practice-config-modal"
+      size="lg"
+    >
       <Modal.Header closeButton>
         <Modal.Title>Practice session</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <Form.Group className="mb-4">
+          <Form.Label>Instrument</Form.Label>
+          <Form.Select
+            value={instrument}
+            onChange={function(e) { handleInstrumentChange(e.target.value) }}
+          >
+            {PRACTICE_INSTRUMENTS.map(function(item) {
+              return (
+                <option key={item.id} value={item.id}>{item.label}</option>
+              )
+            })}
+          </Form.Select>
+        </Form.Group>
+
         <Form.Group className="mb-4">
           <Form.Label>Duration</Form.Label>
           <ButtonGroup className="practice-duration-buttons">
@@ -120,50 +174,52 @@ export default function PracticeSessionConfigModal(props) {
           </Form.Text>
         </Form.Group>
 
-        <Form.Group className="mb-3">
-          <Form.Label>Book filter (optional)</Form.Label>
-          <div>
-            <BookSelectorModal
-              title="Filter by book"
-              currentTuneBook={bookFilter}
-              tunebook={props.tunebook}
-              forceRefresh={props.forceRefresh}
-              onChange={function(val) { setBookFilter(val || '') }}
-              defaultOptions={props.tunebook.getTuneBookOptions}
-              searchOptions={props.tunebook.getSearchTuneBookOptions}
-              triggerElement={
-                <Button variant="outline-secondary">
-                  {props.tunebook.icons.book} {bookFilter || 'Any book'}
-                </Button>
-              }
-            />
-            {bookFilter ? (
-              <Button className="ms-2" variant="link" onClick={function() { setBookFilter('') }}>Clear</Button>
-            ) : null}
-          </div>
-        </Form.Group>
+        <div className="practice-config-filters-row mb-3">
+          <Form.Group className="practice-config-filter-field mb-0">
+            <Form.Label>Book filter (optional)</Form.Label>
+            <div>
+              <BookSelectorModal
+                title="Filter by book"
+                currentTuneBook={bookFilter}
+                tunebook={props.tunebook}
+                forceRefresh={props.forceRefresh}
+                onChange={function(val) { setBookFilter(val || '') }}
+                defaultOptions={props.tunebook.getTuneBookOptions}
+                searchOptions={props.tunebook.getSearchTuneBookOptions}
+                triggerElement={
+                  <Button variant="outline-secondary">
+                    {props.tunebook.icons.book} {bookFilter || 'Any book'}
+                  </Button>
+                }
+              />
+              {bookFilter ? (
+                <Button className="ms-2" variant="link" onClick={function() { setBookFilter('') }}>Clear</Button>
+              ) : null}
+            </div>
+          </Form.Group>
 
-        <Form.Group className="mb-3">
-          <Form.Label>Tag filter (optional)</Form.Label>
-          <div>
-            <TagsSearchSelectorModal
-              title="Filter by tags"
-              value={tagFilter}
-              tunebook={props.tunebook}
-              onChange={function(val) { setTagFilter(val || []) }}
-              defaultOptions={props.tunebook.getTuneTagOptions}
-              searchOptions={props.tunebook.getSearchTuneTagOptions}
-              triggerElement={
-                <Button variant="outline-secondary">
-                  {props.tunebook.icons.tag} {tagFilter.length > 0 ? tagFilter.join(', ') : 'Any tags'}
-                </Button>
-              }
-            />
-            {tagFilter.length > 0 ? (
-              <Button className="ms-2" variant="link" onClick={function() { setTagFilter([]) }}>Clear</Button>
-            ) : null}
-          </div>
-        </Form.Group>
+          <Form.Group className="practice-config-filter-field mb-0">
+            <Form.Label>Tag filter (optional)</Form.Label>
+            <div>
+              <TagsSearchSelectorModal
+                title="Filter by tags"
+                value={tagFilter}
+                tunebook={props.tunebook}
+                onChange={function(val) { setTagFilter(val || []) }}
+                defaultOptions={props.tunebook.getTuneTagOptions}
+                searchOptions={props.tunebook.getSearchTuneTagOptions}
+                triggerElement={
+                  <Button variant="outline-secondary">
+                    {props.tunebook.icons.tag} {tagFilter.length > 0 ? tagFilter.join(', ') : 'Any tags'}
+                  </Button>
+                }
+              />
+              {tagFilter.length > 0 ? (
+                <Button className="ms-2" variant="link" onClick={function() { setTagFilter([]) }}>Clear</Button>
+              ) : null}
+            </div>
+          </Form.Group>
+        </div>
 
         <Form.Group className="mb-2">
           <Form.Check

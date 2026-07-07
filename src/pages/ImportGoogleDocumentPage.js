@@ -1,80 +1,206 @@
-import {Link , useNavigate , useParams} from 'react-router-dom'
-import {useState, useEffect} from 'react'
-import {Button, Modal} from 'react-bootstrap'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
+import { Button } from 'react-bootstrap'
 import useGoogleDocument from '../useGoogleDocument'
-export default function ImportGoogleDocumentPage({tunebook, token, refresh}) {
-    var navigate = useNavigate()
-    var params = useParams()
-    //console.log(params)
-    const [error,setError] = useState('')
-    var docs = useGoogleDocument(token, refresh)
-    //if (curated.hasOwnProperty(params.curation)) {
-        //console.log("D",params.curation) //curated[params.curation])
-    //} 
-    const [agree, setAgree] = useState(false)
-    const [show, setShow] = useState(false)
-    
-    function handleCloseAgree() {
-        //console.log('close',params)
-        if (params.tuneId) {
-            navigate("/tunes/")
-        } else {
-            navigate("/tunes")
-        }
+import ImportScopePicker from '../components/ImportScopePicker'
+import { parseImportDocRouteParams, tuneIdsForSet, tuneIdsForPlaylist } from '../shareTunebookUtils'
+import { buildNavigateAfterImport, handleImportNavigation } from '../shareImportNavigation'
+import { parsePerformanceSetsFromAbc } from '../performanceSetSync'
+import { parsePlaylistsFromAbc } from '../playlistSync'
+import {
+  mergePerformanceSetsFromTuneBookAbc,
+  importSinglePerformanceSetFromAbc,
+} from '../performanceSetSyncClient'
+import {
+  mergePlaylistsFromTuneBookAbc,
+  importSinglePlaylistFromAbc,
+} from '../playlistSyncClient'
+import { setPendingShareImportSideEffect } from '../shareImportSession'
+
+export default function ImportGoogleDocumentPage({
+  tunebook,
+  token,
+  refresh,
+  setNavigateAfterImport,
+  setCurrentTuneBook,
+  setTagFilter,
+  setFilter,
+}) {
+  const navigate = useNavigate()
+  const params = useParams()
+  const docs = useGoogleDocument(token, function() {}, refresh)
+  const docsRef = useRef(docs)
+  docsRef.current = docs
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [abcText, setAbcText] = useState('')
+  const [importBusy, setImportBusy] = useState(false)
+  const accessToken = token && token.access_token ? token.access_token : ''
+
+  const routeContext = useMemo(function() {
+    return parseImportDocRouteParams(params)
+  }, [params])
+
+  const preview = useMemo(function() {
+    if (!abcText) return { tunes: {}, sets: {}, playlists: {} }
+    const tunesList = tunebook.abcTools.abc2Tunebook(abcText)
+    const tunes = {}
+    tunesList.forEach(function(tune) {
+      if (tune && tune.id) tunes[tune.id] = tune
+    })
+    const parsedSets = parsePerformanceSetsFromAbc(abcText)
+    const parsedPlaylists = parsePlaylistsFromAbc(abcText)
+    return {
+      tunes: tunes,
+      sets: parsedSets.sets || {},
+      playlists: parsedPlaylists.playlists || {},
     }
-    
-    function onClose() {
-        //console.log('onClose')
-        //props.setCurrentTuneBook(params.googleDocumentId)
-        navigate("/tunes")
+  }, [abcText, tunebook])
+
+  useEffect(function() {
+    if (!params.googleDocumentId) {
+      navigate('/tunes')
+      return
     }
-    
-    useEffect(function() {
-      //console.log('impo go usef',params.googleDocumentId,token)
-      if (!params.googleDocumentId) {
-          navigate("/tunes")
+    if (!accessToken) return
+
+    var cancelled = false
+    setLoading(true)
+    setError('')
+    setAbcText('')
+    docsRef.current.getDocument(params.googleDocumentId).then(function(fullSheet) {
+      if (cancelled) return
+      if (fullSheet && typeof fullSheet === 'string') {
+        setAbcText(fullSheet)
+      } else if (fullSheet && typeof fullSheet === 'object' && fullSheet.error) {
+        setError('Unable to load import source. Check that the share link is still public and try again.')
+      } else if (fullSheet) {
+        setAbcText(String(fullSheet))
       } else {
-          if (token) {
-              // load document 
-              //console.log('ldd DO',params.googleDocumentId)
-              docs.exportDocument(params.googleDocumentId).then(function(fullSheet) {
-                  //console.log('ldd',fullSheet)
-                  if (fullSheet) {
-                      tunebook.importAbc(fullSheet,null,params.tuneId,params.bookName)
-                      navigate("/tunes")
-                  } else {
-                      setError("Unable to load import source")
-                  }
-              }).catch(function(e) {
-                console.log(e)  
-              })
-            }
+        setError('Unable to load import source. Check that the share link is still public and try again.')
       }
-    }, [params.googleDocumentId, params.tuneId, params.bookName, token, navigate, docs, tunebook])
-    
-    return <>{(params.googleDocumentId && params.googleDocumentId.trim()) ? <div className="App-import">
-     <h1>Import a Shared Tune Book </h1>
-     {!token && <>To import this Tune Book, you will need to <Button style={{marginLeft:'0.3em'}} variant="success" onClick={refresh} >Login</Button></>}
-     {(token && !error) && <>Loading..</>}
-     {(token && error) && <>{error}</>}
-    </div> : null}</>
+    }).catch(function() {
+      if (cancelled) return
+      setError('Error loading import source')
+    }).finally(function() {
+      if (!cancelled) setLoading(false)
+    })
+
+    return function() {
+      cancelled = true
+    }
+  }, [params.googleDocumentId, accessToken, navigate])
+
+  const applyImportResults = useCallback(function(results, scopePayload, afterMerge) {
+    const chain = tunebook.applyMergeData(results).then(function() {
+      if (afterMerge) return afterMerge()
+    })
+    return chain.then(function(mergedTunes) {
+      handleImportNavigation(scopePayload, {
+        navigate: navigate,
+        tunebook: tunebook,
+        tunes: mergedTunes,
+        setCurrentTuneBook: setCurrentTuneBook,
+        setTagFilter: setTagFilter,
+        setFilter: setFilter,
+      })
+      if (setNavigateAfterImport) setNavigateAfterImport({})
+    })
+  }, [tunebook, setNavigateAfterImport, navigate, setCurrentTuneBook, setTagFilter, setFilter])
+
+  const runImportForOption = useCallback(function(option) {
+    if (!abcText || !option) return
+    setImportBusy(true)
+
+    let limitToTuneId = null
+    let limitToBookName = null
+    let limitToTuneIds = null
+    const scopePayload = buildNavigateAfterImport(option.scope, {
+      tuneId: option.tuneId,
+      bookName: option.bookName,
+      setId: option.setId,
+      playlistId: option.playlistId,
+    })
+
+    if (option.scope === 'tune') {
+      limitToTuneId = option.tuneId
+    } else if (option.scope === 'book') {
+      limitToBookName = option.bookName
+    } else if (option.scope === 'set') {
+      const setRecord = preview.sets[option.setId]
+      limitToTuneIds = tuneIdsForSet(setRecord)
+      if (limitToTuneIds.length === 0) {
+        setError('This set has no tunes to import.')
+        setImportBusy(false)
+        return
+      }
+    } else if (option.scope === 'playlist') {
+      const playlistRecord = preview.playlists[option.playlistId]
+      limitToTuneIds = tuneIdsForPlaylist(playlistRecord)
+      if (limitToTuneIds.length === 0) {
+        setError('This playlist has no tunes to import.')
+        setImportBusy(false)
+        return
+      }
+    }
+
+    const results = tunebook.importAbc(abcText, null, limitToTuneId, limitToBookName, null, limitToTuneIds)
+
+    if (tunebook.showImportWarning(results)) {
+      if (option.scope === 'all' || option.scope === 'set' || option.scope === 'playlist') {
+        setPendingShareImportSideEffect({
+          scope: option.scope,
+          setId: option.setId || null,
+          playlistId: option.playlistId || null,
+          abcText: abcText,
+        })
+      }
+      if (setNavigateAfterImport) setNavigateAfterImport(scopePayload)
+      setImportBusy(false)
+      return
+    }
+
+    let afterMerge = null
+    if (option.scope === 'all') {
+      afterMerge = function() {
+        return mergePerformanceSetsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
+          .then(function() {
+            return mergePlaylistsFromTuneBookAbc(abcText, { interactive: false, applySilently: true })
+          })
+      }
+    } else if (option.scope === 'set') {
+      afterMerge = function() { return importSinglePerformanceSetFromAbc(abcText, option.setId) }
+    } else if (option.scope === 'playlist') {
+      afterMerge = function() { return importSinglePlaylistFromAbc(abcText, option.playlistId) }
+    }
+
+    applyImportResults(results, scopePayload, afterMerge).finally(function() {
+      setImportBusy(false)
+    })
+  }, [abcText, preview.sets, preview.playlists, tunebook, applyImportResults, setNavigateAfterImport])
+
+  if (!params.googleDocumentId || !params.googleDocumentId.trim()) return null
+
+  return (
+    <div className="App-import">
+      <h1>Import a Shared Tunebook</h1>
+      {!accessToken && (
+        <p>
+          To import this tunebook, log in with Google.
+          <Button style={{ marginLeft: '0.3em' }} variant="success" onClick={refresh}>Login</Button>
+        </p>
+      )}
+      {accessToken && loading && !abcText && <p>Loading shared tunebook…</p>}
+      {accessToken && error && <p>{error}</p>}
+      {accessToken && !error && abcText && (
+        <ImportScopePicker
+          preview={preview}
+          context={routeContext}
+          busy={importBusy}
+          onSelect={runImportForOption}
+          onCancel={function() { navigate('/tunes') }}
+        />
+      )}
+    </div>
+  )
 }
-//{agree 
-         //? <ImportCollectionModal autoStart={params.curation && params.curation.trim() ? params.curation : false} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleCloseAgree} /> 
-         //: <Modal show={!agree} onHide={handleCloseAgree}>
-        //<Modal.Header closeButton>
-          //<Modal.Title>Import a Book</Modal.Title>
-          
-        //</Modal.Header>
-       
-        //<Modal.Body> 
-        //Do you want to import the book <i>{params.curation}</i>? 
-        //<div style={{fontWeight: 'bold'}} >This will override any changes you have made to prior imports.</div>
-        //</Modal.Body>
-        //<Modal.Footer>
-        //<Button onClick={function(e) {setAgree(true)}} variant="success" >OK</Button>
-        //<Button onClick={function(e) {navigate('/tunes')}} variant="danger" >Cancel</Button>
-        
-        //</Modal.Footer>
-      //</Modal>
-     //}

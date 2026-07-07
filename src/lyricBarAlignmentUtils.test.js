@@ -8,6 +8,7 @@ import {
   detectBarsPerLyricLine,
   assignLyricLinesToBarsForChart,
   chordChangeBarIndices,
+  wordIndexToNoteIndex,
 } from './lyricBarAlignmentUtils';
 
 const ASHOKAN_A = 'Ac | d3 cBA | F4 EF | G3 FED | B,2 D3 B, | A,2 D2 F2 | A2 d2 f2 | f3 gf2 | e4 Ac |';
@@ -66,5 +67,12 @@ describe('lyricBarAlignmentUtils', function() {
     expect(result.barsPerLyricLine).toBe(2);
     expect(result.assignments[0]).toMatchObject({ startBar: 0, endBar: 1 });
     expect(result.assignments[1]).toMatchObject({ startBar: 2, endBar: 3 });
+  });
+
+  test('wordIndexToNoteIndex maps word positions into note slots', function() {
+    expect(wordIndexToNoteIndex(0, 4, 8)).toBe(0);
+    expect(wordIndexToNoteIndex(1, 4, 8)).toBe(2);
+    expect(wordIndexToNoteIndex(3, 4, 8)).toBe(6);
+    expect(wordIndexToNoteIndex(99, 4, 8)).toBe(7);
   });
 });

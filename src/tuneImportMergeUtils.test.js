@@ -4,7 +4,9 @@ import {
   buildTuneImportFieldRows,
   formatTuneFieldValue,
   importedFieldIsPresent,
+  metaDiffAutoAccept,
   setAllTuneImportSelections,
+  tuneLinksEqual,
 } from './tuneImportMergeUtils';
 
 describe('tuneImportMergeUtils', function() {
@@ -94,5 +96,46 @@ describe('tuneImportMergeUtils', function() {
   test('formatTuneFieldValue summarizes voices', function() {
     expect(formatTuneFieldValue('voices', { '1': { notes: ['a', 'b'] } })).toContain('1 voice');
     expect(formatTuneFieldValue('voices', { '1': { notes: ['a', 'b'] } })).toContain('2 lines');
+  });
+
+  test('formatTuneFieldValue lists links for comparison', function() {
+    const display = formatTuneFieldValue('links', [
+      { title: 'YouTube', link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
+      { name: 'Sheet', link: 'https://example.com/sheet.pdf' },
+    ]);
+    expect(display).toContain('YouTube: https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    expect(display).toContain('Sheet: https://example.com/sheet.pdf');
+  });
+
+  test('tuneLinksEqual ignores youtube URL shape and link order', function() {
+    const localLinks = [{ title: 'Clip', link: 'https://youtu.be/dQw4w9WgXcQ' }];
+    const importedLinks = [{ title: 'Clip', link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }];
+    expect(tuneLinksEqual(localLinks, importedLinks)).toBe(true);
+  });
+
+  test('buildTuneImportFieldRows hides equivalent links from differing fields', function() {
+    const rows = buildTuneImportFieldRows(
+      { links: [{ title: 'YouTube', link: 'https://youtu.be/abc12345678' }] },
+      { links: [{ title: 'YouTube', link: 'https://www.youtube.com/watch?v=abc12345678' }] }
+    );
+    const linksRow = rows.find(function(row) { return row.key === 'links'; });
+    expect(linksRow).toBeTruthy();
+    expect(linksRow.differs).toBe(false);
+  });
+
+  test('metaDiffAutoAccept treats ABC tune index as non-differing metadata', function() {
+    expect(metaDiffAutoAccept({ X: 15 }, { X: 16 })).toBe(true);
+    expect(metaDiffAutoAccept(undefined, { X: 16 })).toBe(true);
+    expect(metaDiffAutoAccept({ X: 15, S: 'abc' }, { X: 16, S: 'abc' })).toBe(true);
+    expect(metaDiffAutoAccept({ S: 'abc' }, { S: 'def' })).toBe(false);
+  });
+
+  test('applyTuneImportSelections auto-applies incoming ABC tune index metadata', function() {
+    const merged = applyTuneImportSelections(
+      { id: 'orig-id', meta: { X: 15, S: 'abc' } },
+      { id: 'import-id', meta: { X: 16, S: 'abc' } },
+      {}
+    );
+    expect(merged.meta).toEqual({ X: 16, S: 'abc' });
   });
 });

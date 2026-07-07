@@ -6,7 +6,7 @@ const PIPED_INSTANCES = [
   'https://pipedapi.adminforge.de',
 ];
 
-async function resolveYoutubeAudioUrl(videoId) {
+export async function resolveYoutubeAudioUrl(videoId) {
   for (let i = 0; i < PIPED_INSTANCES.length; i++) {
     const base = PIPED_INSTANCES[i];
     try {

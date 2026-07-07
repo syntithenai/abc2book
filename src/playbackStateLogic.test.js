@@ -30,6 +30,9 @@ import {
   isStaleSeekEngineReading,
   computeMidiMetronomeCountIn,
   computeExtraMeasuresAtBeginning,
+  computeTimingMusicStartMs,
+  audioRatioToTimingProgress,
+  timingProgressToAudioSeconds,
   isMidiStartFromBeginning,
   shouldUseMidiMetronomeCountIn,
 } from './playbackStateLogic'
@@ -141,6 +144,17 @@ describe('autoplay and tap-to-play', function() {
     const playing = snap({ playingIntent: true, isPlayingUi: true })
     expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.PAUSED, true)).toBe(true)
     expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 2, YT_STATE.PAUSED, true)).toBe(false)
+  })
+
+  test('blocked cold-start autoplay (unstarted player) is treated as blocked', function() {
+    const playing = snap({ playingIntent: true, isPlayingUi: true })
+    // A cold-start autoplay that the browser refuses leaves the player unstarted.
+    expect(youtubeAutoplayAppearsBlocked(playing, YT_STATE.UNSTARTED)).toBe(true)
+    expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.UNSTARTED, true)).toBe(true)
+    // Still buffering is not treated as blocked (playback may yet start).
+    expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.BUFFERING, true)).toBe(false)
+    // Not the last attempt: keep waiting, don't prompt yet.
+    expect(shouldShowTapToPlayFromYoutubePoll(playing, 1, 1, YT_STATE.UNSTARTED, false)).toBe(false)
   })
 
   test('autoplay recovery does not run while paused or during seek guard', function() {
@@ -415,7 +429,7 @@ describe('shouldUseMidiMetronomeCountIn', function() {
 describe('computeMidiMetronomeCountIn', function() {
   const beatDurationMs = 500 // 120bpm quarter in 4/4
 
-  test('no pickup: one bar of clicks plus one beat delay', function() {
+  test('no pickup: one bar of clicks then music', function() {
     const r = computeMidiMetronomeCountIn({
       beatsPerMeasure: 4,
       pickupLength: 0,
@@ -424,8 +438,8 @@ describe('computeMidiMetronomeCountIn', function() {
       tempoFactor: 1,
     })
     expect(r.metronomeBeats).toBe(4)
-    expect(r.delayMs).toBeCloseTo(beatDurationMs)
-    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(5 * beatDurationMs)
+    expect(r.delayMs).toBe(0)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(4 * beatDurationMs)
   })
 
   test('count-in beats override for practice warmups', function() {
@@ -438,10 +452,47 @@ describe('computeMidiMetronomeCountIn', function() {
       countInBeats: 8,
     })
     expect(r.metronomeBeats).toBe(8)
-    expect(r.delayMs).toBeCloseTo(beatDurationMs)
+    expect(r.delayMs).toBe(0)
   })
 
-  test('one-beat anacrusis in 4/4: seven beats total, no extra delay', function() {
+  test('countInBarOnly: one bar in 3/4 regardless of implicit pickup', function() {
+    const r = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 3,
+      pickupLength: 0.5,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 1500,
+      tempoFactor: 1,
+      countInBarOnly: true,
+    })
+    expect(r.metronomeBeats).toBe(3)
+    expect(r.delayMs).toBe(0)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(3 * beatDurationMs)
+  })
+
+  test('countInBarOnly: implicit pickup would otherwise lengthen count-in', function() {
+    const withPickup = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 4,
+      pickupLength: 0.5,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBars: 2,
+    })
+    expect(withPickup.metronomeBeats).toBe(6)
+
+    const barOnly = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 4,
+      pickupLength: 0.5,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBarOnly: true,
+    })
+    expect(barOnly.metronomeBeats).toBe(4)
+    expect(barOnly.delayMs).toBe(0)
+  })
+
+  test('one-beat anacrusis in 4/4: three beats of count-in (default one bar)', function() {
     const r = computeMidiMetronomeCountIn({
       beatsPerMeasure: 4,
       pickupLength: 0.25,
@@ -449,12 +500,40 @@ describe('computeMidiMetronomeCountIn', function() {
       millisecondsPerMeasure: 2000,
       tempoFactor: 1,
     })
+    expect(r.metronomeBeats).toBe(3)
+    expect(r.delayMs).toBe(0)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(3 * beatDurationMs)
+  })
+
+  test('one-beat anacrusis in 4/4 with two count-in bars: seven beats of count-in', function() {
+    const r = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 4,
+      pickupLength: 0.25,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBars: 2,
+    })
     expect(r.metronomeBeats).toBe(7)
-    expect(r.delayMs).toBeCloseTo(0)
+    expect(r.delayMs).toBe(0)
     expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(7 * beatDurationMs)
   })
 
-  test('dotted pickup (1.5 beats): six clicks plus half-beat delay', function() {
+  test('one-beat anacrusis in 3/4: two beats of count-in', function() {
+    const beatDurationMs34 = 600
+    const r = computeMidiMetronomeCountIn({
+      beatsPerMeasure: 3,
+      pickupLength: 0.25,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 1800,
+      tempoFactor: 1,
+    })
+    expect(r.metronomeBeats).toBe(2)
+    expect(r.delayMs).toBe(0)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(2 * beatDurationMs34)
+  })
+
+  test('dotted pickup (1.5 beats): two clicks plus half-beat delay (one bar)', function() {
     const r = computeMidiMetronomeCountIn({
       beatsPerMeasure: 4,
       pickupLength: 0.375,
@@ -462,12 +541,12 @@ describe('computeMidiMetronomeCountIn', function() {
       millisecondsPerMeasure: 2000,
       tempoFactor: 1,
     })
-    expect(r.metronomeBeats).toBe(6)
+    expect(r.metronomeBeats).toBe(2)
     expect(r.delayMs).toBeCloseTo(0.5 * beatDurationMs)
-    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(6.5 * beatDurationMs)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(2.5 * beatDurationMs)
   })
 
-  test('half-beat anacrusis: seven clicks plus half-beat delay', function() {
+  test('half-beat anacrusis: three clicks plus half-beat delay (one bar)', function() {
     const r = computeMidiMetronomeCountIn({
       beatsPerMeasure: 4,
       pickupLength: 0.125,
@@ -475,9 +554,9 @@ describe('computeMidiMetronomeCountIn', function() {
       millisecondsPerMeasure: 2000,
       tempoFactor: 1,
     })
-    expect(r.metronomeBeats).toBe(7)
+    expect(r.metronomeBeats).toBe(3)
     expect(r.delayMs).toBeCloseTo(0.5 * beatDurationMs)
-    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(7.5 * beatDurationMs)
+    expect(r.metronomeBeats * r.beatDurationMs + r.delayMs).toBeCloseTo(3.5 * beatDurationMs)
   })
 
   test('tempo factor scales beat duration and delay', function() {
@@ -504,23 +583,113 @@ describe('computeExtraMeasuresAtBeginning', function() {
     })).toBe(0)
   })
 
-  test('one-beat anacrusis in 4/4: two measures', function() {
+  test('one-beat anacrusis in 4/4: one measure by default', function() {
     expect(computeExtraMeasuresAtBeginning({
       beatsPerMeasure: 4,
       pickupLength: 0.25,
       beatLength: 0.25,
       millisecondsPerMeasure: 2000,
       tempoFactor: 1,
+    })).toBe(1)
+  })
+
+  test('one-beat anacrusis in 4/4: two measures when count-in bars is 2', function() {
+    expect(computeExtraMeasuresAtBeginning({
+      beatsPerMeasure: 4,
+      pickupLength: 0.25,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBars: 2,
     })).toBe(2)
   })
 
-  test('dotted pickup: two measures', function() {
+  test('dotted pickup: one measure by default', function() {
     expect(computeExtraMeasuresAtBeginning({
       beatsPerMeasure: 4,
       pickupLength: 0.375,
       beatLength: 0.25,
       millisecondsPerMeasure: 2000,
       tempoFactor: 1,
-    })).toBe(2)
+    })).toBe(1)
+  })
+
+  test('countInBarOnly: no extra measures even with pickup', function() {
+    expect(computeExtraMeasuresAtBeginning({
+      beatsPerMeasure: 4,
+      pickupLength: 0.5,
+      beatLength: 0.25,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+      countInBarOnly: true,
+    })).toBe(0)
+  })
+})
+
+describe('timing progress audio mapping', function() {
+  // 4/4, one-beat pickup, two count-in bars at qpm 120:
+  // startingDelay = 2 bars - 1 beat = 7 beats at 0.5s = 3500ms
+  const musicStartMsTwoBars = computeTimingMusicStartMs({
+    extraMeasuresAtBeginning: 2,
+    qpm: 120,
+    beatLength: 0.25,
+    barLength: 1,
+    pickupLength: 0.25,
+  })
+  const musicStartMsOneBar = computeTimingMusicStartMs({
+    extraMeasuresAtBeginning: 1,
+    qpm: 120,
+    beatLength: 0.25,
+    barLength: 1,
+    pickupLength: 0.25,
+  })
+  const lastMomentMs = musicStartMsTwoBars + 10000
+
+  test('computeTimingMusicStartMs mirrors abcjs setTiming delay (two count-in bars)', function() {
+    expect(musicStartMsTwoBars).toBeCloseTo(3500)
+  })
+
+  test('computeTimingMusicStartMs with one count-in bar', function() {
+    expect(musicStartMsOneBar).toBeCloseTo(1500)
+  })
+
+  test('computeTimingMusicStartMs is 0 without extra measures', function() {
+    expect(computeTimingMusicStartMs({
+      extraMeasuresAtBeginning: 0,
+      qpm: 120,
+      beatLength: 0.25,
+      barLength: 1,
+      pickupLength: 0,
+    })).toBe(0)
+  })
+
+  test('audio ratio 0 maps to start of music, not count-in', function() {
+    expect(audioRatioToTimingProgress(0, musicStartMsTwoBars, lastMomentMs))
+      .toBeCloseTo(musicStartMsTwoBars / lastMomentMs)
+  })
+
+  test('audio ratio 1 maps to end of timing timeline', function() {
+    expect(audioRatioToTimingProgress(1, musicStartMsTwoBars, lastMomentMs)).toBeCloseTo(1)
+  })
+
+  test('mid-song audio ratio accounts for count-in prefix', function() {
+    const progress = audioRatioToTimingProgress(0.5, musicStartMsTwoBars, lastMomentMs)
+    expect(progress).toBeCloseTo((musicStartMsTwoBars + 5000) / lastMomentMs)
+    expect(timingProgressToAudioSeconds(progress, musicStartMsTwoBars, lastMomentMs, 20))
+      .toBeCloseTo(10)
+  })
+
+  test('timing progress during count-in reports audio at 0', function() {
+    expect(timingProgressToAudioSeconds(
+      (musicStartMsTwoBars * 0.5) / lastMomentMs,
+      musicStartMsTwoBars,
+      lastMomentMs,
+      20
+    )).toBe(0)
+  })
+
+  test('mapping is identity when there is no count-in prefix', function() {
+    expect(audioRatioToTimingProgress(0.25, 0, 8000)).toBeCloseTo(0.25)
+    expect(timingProgressToAudioSeconds(0.25, 0, 8000, 40)).toBeCloseTo(10)
   })
 })

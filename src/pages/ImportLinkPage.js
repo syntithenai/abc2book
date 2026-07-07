@@ -1,9 +1,25 @@
-    import {Link , useNavigate , useParams} from 'react-router-dom'
+import {Link , useNavigate , useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import axios from 'axios'
+import { curatedScrapeUrl } from '../resourceBase'
 
-export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter,  navigateAfterImport, setNavigateAfterImport }) {
+const IMPORT_SOURCE_TIMEOUT_MS = 30000
+const RESOLVER_HINT = 'Start the local resolver with `npm run start:resolver` (or `cd local-resolver && docker compose up`).'
+
+function resolveImportSourceUrl(link) {
+  return curatedScrapeUrl(link)
+}
+
+function looksLikeAbc(text) {
+  if (!text || typeof text !== 'string') return false
+  const trimmed = text.trim()
+  if (!trimmed) return false
+  if (trimmed.indexOf('<!DOCTYPE html') !== -1 || trimmed.indexOf('<html') !== -1) return false
+  return /^(%abc|X:|T:)/im.test(trimmed)
+}
+
+export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter, navigateAfterImport, setNavigateAfterImport, setImportResults }) {
     
     //useEffect(function() {
         //localStorage.setItem('importPlay',(autoplay ? 'true' : 'false'))
@@ -14,6 +30,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
     //console.log("IMPLINK",params, {tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter, setNavigateAfterImport})
     
     const [error,setError] = useState('')
+    const [finished, setFinished] = useState(false)
     const [clickToStart, setClickToStart] = useState(false)
     //if (curated.hasOwnProperty(params.curation)) {
         //console.log("D",params.curation) //curated[params.curation])
@@ -42,11 +59,9 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
       if (!params.link) {
           navigate("/tunes")
       } else {
-          //if (token) {
-              // load document 
-              //console.log('ldd DO',params.link, params)
-              axios.get(params.link).then(function(res) {
-                  if (res.data) {
+          const sourceUrl = resolveImportSourceUrl(params.link)
+          axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
+                  if (res.data && looksLikeAbc(res.data)) {
                       //console.log("gotres",res.data.length)
                       
                       var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName, params.tagName)
@@ -64,7 +79,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                           //console.log("no show warning", autoplay , setMediaPlaylist)
                           tunebook.applyMergeData(results).then(function(mergedTunes) {
                               
-                              if (autoplay && setMediaPlaylist && mergedTunes) {
+                              if (autoplay && mergedTunes) {
                                     if (params.tuneId) {
                                         navigate("/tunes"+(params.tuneId ? "/" + params.tuneId + (autoplay ? "/playMedia" : '') : ''))
                                     } else {
@@ -90,15 +105,22 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
                           })
                       } else {
                           setNavigateAfterImport(Object.assign({},params,{autoplay:autoplay}))
-                          //localStorage.setItem('afterImportNavigateTo',(autoplay ? 'true' : 'false'))
+                          if (setImportResults) setImportResults(results)
+                          setFinished(true)
                       }
                       
                   } else {
-                      setError("Unable to load import source")
+                      setError("Unable to load import source. " + RESOLVER_HINT)
                   }
               }).catch(function(e) {
                   console.log(e)
-                    setError("Error loading import source")    
+                  if (e && e.code === 'ECONNABORTED') {
+                    setError('Timed out loading import source. ' + RESOLVER_HINT)
+                  } else if (e && (e.code === 'ECONNREFUSED' || e.message === 'Network Error')) {
+                    setError('Cannot reach the local resolver. ' + RESOLVER_HINT)
+                  } else {
+                    setError("Error loading import source")
+                  }
               })
               //docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
                   //console.log('ldd',fullSheet)
@@ -128,7 +150,7 @@ export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist,
     } else {
         return <>{(params.link && params.link.trim()) ? <div className="App-import">
          <h1>Import a Shared Tune Book </h1>
-         {(!error) && <>Loading..</>}
+         {(!error && !finished) && <>Loading..</>}
          {(error) && <>{error}</>}
         </div> : null}</>
     }

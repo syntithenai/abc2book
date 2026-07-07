@@ -1,5 +1,7 @@
+import asyncio
+import os
 import re
-from urllib.parse import quote, quote_plus, unquote, urlparse
+from urllib.parse import parse_qs, quote, quote_plus, unquote, urlparse
 
 import httpx
 
@@ -9,7 +11,21 @@ BROWSER_USER_AGENT = (
     "Mozilla/5.0 (compatible; ABC2BookResolver/1.0; +https://tunebook.net)"
 )
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\([^)]+\)")
+HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.MULTILINE)
+LABELS_RELEASES_HEADING_RE = re.compile(
+    r"\b(record\s+labels?\s+and\s+releases?|labels?\s+and\s+releases?|"
+    r"releases?\s+and\s+(record\s+)?labels?|record\s+labels?)\b",
+    re.IGNORECASE,
+)
+YOUTUBE_SECTION_HEADING_RE = re.compile(
+    r"^(notable\s+recordings\s+and\s+)?youtube(\s+links)?\b",
+    re.IGNORECASE,
+)
+YOUTUBE_VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 MAX_WIKIPEDIA_LOOKUPS = 12
+MAX_YOUTUBE_LINKS = int(os.getenv("RESEARCH_MAX_YOUTUBE_LINKS", "12"))
+MAX_YOUTUBE_ARTIST_QUERIES = int(os.getenv("RESEARCH_MAX_YOUTUBE_ARTIST_QUERIES", "8"))
+YOUTUBE_RESULTS_PER_QUERY = int(os.getenv("RESEARCH_YOUTUBE_RESULTS_PER_QUERY", "2"))
 
 GENERIC_ALBUM_KEYS = frozenset({
     "",
@@ -234,9 +250,292 @@ def enrich_markdown_with_entity_links(text, artists, albums):
     return result
 
 
-async def enrich_background_markdown(client, text, sources, tune_artist=""):
+def _youtube_video_id(url):
+    parsed = urlparse((url or "").strip())
+    host = (parsed.hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parsed.path or ""
+
+    if host == "youtu.be":
+        video_id = path.strip("/").split("/")[0]
+        return video_id if YOUTUBE_VIDEO_ID_RE.match(video_id) else ""
+
+    if host not in {"youtube.com", "m.youtube.com", "music.youtube.com"}:
+        return ""
+
+    if path.startswith("/watch"):
+        video_id = (parse_qs(parsed.query).get("v") or [""])[0]
+        return video_id if YOUTUBE_VIDEO_ID_RE.match(video_id) else ""
+
+    for prefix in ("/embed/", "/shorts/", "/v/", "/live/"):
+        if path.startswith(prefix):
+            video_id = path[len(prefix):].split("/")[0]
+            return video_id if YOUTUBE_VIDEO_ID_RE.match(video_id) else ""
+
+    return ""
+
+
+def _normalize_youtube_watch_url(url):
+    video_id = _youtube_video_id(url)
+    if not video_id:
+        return ""
+    return f"https://www.youtube.com/watch?v={video_id}"
+
+
+def _clean_youtube_title(title, url=""):
+    text = _normalize_space(title)
+    if not text:
+        return ""
+    text = re.sub(r"\s*[-|]\s*YouTube\s*$", "", text, flags=re.IGNORECASE).strip()
+    text = re.sub(r"\s*\(\s*YouTube\s*\)\s*$", "", text, flags=re.IGNORECASE).strip()
+    if not text or text.lower() in {"youtube", "watch", "video"}:
+        return ""
+    if url and text.lower() == url.lower():
+        return ""
+    return text
+
+
+def artists_mentioned_in_text(text, artists):
+    """Return known artist names that appear in the generated background text."""
+    body = str(text or "")
+    if not body:
+        return []
+
+    matches = []
+    for name in artists or []:
+        artist = _normalize_space(name)
+        if not _is_valid_artist_name(artist):
+            continue
+        pattern = re.compile(r"(?<!\w)" + re.escape(artist) + r"(?!\w)", re.IGNORECASE)
+        match = pattern.search(body)
+        if match:
+            matches.append((match.start(), artist))
+
+    matches.sort(key=lambda item: (item[0], -len(item[1])))
+    mentioned = []
+    seen = set()
+    for _, artist in matches:
+        key = artist.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        mentioned.append(artist)
+    return mentioned
+
+
+def build_youtube_search_queries(title, artists):
+    """Build YouTube queries: title+artist for each artist, then title alone."""
+    title = _normalize_space(title)
+    if not title:
+        return []
+
+    queries = []
+    seen = set()
+    for artist in artists or []:
+        artist = _normalize_space(artist)
+        if not _is_valid_artist_name(artist):
+            continue
+        query = f"{title} {artist}"
+        key = query.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        queries.append(query)
+
+    title_key = title.lower()
+    if title_key not in seen:
+        queries.append(title)
+    return queries
+
+
+def _youtube_result_from_video_item(item):
+    if not isinstance(item, dict):
+        return None
+    publisher = _normalize_space(item.get("publisher") or "").lower()
+    url = (
+        item.get("content")
+        or item.get("url")
+        or item.get("href")
+        or item.get("embed_url")
+        or ""
+    )
+    normalized = _normalize_youtube_watch_url(url)
+    if not normalized:
+        return None
+    if publisher and publisher not in {"youtube", "youtu.be"}:
+        # Keep only direct YouTube results when publisher is present.
+        return None
+    video_id = _youtube_video_id(normalized)
+    title = _clean_youtube_title(item.get("title") or "", normalized)
+    return {
+        "title": title or f"YouTube video ({video_id})",
+        "url": normalized,
+    }
+
+
+async def search_youtube_videos(query, max_results=YOUTUBE_RESULTS_PER_QUERY):
+    query = _normalize_space(query)
+    if not query or max_results <= 0:
+        return []
+
+    def _run():
+        results = []
+        seen = set()
+        try:
+            from ddgs import DDGS
+        except ImportError:
+            return results
+        try:
+            with DDGS() as ddgs:
+                # Fetch extra hits so non-YouTube publishers can be filtered out.
+                for item in ddgs.videos(query, max_results=max(max_results * 3, max_results)):
+                    parsed = _youtube_result_from_video_item(item)
+                    if not parsed:
+                        continue
+                    video_id = _youtube_video_id(parsed["url"])
+                    if not video_id or video_id in seen:
+                        continue
+                    seen.add(video_id)
+                    results.append(parsed)
+                    if len(results) >= max_results:
+                        break
+        except Exception:
+            return results
+        return results
+
+    return await asyncio.to_thread(_run)
+
+
+async def search_youtube_links_for_tune(
+    title,
+    text,
+    artists,
+    limit=MAX_YOUTUBE_LINKS,
+    results_per_query=YOUTUBE_RESULTS_PER_QUERY,
+):
+    mentioned = artists_mentioned_in_text(text, artists)[:MAX_YOUTUBE_ARTIST_QUERIES]
+    queries = build_youtube_search_queries(title, mentioned)
+    links = []
+    seen = set()
+    for query in queries:
+        for item in await search_youtube_videos(query, max_results=results_per_query):
+            video_id = _youtube_video_id(item.get("url") or "")
+            if not video_id or video_id in seen:
+                continue
+            seen.add(video_id)
+            links.append(item)
+            if len(links) >= limit:
+                return links
+    return links
+
+
+def format_youtube_links_section(links):
+    if not links:
+        return ""
+    lines = ["## YouTube", ""]
+    for link in links:
+        title = _normalize_space(link.get("title") or "YouTube")
+        url = (link.get("url") or "").strip()
+        if not url:
+            continue
+        lines.append(f"- [{title}]({url})")
+    if len(lines) <= 2:
+        return ""
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def _heading_matches(pattern, heading_text):
+    return bool(pattern.search(_normalize_space(heading_text)))
+
+
+def _section_end_offset(text, heading_match, headings):
+    level = len(heading_match.group(1))
+    start = heading_match.end()
+    for other in headings:
+        if other.start() <= heading_match.start():
+            continue
+        if len(other.group(1)) <= level:
+            return other.start()
+    return len(text)
+
+
+def _existing_youtube_urls(text):
+    urls = set()
+    for match in MARKDOWN_LINK_RE.finditer(text or ""):
+        url = match.group(0).rsplit("(", 1)[-1].rstrip(")")
+        normalized = _normalize_youtube_watch_url(url)
+        if normalized:
+            urls.add(normalized)
+    for match in re.finditer(r"https?://(?:www\.)?(?:youtube\.com|youtu\.be)/[^\s)>\]]+", text or ""):
+        normalized = _normalize_youtube_watch_url(match.group(0))
+        if normalized:
+            urls.add(normalized)
+    return urls
+
+
+def _remove_youtube_sections(text):
+    result = str(text or "")
+    while True:
+        headings = list(HEADING_RE.finditer(result))
+        youtube_heading = next(
+            (
+                heading
+                for heading in headings
+                if _heading_matches(YOUTUBE_SECTION_HEADING_RE, heading.group(2))
+            ),
+            None,
+        )
+        if not youtube_heading:
+            return result.rstrip()
+        end = _section_end_offset(result, youtube_heading, headings)
+        before = result[:youtube_heading.start()].rstrip()
+        after = result[end:].lstrip("\n")
+        result = before + ("\n\n" + after if after else "\n")
+
+
+def insert_youtube_links_section(text, links):
+    result = _remove_youtube_sections(text)
+    existing_urls = _existing_youtube_urls(result)
+    new_links = [link for link in links if link.get("url") not in existing_urls]
+    section = format_youtube_links_section(new_links)
+    if not section:
+        return (result + "\n") if result else result
+
+    if not result:
+        return section.rstrip() + "\n"
+
+    headings = list(HEADING_RE.finditer(result))
+    labels_heading = next(
+        (
+            heading
+            for heading in headings
+            if _heading_matches(LABELS_RELEASES_HEADING_RE, heading.group(2))
+        ),
+        None,
+    )
+    if labels_heading:
+        end = _section_end_offset(result, labels_heading, headings)
+        before = result[:end].rstrip()
+        after = result[end:].lstrip("\n")
+        return (
+            before + "\n\n" + section.rstrip() + ("\n\n" + after if after else "\n")
+        ).rstrip() + "\n"
+
+    return (result + "\n\n" + section.rstrip() + "\n").rstrip() + "\n"
+
+
+async def enrich_background_markdown(client, text, sources, tune_artist="", tune_title=""):
+    result = str(text or "")
     artists, albums = collect_entities_from_sources(sources, tune_artist=tune_artist)
-    if not artists and not albums:
-        return text
-    resolved_artists, resolved_albums = await resolve_entity_links(client, artists, albums)
-    return enrich_markdown_with_entity_links(text, resolved_artists, resolved_albums)
+    if artists or albums:
+        resolved_artists, resolved_albums = await resolve_entity_links(client, artists, albums)
+        result = enrich_markdown_with_entity_links(result, resolved_artists, resolved_albums)
+    youtube_links = await search_youtube_links_for_tune(
+        tune_title,
+        result,
+        list(artists.keys()),
+    )
+    if youtube_links:
+        result = insert_youtube_links_section(result, youtube_links)
+    return result

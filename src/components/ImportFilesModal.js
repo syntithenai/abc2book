@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
+import FileInputButton from './FileInputButton'
 import {useNavigate} from 'react-router-dom'
 import CreatableSelect from 'react-select/creatable';
 import useUtils from '../useUtils'
@@ -318,8 +319,8 @@ function ImportFilesModal(props) {
 						
 				  </div>
 				  {props.currentTuneBook && <span style={{marginLeft:'0.5em',width:'100%', float:'left'}} >
-					<label><input  style={{float:'left', width:'150px'}} className='custom-file-input' variant="primary" type="file"  multiple onChange={fileSelected} /></label>
-					<label><input style={{float:'left',width:'150px'}}  type="file" className='custom-folder-input'  id="filepicker" name="fileList" directory="" webkitdirectory=""  onChange={fileSelected}  /></label>
+					<FileInputButton label="Select files" variant="outline-secondary" multiple onChange={fileSelected} style={{float:'left', marginRight:'0.5em'}} />
+					<FileInputButton label="Select a folder" variant="outline-secondary" directory onChange={fileSelected} style={{float:'left'}} />
 					<hr/>
 					{(Array.isArray(list) && list.length > 0) && <div >
 						<h4 style={{marginBottom:'1em'}} >Create or Link tunes</h4>

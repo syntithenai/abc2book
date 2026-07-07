@@ -197,8 +197,14 @@ export default function useAbcjsParser() {
                                 note = '[' + symbol.pitches.map(function(pitch) { return pitch.name}).join('') + ']' +  durationToNoteLength(symbol.duration, noteLength)
                             } else if (symbol.pitches && symbol.pitches.length === 1 && symbol.duration > 0) {
                                 note = pitchToNote(symbol.pitches[0], symbol.duration, noteLength)
-                            } else if (symbol.rest && symbol.rest.type === 'rest' && symbol.duration > 0) {
+                            } else if (symbol.rest && (symbol.rest.type === 'rest' || symbol.rest.type === 'whole') && symbol.duration > 0) {
+                                // abcjs reports a rest filling an entire bar as type
+                                // 'whole' rather than 'rest'; both round-trip to z
                                 note = 'z' + durationToNoteLength(symbol.duration, noteLength)
+                            } else if (symbol.rest && symbol.rest.type === 'invisible' && symbol.duration > 0) {
+                                note = 'x' + durationToNoteLength(symbol.duration, noteLength)
+                            } else if (symbol.rest && symbol.rest.type === 'multimeasure') {
+                                note = 'Z' + (symbol.rest.text > 1 ? symbol.rest.text : '')
                             } else if (symbol.rest && symbol.rest.type === 'spacer') {
                                 note = 'y' + (trailingSpace ? ' ' : '')
                             }
@@ -342,6 +348,8 @@ export default function useAbcjsParser() {
         //console.log("AAAA",abc, abc[0].lines[0].staff[0].voices[0])
         var final = []
         var noteLengthsSinceLastBar = 0
+        var hasWrittenBar = false
+        var fullBarDuration = barSize * noteLength
         
         function writeBar(barLayout) {
             //console.log("BL",barLayout)
@@ -402,16 +410,22 @@ export default function useAbcjsParser() {
                                 //console.log('sincelast',noteLengthsSinceLastBar,symbol.duration)
                             }
                        } else if (symbol.el_type === 'bar') {
+                           // Display charts omit the opening anacrusis (pickup) bar so
+                           // chord blocks start on the first full bar. Editor grids
+                           // (showDots) keep it so pickup chords remain editable.
+                           var isAnacrusis = !hasWrittenBar
+                             && noteLengthsSinceLastBar > 0
+                             && noteLengthsSinceLastBar < fullBarDuration - 1e-9
+                           // Display charts also omit bars with no notes or rests
+                           // (empty between barlines). Rest-only bars still render.
+                           var isEmptyBar = noteLengthsSinceLastBar <= 0
+                           if (!showDots) {
+                               if (!isAnacrusis && !isEmptyBar) writeBar(barLayout)
+                           } else {
+                               writeBar(barLayout)
+                           }
+                           hasWrittenBar = true
                            noteLengthsSinceLastBar = 0
-                           //var maxChordsInBeat = 0
-                           //for (var i=0; i < barSize; i++) {
-                                //if (Array.isArray(barLayout[i]) && barLayout[i].length > maxChordsInBeat) {
-                                    //maxChordsInBeat = barLayout[i].length
-                                //}
-                           //}
-                        
-                           // write bar to final array
-                           writeBar(barLayout)
                            barLayout = []
                             for (var i=0; i < barSize; i++) {
                                 barLayout.push([])
@@ -426,7 +440,9 @@ export default function useAbcjsParser() {
                        final.push("\n" )
                     }
                 } else if (lastSymbol && lastSymbol.el_type !== 'bar') {
-                    writeBar(barLayout)
+                    if (showDots || noteLengthsSinceLastBar > 0) {
+                        writeBar(barLayout)
+                    }
                     final.push("\n")
                  
                 }
@@ -515,11 +531,29 @@ export default function useAbcjsParser() {
             var noteLengthsSinceLastBar = 0
             //console.log("meRGE",noteLength, meter, barSize, chordLayout,abc)
             var barIndex = {} 
+
+            // abcjs collapses a rest filling an entire bar into a single
+            // symbol (rest.type 'whole'). Split it into beat-sized rests so
+            // incoming chords can be placed mid-bar, not just on beat one.
+            abc[0].lines.forEach(function(line) {
+                if (line && line.staff && line.staff.length > 0) {
+                    var voice = line.staff[0].voices[0]
+                    for (var i = voice.length - 1; i >= 0; i--) {
+                        var symbol = voice[i]
+                        if (symbol.el_type === 'note' && symbol.rest && symbol.rest.type === 'whole' && symbol.duration > 0) {
+                            var restCount = Math.max(1, Math.round(symbol.duration / noteLength))
+                            var rests = []
+                            for (var j = 0; j < restCount; j++) {
+                                rests.push({rest: {type: 'rest'}, el_type: 'note', duration: noteLength})
+                            }
+                            voice.splice.apply(voice, [i, 1].concat(rests))
+                        }
+                    }
+                }
+            })
+
             // iterate parsed note and bar lines to create lookups 
             // per line/bar/beat to symbol number
-            
-            
-            
             abc[0].lines.forEach(function(line,lineNumber) {
                 var barCount = 0
                 var barTally = 0
@@ -853,8 +887,23 @@ export default function useAbcjsParser() {
            var data = parseChordsAndText(val)
            return data && data.lyrics ? data.lyrics :  ''
     }
+
+    /**
+     * Combine existing inline chords from abc with new chord-grid text so mergeChords
+     * can place the new bars after the current notation instead of from bar one.
+     */
+    function buildAppendChordGrid(abcString, newChordGrid) {
+        var existing = renderChords(abcString, true)
+        var existingGrid = existing ? String(existing).trim() : ''
+        var newGrid = newChordGrid ? String(newChordGrid).trim() : ''
+        if (!newGrid) return existingGrid
+        if (!existingGrid) return newGrid
+        if (existingGrid.endsWith('\n')) return existingGrid + newGrid
+        if (existingGrid.endsWith('|')) return existingGrid + ' ' + newGrid
+        return existingGrid + '\n' + newGrid
+    }
     
     
     
-    return {render,renderChords, parse, mergeChords, mergeMelody, cleanupChords, cleanupLyrics}
+    return {render,renderChords, parse, mergeChords, mergeMelody, cleanupChords, cleanupLyrics, buildAppendChordGrid}
 }

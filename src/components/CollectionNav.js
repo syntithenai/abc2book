@@ -7,27 +7,43 @@ export default function CollectionNav(props) {
   const sections = [
     {
       id: BOOKS_PAGE_SECTIONS.books,
-      label: 'Books',
+      label: 'books',
       icon: props.tunebook.icons.book,
       count: props.tbCount,
       alwaysShowCount: true,
     },
     {
       id: BOOKS_PAGE_SECTIONS.tags,
-      label: 'Tags',
+      label: 'tags',
       icon: props.tunebook.icons.tag,
       count: props.tagCount,
       alwaysShowCount: true,
     },
     {
+      id: BOOKS_PAGE_SECTIONS.genres,
+      label: 'genres',
+      icon: props.tunebook.icons.genre,
+      count: props.genreCount,
+      alwaysShowCount: true,
+    },
+    {
+      id: BOOKS_PAGE_SECTIONS.artists,
+      label: 'artists',
+      icon: props.tunebook.icons.artist,
+      count: props.artistCount,
+      alwaysShowCount: true,
+    },
+    {
       id: BOOKS_PAGE_SECTIONS.filters,
-      label: 'Filters',
+      label: 'filters',
+      icon: props.tunebook.icons.filter,
       count: props.savedFilterCount,
       alwaysShowCount: false,
     },
     {
       id: BOOKS_PAGE_SECTIONS.recent,
-      label: 'Recent',
+      label: 'recent',
+      icon: props.tunebook.icons.recent,
     },
   ]
 
@@ -44,7 +60,8 @@ export default function CollectionNav(props) {
   function renderButton(section) {
     const content = (
       <>
-        {section.icon} {section.label} {renderCount(section)}
+        {section.icon}
+        {renderCount(section)}
       </>
     )
 
@@ -55,8 +72,10 @@ export default function CollectionNav(props) {
           to="/books"
           className="collection-nav-item"
           onClick={function() { handleClick(section.id) }}
+          title={section.label}
+          aria-label={section.label}
         >
-          <Button variant={variant} size="sm">{content}</Button>
+          <Button variant={variant} size="sm" title={section.label} aria-label={section.label}>{content}</Button>
         </Link>
       )
     }
@@ -67,6 +86,8 @@ export default function CollectionNav(props) {
         className="collection-nav-item"
         variant={variant}
         size="sm"
+        title={section.label}
+        aria-label={section.label}
         onClick={function() { handleClick(section.id) }}
       >
         {content}
@@ -82,10 +103,11 @@ export default function CollectionNav(props) {
           className="collection-nav-item"
           variant={variant}
           size="sm"
-          title="Generate playlist from recent tunes"
+          title="generate"
+          aria-label="generate"
           onClick={props.onGenerate}
         >
-          {props.tunebook.icons.wizard} Generate
+          {props.tunebook.icons.wizard}
         </Button>
       ) : null}
     </nav>

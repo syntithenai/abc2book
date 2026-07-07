@@ -1,7 +1,8 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useCallback} from 'react'
 import useUtils from './useUtils'
 import { normalizeViewMode } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
+import { loadActiveQueue, persistActiveQueue } from './nowPlayingQueue'
 
 /**
  * Top level state for tunebook application
@@ -24,6 +25,8 @@ export default function useAppData() {
   var [filter, setFilter] = useState('')
   var [groupBy, setGroupBy] = useState('')
   var [tagFilter, setTagFilter] = useState('')
+  var [genreFilter, setGenreFilter] = useState([])
+  var [artistFilter, setArtistFilter] = useState([])
   var [showPreviewInList, setShowPreviewInList] = useState(false)
   // currentTuneBook is used as list filter and in many other places
   const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
@@ -135,30 +138,37 @@ export default function useAppData() {
   }
   
   function updateTunesHash(tune) {
-     if (tune.id ) {
-        var oldHash = tunesHash && tunesHash.ids ? tunesHash.ids[tune.id] : null
-        if (oldHash) {
-          if (Array.isArray(tunesHash.hashes[oldHash])) {
-            tunesHash.hashes[oldHash] = tunesHash.hashes[oldHash].filter(function(ids) {
-              if (Array.isArray(ids) && ids.indexOf(tune.id) === -1) {
-                return true
-              } else {
-                return false
-              }
-            })
-            if (tunesHash && tunesHash.hashes && tunesHash.hashes[oldHash].length === 0) {
-              delete tunesHash.hashes[oldHash]
-            }
-          }
-          if (tunesHash && tunesHash.ids ) delete tunesHash.ids[tune.id]
-        }
-        var hash = abcTools.getTuneHash(tune)
-        if (!tunesHash.hashes) tunesHash.hashes = {}
-        if (!tunesHash.ids) tunesHash.ids = {}
-        tunesHash.hashes[hash] = true
-        tunesHash.ids[tune.id] = hash
-        setTunesHash(tunesHash)
+     if (!tune || !tune.id) return
+     var hash = abcTools.getTuneHash(tune)
+     var prev = tunesHash && typeof tunesHash === 'object' ? tunesHash : { ids: {}, hashes: {}, importhashes: {} }
+     var prevIds = prev.ids && typeof prev.ids === 'object' ? prev.ids : {}
+     var oldHash = prevIds[tune.id]
+     // Metadata-only edits (e.g. lyrics scroll speed) do not change the musical hash.
+     if (oldHash === hash) return
+
+     var nextIds = Object.assign({}, prevIds)
+     var nextHashes = Object.assign({}, prev.hashes && typeof prev.hashes === 'object' ? prev.hashes : {})
+     if (oldHash) {
+       if (Array.isArray(nextHashes[oldHash])) {
+         nextHashes[oldHash] = nextHashes[oldHash].filter(function(id) {
+           return id !== tune.id
+         })
+         if (nextHashes[oldHash].length === 0) {
+           delete nextHashes[oldHash]
+         }
+       } else {
+         delete nextHashes[oldHash]
+       }
      }
+     delete nextIds[tune.id]
+     if (!Array.isArray(nextHashes[hash])) nextHashes[hash] = []
+     if (nextHashes[hash].indexOf(tune.id) === -1) nextHashes[hash].push(tune.id)
+     nextIds[tune.id] = hash
+     setTunesHash({
+       ids: nextIds,
+       hashes: nextHashes,
+       importhashes: prev.importhashes && typeof prev.importhashes === 'object' ? prev.importhashes : {},
+     })
   }
   
   // display single view as music notation OR chords and lyrics
@@ -216,31 +226,18 @@ export default function useAppData() {
       setImportResultsReal(res)
   }
   
-  // when a playlist is created, the tunebook automatically navigates to the
-  // next tune when playback finishes
-  const [mediaPlaylist, setMediaPlaylistReal] = useState(null)
-  const [abcPlaylist, setAbcPlaylist] = useState(null)
-  
-  // ensure playlist has media links or set null
-  function setMediaPlaylist(playlist) {
-      if (playlist && playlist.hasOwnProperty('tunes') && playlist.tunes.length > 0) {
-          var foundMedia = false
-          playlist.tunes.forEach(function(t) {
-            if (Array.isArray(t.links)  && t.links.length > 0) {
-                foundMedia = true
-            }
-          })
-          if (foundMedia) {
-            setMediaPlaylistReal(playlist)
-          } else {
-            setMediaPlaylistReal(null)
-          }
-      } else {
-          setMediaPlaylistReal(null)
-      }
-  }
+  // unified now-playing queue (persisted in localStorage)
+  const [nowPlayingQueue, setNowPlayingQueueInner] = useState(function() {
+    return loadActiveQueue()
+  })
+  const setNowPlayingQueue = useCallback(function(queue) {
+    persistActiveQueue(queue)
+    setNowPlayingQueueInner(queue)
+  }, [])
+  const [setPlaylist, setSetPlaylist] = useState(null)
+  const [queuePlayConfirm, setQueuePlayConfirm] = useState(null)
   
   
- return {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, mediaPlaylist, setMediaPlaylist, scrollOffset, setScrollOffset, abcPlaylist, setAbcPlaylist, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} 
+ return {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} 
   
 }

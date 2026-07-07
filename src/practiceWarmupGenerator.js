@@ -90,9 +90,11 @@ function buildWarmupAbc(title, key, noteBody, options) {
 }
 
 function makeWarmup(id, title, key, noteBody, options) {
+  const opts = options || {}
   return {
     id: id,
     title: title,
+    meter: opts.meter || DEFAULT_METER,
     abc: buildWarmupAbc(title, key, noteBody, options),
   }
 }

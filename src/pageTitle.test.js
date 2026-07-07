@@ -3,6 +3,7 @@ import {
   buildSearchPageTitle,
   buildSingleTuneTitle,
   getActiveBookFilter,
+  getFirstGenreFilter,
   getFirstTagFilter,
 } from './pageTitle'
 
@@ -12,10 +13,12 @@ describe('pageTitle', function() {
     expect(buildSingleTuneTitle('  ')).toBe(DEFAULT_APP_TITLE)
   })
 
-  test('buildSearchPageTitle prefers book over tag', function() {
-    expect(buildSearchPageTitle('Session Tunes', ['fiddle'])).toBe('Tunebook Search – Session Tunes')
-    expect(buildSearchPageTitle('', ['fiddle'])).toBe('Tunebook Search – fiddle')
+  test('buildSearchPageTitle prefers book over tag over genre over artist', function() {
+    expect(buildSearchPageTitle('Session Tunes', ['fiddle'], ['Jazz'], ['Trad'])).toBe('Tunebook Search – Session Tunes')
+    expect(buildSearchPageTitle('', ['fiddle'], ['Jazz'], ['Trad'])).toBe('Tunebook Search – fiddle')
     expect(buildSearchPageTitle(0, ['fiddle', 'jig'])).toBe('Tunebook Search – fiddle')
+    expect(buildSearchPageTitle('', '', ['Jazz'], ['Trad'])).toBe('Tunebook Search – Jazz')
+    expect(buildSearchPageTitle('', '', '', ['Trad'])).toBe('Tunebook Search – Trad')
     expect(buildSearchPageTitle('', '')).toBe('Tunebook Search')
   })
 
@@ -24,5 +27,7 @@ describe('pageTitle', function() {
     expect(getActiveBookFilter('  ')).toBeNull()
     expect(getFirstTagFilter('')).toBeNull()
     expect(getFirstTagFilter([])).toBeNull()
+    expect(getFirstGenreFilter('')).toBeNull()
+    expect(getFirstGenreFilter([])).toBeNull()
   })
 })

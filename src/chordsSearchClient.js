@@ -1,5 +1,7 @@
-import { fetchViaMediaProxy } from './mediaProxyClient'
-import { sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
+import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
+import { getMediaResolverHealthState } from './mediaResolverHealthStore'
+import { buildChordSheetAlignmentFromLines, sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
+import { searchChordsLight } from './chordsSearchLight'
 
 const CHORDS_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 
@@ -17,12 +19,14 @@ function normalizeSingleChordsResult(body) {
   }
 
   const lyricLines = sheetLinesToLyricLines(sheetLines)
+  const chordSheetAlignment = buildChordSheetAlignmentFromLines(sheetLines)
 
   return {
     sheetLines: sheetLines,
     chordText: chordText,
     lyricLines: lyricLines,
     lyricText: lyricLines.join('\n'),
+    chordSheetAlignment: chordSheetAlignment,
     source: typeof body.source === 'string' ? body.source : '',
     sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
     title: typeof body.title === 'string' ? body.title : '',
@@ -139,7 +143,7 @@ async function parseSearchResponse(response, onProgress) {
   return parseChordsSearchResponse(response)
 }
 
-export async function searchChords(options) {
+export async function searchChordsViaResolver(options) {
   const {
     title,
     artist,
@@ -172,4 +176,35 @@ export async function searchChords(options) {
   })
 
   return parseSearchResponse(response, onProgress)
+}
+
+function shouldUseResolver(options) {
+  if (options && options.forceLightweight) return false
+  if (options && options.forceResolver) return true
+  if (options && options.resolverAvailable === false) return false
+  if (options && options.resolverAvailable === true) return true
+  if (!isMediaProxyConfigured()) return false
+  const health = getMediaResolverHealthState()
+  if (health && health.checked) return !!health.available
+  return true
+}
+
+export async function searchChords(options) {
+  const opts = options || {}
+
+  if (opts.url) {
+    return searchChordsViaResolver(opts)
+  }
+
+  const useResolver = shouldUseResolver(opts)
+
+  if (useResolver) {
+    try {
+      return await searchChordsViaResolver(opts)
+    } catch (err) {
+      if (!isMediaResolverInfrastructureError(err)) throw err
+    }
+  }
+
+  return searchChordsLight(opts)
 }

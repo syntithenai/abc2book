@@ -1,4 +1,4 @@
-import { splitIntoBlocks, isSectionHeader } from './chordSheetUtils';
+import { splitIntoBlocks, coalesceSectionHeaderBlocks, normalizeLyricBlocks, isSectionHeader } from './chordSheetUtils';
 
 /**
  * Join ABC note lines for bar/block parsing. Visual line breaks are layout
@@ -60,7 +60,7 @@ export function buildNotationLineBarMap(noteLines) {
 }
 
 export function splitLyricBlocks(lyricLines) {
-  return splitIntoBlocks(lyricLines).map(function(lines) {
+  return normalizeLyricBlocks(lyricLines).map(function(lines) {
     let header = null;
     let body = lines;
     if (lines.length > 0 && isSectionHeader(lines[0])) {
@@ -94,6 +94,20 @@ export function assignLyricLinesToBars(singableLines, barCount, barsPerLyricLine
       endBar: Math.max(startBar, endBar),
     };
   });
+}
+
+/**
+ * Map a lyric word index onto a note-slot index within the target line.
+ * The result is clamped into the available note range.
+ */
+export function wordIndexToNoteIndex(wordIndex, wordCount, noteCount) {
+  const words = Math.max(0, parseInt(wordCount, 10) || 0);
+  const notes = Math.max(0, parseInt(noteCount, 10) || 0);
+  if (words === 0 || notes === 0) return 0;
+
+  const index = Math.max(0, parseInt(wordIndex, 10) || 0);
+  const ratio = notes / words;
+  return Math.max(0, Math.min(notes - 1, Math.round(index * ratio)));
 }
 
 const BARS_PER_LINE_CANDIDATES = [0.25, 0.5, 1, 2, 4, 8];

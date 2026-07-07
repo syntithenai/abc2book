@@ -1,3 +1,36 @@
+FROM python:3.11-slim AS vision-env
+
+WORKDIR /build
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    python3-dev \
+    libgomp1 \
+    libgl1 \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements-vision.txt /build/requirements-vision.txt
+COPY prefetch_vision.py /build/prefetch_vision.py
+COPY sheet_image_ocr.py /build/sheet_image_ocr.py
+
+ARG VISION_PREFETCH_DEVICE=cpu
+
+ENV VISION_VENV=/opt/vision-venv
+ENV VISION_CACHE_ROOT=/opt/vision-cache
+ENV PADDLE_PDX_CACHE_HOME=/opt/vision-cache
+ENV FLAGS_enable_pir_api=0
+ENV PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
+RUN python -m venv "${VISION_VENV}" \
+    && "${VISION_VENV}/bin/pip" install --no-cache-dir --upgrade pip \
+    && "${VISION_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-vision.txt \
+    && mkdir -p "${VISION_CACHE_ROOT}" \
+    && VISION_PREFETCH_DEVICE=${VISION_PREFETCH_DEVICE:-cpu} \
+        PADDLE_PDX_CACHE_HOME="${PADDLE_PDX_CACHE_HOME}" \
+        PYTHONPATH=/build \
+        "${VISION_VENV}/bin/python" /build/prefetch_vision.py
+
+
 FROM python:3.11-slim AS autochord-env
 
 WORKDIR /build
@@ -57,6 +90,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates \
     curl \
     unzip \
+    libgomp1 \
+    libgl1 \
+    libglib2.0-0 \
     && curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh \
     && rm -rf /var/lib/apt/lists/*
 
@@ -72,6 +108,13 @@ COPY --from=autochord-env /root/.autochord /root/.autochord
 # Demucs htdemucs weights are prefetched into the torch hub cache; copy it so
 # stem separation works offline at runtime (otherwise it re-downloads).
 COPY --from=autochord-env /root/.cache/torch /root/.cache/torch
+ENV VISION_VENV=/opt/vision-venv
+ENV VISION_CACHE_ROOT=/opt/vision-cache
+ENV PADDLE_PDX_CACHE_HOME=/opt/vision-cache
+ENV FLAGS_enable_pir_api=0
+ENV PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
+COPY --from=vision-env /opt/vision-venv /opt/vision-venv
+COPY --from=vision-env /opt/vision-cache /opt/vision-cache
 
 # The chord venv was built with Python 3.11; copy that interpreter into the runtime image.
 COPY --from=autochord-env /usr/local/bin/python3.11 /usr/local/bin/python3.11
@@ -83,9 +126,12 @@ RUN mkdir -p /opt/autochord-libs \
     && ln -sf libpython3.11.so.1.0 /usr/local/lib/libpython3.11.so \
     && ln -sf libpython3.11.so.1.0 /usr/local/lib/libpython3.so \
     && ln -sf /usr/local/bin/python3.11 /opt/autochord-venv/bin/python \
-    && ln -sf /usr/local/bin/python3.11 /opt/autochord-venv/bin/python3
+    && ln -sf /usr/local/bin/python3.11 /opt/autochord-venv/bin/python3 \
+    && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python \
+    && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python3
 
 COPY server.py /app/server.py
+COPY subprocess_utils.py /app/subprocess_utils.py
 COPY recording_artists.py /app/recording_artists.py
 COPY background_markdown_links.py /app/background_markdown_links.py
 COPY chords_fetch.py /app/chords_fetch.py
@@ -103,6 +149,16 @@ COPY audio_analysis_filters.py /app/audio_analysis_filters.py
 COPY stem_separation.py /app/stem_separation.py
 COPY separate_stems.py /app/separate_stems.py
 COPY eval_transcription.py /app/eval_transcription.py
+COPY prefetch_vision.py /app/prefetch_vision.py
+COPY chord_sheet_utils.py /app/chord_sheet_utils.py
+COPY sheet_image_staff_detect.py /app/sheet_image_staff_detect.py
+COPY sheet_image_ocr.py /app/sheet_image_ocr.py
+COPY sheet_image_omr.py /app/sheet_image_omr.py
+COPY sheet_image_melody.py /app/sheet_image_melody.py
+COPY sheet_image_vlm.py /app/sheet_image_vlm.py
+COPY sheet_image_transcribe.py /app/sheet_image_transcribe.py
+COPY sheet_image_features.py /app/sheet_image_features.py
+COPY image_search.py /app/image_search.py
 
 EXPOSE 8787
 

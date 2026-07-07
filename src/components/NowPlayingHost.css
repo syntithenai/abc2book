@@ -1,0 +1,12 @@
+.now-playing-host {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  clip-path: inset(100%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}

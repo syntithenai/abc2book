@@ -35,24 +35,96 @@
 
 .media-import-analyze-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 0.75em;
   flex-wrap: wrap;
   margin-bottom: 0.5em;
 }
 
-.media-import-analyze-header-title {
-  font-weight: 500;
+.media-import-analyze-btn-group {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.media-import-analyze-btn-group > .form-select,
+.media-import-analyze-btn-group > .btn,
+.media-import-analyze-meter-segment {
+  border-radius: 0;
+  margin-left: -1px;
+  flex: 0 0 auto;
+}
+
+.media-import-analyze-btn-group > :first-child {
+  margin-left: 0;
+  border-top-left-radius: var(--bs-border-radius);
+  border-bottom-left-radius: var(--bs-border-radius);
+}
+
+.media-import-analyze-btn-group > :last-child {
+  border-top-right-radius: var(--bs-border-radius);
+  border-bottom-right-radius: var(--bs-border-radius);
+}
+
+.media-import-analyze-music-type-select {
+  width: auto;
+  min-width: 6.5em;
+  max-width: 9em;
+  flex: 0 0 auto;
+  padding-top: var(--bs-btn-padding-y);
+  padding-bottom: var(--bs-btn-padding-y);
+  font-size: var(--bs-btn-font-size);
+  line-height: var(--bs-btn-line-height);
+}
+
+.media-import-analyze-meter-segment {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--bs-btn-padding-y) 0.65rem;
+  font-size: var(--bs-btn-font-size);
+  line-height: var(--bs-btn-line-height);
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  white-space: nowrap;
+}
+
+.media-import-analyze-meter-segment .form-check {
+  margin-bottom: 0;
+  min-height: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.media-import-analyze-meter-segment .form-check-input {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.media-import-analyze-meter-segment .form-check-label {
+  line-height: 1.5;
+  padding-top: 0;
+}
+
+.media-import-analyze-btn-group > .btn {
+  white-space: nowrap;
+}
+
+.media-import-analyze-help-btn {
+  flex: 0 0 auto;
+  line-height: 1;
+}
+
+.media-import-analyze-alert {
+  margin-top: 0.75em;
   margin-bottom: 0;
 }
 
-.media-import-analyze-actions {
-  display: flex;
-  gap: 0.5em;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 0.5em;
+.media-import-analyze-source-list {
+  margin-top: 0.75em;
 }
 
 .media-import-analyze-progress {
@@ -131,24 +203,83 @@
   flex-direction: column;
 }
 
-.media-import-lyrics-inner-tabs {
+.media-import-lyrics-inner-tabs,
+.media-import-chords-inner-tabs,
+.media-import-notation-inner-tabs {
   flex: 1;
   display: flex;
   flex-direction: column;
   min-height: 0;
 }
 
-.media-import-lyrics-inner-tabs > .nav-tabs {
+.media-import-lyrics-inner-tabs > .nav-tabs,
+.media-import-chords-inner-tabs > .nav-tabs,
+.media-import-notation-inner-tabs > .nav-tabs {
   flex: 0 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+.media-import-chords-inner-tabs > .tab-content,
+.media-import-notation-inner-tabs > .tab-content,
 .media-import-lyrics-inner-tabs > .tab-content {
   flex: 1;
   min-height: 0;
   overflow: auto;
-  display: flex;
-  flex-direction: column;
   padding-top: 0.75em;
+}
+
+.media-import-step-actions,
+.media-import-merge-tab-toolbar {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 0.75em;
+}
+
+.media-import-step-actions-hint {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.media-import-chords-step,
+.media-import-chords-preview {
+  min-height: 16em;
+}
+
+.media-import-pending-section {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1em;
+  margin-top: 0.5em;
+}
+
+.media-import-pending-card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  padding: 0.75em;
+  margin-bottom: 0.75em;
+  background: #fafafa;
+}
+
+.media-import-pending-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75em;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+}
+
+.media-import-pending-preview {
+  white-space: pre-wrap;
+  font-size: 0.9em;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 0.35em;
+  padding: 0.6em;
+  margin: 0 0 0.6em;
+  max-height: 10em;
+  overflow: auto;
 }
 
 .media-import-lyrics-inner-tabs > .tab-content > .tab-pane.active.show {

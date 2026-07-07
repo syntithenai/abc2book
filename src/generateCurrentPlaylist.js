@@ -1,4 +1,5 @@
 import { getRecentTunes } from './recentTunes'
+import { createQueue, tuneIdsFromTunes, sortTunesForQueue } from './nowPlayingQueue'
 
 export const CURRENT_PLAYLIST_TAG = 'Current Playlist'
 const PLAYLIST_SIZE = 20
@@ -41,50 +42,26 @@ function tuneMatchesRecent(tune, recentBooks, recentTags) {
   return false
 }
 
-function reindexTunes(tunebook, tunes, tuneIds) {
-  tuneIds.forEach(function(id) {
-    if (tunes[id]) tunebook.indexes.indexTune(tunes[id])
-  })
-}
-
-function tuneIdsWithTag(tunes, tag) {
-  return Object.values(tunes || {})
-    .filter(function(tune) {
-      return tune && tune.id && Array.isArray(tune.tags) && tune.tags.indexOf(tag) !== -1
-    })
-    .map(function(tune) { return tune.id })
-}
-
-export function generateCurrentPlaylist(tunebook, tunes, callbacks) {
-  const { setTagFilter, setCurrentTuneBook, setFilter, forceRefresh } = callbacks
-
-  const clearedIds = tuneIdsWithTag(tunes, CURRENT_PLAYLIST_TAG)
-  if (clearedIds.length > 0) {
-    tunebook.removeTunesFromTag(clearedIds, CURRENT_PLAYLIST_TAG)
-    reindexTunes(tunebook, tunes, clearedIds)
-  }
-
-  tunebook.indexes.addTagToIndex(CURRENT_PLAYLIST_TAG)
-
+export function buildRecentPlaylistTuneIds(tunes, tunebook, limit) {
   const recentTunes = getRecentTunes(tunes)
   const { books: recentBooks, tags: recentTags } = collectRecentBooksAndTags(recentTunes)
-
   const candidates = Object.values(tunes || {}).filter(function(tune) {
     return tuneMatchesRecent(tune, recentBooks, recentTags)
   })
+  const selected = shuffleArray(candidates)
+  const hasNotesOrChords = tunebook && tunebook.hasNotesOrChords
+    ? tunebook.hasNotesOrChords.bind(tunebook)
+    : function() { return true }
+  const hasLinks = tunebook && tunebook.hasLinks
+    ? tunebook.hasLinks.bind(tunebook)
+    : function() { return false }
+  const sorted = sortTunesForQueue(selected, hasNotesOrChords, hasLinks)
+  return tuneIdsFromTunes(sorted, typeof limit === 'number' ? limit : PLAYLIST_SIZE)
+}
 
-  const selected = shuffleArray(candidates).slice(0, PLAYLIST_SIZE)
-  const selectedIds = selected.map(function(tune) { return tune.id })
-
-  if (selectedIds.length > 0) {
-    tunebook.addTunesToTag(selectedIds, CURRENT_PLAYLIST_TAG)
-    reindexTunes(tunebook, tunes, selectedIds)
-  }
-
-  setFilter('')
-  setCurrentTuneBook('')
-  setTagFilter([CURRENT_PLAYLIST_TAG])
-  if (typeof forceRefresh === 'function') forceRefresh()
-
-  return { count: selectedIds.length, tag: CURRENT_PLAYLIST_TAG }
+/** @deprecated tag-based playlist — use buildRecentPlaylistTuneIds + tunebook.createQueueFromTuneIds */
+export function generateCurrentPlaylist(tunebook, tunes, callbacks) {
+  const tuneIds = buildRecentPlaylistTuneIds(tunes, tunebook, PLAYLIST_SIZE)
+  if (callbacks && typeof callbacks.forceRefresh === 'function') callbacks.forceRefresh()
+  return { count: tuneIds.length, tag: CURRENT_PLAYLIST_TAG, tuneIds: tuneIds }
 }

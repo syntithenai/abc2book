@@ -22,6 +22,16 @@ module.exports = {
         })
       }
 
+      // jspdf -> canvg ESM imports omit .js on @babel/runtime helpers; webpack 5
+      // treats those as fully specified and fails to resolve them otherwise.
+      webpackConfig.module.rules.push({
+        test: /\.m?js$/,
+        include: /node_modules[\\/](canvg|jspdf|html2canvas|fast-png|iobuffer)/,
+        resolve: {
+          fullySpecified: false,
+        },
+      })
+
       return webpackConfig
     },
   },

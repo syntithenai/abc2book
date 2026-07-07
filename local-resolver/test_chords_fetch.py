@@ -11,6 +11,7 @@ from chords_fetch import (
     extract_azchords_sheet,
     extract_cifraclub_sheet,
     extract_echords_sheet,
+    extract_worshiptogether_sheet,
     finalize_sheet_lines,
     has_usable_chord_lines,
     is_chord_sheet_line,
@@ -60,6 +61,32 @@ Amazing Grace, how sweet the sound
         """
         extracted = extract_azchords_sheet(html_text)
         self.assertIn("Amazing Grace, how sweet the sound", extracted)
+
+    def test_extract_worshiptogether_sheet_reads_chord_pro_lines(self):
+        html_text = """
+        <div class="chord-pro-line">
+          <div class="chord-pro-segment">
+            <div class="chord-pro-note">&nbsp;</div>
+            <div class="chord-pro-lyric">Verse 1</div>
+          </div>
+        </div>
+        <div class="chord-pro-line">
+          <div class="chord-pro-segment">
+            <div class="chord-pro-note">Eb/G&nbsp;</div>
+            <div class="chord-pro-lyric">All my </div>
+          </div>
+        </div>
+        <div class="chord-pro-line">
+          <div class="chord-pro-segment">
+            <div class="chord-pro-note">| Ab / / Db | Ab / / / |</div>
+          </div>
+        </div>
+        """
+        extracted = extract_worshiptogether_sheet(html_text)
+        self.assertIn("[Verse 1]", extracted)
+        self.assertIn("Eb/G", extracted)
+        self.assertIn("All my", extracted)
+        self.assertIn("| Ab / / Db | Ab / / / |", extracted)
 
     def test_finalize_sheet_lines_splits_mixed_lines_and_keeps_headers(self):
         raw_lines = [

@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Alert, Button, ListGroup, Modal } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import useAbcjsParser from '../useAbcjsParser'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
 import { isAbortError } from '../abortUtils'
@@ -19,11 +20,19 @@ import Abc from './Abc'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import TuneImportFieldChooserModal from './TuneImportFieldChooserModal'
+import GenreSuggestionOffer from './GenreSuggestionOffer'
+import {
+  buildGenreSearchContext,
+  inferGenreFromSearchContext,
+  shouldOfferGenreSuggestion,
+} from '../genreInference'
 
 export default function AddTuneWebSearchButton({
   title,
   artist,
   rhythm,
+  currentGenre,
+  onGenreAccept,
   lyrics,
   token,
   tunebook,
@@ -38,6 +47,7 @@ export default function AddTuneWebSearchButton({
 }) {
   const narrow = useIsNarrowViewport()
   const { available: resolverAvailable, checked: resolverChecked, refreshMediaResolverHealth, features } = useMediaResolverHealth()
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [progressMessage, setProgressMessage] = useState('')
@@ -49,12 +59,16 @@ export default function AddTuneWebSearchButton({
   const [showLocalPicker, setShowLocalPicker] = useState(false)
   const [localSettings, setLocalSettings] = useState(null)
   const [auxPicker, setAuxPicker] = useState(null)
+  const [genreSuggestion, setGenreSuggestion] = useState(null)
   const skipSupplementaryOnPickerCloseRef = useRef(false)
   const abortRef = useRef(null)
 
   useEffect(function() {
     if (!busy) return undefined
-    return registerLongRunningJob()
+    return registerLongRunningJob({
+      label: 'Add tune web search',
+      onCancel: cancelJob,
+    })
   }, [busy])
 
   useEffect(function() {
@@ -152,6 +166,18 @@ export default function AddTuneWebSearchButton({
     }
   }
 
+  function maybeSuggestGenre(result, extras) {
+    if (typeof onGenreAccept !== 'function') return
+    const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, Object.assign({
+      title: title,
+      artist: artist,
+      rhythm: rhythm,
+    }, extras || {})))
+    if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
+      setGenreSuggestion(inferred)
+    }
+  }
+
   function beginFieldChooser(abcText, sourceLabel, candidate) {
     skipSupplementaryOnPickerCloseRef.current = true
     const importedTune = candidate
@@ -161,6 +187,12 @@ export default function AddTuneWebSearchButton({
       importedTune: importedTune,
       previewAbc: abcText,
       sourceLabel: sourceLabel || 'Import from search',
+    })
+    maybeSuggestGenre(candidate || {}, {
+      abc: abcText,
+      tuneMeta: candidate && candidate.tuneMeta ? candidate.tuneMeta : null,
+      source: candidate && candidate.source ? candidate.source : '',
+      sourceUrl: candidate && candidate.sourceUrl ? candidate.sourceUrl : '',
     })
   }
 
@@ -202,6 +234,9 @@ export default function AddTuneWebSearchButton({
         artist: searchArtist || '',
         accessToken: token,
         signal: signal,
+        resolverAvailable: resolverAvailable,
+        abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+        renderChords: function(abc) { return abcjsParser.renderChords(abc, true) },
         onProgress: function(message, progress) {
           const scaled = 0.55 + ((typeof progress === 'number' ? progress : 0) * 0.25)
           updateProgress(message || 'Searching for chords...', scaled)
@@ -211,13 +246,10 @@ export default function AddTuneWebSearchButton({
       if (chordResult) {
         chordText = chordResult.chordText || ''
         lyricLines = Array.isArray(chordResult.lyricLines) ? chordResult.lyricLines : []
+        maybeSuggestGenre(chordResult)
       }
     } catch (chordError) {
       if (isAbortError(chordError)) throw chordError
-      if (isMediaResolverInfrastructureError(chordError)) {
-        refreshMediaResolverHealth()
-        return { lyricText: '', chordText: '' }
-      }
       if (isAuthSearchError(chordError)) {
         throw chordError
       }
@@ -228,6 +260,8 @@ export default function AddTuneWebSearchButton({
           artist: searchArtist || '',
           accessToken: token,
           signal: signal,
+          resolverAvailable: resolverAvailable,
+          abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
           onProgress: function(message, progress) {
             const scaled = 0.75 + ((typeof progress === 'number' ? progress : 0) * 0.2)
             updateProgress(message || 'Searching for lyrics...', scaled)
@@ -238,6 +272,7 @@ export default function AddTuneWebSearchButton({
           lyricLines = Array.isArray(lyricResult.lines)
             ? lyricResult.lines
             : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n')
+          maybeSuggestGenre(lyricResult)
         }
       } catch (lyricError) {
         if (isAbortError(lyricError)) throw lyricError
@@ -316,6 +351,7 @@ export default function AddTuneWebSearchButton({
       },
     })
     onBackgroundInfo(result)
+    maybeSuggestGenre(result)
     updateProgress('Search complete', 1)
   }
 
@@ -513,6 +549,15 @@ export default function AddTuneWebSearchButton({
         <Alert variant="danger" style={{ marginTop: '0.5em', maxWidth: '28em' }}>{error}</Alert>
       )}
 
+      <GenreSuggestionOffer
+        suggestion={genreSuggestion}
+        onAccept={function(genre) {
+          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+          setGenreSuggestion(null)
+        }}
+        onDismiss={function() { setGenreSuggestion(null) }}
+      />
+
       <Modal show={showLocalPicker} onHide={function() {
         setShowLocalPicker(false)
         if (!skipSupplementaryOnPickerCloseRef.current) {
@@ -634,6 +679,7 @@ export default function AddTuneWebSearchButton({
         originalTune={currentTune}
         importedTune={pendingImport ? pendingImport.importedTune : null}
         sourceLabel={pendingImport ? pendingImport.sourceLabel : 'Import from search'}
+        onlyDiffering={true}
         onClose={handleImportClose}
         onSave={handleImportSave}
       />

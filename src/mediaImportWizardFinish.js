@@ -21,6 +21,8 @@ export function finishMediaImportWizard(options) {
   if (metadata.key) tune.key = metadata.key;
   if (metadata.tempo) tune.tempo = metadata.tempo;
   if (metadata.noteLength) tune.noteLength = metadata.noteLength;
+  if (metadata.backgroundInfo) tune.backgroundInfo = metadata.backgroundInfo;
+  if (metadata.genre) tune.genre = metadata.genre;
 
   const abcTools = tunebook.abcTools;
   const baseAbc = draft.baseTuneAbc && draft.baseTuneAbc.trim()
@@ -34,6 +36,8 @@ export function finishMediaImportWizard(options) {
   if (metadata.noteLength) baseJson.noteLength = metadata.noteLength;
   if (metadata.name) baseJson.name = metadata.name;
   if (metadata.composer) baseJson.composer = metadata.composer;
+  if (metadata.backgroundInfo) baseJson.backgroundInfo = metadata.backgroundInfo;
+  if (metadata.genre) baseJson.genre = metadata.genre;
 
   finalizeMediaTimedImport({
     tune: tune,

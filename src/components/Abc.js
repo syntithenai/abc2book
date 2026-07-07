@@ -10,7 +10,14 @@ import TransposeModal from './TransposeModal'
 import useAbcSynth from '../useAbcSynth'  
 import { getSoundFontUrl } from '../soundFontConfig'
 import RepeatsEditorModal from './RepeatsEditorModal'
-
+import {
+  NOTATION_FIT_VERTICAL,
+  clearNotationFit,
+  findStaffWidthForVerticalFit,
+  fitSingleViewVertical,
+  measureSingleViewPaper,
+  readNotationSvgDims,
+} from '../gigNotationFit'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
@@ -20,7 +27,26 @@ export default function Abc(props) {
         }
         props.tunebook.navigateToNextSong(null,navigate)
     } }))
-    var {metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, getPlaybackGeneration, isPlaybackGenerationCurrent} = abcSynth
+    var {metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor,  showTempo, setShowTempo,showTranspose, setShowTranspose, clickSeek, setClickSeek, lastPlaybackSpeed, setLastPlaybackSpeed, audioChangedHash, setAudioChangedHash, tapToPlay, setTapToPlay, playCancelled, setPlayCancelled, abcTune, setAbcTune, lastAbc, setLastAbc, lastTempo, setLastTempo, lastBoost, setLastBoost, isPlaying, setIsPlaying, playCount, setPlayCountInner, playCountRef, setPlayCount, incrementPlayCount, lastScrollTo, autoScroll, realProgress, seekTo, setSeekTo, forceSeekTo, setForceSeekTo, ready, setReady, started, setStarted, store, abcTools, inputEl, playTimerRef, setAudioContext, setMidiBuffer, setVisualObj, setPlaybackVisualObj, setTimingCallbacks, setCursor, setForceStop, getForceStop, getWarp, getWarpTempo, saveAudioToCache, getAudioFromCache, startPlaying, stopPlaying, assignStateOnCompletion, resetAudioState, seekPlayer, createPlayer, primeTune, primeAudio, startPrimedTune, tune, setTune, isLastPlaying, setIsLastPlaying, getPlaybackGeneration, isPlaybackGenerationCurrent} = abcSynth
+    const renderedAbcRef = useRef('')
+    const fitMode = props.fitMode === NOTATION_FIT_VERTICAL ? NOTATION_FIT_VERTICAL : null
+    const fitAppliedRef = useRef(false)
+
+    function applyFitToRenderedSvg() {
+      if (!inputEl || !inputEl.current || props.hideSvg) return
+      const renderEl = inputEl.current
+      const svg = renderEl.querySelector('svg')
+      if (!svg) return
+      if (fitMode !== NOTATION_FIT_VERTICAL) {
+        if (fitAppliedRef.current) {
+          clearNotationFit(svg, renderEl)
+          fitAppliedRef.current = false
+        }
+        return
+      }
+      fitSingleViewVertical(svg, renderEl)
+      fitAppliedRef.current = true
+    }
     
         //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
     
@@ -63,11 +89,71 @@ export default function Abc(props) {
         } else {
             return updateOnChange()
         }
-    // updateOnChange calls renderTune (defined below); abc/staffwidth are the intentional triggers
+    // updateOnChange calls renderTune (defined below); abc/staffwidth/fitMode are the intentional triggers
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [props.abc, props.staffwidth, props.mediaController])
-   
-   
+    }, [props.abc, props.playbackAbc, props.staffwidth, fitMode])
+
+    // Re-layout fit-height when the viewport/column size changes (staffwidth search).
+    useEffect(function() {
+      if (!inputEl || !inputEl.current || props.hideSvg) return undefined
+      if (fitMode !== NOTATION_FIT_VERTICAL) {
+        applyFitToRenderedSvg()
+        return undefined
+      }
+      const renderEl = inputEl.current
+      const lastPaperRef = { availW: 0, availH: 0 }
+      let resizeTimer = null
+
+      function paperChanged(paper) {
+        return Math.abs(paper.availW - lastPaperRef.availW) >= 2
+          || Math.abs(paper.availH - lastPaperRef.availH) >= 2
+      }
+
+      function relayoutVertical() {
+        if (!inputEl.current) return
+        const paper = measureSingleViewPaper(inputEl.current)
+        if (!paperChanged(paper)) return
+        lastPaperRef.availW = paper.availW
+        lastPaperRef.availH = paper.availH
+        // Full re-render so staffwidth matches the new viewport aspect ratio.
+        renderTune(props.abc)
+      }
+
+      let raf2 = null
+      // Two frames so toolbar / media spacer layout has settled, then re-search staffwidth.
+      const raf1 = requestAnimationFrame(function() {
+        raf2 = requestAnimationFrame(function() {
+          const paper = measureSingleViewPaper(renderEl)
+          lastPaperRef.availW = paper.availW
+          lastPaperRef.availH = paper.availH
+          renderTune(props.abc)
+        })
+      })
+
+      function scheduleRelayout() {
+        if (resizeTimer) clearTimeout(resizeTimer)
+        resizeTimer = setTimeout(relayoutVertical, 80)
+      }
+
+      window.addEventListener('resize', scheduleRelayout)
+      let observer = null
+      if (typeof ResizeObserver !== 'undefined') {
+        observer = new ResizeObserver(scheduleRelayout)
+        const section = typeof renderEl.closest === 'function'
+          ? renderEl.closest('.music-notation-section, .music-view-notation, .music-view-main')
+          : null
+        if (section) observer.observe(section)
+      }
+      return function() {
+        cancelAnimationFrame(raf1)
+        if (raf2) cancelAnimationFrame(raf2)
+        if (resizeTimer) clearTimeout(resizeTimer)
+        window.removeEventListener('resize', scheduleRelayout)
+        if (observer) observer.disconnect()
+      }
+    // renderTune/applyFitToRenderedSvg close over fitMode; intentional deps only
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [fitMode, props.hideSvg, props.abc, props.staffwidth, props.dragging, props.selectTypes])
 
     // autostart
     //useEffect(() => {
@@ -90,16 +176,43 @@ export default function Abc(props) {
 
   
   function renderTune(abcTune) {
-    if (inputEl) { // && !renderActive) {
+    if (!inputEl || !inputEl.current) {
+      return
+    }
+    // && !renderActive) {
       //console.log('RENDER TUNE aa')
       try {
+        var clickListener = abcSynth.clickListener
+        if (props.onClick && props.suppressPlaybackSeek) {
+          clickListener = function(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
+            props.onClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbcRef.current)
+          }
+        }
         var renderOptions = {
           add_classes: true,
-          responsive: "resize",
           generateDownload: true,
           synth: {el: "#audio"},
-          clickListener:abcSynth.clickListener,
-          selectTypes: ['note','tempo','clef','keySignature']
+          clickListener: clickListener,
+        }
+        if (props.selectTypes === false) {
+          renderOptions.selectTypes = false
+        } else if (props.selectTypes === 'clickable') {
+          // abcjs default (undefined): notes/rests fire clickListener but are not selectable/draggable
+        } else if (Array.isArray(props.selectTypes)) {
+          renderOptions.selectTypes = props.selectTypes
+        } else {
+          renderOptions.selectTypes = ['note','tempo','clef','keySignature']
+        }
+        if (props.dragging) {
+          renderOptions.dragging = true
+          renderOptions.selectionColor = props.selectionColor || '#0d6efd'
+          renderOptions.dragColor = props.dragColor || '#0d6efd'
+        }
+        if (fitMode !== NOTATION_FIT_VERTICAL) {
+          renderOptions.responsive = "resize"
+          if (props.staffwidth && props.staffwidth > 0) {
+            renderOptions.staffwidth = props.staffwidth
+          }
         }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
         if (tune && (tune.transpose > 0 || tune.transpose < 0)) {
@@ -108,18 +221,70 @@ export default function Abc(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        if (props.staffwidth && props.staffwidth > 0) {
-          renderOptions.staffwidth = props.staffwidth
-        }
         if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
           renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
         } 
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
-        var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
+        var abcForRender = props.tunebook.abcTools.json2abc(tune)
+        renderedAbcRef.current = abcForRender
+        var res = null
+        fitAppliedRef.current = false
+        if (fitMode === NOTATION_FIT_VERTICAL && !props.hideSvg) {
+          // Keep source line breaks (multi-line layout). Render at page width, then
+          // scale to fill height when that still fits width; otherwise contain.
+          var renderEl = inputEl.current
+          var paper = measureSingleViewPaper(renderEl)
+          var pageStaffWidth = (props.staffwidth && props.staffwidth > 0)
+            ? props.staffwidth
+            : Math.max(200, paper.availW - 16)
+
+          function renderAtStaffWidth(staffWidth) {
+            renderEl.innerHTML = ''
+            var attempt = abcjs.renderAbc(renderEl, abcForRender, Object.assign({}, renderOptions, {
+              staffwidth: staffWidth,
+            }))
+            var svg = renderEl.querySelector('svg')
+            if (!svg) return null
+            var dims = readNotationSvgDims(svg)
+            if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null
+            return { svg: svg, dims: dims, visual: attempt && attempt.length > 0 ? attempt[0] : null }
+          }
+
+          // Only narrow below page width when height-scaling would overflow horizontally.
+          // Never widen past the page — that produced a single long system.
+          var staffFit = findStaffWidthForVerticalFit(function(staffWidth) {
+            return renderAtStaffWidth(staffWidth)
+          }, paper.availW, paper.availH, pageStaffWidth)
+          var useStaffWidth = Math.min(pageStaffWidth, staffFit.staffWidth)
+          var rendered = renderAtStaffWidth(useStaffWidth)
+          if (rendered) {
+            fitSingleViewVertical(rendered.svg, renderEl)
+            fitAppliedRef.current = true
+            res = rendered.visual ? [rendered.visual] : null
+          }
+        } else {
+          res = abcjs.renderAbc(inputEl.current, abcForRender, renderOptions)
+          if (!props.hideSvg) {
+            clearNotationFit(inputEl.current.querySelector('svg'), inputEl.current)
+          }
+        }
             
         var o = res && res.length > 0 ? res[0] : null
         setVisualObj(o)
+        if (props.playbackAbc) {
+          try {
+            var playbackHolder = document.createElement('div')
+            var playbackRes = abcjs.renderAbc(playbackHolder, props.playbackAbc, renderOptions)
+            var playbackObj = playbackRes && playbackRes.length > 0 ? playbackRes[0] : null
+            setPlaybackVisualObj(playbackObj)
+          } catch (playbackErr) {
+            console.log('PLAYBACK RENDER EXC', playbackErr)
+            setPlaybackVisualObj(null)
+          }
+        } else {
+          setPlaybackVisualObj(null)
+        }
                
         //console.log('RENDERED TUNE ',o, tune) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())
         if (o) {
@@ -128,10 +293,15 @@ export default function Abc(props) {
             const onMidiRoute = !props.mediaController
                 || (props.mediaController.isMidiPlaybackRoute && props.mediaController.isMidiPlaybackRoute())
             const practiceAutoPlay = !props.mediaController && (props.autoStart || props.practiceAutoPlay)
-            const wantsBackgroundPrime = props.autoStart
+            // playbackEngine={false} marks a display-only notation view; the
+            // App-level NowPlayingHost owns the midi engine in that case.
+            const isPlaybackEngine = props.playbackEngine !== false
+            const wantsBackgroundPrime = isPlaybackEngine && (
+                props.autoStart
                 || practiceAutoPlay
                 || (props.mediaController && props.mediaController.hasPlayingIntent
                     && props.mediaController.hasPlayingIntent())
+            )
             if (props.autoPrime && onMidiRoute && wantsBackgroundPrime) {
                 var primeHash = (tuneObj.transpose || 0) + '-' + (props.meter || tuneObj.meter || '4/4') + '-' + (tuneObj.tempo || 100) + '-' + abcTools.getTuneHash(tuneObj)
                 if (primeHash !== audioChangedHash) {
@@ -172,9 +342,8 @@ export default function Abc(props) {
       } catch (e) {
         console.log('RENDER EXC',e)
       }
-   }
   }
- 
+
   function renderTapToPlayModal() {
     if (props.mediaController && props.mediaController.isMidiPlaybackRoute
         && !props.mediaController.isMidiPlaybackRoute()) {
@@ -242,7 +411,21 @@ export default function Abc(props) {
                     <RepeatsEditorModal tunebook={props.tunebook} value={tune.repeats} onChange={function(value) {tune.repeats = value; props.tunebook.saveTune(tune)}} playCount={playCount} />
                 </span> : null}
                 {props.link && tune && tune.id ? <Link style={{color: 'black', textDecoration:'none'}}  to={"/tunes/"+tune.id} ><div id="abc_music_viewer" ref={inputEl} ></div></Link> : null}
-                {(!props.link && !props.hideSvg) && <div id="abc_music_viewer" ref={inputEl} ></div>}
+                {!props.link ? (
+                  <div
+                    id={props.hideSvg ? undefined : 'abc_music_viewer'}
+                    ref={inputEl}
+                    aria-hidden={props.hideSvg ? true : undefined}
+                    style={props.hideSvg ? {
+                      position: 'absolute',
+                      width: 0,
+                      height: 0,
+                      overflow: 'hidden',
+                      opacity: 0,
+                      pointerEvents: 'none',
+                    } : undefined}
+                  />
+                ) : null}
               </span>
             )}
         </ReactNoSleep>

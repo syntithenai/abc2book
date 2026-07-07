@@ -1,0 +1,75 @@
+.chord-record-controls {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: var(--bs-body-bg, #fff);
+}
+
+.chord-record-setup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: flex-end;
+}
+
+.chord-record-setup .chord-record-palette {
+  flex: 1 1 16rem;
+  min-width: 12rem;
+}
+
+.chord-record-setup .chord-record-tempo {
+  width: 6rem;
+}
+
+.chord-record-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.chord-record-session {
+  margin-top: 0.75rem;
+}
+
+.chord-record-status {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.chord-record-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.25rem 0 0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chord-record-chord-btn {
+  min-width: 3.25rem;
+  min-height: 3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  flex: 0 0 auto;
+}
+
+.chord-record-chord-btn.btn-outline-primary:active,
+.chord-record-chord-btn.btn-outline-primary:focus {
+  background-color: var(--bs-primary, #0d6efd);
+  color: #fff;
+}
+
+.chord-record-live {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.chord-record-live strong {
+  font-weight: 600;
+}

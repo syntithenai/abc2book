@@ -1,0 +1,680 @@
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Modal, Button, ButtonGroup } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import abcjs from 'abcjs';
+import TimedLyricsChordsView from './TimedLyricsChordsView';
+import LyricsAutoscrollModal from './LyricsAutoscrollModal';
+import ViewModeSelectorModal from './ViewModeSelectorModal';
+import usePerformanceKeyBindings from '../usePerformanceKeyBindings';
+import { GIG_PERFORMANCE_BINDINGS } from '../performanceKeyBindings';
+import useAbcjsParser from '../useAbcjsParser';
+import {
+  getGigFontScale,
+  clampGigZoom,
+  getTuneGigZoom,
+  getGigNightMode,
+  toggleGigNightMode,
+} from '../gigDisplaySettings';
+import {
+  buildGigNotationRenderOptions,
+  findStaffWidthForHorizontalFit,
+  fitNotationSvg,
+  getRenderDimensions,
+  measureNotationPaper,
+  refitNotationSvg,
+} from '../gigNotationFit';
+import {
+  normalizeViewMode,
+  viewModeToDisplayFlags,
+  resolveDisplayFlagsForTune,
+} from '../viewModeUtils';
+import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
+import {
+  buildAbcWithNoteSpacing,
+  stripEmbeddedChordsFromAbc,
+  stripLyricLinesFromAbc,
+} from '../noteSpacingUtils';
+import { filterTuneVoices } from '../abcVoiceFilter';
+import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
+import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
+import MarkdownContent from './MarkdownContent';
+import './GigModeModal.css';
+
+function requestWakeLock() {
+  if (typeof navigator === 'undefined' || !navigator.wakeLock) return null;
+  return navigator.wakeLock.request('screen').catch(function() { return null; });
+}
+
+function stripGigNotationHeaders(abcText) {
+  if (!abcText) return '';
+  return abcText.split('\n').filter(function(line) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('B:')) return false;
+    if (trimmed.startsWith('T:')) return false;
+    if (trimmed.startsWith('N: AKA:')) return false;
+    if (trimmed.startsWith('% abcbook-tags')) return false;
+    return true;
+  }).join('\n');
+}
+
+export default function GigModeModal(props) {
+  const navigate = useNavigate();
+  const tunebook = props.tunebook;
+  const setPlaylist = props.setPlaylist;
+  const tunes = props.tunes || {};
+  const abcjsParser = useAbcjsParser();
+  const gigBodyRef = useRef(null);
+  const notationColRef = useRef(null);
+  const notationRef = useRef(null);
+  const notationFitSizeRef = useRef({ width: 0, height: 0 });
+  const notationResizeRafRef = useRef(null);
+  const [showSetList, setShowSetList] = useState(false);
+  const [fontScale, setFontScale] = useState(getGigFontScale());
+  const [edgeMessage, setEdgeMessage] = useState('');
+  const [viewMode, setViewMode] = useState('music');
+  const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0);
+  const [gigNightMode, setGigNightModeState] = useState(getGigNightMode);
+  const [chordViewMode, setChordViewMode] = useState('transposed');
+
+  const currentIndex = setPlaylist && typeof setPlaylist.currentIndex === 'number'
+    ? setPlaylist.currentIndex
+    : 0;
+  const playlistTunes = setPlaylist && Array.isArray(setPlaylist.tunes) ? setPlaylist.tunes : [];
+  const playlistTune = playlistTunes[currentIndex] || null;
+  const currentTune = playlistTune && playlistTune.id && tunes[playlistTune.id]
+    ? tunes[playlistTune.id]
+    : playlistTune;
+  const setItem = setPlaylist && Array.isArray(setPlaylist.items)
+    ? setPlaylist.items[currentIndex] || null
+    : null;
+
+  const activeTuneNote = setItem && setItem.note ? String(setItem.note).trim() : '';
+
+  function persistGigTuneSettings(patch) {
+    if (!currentTune || !currentTune.id || !tunebook) return;
+    tunebook.saveTune(
+      Object.assign({}, currentTune, { id: currentTune.id }, patch),
+      false,
+      { skipHistory: true }
+    );
+  }
+
+  useEffect(function() {
+    if (!props.show || !currentTune) return;
+    setFontScale(getTuneGigZoom(currentTune));
+  }, [props.show, currentTune && currentTune.id, currentTune && currentTune.zoom]);
+
+  function focusGigBody() {
+    const bodyEl = gigBodyRef.current;
+    if (bodyEl && typeof bodyEl.focus === 'function') {
+      bodyEl.focus({ preventScroll: true });
+    }
+  }
+
+  useEffect(function() {
+    if (!props.show) return undefined;
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false);
+    setEdgeMessage('');
+    setShowSetList(false);
+    var initialMode = 'chordsInline';
+    if (setItem && setItem.viewMode) {
+      initialMode = normalizeViewMode(setItem.viewMode);
+    } else if (currentTune && currentTune.viewMode) {
+      initialMode = normalizeViewMode(currentTune.viewMode);
+    }
+    setViewMode(initialMode);
+    let wakeLock = null;
+    requestWakeLock().then(function(lock) { wakeLock = lock; });
+    const focusTimer = window.setTimeout(focusGigBody, 0);
+    return function() {
+      window.clearTimeout(focusTimer);
+      if (wakeLock && wakeLock.release) wakeLock.release().catch(function() {});
+    };
+  }, [props.show, currentTune && currentTune.id, setItem && setItem.viewMode]);
+
+  useEffect(function() {
+    if (!props.show || showSetList) return undefined;
+    const focusTimer = window.setTimeout(focusGigBody, 0);
+    return function() {
+      window.clearTimeout(focusTimer);
+    };
+  }, [props.show, showSetList, currentIndex]);
+
+  const tuneTranspose = useMemo(function() {
+    if (!currentTune) return 0;
+    return Number(currentTune.transpose) || 0;
+  }, [currentTune, currentTune && currentTune.transpose]);
+
+  const effectiveCapo = useMemo(function() {
+    if (!currentTune) return 0;
+    const baseCapo = Number(currentTune.capo) || 0;
+    return setItem && setItem.capo != null ? Number(setItem.capo) : baseCapo;
+  }, [currentTune, setItem]);
+
+  const chordTranspose = useMemo(function() {
+    if (!currentTune) return 0;
+    const baseTranspose = Number(currentTune.transpose) || 0;
+    const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
+    const capoOffset = chordViewMode === 'capo' ? effectiveCapo : 0;
+    return baseTranspose + itemTranspose + capoOffset;
+  }, [currentTune, setItem, tuneTranspose, chordViewMode, effectiveCapo]);
+
+  const notationVisualTranspose = chordTranspose;
+
+  const hasNotes = !!(currentTune && tunebook && tunebook.hasNotes && tunebook.hasNotes(currentTune));
+  const hasChords = !!currentTune && tuneHasExplicitChords(currentTune, tunebook, abcjsParser);
+  const displayFlags = useMemo(function() {
+    if (!currentTune) {
+      return viewModeToDisplayFlags(viewMode);
+    }
+    return resolveDisplayFlagsForTune(
+      viewModeToDisplayFlags(viewMode),
+      currentTune,
+      tunebook,
+      { hasChords: hasChords }
+    );
+  }, [viewMode, currentTune, tunebook, hasChords]);
+  const notationMode = displayFlags.notation;
+  const showLyrics = displayFlags.lyrics;
+  const chordsMode = displayFlags.chords;
+  const showInfo = displayFlags.info;
+  const showNotation = notationMode !== 'off' && hasNotes;
+  const isChordBlockView = chordsMode === 'block';
+  const isChordInlineView = chordsMode === 'inline';
+  const isChordLayout = isChordBlockView || isChordInlineView;
+  const hasCapo = effectiveCapo > 0;
+  const showChordsBlockColumn = isChordBlockView && !isChordInlineView;
+  const lyricsInSideColumn = showNotation && showLyrics;
+  const showSideColumn = showChordsBlockColumn || lyricsInSideColumn;
+  const chordsBlockFullPage = showChordsBlockColumn && !showNotation && !showLyrics;
+  const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showSideColumn;
+  const hideChordsInText = chordsMode !== 'inline';
+  const visibleVoiceKeys = useMemo(function() {
+    if (!currentTune) return [];
+    return getVisibleVoiceKeys(currentTune.id, getTuneVoiceKeys(currentTune));
+  }, [currentTune, voiceSettingsVersion]);
+
+  function handleViewModeChange(mode) {
+    const nextMode = normalizeViewMode(mode);
+    setViewMode(nextMode);
+    if (currentTune && currentTune.id) {
+      persistGigTuneSettings({ viewMode: nextMode });
+    }
+  }
+
+  const refitNotationLayout = useCallback(function() {
+    const colEl = notationColRef.current;
+    const renderEl = notationRef.current;
+    if (!colEl || !renderEl || !renderEl.querySelector('svg')) return;
+    const paperEl = colEl.querySelector('.gig-mode-notation-paper') || colEl;
+    const paper = measureNotationPaper(paperEl, renderEl);
+    const last = notationFitSizeRef.current;
+    if (last.width === paper.availW && last.height === paper.availH) return;
+    notationFitSizeRef.current = { width: paper.availW, height: paper.availH };
+    refitNotationSvg(renderEl.querySelector('svg'), renderEl, paperEl);
+  }, []);
+
+  const renderNotation = useCallback(function() {
+    if (!props.show || !showNotation || !notationRef.current || !currentTune || !tunebook) return;
+    const colEl = notationColRef.current;
+    if (!colEl) return;
+
+    function runRender(attempt) {
+      const paperEl = colEl.querySelector('.gig-mode-notation-paper');
+      const measureEl = paperEl || colEl;
+      const renderEl = notationRef.current;
+      if (!renderEl) return;
+      const paper = measureNotationPaper(measureEl, renderEl);
+      if (paper.availH < 150 && attempt < 8) {
+        requestAnimationFrame(function() { runRender(attempt + 1); });
+        return;
+      }
+
+      const notationTune = filterTuneVoices(currentTune, visibleVoiceKeys);
+      const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false });
+      let staffAbc = stripGigNotationHeaders(displayAbc);
+      staffAbc = stripLyricLinesFromAbc(staffAbc);
+      // Block/off: no staff chords (block column owns them). Inline: keep on staff.
+      if (chordsMode !== 'inline') {
+        staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
+      }
+      const renderOptions = buildGigNotationRenderOptions(notationVisualTranspose);
+
+      function renderAtStaffWidth(staffWidth) {
+        renderEl.innerHTML = '';
+        abcjs.renderAbc(renderEl, staffAbc, Object.assign({}, renderOptions, {
+          staffwidth: staffWidth,
+        }));
+        const svg = renderEl.querySelector('svg');
+        if (!svg) return null;
+        const dims = getRenderDimensions(svg);
+        if (!(dims.width > 0) || !(dims.height > 0)) return null;
+        return { svg: svg, dims: dims };
+      }
+
+      function finishRender() {
+        try {
+          const livePaper = measureNotationPaper(paperEl, renderEl);
+          const fit = findStaffWidthForHorizontalFit(function(staffWidth) {
+            return renderAtStaffWidth(staffWidth);
+          }, paper.availW, paper.availH, paper.availW);
+          const rendered = renderAtStaffWidth(fit.staffWidth);
+          if (!rendered || !rendered.svg) return;
+
+          fitNotationSvg(rendered.svg, renderEl, paperEl);
+          notationFitSizeRef.current = {
+            width: livePaper.availW,
+            height: livePaper.availH,
+          };
+        } catch (e) {
+          console.log('gig notation render', e);
+        }
+      }
+
+      const fontsReady = typeof document !== 'undefined' && document.fonts && document.fonts.ready;
+      if (fontsReady && typeof fontsReady.then === 'function') {
+        fontsReady.then(function() {
+          requestAnimationFrame(finishRender);
+        });
+      } else {
+        requestAnimationFrame(finishRender);
+      }
+    }
+
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() { runRender(0); });
+    });
+  }, [props.show, currentTune, showNotation, chordsMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion]);
+
+  useEffect(function() {
+    renderNotation();
+  }, [renderNotation]);
+
+  useEffect(function() {
+    if (!props.show || !showNotation || !notationColRef.current) return undefined;
+    const colEl = notationColRef.current;
+    const observer = new ResizeObserver(function() {
+      if (notationResizeRafRef.current) {
+        cancelAnimationFrame(notationResizeRafRef.current);
+      }
+      notationResizeRafRef.current = requestAnimationFrame(function() {
+        notationResizeRafRef.current = null;
+        refitNotationLayout();
+      });
+    });
+    observer.observe(colEl);
+    return function() {
+      observer.disconnect();
+      if (notationResizeRafRef.current) {
+        cancelAnimationFrame(notationResizeRafRef.current);
+        notationResizeRafRef.current = null;
+      }
+    };
+  }, [props.show, showNotation, refitNotationLayout, currentTune && currentTune.id]);
+
+  function goToIndex(nextIndex) {
+    if (!setPlaylist || !props.setSetPlaylist) return;
+    if (nextIndex < 0 || nextIndex >= playlistTunes.length) return;
+    const next = Object.assign({}, setPlaylist, { currentIndex: nextIndex });
+    props.setSetPlaylist(next);
+    setEdgeMessage('');
+    if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false);
+    const tuneId = getPlaylistTuneIdAtIndex(next, nextIndex);
+    if (setPlaylist.setId && tuneId) {
+      navigate(buildGigRoute(setPlaylist.setId, tuneId), { replace: true });
+    }
+  }
+
+  function handleNext() {
+    if (!setPlaylist) return;
+    if (currentIndex >= playlistTunes.length - 1) {
+      setEdgeMessage('End of set');
+      return;
+    }
+    goToIndex(currentIndex + 1);
+  }
+
+  function handlePrevious() {
+    if (!setPlaylist) return;
+    if (currentIndex <= 0) {
+      setEdgeMessage('Start of set');
+      return;
+    }
+    goToIndex(currentIndex - 1);
+  }
+
+  const onAtSetEnd = useCallback(function() {
+    if (!setPlaylist) return false;
+    if (currentIndex < playlistTunes.length - 1) return false;
+    setEdgeMessage('End of set');
+    return true;
+  }, [setPlaylist, currentIndex, playlistTunes.length]);
+
+  const onAtSetStart = useCallback(function() {
+    if (!setPlaylist) return false;
+    if (currentIndex > 0) return false;
+    setEdgeMessage('Start of set');
+    return true;
+  }, [setPlaylist, currentIndex]);
+
+  usePerformanceKeyBindings({
+    enabled: !!props.show && !showSetList,
+    ignoreGlobalBlock: true,
+    allowButtonTargets: true,
+    useCapture: true,
+    activeModalSelector: '.gig-mode-modal',
+    bindings: GIG_PERFORMANCE_BINDINGS,
+    navigateAtScrollEdge: false,
+    musicSingleSelector: '.gig-mode-body',
+    onNextTune: handleNext,
+    onPreviousTune: handlePrevious,
+    onAtSetEnd: onAtSetEnd,
+    onAtSetStart: onAtSetStart,
+  });
+
+  function handleClose() {
+    if (props.setSetPlaylist) props.setSetPlaylist(null);
+    if (props.onClose) props.onClose();
+  }
+
+  function changeFontScale(delta) {
+    const next = clampGigZoom(fontScale + delta);
+    setFontScale(next);
+    persistGigTuneSettings({ zoom: next });
+  }
+
+  function changeTuneTranspose(delta) {
+    if (!currentTune || !currentTune.id || !tunebook) return;
+    const next = tuneTranspose + delta;
+    tunebook.saveTune(Object.assign({}, currentTune, {
+      id: currentTune.id,
+      transpose: next,
+    }));
+  }
+
+  function handleToggleDarkTheme() {
+    const next = toggleGigNightMode();
+    setGigNightModeState(next);
+  }
+
+  const isDarkTheme = gigNightMode;
+
+  const nextTune = playlistTunes[currentIndex + 1];
+  const setlistTitle = setPlaylist && setPlaylist.name ? setPlaylist.name : '';
+  const progressLabel = playlistTunes.length > 0
+    ? (currentIndex + 1) + ' / ' + playlistTunes.length
+      + (nextTune && nextTune.name ? ' — next: ' + nextTune.name : '')
+    : '0 / 0';
+  const displayZoom = fontScale;
+  const showLyricsContent = !!showLyrics;
+  const lyricsPanel = currentTune && showLyricsContent ? (
+    <div className="music-view-lyrics">
+      <TimedLyricsChordsView
+        tune={currentTune}
+        tunebook={tunebook}
+        chordTranspose={chordTranspose}
+        hideChords={hideChordsInText}
+        suppressLeadingTitle={true}
+        zoom={displayZoom}
+      />
+    </div>
+  ) : null;
+
+  const sideColumn = currentTune && showSideColumn ? (
+    <div className={'music-chords-block-col' + (chordsBlockFullPage ? ' music-chords-block-col--full-page' : '')}>
+      {showChordsBlockColumn ? (
+        <TimedLyricsChordsView
+          tune={currentTune}
+          tunebook={tunebook}
+          chordTranspose={chordTranspose}
+          chordsOnly={true}
+          forceBlockLayout={true}
+          suppressLeadingTitle={true}
+          compact={!chordsBlockFullPage}
+          zoom={chordsBlockFullPage ? Math.max(2.6, displayZoom * 2.4) : displayZoom}
+        />
+      ) : null}
+      {lyricsInSideColumn ? lyricsPanel : null}
+    </div>
+  ) : null;
+
+  const notationPanel = showNotation ? (
+    <div className="music-view-notation gig-mode-notation-col" ref={notationColRef}>
+      <div className="gig-mode-notation-paper music-notation-section">
+        <div className="gig-mode-notation-render" ref={notationRef} />
+      </div>
+    </div>
+  ) : null;
+
+  const mainColumn = (showNotation || (showLyricsContent && !lyricsInSideColumn)) ? (
+    <div className="music-view-main">
+      {showNotation ? notationPanel : null}
+      {showLyricsContent && !lyricsInSideColumn ? lyricsPanel : null}
+    </div>
+  ) : null;
+
+  const backgroundInfoText = currentTune && typeof currentTune.backgroundInfo === 'string'
+    ? currentTune.backgroundInfo.trim()
+    : '';
+  const infoPanel = showInfo && currentTune && (backgroundInfoText || infoOnlyFullPage) ? (
+    <div className={'tune-background-info-view gig-mode-info-panel' + (infoOnlyFullPage ? ' tune-background-info-view--full-page' : '')}>
+      {infoOnlyFullPage ? (
+        <div className="title music-tune-heading">
+          {currentTune.name}
+          {currentTune.composer ? <span className="music-tune-composer"> - {currentTune.composer}</span> : null}
+        </div>
+      ) : null}
+      {backgroundInfoText ? (
+        <MarkdownContent text={backgroundInfoText} />
+      ) : null}
+    </div>
+  ) : null;
+
+  return (
+    <>
+      <Modal
+        show={!!props.show}
+        onHide={handleClose}
+        fullscreen={true}
+        backdrop="static"
+        keyboard={false}
+        enforceFocus={false}
+        className={'gig-mode-modal' + (isDarkTheme ? ' gig-mode-night' : '')}
+        style={{ zIndex: 1250 }}
+      >
+        <Modal.Header className="gig-mode-header">
+          <div className="gig-mode-header-top">
+            <div className="gig-mode-header-title-row">
+              <Modal.Title>
+                {setlistTitle ? 'Setlist ' + setlistTitle : 'Setlist'}
+              </Modal.Title>
+              <span className="gig-mode-progress" aria-live="polite">{progressLabel}</span>
+            </div>
+            <Button size="sm" variant="danger" className="gig-mode-stop-btn" onClick={handleClose}>
+              {tunebook.icons.close}
+              <span>Close</span>
+            </Button>
+          </div>
+          <div className="gig-mode-toolbar">
+            {currentTune && (
+              <LyricsAutoscrollModal
+                tune={currentTune}
+                tunebook={tunebook}
+                mediaController={props.mediaController}
+                mediaLinkNumber={0}
+                musicSingleSelector=".gig-mode-body"
+                barLayout="gig-inline"
+                buttonVariant="outline-secondary"
+                buttonSize="sm"
+              />
+            )}
+            {currentTune && (
+              <ViewModeSelectorModal
+                className="gig-mode-view-mode-selector"
+                viewMode={viewMode}
+                tune={currentTune}
+                tunebook={tunebook}
+                onVoiceSettingsChange={function() {
+                  setVoiceSettingsVersion(function(v) { return v + 1; });
+                }}
+                onChange={handleViewModeChange}
+              />
+            )}
+            <span className="gig-mode-toolbar-label">Transpose</span>
+            <ButtonGroup size="sm">
+              <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1); }} aria-label="Transpose down">−</Button>
+              <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
+              <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
+            </ButtonGroup>
+            {isChordLayout && hasCapo ? (
+              <Button
+                size="sm"
+                variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
+                className="gig-mode-capo-toggle-btn"
+                aria-pressed={chordViewMode === 'capo'}
+                aria-label={'Capo ' + effectiveCapo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
+                title={chordViewMode === 'capo' ? 'Show transposed chords' : 'Show capo fingering'}
+                onClick={function() {
+                  setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo');
+                }}
+              >
+                Capo {effectiveCapo}
+              </Button>
+            ) : null}
+            {showLyricsContent || showSideColumn ? (
+              <ButtonGroup size="sm" className="gig-mode-zoom-group">
+                <Button variant="outline-secondary" onClick={function() { changeFontScale(-0.1); }} aria-label="Smaller text">A−</Button>
+                <Button variant="outline-secondary" onClick={function() { changeFontScale(0.1); }} aria-label="Larger text">A+</Button>
+              </ButtonGroup>
+            ) : null}
+            {currentTune && (
+              <Button
+                size="sm"
+                variant="outline-secondary"
+                className="gig-mode-open-tune-btn"
+                aria-label="Open tune"
+                title="Open tune"
+                onClick={function() {
+                  if (currentTune.id) navigate('/editor/' + encodeURIComponent(currentTune.id));
+                }}
+              >
+                {tunebook.icons.pencil}
+              </Button>
+            )}
+          </div>
+        </Modal.Header>
+        <Modal.Body className="gig-mode-body" ref={gigBodyRef} tabIndex={-1}>
+          <div className="gig-mode-body-inner">
+            {edgeMessage && <div className="gig-mode-end-banner">{edgeMessage}</div>}
+            {currentTune ? (
+              <div className="gig-mode-content">
+                <div className="gig-mode-chart" style={{ fontSize: displayZoom * 100 + '%' }}>
+                  <div className="gig-mode-tune-header">
+                    <div className="gig-mode-tune-header-text">
+                      <div className="gig-mode-tune-title-row">
+                        <h2 className="gig-mode-tune-title">{currentTune.name}</h2>
+                        {activeTuneNote && (
+                          <span className="gig-mode-tune-inline-note">{activeTuneNote}</span>
+                        )}
+                        {(tuneTranspose !== 0) && (
+                          <span className="gig-mode-transpose-label">
+                            Transpose {tuneTranspose > 0 ? '+' : ''}{tuneTranspose}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                    <Button
+                      size="sm"
+                      variant={isDarkTheme ? 'primary' : 'outline-secondary'}
+                      className="gig-mode-theme-btn"
+                      aria-label={isDarkTheme ? 'Switch to light theme' : 'Switch to dark theme'}
+                      title={isDarkTheme ? 'Light theme' : 'Dark theme'}
+                      aria-pressed={isDarkTheme}
+                      onClick={handleToggleDarkTheme}
+                    >
+                      {tunebook.icons.moon}
+                    </Button>
+                  </div>
+                </div>
+                {(mainColumn || sideColumn) ? (
+                  <div className={'music-view-split' + (sideColumn ? ' music-view-split--with-chords' : '') + (mainColumn ? '' : ' music-view-split--chords-only')}>
+                    {mainColumn}
+                    {sideColumn}
+                  </div>
+                ) : null}
+                {infoPanel ? (
+                  <>
+                    <hr className="music-page-divider" />
+                    {infoPanel}
+                  </>
+                ) : null}
+              </div>
+            ) : (
+              <p>No tunes in this set.</p>
+            )}
+          </div>
+        </Modal.Body>
+        <Modal.Footer className="gig-mode-footer">
+          <Button variant="primary" className="gig-mode-footer-btn gig-mode-footer-btn--previous" onClick={handlePrevious}>
+            {tunebook.icons.previous}
+            <span>Previous</span>
+          </Button>
+          <Button
+            variant="outline-secondary"
+            className="gig-mode-footer-btn gig-mode-footer-btn--list"
+            aria-label="Set list"
+            title="Set list"
+            onClick={function() { setShowSetList(true); }}
+          >
+            {tunebook.icons.menu}
+            <span>List</span>
+          </Button>
+          <Button variant="primary" className="gig-mode-footer-btn gig-mode-footer-btn--next" onClick={handleNext}>
+            <span>Next</span>
+            {tunebook.icons.next}
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal
+        show={showSetList}
+        onHide={function() { setShowSetList(false); }}
+        centered
+        scrollable
+        className={'gig-mode-setlist-modal' + (isDarkTheme ? ' gig-mode-night' : '')}
+        backdropClassName="gig-mode-setlist-backdrop"
+        style={{ zIndex: 1270 }}
+        enforceFocus={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>{setPlaylist && setPlaylist.name ? setPlaylist.name : 'Set list'}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="gig-mode-setlist-body">
+          {playlistTunes.length === 0 ? (
+            <p className="app-text-muted mb-0">No songs in this set.</p>
+          ) : (
+            <ol className="gig-mode-setlist">
+              {playlistTunes.map(function(tune, index) {
+                const isCurrent = index === currentIndex;
+                return (
+                  <li key={(tune && tune.id) || index} className={isCurrent ? 'gig-mode-setlist-item--current' : ''}>
+                    <button
+                      type="button"
+                      className="gig-mode-setlist-link"
+                      onClick={function() {
+                        goToIndex(index);
+                        setShowSetList(false);
+                      }}
+                    >
+                      {tune && tune.name ? tune.name : 'Untitled'}
+                    </button>
+                  </li>
+                );
+              })}
+            </ol>
+          )}
+        </Modal.Body>
+      </Modal>
+    </>
+  );
+}

@@ -81,7 +81,7 @@ function TagsSearchSelectorModal(props) {
     <>
       <ButtonGroup>
         <Button onClick={handleShow} variant="info" >
-          <span>{props.tunebook.icons.tag} {Array.isArray(props.value) ? props.value.join(",") : ''}</span>
+          <span>{props.tunebook.icons.tag} {Array.isArray(props.value) ? props.value.map(function(v) { return String(v).toLowerCase() }).join(",") : ''}</span>
         </Button>
         {hasActiveTags ? (
           <Button variant="info" title="Clear tag filter" onClick={clearTagFilter}>
@@ -103,7 +103,7 @@ function TagsSearchSelectorModal(props) {
      
        
           <div>{Array.isArray(selectedTags) && selectedTags.map(function(selectedTag) {
-              return <Button key={selectedTag} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectTag(selectedTag)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedTag}</Button>
+              return <Button key={selectedTag} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectTag(selectedTag)}} >{props.tunebook.icons.closecircle}&nbsp;{String(selectedTag).toLowerCase()}</Button>
             })}</div>
             
           <input type='search' value={filter} onChange={filterChange}  onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  />
@@ -112,7 +112,7 @@ function TagsSearchSelectorModal(props) {
         <Modal.Footer  >
           <ListGroup  style={{clear:'both', width: '100%'}}>
             {sortedOptions.map(function(option,tk) {
-              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {selectTag(option)}} >{options[option]}</ListGroup.Item>
+              return <ListGroup.Item  key={tk} className={(tk%2 === 0) ? 'even': 'odd'} onClick={function(e) {selectTag(option)}} >{String(options[option]).toLowerCase()}</ListGroup.Item>
             })}
           </ListGroup>
         </Modal.Footer>

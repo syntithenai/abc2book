@@ -27,6 +27,10 @@ function defaultOptions() {
   return {}
 }
 
+function normalizeSearchText(value) {
+  return String(value ?? '')
+}
+
 function mapRemoteProgress(onProgress, localBase, localRange) {
   return function(message, progress, stage) {
     if (typeof onProgress !== 'function') return
@@ -65,7 +69,7 @@ function LocalSearchSelectorModal(props) {
   const narrow = useIsNarrowViewport()
   const { available: resolverAvailable, checked: resolverChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const [show, setShow] = useState(false)
-  const [filter, setFilter] = useState(value)
+  const [filter, setFilter] = useState(function() { return normalizeSearchText(value) })
   const [options, setOptions] = useState(defaultOptions())
   const [settings, setSettings] = useState(null)
   const [scores, setScores] = useState({})
@@ -97,7 +101,10 @@ function LocalSearchSelectorModal(props) {
 
   useEffect(function() {
     if (!busy) return undefined
-    return registerLongRunningJob()
+    return registerLongRunningJob({
+      label: 'Notation search',
+      onCancel: cancelSearch,
+    })
   }, [busy])
 
   const handleClose = function() {
@@ -118,7 +125,7 @@ function LocalSearchSelectorModal(props) {
   }
 
   useEffect(function() {
-    setFilter(value)
+    setFilter(normalizeSearchText(value))
   }, [value])
 
   function updateProgress(message, progress, stage) {
@@ -217,13 +224,15 @@ function LocalSearchSelectorModal(props) {
     return false
   }
 
-  async function runResolverSearch(queryText, activeSongType, signal) {
+  async function runRemoteNotationSearch(queryText, activeSongType, signal, forceLightweight) {
     const result = await searchNotation({
       title: queryText,
       artist: currentTune && currentTune.composer ? currentTune.composer : '',
       songType: activeSongType || songType,
       accessToken: token,
       signal: signal,
+      resolverAvailable: forceLightweight ? false : (resolverChecked && resolverAvailable && !resolverUnreachable),
+      abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
       onProgress: mapRemoteProgress(updateProgress, 0.1, 0.9),
     })
 
@@ -271,18 +280,19 @@ function LocalSearchSelectorModal(props) {
       applyLocalResults(results)
       updateProgress('Local search complete', 0.1, 'local')
 
+      if (!useUnifiedSearch) {
+        if (isStrongLocalMatch(queryText, results)) {
+          return
+        }
+        await runRemoteNotationSearch(queryText, activeSongType, controller.signal, true)
+        return
+      }
+
       if (isStrongLocalMatch(queryText, results)) {
         return
       }
 
-      if (!useUnifiedSearch) {
-        if (results.length === 0) {
-          setError('No local matches found.')
-        }
-        return
-      }
-
-      await runResolverSearch(queryText, activeSongType, controller.signal)
+      await runRemoteNotationSearch(queryText, activeSongType, controller.signal, false)
     } catch (e) {
       if (generation !== searchGenerationRef.current) return
       if (isAbortError(e)) return
@@ -421,7 +431,7 @@ function LocalSearchSelectorModal(props) {
                     </Form.Select>
                     <Button
                       variant={busy ? 'warning' : 'primary'}
-                      disabled={!filter.trim()}
+                      disabled={!normalizeSearchText(filter).trim()}
                       onClick={function() { runUnifiedSearch() }}
                     >
                       {busy ? 'Cancel' : 'Search'}
@@ -500,6 +510,7 @@ function LocalSearchSelectorModal(props) {
         originalTune={props.currentTune}
         importedTune={pendingImport ? pendingImport.importedTune : null}
         sourceLabel={importSourceLabel}
+        onlyDiffering={true}
         onClose={handleImportClose}
         onSave={handleImportSave}
       />

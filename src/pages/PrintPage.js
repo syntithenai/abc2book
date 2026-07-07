@@ -1,215 +1,202 @@
-import { Link , useParams, useLocation } from 'react-router-dom'
-import {Button, Modal, Form, Col, Row, Container} from 'react-bootstrap'
-import {useState, useEffect, useCallback} from 'react'
-import AbcPrint from '../components/AbcPrint'
-import TimedLyricsChordsView from '../components/TimedLyricsChordsView'
-import { getLyricLinesForDisplay } from '../wLinesUtils'
-import { formatChordChartForDisplay } from '../chordSheetUtils'
-import useAbcjsParser from '../useAbcjsParser'
-import useQRCode from '../useQRCode'
-// TODO DIALOG FOR OPTIONS - SHOW NOTATION, SHOW CHORDS, ...
+import { useParams, useLocation, useNavigate } from 'react-router-dom';
+import { Button, Modal, Form, Alert, Spinner } from 'react-bootstrap';
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+import { createPortal, flushSync } from 'react-dom';
+import TunePrintSheet from '../components/TunePrintSheet';
+import useAbcjsParser from '../useAbcjsParser';
+import { resolvePrintViewMode } from '../printTuneViewMode';
+import { generateTunesPdf } from '../generateTunesPdf';
+
+function sanitizeFilename(name) {
+  const base = String(name || 'tunes').trim() || 'tunes';
+  return base.replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
+}
+
+function buildPdfFilename(tunes, tuneBook) {
+  if (tunes && tunes.length === 1 && tunes[0] && tunes[0].name) {
+    return sanitizeFilename(tunes[0].name) + '.pdf';
+  }
+  if (tuneBook) {
+    return sanitizeFilename(tuneBook) + '.pdf';
+  }
+  return 'tunes.pdf';
+}
+
 export default function PrintPage(props) {
-    var params = useParams()
-    var location = useLocation()
-    //var [refs , setRefs] = useState([])
-    var [useTunes , setUseTunes] = useState(null)
-    var [useQR , setUseQR] = useState(true)
-    var [option , setOption] = useState('auto')
-    const [show, setShow] = useState(false);
-    const [selectedCount, setSelectedCount] = useState(false);
-    const [showLyrics, setShowLyrics] = useState(true);
-    const [showNotationOrChords, setShowNotationOrChords] = useState(1);  // 0 none, 1 notation, 2 chords, 3 both
-    //const [showNotation, setShowNotation] = useState(true);
-    const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
-    const QRCode = useQRCode()
-    
-	const handleClose = () => {
-		setShow(false);
-	}
-	const handleShow = (e) => {
-		setShow(true);
-	}
-	
-	const createQRCodes = useCallback(function(tunes) {
-		if (!useQR || !tunes || !QRCode) return
-		tunes.forEach(function(tune) {
-			if (!tune.links || tune.links.length === 0 || !tune.links[0].link) return
-			var div = document.getElementById("qrcode_" + tune.id)
-			if (!div) return
-			while (div.firstChild) div.removeChild(div.firstChild)
-			new QRCode(div, {
-				text: tune.links[0].link,
-				width: 128,
-				height: 128,
-				colorDark: "#000000",
-				colorLight: "#ffffff",
-				useSVG: true,
-				correctLevel: QRCode.CorrectLevel.H
-			})
-		})
-	}, [useQR, QRCode])
+  const params = useParams();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
+  const renderHostRef = useRef(null);
 
-	function printMe() {
-		handleClose()
-		setTimeout(function() {
-			if (useTunes) createQRCodes(useTunes)
-			setTimeout(function() {
-				window.print()
-			}, 300)
-		}, 100)
-	}
+  const [useTunes, setUseTunes] = useState(null);
+  const [useQR, setUseQR] = useState(true);
+  const [hideBackgroundInfo, setHideBackgroundInfo] = useState(true);
+  const [show, setShow] = useState(false);
+  const [selectedCount, setSelectedCount] = useState(0);
+  const [generating, setGenerating] = useState(false);
+  const [renderForPdf, setRenderForPdf] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
-	function goBack() {
-		window.history.back()
-	}
-  
-    useEffect(function() {
-		// IF params.tuneBook, use that 
-		// ELSE IF location.state.tuneIds, use that
-		// ELSE IF props.selected, use that
-        if (params.tuneBook) {
-			var tmp = props.tunebook.fromBook(params.tuneBook).map(function(tune) {
-				return tune
-			})
-			setUseTunes(tmp)
-			setSelectedCount(tmp.length)
-			handleShow()
-		} else if (location.state && Array.isArray(location.state.tuneIds) && location.state.tuneIds.length > 0) {
-			var fromState = location.state.tuneIds.map(function(tuneId) {
-				return props.tunes[tuneId]
-			}).filter(function(tune) { return tune && tune.id })
-			setUseTunes(fromState)
-			setSelectedCount(fromState.length)
-			handleShow()
-		} else {
-			var selectedIds = Object.keys(props.selected)
-			if (selectedIds.length > 0) {
-				var tmp = []
-				selectedIds.forEach(function(tuneId) {
-					if (props.selected[tuneId] && props.tunes[tuneId]) {
-						tmp.push(props.tunes[tuneId])
-					}
-				})
-				setUseTunes(tmp)
-				setSelectedCount(tmp.length)
-				handleShow()
-			} else {
-				setUseTunes([])
-				setSelectedCount(0)
-			}
-		}
-		
-    },[params.tuneBook, props.tunes, props.selected, props.tunebook, location.state])
+  const goBack = useCallback(function() {
+    if (window.history.length > 1) {
+      navigate(-1);
+    } else {
+      navigate('/tunes');
+    }
+  }, [navigate]);
 
-	useEffect(function() {
-		if (!useTunes || useTunes.length === 0) return
-		var frame = requestAnimationFrame(function() {
-			createQRCodes(useTunes)
-		})
-		return function() { cancelAnimationFrame(frame) }
-	}, [useTunes, useQR, createQRCodes])
-    return <div className="App-print">
-    
-   
+  const handleClose = useCallback(function() {
+    setShow(false);
+    goBack();
+  }, [goBack]);
 
-      <Modal show={show} onHide={goBack}>
-        <Modal.Header closeButton>
-          <Modal.Title>Print {selectedCount} selected tunes ..</Modal.Title>
-          
+  useEffect(function() {
+    if (params.tuneBook) {
+      const tmp = props.tunebook.fromBook(params.tuneBook).map(function(tune) {
+        return tune;
+      });
+      setUseTunes(tmp);
+      setSelectedCount(tmp.length);
+      setShow(true);
+    } else if (location.state && Array.isArray(location.state.tuneIds) && location.state.tuneIds.length > 0) {
+      const fromState = location.state.tuneIds.map(function(tuneId) {
+        return props.tunes[tuneId];
+      }).filter(function(tune) { return tune && tune.id; });
+      setUseTunes(fromState);
+      setSelectedCount(fromState.length);
+      setShow(true);
+    } else {
+      const selectedIds = Object.keys(props.selected || {});
+      if (selectedIds.length > 0) {
+        const tmp = [];
+        selectedIds.forEach(function(tuneId) {
+          if (props.selected[tuneId] && props.tunes[tuneId]) {
+            tmp.push(props.tunes[tuneId]);
+          }
+        });
+        setUseTunes(tmp);
+        setSelectedCount(tmp.length);
+        setShow(true);
+      } else {
+        setUseTunes([]);
+        setSelectedCount(0);
+        setShow(true);
+      }
+    }
+  }, [params.tuneBook, props.tunes, props.selected, props.tunebook, location.state]);
+
+  const tuneViewModes = useMemo(function() {
+    if (!useTunes || useTunes.length === 0) return {};
+    const map = {};
+    useTunes.forEach(function(tune) {
+      map[tune.id] = resolvePrintViewMode(
+        tune,
+        props.viewMode,
+        props.tunebook,
+        abcjsParser
+      );
+    });
+    return map;
+  }, [useTunes, props.viewMode, props.tunebook, abcjsParser]);
+
+  const pdfFilename = useMemo(function() {
+    return buildPdfFilename(useTunes, params.tuneBook);
+  }, [useTunes, params.tuneBook]);
+
+  async function createPdf() {
+    if (!useTunes || useTunes.length === 0) {
+      setErrorMessage('No tunes selected to print.');
+      return;
+    }
+    setErrorMessage('');
+    setGenerating(true);
+    flushSync(function() {
+      setRenderForPdf(true);
+    });
+    try {
+      await new Promise(function(resolve) {
+        requestAnimationFrame(function() {
+          requestAnimationFrame(resolve);
+        });
+      });
+      const host = renderHostRef.current;
+      if (!host) {
+        throw new Error('Print layout failed to render.');
+      }
+      await generateTunesPdf(host, pdfFilename);
+      setShow(false);
+      goBack();
+    } catch (err) {
+      setErrorMessage(err && err.message ? err.message : 'PDF generation failed.');
+    } finally {
+      setGenerating(false);
+      setRenderForPdf(false);
+    }
+  }
+
+  return (
+    <div className="App-print">
+      <Modal show={show} onHide={handleClose} backdrop={generating ? 'static' : true} keyboard={!generating}>
+        <Modal.Header closeButton={!generating}>
+          <Modal.Title>Print {selectedCount} selected tune{selectedCount === 1 ? '' : 's'}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div style={{clear:'both', width:'100%', minHeight:'4em'}} className="mb-3" >
-			   <Form>
-					<Form.Check id="auto" checked={(option === 'auto' ? true : false)}  onChange={function() {setOption('auto')}} type='radio' label='Automatic'  />
-					<Form.Check id="justnotation" checked={(option === 'justnotation' ? true : false)}  onChange={function() {setOption('justnotation')}} type='radio' label='Notation Only' inline={true} />
-					<Form.Check id="justlyrics" checked={(option === 'justlyrics' ? true : false)}  onChange={function() {setOption('justlyrics')}} type='radio' label='Lyrics Only' inline={true} />
-					<Form.Check id="justchords" checked={(option === 'justchords' ? true : false)}  onChange={function() {setOption('justchords')}} type='radio' label='Chords Only' inline={true} />
-					<Form.Check id="chordsandlyrics" checked={(option === 'chordsandlyrics' ? true : false)}  onChange={function() {setOption('chordsandlyrics')}} type='radio' label='Chords And Lyrics' inline={true} />
-					<Form.Check id="notationandlyrics" checked={(option === 'notationandlyrics' ? true : false)}  onChange={function() {setOption('notationandlyrics')}} type='radio' label='Notation And Lyrics' inline={true} />
-					<hr/>
-					<Form.Check type={'checkbox'}   id={`useqr`} >
-						<Form.Check.Input type={'checkbox'}  onChange={function() {setUseQR(!useQR)}} checked={useQR ? true : false} />
-						<Form.Check.Label>&nbsp;&nbsp;&nbsp;{` Add QR code for playable links`}</Form.Check.Label>
-					</Form.Check>
-					<hr/>
-					  
-				  <div style={{marginTop:'2em', paddingBottom:'1em'}} >
-					   <Button key="a" variant="success" onClick={printMe}>
-						Print
-					  </Button>
-					  <Button style={{float:'right'}} key="b" variant="danger" onClick={goBack}>
-						Cancel
-					  </Button>
-				  </div>    
-			  
-			  </Form>
-          </div>    
-         
+          {useTunes !== null && useTunes.length === 0 ? (
+            <Alert variant="warning">No tunes selected to print.</Alert>
+          ) : (
+            <Form>
+              <Form.Check type="checkbox" id="print-use-qr" checked={!!useQR} onChange={function() { setUseQR(!useQR); }}>
+                <Form.Check.Input type="checkbox" checked={!!useQR} onChange={function() { setUseQR(!useQR); }} disabled={generating} />
+                <Form.Check.Label>&nbsp;&nbsp;&nbsp;Add QR code for playable links</Form.Check.Label>
+              </Form.Check>
+              <Form.Check type="checkbox" id="print-hide-background-info" checked={!!hideBackgroundInfo} onChange={function() { setHideBackgroundInfo(!hideBackgroundInfo); }} className="mt-2">
+                <Form.Check.Input type="checkbox" checked={!!hideBackgroundInfo} onChange={function() { setHideBackgroundInfo(!hideBackgroundInfo); }} disabled={generating} />
+                <Form.Check.Label>&nbsp;&nbsp;&nbsp;Hide Background Information</Form.Check.Label>
+              </Form.Check>
+            </Form>
+          )}
+          {errorMessage ? <Alert variant="danger" className="mt-3 mb-0">{errorMessage}</Alert> : null}
+          <div style={{ marginTop: '2em', paddingBottom: '1em' }}>
+            <Button
+              key="create-pdf"
+              variant="success"
+              onClick={createPdf}
+              disabled={generating || !useTunes || useTunes.length === 0}
+            >
+              {generating ? (
+                <>
+                  <Spinner animation="border" size="sm" className="me-2" role="status" aria-hidden="true" />
+                  Preparing print…
+                </>
+              ) : 'Print'}
+            </Button>
+            <Button style={{ float: 'right' }} key="cancel" variant="danger" onClick={handleClose} disabled={generating}>
+              Cancel
+            </Button>
+          </div>
         </Modal.Body>
-
       </Modal>
-    
-      {(useTunes === null) && <div>Loading ....</div>}
-      {(useTunes!== null && useTunes.length == 0) && <div>No tunes selected to print</div>}
-      {(useTunes!== null && useTunes.length > 0) && <div style={{pageBreakInside:'avoid'}} >{useTunes.map(function(tune) {
-            var words = {}
-            var current = 0
-            var lyricLines = getLyricLinesForDisplay(tune)
-            if (lyricLines.length > 0) {
-                lyricLines.forEach(function(line) {
-                  if (line && line.trim().length > 0) {
-                      if (!Array.isArray(words[current])) words[current] = []
-                      words[current].push(line)
-                  } else {
-                      current++
-                  }
-                })
-            } 
-            var firstVoice = tune.voices && Object.keys(tune.voices).length > 0 ? Object.values(tune.voices)[0] : {notes:[]}
-			var chords = formatChordChartForDisplay(abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, tune.transpose, tune.key, tune.noteLength, tune.meter))
-            var cleanNotes = firstVoice.notes.join("\n").replace(/"([^"]+(?="))"/g, '').replace(/z/g, '').replace(/\|/g, '')
-            var hasNotes = cleanNotes.trim().length > 0 ? true : false
-            //console.log(cleanNotes,hasNotes)
-            
-            var  chordBlockStyle = ((option === "auto") || option === "chordsandlyrics") ? { width:'45%', padding:'1em', float:'right'} :  {display:'block', clear:'both', color:'red'}
-            // && !hasNotes
-            var useLink = tune && tune.links && tune.links[0] && tune.links[0].link ? tune.links[0].link : ''
-            
-            return (true || !show) ? <div  key={(tune ? tune.id : '')} style={{clear:'both'}}>
-				<div className="avoidbreak" >
-					{(useQR ? true : false) && useLink && <a className="print-qrcode-link" style={{float:'left', clear:'right'}} href={useLink} ><div className="print-qrcode" style={{width:'128px', height:'128px'}} id={"qrcode_" + tune.id} ></div></a>}
-					
-					{((option === "auto" && !hasNotes) || option === "justchords" || option === "justlyrics" || option === "chordsandlyrics"  ) && <div style={{marginBottom:'1.2em'}}>
-						{(tune.composer) && <div className="composer" style={{float:'right'}} >{tune.composer}</div>}
-						{<div className="title" style={{textAlign:'center', fontSize:'1.7em', fontFamily:'serif'}} >{tune.name}</div>}
-					</div>}
-					
-					{((option === "auto" && hasNotes) || option === "justnotation" || option === "notationandlyrics" ) && <AbcPrint abc={props.tunebook.abcTools.json2abc_print(tune)} tunebook={props.tunebook} tune={tune} />}
-					
-					{((option === "auto" && !hasNotes && chords.length > 0) || option === "justchords" || option === "chordsandlyrics") && <div classname='chordsblock' style={chordBlockStyle}>
-					<Container fluid style={{ fontSize:'x' , padding:'0.3em', lineHeight:'2em', marginTop:'1em'}} >{chords.split("\n").map(function(line) {
-						return (line && line.trim().length > 0) ?  <Row style={{borderBottom:'1px solid black'}} >{line.split("|").map(function(bar) {
-							return (bar && bar.trim().length > 0) ? <Col style={{borderRight:'1px solid black'}} >{bar}</Col> : null
-						})}</Row> : <Row>&nbsp;</Row>
-					})}</Container></div> }
-					
-					{(option === "auto" || option === "justlyrics"  || option === "chordsandlyrics" || option === "notationandlyrics" ) ? (
-                        (option === "chordsandlyrics" || option === "justlyrics")
-                          ? <div className="lyrics" style={{ float:'left', clear:'left', marginLeft:'2em' }}>
-                              <TimedLyricsChordsView tune={tune} tunebook={props.tunebook} />
-                            </div>
-                          : Object.keys(words).map(function(key) {
-							return <div className="lyrics" style={{float:'left' ,clear:'left',marginLeft:'2em'}} ><div key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line, lk) {
-									return <div key={lk} className="lyrics-line" >{line}</div>
-								})}</div></div>
-						})
-                    ) : null }
 
-            	</div>
-			</div> : null
-		})}</div>}
-    
-
+      {(renderForPdf && useTunes && useTunes.length > 0) ? createPortal(
+        <div id="print-pdf-render-host" className="print-pdf-render-host" ref={renderHostRef} aria-hidden="true">
+          {useTunes.map(function(tune, index) {
+            return (
+              <TunePrintSheet
+                key={tune.id}
+                tune={tune}
+                tunebook={props.tunebook}
+                viewMode={tuneViewModes[tune.id] || 'music'}
+                useQR={useQR}
+                hideBackgroundInfo={hideBackgroundInfo}
+                pageNumber={index + 1}
+                pageCount={useTunes.length}
+              />
+            );
+          })}
+        </div>,
+        document.body
+      ) : null}
     </div>
+  );
 }
-    

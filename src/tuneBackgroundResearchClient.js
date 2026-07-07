@@ -4,17 +4,14 @@ import { isGenericArtist } from './genericArtistUtils';
 const RESEARCH_ACCEPT_HEADER = 'application/x-ndjson, application/json';
 const GOOGLE_SEARCH_BASE = 'https://www.google.com/search?q=';
 const GOOGLE_SEARCH_URL_MAX_LENGTH = 2048;
-const RESEARCH_TOPIC_PHRASES = [
-  'what is the song about',
-  'history and origin',
-  'alternative names',
-  'first recording',
-  'who popularized it',
-  'notable performers and covers',
-  'record labels',
-  'cultural context',
+const RESEARCH_QUERY_TOPICS = [
+  'song history origin',
+  'alternative names aka',
+  'first recorded written',
+  'who popularized made famous',
+  'notable recordings performers covers',
+  'record label releases',
   'musical structure key tempo',
-  'youtube recordings',
 ];
 
 export function normalizeTuneBackgroundResearch(body) {
@@ -164,51 +161,135 @@ export function extractFirstLyricLine(lyrics) {
   return '';
 }
 
+export function lyricsSearchPhrases(lyrics, maxPhrases) {
+  const limit = typeof maxPhrases === 'number' ? maxPhrases : 3;
+  const text = String(lyrics || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim();
+  if (!text) return [];
+
+  const lines = [];
+  const seen = new Set();
+  text.split('\n').forEach(function(rawLine) {
+    const line = normalizeSpace(rawLine);
+    if (!isMeaningfulLyricLine(line)) return;
+    const key = line.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    lines.push(line);
+  });
+  if (lines.length === 0) return [];
+
+  const phrases = [lines[0]];
+  lines.slice(1).sort(function(a, b) { return b.length - a.length; }).forEach(function(line) {
+    if (phrases.length >= limit) return;
+    if (phrases.some(function(phrase) { return phrase.toLowerCase() === line.toLowerCase(); })) {
+      return;
+    }
+    phrases.push(line.length > 120 ? line.slice(0, 120) : line);
+  });
+  return phrases.slice(0, limit);
+}
+
 function quoteTerm(value) {
   const text = normalizeSpace(value);
   return text ? '"' + text + '"' : '';
 }
 
-function assembleBackgroundSearchQuery(parts) {
-  return parts.filter(Boolean).join(' ');
+function dedupeQueries(queries) {
+  const seen = new Set();
+  const ordered = [];
+  queries.forEach(function(query) {
+    const normalized = normalizeSpace(query).toLowerCase();
+    if (!normalized || seen.has(normalized)) return;
+    seen.add(normalized);
+    ordered.push(normalizeSpace(query));
+  });
+  return ordered;
 }
 
 function fitsGoogleSearchUrl(query) {
   return (GOOGLE_SEARCH_BASE + encodeURIComponent(query)).length <= GOOGLE_SEARCH_URL_MAX_LENGTH;
 }
 
-export function buildTuneBackgroundSearchQuery(title, artist, lyrics) {
+function researchArtistParts(artist) {
+  const cleanArtist = normalizeSpace(artist);
+  if (!cleanArtist || isGenericArtist(cleanArtist)) {
+    return { quotedArtist: '', artistPart: '' };
+  }
+  return {
+    quotedArtist: ' ' + quoteTerm(cleanArtist),
+    artistPart: ' ' + cleanArtist,
+  };
+}
+
+export function buildTuneBackgroundResearchQueries(title, artist, lyrics) {
+  const cleanTitle = normalizeSpace(title);
+  if (!cleanTitle) return [];
+
+  const artistParts = researchArtistParts(artist);
+  const base = quoteTerm(cleanTitle) + artistParts.quotedArtist;
+  const queries = [
+    base + ' song history origin',
+    base + ' alternative names aka',
+    base + ' first recorded written',
+    base + ' who popularized made famous',
+    base + ' notable recordings performers covers',
+    base + ' record label releases',
+    base + ' musical structure key tempo',
+    'site:youtube.com ' + quoteTerm(cleanTitle) + artistParts.artistPart,
+    'site:thesession.org ' + quoteTerm(cleanTitle),
+    'site:discogs.com ' + quoteTerm(cleanTitle) + artistParts.artistPart,
+    (cleanTitle + artistParts.artistPart + ' wikipedia').trim(),
+  ];
+
+  lyricsSearchPhrases(lyrics).forEach(function(phrase) {
+    queries.push(quoteTerm(phrase) + ' song lyrics');
+    if (artistParts.quotedArtist) {
+      queries.push(quoteTerm(phrase) + artistParts.quotedArtist);
+    }
+  });
+
+  return dedupeQueries(queries);
+}
+
+function buildCondensedBackgroundSearchQuery(title, artist, lyrics) {
   const cleanTitle = normalizeSpace(title);
   if (!cleanTitle) return '';
 
-  const cleanArtist = normalizeSpace(artist);
-  const lyricLine = extractFirstLyricLine(lyrics);
-  const topicWords = RESEARCH_TOPIC_PHRASES.join(' ').split(' ');
+  const artistParts = researchArtistParts(artist);
+  const parts = [quoteTerm(cleanTitle)];
+  if (artistParts.quotedArtist) {
+    parts.push(artistParts.quotedArtist.trim());
+  }
 
-  let includeLyric = Boolean(lyricLine);
-  let topicCount = topicWords.length;
+  const lyricPhrases = lyricsSearchPhrases(lyrics, 1);
+  if (lyricPhrases.length > 0) {
+    parts.push(quoteTerm(lyricPhrases[0]));
+  }
 
+  let topicCount = RESEARCH_QUERY_TOPICS.length;
   while (topicCount > 0) {
-    const parts = [quoteTerm(cleanTitle)];
-    if (cleanArtist && !isGenericArtist(cleanArtist)) {
-      parts.push(quoteTerm(cleanArtist));
-    }
-    if (includeLyric && lyricLine) {
-      parts.push(quoteTerm(lyricLine));
-    }
-    parts.push(topicWords.slice(0, topicCount).join(' '));
-    const query = assembleBackgroundSearchQuery(parts);
+    const query = parts.concat(RESEARCH_QUERY_TOPICS.slice(0, topicCount)).join(' ');
     if (fitsGoogleSearchUrl(query)) {
       return query;
     }
-    if (includeLyric && lyricLine) {
-      includeLyric = false;
-      continue;
-    }
-    topicCount -= 2;
+    topicCount -= 1;
   }
 
-  return quoteTerm(cleanTitle) + ' song history origin first recording performers';
+  return parts.join(' ') + ' song history origin';
+}
+
+export function buildTuneBackgroundSearchQuery(title, artist, lyrics) {
+  const queries = buildTuneBackgroundResearchQueries(title, artist, lyrics);
+  if (queries.length === 0) return '';
+
+  for (let count = queries.length; count > 0; count -= 1) {
+    const query = queries.slice(0, count).join(' OR ');
+    if (fitsGoogleSearchUrl(query)) {
+      return query;
+    }
+  }
+
+  return buildCondensedBackgroundSearchQuery(title, artist, lyrics);
 }
 
 export function buildTuneBackgroundSearchUrl(title, artist, lyrics) {

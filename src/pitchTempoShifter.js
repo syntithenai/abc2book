@@ -9,6 +9,7 @@ export default class PitchTempoShifter {
     this.audioBuffer = audioBuffer;
     this.gainNode = audioContext.createGain();
     this.gainNode.gain.value = 1.0;
+    this._outputVolume = 1;
     this._onTimeUpdate = onTimeUpdate;
     this._onEnded = onEnded;
     this.shifter = this._createSoundTouchShifter(audioBuffer);
@@ -62,8 +63,19 @@ export default class PitchTempoShifter {
       }
     }
 
+    this._updateGain();
+  }
+
+  setOutputVolume(volume) {
+    const next = parseFloat(volume);
+    this._outputVolume = isNaN(next) ? 1 : clamp(next, 0, 1);
+    this._updateGain();
+  }
+
+  _updateGain() {
     const compensation = this._mode === 'soundtouch' && this._tempo > 0 ? Math.sqrt(this._tempo) : 1;
-    this.gainNode.gain.value = Math.min(2.5, Math.max(0.75, compensation));
+    const level = Math.min(2.5, Math.max(0.75, compensation)) * this._outputVolume;
+    this.gainNode.gain.value = level;
   }
 
   replaceBuffer(audioBuffer, preserveRatio) {

@@ -72,6 +72,52 @@ describe('mergeChords note length roundtrip', function() {
     expect(notes).toContain('"Em"zzzzzzzz');
   });
 
+  test('buildAppendChordGrid places new chords after existing bars', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'append', name: 'Append', meter: '4/4', noteLength: '1/8', key: 'D',
+      voices: { 1: { meta: '', notes: ['"D"zzzzzzzz | "G"zzzzzzzz |'] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const combined = abcjsParser.buildAppendChordGrid(abc, 'Am . . . | F . . . |');
+    const merged = abcjsParser.mergeChords(combined, abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes).toContain('"D"zzzzzzzz');
+    expect(notes).toContain('"G"zzzzzzzz');
+    expect(notes).toContain('"Am"zzzzzzzz');
+    expect(notes).toContain('"F"zzzzzzzz');
+    expect(notes.indexOf('"Am"')).toBeGreaterThan(notes.indexOf('"G"'));
+  });
+
+  // Regression: abcjs parses a rest filling an entire bar (e.g. z8 in 4/4)
+  // as rest.type 'whole', which render() used to drop entirely. Merging
+  // chords into such a tune produced bars containing only chord text and
+  // barlines, so the chords never attached to anything in the notation.
+  test('mergeChords places chords onto whole-bar rests', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'whole-rests', name: 'Whole Rests', meter: '4/4', noteLength: '1/8', key: 'C',
+      voices: { 1: { meta: '', notes: ['z8 | z8 |'] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const merged = abcjsParser.mergeChords('C . . . | G . D . |', abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes).toContain('"C"z');
+    expect(notes).toContain('"G"z');
+    expect(notes).toContain('"D"z');
+    // mid-bar chord lands mid-bar, not stacked on beat one
+    expect(notes).toMatch(/"G"z+"D"z+/);
+  });
+
+  test('render round-trips whole-bar rests as z', function() {
+    const abcjsParser = useAbcjsParser();
+    const abc = 'X:1\nM:4/4\nL:1/8\nK:C\nz8 | CDEF GABc |\n';
+    const rendered = abcjsParser.render(abcjsParser.parse(abc), abc);
+    expect(rendered).toContain('z8');
+  });
+
   test('mergeChords does not double-bar every bar when extra bars are added', function() {
     const abcjsParser = useAbcjsParser();
     const abcTools = useAbcTools();

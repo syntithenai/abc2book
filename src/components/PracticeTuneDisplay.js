@@ -1,11 +1,24 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import abcjs from 'abcjs'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
+import LyricsDisplayLines from '../LyricsDisplayLines'
 import useAbcjsParser from '../useAbcjsParser'
 import { normalizeViewMode, showsMusicNotation } from '../viewModeUtils'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
 import { hasChordLines, formatChordChartForDisplay } from '../chordSheetUtils'
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
+
+function stripPracticeNotationHeaders(abcText) {
+  if (!abcText) return ''
+  return abcText.split('\n').filter(function(line) {
+    const trimmed = line.trim()
+    if (trimmed.startsWith('B:')) return false
+    if (trimmed.startsWith('T:')) return false
+    if (trimmed.startsWith('N: AKA:')) return false
+    if (trimmed.startsWith('% abcbook-tags')) return false
+    return true
+  }).join('\n')
+}
 
 export default function PracticeTuneDisplay(props) {
   const tune = props.tune
@@ -22,9 +35,7 @@ export default function PracticeTuneDisplay(props) {
   useEffect(function() {
     if (!tune || !notationRef.current || !showNotation) return
     const displayAbc = buildAbcWithNoteSpacing(tune, tunebook.abcTools, { includeLyrics: isMusicAndLyricsView })
-    const staffAbc = displayAbc.split('\n').filter(function(line) {
-      return !line.startsWith('B:')
-    }).join('\n')
+    const staffAbc = stripPracticeNotationHeaders(displayAbc)
     try {
       abcjs.renderAbc(notationRef.current, staffAbc, {
         responsive: 'resize',
@@ -35,19 +46,23 @@ export default function PracticeTuneDisplay(props) {
     }
   }, [tune, tunebook, showNotation, isMusicAndLyricsView, props.staffWidth])
 
-  if (!tune) return null
-
-  const plainLyricLines = getLyricLinesForDisplay(tune)
-  const isLyricChordSheet = hasChordLines(plainLyricLines)
-  const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
-    ? Object.values(tune.voices)[0]
-    : { notes: [] }
-  const chordTranspose = Number(tune.transpose) || 0
-  const noteLines = firstVoice && Array.isArray(firstVoice.notes) ? firstVoice.notes : []
-  let chords = ''
-  if (noteLines.length > 0) {
+  const plainLyricLines = useMemo(function() {
+    if (!tune) return []
+    return getLyricLinesForDisplay(tune)
+  }, [tune])
+  const isLyricChordSheet = useMemo(function() {
+    return hasChordLines(plainLyricLines)
+  }, [plainLyricLines])
+  const chords = useMemo(function() {
+    if (!tune) return ''
+    const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
+      ? Object.values(tune.voices)[0]
+      : { notes: [] }
+    const chordTranspose = Number(tune.transpose) || 0
+    const noteLines = firstVoice && Array.isArray(firstVoice.notes) ? firstVoice.notes : []
+    if (noteLines.length === 0) return ''
     try {
-      chords = formatChordChartForDisplay(abcjsParser.renderChords(
+      return formatChordChartForDisplay(abcjsParser.renderChords(
         tunebook.abcTools.emptyABC(tune.name || 'Tune') + noteLines.join('\n'),
         false,
         chordTranspose,
@@ -57,30 +72,31 @@ export default function PracticeTuneDisplay(props) {
       ))
     } catch (e) {
       console.log('practice chord chart render', e)
+      return ''
     }
+  }, [tune, tunebook, abcjsParser])
+
+  if (!tune) return null
+
+  const lyricsViewProps = {
+    tune: tune,
+    tunebook: tunebook,
+    suppressLeadingTitle: true,
   }
 
   const fullLyricsPanel = plainLyricLines.length > 0 ? (
     isLyricChordSheet
-      ? <TimedLyricsChordsView tune={tune} tunebook={tunebook} />
-      : <div className="practice-tune-lyrics">
-        {plainLyricLines.map(function(line, index) {
-          if (!line || String(line).trim().length === 0) {
-            return <div key={index} className="lyrics-line-spacer" style={{ height: '0.6em' }} />
-          }
-          return <div key={index} className="lyrics-line" style={{ marginBottom: '0.35em' }}>{line}</div>
-        })}
-      </div>
+      ? <TimedLyricsChordsView {...lyricsViewProps} />
+      : <LyricsDisplayLines className="practice-tune-lyrics" lines={plainLyricLines} />
   ) : null
 
   if (isChordBlockView) {
     return (
       <div className="practice-tune-display practice-tune-chords">
-        <div className="practice-tune-title">{tune.name}</div>
         {(isLyricChordSheet || plainLyricLines.length > 0) && (
           <div className="practice-tune-lyrics-panel">
             {isLyricChordSheet
-              ? <TimedLyricsChordsView tune={tune} tunebook={tunebook} />
+              ? <TimedLyricsChordsView {...lyricsViewProps} />
               : fullLyricsPanel}
           </div>
         )}
@@ -94,7 +110,6 @@ export default function PracticeTuneDisplay(props) {
   if (isMusicAndLyricsView && plainLyricLines.length > 0) {
     return (
       <div className="practice-tune-display practice-tune-music-lyrics">
-        <div className="practice-tune-title">{tune.name}</div>
         <div className="practice-tune-split">
           <div className="practice-tune-notation" ref={notationRef} />
           <div className="practice-tune-lyrics-panel">{fullLyricsPanel}</div>
@@ -106,7 +121,6 @@ export default function PracticeTuneDisplay(props) {
   if (isMusicView || showNotation) {
     return (
       <div className="practice-tune-display practice-tune-music">
-        <div className="practice-tune-title">{tune.name}</div>
         <div className="practice-tune-notation" ref={notationRef} />
       </div>
     )
@@ -114,7 +128,6 @@ export default function PracticeTuneDisplay(props) {
 
   return (
     <div className="practice-tune-display">
-      <div className="practice-tune-title">{tune.name}</div>
       {fullLyricsPanel}
     </div>
   )

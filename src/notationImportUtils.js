@@ -11,6 +11,7 @@ export function applyNotationTuneMeta(importedTune, tuneMeta) {
     'key',
     'noteLength',
     'srcUrl',
+    'genre',
     'backgroundInfo',
   ]
 

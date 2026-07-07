@@ -1,6 +1,38 @@
 import { alignChordsToLyricLines } from './timedAbcDeriver';
-import { hasChordLines, splitChordChartIntoBlocks, chartBlockHasChords } from './chordSheetUtils';
+import {
+  alignChordBlocksToLyrics,
+  chartBlockHasChords,
+  hasChordLines,
+  isSectionHeader,
+  splitChordChartIntoBlocks,
+} from './chordSheetUtils';
+import { noteLinesHaveRealMelody } from './timedImportFinalizer';
 import { getLyricLinesForDisplay } from './wLinesUtils';
+
+function getFirstVoiceNoteLines(tune) {
+  if (!tune || !tune.voices) return [];
+  const keys = Object.keys(tune.voices);
+  if (keys.length === 0) return [];
+  const voice = tune.voices[keys[0]];
+  return voice && Array.isArray(voice.notes) ? voice.notes : [];
+}
+
+function getMelodyChordChart(tune, tunebook, abcjsParser) {
+  if (!tune || !abcjsParser) return '';
+  try {
+    const noteLines = getFirstVoiceNoteLines(tune);
+    const melodyAbc = tunebook && tunebook.abcTools
+      ? tunebook.abcTools.emptyABC(tune.name) + noteLines.join('\n')
+      : noteLines.join('\n');
+    if (!melodyAbc) return '';
+    const transpose = Number(tune.transpose) || 0;
+    return abcjsParser.renderChords(
+      melodyAbc, false, transpose, tune.key, tune.noteLength, tune.meter
+    ) || '';
+  } catch (e) {
+    return '';
+  }
+}
 
 /**
  * Chord content from lyrics chord sheets or melody notation — not timed import
@@ -9,23 +41,55 @@ import { getLyricLinesForDisplay } from './wLinesUtils';
 export function tuneHasExplicitChords(tune, tunebook, abcjsParser) {
   if (!tune) return false;
   if (hasChordLines(getLyricLinesForDisplay(tune))) return true;
+  const chordBlocks = splitChordChartIntoBlocks(getMelodyChordChart(tune, tunebook, abcjsParser));
+  return chordBlocks.some(chartBlockHasChords);
+}
+
+/**
+ * True when melody chords sit on real notes (not a rest-only chord scaffold).
+ * Prefer inline so chords stay on the staff.
+ */
+export function melodyChordsHaveNotes(tune, tunebook, abcjsParser) {
+  if (!tune) return false;
+  if (!noteLinesHaveRealMelody(getFirstVoiceNoteLines(tune))) return false;
+  const chordBlocks = splitChordChartIntoBlocks(getMelodyChordChart(tune, tunebook, abcjsParser));
+  return chordBlocks.some(chartBlockHasChords);
+}
+
+/**
+ * True when every lyric stanza maps to a chord block (hymn-style single chart
+ * and section-header reuse count as complete).
+ */
+export function chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser) {
+  if (!tune) return false;
+  const lyrics = getLyricLinesForDisplay(tune);
+  const singable = lyrics.filter(function(line) {
+    return String(line || '').trim().length > 0 && !isSectionHeader(line);
+  });
+  if (singable.length === 0) return false;
+  const chordChart = getMelodyChordChart(tune, tunebook, abcjsParser);
+  if (!chordChart.trim()) return false;
   try {
-    const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
-      ? Object.values(tune.voices)[0]
-      : { notes: [] };
-    const melodyAbc = tunebook && tunebook.abcTools
-      ? tunebook.abcTools.emptyABC(tune.name) + firstVoice.notes.join('\n')
-      : '';
-    if (!melodyAbc || !abcjsParser) return false;
-    const transpose = Number(tune.transpose) || 0;
-    const chordChart = abcjsParser.renderChords(
-      melodyAbc, false, transpose, tune.key, tune.noteLength, tune.meter
-    );
-    const chordBlocks = splitChordChartIntoBlocks(chordChart || '');
-    return chordBlocks.some(chartBlockHasChords);
+    const aligned = alignChordBlocksToLyrics(lyrics, chordChart);
+    if (aligned.length === 0) return false;
+    const unmatched = aligned.filter(function(block) {
+      return block.lyricLines.length > 0
+        && !chartBlockHasChords(block.chart)
+        && !block.inlineChords;
+    });
+    if (unmatched.length > 0) return false;
+    return aligned.some(function(block) {
+      return chartBlockHasChords(block.chart) || block.inlineChords;
+    });
   } catch (e) {
     return false;
   }
+}
+
+/** Prefer inline chords when enabling chords in view-mode settings. */
+export function preferInlineChords(tune, tunebook, abcjsParser) {
+  return melodyChordsHaveNotes(tune, tunebook, abcjsParser)
+    || chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser);
 }
 
 /**

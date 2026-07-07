@@ -4,12 +4,14 @@ import { toast } from 'react-toastify'
 import BookSelectorModal from './BookSelectorModal'
 import GroupBySelectorModal from './GroupBySelectorModal'
 import TagsSearchSelectorModal from './TagsSearchSelectorModal'
+import GenreSearchSelectorModal from './GenreSearchSelectorModal'
+import ArtistSearchSelectorModal from './ArtistSearchSelectorModal'
 import { trackSearch } from '../analytics'
 
 const SEARCH_DEBOUNCE_MS = 300
 
 export default function IndexSearchForm(props) {
-    var [inputColor, setInputColor] = useState('#e9ecef')
+    var [inputColor, setInputColor] = useState('var(--app-surface)')
     const [searchText, setSearchText] = useState(props.filter || '')
     const debounceRef = useRef(null)
     const [showSaveModal, setShowSaveModal] = useState(false)
@@ -47,7 +49,7 @@ export default function IndexSearchForm(props) {
 
     function handleSearchChange(value) {
         setSearchText(value)
-        setInputColor('##5400ff2e')
+        setInputColor('var(--app-brand-subtle)')
         scheduleSearchFilter(value)
     }
 
@@ -71,6 +73,8 @@ export default function IndexSearchForm(props) {
         props.setCurrentTuneBook('')
         props.setGroupBy('')
         props.setTagFilter([])
+        if (props.setGenreFilter) props.setGenreFilter([])
+        if (props.setArtistFilter) props.setArtistFilter([])
         props.setSelected({})
         props.setSelectedCount(0)
         props.setFiltered('')
@@ -92,7 +96,7 @@ export default function IndexSearchForm(props) {
                 setOverwriteWarning(true)
                 return
             }
-            var payload = { name: saveName, filter: props.filter || '', groupBy: props.groupBy || '', tagFilter: props.tagFilter || [], currentTuneBook: props.currentTuneBook || '' }
+            var payload = { name: saveName, filter: props.filter || '', groupBy: props.groupBy || '', tagFilter: props.tagFilter || [], genreFilter: props.genreFilter || [], artistFilter: props.artistFilter || [], currentTuneBook: props.currentTuneBook || '' }
             list[saveName] = payload
             window.localStorage.setItem('bookstorage_saved_filters', JSON.stringify(list))
             toast.success('Saved filter "' + saveName + '"')
@@ -137,7 +141,7 @@ export default function IndexSearchForm(props) {
                                 searchOptions={props.tunebook.getSearchTuneBookOptions}
                                 triggerElement={
                                     <Button variant="primary" style={{marginLeft:'0.1em'}}>
-                                        {props.tunebook.icons.book} {(props.currentTuneBook ? <b>{props.currentTuneBook}</b> : '')}
+                                        {props.tunebook.icons.book} {(props.currentTuneBook ? <b>{String(props.currentTuneBook).toLowerCase()}</b> : '')}
                                     </Button>
                                 }
                             />
@@ -162,15 +166,39 @@ export default function IndexSearchForm(props) {
                             }}
                         />
 
+                        <GenreSearchSelectorModal
+                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            forceRefresh={props.forceRefresh}
+                            tunebook={props.tunebook}
+                            defaultOptions={props.tunebook.getTuneGenreOptions}
+                            searchOptions={props.tunebook.getSearchTuneGenreOptions}
+                            value={props.genreFilter}
+                            onChange={function(val) {
+                                props.setGenreFilter(val)
+                                props.forceRefresh()
+                            }}
+                        />
+
+                        <ArtistSearchSelectorModal
+                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            forceRefresh={props.forceRefresh}
+                            tunebook={props.tunebook}
+                            defaultOptions={props.tunebook.getTuneArtistOptions}
+                            searchOptions={props.tunebook.getSearchTuneArtistOptions}
+                            value={props.artistFilter}
+                            onChange={function(val) {
+                                props.setArtistFilter(val)
+                                props.forceRefresh()
+                            }}
+                        />
+
                         {showGroupBy ? (
                             <GroupBySelectorModal
-                                LIST_PROTECTION_LIMIT={props.LIST_PROTECTION_LIMIT}
                                 onChange={function(val) { props.setGroupBy(val)}}
                                 value={props.groupBy}
                                 tunebook={props.tunebook}
                                 showPreviewInList={props.showPreviewInList}
                                 setShowPreviewInList={props.setShowPreviewInList}
-                                tunes={Object.keys(props.filtered)}
                             />
                         ) : null}
 

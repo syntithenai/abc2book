@@ -218,7 +218,52 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 				xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
 				xhr.send();
 		})
-	}		
+	}
+
+    function findOrCreateRecordingsFolderInDrive(parentFolderId) {
+		return new Promise(function(resolve) {
+			if (!parentFolderId || !accessToken) {
+				resolve(null)
+				return
+			}
+			var recordingsFolderName = 'Recordings'
+			var xhr = new XMLHttpRequest()
+			xhr.onload = function(res) {
+				if (!res.target.responseText) {
+					resolve(null)
+					return
+				}
+				var response = JSON.parse(res.target.responseText)
+				var found = null
+				if (response && Array.isArray(response.files)) {
+					response.files.forEach(function(file) {
+						if (file && file.name === recordingsFolderName) {
+							found = file.id
+						}
+					})
+				}
+				if (found) {
+					resolve(found)
+				} else {
+					createDocument(
+						recordingsFolderName,
+						null,
+						'application/vnd.google-apps.folder',
+						'Recordings from TuneBook',
+						parentFolderId
+					).then(function(newId) {
+						resolve(newId && !newId.error ? newId : null)
+					})
+				}
+			}
+			var filter = '?q=' + encodeURIComponent(
+				"name='" + recordingsFolderName + "' and mimeType = 'application/vnd.google-apps.folder' and '" + parentFolderId + "' in parents and trashed = false"
+			)
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken)
+			xhr.send()
+		})
+	}
 	
   function _pollChanges(interval, onChanges, multiplier = 1) {
       //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
@@ -777,6 +822,33 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
   
-  return {findTuneBookFolderInDrive, getPublicDocument, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
+  function getPublicDocumentBlob(id) {
+    return new Promise(function(resolve) {
+      if (!id) {
+        resolve({ error: 'missing id' })
+        return
+      }
+      axios({
+        method: 'get',
+        url: 'https://drive.google.com/u/0/uc?id=' + encodeURIComponent(id) + '&export=download',
+        responseType: 'blob',
+      }).then(function(postRes) {
+        const blob = postRes.data
+        if (!blob || blob.error) {
+          resolve({ error: blob && blob.error ? blob.error : 'empty blob' })
+          return
+        }
+        if (blob.type && String(blob.type).indexOf('text/html') !== -1) {
+          resolve({ error: 'unexpected html response' })
+          return
+        }
+        resolve(blob)
+      }).catch(function(e) {
+        resolve({ error: e })
+      })
+    })
+  }
+
+  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
   
 }

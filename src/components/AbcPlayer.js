@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import abcjs from "abcjs";
+import { getResourceBase } from '../resourceBase';
 //qpm	whatever is in the Q: field	Number of beats per minute.
 //extraMeasuresAtBeginning	0	Don't start the callbacks right away, but insert this number of measures first.
 //beatCallback	null	Called for each beat passing the beat number (starting at 0).
@@ -28,7 +29,7 @@ export default function AbcPlayer(props) {
                 if (props.abc) {
                     //console.log(props.abc)
                     var a = new Date().getTime()
-                    var linkBase = process.env.NODE_ENV === "development" ? 'http://localhost:4000' : ''
+                    var linkBase = getResourceBase()
                          
                     //var m = abcjs.synth.getMidiFile(props.abc, { chordsOff: false, midiOutputType: "encoded" });
                     

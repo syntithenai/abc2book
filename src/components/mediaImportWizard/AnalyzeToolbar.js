@@ -1,18 +1,24 @@
-import { useEffect, useRef, useCallback } from 'react';
-import { Alert, Button, ListGroup } from 'react-bootstrap';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Alert, Button, ButtonGroup, Form, ListGroup } from 'react-bootstrap';
 import useTuneMediaAnalysis from '../../useTuneMediaAnalysis';
-import MelodyProcessingPanel from '../MelodyProcessingPanel';
+import MelodyProcessingPanel, {
+  ANALYSIS_HELP_FIELDS,
+  MUSIC_TYPE_OPTIONS,
+} from '../MelodyProcessingPanel';
+import { FieldHelpModal } from '../FormFieldHelp';
+import { icons } from '../../Icons';
 import SearchProgressBar from '../SearchProgressBar';
 import { buildAnalysisProcessingPayload } from '../../melodyProcessingSettings';
+import { getLinkedMediaSourceByIndex } from '../../mediaTranscriptionSources';
 
 export default function MediaImportAnalyzeToolbar(props) {
   const tune = props.tune;
   const processingSettings = props.processingSettings;
   const melodyNoteSettings = props.melodyNoteSettings;
   const onProcessingChange = props.onProcessingChange;
-  const autoAnalyzeStartedRef = useRef(false);
   const resolverAvailable = props.resolverAvailable !== false;
   const canAnalyzeMedia = props.canAnalyzeMedia !== false && resolverAvailable;
+  const canSearch = props.canSearch !== false;
   const {
     mediaSources,
     isAnalyzing,
@@ -26,7 +32,11 @@ export default function MediaImportAnalyzeToolbar(props) {
   } = useTuneMediaAnalysis({ tune: tune });
 
   const existingLyrics = props.existingLyrics;
-  const autoAnalyze = props.autoAnalyze;
+  const preferredLinkIndex = props.preferredLinkIndex;
+
+  const preferredSource = useMemo(function() {
+    return getLinkedMediaSourceByIndex(tune, props.tunebook, preferredLinkIndex);
+  }, [tune, props.tunebook, preferredLinkIndex]);
 
   const getAnalysisOptions = useCallback(function() {
     return {
@@ -49,54 +59,163 @@ export default function MediaImportAnalyzeToolbar(props) {
     existingLyrics,
   ]);
 
-  const tuneId = tune ? tune.id : null;
+  const canStartAnalysis = canAnalyzeMedia
+    && (preferredSource || mediaSources.length > 0)
+    && !(preferredLinkIndex !== null && preferredLinkIndex !== undefined && !preferredSource);
 
-  useEffect(function() {
-    autoAnalyzeStartedRef.current = false;
-  }, [tuneId, autoAnalyze]);
-
-  useEffect(function() {
-    if (!autoAnalyze || autoAnalyzeStartedRef.current) return;
-    if (!canAnalyzeMedia || mediaSources.length === 0 || isAnalyzing) return;
-    autoAnalyzeStartedRef.current = true;
+  const startAnalysis = useCallback(function() {
+    if (preferredSource) {
+      runAnalysis(preferredSource, getAnalysisOptions());
+      return;
+    }
     requestAnalysis(getAnalysisOptions());
+  }, [preferredSource, runAnalysis, requestAnalysis, getAnalysisOptions]);
+
+  const startAnalysisInBackground = useCallback(function() {
+    startAnalysis();
+    if (typeof props.onBackgroundStart === 'function') {
+      props.onBackgroundStart();
+    }
+  }, [startAnalysis, props.onBackgroundStart]);
+
+  const autoStartRequestedRef = useRef(false);
+  useEffect(function() {
+    if (!props.autoStartAnalysis) {
+      autoStartRequestedRef.current = false;
+      return;
+    }
+    if (autoStartRequestedRef.current || isAnalyzing || !canStartAnalysis) return;
+    autoStartRequestedRef.current = true;
+    startAnalysisInBackground();
+  }, [props.autoStartAnalysis, isAnalyzing, canStartAnalysis, startAnalysisInBackground]);
+
+  const searchBusy = !!props.searchBusy;
+  const isBusy = isAnalyzing || searchBusy;
+  const [showAnalysisHelp, setShowAnalysisHelp] = useState(false);
+
+  const handleCancel = useCallback(function() {
+    if (isAnalyzing) {
+      requestAnalysis(getAnalysisOptions());
+    }
+    if (searchBusy && typeof props.onCancelSearch === 'function') {
+      props.onCancelSearch();
+    }
   }, [
-    autoAnalyze,
-    canAnalyzeMedia,
-    mediaSources.length,
     isAnalyzing,
-    tuneId,
-    getAnalysisOptions,
+    searchBusy,
+    props.onCancelSearch,
     requestAnalysis,
+    getAnalysisOptions,
   ]);
+
+  function startFullScrape() {
+    if (canStartAnalysis) {
+      startAnalysis();
+    }
+    if (typeof props.onFullLookup === 'function') {
+      props.onFullLookup();
+    }
+  }
+
+  const canFullScrape = resolverAvailable
+    && canSearch
+    && typeof props.onFullLookup === 'function'
+    && (canStartAnalysis || typeof props.onSearch === 'function');
+
+  function updateProcessingField(field, value) {
+    const next = Object.assign({}, processingSettings, { [field]: value });
+    if (typeof onProcessingChange === 'function') {
+      onProcessingChange(next);
+    }
+  }
 
   return (
     <div className="media-import-analyze-toolbar">
       <div className="media-import-analyze-header">
-        {canAnalyzeMedia && (
-          <div className="media-import-analyze-header-title">Analysis settings</div>
-        )}
         <div className="media-import-wizard-nav-actions">
+          {isBusy ? (
+            <Button variant="warning" onClick={handleCancel}>
+              Cancel
+            </Button>
+          ) : (
+            <>
+              {typeof props.onSearch === 'function' && (
+                <Button
+                  variant="outline-primary"
+                  disabled={!canSearch}
+                  onClick={props.onSearch}
+                >
+                  Search
+                </Button>
+              )}
+              {canAnalyzeMedia && (
+                <>
+                  <ButtonGroup className="media-import-analyze-btn-group">
+                    <Button
+                      variant="outline-secondary"
+                      className="media-import-analyze-help-btn"
+                      onClick={function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        setShowAnalysisHelp(true);
+                      }}
+                      title="Explain analysis settings"
+                      aria-label="Explain analysis settings"
+                    >
+                      {icons.question}
+                    </Button>
+                    <Form.Select
+                      value={(processingSettings && processingSettings.musicType) || 'vocal'}
+                      onChange={function(e) { updateProcessingField('musicType', e.target.value); }}
+                      aria-label="Music type"
+                      className="media-import-analyze-music-type-select"
+                    >
+                      {MUSIC_TYPE_OPTIONS.map(function(option) {
+                        return (
+                          <option key={option.value} value={option.value}>{option.label}</option>
+                        );
+                      })}
+                    </Form.Select>
+                    <div className="media-import-analyze-meter-segment">
+                      <Form.Check
+                        type="checkbox"
+                        id="media-import-enable-meter-changes"
+                        label="Time sig. changes"
+                        checked={!!(processingSettings && processingSettings.enableMeterChanges)}
+                        onChange={function(e) { updateProcessingField('enableMeterChanges', e.target.checked); }}
+                        title="Enable time signature changes in chord and melody output"
+                      />
+                    </div>
+                    <Button
+                      variant="primary"
+                      disabled={!canStartAnalysis}
+                      onClick={startAnalysisInBackground}
+                    >
+                      Analyse Audio
+                    </Button>
+                  </ButtonGroup>
+                  <FieldHelpModal
+                    show={showAnalysisHelp}
+                    title="Analysis settings"
+                    fields={ANALYSIS_HELP_FIELDS}
+                    onHide={function() { setShowAnalysisHelp(false); }}
+                  />
+                </>
+              )}
+              {canFullScrape && (
+                <Button
+                  variant="outline-success"
+                  disabled={!canSearch}
+                  onClick={startFullScrape}
+                >
+                  Full Scrape
+                </Button>
+              )}
+            </>
+          )}
           <Button
-            size="sm"
-            variant="secondary"
-            disabled={props.stepIndex <= 0}
-            onClick={props.onPrevious}
-          >
-            Previous
-          </Button>
-          <Button
-            size="sm"
-            variant="secondary"
-            disabled={props.stepIndex >= props.stepCount - 1}
-            onClick={props.onNext}
-          >
-            Next
-          </Button>
-          <Button
-            size="sm"
             variant="success"
-            disabled={!props.canFinish}
+            disabled={isBusy}
             onClick={props.onFinish}
           >
             {props.finishLabel || 'Finish'}
@@ -104,45 +223,30 @@ export default function MediaImportAnalyzeToolbar(props) {
         </div>
       </div>
       {canAnalyzeMedia && (
-      <MelodyProcessingPanel
-        variant="analysis"
-        showTitle={false}
-        settings={processingSettings}
-        persist={false}
-        onChange={onProcessingChange}
-      />
+        <MelodyProcessingPanel
+          variant="analysis"
+          showTitle={false}
+          hideAnalysisControls={true}
+          settings={processingSettings}
+          persist={false}
+          onChange={onProcessingChange}
+        />
       )}
-      <div className="media-import-analyze-actions">
-        {!resolverAvailable && (
-          <Alert variant="warning" style={{ marginBottom: 0 }}>Media resolver is not available.</Alert>
-        )}
-        {resolverAvailable && !canAnalyzeMedia && (
-          <Alert variant="info" style={{ marginBottom: 0 }}>Automatic media analysis is not available on this resolver.</Alert>
-        )}
-        {canAnalyzeMedia && mediaSources.length === 0 && (
-          <Alert variant="warning" style={{ marginBottom: 0 }}>No linked media is available for this tune.</Alert>
-        )}
-        {canAnalyzeMedia && (
-        <Button
-          variant={isAnalyzing ? 'warning' : 'primary'}
-          disabled={mediaSources.length === 0}
-          onClick={function() {
-            requestAnalysis(getAnalysisOptions());
-          }}
-        >
-          {isAnalyzing ? 'Cancel' : 'Analyze media'}
-        </Button>
-        )}
-        {typeof props.onSearch === 'function' && resolverAvailable && (
-          <Button
-            variant={props.searchBusy ? 'warning' : 'outline-primary'}
-            disabled={isAnalyzing && !props.searchBusy}
-            onClick={props.onSearch}
-          >
-            {props.searchBusy ? 'Cancel' : 'Search'}
-          </Button>
-        )}
-      </div>
+      {resolverAvailable && !canAnalyzeMedia && (
+        <Alert variant="info" className="media-import-analyze-alert">
+          Automatic media analysis is not available on this resolver.
+        </Alert>
+      )}
+      {canAnalyzeMedia && mediaSources.length === 0 && (
+        <Alert variant="warning" className="media-import-analyze-alert">
+          No linked media is available for this tune.
+        </Alert>
+      )}
+      {canAnalyzeMedia && preferredLinkIndex !== null && preferredLinkIndex !== undefined && !preferredSource && (
+        <Alert variant="warning" className="media-import-analyze-alert">
+          The selected link does not have media to analyze.
+        </Alert>
+      )}
       {isAnalyzing && (
         <div className="media-import-analyze-progress">
           <SearchProgressBar
@@ -158,25 +262,25 @@ export default function MediaImportAnalyzeToolbar(props) {
           visible={true}
           percent={props.searchProgressPercent || 0}
           message={props.searchProgressMessage}
-          defaultMessage="Searching for chords and lyrics..."
+          defaultMessage="Searching..."
         />
       )}
       {props.searchError && (
-        <Alert variant="danger" style={{ marginTop: '0.75em', marginBottom: 0 }}>{props.searchError}</Alert>
+        <Alert variant="danger" className="media-import-analyze-alert">{props.searchError}</Alert>
       )}
       {props.searchSource && !props.searchError && (
-        <Alert variant="success" style={{ marginTop: '0.75em', marginBottom: 0 }}>
+        <Alert variant="success" className="media-import-analyze-alert">
           Imported from {props.searchSource}
         </Alert>
       )}
-      {error && <Alert variant="danger" style={{ marginTop: '0.75em', marginBottom: 0 }}>{error}</Alert>}
+      {error && <Alert variant="danger" className="media-import-analyze-alert">{error}</Alert>}
       {analysis && analysis.formatted && (
-        <Alert variant="success" style={{ marginTop: '0.75em', marginBottom: 0 }}>
+        <Alert variant="success" className="media-import-analyze-alert">
           Analysis complete.
         </Alert>
       )}
       {showSourceDialog && canAnalyzeMedia && (
-        <ListGroup style={{ marginTop: '0.75em' }}>
+        <ListGroup className="media-import-analyze-source-list">
           {mediaSources.map(function(source) {
             return (
               <ListGroup.Item key={source.id}>
@@ -189,6 +293,9 @@ export default function MediaImportAnalyzeToolbar(props) {
                     disabled={isAnalyzing}
                     onClick={function() {
                       runAnalysis(source, getAnalysisOptions());
+                      if (typeof props.onBackgroundStart === 'function') {
+                        props.onBackgroundStart();
+                      }
                     }}
                   >
                     Use this

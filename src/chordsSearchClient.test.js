@@ -1,5 +1,38 @@
-import { normalizeChordsSearch, handleChordsSearchStreamEvent } from './chordsSearchClient'
+import {
+  normalizeChordsSearch,
+  handleChordsSearchStreamEvent,
+  searchChords,
+  searchChordsViaResolver,
+} from './chordsSearchClient'
+import { searchChordsLight, CHORDS_LIGHT_ERROR } from './chordsSearchLight'
+import * as mediaProxyClient from './mediaProxyClient'
+import * as mediaResolverHealthStore from './mediaResolverHealthStore'
 import { sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
+
+jest.mock('./chordsSearchLight', function() {
+  return {
+    CHORDS_LIGHT_ERROR: 'No chord sheet found in local collections (Ultimate Guitar and similar sites require the media resolver)',
+    searchChordsLight: jest.fn(function() {
+      return Promise.reject(new Error('No chord sheet found in local collections (Ultimate Guitar and similar sites require the media resolver)'))
+    }),
+  }
+})
+
+jest.mock('./mediaProxyClient', function() {
+  const actual = jest.requireActual('./mediaProxyClient')
+  return Object.assign({}, actual, {
+    fetchViaMediaProxy: jest.fn(),
+    isMediaProxyConfigured: jest.fn(function() { return true }),
+  })
+})
+
+jest.mock('./mediaResolverHealthStore', function() {
+  return {
+    getMediaResolverHealthState: jest.fn(function() {
+      return { checked: true, available: true }
+    }),
+  }
+})
 
 describe('chordSheetImportUtils', function() {
   test('sheetLinesToWizardChords preserves section breaks and strips lyrics', function() {
@@ -57,6 +90,8 @@ describe('chordsSearchClient', function() {
       'Amazing Grace, how sweet the sound,',
       'That saved a wretch like me:',
     ])
+    expect(Array.isArray(result.chordSheetAlignment)).toBe(true)
+    expect(result.chordSheetAlignment.length).toBeGreaterThan(0)
     expect(result.source).toBe('azchords.com')
   })
 
@@ -93,5 +128,51 @@ describe('chordsSearchClient', function() {
     }, function() {})
     expect(result.chordText).toBe('G C G|')
     expect(result.source).toBe('azchords.com')
+  })
+
+  describe('searchChords facade', function() {
+    beforeEach(function() {
+      mediaProxyClient.fetchViaMediaProxy.mockReset()
+      searchChordsLight.mockReset()
+      searchChordsLight.mockRejectedValue(new Error(CHORDS_LIGHT_ERROR))
+      mediaProxyClient.isMediaProxyConfigured.mockReturnValue(true)
+      mediaResolverHealthStore.getMediaResolverHealthState.mockReturnValue({
+        checked: true,
+        available: true,
+      })
+    })
+
+    test('light path throws clear message when resolver unavailable', async function() {
+      await expect(searchChords({ title: 'Amazing Grace', resolverAvailable: false }))
+        .rejects.toThrow(CHORDS_LIGHT_ERROR)
+      expect(mediaProxyClient.fetchViaMediaProxy).not.toHaveBeenCalled()
+    })
+
+    test('falls back to light path on infrastructure errors', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
+        new Error('Could not reach the media resolver')
+      )
+
+      await expect(searchChords({ title: 'Amazing Grace' }))
+        .rejects.toThrow(CHORDS_LIGHT_ERROR)
+    })
+
+    test('uses resolver when available', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/json' } },
+        json: async function() {
+          return {
+            sheetLines: ['G C G', 'Amazing Grace'],
+            source: 'azchords.com',
+          }
+        },
+      })
+
+      const result = await searchChordsViaResolver({ title: 'Amazing Grace' })
+
+      expect(searchChordsLight).not.toHaveBeenCalled()
+      expect(result.chordText).toBe('G C G|')
+    })
   })
 })

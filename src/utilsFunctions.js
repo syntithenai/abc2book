@@ -2,6 +2,15 @@ import abcjs from "abcjs";
 import * as localForage from "localforage";
 import localforage from "localforage";
 import { clearExternalMediaCache } from './externalMediaAudioCache';
+import { clearStemCache } from './audioStemCache';
+import {
+  cleanupHalfAudioCache,
+  clearAudioAndStemCacheForTuneIds,
+  clearAudioCacheForTuneIds,
+  clearMidiCacheForTuneIds,
+  clearStemCacheForTunes,
+  scheduleMediaCacheStorageCheck,
+} from './mediaCacheStorage';
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import {unzip} from 'unzipit';
 
@@ -282,20 +291,86 @@ export default function utilsFunctions(props) {
     } 
     
     /**
-     * Clear everything in the audio cache (of files generated from abc notation)
+     * Clear MIDI / ABC synth playback cache (abcaudiocache).
      */
-    function resetAudioCache() {
-      
+    function clearMidiCache(_lockedTuneIds) {
       var store = localForage.createInstance({
           name: "abcaudiocache"
-      });     
-      store.clear().then(function() {
+      });
+      return store.clear().then(function() {
+          scheduleMediaCacheStorageCheck(0);
       }).catch(function(err) {
           console.log(err);
+          throw err;
       });
-      clearExternalMediaCache().catch(function(err) {
+    }
+
+    function clearMidiCacheForTunes(tuneIds) {
+      return clearMidiCacheForTuneIds(tuneIds).catch(function(err) {
           console.log(err);
+          throw err;
       });
+    }
+
+    /**
+     * Clear downloaded linked media cache (externalmediacache).
+     */
+    function clearDownloadedAudioCache(lockedTuneIds) {
+      return clearExternalMediaCache(lockedTuneIds).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    /**
+     * Clear half of downloaded audio cache, oldest entries first.
+     */
+    function cleanupHalfDownloadedAudioCache(lockedTuneIds) {
+      const options = lockedTuneIds ? { lockedTuneIds: lockedTuneIds } : null;
+      return cleanupHalfAudioCache(options).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    /**
+     * Clear stem separation cache (stemcache).
+     */
+    function clearStemsCache(lockedTuneIds) {
+      return clearStemCache(lockedTuneIds).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    function clearDownloadedAudioCacheForTunes(tuneIds, options) {
+      return clearAudioCacheForTuneIds(tuneIds, options).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    function clearStemsCacheForTunes(tuneIds, options) {
+      return clearStemCacheForTunes(tuneIds, options).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    function clearAudioAndStemsCacheForTunes(tuneIds, options) {
+      return clearAudioAndStemCacheForTuneIds(tuneIds, options).catch(function(err) {
+          console.log(err);
+          throw err;
+      });
+    }
+
+    /**
+     * Clear all playback-related caches (MIDI, downloaded audio, stems).
+     */
+    function resetAudioCache() {
+      clearMidiCache();
+      clearDownloadedAudioCache();
+      clearStemsCache();
     }
     
     /**
@@ -486,6 +561,6 @@ export default function utilsFunctions(props) {
 	  //const blob = await entries['path/to/otherFile'].blob('image/png');
 	}
           
-    return {onFileSelectedToBase64, unzipBlob, blobToText, blobToBase64, dataURItoBlob, loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl, readFileAsBase64, readFileAsArrayBuffer, readFileAsText}
+    return {onFileSelectedToBase64, unzipBlob, blobToText, blobToBase64, dataURItoBlob, loadLocalObject, saveLocalObject,loadLocalforageObject, saveLocalforageObject, toSearchText, scrollTo, generateObjectId, hash, nextNumber, previousNumber, download, copyText, uniquifyArray, stripText, stripCommonWords, resetAudioCache, clearMidiCache, clearMidiCacheForTunes, clearDownloadedAudioCache, cleanupHalfDownloadedAudioCache, clearStemsCache, clearDownloadedAudioCacheForTunes, clearStemsCacheForTunes, clearAudioAndStemsCacheForTunes, isYoutubeLink, YouTubeGetID, removeQuotedSections, removeSquareBracketedSections, canonicalChordForKey, loadFileFromUrl, readFileAsBase64, readFileAsArrayBuffer, readFileAsText}
     
 }

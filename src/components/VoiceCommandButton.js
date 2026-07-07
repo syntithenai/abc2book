@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 import SearchResultPickerModal from './SearchResultPickerModal';
+import VoiceHelpAnswerModal from './VoiceHelpAnswerModal';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
@@ -23,6 +24,8 @@ export default function VoiceCommandButton(props) {
   const [pickerItems, setPickerItems] = useState([]);
   const [pickerTitle, setPickerTitle] = useState('');
   const [showPicker, setShowPicker] = useState(false);
+  const [showHelpAnswer, setShowHelpAnswer] = useState(false);
+  const [helpAnswer, setHelpAnswer] = useState(null);
 
   const mediaRecorderRef = useRef(null);
   const mediaStreamRef = useRef(null);
@@ -148,10 +151,11 @@ export default function VoiceCommandButton(props) {
         fileName: 'voice-command.webm',
         books: catalogs.books,
         tags: catalogs.tags,
+        mode: props.voiceMode || 'playback',
         accessToken: props.token && props.token.access_token,
         signal: controller.signal,
         onProgress: function(message) {
-          toast.info(message, { autoClose: 1500 });
+          toast.info(message);
         },
       });
 
@@ -166,9 +170,15 @@ export default function VoiceCommandButton(props) {
         setTagFilter: props.setTagFilter,
         setGroupBy: props.setGroupBy,
         setCurrentTune: props.setCurrentTune,
+        mediaController: props.mediaController,
+        voiceMode: props.voiceMode || 'playback',
         speakFeedback: speakFeedback,
         onFeedback: function(message) {
           toast.info(message);
+        },
+        onHelpAnswer: function(payload) {
+          setHelpAnswer(payload || null);
+          setShowHelpAnswer(true);
         },
         onDisambiguate: function(candidates, query) {
           return new Promise(function(resolve) {
@@ -201,6 +211,7 @@ export default function VoiceCommandButton(props) {
     pointerActiveRef.current = true;
     event.currentTarget.setPointerCapture(event.pointerId);
     holdTimerRef.current = setTimeout(function() {
+      holdTimerRef.current = null;
       if (pointerActiveRef.current) startRecording();
     }, MIN_HOLD_MS);
   }
@@ -208,6 +219,7 @@ export default function VoiceCommandButton(props) {
   function handlePointerUp(event) {
     event.preventDefault();
     pointerActiveRef.current = false;
+    const wasShortTap = !!holdTimerRef.current;
     if (holdTimerRef.current) {
       clearTimeout(holdTimerRef.current);
       holdTimerRef.current = null;
@@ -216,6 +228,9 @@ export default function VoiceCommandButton(props) {
       stopRecording();
     } else if (state === 'idle') {
       setKeyboardBlocked(false);
+      if (wasShortTap) {
+        toast.warning('Hold the mic button down while speaking');
+      }
     }
     try {
       event.currentTarget.releasePointerCapture(event.pointerId);
@@ -251,6 +266,10 @@ export default function VoiceCommandButton(props) {
 
   if (!resolverAvailable || !features.whisper) return null;
 
+  const micTitle = props.voiceMode === 'help'
+    ? 'Hold to ask a help question'
+    : 'Hold to speak: show, search, play, or stop';
+
   const className = 'header-voice-btn'
     + (state === 'recording' ? ' recording' : '')
     + (state === 'processing' ? ' processing' : '');
@@ -261,7 +280,7 @@ export default function VoiceCommandButton(props) {
         type="button"
         className={className}
         aria-label="Hold to speak a command"
-        title="Hold to speak: show [song] or search [filters]"
+        title={micTitle}
         aria-pressed={state === 'recording'}
         disabled={state === 'processing'}
         onPointerDown={handlePointerDown}
@@ -279,6 +298,17 @@ export default function VoiceCommandButton(props) {
         emptyMessage="No matching tunes."
         onSelect={handlePickerSelect}
         onHide={handlePickerHide}
+      />
+      <VoiceHelpAnswerModal
+        show={showHelpAnswer}
+        question={helpAnswer && helpAnswer.question ? helpAnswer.question : ''}
+        answer={helpAnswer && helpAnswer.answer ? helpAnswer.answer : ''}
+        links={helpAnswer && helpAnswer.links ? helpAnswer.links : []}
+        accessToken={props.token && props.token.access_token}
+        onProgress={function(message) {
+          toast.info(message);
+        }}
+        onHide={function() { setShowHelpAnswer(false) }}
       />
     </>
   );

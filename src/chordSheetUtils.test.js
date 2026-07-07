@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isSectionHeader, classifyLyricChordLines, hasChordLines, splitIntoBlocks, normalizeSectionType, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, formatChordChartForDisplay } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex } from './chordSheetUtils';
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
@@ -34,7 +34,76 @@ describe('chordSheetUtils', function() {
     expect(isSectionHeader('# Verse 2')).toBe(true);
     expect(isSectionHeader('#Chorus')).toBe(true);
     expect(isSectionHeader('## Bridge')).toBe(true);
+    expect(isSectionHeader('# Intro (x 2)')).toBe(true);
+    expect(isSectionHeader('# Interlude (x 1)')).toBe(true);
+    expect(isSectionHeader('# Verse 3 (x 2)')).toBe(true);
+    expect(isSectionHeader('# Guitar Verse')).toBe(true);
+    expect(isSectionHeader('– solo')).toBe(true);
+    expect(isSectionHeader('- Instrumental')).toBe(true);
+    expect(isSectionHeader('— Solo (x 2)')).toBe(true);
     expect(isSectionHeader('# I really like Christmas')).toBe(false);
+    expect(isSectionHeader('first verse words here')).toBe(false);
+  });
+
+  test('splitBlocksOnInteriorHeaders separates consecutive section markers', function() {
+    const blocks = splitIntoBlocks(['# Verse 3', '– solo', '', '# Chorus 3', 'sing']);
+    expect(splitBlocksOnInteriorHeaders(blocks)).toEqual([
+      ['# Verse 3'],
+      ['– solo'],
+      ['# Chorus 3', 'sing'],
+    ]);
+  });
+
+  test('normalizeLyricBlocks handles dash-prefixed solo after another header', function() {
+    const lyrics = ['# Verse 3', '– solo', '', '# Chorus 3', 'chorus line'];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['V3', 'SOLO', 'C3']);
+    expect(aligned[0].header).toBe('# Verse 3');
+    expect(aligned[1].header).toBe('– solo');
+    expect(aligned[2].header).toBe('# Chorus 3');
+    expect(aligned[2].lyricLines).toEqual(['chorus line']);
+  });
+
+  test('coalesceSectionHeaderBlocks attaches headers separated by blank lines', function() {
+    const blocks = splitIntoBlocks(['# Verse 1', '', 'first line', 'second line']);
+    expect(coalesceSectionHeaderBlocks(blocks)).toEqual([
+      ['# Verse 1', 'first line', 'second line'],
+    ]);
+    const introThenVerse = splitIntoBlocks(['# Intro (x 2)', '', '# Verse 1', '', 'sing this']);
+    expect(coalesceSectionHeaderBlocks(introThenVerse)).toEqual([
+      ['# Intro (x 2)'],
+      ['# Verse 1', 'sing this'],
+    ]);
+  });
+
+  test('alignChordBlocksToLyrics keeps headers with lyrics after a blank line', function() {
+    const lyrics = ['# Verse 1', '', 'first verse line', '', '# Chorus 1', '', 'chorus line'];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS']);
+    expect(aligned[0].header).toBe('# Verse 1');
+    expect(aligned[0].lyricLines).toEqual(['first verse line']);
+    expect(aligned[1].header).toBe('# Chorus 1');
+    expect(aligned[1].lyricLines).toEqual(['chorus line']);
+  });
+
+  test('identifies lyric version separators', function() {
+    expect(isLyricVersionSeparator('--------------')).toBe(true);
+    expect(isLyricVersionSeparator('============')).toBe(true);
+    expect(isLyricVersionSeparator('----')).toBe(true);
+    expect(isLyricVersionSeparator('---')).toBe(false);
+    expect(isLyricVersionSeparator('Verse 1')).toBe(false);
+    expect(isLyricVersionSeparator('')).toBe(false);
+  });
+
+  test('truncates lyric lines at version separator', function() {
+    const lines = [
+      'First version line 1',
+      'First version line 2',
+      '--------------',
+      'Second version line 1',
+    ];
+    expect(truncateLyricLinesAtVersionSeparator(lines)).toEqual([
+      'First version line 1',
+      'First version line 2',
+    ]);
   });
 
   test('normalizeSectionType groups "#" headers with their plain form', function() {
@@ -63,7 +132,15 @@ describe('chordSheetUtils', function() {
     expect(result.length).toBe(sheet.length);
     // chord-line whitespace alignment is preserved verbatim
     expect(result[3].text).toBe('Bb                               F');
+    expect(result[2].tokens.map(function(token) { return token.text; })).toEqual(['I', 'really', 'like', 'Christmas']);
+    expect(result[2].tokens[3].start).toBeGreaterThan(result[2].tokens[2].start);
     expect(hasChordLines(sheet)).toBe(true);
+  });
+
+  test('charOffsetToWordIndex maps a chord-space offset to the nearest lyric word', function() {
+    expect(charOffsetToWordIndex('I really like Christmas', 0)).toBe(0);
+    expect(charOffsetToWordIndex('I really like Christmas', 10)).toBe(2);
+    expect(charOffsetToWordIndex('I really like Christmas', 100)).toBe(3);
   });
 
   test('plain lyrics report no chord lines', function() {
@@ -108,7 +185,17 @@ describe('chordSheetUtils', function() {
     expect(chartBlockHasChords('F | Bb | C |')).toBe(true);
     expect(chartBlockHasChords('| | | |')).toBe(false);
     expect(chartBlockHasChords('. . . | . . . |')).toBe(false);
+    expect(chartBlockHasChords('| / | / | / |')).toBe(false);
+    expect(chartBlockHasChords('Dm/C | G |')).toBe(true);
     expect(chartBlockHasChords('VERSECHORDS')).toBe(true);
+  });
+
+  test('fillEmptyBarsWithSlash marks held bars with /', function() {
+    expect(fillEmptyBarsWithSlash('Fm | | Am |')).toBe('Fm | / | Am |');
+    expect(fillEmptyBarsWithSlash('Fm | . . . . | Am |')).toBe('Fm | / | Am |');
+    expect(fillEmptyBarsWithSlash('| Am |')).toBe(' / | Am |');
+    expect(fillEmptyBarsWithSlash('Fm | / | Am |')).toBe('Fm | / | Am |');
+    expect(fillEmptyBarsWithSlash('Am G | D |')).toBe('Am G | D |');
   });
 
   test('formatChordChartForDisplay drops blocks with no chord symbols', function() {
@@ -119,6 +206,10 @@ describe('chordSheetUtils', function() {
   test('formatChordChartForDisplay drops bar-only lines inside mixed blocks', function() {
     const chart = 'Am G |\n| | |\n| | |\n\n| | | |';
     expect(formatChordChartForDisplay(chart)).toBe('Am G |');
+  });
+
+  test('formatChordChartForDisplay fills empty bars with /', function() {
+    expect(formatChordChartForDisplay('Fm | | Am |\nBb | | | F |')).toBe('Fm | / | Am |\nBb | / | / | F |');
   });
 
   test('aligns repeated sections to the right chord block instead of running down the page', function() {
@@ -133,13 +224,13 @@ describe('chordSheetUtils', function() {
     const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
 
     expect(aligned.length).toBe(5);
-    // every section reuses the correct chord block by type; blocks with their
-    // own words (incl. the repeated verse/chorus with distinct words) merge inline
-    expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true });
-    expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true });
-    expect(aligned[2]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true });
-    expect(aligned[3]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true });
-    expect(aligned[4]).toMatchObject({ type: 'bridge', chart: 'BRIDGECHORDS', inlineChords: true });
+    // every section reuses the correct chord block by type; first occurrence
+    // merges inline, revisits show title only (no inline chords).
+    expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true, chartRevisit: false });
+    expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true, chartRevisit: false });
+    expect(aligned[2]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: false, chartRevisit: true });
+    expect(aligned[3]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: false, chartRevisit: true });
+    expect(aligned[4]).toMatchObject({ type: 'bridge', chart: 'BRIDGECHORDS', inlineChords: true, chartRevisit: false });
 
     // every lyric line is preserved
     expect(aligned[2].lyricLines).toEqual(['second verse words']);
@@ -153,7 +244,7 @@ describe('chordSheetUtils', function() {
     ];
     const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS']);
     expect(aligned.length).toBe(3);
-    expect(aligned[2]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: false });
+    expect(aligned[2]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: false, chartRevisit: true });
     expect(aligned[2].lyricLines).toEqual([]);
   });
 
@@ -198,9 +289,15 @@ describe('chordSheetUtils', function() {
     ];
     const aligned = alignChordBlocksToLyrics(lyrics, ['G | G | C | G |']);
     expect(aligned.length).toBe(3);
-    aligned.forEach(function(block) {
+    aligned.forEach(function(block, index) {
       expect(block.chart).toBe('G | G | C | G |');
-      expect(block.inlineChords).toBe(true);
+      if (index === 0) {
+        expect(block.inlineChords).toBe(true);
+        expect(block.chartRevisit).toBe(false);
+      } else {
+        expect(block.inlineChords).toBe(false);
+        expect(block.chartRevisit).toBe(true);
+      }
     });
   });
 
@@ -276,6 +373,19 @@ describe('chordSheetUtils', function() {
     expect(chordsUsed[0]).toBe('F');
   });
 
+  test('mergeChordsIntoLyricLines can honor an explicit anchor callback', function() {
+    const merged = mergeChordsIntoLyricLines(
+      ['I really like Christmas'],
+      'F | Bb | C |',
+      {
+        anchorWordIndexForBar: function(info) {
+          return [0, 2, 3][info.barIndex];
+        },
+      }
+    );
+    expect(merged[0].map(function(token) { return token.chord; })).toEqual(['F', '', 'Bb', 'C']);
+  });
+
   test('attaches unmapped chord blocks to the last non-inline lyric block', function() {
     const lyrics = ['[Verse 1]', 'only verse here'];
     const chordBlocks = ['VERSECHORDS', 'ORPHANCHORDS'];
@@ -283,6 +393,14 @@ describe('chordSheetUtils', function() {
     expect(aligned.length).toBe(1);
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[0].extraChart).toBe('ORPHANCHORDS');
+  });
+
+  test('normalizeLyricBlocks keeps wordless repeat header as its own block', function() {
+    const lyrics = ['[Verse 1]', 'first verse', '', '[Verse 2]'];
+    expect(normalizeLyricBlocks(lyrics)).toEqual([
+      ['[Verse 1]', 'first verse'],
+      ['[Verse 2]'],
+    ]);
   });
 
   test('wordless repeat section keeps chart for fallback display above plain lyrics', function() {

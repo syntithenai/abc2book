@@ -1,6 +1,8 @@
 import {Tabs, Tab, Modal, Button, ListGroup, Container, Col, Row} from 'react-bootstrap'
 import {Link, useNavigate} from 'react-router-dom'
 import DiffModal from './DiffModal'
+import { handleImportNavigation } from '../shareImportNavigation'
+import { runPendingShareImportSideEffect } from '../shareImportSession'
 //<DiffModal label={'Show Differences'} original={props.tunebook.abcTools.json2abc(v[0])}  modified={props.tunebook.abcTools.json2abc(v[1])} />
 
 export default function ImportWarningDialog(props) {
@@ -12,41 +14,24 @@ export default function ImportWarningDialog(props) {
   }
   
   function handleNavigation(tunes) {
-      //console.log("NAV",tunes,props.navigateTo)
       props.setImportResults(null)
-      //props.forceRefresh()
       var params = {}
       try {
           params = props.navigateAfterImport
       } catch (e) {
-        params = {}  
+        params = {}
       }
-      //console.log("NAV PARAMS",params)
-      //navigate('/tunes')
-      
-      if (params.autoplay && tunes) {
-            if (params.tuneId) {
-                navigate("/tunes"+(params.tuneId ? "/" + params.tuneId + (params.autoplay ? "/playMedia" : '') : ''))
-            } else {
-                var firstTuneId = props.tunebook.fillMediaPlaylist(
-                    params.bookName,
-                    '', (params.tagName && params.tagName.trim() ? [params.tagName] : []),tunes) 
-                navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + (params.autoplay ? "/playMedia" : '') : ''))
-            }
-            
-      } else { 
-          if (params.tuneId) {
-              navigate("/tunes/"+params.tuneId + (params.autoplay ? "/playMedia" : ''))
-          } else if (params.bookName || params.tagName) {
-              navigate("/tunes")
-          } else {
-              navigate("/books")
-          }
-          //console.log("GO TO ",params.bookName  )
-          
-      }
-      
-      
+
+      runPendingShareImportSideEffect().finally(function() {
+        handleImportNavigation(params, {
+          navigate: navigate,
+          tunebook: props.tunebook,
+          tunes: tunes,
+          setCurrentTuneBook: props.setCurrentTuneBook,
+          setTagFilter: props.setTagFilter,
+          setFilter: props.setFilter,
+        }, !!(params && params.autoplay))
+      })
   }
     
   return <Modal.Dialog  show="true" onHide={handleClose}

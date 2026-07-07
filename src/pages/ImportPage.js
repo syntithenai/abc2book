@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal} from 'react-bootstrap'
 import curated from '../CuratedTuneBooks'
 import ImportCollectionModal from '../components/ImportCollectionModal'
+import { curatedScrapeUrl } from '../resourceBase'
 
 export default function ImportPage(props) {
     var navigate = useNavigate()
@@ -14,7 +15,7 @@ export default function ImportPage(props) {
     useEffect(function() {
         if (props.tunebook.curatedTuneBooks[collection]) {
           if (props.tunebook.curatedTuneBooks[collection].link) {
-            navigate("/importlink/"+encodeURIComponent(props.tunebook.curatedTuneBooks[collection].link))
+            navigate("/importlink/"+encodeURIComponent(curatedScrapeUrl(props.tunebook.curatedTuneBooks[collection].link)))
           } else if (props.tunebook.curatedTuneBooks[collection].googleDocumentId) {
             navigate("/importdoc/"+props.tunebook.curatedTuneBooks[collection].googleDocumentId)
           } 

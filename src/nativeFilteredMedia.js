@@ -33,6 +33,7 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
       return {
         separation: cached.separation,
         stemBuffers: cached.stemBuffers,
+        stemWavBytes: cached.stemWavBytes || null,
         fromCache: true,
       };
     }
@@ -59,6 +60,7 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     return {
       separation: cachedAfterSeparation.separation || separation,
       stemBuffers: cachedAfterSeparation.stemBuffers,
+      stemWavBytes: cachedAfterSeparation.stemWavBytes || null,
       fromCache: true,
     };
   }
@@ -78,6 +80,7 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
   return {
     separation: separation,
     stemBuffers: fetched.stemBuffers,
+    stemWavBytes: fetched.stemWavBytes,
     fromCache: false,
   };
 }
@@ -88,13 +91,15 @@ export function mixStemBuffersOffline(stemBuffers, audioFilters) {
     return null;
   }
 
-  const sampleRate = buffers[0].sampleRate || 44100;
+  const nominalRate = buffers[0].sampleRate || 44100;
   const maxDuration = buffers.reduce(function(max, buffer) {
-    const rate = buffer.sampleRate || sampleRate;
+    const rate = buffer.sampleRate || nominalRate;
     return Math.max(max, buffer.length / rate);
   }, 0);
-  const length = Math.max(1, Math.ceil(maxDuration * sampleRate));
-  const offline = new OfflineAudioContext(2, length, sampleRate);
+  // OfflineAudioContext may use the hardware rate instead of the requested one.
+  const targetRate = new OfflineAudioContext(2, 1, nominalRate).sampleRate;
+  const length = Math.max(1, Math.ceil(maxDuration * targetRate));
+  const offline = new OfflineAudioContext(2, length, targetRate);
   return mixStemBuffers(offline, stemBuffers, audioFilters);
 }
 

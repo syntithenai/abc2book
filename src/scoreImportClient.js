@@ -3,6 +3,7 @@ import { extractMusicXmlFromMxl, isMusicXmlText } from './mxlExtract';
 import { musicXmlToAbc } from './musicXmlToAbc';
 
 export const MAX_MIDI_IMPORT_BYTES = 4 * 1024 * 1024;
+export const MAX_ABC_IMPORT_BYTES = 512 * 1024;
 
 const SCORE_EXTENSIONS = {
   abc: 'abc',
@@ -64,19 +65,89 @@ function decodeArrayBufferToText(arrayBuffer) {
   }
 }
 
-async function midiToMusicXml(midiBytes, fileName, accessToken, signal) {
-  if (!midiBytes || midiBytes.byteLength === 0) {
+export function normalizeMidiBytes(midiBytes) {
+  if (!midiBytes) return null;
+  if (midiBytes instanceof ArrayBuffer) {
+    return new Uint8Array(midiBytes);
+  }
+  if (ArrayBuffer.isView(midiBytes)) {
+    return midiBytes;
+  }
+  if (Array.isArray(midiBytes)) {
+    if (midiBytes.length === 1) {
+      return normalizeMidiBytes(midiBytes[0]);
+    }
+    if (midiBytes.every(function(part) { return part instanceof Uint8Array; })) {
+      const total = midiBytes.reduce(function(sum, part) { return sum + part.length; }, 0);
+      const merged = new Uint8Array(total);
+      let offset = 0;
+      midiBytes.forEach(function(part) {
+        merged.set(part, offset);
+        offset += part.length;
+      });
+      return merged;
+    }
+  }
+  return midiBytes;
+}
+
+async function readMusicXmlConversionResponse(response, errorLabel) {
+  const contentType = (response.headers.get('content-type') || '').toLowerCase();
+  if (contentType.indexOf('application/json') !== -1) {
+    const body = await response.json();
+    throw new Error(body.error || errorLabel);
+  }
+
+  const musicXml = await response.text();
+  if (!musicXml.trim()) {
+    throw new Error(errorLabel + ' returned empty MusicXML');
+  }
+  return musicXml;
+}
+
+export async function abcToMusicXml(abcText, fileName, accessToken, signal) {
+  const text = abcText === null || abcText === undefined ? '' : String(abcText).trim();
+  if (!text) {
+    throw new Error('ABC notation is empty');
+  }
+
+  const bytes = new TextEncoder().encode(text);
+  if (bytes.byteLength > MAX_ABC_IMPORT_BYTES) {
+    throw new Error(
+      'ABC notation is too large (' + bytes.byteLength + ' bytes; limit is '
+      + MAX_ABC_IMPORT_BYTES + ')'
+    );
+  }
+
+  const formData = new FormData();
+  formData.append('file', new Blob([bytes], { type: 'text/plain' }), fileName || 'export.abc');
+
+  const response = await fetchViaMediaProxy('/abc2xml', accessToken, {
+    method: 'POST',
+    body: formData,
+    signal: signal,
+    headers: {
+      Accept: 'application/xml, text/xml, text/plain, application/json',
+    },
+  });
+
+  return readMusicXmlConversionResponse(response, 'ABC conversion');
+}
+
+export async function midiToMusicXml(midiBytes, fileName, accessToken, signal) {
+  const normalized = normalizeMidiBytes(midiBytes);
+  if (!normalized || !normalized.byteLength) {
     throw new Error('MIDI file is empty');
   }
-  if (midiBytes.byteLength > MAX_MIDI_IMPORT_BYTES) {
+  if (normalized.byteLength > MAX_MIDI_IMPORT_BYTES) {
     throw new Error(
-      'MIDI file is too large (' + midiBytes.byteLength + ' bytes; limit is '
+      'MIDI file is too large (' + normalized.byteLength + ' bytes; limit is '
       + MAX_MIDI_IMPORT_BYTES + ')'
     );
   }
 
   const formData = new FormData();
-  formData.append('file', new Blob([midiBytes], { type: 'audio/midi' }), fileName || 'import.mid');
+  formData.append('file', new Blob([normalized], { type: 'audio/midi' }), fileName || 'import.mid');
 
   const response = await fetchViaMediaProxy('/midi2xml', accessToken, {
     method: 'POST',
@@ -87,17 +158,7 @@ async function midiToMusicXml(midiBytes, fileName, accessToken, signal) {
     },
   });
 
-  const contentType = (response.headers.get('content-type') || '').toLowerCase();
-  if (contentType.indexOf('application/json') !== -1) {
-    const body = await response.json();
-    throw new Error(body.error || 'MIDI conversion failed');
-  }
-
-  const musicXml = await response.text();
-  if (!musicXml.trim()) {
-    throw new Error('MIDI conversion returned empty MusicXML');
-  }
-  return musicXml;
+  return readMusicXmlConversionResponse(response, 'MIDI conversion');
 }
 
 /**

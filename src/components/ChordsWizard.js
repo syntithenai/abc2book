@@ -1,5 +1,5 @@
 import { Alert, Button, Form } from 'react-bootstrap'
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
 import CreatableSelect from 'react-select/creatable';
@@ -9,17 +9,23 @@ import { finalizeChordSheetToTune, noteLinesHaveRealMelody } from '../timedImpor
 import { getLyricLines } from '../wLinesUtils'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { CHORDS_FIELD_HELP } from '../formFieldHelpText'
+import ChordRecordControls from './ChordRecordControls'
 
 export default function ChordsWizard(props) {
     const [chords, setChords] = useState(props.chords)
+    const chordsFromRecordingRef = useRef(false)
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
     
     useEffect(function() {
+        if (chordsFromRecordingRef.current) {
+            chordsFromRecordingRef.current = false
+            return
+        }
         if (Array.isArray(props.notes)) { 
             var final = abcjsParser.renderChords(props.abc, true)
             setChords(final)
         }
-    },[props.notes, props.abc, abcjsParser])
+    },[props.notes, props.abc])
 
     const onConsumePendingChordImport = props.onConsumePendingChordImport
     useEffect(function() {
@@ -32,13 +38,59 @@ export default function ChordsWizard(props) {
     }, [props.pendingChordImport, onConsumePendingChordImport])
     
     var tune = props.tune
+
+    function applyChords(mode) {
+        var isAppend = mode === 'append'
+        var confirmMessage = isAppend
+            ? 'Append these chords after the existing notation?'
+            : 'Apply these chords from the start of the tune?'
+        if (!window.confirm(confirmMessage)) return
+
+        var chordGridText = isAppend
+            ? abcjsParser.buildAppendChordGrid(props.abc, chords)
+            : chords
+        if (!String(chordGridText || '').trim()) return
+
+        var abcJson = props.tunebook.abcTools.abc2json(props.abc)
+        abcJson.id = tune.id
+        var voiceKey = resolvePrimaryVoiceKey(abcJson.voices)
+        var existingNotes = abcJson.voices[voiceKey] && abcJson.voices[voiceKey].notes
+          ? abcJson.voices[voiceKey].notes
+          : []
+        var hasMelody = noteLinesHaveRealMelody(existingNotes)
+        var lyricLines = getLyricLines(tune)
+
+        if (hasMelody || tune.timingScaffold) {
+          finalizeChordSheetToTune({
+            tune: abcJson,
+            tunebook: props.tunebook,
+            abcjsParser: abcjsParser,
+            abc: props.abc,
+            chordGridText: chordGridText,
+            lyricLines: lyricLines,
+          })
+        } else {
+          var newAbcNotes = props.tunebook.abcTools.justNotes(abcjsParser.mergeChords(chordGridText, props.abc))
+          abcJson.voices[voiceKey] = { meta: '', notes: newAbcNotes.split('\n') }
+        }
+
+        props.tunebook.saveTune(abcJson, false, {
+          historyLabel: isAppend ? 'Append chords' : 'Merge chords',
+          immediate: true,
+        })
+    }
+
     return <div>
         <Form.Group  controlId="chordwiz">
             <div style={{display:'flex', flexWrap:'wrap', alignItems:'flex-start', gap:'1em'}} >
                 <ChordsSearchButton
                   title={tune.name}
                   artist={tune.composer || ''}
+                  rhythm={tune.rhythm || ''}
+                  currentGenre={tune.genre || ''}
+                  onGenreAccept={props.onGenreAccept}
                   token={props.token}
+                  tunebook={props.tunebook}
                   onChords={function(result) { setChords(result.chordText) }}
                   onLyrics={function(result) {
                     if (typeof props.onLyricsImport === 'function') {
@@ -54,33 +106,8 @@ export default function ChordsWizard(props) {
                 <Button variant="danger" onClick={function(e) {if (window.confirm('Do you really want to reset any changes you have made to these chords !!')) {setChords(abcjsParser.renderChords(props.abc, true))}}} >Reset</Button>
 
                 <div style={{marginLeft:'auto', display:'flex', gap:'1em', alignItems:'flex-start'}} >
-                    <Button variant="success" onClick={function(e) {if (window.confirm('Do you really want to update your music with these chords !!')) {
-                        var abcJson = props.tunebook.abcTools.abc2json(props.abc)
-                        abcJson.id = tune.id
-                        var voiceKey = resolvePrimaryVoiceKey(abcJson.voices)
-                        var existingNotes = abcJson.voices[voiceKey] && abcJson.voices[voiceKey].notes
-                          ? abcJson.voices[voiceKey].notes
-                          : []
-                        var hasMelody = noteLinesHaveRealMelody(existingNotes)
-                        var lyricLines = getLyricLines(tune)
-
-                        if (hasMelody || tune.timingScaffold) {
-                          finalizeChordSheetToTune({
-                            tune: abcJson,
-                            tunebook: props.tunebook,
-                            abcjsParser: abcjsParser,
-                            abc: props.abc,
-                            chordGridText: chords,
-                            lyricLines: lyricLines,
-                          })
-                        } else {
-                          var newAbcNotes = props.tunebook.abcTools.justNotes(abcjsParser.mergeChords(chords, props.abc))
-                          abcJson.voices[voiceKey] = { meta: '', notes: newAbcNotes.split('\n') }
-                        }
-
-                        props.tunebook.saveTune(abcJson, false, { historyLabel: 'Apply chords', immediate: true })
-
-                    }}} >Save</Button>
+                    <Button variant="primary" onClick={function() { applyChords('append') }}>Append</Button>
+                    <Button variant="success" onClick={function() { applyChords('merge') }}>Merge</Button>
 
                     <ParserProblemsDiff  tunebook={props.tunebook} abc={props.abc} />
                 </div>
@@ -100,6 +127,20 @@ export default function ChordsWizard(props) {
                     allowCreate={true}
                   />
         </Form.Group>
+
+        <ChordRecordControls
+          tune={tune}
+          meter={tune.meter}
+          initialChords={chords}
+          autoActivate={!!props.autoActivateChordRecord}
+          onChordsCaptured={function(gridText) {
+            const captured = String(gridText || '').trim()
+            if (captured) {
+              chordsFromRecordingRef.current = true
+              setChords(captured)
+            }
+          }}
+        />
                       
         <Form.Control disabled={(tune.meter ? false : true)} style={{height:'20em'}} as="textarea" placeholder={"eg \nC|F# C|Cmin . . G |Cb\nD|D|A D . A |C"} value={chords} onChange={function(e) {setChords(e.target.value); }}  />
     </div>

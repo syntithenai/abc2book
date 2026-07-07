@@ -6,10 +6,16 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 
 | Method | Path | Description |
 |--------|------|-------------|
-| GET | `/health` | Health check; reports `requireAuth`, resolver `features` (`proxy`, `stems`, `whisper`, `llm`), and when auth is enabled whether the bearer token is authorized |
+| GET | `/health` | Cheap liveness check (`ok`, `staticSite`, optional auth status) |
+| GET | `/health/ready` | Deep readiness check with `features`, Demucs model info, and cached LLM probe |
 | GET | `/youtube/:videoId/audio` | Stream YouTube audio |
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
 | POST | `/search-lyrics` | Search lyrics sites by title/artist (or fetch a supported lyrics URL) and return stanza chunks with ad/noise lines stripped. Accept `application/x-ndjson` for streaming progress events. |
+| POST | `/lyrics-dictionary` | Look up dictionary entries for a word through the resolver and return the dictionaryapi.dev-style response. |
+| POST | `/lyrics-thesaurus` | Return synonym, antonym, and related-word groups for a word through Datamuse. |
+| POST | `/lyrics-rhyme` | Return perfect rhymes, near rhymes, and sound-alike words for a word through Datamuse. |
+| POST | `/lyrics-reverse-dictionary` | Return meaning, topic, and pattern matches for a phrase or concept. |
+| POST | `/lyrics-phrases` | Return left-context, right-context, and phrase-shaped suggestions for a phrase or seed word. |
 | POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
 | POST | `/search-notation` | Search The Session and the web for ABC notation by title (optional `songType`: `song`, `instrumental`, `traditional_tune`). Accept `application/x-ndjson` for streaming progress events. |
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (LM Studio by default) |
@@ -17,25 +23,51 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
 | POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
 | POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody. Runs shared beat/downbeat timing first (`detect_timing.py`, madmom when available, librosa fallback), then lyrics/chords/melody in parallel. Melody uses CREPE when available with optional Demucs vocal separation; falls back to librosa pyin. Optional `processing` JSON controls separation, noise mode, and quantize settings. Response includes `timing`, `melody.silences`, and `melody.noise`. |
+| POST | `/transcribe-sheet-image` | Upload a chord-chart or lead-sheet image/PDF page. Runs PaddleOCR for lyrics/chords and homr OMR for main-melody ABC when staff notation is detected. Optional LLM cleanup for low-confidence chord text. |
 
 By default production compose does not require login (`REQUIRE_AUTH=false` in `.env.example`). **`docker-compose.dev.yml` sets `REQUIRE_AUTH=true`** so auth issues show up during local development. The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable (and authorized when auth is required).
 
 ## Quick start
 
+Build the tunebook once, then start the resolver. It serves the built app, local ABC
+collection files, soundfonts, and scrape helpers on port **8787** — no separate
+`npm start` or `npm run serveextras` process is required for local use.
+
 ```bash
+# from the project root
+npm run build
+
 cd local-resolver
 cp .env.example .env
 
 docker compose up --build
 ```
 
-Before starting the stack, make sure this host model file exists:
+Open **http://localhost:8787** for the full app (media resolver, piano, local tune
+search/import, and playback tools).
 
-```text
-/home/stever/projects/whisper models/ggml-large-v3.bin
+For React hot reload during UI work, you can still run `npm start` on port 3000.
+The dev server loads ABC/soundfont/scrape assets from the resolver on 8787 by
+default (override with `REACT_APP_RESOURCE_BASE` in `.env`).
+
+```bash
+# optional: UI development with live reload
+npm start
 ```
 
-The resolver container mounts that host directory read-only at `/models` and runs `whisper-cli` directly for lyrics transcription.
+Before starting the stack, download a whisper.cpp model and place it on the host.
+By default the resolver mounts `local-resolver/whisper/models` into the container
+at `/models`:
+
+```bash
+mkdir -p whisper/models
+# Example: ggml-large-v3 (~3 GB) from https://huggingface.co/ggerganov/whisper.cpp
+# Save as whisper/models/ggml-large-v3.bin
+```
+
+To use a different host directory, set `WHISPER_MODELS_DIR` in `.env` (absolute
+or relative to `local-resolver/`). The container expects the file at
+`/models/ggml-large-v3.bin` unless you override `MODEL_PATH` in compose.
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 
@@ -57,6 +89,8 @@ link. Other chord hosts may still be blocked by Cloudflare or site-specific
 anti-bot protections.
 
 Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
+
+Sheet image import (chord OCR + homr OMR) uses a separate `/opt/vision-venv`. During `docker compose build`, `prefetch_vision.py` runs `homr --init` and warms up PaddleOCR so ONNX and OCR weights are baked into the image. Paddle models are stored under `/opt/vision-cache/official_models`; homr and RapidOCR weights live inside the vision venv. The first sheet-image request should work offline after a successful build. Rebuild with `VISION_PREFETCH_DEVICE=gpu` in the Docker build args if you want homr/PaddleOCR GPU variants prefetched (optional).
 
 ### Transcription accuracy tuning
 
@@ -110,13 +144,17 @@ MELODY_TORCH_INDEX=https://download.pytorch.org/whl/cu121 \
 
 Set `MELODY_BACKEND_PREFERENCE=gpu` in `.env` when running the GPU profile. CPU-only builds remain the default `docker compose up --build`.
 
-In the project root `.env`:
+In the project root `.env` (optional when using the resolver-hosted site on :8787):
 
 ```bash
 REACT_APP_MEDIA_PROXY_BASE=http://localhost:8787
+# Only needed for npm start (port 3000); defaults to http://localhost:8787
+# REACT_APP_RESOURCE_BASE=http://localhost:8787
 ```
 
-Restart the React app (`npm start`).
+Restart the React app (`npm start`) if you change `.env` during UI development.
+When using the built site from the resolver, set the resolver URL in Settings to
+`http://localhost:8787` (or leave blank to auto-detect localhost).
 
 ## Verify
 

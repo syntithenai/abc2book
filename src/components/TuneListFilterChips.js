@@ -4,9 +4,11 @@ import { isMobilePlatform } from '../platformUtils';
 /**
  * Book/tag filter chips in the tune list. Disabled on mobile platforms
  * regardless of viewport width; use CollectionNav or header selectors instead.
+ * Pass readOnly to render non-interactive chips (e.g. single-tune metadata).
  */
 export default function TuneListFilterChips(props) {
-  const mobilePlatform = isMobilePlatform();
+  const readOnly = !!props.readOnly;
+  const mobilePlatform = !readOnly && isMobilePlatform();
   const chipTitle = mobilePlatform
     ? 'Filtering from the list is available on desktop'
     : undefined;
@@ -18,13 +20,14 @@ export default function TuneListFilterChips(props) {
   return (
     <span className="tune-list-filter-btns">
       {props.books && props.books.length > 0 && props.books.map(function(book) {
-        if (props.currentTuneBook && props.currentTuneBook === book) return null;
+        if (!readOnly && props.currentTuneBook && props.currentTuneBook === book) return null;
         return (
           <Button
-            disabled={mobilePlatform}
-            aria-disabled={mobilePlatform}
+            as={readOnly ? 'span' : undefined}
+            disabled={!readOnly && mobilePlatform}
+            aria-disabled={!readOnly && mobilePlatform}
             title={chipTitle}
-            onClick={function() {
+            onClick={readOnly ? undefined : function() {
               if (!mobilePlatform) {
                 props.onBookClick(book);
               }
@@ -38,16 +41,17 @@ export default function TuneListFilterChips(props) {
         );
       })}
       {Array.isArray(props.tags) && props.tags.length > 0 && props.tags.map(function(tag) {
-        if (props.tagFilter && props.tagFilter.indexOf(tag) !== -1) return null;
+        if (!readOnly && props.tagFilter && props.tagFilter.indexOf(tag) !== -1) return null;
         return (
           <Button
-            disabled={mobilePlatform}
-            aria-disabled={mobilePlatform}
+            as={readOnly ? 'span' : undefined}
+            disabled={!readOnly && mobilePlatform}
+            aria-disabled={!readOnly && mobilePlatform}
             title={chipTitle}
             key={tag}
             variant="info"
             className="tune-list-filter-chip"
-            onClick={function() {
+            onClick={readOnly ? undefined : function() {
               if (!mobilePlatform) {
                 props.onTagClick(tag);
               }

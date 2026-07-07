@@ -105,7 +105,12 @@ export function shouldTriggerAutoplayRecovery(snapshot, flags) {
 
 export function youtubeAutoplayAppearsBlocked(snapshot, ytPlayerState) {
   if (snapshot.userPaused) return false
-  return ytPlayerState === YT_STATE.PAUSED || ytPlayerState === YT_STATE.CUED
+  // A blocked cold-start autoplay typically leaves the player unstarted (-1) or
+  // cued (5); a paused (2) player after an autostart attempt is also a signal
+  // the browser refused to play without a gesture.
+  return ytPlayerState === YT_STATE.PAUSED
+    || ytPlayerState === YT_STATE.CUED
+    || ytPlayerState === YT_STATE.UNSTARTED
 }
 
 export function shouldShowTapToPlayFromYoutubePoll(snapshot, pollToken, activePollToken, ytPlayerState, isLastAttempt) {
@@ -270,9 +275,13 @@ export function beginSeekHold(now, ms) {
 /**
  * Metronome count-in for MIDI playback with optional anacrusis (pickup).
  *
- * Without pickup: one full bar of clicks, then one beat of silence, then music.
- * With pickup: two bars minus the pickup length (fractional beats allowed), then
- * music — the post-count delay covers any fractional remainder after whole clicks.
+ * Without pickup: N bars of clicks (N = countInBars), then music on the next beat.
+ * With pickup: (N bars minus pickup length) of clicks, then any fractional-beat
+ * gap before the anacrusis. The Metronome waits until the last click finishes
+ * before firing its callback; delayMs covers only any fractional remainder.
+ *
+ * When countInBarOnly is set (practice warmups), always count one full bar from the
+ * time signature and ignore implicit pickup, even if the tune has anacrusis.
  */
 export function computeMidiMetronomeCountIn(input) {
   const o = input || {}
@@ -282,6 +291,8 @@ export function computeMidiMetronomeCountIn(input) {
   const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
   const msPerMeasure = parseFloat(o.millisecondsPerMeasure) || 0
   const countInBeatsOverride = parseInt(o.countInBeats, 10)
+  const countInBarOnly = !!o.countInBarOnly
+  const countInBars = parseFloat(o.countInBars) > 0 ? parseFloat(o.countInBars) : 1
 
   if (beatsPerMeasure <= 0 || beatLength <= 0 || msPerMeasure <= 0) {
     return { metronomeBeats: 0, delayMs: 0, beatDurationMs: 0 }
@@ -290,23 +301,23 @@ export function computeMidiMetronomeCountIn(input) {
   const beatDurationMs = (msPerMeasure / beatsPerMeasure) / tempoFactor
   const pickupBeats = pickupLength > 0 ? pickupLength / beatLength : 0
 
-  if (pickupBeats <= 0) {
+  if (countInBarOnly || pickupBeats <= 0) {
     const metronomeBeats = countInBeatsOverride > 0
       ? countInBeatsOverride
-      : beatsPerMeasure
+      : countInBars * beatsPerMeasure
     return {
       metronomeBeats,
-      delayMs: beatDurationMs,
+      delayMs: 0,
       beatDurationMs,
     }
   }
 
-  const totalBeatsBeforeMusic = (2 * beatsPerMeasure) - pickupBeats
+  const totalBeatsBeforeMusic = (countInBars * beatsPerMeasure) - pickupBeats
   const metronomeBeats = Math.max(1, Math.floor(totalBeatsBeforeMusic))
   const remainderBeats = totalBeatsBeforeMusic - metronomeBeats
   return {
     metronomeBeats,
-    delayMs: remainderBeats * beatDurationMs,
+    delayMs: remainderBeats > 0 ? remainderBeats * beatDurationMs : 0,
     beatDurationMs,
   }
 }
@@ -345,17 +356,56 @@ export function computeExtraMeasuresAtBeginning(input) {
   const beatsPerMeasure = parseFloat(o.beatsPerMeasure) || 0
   const pickupLength = parseFloat(o.pickupLength) || 0
   const beatLength = parseFloat(o.beatLength) || 0
-  if (pickupLength <= 0 || beatsPerMeasure <= 0 || beatLength <= 0) {
+  const countInBars = parseFloat(o.countInBars) > 0 ? parseFloat(o.countInBars) : 1
+  if (o.countInBarOnly || pickupLength <= 0 || beatsPerMeasure <= 0 || beatLength <= 0) {
     return 0
   }
-  const countIn = computeMidiMetronomeCountIn(o)
-  const pickupBeats = pickupLength / beatLength
-  const countInBeats = countIn.metronomeBeats
-    + (countIn.beatDurationMs > 0 ? countIn.delayMs / countIn.beatDurationMs : 0)
-  const measures = (countInBeats + pickupBeats) / beatsPerMeasure
-  const rounded = Math.round(measures)
-  if (rounded <= 0 || Math.abs(measures - rounded) > 1e-6) {
-    return 0
+  return Math.round(countInBars)
+}
+
+/**
+ * Wall-clock ms of abcjs TimingCallbacks prep (extraMeasuresAtBeginning), matching
+ * Tune.setTiming's startingDelay. Audio buffers do not include this prefix, so seeks
+ * and playhead updates must map through it or the staff cursor lags the notes.
+ */
+export function computeTimingMusicStartMs(input) {
+  const o = input || {}
+  const extraMeasures = parseInt(o.extraMeasuresAtBeginning, 10) || 0
+  if (extraMeasures <= 0) return 0
+  const bpm = parseFloat(o.qpm) || 0
+  const beatLength = parseFloat(o.beatLength) || 0
+  const measureLength = parseFloat(o.barLength) || 0
+  const pickupLength = parseFloat(o.pickupLength) || 0
+  if (bpm <= 0 || beatLength <= 0 || measureLength <= 0) return 0
+  const beatsPerSecond = bpm / 60
+  let startingDelay = measureLength / beatLength * extraMeasures / beatsPerSecond
+  if (startingDelay) {
+    startingDelay -= pickupLength / beatLength / beatsPerSecond
   }
-  return rounded
+  return Math.max(0, startingDelay * 1000)
+}
+
+/** Map music-only audio buffer ratio (0-1) onto TimingCallbacks progress (count-in + music). */
+export function audioRatioToTimingProgress(audioRatio, musicStartMs, lastMomentMs) {
+  const r = Math.max(0, Math.min(1, parseFloat(audioRatio) || 0))
+  const last = parseFloat(lastMomentMs)
+  const start = parseFloat(musicStartMs) || 0
+  if (!(last > 0)) return r
+  if (!(start > 0) || start >= last) return r
+  return (start + r * (last - start)) / last
+}
+
+/** Map TimingCallbacks progress (0-1 over count-in + music) to music-only audio seconds. */
+export function timingProgressToAudioSeconds(timingProgress, musicStartMs, lastMomentMs, audioDurationSeconds) {
+  const p = Math.max(0, Math.min(1, parseFloat(timingProgress) || 0))
+  const last = parseFloat(lastMomentMs)
+  const start = parseFloat(musicStartMs) || 0
+  const dur = parseFloat(audioDurationSeconds)
+  if (!(dur > 0)) return 0
+  if (!(last > 0) || !(start > 0) || start >= last) {
+    return p * dur
+  }
+  const currentMs = p * last
+  if (currentMs <= start) return 0
+  return Math.min(dur, ((currentMs - start) / (last - start)) * dur)
 }

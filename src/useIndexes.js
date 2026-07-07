@@ -1,6 +1,23 @@
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
-import {useState} from 'react'
+import {useState, useRef} from 'react'
+
+function indexSnapshotEqual(a, b) {
+    try {
+        return JSON.stringify(a || {}) === JSON.stringify(b || {})
+    } catch (e) {
+        return false
+    }
+}
+
+function addTuneIdToIndexKey(index, key, tuneId) {
+    if (!key || !tuneId) return
+    if (Array.isArray(index[key])) {
+        index[key].push(tuneId)
+    } else {
+        index[key] = [tuneId]
+    }
+}
 
 var useIndexes = () => {
         
@@ -8,7 +25,13 @@ var useIndexes = () => {
     var abcTools = useAbcTools()
     var [bookIndex, setBookIndex] = useState(utils.loadLocalObject('bookstorage_index_books'))
     var [tagIndex, setTagIndex] = useState(utils.loadLocalObject('bookstorage_index_tags'))
+    var [genreIndex, setGenreIndex] = useState(utils.loadLocalObject('bookstorage_index_genres'))
+    var [artistIndex, setArtistIndex] = useState(utils.loadLocalObject('bookstorage_index_artists'))
     var [tagGroups, setTagGroups] = useState(utils.loadLocalObject('bookstorage_tag_groups'))
+    var lastBookIndexRef = useRef(bookIndex)
+    var lastTagIndexRef = useRef(tagIndex)
+    var lastGenreIndexRef = useRef(genreIndex)
+    var lastArtistIndexRef = useRef(artistIndex)
     
     function indexTune(tune) {
         //console.log('index single', tune, tune.id, tune.meta)
@@ -17,30 +40,51 @@ var useIndexes = () => {
         bookIndexNew = removeTune(tune,bookIndexNew)
         if (tune && tune.id && Array.isArray(tune.books) && tune.books.length > 0) {
             tune.books.forEach(function(book) {
-                if (Array.isArray(bookIndexNew[book])) {
-                    bookIndexNew[book].push(tune.id)
-                } else {
-                    bookIndexNew[book] = [tune.id]
-                }
+                addTuneIdToIndexKey(bookIndexNew, book, tune.id)
             })
         }
-        setBookIndex(bookIndexNew)
+        if (!indexSnapshotEqual(bookIndexNew, lastBookIndexRef.current)) {
+            setBookIndex(bookIndexNew)
+            lastBookIndexRef.current = bookIndexNew
+        }
         
         var tagIndexNew = utils.loadLocalObject('bookstorage_index_tags')
         var tagGroupsNew = utils.loadLocalObject('bookstorage_tag_groups')
         tagIndexNew = removeTune(tune,tagIndexNew)
         if (tune && tune.id && Array.isArray(tune.tags) && tune.tags.length > 0) {
             tune.tags.forEach(function(tag) {
-                if (Array.isArray(tagIndexNew[tag])) {
-                    tagIndexNew[tag].push(tune.id)
-                } else {
-                    tagIndexNew[tag] = [tune.id]
-                }
+                addTuneIdToIndexKey(tagIndexNew, tag, tune.id)
             })
         }
-        setTagIndex(tagIndexNew)
+        if (!indexSnapshotEqual(tagIndexNew, lastTagIndexRef.current)) {
+            setTagIndex(tagIndexNew)
+            lastTagIndexRef.current = tagIndexNew
+        }
+
+        var genreIndexNew = utils.loadLocalObject('bookstorage_index_genres')
+        genreIndexNew = removeTune(tune, genreIndexNew)
+        if (tune && tune.id && tune.genre && String(tune.genre).trim()) {
+            addTuneIdToIndexKey(genreIndexNew, String(tune.genre).trim(), tune.id)
+        }
+        if (!indexSnapshotEqual(genreIndexNew, lastGenreIndexRef.current)) {
+            setGenreIndex(genreIndexNew)
+            lastGenreIndexRef.current = genreIndexNew
+        }
+
+        var artistIndexNew = utils.loadLocalObject('bookstorage_index_artists')
+        artistIndexNew = removeTune(tune, artistIndexNew)
+        if (tune && tune.id && tune.composer && String(tune.composer).trim()) {
+            addTuneIdToIndexKey(artistIndexNew, String(tune.composer).trim(), tune.id)
+        }
+        if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
+            setArtistIndex(artistIndexNew)
+            lastArtistIndexRef.current = artistIndexNew
+        }
+
         utils.saveLocalObject('bookstorage_index_books', bookIndexNew)
         utils.saveLocalObject('bookstorage_index_tags', tagIndexNew)
+        utils.saveLocalObject('bookstorage_index_genres', genreIndexNew)
+        utils.saveLocalObject('bookstorage_index_artists', artistIndexNew)
         utils.saveLocalObject('bookstorage_tag_groups', tagGroupsNew)
     }
     
@@ -66,20 +110,34 @@ var useIndexes = () => {
     function resetBookIndex() {
         //console.log('reset index')
         utils.saveLocalObject('bookstorage_index_books',{})
+        lastBookIndexRef.current = {}
         setBookIndex({})
     }
     
     function resetTagIndex() {
         //console.log('reset index')
         utils.saveLocalObject('bookstorage_index_tags',{})
+        lastTagIndexRef.current = {}
         setTagIndex({})
+    }
+
+    function resetGenreIndex() {
+        utils.saveLocalObject('bookstorage_index_genres', {})
+        lastGenreIndexRef.current = {}
+        setGenreIndex({})
+    }
+
+    function resetArtistIndex() {
+        utils.saveLocalObject('bookstorage_index_artists', {})
+        lastArtistIndexRef.current = {}
+        setArtistIndex({})
     }
     
     function addTagToIndex(tag) {
         //console.log('add book to index', book)
         if (!Array.isArray(tagIndex[tag])) {
-            let newTagIndex = tagIndex
-            newTagIndex[tag] = []
+            const newTagIndex = Object.assign({}, tagIndex, { [tag]: [] })
+            lastTagIndexRef.current = newTagIndex
             setTagIndex(newTagIndex)
         }
     }
@@ -87,16 +145,17 @@ var useIndexes = () => {
     function addBookToIndex(book) {
         //console.log('add book to index', book)
         if (!Array.isArray(bookIndex[book])) {
-            let newBookIndex = bookIndex
-            newBookIndex[book] = []
+            const newBookIndex = Object.assign({}, bookIndex, { [book]: [] })
+            lastBookIndexRef.current = newBookIndex
             setBookIndex(newBookIndex)
         }
     }
     
     function removeBookFromIndex(book) {
         //console.log('remove book to index', book)
-        let newBookIndex = bookIndex
-        delete newBookIndex[book] 
+        const newBookIndex = Object.assign({}, bookIndex)
+        delete newBookIndex[book]
+        lastBookIndexRef.current = newBookIndex
         setBookIndex(newBookIndex)
     }
     
@@ -104,38 +163,58 @@ var useIndexes = () => {
         //console.log('index tunes',tunes)
         var bookIndexNew = utils.loadLocalObject('bookstorage_index_books')
         var tagIndexNew = utils.loadLocalObject('bookstorage_index_tags')
+        var genreIndexNew = utils.loadLocalObject('bookstorage_index_genres')
+        var artistIndexNew = utils.loadLocalObject('bookstorage_index_artists')
         
         
         Object.values(tunes).forEach(function(tune) {
             bookIndexNew = removeTune(tune,bookIndexNew)
             if (tune && tune.id && Array.isArray(tune.books) && tune.books.length > 0) {
                 tune.books.forEach(function(book) {
-                    if (Array.isArray(bookIndexNew[book])) {
-                        bookIndexNew[book].push(tune.id)
-                    } else {
-                        bookIndexNew[book] = [tune.id]
-                    }
+                    addTuneIdToIndexKey(bookIndexNew, book, tune.id)
                 })
             }
-            setBookIndex(bookIndexNew)
             
             tagIndexNew = removeTune(tune,tagIndexNew)
             if (tune && tune.id && Array.isArray(tune.tags) && tune.tags.length > 0) {
                 tune.tags.forEach(function(tags) {
-                    if (Array.isArray(tagIndexNew[tags])) {
-                        tagIndexNew[tags].push(tune.id)
-                    } else {
-                        tagIndexNew[tags] = [tune.id]
-                    }
+                    addTuneIdToIndexKey(tagIndexNew, tags, tune.id)
                 })
             }
-            setTagIndex(tagIndexNew)
+
+            genreIndexNew = removeTune(tune, genreIndexNew)
+            if (tune && tune.id && tune.genre && String(tune.genre).trim()) {
+                addTuneIdToIndexKey(genreIndexNew, String(tune.genre).trim(), tune.id)
+            }
+
+            artistIndexNew = removeTune(tune, artistIndexNew)
+            if (tune && tune.id && tune.composer && String(tune.composer).trim()) {
+                addTuneIdToIndexKey(artistIndexNew, String(tune.composer).trim(), tune.id)
+            }
         })
+        if (!indexSnapshotEqual(bookIndexNew, lastBookIndexRef.current)) {
+            setBookIndex(bookIndexNew)
+            lastBookIndexRef.current = bookIndexNew
+        }
+        if (!indexSnapshotEqual(tagIndexNew, lastTagIndexRef.current)) {
+            setTagIndex(tagIndexNew)
+            lastTagIndexRef.current = tagIndexNew
+        }
+        if (!indexSnapshotEqual(genreIndexNew, lastGenreIndexRef.current)) {
+            setGenreIndex(genreIndexNew)
+            lastGenreIndexRef.current = genreIndexNew
+        }
+        if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
+            setArtistIndex(artistIndexNew)
+            lastArtistIndexRef.current = artistIndexNew
+        }
         utils.saveLocalObject('bookstorage_index_books', bookIndexNew)
         utils.saveLocalObject('bookstorage_index_tags', tagIndexNew)
+        utils.saveLocalObject('bookstorage_index_genres', genreIndexNew)
+        utils.saveLocalObject('bookstorage_index_artists', artistIndexNew)
         //resetBookIndex()
     }
     
-    return {indexTune ,indexTunes, resetBookIndex, bookIndex, addBookToIndex, removeBookFromIndex, removeTune, addTagToIndex, resetTagIndex, tagIndex}
+    return {indexTune ,indexTunes, resetBookIndex, bookIndex, addBookToIndex, removeBookFromIndex, removeTune, addTagToIndex, resetTagIndex, tagIndex, genreIndex, resetGenreIndex, artistIndex, resetArtistIndex}
 }
 export default useIndexes;

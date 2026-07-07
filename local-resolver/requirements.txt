@@ -6,3 +6,5 @@ yt-dlp[default]>=2026.6.9
 numpy>=1.19
 music21>=9.1.0
 ddgs>=9.14.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0

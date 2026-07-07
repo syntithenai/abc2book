@@ -2,12 +2,14 @@ import { Alert, Button } from 'react-bootstrap';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import usePlaybackRegionScan from '../usePlaybackRegionScan';
 import SearchProgressBar from './SearchProgressBar';
+import { isScannableLink } from '../linkPlaybackRegionScanUtils';
 
-function isScannableLink(url) {
-  if (!url || typeof url !== 'string') return false;
-  const trimmed = url.trim();
-  if (!trimmed || trimmed.startsWith('data:')) return false;
-  return trimmed.indexOf('http://') === 0 || trimmed.indexOf('https://') === 0;
+function getUnavailableTitle(checked, available, whisper, link) {
+  if (!checked) return 'Checking media resolver...';
+  if (!available) return 'Media resolver is not available';
+  if (!whisper) return 'Playback region scan is not available on this resolver';
+  if (!isScannableLink(link && link.link)) return 'Enter a media link URL first';
+  return 'Detect intro/outro speech and set Start At and End At';
 }
 
 export default function LinkPlaybackRegionScanControls({
@@ -16,8 +18,9 @@ export default function LinkPlaybackRegionScanControls({
   link,
   currentLinks,
   onLinksUpdated,
+  className,
 }) {
-  const { available: resolverAvailable, features } = useMediaResolverHealth();
+  const { available: resolverAvailable, checked, features } = useMediaResolverHealth();
   const {
     isScanning,
     progress,
@@ -26,35 +29,41 @@ export default function LinkPlaybackRegionScanControls({
     getStatusLabel,
   } = usePlaybackRegionScan(tune && tune.id, linkIndex);
 
-  if (!resolverAvailable || !features.whisper || !isScannableLink(link && link.link)) {
-    return error
-      ? <Alert variant="danger" style={{ marginTop: '0.35em' }}>{error}</Alert>
-      : null;
-  }
-
-  const buttonLabel = isScanning ? (getStatusLabel() || 'Scanning...') : 'Scan';
+  const whisper = !!features.whisper;
+  const canScan = checked && resolverAvailable && whisper && isScannableLink(link && link.link);
+  const buttonLabel = isScanning ? (getStatusLabel() || 'Scanning...') : 'Scan Start/End';
+  const title = getUnavailableTitle(checked, resolverAvailable, whisper, link);
 
   return (
-    <div className="link-playback-region-scan">
-      <Button
-        variant={isScanning ? 'warning' : 'outline-secondary'}
-        size="sm"
-        onClick={function() {
-          requestScan(link, {
-            currentLinks: currentLinks,
-            onLinksUpdated: onLinksUpdated,
-          });
-        }}
-      >
-        {buttonLabel}
-      </Button>
-      <SearchProgressBar
-        visible={isScanning}
-        percent={progress}
-        message={getStatusLabel()}
-        defaultMessage="Scanning for intro/outro speech..."
-      />
-      {error && <Alert variant="danger" style={{ marginTop: '0.35em' }}>{error}</Alert>}
+    <div className={'link-playback-region-scan' + (className ? ' ' + className : '')}>
+      <div className="link-playback-region-scan__button">
+        <Button
+          variant={isScanning ? 'warning' : 'outline-secondary'}
+          size="sm"
+          disabled={!canScan || isScanning}
+          title={title}
+          onClick={function() {
+            if (!canScan) return;
+            requestScan(link, {
+              currentLinks: currentLinks,
+              onLinksUpdated: onLinksUpdated,
+            });
+          }}
+        >
+          {buttonLabel}
+        </Button>
+      </div>
+      {(isScanning || error) && (
+        <div className="link-playback-region-scan__status">
+          <SearchProgressBar
+            visible={isScanning}
+            percent={progress}
+            message={getStatusLabel()}
+            defaultMessage="Scanning for intro/outro speech..."
+          />
+          {error && <Alert variant="danger" style={{ marginTop: '0.35em' }}>{error}</Alert>}
+        </div>
+      )}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks -- test helpers call pure hook factories */
 import useAbcjsParser from './useAbcjsParser';
 import useAbcTools from './useAbcTools';
-import { splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeChordsIntoLyricLines } from './chordSheetUtils';
+import { splitChordChartIntoBlocks, alignChordBlocksToLyrics, mergeChordsIntoLyricLines, extractChordBars, formatChordChartForDisplay } from './chordSheetUtils';
 
 // Mirrors the real data shape: a chord scaffold built from z-rests with the
 // melody divided into sections by double barlines (||), plus clean lyrics that
@@ -49,12 +49,15 @@ describe('chord block alignment against melody double barlines', function() {
     expect(aligned[4].type).toBe('bridge');
     expect(aligned[4].chart).toContain('Gm');
 
-    // every block with its own lyric words merges chords inline, including the
-    // second verse (distinct words) which reuses the verse chord block.
+    // first verse and chorus merge inline; second verse reuses verse chords (title only).
     expect(aligned[0].inlineChords).toBe(true);
+    expect(aligned[0].chartRevisit).toBe(false);
     expect(aligned[1].inlineChords).toBe(true);
-    expect(aligned[2].inlineChords).toBe(true);
+    expect(aligned[1].chartRevisit).toBe(false);
+    expect(aligned[2].inlineChords).toBe(false);
+    expect(aligned[2].chartRevisit).toBe(true);
     expect(aligned[4].inlineChords).toBe(true);
+    expect(aligned[4].chartRevisit).toBe(false);
 
     const verseInline = mergeChordsIntoLyricLines(aligned[0].lyricLines, aligned[0].chart);
     expect(verseInline.flat().some(function(t) { return t.chord; })).toBe(true);
@@ -92,6 +95,47 @@ describe('chord block alignment against melody double barlines', function() {
     );
     expect(merged[0].map(function(t) { return t.chord; }).filter(Boolean)).toEqual(['Fm']);
     expect(merged[1].map(function(t) { return t.chord; }).filter(Boolean)).toEqual(['Am']);
+  });
+
+  test('display charts omit the anacrusis bar', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    // Quarter-note pickup into a full bar, then another full bar.
+    const melodyAbc = abcTools.emptyABC('Pickup')
+      + '"G"G2 | "C"c2 d2 e2 f2 | "G"g4 g4 |';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/8', '4/4');
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'C', '1/8', '4/4');
+
+    expect(extractChordBars(displayChart)).toEqual([['C'], ['G']]);
+    expect(formatChordChartForDisplay(displayChart)).toBe('C | G |');
+    // Editor grid still includes the pickup so it remains editable.
+    expect(extractChordBars(editorChart)[0]).toEqual(['G']);
+    expect(extractChordBars(editorChart).length).toBe(3);
+  });
+
+  test('display charts keep a full first bar', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('NoPickup')
+      + '"C"c2 d2 e2 f2 | "G"g4 g4 |';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/8', '4/4');
+    expect(extractChordBars(displayChart)).toEqual([['C'], ['G']]);
+  });
+
+  test('display charts keep rest-only bars and omit bars with no notes', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    // Middle bar is rests only (held chord → empty chart slot, still a real bar).
+    // Trailing empty barlines have no notes or rests and must not appear.
+    const melodyAbc = abcTools.emptyABC('RestsAndEmpty')
+      + '"C"c2 d2 e2 f2 | z8 | "G"g4 g4 | | |';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/8', '4/4');
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'C', '1/8', '4/4');
+
+    expect(extractChordBars(displayChart)).toEqual([['C'], [], ['G']]);
+    expect(formatChordChartForDisplay(displayChart)).toBe('C | / | G |');
+    // Editor grid still includes empty slots for editing.
+    expect(extractChordBars(editorChart).length).toBeGreaterThan(3);
   });
 
   test('chords do not leak across lyric line boundaries (line-for-line chart)', function() {

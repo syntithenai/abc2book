@@ -14,8 +14,10 @@ services:
     # Match production auth in dev so login + resolver scope issues surface early.
     environment:
       REQUIRE_AUTH: "true"
+      STATIC_SITE_DIR: /app/www
     volumes:
       - ./server.py:/app/server.py
+      - ./subprocess_utils.py:/app/subprocess_utils.py
       - ./recording_artists.py:/app/recording_artists.py
       - ./background_markdown_links.py:/app/background_markdown_links.py
       - ./chords_fetch.py:/app/chords_fetch.py
@@ -33,6 +35,9 @@ services:
       - ./stem_separation.py:/app/stem_separation.py
       - ./separate_stems.py:/app/separate_stems.py
       - ./eval_transcription.py:/app/eval_transcription.py
+      - ./image_search.py:/app/image_search.py
+      - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
+      - ../:/app/www:ro
     command:
       - python3
       - -m

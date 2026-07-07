@@ -11,7 +11,7 @@ from tune_background_research import search_web
 NOTATION_FETCH_TIMEOUT_SECONDS = 20.0
 THESESSION_BASE = "https://thesession.org"
 MAX_SESSION_TUNES = 5
-MAX_WEB_URLS = 8
+MAX_WEB_URLS = 12
 
 BROWSER_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -22,9 +22,23 @@ ABC_PAGE_HOST_SUFFIXES = (
     "abcnotation.com",
     "folkinfo.org",
     "norbeck.net",
+    "henrik.norbeck.org",
     "jc.tzo.net",
     "mandolintab.net",
     "thesession.org",
+    "slowplayers.org",
+    "trillian.mit.edu",
+    "ceolas.org",
+    "mudcat.org",
+    "contrafact.se",
+    "nigelgatherer.com",
+    "traditionalmusic.co.uk",
+    "greensongs.ca",
+    "olsonworks.org",
+    "contemplator.com",
+    "folktunes.org",
+    "tunesearch.org.uk",
+    "hardieonline.com",
 )
 
 SONG_TYPE_HINTS = {
@@ -39,6 +53,7 @@ ABC_BLOCK_RE = re.compile(
 )
 PRE_BLOCK_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
 TAG_RE = re.compile(r"<[^>]+>")
+HTTP_URL_RE = re.compile(r"https?://[^\s<>\"']+", re.I)
 
 
 def meter_for_thesession_type(tune_type):
@@ -217,7 +232,12 @@ def build_web_abc_queries(title, song_type="instrumental", artist=""):
         "abc notation {0} {1}".format(quoted_title, hints[0]),
         "abc notation {0} {1}".format(quoted_title, hints[1]),
         'site:abcnotation.com abc {0}'.format(quoted_title),
+        '{0} filetype:abc'.format(quoted_title),
+        '{0} ".abc"'.format(quoted_title),
     ])
+    if artist:
+        quoted_artist = '"{0}"'.format(artist)
+        queries.append('{0} {1} filetype:abc'.format(quoted_title, quoted_artist))
     if song_type == "traditional_tune":
         queries.append('site:thesession.org {0}'.format(quoted_title))
     elif song_type == "song":
@@ -242,16 +262,78 @@ def is_allowed_abc_host(hostname):
     return any(host == suffix or host.endswith("." + suffix) for suffix in ABC_PAGE_HOST_SUFFIXES)
 
 
-def validate_abc_page_url(raw_url):
+def normalize_scraped_url(raw_url):
+    url = str(raw_url or "").strip()
+    if not url:
+        return ""
+    return url.rstrip(".,;:!?)\"'>]»")
+
+
+def extract_http_urls_from_text(text):
+    if not text:
+        return []
+    found = []
+    for match in HTTP_URL_RE.finditer(str(text)):
+        url = normalize_scraped_url(match.group(0))
+        if url:
+            found.append(url)
+    return found
+
+
+def is_direct_abc_file_url(raw_url):
+    normalized = normalize_scraped_url(raw_url)
+    if not normalized:
+        return False
     try:
-        parsed = urlparse(raw_url)
+        parsed = urlparse(normalized)
+    except Exception:
+        return False
+    if parsed.scheme not in ("http", "https"):
+        return False
+    path = (parsed.path or "").lower()
+    if path.endswith(".abc"):
+        return True
+    basename = path.rsplit("/", 1)[-1]
+    return basename.endswith(".abc")
+
+
+def extract_urls_from_search_item(item):
+    item = item if isinstance(item, dict) else {}
+    ordered = []
+    seen = set()
+
+    def add_url(raw):
+        normalized = normalize_scraped_url(raw)
+        if not normalized:
+            return
+        key = normalized.lower()
+        if key in seen:
+            return
+        seen.add(key)
+        ordered.append(normalized)
+
+    add_url(item.get("url"))
+    for field in ("snippet", "title", "description"):
+        for url in extract_http_urls_from_text(item.get(field)):
+            add_url(url)
+    return ordered
+
+
+def validate_abc_page_url(raw_url):
+    normalized = normalize_scraped_url(raw_url)
+    if not normalized:
+        return None, "Invalid URL"
+    try:
+        parsed = urlparse(normalized)
     except Exception:
         return None, "Invalid URL"
     if parsed.scheme not in ("http", "https"):
         return None, "Only http(s) URLs are allowed"
+    if is_direct_abc_file_url(normalized):
+        return normalized, None
     if not is_allowed_abc_host(parsed.hostname):
         return None, "ABC URL host is not supported"
-    return raw_url, None
+    return normalized, None
 
 
 def strip_html_tags(text):
@@ -489,24 +571,28 @@ async def collect_web_abc_candidates(client, title, song_type, artist="", on_pro
             results = []
 
         urls = []
+        direct_abc_urls = []
         for item in results or []:
             if not isinstance(item, dict):
                 continue
-            url = str(item.get("url") or "").strip()
-            validated, error = validate_abc_page_url(url)
-            if error or validated in tried_urls:
-                continue
-            tried_urls.add(validated)
-            urls.append(validated)
-            if len(urls) >= MAX_WEB_URLS:
-                break
+            for url in extract_urls_from_search_item(item):
+                validated, error = validate_abc_page_url(url)
+                if error or not validated or validated in tried_urls:
+                    continue
+                tried_urls.add(validated)
+                if is_direct_abc_file_url(validated):
+                    direct_abc_urls.append(validated)
+                else:
+                    urls.append(validated)
 
-        for url_index, url in enumerate(urls):
+        combined_urls = (direct_abc_urls + urls)[:MAX_WEB_URLS]
+
+        for url_index, url in enumerate(combined_urls):
             await _emit_progress(
                 on_progress,
                 "web",
                 "Fetching ABC from {0}...".format(urlparse(url).hostname or url),
-                0.6 + (0.35 * (query_index + (url_index + 1) / max(len(urls), 1)) / max(total_queries, 1)),
+                0.6 + (0.35 * (query_index + (url_index + 1) / max(len(combined_urls), 1)) / max(total_queries, 1)),
             )
             for candidate in await fetch_abc_from_url(client, url, title):
                 candidates.append(candidate)

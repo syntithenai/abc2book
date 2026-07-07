@@ -104,4 +104,35 @@ describe('tuneBookSync', function() {
     const tomb = createTombstone('x', 'Name', 42)
     expect(tomb).toEqual({ id: 'x', deletedAt: 42, name: 'Name' })
   })
+
+  test('compareTuneBooks ignores newer remote timestamp when content matches', function() {
+    const localTunes = {
+      t1: {
+        id: 't1',
+        name: 'My Tune',
+        lastUpdated: 100,
+        meta: { X: 15 },
+        links: [{ title: 'YouTube', link: 'https://youtu.be/abc12345678' }],
+        voices: { '1': { notes: ['G2'] } },
+      },
+    }
+    const remoteTunes = {
+      t1: {
+        id: 't1',
+        name: 'My Tune',
+        lastUpdated: 500,
+        meta: { X: 16 },
+        links: [{ title: 'YouTube', link: 'https://www.youtube.com/watch?v=abc12345678' }],
+        voices: { '1': { notes: ['G2'] } },
+      },
+    }
+    const result = compareTuneBooks({
+      localTunes,
+      localDeleted: {},
+      remoteTunes,
+      remoteDeleted: {},
+    })
+    expect(Object.keys(result.updates)).toEqual([])
+    expect(Object.keys(result.localUpdates)).toEqual([])
+  })
 })

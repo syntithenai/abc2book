@@ -1,4 +1,41 @@
-import { normalizeLyricsSearch, handleLyricsSearchStreamEvent } from './lyricsSearchClient';
+import {
+  normalizeLyricsSearch,
+  handleLyricsSearchStreamEvent,
+  searchLyrics,
+  searchLyricsViaResolver,
+} from './lyricsSearchClient'
+import { searchLyricsLight } from './lyricsSearchLight'
+import * as mediaProxyClient from './mediaProxyClient'
+import * as mediaResolverHealthStore from './mediaResolverHealthStore'
+
+jest.mock('./lyricsSearchLight', function() {
+  return {
+    searchLyricsLight: jest.fn(function() {
+      return Promise.resolve({
+        text: 'Line one',
+        lines: ['Line one'],
+        multiple: false,
+        source: 'local',
+      })
+    }),
+  }
+})
+
+jest.mock('./mediaProxyClient', function() {
+  const actual = jest.requireActual('./mediaProxyClient')
+  return Object.assign({}, actual, {
+    fetchViaMediaProxy: jest.fn(),
+    isMediaProxyConfigured: jest.fn(function() { return true }),
+  })
+})
+
+jest.mock('./mediaResolverHealthStore', function() {
+  return {
+    getMediaResolverHealthState: jest.fn(function() {
+      return { checked: true, available: true }
+    }),
+  }
+})
 
 describe('lyricsSearchClient', function() {
   test('normalizeLyricsSearch maps stanza response', function() {
@@ -84,4 +121,65 @@ describe('lyricsSearchClient', function() {
     expect(result.candidates).toHaveLength(2);
     expect(result.candidates[1].titleOnly).toBe(true);
   });
+
+  describe('searchLyrics facade', function() {
+    const lightResult = {
+      text: 'Line one',
+      lines: ['Line one'],
+      source: 'local',
+      multiple: false,
+    }
+
+    beforeEach(function() {
+      mediaProxyClient.fetchViaMediaProxy.mockReset()
+      searchLyricsLight.mockReset()
+      searchLyricsLight.mockResolvedValue(lightResult)
+      mediaProxyClient.isMediaProxyConfigured.mockReturnValue(true)
+      mediaResolverHealthStore.getMediaResolverHealthState.mockReturnValue({
+        checked: true,
+        available: true,
+      })
+    })
+
+    test('uses lightweight search when resolverAvailable is false', async function() {
+      const result = await searchLyrics({
+        title: 'Yesterday',
+        resolverAvailable: false,
+      })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).not.toHaveBeenCalled()
+      expect(searchLyricsLight).toHaveBeenCalled()
+      expect(result.source).toBe('local')
+    })
+
+    test('falls back to lightweight search on infrastructure errors', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockRejectedValue(
+        new Error('Could not reach the media resolver')
+      )
+
+      const result = await searchLyrics({ title: 'Yesterday' })
+
+      expect(searchLyricsLight).toHaveBeenCalled()
+      expect(result.source).toBe('local')
+    })
+
+    test('uses resolver when available', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        headers: { get: function() { return 'application/json' } },
+        json: async function() {
+          return {
+            text: 'Resolver lyrics',
+            lines: ['Resolver lyrics'],
+            source: 'genius.com',
+          }
+        },
+      })
+
+      const result = await searchLyricsViaResolver({ title: 'Yesterday', artist: 'Beatles' })
+
+      expect(searchLyricsLight).not.toHaveBeenCalled()
+      expect(result.text).toBe('Resolver lyrics')
+    })
+  })
 });

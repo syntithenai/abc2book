@@ -1,3 +1,5 @@
+import { getResourceBase } from './resourceBase';
+
 const DEFAULT_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs';
 const DEFAULT_SOUNDFONT_VOLUME = 1.0;
 
@@ -15,6 +17,10 @@ export function getSoundFontUrl() {
   if (fromEnv !== undefined && fromEnv !== null && String(fromEnv).trim() !== '') {
     const base = String(fromEnv).trim().replace(/\/$/, '');
     return base + '/';
+  }
+  const resourceBase = getResourceBase();
+  if (resourceBase) {
+    return resourceBase + '/midi-js-soundfonts/abcjs/';
   }
   if (process.env.NODE_ENV === 'development') {
     return DEFAULT_SOUNDFONT_CDN + '/';

@@ -16,7 +16,23 @@ export function getFirstTagFilter(tagFilter) {
   return tag.length > 0 ? tag : null
 }
 
-export function buildSearchPageTitle(currentTuneBook, tagFilter) {
+export function getFirstGenreFilter(genreFilter) {
+  if (!Array.isArray(genreFilter) || genreFilter.length === 0) {
+    return null
+  }
+  const genre = String(genreFilter[0]).trim()
+  return genre.length > 0 ? genre : null
+}
+
+export function getFirstArtistFilter(artistFilter) {
+  if (!Array.isArray(artistFilter) || artistFilter.length === 0) {
+    return null
+  }
+  const artist = String(artistFilter[0]).trim()
+  return artist.length > 0 ? artist : null
+}
+
+export function buildSearchPageTitle(currentTuneBook, tagFilter, genreFilter, artistFilter) {
   const base = 'Tunebook Search'
   const book = getActiveBookFilter(currentTuneBook)
   if (book) {
@@ -25,6 +41,14 @@ export function buildSearchPageTitle(currentTuneBook, tagFilter) {
   const tag = getFirstTagFilter(tagFilter)
   if (tag) {
     return `${base} – ${tag}`
+  }
+  const genre = getFirstGenreFilter(genreFilter)
+  if (genre) {
+    return `${base} – ${genre}`
+  }
+  const artist = getFirstArtistFilter(artistFilter)
+  if (artist) {
+    return `${base} – ${artist}`
   }
   return base
 }

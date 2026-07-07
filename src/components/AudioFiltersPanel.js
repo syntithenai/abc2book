@@ -141,7 +141,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const needsAnalysis = showFilters && !stemsReady && !analysisActive;
 
   return (
-    <div className="audio-filters-panel">
+    <div className={'audio-filters-panel' + (slidersDisabled ? ' audio-filters-panel--stems-pending' : '')}>
       {!showFilters && (
         <div className="scope-note">
           Audio filters require the local media resolver for linked audio playback.
@@ -215,8 +215,8 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
           )}
 
           {needsAnalysis && (
-            <div className="scope-note">
-              Click Analyse to generate stems before the filter sliders can be used.
+            <div className="audio-filters-stem-pending-note" role="status">
+              Stem volume sliders are disabled until you click Analyse and separation finishes.
             </div>
           )}
 
@@ -226,10 +226,11 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
             </div>
           )}
 
+          <div className={'audio-filters-sliders' + (slidersDisabled ? ' audio-filters-sliders--disabled' : '')}>
           {filterKeys.map(function(key) {
             const value = filters[key];
             return (
-              <div className="control-section" key={key}>
+              <div className={'control-section' + (slidersDisabled ? ' control-section--disabled' : '')} key={key}>
                 <div className="control-section-header">
                   <h6>{FILTER_LABELS[key]}</h6>
                   <div className="header-inline-actions">
@@ -254,6 +255,8 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
                   step="0.01"
                   value={value}
                   disabled={slidersDisabled}
+                  aria-disabled={slidersDisabled}
+                  title={slidersDisabled ? 'Analyse stems first to enable volume sliders' : undefined}
                   onChange={function(e) { updateFilter(key, parseFloat(e.target.value)); }}
                   className="slider audio-filter-slider"
                 />
@@ -261,6 +264,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
               </div>
             );
           })}
+          </div>
         </>
       )}
     </div>

@@ -1,21 +1,27 @@
-import { getSkillTempoRange, getWarmupOptionsForSkill, clampSkillLevel } from './practiceSessionSettings'
+import { getSkillTempoRange, getWarmupOptionsForSkill, clampSkillLevel, normalizePracticeInstrument, getPracticeInstrumentLabel } from './practiceSessionSettings'
 
 describe('practiceSessionSettings', function() {
-  it('maps skill 1 and 10 to fixed tempos', function() {
-    expect(getSkillTempoRange(1)).toEqual({ tempoStart: 0.5, tempoEnd: 0.5 })
-    expect(getSkillTempoRange(10)).toEqual({ tempoStart: 1.0, tempoEnd: 1.0 })
+  it('maps each skill level to the configured tempo range', function() {
+    const expected = [
+      { tempoStart: 0.35, tempoEnd: 0.50 },
+      { tempoStart: 0.40, tempoEnd: 0.55 },
+      { tempoStart: 0.40, tempoEnd: 0.60 },
+      { tempoStart: 0.40, tempoEnd: 0.65 },
+      { tempoStart: 0.50, tempoEnd: 0.70 },
+      { tempoStart: 0.50, tempoEnd: 0.75 },
+      { tempoStart: 0.55, tempoEnd: 0.80 },
+      { tempoStart: 0.55, tempoEnd: 0.85 },
+      { tempoStart: 0.80, tempoEnd: 0.95 },
+      { tempoStart: 1.00, tempoEnd: 1.00 },
+    ]
+    expected.forEach(function(range, index) {
+      expect(getSkillTempoRange(index + 1)).toEqual(range)
+    })
   })
 
-  it('maps skill 2 to 50% start and 80% end', function() {
-    const range = getSkillTempoRange(2)
-    expect(range.tempoStart).toBe(0.5)
-    expect(range.tempoEnd).toBeCloseTo(0.8, 5)
-  })
-
-  it('ramps start tempo upward from skill 3', function() {
-    const range = getSkillTempoRange(5)
-    expect(range.tempoStart).toBeGreaterThan(0.5)
-    expect(range.tempoEnd).toBeGreaterThan(range.tempoStart)
+  it('clamps out-of-range skill levels', function() {
+    expect(getSkillTempoRange(0)).toEqual({ tempoStart: 0.35, tempoEnd: 0.50 })
+    expect(getSkillTempoRange(99)).toEqual({ tempoStart: 1.00, tempoEnd: 1.00 })
   })
 
   it('provides easier warmups at low skill', function() {
@@ -28,5 +34,12 @@ describe('practiceSessionSettings', function() {
   it('clamps skill level', function() {
     expect(clampSkillLevel(0)).toBe(1)
     expect(clampSkillLevel(99)).toBe(10)
+  })
+
+  it('normalizes practice instrument', function() {
+    expect(normalizePracticeInstrument('fiddle')).toBe('violin')
+    expect(normalizePracticeInstrument('Mandolin')).toBe('mandolin')
+    expect(normalizePracticeInstrument('banjo')).toBe('mandolin')
+    expect(getPracticeInstrumentLabel('violin')).toBe('Violin')
   })
 })

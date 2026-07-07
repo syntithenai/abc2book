@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './breakpoints.css';
+import { applyColorScheme, getColorScheme } from './colorSchemeSettings';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+applyColorScheme(getColorScheme());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

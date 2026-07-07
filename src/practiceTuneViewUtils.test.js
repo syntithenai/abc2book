@@ -1,4 +1,4 @@
-import { pickPracticeTuneViewMode } from './practiceTuneViewUtils'
+import { pickPracticeTuneViewMode, tuneHasLyrics } from './practiceTuneViewUtils'
 
 describe('practiceTuneViewUtils', function() {
   const tunebook = {
@@ -6,6 +6,13 @@ describe('practiceTuneViewUtils', function() {
       return !!(tune && tune.voices && Object.keys(tune.voices).length > 0)
     },
   }
+
+  it('detects lyrics from words or wLines', function() {
+    expect(tuneHasLyrics({ wLines: ['Hello'] })).toBe(true)
+    expect(tuneHasLyrics({ words: ['Hello'] })).toBe(true)
+    expect(tuneHasLyrics({ wLines: ['', '  '] })).toBe(false)
+    expect(tuneHasLyrics({ voices: { v: { notes: ['CDEF|'] } } })).toBe(false)
+  })
 
   it('picks chords block for lyric chord sheets', function() {
     const tune = {

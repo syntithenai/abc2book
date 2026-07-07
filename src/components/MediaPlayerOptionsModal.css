@@ -61,6 +61,10 @@
   margin-bottom: 0.75em;
 }
 
+.midi-playback-metronome-panel {
+  padding-top: 0.25rem;
+}
+
 .media-controls-stem-status {
   margin: 0.5em 0 0.75em;
   padding: 0.5rem 0.75rem;
@@ -71,21 +75,16 @@
 }
 
 .media-controls-modal-header {
-  display: flex;
   align-items: center;
-  width: 100%;
-  gap: 0.5em;
 }
 
-.media-controls-modal-header .modal-title-text {
+.media-controls-modal-header .modal-title {
   flex: 1 1 auto;
+  margin-right: 0.5rem;
 }
 
-.media-controls-modal-header-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35em;
-  align-items: center;
+.media-controls-modal-header .btn-close {
+  margin-left: 0;
 }
 
 .media-controls-playback-row {

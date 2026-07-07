@@ -90,6 +90,143 @@ describe('voiceCommandExecutor', function() {
     expect(context.setCurrentTune).toHaveBeenCalledWith('t1');
   });
 
+  test('executeVoiceCommand plays a filtered playlist', async function() {
+    const tunes = [
+      { id: 'a', name: 'Wild Rover', composer: '' },
+      { id: 'b', name: 'Banish Misfortune', composer: '' },
+    ];
+    const context = {
+      tunes: {
+        a: tunes[0],
+        b: tunes[1],
+      },
+      tunebook: {
+        fromSearch: jest.fn(function() { return tunes; }),
+        createQueueFromTuneIds: jest.fn(function(tuneIds, options) {
+          return { tuneIds: tuneIds, name: options.name };
+        }),
+        startNowPlayingQueue: jest.fn(),
+        navigate: jest.fn(),
+      },
+      mediaController: {},
+      onFeedback: jest.fn(),
+      voiceMode: 'playback',
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'play title wild rover',
+      tool: 'PLAY_FILTER',
+      filterKind: 'title',
+      filterValue: 'wild rover',
+      title: 'wild rover',
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(context.tunebook.fromSearch).toHaveBeenCalledWith('wild rover', '', [], [], []);
+    expect(context.tunebook.createQueueFromTuneIds).toHaveBeenCalledWith(['a', 'b'], expect.objectContaining({
+      name: 'Voice: title wild rover',
+      source: 'voice',
+    }));
+    expect(context.tunebook.startNowPlayingQueue).toHaveBeenCalled();
+  });
+
+  test('executeVoiceCommand stops playback', async function() {
+    const context = {
+      tunes: {},
+      tunebook: {
+        clearNowPlayingQueue: jest.fn(),
+      },
+      mediaController: {
+        stop: jest.fn(),
+      },
+      onFeedback: jest.fn(),
+      voiceMode: 'playback',
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'stop playing',
+      tool: 'STOP_PLAYBACK',
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(context.mediaController.stop).toHaveBeenCalled();
+    expect(context.tunebook.clearNowPlayingQueue).toHaveBeenCalled();
+    expect(context.onFeedback).toHaveBeenCalledWith('Stopped playback');
+  });
+
+  test('executeVoiceCommand opens help answers only in help mode', async function() {
+    const context = {
+      tunes: {},
+      tunebook: {},
+      onFeedback: jest.fn(),
+      onHelpAnswer: jest.fn(),
+      voiceMode: 'help',
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'how do i import from media',
+      tool: 'ASK_HELP',
+      helpAnswer: 'Use Add > Import from media.',
+      helpLinks: ['/help#import-from-media'],
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(context.onHelpAnswer).toHaveBeenCalledWith(expect.objectContaining({
+      question: 'how do i import from media',
+      answer: 'Use Add > Import from media.',
+      links: ['/help#import-from-media'],
+    }));
+  });
+
+  test('executeVoiceCommand rejects help answers outside help mode', async function() {
+    const context = {
+      tunes: {},
+      tunebook: {},
+      onFeedback: jest.fn(),
+      onHelpAnswer: jest.fn(),
+      voiceMode: 'playback',
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'how do i import from media',
+      tool: 'ASK_HELP',
+      helpAnswer: 'Use Add > Import from media.',
+      helpLinks: ['/help#import-from-media'],
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(false);
+    expect(context.onHelpAnswer).not.toHaveBeenCalled();
+    expect(context.onFeedback).toHaveBeenCalledWith('Help questions are available on the Help page or in the notation editor help dialog');
+  });
+
+  test('executeVoiceCommand rejects playback commands in help mode', async function() {
+    const context = {
+      tunes: {
+        t1: { id: 't1', name: 'Wild Rover', composer: '' },
+      },
+      tunebook: {
+        navigate: jest.fn(),
+      },
+      onFeedback: jest.fn(),
+      voiceMode: 'help',
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'show wild rover',
+      tool: 'SHOW',
+      title: 'wild rover',
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(false);
+    expect(context.onFeedback).toHaveBeenCalledWith('Use help questions on the help page or in the notation editor help dialog');
+    expect(context.tunebook.navigate).not.toHaveBeenCalled();
+  });
+
   test('executeVoiceCommand navigates on OPEN_TOOL', async function() {
     const navigated = [];
     const context = {

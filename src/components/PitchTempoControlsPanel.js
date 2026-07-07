@@ -31,7 +31,10 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
   }, [tune, tuneId, playbackTempo, playbackPitch, playbackFineTune]);
 
   function applyLive(nextTempo, nextPitch, nextFineTune) {
-    if (mediaController && mediaController.updateTunePlaybackSettings) {
+    if (!mediaController) return;
+    if (mediaController.applyLivePlaybackSettings) {
+      mediaController.applyLivePlaybackSettings(nextTempo, nextPitch, nextFineTune);
+    } else if (mediaController.updateTunePlaybackSettings) {
       mediaController.updateTunePlaybackSettings(nextTempo, nextPitch, nextFineTune);
     }
   }

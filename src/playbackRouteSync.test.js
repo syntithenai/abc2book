@@ -36,6 +36,21 @@ describe('playbackRouteSync', function() {
     expect(route.mediaLinkNumber).toBe(null)
   })
 
+  test('playMidi without notation never falls back to linked media', function() {
+    const linksOnly = {
+      id: 't2',
+      links: [{ link: 'https://youtube.com/watch?v=abc' }],
+    }
+    const route = syncPlaybackRoute({
+      playState: 'playMidi',
+      mediaLinkNumberParam: '0',
+      tune: linksOnly,
+      hasNotesOrChords: function() { return false },
+      getSrc: getSrc,
+    })
+    expect(route.mode).toBe('none')
+  })
+
   test('resolveMediaLinkIndex defaults to 0', function() {
     expect(resolveMediaLinkIndex(undefined, tuneWithBoth)).toBe(0)
     expect(resolveMediaLinkIndex('bad', tuneWithBoth)).toBe(0)

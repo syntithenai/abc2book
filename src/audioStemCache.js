@@ -1,7 +1,14 @@
 import localforage from 'localforage';
+import { scheduleMediaCacheStorageCheck, tuneIdFromStemCacheKey } from './mediaCacheStorage';
 
 const memoryCache = new Map();
 const store = localforage.createInstance({ name: 'stemcache' });
+
+export function forgetStemCacheKeys(keys) {
+  (keys || []).forEach(function(key) {
+    memoryCache.delete(key);
+  });
+}
 
 export function getStemSourceCacheKey(tuneId, linkIndex, src, model) {
   const modelSuffix = model ? ':' + model : '';
@@ -73,6 +80,7 @@ export async function getCachedStemSet(cacheKey) {
   const hydrated = {
     separation: stored.separation || null,
     stemBuffers: stemBuffers,
+    stemWavBytes: stored.stemWavBytes || null,
   };
   memoryCache.set(cacheKey, hydrated);
   return hydrated;
@@ -84,10 +92,11 @@ export async function saveCachedStemSet(cacheKey, payload) {
     stemBuffers: payload && payload.stemBuffers ? payload.stemBuffers : null,
     stemWavBytes: payload && payload.stemWavBytes ? payload.stemWavBytes : null,
   };
-  if (next.stemBuffers) {
+  if (next.stemBuffers || next.stemWavBytes) {
     memoryCache.set(cacheKey, {
       separation: next.separation,
       stemBuffers: next.stemBuffers,
+      stemWavBytes: next.stemWavBytes,
     });
   }
   const persistable = {
@@ -99,9 +108,25 @@ export async function saveCachedStemSet(cacheKey, payload) {
     return;
   }
   await store.setItem(cacheKey, persistable);
+  scheduleMediaCacheStorageCheck();
 }
 
-export async function clearStemCache() {
-  memoryCache.clear();
-  await store.clear();
+export async function clearStemCache(lockedTuneIds) {
+  if (!lockedTuneIds || Object.keys(lockedTuneIds).length === 0) {
+    memoryCache.clear();
+    await store.clear();
+  } else {
+    const keysToRemove = [];
+    await store.iterate(function(_value, key) {
+      const tuneId = tuneIdFromStemCacheKey(key);
+      if (!tuneId || !lockedTuneIds[tuneId]) {
+        keysToRemove.push(key);
+      }
+    });
+    forgetStemCacheKeys(keysToRemove);
+    for (let i = 0; i < keysToRemove.length; i++) {
+      await store.removeItem(keysToRemove[i]);
+    }
+  }
+  scheduleMediaCacheStorageCheck(0);
 }

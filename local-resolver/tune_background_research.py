@@ -570,8 +570,9 @@ def _build_llm_prompt(title, artist, sources, lyrics=""):
         "4. Notable performers and recorded versions\n"
         "5. Record labels and releases (who released what)\n"
         "6. Historical anecdotes and cultural context\n"
-        "7. Musical nature, key, tempo, rhythm, and formal structure\n"
-        "8. Notable recordings and YouTube links (markdown links for every YouTube URL in the notes)\n\n"
+        "7. Musical nature, key, tempo, rhythm, and formal structure\n\n"
+        "Do not include a YouTube links section; YouTube links are searched and added "
+        "automatically after the record labels and releases section.\n\n"
         f"{about_section}\n\n"
         "STYLE: Write in flowing prose for musicians. Lead with confirmed facts from the notes. "
         "Expand each section with specific detail from the notes. "
@@ -743,11 +744,17 @@ async def research_tune_background(title, artist="", lyrics="", on_progress=None
         await _emit_progress(
             on_progress,
             "summarize",
-            "Adding artist and album links...",
+            "Adding artist and album links, searching YouTube...",
             0.85,
             elapsed_ms(),
         )
-        text = await enrich_background_markdown(client, text, sources, tune_artist=artist)
+        text = await enrich_background_markdown(
+            client,
+            text,
+            sources,
+            tune_artist=artist,
+            tune_title=title,
+        )
         summarize_ms = int((time.monotonic() - summarize_started_at) * 1000)
 
     total_ms = elapsed_ms()

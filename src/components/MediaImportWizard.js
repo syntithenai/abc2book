@@ -1,20 +1,21 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Modal, Tab, Tabs, Alert } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import useAbcjsParser from '../useAbcjsParser';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import useTuneMediaAnalysis from '../useTuneMediaAnalysis';
 import {
   createWizardDraft,
   applyAnalysisToDraft,
-  draftHasFinishableContent,
+  persistMediaImportLookupResults,
 } from '../mediaImportWizardState';
 import { getDetectedTempoFromAnalysis, tuneHasTempo } from '../mediaAnalysisClient';
 import { finishMediaImportWizard } from '../mediaImportWizardFinish';
+import { showBackgroundProcessingNotice } from '../backgroundReviewToast';
+import { needsComposerDiscovery } from '../composerDiscoveryUtils';
 import { getLyricLines } from '../wLinesUtils';
 import { buildSectionsFromLines } from '../timedLyricsModel';
-import { buildAlignedLyricRows } from '../lyricsAlignmentUtils';
-import { mergeLyricsFromChoices } from '../lyricsMergeUtils';
 import MediaImportAnalyzeToolbar from './mediaImportWizard/AnalyzeToolbar';
 import { useMediaImportWebSearch } from './mediaImportWizard/useMediaImportWebSearch';
 import MediaImportMetadataStep from './mediaImportWizard/MetadataStep';
@@ -43,21 +44,58 @@ export default function MediaImportWizard(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
   const { available: resolverAvailable, features } = useMediaResolverHealth();
   const canAnalyzeMedia = resolverAvailable && features.whisper;
+  const canResearchBackground = resolverAvailable && features.llm;
   const { analysis } = useTuneMediaAnalysis({ tune: props.tune });
 
   const metadata = draft && draft.metadata ? draft.metadata : {};
+  const propsTuneId = props.tune && props.tune.id;
+
   const webSearch = useMediaImportWebSearch({
     title: metadata.name || (props.tune && props.tune.name) || '',
     artist: metadata.composer || (props.tune && props.tune.composer) || '',
     token: props.token,
+    canResearchBackground: canResearchBackground,
+    resolverAvailable: resolverAvailable,
+    abcTools: props.tunebook && props.tunebook.abcTools ? props.tunebook.abcTools : null,
+    renderChords: function(abc) { return abcjsParser.renderChords(abc, true) },
+    background: true,
+    onBackgroundResults: function(results) {
+      if (!propsTuneId) return;
+      persistMediaImportLookupResults(propsTuneId, results, props.tune, props.tunebook);
+    },
     onResults: function(results) {
+      if (!results || typeof results !== 'object') return;
       setDraft(function(current) {
         if (!current) return current;
-        return Object.assign({}, current, {
-          chordGridText: results.chordGridText || current.chordGridText || '',
-          lookupLyricLines: results.lookupLyricLines || [],
-          chordsFromNotation: false,
-        });
+        const nextMetadata = Object.assign({}, current.metadata || {});
+        if (Array.isArray(results.lookupComposerCandidates) && results.lookupComposerCandidates.length > 0) {
+          // Composer choices are reviewed via the metadata dropdown.
+        } else if (results.lookupArtist && needsComposerDiscovery(nextMetadata.composer)) {
+          nextMetadata.composer = results.lookupArtist;
+        }
+        if (results.lookupBackgroundInfo && results.lookupBackgroundInfo.trim() && !nextMetadata.backgroundInfo) {
+          nextMetadata.backgroundInfo = results.lookupBackgroundInfo.trim();
+        }
+        const next = Object.assign({}, current, { metadata: nextMetadata });
+        if (results.lookupChordGridText !== undefined) {
+          next.lookupChordGridText = results.lookupChordGridText || current.lookupChordGridText || '';
+        }
+        if (results.lookupLyricLines !== undefined) {
+          next.lookupLyricLines = results.lookupLyricLines || [];
+        }
+        if (results.lookupLyricSource !== undefined) {
+          next.lookupLyricSource = results.lookupLyricSource || current.lookupLyricSource || '';
+        }
+        if (results.lookupBackgroundInfo !== undefined) {
+          next.lookupBackgroundInfo = results.lookupBackgroundInfo || current.lookupBackgroundInfo || '';
+        }
+        if (results.lookupBackgroundSource !== undefined) {
+          next.lookupBackgroundSource = results.lookupBackgroundSource || current.lookupBackgroundSource || '';
+        }
+        if (results.lookupComposerCandidates !== undefined) {
+          next.lookupComposerCandidates = results.lookupComposerCandidates;
+        }
+        return next;
       });
     },
   });
@@ -66,7 +104,19 @@ export default function MediaImportWizard(props) {
     if (typeof props.onClose === 'function') props.onClose();
   }
 
-  const propsTuneId = props.tune && props.tune.id
+  function notifyBackgroundStart() {
+    close();
+    if (typeof props.onBackgroundStart === 'function') {
+      props.onBackgroundStart();
+    }
+    showBackgroundProcessingNotice();
+  }
+
+  function runInBackground(startTask) {
+    if (typeof startTask === 'function') startTask();
+    notifyBackgroundStart();
+  }
+
   useEffect(function() {
     if (!show || !props.tune) return;
     const existingWLines = getLyricLines(props.tune);
@@ -75,15 +125,30 @@ export default function MediaImportWizard(props) {
     nextDraft.lyricLines = existingWLines.slice();
     nextDraft.mergedLyricLines = existingWLines.slice();
     nextDraft.baseTuneAbc = props.abc || props.tunebook.abcTools.json2abc(props.tune);
+    try {
+      const existingChords = abcjsParser.renderChords(nextDraft.baseTuneAbc, true) || '';
+      nextDraft.existingChordGridText = existingChords;
+      nextDraft.chordGridText = existingChords;
+      const existingNotes = props.tunebook.abcTools.justNotes(nextDraft.baseTuneAbc) || '';
+      nextDraft.existingMelodyNotesText = existingNotes;
+      nextDraft.melodyNotesText = existingNotes;
+    } catch (e) {
+      nextDraft.existingChordGridText = '';
+      nextDraft.chordGridText = '';
+      nextDraft.existingMelodyNotesText = '';
+      nextDraft.melodyNotesText = '';
+    }
     setDraft(nextDraft);
     setActiveStep('metadata');
     setDismissedTuningHint(false);
-  }, [show, props.tune, propsTuneId, props.abc, props.tunebook.abcTools]);
+  }, [show, propsTuneId, props.abc]);
+
+  const analysisVersion = analysis ? analysis.version : 0;
 
   useEffect(function() {
-    if (!analysis || !draft || draft.analysisVersion === analysis.version) return;
+    if (!analysis || analysisVersion <= 0) return;
     setDraft(function(current) {
-      if (!current) return current;
+      if (!current || current.analysisVersion === analysisVersion) return current;
       const next = applyAnalysisToDraft(current, analysis, props.tunebook);
       next.existingWLines = current.existingWLines || getLyricLines(props.tune);
 
@@ -98,35 +163,18 @@ export default function MediaImportWizard(props) {
       if (detectedMeter && !next.metadata.meter) next.metadata.meter = detectedMeter;
       const detectedTempo = getDetectedTempoFromAnalysis(analysis.raw);
       if (detectedTempo > 0 && !tuneHasTempo({ tempo: next.metadata.tempo })) {
-        next.metadata.tempo = detectedTempo;
-      }
-
-      if (!current.lyricLines || current.lyricLines.length === 0) {
-        next.lyricLines = next.existingWLines.slice();
-      } else {
-        next.lyricLines = current.lyricLines.slice();
+        next.metadata.tempo = String(detectedTempo);
       }
 
       if (next.timedLyrics) {
         next.sections = buildSectionsFromLines(next.timedLyrics);
-        const transcribed = next.timedLyrics.lines.map(function(line) { return line.text; });
-        const rows = buildAlignedLyricRows(next.existingWLines, transcribed);
-        const choices = {};
-        rows.forEach(function(row) {
-          choices[row.id] = row.defaultChoice;
-        });
-        next.lyricRows = rows;
-        next.mergedLyricLines = mergeLyricsFromChoices(rows, choices);
       }
       return next;
     });
-  }, [analysis, draft, props.tune, props.tunebook]);
+  }, [analysis, analysisVersion, props.tune, props.tunebook]);
 
-  const stepIndex = useMemo(function() {
-    return STEPS.findIndex(function(step) { return step.key === activeStep; });
-  }, [activeStep]);
-
-  const canFinish = draftHasFinishableContent(draft);
+  const searchTitle = (metadata.name || (props.tune && props.tune.name) || '').trim();
+  const canSearch = !!searchTitle;
 
   const tuningSuggestion = useMemo(function() {
     if (!draft || !draft.metadata) return null;
@@ -137,22 +185,34 @@ export default function MediaImportWizard(props) {
     return suggestTuningFromMetadata(meta);
   }, [draft, props.tune, analysis && analysis.version]);
 
-  function goNext() {
-    if (stepIndex < STEPS.length - 1) {
-      setActiveStep(STEPS[stepIndex + 1].key);
-    }
-  }
-
-  function goPrevious() {
-    if (stepIndex > 0) {
-      setActiveStep(STEPS[stepIndex - 1].key);
-    }
-  }
-
   const staging = typeof props.onStage === 'function';
 
   function handleFinish() {
-    if (!draft || !props.tune || !canFinish) return;
+    if (!draft || !props.tune) return;
+
+    const finishActionLabel = staging ? 'using these results' : 'finishing';
+    const title = String(
+      (draft.metadata && draft.metadata.name)
+      || (props.tune && props.tune.name)
+      || ''
+    ).trim();
+    if (!title) {
+      toast.warn('Title is required before ' + finishActionLabel + '.');
+      setActiveStep('metadata');
+      return;
+    }
+
+    const composer = String(
+      (draft.metadata && draft.metadata.composer)
+      || (props.tune && props.tune.composer)
+      || ''
+    ).trim();
+    if (!composer) {
+      toast.warn('Composer is required before ' + finishActionLabel + '.');
+      setActiveStep('metadata');
+      return;
+    }
+
     const result = finishMediaImportWizard({
       tune: staging ? JSON.parse(JSON.stringify(props.tune)) : props.tune,
       tunebook: props.tunebook,
@@ -191,28 +251,29 @@ export default function MediaImportWizard(props) {
             <>
               <MediaImportAnalyzeToolbar
                 tune={props.tune}
+                tunebook={props.tunebook}
+                preferredLinkIndex={props.linkIndex}
+                autoStartAnalysis={props.autoStartAnalysis}
                 processingSettings={draft.processingSettings}
                 melodyNoteSettings={draft.melodyNoteSettings}
                 existingLyrics={draft.existingWLines}
-                autoAnalyze={!!props.autoAnalyze}
                 canAnalyzeMedia={canAnalyzeMedia}
+                canSearch={canSearch}
                 resolverAvailable={resolverAvailable}
                 onProcessingChange={function(settings) {
                   updateDraft({ processingSettings: settings });
                 }}
-                onSearch={webSearch.runSearch}
+                onSearch={function() { runInBackground(webSearch.runSearch); }}
+                onFullLookup={function() { runInBackground(webSearch.runFullLookup); }}
+                onCancelSearch={webSearch.cancelSearch}
                 searchBusy={webSearch.busy}
                 searchError={webSearch.error}
                 searchSource={webSearch.source}
                 searchProgressMessage={webSearch.progressMessage}
                 searchProgressPercent={webSearch.progressPercent}
-                stepIndex={stepIndex}
-                stepCount={STEPS.length}
-                canFinish={canFinish}
                 finishLabel={staging ? 'Use these results' : 'Finish'}
-                onPrevious={goPrevious}
-                onNext={goNext}
                 onFinish={handleFinish}
+                onBackgroundStart={notifyBackgroundStart}
               />
               {tuningSuggestion && !dismissedTuningHint && analysis && (
                 <Alert variant="info" dismissible onClose={function() { setDismissedTuningHint(true); }}>
@@ -249,7 +310,10 @@ export default function MediaImportWizard(props) {
                             <MediaImportMetadataStep
                               draft={draft}
                               tunebook={props.tunebook}
+                              token={props.token}
+                              resolverAvailable={resolverAvailable}
                               onChange={function(nextMetadata) { updateDraft({ metadata: nextMetadata }); }}
+                              onDraftChange={function(patch) { updateDraft(patch); }}
                             />
                           )}
                           {step.key === 'lyrics' && (

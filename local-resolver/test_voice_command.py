@@ -7,6 +7,7 @@ from voice_command import (
     parse_catalog_json,
     parse_llm_voice_json,
     parse_voice_intent_regex,
+    rank_help_links,
 )
 
 
@@ -95,6 +96,16 @@ class VoiceCommandTests(unittest.TestCase):
     def test_parse_catalog_json_invalid(self):
         with self.assertRaises(ValueError):
             parse_catalog_json('{"not":"array"}', "books")
+
+    def test_rank_help_links_prefers_media_import(self):
+        ranked = rank_help_links("how do i import from media")
+        self.assertGreaterEqual(len(ranked), 1)
+        self.assertEqual(ranked[0], "/help#import-from-media")
+
+    def test_rank_help_links_prefers_practice_for_playback_questions(self):
+        ranked = rank_help_links("how do i change playback speed and loop")
+        self.assertGreaterEqual(len(ranked), 1)
+        self.assertEqual(ranked[0], "/help#practise")
 
 
 if __name__ == "__main__":

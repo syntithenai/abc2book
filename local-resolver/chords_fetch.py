@@ -35,12 +35,19 @@ CHORD_PAGE_HOST_SUFFIXES = (
     "chords-and-tabs.net",
     "guitaretab.com",
     "akordy.kytary.cz",
+    "worshiptogether.com",
 )
 
 BING_RSS_SEARCH_URL = "https://www.bing.com/search?format=rss&q="
 AZCHORDS_CONTENT_RE = re.compile(r'<pre[^>]*id="content"[^>]*>(.*?)</pre>', re.S | re.I)
 ECHORDS_PRE_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
 CIFRACLUB_PRE_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
+WORSHIPTOGETHER_NOTE_RE = re.compile(r'<div class="chord-pro-note">(.*?)</div>', re.S | re.I)
+WORSHIPTOGETHER_LYRIC_RE = re.compile(r'<div class="chord-pro-lyric">(.*?)</div>', re.S | re.I)
+WORSHIPTOGETHER_SECTION_RE = re.compile(
+    r"^(?:intro|verse\s*\d*|chorus\s*\d*|bridge\s*\d*|pre-?chorus\s*\d*|tag\s*\d*|outro|turnaround|interlude|refrain|ending).*$",
+    re.I,
+)
 # Chord spans on e-chords / cifraclub mark the chord as the element's inner text.
 CHORD_SPAN_RE = re.compile(
     r"<(span|b)[^>]*data-chord(?:-name)?=\"[^\"]*\"[^>]*>(.*?)</\1>", re.S | re.I
@@ -415,6 +422,39 @@ def extract_cifraclub_sheet(html_text):
     return sheet if sheet.strip() else None
 
 
+def _clean_worshiptogether_fragment(fragment):
+    text = re.sub(r"<[^>]+>", "", fragment or "")
+    text = html.unescape(text).replace("\xa0", " ").replace("&nbsp;", " ").strip()
+    return text
+
+
+def extract_worshiptogether_sheet(html_text):
+    if not html_text:
+        return None
+    lines = []
+    line_starts = [match.start() for match in re.finditer(r'<div class="chord-pro-line">', html_text, re.I)]
+    for index, start in enumerate(line_starts):
+        end = line_starts[index + 1] if index + 1 < len(line_starts) else len(html_text)
+        chunk = html_text[start:end]
+        note_match = WORSHIPTOGETHER_NOTE_RE.search(chunk)
+        lyric_match = WORSHIPTOGETHER_LYRIC_RE.search(chunk)
+        note = _clean_worshiptogether_fragment(note_match.group(1) if note_match else "")
+        lyric = _clean_worshiptogether_fragment(lyric_match.group(1) if lyric_match else "")
+        if note and not lyric:
+            lines.append(note)
+        elif lyric and not note:
+            if WORSHIPTOGETHER_SECTION_RE.match(lyric):
+                lines.append("[{0}]".format(lyric))
+            else:
+                lines.append(lyric)
+        elif note and lyric:
+            lines.append(note)
+            lines.append(lyric)
+    if not lines:
+        return None
+    return "\n".join(lines)
+
+
 def extract_sheet_from_html(html_text, page_url):
     host = (urlparse(page_url).hostname or "").lower()
     if "azchords.com" in host:
@@ -423,6 +463,8 @@ def extract_sheet_from_html(html_text, page_url):
         return extract_echords_sheet(html_text)
     if "cifraclub.com" in host:
         return extract_cifraclub_sheet(html_text)
+    if "worshiptogether.com" in host:
+        return extract_worshiptogether_sheet(html_text)
     return None
 
 
@@ -468,7 +510,7 @@ def _candidate_from_search_result(item, title, artist, default_source):
 
     host = _display_host(validated)
     # We can only use discovered pages from hosts we know how to parse.
-    if not any(known in host for known in ("e-chords.com", "cifraclub.com", "azchords.com")):
+    if not any(known in host for known in ("e-chords.com", "cifraclub.com", "azchords.com", "worshiptogether.com")):
         return None
 
     result_title = _strip_search_result_text(item.get("title") or "")
@@ -570,7 +612,7 @@ def build_brave_chord_query(title, artist):
     if artist:
         terms.append('"{0}"'.format(artist))
     terms.append("chords")
-    terms.append("(site:e-chords.com OR site:cifraclub.com OR site:azchords.com)")
+    terms.append("(site:e-chords.com OR site:cifraclub.com OR site:azchords.com OR site:worshiptogether.com)")
     return " ".join(terms)
 
 

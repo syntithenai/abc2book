@@ -1,6 +1,5 @@
 export function getPracticeSessionCopy(step, options) {
   const opts = options || {}
-  const tempoPercent = Math.round((opts.currentTempo != null ? opts.currentTempo : 0.5) * 100)
   const phase = opts.phase || 'running'
 
   if (phase === 'ended') {
@@ -18,23 +17,20 @@ export function getPracticeSessionCopy(step, options) {
   }
 
   if (step.type === 'warmup') {
+    const rep = opts.warmupRun != null && opts.warmupRepeats != null
+      ? ('Repeat ' + opts.warmupRun + ' of ' + opts.warmupRepeats + '. ')
+      : ''
     return {
       happening: 'Warming up — ' + (step.title || 'exercise'),
-      action: step.action || 'Play along with the pattern. Focus on even notes and relaxed hands.',
+      action: rep + (step.action || 'Play along with the pattern. Focus on even notes and relaxed hands.'),
     }
   }
 
   if (step.type === 'tune') {
     const name = step.tuneName || 'tune'
-    if (step.route === 'media') {
-      return {
-        happening: 'Now playing — ' + name,
-        action: 'Play along with the recording. Tempo is ' + tempoPercent + '% and will speed up gradually.',
-      }
-    }
     return {
       happening: 'Now playing — ' + name,
-      action: 'Play along with the notation below. Tempo is ' + tempoPercent + '% and will speed up gradually.',
+      action: '',
     }
   }
 

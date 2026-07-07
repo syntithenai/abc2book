@@ -159,7 +159,30 @@ Debug screenshots on failure: `e2e/output/`
 - YouTube / external pitch-tempo depend on network and resolver
 - Not wired into CI by default (needs server + seeded browser profile)
 
-## Test pyramid
+## Notation editor E2E
+
+See **[NOTATION.md](./NOTATION.md)** for the walkthrough-aligned test matrix.
+
+```bash
+npm start   # terminal 1
+npm run test:notation:e2e
+NOTATION_E2E_TIER=1 npm run test:notation:e2e   # P0 + P1
+NOTATION_E2E_TIER=full npm run test:notation:e2e
+```
+
+Fixtures: `?seed=notation-basic` loads tunes from [notationE2eFixtures.js](../src/devSeed/notationE2eFixtures.js).
+Dev hook: `window.__abc2bookNotationTest` (ABC, selection, mode, caret).
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `NOTATION_TEST_BASE` | `http://localhost:3000` | Dev server |
+| `NOTATION_TEST_URL` | basic editor music URL | Override start URL |
+| `NOTATION_E2E_TIER` | `0` | `0`, `1`, `full`, `p1`, `p2`, `p3` |
+| `NOTATION_TEST_CDP_URL` | — | Same as playback CDP |
+
+**CI:** Jest notation tests run on every PR (`npm test`). Puppeteer tiers are optional nightly jobs.
+
+## Test pyramid (playback)
 
 | Layer | Command | Covers |
 |-------|---------|--------|

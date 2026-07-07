@@ -16,6 +16,7 @@
 const fs = require('fs')
 const path = require('path')
 const puppeteer = require('puppeteer')
+const { patchPageCompat } = require('./helpers')
 
 const BASE = process.env.PLAYBACK_TEST_BASE || 'http://localhost:3000'
 const TEST_URL = process.env.PLAYBACK_TEST_URL
@@ -502,6 +503,7 @@ async function main() {
 
   const browser = await launchBrowser()
   const page = await browser.newPage()
+  patchPageCompat(page)
   page.setDefaultTimeout(TIMEOUT_MS)
 
   let tuneReady = false

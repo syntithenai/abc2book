@@ -1,19 +1,25 @@
 import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
-import {useNavigate, useLocation} from 'react-router-dom'
+import {useNavigate, useLocation, useParams} from 'react-router-dom'
 import PitchTempoControlsPanel from './PitchTempoControlsPanel'
 import AudioFiltersPanel from './AudioFiltersPanel'
 import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
+import MidiPlaybackMetronomePanel from './MidiPlaybackMetronomePanel'
 import MediaSeekSlider from './MediaSeekSlider'
 import { getActiveLinkIndex } from '../mediaPlaybackUtils'
 import './MediaPlayerOptionsModal.css'
- 
-export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user}) {
+
+export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user, tunes}) {
   const navigate = useNavigate()
   const location = useLocation()
+  const params = useParams()
+  const viewedTune = (function() {
+    if (params.tuneId && tunes && tunes[params.tuneId]) {
+      return tunes[params.tuneId]
+    }
+    return mediaController.tune
+  })()
   const [show, setShow] = useState(false);
-  const [downloadStatus, setDownloadStatus] = useState('');
-  const [isMediaCached, setIsMediaCached] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
   const clickTimeoutRef = useRef(null);
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
@@ -27,37 +33,37 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
       mediaController.refreshMediaResolverHealth();
     }
   }
- 
+
   const [hasMusic, setHasMusic] = useState(false)
   const [hasLinks, setHasLinks] = useState(false)
-   
+
   useEffect(function() {
-       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && tunebook.hasNotesOrChords(mediaController.tune)) {
+       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune && tunebook.hasNotesOrChords(viewedTune)) {
           setHasMusic(true)
        } else {
            setHasMusic(false)
        }
-       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && mediaController.tune && tunebook.hasLinks(mediaController.tune)) {
+       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune && tunebook.hasLinks(viewedTune)) {
           setHasLinks(true)
        } else {
-          setHasLinks(false)
-       } 
-   },[mediaController.tune, location.pathname, tunebook])
+           setHasLinks(false)
+       }
+   },[viewedTune, location.pathname, tunebook])
 
-  const activeLinkIndex = mediaController.tune
-    ? getActiveLinkIndex(mediaController.tune, mediaController.mediaLinkNumber)
+  const activeLinkIndex = viewedTune
+    ? getActiveLinkIndex(viewedTune, mediaController.mediaLinkNumber)
     : null
 
-  const showLoopTab = mediaController.tune
+  const showLoopTab = viewedTune
     && activeLinkIndex !== null
-    && mediaController.tune.links
-    && mediaController.tune.links[activeLinkIndex]
+    && viewedTune.links
+    && viewedTune.links[activeLinkIndex]
 
-  const showAudioFiltersTab = !!mediaController.tune
+  const showAudioFiltersTab = !!viewedTune
     && activeLinkIndex !== null
-    && mediaController.tune.links
-    && mediaController.tune.links[activeLinkIndex]
-    && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
+    && viewedTune.links
+    && viewedTune.links[activeLinkIndex]
+    && mediaController.getSrcType(viewedTune.links[activeLinkIndex].link) !== 'abc'
     && mediaController.resolverFeatures
     && mediaController.resolverFeatures.stems
 
@@ -68,7 +74,10 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     if (settingsTab === 'filters' && !showAudioFiltersTab) {
       setSettingsTab('playback');
     }
-  }, [settingsTab, showLoopTab, showAudioFiltersTab]);
+    if (settingsTab === 'midi' && !hasMusic) {
+      setSettingsTab('playback');
+    }
+  }, [settingsTab, showLoopTab, showAudioFiltersTab, hasMusic]);
 
   function startPlaybackFromGesture(options) {
     if (mediaController.playFromUserGesture) {
@@ -81,8 +90,12 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
   }
 
   function cancelPendingPlayback() {
-    mediaController.pause()
-    mediaController.setIsLoading(false)
+    if (mediaController.abortPlayingIntent) {
+      mediaController.abortPlayingIntent()
+    } else {
+      mediaController.pause()
+      mediaController.setIsLoading(false)
+    }
     mediaController.setIsReady(false)
   }
 
@@ -93,27 +106,57 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
       onDouble()
       return
     }
-    onSingle()
     clickTimeoutRef.current = setTimeout(function() {
       clickTimeoutRef.current = null
-    }, 400)
+      onSingle()
+    }, 300)
+  }
+
+  function requestPlaybackForTarget(target) {
+    if (!viewedTune || !mediaController.requestPlayback) return false
+    return mediaController.requestPlayback({
+      tuneId: viewedTune.id,
+      playState: target.playState,
+      linkNum: target.linkNum,
+      fromUserGesture: true,
+      fresh: target.fresh,
+      restart: target.restart,
+    })
+  }
+
+  function applyRouteForTarget(target) {
+    if (!viewedTune || !mediaController.applyPlaybackRoute) return
+    const linkParam = target.playState === 'playMedia'
+      ? String(target.linkNum != null ? target.linkNum : 0)
+      : '0'
+    mediaController.applyPlaybackRoute(target.playState, linkParam, viewedTune, tunebook)
   }
 
   function handleLinkPlayback(linkKey) {
+    if (!viewedTune) return
     const sameSource = mediaController.isMediaPlaybackRoute
       && mediaController.isMediaPlaybackRoute()
       && mediaController.mediaLinkNumber === linkKey
-    const path = '/tunes/' + mediaController.tune.id + '/playMedia/' + linkKey
+    const path = '/tunes/' + viewedTune.id + '/playMedia/' + linkKey
     handlePlayClick(
       function() {
-        mediaController.setMediaLinkNumber(linkKey)
+        applyRouteForTarget({
+          playState: 'playMedia',
+          linkNum: linkKey,
+        })
+        if (!requestPlaybackForTarget({
+          playState: 'playMedia',
+          linkNum: linkKey,
+          fresh: !sameSource,
+        })) {
+          if (sameSource) {
+            startPlaybackFromGesture()
+          } else {
+            startPlaybackFromGesture({ fresh: true })
+          }
+        }
         if (location.pathname !== path) {
           navigate(path)
-        }
-        if (sameSource) {
-          startPlaybackFromGesture()
-        } else {
-          startPlaybackFromGesture({ fresh: true })
         }
       },
       function() {
@@ -129,19 +172,25 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
   }
 
   function handleMidiPlayback() {
+    if (!viewedTune) return
     const sameSource = mediaController.isMidiPlaybackRoute
       && mediaController.isMidiPlaybackRoute()
-    const path = '/tunes/' + mediaController.tune.id + '/playMidi'
+    const path = '/tunes/' + viewedTune.id + '/playMidi'
     handlePlayClick(
       function() {
-        mediaController.setMediaLinkNumber(null)
+        applyRouteForTarget({ playState: 'playMidi' })
+        if (!requestPlaybackForTarget({
+          playState: 'playMidi',
+          fresh: !sameSource,
+        })) {
+          if (sameSource) {
+            startPlaybackFromGesture()
+          } else {
+            startPlaybackFromGesture({ fresh: true })
+          }
+        }
         if (location.pathname !== path) {
           navigate(path)
-        }
-        if (sameSource) {
-          startPlaybackFromGesture()
-        } else {
-          startPlaybackFromGesture({ fresh: true })
         }
       },
       function() {
@@ -156,118 +205,16 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     )
   }
 
-  const isAdminUser = user && user.email === 'syntithenai@gmail.com'
-
-  const showHeaderMediaDownloads = false
-
-  const canCache = showHeaderMediaDownloads && isAdminUser
-    && mediaController.mediaResolverFeaturesEnabled
-    && hasLinks
-    && activeLinkIndex !== null
-    && mediaController.tune
-    && mediaController.tune.links
-    && mediaController.tune.links[activeLinkIndex]
-    && mediaController.tune.links[activeLinkIndex].link
-    && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
-
-  const canFileDownload = showHeaderMediaDownloads && isAdminUser
-    && hasLinks
-    && activeLinkIndex !== null
-    && mediaController.tune
-    && mediaController.tune.links
-    && mediaController.tune.links[activeLinkIndex]
-    && mediaController.tune.links[activeLinkIndex].link
-    && mediaController.getSrcType(mediaController.tune.links[activeLinkIndex].link) !== 'abc'
-
-  const mcTuneId = mediaController.tune ? mediaController.tune.id : null
-  useEffect(function() {
-    if (!show || !canFileDownload || !mediaController.checkExternalMediaCached) {
-      setIsMediaCached(false);
-      return;
-    }
-    let cancelled = false;
-    mediaController.checkExternalMediaCached(activeLinkIndex).then(function(cached) {
-      if (!cancelled) setIsMediaCached(!!cached);
-    }).catch(function() {
-      if (!cancelled) setIsMediaCached(false);
-    });
-    return function() { cancelled = true; };
-  }, [show, activeLinkIndex, canFileDownload, mediaController, mcTuneId]);
-
-  function formatMediaError(e) {
-    const hint = e && e.message ? e.message : 'Request failed.'
-    if (hint.indexOf('502') >= 0 || hint.indexOf('Could not resolve') >= 0) {
-      return hint + ' Add YouTube cookies to local-resolver/secrets/youtube-cookies.txt if needed.'
-    }
-    if (hint.indexOf('Could not reach media resolver') >= 0 || hint.indexOf('Failed to fetch') >= 0) {
-      return hint + ' Ensure local-resolver is running (npm run start:resolver).'
-    }
-    return hint
-  }
-
-  async function handleCache() {
-    if (!mediaController.tune || activeLinkIndex === null) {
-      setDownloadStatus('No linked media to cache.')
-      return
-    }
-    setDownloadStatus('Caching…')
-    try {
-      const result = await mediaController.downloadExternalMedia(activeLinkIndex)
-      setIsMediaCached(true)
-      setDownloadStatus(result.cached ? 'Already cached.' : 'Cached for playback.')
-    } catch (e) {
-      console.log(e)
-      setDownloadStatus(formatMediaError(e))
-    }
-  }
-
-  async function handleFileDownload() {
-    if (!mediaController.tune || activeLinkIndex === null) {
-      setDownloadStatus('No linked media to download.')
-      return
-    }
-    setDownloadStatus('Preparing download…')
-    try {
-      await mediaController.saveExternalMediaToFile(activeLinkIndex)
-      setIsMediaCached(true)
-      setDownloadStatus('Download started.')
-    } catch (e) {
-      console.log(e)
-      setDownloadStatus(formatMediaError(e))
-    }
-  }
-
   return (
     <>
       <Button size={useButtonSize} onClick={handleShow} variant={(variant ? variant : (mediaController.isLoading ? "secondary" : (mediaController.isPlaying ? "warning" : "success")))}>{tunebook.icons.dropdown}</Button>
 
       <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose} size="lg">
-        <Modal.Header closeButton>
-          <div className="media-controls-modal-header">
-            <Modal.Title className="modal-title-text">Media Controls</Modal.Title>
-            {canFileDownload && (
-              <div className="media-controls-modal-header-actions">
-                {canCache && (
-                  <Button
-                    variant="outline-primary"
-                    size="sm"
-                    onClick={handleCache}
-                    disabled={isMediaCached}
-                  >
-                    {tunebook.icons.save} Cache
-                  </Button>
-                )}
-                <Button variant="outline-primary" size="sm" onClick={handleFileDownload}>
-                  {tunebook.icons.save} Download
-                </Button>
-              </div>
-            )}
-          </div>
+        <Modal.Header closeButton className="media-controls-modal-header">
+          <Modal.Title>Media Controls</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{maxHeight:'70vh', overflowY:'auto'}}>
-          {downloadStatus && <div className="scope-note">{downloadStatus}</div>}
-
-          {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && mediaController.tune) && (
+          {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune) && (
             <div style={{borderBottom:'1px solid black', paddingBottom:'0.5em'}}>
               <div className="media-controls-playback-row">
                 <div className="media-controls-playback-buttons">
@@ -287,7 +234,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                     </Button>
                   ) : (
                     <>
-                      {hasLinks ? mediaController.tune.links.map(function(link, linkKey) {
+                      {hasLinks ? viewedTune.links.map(function(link, linkKey) {
                         return (
                           <Button
                             key={linkKey}
@@ -326,7 +273,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
             </div>
           )}
 
-          {mediaController.tune && (
+          {viewedTune && (
             <div className="media-controls-settings-tabs">
               <MediaSeekSlider mediaController={mediaController} className="compact" />
 
@@ -338,7 +285,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
               >
                 <Tab eventKey="playback" title="Playback">
                   <PitchTempoControlsPanel
-                    tune={mediaController.tune}
+                    tune={viewedTune}
                     tunebook={tunebook}
                     mediaController={mediaController}
                     showPitchControls={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.proxy)}
@@ -347,7 +294,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                 {showAudioFiltersTab && (
                   <Tab eventKey="filters" title="Audio Filters">
                     <AudioFiltersPanel
-                      tune={mediaController.tune}
+                      tune={viewedTune}
                       tunebook={tunebook}
                       mediaController={mediaController}
                       showFilters={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.stems)}
@@ -357,10 +304,19 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                 {showLoopTab && (
                   <Tab eventKey="loop" title="Loop">
                     <MediaPlaybackRegionPanel
-                      tune={mediaController.tune}
+                      tune={viewedTune}
                       tunebook={tunebook}
                       mediaController={mediaController}
                       linkIndex={activeLinkIndex}
+                    />
+                  </Tab>
+                )}
+                {hasMusic && (
+                  <Tab eventKey="midi" title="Metronome">
+                    <MidiPlaybackMetronomePanel
+                      tune={viewedTune}
+                      tunebook={tunebook}
+                      mediaController={mediaController}
                     />
                   </Tab>
                 )}

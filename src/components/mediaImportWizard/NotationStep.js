@@ -1,9 +1,11 @@
-import { useEffect, useRef, useState } from 'react';
-import { Alert, Button, Modal } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Alert, Button, Form, Tab, Tabs } from 'react-bootstrap';
 import Abc from '../Abc';
 import LocalSearchSelectorModal from '../LocalSearchSelectorModal';
 import MelodyProcessingPanel from '../MelodyProcessingPanel';
+import { appendNotationLines } from '../../mediaImportChordUtils';
 import { applyMelodyNoteSettingsToDraft } from '../../melodyRefilterUtils';
+import { mergeLookupTuneMetadata } from '../../mediaImportWizardState';
 
 function buildMelodyPreviewAbc(metadata, melodyNotesText) {
   const meta = metadata || {};
@@ -16,13 +18,19 @@ function buildMelodyPreviewAbc(metadata, melodyNotesText) {
   ].join('\n');
 }
 
-function settingsEqual(left, right) {
-  if (!left || !right) return false;
-  return left.noiseMode === right.noiseMode
-    && Number(left.confidenceThreshold) === Number(right.confidenceThreshold)
-    && Number(left.minNoteSeconds) === Number(right.minNoteSeconds)
-    && Number(left.quantizeStrength) === Number(right.quantizeStrength)
-    && !!left.snapToScale === !!right.snapToScale;
+function NotationSourcePreview(props) {
+  const text = props.text || '';
+  if (!text.trim()) {
+    return <Alert variant="info">{props.emptyMessage}</Alert>;
+  }
+  return (
+    <Form.Control
+      as="textarea"
+      className="media-import-chords-textarea media-import-chords-preview"
+      value={text}
+      readOnly
+    />
+  );
 }
 
 const EMPTY_METADATA = {};
@@ -30,176 +38,183 @@ const EMPTY_METADATA = {};
 export default function MediaImportNotationStep(props) {
   const { draft, onChange, tunebook } = props;
   const metadata = draft.metadata || EMPTY_METADATA;
-  const userEditedRef = useRef(!!draft.melodyNotesEdited);
-  const [notesText, setNotesText] = useState(draft.melodyNotesText || '');
-  const [debouncedPreview, setDebouncedPreview] = useState(
-    buildMelodyPreviewAbc(metadata, draft.melodyNotesText || '')
-  );
-  const [pendingNoteSettings, setPendingNoteSettings] = useState(null);
-  const [showSettingsWarning, setShowSettingsWarning] = useState(false);
+  const [innerTab, setInnerTab] = useState('current');
 
-  useEffect(function() {
-    userEditedRef.current = !!draft.melodyNotesEdited;
-  }, [draft.melodyNotesEdited]);
+  const currentNotes = draft.melodyNotesText || '';
+  const analyzedNotes = draft.analyzedMelodyNotesText || '';
+  const lookupNotes = draft.lookupMelodyNotesText || '';
+  const hasAnalyzedNotes = !!(analyzedNotes && analyzedNotes.trim());
 
-  useEffect(function() {
-    if (userEditedRef.current) return;
-    const next = draft.melodyNotesText || '';
-    setNotesText(next);
-    setDebouncedPreview(buildMelodyPreviewAbc(metadata, next));
-  }, [draft.melodyNotesText, metadata]);
-
-  useEffect(function() {
-    setDebouncedPreview(buildMelodyPreviewAbc(metadata, notesText));
-  }, [notesText, metadata]);
+  const [previewAbc, setPreviewAbc] = useState(buildMelodyPreviewAbc(metadata, currentNotes));
 
   useEffect(function() {
     const timer = setTimeout(function() {
-      setDebouncedPreview(buildMelodyPreviewAbc(metadata, notesText));
-      onChange({
-        melodyNotesText: notesText,
-        melodyNotesEdited: userEditedRef.current,
-      });
+      setPreviewAbc(buildMelodyPreviewAbc(metadata, currentNotes));
     }, 300);
     return function() { clearTimeout(timer); };
-  }, [notesText, onChange, metadata]);
+  }, [currentNotes, metadata]);
 
-  function handleChange(value) {
-    userEditedRef.current = true;
-    setNotesText(value);
-  }
-
-  function applyNoteSettings(nextSettings) {
-    const patch = applyMelodyNoteSettingsToDraft(draft, nextSettings, tunebook);
-    userEditedRef.current = false;
-    setNotesText(patch.melodyNotesText || '');
-    setDebouncedPreview(buildMelodyPreviewAbc(metadata, patch.melodyNotesText || ''));
+  function applyOverwrite(sourceText, metadataSource) {
+    const patch = {
+      melodyNotesText: sourceText,
+      melodyNotesEdited: true,
+    };
+    if (metadataSource) {
+      patch.metadata = mergeLookupTuneMetadata(metadata, metadataSource);
+    }
     onChange(patch);
+    setInnerTab('current');
   }
 
-  function handleNoteSettingsChange(nextSettings) {
-    if (settingsEqual(nextSettings, draft.melodyNoteSettings)) {
-      return;
+  function applyAppend(sourceText, metadataSource) {
+    const patch = {
+      melodyNotesText: appendNotationLines(currentNotes, sourceText),
+      melodyNotesEdited: true,
+    };
+    if (metadataSource) {
+      patch.metadata = mergeLookupTuneMetadata(metadata, metadataSource);
     }
-    if (draft.melodyNotesEdited || userEditedRef.current) {
-      setPendingNoteSettings(nextSettings);
-      setShowSettingsWarning(true);
-      return;
-    }
-    applyNoteSettings(nextSettings);
+    onChange(patch);
+    setInnerTab('current');
   }
 
-  function confirmSettingsChange() {
-    if (pendingNoteSettings) {
-      applyNoteSettings(pendingNoteSettings);
-    }
-    setPendingNoteSettings(null);
-    setShowSettingsWarning(false);
+  function renderMergeActions(sourceText, label, metadataSource) {
+    const disabled = !(sourceText && sourceText.trim());
+    return (
+      <div className="media-import-merge-tab-toolbar">
+        <Button
+          size="sm"
+          variant="success"
+          disabled={disabled}
+          onClick={function() { applyOverwrite(sourceText, metadataSource); }}
+        >
+          Overwrite current with {label}
+        </Button>
+        <Button
+          size="sm"
+          variant="outline-primary"
+          disabled={disabled}
+          onClick={function() { applyAppend(sourceText, metadataSource); }}
+        >
+          Append {label}
+        </Button>
+      </div>
+    );
   }
 
-  function cancelSettingsChange() {
-    setPendingNoteSettings(null);
-    setShowSettingsWarning(false);
+  function applyAnalyzedNoteSettings(nextSettings) {
+    const patch = applyMelodyNoteSettingsToDraft(draft, nextSettings, tunebook);
+    onChange({
+      melodyNoteSettings: patch.melodyNoteSettings,
+      timedMelody: patch.timedMelody,
+      melodyAbcText: patch.melodyAbcText,
+      analyzedMelodyNotesText: patch.melodyNotesText || '',
+    });
   }
 
-  function handleNotationImport(mergedTune) {
+  function handleLookupStage(mergedTune) {
     if (!mergedTune) return;
     const abcTools = tunebook.abcTools;
     const importedAbc = abcTools.json2abc(mergedTune);
     const importedNotes = abcTools.justNotesNoMeta
       ? abcTools.justNotesNoMeta(importedAbc)
       : abcTools.justNotes(importedAbc);
-    userEditedRef.current = true;
-    setNotesText(importedNotes);
-    setDebouncedPreview(buildMelodyPreviewAbc(
-      Object.assign({}, metadata, {
-        key: mergedTune.key || metadata.key,
-        meter: mergedTune.meter || metadata.meter,
-        noteLength: mergedTune.noteLength || metadata.noteLength,
-      }),
-      importedNotes
-    ));
-    props.onChange({
-      melodyNotesText: importedNotes,
-      melodyNotesEdited: true,
-      metadata: Object.assign({}, metadata, {
-        key: mergedTune.key || metadata.key,
-        meter: mergedTune.meter || metadata.meter,
-        noteLength: mergedTune.noteLength || metadata.noteLength,
-      }),
+    const sourceLabel = mergedTune.name
+      ? String(mergedTune.name)
+      : (mergedTune.source || 'Lookup');
+    onChange({
+      lookupMelodyNotesText: importedNotes,
+      lookupNotationSource: sourceLabel,
+      lookupNotationTune: mergedTune,
+      metadata: mergeLookupTuneMetadata(metadata, mergedTune),
     });
+    setInnerTab('merge-lookup');
   }
 
   return (
-    <div>
-      <div style={{ display: 'flex', gap: '0.5em', alignItems: 'center', marginBottom: '0.75em', flexWrap: 'wrap' }}>
-        <LocalSearchSelectorModal
-          value={metadata.name || ''}
-          currentTune={props.tune || { id: 'wizard', name: metadata.name || '', rhythm: metadata.rhythm || '' }}
-          tunebook={props.tunebook}
-          searchIndex={props.searchIndex}
-          loadTuneTexts={props.loadTuneTexts}
-          onStageImport={handleNotationImport}
-          token={props.token}
-        />
-        <span style={{ fontSize: '0.9em', color: '#666' }}>
-          Look up ABC notation from your collection, The Session, or the web.
-        </span>
-      </div>
-      <Alert variant="info" style={{ marginBottom: '1em' }}>
-        Edit the melody below. Changes are previewed with the key and meter from the Metadata step.
+    <div className="media-import-notation-step">
+      <p>
+        Edit the current melody notation, or import transcribed or lookup versions using overwrite or append.
         The tune is not updated until you click Finish.
-      </Alert>
-      {(draft.melodySourceNotes || []).length > 0 && props.resolverAvailable !== false && (
-        <MelodyProcessingPanel
-          variant="notation"
-          settings={draft.melodyNoteSettings}
-          persist={false}
-          onChange={handleNoteSettingsChange}
-        />
-      )}
-      {draft.melodyNotesEdited && (
-        <Alert variant="warning" style={{ marginBottom: '1em' }}>
-          You have edited the melody manually. Changing note detection settings will replace your edits.
-        </Alert>
-      )}
-      <div className="media-import-wizard-split">
-        <div>
-          <Abc
-            tunebook={props.tunebook}
-            abc={debouncedPreview}
-            hidePlayer={true}
-            hideSvg={false}
-            editableTempo={false}
-            autoStart={false}
-          />
-        </div>
-        <div>
-          <textarea
-            value={notesText}
-            onChange={function(e) { handleChange(e.target.value); }}
-            placeholder="Paste or edit ABC notes here"
-          />
-        </div>
-      </div>
+      </p>
 
-      <Modal show={showSettingsWarning} onHide={cancelSettingsChange}>
-        <Modal.Header closeButton>
-          <Modal.Title>Replace manual melody edits?</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          Changing note detection settings will discard your manual melody edits and rebuild the notation
-          from the detected pitch data using the new confidence, length, and quantize filters.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={cancelSettingsChange}>
-            Cancel
-          </Button>
-          <Button variant="warning" onClick={confirmSettingsChange}>
-            Replace melody
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      <Tabs
+        activeKey={innerTab}
+        onSelect={function(key) { if (key) setInnerTab(key); }}
+        className="media-import-notation-inner-tabs mb-3"
+      >
+        <Tab eventKey="current" title="Current notation">
+          <div className="media-import-wizard-split">
+            <div>
+              <Abc
+                tunebook={props.tunebook}
+                abc={previewAbc}
+                hidePlayer={true}
+                hideSvg={false}
+                editableTempo={false}
+                autoStart={false}
+              />
+            </div>
+            <div>
+              <Form.Control
+                as="textarea"
+                className="media-import-chords-textarea"
+                value={currentNotes}
+                onChange={function(e) {
+                  onChange({
+                    melodyNotesText: e.target.value,
+                    melodyNotesEdited: true,
+                  });
+                }}
+                placeholder="Paste or edit ABC notes here"
+              />
+            </div>
+          </div>
+        </Tab>
+        <Tab eventKey="merge-analysis" title="Import transcribed">
+          {renderMergeActions(analyzedNotes, 'transcription', null)}
+          {(draft.melodySourceNotes || []).length > 0 && props.resolverAvailable !== false && (
+            <MelodyProcessingPanel
+              variant="notation"
+              settings={draft.melodyNoteSettings}
+              persist={false}
+              onChange={applyAnalyzedNoteSettings}
+            />
+          )}
+          <NotationSourcePreview
+            text={analyzedNotes}
+            emptyMessage={hasAnalyzedNotes
+              ? 'No transcribed melody available.'
+              : 'No transcribed melody yet. Run Analyze media to detect melody from the recording.'}
+          />
+        </Tab>
+        <Tab eventKey="merge-lookup" title="Import lookup">
+          <div style={{ display: 'flex', gap: '0.5em', alignItems: 'center', marginBottom: '0.75em', flexWrap: 'wrap' }}>
+            <LocalSearchSelectorModal
+              value={metadata.name || ''}
+              currentTune={props.tune || { id: 'wizard', name: metadata.name || '', rhythm: metadata.rhythm || '' }}
+              tunebook={props.tunebook}
+              searchIndex={props.searchIndex}
+              loadTuneTexts={props.loadTuneTexts}
+              onStageImport={handleLookupStage}
+              token={props.token}
+            />
+            <span style={{ fontSize: '0.9em', color: '#666' }}>
+              Look up ABC notation from your collection, The Session, or the web.
+            </span>
+          </div>
+          {draft.lookupNotationSource ? (
+            <Alert variant="info" style={{ marginBottom: '0.75em' }}>
+              Lookup source: {draft.lookupNotationSource}
+            </Alert>
+          ) : null}
+          {renderMergeActions(lookupNotes, 'lookup', draft.lookupNotationTune || null)}
+          <NotationSourcePreview
+            text={lookupNotes}
+            emptyMessage="No lookup notation yet. Use the search button above to find ABC notation."
+          />
+        </Tab>
+      </Tabs>
     </div>
   );
 }

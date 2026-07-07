@@ -2,8 +2,13 @@ import {
   countVoiceNoteLines,
   getBlockLyricLines,
   getInterleavedLyricLines,
-  renderBlockLyricsAbc,
+  getPlainLyricLines,
+  getNoteAlignedLyricLines,
+  setPlainLyricLines,
+  setNoteAlignedLyricLines,
+  stripNoteSpacingFromLine,
   wordsMatchWLines,
+  renderBlockLyricsAbc,
 } from './wLinesUtils';
 
 describe('wLinesUtils lyric export helpers', function() {
@@ -29,14 +34,15 @@ describe('wLinesUtils lyric export helpers', function() {
     expect(getBlockLyricLines(tune)).toEqual([]);
   });
 
-  test('exports standalone wLines when they fit note lines', function() {
+  test('treats syllable-marked wLines as note-aligned', function() {
     const tune = {
       voices: { 1: { meta: '', notes: ['C D E F |'] } },
-      wLines: ['one two three four'],
+      words: ['Amazing grace'],
+      wLines: ['A- maz- ing grace'],
     };
-    expect(countVoiceNoteLines(tune)).toBe(1);
-    expect(getInterleavedLyricLines(tune)).toEqual(['one two three four']);
-    expect(getBlockLyricLines(tune)).toEqual([]);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['A- maz- ing grace']);
+    expect(getInterleavedLyricLines(tune)).toEqual(['A- maz- ing grace']);
+    expect(getPlainLyricLines(tune)).toEqual(['Amazing grace']);
   });
 
   test('treats oversized wLines-only tunes as block lyrics', function() {
@@ -46,5 +52,54 @@ describe('wLinesUtils lyric export helpers', function() {
     };
     expect(getInterleavedLyricLines(tune)).toEqual([]);
     expect(getBlockLyricLines(tune)).toEqual(['line one', 'line two', 'line three']);
+    expect(getPlainLyricLines(tune)).toEqual(['line one', 'line two', 'line three']);
+  });
+
+  test('strips syllable markers when recovering plain lyrics from wLines', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E F |'] } },
+      wLines: ['Am- az- ing~grace how sweet'],
+    };
+    expect(getPlainLyricLines(tune)).toEqual(['Amazing grace how sweet']);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['Am- az- ing~grace how sweet']);
+  });
+
+  test('setPlainLyricLines writes words without clearing note-aligned wLines', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E F |'] } },
+      words: [],
+      wLines: ['A- maz- ing grace'],
+    };
+    setPlainLyricLines(tune, ['Amazing grace']);
+    expect(tune.words).toEqual(['Amazing grace']);
+    expect(tune.wLines).toEqual(['A- maz- ing grace']);
+    expect(getPlainLyricLines(tune)).toEqual(['Amazing grace']);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['A- maz- ing grace']);
+  });
+
+  test('setNoteAlignedLyricLines stores per-note-line alignment', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E F |', 'G A B c |'] } },
+      words: ['Amazing grace how sweet'],
+      wLines: [],
+    };
+    setNoteAlignedLyricLines(tune, ['A- maz- ing grace', 'how sweet * *']);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['A- maz- ing grace', 'how sweet * *']);
+    expect(getPlainLyricLines(tune)).toEqual(['Amazing grace how sweet']);
+  });
+
+  test('stripNoteSpacingFromLine joins syllables and drops markers', function() {
+    expect(stripNoteSpacingFromLine('Am- az- ing grace')).toBe('Amazing grace');
+    expect(stripNoteSpacingFromLine('word~next')).toBe('word next');
+    expect(stripNoteSpacingFromLine('hi * * *')).toBe('hi');
+  });
+
+  test('countVoiceNoteLines sums note lines across voices', function() {
+    expect(countVoiceNoteLines({
+      voices: {
+        1: { notes: ['C D |', 'E F |'] },
+        2: { notes: ['G A |'] },
+      },
+    })).toBe(3);
   });
 });

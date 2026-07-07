@@ -1,0 +1,646 @@
+/*
+ * App design tokens — selectable color schemes via data-color-scheme on <html>.
+ * Import after Bootstrap so --bs-* overrides take effect.
+ */
+
+:root,
+[data-color-scheme='blue'] {
+  --app-brand: #3b6db5;
+  --app-brand-strong: #2558a8;
+  --app-brand-muted: #e6f0fb;
+  --app-brand-border: #b3cff0;
+  --app-brand-subtle: #dceaf8;
+  --app-surface: #f2f7fc;
+  --app-surface-raised: #ffffff;
+  --app-border: #d6e4f2;
+  --app-border-strong: #b8cce6;
+  --app-text: #2a3f58;
+  --app-text-muted: #57708a;
+  --app-heading: #1e3f6e;
+  --app-list-stripe-a: #dceaf866;
+  --app-list-stripe-b: #e8f2fc;
+  --app-focus-ring: 0 0 0 3px rgba(59, 109, 181, 0.28);
+  --app-header-nav-btn-bg: #4a90e8;
+  --app-header-nav-btn-hover-bg: #5c9ef0;
+  --app-header-nav-btn-active-bg: #3a82dc;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 142, 197, 255;
+  --bs-primary-rgb: 59, 109, 181;
+}
+
+[data-color-scheme='green'] {
+  --app-brand: #2f8f5b;
+  --app-brand-strong: #1f7044;
+  --app-brand-muted: #e6f5ec;
+  --app-brand-border: #a8d9bc;
+  --app-brand-subtle: #d4eddf;
+  --app-surface: #f0f8f3;
+  --app-surface-raised: #ffffff;
+  --app-border: #cde8d8;
+  --app-border-strong: #a8d4b8;
+  --app-text: #243d30;
+  --app-text-muted: #4a6b58;
+  --app-heading: #1a5238;
+  --app-list-stripe-a: #d4eddf66;
+  --app-list-stripe-b: #e8f5ec;
+  --app-focus-ring: 0 0 0 3px rgba(47, 143, 91, 0.28);
+  --app-header-nav-btn-bg: #4caf72;
+  --app-header-nav-btn-hover-bg: #5fbb82;
+  --app-header-nav-btn-active-bg: #3d9a60;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 120, 210, 150;
+  --bs-primary-rgb: 47, 143, 91;
+}
+
+[data-color-scheme='red'] {
+  --app-brand: #c44d4d;
+  --app-brand-strong: #a83838;
+  --app-brand-muted: #fceaea;
+  --app-brand-border: #e8b4b4;
+  --app-brand-subtle: #f5d6d6;
+  --app-surface: #fcf4f4;
+  --app-surface-raised: #ffffff;
+  --app-border: #ecd6d6;
+  --app-border-strong: #ddb8b8;
+  --app-text: #4a2a2a;
+  --app-text-muted: #7a5050;
+  --app-heading: #6b2222;
+  --app-list-stripe-a: #f5d6d666;
+  --app-list-stripe-b: #fceaea;
+  --app-focus-ring: 0 0 0 3px rgba(196, 77, 77, 0.28);
+  --app-header-nav-btn-bg: #e07070;
+  --app-header-nav-btn-hover-bg: #e88282;
+  --app-header-nav-btn-active-bg: #c85858;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 240, 160, 160;
+  --bs-primary-rgb: 196, 77, 77;
+}
+
+[data-color-scheme='purple'] {
+  --app-brand: #7b52ab;
+  --app-brand-strong: #634090;
+  --app-brand-muted: #f0eaf8;
+  --app-brand-border: #c9b4e0;
+  --app-brand-subtle: #e2d6f0;
+  --app-surface: #f7f3fc;
+  --app-surface-raised: #ffffff;
+  --app-border: #e0d4ec;
+  --app-border-strong: #c4aed8;
+  --app-text: #3a2d4a;
+  --app-text-muted: #635878;
+  --app-heading: #4a3068;
+  --app-list-stripe-a: #e2d6f066;
+  --app-list-stripe-b: #f0eaf8;
+  --app-focus-ring: 0 0 0 3px rgba(123, 82, 171, 0.28);
+  --app-header-nav-btn-bg: #9b74c8;
+  --app-header-nav-btn-hover-bg: #a884d0;
+  --app-header-nav-btn-active-bg: #7f5cb0;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 180, 150, 220;
+  --bs-primary-rgb: 123, 82, 171;
+}
+
+[data-color-scheme='orange'] {
+  --app-brand: #d97706;
+  --app-brand-strong: #b86205;
+  --app-brand-muted: #fef3e6;
+  --app-brand-border: #f0c78a;
+  --app-brand-subtle: #fae6cc;
+  --app-surface: #fdf8f2;
+  --app-surface-raised: #ffffff;
+  --app-border: #ecdcc8;
+  --app-border-strong: #d8c4a8;
+  --app-text: #4a3820;
+  --app-text-muted: #7a6040;
+  --app-heading: #6b4510;
+  --app-list-stripe-a: #fae6cc66;
+  --app-list-stripe-b: #fef3e6;
+  --app-focus-ring: 0 0 0 3px rgba(217, 119, 6, 0.28);
+  --app-header-nav-btn-bg: #f0a030;
+  --app-header-nav-btn-hover-bg: #f4ae48;
+  --app-header-nav-btn-active-bg: #d88818;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 240, 180, 90;
+  --bs-primary-rgb: 217, 119, 6;
+}
+
+[data-color-scheme='yellow'] {
+  --app-brand: #c9a227;
+  --app-brand-strong: #a6851a;
+  --app-brand-muted: #fdf8e6;
+  --app-brand-border: #e8d48a;
+  --app-brand-subtle: #f5ecc4;
+  --app-surface: #fdfbf2;
+  --app-surface-raised: #ffffff;
+  --app-border: #ece4c8;
+  --app-border-strong: #d8cca8;
+  --app-text: #4a4020;
+  --app-text-muted: #7a6c40;
+  --app-heading: #6b5810;
+  --app-list-stripe-a: #f5ecc466;
+  --app-list-stripe-b: #fdf8e6;
+  --app-focus-ring: 0 0 0 3px rgba(201, 162, 39, 0.28);
+  --app-header-nav-btn-bg: #e0bc40;
+  --app-header-nav-btn-hover-bg: #e8c858;
+  --app-header-nav-btn-active-bg: #c8a828;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 230, 200, 90;
+  --bs-primary-rgb: 201, 162, 39;
+}
+
+[data-color-scheme='pink'] {
+  --app-brand: #d4537e;
+  --app-brand-strong: #b83d66;
+  --app-brand-muted: #fceef3;
+  --app-brand-border: #e8b4c8;
+  --app-brand-subtle: #f5d6e4;
+  --app-surface: #fcf4f7;
+  --app-surface-raised: #ffffff;
+  --app-border: #ecd6e0;
+  --app-border-strong: #ddb8c8;
+  --app-text: #4a2a38;
+  --app-text-muted: #7a5060;
+  --app-heading: #6b2240;
+  --app-list-stripe-a: #f5d6e466;
+  --app-list-stripe-b: #fceef3;
+  --app-focus-ring: 0 0 0 3px rgba(212, 83, 126, 0.28);
+  --app-header-nav-btn-bg: #e07098;
+  --app-header-nav-btn-hover-bg: #e882a8;
+  --app-header-nav-btn-active-bg: #c85880;
+  --app-header-nav-btn-color: #000000;
+  --app-header-nav-btn-focus-rgb: 240, 160, 190;
+  --bs-primary-rgb: 212, 83, 126;
+}
+
+[data-color-scheme='night'] {
+  --app-brand: #5b8fd4;
+  --app-brand-strong: #3d6fa8;
+  --app-brand-muted: #1e2a3d;
+  --app-brand-border: #3d4f68;
+  --app-brand-subtle: #252f42;
+  --app-surface: #141820;
+  --app-surface-raised: #1c2230;
+  --app-border: #2e3848;
+  --app-border-strong: #3d4a5c;
+  --app-text: #e8ecf4;
+  --app-text-muted: #9aa5b8;
+  --app-heading: #f0f4fa;
+  --app-list-stripe-a: #252f4266;
+  --app-list-stripe-b: #1e2838;
+  --app-focus-ring: 0 0 0 3px rgba(91, 143, 212, 0.35);
+  --app-header-nav-btn-bg: #5b8fd4;
+  --app-header-nav-btn-hover-bg: #6d9ee0;
+  --app-header-nav-btn-active-bg: #4a7ec4;
+  --app-header-nav-btn-color: #ffffff;
+  --app-header-nav-btn-focus-rgb: 120, 170, 230;
+  --bs-primary-rgb: 91, 143, 212;
+}
+
+:root,
+[data-color-scheme] {
+  --app-radius: 0.375rem;
+  --app-radius-lg: 0.75rem;
+  --bs-primary: var(--app-brand);
+  --bs-link-color: var(--app-brand);
+  --bs-link-hover-color: var(--app-brand-strong);
+  --bs-border-color: var(--app-border);
+  --bs-body-color: var(--app-text);
+  --bs-body-bg: var(--app-surface);
+  --app-chord-text: #1a4f8b;
+  --app-lyrics-section-header: #7a3e00;
+}
+
+/* After shared defaults so night wins over [data-color-scheme]. */
+[data-color-scheme='night'] {
+  /* Near-white paper with a slight cool tint; abcjs ink stays black (see below). */
+  --app-notation-paper: #e8ecf2;
+  --app-notation-paper-border: #c8d0dc;
+  /* Pale blue so chord symbols stay readable on dark chips/panels. */
+  --app-chord-text: #d8e8ff;
+  --app-lyrics-section-header: #e0a86a;
+}
+
+body {
+  background-color: var(--app-surface);
+  color: var(--app-text);
+}
+
+/* Reusable callout (matches PracticeSessionModal pattern, token-driven) */
+.app-callout {
+  background: var(--app-brand-muted);
+  border: 2px solid var(--app-brand-border);
+  border-radius: var(--app-radius-lg);
+  padding: 1.25rem 1.5rem;
+  color: var(--app-text);
+}
+
+.app-callout-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--app-heading);
+  margin-bottom: 0.5rem;
+}
+
+.app-surface-panel {
+  background: var(--app-surface-raised);
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius);
+  padding: 1rem 1.25rem;
+}
+
+.app-text-muted {
+  color: var(--app-text-muted);
+}
+
+.btn:focus-visible,
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  box-shadow: var(--app-focus-ring);
+}
+
+.btn {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.modal-content {
+  border-color: var(--app-border);
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+}
+
+.modal-header {
+  border-bottom-color: var(--app-border);
+  background-color: var(--app-surface);
+  color: var(--app-text);
+}
+
+.modal-footer {
+  border-top-color: var(--app-border);
+  background-color: var(--app-surface);
+}
+
+.modal-title {
+  color: var(--app-heading);
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  clear: both;
+  background-color: var(--app-brand-muted);
+  border-top: 1px solid var(--app-border);
+  min-height: 1.6em;
+}
+
+.App-settings {
+  max-width: 48rem;
+  padding: 0.5rem 1rem 2rem;
+  color: var(--app-text);
+}
+
+.App-settings h1,
+.App-settings h2 {
+  color: var(--app-heading);
+}
+
+.App-settings-section {
+  margin-bottom: 1.5rem;
+}
+
+.App-settings-section h2 {
+  font-size: 1.2em;
+}
+
+.App-settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.App-settings-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.App-settings-resolver-status {
+  margin-top: 0.6rem;
+}
+
+.App-settings-resolver-list {
+  margin-top: 0.6rem;
+  padding-left: 1.2em;
+}
+
+.App-settings-color-schemes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.App-settings-color-scheme-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  border: 2px solid var(--app-border);
+  border-radius: var(--app-radius);
+  background: var(--app-surface-raised);
+  color: var(--app-text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.App-settings-color-scheme-option:hover {
+  border-color: var(--app-border-strong);
+}
+
+.App-settings-color-scheme-option.is-selected {
+  border-color: var(--app-brand);
+  box-shadow: var(--app-focus-ring);
+}
+
+.App-settings-color-scheme-swatch {
+  width: 100%;
+  height: 1.35rem;
+  border-radius: calc(var(--app-radius) - 2px);
+  border: 1px solid var(--app-border-strong);
+}
+
+.App-settings-color-scheme-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.App-settings-color-scheme-description {
+  font-size: 0.8rem;
+  color: var(--app-text-muted);
+  line-height: 1.25;
+}
+
+.App-header {
+  color: #fff;
+}
+
+.App-header .header-nav-buttons .btn-info {
+  --bs-btn-bg: var(--app-header-nav-btn-bg);
+  --bs-btn-border-color: transparent;
+  --bs-btn-color: var(--app-header-nav-btn-color);
+  --bs-btn-hover-bg: var(--app-header-nav-btn-hover-bg);
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-hover-color: var(--app-header-nav-btn-color);
+  --bs-btn-active-bg: var(--app-header-nav-btn-active-bg);
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-color: var(--app-header-nav-btn-color);
+  --bs-btn-focus-shadow-rgb: var(--app-header-nav-btn-focus-rgb);
+  border-width: 0 !important;
+}
+
+.App-header .header-nav-tunes-btn {
+  --bs-btn-color: var(--app-header-nav-btn-color);
+  --bs-btn-hover-color: var(--app-header-nav-btn-color);
+  --bs-btn-active-color: var(--app-header-nav-btn-color);
+  color: var(--app-header-nav-btn-color) !important;
+}
+
+.header-nav-buttons:has(.dropdown.show) > .header-nav-tunes-btn {
+  --bs-btn-bg: var(--app-header-nav-btn-active-bg);
+  --bs-btn-border-color: transparent;
+  --bs-btn-color: var(--app-header-nav-btn-color);
+  background-color: var(--app-header-nav-btn-active-bg) !important;
+  border-color: transparent !important;
+  color: var(--app-header-nav-btn-color) !important;
+}
+
+/* Keep dropdown toggle highlighted when menu is open */
+.App-header .header-nav-buttons .header-nav-dropdown-btn.btn-info.show {
+  --bs-btn-bg: var(--app-header-nav-btn-active-bg);
+  --bs-btn-border-color: transparent;
+  --bs-btn-color: var(--app-header-nav-btn-color);
+  background-color: var(--app-header-nav-btn-active-bg) !important;
+  border-color: transparent !important;
+  color: var(--app-header-nav-btn-color) !important;
+}
+
+.App-header .header-nav-btn svg {
+  fill: currentColor;
+  color: inherit;
+  opacity: 1;
+}
+
+/* Dropdown menu panel buttons — solid variant backgrounds for legibility */
+.header-nav-menu {
+  background-color: var(--app-surface-raised);
+  border: 1px solid var(--app-border-strong);
+}
+
+.header-nav-menu .header-dropdown-btn.btn-info {
+  --bs-btn-bg: #0dcaf0;
+  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-color: #000;
+  --bs-btn-hover-bg: #31d2f2;
+  --bs-btn-hover-border-color: #25cff2;
+  --bs-btn-hover-color: #000;
+}
+
+.header-nav-menu .header-dropdown-btn.btn-warning {
+  --bs-btn-bg: #ffc107;
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-color: #000;
+  --bs-btn-hover-bg: #ffca2c;
+  --bs-btn-hover-border-color: #ffc720;
+  --bs-btn-hover-color: #000;
+}
+
+.header-nav-menu .header-dropdown-btn.btn-success,
+.header-nav-menu .header-dropdown-btn.btn-danger,
+.header-nav-menu .header-dropdown-btn.btn-primary {
+  color: #fff;
+}
+
+.header-nav-menu .header-dropdown-btn.btn {
+  background-color: var(--bs-btn-bg);
+  border-color: var(--bs-btn-border-color);
+  color: var(--bs-btn-color);
+}
+
+.header-nav-menu .header-dropdown-btn.btn:hover,
+.header-nav-menu .header-dropdown-btn.btn:focus-visible {
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+  color: var(--bs-btn-hover-color);
+}
+
+.App-header .header-nav-buttons .header-nav-dropdown-btn {
+  --bs-btn-color: var(--app-header-nav-btn-color);
+  --bs-btn-hover-color: var(--app-header-nav-btn-color);
+  --bs-btn-active-color: var(--app-header-nav-btn-color);
+  color: var(--app-header-nav-btn-color) !important;
+}
+
+.App-header .header-nav-buttons .header-nav-dropdown-btn.dropdown-toggle::after {
+  border-top-color: var(--app-header-nav-btn-color);
+  opacity: 1;
+}
+
+.header-auth-separator {
+  border-left-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+.header-voice-btn {
+  border-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+#footer .footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.35rem;
+  min-height: 1.6em;
+}
+
+#footer .footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#footer .footer-meta {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: var(--app-text-muted);
+  line-height: 1.3;
+}
+
+.help-quick-link,
+.btn,
+.form-control,
+.form-select {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+a:focus-visible,
+button:focus-visible,
+.help-quick-link:focus-visible {
+  outline: none;
+  box-shadow: var(--app-focus-ring);
+}
+
+input[type='checkbox']:not(.form-check-input):not(.settings-offline-media-check-input) {
+  width: 1.1em;
+  height: 1.1em;
+  accent-color: var(--app-brand);
+  vertical-align: middle;
+  margin-right: 0.35em;
+}
+
+[data-color-scheme='night'] .form-control,
+[data-color-scheme='night'] .form-select,
+[data-color-scheme='night'] .form-control:disabled,
+[data-color-scheme='night'] .form-select:disabled {
+  background-color: var(--app-surface-raised);
+  color: var(--app-text);
+  border-color: var(--app-border);
+}
+
+[data-color-scheme='night'] .form-control::placeholder {
+  color: var(--app-text-muted);
+}
+
+[data-color-scheme='night'] .dropdown-menu {
+  background-color: var(--app-surface-raised);
+  border-color: var(--app-border-strong);
+  color: var(--app-text);
+}
+
+[data-color-scheme='night'] .dropdown-item {
+  color: var(--app-text);
+}
+
+[data-color-scheme='night'] .dropdown-item:hover,
+[data-color-scheme='night'] .dropdown-item:focus {
+  background-color: var(--app-brand-subtle);
+  color: var(--app-text);
+}
+
+[data-color-scheme='night'] .btn-close {
+  filter: invert(1) grayscale(100%);
+}
+
+[data-color-scheme='night'] .table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--app-text);
+  --bs-table-border-color: var(--app-border);
+}
+
+[data-color-scheme='night'] .nav-tabs .nav-link {
+  color: var(--app-text-muted);
+}
+
+[data-color-scheme='night'] .nav-tabs .nav-link.active {
+  background-color: var(--app-surface-raised);
+  border-color: var(--app-border) var(--app-border) var(--app-surface-raised);
+  color: var(--app-text);
+}
+
+/*
+ * Night only: light paper + black ink.
+ * abcjs defaults to fill="currentColor", so without an explicit color the notes
+ * inherit body text (light) and become unreadable on the paper.
+ */
+[data-color-scheme='night'] #abc_music_viewer,
+[data-color-scheme='night'] .practice-tune-notation,
+[data-color-scheme='night'] .abc-editor-music-notation,
+[data-color-scheme='night'] .notation-abc-preview-col,
+[data-color-scheme='night'] .gig-mode-notation-paper {
+  background: var(--app-notation-paper);
+  border: 1px solid var(--app-notation-paper-border);
+  border-radius: var(--app-radius-lg);
+  box-sizing: border-box;
+  color: #111111;
+}
+
+[data-color-scheme='night'] #abc_music_viewer svg,
+[data-color-scheme='night'] .practice-tune-notation svg,
+[data-color-scheme='night'] .abc-editor-music-notation svg,
+[data-color-scheme='night'] .notation-abc-preview-col svg,
+[data-color-scheme='night'] .gig-mode-notation-paper svg {
+  color: #111111;
+}
+
+[data-color-scheme='night'] #abc_music_viewer,
+[data-color-scheme='night'] .practice-tune-notation,
+[data-color-scheme='night'] .abc-editor-music-notation {
+  padding: 0.35em 0.5em;
+}
+
+.chord-chart,
+.chord-chart-block,
+.chord-chart-line,
+.chord-line,
+.chordpro-chord,
+.chord-above,
+.practice-tune-chord-chart {
+  color: var(--app-chord-text);
+}
+
+.lyrics-section-header {
+  color: var(--app-lyrics-section-header);
+}
+
+[data-color-scheme='night'] .chord-chart-line {
+  /* Slightly lighter chip so light chord ink stays crisp on night panels. */
+  background: #2a3a52;
+  border-color: var(--app-brand-border);
+}

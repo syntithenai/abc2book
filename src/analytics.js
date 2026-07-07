@@ -37,6 +37,16 @@ const STATIC_ROUTE_SEGMENTS = new Set([
   'tag',
   'play',
   'tune',
+  'practice',
+  'gig',
+  'sets',
+  'check',
+  'share',
+  'add',
+  'bulk',
+  'sheet-image',
+  'chord-sheet',
+  'chord-url',
 ])
 
 const GOATCOUNTER_SCRIPT_SRC = 'https://gc.zgo.at/count.js'
@@ -119,7 +129,23 @@ export function normalizeRoute(pathname) {
     const part = parts[i]
     const previous = normalized[normalized.length - 1]
 
+    if (previous === 'tunes' && part === 'check') {
+      normalized.push('check')
+      continue
+    }
     if (previous === 'tunes' || previous === 'editor' || previous === 'review') {
+      normalized.push(':tuneId')
+      continue
+    }
+    if (normalized[0] === 'editor' && normalized.length === 2 && previous === ':tuneId') {
+      normalized.push(':view')
+      continue
+    }
+    if (previous === 'sets' || previous === 'gig') {
+      normalized.push(':setId')
+      continue
+    }
+    if (normalized[0] === 'gig' && normalized.length === 2 && previous === ':setId') {
       normalized.push(':tuneId')
       continue
     }
@@ -153,6 +179,11 @@ export function normalizeRoute(pathname) {
     }
     if (normalized[0] === 'chords' && normalized.length === 3 && i === 3) {
       normalized.push(':quality')
+      continue
+    }
+
+    if (previous === 'import' && (part === 'sheet-image' || part === 'chord-sheet' || part === 'chord-url')) {
+      normalized.push(part)
       continue
     }
 
@@ -200,7 +231,7 @@ export function trackPageView(pathname) {
 }
 
 export function trackBookSectionClick(section) {
-  const allowed = new Set(['filters', 'recent', 'books', 'tags'])
+  const allowed = new Set(['filters', 'recent', 'books', 'tags', 'genres', 'artists'])
   if (!allowed.has(section)) return
   trackNamedEvent('book_section_click', 'book_section_click-' + section)
 }
@@ -227,6 +258,9 @@ const RESOLVER_EVENTS = new Set([
   'separate-stems',
   'stem-audio',
   'midi2xml',
+  'abc2xml',
+  'transcribe-sheet-image',
+  'search-images',
 ])
 
 export function trackResolverRequest(endpoint) {

@@ -41,7 +41,10 @@ export default function useAudioUtils() {
             mediaRecorder.current.onstop = function(e) {
 				console.log('stop recprdomg',chunks)
 				setIsRecording(false)
-				const blob = new Blob(chunks, { 'type' : 'audio/wav' });
+				const mimeType = mediaRecorder.current && mediaRecorder.current.mimeType
+					? mediaRecorder.current.mimeType
+					: 'audio/webm'
+				const blob = new Blob(chunks, { type: mimeType })
 				chunks = [];
 				resolve(blob)
             }

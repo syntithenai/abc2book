@@ -9,6 +9,7 @@ import OpenSheetMusicDisplay from './OpenSheetMusicDisplay'
 import {Modal} from 'react-bootstrap'
 import useAudioUtils from '../useAudioUtils'
 import FileNameEditorModal from './FileNameEditorModal'
+import FileInputButton from './FileInputButton'
 
 export default function ImagesManager(props) {
     //var allowedMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml
@@ -73,11 +74,11 @@ export default function ImagesManager(props) {
 			</Modal.Body>	 
 			 
 		</Modal>}
-		 <div style={{backgroundColor:'#1900ff1a', padding:'0.5em', border:'1px solid black'}} > 
+		 <div className="app-surface-panel" style={{ marginBottom: '0.5em' }} > 
 		  <h3>Images</h3>
 		<Button variant="outline-success" size="sm" style={{float:'right'}} onClick={fileManager.pasteFiles} > {props.tunebook.icons.paste}</Button>
 		
-		<span style={{marginRight:'1em', width:'4em', overflow:'hidden', float:'right'}} ><input multiple={true} type='file'  className='custom-file-input-button' accept={(fileManager && Array.isArray(fileManager.allowMimeTypes)) ? fileManager.allowMimeTypes.join(",") : '*'}  onChange={fileManager.filesSelected} /></span>
+		<FileInputButton label="Add" variant="success" size="sm" style={{float:'right', marginRight:'1em'}} multiple accept={(fileManager && Array.isArray(fileManager.allowMimeTypes)) ? fileManager.allowMimeTypes.join(",") : '*'} onChange={fileManager.filesSelected} />
 		
 		{fileManager.warning && <div style={{fontSize:'1.3em', color:'red', backgroundColor:'pink', minWidth:'10em', clear:'both'}} >{fileManager.warning}</div>}
 		

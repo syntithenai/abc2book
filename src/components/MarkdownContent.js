@@ -38,13 +38,13 @@ function renderParagraphLines(lines, keyPrefix) {
   return rendered;
 }
 
-export default function MarkdownContent({ text, className }) {
+export default function MarkdownContent({ text, className, blocks }) {
   const source = typeof text === 'string' ? text : '';
-  const blocks = parseMarkdownBlocks(source);
+  const parsedBlocks = Array.isArray(blocks) ? blocks : parseMarkdownBlocks(source);
 
   return (
     <div className={'markdown-content' + (className ? ' ' + className : '')}>
-      {blocks.map(function(block, index) {
+      {parsedBlocks.map(function(block, index) {
         const key = 'block-' + index;
         if (block.type === 'heading') {
           const Tag = 'h' + Math.min(6, Math.max(1, block.level));

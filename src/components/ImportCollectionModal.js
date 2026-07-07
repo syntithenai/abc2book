@@ -2,6 +2,7 @@ import {useState, useEffect, useCallback} from 'react'
 import {Button, Modal, ListGroup, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {useNavigate} from 'react-router-dom'
+import { curatedScrapeUrl } from '../resourceBase'
 
 function ImportCollectionModal(props) {
   const { setCurrentTuneBook, tunebook } = props
@@ -67,7 +68,7 @@ function ImportCollectionModal(props) {
     setCurrentTuneBook(collection)
     if (tunebook.curatedTuneBooks[collection]) {
       if (tunebook.curatedTuneBooks[collection].link) {
-        navigate("/importlink/"+encodeURIComponent(tunebook.curatedTuneBooks[collection].link))
+        navigate("/importlink/"+encodeURIComponent(curatedScrapeUrl(tunebook.curatedTuneBooks[collection].link)))
       } else if (tunebook.curatedTuneBooks[collection].googleDocumentId) {
         navigate("/importdoc/"+tunebook.curatedTuneBooks[collection].googleDocumentId)
       } 

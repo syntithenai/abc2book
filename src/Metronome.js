@@ -1,5 +1,5 @@
 import { playMetronomeTick } from './metronomeTickSounds'
-import { createRhythm, slotAccentLevel, slotsPerBar } from './metronomeRhythmPresets'
+import { createRhythm, slotAccentLevel, slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
 
 export default class Metronome
 {
@@ -19,6 +19,8 @@ export default class Metronome
         this.errorCallback = errorCallback;
         this.currentBeat = 0;
         this.onSlotChange = null;
+        this.lastScheduledTime = 0;
+        this.completionTimeoutId = null;
 
         this.setRhythm(rhythm || createRhythm(beatsPerBar));
     }
@@ -28,17 +30,34 @@ export default class Metronome
         this.beatsPerBar = this.rhythm.beatsPerBar;
         this.pulsesPerBeat = this.rhythm.pulsesPerBeat;
         this.accents = this.rhythm.accents;
+        if (this.isRunning) {
+            this.notesInQueue = [];
+            this.currentSlotInBar = 0;
+            if (this.audioContext) {
+                this.nextNoteTime = this.audioContext.currentTime + 0.05;
+            }
+        }
     }
 
     setTempo(tempo) {
-        this.tempo = tempo;
+        const nextTempo = parseFloat(tempo);
+        this.tempo = nextTempo > 0 ? nextTempo : this.tempo;
+        // Re-anchor the schedule so the new tempo applies on the next click
+        // instead of waiting out intervals already computed at the old tempo.
+        if (this.isRunning && this.audioContext) {
+            const now = this.audioContext.currentTime;
+            if (this.nextNoteTime > now + 0.02) {
+                this.nextNoteTime = now + 0.02;
+            }
+        }
     }
 
     nextNote()
     {
         const secondsPerBeat = 60.0 / this.tempo;
-        const secondsPerSlot = secondsPerBeat / this.pulsesPerBeat;
-        this.nextNoteTime += secondsPerSlot;
+        const beatIndex = slotBeatIndex(this.rhythm, this.currentSlotInBar);
+        const pulsesForBeat = (this.rhythm.pulsesPerBeat && this.rhythm.pulsesPerBeat[beatIndex]) || 1;
+        this.nextNoteTime += secondsPerBeat / pulsesForBeat;
 
         this.currentSlotInBar++;
         const totalSlots = slotsPerBar(this.rhythm);
@@ -50,27 +69,68 @@ export default class Metronome
     scheduleNote(slotIndex, time)
     {
         this.notesInQueue.push({ slot: slotIndex, time: time });
+        this.lastScheduledTime = time;
 
         const accentLevel = slotAccentLevel(this.rhythm, slotIndex);
         playMetronomeTick(this.audioContext, time, accentLevel);
 
-        if (this.onSlotChange) {
-            this.onSlotChange(slotIndex, this.rhythm);
-        }
-
         this.currentBeat += 1;
+    }
+
+    finishCompletion(callback) {
+        const cb = callback || this.callback
+        this.stop()
+        if (cb) cb()
+    }
+
+    scheduleCompletionCallback() {
+        const callback = this.callback
+        if (!callback) {
+            this.stop()
+            return
+        }
+        if (this.intervalID) {
+            clearInterval(this.intervalID)
+            this.intervalID = null
+        }
+        this.isRunning = false
+        const tickTailSec = 0.03
+        const fireAt = this.lastScheduledTime + tickTailSec
+        const now = this.audioContext ? this.audioContext.currentTime : 0
+        const delayMs = Math.max(0, (fireAt - now) * 1000)
+        const self = this
+        if (delayMs > 5) {
+            this.completionTimeoutId = setTimeout(function() {
+                self.completionTimeoutId = null
+                self.finishCompletion(callback)
+            }, delayMs)
+        } else {
+            this.finishCompletion(callback)
+        }
+    }
+
+    flushDueVisuals()
+    {
+        if (!this.onSlotChange || !this.audioContext) return
+        const now = this.audioContext.currentTime
+        while (this.notesInQueue.length > 0 && this.notesInQueue[0].time <= now) {
+            const note = this.notesInQueue.shift()
+            this.onSlotChange(note.slot, this.rhythm)
+        }
     }
 
     scheduler()
     {
+        this.flushDueVisuals()
+
         if (this.maxBeats <= 0 || this.currentBeat < this.maxBeats) {
             while ((this.maxBeats <= 0 || this.currentBeat < this.maxBeats) && this.nextNoteTime < this.audioContext.currentTime + this.scheduleAheadTime ) {
                 this.scheduleNote(this.currentSlotInBar, this.nextNoteTime);
                 this.nextNote();
             }
         } else {
-            this.stop();
-            if (this.callback) this.callback();
+            this.flushDueVisuals()
+            this.scheduleCompletionCallback()
         }
     }
 
@@ -112,10 +172,15 @@ export default class Metronome
     stop()
     {
         this.isRunning = false;
+        if (this.completionTimeoutId) {
+            clearTimeout(this.completionTimeoutId);
+            this.completionTimeoutId = null;
+        }
         this.currentBeat = 0;
         this.currentSlotInBar = 0;
         this.notesInQueue = [];
         this.nextNoteTime = 0.0;
+        this.lastScheduledTime = 0;
         if (this.intervalID) {
             clearInterval(this.intervalID);
             this.intervalID = null;

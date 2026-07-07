@@ -1,12 +1,19 @@
 import {
   buildPracticeSessionPlan,
   collectPracticeCandidates,
+  derivePracticeContextFromRecentTunes,
+  getTuneConfidence,
   normalizePracticeKey,
+  orderPracticeCandidates,
   pickPracticeKey,
   pitchOffsetToPracticeKey,
   selectRouteForTune,
   isPlayableTune,
+  isSuitableForPractice,
+  tuneMatchesPracticeContent,
+  tuneMatchesRecentPracticeContext,
 } from './practiceSessionPlanner'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 
 const helpers = {
   hasLinks: function(tune) {
@@ -14,6 +21,12 @@ const helpers = {
   },
   hasNotesOrChords: function(tune) {
     return !!(tune && tune.voices && Object.keys(tune.voices).length > 0)
+  },
+  hasNotes: function(tune) {
+    if (!tune || !tune.voices) return false
+    return Object.values(tune.voices).some(function(voice) {
+      return noteLinesHaveRealMelody(voice && voice.notes)
+    })
   },
   filterSearch: function(tune, filter, bookFilter, tagFilter) {
     if (bookFilter && (!tune.books || !tune.books.some(function(b) { return b.toLowerCase() === bookFilter.toLowerCase() }))) {
@@ -35,6 +48,8 @@ function makeTune(id, overrides) {
     books: [],
     tags: [],
     boost: 0,
+    suitableFor: [],
+    lastUpdated: Date.now(),
     voices: { v: { notes: ['CDEF|'] } },
     links: [],
   }, overrides || {})
@@ -62,21 +77,116 @@ describe('practiceSessionPlanner', function() {
     expect(selectRouteForTune(tune, helpers).route).toBe('midi')
   })
 
-  it('collects all playable tunes when no filters', function() {
+  it('requires lyrics for voice practice', function() {
+    const withLyrics = makeTune('song', { wLines: ['Hello world'] })
+    const melodyOnly = makeTune('tune')
+    expect(tuneMatchesPracticeContent(withLyrics, 'voice', helpers)).toBe(true)
+    expect(tuneMatchesPracticeContent(melodyOnly, 'voice', helpers)).toBe(false)
+  })
+
+  it('requires melody notes for non-voice practice', function() {
+    const melody = makeTune('melody')
+    const chordsOnly = makeTune('chords', { voices: { v: { notes: ['"C" "G" "Am"'] } } })
+    expect(tuneMatchesPracticeContent(melody, 'mandolin', helpers)).toBe(true)
+    expect(tuneMatchesPracticeContent(chordsOnly, 'mandolin', helpers)).toBe(false)
+  })
+
+  it('excludes tunes marked not suitable for practice', function() {
+    const now = Date.now()
     const tunes = {
-      a: makeTune('a'),
-      b: makeTune('b', { voices: null, links: [{ link: 'x' }] }),
-      c: makeTune('c', { voices: null, links: [] }),
+      ok: makeTune('ok', { lastUpdated: now }),
+      blocked: makeTune('blocked', { suitableForPractice: false, lastUpdated: now - 1000 }),
     }
-    delete tunes.c.voices
-    const result = collectPracticeCandidates(tunes, {}, helpers)
-    expect(result.map(function(t) { return t.id }).sort()).toEqual(['a', 'b'])
+    expect(isSuitableForPractice(tunes.ok)).toBe(true)
+    expect(isSuitableForPractice(tunes.blocked)).toBe(false)
+    const result = collectPracticeCandidates(tunes, {}, helpers, { instrument: 'mandolin' })
+    expect(result.map(function(t) { return t.id })).toEqual(['ok'])
+  })
+
+  it('collects voice candidates with lyrics only', function() {
+    const now = Date.now()
+    const tunes = {
+      song: makeTune('song', { wLines: ['Sing me'], lastUpdated: now }),
+      tune: makeTune('tune', { lastUpdated: now - 1000 }),
+    }
+    const result = collectPracticeCandidates(tunes, {}, helpers, { instrument: 'voice' })
+    expect(result.map(function(t) { return t.id })).toEqual(['song'])
+  })
+
+  it('collects playable tunes that match recent books or tags', function() {
+    const now = Date.now()
+    const tunes = {
+      recent: makeTune('recent', { books: ['folk'], tags: ['fast'], lastUpdated: now }),
+      matchBook: makeTune('matchBook', { books: ['folk'], lastUpdated: now - 1000 }),
+      matchTag: makeTune('matchTag', { tags: ['fast'], lastUpdated: now - 2000 }),
+      other: makeTune('other', { books: ['jigs'], tags: ['slow'], lastUpdated: now - 3000 }),
+      unplayable: makeTune('unplayable', { voices: null, links: [], lastUpdated: now - 4000 }),
+    }
+    delete tunes.unplayable.voices
+    const result = collectPracticeCandidates(tunes, {}, helpers, { instrument: 'mandolin' })
+    expect(result.map(function(t) { return t.id }).sort()).toEqual(['matchBook', 'matchTag', 'other', 'recent'])
+  })
+
+  it('orders candidates by increasing confidence and prefers instrument matches', function() {
+    const candidates = [
+      makeTune('low', { boost: 2, suitableFor: ['mandolin'] }),
+      makeTune('high', { boost: 8, suitableFor: ['mandolin'] }),
+      makeTune('otherInstrument', { boost: 1, suitableFor: ['flute'] }),
+    ]
+    const ordered = orderPracticeCandidates(candidates, {
+      instrument: 'mandolin',
+      minConfidence: 3,
+      minCount: 2,
+    })
+    expect(ordered.map(function(t) { return t.id })).toEqual(['low', 'high'])
+  })
+
+  it('avoids recently practiced tunes when other candidates exist', function() {
+    const now = 1_700_000_000_000
+    const candidates = [
+      makeTune('fresh', { boost: 4 }),
+      makeTune('recent', { boost: 3 }),
+    ]
+    const ordered = orderPracticeCandidates(candidates, {
+      instrument: 'mandolin',
+      minConfidence: 3,
+      minCount: 1,
+      now: now,
+      recentPracticeHistory: { recent: now - 1000 },
+    })
+    expect(ordered.map(function(t) { return t.id })).toEqual(['fresh'])
+  })
+
+  it('falls back to recently practiced tunes when nothing else qualifies', function() {
+    const now = 1_700_000_000_000
+    const candidates = [makeTune('recent', { boost: 3 })]
+    const ordered = orderPracticeCandidates(candidates, {
+      instrument: 'mandolin',
+      minConfidence: 3,
+      minCount: 1,
+      now: now,
+      recentPracticeHistory: { recent: now - 1000 },
+    })
+    expect(ordered.map(function(t) { return t.id })).toEqual(['recent'])
+  })
+
+  it('falls back to lower-confidence tunes when needed', function() {
+    const candidates = [
+      makeTune('a', { boost: 1, suitableFor: ['violin'] }),
+      makeTune('b', { boost: 2, suitableFor: ['violin'] }),
+    ]
+    const ordered = orderPracticeCandidates(candidates, {
+      instrument: 'violin',
+      minConfidence: 3,
+      minCount: 2,
+    })
+    expect(ordered.map(function(t) { return t.id })).toEqual(['a', 'b'])
   })
 
   it('builds plan with warmups and media-first tunes', function() {
     const tunes = {
       m1: makeTune('m1', { key: 'D', links: [{ link: 'https://x.com/1.mp3', startAt: '0', endAt: '60' }], boost: 5 }),
-      m2: makeTune('m2', { key: 'D', boost: 1 }),
+      m2: makeTune('m2', { key: 'D', boost: 3 }),
     }
     const plan = buildPracticeSessionPlan({
       totalMinutes: 10,
@@ -91,6 +201,8 @@ describe('practiceSessionPlanner', function() {
     expect(tuneSteps.some(function(s) { return s.route === 'media' })).toBe(true)
     expect(tuneSteps.find(function(s) { return s.tuneId === 'm1' }).route).toBe('media')
     expect(tuneSteps[0].tempoStart).toBeLessThanOrEqual(tuneSteps[0].tempoEnd)
+    expect(getTuneConfidence(tunes.m2)).toBeLessThan(getTuneConfidence(tunes.m1))
+    expect(tuneSteps[0].tuneId).toBe('m2')
   })
 
   it('applies skill level tempo range to tune steps', function() {
@@ -103,9 +215,33 @@ describe('practiceSessionPlanner', function() {
       helpers,
     })
     const tuneStep = plan.steps.find(function(s) { return s.type === 'tune' })
-    expect(tuneStep.tempoStart).toBe(0.5)
-    expect(tuneStep.tempoEnd).toBeCloseTo(0.8, 5)
+    expect(tuneStep.tempoStart).toBe(0.40)
+    expect(tuneStep.tempoEnd).toBeCloseTo(0.55, 5)
     expect(plan.skillLevel).toBe(2)
+  })
+
+  it('keeps full tempo for songs with lyrics', function() {
+    const tunes = {
+      song: makeTune('song', {
+        key: 'D',
+        wLines: ['These are the lyrics'],
+        links: [{ link: 'https://example.com/song.mp3', startAt: '0', endAt: '60' }],
+      }),
+      reel: makeTune('reel', { key: 'D' }),
+    }
+    const plan = buildPracticeSessionPlan({
+      totalMinutes: 10,
+      includeWarmups: false,
+      skillLevel: 2,
+      tunes,
+      helpers,
+    })
+    const songStep = plan.steps.find(function(s) { return s.tuneId === 'song' })
+    const reelStep = plan.steps.find(function(s) { return s.tuneId === 'reel' })
+    expect(songStep.tempoStart).toBe(1)
+    expect(songStep.tempoEnd).toBe(1)
+    expect(reelStep.tempoStart).toBe(0.40)
+    expect(reelStep.tempoEnd).toBeCloseTo(0.55, 5)
   })
 
   it('computes pitch offset for non-matching keys', function() {
@@ -113,18 +249,50 @@ describe('practiceSessionPlanner', function() {
     expect(pitchOffsetToPracticeKey('G', 'G')).toBe(0)
   })
 
-  it('includes booked tunes when no filters are set', function() {
+  it('derives recent practice context from viewed tunes', function() {
     const tunes = {
-      a: makeTune('a', { books: ['folk'], voices: { v: { notes: ['DEFG|'] } } }),
-      b: makeTune('b', { books: ['jigs'], links: [{ link: 'https://example.com/x.mp3' }] }),
+      a: makeTune('a', { books: ['Reels'], tags: ['party'], lastUpdated: 300 }),
+      b: makeTune('b', { books: ['Jigs'], tags: ['fast'], lastUpdated: 200 }),
     }
-    const result = collectPracticeCandidates(tunes, {}, helpers)
-    expect(result.map(function(t) { return t.id }).sort()).toEqual(['a', 'b'])
+    const context = derivePracticeContextFromRecentTunes(tunes, 2)
+    expect(context.recentBooks.sort()).toEqual(['Jigs', 'Reels'])
+    expect(context.recentTags.sort()).toEqual(['fast', 'party'])
+    expect(tuneMatchesRecentPracticeContext(makeTune('x', { books: ['Jigs'] }), context.recentBooks, context.recentTags)).toBe(true)
+    expect(tuneMatchesRecentPracticeContext(makeTune('y', { tags: ['party'] }), context.recentBooks, context.recentTags)).toBe(true)
+    expect(tuneMatchesRecentPracticeContext(makeTune('z', { books: ['Polkas'] }), context.recentBooks, context.recentTags)).toBe(false)
+  })
+
+  it('includes two warmups in a five-minute session', function() {
+    const tunes = {
+      a: makeTune('a', { key: 'D' }),
+      b: makeTune('b', { key: 'D' }),
+    }
+    const plan = buildPracticeSessionPlan({
+      totalMinutes: 5,
+      includeWarmups: true,
+      tunes,
+      helpers,
+    })
+    const warmups = plan.steps.filter(function(s) { return s.type === 'warmup' })
+    expect(warmups.length).toBe(2)
+    expect(warmups[0].id).not.toBe(warmups[1].id)
+  })
+
+  it('stores instrument on the session plan', function() {
+    const tunes = { a: makeTune('a', { key: 'D' }) }
+    const plan = buildPracticeSessionPlan({
+      totalMinutes: 10,
+      includeWarmups: false,
+      instrument: 'cello',
+      tunes,
+      helpers,
+    })
+    expect(plan.instrument).toBe('cello')
   })
 
   it('reports a clearer error when the library has no playable tunes', function() {
     const plan = buildPracticeSessionPlan({ tunes: { x: makeTune('x', { voices: null, links: [] }) }, helpers })
     delete plan.steps
-    expect(plan.error).toBe('No playable tunes found in your tune book.')
+    expect(plan.error).toBe('No tunes with melody notation found for practice.')
   })
 })

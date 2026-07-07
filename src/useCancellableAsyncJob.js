@@ -2,23 +2,11 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { isAbortError } from './abortUtils'
 import { registerLongRunningJob } from './longRunningJobRegistry'
 
-export function useCancellableAsyncJob() {
+export function useCancellableAsyncJob(label, options) {
+  const background = !!(options && options.background)
   const [busy, setBusy] = useState(false)
   const abortRef = useRef(null)
   const generationRef = useRef(0)
-
-  useEffect(function() {
-    if (!busy) return undefined
-    return registerLongRunningJob()
-  }, [busy])
-
-  useEffect(function() {
-    return function() {
-      if (abortRef.current) {
-        abortRef.current.abort()
-      }
-    }
-  }, [])
 
   const cancel = useCallback(function() {
     if (abortRef.current) {
@@ -29,11 +17,29 @@ export function useCancellableAsyncJob() {
     setBusy(false)
   }, [])
 
+  useEffect(function() {
+    if (!busy || background) return undefined
+    return registerLongRunningJob({
+      label: label || 'Search',
+      onCancel: cancel,
+    })
+  }, [busy, background, label, cancel])
+
+  useEffect(function() {
+    return function() {
+      if (background) return
+      if (abortRef.current) {
+        abortRef.current.abort()
+      }
+    }
+  }, [background])
+
   const begin = useCallback(function() {
     if (abortRef.current) {
       abortRef.current.abort()
     }
     const generation = generationRef.current + 1
+    generationRef.current = generation
     const controller = new AbortController()
     abortRef.current = controller
     setBusy(true)

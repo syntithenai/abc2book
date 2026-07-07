@@ -1,29 +1,50 @@
-import {Link , useParams, useNavigate } from 'react-router-dom'
-import {Button, Tabs, Tab} from 'react-bootstrap'
-import {useState, useEffect, useRef, useCallback} from 'react'
+import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
+import {Button, ButtonGroup} from 'react-bootstrap'
+import {useState, useEffect, useCallback} from 'react'
 import AbcEditor from './AbcEditor'
-import SearchModal from './SearchModal'
-import WizardOptionsModal from './WizardOptionsModal'
 import LocalSearchSelectorModal from './LocalSearchSelectorModal'
-import MediaSeekSlider from './MediaSeekSlider'
+import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
+import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
+import { normalizeEditorViewMode } from '../viewModeUtils'
 
 export default function MusicEditor(props) {
     const { tunebook, forceRefresh } = props
-    var [ready, setReady] = useState(false)
-    let [seekTo, setSeekTo] = useState(false)
     let params = useParams();
     var navigate = useNavigate()
+    const [searchParams] = useSearchParams()
+    const urlView = params.view ? normalizeEditorViewMode(params.view) : 'info'
+    var [editorViewMode, setEditorViewMode] = useState(urlView)
     let tune = props.tunes ? props.tunes[params.tuneId] : null
     let abc = tunebook.abcTools.json2abc(tune)
     const editHistory = props.editHistory
     const historyState = editHistory ? editHistory.historyState : null
     const tuneId = tune && tune.id
+    useBulkCheckReturnToast(tuneId)
     const canUndo = tuneId && historyState ? canUndoTuneEdit(historyState, tuneId) : false
     const canRedo = tuneId && historyState ? canRedoTuneEdit(historyState, tuneId) : false
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''
     const redoLabel = tuneId && historyState ? getRedoTuneEditLabel(historyState, tuneId) : ''
+    const autoActivateChordRecord = editorViewMode === 'chords' && searchParams.get('record') === '1'
+
+    useEffect(function() {
+        const nextView = params.view ? normalizeEditorViewMode(params.view) : 'info'
+        setEditorViewMode(nextView)
+    }, [params.tuneId, params.view])
+
+    function handleEditorViewChange(nextView) {
+        const normalized = normalizeEditorViewMode(nextView)
+        setEditorViewMode(normalized)
+        if (!tuneId) return
+        const basePath = '/editor/' + encodeURIComponent(tuneId)
+        const recordQuery = searchParams.get('record') === '1' && normalized === 'chords' ? '?record=1' : ''
+        if (normalized === 'info') {
+            navigate(basePath, { replace: true })
+        } else {
+            navigate(basePath + '/' + encodeURIComponent(normalized) + recordQuery, { replace: true })
+        }
+    }
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return
@@ -39,14 +60,10 @@ export default function MusicEditor(props) {
         }
     }, [tuneId, tunebook, forceRefresh])
 
-    // prevent playlist redirects while editing  
-    const setAbcPlaylist = props.setAbcPlaylist
-    const setMediaPlaylist = props.setMediaPlaylist
+    // Editor does not clear the now-playing queue; follow-tune navigation is suppressed in editor.
     useEffect(function() {
-      setAbcPlaylist(null)
-      setMediaPlaylist(null)
       trackEditorOpen()
-    },[setAbcPlaylist, setMediaPlaylist])
+    },[])
 
     useEffect(function() {
         function handleHistoryShortcut(event) {
@@ -87,29 +104,45 @@ export default function MusicEditor(props) {
     }, [props.blockKeyboardShortcuts, canRedo, canUndo, tuneId, handleRedo, handleUndo])
     
     //console.log('EDIT',tune,abc)
-    return <div className="music-editor" style={{width:'100%'}}>
-        <div className='music-editor-buttons' style={{backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.2em', textAlign:'left'}} >
-            
-            <Button className='btn-secondary' style={{ marginRight:'0.1em'}} onClick={function(e) {navigate("/tunes/"+tune.id)}} >{props.tunebook.icons.close}</Button>
-            
-            <span style={{marginLeft:'0.1em'}} >
-                <LocalSearchSelectorModal  value={tune ? tune.name : ''} currentTune={tune} tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} token={props.token} />
-                
-               
-            </span>
-            
-            <span style={{marginLeft:'0.1em'}} ><WizardOptionsModal abc={abc} tune={tune} tunebook={props.tunebook} forceRefresh={props.forceRefresh} token={props.token} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} /></span>
-            
-            
-            <span style={{marginLeft:'0.2em'}} ><Button title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'} disabled={!canUndo} variant="secondary" className='btn-secondary' onClick={handleUndo} >{props.tunebook.icons.arrowgoback}</Button></span>
-            <span style={{marginLeft:'0.2em'}} ><Button title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'} disabled={!canRedo} variant="secondary" className='btn-secondary' onClick={handleRedo} >{props.tunebook.icons.arrowgoforward}</Button></span>
-            <span style={{marginLeft:'0.2em', float:'right'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin}</Button></span>
-            
-           
+    return <div className={'music-editor' + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
+        <div className="music-editor-buttons">
+            <div className="music-editor-buttons-left">
+                <Button className="btn-secondary music-editor-close-btn" onClick={function() { navigate('/tunes/' + tune.id); }}>{props.tunebook.icons.close}</Button>
+                <ButtonGroup className="music-editor-history-group">
+                    <Button title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'} disabled={!canUndo} variant="secondary" className="btn-secondary" onClick={handleUndo}>{props.tunebook.icons.arrowgoback}</Button>
+                    <Button title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'} disabled={!canRedo} variant="secondary" className="btn-secondary" onClick={handleRedo}>{props.tunebook.icons.arrowgoforward}</Button>
+                </ButtonGroup>
+                <span className="music-editor-search">
+                    <LocalSearchSelectorModal value={tune ? (tune.name ?? '') : ''} currentTune={tune} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} token={props.token} />
+                </span>
+            </div>
+            <div className="music-editor-header-actions">
+                <ViewModeSelectorModal
+                  variant="editor"
+                  viewMode={editorViewMode}
+                  tunebook={props.tunebook}
+                  onChange={handleEditorViewChange}
+                />
+            </div>
         </div>
-        <MediaSeekSlider  mediaController={props.mediaController} />
-        <AbcEditor  logout={props.logout} login={props.login}  token={props.token} mediaController={props.mediaController} audioProps={props.audioProps} forceRefresh={props.forceRefresh} isMobile={props.isMobile} abc={abc} tunebook={props.tunebook} tune={tune}   />
-        
+        <AbcEditor
+          logout={props.logout}
+          login={props.login}
+          token={props.token}
+          mediaController={props.mediaController}
+          audioProps={props.audioProps}
+          forceRefresh={props.forceRefresh}
+          isMobile={props.isMobile}
+          abc={abc}
+          tunebook={props.tunebook}
+          tune={tune}
+          editorViewMode={editorViewMode}
+          onEditorViewModeChange={handleEditorViewChange}
+          autoActivateChordRecord={autoActivateChordRecord}
+          searchIndex={props.searchIndex}
+          loadTuneTexts={props.loadTuneTexts}
+                    onNotationHelpModeChange={props.onNotationHelpModeChange}
+        />
     </div>
 }
 //  <TheSessionSearchSelectorModal value={tune ? tune.name : ''} currentTune={tune}  tunebook={props.tunebook}  currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  />

@@ -1,6 +1,7 @@
 import PitchTempoShifter from './pitchTempoShifter';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './externalMediaAudioCache';
+import { trimAudioBuffer } from './mediaAudioTrim';
 import { mixStemBuffers, resampleBufferToContextRate } from './audioStemMixer';
 import { audioFiltersAreNeutral } from './pitchTempoUtils';
 import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
@@ -54,6 +55,11 @@ export default class ExternalMediaPitchTempo {
     }
 
     if (this._loadAborted) return null;
+    const trimBounds = cacheOptions && cacheOptions.trimBounds;
+    if (trimBounds && (trimBounds.endSec > 0 || trimBounds.startSec > 0)) {
+      const trimmed = trimAudioBuffer(audioBuffer, trimBounds.startSec, trimBounds.endSec);
+      if (trimmed) audioBuffer = trimmed;
+    }
     audioBuffer = resampleBufferToContextRate(this.audioContext, audioBuffer);
     this._sourceBuffer = audioBuffer;
     this._stemBuffers = null;
@@ -247,6 +253,10 @@ export default class ExternalMediaPitchTempo {
 
   disconnect() {
     if (this.shifter) this.shifter.disconnect();
+  }
+
+  setOutputVolume(volume) {
+    if (this.shifter) this.shifter.setOutputVolume(volume);
   }
 
   seek(ratio) {

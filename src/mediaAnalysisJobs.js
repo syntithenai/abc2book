@@ -57,3 +57,43 @@ export function clearMediaAnalysisAbortController(tuneId) {
   if (!tuneId || !jobsByTuneId[tuneId]) return;
   delete jobsByTuneId[tuneId].abortController;
 }
+
+export function resetMediaAnalysisJob(tuneId) {
+  if (!tuneId) return;
+  const controller = getMediaAnalysisAbortController(tuneId);
+  if (controller) {
+    controller.abort();
+  }
+  delete jobsByTuneId[tuneId];
+  notifyListeners();
+}
+
+export function getAllMediaAnalysisJobs() {
+  return Object.keys(jobsByTuneId).map(function(tuneId) {
+    const job = jobsByTuneId[tuneId];
+    return {
+      tuneId: tuneId,
+      isAnalyzing: !!job.isAnalyzing,
+      status: job.status || '',
+      progress: job.progress || 0,
+      error: job.error || '',
+    };
+  });
+}
+
+export function cancelAllActiveMediaAnalysisJobs() {
+  Object.keys(jobsByTuneId).forEach(function(tuneId) {
+    if (jobsByTuneId[tuneId].isAnalyzing) {
+      resetMediaAnalysisJob(tuneId);
+    }
+  });
+}
+
+export function clearInactiveMediaAnalysisJobs() {
+  Object.keys(jobsByTuneId).forEach(function(tuneId) {
+    if (!jobsByTuneId[tuneId].isAnalyzing) {
+      delete jobsByTuneId[tuneId];
+    }
+  });
+  notifyListeners();
+}

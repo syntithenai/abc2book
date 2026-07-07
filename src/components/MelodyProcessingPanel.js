@@ -8,12 +8,12 @@ import {
 } from '../melodyProcessingSettings';
 import './MelodyProcessingPanel.css';
 
-const MUSIC_TYPE_OPTIONS = [
+export const MUSIC_TYPE_OPTIONS = [
   { value: 'vocal', label: 'Song' },
   { value: 'instrumental', label: 'Instrumental' },
 ];
 
-const ANALYSIS_HELP_FIELDS = [
+export const ANALYSIS_HELP_FIELDS = [
   {
     title: 'Music type',
     body: 'Chooses how Demucs stems are mixed before analysis. Song sends vocals only to lyrics and melody detection, and reduces vocals and percussion for chord detection. Instrumental favours the other and bass stems for melody and reduces percussion for chords.',
@@ -85,7 +85,7 @@ export default function MelodyProcessingPanel(props) {
       {props.showTitle !== false && (
         <Form.Label>{props.title || (variant === 'notation' ? 'Note detection settings' : 'Analysis settings')}</Form.Label>
       )}
-      {variant === 'analysis' && (
+      {variant === 'analysis' && !props.hideAnalysisControls && (
         <div className="melody-processing-analysis-options">
           <div className="melody-processing-field melody-processing-music-type">
             <Form.Label>Music type</Form.Label>

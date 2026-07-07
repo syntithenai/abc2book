@@ -7,6 +7,15 @@ import useUtils from './useUtils'
 //import useCheckOnlineStatus from './useCheckOnlineStatus'
 
 import useGoogleDocument from './useGoogleDocument'
+import { appendTuneBookSyncSectionsToAbc } from './tuneBookAbc'
+import {
+  readPerformanceSetsMap,
+  readDeletedPerformanceSets,
+} from './performanceSetStore'
+import {
+  readPlaylistsMap,
+  readDeletedPlaylists,
+} from './savedPlaylistsStore'
     
 export default function useGoogleSheet(props) {
   const {token, logout, refresh, tunes, pollingInterval, onMerge, pausePolling, setGoogleDocumentId, googleDocumentId} = props
@@ -67,7 +76,17 @@ export default function useGoogleSheet(props) {
           ]).then(function(results) {
               var nowTunes = results[0] || {}
               var deletedTunes = results[1] || {}
-              var abc = abcTools.tunesToAbc(nowTunes, deletedTunes)
+              var performanceSets = readPerformanceSetsMap()
+              var deletedPerformanceSets = readDeletedPerformanceSets()
+              var playlists = readPlaylistsMap()
+              var deletedPlaylists = readDeletedPlaylists()
+              var abc = appendTuneBookSyncSectionsToAbc(
+                abcTools.tunesToAbc(nowTunes, deletedTunes),
+                performanceSets,
+                deletedPerformanceSets,
+                playlists,
+                deletedPlaylists
+              )
               //console.log('do sheet update NOWTUNES', nowTunes, abc.split('abcbook-file'))
               docsRef.current.updateDocumentData(googleSheetId.current , abc).then(function() {
                   pausePolling.current = false
@@ -117,7 +136,14 @@ export default function useGoogleSheet(props) {
 						if (folderId) {
 							//console.log('found folder creating doc',folderId)
 							utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
-							docsRef.current.createDocument(tuneBookName,abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}), 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
+							var initialAbc = appendTuneBookSyncSectionsToAbc(
+                abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}),
+                readPerformanceSetsMap(),
+                readDeletedPerformanceSets(),
+                readPlaylistsMap(),
+                readDeletedPlaylists()
+              )
+							docsRef.current.createDocument(tuneBookName, initialAbc, 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
 								googleSheetId.current = newId
 								setGoogleDocumentId(newId)
 								docsRef.current.getDocument(newId).then(function(fullSheet) {

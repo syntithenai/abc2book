@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+  .practice-config-modal.modal-dialog {
+    max-width: 720px;
+  }
+}
+
+.practice-config-filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: flex-start;
+}
+
+.practice-config-filter-field {
+  flex: 1 1 16rem;
+  min-width: 0;
+}

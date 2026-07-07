@@ -133,9 +133,13 @@ function YouTubeSearchModal(props) {
   
   return (
     <>
-      <Button style={{color:'black'}}  variant="danger" onClick={handleShow}>
-        {props.triggerElement}
-      </Button>
+      {typeof props.renderTrigger === 'function'
+        ? props.renderTrigger({ onClick: handleShow })
+        : (
+          <Button style={{color:'black'}} variant="danger" disabled={props.disabled} onClick={handleShow}>
+            {props.triggerElement}
+          </Button>
+        )}
 
       <Modal show={show} onHide={handleClose}>
         

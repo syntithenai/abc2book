@@ -10,9 +10,37 @@ import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
 import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { getLyricLines } from './wLinesUtils'
+import { buildNotationWLines } from './noteSpacingUtils'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
+import { matchesShareImportScope } from './shareTunebookUtils'
+import {
+  createQueue,
+  isQueueActive,
+  getCurrentItem,
+  getCurrentTuneId,
+  advanceQueue,
+  setQueueIndex,
+  sortTunesForQueue,
+  tuneIdsFromTunes,
+  shouldSuppressFollowNavigate,
+  resolvePlaybackForItem,
+} from './nowPlayingQueue'
+import {
+  playQueueItem,
+  playCurrentQueueItem,
+  navigateToQueueTune,
+  handleQueueAdvanceOnEnded,
+} from './nowPlayingQueuePlayback'
+import { playTuneNow } from './tunePlaybackActions'
+import {
+  isNavigatorOffline,
+  playbackModeFromPathname,
+  findNextOfflinePlayableListIndex,
+} from './offlinePlayback'
+import { parseTempoBpm, tempoRangeLabel, tempoRangeSortKey } from './tempoRange'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, mediaPlaylist, setMediaPlaylist, abcPlaylist, setAbcPlaylist, forceNav, setForceNav, editHistory}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -20,6 +48,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   var dbTunes = {}
   var saveOnlineTimeout = null
   const persistedTunesRef = useRef({})
+  const saveTuneInProgressRef = useRef(false)
   //indexes.resetBookIndex()
   //var tunesFrom = Object.values(utils.loadLocalObject('abc2book_tunes')).map(function(tune) {
     //tune.id = utils.generateObjectId()
@@ -27,188 +56,454 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     //dbTunes[tune.id] = tune
   //})
   var navTimeout = null
+
+  function stopSingleViewPlayback(mediaController) {
+    if (mediaController && typeof mediaController.stop === 'function') {
+      mediaController.stop()
+    }
+  }
+
+  function isPlaybackActivelyPlaying(mediaController) {
+    if (!mediaController) return false
+    if (mediaController.isPlaying || mediaController.isLoading) return true
+    if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) return true
+    return false
+  }
+
+  function playbackApi() {
+    return { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }
+  }
+
+  function navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, options) {
+    if (!setPlaylist || !setPlaylist.tunes || setPlaylist.tunes.length === 0) return false
+    var opts = options || {}
+    var mediaController = opts.mediaController
+    var startPlayback = !!opts.startPlayback
+    var currentIndex = typeof setPlaylist.currentIndex === 'number' ? setPlaylist.currentIndex : 0
+    if (currentSongId) {
+      var foundIndex = setPlaylist.tunes.findIndex(function(t) { return t && t.id === currentSongId })
+      if (foundIndex !== -1) currentIndex = foundIndex
+    }
+
+    function applyPlaylistIndex(nextIndex) {
+      if (nextIndex < 0 || nextIndex >= setPlaylist.tunes.length) {
+        if (failCallback) failCallback(direction > 0 ? 'end' : 'start')
+        return
+      }
+      var newPL = Object.assign({}, setPlaylist, { currentIndex: nextIndex })
+      setSetPlaylist(newPL)
+      var nextTune = newPL.tunes[nextIndex]
+      if (nextTune && nextTune.id) {
+        setCurrentTune(nextTune.id)
+        if (mediaController && startPlayback) {
+          var fullTune = tunes && tunes[nextTune.id] ? tunes[nextTune.id] : nextTune
+          playTuneNow(mediaController, playbackApi(), navigate, fullTune)
+          return
+        }
+        if (mediaController && !startPlayback) {
+          navigate('/tunes/' + nextTune.id)
+          return
+        }
+        var playUrl = ''
+        if (locationPathname && locationPathname.indexOf('/playMidi') !== -1) {
+          playUrl = '/playMidi'
+        } else if (locationPathname && locationPathname.indexOf('/playMedia') !== -1) {
+          playUrl = '/playMedia'
+        }
+        navigate('/tunes/' + nextTune.id + playUrl)
+      }
+    }
+
+    if (isNavigatorOffline()) {
+      var playbackMode = playbackModeFromPathname(locationPathname)
+      var tunebookApi = playbackApi()
+      findNextOfflinePlayableListIndex(
+        setPlaylist.tunes,
+        currentIndex,
+        direction,
+        null,
+        tunebookApi,
+        utils.isYoutubeLink,
+        playbackMode
+      ).then(function(nextIndex) {
+        applyPlaylistIndex(nextIndex)
+      })
+      return true
+    }
+
+    applyPlaylistIndex(currentIndex + direction)
+    return true
+  }
+
+  function isPracticeSessionActive() {
+    return !!(practiceSessionActiveRef && practiceSessionActiveRef.current)
+  }
+
   function navigate(to) {
       setForceNav(to)
   }
-  //,  navigate = function(a) {console.log("NAVTO",a); window.location = "#"+a}
-  function navigateToNextSong(currentSongId, failCallback) {
-      clearTimeout(navTimeout); 
-      navTimeout = setTimeout(function() {
-        //console.log("NEXT", mediaPlaylist, abcPlaylist, currentSongId,  navigate)
-        if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
-            //console.log("NEXT abc")
-      var newPL = Object.assign({}, abcPlaylist)
-      var currentTune = (typeof newPL.currentTune === 'number' && newPL.currentTune >= 0) ? newPL.currentTune : 0
-      newPL.currentTune = (currentTune + 1) % abcPlaylist.tunes.length
-      setAbcPlaylist(newPL)
-      if (newPL.tunes && newPL.tunes[newPL.currentTune] && newPL.tunes[newPL.currentTune].id) {
-        navigate("/tunes/"+newPL.tunes[newPL.currentTune].id+"/playMidi") 
-      }
-        } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
-            //console.log("NEXT media")
-      var newPL = Object.assign({}, mediaPlaylist)
-      var currentTune = (typeof newPL.currentTune === 'number' && newPL.currentTune >= 0) ? newPL.currentTune : 0
-      newPL.currentTune = (currentTune + 1) % mediaPlaylist.tunes.length
-      setMediaPlaylist(newPL)
-      if (newPL.tunes && newPL.tunes[newPL.currentTune] && newPL.tunes[newPL.currentTune].id) {
-        navigate("/tunes/"+newPL.tunes[newPL.currentTune].id+"/playMedia") 
-      }
-        } else {
-            
-            if (currentSongId) {
-              var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
-              useTunes = useTunes.sort(function(a,b) { 
-                return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-              })
-              //groupBy='key'
-        // Build ordered list of tune ids. When grouped, preserve grouping order
-        // consistent with IndexLayout by using groupTunes which returns indices
-        // into the sorted useTunes array.
-        var orderedIds = []
-        // sort by name first to match IndexLayout
-        useTunes.sort(function(a,b) { 
-        return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-        })
-        if (groupBy) {
-          var grouped = groupTunes(useTunes, groupBy)
-          Object.keys(grouped).sort(function(a,b) {
-            if (!a || (a.trim && a.trim() === '')) return -1
-            if (parseInt(a) > 0 && parseInt(b) > 0) {
-                return parseInt(a) > parseInt(b) ? 1 : -1
-            } else {
-                return a > b ? 1 : -1
-            }
-          }).forEach(function(groupKey) {
-            grouped[groupKey].forEach(function(itemIndex) {
-              if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
-            })
-          })
-        } else {
-          orderedIds = useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
-        }
 
-        // find the current index and pick the next one (with wrap)
-        var found = null
-        if (orderedIds.length > 0) {
-          var idx = orderedIds.indexOf(currentSongId)
-          if (idx !== -1) {
-            var nextIdx = (idx + 1) % orderedIds.length
-            found = orderedIds[nextIdx]
+  function buildQueueTunesFromContext(book, selected, filterTags, mergedTunes, options) {
+    var opts = options || {}
+    var filterGenres = opts.genreFilter
+    var filterArtists = opts.artistFilter
+    var fillTunes = []
+    var useBook = book
+    var selectedArray = selected && selected.split ? selected.split(",").filter(function(v) { return !!v }) : []
+    if (selectedArray.length > 0) {
+      fillTunes = mediaFromSelection(utils.uniquifyArray(selectedArray).join(",")).filter(function(tune) {
+        if (book && tune.books && tune.books.indexOf(book) !== -1) return true
+        if (filterTags && filterTags.length > 0 && tune.tags) {
+          for (var i = 0; i < filterTags.length; i++) {
+            if (tune.tags.indexOf(filterTags[i]) !== -1) return true
           }
+          return false
         }
-              //console.log("NEXT found ",found)
-              if (found) {
-                setCurrentTune(found)
-                var playUrl = ''
-                if (window.location.hash.indexOf('/playMidi') !== -1) {
-                    playUrl = '/playMidi'
-                } else if (window.location.hash.indexOf('/playMedia') !== -1) {
-                    playUrl = '/playMedia'
-                }
-                if (window.location.hash.indexOf('/editor/') !== -1) {
-                    navigate('/editor/' + found)
-                } else {
-                    navigate('/tunes/' + found + playUrl)
-                }
-              } else {
-                  failCallback()
-              }
-            } else {
-                failCallback()
-            }
-        }    
-    },300)
-    
+        if (filterGenres && filterGenres.length > 0 && tune.genre) {
+          var tuneGenreLower = String(tune.genre).toLowerCase()
+          for (var g = 0; g < filterGenres.length; g++) {
+            if (filterGenres[g] && String(filterGenres[g]).toLowerCase() === tuneGenreLower) return true
+          }
+          return false
+        }
+        if (filterArtists && filterArtists.length > 0 && tune.composer) {
+          var tuneArtistLower = String(tune.composer).toLowerCase()
+          for (var a = 0; a < filterArtists.length; a++) {
+            if (filterArtists[a] && String(filterArtists[a]).toLowerCase() === tuneArtistLower) return true
+          }
+          return false
+        }
+        if (book || (filterTags && filterTags.length > 0) || (filterGenres && filterGenres.length > 0) || (filterArtists && filterArtists.length > 0)) return false
+        return true
+      }, mergedTunes)
+      shuffleArray(fillTunes)
+      useBook = 'Selection'
+    } else {
+      fillTunes = mediaFromSearch('', book, filterTags, mergedTunes, filterGenres, filterArtists)
+      shuffleArray(fillTunes)
+    }
+    if (opts.mediaOnly) {
+      fillTunes = fillTunes.filter(function(tune) {
+        return tune && Array.isArray(tune.links) && tune.links.length > 0
+      })
+    }
+    fillTunes = sortTunesForQueue(fillTunes, hasNotesOrChords, hasLinks)
+    var limit = typeof opts.limit === 'number' ? opts.limit : 30
+    return { tunes: fillTunes.slice(0, limit), name: useBook || opts.name || 'Playlist' }
+  }
+
+  function startNowPlayingQueue(queue, navigateFn, options) {
+    if (!isQueueActive(queue)) return null
+    setNowPlayingQueue(queue)
+    var item = getCurrentItem(queue)
+    var tuneId = item && item.tuneId ? item.tuneId : null
+    if (!tuneId) return null
+    setCurrentTune(tuneId)
+    var opts = options || {}
+    var tune = tunes[tuneId]
+    if (opts.startPlayback && opts.mediaController && tune && item) {
+      playQueueItem(opts.mediaController, playbackApi(), tune, item, { fromUserGesture: true })
+    }
+    if (opts.navigate !== false && navigateFn) {
+      if (tune) {
+        navigateToQueueTune(navigateFn, tuneId, item, { hasNotesOrChords: hasNotesOrChords, hasLinks: hasLinks }, tunes)
+      } else {
+        navigateFn('/tunes/' + tuneId + '/playMedia')
+      }
+    }
+    return tuneId
+  }
+
+  function queueItemTuneId(item) {
+    return item && item.tuneId != null ? String(item.tuneId) : null
+  }
+
+  function sameTuneId(a, b) {
+    if (a == null || b == null) return false
+    return String(a) === String(b)
+  }
+
+  function lookupTune(tuneId) {
+    if (tuneId == null || !tunes) return null
+    return tunes[tuneId] || tunes[String(tuneId)] || null
+  }
+
+  function isCurrentTuneInQueue(queue, currentSongId) {
+    if (!isQueueActive(queue)) return false
+    if (!currentSongId) return true
+    return queue.items.some(function(item) {
+      return sameTuneId(queueItemTuneId(item), currentSongId)
+    })
+  }
+
+  function navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
+    if (!isQueueActive(nowPlayingQueue) || !setNowPlayingQueue) return false
+    var opts = options || {}
+    var mediaController = opts.mediaController
+    var forceNavigate = !!opts.forceNavigate
+    var startPlayback = !!opts.startPlayback
+    var syncIndex = nowPlayingQueue.currentIndex
+    if (currentSongId) {
+      var found = nowPlayingQueue.items.findIndex(function(item) {
+        return sameTuneId(queueItemTuneId(item), currentSongId)
+      })
+      if (found === -1) return false
+      syncIndex = found
+    }
+    var synced = Object.assign({}, nowPlayingQueue, {
+      currentIndex: syncIndex,
+      previewOnce: forceNavigate ? null : nowPlayingQueue.previewOnce,
+    })
+    var stepDirection = direction >= 0 ? 1 : -1
+    var stepped = advanceQueue(synced, stepDirection)
+    if (stepped.atEdge) {
+      if (failCallback) failCallback(stepped.edge)
+      return true
+    }
+
+    function finishQueueStep(nextQueue, item, tune) {
+      var tuneId = queueItemTuneId(item)
+      if (!tuneId) return false
+      setNowPlayingQueue(nextQueue)
+      var api = playbackApi()
+      if (mediaController && startPlayback && tune) {
+        playQueueItem(mediaController, api, tune, item, { fromUserGesture: true })
+      }
+      var shouldFollow = forceNavigate || nextQueue.followTune
+      // Explicit next/prev always moves the view (except during practice); followTune
+      // still respects editor/gig/set suppress for auto-advance.
+      var allowFollow = forceNavigate
+        ? !isPracticeSessionActive()
+        : !shouldSuppressFollowNavigate({
+          pathname: locationPathname,
+          setPlaylist: setPlaylist,
+          practiceSessionActive: isPracticeSessionActive(),
+        })
+      var nav = navigateFn || navigate
+      if (shouldFollow && nav && allowFollow) {
+        setCurrentTune(tuneId)
+        if (startPlayback || !forceNavigate) {
+          navigateToQueueTune(nav, tuneId, item, api, tunes)
+        } else {
+          nav('/tunes/' + tuneId)
+        }
+      }
+      return true
+    }
+
+    if (!isNavigatorOffline()) {
+      var nextQueue = stepped.queue
+      var item = getCurrentItem(nextQueue)
+      var tune = lookupTune(queueItemTuneId(item))
+      return finishQueueStep(nextQueue, item, tune)
+    }
+
+    var playbackMode = playbackModeFromPathname(locationPathname)
+    var tunebookApi = playbackApi()
+    var queueTunes = nowPlayingQueue.items.map(function(queueItem) {
+      return lookupTune(queueItemTuneId(queueItem))
+    })
+
+    findNextOfflinePlayableListIndex(
+      queueTunes,
+      syncIndex,
+      stepDirection,
+      function(tune, index) {
+        var queueItem = nowPlayingQueue.items[index]
+        return queueItem ? resolvePlaybackForItem(tune, queueItem, tunebookApi) : null
+      },
+      tunebookApi,
+      utils.isYoutubeLink,
+      playbackMode
+    ).then(function(nextIndex) {
+      if (nextIndex === -1) {
+        if (failCallback) failCallback(stepDirection > 0 ? 'end' : 'start')
+        return
+      }
+      var nextQueue = Object.assign({}, synced, { currentIndex: nextIndex })
+      var item = getCurrentItem(nextQueue)
+      var tune = lookupTune(queueItemTuneId(item))
+      finishQueueStep(nextQueue, item, tune)
+    })
+    return true
+  }
+
+  function buildSearchListOrderedIds() {
+    var useTunes = fromSearch(filter, currentTuneBook, tagFilter, genreFilter, artistFilter)
+    useTunes.sort(function(a, b) {
+      return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
+    })
+    var orderedIds = []
+    if (groupBy) {
+      var grouped = groupTunes(useTunes, groupBy)
+      Object.keys(grouped).sort(function(a, b) {
+        if (!a || (a.trim && a.trim() === '')) return -1
+        if (!b || (b.trim && b.trim() === '')) return 1
+        if (groupBy === 'tempoRange') {
+          return tempoRangeSortKey(a) > tempoRangeSortKey(b) ? 1 : -1
+        }
+        if (parseInt(a) > 0 && parseInt(b) > 0) {
+          return parseInt(a) > parseInt(b) ? 1 : -1
+        }
+        return a > b ? 1 : -1
+      }).forEach(function(groupKey) {
+        grouped[groupKey].forEach(function(itemIndex) {
+          if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
+        })
+      })
+    } else {
+      orderedIds = useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
+    }
+    return orderedIds
+  }
+
+  function isEditorPath(locationPathname) {
+    return (locationPathname && locationPathname.indexOf('/editor/') !== -1)
+      || (typeof window !== 'undefined' && window.location.hash.indexOf('/editor/') !== -1)
+  }
+
+  function getEditorViewFromPath(locationPathname) {
+    var path = locationPathname || ''
+    if (!path && typeof window !== 'undefined') {
+      path = window.location.hash.replace(/^#/, '')
+    }
+    var match = path.match(/\/editor\/[^/?#]+\/([^/?#]+)/)
+    return match && match[1] ? match[1] : null
+  }
+
+  function buildEditorPathForTune(tuneId, locationPathname) {
+    var id = encodeURIComponent(String(tuneId))
+    var view = getEditorViewFromPath(locationPathname)
+    if (view && view !== 'info') {
+      return '/editor/' + id + '/' + encodeURIComponent(view)
+    }
+    return '/editor/' + id
+  }
+
+  function navigateToSearchListTune(tuneId, navigateFn, locationPathname, mediaController, startPlayback) {
+    if (tuneId == null || tuneId === '') return
+    var id = String(tuneId)
+    setCurrentTune(id)
+    var nav = navigateFn || navigate
+    if (isEditorPath(locationPathname)) {
+      nav(buildEditorPathForTune(id, locationPathname))
+      return
+    }
+    if (mediaController && startPlayback && lookupTune(id)) {
+      playTuneNow(mediaController, playbackApi(), nav, lookupTune(id))
+      return
+    }
+    var playUrl = ''
+    if (locationPathname && locationPathname.indexOf('/playMidi') !== -1) {
+      playUrl = '/playMidi'
+    } else if (locationPathname && locationPathname.indexOf('/playMedia') !== -1) {
+      playUrl = '/playMedia'
+    } else if (typeof window !== 'undefined') {
+      if (window.location.hash.indexOf('/playMidi') !== -1) {
+        playUrl = '/playMidi'
+      } else if (window.location.hash.indexOf('/playMedia') !== -1) {
+        playUrl = '/playMedia'
+      }
+    }
+    nav('/tunes/' + id + playUrl)
+  }
+
+  function runAdjacentSongNavigation(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
+    var opts = options || {}
+    var mediaController = opts.mediaController
+    // Capture before stop() clears intent/playing state.
+    var startPlayback = !!(mediaController && isPlaybackActivelyPlaying(mediaController))
+    if (mediaController) stopSingleViewPlayback(mediaController)
+    // Explicit next/prev always moves the view, even when followTune is off.
+    var stepOpts = {
+      forceNavigate: true,
+      startPlayback: startPlayback,
+    }
+    if (mediaController) stepOpts.mediaController = mediaController
+    // In the editor, next/prev always follow the current search/list order and
+    // stay on the same editor tab — not the active set playlist or now-playing queue.
+    if (!isEditorPath(locationPathname)) {
+      if (setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
+        if (navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, stepOpts)) return
+      }
+      // Only step the now-playing queue when the current tune is in it; otherwise
+      // fall through to the current search/list order.
+      if (isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
+        if (navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, stepOpts)) return
+      }
+    }
+    if (!currentSongId) return
+
+    var orderedIds = buildSearchListOrderedIds()
+    if (orderedIds.length === 0) {
+      if (failCallback) failCallback()
+      return
+    }
+    var idx = orderedIds.findIndex(function(id) { return sameTuneId(id, currentSongId) })
+    if (idx === -1) {
+      if (failCallback) failCallback()
+      return
+    }
+
+    if (direction > 0 && isNavigatorOffline()) {
+      var orderedTunes = orderedIds.map(function(id) { return lookupTune(id) }).filter(Boolean)
+      findNextOfflinePlayableListIndex(
+        orderedTunes,
+        idx,
+        1,
+        null,
+        playbackApi(),
+        utils.isYoutubeLink,
+        playbackModeFromPathname(locationPathname)
+      ).then(function(nextListIndex) {
+        if (nextListIndex === -1) {
+          if (failCallback) failCallback('end')
+          return
+        }
+        var nextTune = orderedTunes[nextListIndex]
+        navigateToSearchListTune(
+          nextTune && nextTune.id ? nextTune.id : null,
+          navigateFn,
+          locationPathname,
+          mediaController,
+          startPlayback
+        )
+      })
+      return
+    }
+
+    var nextIdx = direction > 0
+      ? (idx + 1) % orderedIds.length
+      : (idx - 1 + orderedIds.length) % orderedIds.length
+    navigateToSearchListTune(orderedIds[nextIdx], navigateFn, locationPathname, mediaController, startPlayback)
+  }
+
+  //,  navigate = function(a) {console.log("NAVTO",a); window.location = "#"+a}
+  function navigateToNextSong(currentSongId, failCallback, navigateFn, locationPathname, options) {
+      var opts = options || {}
+      // Run immediately when continuing playback so the click stays a user gesture.
+      if (opts.mediaController) {
+        clearTimeout(navTimeout)
+        runAdjacentSongNavigation(1, currentSongId, failCallback, navigateFn, locationPathname, opts)
+        return
+      }
+      clearTimeout(navTimeout)
+      navTimeout = setTimeout(function() {
+        runAdjacentSongNavigation(1, currentSongId, failCallback, navigateFn, locationPathname, opts)
+      }, 300)
   }
   
-  function navigateToPreviousSong(currentSongId) {
-     clearTimeout(navTimeout); 
+  function navigateToPreviousSong(currentSongId, navigateFn, locationPathname, options) {
+     var opts = options || {}
+     if (opts.mediaController) {
+       clearTimeout(navTimeout)
+       runAdjacentSongNavigation(-1, currentSongId, null, navigateFn, locationPathname, opts)
+       return
+     }
+     clearTimeout(navTimeout)
       navTimeout = setTimeout(function() {
-        //console.log("PREV")
-    
-        if (abcPlaylist && abcPlaylist.tunes && abcPlaylist.tunes.length > 0) { 
-            //console.log("NEXT")
-      var newPL = Object.assign({}, abcPlaylist)
-      var currentTune = (typeof newPL.currentTune === 'number' && newPL.currentTune >= 0) ? newPL.currentTune : 0
-      newPL.currentTune = (currentTune - 1 + abcPlaylist.tunes.length) % abcPlaylist.tunes.length
-      setAbcPlaylist(newPL)
-      if (newPL.tunes && newPL.tunes[newPL.currentTune] && newPL.tunes[newPL.currentTune].id) {
-        navigate("/tunes/"+newPL.tunes[newPL.currentTune].id+"/playMidi") 
-      }
-        } else if (mediaPlaylist && mediaPlaylist.tunes && mediaPlaylist.tunes.length > 0) { 
-            //console.log("NEXT")
-      var newPL = Object.assign({}, mediaPlaylist)
-      var currentTune = (typeof newPL.currentTune === 'number' && newPL.currentTune >= 0) ? newPL.currentTune : 0
-      newPL.currentTune = (currentTune - 1 + mediaPlaylist.tunes.length) % mediaPlaylist.tunes.length
-      setMediaPlaylist(newPL)
-      if (newPL.tunes && newPL.tunes[newPL.currentTune] && newPL.tunes[newPL.currentTune].id) {
-        navigate("/tunes/"+newPL.tunes[newPL.currentTune].id+"/playMedia") 
-      }
-        } else {
-            //console.log("PREV aa")
-            if (currentSongId) {
-                
-              var useTunes = fromSearch(filter, currentTuneBook, tagFilter)
-              //console.log("PREVa aa ", useTunes)
-              useTunes.sort(function(a,b) { 
-                return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-              })
-        // Build ordered list of tune ids. When grouped, preserve grouping order
-        // consistent with IndexLayout by using groupTunes which returns indices
-        // into the sorted useTunes array.
-        var orderedIds = []
-        // sort by name first to match IndexLayout
-        useTunes.sort(function(a,b) { 
-        return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
-        })
-        if (groupBy) {
-          var grouped = groupTunes(useTunes, groupBy)
-          Object.keys(grouped).sort(function(a,b) {
-            if (!a || (a.trim && a.trim() === '')) return -1
-            if (parseInt(a) > 0 && parseInt(b) > 0) {
-                return parseInt(a) > parseInt(b) ? 1 : -1
-            } else {
-                return a > b ? 1 : -1
-            }
-          }).forEach(function(groupKey) {
-            grouped[groupKey].forEach(function(itemIndex) {
-              if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
-            })
-          })
-        } else {
-          orderedIds = useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
-        }
-
-        // find the current index and pick the previous one (with wrap)
-        var found = null
-        if (orderedIds.length > 0) {
-          var idx = orderedIds.indexOf(currentSongId)
-          if (idx !== -1) {
-            var prevIdx = (idx - 1 + orderedIds.length) % orderedIds.length
-            found = orderedIds[prevIdx]
-          }
-        }
-              //console.log("PREV found ",found)
-              if (found) {
-                // save last seen tune since not click trigger
-                setCurrentTune(found)
-                //console.log(window.location)
-                if (window.location.hash.indexOf('/editor/') !== -1) {
-                    navigate('/editor/' + found)
-                } else {
-                    var playUrl = ''
-                    if (window.location.hash.indexOf('/playMidi') !== -1) {
-                        playUrl = '/playMidi'
-                    } else if (window.location.hash.indexOf('/playMedia') !== -1) {
-                        playUrl = '/playMedia'
-                    }
-                    navigate('/tunes/' + found + playUrl)
-                }
-              }
-            }
-            
-        }
-    },300)
+        runAdjacentSongNavigation(-1, currentSongId, null, navigateFn, locationPathname, opts)
+      }, 300)
   }
   
   function createTune(tune = null, skipTimestampUpdate = false) {
@@ -232,8 +527,23 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       tune.playbackFineTune = tune.playbackFineTune !== undefined && tune.playbackFineTune !== null && tune.playbackFineTune !== ''
         ? parseInt(tune.playbackFineTune, 10) || 0 : 0
       tune.lyricsScrollSpeed = tune.lyricsScrollSpeed > 0 ? parseFloat(tune.lyricsScrollSpeed) : 1
+      tune.zoom = tune.zoom > 0 ? parseFloat(tune.zoom) : undefined
       tune.playbackAudioFilters = getAudioFilterSettings(tune)
       tune.backgroundInfo = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : ''
+      if (Array.isArray(tune.suitableFor)) {
+        tune.suitableFor = tune.suitableFor.map(function(item) {
+          return item != null ? String(item).trim() : ''
+        }).filter(Boolean)
+      } else if (tune.suitableFor) {
+        tune.suitableFor = [String(tune.suitableFor).trim()].filter(Boolean)
+      } else {
+        tune.suitableFor = []
+      }
+      if (tune.suitableForPractice === false || tune.suitableForPractice === 'false' || tune.suitableForPractice === 0 || tune.suitableForPractice === '0') {
+        tune.suitableForPractice = false
+      } else {
+        tune.suitableForPractice = true
+      }
       if (Array.isArray(tune.links)) {
         tune.links = tune.links.map(syncLegacyLinkLoopFields)
       }
@@ -352,7 +662,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function saveTune(tune, skipTimestampUpdate = false, options = {}) {
       
     //console.log('save tune', tune, tunes)
-    if (tune && tunes) {
+    if (!tune || !tunes) return tune
+    if (saveTuneInProgressRef.current) return tune
+    saveTuneInProgressRef.current = true
+    try {
       pauseSheetUpdates.current = true
       var before = getPersistedTuneSnapshot(tune.id)
       var tombstoneBefore = deletedTunes && tune.id ? JSON.parse(JSON.stringify(deletedTunes[tune.id] || null)) : null
@@ -382,9 +695,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
           },
         })
       }
-      setTunes(tunes)
+      setTunes(Object.assign({}, tunes))
       //console.log('set tunes', tune, tunes)
       saveTunesOnline()
+    } finally {
+      saveTuneInProgressRef.current = false
     }
     return tune
   }
@@ -557,41 +872,48 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   }
   
   //props.tunebook.bulkChangeTunes(Object.keys(props.selected), key, value)
-  function bulkChangeTunes(tuneIds,key, value) {
+  // Second argument may be a single field key or an array of { key, value } changes.
+  function bulkChangeTunes(tuneIds, keyOrChanges, value) {
+    var changes = []
+    if (Array.isArray(keyOrChanges)) {
+      changes = keyOrChanges.filter(function(change) {
+        return change && change.key
+      })
+    } else if (keyOrChanges) {
+      changes = [{ key: keyOrChanges, value: value }]
+    }
+
     if (Array.isArray(tuneIds)) {
       pauseSheetUpdates.current = true
       var historyChanges = []
       tuneIds.forEach(function(id) {
-        if (tunes[id] && key) {
+        if (tunes[id] && changes.length > 0) {
             var before = getPersistedTuneSnapshot(id)
-            if (Array.isArray(tunes[id][key]) && Array.isArray(value) ) {
-                value.forEach(function(v) {
-                    tunes[id][key].push(value)
-                })
-            } else {
-                tunes[id][key] = value
-            }
+            changes.forEach(function(change) {
+              var key = change.key
+              var nextValue = change.value
+              if (Array.isArray(tunes[id][key]) && Array.isArray(nextValue)) {
+                  nextValue.forEach(function(v) {
+                      tunes[id][key].push(v)
+                  })
+              } else {
+                  tunes[id][key] = nextValue
+              }
+            })
             savePersistedTuneSnapshot(tunes[id])
             historyChanges.push({
               tuneId: id,
               before: before,
               after: tunes[id],
-              label: 'Bulk change',
+              label: changes.length > 1 ? ('Bulk change (' + changes.length + ' fields)') : 'Bulk change',
               immediate: true,
               meta: {
                 tombstoneBefore: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
                 tombstoneAfter: deletedTunes && id ? JSON.parse(JSON.stringify(deletedTunes[id] || null)) : null,
               },
             })
-            
-          //var books = Array.isArray(tunes[id].books) ? tunes[id].books : []
-          //if (books.indexOf(book) !== -1) {
-            //books.splice(books.indexOf(book),1)
-            //tunes[id].books = books
-          //}
         }
       })
-      //console.log('bulk change',tuneIds)
       historyChanges.forEach(function(change) {
         recordHistoryChange(change)
       })
@@ -997,22 +1319,10 @@ The main difference between the two functions is the additional condition in app
     
      
     function hasNotes(tune) {
-        var hasNotes = false
-        if (tune.voices) {
-            Object.values(tune.voices).forEach(function(voice) {
-                if (Array.isArray(voice.notes)) {
-                    for (var i=0 ; i < voice.notes.length; i++) {
-                        //console.log("HASNOTES",removeQuotedSections(voice.notes[i]).replace("z",""),voice.notes[i])
-                        if (utils.removeQuotedSections(voice.notes[i]).replaceAll("z","").replaceAll("|","").trim()) {
-                            hasNotes = true
-                            break;
-                        }
-                    }
-                }
-            })
-        }
-        
-        return hasNotes
+        if (!tune || !tune.voices) return false
+        return Object.values(tune.voices).some(function(voice) {
+            return noteLinesHaveRealMelody(voice && voice.notes)
+        })
     }
   
   
@@ -1040,19 +1350,20 @@ The main difference between the two functions is the additional condition in app
     return false
   }
   
-  function importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName) {
-    if (!tune) return false
-    if (limitToTuneId && tune.id != limitToTuneId) return false
-    if (limitToBookName && (!Array.isArray(tune.books) || tune.books.indexOf(limitToBookName) === -1)) return false
-    if (limitToTagName && (!Array.isArray(tune.tags) || tune.tags.indexOf(limitToTagName) === -1)) return false
-    return true
+  function importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds) {
+    return matchesShareImportScope(tune, {
+      limitToTuneId: limitToTuneId,
+      limitToBookName: limitToBookName,
+      limitToTagName: limitToTagName,
+      limitToTuneIds: limitToTuneIds,
+    })
   }
 
   /** 
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
    */
-  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null) {
+  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null) {
       //console.log('importabc', forceBook, limitToTuneId, limitToBookName, limitToTagName)
       var currentTunesHash = buildTunesHash(tunes) || tunesHash
       var duplicates=[]
@@ -1071,7 +1382,7 @@ The main difference between the two functions is the additional condition in app
         intunes.forEach(function(tune) { 
           //if ((!limitToTuneId || tune.id == limitToTuneId))    console.log('HAVETUNE',limitToTuneId,tune.id, limitToBookName, (tune.books), limitToTagName, tune.tags)
             
-          if (importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName))  {
+          if (importScopeMatch(tune, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds))  {
               if (tune.id) importedActiveIds[tune.id] = true
               var localTomb = deletedTunes && tune.id ? deletedTunes[tune.id] : null
               var localTombAt = localTomb ? parseInt(localTomb.deletedAt, 10) || 0 : 0
@@ -1182,7 +1493,7 @@ The main difference between the two functions is the additional condition in app
         })
         Object.keys(tunes).forEach(function(tuneId) {
           var localTune = tunes[tuneId]
-          if (!importScopeMatch(localTune, limitToTuneId, limitToBookName, limitToTagName)) return
+          if (!importScopeMatch(localTune, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds)) return
           if (importedActiveIds[tuneId]) return
           var remoteTomb = remoteDeleted[tuneId]
           if (!remoteTomb) return
@@ -1259,12 +1570,64 @@ The main difference between the two functions is the additional condition in app
     //console.log("search TUNEBOOKOPTIONS",filter,opts,filtered)
       return filtered
   }
+
+  function getTuneGenreOptions() {
+      var final = {}
+      Object.keys(indexes.genreIndex || {}).forEach(function(tuneGenreKey) {
+          final[tuneGenreKey] = tuneGenreKey
+      })
+      return final
+  }
+
+  function getSearchTuneGenreOptions(filter) {
+      var opts = getTuneGenreOptions()
+      var filtered = {}
+      Object.keys(opts).forEach(function(key) {
+          var val = opts[key]
+          if (val && val.indexOf(filter) !== -1) {
+              filtered[key] = val
+          }
+      })
+      return filtered
+  }
+
+  function getTuneArtistOptions() {
+      var final = {}
+      Object.keys(indexes.artistIndex || {}).forEach(function(tuneArtistKey) {
+          if (tuneArtistKey && String(tuneArtistKey).trim()) {
+              final[tuneArtistKey] = tuneArtistKey
+          }
+      })
+      // Always include composers from tunes (ABC C:) so the list stays complete
+      // even when the artist index is empty or stale.
+      Object.values(tunes || {}).forEach(function(tune) {
+          if (tune && tune.composer && String(tune.composer).trim()) {
+              var artist = String(tune.composer).trim()
+              final[artist] = artist
+          }
+      })
+      return final
+  }
+
+  function getSearchTuneArtistOptions(filter) {
+      var opts = getTuneArtistOptions()
+      var filtered = {}
+      Object.keys(opts).forEach(function(key) {
+          var val = opts[key]
+          if (val && val.indexOf(filter) !== -1) {
+              filtered[key] = val
+          }
+      })
+      return filtered
+  }
     
   function resetTuneBook() {
     pauseSheetUpdates.current = true
     setTunes({})
     indexes.resetBookIndex()
     indexes.resetTagIndex()
+    if (indexes.resetGenreIndex) indexes.resetGenreIndex()
+    if (indexes.resetArtistIndex) indexes.resetArtistIndex()
     buildTunesHash()
     saveTunesOnline()
   }
@@ -1361,10 +1724,10 @@ The main difference between the two functions is the additional condition in app
     return res
   }
   
-  function fromSearch(filter, bookFilter, tagFilter) {
+  function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter) {
     //console.log('from book',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter)
+        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter)
     })
     //console.log('to abc res',res)
     return res
@@ -1390,7 +1753,11 @@ The main difference between the two functions is the additional condition in app
         if (groupBy) {
             items.forEach(function(item,itemKey) {
                 var key = ''
-                if (Array.isArray(item[groupBy])) {
+                if (groupBy === 'tempoRange') {
+                    key = tempoRangeLabel(parseTempoBpm(item.tempo))
+                } else if (groupBy === 'isBlocked') {
+                    key = item.suitableForPractice === false ? 'Blocked' : 'Not blocked'
+                } else if (Array.isArray(item[groupBy])) {
                     //console.log('array',item[groupBy])
                     key = item[groupBy].sort().filter(function(a) { return (currentTuneBook && a != currentTuneBook)  }).join(", ")
                 } else {
@@ -1486,16 +1853,24 @@ The main difference between the two functions is the additional condition in app
     return res
   }
   
-  function filterSearch(tune, filter, bookFilter, tagFilter = []) {
+  function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = []) {
        //console.log('filterSearch',props.currentTuneBook,props.filter, props.tagFilter)
         var filterOk = false
         var bookFilterOk = false
         var tagFilterOk = false
+        var genreFilterOk = false
+        var artistFilterOk = false
         var tagFilterClean = Array.isArray(tagFilter) ? tagFilter.filter(function(t) {
             return (t) ? true : false
         }) : []
+        var genreFilterClean = Array.isArray(genreFilter) ? genreFilter.filter(function(g) {
+            return (g) ? true : false
+        }) : []
+        var artistFilterClean = Array.isArray(artistFilter) ? artistFilter.filter(function(a) {
+            return (a) ? true : false
+        }) : []
         // no filters means show tunes with NO book selected
-        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0)  ) {
+        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0) && (!genreFilter || genreFilter.length === 0) && (!artistFilter || artistFilter.length === 0)  ) {
             if (tune.books && tune.books.length > 0) {
                 return false
             } else {
@@ -1540,16 +1915,32 @@ The main difference between the two functions is the additional condition in app
                     })
                 } 
             }
+            if (!Array.isArray(genreFilterClean) || genreFilterClean.length === 0) {
+                genreFilterOk = true
+            } else if (tune && tune.genre && String(tune.genre).trim()) {
+                var tuneGenreLower = String(tune.genre).trim().toLowerCase()
+                genreFilterOk = genreFilterClean.some(function(genre) {
+                    return genre && String(genre).toLowerCase() === tuneGenreLower
+                })
+            }
+            if (!Array.isArray(artistFilterClean) || artistFilterClean.length === 0) {
+                artistFilterOk = true
+            } else if (tune && tune.composer && String(tune.composer).trim()) {
+                var tuneArtistLower = String(tune.composer).trim().toLowerCase()
+                artistFilterOk = artistFilterClean.some(function(artist) {
+                    return artist && String(artist).toLowerCase() === tuneArtistLower
+                })
+            }
             //console.log('FILTER',tune,props.filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
-            return (filterOk && bookFilterOk && tagFilterOk)
+            return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk)
         }
     }
   
-  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null) {
+  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = []) {
     if (!useTunes) useTunes = tunes
     //console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter)
+        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter)
     })
     //console.log('from search res',res)
     res = shuffle(res)
@@ -1606,52 +1997,16 @@ The main difference between the two functions is the additional condition in app
   }
   
   
-  function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null) {
-        //console.log('fisll media',book, selectedIds, filterTags)
-        var fillTunes = []
-        var selectedArray = selectedIds ? selectedIds.split(",").filter(function(v) {return (v ? true : false)}) : []
-        if (selectedArray && selectedArray.length > 0) {
-            fillTunes=mediaFromSelection(utils.uniquifyArray(selectedArray).join(",")).filter(function(tune) {
-                if (book && tune.books && tune.books.indexOf(book) !== -1) {
-                    return true
-                } else if (filterTags && filterTags.length > 0 && tune.tags) {
-                    for (var i =0; i< filterTags.length ; i++) {
-                         var tag = filterTags[i]
-                         if (tune.tags.indexOf(tag) !== -1) {
-                             return true
-                         }
-                    }
-                    return false
-                } else {
-                    if (book || (filterTags && filterTags.length > 0)) {
-                        return false
-                    } else {
-                        return true
-                    }
-                }  
-            }, mergedTunes)
-        } else { 
-            fillTunes=mediaFromSearch('',book,filterTags, mergedTunes)
-        } 
-        fillTunes = fillTunes.filter(function(tune) {
-            var hasLinks = tune  && Array.isArray(tune.links)  && tune.links.length > 0 ? true : false
-            return hasLinks
+  function fillMediaPlaylist(book = null, selectedIds = null, filterTags = null, mergedTunes = null, navigateFn, filterGenres = null, filterArtists = null) {
+        var built = buildQueueTunesFromContext(book, selectedIds, filterTags, mergedTunes, { mediaOnly: true, limit: 20, genreFilter: filterGenres, artistFilter: filterArtists })
+        if (!built.tunes.length) return null
+        var queue = createQueue({
+          tuneIds: tuneIdsFromTunes(built.tunes, 20),
+          name: built.name,
+          source: selectedIds ? 'selection' : 'filter',
         })
-        //console.log('fill media tunes',fillTunes)
-        shuffleArray(fillTunes)
-        // sort playlist by boost
-        if (Array.isArray(fillTunes)) {
-            fillTunes = fillTunes.sort(function(a,b) {
-                return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
-            })
-            //console.log('fill media tunes SET',fillTunes)
-            setMediaPlaylist({currentTune: 0, book:book, tunes:fillTunes.slice(0,20)})
-        }
-        setAbcPlaylist(null)
-        if (fillTunes.length > 0) {
-            return fillTunes[0].id
-        }
-    }
+        return startNowPlayingQueue(queue, navigateFn)
+  }
     
     //function fillMediaPlaylistFromTag(tag) {
         //console.log('fill media by tag',tag)
@@ -1690,145 +2045,109 @@ The main difference between the two functions is the additional condition in app
         }
     }
 
-    function fillAbcPlaylist(book, selected, tagFilter, navigate) {
-        //console.log('fill abc',book, selected, navigate)
-        var fillTunes = []
-        var useBook = book
-        var sel = []
-        var selectedMess = selected && selected.split ? selected.split(",") : []
-        selectedMess.forEach(function(val) {
-          if (val && val.trim().length > 0 ) sel.push(val)
+    function fillAbcPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: 30, genreFilter: filterGenres, artistFilter: filterArtists })
+        var midiTunes = built.tunes.filter(function(tune) { return hasNotesOrChords(tune) })
+        if (!midiTunes.length) return null
+        var queue = createQueue({
+          tuneIds: tuneIdsFromTunes(midiTunes, 30),
+          name: built.name,
+          source: selected ? 'selection' : 'filter',
         })
-            
-        if (sel.length > 0) {
-            sel.forEach(function(tuneKey) {
-                if (tunes[tuneKey]) fillTunes.push(tunes[tuneKey])
-            })
-            shuffleArray(fillTunes)
-            useBook = 'Selection'
-        } else {
-            fillTunes=mediaFromSearch('',book,tagFilter)  //fromBook(book)
-            shuffleArray(fillTunes)
-        }
-        //console.log('fill abxz 1',fillTunes)
-        fillTunes = fillTunes.sort(function(a,b) {
-            return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
+        queue.items = queue.items.map(function(item) {
+          return Object.assign({}, item, { prefer: 'midi' })
         })
-        fillTunes = fillTunes.filter(function(tune) {
-            var hasNotes = false
-            if (tune.voices) {
-                Object.values(tune.voices).forEach(function(voice) {
-                    if (Array.isArray(voice.notes)) {
-                        for (var i=0 ; i < voice.notes.length; i++) {
-                            if (voice.notes[i]) {
-                               if (voice.notes[i].replaceAll('z','').replaceAll('|','').split('"').filter(function(a,ak) { 
-                                   return (ak %2 ==0)
-                                }).join('').trim().length > 0  ) {
-                                    hasNotes = true
-                                }
-                            }
-                        }
-                    }
-                })
-            }  
-            return hasNotes
-        }).slice(0,30)
-        
-        
-        
-        
-        //console.log('fill abxz',useBook, fillTunes)
-        setAbcPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
-        setMediaPlaylist(null)
-        if (fillTunes.length > 0 && fillTunes[0].id) {
-            if (navigate) navigate("/tunes/"+fillTunes[0].id+"/playMidi") 
-        }
+        return startNowPlayingQueue(queue, navigateFn)
     }
     
-    function fillAnyPlaylist(book, selected, tagFilter, navigate) {
-        //console.log('fill any',book, selected, navigate)
-        var fillTunes = []
-        var useBook = book
-        var sel = []
-        var selectedMess = selected && selected.split ? selected.split(",") : []
-        selectedMess.forEach(function(val) {
-          if (val && val.trim().length > 0 ) sel.push(val)
+    function fillAnyPlaylist(book, selected, tagFilter, navigateFn, filterGenres, filterArtists) {
+        var built = buildQueueTunesFromContext(book, selected, tagFilter, null, { limit: 30, genreFilter: filterGenres, artistFilter: filterArtists })
+        if (!built.tunes.length) return null
+        var queue = createQueue({
+          tuneIds: tuneIdsFromTunes(built.tunes, 30),
+          name: built.name,
+          source: selected ? 'selection' : 'filter',
         })
-            
-        if (sel.length > 0) {
-            sel.forEach(function(tuneKey) {
-                if (tunes[tuneKey]) fillTunes.push(tunes[tuneKey])
-            })
-            shuffleArray(fillTunes)
-            useBook = 'Selection'
-        } else {
-            fillTunes=mediaFromSearch('',book,tagFilter)  //fromBook(book)
-            shuffleArray(fillTunes)
-        }
-        //console.log('fill abxz 1',fillTunes)
-        fillTunes = fillTunes.sort(function(a,b) {
-            return (a && b && a.boost && b.boost && a.boost > b.boost) ? 1 : -1
-        })
-        fillTunes = fillTunes.filter(function(tune) {
-            //var hasNotes = false
-            //if (tune.voices) {
-                //Object.values(tune.voices).forEach(function(voice) {
-                    //if (Array.isArray(voice.notes)) {
-                        //for (var i=0 ; i < voice.notes.length; i++) {
-                            //if (voice.notes[i]) {
-                               //if (voice.notes[i].replaceAll('z','').replaceAll('|','').split('"').filter(function(a,ak) { 
-                                   //return (ak %2 ==0)
-                                //}).join('').trim().length > 0  ) {
-                                    //hasNotes = true
-                                //}
-                            //}
-                        //}
-                    //}
-                //})
-            //}  
-            //console.log(hasNotesOrChords(tune),  hasLinks(tune))
-            return hasNotesOrChords(tune) || hasLinks(tune)
-        }).slice(0,30)
-        
-        
-        
-        
-        //console.log('fill any',useBook, fillTunes)
-        setMediaPlaylist({currentTune: 0, book:useBook, tunes:fillTunes})
-        setAbcPlaylist(null)
-        if (fillTunes.length > 0 && fillTunes[0].id) {
-            if (navigate) navigate("/tunes/"+fillTunes[0].id+"/playMedia") 
-        }
+        return startNowPlayingQueue(queue, navigateFn)
+    }
+
+    function clearNowPlayingQueue() {
+      setNowPlayingQueue(null)
+    }
+
+    function createQueueFromTuneIds(tuneIds, options) {
+      var opts = options || {}
+      var queue = createQueue({
+        tuneIds: tuneIds,
+        name: opts.name || 'Playlist',
+        source: opts.source || 'manual',
+        followTune: !!opts.followTune,
+      })
+      setNowPlayingQueue(queue)
+      return queue
     }
     
     function hasNotesOrChords(tune) {
         return (tune && (hasNotes(tune) || abcTools.hasChords(abcTools.getNotes(tune)))) ? true : false
     }
     
+    function getExportAbc(tune, options) {
+        if (!tune) return null
+        var opts = options || {}
+        var useTune = JSON.parse(JSON.stringify(tune))
+        if (opts.expandRepeats !== false && useTune.repeats > 1 && useTune.voices && Object.keys(useTune.voices).length > 0) {
+            var newVoices = {}
+            Object.keys(useTune.voices).map(function(vKey) {
+              newVoices[vKey] = useTune.voices[vKey]
+              var lines = Array.isArray(newVoices[vKey].notes)
+                ? newVoices[vKey].notes.slice()
+                : [String(newVoices[vKey].notes || '')]
+              var expanded = []
+              for (var repeatIndex = 0; repeatIndex < useTune.repeats; repeatIndex++) {
+                expanded = expanded.concat(lines)
+              }
+              newVoices[vKey].notes = expanded
+            })
+            useTune.voices = newVoices
+        }
+        var abc = abcTools.json2abc(useTune)
+        if (useTune.transpose !== 0) {
+            var visualObj = abcjs.renderAbc("transpose_render", abc);
+            try {
+                abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
+            } catch (e) {
+                console.log("Failed tranpose", e)
+            }
+        }
+        return abc
+    }
+
+    function getNotationExportAbc(tune) {
+        return getExportAbc(tune, { expandRepeats: false })
+    }
+
+    function getMusicXmlExportAbc(tune) {
+        if (!tune) return null
+        var useTune = JSON.parse(JSON.stringify(tune))
+        useTune.wLines = buildNotationWLines(useTune)
+        useTune.words = []
+        var abc = abcTools.json2abc(useTune)
+        if (useTune.transpose !== 0) {
+            var visualObj = abcjs.renderAbc("transpose_render", abc);
+            try {
+                abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
+            } catch (e) {
+                console.log("Failed tranpose", e)
+            }
+        }
+        return abc
+    }
+
     function getMidiData(tune, outputType="binary") {
         //console.log('getMidiData',tune)
         if (tune) {
-            var useTune = JSON.parse(JSON.stringify(tune))
-            // multiply notes to support repeats
-            if (useTune.repeats > 1 && useTune.voices && Object.keys(useTune.voices).length > 0) {
-                var newVoices = {}
-                Object.keys(useTune.voices).map(function(vKey) {
-                  newVoices[vKey] = useTune.voices[vKey]  
-                  newVoices[vKey].notes = newVoices[vKey].notes.join("\n").repeat(useTune.repeats).split("\n")
-                })
-                useTune.voices = newVoices
-            } 
-            // transpose
-            var abc = abcTools.json2abc(useTune)
-            //console.log("adddbc",abc)    
-            if (useTune.transpose !== 0) { 
-                var visualObj = abcjs.renderAbc("transpose_render", abc);
-                try {
-                    abc = abcjs.strTranspose(abc, visualObj, tune.transpose)
-                } catch (e) {
-                    console.log("Failed tranpose", e)
-                }
-            }
+            var abc = getExportAbc(tune)
+            if (!abc) return null
             var a = new Date().getTime()
             var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: outputType });
             return midi
@@ -1853,6 +2172,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

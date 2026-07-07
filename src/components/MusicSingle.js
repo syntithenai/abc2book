@@ -1,5 +1,5 @@
-import {useState, useEffect, useRef, useCallback} from 'react'
-import {Link , useParams , useNavigate, useLocation} from 'react-router-dom'
+import {useState, useEffect, useRef} from 'react'
+import {Link , useParams , useNavigate} from 'react-router-dom'
 import {Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
@@ -9,37 +9,29 @@ import TagsSelectorModal from './TagsSelectorModal'
 import ShareTunebookModal from './ShareTunebookModal'
 import {useSwipeable} from 'react-swipeable'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import YouTube from 'react-youtube';  
 import LinksEditorModal from './LinksEditorModal'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
-import PlaylistManagerModal from './PlaylistManagerModal'
 import abcjs from "abcjs";
 //import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
+import useWindowSize from '../useWindowSize'
 import TitleAndLyricsEditorModal from './TitleAndLyricsEditorModal'
 import MediaSeekSlider from '../components/MediaSeekSlider'
 import MediaPlayerMedia from '../components/MediaPlayerMedia'
-import SharePublicTuneModal from '../components/SharePublicTuneModal'
+import PDFViewer from './PDFViewer'
+import ImagesManagerModal from './ImagesManagerModal'
+import RecordingsManagerModal from './RecordingsManagerModal'  
 import RepeatsEditorModal from './RepeatsEditorModal'  
 import OpenSheetMusicDisplay from './OpenSheetMusicDisplay'
-import TimedLyricsChordsView from './TimedLyricsChordsView'
-import { normalizeViewMode, showsMusicNotation } from '../viewModeUtils'
-import { getLyricLinesForDisplay } from '../wLinesUtils'
-import { classifyLyricChordLines, hasChordLines, formatChordChartForDisplay } from '../chordSheetUtils'
-import MarkdownContent from './MarkdownContent'
-import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
-import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
-import { useIsNarrowViewport } from '../useMediaQuery'
-import useKeyPress from '../useKeyPress'
-import { toggleTunePlayback } from '../tunePlaybackActions'
-import LyricsAutoscrollModal from './LyricsAutoscrollModal'
+import useFileManager from '../useFileManager'
+import FileRenderer from './FileRenderer'
 
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
-    const location = useLocation();
-    const isNarrowViewport = useIsNarrowViewport();
-    const swipeGestureRef = useRef({ dx: 0, dy: 0 });
+    var windowSize = useWindowSize()
     const audioPlayer = useRef(); 
     
     //var youtubeProgressInterval = useRef()
@@ -60,64 +52,55 @@ export default function MusicSingle(props) {
     const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
     
+    var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
+	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
+	var allowedAudioMimeTypes = ['audio/*']
+	var recordingsManager = useFileManager('recordings',props.token ? props.token : null, props.logout, tune, allowedAudioMimeTypes)
+	
+	//const [files, setFiles] = useState([])
+	//const [recordings, setRecordings] = useState([])
+
+	//function forceFileRefresh(t) {
+		//console.log("FORCE FILE REFRESH",t)
+		//fileManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
+			//console.log("searchres files",t,res)
+			//setFiles(res)
+		//})
+		//recordingsManager.search(null,t && t.id ? t.id : null,false).then(function(res) {
+			//console.log("searchres recs",t,res)
+			//setRecordings(res)
+		//})
+	//}
+
     useEffect(function() {
 		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
         //console.log('single change', params.tuneId, t, props.tunes)
         if (t) {
+			//if (t && t.id && Array.isArray(t.files)) console.log('FILES',t.files)
+            //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
+            //console.log("HACK TUNE TEMPO", t.tempo)
             setTune(t)
-            props.mediaController.setTune(t)
+            //forceFileRefresh(t)
         }
-        setMusicStaffWidth(null)
         
-    },[params.tuneId, props.tunes, props.mediaController])
-
-    const handlePlaybackShortcut = useCallback(function(event) {
-        if (props.blockKeyboardShortcuts) return
-        const handled = toggleTunePlayback(props.mediaController, props.tunebook, navigate, location)
-        if (handled) event.preventDefault()
-    }, [props.blockKeyboardShortcuts, props.mediaController, props.tunebook, navigate, location])
-
-    useKeyPress([' '], handlePlaybackShortcut)
-
-    useEffect(function() {
-        setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
-        return function() {
-            setDocumentTitle(DEFAULT_APP_TITLE)
-        }
-    }, [tune])
-
+    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed])
+    
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
     const [zoomChords, setZoomChords] = useState(!props.tunebook.hasLyrics(tune))
     const [chordViewMode, setChordViewMode] = useState('transposed')
-    // Non-persistent abcjs staff width for the music view. null = abcjs default (~740px).
-    // Larger staff width packs more bars per line so the music renders skinnier and
-    // more lines of music fit on the page. Intentionally not saved to the tune.
-    const [musicStaffWidth, setMusicStaffWidth] = useState(null)
     
     //let abc = '' //props.tunebook.abcTools.settingFromTune(tune).abc
     const handlers = useSwipeable({
-        delta: 50,
-        trackMouse: false,
-        preventScrollOnSwipe: false,
-        swipeDuration: 500,
-        touchEventOptions: { passive: true },
-        onSwiping: function(eventData) {
-            swipeGestureRef.current = { dx: eventData.deltaX, dy: eventData.deltaY };
-        },
-        onSwipedRight: function() {
-            const g = swipeGestureRef.current;
-            if (!tune || !tune.id) return;
-            if (Math.abs(g.dx) < Math.abs(g.dy) * 1.5) return;
-            props.tunebook.navigateToPreviousSong(tune.id, navigate);
-        },
-        onSwipedLeft: function() {
-            const g = swipeGestureRef.current;
-            if (!tune || !tune.id) return;
-            if (Math.abs(g.dx) < Math.abs(g.dy) * 1.5) return;
-            props.tunebook.navigateToNextSong(tune.id, navigate);
-        },
-    });
+        delta:300,
+        trackMouse: false,    
+      onSwipedRight: (eventData) => {
+          props.tunebook.navigateToPreviousSong(tune.id, navigate)
+      },
+      onSwipedLeft: (eventData) => {
+          props.tunebook.navigateToNextSong(tune.id, navigate)
+      }
+    });  
     
     
     
@@ -166,14 +149,15 @@ export default function MusicSingle(props) {
         setZoomChords(!props.tunebook.hasLyrics(tune))
         //console.log('setuptune',tune)
         if (tune) {
-           const hasTimedAlignment = tune.timedLyrics && tune.timedChords
-           if (tune.viewMode) {
-               props.setViewMode(normalizeViewMode(tune.viewMode))
-           } else if (!props.tunebook.hasNotesOrChords(tune))  {
-               props.setViewMode(hasTimedAlignment ? 'chordsInline' : 'chordsBlock')
+           // just lyrics
+           if (!props.tunebook.hasNotesOrChords(tune))  {
+               props.setViewMode('chords')
+           // lyrics but no notes
            } else if (props.tunebook.hasLyrics(tune) && !props.tunebook.hasNotes(tune))  {
-               props.setViewMode(hasTimedAlignment ? 'chordsInline' : 'chordsBlock')
-           } else if (!props.tunebook.hasLyrics(tune) && props.tunebook.hasNotes(tune))  {
+               props.setViewMode('chords')
+           }
+           // has music but no words
+           if (!props.tunebook.hasLyrics(tune) && props.tunebook.hasNotes(tune))  {
                props.setViewMode('music')
            }
            //props.tunebook.utils.scrollTo('topofpage')
@@ -221,8 +205,15 @@ export default function MusicSingle(props) {
     useEffect(function() {
         setZoomChords(false)
         setupTune()
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- setupTune reads params.tuneId and props.tunes
-    },[params.tuneId, props.tunes])
+    },[params.tuneId,props.tunes])  //, params.mediaLinkNumber, params.playState
+
+    useEffect(function() {
+        setZoomChords(false)
+        setupTune()
+        //return function() {
+            //props.mediaController.setTune(null)
+        //}
+    },[])
 
     function getTempo() {
         // use page tempo that has been updated from tune
@@ -232,21 +223,30 @@ export default function MusicSingle(props) {
         return tempo
     }
     
-    const lastScrollTopRef = useRef(0);
+    let lastScrollTop = 0;
 	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
 	useEffect(() => {
+		//console.log('scroll init')
 		const handleScroll = (e) => {
+			//console.log('scroll e')
+			//console.log('scrolld e',e, e.currentTarget, e.target)
 				const currentScrollTop = window.scrollY;
-				if (currentScrollTop > lastScrollTopRef.current) {
+				if (currentScrollTop > lastScrollTop) {
+				  // Scrolling down
+				  //console.log('Scrolling down',window.scrollY);
 				  setFixedSingleMenu(false)
 				} else {
+				  // Scrolling up
+				  //console.log('Scrolling up',window.scrollY);
 				  if (currentScrollTop > 100) {
 					  setFixedSingleMenu(true)
+					  //setTimeout(function() { setFixedSingleMenu(false) }, 5000)
 				  } else {
 					  setFixedSingleMenu(false)
 				  }
 				}
-				lastScrollTopRef.current = currentScrollTop;
+				
+				lastScrollTop = currentScrollTop;
 		};
 
 		window.addEventListener("scroll", handleScroll);
@@ -262,9 +262,8 @@ export default function MusicSingle(props) {
         
     if (tune) {
         var current = 0
-        var lyricLines = getLyricLinesForDisplay(tune)
-        if (lyricLines.length > 0) {
-            lyricLines.forEach(function(line) {
+        if (Array.isArray(tune.words)) {
+            tune.words.forEach(function(line) {
               if (line && line.trim().length > 0) {
                   if (!Array.isArray(words[current])) words[current] = []
                   words[current].push(line)
@@ -282,37 +281,14 @@ export default function MusicSingle(props) {
         //var [a,b,chordsArray,c] = parsed
         var chordTranspose = (Number(tune.transpose) || 0) + (chordViewMode === 'capo' ? (Number(tune.capo) || 0) : 0)
         var hasCapo = Number(tune.capo) > 0
-        var normalizedViewMode = normalizeViewMode(props.viewMode)
-        var isMusicView = normalizedViewMode === 'music'
-        var isMusicAndLyricsView = normalizedViewMode === 'musicAndLyrics'
-        var isChordBlockView = normalizedViewMode === 'chordsBlock'
-        var isChordInlineView = normalizedViewMode === 'chordsInline'
-        var isInfoView = normalizedViewMode === 'info'
-        var isChordLayout = isChordBlockView || isChordInlineView
-        var showNotation = showsMusicNotation(normalizedViewMode)
-        var displayAbc = showNotation
-          ? buildAbcWithNoteSpacing(tune, props.tunebook.abcTools, { includeLyrics: isMusicAndLyricsView })
-          : props.tunebook.abcTools.json2abc(tune)
-        var staffDisplayAbc = showNotation
-          ? displayAbc.split('\n').filter(function(line) { return !line.startsWith('B:'); }).join('\n')
-          : displayAbc
-        var plainLyricLines = getLyricLinesForDisplay(tune)
-        var isLyricChordSheet = hasChordLines(plainLyricLines)
-        var lyricsVisibleInView = plainLyricLines.length > 0 && (isChordLayout || isMusicAndLyricsView)
-        var chords = formatChordChartForDisplay(abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter))
-        var chordsWithDots = formatChordChartForDisplay(abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), true, chordTranspose, tune.key, tune.noteLength, tune.meter))
-        var uniqueChords = {}
+        var chords = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
+        var chordsWithDots = abcjsParser.renderChords(props.tunebook.abcTools.emptyABC(tune.name)  + firstVoice.notes.join("\n"), false, chordTranspose, tune.key, tune.noteLength, tune.meter)
+        
+        //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
+        var uniqueChords={}
         chords.replaceAll("|",' ').split(' ').forEach(function(chord) {
             if (chord.trim().length > 0) uniqueChords[chord.trim()] = true
         })
-        if (isLyricChordSheet) {
-            classifyLyricChordLines(plainLyricLines).forEach(function(item) {
-                if (item.type !== 'chord') return
-                String(item.text || '').trim().split(/\s+/).forEach(function(chord) {
-                    if (chord.trim().length > 0) uniqueChords[chord.trim()] = true
-                })
-            })
-        }
         
         function getYouTubeId(url) {
             const arr = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -341,9 +317,6 @@ export default function MusicSingle(props) {
         }
         
         function onEnded(progress, start, stop,seek) {
-            if (props.mediaController.invokePracticeSessionHandler && props.mediaController.invokePracticeSessionHandler()) {
-                return
-            }
             if (props.mediaPlaylist || props.abcPlaylist) {
                 nextLinkOrTune()
             }
@@ -383,25 +356,6 @@ export default function MusicSingle(props) {
             props.tunebook.saveTune(tune)
         }
         
-        var MUSIC_STAFF_WIDTH_DEFAULT = 740
-        var MUSIC_STAFF_WIDTH_STEP = 120
-        var MUSIC_STAFF_WIDTH_MIN = 300
-        var MUSIC_STAFF_WIDTH_MAX = 2200
-        // Bigger music: fewer bars per line. Narrower staff width.
-        function musicZoomIn() {
-            setMusicStaffWidth(function(w) {
-                var cur = w || MUSIC_STAFF_WIDTH_DEFAULT
-                return Math.max(MUSIC_STAFF_WIDTH_MIN, cur - MUSIC_STAFF_WIDTH_STEP)
-            })
-        }
-        // Skinnier music: more bars per line, so more lines of music fit on the page.
-        function musicZoomOut() {
-            setMusicStaffWidth(function(w) {
-                var cur = w || MUSIC_STAFF_WIDTH_DEFAULT
-                return Math.min(MUSIC_STAFF_WIDTH_MAX, cur + MUSIC_STAFF_WIDTH_STEP)
-            })
-        }
-        
          
         
         
@@ -409,210 +363,109 @@ export default function MusicSingle(props) {
         var abc = props.tunebook.abcTools.json2abc(tune)        
         var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
         //console.log('uniq',uniqueChords)
-        var chordPanelTop = zoomChords
-            ? '0em'
-            : (props.mediaController.duration > 0 ? '10.5em' : '7.4em')
-        var fullLyricsPanel = plainLyricLines.length > 0 ? (
-          isLyricChordSheet
-            ? <TimedLyricsChordsView tune={tune} tunebook={props.tunebook} />
-            : <div className="full-lyrics-panel" style={{ fontSize: (tune && tune.zoom > 0 ? tune.zoom : 1) * 100 + '%' }}>
-              {plainLyricLines.map(function(line, index) {
-                if (!line || String(line).trim().length === 0) {
-                  return <div key={index} className="lyrics-line-spacer" style={{ height: '0.6em' }} />;
-                }
-                return <div key={index} className="lyrics-line" style={{ marginBottom: '0.35em' }}>{line}</div>;
-              })}
-            </div>
-        ) : null
-        function openFormattedPrint() {
-            navigate('/print', { state: { tuneIds: [tune.id] } });
-        }
-
-        var abcContainerId = 'abccontainer-' + (autoStart ? 'Y' : 'N') + '-' + (localStorage.getItem('bookstorage_autoprime') === 'true' ? 'Y' : 'N')
-        var abcPlayer = (
-          <div id={abcContainerId}>
-            <Abc key={tune.id + '-' + (autoStart ? 'auto' : 'manual')} showRepeats={true} warp={1} staffwidth={musicStaffWidth} onStarted={function() {if (props.mediaController.confirmPlayingStarted) props.mediaController.confirmPlayingStarted()}} mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={autoStart} autoPrime={true} autoScroll={showNotation} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true} tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook} abc={staffDisplayAbc} meter={tune.meter} onEnded={onEnded} hideSvg={false} hidePlayer={true} />
-          </div>
-        )
-        var tuneInfoSection = (Array.isArray(tune.books) && tune.books.length > 0) || (Array.isArray(tune.tags) && tune.tags.length > 0) ? (
-          <div className="music-tune-info-section">
-            {Array.isArray(tune.books) && tune.books.map(function(book, index) {
-              return <div key={'book-' + index} className="music-tune-info-line">Book: {book}</div>;
-            })}
-            {Array.isArray(tune.tags) && tune.tags.length > 0 && (
-              <div className="music-tune-info-line">Tags: {tune.tags.join(', ')}</div>
-            )}
-          </div>
-        ) : null
-        var backgroundInfoText = tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : ''
-        var backgroundInfoPanel = isInfoView ? (
-          <div className="tune-background-info-view" style={{ padding: '1em 1.2em', maxWidth: '48em' }}>
-            <div className="title" style={{ marginBottom: '1em' }}>
-              <TitleAndLyricsEditorModal
-                tunebook={props.tunebook}
-                tune={tune}
-              token={props.token}
-              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            />
-              {tune.composer && <span> - {tune.composer}</span>}
-            </div>
-            {backgroundInfoText ? (
-              <MarkdownContent text={backgroundInfoText} />
-            ) : (
-              <div style={{ color: '#666' }}>
-                No background information yet — use the editor Info tab to add some.
-              </div>
-            )}
-          </div>
-        ) : null
-        var practiceHidesVisibleUi = props.practiceSession
-          && props.practiceSession.sessionOpen
-          && props.practiceSession.phase === 'tune'
-          && props.practiceSession.currentStep
-          && props.practiceSession.currentStep.type === 'tune'
-          && props.practiceSession.currentStep.tuneId === params.tuneId
-        var tuneMetaControls = (
-          <>
-            <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />
-            <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} />
-            <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-            <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} onChange={
-              function(links) {
-                if (tune) {
-                  tune.links = links
-                  props.tunebook.saveTune(tune)
-                }
-              }
-            } />
-          </>
-        )
-        return <div className={'music-single' + (practiceHidesVisibleUi ? ' music-single-practice-playback-only' : '')} style={practiceHidesVisibleUi ? undefined : {border:'1px solid black'}} {...handlers} >
+        return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
 			
         
-            <div className={'music-buttons' + (fixedSingleMenu ? ' music-buttons-fixed' : '')}>
-              <div className="music-buttons-inner">
-                <div className="music-buttons-col music-buttons-col-left">
-                <Dropdown as={ButtonGroup} drop={isNarrowViewport ? 'up' : 'down'}>
-                      <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" className="music-actions-dropdown-toggle" aria-label="Tune actions">
-                        <span aria-hidden="true">{props.tunebook.icons.dropdown}</span>
+            <div className='music-buttons' style={!fixedSingleMenu ? {backgroundColor: '#80808033', width: '100%',height: windowSize[0] > 500 ? '3em' : '6em', padding:'0.1em', textAlign:'center'} : {zIndex:9999, position:'fixed', top: '4.2em', backgroundColor: '#80808033', width: '100%',height: '3em', padding:'0.1em', textAlign:'center'}}  >
+                  <span style={{float:'right', marginLeft:'0.3em'}} ><ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {props.setViewMode(val)}} /></span>
+                 
+                 {props.viewMode === 'chords' && <>
+                 <Button onClick={zoomIn} style={{float:'right', marginLeft:'0.3em'}} >{props.tunebook.icons.zoomin}</Button>
+                 <Button onClick={zoomOut} style={{float:'right', marginLeft:'0.3em'}} >{props.tunebook.icons.zoomout}</Button>
+                  </>}
+                <ButtonGroup style={{float:'left', marginLeft:'0.1em'}}>
+                 <Dropdown >
+                      <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" style={{height:'2.4em'}}>
                       </Dropdown.Toggle>
 
-                      <Dropdown.Menu className="music-actions-dropdown-menu">
-                        <div className="music-actions-dropdown-cols">
-                          <div className="music-actions-dropdown-actions">
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <Button as={Link} to={'/editor/'+params.tuneId} variant="outline-primary" className="music-actions-menu-btn">
-                                {props.tunebook.icons.pencil} Edit
-                              </Button>
-                            </Dropdown.Item>
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <Button variant="outline-danger" className="music-actions-menu-btn" onClick={function() { if (window.confirm('Do you really want to delete this tune ?')) { props.tunebook.deleteTune(tune.id) }; navigate('/tunes') }}>
-                                {props.tunebook.icons.bin} Delete
-                              </Button>
-                            </Dropdown.Item>
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <Button variant="outline-secondary" className="music-actions-menu-btn" onClick={openFormattedPrint}>
-                                {props.tunebook.icons.printer} Print (formatted)
-                              </Button>
-                            </Dropdown.Item>
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <Button variant="outline-secondary" className="music-actions-menu-btn" onClick={function() { props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc', props.tunebook.abcTools.json2abc(tune).trim()) }}>
-                                {props.tunebook.icons.save} Download ABC
-                              </Button>
-                            </Dropdown.Item>
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <Button id="midi-download-button" variant="outline-secondary" className="music-actions-menu-btn" onClick={downloadMidi}>
-                                {props.tunebook.icons.midi} Download MIDI
-                              </Button>
-                            </Dropdown.Item>
-                            <Dropdown.Item as="div" className="music-actions-dropdown-cell">
-                              <SharePublicTuneModal tunebook={props.tunebook} token={props.token} tune={tune} buttonClassName="music-actions-menu-btn" />
-                            </Dropdown.Item>
-                          </div>
-                          {isNarrowViewport && (
-                          <div className="music-actions-dropdown-col music-actions-dropdown-col-meta">
-                            {tuneMetaControls}
-                          </div>
-                          )}
-                        </div>
+                      <Dropdown.Menu>
+						<Dropdown.Item><Link to={'/editor/'+params.tuneId}><Button className='btn-warning' >{props.tunebook.icons.pencil} Edit</Button></Link></Dropdown.Item>
+                        <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><Button variant="danger" className='btn-secondary' onClick={function(e) {if (window.confirm('Do you really want to delete this tune ?')) {props.tunebook.deleteTune(tune.id)}; navigate('/tunes') }} >{props.tunebook.icons.bin} Delete</Button></span></Dropdown.Item>
+                        
+                        <Dropdown.Item><Button className='btn-primary'  onClick={window.print} >{props.tunebook.icons.printer} Print</Button></Dropdown.Item>
+                        
+                         <Dropdown.Item ><Button className='btn-success' style={{float:'left'}} onClick={function() {props.tunebook.utils.download((tune.name ? tune.name.trim() : 'tune') + '.abc',props.tunebook.abcTools.json2abc(tune).trim())}} >{props.tunebook.icons.save} Download ABC</Button></Dropdown.Item>
+                        
+                         <Dropdown.Item ><Button id={'midi-download-button'} className='btn-success' style={{float:'left'}} onClick={downloadMidi} >{props.tunebook.icons.midi}  Download MIDI</Button></Dropdown.Item>
+                        
+                         <Dropdown.Item><span style={{marginLeft:'0.1em', float:'left'}} ><ShareTunebookModal tunebook={props.tunebook} token={props.token} login={props.login} googleDocumentId={props.googleDocumentId} shareKind="tune" tuneId={tune.id} tuneName={tune.name} tunes={props.tunes} saveTune={props.tunebook.saveTune} /></span></Dropdown.Item>
+                         
+                         
+                        
+                        
+               
+                        
                       </Dropdown.Menu>
                     </Dropdown>
-                </div>
-
-                {!isNarrowViewport && (
-                <div className="music-buttons-col music-buttons-col-meta music-tune-meta-inline">
-                  <ButtonGroup className="music-tune-meta-group">
-                    {tuneMetaControls}
-                  </ButtonGroup>
-                </div>
-                )}
-
-                <div className="music-buttons-col music-buttons-col-right">
-                  {isChordLayout && <>
-                 {hasCapo && <Button
-                            variant={chordViewMode === 'capo' ? 'primary' : 'outline-primary'}
-                            size="sm"
-                            className="music-toolbar-btn music-capo-toggle-btn"
-                            aria-pressed={chordViewMode === 'capo'}
-                            aria-label={'Capo ' + tune.capo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
-                            onClick={function() {setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')}}>
-                            Capo {tune.capo}
-                        </Button>}
-                 <Button onClick={zoomIn} className="music-toolbar-btn" aria-label="Zoom in">{props.tunebook.icons.zoomin}</Button>
-                 <Button onClick={zoomOut} className="music-toolbar-btn" aria-label="Zoom out">{props.tunebook.icons.zoomout}</Button>
-                  </>}
-                 {(isMusicView || isMusicAndLyricsView) && <>
-                 <Button onClick={musicZoomIn} className="music-toolbar-btn" aria-label="Zoom in music">{props.tunebook.icons.zoomin}</Button>
-                 <Button onClick={musicZoomOut} className="music-toolbar-btn" aria-label="Zoom out music">{props.tunebook.icons.zoomout}</Button>
-                  </>}
-                  {lyricsVisibleInView && !practiceHidesVisibleUi && (
-                    <LyricsAutoscrollModal
-                      tune={tune}
-                      tunebook={props.tunebook}
-                      mediaController={props.mediaController}
-                      mediaLinkNumber={mediaLinkNumber}
-                      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                    />
-                  )}
-                  <ViewModeSelectorModal viewMode={props.viewMode} tunebook={props.tunebook}  onChange={function(val) {
-                    const mode = normalizeViewMode(val)
-                    props.setViewMode(mode)
-                    tune.viewMode = mode
-                    tune.id = params.tuneId
-                    props.tunebook.saveTune(tune)
-                  }} />
-                </div>
-              </div>
+                    
+                       
+                 </ButtonGroup>   
+                
+                
+               
+               
+                
+                
+                <ButtonGroup style={{float:'left', marginLeft:'0.3em', paddingLeft:'0em', paddingRight:'0.2em', backgroundColor:'#a29cad', paddingTop:'0.2em',paddingBottom:'0.2em' }} >
+					<span style={{float:'left', marginLeft:'0.1em'}} >
+					
+					 <span style={{float:'left'}}><BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} /></span  >
+					 
+					<BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } /></span>
+					
+					<span style={{float:'left', marginLeft:'0.1em'}} ><TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) {  ;tune.tags = val; props.tunebook.saveTune(tune);} } /></span>
+				</ButtonGroup>
+                
+                <ButtonToolbar
+                    className="" style={{float:'left'}}
+                  >
+					<ButtonGroup style={{marginLeft:'0.3em', paddingLeft:'0em', paddingRight:'0.2em', backgroundColor:'#a29cad', paddingTop:'0.2em',paddingBottom:'0.2em' }} >
+						
+						{<span style={{float:'left', marginLeft:'0.1em'}} >
+						<LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook}  tune={tune}  onChange={
+								function(links) { 
+									if (tune) {
+										tune.links = links
+										props.tunebook.saveTune(tune)
+										//console.log("FR")
+										//props.forceRefresh()
+									}
+								}    
+							} />
+						</span>}
+					</ButtonGroup>
+                </ButtonToolbar>
+                
+               
             </div>
-             {props.mediaController.duration > 0 && <MediaSeekSlider mediaController={props.mediaController} />}
+            {(fileManager && Array.isArray(fileManager.filtered) && fileManager.filtered.length > 0 ) && <div style={{textAlign:'center'}} >
+				<b style={{fontSize:'2em'}}>{tune.name}</b>
+				{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
+			</div>}
+			
+             {(props.mediaController.mediaLinkNumber != null) && <MediaSeekSlider  mediaController={props.mediaController} />}
+             {(fileManager && Array.isArray(fileManager.filtered))  && fileManager.filtered.map(function(file, fk) {
+				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
+			 })}
              
 				  
               
-             {isChordLayout && <>
+             {props.viewMode === 'chords' && <>
                 {!zoomChords && <div style={{border:'1px solid black'}}>
                      <div className="title" style={{ marginTop:'0.25em',marginBottom:'1em', width:'55%', paddingLeft:'0.3em'}} >
                         {Object.keys(words).length > 0  && <Button style={{marginRight:'1em'}}  onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
-                        <TitleAndLyricsEditorModal
-                          tunebook={props.tunebook}
-                          tune={tune}
-                          token={props.token}
-                          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        />
+                        <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
                         {tune.composer && <span> - {tune.composer}</span>}
                      </div>
-
-                     {(isChordInlineView || (isChordBlockView && isLyricChordSheet && !squashLyrics)) && (
-                       <TimedLyricsChordsView tune={tune} tunebook={props.tunebook} chordTranspose={chordTranspose} />
-                     )}
                      
-                     {isChordBlockView && !isLyricChordSheet && (!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ fontSize:(tune && tune.zoom > 0 ? tune.zoom : 1) * 100+"%" , width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
+                     {(!squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ fontSize:(tune && tune.zoom > 0 ? tune.zoom : 1) * 100+"%" , width:'55%', paddingLeft:'0.3em' ,marginTop:'1em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >{words[key].map(function(line,lk) {
                                     return <div key={lk} className="lyrics-line" >{line}</div>
                                 })}</div>
                         })}
                      </div>}
-                     {isChordBlockView && !isLyricChordSheet && (squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
+                     {(squashLyrics && Object.keys(words).length > 0) && <div className="lyrics" style={{ width:'55%', paddingLeft:'0.3em' ,marginTop:'2.5em'}} >
                         {Object.keys(words).map(function(key) {
                             return <div  key={key} className="lyrics-block" style={{paddingTop:'1em',paddingBottom:'1em', pageBreakInside:'avoid'}} >
                                     <div  className="lyrics-line" >{words[key][0]}</div>
@@ -628,22 +481,27 @@ export default function MusicSingle(props) {
                      </div>}
                 </div>  }
       
-                 {isChordBlockView && (Object.keys(uniqueChords).length > 0) && <div className={'chord-diagram-panel' + (zoomChords === true ? ' chord-diagram-panel-expanded' : '')} style={{ top: chordPanelTop }} >
-                    {!(zoomChords === true) && <Button style={{color:'white'}} aria-label="Expand chord diagrams" aria-expanded={false} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
-                    {(zoomChords === true) && <Button style={{color:'white'}} aria-label="Collapse chord diagrams" aria-expanded={true} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
+                 {(Object.keys(uniqueChords).length > 0) && <div style={{position:(zoomChords === true ? 'relative' : 'fixed'), fontSize:'1.1em', width: (zoomChords === true ? '100%' : '40%'),  right:'0.1em', top : (zoomChords ? '0em' : '7.4em'), bottom:'0%', zIndex: 999, backgroundColor: 'white', minHeight:'800px' }} >
+                    <div style={{padding:'0.3em 0.4em', borderBottom:'1px solid #ddd'}}>
+                      <span style={{fontWeight:'600'}}>Chord view</span>
+                    </div>
+                    {!(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(true)}} >{props.tunebook.icons.arrowlefts}</Button>}
+                    {(zoomChords === true) && <Button style={{color:'white'}} onClick={function() {setZoomChords(false)}} >{props.tunebook.icons.arrowrights}</Button>}
                     <span>
                         {Object.keys(uniqueChords).map(function(chord) {
                             var chordLetter = chord
                             var chordType = ''
                             return <Link to={"/chords/"+useInstrument+"/"+chordLetter+"/"+chordType} ><Button>{chord}</Button></Link>
                         })}
+                        {hasCapo && <Button
+                            variant={chordViewMode === 'capo' ? 'primary' : 'outline-primary'}
+                            size="sm"
+                            style={{float:'right', marginLeft:'0.35em'}}
+                            onClick={function() {setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')}}>
+                            Capo {tune.capo}
+                        </Button>}
                         </span>
-                        {zoomChords && <TitleAndLyricsEditorModal
-                          tunebook={props.tunebook}
-                          tune={tune}
-              token={props.token}
-              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            />} 
+                        {zoomChords && <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />} 
                     <div style={{ overflowY:'scroll', height:'100%'}} >
                         <pre style={{ fontWeight:'bold', fontSize:(zoomChords === true ? '2.5em' : '') ,border:'1px solid black', borderRadius:'5px',marginTop:'1em', padding:'0.3em', lineHeight:'2em'}} >{(zoomChords ? chordsWithDots : chords)}</pre>
                         <br/><br/><br/>
@@ -652,47 +510,13 @@ export default function MusicSingle(props) {
              </>}
              
              
-             {isInfoView && backgroundInfoPanel}
-
-             {isMusicView ? (
-               <div>
-                 {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{ clear: 'both', width: '100%', height: '3em' }} />}
-                 <div className="music-notation-section">
-                   {abcPlayer}
-                 </div>
-                 {tuneInfoSection && <>
-                   <hr className="music-page-divider" />
-                   {tuneInfoSection}
-                 </>}
-               </div>
-             ) : (
-             <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
+             {<div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                  {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{  clear:'both',  width:'100%', height:'3em'}} ></div>}
-                 {isMusicAndLyricsView && plainLyricLines.length > 0 ? (
-                   <div className="music-and-lyrics-split">
-                     <div className="music-and-lyrics-notation">
-                       {abcPlayer}
-                     </div>
-                     <div className="music-and-lyrics-text">
-                       <div className="title" style={{ marginBottom: '1em' }}>
-                         <TitleAndLyricsEditorModal
-                           tunebook={props.tunebook}
-                           tune={tune}
-              token={props.token}
-              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-            />
-                         {tune.composer && <span> - {tune.composer}</span>}
-                       </div>
-                       {fullLyricsPanel}
-                     </div>
-                   </div>
-                 ) : (
-                   <div style={!showNotation ? {position: 'relative', top: 2000} : {}}>
-                     {abcPlayer}
-                   </div>
-                 )}
-             </div>
-             )}
+                 <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}  style={props.viewMode !== 'music' ? {position: 'relative', top: 2000} : {}}>
+                    {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={props.viewMode === 'music'} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={tune.repeats > 0 ? tune.repeats : 1 } tunebook={props.tunebook}  abc={props.tunebook.abcTools.json2abc(tune)}  meter={tune.meter}  onEnded={onEnded} hideSvg={false} hidePlayer={true} />}
+                  </div>
+             </div>}
              
              
              

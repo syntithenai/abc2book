@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
 import LinksEditor from './LinksEditor'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
@@ -9,14 +9,34 @@ export default function LinksEditorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
   var [links, setLinks] = useState(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
-  
-  
+  // Freeze the tune for the whole edit session so navigation while the modal is
+  // open cannot apply these links to a different tune on close (or via auto-scan).
+  const [editingTune, setEditingTune] = useState(null)
+  const linksRef = useRef(links)
+  linksRef.current = links
+
+
   const handleClose = () => {
       setShow(false);
-      onChange(JSON.parse(links)) 
+      const targetTune = editingTune
+      const targetId = targetTune && targetTune.id
+      setEditingTune(null)
+      if (!targetId || !onChange) return
+      try {
+        onChange(JSON.parse(linksRef.current), targetId)
+      } catch (e) {
+        // ignore invalid links JSON
+      }
   }
   const handleShow = () => {
-      setLinks(props.tune && Array.isArray(props.tune.links) ? JSON.stringify(props.tune.links) : '[]')
+      const t = props.tune
+      const snapshot = t
+        ? Object.assign({}, t, {
+            links: Array.isArray(t.links) ? t.links.map(function(link) { return Object.assign({}, link) }) : [],
+          })
+        : null
+      setEditingTune(snapshot)
+      setLinks(snapshot && Array.isArray(snapshot.links) ? JSON.stringify(snapshot.links) : '[]')
       setShow(true);
   }
 
@@ -33,20 +53,46 @@ export default function LinksEditorModal(props) {
       }
   },[props.tune, show])
 
+  const activeTune = show && editingTune ? editingTune : tune
+  const linkCount = (function() {
+    try {
+      return JSON.parse(links).length
+    } catch (e) {
+      return 0
+    }
+  })()
+
   return (
     <>
         
-      <Button className="tune-meta-modal-btn" aria-label="Media links" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="warning" onClick={handleShow}><span aria-hidden="true" style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}}>{tunebook.icons.link} </span><Badge size="sm" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{JSON.parse(links).length}</Badge></Button>
+      <Button className="tune-meta-modal-btn" aria-label="Media links" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="warning" onClick={handleShow}><span aria-hidden="true" style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}}>{tunebook.icons.link} </span><Badge size="sm" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{linkCount}</Badge></Button>
 
-      <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        size="xl"
+        dialogClassName="links-editor-modal-dialog"
+        {...responsiveModalProps}
+      >
         <Modal.Header closeButton>
-          <Modal.Title>Links</Modal.Title>
+          <Modal.Title>Links{activeTune && activeTune.name ? ' — ' + activeTune.name : ''}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <div  >
-                <LinksEditor mediaController={props.mediaController} onChange={function(links) {
-                        setLinks(JSON.stringify(links))
-                    }}  tunebook={tunebook} links={JSON.parse(links)} tune={tune} handleClose={handleClose} />
+                <LinksEditor
+                    isOpen={show}
+                    mediaController={props.mediaController}
+                    onChange={function(nextLinks) {
+                        setLinks(JSON.stringify(nextLinks))
+                    }}
+                    tunebook={tunebook}
+                    links={JSON.parse(links)}
+                    tune={activeTune}
+                    tuneId={activeTune && activeTune.id}
+                    handleClose={handleClose}
+                    token={props.token}
+                    forceRefresh={props.forceRefresh}
+                />
             </div>
          
         </Modal.Body>

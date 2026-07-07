@@ -12,6 +12,7 @@ services:
       args:
         MELODY_TORCH_INDEX: ${MELODY_TORCH_INDEX:-https://download.pytorch.org/whl/cu121}
         MELODY_PREFETCH_DEVICE: cuda
+        VISION_PREFETCH_DEVICE: gpu
     container_name: abc2book-local-resolver-gpu
     profiles: ["gpu"]
     ports:
@@ -28,6 +29,11 @@ services:
       WHISPER_CPU_FALLBACK: "true"
       MELODY_BACKEND_PREFERENCE: gpu
       MELODY_SOURCE_SEPARATION: auto
+      VISION_VENV_PYTHON: /opt/vision-venv/bin/python
+      VISION_CACHE_ROOT: /opt/vision-cache
+      PADDLE_PDX_CACHE_HOME: /opt/vision-cache
+      FLAGS_enable_pir_api: "0"
+      PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK: "True"
       NVIDIA_VISIBLE_DEVICES: all
     devices:
       - /dev/dri:/dev/dri
@@ -40,5 +46,5 @@ services:
               capabilities: [gpu]
     volumes:
       - ./secrets:/app/secrets:ro
-      - "/home/stever/projects/whisper models:/models:ro"
+      - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
     restart: unless-stopped

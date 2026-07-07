@@ -1,12 +1,25 @@
 export const PRACTICE_SETTINGS_STORAGE_KEY = 'bookstorage_practice_settings'
 
+export const PRACTICE_INSTRUMENTS = [
+  { id: 'violin', label: 'Violin' },
+  { id: 'viola', label: 'Viola' },
+  { id: 'cello', label: 'Cello' },
+  { id: 'mandolin', label: 'Mandolin' },
+  { id: 'flute', label: 'Flute' },
+  { id: 'piano', label: 'Piano' },
+  { id: 'guitar', label: 'Guitar' },
+  { id: 'voice', label: 'Voice' },
+]
+
 export const DEFAULT_PRACTICE_SETTINGS = {
+  instrument: 'mandolin',
   totalMinutes: 10,
   includeWarmups: true,
   skillLevel: 5,
 }
 
 const DURATION_OPTIONS = [5, 10, 20]
+const PRACTICE_INSTRUMENT_IDS = PRACTICE_INSTRUMENTS.map(function(item) { return item.id })
 
 function clampSkillLevel(value) {
   const n = Math.round(Number(value))
@@ -20,12 +33,52 @@ function normalizeDuration(value) {
   return DEFAULT_PRACTICE_SETTINGS.totalMinutes
 }
 
+const LEGACY_PRACTICE_INSTRUMENTS = {
+  fiddle: 'violin',
+}
+
+export function normalizePracticeInstrument(value) {
+  let id = value != null ? String(value).trim().toLowerCase() : ''
+  if (LEGACY_PRACTICE_INSTRUMENTS[id]) {
+    id = LEGACY_PRACTICE_INSTRUMENTS[id]
+  }
+  if (PRACTICE_INSTRUMENT_IDS.indexOf(id) !== -1) return id
+  return DEFAULT_PRACTICE_SETTINGS.instrument
+}
+
+export function normalizeSuitableInstruments(values) {
+  if (!Array.isArray(values)) return []
+  const seen = {}
+  const normalized = []
+  values.forEach(function(value) {
+    const id = normalizePracticeInstrument(value)
+    if (seen[id]) return
+    seen[id] = true
+    normalized.push(id)
+  })
+  return normalized
+}
+
+export function tuneMatchesPracticeInstrument(tune, instrumentId) {
+  const suitable = normalizeSuitableInstruments(tune && tune.suitableFor)
+  if (suitable.length === 0) return true
+  const target = normalizePracticeInstrument(instrumentId)
+  return suitable.indexOf(target) !== -1
+}
+
+export function getPracticeInstrumentLabel(instrumentId) {
+  const id = normalizePracticeInstrument(instrumentId)
+  const match = PRACTICE_INSTRUMENTS.find(function(item) { return item.id === id })
+  return match ? match.label : id
+}
+
 export function loadPracticeSettings() {
   try {
     const raw = localStorage.getItem(PRACTICE_SETTINGS_STORAGE_KEY)
     if (!raw) return Object.assign({}, DEFAULT_PRACTICE_SETTINGS)
     const parsed = JSON.parse(raw)
     return {
+      instrument: normalizePracticeInstrument(parsed.instrument),
       totalMinutes: normalizeDuration(parsed.totalMinutes),
       includeWarmups: parsed.includeWarmups !== false,
       skillLevel: clampSkillLevel(parsed.skillLevel),
@@ -37,6 +90,7 @@ export function loadPracticeSettings() {
 
 export function savePracticeSettings(settings) {
   const next = {
+    instrument: normalizePracticeInstrument(settings && settings.instrument),
     totalMinutes: normalizeDuration(settings && settings.totalMinutes),
     includeWarmups: settings && settings.includeWarmups !== false,
     skillLevel: clampSkillLevel(settings && settings.skillLevel),
@@ -50,22 +104,30 @@ export function savePracticeSettings(settings) {
 }
 
 /**
+ * Lowest starting tempo for the easiest practice sessions (skill 1).
+ */
+export const PRACTICE_MIN_TEMPO = 0.35
+
+/** Tempo start/end multipliers per skill level (1 = easiest … 10 = full speed). */
+const SKILL_TEMPO_RANGES = [
+  { tempoStart: 0.35, tempoEnd: 0.50 }, // skill 1
+  { tempoStart: 0.40, tempoEnd: 0.55 },
+  { tempoStart: 0.40, tempoEnd: 0.60 },
+  { tempoStart: 0.40, tempoEnd: 0.65 },
+  { tempoStart: 0.50, tempoEnd: 0.70 },
+  { tempoStart: 0.50, tempoEnd: 0.75 },
+  { tempoStart: 0.55, tempoEnd: 0.80 },
+  { tempoStart: 0.55, tempoEnd: 0.85 },
+  { tempoStart: 0.80, tempoEnd: 0.95 },
+  { tempoStart: 1.00, tempoEnd: 1.00 }, // skill 10
+]
+
+/**
  * Tune tempo range for a skill level (1 = easiest … 10 = full speed).
- * Skill 1: 50% throughout. Skill 2: 50% → 80%. Skill 10: 100% throughout.
  */
 export function getSkillTempoRange(skillLevel) {
   const skill = clampSkillLevel(skillLevel)
-  if (skill === 1) {
-    return { tempoStart: 0.5, tempoEnd: 0.5 }
-  }
-  if (skill === 10) {
-    return { tempoStart: 1.0, tempoEnd: 1.0 }
-  }
-  const tempoStart = skill <= 2 ? 0.5 : 0.5 + (skill - 2) / 8 * 0.5
-  const tempoEnd = skill <= 2
-    ? 0.5 + (skill - 1) * 0.3
-    : 0.8 + (skill - 2) / 8 * 0.2
-  return { tempoStart, tempoEnd }
+  return Object.assign({}, SKILL_TEMPO_RANGES[skill - 1])
 }
 
 export function getWarmupOptionsForSkill(skillLevel, baseOptions) {

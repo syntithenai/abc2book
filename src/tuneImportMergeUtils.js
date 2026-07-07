@@ -1,6 +1,7 @@
 export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'name', label: 'Title', group: 'ABC metadata', defaultImport: true },
   { key: 'composer', label: 'Composer', group: 'ABC metadata', defaultImport: true },
+  { key: 'genre', label: 'Genre', group: 'ABC metadata', defaultImport: true },
   { key: 'rhythm', label: 'Rhythm', group: 'ABC metadata', defaultImport: true },
   { key: 'meter', label: 'Time signature', group: 'ABC metadata', defaultImport: true },
   { key: 'noteLength', label: 'Note length', group: 'ABC metadata', defaultImport: true },
@@ -89,6 +90,87 @@ export function tuneFieldValuesEqual(a, b) {
   return JSON.stringify(a) === JSON.stringify(b);
 }
 
+function extractYoutubeVideoId(url) {
+  if (!url) return '';
+  const match = String(url).trim().match(
+    /(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|shorts\/|watch\?v=|watch\?.+&v=))([\w-]{11})/i
+  );
+  return match ? match[1].toLowerCase() : '';
+}
+
+function normalizeLinkUrl(url) {
+  const trimmed = String(url || '').trim();
+  if (!trimmed) return '';
+  const youtubeId = extractYoutubeVideoId(trimmed);
+  if (youtubeId) return 'youtube:' + youtubeId;
+  return trimmed.replace(/\/$/, '').toLowerCase();
+}
+
+function linkCompareKey(link) {
+  if (!link || !link.link) return '';
+  const urlKey = normalizeLinkUrl(link.link);
+  const title = String(link.title || link.name || '').trim().toLowerCase();
+  const startAt = link.startAt != null && link.startAt !== '' ? String(link.startAt) : '';
+  const endAt = link.endAt != null && link.endAt !== '' ? String(link.endAt) : '';
+  return [urlKey, title, startAt, endAt].join('|');
+}
+
+export function tuneLinksEqual(a, b) {
+  const keysA = (Array.isArray(a) ? a : []).map(linkCompareKey).filter(Boolean).sort();
+  const keysB = (Array.isArray(b) ? b : []).map(linkCompareKey).filter(Boolean).sort();
+  return JSON.stringify(keysA) === JSON.stringify(keysB);
+}
+
+function stripAbcIndexKeys(meta) {
+  if (!meta || typeof meta !== 'object') return {};
+  const stripped = {};
+  Object.keys(meta).forEach(function(key) {
+    if (key !== 'X') stripped[key] = meta[key];
+  });
+  return stripped;
+}
+
+export function metaDiffAutoAccept(originalValue, importedValue) {
+  if (!importedValue || typeof importedValue !== 'object') return false;
+  return JSON.stringify(stripAbcIndexKeys(originalValue)) === JSON.stringify(stripAbcIndexKeys(importedValue));
+}
+
+export function fieldValuesSemanticallyEqual(fieldKey, originalValue, importedValue) {
+  if (fieldKey === 'links') return tuneLinksEqual(originalValue, importedValue);
+  if (fieldKey === 'meta') return metaDiffAutoAccept(originalValue, importedValue);
+  return tuneFieldValuesEqual(originalValue, importedValue);
+}
+
+export function getAutoAppliedImportFieldKeys(originalTune, importedTune) {
+  const autoKeys = [];
+  if (!importedTune) return autoKeys;
+  if (importedTune.hasOwnProperty('meta') && metaDiffAutoAccept(
+    originalTune ? originalTune.meta : undefined,
+    importedTune.meta
+  ) && !tuneFieldValuesEqual(originalTune ? originalTune.meta : undefined, importedTune.meta)) {
+    autoKeys.push('meta');
+  }
+  return autoKeys;
+}
+
+function formatLinkEntry(link) {
+  if (!link || !link.link) return null;
+  const title = String(link.title || link.name || '').trim();
+  const url = String(link.link).trim();
+  const regionParts = [];
+  if (link.startAt != null && link.startAt !== '') regionParts.push('start ' + link.startAt);
+  if (link.endAt != null && link.endAt !== '') regionParts.push('end ' + link.endAt);
+  let line = title ? title + ': ' + url : url;
+  if (regionParts.length) line += ' (' + regionParts.join(', ') + ')';
+  return line;
+}
+
+function formatLinksForDisplay(links) {
+  if (!Array.isArray(links) || links.length === 0) return '—';
+  const lines = links.map(formatLinkEntry).filter(Boolean);
+  return lines.length ? lines.join('\n') : '—';
+}
+
 export function formatTuneFieldValue(fieldKey, value) {
   if (isEmptyValue(value)) return '—';
   if (fieldKey === 'voices') {
@@ -96,7 +178,10 @@ export function formatTuneFieldValue(fieldKey, value) {
     const lineCount = countVoiceLines(value);
     return voiceCount + ' voice' + (voiceCount === 1 ? '' : 's') + ', ' + lineCount + ' line' + (lineCount === 1 ? '' : 's');
   }
-  if (fieldKey === 'links' || fieldKey === 'files' || fieldKey === 'recordings') {
+  if (fieldKey === 'links') {
+    return formatLinksForDisplay(value);
+  }
+  if (fieldKey === 'files' || fieldKey === 'recordings') {
     return (Array.isArray(value) ? value.length : 0) + ' item' + (value.length === 1 ? '' : 's');
   }
   if (fieldKey === 'books' || fieldKey === 'tags' || fieldKey === 'aliases') {
@@ -137,6 +222,12 @@ function collectImportedFieldKeys(importedTune) {
   });
 }
 
+export function tunePairHasDifferingImportFields(localTune, incomingTune) {
+  return buildTuneImportFieldRows(localTune, incomingTune).some(function(row) {
+    return row.differs;
+  });
+}
+
 export function buildTuneImportFieldRows(originalTune, importedTune) {
   const rows = [];
   collectImportedFieldKeys(importedTune).forEach(function(key) {
@@ -152,7 +243,8 @@ export function buildTuneImportFieldRows(originalTune, importedTune) {
       importedValue: importedValue,
       originalDisplay: formatTuneFieldValue(key, originalValue),
       importedDisplay: formatTuneFieldValue(key, importedValue),
-      differs: !tuneFieldValuesEqual(originalValue, importedValue),
+      differs: !fieldValuesSemanticallyEqual(key, originalValue, importedValue),
+      autoApply: getAutoAppliedImportFieldKeys(originalTune, importedTune).indexOf(key) >= 0,
     });
   });
 
@@ -180,6 +272,12 @@ export function applyTuneImportSelections(originalTune, importedTune, selections
   buildTuneImportFieldRows(originalTune, importedTune).forEach(function(row) {
     if (selections && selections[row.key] && importedTune && importedTune.hasOwnProperty(row.key)) {
       merged[row.key] = cloneValue(importedTune[row.key]);
+    }
+  });
+
+  getAutoAppliedImportFieldKeys(originalTune, importedTune).forEach(function(key) {
+    if (importedTune && importedTune.hasOwnProperty(key)) {
+      merged[key] = cloneValue(importedTune[key]);
     }
   });
 

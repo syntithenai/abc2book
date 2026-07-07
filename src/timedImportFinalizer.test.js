@@ -21,6 +21,7 @@ describe('timedImportFinalizer', function() {
   test('noteLinesHaveRealMelody ignores rest-only scaffold lines', function() {
     expect(noteLinesHaveRealMelody(['z z z z |'])).toBe(false);
     expect(noteLinesHaveRealMelody(['"C" C D E F |'])).toBe(true);
+    expect(noteLinesHaveRealMelody(['| "D" z2 "G" z "A" z |'])).toBe(false);
   });
 
   test('clearTransientTimedFields removes timed JSON fields', function() {

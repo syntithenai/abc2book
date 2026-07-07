@@ -1,18 +1,17 @@
 import { useState } from 'react'
-import { Alert, Button } from 'react-bootstrap'
-import useMediaResolverHealth from '../useMediaResolverHealth'
+import { Alert } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import { searchLyrics } from '../lyricsSearchClient'
 import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
-
-const DEFAULT_SEARCH_ICON = (
-  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
-    <path fill="none" d="M0 0h24v24H0z" />
-    <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z" />
-  </svg>
-)
+import GenreSuggestionOffer from './GenreSuggestionOffer'
+import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import {
+  buildGenreSearchContext,
+  inferGenreFromSearchContext,
+  shouldOfferGenreSuggestion,
+} from '../genreInference'
 
 export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
   return 'https://www.google.com/search?q=lyrics '
@@ -25,33 +24,34 @@ export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
 export default function LyricsSearchButton({
   title,
   artist,
+  rhythm,
+  currentGenre,
+  onGenreAccept,
   token,
   onLyrics,
   extraQuery,
   buttonStyle,
   disabled,
   tunebook,
+  showExternalLink = true,
+  resolverAvailable,
 }) {
   const narrow = useIsNarrowViewport()
-  const job = useCancellableAsyncJob()
+  const job = useCancellableAsyncJob('Lyrics search')
   const [error, setError] = useState('')
   const [source, setSource] = useState('')
   const [progressMessage, setProgressMessage] = useState('')
   const [progressPercent, setProgressPercent] = useState(0)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
-  const { available: resolverAvailable } = useMediaResolverHealth()
+  const [genreSuggestion, setGenreSuggestion] = useState(null)
 
   const googleUrl = buildGoogleLyricsSearchUrl(title, artist, extraQuery)
-  const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : DEFAULT_SEARCH_ICON
+  const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
+  const externalLinkIcon = showExternalLink && tunebook && tunebook.icons
+    ? tunebook.icons.externallink
+    : null
   const busy = job.busy
-  const label = busy ? 'Cancel' : 'Search Lyrics'
-  const buttonContent = (
-    <>
-      {searchIcon}
-      {!narrow && <> {label}</>}
-    </>
-  )
 
   function applyLyricsResult(result) {
     if (typeof onLyrics === 'function') {
@@ -62,6 +62,18 @@ export default function LyricsSearchButton({
       : ''
     setSource(sourceLabel)
     setProgressPercent(100)
+    if (typeof onGenreAccept === 'function') {
+      const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
+        title: title,
+        artist: artist,
+        rhythm: rhythm,
+      }))
+      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
+        setGenreSuggestion(inferred)
+      } else {
+        setGenreSuggestion(null)
+      }
+    }
   }
 
   function chooseLyricsCandidate(candidate) {
@@ -83,6 +95,8 @@ export default function LyricsSearchButton({
         artist: artist || '',
         accessToken: token,
         signal: ctx.signal,
+        resolverAvailable: resolverAvailable,
+        abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
         onProgress: function(message, progress) {
           if (!ctx.isCurrent()) return
           setProgressMessage(message || '')
@@ -115,20 +129,17 @@ export default function LyricsSearchButton({
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-      {resolverAvailable
-        ? <Button
-            style={buttonStyle}
-            variant={busy ? 'warning' : undefined}
-            disabled={!title || disabled}
-            onClick={function() { job.onTriggerClick(run) }}
-          >
-            {buttonContent}
-          </Button>
-        : (disabled
-            ? <Button style={buttonStyle} disabled>{buttonContent}</Button>
-            : <a target="_new" rel="noreferrer" href={googleUrl}>
-                <Button style={buttonStyle}>{buttonContent}</Button>
-              </a>)}
+      <FieldLookupButtonGroup
+        automaticLookup={true}
+        busy={busy}
+        disabled={!title || disabled}
+        externalUrl={googleUrl}
+        externalLinkIcon={externalLinkIcon}
+        narrow={narrow}
+        onSearch={function() { job.onTriggerClick(run) }}
+        buttonStyle={buttonStyle}
+        searchIcon={searchIcon}
+      />
       <SearchProgressBar
         visible={busy}
         percent={progressPercent}
@@ -138,11 +149,9 @@ export default function LyricsSearchButton({
       {error && (
         <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
           {error}
-          {resolverAvailable && (
-            <div style={{ marginTop: '0.5em' }}>
-              <a target="_new" rel="noreferrer" href={googleUrl}>Open web search instead</a>
-            </div>
-          )}
+          <div style={{ marginTop: '0.5em' }}>
+            <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+          </div>
         </Alert>
       )}
       {source && !error && (
@@ -150,6 +159,15 @@ export default function LyricsSearchButton({
           Lyrics imported from {source}
         </Alert>
       )}
+
+      <GenreSuggestionOffer
+        suggestion={genreSuggestion}
+        onAccept={function(genre) {
+          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+          setGenreSuggestion(null)
+        }}
+        onDismiss={function() { setGenreSuggestion(null) }}
+      />
 
       <SearchResultPickerModal
         show={showPicker}

@@ -2,11 +2,12 @@ import React, { useEffect, useState, useRef } from "react";
 import {useParams, Link} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
-import BookMultiSelectorModal from './BookMultiSelectorModal'
 import Abc from './Abc'
+import NotationEditor from './NotationEditor'
 import ChordsWizard from './ChordsWizard'
-import { lyricLinesToText, setLyricLines } from '../wLinesUtils'
+import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LinksEditor from './LinksEditor'
+import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
@@ -14,47 +15,49 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import useAbcjsParser from '../useAbcjsParser'
 import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
-import MediaPlayerMedia from '../components/MediaPlayerMedia'
 import LyricsSearchButton from './LyricsSearchButton'
+import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
+import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
+import {
+  getMusicGenreSelectOptions,
+  genreSelectValue,
+} from '../musicGenreOptions'
+import {
+  normalizeEditorViewMode,
+  isNotationEditorView,
+  editorViewModeToNotationView,
+} from '../viewModeUtils'
+import TuneAliasesField from './TuneAliasesField'
 
 
 export default function AbcEditor(props) {
   const [abcText, setAbcText] = useState(props.abc);
   const [currentVoice, setCurrentVoice] = useState(0);
+  const editorViewMode = normalizeEditorViewMode(props.editorViewMode);
   let params = useParams();
   var musicBrainz = useMusicBrainz()
+  const { available: resolverAvailable } = useMediaResolverHealth()
   const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
-  // 10 voices supported in textarea selection by click
-  const textareaRef_0 = useRef(null);
-  const textareaRef_1 = useRef(null);
-  const textareaRef_2 = useRef(null);
-  const textareaRef_3 = useRef(null);
-  const textareaRef_4 = useRef(null);
-  const textareaRef_5 = useRef(null);
-  const textareaRef_6 = useRef(null);
-  const textareaRef_7 = useRef(null);
-  const textareaRef_8 = useRef(null);
-  const textareaRef_9 = useRef(null);
-  var refs = {textareaRef_0, textareaRef_1, textareaRef_2, textareaRef_3, textareaRef_4, textareaRef_5, textareaRef_6, textareaRef_7, textareaRef_8, textareaRef_9}
   var tune = props.tune
   
   //var inputRefs = []
   const [warnings, setWarnings] = useState([])
   var [saveTimeout, setSaveTimeout] = useState(null)
-  const [noteEditorWidth, setNoteEditorWidth] = useState(2)
   var [chordsChanged, setChordsChanged] = useState(false)
   const [wLinesText, setWLinesText] = useState('')
+  const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
   const backgroundInfoSaveTimeout = useRef(null)
-  
   const tuneId = tune && tune.id
+
   useEffect(function() {
     setWLinesText(lyricLinesToText(tune))
     setBackgroundInfoText(tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '')
@@ -115,18 +118,33 @@ export default function AbcEditor(props) {
      return props.tunebook.saveTune(tune, false, options)
   }
 
+  function acceptSuggestedGenre(genre) {
+    if (!tune || !genre) return
+    tune.genre = genre
+    tune.id = params.tuneId
+    saveTune(tune, { historyLabel: 'Apply suggested genre', immediate: true })
+  }
+
 
   //var abcForDisplay = []
   //abcForDisplay.push(Array.isArray(tune.notes) ? tune.notes.join("\n") : '')
   
-  function tuneNotesChanged(voice,notes) {
+  function tuneVoiceMetaChanged(voice, meta, historyLabel) {
+    if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
+      tune.voices[voice].meta = meta;
+      tune.id = params.tuneId;
+      saveTune(tune, false, { historyLabel: historyLabel || 'Edit voice name' });
+    }
+  }
+
+  function tuneNotesChanged(voice, notes, historyLabel) {
     //console.log('change NOTES',voice,tune,tune.voices)
     if (tune && tune.voices && tune.voices.hasOwnProperty(voice)) {
       //console.log('change NOTES',voice,tune,tune.voices)
       var v = props.tunebook.abcTools.justNotes(notes); 
       tune.voices[voice].notes = v.split("\n")
       tune.id = params.tuneId
-      saveTune(tune) 
+      saveTune(tune, false, { historyLabel: historyLabel || 'Edit notes' }) 
       //setTune(tune)
       //console.log('SAVEd NOTES',tune, "V",voice,"N", notes, "JN",v)
     }
@@ -145,112 +163,223 @@ export default function AbcEditor(props) {
    //}
   //<span style={{fontSize:'0.5em'}} >{tune.key ? <>Key: <b>{tune.key}</b></> : null} {tune.meter ? <>Time Signature: <b>{tune.meter}</b></> : null}</span>
   
-  function onAbcClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent) {
-    // relative to entire ABC file
-    
-    //console.log('onabcclick select text', abcelem.startChar, abcelem.endChar,abcelem.currentTrackMilliseconds, "V",analysis.voice, 'line meas',analysis.line, analysis.measure,'Drag', drag.index, drag.max, abcelem, tuneNumber, classes, analysis, drag, mouseEvent)
+  function onAbcClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, textareaEl) {
     var voice = analysis.voice
     setCurrentVoice(voice)
-    //console.log('ddsetvoice',voice, tune)
-    if (tune && tune.voices) {
+    if (tune && tune.voices && textareaEl) {
       var voiceNames = Object.keys(tune.voices)
       var voiceName = voiceNames.length > voice ? voiceNames[voice] : null
       if (voiceName) {
-        var voiceParts =  abcText.split("\nV:"+voiceName)
-        //console.log(voiceParts)
+        var voiceParts = abcText.split("\nV:"+voiceName)
         if (voiceParts.length > 1) {
           var voiceInnerParts = voiceParts[1].split("\n")
           if (voiceInnerParts.length > 1) {
             var splitOffset = voiceName.length + 3
             var before = voiceParts[0].length + voiceInnerParts[0].length + splitOffset
-            //console.log('letter before start of voice',before, abcelem.startChar, abcelem.endChar)
-            if (refs['textareaRef_'+voice] && refs['textareaRef_'+voice].current) {
-              //console.log(refs['textareaRef_'+voice].current)
-              setTimeout(function() {
-                refs['textareaRef_'+voice].current.setSelectionRange(abcelem.startChar - before , abcelem.endChar - before );
-                refs['textareaRef_'+voice].current.focus();
-              }, 200)
-            } 
-            //else console.log('noref')
+            setTimeout(function() {
+              textareaEl.setSelectionRange(abcelem.startChar - before, abcelem.endChar - before)
+              textareaEl.focus()
+            }, 200)
           }
         }
       }
-      //var startClickInWholeAbc = abcelem.startChar
-      //var endClickInWholeAbc = abcelem.endChar
-      //var keyLineStart = abcText.indexOf("\nK:")
     }
-    
   }
   
   function addVoice() {
     var numVoices = Object.keys(tune.voices).length
     var key = (numVoices + 1) + ''
-    tune.voices[key] = {meta:"", notes:''}
-    //console.log('addvoice',numVoices,tune)
+    tune.voices[key] = { meta: 'Voice ' + key, notes: [''] }
+    tune.id = params.tuneId
     saveTune(tune)
+    setCurrentVoice(numVoices)
     props.forceRefresh()
   }
 
 
   function deleteVoice(key) {
-    delete tune.voices[key]
-    //var numVoices = Object.keys(tune.voices).length
-    //var key = (numVoices + 1) + ''
-    //tune.voices[key] = {meta:"", notes:''}
-    //console.log('delvoice',key)
-    saveTune(tune)
-    props.forceRefresh()
+    const names = Object.keys(tune.voices);
+    const deleteIndex = names.indexOf(key);
+    delete tune.voices[key];
+    const remaining = Object.keys(tune.voices);
+    if (remaining.length === 0) {
+      tune.voices['1'] = { meta: 'Voice 1', notes: [''] };
+      setCurrentVoice(0);
+    } else if (deleteIndex <= currentVoice) {
+      setCurrentVoice(Math.max(0, currentVoice - 1));
+    }
+    tune.id = params.tuneId;
+    saveTune(tune);
+    props.forceRefresh();
   }
   
   //tempo={tune.tempo > 0 ? tune.tempo : 100} meter={tune.meter}
   if (!tune) {
     return null
-  } else {
+  }
+
+  function renderMusicEditor() {
+    if (!tune.voices) {
+      return (
+        <Abc showRepeats={true} mediaController={props.mediaController} audioRenderTimeout={30000} tunebook={props.tunebook} abc={props.abc} onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true} meter={tune.meter} onClick={onAbcClick} />
+      )
+    }
+    var voiceNames = Object.keys(tune.voices)
+    var voiceKey = voiceNames.length > currentVoice ? voiceNames[currentVoice] : voiceNames[0]
+    var voiceNotes = voiceKey && tune.voices[voiceKey]
+      ? (Array.isArray(tune.voices[voiceKey].notes) ? tune.voices[voiceKey].notes.join('\n') : '')
+      : ''
     return (
-        <div style={{minHeight: '40em'}} > 
-          <div style={{display: 'none'}}  id="audio">Player</div>
-          <Tabs defaultActiveKey="musiceditor" id="abc-editor-tabs" className="mb-3">
-                  <Tab eventKey="musiceditor" title="Music">
-                      <Row style={{width:'100%'}}>
-                        <Col xs={12} md={6}>
-                          <Abc showRepeats={true} mediaController={props.mediaController} audioRenderTimeout={30000}  tunebook={props.tunebook}  abc={props.abc}  onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true}  meter={tune.meter} onClick={onAbcClick} />
-                        </Col>
-                        <Col xs={12} md={6}>
-                          <Button style={{float:'left', marginRight:'0.2em'}}  variant="success" size="sm" onClick={addVoice} >+</Button>
-                          {tune && tune.voices ? <Tabs id="voices-tabs" className="mb-3" activeKey={currentVoice}
-                          onSelect={(k) => setCurrentVoice(k)}>
-                              {Object.keys(tune.voices).map(function(voice,vk) {
-                                return <Tab  key={vk}  eventKey={vk}  title={voice} ><textarea onFocus={function() {setNoteEditorWidth('8')}} onBlur={function() {setNoteEditorWidth('2')}}  ref={refs['textareaRef_'+vk]} value={Array.isArray(tune.voices[voice].notes) ? tune.voices[voice].notes.join("\n") : ''} style={{resize:'both', fontSize:'1em', minHeight: '25em', zIndex: '9999', backgroundColor: 'white', width:'100%'}} onChange={function(e) {tuneNotesChanged(voice, e.target.value)}}   /></Tab>
-                              })}
-                          </Tabs> : ''}
-                        </Col>
-                      </Row>
-                    
-                  
-                    
-                    
-                    
-                  </Tab>
-                  
-                  <Tab eventKey="info" title="Info">
+      <NotationEditor
+        tune={tune}
+        abc={props.abc}
+        tunebook={props.tunebook}
+        mediaController={props.mediaController}
+        voiceKey={voiceKey}
+        voiceIndex={currentVoice}
+        voiceNames={voiceNames}
+        voiceNotes={voiceNotes}
+        onVoiceSelect={setCurrentVoice}
+        onAddVoice={addVoice}
+        onDeleteVoice={deleteVoice}
+        onVoiceNotesChange={function(vk, notesText, label) { tuneNotesChanged(vk, notesText, label) }}
+        onVoiceMetaChange={function(vk, meta) { tuneVoiceMetaChanged(vk, meta) }}
+        onActiveVoicesChange={function(voiceKeys) {
+          tune.activeVoices = Array.isArray(voiceKeys) ? voiceKeys.slice() : []
+          tune.id = params.tuneId
+          saveTune(tune, { historyLabel: 'Active voices' })
+        }}
+        onWarnings={onWarnings}
+        onAbcClick={onAbcClick}
+        forceRefresh={props.forceRefresh}
+        controlledView={editorViewModeToNotationView(editorViewMode)}
+        hideViewSelector={true}
+        onHelpModeChange={props.onNotationHelpModeChange}
+      />
+    )
+  }
+
+  function handleLyricsTextChange(next) {
+    setWLinesText(next)
+    if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
+    wLinesSaveTimeout.current = setTimeout(function() {
+      setPlainLyricLines(tune, next.split('\n'))
+      tune.id = params.tuneId
+      saveTune(tune)
+    }, 500)
+  }
+
+  function renderNoteAlignedLyricsButton() {
+    return (
+      <Button
+        variant="outline-secondary"
+        style={{ marginLeft: 'auto' }}
+        onClick={function() { setShowNoteAlignedLyrics(true) }}
+      >
+        Note-aligned lyrics
+      </Button>
+    )
+  }
+
+  function renderLyricsTextarea(className) {
+    return (
+      <textarea
+        className={className || 'abc-editor-lyrics-textarea'}
+        value={wLinesText}
+        aria-label="Lyrics"
+        onChange={function(e) { handleLyricsTextChange(e.target.value) }}
+      />
+    )
+  }
+
+  function renderEditorPanel() {
+    if (editorViewMode === 'music') {
+      return (
+        <div className="abc-editor-music-panel">
+          <div className="abc-editor-music-notation">
+            {renderMusicEditor()}
+          </div>
+          <div className="abc-editor-music-lyrics">
+            <div className="abc-editor-music-lyrics-label">Lyrics</div>
+            {renderLyricsTextarea('abc-editor-music-lyrics-textarea')}
+          </div>
+        </div>
+      )
+    }
+    if (isNotationEditorView(editorViewMode)) {
+      return renderMusicEditor()
+    }
+    if (editorViewMode === 'info') {
+      return (
+                    <>
                     <Form className="abc-editor-info-form">
                       <div className="abc-editor-info-section">
                       <Row>
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={5}>
                           <Form.Group className="mb-3" controlId="title">
                             <Form.Label>Title</Form.Label>
                             <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
                           </Form.Group>
                         </Col>
-                        <Col xs={12} md={6}>
+                        <Col xs={12} md={4}>
                           <Form.Group className="mb-3" controlId="composer">
-                            <Form.Label>Artist</Form.Label>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                              <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
+                              <ComposerSearchButton
+                                title={tune.name || ''}
+                                composer={tune && tune.composer ? tune.composer : ''}
+                                titleHint={tune.name || ''}
+                                token={props.token}
+                                tunebook={props.tunebook}
+                                resolverAvailable={resolverAvailable}
+                                disabled={!(tune && tune.name && String(tune.name).trim())}
+                                onComposer={function(result) {
+                                  if (result && result.artist) {
+                                    tune.composer = result.artist
+                                    tune.id = params.tuneId
+                                    saveTune(tune)
+                                  }
+                                }}
+                              />
+                            </div>
                             <SelectInput 
                               onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune)  }} 
                               value={tune && tune.composer ? tune.composer : ''}  
                               options={artistOptions} 
                             />  
                           </Form.Group>
+                        </Col>
+                        <Col xs={12} md={3}>
+                          <Form.Group className="mb-3" controlId="genre">
+                            <FormLabelWithHelp label="Genre" htmlFor="genre" helpBody={EDITOR_INFO_FIELD_HELP.genre.body} helpTitle={EDITOR_INFO_FIELD_HELP.genre.title} />
+                            <CreatableSelect
+                              inputId="genre"
+                              value={genreSelectValue(tune.genre)}
+                              onChange={function(val) {
+                                tune.genre = val ? val.label : ''
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                              options={getMusicGenreSelectOptions()}
+                              isClearable={true}
+                              blurInputOnSelect={true}
+                              createOptionPosition="first"
+                              allowCreateWhileLoading={true}
+                              placeholder="eg Folk, Jazz"
+                            />
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col xs={12}>
+                          <TuneAliasesField
+                            value={tune.aliases}
+                            onChange={function(aliases) {
+                              tune.aliases = aliases
+                              tune.id = params.tuneId
+                              saveTune(tune)
+                            }}
+                          />
                         </Col>
                       </Row>
                       </div>
@@ -341,6 +470,61 @@ export default function AbcEditor(props) {
                       </Row>
                       </div>
 
+                      <div className="abc-editor-info-section abc-editor-info-section-practice">
+                      <div className="abc-editor-info-section-heading">Practice</div>
+                      <Row className="g-2 align-items-end">
+                        <Col xs={12} lg={4}>
+                          <Form.Group className="mb-3" controlId="suitableForPractice">
+                            <FormLabelWithHelp label="Suitable for practice" helpBody={EDITOR_INFO_FIELD_HELP.suitableForPractice.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableForPractice.title} />
+                            <Form.Check
+                              type="checkbox"
+                              id="suitable-for-practice"
+                              label="Include in practice sessions"
+                              checked={tune.suitableForPractice !== false}
+                              onChange={function(e) {
+                                tune.suitableForPractice = !!e.target.checked
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                            />
+                          </Form.Group>
+                        </Col>
+                        <Col xs={12} lg={8}>
+                          <Form.Group className="mb-3" controlId="suitableFor">
+                            <FormLabelWithHelp label="Suitable for" helpBody={EDITOR_INFO_FIELD_HELP.suitableFor.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableFor.title} />
+                            <div className="abc-editor-suitable-for">
+                              {PRACTICE_INSTRUMENTS.map(function(item) {
+                                const selected = normalizeSuitableInstruments(tune.suitableFor)
+                                const checked = selected.indexOf(item.id) !== -1
+                                return (
+                                  <Form.Check
+                                    inline
+                                    key={item.id}
+                                    type="checkbox"
+                                    id={'suitable-for-' + item.id}
+                                    label={item.label}
+                                    checked={checked}
+                                    onChange={function(e) {
+                                      const next = selected.slice()
+                                      if (e.target.checked) {
+                                        if (next.indexOf(item.id) === -1) next.push(item.id)
+                                      } else {
+                                        const idx = next.indexOf(item.id)
+                                        if (idx !== -1) next.splice(idx, 1)
+                                      }
+                                      tune.suitableFor = next
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}
+                                  />
+                                )
+                              })}
+                            </div>
+                          </Form.Group>
+                        </Col>
+                      </Row>
+                      </div>
+
                       <div className="abc-editor-info-section abc-editor-info-section-details">
                       <Row className="abc-editor-info-compact-row g-2 align-items-end">
                         <Col xs="auto" className="abc-editor-info-compact-field">
@@ -418,7 +602,11 @@ export default function AbcEditor(props) {
                             title={tune.name}
                             artist={tune.composer || ''}
                             lyrics={wLinesText}
+                            rhythm={tune.rhythm || ''}
+                            currentGenre={tune.genre || ''}
+                            onGenreAccept={acceptSuggestedGenre}
                             token={props.token}
+                            tunebook={props.tunebook}
                             existingBackgroundInfo={backgroundInfoText}
                             onBackgroundInfo={function(result) {
                               setBackgroundInfoText(result.text)
@@ -453,49 +641,79 @@ export default function AbcEditor(props) {
                       </div>
                       
                     </Form>
-                  </Tab>
-                  <Tab eventKey="lyrics" title="Lyrics" >
-                    <LyricsSearchButton
-                      title={tune.name}
-                      artist={tune.composer || ''}
-                      token={props.token}
-                      onLyrics={function(result) {
-                        setWLinesText(result.text)
-                        setLyricLines(tune, result.lines)
-                        tune.id = params.tuneId
-                        saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
-                      }}
-                    />
-                    <a style={{marginRight:'0.2em'}}  target="_new" href={"https://www.youtube.com/results?search_query="+props.tune.name + ' '+(props.tune.composer ? props.tune.composer : '')+ ' lyrics'} ><Button>{props.tunebook.icons.externallink}</Button>
-            </a>
-                    <Button variant="info" style={{marginLeft:'2em'}} onClick={function() {
-                        var clean = abcjsParser.cleanupLyrics(wLinesText)
-                        setWLinesText(clean)
-                        setLyricLines(tune, clean.split('\n'))
-                        tune.id = params.tuneId
-                        saveTune(tune)
-                    }} >{props.tunebook.icons.wizard} Clean</Button>
-                    <div style={{ marginTop: '0.5em', marginBottom: '0.5em', fontSize: '0.9em' }}>
-                      One line per music line (ABC <code>w:</code> lyrics).
+                    <div className="abc-editor-links-section mt-3">
+                      <h6>Links</h6>
+                      <LinksEditor
+                        links={tune.links}
+                        tune={tune}
+                        tuneId={params.tuneId}
+                        tunebook={props.tunebook}
+                        abc={props.abc}
+                        token={props.token}
+                        searchIndex={props.searchIndex}
+                        loadTuneTexts={props.loadTuneTexts}
+                        forceRefresh={props.forceRefresh}
+                        onChange={function(links) {
+                          tune.links = links;
+                          tune.id = params.tuneId;
+                          saveTune(tune);
+                        }}
+                      />
                     </div>
-                    <textarea
-                      value={wLinesText}
-                      onChange={function(e) {
-                        var next = e.target.value
-                        setWLinesText(next)
-                        if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
-                        wLinesSaveTimeout.current = setTimeout(function() {
-                          setLyricLines(tune, next.split('\n'))
+                    </>
+      )
+    }
+    if (editorViewMode === 'lyrics') {
+      return (
+                    <div className="abc-editor-lyrics-panel">
+                    <div className="abc-editor-lyrics-toolbar">
+                      <LyricsSearchButton
+                        title={tune.name}
+                        artist={tune.composer || ''}
+                        rhythm={tune.rhythm || ''}
+                        currentGenre={tune.genre || ''}
+                        onGenreAccept={acceptSuggestedGenre}
+                        token={props.token}
+                        tunebook={props.tunebook}
+                        onLyrics={function(result) {
+                          setWLinesText(result.text)
+                          setPlainLyricLines(tune, result.lines)
+                          tune.id = params.tuneId
+                          saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
+                        }}
+                      />
+                      <Button
+                        variant="info"
+                        style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                        onClick={function() {
+                          var clean = abcjsParser.cleanupLyrics(wLinesText)
+                          setWLinesText(clean)
+                          setPlainLyricLines(tune, clean.split('\n'))
                           tune.id = params.tuneId
                           saveTune(tune)
-                        }, 500)
+                        }}
+                      >
+                        <span style={{ display: 'inline-flex', alignItems: 'center', lineHeight: 1 }}>{props.tunebook.icons.wizard}</span>
+                        Clean
+                      </Button>
+                      {renderNoteAlignedLyricsButton()}
+                    </div>
+                    {renderLyricsTextarea()}
+                    <NoteAlignedLyricsModal
+                      show={showNoteAlignedLyrics}
+                      onHide={function() { setShowNoteAlignedLyrics(false) }}
+                      tune={tune}
+                      tunebook={props.tunebook}
+                      onSaved={function(savedTune) {
+                        savedTune.id = params.tuneId
+                        saveTune(savedTune, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
                       }}
-                      style={{width:'100%', height:'30em'}}
                     />
-                  </Tab>
-                  
-                  
-                  <Tab eventKey="chords" title="Chords" >
+                    </div>
+      )
+    }
+    if (editorViewMode === 'chords') {
+      return (
                     <ChordsWizard
                       tunebook={props.tunebook}
                       tune={tune}
@@ -503,27 +721,33 @@ export default function AbcEditor(props) {
                       token={props.token}
                       abc={props.abc}
                       saveTune={function() {saveTune(tune)}}
+                      onGenreAccept={acceptSuggestedGenre}
                       notes={tune.voices && Object.keys(tune.voices).length > 0 && Object.values(tune.voices)[0] ? Object.values(tune.voices)[0].notes : []}
                       pendingChordImport={pendingChordImport}
                       onConsumePendingChordImport={function() { setPendingChordImport('') }}
+                      autoActivateChordRecord={props.autoActivateChordRecord}
                       onLyricsImport={function(lines) {
                         setWLinesText(lines.join('\n'))
-                        setLyricLines(tune, lines)
+                        setPlainLyricLines(tune, lines)
                         tune.id = params.tuneId
                         saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })
                       }}
                     />
-                  </Tab>
-                  
-                 
-                  
-                  <Tab eventKey="abc" title="ABC">
-                    <Tabs defaultActiveKey="abc-text" id="abc-editor-abc-tabs" className="mb-3">
+      )
+    }
+    if (editorViewMode === 'sourceAbc') {
+      return (
+                    <Tabs defaultActiveKey="abc-text" id="abc-editor-abc-tabs" className="abc-editor-source-tabs mb-2">
                       <Tab eventKey="abc-text" title="ABC">
-                        <textarea value={abcText} onChange={function(e) {setAbcText(e.target.value)}} onBlur={function(e) {var tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune, true)}}   style={{width:'100%', height:'30em'}}  />
+                        <textarea
+                          className="abc-editor-source-textarea"
+                          value={abcText}
+                          onChange={function(e) {setAbcText(e.target.value)}}
+                          onBlur={function(e) {var tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune, true)}}
+                        />
                       </Tab>
                       <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>}>
-                        <div style={{}} id="warnings">
+                        <div id="warnings">
                         {warnings ? warnings.map(function(warning,wk) {
                           var pos = warning.indexOf('<span')
                           return <div key={wk} >{warning.slice(0,pos)}</div>
@@ -531,14 +755,21 @@ export default function AbcEditor(props) {
                         </div>
                       </Tab>
                     </Tabs>
-                  </Tab>
-                
-                </Tabs>
-                 <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} />
-        </div>
-    );
-    
+      )
+    }
+    return renderMusicEditor()
   }
+
+  const isLyricsView = editorViewMode === 'lyrics'
+
+  return (
+    <div className={'abc-editor' + (isLyricsView ? ' abc-editor--lyrics' : '')} style={isLyricsView ? undefined : {minHeight: '40em'}}>
+      <div style={{display: 'none'}} id="audio">Player</div>
+      <div className={'abc-editor-panel mt-2' + (isLyricsView ? ' abc-editor-panel--lyrics' : '')}>
+        {renderEditorPanel()}
+      </div>
+    </div>
+  )
 }
  //{<Tab eventKey="files" title="Images" >
                         //<Form.Group className="mb-3" controlId="images">

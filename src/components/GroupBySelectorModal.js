@@ -7,7 +7,7 @@ import { useResponsiveModalProps } from '../useResponsiveModalProps'
 function GroupBySelectorModal(props) {
   const [show, setShow] = useState(false);
   const responsiveModalProps = useResponsiveModalProps();
-  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'composer', books: 'books', tags: 'tags', tuneStatus: 'tune status',tempo:'tempo'} //, tags: 'tags'}
+  const options = {boost:'confidence',difficulty: 'difficulty', key: 'key',tuning: 'tuning', meter:'meter',  rhythm:'rhythm',composer:'composer', books: 'books', tags: 'tags', tuneStatus: 'tune status', tempoRange: 'tempo range', isBlocked: 'is blocked'} //, tags: 'tags'}
   const handleClose = () => setShow(false);
   const handleShow = (e) => {
     setShow(true);
@@ -23,20 +23,20 @@ function GroupBySelectorModal(props) {
           <Modal.Title>List Layout</Modal.Title>
           
         </Modal.Header>
-         {((Array.isArray(props.tunes) && props.tunes.length < props.LIST_PROTECTION_LIMIT/2)) && <Modal.Body>
-         
-         <FormLabelWithHelp label="Show preview?" helpBody={SEARCH_FIELD_HELP.showPreview.body} helpTitle={SEARCH_FIELD_HELP.showPreview.title} />
-         <Form.Check 
-            style={{float:'right'}} 
-            type="switch"
-            id="custom-switch"
-            label=""
-            checked={props.showPreviewInList ? true : false}  
-            onChange={function() {
+        <Modal.Body>
+          <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', gap:'0.5em'}}>
+            <FormLabelWithHelp label="Show preview?" helpBody={SEARCH_FIELD_HELP.showPreview.body} helpTitle={SEARCH_FIELD_HELP.showPreview.title} />
+            <Form.Check
+              type="switch"
+              id="list-layout-show-preview"
+              label=""
+              checked={props.showPreviewInList ? true : false}
+              onChange={function() {
                 props.setShowPreviewInList(!props.showPreviewInList)
-            }}
-          />
-         </Modal.Body>}
+              }}
+            />
+          </div>
+        </Modal.Body>
         <Modal.Footer>
           <Modal.Title style={{width:'100%'}} >Group By</Modal.Title>
           <ListGroup  style={{clear:'both', width: '100%'}}>

@@ -36,3 +36,8 @@ export function useIsCompactViewport() {
 export function useIsHeaderAuthHidden() {
   return useMediaQuery('(max-width: 480px)');
 }
+
+/** Playback collapses into the nav dropdown only when the header cannot fit in one row. */
+export function useIsHeaderPlaybackInMenu() {
+  return useMediaQuery('(max-width: 420px)');
+}

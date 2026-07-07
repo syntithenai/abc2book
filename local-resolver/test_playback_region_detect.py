@@ -73,9 +73,26 @@ class PlaybackRegionDetectTests(unittest.TestCase):
             duration=320.0,
             tail_offset_seconds=140.0,
         )
-        self.assertEqual(result["startAt"], 12.3)
-        self.assertEqual(result["endAt"], 289.7)
+        self.assertEqual(result["startAt"], 11.3)
+        self.assertEqual(result["endAt"], 290.7)
         self.assertGreater(result["confidence"], 0.0)
+
+    def test_music_boundary_buffer_clamps_end_to_duration(self):
+        intro_segments = [
+            {"start": 0.0, "end": 12.0, "text": "Intro chat"},
+            {"start": 20.0, "end": 24.0, "text": "counting in"},
+        ]
+        outro_segments = [
+            {"start": 150.0, "end": 158.0, "text": "Thanks everyone"},
+        ]
+        result = detect_playback_region(
+            intro_segments,
+            outro_segments,
+            duration=290.0,
+            tail_offset_seconds=140.0,
+        )
+        self.assertEqual(result["startAt"], 11.3)
+        self.assertEqual(result["endAt"], 290.0)
 
 
 if __name__ == "__main__":

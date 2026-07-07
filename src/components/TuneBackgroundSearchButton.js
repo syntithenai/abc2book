@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
+import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -10,6 +11,12 @@ import {
   formatResearchDuration,
   researchTuneBackground,
 } from '../tuneBackgroundResearchClient';
+import GenreSuggestionOffer from './GenreSuggestionOffer';
+import {
+  buildGenreSearchContext,
+  inferGenreFromSearchContext,
+  shouldOfferGenreSuggestion,
+} from '../genreInference';
 
 function formatResearchError(error) {
   const message = error && error.message ? error.message : 'Background research failed';
@@ -37,6 +44,9 @@ export default function TuneBackgroundSearchButton({
   title,
   artist,
   lyrics,
+  rhythm,
+  currentGenre,
+  onGenreAccept,
   token,
   existingBackgroundInfo,
   onBackgroundInfo,
@@ -52,6 +62,7 @@ export default function TuneBackgroundSearchButton({
   const [elapsedMs, setElapsedMs] = useState(0);
   const [source, setSource] = useState('');
   const [showConfirm, setShowConfirm] = useState(false);
+  const [genreSuggestion, setGenreSuggestion] = useState(null);
   const elapsedTimerRef = useRef(null);
   const startedAtRef = useRef(0);
   const abortRef = useRef(null);
@@ -60,13 +71,7 @@ export default function TuneBackgroundSearchButton({
 
   const googleUrl = buildTuneBackgroundSearchUrl(title, artist, lyrics);
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : DEFAULT_SEARCH_ICON;
-  const label = busy ? 'Cancel' : 'Search';
-  const buttonContent = (
-    <>
-      {searchIcon}
-      {!narrow && <> {label}</>}
-    </>
-  );
+  const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null;
 
   useEffect(function() {
     return function() {
@@ -77,7 +82,10 @@ export default function TuneBackgroundSearchButton({
 
   useEffect(function() {
     if (!busy) return undefined;
-    return registerLongRunningJob();
+    return registerLongRunningJob({
+      label: 'Background research',
+      onCancel: cancelResearch,
+    });
   }, [busy]);
 
   function cancelResearch() {
@@ -161,6 +169,18 @@ export default function TuneBackgroundSearchButton({
       ].filter(Boolean).join(' · ');
       setSource(sourceLabel);
       setProgressPercent(100);
+      if (typeof onGenreAccept === 'function') {
+        const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
+          title: title,
+          artist: artist,
+          rhythm: rhythm,
+        }));
+        if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
+          setGenreSuggestion(inferred);
+        } else {
+          setGenreSuggestion(null);
+        }
+      }
     } catch (e) {
       if (isAbortError(e)) return;
       const message = e && e.message ? e.message : '';
@@ -181,23 +201,17 @@ export default function TuneBackgroundSearchButton({
 
   return (
     <>
-      {canResearchBackground
-        ? <Button
-            style={buttonStyle}
-            variant={busy ? 'warning' : undefined}
-            disabled={!title || disabled}
-            onClick={requestResearch}
-            title={busy ? 'Cancel background research' : 'Research background information'}
-          >
-            {buttonContent}
-          </Button>
-        : (disabled
-            ? <Button style={buttonStyle} disabled>{buttonContent}</Button>
-            : <a target="_blank" rel="noreferrer" href={googleUrl}>
-                <Button style={buttonStyle} disabled={!title} title="Research background information">
-                  {buttonContent}
-                </Button>
-              </a>)}
+      <FieldLookupButtonGroup
+        automaticLookup={canResearchBackground}
+        busy={busy}
+        disabled={!title || disabled}
+        externalUrl={googleUrl}
+        externalLinkIcon={externalLinkIcon}
+        narrow={narrow}
+        onSearch={requestResearch}
+        buttonStyle={buttonStyle}
+        searchIcon={searchIcon}
+      />
       {busy && (
         <div style={{ marginTop: '0.75em', maxWidth: '28em', clear: 'both' }}>
           <ProgressBar
@@ -231,6 +245,15 @@ export default function TuneBackgroundSearchButton({
           Background imported ({source})
         </Alert>
       )}
+
+      <GenreSuggestionOffer
+        suggestion={genreSuggestion}
+        onAccept={function(genre) {
+          if (typeof onGenreAccept === 'function') onGenreAccept(genre);
+          setGenreSuggestion(null);
+        }}
+        onDismiss={function() { setGenreSuggestion(null); }}
+      />
 
       <Modal show={showConfirm} onHide={function() { setShowConfirm(false); }}>
         <Modal.Header closeButton>

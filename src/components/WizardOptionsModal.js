@@ -1,36 +1,22 @@
 import {useState} from 'react'
 import {Button, Modal} from 'react-bootstrap'
-import MediaImportWizard from './MediaImportWizard'
-import MediaImportEntryButton from './MediaImportEntryButton'
 
 function WizardOptionsModal(props) {
   const [show, setShow] = useState(false);
-  const [showMediaWizard, setShowMediaWizard] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  function openMediaWizard() {
-    setShow(false);
-    setShowMediaWizard(true);
-  }
-  
-  //function saveNotes(noteVals) {
-    //var tune = props.tune
-    //tune.notes = noteVals.split("\n")
-    //props.tunebook.saveTune(tune); 
-    //console.log('saved',tune.notes)
-    //handleClose()
-  //}
-  
   function applyToNotes(applyFunction) {
      var tune = props.tune
      if (tune && tune.voices) {
-       //console.log('applyVVVV',tune.voices)
-       
-       Object.keys(tune.voices).map(function(voice) {
+       Object.keys(tune.voices).forEach(function(voiceKey) {
+         var voiceNotes = tune.voices[voiceKey].notes
+         if (!Array.isArray(voiceNotes)) {
+           voiceNotes = voiceNotes ? [String(voiceNotes)] : ['']
+         }
          var hasTailingBar = false
-         if (voice.notes) voice.notes.forEach(function(noteLine) {
+         voiceNotes.forEach(function(noteLine) {
            if (noteLine.trim()) {
               if (noteLine.trim().endsWith("|")) {
                 hasTailingBar = true
@@ -39,28 +25,29 @@ function WizardOptionsModal(props) {
               }
            }
          })
-         var newNotes = applyFunction("X:8\nK:G\n"+tune.voices[voice].notes.join("\n")+(hasTailingBar ? "|" : ''))
-         //console.log('apply',tune.voices[voice].notes, newNotes)
-         tune.voices[voice].notes = newNotes.split('\n')
+         var newNotes = applyFunction("X:8\nK:G\n"+voiceNotes.join("\n")+(hasTailingBar ? "|" : ''))
+         tune.voices[voiceKey].notes = newNotes.split('\n')
        })
        props.tunebook.saveTune(tune)
+       if (props.forceRefresh) props.forceRefresh()
      }
   }
 
   return (
     <>
-      <Button  variant="warning" onClick={handleShow}>
-        {props.tunebook.icons.wizard}
-      </Button>
+      {props.triggerOnly ? null : (
+        <Button variant="warning" onClick={handleShow}>
+          {props.tunebook.icons.wizard}
+        </Button>
+      )}
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={props.show != null ? props.show : show} onHide={props.onHide || handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Wizards</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5em', alignItems: 'center' }}>
-            <MediaImportEntryButton tune={props.tune} onOpen={openMediaWizard} />
-            <Button variant="primary" onClick={function(e) {
+            <Button variant="primary" onClick={function() {
                 applyToNotes(function(v) { 
                   return props.tunebook.abcTools.fixNotesBang(v)
                 }) }}>
@@ -70,13 +57,13 @@ function WizardOptionsModal(props) {
           
           <br/>
           <div>
-            <Button variant="primary" onClick={function(e) {
+            <Button variant="primary" onClick={function() {
               applyToNotes(function(v) { 
                   return props.tunebook.abcTools.multiplyAbcTiming(0.5,v)
                 }) }}>
               Halve Note Lengths
             </Button>
-            <Button variant="primary" onClick={function(e) {
+            <Button variant="primary" onClick={function() {
               applyToNotes(function(v) { 
                   return props.tunebook.abcTools.multiplyAbcTiming(2,v)
                 }) }} >
@@ -86,7 +73,7 @@ function WizardOptionsModal(props) {
           
           <br/>
           <div>
-            <Button variant="primary" onClick={function(e) {
+            <Button variant="primary" onClick={function() {
               applyToNotes(function(v) { 
                   return props.tunebook.abcTools.fixNotes(v,4)
                 }) }} >
@@ -107,18 +94,6 @@ function WizardOptionsModal(props) {
           </div>
         </Modal.Body>
       </Modal>
-
-      <MediaImportWizard
-        show={showMediaWizard}
-        onClose={function() { setShowMediaWizard(false); }}
-        tune={props.tune}
-        tunebook={props.tunebook}
-        abc={props.abc}
-        token={props.token}
-        searchIndex={props.searchIndex}
-        loadTuneTexts={props.loadTuneTexts}
-        forceRefresh={props.forceRefresh}
-      />
     </>
   );
 }

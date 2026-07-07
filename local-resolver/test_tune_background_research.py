@@ -80,6 +80,9 @@ class TuneBackgroundResearchTests(unittest.IsolatedAsyncioTestCase):
         ), patch(
             "tune_background_research.summarize_with_llm",
             new=AsyncMock(return_value="A classic folk song with many recordings."),
+        ), patch(
+            "background_markdown_links.search_youtube_links_for_tune",
+            new=AsyncMock(return_value=[]),
         ):
             result = await research_tune_background("Wild Rover", "Dubliners")
 
