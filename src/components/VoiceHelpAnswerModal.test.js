@@ -78,8 +78,7 @@ describe('VoiceHelpAnswerModal', function() {
           accessToken="token-123"
           onHide={jest.fn()}
           onRetry={onRetry}
-        />,
-        container
+        />
       );
       await Promise.resolve();
     });
@@ -119,7 +118,9 @@ describe('VoiceHelpAnswerModal', function() {
     expect(container.querySelector('a[href="/help#import-from-media"]')).toBeTruthy();
     expect(container.textContent).not.toContain('Voice fallback answer');
 
-    root.unmount();
+    await act(async function() {
+      root.unmount();
+    });
     container.remove();
   });
 
@@ -145,8 +146,12 @@ describe('VoiceHelpAnswerModal', function() {
     });
 
     expect(container.textContent).toContain('Voice fallback answer');
+    expect(container.querySelector('a[href="/help#voice-fallback"]')).toBeTruthy();
+    expect(submitHelpQuery).toHaveBeenCalledTimes(1);
 
-    root.unmount();
+    await act(async function() {
+      root.unmount();
+    });
     container.remove();
   });
 });

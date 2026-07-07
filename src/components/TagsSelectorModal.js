@@ -82,9 +82,9 @@ function TagsSelectorModal(props) {
   return (
     <>
      
-       <Button onClick={handleShow} className="tune-meta-modal-btn" aria-label="Tags" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="info" >
-        <span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.tag}</span> 
-        <Badge style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{props.value ? props.value.length : 0}</Badge>
+       <Button onClick={handleShow} className="tune-meta-modal-btn" aria-label="Tags" variant="info" >
+        <span className="tune-meta-modal-icon" >{props.tunebook.icons.tag}</span>
+        <Badge bg="secondary" className="tune-meta-modal-badge" >{props.value ? props.value.length : 0}</Badge>
       </Button>
       
         

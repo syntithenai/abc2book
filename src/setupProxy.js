@@ -14,6 +14,7 @@ const RESOLVER_PATHS = new Set([
   '/lyrics-rhyme',
   '/lyrics-reverse-dictionary',
   '/lyrics-phrases',
+  '/lyrics-alliteration',
   '/search-chords',
   '/search-notation',
   '/research-tune-background',

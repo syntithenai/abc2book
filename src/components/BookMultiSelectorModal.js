@@ -66,9 +66,9 @@ function BookMultiSelectorModal(props) {
   return (
     <>
      
-       <Button onClick={handleShow} className="tune-meta-modal-btn" aria-label="Books" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="primary" >
-        <span  style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}} >{props.tunebook.icons.book}</span> 
-        <Badge bg="secondary"  style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{props.value ? props.value.length : ''}</Badge>
+       <Button onClick={handleShow} className="tune-meta-modal-btn" aria-label="Books" variant="primary" >
+        <span className="tune-meta-modal-icon" >{props.tunebook.icons.book}</span>
+        <Badge bg="secondary" className="tune-meta-modal-badge" >{props.value ? props.value.length : ''}</Badge>
       </Button>
      
       <Modal show={show} onHide={handleClose} {...responsiveModalProps}>

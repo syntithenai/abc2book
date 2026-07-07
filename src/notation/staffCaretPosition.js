@@ -1,3 +1,5 @@
+import { eventIndexFromStaffAbcElem } from './voiceEventTiming';
+
 export function isStaffDrawableEvent(event) {
   return !!(event && (event.type === 'note' || event.type === 'chord' || event.type === 'rest'));
 }
@@ -531,6 +533,45 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
   }
 
   return null;
+}
+
+/**
+ * Single authoritative resolver: prefer rendered-DOM click mapping when available,
+ * fall back to abc-based semantic mapping.
+ */
+export function eventIndexFromStaffClick(wrapEl, events, mouseEvent, abcelem, analysis, voiceStaffIndex, tuneMeta, fullAbc, displayedVoiceKeys) {
+  // Prefer abcjs-provided semantic mapping when an `abcelem` is available
+  // (this is the case for Abc's `onClick` handler). It is more stable
+  // in headless/E2E environments where DOM positions may be unreliable.
+  if (abcelem || (analysis && analysis.selectableElement)) {
+    try {
+      const abcElemToUse = abcelem || (analysis && analysis.selectableElement ? analysis.selectableElement : null);
+      if (typeof eventIndexFromStaffAbcElem === 'function') {
+        return eventIndexFromStaffAbcElem(events, tuneMeta, fullAbc, displayedVoiceKeys, voiceStaffIndex, abcElemToUse, analysis);
+      }
+    } catch (err) {
+      // swallow and continue to DOM fallback
+    }
+  }
+
+  // Fallback: prefer DOM-based resolution when we have a rendered wrap and a
+  // real mouseEvent with coordinates.
+  try {
+    if (wrapEl && mouseEvent) {
+      const pos = caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, analysis, voiceStaffIndex);
+      if (pos && typeof pos.caretIndex === 'number') {
+        // Clamp to valid range
+        const idx = Math.max(0, Math.min(pos.caretIndex, Array.isArray(events) ? events.length : 0));
+        return idx;
+      }
+    }
+  } catch (err) {
+    // swallow and continue to final fallback
+  }
+
+  // Final fallback: return a safe caret index bounded to [0, events.length]
+  const safeLen = Array.isArray(events) ? events.length : 0;
+  return safeLen > 0 ? safeLen : 0;
 }
 
 /**

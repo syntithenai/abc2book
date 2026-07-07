@@ -5,6 +5,12 @@ from urllib.parse import quote, urlencode
 import httpx
 
 DEFAULT_TIMEOUT_SECONDS = float(os.getenv("LYRICS_WORD_TIMEOUT_SECONDS", "20"))
+PHRASE_STOP_WORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "from", "how",
+    "i", "if", "in", "is", "it", "of", "on", "or", "so", "than", "that", "the",
+    "their", "them", "there", "these", "they", "this", "to", "was", "we", "were",
+    "what", "when", "where", "which", "who", "why", "with", "you", "your",
+}
 
 
 def _clean_term(value):
@@ -16,6 +22,134 @@ def _phrase_pattern(value):
     if not phrase:
         return ""
     return phrase.replace(" ", "*") + "*"
+
+
+def _phrase_context_seeds(value):
+    words = [word for word in _clean_term(value).split() if word]
+    if not words:
+        return {"leading": "", "trailing": ""}
+    return {
+        "leading": words[0],
+        "trailing": words[-1],
+    }
+
+
+def _phrase_search_seeds(value):
+    raw = _clean_term(value)
+    words = [word.lower() for word in raw.split() if word]
+    significant_words = [word for word in words if word not in PHRASE_STOP_WORDS]
+    source_words = significant_words if significant_words else words
+    leading = significant_words[0] if significant_words else (words[0] if words else "")
+    trailing = significant_words[-1] if significant_words else (words[-1] if words else "")
+    return {
+        "fullPhrase": raw,
+        "leading": leading,
+        "trailing": trailing,
+        "leadingPair": " ".join(source_words[:2]),
+        "trailingPair": " ".join(source_words[-2:]),
+        "keywords": source_words[:4],
+        "topic": " ".join(significant_words[:3]) or raw,
+        "pattern": ("*".join(significant_words) + "*") if len(significant_words) > 1 else (raw.replace(" ", "*") + "*"),
+    }
+
+
+def _normalize_datamuse_results(results):
+    normalized = []
+    for item in results or []:
+        normalized.append({
+            "word": item.get("word", ""),
+            "score": item.get("score", 0),
+            "numSyllables": item.get("numSyllables"),
+            "tags": item.get("tags") if isinstance(item.get("tags"), list) else [],
+        })
+    return normalized
+
+
+def _merge_datamuse_results(groups, limit=None):
+    seen = set()
+    merged = []
+    for group in groups or []:
+        for item in _normalize_datamuse_results(group):
+            key = str(item.get("word", "")).lower()
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            merged.append(item)
+    if limit is None:
+        return merged
+    return merged[:limit]
+
+
+def _backfill_phrase_context(primary, fallback, limit=16):
+    if primary:
+        return primary[:limit]
+    return (fallback or [])[: min(8, limit)]
+
+
+def _initial_letter(value):
+    for char in _clean_term(value).lower():
+        if char.isalpha():
+            return char
+    return ""
+
+
+def _alliteration_sound_key(value):
+    word = "".join(ch for ch in _clean_term(value).lower() if ch.isalpha())
+    if not word:
+        return ""
+
+    replacements = (
+        ("kn", "n"),
+        ("gn", "n"),
+        ("pn", "n"),
+        ("wr", "r"),
+        ("ps", "s"),
+        ("wh", "w"),
+        ("ph", "f"),
+        ("qu", "kw"),
+        ("x", "z"),
+    )
+    for before, after in replacements:
+        if word.startswith(before):
+            word = after + word[len(before):]
+            break
+
+    if word[:1] in "aeiou":
+        return word[0]
+    if word.startswith("sch"):
+        return "sk"
+    if word.startswith("sh"):
+        return "sh"
+    if word.startswith("ch"):
+        return "ch"
+    if word.startswith("th"):
+        return "th"
+
+    first = word[0]
+    second = word[1:2]
+    if first == "c":
+        return "s" if second in "eiy" else "k"
+    if first == "g":
+        return "j" if second in "eiy" else "g"
+    if first == "q":
+        return "k"
+
+    vowel_index = next((index for index, char in enumerate(word) if char in "aeiou"), -1)
+    if vowel_index <= 0:
+        return first
+
+    onset = word[:vowel_index]
+    return onset.replace("c", "k").replace("q", "k")
+
+
+def _filter_alliterative_words(items, term):
+    sound_key = _alliteration_sound_key(term)
+    if not sound_key:
+        return list(items or [])
+    return [
+        item for item in (items or [])
+        if _alliteration_sound_key(item.get("word", "")) == sound_key
+    ]
 
 
 async def _fetch_json(client, url):
@@ -108,14 +242,55 @@ async def lookup_phrase_ideas(term):
     phrase = _clean_term(term)
     if not phrase:
         raise ValueError("Enter a phrase or a seed word")
+    seeds = _phrase_search_seeds(phrase)
     async with httpx.AsyncClient(timeout=DEFAULT_TIMEOUT_SECONDS) as client:
-        left_context, right_context, spelling = await asyncio.gather(
-            _lookup_datamuse_with_client({"lc": phrase, "max": 16}, client),
-            _lookup_datamuse_with_client({"rc": phrase, "max": 16}, client),
-            _lookup_datamuse_with_client({"sp": _phrase_pattern(phrase), "max": 12}, client),
+        keyword_follow_calls = [
+            _lookup_datamuse_with_client({"rel_bga": keyword, "max": 6}, client)
+            for keyword in seeds["keywords"]
+        ]
+        keyword_precede_calls = [
+            _lookup_datamuse_with_client({"rel_bgb": keyword, "max": 6}, client)
+            for keyword in seeds["keywords"]
+        ]
+        follow_by_phrase, follow_by_trailing, follow_by_trailing_pair, precede_by_phrase, precede_by_leading, precede_by_leading_pair, related_by_topic, related_by_meaning, spelling_by_pattern, spelling_by_meaning, keyword_follow_results, keyword_precede_results = await asyncio.gather(
+            _lookup_datamuse_with_client({"rc": seeds["fullPhrase"], "max": 8}, client),
+            _lookup_datamuse_with_client({"rel_bga": seeds["trailing"] or phrase, "max": 8}, client),
+            _lookup_datamuse_with_client({"rc": seeds["trailingPair"] or seeds["trailing"] or phrase, "max": 8}, client),
+            _lookup_datamuse_with_client({"lc": seeds["fullPhrase"], "max": 8}, client),
+            _lookup_datamuse_with_client({"rel_bgb": seeds["leading"] or phrase, "max": 8}, client),
+            _lookup_datamuse_with_client({"lc": seeds["leadingPair"] or seeds["leading"] or phrase, "max": 8}, client),
+            _lookup_datamuse_with_client({"rel_trg": seeds["topic"], "max": 12}, client),
+            _lookup_datamuse_with_client({"ml": seeds["topic"], "max": 12}, client),
+            _lookup_datamuse_with_client({"sp": seeds["pattern"], "max": 12}, client),
+            _lookup_datamuse_with_client({"ml": seeds["fullPhrase"], "max": 12}, client),
+            asyncio.gather(*keyword_follow_calls),
+            asyncio.gather(*keyword_precede_calls),
         )
+    follow_context = _merge_datamuse_results(
+        [follow_by_phrase, follow_by_trailing, follow_by_trailing_pair, *keyword_follow_results],
+        16,
+    )
+    precede_context = _merge_datamuse_results(
+        [precede_by_phrase, precede_by_leading, precede_by_leading_pair, *keyword_precede_results],
+        16,
+    )
+    related_context = _merge_datamuse_results([related_by_topic, related_by_meaning], 16)
+    spelling_context = _merge_datamuse_results([spelling_by_pattern, spelling_by_meaning], 16)
     return {
-        "leftContext": left_context or [],
-        "rightContext": right_context or [],
-        "spelling": spelling or [],
+        "followContext": _backfill_phrase_context(follow_context, related_context, 16),
+        "precedeContext": _backfill_phrase_context(precede_context, spelling_context, 16),
+        "related": related_context,
+        "spelling": spelling_context,
+    }
+
+
+async def lookup_alliteration(term):
+    phrase = _clean_term(term)
+    if not phrase:
+        raise ValueError("Enter a word or phrase to shape alliteration")
+    async with httpx.AsyncClient(timeout=DEFAULT_TIMEOUT_SECONDS) as client:
+        related = await _lookup_datamuse_with_client({"rel_jja": phrase, "max": 24}, client)
+    return {
+        "alliterative": _filter_alliterative_words(related or [], phrase),
+        "related": related or [],
     }

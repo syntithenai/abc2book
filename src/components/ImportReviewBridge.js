@@ -1,9 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useSyncExternalStore } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import ImportReviewModal from './ImportReviewModal'
 import {
+  appendImportReviewCandidates,
   createImportReviewSession,
   beginMergeForJob,
+  currentCandidate,
+  updateCurrentCandidate,
 } from '../importReviewSession'
 import {
   detectContentHashDuplicates,
@@ -38,6 +41,43 @@ import { dismissBackgroundReviewToast } from '../backgroundReviewToast'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
+import { toast } from 'react-toastify'
+import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
+import { processReviewResult } from '../addSongModalHelper'
+import { createAttachedAudioLink } from '../linkRecording'
+import { readAudioFileMetadata } from '../audioFileMetadata'
+
+function mergeDraftTune(importedTune, draftTune) {
+  return Object.assign({}, importedTune || {}, draftTune || {})
+}
+
+async function audioFileToReviewCandidate(file, draft, token, driveApi) {
+  const metadata = await readAudioFileMetadata(file)
+  const title = metadata.title || (draft && draft.tune && draft.tune.name) || file.name
+  const artist = metadata.artist || (draft && draft.tune && draft.tune.composer) || ''
+  const tuneBase = Object.assign({}, (draft && draft.tune) || {}, {
+    id: (draft && draft.tune && draft.tune.id) || ('candidate-' + Date.now()),
+    name: title,
+    composer: artist,
+    links: [],
+  })
+  const result = await createAttachedAudioLink({
+    tune: tuneBase,
+    file: file,
+    title: title,
+    uploadToDrive: false,
+    token: token,
+    driveApi: driveApi,
+  })
+  return {
+    tune: Object.assign({}, tuneBase, {
+      links: [result.link],
+      mediaCacheLocked: true,
+    }),
+    sourceKind: 'audio',
+    mergeTargetId: draft && draft.mergeTargetId ? draft.mergeTargetId : null,
+  }
+}
 
 function useImportReviewStore() {
   const revision = useSyncExternalStore(
@@ -56,6 +96,7 @@ function useImportReviewStore() {
 
 export default function ImportReviewBridge(props) {
   const location = useLocation()
+  const navigate = useNavigate()
   const onReviewRoute = location.pathname === '/review'
   const { session, uiVisible } = useImportReviewStore()
   const abcjsParser = useAbcjsParser()
@@ -112,6 +153,79 @@ export default function ImportReviewBridge(props) {
     updateSession(updatedSession)
   }, [updateSession])
 
+  const handleReviewSourceImport = useCallback(async function(input, draft) {
+    const current = getImportReviewSession()
+    if (!current) return
+
+    const importContext = buildImportContext({
+      resolverAvailable: resolverAvailable,
+      token: props.token,
+      driveApi: driveApi,
+      tunebook: props.tunebook,
+      abcjsParser: abcjsParser,
+      book: props.currentTuneBook,
+    })
+
+    const appendCandidates = function(candidates) {
+      const merged = (candidates || []).map(function(candidate) {
+        return Object.assign({}, candidate, {
+          tune: mergeDraftTune(candidate && candidate.tune, draft && draft.tune),
+          mergeTargetId: candidate && candidate.mergeTargetId != null
+            ? candidate.mergeTargetId
+            : (draft && draft.mergeTargetId) || null,
+        })
+      })
+      updateSession(appendImportReviewCandidates(getImportReviewSession(), merged))
+      toast.info('Starting Source Enhancement')
+    }
+
+    const applyImportedTune = function(importedTune) {
+      const sessionNow = getImportReviewSession()
+      if (!sessionNow) return
+      const candidate = currentCandidate(sessionNow)
+      if (!candidate) return
+      updateSession(updateCurrentCandidate(sessionNow, {
+        tune: mergeDraftTune(importedTune, draft && draft.tune),
+        mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
+      }))
+    }
+
+    const normalizedInput = input && input.file ? input.file : input
+    const result = await dispatchAddImport(normalizedInput, importContext)
+    if (!result || result.action === 'error') {
+      throw new Error(result && result.message ? result.message : 'Import failed.')
+    }
+
+    if (result.action === 'audio') {
+      const files = result.files || []
+      if (files.length === 0) return
+      const candidates = []
+      for (let i = 0; i < files.length; i += 1) {
+        candidates.push(await audioFileToReviewCandidate(files[i], draft, props.token, driveApi))
+      }
+      appendCandidates(candidates)
+      return
+    }
+
+    if (result.action === 'review') {
+      const handled = processReviewResult(result, { stayOnForm: true }, applyImportedTune, appendCandidates, toast)
+      if (handled) return
+    }
+  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, abcjsParser, driveApi, updateSession, props.forceRefresh])
+
+  const handleReviewYouTubeImport = useCallback(function(link, draft) {
+    if (!link || !link.link) return
+    const candidate = {
+      tune: Object.assign({}, (draft && draft.tune) || {}, {
+        links: [{ title: link.title || '', link: link.link, startAt: '', endAt: '' }],
+      }),
+      sourceKind: 'youtube',
+      mergeTargetId: draft && draft.mergeTargetId ? draft.mergeTargetId : null,
+    }
+    updateSession(appendImportReviewCandidates(getImportReviewSession(), [candidate]))
+    toast.info('Starting Source Enhancement')
+  }, [updateSession])
+
   const finishCandidate = useCallback(function(updatedSession, done) {
     const mergeIndex = updatedSession.mergeIndex
     const candidate = mergeIndex != null
@@ -149,8 +263,11 @@ export default function ImportReviewBridge(props) {
     clearImportReviewSession()
     dismissContentHashDuplicateToast()
     dismissBackgroundReviewToast()
+    if (onReviewRoute) {
+      navigate('/tunes')
+    }
     if (typeof props.onComplete === 'function') props.onComplete(finalSession)
-  }, [props])
+  }, [props, onReviewRoute, navigate])
 
   const enrichmentJobStatusKey = useMemo(function() {
     if (!session || !Array.isArray(session.enrichmentJobs)) return ''
@@ -356,6 +473,9 @@ export default function ImportReviewBridge(props) {
         clearImportReviewSession()
         dismissContentHashDuplicateToast()
         dismissBackgroundReviewToast()
+        if (onReviewRoute) {
+          navigate('/tunes')
+        }
       }}
       onHide={function() {
         hideImportReviewUi()
@@ -368,9 +488,21 @@ export default function ImportReviewBridge(props) {
       tunebook={props.tunebook}
       tunes={props.tunes}
       token={props.token}
+      login={props.login}
+      requestGoogleScopes={props.requestGoogleScopes}
+      forceRefresh={props.forceRefresh}
       searchIndex={props.searchIndex}
       loadTuneTexts={props.loadTuneTexts}
       resolverAvailable={resolverAvailable}
+      onImportFile={handleReviewSourceImport}
+      onImportFiles={function(files, draft) {
+        return Promise.all((files || []).map(function(file) {
+          return handleReviewSourceImport(file, draft)
+        }))
+      }}
+      onImportText={handleReviewSourceImport}
+      onImportSource={handleReviewSourceImport}
+      onImportYouTube={handleReviewYouTubeImport}
     />
   )
 }

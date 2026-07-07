@@ -453,6 +453,16 @@ export function HelpYouTube() {
 
       <h4>Book Tools for listening</h4>
       <p>On the Books page, open Book Tools for <strong>Play Media</strong>, <strong>Play Midi</strong>, <strong>Cheat Sheet</strong>, and <strong>Print</strong>.</p>
+
+      <h4>Phone screen-off playback tips</h4>
+      <p>If you are playing a YouTube link, screen-off playback is often blocked in mobile browsers by YouTube policy.</p>
+      <p>If you are playing a normal audio URL/file, playback should usually continue, but Android/iOS battery management can still suspend the tab.</p>
+      <p><strong>Quick things to try on the phone:</strong></p>
+      <ul>
+        <li>Set battery mode to unrestricted for your browser (Chrome/Safari/Firefox) and disable battery saver/low power mode.</li>
+        <li>Keep only one tab with the player open; some phones aggressively freeze background tabs.</li>
+        <li>Add the app to home screen and run it as a PWA (often survives better than a normal tab).</li>
+      </ul>
     </>
   );
 }

@@ -728,6 +728,46 @@ function App(props) {
       setPlaylistsChangeHandler(null)
     }
   }, [token, updateSheet])
+
+  // App-level wake lock for gig mode, practice mode, and single view playback
+  const appWakeLockRef = useRef(null)
+
+  async function requestAppWakeLock() {
+    if (!('wakeLock' in navigator)) return
+    try {
+      if (!appWakeLockRef.current) {
+        appWakeLockRef.current = await navigator.wakeLock.request('screen')
+      }
+    } catch (e) {
+      console.warn('Failed to request screen wake lock:', e)
+    }
+  }
+
+  function releaseAppWakeLock() {
+    if (appWakeLockRef.current) {
+      appWakeLockRef.current.release()
+        .catch(() => {}) // already released, ignore errors
+      appWakeLockRef.current = null
+    }
+  }
+
+  // Request wake lock when in gig mode, practice mode, or single view
+  useEffect(function() {
+    const practiceActive = !!(practiceSession && practiceSession.sessionOpen)
+    const gigActive = isGigPlaylistActive(setPlaylist)
+    const singleViewActive = !!(currentTune && window.location.pathname.includes('/music/'))
+    const shouldKeepAwake = practiceActive || gigActive || singleViewActive
+
+    if (shouldKeepAwake) {
+      requestAppWakeLock()
+    } else {
+      releaseAppWakeLock()
+    }
+
+    return function() {
+      releaseAppWakeLock()
+    }
+  }, [practiceSession && practiceSession.sessionOpen, setPlaylist, currentTune])
   
   
   

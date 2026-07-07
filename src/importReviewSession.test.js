@@ -10,6 +10,8 @@ import {
   youtubeUrlFromCandidate,
   candidateNeedsEnrichmentOptIn,
   emptySessionSummary,
+  navigateReviewCandidate,
+  cancelCurrentCandidate,
 } from './importReviewSession';
 import {
   createEnrichmentJob,
@@ -102,6 +104,38 @@ describe('importReviewSession', function() {
   test('sheetimage candidates skip enrichment opt-in', function() {
     expect(candidateNeedsEnrichmentOptIn({ sourceKind: 'sheetimage', skipEnrich: true })).toBe(false);
     expect(candidateNeedsEnrichmentOptIn({ sourceKind: 'musicxml' })).toBe(true);
+  });
+
+  test('navigateReviewCandidate loops through queue', function() {
+    const session = createImportReviewSession([
+      { id: 'a', tune: { name: 'A' } },
+      { id: 'b', tune: { name: 'B' } },
+      { id: 'c', tune: { name: 'C' } },
+    ]);
+    const prevLoop = navigateReviewCandidate(session, -1);
+    expect(prevLoop.index).toBe(2);
+    const next = navigateReviewCandidate(prevLoop, 1);
+    expect(next.index).toBe(0);
+  });
+
+  test('cancelCurrentCandidate removes candidate and increments skipped summary', function() {
+    const session = createImportReviewSession([
+      { id: 'a', tune: { name: 'A' } },
+      { id: 'b', tune: { name: 'B' } },
+    ]);
+    const next = cancelCurrentCandidate(session);
+    expect(next.candidates.length).toBe(1);
+    expect(next.candidates[0].id).toBe('b');
+    expect(next.sessionSummary.skipped).toBe(1);
+    expect(next.step).toBe('review');
+  });
+
+  test('cancelCurrentCandidate ends review when last candidate is removed', function() {
+    const session = createImportReviewSession([{ id: 'a', tune: { name: 'A' } }]);
+    const next = cancelCurrentCandidate(session);
+    expect(next.step).toBe('done');
+    expect(next.candidates.length).toBe(0);
+    expect(next.sessionSummary.skipped).toBe(1);
   });
 });
 

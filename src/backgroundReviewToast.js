@@ -5,9 +5,26 @@ import { getBackgroundReviewSummary } from './backgroundReviewQueue'
 const BACKGROUND_REVIEW_TOAST_ID = 'background-review'
 const BACKGROUND_PROCESSING_TOAST_ID = 'background-review-processing'
 const PROCESSING_TOAST_AUTO_CLOSE_MS = 4000
+const REVIEW_TOAST_SUPPRESS_MS = 30000
+
+let reviewToastDismissedUntil = 0
+let suppressNextCloseCapture = false
+
+function markReviewToastDismissedNow() {
+  reviewToastDismissedUntil = Date.now() + REVIEW_TOAST_SUPPRESS_MS
+}
+
+function isReviewToastSuppressed() {
+  return Date.now() < reviewToastDismissedUntil
+}
+
+function dismissReviewToastProgrammatically() {
+  suppressNextCloseCapture = true
+  toast.dismiss(BACKGROUND_REVIEW_TOAST_ID)
+}
 
 export function dismissBackgroundReviewToast() {
-  toast.dismiss(BACKGROUND_REVIEW_TOAST_ID)
+  dismissReviewToastProgrammatically()
   toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
 }
 
@@ -38,8 +55,9 @@ export function syncBackgroundReviewToast(options) {
   const processingMessage = processingCount > 0 ? processingCount + ' still processing' : ''
 
   if (!readyMessage) {
-    toast.dismiss(BACKGROUND_REVIEW_TOAST_ID)
-  } else {
+    dismissReviewToastProgrammatically()
+  } else if (!isReviewToastSuppressed()) {
+    suppressNextCloseCapture = false
     toast.info(
       function(renderProps) {
         return renderReviewToast(readyMessage, opts, renderProps)
@@ -48,6 +66,13 @@ export function syncBackgroundReviewToast(options) {
         toastId: BACKGROUND_REVIEW_TOAST_ID,
         autoClose: false,
         closeOnClick: false,
+        onClose: function() {
+          if (suppressNextCloseCapture) {
+            suppressNextCloseCapture = false
+            return
+          }
+          markReviewToastDismissedNow()
+        },
       }
     )
   }

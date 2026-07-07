@@ -301,10 +301,63 @@ export default function SetsPage(props) {
   function renderEditor() {
     const items = normalizePerformanceSetItems(draft.items || []);
     const draftHasItems = setHasItems(draft);
-    const isNewSet = !editingId;
+    const draftHasName = String(draft.name || '').trim().length > 0;
+    const draftReady = draftHasName && draftHasItems;
     return (
       <div className="app-surface-panel sets-page-editor">
-        <h2>{editingId ? 'Edit set' : 'New set'}</h2>
+        <div className="sets-page-editor-header">
+          <h2>{editingId ? 'Edit set' : 'New set'}</h2>
+          <div className="sets-page-editor-actions">
+            <Button variant="primary" className="sets-page-editor-action-btn" onClick={saveDraft} disabled={!draftReady}>
+              {tunebook.icons.save}
+              <span className="sets-page-editor-action-label">Save</span>
+            </Button>
+            <Button
+              variant="success"
+              className="sets-page-editor-action-btn"
+              disabled={!draftReady}
+              onClick={function() { handlePlaySet(flushAndGetDraft()); }}
+            >
+              {tunebook.icons.play}
+              <span className="sets-page-editor-action-label">Play</span>
+            </Button>
+            <Button
+              variant="outline-secondary"
+              className="sets-page-editor-action-btn"
+              disabled={!draftReady}
+              onClick={function() {
+                const saved = flushAndGetDraft();
+                const text = exportPerformanceSetText(saved, tunes);
+                tunebook.utils.download((saved.name || 'set') + '.txt', text);
+              }}
+            >
+              {tunebook.icons.save}
+              <span className="sets-page-editor-action-label">Export</span>
+            </Button>
+            {editingId ? (
+              <ShareTunebookModal
+                tunebook={tunebook}
+                token={props.token}
+                login={props.login}
+                googleDocumentId={props.googleDocumentId}
+                shareKind="set"
+                setId={editingId}
+                setName={draft.name}
+                tunes={props.tunes}
+                sets={shareSetsMap}
+                saveTune={tunebook.saveTune}
+                variant="outline-info"
+                buttonClassName="sets-page-editor-action-btn"
+                tiny={false}
+              />
+            ) : (
+              <Button variant="outline-info" className="sets-page-editor-action-btn" disabled>
+                {tunebook.icons.share}
+                <span className="sets-page-editor-action-label">Share</span>
+              </Button>
+            )}
+          </div>
+        </div>
         <Form.Group className="mb-2">
           <Form.Label>Name</Form.Label>
           <Form.Control value={draft.name || ''} onChange={function(e) {
@@ -325,7 +378,72 @@ export default function SetsPage(props) {
         </Form.Group>
 
         <h3>Set list</h3>
-        {items.length === 0 && <p className="app-text-muted">No items yet.</p>}
+
+        <div className="sets-page-add-tune-panel">
+          <Form.Label htmlFor="set-tune-search">Add tune</Form.Label>
+          <div className="sets-page-add-tune-row">
+            <Form.Control
+              id="set-tune-search"
+              type="search"
+              placeholder="Search by title, composer, book, or tag"
+              value={tuneSearchText}
+              onChange={function(e) { setTuneSearchText(e.target.value); }}
+            />
+            <Form.Select
+              value={addTuneId}
+              onChange={function(e) { setAddTuneId(e.target.value); }}
+            >
+              <option value="">Choose tune…</option>
+              {filteredTuneOptions.tunes.map(function(tune) {
+                const label = tune.composer ? tune.name + ' — ' + tune.composer : tune.name;
+                return <option key={tune.id} value={tune.id}>{label}</option>;
+              })}
+            </Form.Select>
+              <Button
+                size="sm"
+                variant="outline-primary"
+                className="sets-page-add-tune-btn"
+                onClick={function() { addTuneToDraft(); }}
+                disabled={!addTuneId}
+              >
+                {tunebook.icons.add}
+                <span className="sets-page-add-tune-btn-label">Add</span>
+            </Button>
+          </div>
+            <div className="app-text-muted sets-page-add-tune-count">
+            {tuneSearchText.trim()
+              ? filteredTuneOptions.total + ' match' + (filteredTuneOptions.total === 1 ? '' : 'es')
+                + (filteredTuneOptions.truncated ? ' (showing first ' + SET_TUNE_PICKER_LIMIT + ')' : '')
+              : tuneOptions.length + ' tune' + (tuneOptions.length === 1 ? '' : 's')}
+          </div>
+          {tuneSearchText.trim() && filteredTuneOptions.tunes.length > 0 ? (
+            <ul className="list-unstyled sets-tune-picker-list">
+              {filteredTuneOptions.tunes.map(function(tune) {
+                const meta = [tune.composer]
+                  .concat(Array.isArray(tune.books) ? tune.books : [])
+                  .concat(Array.isArray(tune.tags) ? tune.tags : [])
+                  .filter(Boolean)
+                  .join(' · ');
+                return (
+                  <li key={tune.id}>
+                    <button
+                      type="button"
+                      className="sets-tune-picker-item"
+                      onClick={function() { addTuneToDraft(tune.id); }}
+                    >
+                      <span className="sets-tune-picker-name">{tune.name}</span>
+                      {meta && <span className="sets-tune-picker-meta">{meta}</span>}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          ) : tuneSearchText.trim() ? (
+            <p className="app-text-muted" style={{ marginBottom: 0 }}>No tunes match your search.</p>
+          ) : null}
+        </div>
+
+        {items.length === 0 && <p className="app-text-muted">No tunes selected yet.</p>}
         <ul className="list-unstyled">
           {items.map(function(item, index) {
             const tune = tunes[item.tuneId];
@@ -371,101 +489,6 @@ export default function SetsPage(props) {
           })}
         </ul>
 
-        <div style={{ marginBottom: '1rem' }}>
-          <Form.Label htmlFor="set-tune-search">Add tune</Form.Label>
-          <div className="sets-page-add-tune-row">
-            <Form.Control
-              id="set-tune-search"
-              type="search"
-              placeholder="Search by title, composer, book, or tag"
-              value={tuneSearchText}
-              onChange={function(e) { setTuneSearchText(e.target.value); }}
-            />
-            <Form.Select
-              value={addTuneId}
-              onChange={function(e) { setAddTuneId(e.target.value); }}
-            >
-              <option value="">Choose tune…</option>
-              {filteredTuneOptions.tunes.map(function(tune) {
-                const label = tune.composer ? tune.name + ' — ' + tune.composer : tune.name;
-                return <option key={tune.id} value={tune.id}>{label}</option>;
-              })}
-            </Form.Select>
-            <Button variant="outline-primary" onClick={function() { addTuneToDraft(); }} disabled={!addTuneId}>
-              Add tune
-            </Button>
-          </div>
-          <div className="app-text-muted" style={{ fontSize: '0.9em', marginBottom: '0.35rem' }}>
-            {tuneSearchText.trim()
-              ? filteredTuneOptions.total + ' match' + (filteredTuneOptions.total === 1 ? '' : 'es')
-                + (filteredTuneOptions.truncated ? ' (showing first ' + SET_TUNE_PICKER_LIMIT + ')' : '')
-              : tuneOptions.length + ' tune' + (tuneOptions.length === 1 ? '' : 's')}
-          </div>
-          {tuneSearchText.trim() && filteredTuneOptions.tunes.length > 0 ? (
-            <ul className="list-unstyled sets-tune-picker-list">
-              {filteredTuneOptions.tunes.map(function(tune) {
-                const meta = [tune.composer]
-                  .concat(Array.isArray(tune.books) ? tune.books : [])
-                  .concat(Array.isArray(tune.tags) ? tune.tags : [])
-                  .filter(Boolean)
-                  .join(' · ');
-                return (
-                  <li key={tune.id}>
-                    <button
-                      type="button"
-                      className="sets-tune-picker-item"
-                      onClick={function() { addTuneToDraft(tune.id); }}
-                    >
-                      <span className="sets-tune-picker-name">{tune.name}</span>
-                      {meta && <span className="sets-tune-picker-meta">{meta}</span>}
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
-          ) : tuneSearchText.trim() ? (
-            <p className="app-text-muted" style={{ marginBottom: 0 }}>No tunes match your search.</p>
-          ) : null}
-        </div>
-
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-          {isNewSet && (
-            <Button variant="primary" onClick={saveDraft}>Save set</Button>
-          )}
-          <Button
-            variant="success"
-            disabled={!draftHasItems}
-            onClick={function() { handlePlaySet(flushAndGetDraft()); }}
-          >
-            Play set
-          </Button>
-          <Button
-            variant="outline-secondary"
-            disabled={!draftHasItems}
-            onClick={function() {
-              const saved = flushAndGetDraft();
-              const text = exportPerformanceSetText(saved, tunes);
-              tunebook.utils.download((saved.name || 'set') + '.txt', text);
-            }}
-          >
-            Export
-          </Button>
-          {editingId && (
-            <ShareTunebookModal
-              tunebook={tunebook}
-              token={props.token}
-              login={props.login}
-              googleDocumentId={props.googleDocumentId}
-              shareKind="set"
-              setId={editingId}
-              setName={draft.name}
-              tunes={props.tunes}
-              sets={shareSetsMap}
-              saveTune={tunebook.saveTune}
-              variant="outline-info"
-            />
-          )}
-        </div>
       </div>
     );
   }
@@ -602,22 +625,27 @@ export default function SetsPage(props) {
         <div className="sets-page-header-actions">
         <Button
           variant="secondary"
+          className="sets-page-header-action-btn"
           disabled={sets.length === 0}
           onClick={function() {
             const text = exportAllPerformanceSetsText(sets, tunes);
             tunebook.utils.download('performance-sets.txt', text);
           }}
         >
-          Export
+          {tunebook.icons.save}
+          <span className="sets-page-header-action-label">Export all</span>
         </Button>
-        <Button variant="primary" onClick={startNew}>New set</Button>
+        <Button variant="primary" className="sets-page-header-action-btn" onClick={startNew}>
+          {tunebook.icons.add}
+          <span className="sets-page-header-action-label">New Set</span>
+        </Button>
         </div>
       </div>
-      <p className="app-text-muted sets-page-intro">
-        {props.gigPickerMode
-          ? 'Choose a set to open fullscreen Gig Mode with foot-pedal scrolling and set-aware navigation.'
-          : 'Build ordered setlists for gigs. Play a set in fullscreen Gig Mode with foot-pedal scrolling and set-aware navigation.'}
-      </p>
+      {props.gigPickerMode ? (
+        <p className="app-text-muted sets-page-intro">
+          Choose a set to open fullscreen Gig Mode with foot-pedal scrolling and set-aware navigation.
+        </p>
+      ) : null}
 
       <div className={'sets-page-layout' + (props.gigPickerMode ? ' sets-page-layout--picker' : '')}>
         {renderSetSidebar()}

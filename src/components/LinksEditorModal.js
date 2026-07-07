@@ -65,7 +65,7 @@ export default function LinksEditorModal(props) {
   return (
     <>
         
-      <Button className="tune-meta-modal-btn" aria-label="Media links" style={{position:'relative', float:'left', marginLeft:'0.1em', width:'2.6em', height:'2.37em'}} variant="warning" onClick={handleShow}><span aria-hidden="true" style={{position:'absolute', top:'1px', left:'1.3em', opacity: 0.9, fontSize:'0.5em'}}>{tunebook.icons.link} </span><Badge size="sm" style={{position:'absolute', top:'26px', left:'1.4em',  fontSize:'0.5em'}} >{linkCount}</Badge></Button>
+      <Button className="tune-meta-modal-btn" aria-label="Media links" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
 
       <Modal
         show={show}

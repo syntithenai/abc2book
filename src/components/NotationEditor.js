@@ -62,11 +62,10 @@ import {
   abcCharRangeForEventIndex,
   eventsFromVoiceBody,
   caretIndexForStartBeat,
-  eventIndexFromStaffAbcElem,
   eventIndexFromSelectableIndex,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
-import { caretIndexAndAnchorFromStaffClick, eventIdFromStaffNoteElement } from '../notation/staffCaretPosition';
+import { caretIndexAndAnchorFromStaffClick, eventIdFromStaffNoteElement, eventIndexFromStaffClick } from '../notation/staffCaretPosition';
 import useMidiInput from '../notation/useMidiInput';
 import {
   toggleTie,
@@ -685,17 +684,8 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : 0;
     const fullAbc = renderedAbc || displayAbc;
-    function resolveEventIndex() {
-      return eventIndexFromStaffAbcElem(
-        s.events,
-        tuneMeta,
-        fullAbc,
-        displayedVoiceKeys,
-        voiceIdx,
-        abcelem,
-        analysis
-      );
-    }
+    // Centralized resolver: prefer abcelem mapping then DOM fallback.
+    // Use eventIndexFromStaffClick so all callers share the same precedence logic.
 
     if (drag && typeof drag.step === 'number' && drag.step !== 0 && s.mode !== EDITOR_MODES.NOTE_INPUT) {
       let dragEv = null;
@@ -705,7 +695,17 @@ export default function NotationEditor(props) {
         if (dragIdx >= 0) dragEv = s.events[dragIdx];
       }
       if (!dragEv) {
-        dragIdx = resolveEventIndex();
+        dragIdx = eventIndexFromStaffClick(
+          staffWrapRef && staffWrapRef.current ? staffWrapRef.current : null,
+          s.events,
+          mouseEvent,
+          abcelem,
+          analysis,
+          voiceIdx,
+          tuneMeta,
+          fullAbc,
+          displayedVoiceKeys
+        );
         dragEv = dragIdx >= 0 ? s.events[dragIdx] : null;
       }
       if (!dragEv && drag && typeof drag.index === 'number') {
@@ -731,18 +731,17 @@ export default function NotationEditor(props) {
       staffDragTargetRef.current = null;
     }
 
-    let idx = null;
-    // Prefer DOM-based resolution when we have the actual mouse event and rendered staff.
-    if (mouseEvent && staffWrapRef && staffWrapRef.current) {
-      try {
-        const clickPos = caretIndexAndAnchorFromStaffClick(staffWrapRef.current, s.events, mouseEvent, analysis, voiceIdx);
-        if (clickPos && typeof clickPos.caretIndex === 'number') idx = clickPos.caretIndex;
-      } catch (err) {
-        // If DOM resolver throws for any reason, fall back to abc-based resolver below.
-        idx = null;
-      }
-    }
-    if (idx == null) idx = resolveEventIndex();
+    const idx = eventIndexFromStaffClick(
+      staffWrapRef && staffWrapRef.current ? staffWrapRef.current : null,
+      s.events,
+      mouseEvent,
+      abcelem,
+      analysis,
+      voiceIdx,
+      tuneMeta,
+      fullAbc,
+      displayedVoiceKeys
+    );
     const ev = idx < s.events.length ? s.events[idx] : null;
     if (s.slurMode && ev) {
       const slurPatch = handleSlurModeClick(s, ev.id);

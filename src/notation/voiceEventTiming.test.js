@@ -138,6 +138,26 @@ describe('eventIndexFromStaffAbcElem', function() {
     expect(result).toBeGreaterThanOrEqual(0);
   });
 
+  test('eventIndexFromStaffAbcElem picks candidate by measure when multiple midi matches', function() {
+    const tuneMetaLocal = { meter: '4/4', noteLength: '1/8', key: 'C', tempo: 120 };
+    // two notes with same pitch in different measures
+    const events = [ { type: 'note', pitch: 'C' , measureIndex: 0 }, { type: 'note', pitch: 'C', measureIndex: 1 } ];
+    const abc = 'C | C |';
+    // midi for C (middle C)
+    const midiC = 60;
+    // ask for measure 1 -> should pick second candidate (index 1)
+    const idx = eventIndexFromStaffAbcElem(events, tuneMetaLocal, abc, ['1'], 0, { midi: midiC }, { measure: 1 });
+    expect(idx).toBe(1);
+  });
+
+  test('eventIndexFromStaffAbcElem without measure returns last matching candidate', function() {
+    const events = [ { type: 'note', pitch: 'C' }, { type: 'note', pitch: 'C' } ];
+    const abc = 'C C';
+    const midiC = 60;
+    const idx = eventIndexFromStaffAbcElem(events, tuneMeta, abc, ['1'], 0, { midi: midiC }, null);
+    expect(idx).toBe(events.length - 1);
+  });
+
   test('eventIndexFromSelectableIndex handles empty events', function() {
     const events = [];
     const result = eventIndexFromSelectableIndex(events, 0);

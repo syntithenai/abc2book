@@ -5,44 +5,24 @@ import {
   Badge,
   Button,
   Card,
-  Col,
   Container,
   Form,
   InputGroup,
   ListGroup,
-  Row,
   Spinner,
   Tab,
   Tabs,
 } from 'react-bootstrap'
 import { analyzePhrase, buildSyllableSummary } from '../lyricsWordUtils'
 import {
+  lookupAlliteration,
   lookupDictionary,
   lookupPhraseIdeas,
   lookupReverseDictionary,
   lookupRhymes,
   lookupThesaurus,
 } from '../lyricsWordToolsApi'
-
-function ToolCard(props) {
-  return (
-    <Card className="h-100 shadow-sm">
-      <Card.Body>
-        <div className="d-flex justify-content-between align-items-start gap-2 mb-2">
-          <Card.Title as="h3" className="h5 mb-0">
-            {props.item.name}
-          </Card.Title>
-          <Badge bg="secondary" pill>
-            {props.item.status}
-          </Badge>
-        </div>
-        <Card.Text className="text-muted mb-0">
-          {props.item.description}
-        </Card.Text>
-      </Card.Body>
-    </Card>
-  )
-}
+import useMediaResolverHealth from '../useMediaResolverHealth'
 
 function ResultPillList(props) {
   if (!props.items || props.items.length === 0) {
@@ -55,7 +35,7 @@ function ResultPillList(props) {
         return (
           <Badge key={item.word + ':' + item.score} bg="light" text="dark" pill className="border">
             {item.word}
-            {item.numSyllables ? ' · ' + item.numSyllables : ''}
+            {item.numSyllables ? ' . ' + item.numSyllables : ''}
           </Badge>
         )
       })}
@@ -64,10 +44,17 @@ function ResultPillList(props) {
 }
 
 function SearchPanel(props) {
-  const [query, setQuery] = useState(props.initialQuery || '')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [result, setResult] = useState(null)
+  const query = props.query || ''
+
+  useEffect(function() {
+    setError('')
+    if (!query.trim()) {
+      setResult(null)
+    }
+  }, [query])
 
   async function runSearch(nextQuery) {
     const term = String(nextQuery || '').trim()
@@ -96,6 +83,12 @@ function SearchPanel(props) {
     runSearch(query)
   }
 
+  function handleClear() {
+    setError('')
+    setResult(null)
+    if (props.onQueryChange) props.onQueryChange('')
+  }
+
   return (
     <Card className="shadow-sm h-100 border-0 bg-body-tertiary">
       <Card.Body>
@@ -106,9 +99,21 @@ function SearchPanel(props) {
 
         <Form onSubmit={handleSubmit} className="mb-3">
           <InputGroup>
+            <Button
+              type="button"
+              variant="outline-danger"
+              onClick={handleClear}
+              disabled={!query}
+              aria-label="Clear search"
+              title="Clear search"
+            >
+              x
+            </Button>
             <Form.Control
               value={query}
-              onChange={function(event) { setQuery(event.target.value) }}
+              onChange={function(event) {
+                if (props.onQueryChange) props.onQueryChange(event.target.value)
+              }}
               placeholder={props.placeholder}
               aria-label={props.title + ' query'}
             />
@@ -119,7 +124,7 @@ function SearchPanel(props) {
         </Form>
 
         {error ? <Alert variant="warning" className="py-2">{error}</Alert> : null}
-        {loading ? <div className="text-muted small mb-3">Searching word tools…</div> : null}
+        {loading ? <div className="text-muted small mb-3">Searching word tools...</div> : null}
         {props.renderResult ? props.renderResult(result, query) : null}
       </Card.Body>
     </Card>
@@ -212,50 +217,84 @@ function renderListGroup(items) {
   return <ResultPillList items={items || []} />
 }
 
-const tabConfig = [
-  { id: 'dictionary', title: 'Dictionary', description: 'Definitions, usage, and part of speech.' },
-  { id: 'thesaurus', title: 'Thesaurus', description: 'Synonyms, antonyms, and related words.' },
-  { id: 'rhyme', title: 'Rhyme Finder', description: 'Perfect and near rhymes for a lyric line.' },
-  { id: 'meter', title: 'Syllables + Stress', description: 'Meter help for line writing and scansion.' },
-  { id: 'reverse', title: 'Reverse Dictionary', description: 'Find the word from a description.' },
-  { id: 'phrases', title: 'Phrase Finder', description: 'Collocations and adjacent word ideas.' },
-]
+function ExpandableSection(props) {
+  const [isExpanded, setIsExpanded] = useState(props.defaultExpanded !== false)
+  return (
+    <div>
+      <div className="d-flex align-items-center gap-2 mb-2 cursor-pointer" onClick={function() { setIsExpanded(!isExpanded) }} style={{ userSelect: 'none' }}>
+        <span style={{ fontSize: '0.9em', minWidth: '1.2em', textAlign: 'center' }}>
+          {isExpanded ? '▼' : '▶'}
+        </span>
+        <div className="fw-semibold">{props.title}</div>
+      </div>
+      {isExpanded ? <div className="ms-3">{props.children}</div> : null}
+    </div>
+  )
+}
 
-const suggestionWords = ['heart', 'blue', 'river', 'fire', 'home', 'night']
+const LEGACY_LOOKUP_TABS = new Set(['dictionary', 'thesaurus', 'alliteration', 'rhyme'])
+const SUPPORTED_TABS = new Set(['lookup', 'meter', 'reverse', 'phrases'])
+
+function normalizeTab(tabId) {
+  const candidate = String(tabId || '').trim().toLowerCase()
+  if (LEGACY_LOOKUP_TABS.has(candidate)) return 'lookup'
+  if (SUPPORTED_TABS.has(candidate)) return candidate
+  return 'lookup'
+}
 
 export default function LyricsPage(props) {
   const [searchParams, setSearchParams] = useSearchParams()
-  const [activeTab, setActiveTab] = useState(searchParams.get('tab') || 'dictionary')
+  const [activeTab, setActiveTab] = useState(normalizeTab(searchParams.get('tab') || 'lookup'))
   const accessToken = props.token || ''
-  const [queries, setQueries] = useState({
-    dictionary: searchParams.get('q') || '',
-    thesaurus: '',
-    rhyme: '',
-    meter: searchParams.get('q') || '',
-    reverse: '',
-    phrases: '',
+  const [lookupQuery, setLookupQuery] = useState(searchParams.get('q') || '')
+  const [toolQuery, setToolQuery] = useState(searchParams.get('toolQ') || '')
+  const [expandedSections, setExpandedSections] = useState({
+    dictionary: true,
+    thesaurus: true,
+    alliteration: true,
+    rhyme: true,
   })
+  const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
 
   useEffect(function() {
-    const nextTab = searchParams.get('tab') || 'dictionary'
+    const nextTab = normalizeTab(searchParams.get('tab') || 'lookup')
     setActiveTab(nextTab)
+    setLookupQuery(searchParams.get('q') || '')
+    setToolQuery(searchParams.get('toolQ') || '')
   }, [searchParams])
 
   function updateTab(tabId) {
-    const nextTab = tabId || 'dictionary'
+    const nextTab = normalizeTab(tabId || 'lookup')
     setActiveTab(nextTab)
     const nextParams = new URLSearchParams(searchParams)
     nextParams.set('tab', nextTab)
     setSearchParams(nextParams, { replace: true })
   }
 
-  function rememberQuery(tabId, query) {
-    setQueries(function(previous) {
-      return Object.assign({}, previous, { [tabId]: query })
-    })
+  function updateLookupQuery(nextQuery) {
+    const value = String(nextQuery || '')
+    setLookupQuery(value)
     const nextParams = new URLSearchParams(searchParams)
-    nextParams.set('tab', tabId)
-    nextParams.set('q', query)
+    nextParams.set('tab', 'lookup')
+    if (value) {
+      nextParams.set('q', value)
+    } else {
+      nextParams.delete('q')
+    }
+    setSearchParams(nextParams, { replace: true })
+  }
+
+  function updateToolQuery(nextQuery, tabId) {
+    const value = String(nextQuery || '')
+    const nextTab = normalizeTab(tabId || activeTab)
+    setToolQuery(value)
+    const nextParams = new URLSearchParams(searchParams)
+    nextParams.set('tab', nextTab)
+    if (value) {
+      nextParams.set('toolQ', value)
+    } else {
+      nextParams.delete('toolQ')
+    }
     setSearchParams(nextParams, { replace: true })
   }
 
@@ -264,112 +303,120 @@ export default function LyricsPage(props) {
       <div className="mb-4">
         <h1 className="mb-2">Lyrics</h1>
         <p className="text-muted mb-3" style={{ maxWidth: '60rem' }}>
-          Songwriter tools for finding words that fit meaning, sound, and meter. Dictionary and thesaurus
-          are the first working tools here, with rhyme, reverse lookup, and phrase ideas ready behind them.
+          Songwriter tools for finding words that fit meaning, sound, and meter. Start with Lookup, then move through
+          syllables, reverse lookup, and phrase ideas as needed.
         </p>
-        <div className="d-flex flex-wrap gap-2 align-items-center">
-          <span className="text-muted small">Try:</span>
-          {suggestionWords.map(function(word) {
-            return (
-              <Button
-                key={word}
-                variant="outline-secondary"
-                size="sm"
-                onClick={function() {
-                  updateTab('dictionary')
-                  rememberQuery('dictionary', word)
-                }}
-              >
-                {word}
-              </Button>
-            )
-          })}
-        </div>
       </div>
 
-      <Row className="g-3 mb-4">
-        {tabConfig.map(function(item) {
-          return (
-            <Col key={item.id} xs={12} md={6} xl={4}>
-              <ToolCard
-                item={{
-                  name: item.title,
-                  status: item.id === 'dictionary' || item.id === 'thesaurus' ? 'Live first' : 'Ready next',
-                  description: item.description,
-                }}
-              />
-            </Col>
-          )
-        })}
-      </Row>
+      {!resolverChecked ? (
+        <Card className="shadow-sm border-0">
+          <Card.Body className="text-muted">Checking media resolver...</Card.Body>
+        </Card>
+      ) : null}
 
+      {resolverChecked && !resolverAvailable ? (
+        <Alert variant="warning" className="mb-0">
+          Lyrics tools are available only when the media resolver is running and reachable.
+        </Alert>
+      ) : null}
+
+      {resolverChecked && resolverAvailable ? (
       <Card className="shadow-sm border-0">
         <Card.Body>
-          <Tabs activeKey={activeTab} onSelect={function(eventKey) { updateTab(eventKey || 'dictionary') }} className="mb-3">
-            <Tab eventKey="dictionary" title="Dictionary">
+          <Tabs activeKey={activeTab} onSelect={function(eventKey) { updateTab(eventKey || 'lookup') }} className="mb-3">
+            <Tab eventKey="lookup" title="Lookup">
               <SearchPanel
-                title="Dictionary"
-                description="Look up definitions, usage examples, and pronunciation cues."
+                title="Lookup"
+                description="One search across dictionary, thesaurus, alliteration, and rhyme finder."
                 placeholder="Search a word, like courage"
-                initialQuery={queries.dictionary}
-                onSearchComplete={function(term) { rememberQuery('dictionary', term) }}
-                onSearch={function(term) { return lookupDictionary(term, accessToken) }}
-                renderResult={function(result) { return <DictionaryResult result={result} /> }}
-              />
-            </Tab>
-            <Tab eventKey="thesaurus" title="Thesaurus">
-              <SearchPanel
-                title="Thesaurus"
-                description="Find synonyms, antonyms, and related word choices."
-                placeholder="Search a word, like lonely"
-                initialQuery={queries.thesaurus}
-                onSearchComplete={function(term) { rememberQuery('thesaurus', term) }}
-                onSearch={function(term) { return lookupThesaurus(term, accessToken) }}
-                renderResult={function(result) {
-                  if (!result) return <div className="text-muted small">Search for synonyms and antonyms.</div>
-                  return (
-                    <div className="d-grid gap-3">
-                      <div>
-                        <div className="fw-semibold mb-2">Synonyms</div>
-                        {renderListGroup(result.synonyms)}
-                      </div>
-                      <div>
-                        <div className="fw-semibold mb-2">Antonyms</div>
-                        {renderListGroup(result.antonyms)}
-                      </div>
-                      <div>
-                        <div className="fw-semibold mb-2">Related</div>
-                        {renderListGroup(result.related)}
-                      </div>
-                    </div>
-                  )
+                query={lookupQuery}
+                onQueryChange={function(nextQuery) { updateLookupQuery(nextQuery) }}
+                onSearchComplete={function(term) { updateLookupQuery(term) }}
+                onSearch={async function(term) {
+                  const [dictionary, thesaurus, alliteration, rhyme] = await Promise.all([
+                    lookupDictionary(term, accessToken),
+                    lookupThesaurus(term, accessToken),
+                    lookupAlliteration(term, accessToken),
+                    lookupRhymes(term, accessToken),
+                  ])
+                  return {
+                    dictionary: dictionary,
+                    thesaurus: thesaurus,
+                    alliteration: alliteration,
+                    rhyme: rhyme,
+                  }
                 }}
-              />
-            </Tab>
-            <Tab eventKey="rhyme" title="Rhyme Finder">
-              <SearchPanel
-                title="Rhyme Finder"
-                description="Perfect rhymes, near rhymes, and sound-alike options for lyric lines."
-                placeholder="Search a word, like moon"
-                initialQuery={queries.rhyme}
-                onSearchComplete={function(term) { rememberQuery('rhyme', term) }}
-                onSearch={function(term) { return lookupRhymes(term, accessToken) }}
                 renderResult={function(result) {
-                  if (!result) return <div className="text-muted small">Search for rhymes and slant rhymes.</div>
+                  if (!result) return <div className="text-muted small">Search to load definitions, synonyms, alliteration, and rhymes.</div>
                   return (
-                    <div className="d-grid gap-3">
-                      <div>
-                        <div className="fw-semibold mb-2">Perfect rhymes</div>
-                        {renderListGroup(result.perfect)}
-                      </div>
-                      <div>
-                        <div className="fw-semibold mb-2">Near rhymes</div>
-                        {renderListGroup(result.near)}
-                      </div>
-                      <div>
-                        <div className="fw-semibold mb-2">Sound-alikes</div>
-                        {renderListGroup(result.soundsLike)}
-                      </div>
+                    <div className="d-grid gap-4">
+                      <ExpandableSection 
+                        title="Dictionary" 
+                        defaultExpanded={expandedSections.dictionary}
+                      >
+                        <div className="d-flex align-items-center gap-2 mb-2">
+                          <Button 
+                            size="sm" 
+                            variant={expandedSections.dictionary ? 'primary' : 'outline-primary'}
+                            onClick={function() { setExpandedSections({...expandedSections, dictionary: !expandedSections.dictionary}) }}
+                            style={{ display: 'none' }}
+                          ></Button>
+                        </div>
+                        <DictionaryResult result={result.dictionary} />
+                      </ExpandableSection>
+                      <ExpandableSection 
+                        title="Thesaurus" 
+                        defaultExpanded={expandedSections.thesaurus}
+                      >
+                        <div className="d-grid gap-3">
+                          <div>
+                            <div className="fw-semibold mb-2">Synonyms</div>
+                            {renderListGroup(result.thesaurus && result.thesaurus.synonyms)}
+                          </div>
+                          <div>
+                            <div className="fw-semibold mb-2">Antonyms</div>
+                            {renderListGroup(result.thesaurus && result.thesaurus.antonyms)}
+                          </div>
+                          <div>
+                            <div className="fw-semibold mb-2">Related</div>
+                            {renderListGroup(result.thesaurus && result.thesaurus.related)}
+                          </div>
+                        </div>
+                      </ExpandableSection>
+                      <ExpandableSection 
+                        title="Alliteration" 
+                        defaultExpanded={expandedSections.alliteration}
+                      >
+                        <div className="d-grid gap-3">
+                          <div>
+                            <div className="fw-semibold mb-2">Alliterative adjectives</div>
+                            {renderListGroup(result.alliteration && result.alliteration.alliterative)}
+                          </div>
+                          <div>
+                            <div className="fw-semibold mb-2">More related adjectives</div>
+                            {renderListGroup(result.alliteration && result.alliteration.related)}
+                          </div>
+                        </div>
+                      </ExpandableSection>
+                      <ExpandableSection 
+                        title="Rhyme Finder" 
+                        defaultExpanded={expandedSections.rhyme}
+                      >
+                        <div className="d-grid gap-3">
+                          <div>
+                            <div className="fw-semibold mb-2">Perfect rhymes</div>
+                            {renderListGroup(result.rhyme && result.rhyme.perfect)}
+                          </div>
+                          <div>
+                            <div className="fw-semibold mb-2">Near rhymes</div>
+                            {renderListGroup(result.rhyme && result.rhyme.near)}
+                          </div>
+                          <div>
+                            <div className="fw-semibold mb-2">Sound-alikes</div>
+                            {renderListGroup(result.rhyme && result.rhyme.soundsLike)}
+                          </div>
+                        </div>
+                      </ExpandableSection>
                     </div>
                   )
                 }}
@@ -380,11 +427,12 @@ export default function LyricsPage(props) {
                 title="Syllables + Stress"
                 description="Quick meter help for line pacing and singability."
                 placeholder="Enter a line, like blue moon on the water"
-                initialQuery={queries.meter}
-                onSearchComplete={function(term) { rememberQuery('meter', term) }}
+                query={toolQuery}
+                onQueryChange={function(nextQuery) { updateToolQuery(nextQuery, 'meter') }}
+                onSearchComplete={function(term) { updateToolQuery(term, 'meter') }}
                 onSearch={function(term) { return Promise.resolve({ analysis: analyzePhrase(term) }) }}
-                renderResult={function(result, query) {
-                  const analysis = result ? result.analysis : analyzePhrase(query)
+                renderResult={function(result, currentQuery) {
+                  const analysis = result ? result.analysis : analyzePhrase(currentQuery)
                   if (!analysis.words.length) return <div className="text-muted small">Type a line to estimate syllables and stress.</div>
                   return <MeterResult analysis={analysis} />
                 }}
@@ -395,8 +443,9 @@ export default function LyricsPage(props) {
                 title="Reverse Dictionary"
                 description="Describe the idea you need, then get candidate words back."
                 placeholder="Describe the feeling or image, like something bittersweet and glowing"
-                initialQuery={queries.reverse}
-                onSearchComplete={function(term) { rememberQuery('reverse', term) }}
+                query={toolQuery}
+                onQueryChange={function(nextQuery) { updateToolQuery(nextQuery, 'reverse') }}
+                onSearchComplete={function(term) { updateToolQuery(term, 'reverse') }}
                 onSearch={function(term) { return lookupReverseDictionary(term, accessToken) }}
                 renderResult={function(result) {
                   if (!result) return <div className="text-muted small">Search by idea or concept.</div>
@@ -424,8 +473,9 @@ export default function LyricsPage(props) {
                 title="Phrase Finder"
                 description="Find common neighbors and phrase-level word ideas around a seed phrase."
                 placeholder="Enter a phrase, like under the stars"
-                initialQuery={queries.phrases}
-                onSearchComplete={function(term) { rememberQuery('phrases', term) }}
+                query={toolQuery}
+                onQueryChange={function(nextQuery) { updateToolQuery(nextQuery, 'phrases') }}
+                onSearchComplete={function(term) { updateToolQuery(term, 'phrases') }}
                 onSearch={function(term) { return lookupPhraseIdeas(term, accessToken) }}
                 renderResult={function(result) {
                   if (!result) return <div className="text-muted small">Search for phrase neighbors and collocations.</div>
@@ -433,11 +483,15 @@ export default function LyricsPage(props) {
                     <div className="d-grid gap-3">
                       <div>
                         <div className="fw-semibold mb-2">Words that follow this phrase</div>
-                        {renderListGroup(result.leftContext)}
+                        {renderListGroup(result.followContext)}
                       </div>
                       <div>
                         <div className="fw-semibold mb-2">Words that precede this phrase</div>
-                        {renderListGroup(result.rightContext)}
+                        {renderListGroup(result.precedeContext)}
+                      </div>
+                      <div>
+                        <div className="fw-semibold mb-2">Related imagery and themes</div>
+                        {renderListGroup(result.related)}
                       </div>
                       <div>
                         <div className="fw-semibold mb-2">Phrase-shaped suggestions</div>
@@ -451,9 +505,10 @@ export default function LyricsPage(props) {
           </Tabs>
         </Card.Body>
       </Card>
+      ) : null}
 
       <div className="text-muted small mt-3">
-        Meter summary helper: {buildSyllableSummary(queries.meter)}
+        Meter summary helper: {buildSyllableSummary(toolQuery)}
       </div>
     </Container>
   )

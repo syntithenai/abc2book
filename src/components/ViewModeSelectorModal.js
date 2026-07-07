@@ -149,6 +149,8 @@ function DisplayModeToolbar(props) {
     onNotationFitModeChange,
     className,
     preferInlineChords: preferInline,
+    hideInlineVoiceControls,
+    separateInlineFitButton,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
@@ -165,7 +167,7 @@ function DisplayModeToolbar(props) {
         preferInlineChords={preferInline}
         onChange={onFlagsChange}
       />
-      {notationOn ? (
+      {notationOn && !hideInlineVoiceControls ? (
         <ViewModeVoiceControls
           inline
           tune={tune}
@@ -174,7 +176,7 @@ function DisplayModeToolbar(props) {
           onChange={onVoiceSettingsChange}
         />
       ) : null}
-      {notationOn && onNotationFitModeChange ? (
+      {notationOn && onNotationFitModeChange && !separateInlineFitButton ? (
         <NotationFitButton
           tunebook={tunebook}
           fitMode={notationFitMode}
@@ -242,8 +244,14 @@ export default function ViewModeSelectorModal(props) {
   const toggleIcon = isEditor
     ? renderEditorModeIcon(currentMode, props.tunebook)
     : props.tunebook.icons.eye;
+  const forceDropdown = !!props.forceDropdown;
   const useEditorToolbar = isEditor && !isNarrowViewport;
-  const useDisplayToolbar = !isEditor && !isNarrowViewport;
+  const useDisplayToolbar = !isEditor && !isNarrowViewport && !forceDropdown;
+  const separateInlineFitButton = !isEditor && !!props.separateInlineFitButton;
+  const showSeparateInlineFitButton = separateInlineFitButton
+    && displayFlags
+    && displayFlags.notation !== 'off'
+    && !!props.onNotationFitModeChange;
 
   function handleSelect(modeId) {
     props.onChange(modeId);
@@ -270,18 +278,30 @@ export default function ViewModeSelectorModal(props) {
 
   if (useDisplayToolbar) {
     return (
-      <DisplayModeToolbar
-        className={props.className}
-        displayFlags={displayFlags}
-        available={available}
-        tune={props.tune}
-        tunebook={props.tunebook}
-        preferInlineChords={preferInline}
-        onFlagsChange={handleFlagsChange}
-        onVoiceSettingsChange={props.onVoiceSettingsChange}
-        notationFitMode={props.notationFitMode}
-        onNotationFitModeChange={props.onNotationFitModeChange}
-      />
+      <>
+        <DisplayModeToolbar
+          className={props.className}
+          displayFlags={displayFlags}
+          available={available}
+          tune={props.tune}
+          tunebook={props.tunebook}
+          preferInlineChords={preferInline}
+          onFlagsChange={handleFlagsChange}
+          onVoiceSettingsChange={props.onVoiceSettingsChange}
+          notationFitMode={props.notationFitMode}
+          onNotationFitModeChange={props.onNotationFitModeChange}
+          hideInlineVoiceControls={props.hideInlineVoiceControls}
+          separateInlineFitButton={separateInlineFitButton}
+        />
+        {showSeparateInlineFitButton ? (
+          <NotationFitButton
+            className="display-mode-toolbar-fit"
+            tunebook={props.tunebook}
+            fitMode={props.notationFitMode}
+            onChange={props.onNotationFitModeChange}
+          />
+        ) : null}
+      </>
     );
   }
 
@@ -352,6 +372,18 @@ export default function ViewModeSelectorModal(props) {
                   tunebook={props.tunebook}
                   onChange={props.onVoiceSettingsChange}
                 />
+              </>
+            ) : null}
+            {props.extraMenuContent ? (
+              <>
+                <Dropdown.Divider />
+                <div
+                  className="view-mode-extra-menu-content"
+                  onClick={function(e) { e.stopPropagation(); }}
+                  onMouseDown={function(e) { e.stopPropagation(); }}
+                >
+                  {props.extraMenuContent}
+                </div>
               </>
             ) : null}
             {displayFlags.notation !== 'off' && props.onNotationFitModeChange ? (

@@ -120,6 +120,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/lyrics-rhyme') === 0) return 'lyrics-rhyme';
   if (pathAndQuery.indexOf('/lyrics-reverse-dictionary') === 0) return 'lyrics-reverse-dictionary';
   if (pathAndQuery.indexOf('/lyrics-phrases') === 0) return 'lyrics-phrases';
+  if (pathAndQuery.indexOf('/lyrics-alliteration') === 0) return 'lyrics-alliteration';
   if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
   if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
   if (pathAndQuery.indexOf('/research-tune-background') === 0) return 'research-tune-background';
@@ -349,7 +350,7 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
         + (detail ? ': ' + detail : '')
         + (hint ? ' (' + hint + ')' : '')
       );
-      if ((response.status === 401 || response.status === 403 || response.status === 404) && i < bases.length - 1) {
+      if ((response.status === 401 || response.status === 403 || response.status === 404 || response.status === 405) && i < bases.length - 1) {
         lastError = proxyError;
         activeProxyBase = null;
         continue;
@@ -359,7 +360,8 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
       lastError = error;
       if (error && error.message && error.message.indexOf('Media proxy error') === 0) {
         if (error.message.indexOf('Media proxy error 401') === 0
-          || error.message.indexOf('Media proxy error 403') === 0) {
+          || error.message.indexOf('Media proxy error 403') === 0
+          || error.message.indexOf('Media proxy error 405') === 0) {
           activeProxyBase = null;
           if (i < bases.length - 1) continue;
         }

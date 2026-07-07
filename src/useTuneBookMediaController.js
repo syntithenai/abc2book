@@ -55,6 +55,10 @@ import {
     beginSeekHold as computeSeekHoldUntil,
 } from './playbackStateLogic'
 import { trackAbcPlay, trackMediaPlay } from './analytics'
+import {
+    registerMediaSessionHandlers,
+    clearMediaSessionHandlersRegistration,
+} from './mediaSessionActions'
     
 export default function useTuneBookMediaController(props) {
     const driveDocs = useGoogleDocument(props.token, function() {})
@@ -129,6 +133,8 @@ export default function useTuneBookMediaController(props) {
     var practiceSessionActiveRef = useRef(false)
     var queuePlaybackResumeRef = useRef(null)
     var userGesturePlayRef = useRef(false)
+    var wakeLockRef = useRef(null)
+    var isPlayingRef = useRef(false)
     var externalMediaRef = useRef(null)
     var sharedExternalAudioContextRef = useRef(null)
     var externalLoadToken = useRef(0)
@@ -189,6 +195,212 @@ export default function useTuneBookMediaController(props) {
             seekGuardUntil: seekGuardUntilRef.current,
         }
     }
+
+    useEffect(function() {
+        isPlayingRef.current = !!isPlaying
+    }, [isPlaying])
+
+    async function requestScreenWakeLock() {
+        if (typeof navigator === 'undefined' || !navigator.wakeLock || typeof navigator.wakeLock.request !== 'function') {
+            return false
+        }
+        if (wakeLockRef.current) {
+            return true
+        }
+        try {
+            const lock = await navigator.wakeLock.request('screen')
+            wakeLockRef.current = lock
+            if (lock && typeof lock.addEventListener === 'function') {
+                lock.addEventListener('release', function() {
+                    if (wakeLockRef.current === lock) {
+                        wakeLockRef.current = null
+                    }
+                })
+            }
+            return true
+        } catch (e) {
+            return false
+        }
+    }
+
+    async function releaseScreenWakeLock() {
+        const lock = wakeLockRef.current
+        wakeLockRef.current = null
+        if (!lock || typeof lock.release !== 'function') return
+        try {
+            await lock.release()
+        } catch (e) {}
+    }
+
+    function updateMediaSessionMetadata() {
+        if (typeof navigator === 'undefined' || !navigator.mediaSession) return
+        const activeTune = tuneRef.current || tune
+        const activeLink = getActiveLink()
+        const title = activeTune && activeTune.name ? activeTune.name : 'ABC Tune Book'
+        const artist = activeTune && activeTune.composer ? activeTune.composer : 'Tune playback'
+        const album = activeLink && activeLink.title
+            ? activeLink.title
+            : (playbackRouteRef.current.mode === 'midi' ? 'Generated playback' : 'Linked media')
+
+        if (typeof window !== 'undefined' && typeof window.MediaMetadata === 'function') {
+            try {
+                navigator.mediaSession.metadata = new window.MediaMetadata({
+                    title: title,
+                    artist: artist,
+                    album: album,
+                })
+            } catch (e) {}
+        }
+    }
+
+    function updateMediaSessionState() {
+        if (typeof navigator === 'undefined' || !navigator.mediaSession) return
+        try {
+            navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused'
+        } catch (e) {}
+    }
+
+    function updateMediaSessionPosition(seconds, totalDuration) {
+        if (typeof navigator === 'undefined' || !navigator.mediaSession) return
+        if (typeof navigator.mediaSession.setPositionState !== 'function') return
+        const durationValue = parseFloat(totalDuration)
+        const positionValue = parseFloat(seconds)
+        if (!(durationValue > 0) || !isFinite(durationValue)) return
+        if (!isFinite(positionValue) || positionValue < 0) return
+        try {
+            navigator.mediaSession.setPositionState({
+                duration: durationValue,
+                position: Math.max(0, Math.min(durationValue, positionValue)),
+                playbackRate: Math.max(0.25, parseFloat(playbackSpeed) || 1),
+            })
+        } catch (e) {}
+    }
+
+    function getMediaSessionPathname() {
+        if (typeof window === 'undefined') return ''
+        return (window.location.hash || '').replace(/^#/, '')
+    }
+
+    function buildMediaSessionNavigationController() {
+        return {
+            stop: stop,
+            isPlaying: isPlaying,
+            isLoading: isLoading,
+            hasActivePlaybackIntent: hasActivePlaybackIntent,
+            setTune: setTune,
+            setMediaLinkNumber: setMediaLinkNumber,
+            applyPlaybackRoute: applyPlaybackRoute,
+            play: play,
+            playFromUserGesture: playFromUserGesture,
+        }
+    }
+
+    function navigateMediaSessionTrack(direction) {
+        if (!props || !props.tunebook) return
+        const tunebook = props.tunebook
+        const activeTune = tuneRef.current || tune
+        const activeTuneId = activeTune && activeTune.id ? activeTune.id : null
+        const pathname = getMediaSessionPathname()
+        const mediaController = buildMediaSessionNavigationController()
+
+        if (direction >= 0) {
+            if (typeof tunebook.navigateToNextSong !== 'function') return
+            tunebook.navigateToNextSong(
+                activeTuneId,
+                null,
+                function(path) { tunebook.navigate(path) },
+                pathname,
+                { mediaController: mediaController }
+            )
+            return
+        }
+
+        if (typeof tunebook.navigateToPreviousSong !== 'function') return
+        tunebook.navigateToPreviousSong(
+            activeTuneId,
+            function(path) { tunebook.navigate(path) },
+            pathname,
+            { mediaController: mediaController }
+        )
+    }
+
+    function installMediaSessionHandlers() {
+        if (typeof navigator === 'undefined' || !navigator.mediaSession || typeof navigator.mediaSession.setActionHandler !== 'function') {
+            return
+        }
+        registerMediaSessionHandlers(navigator.mediaSession, {
+            play: function() { playFromUserGesture({ preservePosition: true, userResume: true }) },
+            pause: function() { pause() },
+            stop: function() { stop() },
+            seekbackward: function(details) {
+                const step = details && details.seekOffset ? details.seekOffset : 10
+                seekBySeconds(-Math.abs(step))
+            },
+            seekforward: function(details) {
+                const step = details && details.seekOffset ? details.seekOffset : 10
+                seekBySeconds(Math.abs(step))
+            },
+            seekto: function(details) {
+                if (!details || details.seekTime === undefined || details.seekTime === null) return
+                seekToSeconds(details.seekTime)
+            },
+            nexttrack: function() {
+                navigateMediaSessionTrack(1)
+            },
+            previoustrack: function() {
+                navigateMediaSessionTrack(-1)
+            },
+        })
+    }
+
+    function clearMediaSessionHandlers() {
+        if (typeof navigator === 'undefined' || !navigator.mediaSession || typeof navigator.mediaSession.setActionHandler !== 'function') {
+            return
+        }
+        clearMediaSessionHandlersRegistration(navigator.mediaSession)
+    }
+
+    useEffect(function() {
+        installMediaSessionHandlers()
+        return function() {
+            clearMediaSessionHandlers()
+        }
+    }, [])
+
+    useEffect(function() {
+        updateMediaSessionMetadata()
+    }, [tune && tune.id, mediaLinkNumber, playbackRouteMode, tune])
+
+    useEffect(function() {
+        updateMediaSessionState()
+    }, [isPlaying])
+
+    useEffect(function() {
+        if (typeof document === 'undefined') return undefined
+        function onVisibilityChange() {
+            if (!document.hidden && isPlayingRef.current && playingIntentRef.current && !userPausedRef.current) {
+                requestScreenWakeLock()
+            }
+        }
+        document.addEventListener('visibilitychange', onVisibilityChange)
+        return function() {
+            document.removeEventListener('visibilitychange', onVisibilityChange)
+        }
+    }, [])
+
+    useEffect(function() {
+        if (isPlaying && playingIntentRef.current && !userPausedRef.current) {
+            requestScreenWakeLock()
+        } else {
+            releaseScreenWakeLock()
+        }
+    }, [isPlaying])
+
+    useEffect(function() {
+        return function() {
+            releaseScreenWakeLock()
+        }
+    }, [])
 
     function applyPlaybackVolumeToActiveRoute(volume) {
         const level = Math.max(0, Math.min(1, parseFloat(volume) || 0))
@@ -445,6 +657,7 @@ export default function useTuneBookMediaController(props) {
         const seconds = getCurrentPlaybackSeconds()
         if (seconds >= 0 && isFinite(seconds)) {
             setCurrentTime(seconds)
+            updateMediaSessionPosition(seconds, resolvePlaybackDuration())
         }
     }
 

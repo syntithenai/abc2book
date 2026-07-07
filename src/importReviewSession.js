@@ -244,6 +244,79 @@ export function updateCurrentCandidate(session, patch) {
   return Object.assign({}, session, { candidates: candidates });
 }
 
+export function navigateReviewCandidate(session, direction) {
+  if (!session || !Array.isArray(session.candidates) || session.candidates.length === 0) return session;
+  const total = session.candidates.length;
+  const currentIndex = session.mergeIndex != null ? session.mergeIndex : session.index;
+  const delta = direction < 0 ? -1 : 1;
+  const nextIndex = (currentIndex + delta + total) % total;
+  return Object.assign({}, session, {
+    index: nextIndex,
+    mergeIndex: null,
+    phase: 'identify',
+    step: 'review',
+  });
+}
+
+export function appendImportReviewCandidates(session, candidates) {
+  const list = Array.isArray(candidates) ? candidates.filter(Boolean).map(normalizeCandidate) : [];
+  if (!session) {
+    return createImportReviewSession(list);
+  }
+  if (list.length === 0) return session;
+  return Object.assign({}, session, {
+    candidates: (session.candidates || []).concat(list),
+    step: session.step === 'done' ? 'review' : session.step,
+    phase: session.step === 'done' ? 'identify' : session.phase,
+    mergeIndex: null,
+  });
+}
+
+export function cancelCurrentCandidate(session) {
+  if (!session || !Array.isArray(session.candidates) || session.candidates.length === 0) {
+    return Object.assign({}, session || {}, { step: 'done' });
+  }
+  const currentIndex = session.mergeIndex != null ? session.mergeIndex : session.index;
+  const candidate = session.candidates[currentIndex];
+  const remaining = session.candidates.filter(function(_, idx) {
+    return idx !== currentIndex;
+  });
+  const importedCandidateIds = Object.assign({}, session.importedCandidateIds || {});
+  if (candidate && candidate.id && importedCandidateIds[candidate.id]) {
+    delete importedCandidateIds[candidate.id];
+  }
+
+  const summary = Object.assign({}, session.sessionSummary || emptySessionSummary());
+  summary.skipped += 1;
+
+  if (remaining.length === 0) {
+    return Object.assign({}, session, {
+      candidates: [],
+      importedCandidateIds: importedCandidateIds,
+      enrichmentJobs: [],
+      index: 0,
+      mergeIndex: null,
+      phase: 'identify',
+      step: 'done',
+      sessionSummary: summary,
+    });
+  }
+
+  const nextIndex = currentIndex >= remaining.length ? 0 : currentIndex;
+  return Object.assign({}, session, {
+    candidates: remaining,
+    enrichmentJobs: (session.enrichmentJobs || []).filter(function(job) {
+      return !candidate || job.candidateId !== candidate.id;
+    }),
+    importedCandidateIds: importedCandidateIds,
+    index: nextIndex,
+    mergeIndex: null,
+    phase: 'identify',
+    step: 'review',
+    sessionSummary: summary,
+  });
+}
+
 export function sessionProgressLabel(session) {
   if (!session || !session.candidates.length) return '';
   if (session.step === 'done') {

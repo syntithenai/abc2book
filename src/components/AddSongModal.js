@@ -1,20 +1,16 @@
 import {useState, useEffect, useRef, useMemo, useCallback, useSyncExternalStore} from 'react'
 import {createPortal} from 'react-dom'
-import {ListGroup, Button, Modal, Badge, Tabs, Tab, ButtonGroup, Form, Row, Col, Alert, ProgressBar} from 'react-bootstrap'
+import {ListGroup, Button, Modal, Tabs, Tab, ButtonGroup, Form, Row, Col, Alert, ProgressBar} from 'react-bootstrap'
+import { toast } from 'react-toastify'
+import { processReviewResult } from '../addSongModalHelper'
 import BookSelectorModal from './BookSelectorModal'
 import {useNavigate} from 'react-router-dom'
 import CreatableSelect from 'react-select/creatable';
 import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
 import TagsSelectorModal from './TagsSelectorModal'
-import LyricsSearchButton from './LyricsSearchButton'
-import ComposerSearchButton from './ComposerSearchButton'
 import YouTubeSearchModal from './YouTubeSearchModal'
-import LocalSearchSelectorModal from './LocalSearchSelectorModal'
-import MediaImportWizard from './MediaImportWizard'
 import ImportCollectionsAccordion from './ImportCollectionsAccordion'
-import AddTuneWebSearchButton from './AddTuneWebSearchButton'
-import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
@@ -44,8 +40,7 @@ import { addFromFileAcceptList, bulkFileAcceptList } from '../importSourceParse'
 import { driveListTextToBulkLines, normalizeBulkTextLocally } from '../bulkListFormat'
 import { formatBulkImportLinesViaResolver } from '../bulkListFormatClient'
 import { readAudioFileMetadata } from '../audioFileMetadata'
-import { createAttachedAudioLink, isOwnedMediaLink } from '../linkRecording'
-import { resetMediaAnalysisJob, getMediaAnalysisJob } from '../mediaAnalysisJobs'
+import { createAttachedAudioLink } from '../linkRecording'
 import { getPlainLyricLines } from '../wLinesUtils'
 import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
@@ -59,6 +54,14 @@ import {
 
 const DEFAULT_BOOK = 'songs'
 const BULK_TEXT_STORAGE_KEY = 'addSongModal_bulkText'
+
+function recordingBlobToFile(blob) {
+  const extension = blob && blob.type === 'audio/webm' ? 'webm' : 'wav'
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
+  return new File([blob], 'recording-' + timestamp + '.' + extension, {
+    type: (blob && blob.type) || 'audio/webm',
+  })
+}
 
 function AddSongModal(props) {
   const navigate = useNavigate()
@@ -119,12 +122,10 @@ function AddSongModal(props) {
   const [rhythmOptions, setRhythmOptions] = useState([])
   const [artistOptions, setArtistOptions] = useState([])
   const [matchingTunes, setMatchingTunes] = useState([])
+  const [mergeTargetTuneId, setMergeTargetTuneId] = useState(null)
 
-  // Staged tune data produced by the media import wizard (lyrics/chords/notes),
-  // held until the user confirms by clicking Add.
+  // Staged tune data from import sources, held until explicit add/queue handoff.
   const [stagedTune, setStagedTune] = useState(null)
-  const [showMediaWizard, setShowMediaWizard] = useState(false)
-  const [wizardTune, setWizardTune] = useState(null)
   const [pendingAudioFile, setPendingAudioFile] = useState(null)
   const [pendingBulkAudioFiles, setPendingBulkAudioFiles] = useState([])
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false)
@@ -161,26 +162,19 @@ function AddSongModal(props) {
     props.currentTuneBook,
     activeTab,
   ])
-
   function clearRecordingInterval() {
-    if (recordingIntervalRef.current) {
-      clearInterval(recordingIntervalRef.current)
-      recordingIntervalRef.current = null
-    }
-  }
-
-  function recordingBlobToFile(blob) {
-    const stamp = new Date().toLocaleString()
-    const ext = blob.type && blob.type.indexOf('webm') !== -1 ? 'webm' : 'audio'
-    return new File([blob], 'Recording ' + stamp + '.' + ext, { type: blob.type || 'audio/webm' })
+    try {
+      if (recordingIntervalRef.current) {
+        clearInterval(recordingIntervalRef.current)
+        recordingIntervalRef.current = null
+      }
+    } catch (e) {}
   }
 
   function startAddTuneRecording() {
-    if (importSourceDisabled) return
-    setImportError('')
+    if (audioUtils.isRecording) return
     recordingStartedAtRef.current = Date.now()
     setRecordingDuration(0)
-    clearRecordingInterval()
     recordingIntervalRef.current = setInterval(function() {
       setRecordingDuration(Math.floor((Date.now() - recordingStartedAtRef.current) / 1000))
     }, 1000)
@@ -324,6 +318,69 @@ function AddSongModal(props) {
 
   const canAdd = songTitle.trim().length > 0 && selectedBook.trim().length > 0
 
+  function buildTunePayloadFromForm() {
+    const book = selectedBook.trim().toLowerCase()
+    const cleanNotes = cleanNoteLines(songNotes)
+    let tune
+    if (stagedTune) {
+      tune = JSON.parse(JSON.stringify(stagedTune))
+      tune.id = draftIdRef.current
+      var voiceKey = (tune.voices && Object.keys(tune.voices)[0]) || '1'
+      if (!tune.voices) tune.voices = {}
+      tune.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey] || {meta: '', notes: []}, {notes: cleanNotes})
+      if (songWords.trim()) {
+        tune.wLines = songWords.split("\n")
+        delete tune.words
+      }
+      if (songMeter) tune.meter = songMeter
+    } else {
+      tune = {
+        id: draftIdRef.current,
+        voices: {'1': {meta: '', notes: cleanNotes}},
+        words: songWords.trim() ? songWords.split("\n") : [],
+        meter: songMeter,
+      }
+    }
+    tune.name = songTitle
+    tune.tags = songTags
+    tune.books = [book]
+    tune.composer = songComposer || tune.composer || ''
+    if (songAliases.length > 0) {
+      tune.aliases = songAliases.slice()
+    } else {
+      delete tune.aliases
+    }
+    tune.rhythm = songRhythm || tune.rhythm || ''
+    if (songGenre) tune.genre = songGenre
+    if (songKey) tune.key = songKey
+    if (songTuning) tune.tuning = songTuning
+    if (songTranspose) tune.transpose = songTranspose
+    if (songCapo !== '') tune.capo = parseInt(songCapo, 10) || 0
+    if (songTempo) tune.tempo = songTempo
+    if (songRepeats) tune.repeats = songRepeats
+    if (songBoost) tune.boost = songBoost
+    if (songDifficulty) tune.difficulty = songDifficulty
+    if (songNoteLength) tune.noteLength = songNoteLength
+    if (songTablature) tune.tablature = songTablature
+    if (songSoundFonts) tune.soundFonts = songSoundFonts
+    if (songSrcUrl) tune.srcUrl = songSrcUrl
+    if (songBackgroundInfo) tune.backgroundInfo = songBackgroundInfo
+    tune.suitableForPractice = songSuitableForPractice
+    if (songSuitableFor.length > 0) {
+      tune.suitableFor = songSuitableFor.slice()
+    } else {
+      delete tune.suitableFor
+    }
+    if (Array.isArray(stagedTune && stagedTune.links) && stagedTune.links.length > 0) {
+      tune.links = stagedTune.links
+    }
+    if (stagedTune && stagedTune.mediaCacheLocked) {
+      tune.mediaCacheLocked = true
+    }
+    if (songImage) tune.files = [{data: songImage, type: 'image'}]
+    return tune
+  }
+
   function applyImportedTune(merged) {
     if (!merged) return
     if (merged.name) setSongTitle(merged.name)
@@ -379,6 +436,7 @@ function AddSongModal(props) {
     if (!Array.isArray(candidates) || candidates.length === 0) return
     setImportError('')
     requestImportReview(candidates)
+    clearForm()
     dismissModal()
   }, [dismissModal])
 
@@ -412,8 +470,8 @@ function AddSongModal(props) {
       return false
     }
     if (result.action === 'review') {
-      startImportReview(result.candidates)
-      return true
+      const handled = processReviewResult(result, importContext, applyImportedTune, startImportReview, toast)
+      if (handled) return true
     }
     if (result.action === 'audio') {
       const files = result.files || []
@@ -491,9 +549,14 @@ function AddSongModal(props) {
         links: [result.link],
         mediaCacheLocked: true,
       })
-      resetMediaAnalysisJob(draftIdRef.current)
-      setWizardTune(tuneWithLink)
-      setShowMediaWizard(true)
+      const candidate = {
+        tune: tuneWithLink,
+        sourceKind: 'audio',
+        mergeTargetId: mergeTargetTuneId || null,
+      }
+      toast.info('Starting Source Enhancement')
+      startImportReview([candidate])
+      clearForm()
     } catch (e) {
       setImportError(e.message || 'Could not import audio file.')
     } finally {
@@ -669,12 +732,9 @@ function AddSongModal(props) {
 
   function startMergeIntoExisting(tune) {
     if (!tune || !tune.id) return
-    const candidate = {
-      tune: JSON.parse(JSON.stringify(draftTune)),
-      sourceKind: 'manual',
-      mergeTargetId: tune.id,
-    }
-    startImportReview([candidate])
+    setMergeTargetTuneId(function(current) {
+      return current === tune.id ? null : tune.id
+    })
   }
 
   function clearPendingSheetDraft() {
@@ -838,7 +898,6 @@ function AddSongModal(props) {
     setSongSrcUrl('')
     setSongBackgroundInfo('')
     setStagedTune(null)
-    setWizardTune(null)
     setPendingAudioFile(null)
     setShowAudioDriveUploadModal(false)
     clearRecordingInterval()
@@ -848,66 +907,53 @@ function AddSongModal(props) {
     }
     setAudioImportBusy(false)
     setMatchingTunes([])
+    setMergeTargetTuneId(null)
     clearPendingSheetDraft()
     setPendingLookupSources({ lyrics: null, notation: null, chordText: null })
   }
 
   const handleClose = () => {
     dismissModal()
-    clearForm()
-  }
-  const handleShow = () => {
-    clearForm()
-    setActiveTab('add')
-    navigate('/add')
   }
 
-  function openMediaWizardFromYouTube(link) {
-    if (!link || !link.link) return
-    const tuneWithLink = Object.assign({}, draftTune, {
-      links: [{ title: link.title || '', link: link.link, startAt: '', endAt: '' }],
-    })
-    setWizardTune(tuneWithLink)
-    setShowMediaWizard(true)
+  function handleCancelAdd() {
+    clearForm()
+    dismissModal()
+  }
+  const handleShow = () => {
+    setActiveTab('add')
+    navigate('/add')
   }
 
   function onStageAbcImport(merged) {
     stageLookupNotation(merged, 'Collection lookup')
   }
 
-  function handleChordsMerged(chordText) {
-    stageLookupChords(chordText)
+  function handleYouTubeSourceSelected(link) {
+    if (!link || !link.link) return
+    const tuneWithLink = Object.assign({}, buildTunePayloadFromForm(), {
+      links: [{ title: link.title || '', link: link.link, startAt: '', endAt: '' }],
+    })
+    const candidate = {
+      tune: tuneWithLink,
+      sourceKind: 'youtube',
+      mergeTargetId: mergeTargetTuneId || null,
+    }
+    toast.info('Starting Source Enhancement')
+    startImportReview([candidate])
+    clearForm()
   }
 
-  function onStageMedia(merged) {
-    if (merged && Array.isArray(merged.links) && merged.links.some(isOwnedMediaLink)) {
-      merged.mediaCacheLocked = true
+  function startEnhancementFromAddForm() {
+    if (!canAdd) return
+    const candidate = {
+      tune: buildTunePayloadFromForm(),
+      sourceKind: 'manual',
+      mergeTargetId: mergeTargetTuneId || null,
     }
-    setStagedTune(merged)
-    // Reflect imported notes/lyrics/meter in the visible form so they can be reviewed/edited.
-    if (merged) {
-      if (merged.voices) {
-        var voiceKey = Object.keys(merged.voices)[0]
-        if (voiceKey && merged.voices[voiceKey] && Array.isArray(merged.voices[voiceKey].notes)) {
-          setSongNotes(merged.voices[voiceKey].notes.join("\n"))
-        }
-      }
-      if (Array.isArray(merged.words) && merged.words.length > 0) {
-        setSongWords(merged.words.join("\n"))
-      } else {
-        const plainLyrics = getPlainLyricLines(merged)
-        if (plainLyrics.length > 0) {
-          setSongWords(plainLyrics.join("\n"))
-        }
-      }
-      if (merged.meter) setSongMeter(merged.meter)
-      if (merged.key) setSongKey(merged.key)
-      if (merged.tempo) setSongTempo(String(merged.tempo))
-      if (merged.backgroundInfo) setSongBackgroundInfo(merged.backgroundInfo)
-      if (merged.composer) setSongComposer(merged.composer)
-    if (Array.isArray(merged.aliases)) setSongAliases(merged.aliases.slice())
-      if (merged.name) setSongTitle(merged.name)
-    }
+    toast.info('Starting Source Enhancement')
+    startImportReview([candidate])
+    clearForm()
   }
 
   function imageSelected(event) {
@@ -923,80 +969,15 @@ function AddSongModal(props) {
 
   function addTune() {
     if (!canAdd) return
-    const book = selectedBook.trim().toLowerCase()
-    const cleanNotes = cleanNoteLines(songNotes)
-    let t
-    if (stagedTune) {
-      t = JSON.parse(JSON.stringify(stagedTune))
-      t.id = draftIdRef.current
-      var voiceKey = (t.voices && Object.keys(t.voices)[0]) || '1'
-      if (!t.voices) t.voices = {}
-      t.voices[voiceKey] = Object.assign({}, t.voices[voiceKey] || {meta: '', notes: []}, {notes: cleanNotes})
-      if (songWords.trim()) {
-        t.wLines = songWords.split("\n")
-        delete t.words
-      }
-      if (songMeter) t.meter = songMeter
-    } else {
-      t = {
-        id: draftIdRef.current,
-        voices: {'1': {meta: '', notes: cleanNotes}},
-        words: songWords.trim() ? songWords.split("\n") : [],
-        meter: songMeter,
-      }
-    }
-    t.name = songTitle
-    t.tags = songTags
-    t.books = [book]
-    t.composer = songComposer || t.composer || ''
-    if (songAliases.length > 0) {
-      t.aliases = songAliases.slice()
-    } else {
-      delete t.aliases
-    }
-    t.rhythm = songRhythm || t.rhythm || ''
-    if (songGenre) t.genre = songGenre
-    if (songKey) t.key = songKey
-    if (songTuning) t.tuning = songTuning
-    if (songTranspose) t.transpose = songTranspose
-    if (songCapo !== '') t.capo = parseInt(songCapo, 10) || 0
-    if (songTempo) t.tempo = songTempo
-    if (songRepeats) t.repeats = songRepeats
-    if (songBoost) t.boost = songBoost
-    if (songDifficulty) t.difficulty = songDifficulty
-    if (songNoteLength) t.noteLength = songNoteLength
-    if (songTablature) t.tablature = songTablature
-    if (songSoundFonts) t.soundFonts = songSoundFonts
-    if (songSrcUrl) t.srcUrl = songSrcUrl
-    if (songBackgroundInfo) t.backgroundInfo = songBackgroundInfo
-    t.suitableForPractice = songSuitableForPractice
-    if (songSuitableFor.length > 0) {
-      t.suitableFor = songSuitableFor.slice()
-    } else {
-      delete t.suitableFor
-    }
-    if (Array.isArray(stagedTune && stagedTune.links) && stagedTune.links.length > 0) {
-      t.links = stagedTune.links
-    }
-    if (stagedTune && stagedTune.mediaCacheLocked) {
-      t.mediaCacheLocked = true
-    }
-    if (songImage) t.files = [{data: songImage, type: 'image'}]
+    const t = buildTunePayloadFromForm()
 
-    var newTune = props.tunebook.saveTune(t)
-    props.setFilter('')
-    props.forceRefresh()
-    var finalTuneBook = props.currentTuneBook
-    props.setCurrentTuneBook('')
-    setTimeout(function() {
-      props.setCurrentTuneBook(finalTuneBook)
-      if (newTune && newTune.id) {
-        navigate("/tunes/" + newTune.id)
-      } else {
-        navigate("/tunes")
-      }
-    }, 800)
-    dismissModal({ skipRouteNav: true })
+    const candidate = {
+      tune: t,
+      sourceKind: 'manual',
+      mergeTargetId: mergeTargetTuneId || null,
+    }
+    toast.info('Starting Source Enhancement')
+    startImportReview([candidate])
     clearForm()
   }
 
@@ -1004,96 +985,125 @@ function AddSongModal(props) {
     if (tune && tune.id) {
       navigate("/tunes/" + tune.id)
       dismissModal({ skipRouteNav: true })
-      clearForm()
     }
+  }
+
+  function renderAddFromStrip(options) {
+    const opts = options || {}
+    return (
+      <div style={opts.containerStyle || { position: 'sticky', top: 0, zIndex: 3, background: '#fff', borderBottom: '1px solid #e5e7eb', marginBottom: '0.8em', paddingBottom: '0.6em' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', minWidth: 0 }}>
+            <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
+              Add From
+            </Button>
+            <ButtonGroup size="sm">
+            <Button
+              variant="outline-primary"
+              disabled={importSourceDisabled}
+              onClick={function() { addFileInputRef.current && addFileInputRef.current.click() }}
+              title={"Auto: ABC/chordsheet/bulk-text will merge inline; audio/other files route to review queue."}
+            >
+              {audioImportBusy ? 'Processing file...' : 'File'}
+            </Button>
+            <PasteImportModal
+              disabled={importSourceDisabled}
+              onImportText={handlePasteImportText}
+              onImportFiles={handlePasteImportFiles}
+              title={"Paste ABC/notation/text. Single ABC/chordsheet/bulk-text will merge inline; others open review."}
+            />
+            <ImportUrlModal
+              label="URL"
+              disabled={importSourceDisabled}
+              tunebook={props.tunebook}
+              abcjsParser={abcjsParser}
+              driveApi={driveApi}
+              book={selectedBook.trim().toLowerCase() || props.currentTuneBook}
+              accessToken={props.token && props.token.access_token}
+              resolverAvailable={resolverAvailable}
+              onImportSource={handleUrlImportSource}
+            />
+            </ButtonGroup>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', minWidth: 0 }}>
+          <ButtonGroup size="sm">
+            {audioUtils.isRecording ? (
+              <>
+                <Button variant="danger" onClick={stopAddTuneRecording}>
+                  Stop
+                </Button>
+                <Button variant="outline-danger" disabled aria-label="Recording duration">
+                  {recordingDuration + 1}s
+                </Button>
+              </>
+            ) : (
+              <Button variant="outline-primary" disabled={importSourceDisabled} onClick={startAddTuneRecording}>
+                Record
+              </Button>
+            )}
+            {resolverChecked && resolverAvailable && (
+              <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetCamera(true); }}>
+                Camera
+              </Button>
+            )}
+          </ButtonGroup>
+          {props.token && (
+            <ButtonGroup size="sm">
+              {resolverChecked && resolverAvailable && (
+                <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetGooglePhotos(true); }}>
+                  Google Photos
+                </Button>
+              )}
+              <DriveFilePickerModal
+                label="Drive"
+                title="Import from Google Drive"
+                token={props.token}
+                driveApi={driveApi}
+                disabled={importSourceDisabled}
+                requestGoogleScopes={props.requestGoogleScopes}
+                onImportSource={handleDriveImportSource}
+              />
+              <YouTubeSearchModal
+                tunebook={props.tunebook}
+                onChange={handleYouTubeSourceSelected}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                triggerElement={<>YouTube</>}
+                value={songTitle + (songComposer ? ' ' + songComposer : '')}
+                disabled={importSourceDisabled}
+                title={"YouTube sources go to review/enhancement queue."}
+              />
+            </ButtonGroup>
+          )}
+          </div>
+        </div>
+        {opts.showRoutingNote !== false && (
+          <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.45em' }}>
+            <strong>Routing:</strong> Inline merge: ABC / chordsheet / bulk-text when pasted/loaded as a single candidate. Queue handoff: audio, YouTube, sheet images, musicxml/midi and other long-running sources.
+          </div>
+        )}
+        {audioImportBusy && opts.showProgress !== false && (
+          <ProgressBar
+            animated
+            striped
+            now={100}
+            style={{ marginTop: '0.35em', height: '0.45em', width: '100%' }}
+          />
+        )}
+      </div>
+    )
   }
 
   const textAreaStyle = {width: '100%', fontSize: '1.05em'}
 
   function renderAddTab() {
     return (
-      <Row>
-        <Col md={8} className="order-2 order-md-1">
+      <Row style={{ flexWrap: 'nowrap' }}>
+        <Col style={{ flex: '1 1 auto', minWidth: 0 }}>
           <Form className="abc-editor-info-form" onSubmit={function(e) { e.preventDefault() }}>
             <div className="abc-editor-info-section">
               <Form.Group className="mb-3" controlId="title">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em', width: '100%' }}>
                   <Form.Label style={{ marginBottom: 0 }}><b>Title</b></Form.Label>
-                  <div className="add-from-source-groups" style={{ marginLeft: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
-                    <div className="add-from-source-groups__row">
-                      <ButtonGroup size="sm">
-                        <Button variant="outline-secondary" disabled tabIndex={-1} style={{ opacity: 1, color: 'inherit' }}>
-                          Add From
-                        </Button>
-                        <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { addFileInputRef.current && addFileInputRef.current.click() }}>
-                          {audioImportBusy ? 'Processing file...' : 'File'}
-                        </Button>
-                        <PasteImportModal
-                          disabled={importSourceDisabled}
-                          onImportText={handlePasteImportText}
-                          onImportFiles={handlePasteImportFiles}
-                        />
-                        <ImportUrlModal
-                          label="URL"
-                          disabled={importSourceDisabled}
-                          tunebook={props.tunebook}
-                          abcjsParser={abcjsParser}
-                          driveApi={driveApi}
-                          book={selectedBook.trim().toLowerCase() || props.currentTuneBook}
-                          accessToken={props.token && props.token.access_token}
-                          resolverAvailable={resolverAvailable}
-                          onImportSource={handleUrlImportSource}
-                        />
-                      </ButtonGroup>
-                      <ButtonGroup size="sm">
-                        {audioUtils.isRecording ? (
-                          <>
-                            <Button variant="danger" onClick={stopAddTuneRecording}>
-                              Stop
-                            </Button>
-                            <Button variant="outline-danger" disabled aria-label="Recording duration">
-                              {recordingDuration + 1}s
-                            </Button>
-                          </>
-                        ) : (
-                          <Button variant="outline-primary" disabled={importSourceDisabled} onClick={startAddTuneRecording}>
-                            Record
-                          </Button>
-                        )}
-                        {resolverChecked && resolverAvailable && (
-                          <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetCamera(true); }}>
-                            Camera
-                          </Button>
-                        )}
-                      </ButtonGroup>
-                      {props.token && (
-                        <ButtonGroup size="sm">
-                          {resolverChecked && resolverAvailable && (
-                            <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetGooglePhotos(true); }}>
-                              Google Photos
-                            </Button>
-                          )}
-                          <DriveFilePickerModal
-                            label="Drive"
-                            title="Import from Google Drive"
-                            token={props.token}
-                            driveApi={driveApi}
-                            disabled={importSourceDisabled}
-                            requestGoogleScopes={props.requestGoogleScopes}
-                            onImportSource={handleDriveImportSource}
-                          />
-                        </ButtonGroup>
-                      )}
-                    </div>
-                    {audioImportBusy && (
-                      <ProgressBar
-                        animated
-                        striped
-                        now={100}
-                        style={{ marginTop: '0.35em', height: '0.45em', minWidth: '10em', width: '100%' }}
-                      />
-                    )}
-                  </div>
                   {pendingSheetDraft ? (
                     <SheetImageTranscriptionPanel
                       fileName={pendingSheetDraft.fileName}
@@ -1137,38 +1147,6 @@ function AddSongModal(props) {
                     onChange={handleAddFileSelected}
                   />
                 </div>
-                {songTitle.trim().length > 0 && (
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                    <AddTuneWebSearchButton
-                      title={songTitle}
-                      artist={songComposer || ''}
-                      rhythm={songRhythm}
-                      currentGenre={songGenre}
-                      onGenreAccept={setSongGenre}
-                      lyrics={songWords}
-                      token={props.token}
-                      tunebook={props.tunebook}
-                      currentTune={draftTune}
-                      searchIndex={props.searchIndex}
-                      loadTuneTexts={props.loadTuneTexts}
-                      onTuneImported={stageLookupFromWebSearch}
-                      onLyrics={function(text) { stageLookupLyrics(text, 'Web lookup') }}
-                      onChordsMerged={handleChordsMerged}
-                      onBackgroundInfo={function(result) { setSongBackgroundInfo(result.text) }}
-                      disabled={audioImportBusy || audioUtils.isRecording}
-                    />
-                    <YouTubeSearchModal
-                      tunebook={props.tunebook}
-                      onChange={openMediaWizardFromYouTube}
-                      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                      triggerElement={<>Youtube</>}
-                      value={songTitle + (songComposer ? ' ' + songComposer : '')}
-                      disabled={audioImportBusy || audioUtils.isRecording}
-                    />
-                    {stagedTune && <Badge bg="success">Imported (staged)</Badge>}
-                    {stagedTune && stagedTune.mediaCacheLocked && <Badge bg="info">Audio cached</Badge>}
-                  </div>
-                )}
                 <Form.Control
                   type="text"
                   size="lg"
@@ -1183,20 +1161,7 @@ function AddSongModal(props) {
               <Row>
                 <Col xs={12} md={8}>
                   <Form.Group className="mb-3" controlId="composer">
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                      <Form.Label style={{ marginBottom: 0 }}><b>Artist</b></Form.Label>
-                      <ComposerSearchButton
-                        title={songTitle}
-                        composer={songComposer || ''}
-                        titleHint={songTitle}
-                        token={props.token}
-                        tunebook={props.tunebook}
-                        alwaysPick={true}
-                        onComposer={function(result) {
-                          if (result && result.artist) setSongComposer(result.artist)
-                        }}
-                      />
-                    </div>
+                    <Form.Label style={{ marginBottom: '0.35em' }}><b>Artist</b></Form.Label>
                     <SelectInput
                       onChange={function(val) { setSongComposer(val) }}
                       value={songComposer ? songComposer : ''}
@@ -1464,26 +1429,11 @@ function AddSongModal(props) {
                 </Col>
               </Row>
               <Form.Group className="mb-3 abc-editor-info-background-group" controlId="backgroundInfo">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                  <FormLabelWithHelp
-                    label="Background information (Markdown)"
-                    helpBody={EDITOR_INFO_FIELD_HELP.backgroundInfo.body}
-                    helpTitle={EDITOR_INFO_FIELD_HELP.backgroundInfo.title}
-                  />
-                  <TuneBackgroundSearchButton
-                    title={songTitle}
-                    artist={songComposer || ''}
-                    lyrics={songWords}
-                    rhythm={songRhythm}
-                    currentGenre={songGenre}
-                    onGenreAccept={setSongGenre}
-                    token={props.token}
-                    tunebook={props.tunebook}
-                    existingBackgroundInfo={songBackgroundInfo}
-                    disabled={!songTitle.trim()}
-                    onBackgroundInfo={function(result) { setSongBackgroundInfo(result.text) }}
-                  />
-                </div>
+                <FormLabelWithHelp
+                  label="Background information (Markdown)"
+                  helpBody={EDITOR_INFO_FIELD_HELP.backgroundInfo.body}
+                  helpTitle={EDITOR_INFO_FIELD_HELP.backgroundInfo.title}
+                />
                 <Form.Control
                   as="textarea"
                   rows={8}
@@ -1495,21 +1445,7 @@ function AddSongModal(props) {
             </div>
 
             <Form.Group className="mb-3" controlId="lyrics">
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                <Form.Label style={{ marginBottom: 0 }}><b>Lyrics</b></Form.Label>
-                <LyricsSearchButton
-                  title={songTitle}
-                  artist={songComposer || ''}
-                  rhythm={songRhythm}
-                  currentGenre={songGenre}
-                  onGenreAccept={setSongGenre}
-                  token={props.token}
-                  tunebook={props.tunebook}
-                  disabled={!songTitle.trim()}
-                  extraQuery={songWords ? songWords.slice(0, 50) : ''}
-                  onLyrics={function(result) { stageLookupLyrics(result.text, 'Lyrics lookup') }}
-                />
-              </div>
+              <Form.Label style={{ marginBottom: '0.35em' }}><b>Lyrics</b></Form.Label>
               <LyricsContentMergeTabs
                 currentText={songWords}
                 sources={lyricsMergeSources}
@@ -1525,20 +1461,7 @@ function AddSongModal(props) {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="notes">
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                <FormLabelWithHelp label={<b>ABC Notes</b>} helpBody={ADD_TUNE_FIELD_HELP.abcNotes.body} helpTitle={ADD_TUNE_FIELD_HELP.abcNotes.title} />
-                {props.searchIndex && props.loadTuneTexts && (
-                  <LocalSearchSelectorModal
-                    value={songTitle}
-                    currentTune={draftTune}
-                    tunebook={props.tunebook}
-                    searchIndex={props.searchIndex}
-                    loadTuneTexts={props.loadTuneTexts}
-                    onStageImport={onStageAbcImport}
-                    token={props.token}
-                  />
-                )}
-              </div>
+              <FormLabelWithHelp label={<b>ABC Notes</b>} helpBody={ADD_TUNE_FIELD_HELP.abcNotes.body} helpTitle={ADD_TUNE_FIELD_HELP.abcNotes.title} />
               <NotationContentMergeTabs
                 currentText={songNotes}
                 sources={notationMergeSources}
@@ -1562,9 +1485,10 @@ function AddSongModal(props) {
           </Form>
         </Col>
 
-        <Col md={4} className="order-1 order-md-2 mb-3 mb-md-0">
+        <Col style={{ flex: '0 0 320px', maxWidth: '320px' }} className="mb-3 mb-md-0">
           <div style={{position: 'sticky', top: 0}}>
             <h5>Already in your collection</h5>
+            <p className="text-muted small">Choose an existing tune to merge into.</p>
             {songTitle.trim().length < 2 &&
               <p className="text-muted">Start typing a title to see possible matches you can open instead of adding a new tune.</p>}
             {songTitle.trim().length >= 2 && matchingTunes.length === 0 &&
@@ -1576,15 +1500,16 @@ function AddSongModal(props) {
                     <ListGroup.Item key={tk}>
                       <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap'}}>
                         <span>{tune.name}</span>
-                        <ButtonGroup size="sm">
-                          <Button variant="outline-secondary" onClick={function() { openExistingTune(tune) }}>
+                        <div style={{ display: 'flex', gap: '0.45em' }}>
+                          <Button size="sm" variant="outline-secondary" onClick={function() { openExistingTune(tune) }}>
                             Open
                           </Button>
-                          <Button variant="outline-primary" onClick={function() { startMergeIntoExisting(tune) }}>
+                          <Button size="sm" variant={mergeTargetTuneId === tune.id ? 'success' : 'outline-primary'} onClick={function() { startMergeIntoExisting(tune) }}>
                             Merge
                           </Button>
-                        </ButtonGroup>
+                        </div>
                       </div>
+                      {mergeTargetTuneId === tune.id && <div className="text-success small mt-1">Selected merge target</div>}
                       {Array.isArray(tune.books) && tune.books.length > 0 &&
                         <div style={{fontSize: '0.85em', color: '#666'}}>{tune.books.join(', ')}</div>}
                     </ListGroup.Item>
@@ -1664,18 +1589,42 @@ function AddSongModal(props) {
 
   function renderPanelTitle() {
     return (
-      <span style={{width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1em'}}>
-        <span>{importReviewActive ? 'Import review' : 'Add tunes'}</span>
-        {!importReviewActive && activeTab === 'add' &&
-          <Button
-            size="lg"
-            variant={canAdd ? 'success' : 'secondary'}
-            disabled={!canAdd}
-            onClick={addTune}
-            style={{marginRight: '2em'}}
-          >
-            {props.tunebook.icons.add} Add
-          </Button>}
+      <span style={{width: '100%', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1em', flexWrap: 'wrap'}}>
+        <span style={{ display: 'inline-flex', flexDirection: 'column', gap: '0.35em', minWidth: 0 }}>
+          <span>{importReviewActive ? 'Import review' : 'Add tunes'}</span>
+          {!importReviewActive && activeTab === 'add' ? renderAddFromStrip({
+            showRoutingNote: false,
+            showProgress: false,
+            containerStyle: { display: 'flex', flexWrap: 'wrap', gap: '0.5em', alignItems: 'center', maxWidth: '100%' },
+          }) : null}
+        </span>
+        {!importReviewActive && activeTab === 'add' && (
+          <span style={{ display: 'inline-flex', gap: '0.5em', alignItems: 'center', marginLeft: 'auto', flexWrap: 'wrap' }}>
+            <Button
+              size="lg"
+              variant="warning"
+              disabled={!canAdd}
+              onClick={startEnhancementFromAddForm}
+            >
+              Enhance
+            </Button>
+            <Button
+              size="lg"
+              variant="outline-secondary"
+              onClick={handleCancelAdd}
+            >
+              Cancel
+            </Button>
+            <Button
+              size="lg"
+              variant={canAdd ? 'success' : 'secondary'}
+              disabled={!canAdd}
+              onClick={addTune}
+            >
+              {props.tunebook.icons.add} Add
+            </Button>
+          </span>
+        )}
       </span>
     )
   }
@@ -1684,6 +1633,7 @@ function AddSongModal(props) {
     return (
       <>
         {!importReviewActive && (
+        <>
         <Tabs activeKey={activeTab} onSelect={function(key) {
           setActiveTab(key)
           if (props.onActiveTabChange) props.onActiveTabChange(key)
@@ -1695,6 +1645,7 @@ function AddSongModal(props) {
             {renderBulkTab()}
           </Tab>
         </Tabs>
+        </>
         )}
       </>
     )
@@ -1769,27 +1720,6 @@ function AddSongModal(props) {
         onCancel={cancelAudioDriveUpload}
       />
 
-      <MediaImportWizard
-        show={showMediaWizard}
-        onClose={function() {
-          if (wizardTune && wizardTune.id) {
-            const job = getMediaAnalysisJob(wizardTune.id)
-            if (!job.isAnalyzing) {
-              resetMediaAnalysisJob(wizardTune.id)
-            }
-          }
-          setShowMediaWizard(false)
-        }}
-        onBackgroundStart={dismissModal}
-        onStage={onStageMedia}
-        tune={wizardTune}
-        tunebook={props.tunebook}
-        token={props.token}
-        searchIndex={props.searchIndex}
-        loadTuneTexts={props.loadTuneTexts}
-        forceRefresh={props.forceRefresh}
-        linkIndex={0}
-      />
       <SheetImageCameraModal
         show={showSheetCamera}
         onHide={function() { setShowSheetCamera(false); }}
@@ -1824,4 +1754,5 @@ function AddSongModal(props) {
     </>
   )
 }
+
 export default AddSongModal

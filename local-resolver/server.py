@@ -1,6 +1,7 @@
 from chords_fetch import fetch_chords_url, search_chords
 from lyrics_fetch import fetch_lyrics_url, search_lyrics
 from lyrics_word_tools import (
+    lookup_alliteration,
     lookup_dictionary,
     lookup_phrase_ideas,
     lookup_reverse_dictionary,
@@ -2561,6 +2562,14 @@ async def lyrics_phrases_endpoint(
     authorization: str | None = Header(default=None),
 ):
     return await _run_lyrics_word_lookup(request, authorization, "lyrics-phrases", lookup_phrase_ideas)
+
+
+@app.post("/lyrics-alliteration")
+async def lyrics_alliteration_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    return await _run_lyrics_word_lookup(request, authorization, "lyrics-alliteration", lookup_alliteration)
 
 
 @app.post("/search-chords")

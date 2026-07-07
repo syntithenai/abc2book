@@ -8,11 +8,20 @@ Browser checks using **Puppeteer** (already in project dependencies).
 # Terminal 1
 npm start
 
+# Optional one-time setup for a reusable Chrome debug profile
+npm run browser:seed-profile
+
+# Optional: launch Chrome/Chromium with remote debugging and the seeded profile
+npm run browser:debug
+
 # Terminal 2 — unit tests (always works, no browser data needed)
 npm run test:playback
 
 # Terminal 2 — browser smoke (needs tune data in browser — see below)
 npm run test:playback:e2e
+
+# Terminal 2 — watch the browser instead of headless mode
+npm run test:playback:e2e:headed
 
 # Both
 npm run test:playback:all
@@ -74,6 +83,12 @@ Use a **separate** profile directory instead.
    ```
 
 3. Start Chrome with debugging on that profile:
+
+   ```bash
+   npm run browser:debug
+   ```
+
+   Equivalent manual command:
 
    ```bash
    google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/.chrome-abc2book-debug"
@@ -166,6 +181,7 @@ See **[NOTATION.md](./NOTATION.md)** for the walkthrough-aligned test matrix.
 ```bash
 npm start   # terminal 1
 npm run test:notation:e2e
+npm run test:notation:e2e:headed
 NOTATION_E2E_TIER=1 npm run test:notation:e2e   # P0 + P1
 NOTATION_E2E_TIER=full npm run test:notation:e2e
 ```

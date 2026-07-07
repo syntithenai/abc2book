@@ -1,8 +1,10 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
+import { toast } from 'react-toastify'
 import useMusicBrainz from '../useMusicBrainz'
 import useAbcjsParser from '../useAbcjsParser'
-import {useParams} from 'react-router-dom'
+import useMediaResolverHealth from '../useMediaResolverHealth'
+import {useParams, useNavigate} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
@@ -11,10 +13,27 @@ import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 
+function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
+  const text = String(textValue || '')
+  const start = Number.isFinite(selectionStart) ? selectionStart : 0
+  const end = Number.isFinite(selectionEnd) ? selectionEnd : 0
+  if (end <= start) return ''
+  const selected = text.slice(start, end).trim()
+  if (!selected) return ''
+  const firstNonEmpty = selected
+    .split(/\r?\n/)
+    .map(function(line) { return line.trim() })
+    .find(function(line) { return !!line })
+  return firstNonEmpty || ''
+}
+
 export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts}) {
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
+  const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
+  const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
+  const navigate = useNavigate()
   const handleClose = () => {
       setShow(false);
   }
@@ -43,23 +62,40 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
     tunebook.saveTune(tune, false, { historyLabel: 'Apply suggested genre', immediate: true })
   }
 
+  function openLookupToolsFromSelection() {
+    const textarea = lyricsTextareaRef.current
+    if (!textarea) {
+      toast.warning('Select lyrics text first to open tools.')
+      return
+    }
+
+    const firstLine = getFirstSelectedLine(textarea.value, textarea.selectionStart, textarea.selectionEnd)
+    if (!firstLine) {
+      toast.warning('Select at least one line in the lyrics editor to open tools.')
+      return
+    }
+
+    handleClose()
+    navigate('/lyrics?tab=lookup&q=' + encodeURIComponent(firstLine))
+  }
+
   return (
     <>
         <button type="button" className="title-lyrics-edit-trigger" onClick={handleShow}>{tune ? tune.name : ''}</button>
-    
+
         <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
           <Modal.Title>Edit</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
-            
-            
+
+
              <Form.Group className="mb-3" controlId="title">
                         <Form.Label>Title</Form.Label>
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })  }} />
                       </Form.Group>
-                      
+
                       <Form.Group className="mb-3" controlId="composer">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                           <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
@@ -91,7 +127,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             loadingMessage ="Loading ..."
                             controlShouldRenderValue={true}
                           />
-                      
+
                       </Form.Group>
                       <TuneAliasesField
                         value={tune.aliases}
@@ -118,6 +154,14 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             var clean = abcjsParser.cleanupLyrics(start)
                             saveLyrics(clean.split('\n'))
                         }} >{tunebook.icons.wizard} Clean</Button>
+                        {resolverChecked && resolverAvailable ? (
+                          <Button
+                            variant="outline-primary"
+                            onClick={openLookupToolsFromSelection}
+                          >
+                            Tools
+                          </Button>
+                        ) : null}
                         <Button
                           variant="outline-secondary"
                           style={{ marginLeft: 'auto' }}
@@ -126,12 +170,12 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           Note-aligned lyrics
                         </Button>
                         </div>
-                        <textarea value={lyricLinesToText(tune)} onChange={function(e) {saveLyrics(e.target.value.split('\n'))  }} className="title-lyrics-editor-textarea" style={{width:'100%', minHeight:'12em', maxHeight:'50vh'}}  />
+                        <textarea ref={lyricsTextareaRef} value={lyricLinesToText(tune)} onChange={function(e) {saveLyrics(e.target.value.split('\n'))  }} className="title-lyrics-editor-textarea" style={{width:'100%', minHeight:'12em', maxHeight:'50vh'}}  />
                     </Form.Group>
 
-        </Modal.Body> 
-        
-        
+        </Modal.Body>
+
+
       </Modal>
       <NoteAlignedLyricsModal
         show={showNoteAlignedLyrics}

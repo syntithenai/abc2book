@@ -1,13 +1,14 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Badge, Button, Form, ListGroup, Modal, Row, Col } from 'react-bootstrap';
 import {
   beginEnrichmentPhase,
   beginMergeForJob,
-  candidateIdentityLabel,
+  cancelCurrentCandidate,
   currentCandidate,
   isReviewComplete,
   markCandidateImported,
   mergeCandidate,
+  navigateReviewCandidate,
   sessionProgressLabel,
   shouldSkipYoutubeStep,
   updateCurrentCandidate,
@@ -26,24 +27,57 @@ import {
 import { findCollectionMatches } from '../tuneCollectionMatch';
 import { applyTuneImportSelections, buildDefaultTuneImportSelections, buildTuneImportFieldRows } from '../tuneImportMergeUtils';
 import { TuneImportFieldPicker } from './TuneImportFieldChooserModal';
+import LinksEditor from './LinksEditor';
 import YouTubeSearchModal from './YouTubeSearchModal';
 import TuneAliasesField from './TuneAliasesField';
 import ComposerSearchButton from './ComposerSearchButton';
 import ComposerCandidateQuickPick from './ComposerCandidateQuickPick';
+import PasteImportModal from './PasteImportModal';
+import ImportUrlModal from './ImportUrlModal';
+import DriveFilePickerModal from './DriveFilePickerModal';
+import SheetImageCameraModal from './SheetImageCameraModal';
+import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal';
+import useAudioUtils from '../useAudioUtils';
+import useAbcjsParser from '../useAbcjsParser';
+import useGoogleDocument from '../useGoogleDocument';
+import useMediaResolverHealth from '../useMediaResolverHealth';
 
-function IdentityBanner(props) {
-  const title = props.title || '';
-  const artist = props.artist || '';
-  if (!title && !artist) return null;
-  return (
-    <div className="import-review-identity-banner">
-      <div className="import-review-identity-banner-label">Current song</div>
-      <div className="import-review-identity-banner-title">{title || 'Untitled'}</div>
-      {artist ? (
-        <div className="import-review-identity-banner-artist">{artist}</div>
-      ) : null}
-    </div>
-  );
+function parseListField(value) {
+  return String(value || '')
+    .split(',')
+    .map(function(item) { return item.trim(); })
+    .filter(Boolean);
+}
+
+function getFirstVoiceNotes(tune) {
+  const voices = tune && tune.voices ? tune.voices : null;
+  if (!voices || typeof voices !== 'object') return '';
+  const voiceKey = Object.keys(voices)[0];
+  if (!voiceKey) return '';
+  const notes = voices[voiceKey] && Array.isArray(voices[voiceKey].notes)
+    ? voices[voiceKey].notes
+    : [];
+  return notes.join('\n');
+}
+
+function getLyricsText(tune) {
+  if (tune && Array.isArray(tune.wLines) && tune.wLines.length) {
+    return tune.wLines.join('\n');
+  }
+  if (tune && Array.isArray(tune.words) && tune.words.length) {
+    return tune.words.join('\n');
+  }
+  return '';
+}
+
+const MERGE_DETAILS_PANEL_ID = 'import-review-merge-details';
+
+function recordingBlobToFile(blob) {
+  const extension = blob && blob.type === 'audio/webm' ? 'webm' : 'wav';
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  return new File([blob], 'recording-' + timestamp + '.' + extension, {
+    type: (blob && blob.type) || 'audio/webm',
+  });
 }
 
 function ReviewSummary(props) {
@@ -66,24 +100,98 @@ export default function ImportReviewModal(props) {
   const activeCandidate = session && session.mergeIndex != null ? mergeTargetCandidate : identifyCandidate;
   const tunes = props.tunes || {};
   const resolverAvailable = props.resolverAvailable !== false;
+  const audioUtils = useAudioUtils();
+  const abcjsParser = useAbcjsParser();
+  const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh);
+  const { checked: resolverChecked } = useMediaResolverHealth();
+  const fileInputRef = useRef(null);
+  const recordingStartedAtRef = useRef(0);
+  const recordingIntervalRef = useRef(null);
+  const [recordingDuration, setRecordingDuration] = useState(0);
+  const [showSheetCamera, setShowSheetCamera] = useState(false);
+  const [showSheetGooglePhotos, setShowSheetGooglePhotos] = useState(false);
 
   const [title, setTitle] = useState('');
   const [artist, setArtist] = useState('');
   const [aliases, setAliases] = useState([]);
   const [youtubeUrl, setYoutubeUrl] = useState('');
+  const [genre, setGenre] = useState('');
+  const [rhythm, setRhythm] = useState('');
+  const [meter, setMeter] = useState('');
+  const [keyName, setKeyName] = useState('');
+  const [bookList, setBookList] = useState('');
+  const [tagList, setTagList] = useState('');
+  const [srcUrl, setSrcUrl] = useState('');
+  const [backgroundInfo, setBackgroundInfo] = useState('');
+  const [lyrics, setLyrics] = useState('');
+  const [notes, setNotes] = useState('');
+  const [links, setLinks] = useState([]);
   const [mergeTargetId, setMergeTargetId] = useState(null);
   const [fieldMergeSelections, setFieldMergeSelections] = useState({});
+  const [mergeDetailsOpen, setMergeDetailsOpen] = useState(false);
+
+  function buildDraftCandidate() {
+    return {
+      tune: buildEditedTune(enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {}),
+      mergeTargetId: mergeTargetId,
+    };
+  }
+
+  function clearRecordingInterval() {
+    if (recordingIntervalRef.current) {
+      clearInterval(recordingIntervalRef.current);
+      recordingIntervalRef.current = null;
+    }
+  }
+
+  function stopReviewRecording() {
+    audioUtils.stopRecording();
+  }
+
+  function startReviewRecording() {
+    if (audioUtils.isRecording || typeof props.onImportFile !== 'function') return;
+    recordingStartedAtRef.current = Date.now();
+    setRecordingDuration(0);
+    recordingIntervalRef.current = setInterval(function() {
+      setRecordingDuration(Math.floor((Date.now() - recordingStartedAtRef.current) / 1000));
+    }, 1000);
+    audioUtils.startRecording().then(function(blob) {
+      clearRecordingInterval();
+      setRecordingDuration(0);
+      if (!blob || !blob.size) return;
+      props.onImportFile(recordingBlobToFile(blob), buildDraftCandidate());
+    });
+  }
+
+  useEffect(function() {
+    return function() {
+      clearRecordingInterval();
+    };
+  }, []);
 
   useEffect(function() {
     if (!activeCandidate) return;
+    const tune = activeCandidate.tune || {};
     setTitle(activeCandidate.tune && activeCandidate.tune.name ? activeCandidate.tune.name : '');
     setArtist(activeCandidate.tune && activeCandidate.tune.composer ? activeCandidate.tune.composer : '');
     setAliases(Array.isArray(activeCandidate.tune && activeCandidate.tune.aliases)
       ? activeCandidate.tune.aliases.slice()
       : []);
     setYoutubeUrl(youtubeUrlFromCandidate(activeCandidate));
+    setGenre(tune.genre || '');
+    setRhythm(tune.rhythm || '');
+    setMeter(tune.meter || '');
+    setKeyName(tune.key || '');
+    setBookList(Array.isArray(tune.books) ? tune.books.join(', ') : '');
+    setTagList(Array.isArray(tune.tags) ? tune.tags.join(', ') : '');
+    setSrcUrl(tune.srcUrl || '');
+    setBackgroundInfo(tune.backgroundInfo || '');
+    setLyrics(getLyricsText(tune));
+    setNotes(getFirstVoiceNotes(tune));
+    setLinks(Array.isArray(tune.links) ? tune.links.slice() : []);
     setMergeTargetId(activeCandidate.mergeTargetId || null);
     setFieldMergeSelections({});
+    setMergeDetailsOpen(false);
   }, [activeCandidate && activeCandidate.id, session && session.index, session && session.mergeIndex]);
 
   const activeJob = useMemo(function() {
@@ -98,29 +206,79 @@ export default function ImportReviewModal(props) {
     return mergeCandidateWithEnrichment(activeCandidate, activeJob);
   }, [activeCandidate, activeJob]);
 
-  useEffect(function() {
-    if (!session || session.step !== 'review' || !activeCandidate) return;
-    const imported = enrichedImportedTune || activeCandidate.tune;
-    const original = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
-    const mergedPreview = Object.assign({}, imported, {
+  function buildEditedTune(baseTune) {
+    const next = Object.assign({}, baseTune || {}, {
       name: title.trim(),
       composer: artist.trim(),
       aliases: aliases.slice(),
+      genre: genre.trim(),
+      rhythm: rhythm.trim(),
+      meter: meter.trim(),
+      key: keyName.trim(),
+      books: parseListField(bookList),
+      tags: parseListField(tagList),
+      srcUrl: srcUrl.trim(),
+      backgroundInfo: backgroundInfo,
+      links: links.slice(),
     });
-    const rows = buildTuneImportFieldRows(original || { id: 'new', name: '', composer: '' }, mergedPreview);
-    const differing = rows.filter(function(row) { return row.differs; });
-    setFieldMergeSelections(buildDefaultTuneImportSelections(
-      mergeTargetId ? differing : rows
-    ));
+    const firstVoice = next.voices && Object.keys(next.voices).length
+      ? Object.keys(next.voices)[0]
+      : '1';
+    if (!next.voices) next.voices = {};
+    next.voices[firstVoice] = Object.assign({}, next.voices[firstVoice] || { meta: '' }, {
+      notes: notes.trim() ? notes.split('\n') : [],
+    });
+    if (lyrics.trim()) {
+      next.wLines = lyrics.split('\n');
+      delete next.words;
+    } else {
+      delete next.wLines;
+      next.words = [];
+    }
+    return next;
+  }
+
+  const editedTunePreview = useMemo(function() {
+    return buildEditedTune(enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {});
   }, [
-    session && session.step,
-    mergeTargetId,
+    enrichedImportedTune,
     activeCandidate && activeCandidate.id,
     title,
     artist,
     aliases,
-    tunes,
-    enrichedImportedTune,
+    genre,
+    rhythm,
+    meter,
+    keyName,
+    bookList,
+    tagList,
+    srcUrl,
+    backgroundInfo,
+    lyrics,
+    notes,
+    links,
+  ]);
+
+  const mergeRows = useMemo(function() {
+    const original = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : { id: 'new', name: '', composer: '' };
+    return buildTuneImportFieldRows(original, editedTunePreview) || [];
+  }, [mergeTargetId, tunes, editedTunePreview]);
+
+  const differingMergeRows = useMemo(function() {
+    return (mergeRows || []).filter(function(row) { return row.differs; });
+  }, [mergeRows]);
+
+  useEffect(function() {
+    if (!session || session.step !== 'review' || !activeCandidate) return;
+    setFieldMergeSelections(buildDefaultTuneImportSelections(
+      mergeTargetId ? differingMergeRows : mergeRows
+    ));
+  }, [
+    session && session.step,
+    activeCandidate && activeCandidate.id,
+    mergeTargetId,
+    mergeRows,
+    differingMergeRows,
   ]);
 
   const matches = useMemo(function() {
@@ -129,7 +287,7 @@ export default function ImportReviewModal(props) {
       artist: artist,
       tunes: tunes,
       youtubeUrl: youtubeUrl,
-    });
+    }) || [];
   }, [title, artist, tunes, youtubeUrl]);
 
   if (!session) return null;
@@ -172,19 +330,16 @@ export default function ImportReviewModal(props) {
   function buildPersistedSession() {
     const candidate = activeCandidate;
     if (!candidate) return session;
-    const links = Array.isArray(candidate.tune.links) ? candidate.tune.links.slice() : [];
+    const persistedTune = buildEditedTune(candidate.tune || {});
+    const nextLinks = Array.isArray(persistedTune.links) ? persistedTune.links.slice() : [];
     const yt = youtubeUrl.trim();
     if (yt) {
-      const has = links.some(function(l) { return l && l.link === yt; });
-      if (!has) links.push({ link: yt, title: '', startAt: '', endAt: '' });
+      const has = nextLinks.some(function(l) { return l && l.link === yt; });
+      if (!has) nextLinks.push({ link: yt, title: '', startAt: '', endAt: '' });
     }
+    persistedTune.links = nextLinks;
     return updateCurrentCandidate(session, {
-      tune: Object.assign({}, candidate.tune, {
-        name: title.trim(),
-        composer: artist.trim(),
-        aliases: aliases.slice(),
-        links: links,
-      }),
+      tune: persistedTune,
       youtubeUrl: yt,
       mergeTargetId: mergeTargetId,
     });
@@ -195,17 +350,13 @@ export default function ImportReviewModal(props) {
     const candidate = activeCandidate;
     if (!candidate) return;
 
-    let candidateTune = Object.assign({}, enrichedImportedTune || candidate.tune, {
-      name: title.trim(),
-      composer: artist.trim(),
-    });
+    let candidateTune = buildEditedTune(enrichedImportedTune || candidate.tune || {});
 
     if (mergeTargetId && tunes[mergeTargetId]) {
-      const rows = buildTuneImportFieldRows(tunes[mergeTargetId], candidateTune).filter(function(row) {
-        return row.differs;
-      });
-      const selections = Object.keys(fieldMergeSelections).length > 0
-        ? fieldMergeSelections
+      const rows = differingMergeRows;
+      const currentSelections = fieldMergeSelections || {};
+      const selections = Object.keys(currentSelections).length > 0
+        ? currentSelections
         : buildDefaultTuneImportSelections(rows);
       candidateTune = applyTuneImportSelections(tunes[mergeTargetId], candidateTune, selections);
     }
@@ -224,6 +375,21 @@ export default function ImportReviewModal(props) {
           props.onComplete(nextSession);
         }
       });
+    }
+  }
+
+  function jumpQueue(direction) {
+    if (typeof props.onSessionChange !== 'function') return;
+    const base = buildPersistedSession();
+    props.onSessionChange(navigateReviewCandidate(base, direction));
+  }
+
+  function cancelCurrent() {
+    if (typeof props.onSessionChange !== 'function') return;
+    const next = cancelCurrentCandidate(buildPersistedSession());
+    props.onSessionChange(next);
+    if (next.step === 'done' && typeof props.onComplete === 'function') {
+      props.onComplete(next);
     }
   }
 
@@ -378,6 +544,140 @@ export default function ImportReviewModal(props) {
 
     return (
       <>
+        <div className="border rounded p-2 mb-3">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
+              <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
+                Add From
+              </Button>
+              <Button
+                size="sm"
+                variant="outline-primary"
+                onClick={function() { if (fileInputRef.current) fileInputRef.current.click(); }}
+              >
+                File
+              </Button>
+              <PasteImportModal
+                onImportText={function(text) {
+                  if (typeof props.onImportText === 'function') props.onImportText(text, buildDraftCandidate());
+                }}
+                onImportFiles={function(files) {
+                  if (typeof props.onImportFiles === 'function') props.onImportFiles(files, buildDraftCandidate());
+                }}
+              />
+              <ImportUrlModal
+                label="URL"
+                tunebook={props.tunebook}
+                abcjsParser={abcjsParser}
+                driveApi={driveApi}
+                accessToken={props.token && props.token.access_token}
+                resolverAvailable={resolverAvailable}
+                onImportSource={function(source) {
+                  if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
+                }}
+              />
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
+              {audioUtils.isRecording ? (
+                <>
+                  <Button size="sm" variant="danger" onClick={stopReviewRecording}>Stop</Button>
+                  <Button size="sm" variant="outline-danger" disabled aria-label="Recording duration">{recordingDuration + 1}s</Button>
+                </>
+              ) : (
+                <Button size="sm" variant="outline-primary" onClick={startReviewRecording}>Record</Button>
+              )}
+              {resolverChecked && resolverAvailable ? (
+                <Button size="sm" variant="outline-primary" onClick={function() { setShowSheetCamera(true); }}>Camera</Button>
+              ) : null}
+              {props.token ? (
+                <>
+                  {resolverChecked && resolverAvailable ? (
+                    <Button size="sm" variant="outline-primary" onClick={function() { setShowSheetGooglePhotos(true); }}>Google Photos</Button>
+                  ) : null}
+                  <DriveFilePickerModal
+                    label="Drive"
+                    title="Import from Google Drive"
+                    token={props.token}
+                    driveApi={driveApi}
+                    requestGoogleScopes={props.requestGoogleScopes}
+                    onImportSource={function(source) {
+                      if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
+                    }}
+                  />
+                </>
+              ) : null}
+              <YouTubeSearchModal
+                tunebook={props.tunebook}
+                value={youtubeSearchQuery}
+                onChange={function(link) {
+                  if (typeof props.onImportYouTube === 'function') props.onImportYouTube(link, buildDraftCandidate());
+                }}
+                triggerElement={<Button variant="outline-primary" size="sm">YouTube</Button>}
+              />
+            </div>
+          </div>
+          <input
+            ref={fileInputRef}
+            type="file"
+            style={{ display: 'none' }}
+            onChange={function(event) {
+              const file = event.target.files && event.target.files[0];
+              event.target.value = '';
+              if (file && typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+            }}
+          />
+        </div>
+        <div className="border rounded p-2 mb-3">
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.6em', flexWrap: 'wrap' }}>
+            <strong>
+              {mergeTargetId && tunes[mergeTargetId]
+                ? ('Merging ' + differingMergeRows.length + ' fields into tune ' + (tunes[mergeTargetId].name || 'Untitled'))
+                : ('Adding Tune ' + (title.trim() || 'Untitled'))}
+            </strong>
+            <Button
+              size="sm"
+              variant="outline-secondary"
+              aria-expanded={mergeDetailsOpen}
+              aria-controls={MERGE_DETAILS_PANEL_ID}
+              onClick={function() { setMergeDetailsOpen(function(open) { return !open; }); }}
+            >
+              {mergeDetailsOpen ? 'Hide details' : 'Show details'}
+            </Button>
+          </div>
+          {mergeDetailsOpen ? (
+            <div
+              id={MERGE_DETAILS_PANEL_ID}
+              role="region"
+              aria-label="Merge field details"
+              className="mt-2"
+              style={{ maxHeight: '18em', overflowY: 'auto' }}
+            >
+              {(mergeTargetId ? differingMergeRows : mergeRows).map(function(row) {
+                return (
+                  <div key={row.key} className="border rounded p-2 mb-2">
+                    <div className="d-flex align-items-start justify-content-between gap-2 flex-wrap">
+                      <label style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45em', marginBottom: 0 }}>
+                        <input
+                          type="checkbox"
+                          checked={!!fieldMergeSelections[row.key]}
+                          onChange={function(e) {
+                            setFieldMergeSelections(function(prev) {
+                              return Object.assign({}, prev, { [row.key]: !!e.target.checked });
+                            });
+                          }}
+                        />
+                        <span>{row.label}</span>
+                      </label>
+                    </div>
+                    <div className="small text-muted mt-1">Before: {row.originalDisplay}</div>
+                    <div className="small text-muted">After: {row.importedDisplay}</div>
+                  </div>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
+
         <Form.Group className="mb-3">
           <Form.Label>Title</Form.Label>
           <Form.Control value={title} onChange={function(e) { setTitle(e.target.value); }} />
@@ -414,6 +714,93 @@ export default function ImportReviewModal(props) {
           onChange={function(next) { setAliases(next); }}
         />
 
+        <Row>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Genre</Form.Label>
+              <Form.Control value={genre} onChange={function(e) { setGenre(e.target.value); }} />
+            </Form.Group>
+          </Col>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Rhythm</Form.Label>
+              <Form.Control value={rhythm} onChange={function(e) { setRhythm(e.target.value); }} />
+            </Form.Group>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Key</Form.Label>
+              <Form.Control value={keyName} onChange={function(e) { setKeyName(e.target.value); }} />
+            </Form.Group>
+          </Col>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Meter</Form.Label>
+              <Form.Control value={meter} onChange={function(e) { setMeter(e.target.value); }} />
+            </Form.Group>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Book(s)</Form.Label>
+              <Form.Control
+                value={bookList}
+                placeholder="comma separated"
+                onChange={function(e) { setBookList(e.target.value); }}
+              />
+            </Form.Group>
+          </Col>
+          <Col md={6}>
+            <Form.Group className="mb-3">
+              <Form.Label>Tags</Form.Label>
+              <Form.Control
+                value={tagList}
+                placeholder="comma separated"
+                onChange={function(e) { setTagList(e.target.value); }}
+              />
+            </Form.Group>
+          </Col>
+        </Row>
+
+        <div className="mb-3">
+          <Form.Label>Links</Form.Label>
+          <LinksEditor
+            links={links}
+            tune={editedTunePreview}
+            tuneId={editedTunePreview && editedTunePreview.id}
+            tunebook={props.tunebook}
+            token={props.token}
+            forceRefresh={props.forceRefresh}
+            simplified={true}
+            onChange={setLinks}
+          />
+        </div>
+
+        <Form.Group className="mb-3">
+          <Form.Label>Source URL</Form.Label>
+          <Form.Control value={srcUrl} onChange={function(e) { setSrcUrl(e.target.value); }} />
+        </Form.Group>
+
+        <Form.Group className="mb-3">
+          <Form.Label>Background info</Form.Label>
+          <Form.Control as="textarea" rows={6} value={backgroundInfo} onChange={function(e) { setBackgroundInfo(e.target.value); }} />
+        </Form.Group>
+
+        <Form.Group className="mb-3">
+          <Form.Label>Lyrics</Form.Label>
+          <Form.Control as="textarea" rows={8} value={lyrics} onChange={function(e) { setLyrics(e.target.value); }} />
+        </Form.Group>
+
+        <Form.Group className="mb-3">
+          <Form.Label>ABC Notes</Form.Label>
+          <Form.Control as="textarea" rows={10} value={notes} onChange={function(e) { setNotes(e.target.value); }} />
+        </Form.Group>
+
         {showYoutube ? (
           <Form.Group className="mb-3">
             <Form.Label>YouTube link</Form.Label>
@@ -439,11 +826,16 @@ export default function ImportReviewModal(props) {
           </Form.Group>
         ) : null}
 
-        <hr />
+      </>
+    );
+  }
+
+  function renderMergeChoicesPanel() {
+    return (
+      <>
+        <div role="region" aria-label="Merge choices" tabIndex={-1}>
         <h6>Collection match</h6>
-        <p className="text-muted small">
-          Create a new tune or merge into an existing match, then choose fields to import.
-        </p>
+        <p className="text-muted small">Choose an existing tune to merge into, or create a new tune.</p>
         <div style={{ marginBottom: '0.75em' }}>
           <Button
             variant={mergeTargetId ? 'outline-primary' : 'success'}
@@ -452,28 +844,26 @@ export default function ImportReviewModal(props) {
             Create new tune
           </Button>
         </div>
-        {matches.length === 0 && (
+        {matches.length === 0 ? (
           <Alert variant="secondary">No close matches found in your collection.</Alert>
-        )}
-        {matches.length > 0 && (
+        ) : (
           <ListGroup className="mb-3">
             {matches.map(function(entry) {
               const tune = entry.tune;
               const selected = mergeTargetId === tune.id;
               return (
-                <ListGroup.Item key={tune.id} active={selected}>
+                <ListGroup.Item key={tune.id} active={selected} tabIndex={0} aria-pressed={selected}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
                     <div>
                       <strong>{tune.name}</strong>
                       {tune.composer && <span className="text-muted"> — {tune.composer}</span>}
-                      {entry.confidence && (
-                        <Badge bg="info" style={{ marginLeft: '0.4em' }}>{entry.confidence}</Badge>
-                      )}
+                      {entry.confidence && <Badge bg="info" style={{ marginLeft: '0.4em' }}>{entry.confidence}</Badge>}
                     </div>
                     <div style={{ display: 'flex', gap: '0.4em' }}>
                       <Button
                         size="sm"
                         variant="outline-secondary"
+                        aria-label={`Open tune ${tune.name}`}
                         onClick={function() {
                           if (typeof props.onOpenTune === 'function') props.onOpenTune(tune);
                         }}
@@ -483,7 +873,9 @@ export default function ImportReviewModal(props) {
                       <Button
                         size="sm"
                         variant={selected ? 'primary' : 'outline-primary'}
-                        onClick={function() { setMergeTargetId(tune.id); }}
+                        aria-pressed={selected}
+                        aria-label={selected ? `Selected merge target ${tune.name}` : `Merge into ${tune.name}`}
+                        onClick={function() { setMergeTargetId(selected ? null : tune.id); }}
                       >
                         Merge
                       </Button>
@@ -494,57 +886,29 @@ export default function ImportReviewModal(props) {
             })}
           </ListGroup>
         )}
-
-        <hr />
+        </div>
         <h6>Fields to import</h6>
-        {mergeTargetId && tunes[mergeTargetId] ? (
-          <>
-            <Alert variant="info">
-              Review fields to merge into <strong>{tunes[mergeTargetId].name}</strong>.
-            </Alert>
-            <TuneImportFieldPicker
-              idPrefix="-review"
-              originalTune={tunes[mergeTargetId]}
-              importedTune={Object.assign({}, enrichedImportedTune || activeCandidate.tune, {
-                name: title.trim(),
-                composer: artist.trim(),
-              })}
-              onlyDiffering={true}
-              onSelectionsChange={setFieldMergeSelections}
-            />
-          </>
-        ) : (
-          <>
-            <Alert variant="info">Review the imported tune before saving it as a new entry.</Alert>
-            <TuneImportFieldPicker
-              idPrefix="-review-new"
-              originalTune={{ id: 'new', name: '', composer: '' }}
-              importedTune={Object.assign({}, enrichedImportedTune || activeCandidate.tune, {
-                name: title.trim(),
-                composer: artist.trim(),
-              })}
-              onlyDiffering={false}
-              onSelectionsChange={setFieldMergeSelections}
-            />
-          </>
-        )}
+        <TuneImportFieldPicker
+          idPrefix={mergeTargetId ? '-review' : '-review-new'}
+          originalTune={mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : { id: 'new', name: '', composer: '' }}
+          importedTune={editedTunePreview}
+          onlyDiffering={!!(mergeTargetId && tunes[mergeTargetId])}
+          onSelectionsChange={setFieldMergeSelections}
+        />
       </>
     );
   }
 
   const isEnrichmentQueue = session.step === 'enrichmentQueue' && session.phase === 'enrichment';
-  const bannerIdentity = { title: title, artist: artist };
 
   const panelBody = (
     <>
-      {!isEnrichmentQueue && (
-        <IdentityBanner title={bannerIdentity.title} artist={bannerIdentity.artist} />
-      )}
-      <Row>
-        <Col md={8}>
+      <Row style={{ flexWrap: 'nowrap' }}>
+        <div style={{ flex: '1 1 auto', minWidth: 0, overflowY: 'auto', paddingRight: '1rem' }}>
           {isEnrichmentQueue ? renderEnrichmentQueue() : renderUnifiedReview()}
-        </Col>
-        <Col md={4}>
+        </div>
+        <div style={{ flex: '0 0 320px', maxWidth: '320px', overflowY: 'auto' }}>
+          {!isEnrichmentQueue ? renderMergeChoicesPanel() : null}
           {activeCandidate && activeCandidate.contentHashDuplicate && (
             <Alert variant="warning">This item matches existing content in your collection.</Alert>
           )}
@@ -559,26 +923,26 @@ export default function ImportReviewModal(props) {
           {activeJob && activeJob.status === 'done' && activeJob.enrichedTune && (
             <Alert variant="success" className="mt-2">Enhanced data ready for import.</Alert>
           )}
-        </Col>
+        </div>
       </Row>
     </>
   );
 
-  const panelFooter = isEnrichmentQueue ? (
-    <>
-      <Button variant="secondary" onClick={props.onClose}>Cancel import</Button>
-      {isReviewComplete(session) ? (
-        <Button variant="success" onClick={function() {
-          if (typeof props.onComplete === 'function') props.onComplete(session);
-        }}>
-          Done
-        </Button>
+  const canMoveQueue = (session && Array.isArray(session.candidates) && session.candidates.length > 1);
+  const showEnhance = !isEnrichmentQueue && !session.skipEnrichment && activeCandidate && !activeCandidate.skipEnrich;
+  const headerActions = (
+    <div className="d-flex align-items-center gap-2 flex-wrap justify-content-end" style={{ marginLeft: 'auto' }}>
+      {canMoveQueue ? (
+        <>
+          <Button variant="outline-secondary" size="sm" onClick={function() { jumpQueue(-1); }}>Prev</Button>
+          <Button variant="outline-secondary" size="sm" onClick={function() { jumpQueue(1); }}>Next</Button>
+        </>
       ) : null}
-    </>
-  ) : (
-    <>
-      <Button variant="secondary" onClick={props.onClose}>Cancel import</Button>
-      {!session.skipEnrichment && activeCandidate && !activeCandidate.skipEnrich && (
+      <Button variant="outline-danger" onClick={props.onClose}>Cancel all</Button>
+      {!isEnrichmentQueue ? (
+        <Button variant="secondary" onClick={cancelCurrent}>Cancel</Button>
+      ) : null}
+      {showEnhance ? (
         <Button variant="outline-primary" onClick={function() {
           if (activeJob && activeJob.status === 'awaiting') {
             enqueueEnhancementForCurrent();
@@ -594,11 +958,18 @@ export default function ImportReviewModal(props) {
         }}>
           Enhance
         </Button>
-      )}
-      <Button variant="success" onClick={finishCurrentCandidate}>
-        Import
-      </Button>
-    </>
+      ) : null}
+      {!isEnrichmentQueue ? (
+        <Button variant="success" onClick={finishCurrentCandidate}>Import</Button>
+      ) : null}
+      {isReviewComplete(session) ? (
+        <Button variant="success" onClick={function() {
+          if (typeof props.onComplete === 'function') props.onComplete(session);
+        }}>
+          Done
+        </Button>
+      ) : null}
+    </div>
   );
 
   if (props.embedded) {
@@ -611,11 +982,9 @@ export default function ImportReviewModal(props) {
               {sessionProgressLabel(session)}
             </span>
           </h5>
+          {headerActions}
         </div>
         {panelBody}
-        <div className="d-flex flex-wrap gap-2 mt-3 pt-2 border-top">
-          {panelFooter}
-        </div>
       </div>
     );
   }
@@ -630,16 +999,35 @@ export default function ImportReviewModal(props) {
       fullscreen
       backdrop="static"
     >
-      <Modal.Header closeButton>
+      <Modal.Header>
         <Modal.Title>
           Import review
           <span className="text-muted" style={{ fontSize: '0.85em', marginLeft: '0.75em' }}>
             {sessionProgressLabel(session)}
           </span>
         </Modal.Title>
+        {headerActions}
       </Modal.Header>
       <Modal.Body>{panelBody}</Modal.Body>
-      <Modal.Footer>{panelFooter}</Modal.Footer>
+      <SheetImageCameraModal
+        show={showSheetCamera}
+        onHide={function() { setShowSheetCamera(false); }}
+        onCapture={function(file) {
+          setShowSheetCamera(false);
+          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+        }}
+      />
+      <SheetImageGooglePhotosModal
+        show={showSheetGooglePhotos}
+        onHide={function() { setShowSheetGooglePhotos(false); }}
+        token={props.token}
+        requestGoogleScopes={props.requestGoogleScopes}
+        login={props.login}
+        onSelectFile={function(file) {
+          setShowSheetGooglePhotos(false);
+          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+        }}
+      />
     </Modal>
   );
 }

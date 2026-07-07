@@ -24,11 +24,19 @@ import {
 } from './backgroundReviewToast'
 
 describe('backgroundReviewToast', function() {
+  let now
+
   beforeEach(function() {
     toast.info.mockClear()
     toast.dismiss.mockClear()
     getBackgroundReviewSummary.mockReset()
     getBackgroundReviewSummary.mockReturnValue({ ready: 0, processing: 0 })
+    now = 1_000
+    jest.spyOn(Date, 'now').mockImplementation(function() { return now })
+  })
+
+  afterEach(function() {
+    if (Date.now.mockRestore) Date.now.mockRestore()
   })
 
   test('dismisses toast when nothing is pending', function() {
@@ -87,5 +95,26 @@ describe('backgroundReviewToast', function() {
     dismissBackgroundReviewToast()
     expect(toast.dismiss).toHaveBeenCalledWith('background-review')
     expect(toast.dismiss).toHaveBeenCalledWith('background-review-processing')
+  })
+
+  test('manual close suppresses ready toast for at least 30 seconds', function() {
+    getBackgroundReviewSummary.mockReturnValue({ ready: 2, processing: 0 })
+
+    syncBackgroundReviewToast()
+    expect(toast.info).toHaveBeenCalledTimes(1)
+
+    const firstReadyCall = toast.info.mock.calls[0]
+    firstReadyCall[1].onClose()
+
+    syncBackgroundReviewToast()
+    expect(toast.info).toHaveBeenCalledTimes(1)
+
+    now += 29_000
+    syncBackgroundReviewToast()
+    expect(toast.info).toHaveBeenCalledTimes(1)
+
+    now += 1_100
+    syncBackgroundReviewToast()
+    expect(toast.info).toHaveBeenCalledTimes(2)
   })
 })

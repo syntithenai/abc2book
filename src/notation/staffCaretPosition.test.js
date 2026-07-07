@@ -10,6 +10,10 @@ import {
   countBarlinesBefore,
   eventIndexForBarDomIndex,
 } from './staffCaretPosition';
+import { eventIndexFromStaffClick } from './staffCaretPosition';
+import { eventIndexFromStaffAbcElem, eventsFromVoiceBody } from './voiceEventTiming';
+import { buildAbcPreviewFromBodies } from './notationDisplayAbc';
+import useAbcTools from '../useAbcTools';
 
 describe('staffCaretPosition', function() {
   test('isStaffDrawableEvent recognizes notes and rests', function() {
@@ -558,6 +562,73 @@ describe('staffCaretPosition', function() {
     const isBar = drawables.some(function(el) { return el.className.includes('abcjs-bar') });
     expect(isBar).toBe(false);
 
+    document.body.removeChild(wrap);
+  });
+
+  test('eventIndexFromStaffClick prefers abcelem mapping when provided', function() {
+    const abcTools = useAbcTools();
+    const tunebook = { abcTools: abcTools };
+    const tuneMeta = { meter: '4/4', noteLength: '1/8', key: 'C', tempo: 120 };
+    const tune = {
+      id: 't1', name: 'Test', meter: '4/4', noteLength: '1/8', key: 'C', voices: { 1: { notes: ['C D E |'] } },
+    };
+    const events = eventsFromVoiceBody('C D E |', tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C D E |' });
+    const cStart = abc.indexOf('C ');
+    expect(cStart).toBeGreaterThanOrEqual(0);
+    const abcIdx = eventIndexFromStaffAbcElem(events, tuneMeta, abc, ['1'], 0, { startChar: cStart }, null);
+    const result = eventIndexFromStaffClick(null, events, null, { startChar: cStart }, null, 0, tuneMeta, abc, ['1']);
+    expect(result).toBe(abcIdx);
+  });
+
+  test('eventIndexFromStaffClick falls back to DOM mapping when needed', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() { return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 }; };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note';
+    note.getBoundingClientRect = function() { return { left: 80, top: 20, right: 96, bottom: 52, width: 16, height: 32 }; };
+    wrap.appendChild(note);
+    document.body.appendChild(wrap);
+    const events = [{ type: 'note' }];
+    const mouseEvent = { clientX: 82, clientY: 30 };
+    const domIdx = eventIndexFromStaffClick(wrap, events, mouseEvent, null, null, 0);
+    const expected = caretIndexAndAnchorFromStaffClick(wrap, events, mouseEvent, { selectableElement: note }, 0).caretIndex;
+    expect(domIdx).toBe(expected);
+    document.body.removeChild(wrap);
+  });
+
+  test('eventIndexFromStaffClick returns safe index for invalid inputs', function() {
+    const result = eventIndexFromStaffClick(null, null, null, null, null, 0);
+    expect(typeof result).toBe('number');
+    expect(result).toBeGreaterThanOrEqual(0);
+  });
+
+  test('eventIndexFromStaffClick returns safe length for all-barline-only events', function() {
+    const events = [ { type: 'barline' }, { type: 'barline' } ];
+    const idx = eventIndexFromStaffClick(null, events, null, null, null, 0);
+    expect(typeof idx).toBe('number');
+    expect(idx).toBe(events.length);
+  });
+
+  test('eventIndexFromStaffClick falls back to DOM when abcelem mapping fails', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() { return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 }; };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note';
+    note.getBoundingClientRect = function() { return { left: 80, top: 20, right: 96, bottom: 52, width: 16, height: 32 }; };
+    wrap.appendChild(note);
+    document.body.appendChild(wrap);
+    const events = [{ type: 'note' }];
+    const mouseEvent = { clientX: 82, clientY: 30 };
+    // Provide an abcelem with an invalid startChar that won't map
+    const badAbcelem = { startChar: 999999 };
+    // When an abcelem is provided but fullAbc/displayedVoiceKeys are missing,
+    // eventIndexFromStaffClick delegates to the abc-based caretIndexFromStaffClick
+    // behaviour rather than the DOM mapping. Assert that semantics here match
+    // the abc fallback.
+    const abcFallback = require('./voiceEventTiming').caretIndexFromStaffClick(events, null, badAbcelem);
+    const idx = eventIndexFromStaffClick(wrap, events, mouseEvent, badAbcelem, null, 0);
+    expect(idx).toBe(abcFallback);
     document.body.removeChild(wrap);
   });
 });

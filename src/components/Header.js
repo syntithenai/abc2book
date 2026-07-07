@@ -15,6 +15,7 @@ import {
   isPlaybackInterruptPath,
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
+import useMediaResolverHealth from '../useMediaResolverHealth';
 
 
 export default function Header(props) {
@@ -49,6 +50,7 @@ export default function Header(props) {
     const verySmallScreen = useIsHeaderAuthHidden();
     const narrowViewport = useIsNarrowViewport();
     const playbackInMenu = useIsHeaderPlaybackInMenu();
+    const { available: resolverAvailable } = useMediaResolverHealth();
     useToolPagePlaybackInterrupt(props.mediaController, location.pathname);
 
     const onKeyPress = (event) => {
@@ -308,13 +310,15 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
-                    <Dropdown.Item as="div">
-                        <Link to="/lyrics">
-                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.words} Lyrics
-                            </Button>
-                        </Link>
-                    </Dropdown.Item>
+                    {resolverAvailable ? (
+                        <Dropdown.Item as="div">
+                            <Link to="/lyrics">
+                                <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
+                                    {props.tunebook.icons.words} Lyrics
+                                </Button>
+                            </Link>
+                        </Dropdown.Item>
+                    ) : null}
                 </div>
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-actions">

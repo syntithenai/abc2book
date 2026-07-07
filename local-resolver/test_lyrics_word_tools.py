@@ -39,13 +39,27 @@ class LyricsWordToolEndpointTests(unittest.TestCase):
         with patch.object(
             server,
             "lookup_phrase_ideas",
-            new=AsyncMock(return_value={"leftContext": [], "rightContext": [], "spelling": [{"word": "moonlight"}] }),
+            new=AsyncMock(return_value={"leftContext": [], "rightContext": [], "related": [{"word": "starlight"}], "spelling": [{"word": "moonlight"}] }),
         ) as mock_lookup:
             response = self.client.post("/lyrics-phrases", json={"phrase": "under the stars"})
 
         self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["related"][0]["word"], "starlight")
         self.assertEqual(response.json()["spelling"][0]["word"], "moonlight")
         mock_lookup.assert_awaited_once_with("under the stars")
+
+    def test_alliteration_endpoint_returns_related_adjectives(self):
+        with patch.object(
+            server,
+            "lookup_alliteration",
+            new=AsyncMock(return_value={"alliterative": [{"word": "silvery"}], "related": [{"word": "soft"}] }),
+        ) as mock_lookup:
+            response = self.client.post("/lyrics-alliteration", json={"term": "stars"})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["alliterative"][0]["word"], "silvery")
+        self.assertEqual(response.json()["related"][0]["word"], "soft")
+        mock_lookup.assert_awaited_once_with("stars")
 
 
 if __name__ == "__main__":

@@ -101,8 +101,8 @@ describe('noteSpacingUtils', function() {
       },
     };
     const lines = buildAbcWithNoteSpacing(tune, useAbcTools());
-    expect(lines).toContain('First');
-    expect(lines).toContain('Second');
+    expect(lines).toContain('First~bound');
+    expect(lines).toContain('Sec- ond');
     expect(lines).not.toContain('wrong words here');
   });
 
