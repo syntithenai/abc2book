@@ -292,11 +292,12 @@ export function getAvailableDisplayFlags(tune, tunebook, options) {
   const hasLyrics = !!(tunebook && tunebook.hasLyrics && tunebook.hasLyrics(tune));
   const hasNotes = !!(tunebook && tunebook.hasNotes && tunebook.hasNotes(tune));
   const hasChords = !!(options && options.hasChords);
+  const hasInfo = (options && options.hasInfo !== undefined) ? !!options.hasInfo : true;
   return {
     notation: hasNotes,
     lyrics: hasLyrics,
     chords: hasChords,
-    info: true,
+    info: hasInfo,
   };
 }
 

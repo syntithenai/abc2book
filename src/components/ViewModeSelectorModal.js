@@ -151,6 +151,8 @@ function DisplayModeToolbar(props) {
     preferInlineChords: preferInline,
     hideInlineVoiceControls,
     separateInlineFitButton,
+    showStructure,
+    onToggleStructure,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
@@ -166,6 +168,8 @@ function DisplayModeToolbar(props) {
         tunebook={tunebook}
         preferInlineChords={preferInline}
         onChange={onFlagsChange}
+        showStructure={showStructure}
+        onToggleStructure={onToggleStructure}
       />
       {notationOn && !hideInlineVoiceControls ? (
         <ViewModeVoiceControls
@@ -226,8 +230,11 @@ export default function ViewModeSelectorModal(props) {
     && tuneHasExplicitChords(props.tune, props.tunebook, abcjsParser);
   const preferInline = !isEditor && !!props.tune
     && preferInlineChords(props.tune, props.tunebook, abcjsParser);
+  const hasInfo = !isEditor && !!props.tune
+    && typeof props.tune.backgroundInfo === 'string'
+    && !!props.tune.backgroundInfo.trim();
   const available = !isEditor
-    ? getAvailableDisplayFlags(props.tune, props.tunebook, { hasChords: hasChords })
+    ? getAvailableDisplayFlags(props.tune, props.tunebook, { hasChords: hasChords, hasInfo: hasInfo })
     : null;
   const displayFlags = !isEditor
     ? resolveDisplayFlagsForTune(
@@ -292,6 +299,8 @@ export default function ViewModeSelectorModal(props) {
           onNotationFitModeChange={props.onNotationFitModeChange}
           hideInlineVoiceControls={props.hideInlineVoiceControls}
           separateInlineFitButton={separateInlineFitButton}
+          showStructure={props.showStructure}
+          onToggleStructure={props.onToggleStructure}
         />
         {showSeparateInlineFitButton ? (
           <NotationFitButton
@@ -362,6 +371,8 @@ export default function ViewModeSelectorModal(props) {
               preferInlineChords={preferInline}
               onChange={handleFlagsChange}
               stopMenuClose={true}
+              showStructure={props.showStructure}
+              onToggleStructure={props.onToggleStructure}
             />
             {displayFlags.notation !== 'off' && getTuneVoiceKeys(props.tune).length > 1 ? (
               <>

@@ -2994,6 +2994,9 @@ button img:after {
   overflow-y: auto;
 }
 
+/* Hide abcjs chord annotations when chords flag is off */
+.no-inline-chords .abcjs-chord { display: none; }
+
 /* Chord chart inline within lyrics panel */
 .chord-inline-in-lyrics {
   margin-bottom: 0.75rem;

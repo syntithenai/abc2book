@@ -57,7 +57,7 @@ function ChordBlockView({ chords, uniqueChords, useInstrument, tunebook }) {
       test.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font-family:inherit;'
       test.textContent = longest
       container.appendChild(test)
-      var lo = 0.5, hi = 3.0
+      var lo = 0.5, hi = 1.5
       for (var i = 0; i < 20; i++) {
         var mid = (lo + hi) / 2
         test.style.fontSize = mid + 'em'
@@ -118,6 +118,9 @@ export default function MusicSingle(props) {
     const [squashLyrics, setSquashLyrics] = useState(false)
     const [tune, setTune] = useState(null)
     const [notationFitMode, setNotationFitModeState] = useState(getNotationFitMode())
+    const [showStructure, setShowStructure] = useState(function() {
+      return localStorage.getItem('abc2book_show_structure') !== 'false'
+    })
     const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
     
     var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
@@ -398,7 +401,7 @@ export default function MusicSingle(props) {
                 )
                 const notationVisible = viewFlags.notation !== 'off'
                 const lyricsVisible = !!viewFlags.lyrics
-                const chordsBlockVisible = viewFlags.chords !== 'off' && notationVisible && hasChords
+                const chordsBlockVisible = showStructure && hasChords
                 const layoutClass = notationVisible && lyricsVisible && chordsBlockVisible ? 'music-layout-notation-lyrics-chords'
                   : notationVisible && lyricsVisible ? 'music-layout-notation-lyrics'
                   : notationVisible && chordsBlockVisible ? 'music-layout-notation-chords'
@@ -420,7 +423,7 @@ export default function MusicSingle(props) {
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
                 const effectiveCapo = Number(tune.capo) || 0
-                const isChordLayout = viewFlags.chords !== 'off' && lyricsVisible && hasChords
+                const isChordLayout = viewFlags.chords !== 'off' && lyricsVisible && hasChords && !notationVisible
 
                 const transposeCapoBlock = (
                   <div className="music-transpose-capo-block">
@@ -450,6 +453,12 @@ export default function MusicSingle(props) {
 
                 function handleNotationFitModeChange(mode) {
                         setNotationFitModeState(setNotationFitMode(mode))
+                }
+
+                function handleToggleStructure() {
+                  const next = !showStructure
+                  setShowStructure(next)
+                  localStorage.setItem('abc2book_show_structure', String(next))
                 }
 
                 function fixLinks(tune,index,field,startOrEnd) {
@@ -649,6 +658,8 @@ export default function MusicSingle(props) {
               }}
               extraMenuContent={transposeCapoBlock}
 			        onChange={function(val) {props.setViewMode(val)}}
+              showStructure={showStructure}
+              onToggleStructure={handleToggleStructure}
 			      />
             {!mediumToolbar ? transposeCapoBlock : null}
 			    </div>
@@ -668,7 +679,7 @@ export default function MusicSingle(props) {
               
              <div className={`music-single-panels ${layoutClass}${notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : ''}`}>
                {/* Notation panel — always in DOM for audio continuity, visually hidden when off */}
-               <div className="music-body-notation" style={notationVisible ? {} : {display:'none'}}>
+               <div className={`music-body-notation${viewFlags.chords === 'off' ? ' no-inline-chords' : ''}`} style={notationVisible ? {} : {display:'none'}}>
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>

@@ -35,6 +35,8 @@ export default function DisplayModeControls(props) {
     className,
     stopMenuClose,
     preferInlineChords,
+    showStructure,
+    onToggleStructure,
   } = props;
 
   function stop(e) {
@@ -59,6 +61,18 @@ export default function DisplayModeControls(props) {
       onClick={stopMenuClose ? function(e) { e.stopPropagation(); } : undefined}
     >
       <ButtonGroup size={size || 'sm'} className="display-mode-group">
+        {available.chords && onToggleStructure !== undefined && (
+          <GroupButton
+            size={size}
+            icon={tunebook.icons.menu}
+            label="Structure"
+            active={!!showStructure}
+            aria-label={showStructure ? 'Hide chord structure' : 'Show chord structure'}
+            title={showStructure ? 'Hide chord structure' : 'Show chord structure'}
+            onMouseDown={stop}
+            onClick={onToggleStructure}
+          />
+        )}
         {available.chords && (
           <GroupButton
             size={size}
