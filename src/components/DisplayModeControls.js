@@ -58,8 +58,8 @@ export default function DisplayModeControls(props) {
       className={'display-mode-controls' + (className ? ' ' + className : '')}
       onClick={stopMenuClose ? function(e) { e.stopPropagation(); } : undefined}
     >
-      {available.chords && (
-        <ButtonGroup size={size || 'sm'} className="display-mode-group" aria-label="Chords">
+      <ButtonGroup size={size || 'sm'} className="display-mode-group">
+        {available.chords && (
           <GroupButton
             size={size}
             icon={tunebook.icons.guitar}
@@ -70,56 +70,44 @@ export default function DisplayModeControls(props) {
             onMouseDown={stop}
             onClick={function() { apply('chords', 'visibility'); }}
           />
+        )}
+        {available.notation && (
           <GroupButton
             size={size}
-            label="Inline"
-            active={flags.chords === 'inline'}
-            aria-label={flags.chords === 'inline' ? 'Chords in block' : 'Chords inline with lyrics'}
-            title={flags.chords === 'inline' ? 'Switch to chord block' : 'Chords inline with lyrics'}
+            icon={tunebook.icons.music}
+            label="Notation"
+            active={notationOn}
+            aria-label={notationOn ? 'Hide notation' : 'Show notation'}
+            title={notationOn ? 'Hide notation' : 'Show notation'}
             onMouseDown={stop}
-            onClick={function() { apply('chords', 'layout'); }}
+            onClick={function() { apply('notation', 'visibility'); }}
           />
-        </ButtonGroup>
-      )}
-      {available.notation && (
-        <GroupButton
-          size={size}
-          className="display-mode-solo-btn"
-          icon={tunebook.icons.music}
-          label="Notation"
-          active={notationOn}
-          aria-label={notationOn ? 'Hide notation' : 'Show notation'}
-          title={notationOn ? 'Hide notation' : 'Show notation'}
-          onMouseDown={stop}
-          onClick={function() { apply('notation', 'visibility'); }}
-        />
-      )}
-      {available.lyrics && (
-        <GroupButton
-          size={size}
-          className="display-mode-solo-btn"
-          icon={tunebook.icons.quillpen}
-          label="Lyrics"
-          active={!!flags.lyrics}
-          aria-label={flags.lyrics ? 'Hide lyrics' : 'Show lyrics'}
-          title={flags.lyrics ? 'Hide lyrics' : 'Show lyrics'}
-          onMouseDown={stop}
-          onClick={function() { apply('lyrics', 'toggle'); }}
-        />
-      )}
-      {available.info && (
-        <GroupButton
-          size={size}
-          className="display-mode-solo-btn"
-          icon={tunebook.icons.question}
-          label="Info"
-          active={!!flags.info}
-          aria-label={flags.info ? 'Hide info' : 'Show info'}
-          title={flags.info ? 'Hide info' : 'Show info'}
-          onMouseDown={stop}
-          onClick={function() { apply('info', 'toggle'); }}
-        />
-      )}
+        )}
+        {available.lyrics && (
+          <GroupButton
+            size={size}
+            icon={tunebook.icons.quillpen}
+            label="Lyrics"
+            active={!!flags.lyrics}
+            aria-label={flags.lyrics ? 'Hide lyrics' : 'Show lyrics'}
+            title={flags.lyrics ? 'Hide lyrics' : 'Show lyrics'}
+            onMouseDown={stop}
+            onClick={function() { apply('lyrics', 'toggle'); }}
+          />
+        )}
+        {available.info && (
+          <GroupButton
+            size={size}
+            icon={tunebook.icons.question}
+            label="Info"
+            active={!!flags.info}
+            aria-label={flags.info ? 'Hide info' : 'Show info'}
+            title={flags.info ? 'Hide info' : 'Show info'}
+            onMouseDown={stop}
+            onClick={function() { apply('info', 'toggle'); }}
+          />
+        )}
+      </ButtonGroup>
     </div>
   );
 }

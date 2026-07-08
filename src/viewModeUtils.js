@@ -21,7 +21,7 @@ export const NOTATION_MODES = ['off', 'lines'];
 
 const LEGACY_DISPLAY_FLAGS = {
   music: { notation: 'lines', lyrics: false, chords: 'off', info: false },
-  musicAndLyrics: { notation: 'lines', lyrics: true, chords: 'off', info: false },
+  musicAndLyrics: { notation: 'lines', lyrics: true, chords: 'block', info: false },
   chordsInline: { notation: 'off', lyrics: true, chords: 'inline', info: false },
   chordsBlock: { notation: 'off', lyrics: true, chords: 'block', info: false },
   lyricsOnly: { notation: 'off', lyrics: true, chords: 'off', info: false },
@@ -100,13 +100,11 @@ export function displayFlagsToViewMode(flags) {
     chords: normalizeChordsMode(flags.chords),
     info: !!flags.info,
   };
-  // Only use legacy ids when info is on (legacy modes imply info).
-  if (next.info) {
-    const legacyIds = Object.keys(LEGACY_DISPLAY_FLAGS);
-    for (var i = 0; i < legacyIds.length; i++) {
-      const id = legacyIds[i];
-      if (flagsEqual(next, LEGACY_DISPLAY_FLAGS[id])) return id;
-    }
+  // Always check legacy ids first (legacy modes now have info:false by default).
+  const legacyIds = Object.keys(LEGACY_DISPLAY_FLAGS);
+  for (var i = 0; i < legacyIds.length; i++) {
+    const id = legacyIds[i];
+    if (flagsEqual(next, LEGACY_DISPLAY_FLAGS[id])) return id;
   }
   const parts = [];
   if (next.notation === 'lines') parts.push('notation');

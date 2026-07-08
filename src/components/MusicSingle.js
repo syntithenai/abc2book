@@ -398,7 +398,7 @@ export default function MusicSingle(props) {
                 )
                 const notationVisible = viewFlags.notation !== 'off'
                 const lyricsVisible = !!viewFlags.lyrics
-                const chordsBlockVisible = viewFlags.chords === 'block'
+                const chordsBlockVisible = viewFlags.chords !== 'off' && notationVisible && hasChords
                 const layoutClass = notationVisible && lyricsVisible && chordsBlockVisible ? 'music-layout-notation-lyrics-chords'
                   : notationVisible && lyricsVisible ? 'music-layout-notation-lyrics'
                   : notationVisible && chordsBlockVisible ? 'music-layout-notation-chords'
@@ -420,7 +420,7 @@ export default function MusicSingle(props) {
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
                 const effectiveCapo = Number(tune.capo) || 0
-                const isChordLayout = viewFlags.chords === 'inline' || viewFlags.chords === 'block'
+                const isChordLayout = viewFlags.chords !== 'off' && lyricsVisible && hasChords
 
                 const transposeCapoBlock = (
                   <div className="music-transpose-capo-block">
@@ -487,23 +487,24 @@ export default function MusicSingle(props) {
                   navigate('/print', { state: { tuneIds: [tune.id] } })
                 }
 
-                function stripNotationMeta(abcText, includeLyrics) {
+                function stripNotationMeta(abcText) {
                   if (!abcText) return ''
                   return abcText
                     .split('\n')
                     .filter(function(line) {
                       const trimmed = String(line || '').trim()
                       if (trimmed.startsWith('B:')) return false
+                      if (/^H:/i.test(trimmed)) return false
+                      if (/^W:/i.test(trimmed)) return false
                       if (trimmed.startsWith('% abcbook-tags')) return false
                       if (trimmed.startsWith('%%abcbook-tags')) return false
-                      if (!includeLyrics && /^W:/i.test(trimmed)) return false
                       return true
                     })
                     .join('\n')
                 }
 
                 const notationVisualTranspose = chordTranspose
-                const notationAbc = stripNotationMeta(props.tunebook.abcTools.json2abc(notationTune), lyricsVisible)
+                const notationAbc = stripNotationMeta(props.tunebook.abcTools.json2abc(notationTune))
 
                 var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
                 return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
