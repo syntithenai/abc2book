@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Alert, Button, Modal } from 'react-bootstrap'
 import { QRCodeSVG } from 'qrcode.react'
 import useGoogleDocument from '../useGoogleDocument'
@@ -64,7 +64,17 @@ export default function ShareTunebookModal({
   const [busy, setBusy] = useState(false)
   const [audioSummary, setAudioSummary] = useState('')
   const [audioWarnings, setAudioWarnings] = useState([])
+  const [pendingOpen, setPendingOpen] = useState(false)
   const docs = useGoogleDocument(token)
+
+  // Auto-open the share dialog after the user logs in (if they clicked Share while logged out)
+  useEffect(function() {
+    if (token && pendingOpen) {
+      setPendingOpen(false)
+      prepareShare()
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [token, pendingOpen])
 
   const bookName = currentTuneBook || null
   const context = {
@@ -220,7 +230,7 @@ export default function ShareTunebookModal({
           variant={variant || 'info'}
           className={buttonClassName || undefined}
           size={buttonSize || undefined}
-          onClick={function() { if (login) login() }}
+          onClick={function() { setPendingOpen(true); if (login) login() }}
           aria-label="Share"
         >
           {tunebook.icons.share}

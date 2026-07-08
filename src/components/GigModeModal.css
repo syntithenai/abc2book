@@ -50,14 +50,13 @@
 }
 
 .gig-mode-modal.gig-mode-night .gig-mode-notation-paper {
-  background: var(--app-notation-paper);
-  border-color: var(--app-notation-paper-border);
-  color: #111111;
+  background: #0f1118;
+  border-color: #252a38;
+  color: #dde1ec;
 }
 
-.gig-mode-modal.gig-mode-night .gig-mode-notation-render,
 .gig-mode-modal.gig-mode-night .gig-mode-notation-render svg {
-  color: #111111;
+  filter: invert(1) brightness(0.88);
 }
 
 .gig-mode-modal.gig-mode-night .gig-mode-header .gig-mode-stop-btn {

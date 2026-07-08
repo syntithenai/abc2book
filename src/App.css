@@ -2869,6 +2869,202 @@ button img:after {
   justify-content: space-between;
 }
 
+/* ── Single-view flex layout panels ─────────────────────────────────────── */
+
+.music-single-panels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+/* Notation only — takes full width */
+.music-layout-notation-only .music-body-notation,
+.music-layout-empty .music-body-notation {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+/* Notation + Lyrics: notation 2/3, lyrics 1/3 on wide; stacked on narrow */
+.music-layout-notation-lyrics .music-body-notation {
+  flex: 0 0 66.67%;
+  min-width: 0;
+}
+.music-layout-notation-lyrics .music-body-lyrics {
+  flex: 0 0 33.33%;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+/* Notation + Chords: notation 4/5, chords 1/5 */
+.music-layout-notation-chords .music-body-notation {
+  flex: 0 0 80%;
+  min-width: 0;
+}
+.music-layout-notation-chords .music-body-chords {
+  flex: 0 0 20%;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+/* Notation + Lyrics + Chords: grid — notation top-left (4fr), chords top-right (1fr), lyrics full-width below */
+.music-layout-notation-lyrics-chords {
+  display: grid !important;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.5rem;
+}
+.music-layout-notation-lyrics-chords .music-body-notation {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+.music-layout-notation-lyrics-chords .music-body-lyrics {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  min-width: 0;
+}
+.music-layout-notation-lyrics-chords .music-body-chords {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+/* Lyrics only: full width */
+.music-layout-lyrics-only .music-body-lyrics {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+/* Lyrics + Chords: lyrics 3/4, chords 1/4 */
+.music-layout-lyrics-chords .music-body-lyrics {
+  flex: 0 0 75%;
+  min-width: 0;
+}
+.music-layout-lyrics-chords .music-body-chords {
+  flex: 0 0 25%;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+/* Chords only: full width */
+.music-layout-chords-only .music-body-chords {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+/* On narrow screens (<1024px): stack notation-lyrics layouts */
+@media (max-width: 1023px) {
+  .music-layout-notation-lyrics {
+    flex-direction: column;
+  }
+  .music-layout-notation-lyrics .music-body-notation,
+  .music-layout-notation-lyrics .music-body-lyrics {
+    flex: 1 1 auto;
+    width: 100%;
+    max-height: none;
+  }
+  .music-layout-notation-lyrics-chords {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .music-layout-notation-lyrics-chords .music-body-notation { grid-column: 1; grid-row: 1; }
+  .music-layout-notation-lyrics-chords .music-body-chords  { grid-column: 1; grid-row: 2; }
+  .music-layout-notation-lyrics-chords .music-body-lyrics  { grid-column: 1; grid-row: 3; }
+}
+
+/* ── Fit-height mode ─────────────────────────────────────────────────────── */
+/* When notation fit mode is vertical, constrain the notation panel height */
+.music-panels-fit-height.music-layout-notation-only .music-body-notation,
+.music-panels-fit-height.music-layout-notation-lyrics .music-body-notation,
+.music-panels-fit-height.music-layout-notation-chords .music-body-notation,
+.music-panels-fit-height.music-layout-notation-lyrics-chords .music-body-notation {
+  height: calc(100vh - 8rem);
+  overflow: hidden;
+}
+/* Lyrics-only with fit-vertical: lyrics fill viewport */
+.music-panels-fit-height.music-layout-lyrics-only .music-body-lyrics {
+  height: calc(100vh - 8rem);
+  overflow-y: auto;
+}
+
+/* Chord chart inline within lyrics panel */
+.chord-inline-in-lyrics {
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+/* ── Chord block view ───────────────────────────────────────────────────── */
+
+.chord-block-view {
+  padding: 0.5rem 0.5rem 1rem;
+}
+
+.chord-block-diagram-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.chord-block-lines {
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.chord-block-line {
+  padding: 0.1em 0.4em;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+  white-space: pre;
+  overflow: hidden;
+}
+
+.chord-block-spacer {
+  height: 0.6em;
+}
+
+.chord-section-header {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0.4em 0.4em 0.15em;
+  margin-top: 0.5em;
+  background-color: #e9ecef;
+  border-left: 3px solid #6c757d;
+  letter-spacing: 0.03em;
+}
+
+/* ── Lyrics panel ───────────────────────────────────────────────────────── */
+
+.lyrics-panel-inner {
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.5rem 1rem;
+}
+
+.lyrics-panel-header {
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  padding-left: 0.3em;
+}
+
+.lyrics-section-header {
+  font-weight: bold;
+  padding: 0.4em 0.3em 0.1em;
+  margin-top: 0.5em;
+  background-color: #f0f0f0;
+  border-left: 3px solid #aaa;
+}
+
 .display-mode-toolbar-fit {
   min-height: 2.5rem;
   color: #111 !important;
@@ -3036,6 +3232,7 @@ button img:after {
   font-size: 1.1em;
   width: 40%;
   right: 0.1em;
+  top: calc(8.5em + env(safe-area-inset-top, 0px));
   bottom: 0;
   z-index: 999;
   background-color: white;
@@ -3192,6 +3389,10 @@ button img:after {
 .music-actions-nested-dropdown-wrap .tune-download-dropdown,
 .music-actions-nested-dropdown-wrap .tune-download-dropdown .dropdown-toggle {
   width: 100%;
+}
+
+.music-actions-nested-dropdown-wrap .tune-download-dropdown-menu {
+  padding-left: 0.5rem;
 }
 
 .platform-mobile .music-tune-meta-group .btn,

@@ -183,6 +183,7 @@ var useAbcTools = () => {
          var files = {}
          var recordings = {}
          var abcbookJsonChunks = {}
+         var hLines = []
          abc.split("\n").forEach(function(line) {
             //console.log('LINE', line)
             var capoMatch = line.trim().match(/^capo:\s*(\d+)/i) || line.trim().match(/^%%capo\s+(\d+)/i)
@@ -251,6 +252,9 @@ var useAbcTools = () => {
                         break
                     case "K":
                         if (!tune.key) tune.key = line.slice(2).trim()
+                        break
+                    case "H":
+                        hLines.push(line.slice(2))
                         break
                     case "Q":
                         tune.tempo = cleanTempo(line.slice(2).trim())
@@ -520,6 +524,9 @@ var useAbcTools = () => {
         Object.keys(timedJsonFields).forEach(function(fieldName) {
           tune[fieldName] = timedJsonFields[fieldName]
         })
+        if (hLines.length > 0 && !tune.backgroundInfo) {
+          tune.backgroundInfo = hLines.join('\n')
+        }
         if (tune.timedLyrics && tune.timedLyrics.v) {
           tune.timedLyrics = importMinimalTimedLyrics(tune.timedLyrics)
         }
@@ -673,7 +680,10 @@ var useAbcTools = () => {
                     + ensure(tune.rhythm, "R: "+  ensureText(tune.rhythm) + "\n" )
                     + tempoLine
                     + otherHeaders
-                    + aliasText 
+                    + aliasText
+                    + (tune.backgroundInfo && typeof tune.backgroundInfo === 'string' && tune.backgroundInfo.trim()
+                      ? tune.backgroundInfo.trim().split('\n').map(function(l) { return 'H:' + l }).join('\n') + '\n'
+                      : '')
                     + ensure(tune.key, "K:"+ensureText(tune.key)+ "\n" )
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     + renderBlockLyricsAbc(tune)

@@ -5,7 +5,7 @@ const CHUNK_SIZE = 180;
 
 export const TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords'];
 export const PLAYBACK_JSON_FIELDS = ['playbackAudioFilters'];
-export const EXTRA_JSON_FIELDS = ['backgroundInfo'];
+export const EXTRA_JSON_FIELDS = [];
 
 export function renderAbcbookJsonField(fieldName, value) {
   if (value === null || value === undefined) return [];

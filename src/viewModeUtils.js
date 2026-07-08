@@ -20,11 +20,11 @@ export const CHORDS_MODES = ['off', 'inline', 'block'];
 export const NOTATION_MODES = ['off', 'lines'];
 
 const LEGACY_DISPLAY_FLAGS = {
-  music: { notation: 'lines', lyrics: false, chords: 'off', info: true },
-  musicAndLyrics: { notation: 'lines', lyrics: true, chords: 'off', info: true },
-  chordsInline: { notation: 'off', lyrics: true, chords: 'inline', info: true },
-  chordsBlock: { notation: 'off', lyrics: true, chords: 'block', info: true },
-  lyricsOnly: { notation: 'off', lyrics: true, chords: 'off', info: true },
+  music: { notation: 'lines', lyrics: false, chords: 'off', info: false },
+  musicAndLyrics: { notation: 'lines', lyrics: true, chords: 'off', info: false },
+  chordsInline: { notation: 'off', lyrics: true, chords: 'inline', info: false },
+  chordsBlock: { notation: 'off', lyrics: true, chords: 'block', info: false },
+  lyricsOnly: { notation: 'off', lyrics: true, chords: 'off', info: false },
   info: { notation: 'off', lyrics: false, chords: 'off', info: true },
 };
 
@@ -84,8 +84,8 @@ export function viewModeToDisplayFlags(mode) {
       sawInfoToken = true;
     }
   });
-  // Bare content tokens (no info/noinfo) default info on; explicit noinfo keeps it off.
-  if (!sawInfoToken) flags.info = true;
+  // Bare content tokens (no info/noinfo) default info off; explicit 'info' token enables it.
+  if (!sawInfoToken) flags.info = false;
   if (infoOff) flags.info = false;
   if (flags.notation === 'off' && !flags.lyrics && flags.chords === 'off' && !flags.info) {
     return Object.assign(emptyDisplayFlags(), LEGACY_DISPLAY_FLAGS.music);
@@ -150,15 +150,18 @@ function hasContentAvailable(available) {
  * Enforce content rules: at least one of chords/lyrics/notation when any are
  * available. Inline chords need notation (staff) or lyrics; chords alone use
  * block mode.
+ *
+ * options.allowEmpty — when true, skip the force-one-on rule (single view path).
  */
-export function ensureContentDisplayFlags(flags, available) {
+export function ensureContentDisplayFlags(flags, available, options) {
+  const allowEmpty = !!(options && options.allowEmpty);
   const next = {
     notation: normalizeNotationMode(flags.notation),
     lyrics: !!flags.lyrics,
     chords: normalizeChordsMode(flags.chords),
     info: !!flags.info,
   };
-  if (hasContentAvailable(available) && activeContentDisplayCount(next, available) < 1) {
+  if (!allowEmpty && hasContentAvailable(available) && activeContentDisplayCount(next, available) < 1) {
     if (available.notation) next.notation = 'lines';
     else if (available.lyrics) next.lyrics = true;
     else if (available.chords) next.chords = 'block';
@@ -306,7 +309,7 @@ export function resolveDisplayFlagsForTune(flags, tune, tunebook, options) {
     lyrics: !!flags.lyrics && available.lyrics,
     chords: available.chords ? normalizeChordsMode(flags.chords) : 'off',
     info: !!flags.info,
-  }, available);
+  }, available, options);
   if (!hasContentAvailable(available) && !next.info) next.info = true;
   return next;
 }

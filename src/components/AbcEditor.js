@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import {useParams, Link} from 'react-router-dom'
 import abcjs from "abcjs";
-import {Container, Row, Col, Tabs, Tab, Form, Button} from 'react-bootstrap'
+import {Container, Row, Col, Tabs, Tab, Form, Button, Modal} from 'react-bootstrap'
+import { toast } from 'react-toastify'
 import Abc from './Abc'
 import NotationEditor from './NotationEditor'
 import ChordsWizard from './ChordsWizard'
@@ -19,6 +20,7 @@ import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
@@ -51,6 +53,9 @@ export default function AbcEditor(props) {
   var [chordsChanged, setChordsChanged] = useState(false)
   const [wLinesText, setWLinesText] = useState('')
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
+  const [showLyricsTools, setShowLyricsTools] = useState(false)
+  const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
+  const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
@@ -213,6 +218,8 @@ export default function AbcEditor(props) {
     props.forceRefresh();
   }
   
+  const responsiveModalProps = useResponsiveModalProps()
+
   //tempo={tune.tempo > 0 ? tune.tempo : 100} meter={tune.meter}
   if (!tune) {
     return null
@@ -269,6 +276,35 @@ export default function AbcEditor(props) {
     }, 500)
   }
 
+  function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
+    const text = String(textValue || '')
+    const start = Number.isFinite(selectionStart) ? selectionStart : 0
+    const end = Number.isFinite(selectionEnd) ? selectionEnd : 0
+    if (end <= start) return ''
+    const selected = text.slice(start, end).trim()
+    if (!selected) return ''
+    return selected.split(/\r?\n/).map(function(line) { return line.trim() }).find(function(line) { return !!line }) || ''
+  }
+
+  function openLyricsToolsFromSelection() {
+    const textarea = wLyricsTextareaRef.current
+    if (!textarea) {
+      toast.warning('Select lyrics text first to open tools.')
+      return
+    }
+    const firstLine = getFirstSelectedLine(textarea.value, textarea.selectionStart, textarea.selectionEnd)
+    if (!firstLine) {
+      toast.warning('Select at least one line in the lyrics editor to open tools.')
+      return
+    }
+    if (resolverAvailable === false) {
+      toast.warning('Lyrics tools are unavailable because the local resolver is not running.')
+      return
+    }
+    setLyricsToolsQuery(firstLine)
+    setShowLyricsTools(true)
+  }
+
   function renderNoteAlignedLyricsButton() {
     return (
       <Button
@@ -284,6 +320,7 @@ export default function AbcEditor(props) {
   function renderLyricsTextarea(className) {
     return (
       <textarea
+        ref={className ? undefined : wLyricsTextareaRef}
         className={className || 'abc-editor-lyrics-textarea'}
         value={wLinesText}
         aria-label="Lyrics"
@@ -696,6 +733,14 @@ export default function AbcEditor(props) {
                         <span style={{ display: 'inline-flex', alignItems: 'center', lineHeight: 1 }}>{props.tunebook.icons.wizard}</span>
                         Clean
                       </Button>
+                      <Button
+                        variant="outline-primary"
+                        style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                        title="Open lyrics tools with selected text"
+                        onClick={openLyricsToolsFromSelection}
+                      >
+                        {props.tunebook.icons.quillpen} Tools
+                      </Button>
                       {renderNoteAlignedLyricsButton()}
                     </div>
                     {renderLyricsTextarea()}
@@ -709,6 +754,18 @@ export default function AbcEditor(props) {
                         saveTune(savedTune, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
                       }}
                     />
+                    <Modal show={showLyricsTools} onHide={function() { setShowLyricsTools(false) }} size="xl" {...responsiveModalProps}>
+                      <Modal.Header closeButton>
+                        <Modal.Title>Lyrics Tools</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body style={{padding: 0}}>
+                        <iframe
+                          title="Lyrics tools"
+                          src={'/lyrics?tab=lookup&q=' + encodeURIComponent(lyricsToolsQuery) + '&toolQ=' + encodeURIComponent(lyricsToolsQuery)}
+                          style={{width: '100%', minHeight: '70vh', border: 'none'}}
+                        />
+                      </Modal.Body>
+                    </Modal>
                     </div>
       )
     }

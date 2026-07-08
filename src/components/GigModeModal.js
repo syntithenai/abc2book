@@ -156,7 +156,7 @@ export default function GigModeModal(props) {
     const baseTranspose = Number(currentTune.transpose) || 0;
     const itemTranspose = setItem && setItem.transpose != null ? Number(setItem.transpose) : 0;
     const capoOffset = chordViewMode === 'capo' ? effectiveCapo : 0;
-    return baseTranspose + itemTranspose + capoOffset;
+    return baseTranspose + itemTranspose - capoOffset;
   }, [currentTune, setItem, tuneTranspose, chordViewMode, effectiveCapo]);
 
   const notationVisualTranspose = chordTranspose;

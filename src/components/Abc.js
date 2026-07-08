@@ -89,9 +89,9 @@ export default function Abc(props) {
         } else {
             return updateOnChange()
         }
-    // updateOnChange calls renderTune (defined below); abc/staffwidth/fitMode are the intentional triggers
+    // updateOnChange calls renderTune (defined below); abc/staffwidth/fitMode/visualTranspose are the intentional triggers
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [props.abc, props.playbackAbc, props.staffwidth, fitMode])
+    }, [props.abc, props.playbackAbc, props.staffwidth, fitMode, props.visualTranspose])
 
     // Re-layout fit-height when the viewport/column size changes (staffwidth search).
     useEffect(function() {
@@ -215,8 +215,9 @@ export default function Abc(props) {
           }
         }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
-        if (tune && (tune.transpose > 0 || tune.transpose < 0)) {
-          renderOptions.visualTranspose= tune.transpose
+        var effectiveVisualTranspose = props.visualTranspose != null ? props.visualTranspose : (tune ? (tune.transpose || 0) : 0)
+        if (effectiveVisualTranspose > 0 || effectiveVisualTranspose < 0) {
+          renderOptions.visualTranspose = effectiveVisualTranspose
         }
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
