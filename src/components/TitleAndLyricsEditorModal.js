@@ -10,6 +10,7 @@ import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
+import LyricsToolsModal from './LyricsToolsModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 
@@ -193,18 +194,11 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
           tunebook.saveTune(savedTune, false, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
         }}
       />
-      <Modal show={showLyricsTools} onHide={function() { setShowLyricsTools(false) }} size="xl" {...responsiveModalProps}>
-        <Modal.Header closeButton>
-          <Modal.Title>Lyrics Tools</Modal.Title>
-        </Modal.Header>
-        <Modal.Body style={{padding: 0}}>
-          <iframe
-            title="Lyrics tools"
-            src={'/lyrics?tab=lookup&q=' + encodeURIComponent(lyricsToolsQuery) + '&toolQ=' + encodeURIComponent(lyricsToolsQuery)}
-            style={{width: '100%', minHeight: '70vh', border: 'none'}}
-          />
-        </Modal.Body>
-      </Modal>
+      <LyricsToolsModal
+        show={showLyricsTools}
+        onHide={function() { setShowLyricsTools(false) }}
+        query={lyricsToolsQuery}
+      />
     </>
   );
 }

@@ -27,6 +27,8 @@ const LYRICS_LINE_SELECTORS = [
 ].join(', ');
 
 const NOTATION_SCROLL_SELECTORS = [
+  '.tune-panel-notation',
+  '.music-body-notation',
   '.music-view-notation',
   '.gig-mode-notation-col',
   '.music-and-lyrics-notation',
@@ -34,8 +36,11 @@ const NOTATION_SCROLL_SELECTORS = [
 ].join(', ');
 
 const CHORDS_SCROLL_ROOT_SELECTORS = [
+  '.tune-panel-structure',
+  '.structure-chord-block',
   '.music-chords-block-col',
   '.chord-blocks-only',
+  '.chord-block-view',
 ].join(', ');
 
 const PREFERRED_LYRICS_SCROLL_CONTAINER_SELECTORS = [
@@ -175,10 +180,20 @@ export function isNotationStackedAboveLyrics(notationEl, lyricsRootEl) {
   return lRect.top >= nRect.bottom - 8;
 }
 
-function getWindowScrollTopOffset(musicSingleEl, lyricsRootEl) {
+function getWindowScrollTopOffset(musicSingleEl, contentRootEl) {
   let offset = getWindowScrollChromeOffset();
+  // When scrolling lyrics below stacked notation, keep the notation visible.
+  // When the content root *is* the notation (lyrics off), do not pin to its
+  // bottom — that would make distance ~0 and show "Fits on screen".
   const notationEl = findVisibleNotationElement(musicSingleEl);
-  if (notationEl && lyricsRootEl && isNotationStackedAboveLyrics(notationEl, lyricsRootEl)) {
+  if (
+    notationEl
+    && contentRootEl
+    && notationEl !== contentRootEl
+    && !notationEl.contains(contentRootEl)
+    && !contentRootEl.contains(notationEl)
+    && isNotationStackedAboveLyrics(notationEl, contentRootEl)
+  ) {
     const notationBottom = notationEl.getBoundingClientRect().bottom;
     if (notationBottom > offset) offset = notationBottom;
   }

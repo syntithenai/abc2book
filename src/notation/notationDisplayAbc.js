@@ -6,8 +6,10 @@ export function stripNotationDisplayMetadata(abcText) {
   return abcText.split('\n').filter(function(line) {
     const trimmed = line.trim();
     if (trimmed.startsWith('B:')) return false;
+    if (/^H:/i.test(trimmed)) return false;
     if (trimmed.startsWith('N: AKA:')) return false;
     if (trimmed.startsWith('% abcbook-tags')) return false;
+    if (trimmed.startsWith('%%abcbook-tags')) return false;
     return true;
   }).join('\n');
 }

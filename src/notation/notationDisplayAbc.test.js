@@ -1,6 +1,27 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import useAbcTools from '../useAbcTools';
-import { buildAbcPreviewFromBodies, mapAbcClickToVoiceCursor } from './notationDisplayAbc';
+import {
+  buildAbcPreviewFromBodies,
+  mapAbcClickToVoiceCursor,
+  stripNotationDisplayMetadata,
+} from './notationDisplayAbc';
+
+describe('stripNotationDisplayMetadata', function() {
+  test('removes background info H: lines from rendered ABC', function() {
+    const abc = [
+      'X:1',
+      'T:Test',
+      'H:Some history line',
+      'h:lowercase history',
+      'K:C',
+      'CDEF |',
+    ].join('\n');
+    const stripped = stripNotationDisplayMetadata(abc);
+    expect(stripped).not.toMatch(/^H:/m);
+    expect(stripped).not.toMatch(/^h:/m);
+    expect(stripped).toMatch(/CDEF/);
+  });
+});
 
 describe('buildAbcPreviewFromBodies', function() {
   const abcTools = useAbcTools();

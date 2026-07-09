@@ -11,7 +11,7 @@ export default function QueuePlayConfirmModal(props) {
   return (
     <Modal show={true} onHide={handleClose} centered size="sm">
       <Modal.Header closeButton>
-        <Modal.Title>Playlist is playing</Modal.Title>
+        <Modal.Title>Play Choice</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <p style={{ marginBottom: 0 }}>
@@ -21,11 +21,11 @@ export default function QueuePlayConfirmModal(props) {
       </Modal.Body>
       <Modal.Footer>
         <ButtonGroup>
-          <Button variant="primary" onClick={function() { if (props.onReplace) props.onReplace() }}>
-            Replace queue
+          <Button variant="primary" onClick={function() { if (props.onPlayThisTune) props.onPlayThisTune() }}>
+            Play This Tune
           </Button>
-          <Button variant="secondary" onClick={function() { if (props.onPreviewOnce) props.onPreviewOnce() }}>
-            Play once
+          <Button variant="secondary" onClick={function() { if (props.onResumePlaylist) props.onResumePlaylist() }}>
+            Resume Playlist
           </Button>
           <Button variant="outline-secondary" onClick={handleClose}>
             Cancel

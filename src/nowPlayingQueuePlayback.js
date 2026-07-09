@@ -189,3 +189,93 @@ export function shouldMusicSingleOwnPlayback(viewedTuneId, queue) {
   }
   return false
 }
+
+export function parseTunePagePlaybackFromUrl(pathname) {
+  if (!pathname) return null
+  if (pathname.indexOf('/playMidi') >= 0) {
+    return { playState: 'playMidi', mediaLinkNumber: '0' }
+  }
+  if (pathname.indexOf('/playMedia') >= 0) {
+    const parts = pathname.split('/playMedia/')
+    const parsed = parts.length > 1 ? parseInt(parts[1], 10) : 0
+    const linkNum = !isNaN(parsed) ? parsed : 0
+    return { playState: 'playMedia', mediaLinkNumber: String(linkNum) }
+  }
+  return null
+}
+
+export function isMediaControllerPlaybackActive(mediaController) {
+  if (!mediaController) return false
+  return !!(
+    (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent())
+    || (mediaController.canResumePlayback && mediaController.canResumePlayback())
+    || mediaController.playbackRouteMode === 'media'
+    || mediaController.playbackRouteMode === 'midi'
+    || mediaController.requestedPlayState === 'playMedia'
+    || mediaController.requestedPlayState === 'playMidi'
+    || mediaController.isPlaying
+    || mediaController.isLoading
+  )
+}
+
+export function resolveHostPlayingTuneId({ queue, mediaController, viewedTuneId, pathname }) {
+  if (isQueueActive(queue)) {
+    return getCurrentTuneId(queue)
+  }
+  if (mediaController && mediaController.tune && mediaController.tune.id) {
+    return mediaController.tune.id
+  }
+  const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
+  if (urlPlayback && viewedTuneId) {
+    return viewedTuneId
+  }
+  return null
+}
+
+/**
+ * Whether the app-level NowPlayingHost should mount the shared media/midi engine.
+ */
+export function shouldNowPlayingHostOwnPlayback(opts) {
+  const {
+    viewedTuneId,
+    queue,
+    mediaController,
+    practiceSessionActive,
+    gigModeActive,
+    pathname,
+    tunes,
+  } = opts || {}
+
+  if (practiceSessionActive || gigModeActive) return false
+  if (shouldMusicSingleOwnPlayback(viewedTuneId, queue)) return false
+
+  const playingTuneId = resolveHostPlayingTuneId({
+    queue: queue,
+    mediaController: mediaController,
+    viewedTuneId: viewedTuneId,
+    pathname: pathname,
+  })
+  if (!playingTuneId) return false
+  if (tunes && !tunes[playingTuneId]) return false
+
+  const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
+  return isQueueActive(queue) || isMediaControllerPlaybackActive(mediaController) || !!urlPlayback
+}
+
+/**
+ * Whether MusicSingle's Abc notation view should own the shared MIDI engine.
+ * Same rule as preview-once media ownership: normal playback uses NowPlayingHost.
+ */
+export function shouldMusicSingleOwnMidiEngine(viewedTuneId, queue) {
+  return shouldMusicSingleOwnPlayback(viewedTuneId, queue)
+}
+
+/**
+ * Whether MusicSingle should mount MediaPlayerMedia (only when no other host owns it).
+ */
+export function shouldMusicSingleMountMediaEngine(opts) {
+  const o = opts || {}
+  if (o.practiceSessionActive) return false
+  if (shouldMusicSingleOwnPlayback(o.viewedTuneId, o.queue)) return true
+  return !shouldNowPlayingHostOwnPlayback(o)
+}

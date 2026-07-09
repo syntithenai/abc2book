@@ -528,24 +528,29 @@ export function clearNotationFit(svg, renderEl) {
 export const SINGLE_VIEW_SCROLLBAR_RESERVE_PX = 18;
 
 /**
- * Available paper for single-view notation: viewport area from the score's
- * top-left to the bottom-right of the window. Uses a block ancestor for width
- * so a previously-widened SVG does not inflate availW.
+ * Available paper for single-view notation.
+ * Width comes from the notation column (so a lyrics/structure side column is
+ * not ignored). Height is from the score top to the bottom of the viewport.
  */
 export function measureSingleViewPaper(renderEl) {
   if (!renderEl) return { availW: 100, availH: 100 };
-  const section = typeof renderEl.closest === 'function'
-    ? renderEl.closest('.music-notation-section, .music-view-notation, .music-view-main')
+  const column = typeof renderEl.closest === 'function'
+    ? renderEl.closest(
+      '.tune-panel-notation, .music-body-notation, .music-notation-section, .music-view-notation, .gig-mode-notation-col, .music-view-main'
+    )
     : null;
-  const edgeEl = section || renderEl;
-  const edgeRect = edgeEl.getBoundingClientRect();
+  const widthEl = column || renderEl;
+  const widthRect = widthEl.getBoundingClientRect();
   const topRect = renderEl.getBoundingClientRect();
   const rightPad = 8;
   const bottomPad = 8;
-  const availW = Math.max(
-    100,
-    Math.floor((document.documentElement.clientWidth || window.innerWidth) - edgeRect.left - rightPad)
+  // Prefer the column's laid-out width so side panels (lyrics/structure) shrink
+  // the available staff width. Fall back to clientWidth when the rect is stale.
+  const columnW = Math.max(
+    widthEl.clientWidth || 0,
+    widthRect.width || 0
   );
+  const availW = Math.max(100, Math.floor(columnW - rightPad));
   const availH = Math.max(
     100,
     Math.floor(window.innerHeight - topRect.top - bottomPad)
@@ -639,13 +644,52 @@ export function refitNotationSvg(svg, renderEl, paperEl, mode) {
     return fitSingleViewVertical(svg, renderEl);
   }
   const paper = measureNotationPaper(paperEl, renderEl);
+  return refitNotationToWidth(svg, renderEl, paper.availW);
+}
+
+/**
+ * Fit notation to column width; height follows content. Tall scores scroll with
+ * the page (fit-height off), not inside a clipped viewport box.
+ */
+export function fitNotationToWidth(svg, renderEl, availW) {
+  if (!svg || !renderEl) return null;
+  const frame = measureFitFrame(svg);
+  if (!frame) return null;
+  const dims = applyFitViewBox(svg, frame);
+  if (!dims) return null;
+  const width = horizontalFitTargetWidth(availW);
+  const height = dims.height * (width / dims.width);
+  applyNotationFit(svg, renderEl, {
+    mode: NOTATION_FIT_HORIZONTAL,
+    width: width,
+    height: height,
+    overflowX: false,
+    overflowY: false,
+  });
+  renderEl.style.overflowX = 'visible';
+  renderEl.style.overflowY = 'visible';
+  renderEl.classList.remove('gig-mode-notation-render--scroll-y');
+  return { width: width, height: height };
+}
+
+export function refitNotationToWidth(svg, renderEl, availW) {
+  if (!svg || !renderEl) return null;
   const viewBox = readSvgViewBox(svg);
   if (!viewBox) return null;
   const dims = { width: viewBox.width, height: viewBox.height };
-  const fitResult = computeNotationFit(dims, NOTATION_FIT_HORIZONTAL, paper.availW, paper.availH);
-  if (!fitResult) return null;
-  applyNotationFit(svg, renderEl, fitResult);
-  return fitResult;
+  const width = horizontalFitTargetWidth(availW);
+  const height = dims.height * (width / dims.width);
+  applyNotationFit(svg, renderEl, {
+    mode: NOTATION_FIT_HORIZONTAL,
+    width: width,
+    height: height,
+    overflowX: false,
+    overflowY: false,
+  });
+  renderEl.style.overflowX = 'visible';
+  renderEl.style.overflowY = 'visible';
+  renderEl.classList.remove('gig-mode-notation-render--scroll-y');
+  return { width: width, height: height };
 }
 
 export function fitNotationSvg(svg, renderEl, paperEl, mode) {
@@ -654,12 +698,5 @@ export function fitNotationSvg(svg, renderEl, paperEl, mode) {
     return fitSingleViewVertical(svg, renderEl);
   }
   const paper = measureNotationPaper(paperEl, renderEl);
-  const frame = measureFitFrame(svg);
-  if (!frame) return null;
-  const dims = applyFitViewBox(svg, frame);
-  if (!dims) return null;
-  const fitResult = computeNotationFit(dims, NOTATION_FIT_HORIZONTAL, paper.availW, paper.availH);
-  if (!fitResult) return null;
-  applyNotationFit(svg, renderEl, fitResult);
-  return fitResult;
+  return fitNotationToWidth(svg, renderEl, paper.availW);
 }

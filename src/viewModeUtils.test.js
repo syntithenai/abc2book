@@ -10,6 +10,8 @@ import {
   normalizeViewMode,
   defaultViewModeForTune,
   hasAnyViewModeEnabled,
+  enableInfoInViewMode,
+  applyGeneratedBackgroundInfo,
 } from './viewModeUtils';
 import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
 
@@ -267,5 +269,29 @@ describe('tuneDisplayLayout', function() {
     expect(resolveTuneDisplayLayout({
       notation: 'off', lyrics: false, structure: false, chords: true, info: true,
     }).empty).toBe(true);
+  });
+});
+
+describe('enableInfoInViewMode / applyGeneratedBackgroundInfo', function() {
+  it('enables info while preserving other view flags', function() {
+    expect(enableInfoInViewMode('music')).toBe('notation,info');
+    expect(enableInfoInViewMode('musicAndLyrics')).toBe('notation,lyrics,structure,info');
+    expect(enableInfoInViewMode('notation,lyrics,noinfo')).toBe('notation,lyrics,info');
+    expect(enableInfoInViewMode('off')).toBe('info');
+    expect(enableInfoInViewMode('info')).toBe('info');
+  });
+
+  it('applies background text and enables info on the tune', function() {
+    const tune = { viewMode: 'music', backgroundInfo: '' };
+    applyGeneratedBackgroundInfo(tune, '  History of the tune.  ');
+    expect(tune.backgroundInfo).toBe('History of the tune.');
+    expect(tune.viewMode).toBe('notation,info');
+  });
+
+  it('does not change the tune when text is empty', function() {
+    const tune = { viewMode: 'music', backgroundInfo: '' };
+    applyGeneratedBackgroundInfo(tune, '   ');
+    expect(tune.backgroundInfo).toBe('');
+    expect(tune.viewMode).toBe('music');
   });
 });

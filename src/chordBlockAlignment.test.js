@@ -49,12 +49,13 @@ describe('chord block alignment against melody double barlines', function() {
     expect(aligned[4].type).toBe('bridge');
     expect(aligned[4].chart).toContain('Gm');
 
-    // first verse and chorus merge inline; second verse reuses verse chords (title only).
+    // first verse and chorus merge inline; second verse reuses verse chords
+    // (structure shows title only via chartRevisit; lyrics still merge inline).
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[0].chartRevisit).toBe(false);
     expect(aligned[1].inlineChords).toBe(true);
     expect(aligned[1].chartRevisit).toBe(false);
-    expect(aligned[2].inlineChords).toBe(false);
+    expect(aligned[2].inlineChords).toBe(true);
     expect(aligned[2].chartRevisit).toBe(true);
     expect(aligned[4].inlineChords).toBe(true);
     expect(aligned[4].chartRevisit).toBe(false);

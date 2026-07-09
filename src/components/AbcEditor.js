@@ -9,6 +9,7 @@ import ChordsWizard from './ChordsWizard'
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LinksEditor from './LinksEditor'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
+import LyricsToolsModal from './LyricsToolsModal'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
@@ -20,7 +21,6 @@ import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
@@ -33,6 +33,7 @@ import {
   normalizeEditorViewMode,
   isNotationEditorView,
   editorViewModeToNotationView,
+  applyGeneratedBackgroundInfo,
 } from '../viewModeUtils'
 import TuneAliasesField from './TuneAliasesField'
 
@@ -218,8 +219,6 @@ export default function AbcEditor(props) {
     props.forceRefresh();
   }
   
-  const responsiveModalProps = useResponsiveModalProps()
-
   //tempo={tune.tempo > 0 ? tune.tempo : 100} meter={tune.meter}
   if (!tune) {
     return null
@@ -648,7 +647,7 @@ export default function AbcEditor(props) {
                             onBackgroundInfo={function(result) {
                               setBackgroundInfoText(result.text)
                               setBackgroundInfoPreview(true)
-                              tune.backgroundInfo = result.text
+                              applyGeneratedBackgroundInfo(tune, result.text)
                               tune.id = params.tuneId
                               saveTune(tune)
                             }}
@@ -754,18 +753,11 @@ export default function AbcEditor(props) {
                         saveTune(savedTune, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
                       }}
                     />
-                    <Modal show={showLyricsTools} onHide={function() { setShowLyricsTools(false) }} size="xl" {...responsiveModalProps}>
-                      <Modal.Header closeButton>
-                        <Modal.Title>Lyrics Tools</Modal.Title>
-                      </Modal.Header>
-                      <Modal.Body style={{padding: 0}}>
-                        <iframe
-                          title="Lyrics tools"
-                          src={'/lyrics?tab=lookup&q=' + encodeURIComponent(lyricsToolsQuery) + '&toolQ=' + encodeURIComponent(lyricsToolsQuery)}
-                          style={{width: '100%', minHeight: '70vh', border: 'none'}}
-                        />
-                      </Modal.Body>
-                    </Modal>
+                    <LyricsToolsModal
+                      show={showLyricsTools}
+                      onHide={function() { setShowLyricsTools(false) }}
+                      query={lyricsToolsQuery}
+                    />
                     </div>
       )
     }

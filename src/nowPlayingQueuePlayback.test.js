@@ -1,6 +1,10 @@
 import { createQueue } from './nowPlayingQueue'
 import {
   shouldMusicSingleOwnPlayback,
+  shouldMusicSingleMountMediaEngine,
+  shouldMusicSingleOwnMidiEngine,
+  shouldNowPlayingHostOwnPlayback,
+  parseTunePagePlaybackFromUrl,
   isViewingDifferentFromPlaying,
   playQueueItem,
 } from './nowPlayingQueuePlayback'
@@ -39,6 +43,68 @@ describe('nowPlayingQueuePlayback', function() {
     })
     expect(shouldMusicSingleOwnPlayback('other', previewQueue)).toBe(true)
     expect(shouldMusicSingleOwnPlayback('playing', previewQueue)).toBe(false)
+  })
+
+  test('parseTunePagePlaybackFromUrl reads play routes', function() {
+    expect(parseTunePagePlaybackFromUrl('/tunes/abc/playMidi')).toEqual({
+      playState: 'playMidi',
+      mediaLinkNumber: '0',
+    })
+    expect(parseTunePagePlaybackFromUrl('/tunes/abc/playMedia/2')).toEqual({
+      playState: 'playMedia',
+      mediaLinkNumber: '2',
+    })
+    expect(parseTunePagePlaybackFromUrl('/tunes/abc')).toBe(null)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback handles tune-page play URLs', function() {
+    const tunes = { abc: { id: 'abc', links: [{ link: 'https://youtu.be/x' }] } }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: 'abc',
+      queue: null,
+      mediaController: {},
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/abc/playMedia/0',
+      tunes: tunes,
+    })).toBe(true)
+  })
+
+  test('shouldMusicSingleMountMediaEngine defers to NowPlayingHost during normal playback', function() {
+    const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
+    const mediaController = { playbackRouteMode: 'media', tune: tunes.playing }
+    expect(shouldMusicSingleMountMediaEngine({
+      viewedTuneId: 'playing',
+      queue: queue,
+      mediaController: mediaController,
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/playing/playMedia/0',
+      tunes: tunes,
+    })).toBe(false)
+  })
+
+  test('shouldMusicSingleMountMediaEngine keeps preview-once engine in MusicSingle', function() {
+    const previewQueue = Object.assign({}, queue, {
+      previewOnce: { tuneId: 'other', returnIndex: 0 },
+    })
+    expect(shouldMusicSingleMountMediaEngine({
+      viewedTuneId: 'other',
+      queue: previewQueue,
+      mediaController: {},
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes/other',
+      tunes: { other: { id: 'other', links: [{ link: 'https://youtu.be/x' }] } },
+    })).toBe(true)
+  })
+
+  test('shouldMusicSingleOwnMidiEngine matches preview-once ownership', function() {
+    const previewQueue = Object.assign({}, queue, {
+      previewOnce: { tuneId: 'other', returnIndex: 0 },
+    })
+    expect(shouldMusicSingleOwnMidiEngine('other', previewQueue)).toBe(true)
+    expect(shouldMusicSingleOwnMidiEngine('playing', queue)).toBe(false)
   })
 
   test('playQueueItem can defer engine start for queue advance', function() {

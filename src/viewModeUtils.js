@@ -173,6 +173,26 @@ export function displayFlagsToViewMode(flags) {
   return parts.join(',');
 }
 
+/** Turn on the Info display flag in a stored viewMode string (preserves other flags). */
+export function enableInfoInViewMode(viewMode) {
+  const flags = viewModeToDisplayFlags(viewMode);
+  flags.info = true;
+  return displayFlagsToViewMode(flags);
+}
+
+/**
+ * Apply resolver-generated background text and enable Info in the tune's view mode.
+ * No-op when text is empty.
+ */
+export function applyGeneratedBackgroundInfo(tune, text) {
+  if (!tune) return tune;
+  const trimmed = typeof text === 'string' ? text.trim() : '';
+  if (!trimmed) return tune;
+  tune.backgroundInfo = trimmed;
+  tune.viewMode = enableInfoInViewMode(tune.viewMode);
+  return tune;
+}
+
 export function getDisplayFlagsLabel(flags) {
   const next = canonicalizeFlags(migrateLegacyChordsFlags(flags));
   const parts = [];

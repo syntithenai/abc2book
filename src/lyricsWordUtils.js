@@ -131,3 +131,12 @@ export function buildSyllableSummary(phrase) {
         return item.word + ' · ' + item.syllableCount + ' syllable' + (item.syllableCount === 1 ? '' : 's') + ' · ' + item.stressPattern
       }).join(' | ')
 }
+
+export function buildCompactMeterSummary(phrase) {
+  const analysis = analyzePhrase(phrase)
+  if (!analysis.words.length) return ''
+  const syllableLabel = analysis.syllableCount === 1
+    ? '1 syllable'
+    : analysis.syllableCount + ' syllables'
+  return syllableLabel + ' · stress shape ' + analysis.stressPattern
+}

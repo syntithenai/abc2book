@@ -369,6 +369,43 @@ describe('lyricsAutoscrollUtils', function() {
     document.body.removeChild(root);
   });
 
+  test('autoscrolls tall single-view notation when lyrics are hidden', function() {
+    const root = document.createElement('div');
+    root.className = 'music-single';
+    const notation = document.createElement('div');
+    notation.className = 'tune-panel-notation music-body-notation';
+    const svgWrap = document.createElement('div');
+    svgWrap.className = 'music-notation-section';
+    notation.appendChild(svgWrap);
+    root.appendChild(notation);
+    document.body.appendChild(root);
+
+    Object.defineProperty(window, 'scrollY', { configurable: true, writable: true, value: 0 });
+    Object.defineProperty(window, 'innerHeight', { configurable: true, writable: true, value: 700 });
+    Object.defineProperty(document.documentElement, 'scrollHeight', { configurable: true, value: 2200 });
+
+    jest.spyOn(notation, 'getBoundingClientRect').mockReturnValue({
+      top: 120, bottom: 1800, left: 0, right: 800, width: 800, height: 1680,
+    });
+    jest.spyOn(svgWrap, 'getBoundingClientRect').mockReturnValue({
+      top: 120, bottom: 1800, left: 0, right: 800, width: 800, height: 1680,
+    });
+
+    expect(findVisibleNotationElement(root)).toBe(notation);
+
+    const context = getLyricsScrollContext(root);
+    expect(context.lyricsRoot).toBe(notation);
+    expect(context.mode).toBe('window');
+
+    const metrics = getLyricsScrollMetrics(notation, context, root);
+    expect(metrics.mode).toBe('window');
+    expect(metrics.distance).toBeGreaterThan(500);
+    // Must not pin start to notation bottom (that made distance ~0 / "Fits on screen").
+    expect(metrics.startY).toBeLessThan(200);
+
+    document.body.removeChild(root);
+  });
+
   test('persists lyrics scroll speed in abc for sync', function() {
     const useAbcTools = require('./useAbcTools').default;
     const abcTools = useAbcTools();

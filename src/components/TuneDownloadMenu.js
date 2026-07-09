@@ -242,37 +242,65 @@ export default function TuneDownloadDropdown({
         {icons.save}
         <span className="bulk-ops-btn-label"> Download</span>
       </Dropdown.Toggle>
-      <Dropdown.Menu className="tune-download-dropdown-menu">
+      <Dropdown.Menu
+        className="tune-download-dropdown-menu"
+        popperConfig={{
+          strategy: 'fixed',
+          modifiers: [
+            {
+              name: 'offset',
+              options: { offset: [0, 8] },
+            },
+            {
+              name: 'centerHorizontally',
+              enabled: true,
+              phase: 'write',
+              fn: function({ state }) {
+                const width = state.rects.popper.width
+                const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : width
+                const x = Math.max(8, (viewportWidth - width) / 2)
+                state.styles.popper.left = x + 'px'
+                state.styles.popper.right = 'auto'
+                state.styles.popper.transform = ''
+                if (state.modifiersData.popperOffsets) {
+                  state.modifiersData.popperOffsets.x = x
+                }
+              },
+            },
+          ],
+        }}
+      >
         {errorMessage ? (
           <Dropdown.ItemText className="text-danger tune-download-dropdown-error">
             {errorMessage}
           </Dropdown.ItemText>
         ) : null}
-        {TUNE_DOWNLOAD_FORMATS.map(function(format) {
-          var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
-          return (
-            <Dropdown.Item
-              key={format.id}
-              disabled={disabled}
-              onClick={function() { runDownload(format.id) }}
-              className="tune-download-dropdown-item"
-            >
-              <span className="tune-download-dropdown-icon" aria-hidden="true">{icons[format.icon]}</span>
-              <span className="tune-download-dropdown-text">
-                <span className="tune-download-dropdown-label">{format.label}</span>
-                <span className="tune-download-dropdown-description">{format.description}</span>
-              </span>
-            </Dropdown.Item>
-          )
-        })}
-        <Dropdown.Divider />
-        <StemsDownloadSection
-          tunes={tuneList}
-          tunebook={tunebook}
-          token={token}
-          icons={icons}
-          layout="dropdown"
-        />
+        <div className="tune-download-dropdown-options">
+          {TUNE_DOWNLOAD_FORMATS.map(function(format) {
+            var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
+            return (
+              <Button
+                key={format.id}
+                variant="outline-primary"
+                className="tune-download-option-btn"
+                disabled={disabled}
+                onClick={function() { runDownload(format.id) }}
+                aria-label={format.label}
+                title={format.description}
+              >
+                {icons[format.icon]}
+                <span className="tune-download-option-label">{format.label}</span>
+              </Button>
+            )
+          })}
+          <StemsDownloadSection
+            tunes={tuneList}
+            tunebook={tunebook}
+            token={token}
+            icons={icons}
+            layout="modal"
+          />
+        </div>
       </Dropdown.Menu>
     </Dropdown>
   )

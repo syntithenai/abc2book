@@ -3,6 +3,7 @@ import { buildLinesFromTune, buildTimedAlignedLines, tuneHasExplicitChords } fro
 import { classifyLyricChordLines, alignChordBlocksToLyrics, splitChordChartIntoBlocks, mergeChordsIntoLyricLines, hasChordLines, chartBlockHasChords, formatChordChartForDisplay, isSectionHeader } from '../chordSheetUtils';
 import useAbcjsParser from '../useAbcjsParser';
 import LyricsDisplayLines, { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
+import { useFitTextScale } from '../useFitTextScale';
 
 export { displaySectionHeader } from '../LyricsDisplayLines';
 
@@ -83,17 +84,61 @@ export default function TimedLyricsChordsView(props) {
   const hideChords = !!props.hideChords;
   const suppressLeadingTitle = !!props.suppressLeadingTitle;
   const inheritZoom = !!props.inheritZoom;
+  const fitHeight = !!props.fitHeight;
   const abcjsParser = useAbcjsParser();
-  if (!tune) return null;
 
   const chordsOnly = !!props.chordsOnly;
   const forceBlockLayout = !!props.forceBlockLayout;
-  const baseZoom = props.zoom > 0 ? props.zoom : (tune.zoom > 0 ? tune.zoom : 1);
+  const baseZoom = props.zoom > 0 ? props.zoom : (tune && tune.zoom > 0 ? tune.zoom : 1);
   const zoom = props.compact ? baseZoom * 0.88 : baseZoom;
+
+  const fit = useFitTextScale({
+    fitHeight: fitHeight && !chordsOnly,
+    measureLongestLine: false,
+    minScale: 0.5,
+    maxScale: 6,
+    padX: 12,
+    padY: 8,
+    deps: [
+      fitHeight,
+      hideChords,
+      forceBlockLayout,
+      tune && tune.id,
+      zoom,
+      props.chordTranspose,
+    ],
+  });
+
+  if (!tune) return null;
+
   function contentFontStyle(extraStyle) {
     const style = Object.assign({ padding: '0.3em', marginTop: '1em' }, extraStyle || {});
-    if (!inheritZoom) style.fontSize = zoom * 100 + '%';
+    if (fitHeight && !chordsOnly) {
+      // Scale is applied on the fit wrapper; keep inner at 1em relative to that.
+      style.fontSize = '1em';
+      style.marginTop = '0.25em';
+    } else if (!inheritZoom) {
+      style.fontSize = zoom * 100 + '%';
+    }
     return style;
+  }
+
+  function wrapFit(node) {
+    if (!fitHeight || chordsOnly) return node;
+    return (
+      <div
+        className="lyrics-fit-height-host"
+        ref={fit.containerRef}
+        style={{ flex: '1 1 auto', minHeight: 0, height: '100%', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}
+      >
+        <div
+          ref={fit.contentRef}
+          style={{ fontSize: fit.fontScale + 'em', flex: '0 0 auto', width: '100%' }}
+        >
+          {node}
+        </div>
+      </div>
+    );
   }
   const chordTranspose = props.chordTranspose != null
     ? Number(props.chordTranspose) || 0
@@ -214,7 +259,7 @@ export default function TimedLyricsChordsView(props) {
   // timed alignment so scaffolded lyrics that include chord tokens still render
   // as a chord sheet rather than plain lyric text.
   if (isChordSheet) {
-    return (
+    return wrapFit(
       <div className="timed-lyrics-chords-view chord-sheet" style={contentFontStyle({ fontFamily: 'monospace', overflowX: 'auto' })}>
         {classified.map(function(item, index) {
           if (item.type === 'blank') {
@@ -237,7 +282,7 @@ export default function TimedLyricsChordsView(props) {
 
   // 2) Timed alignment with a chord per line when the tune already has chords.
   if (timedLines.length > 0 && timedHasChords) {
-    return (
+    return wrapFit(
       <div className="timed-lyrics-chords-view" style={contentFontStyle()}>
         {timedLines.map(function(line, index) {
           if (isSectionHeader(line.text)) {
@@ -270,7 +315,7 @@ export default function TimedLyricsChordsView(props) {
     const sheetAlignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
       ? tune.meta.chordSheetAlignment
       : null;
-    return (
+    return wrapFit(
       <div className="timed-lyrics-chords-view chord-blocks" style={contentFontStyle()}>
         {alignedBlocks.map(function(block, bi) {
           // Structure: suppress repeating the block chart on revisit.
@@ -332,7 +377,7 @@ export default function TimedLyricsChordsView(props) {
 
   // 4) Plain lyrics (no chords available anywhere).
   if (lines.length > 0) {
-    return (
+    return wrapFit(
       <div className="timed-lyrics-chords-view" style={contentFontStyle()}>
         <LyricsDisplayLines lines={displayLines} />
       </div>

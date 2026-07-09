@@ -264,6 +264,26 @@ export function slotsForBeatCount(rhythm, beatCount) {
   return slots
 }
 
+export function averagePulsesPerBeat(rhythm) {
+  if (!rhythm || !Array.isArray(rhythm.pulsesPerBeat) || rhythm.pulsesPerBeat.length === 0) return 1
+  const sum = rhythm.pulsesPerBeat.reduce(function(total, pulses) { return total + pulses }, 0)
+  return sum / rhythm.pulsesPerBeat.length
+}
+
+/**
+ * Wall-clock delay after the last count-in click before music should start.
+ * abcjs beat units already match metronome rhythm beats (e.g. 2 dotted quarters in 6/8).
+ * The metronome callback fires when the last click is scheduled; music enters on the
+ * next subdivision/downbeat one pulse later.
+ */
+export function countInMusicStartDelayMs(countIn, rhythm) {
+  const beatDurationMs = parseFloat(countIn && countIn.beatDurationMs) || 0
+  const pickupDelayMs = parseFloat(countIn && countIn.delayMs) || 0
+  if (pickupDelayMs > 0) return pickupDelayMs
+  if (!(beatDurationMs > 0)) return 0
+  return beatDurationMs / averagePulsesPerBeat(rhythm)
+}
+
 export function resolveSlotPosition(rhythm, slotIndex) {
   const total = slotsPerBar(rhythm)
   let remaining = ((slotIndex % total) + total) % total

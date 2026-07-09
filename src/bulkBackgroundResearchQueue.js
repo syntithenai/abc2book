@@ -1,5 +1,6 @@
 import localforage from 'localforage'
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
+import { applyGeneratedBackgroundInfo } from './viewModeUtils'
 import { isAbortError } from './abortUtils'
 
 const STORAGE_KEY = 'queue-state'
@@ -389,27 +390,28 @@ export function stop() {
 }
 
 function saveBackgroundForJob(job, text) {
+  const getTune = queueContext.getTune
+  const saveTune = queueContext.saveTune
+  if (typeof getTune === 'function' && typeof saveTune === 'function') {
+    const tune = getTune(job.tuneId)
+    if (!tune) {
+      throw new Error('Tune not found: ' + job.tuneId)
+    }
+
+    applyGeneratedBackgroundInfo(tune, text)
+    saveTune(tune, false, { historyLabel: 'Bulk background research' })
+    if (typeof queueContext.forceRefresh === 'function') {
+      queueContext.forceRefresh()
+    }
+    return
+  }
+
   if (typeof queueContext.saveBackgroundInfo === 'function') {
     queueContext.saveBackgroundInfo(job.tuneId, text)
     return
   }
 
-  const getTune = queueContext.getTune
-  const saveTune = queueContext.saveTune
-  if (typeof getTune !== 'function' || typeof saveTune !== 'function') {
-    throw new Error('Tunebook context not registered for bulk background research')
-  }
-
-  const tune = getTune(job.tuneId)
-  if (!tune) {
-    throw new Error('Tune not found: ' + job.tuneId)
-  }
-
-  tune.backgroundInfo = text
-  saveTune(tune, false, { historyLabel: 'Bulk background research' })
-  if (typeof queueContext.forceRefresh === 'function') {
-    queueContext.forceRefresh()
-  }
+  throw new Error('Tunebook context not registered for bulk background research')
 }
 
 async function runJob(job) {

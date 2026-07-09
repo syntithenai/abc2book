@@ -21,10 +21,30 @@ import { useIsNarrowViewport } from '../useMediaQuery';
 import DisplayModeControls from './DisplayModeControls';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 
+/** True when Fit height can apply to the current panels. */
+export function canShowFitHeightButton(flags) {
+  if (!flags) return false;
+  return flags.notation !== 'off' || !!flags.lyrics || !!flags.structure;
+}
+
+function fitHeightLabel(flags, vertical) {
+  const notationOn = flags && flags.notation !== 'off';
+  const lyricsOn = !!(flags && flags.lyrics);
+  const structureOn = !!(flags && flags.structure);
+  let target = 'content';
+  if (notationOn) target = 'notation';
+  else if (lyricsOn && !structureOn) target = 'lyrics';
+  else if (structureOn && !lyricsOn) target = 'structure';
+  else if (lyricsOn) target = 'lyrics';
+  return vertical
+    ? 'Fit ' + target + ' to page width'
+    : 'Fit ' + target + ' to page height';
+}
+
 function NotationFitButton(props) {
-  const { tunebook, fitMode, onChange, stopMenuClose, className } = props;
+  const { tunebook, fitMode, onChange, stopMenuClose, className, displayFlags } = props;
   const vertical = fitMode === NOTATION_FIT_VERTICAL;
-  const label = vertical ? 'Fit notation to page width' : 'Fit notation to page height';
+  const label = fitHeightLabel(displayFlags, vertical);
 
   function stop(e) {
     if (!stopMenuClose) return;
@@ -152,6 +172,7 @@ function DisplayModeToolbar(props) {
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
+  const showFit = canShowFitHeightButton(displayFlags) && !!onNotationFitModeChange;
 
   return (
     <div
@@ -173,11 +194,12 @@ function DisplayModeToolbar(props) {
           onChange={onVoiceSettingsChange}
         />
       ) : null}
-      {notationOn && onNotationFitModeChange && !separateInlineFitButton ? (
+      {showFit && !separateInlineFitButton ? (
         <NotationFitButton
           tunebook={tunebook}
           fitMode={notationFitMode}
           onChange={onNotationFitModeChange}
+          displayFlags={displayFlags}
         />
       ) : null}
     </div>
@@ -247,8 +269,7 @@ export default function ViewModeSelectorModal(props) {
   const useDisplayToolbar = !isEditor && !isNarrowViewport && !forceDropdown;
   const separateInlineFitButton = !isEditor && !!props.separateInlineFitButton;
   const showSeparateInlineFitButton = separateInlineFitButton
-    && displayFlags
-    && displayFlags.notation !== 'off'
+    && canShowFitHeightButton(displayFlags)
     && !!props.onNotationFitModeChange;
 
   function handleSelect(modeId) {
@@ -296,6 +317,7 @@ export default function ViewModeSelectorModal(props) {
             tunebook={props.tunebook}
             fitMode={props.notationFitMode}
             onChange={props.onNotationFitModeChange}
+            displayFlags={displayFlags}
           />
         ) : null}
       </>
@@ -382,7 +404,7 @@ export default function ViewModeSelectorModal(props) {
                 </div>
               </>
             ) : null}
-            {displayFlags.notation !== 'off' && props.onNotationFitModeChange ? (
+            {canShowFitHeightButton(displayFlags) && props.onNotationFitModeChange ? (
               <>
                 <Dropdown.Divider />
                 <NotationFitButton
@@ -390,6 +412,7 @@ export default function ViewModeSelectorModal(props) {
                   tunebook={props.tunebook}
                   fitMode={props.notationFitMode}
                   onChange={props.onNotationFitModeChange}
+                  displayFlags={displayFlags}
                   stopMenuClose={true}
                 />
               </>

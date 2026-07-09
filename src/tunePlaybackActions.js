@@ -173,20 +173,17 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                 ctx.setNowPlayingQueue(null)
             }
         } else if (playingId && playingId !== tune.id) {
-            const selectedIds = ctx.selected && typeof ctx.selected === 'object'
-                ? Object.keys(ctx.selected).filter(function(k) { return ctx.selected[k] }).join(',')
-                : (ctx.selected || '')
             setQueuePlayConfirm({
                 tuneId: tune.id,
                 tuneName: tune.name || '',
-                onReplace: function() {
-                    tunebook.fillAnyPlaylist(ctx.currentTuneBook, selectedIds, ctx.tagFilter, navigate, ctx.genreFilter, ctx.artistFilter)
-                },
-                onPreviewOnce: function() {
+                onPlayThisTune: function() {
                     const previewQueue = startPreviewOnce(queue, tune.id)
                     if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
                     const item = { tuneId: tune.id, prefer: target.type === 'midi' ? 'midi' : 'media', linkIndex: target.type === 'media' ? target.linkNum : undefined }
                     playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+                },
+                onResumePlaylist: function() {
+                    // Navigation back to the current playlist tune is handled by AppQueueLayer.
                 },
             })
             return true

@@ -784,7 +784,6 @@ export default function LinksEditor(props) {
                             width: '1',
                             height: '1',
                             playerVars: {
-                                autoplay: 1,
                                 controls: 0,
                                 enablejsapi: 1,
                             },

@@ -49,9 +49,9 @@ import useGoogleLogin from './useGoogleLogin'
 //import GoogleLogin from './GoogleLogin'
 import NowPlayingHost from './components/NowPlayingHost'
 import QueuePlayConfirmModal from './components/QueuePlayConfirmModal'
-import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce } from './nowPlayingQueue'
+import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce, getCurrentItem, getCurrentTuneId } from './nowPlayingQueue'
 import { isGigPlaylistActive } from './gigRouteUtils'
-import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem } from './nowPlayingQueuePlayback'
+import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
 import useTuneBookMediaController from './useTuneBookMediaController'
 import usePracticeSession from './usePracticeSession'
 import usePracticeRouteSync from './usePracticeRouteSync'
@@ -105,13 +105,15 @@ import { applyDriveRecordStateToTunes } from './incomingMergeUtils'
 
 import {useState, useEffect, useRef, useCallback} from 'react';
 //import jwt_decode from "jwt-decode";
-import {HashRouter as Router, Routes, Route, Link, useLocation, useParams, useNavigate} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route, Link, useLocation, useParams, useNavigate, useSearchParams} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './theme.css';
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {isMobile} from 'react-device-detect';
 //import AbcAudio from './components/AbcAudio'
 import {ToastContainer, toast}  from 'react-toastify'
+import AppEmbedFrameBootstrap from './components/AppEmbedFrameBootstrap'
+import { isEmbeddedAppFrame } from './embedFrameUtils'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 
 function YouTubeGetID(url){
@@ -161,27 +163,58 @@ function AppImportReviewBridge(props) {
   )
 }
 
+function useIsEmbeddedAppFrame() {
+  const [searchParams] = useSearchParams()
+  return isEmbeddedAppFrame(searchParams)
+}
+
+/** Header + queue host; omitted when the app is loaded in an embed iframe (e.g. Lyrics Tools). */
+function AppMainChrome(props) {
+  const embedded = useIsEmbeddedAppFrame()
+  if (embedded) return null
+  return (
+    <>
+      <Header {...props.headerProps} />
+      <AppQueueLayer {...props.queueProps} />
+    </>
+  )
+}
+
+/** Non-route chrome (modals, etc.) hidden in embed iframes. */
+function AppOptionalChrome(props) {
+  const embedded = useIsEmbeddedAppFrame()
+  if (embedded) return null
+  return props.children
+}
+
 function AppQueueLayer(props) {
   const location = useLocation()
+  const navigate = useNavigate()
   const viewedTuneId = (function() {
     const match = location.pathname.match(/\/tunes\/([^/]+)/)
     return match ? decodeURIComponent(match[1]) : null
   })()
 
-  function handleQueueConfirmReplace() {
-    const request = props.queuePlayConfirm
-    if (!request || !props.mediaController) return
-    props.tunebook.clearNowPlayingQueue()
-    if (request.onReplace) request.onReplace()
-    props.setQueuePlayConfirm(null)
-  }
-
-  function handleQueueConfirmPreviewOnce() {
+  function handleQueueConfirmPlayThisTune() {
     const request = props.queuePlayConfirm
     if (!request || !props.nowPlayingQueue || !props.setNowPlayingQueue) return
     const previewQueue = startPreviewOnce(props.nowPlayingQueue, request.tuneId)
     props.setNowPlayingQueue(previewQueue)
-    if (request.onPreviewOnce) request.onPreviewOnce()
+    if (request.onPlayThisTune) request.onPlayThisTune()
+    else if (request.onPreviewOnce) request.onPreviewOnce()
+    props.setQueuePlayConfirm(null)
+  }
+
+  function handleQueueConfirmResumePlaylist() {
+    const request = props.queuePlayConfirm
+    if (!request) return
+    const queue = props.nowPlayingQueue
+    const tuneId = getCurrentTuneId(queue)
+    const item = getCurrentItem(queue)
+    if (tuneId) {
+      navigateToQueueTune(navigate, tuneId, item, props.tunebook, props.tunes)
+    }
+    if (request.onResumePlaylist) request.onResumePlaylist()
     props.setQueuePlayConfirm(null)
   }
 
@@ -193,13 +226,14 @@ function AppQueueLayer(props) {
         mediaController={props.mediaController}
         tunebook={props.tunebook}
         viewedTuneId={viewedTuneId}
+        pathname={location.pathname}
         practiceSessionActive={props.practiceSessionActive}
         gigModeActive={props.gigModeActive}
       />
       <QueuePlayConfirmModal
         request={props.queuePlayConfirm}
-        onReplace={handleQueueConfirmReplace}
-        onPreviewOnce={handleQueueConfirmPreviewOnce}
+        onPlayThisTune={handleQueueConfirmPlayThisTune}
+        onResumePlaylist={handleQueueConfirmResumePlaylist}
         onCancel={function() { props.setQueuePlayConfirm(null) }}
       />
     </>
@@ -853,6 +887,7 @@ function App(props) {
         {showWaitingOverlay && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img alt="" src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }  
           <input type='hidden' name="refreshHash" value={refreshHash} />
           <Router >
+            <AppEmbedFrameBootstrap />
             <RouteAnalytics />
             <LegacyShowParamRedirect />
             <PracticeRouteSync practiceSession={practiceSession} />
@@ -928,26 +963,72 @@ function App(props) {
                 token={token}
                 forceRefresh={forceRefresh}
               >
-              <Header isSyncing={syncWorker.isRunning} breakLoginToken={breakLoginToken} forceNav={forceNav} setForceNav={setForceNav} mediaController={mediaController} tunebook={tunebook}  tunes={tunes} user={user}   token={token} logout={logout} login={login} requestGoogleScopes={requestGoogleScopes} googleDocumentId={googleDocumentId} currentTune={currentTune} setCurrentTune={setCurrentTune} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}   nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} filter={filter} setFilter={setFilter} setGroupBy={setGroupBy} forceRefresh={forceRefresh} tunesHash={tunesHash} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} selected={selected} loadUserImage={loadUserImage} practiceSession={practiceSession} setPlaylist={setPlaylist} notationHelpActive={notationHelpActive} />
-              <AppQueueLayer
-                nowPlayingQueue={nowPlayingQueue}
-                setNowPlayingQueue={setNowPlayingQueue}
-                queuePlayConfirm={queuePlayConfirm}
-                setQueuePlayConfirm={setQueuePlayConfirm}
-                mediaController={mediaController}
-                tunebook={tunebook}
-                tunes={tunes}
-                practiceSessionActive={!!(practiceSession && practiceSession.sessionOpen)}
-                gigModeActive={isGigPlaylistActive(setPlaylist)}
+              <AppMainChrome
+                headerProps={{
+                  isSyncing: syncWorker.isRunning,
+                  breakLoginToken: breakLoginToken,
+                  forceNav: forceNav,
+                  setForceNav: setForceNav,
+                  mediaController: mediaController,
+                  tunebook: tunebook,
+                  tunes: tunes,
+                  user: user,
+                  token: token,
+                  logout: logout,
+                  login: login,
+                  requestGoogleScopes: requestGoogleScopes,
+                  googleDocumentId: googleDocumentId,
+                  currentTune: currentTune,
+                  setCurrentTune: setCurrentTune,
+                  blockKeyboardShortcuts: blockKeyboardShortcuts,
+                  setBlockKeyboardShortcuts: setBlockKeyboardShortcuts,
+                  nowPlayingQueue: nowPlayingQueue,
+                  setNowPlayingQueue: setNowPlayingQueue,
+                  queuePlayConfirm: queuePlayConfirm,
+                  setQueuePlayConfirm: setQueuePlayConfirm,
+                  currentTuneBook: currentTuneBook,
+                  setCurrentTuneBook: setCurrentTuneBook,
+                  tagFilter: tagFilter,
+                  setTagFilter: setTagFilter,
+                  genreFilter: genreFilter,
+                  setGenreFilter: setGenreFilter,
+                  artistFilter: artistFilter,
+                  setArtistFilter: setArtistFilter,
+                  filter: filter,
+                  setFilter: setFilter,
+                  setGroupBy: setGroupBy,
+                  forceRefresh: forceRefresh,
+                  tunesHash: tunesHash,
+                  searchIndex: searchIndex,
+                  loadTuneTexts: loadTuneTexts,
+                  selected: selected,
+                  loadUserImage: loadUserImage,
+                  practiceSession: practiceSession,
+                  setPlaylist: setPlaylist,
+                  notationHelpActive: notationHelpActive,
+                }}
+                queueProps={{
+                  nowPlayingQueue: nowPlayingQueue,
+                  setNowPlayingQueue: setNowPlayingQueue,
+                  queuePlayConfirm: queuePlayConfirm,
+                  setQueuePlayConfirm: setQueuePlayConfirm,
+                  mediaController: mediaController,
+                  tunebook: tunebook,
+                  tunes: tunes,
+                  practiceSessionActive: !!(practiceSession && practiceSession.sessionOpen),
+                  gigModeActive: isGigPlaylistActive(setPlaylist),
+                }}
               />
-              <PracticeSessionModals
-                practiceSession={practiceSession}
-                tunebook={tunebook}
-                tunes={tunes}
-                mediaController={mediaController}
-                forceRefresh={forceRefresh}
-                setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
-              />
+              <AppOptionalChrome>
+                <PracticeSessionModals
+                  practiceSession={practiceSession}
+                  tunebook={tunebook}
+                  tunes={tunes}
+                  mediaController={mediaController}
+                  forceRefresh={forceRefresh}
+                  setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                />
+              </AppOptionalChrome>
               <div className="App-body">
                    <Routes>
                     <Route  path={``}   element={<BooksPage mediaController={mediaController}  tunes={tunes} tunebook={tunebook}   forceRefresh={forceRefresh} tunesHash={tunesHash}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} setCurrentTune={setCurrentTune}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}  scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} token={token} user={user} login={login} requestGoogleScopes={requestGoogleScopes} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} filter={filter} tagFilter={tagFilter} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setFilter={setFilter} setGroupBy={setGroupBy} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} googleDocumentId={googleDocumentId} />}  />

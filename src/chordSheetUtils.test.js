@@ -225,11 +225,11 @@ describe('chordSheetUtils', function() {
 
     expect(aligned.length).toBe(5);
     // every section reuses the correct chord block by type; first occurrence
-    // merges inline, revisits show title only (no inline chords).
+    // and revisits with words both merge inline; structure uses chartRevisit.
     expect(aligned[0]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true, chartRevisit: false });
     expect(aligned[1]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true, chartRevisit: false });
-    expect(aligned[2]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: false, chartRevisit: true });
-    expect(aligned[3]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: false, chartRevisit: true });
+    expect(aligned[2]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS', inlineChords: true, chartRevisit: true });
+    expect(aligned[3]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', inlineChords: true, chartRevisit: true });
     expect(aligned[4]).toMatchObject({ type: 'bridge', chart: 'BRIDGECHORDS', inlineChords: true, chartRevisit: false });
 
     // every lyric line is preserved
@@ -291,11 +291,10 @@ describe('chordSheetUtils', function() {
     expect(aligned.length).toBe(3);
     aligned.forEach(function(block, index) {
       expect(block.chart).toBe('G | G | C | G |');
+      expect(block.inlineChords).toBe(true);
       if (index === 0) {
-        expect(block.inlineChords).toBe(true);
         expect(block.chartRevisit).toBe(false);
       } else {
-        expect(block.inlineChords).toBe(false);
         expect(block.chartRevisit).toBe(true);
       }
     });
@@ -386,13 +385,28 @@ describe('chordSheetUtils', function() {
     expect(merged[0].map(function(token) { return token.chord; })).toEqual(['F', '', 'Bb', 'C']);
   });
 
-  test('attaches unmapped chord blocks to the last non-inline lyric block', function() {
+  test('attaches unmapped chord blocks before the last unidentified lyric block', function() {
     const lyrics = ['[Verse 1]', 'only verse here'];
     const chordBlocks = ['VERSECHORDS', 'ORPHANCHORDS'];
     const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
     expect(aligned.length).toBe(1);
     expect(aligned[0].inlineChords).toBe(true);
     expect(aligned[0].extraChart).toBe('ORPHANCHORDS');
+  });
+
+  test('attaches orphan chords before last lyric block with no mapped chart', function() {
+    const lyrics = [
+      '[Verse 1]', 'verse words', '',
+      'outro words with no section header',
+    ];
+    // One typed section maps to first chart; second chart is orphan.
+    // Second lyric block has no type/chart → receives orphan as extraChart.
+    const chordBlocks = ['VERSECHORDS', 'OUTROCHORDS'];
+    const aligned = alignChordBlocksToLyrics(lyrics, chordBlocks);
+    expect(aligned.length).toBe(2);
+    expect(aligned[0].chart).toBe('VERSECHORDS');
+    expect(aligned[1].chart).toBe('');
+    expect(aligned[1].extraChart).toBe('OUTROCHORDS');
   });
 
   test('normalizeLyricBlocks keeps wordless repeat header as its own block', function() {

@@ -6,6 +6,7 @@ import {
 } from './metronomeTickSounds'
 import {
   createRhythm,
+  countInMusicStartDelayMs,
   cycleAccentLevel,
   defaultMetronomeRhythm,
   formatRhythmText,
@@ -102,6 +103,19 @@ describe('metronomeRhythmPresets', function() {
     const mixed = createRhythm(2, [METRONOME_ACCENT], [3, 2])
     expect(slotsForBeatCount(mixed, 2)).toBe(5)
     expect(slotsForBeatCount(mixed, 4)).toBe(10)
+  })
+
+  test('6/8 count-in uses abcjs beat count with six click slots', function() {
+    const rhythm68 = createRhythm(2, [METRONOME_ACCENT], [3, 3])
+    const metronomeBeats = 2
+    expect(slotsForBeatCount(rhythm68, metronomeBeats)).toBe(6)
+    expect(countInMusicStartDelayMs({ beatDurationMs: 500, delayMs: 0 }, rhythm68)).toBeCloseTo(500 / 3)
+  })
+
+  test('countInMusicStartDelayMs waits one click after the last count-in tick', function() {
+    const rhythm44 = defaultMetronomeRhythm()
+    expect(countInMusicStartDelayMs({ beatDurationMs: 500, delayMs: 0 }, rhythm44)).toBe(500)
+    expect(countInMusicStartDelayMs({ beatDurationMs: 250, delayMs: 75 }, rhythm44)).toBe(75)
   })
 
   test('rhythmsEqual compares full rhythm patterns', function() {

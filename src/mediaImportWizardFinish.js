@@ -1,5 +1,6 @@
 import { clearTimedMediaDraft } from './timedMediaCache';
 import { finalizeMediaTimedImport } from './timedImportFinalizer';
+import { applyGeneratedBackgroundInfo } from './viewModeUtils';
 
 export function finishMediaImportWizard(options) {
   const {
@@ -21,7 +22,7 @@ export function finishMediaImportWizard(options) {
   if (metadata.key) tune.key = metadata.key;
   if (metadata.tempo) tune.tempo = metadata.tempo;
   if (metadata.noteLength) tune.noteLength = metadata.noteLength;
-  if (metadata.backgroundInfo) tune.backgroundInfo = metadata.backgroundInfo;
+  if (metadata.backgroundInfo) applyGeneratedBackgroundInfo(tune, metadata.backgroundInfo);
   if (metadata.genre) tune.genre = metadata.genre;
 
   const abcTools = tunebook.abcTools;
@@ -36,7 +37,7 @@ export function finishMediaImportWizard(options) {
   if (metadata.noteLength) baseJson.noteLength = metadata.noteLength;
   if (metadata.name) baseJson.name = metadata.name;
   if (metadata.composer) baseJson.composer = metadata.composer;
-  if (metadata.backgroundInfo) baseJson.backgroundInfo = metadata.backgroundInfo;
+  if (metadata.backgroundInfo) applyGeneratedBackgroundInfo(baseJson, metadata.backgroundInfo);
   if (metadata.genre) baseJson.genre = metadata.genre;
 
   finalizeMediaTimedImport({

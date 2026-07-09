@@ -2338,6 +2338,7 @@ export default function useTuneBookMediaController(props) {
     function isYoutubeDetachedError(err) {
         const msg = err && err.message ? String(err.message) : String(err || '')
         return /not attached to the DOM/i.test(msg)
+            || /Cannot read properties of null \(reading 'playVideo'\)/.test(msg)
     }
 
     function resumeSynthAudioContextFromGesture() {

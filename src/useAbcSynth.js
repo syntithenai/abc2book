@@ -19,7 +19,7 @@ import {
     shouldUseMidiMetronomeCountIn,
 } from './playbackStateLogic'
 import { getPlaybackMetronomeSettings } from './playbackMetronomeSettings'
-import { createRhythm, slotsForBeatCount } from './metronomeRhythmPresets'
+import { createRhythm, countInMusicStartDelayMs, slotsForBeatCount } from './metronomeRhythmPresets'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
 
 export default function useAbcSynth(props) {
@@ -1600,8 +1600,18 @@ export default function useAbcSynth(props) {
                     countInBars: metro.countInBars,
                 })
                 var metronomeBeats = countIn.metronomeBeats
-                var delay = countIn.delayMs
                 const extraMeasures = getExtraMeasuresAtBeginning()
+                var beatsPerBar = metro.rhythm && metro.rhythm.beatsPerBar
+                    ? metro.rhythm.beatsPerBar
+                    : o.getBeatsPerMeasure()
+                var countInRhythm = createRhythm(
+                    beatsPerBar,
+                    metro.rhythm && metro.rhythm.accents,
+                    metro.rhythm && metro.rhythm.pulsesPerBeat
+                        ? metro.rhythm.pulsesPerBeat
+                        : 1
+                )
+                var musicStartDelayMs = countInMusicStartDelayMs(countIn, countInRhythm)
                 
                 function startCountInCursor() {
                     if (extraMeasures > 0 && gtimingCallbacks.current) {
@@ -1624,22 +1634,12 @@ export default function useAbcSynth(props) {
                         if (!isPlaybackGenerationCurrent(countInGeneration)) return
                         if (!wantsMidiPlayback()) return
                         if (!contextReady) {
-                            scheduleMidiStartAfterDelay(countInGeneration, delay, { forceRatio: 0 })
+                            scheduleMidiStartAfterDelay(countInGeneration, musicStartDelayMs, { forceRatio: 0 })
                             return
                         }
 
                         var effectiveTempo = getEffectiveQpm()
                         if (!(effectiveTempo > 0)) effectiveTempo = 120
-                        var beatsPerBar = metro.rhythm && metro.rhythm.beatsPerBar
-                            ? metro.rhythm.beatsPerBar
-                            : o.getBeatsPerMeasure()
-                        var countInRhythm = createRhythm(
-                            beatsPerBar,
-                            metro.rhythm && metro.rhythm.accents,
-                            metro.rhythm && metro.rhythm.pulsesPerBeat
-                                ? metro.rhythm.pulsesPerBeat
-                                : 1
-                        )
                         var countInSlots = slotsForBeatCount(countInRhythm, metronomeBeats)
                         if (!(countInSlots > 0)) countInSlots = metronomeBeats
 
@@ -1651,7 +1651,7 @@ export default function useAbcSynth(props) {
                             function() {
                                 if (!isPlaybackGenerationCurrent(countInGeneration)) return
                                 stopMetronome()
-                                scheduleMidiStartAfterDelay(countInGeneration, delay, { forceRatio: 0 })
+                                scheduleMidiStartAfterDelay(countInGeneration, musicStartDelayMs, { forceRatio: 0 })
                             },
                             function() {
                                 if (props.mediaController && props.mediaController.userGesturePlayRef && props.mediaController.userGesturePlayRef.current) {

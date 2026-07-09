@@ -158,6 +158,191 @@ async function fetchDatamuse(params, signal) {
   return fetchJson(url.toString(), signal)
 }
 
+async function fetchDatamuseSuggestions(term, signal) {
+  const word = String(term || '').trim()
+  if (!word) return []
+  const url = 'https://api.datamuse.com/sug?s=' + encodeURIComponent(word) + '&max=10'
+  const payload = await fetchJson(url, signal)
+  return Array.isArray(payload) ? payload : []
+}
+
+async function tryDictionaryEntries(word, signal) {
+  const lookup = String(word || '').trim().toLowerCase()
+  if (!lookup) return []
+  try {
+    const payload = await fetchJson(DICTIONARY_BASE_URL + '/' + encodeURIComponent(lookup), signal)
+    return Array.isArray(payload) ? payload : []
+  } catch (error) {
+    return []
+  }
+}
+
+function dictionaryPrimaryWord(term) {
+  const seeds = getPhraseSearchSeeds(term)
+  return seeds.leading || String(term || '').trim()
+}
+
+async function resolveDictionaryWordDirect(query, primaryWord) {
+  const word = String(primaryWord || query || '').trim().toLowerCase()
+  if (!word) {
+    return {
+      query: String(query || '').trim(),
+      resolvedWord: '',
+      dictionary: [],
+      matchType: 'none',
+      lookupWord: '',
+    }
+  }
+
+  let entries = await tryDictionaryEntries(word)
+  if (entries.length) {
+    return {
+      query: String(query || '').trim(),
+      resolvedWord: entries[0].word || word,
+      dictionary: entries,
+      matchType: 'exact',
+      lookupWord: word,
+    }
+  }
+
+  const suggestions = await fetchDatamuseSuggestions(word)
+  for (let i = 0; i < suggestions.length; i += 1) {
+    const suggestion = suggestions[i]
+    if (!suggestion || !suggestion.word) continue
+    entries = await tryDictionaryEntries(suggestion.word)
+    if (entries.length) {
+      return {
+        query: String(query || '').trim(),
+        resolvedWord: entries[0].word || suggestion.word,
+        dictionary: entries,
+        matchType: 'fuzzy',
+        lookupWord: word,
+        matchedSuggestion: suggestion.word,
+      }
+    }
+  }
+
+  const spelledLike = normalizeDatamuseResults(await fetchDatamuse({ sp: word + '*', max: 12 }))
+  for (let j = 0; j < spelledLike.length; j += 1) {
+    const candidate = spelledLike[j]
+    if (!candidate || !candidate.word) continue
+    entries = await tryDictionaryEntries(candidate.word)
+    if (entries.length) {
+      return {
+        query: String(query || '').trim(),
+        resolvedWord: entries[0].word || candidate.word,
+        dictionary: entries,
+        matchType: 'fuzzy',
+        lookupWord: word,
+        matchedSuggestion: candidate.word,
+      }
+    }
+  }
+
+  return {
+    query: String(query || '').trim(),
+    resolvedWord: word,
+    dictionary: [],
+    matchType: 'none',
+    lookupWord: word,
+  }
+}
+
+function phraseWordCount(term) {
+  return String(term || '').trim().split(/\s+/).filter(Boolean).length
+}
+
+export function isMultiWordPhrase(term) {
+  return phraseWordCount(term) > 1
+}
+
+function pickFirstReverseDictionaryWord(result) {
+  const candidates = collectReverseDictionaryCandidates(result)
+  return candidates.length ? candidates[0].word : ''
+}
+
+export function collectReverseDictionaryCandidates(reverseResult) {
+  if (!reverseResult) return []
+  return mergeDatamuseResults([
+    reverseResult.meaning,
+    reverseResult.topic,
+    reverseResult.examples,
+  ], 24)
+}
+
+export async function resolveDictionaryWord(term, accessToken, primaryWordOverride) {
+  const query = String(term || '').trim()
+  if (!query) throw new Error('Enter a word to look up')
+  const override = primaryWordOverride != null ? String(primaryWordOverride || '').trim().toLowerCase() : ''
+  const lookupWord = override || dictionaryPrimaryWord(query)
+
+  try {
+    const payload = await fetchResolverJson('/lyrics-dictionary', { term: lookupWord }, accessToken)
+    if (Array.isArray(payload) && payload.length) {
+      const resolvedWord = payload[0].word || lookupWord
+      const matchType = resolvedWord.toLowerCase() === lookupWord.toLowerCase() ? 'exact' : 'fuzzy'
+      return {
+        query: query,
+        resolvedWord: resolvedWord,
+        dictionary: payload,
+        matchType: matchType,
+        lookupWord: lookupWord,
+      }
+    }
+  } catch (error) {
+    // Fall back to direct dictionary + Datamuse fuzzy resolution.
+  }
+
+  return resolveDictionaryWordDirect(query, lookupWord)
+}
+
+export async function lookupLookupHub(term, accessToken, options) {
+  const query = String(term || '').trim()
+  if (!query) throw new Error('Enter a word or phrase to search')
+  const opts = options || {}
+  const selectedWordOverride = String(opts.selectedWord || '').trim()
+
+  let dictionaryLookupWord = dictionaryPrimaryWord(query)
+  let reverseMatchWord = null
+  let reverseCandidates = []
+  let reverseResult = null
+
+  if (phraseWordCount(query) > 1) {
+    reverseResult = opts.reverseResult || await lookupReverseDictionary(query, accessToken)
+    reverseCandidates = collectReverseDictionaryCandidates(reverseResult)
+    const word = selectedWordOverride || pickFirstReverseDictionaryWord(reverseResult)
+    if (word) {
+      reverseMatchWord = word
+      dictionaryLookupWord = word
+    }
+  }
+
+  const resolved = await resolveDictionaryWord(query, accessToken, dictionaryLookupWord)
+  const thesaurusWord = resolved.resolvedWord || dictionaryLookupWord || query
+  const rhymeWord = reverseMatchWord || resolved.lookupWord || query
+
+  const [thesaurus, alliteration, rhyme] = await Promise.all([
+    lookupThesaurus(thesaurusWord, accessToken),
+    lookupAlliteration(query, accessToken),
+    lookupRhymes(rhymeWord, accessToken),
+  ])
+
+  return {
+    query: query,
+    resolvedWord: resolved.resolvedWord,
+    lookupWord: resolved.lookupWord,
+    dictionaryMatch: resolved.matchType,
+    matchedSuggestion: resolved.matchedSuggestion || null,
+    reverseMatchWord: reverseMatchWord,
+    selectedReverseWord: reverseMatchWord,
+    reverseCandidates: reverseCandidates,
+    dictionary: resolved.dictionary,
+    thesaurus: thesaurus,
+    alliteration: alliteration,
+    rhyme: rhyme,
+  }
+}
+
 async function fetchResolverJson(path, payload, accessToken) {
   const response = await fetchViaMediaProxy(path, accessToken, {
     method: 'POST',
@@ -195,12 +380,15 @@ async function lookupRhymesDirect(term) {
   const [perfect, near, soundsLike] = await Promise.all([
     fetchDatamuse({ rel_rhy: word, max: 24 }),
     fetchDatamuse({ rel_nry: word, max: 24 }),
-    fetchDatamuse({ sl: word, max: 12 }),
+    fetchDatamuse({ sl: word, max: 24 }),
   ])
+  const perfectResults = normalizeDatamuseResults(perfect)
+  const nearResults = normalizeDatamuseResults(near)
+  const soundsLikeResults = normalizeDatamuseResults(soundsLike)
   return {
-    perfect: normalizeDatamuseResults(perfect),
-    near: normalizeDatamuseResults(near),
-    soundsLike: normalizeDatamuseResults(soundsLike),
+    perfect: perfectResults.length ? perfectResults : soundsLikeResults.slice(0, 24),
+    near: nearResults,
+    soundsLike: soundsLikeResults,
   }
 }
 
@@ -263,9 +451,17 @@ async function lookupPhraseIdeasDirect(term) {
 
 async function lookupAlliterationDirect(term) {
   const phrase = String(term || '').trim()
-  const related = normalizeDatamuseResults(
+  const soundKey = getAlliterationSoundKey(phrase)
+  const relatedByMeaning = normalizeDatamuseResults(
     await fetchDatamuse({ rel_jja: phrase, max: 24 })
   )
+  const spelledLike = soundKey
+    ? normalizeDatamuseResults(await fetchDatamuse({ sp: soundKey + '*', max: 24 }))
+    : []
+  const soundsLike = normalizeDatamuseResults(
+    await fetchDatamuse({ sl: phrase, max: 16 })
+  )
+  const related = mergeDatamuseResults([relatedByMeaning, spelledLike, soundsLike], 48)
   const alliterative = filterAlliterativeWords(related, phrase)
   return {
     alliterative: alliterative,

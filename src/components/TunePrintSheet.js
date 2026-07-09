@@ -19,6 +19,7 @@ import {
 } from '../noteSpacingUtils';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
+import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc';
 import {
   buildGigNotationRenderOptions,
   findStaffWidthForHorizontalFit,
@@ -73,12 +74,9 @@ import {
 
 function stripPrintNotationHeaders(abcText) {
   if (!abcText) return '';
-  return abcText.split('\n').filter(function(line) {
+  return stripNotationDisplayMetadata(abcText).split('\n').filter(function(line) {
     const trimmed = line.trim();
-    if (trimmed.startsWith('B:')) return false;
     if (trimmed.startsWith('T:')) return false;
-    if (trimmed.startsWith('N: AKA:')) return false;
-    if (trimmed.startsWith('% abcbook-tags')) return false;
     return true;
   }).join('\n');
 }

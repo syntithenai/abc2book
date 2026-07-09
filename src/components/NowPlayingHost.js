@@ -7,12 +7,15 @@ import {
   getCurrentTuneId,
   resolvePlaybackForItem,
 } from '../nowPlayingQueue'
-import { shouldMusicSingleOwnPlayback } from '../nowPlayingQueuePlayback'
+import {
+  parseTunePagePlaybackFromUrl,
+  shouldNowPlayingHostOwnPlayback,
+} from '../nowPlayingQueuePlayback'
 import { buildPlayableTuneAbc } from '../abcVoiceFilter'
 import { getPlayableVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
 import './NowPlayingHost.css'
 
-function resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem) {
+function resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, urlPlayback) {
   if (!playingTune || !tunebook || !mediaController) return null
 
   if (isQueueActive(queue) && currentItem) {
@@ -49,6 +52,19 @@ function resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue
       return { type: 'media', linkNum: linkNum }
     }
   }
+  if (urlPlayback) {
+    if (urlPlayback.playState === 'playMidi'
+      && tunebook.hasNotesOrChords
+      && tunebook.hasNotesOrChords(playingTune)) {
+      return { type: 'midi' }
+    }
+    if (urlPlayback.playState === 'playMedia'
+      && Array.isArray(playingTune.links)
+      && playingTune.links.length > 0) {
+      const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
+      return { type: 'media', linkNum: linkNum }
+    }
+  }
   return null
 }
 
@@ -82,37 +98,40 @@ export default function NowPlayingHost(props) {
     }
   }, [])
 
+  const pathname = props.pathname || ''
+  const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
   const queuePlayingTuneId = getCurrentTuneId(queue)
   const queuePlayingTune = queuePlayingTuneId ? tunes[queuePlayingTuneId] : null
   const currentItem = getCurrentItem(queue)
   const controllerTune = mediaController && mediaController.tune ? mediaController.tune : null
-  const playingTune = isQueueActive(queue) ? queuePlayingTune : controllerTune
+  const viewedTune = viewedTuneId ? tunes[viewedTuneId] : null
+  const playingTune = isQueueActive(queue)
+    ? queuePlayingTune
+    : (controllerTune || (urlPlayback && viewedTune ? viewedTune : null))
 
-  const playbackActive = !!(mediaController && (
-    (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent())
-    || (mediaController.canResumePlayback && mediaController.canResumePlayback())
-    || mediaController.playbackRouteMode === 'media'
-    || mediaController.playbackRouteMode === 'midi'
-    || (mediaController.requestedPlayState === 'playMedia' || mediaController.requestedPlayState === 'playMidi')
-  ))
-
-  const shouldHost = !!playingTune
-    && !practiceSessionActive
-    && !gigModeActive
-    && !shouldMusicSingleOwnPlayback(viewedTuneId, queue)
-    && (isQueueActive(queue) || playbackActive)
+  const shouldHost = shouldNowPlayingHostOwnPlayback({
+    viewedTuneId: viewedTuneId,
+    queue: queue,
+    mediaController: mediaController,
+    practiceSessionActive: practiceSessionActive,
+    gigModeActive: gigModeActive,
+    pathname: pathname,
+    tunes: tunes,
+  })
 
   const resumePlaybackOnHost = !!(mediaController
     && mediaController.hasActivePlaybackIntent
     && mediaController.hasActivePlaybackIntent())
 
   const playbackTarget = useMemo(function() {
-    return resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem)
+    const routeFromUrl = parseTunePagePlaybackFromUrl(pathname)
+    return resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, routeFromUrl)
   }, [
     playingTune,
     currentItem,
     tunebook,
     queue,
+    pathname,
     mediaController,
     mediaController && mediaController.mediaLinkNumber,
     mediaController && mediaController.playbackRouteMode,
@@ -183,7 +202,7 @@ export default function NowPlayingHost(props) {
           tune={playingTune}
           routePlayState={routePlayState}
           routeMediaLinkNumber={routeMediaLinkNumber}
-          suppressAutostart={!resumePlaybackOnHost}
+          suppressAutostart={!resumePlaybackOnHost && !urlPlayback}
           suppressTapModal={true}
           instanceId="queue"
           compactPlayer={true}

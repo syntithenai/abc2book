@@ -1,4 +1,4 @@
-import { analyzePhrase, analyzeWord, buildSyllableSummary, estimateSyllableCount, splitWordIntoSyllables } from './lyricsWordUtils'
+import { analyzePhrase, analyzeWord, buildCompactMeterSummary, buildSyllableSummary, estimateSyllableCount, splitWordIntoSyllables } from './lyricsWordUtils'
 
 describe('lyricsWordUtils', function() {
   test('estimates syllables for simple words', function() {
@@ -27,5 +27,12 @@ describe('lyricsWordUtils', function() {
 
   test('buildSyllableSummary returns guidance text for empty input', function() {
     expect(buildSyllableSummary('')).toContain('Enter a word or line')
+  })
+
+  test('buildCompactMeterSummary returns a short syllable and stress line', function() {
+    const summary = buildCompactMeterSummary('big dog')
+    expect(summary).toContain('2 syllables')
+    expect(summary).toContain('stress shape')
+    expect(summary).toContain('ˈ')
   })
 })

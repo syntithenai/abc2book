@@ -96,20 +96,20 @@ export default function NoteAlignedLyricsModal(props) {
   const { tune, tunebook, show, onHide, onSaved } = props
   const responsiveModalProps = useResponsiveModalProps()
   const noteLines = useMemo(function() { return primaryNoteLines(tune) }, [tune])
-  const resolvedOnOpen = useMemo(function() {
-    if (!show || !tune) return []
-    return padLines(resolveNoteAlignedWLines(tune), noteLines.length)
-  }, [show, tune, noteLines.length])
   const [alignedLines, setAlignedLines] = useState([])
+  const seededForOpenRef = useRef(false)
 
   useEffect(function() {
-    if (!show || !tune) return
-    setAlignedLines(resolvedOnOpen)
-  }, [show, tune, noteLines.length, resolvedOnOpen])
-
-  const displayLines = alignedLines.length === noteLines.length
-    ? alignedLines
-    : resolvedOnOpen
+    if (!show || !tune) {
+      seededForOpenRef.current = false
+      return
+    }
+    // Seed once per open so parent re-renders / resolve regenerations cannot
+    // overwrite in-progress edits (e.g. merging staff-2 text into staff-1).
+    if (seededForOpenRef.current) return
+    seededForOpenRef.current = true
+    setAlignedLines(padLines(resolveNoteAlignedWLines(tune), noteLines.length))
+  }, [show, tune, noteLines.length])
 
   function updateLine(index, value) {
     setAlignedLines(function(prev) {
@@ -140,6 +140,7 @@ export default function NoteAlignedLyricsModal(props) {
   const hadStored = getNoteAlignedLyricLines(tune).some(function(line) {
     return String(line || '').trim().length > 0
   })
+  const displayLines = padLines(alignedLines, noteLines.length)
 
   return (
     <Modal show={show} onHide={onHide} size="lg" {...responsiveModalProps}>
@@ -171,7 +172,7 @@ export default function NoteAlignedLyricsModal(props) {
             {noteLines.map(function(noteLine, index) {
               return (
                 <NoteAlignedLyricsRow
-                  key={index}
+                  key={'note-aligned-row-' + index}
                   tune={tune}
                   index={index}
                   noteLine={noteLine}

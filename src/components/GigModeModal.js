@@ -16,12 +16,13 @@ import {
 } from '../gigDisplaySettings';
 import {
   buildGigNotationRenderOptions,
-  findStaffWidthForHorizontalFit,
   findStaffWidthForVerticalFit,
   fitNotationSvg,
+  fitNotationToWidth,
   getRenderDimensions,
   measureNotationPaper,
   refitNotationSvg,
+  refitNotationToWidth,
   NOTATION_FIT_VERTICAL,
 } from '../gigNotationFit';
 import {
@@ -39,6 +40,7 @@ import {
   stripEmbeddedChordsFromAbc,
   stripLyricLinesFromAbc,
 } from '../noteSpacingUtils';
+import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc';
 import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
 import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
@@ -54,12 +56,9 @@ function requestWakeLock() {
 
 function stripGigNotationHeaders(abcText) {
   if (!abcText) return '';
-  return abcText.split('\n').filter(function(line) {
+  return stripNotationDisplayMetadata(abcText).split('\n').filter(function(line) {
     const trimmed = line.trim();
-    if (trimmed.startsWith('B:')) return false;
     if (trimmed.startsWith('T:')) return false;
-    if (trimmed.startsWith('N: AKA:')) return false;
-    if (trimmed.startsWith('% abcbook-tags')) return false;
     return true;
   }).join('\n');
 }
@@ -238,7 +237,12 @@ export default function GigModeModal(props) {
     const last = notationFitSizeRef.current;
     if (last.width === paper.availW && last.height === paper.availH) return;
     notationFitSizeRef.current = { width: paper.availW, height: paper.availH };
-    refitNotationSvg(renderEl.querySelector('svg'), renderEl, paperEl, notationFitMode);
+    const svg = renderEl.querySelector('svg');
+    if (notationFitMode === NOTATION_FIT_VERTICAL) {
+      refitNotationSvg(svg, renderEl, paperEl, notationFitMode);
+    } else {
+      refitNotationToWidth(svg, renderEl, paper.availW);
+    }
   }, [notationFitMode]);
 
   const renderNotation = useCallback(function() {
@@ -251,8 +255,10 @@ export default function GigModeModal(props) {
       const measureEl = paperEl || colEl;
       const renderEl = notationRef.current;
       if (!renderEl) return;
+      const useVerticalFit = notationFitMode === NOTATION_FIT_VERTICAL;
       const paper = measureNotationPaper(measureEl, renderEl);
-      if (paper.availH < 150 && attempt < 8) {
+      const minReady = useVerticalFit ? paper.availH : paper.availW;
+      if (minReady < 150 && attempt < 8) {
         requestAnimationFrame(function() { runRender(attempt + 1); });
         return;
       }
@@ -266,7 +272,6 @@ export default function GigModeModal(props) {
         staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
       }
       const renderOptions = buildGigNotationRenderOptions(notationVisualTranspose);
-      const useVerticalFit = notationFitMode === NOTATION_FIT_VERTICAL;
 
       function renderAtStaffWidth(staffWidth) {
         renderEl.innerHTML = '';
@@ -283,17 +288,19 @@ export default function GigModeModal(props) {
       function finishRender() {
         try {
           const livePaper = measureNotationPaper(paperEl, renderEl);
-          const fit = useVerticalFit
-            ? findStaffWidthForVerticalFit(function(staffWidth) {
-              return renderAtStaffWidth(staffWidth);
-            }, paper.availW, paper.availH, paper.availW)
-            : findStaffWidthForHorizontalFit(function(staffWidth) {
+          let rendered;
+          if (useVerticalFit) {
+            const fit = findStaffWidthForVerticalFit(function(staffWidth) {
               return renderAtStaffWidth(staffWidth);
             }, paper.availW, paper.availH, paper.availW);
-          const rendered = renderAtStaffWidth(fit.staffWidth);
-          if (!rendered || !rendered.svg) return;
-
-          fitNotationSvg(rendered.svg, renderEl, paperEl, notationFitMode);
+            rendered = renderAtStaffWidth(fit.staffWidth);
+            if (!rendered || !rendered.svg) return;
+            fitNotationSvg(rendered.svg, renderEl, paperEl, notationFitMode);
+          } else {
+            rendered = renderAtStaffWidth(paper.availW);
+            if (!rendered || !rendered.svg) return;
+            fitNotationToWidth(rendered.svg, renderEl, livePaper.availW);
+          }
           notationFitSizeRef.current = {
             width: livePaper.availW,
             height: livePaper.availH,
@@ -440,6 +447,9 @@ export default function GigModeModal(props) {
   const displayZoom = fontScale;
   const showLyricsContent = !!showLyrics;
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showStructure;
+  const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL;
+  const lyricsFitHeight = fitHeightOn && !showNotation && showLyrics;
+  const structureFitHeight = fitHeightOn && !showNotation && showStructure && !showLyrics;
 
   const lyricsPanel = currentTune && showLyricsContent ? (
     <div className={`music-view-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
@@ -450,6 +460,7 @@ export default function GigModeModal(props) {
         hideChords={hideChordsInText}
         suppressLeadingTitle={true}
         zoom={displayZoom}
+        fitHeight={lyricsFitHeight}
       />
     </div>
   ) : null;
@@ -475,7 +486,11 @@ export default function GigModeModal(props) {
 
   const structurePanel = currentTune && showStructure ? (
     <div className={`music-chords-block-col tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}${!showNotation && !showLyrics ? ' music-chords-block-col--full-page' : ''}`}>
-      <StructureChordBlock chords={structureChordChart} />
+      <StructureChordBlock
+        chords={structureChordChart}
+        tune={currentTune}
+        fitHeight={structureFitHeight}
+      />
     </div>
   ) : null;
 

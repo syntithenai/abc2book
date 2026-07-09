@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef} from 'react'
-import {Link , useParams , useNavigate} from 'react-router-dom'
+import {Link , useParams , useNavigate, useLocation} from 'react-router-dom'
 import {Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
@@ -42,15 +42,16 @@ import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
 import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
 import LyricsZoomControls from './LyricsZoomControls'
+import TimedLyricsChordsView from './TimedLyricsChordsView'
 import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
-import { formatChordChartForDisplay, isSectionHeader } from '../chordSheetUtils'
-import { displaySectionHeader } from '../LyricsDisplayLines'
+import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
+    const location = useLocation();
     var windowSize = useWindowSize()
     const audioPlayer = useRef(); 
     
@@ -339,6 +340,18 @@ export default function MusicSingle(props) {
                 nextLinkOrTune()
             }
         }
+
+        const practiceSessionActive = !!(props.practiceSession && props.practiceSession.sessionOpen)
+        const mountMediaEngine = shouldMusicSingleMountMediaEngine({
+            viewedTuneId: tune.id,
+            queue: props.nowPlayingQueue,
+            mediaController: props.mediaController,
+            practiceSessionActive: practiceSessionActive,
+            gigModeActive: false,
+            pathname: location.pathname,
+            tunes: props.tunes,
+        })
+        const ownMidiEngine = shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
        
                 const compactToolbar = windowSize[0] <= 768
                 const mediumToolbar = windowSize[0] <= 1180
@@ -360,6 +373,10 @@ export default function MusicSingle(props) {
                 const structureVisible = !!viewFlags.structure && hasChords
                 const chordsAnnotate = !!viewFlags.chords
                 const viewModesEmpty = isViewModesEmpty(viewFlags, availableFlags)
+                const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL
+                // Without notation: fit-height scales lyrics (or structure-only).
+                const lyricsFitHeight = fitHeightOn && !notationVisible && lyricsVisible
+                const structureFitHeight = fitHeightOn && !notationVisible && structureVisible && !lyricsVisible
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
                   : ''
@@ -373,8 +390,6 @@ export default function MusicSingle(props) {
                 const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
                 const tuneTranspose = Number(tune.transpose) || 0
                 const effectiveCapo = Number(tune.capo) || 0
-                const showInlineChordsInLyrics = chordsAnnotate && lyricsVisible && hasChords && !notationVisible
-                const displayChords = formatChordChartForDisplay(chords || '')
 
                 const transposeCapoBlock = (
                   <div className="music-transpose-capo-block">
@@ -549,7 +564,10 @@ export default function MusicSingle(props) {
               <Dropdown.Toggle variant="warning" className="music-actions-edit-btn" aria-label="Edit tune">
                 {props.tunebook.icons.pencil}
               </Dropdown.Toggle>
-              <Dropdown.Menu className="music-actions-edit-submenu-menu">
+              <Dropdown.Menu
+                className="music-actions-edit-submenu-menu"
+                popperConfig={{ strategy: 'fixed' }}
+              >
                 {EDITOR_VIEW_MODES.map(function(mode) {
                   return (
                     <Dropdown.Item key={mode.id} as={Link} to={'/editor/' + params.tuneId + '/' + mode.id}>
@@ -638,13 +656,13 @@ export default function MusicSingle(props) {
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
                    </div>
                  </div>
                </div>
 
-               {/* Lyrics panel */}
+               {/* Lyrics panel — TimedLyricsChordsView maps chords above each lyric line */}
                {lyricsVisible && (
                  <div className={`music-body-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
                    <div className="lyrics-panel-inner">
@@ -653,30 +671,17 @@ export default function MusicSingle(props) {
                        <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
                        {tune.composer && <span> - {tune.composer}</span>}
                      </div>
-                     {showInlineChordsInLyrics && displayChords && String(displayChords).trim() && (
-                       <div className="chord-block-view chord-inline-in-lyrics">
-                         <div className="chord-block-lines">
-                           {String(displayChords).split('\n').map(function(line, idx) {
-                             if (!line.trim()) return <div key={idx} className="chord-block-spacer" />
-                             if (isSectionHeader(line)) return <div key={idx} className="chord-section-header">{displaySectionHeader(line) || line}</div>
-                             return <div key={idx} className="chord-block-line">{line}</div>
-                           })}
-                         </div>
-                       </div>
-                     )}
-                     {(!squashLyrics && Object.keys(words).length > 0) && (
-                       <div className="lyrics" style={{fontSize:(lyricsZoom > 0 ? lyricsZoom : 1) * 100+'%', paddingLeft:'0.3em', marginTop:'1em'}}>
-                         {Object.keys(words).map(function(key) {
-                           return <div key={key} className="lyrics-block" style={{paddingTop:'1em', paddingBottom:'1em', pageBreakInside:'avoid'}}>
-                             {words[key].map(function(line, lk) {
-                               if (isSectionHeader(line)) return <div key={lk} className="lyrics-section-header">{displaySectionHeader(line) || line}</div>
-                               return <div key={lk} className="lyrics-line">{line}</div>
-                             })}
-                           </div>
-                         })}
-                       </div>
-                     )}
-                     {(squashLyrics && Object.keys(words).length > 0) && (
+                     {!squashLyrics ? (
+                       <TimedLyricsChordsView
+                         tune={tune}
+                         tunebook={props.tunebook}
+                         chordTranspose={chordTranspose}
+                         hideChords={!chordsAnnotate}
+                         suppressLeadingTitle={true}
+                         zoom={lyricsZoom > 0 ? lyricsZoom : 1}
+                         fitHeight={lyricsFitHeight}
+                       />
+                     ) : (
                        <div className="lyrics" style={{fontSize:(lyricsZoom > 0 ? lyricsZoom : 1) * 100+'%', paddingLeft:'0.3em', marginTop:'2.5em'}}>
                          {Object.keys(words).map(function(key) {
                            return <div key={key} className="lyrics-block" style={{paddingTop:'1em', paddingBottom:'1em', pageBreakInside:'avoid'}}>
@@ -700,14 +705,22 @@ export default function MusicSingle(props) {
                {/* Structure (chord block) panel */}
                {structureVisible && (
                  <div className={`music-body-chords tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}`}>
-                   <StructureChordBlock chords={chords} uniqueChords={uniqueChords} useInstrument={useInstrument} />
+                   <StructureChordBlock
+                     chords={chords}
+                     uniqueChords={uniqueChords}
+                     useInstrument={useInstrument}
+                     tune={tune}
+                     fitHeight={structureFitHeight}
+                   />
                  </div>
                )}
              </div>
              
              
              
-             <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook}  tune={tune} onEnded={onEnded} />
+             {mountMediaEngine && (
+               <MediaPlayerMedia mediaController={props.mediaController} tunebook={props.tunebook} tune={tune} onEnded={onEnded} />
+             )}
 
              {(viewFlags.info && backgroundInfoText) || tuneBooks.length > 0 || tuneTags.length > 0 ? (
               <div className="music-single-footer-meta">

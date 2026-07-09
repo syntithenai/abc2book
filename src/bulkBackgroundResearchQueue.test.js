@@ -120,9 +120,13 @@ describe('bulkBackgroundResearchQueue', function() {
   })
 
   test('processes job and saves background info', async function() {
-    const saveBackgroundInfo = jest.fn()
-    bulkBackgroundResearchQueue.setBulkBackgroundResearchQueueContext({ saveBackgroundInfo: saveBackgroundInfo })
-    bulkBackgroundResearchQueue.enqueueTunes([makeTune()], { accessToken: 'token' })
+    const saveTune = jest.fn()
+    const tune = makeTune({ viewMode: 'music' })
+    bulkBackgroundResearchQueue.setBulkBackgroundResearchQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+    })
+    bulkBackgroundResearchQueue.enqueueTunes([tune], { accessToken: 'token' })
     bulkBackgroundResearchQueue.start()
 
     let job = null
@@ -139,7 +143,9 @@ describe('bulkBackgroundResearchQueue', function() {
     if (job.status === 'error') {
       throw new Error(job.error || 'job failed')
     }
-    expect(saveBackgroundInfo).toHaveBeenCalledWith('t1', 'Researched background text.')
+    expect(saveTune).toHaveBeenCalled()
+    expect(tune.backgroundInfo).toBe('Researched background text.')
+    expect(tune.viewMode).toBe('notation,info')
     expect(job.status).toBe('done')
   })
 

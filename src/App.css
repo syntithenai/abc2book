@@ -1662,6 +1662,37 @@ a.header-now-playing-label:focus {
   
 }
 
+/* Lyrics Tools iframe: no app chrome, compact body. */
+html.app-embed-frame .App-header,
+html.app-embed-frame .App-queue-layer,
+html.app-embed-frame .Toastify {
+  display: none !important;
+}
+
+html.app-embed-frame .App-body {
+  margin-top: 0 !important;
+  padding: 0;
+}
+
+html.app-embed-frame .App {
+  min-height: 0;
+}
+
+.lyrics-page-embedded.container {
+  max-width: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.lyrics-page-embedded .card {
+  border: 0;
+  box-shadow: none !important;
+}
+
+.lyrics-page-embedded .card-body {
+  padding: 0.75rem 0.25rem;
+}
+
 .add-page {
   position: fixed;
   top: 0;
@@ -2698,6 +2729,7 @@ button img:after {
 .music-actions-edit-dropdown {
   display: inline-flex;
   align-items: stretch;
+  position: relative;
 }
 
 .music-actions-edit-submenu {
@@ -2714,6 +2746,13 @@ button img:after {
 
 .music-actions-edit-submenu-menu {
   min-width: 11.5rem;
+  z-index: 10020;
+}
+
+/* Fixed-strategy menus escape toolbar overflow clipping. */
+.music-buttons .dropdown-menu[data-bs-popper],
+.music-buttons .dropdown-menu[style*="position: fixed"] {
+  z-index: 10020;
 }
 
 .music-buttons-col-meta {
@@ -2905,6 +2944,21 @@ button img:after {
 .tune-layout-structure-only .tune-panel-structure {
   grid-column: 1;
   min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.structure-chord-block {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.structure-chord-block .chord-block-lines {
+  max-width: 100%;
+  min-width: 0;
 }
 
 /* Two blocks: primary 2/3 left, secondary 1/3 right */
@@ -2926,6 +2980,8 @@ button img:after {
 .tune-layout-lyrics-structure .tune-panel-structure {
   grid-column: 2;
   min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
   max-height: calc(100vh - 8rem);
 }
@@ -2946,6 +3002,8 @@ button img:after {
   grid-column: 2;
   grid-row: 1;
   min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   overflow-y: auto;
   max-height: calc(100vh - 8rem);
 }
@@ -2992,20 +3050,115 @@ button img:after {
   }
 }
 
+/* Fit-height: constrain the primary content panel to the viewport.
+   Notation uses the column width (not full page) via measureSingleViewPaper.
+   When notation is off, lyrics-only or structure-only fill the viewport height. */
 .music-panels-fit-height.tune-layout-notation-only .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-structure .tune-panel-notation,
 .music-panels-fit-height.tune-layout-notation-lyrics-structure .tune-panel-notation {
   height: calc(100vh - 8rem);
+  max-height: calc(100vh - 8rem);
+  overflow: hidden;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-only .tune-panel-lyrics,
+.music-panels-fit-height.tune-layout-lyrics-structure .tune-panel-lyrics {
+  height: calc(100dvh - 8rem);
+  max-height: calc(100dvh - 8rem);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host .timed-lyrics-chords-view,
+.music-panels-fit-height.tune-layout-lyrics-structure .lyrics-fit-height-host .timed-lyrics-chords-view {
+  overflow-x: auto;
+}
+
+/* Gig mode: lyrics view is a direct child of the panel (no lyrics-panel-inner) */
+.music-panels-fit-height.tune-layout-lyrics-only > .music-view-lyrics,
+.music-panels-fit-height.tune-layout-lyrics-structure > .music-view-lyrics {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
-.chord-block-line {
-  padding: 0.1em 0.4em;
-  border-bottom: 1px solid #e0e0e0;
-  background-color: #f8f9fa;
-  white-space: nowrap;
+.music-panels-fit-height.tune-layout-lyrics-only .lyrics-panel-inner,
+.music-panels-fit-height.tune-layout-lyrics-structure .lyrics-panel-inner {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+}
+
+.music-panels-fit-height .lyrics-panel-inner > .lyrics-panel-header {
+  flex: 0 0 auto;
+}
+
+/* Single-view (via lyrics-panel-inner) and gig mode (host is direct child) */
+.music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host,
+.music-panels-fit-height.tune-layout-lyrics-structure .lyrics-fit-height-host {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+.music-panels-fit-height.tune-layout-structure-only .tune-panel-structure {
+  height: calc(100vh - 8rem);
+  max-height: calc(100vh - 8rem);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.music-panels-fit-height.tune-layout-structure-only .structure-chord-block {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.music-panels-fit-height.tune-layout-structure-only .structure-chord-block .chord-block-diagram-buttons {
+  flex: 0 0 auto;
+}
+
+.music-panels-fit-height.tune-layout-structure-only .structure-chord-block .chord-block-lines {
+  /* Must size to text, not stretch — otherwise scrollHeight == panel and font never scales */
+  flex: 0 0 auto;
+  min-height: 0;
+  overflow: visible;
+}
+
+/* Lyrics + structure (no notation): fit height scales lyrics; structure scrolls in side */
+.music-panels-fit-height.tune-layout-lyrics-structure .tune-panel-structure {
+  max-height: calc(100vh - 8rem);
+  overflow-y: auto;
+}
+
+.structure-chord-block--fit-height {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Side column stays within viewport when notation is fit-height */
+.music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-lyrics,
+.music-panels-fit-height.tune-layout-notation-structure .tune-panel-structure,
+.music-panels-fit-height.tune-layout-notation-lyrics-structure .tune-panel-structure {
+  max-height: calc(100vh - 8rem);
+  overflow-y: auto;
 }
 
 /* ── Single-view flex layout panels (legacy classes kept for compatibility) ─ */
@@ -3174,6 +3327,8 @@ button img:after {
   background-color: #f8f9fa;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .chord-block-spacer {
@@ -3188,6 +3343,18 @@ button img:after {
   background-color: #e9ecef;
   border-left: 3px solid #6c757d;
   letter-spacing: 0.03em;
+}
+
+.structure-section-gap {
+  height: 1.1em;
+}
+
+.structure-section--heading-only .chord-section-header {
+  margin-bottom: 0.35em;
+}
+
+.chord-section-header.lyrics-section-header {
+  margin-top: 0.15em;
 }
 
 /* ── Lyrics panel ───────────────────────────────────────────────────────── */
@@ -3538,7 +3705,7 @@ button img:after {
 }
 
 .music-actions-nested-dropdown-wrap .tune-download-dropdown-menu {
-  padding-left: 0.5rem;
+  padding: 0.65rem 0.75rem;
 }
 
 .platform-mobile .music-tune-meta-group .btn,
@@ -3640,6 +3807,11 @@ button img:after {
   .music-buttons-inner {
     flex-wrap: nowrap;
     overflow-x: auto;
+  }
+
+  /* Keep open dropdown menus out of the horizontal scroll clip. */
+  .music-buttons-inner:has(.dropdown-menu.show) {
+    overflow-x: visible;
   }
 
   .music-buttons-col-right .view-mode-selector,
@@ -5826,19 +5998,51 @@ button img:after {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 0.45em;
+  gap: 0.55em;
+  text-align: left;
+  line-height: 1.2;
 }
 
 .tune-download-option-btn svg,
+.tune-download-dropdown-options .tune-download-stems-btn svg,
 .tune-download-dropdown-icon svg {
-  float: none;
-  margin-top: 0;
+  float: none !important;
+  display: block;
+  margin: 0;
   flex-shrink: 0;
+  width: 1.35em;
+  height: 1.35em;
+  align-self: center;
+}
+
+.tune-download-option-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .tune-download-dropdown-menu {
-  min-width: 18rem;
-  padding: 0.35rem 0;
+  min-width: min(36rem, calc(100vw - 1.5rem));
+  width: min(40rem, calc(100vw - 1.5rem));
+  max-width: calc(100vw - 1.5rem);
+  padding: 0.85rem 1rem;
+  margin-top: 0.5rem !important;
+}
+
+.tune-download-dropdown-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 0.85rem;
+}
+
+.tune-download-dropdown-options .tune-download-option-btn,
+.tune-download-dropdown-options .tune-download-stems-btn {
+  width: 100%;
+  min-height: 2.75rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.55rem 0.85rem;
 }
 
 .tune-download-dropdown-item {
@@ -5866,13 +6070,21 @@ button img:after {
 .tune-download-dropdown-error {
   padding: 0.35rem 0.85rem 0.5rem;
   font-size: 0.9rem;
+  grid-column: 1 / -1;
 }
 
 .tune-download-stems-option {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
+}
+
+.tune-download-options .tune-download-stems-option {
   grid-column: 1 / -1;
+}
+
+.tune-download-dropdown-options .tune-download-stems-option {
+  grid-column: auto;
 }
 
 .tune-download-stems-progress {

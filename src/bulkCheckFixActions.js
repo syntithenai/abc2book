@@ -2,6 +2,7 @@ import { searchChords } from './chordsSearchClient'
 import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
+import { applyGeneratedBackgroundInfo } from './viewModeUtils'
 import { unwrapSearchResult } from './searchResultUtils'
 import { setPlainLyricLines } from './wLinesUtils'
 import { importedTuneFromNotationCandidate } from './notationImportUtils'
@@ -176,7 +177,7 @@ export async function runBulkCheckFixAction(action, options) {
       accessToken: token,
       signal: signal,
     })
-    if (bg && bg.text) next.backgroundInfo = bg.text
+    if (bg && bg.text) applyGeneratedBackgroundInfo(next, bg.text)
     return syncTuneFromStore(next, opts)
   }
 

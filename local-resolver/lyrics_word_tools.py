@@ -178,13 +178,51 @@ async def _lookup_datamuse_with_client(params, client):
     return await _fetch_json(client, "https://api.datamuse.com/words?" + query)
 
 
+async def _fetch_datamuse_suggestions(client, term, max_results=10):
+    word = _clean_term(term)
+    if not word:
+        return []
+    url = "https://api.datamuse.com/sug?s=" + quote(word) + "&max=" + str(max_results)
+    payload = await _fetch_json(client, url)
+    return payload if isinstance(payload, list) else []
+
+
+async def _try_dictionary_entries(client, word):
+    lookup = _clean_term(word).lower()
+    if not lookup:
+        return []
+    url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + quote(lookup)
+    try:
+        payload = await _fetch_json(client, url)
+        return payload if isinstance(payload, list) else []
+    except ValueError:
+        return []
+
+
 async def lookup_dictionary(term):
     word = _clean_term(term).lower()
     if not word:
         raise ValueError("Enter a word to look up")
-    url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + quote(word)
     async with httpx.AsyncClient(timeout=DEFAULT_TIMEOUT_SECONDS) as client:
-        return await _fetch_json(client, url)
+        entries = await _try_dictionary_entries(client, word)
+        if entries:
+            return entries
+
+        suggestions = await _fetch_datamuse_suggestions(client, word)
+        for suggestion in suggestions:
+            candidate = suggestion.get("word", "") if isinstance(suggestion, dict) else ""
+            entries = await _try_dictionary_entries(client, candidate)
+            if entries:
+                return entries
+
+        spelled_like = await _lookup_datamuse_with_client({"sp": word + "*", "max": 12}, client)
+        for item in spelled_like or []:
+            candidate = item.get("word", "") if isinstance(item, dict) else ""
+            entries = await _try_dictionary_entries(client, candidate)
+            if entries:
+                return entries
+
+    return []
 
 
 async def lookup_thesaurus(term):
@@ -212,12 +250,14 @@ async def lookup_rhymes(term):
         perfect, near, sounds_like = await asyncio.gather(
             _lookup_datamuse_with_client({"rel_rhy": word, "max": 24}, client),
             _lookup_datamuse_with_client({"rel_nry": word, "max": 24}, client),
-            _lookup_datamuse_with_client({"sl": word, "max": 12}, client),
+            _lookup_datamuse_with_client({"sl": word, "max": 24}, client),
         )
+    perfect_results = perfect or []
+    sounds_like_results = sounds_like or []
     return {
-        "perfect": perfect or [],
+        "perfect": perfect_results if perfect_results else sounds_like_results[:24],
         "near": near or [],
-        "soundsLike": sounds_like or [],
+        "soundsLike": sounds_like_results,
     }
 
 
@@ -288,9 +328,15 @@ async def lookup_alliteration(term):
     phrase = _clean_term(term)
     if not phrase:
         raise ValueError("Enter a word or phrase to shape alliteration")
+    sound_key = _alliteration_sound_key(phrase)
     async with httpx.AsyncClient(timeout=DEFAULT_TIMEOUT_SECONDS) as client:
-        related = await _lookup_datamuse_with_client({"rel_jja": phrase, "max": 24}, client)
+        related_by_meaning = await _lookup_datamuse_with_client({"rel_jja": phrase, "max": 24}, client)
+        spelled_like = []
+        if sound_key:
+            spelled_like = await _lookup_datamuse_with_client({"sp": sound_key + "*", "max": 24}, client)
+        sounds_like = await _lookup_datamuse_with_client({"sl": phrase, "max": 16}, client)
+    related = _merge_datamuse_results([related_by_meaning, spelled_like, sounds_like], 48)
     return {
-        "alliterative": _filter_alliterative_words(related or [], phrase),
-        "related": related or [],
+        "alliterative": _filter_alliterative_words(related, phrase),
+        "related": related,
     }

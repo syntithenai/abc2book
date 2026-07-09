@@ -140,7 +140,9 @@ export default function Abc(props) {
       if (typeof ResizeObserver !== 'undefined') {
         observer = new ResizeObserver(scheduleRelayout)
         const section = typeof renderEl.closest === 'function'
-          ? renderEl.closest('.music-notation-section, .music-view-notation, .music-view-main')
+          ? renderEl.closest(
+            '.tune-panel-notation, .music-body-notation, .music-notation-section, .music-view-notation, .gig-mode-notation-col, .music-view-main'
+          )
           : null
         if (section) observer.observe(section)
       }

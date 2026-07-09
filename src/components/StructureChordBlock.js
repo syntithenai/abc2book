@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import {
@@ -9,18 +9,14 @@ import {
 } from '../chordSheetUtils';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import { displaySectionHeader } from '../LyricsDisplayLines';
+import { useFitTextScale } from '../useFitTextScale';
 
 /**
  * Structure (chord block) panel.
  *
- * When lyrics have section headers, maps melody chord blocks to those sections:
- * - first occurrence of a section shows heading + chords
- * - repeated section (e.g. second #verse) shows heading only
- * - blank line / spacer between sections (double-bar gaps)
- * - orphan (unmapped) chord blocks appear before the last unidentified lyrics
- *
- * Auto-fits font so the longest chord line fills available width without wrapping.
- * Empty bars render as "/".
+ * Maps melody chord blocks to lyric sections when headers exist.
+ * Auto-fits font so the longest chord line fills available width.
+ * When fitHeight is set, also scales to fill the panel height.
  */
 export default function StructureChordBlock(props) {
   const {
@@ -31,9 +27,8 @@ export default function StructureChordBlock(props) {
     tune,
     title,
     composer,
+    fitHeight,
   } = props;
-  const containerRef = useRef(null);
-  const [fontSize, setFontSize] = useState('1em');
 
   const structureSections = useMemo(function() {
     const chart = chords || '';
@@ -64,7 +59,6 @@ export default function StructureChordBlock(props) {
       if (sections.length > 0) return sections;
     }
 
-    // Fallback: raw melody blocks with spacers between double-bar sections.
     const display = formatChordChartForDisplay(chart);
     if (!display) return [];
     return splitChordChartIntoBlocks(display).map(function(block) {
@@ -79,52 +73,21 @@ export default function StructureChordBlock(props) {
     });
   }, [chords, tune, title, composer]);
 
-  const measureText = useMemo(function() {
-    const lines = [];
-    structureSections.forEach(function(section) {
-      if (section.label) lines.push(section.label);
-      String(section.extraChart || '').split('\n').forEach(function(line) {
-        if (line.trim()) lines.push(line);
-      });
-      String(section.chart || '').split('\n').forEach(function(line) {
-        if (line.trim()) lines.push(line);
-      });
-    });
-    return lines;
+  const sectionsKey = useMemo(function() {
+    return structureSections.map(function(s) {
+      return (s.label || '') + '|' + (s.chart || '') + '|' + (s.extraChart || '');
+    }).join('||');
   }, [structureSections]);
 
-  useEffect(function() {
-    if (!containerRef.current) return undefined;
-    function recalcFontSize() {
-      const container = containerRef.current;
-      if (!container) return;
-      const availW = container.clientWidth - 32;
-      if (!availW || availW <= 0) return;
-      if (!measureText.length) return;
-      const longest = measureText.reduce(function(a, b) {
-        return a.length >= b.length ? a : b;
-      }, '');
-      if (!longest) return;
-      const test = document.createElement('span');
-      test.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font-family:inherit;';
-      test.textContent = longest;
-      container.appendChild(test);
-      var lo = 0.5;
-      var hi = 3;
-      for (var i = 0; i < 24; i++) {
-        var mid = (lo + hi) / 2;
-        test.style.fontSize = mid + 'em';
-        if (test.offsetWidth <= availW) lo = mid;
-        else hi = mid;
-      }
-      container.removeChild(test);
-      setFontSize(lo.toFixed(3) + 'em');
-    }
-    recalcFontSize();
-    const observer = new ResizeObserver(recalcFontSize);
-    observer.observe(containerRef.current);
-    return function() { observer.disconnect(); };
-  }, [measureText]);
+  const { containerRef, contentRef, fontScale } = useFitTextScale({
+    fitHeight: !!fitHeight,
+    measureLongestLine: true,
+    minScale: 0.35,
+    maxScale: fitHeight ? 4.5 : 3.2,
+    padX: 16,
+    padY: 16,
+    deps: [sectionsKey, !!fitHeight],
+  });
 
   const chordKeys = uniqueChords && typeof uniqueChords === 'object'
     ? Object.keys(uniqueChords)
@@ -140,7 +103,14 @@ export default function StructureChordBlock(props) {
   }
 
   return (
-    <div className={'chord-block-view structure-chord-block' + (className ? ' ' + className : '')} ref={containerRef}>
+    <div
+      className={
+        'chord-block-view structure-chord-block'
+        + (fitHeight ? ' structure-chord-block--fit-height' : '')
+        + (className ? ' ' + className : '')
+      }
+      ref={containerRef}
+    >
       {chordKeys.length > 0 && useInstrument ? (
         <div className="chord-block-diagram-buttons">
           {chordKeys.map(function(chord) {
@@ -152,7 +122,11 @@ export default function StructureChordBlock(props) {
           })}
         </div>
       ) : null}
-      <div className="chord-block-lines" style={{ fontSize: fontSize }}>
+      <div
+        className="chord-block-lines"
+        ref={contentRef}
+        style={{ fontSize: fontScale + 'em', flex: '0 0 auto' }}
+      >
         {structureSections.map(function(section, si) {
           return (
             <div key={si} className={'structure-section' + (section.headingOnly ? ' structure-section--heading-only' : '')}>

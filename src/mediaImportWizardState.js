@@ -3,6 +3,7 @@ import { extractMelodySourceNotes, applyMelodyNoteSettingsToDraft } from './melo
 import { formatMediaAnalysisForTune, tuneHasTempo } from './mediaAnalysisClient';
 import { saveTimedMediaDraft } from './timedMediaCache';
 import { needsComposerDiscovery } from './composerDiscoveryUtils';
+import { applyGeneratedBackgroundInfo } from './viewModeUtils';
 
 export function mergeLookupTuneMetadata(metadata, tune) {
   if (!tune) return metadata || {};
@@ -150,7 +151,7 @@ export async function persistMediaImportLookupResults(tuneId, results, tune, tun
   let changed = false;
   if (results.lookupBackgroundInfo && String(results.lookupBackgroundInfo).trim()
     && !String(nextTune.backgroundInfo || '').trim()) {
-    nextTune.backgroundInfo = String(results.lookupBackgroundInfo).trim();
+    applyGeneratedBackgroundInfo(nextTune, results.lookupBackgroundInfo);
     changed = true;
   }
   if (results.lookupArtist && String(results.lookupArtist).trim()
