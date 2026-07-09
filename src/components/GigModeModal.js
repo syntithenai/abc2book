@@ -9,7 +9,6 @@ import usePerformanceKeyBindings from '../usePerformanceKeyBindings';
 import { GIG_PERFORMANCE_BINDINGS } from '../performanceKeyBindings';
 import useAbcjsParser from '../useAbcjsParser';
 import {
-  getGigFontScale,
   clampGigZoom,
   getTuneGigZoom,
   getGigNightMode,
@@ -18,16 +17,22 @@ import {
 import {
   buildGigNotationRenderOptions,
   findStaffWidthForHorizontalFit,
+  findStaffWidthForVerticalFit,
   fitNotationSvg,
   getRenderDimensions,
   measureNotationPaper,
   refitNotationSvg,
+  NOTATION_FIT_VERTICAL,
 } from '../gigNotationFit';
 import {
   normalizeViewMode,
   viewModeToDisplayFlags,
   resolveDisplayFlagsForTune,
+  defaultViewModeForTune,
+  getAvailableDisplayFlags,
 } from '../viewModeUtils';
+import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout';
+import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings';
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import {
   buildAbcWithNoteSpacing,
@@ -38,6 +43,8 @@ import { filterTuneVoices } from '../abcVoiceFilter';
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings';
 import { buildGigRoute, getPlaylistTuneIdAtIndex } from '../gigRouteUtils';
 import MarkdownContent from './MarkdownContent';
+import LyricsZoomControls from './LyricsZoomControls';
+import StructureChordBlock from './StructureChordBlock';
 import './GigModeModal.css';
 
 function requestWakeLock() {
@@ -69,9 +76,12 @@ export default function GigModeModal(props) {
   const notationFitSizeRef = useRef({ width: 0, height: 0 });
   const notationResizeRafRef = useRef(null);
   const [showSetList, setShowSetList] = useState(false);
-  const [fontScale, setFontScale] = useState(getGigFontScale());
+  const [fontScale, setFontScale] = useState(1.2);
   const [edgeMessage, setEdgeMessage] = useState('');
   const [viewMode, setViewMode] = useState('music');
+  const [notationFitMode, setNotationFitModeState] = useState(function() {
+    return getTuneNotationFitMode(null);
+  });
   const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0);
   const [gigNightMode, setGigNightModeState] = useState(getGigNightMode);
   const [chordViewMode, setChordViewMode] = useState('transposed');
@@ -102,7 +112,8 @@ export default function GigModeModal(props) {
   useEffect(function() {
     if (!props.show || !currentTune) return;
     setFontScale(getTuneGigZoom(currentTune));
-  }, [props.show, currentTune && currentTune.id, currentTune && currentTune.zoom]);
+    setNotationFitModeState(getTuneNotationFitMode(currentTune));
+  }, [props.show, currentTune && currentTune.id, currentTune && currentTune.zoom, currentTune && currentTune.notationFit]);
 
   function focusGigBody() {
     const bodyEl = gigBodyRef.current;
@@ -116,11 +127,14 @@ export default function GigModeModal(props) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false);
     setEdgeMessage('');
     setShowSetList(false);
-    var initialMode = 'chordsInline';
+    var initialMode = 'music';
     if (setItem && setItem.viewMode) {
       initialMode = normalizeViewMode(setItem.viewMode);
     } else if (currentTune && currentTune.viewMode) {
       initialMode = normalizeViewMode(currentTune.viewMode);
+    } else if (currentTune) {
+      const hasChordsForDefault = tuneHasExplicitChords(currentTune, tunebook, abcjsParser);
+      initialMode = defaultViewModeForTune(currentTune, tunebook, { hasChords: hasChordsForDefault });
     }
     setViewMode(initialMode);
     let wakeLock = null;
@@ -163,6 +177,15 @@ export default function GigModeModal(props) {
 
   const hasNotes = !!(currentTune && tunebook && tunebook.hasNotes && tunebook.hasNotes(currentTune));
   const hasChords = !!currentTune && tuneHasExplicitChords(currentTune, tunebook, abcjsParser);
+  const availableFlags = useMemo(function() {
+    if (!currentTune) {
+      return { notation: true, lyrics: true, structure: true, chords: true, info: true };
+    }
+    return getAvailableDisplayFlags(currentTune, tunebook, {
+      hasChords: hasChords,
+      hasInfo: !!(currentTune.backgroundInfo && String(currentTune.backgroundInfo).trim()),
+    });
+  }, [currentTune, tunebook, hasChords]);
   const displayFlags = useMemo(function() {
     if (!currentTune) {
       return viewModeToDisplayFlags(viewMode);
@@ -174,21 +197,17 @@ export default function GigModeModal(props) {
       { hasChords: hasChords }
     );
   }, [viewMode, currentTune, tunebook, hasChords]);
-  const notationMode = displayFlags.notation;
-  const showLyrics = displayFlags.lyrics;
-  const chordsMode = displayFlags.chords;
-  const showInfo = displayFlags.info;
-  const showNotation = notationMode !== 'off' && hasNotes;
-  const isChordBlockView = chordsMode === 'block';
-  const isChordInlineView = chordsMode === 'inline';
-  const isChordLayout = isChordBlockView || isChordInlineView;
+  const layout = useMemo(function() {
+    return resolveTuneDisplayLayout(displayFlags);
+  }, [displayFlags]);
+  const showLyrics = !!displayFlags.lyrics;
+  const showStructure = !!displayFlags.structure && hasChords;
+  const showChordsAnnotate = !!displayFlags.chords;
+  const showInfo = !!displayFlags.info;
+  const showNotation = displayFlags.notation !== 'off' && hasNotes;
+  const viewModesEmpty = isViewModesEmpty(displayFlags, availableFlags);
   const hasCapo = effectiveCapo > 0;
-  const showChordsBlockColumn = isChordBlockView && !isChordInlineView;
-  const lyricsInSideColumn = showNotation && showLyrics;
-  const showSideColumn = showChordsBlockColumn || lyricsInSideColumn;
-  const chordsBlockFullPage = showChordsBlockColumn && !showNotation && !showLyrics;
-  const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showSideColumn;
-  const hideChordsInText = chordsMode !== 'inline';
+  const hideChordsInText = !showChordsAnnotate;
   const visibleVoiceKeys = useMemo(function() {
     if (!currentTune) return [];
     return getVisibleVoiceKeys(currentTune.id, getTuneVoiceKeys(currentTune));
@@ -202,6 +221,14 @@ export default function GigModeModal(props) {
     }
   }
 
+  function handleNotationFitModeChange(mode) {
+    const next = setNotationFitMode(mode);
+    setNotationFitModeState(next);
+    if (currentTune && currentTune.id) {
+      persistGigTuneSettings({ notationFit: next });
+    }
+  }
+
   const refitNotationLayout = useCallback(function() {
     const colEl = notationColRef.current;
     const renderEl = notationRef.current;
@@ -211,8 +238,8 @@ export default function GigModeModal(props) {
     const last = notationFitSizeRef.current;
     if (last.width === paper.availW && last.height === paper.availH) return;
     notationFitSizeRef.current = { width: paper.availW, height: paper.availH };
-    refitNotationSvg(renderEl.querySelector('svg'), renderEl, paperEl);
-  }, []);
+    refitNotationSvg(renderEl.querySelector('svg'), renderEl, paperEl, notationFitMode);
+  }, [notationFitMode]);
 
   const renderNotation = useCallback(function() {
     if (!props.show || !showNotation || !notationRef.current || !currentTune || !tunebook) return;
@@ -234,11 +261,12 @@ export default function GigModeModal(props) {
       const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false });
       let staffAbc = stripGigNotationHeaders(displayAbc);
       staffAbc = stripLyricLinesFromAbc(staffAbc);
-      // Block/off: no staff chords (block column owns them). Inline: keep on staff.
-      if (chordsMode !== 'inline') {
+      // Structure owns the block chart; strip staff chords unless Chords annotate is on.
+      if (!showChordsAnnotate) {
         staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
       }
       const renderOptions = buildGigNotationRenderOptions(notationVisualTranspose);
+      const useVerticalFit = notationFitMode === NOTATION_FIT_VERTICAL;
 
       function renderAtStaffWidth(staffWidth) {
         renderEl.innerHTML = '';
@@ -255,13 +283,17 @@ export default function GigModeModal(props) {
       function finishRender() {
         try {
           const livePaper = measureNotationPaper(paperEl, renderEl);
-          const fit = findStaffWidthForHorizontalFit(function(staffWidth) {
-            return renderAtStaffWidth(staffWidth);
-          }, paper.availW, paper.availH, paper.availW);
+          const fit = useVerticalFit
+            ? findStaffWidthForVerticalFit(function(staffWidth) {
+              return renderAtStaffWidth(staffWidth);
+            }, paper.availW, paper.availH, paper.availW)
+            : findStaffWidthForHorizontalFit(function(staffWidth) {
+              return renderAtStaffWidth(staffWidth);
+            }, paper.availW, paper.availH, paper.availW);
           const rendered = renderAtStaffWidth(fit.staffWidth);
           if (!rendered || !rendered.svg) return;
 
-          fitNotationSvg(rendered.svg, renderEl, paperEl);
+          fitNotationSvg(rendered.svg, renderEl, paperEl, notationFitMode);
           notationFitSizeRef.current = {
             width: livePaper.availW,
             height: livePaper.availH,
@@ -284,7 +316,7 @@ export default function GigModeModal(props) {
     requestAnimationFrame(function() {
       requestAnimationFrame(function() { runRender(0); });
     });
-  }, [props.show, currentTune, showNotation, chordsMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion]);
+  }, [props.show, currentTune, showNotation, showChordsAnnotate, notationFitMode, notationVisualTranspose, tunebook, visibleVoiceKeys, voiceSettingsVersion]);
 
   useEffect(function() {
     renderNotation();
@@ -310,7 +342,7 @@ export default function GigModeModal(props) {
         notationResizeRafRef.current = null;
       }
     };
-  }, [props.show, showNotation, refitNotationLayout, currentTune && currentTune.id]);
+  }, [props.show, showNotation, refitNotationLayout, currentTune && currentTune.id, notationFitMode]);
 
   function goToIndex(nextIndex) {
     if (!setPlaylist || !props.setSetPlaylist) return;
@@ -377,10 +409,10 @@ export default function GigModeModal(props) {
     if (props.onClose) props.onClose();
   }
 
-  function changeFontScale(delta) {
-    const next = clampGigZoom(fontScale + delta);
-    setFontScale(next);
-    persistGigTuneSettings({ zoom: next });
+  function changeFontScale(next) {
+    const clamped = clampGigZoom(next);
+    setFontScale(clamped);
+    persistGigTuneSettings({ zoom: clamped });
   }
 
   function changeTuneTranspose(delta) {
@@ -407,8 +439,10 @@ export default function GigModeModal(props) {
     : '0 / 0';
   const displayZoom = fontScale;
   const showLyricsContent = !!showLyrics;
+  const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showStructure;
+
   const lyricsPanel = currentTune && showLyricsContent ? (
-    <div className="music-view-lyrics">
+    <div className={`music-view-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
       <TimedLyricsChordsView
         tune={currentTune}
         tunebook={tunebook}
@@ -420,36 +454,36 @@ export default function GigModeModal(props) {
     </div>
   ) : null;
 
-  const sideColumn = currentTune && showSideColumn ? (
-    <div className={'music-chords-block-col' + (chordsBlockFullPage ? ' music-chords-block-col--full-page' : '')}>
-      {showChordsBlockColumn ? (
-        <TimedLyricsChordsView
-          tune={currentTune}
-          tunebook={tunebook}
-          chordTranspose={chordTranspose}
-          chordsOnly={true}
-          forceBlockLayout={true}
-          suppressLeadingTitle={true}
-          compact={!chordsBlockFullPage}
-          zoom={chordsBlockFullPage ? Math.max(2.6, displayZoom * 2.4) : displayZoom}
-        />
-      ) : null}
-      {lyricsInSideColumn ? lyricsPanel : null}
+  let structureChordChart = '';
+  if (currentTune && showStructure && tunebook) {
+    try {
+      const firstVoice = currentTune.voices && Object.keys(currentTune.voices).length > 0
+        ? Object.values(currentTune.voices)[0]
+        : { notes: [] };
+      structureChordChart = abcjsParser.renderChords(
+        tunebook.abcTools.emptyABC(currentTune.name) + (firstVoice.notes || []).join('\n'),
+        false,
+        chordTranspose,
+        currentTune.key,
+        currentTune.noteLength,
+        currentTune.meter
+      ) || '';
+    } catch (e) {
+      structureChordChart = '';
+    }
+  }
+
+  const structurePanel = currentTune && showStructure ? (
+    <div className={`music-chords-block-col tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}${!showNotation && !showLyrics ? ' music-chords-block-col--full-page' : ''}`}>
+      <StructureChordBlock chords={structureChordChart} />
     </div>
   ) : null;
 
   const notationPanel = showNotation ? (
-    <div className="music-view-notation gig-mode-notation-col" ref={notationColRef}>
+    <div className={`music-view-notation gig-mode-notation-col tune-panel-notation${!showChordsAnnotate ? ' no-inline-chords' : ''}${layout.main === 'notation' ? ' tune-slot-main' : ''}`} ref={notationColRef}>
       <div className="gig-mode-notation-paper music-notation-section">
         <div className="gig-mode-notation-render" ref={notationRef} />
       </div>
-    </div>
-  ) : null;
-
-  const mainColumn = (showNotation || (showLyricsContent && !lyricsInSideColumn)) ? (
-    <div className="music-view-main">
-      {showNotation ? notationPanel : null}
-      {showLyricsContent && !lyricsInSideColumn ? lyricsPanel : null}
     </div>
   ) : null;
 
@@ -514,6 +548,8 @@ export default function GigModeModal(props) {
                 viewMode={viewMode}
                 tune={currentTune}
                 tunebook={tunebook}
+                notationFitMode={notationFitMode}
+                onNotationFitModeChange={handleNotationFitModeChange}
                 onVoiceSettingsChange={function() {
                   setVoiceSettingsVersion(function(v) { return v + 1; });
                 }}
@@ -526,7 +562,7 @@ export default function GigModeModal(props) {
               <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
               <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1); }} aria-label="Transpose up">+</Button>
             </ButtonGroup>
-            {isChordLayout && hasCapo ? (
+            {(showChordsAnnotate || showStructure) && hasCapo ? (
               <Button
                 size="sm"
                 variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
@@ -541,11 +577,12 @@ export default function GigModeModal(props) {
                 Capo {effectiveCapo}
               </Button>
             ) : null}
-            {showLyricsContent || showSideColumn ? (
-              <ButtonGroup size="sm" className="gig-mode-zoom-group">
-                <Button variant="outline-secondary" onClick={function() { changeFontScale(-0.1); }} aria-label="Smaller text">A−</Button>
-                <Button variant="outline-secondary" onClick={function() { changeFontScale(0.1); }} aria-label="Larger text">A+</Button>
-              </ButtonGroup>
+            {availableFlags.lyrics ? (
+              <LyricsZoomControls
+                className="gig-mode-zoom-group"
+                zoom={fontScale}
+                onChange={changeFontScale}
+              />
             ) : null}
             {currentTune && (
               <Button
@@ -568,7 +605,7 @@ export default function GigModeModal(props) {
             {edgeMessage && <div className="gig-mode-end-banner">{edgeMessage}</div>}
             {currentTune ? (
               <div className="gig-mode-content">
-                <div className="gig-mode-chart" style={{ fontSize: displayZoom * 100 + '%' }}>
+                <div className="gig-mode-chart">
                   <div className="gig-mode-tune-header">
                     <div className="gig-mode-tune-header-text">
                       <div className="gig-mode-tune-title-row">
@@ -596,12 +633,17 @@ export default function GigModeModal(props) {
                     </Button>
                   </div>
                 </div>
-                {(mainColumn || sideColumn) ? (
-                  <div className={'music-view-split' + (sideColumn ? ' music-view-split--with-chords' : '') + (mainColumn ? '' : ' music-view-split--chords-only')}>
-                    {mainColumn}
-                    {sideColumn}
+                {viewModesEmpty ? (
+                  <div className="tune-view-modes-empty" role="status">
+                    No view modes enabled
                   </div>
-                ) : null}
+                ) : (
+                  <div className={'tune-display-panels ' + layout.layoutClass + (notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : '')}>
+                    {notationPanel}
+                    {lyricsPanel}
+                    {structurePanel}
+                  </div>
+                )}
                 {infoPanel ? (
                   <>
                     <hr className="music-page-divider" />

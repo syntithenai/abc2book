@@ -3,7 +3,7 @@ import abcjs from 'abcjs'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
 import LyricsDisplayLines from '../LyricsDisplayLines'
 import useAbcjsParser from '../useAbcjsParser'
-import { normalizeViewMode, showsMusicNotation } from '../viewModeUtils'
+import { normalizeViewMode, showsMusicNotation, viewModeToDisplayFlags } from '../viewModeUtils'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
 import { hasChordLines, formatChordChartForDisplay } from '../chordSheetUtils'
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
@@ -27,9 +27,10 @@ export default function PracticeTuneDisplay(props) {
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
 
   const viewMode = normalizeViewMode(props.viewMode || 'music')
+  const flags = viewModeToDisplayFlags(viewMode)
   const isMusicView = viewMode === 'music'
-  const isMusicAndLyricsView = viewMode === 'musicAndLyrics'
-  const isChordBlockView = viewMode === 'chordsBlock'
+  const isMusicAndLyricsView = !!flags.lyrics && flags.notation !== 'off'
+  const isChordBlockView = !!flags.structure || viewMode === 'chordsBlock'
   const showNotation = showsMusicNotation(viewMode)
 
   useEffect(function() {

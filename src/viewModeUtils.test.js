@@ -4,11 +4,14 @@ import {
   viewModeToDisplayFlags,
   displayFlagsToViewMode,
   applyDisplayFlagToggle,
+  applyDisplayGroupAction,
   getDisplayFlagsLabel,
-  cycleChordsMode,
   cycleNotationMode,
   normalizeViewMode,
+  defaultViewModeForTune,
+  hasAnyViewModeEnabled,
 } from './viewModeUtils';
+import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
 
 describe('viewModeUtils availability', function() {
   const tunebook = {
@@ -50,7 +53,7 @@ describe('viewModeUtils availability', function() {
       voices: { '1': { notes: ['CDEF|'] } },
       wLines: [],
     };
-    expect(resolveViewModeForTune('lyricsOnly', tune, tunebook)).toBe('music');
+    expect(resolveViewModeForTune('lyricsOnly', tune, tunebook)).toBe('off');
   });
 });
 
@@ -61,103 +64,101 @@ describe('viewModeUtils display flags', function() {
     });
   });
 
-  it('encodes and normalizes composite display flags with info after other panels', function() {
+  it('encodes structure + chords as separate tokens', function() {
     const mode = displayFlagsToViewMode({
       notation: 'lines',
       lyrics: true,
-      chords: 'inline',
+      structure: true,
+      chords: true,
       info: true,
     });
-    expect(mode).toBe('notation,lyrics,chordsInline,info');
+    expect(mode).toBe('notation,lyrics,structure,chords,info');
     expect(normalizeViewMode(mode)).toBe(mode);
     expect(viewModeToDisplayFlags(mode)).toEqual({
       notation: 'lines',
       lyrics: true,
-      chords: 'inline',
+      structure: true,
+      chords: true,
       info: true,
     });
+  });
+
+  it('maps legacy chordsInline to chords on, structure off', function() {
+    expect(viewModeToDisplayFlags('chordsInline')).toEqual({
+      notation: 'off',
+      lyrics: true,
+      structure: false,
+      chords: true,
+      info: false,
+    });
+  });
+
+  it('maps legacy chordsBlock to structure on, chords off', function() {
+    expect(viewModeToDisplayFlags('chordsBlock')).toEqual({
+      notation: 'off',
+      lyrics: true,
+      structure: true,
+      chords: false,
+      info: false,
+    });
+  });
+
+  it('maps legacy composite chordsBlock token to structure', function() {
+    expect(viewModeToDisplayFlags('notation,lyrics,chordsBlock')).toEqual({
+      notation: 'lines',
+      lyrics: true,
+      structure: true,
+      chords: false,
+      info: false,
+    });
+  });
+
+  it('allows all toggles off', function() {
+    expect(viewModeToDisplayFlags('off')).toEqual({
+      notation: 'off',
+      lyrics: false,
+      structure: false,
+      chords: false,
+      info: false,
+    });
+    expect(displayFlagsToViewMode({
+      notation: 'off',
+      lyrics: false,
+      structure: false,
+      chords: false,
+      info: false,
+    })).toBe('off');
+    expect(hasAnyViewModeEnabled(viewModeToDisplayFlags('off'))).toBe(false);
   });
 
   it('parses plus-separated and space-separated composites from older urls', function() {
     expect(viewModeToDisplayFlags('notation+info')).toEqual({
       notation: 'lines',
       lyrics: false,
-      chords: 'off',
+      structure: false,
+      chords: false,
       info: true,
     });
-    expect(viewModeToDisplayFlags('notation info')).toEqual({
-      notation: 'lines',
-      lyrics: false,
-      chords: 'off',
-      info: true,
-    });
-    // Notation + info is the default music view (info on by default).
-    expect(normalizeViewMode('notation+info')).toBe('music');
-    expect(normalizeViewMode('notation info')).toBe('music');
   });
 
-  it('applies group visibility and layout buttons', function() {
-    const { applyDisplayGroupAction } = require('./viewModeUtils');
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: true, chords: 'block', info: true };
-    expect(applyDisplayGroupAction(start, 'chords', 'layout', available).chords).toBe('inline');
-    expect(applyDisplayGroupAction(start, 'chords', 'visibility', available).chords).toBe('off');
+  it('applies group visibility for structure and chords independently', function() {
+    const available = {
+      notation: true, lyrics: true, structure: true, chords: true, info: true,
+    };
+    const start = {
+      notation: 'lines', lyrics: true, structure: true, chords: false, info: true,
+    };
+    expect(applyDisplayGroupAction(start, 'structure', 'toggle', available).structure).toBe(false);
+    expect(applyDisplayGroupAction(start, 'chords', 'visibility', available).chords).toBe(true);
     expect(applyDisplayGroupAction(start, 'notation', 'visibility', available).notation).toBe('off');
-    expect(applyDisplayGroupAction(
-      { notation: 'off', lyrics: true, chords: 'off', info: true },
-      'notation',
-      'visibility',
+    const allOff = applyDisplayGroupAction(
+      { notation: 'off', lyrics: false, structure: false, chords: false, info: true },
+      'info',
+      'toggle',
       available
-    ).notation).toBe('lines');
-    const infoOff = applyDisplayGroupAction(start, 'info', 'toggle', available);
-    expect(infoOff.info).toBe(false);
-    expect(displayFlagsToViewMode(infoOff)).toContain('noinfo');
-    expect(viewModeToDisplayFlags(displayFlagsToViewMode(infoOff)).info).toBe(false);
-  });
-
-  it('maps legacy notation flow tokens to lines', function() {
-    expect(viewModeToDisplayFlags('notationFlow')).toEqual({
-      notation: 'lines',
-      lyrics: false,
-      chords: 'off',
-      info: true,
-    });
-    expect(normalizeViewMode('notationFlow')).toBe('music');
-    expect(displayFlagsToViewMode({
-      notation: 'flow',
-      lyrics: false,
-      chords: 'off',
-      info: true,
-    })).toBe('music');
-  });
-
-  it('enables chords as block by default, or inline when preferred', function() {
-    const { applyDisplayGroupAction } = require('./viewModeUtils');
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: true, chords: 'off', info: true };
-    expect(applyDisplayGroupAction(start, 'chords', 'visibility', available).chords).toBe('block');
-    expect(applyDisplayGroupAction(start, 'chords', 'visibility', available, {
-      preferInlineChords: true,
-    }).chords).toBe('inline');
-  });
-
-  it('keeps other panels when info is enabled', function() {
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: true, chords: 'off', info: false };
-    const withInfo = applyDisplayFlagToggle(start, 'info', available);
-    expect(withInfo).toEqual({
-      notation: 'lines',
-      lyrics: true,
-      chords: 'off',
-      info: true,
-    });
-    expect(displayFlagsToViewMode(withInfo)).toBe('musicAndLyrics');
-  });
-
-  it('cycles chords off → inline → block → off', function() {
-    expect(cycleChordsMode('off')).toBe('inline');
-    expect(cycleChordsMode('inline')).toBe('block');
-    expect(cycleChordsMode('block')).toBe('off');
+    );
+    expect(allOff.info).toBe(false);
+    expect(displayFlagsToViewMode(allOff)).toBe('off');
   });
 
   it('cycles notation off → lines → off', function() {
@@ -166,98 +167,105 @@ describe('viewModeUtils display flags', function() {
     expect(cycleNotationMode('flow')).toBe('off');
   });
 
-  it('keeps at least one of chords, lyrics, or notation visible', function() {
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    // Sole active notation cannot turn fully off; content panel is restored.
-    const onlyNotation = { notation: 'lines', lyrics: false, chords: 'off', info: false };
+  it('allows turning off the last content panel', function() {
+    const available = {
+      notation: true, lyrics: true, structure: true, chords: true, info: true,
+    };
+    const onlyNotation = {
+      notation: 'lines', lyrics: false, structure: false, chords: false, info: false,
+    };
     expect(applyDisplayFlagToggle(onlyNotation, 'notation', available)).toEqual({
-      notation: 'lines',
-      lyrics: false,
-      chords: 'off',
-      info: false,
-    });
-    // Info alone is not enough when content panels are available.
-    const onlyInfo = { notation: 'off', lyrics: false, chords: 'off', info: true };
-    expect(applyDisplayFlagToggle(onlyInfo, 'info', available)).toEqual({
-      notation: 'lines',
-      lyrics: false,
-      chords: 'off',
-      info: false,
-    });
-    expect(displayFlagsToViewMode({
-      notation: 'lines',
-      lyrics: false,
-      chords: 'off',
-      info: false,
-    })).toBe('notation,noinfo');
-  });
-
-  it('disabling lyrics with no notation forces chords to block', function() {
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'off', lyrics: true, chords: 'inline', info: false };
-    const withoutLyrics = applyDisplayFlagToggle(start, 'lyrics', available);
-    expect(withoutLyrics.lyrics).toBe(false);
-    expect(withoutLyrics.chords).toBe('block');
-    expect(displayFlagsToViewMode(withoutLyrics)).toBe('chordsBlock,noinfo');
-  });
-
-  it('disabling lyrics via group action keeps inline chords when notation is on', function() {
-    const { applyDisplayGroupAction } = require('./viewModeUtils');
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: true, chords: 'inline', info: true };
-    const withoutLyrics = applyDisplayGroupAction(start, 'lyrics', 'toggle', available);
-    expect(withoutLyrics.lyrics).toBe(false);
-    expect(withoutLyrics.chords).toBe('inline');
-  });
-
-  it('allows chords inline without a lyrics panel when notation is on', function() {
-    const { applyDisplayGroupAction } = require('./viewModeUtils');
-    const available = { notation: true, lyrics: false, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: false, chords: 'block', info: true };
-    const inline = applyDisplayGroupAction(start, 'chords', 'layout', available);
-    expect(inline.chords).toBe('inline');
-    const backToBlock = applyDisplayGroupAction(inline, 'chords', 'layout', available);
-    expect(backToBlock.chords).toBe('block');
-  });
-
-  it('forces block when chords are enabled without notation or lyrics', function() {
-    const { applyDisplayGroupAction, ensureContentDisplayFlags } = require('./viewModeUtils');
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const onlyChords = ensureContentDisplayFlags({
       notation: 'off',
       lyrics: false,
-      chords: 'inline',
-      info: true,
-    }, available);
-    expect(onlyChords.chords).toBe('block');
-    const start = { notation: 'off', lyrics: false, chords: 'off', info: true };
-    const enabled = applyDisplayGroupAction(start, 'chords', 'visibility', available, {
-      preferInlineChords: true,
+      structure: false,
+      chords: false,
+      info: false,
     });
-    expect(enabled.chords).toBe('block');
-    const tryInline = applyDisplayGroupAction(enabled, 'chords', 'layout', available);
-    expect(tryInline.chords).toBe('block');
-  });
-
-  it('toggles lyrics and cycles chords and notation independently', function() {
-    const available = { notation: true, lyrics: true, chords: true, info: true };
-    const start = { notation: 'lines', lyrics: false, chords: 'off', info: false };
-    const withLyrics = applyDisplayFlagToggle(start, 'lyrics', available);
-    expect(withLyrics.lyrics).toBe(true);
-    expect(withLyrics.notation).toBe('lines');
-    const withChords = applyDisplayFlagToggle(withLyrics, 'chords', available);
-    expect(withChords.chords).toBe('inline');
-    const withoutNotation = applyDisplayFlagToggle(withChords, 'notation', available);
-    expect(withoutNotation.notation).toBe('off');
-    expect(displayFlagsToViewMode(withoutNotation)).toBe('lyrics,chordsInline,noinfo');
   });
 
   it('builds a readable label for active panels', function() {
     expect(getDisplayFlagsLabel({
       notation: 'lines',
       lyrics: true,
-      chords: 'block',
+      structure: true,
+      chords: false,
       info: true,
-    })).toBe('Notation + Lyrics + Chords block + Info');
+    })).toBe('Structure + Notation + Lyrics + Info');
+    expect(getDisplayFlagsLabel({
+      notation: 'off',
+      lyrics: false,
+      structure: false,
+      chords: false,
+      info: false,
+    })).toBe('No view modes enabled');
+  });
+
+  it('defaults view mode from tune content', function() {
+    const tunebook = {
+      hasLyrics: function(t) { return !!(t.wLines && t.wLines.length); },
+      hasNotes: function(t) {
+        return !!(t.voices && Object.values(t.voices).some(function(v) {
+          return v.notes && v.notes.some(function(n) { return /[A-Ga-g]/.test(n); });
+        }));
+      },
+    };
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['CDEF|'] } }, wLines: [] },
+      tunebook,
+      { hasChords: false }
+    )).toBe('music');
+    expect(defaultViewModeForTune(
+      { voices: {}, wLines: ['Hello'] },
+      tunebook,
+      { hasChords: true }
+    )).toBe('chordsBlock');
+  });
+});
+
+describe('tuneDisplayLayout', function() {
+  it('places a single block full width', function() {
+    expect(resolveTuneDisplayLayout({
+      notation: 'lines', lyrics: false, structure: false,
+    })).toMatchObject({
+      layoutClass: 'tune-layout-notation-only',
+      main: 'notation',
+      side: null,
+      below: null,
+    });
+  });
+
+  it('places two blocks as primary left and secondary right', function() {
+    expect(resolveTuneDisplayLayout({
+      notation: 'lines', lyrics: true, structure: false,
+    })).toMatchObject({
+      layoutClass: 'tune-layout-notation-lyrics',
+      main: 'notation',
+      side: 'lyrics',
+    });
+    expect(resolveTuneDisplayLayout({
+      notation: 'off', lyrics: true, structure: true,
+    })).toMatchObject({
+      layoutClass: 'tune-layout-lyrics-structure',
+      main: 'lyrics',
+      side: 'structure',
+    });
+  });
+
+  it('places three blocks with lyrics below and structure top-right', function() {
+    expect(resolveTuneDisplayLayout({
+      notation: 'lines', lyrics: true, structure: true,
+    })).toMatchObject({
+      layoutClass: 'tune-layout-notation-lyrics-structure',
+      main: 'notation',
+      side: 'structure',
+      below: 'lyrics',
+      wrapLyricsAroundStructure: true,
+    });
+  });
+
+  it('marks empty layout when no blocks are on', function() {
+    expect(resolveTuneDisplayLayout({
+      notation: 'off', lyrics: false, structure: false, chords: true, info: true,
+    }).empty).toBe(true);
   });
 });

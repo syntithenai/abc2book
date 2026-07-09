@@ -305,6 +305,9 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-view-mode')) {
                     var viewModeVal = abcbookFieldValue(line, '% abcbook-view-mode')
                     if (viewModeVal) tune.viewMode = viewModeVal
+                } else  if (line.startsWith('% abcbook-notation-fit')) {
+                    var fitVal = abcbookFieldValue(line, '% abcbook-notation-fit')
+                    if (fitVal === 'vertical' || fitVal === 'horizontal') tune.notationFit = fitVal
                 } else  if (line.startsWith('% abcbook-active-voices')) {
                     var activeVoicesVal = abcbookFieldValue(line, '% abcbook-active-voices')
                     tune.activeVoices = activeVoicesVal
@@ -696,6 +699,9 @@ var useAbcTools = () => {
                     + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
                     + (tune.zoom > 0 ? "% abcbook-zoom " + ensureNumber(tune.zoom, 1) + "\n" : '')
                     + (tune.viewMode ? "% abcbook-view-mode " + ensureText(tune.viewMode) + "\n" : '')
+                    + (tune.notationFit === 'vertical' || tune.notationFit === 'horizontal'
+                      ? "% abcbook-notation-fit " + ensureText(tune.notationFit) + "\n"
+                      : '')
                     + (Array.isArray(tune.activeVoices)
                       ? "% abcbook-active-voices " + tune.activeVoices.map(function(v) { return ensureText(v) }).filter(Boolean).join(",") + "\n"
                       : '')

@@ -21,9 +21,8 @@ function GroupButton(props) {
 
 /**
  * View-mode controls:
- * - Chords: [icon Chords] visibility, [Inline] layout (inline lyrics vs block column)
- * - Notation: [icon Notation] visibility
- * - Lyrics / Info: single labeled toggles
+ * Structure, Chords, Notation, Lyrics, Info — independent toggles.
+ * Empty (all off) is allowed.
  */
 export default function DisplayModeControls(props) {
   const {
@@ -34,9 +33,6 @@ export default function DisplayModeControls(props) {
     size,
     className,
     stopMenuClose,
-    preferInlineChords,
-    showStructure,
-    onToggleStructure,
   } = props;
 
   function stop(e) {
@@ -46,13 +42,12 @@ export default function DisplayModeControls(props) {
   }
 
   function apply(group, action) {
-    const next = applyDisplayGroupAction(flags, group, action, available, {
-      preferInlineChords: !!preferInlineChords,
-    });
+    const next = applyDisplayGroupAction(flags, group, action, available);
     if (onChange) onChange(next);
   }
 
-  const chordsOn = flags.chords !== 'off';
+  const structureOn = !!flags.structure;
+  const chordsOn = !!flags.chords;
   const notationOn = flags.notation !== 'off';
 
   return (
@@ -61,16 +56,16 @@ export default function DisplayModeControls(props) {
       onClick={stopMenuClose ? function(e) { e.stopPropagation(); } : undefined}
     >
       <ButtonGroup size={size || 'sm'} className="display-mode-group">
-        {available.chords && onToggleStructure !== undefined && (
+        {available.structure && (
           <GroupButton
             size={size}
             icon={tunebook.icons.menu}
             label="Structure"
-            active={!!showStructure}
-            aria-label={showStructure ? 'Hide chord structure' : 'Show chord structure'}
-            title={showStructure ? 'Hide chord structure' : 'Show chord structure'}
+            active={structureOn}
+            aria-label={structureOn ? 'Hide structure' : 'Show structure'}
+            title={structureOn ? 'Hide structure' : 'Show structure'}
             onMouseDown={stop}
-            onClick={onToggleStructure}
+            onClick={function() { apply('structure', 'toggle'); }}
           />
         )}
         {available.chords && (

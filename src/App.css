@@ -2869,7 +2869,146 @@ button img:after {
   justify-content: space-between;
 }
 
-/* ── Single-view flex layout panels ─────────────────────────────────────── */
+/* ── Unified tune display layout (single / gig / print) ─────────────────── */
+
+.tune-display-panels {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: start;
+}
+
+.tune-view-modes-empty {
+  width: 100%;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #6c757d;
+  border: 1px dashed #ced4da;
+  border-radius: 0.5rem;
+  background: #f8f9fa;
+}
+
+.tune-layout-empty {
+  min-height: 4rem;
+}
+
+.tune-layout-notation-only,
+.tune-layout-lyrics-only,
+.tune-layout-structure-only {
+  grid-template-columns: 1fr;
+}
+
+.tune-layout-notation-only .tune-panel-notation,
+.tune-layout-lyrics-only .tune-panel-lyrics,
+.tune-layout-structure-only .tune-panel-structure {
+  grid-column: 1;
+  min-width: 0;
+}
+
+/* Two blocks: primary 2/3 left, secondary 1/3 right */
+.tune-layout-notation-lyrics,
+.tune-layout-notation-structure,
+.tune-layout-lyrics-structure {
+  grid-template-columns: 2fr 1fr;
+}
+
+.tune-layout-notation-lyrics .tune-panel-notation,
+.tune-layout-notation-structure .tune-panel-notation,
+.tune-layout-lyrics-structure .tune-panel-lyrics {
+  grid-column: 1;
+  min-width: 0;
+}
+
+.tune-layout-notation-lyrics .tune-panel-lyrics,
+.tune-layout-notation-structure .tune-panel-structure,
+.tune-layout-lyrics-structure .tune-panel-structure {
+  grid-column: 2;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+/* Three blocks: notation top-left, structure top-right, lyrics below */
+.tune-layout-notation-lyrics-structure {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.tune-layout-notation-lyrics-structure .tune-panel-notation {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.tune-layout-notation-lyrics-structure .tune-panel-structure {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  overflow-y: auto;
+  max-height: calc(100vh - 8rem);
+}
+
+.tune-layout-notation-lyrics-structure .tune-panel-lyrics {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+
+/* Small screens: structure stays top-right; lyrics fold under and around */
+@media (max-width: 1023px) {
+  .tune-layout-notation-lyrics {
+    grid-template-columns: 1fr;
+  }
+  .tune-layout-notation-lyrics .tune-panel-notation,
+  .tune-layout-notation-lyrics .tune-panel-lyrics {
+    grid-column: 1;
+    max-height: none;
+  }
+
+  .tune-layout-notation-structure {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .tune-layout-notation-lyrics-structure {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .tune-layout-notation-lyrics-structure .tune-panel-notation {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .tune-layout-notation-lyrics-structure .tune-panel-structure {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    max-height: none;
+    position: sticky;
+    top: 0;
+  }
+  .tune-layout-notation-lyrics-structure .tune-panel-lyrics.tune-lyrics-wrap {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.music-panels-fit-height.tune-layout-notation-only .tune-panel-notation,
+.music-panels-fit-height.tune-layout-notation-lyrics .tune-panel-notation,
+.music-panels-fit-height.tune-layout-notation-structure .tune-panel-notation,
+.music-panels-fit-height.tune-layout-notation-lyrics-structure .tune-panel-notation {
+  height: calc(100vh - 8rem);
+  overflow: hidden;
+}
+
+.chord-block-line {
+  padding: 0.1em 0.4em;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ── Single-view flex layout panels (legacy classes kept for compatibility) ─ */
 
 .music-single-panels {
   display: flex;
@@ -2877,6 +3016,10 @@ button img:after {
   align-items: flex-start;
   gap: 0.5rem;
   width: 100%;
+}
+
+.music-single-panels.tune-display-panels {
+  display: grid;
 }
 
 /* Notation only — takes full width */
@@ -3029,7 +3172,7 @@ button img:after {
   padding: 0.1em 0.4em;
   border-bottom: 1px solid #e0e0e0;
   background-color: #f8f9fa;
-  white-space: pre;
+  white-space: nowrap;
   overflow: hidden;
 }
 

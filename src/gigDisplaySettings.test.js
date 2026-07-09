@@ -54,19 +54,22 @@ describe('gig tune settings abc persistence', function() {
     expect(parsed.lyricsScrollSpeed).toBeCloseTo(1.44);
   });
 
-  test('round-trips view mode for cloud sync', function() {
+  test('round-trips view mode and notation fit for cloud sync', function() {
     const useAbcTools = require('./useAbcTools').default;
     const abcTools = useAbcTools();
     const tune = {
       id: 'view-mode-tune',
       name: 'View Mode Tune',
       key: 'C',
-      viewMode: 'notation,lyrics,chordsBlock',
+      viewMode: 'notation,lyrics,structure',
+      notationFit: 'vertical',
       voices: { V: { notes: ['C2'] } },
     };
     const abc = abcTools.json2abc(tune);
-    expect(abc).toContain('% abcbook-view-mode notation,lyrics,chordsBlock');
+    expect(abc).toContain('% abcbook-view-mode notation,lyrics,structure');
+    expect(abc).toContain('% abcbook-notation-fit vertical');
     const parsed = abcTools.abc2json(abc);
-    expect(parsed.viewMode).toBe('notation,lyrics,chordsBlock');
+    expect(parsed.viewMode).toBe('notation,lyrics,structure');
+    expect(parsed.notationFit).toBe('vertical');
   });
 });

@@ -273,8 +273,12 @@ export default function TimedLyricsChordsView(props) {
     return (
       <div className="timed-lyrics-chords-view chord-blocks" style={contentFontStyle()}>
         {alignedBlocks.map(function(block, bi) {
-          const showChords = !block.chartRevisit;
-          const inlineTokens = !forceBlockLayout && showChords && block.inlineChords && block.chart
+          // Structure: suppress repeating the block chart on revisit.
+          // Lyrics: still merge chords above each line when the block has words.
+          const hasWords = block.lyricLines.some(function(line) {
+            return String(line).trim().length > 0;
+          });
+          const inlineTokens = !forceBlockLayout && !hideChords && block.inlineChords && block.chart && hasWords
             ? mergeChordsIntoLyricLines(block.lyricLines, block.chart, sheetAlignment && sheetAlignment[bi]
               ? {
                 anchorWordIndexForBar: function(info) {
@@ -299,20 +303,18 @@ export default function TimedLyricsChordsView(props) {
             && inlineTokens
             && inlineTokens.length > 0
             && inlineTokens.some(function(row) { return row.length > 0; });
-          const showChartAbove = showChords && !useInline && chartBlockHasChords(block.chart);
+          // Block chart above lyrics only on first occurrence when not using inline merge.
+          const showChartAbove = !block.chartRevisit && !useInline && chartBlockHasChords(block.chart);
+          const showExtraBefore = chartBlockHasChords(block.extraChart);
           return (
             <div key={bi} className="chord-lyric-block" style={{ marginBottom: '1.3em', pageBreakInside: 'avoid' }}>
               {Array.isArray(block.prefaceLines) && block.prefaceLines.map(function(line, pi) {
                 return <div key={'preface-' + pi} className="lyrics-preface music-tune-heading">{line}</div>;
               })}
               <SectionHeader label={displaySectionHeader(block.header)} />
+              {showExtraBefore && !hideChords ? <ChordChartBlock chart={block.extraChart} /> : null}
               {useInline && !hideChords ? (
-                <>
-                  <ChordProLines tokenLines={inlineTokens} />
-                  {showChords && block.extraChart && chartBlockHasChords(block.extraChart) && (
-                    <ChordChartBlock chart={block.extraChart} />
-                  )}
-                </>
+                <ChordProLines tokenLines={inlineTokens} />
               ) : (
                 <>
                   {showChartAbove && !hideChords && <ChordChartBlock chart={block.chart} />}

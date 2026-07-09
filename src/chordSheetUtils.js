@@ -536,17 +536,22 @@ export function mergeChordsIntoLyricLines(lyricLines, chordChart, options) {
  * one chord block is applied to every verse. Every lyric line is always emitted
  * so no words are dropped.
  *
- * inlineChords is true whenever a block has its own lyric words to merge into
- * (including a second verse with distinct lyrics). A repeated section that
- * carries no words of its own (eg. a chorus reference that is just a header)
- * falls back to showing the chord chart above the block.
+ * inlineChords is true whenever a block has its own lyric words and a chart
+ * to merge (including repeated verses/choruses with distinct lyrics). A
+ * repeated section that carries no words of its own (eg. a chorus reference
+ * that is just a header) keeps inlineChords false.
  *
  * chartRevisit is true when this lyric block reuses a chord stanza that was
  * already shown (eg. a second verse or chorus, or another hymn verse under
- * one melody chart). Display should show only the section title, not the
- * chord chart again.
+ * one melody chart). Structure display should show only the section title,
+ * not the chord chart again — but lyrics still merge chords above each line
+ * when the block has words.
  *
- * @returns array of { header, type, chart, lyricLines, inlineChords, chartRevisit }
+ * Orphan (unmapped) melody chord blocks are attached as extraChart on the
+ * last lyric block that has no mapped chart (unidentified lyrics), so they
+ * appear before that block's words.
+ *
+ * @returns array of { header, type, chart, lyricLines, inlineChords, chartRevisit, extraChart }
  */
 export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   const charts = Array.isArray(chordBlocks) ? chordBlocks : splitChordChartIntoBlocks(chordBlocks);
@@ -642,7 +647,10 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
     }
 
     const hasWords = b.lyricLines.some(function(line) { return String(line).trim().length > 0; });
-    const inlineChords = !!(chart && hasWords && !chartRevisit);
+    // Merge chords above lyric lines whenever this block has words — including
+    // repeated stanzas that reuse a chart (chartRevisit). Structure still uses
+    // chartRevisit to suppress repeating the block chart.
+    const inlineChords = !!(chart && hasWords);
 
     return {
       prefaceLines: index === 0 ? prefaceLines : [],
@@ -657,8 +665,8 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   });
 
   // Chord blocks from the melody that did not map to any lyric section are
-  // shown above the last lyric block that cannot use inline integration (or
-  // after that block's inline lyrics when every block is inline).
+  // shown as extraChart before the last unidentified lyric block (words with
+  // no mapped chart). Fall back to the last lyric block when every block mapped.
   const mappedChartCount = hasTypes
     ? Object.keys(chartForType).length
     : (combinedChartForSingleBlock !== null
@@ -670,28 +678,27 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   if (orphanCharts.length > 0 && aligned.length > 0) {
     let target = -1;
     for (let i = aligned.length - 1; i >= 0; i--) {
-      if (!aligned[i].inlineChords && aligned[i].lyricLines.length > 0) {
+      const hasWords = aligned[i].lyricLines.some(function(line) {
+        return String(line).trim().length > 0;
+      });
+      if (hasWords && !chartBlockHasChords(aligned[i].chart)) {
         target = i;
         break;
       }
     }
     if (target < 0) {
       for (let j = aligned.length - 1; j >= 0; j--) {
-        if (aligned[j].lyricLines.length > 0) {
+        if (aligned[j].lyricLines.some(function(line) {
+          return String(line).trim().length > 0;
+        })) {
           target = j;
           break;
         }
       }
     }
+    if (target < 0) target = aligned.length - 1;
     if (target >= 0) {
-      const extra = orphanCharts.join('\n\n');
-      if (aligned[target].inlineChords) {
-        aligned[target].extraChart = extra;
-      } else {
-        aligned[target].chart = aligned[target].chart
-          ? aligned[target].chart + '\n\n' + extra
-          : extra;
-      }
+      aligned[target].extraChart = orphanCharts.join('\n\n');
     }
   }
 

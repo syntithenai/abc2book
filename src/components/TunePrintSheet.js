@@ -195,12 +195,11 @@ export default function TunePrintSheet(props) {
 
   const notationMode = displayFlags.notation;
   const showNotation = notationMode !== 'off';
-  const showLyrics = displayFlags.lyrics;
-  const chordsMode = displayFlags.chords;
+  const showLyrics = !!displayFlags.lyrics;
+  const showStructure = !!displayFlags.structure;
+  const showChordsAnnotate = !!displayFlags.chords;
   const showInfo = displayFlags.info && !props.hideBackgroundInfo;
-  const isChordBlockView = chordsMode === 'block';
-  const isChordInlineView = chordsMode === 'inline';
-  const showChordsBlockColumn = isChordBlockView && !isChordInlineView;
+  const showChordsBlockColumn = showStructure;
   const chordsBlockFullPage = showChordsBlockColumn && !showNotation && !showLyrics;
   // Print: lyrics always sit full-width below notation when both are shown.
   const printStackedLyrics = showNotation && showLyrics;
@@ -209,7 +208,7 @@ export default function TunePrintSheet(props) {
   const needsLyricsLayoutMeasure = printStackedLyrics || printLyricsOnlyLayout || printLyricsBesideChords;
   const lyricsProbeWidthPx = PRINT_INNER_WIDTH_PX;
   const showSideColumn = showChordsBlockColumn;
-  const hideChordsInText = chordsMode !== 'inline';
+  const hideChordsInText = !showChordsAnnotate;
   const plainLyricLines = tune ? getLyricLinesForDisplay(tune) : [];
   const isLyricChordSheet = hasChordLines(plainLyricLines);
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showChordsBlockColumn;
@@ -281,7 +280,7 @@ export default function TunePrintSheet(props) {
       const displayAbc = buildAbcWithNoteSpacing(displayTune, tunebook.abcTools, { includeLyrics: false });
       let staffAbc = stripPrintNotationHeaders(displayAbc);
       staffAbc = stripLyricLinesFromAbc(staffAbc);
-      if (chordsMode !== 'inline') {
+      if (!showChordsAnnotate) {
         staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools);
       }
       const renderOptions = buildGigNotationRenderOptions(printDisplayTranspose);
@@ -331,7 +330,7 @@ export default function TunePrintSheet(props) {
     }
 
     return undefined;
-  }, [showNotation, showChordsBlockColumn, notationColumnWidth, tune, tunebook, viewMode, chordsMode, printDisplayTranspose]);
+  }, [showNotation, showChordsBlockColumn, notationColumnWidth, tune, tunebook, viewMode, showChordsAnnotate, printDisplayTranspose]);
 
   useEffect(function() {
     if (!needsLyricsLayoutMeasure || !tune) {
@@ -499,7 +498,7 @@ export default function TunePrintSheet(props) {
     viewMode,
     showNotation,
     showChordsBlockColumn,
-    chordsMode,
+    showChordsAnnotate,
     printDisplayTranspose,
     plainLyricLines.length,
     isLyricChordSheet,
@@ -935,7 +934,7 @@ export default function TunePrintSheet(props) {
     )
   ) : null;
 
-  const lyricsBody = (isLyricChordSheet || isChordInlineView) ? (
+  const lyricsBody = (isLyricChordSheet || showChordsAnnotate) ? (
     <TimedLyricsChordsView
       tune={tune}
       tunebook={tunebook}

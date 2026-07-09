@@ -54,18 +54,21 @@ export function defaultNotationFitModeForTune(tune, activeVoiceKeys) {
     : NOTATION_FIT_HORIZONTAL;
 }
 
+export function normalizeNotationFitMode(mode) {
+  return mode === NOTATION_FIT_VERTICAL ? NOTATION_FIT_VERTICAL : NOTATION_FIT_HORIZONTAL;
+}
+
 export function getNotationFitMode() {
   try {
     const raw = localStorage.getItem(NOTATION_FIT_MODE_KEY);
-    if (raw === NOTATION_FIT_VERTICAL) return NOTATION_FIT_VERTICAL;
-    return NOTATION_FIT_HORIZONTAL;
+    return normalizeNotationFitMode(raw);
   } catch (e) {
     return NOTATION_FIT_HORIZONTAL;
   }
 }
 
 export function setNotationFitMode(mode) {
-  const next = mode === NOTATION_FIT_VERTICAL ? NOTATION_FIT_VERTICAL : NOTATION_FIT_HORIZONTAL;
+  const next = normalizeNotationFitMode(mode);
   try {
     localStorage.setItem(NOTATION_FIT_MODE_KEY, next);
   } catch (e) {
@@ -79,4 +82,15 @@ export function toggleNotationFitMode() {
   return setNotationFitMode(
     current === NOTATION_FIT_VERTICAL ? NOTATION_FIT_HORIZONTAL : NOTATION_FIT_VERTICAL
   );
+}
+
+/**
+ * Prefer tune.notationFit when set; otherwise default from line count, then global.
+ */
+export function getTuneNotationFitMode(tune, activeVoiceKeys) {
+  if (tune && (tune.notationFit === NOTATION_FIT_VERTICAL || tune.notationFit === NOTATION_FIT_HORIZONTAL)) {
+    return tune.notationFit;
+  }
+  if (tune) return defaultNotationFitModeForTune(tune, activeVoiceKeys);
+  return getNotationFitMode();
 }

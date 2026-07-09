@@ -41,7 +41,7 @@ describe('printTuneViewMode', function() {
     expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyricsOnly');
   });
 
-  it('defaults lyric-only sheets to chords block', function() {
+  it('defaults lyric-only sheets with chords to chords block', function() {
     const tune = {
       wLines: ['Am   G', 'Lyrics here'],
     };
@@ -56,13 +56,23 @@ describe('printTuneViewMode', function() {
     expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('chordsBlock');
   });
 
-  it('keeps global view mode when notation and lyrics both exist', function() {
+  it('defaults notation+lyrics without chords to notation+lyrics composite', function() {
     const tune = {
       voices: { v: { notes: ['CDEF|'] } },
       wLines: ['Plain lyrics line'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('music');
-    expect(resolvePrintViewMode(tune, 'musicAndLyrics', tunebook, abcjsParser)).toBe('musicAndLyrics');
+    // No chord content → structure stays off; not the legacy musicAndLyrics id
+    expect(resolvePrintViewMode(tune, 'music', tunebook, {
+      renderChords: function() { return ''; },
+    })).toBe('notation,lyrics,noinfo');
+  });
+
+  it('defaults notation+lyrics with chords to musicAndLyrics', function() {
+    const tune = {
+      voices: { v: { notes: ['CDEF|'] } },
+      wLines: ['Plain lyrics line'],
+    };
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('musicAndLyrics');
   });
 
   it('defaults notation-only tunes to music', function() {

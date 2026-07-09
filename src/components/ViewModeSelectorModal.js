@@ -15,7 +15,7 @@ import {
   getVoiceViewSettings,
   setVoiceViewSettings,
 } from '../abcVoiceViewSettings';
-import { preferInlineChords, tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
+import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
 import useAbcjsParser from '../useAbcjsParser';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import DisplayModeControls from './DisplayModeControls';
@@ -80,7 +80,6 @@ function ViewModeVoiceControls(props) {
     const anyOn = voiceKeys.some(function(key) { return nextVisible[key] !== false; });
     if (!anyOn) return;
     const nextPlayable = Object.assign({}, settings.playable);
-    // Keep playback in sync with what is shown.
     voiceKeys.forEach(function(key) {
       nextPlayable[key] = nextVisible[key] !== false;
     });
@@ -148,11 +147,8 @@ function DisplayModeToolbar(props) {
     notationFitMode,
     onNotationFitModeChange,
     className,
-    preferInlineChords: preferInline,
     hideInlineVoiceControls,
     separateInlineFitButton,
-    showStructure,
-    onToggleStructure,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
@@ -166,10 +162,7 @@ function DisplayModeToolbar(props) {
         flags={displayFlags}
         available={available}
         tunebook={tunebook}
-        preferInlineChords={preferInline}
         onChange={onFlagsChange}
-        showStructure={showStructure}
-        onToggleStructure={onToggleStructure}
       />
       {notationOn && !hideInlineVoiceControls ? (
         <ViewModeVoiceControls
@@ -228,8 +221,6 @@ export default function ViewModeSelectorModal(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
   const hasChords = !isEditor && !!props.tune
     && tuneHasExplicitChords(props.tune, props.tunebook, abcjsParser);
-  const preferInline = !isEditor && !!props.tune
-    && preferInlineChords(props.tune, props.tunebook, abcjsParser);
   const hasInfo = !isEditor && !!props.tune
     && typeof props.tune.backgroundInfo === 'string'
     && !!props.tune.backgroundInfo.trim();
@@ -292,15 +283,12 @@ export default function ViewModeSelectorModal(props) {
           available={available}
           tune={props.tune}
           tunebook={props.tunebook}
-          preferInlineChords={preferInline}
           onFlagsChange={handleFlagsChange}
           onVoiceSettingsChange={props.onVoiceSettingsChange}
           notationFitMode={props.notationFitMode}
           onNotationFitModeChange={props.onNotationFitModeChange}
           hideInlineVoiceControls={props.hideInlineVoiceControls}
           separateInlineFitButton={separateInlineFitButton}
-          showStructure={props.showStructure}
-          onToggleStructure={props.onToggleStructure}
         />
         {showSeparateInlineFitButton ? (
           <NotationFitButton
@@ -368,11 +356,8 @@ export default function ViewModeSelectorModal(props) {
               flags={displayFlags}
               available={available}
               tunebook={props.tunebook}
-              preferInlineChords={preferInline}
               onChange={handleFlagsChange}
               stopMenuClose={true}
-              showStructure={props.showStructure}
-              onToggleStructure={props.onToggleStructure}
             />
             {displayFlags.notation !== 'off' && getTuneVoiceKeys(props.tune).length > 1 ? (
               <>
