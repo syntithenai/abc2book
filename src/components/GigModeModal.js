@@ -21,8 +21,6 @@ import {
   fitNotationToWidth,
   getRenderDimensions,
   measureNotationPaper,
-  refitNotationSvg,
-  refitNotationToWidth,
   NOTATION_FIT_VERTICAL,
 } from '../gigNotationFit';
 import {
@@ -73,7 +71,6 @@ export default function GigModeModal(props) {
   const notationColRef = useRef(null);
   const notationRef = useRef(null);
   const notationFitSizeRef = useRef({ width: 0, height: 0 });
-  const notationResizeRafRef = useRef(null);
   const [showSetList, setShowSetList] = useState(false);
   const [fontScale, setFontScale] = useState(1.2);
   const [edgeMessage, setEdgeMessage] = useState('');
@@ -228,23 +225,6 @@ export default function GigModeModal(props) {
     }
   }
 
-  const refitNotationLayout = useCallback(function() {
-    const colEl = notationColRef.current;
-    const renderEl = notationRef.current;
-    if (!colEl || !renderEl || !renderEl.querySelector('svg')) return;
-    const paperEl = colEl.querySelector('.gig-mode-notation-paper') || colEl;
-    const paper = measureNotationPaper(paperEl, renderEl);
-    const last = notationFitSizeRef.current;
-    if (last.width === paper.availW && last.height === paper.availH) return;
-    notationFitSizeRef.current = { width: paper.availW, height: paper.availH };
-    const svg = renderEl.querySelector('svg');
-    if (notationFitMode === NOTATION_FIT_VERTICAL) {
-      refitNotationSvg(svg, renderEl, paperEl, notationFitMode);
-    } else {
-      refitNotationToWidth(svg, renderEl, paper.availW);
-    }
-  }, [notationFitMode]);
-
   const renderNotation = useCallback(function() {
     if (!props.show || !showNotation || !notationRef.current || !currentTune || !tunebook) return;
     const colEl = notationColRef.current;
@@ -332,24 +312,26 @@ export default function GigModeModal(props) {
   useEffect(function() {
     if (!props.show || !showNotation || !notationColRef.current) return undefined;
     const colEl = notationColRef.current;
-    const observer = new ResizeObserver(function() {
-      if (notationResizeRafRef.current) {
-        cancelAnimationFrame(notationResizeRafRef.current);
-      }
-      notationResizeRafRef.current = requestAnimationFrame(function() {
-        notationResizeRafRef.current = null;
-        refitNotationLayout();
-      });
-    });
+    let resizeTimer = null;
+
+    function scheduleRender() {
+      if (resizeTimer) clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function() {
+        notationFitSizeRef.current = { width: 0, height: 0 };
+        renderNotation();
+      }, 80);
+    }
+
+    const observer = new ResizeObserver(scheduleRender);
     observer.observe(colEl);
+    window.addEventListener('resize', scheduleRender);
+
     return function() {
+      if (resizeTimer) clearTimeout(resizeTimer);
       observer.disconnect();
-      if (notationResizeRafRef.current) {
-        cancelAnimationFrame(notationResizeRafRef.current);
-        notationResizeRafRef.current = null;
-      }
+      window.removeEventListener('resize', scheduleRender);
     };
-  }, [props.show, showNotation, refitNotationLayout, currentTune && currentTune.id, notationFitMode]);
+  }, [props.show, showNotation, renderNotation, currentTune && currentTune.id, notationFitMode]);
 
   function goToIndex(nextIndex) {
     if (!setPlaylist || !props.setSetPlaylist) return;

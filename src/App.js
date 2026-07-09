@@ -940,6 +940,12 @@ function App(props) {
   
            {tunes !== null && <div >
               <ToastContainer autoClose={2000} />
+              <TuneMediaAnalysisProvider
+                tunebook={tunebook}
+                tunes={tunes}
+                token={token}
+                forceRefresh={forceRefresh}
+              >
               <AppImportReviewBridge
                 tunebook={tunebook}
                 tunes={tunes}
@@ -951,12 +957,6 @@ function App(props) {
                 currentTuneBook={currentTuneBook}
                 login={login}
               />
-              <TuneMediaAnalysisProvider
-                tunebook={tunebook}
-                tunes={tunes}
-                token={token}
-                forceRefresh={forceRefresh}
-              >
               <PlaybackRegionScanProvider
                 tunebook={tunebook}
                 tunes={tunes}

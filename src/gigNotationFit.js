@@ -586,17 +586,19 @@ function ensureNotationViewBox(svg, dims) {
 }
 
 /**
- * Scale single-view notation into the viewport. Prefers filling the full
- * height; if the score is still too wide, falls back to contain so every
- * note stays visible with no scrolling.
+ * Scale notation into the viewport. Prefers filling the full height; if the
+ * score is still too wide, falls back to contain so every note stays visible.
+ * When paperEl is set (gig mode), measure from that container instead of the window.
  */
-export function fitSingleViewVertical(svg, renderEl) {
+export function fitSingleViewVertical(svg, renderEl, paperEl) {
   if (!svg || !renderEl) return null;
   const dims = readNotationSvgDims(svg);
   if (!dims) return null;
   ensureNotationViewBox(svg, dims);
 
-  const paper = measureSingleViewPaper(renderEl);
+  const paper = paperEl
+    ? measureNotationPaper(paperEl, renderEl)
+    : measureSingleViewPaper(renderEl);
   const targetH = verticalFitTargetHeight(paper.availH);
   const targetW = horizontalFitTargetWidth(paper.availW);
   const scaleH = targetH / dims.height;
@@ -641,7 +643,7 @@ export function fitSingleViewVertical(svg, renderEl) {
 export function refitNotationSvg(svg, renderEl, paperEl, mode) {
   if (!svg || !renderEl) return null;
   if (mode === NOTATION_FIT_VERTICAL) {
-    return fitSingleViewVertical(svg, renderEl);
+    return fitSingleViewVertical(svg, renderEl, paperEl);
   }
   const paper = measureNotationPaper(paperEl, renderEl);
   return refitNotationToWidth(svg, renderEl, paper.availW);
@@ -651,6 +653,16 @@ export function refitNotationSvg(svg, renderEl, paperEl, mode) {
  * Fit notation to column width; height follows content. Tall scores scroll with
  * the page (fit-height off), not inside a clipped viewport box.
  */
+function clearRenderElFitStyles(renderEl) {
+  if (!renderEl) return;
+  renderEl.style.display = '';
+  renderEl.style.width = '';
+  renderEl.style.maxWidth = '';
+  renderEl.style.height = '';
+  renderEl.style.maxHeight = '';
+  renderEl.style.boxSizing = '';
+}
+
 export function fitNotationToWidth(svg, renderEl, availW) {
   if (!svg || !renderEl) return null;
   const frame = measureFitFrame(svg);
@@ -659,6 +671,7 @@ export function fitNotationToWidth(svg, renderEl, availW) {
   if (!dims) return null;
   const width = horizontalFitTargetWidth(availW);
   const height = dims.height * (width / dims.width);
+  clearRenderElFitStyles(renderEl);
   applyNotationFit(svg, renderEl, {
     mode: NOTATION_FIT_HORIZONTAL,
     width: width,
@@ -679,6 +692,7 @@ export function refitNotationToWidth(svg, renderEl, availW) {
   const dims = { width: viewBox.width, height: viewBox.height };
   const width = horizontalFitTargetWidth(availW);
   const height = dims.height * (width / dims.width);
+  clearRenderElFitStyles(renderEl);
   applyNotationFit(svg, renderEl, {
     mode: NOTATION_FIT_HORIZONTAL,
     width: width,
@@ -695,7 +709,7 @@ export function refitNotationToWidth(svg, renderEl, availW) {
 export function fitNotationSvg(svg, renderEl, paperEl, mode) {
   if (!svg || !renderEl) return null;
   if (mode === NOTATION_FIT_VERTICAL) {
-    return fitSingleViewVertical(svg, renderEl);
+    return fitSingleViewVertical(svg, renderEl, paperEl);
   }
   const paper = measureNotationPaper(paperEl, renderEl);
   return fitNotationToWidth(svg, renderEl, paper.availW);
