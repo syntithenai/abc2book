@@ -130,6 +130,15 @@ describe('chordsSearchClient', function() {
     expect(result.source).toBe('azchords.com')
   })
 
+  test('handleChordsSearchStreamEvent throws on error events', function() {
+    expect(function() {
+      handleChordsSearchStreamEvent({
+        type: 'error',
+        message: 'No chords found for this song',
+      }, function() {})
+    }).toThrow('No chords found for this song')
+  })
+
   describe('searchChords facade', function() {
     beforeEach(function() {
       mediaProxyClient.fetchViaMediaProxy.mockReset()

@@ -25,8 +25,18 @@ export function normalizeOnSongText(text) {
 export function detectChordSheetFormat(text) {
   const sample = String(text || '').trim();
   if (/\{\{[^}]+\}\}/.test(sample)) return 'onsong';
-  if (/\{[a-z_]+:/i.test(sample) || /\[[A-G][#b]?[^\]]*\]/.test(sample)) return 'chordpro';
+  if (/\{[a-z_]+:/i.test(sample)) return 'chordpro';
+  if (textHasChordProInlineChords(sample)) return 'chordpro';
   return 'chords-over-words';
+}
+
+function textHasChordProInlineChords(text) {
+  return String(text || '').split(/\r?\n/).some(function(raw) {
+    const line = String(raw || '').trim();
+    if (!line) return false;
+    if (isSectionHeader(line)) return false;
+    return /\[[A-G][#b]?[^\]]*\]/.test(line);
+  });
 }
 
 function parseSongFromText(text) {
@@ -60,18 +70,11 @@ function stripMetadataLines(lines) {
   });
 }
 
-export function parseChordSheetText(text, options) {
-  const sourceText = String(text || '');
-  if (!sourceText.trim()) {
-    throw new Error('Chord sheet is empty');
-  }
-
-  const song = parseSongFromText(sourceText);
-  const sheetLines = stripMetadataLines(songToSheetLines(song));
+function buildChordSheetDraftFromLines(sheetLines, sourceText, options, metadata) {
+  const meta = metadata || {};
   const lyricLines = sheetLinesToLyricLines(sheetLines);
   const chordText = sheetLinesToWizardChords(sheetLines);
-  const chordSheetAlignment = buildChordSheetAlignmentFromLines(sheetLines);
-  const warnings = [];
+  const warnings = Array.isArray(meta.warnings) ? meta.warnings.slice() : [];
 
   if (!lyricLines.length && !chordText.trim()) {
     throw new Error('No lyrics or chords found in chord sheet');
@@ -82,20 +85,48 @@ export function parseChordSheetText(text, options) {
   }
 
   return {
-    title: song.title || (options && options.fallbackTitle) || '',
-    composer: song.artist || song.subtitle || '',
-    key: song.key || '',
-    capo: song.capo != null && song.capo !== '' ? parseInt(song.capo, 10) || 0 : 0,
-    tempo: song.tempo ? parseInt(song.tempo, 10) || 100 : 100,
-    meter: song.time || '4/4',
+    title: meta.title || (options && options.fallbackTitle) || '',
+    composer: meta.composer || '',
+    key: meta.key || '',
+    capo: meta.capo != null && meta.capo !== '' ? parseInt(meta.capo, 10) || 0 : 0,
+    tempo: meta.tempo ? parseInt(meta.tempo, 10) || 100 : 100,
+    meter: meta.time || meta.meter || '4/4',
     lyricLines: lyricLines,
     chordText: chordText,
     chordProSource: sourceText,
-    chordSheetAlignment: chordSheetAlignment,
+    chordSheetAlignment: buildChordSheetAlignmentFromLines(sheetLines),
     warnings: warnings,
     sectionCount: sheetLines.filter(function(line) { return isSectionHeader(line); }).length,
     barCount: chordText ? chordText.split('\n').filter(function(line) { return line.trim(); }).length : 0,
   };
+}
+
+function parseChordOverWordsSheetText(sourceText, options) {
+  const sheetLines = sourceText.split(/\r?\n/);
+  return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {});
+}
+
+export function parseChordSheetText(text, options) {
+  const sourceText = String(text || '');
+  if (!sourceText.trim()) {
+    throw new Error('Chord sheet is empty');
+  }
+
+  const format = detectChordSheetFormat(sourceText);
+  if (format === 'chords-over-words') {
+    return parseChordOverWordsSheetText(sourceText, options);
+  }
+
+  const song = parseSongFromText(sourceText);
+  const sheetLines = stripMetadataLines(songToSheetLines(song));
+  return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {
+    title: song.title || '',
+    composer: song.artist || song.subtitle || '',
+    key: song.key || '',
+    capo: song.capo,
+    tempo: song.tempo,
+    time: song.time || '',
+  });
 }
 
 function buildSkeletonAbc(draft) {

@@ -19,6 +19,15 @@
   font-weight: 600;
   font-size: 0.9rem;
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pitch-tempo-panel .pitch-shift-preparing-icon {
+  display: inline-flex;
+  font-size: 0.85em;
+  opacity: 0.85;
 }
 
 .pitch-tempo-panel .header-inline-actions {
@@ -59,6 +68,15 @@
   font-size: 0.7rem;
   color: #6c757d;
   margin-top: 0.25rem;
+}
+
+.pitch-tempo-panel .pitch-slider-label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.pitch-tempo-panel .pitch-slider-label:hover {
+  color: #0d6efd;
 }
 
 .pitch-tempo-panel .media-seek-slider {

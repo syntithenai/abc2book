@@ -60,6 +60,10 @@ export function combinedPitchSemitones(pitchSemitones, fineTuneCents) {
   return clamp(pitchSemitones, PITCH_MIN, PITCH_MAX) + clamp(fineTuneCents, FINE_TUNE_MIN, FINE_TUNE_MAX) / 100;
 }
 
+export function pitchShiftIsActive(pitchSemitones, fineTuneCents) {
+  return Math.abs(combinedPitchSemitones(pitchSemitones, fineTuneCents)) >= 0.0001;
+}
+
 export function formatPitchDisplay(pitch) {
   if (pitch === 0) return 'Original';
   return `${pitch > 0 ? '+' : ''}${pitch} st`;

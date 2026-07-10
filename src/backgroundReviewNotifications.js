@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { subscribeBackgroundReviewQueue } from './backgroundReviewQueue'
 import { syncBackgroundReviewToast } from './backgroundReviewToast'
 import {
+  isImportReviewUiVisible,
   showImportReviewUi,
   subscribeImportReviewSession,
 } from './importReviewSessionStore'
@@ -10,10 +11,13 @@ import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
 
 export default function BackgroundReviewNotifications() {
   const navigate = useNavigate()
+  const location = useLocation()
 
   useEffect(function() {
     function refreshToast() {
+      const onReviewRoute = location.pathname === '/review'
       syncBackgroundReviewToast({
+        suppressReadyToast: onReviewRoute || isImportReviewUiVisible(),
         onReview: function() {
           showImportReviewUi()
           navigate('/review')
@@ -30,7 +34,7 @@ export default function BackgroundReviewNotifications() {
     return function cleanup() {
       unsubs.forEach(function(unsub) { unsub() })
     }
-  }, [navigate])
+  }, [navigate, location.pathname])
 
   return null
 }

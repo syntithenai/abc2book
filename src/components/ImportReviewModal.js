@@ -938,6 +938,13 @@ export default function ImportReviewModal(props) {
           <Button variant="outline-secondary" size="sm" onClick={function() { jumpQueue(1); }}>Next</Button>
         </>
       ) : null}
+      {props.reviewPageMode ? (
+        <Button variant="outline-secondary" onClick={function() {
+          if (typeof props.onContinueLater === 'function') props.onContinueLater()
+        }}>
+          Continue later
+        </Button>
+      ) : null}
       <Button variant="outline-danger" onClick={props.onClose}>Cancel all</Button>
       {!isEnrichmentQueue ? (
         <Button variant="secondary" onClick={cancelCurrent}>Cancel</Button>

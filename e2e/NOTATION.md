@@ -2,6 +2,43 @@
 
 Scope is driven by [NotationEditorHelp.js](../src/components/NotationEditorHelp.js) and the 35-step [NotationEditorWalkthrough.js](../src/components/NotationEditorWalkthrough.js).
 
+## Click & Caret Invariants
+
+Staff click and caret behavior must satisfy these contracts (verified by unit tests, E2E, and manual smoke):
+
+| # | Invariant | Pass example | Fail example |
+|---|-----------|--------------|--------------|
+| 1 | **Click identity** — one staff click in selection mode selects exactly one event | Click D → `getSelection().eventIds` is D's id only | Click D → C or E selected |
+| 2 | **Caret/selection sync** — selection click sets caret to the selected event index | Click D → caret index equals D's event index | Caret at 0 while D selected |
+| 3 | **Multiline isolation** — line-2 click resolves to a line-2 event, not line-1 | Click `d` on second system → `d` selected | Click `d` → C/D/E/F from line 1 |
+| 4 | **Drag pinning** — vertical drag transposes the note clicked at pointerdown, not an adjacent pitch | Drag E up → G (not D or F) | Drag E up → wrong note moves |
+| 5 | **Note-input caret** — click between notes places caret at that slot; typed note inserts there | Click between D and E, type `a` → `C D a E F` | Note appears at start or wrong slot |
+| 6 | **Barline-adjacent clicks** — click on or beside a barline resolves to the barline event index or the slot immediately after | Click trailing bar → caret at append index | Caret jumps to measure start |
+| 7 | **Empty staff** — click on empty staff places caret at index 0 | Empty tune click → caret 0, ready to type | Crash or caret undefined |
+| 8 | **Single highlight** — overlay box is the visible selection; abcjs native highlight suppressed | One blue overlay box only | Note fill and overlay disagree |
+
+### Known limitations
+
+- **Empty measure within a bar** — clicking a beat gap where no note/rest is rendered may snap to measure start or nearest note; use arrow keys to fine-tune caret.
+- **Background voice clicks** — clicking a note on a non-active voice switches voice first, then resolves on the active voice.
+
+### Feature flags (dev / E2E)
+
+```javascript
+localStorage.setItem('notationClickResolverV2', '1')  // enable unified resolver (default on after cutover)
+localStorage.setItem('notationClickResolverV2', '0')  // rollback to legacy path
+```
+
+### Dev hooks (`window.__abc2bookNotationTest`)
+
+| Hook | Returns |
+|------|---------|
+| `getCaretIndex()` | Session caret index (0..events.length) |
+| `getSelection()` | `{ eventIds, toneIndex, anchorId }` |
+| `getVoiceAbc()` | Serialized active voice body |
+| `getMode()` | `normal`, `noteInput`, etc. |
+| `getResolverDebug()` | Last click resolve `{ source, eventIndex }` (dev only) |
+
 ## Golden rule (assertion discipline)
 
 Every test asserts **complete expected state** — exact pitch sequences (`assertNoteSteps`), full event lists (`assertEvents`), or exact voice ABC (`assertVoiceAbc`). Tests must **not** pass on “something changed”, count-only checks, or loose regex (except where ABC spelling varies by octave case).

@@ -38,6 +38,14 @@ export function frequencyToMidi(freq, a4) {
   return Math.round(12 * (Math.log(freq / ref) / Math.log(2)) + 69)
 }
 
+export function chromaticCentsForFrequency(freq, a4) {
+  if (!freq || freq <= 0) return null
+  const midi = frequencyToMidi(freq, a4)
+  if (midi == null) return null
+  const target = midiToFrequency(midi, a4)
+  return (1200 * Math.log(freq / target)) / Math.log(2)
+}
+
 export function centsBetween(freq, targetFreq) {
   if (!freq || !targetFreq || freq <= 0 || targetFreq <= 0) return null
   return Math.floor(1200 * Math.log(freq / targetFreq) / Math.log(2))

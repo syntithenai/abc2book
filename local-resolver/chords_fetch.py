@@ -39,6 +39,7 @@ CHORD_PAGE_HOST_SUFFIXES = (
 )
 
 BING_RSS_SEARCH_URL = "https://www.bing.com/search?format=rss&q="
+DUCKDUCKGO_HTML_SEARCH_URL = "https://html.duckduckgo.com/html/?q="
 AZCHORDS_CONTENT_RE = re.compile(r'<pre[^>]*id="content"[^>]*>(.*?)</pre>', re.S | re.I)
 ECHORDS_PRE_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
 CIFRACLUB_PRE_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
@@ -510,7 +511,17 @@ def _candidate_from_search_result(item, title, artist, default_source):
 
     host = _display_host(validated)
     # We can only use discovered pages from hosts we know how to parse.
-    if not any(known in host for known in ("e-chords.com", "cifraclub.com", "azchords.com", "worshiptogether.com")):
+    if not any(
+        known in host
+        for known in (
+            "tabs.ultimate-guitar.com",
+            "ultimate-guitar.com",
+            "e-chords.com",
+            "cifraclub.com",
+            "azchords.com",
+            "worshiptogether.com",
+        )
+    ):
         return None
 
     result_title = _strip_search_result_text(item.get("title") or "")
@@ -602,8 +613,18 @@ async def fetch_text(client, url, headers=None):
     merged_headers = fetch_headers()
     if headers:
         merged_headers.update(headers)
-    response = await client.get(url, headers=merged_headers, follow_redirects=True)
-    response.raise_for_status()
+    try:
+        response = await client.get(url, headers=merged_headers, follow_redirects=True)
+        response.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        host = (urlparse(url).hostname or "").lower()
+        if exc.response.status_code in {401, 403} and "ultimate-guitar" in host:
+            raise ValueError(
+                "Ultimate Guitar blocks automated access from the resolver. "
+                "Open the page in your browser, copy the chord sheet, and use "
+                "Paste chord sheet in the chord editor."
+            ) from exc
+        raise
     return response.text
 
 
@@ -612,7 +633,10 @@ def build_brave_chord_query(title, artist):
     if artist:
         terms.append('"{0}"'.format(artist))
     terms.append("chords")
-    terms.append("(site:e-chords.com OR site:cifraclub.com OR site:azchords.com OR site:worshiptogether.com)")
+    terms.append(
+        "(site:tabs.ultimate-guitar.com OR site:e-chords.com OR site:cifraclub.com "
+        "OR site:azchords.com OR site:worshiptogether.com)"
+    )
     return " ".join(terms)
 
 
@@ -634,46 +658,59 @@ async def search_brave_chord_candidates(client, title, artist):
     return brave_chord_candidates_from_results(response.json(), title, artist)
 
 
-async def search_azchords_candidates(client, title, artist):
-    query = 'site:azchords.com "{0}" chords {1}'.format(title, artist or "").strip()
-    xml_text = await fetch_text(client, BING_RSS_SEARCH_URL + quote(query))
+async def search_duckduckgo_site_candidates(client, title, artist, site_host, source_label):
+    query = 'site:{0} "{1}" chords {2}'.format(site_host, title, artist or "").strip()
+    html_text = await fetch_text(client, DUCKDUCKGO_HTML_SEARCH_URL + quote(query))
     candidates = []
-    for item_match in RSS_ITEM_RE.finditer(xml_text or ""):
-        item_title = html.unescape(item_match.group(1) or "")
-        item_url = html.unescape(item_match.group(2) or "")
-        item_description = html.unescape(item_match.group(3) or "")
-        validated, error = validate_chord_page_url(item_url)
-        if error or "azchords.com" not in validated:
+    for url in parse_duckduckgo_result_urls(html_text):
+        if site_host not in url:
             continue
 
-        title_match = re.match(r"^(.*?)\s+Chords\s+[–-]\s+(.*?)\s+\|", item_title, re.I)
-        candidate_title = title
+        path = urlparse(url).path or ""
+        parts = [part for part in path.split("/") if part]
         candidate_artist = artist
-        if title_match:
-            candidate_title = title_match.group(1).strip() or candidate_title
-            candidate_artist = title_match.group(2).strip() or candidate_artist
+        candidate_title = title
+        if len(parts) >= 2:
+            artist_part = parts[-2]
+            title_part = parts[-1]
+            artist_part = re.sub(r"-tabs-\d+$", "", artist_part)
+            title_part = re.sub(r"-tabs-\d+\.html$", "", title_part)
+            candidate_artist = artist_part.replace("-", " ") or candidate_artist
+            candidate_title = title_part.replace("-", " ") or candidate_title
 
         score = score_title_artist_match(candidate_title, candidate_artist, title, artist)
-        lower_title = item_title.lower()
-        if " chords " in (" " + lower_title + " "):
+        lower_url = url.lower()
+        if "chord" in lower_url or "chords" in lower_url:
             score += 40
-        if "ukulele" in lower_title:
+        if "ukulele" in lower_url:
             score -= 40
-        if item_description:
-            score += min(20, len(item_description) // 60)
+        if normalize_match_text(title) and normalize_match_text(title) in normalize_match_text(lower_url):
+            score += 40
+        if artist and normalize_match_text(artist) in normalize_match_text(lower_url):
+            score += 30
 
         candidates.append(
             {
-                "url": validated,
+                "url": url,
                 "title": candidate_title,
                 "artist": candidate_artist,
-                "source": "azchords.com",
+                "source": source_label,
                 "score": score or 5,
             }
         )
 
     candidates.sort(key=lambda item: item["score"], reverse=True)
     return candidates
+
+
+async def search_azchords_candidates(client, title, artist):
+    return await search_duckduckgo_site_candidates(
+        client,
+        title,
+        artist,
+        "azchords.com",
+        "azchords.com",
+    )
 
 
 async def fetch_chord_sheet_from_page(client, page_url):

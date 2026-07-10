@@ -9,6 +9,7 @@ const REVIEW_TOAST_SUPPRESS_MS = 30000
 
 let reviewToastDismissedUntil = 0
 let suppressNextCloseCapture = false
+let snoozedReadyKeys = null
 
 function markReviewToastDismissedNow() {
   reviewToastDismissedUntil = Date.now() + REVIEW_TOAST_SUPPRESS_MS
@@ -26,6 +27,49 @@ function dismissReviewToastProgrammatically() {
 export function dismissBackgroundReviewToast() {
   dismissReviewToastProgrammatically()
   toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
+}
+
+export function collectReadyReviewKeys(summary) {
+  const keys = []
+  const importReadyIds = summary && Array.isArray(summary.importReadyIds) ? summary.importReadyIds : []
+  importReadyIds.forEach(function(id) {
+    keys.push('import:' + id)
+  })
+  const mediaReady = summary && Array.isArray(summary.mediaReady) ? summary.mediaReady : []
+  mediaReady.forEach(function(id) {
+    keys.push('media:' + id)
+  })
+  return keys
+}
+
+function hasNewReadyWork(summary) {
+  const currentKeys = collectReadyReviewKeys(summary)
+  if (!snoozedReadyKeys) return currentKeys.length > 0
+  return currentKeys.some(function(key) {
+    return !snoozedReadyKeys.has(key)
+  })
+}
+
+function shouldSuppressReadyToast(summary, opts) {
+  if (opts && opts.suppressReadyToast) return true
+  if (isReviewToastSuppressed()) return true
+  if (!snoozedReadyKeys) return false
+  if (summary.processing > 0) return true
+  if (!hasNewReadyWork(summary)) return true
+  snoozedReadyKeys = null
+  return false
+}
+
+export function snoozeBackgroundReviewToast() {
+  const summary = getBackgroundReviewSummary()
+  snoozedReadyKeys = new Set(collectReadyReviewKeys(summary))
+  dismissBackgroundReviewToast()
+}
+
+export function __resetBackgroundReviewToastForTests() {
+  reviewToastDismissedUntil = 0
+  suppressNextCloseCapture = false
+  snoozedReadyKeys = null
 }
 
 function renderReviewToast(message, opts, renderProps) {
@@ -54,11 +98,11 @@ export function syncBackgroundReviewToast(options) {
   const readyMessage = readyCount > 0 ? readyCount + ' ready for review' : ''
   const processingMessage = processingCount > 0 ? processingCount + ' still processing' : ''
 
-  if (!readyMessage) {
+  if (!readyMessage || shouldSuppressReadyToast(summary, opts)) {
     dismissReviewToastProgrammatically()
-  } else if (!isReviewToastSuppressed()) {
+  } else {
     suppressNextCloseCapture = false
-    toast.info(
+    toast.warn(
       function(renderProps) {
         return renderReviewToast(readyMessage, opts, renderProps)
       },

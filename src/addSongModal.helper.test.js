@@ -28,6 +28,6 @@ describe('processReviewResult', () => {
     expect(handled).toBe(true)
     expect(applied).not.toHaveBeenCalled()
     expect(started).toHaveBeenCalledWith(result.candidates)
-    expect(toast.info).toHaveBeenCalledWith('Starting Source Enhancement')
+    expect(toast.info).not.toHaveBeenCalled()
   })
 })

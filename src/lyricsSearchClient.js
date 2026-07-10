@@ -42,11 +42,12 @@ async function parseStreamingLyricsSearchResponse(response, onProgress) {
     buffer += decoder.decode(chunk.value, { stream: true })
     const lines = buffer.split('\n')
     buffer = lines.pop() || ''
-    lines.forEach(function(line) {
-      if (!line.trim()) return
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i]
+      if (!line.trim()) continue
       const parsed = handleLyricsSearchStreamEvent(JSON.parse(line), onProgress)
       if (parsed) result = parsed
-    })
+    }
   }
 
   if (buffer.trim()) {

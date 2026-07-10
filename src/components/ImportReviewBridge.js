@@ -37,7 +37,7 @@ import {
   subscribeImportReviewSession,
   getImportReviewSessionRevision,
 } from '../importReviewSessionStore'
-import { dismissBackgroundReviewToast } from '../backgroundReviewToast'
+import { dismissBackgroundReviewToast, snoozeBackgroundReviewToast } from '../backgroundReviewToast'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
@@ -124,7 +124,6 @@ export default function ImportReviewBridge(props) {
         skipEnrichment: !resolverAvailable,
       })
       setImportReviewSession(nextSession)
-      showImportReviewUi()
     }
 
     if (split.duplicates.length > 0) {
@@ -133,6 +132,8 @@ export default function ImportReviewBridge(props) {
         onReview: function() {
           openSession(split.duplicates.concat(split.nonDuplicates))
           dismissContentHashDuplicateToast()
+          showImportReviewUi()
+          navigate('/review')
         },
       })
     }
@@ -140,7 +141,7 @@ export default function ImportReviewBridge(props) {
     if (split.nonDuplicates.length > 0) {
       openSession(split.nonDuplicates)
     }
-  }, [props.tunebook, props.tunesHash, resolverAvailable])
+  }, [props.tunebook, props.tunesHash, resolverAvailable, navigate])
 
   useEffect(function() {
     registerImportReviewStarter(startReview)
@@ -176,7 +177,6 @@ export default function ImportReviewBridge(props) {
         })
       })
       updateSession(appendImportReviewCandidates(getImportReviewSession(), merged))
-      toast.info('Starting Source Enhancement')
     }
 
     const applyImportedTune = function(importedTune) {
@@ -223,7 +223,6 @@ export default function ImportReviewBridge(props) {
       mergeTargetId: draft && draft.mergeTargetId ? draft.mergeTargetId : null,
     }
     updateSession(appendImportReviewCandidates(getImportReviewSession(), [candidate]))
-    toast.info('Starting Source Enhancement')
   }, [updateSession])
 
   const finishCandidate = useCallback(function(updatedSession, done) {
@@ -277,7 +276,13 @@ export default function ImportReviewBridge(props) {
   }, [session && session.enrichmentJobs])
 
   const autoAdvanceMerge = onReviewRoute || !!props.autoAdvanceMerge
-  const showModal = !!(session && session.step !== 'done' && (uiVisible || onReviewRoute))
+  const showModal = !!(session && session.step !== 'done' && uiVisible)
+
+  const handleContinueLater = useCallback(function() {
+    snoozeBackgroundReviewToast()
+    hideImportReviewUi()
+    navigate('/tunes')
+  }, [navigate])
 
   useEffect(function() {
     if (!session || session.skipEnrichment) {
@@ -467,6 +472,7 @@ export default function ImportReviewBridge(props) {
       show={showModal}
       embedded={!!props.embedded}
       reviewPageMode={onReviewRoute}
+      onContinueLater={handleContinueLater}
       session={session}
       onClose={function() {
         clearImportReviewEnrichmentBridge()

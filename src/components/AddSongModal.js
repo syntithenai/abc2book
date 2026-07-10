@@ -436,9 +436,7 @@ function AddSongModal(props) {
     if (!Array.isArray(candidates) || candidates.length === 0) return
     setImportError('')
     requestImportReview(candidates)
-    clearForm()
-    dismissModal()
-  }, [dismissModal])
+  }, [])
 
   async function applyImportDispatchResult(result) {
     if (!result || result.action === 'error') {
@@ -554,7 +552,6 @@ function AddSongModal(props) {
         sourceKind: 'audio',
         mergeTargetId: mergeTargetTuneId || null,
       }
-      toast.info('Starting Source Enhancement')
       startImportReview([candidate])
       clearForm()
     } catch (e) {
@@ -939,7 +936,6 @@ function AddSongModal(props) {
       sourceKind: 'youtube',
       mergeTargetId: mergeTargetTuneId || null,
     }
-    toast.info('Starting Source Enhancement')
     startImportReview([candidate])
     clearForm()
   }
@@ -951,7 +947,6 @@ function AddSongModal(props) {
       sourceKind: 'manual',
       mergeTargetId: mergeTargetTuneId || null,
     }
-    toast.info('Starting Source Enhancement')
     startImportReview([candidate])
     clearForm()
   }
@@ -976,7 +971,6 @@ function AddSongModal(props) {
       sourceKind: 'manual',
       mergeTargetId: mergeTargetTuneId || null,
     }
-    toast.info('Starting Source Enhancement')
     startImportReview([candidate])
     clearForm()
   }
@@ -1671,15 +1665,29 @@ function AddSongModal(props) {
   return (
     <>
       {!props.routeMode ? (
-        <Button
-          variant="success"
-          size={props.buttonSize}
-          className={props.buttonClassName}
-          title="Add Tunes"
-          onClick={handleShow}
-        >
-          {props.tunebook.icons.fileadd} Add
-        </Button>
+        props.buttonGroupMember ? (
+          <span className="header-dropdown-add-trigger" style={{ display: 'contents' }}>
+            <Button
+              variant="success"
+              size={props.buttonSize}
+              className={(props.buttonClassName || '') + ' header-dropdown-add-btn'}
+              title="Add Tunes"
+              onClick={handleShow}
+            >
+              {props.tunebook.icons.fileadd} Add
+            </Button>
+          </span>
+        ) : (
+          <Button
+            variant="success"
+            size={props.buttonSize}
+            className={props.buttonClassName}
+            title="Add Tunes"
+            onClick={handleShow}
+          >
+            {props.tunebook.icons.fileadd} Add
+          </Button>
+        )
       ) : null}
 
       {props.routeMode ? renderRoutePage() : (

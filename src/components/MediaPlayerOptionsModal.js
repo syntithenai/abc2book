@@ -19,6 +19,17 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     }
     return mediaController.tune
   })()
+  const playingTune = (function() {
+    const tune = mediaController.tune
+    if (!tune || !tune.id) return null
+    if (tunes && tunes[tune.id]) return tunes[tune.id]
+    return tune
+  })()
+  const playingTuneLabel = playingTune
+    && playingTune.name
+    && playingTune.name.trim().length > 0
+    ? playingTune.name.trim()
+    : (playingTune ? 'Untitled Song' : '')
   const [show, setShow] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
   const clickTimeoutRef = useRef(null);
@@ -211,7 +222,14 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
 
       <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton className="media-controls-modal-header">
-          <Modal.Title>Media Controls</Modal.Title>
+          <Modal.Title className="media-controls-modal-title-row">
+            <span className="media-controls-modal-title-text">Media Controls</span>
+            {playingTuneLabel ? (
+              <span className="media-controls-now-playing" title={'Now Playing: ' + playingTuneLabel}>
+                Now Playing: {playingTuneLabel}
+              </span>
+            ) : null}
+          </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{maxHeight:'70vh', overflowY:'auto'}}>
           {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune) && (

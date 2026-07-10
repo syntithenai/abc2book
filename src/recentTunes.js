@@ -47,3 +47,24 @@ export function consumeBooksPageScrollTarget() {
     return null
   }
 }
+
+/** Clearance for fixed header + sticky collection nav on the books page. */
+export function getBooksPageScrollOffset() {
+  if (typeof document === 'undefined') return 120
+  var nav = document.querySelector('.books-page-nav')
+  if (nav) {
+    var style = window.getComputedStyle(nav)
+    var stickyTop = parseFloat(style.top) || 0
+    return stickyTop + nav.getBoundingClientRect().height + 8
+  }
+  return 120
+}
+
+export function scrollBooksPageSection(sectionId) {
+  if (!sectionId || typeof document === 'undefined') return
+  var el = document.getElementById(sectionId)
+  if (!el) return
+  var offset = getBooksPageScrollOffset()
+  var top = el.getBoundingClientRect().top + window.pageYOffset - offset
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' })
+}

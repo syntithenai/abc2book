@@ -2,7 +2,7 @@ import { tokenIsChord, isChordLine, isSectionHeader, isLyricVersionSeparator, tr
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
-    ['C', 'Bb', 'C7', 'Dm/C', 'Gm7', 'A7', 'F#m'].forEach(function(c) {
+    ['C', 'Bb', 'C7', 'Dm/C', 'Gm7', 'A7', 'F#m', 'Am/E', 'Am9'].forEach(function(c) {
       expect(tokenIsChord(c)).toBe(true);
     });
     ['I', 'really', 'like', 'Christmas', 'Oh'].forEach(function(w) {

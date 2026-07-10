@@ -74,6 +74,7 @@ function preset(id, label, strings, options) {
 }
 
 export const TUNER_INSTRUMENT_LABELS = {
+  chromatic: 'Chromatic',
   guitar: 'Guitar',
   mandolin: 'Fiddle/Mandolin',
   uke: 'Uke',
@@ -82,7 +83,17 @@ export const TUNER_INSTRUMENT_LABELS = {
   bouzouki: 'Bouzouki'
 }
 
+export const CHROMATIC_INSTRUMENT = 'chromatic'
+
 export const TUNER_INSTRUMENTS = ['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5', 'bouzouki']
+
+export function isChromaticInstrument(instrument) {
+  return instrument === CHROMATIC_INSTRUMENT
+}
+
+export function isValidTunerInstrumentSelection(instrument) {
+  return isChromaticInstrument(instrument) || TUNER_INSTRUMENTS.indexOf(instrument) !== -1
+}
 
 export const INSTRUMENT_TUNING_PRESETS = {
   guitar: [

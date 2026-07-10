@@ -123,6 +123,45 @@ async function getCaretIndex(page) {
   })
 }
 
+async function getSelection(page) {
+  return page.evaluate(function() {
+    return window.__abc2bookNotationTest.getSelection()
+  })
+}
+
+async function assertSelectionMatchesClick(page, expectedEventSummary, label) {
+  const state = await page.evaluate(function() {
+    const events = window.__abc2bookNotationTest.getSessionEvents()
+    const selection = window.__abc2bookNotationTest.getSelection()
+    const caret = window.__abc2bookNotationTest.getCaretIndex()
+    const selectedIdx = events.findIndex(function(ev) {
+      return selection.eventIds.indexOf(ev.id) >= 0
+    })
+    return {
+      selectedIdx: selectedIdx,
+      caret: caret,
+      eventIds: selection.eventIds,
+    }
+  })
+  if (!state.eventIds || state.eventIds.length !== 1) {
+    throw new Error(
+      (label || 'selection') + ': expected single selection, got ids=' + JSON.stringify(state.eventIds)
+    )
+  }
+  const summaries = await getSessionEventSummaries(page)
+  const selectedSummary = state.selectedIdx >= 0 ? summaries[state.selectedIdx] : null
+  if (selectedSummary !== expectedEventSummary) {
+    throw new Error(
+      (label || 'selection') + ': expected ' + expectedEventSummary + ', got ' + selectedSummary
+    )
+  }
+  if (state.caret !== state.selectedIdx) {
+    throw new Error(
+      (label || 'caret sync') + ': caret ' + state.caret + ' should equal selected index ' + state.selectedIdx
+    )
+  }
+}
+
 module.exports = {
   pitchSummary,
   durationBeats,
@@ -136,4 +175,6 @@ module.exports = {
   assertEvents,
   assertVoiceAbc,
   getCaretIndex,
+  getSelection,
+  assertSelectionMatchesClick,
 }

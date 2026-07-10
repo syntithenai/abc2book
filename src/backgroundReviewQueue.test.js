@@ -35,6 +35,21 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(1)
   })
 
+  test('counts identify-phase import candidates ready for review', function() {
+    setImportReviewSession({
+      candidates: [{ id: 'c1' }, { id: 'c2' }],
+      enrichmentJobs: [],
+      importedCandidateIds: {},
+      step: 'review',
+      phase: 'identify',
+    })
+
+    const summary = getBackgroundReviewSummary()
+    expect(summary.importReady).toBe(2)
+    expect(summary.importProcessing).toBe(0)
+    expect(summary.ready).toBe(2)
+  })
+
   test('tracks media analysis ready for review', function() {
     patchMediaAnalysisJob('t1', {
       isAnalyzing: false,

@@ -111,22 +111,25 @@ async function parseStreamingChordsSearchResponse(response, onProgress) {
   let buffer = ''
   let result = null
 
+  function processLine(line) {
+    if (!line.trim()) return
+    const parsed = handleChordsSearchStreamEvent(JSON.parse(line), onProgress)
+    if (parsed) result = parsed
+  }
+
   while (true) {
     const chunk = await reader.read()
     if (chunk.done) break
     buffer += decoder.decode(chunk.value, { stream: true })
     const lines = buffer.split('\n')
     buffer = lines.pop() || ''
-    lines.forEach(function(line) {
-      if (!line.trim()) return
-      const parsed = handleChordsSearchStreamEvent(JSON.parse(line), onProgress)
-      if (parsed) result = parsed
-    })
+    for (let i = 0; i < lines.length; i++) {
+      processLine(lines[i])
+    }
   }
 
   if (buffer.trim()) {
-    const parsed = handleChordsSearchStreamEvent(JSON.parse(buffer), onProgress)
-    if (parsed) result = parsed
+    processLine(buffer)
   }
 
   if (!result) {

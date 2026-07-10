@@ -1063,6 +1063,12 @@ export default function useAbcSynth(props) {
         }
     }
 
+    function notifyPitchOutputReady() {
+        if (props.mediaController && props.mediaController.finishPitchShiftPrepareRef) {
+            props.mediaController.finishPitchShiftPrepareRef.current()
+        }
+    }
+
     function initPitchShifter(audioContext, audioBuffer) {
         destroyPitchShifter()
         if (!audioBuffer || !audioContext) return
@@ -1085,7 +1091,8 @@ export default function useAbcSynth(props) {
                 }
                 stopPlaying()
                 if (props.onEnded) props.onEnded()
-            }
+            },
+            notifyPitchOutputReady
         )
         const s = pitchTempoSettingsRef.current
         pitchShifterRef.current.applySettings(s.tempo, s.pitch, s.fineTune)
@@ -1138,6 +1145,12 @@ export default function useAbcSynth(props) {
             if (tempoChanged) {
                 // Restart the audio pipe so SoundTouch tempo changes stay aligned with
                 // the recreated timing callbacks and output level stays steady.
+                if (pitchShifterRef.current.isConnected()) {
+                    pitchShifterRef.current.disconnect()
+                }
+                startMidiAudioOutput(settings, ratio)
+                midiPlaybackGuardUntilRef.current = Date.now() + 3000
+            } else if (pitchChanged || fineTuneChanged) {
                 if (pitchShifterRef.current.isConnected()) {
                     pitchShifterRef.current.disconnect()
                 }

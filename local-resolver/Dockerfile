@@ -137,6 +137,9 @@ COPY background_markdown_links.py /app/background_markdown_links.py
 COPY chords_fetch.py /app/chords_fetch.py
 COPY notation_fetch.py /app/notation_fetch.py
 COPY lyrics_fetch.py /app/lyrics_fetch.py
+COPY lyrics_word_tools.py /app/lyrics_word_tools.py
+COPY composer_discovery.py /app/composer_discovery.py
+COPY bulk_list_format.py /app/bulk_list_format.py
 COPY tune_background_research.py /app/tune_background_research.py
 COPY voice_command.py /app/voice_command.py
 COPY playback_region_detect.py /app/playback_region_detect.py

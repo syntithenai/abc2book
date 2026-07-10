@@ -4,7 +4,7 @@ import { clamp, combinedPitchSemitones, TEMPO_MIN, TEMPO_MAX, PITCH_MIN, PITCH_M
 const BUFFER_SIZE = 16384;
 
 export default class PitchTempoShifter {
-  constructor(audioContext, audioBuffer, onTimeUpdate, onEnded) {
+  constructor(audioContext, audioBuffer, onTimeUpdate, onEnded, onPitchOutputReady) {
     this.audioContext = audioContext;
     this.audioBuffer = audioBuffer;
     this.gainNode = audioContext.createGain();
@@ -12,6 +12,7 @@ export default class PitchTempoShifter {
     this._outputVolume = 1;
     this._onTimeUpdate = onTimeUpdate;
     this._onEnded = onEnded;
+    this._onPitchOutputReady = onPitchOutputReady || null;
     this.shifter = this._createSoundTouchShifter(audioBuffer);
     this._tempo = 1.0;
     this._pitch = 0;
@@ -23,6 +24,11 @@ export default class PitchTempoShifter {
     this._directStartOffset = 0;
     this._directStopIntent = false;
     this._timeUpdateTimer = null;
+    this._pitchOutputPending = false;
+  }
+
+  setOnPitchOutputReady(callback) {
+    this._onPitchOutputReady = callback || null;
   }
 
   get duration() {
@@ -38,28 +44,53 @@ export default class PitchTempoShifter {
     return this.shifter ? this.shifter.percentagePlayed / 100 : 0;
   }
 
+  _applySoundTouchSettings() {
+    if (!this.shifter) return;
+    this.shifter.tempo = this._tempo;
+    this.shifter.pitchSemitones = combinedPitchSemitones(this._pitch, this._fineTune);
+  }
+
   applySettings(tempo, pitchSemitones, fineTuneCents) {
     const wasConnected = this._connected;
     const ratio = this.getPlaybackRatio();
+    const prevCombined = combinedPitchSemitones(this._pitch, this._fineTune);
     this._tempo = clamp(tempo, TEMPO_MIN, TEMPO_MAX);
     this._pitch = clamp(pitchSemitones, PITCH_MIN, PITCH_MAX);
     this._fineTune = clamp(fineTuneCents, FINE_TUNE_MIN, FINE_TUNE_MAX);
+    const nextCombined = combinedPitchSemitones(this._pitch, this._fineTune);
+    const pitchParamsChanged = Math.abs(prevCombined - nextCombined) >= 0.0001;
     const nextMode = this._shouldUseDirectMode() ? 'direct' : 'soundtouch';
+
+    if (pitchParamsChanged) {
+      if (Math.abs(nextCombined) >= 0.0001) {
+        this._pitchOutputPending = true;
+      } else {
+        this._pitchOutputPending = false;
+      }
+    }
 
     if (wasConnected && nextMode !== this._mode) {
       this.disconnect();
       this._mode = nextMode;
+      if (this._mode === 'soundtouch') {
+        this._applySoundTouchSettings();
+      }
       this.seek(ratio);
       this.connect();
+      if (nextMode === 'direct') {
+        this._signalPitchOutputReady();
+      }
     } else {
       this._mode = nextMode;
       if (this._mode === 'direct' && this._directSource) {
         this._directStartOffset = this._getDirectPlaybackSeconds();
         this._directStartContextTime = this.audioContext.currentTime;
         this._directSource.playbackRate.value = this._tempo;
+        if (pitchParamsChanged) {
+          this._signalPitchOutputReady();
+        }
       } else if (this.shifter) {
-        this.shifter.tempo = this._tempo;
-        this.shifter.pitchSemitones = combinedPitchSemitones(this._pitch, this._fineTune);
+        this._applySoundTouchSettings();
       }
     }
 
@@ -107,6 +138,7 @@ export default class PitchTempoShifter {
       if (this._mode === 'direct') {
         this._connectDirectSource();
       } else {
+        this._applySoundTouchSettings();
         this.shifter.connect(this.gainNode);
       }
       this.gainNode.connect(this.audioContext.destination);
@@ -164,11 +196,22 @@ export default class PitchTempoShifter {
       this._onEnded || (() => {})
     );
     shifter.on('play', (detail) => {
+      if (this._pitchOutputPending && this._mode === 'soundtouch' && this._connected) {
+        this._signalPitchOutputReady();
+      }
       if (this._onTimeUpdate) {
         this._onTimeUpdate(detail.timePlayed, detail.percentagePlayed / 100);
       }
     });
     return shifter;
+  }
+
+  _signalPitchOutputReady() {
+    if (!this._pitchOutputPending) return;
+    this._pitchOutputPending = false;
+    if (this._onPitchOutputReady) {
+      this._onPitchOutputReady();
+    }
   }
 
   _shouldUseDirectMode() {

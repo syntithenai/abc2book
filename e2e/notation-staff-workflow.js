@@ -20,7 +20,7 @@ const {
   resetNotationFixture,
 } = require('./helpers')
 const { NOTATION_E2E_EMPTY_ID, NOTATION_E2E_TUNE_ID } = require('./notation-fixtures')
-const { assertNoteSteps, getCaretIndex, assertVoiceAbc } = require('./notation-assertions')
+const { assertNoteSteps, getCaretIndex, assertVoiceAbc, assertEvents } = require('./notation-assertions')
 
 const EMPTY_TUNE_ID = NOTATION_E2E_EMPTY_ID
 
@@ -125,12 +125,14 @@ async function runStaffWorkflowTests(page, ctx) {
     await pressKey(page, 'a')
     await sleep(300)
     await assertNoteSteps(page, ['C', 'F', 'A'], '7. after appending A at end')
+    await assertEvents(page, ['note:C5', 'bar:|', 'note:F5', 'note:A4'], '7b. events after append A')
 
     // --- Duration half note, dotted note, clipboard duplicate, undo ---
     await pressKey(page, '7')
     await pressKey(page, 'b')
     await sleep(300)
     await assertNoteSteps(page, ['C', 'F', 'A', 'B'], '8. after half note B')
+    await assertEvents(page, ['note:C5', 'bar:|', 'note:F5', 'note:A4', 'note:B4:2'], '8b. half note B has 2 beats')
 
     await pressKey(page, '4')
     await pressKey(page, '.')
@@ -158,11 +160,7 @@ async function runStaffWorkflowTests(page, ctx) {
     const afterUndo = await getVoiceAbc(page)
     if (afterUndo === beforeUndo) throw new Error('11. Ctrl+Z undo should change ABC after paste')
     await assertNoteSteps(page, ['C', 'F', 'A', 'B', 'C'], '11. undo removes pasted C')
-
-    const abcFinal = normalizeAbcBody(await getVoiceAbc(page))
-    if (!/C.*F.*A/.test(abcFinal)) {
-      throw new Error('12. final ABC should contain C F A in order, got: ' + abcFinal)
-    }
+    await assertVoiceAbc(page, 'C | F A B c |', '12. final ABC after workflow')
 
     await resetNotationFixture(page, NOTATION_E2E_TUNE_ID)
   })

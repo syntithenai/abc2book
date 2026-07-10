@@ -102,11 +102,35 @@ describe('eventIndexFromStaffAbcElem', function() {
       abc,
       ['1'],
       0,
-      { midi: 60 },  // no startChar
+      { midi: 60 },
       null
     );
-    // Should return null or a fallback; if null, the caller should use alternate resolution
-    expect(result === null || typeof result === 'number').toBe(true);
+    expect(result).toBe(0);
+  });
+
+  test('eventIndexFromStaffAbcElem maps second system note via startChar on multiline ABC', function() {
+    const body = 'C D E F | G A B c |\nd e f g |';
+    const events = eventsFromVoiceBody(body, tuneMeta);
+    const tuneMulti = Object.assign({}, tune, {
+      voices: { 1: { notes: [body] } },
+    });
+    const abc = buildAbcPreviewFromBodies(tuneMulti, tunebook, ['1'], { 1: body });
+    const dStart = abc.indexOf('d ');
+    expect(dStart).toBeGreaterThanOrEqual(0);
+    const idx = eventIndexFromStaffAbcElem(
+      events,
+      tuneMeta,
+      abc,
+      ['1'],
+      0,
+      { startChar: dStart },
+      null
+    );
+    const dEventIdx = events.findIndex(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D' && ev.pitch.octave === 5;
+    });
+    expect(dEventIdx).toBeGreaterThanOrEqual(0);
+    expect(idx).toBe(dEventIdx);
   });
 
   test('eventIndexFromStaffAbcElem respects voice index for multiline', function() {

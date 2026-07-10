@@ -15,7 +15,6 @@ export function processReviewResult(result, importContext, applyImportedTune, st
   } catch (e) {
     // fall through to queue handoff on any error
   }
-  if (toastLib && toastLib.info) toastLib.info('Starting Source Enhancement')
   startImportReview(result.candidates)
   return true
 }

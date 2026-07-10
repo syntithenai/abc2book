@@ -9,6 +9,7 @@ import {
 } from '../backgroundReviewQueue'
 import {
   hasActiveImportReviewSession,
+  hideImportReviewUi,
   showImportReviewUi,
   subscribeImportReviewSession,
   getImportReviewSessionRevision,
@@ -17,6 +18,7 @@ import {
 } from '../importReviewSessionStore'
 import { beginMergeForJob } from '../importReviewSession'
 import { nextReadyJob } from '../importReviewEnrichmentQueue'
+import { snoozeBackgroundReviewToast } from '../backgroundReviewToast'
 
 function useReviewSummary() {
   const reviewRevision = useSyncExternalStore(
@@ -124,10 +126,22 @@ export default function ReviewPage(props) {
         </section>
       ) : null}
 
-      <div className="review-page-footer">
+      <div className="review-page-footer d-flex gap-2 flex-wrap">
         <Button variant="outline-secondary" onClick={function() { navigate(-1) }}>
           Back
         </Button>
+        {hasImport ? (
+          <Button
+            variant="outline-primary"
+            onClick={function() {
+              snoozeBackgroundReviewToast()
+              hideImportReviewUi()
+              navigate('/tunes')
+            }}
+          >
+            Continue later
+          </Button>
+        ) : null}
       </div>
     </div>
   )

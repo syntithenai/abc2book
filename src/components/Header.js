@@ -2,7 +2,7 @@ import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import AddSongModal from './AddSongModal'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
-import {useEffect, useState} from 'react'
+import {useEffect, useMemo, useState, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
@@ -16,6 +16,32 @@ import {
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import {
+    getBackgroundReviewRevision,
+    getBackgroundReviewSummary,
+    subscribeBackgroundReviewQueue,
+} from '../backgroundReviewQueue'
+import {
+    getImportReviewSessionRevision,
+    showImportReviewUi,
+    subscribeImportReviewSession,
+} from '../importReviewSessionStore'
+
+function useBackgroundReviewReadyCount() {
+    const reviewRevision = useSyncExternalStore(
+        subscribeBackgroundReviewQueue,
+        getBackgroundReviewRevision,
+        function() { return '' }
+    )
+    const importRevision = useSyncExternalStore(
+        subscribeImportReviewSession,
+        getImportReviewSessionRevision,
+        function() { return '' }
+    )
+    return useMemo(function() {
+        return getBackgroundReviewSummary().ready
+    }, [reviewRevision, importRevision])
+}
 
 
 export default function Header(props) {
@@ -139,6 +165,7 @@ export default function Header(props) {
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',
     }
+    const reviewReadyCount = useBackgroundReviewReadyCount()
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
@@ -218,27 +245,47 @@ export default function Header(props) {
                 <Dropdown.Divider />
                 </>}
                 <div className="header-dropdown-section header-dropdown-section-actions">
-                    <AddSongModal
-                        buttonSize={navButtonSize}
-                        buttonClassName="header-dropdown-btn"
-                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        tunes={props.tunes}
-                        token={props.token}
-                        requestGoogleScopes={props.requestGoogleScopes}
-                        login={props.login}
-                        tunesHash={props.tunesHash}
-                        forceRefresh={props.forceRefresh}
-                        filter={props.filter}
-                        setFilter={props.setFilter}
-                        tunebook={props.tunebook}
-                        currentTuneBook={props.currentTuneBook}
-                        setCurrentTuneBook={props.setCurrentTuneBook}
-                        tagFilter={props.tagFilter}
-                        setTagFilter={props.setTagFilter}
-                        searchIndex={props.searchIndex}
-                        loadTuneTexts={props.loadTuneTexts}
-                        mediaController={props.mediaController}
-                    />
+                    <ButtonGroup className="header-dropdown-actions-group">
+                        <AddSongModal
+                            buttonSize={navButtonSize}
+                            buttonClassName="header-dropdown-btn"
+                            buttonGroupMember={true}
+                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            tunes={props.tunes}
+                            token={props.token}
+                            requestGoogleScopes={props.requestGoogleScopes}
+                            login={props.login}
+                            tunesHash={props.tunesHash}
+                            forceRefresh={props.forceRefresh}
+                            filter={props.filter}
+                            setFilter={props.setFilter}
+                            tunebook={props.tunebook}
+                            currentTuneBook={props.currentTuneBook}
+                            setCurrentTuneBook={props.setCurrentTuneBook}
+                            tagFilter={props.tagFilter}
+                            setTagFilter={props.setTagFilter}
+                            searchIndex={props.searchIndex}
+                            loadTuneTexts={props.loadTuneTexts}
+                            mediaController={props.mediaController}
+                        />
+                        {reviewReadyCount > 0 ? (
+                            <Button
+                                as={Link}
+                                to="/review"
+                                variant="primary"
+                                size={navButtonSize}
+                                className="header-dropdown-btn header-dropdown-review-btn"
+                                data-testid="header-review-button"
+                                title="Review"
+                                onClick={function() { showImportReviewUi() }}
+                            >
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.menu}
+                                    <span>Review</span>
+                                </span>
+                            </Button>
+                        ) : null}
+                    </ButtonGroup>
                 </div>
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-account">

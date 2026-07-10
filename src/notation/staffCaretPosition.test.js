@@ -169,6 +169,45 @@ describe('staffCaretPosition', function() {
     document.body.removeChild(wrap);
   });
 
+  test('caretIndexAndAnchorFromStaffClick places caret in empty measure gap', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    const bar = document.createElement('g');
+    bar.className = 'abcjs-bar abcjs-v0';
+    bar.getBoundingClientRect = function() {
+      return { left: 200, top: 20, right: 204, bottom: 52, width: 4, height: 32 };
+    };
+    const staff = document.createElement('g');
+    staff.className = 'abcjs-staff';
+    staff.getBoundingClientRect = function() {
+      return { left: 30, top: 10, right: 370, bottom: 70, width: 340, height: 60 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(bar);
+    wrap.appendChild(staff);
+    document.body.appendChild(wrap);
+
+    const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 120, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(1);
+
+    document.body.removeChild(wrap);
+  });
+
   test('drawableElementsForVoice collects all system lines for one voice', function() {
     const wrap = document.createElement('div');
     const line1Note = document.createElement('g');
@@ -474,8 +513,7 @@ describe('staffCaretPosition', function() {
       { selectableElement: note1 },
       0
     );
-    expect(resultBefore.caretIndex).toBeGreaterThanOrEqual(0);
-    expect(resultBefore.caretIndex).toBeLessThanOrEqual(3);
+    expect(resultBefore.caretIndex).toBe(1);
 
     const resultAfter = caretIndexAndAnchorFromStaffClick(
       wrap,
@@ -484,7 +522,7 @@ describe('staffCaretPosition', function() {
       { selectableElement: note2 },
       0
     );
-    expect(resultAfter.caretIndex).toBeGreaterThanOrEqual(resultBefore.caretIndex);
+    expect(resultAfter.caretIndex).toBe(3);
 
     document.body.removeChild(wrap);
   });

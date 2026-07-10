@@ -443,6 +443,9 @@ export function isMediaResolverInfrastructureError(error) {
   if (message.indexOf('Media proxy error 404') >= 0) return true;
   if (message.indexOf('Media proxy error 502') >= 0) return true;
   if (message.indexOf('Media proxy error 503') >= 0) return true;
+  if (message.indexOf('Media proxy error 504') >= 0) return true;
+  if (message === 'Network Error') return true;
+  if (message.indexOf('Failed to fetch') >= 0) return true;
   return false;
 }
 

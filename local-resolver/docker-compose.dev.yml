@@ -23,6 +23,9 @@ services:
       - ./chords_fetch.py:/app/chords_fetch.py
       - ./notation_fetch.py:/app/notation_fetch.py
       - ./lyrics_fetch.py:/app/lyrics_fetch.py
+      - ./lyrics_word_tools.py:/app/lyrics_word_tools.py
+      - ./composer_discovery.py:/app/composer_discovery.py
+      - ./bulk_list_format.py:/app/bulk_list_format.py
       - ./tune_background_research.py:/app/tune_background_research.py
       - ./voice_command.py:/app/voice_command.py
       - ./playback_region_detect.py:/app/playback_region_detect.py

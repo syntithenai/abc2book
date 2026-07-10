@@ -18,6 +18,7 @@ from chords_fetch import (
     parse_duckduckgo_result_urls,
     parse_llm_json_mapping,
     score_title_artist_match,
+    search_duckduckgo_site_candidates,
     section_labels_need_translation,
     slugify,
     strip_azchords_chord_dictionary_preamble,
@@ -49,6 +50,36 @@ class ChordsFetchTests(unittest.TestCase):
         """
         candidates = azchords_candidates(html_text, "Amazing Grace", "John Newton")
         self.assertEqual(candidates[0]["artist"], "johnnewton")
+
+    def test_build_brave_chord_query_includes_ultimate_guitar(self):
+        query = build_brave_chord_query("Who's That Girl", "Eurythmics")
+        self.assertIn("tabs.ultimate-guitar.com", query)
+
+    def test_search_duckduckgo_site_candidates_prefers_matching_artist(self):
+        import asyncio
+
+        html_text = """
+        <a class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.azchords.com%2Fe%2Feurythmics-tabs-5089%2Fwhosthatgirl-tabs-395399.html&amp;rut=1">Eurythmics</a>
+        <a class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.azchords.com%2Fh%2Fhilaryduff-tabs-1811%2Fwhosthatgirl-tabs-470701.html&amp;rut=2">Hilary Duff</a>
+        """
+
+        async def run():
+            client = AsyncMock()
+            client.get = AsyncMock(return_value=unittest.mock.MagicMock(
+                text=html_text,
+                raise_for_status=unittest.mock.MagicMock(),
+            ))
+            return await search_duckduckgo_site_candidates(
+                client,
+                "Who's That Girl",
+                "Eurythmics",
+                "azchords.com",
+                "azchords.com",
+            )
+
+        candidates = asyncio.run(run())
+        self.assertGreaterEqual(len(candidates), 2)
+        self.assertIn("eurythmics", candidates[0]["url"])
 
     def test_extract_azchords_sheet_reads_pre_content(self):
         html_text = """

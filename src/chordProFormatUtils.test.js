@@ -74,4 +74,60 @@ describe('chordProFormatUtils', function() {
     expect(onsong).toContain('{{title:Test}}');
     expect(onsong).toContain('{{subtitle:Artist}}');
   });
+
+  test('parses Ultimate Guitar style sectioned chord-over-words paste', function() {
+    const sample = `[Intro]
+Am    Dm    Dm    Am9
+
+[Verse 1]
+    Am
+The language of love
+      F               Dm
+Slips from my lover's tongue
+
+[Pre-Chorus]
+            F
+But there's just one thing
+ Am/E
+(Just one thing)
+
+[Chorus]
+Am         G
+Who's that girl
+Em                  F
+Running around with you
+G
+Tell me
+
+[Instrumental]
+Am    G    Em    F  G`;
+
+    const parsed = parseChordSheetText(sample, { fallbackTitle: "Who's That Girl" });
+    expect(parsed.title).toBe("Who's That Girl");
+    expect(parsed.lyricLines).toEqual([
+      '[Intro]',
+      '',
+      '[Verse 1]',
+      'The language of love',
+      "Slips from my lover's tongue",
+      '',
+      '[Pre-Chorus]',
+      "But there's just one thing",
+      '(Just one thing)',
+      '',
+      '[Chorus]',
+      "Who's that girl",
+      'Running around with you',
+      'Tell me',
+      '',
+      '[Instrumental]',
+    ]);
+    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
+    expect(parsed.chordText).toContain('Am/E|');
+    expect(parsed.chordText).toContain('Am    G    Em    F  G|');
+    expect(parsed.sectionCount).toBeGreaterThanOrEqual(5);
+    expect(parsed.chordSheetAlignment.some(function(block) {
+      return block.header === '[Chorus]';
+    })).toBe(true);
+  });
 });

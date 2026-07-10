@@ -13,6 +13,7 @@ import {
   RECENT_TUNES_EXPANDED,
   consumeBooksPageScrollTarget,
   getRecentTunes,
+  scrollBooksPageSection,
 } from '../recentTunes'
 import { trackBookSectionClick } from '../analytics'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
@@ -72,8 +73,8 @@ export default function BooksPage(props) {
     }
 
     const scrollToSection = useCallback(function(sectionId) {
-        tunebook.utils.scrollTo(sectionId, 70)
-    }, [tunebook])
+        scrollBooksPageSection(sectionId)
+    }, [])
 
     function trackAndScrollToSection(sectionId) {
         const section = BOOK_SECTION_NAMES[sectionId]

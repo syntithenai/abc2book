@@ -127,7 +127,8 @@ export default function ChordsSearchButton({
       }
     } catch (e) {
       if (job.isAbortError(e)) return
-      setError(e && e.message ? e.message : 'Chords search failed')
+      const message = e && e.message ? e.message : 'Chords search failed'
+      setError(message)
     } finally {
       job.finish(ctx.generation)
       if (ctx.isCurrent()) {
@@ -186,9 +187,22 @@ export default function ChordsSearchButton({
       {error && (
         <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
           {error}
-          {resolverAvailable && (
+          {error.indexOf('Ultimate Guitar blocks automated access') >= 0 ? (
+            <div style={{ marginTop: '0.5em' }}>
+              Use <strong>Paste chord sheet</strong> in the chord editor to import copied Ultimate Guitar text.
+            </div>
+          ) : null}
+          {error.indexOf('No chord sheet found in local collections') >= 0 ? (
+            <div style={{ marginTop: '0.5em' }}>
+              Ultimate Guitar and similar sites need the media resolver, or paste the chord sheet manually.
+            </div>
+          ) : null}
+          {(resolverAvailable || error.indexOf('Could not reach') >= 0 || error === 'Network Error') && (
             <div style={{ marginTop: '0.5em' }}>
               <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+              {error.indexOf('Could not reach') >= 0 || error === 'Network Error' ? (
+                <span> — or start the local resolver with <code>cd local-resolver &amp;&amp; docker compose up</code></span>
+              ) : null}
             </div>
           )}
         </Alert>

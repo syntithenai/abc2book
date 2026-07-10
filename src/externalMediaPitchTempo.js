@@ -8,12 +8,13 @@ import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
 import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet } from './audioStemCache';
 
 export default class ExternalMediaPitchTempo {
-  constructor(onTimeUpdate, onEnded, audioContext) {
+  constructor(onTimeUpdate, onEnded, audioContext, onPitchOutputReady) {
     this._ownsAudioContext = !audioContext;
     this.audioContext = audioContext || new (window.AudioContext || window.webkitAudioContext)();
     this.shifter = null;
     this.onTimeUpdate = onTimeUpdate;
     this.onEnded = onEnded;
+    this._onPitchOutputReady = onPitchOutputReady || null;
     this._duration = 0;
     this._loadAborted = false;
     this._sourceBuffer = null;
@@ -73,7 +74,8 @@ export default class ExternalMediaPitchTempo {
       },
       () => {
         if (this.onEnded) this.onEnded();
-      }
+      },
+      this._onPitchOutputReady
     );
     return this._duration;
   }
@@ -207,7 +209,10 @@ export default class ExternalMediaPitchTempo {
     if (!this.shifter) return;
     const opts = options || {};
     const nextFilters = audioFilters || this._audioFilters;
-    if (nextFilters && !audioFiltersAreNeutral(nextFilters)) {
+    const filtersActive = !!(nextFilters && !audioFiltersAreNeutral(nextFilters));
+    const hadActiveFilters = !!(this._audioFilters && !audioFiltersAreNeutral(this._audioFilters));
+
+    if (filtersActive) {
       if (this._stemBuffers) {
         this.applyStemMix(nextFilters);
       } else {
@@ -216,9 +221,12 @@ export default class ExternalMediaPitchTempo {
           this.applyStemMix(nextFilters);
         }
       }
-    } else if (this._sourceBuffer) {
+    } else if (hadActiveFilters && this._sourceBuffer) {
       this.shifter.replaceBuffer(this._sourceBuffer, true);
       this._duration = this._sourceBuffer.duration;
+      this._audioFilters = null;
+    } else if (!filtersActive) {
+      this._audioFilters = null;
     }
     this.shifter.applySettings(tempo, pitch, fineTune);
   }

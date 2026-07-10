@@ -1265,6 +1265,37 @@ a.header-now-playing-label:focus {
   min-width: 0;
 }
 
+.header-dropdown-actions-group {
+  width: 100%;
+  display: flex;
+}
+
+.header-dropdown-actions-group > .header-dropdown-add-trigger > .header-dropdown-add-btn {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+}
+
+.header-dropdown-actions-group:has(.header-dropdown-review-btn) > .header-dropdown-add-trigger > .header-dropdown-add-btn {
+  flex: 4 1 0;
+  width: auto;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.header-dropdown-actions-group > .header-dropdown-review-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
+  white-space: nowrap;
+}
+
+.header-dropdown-actions-group:has(.header-dropdown-review-btn) > .header-dropdown-review-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: calc(var(--bs-border-width, 1px) * -1);
+}
+
 .header-dropdown-btn-label {
   display: inline-flex;
   align-items: center;
@@ -1404,7 +1435,8 @@ a.header-now-playing-label:focus {
 .books-page-section {
   margin-top: 1.5em;
   padding-top: 0.5em;
-  scroll-margin-top: 5.5em;
+  /* Fixed header sticky top + collection nav height + breathing room */
+  scroll-margin-top: calc(4.5em + 1em + 2.25rem + 0.5em);
 }
 
 .books-page-section-title {

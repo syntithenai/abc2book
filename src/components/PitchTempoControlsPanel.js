@@ -97,6 +97,7 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
   if (!tune) return null;
 
   const tempoPercent = Math.round(tempo * 100);
+  const pitchShiftPreparing = !!(mediaController && mediaController.pitchShiftPreparing);
 
   return (
     <div className="pitch-tempo-panel">
@@ -138,7 +139,18 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
       {showPitchControls && (
       <div className="control-section">
         <div className="control-section-header">
-          <h6>Pitch</h6>
+          <h6>
+            Pitch
+            {pitchShiftPreparing && (
+              <span
+                className="pitch-shift-preparing-icon"
+                aria-hidden="true"
+                title="Applying pitch shift…"
+              >
+                {tunebook.icons.waiting}
+              </span>
+            )}
+          </h6>
           <div className="header-inline-actions">
             <Button variant="outline-secondary" size="sm" onClick={resetPitch}>Reset</Button>
           </div>
@@ -156,7 +168,29 @@ export default function PitchTempoControlsPanel({ tune, tunebook, mediaControlle
           onChange={(e) => handlePitchChange(parseInt(e.target.value, 10))}
           className="slider pitch-slider"
         />
-        <div className="slider-labels"><span>-12</span><span>0</span><span>+12</span></div>
+        <div className="slider-labels">
+          <span
+            className="pitch-slider-label"
+            role="button"
+            tabIndex={0}
+            onClick={function() { handlePitchChange(-12) }}
+            onKeyDown={function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handlePitchChange(-12) } }}
+          >-12</span>
+          <span
+            className="pitch-slider-label"
+            role="button"
+            tabIndex={0}
+            onClick={function() { handlePitchChange(0) }}
+            onKeyDown={function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handlePitchChange(0) } }}
+          >0</span>
+          <span
+            className="pitch-slider-label"
+            role="button"
+            tabIndex={0}
+            onClick={function() { handlePitchChange(12) }}
+            onKeyDown={function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handlePitchChange(12) } }}
+          >+12</span>
+        </div>
       </div>
       )}
 

@@ -1,4 +1,4 @@
-import { enrichmentSummary } from './importReviewEnrichmentQueue'
+import { enrichmentSummary, findEnrichmentJob } from './importReviewEnrichmentQueue'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getAllMediaAnalysisJobs, getMediaAnalysisJob } from './mediaAnalysisJobs'
 
@@ -43,16 +43,20 @@ export function getBackgroundReviewSummary() {
   const enrichSummary = enrichmentSummary(jobs)
 
   let importReady = 0
-  jobs.forEach(function(job) {
-    if (job.status === 'done' && job.enrichedTune && !imported[job.candidateId]) {
-      importReady += 1
-    }
+  const importReadyIds = []
+  const candidates = importSession && Array.isArray(importSession.candidates)
+    ? importSession.candidates
+    : []
+  candidates.forEach(function(candidate) {
+    if (!candidate || !candidate.id || imported[candidate.id]) return
+    const job = findEnrichmentJob(jobs, candidate.id)
+    if (job && (job.status === 'pending' || job.status === 'running')) return
+    importReady += 1
+    importReadyIds.push(String(candidate.id))
   })
 
-  const importProcessing = enrichSummary.pending + enrichSummary.running + enrichSummary.awaiting
-  const importTotal = importSession && Array.isArray(importSession.candidates)
-    ? importSession.candidates.length
-    : 0
+  const importProcessing = enrichSummary.pending + enrichSummary.running
+  const importTotal = candidates.length
 
   const mediaReady = []
   const mediaProcessing = []
@@ -77,6 +81,7 @@ export function getBackgroundReviewSummary() {
     processing: processing,
     total: total,
     importReady: importReady,
+    importReadyIds: importReadyIds,
     importProcessing: importProcessing,
     importTotal: importTotal,
     mediaReady: mediaReady,

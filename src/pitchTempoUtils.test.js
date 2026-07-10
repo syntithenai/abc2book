@@ -4,6 +4,7 @@ import {
   getAudioFilterSettings,
   getMediaPlaybackSettings,
   normalizeAudioFilters,
+  pitchShiftIsActive,
   playbackNeedsExternalProcessing,
 } from './pitchTempoUtils';
 
@@ -32,6 +33,12 @@ describe('audio filter settings', function() {
       playbackAudioFilters: { percussion: 1, vocals: 0.5, bass: 1, other: 1 },
     });
     expect(playbackNeedsExternalProcessing(settings)).toBe(true);
+  });
+
+  test('detects active pitch shift', function() {
+    expect(pitchShiftIsActive(0, 0)).toBe(false);
+    expect(pitchShiftIsActive(2, 0)).toBe(true);
+    expect(pitchShiftIsActive(0, 25)).toBe(true);
   });
 
   test('clamps filter values', function() {

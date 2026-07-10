@@ -62,29 +62,32 @@ Tuner.prototype.initGetUserMedia = function() {
 }
 
 Tuner.prototype.startRecord = function () {
-  //console.log('startrec')
   const self = this
+  if (!self.pitchDetector || !self.audioContext) return
+  self.stopInput()
   navigator.mediaDevices
-    .getUserMedia({ audio: true })
+    .getUserMedia(self.getAudioConstraints())
     .then(function(stream) {
+      self.mediaStream = stream
       self.audioContext.createMediaStreamSource(stream).connect(self.analyser)
       self.analyser.connect(self.scriptProcessor)
       self.scriptProcessor.connect(self.audioContext.destination)
-      self.scriptProcessor.addEventListener('audioprocess', function(event) {
+      self.scriptProcessor.onaudioprocess = function(event) {
         const frequency = self.pitchDetector.do(
           event.inputBuffer.getChannelData(0)
         )
-        if (frequency && self.onNoteDetected) {
-          const note = self.getNote(frequency)
-          self.onNoteDetected({
-            name: self.noteStrings[note % 12],
-            value: note,
-            cents: self.getCents(frequency, note),
-            octave: parseInt(note / 12) - 1,
-            frequency: frequency
-          })
+        if (!frequency) return
+        const note = self.getNote(frequency)
+        const payload = {
+          name: self.noteStrings[note % 12],
+          value: note,
+          cents: self.getCents(frequency, note),
+          octave: parseInt(note / 12) - 1,
+          frequency: frequency
         }
-      })
+        if (self.onPitchSample) self.onPitchSample(payload)
+        if (self.onNoteDetected) self.onNoteDetected(payload)
+      }
     })
     .catch(function(error) {
       alert(error.name + ': ' + error.message)
@@ -145,9 +148,32 @@ Tuner.prototype.getStandardFrequency = function(note) {
  * @returns {number}
  */
 Tuner.prototype.getCents = function(frequency, note) {
-  return Math.floor(
-    (1200 * Math.log(frequency / this.getStandardFrequency(note))) / Math.log(2)
-  )
+  return (1200 * Math.log(frequency / this.getStandardFrequency(note))) / Math.log(2)
+}
+
+Tuner.prototype.setInputDevice = function(deviceId) {
+  this.inputDeviceId = deviceId || null
+  if (this.pitchDetector && this.audioContext) {
+    this.startRecord()
+  }
+}
+
+Tuner.prototype.stopInput = function() {
+  if (this.scriptProcessor) {
+    this.scriptProcessor.disconnect()
+    this.scriptProcessor.onaudioprocess = null
+  }
+  if (this.mediaStream) {
+    this.mediaStream.getTracks().forEach(function(track) { track.stop() })
+    this.mediaStream = null
+  }
+}
+
+Tuner.prototype.getAudioConstraints = function() {
+  if (this.inputDeviceId) {
+    return { audio: { deviceId: { exact: this.inputDeviceId } } }
+  }
+  return { audio: true }
 }
 
 /**

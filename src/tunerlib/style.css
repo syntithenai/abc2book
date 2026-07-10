@@ -9,11 +9,13 @@
   margin-bottom: 1rem;
 }
 
-.tuner-instruments {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-bottom: 0.75rem;
+.tuner-notes-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
 }
 
 .tuner-row {
@@ -21,6 +23,10 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem;
+}
+
+.tuner-instrument-select {
+  max-width: 200px;
 }
 
 .tuner-preset-select {
@@ -63,18 +69,6 @@
   border-color: #f39c12;
 }
 
-.tuner-meter-wrap.tuner-in-tune .meter-pointer {
-  background: #27ae60;
-}
-
-.tuner-meter-wrap.tuner-amber .meter-pointer {
-  background: #f39c12;
-}
-
-.tuner-meter-wrap.tuner-sharp .meter-pointer {
-  background: #e74c3c;
-}
-
 .tuner-tap-hint {
   font-size: 0.9rem;
 }
@@ -89,40 +83,182 @@
   font-size: 0.9rem;
 }
 
-.tuner-meter-wrap {
-  position: relative;
-  min-height: 420px;
+.tuner-reference-btn {
+  flex: 0 0 auto;
 }
 
-.tuner-meter-wrap .notes {
-  position: relative;
-  top: auto;
-  left: auto;
-  right: auto;
+.tuner-notes-strip {
+  margin: 0 auto 0.75rem;
   width: 100%;
-  margin: 1rem auto;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
 }
 
-.tuner-meter-wrap .meter {
-  position: relative;
-  bottom: auto;
-  margin: 2rem auto 0;
+.tuner-settings-row {
+  margin-top: 0.5rem;
+  align-items: center;
 }
 
-.tuner-meter-wrap .frequency-bars {
-  position: relative;
+.tuner-mic-select {
+  max-width: 220px;
+}
+
+.tuner-gate-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  min-width: 120px;
+}
+
+.tuner-gate-label input {
+  width: 80px;
+}
+
+.tuner-display-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.tuner-stability-meter {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.tuner-stability-value {
+  font-weight: 600;
+}
+
+.tuner-stability-good .tuner-stability-value {
+  color: #27ae60;
+}
+
+.tuner-stability-ok .tuner-stability-value {
+  color: #f39c12;
+}
+
+.tuner-stability-poor .tuner-stability-value {
+  color: #e74c3c;
+}
+
+.tuner-readout-note {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.tuner-readout-held {
+  opacity: 0.75;
+}
+
+.tuner-readout-held-label {
+  font-size: 0.75rem;
+  color: #adb5bd;
+  margin-top: 0.15rem;
+}
+
+.tuner-display-panel.tuner-in-tune-flash {
+  box-shadow: 0 0 0 2px rgba(39, 174, 96, 0.45);
+}
+
+.tuner-display-panel {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  background: #fff;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tuner-display-main {
+  flex: 1 1 auto;
+  min-height: 240px;
+  padding: 0.5rem 0.75rem 0;
+}
+
+.tuner-vu-meter,
+.tuner-pitch-graph {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+}
+
+.tuner-vu-canvas,
+.tuner-pitch-canvas {
+  width: 100%;
+  height: 220px;
   display: block;
-  width: 100%;
-  margin: 0 auto;
+}
+
+.tuner-readout {
+  text-align: center;
+  margin-top: -0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.tuner-readout-cents {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.tuner-readout-freq {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.tuner-volume-meter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.75rem 0.75rem;
+  border-top: 1px solid #e9ecef;
+  background: #f8f9fa;
+}
+
+.tuner-volume-icon {
+  color: #adb5bd;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.tuner-volume-segments {
+  display: flex;
+  gap: 0.2rem;
+  flex: 1 1 auto;
+}
+
+.tuner-volume-segment {
+  flex: 1 1 0;
+  height: 0.85rem;
+  border-radius: 2px;
+  background: #e9ecef;
+}
+
+.tuner-display-panel.tuner-in-tune {
+  border-color: #27ae60;
+}
+
+.tuner-display-panel.tuner-amber {
+  border-color: #f39c12;
+}
+
+.tuner-display-panel.tuner-sharp {
+  border-color: #e74c3c;
 }
 
 .notes {
   margin: auto;
   width: 400px;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 
@@ -133,6 +269,7 @@
   display: inline-block;
   padding-right: 30px;
   padding-left: 10px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .note.active {
@@ -156,10 +293,6 @@
   display: none;
 }
 
-.note {
-  -webkit-tap-highlight-color: transparent;
-}
-
 .note span {
   position: absolute;
   right: 0.25em;
@@ -175,74 +308,9 @@
   bottom: 0.3em;
 }
 
-.frequency {
-  font-size: 32px;
-}
-
-.frequency span {
-  font-size: 50%;
-  margin-left: 0.25em;
-}
-
-.meter {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 50%;
-  width: 400px;
-  height: 33%;
-  margin: 0 auto 5vh auto;
-}
-
-.meter-pointer {
-  width: 2px;
-  height: 100%;
-  background: #2c3e50;
-  transform: rotate(45deg);
-  transform-origin: bottom;
-  transition: transform 0.5s;
-  position: absolute;
-  right: 50%;
-}
-
-.meter-dot {
-  width: 10px;
-  height: 10px;
-  background: #2c3e50;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -5px;
-  right: 50%;
-  margin-right: -4px;
-}
-
-.meter-scale {
-  width: 1px;
-  height: 100%;
-  transform-origin: bottom;
-  transition: transform 0.2s;
-  box-sizing: border-box;
-  border-top: 10px solid;
-  position: absolute;
-  right: 50%;
-}
-
-.meter-scale-strong {
-  width: 2px;
-  border-top-width: 20px;
-}
-
-.frequency-bars {
-  position: fixed;
-  bottom: 0;
-}
-
 @media (max-width: 768px) {
-  .meter {
-    width: 100%;
-  }
-
-  .notes {
+  .notes,
+  .tuner-notes-strip {
     width: 100%;
   }
 }
