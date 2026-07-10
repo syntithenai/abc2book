@@ -41,19 +41,19 @@ describe('printTuneViewMode', function() {
     expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyricsOnly');
   });
 
-  it('defaults lyric-only sheets with chords to chords block', function() {
+  it('defaults lyric-only sheets with chords to lyrics, structure, and chords', function() {
     const tune = {
       wLines: ['Am   G', 'Lyrics here'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('chordsBlock');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyrics,structure,chords,noinfo');
   });
 
-  it('defaults chord-symbol-only abc with rests to chords block', function() {
+  it('defaults chord-symbol-only abc with rests to lyrics, structure, and chords', function() {
     const tune = {
       voices: { v: { notes: ['| "D" z2 "G" z "A" z |', '|z4 z4 z4 z4|'] } },
       wLines: ['Well I have been free as a bird'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('chordsBlock');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('lyrics,structure,chords,noinfo');
   });
 
   it('defaults notation+lyrics without chords to notation+lyrics composite', function() {
@@ -67,19 +67,21 @@ describe('printTuneViewMode', function() {
     })).toBe('notation,lyrics,noinfo');
   });
 
-  it('defaults notation+lyrics with chords to musicAndLyrics', function() {
+  it('defaults notation+lyrics with chords to notation, lyrics, structure, and chords', function() {
     const tune = {
       voices: { v: { notes: ['CDEF|'] } },
       wLines: ['Plain lyrics line'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('musicAndLyrics');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('notation,lyrics,structure,chords,noinfo');
   });
 
-  it('defaults notation-only tunes to music', function() {
+  it('defaults notation-only tunes without chords to music', function() {
     const tune = {
       voices: { v: { notes: ['CDEF|'] } },
       wLines: [],
     };
-    expect(resolvePrintViewMode(tune, 'chordsBlock', tunebook, abcjsParser)).toBe('music');
+    expect(resolvePrintViewMode(tune, 'chordsBlock', tunebook, {
+      renderChords: function() { return ''; },
+    })).toBe('music');
   });
 });

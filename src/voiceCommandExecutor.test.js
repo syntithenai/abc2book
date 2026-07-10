@@ -1,5 +1,6 @@
 import {
   findTuneCandidates,
+  formatVoiceCommandFeedback,
   hasSearchCueWords,
   isMeaningfulVoiceTranscript,
   scoreTuneMatch,
@@ -9,6 +10,13 @@ import {
 import { executeVoiceCommand } from './voiceCommandExecutor';
 
 describe('voiceCommandUtils', function() {
+  test('formatVoiceCommandFeedback combines transcript and action', function() {
+    expect(formatVoiceCommandFeedback('show wild rover', 'Opening Wild Rover'))
+      .toBe('"show wild rover" — Opening Wild Rover');
+    expect(formatVoiceCommandFeedback('', 'Stopped playback')).toBe('Stopped playback');
+    expect(formatVoiceCommandFeedback('hello', '')).toBe('hello');
+  });
+
   test('stripVoiceCommandWords removes command prefixes', function() {
     expect(stripVoiceCommandWords('show down by the sally gardens')).toBe('down sally gardens');
   });
@@ -340,6 +348,68 @@ describe('voiceCommandExecutor', function() {
     expect(result.ok).toBe(false);
     expect(context.onFeedback).toHaveBeenCalledWith('No matches for ...');
     expect(context.onDisambiguate).not.toHaveBeenCalled();
+    expect(context.tunebook.navigate).not.toHaveBeenCalled();
+  });
+
+  test('executeVoiceCommand stays silent when disambiguation picker is dismissed', async function() {
+    const context = {
+      tunes: {
+        t1: { id: 't1', name: 'Whats the Time', composer: '' },
+        t2: { id: 't2', name: 'Whats the Time Mr Wolf', composer: '' },
+      },
+      tunebook: {
+        navigate: jest.fn(),
+      },
+      setCurrentTune: jest.fn(),
+      setFilter: jest.fn(),
+      setCurrentTuneBook: jest.fn(),
+      setTagFilter: jest.fn(),
+      setGroupBy: jest.fn(),
+      onDisambiguate: jest.fn(function() {
+        return Promise.resolve(null);
+      }),
+      onFeedback: jest.fn(),
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: "show what's time",
+      tool: 'SHOW',
+      title: "what's time",
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(false);
+    expect(context.onDisambiguate).toHaveBeenCalled();
+    expect(context.onFeedback).not.toHaveBeenCalled();
+    expect(context.tunebook.navigate).not.toHaveBeenCalled();
+  });
+
+  test('executeVoiceCommand reports multiple matches when no disambiguation handler', async function() {
+    const context = {
+      tunes: {
+        t1: { id: 't1', name: 'Whats the Time', composer: '' },
+        t2: { id: 't2', name: 'Whats the Time Mr Wolf', composer: '' },
+      },
+      tunebook: {
+        navigate: jest.fn(),
+      },
+      setCurrentTune: jest.fn(),
+      setFilter: jest.fn(),
+      setCurrentTuneBook: jest.fn(),
+      setTagFilter: jest.fn(),
+      setGroupBy: jest.fn(),
+      onFeedback: jest.fn(),
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: "show what's time",
+      tool: 'SHOW',
+      title: "what's time",
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(false);
+    expect(context.onFeedback).toHaveBeenCalledWith('Multiple tunes match "what\'s time"');
     expect(context.tunebook.navigate).not.toHaveBeenCalled();
   });
 });

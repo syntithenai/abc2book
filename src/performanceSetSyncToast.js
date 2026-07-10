@@ -29,7 +29,6 @@ export function showPerformanceSetSyncToast(result) {
   }
 
   if (lines.length === 0) {
-    toast.info('Set lists synced', { autoClose: 4000 });
     return;
   }
 

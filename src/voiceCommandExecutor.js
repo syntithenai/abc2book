@@ -151,6 +151,7 @@ async function executeShow(query, context, transcriptLabel) {
       navigateToTune(context, picked);
       return { ok: true, tune: picked };
     }
+    return { ok: false };
   }
 
   if (context.onFeedback) context.onFeedback('Multiple tunes match "' + cleaned + '"');

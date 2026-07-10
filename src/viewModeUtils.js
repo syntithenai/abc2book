@@ -410,6 +410,7 @@ export function defaultViewModeForTune(tune, tunebook, options) {
   } else if (available.info) {
     flags.info = true;
   }
+  if (available.chords) flags.chords = true;
   return displayFlagsToViewMode(flags);
 }
 

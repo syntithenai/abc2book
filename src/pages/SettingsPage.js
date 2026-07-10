@@ -198,9 +198,7 @@ export default function SettingsPage(props) {
     Promise.resolve(tunebook.utils.cleanupHalfDownloadedAudioCache(lockedTuneIds)).then(function(result) {
       const removed = result && result.removed != null ? result.removed : 0
       const remaining = result && result.remaining != null ? result.remaining : 0
-      if (removed === 0) {
-        toast.info('Audio cache is empty.')
-      } else {
+      if (removed > 0) {
         toast.success('Removed ' + removed + ' audio cache entr' + (removed === 1 ? 'y' : 'ies') + ' (' + remaining + ' remaining).')
       }
       refreshCacheStats()
@@ -218,9 +216,7 @@ export default function SettingsPage(props) {
     try {
       const checkFn = typeof props.onCheckMergeNow === 'function' ? props.onCheckMergeNow : runMergeChecksNow
       const ran = await checkFn()
-      if (ran) {
-        toast.info('Merge check complete. You will see a notification if updates are available.')
-      } else {
+      if (!ran) {
         toast.warning('Merge check is not available right now.')
       }
     } catch (e) {

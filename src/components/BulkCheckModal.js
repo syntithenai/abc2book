@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Button, Form, Modal } from 'react-bootstrap'
-import { toast } from 'react-toastify'
 import BulkCheckTuneList from './BulkCheckTuneList'
 import BulkCheckTuneEditorModal from './BulkCheckTuneEditorModal'
 import SearchProgressBar from './SearchProgressBar'
@@ -258,7 +257,6 @@ export default function BulkCheckModal(props) {
   function handleCheckLinksClick() {
     if (isLinkChecking) {
       cancelBulkCheckRun()
-      toast.info('Link check cancelled.')
       return
     }
     runLinkCheck()

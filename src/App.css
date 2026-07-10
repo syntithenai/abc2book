@@ -6726,6 +6726,55 @@ button img:after {
   flex-wrap: wrap;
 }
 
+.import-field-suggestion .dropdown-toggle {
+  font-size: 0.82rem;
+  padding: 0.15rem 0.55rem;
+  max-width: 18rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.import-field-suggestion-menu {
+  min-width: 16rem;
+  max-width: 28rem;
+  padding: 0.65rem;
+}
+
+.import-field-suggestion-preview {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 14rem;
+  overflow-y: auto;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.import-field-suggestion-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tune-record-form-advanced .accordion-button {
+  font-size: 0.95rem;
+  padding: 0.55rem 0.85rem;
+}
+
+.tune-record-form-json-preview {
+  font-size: 0.82rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  padding: 0.5rem;
+  max-height: 10rem;
+  overflow: auto;
+  margin-bottom: 0;
+}
+
+.review-notation-merge-preview .abcjs-container {
+  margin-bottom: 0.5rem;
+}
+
 .settings-background-jobs-section {
   overflow: hidden;
 }

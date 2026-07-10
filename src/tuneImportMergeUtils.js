@@ -106,7 +106,7 @@ function normalizeLinkUrl(url) {
   return trimmed.replace(/\/$/, '').toLowerCase();
 }
 
-function linkCompareKey(link) {
+export function linkCompareKey(link) {
   if (!link || !link.link) return '';
   const urlKey = normalizeLinkUrl(link.link);
   const title = String(link.title || link.name || '').trim().toLowerCase();

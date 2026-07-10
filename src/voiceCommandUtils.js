@@ -16,6 +16,13 @@ const SEARCH_CUE_WORDS = new Set([
 
 export const VOICE_CONFIDENCE_THRESHOLD = 0.55;
 
+export function formatVoiceCommandFeedback(transcript, message) {
+  const spoken = String(transcript || '').trim();
+  const action = String(message || '').trim();
+  if (spoken && action) return '"' + spoken + '" — ' + action;
+  return action || spoken;
+}
+
 function toSearchText(text) {
   return text ? String(text).toLowerCase().trim() : '';
 }

@@ -202,7 +202,14 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     var opts = options || {}
     var tune = tunes[tuneId]
     if (opts.startPlayback && opts.mediaController && tune && item) {
-      playQueueItem(opts.mediaController, playbackApi(), tune, item, { fromUserGesture: true })
+      if (opts.mediaController.preparePlaybackFromUserGesture) {
+        opts.mediaController.preparePlaybackFromUserGesture()
+      }
+      var playOpts = { fromUserGesture: true }
+      if (opts.navigate !== false && navigateFn) {
+        playOpts.deferPlaybackEngine = true
+      }
+      playQueueItem(opts.mediaController, playbackApi(), tune, item, playOpts)
     }
     if (opts.navigate !== false && navigateFn) {
       if (tune) {

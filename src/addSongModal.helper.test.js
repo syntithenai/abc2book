@@ -9,14 +9,16 @@ describe('processReviewResult', () => {
     const started = jest.fn()
     const toast = { success: jest.fn(), info: jest.fn() }
 
-    const handled = processReviewResult(result, importContext, applied, started, toast)
-    expect(handled).toBe(true)
+    const outcome = processReviewResult(result, importContext, applied, started, toast)
+    expect(outcome.handled).toBe(true)
+    expect(outcome.closeModal).toBe(false)
+    expect(outcome.inline).toBe(true)
     expect(applied).toHaveBeenCalledWith(tune)
-    expect(toast.success).toHaveBeenCalledWith('Imported into Add form')
+    expect(toast.success).toHaveBeenCalledWith('Imported into form')
     expect(started).not.toHaveBeenCalled()
   })
 
-  test('queues review for non-inline sources', () => {
+  test('queues review for non-inline sources and requests modal close', () => {
     const tune = { name: 'Audio Tune' }
     const result = { action: 'review', candidates: [{ sourceKind: 'audio', tune }] }
     const importContext = { stayOnForm: true }
@@ -24,8 +26,10 @@ describe('processReviewResult', () => {
     const started = jest.fn()
     const toast = { success: jest.fn(), info: jest.fn() }
 
-    const handled = processReviewResult(result, importContext, applied, started, toast)
-    expect(handled).toBe(true)
+    const outcome = processReviewResult(result, importContext, applied, started, toast)
+    expect(outcome.handled).toBe(true)
+    expect(outcome.closeModal).toBe(true)
+    expect(outcome.inline).toBe(false)
     expect(applied).not.toHaveBeenCalled()
     expect(started).toHaveBeenCalledWith(result.candidates)
     expect(toast.info).not.toHaveBeenCalled()

@@ -220,7 +220,12 @@ describe('viewModeUtils display flags', function() {
       { voices: {}, wLines: ['Hello'] },
       tunebook,
       { hasChords: true }
-    )).toBe('chordsBlock');
+    )).toBe('lyrics,structure,chords,noinfo');
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['| "D" z2 |'] } }, wLines: [] },
+      tunebook,
+      { hasChords: true }
+    )).toBe('notation,chords,noinfo');
   });
 });
 

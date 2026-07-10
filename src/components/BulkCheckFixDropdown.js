@@ -74,7 +74,6 @@ export default function BulkCheckFixDropdown(props) {
       }
       if (props.forceRefresh) props.forceRefresh()
       if (props.onFixComplete) props.onFixComplete(synced)
-      toast.success(actionId === 'searchAll' ? 'Search All completed.' : 'Fix applied.')
     } catch (e) {
       if (e && e.name !== 'AbortError') {
         toast.error(e && e.message ? e.message : 'Fix failed.')

@@ -4,6 +4,7 @@ import {
   markCandidateImported,
   beginMergeForCandidateIndex,
   beginEnrichmentPhase,
+  deferCandidateForEnhancement,
   skipYoutubeAllRemaining,
   isReviewComplete,
   shouldSkipYoutubeStep,
@@ -71,6 +72,28 @@ describe('importReviewSession', function() {
     const skipped = skipYoutubeAllRemaining(session);
     expect(skipped.skipYoutubeForRemaining).toBe(true);
     expect(skipped.step).toBe('review');
+  });
+
+  test('deferCandidateForEnhancement advances without marking imported', function() {
+    const session = createImportReviewSession([
+      { id: 'a', tune: { name: 'A' } },
+      { id: 'b', tune: { name: 'B' } },
+    ]);
+    const job = createEnrichmentJob(session.candidates[0]);
+    const jobs = startEnrichmentJob([job], job.id);
+    const next = deferCandidateForEnhancement(session, jobs);
+    expect(next.index).toBe(1);
+    expect(next.step).toBe('review');
+    expect(next.importedCandidateIds).toEqual({});
+    expect(next.enrichmentJobs[0].status).toBe('pending');
+  });
+
+  test('deferCandidateForEnhancement ends session when no more candidates', function() {
+    const session = createImportReviewSession([{ id: 'a', tune: { name: 'A' } }]);
+    const job = createEnrichmentJob(session.candidates[0]);
+    const jobs = startEnrichmentJob([job], job.id);
+    const next = deferCandidateForEnhancement(session, jobs);
+    expect(next.step).toBe('done');
   });
 
   test('beginEnrichmentPhase opens queue step', function() {

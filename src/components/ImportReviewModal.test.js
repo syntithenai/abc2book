@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client';
 import { act } from 'react-dom/test-utils';
 import ImportReviewModal from './ImportReviewModal';
 import { createImportReviewSession } from '../importReviewSession';
-import { applyTuneImportSelections } from '../tuneImportMergeUtils';
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 
@@ -85,11 +84,9 @@ jest.mock('./ComposerCandidateQuickPick', function() {
   };
 });
 
-jest.mock('./TuneImportFieldChooserModal', function() {
-  return {
-    TuneImportFieldPicker: function TuneImportFieldPicker() {
-      return <div data-testid="field-picker">Field picker</div>;
-    },
+jest.mock('./TuneRecordForm', function() {
+  return function TuneRecordForm() {
+    return <div data-testid="tune-record-form">Tune record form</div>;
   };
 });
 
@@ -162,30 +159,6 @@ jest.mock('../tuneCollectionMatch', function() {
   };
 });
 
-jest.mock('../tuneImportMergeUtils', function() {
-  return {
-    applyTuneImportSelections: jest.fn(function(originalTune, importedTune) {
-      return Object.assign({}, originalTune, importedTune);
-    }),
-    buildDefaultTuneImportSelections: jest.fn(function(rows) {
-      const selections = {};
-      (rows || []).forEach(function(row) {
-        selections[row.key] = true;
-      });
-      return selections;
-    }),
-    buildTuneImportFieldRows: jest.fn(function(originalTune, importedTune) {
-      return [{
-        key: 'name',
-        label: 'Title',
-        differs: (originalTune && originalTune.name) !== (importedTune && importedTune.name),
-        originalDisplay: (originalTune && originalTune.name) || '',
-        importedDisplay: (importedTune && importedTune.name) || '',
-      }];
-    }),
-  };
-});
-
 function renderModal(props) {
   const container = document.createElement('div');
   document.body.appendChild(container);
@@ -227,37 +200,22 @@ function buildProps(overrides) {
     onClose: jest.fn(),
     onSessionChange: jest.fn(),
     onFinishCandidate: jest.fn(),
+    onEnhanceAndAdvance: jest.fn(),
     onComplete: jest.fn(),
   }, overrides || {});
 }
 
 describe('ImportReviewModal', function() {
-  test('exposes merge regions and disclosure state for accessibility', async function() {
+  test('renders shared tune form and merge choices panel', async function() {
     const view = renderModal();
     const props = buildProps();
 
     await view.render(props);
 
+    expect(view.container.querySelector('[data-testid="tune-record-form"]')).toBeTruthy();
+
     const mergeChoicesRegion = view.container.querySelector('[aria-label="Merge choices"]');
     expect(mergeChoicesRegion).toBeTruthy();
-
-    const toggleButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
-      return button.textContent === 'Show details';
-    });
-    expect(toggleButton).toBeTruthy();
-    expect(toggleButton.getAttribute('aria-expanded')).toBe('false');
-    expect(toggleButton.getAttribute('aria-controls')).toBe('import-review-merge-details');
-
-    await act(async function() {
-      toggleButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      await Promise.resolve();
-    });
-
-    expect(toggleButton.getAttribute('aria-expanded')).toBe('true');
-    const detailsRegion = view.container.querySelector('#import-review-merge-details');
-    expect(detailsRegion).toBeTruthy();
-    expect(detailsRegion.getAttribute('role')).toBe('region');
-    expect(detailsRegion.getAttribute('aria-label')).toBe('Merge field details');
 
     await view.unmount();
   });
@@ -308,7 +266,7 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
-  test('import with a selected merge target applies merge selections and advances the queue', async function() {
+  test('import with a selected merge target saves edited tune and advances the queue', async function() {
     const view = renderModal();
     const onSessionChange = jest.fn();
     const onFinishCandidate = jest.fn(function(updatedSession, done) {
@@ -337,10 +295,9 @@ describe('ImportReviewModal', function() {
       await Promise.resolve();
     });
 
-    expect(applyTuneImportSelections).toHaveBeenCalledTimes(1);
-    expect(applyTuneImportSelections.mock.calls[0][0].id).toBe('existing-1');
     expect(onFinishCandidate).toHaveBeenCalledTimes(1);
     expect(onFinishCandidate.mock.calls[0][0].candidates[0].mergeTargetId).toBe('existing-1');
+    expect(onFinishCandidate.mock.calls[0][0].candidates[0].tune.id).toBe('existing-1');
     expect(onSessionChange).toHaveBeenCalledTimes(1);
     expect(onSessionChange.mock.calls[0][0].index).toBe(1);
 

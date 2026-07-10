@@ -6,6 +6,7 @@ import {
   createImportReviewSession,
   beginMergeForJob,
   currentCandidate,
+  deferCandidateForEnhancement,
   updateCurrentCandidate,
 } from '../importReviewSession'
 import {
@@ -14,6 +15,7 @@ import {
   dismissContentHashDuplicateToast,
 } from '../contentHashDuplicates'
 import {
+  createEnrichmentJob,
   findEnrichmentJob,
   patchEnrichmentJob,
   runEnrichmentJob,
@@ -21,6 +23,7 @@ import {
   skipAllPendingEnrichmentJobs,
   clearEnrichmentQueue,
   nextReadyJob,
+  startEnrichmentJob,
 } from '../importReviewEnrichmentQueue'
 import {
   syncImportReviewEnrichment,
@@ -208,10 +211,28 @@ export default function ImportReviewBridge(props) {
     }
 
     if (result.action === 'review') {
-      const handled = processReviewResult(result, { stayOnForm: true }, applyImportedTune, appendCandidates, toast)
-      if (handled) return
+      const outcome = processReviewResult(result, { stayOnForm: true }, applyImportedTune, appendCandidates, toast)
+      if (outcome.handled) return
     }
   }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, abcjsParser, driveApi, updateSession, props.forceRefresh])
+
+  const handleEnhanceAndAdvance = useCallback(function(persistedSession) {
+    const candidate = currentCandidate(persistedSession)
+    if (!candidate) return
+    let jobs = (persistedSession.enrichmentJobs || []).slice()
+    let job = findEnrichmentJob(jobs, candidate.id)
+    if (!job) {
+      jobs.push(createEnrichmentJob(candidate))
+      job = findEnrichmentJob(jobs, candidate.id)
+    }
+    jobs = startEnrichmentJob(jobs, job.id)
+    const next = deferCandidateForEnhancement(persistedSession, jobs)
+    updateSession(Object.assign({}, next, { phase: 'enrichment' }))
+    if (next.step === 'done') {
+      hideImportReviewUi()
+      navigate('/tunes')
+    }
+  }, [updateSession, navigate])
 
   const handleReviewYouTubeImport = useCallback(function(link, draft) {
     if (!link || !link.link) return
@@ -289,7 +310,8 @@ export default function ImportReviewBridge(props) {
       clearImportReviewEnrichmentBridge()
       return undefined
     }
-    if (session.phase !== 'enrichment' && session.phase !== 'merge') {
+    const jobs = session.enrichmentJobs || []
+    if (!jobs.length) {
       clearImportReviewEnrichmentBridge()
       return undefined
     }
@@ -324,7 +346,6 @@ export default function ImportReviewBridge(props) {
   useEffect(function() {
     if (!session) return undefined
     if (session.skipEnrichment) return undefined
-    if (session.phase !== 'enrichment' && session.phase !== 'merge') return undefined
 
     const jobs = session.enrichmentJobs || []
     const running = jobs.find(function(job) { return job.status === 'running' })
@@ -489,6 +510,7 @@ export default function ImportReviewBridge(props) {
       onSessionChange={updateSession}
       onMatchComplete={handleMatchComplete}
       onFinishCandidate={handleFinishCandidate}
+      onEnhanceAndAdvance={handleEnhanceAndAdvance}
       onComplete={handleComplete}
       onOpenTune={props.onOpenTune}
       tunebook={props.tunebook}

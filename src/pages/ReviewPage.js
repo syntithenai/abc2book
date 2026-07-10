@@ -13,11 +13,7 @@ import {
   showImportReviewUi,
   subscribeImportReviewSession,
   getImportReviewSessionRevision,
-  getImportReviewSession,
-  setImportReviewSession,
 } from '../importReviewSessionStore'
-import { beginMergeForJob } from '../importReviewSession'
-import { nextReadyJob } from '../importReviewEnrichmentQueue'
 import { snoozeBackgroundReviewToast } from '../backgroundReviewToast'
 
 function useReviewSummary() {
@@ -48,13 +44,6 @@ export default function ReviewPage(props) {
 
   useEffect(function() {
     showImportReviewUi()
-    const session = getImportReviewSession()
-    if (session && session.phase === 'enrichment' && session.step === 'enrichmentQueue') {
-      const ready = nextReadyJob(session.enrichmentJobs, session.importedCandidateIds)
-      if (ready) {
-        setImportReviewSession(beginMergeForJob(session, ready))
-      }
-    }
   }, [])
 
   const hasImport = hasActiveImportReviewSession()

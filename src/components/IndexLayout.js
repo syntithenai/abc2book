@@ -16,6 +16,7 @@ import CollectionNav from './CollectionNav'
 import { tempoRangeSortKey } from '../tempoRange'
 import { generateCurrentPlaylist } from '../generateCurrentPlaylist'
 import { createQueue } from '../nowPlayingQueue'
+import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
 import { toast } from 'react-toastify'
 
 var LIST_PROTECTION_LIMIT = 500
@@ -477,13 +478,29 @@ export default function IndexLayout(props) {
             props.currentTuneBook,
             selectedIds,
             props.tagFilter,
-            navigate,
+            null,
             props.genreFilter,
             props.artistFilter
         )
         if (!tuneId) {
             toast.warn('No playable tunes found in the current list.')
+            return
         }
+
+        var mediaController = props.mediaController
+        var tune = props.tunes && props.tunes[tuneId]
+        if (!mediaController || !tune) {
+            navigate('/tunes/' + tuneId)
+            return
+        }
+
+        if (mediaController.preparePlaybackFromUserGesture) {
+            mediaController.preparePlaybackFromUserGesture()
+        }
+
+        var item = { tuneId: tuneId, prefer: 'auto' }
+        playQueueItem(mediaController, props.tunebook, tune, item, { deferPlaybackEngine: true })
+        navigateToQueueTune(navigate, tuneId, item, props.tunebook, props.tunes)
     }
 
     function handleGeneratePlaylist() {
@@ -503,7 +520,6 @@ export default function IndexLayout(props) {
           startPlayback: true,
           mediaController: props.mediaController,
         })
-        toast.success('Playing queue with ' + result.tuneIds.length + ' tunes')
     }
      
     return <div className="index-layout"  >

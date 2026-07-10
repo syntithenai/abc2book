@@ -3312,9 +3312,6 @@ export default function useTuneBookMediaController(props) {
         const failCallback = function(reason) {
             stop()
             setIsLoading(false)
-            if (reason === 'end') {
-                toast.info('Queue finished')
-            }
         }
         if (isQueueActive(props.nowPlayingQueue) && props.setNowPlayingQueue) {
             const playbackMode = playbackRouteRef.current.mode === 'midi'

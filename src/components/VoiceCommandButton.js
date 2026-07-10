@@ -5,7 +5,7 @@ import VoiceHelpAnswerModal from './VoiceHelpAnswerModal';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
-import { buildVoiceCatalogs } from '../voiceCommandUtils';
+import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
 
 const MIN_HOLD_MS = 300;
 const MAX_RECORD_MS = 12000;
@@ -70,6 +70,14 @@ export default function VoiceCommandButton(props) {
 
   function setKeyboardBlocked(blocked) {
     if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(blocked);
+  }
+
+  function pausePlaybackForVoice() {
+    const mediaController = props.mediaController;
+    if (!mediaController || !mediaController.pause) return;
+    if (mediaController.isPlaying || mediaController.isLoading) {
+      mediaController.pause();
+    }
   }
 
   async function startRecording() {
@@ -154,13 +162,12 @@ export default function VoiceCommandButton(props) {
         mode: props.voiceMode || 'playback',
         accessToken: props.token && props.token.access_token,
         signal: controller.signal,
-        onProgress: function(message) {
-          toast.info(message);
-        },
       });
 
       const speakFeedback = typeof window !== 'undefined'
         && localStorage.getItem('bookstorage_announcesong') === 'true';
+
+      const transcript = result && result.transcript ? result.transcript : '';
 
       await executeVoiceCommand(result, {
         tunes: props.tunes,
@@ -174,7 +181,7 @@ export default function VoiceCommandButton(props) {
         voiceMode: props.voiceMode || 'playback',
         speakFeedback: speakFeedback,
         onFeedback: function(message) {
-          toast.info(message);
+          toast.info(formatVoiceCommandFeedback(transcript, message));
         },
         onHelpAnswer: function(payload) {
           setHelpAnswer(payload || null);
@@ -208,6 +215,7 @@ export default function VoiceCommandButton(props) {
   function handlePointerDown(event) {
     event.preventDefault();
     if (state !== 'idle') return;
+    pausePlaybackForVoice();
     pointerActiveRef.current = true;
     event.currentTarget.setPointerCapture(event.pointerId);
     holdTimerRef.current = setTimeout(function() {
@@ -305,9 +313,6 @@ export default function VoiceCommandButton(props) {
         answer={helpAnswer && helpAnswer.answer ? helpAnswer.answer : ''}
         links={helpAnswer && helpAnswer.links ? helpAnswer.links : []}
         accessToken={props.token && props.token.access_token}
-        onProgress={function(message) {
-          toast.info(message);
-        }}
         onHide={function() { setShowHelpAnswer(false) }}
       />
     </>

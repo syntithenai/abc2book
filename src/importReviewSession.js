@@ -223,13 +223,48 @@ export function skipEnrichAllRemaining(session) {
 export function advanceCandidate(session) {
   const nextIndex = session.index + 1;
   if (nextIndex >= session.candidates.length) {
-    return beginEnrichmentPhase(session);
+    return Object.assign({}, session, {
+      step: 'done',
+      mergeIndex: null,
+      phase: 'identify',
+    });
   }
   return Object.assign({}, session, {
     index: nextIndex,
     step: 'review',
     phase: 'identify',
     mergeIndex: null,
+  });
+}
+
+function findNextReviewCandidateIndex(session, afterIndex) {
+  const candidates = session.candidates || [];
+  const imported = session.importedCandidateIds || {};
+  for (let i = afterIndex + 1; i < candidates.length; i += 1) {
+    const candidate = candidates[i];
+    if (!candidate || imported[candidate.id] || candidate.imported) continue;
+    return i;
+  }
+  return -1;
+}
+
+export function deferCandidateForEnhancement(session, enrichmentJobs) {
+  const currentIndex = session.mergeIndex != null ? session.mergeIndex : session.index;
+  const nextIndex = findNextReviewCandidateIndex(session, currentIndex);
+  if (nextIndex < 0) {
+    return Object.assign({}, session, {
+      enrichmentJobs: enrichmentJobs || session.enrichmentJobs || [],
+      step: 'done',
+      mergeIndex: null,
+      phase: 'identify',
+    });
+  }
+  return Object.assign({}, session, {
+    enrichmentJobs: enrichmentJobs || session.enrichmentJobs || [],
+    index: nextIndex,
+    mergeIndex: null,
+    phase: 'identify',
+    step: 'review',
   });
 }
 
