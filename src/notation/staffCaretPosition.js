@@ -262,6 +262,19 @@ export function barlineElementsForVoice(wrapEl, voiceStaffIndex) {
 
 export function findStaffClickNoteEl(wrapEl, analysis, mouseEvent) {
   if (!wrapEl) return null;
+  if (mouseEvent && typeof document.elementFromPoint === 'function') {
+    const hit = document.elementFromPoint(mouseEvent.clientX, mouseEvent.clientY);
+    let node = hit;
+    while (node && node !== wrapEl) {
+      if (node.classList) {
+        if (node.classList.contains('abcjs-note') || node.classList.contains('abcjs-rest')) return node;
+        for (let i = 0; i < node.classList.length; i += 1) {
+          if (node.classList[i].indexOf('abcjs-note') >= 0 || node.classList[i].indexOf('abcjs-rest') >= 0) return node;
+        }
+      }
+      node = node.parentNode;
+    }
+  }
   if (analysis && analysis.selectableElement) {
     const sel = analysis.selectableElement;
     if (sel.closest) {
@@ -274,19 +287,6 @@ export function findStaffClickNoteEl(wrapEl, analysis, mouseEvent) {
       for (let i = 0; i < cls.length; i += 1) {
         if (cls[i].indexOf('abcjs-note') >= 0 || cls[i].indexOf('abcjs-rest') >= 0) return sel;
       }
-    }
-  }
-  if (mouseEvent && typeof document.elementFromPoint === 'function') {
-    const hit = document.elementFromPoint(mouseEvent.clientX, mouseEvent.clientY);
-    let node = hit;
-    while (node && node !== wrapEl) {
-      if (node.classList) {
-        if (node.classList.contains('abcjs-note') || node.classList.contains('abcjs-rest')) return node;
-        for (let i = 0; i < node.classList.length; i += 1) {
-          if (node.classList[i].indexOf('abcjs-note') >= 0 || node.classList[i].indexOf('abcjs-rest') >= 0) return node;
-        }
-      }
-      node = node.parentNode;
     }
   }
   return null;
@@ -337,14 +337,33 @@ export function findDrawableDomIndex(drawables, noteEl) {
     const drawable = drawables[i];
     if (drawable.contains && drawable.contains(noteEl)) return i;
     if (noteEl.contains && noteEl.contains(drawable)) return i;
+    const dr = drawable.getBoundingClientRect && drawable.getBoundingClientRect();
+    const nr = noteEl.getBoundingClientRect && noteEl.getBoundingClientRect();
+    if (dr && nr
+      && dr.width > 0
+      && nr.width > 0
+      && Math.abs(dr.left - nr.left) < 3
+      && Math.abs(dr.top - nr.top) < 3
+      && Math.abs(dr.width - nr.width) < 3) {
+      return i;
+    }
   }
-  const nNum = elementClassNumber(noteEl, 'abcjs-n');
-  const lNum = elementClassNumber(noteEl, 'abcjs-l');
+  let nNum = elementClassNumber(noteEl, 'abcjs-n');
+  let lNum = elementClassNumber(noteEl, 'abcjs-l');
+  if (nNum == null && noteEl.parentNode) {
+    nNum = elementClassNumber(noteEl.parentNode, 'abcjs-n');
+    lNum = elementClassNumber(noteEl.parentNode, 'abcjs-l');
+  }
   if (nNum != null) {
+    const clickedLine = lNum;
     for (let j = 0; j < drawables.length; j += 1) {
       if (elementClassNumber(drawables[j], 'abcjs-n') !== nNum) continue;
       const drawableLine = elementClassNumber(drawables[j], 'abcjs-l');
-      if (lNum == null || drawableLine === lNum) return j;
+      if (clickedLine != null) {
+        if (drawableLine === clickedLine) return j;
+        continue;
+      }
+      return j;
     }
   }
   return -1;

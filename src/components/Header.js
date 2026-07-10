@@ -12,6 +12,12 @@ import { useIsHeaderAuthHidden, useIsHeaderPlaybackInMenu, useIsNarrowViewport }
 import { PLAYBACK_VOLUME_STEP } from '../playbackVolumeSettings';
 import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue';
 import {
+  getViewedTuneIdFromPath,
+  getSkipNavigationTuneId,
+  resolveListNavigationContext,
+  listNavigationContextLabel,
+} from '../playbackNavigationUtils';
+import {
   isPlaybackInterruptPath,
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
@@ -84,51 +90,41 @@ export default function Header(props) {
         if (location.pathname.startsWith('/gig/')) return;
 
         const mediaController = props.mediaController;
-        const isPlaying = !!(mediaController && mediaController.isPlaying);
+        const ctrlSeek = event.ctrlKey || event.metaKey;
+        const viewedTuneId = getViewedTuneIdFromPath(location.pathname);
+        const queueActive = isQueueActive(props.nowPlayingQueue);
+        const navTuneId = queueActive
+            ? getCurrentTuneId(props.nowPlayingQueue)
+            : getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue);
 
-        if (isPlaying && mediaController) {
-            if (event.key === 'ArrowLeft') {
-                event.preventDefault();
-                if (mediaController.seekBySeconds) {
-                    mediaController.seekBySeconds(-5);
-                }
-                return;
-            }
-            if (event.key === 'ArrowRight') {
-                event.preventDefault();
-                if (mediaController.seekBySeconds) {
-                    mediaController.seekBySeconds(5);
-                }
-                return;
-            }
-            if (event.key === 'ArrowUp') {
-                event.preventDefault();
-                if (mediaController.adjustPlaybackVolume) {
-                    mediaController.adjustPlaybackVolume(
-                        mediaController.playbackVolumeStep || PLAYBACK_VOLUME_STEP
-                    );
-                }
-                return;
-            }
-            if (event.key === 'ArrowDown') {
-                event.preventDefault();
-                if (mediaController.adjustPlaybackVolume) {
-                    mediaController.adjustPlaybackVolume(
-                        -(mediaController.playbackVolumeStep || PLAYBACK_VOLUME_STEP)
-                    );
-                }
-                return;
-            }
+        if (ctrlSeek && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && mediaController && mediaController.seekBySeconds) {
+            event.preventDefault();
+            mediaController.seekBySeconds(event.key === 'ArrowLeft' ? -5 : 5);
+            return;
         }
 
-        if (event.key === 'ArrowRight' && location.pathname.startsWith('/tunes/') && params.tuneId) {
-            props.tunebook.navigateToNextSong(params.tuneId, null, navigate, location.pathname, {
-                mediaController: props.mediaController,
-            })
-        } else if (event.key === 'ArrowLeft' && location.pathname.startsWith('/tunes/') && params.tuneId) {
-            props.tunebook.navigateToPreviousSong(params.tuneId, navigate, location.pathname, {
-                mediaController: props.mediaController,
-            })
+        if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+            if (mediaController && mediaController.isPlaying && mediaController.adjustPlaybackVolume) {
+                event.preventDefault();
+                const step = mediaController.playbackVolumeStep || PLAYBACK_VOLUME_STEP;
+                mediaController.adjustPlaybackVolume(event.key === 'ArrowUp' ? step : -step);
+            }
+            return;
+        }
+
+        if ((event.key === 'ArrowRight' || event.key === 'ArrowLeft') && navTuneId) {
+            const onTunePage = !!(viewedTuneId && (location.pathname.startsWith('/tunes/') || location.pathname.startsWith('/editor/')));
+            if (!onTunePage && !queueActive) return;
+            event.preventDefault();
+            if (event.key === 'ArrowRight') {
+                props.tunebook.navigateToNextSong(navTuneId, null, navigate, location.pathname, {
+                    mediaController: props.mediaController,
+                });
+            } else {
+                props.tunebook.navigateToPreviousSong(navTuneId, navigate, location.pathname, {
+                    mediaController: props.mediaController,
+                });
+            }
         }
     };
     useKeyPress(['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown'], onKeyPress);
@@ -152,16 +148,17 @@ export default function Header(props) {
     const onTunesOrEditor = location.pathname.startsWith('/tunes') || location.pathname.startsWith('/editor/')
     const onPlaybackInterruptTool = isPlaybackInterruptPath(location.pathname)
     const showHeaderPlayback = onTunesOrEditor && !playbackInMenu
-    const queueTuneId = getCurrentTuneId(props.nowPlayingQueue)
-    const skipTuneId = params.tuneId || queueTuneId
-    // Show next/prev on a tune page, or whenever a playlist is loaded.
-    const showSkipButtons = !!(skipTuneId && (params.tuneId || isQueueActive(props.nowPlayingQueue)))
+    const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
+    const queueActive = isQueueActive(props.nowPlayingQueue)
+    const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
+    const listNavContext = resolveListNavigationContext(location.pathname, props.nowPlayingQueue, props.setPlaylist)
+    const listNavLabel = listNavigationContextLabel(listNavContext)
+    // List browse skip in header; playlist stepping uses the bottom transport bar.
+    const showSkipButtons = !!(skipTuneId && !queueActive && viewedTuneId)
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
     // Keep skip-only on narrow tunes/editor layouts where playback lives in the menu.
-    const showFullHeaderPlayback = !onPlaybackInterruptTool && (
-        showHeaderPlayback || (!onTunesOrEditor && showSkipButtons)
-    )
+    const showFullHeaderPlayback = !onPlaybackInterruptTool && showHeaderPlayback && !!viewedTuneId
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',
     }
@@ -169,19 +166,26 @@ export default function Header(props) {
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
+        const prevLabel = listNavLabel ? 'Previous tune in ' + listNavLabel.toLowerCase() : 'Previous tune in list'
+        const nextLabel = listNavLabel ? 'Next tune in ' + listNavLabel.toLowerCase() : 'Next tune in list'
         return (
-            <ButtonGroup className="header-skip-buttons">
-                <Button size={buttonSize} aria-label="Previous tune" onClick={function() {
-                    props.tunebook.navigateToPreviousSong(skipTuneId, navigate, location.pathname, {
-                        mediaController: props.mediaController,
-                    })
-                }}>{props.tunebook.icons.skipback}</Button>
-                <Button size={buttonSize} aria-label="Next tune" onClick={function() {
-                    props.tunebook.navigateToNextSong(skipTuneId, null, navigate, location.pathname, {
-                        mediaController: props.mediaController,
-                    })
-                }}>{props.tunebook.icons.skipforward}</Button>
-            </ButtonGroup>
+            <span className="header-list-nav">
+                {listNavLabel ? (
+                    <span className="header-list-nav-context" title={'Browse: ' + listNavLabel}>{listNavLabel}</span>
+                ) : null}
+                <ButtonGroup className="header-skip-buttons">
+                    <Button size={buttonSize} aria-label={prevLabel} title={prevLabel} onClick={function() {
+                        props.tunebook.navigateToPreviousSong(skipTuneId, navigate, location.pathname, {
+                            mediaController: props.mediaController,
+                        })
+                    }}>{props.tunebook.icons.skipback}</Button>
+                    <Button size={buttonSize} aria-label={nextLabel} title={nextLabel} onClick={function() {
+                        props.tunebook.navigateToNextSong(skipTuneId, null, navigate, location.pathname, {
+                            mediaController: props.mediaController,
+                        })
+                    }}>{props.tunebook.icons.skipforward}</Button>
+                </ButtonGroup>
+            </span>
         )
     }
 

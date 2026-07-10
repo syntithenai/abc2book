@@ -7,6 +7,7 @@ export const HELP_NAV = [
   { id: 'organise', title: 'Add and organise' },
   { id: 'edit-music', title: 'Edit music' },
   { id: 'practise', title: 'Practise with media' },
+  { id: 'tuner', title: 'Tuner' },
   { id: 'lyrics-chords', title: 'Lyrics and chords' },
   { id: 'offline-sync', title: 'Offline and sync' },
   { id: 'media-resolver', title: 'Media resolver' },
@@ -75,7 +76,7 @@ export function HelpWhatYouCanDo() {
       <ul>
         <li>Play generated MIDI or linked media.</li>
         <li>Adjust tempo, pitch, fine tune, and named loops (saved with the tune).</li>
-        <li>Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong> (chord diagram lookup).</li>
+        <li>Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong> (chord diagram lookup). See <a href="#tuner">Tuner</a> for full tuner help.</li>
       </ul>
       <h4>Lyrics, chords, background</h4>
       <ul>
@@ -148,6 +149,73 @@ export function HelpPractise() {
       </ul>
       <p><strong>Book Tools</strong> on the Books page: <strong>Play Media</strong> or <strong>Play Midi</strong> for a whole book playlist.</p>
       <p><strong>Practice sessions</strong> — open from the header menu <strong>Practice</strong> button or go to <Link to="/practice">Practice</Link>. Configure instrument, duration, and skill level, then run a guided session with warmups and tempo ramps. Use <code>?start=1</code> on the practice URL to begin immediately with saved settings.</p>
+      <p><strong>Tuner</strong> — header menu → <strong>Tuner</strong>. See <a href="#tuner">Tuner</a> for instrument presets, string tuning, intonation checks, and advanced controls.</p>
+    </>
+  );
+}
+
+export function HelpTuner() {
+  return (
+    <>
+      <p>Open from the header menu → <strong>Tuner</strong>, or from a tune editor link when tuning is suggested for that tune. The tuner uses your device microphone — tap anywhere on the page the first time to enable it.</p>
+
+      <h4>Instrument and tuning presets</h4>
+      <ul>
+        <li><strong>Instrument</strong> — choose your instrument (guitar, mandolin, bouzouki, ukulele, etc.) or <strong>Chromatic</strong> to tune to any note without string targets.</li>
+        <li><strong>Tuning preset</strong> — when an instrument is selected, pick the tuning (e.g. standard, DADGAD, GDAD). String targets and reference tones use this preset.</li>
+        <li>Your last instrument, preset, and advanced settings are remembered on this device.</li>
+        <li>When opened from a tune (<code>/tuner?tuneId=…</code>), the app may suggest instrument and tuning from the tune metadata and offer to save the chosen tuning back to the tune.</li>
+      </ul>
+
+      <h4>String tuning mode</h4>
+      <p>With an instrument selected (not Chromatic):</p>
+      <ul>
+        <li><strong>String buttons</strong> — one per string, showing the target note. The active string is highlighted; colour shows how close you are (green in tune, amber close, red further off).</li>
+        <li><strong>Next string</strong> — move to the next string in the preset.</li>
+        <li><strong>Play button</strong> — play or stop a reference tone for the selected string (useful for tuning by ear).</li>
+        <li><strong>Wrong-string warning</strong> — if the pitch clearly matches a different string, a dismissible alert suggests which string you may be on.</li>
+        <li><strong>Auto next</strong> — when enabled, advances to the next string automatically after you hold the note in tune for about 400&nbsp;ms (plays a short chime).</li>
+      </ul>
+
+      <h4>Chromatic mode</h4>
+      <p>Select <strong>Chromatic</strong> as the instrument to tune any pitch. The meter shows deviation from the nearest semitone (within ±50¢). String buttons, reference tone, auto-advance, and intonation checks are hidden.</p>
+
+      <h4>Display: needle and graph</h4>
+      <ul>
+        <li><strong>Needle</strong> — semicircular VU meter with a needle. The scale zooms in as you get closer (±50¢ down to ±3¢). Labels <strong>Flat</strong>, <strong>0</strong>, and <strong>Sharp</strong> mark the scale ends.</li>
+        <li><strong>Graph</strong> — scrolling pitch-over-time chart (about 10 seconds), with a green in-tune band at ±5¢.</li>
+        <li><strong>Readout</strong> below the meter shows <strong>Target:</strong> note, cents deviation (e.g. <strong>+3 ¢ sharp</strong>, <strong>0 ¢ in tune</strong>), detected frequency in Hz, and <strong>far from target</strong> when more than 50¢ off.</li>
+        <li><strong>Stability</strong> — small readout of pitch steadiness (lower is steadier).</li>
+        <li><strong>Volume bar</strong> — input level at the bottom of the display panel.</li>
+        <li>When the signal drops briefly, the last reading is held and labelled <strong>Last reading</strong>.</li>
+      </ul>
+
+      <h4>Check Harmonics (intonation)</h4>
+      <p>Enable <strong>Check Harmonics</strong> to verify intonation: tune the open string first, then tap <strong>Next string</strong> to check the 12th-fret harmonic against the open string. The meter compares your harmonic to the expected pitch. Green within ±5¢, amber within ±15¢.</p>
+
+      <h4>Advanced controls</h4>
+      <p>Turn on <strong>Advanced</strong> to reveal:</p>
+      <ul>
+        <li>
+          <strong>A<sub>4</sub> reference</strong> — concert pitch (default 440&nbsp;Hz). Change this if your ensemble tunes to A=442 or similar; all target frequencies and cents are recalculated.
+        </li>
+        <li>
+          <strong>Fine</strong> — display zoom only. When you are within about ±8¢ of the target, the needle scale zooms to ±3¢ so you can see small adjustments more clearly. Does not change pitch detection.
+        </li>
+        <li>
+          <strong>Gate</strong> — noise gate / input sensitivity. The tuner only listens when the mic volume is above this threshold.
+          <ul>
+            <li><strong>Lower gate</strong> — more sensitive; picks up quieter playing but may react to room noise.</li>
+            <li><strong>Higher gate</strong> — ignores quiet sounds; raise it if background noise causes false readings.</li>
+          </ul>
+        </li>
+        <li><strong>Microphone</strong> — when several inputs are available, choose which mic to use (shown after the microphone is enabled).</li>
+      </ul>
+      <div className="help-callout">
+        <p><strong>Gate vs Fine:</strong> <strong>Gate</strong> controls <em>whether</em> the tuner listens (input volume threshold). <strong>Fine</strong> controls <em>how</em> the meter is drawn when you are already close to pitch (narrower scale for the last few cents). They solve different problems — use Gate for noisy environments, Fine for precise final tuning.</p>
+      </div>
+
+      <p className="help-tip">For best results, tune in a reasonably quiet room, hold the instrument close to the mic, and pluck one string at a time. If readings jump wildly, try raising the gate or switching to the graph view to see pitch over time.</p>
     </>
   );
 }
@@ -400,7 +468,7 @@ export function HelpMoreFeatures() {
         <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits.</li>
         <li><strong>Download MIDI</strong> — Where available, export generated playback as a MIDI file.</li>
         <li><strong>Stem separation</strong> — After media analysis, <strong>Audio Filters</strong> on playback lets you mix vocals, drums, bass, and other stems for practice.</li>
-        <li><strong>Tuner, metronome, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong>.</li>
+        <li><strong>Tuner, metronome, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong>. See <a href="#tuner">Tuner</a> for string tuning, intonation, and advanced controls.</li>
         <li><strong>Clear caches</strong> — Settings: <strong>Clear Audio Cache</strong> (downloaded linked media), <strong>Clear Midi Cache</strong> (ABC/MIDI synth playback), or <strong>Clear Stems</strong> (stem separation for audio filters).</li>
       </ul>
     </>
@@ -541,6 +609,7 @@ export const HELP_SECTIONS = [
   { id: 'organise', title: 'Add and organise tunes', Content: HelpOrganise },
   { id: 'edit-music', title: 'Edit music', Content: HelpEditMusic },
   { id: 'practise', title: 'Practise with media', Content: HelpPractise },
+  { id: 'tuner', title: 'Tuner', Content: HelpTuner },
   { id: 'lyrics-chords', title: 'Lyrics, chords, and background', Content: HelpLyricsChords },
   { id: 'offline-sync', title: 'Offline use, login, and sync', Content: HelpOfflineSync },
   { id: 'media-resolver', title: 'Media resolver', Content: HelpMediaResolver },

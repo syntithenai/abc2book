@@ -40,8 +40,16 @@ describe('pitchStabilizer', function() {
 
   test('getStabilityCents tracks live variance', function() {
     const stabilizer = createPitchStabilizer()
-    stabilizer.process(440, DEFAULT_GATE_THRESHOLD + 0.01, 0, 'A4', 1000)
-    stabilizer.process(441, DEFAULT_GATE_THRESHOLD + 0.01, 4, 'A4', 1010)
+    stabilizer.pushCents(0)
+    stabilizer.pushCents(4)
     expect(stabilizer.getStabilityCents()).toBeGreaterThan(0)
+  })
+
+  test('getDisplayCents returns median of recent samples', function() {
+    const stabilizer = createPitchStabilizer()
+    stabilizer.pushCents(2)
+    stabilizer.pushCents(4)
+    stabilizer.pushCents(3)
+    expect(stabilizer.getDisplayCents()).toBe(3)
   })
 })

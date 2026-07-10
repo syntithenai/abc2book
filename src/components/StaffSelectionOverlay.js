@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from 'react';
 import { EDITOR_MODES } from '../notation/notationConstants';
-import { staffSelectionAnchorRects } from '../notation/staffCaretPosition';
+import { selectionRectsForEventIds } from '../notation/staffClickResolve';
 
 export default function StaffSelectionOverlay(props) {
   const { containerRef, session, displayAbc, voiceStaffIndex } = props;
@@ -20,7 +20,7 @@ export default function StaffSelectionOverlay(props) {
         setRects([]);
         return;
       }
-      setRects(staffSelectionAnchorRects(
+      setRects(selectionRectsForEventIds(
         node,
         session.events,
         session.selection.eventIds,

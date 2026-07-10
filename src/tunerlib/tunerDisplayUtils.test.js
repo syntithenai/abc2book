@@ -5,7 +5,8 @@ import {
   smoothNeedleCents,
   targetAdaptiveRange,
   volumeSegmentColors,
-  formatCents
+  formatCents,
+  formatCentsDetail
 } from './tunerDisplayUtils'
 
 describe('tunerDisplayUtils', function() {
@@ -70,5 +71,12 @@ describe('tunerDisplayUtils', function() {
     expect(formatCents(3)).toBe('+3 ¢')
     expect(formatCents(-13)).toBe('-13 ¢')
     expect(formatCents(null)).toBe('— ¢')
+  })
+
+  test('formatCentsDetail adds sharp flat and in tune labels', function() {
+    expect(formatCentsDetail(3)).toBe('+3 ¢ sharp')
+    expect(formatCentsDetail(-12)).toBe('-12 ¢ flat')
+    expect(formatCentsDetail(0)).toBe('0 ¢ in tune')
+    expect(formatCentsDetail(null)).toBe('— ¢')
   })
 })

@@ -3,6 +3,47 @@ import { parseVoiceEvents, pitchToMidi } from './voiceEventModel';
 import { serializeVoiceEvents } from './abcVoiceSerializer';
 import { mapAbcClickToVoiceCursor } from './notationDisplayAbc';
 
+/** Convert abcjs line-local measure to a disambiguation key (line + measure). */
+export function globalMeasureFromAnalysis(analysis) {
+  if (!analysis) return null;
+  const el = analysis.selectableElement;
+  if (el && el.classList) {
+    const classes = Array.from(el.classList);
+    for (let i = 0; i < classes.length; i += 1) {
+      const mm = classes[i].match(/^abcjs-mm(\d+)$/);
+      if (mm) return parseInt(mm[1], 10);
+    }
+  }
+  if (typeof analysis.measure !== 'number') return null;
+  let line = typeof analysis.line === 'number' ? analysis.line : 0;
+  if (el && el.classList) {
+    const classes = Array.from(el.classList);
+    for (let i = 0; i < classes.length; i += 1) {
+      const lm = classes[i].match(/^abcjs-l(\d+)$/);
+      if (lm) {
+        line = parseInt(lm[1], 10);
+        break;
+      }
+    }
+  }
+  return line * 1000 + analysis.measure;
+}
+
+/** Match event measureIndex against global/line-local measure from analysis. */
+function eventMatchesAnalysisMeasure(events, eventIndex, analysis) {
+  if (!analysis || eventIndex < 0 || eventIndex >= events.length) return false;
+  const ev = events[eventIndex];
+  const gm = globalMeasureFromAnalysis(analysis);
+  if (gm == null) return false;
+  if (gm >= 1000) {
+    const line = Math.floor(gm / 1000);
+    const localMeasure = gm % 1000;
+    const evMeasure = ev.measureIndex || 0;
+    return evMeasure === localMeasure || evMeasure === gm;
+  }
+  return (ev.measureIndex || 0) === gm;
+}
+
 export function sortEventsByStartBeat(events) {
   return events.slice().sort(function(a, b) {
     const sa = typeof a.startBeat === 'number' ? a.startBeat : 0;
@@ -51,7 +92,17 @@ export function eventIndexFromStaffAbcElem(events, tuneMeta, fullAbc, displayedV
   if (abcelem && typeof abcelem.startChar === 'number' && fullAbc && displayedVoiceKeys && displayedVoiceKeys.length) {
     const mapped = mapAbcClickToVoiceCursor(fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem.startChar);
     if (mapped) {
-      return eventIndexFromAbcCharPosition(events, tuneMeta, mapped.offset);
+      let idx = eventIndexFromAbcCharPosition(events, tuneMeta, mapped.offset);
+      const ev = events[idx];
+      if (ev && ev.type === 'lineBreak') {
+        for (let i = idx + 1; i < events.length; i += 1) {
+          if (events[i].type === 'note' || events[i].type === 'chord') {
+            idx = i;
+            break;
+          }
+        }
+      }
+      return idx;
     }
   }
   return caretIndexFromStaffClick(events, analysis, abcelem);
@@ -82,10 +133,18 @@ export function eventIndexFromAbcClick(events, analysis, abcelem) {
       });
     });
     if (candidates.length === 1) return candidates[0];
-    if (candidates.length > 1 && analysis && typeof analysis.measure === 'number') {
-      const measure = analysis.measure;
-      for (let c = 0; c < candidates.length; c += 1) {
-        if ((events[candidates[c]].measureIndex || 0) === measure) return candidates[c];
+    if (candidates.length > 1 && analysis) {
+      const gm = globalMeasureFromAnalysis(analysis);
+      if (gm != null) {
+        for (let c = 0; c < candidates.length; c += 1) {
+          if (eventMatchesAnalysisMeasure(events, candidates[c], analysis)) return candidates[c];
+        }
+      }
+      if (typeof analysis.measure === 'number') {
+        const measure = analysis.measure;
+        for (let c = 0; c < candidates.length; c += 1) {
+          if ((events[candidates[c]].measureIndex || 0) === measure) return candidates[c];
+        }
       }
       return candidates[0];
     }
@@ -96,7 +155,16 @@ export function eventIndexFromAbcClick(events, analysis, abcelem) {
     return caretIndexForStartBeat(events, analysis.startBeat);
   }
 
-  if (!analysis || typeof analysis.measure !== 'number') return null;
+  if (!analysis) return null;
+  const gm = globalMeasureFromAnalysis(analysis);
+  if (gm != null) {
+    for (let i = 0; i < events.length; i += 1) {
+      if (eventMatchesAnalysisMeasure(events, i, analysis)) return i;
+      if ((events[i].measureIndex || 0) > gm) return i;
+    }
+    return events.length > 0 ? events.length - 1 : 0;
+  }
+  if (typeof analysis.measure !== 'number') return null;
   const measure = analysis.measure;
   for (let i = 0; i < events.length; i += 1) {
     if ((events[i].measureIndex || 0) === measure) return i;

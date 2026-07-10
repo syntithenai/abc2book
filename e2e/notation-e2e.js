@@ -30,6 +30,7 @@ const { runStaffMarksTests } = require('./notation-staff-marks')
 const { runVoiceTests } = require('./notation-voices')
 const { runPianoRollTests } = require('./notation-piano-roll')
 const { runAdvancedTests } = require('./notation-advanced')
+const { runClickRegressionTests } = require('./notation-click-regression')
 
 const TIER = process.env.NOTATION_E2E_TIER || '0'
 const BASIC_URL = process.env.NOTATION_TEST_URL || editorMusicUrl(BASE, NOTATION_E2E_TUNE_ID)
@@ -78,6 +79,9 @@ async function main() {
 
     console.log('\n--- P0 staff core ---')
     await runStaffCoreTests(page, ctx)
+
+    console.log('\n--- P0 click regression ---')
+    await runClickRegressionTests(page, ctx)
 
     if (TIER === '1' || TIER === 'full' || TIER === 'p1') {
       console.log('\n--- P1 staff full ---')

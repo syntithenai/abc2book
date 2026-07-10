@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { Button, Form, Alert, ToggleButton, ToggleButtonGroup } from 'react-bootstrap'
+import { icons } from '../Icons'
 import Application, { listAudioInputDevices } from './app'
 import TunerVuMeter from './TunerVuMeter'
 import TunerPitchGraph from './TunerPitchGraph'
@@ -44,6 +45,8 @@ const LS_GATE = 'bookstorage_tuner_gate_threshold'
 const LS_FINE_MODE = 'bookstorage_tuner_fine_mode'
 const LS_AUTO_ADVANCE = 'bookstorage_tuner_auto_advance'
 const LS_MIC_DEVICE = 'bookstorage_tuner_mic_device'
+const LS_SHOW_ADVANCED = 'bookstorage_tuner_show_advanced'
+const LS_CHECK_HARMONICS = 'bookstorage_tuner_check_harmonics'
 const PITCH_HISTORY_MAX = 600
 
 function tuningStorageKey(instrument) {
@@ -99,7 +102,9 @@ export default function TunerComponent(props) {
     return def ? def.id : ''
   })
   const [a4, setA4] = useState(readStoredA4)
-  const [mode, setMode] = useState('tune')
+  const [mode, setMode] = useState(function() {
+    return readStoredBool(LS_CHECK_HARMONICS, false) ? 'intonation' : 'tune'
+  })
   const [activeStringIndex, setActiveStringIndex] = useState(0)
   const [intonationStep, setIntonationStep] = useState('open')
   const [displayCents, setDisplayCents] = useState(null)
@@ -114,7 +119,8 @@ export default function TunerComponent(props) {
   const [inTuneFlash, setInTuneFlash] = useState(false)
   const [gateThreshold, setGateThreshold] = useState(readStoredGate)
   const [fineMode, setFineMode] = useState(function() { return readStoredBool(LS_FINE_MODE, true) })
-  const [autoAdvance, setAutoAdvance] = useState(function() { return readStoredBool(LS_AUTO_ADVANCE, true) })
+  const [autoAdvance, setAutoAdvance] = useState(function() { return readStoredBool(LS_AUTO_ADVANCE, false) })
+  const [showAdvanced, setShowAdvanced] = useState(function() { return readStoredBool(LS_SHOW_ADVANCED, false) })
   const [micDevices, setMicDevices] = useState([])
   const [selectedMicId, setSelectedMicId] = useState(localStorage.getItem(LS_MIC_DEVICE) || '')
   const [wrongWarn, setWrongWarn] = useState(null)
@@ -291,17 +297,19 @@ export default function TunerComponent(props) {
   const onPitchSample = useCallback(function(note) {
     const rawFreq = note.frequency
     const label = formatDetectedNoteLabel(note)
-    const rawCents = computeCentsForFreq(rawFreq)
     const stab = stabilizerRef.current.process(
       rawFreq,
       inputLevelRef.current,
-      rawCents,
+      null,
       label
     )
 
     if (!stab.freq) return
 
-    const cents = computeCentsForFreq(stab.freq)
+    const frameCents = computeCentsForFreq(stab.freq)
+    stabilizerRef.current.pushCents(frameCents)
+    const displayCentsValue = stabilizerRef.current.getDisplayCents()
+    const cents = displayCentsValue != null ? displayCentsValue : frameCents
     applyReading(stab.freq, cents, label, stab.isHeld, !stab.isHeld)
 
     if (!isChromaticInstrument(instrumentRef.current) && modeRef.current === 'tune' && !dismissedWrongRef.current) {
@@ -368,6 +376,10 @@ export default function TunerComponent(props) {
   }, [autoAdvance])
 
   useEffect(function() {
+    localStorage.setItem(LS_SHOW_ADVANCED, showAdvanced ? '1' : '0')
+  }, [showAdvanced])
+
+  useEffect(function() {
     if (selectedMicId) localStorage.setItem(LS_MIC_DEVICE, selectedMicId)
   }, [selectedMicId])
 
@@ -409,6 +421,7 @@ export default function TunerComponent(props) {
     setPresetId(nextId)
     setActiveStringIndex(0)
     setIntonationStep('open')
+    setMode(readStoredBool(LS_CHECK_HARMONICS, false) ? 'intonation' : 'tune')
   }
 
   function handlePresetChange(e) {
@@ -474,6 +487,14 @@ export default function TunerComponent(props) {
 
   nextStringRef.current = nextString
 
+  function toggleCheckHarmonics(on) {
+    stopReferenceTone()
+    setMode(on ? 'intonation' : 'tune')
+    setIntonationStep('open')
+    setDismissedWrong(false)
+    localStorage.setItem(LS_CHECK_HARMONICS, on ? '1' : '0')
+  }
+
   function confirmSaveTuning() {
     if (savePrompt && props.onSaveTuning) {
       props.onSaveTuning(canonicalTuningLabel(savePrompt.preset))
@@ -505,7 +526,7 @@ export default function TunerComponent(props) {
       )}
 
       <div className="tuner-controls">
-        <div className="tuner-row">
+        <div className="tuner-row tuner-row-primary">
           <Form.Select
             size="sm"
             className="tuner-instrument-select"
@@ -538,95 +559,106 @@ export default function TunerComponent(props) {
             </Form.Select>
           )}
 
-          {!isChromatic && (
-            <ToggleButtonGroup
-              type="radio"
-              name="tuner-mode"
-              value={mode}
-              onChange={function(val) {
-                stopReferenceTone()
-                setMode(val)
-                setIntonationStep('open')
-                setDismissedWrong(false)
-              }}
-              size="sm"
-            >
-              <ToggleButton id="mode-tune" value="tune" variant="outline-secondary">Tune</ToggleButton>
-              <ToggleButton id="mode-intonation" value="intonation" variant="outline-secondary">Intonation</ToggleButton>
-            </ToggleButtonGroup>
-          )}
-
-          <Form.Label className="tuner-a4-label mb-0">
-            A<sub>4</sub> =
-            <Form.Control
-              type="number"
-              className="tuner-a4-input"
-              min={400}
-              max={480}
-              step={0.1}
-              value={a4}
-              onChange={function(e) {
-                const v = parseFloat(e.target.value)
-                if (Number.isFinite(v)) setA4(v)
-              }}
-              onClick={function(e) { e.stopPropagation() }}
-            />
-            Hz
-          </Form.Label>
-        </div>
-
-        <div className="tuner-row tuner-settings-row" onClick={function(e) { e.stopPropagation() }}>
-          {audioStarted && micDevices.length > 0 && (
-            <Form.Select
-              size="sm"
-              className="tuner-mic-select"
-              value={selectedMicId}
-              onChange={handleMicChange}
-            >
-              <option value="">Default microphone</option>
-              {micDevices.map(function(d) {
-                return (
-                  <option key={d.deviceId} value={d.deviceId}>
-                    {d.label || 'Microphone ' + d.deviceId.slice(0, 8)}
-                  </option>
-                )
-              })}
-            </Form.Select>
-          )}
-
-          <Form.Label className="tuner-gate-label mb-0">
-            Gate
-            <Form.Range
-              min={1}
-              max={20}
-              value={Math.round(gateThreshold * 100)}
-              onChange={function(e) {
-                setGateThreshold(parseInt(e.target.value, 10) / 100)
-              }}
-              title="Noise gate — raise if background noise triggers false readings"
-            />
-          </Form.Label>
-
           <Form.Check
             type="switch"
-            id="tuner-fine-mode"
-            label="Fine"
-            checked={fineMode}
-            onChange={function(e) { setFineMode(e.target.checked) }}
-            title="Zoom to ±3¢ when close to pitch"
+            id="tuner-show-advanced"
+            className="tuner-advanced-toggle mb-0"
+            label="Advanced"
+            checked={showAdvanced}
+            onChange={function(e) { setShowAdvanced(e.target.checked) }}
+            onClick={function(e) { e.stopPropagation() }}
           />
 
           {!isChromatic && (
-            <Form.Check
-              type="switch"
-              id="tuner-auto-advance"
-              label="Auto next"
-              checked={autoAdvance}
-              onChange={function(e) { setAutoAdvance(e.target.checked) }}
-              title="Advance to next string after 400ms in tune"
-            />
+            <>
+              <Form.Check
+                type="switch"
+                id="tuner-auto-advance"
+                className="tuner-auto-advance-toggle mb-0"
+                label="Auto next"
+                checked={autoAdvance}
+                onChange={function(e) { setAutoAdvance(e.target.checked) }}
+                onClick={function(e) { e.stopPropagation() }}
+                title="Advance to next string after 400ms in tune"
+              />
+
+              <Form.Check
+                type="switch"
+                id="tuner-check-harmonics"
+                className="tuner-check-harmonics-toggle mb-0"
+                label="Check Harmonics"
+                checked={mode === 'intonation'}
+                onChange={function(e) { toggleCheckHarmonics(e.target.checked) }}
+                onClick={function(e) { e.stopPropagation() }}
+                title="Check 12th-fret harmonics against open string tuning"
+              />
+            </>
           )}
         </div>
+
+        {showAdvanced && (
+          <div className="tuner-advanced-panel" onClick={function(e) { e.stopPropagation() }}>
+            <Form.Label className="tuner-a4-label mb-0">
+              A<sub>4</sub> =
+              <Form.Control
+                type="number"
+                className="tuner-a4-input"
+                min={400}
+                max={480}
+                step={0.1}
+                value={a4}
+                onChange={function(e) {
+                  const v = parseFloat(e.target.value)
+                  if (Number.isFinite(v)) setA4(v)
+                }}
+              />
+              Hz
+            </Form.Label>
+
+            <Form.Check
+              type="switch"
+              id="tuner-fine-mode"
+              className="tuner-fine-toggle mb-0"
+              label="Fine"
+              checked={fineMode}
+              onChange={function(e) { setFineMode(e.target.checked) }}
+              title="Zoom to ±3¢ when close to pitch"
+            />
+
+            {audioStarted && micDevices.length > 0 ? (
+              <Form.Select
+                size="sm"
+                className="tuner-mic-select"
+                value={selectedMicId}
+                onChange={handleMicChange}
+              >
+                <option value="">Default microphone</option>
+                {micDevices.map(function(d) {
+                  return (
+                    <option key={d.deviceId} value={d.deviceId}>
+                      {d.label || 'Microphone ' + d.deviceId.slice(0, 8)}
+                    </option>
+                  )
+                })}
+              </Form.Select>
+            ) : (
+              <span className="tuner-mic-placeholder" aria-hidden="true" />
+            )}
+
+            <Form.Label className="tuner-gate-label mb-0">
+              Gate
+              <Form.Range
+                min={1}
+                max={20}
+                value={Math.round(gateThreshold * 100)}
+                onChange={function(e) {
+                  setGateThreshold(parseInt(e.target.value, 10) / 100)
+                }}
+                title="Noise gate — raise if background noise triggers false readings"
+              />
+            </Form.Label>
+          </div>
+        )}
       </div>
 
       {savePrompt && (
@@ -677,11 +709,12 @@ export default function TunerComponent(props) {
           <Button
             variant={referencePlaying ? 'danger' : 'outline-secondary'}
             size="sm"
-            className="tuner-reference-btn"
+            className="tuner-play-btn"
             onClick={toggleReferenceTone}
             title={referencePlaying ? 'Stop reference tone' : 'Play reference tone for selected string'}
+            aria-label={referencePlaying ? 'Stop reference tone' : 'Play reference tone'}
           >
-            {referencePlaying ? 'Stop tone' : 'Reference tone'}
+            {referencePlaying ? icons.stopsmall : icons.play}
           </Button>
         </div>
       )}
@@ -715,7 +748,7 @@ export default function TunerComponent(props) {
               cents={displayCents}
               frequency={detectedFreq}
               halfRange={displayRange}
-              noteLabel={displayNoteLabel}
+              targetLabel={isChromatic ? displayNoteLabel : activeTargetLabel}
               isHeld={isHeld}
               inTuneFlash={inTuneFlash}
             />

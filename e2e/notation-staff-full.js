@@ -8,11 +8,12 @@ const {
   pressKey,
   clickTestId,
   staffNoteCenters,
+  staffNoteOnSystemLine,
   sleep,
   resetNotationFixture,
   clickStaffForNoteInput,
 } = require('./helpers')
-const { assertEvents, assertVoiceAbc, assertNoteSteps } = require('./notation-assertions')
+const { assertEvents, assertVoiceAbc, assertNoteSteps, assertSelectionMatchesClick } = require('./notation-assertions')
 
 const BASIC_TUNE_ID = 'e2e00000000000000000001'
 const TWO_VOICE_TUNE_ID = 'e2e00000000000000000002'
@@ -69,8 +70,7 @@ async function runStaffFullTests(page, ctx) {
     const afterCarry = await page.evaluate(function() { return window.__abc2bookNotationTest.getAccidentalCarry() })
     if (afterCarry != null) throw new Error('accidental carry should clear after insert')
     await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'G#1'], 'sharp G appended')
-    const abc = await getVoiceAbc(page)
-    if (abc.indexOf('^') < 0) throw new Error('ABC should contain sharp marker, got: ' + abc)
+    await assertVoiceAbc(page, 'C D E F ^G2 |', 'sharp G in ABC')
   })
 
   await runScenario(results, 'P1: Shift+G adds chord tone', async function() {
@@ -89,24 +89,16 @@ async function runStaffFullTests(page, ctx) {
     }
     const steps = chord.pitches.map(function(p) { return p.step }).sort().join('')
     if (steps !== 'CG') throw new Error('expected C+G chord, got steps ' + steps)
+    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'chord:C5+G5:2', 'bar:|'], 'chord appended at end')
   })
 
   await runScenario(results, 'P1: virtual piano click inserts note', async function() {
     await gotoBasic(page)
     await page.waitForSelector('[data-testid="virtual-piano"]', { visible: true, timeout: 10000 })
-    const countBefore = await page.evaluate(function() {
-      return window.__abc2bookNotationTest.getSessionEvents().filter(function(ev) {
-        return ev.type === 'note' || ev.type === 'chord'
-      }).length
-    })
+    await assertNoteSteps(page, ['C', 'D', 'E', 'F'], 'before piano click')
     await page.click('[data-testid="virtual-piano"] .virtual-piano-white')
     await sleep(400)
-    const countAfter = await page.evaluate(function() {
-      return window.__abc2bookNotationTest.getSessionEvents().filter(function(ev) {
-        return ev.type === 'note' || ev.type === 'chord'
-      }).length
-    })
-    if (countAfter <= countBefore) throw new Error('virtual piano click should insert a note')
+    await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'C'], 'piano inserts C at end')
     const mode = await page.evaluate(function() { return window.__abc2bookNotationTest.getMode() })
     if (mode !== 'noteInput') throw new Error('virtual piano should enable note input')
   })
@@ -136,9 +128,13 @@ async function runStaffFullTests(page, ctx) {
       if (!clicked) throw new Error('barline menu item not found: ' + tokens[i].label)
       await sleep(300)
       const abc = await getVoiceAbc(page)
-      if (abc.indexOf(tokens[i].abc) < 0) {
-        throw new Error('expected ' + tokens[i].abc + ' in ABC after menu click, got: ' + abc)
+      const expectedBodies = {
+        '||': 'C D || E F |',
+        '|:': 'C D |: E F |',
+        ':|': 'C D :| E F |',
+        '|]': 'C D |] E F |',
       }
+      await assertVoiceAbc(page, expectedBodies[tokens[i].abc], 'barline menu ' + tokens[i].label)
     }
   })
 
@@ -148,10 +144,11 @@ async function runStaffFullTests(page, ctx) {
     await clickStaffForNoteInput(page, { between: 2 })
     await clickTestId(page, 'notation-system-break-btn')
     await sleep(300)
-    const abc = await getVoiceAbc(page)
-    if (abc.indexOf('\n') < 0 && abc.indexOf('!') < 0) {
-      throw new Error('expected system break in ABC, got: ' + JSON.stringify(abc))
-    }
+    const events = await page.evaluate(function() {
+      return window.__abc2bookNotationTest.getSessionEvents()
+    })
+    const hasBreak = events.some(function(ev) { return ev.type === 'lineBreak' || ev.type === 'systemBreak' })
+    if (!hasBreak) throw new Error('expected line/system break event after toolbar click')
   })
 
   await runScenario(results, 'P1: tie shortcut T on selection', async function() {
@@ -174,24 +171,15 @@ async function runStaffFullTests(page, ctx) {
   await runScenario(results, 'P1: Q/W halve/double selection duration', async function() {
     await gotoBasic(page)
     await pressKey(page, 'Escape')
-    const before = await getVoiceAbc(page)
     const centers = await staffNoteCenters(page, 0)
     await page.mouse.click(centers[0].x, centers[0].y)
     await sleep(200)
     await pressKey(page, 'q')
     await sleep(200)
-    const afterQ = await getVoiceAbc(page)
-    if (before === afterQ) throw new Error('Q did not change duration')
-    const halfBeats = await page.evaluate(function() {
-      return window.__abc2bookNotationTest.getSessionEvents()[0].durationBeats
-    })
-    if (Math.abs(halfBeats - 0.5) > 0.01) {
-      throw new Error('Q should halve quarter to eighth (0.5 beats), got ' + halfBeats)
-    }
+    await assertEvents(page, ['note:C5:0.5', 'note:D5', 'note:E5', 'note:F5', 'bar:|'], 'Q halves C duration')
     await pressKey(page, 'w')
     await sleep(200)
-    const afterW = await getVoiceAbc(page)
-    if (afterW !== before) throw new Error('W should restore duration, before=' + before + ' afterW=' + afterW)
+    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'bar:|'], 'W restores C duration')
   })
 
   await runScenario(results, 'P1: Ctrl+C/V clipboard round-trip', async function() {
@@ -212,19 +200,12 @@ async function runStaffFullTests(page, ctx) {
 
   await runScenario(results, 'P1: multiline second system line selection', async function() {
     await gotoTune(page, MULTILINE_TUNE_ID)
-    const ok = await page.evaluate(function() {
-      return window.__abc2bookNotationTest.selectNoteByStep('G')
-    })
-    if (!ok) throw new Error('selectNoteByStep G failed on multiline tune')
-    await sleep(200)
-    const sel = await page.evaluate(function() {
-      const events = window.__abc2bookNotationTest.getSessionEvents()
-      const selection = window.__abc2bookNotationTest.getSelection()
-      const idx = events.findIndex(function(ev) { return selection.eventIds.indexOf(ev.id) >= 0 })
-      const step = idx >= 0 && events[idx].pitch ? events[idx].pitch.step : null
-      return { idx: idx, step: step }
-    })
-    if (sel.step !== 'G') throw new Error('should select G on multiline tune, got ' + sel.step)
+    await pressKey(page, 'Escape')
+    const pt = await staffNoteOnSystemLine(page, 1)
+    if (!pt) throw new Error('no second system line on multiline tune')
+    await page.mouse.click(pt.x, pt.y)
+    await sleep(250)
+    await assertSelectionMatchesClick(page, 'note:D4', 'line-2 d selected via DOM click')
   })
 
   await runScenario(results, 'P1: K:G fixture note input and transpose', async function() {

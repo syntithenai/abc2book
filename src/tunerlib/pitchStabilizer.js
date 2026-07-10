@@ -54,6 +54,9 @@ export function createPitchStabilizer(options) {
     getStabilityCents: function() {
       return stddev(recentCents)
     },
+    getDisplayCents: function() {
+      return medianOf(recentCents)
+    },
     process: function(rawFreq, inputLevel, cents, noteLabel, now) {
       const t = now != null ? now : Date.now()
       const gated = inputLevel >= gateThreshold && rawFreq > 0 && Number.isFinite(rawFreq)
@@ -90,6 +93,12 @@ export function createPitchStabilizer(options) {
         cents: null,
         noteLabel: null,
         isHeld: true
+      }
+    },
+    pushCents: function(cents) {
+      if (cents != null && Number.isFinite(cents)) {
+        recentCents.push(cents)
+        if (recentCents.length > recentCentsMax) recentCents.shift()
       }
     }
   }

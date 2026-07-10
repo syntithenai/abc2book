@@ -21,7 +21,7 @@ export function createQueue(options) {
     source: opts.source || 'manual',
     items: items,
     currentIndex: typeof opts.currentIndex === 'number' ? opts.currentIndex : 0,
-    followTune: !!opts.followTune,
+    followTune: opts.followTune !== undefined ? !!opts.followTune : true,
     autoAdvance: opts.autoAdvance !== false,
     loop: !!opts.loop,
     suspendSnapshot: null,

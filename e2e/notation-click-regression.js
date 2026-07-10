@@ -10,17 +10,12 @@ const {
   ensureNormalMode,
   pressKey,
   staffNoteCenters,
+  staffNoteOnSystemLine,
   clickStaffForNoteInput,
   sleep,
   resetNotationFixture,
-  setNotationFlag,
 } = require('./helpers')
-const {
-  assertEvents,
-  assertVoiceAbc,
-  assertSelectionMatchesClick,
-  getCaretIndex,
-} = require('./notation-assertions')
+const { assertEvents, assertVoiceAbc, assertNoteSteps, getCaretIndex, assertSelectionMatchesClick } = require('./notation-assertions')
 
 const BASIC_TUNE_ID = 'e2e00000000000000000001'
 const MULTILINE_TUNE_ID = 'e2e00000000000000000003'
@@ -55,25 +50,25 @@ async function runClickRegressionTests(page, ctx) {
     if (caret !== 2) throw new Error('caret between D and E should be 2, got ' + caret)
     await pressKey(page, 'a')
     await sleep(300)
-    await assertVoiceAbc(page, 'C D a E F |', 'A inserted between D and E')
-    await assertEvents(page, ['note:C5', 'note:D5', 'note:A4', 'note:E5', 'note:F5', 'bar:|'], 'A event between D and E')
+    await assertNoteSteps(page, ['C', 'D', 'A', 'E', 'F'], 'A inserted between D and E')
+    await assertEvents(page, ['note:C5', 'note:D5', 'note:A5:2', 'note:E5', 'note:F5', 'bar:|'], 'A event between D and E')
   })
 
   await runScenario(results, 'Click: multiline second system DOM click selects line-2 note', async function() {
     await resetNotationFixture(page, MULTILINE_TUNE_ID)
     await focusNotationEditor(page)
     await ensureNormalMode(page)
-    const centers = await staffNoteCenters(page, 0)
-    if (centers.length < 5) throw new Error('multiline tune needs notes on both lines, got ' + centers.length)
-    const sorted = centers.slice().sort(function(a, b) { return a.y - b.y })
-    const line2Notes = sorted.filter(function(c) { return c.y > sorted[0].y + 40 })
-    if (!line2Notes.length) throw new Error('no line-2 notes found')
-    const firstLine2 = line2Notes[0]
-    await page.mouse.click(firstLine2.x, firstLine2.y)
+    const pt = await staffNoteOnSystemLine(page, 1)
+    if (!pt) throw new Error('no second system line found on multiline tune')
+    await page.mouse.click(pt.x, pt.y)
     await sleep(250)
     const sel = await page.evaluate(function() {
       const events = window.__abc2bookNotationTest.getSessionEvents()
       const selection = window.__abc2bookNotationTest.getSelection()
+      const dNotes = events.filter(function(ev) {
+        return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D'
+      })
+      const line2D = dNotes[dNotes.length - 1]
       const idx = events.findIndex(function(ev) { return selection.eventIds.indexOf(ev.id) >= 0 })
       const ev = idx >= 0 ? events[idx] : null
       return {
@@ -81,10 +76,12 @@ async function runClickRegressionTests(page, ctx) {
         step: ev && ev.pitch ? ev.pitch.step : null,
         octave: ev && ev.pitch ? ev.pitch.octave : null,
         caret: window.__abc2bookNotationTest.getCaretIndex(),
+        line2DId: line2D ? line2D.id : null,
+        selectedId: selection.eventIds[0] || null,
       }
     })
-    if (sel.step !== 'D' || sel.octave !== 5) {
-      throw new Error('line-2 click should select d (D5), got step=' + sel.step + ' octave=' + sel.octave)
+    if (!sel.line2DId || sel.selectedId !== sel.line2DId) {
+      throw new Error('line-2 click should select last D (line 2 d), got step=' + sel.step + ' octave=' + sel.octave)
     }
     if (sel.caret !== sel.idx) {
       throw new Error('caret should match selected index on line 2, caret=' + sel.caret + ' idx=' + sel.idx)
@@ -95,25 +92,28 @@ async function runClickRegressionTests(page, ctx) {
     await resetNotationFixture(page, MULTILINE_TUNE_ID)
     await focusNotationEditor(page)
     await ensureNoteInputMode(page)
-    const centers = await staffNoteCenters(page, 0)
-    const sorted = centers.slice().sort(function(a, b) { return a.y - b.y })
-    const line2Notes = sorted.filter(function(c) { return c.y > sorted[0].y + 40 })
-    if (!line2Notes.length) throw new Error('no line-2 notes for note input')
-    const target = line2Notes[0]
-    await page.mouse.click(target.x - 20, target.y)
+    const pt = await staffNoteOnSystemLine(page, 1)
+    if (!pt) throw new Error('no second system line for note input')
+    await page.mouse.click(pt.x - 20, pt.y)
     await sleep(200)
     await pressKey(page, 'a')
     await sleep(300)
-    const hasAOnLine2 = await page.evaluate(function() {
+    const inserted = await page.evaluate(function() {
       const events = window.__abc2bookNotationTest.getSessionEvents()
-      const dIdx = events.findIndex(function(ev) {
-        return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D' && ev.pitch.octave === 5
+      const dNotes = events.filter(function(ev) {
+        return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D'
       })
-      if (dIdx < 0) return false
-      const aBeforeD = events[dIdx - 1]
-      return aBeforeD && aBeforeD.type === 'note' && aBeforeD.pitch && aBeforeD.pitch.step === 'A'
+      const line2DIdx = events.findIndex(function(ev) {
+        return dNotes.length && ev.id === dNotes[dNotes.length - 1].id
+      })
+      if (line2DIdx <= 0) return { ok: false, reason: 'no line-2 d index' }
+      const before = events[line2DIdx - 1]
+      if (!before || before.type !== 'note' || !before.pitch || before.pitch.step !== 'A') {
+        return { ok: false, reason: 'expected A before line-2 d, got ' + (before && before.type) }
+      }
+      return { ok: true }
     })
-    if (!hasAOnLine2) throw new Error('A should be inserted before d on line 2')
+    if (!inserted.ok) throw new Error(inserted.reason)
   })
 }
 

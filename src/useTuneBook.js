@@ -2081,7 +2081,7 @@ The main difference between the two functions is the additional condition in app
         tuneIds: tuneIds,
         name: opts.name || 'Playlist',
         source: opts.source || 'manual',
-        followTune: !!opts.followTune,
+        followTune: opts.followTune !== undefined ? !!opts.followTune : true,
       })
       setNowPlayingQueue(queue)
       return queue

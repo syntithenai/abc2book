@@ -28,6 +28,7 @@ describe('nowPlayingQueue', function() {
     expect(isQueueActive(q)).toBe(true)
     expect(getCurrentTuneId(q)).toBe('a')
     expect(getQueuePositionLabel(q)).toBe('1/3')
+    expect(q.followTune).toBe(true)
   })
 
   test('advanceQueue wraps with loop', function() {

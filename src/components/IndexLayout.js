@@ -1,5 +1,5 @@
 /* global window */
-import {Link  } from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import {Button, Dropdown, Badge} from 'react-bootstrap'
 import {ListGroup} from 'react-bootstrap'
 import {useState, useEffect, useRef, useCallback} from 'react'
@@ -47,6 +47,7 @@ export default function IndexLayout(props) {
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false) 
     var [savedFilterCount, setSavedFilterCount] = useState(0)
     var selectChangeTimeout = null
+    const navigate = useNavigate()
     
     function filterSearchNoBooks(tune) {
         if ((tune && Array.isArray(tune.books) && tune.books.length > 0) || (tune && Array.isArray(tune.tags) && tune.tags.length > 0)) {
@@ -468,6 +469,23 @@ export default function IndexLayout(props) {
     artistOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
     var freshSelectedCount = countSelected()
 
+    function handlePlayFromList() {
+        var selectedIds = Object.keys(selected).filter(function(id) {
+            return selected[id]
+        }).join(',')
+        var tuneId = props.tunebook.fillAnyPlaylist(
+            props.currentTuneBook,
+            selectedIds,
+            props.tagFilter,
+            navigate,
+            props.genreFilter,
+            props.artistFilter
+        )
+        if (!tuneId) {
+            toast.warn('No playable tunes found in the current list.')
+        }
+    }
+
     function handleGeneratePlaylist() {
         var result = generateCurrentPlaylist(props.tunebook, props.tunes, {
             forceRefresh: function() { setListHash(''); props.forceRefresh() },
@@ -515,6 +533,7 @@ export default function IndexLayout(props) {
 			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >
 			
 				{(filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
+				{(filtered && filtered.length > 0) && <span style={{marginLeft:'0.35em'}}><Button variant="success" data-testid="play-from-list-button" onClick={handlePlayFromList}>{freshSelectedCount > 0 ? 'Play Selected' : 'Play All'}</Button></span>}
 				
 				{freshSelectedCount > 0 &&  <SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} />}
 				

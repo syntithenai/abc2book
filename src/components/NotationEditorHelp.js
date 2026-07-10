@@ -145,6 +145,8 @@ export default function NotationEditorHelp(props) {
                 <li><kbd>Shift</kbd>+click extends the selection from the anchor note.</li>
                 <li>Arrow keys move between events; <kbd>Ctrl</kbd>+arrow keys jump by measure.</li>
                 <li>Clicking a note selects it and updates the caret without leaving staff view.</li>
+                <li>On <strong>multiline</strong> tunes, click the note on the system line you intend to edit — line 2 clicks should select line 2 notes, not notes from line 1.</li>
+                <li>Clicking an <strong>empty beat</strong> inside a partially filled measure may snap to the nearest note or measure boundary; use arrow keys to fine-tune the caret.</li>
               </ul>
               <p>
                 The staff toolbar (wand, bar lines, ↵, Q, MIDI) is only visible in staff view.

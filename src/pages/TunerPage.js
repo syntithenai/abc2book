@@ -49,7 +49,7 @@ export default function TunerPage(props) {
   }, [loadedTune, props.tunebook])
 
   return (
-    <Container className="App-chords py-3">
+    <Container fluid className="App-chords py-3 px-3">
       <h1>Tuner</h1>
       <TunerComponent
         instrument={instrument}

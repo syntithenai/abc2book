@@ -1,8 +1,10 @@
 import {
   isQueueActive,
   startPreviewOnce,
+  getCurrentItem,
+  getCurrentTuneId,
 } from './nowPlayingQueue'
-import { playQueueItem } from './nowPlayingQueuePlayback'
+import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
 
 /**
  * True when the media controller is audibly playing, starting up, or paused
@@ -173,6 +175,17 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
                 ctx.setNowPlayingQueue(null)
             }
         } else if (playingId && playingId !== tune.id) {
+            if (ctx.skipQueueConfirm) {
+                const previewQueue = startPreviewOnce(queue, tune.id)
+                if (ctx.setNowPlayingQueue) ctx.setNowPlayingQueue(previewQueue)
+                const item = {
+                    tuneId: tune.id,
+                    prefer: target.type === 'midi' ? 'midi' : 'media',
+                    linkIndex: target.type === 'media' ? target.linkNum : undefined,
+                }
+                playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+                return true
+            }
             setQueuePlayConfirm({
                 tuneId: tune.id,
                 tuneName: tune.name || '',
@@ -248,4 +261,22 @@ export function toggleTunePlayback(mediaController, tunebook, navigate, location
         return true
     }
     return startTunePlayback(mediaController, tunebook, navigate, location, queueContext)
+}
+
+export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes) {
+    if (!isQueueActive(queue)) return false
+    const tuneId = getCurrentTuneId(queue)
+    const item = getCurrentItem(queue)
+    if (tuneId && navigate) {
+        navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
+    }
+    if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {
+        if (mediaController.playFromUserGesture) {
+            mediaController.playFromUserGesture()
+        } else {
+            mediaController.play()
+        }
+        return true
+    }
+    return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
 }

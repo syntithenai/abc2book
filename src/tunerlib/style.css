@@ -1,21 +1,13 @@
 
 .tuner-root {
-  max-width: 640px;
+  width: 100%;
+  max-width: min(900px, 100%);
   margin: 0 auto;
   padding: 1rem;
 }
 
 .tuner-controls {
   margin-bottom: 1rem;
-}
-
-.tuner-notes-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
-  overflow: hidden;
 }
 
 .tuner-row {
@@ -25,23 +17,107 @@
   gap: 0.75rem;
 }
 
+.tuner-row-primary {
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.15rem;
+  -webkit-overflow-scrolling: touch;
+}
+
 .tuner-instrument-select {
-  max-width: 200px;
+  flex: 0 0 9.25rem;
+  width: 9.25rem;
+  max-width: none;
 }
 
 .tuner-preset-select {
-  max-width: 220px;
+  flex: 1 1 10rem;
+  min-width: 8rem;
+  max-width: 13rem;
+}
+
+.tuner-row-primary .btn-group {
+  flex: 0 0 auto;
+}
+
+.tuner-row-primary .btn-group .btn {
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+  font-size: 0.8rem;
+}
+
+.tuner-advanced-toggle,
+.tuner-auto-advance-toggle,
+.tuner-check-harmonics-toggle,
+.tuner-fine-toggle {
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding-left: 0.15rem;
+}
+
+.tuner-advanced-toggle .form-check-input,
+.tuner-auto-advance-toggle .form-check-input,
+.tuner-check-harmonics-toggle .form-check-input,
+.tuner-fine-toggle .form-check-input {
+  margin-top: 0.2rem;
+}
+
+.tuner-advanced-panel {
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.375rem;
+  background: #f8f9fa;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tuner-mic-select {
+  flex: 1 1 8rem;
+  min-width: 6rem;
+  max-width: none;
+}
+
+.tuner-mic-placeholder {
+  flex: 1 1 8rem;
+  min-width: 0;
+}
+
+.tuner-gate-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  flex: 1 1 7rem;
+  min-width: 6rem;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.tuner-gate-label input {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 3rem;
 }
 
 .tuner-a4-label {
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .tuner-a4-input {
-  width: 5.5rem;
+  width: 4.75rem;
   display: inline-block;
 }
 
@@ -83,8 +159,20 @@
   font-size: 0.9rem;
 }
 
-.tuner-reference-btn {
+.tuner-reference-btn,
+.tuner-play-btn {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.tuner-play-btn svg {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 .tuner-notes-strip {
@@ -95,25 +183,13 @@
   position: relative;
 }
 
-.tuner-settings-row {
-  margin-top: 0.5rem;
-  align-items: center;
-}
-
-.tuner-mic-select {
-  max-width: 220px;
-}
-
-.tuner-gate-label {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.85rem;
-  min-width: 120px;
-}
-
-.tuner-gate-label input {
-  width: 80px;
+.tuner-notes-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
 }
 
 .tuner-display-toolbar {
@@ -153,6 +229,19 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.15rem;
+}
+
+.tuner-readout-target {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.2rem;
+}
+
+.tuner-readout-far {
+  font-size: 0.8rem;
+  color: #adb5bd;
+  margin-top: 0.15rem;
 }
 
 .tuner-readout-held {
@@ -195,7 +284,7 @@
 .tuner-vu-canvas,
 .tuner-pitch-canvas {
   width: 100%;
-  height: 220px;
+  height: 240px;
   display: block;
 }
 

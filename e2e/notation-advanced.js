@@ -12,7 +12,7 @@ const {
   ensureNoteInputMode,
   clickStaffForNoteInput,
 } = require('./helpers')
-const { assertVoiceAbc } = require('./notation-assertions')
+const { assertVoiceAbc, assertEvents } = require('./notation-assertions')
 
 const BASIC_TUNE_ID = 'e2e00000000000000000001'
 
@@ -49,9 +49,8 @@ async function runAdvancedTests(page, ctx) {
     await page.focus('[data-testid="notation-abc-textarea"]')
     await page.keyboard.type(' z')
     await sleep(400)
-    const abc = await getVoiceAbc(page)
-    if (!abc || abc === before) throw new Error('ABC edit did not update voice body')
-    if (abc.indexOf('z') < 0 && abc.indexOf('Z') < 0) throw new Error('typed rest should appear in voice ABC')
+    await assertVoiceAbc(page, 'C D E F z |', 'ABC edit inserts rest')
+    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'rest:1', 'bar:|'], 'rest event from ABC edit')
   })
 
   await runScenario(results, 'P3: split view via Ctrl+Alt+P cycle', async function() {
@@ -75,8 +74,7 @@ async function runAdvancedTests(page, ctx) {
     await clickStaffForNoteInput(page, { between: 1 })
     await clickTestId(page, 'notation-barline')
     await sleep(300)
-    const edited = await getVoiceAbc(page)
-    if (edited === before) throw new Error('barline edit did not change ABC')
+    await assertEvents(page, ['note:C5', 'note:D5', 'bar:|', 'note:E5', 'note:F5', 'bar:|'], 'barline inserted before undo')
     await page.keyboard.down('Control')
     await page.keyboard.press('z')
     await page.keyboard.up('Control')

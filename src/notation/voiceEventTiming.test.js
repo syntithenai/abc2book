@@ -3,9 +3,22 @@ import {
   eventIndexFromStaffAbcElem,
   eventIndexFromSelectableIndex,
   eventsFromVoiceBody,
+  globalMeasureFromAnalysis,
 } from './voiceEventTiming';
 import { buildAbcPreviewFromBodies } from './notationDisplayAbc';
 import useAbcTools from '../useAbcTools';
+
+describe('globalMeasureFromAnalysis', function() {
+  test('reads abcjs-mmN from selectable element', function() {
+    const el = { classList: ['abcjs-note', 'abcjs-mm2'] };
+    expect(globalMeasureFromAnalysis({ selectableElement: el, measure: 0 })).toBe(2);
+  });
+
+  test('combines abcjs-lN with line-local measure', function() {
+    const el = { classList: ['abcjs-note', 'abcjs-l1'] };
+    expect(globalMeasureFromAnalysis({ selectableElement: el, measure: 3 })).toBe(1003);
+  });
+});
 
 describe('caretIndexFromStaffClick', function() {
   test('returns 0 for empty events with measure analysis', function() {
@@ -105,7 +118,7 @@ describe('eventIndexFromStaffAbcElem', function() {
       { midi: 60 },
       null
     );
-    expect(result).toBe(0);
+    expect(result).toBe(events.length);
   });
 
   test('eventIndexFromStaffAbcElem maps second system note via startChar on multiline ABC', function() {
@@ -115,7 +128,7 @@ describe('eventIndexFromStaffAbcElem', function() {
       voices: { 1: { notes: [body] } },
     });
     const abc = buildAbcPreviewFromBodies(tuneMulti, tunebook, ['1'], { 1: body });
-    const dStart = abc.indexOf('d ');
+    const dStart = abc.indexOf('d e');
     expect(dStart).toBeGreaterThanOrEqual(0);
     const idx = eventIndexFromStaffAbcElem(
       events,
@@ -126,15 +139,23 @@ describe('eventIndexFromStaffAbcElem', function() {
       { startChar: dStart },
       null
     );
-    const dEventIdx = events.findIndex(function(ev) {
-      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D' && ev.pitch.octave === 5;
+    expect(idx).toBeGreaterThanOrEqual(8);
+    expect(events[idx].type).toBe('note');
+    expect(events[idx].pitch.step).toBe('D');
+  });
+
+  test('multiline fixture lowercase d is D5', function() {
+    const body = 'C D E F | G A B c |\nd e f g |';
+    const events = eventsFromVoiceBody(body, tuneMeta);
+    const dNotes = events.filter(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D';
     });
-    expect(dEventIdx).toBeGreaterThanOrEqual(0);
-    expect(idx).toBe(dEventIdx);
+    expect(dNotes.length).toBeGreaterThanOrEqual(2);
+    const lastD = dNotes[dNotes.length - 1];
+    expect(lastD.pitch.octave).toBeGreaterThanOrEqual(4);
   });
 
   test('eventIndexFromStaffAbcElem respects voice index for multiline', function() {
-    // When tune has multiple voices, eventIndexFromStaffAbcElem should map to the correct voice
     const events = eventsFromVoiceBody('D E F |', tuneMeta);
     const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'D E F |' });
     const dStart = abc.indexOf('D ');

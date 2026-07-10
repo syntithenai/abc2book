@@ -358,7 +358,30 @@ async function clickStaffGap(page, clientX, clientY) {
   await sleep(200)
 }
 
-/** Click the staff to place the note-input caret (start, after a note, or between two notes). */
+async function staffNoteOnSystemLine(page, lineIndex) {
+  return page.evaluate(function(li) {
+    const wrap = document.querySelector('[data-testid="notation-staff-wrap"]')
+    if (!wrap) return null
+    const notes = Array.from(wrap.querySelectorAll('.abcjs-note'))
+    const withRect = notes.map(function(el) {
+      const r = el.getBoundingClientRect()
+      return { top: r.top, left: r.left, x: r.left + r.width / 2, y: r.top + r.height / 2 }
+    })
+    withRect.sort(function(a, b) {
+      if (Math.abs(a.top - b.top) > 8) return a.top - b.top
+      return a.left - b.left
+    })
+    const lines = []
+    withRect.forEach(function(n) {
+      if (!lines.length || n.top - lines[lines.length - 1][0].top > 30) lines.push([n])
+      else lines[lines.length - 1].push(n)
+    })
+    const row = lines[li]
+    if (!row || !row.length) return null
+    return row[0]
+  }, lineIndex)
+}
+
 async function clickStaffForNoteInput(page, options) {
   const opts = options || {}
   const centers = await staffNoteCenters(page, 0)
@@ -394,6 +417,12 @@ async function clickStaffForNoteInput(page, options) {
   }
   await page.mouse.click(x, y)
   await sleep(200)
+}
+
+async function setNotationFlag(page, key, value) {
+  await page.evaluate(function(k, v) {
+    localStorage.setItem(k, v)
+  }, key, value)
 }
 
 async function runScenario(results, name, fn) {
@@ -435,7 +464,9 @@ module.exports = {
   pressKey,
   clickTestId,
   staffNoteCenters,
+  staffNoteOnSystemLine,
   dragStaffNoteByIndex,
   clickStaffGap,
   clickStaffForNoteInput,
+  setNotationFlag,
 }

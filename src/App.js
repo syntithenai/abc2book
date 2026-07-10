@@ -48,7 +48,9 @@ import useGoogleLogin from './useGoogleLogin'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import NowPlayingHost from './components/NowPlayingHost'
+import NowPlayingTransportBar from './components/NowPlayingTransportBar'
 import QueuePlayConfirmModal from './components/QueuePlayConfirmModal'
+import { shouldShowPlaylistTransportBar } from './playbackNavigationUtils'
 import { isQueueActive, suspendQueue, resumeQueue, startPreviewOnce, getCurrentItem, getCurrentTuneId } from './nowPlayingQueue'
 import { isGigPlaylistActive } from './gigRouteUtils'
 import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem, navigateToQueueTune } from './nowPlayingQueuePlayback'
@@ -194,6 +196,23 @@ function AppQueueLayer(props) {
     const match = location.pathname.match(/\/tunes\/([^/]+)/)
     return match ? decodeURIComponent(match[1]) : null
   })()
+  const showPlaylistTransport = shouldShowPlaylistTransportBar(
+    location.pathname,
+    props.nowPlayingQueue,
+    props.gigModeActive
+  )
+
+  useEffect(function() {
+    if (typeof document === 'undefined') return undefined
+    if (showPlaylistTransport) {
+      document.body.classList.add('app-has-playlist-transport')
+    } else {
+      document.body.classList.remove('app-has-playlist-transport')
+    }
+    return function() {
+      document.body.classList.remove('app-has-playlist-transport')
+    }
+  }, [showPlaylistTransport])
 
   function handleQueueConfirmPlayThisTune() {
     const request = props.queuePlayConfirm
@@ -235,6 +254,14 @@ function AppQueueLayer(props) {
         onPlayThisTune={handleQueueConfirmPlayThisTune}
         onResumePlaylist={handleQueueConfirmResumePlaylist}
         onCancel={function() { props.setQueuePlayConfirm(null) }}
+      />
+      <NowPlayingTransportBar
+        nowPlayingQueue={props.nowPlayingQueue}
+        setNowPlayingQueue={props.setNowPlayingQueue}
+        tunebook={props.tunebook}
+        tunes={props.tunes}
+        mediaController={props.mediaController}
+        gigModeActive={props.gigModeActive}
       />
     </>
   )

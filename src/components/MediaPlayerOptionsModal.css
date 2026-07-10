@@ -129,9 +129,16 @@
   align-items: center;
 }
 
+.media-controls-transport-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  align-items: center;
+  margin-left: auto;
+}
+
 .media-controls-rewind {
   flex: 0 0 auto;
-  margin-left: auto;
 }
 
 .scope-note {

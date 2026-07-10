@@ -50,7 +50,7 @@ If a strengthened test fails: fix product code when behavior is documented in he
 | Layer | Script | When |
 |-------|--------|------|
 | **Jest** | `src/notation/*.test.js` | Every PR (`npm test`) |
-| **P0 Puppeteer** | `notation-staff-workflow.js` + `notation-staff-core.js` | PR / local (`npm run test:notation:e2e`) |
+| **P0 Puppeteer** | `notation-staff-workflow.js` + `notation-staff-core.js` + `notation-click-regression.js` | PR / local (`npm run test:notation:e2e`) |
 | **P1 Puppeteer** | `notation-staff-full.js`, `notation-staff-marks.js`, `notation-voices.js` | Nightly (`NOTATION_E2E_TIER=1`) |
 | **P2 Puppeteer** | `notation-piano-roll.js` | Nightly (`NOTATION_E2E_TIER=full`) |
 | **P3 Puppeteer** | `notation-advanced.js` | Nightly (`NOTATION_E2E_TIER=full`) |
@@ -124,6 +124,7 @@ Semantics pinned by tests (see help for full list):
 | 5 | `selection` | P0 | notation-staff-core |
 | 6 | `clipboard` | P0/P1 | workflow + notation-staff-full |
 | 7 | `transpose` (drag) | P0 | notation-staff-core |
+| 7b | click regression | P0 | notation-click-regression |
 | 8 | `transpose` (↑) | P0 | notation-staff-core |
 | 9 | `barlines` | P0 | notation-staff-core |
 | 10 | `views` | P0/P3 | notation-staff-core + notation-advanced |
@@ -139,6 +140,7 @@ Semantics pinned by tests (see help for full list):
 | 20 | `duration-edits` | P1 | notation-staff-full |
 | 21 | `clipboard` | P1 | notation-staff-full |
 | 22 | `voices` | P1 | notation-voices |
+| 22b | multiline DOM click | P0/P1 | notation-click-regression + notation-staff-full |
 | 23 | toolbar smoke | P1 | notation-staff-full |
 | 24–29 | piano-roll | P2 | notation-piano-roll |
 | 30–34 | advanced | P3 | notation-advanced |
@@ -159,6 +161,10 @@ Semantics pinned by tests (see help for full list):
 - Clef/key transpose modal (tune-level)
 - Waveform / playhead sync
 - Clear slur on full span (only selected note cleared — see unit test)
+
+## Manual smoke
+
+See [CLICK_BEHAVIOR_SMOKE.md](./CLICK_BEHAVIOR_SMOKE.md) for the click/caret regression checklist.
 
 ## Adding a feature
 

@@ -197,6 +197,11 @@
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.85);
   box-sizing: border-box;
 }
+.notation-staff-wrap .abcjs-note_selected,
+.notation-staff-wrap .abcjs-note_selected path {
+  fill: inherit !important;
+  stroke: inherit !important;
+}
 .notation-voice-selector {
   display: flex;
   flex-direction: column;

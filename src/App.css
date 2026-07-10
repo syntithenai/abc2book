@@ -878,6 +878,22 @@ a.header-now-playing-label:focus {
   text-decoration: underline;
 }
 
+.header-list-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.header-list-nav-context {
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0 0.15em;
+  opacity: 0.9;
+}
+
 .header-playback .btn-group {
   display: inline-flex;
   align-items: center;

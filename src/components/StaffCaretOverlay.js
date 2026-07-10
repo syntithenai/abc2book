@@ -1,9 +1,9 @@
 import React, { useLayoutEffect, useState } from 'react';
 import { EDITOR_MODES } from '../notation/notationConstants';
-import { staffCaretAnchorRect } from '../notation/staffCaretPosition';
+import { rectForEventIndex } from '../notation/staffClickResolve';
 
 export default function StaffCaretOverlay(props) {
-  const { containerRef, session, displayAbc, voiceStaffIndex, clickAnchor } = props;
+  const { containerRef, session, displayAbc, voiceStaffIndex } = props;
   const [computedAnchor, setComputedAnchor] = useState(null);
   const showCaret = session.mode === EDITOR_MODES.NOTE_INPUT;
 
@@ -19,7 +19,7 @@ export default function StaffCaretOverlay(props) {
         setComputedAnchor(null);
         return;
       }
-      setComputedAnchor(staffCaretAnchorRect(node, session.events, session.caretIndex, voiceStaffIndex));
+      setComputedAnchor(rectForEventIndex(node, session.events, session.caretIndex, voiceStaffIndex));
     }
 
     measure();
@@ -45,10 +45,9 @@ export default function StaffCaretOverlay(props) {
     session.events,
     displayAbc,
     voiceStaffIndex,
-    clickAnchor,
   ]);
 
-  const anchor = computedAnchor || clickAnchor;
+  const anchor = computedAnchor;
   if (!showCaret || !anchor) return null;
 
   return (

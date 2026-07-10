@@ -1,5 +1,11 @@
 import React, { useRef, useEffect } from 'react'
-import { formatCents, formatFrequency, smoothNeedleCents, smoothNeedleRange } from './tunerDisplayUtils'
+import {
+  formatCentsDetail,
+  formatFrequency,
+  isFarFromTarget,
+  smoothNeedleCents,
+  smoothNeedleRange
+} from './tunerDisplayUtils'
 
 function meterAccent(cents) {
   if (cents == null) return '#2c3e50'
@@ -11,8 +17,8 @@ function meterAccent(cents) {
 
 function drawArcMeter(ctx, width, height, cents, halfRange, inTuneFlash) {
   const cx = width / 2
-  const cy = height - 24
-  const radius = Math.min(width * 0.42, height - 70)
+  const cy = height - 36
+  const radius = Math.min(width * 0.4, height - 82)
   const startAngle = Math.PI
   const endAngle = 2 * Math.PI
   const range = halfRange > 0 ? halfRange : 50
@@ -51,12 +57,27 @@ function drawArcMeter(ctx, width, height, cents, halfRange, inTuneFlash) {
       ctx.font = '11px sans-serif'
       ctx.textAlign = 'center'
       ctx.textBaseline = 'middle'
-      const labelRadius = radius + 16
+      const labelRadius = radius + 14
       const lx = cx + Math.cos(angle) * labelRadius
       const ly = cy + Math.sin(angle) * labelRadius
       ctx.fillText(String(Math.round(c)), lx, ly)
     }
   }
+
+  ctx.fillStyle = '#868e96'
+  ctx.font = '10px sans-serif'
+  ctx.textAlign = 'center'
+  ctx.textBaseline = 'middle'
+  const legendRadius = radius + 30
+  const flatX = cx + Math.cos(Math.PI) * legendRadius
+  const flatY = cy + Math.sin(Math.PI) * legendRadius
+  const sharpX = cx + Math.cos(2 * Math.PI) * legendRadius
+  const sharpY = cy + Math.sin(2 * Math.PI) * legendRadius
+  const zeroX = cx
+  const zeroY = cy - legendRadius + 6
+  ctx.fillText('Flat', flatX, flatY)
+  ctx.fillText('0', zeroX, zeroY)
+  ctx.fillText('Sharp', sharpX, sharpY)
 
   if (cents == null) return
 
@@ -169,11 +190,14 @@ export default function TunerVuMeter(props) {
     <div className="tuner-vu-meter">
       <canvas ref={canvasRef} className="tuner-vu-canvas" />
       <div className={readoutClass} style={{ color: meterAccent(displayCents) }}>
-        {props.noteLabel ? (
-          <div className="tuner-readout-note">{props.noteLabel}</div>
+        {props.targetLabel ? (
+          <div className="tuner-readout-target">Target: {props.targetLabel}</div>
         ) : null}
-        <div className="tuner-readout-cents">{formatCents(displayCents)}</div>
+        <div className="tuner-readout-cents">{formatCentsDetail(displayCents)}</div>
         <div className="tuner-readout-freq">{formatFrequency(props.frequency)}</div>
+        {isFarFromTarget(displayCents) ? (
+          <div className="tuner-readout-far">far from target</div>
+        ) : null}
         {props.isHeld ? (
           <div className="tuner-readout-held-label">Last reading</div>
         ) : null}

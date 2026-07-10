@@ -4,6 +4,7 @@ import {
   targetFrequenciesForPreset,
   nearestStringForFrequency,
   centsForActiveString,
+  centsToTargetWithHarmonics,
   harmonicTargetForOpenString,
   wrongStringWarning,
   centsBetween
@@ -61,5 +62,48 @@ describe('tunerTuningUtils', () => {
     const target = 440
     expect(centsBetween(target * 1.01, target)).toBeGreaterThan(0)
     expect(centsBetween(target * 0.99, target)).toBeLessThan(0)
+  })
+
+  it('centsForActiveString is near zero when E4 is in tune', () => {
+    const preset = getPreset('guitar', 'standard')
+    const e4 = midiToFrequency(noteNameToMidi('E4'), 440)
+    const cents = centsForActiveString(e4, preset, 5, 440)
+    expect(cents).not.toBeNull()
+    expect(Math.abs(cents)).toBeLessThan(1)
+  })
+
+  it('centsForActiveString corrects 3:2 harmonic partial on E4', () => {
+    const preset = getPreset('guitar', 'standard')
+    const e4 = midiToFrequency(noteNameToMidi('E4'), 440)
+    const partial = (e4 * 3) / 2
+    const cents = centsForActiveString(partial, preset, 5, 440)
+    expect(cents).not.toBeNull()
+    expect(Math.abs(cents)).toBeLessThan(5)
+  })
+
+  it('centsForActiveString corrects 2:1 harmonic partial on E4', () => {
+    const preset = getPreset('guitar', 'standard')
+    const e4 = midiToFrequency(noteNameToMidi('E4'), 440)
+    const cents = centsForActiveString(e4 * 2, preset, 5, 440)
+    expect(cents).not.toBeNull()
+    expect(Math.abs(cents)).toBeLessThan(5)
+  })
+
+  it('centsForActiveString shows large deviation for wrong note on E4', () => {
+    const preset = getPreset('guitar', 'standard')
+    const a4 = midiToFrequency(noteNameToMidi('A4'), 440)
+    const cents = centsForActiveString(a4, preset, 5, 440)
+    expect(cents).not.toBeNull()
+    expect(cents).toBeGreaterThan(450)
+    expect(cents).toBeLessThan(550)
+  })
+
+  it('centsToTargetWithHarmonics prefers harmonic-adjusted match', () => {
+    const e4 = midiToFrequency(noteNameToMidi('E4'), 440)
+    const partial = (e4 * 3) / 2
+    const direct = (1200 * Math.log(partial / e4)) / Math.log(2)
+    expect(Math.abs(direct)).toBeGreaterThan(600)
+    const corrected = centsToTargetWithHarmonics(partial, e4)
+    expect(Math.abs(corrected)).toBeLessThan(5)
   })
 })

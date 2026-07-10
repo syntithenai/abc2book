@@ -1,0 +1,108 @@
+.now-playing-transport-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.45rem 0.65rem calc(0.45rem + env(safe-area-inset-bottom, 0px));
+  background: rgba(248, 249, 250, 0.97);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.now-playing-transport-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-width: 5.5rem;
+  flex: 0 1 auto;
+}
+
+.now-playing-transport-center {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.now-playing-transport-center-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.now-playing-transport-tune-link,
+.now-playing-transport-tune-link:link,
+.now-playing-transport-tune-link:visited {
+  color: inherit;
+  text-decoration: none;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.now-playing-transport-tune-link:hover,
+.now-playing-transport-tune-link:focus {
+  text-decoration: underline;
+}
+
+.now-playing-transport-tune-name {
+  font-weight: 600;
+}
+
+.now-playing-transport-position {
+  margin-left: 0.25rem;
+  opacity: 0.75;
+  font-weight: 400;
+}
+
+.now-playing-transport-play-btn {
+  flex: 0 0 auto;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.now-playing-transport-play-btn svg {
+  width: 1.15em;
+  height: 1.15em;
+}
+
+.now-playing-transport-list-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 0 0 auto;
+}
+
+.now-playing-transport-btn svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+}
+
+@media (max-width: 520px) {
+  .now-playing-transport-btn-label {
+    display: none;
+  }
+
+  .now-playing-transport-btn {
+    min-width: 3rem;
+  }
+}
+
+body.app-has-playlist-transport .App-body {
+  padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+}

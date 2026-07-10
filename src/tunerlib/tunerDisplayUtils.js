@@ -100,6 +100,18 @@ export function formatCents(cents) {
   return rounded + ' ¢'
 }
 
+export function formatCentsDetail(cents) {
+  if (cents == null || !Number.isFinite(cents)) return '— ¢'
+  const rounded = Math.round(cents)
+  if (rounded === 0) return '0 ¢ in tune'
+  if (rounded > 0) return '+' + rounded + ' ¢ sharp'
+  return rounded + ' ¢ flat'
+}
+
+export function isFarFromTarget(cents) {
+  return cents != null && Number.isFinite(cents) && Math.abs(cents) > 50
+}
+
 export function formatFrequency(freq) {
   if (freq == null || !Number.isFinite(freq)) return '— Hz'
   return freq.toFixed(1) + ' Hz'

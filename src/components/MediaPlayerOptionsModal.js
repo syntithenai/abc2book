@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect} from 'react'
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
 import {useNavigate, useLocation, useParams} from 'react-router-dom'
 import PitchTempoControlsPanel from './PitchTempoControlsPanel'
@@ -32,7 +32,6 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     : (playingTune ? 'Untitled Song' : '')
   const [show, setShow] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
-  const clickTimeoutRef = useRef(null);
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
 
   const handleClose = function() {
@@ -110,19 +109,6 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     mediaController.setIsReady(false)
   }
 
-  function handlePlayClick(onSingle, onDouble) {
-    if (clickTimeoutRef.current) {
-      clearTimeout(clickTimeoutRef.current)
-      clickTimeoutRef.current = null
-      onDouble()
-      return
-    }
-    clickTimeoutRef.current = setTimeout(function() {
-      clickTimeoutRef.current = null
-      onSingle()
-    }, 300)
-  }
-
   function requestPlaybackForTarget(target) {
     if (!viewedTune || !mediaController.requestPlayback) return false
     return mediaController.requestPlayback({
@@ -149,37 +135,24 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
       && mediaController.isMediaPlaybackRoute()
       && mediaController.mediaLinkNumber === linkKey
     const path = '/tunes/' + viewedTune.id + '/playMedia/' + linkKey
-    handlePlayClick(
-      function() {
-        applyRouteForTarget({
-          playState: 'playMedia',
-          linkNum: linkKey,
-        })
-        if (!requestPlaybackForTarget({
-          playState: 'playMedia',
-          linkNum: linkKey,
-          fresh: !sameSource,
-        })) {
-          if (sameSource) {
-            startPlaybackFromGesture()
-          } else {
-            startPlaybackFromGesture({ fresh: true })
-          }
-        }
-        if (location.pathname !== path) {
-          navigate(path)
-        }
-      },
-      function() {
-        mediaController.setMediaLinkNumber(linkKey)
-        if (location.pathname !== path) {
-          navigate(path)
-        }
-        if (mediaController.restartPlaybackFromStart) {
-          mediaController.restartPlaybackFromStart()
-        }
+    applyRouteForTarget({
+      playState: 'playMedia',
+      linkNum: linkKey,
+    })
+    if (!requestPlaybackForTarget({
+      playState: 'playMedia',
+      linkNum: linkKey,
+      fresh: !sameSource,
+    })) {
+      if (sameSource) {
+        startPlaybackFromGesture()
+      } else {
+        startPlaybackFromGesture({ fresh: true })
       }
-    )
+    }
+    if (location.pathname !== path) {
+      navigate(path)
+    }
   }
 
   function handleMidiPlayback() {
@@ -187,33 +160,20 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     const sameSource = mediaController.isMidiPlaybackRoute
       && mediaController.isMidiPlaybackRoute()
     const path = '/tunes/' + viewedTune.id + '/playMidi'
-    handlePlayClick(
-      function() {
-        applyRouteForTarget({ playState: 'playMidi' })
-        if (!requestPlaybackForTarget({
-          playState: 'playMidi',
-          fresh: !sameSource,
-        })) {
-          if (sameSource) {
-            startPlaybackFromGesture()
-          } else {
-            startPlaybackFromGesture({ fresh: true })
-          }
-        }
-        if (location.pathname !== path) {
-          navigate(path)
-        }
-      },
-      function() {
-        mediaController.setMediaLinkNumber(null)
-        if (location.pathname !== path) {
-          navigate(path)
-        }
-        if (mediaController.restartPlaybackFromStart) {
-          mediaController.restartPlaybackFromStart()
-        }
+    applyRouteForTarget({ playState: 'playMidi' })
+    if (!requestPlaybackForTarget({
+      playState: 'playMidi',
+      fresh: !sameSource,
+    })) {
+      if (sameSource) {
+        startPlaybackFromGesture()
+      } else {
+        startPlaybackFromGesture({ fresh: true })
       }
-    )
+    }
+    if (location.pathname !== path) {
+      navigate(path)
+    }
   }
 
   return (
@@ -276,17 +236,20 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                     </>
                   )}
                 </div>
-                {mediaController.rewindToStart && (
-                  <Button
-                    variant="outline-secondary"
-                    size="sm"
-                    className="media-controls-rewind"
-                    title="Rewind to start"
-                    onClick={function() { mediaController.rewindToStart() }}
-                  >
-                    {tunebook.icons.skipback}
-                  </Button>
-                )}
+                <div className="media-controls-transport-actions">
+                  {mediaController.rewindToStart && (
+                    <Button
+                      variant="outline-secondary"
+                      size="sm"
+                      className="media-controls-rewind"
+                      title="From start"
+                      aria-label="From start"
+                      onClick={function() { mediaController.rewindToStart() }}
+                    >
+                      {tunebook.icons.rewind} From start
+                    </Button>
+                  )}
+                </div>
               </div>
             </div>
           )}

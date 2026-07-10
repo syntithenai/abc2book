@@ -14,8 +14,16 @@ export default function PlaylistModal({
   setNowPlayingQueue,
   tunes,
   isPlaying,
+  hideTrigger,
+  show: controlledShow,
+  onShowChange,
 }) {
-  const [show, setShow] = useState(false)
+  const [internalShow, setInternalShow] = useState(false)
+  const show = controlledShow !== undefined ? controlledShow : internalShow
+  function setShow(next) {
+    if (onShowChange) onShowChange(next)
+    else setInternalShow(next)
+  }
   const [showOpen, setShowOpen] = useState(false)
   const useButtonSize = buttonSize ? buttonSize : 'lg'
   const isNarrow = useIsNarrowViewport()
@@ -49,7 +57,7 @@ export default function PlaylistModal({
 
   return (
     <>
-      {!isNarrow && playingTune && playingId && (
+      {!hideTrigger && !isNarrow && playingTune && playingId && (
         <Link
           to={'/tunes/' + playingId}
           className="header-now-playing-label"
@@ -58,15 +66,17 @@ export default function PlaylistModal({
           {playingTune.name} ({positionLabel})
         </Link>
       )}
-      <Button
-        size={useButtonSize}
-        onClick={function() { setShow(function(v) { return !v }) }}
-        variant={isPlaying ? 'warning' : 'success'}
-        title="Playlist"
-        data-testid="playlist-button"
-      >
-        {tunebook.icons.menu}
-      </Button>
+      {!hideTrigger ? (
+        <Button
+          size={useButtonSize}
+          onClick={function() { setShow(!show) }}
+          variant={isPlaying ? 'warning' : 'success'}
+          title="Playlist"
+          data-testid="playlist-button"
+        >
+          {tunebook.icons.menu}
+        </Button>
+      ) : null}
 
       <Modal onClick={function(e) { e.stopPropagation() }} show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>

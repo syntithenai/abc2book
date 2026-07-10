@@ -51,6 +51,40 @@ export function centsBetween(freq, targetFreq) {
   return Math.floor(1200 * Math.log(freq / targetFreq) / Math.log(2))
 }
 
+export function floatCentsBetween(freq, targetFreq) {
+  if (!freq || !targetFreq || freq <= 0 || targetFreq <= 0) return null
+  const cents = (1200 * Math.log(freq / targetFreq)) / Math.log(2)
+  if (!Number.isFinite(cents)) return null
+  return cents
+}
+
+/**
+ * Cents from detected freq to a target Hz, testing common harmonic partial ratios
+ * when they yield a closer match than the raw fundamental.
+ */
+export function centsToTargetWithHarmonics(freq, targetHz) {
+  if (!freq || !targetHz || freq <= 0 || targetHz <= 0) return null
+
+  const direct = floatCentsBetween(freq, targetHz)
+  if (direct == null) return null
+
+  let best = direct
+  const variants = [
+    freq / 2,
+    freq * 2,
+    (freq * 2) / 3,
+    (freq * 3) / 2
+  ]
+
+  variants.forEach(function(variant) {
+    if (!variant || variant <= 0) return
+    const c = floatCentsBetween(variant, targetHz)
+    if (c != null && Math.abs(c) <= 50 && Math.abs(c) < Math.abs(best)) best = c
+  })
+
+  return best
+}
+
 export function targetFrequenciesForPreset(preset, a4) {
   if (!preset || !preset.strings) return []
   return preset.strings.map(function(note) {
@@ -115,13 +149,8 @@ export function centsForActiveString(freq, preset, stringIndex, a4) {
   const targets = targetFrequenciesForPreset(preset, a4)
   if (stringIndex < 0 || stringIndex >= targets.length || !freq) return null
   const t = targets[stringIndex]
-  let bestCents = Infinity
-  ;[-12, 0, 12].forEach(function(shift) {
-    const f = midiToFrequency(t.midi + shift, a4)
-    const c = centsBetween(freq, f)
-    if (Math.abs(c) < Math.abs(bestCents)) bestCents = c
-  })
-  return bestCents
+  if (t.midi == null || !t.frequency || t.frequency <= 0) return null
+  return centsToTargetWithHarmonics(freq, t.frequency)
 }
 
 export function harmonicTargetForOpenString(openFreq) {
@@ -139,7 +168,10 @@ export function wrongStringWarning(activeStringIndex, detectedFreq, preset, a4, 
   if (nearest.stringIndex < 0 || nearest.cents == null) return null
   if (Math.abs(nearest.cents) > maxAnyCents) return null
 
-  const activeCents = centsForActiveString(detectedFreq, preset, activeStringIndex, a4)
+  const activeTarget = targetFrequenciesForPreset(preset, a4)[activeStringIndex]
+  const activeCents = activeTarget && activeTarget.frequency
+    ? floatCentsBetween(detectedFreq, activeTarget.frequency)
+    : null
   if (activeCents == null) return null
 
   if (nearest.stringIndex === activeStringIndex) return null

@@ -66,7 +66,8 @@ import {
   eventIndexFromSelectableIndex,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
-import { caretIndexAndAnchorFromStaffClick, eventIdFromStaffNoteElement, eventIndexFromStaffClick } from '../notation/staffCaretPosition';
+import { eventIdFromStaffNoteElement } from '../notation/staffCaretPosition';
+import { resolveStaffClick } from '../notation/staffClickResolve';
 import useMidiInput from '../notation/useMidiInput';
 import {
   toggleTie,
@@ -103,11 +104,12 @@ export default function NotationEditor(props) {
     }
   );
 
-  const [staffClickAnchor, setStaffClickAnchor] = useState(null);
   const staffRef = useRef(null);
   const staffWrapRef = useRef(null);
   const staffDragTargetRef = useRef(null);
-  const staffNoteInputClickRef = useRef(false);
+  const staffInputHandledRef = useRef(false);
+  const staffPointerRef = useRef(null);
+  const resolverDebugRef = useRef(null);
 
   const focusStaffEditor = useCallback(function() {
     window.setTimeout(function() {
@@ -122,7 +124,6 @@ export default function NotationEditor(props) {
   }, []);
 
   const setCaretIndex = useCallback(function(index) {
-    setStaffClickAnchor(null);
     syncSessionAction({ type: 'SET_CARET', index: index });
   }, [syncSessionAction]);
   const [showQuantize, setShowQuantize] = useState(false);
@@ -173,12 +174,6 @@ export default function NotationEditor(props) {
   }, [props.onHelpModeChange, showHelp, showWalkthrough]);
 
   useEffect(function() { sessionRef.current = session; }, [session]);
-
-  useEffect(function() {
-    if (session.mode !== EDITOR_MODES.NOTE_INPUT) {
-      setStaffClickAnchor(null);
-    }
-  }, [session.mode]);
 
   useEffect(function() {
     midiRecordBufferRef.current = session.midiRecordBuffer || [];
@@ -328,7 +323,6 @@ export default function NotationEditor(props) {
     }
     sessionRef.current = next;
     if (typeof patch.caretIndex === 'number' && patch.caretIndex !== prevCaret) {
-      setStaffClickAnchor(null);
     }
     dispatch({
       type: 'SET_EVENTS',
@@ -432,16 +426,13 @@ export default function NotationEditor(props) {
           type: 'SET_SELECTION',
           selection: { eventIds: [], toneIndex: null, anchorId: null },
         });
-        setStaffClickAnchor(null);
         setCaretIndex(s.events.length);
       } else {
-        setStaffClickAnchor(null);
       }
       focusStaffEditor();
       return;
     }
     if (action.action === 'exitNoteInput') {
-      setStaffClickAnchor(null);
       dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NORMAL });
       return;
     }
@@ -534,7 +525,6 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'prevEvent' || action.action === 'nextEvent') {
-      setStaffClickAnchor(null);
       setCaretIndex(moveCaret(s, action.action === 'nextEvent' ? 1 : -1).caretIndex);
       return;
     }
@@ -550,7 +540,6 @@ export default function NotationEditor(props) {
         if ((s.events[i].startBeat || 0) >= target) { idx = i; break; }
         idx = i + 1;
       }
-      setStaffClickAnchor(null);
       setCaretIndex(idx);
       return;
     }
@@ -616,18 +605,44 @@ export default function NotationEditor(props) {
     }, 0);
   }
 
-  function placeNoteInputCaretFromPointer(e, analysis) {
+  function resolveStaffClickFromEditor(e, analysis, abcelem, renderedAbc) {
     const s = sessionRef.current;
     const wrap = staffWrapRef.current;
-    if (!wrap || s.mode !== EDITOR_MODES.NOTE_INPUT) return false;
-
     const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
-    const clickPos = caretIndexAndAnchorFromStaffClick(wrap, s.events, e, analysis, voiceStaffIdx);
-    if (!clickPos) return false;
+    const fullAbc = renderedAbc || displayAbc;
+    const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : voiceStaffIdx;
+    const pointerEvent = e && typeof e.clientX === 'number'
+      ? e
+      : (staffPointerRef.current || e);
+    const resolved = resolveStaffClick({
+      wrapEl: wrap,
+      events: s.events,
+      mouseEvent: pointerEvent,
+      abcelem: abcelem,
+      analysis: analysis,
+      voiceStaffIndex: voiceIdx,
+      tuneMeta: tuneMeta,
+      fullAbc: fullAbc,
+      displayedVoiceKeys: displayedVoiceKeys,
+    });
+    if (process.env.NODE_ENV !== 'production') {
+      resolverDebugRef.current = {
+        source: resolved.source,
+        eventIndex: resolved.eventIndex,
+        caretIndex: resolved.caretIndex,
+      };
+    }
+    return resolved;
+  }
 
-    syncSessionAction({ type: 'SET_CARET', index: clickPos.caretIndex });
-    if (clickPos.anchor) setStaffClickAnchor(clickPos.anchor);
-    else setStaffClickAnchor(null);
+  function placeNoteInputCaretFromPointer(e, analysis, renderedAbc) {
+    const s = sessionRef.current;
+    if (s.mode !== EDITOR_MODES.NOTE_INPUT) return false;
+
+    const resolved = resolveStaffClickFromEditor(e, analysis, null, renderedAbc);
+    if (!resolved) return false;
+
+    syncSessionAction({ type: 'SET_CARET', index: resolved.caretIndex });
     syncSessionAction({
       type: 'SET_SELECTION',
       selection: { eventIds: [], toneIndex: null, anchorId: null },
@@ -643,6 +658,7 @@ export default function NotationEditor(props) {
 
   function handleStaffWrapPointerDown(e) {
     const s = sessionRef.current;
+    staffPointerRef.current = { clientX: e.clientX, clientY: e.clientY };
     const pointerAnalysis = staffPointerAnalysis(e);
     if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
       const wrap = staffWrapRef.current;
@@ -660,11 +676,10 @@ export default function NotationEditor(props) {
     if (e.button === 2) {
       e.preventDefault();
       e.stopPropagation();
-      const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
-      const clickPos = caretIndexAndAnchorFromStaffClick(wrap, s.events, e, pointerAnalysis, voiceStaffIdx);
-      const idx = clickPos ? clickPos.caretIndex : s.caretIndex;
+      const resolved = resolveStaffClickFromEditor(e, pointerAnalysis, null, null);
+      const idx = resolved ? resolved.caretIndex : s.caretIndex;
       applyEvents(insertRestAtCaret(Object.assign({}, s, { caretIndex: idx })), EDITOR_VIEWS.STAFF, 'Insert rest');
-      setStaffClickAnchor(null);
+      staffInputHandledRef.current = true;
       return;
     }
 
@@ -674,8 +689,8 @@ export default function NotationEditor(props) {
       return;
     }
 
-    if (placeNoteInputCaretFromPointer(e, null)) {
-      staffNoteInputClickRef.current = true;
+    if (placeNoteInputCaretFromPointer(e, null, null)) {
+      staffInputHandledRef.current = true;
       e.preventDefault();
       e.stopPropagation();
     }
@@ -731,17 +746,8 @@ export default function NotationEditor(props) {
       staffDragTargetRef.current = null;
     }
 
-    const idx = eventIndexFromStaffClick(
-      staffWrapRef && staffWrapRef.current ? staffWrapRef.current : null,
-      s.events,
-      mouseEvent,
-      abcelem,
-      analysis,
-      voiceIdx,
-      tuneMeta,
-      fullAbc,
-      displayedVoiceKeys
-    );
+    const resolved = resolveStaffClickFromEditor(mouseEvent, analysis, abcelem, fullAbc);
+    const idx = resolved.eventIndex;
     const ev = idx < s.events.length ? s.events[idx] : null;
     if (s.slurMode && ev) {
       const slurPatch = handleSlurModeClick(s, ev.id);
@@ -755,22 +761,21 @@ export default function NotationEditor(props) {
       return;
     }
     if (s.mode === EDITOR_MODES.NOTE_INPUT) {
-      if (staffNoteInputClickRef.current) {
-        staffNoteInputClickRef.current = false;
+      if (staffInputHandledRef.current) {
+        staffInputHandledRef.current = false;
         return;
       }
       if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
         const targetEv = ev || (idx > 0 ? s.events[idx - 1] : null);
         const ids = selectEventRange(s.events, s.selection.anchorId, targetEv && targetEv.id);
         dispatch({ type: 'SET_SELECTION', selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId } });
+        staffInputHandledRef.current = true;
         return;
       }
       if (mouseEvent && mouseEvent.button === 2) {
-        applyEvents(insertRestAtCaret(Object.assign({}, s, { caretIndex: idx })), EDITOR_VIEWS.STAFF, 'Insert rest');
-        setStaffClickAnchor(null);
         return;
       }
-      placeNoteInputCaretFromPointer(mouseEvent, analysis);
+      placeNoteInputCaretFromPointer(mouseEvent, analysis, fullAbc);
       return;
     }
     if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
@@ -1222,6 +1227,9 @@ export default function NotationEditor(props) {
         dispatch({ type: 'SET_CARET', index: len });
         return len;
       },
+      getResolverDebug: function() {
+        return resolverDebugRef.current ? Object.assign({}, resolverDebugRef.current) : null;
+      },
     };
     return function() {
       delete window.__abc2bookNotationTest;
@@ -1267,7 +1275,6 @@ export default function NotationEditor(props) {
         session={session}
         displayAbc={displayAbc}
         voiceStaffIndex={activeVoiceStaffIndex}
-        clickAnchor={staffClickAnchor}
       />
       <StaffSelectionOverlay
         containerRef={staffWrapRef}
