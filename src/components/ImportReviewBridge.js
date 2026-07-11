@@ -49,21 +49,23 @@ import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
 import { createAttachedAudioLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
-
-function mergeDraftTune(importedTune, draftTune) {
-  return Object.assign({}, importedTune || {}, draftTune || {})
-}
+import { mergeImportedLinks } from '../importReviewFieldUtils'
+import {
+  asIndependentReviewCandidate,
+  freshTuneId,
+  mergeDraftTune,
+} from '../importReviewCandidateUtils'
 
 async function audioFileToReviewCandidate(file, draft, token, driveApi) {
   const metadata = await readAudioFileMetadata(file)
   const title = metadata.title || (draft && draft.tune && draft.tune.name) || file.name
   const artist = metadata.artist || (draft && draft.tune && draft.tune.composer) || ''
-  const tuneBase = Object.assign({}, (draft && draft.tune) || {}, {
-    id: (draft && draft.tune && draft.tune.id) || ('candidate-' + Date.now()),
+  const tuneBase = {
+    id: freshTuneId(),
     name: title,
     composer: artist,
     links: [],
-  })
+  }
   const result = await createAttachedAudioLink({
     tune: tuneBase,
     file: file,
@@ -78,7 +80,7 @@ async function audioFileToReviewCandidate(file, draft, token, driveApi) {
       mediaCacheLocked: true,
     }),
     sourceKind: 'audio',
-    mergeTargetId: draft && draft.mergeTargetId ? draft.mergeTargetId : null,
+    mergeTargetId: null,
   }
 }
 
@@ -171,15 +173,10 @@ export default function ImportReviewBridge(props) {
     })
 
     const appendCandidates = function(candidates) {
-      const merged = (candidates || []).map(function(candidate) {
-        return Object.assign({}, candidate, {
-          tune: mergeDraftTune(candidate && candidate.tune, draft && draft.tune),
-          mergeTargetId: candidate && candidate.mergeTargetId != null
-            ? candidate.mergeTargetId
-            : (draft && draft.mergeTargetId) || null,
-        })
+      const independent = (candidates || []).map(function(candidate) {
+        return asIndependentReviewCandidate(candidate, draft)
       })
-      updateSession(appendImportReviewCandidates(getImportReviewSession(), merged))
+      updateSession(appendImportReviewCandidates(getImportReviewSession(), independent))
     }
 
     const applyImportedTune = function(importedTune) {
@@ -236,13 +233,15 @@ export default function ImportReviewBridge(props) {
 
   const handleReviewYouTubeImport = useCallback(function(link, draft) {
     if (!link || !link.link) return
-    const candidate = {
-      tune: Object.assign({}, (draft && draft.tune) || {}, {
+    const candidate = asIndependentReviewCandidate({
+      tune: {
+        name: (draft && draft.tune && draft.tune.name) || link.title || '',
+        composer: (draft && draft.tune && draft.tune.composer) || '',
         links: [{ title: link.title || '', link: link.link, startAt: '', endAt: '' }],
-      }),
+      },
       sourceKind: 'youtube',
-      mergeTargetId: draft && draft.mergeTargetId ? draft.mergeTargetId : null,
-    }
+      mergeTargetId: null,
+    }, draft)
     updateSession(appendImportReviewCandidates(getImportReviewSession(), [candidate]))
   }, [updateSession])
 
@@ -260,8 +259,10 @@ export default function ImportReviewBridge(props) {
     const book = props.currentTuneBook
 
     if (candidate.mergeTargetId && props.tunes && props.tunes[candidate.mergeTargetId]) {
-      const merged = Object.assign({}, candidate.tune)
+      const existing = props.tunes[candidate.mergeTargetId]
+      const merged = Object.assign({}, existing, candidate.tune)
       merged.id = candidate.mergeTargetId
+      merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
       merged.lastUpdated = Date.now()
       tunebook.saveTune(merged)
     } else {
@@ -273,6 +274,43 @@ export default function ImportReviewBridge(props) {
       }
       tunebook.saveTune(tune)
     }
+
+    if (typeof props.forceRefresh === 'function') props.forceRefresh()
+    if (typeof done === 'function') done()
+  }, [props])
+
+  const finishAllCandidates = useCallback(function(updatedSession, done) {
+    const tunebook = props.tunebook
+    const book = props.currentTuneBook
+    const tunesSnapshot = Object.assign({}, props.tunes || {})
+    const candidates = updatedSession && Array.isArray(updatedSession.candidates)
+      ? updatedSession.candidates
+      : []
+
+    candidates.forEach(function(candidate) {
+      if (!candidate || candidate.imported) return
+      if (updatedSession.importedCandidateIds && updatedSession.importedCandidateIds[candidate.id]) return
+
+      if (candidate.mergeTargetId && tunesSnapshot[candidate.mergeTargetId]) {
+        const existing = tunesSnapshot[candidate.mergeTargetId]
+        const merged = Object.assign({}, existing, candidate.tune)
+        merged.id = candidate.mergeTargetId
+        merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
+        merged.lastUpdated = Date.now()
+        tunebook.saveTune(merged)
+        tunesSnapshot[candidate.mergeTargetId] = merged
+        return
+      }
+
+      const tune = Object.assign({}, candidate.tune)
+      if (book) {
+        const books = Array.isArray(tune.books) ? tune.books.slice() : []
+        if (books.indexOf(book) === -1) books.push(book)
+        tune.books = books
+      }
+      tunebook.saveTune(tune)
+      if (tune.id) tunesSnapshot[tune.id] = tune
+    })
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
     if (typeof done === 'function') done()
@@ -494,6 +532,7 @@ export default function ImportReviewBridge(props) {
       embedded={!!props.embedded}
       reviewPageMode={onReviewRoute}
       onContinueLater={handleContinueLater}
+      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
       session={session}
       onClose={function() {
         clearImportReviewEnrichmentBridge()
@@ -510,6 +549,7 @@ export default function ImportReviewBridge(props) {
       onSessionChange={updateSession}
       onMatchComplete={handleMatchComplete}
       onFinishCandidate={handleFinishCandidate}
+      onImportAll={finishAllCandidates}
       onEnhanceAndAdvance={handleEnhanceAndAdvance}
       onComplete={handleComplete}
       onOpenTune={props.onOpenTune}

@@ -23,6 +23,7 @@ import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
+import KeySignatureInput from './KeySignatureInput'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
 import {
@@ -425,7 +426,15 @@ export default function AbcEditor(props) {
                         <Col className="abc-editor-info-field-primary" xs={12} md={5}>
                           <Form.Group className="mb-3" controlId="key">
                             <Form.Label>Key</Form.Label>
-                            <Form.Control type="text" value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
+                            <KeySignatureInput
+                              id="key"
+                              value={tune.key ? tune.key : ''}
+                              onChange={function(next) {
+                                tune.key = next;
+                                tune.id = params.tuneId;
+                                saveTune(tune);
+                              }}
+                            />
                           </Form.Group>
                         </Col>
                         <Col className="abc-editor-info-field-secondary" xs={4} md={2}>

@@ -14,8 +14,6 @@ import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue';
 import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
-  resolveListNavigationContext,
-  listNavigationContextLabel,
 } from '../playbackNavigationUtils';
 import {
   isPlaybackInterruptPath,
@@ -151,9 +149,7 @@ export default function Header(props) {
     const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
     const queueActive = isQueueActive(props.nowPlayingQueue)
     const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
-    const listNavContext = resolveListNavigationContext(location.pathname, props.nowPlayingQueue, props.setPlaylist)
-    const listNavLabel = listNavigationContextLabel(listNavContext)
-    // List browse skip in header; playlist stepping uses the bottom transport bar.
+    // Search-result skip in header; playlist stepping uses the bottom transport bar.
     const showSkipButtons = !!(skipTuneId && !queueActive && viewedTuneId)
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
@@ -166,13 +162,10 @@ export default function Header(props) {
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
-        const prevLabel = listNavLabel ? 'Previous tune in ' + listNavLabel.toLowerCase() : 'Previous tune in list'
-        const nextLabel = listNavLabel ? 'Next tune in ' + listNavLabel.toLowerCase() : 'Next tune in list'
+        const prevLabel = 'Previous search result'
+        const nextLabel = 'Next search result'
         return (
             <span className="header-list-nav">
-                {listNavLabel ? (
-                    <span className="header-list-nav-context" title={'Browse: ' + listNavLabel}>{listNavLabel}</span>
-                ) : null}
                 <ButtonGroup className="header-skip-buttons">
                     <Button size={buttonSize} aria-label={prevLabel} title={prevLabel} onClick={function() {
                         props.tunebook.navigateToPreviousSong(skipTuneId, navigate, location.pathname, {

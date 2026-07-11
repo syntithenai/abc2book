@@ -241,20 +241,24 @@ describe('tuneDisplayLayout', function() {
     });
   });
 
-  it('places two blocks as primary left and secondary right', function() {
+  it('syncs lyrics and structure scroll when notation is off', function() {
+    expect(resolveTuneDisplayLayout({
+      notation: 'off', lyrics: true, structure: true,
+    })).toMatchObject({
+      layoutClass: 'tune-layout-lyrics-structure tune-layout-lyrics-structure--sync',
+      main: 'lyrics',
+      side: 'structure',
+      syncLyricsStructure: true,
+    });
+  });
+
+  it('places two blocks as primary left and secondary right when notation is on', function() {
     expect(resolveTuneDisplayLayout({
       notation: 'lines', lyrics: true, structure: false,
     })).toMatchObject({
       layoutClass: 'tune-layout-notation-lyrics',
       main: 'notation',
       side: 'lyrics',
-    });
-    expect(resolveTuneDisplayLayout({
-      notation: 'off', lyrics: true, structure: true,
-    })).toMatchObject({
-      layoutClass: 'tune-layout-lyrics-structure',
-      main: 'lyrics',
-      side: 'structure',
     });
   });
 

@@ -11,6 +11,7 @@ import {
   isBulkChangeRowComplete,
   prepareBulkChanges,
 } from '../bulkEditFields'
+import KeySignatureInput from './KeySignatureInput'
 
 var nextRowId = 1
 
@@ -69,6 +70,17 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook}) {
         createOptionPosition="first"
         allowCreateWhileLoading={true}
         placeholder={field.allowEmpty ? 'Choose or type a genre' : 'Choose or type a genre'}
+      />
+    )
+  }
+
+  if (field.type === 'key') {
+    return (
+      <KeySignatureInput
+        value={value}
+        onChange={onChange}
+        isClearable={field.allowEmpty}
+        placeholder={field.allowEmpty ? 'Leave blank to clear' : ''}
       />
     )
   }

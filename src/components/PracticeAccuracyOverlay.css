@@ -1,0 +1,143 @@
+.practice-accuracy-overlay {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 0 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: #f7f9fc;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.practice-accuracy-live {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.practice-accuracy-mic-meter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 10rem;
+  flex: 1 1 12rem;
+}
+
+.practice-accuracy-mic-label,
+.practice-accuracy-mic-value {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  min-width: 2.25rem;
+}
+
+.practice-accuracy-mic-value {
+  text-transform: none;
+  text-align: right;
+}
+
+.practice-accuracy-mic-track {
+  flex: 1;
+  height: 0.65rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.practice-accuracy-mic-fill {
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #6e9f6e, #3d8bfd);
+  transition: width 80ms linear;
+}
+
+.practice-accuracy-mic-fill--heard {
+  background: linear-gradient(90deg, #1a7f37, #3d8bfd);
+}
+
+.practice-accuracy-mic-status {
+  flex: 1 1 100%;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.practice-accuracy-mic-status--warn {
+  color: #9a6700;
+}
+
+.practice-accuracy-cents {
+  display: flex;
+  flex-direction: column;
+  min-width: 4rem;
+}
+
+.practice-accuracy-cents-label {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.practice-accuracy-cents-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.practice-accuracy-cents--green .practice-accuracy-cents-value {
+  color: #1a7f37;
+}
+
+.practice-accuracy-cents--amber .practice-accuracy-cents-value {
+  color: #9a6700;
+}
+
+.practice-accuracy-cents--red .practice-accuracy-cents-value {
+  color: #cf222e;
+}
+
+.practice-accuracy-timing {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.practice-accuracy-timing--early,
+.practice-accuracy-timing--late {
+  color: #9a6700;
+}
+
+.practice-accuracy-hint {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.practice-accuracy-rep-summary,
+.practice-accuracy-aggregate {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+}
+
+.practice-accuracy-missed {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+.practice-accuracy-resolver-pending {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.practice-accuracy-resolver-badge {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  opacity: 0.75;
+}

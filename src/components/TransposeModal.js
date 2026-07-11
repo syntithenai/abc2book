@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
-import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
+import { chordParserFactory, chordRendererFactory } from 'chord-symbol'
+import KeySignatureInput from './KeySignatureInput';
 
 export default function TransposeModal(props) {
   const handleClose = () => {
@@ -64,7 +65,7 @@ export default function TransposeModal(props) {
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
           <Form.Group className="mb-3" controlId="key">
-            <div>Notation Key <Form.Control  value={tune.key ? tune.key : ''} onChange={function(e) {tune.key = e.target.value; props.saveTune(tune); props.forceRefresh();   }}/></div>
+            <div>Notation Key <KeySignatureInput value={tune.key ? tune.key : ''} onChange={function(next) {tune.key = next; props.saveTune(tune); props.forceRefresh(); }}/></div>
             {dest && <div>Transposed Key <b>{dest}</b></div>}
           </Form.Group>
           <Form.Group className="mb-3" controlId="transpose">

@@ -100,7 +100,9 @@ COPY requirements.txt /app/requirements.txt
 
 # vamp imports numpy in setup.py during installs in the chord build stage only.
 RUN pip3 install --no-cache-dir --break-system-packages "numpy>=1.19"
-RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt
+RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt \
+    && playwright install-deps chromium \
+    && playwright install chromium
 
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 COPY --from=autochord-env /opt/autochord-venv /opt/autochord-venv
@@ -134,6 +136,9 @@ COPY server.py /app/server.py
 COPY subprocess_utils.py /app/subprocess_utils.py
 COPY recording_artists.py /app/recording_artists.py
 COPY background_markdown_links.py /app/background_markdown_links.py
+COPY polite_fetch.py /app/polite_fetch.py
+COPY browser_fetch.py /app/browser_fetch.py
+COPY page_title_meta.py /app/page_title_meta.py
 COPY chords_fetch.py /app/chords_fetch.py
 COPY notation_fetch.py /app/notation_fetch.py
 COPY lyrics_fetch.py /app/lyrics_fetch.py

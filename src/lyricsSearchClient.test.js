@@ -62,6 +62,27 @@ describe('lyricsSearchClient', function() {
     }).toThrow('Lyrics search returned no text');
   });
 
+  test('normalizeLyricsSearch returns empty manualCandidates without throwing', function() {
+    const result = normalizeLyricsSearch({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://genius.com/example',
+        title: 'Yesterday',
+        source: 'genius.com',
+        host: 'genius.com',
+        reason: 'challenge',
+        contentType: 'lyrics',
+      }],
+    });
+    expect(result.multiple).toBe(false);
+    expect(result.empty).toBe(true);
+    expect(result.found).toBe(false);
+    expect(result.manualCandidates).toHaveLength(1);
+    expect(result.manualCandidates[0].url).toBe('https://genius.com/example');
+    expect(result.manualCandidates[0].contentType).toBe('lyrics');
+  });
+
   test('handleLyricsSearchStreamEvent forwards progress', function() {
     const updates = [];
     handleLyricsSearchStreamEvent({

@@ -5,18 +5,15 @@ from urllib.parse import quote, urlparse
 
 import httpx
 
+from browser_fetch import fetch_html_with_fallback
 from chords_fetch import normalize_match_text, score_title_artist_match
+from polite_fetch import BROWSER_USER_AGENT
 from tune_background_research import search_web
 
 NOTATION_FETCH_TIMEOUT_SECONDS = 20.0
 THESESSION_BASE = "https://thesession.org"
 MAX_SESSION_TUNES = 5
 MAX_WEB_URLS = 12
-
-BROWSER_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-)
 
 ABC_PAGE_HOST_SUFFIXES = (
     "abcnotation.com",
@@ -39,6 +36,22 @@ ABC_PAGE_HOST_SUFFIXES = (
     "folktunes.org",
     "tunesearch.org.uk",
     "hardieonline.com",
+    "folkwiki.ibiblio.org",
+    "abc.sourceforge.net",
+    "john-chambers.us",
+    "irishtune.info",
+    "sessionite.com",
+    "themusicofireland.com",
+)
+
+WEB_ABC_SITE_HOSTS = (
+    "abcnotation.com",
+    "folkwiki.ibiblio.org",
+    "abc.sourceforge.net",
+    "john-chambers.us",
+    "irishtune.info",
+    "sessionite.com",
+    "themusicofireland.com",
 )
 
 SONG_TYPE_HINTS = {
@@ -244,6 +257,10 @@ def build_web_abc_queries(title, song_type="instrumental", artist=""):
         queries.append("abc notation {0} {1}".format(quoted_title, hints[2]))
     else:
         queries.append("abc notation {0} {1}".format(quoted_title, hints[2]))
+    for host in WEB_ABC_SITE_HOSTS:
+        if host == "abcnotation.com":
+            continue
+        queries.append("site:{0} {1}".format(host, quoted_title))
     deduped = []
     seen = set()
     for query in queries:
@@ -371,6 +388,62 @@ def abc_preview(abc_text, max_lines=6):
     return "\n".join(lines[:max_lines])
 
 
+def parse_abc_header_fields(abc_text):
+    """Return first T:/C:/Q:/K:/M:/R: values from an ABC block."""
+    fields = {}
+    for match in re.finditer(r"^([TCKQMR]):\s*(.+?)\s*$", str(abc_text or ""), re.M | re.I):
+        key = match.group(1).upper()
+        if key in fields:
+            continue
+        value = match.group(2).strip()
+        if value:
+            fields[key] = value
+    return fields
+
+
+def _tempo_from_q_header(q_value):
+    text = str(q_value or "").strip()
+    if not text:
+        return None
+    equals = re.search(r"=\s*(\d+(?:\.\d+)?)", text)
+    if equals:
+        try:
+            return float(equals.group(1)) if "." in equals.group(1) else int(equals.group(1))
+        except ValueError:
+            return None
+    bare = re.match(r"^(\d+(?:\.\d+)?)\s*$", text)
+    if bare:
+        try:
+            return float(bare.group(1)) if "." in bare.group(1) else int(bare.group(1))
+        except ValueError:
+            return None
+    return text
+
+
+def tune_meta_from_abc_headers(abc_text, source_url=""):
+    fields = parse_abc_header_fields(abc_text)
+    if not fields:
+        return {}
+    meta = {}
+    if fields.get("T"):
+        meta["name"] = fields["T"]
+    if fields.get("C"):
+        meta["composer"] = fields["C"]
+    if fields.get("R"):
+        meta["rhythm"] = fields["R"]
+    if fields.get("M"):
+        meta["meter"] = fields["M"]
+    if fields.get("K"):
+        meta["key"] = fields["K"]
+    if fields.get("Q"):
+        tempo = _tempo_from_q_header(fields["Q"])
+        if tempo is not None:
+            meta["tempo"] = tempo
+    if source_url:
+        meta["srcUrl"] = source_url
+    return meta
+
+
 def annotate_candidate(abc_text, title, source, source_url, artist="", title_only=False, tune_meta=None):
     result = {
         "abc": abc_text,
@@ -411,13 +484,17 @@ def dedupe_candidates(candidates):
 
 
 async def fetch_text(client, url):
-    response = await client.get(
-        url,
-        headers={"User-Agent": BROWSER_USER_AGENT},
-        follow_redirects=True,
-    )
-    response.raise_for_status()
-    return response.text
+    result = await fetch_html_with_fallback(client, url)
+    text = result.text or ""
+    if result.status >= 400 or result.blocked_reason == "http_status":
+        raise httpx.HTTPStatusError(
+            "HTTP {0} for {1}".format(result.status, url),
+            request=httpx.Request("GET", url),
+            response=httpx.Response(result.status or 500, text=text),
+        )
+    if not text.strip():
+        raise ValueError("Empty response from {0}".format(url))
+    return text
 
 
 async def search_thesession_tunes(client, title):
@@ -511,20 +588,27 @@ async def collect_thesession_candidates(client, title, artist="", on_progress=No
     return dedupe_candidates(candidates)
 
 
+def _annotate_web_abc_candidate(abc_text, query_title, host, source_url):
+    tune_meta = tune_meta_from_abc_headers(abc_text, source_url)
+    abc_title = (tune_meta.get("name") or "").strip() or query_title
+    abc_artist = (tune_meta.get("composer") or "").strip()
+    return annotate_candidate(
+        abc_text,
+        abc_title,
+        host,
+        source_url,
+        artist=abc_artist,
+        title_only=not bool(tune_meta.get("name")),
+        tune_meta=tune_meta or None,
+    )
+
+
 async def fetch_abc_from_url(client, url, title):
     validated, error = validate_abc_page_url(url)
     if error:
         return []
-    content_type = ""
     try:
-        response = await client.get(
-            validated,
-            headers={"User-Agent": BROWSER_USER_AGENT},
-            follow_redirects=True,
-        )
-        response.raise_for_status()
-        content_type = (response.headers.get("content-type") or "").lower()
-        text = response.text
+        text = await fetch_text(client, validated)
     except Exception:
         return []
 
@@ -532,19 +616,11 @@ async def fetch_abc_from_url(client, url, title):
     blocks = extract_abc_from_text(text)
     results = []
     for block in blocks:
-        results.append(
-            annotate_candidate(
-                block,
-                title,
-                host,
-                validated,
-                title_only=True,
-            )
-        )
-    if not results and ("text/plain" in content_type or validated.lower().endswith(".abc")):
+        results.append(_annotate_web_abc_candidate(block, title, host, validated))
+    if not results and (validated.lower().endswith(".abc") or text.strip().startswith("X:")):
         if "K:" in text:
             results.append(
-                annotate_candidate(text.strip(), title, host, validated, title_only=True)
+                _annotate_web_abc_candidate(text.strip(), title, host, validated)
             )
     return results
 

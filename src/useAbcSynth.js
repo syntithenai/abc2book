@@ -88,6 +88,14 @@ export default function useAbcSynth(props) {
         } catch (e) {
             return false
         }
+        if (gaudioContext.current.state !== 'running'
+            && props.hasPlaybackGesture && props.hasPlaybackGesture()) {
+            try {
+                await gaudioContext.current.resume()
+            } catch (e) {
+                return false
+            }
+        }
         return gaudioContext.current.state === 'running'
     }
 
@@ -145,6 +153,14 @@ export default function useAbcSynth(props) {
                 pitchShifterRef.current.seek(ratio)
             }
             pitchShifterRef.current.connect()
+            if (props.mediaController && props.mediaController.playbackVolume !== undefined) {
+                pitchShifterRef.current.setDirectOutputGain(false)
+                pitchShifterRef.current.setOutputVolume(props.mediaController.playbackVolume)
+            } else if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0) {
+                // Quiet level is baked into the soundfont buffer at prime time.
+                pitchShifterRef.current.setDirectOutputGain(true)
+                pitchShifterRef.current.setOutputVolume(1)
+            }
             midiPlaybackGuardUntilRef.current = Date.now() + 3000
             return pitchShifterRef.current.isConnected()
         }
@@ -549,6 +565,9 @@ export default function useAbcSynth(props) {
             resume: function() {
                 beginMidiPlayback({ resume: true })
             },
+            getAudioContext: function() {
+                return gaudioContext.current || null
+            },
         }
         return function() {
             if (props.playbackControlRef) {
@@ -556,6 +575,16 @@ export default function useAbcSynth(props) {
             }
         }
     })
+    
+    useEffect(function() {
+        if (props.mediaController && props.mediaController.playbackVolume !== undefined) return
+        if (props.practiceReferenceGain == null || props.practiceReferenceGain < 0) return
+        if (pitchShifterRef.current) {
+            // Volume is baked into the buffer; keep unity gain on the shifter.
+            pitchShifterRef.current.setDirectOutputGain(true)
+            pitchShifterRef.current.setOutputVolume(1)
+        }
+    }, [props.practiceReferenceGain, props.mediaController])
     
     const mcTapToPlay = mediaController ? mediaController.tapToPlay : tapToPlay
     const mcPlayCancelled = mediaController ? mediaController.playCancelled : playCancelled
@@ -833,6 +862,15 @@ export default function useAbcSynth(props) {
             }
             currentTime.current = newSeconds
         }
+        if (props.onPracticeBeat) {
+            props.onPracticeBeat({
+                currentBeat: currentBeat,
+                totalBeats: totalBeats,
+                musicStartMs: getTimingMusicStartMs(),
+                audioSeconds: newSeconds,
+                repIndex: playCountRef.current,
+            })
+        }
          // FINISHED PLAYBACK
         // detect end of tune and handle repeats/call props.onEnded
          if (currentBeat === totalBeats) {
@@ -1097,7 +1135,11 @@ export default function useAbcSynth(props) {
         const s = pitchTempoSettingsRef.current
         pitchShifterRef.current.applySettings(s.tempo, s.pitch, s.fineTune)
         if (props.mediaController && props.mediaController.playbackVolume !== undefined) {
+            pitchShifterRef.current.setDirectOutputGain(false)
             pitchShifterRef.current.setOutputVolume(props.mediaController.playbackVolume)
+        } else if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0) {
+            pitchShifterRef.current.setDirectOutputGain(true)
+            pitchShifterRef.current.setOutputVolume(1)
         }
     }
 
@@ -1647,7 +1689,7 @@ export default function useAbcSynth(props) {
                         if (!isPlaybackGenerationCurrent(countInGeneration)) return
                         if (!wantsMidiPlayback()) return
                         if (!contextReady) {
-                            scheduleMidiStartAfterDelay(countInGeneration, musicStartDelayMs, { forceRatio: 0 })
+                            showMidiTapToPlay()
                             return
                         }
 
@@ -1721,7 +1763,8 @@ export default function useAbcSynth(props) {
           audioContext = new window.AudioContext();
           const fromGesture = props.mediaController && props.mediaController.userGesturePlayRef
               && props.mediaController.userGesturePlayRef.current
-          if (fromGesture && audioContext.state === 'suspended') {
+          const fromPracticeGesture = props.consumePlaybackGesture && props.consumePlaybackGesture()
+          if ((fromGesture || fromPracticeGesture) && audioContext.state === 'suspended') {
               audioContext.resume()
           }
             resolve(audioContext)
@@ -1761,6 +1804,13 @@ export default function useAbcSynth(props) {
             // for development, run a server on 4000 to access sound fonts
             var a = getSoundFontUrl()
             //var warp =  props.warp > 0 ? props.warp : 1
+            var soundFontVolume = getSoundFontVolumeMultiplier()
+            if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0
+                && !(props.mediaController && props.mediaController.playbackVolume !== undefined)) {
+              // Bake quiet reference level into the rendered buffer so warmups
+              // stay soft even if the pitch-shifter gain path is skipped.
+              soundFontVolume = soundFontVolume * Math.max(0.05, Math.min(1, props.practiceReferenceGain))
+            }
             var initOptions = {
                 audioContext: audioContext,
               //onPlaying: function(details) {
@@ -1770,7 +1820,7 @@ export default function useAbcSynth(props) {
               millisecondsPerMeasure: synthObj.millisecondsPerMeasure(),
               options:{
                  soundFontUrl: a,
-                 soundFontVolumeMultiplier: getSoundFontVolumeMultiplier(),
+                 soundFontVolumeMultiplier: soundFontVolume,
                  //program: 21,
                  chordsOff: false,
                  programOffsets: programOffsets,

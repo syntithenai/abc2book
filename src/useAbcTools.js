@@ -1,4 +1,5 @@
 import {Fraction} from './Fraction'
+import { getBarModel, normalizeMeter, parseNoteLengthParts } from './barModel'
 import abcjs from "abcjs";
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
@@ -258,6 +259,22 @@ var useAbcTools = () => {
                         break
                     case "Q":
                         tune.tempo = cleanTempo(line.slice(2).trim())
+                        break
+                    case "N":
+                        {
+                            var noteBody = line.slice(2).trim()
+                            if (/^AKA:\s*/i.test(noteBody)) {
+                                if (!Array.isArray(tune.aliases)) tune.aliases = []
+                                noteBody.replace(/^AKA:\s*/i, '').split(',').forEach(function(aliasPart) {
+                                    var alias = aliasPart.trim()
+                                    if (alias && tune.aliases.indexOf(alias) === -1) {
+                                        tune.aliases.push(alias)
+                                    }
+                                })
+                            } else {
+                                tune.meta = pushMeta(tune.meta, "N", noteBody)
+                            }
+                        }
                         break
                     default:
                         tune.meta = pushMeta(tune.meta, key, line.slice(2).trim())
@@ -1502,40 +1519,9 @@ var useAbcTools = () => {
     }
     
     function getBeatsPerBar(meter) {
-        var parts = meter ? meter.split("/") : null
-        var bpb = parts && parts.length > 1 ? parseInt(parts[0]) : 0
-        return bpb
+        var model = getBarModel(meter, null)
+        return model.beatCount
     }
-      //switch (meter) {
-        //case '2/2':
-          //return 2
-        //case '3/2':
-          //return 3
-        //case '4/2':
-          //return 4
-        //case '3/8':
-          //return 3
-        //case '6/8':
-          //return 2
-        //case '9/8':
-          //return 3
-        //case '12/8':
-          //return 4
-        //case '2/4':
-          //return 2
-        //case '3/4':
-          //return 3
-        //case '4/4':
-          //return 4
-        //case '6/4':
-          //return 6
-        //case '9/4':
-          //return 3
-        
-      //}
-      //return 4
-    //}
-    
 
     function getTempo(tune) {
         //console.log('gettempo',tune)
@@ -1718,27 +1704,13 @@ var useAbcTools = () => {
   
   
     function getNoteLengthFraction(noteLength) {
-        if (noteLength) {
-            var noteLengthParts = noteLength.split("/")
-            if (noteLengthParts == 2) {
-                return new Fraction(noteLengthParts[0],noteLengthParts[1])
-            } else {
-                return new Fraction(1,8)
-            }
-        }
-        return new Fraction(1,8)
+        var parts = parseNoteLengthParts(noteLength, '4/4')
+        return new Fraction(parts.num, parts.den)
     }
     
     function getNoteLengthsPerBar(noteLength, meter) {
-        var noteLength = getNoteLengthFraction(noteLength)
-         var meterParts=meter ? meter.trim().split("/") : ['4','4']
-         if (meterParts.length === 2) {
-             var meterFraction = new Fraction(meterParts[0],meterParts[1])
-             var noteLengthsPerBar = meterFraction.divide(noteLength)
-             //console.log(noteLengthsPerBar)
-             return noteLengthsPerBar.numerator
-        }
-        return 4
+        var model = getBarModel(meter, noteLength)
+        return model.unitSlotsPerBar
     }
       
     function tunesToLinkList (tunes) {
@@ -1747,6 +1719,6 @@ var useAbcTools = () => {
         }).join("\n\n")
     }
 
-    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, getNotes, tunesToLinkList}
+    return {abc2json, json2abc, json2abc_print, json2abc_cheatsheet, abc2Tunebook, ensureText, ensureNumber, isNoteLine, isCommentLine, isMetaLine, isDataLine,isVoiceMeta, justNotes,justNotesNoMeta,  getRhythmTypes, timeSignatureFromTuneType, fixNotes, fixNotesBang, multiplyAbcTiming, getTempo, hasChords, getBeatsPerBar, getBeatDuration, cleanTempo, getBeatLength, tablatureConfig, getNotesFromAbc, getTuneHash, tunesToAbc, isNoteLetter, isOctaveModifier, symbolsToFraction, decimalToFraction, abcFraction, isChord, getNoteLengthsPerBar, getNoteLengthFraction, getTuneImportHash, getTimeSignatureTypes, settingFromTune, emptyABC, getMetaValueFromAbc, getNotes, tunesToLinkList, getBarModel, normalizeMeter}
 }
 export default useAbcTools;

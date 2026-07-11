@@ -8,6 +8,8 @@ import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
+import ManualCandidatesFeedback from './ManualCandidatesFeedback'
+import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import {
   buildGenreSearchContext,
@@ -30,6 +32,7 @@ export default function ChordsSearchButton({
   showLyricsCheckbox = true,
   defaultUpdateLyrics = true,
   tunebook,
+  book,
   resolverAvailable: resolverAvailableProp,
 }) {
   const job = useCancellableAsyncJob('Chord search')
@@ -41,6 +44,8 @@ export default function ChordsSearchButton({
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [genreSuggestion, setGenreSuggestion] = useState(null)
+  const [manualCandidates, setManualCandidates] = useState([])
+  const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
@@ -95,6 +100,8 @@ export default function ChordsSearchButton({
     const ctx = job.begin()
     setError('')
     setSource('')
+    setManualCandidates([])
+    setLockedModalCandidate(null)
     setProgressMessage('')
     setProgressPercent(0)
     try {
@@ -115,6 +122,10 @@ export default function ChordsSearchButton({
         },
       })
       if (!ctx.isCurrent()) return
+      if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
+        setManualCandidates(result.manualCandidates)
+        return
+      }
       if (result.multiple && Array.isArray(result.candidates)) {
         if (result.candidates.length === 1) {
           applyChordResult(result.candidates[0])
@@ -122,8 +133,10 @@ export default function ChordsSearchButton({
           setPickerCandidates(result.candidates)
           setShowPicker(true)
         }
-      } else {
+      } else if (!result.empty) {
         applyChordResult(result)
+      } else {
+        setError('No chords found for this song')
       }
     } catch (e) {
       if (job.isAbortError(e)) return
@@ -207,7 +220,15 @@ export default function ChordsSearchButton({
           )}
         </Alert>
       )}
-      {source && !error && (
+      <ManualCandidatesFeedback
+        message="No importable match found"
+        manualCandidates={manualCandidates}
+        tunebook={tunebook}
+        onSelectCandidate={function(candidate) {
+          setLockedModalCandidate(candidate)
+        }}
+      />
+      {source && !error && manualCandidates.length === 0 && (
         <Alert variant="success" style={{ marginTop: '0.75em', clear: 'both' }}>
           Chords imported from {source}
           {showLyricsCheckbox && updateLyrics ? ' with synced lyrics.' : '.'}
@@ -234,6 +255,18 @@ export default function ChordsSearchButton({
           setShowPicker(false)
           setPickerCandidates([])
         }}
+      />
+
+      <LockedSourcePasteModal
+        show={!!lockedModalCandidate}
+        onHide={function() { setLockedModalCandidate(null) }}
+        candidate={lockedModalCandidate}
+        searchTitle={title}
+        searchArtist={artist}
+        tunebook={tunebook}
+        abcjsParser={abcjsParser}
+        book={book}
+        icons={tunebook && tunebook.icons}
       />
     </div>
   )

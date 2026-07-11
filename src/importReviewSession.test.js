@@ -13,6 +13,7 @@ import {
   emptySessionSummary,
   navigateReviewCandidate,
   cancelCurrentCandidate,
+  markAllCandidatesImported,
 } from './importReviewSession';
 import {
   createEnrichmentJob,
@@ -159,6 +160,22 @@ describe('importReviewSession', function() {
     expect(next.step).toBe('done');
     expect(next.candidates.length).toBe(0);
     expect(next.sessionSummary.skipped).toBe(1);
+  });
+
+  test('markAllCandidatesImported marks every remaining candidate and completes', function() {
+    const session = createImportReviewSession([
+      { id: 'a', tune: { name: 'A' } },
+      { id: 'b', mergeTargetId: 'existing', tune: { name: 'B' } },
+      { id: 'c', tune: { name: 'C' }, imported: true },
+    ]);
+    session.importedCandidateIds = { c: true };
+    session.sessionSummary = { reviewed: 1, created: 1, merged: 0, skipped: 0 };
+    const next = markAllCandidatesImported(session);
+    expect(next.step).toBe('done');
+    expect(next.candidates.every(function(item) { return item.imported; })).toBe(true);
+    expect(next.sessionSummary.reviewed).toBe(3);
+    expect(next.sessionSummary.created).toBe(2);
+    expect(next.sessionSummary.merged).toBe(1);
   });
 });
 

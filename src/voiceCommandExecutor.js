@@ -7,6 +7,11 @@ import {
   isMeaningfulVoiceTranscript,
   shouldAutoPickCandidate,
 } from './voiceCommandUtils';
+import { playTuneNow } from './tunePlaybackActions';
+
+function transcriptWantsPlayback(transcript) {
+  return /^\s*play\b/i.test(String(transcript || ''));
+}
 
 function buildSearchFilter(result) {
   const parts = [];
@@ -102,15 +107,30 @@ function executeHelpAnswer(result, context) {
   return { ok: true };
 }
 
-function navigateToTune(context, tune) {
+function navigateToTune(context, tune, options) {
   if (!tune || !tune.id) return;
+  const startPlayback = !!(options && options.startPlayback);
   context.setCurrentTune(tune.id);
-  context.tunebook.navigate('/tunes/' + tune.id);
+
+  let started = false;
+  if (startPlayback && context.mediaController && context.tunebook) {
+    started = !!playTuneNow(
+      context.mediaController,
+      context.tunebook,
+      context.tunebook.navigate,
+      tune
+    );
+  }
+  if (!started) {
+    context.tunebook.navigate('/tunes/' + tune.id);
+  }
+
+  const action = started ? 'Playing' : 'Opening';
   if (context.onFeedback) {
-    context.onFeedback('Opening ' + (tune.name || 'tune'));
+    context.onFeedback(action + ' ' + (tune.name || 'tune'));
   }
   if (context.speakFeedback && typeof window !== 'undefined' && typeof window.speak === 'function') {
-    window.speak('Opening ' + (tune.name || 'tune'));
+    window.speak(action + ' ' + (tune.name || 'tune'));
   }
 }
 
@@ -119,8 +139,9 @@ function noMatchesFeedback(context, transcript) {
   if (context.onFeedback) context.onFeedback('No matches for ' + label);
 }
 
-async function executeShow(query, context, transcriptLabel) {
+async function executeShow(query, context, transcriptLabel, options) {
   const displayTranscript = transcriptLabel || query;
+  const startPlayback = !!(options && options.startPlayback);
   if (!isMeaningfulVoiceTranscript(query)) {
     noMatchesFeedback(context, displayTranscript);
     return { ok: false };
@@ -139,7 +160,7 @@ async function executeShow(query, context, transcriptLabel) {
   }
 
   if (shouldAutoPickCandidate(candidates)) {
-    navigateToTune(context, candidates[0].tune);
+    navigateToTune(context, candidates[0].tune, { startPlayback: startPlayback });
     return { ok: true, tune: candidates[0].tune };
   }
 
@@ -148,7 +169,7 @@ async function executeShow(query, context, transcriptLabel) {
       return entry.tune;
     }), cleaned);
     if (picked) {
-      navigateToTune(context, picked);
+      navigateToTune(context, picked, { startPlayback: startPlayback });
       return { ok: true, tune: picked };
     }
     return { ok: false };
@@ -224,6 +245,7 @@ export async function executeVoiceCommand(result, context) {
 
   const isSearch = result.tool === 'SEARCH' && result.confidence >= VOICE_CONFIDENCE_THRESHOLD;
   const isShow = result.tool === 'SHOW' && result.confidence >= VOICE_CONFIDENCE_THRESHOLD;
+  const isPlay = result.tool === 'PLAY' && result.confidence >= VOICE_CONFIDENCE_THRESHOLD;
   const isOpenTool = result.tool === 'OPEN_TOOL';
   const isPlayFilter = result.tool === 'PLAY_FILTER' && result.confidence >= VOICE_CONFIDENCE_THRESHOLD;
   const isStopPlayback = result.tool === 'STOP_PLAYBACK' && result.confidence >= VOICE_CONFIDENCE_THRESHOLD;
@@ -255,8 +277,17 @@ export async function executeVoiceCommand(result, context) {
     return executeSearch(result, context);
   }
 
+  if (isPlay) {
+    return executeShow(result.title || result.transcript, context, transcript, {
+      startPlayback: true,
+    });
+  }
+
   if (isShow) {
-    return executeShow(result.title || result.transcript, context, transcript);
+    // Older resolvers / LLM may still classify "play <title>" as SHOW.
+    return executeShow(result.title || result.transcript, context, transcript, {
+      startPlayback: transcriptWantsPlayback(transcript),
+    });
   }
 
   if (hasSearchCueWords(result.transcript)) {
@@ -264,5 +295,7 @@ export async function executeVoiceCommand(result, context) {
     return { ok: false };
   }
 
-  return executeShow(result.transcript, context, transcript);
+  return executeShow(result.transcript, context, transcript, {
+    startPlayback: transcriptWantsPlayback(transcript),
+  });
 }

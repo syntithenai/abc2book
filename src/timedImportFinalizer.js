@@ -202,6 +202,8 @@ export function finalizeChordSheetToTune(options) {
     abc,
     chordGridText,
     lyricLines,
+    preserveTimedMedia,
+    chordSheetAlignment,
   } = options;
 
   if (!tune || !tunebook || !abcjsParser || !abc) {
@@ -210,8 +212,11 @@ export function finalizeChordSheetToTune(options) {
 
   const abcTools = tunebook.abcTools;
   let mergedAbc = abc;
+  const alignment = chordSheetAlignment
+    || (tune.meta && tune.meta.chordSheetAlignment)
+    || null;
   if (chordGridText && String(chordGridText).trim()) {
-    mergedAbc = abcjsParser.mergeChords(chordGridText, mergedAbc);
+    mergedAbc = abcjsParser.mergeChords(chordGridText, mergedAbc, alignment);
   }
 
   const abcJson = abcTools.abc2json(abc);
@@ -219,6 +224,14 @@ export function finalizeChordSheetToTune(options) {
   const voiceKey = resolvePrimaryVoiceKey(abcJson.voices);
   const noteLines = abcTools.justNotes(mergedAbc).split('\n');
   const existingMeta = Object.assign({}, tune.meta || {});
+  const preservedTimed = preserveTimedMedia
+    ? {
+        timedLyrics: tune.timedLyrics,
+        timedChords: tune.timedChords,
+        timedMelody: tune.timedMelody,
+        words: tune.words,
+      }
+    : null;
   abcJson.voices = Object.assign({}, abcJson.voices);
   abcJson.voices[voiceKey] = Object.assign({}, abcJson.voices[voiceKey] || { meta: '', notes: [] }, {
     notes: noteLines,
@@ -226,6 +239,12 @@ export function finalizeChordSheetToTune(options) {
 
   Object.assign(tune, abcJson);
   tune.meta = Object.assign({}, abcJson.meta || {}, existingMeta, tune.meta || {});
+  if (preservedTimed) {
+    if (preservedTimed.timedLyrics) tune.timedLyrics = preservedTimed.timedLyrics;
+    if (preservedTimed.timedChords) tune.timedChords = preservedTimed.timedChords;
+    if (preservedTimed.timedMelody) tune.timedMelody = preservedTimed.timedMelody;
+    if (preservedTimed.words) tune.words = preservedTimed.words;
+  }
 
   if (Array.isArray(lyricLines)) {
     setPlainLyricLines(tune, lyricLines);
@@ -238,6 +257,8 @@ export function finalizeChordSheetToTune(options) {
     }
   }
 
-  clearTransientTimedFields(tune);
+  if (!preserveTimedMedia) {
+    clearTransientTimedFields(tune);
+  }
   return tune;
 }

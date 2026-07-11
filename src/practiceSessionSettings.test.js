@@ -42,4 +42,61 @@ describe('practiceSessionSettings', function() {
     expect(normalizePracticeInstrument('banjo')).toBe('mandolin')
     expect(getPracticeInstrumentLabel('violin')).toBe('Violin')
   })
+
+  it('loads accuracy checking settings', function() {
+    const { loadPracticeSettings, savePracticeSettings, DEFAULT_PRACTICE_SETTINGS } = require('./practiceSessionSettings')
+    const key = 'bookstorage_practice_settings'
+    const prev = localStorage.getItem(key)
+    savePracticeSettings(Object.assign({}, DEFAULT_PRACTICE_SETTINGS, {
+      accuracyCheckingEnabled: true,
+      headphoneMode: true,
+      practiceReferenceGain: 0.15,
+    }))
+    const loaded = loadPracticeSettings()
+    expect(loaded.accuracyCheckingEnabled).toBe(true)
+    expect(loaded.headphoneMode).toBe(true)
+    expect(loaded.practiceReferenceGain).toBe(0.15)
+    if (prev == null) localStorage.removeItem(key)
+    else localStorage.setItem(key, prev)
+  })
+
+  it('mergePracticeSettings ignores undefined fields', function() {
+    const { mergePracticeSettings, loadPracticeSettings, DEFAULT_PRACTICE_SETTINGS } = require('./practiceSessionSettings')
+    const key = 'bookstorage_practice_settings'
+    const prev = localStorage.getItem(key)
+    mergePracticeSettings(Object.assign({}, DEFAULT_PRACTICE_SETTINGS, {
+      accuracyCheckingEnabled: true,
+      headphoneMode: true,
+    }))
+    mergePracticeSettings({
+      instrument: 'cello',
+      accuracyCheckingEnabled: undefined,
+      headphoneMode: undefined,
+    })
+    const loaded = loadPracticeSettings()
+    expect(loaded.instrument).toBe('cello')
+    expect(loaded.accuracyCheckingEnabled).toBe(true)
+    expect(loaded.headphoneMode).toBe(true)
+    if (prev == null) localStorage.removeItem(key)
+    else localStorage.setItem(key, prev)
+  })
+
+  it('startSession-style partial save must not wipe accuracy via merge', function() {
+    const { mergePracticeSettings, loadPracticeSettings, DEFAULT_PRACTICE_SETTINGS } = require('./practiceSessionSettings')
+    const key = 'bookstorage_practice_settings'
+    const prev = localStorage.getItem(key)
+    mergePracticeSettings(Object.assign({}, DEFAULT_PRACTICE_SETTINGS, {
+      accuracyCheckingEnabled: true,
+    }))
+    // Mimic startSession writing core fields only
+    mergePracticeSettings({
+      instrument: 'violin',
+      totalMinutes: 10,
+      includeWarmups: true,
+      skillLevel: 5,
+    })
+    expect(loadPracticeSettings().accuracyCheckingEnabled).toBe(true)
+    if (prev == null) localStorage.removeItem(key)
+    else localStorage.setItem(key, prev)
+  })
 })

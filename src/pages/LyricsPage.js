@@ -32,7 +32,6 @@ function ResultPillList(props) {
         return (
           <Badge key={item.word + ':' + item.score} bg="light" text="dark" pill className="border">
             {item.word}
-            {item.numSyllables ? ' . ' + item.numSyllables : ''}
           </Badge>
         )
       })}
@@ -93,14 +92,15 @@ function LookupSearchPanel(props) {
     }
   }, [query])
 
-  async function runHubLookup(term, selectedWord, cachedReverse) {
+  async function runHubLookup(term, selectedWord, cachedReverse, options) {
     const hub = await lookupLookupHub(term, props.accessToken, {
       selectedWord: selectedWord,
       reverseResult: cachedReverse,
+      preferSelectedWord: !!(options && options.preferSelectedWord),
     })
     setResult(hub)
     setReverseCandidates(hub.reverseCandidates || [])
-    setSelectedReverseWord(hub.selectedReverseWord || selectedWord || '')
+    setSelectedReverseWord(hub.selectedReverseWord || '')
     if (props.onSearchComplete) props.onSearchComplete(term)
     return hub
   }
@@ -133,7 +133,6 @@ function LookupSearchPanel(props) {
           || (candidates[0] && candidates[0].word)
           || ''
         setReverseCandidates(candidates)
-        setSelectedReverseWord(selected)
         await runHubLookup(term, selected, reverse)
       } else {
         setReverseCandidates([])
@@ -157,7 +156,7 @@ function LookupSearchPanel(props) {
     setLoading(true)
     setError('')
     try {
-      await runHubLookup(activePhrase, word, reverseResult)
+      await runHubLookup(activePhrase, word, reverseResult, { preferSelectedWord: true })
     } catch (searchError) {
       setError(searchError && searchError.message ? searchError.message : 'Search failed')
     } finally {
@@ -239,7 +238,7 @@ function LookupSearchPanel(props) {
 
 function DictionaryResult(props) {
   if (!props.result || !props.result.length) {
-    return <div className="text-muted small">Search for a word to see definitions and examples.</div>
+    return <div className="text-muted small">No definition found for this search yet.</div>
   }
 
   const query = props.query || ''
@@ -248,6 +247,10 @@ function DictionaryResult(props) {
     && query
     && resolvedWord
     && resolvedWord.toLowerCase() !== query.toLowerCase()
+  const showEncyclopediaNote = props.dictionaryMatch === 'encyclopedia'
+  const image = props.image
+    || (props.result[0] && props.result[0].image)
+    || null
 
   return (
     <div className="d-grid gap-3">
@@ -257,35 +260,83 @@ function DictionaryResult(props) {
           {props.matchedSuggestion ? ' (closest match)' : ''}.
         </Alert>
       ) : null}
+      {showEncyclopediaNote ? (
+        <Alert variant="info" className="py-2 mb-0">
+          No dictionary definition for &ldquo;{query}&rdquo;. Showing a Wikipedia summary
+          {resolvedWord && resolvedWord.toLowerCase() !== query.toLowerCase()
+            ? <> for &ldquo;{resolvedWord}&rdquo;</>
+            : null}.
+        </Alert>
+      ) : null}
       {props.result.slice(0, 3).map(function(entry) {
+        const entryImage = entry.image || (entry === props.result[0] ? image : null)
+        const meaningsLabel = entry.source === 'wikipedia'
+          ? 'encyclopedia'
+          : (entry.meanings.length + ' part' + (entry.meanings.length === 1 ? '' : 's') + ' of speech')
         return (
-          <Card key={entry.word}>
+          <Card key={entry.word + ':' + (entry.source || 'dictionary')}>
             <Card.Body>
-              <div className="d-flex flex-wrap justify-content-between gap-2 align-items-start mb-2">
-                <div>
-                  <div className="h5 mb-0">{entry.word}</div>
-                  <div className="text-muted small">{entry.phonetic || ''}</div>
-                </div>
-                <Badge bg="secondary">{entry.meanings.length} part{entry.meanings.length === 1 ? '' : 's'} of speech</Badge>
-              </div>
-              <div className="d-grid gap-2">
-                {entry.meanings.slice(0, 3).map(function(meaning) {
-                  return (
-                    <div key={meaning.partOfSpeech}>
-                      <div className="fw-semibold small text-uppercase text-muted">{meaning.partOfSpeech}</div>
-                      <ListGroup variant="flush">
-                        {meaning.definitions.slice(0, 2).map(function(definition) {
-                          return (
-                            <ListGroup.Item key={definition.definition} className="px-0 bg-transparent border-0 py-1">
-                              {definition.definition}
-                              {definition.example ? <div className="text-muted small">Example: {definition.example}</div> : null}
-                            </ListGroup.Item>
-                          )
-                        })}
-                      </ListGroup>
+              <div className={'lyrics-dictionary-entry' + (entryImage ? ' has-image' : '')}>
+                <div className="lyrics-dictionary-entry-body">
+                  <div className="d-flex flex-wrap justify-content-between gap-2 align-items-start mb-2">
+                    <div>
+                      <div className="h5 mb-0">{entry.word}</div>
+                      <div className="text-muted small">{entry.phonetic || ''}</div>
+                      {entry.sourceUrl ? (
+                        <a
+                          className="small"
+                          href={entry.sourceUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Wikipedia
+                        </a>
+                      ) : null}
                     </div>
-                  )
-                })}
+                    <Badge bg="secondary">{meaningsLabel}</Badge>
+                  </div>
+                  <div className="d-grid gap-2">
+                    {entry.meanings.slice(0, 3).map(function(meaning) {
+                      return (
+                        <div key={meaning.partOfSpeech}>
+                          <div className="fw-semibold small text-uppercase text-muted">
+                            {meaning.partOfSpeech === 'encyclopedia' ? 'Summary' : meaning.partOfSpeech}
+                          </div>
+                          <ListGroup variant="flush">
+                            {meaning.definitions.slice(0, 2).map(function(definition) {
+                              return (
+                                <ListGroup.Item key={definition.definition} className="px-0 bg-transparent border-0 py-1">
+                                  {definition.definition}
+                                  {definition.example ? <div className="text-muted small">Example: {definition.example}</div> : null}
+                                </ListGroup.Item>
+                              )
+                            })}
+                          </ListGroup>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+                {entryImage && entryImage.url ? (
+                  <div className="lyrics-dictionary-entry-image">
+                    <a
+                      href={entryImage.pageUrl || entry.sourceUrl || entryImage.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={entryImage.url}
+                        alt={entry.word}
+                        width={entryImage.width || undefined}
+                        height={entryImage.height || undefined}
+                        loading="lazy"
+                      />
+                    </a>
+                    {entryImage.attribution ? (
+                      <div className="text-muted small mt-1">{entryImage.attribution}</div>
+                    ) : null}
+                  </div>
+                ) : null}
               </div>
             </Card.Body>
           </Card>
@@ -308,14 +359,19 @@ function renderListGroup(items) {
 function ExpandableSection(props) {
   const [isExpanded, setIsExpanded] = useState(true)
   return (
-    <div>
-      <div className="d-flex align-items-center gap-2 mb-2" onClick={function() { setIsExpanded(!isExpanded) }} style={{ userSelect: 'none', cursor: 'pointer' }}>
-        <span style={{ fontSize: '0.9em', minWidth: '1.2em', textAlign: 'center', display: 'inline-block' }}>
+    <div className="lyrics-expandable-section">
+      <button
+        type="button"
+        className="lyrics-expandable-section-toggle"
+        onClick={function() { setIsExpanded(!isExpanded) }}
+        aria-expanded={isExpanded}
+      >
+        <span className="lyrics-expandable-section-chevron" aria-hidden="true">
           {isExpanded ? '▼' : '▶'}
         </span>
-        <div className="fw-semibold">{props.title}</div>
-      </div>
-      {isExpanded ? <div className="ms-3">{props.children}</div> : null}
+        <span className="fw-semibold">{props.title}</span>
+      </button>
+      {isExpanded ? <div className="lyrics-expandable-section-body">{props.children}</div> : null}
     </div>
   )
 }
@@ -426,16 +482,22 @@ export default function LyricsPage(props) {
                   >
                     <DictionaryResult
                       result={result.dictionary}
-                      query={result.query}
+                      query={result.dictionaryQuery || result.query}
                       resolvedWord={result.resolvedWord}
                       dictionaryMatch={result.dictionaryMatch}
                       matchedSuggestion={result.matchedSuggestion}
+                      image={result.dictionaryImage}
                     />
                   </ExpandableSection>
                   {result.dictionaryMatch === 'fuzzy' && result.resolvedWord ? (
                     <div className="text-muted small">
                       Thesaurus results use &ldquo;{result.resolvedWord}&rdquo;.
                       Alliteration and rhymes use your original search text so made-up words still work.
+                    </div>
+                  ) : null}
+                  {result.dictionaryMatch === 'encyclopedia' && result.reverseMatchWord ? (
+                    <div className="text-muted small">
+                      Thesaurus and rhyme results use related word &ldquo;{result.reverseMatchWord}&rdquo;.
                     </div>
                   ) : null}
                   <ExpandableSection

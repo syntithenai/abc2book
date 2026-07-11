@@ -3,6 +3,7 @@ import { Modal, Button, ButtonGroup } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import abcjs from 'abcjs';
 import TimedLyricsChordsView from './TimedLyricsChordsView';
+import LyricsStructureSyncPanel from './LyricsStructureSyncPanel';
 import LyricsAutoscrollModal from './LyricsAutoscrollModal';
 import ViewModeSelectorModal from './ViewModeSelectorModal';
 import usePerformanceKeyBindings from '../usePerformanceKeyBindings';
@@ -430,22 +431,10 @@ export default function GigModeModal(props) {
   const showLyricsContent = !!showLyrics;
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showStructure;
   const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL;
-  const lyricsFitHeight = fitHeightOn && !showNotation && showLyrics;
+  const syncLyricsStructure = !!layout.syncLyricsStructure;
+  const lyricsStructureFitHeight = fitHeightOn && !showNotation && syncLyricsStructure;
+  const lyricsFitHeight = fitHeightOn && !showNotation && showLyrics && !syncLyricsStructure;
   const structureFitHeight = fitHeightOn && !showNotation && showStructure && !showLyrics;
-
-  const lyricsPanel = currentTune && showLyricsContent ? (
-    <div className={`music-view-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
-      <TimedLyricsChordsView
-        tune={currentTune}
-        tunebook={tunebook}
-        chordTranspose={chordTranspose}
-        hideChords={hideChordsInText}
-        suppressLeadingTitle={true}
-        zoom={displayZoom}
-        fitHeight={lyricsFitHeight}
-      />
-    </div>
-  ) : null;
 
   let structureChordChart = '';
   if (currentTune && showStructure && tunebook) {
@@ -466,7 +455,35 @@ export default function GigModeModal(props) {
     }
   }
 
-  const structurePanel = currentTune && showStructure ? (
+  const lyricsStructurePanel = currentTune && syncLyricsStructure ? (
+    <div className="tune-panel-lyrics-structure-sync tune-panel-lyrics tune-slot-main">
+      <LyricsStructureSyncPanel
+        tune={currentTune}
+        tunebook={tunebook}
+        chordTranspose={chordTranspose}
+        hideChords={hideChordsInText}
+        zoom={displayZoom}
+        fitHeight={lyricsStructureFitHeight}
+        chords={structureChordChart}
+      />
+    </div>
+  ) : null;
+
+  const lyricsPanel = currentTune && showLyricsContent && !syncLyricsStructure ? (
+    <div className={`music-view-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
+      <TimedLyricsChordsView
+        tune={currentTune}
+        tunebook={tunebook}
+        chordTranspose={chordTranspose}
+        hideChords={hideChordsInText}
+        suppressLeadingTitle={true}
+        zoom={displayZoom}
+        fitHeight={lyricsFitHeight}
+      />
+    </div>
+  ) : null;
+
+  const structurePanel = currentTune && showStructure && !syncLyricsStructure ? (
     <div className={`music-chords-block-col tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}${!showNotation && !showLyrics ? ' music-chords-block-col--full-page' : ''}`}>
       <StructureChordBlock
         chords={structureChordChart}
@@ -637,7 +654,7 @@ export default function GigModeModal(props) {
                 ) : (
                   <div className={'tune-display-panels ' + layout.layoutClass + (notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : '')}>
                     {notationPanel}
-                    {lyricsPanel}
+                    {lyricsStructurePanel || lyricsPanel}
                     {structurePanel}
                   </div>
                 )}

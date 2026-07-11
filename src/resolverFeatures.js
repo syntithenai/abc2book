@@ -3,6 +3,7 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   stems: false,
   whisper: false,
   llm: false,
+  practiceAnalysis: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -10,6 +11,7 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   stems: true,
   whisper: true,
   llm: true,
+  practiceAnalysis: true,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -25,6 +27,7 @@ export function normalizeResolverFeatures(raw, options) {
     stems: raw.stems === true,
     whisper: raw.whisper === true,
     llm: raw.llm === true,
+    practiceAnalysis: raw.practiceAnalysis === true,
   };
 }
 

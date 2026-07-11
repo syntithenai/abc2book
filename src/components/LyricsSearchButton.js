@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
+import useAbcjsParser from '../useAbcjsParser'
 import { searchLyrics } from '../lyricsSearchClient'
 import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
+import ManualCandidatesFeedback from './ManualCandidatesFeedback'
+import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import {
   buildGenreSearchContext,
@@ -33,11 +36,13 @@ export default function LyricsSearchButton({
   buttonStyle,
   disabled,
   tunebook,
+  book,
   showExternalLink = true,
   resolverAvailable,
 }) {
   const narrow = useIsNarrowViewport()
   const job = useCancellableAsyncJob('Lyrics search')
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const [error, setError] = useState('')
   const [source, setSource] = useState('')
   const [progressMessage, setProgressMessage] = useState('')
@@ -45,6 +50,8 @@ export default function LyricsSearchButton({
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [genreSuggestion, setGenreSuggestion] = useState(null)
+  const [manualCandidates, setManualCandidates] = useState([])
+  const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
 
   const googleUrl = buildGoogleLyricsSearchUrl(title, artist, extraQuery)
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
@@ -87,6 +94,8 @@ export default function LyricsSearchButton({
     const ctx = job.begin()
     setError('')
     setSource('')
+    setManualCandidates([])
+    setLockedModalCandidate(null)
     setProgressMessage('')
     setProgressPercent(0)
     try {
@@ -106,6 +115,10 @@ export default function LyricsSearchButton({
         },
       })
       if (!ctx.isCurrent()) return
+      if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
+        setManualCandidates(result.manualCandidates)
+        return
+      }
       if (result.multiple && Array.isArray(result.candidates)) {
         if (result.candidates.length === 1) {
           applyLyricsResult(result.candidates[0])
@@ -113,8 +126,10 @@ export default function LyricsSearchButton({
           setPickerCandidates(result.candidates)
           setShowPicker(true)
         }
-      } else {
+      } else if (!result.empty) {
         applyLyricsResult(result)
+      } else {
+        setError('No lyrics found for this song')
       }
     } catch (e) {
       if (job.isAbortError(e)) return
@@ -154,7 +169,15 @@ export default function LyricsSearchButton({
           </div>
         </Alert>
       )}
-      {source && !error && (
+      <ManualCandidatesFeedback
+        message="No importable match found"
+        manualCandidates={manualCandidates}
+        tunebook={tunebook}
+        onSelectCandidate={function(candidate) {
+          setLockedModalCandidate(candidate)
+        }}
+      />
+      {source && !error && manualCandidates.length === 0 && (
         <Alert variant="success" style={{ marginTop: '0.75em', clear: 'both' }}>
           Lyrics imported from {source}
         </Alert>
@@ -180,6 +203,18 @@ export default function LyricsSearchButton({
           setShowPicker(false)
           setPickerCandidates([])
         }}
+      />
+
+      <LockedSourcePasteModal
+        show={!!lockedModalCandidate}
+        onHide={function() { setLockedModalCandidate(null) }}
+        candidate={lockedModalCandidate}
+        searchTitle={title}
+        searchArtist={artist}
+        tunebook={tunebook}
+        abcjsParser={abcjsParser}
+        book={book}
+        icons={tunebook && tunebook.icons}
       />
     </div>
   )

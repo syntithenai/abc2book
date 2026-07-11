@@ -1,13 +1,13 @@
-import { Alert, Button, Form, Tab, Tabs } from 'react-bootstrap'
+import { Alert, Button, Form, ListGroup, Modal, Tab, Tabs } from 'react-bootstrap'
 import {useState, useEffect, useRef} from 'react'
 import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
 import CreatableSelect from 'react-select/creatable';
-import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import ChordsSearchButton from './ChordsSearchButton'
-import { finalizeChordSheetToTune, noteLinesHaveRealMelody } from '../timedImportFinalizer'
+import { applyChordSheetToTune, buildMeterMergeOptions } from '../applyChordSheetToTune'
+import { buildChordKeyMergeOptions } from '../chordKeyMergeOptions'
 import { exportTuneToChordPro, parseChordSheetText } from '../chordProFormatUtils'
-import { getLyricLines, setPlainLyricLines } from '../wLinesUtils'
+import { getLyricLines } from '../wLinesUtils'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { CHORDS_FIELD_HELP } from '../formFieldHelpText'
 import ChordRecordControls from './ChordRecordControls'
@@ -31,6 +31,10 @@ export default function ChordsWizard(props) {
     const [editorTab, setEditorTab] = useState('grid')
     const [pasteText, setPasteText] = useState('')
     const [pasteError, setPasteError] = useState('')
+    const [keyMergeOptions, setKeyMergeOptions] = useState([])
+    const [meterMergeOptions, setMeterMergeOptions] = useState([])
+    const [meterAssumedNotice, setMeterAssumedNotice] = useState('')
+    const [pendingPaste, setPendingPaste] = useState(null)
     const pastePrefilledRef = useRef(false)
     const chordsFromRecordingRef = useRef(false)
     const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
@@ -66,40 +70,34 @@ export default function ChordsWizard(props) {
 
         var abcJson = props.tunebook.abcTools.abc2json(props.abc)
         abcJson.id = tune.id
-        var voiceKey = resolvePrimaryVoiceKey(abcJson.voices)
-        var existingNotes = abcJson.voices[voiceKey] && abcJson.voices[voiceKey].notes
-          ? abcJson.voices[voiceKey].notes
-          : []
-        var hasMelody = noteLinesHaveRealMelody(existingNotes)
+        // Carry timed media / scaffold flags from the live tune onto the ABC snapshot.
+        if (tune.timingScaffold) abcJson.timingScaffold = true
+        if (tune.timedLyrics) abcJson.timedLyrics = tune.timedLyrics
+        if (tune.timedChords) abcJson.timedChords = tune.timedChords
+        if (tune.timedMelody) abcJson.timedMelody = tune.timedMelody
+        if (tune.meta) abcJson.meta = Object.assign({}, tune.meta, abcJson.meta || {})
+
         var linesForTune = Array.isArray(lyricLines) && lyricLines.length > 0
           ? lyricLines
           : getLyricLines(tune)
+        var preserveTimedMedia = !!(tune.timedLyrics || tune.timedChords || tune.timedMelody)
 
-        if (hasMelody || tune.timingScaffold) {
-          finalizeChordSheetToTune({
-            tune: abcJson,
-            tunebook: props.tunebook,
-            abcjsParser: abcjsParser,
-            abc: props.abc,
-            chordGridText: chordGridText,
-            lyricLines: linesForTune,
-          })
-        } else {
-          if (String(chordGridText || '').trim()) {
-            var newAbcNotes = props.tunebook.abcTools.justNotes(abcjsParser.mergeChords(chordGridText, props.abc))
-            abcJson.voices[voiceKey] = { meta: '', notes: newAbcNotes.split('\n') }
-          }
-          if (Array.isArray(lyricLines) && lyricLines.length > 0) {
-            setPlainLyricLines(abcJson, lyricLines)
-          }
-        }
-
-        if (opts.chordProSource) {
-          abcJson.meta = Object.assign({}, abcJson.meta || {}, {
+        applyChordSheetToTune(abcJson, {
+          chordGridText: chordGridText,
+          lyricLines: linesForTune,
+          chordSheetAlignment: opts.chordSheetAlignment,
+          meta: opts.meta || (opts.chordProSource ? {
             chordProSource: opts.chordProSource,
-            chordSheetAlignment: opts.chordSheetAlignment || null,
-          })
-        }
+          } : null),
+          chordProSource: opts.chordProSource,
+          mergeMode: opts.mergeMode,
+          abcjsParser: abcjsParser,
+          tunebook: props.tunebook,
+          abc: props.abc,
+          preserveTimedMedia: preserveTimedMedia,
+          selectedKeyOption: opts.selectedKeyOption,
+          selectedMeterOption: opts.selectedMeterOption,
+        })
 
         props.tunebook.saveTune(abcJson, false, {
           historyLabel: opts.historyLabel || 'Merge chords',
@@ -139,15 +137,86 @@ export default function ChordsWizard(props) {
         }
     }
 
+    function finishPendingPaste(overrides) {
+        var pending = pendingPaste
+        if (!pending) return
+        var opts = overrides || {}
+        mergeChordsIntoTune(pending.chordText, pending.lyricLines, {
+          historyLabel: 'Paste chord sheet',
+          chordProSource: pending.meta && pending.meta.chordProSource,
+          chordSheetAlignment: pending.chordSheetAlignment,
+          meta: pending.meta,
+          selectedKeyOption: opts.selectedKeyOption != null
+            ? opts.selectedKeyOption
+            : pending.selectedKeyOption,
+          selectedMeterOption: opts.selectedMeterOption != null
+            ? opts.selectedMeterOption
+            : pending.selectedMeterOption,
+        })
+        if (typeof props.onLyricsImport === 'function') {
+            props.onLyricsImport(pending.lyricLines)
+        }
+        setPendingPaste(null)
+        setKeyMergeOptions([])
+        setMeterMergeOptions([])
+        setEditorTab('grid')
+    }
+
     function savePastedChordSheet() {
         setPasteError('')
+        setMeterAssumedNotice('')
         try {
             var parsed = parseChordSheetText(pasteText, { fallbackTitle: tune.name })
             setChords(parsed.chordText)
+            var meta = {
+              title: parsed.title,
+              name: parsed.title,
+              composer: parsed.composer,
+              key: parsed.key,
+              capo: parsed.capo,
+              tempo: parsed.tempo,
+              meter: parsed.meter,
+              chordProSource: parsed.chordProSource,
+            }
+            var meterDecision = buildMeterMergeOptions(parsed.meter, tune.meter)
+            var keyOptions = buildChordKeyMergeOptions({
+              chordGridText: parsed.chordText,
+              notationKey: tune.key,
+              sheetKey: parsed.key,
+              capo: parsed.capo,
+              noteLines: tune.voices && Object.keys(tune.voices).length
+                ? (tune.voices[Object.keys(tune.voices)[0]].notes || [])
+                : [],
+            })
+            var pending = {
+              chordText: parsed.chordText,
+              lyricLines: parsed.lyricLines,
+              chordSheetAlignment: parsed.chordSheetAlignment,
+              meta: meta,
+              selectedMeterOption: meterDecision.options[0] || null,
+              selectedKeyOption: keyOptions[0] || null,
+            }
+            if (meterDecision.assumedDefault) {
+              setMeterAssumedNotice(meterDecision.options[0].rationale || 'Assumed 4/4')
+            }
+            if (meterDecision.options.length > 1) {
+              setPendingPaste(pending)
+              setMeterMergeOptions(meterDecision.options)
+              setKeyMergeOptions(keyOptions.length > 1 ? keyOptions : [])
+              return
+            }
+            if (keyOptions.length > 1) {
+              setPendingPaste(pending)
+              setKeyMergeOptions(keyOptions)
+              return
+            }
             mergeChordsIntoTune(parsed.chordText, parsed.lyricLines, {
               historyLabel: 'Paste chord sheet',
               chordProSource: parsed.chordProSource,
               chordSheetAlignment: parsed.chordSheetAlignment,
+              meta: meta,
+              selectedKeyOption: keyOptions[0] || null,
+              selectedMeterOption: meterDecision.options[0] || null,
             })
             if (typeof props.onLyricsImport === 'function') {
                 props.onLyricsImport(parsed.lyricLines)
@@ -156,6 +225,21 @@ export default function ChordsWizard(props) {
         } catch (e) {
             setPasteError(e && e.message ? e.message : 'Could not parse chord sheet')
         }
+    }
+
+    function applyMeterMergeOption(option) {
+        if (!pendingPaste) return
+        var next = Object.assign({}, pendingPaste, { selectedMeterOption: option })
+        setPendingPaste(next)
+        setMeterMergeOptions([])
+        if (keyMergeOptions.length > 1) {
+          return
+        }
+        finishPendingPaste({ selectedMeterOption: option, selectedKeyOption: next.selectedKeyOption })
+    }
+
+    function applyKeyMergeOption(option) {
+        finishPendingPaste({ selectedKeyOption: option })
     }
 
     return <div>
@@ -267,7 +351,75 @@ export default function ChordsWizard(props) {
               </Button>
             </div>
             {pasteError ? <Alert className="mt-2 mb-0" variant="danger">{pasteError}</Alert> : null}
+            {meterAssumedNotice ? (
+              <Alert className="mt-2 mb-0" variant="warning">{meterAssumedNotice}</Alert>
+            ) : null}
           </Tab>
         </Tabs>
+        <Modal show={meterMergeOptions.length > 1} onHide={function() {
+          setMeterMergeOptions([])
+          setKeyMergeOptions([])
+          setPendingPaste(null)
+        }}>
+          <Modal.Header closeButton>
+            <Modal.Title>Time signature options</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              The chord sheet meter may not match this tune&apos;s notation meter
+              ({tune.meter || 'unknown'}). Pick which meter to use for chord placement.
+              Your tune meter field is only changed if you choose the sheet meter and confirm.
+            </p>
+            <ListGroup>
+              {meterMergeOptions.map(function(option) {
+                return (
+                  <ListGroup.Item
+                    key={option.id || option.label}
+                    action
+                    onClick={function() { applyMeterMergeOption(option) }}
+                  >
+                    <strong>{option.label}</strong>
+                    {option.rationale ? (
+                      <div className="text-muted small">{option.rationale}</div>
+                    ) : null}
+                  </ListGroup.Item>
+                )
+              })}
+            </ListGroup>
+          </Modal.Body>
+        </Modal>
+        <Modal show={keyMergeOptions.length > 1 && meterMergeOptions.length === 0} onHide={function() {
+          setKeyMergeOptions([])
+          setPendingPaste(null)
+        }}>
+          <Modal.Header closeButton>
+            <Modal.Title>Chord key options</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              The chord sheet key may not match this tune&apos;s notation key
+              ({tune.key || 'unknown'}). Pick how to merge — your tune key field is not changed.
+            </p>
+            <ListGroup>
+              {keyMergeOptions.map(function(option) {
+                return (
+                  <ListGroup.Item
+                    key={option.id || option.label}
+                    action
+                    onClick={function() { applyKeyMergeOption(option) }}
+                  >
+                    <strong>{option.label}</strong>
+                    {option.rationale ? (
+                      <div className="text-muted small">{option.rationale}</div>
+                    ) : null}
+                    <pre style={{ marginBottom: 0, whiteSpace: 'pre-wrap', fontSize: '0.85em' }}>
+                      {String(option.chordGridText || '').split('\n').slice(0, 4).join('\n')}
+                    </pre>
+                  </ListGroup.Item>
+                )
+              })}
+            </ListGroup>
+          </Modal.Body>
+        </Modal>
     </div>
 }

@@ -5,7 +5,9 @@ import {
   normalizeOnSongText,
   tuneHasChordSheetContent,
   isChordSheetFilename,
+  extractChordSheetPreambleMeta,
 } from './chordProFormatUtils';
+import { getBarModel, fullBarRestAbc } from './barModel';
 
 describe('chordProFormatUtils', function() {
   const sampleChordPro = `{title: Amazing Grace}
@@ -129,5 +131,88 @@ Am    G    Em    F  G`;
     expect(parsed.chordSheetAlignment.some(function(block) {
       return block.header === '[Chorus]';
     })).toBe(true);
+  });
+
+  test('skeleton rest length follows meter unit slots', function() {
+    expect(fullBarRestAbc(getBarModel('6/8', null).unitSlotsPerBar)).toBe('|: z6 |]');
+    expect(fullBarRestAbc(getBarModel('3/4', null).unitSlotsPerBar)).toBe('|: z6 |]');
+    expect(fullBarRestAbc(getBarModel('4/4', null).unitSlotsPerBar)).toBe('|: z8 |]');
+    expect(getBarModel('6/8', null).noteLength).toBe('1/8');
+  });
+
+  test('extractChordSheetPreambleMeta captures UG-style labeled preamble', function() {
+    const lines = [
+      "Title: Who's That Girl",
+      'Artist: Eurythmics',
+      'Key: Am',
+      'Capo: 2',
+      'Tempo: 120',
+      'Time: 4/4',
+      'Tuning: EADGBE',
+      '',
+      '[Intro]',
+      'Am    Dm    Dm    Am9',
+    ];
+    const meta = extractChordSheetPreambleMeta(lines);
+    expect(meta.title).toBe("Who's That Girl");
+    expect(meta.composer).toBe('Eurythmics');
+    expect(meta.key).toBe('Am');
+    expect(meta.capo).toBe('2');
+    expect(meta.tempo).toBe('120');
+    expect(meta.meter).toBe('4/4');
+    expect(meta.tuning).toBe('EADGBE');
+    expect(meta.consumedLineIndexes).toEqual([0, 1, 2, 3, 4, 5, 6]);
+    expect(meta.strippedLines[0]).toBe('');
+    expect(meta.strippedLines).toContain('[Intro]');
+    expect(meta.strippedLines.join('\n')).not.toContain('Title:');
+  });
+
+  test('parses chords-over-words preamble into draft meta and strips body lines', function() {
+    const sample = `Song: Who's That Girl
+By: Eurythmics
+Tonality: Am
+Capo 2
+BPM: 118
+Meter: 4/4
+Tuning: Standard
+
+[Intro]
+Am    Dm    Dm    Am9
+
+[Verse 1]
+    Am
+The language of love`;
+
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.title).toBe("Who's That Girl");
+    expect(parsed.composer).toBe('Eurythmics');
+    expect(parsed.key).toBe('Am');
+    expect(parsed.capo).toBe(2);
+    expect(parsed.tempo).toBe(118);
+    expect(parsed.meter).toBe('4/4');
+    expect(parsed.tuning).toBe('Standard');
+    expect(parsed.lyricLines[0]).toBe('[Intro]');
+    expect(parsed.lyricLines.join('\n')).not.toMatch(/Song:|By:|Tonality:|Capo|BPM:|Meter:|Tuning:/);
+    expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
+  });
+
+  test('maps ChordPro composer directive when present', function() {
+    const sample = `{title: Test Song}
+{composer: Jane Composer}
+{artist: Band Name}
+{key: C}
+[C]Hello
+`;
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.title).toBe('Test Song');
+    expect(parsed.composer).toBe('Jane Composer');
+    expect(parsed.key).toBe('C');
+  });
+
+  test('does not treat lone chord tokens as preamble key meta', function() {
+    const meta = extractChordSheetPreambleMeta(['G', 'Am', '[Verse]', 'hello']);
+    expect(meta.key).toBe('');
+    expect(meta.consumedLineIndexes).toEqual([]);
+    expect(meta.strippedLines[0]).toBe('G');
   });
 });

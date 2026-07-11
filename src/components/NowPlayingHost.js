@@ -11,6 +11,7 @@ import {
   parseTunePagePlaybackFromUrl,
   shouldNowPlayingHostOwnPlayback,
 } from '../nowPlayingQueuePlayback'
+import { shouldSuppressHostAutostart } from '../playbackNavigationUtils'
 import { buildPlayableTuneAbc } from '../abcVoiceFilter'
 import { getPlayableVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
 import './NowPlayingHost.css'
@@ -123,6 +124,13 @@ export default function NowPlayingHost(props) {
     && mediaController.hasActivePlaybackIntent
     && mediaController.hasActivePlaybackIntent())
 
+  const suppressAutostart = shouldSuppressHostAutostart(
+    pathname,
+    mediaController,
+    resumePlaybackOnHost,
+    urlPlayback
+  )
+
   const playbackTarget = useMemo(function() {
     const routeFromUrl = parseTunePagePlaybackFromUrl(pathname)
     return resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, routeFromUrl)
@@ -176,11 +184,11 @@ export default function NowPlayingHost(props) {
     if (mc.consumePendingPlayRequest) {
       consumed = mc.consumePendingPlayRequest(tuneId, 'playMidi', null)
     }
-    if (!consumed && tuneChanged && mc.maybeAutostart) {
+    if (!consumed && tuneChanged && mc.maybeAutostart && !suppressAutostart) {
       mc.maybeAutostart('playMidi', 'tune', false)
     }
     return undefined
-  }, [shouldHost, playbackTarget && playbackTarget.type, playingTune && playingTune.id, tunebook])
+  }, [shouldHost, playbackTarget && playbackTarget.type, playingTune && playingTune.id, tunebook, suppressAutostart])
 
   if (!shouldHost || !playbackTarget) return null
 
@@ -202,7 +210,7 @@ export default function NowPlayingHost(props) {
           tune={playingTune}
           routePlayState={routePlayState}
           routeMediaLinkNumber={routeMediaLinkNumber}
-          suppressAutostart={!resumePlaybackOnHost && !urlPlayback}
+          suppressAutostart={suppressAutostart}
           suppressTapModal={true}
           instanceId="queue"
           compactPlayer={true}
@@ -215,7 +223,7 @@ export default function NowPlayingHost(props) {
           abc={staffPlaybackAbc}
           meter={playingTune.meter}
           autoPrime={true}
-          autoStart={resumePlaybackOnHost}
+          autoStart={resumePlaybackOnHost && !suppressAutostart}
           editableTempo={false}
           repeat={playingTune.repeats > 0 ? playingTune.repeats : 1}
           hideSvg={true}

@@ -182,8 +182,135 @@ function dictionaryPrimaryWord(term) {
   return seeds.leading || String(term || '').trim()
 }
 
-async function resolveDictionaryWordDirect(query, primaryWord) {
-  const word = String(primaryWord || query || '').trim().toLowerCase()
+function normalizeCompareText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function queryTitleMatchScore(query, title) {
+  const queryNorm = normalizeCompareText(query)
+  const titleNorm = normalizeCompareText(title)
+  if (!queryNorm || !titleNorm) return 0
+  if (queryNorm === titleNorm) return 1
+  if (queryNorm.indexOf(titleNorm) >= 0 || titleNorm.indexOf(queryNorm) >= 0) return 0.9
+  const queryWords = queryNorm.split(' ').filter(function(word) { return word.length > 1 })
+  if (!queryWords.length) return 0
+  const titleWords = new Set(titleNorm.split(' '))
+  let overlap = 0
+  queryWords.forEach(function(word) {
+    if (titleWords.has(word)) overlap += 1
+  })
+  return overlap / queryWords.length
+}
+
+function wikipediaImageFromSummary(summary, query, title) {
+  if (!summary || summary.type !== 'standard') return null
+  const thumbnail = summary.thumbnail
+  if (!thumbnail || !thumbnail.source) return null
+  const width = Number(thumbnail.width) || 0
+  const height = Number(thumbnail.height) || 0
+  if (width < 120 || height < 80) return null
+  if (queryTitleMatchScore(query, title) < 0.6) return null
+  const pageUrl = summary.content_urls && summary.content_urls.desktop
+    ? summary.content_urls.desktop.page
+    : ''
+  return {
+    url: String(thumbnail.source),
+    width: width,
+    height: height,
+    pageUrl: pageUrl || '',
+    attribution: 'Wikipedia',
+  }
+}
+
+function encyclopediaEntryFromSummary(summary, query) {
+  if (!summary || summary.type !== 'standard') return null
+  const title = String(summary.title || '').trim()
+  const extract = String(summary.extract || '').trim()
+  if (!title || extract.length < 40) return null
+  if (queryTitleMatchScore(query, title) < 0.5) return null
+  const description = String(summary.description || '').trim()
+  const pageUrl = summary.content_urls && summary.content_urls.desktop
+    ? summary.content_urls.desktop.page
+    : ''
+  const entry = {
+    word: title,
+    phonetic: description,
+    source: 'wikipedia',
+    sourceUrl: pageUrl || '',
+    meanings: [{
+      partOfSpeech: 'encyclopedia',
+      definitions: [{
+        definition: extract,
+        example: null,
+      }],
+    }],
+  }
+  const image = wikipediaImageFromSummary(summary, query, title)
+  if (image) entry.image = image
+  return entry
+}
+
+async function fetchWikipediaSummary(title, signal) {
+  const pageTitle = String(title || '').trim()
+  if (!pageTitle) return null
+  const url = 'https://en.wikipedia.org/api/rest_v1/page/summary/'
+    + encodeURIComponent(pageTitle.replace(/ /g, '_'))
+  try {
+    const payload = await fetchJson(url, signal)
+    return payload && typeof payload === 'object' ? payload : null
+  } catch (error) {
+    return null
+  }
+}
+
+async function lookupWikipediaEncyclopediaDirect(term, signal) {
+  const query = String(term || '').trim()
+  if (!query) return null
+
+  let summary = await fetchWikipediaSummary(query, signal)
+  let entry = encyclopediaEntryFromSummary(summary, query)
+  if (entry) return entry
+
+  try {
+    const searchUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch'
+      + '&search=' + encodeURIComponent(query)
+      + '&limit=5&namespace=0&format=json&origin=*'
+    const searchPayload = await fetchJson(searchUrl, signal)
+    const titles = Array.isArray(searchPayload) && Array.isArray(searchPayload[1])
+      ? searchPayload[1]
+      : []
+    for (let i = 0; i < titles.length; i += 1) {
+      const pageTitle = titles[i]
+      if (!pageTitle || queryTitleMatchScore(query, pageTitle) < 0.5) continue
+      summary = await fetchWikipediaSummary(pageTitle, signal)
+      entry = encyclopediaEntryFromSummary(summary, query)
+      if (entry) return entry
+    }
+  } catch (error) {
+    return null
+  }
+  return null
+}
+
+function dictionaryMatchTypeFromEntries(entries, lookupWord) {
+  if (!Array.isArray(entries) || !entries.length) return 'none'
+  if (entries[0] && entries[0].source === 'wikipedia') return 'encyclopedia'
+  const resolvedWord = entries[0].word || lookupWord
+  return String(resolvedWord).toLowerCase() === String(lookupWord || '').toLowerCase()
+    ? 'exact'
+    : 'fuzzy'
+}
+
+async function resolveDictionaryWordDirect(query, primaryWord, options) {
+  const opts = options || {}
+  const allowFuzzy = opts.allowFuzzy !== false
+  const allowEncyclopedia = opts.allowEncyclopedia !== false
+  const word = String(primaryWord || query || '').trim()
+  const wordLower = word.toLowerCase()
   if (!word) {
     return {
       query: String(query || '').trim(),
@@ -194,7 +321,7 @@ async function resolveDictionaryWordDirect(query, primaryWord) {
     }
   }
 
-  let entries = await tryDictionaryEntries(word)
+  let entries = await tryDictionaryEntries(wordLower)
   if (entries.length) {
     return {
       query: String(query || '').trim(),
@@ -205,36 +332,52 @@ async function resolveDictionaryWordDirect(query, primaryWord) {
     }
   }
 
-  const suggestions = await fetchDatamuseSuggestions(word)
-  for (let i = 0; i < suggestions.length; i += 1) {
-    const suggestion = suggestions[i]
-    if (!suggestion || !suggestion.word) continue
-    entries = await tryDictionaryEntries(suggestion.word)
-    if (entries.length) {
-      return {
-        query: String(query || '').trim(),
-        resolvedWord: entries[0].word || suggestion.word,
-        dictionary: entries,
-        matchType: 'fuzzy',
-        lookupWord: word,
-        matchedSuggestion: suggestion.word,
+  if (allowFuzzy && word.indexOf(' ') < 0) {
+    const suggestions = await fetchDatamuseSuggestions(word)
+    for (let i = 0; i < suggestions.length; i += 1) {
+      const suggestion = suggestions[i]
+      if (!suggestion || !suggestion.word) continue
+      entries = await tryDictionaryEntries(suggestion.word)
+      if (entries.length) {
+        return {
+          query: String(query || '').trim(),
+          resolvedWord: entries[0].word || suggestion.word,
+          dictionary: entries,
+          matchType: 'fuzzy',
+          lookupWord: word,
+          matchedSuggestion: suggestion.word,
+        }
+      }
+    }
+
+    const spelledLike = normalizeDatamuseResults(await fetchDatamuse({ sp: word + '*', max: 12 }))
+    for (let j = 0; j < spelledLike.length; j += 1) {
+      const candidate = spelledLike[j]
+      if (!candidate || !candidate.word) continue
+      entries = await tryDictionaryEntries(candidate.word)
+      if (entries.length) {
+        return {
+          query: String(query || '').trim(),
+          resolvedWord: entries[0].word || candidate.word,
+          dictionary: entries,
+          matchType: 'fuzzy',
+          lookupWord: word,
+          matchedSuggestion: candidate.word,
+        }
       }
     }
   }
 
-  const spelledLike = normalizeDatamuseResults(await fetchDatamuse({ sp: word + '*', max: 12 }))
-  for (let j = 0; j < spelledLike.length; j += 1) {
-    const candidate = spelledLike[j]
-    if (!candidate || !candidate.word) continue
-    entries = await tryDictionaryEntries(candidate.word)
-    if (entries.length) {
+  if (allowEncyclopedia) {
+    const encyclopedia = await lookupWikipediaEncyclopediaDirect(String(query || word).trim())
+    if (encyclopedia) {
       return {
         query: String(query || '').trim(),
-        resolvedWord: entries[0].word || candidate.word,
-        dictionary: entries,
-        matchType: 'fuzzy',
+        resolvedWord: encyclopedia.word || word,
+        dictionary: [encyclopedia],
+        matchType: 'encyclopedia',
         lookupWord: word,
-        matchedSuggestion: candidate.word,
+        image: encyclopedia.image || null,
       }
     }
   }
@@ -270,30 +413,41 @@ export function collectReverseDictionaryCandidates(reverseResult) {
   ], 24)
 }
 
-export async function resolveDictionaryWord(term, accessToken, primaryWordOverride) {
+export async function resolveDictionaryWord(term, accessToken, primaryWordOverride, options) {
   const query = String(term || '').trim()
   if (!query) throw new Error('Enter a word to look up')
-  const override = primaryWordOverride != null ? String(primaryWordOverride || '').trim().toLowerCase() : ''
+  const opts = options || {}
+  const override = primaryWordOverride != null ? String(primaryWordOverride || '').trim() : ''
   const lookupWord = override || dictionaryPrimaryWord(query)
+  const allowFuzzy = opts.allowFuzzy !== false
+  const allowEncyclopedia = opts.allowEncyclopedia !== false
+  // When looking up an explicit word/override, encyclopedia search should use that word.
+  const encyclopediaQuery = override || query
 
   try {
     const payload = await fetchResolverJson('/lyrics-dictionary', { term: lookupWord }, accessToken)
     if (Array.isArray(payload) && payload.length) {
-      const resolvedWord = payload[0].word || lookupWord
-      const matchType = resolvedWord.toLowerCase() === lookupWord.toLowerCase() ? 'exact' : 'fuzzy'
-      return {
-        query: query,
-        resolvedWord: resolvedWord,
-        dictionary: payload,
-        matchType: matchType,
-        lookupWord: lookupWord,
+      const matchType = dictionaryMatchTypeFromEntries(payload, lookupWord)
+      if (allowEncyclopedia || matchType !== 'encyclopedia') {
+        const first = payload[0] || {}
+        return {
+          query: query,
+          resolvedWord: first.word || lookupWord,
+          dictionary: payload,
+          matchType: matchType,
+          lookupWord: lookupWord,
+          image: first.image || null,
+        }
       }
     }
   } catch (error) {
     // Fall back to direct dictionary + Datamuse fuzzy resolution.
   }
 
-  return resolveDictionaryWordDirect(query, lookupWord)
+  return resolveDictionaryWordDirect(encyclopediaQuery, lookupWord, {
+    allowFuzzy: allowFuzzy,
+    allowEncyclopedia: allowEncyclopedia,
+  })
 }
 
 export async function lookupLookupHub(term, accessToken, options) {
@@ -301,6 +455,7 @@ export async function lookupLookupHub(term, accessToken, options) {
   if (!query) throw new Error('Enter a word or phrase to search')
   const opts = options || {}
   const selectedWordOverride = String(opts.selectedWord || '').trim()
+  const preferSelectedWord = !!opts.preferSelectedWord
 
   let dictionaryLookupWord = dictionaryPrimaryWord(query)
   let reverseMatchWord = null
@@ -317,26 +472,75 @@ export async function lookupLookupHub(term, accessToken, options) {
     }
   }
 
-  const resolved = await resolveDictionaryWord(query, accessToken, dictionaryLookupWord)
-  const thesaurusWord = resolved.resolvedWord || dictionaryLookupWord || query
+  let resolved = null
+  if (preferSelectedWord && selectedWordOverride) {
+    // Explicit picker choice: define that word only (dictionary, then Wikipedia for it).
+    // Do not fall back to the original multi-word query's encyclopedia result.
+    resolved = await resolveDictionaryWord(selectedWordOverride, accessToken, selectedWordOverride, {
+      allowFuzzy: true,
+      allowEncyclopedia: true,
+    })
+  } else {
+    // Prefer a meaning for the original search term (dictionary or encyclopedia)
+    // before falling back to a reverse-dictionary word.
+    resolved = await resolveDictionaryWord(query, accessToken, query, {
+      allowFuzzy: phraseWordCount(query) <= 1,
+      allowEncyclopedia: true,
+    })
+
+    if ((!resolved.dictionary || !resolved.dictionary.length) && reverseMatchWord) {
+      resolved = await resolveDictionaryWord(reverseMatchWord, accessToken, reverseMatchWord, {
+        allowEncyclopedia: true,
+      })
+    }
+
+    if ((!resolved.dictionary || !resolved.dictionary.length) && dictionaryLookupWord
+      && dictionaryLookupWord.toLowerCase() !== query.toLowerCase()
+      && dictionaryLookupWord !== reverseMatchWord) {
+      resolved = await resolveDictionaryWord(dictionaryLookupWord, accessToken, dictionaryLookupWord, {
+        allowEncyclopedia: true,
+      })
+    }
+  }
+
+  if (!resolved) {
+    resolved = {
+      query: query,
+      resolvedWord: '',
+      dictionary: [],
+      matchType: 'none',
+      lookupWord: dictionaryLookupWord || query,
+    }
+  }
+
+  const thesaurusWord = reverseMatchWord
+    || (resolved.matchType === 'encyclopedia' ? '' : resolved.resolvedWord)
+    || dictionaryLookupWord
+    || query
   const rhymeWord = reverseMatchWord || resolved.lookupWord || query
 
   const [thesaurus, alliteration, rhyme] = await Promise.all([
-    lookupThesaurus(thesaurusWord, accessToken),
+    lookupThesaurus(thesaurusWord || query, accessToken),
     lookupAlliteration(query, accessToken),
     lookupRhymes(rhymeWord, accessToken),
   ])
 
   return {
     query: query,
+    dictionaryQuery: preferSelectedWord ? selectedWordOverride : query,
     resolvedWord: resolved.resolvedWord,
     lookupWord: resolved.lookupWord,
     dictionaryMatch: resolved.matchType,
     matchedSuggestion: resolved.matchedSuggestion || null,
     reverseMatchWord: reverseMatchWord,
-    selectedReverseWord: reverseMatchWord,
+    selectedReverseWord: preferSelectedWord
+      ? (selectedWordOverride || reverseMatchWord || '')
+      : (resolved.matchType === 'encyclopedia' && String(resolved.resolvedWord || '').toLowerCase() === query.toLowerCase()
+        ? ''
+        : (reverseMatchWord || '')),
     reverseCandidates: reverseCandidates,
     dictionary: resolved.dictionary,
+    dictionaryImage: resolved.image || (resolved.dictionary[0] && resolved.dictionary[0].image) || null,
     thesaurus: thesaurus,
     alliteration: alliteration,
     rhyme: rhyme,
@@ -353,12 +557,6 @@ async function fetchResolverJson(path, payload, accessToken) {
     body: JSON.stringify(payload || {}),
   })
   return response.json()
-}
-
-async function lookupDictionaryDirect(term) {
-  const word = String(term || '').trim()
-  const payload = await fetchJson(DICTIONARY_BASE_URL + '/' + encodeURIComponent(word.toLowerCase()))
-  return Array.isArray(payload) ? payload : []
 }
 
 async function lookupThesaurusDirect(term) {
@@ -476,7 +674,8 @@ export async function lookupDictionary(term, accessToken) {
     const payload = await fetchResolverJson('/lyrics-dictionary', { term: word }, accessToken)
     return Array.isArray(payload) ? payload : []
   } catch (error) {
-    return lookupDictionaryDirect(word)
+    const resolved = await resolveDictionaryWordDirect(word, word)
+    return resolved.dictionary
   }
 }
 

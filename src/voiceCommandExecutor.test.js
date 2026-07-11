@@ -98,6 +98,101 @@ describe('voiceCommandExecutor', function() {
     expect(context.setCurrentTune).toHaveBeenCalledWith('t1');
   });
 
+  test('executeVoiceCommand plays a matched tune on PLAY', async function() {
+    const navigated = [];
+    const requestPlayback = jest.fn();
+    const tune = {
+      id: 't1',
+      name: 'Smoke On The Water',
+      composer: '',
+      notes: 'CDEF',
+      links: [],
+    };
+    const context = {
+      tunes: { t1: tune },
+      tunebook: {
+        navigate: function(path) { navigated.push(path); },
+        hasNotesOrChords: function(t) { return !!(t && t.notes); },
+        hasLinks: function(t) { return !!(t && t.links && t.links.length); },
+      },
+      mediaController: {
+        setTune: jest.fn(),
+        setMediaLinkNumber: jest.fn(),
+        requestPlayback: requestPlayback,
+        isMidiPlaybackRoute: function() { return false; },
+        isMediaPlaybackRoute: function() { return false; },
+      },
+      setCurrentTune: jest.fn(),
+      setFilter: jest.fn(),
+      setCurrentTuneBook: jest.fn(),
+      setTagFilter: jest.fn(),
+      setGroupBy: jest.fn(),
+      onFeedback: jest.fn(),
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'play smoke on the water',
+      tool: 'PLAY',
+      title: 'smoke on the water',
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(context.setCurrentTune).toHaveBeenCalledWith('t1');
+    expect(requestPlayback).toHaveBeenCalledWith(expect.objectContaining({
+      tuneId: 't1',
+      playState: 'playMidi',
+      fromUserGesture: true,
+      fresh: true,
+    }));
+    expect(navigated).toEqual(['/tunes/t1/playMidi']);
+    expect(context.onFeedback).toHaveBeenCalledWith('Playing Smoke On The Water');
+  });
+
+  test('executeVoiceCommand starts playback when SHOW transcript begins with play', async function() {
+    const navigated = [];
+    const requestPlayback = jest.fn();
+    const tune = {
+      id: 't1',
+      name: 'Smoke On The Water',
+      composer: '',
+      notes: 'CDEF',
+      links: [],
+    };
+    const context = {
+      tunes: { t1: tune },
+      tunebook: {
+        navigate: function(path) { navigated.push(path); },
+        hasNotesOrChords: function(t) { return !!(t && t.notes); },
+        hasLinks: function(t) { return !!(t && t.links && t.links.length); },
+      },
+      mediaController: {
+        setTune: jest.fn(),
+        setMediaLinkNumber: jest.fn(),
+        requestPlayback: requestPlayback,
+        isMidiPlaybackRoute: function() { return false; },
+        isMediaPlaybackRoute: function() { return false; },
+      },
+      setCurrentTune: jest.fn(),
+      setFilter: jest.fn(),
+      setCurrentTuneBook: jest.fn(),
+      setTagFilter: jest.fn(),
+      setGroupBy: jest.fn(),
+      onFeedback: jest.fn(),
+    };
+
+    const result = await executeVoiceCommand({
+      transcript: 'play smoke on the water',
+      tool: 'SHOW',
+      title: 'smoke on the water',
+      confidence: 0.95,
+    }, context);
+
+    expect(result.ok).toBe(true);
+    expect(requestPlayback).toHaveBeenCalled();
+    expect(navigated).toEqual(['/tunes/t1/playMidi']);
+  });
+
   test('executeVoiceCommand plays a filtered playlist', async function() {
     const tunes = [
       { id: 'a', name: 'Wild Rover', composer: '' },

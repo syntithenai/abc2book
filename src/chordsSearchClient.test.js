@@ -101,6 +101,48 @@ describe('chordsSearchClient', function() {
     }).toThrow('Chords search returned no chord sheet')
   })
 
+  test('normalizeChordsSearch returns empty manualCandidates without throwing', function() {
+    const result = normalizeChordsSearch({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://tabs.ultimate-guitar.com/tab/example',
+        title: 'Amazing Grace',
+        source: 'ultimate-guitar.com',
+        host: 'tabs.ultimate-guitar.com',
+        reason: 'blocked',
+        contentType: 'chords',
+      }],
+    })
+    expect(result.multiple).toBe(false)
+    expect(result.empty).toBe(true)
+    expect(result.found).toBe(false)
+    expect(result.manualCandidates).toHaveLength(1)
+    expect(result.manualCandidates[0]).toEqual({
+      url: 'https://tabs.ultimate-guitar.com/tab/example',
+      title: 'Amazing Grace',
+      source: 'ultimate-guitar.com',
+      host: 'tabs.ultimate-guitar.com',
+      reason: 'blocked',
+      contentType: 'chords',
+    })
+  })
+
+  test('normalizeChordsSearch passes through capo key tuning tempo', function() {
+    const result = normalizeChordsSearch({
+      sheetLines: ['G C G', 'Amazing Grace'],
+      source: 'azchords.com',
+      capo: 2,
+      key: 'G',
+      tuning: 'E A D G B E',
+      tempo: 90,
+    })
+    expect(result.capo).toBe(2)
+    expect(result.key).toBe('G')
+    expect(result.tuning).toBe('E A D G B E')
+    expect(result.tempo).toBe(90)
+  })
+
   test('handleChordsSearchStreamEvent forwards progress', function() {
     const updates = []
     handleChordsSearchStreamEvent({

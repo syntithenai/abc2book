@@ -2,6 +2,7 @@ import { Alert, Button, Form } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
 import ComposerSearchButton from '../ComposerSearchButton';
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick';
+import KeySignatureInput from '../KeySignatureInput';
 
 function PendingImportCard(props) {
   const item = props.item;
@@ -168,9 +169,9 @@ export default function MediaImportMetadataStep(props) {
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Key</Form.Label>
-        <Form.Control
+        <KeySignatureInput
           value={metadata.key || ''}
-          onChange={function(e) { update('key', e.target.value); }}
+          onChange={function(next) { update('key', next); }}
         />
       </Form.Group>
       <Form.Group className="mb-3">

@@ -10,6 +10,7 @@ export default class PitchTempoShifter {
     this.gainNode = audioContext.createGain();
     this.gainNode.gain.value = 1.0;
     this._outputVolume = 1;
+    this._directOutputGain = false;
     this._onTimeUpdate = onTimeUpdate;
     this._onEnded = onEnded;
     this._onPitchOutputReady = onPitchOutputReady || null;
@@ -103,7 +104,16 @@ export default class PitchTempoShifter {
     this._updateGain();
   }
 
+  setDirectOutputGain(enabled) {
+    this._directOutputGain = !!enabled;
+    this._updateGain();
+  }
+
   _updateGain() {
+    if (this._directOutputGain) {
+      this.gainNode.gain.value = this._outputVolume;
+      return;
+    }
     const compensation = this._mode === 'soundtouch' && this._tempo > 0 ? Math.sqrt(this._tempo) : 1;
     const level = Math.min(2.5, Math.max(0.75, compensation)) * this._outputVolume;
     this.gainNode.gain.value = level;

@@ -2,6 +2,7 @@ import abcjs from 'abcjs'
 import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
+import { getBarModel, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
 
 /**
  * Utilities for converting to/from abcjs object format
@@ -460,16 +461,55 @@ export default function useAbcjsParser() {
     }
     
     /**
+     * Prefer chordSheetAlignment anchors for beat placement within a bar.
+     * Falls back to even token distribution or compound beat centers via getBarModel.
+     */
+    function beatPositionsForBarChords(barChords, noteLengthsPerBar, anchors, lyricWordCount, barModel) {
+        var model = barModel || getBarModel('4/4', '1/8')
+        if (noteLengthsPerBar && noteLengthsPerBar !== model.unitSlotsPerBar) {
+            model = Object.assign({}, model, { unitSlotsPerBar: noteLengthsPerBar })
+        }
+        return barModelBeatPositions(barChords, model, anchors, lyricWordCount)
+    }
+
+    function alignmentHintsForChordLine(alignment, chordLineIndex) {
+        if (!Array.isArray(alignment) || alignment.length === 0) return null
+        var chordLineCounter = -1
+        for (var bi = 0; bi < alignment.length; bi++) {
+            var block = alignment[bi]
+            var pairs = block && Array.isArray(block.linePairs) ? block.linePairs : []
+            for (var pi = 0; pi < pairs.length; pi++) {
+                var pair = pairs[pi]
+                var chordLines = pair && Array.isArray(pair.chordLines) ? pair.chordLines : []
+                if (chordLines.length === 0) continue
+                for (var ci = 0; ci < chordLines.length; ci++) {
+                    chordLineCounter += 1
+                    if (chordLineCounter === chordLineIndex) {
+                        var lyricTokens = pair.lyricTokens || []
+                        return {
+                            anchors: Array.isArray(pair.anchors) ? pair.anchors : [],
+                            wordCount: lyricTokens.length || String(pair.lyricLine || '').trim().split(/\s+/).filter(Boolean).length,
+                        }
+                    }
+                }
+            }
+        }
+        return null
+    }
+
+    /**
      * Parse an string containing compressed chord format 
      * into an object representing the lines, bars and timing of the chords
      */
-    function parseChordText(chordText, abcString) {
+    function parseChordText(chordText, abcString, alignment) {
         var abcJson = abcTools.abc2json(abcString)
-        var noteLengthsPerBar = abcTools.getNoteLengthsPerBar(abcJson.noteLength, abcJson.meter) 
+        var barModel = getBarModel(abcJson.meter, abcJson.noteLength)
+        var noteLengthsPerBar = barModel.unitSlotsPerBar
         var key = abcTools.getMetaValueFromAbc('K',abcString)
         var result = []
         if (chordText && chordText.trim()) {
             var lines = chordText.trim().split("\n")
+            var nonEmptyChordLineIndex = -1
             lines.forEach(function(line,lineNumber) {
               if (!Array.isArray(result[lineNumber])) result[lineNumber] = []
               var cleanLine = line.trim()
@@ -479,47 +519,57 @@ export default function useAbcjsParser() {
                   cleanLine = cleanLine.slice(0, -1)
               }
               var bars = cleanLine.split("|")
+              var lineHasChords = bars.some(function(bar) { return typeof bar === 'string' && bar.trim() })
+              if (lineHasChords) nonEmptyChordLineIndex += 1
+              var hints = lineHasChords ? alignmentHintsForChordLine(alignment, nonEmptyChordLineIndex) : null
+              var flatAnchors = hints && hints.anchors ? hints.anchors.slice() : []
+              var anchorCursor = 0
               bars.forEach(function(bar,bk) {
                   if (typeof bar === 'string' && bar.trim()) {
                     // cull empties and ensure valid chords
                     var barChords = bar.trim().split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true}).map(function(chord) {
                         var clean = cleanChord(key, chord)
-                        //console.log('FILTER',chord,clean)
                         return clean
                     })
-                    // distribute provided symbols over beats
-                    var newChords = {} //new Array(noteLengthsPerBar)
+                    var barAnchors = []
+                    if (flatAnchors.length > 0) {
+                        barAnchors = flatAnchors.slice(anchorCursor, anchorCursor + barChords.length)
+                        anchorCursor += barChords.length
+                    }
+                    var positions = beatPositionsForBarChords(
+                        barChords,
+                        noteLengthsPerBar,
+                        barAnchors,
+                        hints ? hints.wordCount : 0,
+                        barModel
+                    )
+                    var newChords = {}
                     barChords.forEach(function(barToken, barTokenKey) {
-                        var position = (barTokenKey/barChords.length) * noteLengthsPerBar
+                        var position = positions[barTokenKey]
                         if (barChords[barTokenKey].replaceAll('.','').trim().length !== 0)  {
-                            //console.log("PARSECHORDTEXT",position,barChords[barTokenKey], barTokenKey, barChords.length, noteLengthsPerBar) 
                             if (!Array.isArray(newChords[position])) {
                                 newChords[position] = []
                             }  
-                            //if (newChords[position].length > 0) newChords[position].push(' ')
                             newChords[position].push(barChords[barTokenKey])  
                         }
                     })
                   
                     result[lineNumber][bk] = newChords
                   }
-                   //else {
-                      //result[lineNumber][bk] = {}
-                  //}
               })
             
             })
         }
-        //console.log('CHORDTEXT',result)
         return result
     }
     
     /**
      * Merge compressed chord text into an abcString
-     * and return the updated abcString
+     * and return the updated abcString.
+     * Optional alignment (chordSheetAlignment) prefers anchor-based beat placement.
      */
-    function  mergeChords(chordText, abcString) {
-        var chordLayout = parseChordText(chordText, abcString)
+    function  mergeChords(chordText, abcString, alignment) {
+        var chordLayout = parseChordText(chordText, abcString, alignment)
         var abc = parse(abcString)
         var abcJson = abcTools.abc2json(abcString)
         var noteLengthText = abcJson.noteLength ? abcJson.noteLength : '1/8'

@@ -9,8 +9,9 @@ import { useEffect, useRef, useState } from 'react';
  *   Width is only enforced when measureLongestLine is set (structure).
  *   Lyrics wrap / may scroll horizontally — height is the fit target.
  *
- * @returns {{ containerRef, contentRef, fontScale }}
+ * @returns {{ containerRef, contentRef, fontScale, overflows }}
  *   Apply fontScale as style.fontSize = fontScale + 'em' (or %) on content.
+ *   overflows is true when fitHeight is on but content still exceeds the panel at minScale.
  */
 export function useFitTextScale(options) {
   const {
@@ -22,11 +23,14 @@ export function useFitTextScale(options) {
     maxScale,
     padX,
     padY,
+    /** When set, width constraints use this column instead of the container. */
+    widthColumnRef,
   } = options || {};
 
   const containerRef = useRef(null);
   const contentRef = useRef(null);
   const [fontScale, setFontScale] = useState(1);
+  const [overflows, setOverflows] = useState(false);
 
   const min = minScale > 0 ? minScale : 0.45;
   const max = maxScale > 0 ? maxScale : 3.5;
@@ -44,10 +48,14 @@ export function useFitTextScale(options) {
     let raf = null;
 
     function columnWidth() {
+      const widthCol = widthColumnRef && widthColumnRef.current;
+      if (widthCol && widthCol.clientWidth > 0) {
+        return widthCol.clientWidth;
+      }
       // Prefer the layout column width so a content-sized container cannot
       // inflate availW and skip shrinking (which clips on the right).
       const col = typeof container.closest === 'function'
-        ? container.closest('.tune-panel-structure, .music-chords-block-col, .music-body-chords')
+        ? container.closest('.tune-lyrics-structure-sync-structure, .tune-panel-structure, .music-chords-block-col, .music-body-chords')
         : null;
       const colW = col && col.clientWidth > 0 ? col.clientWidth : 0;
       const selfW = container.clientWidth || 0;
@@ -171,7 +179,9 @@ export function useFitTextScale(options) {
         }
       }
       content.style.fontSize = best.toFixed(3) + 'em';
+      const finalFit = fitsAt(best);
       setFontScale(Number(best.toFixed(3)));
+      setOverflows(wantHeight && !finalFit.heightOk);
     }
 
     function schedule() {
@@ -185,7 +195,7 @@ export function useFitTextScale(options) {
     const observer = new ResizeObserver(schedule);
     observer.observe(container);
     const col = typeof container.closest === 'function'
-      ? container.closest('.tune-panel-structure, .music-chords-block-col, .music-body-chords')
+      ? container.closest('.tune-lyrics-structure-sync-structure, .tune-panel-structure, .music-chords-block-col, .music-body-chords')
       : null;
     if (col && col !== container) observer.observe(col);
     window.addEventListener('resize', schedule);
@@ -196,7 +206,7 @@ export function useFitTextScale(options) {
       window.removeEventListener('resize', schedule);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [wantHeight, wantLongest, min, max, px, py].concat(deps || []));
+  }, [wantHeight, wantLongest, min, max, px, py, widthColumnRef].concat(deps || []));
 
-  return { containerRef: containerRef, contentRef: contentRef, fontScale: fontScale };
+  return { containerRef: containerRef, contentRef: contentRef, fontScale: fontScale, overflows: overflows };
 }

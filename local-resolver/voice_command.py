@@ -21,7 +21,7 @@ MAX_BOOKS = int(os.getenv("VOICE_COMMAND_MAX_BOOKS", "200"))
 MAX_TAGS = int(os.getenv("VOICE_COMMAND_MAX_TAGS", "200"))
 VOICE_WHISPER_PROMPT = os.getenv(
     "VOICE_COMMAND_WHISPER_PROMPT",
-    "Voice commands show search open go to find filter book tag artist. "
+    "Voice commands show play search open go to find filter book tag artist. "
     "Open metronome tool, open tuner tool, open chords tool, open keyboard tool.",
 )
 REGEX_CONFIDENCE = float(os.getenv("VOICE_COMMAND_REGEX_CONFIDENCE", "0.92"))
@@ -34,7 +34,8 @@ VOICE_MODE_HELP = "help"
 OPEN_TOOL_SUFFIX_RE = re.compile(
     r"^(?:show|open|go to|play)\s+(?:the\s+)?(.+?)\s+tool$", re.I
 )
-SHOW_PREFIX_RE = re.compile(r"^(?:show|open|go to|play)\s+(?:the\s+)?(.+)$", re.I)
+SHOW_PREFIX_RE = re.compile(r"^(?:show|open|go to)\s+(?:the\s+)?(.+)$", re.I)
+PLAY_TUNE_RE = re.compile(r"^(?:play)\s+(?:the\s+)?(.+)$", re.I)
 SEARCH_PREFIX_RE = re.compile(r"^(?:search|find|filter)\s+(?:for\s+)?(.+)$", re.I)
 STOP_PLAYBACK_RE = re.compile(r"^(?:stop|pause|halt|cancel)\s+(?:playing|playback|music|the music)?$", re.I)
 PLAY_FILTER_RE = re.compile(
@@ -305,6 +306,16 @@ def _parse_voice_intent_regex(text, voice_mode=VOICE_MODE_PLAYBACK):
                 None,
             )
 
+    play_tune_match = PLAY_TUNE_RE.match(normalized)
+    if play_tune_match:
+        title = _normalize_space(play_tune_match.group(1))
+        if title and _is_meaningful_transcript(title):
+            return (
+                _intent_result(text, "PLAY", title=title, confidence=REGEX_CONFIDENCE),
+                REGEX_CONFIDENCE,
+                None,
+            )
+
     open_tool_match = OPEN_TOOL_SUFFIX_RE.match(normalized)
     if open_tool_match:
         spoken_tool = _normalize_space(open_tool_match.group(1))
@@ -428,7 +439,7 @@ def parse_llm_voice_json(content):
 
 def normalize_voice_intent_from_llm(data, transcript, force_tool=None):
     tool = force_tool or str(data.get("tool") or "NONE").strip().upper()
-    if tool not in {"SHOW", "SEARCH", "OPEN_TOOL", "PLAY_FILTER", "STOP_PLAYBACK", "ASK_HELP", "NONE"}:
+    if tool not in {"SHOW", "PLAY", "SEARCH", "OPEN_TOOL", "PLAY_FILTER", "STOP_PLAYBACK", "ASK_HELP", "NONE"}:
         tool = "NONE"
     tags = data.get("tags")
     if isinstance(tags, str) and tags.strip():
@@ -548,9 +559,10 @@ async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_t
     else:
         system_prompt = (
             "You classify tunebook voice commands. Respond with JSON only, no markdown.\n"
-            'Schema: {"tool":"SHOW"|"SEARCH"|"OPEN_TOOL"|"PLAY_FILTER"|"STOP_PLAYBACK"|"ASK_HELP"|"NONE","title":"","artist":"","book":"","genre":"","tags":[],"searchText":"","filterKind":"","filterValue":"","helpAnswer":"","helpLinks":[],"confidence":0.0-1.0}\n'
+            'Schema: {"tool":"SHOW"|"PLAY"|"SEARCH"|"OPEN_TOOL"|"PLAY_FILTER"|"STOP_PLAYBACK"|"ASK_HELP"|"NONE","title":"","artist":"","book":"","genre":"","tags":[],"searchText":"","filterKind":"","filterValue":"","helpAnswer":"","helpLinks":[],"confidence":0.0-1.0}\n'
             "Rules:\n"
-            "- SHOW: user wants to open/jump to a specific song. Bare song title without search/filter language is SHOW.\n"
+            "- SHOW: user wants to open/jump to a specific song without starting playback. Bare song title without search/filter language is SHOW.\n"
+            "- PLAY: user wants to open a specific song and start playing it (e.g. 'play smoke on the water'). Put the song title in title.\n"
             "- PLAY_FILTER: user wants to create a queue from a single filter. Use exactly one filterKind/value pair: title, artist, genre, tag, or book.\n"
             "- STOP_PLAYBACK: user wants to stop or pause playback.\n"
             "- OPEN_TOOL: user wants an app tool page. Only when the phrase ends with the word 'tool' "

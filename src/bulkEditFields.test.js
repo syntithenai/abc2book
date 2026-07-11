@@ -22,6 +22,13 @@ describe('bulkEditFields', function() {
     expect(coerceBulkFieldValue('difficulty', '-2')).toBe('0')
   })
 
+  test('normalizes key field values', function() {
+    expect(coerceBulkFieldValue('key', 'a mix')).toBe('Amixolydian')
+    expect(coerceBulkFieldValue('key', 'Am')).toBe('Am')
+    expect(coerceBulkFieldValue('key', 'custom-key')).toBe('custom-key')
+    expect(coerceBulkFieldValue('key', '')).toBe('')
+  })
+
   test('validates complete rows', function() {
     expect(isBulkChangeRowComplete({ field: 'key', value: 'D' })).toBe(true)
     expect(isBulkChangeRowComplete({ field: 'key', value: '' })).toBe(true)

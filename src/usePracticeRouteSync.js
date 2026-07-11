@@ -20,6 +20,9 @@ function buildAutoStartConfig(searchParams) {
     totalMinutes: saved.totalMinutes,
     includeWarmups: saved.includeWarmups,
     skillLevel: saved.skillLevel,
+    accuracyCheckingEnabled: saved.accuracyCheckingEnabled,
+    headphoneMode: saved.headphoneMode,
+    practiceReferenceGain: saved.practiceReferenceGain,
     bookFilter: '',
     tagFilter: [],
   }

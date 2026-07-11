@@ -7,14 +7,20 @@ from chords_fetch import (
     brave_chord_candidates_from_results,
     build_direct_candidates,
     build_brave_chord_query,
+    classify_chord_host,
     collect_section_labels,
     extract_azchords_sheet,
+    extract_chord_sheet_meta,
+    extract_chordie_sheet,
+    extract_chordsbase_sheet,
     extract_cifraclub_sheet,
     extract_echords_sheet,
+    extract_sheet_from_html,
     extract_worshiptogether_sheet,
     finalize_sheet_lines,
     has_usable_chord_lines,
     is_chord_sheet_line,
+    is_scrapable_chord_host,
     parse_duckduckgo_result_urls,
     parse_llm_json_mapping,
     score_title_artist_match,
@@ -64,11 +70,14 @@ class ChordsFetchTests(unittest.TestCase):
         """
 
         async def run():
+            response = unittest.mock.MagicMock()
+            response.text = html_text
+            response.status_code = 200
+            response.url = "https://html.duckduckgo.com/html/"
+            response.headers = {}
+            response.raise_for_status = unittest.mock.MagicMock()
             client = AsyncMock()
-            client.get = AsyncMock(return_value=unittest.mock.MagicMock(
-                text=html_text,
-                raise_for_status=unittest.mock.MagicMock(),
-            ))
+            client.get = AsyncMock(return_value=response)
             return await search_duckduckgo_site_candidates(
                 client,
                 "Who's That Girl",
@@ -217,6 +226,65 @@ Amazing Grace, how sweet the sound
         self.assertIn("site:e-chords.com", query)
         self.assertIn("site:cifraclub.com", query)
         self.assertIn("site:azchords.com", query)
+        self.assertIn("site:chordsbase.com", query)
+        self.assertIn("site:chordie.com", query)
+        self.assertIn("site:guitartabs.cc", query)
+        self.assertIn("site:tabs.ultimate-guitar.com", query)
+
+    def test_classify_chord_host_manual_vs_scrapable(self):
+        self.assertEqual(classify_chord_host("tabs.ultimate-guitar.com"), "manual_only")
+        self.assertEqual(classify_chord_host("www.ultimate-guitar.com"), "manual_only")
+        self.assertEqual(classify_chord_host("www.e-chords.com"), "scrapable")
+        self.assertEqual(classify_chord_host("chordie.com"), "scrapable")
+        self.assertTrue(is_scrapable_chord_host("chordsbase.com"))
+        self.assertFalse(is_scrapable_chord_host("tabs.ultimate-guitar.com"))
+
+    def test_extract_chordsbase_sheet_reads_first_pre(self):
+        html_text = """
+        <html><body>
+          <pre>
+Capo 2
+Key: G
+Tuning: EADGBE
+G C G
+Amazing Grace, how sweet the sound
+          </pre>
+        </body></html>
+        """
+        extracted = extract_chordsbase_sheet(html_text)
+        self.assertIn("Amazing Grace, how sweet the sound", extracted)
+        self.assertIn("Capo 2", extracted)
+        via_router = extract_sheet_from_html(
+            html_text,
+            "https://www.chordsbase.com/chords/amazing-grace",
+        )
+        self.assertEqual(extracted, via_router)
+
+    def test_extract_chordie_sheet_reads_first_pre(self):
+        html_text = "<pre>Am F\nHello darkness my old friend</pre>"
+        extracted = extract_chordie_sheet(html_text)
+        self.assertIn("Am F", extracted)
+        self.assertIn("Hello darkness my old friend", extracted)
+
+    def test_extract_chord_sheet_meta_captures_capo_key_tuning(self):
+        raw_lines = [
+            "Capo 2",
+            "Key: G",
+            "Tuning: E A D G B E",
+            "[Verse 1]",
+            "G C G",
+            "Amazing Grace, how sweet the sound",
+        ]
+        meta = extract_chord_sheet_meta(raw_lines)
+        self.assertEqual(meta["capo"], 2)
+        self.assertEqual(meta["key"], "G")
+        self.assertEqual(meta["tuning"], "E A D G B E")
+        lines = finalize_sheet_lines(raw_lines)
+        self.assertNotIn("Capo 2", lines)
+        self.assertNotIn("Key: G", lines)
+        self.assertNotIn("Tuning: E A D G B E", lines)
+        self.assertIn("[Verse 1]", lines)
+        self.assertIn("G C G", lines)
 
     def test_brave_chord_candidates_from_results_keeps_supported_hosts(self):
         data = {
@@ -228,6 +296,16 @@ Amazing Grace, how sweet the sound
                         "description": "Black Sabbath guitar chords",
                     },
                     {
+                        "title": "Iron Man Chords UG",
+                        "url": "https://tabs.ultimate-guitar.com/tab/black-sabbath/iron-man-chords-123",
+                        "description": "Ultimate Guitar chords",
+                    },
+                    {
+                        "title": "Iron Man on Chordie",
+                        "url": "https://www.chordie.com/chord.pere/www.chordie.com/iron-man",
+                        "description": "Chordie chords",
+                    },
+                    {
                         "title": "Iron Man lyrics",
                         "url": "https://example.com/iron-man",
                         "description": "Unsupported host",
@@ -236,12 +314,11 @@ Amazing Grace, how sweet the sound
             }
         }
         candidates = brave_chord_candidates_from_results(data, "Iron Man", "Black Sabbath")
-        self.assertEqual(len(candidates), 1)
-        self.assertEqual(candidates[0]["source"], "e-chords.com")
-        self.assertEqual(
-            candidates[0]["url"],
-            "https://www.e-chords.com/chords/black-sabbath/iron-man",
-        )
+        sources = {candidate["source"] for candidate in candidates}
+        self.assertIn("e-chords.com", sources)
+        self.assertIn("tabs.ultimate-guitar.com", sources)
+        self.assertIn("chordie.com", sources)
+        self.assertEqual(len(candidates), 3)
 
     def test_extract_echords_sheet_keeps_chord_span_text(self):
         html_text = (

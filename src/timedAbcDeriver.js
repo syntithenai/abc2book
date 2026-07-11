@@ -3,6 +3,7 @@ import { chordAtTime, normalizeTimedChords } from './timedChordsModel';
 import { noteTimelineFromMelody, normalizeTimedMelody } from './timedMelodyModel';
 import { formatDiscoveredChords } from './chordDiscoveryFormatter';
 import { buildVariableMeterBars, prefixMeterChange } from './timingGridUtils';
+import { getBarModel } from './barModel';
 
 export function deriveWordHeaders(timedLyrics) {
   return timedLyricsToPlainText(timedLyrics)
@@ -66,10 +67,13 @@ export function deriveWLines(timedLyrics, timedMelody) {
 export function deriveRhythmicScaffold(timedChords, timedLyrics, options) {
   const chords = normalizeTimedChords(timedChords);
   const opts = options || {};
-  const beatsPerBar = opts.beatsPerBar || (chords && chords.meter
-    ? parseInt(String(chords.meter).split('/')[0], 10) || 4
-    : 4);
-  const slotsPerBeat = opts.slotsPerBeat || 2;
+  const meter = (opts.meter)
+    || (chords && chords.meter)
+    || '4/4';
+  const noteLength = opts.noteLength || '1/8';
+  const model = getBarModel(meter, noteLength);
+  const beatsPerBar = opts.beatsPerBar || model.beatCount;
+  const slotsPerBeat = opts.slotsPerBeat || model.beatUnitSlots;
   const beatTimes = chords && chords.beatTimes.length > 0
     ? chords.beatTimes
     : (opts.beatTimes || []);
@@ -118,20 +122,14 @@ export function deriveChordSymbols(timedChords, options) {
 export function getDerivationGridOptions(tune, tunebook) {
   const meter = tune && tune.meter ? tune.meter : '4/4';
   const noteLength = tune && tune.noteLength ? tune.noteLength : '1/8';
-  const beatsPerBar = tunebook && tunebook.abcTools
-    ? tunebook.abcTools.getBeatsPerBar(meter) || 4
-    : 4;
-  const barSlots = tunebook && tunebook.abcTools
-    ? tunebook.abcTools.getNoteLengthsPerBar(noteLength, meter)
-    : 0;
-  const slotsPerBeat = barSlots && beatsPerBar
-    ? Math.max(1, Math.round(barSlots / beatsPerBar))
-    : 2;
+  const model = tunebook && tunebook.abcTools && typeof tunebook.abcTools.getBarModel === 'function'
+    ? tunebook.abcTools.getBarModel(meter, noteLength)
+    : getBarModel(meter, noteLength);
   return {
-    beatsPerBar,
-    slotsPerBeat,
-    noteLength,
-    meter,
+    beatsPerBar: model.beatCount,
+    slotsPerBeat: model.beatUnitSlots,
+    noteLength: model.noteLength,
+    meter: model.meter,
     meterChanges: tune && tune.timedChords && tune.timedChords.meterChanges
       ? tune.timedChords.meterChanges
       : [],

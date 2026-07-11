@@ -8,6 +8,7 @@ import { FormLabelWithHelp } from './FormFieldHelp'
 import LinksEditor from './LinksEditor'
 import TuneAliasesField from './TuneAliasesField'
 import ComposerSearchButton from './ComposerSearchButton'
+import KeySignatureInput from './KeySignatureInput'
 
 function cloneTune(tune) {
   return tune ? JSON.parse(JSON.stringify(tune)) : null
@@ -167,9 +168,9 @@ export default function BulkCheckTuneEditorModal(props) {
               <Col md={3}>
                 <Form.Group className="mb-3">
                   <Form.Label>Key</Form.Label>
-                  <Form.Control
+                  <KeySignatureInput
                     value={draft.key || ''}
-                    onChange={function(e) { updateDraft({ key: e.target.value }) }}
+                    onChange={function(next) { updateDraft({ key: next }) }}
                   />
                 </Form.Group>
               </Col>

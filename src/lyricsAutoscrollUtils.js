@@ -13,6 +13,7 @@ export const LYRICS_AUTOSCROLL_BOTTOM_HOLD_MS = 1000;
 export const LYRICS_AUTOSCROLL_BOTTOM_THRESHOLD_PX = 3;
 
 const LYRICS_SCROLL_ROOT_SELECTORS = [
+  '.tune-lyrics-structure-sync-host',
   '.music-view-lyrics',
   '.full-lyrics-panel',
   '.timed-lyrics-chords-view:not(.chord-blocks-only)',
@@ -24,6 +25,7 @@ const LYRICS_LINE_SELECTORS = [
   '.chordpro-line',
   '.lyrics-block',
   '.chord-line',
+  '.structure-section',
 ].join(', ');
 
 const NOTATION_SCROLL_SELECTORS = [
@@ -44,6 +46,9 @@ const CHORDS_SCROLL_ROOT_SELECTORS = [
 ].join(', ');
 
 const PREFERRED_LYRICS_SCROLL_CONTAINER_SELECTORS = [
+  '.tune-lyrics-structure-sync-host--scrollable',
+  '.tune-lyrics-structure-sync-host--fit-height',
+  '.lyrics-fit-height-host--scrollable',
   '.gig-mode-lyrics-col',
   '.music-and-lyrics-text',
 ];

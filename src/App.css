@@ -881,17 +881,6 @@ a.header-now-playing-label:focus {
 .header-list-nav {
   display: inline-flex;
   align-items: center;
-  gap: 0.25em;
-}
-
-.header-list-nav-context {
-  color: #fff;
-  font-size: 0.72em;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  padding: 0 0.15em;
-  opacity: 0.9;
 }
 
 .header-playback .btn-group {
@@ -1739,6 +1728,80 @@ html.app-embed-frame .App {
 
 .lyrics-page-embedded .card-body {
   padding: 0.75rem 0.25rem;
+}
+
+.lyrics-dictionary-entry {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+
+.lyrics-expandable-section {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.5rem;
+  background: var(--bs-body-bg, #fff);
+  overflow: hidden;
+}
+
+.lyrics-expandable-section-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border: 0;
+  background: var(--bs-tertiary-bg, #f8f9fa);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lyrics-expandable-section-toggle:hover {
+  background: var(--bs-secondary-bg, #e9ecef);
+}
+
+.lyrics-expandable-section-chevron {
+  display: inline-block;
+  min-width: 1.2em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.lyrics-expandable-section-body {
+  padding: 0.85rem 0.9rem 1rem;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.lyrics-dictionary-entry.has-image {
+  grid-template-columns: minmax(0, 1fr) minmax(7rem, 11rem);
+}
+
+.lyrics-dictionary-entry-image {
+  text-align: center;
+}
+
+.lyrics-dictionary-entry-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 11rem;
+  object-fit: contain;
+  border-radius: 0.35rem;
+  background: var(--bs-secondary-bg, #e9ecef);
+}
+
+@media (max-width: 575.98px) {
+  .lyrics-dictionary-entry.has-image {
+    grid-template-columns: 1fr;
+  }
+
+  .lyrics-dictionary-entry-image {
+    order: -1;
+    max-width: 14rem;
+    margin-inline: auto;
+  }
 }
 
 .add-page {
@@ -3154,11 +3217,16 @@ button img:after {
 
 /* Single-view (via lyrics-panel-inner) and gig mode (host is direct child) */
 .music-panels-fit-height.tune-layout-lyrics-only .lyrics-fit-height-host,
-.music-panels-fit-height.tune-layout-lyrics-structure .lyrics-fit-height-host {
+.music-panels-fit-height.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .lyrics-fit-height-host {
   flex: 1 1 auto;
   min-height: 0;
   height: auto;
   overflow: hidden;
+}
+
+.music-panels-fit-height .lyrics-fit-height-host--scrollable {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .music-panels-fit-height.tune-layout-structure-only .tune-panel-structure {
@@ -3190,8 +3258,72 @@ button img:after {
   overflow: visible;
 }
 
+/* Lyrics + structure (no notation): one scroll host, side-by-side columns */
+.tune-layout-lyrics-structure--sync {
+  grid-template-columns: 1fr;
+}
+
+.tune-layout-lyrics-structure--sync .tune-panel-lyrics-structure-sync {
+  grid-column: 1;
+  min-width: 0;
+}
+
+.tune-lyrics-structure-sync-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.tune-lyrics-structure-sync-lyrics {
+  flex: 2 1 0;
+  min-width: 0;
+}
+
+.tune-lyrics-structure-sync-structure {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.tune-lyrics-structure-sync-structure .structure-chord-block {
+  width: 100%;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-panel-lyrics-structure-sync,
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-panel-lyrics.tune-panel-lyrics-structure-sync {
+  height: calc(100dvh - 8rem);
+  max-height: calc(100dvh - 8rem);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .lyrics-panel-inner {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.music-panels-fit-height.tune-layout-lyrics-structure--sync .tune-lyrics-structure-sync-host--fit-height {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.music-panels-fit-height .tune-lyrics-structure-sync-host--scrollable {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Lyrics + structure (no notation): fit height scales lyrics; structure scrolls in side */
-.music-panels-fit-height.tune-layout-lyrics-structure .tune-panel-structure {
+.music-panels-fit-height.tune-layout-lyrics-structure:not(.tune-layout-lyrics-structure--sync) .tune-panel-structure {
   max-height: calc(100vh - 8rem);
   overflow-y: auto;
 }
@@ -6755,9 +6887,129 @@ button img:after {
   justify-content: flex-end;
 }
 
+.key-signature-input .key-signature-suggestion {
+  margin-bottom: 0.35rem;
+}
+
+.key-signature-input .key-signature-suggestion-token {
+  font-size: 0.82rem;
+  padding: 0.15rem 0.55rem;
+}
+
+.add-from-strip {
+  width: 100%;
+}
+
+.add-from-strip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.1rem;
+}
+
+.add-from-strip-row > .btn-group {
+  margin-left: 0;
+}
+
+.collection-match-panel {
+  border: 1px solid #ced4da;
+  border-radius: 0.45rem;
+  background: #f8f9fa;
+  padding: 0.75rem 0.85rem;
+}
+
+.collection-match-panel .collection-match-list {
+  gap: 0.45rem;
+}
+
+.collection-match-choice {
+  position: relative;
+  padding-right: 2.75rem !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 0.45rem !important;
+  margin-bottom: 0.45rem;
+  background: #fff;
+}
+
+.collection-match-choice.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.collection-match-choice--selected,
+.collection-match-choice.list-group-item.active {
+  background: #eef5ff !important;
+  border-color: #6ea8fe !important;
+  color: inherit !important;
+  box-shadow: inset 0 0 0 1px #6ea8fe;
+}
+
+.collection-match-choice--selected .text-muted,
+.collection-match-choice.list-group-item.active .text-muted {
+  color: #6c757d !important;
+}
+
+.collection-match-open-btn {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  z-index: 2;
+  padding: 0.15rem !important;
+  line-height: 1;
+  color: #495057 !important;
+  text-decoration: none !important;
+}
+
+.collection-match-open-btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  display: block;
+}
+
+.field-preview-editor-body {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.4rem;
+  padding: 0.7rem 0.8rem;
+  background: #fafbfc;
+  min-height: 3.5rem;
+}
+
+.field-preview-editor-body--mono .field-preview-editor-text {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 0.86rem;
+}
+
+.field-preview-editor-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.tune-record-form-advanced {
+  border: 1px solid #dee2e6;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
 .tune-record-form-advanced .accordion-button {
   font-size: 0.95rem;
   padding: 0.55rem 0.85rem;
+  background: #f8f9fa;
+}
+
+.tune-record-form-advanced .accordion-button:not(.collapsed) {
+  background: #eef2f7;
+  box-shadow: none;
+}
+
+.tune-record-form-abc-preview {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.35rem;
+  padding: 0.5rem;
+  background: #fff;
+  overflow-x: auto;
 }
 
 .tune-record-form-json-preview {

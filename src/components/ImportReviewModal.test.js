@@ -32,7 +32,7 @@ jest.mock('react-bootstrap', function() {
 
   function Modal(props) {
     if (!props.show) return null;
-    return <div data-testid="modal">{props.children}</div>;
+    return <div data-testid={props['data-testid'] || 'modal'}>{props.children}</div>;
   }
   Modal.Header = passthrough('div');
   Modal.Title = passthrough('div');
@@ -40,12 +40,28 @@ jest.mock('react-bootstrap', function() {
   Modal.Footer = passthrough('div');
 
   const ListGroup = passthrough('div');
-  ListGroup.Item = passthrough('div');
+  ListGroup.Item = function ListGroupItem(props) {
+    const {
+      action,
+      active,
+      ...rest
+    } = props;
+    return (
+      <div
+        {...rest}
+        data-active={active ? 'true' : undefined}
+        data-action={action ? 'true' : undefined}
+      >
+        {props.children}
+      </div>
+    );
+  };
 
   return {
     Alert: passthrough('div'),
     Badge: passthrough('span'),
     Button: Button,
+    ButtonGroup: passthrough('div'),
     Col: passthrough('div'),
     Form: Form,
     ListGroup: ListGroup,
@@ -85,8 +101,14 @@ jest.mock('./ComposerCandidateQuickPick', function() {
 });
 
 jest.mock('./TuneRecordForm', function() {
-  return function TuneRecordForm() {
-    return <div data-testid="tune-record-form">Tune record form</div>;
+  return function TuneRecordForm(props) {
+    return (
+      <div data-testid="tune-record-form">
+        {props.toolbar || null}
+        {props.statusBanner || null}
+        Tune record form
+      </div>
+    );
   };
 });
 
@@ -216,6 +238,11 @@ describe('ImportReviewModal', function() {
 
     const mergeChoicesRegion = view.container.querySelector('[aria-label="Merge choices"]');
     expect(mergeChoicesRegion).toBeTruthy();
+    expect(mergeChoicesRegion.textContent).toContain('Choose an existing tune to merge into, or create a new tune.');
+    expect(mergeChoicesRegion.textContent).toContain('Create new tune');
+    expect(view.container.textContent).not.toContain('Routing:');
+    expect(view.container.textContent).toContain('Google Photos');
+    expect(view.container.textContent).toContain('Drive');
 
     await view.unmount();
   });
@@ -300,6 +327,160 @@ describe('ImportReviewModal', function() {
     expect(onFinishCandidate.mock.calls[0][0].candidates[0].tune.id).toBe('existing-1');
     expect(onSessionChange).toHaveBeenCalledTimes(1);
     expect(onSessionChange.mock.calls[0][0].index).toBe(1);
+
+    await view.unmount();
+  });
+
+  test('Cancel shows a warning modal and only discards after confirm', async function() {
+    const view = renderModal();
+    const onSessionChange = jest.fn();
+    const props = buildProps({ onSessionChange: onSessionChange });
+
+    await view.render(props);
+
+    const cancelButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
+      return button.textContent === 'Cancel';
+    });
+    expect(cancelButton).toBeTruthy();
+
+    await act(async function() {
+      cancelButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onSessionChange).not.toHaveBeenCalled();
+    const warning = view.container.querySelector('[data-testid="import-review-cancel-warning"]');
+    expect(warning).toBeTruthy();
+    expect(warning.textContent).toContain('3');
+    expect(warning.textContent).toContain('import request');
+
+    const confirmButton = view.container.querySelector('[data-testid="import-review-cancel-confirm"]');
+    expect(confirmButton).toBeTruthy();
+
+    await act(async function() {
+      confirmButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onSessionChange).toHaveBeenCalledTimes(1);
+    expect(onSessionChange.mock.calls[0][0].candidates.length).toBe(2);
+
+    await view.unmount();
+  });
+
+  test('Cancel warning lists attached audio links that will be discarded', async function() {
+    const view = renderModal();
+    const session = createImportReviewSession([
+      {
+        id: 'audio-1',
+        sourceKind: 'audio',
+        tune: {
+          name: 'Uploaded Song',
+          composer: 'Artist',
+          links: [{
+            title: 'Uploaded Song',
+            link: 'recording:abc123',
+            recordingId: 'abc123',
+            source: 'file',
+          }],
+        },
+      },
+    ]);
+    const props = buildProps({ session: session });
+
+    await view.render(props);
+
+    const cancelButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
+      return button.textContent === 'Cancel';
+    });
+
+    await act(async function() {
+      cancelButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    const warning = view.container.querySelector('[data-testid="import-review-cancel-warning"]');
+    expect(warning).toBeTruthy();
+    expect(warning.textContent).toContain('Media and links that will be discarded');
+    expect(warning.textContent).toContain('Attached audio: Uploaded Song');
+
+    await view.unmount();
+  });
+
+  test('Cancel all shows a warning modal and only closes after confirm', async function() {
+    const view = renderModal();
+    const onClose = jest.fn();
+    const props = buildProps({ onClose: onClose });
+
+    await view.render(props);
+
+    const cancelAllButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
+      return button.textContent === 'Cancel all';
+    });
+    expect(cancelAllButton).toBeTruthy();
+
+    await act(async function() {
+      cancelAllButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onClose).not.toHaveBeenCalled();
+    const warning = view.container.querySelector('[data-testid="import-review-cancel-warning"]');
+    expect(warning).toBeTruthy();
+    expect(warning.textContent).toContain('Cancel all imports?');
+    expect(warning.textContent).toContain('3');
+
+    const confirmButton = view.container.querySelector('[data-testid="import-review-cancel-confirm"]');
+    await act(async function() {
+      confirmButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onClose).toHaveBeenCalledTimes(1);
+
+    await view.unmount();
+  });
+
+  test('Import all shows a summary modal and only saves after confirm', async function() {
+    const view = renderModal();
+    const onImportAll = jest.fn(function(session, done) { done(); });
+    const onSessionChange = jest.fn();
+    const onComplete = jest.fn();
+    const props = buildProps({
+      onImportAll: onImportAll,
+      onSessionChange: onSessionChange,
+      onComplete: onComplete,
+    });
+
+    await view.render(props);
+
+    const importAllButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
+      return button.textContent === 'Import all';
+    });
+    expect(importAllButton).toBeTruthy();
+
+    await act(async function() {
+      importAllButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onImportAll).not.toHaveBeenCalled();
+    const warning = view.container.querySelector('[data-testid="import-review-import-all-warning"]');
+    expect(warning).toBeTruthy();
+    expect(warning.textContent).toContain('Import all?');
+    expect(warning.textContent).toContain('3');
+    expect(warning.textContent).toContain('Alpha');
+
+    const confirmButton = view.container.querySelector('[data-testid="import-review-import-all-confirm"]');
+    await act(async function() {
+      confirmButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onImportAll).toHaveBeenCalledTimes(1);
+    expect(onSessionChange).toHaveBeenCalledTimes(1);
+    expect(onSessionChange.mock.calls[0][0].step).toBe('done');
+    expect(onComplete).toHaveBeenCalledTimes(1);
 
     await view.unmount();
   });

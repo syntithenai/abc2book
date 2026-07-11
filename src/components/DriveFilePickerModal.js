@@ -138,6 +138,17 @@ export default function DriveFilePickerModal(props) {
 
   function handleOpen() {
     setError('');
+    if (!props.token || !props.token.access_token) {
+      if (typeof props.login === 'function') {
+        props.login();
+        return;
+      }
+      setError('Log in with Google first.');
+      return;
+    }
+    if (typeof props.onBeforeOpen === 'function' && props.onBeforeOpen() === false) {
+      return;
+    }
     if (usePicker) {
       setShowConsent(true);
       return;
@@ -156,8 +167,6 @@ export default function DriveFilePickerModal(props) {
     setError('');
     setShowConsent(true);
   }
-
-  if (!props.token) return null;
 
   return (
     <>

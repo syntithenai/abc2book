@@ -1,7 +1,8 @@
 import { getMusicGenreSelectOptions } from './musicGenreOptions'
+import { normalizeKeySignature } from './keySignatureNormalize'
 
 export const BULK_EDIT_FIELDS = [
-  { key: 'key', label: 'Key', type: 'text', allowEmpty: true },
+  { key: 'key', label: 'Key', type: 'key', allowEmpty: true },
   { key: 'tuning', label: 'Tuning', type: 'text', allowEmpty: true },
   { key: 'meter', label: 'Time Signature', type: 'meter', allowEmpty: true },
   { key: 'tempo', label: 'Tempo', type: 'number', min: 1, allowEmpty: true },
@@ -87,6 +88,10 @@ export function coerceBulkFieldValue(fieldKey, rawValue) {
 
   if (field.key === 'suitableForPractice') {
     return rawValue === false || rawValue === 'false' ? false : true
+  }
+
+  if (field.type === 'key') {
+    return normalizeKeySignature(String(rawValue).trim())
   }
 
   return String(rawValue).trim()

@@ -18,6 +18,19 @@ class VoiceCommandTests(unittest.TestCase):
         self.assertEqual(intent["title"], "down by the sally gardens")
         self.assertGreaterEqual(confidence, 0.9)
 
+    def test_play_title_regex(self):
+        intent, confidence = parse_voice_intent_regex("play smoke on the water")
+        self.assertEqual(intent["tool"], "PLAY")
+        self.assertEqual(intent["title"], "smoke on the water")
+        self.assertGreaterEqual(confidence, 0.9)
+
+    def test_play_filter_still_preferred_over_play_title(self):
+        intent, confidence = parse_voice_intent_regex("play title wild rover")
+        self.assertEqual(intent["tool"], "PLAY_FILTER")
+        self.assertEqual(intent["filterKind"], "title")
+        self.assertEqual(intent["filterValue"], "wild rover")
+        self.assertGreaterEqual(confidence, 0.9)
+
     def test_open_tool_suffix_regex(self):
         intent, confidence = parse_voice_intent_regex("open metronome tool")
         self.assertEqual(intent["tool"], "OPEN_TOOL")

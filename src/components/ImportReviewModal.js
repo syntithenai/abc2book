@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, Badge, Button, ListGroup, Modal, Row } from 'react-bootstrap';
+import { Alert, Badge, Button, ButtonGroup, ListGroup, Modal, Row } from 'react-bootstrap';
+import { addFromFileAcceptList } from '../importSourceParse';
 import {
   cancelCurrentCandidate,
   currentCandidate,
   isReviewComplete,
   markCandidateImported,
+  markAllCandidatesImported,
   mergeCandidate,
   navigateReviewCandidate,
   sessionProgressLabel,
@@ -52,6 +54,248 @@ function ReviewSummary(props) {
   );
 }
 
+const MERGE_FIELD_LABELS = {
+  title: 'Title',
+  artist: 'Artist',
+  bookList: 'Books',
+  tagList: 'Tags',
+  genre: 'Genre',
+  rhythm: 'Rhythm',
+  meter: 'Meter',
+  keyName: 'Key',
+  tempo: 'Tempo',
+  noteLength: 'Note length',
+  backgroundInfo: 'Background info',
+  lyrics: 'Lyrics',
+  notes: 'ABC Notes',
+  aliases: 'Aliases',
+  capo: 'Capo',
+  transpose: 'Transpose',
+  tuning: 'Tuning',
+  links: 'Links',
+  timedChords: 'Timed chords',
+  timedLyrics: 'Timed lyrics',
+  playbackAudioFilters: 'Playback audio filters',
+  soundFonts: 'Sound fonts',
+  meta: 'Meta',
+};
+
+function mergeFieldLabelsFromSuggestions(suggestions) {
+  return Object.keys(suggestions || {}).map(function(key) {
+    return MERGE_FIELD_LABELS[key] || key;
+  });
+}
+
+function describeLinkForCancelWarning(link) {
+  if (!link) return 'Media link';
+  const title = String(link.title || '').trim();
+  const href = String(link.link || '').trim();
+  const isAttachedAudio = !!(link.recordingId || link.source === 'file' || link.source === 'mic'
+    || (href && href.indexOf('recording:') === 0));
+  if (isAttachedAudio) {
+    const kind = link.source === 'mic' ? 'Recording' : 'Attached audio';
+    return title ? (kind + ': ' + title) : kind;
+  }
+  if (/youtu(\.be|be\.com)/i.test(href)) {
+    return title ? ('YouTube: ' + title) : 'YouTube link';
+  }
+  if (title) return title;
+  if (href) return href;
+  return 'Media link';
+}
+
+function linksLostOnCancel(formLinks, baseTune) {
+  const links = Array.isArray(formLinks) ? formLinks.filter(Boolean) : [];
+  if (!links.length) return [];
+  if (!baseTune) return links;
+  const baseKeys = {};
+  (Array.isArray(baseTune.links) ? baseTune.links : []).forEach(function(link) {
+    const key = link && (link.recordingId || link.link || link.title);
+    if (key) baseKeys[String(key)] = true;
+  });
+  return links.filter(function(link) {
+    const key = link && (link.recordingId || link.link || link.title);
+    if (!key) return true;
+    return !baseKeys[String(key)];
+  });
+}
+
+function ImportReviewCancelWarningModal(props) {
+  const mode = props.mode;
+  if (!mode) return null;
+
+  const importCount = props.importCount || 0;
+  const mergeFields = Array.isArray(props.mergeFields) ? props.mergeFields : [];
+  const mediaLinks = Array.isArray(props.mediaLinks) ? props.mediaLinks : [];
+  const tuneTitle = String(props.tuneTitle || '').trim() || 'Untitled';
+  const isCancelAll = mode === 'all';
+
+  return (
+    <Modal
+      show={true}
+      onHide={props.onHide}
+      centered
+      backdrop="static"
+      data-testid="import-review-cancel-warning"
+    >
+      <Modal.Header closeButton>
+        <Modal.Title>{isCancelAll ? 'Cancel all imports?' : 'Cancel this import?'}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        {isCancelAll ? (
+          <p>
+            This will discard <strong>{importCount}</strong> import request{importCount === 1 ? '' : 's'}
+            {' '}and close import review. Unsaved edits on the current item will be lost.
+          </p>
+        ) : (
+          <p>
+            This will discard the current import request
+            {' '}(<strong>{tuneTitle}</strong>)
+            {' '}and remove it from the queue of <strong>{importCount}</strong> import request{importCount === 1 ? '' : 's'}.
+            Unsaved edits on this item will be lost.
+          </p>
+        )}
+        {mediaLinks.length > 0 ? (
+          <div className="mb-3">
+            <p className="mb-1">
+              Media and links that will be discarded
+              {isCancelAll ? ' on the current item' : ''}:
+            </p>
+            <ul className="mb-0">
+              {mediaLinks.map(function(label, index) {
+                return <li key={label + '-' + index}>{label}</li>;
+              })}
+            </ul>
+          </div>
+        ) : null}
+        {mergeFields.length > 0 ? (
+          <div>
+            <p className="mb-1">
+              Unapplied merge field{mergeFields.length === 1 ? '' : 's'} that will be lost
+              {isCancelAll ? ' on the current item' : ''}:
+            </p>
+            <ul className="mb-0">
+              {mergeFields.map(function(label) {
+                return <li key={label}>{label}</li>;
+              })}
+            </ul>
+          </div>
+        ) : (
+          <p className={'text-muted mb-0' + (mediaLinks.length ? ' mt-2' : '')}>
+            There are no unapplied merge field suggestions on the current item.
+          </p>
+        )}
+        {!isCancelAll && importCount > 1 ? (
+          <p className="text-muted small mt-3 mb-0">
+            {importCount - 1} other import request{importCount - 1 === 1 ? '' : 's'} will remain in the queue.
+          </p>
+        ) : null}
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={props.onHide}>Keep reviewing</Button>
+        <Button
+          variant="danger"
+          data-testid="import-review-cancel-confirm"
+          onClick={props.onConfirm}
+        >
+          {isCancelAll ? 'Cancel all imports' : 'Cancel this import'}
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function buildImportAllSummary(session, tunes) {
+  const candidates = session && Array.isArray(session.candidates) ? session.candidates : [];
+  const remaining = candidates.filter(function(candidate) {
+    if (!candidate || candidate.imported) return false;
+    if (session.importedCandidateIds && session.importedCandidateIds[candidate.id]) return false;
+    return true;
+  });
+  let createCount = 0;
+  let mergeCount = 0;
+  const items = remaining.map(function(candidate) {
+    const title = String((candidate.tune && candidate.tune.name) || '').trim() || 'Untitled';
+    const isMerge = !!(candidate.mergeTargetId && tunes && tunes[candidate.mergeTargetId]);
+    if (isMerge) mergeCount += 1;
+    else createCount += 1;
+    const mergeName = isMerge
+      ? (tunes[candidate.mergeTargetId].name || 'existing tune')
+      : null;
+    const media = (candidate.tune && Array.isArray(candidate.tune.links) ? candidate.tune.links : [])
+      .map(describeLinkForCancelWarning);
+    return {
+      id: candidate.id,
+      title: title,
+      action: isMerge ? 'merge' : 'create',
+      mergeName: mergeName,
+      media: media,
+    };
+  });
+  return {
+    total: remaining.length,
+    createCount: createCount,
+    mergeCount: mergeCount,
+    items: items,
+  };
+}
+
+function ImportReviewImportAllWarningModal(props) {
+  if (!props.show) return null;
+  const summary = props.summary || { total: 0, createCount: 0, mergeCount: 0, items: [] };
+
+  return (
+    <Modal
+      show={true}
+      onHide={props.onHide}
+      centered
+      backdrop="static"
+      data-testid="import-review-import-all-warning"
+    >
+      <Modal.Header closeButton>
+        <Modal.Title>Import all?</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>
+          This will import <strong>{summary.total}</strong> request{summary.total === 1 ? '' : 's'}
+          {summary.createCount ? (': ' + summary.createCount + ' new') : ''}
+          {summary.createCount && summary.mergeCount ? ',' : (summary.mergeCount ? ':' : '')}
+          {summary.mergeCount ? (' ' + summary.mergeCount + ' merge' + (summary.mergeCount === 1 ? '' : 's')) : ''}
+          .
+        </p>
+        {summary.items.length > 0 ? (
+          <ul className="mb-0">
+            {summary.items.map(function(item) {
+              return (
+                <li key={item.id} className="mb-2">
+                  <strong>{item.title}</strong>
+                  {' — '}
+                  {item.action === 'merge'
+                    ? ('merge into ' + (item.mergeName || 'existing tune'))
+                    : 'create new tune'}
+                  {item.media && item.media.length ? (
+                    <div className="text-muted small">{item.media.join(' · ')}</div>
+                  ) : null}
+                </li>
+              );
+            })}
+          </ul>
+        ) : null}
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={props.onHide}>Keep reviewing</Button>
+        <Button
+          variant="danger"
+          data-testid="import-review-import-all-confirm"
+          onClick={props.onConfirm}
+        >
+          Import all
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 export default function ImportReviewModal(props) {
   const session = props.session;
   const show = !!(props.show && session && session.step !== 'done');
@@ -70,6 +314,8 @@ export default function ImportReviewModal(props) {
   const [recordingDuration, setRecordingDuration] = useState(0);
   const [showSheetCamera, setShowSheetCamera] = useState(false);
   const [showSheetGooglePhotos, setShowSheetGooglePhotos] = useState(false);
+  const [cancelWarningMode, setCancelWarningMode] = useState(null);
+  const [showImportAllWarning, setShowImportAllWarning] = useState(false);
   const [mergeTargetId, setMergeTargetId] = useState(null);
   const [formValues, setFormValues] = useState(function() { return { title: '' }; });
   const [suggestions, setSuggestions] = useState({});
@@ -272,6 +518,17 @@ export default function ImportReviewModal(props) {
     }
   }
 
+  function finishAllQueuedCandidates() {
+    if (typeof props.onImportAll !== 'function') return;
+    const base = buildPersistedSession();
+    setShowImportAllWarning(false);
+    props.onImportAll(base, function() {
+      const nextSession = markAllCandidatesImported(base);
+      if (typeof props.onSessionChange === 'function') props.onSessionChange(nextSession);
+      if (typeof props.onComplete === 'function') props.onComplete(nextSession);
+    });
+  }
+
   function jumpQueue(direction) {
     if (typeof props.onSessionChange !== 'function') return;
     const base = buildPersistedSession();
@@ -287,6 +544,16 @@ export default function ImportReviewModal(props) {
     }
   }
 
+  function confirmCancelWarning() {
+    const mode = cancelWarningMode;
+    setCancelWarningMode(null);
+    if (mode === 'all') {
+      if (typeof props.onClose === 'function') props.onClose();
+      return;
+    }
+    if (mode === 'current') cancelCurrent();
+  }
+
   function handleEnhanceClick() {
     if (!activeCandidate || activeCandidate.skipEnrich) return;
     if (typeof props.onEnhanceAndAdvance !== 'function') return;
@@ -295,14 +562,28 @@ export default function ImportReviewModal(props) {
 
   const youtubeSearchQuery = [formValues.title, formValues.artist].filter(Boolean).join(' ');
 
+  function requireGoogleLogin(action) {
+    if (props.token && props.token.access_token) {
+      if (typeof action === 'function') action();
+      return;
+    }
+    if (typeof props.login === 'function') props.login();
+  }
+
+  const externalLinkIcon = (props.tunebook && props.tunebook.icons && props.tunebook.icons.externallink)
+    || <span aria-hidden="true">↗</span>;
+
   const addFromToolbar = (
-    <div className="border rounded p-2">
-      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
-          <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
-            Add From
-          </Button>
-          <Button size="sm" variant="outline-primary" onClick={function() { if (fileInputRef.current) fileInputRef.current.click(); }}>
+    <div className="add-from-strip">
+      <div className="add-from-strip-row">
+        <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
+          Add From
+        </Button>
+        <ButtonGroup size="sm">
+          <Button
+            variant="outline-primary"
+            onClick={function() { if (fileInputRef.current) fileInputRef.current.click(); }}
+          >
             File
           </Button>
           <PasteImportModal
@@ -324,49 +605,66 @@ export default function ImportReviewModal(props) {
               if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
             }}
           />
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
+        </ButtonGroup>
+        <ButtonGroup size="sm">
           {audioUtils.isRecording ? (
             <>
-              <Button size="sm" variant="danger" onClick={stopReviewRecording}>Stop</Button>
-              <Button size="sm" variant="outline-danger" disabled aria-label="Recording duration">{recordingDuration + 1}s</Button>
+              <Button variant="danger" onClick={stopReviewRecording}>Stop</Button>
+              <Button variant="outline-danger" disabled aria-label="Recording duration">{recordingDuration + 1}s</Button>
             </>
           ) : (
-            <Button size="sm" variant="outline-primary" onClick={startReviewRecording}>Record</Button>
+            <Button variant="outline-primary" onClick={startReviewRecording}>Record</Button>
           )}
-          {resolverChecked && resolverAvailable ? (
-            <Button size="sm" variant="outline-primary" onClick={function() { setShowSheetCamera(true); }}>Camera</Button>
-          ) : null}
-          {props.token ? (
-            <>
-              {resolverChecked && resolverAvailable ? (
-                <Button size="sm" variant="outline-primary" onClick={function() { setShowSheetGooglePhotos(true); }}>Google Photos</Button>
-              ) : null}
-              <DriveFilePickerModal
-                label="Drive"
-                title="Import from Google Drive"
-                token={props.token}
-                driveApi={driveApi}
-                requestGoogleScopes={props.requestGoogleScopes}
-                onImportSource={function(source) {
-                  if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
-                }}
-              />
-            </>
-          ) : null}
+          <Button
+            variant="outline-primary"
+            onClick={function() {
+              if (!resolverAvailable) return;
+              setShowSheetCamera(true);
+            }}
+            disabled={!resolverChecked || !resolverAvailable}
+            title={!resolverAvailable ? 'Camera needs the media resolver' : 'Capture sheet image'}
+          >
+            Camera
+          </Button>
+        </ButtonGroup>
+        <ButtonGroup size="sm">
+          <Button
+            variant="outline-primary"
+            onClick={function() {
+              requireGoogleLogin(function() {
+                if (resolverChecked && resolverAvailable) setShowSheetGooglePhotos(true);
+              });
+            }}
+            title="Import from Google Photos"
+          >
+            Google Photos
+          </Button>
+          <DriveFilePickerModal
+            label="Drive"
+            title="Import from Google Drive"
+            token={props.token}
+            driveApi={driveApi}
+            login={props.login}
+            requestGoogleScopes={props.requestGoogleScopes}
+            onImportSource={function(source) {
+              if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
+            }}
+          />
           <YouTubeSearchModal
             tunebook={props.tunebook}
             value={youtubeSearchQuery}
             onChange={function(link) {
               if (typeof props.onImportYouTube === 'function') props.onImportYouTube(link, buildDraftCandidate());
             }}
-            triggerElement={<Button variant="outline-primary" size="sm">YouTube</Button>}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            triggerElement={<>YouTube</>}
           />
-        </div>
+        </ButtonGroup>
       </div>
       <input
         ref={fileInputRef}
         type="file"
+        accept={addFromFileAcceptList(resolverAvailable)}
         style={{ display: 'none' }}
         onChange={function(event) {
           const file = event.target.files && event.target.files[0];
@@ -391,60 +689,68 @@ export default function ImportReviewModal(props) {
   );
 
   function renderMergeChoicesPanel() {
+    const isContentDuplicate = !!(activeCandidate && activeCandidate.contentHashDuplicate);
+    const createSelected = !mergeTargetId;
     return (
-      <div role="region" aria-label="Merge choices" tabIndex={-1}>
+      <div role="region" aria-label="Merge choices" tabIndex={-1} className="collection-match-panel">
         <h6>Collection match</h6>
         <p className="text-muted small">Choose an existing tune to merge into, or create a new tune.</p>
-        <div style={{ marginBottom: '0.75em' }}>
-          <Button
-            variant={mergeTargetId ? 'outline-primary' : 'success'}
+        <ListGroup className="mb-3 collection-match-list" variant="flush">
+          <ListGroup.Item
+            action
+            active={createSelected}
+            className={'collection-match-choice' + (createSelected ? ' collection-match-choice--selected' : '')}
+            tabIndex={0}
+            aria-pressed={createSelected}
             onClick={function() { setMergeTargetId(null); }}
           >
-            Create new tune
-          </Button>
-        </div>
+            <strong>Create new tune</strong>
+            <div className="text-muted small mt-1">Save this import as a new collection entry.</div>
+          </ListGroup.Item>
+          {matches.map(function(entry) {
+            const tune = entry.tune;
+            const selected = mergeTargetId === tune.id;
+            return (
+              <ListGroup.Item
+                key={tune.id}
+                action
+                active={selected}
+                className={'collection-match-choice' + (selected ? ' collection-match-choice--selected' : '')}
+                tabIndex={0}
+                aria-pressed={selected}
+                onClick={function() { setMergeTargetId(tune.id); }}
+              >
+                <Button
+                  size="sm"
+                  variant="link"
+                  className="collection-match-open-btn"
+                  aria-label={'Open tune ' + (tune.name || 'Untitled')}
+                  title="Open tune"
+                  onClick={function(event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    if (typeof props.onOpenTune === 'function') props.onOpenTune(tune);
+                  }}
+                >
+                  {externalLinkIcon}
+                </Button>
+                <strong>{tune.name || 'Untitled'}</strong>
+                {tune.composer ? <div className="text-muted small">{tune.composer}</div> : null}
+                {entry.confidence ? <Badge bg="info" className="mt-1">{entry.confidence}</Badge> : null}
+              </ListGroup.Item>
+            );
+          })}
+        </ListGroup>
         {matches.length === 0 ? (
-          <Alert variant="secondary">No close matches found in your collection.</Alert>
-        ) : (
-          <ListGroup className="mb-3">
-            {matches.map(function(entry) {
-              const tune = entry.tune;
-              const selected = mergeTargetId === tune.id;
-              return (
-                <ListGroup.Item key={tune.id} active={selected} tabIndex={0} aria-pressed={selected}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap' }}>
-                    <div>
-                      <strong>{tune.name}</strong>
-                      {tune.composer && <span className="text-muted"> — {tune.composer}</span>}
-                      {entry.confidence && <Badge bg="info" style={{ marginLeft: '0.4em' }}>{entry.confidence}</Badge>}
-                    </div>
-                    <div style={{ display: 'flex', gap: '0.4em' }}>
-                      <Button
-                        size="sm"
-                        variant="outline-secondary"
-                        aria-label={'Open tune ' + tune.name}
-                        onClick={function() {
-                          if (typeof props.onOpenTune === 'function') props.onOpenTune(tune);
-                        }}
-                      >
-                        Open
-                      </Button>
-                      <Button
-                        size="sm"
-                        variant={selected ? 'primary' : 'outline-primary'}
-                        aria-pressed={selected}
-                        aria-label={selected ? ('Selected merge target ' + tune.name) : ('Merge into ' + tune.name)}
-                        onClick={function() { setMergeTargetId(selected ? null : tune.id); }}
-                      >
-                        Merge
-                      </Button>
-                    </div>
-                  </div>
-                </ListGroup.Item>
-              );
-            })}
-          </ListGroup>
-        )}
+          <Alert variant="secondary" className="mb-2">
+            No close title/artist matches found in your collection.
+          </Alert>
+        ) : null}
+        {isContentDuplicate ? (
+          <Alert variant="warning" className="mb-0">
+            Content hash matches an existing tune. Prefer merging into that tune if it appears above, or create a new tune only if this is intentional.
+          </Alert>
+        ) : null}
       </div>
     );
   }
@@ -468,6 +774,7 @@ export default function ImportReviewModal(props) {
           token={props.token}
           forceRefresh={props.forceRefresh}
           resolverAvailable={props.resolverAvailable}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
           showComposerSearch={true}
           composerCandidates={activeJob && activeJob.composerCandidates}
           toolbar={addFromToolbar}
@@ -476,9 +783,6 @@ export default function ImportReviewModal(props) {
       </div>
       <div style={{ flex: '0 0 280px', maxWidth: '280px', overflowY: 'auto' }}>
         {renderMergeChoicesPanel()}
-        {activeCandidate && activeCandidate.contentHashDuplicate && (
-          <Alert variant="warning" className="mt-2">This item matches existing content in your collection.</Alert>
-        )}
         {activeCandidate && activeCandidate.sourceKind && (
           <div className="text-muted small mt-2">Source: {activeCandidate.sourceKind}</div>
         )}
@@ -491,6 +795,30 @@ export default function ImportReviewModal(props) {
 
   const canMoveQueue = (session && Array.isArray(session.candidates) && session.candidates.length > 1);
   const showEnhance = !session.skipEnrichment && activeCandidate && !activeCandidate.skipEnrich;
+  const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
+  const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions);
+  const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
+  const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
+  const importAllSummary = buildImportAllSummary(buildPersistedSession(), tunes);
+  const cancelWarningModal = (
+    <ImportReviewCancelWarningModal
+      mode={cancelWarningMode}
+      importCount={importRequestCount}
+      mergeFields={pendingMergeFields}
+      mediaLinks={pendingMediaLinks}
+      tuneTitle={formValues.title || (activeCandidate && activeCandidate.tune && activeCandidate.tune.name)}
+      onHide={function() { setCancelWarningMode(null); }}
+      onConfirm={confirmCancelWarning}
+    />
+  );
+  const importAllWarningModal = (
+    <ImportReviewImportAllWarningModal
+      show={showImportAllWarning}
+      summary={importAllSummary}
+      onHide={function() { setShowImportAllWarning(false); }}
+      onConfirm={finishAllQueuedCandidates}
+    />
+  );
   const headerActions = (
     <div className="d-flex align-items-center gap-2 flex-wrap justify-content-end" style={{ marginLeft: 'auto' }}>
       {canMoveQueue ? (
@@ -499,19 +827,24 @@ export default function ImportReviewModal(props) {
           <Button variant="outline-secondary" size="sm" onClick={function() { jumpQueue(1); }}>Next</Button>
         </>
       ) : null}
-      {props.reviewPageMode ? (
+      {typeof props.onContinueLater === 'function' ? (
         <Button variant="outline-secondary" onClick={function() {
-          if (typeof props.onContinueLater === 'function') props.onContinueLater();
+          props.onContinueLater();
         }}>
           Continue later
         </Button>
       ) : null}
-      <Button variant="outline-danger" onClick={props.onClose}>Cancel all</Button>
-      <Button variant="secondary" onClick={cancelCurrent}>Cancel</Button>
+      <Button variant="outline-danger" onClick={function() { setCancelWarningMode('all'); }}>Cancel all</Button>
+      <Button variant="secondary" onClick={function() { setCancelWarningMode('current'); }}>Cancel</Button>
       {showEnhance ? (
         <Button variant="outline-primary" onClick={handleEnhanceClick}>Enhance</Button>
       ) : null}
       <Button variant="success" onClick={finishCurrentCandidate}>Import</Button>
+      {typeof props.onImportAll === 'function' && importAllSummary.total > 0 ? (
+        <Button variant="danger" onClick={function() { setShowImportAllWarning(true); }}>
+          Import all
+        </Button>
+      ) : null}
       {isReviewComplete(session) ? (
         <Button variant="success" onClick={function() {
           if (typeof props.onComplete === 'function') props.onComplete(session);
@@ -535,6 +868,8 @@ export default function ImportReviewModal(props) {
           {headerActions}
         </div>
         {panelBody}
+        {cancelWarningModal}
+        {importAllWarningModal}
       </div>
     );
   }
@@ -543,8 +878,7 @@ export default function ImportReviewModal(props) {
     <Modal
       show={show}
       onHide={function() {
-        if (typeof props.onHide === 'function') props.onHide();
-        else if (typeof props.onClose === 'function') props.onClose();
+        setCancelWarningMode('all');
       }}
       fullscreen
       backdrop="static"
@@ -559,6 +893,8 @@ export default function ImportReviewModal(props) {
         {headerActions}
       </Modal.Header>
       <Modal.Body>{panelBody}</Modal.Body>
+      {cancelWarningModal}
+      {importAllWarningModal}
       <SheetImageCameraModal
         show={showSheetCamera}
         onHide={function() { setShowSheetCamera(false); }}

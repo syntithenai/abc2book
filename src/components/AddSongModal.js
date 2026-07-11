@@ -18,7 +18,9 @@ import useAudioUtils from '../useAudioUtils'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import { ADD_TUNE_FIELD_HELP, EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import {
+  clearImportReviewSession,
   hasActiveImportReviewSession,
+  hideImportReviewUi,
   isImportReviewUiVisible,
   requestImportReview,
   showImportReviewUi,
@@ -908,6 +910,9 @@ function AddSongModal(props) {
   ])
 
   function clearForm() {
+    draftIdRef.current = props.tunebook.utils && props.tunebook.utils.generateObjectId
+      ? props.tunebook.utils.generateObjectId()
+      : 'draft-' + Date.now()
     setSongTitle('')
     setSelectedBook(props.currentTuneBook || DEFAULT_BOOK)
     setSongTags(Array.isArray(props.tagFilter) ? props.tagFilter : [])
@@ -936,6 +941,7 @@ function AddSongModal(props) {
     setSongBackgroundInfo('')
     setStagedTune(null)
     setPendingAudioFile(null)
+    setPendingBulkAudioFiles([])
     setShowAudioDriveUploadModal(false)
     clearRecordingInterval()
     setRecordingDuration(0)
@@ -958,6 +964,9 @@ function AddSongModal(props) {
     dismissModal()
   }
   const handleShow = () => {
+    clearForm()
+    clearImportReviewSession()
+    hideImportReviewUi()
     setActiveTab('add')
     navigate('/add')
   }
@@ -1025,18 +1034,16 @@ function AddSongModal(props) {
   function renderAddFromStrip(options) {
     const opts = options || {}
     return (
-      <div style={opts.containerStyle || { position: 'sticky', top: 0, zIndex: 3, background: '#fff', borderBottom: '1px solid #e5e7eb', marginBottom: '0.8em', paddingBottom: '0.6em' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', minWidth: 0 }}>
-            <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
-              Add From
-            </Button>
-            <ButtonGroup size="sm">
+      <div className="add-from-strip" style={opts.containerStyle || { position: 'sticky', top: 0, zIndex: 3, background: '#fff', borderBottom: '1px solid #e5e7eb', marginBottom: '0.8em', paddingBottom: '0.6em' }}>
+        <div className="add-from-strip-row">
+          <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
+            Add From
+          </Button>
+          <ButtonGroup size="sm">
             <Button
               variant="outline-primary"
               disabled={importSourceDisabled}
               onClick={function() { addFileInputRef.current && addFileInputRef.current.click() }}
-              title={"Auto: ABC/chordsheet/bulk-text will merge inline; audio/other files route to review queue."}
             >
               {audioImportBusy ? 'Processing file...' : 'File'}
             </Button>
@@ -1044,7 +1051,6 @@ function AddSongModal(props) {
               disabled={importSourceDisabled}
               onImportText={handlePasteImportText}
               onImportFiles={handlePasteImportFiles}
-              title={"Paste ABC/notation/text. Single ABC/chordsheet/bulk-text will merge inline; others open review."}
             />
             <ImportUrlModal
               label="URL"
@@ -1057,9 +1063,7 @@ function AddSongModal(props) {
               resolverAvailable={resolverAvailable}
               onImportSource={handleUrlImportSource}
             />
-            </ButtonGroup>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em', minWidth: 0 }}>
+          </ButtonGroup>
           <ButtonGroup size="sm">
             {audioUtils.isRecording ? (
               <>
@@ -1075,46 +1079,48 @@ function AddSongModal(props) {
                 Record
               </Button>
             )}
-            {resolverChecked && resolverAvailable && (
-              <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetCamera(true); }}>
-                Camera
-              </Button>
-            )}
+            <Button
+              variant="outline-primary"
+              disabled={importSourceDisabled || !resolverChecked || !resolverAvailable}
+              onClick={function() { setShowSheetCamera(true); }}
+            >
+              Camera
+            </Button>
           </ButtonGroup>
-          {props.token && (
-            <ButtonGroup size="sm">
-              {resolverChecked && resolverAvailable && (
-                <Button variant="outline-primary" disabled={importSourceDisabled} onClick={function() { setShowSheetGooglePhotos(true); }}>
-                  Google Photos
-                </Button>
-              )}
-              <DriveFilePickerModal
-                label="Drive"
-                title="Import from Google Drive"
-                token={props.token}
-                driveApi={driveApi}
-                disabled={importSourceDisabled}
-                requestGoogleScopes={props.requestGoogleScopes}
-                onImportSource={handleDriveImportSource}
-              />
-              <YouTubeSearchModal
-                tunebook={props.tunebook}
-                onChange={handleYouTubeSourceSelected}
-                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                triggerElement={<>YouTube</>}
-                value={songTitle + (songComposer ? ' ' + songComposer : '')}
-                disabled={importSourceDisabled}
-                title={"YouTube sources go to review/enhancement queue."}
-              />
-            </ButtonGroup>
-          )}
-          </div>
+          <ButtonGroup size="sm">
+            <Button
+              variant="outline-primary"
+              disabled={importSourceDisabled}
+              onClick={function() {
+                if (!(props.token && props.token.access_token)) {
+                  if (typeof props.login === 'function') props.login()
+                  return
+                }
+                if (resolverChecked && resolverAvailable) setShowSheetGooglePhotos(true)
+              }}
+            >
+              Google Photos
+            </Button>
+            <DriveFilePickerModal
+              label="Drive"
+              title="Import from Google Drive"
+              token={props.token}
+              driveApi={driveApi}
+              login={props.login}
+              disabled={importSourceDisabled}
+              requestGoogleScopes={props.requestGoogleScopes}
+              onImportSource={handleDriveImportSource}
+            />
+            <YouTubeSearchModal
+              tunebook={props.tunebook}
+              onChange={handleYouTubeSourceSelected}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              triggerElement={<>YouTube</>}
+              value={songTitle + (songComposer ? ' ' + songComposer : '')}
+              disabled={importSourceDisabled}
+            />
+          </ButtonGroup>
         </div>
-        {opts.showRoutingNote !== false && (
-          <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.45em' }}>
-            <strong>Routing:</strong> Inline merge: ABC / chordsheet / bulk-text when pasted/loaded as a single candidate. Queue handoff: audio, YouTube, sheet images, musicxml/midi and other long-running sources.
-          </div>
-        )}
         {audioImportBusy && opts.showProgress !== false && (
           <ProgressBar
             animated
@@ -1161,6 +1167,7 @@ function AddSongModal(props) {
                 })
                 applyAddFormValues(applyImportSuggestion(addFormValues, formKey, suggestion))
               }}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               mergeMode={Object.keys(addFormSuggestions).length || addImportedNotation.trim() ? 'import' : 'create'}
               importedNotationText={addImportedNotation}
               previewTune={draftTune}
@@ -1350,22 +1357,21 @@ function AddSongModal(props) {
               />
             )}
           </div>
-          {props.token && (
-            <DriveFilePickerModal
-              label="Drive"
-              title="Load list from Google Drive"
-              token={props.token}
-              driveApi={driveApi}
-              requestGoogleScopes={props.requestGoogleScopes}
-              mimeTypes={[
-                'text/plain',
-                'text/csv',
-                'application/vnd.google-apps.document',
-                'application/vnd.google-apps.spreadsheet',
-              ]}
-              onFileText={function(text) { appendBulkLines(driveListTextToBulkLines(text)) }}
-            />
-          )}
+          <DriveFilePickerModal
+            label="Drive"
+            title="Load list from Google Drive"
+            token={props.token}
+            driveApi={driveApi}
+            login={props.login}
+            requestGoogleScopes={props.requestGoogleScopes}
+            mimeTypes={[
+              'text/plain',
+              'text/csv',
+              'application/vnd.google-apps.document',
+              'application/vnd.google-apps.spreadsheet',
+            ]}
+            onFileText={function(text) { appendBulkLines(driveListTextToBulkLines(text)) }}
+          />
           <BulkYouTubePlaylistModal onLines={appendBulkLines} disabled={audioImportBusy} />
           <Button variant="outline-primary" disabled={bulkBusy || audioImportBusy || !bulkText.trim()} onClick={handleBulkSearch}>
             {bulkBusy ? 'Searching…' : 'Search'}
@@ -1390,7 +1396,6 @@ function AddSongModal(props) {
         <span style={{ display: 'inline-flex', flexDirection: 'column', gap: '0.35em', minWidth: 0 }}>
           <span>{importReviewActive ? 'Import review' : 'Add tunes'}</span>
           {!importReviewActive && activeTab === 'add' ? renderAddFromStrip({
-            showRoutingNote: false,
             showProgress: false,
             containerStyle: { display: 'flex', flexWrap: 'wrap', gap: '0.5em', alignItems: 'center', maxWidth: '100%' },
           }) : null}

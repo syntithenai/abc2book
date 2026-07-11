@@ -70,6 +70,32 @@ describe('nowPlayingQueuePlayback', function() {
     })).toBe(true)
   })
 
+  test('shouldNowPlayingHostOwnPlayback does not mount for idle queue', function() {
+    const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: null,
+      queue: queue,
+      mediaController: {},
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes',
+      tunes: tunes,
+    })).toBe(false)
+  })
+
+  test('shouldNowPlayingHostOwnPlayback mounts for engaged queue playback', function() {
+    const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
+    expect(shouldNowPlayingHostOwnPlayback({
+      viewedTuneId: null,
+      queue: queue,
+      mediaController: { isPlaying: true },
+      practiceSessionActive: false,
+      gigModeActive: false,
+      pathname: '/tunes',
+      tunes: tunes,
+    })).toBe(true)
+  })
+
   test('shouldMusicSingleMountMediaEngine defers to NowPlayingHost during normal playback', function() {
     const tunes = { playing: { id: 'playing', links: [{ link: 'https://youtu.be/x' }] } }
     const mediaController = { playbackRouteMode: 'media', tune: tunes.playing }

@@ -8,6 +8,7 @@ import {
   buildPlaybackPath,
   shouldSuppressFollowNavigate,
 } from './nowPlayingQueue'
+import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import {
   isNavigatorOffline,
   advanceQueueToOfflinePlayable,
@@ -259,7 +260,11 @@ export function shouldNowPlayingHostOwnPlayback(opts) {
   if (tunes && !tunes[playingTuneId]) return false
 
   const urlPlayback = parseTunePagePlaybackFromUrl(pathname)
-  return isQueueActive(queue) || isMediaControllerPlaybackActive(mediaController) || !!urlPlayback
+  if (urlPlayback) return true
+  if (isQueueActive(queue)) {
+    return isQueuePlaybackEngaged(mediaController)
+  }
+  return isMediaControllerPlaybackActive(mediaController)
 }
 
 /**

@@ -125,11 +125,20 @@ export default function TimedLyricsChordsView(props) {
 
   function wrapFit(node) {
     if (!fitHeight || chordsOnly) return node;
+    const hostClass = 'lyrics-fit-height-host'
+      + (fit.overflows ? ' lyrics-fit-height-host--scrollable' : '');
     return (
       <div
-        className="lyrics-fit-height-host"
+        className={hostClass}
         ref={fit.containerRef}
-        style={{ flex: '1 1 auto', minHeight: 0, height: '100%', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}
+        style={{
+          flex: '1 1 auto',
+          minHeight: 0,
+          height: '100%',
+          overflow: fit.overflows ? 'auto' : 'hidden',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
       >
         <div
           ref={fit.contentRef}

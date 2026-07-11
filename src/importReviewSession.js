@@ -212,6 +212,30 @@ export function markCandidateImported(session) {
   });
 }
 
+export function markAllCandidatesImported(session) {
+  if (!session) {
+    return { candidates: [], index: 0, step: 'done', phase: 'identify', mergeIndex: null, enrichmentJobs: [], importedCandidateIds: {}, sessionSummary: emptySessionSummary() };
+  }
+  const summary = Object.assign({}, session.sessionSummary || emptySessionSummary());
+  const importedCandidateIds = Object.assign({}, session.importedCandidateIds || {});
+  const candidates = (session.candidates || []).map(function(item) {
+    if (!item || item.imported || importedCandidateIds[item.id]) return item;
+    summary.reviewed += 1;
+    if (item.mergeTargetId) summary.merged += 1;
+    else summary.created += 1;
+    importedCandidateIds[item.id] = true;
+    return Object.assign({}, item, { imported: true });
+  });
+  return Object.assign({}, session, {
+    candidates: candidates,
+    importedCandidateIds: importedCandidateIds,
+    step: 'done',
+    mergeIndex: null,
+    phase: 'identify',
+    sessionSummary: summary,
+  });
+}
+
 export function skipYoutubeAllRemaining(session) {
   return Object.assign({}, session, { skipYoutubeForRemaining: true });
 }

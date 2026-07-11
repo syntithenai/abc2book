@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { buildPracticeSessionPlan } from './practiceSessionPlanner'
 import { configurePracticeTunePlayback } from './tunePlaybackActions'
-import { savePracticeSettings } from './practiceSessionSettings'
+import { mergePracticeSettings } from './practiceSessionSettings'
 import { recordPracticedTune } from './practiceRecentHistory'
 import { getPlaybackSettings } from './pitchTempoUtils'
 import { pickPracticeTuneViewMode } from './practiceTuneViewUtils'
@@ -382,11 +382,14 @@ export default function usePracticeSession(options) {
         suspendNowPlayingQueue()
       }
 
-      savePracticeSettings({
+      mergePracticeSettings({
         instrument: config.instrument,
         totalMinutes: config.totalMinutes,
         includeWarmups: config.includeWarmups,
         skillLevel: config.skillLevel,
+        accuracyCheckingEnabled: config.accuracyCheckingEnabled,
+        headphoneMode: config.headphoneMode,
+        practiceReferenceGain: config.practiceReferenceGain,
       })
 
       setPlan(built)

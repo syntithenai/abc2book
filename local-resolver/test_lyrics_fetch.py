@@ -2,16 +2,25 @@ import unittest
 from unittest.mock import AsyncMock, patch
 
 from lyrics_fetch import (
+    build_letras_url,
     extract_azlyrics,
     extract_genius,
+    extract_letras,
+    extract_lyrics_from_html,
+    extract_lyricsmode,
+    extract_metrolyrics,
+    extract_musixmatch,
+    extract_songlyrics,
     finalize_lyrics_lines,
     genius_song_candidates,
     parse_plain_lyrics_text,
     score_title_artist_match,
     search_lyrics,
     search_lyrics_with_candidates,
+    slugify_hyphen_path,
     slugify_lyrics_path,
     strip_genius_chrome,
+    strip_lrc_tags,
 )
 from recording_artists import is_generic_artist
 
@@ -20,6 +29,152 @@ class LyricsFetchTests(unittest.TestCase):
     def test_slugify_lyrics_path(self):
         self.assertEqual(slugify_lyrics_path("The Beatles"), "thebeatles")
         self.assertEqual(slugify_lyrics_path("Yesterday!"), "yesterday")
+
+    def test_slugify_hyphen_path_and_letras_url(self):
+        self.assertEqual(slugify_hyphen_path("The Beatles"), "the-beatles")
+        self.assertEqual(
+            build_letras_url("The Beatles", "Yesterday"),
+            "https://www.letras.mus.br/the-beatles/yesterday/",
+        )
+
+    def test_strip_lrc_tags(self):
+        text = "[00:12.34] Line one\n[01:02.00] Line two"
+        cleaned = strip_lrc_tags(text)
+        self.assertIn("Line one", cleaned)
+        self.assertIn("Line two", cleaned)
+        self.assertNotIn("[00:12.34]", cleaned)
+        self.assertNotIn("[01:02.00]", cleaned)
+
+    def test_fetch_lrclib_uses_plain_lyrics(self):
+        async def run():
+            from lyrics_fetch import fetch_lrclib
+
+            class FakeResponse:
+                status_code = 200
+
+                def raise_for_status(self):
+                    return None
+
+                def json(self):
+                    return [
+                        {
+                            "trackName": "Yesterday",
+                            "artistName": "The Beatles",
+                            "plainLyrics": "Yesterday\nAll my troubles seemed so far away",
+                            "instrumental": False,
+                        }
+                    ]
+
+            client = AsyncMock()
+            client.get = AsyncMock(return_value=FakeResponse())
+            result = await fetch_lrclib(client, "The Beatles", "Yesterday")
+            self.assertEqual(result["source"], "lrclib.net")
+            self.assertIn("Yesterday", result["text"])
+            headers = client.get.await_args.kwargs.get("headers") or {}
+            self.assertIn("ABC2BookResolver/1.0", headers.get("User-Agent", ""))
+
+        import asyncio
+        asyncio.run(run())
+
+    def test_search_lyrics_returns_manual_candidates_when_empty(self):
+        async def run():
+            with patch(
+                "lyrics_fetch._search_lyrics_for_artist",
+                new=AsyncMock(
+                    return_value=(
+                        None,
+                        [
+                            {
+                                "url": "https://example.com/song",
+                                "title": "Yesterday",
+                                "artist": "The Beatles",
+                                "source": "example.com",
+                                "host": "example.com",
+                                "reason": "challenge",
+                                "contentType": "lyrics",
+                            }
+                        ],
+                    )
+                ),
+            ):
+                result = await search_lyrics("Yesterday", "The Beatles")
+            self.assertTrue(result["empty"])
+            self.assertFalse(result["found"])
+            self.assertEqual(len(result["manualCandidates"]), 1)
+
+        import asyncio
+        asyncio.run(run())
+
+    def test_extract_songlyrics(self):
+        html_text = (
+            '<p id="songLyricsDiv" class="songLyricsV14">'
+            "Yesterday all my troubles<br>"
+            "Seemed so far away<br>"
+            "</p>"
+        )
+        extracted = extract_songlyrics(html_text)
+        self.assertIn("Yesterday all my troubles", extracted)
+        self.assertIn("Seemed so far away", extracted)
+
+    def test_extract_metrolyrics(self):
+        html_text = (
+            '<div id="lyrics-body-text" class="js-lyric-text">'
+            "<p>Line one</p><p>Line two</p>"
+            "</div>"
+        )
+        extracted = extract_metrolyrics(html_text)
+        self.assertIn("Line one", extracted)
+        self.assertIn("Line two", extracted)
+
+    def test_extract_musixmatch(self):
+        html_text = (
+            '<span class="lyrics__content__ok">'
+            "First verse line<br>"
+            "Second verse line<br>"
+            "</span>"
+        )
+        extracted = extract_musixmatch(html_text)
+        self.assertIn("First verse line", extracted)
+        self.assertIn("Second verse line", extracted)
+
+    def test_extract_letras(self):
+        html_text = (
+            '<div class="lyric-original">'
+            "<p>Ontem todas as minhas<br>preocupações</p>"
+            "</div>"
+        )
+        extracted = extract_letras(html_text)
+        self.assertIn("Ontem todas as minhas", extracted)
+        self.assertIn("preocupações", extracted)
+
+    def test_extract_lyricsmode(self):
+        html_text = (
+            '<p id="lyrics_text" class="ui-annotatable">'
+            "Hello darkness my old friend<br>"
+            "I've come to talk with you again<br>"
+            "</p>"
+        )
+        extracted = extract_lyricsmode(html_text)
+        self.assertIn("Hello darkness", extracted)
+        self.assertIn("talk with you again", extracted)
+
+    def test_extract_lyrics_from_html_dispatches_new_hosts(self):
+        letras_html = '<div class="cnt-letra"><p>Letras body<br></p></div>'
+        self.assertIn(
+            "Letras body",
+            extract_lyrics_from_html(letras_html, "https://www.letras.mus.br/a/b/"),
+        )
+        # Prefer songlyrics-specific markup over a bare lyrics.com-only path.
+        songlyrics_html = '<p id="songLyricsDiv">Songlyrics body<br></p>'
+        self.assertIn(
+            "Songlyrics body",
+            extract_lyrics_from_html(songlyrics_html, "https://www.songlyrics.com/a/b/"),
+        )
+        metro_html = '<div id="lyrics-body-text"><p>Metro body</p></div>'
+        self.assertIn(
+            "Metro body",
+            extract_lyrics_from_html(metro_html, "https://www.metrolyrics.com/a.html"),
+        )
 
     def test_score_title_artist_match_prefers_exact(self):
         score = score_title_artist_match("Yesterday", "The Beatles", "Yesterday", "The Beatles")
@@ -132,24 +287,30 @@ class LyricsFetchTests(unittest.TestCase):
             with patch("lyrics_fetch.discover_recording_artists", new=AsyncMock(return_value=["Joan Baez"])), patch(
                 "lyrics_fetch._search_lyrics_for_artist",
                 new=AsyncMock(side_effect=[
-                    {
-                        "text": "Get you a copper kettle",
-                        "lines": ["Get you a copper kettle"],
-                        "stanzas": [["Get you a copper kettle"]],
-                        "source": "genius.com",
-                        "sourceUrl": "https://genius.com/joan-baez",
-                        "title": "Copper Kettle",
-                        "artist": "Joan Baez",
-                    },
-                    {
-                        "text": "Title search version",
-                        "lines": ["Title search version"],
-                        "stanzas": [["Title search version"]],
-                        "source": "lyrics.com",
-                        "sourceUrl": "https://lyrics.com/title",
-                        "title": "Copper Kettle",
-                        "artist": "",
-                    },
+                    (
+                        {
+                            "text": "Get you a copper kettle",
+                            "lines": ["Get you a copper kettle"],
+                            "stanzas": [["Get you a copper kettle"]],
+                            "source": "genius.com",
+                            "sourceUrl": "https://genius.com/joan-baez",
+                            "title": "Copper Kettle",
+                            "artist": "Joan Baez",
+                        },
+                        [],
+                    ),
+                    (
+                        {
+                            "text": "Title search version",
+                            "lines": ["Title search version"],
+                            "stanzas": [["Title search version"]],
+                            "source": "lyrics.com",
+                            "sourceUrl": "https://lyrics.com/title",
+                            "title": "Copper Kettle",
+                            "artist": "",
+                        },
+                        [],
+                    ),
                 ]),
             ):
                 result = await search_lyrics_with_candidates("Copper Kettle")
@@ -173,20 +334,23 @@ class LyricsFetchTests(unittest.TestCase):
                     "progress": value,
                 })
 
-            with patch("lyrics_fetch._search_lyrics_for_artist", new=AsyncMock(return_value={
-                "text": "Yesterday\nAll my troubles seemed so far away",
-                "lines": ["Yesterday", "All my troubles seemed so far away"],
-                "stanzas": [["Yesterday", "All my troubles seemed so far away"]],
-                "source": "lyrics.ovh",
-                "sourceUrl": "https://api.lyrics.ovh/v1/The%20Beatles/Yesterday",
-                "title": "Yesterday",
-                "artist": "The Beatles",
-            })):
+            with patch("lyrics_fetch._search_lyrics_for_artist", new=AsyncMock(return_value=(
+                {
+                    "text": "Yesterday\nAll my troubles seemed so far away",
+                    "lines": ["Yesterday", "All my troubles seemed so far away"],
+                    "stanzas": [["Yesterday", "All my troubles seemed so far away"]],
+                    "source": "lyrics.ovh",
+                    "sourceUrl": "https://api.lyrics.ovh/v1/The%20Beatles/Yesterday",
+                    "title": "Yesterday",
+                    "artist": "The Beatles",
+                },
+                [],
+            ))):
                 result = await search_lyrics("Yesterday", "The Beatles", on_progress=on_progress)
 
             self.assertEqual(result["source"], "lyrics.ovh")
             self.assertIn("Yesterday", result["text"])
-            self.assertTrue(any(item["stage"] == "search" for item in progress))
+            self.assertTrue(any(item["stage"] == "apis" for item in progress))
             self.assertEqual(progress[-1]["stage"], "done")
             self.assertEqual(progress[-1]["progress"], 1.0)
 

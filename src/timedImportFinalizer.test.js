@@ -6,6 +6,7 @@ import { buildTimedChordsFromDetection } from './timedChordsModel';
 import { buildTimedMelodyFromDetection } from './timedMelodyModel';
 import {
   clearTransientTimedFields,
+  finalizeChordSheetToTune,
   finalizeMediaTimedImport,
   noteLinesHaveRealMelody,
 } from './timedImportFinalizer';
@@ -38,6 +39,36 @@ describe('timedImportFinalizer', function() {
     expect(tune.timedMelody).toBeUndefined();
     expect(tune.words).toBeUndefined();
     expect(tune.wLines).toEqual(['keep me']);
+  });
+
+  test('finalizeChordSheetToTune can preserve timed media', function() {
+    const abcjsParser = useAbcjsParser();
+    const tunebook = mockTunebook();
+    const abc = [
+      'X:1',
+      'T:Preserve',
+      'M:4/4',
+      'L:1/8',
+      'K:C',
+      'C D E F | G A B c |',
+    ].join('\n');
+    const tune = tunebook.abcTools.abc2json(abc);
+    tune.id = 'preserve-timed';
+    tune.timedLyrics = { lines: [{ text: 'hello' }] };
+    tune.timedChords = { segments: [{ label: 'C' }] };
+
+    finalizeChordSheetToTune({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: abcjsParser,
+      abc: abc,
+      chordGridText: 'C|G|',
+      lyricLines: ['hello world'],
+      preserveTimedMedia: true,
+    });
+
+    expect(tune.timedLyrics).toEqual({ lines: [{ text: 'hello' }] });
+    expect(tune.timedChords).toEqual({ segments: [{ label: 'C' }] });
   });
 
   test('finalizeMediaTimedImport clears timed fields and keeps wLines', function() {

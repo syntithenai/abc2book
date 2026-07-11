@@ -5,19 +5,9 @@ import {
   getCurrentTuneId,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
+import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 
-/**
- * True when the media controller is audibly playing, starting up, or paused
- * mid-tune — i.e. the now-playing queue's playback is genuinely in use, as
- * opposed to a queue merely restored from storage with nothing happening.
- */
-export function isQueuePlaybackEngaged(mediaController) {
-    if (!mediaController) return false
-    if (mediaController.isPlaying || mediaController.isLoading) return true
-    if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) return true
-    if (mediaController.canResumePlayback && mediaController.canResumePlayback()) return true
-    return false
-}
+export { isQueuePlaybackEngaged }
 
 function resolveTuneForPlayback(mediaController, location, queueContext) {
     const ctx = queueContext || {}

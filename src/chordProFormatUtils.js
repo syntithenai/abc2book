@@ -1,13 +1,88 @@
 import ChordSheetJS from 'chordsheetjs';
-import { classifyLyricChordLines, hasChordLines, isSectionHeader } from './chordSheetUtils';
+import { classifyLyricChordLines, hasChordLines, isChordLine, isSectionHeader } from './chordSheetUtils';
 import { buildChordSheetAlignmentFromLines, sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils';
 import { setLyricLines, getLyricLines } from './wLinesUtils';
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils';
-import { finalizeChordSheetToTune } from './timedImportFinalizer';
+import { applyChordSheetToTune } from './applyChordSheetToTune';
+import { getBarModel, fullBarRestAbc } from './barModel';
 
 const { ChordProParser, ChordsOverWordsParser, ChordProFormatter } = ChordSheetJS;
 
 const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong', '.txt'];
+const PREAMBLE_SCAN_LIMIT = 15;
+
+const PREAMBLE_FIELD_PATTERNS = [
+  { field: 'title', re: /^(?:title|song)\s*:\s*(.+)$/i },
+  { field: 'composer', re: /^(?:artist|by|author)\s*:\s*(.+)$/i },
+  { field: 'key', re: /^(?:key|tonality)\s*:\s*(.+)$/i },
+  { field: 'capo', re: /^capo(?:\s*:)?\s*(\d+)/i },
+  { field: 'tempo', re: /^(?:tempo|bpm|q)\s*:\s*(.+)$/i },
+  { field: 'meter', re: /^(?:time|meter)\s*:\s*(.+)$/i },
+  { field: 'tuning', re: /^tuning\s*:\s*(.+)$/i },
+];
+
+/**
+ * Sniff labeled metadata from a short leading window of a chords-over-words sheet.
+ * Stops at the first clear section/chord/lyric body line. Only label-like forms
+ * are captured; ambiguous lines stay in the body.
+ */
+export function extractChordSheetPreambleMeta(lines) {
+  const source = Array.isArray(lines) ? lines : [];
+  const meta = {
+    title: '',
+    composer: '',
+    key: '',
+    capo: '',
+    tempo: '',
+    meter: '',
+    tuning: '',
+  };
+  const consumedLineIndexes = [];
+  let nonEmptySeen = 0;
+
+  for (let index = 0; index < source.length; index += 1) {
+    const raw = source[index] == null ? '' : String(source[index]);
+    const trimmed = raw.trim();
+    if (!trimmed) continue;
+
+    nonEmptySeen += 1;
+    if (nonEmptySeen > PREAMBLE_SCAN_LIMIT) break;
+
+    let matchedField = null;
+    let matchedValue = '';
+    for (let p = 0; p < PREAMBLE_FIELD_PATTERNS.length; p += 1) {
+      const pattern = PREAMBLE_FIELD_PATTERNS[p];
+      const match = trimmed.match(pattern.re);
+      if (match) {
+        matchedField = pattern.field;
+        matchedValue = String(match[1] || '').trim();
+        break;
+      }
+    }
+
+    if (matchedField) {
+      if (!meta[matchedField]) meta[matchedField] = matchedValue;
+      consumedLineIndexes.push(index);
+      continue;
+    }
+
+    // First non-meta body line ends the preamble window.
+    if (isSectionHeader(trimmed) || isChordLine(trimmed) || trimmed.length > 0) {
+      break;
+    }
+  }
+
+  const consumedSet = {};
+  consumedLineIndexes.forEach(function(i) { consumedSet[i] = true; });
+  const strippedLines = source.filter(function(_line, index) {
+    return !consumedSet[index];
+  });
+
+  return Object.assign({}, meta, {
+    consumedLineIndexes: consumedLineIndexes,
+    strippedLines: strippedLines,
+  });
+}
 
 export function isChordSheetFilename(name) {
   const lower = String(name || '').toLowerCase();
@@ -65,7 +140,7 @@ function stripMetadataLines(lines) {
   return lines.filter(function(line) {
     const trimmed = String(line || '').trim();
     if (!trimmed) return true;
-    if (/^(title|artist|subtitle|key|capo|tempo|time)\s*:/i.test(trimmed)) return false;
+    if (/^(title|artist|subtitle|composer|key|capo|tempo|time)\s*:/i.test(trimmed)) return false;
     return true;
   });
 }
@@ -91,6 +166,7 @@ function buildChordSheetDraftFromLines(sheetLines, sourceText, options, metadata
     capo: meta.capo != null && meta.capo !== '' ? parseInt(meta.capo, 10) || 0 : 0,
     tempo: meta.tempo ? parseInt(meta.tempo, 10) || 100 : 100,
     meter: meta.time || meta.meter || '4/4',
+    tuning: meta.tuning || '',
     lyricLines: lyricLines,
     chordText: chordText,
     chordProSource: sourceText,
@@ -102,8 +178,18 @@ function buildChordSheetDraftFromLines(sheetLines, sourceText, options, metadata
 }
 
 function parseChordOverWordsSheetText(sourceText, options) {
-  const sheetLines = sourceText.split(/\r?\n/);
-  return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {});
+  const allLines = sourceText.split(/\r?\n/);
+  const preamble = extractChordSheetPreambleMeta(allLines);
+  const sheetLines = preamble.strippedLines;
+  return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {
+    title: preamble.title,
+    composer: preamble.composer,
+    key: preamble.key,
+    capo: preamble.capo,
+    tempo: preamble.tempo,
+    meter: preamble.meter,
+    tuning: preamble.tuning,
+  });
 }
 
 export function parseChordSheetText(text, options) {
@@ -121,7 +207,7 @@ export function parseChordSheetText(text, options) {
   const sheetLines = stripMetadataLines(songToSheetLines(song));
   return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {
     title: song.title || '',
-    composer: song.artist || song.subtitle || '',
+    composer: song.composer || song.artist || song.subtitle || '',
     key: song.key || '',
     capo: song.capo,
     tempo: song.tempo,
@@ -130,15 +216,18 @@ export function parseChordSheetText(text, options) {
 }
 
 function buildSkeletonAbc(draft) {
+  const meter = draft.meter || '4/4';
+  const model = getBarModel(meter, draft.noteLength || null);
   const lines = [
     'X:1',
     'T:' + (draft.title || 'Untitled'),
   ];
   if (draft.composer) lines.push('C:' + draft.composer);
-  lines.push('M:' + (draft.meter || '4/4'));
+  lines.push('M:' + model.meter);
+  lines.push('L:' + model.noteLength);
   if (draft.tempo) lines.push('Q:1/4=' + draft.tempo);
   lines.push('K:' + (draft.key || 'C'));
-  lines.push('|: z4 |]');
+  lines.push(fullBarRestAbc(model.unitSlotsPerBar));
   return lines.join('\n');
 }
 
@@ -154,27 +243,29 @@ export function createTuneFromChordSheet(options) {
 
   const skeletonAbc = buildSkeletonAbc(draft);
   const tune = tunebook.abcTools.abc2json(skeletonAbc);
-  tune.name = draft.title || tune.name || 'Untitled';
-  tune.composer = draft.composer || '';
-  tune.key = draft.key || tune.key;
-  tune.capo = draft.capo || 0;
-  tune.tempo = draft.tempo || tune.tempo;
-  tune.meter = draft.meter || tune.meter;
   tune.timingScaffold = true;
   const bookName = book ? String(book).trim() : '';
   tune.books = bookName ? [bookName] : [];
-  tune.meta = Object.assign({}, tune.meta || {}, {
-    chordProSource: draft.chordProSource || '',
-    chordSheetAlignment: draft.chordSheetAlignment || null,
-  });
 
-  finalizeChordSheetToTune({
-    tune: tune,
-    tunebook: tunebook,
-    abcjsParser: abcjsParser,
-    abc: skeletonAbc,
+  applyChordSheetToTune(tune, {
     chordGridText: draft.chordText || '',
     lyricLines: draft.lyricLines || [],
+    chordSheetAlignment: draft.chordSheetAlignment || null,
+    meta: {
+      name: draft.title || 'Untitled',
+      title: draft.title || 'Untitled',
+      composer: draft.composer || '',
+      key: draft.key || '',
+      capo: draft.capo || 0,
+      tempo: draft.tempo || '',
+      meter: draft.meter || '',
+      chordProSource: draft.chordProSource || '',
+    },
+    mergeMode: 'create',
+    abcjsParser: abcjsParser,
+    tunebook: tunebook,
+    abc: skeletonAbc,
+    forceFinalize: true,
   });
 
   if (!getLyricLines(tune).length && Array.isArray(draft.lyricLines) && draft.lyricLines.length) {

@@ -8,8 +8,11 @@ from notation_fetch import (
     extract_abc_from_text,
     extract_thesession_tune_meta,
     extract_urls_from_search_item,
+    is_allowed_abc_host,
     is_direct_abc_file_url,
     normalize_song_type,
+    parse_abc_header_fields,
+    tune_meta_from_abc_headers,
     validate_abc_page_url,
 )
 
@@ -32,6 +35,23 @@ class NotationFetchTests(unittest.TestCase):
         self.assertTrue(any("Queen" in query for query in queries))
         self.assertTrue(any("Bicycle Race" in query for query in queries))
         self.assertTrue(any("filetype:abc" in query for query in queries))
+
+    def test_build_web_abc_queries_includes_new_site_hosts(self):
+        queries = build_web_abc_queries("Drowsy Maggie", "traditional_tune")
+        self.assertTrue(any("site:folkwiki.ibiblio.org" in query for query in queries))
+        self.assertTrue(any("site:abc.sourceforge.net" in query for query in queries))
+        self.assertTrue(any("site:john-chambers.us" in query for query in queries))
+        self.assertTrue(any("site:irishtune.info" in query for query in queries))
+        self.assertTrue(any("site:sessionite.com" in query for query in queries))
+        self.assertTrue(any("site:themusicofireland.com" in query for query in queries))
+
+    def test_is_allowed_abc_host_includes_new_hosts(self):
+        self.assertTrue(is_allowed_abc_host("folkwiki.ibiblio.org"))
+        self.assertTrue(is_allowed_abc_host("www.irishtune.info"))
+        self.assertTrue(is_allowed_abc_host("abc.sourceforge.net"))
+        self.assertTrue(is_allowed_abc_host("john-chambers.us"))
+        self.assertTrue(is_allowed_abc_host("sessionite.com"))
+        self.assertTrue(is_allowed_abc_host("themusicofireland.com"))
 
     def test_is_direct_abc_file_url(self):
         self.assertTrue(is_direct_abc_file_url("https://example.org/tunes/wild-rover.abc"))
@@ -82,6 +102,43 @@ K:Edor
         blocks = extract_abc_from_text(html_text)
         self.assertEqual(len(blocks), 1)
         self.assertIn("Drowsy Maggie", blocks[0])
+
+    def test_parse_abc_header_fields_takes_first_of_each(self):
+        abc = """X:1
+T:First Title
+T:Second Title
+C:Composer One
+C:Composer Two
+Q:1/4=112
+M:6/8
+R:jig
+K:G
+|:G2|"""
+        fields = parse_abc_header_fields(abc)
+        self.assertEqual(fields["T"], "First Title")
+        self.assertEqual(fields["C"], "Composer One")
+        self.assertEqual(fields["Q"], "1/4=112")
+        self.assertEqual(fields["M"], "6/8")
+        self.assertEqual(fields["R"], "jig")
+        self.assertEqual(fields["K"], "G")
+
+    def test_tune_meta_from_abc_headers_maps_candidate_fields(self):
+        abc = """X:1
+T:Drowsy Maggie
+C:Traditional
+Q:1/2=90
+M:4/4
+R:reel
+K:Edor
+|:E2|"""
+        meta = tune_meta_from_abc_headers(abc, "https://abcnotation.com/tunePage?a=1")
+        self.assertEqual(meta["name"], "Drowsy Maggie")
+        self.assertEqual(meta["composer"], "Traditional")
+        self.assertEqual(meta["tempo"], 90)
+        self.assertEqual(meta["meter"], "4/4")
+        self.assertEqual(meta["rhythm"], "reel")
+        self.assertEqual(meta["key"], "Edor")
+        self.assertEqual(meta["srcUrl"], "https://abcnotation.com/tunePage?a=1")
 
     def test_annotate_candidate_includes_preview(self):
         candidate = annotate_candidate("X:1\nK:G\nGAB|", "Test", "thesession.org", "https://thesession.org/tunes/1")
@@ -139,6 +196,19 @@ K:Edor
         self.assertEqual(meta["meta"]["thesession_tune_id"], ["21706"])
         self.assertEqual(meta["meta"]["thesession_setting_id"], ["43446"])
 
+
+class _FakeHttpResponse:
+    def __init__(self, text, url="https://example.com/", status_code=200, headers=None):
+        self.text = text
+        self.url = url
+        self.status_code = status_code
+        self.headers = headers or {"content-type": "text/html"}
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise Exception("HTTP {0}".format(self.status_code))
+
+
 class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
     async def test_search_notation_emits_progress_and_returns_session_candidate(self):
         from notation_fetch import search_notation
@@ -192,7 +262,12 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
                 return False
 
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
-            result = await search_notation("Drowsy Maggie", song_type="traditional_tune", on_progress=on_progress)
+            with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
+                result = await search_notation(
+                    "Drowsy Maggie",
+                    song_type="traditional_tune",
+                    on_progress=on_progress,
+                )
 
         self.assertIn("abc", result)
         self.assertIn("K:Edor", result["abc"])
@@ -244,7 +319,8 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
                 return False
 
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
-            result = await search_notation("Snow On The Tracks", song_type="traditional_tune")
+            with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
+                result = await search_notation("Snow On The Tracks", song_type="traditional_tune")
 
         self.assertIn("abc", result)
         self.assertIn("Snow On The Tracks", result["abc"])
@@ -267,32 +343,35 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
         }]
         abc_page = """X:1
 T:Wild Rover
+C:Traditional
+Q:1/4=100
 M:4/4
-L:1/8
+R:song
 K:D
 |:D|"""
 
         class FakeClient:
             async def get(self, url, **kwargs):
-                class Resp:
-                    text = abc_page
-                    headers = {"content-type": "text/html"}
-
-                    def raise_for_status(self):
-                        return None
-
-                return Resp()
+                return _FakeHttpResponse(abc_page, url=url)
 
         with patch("notation_fetch.search_web", new=AsyncMock(return_value=web_results)):
-            candidates = await collect_web_abc_candidates(
-                FakeClient(),
-                "Wild Rover",
-                "song",
-                on_progress=on_progress,
-            )
+            with patch("browser_fetch.browser_get_html", new=AsyncMock()):
+                candidates = await collect_web_abc_candidates(
+                    FakeClient(),
+                    "Wild Rover",
+                    "song",
+                    on_progress=on_progress,
+                )
 
         self.assertEqual(len(candidates), 1)
         self.assertIn("K:D", candidates[0]["abc"])
+        self.assertEqual(candidates[0]["title"], "Wild Rover")
+        self.assertEqual(candidates[0]["artist"], "Traditional")
+        self.assertEqual(candidates[0]["tuneMeta"]["key"], "D")
+        self.assertEqual(candidates[0]["tuneMeta"]["meter"], "4/4")
+        self.assertEqual(candidates[0]["tuneMeta"]["rhythm"], "song")
+        self.assertEqual(candidates[0]["tuneMeta"]["tempo"], 100)
+        self.assertFalse(candidates[0]["titleOnly"])
         self.assertTrue(any("Searching the web" in message for message in progress))
 
     async def test_collect_web_abc_candidates_fetches_direct_abc_from_snippet(self):
@@ -313,26 +392,26 @@ K:D
 
         class FakeClient:
             async def get(self, url, **kwargs):
-                class Resp:
-                    text = abc_file
-                    headers = {"content-type": "text/plain; charset=utf-8"}
-
-                    def raise_for_status(self):
-                        return None
-
-                return Resp()
+                return _FakeHttpResponse(
+                    abc_file,
+                    url=url,
+                    headers={"content-type": "text/plain; charset=utf-8"},
+                )
 
         with patch("notation_fetch.search_web", new=AsyncMock(return_value=web_results)):
-            candidates = await collect_web_abc_candidates(
-                FakeClient(),
-                "Wild Rover",
-                "song",
-                on_progress=None,
-            )
+            with patch("browser_fetch.browser_get_html", new=AsyncMock()):
+                candidates = await collect_web_abc_candidates(
+                    FakeClient(),
+                    "Query Title Should Be Replaced",
+                    "song",
+                    on_progress=None,
+                )
 
         self.assertEqual(len(candidates), 1)
         self.assertIn("K:D", candidates[0]["abc"])
+        self.assertEqual(candidates[0]["title"], "Wild Rover")
         self.assertEqual(candidates[0]["sourceUrl"], "https://personal.example.net/tunes/wild-rover.abc")
+        self.assertEqual(candidates[0]["tuneMeta"]["name"], "Wild Rover")
 
     async def test_search_notation_runs_web_when_session_matches_are_weak(self):
         from notation_fetch import search_notation

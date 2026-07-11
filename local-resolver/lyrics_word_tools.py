@@ -5,6 +5,9 @@ from urllib.parse import quote, urlencode
 import httpx
 
 DEFAULT_TIMEOUT_SECONDS = float(os.getenv("LYRICS_WORD_TIMEOUT_SECONDS", "20"))
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (compatible; ABC2BookResolver/1.0; +https://tunebook.net)"
+)
 PHRASE_STOP_WORDS = {
     "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "from", "how",
     "i", "if", "in", "is", "it", "of", "on", "or", "so", "than", "that", "the",
@@ -153,7 +156,13 @@ def _filter_alliterative_words(items, term):
 
 
 async def _fetch_json(client, url):
-    response = await client.get(url, headers={"Accept": "application/json"})
+    response = await client.get(
+        url,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": BROWSER_USER_AGENT,
+        },
+    )
     payload = None
     if response.text:
         try:
@@ -165,6 +174,10 @@ async def _fetch_json(client, url):
         message = "Request failed"
         if isinstance(payload, dict):
             message = payload.get("message") or payload.get("title") or message
+        elif isinstance(payload, str) and payload.strip():
+            message = payload.strip()[:200]
+        elif response.text:
+            message = response.text.strip()[:200] or message
         raise ValueError(message)
 
     return payload
@@ -199,8 +212,141 @@ async def _try_dictionary_entries(client, word):
         return []
 
 
-async def lookup_dictionary(term):
-    word = _clean_term(term).lower()
+def _normalize_compare_text(value):
+    return "".join(ch for ch in _clean_term(value).lower() if ch.isalnum() or ch.isspace()).strip()
+
+
+def _query_title_match_score(query, title):
+    query_norm = _normalize_compare_text(query)
+    title_norm = _normalize_compare_text(title)
+    if not query_norm or not title_norm:
+        return 0.0
+    if query_norm == title_norm:
+        return 1.0
+    if query_norm in title_norm or title_norm in query_norm:
+        return 0.9
+    query_words = [word for word in query_norm.split() if len(word) > 1]
+    title_words = set(title_norm.split())
+    if not query_words:
+        return 0.0
+    overlap = sum(1 for word in query_words if word in title_words)
+    return overlap / len(query_words)
+
+
+def _wikipedia_image_from_summary(summary, query, title):
+    if not isinstance(summary, dict):
+        return None
+    if summary.get("type") != "standard":
+        return None
+    thumbnail = summary.get("thumbnail") if isinstance(summary.get("thumbnail"), dict) else None
+    if not thumbnail:
+        return None
+    image_url = str(thumbnail.get("source") or "").strip()
+    width = int(thumbnail.get("width") or 0)
+    height = int(thumbnail.get("height") or 0)
+    if not image_url or width < 120 or height < 80:
+        return None
+    if _query_title_match_score(query, title) < 0.6:
+        return None
+    page_url = (
+        ((summary.get("content_urls") or {}).get("desktop") or {}).get("page")
+        or ""
+    )
+    return {
+        "url": image_url,
+        "width": width,
+        "height": height,
+        "pageUrl": page_url,
+        "attribution": "Wikipedia",
+    }
+
+
+def _encyclopedia_entry_from_summary(summary, query):
+    if not isinstance(summary, dict):
+        return None
+    if summary.get("type") != "standard":
+        return None
+    title = _clean_term(summary.get("title") or "")
+    extract = _clean_term(summary.get("extract") or "")
+    if not title or len(extract) < 40:
+        return None
+    if _query_title_match_score(query, title) < 0.5:
+        return None
+    description = _clean_term(summary.get("description") or "")
+    page_url = (
+        ((summary.get("content_urls") or {}).get("desktop") or {}).get("page")
+        or ""
+    )
+    entry = {
+        "word": title,
+        "phonetic": description,
+        "source": "wikipedia",
+        "sourceUrl": page_url,
+        "meanings": [{
+            "partOfSpeech": "encyclopedia",
+            "definitions": [{
+                "definition": extract,
+                "example": None,
+            }],
+        }],
+    }
+    image = _wikipedia_image_from_summary(summary, query, title)
+    if image:
+        entry["image"] = image
+    return entry
+
+
+async def _fetch_wikipedia_summary(client, title):
+    page_title = _clean_term(title)
+    if not page_title:
+        return None
+    url = "https://en.wikipedia.org/api/rest_v1/page/summary/" + quote(page_title.replace(" ", "_"))
+    try:
+        payload = await _fetch_json(client, url)
+        return payload if isinstance(payload, dict) else None
+    except ValueError:
+        return None
+
+
+async def _lookup_wikipedia_encyclopedia(client, term):
+    query = _clean_term(term)
+    if not query:
+        return None
+
+    summary = await _fetch_wikipedia_summary(client, query)
+    entry = _encyclopedia_entry_from_summary(summary, query)
+    if entry:
+        return entry
+
+    try:
+        search_payload = await _fetch_json(
+            client,
+            "https://en.wikipedia.org/w/api.php?" + urlencode({
+                "action": "opensearch",
+                "search": query,
+                "limit": 5,
+                "namespace": 0,
+                "format": "json",
+            }),
+        )
+    except ValueError:
+        return None
+
+    titles = search_payload[1] if isinstance(search_payload, list) and len(search_payload) > 1 else []
+    for page_title in titles or []:
+        if not page_title:
+            continue
+        if _query_title_match_score(query, page_title) < 0.5:
+            continue
+        summary = await _fetch_wikipedia_summary(client, page_title)
+        entry = _encyclopedia_entry_from_summary(summary, query)
+        if entry:
+            return entry
+    return None
+
+
+async def lookup_dictionary(term, *, allow_fuzzy=True, allow_encyclopedia=True):
+    word = _clean_term(term)
     if not word:
         raise ValueError("Enter a word to look up")
     async with httpx.AsyncClient(timeout=DEFAULT_TIMEOUT_SECONDS) as client:
@@ -208,19 +354,25 @@ async def lookup_dictionary(term):
         if entries:
             return entries
 
-        suggestions = await _fetch_datamuse_suggestions(client, word)
-        for suggestion in suggestions:
-            candidate = suggestion.get("word", "") if isinstance(suggestion, dict) else ""
-            entries = await _try_dictionary_entries(client, candidate)
-            if entries:
-                return entries
+        if allow_fuzzy and " " not in word:
+            suggestions = await _fetch_datamuse_suggestions(client, word)
+            for suggestion in suggestions:
+                candidate = suggestion.get("word", "") if isinstance(suggestion, dict) else ""
+                entries = await _try_dictionary_entries(client, candidate)
+                if entries:
+                    return entries
 
-        spelled_like = await _lookup_datamuse_with_client({"sp": word + "*", "max": 12}, client)
-        for item in spelled_like or []:
-            candidate = item.get("word", "") if isinstance(item, dict) else ""
-            entries = await _try_dictionary_entries(client, candidate)
-            if entries:
-                return entries
+            spelled_like = await _lookup_datamuse_with_client({"sp": word + "*", "max": 12}, client)
+            for item in spelled_like or []:
+                candidate = item.get("word", "") if isinstance(item, dict) else ""
+                entries = await _try_dictionary_entries(client, candidate)
+                if entries:
+                    return entries
+
+        if allow_encyclopedia:
+            encyclopedia = await _lookup_wikipedia_encyclopedia(client, word)
+            if encyclopedia:
+                return [encyclopedia]
 
     return []
 

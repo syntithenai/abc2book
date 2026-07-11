@@ -16,6 +16,9 @@ export const DEFAULT_PRACTICE_SETTINGS = {
   totalMinutes: 10,
   includeWarmups: true,
   skillLevel: 5,
+  accuracyCheckingEnabled: false,
+  headphoneMode: false,
+  practiceReferenceGain: 0.08,
 }
 
 const DURATION_OPTIONS = [5, 10, 20]
@@ -72,6 +75,12 @@ export function getPracticeInstrumentLabel(instrumentId) {
   return match ? match.label : id
 }
 
+function clampReferenceGain(value) {
+  const n = parseFloat(value)
+  if (!Number.isFinite(n)) return DEFAULT_PRACTICE_SETTINGS.practiceReferenceGain
+  return Math.max(0.05, Math.min(1, n))
+}
+
 export function loadPracticeSettings() {
   try {
     const raw = localStorage.getItem(PRACTICE_SETTINGS_STORAGE_KEY)
@@ -82,6 +91,9 @@ export function loadPracticeSettings() {
       totalMinutes: normalizeDuration(parsed.totalMinutes),
       includeWarmups: parsed.includeWarmups !== false,
       skillLevel: clampSkillLevel(parsed.skillLevel),
+      accuracyCheckingEnabled: parsed.accuracyCheckingEnabled === true,
+      headphoneMode: parsed.headphoneMode === true,
+      practiceReferenceGain: clampReferenceGain(parsed.practiceReferenceGain),
     }
   } catch (e) {
     return Object.assign({}, DEFAULT_PRACTICE_SETTINGS)
@@ -94,6 +106,11 @@ export function savePracticeSettings(settings) {
     totalMinutes: normalizeDuration(settings && settings.totalMinutes),
     includeWarmups: settings && settings.includeWarmups !== false,
     skillLevel: clampSkillLevel(settings && settings.skillLevel),
+    accuracyCheckingEnabled: settings && settings.accuracyCheckingEnabled === true,
+    headphoneMode: settings && settings.headphoneMode === true,
+    practiceReferenceGain: clampReferenceGain(
+      settings && settings.practiceReferenceGain
+    ),
   }
   try {
     localStorage.setItem(PRACTICE_SETTINGS_STORAGE_KEY, JSON.stringify(next))
@@ -101,6 +118,17 @@ export function savePracticeSettings(settings) {
     // ignore quota errors
   }
   return next
+}
+
+/** Merge partial updates onto stored settings so toggles are not wiped. */
+export function mergePracticeSettings(partial) {
+  const current = loadPracticeSettings()
+  const patch = partial || {}
+  const next = Object.assign({}, current)
+  Object.keys(patch).forEach(function(key) {
+    if (patch[key] !== undefined) next[key] = patch[key]
+  })
+  return savePracticeSettings(next)
 }
 
 /**

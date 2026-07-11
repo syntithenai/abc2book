@@ -20,6 +20,9 @@ services:
       - ./subprocess_utils.py:/app/subprocess_utils.py
       - ./recording_artists.py:/app/recording_artists.py
       - ./background_markdown_links.py:/app/background_markdown_links.py
+      - ./polite_fetch.py:/app/polite_fetch.py
+      - ./browser_fetch.py:/app/browser_fetch.py
+      - ./page_title_meta.py:/app/page_title_meta.py
       - ./chords_fetch.py:/app/chords_fetch.py
       - ./notation_fetch.py:/app/notation_fetch.py
       - ./lyrics_fetch.py:/app/lyrics_fetch.py

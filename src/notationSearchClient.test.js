@@ -83,6 +83,26 @@ describe('notationSearchClient', function() {
     }).toThrow('Notation search returned no usable ABC')
   })
 
+  test('normalizeNotationSearch returns empty manualCandidates without throwing', function() {
+    const result = normalizeNotationSearch({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://example.com/tune',
+        title: 'Drowsy Maggie',
+        source: 'example.com',
+        host: 'example.com',
+        reason: 'blocked',
+        contentType: 'notation',
+      }],
+    })
+    expect(result.multiple).toBe(false)
+    expect(result.empty).toBe(true)
+    expect(result.found).toBe(false)
+    expect(result.manualCandidates).toHaveLength(1)
+    expect(result.manualCandidates[0].contentType).toBe('notation')
+  })
+
   test('handleNotationSearchStreamEvent forwards progress', function() {
     const updates = []
     handleNotationSearchStreamEvent({

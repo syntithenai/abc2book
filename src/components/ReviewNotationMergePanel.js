@@ -21,7 +21,16 @@ function NotationPreview(props) {
   }
   return (
     <div className="review-notation-merge-preview">
-      <Abc abc={props.previewAbc} />
+      {props.tunebook ? (
+        <Abc
+          tunebook={props.tunebook}
+          abc={props.previewAbc}
+          hidePlayer={true}
+          hideSvg={false}
+          editableTempo={false}
+          autoStart={false}
+        />
+      ) : null}
       <Form.Control
         as="textarea"
         className="media-import-chords-textarea media-import-chords-preview mt-2"
@@ -96,6 +105,7 @@ export default function ReviewNotationMergePanel(props) {
           <NotationPreview
             text={currentText}
             previewAbc={currentPreviewAbc}
+            tunebook={props.tunebook}
             emptyMessage="No ABC notes entered yet."
           />
         </Tab>
@@ -104,6 +114,7 @@ export default function ReviewNotationMergePanel(props) {
           <NotationPreview
             text={importedText}
             previewAbc={importPreviewAbc}
+            tunebook={props.tunebook}
             emptyMessage="No imported notation available."
           />
         </Tab>

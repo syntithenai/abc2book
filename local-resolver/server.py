@@ -291,6 +291,12 @@ def _llm_runtime_available():
     return _llm_available_cache
 
 
+def _practice_analysis_available():
+    autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
+    script = os.path.join(os.path.dirname(__file__), "analyze_practice.py")
+    return os.path.isfile(autochord_python) and os.path.isfile(script)
+
+
 async def _probe_llm_available():
     global _llm_available_cache, _llm_checked_at
     if not LLM_ENABLED:
@@ -330,15 +336,24 @@ async def _refresh_llm_health_if_stale():
 
 def resolver_features():
     features = sheet_image_features()
+    playwright_ok = False
+    try:
+        from browser_fetch import playwright_available
+
+        playwright_ok = bool(playwright_available())
+    except Exception:
+        playwright_ok = False
     return {
         "proxy": _proxy_available(),
         "stems": _stems_available(),
         "whisper": _whisper_runtime_available(),
         "llm": _llm_runtime_available(),
+        "practiceAnalysis": _practice_analysis_available(),
         "sheetImage": bool(SHEET_IMAGE_ENABLED and features.get("available")),
         "sheetImageOcr": bool(features.get("ocr")),
         "sheetImageOmr": bool(features.get("omr")),
         "imageSearch": image_search_available(),
+        "playwright": playwright_ok,
     }
 
 
@@ -2057,6 +2072,80 @@ async def analyze_media(
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
         body = await analyze_media_from_audio(audio_bytes, filename, request, processing_config)
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+async def analyze_practice_from_audio(audio_bytes, filename, request, expected_config):
+    autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
+    script_path = os.path.join(os.path.dirname(__file__), "analyze_practice.py")
+    suffix = os.path.splitext(filename or "")[1] or ".webm"
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as temp_audio:
+        temp_audio.write(audio_bytes)
+        temp_audio_path = temp_audio.name
+    config_path = None
+    try:
+        if expected_config:
+            with tempfile.NamedTemporaryFile(
+                delete=False, suffix=".json", mode="w", encoding="utf-8"
+            ) as config_file:
+                json.dump(expected_config, config_file)
+                config_path = config_file.name
+        command = [autochord_python, script_path, temp_audio_path]
+        if config_path:
+            command.append(config_path)
+        returncode, stdout_text, stderr_text = await run_subprocess_with_disconnect(
+            command, env=_autochord_env(), request=request
+        )
+        if returncode != 0:
+            return {"error": stderr_text or "practice analysis failed", "backend": "none"}
+        return _parse_subprocess_json(stdout_text)
+    finally:
+        try:
+            os.unlink(temp_audio_path)
+        except OSError:
+            pass
+        if config_path:
+            try:
+                os.unlink(config_path)
+            except OSError:
+                pass
+
+
+@app.post("/analyze-practice")
+async def analyze_practice(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    expected: str | None = Form(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        require_resolver_feature("practiceAnalysis")
+        track_resolver_usage("analyze-practice")
+
+        if file is None:
+            return json_error(400, "file is required", origin)
+
+        audio_bytes = await file.read()
+        filename = file.filename or "practice.webm"
+        if not audio_bytes:
+            return json_error(400, "empty audio", origin)
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            return json_error(413, "Media file too large", origin)
+
+        expected_config = {}
+        if expected:
+            try:
+                expected_config = json.loads(expected)
+            except json.JSONDecodeError:
+                return json_error(400, "invalid expected JSON", origin)
+
+        body = await analyze_practice_from_audio(
+            audio_bytes, filename, request, expected_config
+        )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)

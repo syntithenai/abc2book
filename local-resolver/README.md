@@ -11,7 +11,7 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | GET | `/youtube/:videoId/audio` | Stream YouTube audio |
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
 | POST | `/search-lyrics` | Search lyrics sites by title/artist (or fetch a supported lyrics URL) and return stanza chunks with ad/noise lines stripped. Accept `application/x-ndjson` for streaming progress events. |
-| POST | `/lyrics-dictionary` | Look up dictionary entries for a word through the resolver and return the dictionaryapi.dev-style response. |
+| POST | `/lyrics-dictionary` | Look up dictionary entries for a word through the resolver and return the dictionaryapi.dev-style response. Falls back to a Wikipedia encyclopedia summary (with optional lead image) when no dictionary entry is found. |
 | POST | `/lyrics-thesaurus` | Return synonym, antonym, and related-word groups for a word through Datamuse. |
 | POST | `/lyrics-rhyme` | Return perfect rhymes, near rhymes, and sound-alike words for a word through Datamuse. |
 | POST | `/lyrics-reverse-dictionary` | Return meaning, topic, and pattern matches for a phrase or concept. |
@@ -73,20 +73,43 @@ Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/
 
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
 
-Resolver-backed chord search resolves predictable per-song URLs on e-chords
-(primary) and CifraClub (fallback) directly from the title and artist slug, so it
-does not depend on scraping search-engine result pages (which are increasingly
-blocked or CAPTCHA-gated). When `BRAVE_SEARCH_API_KEY` is set, chord search also
-uses Brave's web search API to discover supported e-chords, CifraClub, and
-AZChords pages before falling back to the older Bing RSS AZChords discovery. It
-then fetches the page and normalizes the interleaved chord/lyric sheet for
-import. CifraClub section labels in Portuguese or Spanish are translated to
+Resolver-backed chord and lyrics search prefer cheap sources first: free APIs
+and direct slug URLs, then web discovery (Brave when `BRAVE_SEARCH_API_KEY` is
+set), then polite `httpx` fetches, then an optional Playwright Chromium fallback
+for soft JavaScript walls. Ultimate Guitar and similar hard-blocked hosts are
+**discovered** via search but not scraped; the UI offers locked paste-into-review
+when those are the only hits. Capo/key/tuning lines are captured as metadata
+before being stripped from chord sheet bodies.
+
+When `BRAVE_SEARCH_API_KEY` is set, chord search also
+uses Brave's web search API to discover supported e-chords, CifraClub,
+AZChords, WorshipTogether, chordie, and related pages (including Ultimate Guitar
+for discovery-only). It then fetches scrapable pages and normalizes the
+interleaved chord/lyric sheet for import. CifraClub section labels in Portuguese or Spanish are translated to
 English via the same `RESEARCH_LLM_*` settings used for tune background lookup.
 AZChords pages are still parsed when supplied as a direct URL. A title and
 artist are both required to build the slug URLs; when no match is found (or no
 artist is available) the app falls back to the existing external Google search
 link. Other chord hosts may still be blocked by Cloudflare or site-specific
-anti-bot protections.
+anti-bot protections — Playwright may help soft cases; hard blocks use manual paste.
+
+Polite fetch env vars: `POLITE_FETCH_PER_HOST`, `POLITE_FETCH_GLOBAL`,
+`POLITE_FETCH_JITTER_MS_*`, `POLITE_FETCH_MAX_RETRIES`. Playwright:
+`PLAYWRIGHT_ENABLED`, `PLAYWRIGHT_TIMEOUT_MS` (reported on `/health/ready` as
+`features.playwright`).
+
+Chord/lyric import alignment stores `meta.chordSheetAlignment` (column→word
+anchors). Merging into ABC prefers those anchors for beat placement when
+present, preserves real melody timing, and can offer key-transpose merge options
+when the sheet key does not match notation `K:` (user picks; tune key is not
+auto-overwritten).
+
+**Meter / time signature:** Chord↔ABC beat placement uses a shared bar model
+(`getBarModel`): compound meters such as 6/8 and 9/8 use dotted-beat counts
+(2 / 3 beats), not six or nine unit “beats.” Chord-sheet skeletons emit a full
+bar of rests for the resolved meter. Text chord/lyric pairing (column anchors,
+section blanks) stays meter-blind. When sheet and notation meters disagree,
+ChordsWizard offers a keep-notation vs use-sheet choice before merge.
 
 Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
 

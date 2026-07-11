@@ -43,6 +43,7 @@ import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
 import LyricsZoomControls from './LyricsZoomControls'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
+import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
 import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
@@ -374,8 +375,10 @@ export default function MusicSingle(props) {
                 const chordsAnnotate = !!viewFlags.chords
                 const viewModesEmpty = isViewModesEmpty(viewFlags, availableFlags)
                 const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL
-                // Without notation: fit-height scales lyrics (or structure-only).
-                const lyricsFitHeight = fitHeightOn && !notationVisible && lyricsVisible
+                const syncLyricsStructure = !!layout.syncLyricsStructure
+                // Without notation: fit-height scales lyrics (or structure-only, or synced pair).
+                const lyricsStructureFitHeight = fitHeightOn && !notationVisible && syncLyricsStructure
+                const lyricsFitHeight = fitHeightOn && !notationVisible && lyricsVisible && !syncLyricsStructure
                 const structureFitHeight = fitHeightOn && !notationVisible && structureVisible && !lyricsVisible
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
@@ -664,7 +667,7 @@ export default function MusicSingle(props) {
 
                {/* Lyrics panel — TimedLyricsChordsView maps chords above each lyric line */}
                {lyricsVisible && (
-                 <div className={`music-body-lyrics tune-panel-lyrics${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
+                 <div className={`music-body-lyrics tune-panel-lyrics${syncLyricsStructure ? ' tune-panel-lyrics-structure-sync' : ''}${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
                    <div className="lyrics-panel-inner">
                      <div className="lyrics-panel-header">
                        {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
@@ -672,15 +675,29 @@ export default function MusicSingle(props) {
                        {tune.composer && <span> - {tune.composer}</span>}
                      </div>
                      {!squashLyrics ? (
-                       <TimedLyricsChordsView
-                         tune={tune}
-                         tunebook={props.tunebook}
-                         chordTranspose={chordTranspose}
-                         hideChords={!chordsAnnotate}
-                         suppressLeadingTitle={true}
-                         zoom={lyricsZoom > 0 ? lyricsZoom : 1}
-                         fitHeight={lyricsFitHeight}
-                       />
+                       syncLyricsStructure ? (
+                         <LyricsStructureSyncPanel
+                           tune={tune}
+                           tunebook={props.tunebook}
+                           chordTranspose={chordTranspose}
+                           hideChords={!chordsAnnotate}
+                           zoom={lyricsZoom > 0 ? lyricsZoom : 1}
+                           fitHeight={lyricsStructureFitHeight}
+                           chords={chords}
+                           uniqueChords={uniqueChords}
+                           useInstrument={useInstrument}
+                         />
+                       ) : (
+                         <TimedLyricsChordsView
+                           tune={tune}
+                           tunebook={props.tunebook}
+                           chordTranspose={chordTranspose}
+                           hideChords={!chordsAnnotate}
+                           suppressLeadingTitle={true}
+                           zoom={lyricsZoom > 0 ? lyricsZoom : 1}
+                           fitHeight={lyricsFitHeight}
+                         />
+                       )
                      ) : (
                        <div className="lyrics" style={{fontSize:(lyricsZoom > 0 ? lyricsZoom : 1) * 100+'%', paddingLeft:'0.3em', marginTop:'2.5em'}}>
                          {Object.keys(words).map(function(key) {
@@ -703,7 +720,7 @@ export default function MusicSingle(props) {
                )}
 
                {/* Structure (chord block) panel */}
-               {structureVisible && (
+               {structureVisible && !syncLyricsStructure && (
                  <div className={`music-body-chords tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}`}>
                    <StructureChordBlock
                      chords={chords}

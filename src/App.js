@@ -161,6 +161,7 @@ function AppImportReviewBridge(props) {
       onComplete={function() {
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
       }}
+      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
     />
   )
 }
@@ -983,6 +984,7 @@ function App(props) {
                 forceRefresh={forceRefresh}
                 currentTuneBook={currentTuneBook}
                 login={login}
+                setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
               />
               <PlaybackRegionScanProvider
                 tunebook={tunebook}

@@ -1,4 +1,5 @@
 import {useEffect,useState, useRef} from 'react'
+import { flushSync } from 'react-dom'
 import { toast } from 'react-toastify'
 import ExternalMediaPitchTempo from './externalMediaPitchTempo'
 import { getMediaPlaybackSettings, getPlaybackSettings, getAudioFilterSettings, normalizeAudioFilters, playbackNeedsExternalProcessing, audioFiltersAreNeutral, getAudioFilterKeysForStemNames, getAudioFilterKeysForDemucsModel, pitchShiftIsActive } from './pitchTempoUtils'
@@ -25,6 +26,7 @@ import { syncPlaybackRoute } from './playbackRouteSync'
 import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
 import { handleQueueAdvanceOnEnded } from './nowPlayingQueuePlayback'
 import { playbackModeFromPathname } from './offlinePlayback'
+import { isTuneListPath, getAppPathname } from './playbackNavigationUtils'
 import {
     getPlaybackVolume,
     setPlaybackVolume as persistPlaybackVolume,
@@ -967,6 +969,19 @@ export default function useTuneBookMediaController(props) {
         setNativePlaybackSrcOverride(null)
     }
 
+    function applyNativePlaybackBlobUrl(blobUrl) {
+        if (cachedNativeBlobUrlRef.current && cachedNativeBlobUrlRef.current !== blobUrl) {
+            URL.revokeObjectURL(cachedNativeBlobUrlRef.current)
+        }
+        cachedNativeBlobUrlRef.current = blobUrl
+        // Apply the blob URL to the controlled <audio> src before waiting/playing.
+        // Without flushSync, imperative player.src assignment races the subsequent
+        // React re-render and the first play() is lost.
+        flushSync(function() {
+            setNativePlaybackSrcOverride(blobUrl)
+        })
+    }
+
     function getNextQueuePrefetchTune() {
         const queue = props.nowPlayingQueue
         if (!isQueueActive(queue) || !Array.isArray(queue.items) || queue.items.length === 0) {
@@ -1050,12 +1065,15 @@ export default function useTuneBookMediaController(props) {
         const cached = await getCachedExternalMediaBlob(getExternalMediaCacheKey(useTune.id, linkIndex, src))
         if (!cached || !cached.blob) return false
 
-        clearCachedNativePlaybackUrl()
         const blobUrl = URL.createObjectURL(cached.blob)
-        cachedNativeBlobUrlRef.current = blobUrl
-        setNativePlaybackSrcOverride(blobUrl)
+        applyNativePlaybackBlobUrl(blobUrl)
         if (cached.duration) {
             setDuration(cached.duration)
+        }
+        const player = playerRef && playerRef.current
+        if (player) {
+            const ready = await waitForMediaElementReady(player)
+            if (!ready) return false
         }
         setIsReady(true)
         playNativeMedia('audio', opts)
@@ -2954,6 +2972,7 @@ export default function useTuneBookMediaController(props) {
          if (practiceSessionActiveRef.current) return
          const snapshot = getIntentSnapshot()
          if (intentIsSeekGuardActive(snapshot)) return
+         if (isTuneListPath(getAppPathname()) && !isPlaying && !isLoading) return
          if (intentShouldTriggerAutoplayRecovery(snapshot, { tapToPlay: tapToPlay, isLoading: isLoading })) {
              play({ preservePosition: true })
          }
@@ -3022,18 +3041,12 @@ export default function useTuneBookMediaController(props) {
     }
 
     async function attachNativeBlobUrlForPlayback(blobUrl, duration, settings) {
-        clearCachedNativePlaybackUrl()
-        cachedNativeBlobUrlRef.current = blobUrl
-        setNativePlaybackSrcOverride(blobUrl)
+        applyNativePlaybackBlobUrl(blobUrl)
         if (duration) {
             setDuration(duration)
         }
         const player = playerRef && playerRef.current
         if (player) {
-            if (player.src !== blobUrl) {
-                player.src = blobUrl
-                player.load()
-            }
             const tempo = settings && settings.tempo > 0 ? settings.tempo : playbackSpeed
             applyNativeMediaPlaybackSettings(tempo)
             applyPlaybackVolumeToActiveRoute(playbackVolume)

@@ -1,5 +1,6 @@
 import { Alert, Button, Form, Nav, Tab } from 'react-bootstrap';
 import TuneAliasesField from './TuneAliasesField';
+import KeySignatureInput from './KeySignatureInput';
 import { buildDraftFromSheetImageResult } from '../sheetImageImportUtils';
 import { formatSheetImageWarnings } from '../sheetImageFormatUtils';
 
@@ -115,9 +116,9 @@ export default function SheetImageTranscriptionPanel(props) {
           <div className="col-md-3">
             <Form.Group>
               <Form.Label>Key</Form.Label>
-              <Form.Control
+              <KeySignatureInput
                 value={metaKey}
-                onChange={function(e) { updateMeta({ key: e.target.value }); }}
+                onChange={function(next) { updateMeta({ key: next }); }}
               />
             </Form.Group>
           </div>

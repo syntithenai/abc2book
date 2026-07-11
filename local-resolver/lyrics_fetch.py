@@ -4,13 +4,12 @@ from urllib.parse import quote, urlparse
 
 import httpx
 
+from browser_fetch import fetch_html_with_fallback, is_manual_only_host, is_playwright_eligible_host
+from polite_fetch import BROWSER_USER_AGENT
 from recording_artists import discover_recording_artists, is_generic_artist
 
 LYRICS_FETCH_TIMEOUT_SECONDS = 20.0
-BROWSER_USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-)
+LRCLIB_USER_AGENT = "ABC2BookResolver/1.0 (+https://tunebook.net)"
 
 LYRICS_HOST_SUFFIXES = (
     "genius.com",
@@ -19,6 +18,9 @@ LYRICS_HOST_SUFFIXES = (
     "songlyrics.com",
     "metrolyrics.com",
     "musixmatch.com",
+    "letras.mus.br",
+    "letras.com",
+    "lyricsmode.com",
 )
 
 NOISE_LINE_RE = re.compile(
@@ -52,6 +54,28 @@ LYRICS_COM_BODY_RE = re.compile(
     r'id="lyric-body-text"[^>]*>(.*?)</(?:p|div)>',
     re.S | re.I,
 )
+SONGLYRICS_OPEN_RE = re.compile(
+    r'<(?P<tag>p|div)[^>]*\bid=["\']songLyricsDiv["\'][^>]*>',
+    re.I,
+)
+METROLYRICS_OPEN_RE = re.compile(
+    r'<div[^>]*(?:\bid=["\']lyrics-body-text["\']|class=["\'][^"\']*lyrics-body[^"\']*["\'])[^>]*>',
+    re.I,
+)
+MUSIXMATCH_OPEN_RE = re.compile(
+    r'<(?P<tag>span|div)[^>]*class=["\'][^"\']*(?:lyrics__content|mxm-lyrics)[^"\']*["\'][^>]*>',
+    re.I,
+)
+LETRAS_OPEN_RE = re.compile(
+    r'<div[^>]*class=["\'][^"\']*(?:lyric-original|cnt-letra)[^"\']*["\'][^>]*>',
+    re.I,
+)
+LYRICSMODE_OPEN_RE = re.compile(
+    r'<(?P<tag>p|div|pre)[^>]*(?:\bid=["\']lyrics_text["\']|class=["\'][^"\']*ui-annotatable[^"\']*["\'])[^>]*>',
+    re.I,
+)
+LRC_TIMESTAMP_RE = re.compile(r"\[\d{1,2}:\d{2}(?:[.:]\d{1,3})?\]")
+OPEN_TAG_NAME_RE = re.compile(r"^<(?P<tag>[a-z0-9]+)\b", re.I)
 
 
 def is_allowed_lyrics_host(hostname):
@@ -77,6 +101,10 @@ def slugify_lyrics_path(value):
     text = (value or "").lower()
     text = re.sub(r"[^a-z0-9]+", "", text)
     return text
+
+
+def slugify_hyphen_path(value):
+    return re.sub(r"[^a-z0-9]+", "-", (value or "").lower()).strip("-")
 
 
 def normalize_match_text(value):
@@ -182,6 +210,11 @@ def parse_plain_lyrics_text(text):
     return finalize_lyrics_lines(raw_lines)
 
 
+def strip_lrc_tags(text):
+    cleaned = LRC_TIMESTAMP_RE.sub("", text or "")
+    return "\n".join(line.rstrip() for line in cleaned.split("\n"))
+
+
 def extract_azlyrics(html_text):
     match = AZLYRICS_BODY_RE.search(html_text or "")
     if not match:
@@ -206,6 +239,38 @@ def balanced_div_inner(html_text, content_start):
         else:
             depth += 1
         pos = match.end()
+
+
+def _tag_name_from_open(match):
+    if "tag" in match.groupdict() and match.group("tag"):
+        return match.group("tag").lower()
+    named = OPEN_TAG_NAME_RE.match(match.group(0) or "")
+    if named:
+        return named.group("tag").lower()
+    return "div"
+
+
+def _extract_open_matches(html_text, open_re):
+    opens = list(open_re.finditer(html_text or ""))
+    if not opens:
+        return None
+    parts = []
+    for match in opens:
+        tag = _tag_name_from_open(match)
+        if tag == "div":
+            inner = balanced_div_inner(html_text, match.end())
+        else:
+            close = re.search(r"</" + re.escape(tag) + r"\s*>", html_text[match.end():], re.I)
+            if close:
+                inner = html_text[match.end():match.end() + close.start()]
+            else:
+                inner = html_text[match.end():]
+        text = html_to_text(inner).strip()
+        if text:
+            parts.append(text)
+    if not parts:
+        return None
+    return "\n".join(parts)
 
 
 GENIUS_HEADER_PREFIX_RE = re.compile(r"^\s*[\d,]+\s+Contributors?", re.I)
@@ -252,6 +317,26 @@ def extract_lyrics_com(html_text):
     return html_to_text(match.group(1))
 
 
+def extract_songlyrics(html_text):
+    return _extract_open_matches(html_text, SONGLYRICS_OPEN_RE)
+
+
+def extract_metrolyrics(html_text):
+    return _extract_open_matches(html_text, METROLYRICS_OPEN_RE)
+
+
+def extract_musixmatch(html_text):
+    return _extract_open_matches(html_text, MUSIXMATCH_OPEN_RE)
+
+
+def extract_letras(html_text):
+    return _extract_open_matches(html_text, LETRAS_OPEN_RE)
+
+
+def extract_lyricsmode(html_text):
+    return _extract_open_matches(html_text, LYRICSMODE_OPEN_RE)
+
+
 def extract_lyrics_from_html(html_text, page_url):
     host = (urlparse(page_url).hostname or "").lower()
     extracted = None
@@ -259,12 +344,27 @@ def extract_lyrics_from_html(html_text, page_url):
         extracted = extract_azlyrics(html_text)
     elif "genius.com" in host:
         extracted = extract_genius(html_text)
-    elif "lyrics.com" in host or "songlyrics.com" in host or "metrolyrics.com" in host:
+    elif "songlyrics.com" in host:
+        extracted = extract_songlyrics(html_text) or extract_lyrics_com(html_text)
+    elif "metrolyrics.com" in host:
+        extracted = extract_metrolyrics(html_text) or extract_lyrics_com(html_text)
+    elif "musixmatch.com" in host:
+        extracted = extract_musixmatch(html_text)
+    elif "letras.mus.br" in host or "letras.com" in host:
+        extracted = extract_letras(html_text)
+    elif "lyricsmode.com" in host:
+        extracted = extract_lyricsmode(html_text)
+    elif "lyrics.com" in host:
         extracted = extract_lyrics_com(html_text)
     else:
         extracted = (
             extract_genius(html_text)
             or extract_azlyrics(html_text)
+            or extract_letras(html_text)
+            or extract_lyricsmode(html_text)
+            or extract_songlyrics(html_text)
+            or extract_metrolyrics(html_text)
+            or extract_musixmatch(html_text)
             or extract_lyrics_com(html_text)
         )
     if not extracted:
@@ -282,11 +382,19 @@ def build_azlyrics_url(artist, title):
 
 
 def build_lyrics_com_url(artist, title):
-    artist_slug = re.sub(r"[^a-z0-9]+", "-", (artist or "").lower()).strip("-")
-    title_slug = re.sub(r"[^a-z0-9]+", "-", (title or "").lower()).strip("-")
+    artist_slug = slugify_hyphen_path(artist)
+    title_slug = slugify_hyphen_path(title)
     if not artist_slug or not title_slug:
         return None
     return "https://www.lyrics.com/lyrics/" + artist_slug + "/" + title_slug
+
+
+def build_letras_url(artist, title):
+    artist_slug = slugify_hyphen_path(artist)
+    title_slug = slugify_hyphen_path(title)
+    if not artist_slug or not title_slug:
+        return None
+    return "https://www.letras.mus.br/" + artist_slug + "/" + title_slug + "/"
 
 
 def genius_song_candidates(search_payload, title, artist):
@@ -318,13 +426,82 @@ def genius_song_candidates(search_payload, title, artist):
     return candidates
 
 
-async def fetch_text(client, url, headers=None):
-    merged_headers = {"User-Agent": BROWSER_USER_AGENT}
-    if headers:
-        merged_headers.update(headers)
-    response = await client.get(url, headers=merged_headers, follow_redirects=True)
-    response.raise_for_status()
-    return response.text
+def _host_label(url):
+    host = (urlparse(url).hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
+def _manual_candidate(url, title="", artist="", reason="blocked"):
+    host = _host_label(url)
+    return {
+        "url": url,
+        "title": title or "",
+        "artist": artist or "",
+        "source": host,
+        "host": host,
+        "reason": reason,
+        "contentType": "lyrics",
+    }
+
+
+def _append_manual_candidate(manual_candidates, url, title="", artist="", reason="blocked"):
+    if not url or manual_candidates is None:
+        return
+    key = (url or "").strip().lower()
+    for existing in manual_candidates:
+        if (existing.get("url") or "").strip().lower() == key:
+            return
+    manual_candidates.append(_manual_candidate(url, title=title, artist=artist, reason=reason))
+
+
+def _empty_lyrics_payload(manual_candidates):
+    return {
+        "empty": True,
+        "found": False,
+        "manualCandidates": list(manual_candidates or []),
+    }
+
+
+async def _emit_progress(on_progress, stage, message, progress):
+    if callable(on_progress):
+        await on_progress(stage, message, progress)
+
+
+async def fetch_text(client, url, headers=None, on_progress=None, allow_playwright=True):
+    host = urlparse(url).hostname or ""
+    if is_manual_only_host(host):
+        raise ValueError("Host requires manual paste: {0}".format(_host_label(url)))
+
+    referer = None
+    if headers and headers.get("Referer"):
+        referer = headers.get("Referer")
+
+    # Prefer a single fallback call; emit browser stage only when Playwright may run.
+    if allow_playwright and is_playwright_eligible_host(host):
+        result = await fetch_html_with_fallback(client, url, referer=referer, allow_playwright=False)
+        if not (
+            result.blocked_reason == "none" and (result.text or "").strip()
+        ) and result.blocked_reason in {"http_status", "challenge_html", "empty"}:
+            await _emit_progress(
+                on_progress,
+                "browser",
+                "Opening browser fallback...",
+                None,
+            )
+            result = await fetch_html_with_fallback(client, url, referer=referer, allow_playwright=True)
+    else:
+        result = await fetch_html_with_fallback(
+            client,
+            url,
+            referer=referer,
+            allow_playwright=allow_playwright,
+        )
+
+    if result.blocked_reason in {"challenge_html", "empty", "http_status"} and not (result.text or "").strip():
+        raise ValueError("Blocked or empty response from {0}".format(url))
+    return result.text
 
 
 async def fetch_lyrics_ovh(client, artist, title):
@@ -349,6 +526,45 @@ async def fetch_lyrics_ovh(client, artist, title):
     }
 
 
+async def fetch_lrclib(client, artist, title):
+    if not title:
+        return None
+    url = "https://lrclib.net/api/search?track_name=" + quote(title)
+    if artist:
+        url += "&artist_name=" + quote(artist)
+    response = await client.get(url, headers={"User-Agent": LRCLIB_USER_AGENT})
+    if response.status_code == 404:
+        return None
+    response.raise_for_status()
+    payload = response.json()
+    if not isinstance(payload, list):
+        return None
+    for hit in payload:
+        if not isinstance(hit, dict) or hit.get("instrumental"):
+            continue
+        lyrics = hit.get("plainLyrics")
+        if not isinstance(lyrics, str) or not lyrics.strip():
+            synced = hit.get("syncedLyrics")
+            if isinstance(synced, str) and synced.strip():
+                lyrics = strip_lrc_tags(synced)
+            else:
+                continue
+        else:
+            lyrics = strip_lrc_tags(lyrics) if LRC_TIMESTAMP_RE.search(lyrics) else lyrics
+        _, _, text = parse_plain_lyrics_text(lyrics)
+        if not text:
+            continue
+        source_url = "https://lrclib.net/api/search?track_name=" + quote(title)
+        if artist:
+            source_url += "&artist_name=" + quote(artist)
+        return {
+            "text": text,
+            "source": "lrclib.net",
+            "sourceUrl": source_url,
+        }
+    return None
+
+
 async def fetch_genius_candidates(client, artist, title):
     query = " ".join(part for part in (artist, title) if part).strip()
     if not query:
@@ -361,25 +577,53 @@ async def fetch_genius_candidates(client, artist, title):
     return genius_song_candidates(payload, title, artist)
 
 
-async def fetch_lyrics_from_page(client, page_url):
+async def fetch_lyrics_from_page(client, page_url, on_progress=None, manual_candidates=None, title="", artist=""):
+    host = urlparse(page_url).hostname or ""
+    if is_manual_only_host(host):
+        _append_manual_candidate(
+            manual_candidates,
+            page_url,
+            title=title,
+            artist=artist,
+            reason="blocked",
+        )
+        return None
+
     validated, error = validate_lyrics_page_url(page_url)
     if error:
         raise ValueError(error)
-    html_text = await fetch_text(client, validated)
+
+    await _emit_progress(on_progress, "fetch", "Fetching lyrics page...", None)
+    try:
+        html_text = await fetch_text(client, validated, on_progress=on_progress)
+    except ValueError:
+        _append_manual_candidate(
+            manual_candidates,
+            validated,
+            title=title,
+            artist=artist,
+            reason="challenge",
+        )
+        raise
+
     text = extract_lyrics_from_html(html_text, validated)
     if not text:
         return None
-    host = urlparse(validated).hostname or ""
+    host_label = _host_label(validated)
+    page_title = title
+    try:
+        from page_title_meta import conservative_page_title
+
+        page_title = conservative_page_title(html_text, title, fallback=title) or title
+    except Exception:
+        page_title = title
     return {
         "text": text,
-        "source": host.replace("www.", ""),
+        "source": host_label,
         "sourceUrl": validated,
+        "title": page_title,
+        "artist": artist,
     }
-
-
-async def _emit_progress(on_progress, stage, message, progress):
-    if callable(on_progress):
-        await on_progress(stage, message, progress)
 
 
 def _build_lyrics_result(best, title, artist):
@@ -418,8 +662,21 @@ def _candidate_key(result):
     return artist + ":" + text[:120]
 
 
-async def _search_lyrics_for_artist(client, title, artist):
+async def _search_lyrics_for_artist(client, title, artist, on_progress=None):
     attempts = []
+    manual_candidates = []
+
+    await _emit_progress(on_progress, "apis", "Trying lyrics APIs...", None)
+
+    lrclib_result = None
+    try:
+        lrclib_result = await fetch_lrclib(client, artist, title)
+    except Exception:
+        lrclib_result = None
+    if lrclib_result:
+        lrclib_result["title"] = title
+        lrclib_result["artist"] = artist
+        return _build_lyrics_result(lrclib_result, title, artist), manual_candidates
 
     ovh_result = None
     try:
@@ -429,7 +686,7 @@ async def _search_lyrics_for_artist(client, title, artist):
     if ovh_result:
         ovh_result["title"] = title
         ovh_result["artist"] = artist
-        return _build_lyrics_result(ovh_result, title, artist)
+        return _build_lyrics_result(ovh_result, title, artist), manual_candidates
 
     genius_candidates = []
     try:
@@ -437,8 +694,25 @@ async def _search_lyrics_for_artist(client, title, artist):
     except Exception:
         genius_candidates = []
     for candidate in genius_candidates[:3]:
+        page_url = candidate.get("url") or ""
+        if is_manual_only_host(urlparse(page_url).hostname or ""):
+            _append_manual_candidate(
+                manual_candidates,
+                page_url,
+                title=candidate.get("title") or title,
+                artist=candidate.get("artist") or artist,
+                reason="blocked",
+            )
+            continue
         try:
-            page_result = await fetch_lyrics_from_page(client, candidate["url"])
+            page_result = await fetch_lyrics_from_page(
+                client,
+                page_url,
+                on_progress=on_progress,
+                manual_candidates=manual_candidates,
+                title=candidate.get("title") or title,
+                artist=candidate.get("artist") or artist,
+            )
         except Exception:
             page_result = None
         if page_result:
@@ -446,13 +720,20 @@ async def _search_lyrics_for_artist(client, title, artist):
             page_result["artist"] = candidate.get("artist") or artist
             attempts.append(page_result)
 
-    url_builders = (build_azlyrics_url, build_lyrics_com_url)
+    url_builders = (build_azlyrics_url, build_lyrics_com_url, build_letras_url)
     for builder in url_builders:
         page_url = builder(artist, title)
         if not page_url:
             continue
         try:
-            page_result = await fetch_lyrics_from_page(client, page_url)
+            page_result = await fetch_lyrics_from_page(
+                client,
+                page_url,
+                on_progress=on_progress,
+                manual_candidates=manual_candidates,
+                title=title,
+                artist=artist,
+            )
         except Exception:
             page_result = None
         if page_result:
@@ -460,9 +741,9 @@ async def _search_lyrics_for_artist(client, title, artist):
             page_result["artist"] = artist
             attempts.append(page_result)
 
-    if not attempts:
-        return None
-    return _build_lyrics_result(attempts[0], title, artist)
+    if attempts:
+        return _build_lyrics_result(attempts[0], title, artist), manual_candidates
+    return None, manual_candidates
 
 
 async def search_lyrics_with_candidates(title, on_progress=None):
@@ -483,6 +764,7 @@ async def search_lyrics_with_candidates(title, on_progress=None):
 
         candidates = []
         seen = set()
+        all_manual = []
         total_steps = max(len(artists), 1) + 1
 
         for index, search_artist in enumerate(artists):
@@ -492,7 +774,20 @@ async def search_lyrics_with_candidates(title, on_progress=None):
                 "Searching lyrics for {0}...".format(search_artist),
                 0.15 + (0.55 * (index + 1) / total_steps),
             )
-            result = await _search_lyrics_for_artist(client, title, search_artist)
+            result, manuals = await _search_lyrics_for_artist(
+                client,
+                title,
+                search_artist,
+                on_progress=on_progress,
+            )
+            for item in manuals:
+                _append_manual_candidate(
+                    all_manual,
+                    item.get("url"),
+                    title=item.get("title") or title,
+                    artist=item.get("artist") or search_artist,
+                    reason=item.get("reason") or "blocked",
+                )
             if not result:
                 continue
             key = _candidate_key(result)
@@ -507,7 +802,20 @@ async def search_lyrics_with_candidates(title, on_progress=None):
             "Searching lyrics by title...",
             0.78,
         )
-        title_result = await _search_lyrics_for_artist(client, title, "")
+        title_result, title_manuals = await _search_lyrics_for_artist(
+            client,
+            title,
+            "",
+            on_progress=on_progress,
+        )
+        for item in title_manuals:
+            _append_manual_candidate(
+                all_manual,
+                item.get("url"),
+                title=item.get("title") or title,
+                artist=item.get("artist") or "",
+                reason=item.get("reason") or "blocked",
+            )
         if title_result:
             key = _candidate_key(title_result)
             if key not in seen:
@@ -515,6 +823,8 @@ async def search_lyrics_with_candidates(title, on_progress=None):
 
         if not candidates:
             await _emit_progress(on_progress, "done", "No lyrics found for this song", 1.0)
+            if all_manual:
+                return _empty_lyrics_payload(all_manual)
             raise ValueError("No lyrics found for this song")
 
         await _emit_progress(on_progress, "done", "Lyrics candidates ready", 1.0)
@@ -536,10 +846,17 @@ async def search_lyrics(title, artist, on_progress=None):
     await _emit_progress(on_progress, "start", "Starting lyrics search...", 0.05)
 
     async with httpx.AsyncClient(timeout=LYRICS_FETCH_TIMEOUT_SECONDS) as client:
-        await _emit_progress(on_progress, "search", "Checking lyrics.ovh...", 0.15)
-        result = await _search_lyrics_for_artist(client, title, artist)
+        await _emit_progress(on_progress, "apis", "Checking lyrics APIs...", 0.15)
+        result, manuals = await _search_lyrics_for_artist(
+            client,
+            title,
+            artist,
+            on_progress=on_progress,
+        )
         if not result:
             await _emit_progress(on_progress, "done", "No lyrics found for this song", 1.0)
+            if manuals:
+                return _empty_lyrics_payload(manuals)
             raise ValueError("No lyrics found for this song")
         await _emit_progress(on_progress, "done", "Lyrics found", 1.0)
         return result
@@ -549,7 +866,7 @@ async def fetch_lyrics_url(url, on_progress=None):
     await _emit_progress(on_progress, "fetch", "Fetching lyrics page...", 0.15)
     async with httpx.AsyncClient(timeout=LYRICS_FETCH_TIMEOUT_SECONDS) as client:
         await _emit_progress(on_progress, "extract", "Extracting lyrics...", 0.55)
-        page_result = await fetch_lyrics_from_page(client, url)
+        page_result = await fetch_lyrics_from_page(client, url, on_progress=on_progress)
         if not page_result:
             await _emit_progress(on_progress, "done", "Could not extract lyrics from that page", 1.0)
             raise ValueError("Could not extract lyrics from that page")

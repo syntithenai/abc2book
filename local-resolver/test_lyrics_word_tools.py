@@ -3,6 +3,7 @@ from unittest.mock import AsyncMock, patch
 
 from fastapi.testclient import TestClient
 
+import lyrics_word_tools
 import server
 
 
@@ -60,6 +61,76 @@ class LyricsWordToolEndpointTests(unittest.TestCase):
         self.assertEqual(response.json()["alliterative"][0]["word"], "silvery")
         self.assertEqual(response.json()["related"][0]["word"], "soft")
         mock_lookup.assert_awaited_once_with("stars")
+
+
+class LyricsWordEncyclopediaHelpersTests(unittest.TestCase):
+    def test_encyclopedia_entry_includes_matching_image(self):
+        summary = {
+            "type": "standard",
+            "title": "Acacia melanoxylon",
+            "description": "Species of legume",
+            "extract": (
+                "Acacia melanoxylon, commonly known as the Australian blackwood, "
+                "is an Acacia species native to south-eastern Australia."
+            ),
+            "thumbnail": {
+                "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Acacia_melanoxylon.jpg/330px-Acacia_melanoxylon.jpg",
+                "width": 330,
+                "height": 219,
+            },
+            "content_urls": {
+                "desktop": {"page": "https://en.wikipedia.org/wiki/Acacia_melanoxylon"},
+            },
+        }
+
+        entry = lyrics_word_tools._encyclopedia_entry_from_summary(summary, "Acacia melanoxylon")
+
+        self.assertIsNotNone(entry)
+        self.assertEqual(entry["source"], "wikipedia")
+        self.assertIn("Australian blackwood", entry["meanings"][0]["definitions"][0]["definition"])
+        self.assertIn("Acacia_melanoxylon.jpg", entry["image"]["url"])
+
+    def test_encyclopedia_entry_rejects_weak_title_match(self):
+        summary = {
+            "type": "standard",
+            "title": "Blackwood (disambiguation)",
+            "description": "Topics called Blackwood",
+            "extract": "Blackwood may refer to several places, people, and plants around the world.",
+            "thumbnail": {
+                "source": "https://example.com/image.jpg",
+                "width": 330,
+                "height": 219,
+            },
+            "content_urls": {"desktop": {"page": "https://en.wikipedia.org/wiki/Blackwood"}},
+        }
+
+        entry = lyrics_word_tools._encyclopedia_entry_from_summary(summary, "Acacia melanoxylon")
+
+        self.assertIsNone(entry)
+
+    def test_encyclopedia_entry_rejects_tiny_images(self):
+        summary = {
+            "type": "standard",
+            "title": "Acacia melanoxylon",
+            "description": "Species of legume",
+            "extract": (
+                "Acacia melanoxylon, commonly known as the Australian blackwood, "
+                "is an Acacia species native to south-eastern Australia."
+            ),
+            "thumbnail": {
+                "source": "https://example.com/tiny.jpg",
+                "width": 40,
+                "height": 40,
+            },
+            "content_urls": {
+                "desktop": {"page": "https://en.wikipedia.org/wiki/Acacia_melanoxylon"},
+            },
+        }
+
+        entry = lyrics_word_tools._encyclopedia_entry_from_summary(summary, "Acacia melanoxylon")
+
+        self.assertIsNotNone(entry)
+        self.assertNotIn("image", entry)
 
 
 if __name__ == "__main__":

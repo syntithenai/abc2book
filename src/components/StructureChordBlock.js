@@ -28,6 +28,7 @@ export default function StructureChordBlock(props) {
     title,
     composer,
     fitHeight,
+    inheritScale,
   } = props;
 
   const structureSections = useMemo(function() {
@@ -79,14 +80,16 @@ export default function StructureChordBlock(props) {
     }).join('||');
   }, [structureSections]);
 
+  const useOwnFit = !inheritScale;
+
   const { containerRef, contentRef, fontScale } = useFitTextScale({
-    fitHeight: !!fitHeight,
-    measureLongestLine: true,
+    fitHeight: useOwnFit && !!fitHeight,
+    measureLongestLine: useOwnFit,
     minScale: 0.35,
     maxScale: fitHeight ? 4.5 : 3.2,
     padX: 16,
     padY: 16,
-    deps: [sectionsKey, !!fitHeight],
+    deps: [sectionsKey, !!fitHeight, !!inheritScale],
   });
 
   const chordKeys = uniqueChords && typeof uniqueChords === 'object'
@@ -109,7 +112,7 @@ export default function StructureChordBlock(props) {
         + (fitHeight ? ' structure-chord-block--fit-height' : '')
         + (className ? ' ' + className : '')
       }
-      ref={containerRef}
+      ref={useOwnFit ? containerRef : null}
     >
       {chordKeys.length > 0 && useInstrument ? (
         <div className="chord-block-diagram-buttons">
@@ -124,8 +127,8 @@ export default function StructureChordBlock(props) {
       ) : null}
       <div
         className="chord-block-lines"
-        ref={contentRef}
-        style={{ fontSize: fontScale + 'em', flex: '0 0 auto' }}
+        ref={useOwnFit ? contentRef : null}
+        style={useOwnFit ? { fontSize: fontScale + 'em', flex: '0 0 auto' } : { flex: '0 0 auto' }}
       >
         {structureSections.map(function(section, si) {
           return (

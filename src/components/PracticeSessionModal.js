@@ -4,9 +4,14 @@ import Abc from './Abc'
 import PracticeTuneDisplay from './PracticeTuneDisplay'
 import PracticeSessionPlaybackHost from './PracticeSessionPlaybackHost'
 import PracticePlaybackStatus from './PracticePlaybackStatus'
+import PracticeAccuracyOverlay from './PracticeAccuracyOverlay'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
-import { getPracticeInstrumentLabel } from '../practiceSessionSettings'
+import { getPracticeInstrumentLabel, loadPracticeSettings } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
+import usePracticeAccuracyMonitor from '../usePracticeAccuracyMonitor'
+import useMediaResolverHealth from '../useMediaResolverHealth'
+import { analyzePracticeRecording } from '../practiceAccuracyClient'
+import { noteEventsFromWarmupAbc, noteWindowsFromTimeline } from '../practiceExpectedTimeline'
 import './PracticeSessionModal.css'
 
 export const PRACTICE_WARMUP_REPEATS = 4
@@ -19,7 +24,31 @@ export default function PracticeSessionModal(props) {
   const [warmupStatus, setWarmupStatus] = useState('idle')
   const [warmupRun, setWarmupRun] = useState(0)
   const [userPaused, setUserPaused] = useState(false)
+  const [sharedAudioContext, setSharedAudioContext] = useState(null)
+  const [showRepSummary, setShowRepSummary] = useState(false)
+  const [showStepAggregate, setShowStepAggregate] = useState(false)
   const warmupPlaybackRef = useRef(null)
+  const prevWarmupRunRef = useRef(0)
+  const [practiceSettings, setPracticeSettings] = useState(function() { return loadPracticeSettings() })
+  const resolverHealth = useMediaResolverHealth()
+  const accuracyEnabled = practiceSettings.accuracyCheckingEnabled
+    && currentStep && currentStep.type === 'warmup'
+  const referenceGain = practiceSettings.headphoneMode
+    ? 1
+    : (practiceSettings.practiceReferenceGain != null ? practiceSettings.practiceReferenceGain : 0.08)
+
+  useEffect(function() {
+    if (props.show) setPracticeSettings(loadPracticeSettings())
+  }, [props.show, props.stepIndex])
+
+  const accuracyMonitor = usePracticeAccuracyMonitor({
+    enabled: !!accuracyEnabled && warmupStatus !== 'idle',
+    abc: currentStep && currentStep.type === 'warmup' ? currentStep.abc : null,
+    audioContext: sharedAudioContext,
+    useOffMainThread: false,
+    gapBeats: 1,
+    resolverFeatures: resolverHealth.features,
+  })
   const copy = getPracticeSessionCopy(currentStep, {
     phase: isEnded ? 'ended' : 'running',
     warmupRun: currentStep && currentStep.type === 'warmup' ? warmupRun + 1 : null,
@@ -38,12 +67,85 @@ export default function PracticeSessionModal(props) {
     if (currentStep && currentStep.type === 'warmup') {
       setWarmupStatus('loading')
       setWarmupRun(0)
+      prevWarmupRunRef.current = 0
+      setShowRepSummary(false)
+      setShowStepAggregate(false)
+      accuracyMonitor.resetRepBuffers()
     } else {
       setWarmupStatus('idle')
       setWarmupRun(0)
+      setShowStepAggregate(false)
     }
     setUserPaused(false)
   }, [currentStep, props.stepIndex])
+
+  useEffect(function() {
+    if (!accuracyEnabled || !currentStep || currentStep.type !== 'warmup') return undefined
+    const timer = setInterval(function() {
+      const ref = warmupPlaybackRef.current
+      if (ref && ref.getAudioContext) {
+        const ctx = ref.getAudioContext()
+        if (ctx && ctx !== sharedAudioContext) setSharedAudioContext(ctx)
+      }
+    }, 200)
+    return function() { clearInterval(timer) }
+  }, [accuracyEnabled, currentStep, sharedAudioContext])
+
+  useEffect(function() {
+    if (!accuracyEnabled || !currentStep || currentStep.type !== 'warmup') return
+    const run = warmupRun
+    if (run > 0 && run !== prevWarmupRunRef.current && prevWarmupRunRef.current > 0) {
+      const repIndex = prevWarmupRunRef.current - 1
+      accuracyMonitor.onRepComplete(repIndex)
+      setShowRepSummary(true)
+      submitResolverAnalysis(repIndex)
+      accuracyMonitor.resetRepBuffers()
+    }
+    prevWarmupRunRef.current = run
+  }, [warmupRun, accuracyEnabled, currentStep])
+
+  function buildExpectedMetadata() {
+    if (!currentStep || !currentStep.abc) return {}
+    const timeline = noteEventsFromWarmupAbc(currentStep.abc)
+    const windows = noteWindowsFromTimeline(timeline.notes, timeline.tuneMeta, 0)
+    return {
+      expectedNotes: windows.map(function(w) {
+        return {
+          midi: w.midi,
+          startSec: w.startMs / 1000,
+          endSec: w.endMs / 1000,
+        }
+      }),
+      tempo: timeline.tuneMeta.tempoBpm,
+      meter: timeline.tuneMeta.meter,
+    }
+  }
+
+  function submitResolverAnalysis(repIndex) {
+    if (!resolverHealth.features || !resolverHealth.features.practiceAnalysis) return
+    const blob = accuracyMonitor.getRecordingBlob()
+    if (!blob) return
+    accuracyMonitor.startResolverPending()
+    analyzePracticeRecording(blob, buildExpectedMetadata())
+      .then(function(result) {
+        accuracyMonitor.applyResolverSummary(Object.assign({}, result, { repIndex: repIndex }))
+      })
+      .catch(function() {
+        // keep browser score
+      })
+  }
+
+  function handleWarmupEnded() {
+    if (accuracyEnabled) {
+      accuracyMonitor.onRepComplete(Math.max(0, warmupRun - 1))
+      accuracyMonitor.onStepComplete()
+      setShowStepAggregate(true)
+      submitResolverAnalysis(Math.max(0, warmupRun - 1))
+    }
+    setWarmupRun(0)
+    setWarmupStatus('idle')
+    if (props.onWarmupEnded) props.onWarmupEnded()
+  }
 
   useEffect(function() {
     if (!props.setSessionClockPaused || isEnded) return
@@ -68,12 +170,6 @@ export default function PracticeSessionModal(props) {
     props.mediaController && props.mediaController.isLoading,
     props.mediaController && props.mediaController.tapToPlay,
   ])
-
-  function handleWarmupEnded() {
-    setWarmupRun(0)
-    setWarmupStatus('idle')
-    if (props.onWarmupEnded) props.onWarmupEnded()
-  }
 
   function handleSkipWarmup() {
     if (props.armPlaybackGesture) props.armPlaybackGesture()
@@ -286,12 +382,30 @@ export default function PracticeSessionModal(props) {
 
         {currentStep && currentStep.type === 'warmup' && currentStep.abc ? (
           <div className="practice-session-warmup-notation">
+            {accuracyEnabled ? (
+              <PracticeAccuracyOverlay
+                enabled={warmupStatus !== 'idle'}
+                liveState={accuracyMonitor.liveState}
+                repSummary={accuracyMonitor.repSummary}
+                aggregateSummary={accuracyMonitor.aggregateSummary}
+                showRepSummary={showRepSummary}
+                showAggregate={showStepAggregate}
+                resolverPending={accuracyMonitor.resolverPending}
+                accuracyHint={!practiceSettings.headphoneMode
+                  ? 'Reference notes play quietly. Enable headphone mode for louder playback.'
+                  : null}
+              />
+            ) : null}
             <Abc
-              key={'warmup-' + props.stepIndex}
+              key={'warmup-' + props.stepIndex + (accuracyEnabled ? '-acc' : '')}
               abc={currentStep.abc}
               tunebook={props.tunebook}
               autoPrime={true}
               practiceAutoPlay={true}
+              practiceReferenceGain={accuracyEnabled ? referenceGain : undefined}
+              onPracticeBeat={accuracyEnabled ? accuracyMonitor.handlePracticeBeat : undefined}
+              consumePlaybackGesture={props.consumePlaybackGesture}
+              hasPlaybackGesture={props.hasPlaybackGesture}
               playbackControlRef={warmupPlaybackRef}
               repeat={PRACTICE_WARMUP_REPEATS}
               repeatGapBeats={1}

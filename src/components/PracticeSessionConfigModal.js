@@ -8,7 +8,7 @@ import {
   DURATION_OPTIONS,
   PRACTICE_INSTRUMENTS,
   loadPracticeSettings,
-  savePracticeSettings,
+  mergePracticeSettings,
   getSkillTempoRange,
   normalizePracticeInstrument,
 } from '../practiceSessionSettings'
@@ -23,6 +23,8 @@ export default function PracticeSessionConfigModal(props) {
   const [tagFilter, setTagFilter] = useState([])
   const [includeWarmups, setIncludeWarmups] = useState(true)
   const [skillLevel, setSkillLevel] = useState(5)
+  const [accuracyCheckingEnabled, setAccuracyCheckingEnabled] = useState(false)
+  const [headphoneMode, setHeadphoneMode] = useState(false)
 
   useEffect(function() {
     if (props.show) {
@@ -31,6 +33,8 @@ export default function PracticeSessionConfigModal(props) {
       setTotalMinutes(saved.totalMinutes)
       setIncludeWarmups(saved.includeWarmups)
       setSkillLevel(saved.skillLevel)
+      setAccuracyCheckingEnabled(saved.accuracyCheckingEnabled === true)
+      setHeadphoneMode(saved.headphoneMode === true)
       setBookFilter('')
       setTagFilter([])
 
@@ -66,11 +70,15 @@ export default function PracticeSessionConfigModal(props) {
   }, [props.show, props.setBlockKeyboardShortcuts])
 
   function persistSettings(next) {
-    savePracticeSettings({
+    mergePracticeSettings({
       instrument: next.instrument != null ? next.instrument : instrument,
       totalMinutes: next.totalMinutes != null ? next.totalMinutes : totalMinutes,
       includeWarmups: next.includeWarmups != null ? next.includeWarmups : includeWarmups,
       skillLevel: next.skillLevel != null ? next.skillLevel : skillLevel,
+      accuracyCheckingEnabled: next.accuracyCheckingEnabled != null
+        ? next.accuracyCheckingEnabled
+        : accuracyCheckingEnabled,
+      headphoneMode: next.headphoneMode != null ? next.headphoneMode : headphoneMode,
     })
   }
 
@@ -94,12 +102,29 @@ export default function PracticeSessionConfigModal(props) {
     persistSettings({ skillLevel: level })
   }
 
+  function handleAccuracyChange(checked) {
+    setAccuracyCheckingEnabled(checked)
+    persistSettings({ accuracyCheckingEnabled: checked })
+  }
+
+  function handleHeadphoneModeChange(checked) {
+    setHeadphoneMode(checked)
+    persistSettings({ headphoneMode: checked })
+  }
+
   const tempoPreview = getSkillTempoRange(skillLevel)
   const tempoPreviewStart = Math.round(tempoPreview.tempoStart * 100)
   const tempoPreviewEnd = Math.round(tempoPreview.tempoEnd * 100)
 
   function handleStart() {
-    savePracticeSettings({ instrument, totalMinutes, includeWarmups, skillLevel })
+    mergePracticeSettings({
+      instrument,
+      totalMinutes,
+      includeWarmups,
+      skillLevel,
+      accuracyCheckingEnabled,
+      headphoneMode,
+    })
     if (props.onStart) {
       props.onStart({
         instrument,
@@ -108,6 +133,8 @@ export default function PracticeSessionConfigModal(props) {
         tagFilter,
         includeWarmups,
         skillLevel,
+        accuracyCheckingEnabled,
+        headphoneMode,
       })
     }
   }
@@ -220,6 +247,31 @@ export default function PracticeSessionConfigModal(props) {
             </div>
           </Form.Group>
         </div>
+
+        <Form.Group className="mb-2">
+          <Form.Check
+            type="switch"
+            id="practice-accuracy-checking"
+            label="Pitch accuracy checking during warmups (microphone)"
+            checked={accuracyCheckingEnabled}
+            onChange={function(e) { handleAccuracyChange(e.target.checked) }}
+          />
+          <Form.Text className="text-muted">
+            Live cents feedback and per-rep pitch summary. Reference notes play quietly unless headphone mode is on.
+          </Form.Text>
+        </Form.Group>
+
+        {accuracyCheckingEnabled ? (
+          <Form.Group className="mb-2 ms-3">
+            <Form.Check
+              type="switch"
+              id="practice-headphone-mode"
+              label="Headphone mode (full-volume reference playback)"
+              checked={headphoneMode}
+              onChange={function(e) { handleHeadphoneModeChange(e.target.checked) }}
+            />
+          </Form.Group>
+        ) : null}
 
         <Form.Group className="mb-2">
           <Form.Check

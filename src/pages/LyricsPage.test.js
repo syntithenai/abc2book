@@ -24,14 +24,11 @@ jest.mock('react-router-dom', function() {
 })
 
 describe('LyricsPage', function() {
-  test('renders lookup hub and tool tabs', function() {
+  test('renders lookup hub', function() {
     const markup = renderToStaticMarkup(<LyricsPage />)
 
     expect(markup).toContain('Lyrics')
     expect(markup).toContain('Lookup')
-    expect(markup).toContain('Syllables + Stress')
-    expect(markup).toContain('Reverse Dictionary')
-    expect(markup).toContain('Phrase Finder')
     expect(markup).toContain('Clear search')
     expect(markup).toContain('dictionary, thesaurus, alliteration, and rhyme finder')
   })

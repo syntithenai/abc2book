@@ -29,6 +29,8 @@ export function getVisibleBlocks(flags) {
  *   side: 'notation'|'lyrics'|'structure'|null,
  *   below: 'lyrics'|null,
  *   wrapLyricsAroundStructure: boolean,
+ *   mergeStructureIntoLyrics: boolean,
+ *   syncLyricsStructure: boolean,
  * }}
  */
 export function resolveTuneDisplayLayout(flags) {
@@ -43,6 +45,8 @@ export function resolveTuneDisplayLayout(flags) {
       side: null,
       below: null,
       wrapLyricsAroundStructure: false,
+      mergeStructureIntoLyrics: false,
+      syncLyricsStructure: false,
     };
   }
 
@@ -55,6 +59,22 @@ export function resolveTuneDisplayLayout(flags) {
       side: null,
       below: null,
       wrapLyricsAroundStructure: false,
+      mergeStructureIntoLyrics: false,
+      syncLyricsStructure: false,
+    };
+  }
+
+  // Without notation: lyrics and structure share one scroll + fit-height host.
+  if (!visible.notation && visible.lyrics && visible.structure) {
+    return {
+      empty: false,
+      layoutClass: 'tune-layout-lyrics-structure tune-layout-lyrics-structure--sync',
+      main: 'lyrics',
+      side: 'structure',
+      below: null,
+      wrapLyricsAroundStructure: false,
+      mergeStructureIntoLyrics: false,
+      syncLyricsStructure: true,
     };
   }
 
@@ -67,6 +87,8 @@ export function resolveTuneDisplayLayout(flags) {
       side: 'structure',
       below: 'lyrics',
       wrapLyricsAroundStructure: true,
+      mergeStructureIntoLyrics: false,
+      syncLyricsStructure: false,
     };
   }
 
@@ -81,6 +103,8 @@ export function resolveTuneDisplayLayout(flags) {
     side: secondary,
     below: null,
     wrapLyricsAroundStructure: visible.notation && visible.lyrics,
+    mergeStructureIntoLyrics: false,
+    syncLyricsStructure: false,
   };
 }
 
