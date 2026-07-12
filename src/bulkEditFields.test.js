@@ -2,6 +2,7 @@ import {
   BULK_EDIT_FIELDS,
   coerceBulkFieldValue,
   isBulkChangeRowComplete,
+  prepareBulkActions,
   prepareBulkChanges,
 } from './bulkEditFields'
 
@@ -48,6 +49,50 @@ describe('bulkEditFields', function() {
     expect(changes).toEqual([
       { key: 'key', value: 'G' },
       { key: 'capo', value: '2' },
+    ])
+  })
+
+  test('suitableFor instruments is a separate replaceable field', function() {
+    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'suitableFor' })).toBe(true)
+    expect(isBulkChangeRowComplete({ field: 'suitableFor', value: [] })).toBe(true)
+    expect(coerceBulkFieldValue('suitableFor', ['violin', 'fiddle', 'mandolin'])).toEqual([
+      'violin',
+      'mandolin',
+    ])
+
+    var changes = prepareBulkChanges([
+      { field: 'suitableForPractice', value: 'false' },
+      { field: 'suitableFor', value: ['guitar', 'voice'] },
+    ])
+
+    expect(changes).toEqual([
+      { key: 'suitableForPractice', value: false },
+      { key: 'suitableFor', value: ['guitar', 'voice'], replace: true },
+    ])
+  })
+
+  test('cache is an action field and cache lock is a tune field', function() {
+    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'cache' && field.action })).toBe(true)
+    expect(BULK_EDIT_FIELDS.some(function(field) { return field.key === 'mediaCacheLocked' })).toBe(true)
+    expect(isBulkChangeRowComplete({ field: 'cache', value: 'save' })).toBe(true)
+    expect(isBulkChangeRowComplete({ field: 'mediaCacheLocked', value: 'true' })).toBe(true)
+    expect(coerceBulkFieldValue('mediaCacheLocked', 'false')).toBe(false)
+
+    var prepared = prepareBulkChanges([
+      { field: 'cache', value: 'save' },
+      { field: 'mediaCacheLocked', value: 'true' },
+      { field: 'key', value: 'D' },
+    ])
+    expect(prepared).toEqual([
+      { key: 'mediaCacheLocked', value: true },
+      { key: 'key', value: 'D' },
+    ])
+
+    expect(prepareBulkActions([
+      { field: 'cache', value: 'clear-all' },
+      { field: 'mediaCacheLocked', value: 'true' },
+    ])).toEqual([
+      { key: 'cache', value: 'clear-all' },
     ])
   })
 })

@@ -8,20 +8,26 @@ import {
   subscribeImportReviewSession,
 } from './importReviewSessionStore'
 import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
+import {
+  subscribe as subscribeFieldLookupQueue,
+} from './tuneFieldLookupQueue'
 
 export default function BackgroundReviewNotifications() {
   const navigate = useNavigate()
   const location = useLocation()
 
   useEffect(function() {
+    function navigateToReview() {
+      showImportReviewUi()
+      navigate('/review')
+    }
+
     function refreshToast() {
       const onReviewRoute = location.pathname === '/review'
+      const onEditorRoute = String(location.pathname || '').indexOf('/editor/') === 0
       syncBackgroundReviewToast({
-        suppressReadyToast: onReviewRoute || isImportReviewUiVisible(),
-        onReview: function() {
-          showImportReviewUi()
-          navigate('/review')
-        },
+        suppressReadyToast: onReviewRoute || onEditorRoute || isImportReviewUiVisible(),
+        onReview: navigateToReview,
       })
     }
 
@@ -30,6 +36,7 @@ export default function BackgroundReviewNotifications() {
       subscribeBackgroundReviewQueue(refreshToast),
       subscribeImportReviewSession(refreshToast),
       subscribeMediaAnalysisJobs(refreshToast),
+      subscribeFieldLookupQueue(refreshToast),
     ]
     return function cleanup() {
       unsubs.forEach(function(unsub) { unsub() })

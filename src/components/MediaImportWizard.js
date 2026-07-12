@@ -53,6 +53,7 @@ export default function MediaImportWizard(props) {
   const webSearch = useMediaImportWebSearch({
     title: metadata.name || (props.tune && props.tune.name) || '',
     artist: metadata.composer || (props.tune && props.tune.composer) || '',
+    backgroundInfo: metadata.backgroundInfo || '',
     token: props.token,
     canResearchBackground: canResearchBackground,
     resolverAvailable: resolverAvailable,
@@ -75,6 +76,9 @@ export default function MediaImportWizard(props) {
         }
         if (results.lookupBackgroundInfo && results.lookupBackgroundInfo.trim() && !nextMetadata.backgroundInfo) {
           nextMetadata.backgroundInfo = results.lookupBackgroundInfo.trim();
+        }
+        if (results.capitalizedTitle) {
+          nextMetadata.name = results.capitalizedTitle;
         }
         const next = Object.assign({}, current, { metadata: nextMetadata });
         if (results.lookupChordGridText !== undefined) {
@@ -208,7 +212,7 @@ export default function MediaImportWizard(props) {
       || ''
     ).trim();
     if (!composer) {
-      toast.warn('Composer is required before ' + finishActionLabel + '.');
+      toast.warn('Artist is required before ' + finishActionLabel + '.');
       setActiveStep('metadata');
       return;
     }

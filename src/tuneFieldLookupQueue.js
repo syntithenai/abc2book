@@ -1,0 +1,882 @@
+import localforage from 'localforage'
+import { searchLyrics } from './lyricsSearchClient'
+import { searchChords } from './chordsSearchClient'
+import { discoverComposers } from './composerSearchClient'
+import { searchNotation } from './notationSearchClient'
+import { searchYouTubeVideos, checkYouTubeLinkOembed } from './youtubeSearchClient'
+import {
+  checkAudioLinkPlayback,
+  getEmptyLinkReason,
+  getLinkSrcType,
+  tuneHasLinkContent,
+} from './checkTuneLinkPlayback'
+import { buildComposerPickerCandidates } from './composerDiscoveryUtils'
+import { isAbortError } from './abortUtils'
+import {
+  applyCandidateToTune,
+  historyLabelForKind,
+  isTuneFieldEmptyForKind,
+  toastAppliedFieldLookup,
+} from './fieldLookupApplyUtils'
+
+export const FIELD_LOOKUP_KINDS = ['lyrics', 'chords', 'composer', 'notation', 'links']
+
+const STORAGE_KEY = 'queue-state'
+const store = localforage.createInstance({ name: 'tunefieldlookupqueue' })
+
+let jobCounter = 0
+let running = false
+let paused = false
+let jobs = []
+let currentJobId = null
+let persistTimer = null
+let restored = false
+
+let queueContext = {
+  getTune: null,
+  saveTune: null,
+  forceRefresh: null,
+  abcTools: null,
+}
+
+/** Live UI handlers: targetKey:kind → { onAwaiting(job), onError(job), onProgress(job) } */
+const liveHandlers = new Map()
+
+const listeners = new Set()
+
+function notify() {
+  const snapshot = getState()
+  listeners.forEach(function(listener) {
+    try {
+      listener(snapshot)
+    } catch (e) {
+      console.log(e)
+    }
+  })
+}
+
+export function setTuneFieldLookupQueueContext(context) {
+  queueContext = Object.assign({}, queueContext, context || {})
+}
+
+function makeJobId() {
+  jobCounter += 1
+  return 'field-lookup-job-' + jobCounter
+}
+
+export function targetKeyForJob(job) {
+  if (!job) return ''
+  if (job.tuneId) return 'tune:' + String(job.tuneId)
+  if (job.candidateId) return 'candidate:' + String(job.candidateId)
+  return ''
+}
+
+function liveHandlerKey(targetKey, kind) {
+  return String(targetKey || '') + ':' + String(kind || '')
+}
+
+function findDuplicateJob(targetKey, kind) {
+  return jobs.find(function(job) {
+    return targetKeyForJob(job) === targetKey
+      && job.kind === kind
+      && (job.status === 'pending' || job.status === 'running' || job.status === 'awaiting')
+  })
+}
+
+function kindLabel(kind) {
+  if (kind === 'lyrics') return 'Lyrics search'
+  if (kind === 'chords') return 'Chord search'
+  if (kind === 'composer') return 'Artist search'
+  if (kind === 'notation') return 'Notation search'
+  if (kind === 'links') return 'Link search'
+  return 'Field search'
+}
+
+function publicJob(job) {
+  return {
+    id: job.id,
+    tuneId: job.tuneId || null,
+    candidateId: job.candidateId || null,
+    reviewCandidateId: job.reviewCandidateId || null,
+    targetKey: targetKeyForJob(job),
+    kind: job.kind,
+    label: job.label || kindLabel(job.kind),
+    title: job.title || '',
+    artist: job.artist || '',
+    tuneName: job.tuneName || job.title || '',
+    status: job.status,
+    progress: job.progress,
+    message: job.message,
+    error: job.error,
+    candidates: Array.isArray(job.candidates) ? job.candidates.slice() : [],
+    manualCandidates: Array.isArray(job.manualCandidates) ? job.manualCandidates.slice() : [],
+    options: job.options ? Object.assign({}, job.options) : {},
+  }
+}
+
+export function getState() {
+  const active = jobs.filter(function(job) {
+    return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
+  })
+  const finished = jobs.filter(function(job) {
+    return job.status === 'done' || job.status === 'error' || job.status === 'cancelled'
+  }).length
+  const total = jobs.length
+  return {
+    running: running,
+    paused: paused,
+    jobs: jobs.map(publicJob),
+    currentJobId: currentJobId,
+    overallProgress: total > 0 ? Math.round((finished / total) * 100) : 0,
+    finishedCount: finished,
+    totalCount: total,
+    activeCount: active.length,
+    awaitingCount: jobs.filter(function(job) { return job.status === 'awaiting' }).length,
+  }
+}
+
+export function subscribe(listener) {
+  listeners.add(listener)
+  return function unsubscribe() {
+    listeners.delete(listener)
+  }
+}
+
+/**
+ * Register a live UI handler for a target+kind. When a job becomes awaiting/error,
+ * the handler is invoked so the open form can open a picker immediately.
+ * Returns unregister function.
+ */
+export function registerLiveHandler(targetKey, kind, handler) {
+  const key = liveHandlerKey(targetKey, kind)
+  liveHandlers.set(key, handler || null)
+  return function unregister() {
+    if (liveHandlers.get(key) === handler) {
+      liveHandlers.delete(key)
+    }
+  }
+}
+
+export function getAwaitingJob(targetKey, kind) {
+  return getState().jobs.find(function(job) {
+    return job.targetKey === targetKey
+      && job.kind === kind
+      && job.status === 'awaiting'
+  }) || null
+}
+
+export function getActiveJob(targetKey, kind) {
+  return getState().jobs.find(function(job) {
+    return job.targetKey === targetKey
+      && job.kind === kind
+      && (job.status === 'pending' || job.status === 'running' || job.status === 'awaiting')
+  }) || null
+}
+
+export function findJobById(id) {
+  return getState().jobs.find(function(job) { return job.id === id }) || null
+}
+
+function schedulePersist() {
+  if (persistTimer) clearTimeout(persistTimer)
+  persistTimer = setTimeout(function() {
+    persistTimer = null
+    persistState()
+  }, 200)
+}
+
+async function persistState() {
+  try {
+    await store.setItem(STORAGE_KEY, {
+      jobCounter: jobCounter,
+      running: running,
+      paused: paused,
+      jobs: jobs.map(function(job) {
+        return {
+          id: job.id,
+          tuneId: job.tuneId || null,
+          candidateId: job.candidateId || null,
+          reviewCandidateId: job.reviewCandidateId || null,
+          kind: job.kind,
+          label: job.label || kindLabel(job.kind),
+          title: job.title || '',
+          artist: job.artist || '',
+          tuneName: job.tuneName || '',
+          titleHint: job.titleHint || '',
+          status: job.status === 'running' ? 'pending' : job.status,
+          progress: job.progress,
+          message: job.message,
+          error: job.error,
+          candidates: job.candidates || [],
+          manualCandidates: job.manualCandidates || [],
+          options: job.options || {},
+          accessToken: job.accessToken,
+          cancelled: !!job.cancelled,
+        }
+      }),
+    })
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+export async function restoreAndResume() {
+  if (restored) return
+  try {
+    const saved = await store.getItem(STORAGE_KEY)
+    if (!saved || !Array.isArray(saved.jobs)) {
+      restored = true
+      return
+    }
+    jobCounter = typeof saved.jobCounter === 'number' ? saved.jobCounter : 0
+    paused = !!saved.paused
+    jobs = saved.jobs.map(function(item) {
+      return {
+        id: item.id,
+        tuneId: item.tuneId || null,
+        candidateId: item.candidateId || null,
+        reviewCandidateId: item.reviewCandidateId || null,
+        kind: item.kind,
+        label: item.label || kindLabel(item.kind),
+        title: item.title || '',
+        artist: item.artist || '',
+        tuneName: item.tuneName || '',
+        titleHint: item.titleHint || '',
+        status: item.status === 'running' ? 'pending' : (item.status || 'pending'),
+        progress: typeof item.progress === 'number' ? item.progress : 0,
+        message: item.message || '',
+        error: item.error || null,
+        candidates: Array.isArray(item.candidates) ? item.candidates : [],
+        manualCandidates: Array.isArray(item.manualCandidates) ? item.manualCandidates : [],
+        options: item.options && typeof item.options === 'object' ? item.options : {},
+        accessToken: item.accessToken || null,
+        cancelled: !!item.cancelled,
+      }
+    })
+    notify()
+    if (saved.running && !paused && jobs.some(function(job) { return job.status === 'pending' })) {
+      start()
+    }
+  } catch (e) {
+    console.log(e)
+  } finally {
+    restored = true
+  }
+}
+
+/**
+ * Enqueue a field lookup search.
+ * options: {
+ *   tuneId?, candidateId?, kind, title, artist?, titleHint?, tuneName?,
+ *   accessToken?, options?: { updateLyrics?, alwaysPick?, songType?, ... },
+ *   searchOptions?: passthrough for clients (resolverAvailable, abcTools, renderChords)
+ * }
+ */
+export function enqueueLookup(spec) {
+  if (!spec || !spec.kind || FIELD_LOOKUP_KINDS.indexOf(spec.kind) < 0) return null
+  const tuneId = spec.tuneId || null
+  const candidateId = spec.candidateId || null
+  if (!tuneId && !candidateId) return null
+
+  const title = String(spec.title || '').trim()
+  if (!title) return null
+
+  const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
+  const duplicate = findDuplicateJob(targetKey, spec.kind)
+  if (duplicate) {
+    if (duplicate.status === 'awaiting') return duplicate.id
+    return duplicate.id
+  }
+
+  const job = {
+    id: makeJobId(),
+    tuneId: tuneId,
+    candidateId: candidateId,
+    kind: spec.kind,
+    label: spec.label || kindLabel(spec.kind),
+    title: title,
+    artist: spec.artist || '',
+    tuneName: spec.tuneName || title,
+    titleHint: spec.titleHint || '',
+    status: 'pending',
+    progress: 0,
+    message: '',
+    error: null,
+    candidates: [],
+    manualCandidates: [],
+    options: spec.options && typeof spec.options === 'object' ? Object.assign({}, spec.options) : {},
+    searchOptions: spec.searchOptions && typeof spec.searchOptions === 'object'
+      ? Object.assign({}, spec.searchOptions)
+      : {},
+    accessToken: spec.accessToken || null,
+    cancelled: false,
+  }
+  jobs.push(job)
+  notify()
+  schedulePersist()
+  return job.id
+}
+
+/**
+ * Seed an awaiting job with precomputed candidates (e.g. import-review enrichment).
+ */
+export function seedAwaitingLookup(spec) {
+  if (!spec || !spec.kind || FIELD_LOOKUP_KINDS.indexOf(spec.kind) < 0) return null
+  const tuneId = spec.tuneId || null
+  const candidateId = spec.candidateId || null
+  if (!tuneId && !candidateId) return null
+  const candidates = Array.isArray(spec.candidates) ? spec.candidates : []
+  if (candidates.length === 0) return null
+
+  const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
+  const existing = findDuplicateJob(targetKey, spec.kind)
+  if (existing) {
+    if (existing.status === 'awaiting' || existing.status === 'pending' || existing.status === 'running') {
+      existing.candidates = candidates
+      existing.status = 'awaiting'
+      existing.progress = 100
+      existing.message = ''
+      existing.error = null
+      notifyLive(existing)
+      notify()
+      schedulePersist()
+      return existing.id
+    }
+  }
+
+  const job = {
+    id: makeJobId(),
+    tuneId: tuneId,
+    candidateId: candidateId,
+    kind: spec.kind,
+    label: spec.label || kindLabel(spec.kind),
+    title: String(spec.title || '').trim(),
+    artist: spec.artist || '',
+    tuneName: spec.tuneName || spec.title || '',
+    titleHint: spec.titleHint || '',
+    status: 'awaiting',
+    progress: 100,
+    message: '',
+    error: null,
+    candidates: candidates,
+    manualCandidates: [],
+    options: spec.options && typeof spec.options === 'object' ? Object.assign({}, spec.options) : {},
+    searchOptions: {},
+    accessToken: null,
+    cancelled: false,
+  }
+  jobs.push(job)
+  notifyLive(job)
+  notify()
+  schedulePersist()
+  return job.id
+}
+
+function abortRunningJob(job) {
+  if (!job) return
+  job.cancelled = true
+  if (job.abortController) {
+    job.abortController.abort()
+  }
+}
+
+export function cancelJob(id) {
+  const job = jobs.find(function(item) { return item.id === id })
+  if (!job) return false
+  if (job.status === 'done' || job.status === 'cancelled') return false
+  abortRunningJob(job)
+  if (job.status === 'pending' || job.status === 'awaiting') {
+    job.status = 'cancelled'
+  }
+  notify()
+  schedulePersist()
+  return true
+}
+
+export function cancelAllJobs() {
+  let changed = false
+  jobs.forEach(function(job) {
+    if (job.status !== 'pending' && job.status !== 'running' && job.status !== 'awaiting') return
+    abortRunningJob(job)
+    if (job.status === 'pending' || job.status === 'awaiting') {
+      job.status = 'cancelled'
+    }
+    changed = true
+  })
+  if (changed) {
+    notify()
+    schedulePersist()
+  }
+}
+
+export function clearFinishedJobs() {
+  jobs = jobs.filter(function(job) {
+    return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
+  })
+  notify()
+  schedulePersist()
+}
+
+export function applyFieldLookupChoice(jobId, candidate) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || job.status !== 'awaiting') return null
+
+  // When linked into import review, the review form owns persistence on Import.
+  const deferSave = !!job.reviewCandidateId
+
+  if (!deferSave && job.tuneId && candidate) {
+    const getTune = queueContext.getTune
+    const saveTune = queueContext.saveTune
+    if (typeof getTune === 'function' && typeof saveTune === 'function') {
+      const tune = getTune(job.tuneId)
+      if (tune) {
+        const applied = applyCandidateToTune(
+          tune,
+          job.kind,
+          candidate,
+          queueContext.abcTools
+        )
+        if (applied) {
+          try {
+            saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
+            if (typeof queueContext.forceRefresh === 'function') {
+              queueContext.forceRefresh()
+            }
+            toastAppliedFieldLookup(job.kind, tune.name || job.title)
+          } catch (e) {
+            console.log(e)
+          }
+        }
+      }
+    }
+  }
+
+  job.status = 'done'
+  job.progress = 100
+  job.message = ''
+  job.error = null
+  job.candidates = []
+  job.manualCandidates = []
+  job.appliedCandidate = candidate || null
+  notify()
+  schedulePersist()
+  return candidate
+}
+
+/**
+ * Link an awaiting lookup to an import-review candidate so it is reviewed
+ * in the import form instead of a separate search-suggestions list.
+ */
+export function linkFieldLookupToReviewCandidate(jobId, candidateId) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || !candidateId) return false
+  job.reviewCandidateId = String(candidateId)
+  job.candidateId = String(candidateId)
+  notify()
+  schedulePersist()
+  return true
+}
+
+export function dismissFieldLookup(jobId) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || job.status !== 'awaiting') return false
+  job.status = 'done'
+  job.progress = 100
+  job.message = ''
+  job.candidates = []
+  job.manualCandidates = []
+  notify()
+  schedulePersist()
+  return true
+}
+
+export function start() {
+  paused = false
+  if (!running) running = true
+  processQueue()
+  notify()
+  schedulePersist()
+}
+
+export function stop() {
+  paused = true
+  if (currentJobId) {
+    const job = jobs.find(function(item) { return item.id === currentJobId })
+    abortRunningJob(job)
+  }
+  notify()
+  schedulePersist()
+}
+
+function notifyLive(job) {
+  const handler = liveHandlers.get(liveHandlerKey(targetKeyForJob(job), job.kind))
+  if (!handler) return
+  try {
+    if (job.status === 'awaiting' && typeof handler.onAwaiting === 'function') {
+      handler.onAwaiting(publicJob(job))
+    } else if (job.status === 'error' && typeof handler.onError === 'function') {
+      handler.onError(publicJob(job))
+    } else if ((job.status === 'running' || job.status === 'pending') && typeof handler.onProgress === 'function') {
+      handler.onProgress(publicJob(job))
+    }
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+function normalizeCandidatesFromResult(kind, result, options) {
+  if (!result) return { candidates: [], manualCandidates: [], empty: true }
+
+  if (kind === 'composer') {
+    const candidates = buildComposerPickerCandidates(result, options && options.currentComposer)
+    return {
+      candidates: candidates,
+      manualCandidates: [],
+      empty: candidates.length === 0,
+    }
+  }
+
+  if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
+    return {
+      candidates: [],
+      manualCandidates: result.manualCandidates,
+      empty: true,
+    }
+  }
+
+  if (result.multiple && Array.isArray(result.candidates)) {
+    return {
+      candidates: result.candidates,
+      manualCandidates: [],
+      empty: result.candidates.length === 0,
+    }
+  }
+
+  if (!result.empty && result) {
+    // Single result object (lyrics/chords/notation)
+    if (kind === 'notation' && Array.isArray(result.candidates) && result.candidates.length > 0) {
+      return { candidates: result.candidates, manualCandidates: [], empty: false }
+    }
+    return {
+      candidates: [result],
+      manualCandidates: [],
+      empty: false,
+    }
+  }
+
+  return { candidates: [], manualCandidates: [], empty: true }
+}
+
+async function existingLinksAreValid(tune, searchOptions, signal) {
+  if (!tuneHasLinkContent(tune)) return false
+  const links = Array.isArray(tune.links) ? tune.links : []
+  const isYoutubeLink = searchOptions && searchOptions.isYoutubeLink
+  for (let i = 0; i < links.length; i++) {
+    const link = links[i]
+    const emptyReason = getEmptyLinkReason(link)
+    if (emptyReason) continue
+    const srcType = getLinkSrcType(link, isYoutubeLink)
+    const src = String(link.link).trim()
+    let result
+    if (srcType === 'youtube') {
+      result = await checkYouTubeLinkOembed(src, signal)
+    } else if (srcType === 'recording') {
+      // Owned recordings are treated as valid when present; full resolve is expensive.
+      result = { ok: true }
+    } else {
+      result = await checkAudioLinkPlayback(src, { signal: signal, timeoutMs: 12000 })
+    }
+    if (result && result.ok) return true
+  }
+  return false
+}
+
+async function runSearch(job, signal) {
+  const searchOptions = job.searchOptions || {}
+  const base = {
+    title: job.title,
+    artist: job.artist || '',
+    accessToken: job.accessToken,
+    signal: signal,
+    resolverAvailable: searchOptions.resolverAvailable,
+    abcTools: searchOptions.abcTools || null,
+    onProgress: function(message, progress) {
+      if (job.cancelled) return
+      job.message = message || ''
+      if (typeof progress === 'number' && Number.isFinite(progress)) {
+        job.progress = Math.max(0, Math.min(100, Math.round(progress * 100)))
+      }
+      notify()
+      notifyLive(job)
+    },
+  }
+
+  if (job.kind === 'lyrics') {
+    return searchLyrics(base)
+  }
+  if (job.kind === 'chords') {
+    return searchChords(Object.assign({}, base, {
+      renderChords: searchOptions.renderChords || null,
+    }))
+  }
+  if (job.kind === 'composer') {
+    return discoverComposers(Object.assign({}, base, {
+      titleHint: job.titleHint || job.title || '',
+    }))
+  }
+  if (job.kind === 'notation') {
+    return searchNotation(Object.assign({}, base, {
+      songType: (job.options && job.options.songType) || undefined,
+      loadTuneTexts: searchOptions.loadTuneTexts || null,
+      searchIndex: searchOptions.searchIndex || null,
+    }))
+  }
+  if (job.kind === 'links') {
+    const getTune = queueContext.getTune
+    const tune = job.tuneId && typeof getTune === 'function' ? getTune(job.tuneId) : null
+    if (tune) {
+      base.onProgress('Checking existing links…', 0.1)
+      const valid = await existingLinksAreValid(tune, searchOptions, signal)
+      if (valid) {
+        return { skipped: true, reason: 'existing-link-ok' }
+      }
+    }
+    const query = [job.title, job.artist].filter(Boolean).join(' ').trim()
+    base.onProgress('Searching YouTube…', 0.35)
+    return searchYouTubeVideos({
+      query: query,
+      title: job.title,
+      artist: job.artist || '',
+      signal: signal,
+      maxResults: 8,
+    })
+  }
+  throw new Error('Unknown field lookup kind: ' + job.kind)
+}
+
+function hasLiveHandler(job) {
+  return liveHandlers.has(liveHandlerKey(targetKeyForJob(job), job.kind))
+}
+
+/**
+ * When a search finishes off-form: auto-apply a single candidate into an empty field.
+ * Otherwise leave the job awaiting so the form can show a merge suggestion.
+ * When a live form handler is registered, leave awaiting for the in-view UX.
+ */
+function settleCompletedJob(job) {
+  const alwaysPick = !!(job.options && job.options.alwaysPick)
+  const candidates = Array.isArray(job.candidates) ? job.candidates : []
+
+  if (hasLiveHandler(job) || alwaysPick || candidates.length !== 1 || !job.tuneId) {
+    job.status = 'awaiting'
+    job.progress = 100
+    job.message = ''
+    notifyLive(job)
+    return
+  }
+
+  const getTune = queueContext.getTune
+  const saveTune = queueContext.saveTune
+  if (typeof getTune !== 'function' || typeof saveTune !== 'function') {
+    job.status = 'awaiting'
+    job.progress = 100
+    job.message = ''
+    notifyLive(job)
+    return
+  }
+
+  const tune = getTune(job.tuneId)
+  if (!tune || !isTuneFieldEmptyForKind(tune, job.kind)) {
+    job.status = 'awaiting'
+    job.progress = 100
+    job.message = ''
+    notifyLive(job)
+    return
+  }
+
+  const applied = applyCandidateToTune(
+    tune,
+    job.kind,
+    candidates[0],
+    queueContext.abcTools
+  )
+  if (!applied) {
+    job.status = 'awaiting'
+    job.progress = 100
+    job.message = ''
+    notifyLive(job)
+    return
+  }
+
+  try {
+    saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
+    if (typeof queueContext.forceRefresh === 'function') {
+      queueContext.forceRefresh()
+    }
+    toastAppliedFieldLookup(job.kind, tune.name || job.title)
+    job.status = 'done'
+    job.progress = 100
+    job.message = ''
+    job.error = null
+    job.candidates = []
+    job.manualCandidates = []
+    job.appliedCandidate = candidates[0]
+  } catch (e) {
+    job.status = 'awaiting'
+    job.progress = 100
+    job.message = ''
+    notifyLive(job)
+  }
+}
+
+async function runJob(job) {
+  if (job.cancelled || job.status === 'awaiting') return
+
+  job.status = 'running'
+  job.progress = 0
+  job.message = 'Starting search...'
+  job.error = null
+  currentJobId = job.id
+  notify()
+  schedulePersist()
+  notifyLive(job)
+
+  const controller = new AbortController()
+  job.abortController = controller
+
+  try {
+    const result = await runSearch(job, controller.signal)
+    if (job.cancelled) {
+      job.status = 'cancelled'
+      return
+    }
+    if (result && result.skipped) {
+      job.status = 'done'
+      job.progress = 100
+      job.message = result.reason === 'existing-link-ok'
+        ? 'Existing link is valid'
+        : ''
+      job.error = null
+      job.candidates = []
+      job.manualCandidates = []
+      return
+    }
+    const normalized = normalizeCandidatesFromResult(job.kind, result, {
+      currentComposer: job.artist,
+      alwaysPick: !!(job.options && job.options.alwaysPick) || job.kind === 'links',
+    })
+
+    if (normalized.manualCandidates.length > 0 && normalized.candidates.length === 0) {
+      job.manualCandidates = normalized.manualCandidates
+      job.candidates = []
+      job.status = 'awaiting'
+      job.progress = 100
+      job.message = ''
+      notifyLive(job)
+      return
+    }
+
+    if (normalized.empty || normalized.candidates.length === 0) {
+      job.status = 'error'
+      job.error = job.kind === 'composer'
+        ? 'Artist search returned no artist'
+        : job.kind === 'links'
+          ? 'No YouTube link suggestions found'
+          : ('No ' + job.kind + ' found for this song')
+      job.candidates = []
+      notifyLive(job)
+      return
+    }
+
+    job.candidates = normalized.candidates
+    job.manualCandidates = []
+    // Link suggestions always go to review / choose UI.
+    if (job.kind === 'links') {
+      job.options = Object.assign({}, job.options || {}, { alwaysPick: true })
+    }
+    settleCompletedJob(job)
+  } catch (e) {
+    if (job.cancelled || isAbortError(e)) {
+      job.status = 'cancelled'
+      job.error = null
+    } else {
+      job.status = 'error'
+      job.error = e && e.message ? e.message : (kindLabel(job.kind) + ' failed')
+      notifyLive(job)
+    }
+  } finally {
+    job.abortController = null
+    if (currentJobId === job.id) currentJobId = null
+    notify()
+    schedulePersist()
+  }
+}
+
+let processQueueRunning = false
+
+async function processQueue() {
+  if (processQueueRunning || paused) return
+  processQueueRunning = true
+  try {
+    while (running && !paused) {
+      const next = jobs.find(function(job) { return job.status === 'pending' && !job.cancelled })
+      if (!next) {
+        running = false
+        break
+      }
+      await runJob(next)
+    }
+  } finally {
+    processQueueRunning = false
+    notify()
+    schedulePersist()
+  }
+}
+
+export function __resetForTests() {
+  jobCounter = 0
+  running = false
+  paused = false
+  jobs = []
+  currentJobId = null
+  persistTimer = null
+  restored = false
+  liveHandlers.clear()
+  listeners.clear()
+  queueContext = {
+    getTune: null,
+    saveTune: null,
+    forceRefresh: null,
+    abcTools: null,
+  }
+}
+
+export function __loadSavedStateForTests(saved) {
+  jobCounter = typeof saved.jobCounter === 'number' ? saved.jobCounter : 0
+  running = false
+  paused = !!saved.paused
+  jobs = (saved.jobs || []).map(function(item) {
+    return {
+      id: item.id,
+      tuneId: item.tuneId || null,
+      candidateId: item.candidateId || null,
+      kind: item.kind,
+      label: item.label || kindLabel(item.kind),
+      title: item.title || '',
+      artist: item.artist || '',
+      tuneName: item.tuneName || '',
+      titleHint: item.titleHint || '',
+      status: item.status === 'running' ? 'pending' : (item.status || 'pending'),
+      progress: typeof item.progress === 'number' ? item.progress : 0,
+      message: item.message || '',
+      error: item.error || null,
+      candidates: Array.isArray(item.candidates) ? item.candidates : [],
+      manualCandidates: Array.isArray(item.manualCandidates) ? item.manualCandidates : [],
+      options: item.options || {},
+      searchOptions: {},
+      accessToken: item.accessToken || null,
+      cancelled: !!item.cancelled,
+    }
+  })
+  notify()
+}

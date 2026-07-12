@@ -14,9 +14,9 @@ export function registerImportReviewStarter(handler) {
   startReviewHandler = handler
 }
 
-export function requestImportReview(candidates) {
+export function requestImportReview(candidates, options) {
   if (typeof startReviewHandler === 'function') {
-    startReviewHandler(candidates)
+    startReviewHandler(candidates, options)
   }
 }
 

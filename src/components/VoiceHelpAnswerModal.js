@@ -1,18 +1,50 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap';
 import { submitHelpQuery } from '../helpQueryClient';
+import {
+  helpPathForSection,
+  helpSectionIdFromLink,
+  scrollToHelpSection,
+} from '../helpNavigation';
 
 function normalizeLinks(links) {
   return Array.isArray(links) ? links.filter(Boolean) : [];
 }
 
+function linkLabel(link) {
+  const sectionId = helpSectionIdFromLink(link);
+  if (sectionId) {
+    return sectionId.replace(/-/g, ' ');
+  }
+  return String(link || 'Help link');
+}
+
+function isVagueHelpAnswer(answer) {
+  const normalized = String(answer || '').trim().toLowerCase().replace(/\.+$/, '');
+  if (!normalized) return true;
+  return normalized === 'open the help section for the closest topic'
+    || normalized.startsWith('open the help section')
+    || normalized === 'open the related help topic below for step-by-step guidance on this question';
+}
+
+function resolveHelpAnswer(primary, fallback, links) {
+  if (primary && !isVagueHelpAnswer(primary)) return primary;
+  if (fallback && !isVagueHelpAnswer(fallback)) return fallback;
+  const firstLink = normalizeLinks(links)[0];
+  if (firstLink) {
+    return 'Open the related help topic “' + linkLabel(firstLink) + '” below for the steps.';
+  }
+  return primary || fallback || '';
+}
+
 export default function VoiceHelpAnswerModal(props) {
+  const navigate = useNavigate();
   const [retryNonce, setRetryNonce] = useState(0);
   const [answerState, setAnswerState] = useState(function() {
     return {
       question: props.question || '',
-      answer: props.answer || '',
+      answer: resolveHelpAnswer(props.answer, '', props.links),
       links: normalizeLinks(props.links),
     };
   });
@@ -20,7 +52,7 @@ export default function VoiceHelpAnswerModal(props) {
   useEffect(function() {
     setAnswerState({
       question: props.question || '',
-      answer: props.answer || '',
+      answer: resolveHelpAnswer(props.answer, '', props.links),
       links: normalizeLinks(props.links),
     });
   }, [props.question, props.answer, props.links, props.show]);
@@ -35,10 +67,11 @@ export default function VoiceHelpAnswerModal(props) {
       onProgress: props.onProgress,
     }).then(function(result) {
       if (cancelled) return;
+      const nextLinks = normalizeLinks(result.links && result.links.length ? result.links : props.links);
       setAnswerState({
         question: result.question || props.question,
-        answer: result.answer || props.answer || '',
-        links: normalizeLinks(result.links && result.links.length ? result.links : props.links),
+        answer: resolveHelpAnswer(result.answer, props.answer, nextLinks),
+        links: nextLinks,
       });
     }).catch(function() {
       // Keep the voice-provided answer if the direct help query fails.
@@ -48,6 +81,17 @@ export default function VoiceHelpAnswerModal(props) {
       cancelled = true;
     };
   }, [props.show, props.question, props.answer, props.links, props.accessToken, props.onProgress, retryNonce]);
+
+  function openHelpLink(link) {
+    const sectionId = helpSectionIdFromLink(link);
+    if (typeof props.onHide === 'function') {
+      props.onHide();
+    }
+    navigate(helpPathForSection(sectionId));
+    window.setTimeout(function() {
+      if (sectionId) scrollToHelpSection(sectionId);
+    }, 120);
+  }
 
   const links = normalizeLinks(answerState.links);
 
@@ -67,12 +111,19 @@ export default function VoiceHelpAnswerModal(props) {
               <div className="mb-2"><strong>Related help</strong></div>
               <ul className="mb-0">
                 {links.map(function(link) {
-                  const label = typeof link === 'string' && link.indexOf('#') !== -1
-                    ? link.split('#').pop().replace(/-/g, ' ')
-                    : String(link || 'Help link');
+                  const sectionId = helpSectionIdFromLink(link);
+                  const to = helpPathForSection(sectionId);
                   return (
                     <li key={link}>
-                      <Link to={link}>{label}</Link>
+                      <Link
+                        to={to}
+                        onClick={function(event) {
+                          event.preventDefault();
+                          openHelpLink(link);
+                        }}
+                      >
+                        {linkLabel(link)}
+                      </Link>
                     </li>
                   );
                 })}

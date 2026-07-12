@@ -1,6 +1,6 @@
 export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'name', label: 'Title', group: 'ABC metadata', defaultImport: true },
-  { key: 'composer', label: 'Composer', group: 'ABC metadata', defaultImport: true },
+  { key: 'composer', label: 'Artist', group: 'ABC metadata', defaultImport: true },
   { key: 'genre', label: 'Genre', group: 'ABC metadata', defaultImport: true },
   { key: 'rhythm', label: 'Rhythm', group: 'ABC metadata', defaultImport: true },
   { key: 'meter', label: 'Time signature', group: 'ABC metadata', defaultImport: true },
@@ -33,7 +33,7 @@ export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'timingScaffold', label: 'Timing scaffold', group: 'Playback & extras', defaultImport: false },
   { key: 'backgroundInfo', label: 'Background info', group: 'Playback & extras', defaultImport: false },
   { key: 'srcUrl', label: 'Source URL', group: 'Playback & extras', defaultImport: false },
-  { key: 'composerId', label: 'Composer ID', group: 'Playback & extras', defaultImport: false },
+  { key: 'composerId', label: 'Artist ID', group: 'Playback & extras', defaultImport: false },
   { key: 'notes', label: 'Legacy notes', group: 'Music', defaultImport: false },
 ];
 

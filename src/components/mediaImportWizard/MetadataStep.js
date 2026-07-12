@@ -1,8 +1,10 @@
 import { Alert, Button, Form } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
-import ComposerSearchButton from '../ComposerSearchButton';
-import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick';
-import KeySignatureInput from '../KeySignatureInput';
+import ComposerSearchButton from '../ComposerSearchButton'
+import FieldLookupReviewButton from '../FieldLookupReviewButton'
+import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
+import CapitalizeTitleButton from '../CapitalizeTitleButton'
+import KeySignatureInput from '../KeySignatureInput'
 
 function PendingImportCard(props) {
   const item = props.item;
@@ -110,7 +112,13 @@ export default function MediaImportMetadataStep(props) {
   return (
     <Form>
       <Form.Group className="mb-3">
-        <Form.Label>Title</Form.Label>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+          <Form.Label style={{ marginBottom: 0 }}>Title</Form.Label>
+          <CapitalizeTitleButton
+            value={metadata.name}
+            onCapitalize={function(next) { update('name', next); }}
+          />
+        </div>
         <Form.Control
           value={metadata.name || ''}
           onChange={function(e) { update('name', e.target.value); }}
@@ -118,8 +126,10 @@ export default function MediaImportMetadataStep(props) {
       </Form.Group>
       <Form.Group className="mb-3">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-          <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
+          <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
           <ComposerSearchButton
+            tuneId={props.tune && props.tune.id}
+            candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
             title={metadata.name || ''}
             composer={metadata.composer || ''}
             titleHint={metadata.name || ''}
@@ -131,6 +141,20 @@ export default function MediaImportMetadataStep(props) {
             onComposer={function(result) {
               if (result && result.artist) {
                 update('composer', result.artist);
+                if (typeof props.onDraftChange === 'function') {
+                  props.onDraftChange({ lookupComposerCandidates: [] });
+                }
+              }
+            }}
+          />
+          <FieldLookupReviewButton
+            tuneId={props.tune && props.tune.id}
+            candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
+            kind="composer"
+            fallbackTitle={metadata.name || ''}
+            onApply={function(candidate) {
+              if (candidate && candidate.artist) {
+                update('composer', candidate.artist);
                 if (typeof props.onDraftChange === 'function') {
                   props.onDraftChange({ lookupComposerCandidates: [] });
                 }

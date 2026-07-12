@@ -60,6 +60,24 @@ describe('lyricBarAlignmentUtils', function() {
     expect(detectBarsPerLyricLine(4, 8, changes)).toBe(2);
   });
 
+  test('detectBarsPerLyricLine keeps two bars per line for hymn cadence pattern', function() {
+    // Angels We Have Heard: one 8-bar notes line covers four lyric lines.
+    // Cadences land mid-couplet (bars 3 and 7); do not collapse to 4 bars/line.
+    const bars = [['G'], [], [], ['D', 'G'], ['G'], [], [], ['D', 'G']];
+    const changes = chordChangeBarIndices(bars);
+    expect(detectBarsPerLyricLine(4, 8, changes)).toBe(2);
+    const result = assignLyricLinesToBarsForChart(
+      ['line one', 'line two', 'line three', 'line four'],
+      8,
+      bars
+    );
+    expect(result.barsPerLyricLine).toBe(2);
+    expect(result.assignments[0]).toMatchObject({ startBar: 0, endBar: 1 });
+    expect(result.assignments[1]).toMatchObject({ startBar: 2, endBar: 3 });
+    expect(result.assignments[2]).toMatchObject({ startBar: 4, endBar: 5 });
+    expect(result.assignments[3]).toMatchObject({ startBar: 6, endBar: 7 });
+  });
+
   test('assignLyricLinesToBarsForChart splits four bars across two lyric lines', function() {
     const chart = [['Fm'], ['Am'], ['Em'], ['F']];
     const lines = ['first sung line', 'second sung line'];

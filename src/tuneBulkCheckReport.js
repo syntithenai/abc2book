@@ -7,6 +7,7 @@ import { formatTuneDisplayName } from './tuneDisplayName'
 import { checkTuneCompleteness } from './tuneCompletenessCheck'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
 import { tuneHasLinkContent } from './checkTuneLinkPlayback'
+import { isSongTitleCapitalized } from './titleCaseUtils'
 
 export const SEVERITY_RED = 'red'
 export const SEVERITY_ORANGE = 'orange'
@@ -60,7 +61,11 @@ function collectFieldWarnings(tune) {
     warnings.push(issue('missing_tempo', 'Tempo is missing', 'warning', 'tempo'))
   }
   if (!String(tune.composer ?? '').trim()) {
-    warnings.push(issue('missing_composer', 'Artist/composer is missing', 'warning', 'composer'))
+    warnings.push(issue('missing_composer', 'Artist is missing', 'warning', 'composer'))
+  }
+  const title = String(tune.name ?? '').trim()
+  if (title && !isSongTitleCapitalized(title)) {
+    warnings.push(issue('title_not_capitalized', 'Title is not capitalised', 'warning', 'name'))
   }
   return warnings
 }

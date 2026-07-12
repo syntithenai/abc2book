@@ -21,6 +21,10 @@ YOUTUBE_SECTION_HEADING_RE = re.compile(
     r"^(notable\s+recordings\s+and\s+)?youtube(\s+links)?\b",
     re.IGNORECASE,
 )
+REFERENCES_SECTION_HEADING_RE = re.compile(
+    r"^references\b",
+    re.IGNORECASE,
+)
 YOUTUBE_VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 MAX_WIKIPEDIA_LOOKUPS = 12
 MAX_YOUTUBE_LINKS = int(os.getenv("RESEARCH_MAX_YOUTUBE_LINKS", "12"))
@@ -518,6 +522,21 @@ def insert_youtube_links_section(text, links):
         end = _section_end_offset(result, labels_heading, headings)
         before = result[:end].rstrip()
         after = result[end:].lstrip("\n")
+        return (
+            before + "\n\n" + section.rstrip() + ("\n\n" + after if after else "\n")
+        ).rstrip() + "\n"
+
+    references_heading = next(
+        (
+            heading
+            for heading in headings
+            if _heading_matches(REFERENCES_SECTION_HEADING_RE, heading.group(2))
+        ),
+        None,
+    )
+    if references_heading:
+        before = result[:references_heading.start()].rstrip()
+        after = result[references_heading.start():].lstrip("\n")
         return (
             before + "\n\n" + section.rstrip() + ("\n\n" + after if after else "\n")
         ).rstrip() + "\n"

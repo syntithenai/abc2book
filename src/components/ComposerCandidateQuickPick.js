@@ -13,7 +13,7 @@ export default function ComposerCandidateQuickPick({
     <Form.Select
       size={size || 'sm'}
       className={className || 'composer-candidate-quick-pick'}
-      aria-label="Choose discovered composer"
+      aria-label="Choose discovered artist"
       defaultValue=""
       onChange={function(e) {
         const value = e.target.value
@@ -25,10 +25,14 @@ export default function ComposerCandidateQuickPick({
       <option value="">{placeholder || 'Choose discovered artist…'}</option>
       {candidates.map(function(candidate, index) {
         const artist = candidate && candidate.artist ? candidate.artist : ''
+        const role = candidate && candidate.role === 'writer'
+          ? 'Writer'
+          : (candidate && candidate.role === 'performer' ? 'Performer' : '')
         const source = candidate && candidate.source ? candidate.source : ''
+        const detail = role || source
         return (
           <option key={artist + '-' + index} value={artist}>
-            {artist}{source ? ' (' + source + ')' : ''}
+            {artist}{detail ? ' (' + detail + ')' : ''}
           </option>
         )
       })}

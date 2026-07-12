@@ -20,6 +20,8 @@ import useMusicBrainz from '../useMusicBrainz'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
+import FieldLookupReviewButton from './FieldLookupReviewButton'
+import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
@@ -34,7 +36,6 @@ import {
   normalizeEditorViewMode,
   isNotationEditorView,
   editorViewModeToNotationView,
-  applyGeneratedBackgroundInfo,
 } from '../viewModeUtils'
 import TuneAliasesField from './TuneAliasesField'
 
@@ -354,7 +355,17 @@ export default function AbcEditor(props) {
                       <Row>
                         <Col xs={12} md={5}>
                           <Form.Group className="mb-3" controlId="title">
-                            <Form.Label>Title</Form.Label>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                              <Form.Label style={{ marginBottom: 0 }}>Title</Form.Label>
+                              <CapitalizeTitleButton
+                                value={tune.name}
+                                onCapitalize={function(next) {
+                                  tune.name = next
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
                             <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
                           </Form.Group>
                         </Col>
@@ -363,6 +374,7 @@ export default function AbcEditor(props) {
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                               <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
                               <ComposerSearchButton
+                                tuneId={params.tuneId || tune.id}
                                 title={tune.name || ''}
                                 composer={tune && tune.composer ? tune.composer : ''}
                                 titleHint={tune.name || ''}
@@ -373,6 +385,18 @@ export default function AbcEditor(props) {
                                 onComposer={function(result) {
                                   if (result && result.artist) {
                                     tune.composer = result.artist
+                                    tune.id = params.tuneId
+                                    saveTune(tune)
+                                  }
+                                }}
+                              />
+                              <FieldLookupReviewButton
+                                tuneId={params.tuneId || tune.id}
+                                kind="composer"
+                                fallbackTitle={tune.name || ''}
+                                onApply={function(candidate) {
+                                  if (candidate && candidate.artist) {
+                                    tune.composer = candidate.artist
                                     tune.id = params.tuneId
                                     saveTune(tune)
                                   }
@@ -644,6 +668,7 @@ export default function AbcEditor(props) {
                         </div>
                         <div style={{ margin: '0.5em 0' }}>
                           <TuneBackgroundSearchButton
+                            tuneId={params.tuneId || tune.id}
                             title={tune.name}
                             artist={tune.composer || ''}
                             lyrics={wLinesText}
@@ -656,9 +681,6 @@ export default function AbcEditor(props) {
                             onBackgroundInfo={function(result) {
                               setBackgroundInfoText(result.text)
                               setBackgroundInfoPreview(true)
-                              applyGeneratedBackgroundInfo(tune, result.text)
-                              tune.id = params.tuneId
-                              saveTune(tune)
                             }}
                           />
                         </div>
@@ -713,6 +735,7 @@ export default function AbcEditor(props) {
                     <div className="abc-editor-lyrics-panel">
                     <div className="abc-editor-lyrics-toolbar">
                       <LyricsSearchButton
+                        tuneId={params.tuneId || tune.id}
                         title={tune.name}
                         artist={tune.composer || ''}
                         rhythm={tune.rhythm || ''}
@@ -720,7 +743,19 @@ export default function AbcEditor(props) {
                         onGenreAccept={acceptSuggestedGenre}
                         token={props.token}
                         tunebook={props.tunebook}
+                        existingLyrics={wLinesText}
                         onLyrics={function(result) {
+                          setWLinesText(result.text)
+                          setPlainLyricLines(tune, result.lines)
+                          tune.id = params.tuneId
+                          saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
+                        }}
+                      />
+                      <FieldLookupReviewButton
+                        tuneId={params.tuneId || tune.id}
+                        kind="lyrics"
+                        fallbackTitle={tune.name || ''}
+                        onApply={function(result) {
                           setWLinesText(result.text)
                           setPlainLyricLines(tune, result.lines)
                           tune.id = params.tuneId

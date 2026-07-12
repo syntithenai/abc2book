@@ -194,7 +194,7 @@ export default function BooksPage(props) {
                 />
 
                 <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
-                    <h3 className="books-page-section-title">filters</h3>
+                    <h3 className="books-page-section-title">Filters</h3>
                     <YourFilters
                         embedded
                         showWhenEmpty
@@ -211,7 +211,7 @@ export default function BooksPage(props) {
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.recent} className="books-page-section">
-                    <h3 className="books-page-section-title">recent</h3>
+                    <h3 className="books-page-section-title">Recent</h3>
                     {recentTunes.length > 0 ? (
                         <>
                             <div className="books-page-recent-list">
@@ -249,7 +249,7 @@ export default function BooksPage(props) {
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.books} className="books-page-section">
-                    <h3 className="books-page-section-title">books</h3>
+                    <h3 className="books-page-section-title">Books</h3>
                     <input className="books-page-section-search" type="search" value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {tbOptions.map(function(option, ok) {
@@ -271,7 +271,7 @@ export default function BooksPage(props) {
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.tags} className="books-page-section">
-                    <h3 className="books-page-section-title">tags</h3>
+                    <h3 className="books-page-section-title">Tags</h3>
                     <input className="books-page-section-search" type="search" value={searchTagFilter} onChange={function(e) {setSearchTagFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {tagOptions.map(function(option, ok) {
@@ -292,7 +292,7 @@ export default function BooksPage(props) {
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.genres} className="books-page-section">
-                    <h3 className="books-page-section-title">genres</h3>
+                    <h3 className="books-page-section-title">Genres</h3>
                     <input className="books-page-section-search" type="search" value={searchGenreFilter} onChange={function(e) {setSearchGenreFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {genreOptions.map(function(option, ok) {
@@ -313,7 +313,7 @@ export default function BooksPage(props) {
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.artists} className="books-page-section">
-                    <h3 className="books-page-section-title">artists</h3>
+                    <h3 className="books-page-section-title">Artists</h3>
                     <input className="books-page-section-search" type="search" value={searchArtistFilter} onChange={function(e) {setSearchArtistFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {artistOptions.map(function(option, ok) {

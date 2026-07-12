@@ -549,12 +549,12 @@ export default function IndexLayout(props) {
 			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >
 			
 				{(filtered && filtered.length > 0) &&<span  ><Button variant={freshSelectedCount > 0 ? "secondary" : 'success'} onClick={function(e) {selectAllToggle()}}  >{props.tunebook.icons.checkdouble}</Button></span>}
-				{(filtered && filtered.length > 0) && <span style={{marginLeft:'0.35em'}}><Button variant="success" data-testid="play-from-list-button" onClick={handlePlayFromList}>{freshSelectedCount > 0 ? 'Play Selected' : 'Play All'}</Button></span>}
 				
-				{freshSelectedCount > 0 &&  <SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} />}
+				{freshSelectedCount > 0 &&  <span style={{marginLeft:'0.35em'}}><SelectedItemsModal mediaController={props.mediaController} tunebook={props.tunebook} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} defaultTagOptions={props.tunebook.getTuneTagOptions} searchTagOptions={props.tunebook.getSearchTuneTagOptions} forceRefresh={function() {forceRefresh()}} selected={selected} setSelected={setSelected}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} selectedCount={freshSelectedCount} setSelectedCount={setSelectedCount} /></span>}
 				
 				{(freshSelectedCount > 0 && filtered)  && <span style={{marginLeft:'0.5em'}} >{freshSelectedCount}/{filtered.length} tunes selected</span>}
 				{(freshSelectedCount === 0 && filtered) && <span style={{marginLeft:'0.5em'}} >{Object.keys(filtered).length} matching tunes</span>}
+				{(filtered && filtered.length > 0) && <span className="tune-list-play-wrap"><Button className="tune-list-play-btn" variant="success" data-testid="play-from-list-button" aria-label={freshSelectedCount > 0 ? 'Play Selected' : 'Play All'} onClick={handlePlayFromList}>{props.tunebook.icons.playwhite}<span className="tune-list-play-label"><span className="tune-list-play-verb">Play </span>{freshSelectedCount > 0 ? 'Selected' : 'All'}</span></Button></span>}
 			
 			</div>}
         </div>

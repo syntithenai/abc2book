@@ -1,17 +1,24 @@
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { discoverRecordingArtists } from './recordingArtistsClient'
+import { discoverRecordingArtists, discoverWorkWriters } from './recordingArtistsClient'
 import { parseTitleComposerHints } from './composerDiscoveryUtils'
 
 const COMPOSER_ACCEPT_HEADER = 'application/x-ndjson, application/json'
 
+function normalizeComposerRole(role) {
+  const value = typeof role === 'string' ? role.trim().toLowerCase() : ''
+  return value === 'writer' ? 'writer' : (value === 'performer' ? 'performer' : '')
+}
+
 function normalizeSingleComposerResult(body) {
   const artist = typeof body.artist === 'string' ? body.artist.trim() : ''
   if (!artist) {
-    throw new Error('Composer search returned no artist')
+    throw new Error('Artist search returned no artist')
   }
+  const role = normalizeComposerRole(body.role)
   return {
     artist: artist,
+    role: role,
     source: typeof body.source === 'string' ? body.source : '',
     preview: typeof body.preview === 'string' ? body.preview : artist,
   }
@@ -19,7 +26,7 @@ function normalizeSingleComposerResult(body) {
 
 export function normalizeComposerSearch(body) {
   if (!body || typeof body !== 'object') {
-    throw new Error('Resolver returned an invalid composer search response')
+    throw new Error('Resolver returned an invalid artist search response')
   }
   if (body.error) {
     throw new Error(body.error)
@@ -29,7 +36,7 @@ export function normalizeComposerSearch(body) {
       return normalizeSingleComposerResult(candidate)
     })
     if (candidates.length === 0) {
-      throw new Error('Composer search returned no candidates')
+      throw new Error('Artist search returned no candidates')
     }
     return {
       multiple: true,
@@ -48,7 +55,7 @@ export function handleComposerSearchStreamEvent(event, onProgress) {
     return null
   }
   if (event.type === 'error') {
-    throw new Error(event.message || 'Composer search failed')
+    throw new Error(event.message || 'Artist search failed')
   }
   if (event.type === 'result') {
     return normalizeComposerSearch(event.body)
@@ -61,10 +68,10 @@ async function parseComposerSearchResponse(response) {
   try {
     body = await response.json()
   } catch (e) {
-    throw new Error('Resolver returned an unreadable composer search response')
+    throw new Error('Resolver returned an unreadable artist search response')
   }
   if (!response.ok) {
-    throw new Error(body && body.error ? body.error : 'Composer search failed')
+    throw new Error(body && body.error ? body.error : 'Artist search failed')
   }
   return normalizeComposerSearch(body)
 }
@@ -95,7 +102,7 @@ async function parseStreamingComposerSearchResponse(response, onProgress) {
       if (result) return result
     }
   }
-  throw new Error('Composer search stream ended without a result')
+  throw new Error('Artist search stream ended without a result')
 }
 
 export async function discoverComposersViaResolver(options) {
@@ -114,7 +121,7 @@ export async function discoverComposersViaResolver(options) {
   }
 
   if (typeof onProgress === 'function') {
-    onProgress('Starting composer search...', 0, 'start')
+    onProgress('Starting artist search...', 0, 'start')
   }
 
   const response = await fetchViaMediaProxy('/discover-composer', accessToken, {
@@ -143,32 +150,63 @@ async function discoverComposersLight(options) {
   if (!hints.title) {
     throw new Error('Song title is required')
   }
-  const artists = await discoverRecordingArtists({
+  const writers = await discoverWorkWriters({
+    title: hints.title,
+    signal: options.signal,
+    maxWriters: 6,
+  })
+  const performers = await discoverRecordingArtists({
     title: hints.title,
     artist: hints.artistHint,
     signal: options.signal,
     maxArtists: 8,
   })
-  if (!artists.length) {
-    throw new Error('No composer or recording artist found')
-  }
-  if (artists.length === 1) {
-    return {
-      multiple: false,
-      artist: artists[0],
-      source: 'MusicBrainz',
-      preview: artists[0],
+  const seen = {}
+  const candidates = []
+  function add(name, role, source, preview) {
+    const artist = String(name || '').trim()
+    if (!artist) return
+    const key = artist.toLowerCase().replace(/[^a-z0-9]+/g, '')
+    if (!key || seen[key]) {
+      if (seen[key] && seen[key].role !== 'writer' && role === 'writer') {
+        seen[key].role = 'writer'
+        seen[key].source = source
+        seen[key].preview = preview
+      }
+      return
     }
+    const entry = {
+      artist: artist,
+      role: role,
+      source: source,
+      preview: preview,
+    }
+    seen[key] = entry
+    candidates.push(entry)
+  }
+  writers.forEach(function(name) {
+    add(name, 'writer', 'Writer · MusicBrainz', 'Writer of this song')
+  })
+  if (hints.artistHint) {
+    add(hints.artistHint, 'performer', 'Performer · title hint', 'Performer of this song')
+  }
+  performers.forEach(function(name) {
+    add(name, 'performer', 'Performer · MusicBrainz', 'Performer of this song')
+  })
+  // Keep writers first after any role upgrades.
+  candidates.sort(function(a, b) {
+    if (a.role === b.role) return 0
+    return a.role === 'writer' ? -1 : 1
+  })
+  if (!candidates.length) {
+    throw new Error('No artist found')
+  }
+  if (candidates.length === 1) {
+    return Object.assign({ multiple: false }, candidates[0])
   }
   return {
     multiple: true,
-    candidates: artists.map(function(name) {
-      return {
-        artist: name,
-        source: 'MusicBrainz',
-        preview: name,
-      }
-    }),
+    candidates: candidates,
   }
 }
 

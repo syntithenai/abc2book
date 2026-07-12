@@ -39,6 +39,12 @@ export function collectReadyReviewKeys(summary) {
   mediaReady.forEach(function(id) {
     keys.push('media:' + id)
   })
+  const fieldLookupAwaiting = summary && Array.isArray(summary.fieldLookupAwaiting)
+    ? summary.fieldLookupAwaiting
+    : []
+  fieldLookupAwaiting.forEach(function(id) {
+    keys.push('field:' + id)
+  })
   return keys
 }
 

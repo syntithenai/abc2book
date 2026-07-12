@@ -69,18 +69,115 @@ HELP_LINKS = [
     ("organise", "Add and organise", "Books, tags, genres, and filters"),
     ("edit-music", "Edit music", "Music editor and notation editing"),
     ("practise", "Practise with media", "Playback and practice controls"),
+    ("tuner", "Tuner", "Instrument tuner and intonation checks"),
     ("lyrics-chords", "Lyrics and chords", "Lyrics, chords, and background info"),
     ("offline-sync", "Offline and sync", "Offline use and sync troubleshooting"),
     ("media-resolver", "Media resolver", "Resolver-dependent features"),
     ("automatic-detection", "Automatic detection", "Lyrics, chords, and melody analysis"),
     ("import-from-media", "Import from media", "Importing from audio/video"),
     ("chord-sheet-import", "Chord sheet import and export", "Chord sheet workflows"),
+    ("foot-pedal", "Foot pedal / page turn", "Bluetooth foot pedal scrolling and page turn"),
     ("performance-sets", "Performance sets and Gig Mode", "Gig and set playback"),
     ("more-features", "More features", "Extra tools and tips"),
     ("youtube", "YouTube and linked media", "Linked media and YouTube playback"),
     ("abc-notation", "ABC notation", "ABC syntax and notation details"),
     ("chords-detail", "Chords in detail", "Chord notation guidance"),
+    ("confidence", "Confidence tracking", "Confidence and difficulty tracking"),
 ]
+
+# Short how-to blurbs used for LLM context and offline fallbacks when the model
+# returns an empty answer.
+HELP_ANSWER_BLURBS = {
+    "start-here": (
+        "Use the header Add button to create or import a tune, open it from the "
+        "tune list, then Edit from the tune menu. Link media with the yellow Links "
+        "button, and practise with generated playback or linked audio/video."
+    ),
+    "what-you-can-do": (
+        "ABC Tune Book lets you collect tunes (ABC, MusicXML, YouTube, media import), "
+        "edit notation and metadata, organise with books/tags/genres, and practise "
+        "with playback, loops, tuner, and linked media."
+    ),
+    "organise": (
+        "Assign books, tags, genre, and artist/composer on a tune's Edit → Info tab. "
+        "Filter the tune list by book, tag, genre, or search text from the tunes page."
+    ),
+    "edit-music": (
+        "Open a tune, then use the tune menu → Edit. Use the Music tab for note lines "
+        "per voice, or the ABC tab for raw notation. Tap the tempo mark or key "
+        "signature in the music view for quick changes; undo/redo are in the editor toolbar."
+    ),
+    "practise": (
+        "On a tune page, play generated MIDI or linked media. Use the media controls "
+        "dropdown for Playback speed, Audio Filters, and named Loop settings. "
+        "Book Tools can play a whole book; Practice in the header starts guided sessions."
+    ),
+    "tuner": (
+        "Open Tuner from the header menu. Choose your instrument and tuning preset, "
+        "then play each string into the mic. Pair Bluetooth accessories first if needed; "
+        "Advanced settings include A4 reference pitch and intonation checks."
+    ),
+    "lyrics-chords": (
+        "In the editor, use the Lyrics and Chords tabs to search, clean, and save "
+        "lyrics/chords. Background information lives on the Info tab, with Research "
+        "Background when the media resolver is available."
+    ),
+    "offline-sync": (
+        "The app works offline with local storage. Log in with the green header button "
+        "to sync your tune book to Google Drive when you want cloud backup."
+    ),
+    "media-resolver": (
+        "The local media resolver powers Whisper, MIDI import, Import from media, "
+        "stem separation, and other analysis features. Start it from Settings when "
+        "those tools are unavailable."
+    ),
+    "automatic-detection": (
+        "When the resolver is available, analysis can detect lyrics, chords, and "
+        "melody from linked media. Use Import from media or related editor wizards "
+        "to run detection and review results."
+    ),
+    "import-from-media": (
+        "Use Add → Import from media, or the editor Wizards button, to analyse "
+        "audio/video and draft lyrics, chords, and melody. Review each step before "
+        "saving into a tune."
+    ),
+    "chord-sheet-import": (
+        "Import chord sheets from Add → Import → Select A File, or paste/edit chords "
+        "in the editor Chords tab. Export chord sheets from tune or book tools when needed."
+    ),
+    "foot-pedal": (
+        "Pair a Bluetooth foot pedal (AirTurn, PageFlip, etc.) in your device settings, "
+        "then configure keys in Settings → Pedal. Page Down scrolls the chart and advances "
+        "to the next tune at the bottom; Page Up scrolls up and goes to the previous tune at the top."
+    ),
+    "performance-sets": (
+        "Build performance sets from books or selected tunes, then use Gig Mode for "
+        "stage-friendly navigation and page turns during a set."
+    ),
+    "more-features": (
+        "Check Help for extra tools such as metronome, keyboard, chords lookup, "
+        "foot-pedal page turn, confidence tracking, and bulk edit/check actions."
+    ),
+    "youtube": (
+        "Attach YouTube or other media with the yellow Links button on a tune page. "
+        "Search YouTube when logged in, or add a link manually, then practise against it."
+    ),
+    "abc-notation": (
+        "ABC is plain-text music notation. Edit it on the editor ABC tab, or use the "
+        "Music tab for structured note lines. Header fields like T: (title), M: (meter), "
+        "K: (key), and Q: (tempo) control playback and display."
+    ),
+    "chords-detail": (
+        "Enter chords in the Chords tab as chord symbols aligned with the tune. "
+        "Use Search Chords when available, Clean Text to tidy layout, then Save. "
+        "See Chords in detail in Help for symbol conventions."
+    ),
+    "confidence": (
+        "On a tune page, use the confidence button (number badge) to set confidence 0–20 "
+        "and optional difficulty. Sort or group the tune list by confidence, and bulk-set "
+        "selected tunes from the Tunes page selection menu."
+    ),
+}
 
 HELP_LINK_HINTS = {
     "start-here": ["start", "begin", "getting started", "new", "intro"],
@@ -88,20 +185,74 @@ HELP_LINK_HINTS = {
     "organise": ["book", "books", "tag", "tags", "genre", "genres", "artist", "artists", "filter", "organise", "organize"],
     "edit-music": ["edit", "editor", "notation", "music editor", "abc editor", "change notes", "transpose"],
     "practise": ["practice", "practise", "playback", "play", "media", "loop", "tempo", "pitch"],
+    "tuner": ["tuner", "tuning", "intonation", "tune my", "string tuning"],
     "lyrics-chords": ["lyrics", "chords", "background", "song info"],
     "offline-sync": ["offline", "sync", "google drive", "login", "save"],
     "media-resolver": ["resolver", "media resolver", "backend", "midi import"],
     "automatic-detection": ["automatic", "detect", "detection", "lyrics and chords", "melody"],
     "import-from-media": ["import from media", "import media", "audio", "video", "transcribe", "analyze media", "analyse media"],
     "chord-sheet-import": ["chord sheet", "export", "import sheet", "sheet import"],
-    "performance-sets": ["gig", "set", "sets", "performance"],
+    "foot-pedal": [
+        "foot pedal",
+        "foot pedals",
+        "page turn",
+        "page turner",
+        "bluetooth pedal",
+        "airturn",
+        "pageflip",
+        "pedal",
+        "scroll-then-song",
+    ],
+    "performance-sets": ["gig", "set", "sets", "performance", "gig mode"],
     "more-features": ["more features", "tips", "extras", "shortcuts"],
     "youtube": ["youtube", "linked media", "link", "media links"],
     "abc-notation": ["abc", "notation", "abc notation"],
     "chords-detail": ["chord theory", "chord notation", "chords in detail"],
+    "confidence": ["confidence", "difficulty", "boost"],
 }
 
 HELP_FALLBACK_LINKS = ["/help#start-here", "/help#what-you-can-do", "/help#edit-music", "/help#practise"]
+
+HELP_RANK_STOPWORDS = {
+    "a",
+    "an",
+    "the",
+    "i",
+    "me",
+    "my",
+    "you",
+    "your",
+    "how",
+    "do",
+    "does",
+    "did",
+    "to",
+    "for",
+    "in",
+    "on",
+    "of",
+    "and",
+    "or",
+    "is",
+    "are",
+    "can",
+    "could",
+    "would",
+    "should",
+    "what",
+    "where",
+    "when",
+    "why",
+    "with",
+    "from",
+    "use",
+    "using",
+    "get",
+    "got",
+    "please",
+    "about",
+    "into",
+}
 
 VOICE_WHISPER_OPTIONS = {
     "whisperPrompt": VOICE_WHISPER_PROMPT,
@@ -197,19 +348,67 @@ def _normalize_help_link(link):
     return ""
 
 
+def _help_link_id(link):
+    normalized = _normalize_help_link(link)
+    if not normalized:
+        return ""
+    return normalized.split("#", 1)[-1]
+
+
+def build_fallback_help_answer(links=None, question=""):
+    """Build a concrete how-to from ranked help topics when the LLM answer is empty."""
+    candidates = list(links or [])
+    if not candidates:
+        candidates = rank_help_links(question)
+    for link in candidates:
+        link_id = _help_link_id(link)
+        blurb = HELP_ANSWER_BLURBS.get(link_id)
+        if blurb:
+            return blurb
+    for link_id, _title, summary in HELP_LINKS:
+        if any(_help_link_id(link) == link_id for link in candidates):
+            return summary
+    return (
+        "Open the related help topic below for step-by-step guidance on this question."
+    )
+
+
+def _is_vague_help_answer(answer):
+    normalized = _normalize_space(answer).lower().rstrip(".")
+    vague = {
+        "open the help section for the closest topic",
+        "open the related help topic below for step-by-step guidance on this question",
+        "see the related help",
+        "see help",
+    }
+    return normalized in vague or normalized.startswith("open the help section")
+
+
 def _fallback_help_links(text):
     normalized = _normalize_space(text).lower()
     rules = [
+        ("foot pedal", "/help#foot-pedal"),
+        ("page turn", "/help#foot-pedal"),
+        ("airturn", "/help#foot-pedal"),
+        ("pageflip", "/help#foot-pedal"),
+        ("pedal", "/help#foot-pedal"),
+        ("import from media", "/help#import-from-media"),
         ("import", "/help#import-from-media"),
-        ("media", "/help#media-resolver"),
         ("resolver", "/help#media-resolver"),
+        ("media", "/help#media-resolver"),
         ("edit", "/help#edit-music"),
         ("notation", "/help#edit-music"),
         ("abc", "/help#abc-notation"),
+        ("chord sheet", "/help#chord-sheet-import"),
         ("chord", "/help#lyrics-chords"),
         ("lyrics", "/help#lyrics-chords"),
+        ("tuner", "/help#tuner"),
+        ("tuning", "/help#tuner"),
         ("practice", "/help#practise"),
-        ("play", "/help#practise"),
+        ("practise", "/help#practise"),
+        ("playback", "/help#practise"),
+        ("confidence", "/help#confidence"),
+        ("gig", "/help#performance-sets"),
         ("sync", "/help#offline-sync"),
         ("offline", "/help#offline-sync"),
         ("book", "/help#organise"),
@@ -233,18 +432,25 @@ def rank_help_links(text, limit=3):
     if not normalized:
         return HELP_FALLBACK_LINKS[:limit]
 
-    token_set = set(re.findall(r"[a-z0-9']+", normalized))
+    token_set = {
+        token
+        for token in re.findall(r"[a-z0-9']+", normalized)
+        if token and token not in HELP_RANK_STOPWORDS and len(token) > 1
+    }
     scored = []
     for link_id, title, summary in HELP_LINKS:
         score = 0
         haystack = f"{title} {summary}".lower()
-        if link_id in normalized:
+        if link_id in normalized or link_id.replace("-", " ") in normalized:
+            score += 8
+        id_parts = [part for part in link_id.split("-") if len(part) > 2]
+        if id_parts and all(part in token_set for part in id_parts):
             score += 8
         for hint in HELP_LINK_HINTS.get(link_id, []):
             if hint in normalized:
-                score += 5
+                score += 5 if " " in hint or len(hint) > 4 else 3
         for token in token_set:
-            if token and token in haystack:
+            if token in haystack:
                 score += 1
         if score > 0:
             scored.append((score, "/help#" + link_id))
@@ -477,13 +683,16 @@ def normalize_voice_intent_from_llm(data, transcript, force_tool=None):
 
 
 def _help_answer_prompt(transcript):
-    help_index = [
-        f"- /help#{link_id}: {title} — {summary}" for link_id, title, summary in HELP_LINKS
-    ]
+    help_index = []
+    for link_id, title, summary in HELP_LINKS:
+        blurb = HELP_ANSWER_BLURBS.get(link_id) or summary
+        help_index.append(f"- /help#{link_id}: {title} — {blurb}")
     system_prompt = (
         "You answer help questions for ABC Tune Book. Respond with JSON only, no markdown. "
         "Schema: {\"tool\":\"ASK_HELP\",\"helpAnswer\":\"\",\"helpLinks\":[],\"confidence\":0.0-1.0} "
-        "Write one short answer, then choose up to 3 relevant helpLinks from the allowed list. "
+        "Write a concrete 1-3 sentence how-to in helpAnswer using the topic blurbs. "
+        "Do not say vague things like 'open the help section' or 'see the closest topic'. "
+        "Then choose up to 3 relevant helpLinks from the allowed list. "
         "Never invent links outside the list."
     )
     user_prompt = (
@@ -496,6 +705,7 @@ def _help_answer_prompt(transcript):
 
 async def parse_help_intent_llm(transcript):
     system_prompt, user_prompt = _help_answer_prompt(transcript)
+    help_max_tokens = max(LLM_MAX_TOKENS, 450)
     async with httpx.AsyncClient(timeout=LLM_TIMEOUT_SECONDS) as client:
         resp = await client.post(
             f"{LLM_BASE_URL}/chat/completions",
@@ -510,7 +720,7 @@ async def parse_help_intent_llm(transcript):
                     {"role": "user", "content": user_prompt},
                 ],
                 "temperature": 0.2,
-                "max_tokens": LLM_MAX_TOKENS,
+                "max_tokens": help_max_tokens,
             },
         )
         resp.raise_for_status()
@@ -533,8 +743,14 @@ async def parse_help_intent_llm(transcript):
         intent["helpLinks"] = merged_links[:3]
     else:
         intent["helpLinks"] = ranked_links
-    if not intent.get("helpAnswer"):
-        intent["helpAnswer"] = "Open the help section for the closest topic."
+    help_answer = _normalize_space(intent.get("helpAnswer"))
+    if not help_answer or _is_vague_help_answer(help_answer):
+        intent["helpAnswer"] = build_fallback_help_answer(
+            intent.get("helpLinks"),
+            question=transcript,
+        )
+    else:
+        intent["helpAnswer"] = help_answer
     return intent
 
 
@@ -646,11 +862,12 @@ async def parse_voice_intent(transcript, books, tags, voice_mode=VOICE_MODE_PLAY
         try:
             return await parse_help_intent_llm(transcript)
         except Exception:
+            help_links = rank_help_links(transcript)
             fallback = _intent_result(
                 transcript,
                 "ASK_HELP",
-                help_answer="Open the help section for the closest topic.",
-                help_links=rank_help_links(transcript),
+                help_answer=build_fallback_help_answer(help_links, question=transcript),
+                help_links=help_links,
                 confidence=LLM_CONFIDENCE_THRESHOLD,
                 parse_method="fallback",
             )

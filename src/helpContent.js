@@ -391,7 +391,7 @@ export function HelpImportFromMedia() {
       <h4>Wizard steps</h4>
       <ol>
         <li><strong>Analyze</strong> — choose <strong>Music type</strong> (vocal vs instrumental), tap <strong>Analyze media</strong>, pick source if several links exist. Runs combined lyrics/chords/melody detection.</li>
-        <li><strong>Metadata</strong> — confirm title, composer, time signature, key (pre-filled from detection when possible).</li>
+        <li><strong>Metadata</strong> — confirm title, artist, time signature, key (pre-filled from detection when possible).</li>
         <li><strong>Lyrics</strong> — review transcribed vs existing lines; merge choices per line/section (supports <strong>timed lyrics alignment</strong> when timing data is available).</li>
         <li><strong>Chords</strong> — edit detected chord scaffold before applying.</li>
         <li><strong>Notation</strong> — review transcribed melody ABC; adjust <strong>Note detection settings</strong> (confidence, min note length, quantize, snap to scale) then apply to notation.</li>
@@ -434,7 +434,7 @@ export function HelpFootPedal() {
         <li><strong>Scroll down</strong> (default <strong>Page Down</strong>) — scrolls the chart down. At the bottom of the chart, the next press goes to the <strong>next tune</strong> (or next tune in an active performance set).</li>
         <li><strong>Scroll up</strong> (default <strong>Page Up</strong>) — scrolls up. At the top, the next press goes to the <strong>previous tune</strong>.</li>
       </ul>
-      <p>Configure keys and scroll step size in <Link to="/settings">Settings</Link> → <strong>Foot pedal / page turn</strong>. Pair the pedal in your device Bluetooth settings first.</p>
+      <p>Configure keys and scroll step size in <Link to="/settings">Settings</Link> → <strong>Pedal</strong>. Pair the pedal in your device Bluetooth settings first.</p>
       <p>Arrow keys on the tune page still skip directly to the previous/next tune in the list (when not typing in a field).</p>
     </>
   );

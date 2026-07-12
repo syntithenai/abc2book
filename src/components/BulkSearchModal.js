@@ -1,25 +1,20 @@
-import { useEffect, useState } from 'react'
-import { Alert, Button, Modal, Spinner } from 'react-bootstrap'
+import { useEffect, useMemo, useState } from 'react'
+import { Alert, Button, ButtonGroup, Dropdown, Modal, Spinner } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { toast } from 'react-toastify'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue'
+import useBulkComposerDiscoveryQueue from '../useBulkComposerDiscoveryQueue'
+import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
+import useStemCreateQueue from '../useStemCreateQueue'
 import { lyricLinesToText } from '../wLinesUtils'
-
-function BulkOpsButton({ icon, label, className, children, ...buttonProps }) {
-  const classes = ['bulk-ops-action-btn']
-  if (className) classes.push(className)
-  return (
-    <Button
-      className={classes.join(' ')}
-      aria-label={label}
-      title={label}
-      {...buttonProps}
-    >
-      {icon}
-      <span className="bulk-ops-btn-label">{children || label}</span>
-    </Button>
-  )
-}
+import { requestTuneMediaAnalysis } from '../useTuneMediaAnalysis'
+import { tuneHasAudioForFix } from '../bulkCheckFixActions'
+import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
+import { isScannableLink } from '../linkPlaybackRegionScanUtils'
+import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
+import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
+import { capitalizeSongTitle, isSongTitleCapitalized } from '../titleCaseUtils'
 
 function formatPreviewSummary(preview) {
   const parts = []
@@ -87,16 +82,30 @@ function ResolverStatusMessage({ checked, resolverAvailable, features, onRetry, 
   return null
 }
 
+const FIELD_LOOKUP_LABELS = {
+  lyrics: 'lyrics',
+  chords: 'chords',
+  notation: 'notation',
+  composer: 'artist',
+  links: 'link',
+}
+
 export default function BulkSearchModal({
   tunebook,
   selected,
   selectedCount,
   token,
+  forceRefresh,
 }) {
   const icons = tunebook.icons
-  const [show, setShow] = useState(false)
+  const [backgroundShow, setBackgroundShow] = useState(false)
+  const [artistsShow, setArtistsShow] = useState(false)
   const [retrying, setRetrying] = useState(false)
   const queue = useBulkBackgroundResearchQueue()
+  const composerQueue = useBulkComposerDiscoveryQueue()
+  const fieldLookupQueue = useTuneFieldLookupQueue()
+  const stemCreateQueue = useStemCreateQueue()
+  const { maybeAutoScan } = useAutoLinkPlaybackRegionScan()
   const {
     available: resolverAvailable,
     checked,
@@ -105,21 +114,28 @@ export default function BulkSearchModal({
   } = useMediaResolverHealth()
   const canResearchBackground = resolverAvailable && features.llm
 
+  const analysisDeps = useMemo(function() {
+    const tunes = {}
+    const selectedTunesList = tunebook.fromSelection(selected)
+    selectedTunesList.forEach(function(tune) {
+      if (tune && tune.id) tunes[tune.id] = tune
+    })
+    return {
+      tunebook: tunebook,
+      tunes: tunes,
+      token: token,
+      forceRefresh: forceRefresh,
+      accessToken: token && token.access_token ? token.access_token : token,
+    }
+  }, [tunebook, selected, token, forceRefresh])
+
   useEffect(function() {
-    if (!show) return
+    if (!backgroundShow) return
     refreshMediaResolverHealth()
-  }, [show, refreshMediaResolverHealth])
+  }, [backgroundShow, refreshMediaResolverHealth])
 
   function selectedTunes() {
     return tunebook.fromSelection(selected)
-  }
-
-  function handleClose() {
-    setShow(false)
-  }
-
-  function handleShow() {
-    setShow(true)
   }
 
   function accessToken() {
@@ -130,14 +146,18 @@ export default function BulkSearchModal({
     return queue.previewEnqueueTunes(selectedTunes())
   }
 
-  function handleStart() {
+  function handleBackgroundClose() {
+    setBackgroundShow(false)
+  }
+
+  function handleBackgroundStart() {
     const tunes = selectedTunes()
     queue.enqueueTunes(tunes, {
       accessToken: accessToken(),
       lyricsForTune: lyricLinesToText,
     })
     queue.start()
-    setShow(false)
+    setBackgroundShow(false)
   }
 
   async function handleRetryHealth() {
@@ -149,8 +169,165 @@ export default function BulkSearchModal({
     }
   }
 
-  const previewSummary = show && canResearchBackground ? preview() : null
-  const statusMessage = show && !canResearchBackground
+  function enqueueFieldLookups(kinds) {
+    const tunes = selectedTunes()
+    const tokenValue = accessToken()
+    let queued = 0
+    let skippedNoTitle = 0
+    kinds.forEach(function(kind) {
+      tunes.forEach(function(tune) {
+        const title = tune && tune.name ? String(tune.name).trim() : ''
+        if (!title) {
+          skippedNoTitle += 1
+          return
+        }
+        const id = fieldLookupQueue.enqueueLookup({
+          tuneId: tune.id,
+          kind: kind,
+          title: title,
+          artist: tune.composer ? String(tune.composer).trim() : '',
+          tuneName: title,
+          accessToken: tokenValue,
+          options: kind === 'links' ? { alwaysPick: true } : undefined,
+          searchOptions: {
+            resolverAvailable: checked ? resolverAvailable : undefined,
+            abcTools: tunebook.abcTools || null,
+            isYoutubeLink: tunebook.utils && tunebook.utils.isYoutubeLink
+              ? tunebook.utils.isYoutubeLink
+              : null,
+          },
+        })
+        if (id) queued += 1
+      })
+    })
+    if (queued > 0) {
+      const kindLabels = kinds.map(function(kind) {
+        return FIELD_LOOKUP_LABELS[kind] || kind
+      }).join(', ')
+      toast.success(
+        'Queued ' + queued + ' ' + kindLabels + ' search' + (queued === 1 ? '' : 'es')
+        + '. Review choices in Review or Settings → Background jobs → Active searches.'
+      )
+    } else {
+      toast.info(
+        skippedNoTitle > 0
+          ? 'No searches queued — selected tunes need a title.'
+          : 'No new searches queued (duplicates may already be running).'
+      )
+    }
+  }
+
+  function handleAudioAnalysis() {
+    const tunes = selectedTunes()
+    let started = 0
+    let skippedNoAudio = 0
+    tunes.forEach(function(tune) {
+      if (!tuneHasAudioForFix(tune, tunebook)) {
+        skippedNoAudio += 1
+        return
+      }
+      requestTuneMediaAnalysis(analysisDeps, tune.id, {
+        tune: tune,
+        force: true,
+      })
+      started += 1
+    })
+    if (started > 0) {
+      toast.success(
+        'Started audio analysis for ' + started + ' tune' + (started === 1 ? '' : 's')
+        + ' (tempo, key, notation, chords, lyrics). Progress is in Settings → Background jobs → Media analysis.'
+      )
+    } else {
+      toast.info(
+        skippedNoAudio > 0
+          ? 'No linked audio found on the selected tunes.'
+          : 'No audio analysis jobs started.'
+      )
+    }
+  }
+
+  function handleStems() {
+    const tunes = selectedTunes()
+    const health = getMediaResolverHealthState()
+    const ids = stemCreateQueue.enqueueTunesStemCreateJobs(tunes, {
+      utils: tunebook.utils,
+      accessToken: accessToken(),
+      demucsModel: health.status && health.status.demucsModel ? health.status.demucsModel : 'htdemucs',
+    })
+    stemCreateQueue.start()
+    const count = Array.isArray(ids) ? ids.length : (ids ? 1 : 0)
+    if (count > 0) {
+      toast.success('Queued stems for ' + count + ' tune' + (count === 1 ? '' : 's') + '.')
+    } else {
+      toast.info('No stems queued — selected tunes need a playable link.')
+    }
+  }
+
+  function handlePlaybackRegions() {
+    const tunes = selectedTunes()
+    let started = 0
+    let skipped = 0
+    tunes.forEach(function(tune) {
+      const links = Array.isArray(tune.links) ? tune.links : []
+      let tuneStarted = false
+      links.forEach(function(link, linkIndex) {
+        const url = link && link.link ? String(link.link).trim() : ''
+        if (!isScannableLink(url)) return
+        maybeAutoScan(tune.id, linkIndex, link, {
+          force: true,
+          currentLinks: links,
+        })
+        started += 1
+        tuneStarted = true
+      })
+      if (!tuneStarted) skipped += 1
+    })
+    if (started > 0) {
+      toast.success(
+        'Started playback region scan for ' + started + ' link' + (started === 1 ? '' : 's')
+        + '. Progress is in Settings → Background jobs → Playback scans.'
+      )
+    } else {
+      toast.info(
+        skipped > 0
+          ? 'No scannable links found on the selected tunes.'
+          : 'No playback region scans started.'
+      )
+    }
+  }
+
+  function handleAllWebLookups() {
+    const tunes = selectedTunes()
+    let capitalized = 0
+    tunes.forEach(function(tune) {
+      if (!tune || !tune.id || !tune.name) return
+      if (isSongTitleCapitalized(tune.name)) return
+      const next = Object.assign({}, tune, { name: capitalizeSongTitle(tune.name) })
+      tunebook.saveTune(next, false, { historyLabel: 'Capitalise title', immediate: true })
+      capitalized += 1
+    })
+    if (capitalized > 0) {
+      toast.success(
+        'Capitalised ' + capitalized + ' title' + (capitalized === 1 ? '' : 's') + '.'
+      )
+    }
+    enqueueFieldLookups(['lyrics', 'chords', 'notation', 'links'])
+    const discoveryPreview = composerQueue.previewEnqueueTunes(tunes)
+    if (discoveryPreview.willDiscover > 0) {
+      composerQueue.enqueueTunes(tunes, {
+        accessToken: accessToken(),
+      })
+      composerQueue.start()
+      toast.success(
+        'Queued artist discovery for ' + discoveryPreview.willDiscover
+        + ' tune' + (discoveryPreview.willDiscover === 1 ? '' : 's') + '.'
+      )
+    }
+    setBackgroundShow(true)
+  }
+
+  const previewSummary = backgroundShow && canResearchBackground ? preview() : null
+  const statusMessage = backgroundShow && !canResearchBackground
     ? (
       <ResolverStatusMessage
         checked={checked}
@@ -164,18 +341,72 @@ export default function BulkSearchModal({
 
   return (
     <>
-      <BulkOpsButton
-        variant="primary"
-        icon={icons.search}
-        label="Search"
-        onClick={handleShow}
-      >
-        Search
-      </BulkOpsButton>
+      <Dropdown as={ButtonGroup} className="bulk-ops-search-dropdown">
+        <Dropdown.Toggle
+          variant="outline-primary"
+          className="bulk-ops-action-btn"
+          id="bulk-ops-enhance"
+          aria-label="Enhance selected tunes"
+          title="Enhance selected tunes"
+        >
+          {icons.search}
+          <span className="bulk-ops-btn-label"> Enhance</span>
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          <Dropdown.Item onClick={function() { setArtistsShow(true) }}>
+            Artist
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { enqueueFieldLookups(['lyrics']) }}>
+            Lyrics
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { enqueueFieldLookups(['chords']) }}>
+            Chords
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { enqueueFieldLookups(['chords', 'lyrics']) }}>
+            Chords and lyrics
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { enqueueFieldLookups(['notation']) }}>
+            Notation
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { setBackgroundShow(true) }}>
+            Background info
+          </Dropdown.Item>
+          <Dropdown.Item onClick={function() { enqueueFieldLookups(['links']) }}>
+            Links
+            <span className="bulk-ops-search-item-hint">check links, suggest YouTube when empty or invalid</span>
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item onClick={handleAudioAnalysis}>
+            Audio analysis
+            <span className="bulk-ops-search-item-hint">tempo, key, notation, chords, lyrics</span>
+          </Dropdown.Item>
+          <Dropdown.Item onClick={handlePlaybackRegions}>
+            Playback regions
+          </Dropdown.Item>
+          <Dropdown.Item onClick={handleStems}>
+            Stems
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item onClick={handleAllWebLookups}>
+            All web lookups
+            <span className="bulk-ops-search-item-hint">artist, lyrics, chords, notation, links, background</span>
+          </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <BulkComposerDiscoveryModal
+        tunebook={tunebook}
+        selected={selected}
+        selectedCount={selectedCount}
+        token={token}
+        show={artistsShow}
+        onHide={function() { setArtistsShow(false) }}
+        hideTrigger
+      />
 
       <Modal
-        show={show}
-        onHide={handleClose}
+        show={backgroundShow}
+        onHide={handleBackgroundClose}
         size="xl"
         scrollable
         className="bulk-search-modal"
@@ -203,12 +434,12 @@ export default function BulkSearchModal({
           )}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>Cancel</Button>
+          <Button variant="secondary" onClick={handleBackgroundClose}>Cancel</Button>
           {canResearchBackground && (
             <Button
               variant="primary"
               disabled={!previewSummary || previewSummary.willResearch === 0}
-              onClick={handleStart}
+              onClick={handleBackgroundStart}
             >
               Start research
             </Button>

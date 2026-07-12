@@ -899,7 +899,9 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
             changes.forEach(function(change) {
               var key = change.key
               var nextValue = change.value
-              if (Array.isArray(tunes[id][key]) && Array.isArray(nextValue)) {
+              if (change.replace) {
+                  tunes[id][key] = Array.isArray(nextValue) ? nextValue.slice() : nextValue
+              } else if (Array.isArray(tunes[id][key]) && Array.isArray(nextValue)) {
                   nextValue.forEach(function(v) {
                       tunes[id][key].push(v)
                   })

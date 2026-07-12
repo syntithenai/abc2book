@@ -2,7 +2,11 @@ import { useMemo, useState, useSyncExternalStore } from 'react'
 import { Badge, Nav, Tab } from 'react-bootstrap'
 import FormFieldHelp from '../FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../../formFieldHelpText'
-import { getBackgroundJobTabCounts, getBackgroundJobTabCountsKey } from '../../backgroundJobsCounts'
+import {
+  getBackgroundJobTabCounts,
+  getBackgroundJobTabCountsKey,
+  getFirstActiveBackgroundJobTab,
+} from '../../backgroundJobsCounts'
 import useBulkBackgroundResearchQueue from '../../useBulkBackgroundResearchQueue'
 import useBulkComposerDiscoveryQueue from '../../useBulkComposerDiscoveryQueue'
 import useMediaCacheQueue from '../../useMediaCacheQueue'
@@ -17,6 +21,7 @@ import { subscribeBulkCheckSession } from '../../bulkCheckSessionStore'
 import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
 import { subscribeImportReviewEnrichment } from '../../importReviewEnrichmentBridge'
 import { subscribeLongRunningJobs } from '../../longRunningJobRegistry'
+import * as tuneFieldLookupQueue from '../../tuneFieldLookupQueue'
 import JobQueueTabPanel from './JobQueueTabPanel'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import { fifoStatusVariant } from './jobQueueUtils'
@@ -49,6 +54,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribeBulkCheckRunner(listener),
     subscribeImportReviewEnrichment(listener),
     subscribeLongRunningJobs(listener),
+    tuneFieldLookupQueue.subscribe(listener),
   ]
   return function unsubscribeAll() {
     unsubs.forEach(function(unsub) { unsub() })
@@ -97,7 +103,9 @@ function composerDiscoveryStatusLabel(job) {
 }
 
 export default function BackgroundJobsSettingsSection({ tunes, mediaController }) {
-  const [activeTab, setActiveTab] = useState(TAB_RESEARCH)
+  const [activeTab, setActiveTab] = useState(function() {
+    return getFirstActiveBackgroundJobTab(mediaController) || TAB_RESEARCH
+  })
   const researchQueue = useBulkBackgroundResearchQueue()
   const composerDiscoveryQueue = useBulkComposerDiscoveryQueue()
   const mediaCacheQueueHook = useMediaCacheQueue()
@@ -158,16 +166,6 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
       <p className="app-text-muted settings-background-jobs-intro">
         Monitor and manage background work from here. Red badges show incomplete jobs per tab.
       </p>
-      <div className="settings-background-jobs-policy">
-        <p className="settings-background-jobs-policy-heading">
-          <strong>Runs automatically</strong> — applies results without further steps. Keeps running while you browse unless you cancel:
-          {' '}background research, composer discovery, media cache, stems (batch and live separation), playback scans, and bulk check.
-        </p>
-        <p className="settings-background-jobs-policy-heading">
-          <strong>Needs your review</strong> — fetches data you still choose how to use:
-          {' '}media analysis, import enrichment, and active searches.
-        </p>
-      </div>
 
       <Tab.Container activeKey={activeTab} onSelect={function(key) {
         if (key) setActiveTab(key)
@@ -180,7 +178,7 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey={TAB_COMPOSER_DISCOVERY}>
-              {renderTabTitle('Composer discovery', tabCounts.composerDiscovery)}
+              {renderTabTitle('Artist discovery', tabCounts.composerDiscovery)}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -462,9 +460,6 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_ACTIVE_SEARCHES}>
-            <p className="text-muted settings-background-jobs-tab-note">
-              Chord, lyrics, notation, and background searches. You pick results from the search UI.
-            </p>
             <ActiveSearchesTabPanel />
           </Tab.Pane>
         </Tab.Content>

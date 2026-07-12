@@ -8,6 +8,8 @@ import { FormLabelWithHelp } from './FormFieldHelp'
 import LinksEditor from './LinksEditor'
 import TuneAliasesField from './TuneAliasesField'
 import ComposerSearchButton from './ComposerSearchButton'
+import FieldLookupReviewButton from './FieldLookupReviewButton'
+import CapitalizeTitleButton from './CapitalizeTitleButton'
 import KeySignatureInput from './KeySignatureInput'
 
 function cloneTune(tune) {
@@ -104,7 +106,13 @@ export default function BulkCheckTuneEditorModal(props) {
             <Row className="g-3">
               <Col md={6}>
                 <Form.Group className="mb-3">
-                  <Form.Label>Title</Form.Label>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                    <Form.Label style={{ marginBottom: 0 }}>Title</Form.Label>
+                    <CapitalizeTitleButton
+                      value={draft.name}
+                      onCapitalize={function(next) { updateDraft({ name: next }) }}
+                    />
+                  </div>
                   <Form.Control
                     value={draft.name || ''}
                     onChange={function(e) { updateDraft({ name: e.target.value }) }}
@@ -116,6 +124,7 @@ export default function BulkCheckTuneEditorModal(props) {
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                     <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
                     <ComposerSearchButton
+                      tuneId={props.tune && props.tune.id}
                       title={draft.name || ''}
                       composer={draft.composer || ''}
                       titleHint={draft.name || ''}
@@ -125,6 +134,14 @@ export default function BulkCheckTuneEditorModal(props) {
                       inline={true}
                       onComposer={function(result) {
                         if (result && result.artist) updateDraft({ composer: result.artist })
+                      }}
+                    />
+                    <FieldLookupReviewButton
+                      tuneId={props.tune && props.tune.id}
+                      kind="composer"
+                      fallbackTitle={draft.name || ''}
+                      onApply={function(candidate) {
+                        if (candidate && candidate.artist) updateDraft({ composer: candidate.artist })
                       }}
                     />
                   </div>

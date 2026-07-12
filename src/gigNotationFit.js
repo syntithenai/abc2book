@@ -529,8 +529,10 @@ export const SINGLE_VIEW_SCROLLBAR_RESERVE_PX = 18;
 
 /**
  * Available paper for single-view notation.
- * Width comes from the notation column (so a lyrics/structure side column is
- * not ignored). Height is from the score top to the bottom of the viewport.
+ * Width prefers the viewer element (inside column padding) so the scaled SVG
+ * does not overflow and left-align-clip the title. Falls back to the notation
+ * column when the viewer has not laid out yet. Height is from the score top to
+ * the bottom of the viewport.
  */
 export function measureSingleViewPaper(renderEl) {
   if (!renderEl) return { availW: 100, availH: 100 };
@@ -544,13 +546,17 @@ export function measureSingleViewPaper(renderEl) {
   const topRect = renderEl.getBoundingClientRect();
   const rightPad = 8;
   const bottomPad = 8;
-  // Prefer the column's laid-out width so side panels (lyrics/structure) shrink
-  // the available staff width. Fall back to clientWidth when the rect is stale.
   const columnW = Math.max(
     widthEl.clientWidth || 0,
     widthRect.width || 0
   );
-  const availW = Math.max(100, Math.floor(columnW - rightPad));
+  // Viewer width accounts for MusicSingle's padded wrapper; column width does not.
+  const renderW = Math.max(
+    renderEl.clientWidth || 0,
+    topRect.width || 0
+  );
+  const baseW = renderW > 40 ? Math.min(renderW, columnW || renderW) : columnW;
+  const availW = Math.max(100, Math.floor(baseW - rightPad));
   const availH = Math.max(
     100,
     Math.floor(window.innerHeight - topRect.top - bottomPad)
@@ -575,14 +581,38 @@ export function readNotationSvgDims(svg) {
   return null;
 }
 
-function ensureNotationViewBox(svg, dims) {
-  if (!svg || !dims) return;
-  if (!readSvgViewBox(svg)) {
-    svg.setAttribute('viewBox', [0, 0, dims.width, dims.height].join(' '));
+/**
+ * Expand the native abcjs envelope so long centered titles (text-anchor middle)
+ * are not clipped when fit-height sets overflow:hidden. Never shrinks the
+ * staff envelope — only grows for meta overhang.
+ */
+export function expandNotationViewBoxForMeta(svg, dims) {
+  if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null;
+  const existing = readSvgViewBox(svg);
+  let box = existing && existing.width > 0 && existing.height > 0
+    ? { x: existing.x, y: existing.y, width: existing.width, height: existing.height }
+    : { x: 0, y: 0, width: dims.width, height: dims.height };
+
+  const meta = measureMetaTextBBox(svg);
+  if (meta) {
+    box = unionBoxes(box, meta);
   }
+
+  const padX = GIG_NOTATION_FRAME_PAD_X;
+  return {
+    x: box.x - padX,
+    y: box.y,
+    width: box.width + (padX * 2),
+    height: box.height,
+  };
+}
+
+function applyVerticalFitViewBox(svg, frame) {
+  if (!svg || !frame) return;
+  svg.setAttribute('viewBox', [frame.x, frame.y, frame.width, frame.height].join(' '));
   svg.removeAttribute('width');
   svg.removeAttribute('height');
-  svg.setAttribute('preserveAspectRatio', 'xMinYMin meet');
+  svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
 }
 
 /**
@@ -594,19 +624,26 @@ export function fitSingleViewVertical(svg, renderEl, paperEl) {
   if (!svg || !renderEl) return null;
   const dims = readNotationSvgDims(svg);
   if (!dims) return null;
-  ensureNotationViewBox(svg, dims);
+  // Measure meta while native width/height are still present for bbox conversion.
+  const frame = expandNotationViewBoxForMeta(svg, dims) || {
+    x: 0,
+    y: 0,
+    width: dims.width,
+    height: dims.height,
+  };
+  applyVerticalFitViewBox(svg, frame);
 
   const paper = paperEl
     ? measureNotationPaper(paperEl, renderEl)
     : measureSingleViewPaper(renderEl);
   const targetH = verticalFitTargetHeight(paper.availH);
   const targetW = horizontalFitTargetWidth(paper.availW);
-  const scaleH = targetH / dims.height;
-  const scaleW = targetW / dims.width;
+  const scaleH = targetH / frame.height;
+  const scaleW = targetW / frame.width;
   // Prefer full height when it still fits width; otherwise contain.
   const scale = Math.min(scaleH, scaleW);
-  const width = dims.width * scale;
-  const height = dims.height * scale;
+  const width = frame.width * scale;
+  const height = frame.height * scale;
 
   resetSvgInlineSize(svg);
   svg.style.width = width + 'px';

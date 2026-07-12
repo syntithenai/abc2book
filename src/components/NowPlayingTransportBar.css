@@ -106,3 +106,20 @@
 body.app-has-playlist-transport .App-body {
   padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
 }
+
+body.app-has-playlist-transport .add-page {
+  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+}
+
+body.app-has-playlist-transport .modal-fullscreen {
+  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  height: auto;
+}
+
+body.app-has-playlist-transport .import-review-embedded {
+  padding-bottom: calc(1.5rem + 4.25rem + env(safe-area-inset-bottom, 0px));
+}
+
+body.app-has-playlist-transport .add-page-body {
+  padding-bottom: calc(2em + 1rem);
+}

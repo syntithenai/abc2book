@@ -9,6 +9,8 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
+import FieldLookupReviewButton from './FieldLookupReviewButton'
+import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
@@ -99,7 +101,17 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
 
 
              <Form.Group className="mb-3" controlId="title">
-                        <Form.Label>Title</Form.Label>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                          <Form.Label style={{ marginBottom: 0 }}>Title</Form.Label>
+                          <CapitalizeTitleButton
+                            value={tune.name}
+                            onCapitalize={function(next) {
+                              tune.name = next
+                              tune.id = params.tuneId
+                              tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                            }}
+                          />
+                        </div>
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })  }} />
                       </Form.Group>
 
@@ -107,6 +119,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                           <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
                           <ComposerSearchButton
+                            tuneId={params.tuneId || (tune && tune.id)}
                             title={tune.name || ''}
                             composer={tune && tune.composer ? tune.composer : ''}
                             titleHint={tune.name || ''}
@@ -117,6 +130,18 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             onComposer={function(result) {
                               if (result && result.artist) {
                                 tune.composer = result.artist
+                                tune.id = params.tuneId
+                                tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                              }
+                            }}
+                          />
+                          <FieldLookupReviewButton
+                            tuneId={params.tuneId || (tune && tune.id)}
+                            kind="composer"
+                            fallbackTitle={tune.name || ''}
+                            onApply={function(candidate) {
+                              if (candidate && candidate.artist) {
+                                tune.composer = candidate.artist
                                 tune.id = params.tuneId
                                 tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
                               }
@@ -147,6 +172,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                     <Form.Group className="mb-3" controlId="key">
                         <div className="abc-editor-lyrics-toolbar">
                         <LyricsSearchButton
+                          tuneId={params.tuneId || (tune && tune.id)}
                           title={tune.name}
                           artist={tune.composer || ''}
                           rhythm={tune.rhythm || ''}
@@ -155,6 +181,15 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           token={token}
                           tunebook={tunebook}
                           onLyrics={function(result) { saveLyrics(result.lines) }}
+                        />
+                        <FieldLookupReviewButton
+                          tuneId={params.tuneId || (tune && tune.id)}
+                          kind="lyrics"
+                          fallbackTitle={tune.name || ''}
+                          onApply={function(result) {
+                            if (result && result.lines) saveLyrics(result.lines)
+                            else if (result && result.text) saveLyrics(String(result.text).split(/\r?\n/))
+                          }}
                         />
                         <Button variant="info" style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}} onClick={function() {
                             var start = lyricLinesToText(tune)

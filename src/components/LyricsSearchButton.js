@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import useAbcjsParser from '../useAbcjsParser'
-import { searchLyrics } from '../lyricsSearchClient'
-import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
+import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { applyFieldLookupChoice } from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
@@ -25,6 +25,8 @@ export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
 }
 
 export default function LyricsSearchButton({
+  tuneId,
+  candidateId,
   title,
   artist,
   rhythm,
@@ -39,37 +41,29 @@ export default function LyricsSearchButton({
   book,
   showExternalLink = true,
   resolverAvailable,
+  existingLyrics,
 }) {
   const narrow = useIsNarrowViewport()
-  const job = useCancellableAsyncJob('Lyrics search')
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const [error, setError] = useState('')
   const [source, setSource] = useState('')
-  const [progressMessage, setProgressMessage] = useState('')
-  const [progressPercent, setProgressPercent] = useState(0)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [genreSuggestion, setGenreSuggestion] = useState(null)
   const [manualCandidates, setManualCandidates] = useState([])
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
+  const existingLyricsRef = useRef(existingLyrics)
+  existingLyricsRef.current = existingLyrics
+  const applyRef = useRef(null)
 
-  const googleUrl = buildGoogleLyricsSearchUrl(title, artist, extraQuery)
-  const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
-  const externalLinkIcon = showExternalLink && tunebook && tunebook.icons
-    ? tunebook.icons.externallink
-    : null
-  const busy = job.busy
-
-  function applyLyricsResult(result) {
-    if (typeof onLyrics === 'function') {
-      onLyrics(result)
-    }
-    const sourceLabel = result.source
+  function finishApply(result, jobId) {
+    if (jobId) applyFieldLookupChoice(jobId, result)
+    if (typeof onLyrics === 'function') onLyrics(result)
+    const sourceLabel = result && result.source
       ? (result.sourceUrl ? result.source + ' (' + result.sourceUrl + ')' : result.source)
       : ''
     setSource(sourceLabel)
-    setProgressPercent(100)
-    if (typeof onGenreAccept === 'function') {
+    if (typeof onGenreAccept === 'function' && result) {
       const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
         title: title,
         artist: artist,
@@ -82,64 +76,77 @@ export default function LyricsSearchButton({
       }
     }
   }
+  applyRef.current = finishApply
+
+  const lookup = useFieldLookupSearchJob({
+    tuneId: tuneId,
+    candidateId: candidateId,
+    kind: 'lyrics',
+    onAwaiting: function(job) {
+      if (Array.isArray(job.manualCandidates) && job.manualCandidates.length > 0
+        && (!job.candidates || job.candidates.length === 0)) {
+        setManualCandidates(job.manualCandidates)
+        return
+      }
+      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      if (candidates.length === 1) {
+        const existing = String(existingLyricsRef.current || '').trim()
+        if (!existing) {
+          applyRef.current(candidates[0], job.id)
+        }
+        return
+      }
+      if (candidates.length > 1) {
+        setPickerCandidates(candidates)
+        setShowPicker(true)
+        return
+      }
+      setError('No lyrics found for this song')
+    },
+    onError: function(job) {
+      setError(job.error || 'Lyrics search failed')
+    },
+  })
+
+  const googleUrl = buildGoogleLyricsSearchUrl(title, artist, extraQuery)
+  const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
+  const externalLinkIcon = showExternalLink && tunebook && tunebook.icons
+    ? tunebook.icons.externallink
+    : null
+  const busy = lookup.busy
+  const canSearch = !!(title && (tuneId || candidateId))
 
   function chooseLyricsCandidate(candidate) {
     setShowPicker(false)
     setPickerCandidates([])
-    applyLyricsResult(candidate)
+    const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+      ? lookup.activeJob.id
+      : null
+    finishApply(candidate, jobId)
   }
 
-  async function run() {
-    if (!title) return
-    const ctx = job.begin()
+  function run() {
+    if (!canSearch) return
+    if (busy) {
+      lookup.cancel()
+      return
+    }
     setError('')
     setSource('')
     setManualCandidates([])
     setLockedModalCandidate(null)
-    setProgressMessage('')
-    setProgressPercent(0)
-    try {
-      const result = await searchLyrics({
-        title: title,
-        artist: artist || '',
-        accessToken: token,
-        signal: ctx.signal,
+    setShowPicker(false)
+    setPickerCandidates([])
+    lookup.startSearch({
+      title: title,
+      artist: artist || '',
+      tuneName: title,
+      accessToken: token,
+      searchOptions: {
         resolverAvailable: resolverAvailable,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
-        onProgress: function(message, progress) {
-          if (!ctx.isCurrent()) return
-          setProgressMessage(message || '')
-          if (typeof progress === 'number' && Number.isFinite(progress)) {
-            setProgressPercent(Math.max(0, Math.min(100, Math.round(progress * 100))))
-          }
-        },
-      })
-      if (!ctx.isCurrent()) return
-      if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
-        setManualCandidates(result.manualCandidates)
-        return
-      }
-      if (result.multiple && Array.isArray(result.candidates)) {
-        if (result.candidates.length === 1) {
-          applyLyricsResult(result.candidates[0])
-        } else {
-          setPickerCandidates(result.candidates)
-          setShowPicker(true)
-        }
-      } else if (!result.empty) {
-        applyLyricsResult(result)
-      } else {
-        setError('No lyrics found for this song')
-      }
-    } catch (e) {
-      if (job.isAbortError(e)) return
-      setError(e && e.message ? e.message : 'Lyrics search failed')
-    } finally {
-      job.finish(ctx.generation)
-      if (ctx.isCurrent()) {
-        setProgressMessage('')
-      }
-    }
+      },
+    })
   }
 
   return (
@@ -147,18 +154,18 @@ export default function LyricsSearchButton({
       <FieldLookupButtonGroup
         automaticLookup={true}
         busy={busy}
-        disabled={!title || disabled}
+        disabled={!canSearch || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         narrow={narrow}
-        onSearch={function() { job.onTriggerClick(run) }}
+        onSearch={run}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
       />
       <SearchProgressBar
         visible={busy}
-        percent={progressPercent}
-        message={progressMessage}
+        percent={lookup.progressPercent}
+        message={lookup.progressMessage}
         defaultMessage="Searching for lyrics..."
       />
       {error && (

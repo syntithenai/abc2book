@@ -25,7 +25,14 @@ SEARCH_RESULTS_PER_QUERY = int(os.getenv("RESEARCH_SEARCH_RESULTS_PER_QUERY", "8
 MAX_SUPPLEMENTAL_QUERIES = int(os.getenv("RESEARCH_MAX_SUPPLEMENTAL_QUERIES", "10"))
 SUPPLEMENTAL_QUERY_LLM_MAX_TOKENS = int(os.getenv("RESEARCH_SUPPLEMENTAL_QUERY_LLM_MAX_TOKENS", "600"))
 MAX_LYRICS_CHARS = int(os.getenv("RESEARCH_MAX_LYRICS_CHARS", "8000"))
+MAX_EXISTING_BACKGROUND_CHARS = int(os.getenv("RESEARCH_MAX_EXISTING_BACKGROUND_CHARS", "12000"))
+MAX_REFERENCES = int(os.getenv("RESEARCH_MAX_REFERENCES", "20"))
+CRITIQUE_LLM_MAX_TOKENS = int(os.getenv("RESEARCH_CRITIQUE_LLM_MAX_TOKENS", str(LLM_MAX_TOKENS)))
 SEARCH_BACKEND = os.getenv("RESEARCH_SEARCH_BACKEND", "duckduckgo").strip().lower()
+REFERENCES_HEADING_RE = re.compile(
+    r"^#{1,6}\s+references\b",
+    re.IGNORECASE | re.MULTILINE,
+)
 BRAVE_SEARCH_API_KEY = os.getenv("BRAVE_SEARCH_API_KEY", "").strip()
 SEARXNG_BASE_URL = os.getenv("SEARXNG_BASE_URL", "").strip().rstrip("/")
 SERPER_API_KEY = os.getenv("SERPER_API_KEY", "").strip()
@@ -96,6 +103,44 @@ def _lyrics_prompt_block(lyrics):
         "section. Do not quote long passages of lyrics in the article; paraphrase instead.\n\n"
         f"{text}\n\n"
     )
+
+
+def _normalize_existing_background(value):
+    text = str(value or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not text:
+        return ""
+    if len(text) <= MAX_EXISTING_BACKGROUND_CHARS:
+        return text
+    trimmed = text[: MAX_EXISTING_BACKGROUND_CHARS - 32].rstrip()
+    if "\n" in trimmed:
+        trimmed = trimmed.rsplit("\n", 1)[0].rstrip()
+    return trimmed + "\n[existing background truncated]"
+
+
+def _existing_background_prompt_block(existing_background):
+    text = _normalize_existing_background(existing_background)
+    if not text:
+        return ""
+    return (
+        "EXISTING BACKGROUND INFO (preserve these facts):\n"
+        "The tune already has the background text below. Treat every factual claim in it as "
+        "authoritative unless research notes clearly contradict it with stronger evidence. "
+        "Preserve those facts in the new article (rephrase/integrate as needed; do not drop them). "
+        "Do not invent contradictions. Expand around this material using the research notes.\n\n"
+        f"{text}\n\n"
+    )
+
+
+def _format_sources_for_prompt(sources):
+    context_lines = []
+    for idx, source in enumerate(sources[:MAX_SOURCES_IN_PROMPT], start=1):
+        context_lines.append(
+            f"[{idx}] {source.get('title', '')}\n"
+            f"URL: {source.get('url', '')}\n"
+            f"Snippet: {source.get('snippet', '')}\n"
+            f"Source type: {source.get('source', '')}"
+        )
+    return "\n\n".join(context_lines)
 
 
 def _is_meaningful_lyric_line(line):
@@ -224,14 +269,18 @@ def _source_digest(sources, limit=15, snippet_chars=220):
     return "\n".join(lines)
 
 
-async def generate_supplemental_queries(client, title, artist, sources, lyrics=""):
+async def generate_supplemental_queries(
+    client, title, artist, sources, lyrics="", existing_background=""
+):
     digest = _source_digest(sources)
     artist_line = f"Artist/composer: {artist}\n" if artist else ""
     lyrics_block = _lyrics_prompt_block(lyrics)
+    existing_block = _existing_background_prompt_block(existing_background)
     prompt = (
         f"You are planning web searches to research the song/tune \"{title}\".\n"
         f"{artist_line}"
         f"{lyrics_block}"
+        f"{existing_block}"
         f"We already collected {len(sources)} source snippets. Sample:\n"
         f"{digest or '(none yet)'}\n\n"
         "Generate diverse search queries to fill gaps, especially:\n"
@@ -240,7 +289,8 @@ async def generate_supplemental_queries(client, title, artist, sources, lyrics="
         "- first recordings and who popularized the piece\n"
         "- notable performers, cover versions, and labels\n"
         "- YouTube performances\n"
-        "- historical and cultural context\n\n"
+        "- historical and cultural context\n"
+        "- verifying or expanding facts from any existing background info above\n\n"
         f"Return ONLY a JSON array of up to {MAX_SUPPLEMENTAL_QUERIES} search query strings."
     )
     resp = await client.post(
@@ -530,18 +580,11 @@ async def search_web(client, query):
     return await _search_duckduckgo(client, query)
 
 
-def _build_llm_prompt(title, artist, sources, lyrics=""):
-    context_lines = []
-    for idx, source in enumerate(sources[:MAX_SOURCES_IN_PROMPT], start=1):
-        context_lines.append(
-            f"[{idx}] {source.get('title', '')}\n"
-            f"URL: {source.get('url', '')}\n"
-            f"Snippet: {source.get('snippet', '')}\n"
-            f"Source type: {source.get('source', '')}"
-        )
-    context = "\n\n".join(context_lines)
+def _build_llm_prompt(title, artist, sources, lyrics="", existing_background=""):
+    context = _format_sources_for_prompt(sources)
     artist_line = f"Artist/composer: {artist}\n" if artist else ""
     lyrics_block = _lyrics_prompt_block(lyrics)
+    existing_block = _existing_background_prompt_block(existing_background)
     about_section = (
         "Include a \"What the song is about\" section near the start. Summarize the song's "
         "subject, story, themes, and mood. When lyrics are provided above, base this section "
@@ -552,17 +595,26 @@ def _build_llm_prompt(title, artist, sources, lyrics=""):
             "describe the song's subject, story, themes, or mood."
         )
     )
+    notes_basis = "research notes"
+    if lyrics_block:
+        notes_basis += ", lyrics"
+    if existing_block:
+        notes_basis += ", and existing background facts"
     return (
         f"You are writing background information for musicians about the tune/song \"{title}\".\n"
         f"{artist_line}"
         f"{lyrics_block}"
-        f"Using only the research notes below, write a thorough, factual background article.\n\n"
+        f"{existing_block}"
+        f"Using only the research notes below"
+        + (" and the existing background facts above" if existing_block else "")
+        + ", write a thorough, factual background article.\n\n"
         f"LENGTH: Aim for about {TARGET_WORDS} words when the notes contain enough detail "
         f"(between {MIN_WORDS} and {MAX_WORDS}). If the notes are sparse, write a shorter "
         "article covering only supported facts rather than padding to meet a word count.\n\n"
         "STRUCTURE: Use clear section headings and multiple paragraphs per section. "
         "Cover these topics when supported by the notes"
         + (" or the provided lyrics" if lyrics_block else "")
+        + (" or existing background" if existing_block else "")
         + ":\n"
         "1. What the song is about\n"
         "2. Overview and alternative names\n"
@@ -572,24 +624,113 @@ def _build_llm_prompt(title, artist, sources, lyrics=""):
         "6. Historical anecdotes and cultural context\n"
         "7. Musical nature, key, tempo, rhythm, and formal structure\n\n"
         "Do not include a YouTube links section; YouTube links are searched and added "
-        "automatically after the record labels and releases section.\n\n"
+        "automatically after the record labels and releases section.\n"
+        "Do not include a References section yet; references are added in a later step.\n\n"
         f"{about_section}\n\n"
         "STYLE: Write in flowing prose for musicians. Lead with confirmed facts from the notes. "
         "Expand each section with specific detail from the notes. "
-        "If a section has no supporting evidence in the notes"
-        + (" or lyrics" if lyrics_block else "")
-        + ", omit that section heading entirely. "
+        f"If a section has no supporting evidence in the {notes_basis}, omit that section "
+        "heading entirely. "
         "Do not discuss missing information, research gaps, or what the notes fail to mention. "
         "Never write phrases like 'the provided research notes do not', 'the notes do not list', "
         "'no information was found', or 'the absence of'. "
         "When source material is sparse, write a shorter factual article rather than padding with "
-        "meta-commentary about missing data. Do not invent facts not supported by the notes.\n\n"
+        "meta-commentary about missing data. Do not invent facts not supported by the notes"
+        + (" or existing background" if existing_block else "")
+        + ".\n\n"
         f"Research notes ({len(sources[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}"
     )
 
 
-async def summarize_with_llm(client, title, artist, sources, lyrics=""):
-    prompt = _build_llm_prompt(title, artist, sources, lyrics)
+def _build_critique_prompt(title, artist, draft, sources, existing_background=""):
+    context = _format_sources_for_prompt(sources)
+    artist_line = f"Artist/composer: {artist}\n" if artist else ""
+    existing_block = _existing_background_prompt_block(existing_background)
+    return (
+        f"You are fact-checking a background article about the tune/song \"{title}\".\n"
+        f"{artist_line}"
+        f"{existing_block}"
+        "Critique and revise the DRAFT article below.\n\n"
+        "REQUIREMENTS:\n"
+        "1. Verify every factual claim against the research notes"
+        + (" and existing background facts" if existing_block else "")
+        + ".\n"
+        "2. Remove or soften unsupported claims. Correct clear contradictions using the notes"
+        + (" and existing background" if existing_block else "")
+        + ".\n"
+        "3. Preserve factual claims from existing background unless notes clearly contradict them "
+        "with stronger evidence.\n"
+        "4. Prefer claims that can be tied to a source. Where a specific source supports a key "
+        "fact, add a light inline marker like [1] matching the source index below.\n"
+        "5. Keep the same readable prose style with section headings. Do not discuss the "
+        "critique process or mention that you fact-checked the text.\n"
+        "6. Do not include a YouTube section.\n"
+        "7. End with a ## References section listing ONLY sources actually used to support "
+        "claims in the revised article. Format each as a markdown bullet: "
+        "- [Title](url)\n"
+        "8. Return ONLY the revised markdown article.\n\n"
+        f"Research notes ({len(sources[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}\n\n"
+        f"DRAFT ARTICLE:\n{draft}"
+    )
+
+
+def _format_references_section(sources):
+    lines = ["## References", ""]
+    count = 0
+    for source in sources:
+        url = (source.get("url") or "").strip()
+        if not url:
+            continue
+        title = _normalize_space(source.get("title") or url)
+        lines.append(f"- [{title}]({url})")
+        count += 1
+        if count >= MAX_REFERENCES:
+            break
+    if count == 0:
+        return ""
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def _sources_cited_in_text(text, sources):
+    body = str(text or "")
+    cited = []
+    seen = set()
+    for idx, source in enumerate(sources[:MAX_SOURCES_IN_PROMPT], start=1):
+        url = (source.get("url") or "").strip()
+        title = _normalize_space(source.get("title") or "")
+        marker = f"[{idx}]"
+        url_hit = bool(url and url in body)
+        title_hit = bool(title and len(title) >= 8 and title in body)
+        marker_hit = marker in body
+        if not (url_hit or title_hit or marker_hit):
+            continue
+        key = url.lower() if url else title.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        cited.append(source)
+    return cited
+
+
+def ensure_references_section(text, sources):
+    result = _finalize_llm_text(text)
+    if not result:
+        return result
+    if REFERENCES_HEADING_RE.search(result):
+        return result if result.endswith("\n") else result + "\n"
+
+    cited = _sources_cited_in_text(result, sources)
+    fallback = cited if cited else list(sources[:MAX_REFERENCES])
+    section = _format_references_section(fallback)
+    if not section:
+        return result if result.endswith("\n") else result + "\n"
+    return (result.rstrip() + "\n\n" + section).rstrip() + "\n"
+
+
+async def summarize_with_llm(
+    client, title, artist, sources, lyrics="", existing_background=""
+):
+    prompt = _build_llm_prompt(title, artist, sources, lyrics, existing_background)
     resp = await client.post(
         f"{LLM_BASE_URL}/chat/completions",
         headers={
@@ -603,7 +744,13 @@ async def summarize_with_llm(client, title, artist, sources, lyrics=""):
                     "role": "system",
                     "content": (
                         "You write accurate, readable background articles about songs and tunes "
-                        "for musicians. Use the provided research notes. Write prose with section "
+                        "for musicians. Use the provided research notes"
+                        + (
+                            " and preserve facts from any existing background"
+                            if existing_background
+                            else ""
+                        )
+                        + ". Write prose with section "
                         "headings. Include only sections supported by the notes. Never discuss "
                         "what the notes omit or fail to mention. Aim for the requested word count "
                         f"when the notes support it ({MIN_WORDS}-{TARGET_WORDS} words)."
@@ -626,6 +773,47 @@ async def summarize_with_llm(client, title, artist, sources, lyrics=""):
     if not text:
         raise ValueError("LLM returned empty text")
     return text
+
+
+async def critique_and_fact_check(
+    client, title, artist, draft, sources, existing_background=""
+):
+    prompt = _build_critique_prompt(title, artist, draft, sources, existing_background)
+    resp = await client.post(
+        f"{LLM_BASE_URL}/chat/completions",
+        headers={
+            "Authorization": f"Bearer {LLM_API_KEY}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": LLM_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a careful music-history fact checker. Revise draft background "
+                        "articles so every factual claim is supported by the research notes or "
+                        "existing background. Remove unsupported claims. End with a ## References "
+                        "section of sources actually used. Return only the revised markdown."
+                    ),
+                },
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.2,
+            "max_tokens": CRITIQUE_LLM_MAX_TOKENS,
+        },
+        timeout=LLM_TIMEOUT_SECONDS,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    choices = data.get("choices") or []
+    if not choices:
+        raise ValueError("LLM returned no choices for critique")
+    message = choices[0].get("message") or {}
+    text = _finalize_llm_text(message.get("content") or "")
+    if not text:
+        raise ValueError("LLM returned empty critique text")
+    return ensure_references_section(text, sources)
 
 
 async def _emit_progress(on_progress, stage, message, progress, elapsed_ms=None):
@@ -656,10 +844,13 @@ async def _run_search_queries(client, source_store, queries, on_progress, progre
             )
 
 
-async def research_tune_background(title, artist="", lyrics="", on_progress=None):
+async def research_tune_background(
+    title, artist="", lyrics="", existing_background="", on_progress=None
+):
     title = _normalize_space(title)
     artist = _normalize_space(artist)
     lyrics = _normalize_lyrics(lyrics)
+    existing_background = _normalize_existing_background(existing_background)
     if not title:
         raise ValueError("Song title is required")
 
@@ -711,7 +902,12 @@ async def research_tune_background(title, artist="", lyrics="", on_progress=None
         )
         try:
             supplemental_queries = await generate_supplemental_queries(
-                client, title, artist, list(source_store.values()), lyrics
+                client,
+                title,
+                artist,
+                list(source_store.values()),
+                lyrics,
+                existing_background,
             )
         except Exception:
             supplemental_queries = []
@@ -740,12 +936,27 @@ async def research_tune_background(title, artist="", lyrics="", on_progress=None
             0.65,
             elapsed_ms(),
         )
-        text = await summarize_with_llm(client, title, artist, sources, lyrics)
+        text = await summarize_with_llm(
+            client, title, artist, sources, lyrics, existing_background
+        )
+        await _emit_progress(
+            on_progress,
+            "critique",
+            "Fact-checking and adding references...",
+            0.78,
+            elapsed_ms(),
+        )
+        try:
+            text = await critique_and_fact_check(
+                client, title, artist, text, sources, existing_background
+            )
+        except Exception:
+            text = ensure_references_section(text, sources)
         await _emit_progress(
             on_progress,
             "summarize",
             "Adding artist and album links, searching YouTube...",
-            0.85,
+            0.88,
             elapsed_ms(),
         )
         text = await enrich_background_markdown(

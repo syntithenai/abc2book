@@ -80,6 +80,10 @@ import {
   setBulkComposerDiscoveryQueueContext,
 } from './bulkComposerDiscoveryQueue'
 import { restoreAndResume as restoreAndResumeStemCreateQueue } from './stemCreateQueue'
+import {
+  restoreAndResume as restoreAndResumeFieldLookupQueue,
+  setTuneFieldLookupQueueContext,
+} from './tuneFieldLookupQueue'
 import useSyncWorker from './useSyncWorker'	
 import useRouteAnalytics from './useRouteAnalytics'
 import { compareTuneBooks, mergeDeletedTuneMaps, parseDeletedTunesFromAbc } from './tuneBookSync'
@@ -642,9 +646,18 @@ function App(props) {
       saveTune: tunebook.saveTune,
       forceRefresh: forceRefresh,
     })
+    setTuneFieldLookupQueueContext({
+      getTune: function(tuneId) {
+        return tunesRef.current && tunesRef.current[tuneId] ? tunesRef.current[tuneId] : null
+      },
+      saveTune: tunebook.saveTune,
+      forceRefresh: forceRefresh,
+      abcTools: tunebook.abcTools,
+    })
     restoreAndResume()
     restoreAndResumeComposerDiscoveryQueue()
     restoreAndResumeStemCreateQueue()
+    restoreAndResumeFieldLookupQueue()
   }, [tunebook.saveTune, forceRefresh]) 
   const practiceSession = usePracticeSession({
     tunebook,

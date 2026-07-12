@@ -525,11 +525,12 @@ export function mergeChordsIntoLyricLines(lyricLines, chordChart, options) {
  * Align melody chord blocks to clean lyric blocks.
  *
  * Lyric blocks are separated by blank lines and may begin with a [Section]
- * header. Chord blocks come from the melody, split at double barlines and
- * ordered as they appear (conventionally verse, chorus, bridge). When the
- * lyrics carry section headers we map each distinct section type to a chord
- * block by first-appearance order, so repeated sections (eg. a second verse or
- * chorus) reuse the correct chords instead of consuming the next block. Without
+ * header. Chord blocks come from the melody, split at double barlines (and
+ * start-repeat marks) and ordered as they appear (conventionally verse,
+ * chorus, bridge). When the lyrics carry section headers we consume charts in
+ * order: untyped leading verses still receive a chart (hymns often label only
+ * [Chorus]), and each distinct section type reuses the chart bound on first
+ * appearance so repeated verses/choruses keep the right chords. Without
  * headers we fall back to a positional 1:1 mapping, except when the melody has
  * a single chord block and the lyrics have several blocks: that is the hymn /
  * folk-song pattern (one melody sung to many verses, eg. Amazing Grace), so the
@@ -581,17 +582,31 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   });
 
   const hasTypes = blocks.some(function(b) { return b.type; });
+  // When some lyric blocks have section headers, consume melody charts in order.
+  // Untyped leading verses still take a chart (hymns often label only [Chorus]),
+  // and repeated types reuse the chart bound on first appearance.
   const chartForType = {};
+  const chartByBlockIndex = {};
+  let typedMappedChartCount = 0;
   if (hasTypes) {
-    const orderedTypes = [];
-    blocks.forEach(function(b) {
-      if (b.type && orderedTypes.indexOf(b.type) === -1) orderedTypes.push(b.type);
-    });
-    orderedTypes.forEach(function(type, index) {
-      if (index < charts.length && chartBlockHasChords(charts[index])) {
-        chartForType[type] = sanitizeChordChartBlock(charts[index]);
+    let nextChart = 0;
+    blocks.forEach(function(b, index) {
+      const hasWords = b.lyricLines.some(function(line) {
+        return String(line).trim().length > 0;
+      });
+      if (b.type && Object.prototype.hasOwnProperty.call(chartForType, b.type)) {
+        chartByBlockIndex[index] = chartForType[b.type];
+        return;
+      }
+      if (!hasWords && !b.type) return;
+      if (nextChart < charts.length && chartBlockHasChords(charts[nextChart])) {
+        const chart = sanitizeChordChartBlock(charts[nextChart]);
+        if (b.type) chartForType[b.type] = chart;
+        chartByBlockIndex[index] = chart;
+        nextChart += 1;
       }
     });
+    typedMappedChartCount = nextChart;
   }
 
   // One melody, many verses (no headers): apply the single chord block to every
@@ -618,8 +633,8 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   const aligned = blocks.map(function(b, index) {
     let chart = '';
     if (hasTypes) {
-      if (b.type && Object.prototype.hasOwnProperty.call(chartForType, b.type)) {
-        chart = chartForType[b.type];
+      if (Object.prototype.hasOwnProperty.call(chartByBlockIndex, index)) {
+        chart = chartByBlockIndex[index];
       }
     } else if (combinedChartForSingleBlock !== null) {
       chart = combinedChartForSingleBlock;
@@ -637,6 +652,9 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
       if (hasTypes && b.type) {
         if (seenSectionTypes[b.type]) chartRevisit = true;
         else seenSectionTypes[b.type] = true;
+      } else if (hasTypes && !b.type) {
+        if (seenCharts[chart]) chartRevisit = true;
+        else seenCharts[chart] = true;
       } else if (singleChartForAllBlocks !== null) {
         chartRevisit = index > 0;
       } else if (seenCharts[chart]) {
@@ -668,7 +686,7 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   // shown as extraChart before the last unidentified lyric block (words with
   // no mapped chart). Fall back to the last lyric block when every block mapped.
   const mappedChartCount = hasTypes
-    ? Object.keys(chartForType).length
+    ? typedMappedChartCount
     : (combinedChartForSingleBlock !== null
       ? charts.length
       : Math.min(charts.length, blocks.length));

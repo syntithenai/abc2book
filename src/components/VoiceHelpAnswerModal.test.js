@@ -37,15 +37,40 @@ jest.mock('react-bootstrap', function() {
   };
 });
 
+const mockNavigate = jest.fn();
+
 jest.mock('react-router-dom', function() {
   return {
     Link: function Link(props) {
-      return <a href={props.to}>{props.children}</a>;
+      return (
+        <a
+          href={props.to}
+          onClick={function(event) {
+            if (typeof props.onClick === 'function') props.onClick(event);
+          }}
+        >
+          {props.children}
+        </a>
+      );
+    },
+    useNavigate: function() {
+      return mockNavigate;
     },
   };
 });
 
+jest.mock('../helpNavigation', function() {
+  const actual = jest.requireActual('../helpNavigation');
+  return Object.assign({}, actual, {
+    scrollToHelpSection: jest.fn(function() { return true; }),
+  });
+});
+
 describe('VoiceHelpAnswerModal', function() {
+  beforeEach(function() {
+    mockNavigate.mockClear();
+  });
+
   test('fetches help answers on open and refreshes on retry', async function() {
     const onRetry = jest.fn();
     const container = document.createElement('div');
@@ -153,5 +178,83 @@ describe('VoiceHelpAnswerModal', function() {
       root.unmount();
     });
     container.remove();
+  });
+
+  test('replaces a vague voice answer when related links are present', async function() {
+    const container = document.createElement('div');
+    document.body.appendChild(container);
+    const root = createRoot(container);
+    submitHelpQuery.mockRejectedValueOnce(new Error('resolver unavailable'));
+
+    await act(async function() {
+      root.render(
+        <VoiceHelpAnswerModal
+          show={true}
+          question="How do I use a foot pedal?"
+          answer="Open the help section for the closest topic."
+          links={['/help#foot-pedal']}
+          accessToken="token-123"
+          onHide={jest.fn()}
+          onRetry={jest.fn()}
+        />,
+      );
+      await Promise.resolve();
+    });
+
+    expect(container.textContent).toContain('foot pedal');
+    expect(container.textContent).not.toContain('closest topic');
+    expect(container.querySelector('a[href="/help#foot-pedal"]')).toBeTruthy();
+
+    await act(async function() {
+      root.unmount();
+    });
+    container.remove();
+  });
+
+  test('related help links close the dialog and navigate to the section', async function() {
+    const onHide = jest.fn();
+    const { scrollToHelpSection } = require('../helpNavigation');
+    const container = document.createElement('div');
+    document.body.appendChild(container);
+    const root = createRoot(container);
+    submitHelpQuery.mockRejectedValueOnce(new Error('resolver unavailable'));
+
+    jest.useFakeTimers();
+    await act(async function() {
+      root.render(
+        <VoiceHelpAnswerModal
+          show={true}
+          question="How do I edit notation?"
+          answer="Open a tune, then Edit."
+          links={['/help#edit-music']}
+          accessToken="token-123"
+          onHide={onHide}
+          onRetry={jest.fn()}
+        />,
+      );
+      await Promise.resolve();
+    });
+
+    const link = container.querySelector('a[href="/help#edit-music"]');
+    expect(link).toBeTruthy();
+
+    await act(async function() {
+      link.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+    });
+
+    expect(onHide).toHaveBeenCalledTimes(1);
+    expect(mockNavigate).toHaveBeenCalledWith('/help#edit-music');
+
+    await act(async function() {
+      jest.advanceTimersByTime(150);
+    });
+
+    expect(scrollToHelpSection).toHaveBeenCalledWith('edit-music');
+
+    await act(async function() {
+      root.unmount();
+    });
+    container.remove();
+    jest.useRealTimers();
   });
 });

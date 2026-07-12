@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Alert, ButtonGroup, ToggleButton } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAbcjsParser from '../useAbcjsParser'
-import { searchChords } from '../chordsSearchClient'
 import { buildGoogleChordsSearchUrl } from '../chordSearchSites'
-import { useCancellableAsyncJob } from '../useCancellableAsyncJob'
+import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { applyFieldLookupChoice } from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
@@ -18,6 +18,8 @@ import {
 } from '../genreInference'
 
 export default function ChordsSearchButton({
+  tuneId,
+  candidateId,
   title,
   artist,
   rhythm,
@@ -35,11 +37,8 @@ export default function ChordsSearchButton({
   book,
   resolverAvailable: resolverAvailableProp,
 }) {
-  const job = useCancellableAsyncJob('Chord search')
   const [error, setError] = useState('')
   const [source, setSource] = useState('')
-  const [progressMessage, setProgressMessage] = useState('')
-  const [progressPercent, setProgressPercent] = useState(0)
   const [updateLyrics, setUpdateLyrics] = useState(defaultUpdateLyrics)
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
@@ -53,16 +52,14 @@ export default function ChordsSearchButton({
     : resolverAvailableFromHealth
   const hasLocalChordSearch = !!(tunebook && tunebook.abcTools)
   const automaticLookup = resolverAvailable || hasLocalChordSearch
+  const updateLyricsRef = useRef(updateLyrics)
+  updateLyricsRef.current = updateLyrics
+  const applyRef = useRef(null)
 
-  const googleUrl = buildGoogleChordsSearchUrl(title, artist, extraQuery)
-  const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
-  const busy = job.busy
-
-  function applyChordResult(result) {
-    if (typeof onChords === 'function') {
-      onChords(result)
-    }
-    if (updateLyrics && typeof onLyrics === 'function') {
+  function finishApply(result, jobId) {
+    if (jobId) applyFieldLookupChoice(jobId, result)
+    if (typeof onChords === 'function') onChords(result)
+    if (updateLyricsRef.current && typeof onLyrics === 'function') {
       onLyrics({
         lines: result.lyricLines,
         text: result.lyricText,
@@ -70,12 +67,11 @@ export default function ChordsSearchButton({
         sourceUrl: result.sourceUrl,
       })
     }
-    const sourceLabel = result.source
+    const sourceLabel = result && result.source
       ? (result.sourceUrl ? result.source + ' (' + result.sourceUrl + ')' : result.source)
       : ''
     setSource(sourceLabel)
-    setProgressPercent(100)
-    if (typeof onGenreAccept === 'function') {
+    if (typeof onGenreAccept === 'function' && result) {
       const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
         title: title,
         artist: artist,
@@ -88,66 +84,73 @@ export default function ChordsSearchButton({
       }
     }
   }
+  applyRef.current = finishApply
+
+  const lookup = useFieldLookupSearchJob({
+    tuneId: tuneId,
+    candidateId: candidateId,
+    kind: 'chords',
+    onAwaiting: function(job) {
+      if (Array.isArray(job.manualCandidates) && job.manualCandidates.length > 0
+        && (!job.candidates || job.candidates.length === 0)) {
+        setManualCandidates(job.manualCandidates)
+        return
+      }
+      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      if (candidates.length === 1) {
+        applyRef.current(candidates[0], job.id)
+        return
+      }
+      if (candidates.length > 1) {
+        setPickerCandidates(candidates)
+        setShowPicker(true)
+        return
+      }
+      setError('No chords found for this song')
+    },
+    onError: function(job) {
+      setError(job.error || 'Chords search failed')
+    },
+  })
+
+  const googleUrl = buildGoogleChordsSearchUrl(title, artist, extraQuery)
+  const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
+  const busy = lookup.busy
+  const canSearch = !!(title && (tuneId || candidateId))
 
   function chooseChordCandidate(candidate) {
     setShowPicker(false)
     setPickerCandidates([])
-    applyChordResult(candidate)
+    const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+      ? lookup.activeJob.id
+      : null
+    finishApply(candidate, jobId)
   }
 
-  async function run() {
-    if (!title) return
-    const ctx = job.begin()
+  function run() {
+    if (!canSearch) return
+    if (busy) {
+      lookup.cancel()
+      return
+    }
     setError('')
     setSource('')
     setManualCandidates([])
     setLockedModalCandidate(null)
-    setProgressMessage('')
-    setProgressPercent(0)
-    try {
-      const result = await searchChords({
-        title: title,
-        artist: artist || '',
-        accessToken: token,
-        signal: ctx.signal,
+    setShowPicker(false)
+    setPickerCandidates([])
+    lookup.startSearch({
+      title: title,
+      artist: artist || '',
+      tuneName: title,
+      accessToken: token,
+      options: { updateLyrics: updateLyrics },
+      searchOptions: {
         resolverAvailable: resolverAvailable,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
         renderChords: function(abc) { return abcjsParser.renderChords(abc, true) },
-        onProgress: function(message, progress) {
-          if (!ctx.isCurrent()) return
-          setProgressMessage(message || '')
-          if (typeof progress === 'number' && Number.isFinite(progress)) {
-            setProgressPercent(Math.max(0, Math.min(100, Math.round(progress * 100))))
-          }
-        },
-      })
-      if (!ctx.isCurrent()) return
-      if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
-        setManualCandidates(result.manualCandidates)
-        return
-      }
-      if (result.multiple && Array.isArray(result.candidates)) {
-        if (result.candidates.length === 1) {
-          applyChordResult(result.candidates[0])
-        } else {
-          setPickerCandidates(result.candidates)
-          setShowPicker(true)
-        }
-      } else if (!result.empty) {
-        applyChordResult(result)
-      } else {
-        setError('No chords found for this song')
-      }
-    } catch (e) {
-      if (job.isAbortError(e)) return
-      const message = e && e.message ? e.message : 'Chords search failed'
-      setError(message)
-    } finally {
-      job.finish(ctx.generation)
-      if (ctx.isCurrent()) {
-        setProgressMessage('')
-      }
-    }
+      },
+    })
   }
 
   return (
@@ -156,12 +159,12 @@ export default function ChordsSearchButton({
         <FieldLookupButtonGroup
           automaticLookup={automaticLookup}
           busy={busy}
-          disabled={!title || disabled}
+          disabled={!canSearch || disabled}
           externalUrl={googleUrl}
           externalLinkIcon={externalLinkIcon}
           narrow={false}
           inline={true}
-          onSearch={function() { job.onTriggerClick(run) }}
+          onSearch={run}
           buttonStyle={buttonStyle}
           tunebook={tunebook}
         />
@@ -193,8 +196,8 @@ export default function ChordsSearchButton({
       </ButtonGroup>
       <SearchProgressBar
         visible={busy}
-        percent={progressPercent}
-        message={progressMessage}
+        percent={lookup.progressPercent}
+        message={lookup.progressMessage}
         defaultMessage="Searching for chords..."
       />
       {error && (

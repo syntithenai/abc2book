@@ -64,30 +64,55 @@ export function buildComposerPickerCandidates(result, currentComposer) {
   const candidates = []
   const seen = new Set()
 
-  function add(artist, source, preview) {
+  function roleLabel(role) {
+    return role === 'writer' ? 'Writer' : (role === 'performer' ? 'Performer' : '')
+  }
+
+  function add(artist, source, preview, role) {
     const name = String(artist || '').trim()
     const key = normalizeArtistKey(name)
     if (!name || !key || seen.has(key)) return
     seen.add(key)
+    const normalizedRole = role === 'writer' || role === 'performer' ? role : ''
+    const label = roleLabel(normalizedRole)
+    let displaySource = source || ''
+    if (label && displaySource && displaySource.toLowerCase().indexOf(label.toLowerCase()) < 0) {
+      displaySource = label + ' · ' + displaySource
+    } else if (label && !displaySource) {
+      displaySource = label
+    }
     candidates.push({
       artist: name,
-      source: source || '',
-      preview: preview || name,
+      role: normalizedRole,
+      source: displaySource,
+      preview: preview || (label ? (label + ' of this song') : name),
     })
   }
 
   const current = String(currentComposer || '').trim()
   if (current) {
-    add(current, 'Current value', 'Keep the current composer field value')
+    add(current, 'Current value', 'Keep the current composer field value', '')
   }
 
+  const incoming = []
   if (result && result.multiple && Array.isArray(result.candidates)) {
     result.candidates.forEach(function(candidate) {
-      add(candidate.artist, candidate.source, candidate.preview)
+      incoming.push(candidate)
     })
   } else if (result && result.artist) {
-    add(result.artist, result.source, result.preview)
+    incoming.push(result)
   }
+
+  incoming
+    .slice()
+    .sort(function(a, b) {
+      const aWriter = a && a.role === 'writer' ? 0 : 1
+      const bWriter = b && b.role === 'writer' ? 0 : 1
+      return aWriter - bWriter
+    })
+    .forEach(function(candidate) {
+      add(candidate.artist, candidate.source, candidate.preview, candidate.role)
+    })
 
   return candidates
 }

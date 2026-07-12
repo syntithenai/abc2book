@@ -2482,7 +2482,8 @@ async def help_query_endpoint(
         intent = await parse_help_intent_llm(question)
         body = {
             "question": question,
-            "answer": intent.get("helpAnswer") or "Open the help section for the closest topic.",
+            "answer": intent.get("helpAnswer")
+            or "Open the related help topic below for step-by-step guidance on this question.",
             "links": list(intent.get("helpLinks") or []),
             "confidence": float(intent.get("confidence") or 0.0),
             "parseMethod": str(intent.get("parseMethod") or "llm"),
@@ -2852,7 +2853,9 @@ async def search_images_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
-async def stream_tune_background_research_events(title, artist, lyrics=""):
+async def stream_tune_background_research_events(
+    title, artist, lyrics="", existing_background=""
+):
     queue = asyncio.Queue()
 
     async def on_progress(stage, message, progress, elapsed_ms=None):
@@ -2866,7 +2869,13 @@ async def stream_tune_background_research_events(title, artist, lyrics=""):
 
     async def run():
         try:
-            body = await research_tune_background(title, artist, lyrics, on_progress=on_progress)
+            body = await research_tune_background(
+                title,
+                artist,
+                lyrics,
+                existing_background,
+                on_progress=on_progress,
+            )
             await queue.put({"type": "result", "body": body})
         except ValueError as exc:
             await queue.put({
@@ -2915,19 +2924,28 @@ async def research_tune_background_endpoint(
         title = str(payload.get("title") or "").strip()
         artist = str(payload.get("artist") or "").strip()
         lyrics = str(payload.get("lyrics") or "")
+        existing_background = str(
+            payload.get("backgroundInfo")
+            or payload.get("existingBackground")
+            or ""
+        )
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
         if wants_stream:
             async def body():
-                async for line in stream_tune_background_research_events(title, artist, lyrics):
+                async for line in stream_tune_background_research_events(
+                    title, artist, lyrics, existing_background
+                ):
                     yield line.encode("utf-8")
 
             headers = cors_headers(origin)
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
-        body = await research_tune_background(title, artist, lyrics)
+        body = await research_tune_background(
+            title, artist, lyrics, existing_background
+        )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)

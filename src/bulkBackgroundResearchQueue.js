@@ -63,6 +63,8 @@ function publicJob(job) {
     message: job.message,
     error: job.error,
     skipReason: job.skipReason,
+    resultText: job.resultText || null,
+    resultMeta: job.resultMeta || null,
   }
 }
 
@@ -121,6 +123,7 @@ async function persistState() {
           title: job.title,
           artist: job.artist,
           lyrics: job.lyrics,
+          backgroundInfo: job.backgroundInfo || '',
           status: job.status === 'running' ? 'pending' : job.status,
           progress: job.progress,
           message: job.message,
@@ -163,6 +166,7 @@ export async function restoreAndResume() {
         title: item.title || '',
         artist: item.artist || '',
         lyrics: item.lyrics || '',
+        backgroundInfo: item.backgroundInfo || '',
         status: item.status === 'running' ? 'pending' : (item.status || 'pending'),
         progress: typeof item.progress === 'number' ? item.progress : 0,
         message: item.message || '',
@@ -220,6 +224,7 @@ export function previewEnqueueTunes(tunes) {
 
 export function enqueueTunes(tunes, options) {
   const accessToken = options && options.accessToken ? options.accessToken : null
+  const force = !!(options && options.force)
   const lyricsForTune = options && typeof options.lyricsForTune === 'function'
     ? options.lyricsForTune
     : function() { return '' }
@@ -239,6 +244,7 @@ export function enqueueTunes(tunes, options) {
         title: '',
         artist: tune.composer || '',
         lyrics: '',
+        backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
         status: 'skipped',
         progress: 0,
         message: '',
@@ -250,7 +256,7 @@ export function enqueueTunes(tunes, options) {
       return
     }
 
-    if (hasExistingBackgroundInfo(tune)) {
+    if (!force && hasExistingBackgroundInfo(tune)) {
       jobs.push({
         id: makeJobId(),
         tuneId: tune.id,
@@ -258,6 +264,7 @@ export function enqueueTunes(tunes, options) {
         title: title,
         artist: tune.composer || '',
         lyrics: lyricsForTune(tune),
+        backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
         status: 'skipped',
         progress: 0,
         message: '',
@@ -282,6 +289,7 @@ export function enqueueTunes(tunes, options) {
       title: title,
       artist: tune.composer || '',
       lyrics: lyricsForTune(tune),
+      backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
       status: 'pending',
       progress: 0,
       message: '',
@@ -439,6 +447,7 @@ async function runJob(job) {
       title: job.title,
       artist: job.artist || '',
       lyrics: job.lyrics || '',
+      backgroundInfo: job.backgroundInfo || '',
       accessToken: job.accessToken,
       signal: controller.signal,
       onProgress: function(message, progress) {
@@ -461,6 +470,15 @@ async function runJob(job) {
     }
 
     saveBackgroundForJob(job, result.text)
+    job.resultText = result.text
+    const timing = result.timing || {}
+    job.resultMeta = {
+      searchBackend: result.searchBackend || '',
+      model: result.model || '',
+      sourceCount: result.sources && result.sources.length ? result.sources.length : 0,
+      wordCount: timing.wordCount || 0,
+      totalMs: timing.totalMs || 0,
+    }
     job.status = 'done'
     job.progress = 100
     job.message = ''
@@ -517,6 +535,7 @@ export function __loadSavedStateForTests(saved) {
       title: item.title || '',
       artist: item.artist || '',
       lyrics: item.lyrics || '',
+      backgroundInfo: item.backgroundInfo || '',
       status: item.status === 'running' ? 'pending' : (item.status || 'pending'),
       progress: typeof item.progress === 'number' ? item.progress : 0,
       message: item.message || '',

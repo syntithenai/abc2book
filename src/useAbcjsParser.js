@@ -422,6 +422,11 @@ export default function useAbcjsParser() {
                            var isEmptyBar = noteLengthsSinceLastBar <= 0
                            if (!showDots) {
                                if (!isAnacrusis && !isEmptyBar) writeBar(barLayout)
+                               // Hymns often start the chorus with |: rather than ||.
+                               // Emit a blank line so verse/chorus become separate blocks.
+                               if (symbol.type === 'bar_left_repeat' && hasWrittenBar) {
+                                   final.push("\n")
+                               }
                            } else {
                                writeBar(barLayout)
                            }

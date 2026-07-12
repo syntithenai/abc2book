@@ -297,9 +297,19 @@ body {
 }
 
 .App-settings {
-  max-width: 48rem;
+  max-width: 56rem;
   padding: 0.5rem 1rem 2rem;
   color: var(--app-text);
+}
+
+.App-settings-tabs {
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+  row-gap: 0.25rem;
+}
+
+.App-settings-tab-content {
+  padding-top: 0.25rem;
 }
 
 .App-settings h1,

@@ -2,11 +2,13 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { act } from 'react-dom/test-utils';
 import ImportReviewModal from './ImportReviewModal';
-import { createImportReviewSession } from '../importReviewSession';
+import { createImportReviewSession, createBlankAddCandidate } from '../importReviewSession';
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 
 jest.mock('react-bootstrap', function() {
+  const React = require('react');
+
   function passthrough(tagName) {
     return function Component(props) {
       const Tag = tagName;
@@ -30,11 +32,31 @@ jest.mock('react-bootstrap', function() {
   Form.Label = passthrough('label');
   Form.Control = FormControl;
 
+  const ModalOnHideContext = React.createContext(null);
+
   function Modal(props) {
     if (!props.show) return null;
-    return <div data-testid={props['data-testid'] || 'modal'}>{props.children}</div>;
+    return (
+      <ModalOnHideContext.Provider value={props.onHide || null}>
+        <div data-testid={props['data-testid'] || 'modal'}>{props.children}</div>
+      </ModalOnHideContext.Provider>
+    );
   }
-  Modal.Header = passthrough('div');
+  Modal.Header = function ModalHeader(props) {
+    const onHide = React.useContext(ModalOnHideContext);
+    const closeButton = props.closeButton;
+    const rest = Object.assign({}, props);
+    delete rest.closeButton;
+    delete rest.children;
+    return (
+      <div {...rest}>
+        {props.children}
+        {closeButton ? (
+          <button type="button" className="btn-close" aria-label="Close" onClick={onHide} />
+        ) : null}
+      </div>
+    );
+  };
   Modal.Title = passthrough('div');
   Modal.Body = passthrough('div');
   Modal.Footer = passthrough('div');
@@ -57,12 +79,24 @@ jest.mock('react-bootstrap', function() {
     );
   };
 
+  function Dropdown(props) {
+    return <div className={props.className}>{props.children}</div>;
+  }
+  Dropdown.Toggle = function DropdownToggle(props) {
+    return <button type="button" {...props}>{props.children}</button>;
+  };
+  Dropdown.Menu = passthrough('div');
+  Dropdown.Item = function DropdownItem(props) {
+    return <button type="button" {...props}>{props.children}</button>;
+  };
+
   return {
     Alert: passthrough('div'),
     Badge: passthrough('span'),
     Button: Button,
     ButtonGroup: passthrough('div'),
     Col: passthrough('div'),
+    Dropdown: Dropdown,
     Form: Form,
     ListGroup: ListGroup,
     Modal: Modal,
@@ -247,6 +281,29 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
+  test('blank add session uses Add tunes chrome and gated Add button', async function() {
+    const view = renderModal();
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs' })],
+      { entryMode: 'add' }
+    );
+    const props = buildProps({
+      session: session,
+      currentTuneBook: 'songs',
+    });
+
+    await view.render(props);
+
+    expect(view.container.textContent).toContain('Add tunes');
+    const addButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
+      return button.textContent === 'Add';
+    });
+    expect(addButton).toBeTruthy();
+    expect(addButton.disabled).toBe(true);
+
+    await view.unmount();
+  });
+
   test('clicking Next advances the review queue through onSessionChange', async function() {
     const view = renderModal();
     const onSessionChange = jest.fn();
@@ -407,6 +464,29 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
+  test('hides Cancel all and Import all when the review list has one item', async function() {
+    const view = renderModal();
+    const session = createImportReviewSession([
+      { id: 'solo', tune: { name: 'Solo', composer: 'One', links: [] } },
+    ]);
+    const props = buildProps({
+      session: session,
+      onImportAll: jest.fn(),
+    });
+
+    await view.render(props);
+
+    const buttons = Array.from(view.container.querySelectorAll('button')).map(function(button) {
+      return button.textContent;
+    });
+    expect(buttons).toContain('Cancel');
+    expect(buttons).toContain('Import');
+    expect(buttons).not.toContain('Cancel all');
+    expect(buttons).not.toContain('Import all');
+
+    await view.unmount();
+  });
+
   test('Cancel all shows a warning modal and only closes after confirm', async function() {
     const view = renderModal();
     const onClose = jest.fn();
@@ -437,6 +517,33 @@ describe('ImportReviewModal', function() {
     });
 
     expect(onClose).toHaveBeenCalledTimes(1);
+
+    await view.unmount();
+  });
+
+  test('dialog close uses Continue later instead of cancelling the import', async function() {
+    const view = renderModal();
+    const onContinueLater = jest.fn();
+    const onClose = jest.fn();
+    const props = buildProps({
+      embedded: false,
+      onContinueLater: onContinueLater,
+      onClose: onClose,
+    });
+
+    await view.render(props);
+
+    const closeButton = view.container.querySelector('.btn-close');
+    expect(closeButton).toBeTruthy();
+
+    await act(async function() {
+      closeButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onContinueLater).toHaveBeenCalledTimes(1);
+    expect(onClose).not.toHaveBeenCalled();
+    expect(view.container.querySelector('[data-testid="import-review-cancel-warning"]')).toBeFalsy();
 
     await view.unmount();
   });

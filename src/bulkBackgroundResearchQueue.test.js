@@ -80,6 +80,17 @@ describe('bulkBackgroundResearchQueue', function() {
     expect(state.jobs[0].skipReason).toBe('has-background')
   })
 
+  test('enqueue force researches tunes that already have background info', function() {
+    const ids = bulkBackgroundResearchQueue.enqueueTunes([
+      makeTune({ id: 't2', backgroundInfo: 'Existing' }),
+    ], { accessToken: 'token', force: true })
+    const state = bulkBackgroundResearchQueue.getState()
+    expect(ids.length).toBe(1)
+    expect(state.jobs.length).toBe(1)
+    expect(state.jobs[0].status).toBe('pending')
+    expect(state.jobs[0].skipReason).toBe(null)
+  })
+
   test('enqueue skips tunes without title', function() {
     bulkBackgroundResearchQueue.enqueueTunes([
       makeTune({ id: 't2', name: '  ' }),

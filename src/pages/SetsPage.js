@@ -399,7 +399,7 @@ export default function SetsPage(props) {
             <Form.Control
               id="set-tune-search"
               type="search"
-              placeholder="Search by title, composer, book, or tag"
+              placeholder="Search by title, artist, book, or tag"
               value={tuneSearchText}
               onChange={function(e) { setTuneSearchText(e.target.value); }}
             />

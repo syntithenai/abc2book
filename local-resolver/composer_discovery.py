@@ -1,16 +1,28 @@
-import os
 import re
 
-import httpx
-
-from recording_artists import discover_recording_artists, is_generic_artist
+from recording_artists import (
+    discover_recording_artists,
+    discover_work_writers,
+    is_generic_artist,
+)
 from tune_background_research import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TIMEOUT_SECONDS, search_web
 
 TITLE_SPLIT_RE = re.compile(r"\s*[-–—|]\s+")
+WRITER_SNIPPET_RE = re.compile(
+    r"(?:written\s+by|wrote|composed\s+by|composer(?:s)?|songwriter(?:s)?|"
+    r"lyricist(?:s)?|penned\s+by|words\s+(?:and|&)\s+music\s+by|"
+    r"music\s+(?:and|&)\s+lyrics\s+by)\s*[:\-]?\s*"
+    r"([A-Z][A-Za-z0-9' .,&/-]{1,80})",
+    re.IGNORECASE,
+)
 
 
 def _normalize_space(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def _artist_key(value):
+    return re.sub(r"[^a-z0-9]+", "", _normalize_space(value).lower())
 
 
 def parse_title_composer_hint(title, title_hint="", artist=""):
@@ -43,24 +55,41 @@ def parse_title_composer_hint(title, title_hint="", artist=""):
     }
 
 
-def _add_artist(store, artist):
+def _add_candidate(store, artist, role="performer", source=""):
     name = _normalize_space(artist)
     if not name or is_generic_artist(name):
         return
-    key = re.sub(r"[^a-z0-9]+", "", name.lower())
-    if key in store:
+    key = _artist_key(name)
+    if not key:
         return
-    store[key] = name
+    existing = store.get(key)
+    if existing:
+        if existing["role"] != "writer" and role == "writer":
+            existing["role"] = "writer"
+            if source:
+                existing["source"] = source
+        return
+    store[key] = {
+        "artist": name,
+        "role": role if role in ("writer", "performer") else "performer",
+        "source": source or "",
+    }
 
 
-async def _discover_artist_llm(client, title, artist_hint=""):
+def _role_label(role):
+    return "Writer" if role == "writer" else "Performer"
+
+
+async def _discover_writer_llm(client, title, artist_hint=""):
     if not LLM_BASE_URL:
         return ""
-    hint_line = f"Known artist hint: {artist_hint}\n" if artist_hint else ""
+    hint_line = f"Known artist/performer hint: {artist_hint}\n" if artist_hint else ""
     prompt = (
-        f"What is the primary recording artist or best-known performer for the song \"{title}\"?\n"
+        f"Who wrote the song \"{title}\"?\n"
         f"{hint_line}"
-        "Reply with ONLY the artist or band name, nothing else."
+        "Reply with ONLY the composer, songwriter, or lyricist name (the person or band "
+        "credited with writing the song), nothing else.\n"
+        "Do not name a cover artist or performer unless they also wrote the song."
     )
     try:
         response = await client.post(
@@ -74,7 +103,10 @@ async def _discover_artist_llm(client, title, artist_hint=""):
                 "messages": [
                     {
                         "role": "system",
-                        "content": "You identify recording artists for songs. Reply with one artist name only.",
+                        "content": (
+                            "You identify songwriters and composers. "
+                            "Reply with one writer name only."
+                        ),
                     },
                     {"role": "user", "content": prompt},
                 ],
@@ -97,42 +129,58 @@ async def _discover_artist_llm(client, title, artist_hint=""):
     return ""
 
 
-async def _discover_artist_web(client, title):
-    query = f"{title} song recording artist performer"
+async def _discover_writer_web(client, title):
+    query = f'"{title}" song (writer OR songwriter OR composer OR "written by")'
     try:
         results = await search_web(client, query)
-        artists = {}
+        writers = {}
         for item in results[:8]:
-            snippet = _normalize_space(item.get("snippet") or item.get("title") or "")
+            snippet = _normalize_space(item.get("snippet") or "")
             title_text = _normalize_space(item.get("title") or "")
             for text in (title_text, snippet):
-                match = re.search(r"by\s+([A-Z][A-Za-z0-9' .,&-]{1,60})", text)
-                if match:
-                    _add_artist(artists, match.group(1))
-        return list(artists.values())[:3]
+                for match in WRITER_SNIPPET_RE.finditer(text):
+                    raw = match.group(1)
+                    # Stop at sentence boundaries / trailing junk.
+                    cleaned = re.split(r"[.;|]| - ", raw, maxsplit=1)[0].strip(" ,")
+                    if cleaned:
+                        _add_candidate(writers, cleaned, role="writer", source="web search")
+        return [entry["artist"] for entry in writers.values()][:3]
     except Exception:
         return []
 
 
-def _format_candidates(artists, source):
+def _format_candidates(store, max_artists=8):
+    writers = []
+    performers = []
+    for entry in store.values():
+        if entry["role"] == "writer":
+            writers.append(entry)
+        else:
+            performers.append(entry)
+
+    ordered = (writers + performers)[:max_artists]
     cleaned = []
-    seen = set()
-    for name in artists:
-        key = re.sub(r"[^a-z0-9]+", "", name.lower())
-        if not key or key in seen or is_generic_artist(name):
-            continue
-        seen.add(key)
+    for entry in ordered:
+        role = entry["role"]
+        source = entry["source"] or _role_label(role)
+        if source and _role_label(role).lower() not in source.lower():
+            source = f"{_role_label(role)} · {source}"
+        elif not source:
+            source = _role_label(role)
         cleaned.append({
-            "artist": name,
+            "artist": entry["artist"],
+            "role": role,
             "source": source,
-            "preview": name,
+            "preview": f"{_role_label(role)} of this song",
         })
+
     if len(cleaned) == 0:
-        raise ValueError("No composer or recording artist found")
+        raise ValueError("No artist found")
     if len(cleaned) == 1:
         return {
             "multiple": False,
             "artist": cleaned[0]["artist"],
+            "role": cleaned[0]["role"],
             "source": cleaned[0]["source"],
             "preview": cleaned[0]["preview"],
         }
@@ -160,29 +208,35 @@ async def discover_composer(
             await on_progress(stage, message, progress)
 
     merged = {}
-    if parsed["artist_hint"]:
-        _add_artist(merged, parsed["artist_hint"])
 
-    await emit("recording-artists", "Searching MusicBrainz and Genius...", 0.15)
+    await emit("writers", "Looking up songwriters and composers...", 0.12)
+    for name in await discover_work_writers(client, search_title, max_writers=max_artists):
+        _add_candidate(merged, name, role="writer", source="MusicBrainz")
+
+    writer_count = sum(1 for entry in merged.values() if entry["role"] == "writer")
+    if writer_count < 1:
+        await emit("llm", "Asking language model for the writer...", 0.4)
+        llm_name = await _discover_writer_llm(client, search_title, parsed["artist_hint"])
+        _add_candidate(merged, llm_name, role="writer", source="LLM")
+
+    writer_count = sum(1 for entry in merged.values() if entry["role"] == "writer")
+    if writer_count < 1:
+        await emit("web", "Searching the web for the writer...", 0.55)
+        for name in await _discover_writer_web(client, search_title):
+            _add_candidate(merged, name, role="writer", source="web search")
+
+    # Title/filename hints are usually performers, not writers.
+    if parsed["artist_hint"]:
+        _add_candidate(
+            merged,
+            parsed["artist_hint"],
+            role="performer",
+            source="title hint",
+        )
+
+    await emit("performers", "Finding other performers of the song...", 0.75)
     for name in await discover_recording_artists(client, search_title, max_artists=max_artists):
-        _add_artist(merged, name)
+        _add_candidate(merged, name, role="performer", source="MusicBrainz/Genius")
 
-    if len(merged) < 2:
-        await emit("llm", "Consulting language model...", 0.55)
-        llm_name = await _discover_artist_llm(client, search_title, parsed["artist_hint"])
-        _add_artist(merged, llm_name)
-
-    if len(merged) < 1:
-        await emit("web", "Searching the web...", 0.75)
-        for name in await _discover_artist_web(client, search_title):
-            _add_artist(merged, name)
-
-    await emit("done", "Composer search complete", 1.0)
-    sources = []
-    if parsed["artist_hint"]:
-        sources.append("title hint")
-    sources.append("MusicBrainz/Genius")
-    if LLM_BASE_URL:
-        sources.append("LLM")
-    sources.append("web search")
-    return _format_candidates(list(merged.values())[:max_artists], ", ".join(sources))
+    await emit("done", "Artist search complete", 1.0)
+    return _format_candidates(merged, max_artists=max_artists)

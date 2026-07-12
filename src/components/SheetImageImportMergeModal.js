@@ -75,7 +75,7 @@ export default function SheetImageImportMergeModal(props) {
             disabled={!artistLabel}
             checked={!!options.composer}
             onChange={function() { toggleOption('composer'); }}
-            label={'Composer / artist' + (artistLabel ? ': ' + artistLabel : '')}
+            label={'Artist' + (artistLabel ? ': ' + artistLabel : '')}
             className="mt-2"
           />
           <Form.Check

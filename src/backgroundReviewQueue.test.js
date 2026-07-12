@@ -9,12 +9,15 @@ import {
   __resetImportReviewSessionStoreForTests,
 } from './importReviewSessionStore'
 import { patchMediaAnalysisJob } from './mediaAnalysisJobs'
+import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 
 describe('backgroundReviewQueue', function() {
   afterEach(function() {
     clearImportReviewSession()
     __resetImportReviewSessionStoreForTests()
     __resetBackgroundReviewQueueForTests()
+    tuneFieldLookupQueue.__resetForTests()
+    patchMediaAnalysisJob('t1', { isAnalyzing: false, analysis: null })
   })
 
   test('counts import enrichment jobs ready for review', function() {
@@ -66,5 +69,37 @@ describe('backgroundReviewQueue', function() {
     summary = getBackgroundReviewSummary()
     expect(summary.mediaReady).toEqual([])
     expect(summary.ready).toBe(0)
+  })
+
+  test('counts awaiting field lookup jobs ready for review', function() {
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Wonderwall',
+      candidates: [
+        { artist: 'Oasis', source: 'web' },
+        { artist: 'Other', source: 'web' },
+      ],
+    })
+    const summary = getBackgroundReviewSummary()
+    expect(summary.fieldLookupAwaiting).toEqual([id])
+    expect(summary.fieldLookupAwaitingJobs.length).toBe(1)
+    expect(summary.fieldLookupAwaitingJobs[0].kind).toBe('composer')
+    expect(summary.ready).toBe(1)
+  })
+
+  test('excludes field lookup jobs already linked into import review', function() {
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Wonderwall',
+      candidates: [
+        { artist: 'Oasis', source: 'web' },
+      ],
+    })
+    tuneFieldLookupQueue.linkFieldLookupToReviewCandidate(id, 'candidate-1')
+    const summary = getBackgroundReviewSummary()
+    expect(summary.fieldLookupAwaiting).toEqual([])
+    expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
   })
 })

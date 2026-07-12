@@ -9,6 +9,7 @@ import SearchResultPickerModal from './SearchResultPickerModal';
 import SearchProgressBar from './SearchProgressBar';
 import TuneAliasesField from './TuneAliasesField';
 import ComposerSearchButton from './ComposerSearchButton';
+import FieldLookupReviewButton from './FieldLookupReviewButton'
 import { useCancellableAsyncJob } from '../useCancellableAsyncJob';
 
 function parseBulkLine(line) {
@@ -27,7 +28,7 @@ function parseBulkLine(line) {
 export default function ImportChordUrlModal(props) {
   const navigate = useNavigate();
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
-  const job = useCancellableAsyncJob('Chord import search');
+  const job = useCancellableAsyncJob('Chord import search', { background: true });
   const [show, setShow] = useState(false);
   const [mode, setMode] = useState('url');
   const [url, setUrl] = useState('');
@@ -247,6 +248,7 @@ export default function ImportChordUrlModal(props) {
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                 <span className="text-muted small">Artist</span>
                 <ComposerSearchButton
+                  candidateId="chord-import-draft"
                   title={title}
                   composer={artist}
                   titleHint={title}
@@ -256,6 +258,14 @@ export default function ImportChordUrlModal(props) {
                   inline={true}
                   onComposer={function(result) {
                     if (result && result.artist) setArtist(result.artist)
+                  }}
+                />
+                <FieldLookupReviewButton
+                  candidateId="chord-import-draft"
+                  kind="composer"
+                  fallbackTitle={title}
+                  onApply={function(candidate) {
+                    if (candidate && candidate.artist) setArtist(candidate.artist)
                   }}
                 />
               </div>

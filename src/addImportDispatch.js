@@ -14,8 +14,6 @@ import {
   detectTextImportFormat,
   SHEET_IMAGE_RESOLVER_ERROR,
   sheetImageFileToCandidates,
-  transcribeSheetImageToResult,
-  buildSheetDraftFromResult,
 } from './importSourceParse';
 
 const MIDI_RESOLVER_ERROR =
@@ -136,16 +134,7 @@ async function dispatchFromFile(file, ctx) {
     if (!ctx.resolverAvailable) {
       return errorResult(SHEET_IMAGE_RESOLVER_ERROR, { needsResolver: true });
     }
-    const importOpts = importOptionsFromContext(ctx);
-    if (ctx.stayOnForm) {
-      const body = await transcribeSheetImageToResult(file, importOpts);
-      return {
-        action: 'sheetDraft',
-        fileName: file.name,
-        draft: buildSheetDraftFromResult(body, file.name),
-      };
-    }
-    const candidates = await sheetImageFileToCandidates(file, importOpts);
+    const candidates = await sheetImageFileToCandidates(file, importOptionsFromContext(ctx));
     return { action: 'review', candidates: candidates };
   }
 

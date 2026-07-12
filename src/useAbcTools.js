@@ -114,6 +114,41 @@ var useAbcTools = () => {
         meta[key] = line
         return meta
     }
+
+    var BACKGROUND_META_SEED_KEYS = [
+      { key: 'O', label: 'Origin' },
+      { key: 'S', label: 'Source' },
+      { key: 'Z', label: 'Transcription' },
+      { key: 'D', label: 'Discography' },
+      { key: 'A', label: 'Area' },
+      { key: 'N', label: 'Notes' },
+    ]
+
+    function formatMetaValueForBackground(value) {
+      if (Array.isArray(value)) {
+        return value.map(function(part) {
+          return String(part || '').trim()
+        }).filter(Boolean).join('; ')
+      }
+      return String(value || '').trim()
+    }
+
+    function foldBibliographicMetaIntoBackground(tune) {
+      if (!tune || !tune.meta || typeof tune.meta !== 'object') return tune
+      var parts = []
+      BACKGROUND_META_SEED_KEYS.forEach(function(entry) {
+        if (!Object.prototype.hasOwnProperty.call(tune.meta, entry.key)) return
+        var text = formatMetaValueForBackground(tune.meta[entry.key])
+        delete tune.meta[entry.key]
+        if (!text) return
+        parts.push('**' + entry.label + ':** ' + text)
+      })
+      if (parts.length === 0) return tune
+      var seed = parts.join('\n')
+      var existing = typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : ''
+      tune.backgroundInfo = existing ? (existing + '\n\n' + seed) : seed
+      return tune
+    }
     
     
     function normalizeGenre(tune) {
@@ -547,6 +582,7 @@ var useAbcTools = () => {
         if (hLines.length > 0 && !tune.backgroundInfo) {
           tune.backgroundInfo = hLines.join('\n')
         }
+        foldBibliographicMetaIntoBackground(tune)
         if (tune.timedLyrics && tune.timedLyrics.v) {
           tune.timedLyrics = importMinimalTimedLyrics(tune.timedLyrics)
         }

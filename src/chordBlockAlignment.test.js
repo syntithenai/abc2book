@@ -87,6 +87,68 @@ describe('chord block alignment against melody double barlines', function() {
     expect(line0Chords).not.toContain('Em');
   });
 
+  test('eight-bar notes line spreads across four hymn lyric lines', function() {
+    // Angels We Have Heard: one ABC notes/chart line holds the whole verse.
+    const chart = 'G | | | D G | G | | | D G |';
+    const merged = mergeChordsIntoLyricLines(
+      [
+        'Angels we have heard on high',
+        'Sweetly singing o\'er the plains,',
+        'And the mountains in reply',
+        'Echoing their joyous strains.',
+      ],
+      chart
+    );
+    expect(merged.length).toBe(4);
+    const perLine = merged.map(function(row) {
+      return row.map(function(t) { return t.chord; }).filter(Boolean);
+    });
+    // Two bars per sung line: open on G, cadence D G on the even lines.
+    expect(perLine[0][0]).toBe('G');
+    expect(perLine[0]).not.toContain('D');
+    expect(perLine[1].some(function(c) { return c.indexOf('D') !== -1; })).toBe(true);
+    expect(perLine[2][0]).toBe('G');
+    expect(perLine[2].join(' ')).not.toMatch(/^D/);
+    expect(perLine[3].some(function(c) { return c.indexOf('D') !== -1; })).toBe(true);
+  });
+
+  test('untyped verse before [Chorus] gets the first chart when |: splits strains', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const notes = [
+      '"G"B2 B2 B2 d2 | d2>c2 B4 | B2 A2 B2 d2 | "D"B2>A2 "G"G4 |"G"B2 B2 B2 d2 | d2>c2 B4 | B2 A2 B2 d2 | "D"B2>A2 "G"G4 |',
+      '|:("G"d4 "C"edcB | "C"c4 "D"dcBA | "G"B4 "C"cBAG | "D"A2>)D2 D4 | "G"G2 A2 B2 c2 | [1 "D"B4 A4 :| [2 "D"(B4 A4) | "G"G8 |]',
+    ];
+    const chart = abcjsParser.renderChords(
+      abcTools.emptyABC('Angels') + notes.join('\n'),
+      false, 0, 'G', '1/4', '4/4'
+    );
+    const blocks = splitChordChartIntoBlocks(chart);
+    expect(blocks.length).toBeGreaterThanOrEqual(2);
+
+    const lyrics = [
+      'Angels we have heard on high',
+      'Sweetly singing o\'er the plains,',
+      'And the mountains in reply',
+      'Echoing their joyous strains.',
+      '',
+      '[Chorus]',
+      'Gloria in excelsis Deo.',
+      'Gloria in excelsis Deo.',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, blocks);
+    expect(aligned[0].type).toBe(null);
+    expect(aligned[0].inlineChords).toBe(true);
+    expect(aligned[1].type).toBe('chorus');
+    expect(aligned[1].inlineChords).toBe(true);
+    expect(aligned[0].chart).not.toBe(aligned[1].chart);
+
+    const verseMerged = mergeChordsIntoLyricLines(aligned[0].lyricLines, aligned[0].chart);
+    expect(verseMerged.length).toBe(4);
+    expect(verseMerged[0].some(function(t) { return t.chord === 'G'; })).toBe(true);
+    expect(verseMerged[0].every(function(t) { return t.chord.indexOf('C') === -1; })).toBe(true);
+  });
+
   test('holds a chord across bars without repeating or leaking it forward', function() {
     // Fm held for the whole first sung line (two bars), Am for the second.
     const chart = 'Fm | Fm | Am | Am |';

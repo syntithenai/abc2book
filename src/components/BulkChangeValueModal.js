@@ -2,15 +2,22 @@ import {useMemo, useRef, useState} from 'react'
 import {Button, Modal, Form, Row, Col} from 'react-bootstrap'
 import CreatableSelect from 'react-select/creatable'
 import { FormLabelWithHelp } from './FormFieldHelp'
-import { BULK_FIELD_HELP } from '../formFieldHelpText'
+import { BULK_FIELD_HELP, EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import { genreSelectValue } from '../musicGenreOptions'
 import {
   BULK_EDIT_FIELDS,
   getBulkEditField,
   getBulkEditSelectOptions,
   isBulkChangeRowComplete,
+  prepareBulkActions,
   prepareBulkChanges,
 } from '../bulkEditFields'
+import {
+  PRACTICE_INSTRUMENTS,
+  normalizeSuitableInstruments,
+} from '../practiceSessionSettings'
+import { applyBulkCacheAction } from '../bulkCacheActions'
+import useMediaCacheQueue from '../useMediaCacheQueue'
 import KeySignatureInput from './KeySignatureInput'
 
 var nextRowId = 1
@@ -19,7 +26,50 @@ function createEmptyRow() {
   return { id: 'bulk-row-' + (nextRowId++), field: '', value: '' }
 }
 
-function BulkFieldValueInput({fieldKey, value, onChange, tunebook}) {
+function defaultValueForField(field) {
+  if (!field) return ''
+  if (field.type === 'instruments') return []
+  if (field.type === 'toggle') return 'true'
+  return ''
+}
+
+function InstrumentsValueInput({value, onChange, rowId}) {
+  var selected = normalizeSuitableInstruments(Array.isArray(value) ? value : [])
+  return (
+    <div className="bulk-change-practice-instruments bulk-change-practice-instruments--inline">
+      <div className="abc-editor-suitable-for">
+        {PRACTICE_INSTRUMENTS.map(function(item) {
+          var checked = selected.indexOf(item.id) !== -1
+          return (
+            <Form.Check
+              inline
+              key={item.id}
+              type="checkbox"
+              id={(rowId || 'bulk') + '-suitable-for-' + item.id}
+              label={item.label}
+              checked={checked}
+              onChange={function(e) {
+                var next = selected.slice()
+                if (e.target.checked) {
+                  if (next.indexOf(item.id) === -1) next.push(item.id)
+                } else {
+                  var idx = next.indexOf(item.id)
+                  if (idx !== -1) next.splice(idx, 1)
+                }
+                onChange(next)
+              }}
+            />
+          )
+        })}
+      </div>
+      <Form.Text className="text-muted">
+        Leave all unchecked to allow any instrument.
+      </Form.Text>
+    </div>
+  )
+}
+
+function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId}) {
   var field = getBulkEditField(fieldKey)
   if (!field) {
     return (
@@ -29,6 +79,23 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook}) {
         placeholder="Choose a field first"
         value=""
         onChange={function() {}}
+      />
+    )
+  }
+
+  if (field.type === 'instruments') {
+    return <InstrumentsValueInput value={value} onChange={onChange} rowId={rowId} />
+  }
+
+  if (field.type === 'toggle') {
+    var locked = value === true || value === 'true'
+    return (
+      <Form.Check
+        type="switch"
+        id={(rowId || 'bulk') + '-' + field.key}
+        label={locked ? 'Locked' : 'Unlocked'}
+        checked={locked}
+        onChange={function(e) { onChange(e.target.checked ? 'true' : 'false') }}
       />
     )
   }
@@ -95,10 +162,11 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook}) {
   )
 }
 
-export default function BulkChangeValueModal({tunebook, selected, onClose, forceRefresh}) {
+export default function BulkChangeValueModal({tunebook, selected, onClose, forceRefresh, token}) {
   const [show, setShow] = useState(false)
   const [rows, setRows] = useState([createEmptyRow()])
   const listRef = useRef(null)
+  const mediaCacheQueue = useMediaCacheQueue()
 
   const selectedCount = Object.keys(selected).filter(function(item) {
     return (selected[item] ? true : false)
@@ -108,7 +176,11 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
     return prepareBulkChanges(rows)
   }, [rows])
 
-  const canApply = preparedChanges.length > 0
+  const preparedActions = useMemo(function() {
+    return prepareBulkActions(rows)
+  }, [rows])
+
+  const canApply = preparedChanges.length > 0 || preparedActions.length > 0
 
   function resetForm() {
     setRows([createEmptyRow()])
@@ -131,7 +203,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
         if (row.id !== rowId) return row
         var next = Object.assign({}, row, updates)
         if (updates.field !== undefined && updates.field !== row.field) {
-          next.value = ''
+          next.value = defaultValueForField(getBulkEditField(updates.field))
         }
         return next
       })
@@ -158,14 +230,37 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
     })
   }
 
+  function selectedTuneIds() {
+    return Object.keys(selected).filter(function(item) {
+      return selected[item] ? true : false
+    })
+  }
+
   function apply() {
     var changes = prepareBulkChanges(rows)
-    if (!changes.length) return
+    var actions = prepareBulkActions(rows)
+    if (!changes.length && !actions.length) return
 
-    var currentSelection = Object.keys(selected).filter(function(item) {
-      return (selected[item] ? true : false)
+    var currentSelection = selectedTuneIds()
+    var tunes = tunebook.fromSelection(selected)
+
+    if (changes.length) {
+      tunebook.bulkChangeTunes(currentSelection, changes)
+    }
+
+    actions.forEach(function(action) {
+      if (action.key === 'cache') {
+        applyBulkCacheAction({
+          action: action.value,
+          tunes: tunes,
+          tuneIds: currentSelection,
+          tunebook: tunebook,
+          token: token,
+          mediaCacheQueue: mediaCacheQueue,
+        })
+      }
     })
-    tunebook.bulkChangeTunes(currentSelection, changes)
+
     forceRefresh()
     handleClose()
   }
@@ -177,6 +272,8 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
     })
     return used
   }
+
+  var applyCount = preparedChanges.length + preparedActions.length
 
   return (
     <>
@@ -209,34 +306,41 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
           <div className="bulk-change-rows" ref={listRef}>
             {rows.map(function(row, index) {
               var usedFields = fieldsUsedExcept(row.id)
+              var field = getBulkEditField(row.field)
+              var isInstruments = field && field.type === 'instruments'
               return (
                 <div className="bulk-change-row" key={row.id}>
                   <Row className="g-2 align-items-end">
-                    <Col xs={12} md={5}>
+                    <Col xs={12} md={isInstruments ? 4 : 5}>
                       {index === 0 ? <Form.Label className="bulk-change-row-label">Field</Form.Label> : null}
                       <Form.Select
                         value={row.field}
                         onChange={function(e) { updateRow(row.id, { field: e.target.value }) }}
                       >
                         <option value="">Choose field…</option>
-                        {BULK_EDIT_FIELDS.map(function(field) {
+                        {BULK_EDIT_FIELDS.map(function(editField) {
                           return (
                             <option
-                              key={field.key}
-                              value={field.key}
-                              disabled={!!usedFields[field.key]}
+                              key={editField.key}
+                              value={editField.key}
+                              disabled={!!usedFields[editField.key]}
                             >
-                              {field.label}
+                              {editField.label}
                             </option>
                           )
                         })}
                       </Form.Select>
                     </Col>
-                    <Col xs={12} md={5}>
-                      {index === 0 ? <Form.Label className="bulk-change-row-label">New value</Form.Label> : null}
+                    <Col xs={12} md={isInstruments ? 6 : 5}>
+                      {index === 0 ? (
+                        <Form.Label className="bulk-change-row-label">
+                          {isInstruments ? 'Instruments' : 'New value'}
+                        </Form.Label>
+                      ) : null}
                       <BulkFieldValueInput
                         fieldKey={row.field}
                         value={row.value}
+                        rowId={row.id}
                         tunebook={tunebook}
                         onChange={function(nextValue) { updateRow(row.id, { value: nextValue }) }}
                       />
@@ -246,13 +350,18 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
                         variant="outline-danger"
                         aria-label="Remove change row"
                         title="Remove change"
-                        disabled={rows.length === 1 && !row.field && row.value === ''}
+                        disabled={rows.length === 1 && !row.field && (row.value === '' || (Array.isArray(row.value) && row.value.length === 0))}
                         onClick={function() { removeRow(row.id) }}
                       >
                         {tunebook.icons.deletebin}
                       </Button>
                     </Col>
                   </Row>
+                  {row.field === 'suitableFor' ? (
+                    <Form.Text className="text-muted d-block mt-1">
+                      {EDITOR_INFO_FIELD_HELP.suitableFor.body}
+                    </Form.Text>
+                  ) : null}
                   {row.field && !isBulkChangeRowComplete(row) ? (
                     <div className="bulk-change-row-hint text-muted">Enter a value for this field.</div>
                   ) : null}
@@ -269,7 +378,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
           <div className="bulk-change-footer">
             {canApply ? (
               <Button variant="success" onClick={apply}>
-                Apply {preparedChanges.length} change{preparedChanges.length === 1 ? '' : 's'}
+                Apply {applyCount} change{applyCount === 1 ? '' : 's'}
               </Button>
             ) : (
               <Button variant="secondary" disabled>Apply changes</Button>

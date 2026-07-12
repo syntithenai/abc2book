@@ -1,21 +1,26 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import PrivacyContent from '../components/PrivacyContent';
 import { Button, Container } from 'react-bootstrap';
 import { HELP_NAV, HELP_SECTIONS } from '../helpContent';
-
-var HELP_SECTION_SCROLL_OFFSET = 80;
-
-function scrollToSection(id) {
-  var el = document.getElementById(id);
-  if (el) {
-    var top = el.getBoundingClientRect().top + window.pageYOffset - HELP_SECTION_SCROLL_OFFSET;
-    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
-  }
-}
+import { helpSectionIdFromLink, scrollToHelpSection } from '../helpNavigation';
 
 export default function HelpPage(props) {
+  var location = useLocation();
   var loginButton = props.tunebook && props.tunebook.icons
     ? <Button variant="success">{props.tunebook.icons.login}</Button>
     : null;
+
+  useEffect(function() {
+    var sectionId = helpSectionIdFromLink(location.hash || '');
+    if (!sectionId) return;
+    var timer = window.setTimeout(function() {
+      scrollToHelpSection(sectionId);
+    }, 50);
+    return function() {
+      window.clearTimeout(timer);
+    };
+  }, [location.hash, location.pathname]);
 
   return (
     <div className="App-print help-page">
@@ -31,7 +36,7 @@ export default function HelpPage(props) {
                 key={item.id}
                 type="button"
                 className="help-quick-link"
-                onClick={function() { scrollToSection(item.id); }}
+                onClick={function() { scrollToHelpSection(item.id); }}
               >
                 {item.title}
               </button>
@@ -46,7 +51,7 @@ export default function HelpPage(props) {
             {HELP_NAV.map(function(item) {
               return (
                 <li key={item.id}>
-                  <button type="button" onClick={function() { scrollToSection(item.id); }}>
+                  <button type="button" onClick={function() { scrollToHelpSection(item.id); }}>
                     {item.title}
                   </button>
                 </li>

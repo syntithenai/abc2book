@@ -4,12 +4,10 @@ import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
-import { isAbortError } from '../abortUtils';
-import { registerLongRunningJob } from '../longRunningJobRegistry';
+import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue';
 import {
   buildTuneBackgroundSearchUrl,
   formatResearchDuration,
-  researchTuneBackground,
 } from '../tuneBackgroundResearchClient';
 import GenreSuggestionOffer from './GenreSuggestionOffer';
 import {
@@ -18,19 +16,27 @@ import {
   shouldOfferGenreSuggestion,
 } from '../genreInference';
 
-function formatResearchError(error) {
-  const message = error && error.message ? error.message : 'Background research failed';
-  if (message.indexOf('Media proxy error 401') === 0) {
-    return 'Google sign-in expired or invalid. Sign in again, or use web search below.';
-  }
-  if (message.indexOf('Media proxy error 403') === 0) {
-    return 'Your Google account is not authorized for the media resolver. Use web search below.';
-  }
-  return message;
-}
-
 function hasExistingBackgroundInfo(text) {
   return typeof text === 'string' && text.trim().length > 0;
+}
+
+function findTuneJob(jobs, tuneId) {
+  if (!tuneId || !Array.isArray(jobs)) return null;
+  return jobs.find(function(job) {
+    return job.tuneId === tuneId
+      && (job.status === 'pending' || job.status === 'running');
+  }) || null;
+}
+
+function formatResultSource(meta) {
+  if (!meta) return '';
+  return [
+    meta.searchBackend,
+    meta.model,
+    meta.sourceCount ? meta.sourceCount + ' sources' : '',
+    meta.wordCount ? meta.wordCount + ' words' : '',
+    meta.totalMs ? formatResearchDuration(meta.totalMs) : '',
+  ].filter(Boolean).join(' · ');
 }
 
 const DEFAULT_SEARCH_ICON = (
@@ -41,6 +47,7 @@ const DEFAULT_SEARCH_ICON = (
 );
 
 export default function TuneBackgroundSearchButton({
+  tuneId,
   title,
   artist,
   lyrics,
@@ -55,17 +62,16 @@ export default function TuneBackgroundSearchButton({
   tunebook,
 }) {
   const narrow = useIsNarrowViewport();
-  const [busy, setBusy] = useState(false);
+  const queue = useBulkBackgroundResearchQueue();
   const [error, setError] = useState('');
-  const [progressMessage, setProgressMessage] = useState('');
-  const [progressPercent, setProgressPercent] = useState(0);
-  const [elapsedMs, setElapsedMs] = useState(0);
   const [source, setSource] = useState('');
   const [showConfirm, setShowConfirm] = useState(false);
   const [genreSuggestion, setGenreSuggestion] = useState(null);
+  const [elapsedMs, setElapsedMs] = useState(0);
   const elapsedTimerRef = useRef(null);
   const startedAtRef = useRef(0);
-  const abortRef = useRef(null);
+  const startedJobIdRef = useRef(null);
+  const handledTerminalJobRef = useRef(null);
   const { available: resolverAvailable, status: resolverStatus, features, refreshMediaResolverHealth } = useMediaResolverHealth();
   const canResearchBackground = resolverAvailable && features.llm;
 
@@ -73,50 +79,105 @@ export default function TuneBackgroundSearchButton({
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : DEFAULT_SEARCH_ICON;
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null;
 
+  const activeJob = findTuneJob(queue.state.jobs, tuneId);
+  const busy = !!activeJob;
+  const progressPercent = activeJob ? (activeJob.progress || 0) : 0;
+  const progressMessage = activeJob ? (activeJob.message || '') : '';
+
   useEffect(function() {
     return function() {
       if (elapsedTimerRef.current) clearInterval(elapsedTimerRef.current);
-      if (abortRef.current) abortRef.current.abort();
     };
   }, []);
 
   useEffect(function() {
-    if (!busy) return undefined;
-    return registerLongRunningJob({
-      label: 'Background research',
-      onCancel: cancelResearch,
-    });
+    if (!tuneId || startedJobIdRef.current) return;
+    if (activeJob) startedJobIdRef.current = activeJob.id;
+  }, [tuneId, activeJob]);
+
+  useEffect(function() {
+    if (!busy) {
+      if (elapsedTimerRef.current) {
+        clearInterval(elapsedTimerRef.current);
+        elapsedTimerRef.current = null;
+      }
+      return undefined;
+    }
+    if (!elapsedTimerRef.current) {
+      startedAtRef.current = Date.now();
+      setElapsedMs(0);
+      elapsedTimerRef.current = setInterval(function() {
+        setElapsedMs(Date.now() - startedAtRef.current);
+      }, 500);
+    }
+    return undefined;
   }, [busy]);
 
+  useEffect(function() {
+    const jobId = startedJobIdRef.current;
+    if (!jobId || handledTerminalJobRef.current === jobId) return;
+    const terminal = (queue.state.jobs || []).find(function(job) {
+      return job.id === jobId
+        && (job.status === 'done' || job.status === 'error' || job.status === 'cancelled');
+    });
+    if (!terminal) return;
+
+    handledTerminalJobRef.current = terminal.id;
+
+    if (terminal.status === 'cancelled') {
+      setError('');
+      setSource('');
+      return;
+    }
+
+    if (terminal.status === 'error') {
+      const message = terminal.error || 'Background research failed';
+      if (message.indexOf('Media proxy error 401') === 0
+        || message.indexOf('Media proxy error 403') === 0) {
+        refreshMediaResolverHealth();
+      }
+      setError(message);
+      setSource('');
+      return;
+    }
+
+    setError('');
+    setSource(formatResultSource(terminal.resultMeta) || 'saved');
+    if (typeof onBackgroundInfo === 'function' && terminal.resultText) {
+      onBackgroundInfo({ text: terminal.resultText });
+    }
+    if (typeof onGenreAccept === 'function' && terminal.resultText) {
+      const inferred = inferGenreFromSearchContext(buildGenreSearchContext({
+        text: terminal.resultText,
+      }, {
+        title: title,
+        artist: artist,
+        rhythm: rhythm,
+      }));
+      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
+        setGenreSuggestion(inferred);
+      } else {
+        setGenreSuggestion(null);
+      }
+    }
+  }, [
+    queue.state.jobs,
+    onBackgroundInfo,
+    onGenreAccept,
+    title,
+    artist,
+    rhythm,
+    currentGenre,
+    refreshMediaResolverHealth,
+  ]);
+
   function cancelResearch() {
-    if (abortRef.current) {
-      abortRef.current.abort();
-      abortRef.current = null;
-    }
-    stopElapsedTimer();
-    setBusy(false);
-    setProgressMessage('');
-    setProgressPercent(0);
-  }
-
-  function startElapsedTimer() {
-    startedAtRef.current = Date.now();
-    setElapsedMs(0);
-    if (elapsedTimerRef.current) clearInterval(elapsedTimerRef.current);
-    elapsedTimerRef.current = setInterval(function() {
-      setElapsedMs(Date.now() - startedAtRef.current);
-    }, 500);
-  }
-
-  function stopElapsedTimer() {
-    if (elapsedTimerRef.current) {
-      clearInterval(elapsedTimerRef.current);
-      elapsedTimerRef.current = null;
-    }
+    if (!activeJob) return;
+    queue.cancelJob(activeJob.id);
   }
 
   function requestResearch() {
-    if (!title) return;
+    if (!title || !tuneId) return;
     if (busy) {
       cancelResearch();
       return;
@@ -125,78 +186,31 @@ export default function TuneBackgroundSearchButton({
       setShowConfirm(true);
       return;
     }
-    run();
+    run(false);
   }
 
-  async function run() {
-    if (!title) return;
+  function run(force) {
+    if (!title || !tuneId) return;
     setShowConfirm(false);
-    const controller = new AbortController();
-    abortRef.current = controller;
-    setBusy(true);
     setError('');
-    setProgressMessage('');
-    setProgressPercent(0);
     setSource('');
-    startElapsedTimer();
-    try {
-      const result = await researchTuneBackground({
-        title: title,
-        artist: artist || '',
-        lyrics: typeof lyrics === 'string' ? lyrics : '',
-        accessToken: token,
-        signal: controller.signal,
-        onProgress: function(message, progress, stage, serverElapsedMs) {
-          setProgressMessage(message || '');
-          if (typeof progress === 'number' && Number.isFinite(progress)) {
-            setProgressPercent(Math.max(0, Math.min(100, Math.round(progress * 100))));
-          }
-          if (typeof serverElapsedMs === 'number' && serverElapsedMs >= 0) {
-            setElapsedMs(serverElapsedMs);
-          }
-        },
-      });
-      if (typeof onBackgroundInfo === 'function') {
-        onBackgroundInfo(result);
-      }
-      const timing = result.timing || {};
-      const sourceLabel = [
-        result.searchBackend,
-        result.model,
-        result.sources && result.sources.length > 0 ? result.sources.length + ' sources' : '',
-        timing.wordCount ? timing.wordCount + ' words' : '',
-        timing.totalMs ? formatResearchDuration(timing.totalMs) : '',
-      ].filter(Boolean).join(' · ');
-      setSource(sourceLabel);
-      setProgressPercent(100);
-      if (typeof onGenreAccept === 'function') {
-        const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
-          title: title,
-          artist: artist,
-          rhythm: rhythm,
-        }));
-        if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
-          setGenreSuggestion(inferred);
-        } else {
-          setGenreSuggestion(null);
-        }
-      }
-    } catch (e) {
-      if (isAbortError(e)) return;
-      const message = e && e.message ? e.message : '';
-      if (message.indexOf('Media proxy error 401') === 0
-        || message.indexOf('Media proxy error 403') === 0) {
-        refreshMediaResolverHealth();
-      }
-      setError(formatResearchError(e));
-    } finally {
-      stopElapsedTimer();
-      if (abortRef.current === controller) {
-        abortRef.current = null;
-      }
-      setBusy(false);
-      setProgressMessage('');
-    }
+    setGenreSuggestion(null);
+
+    const tune = {
+      id: tuneId,
+      name: title,
+      composer: artist || '',
+      backgroundInfo: typeof existingBackgroundInfo === 'string' ? existingBackgroundInfo : '',
+    };
+    const lyricsText = typeof lyrics === 'string' ? lyrics : '';
+    const ids = queue.enqueueTunes([tune], {
+      accessToken: token,
+      force: !!force,
+      lyricsForTune: function() { return lyricsText; },
+    });
+    startedJobIdRef.current = ids[0] || null;
+    handledTerminalJobRef.current = null;
+    queue.start();
   }
 
   return (
@@ -204,7 +218,7 @@ export default function TuneBackgroundSearchButton({
       <FieldLookupButtonGroup
         automaticLookup={canResearchBackground}
         busy={busy}
-        disabled={!title || disabled}
+        disabled={!title || !tuneId || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         narrow={narrow}
@@ -224,6 +238,7 @@ export default function TuneBackgroundSearchButton({
           <div style={{ marginTop: '0.35em', fontSize: '0.9em', color: '#555' }}>
             {progressMessage || 'Starting research...'}
             {elapsedMs > 0 && <span> · {formatResearchDuration(elapsedMs)}</span>}
+            <span> · continues in background</span>
           </div>
         </div>
       )}
@@ -270,7 +285,7 @@ export default function TuneBackgroundSearchButton({
           <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>
             Cancel
           </Button>
-          <Button variant="danger" onClick={run}>
+          <Button variant="danger" onClick={function() { run(true); }}>
             Clear and research
           </Button>
         </Modal.Footer>

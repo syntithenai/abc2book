@@ -1,12 +1,15 @@
-import { useCallback, useEffect, useMemo, useRef, useSyncExternalStore } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import ImportReviewModal from './ImportReviewModal'
+import AudioDriveUploadModal from './AudioDriveUploadModal'
 import {
   appendImportReviewCandidates,
   createImportReviewSession,
+  createBlankAddCandidate,
   beginMergeForJob,
   currentCandidate,
   deferCandidateForEnhancement,
+  isReviewSessionActive,
   updateCurrentCandidate,
 } from '../importReviewSession'
 import {
@@ -32,6 +35,7 @@ import {
 import {
   clearImportReviewSession,
   getImportReviewSession,
+  hasActiveImportReviewSession,
   hideImportReviewUi,
   isImportReviewUiVisible,
   registerImportReviewStarter,
@@ -41,6 +45,13 @@ import {
   getImportReviewSessionRevision,
 } from '../importReviewSessionStore'
 import { dismissBackgroundReviewToast, snoozeBackgroundReviewToast } from '../backgroundReviewToast'
+import {
+  seedAwaitingLookup,
+  dismissFieldLookup,
+  subscribe as subscribeFieldLookupQueue,
+} from '../tuneFieldLookupQueue'
+import { promoteAwaitingFieldLookups } from '../fieldLookupReviewPromotion'
+import { buildComposerPickerCandidates } from '../composerDiscoveryUtils'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
@@ -56,7 +67,7 @@ import {
   mergeDraftTune,
 } from '../importReviewCandidateUtils'
 
-async function audioFileToReviewCandidate(file, draft, token, driveApi) {
+async function audioFileToReviewCandidate(file, draft, token, driveApi, uploadToDrive) {
   const metadata = await readAudioFileMetadata(file)
   const title = metadata.title || (draft && draft.tune && draft.tune.name) || file.name
   const artist = metadata.artist || (draft && draft.tune && draft.tune.composer) || ''
@@ -70,7 +81,7 @@ async function audioFileToReviewCandidate(file, draft, token, driveApi) {
     tune: tuneBase,
     file: file,
     title: title,
-    uploadToDrive: false,
+    uploadToDrive: !!uploadToDrive,
     token: token,
     driveApi: driveApi,
   })
@@ -109,6 +120,9 @@ export default function ImportReviewBridge(props) {
   const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh)
   const runningJobRef = useRef(null)
   const sessionRef = useRef(null)
+  const [pendingAudioFiles, setPendingAudioFiles] = useState([])
+  const [pendingAudioDraft, setPendingAudioDraft] = useState(null)
+  const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false)
 
   useEffect(function() {
     sessionRef.current = session
@@ -118,17 +132,34 @@ export default function ImportReviewBridge(props) {
     setImportReviewSession(next)
   }, [])
 
-  const startReview = useCallback(function(candidates) {
+  const startReview = useCallback(function(candidates, options) {
+    const opts = options || {}
+    if (opts.resumeIfActive && hasActiveImportReviewSession()) {
+      showImportReviewUi()
+      return
+    }
+
+    const listIn = Array.isArray(candidates) ? candidates : []
+    const useBlankAdd = opts.entryMode === 'add' && listIn.length === 0
+    const seedList = useBlankAdd
+      ? [createBlankAddCandidate({
+        book: opts.book || props.currentTuneBook,
+        tags: opts.tags,
+      })]
+      : listIn
+
     const tunebook = props.tunebook
     const tunesHash = props.tunesHash
-    const split = detectContentHashDuplicates(candidates, tunebook, tunesHash)
+    const split = detectContentHashDuplicates(seedList, tunebook, tunesHash)
     dismissContentHashDuplicateToast()
 
     function openSession(list) {
       const nextSession = createImportReviewSession(list, {
         skipEnrichment: !resolverAvailable,
+        entryMode: opts.entryMode === 'add' ? 'add' : 'import',
       })
       setImportReviewSession(nextSession)
+      showImportReviewUi()
     }
 
     if (split.duplicates.length > 0) {
@@ -137,16 +168,15 @@ export default function ImportReviewBridge(props) {
         onReview: function() {
           openSession(split.duplicates.concat(split.nonDuplicates))
           dismissContentHashDuplicateToast()
-          showImportReviewUi()
           navigate('/review')
         },
       })
     }
 
-    if (split.nonDuplicates.length > 0) {
-      openSession(split.nonDuplicates)
+    if (split.nonDuplicates.length > 0 || useBlankAdd) {
+      openSession(useBlankAdd ? seedList : split.nonDuplicates)
     }
-  }, [props.tunebook, props.tunesHash, resolverAvailable, navigate])
+  }, [props.tunebook, props.tunesHash, props.currentTuneBook, resolverAvailable, navigate])
 
   useEffect(function() {
     registerImportReviewStarter(startReview)
@@ -154,6 +184,36 @@ export default function ImportReviewBridge(props) {
       registerImportReviewStarter(null)
     }
   }, [startReview])
+
+  // Promote awaiting field-lookup searches into import-review queue items.
+  useEffect(function() {
+    function promote() {
+      const result = promoteAwaitingFieldLookups({
+        getTune: function(tuneId) {
+          return props.tunes && props.tunes[tuneId] ? props.tunes[tuneId] : null
+        },
+        abcTools: props.tunebook && props.tunebook.abcTools,
+      })
+      if (!result.candidates.length) return
+
+      const current = getImportReviewSession()
+      if (current && isReviewSessionActive(current)) {
+        updateSession(appendImportReviewCandidates(current, result.candidates))
+        showImportReviewUi()
+        return
+      }
+
+      const nextSession = createImportReviewSession(result.candidates, {
+        skipEnrichment: true,
+        entryMode: 'import',
+      })
+      setImportReviewSession(nextSession)
+      showImportReviewUi()
+    }
+
+    promote()
+    return subscribeFieldLookupQueue(promote)
+  }, [props.tunes, props.tunebook, updateSession])
 
   const handleMatchComplete = useCallback(function(updatedSession) {
     updateSession(updatedSession)
@@ -199,11 +259,9 @@ export default function ImportReviewBridge(props) {
     if (result.action === 'audio') {
       const files = result.files || []
       if (files.length === 0) return
-      const candidates = []
-      for (let i = 0; i < files.length; i += 1) {
-        candidates.push(await audioFileToReviewCandidate(files[i], draft, props.token, driveApi))
-      }
-      appendCandidates(candidates)
+      setPendingAudioDraft(draft || null)
+      setPendingAudioFiles(files)
+      setShowAudioDriveUploadModal(true)
       return
     }
 
@@ -212,6 +270,35 @@ export default function ImportReviewBridge(props) {
       if (outcome.handled) return
     }
   }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, abcjsParser, driveApi, updateSession, props.forceRefresh])
+
+  const continuePendingAudioImport = useCallback(async function(uploadToDriveFlags) {
+    const files = pendingAudioFiles.slice()
+    const draft = pendingAudioDraft
+    setShowAudioDriveUploadModal(false)
+    setPendingAudioFiles([])
+    setPendingAudioDraft(null)
+    if (!files.length) return
+    const candidates = []
+    for (let i = 0; i < files.length; i += 1) {
+      candidates.push(await audioFileToReviewCandidate(
+        files[i],
+        draft,
+        props.token,
+        driveApi,
+        !!(uploadToDriveFlags && uploadToDriveFlags[i])
+      ))
+    }
+    const independent = candidates.map(function(candidate) {
+      return asIndependentReviewCandidate(candidate, draft)
+    })
+    updateSession(appendImportReviewCandidates(getImportReviewSession(), independent))
+  }, [pendingAudioFiles, pendingAudioDraft, props.token, driveApi, updateSession])
+
+  const cancelPendingAudioImport = useCallback(function() {
+    setShowAudioDriveUploadModal(false)
+    setPendingAudioFiles([])
+    setPendingAudioDraft(null)
+  }, [])
 
   const handleEnhanceAndAdvance = useCallback(function(persistedSession) {
     const candidate = currentCandidate(persistedSession)
@@ -275,6 +362,10 @@ export default function ImportReviewBridge(props) {
       tunebook.saveTune(tune)
     }
 
+    if (candidate.fieldLookupJobId) {
+      dismissFieldLookup(candidate.fieldLookupJobId)
+    }
+
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
     if (typeof done === 'function') done()
   }, [props])
@@ -299,17 +390,20 @@ export default function ImportReviewBridge(props) {
         merged.lastUpdated = Date.now()
         tunebook.saveTune(merged)
         tunesSnapshot[candidate.mergeTargetId] = merged
-        return
+      } else {
+        const tune = Object.assign({}, candidate.tune)
+        if (book) {
+          const books = Array.isArray(tune.books) ? tune.books.slice() : []
+          if (books.indexOf(book) === -1) books.push(book)
+          tune.books = books
+        }
+        tunebook.saveTune(tune)
+        if (tune.id) tunesSnapshot[tune.id] = tune
       }
 
-      const tune = Object.assign({}, candidate.tune)
-      if (book) {
-        const books = Array.isArray(tune.books) ? tune.books.slice() : []
-        if (books.indexOf(book) === -1) books.push(book)
-        tune.books = books
+      if (candidate.fieldLookupJobId) {
+        dismissFieldLookup(candidate.fieldLookupJobId)
       }
-      tunebook.saveTune(tune)
-      if (tune.id) tunesSnapshot[tune.id] = tune
     })
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -321,11 +415,11 @@ export default function ImportReviewBridge(props) {
     clearImportReviewSession()
     dismissContentHashDuplicateToast()
     dismissBackgroundReviewToast()
-    if (onReviewRoute) {
+    if (onReviewRoute || location.pathname.indexOf('/add') === 0) {
       navigate('/tunes')
     }
     if (typeof props.onComplete === 'function') props.onComplete(finalSession)
-  }, [props, onReviewRoute, navigate])
+  }, [props, onReviewRoute, navigate, location.pathname])
 
   const enrichmentJobStatusKey = useMemo(function() {
     if (!session || !Array.isArray(session.enrichmentJobs)) return ''
@@ -456,6 +550,26 @@ export default function ImportReviewBridge(props) {
           composerCandidates: result.composerCandidates || [],
         }),
       }))
+      const composerCandidates = Array.isArray(result.composerCandidates)
+        ? result.composerCandidates
+        : []
+      if (composerCandidates.length > 1 && pending.candidateId) {
+        const candidate = (current.candidates || []).find(function(item) {
+          return item && item.id === pending.candidateId
+        })
+        const tune = (result.enrichedTune || (candidate && candidate.tune)) || {}
+        seedAwaitingLookup({
+          candidateId: pending.candidateId,
+          tuneId: candidate && candidate.mergeTargetId ? candidate.mergeTargetId : null,
+          kind: 'composer',
+          title: tune.name || '',
+          artist: tune.composer || '',
+          candidates: buildComposerPickerCandidates({
+            multiple: true,
+            candidates: composerCandidates,
+          }, tune.composer || ''),
+        })
+      }
     }).catch(function(error) {
       if (cancelled) return
       const current = getImportReviewSession()
@@ -527,50 +641,60 @@ export default function ImportReviewBridge(props) {
   }, [finishCandidate, autoAdvanceMerge, updateSession])
 
   return (
-    <ImportReviewModal
-      show={showModal}
-      embedded={!!props.embedded}
-      reviewPageMode={onReviewRoute}
-      onContinueLater={handleContinueLater}
-      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-      session={session}
-      onClose={function() {
-        clearImportReviewEnrichmentBridge()
-        clearImportReviewSession()
-        dismissContentHashDuplicateToast()
-        dismissBackgroundReviewToast()
-        if (onReviewRoute) {
-          navigate('/tunes')
-        }
-      }}
-      onHide={function() {
-        hideImportReviewUi()
-      }}
-      onSessionChange={updateSession}
-      onMatchComplete={handleMatchComplete}
-      onFinishCandidate={handleFinishCandidate}
-      onImportAll={finishAllCandidates}
-      onEnhanceAndAdvance={handleEnhanceAndAdvance}
-      onComplete={handleComplete}
-      onOpenTune={props.onOpenTune}
-      tunebook={props.tunebook}
-      tunes={props.tunes}
-      token={props.token}
-      login={props.login}
-      requestGoogleScopes={props.requestGoogleScopes}
-      forceRefresh={props.forceRefresh}
-      searchIndex={props.searchIndex}
-      loadTuneTexts={props.loadTuneTexts}
-      resolverAvailable={resolverAvailable}
-      onImportFile={handleReviewSourceImport}
-      onImportFiles={function(files, draft) {
-        return Promise.all((files || []).map(function(file) {
-          return handleReviewSourceImport(file, draft)
-        }))
-      }}
-      onImportText={handleReviewSourceImport}
-      onImportSource={handleReviewSourceImport}
-      onImportYouTube={handleReviewYouTubeImport}
-    />
+    <>
+      <ImportReviewModal
+        show={showModal}
+        embedded={!!props.embedded}
+        reviewPageMode={onReviewRoute}
+        onContinueLater={handleContinueLater}
+        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+        session={session}
+        onClose={function() {
+          clearImportReviewEnrichmentBridge()
+          clearImportReviewSession()
+          dismissContentHashDuplicateToast()
+          dismissBackgroundReviewToast()
+          if (onReviewRoute || location.pathname.indexOf('/add') === 0) {
+            navigate('/tunes')
+          }
+        }}
+        onHide={function() {
+          hideImportReviewUi()
+        }}
+        onSessionChange={updateSession}
+        onMatchComplete={handleMatchComplete}
+        onFinishCandidate={handleFinishCandidate}
+        onImportAll={finishAllCandidates}
+        onEnhanceAndAdvance={handleEnhanceAndAdvance}
+        onComplete={handleComplete}
+        onOpenTune={props.onOpenTune}
+        tunebook={props.tunebook}
+        tunes={props.tunes}
+        token={props.token}
+        login={props.login}
+        requestGoogleScopes={props.requestGoogleScopes}
+        forceRefresh={props.forceRefresh}
+        searchIndex={props.searchIndex}
+        loadTuneTexts={props.loadTuneTexts}
+        resolverAvailable={resolverAvailable}
+        currentTuneBook={props.currentTuneBook}
+        onImportFile={handleReviewSourceImport}
+        onImportFiles={function(files, draft) {
+          return Promise.all((files || []).map(function(file) {
+            return handleReviewSourceImport(file, draft)
+          }))
+        }}
+        onImportText={handleReviewSourceImport}
+        onImportSource={handleReviewSourceImport}
+        onImportYouTube={handleReviewYouTubeImport}
+      />
+      <AudioDriveUploadModal
+        show={showAudioDriveUploadModal}
+        files={pendingAudioFiles}
+        loggedIn={!!(props.token && props.token.access_token)}
+        onConfirm={continuePendingAudioImport}
+        onCancel={cancelPendingAudioImport}
+      />
+    </>
   )
 }

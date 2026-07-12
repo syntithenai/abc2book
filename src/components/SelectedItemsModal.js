@@ -1,24 +1,12 @@
 import {useRef, useState} from 'react'
-import {Button, ButtonGroup, Dropdown, Form, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
-import { toast } from 'react-toastify'
+import {Button, ButtonGroup, Form, Modal, Tabs, Tab, ListGroup} from 'react-bootstrap'
 import BulkChangeValueModal from './BulkChangeValueModal'
 import BulkCheckModal from './BulkCheckModal'
 import BulkSearchModal from './BulkSearchModal'
-import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
-import { MediaCacheQueueTriggerButton } from './MediaCacheQueueModal'
-import { StemCreateQueueTriggerButton } from './StemCreateQueueModal'
-import useMediaCacheQueue from '../useMediaCacheQueue'
-import useStemCreateQueue from '../useStemCreateQueue'
-import { isStemsDownloadDisabled } from '../tuneDownloadActions'
-import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import {savePerformanceSet} from '../performanceSetStore'
 import {savePlaylistFromQueue} from '../savedPlaylistsStore'
 import {createQueue} from '../nowPlayingQueue'
-import {
-  isMediaCacheLocked,
-  setMediaCacheLockForTunes,
-} from '../mediaCacheLock'
 import {Link, useNavigate} from 'react-router-dom'
 
 function BulkOpsButton({icon, label, className, children, ...buttonProps}) {
@@ -89,8 +77,6 @@ export default function SelectedItemsModal(props) {
   const icons = props.tunebook.icons
   const navigate = useNavigate()
   const [show, setShow] = useState(false)
-  const mediaCacheQueue = useMediaCacheQueue()
-  const stemCreateQueue = useStemCreateQueue()
   const [filterAdd, setFilterAdd] = useState('')
   const [filterRemove, setFilterRemove] = useState('')
   const [options, setOptions] = useState(props.defaultOptions())
@@ -276,99 +262,6 @@ export default function SelectedItemsModal(props) {
     return props.tunebook.fromSelection(props.selected)
   }
 
-  function currentSelectionIds() {
-    return Object.keys(props.selected).filter(function(item) {
-      return props.selected[item] ? true : false
-    })
-  }
-
-  function handleBulkBlockFromPractice() {
-    if (!window.confirm('Block all ' + props.selectedCount + ' selected tunes from practice sessions?')) return
-    props.tunebook.bulkChangeTunes(currentSelectionIds(), 'suitableForPractice', false)
-    props.forceRefresh()
-    handleClose()
-  }
-
-  function handleBulkUnblockFromPractice() {
-    if (!window.confirm('Unblock all ' + props.selectedCount + ' selected tunes for practice sessions?')) return
-    props.tunebook.bulkChangeTunes(currentSelectionIds(), 'suitableForPractice', true)
-    props.forceRefresh()
-    handleClose()
-  }
-
-  function handleBulkCache() {
-    const tunes = selectedTunes()
-    mediaCacheQueue.enqueueTunesCacheJobs(tunes, {
-      utils: props.tunebook.utils,
-      accessToken: props.token && props.token.access_token ? props.token.access_token : null,
-    })
-    mediaCacheQueue.start()
-  }
-
-  function handleBulkStems() {
-    const tunes = selectedTunes()
-    const health = getMediaResolverHealthState()
-    stemCreateQueue.enqueueTunesStemCreateJobs(tunes, {
-      utils: props.tunebook.utils,
-      accessToken: props.token && props.token.access_token ? props.token.access_token : null,
-      demucsModel: health.status && health.status.demucsModel ? health.status.demucsModel : 'htdemucs',
-    })
-    stemCreateQueue.start()
-  }
-
-  function handleClearSelectedCaches(kind) {
-    const allTuneIds = selectedTuneIds()
-    if (!allTuneIds.length) return
-    const selected = selectedTunes()
-    const lockedTuneIds = {}
-    selected.forEach(function(tune) {
-      if (isMediaCacheLocked(tune)) lockedTuneIds[tune.id] = true
-    })
-    const clearOptions = {
-      respectLock: true,
-      lockedTuneIds: lockedTuneIds,
-    }
-    const skippedLocked = allTuneIds.filter(function(tuneId) {
-      return lockedTuneIds[tuneId]
-    }).length
-    const utils = props.tunebook.utils
-    let clearPromise
-    if (kind === 'audio') {
-      clearPromise = utils.clearDownloadedAudioCacheForTunes(allTuneIds, clearOptions)
-    } else if (kind === 'stems') {
-      clearPromise = utils.clearStemsCacheForTunes(allTuneIds, clearOptions)
-    } else if (kind === 'midi') {
-      clearPromise = utils.clearMidiCacheForTunes(allTuneIds)
-    } else {
-      clearPromise = utils.clearAudioAndStemsCacheForTunes(allTuneIds, clearOptions)
-    }
-    Promise.resolve(clearPromise).then(function(result) {
-      let detail
-      if (kind === 'both' && result && result.audio && result.stems) {
-        const audioRemoved = result.audio.removed || 0
-        const stemsRemoved = result.stems.removed || 0
-        detail = 'Removed ' + audioRemoved + ' audio and ' + stemsRemoved + ' stem cache entr' + ((audioRemoved + stemsRemoved) === 1 ? 'y' : 'ies') + ' for selected tunes.'
-      } else {
-        const removed = result && result.removed != null ? result.removed : 0
-        const label = kind === 'stems' ? 'stem' : (kind === 'midi' ? 'MIDI' : 'audio')
-        detail = 'Removed ' + removed + ' ' + label + ' cache entr' + (removed === 1 ? 'y' : 'ies') + ' for selected tunes.'
-      }
-      if (skippedLocked > 0 && kind !== 'midi') {
-        detail += ' Skipped ' + skippedLocked + ' locked tune' + (skippedLocked === 1 ? '' : 's') + '.'
-      }
-      toast.success(detail)
-    }).catch(function() {
-      toast.error('Could not clear cache for selected tunes.')
-    })
-  }
-
-  function handleBulkCacheLock(locked) {
-    const tunes = selectedTunes()
-    if (!tunes.length) return
-    setMediaCacheLockForTunes(props.tunebook, tunes, locked)
-    props.forceRefresh()
-  }
-
   function selectedTuneIds() {
     return Object.keys(props.selected).filter(function(item) {
       return props.selected[item] ? true : false
@@ -452,8 +345,15 @@ export default function SelectedItemsModal(props) {
                 onClose={handleClose}
                 selected={props.selected}
                 selectedCount={props.selectedCount}
+                token={props.token}
               />
-              <BulkOpsButton as={Link} to="/print" variant="primary" icon={icons.printer} label="Print" />
+              <BulkSearchModal
+                tunebook={props.tunebook}
+                selected={props.selected}
+                selectedCount={props.selectedCount}
+                token={props.token}
+                forceRefresh={props.forceRefresh}
+              />
               <BulkCheckModal
                 tunebook={props.tunebook}
                 selected={props.selected}
@@ -462,95 +362,7 @@ export default function SelectedItemsModal(props) {
                 token={props.token}
                 autoStartCheck={false}
               />
-              <BulkSearchModal
-                tunebook={props.tunebook}
-                selected={props.selected}
-                selectedCount={props.selectedCount}
-                token={props.token}
-              />
-              <BulkComposerDiscoveryModal
-                tunebook={props.tunebook}
-                selected={props.selected}
-                selectedCount={props.selectedCount}
-                token={props.token}
-              />
             </div>
-            <div className="bulk-ops-toolbar-block bulk-ops-practice-block">
-              <span className="bulk-ops-toolbar-block-title">Practice</span>
-              <ButtonGroup className="bulk-ops-practice-btn-group" aria-label="Block tunes from practice">
-                <BulkOpsButton
-                  variant="warning"
-                  icon={icons.lock}
-                  label="Block from practice"
-                  onClick={handleBulkBlockFromPractice}
-                >
-                  Block
-                </BulkOpsButton>
-                <BulkOpsButton
-                  variant="success"
-                  icon={icons.unlock}
-                  label="Unblock for practice"
-                  onClick={handleBulkUnblockFromPractice}
-                >
-                  Unblock
-                </BulkOpsButton>
-              </ButtonGroup>
-            </div>
-            <div className="bulk-ops-toolbar-block bulk-ops-cache-block">
-                <span className="bulk-ops-toolbar-block-title">Cache</span>
-                <ButtonGroup className="bulk-ops-cache-btn-group" aria-label="Cache operations">
-                  <MediaCacheQueueTriggerButton
-                    tunebook={props.tunebook}
-                    label="Save"
-                    variant="primary"
-                    pendingCount={mediaCacheQueue.pendingCount}
-                    onClick={handleBulkCache}
-                  />
-                  <Dropdown as={ButtonGroup} className="bulk-ops-clear-cache-dropdown">
-                    <Dropdown.Toggle
-                      variant="warning"
-                      className="bulk-ops-action-btn"
-                      id="bulk-ops-clear-cache"
-                      aria-label="Clear cache for selected tunes"
-                      title="Clear cache for selected tunes"
-                    >
-                      {icons.deletebin}
-                      <span className="bulk-ops-btn-label">Clear</span>
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item onClick={function() { handleClearSelectedCaches('audio') }}>
-                        Clear Audio cache
-                      </Dropdown.Item>
-                      <Dropdown.Item onClick={function() { handleClearSelectedCaches('stems') }}>
-                        Clear Stem cache
-                      </Dropdown.Item>
-                      <Dropdown.Item onClick={function() { handleClearSelectedCaches('midi') }}>
-                        Clear MIDI cache
-                      </Dropdown.Item>
-                      <Dropdown.Divider />
-                      <Dropdown.Item onClick={function() { handleClearSelectedCaches('both') }}>
-                        Clear Audio and Stem cache
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown>
-                  <BulkOpsButton
-                    variant="secondary"
-                    icon={icons.lock}
-                    label="Lock cache"
-                    onClick={function() { handleBulkCacheLock(true) }}
-                  >
-                    Lock
-                  </BulkOpsButton>
-                  <BulkOpsButton
-                    variant="secondary"
-                    icon={icons.unlock}
-                    label="Unlock cache"
-                    onClick={function() { handleBulkCacheLock(false) }}
-                  >
-                    Unlock
-                  </BulkOpsButton>
-                </ButtonGroup>
-              </div>
               <div className="bulk-ops-toolbar-block bulk-ops-create-block">
                 <span className="bulk-ops-toolbar-block-title">Create</span>
                 <ButtonGroup className="bulk-ops-create-btn-group" aria-label="Create from selection">
@@ -570,14 +382,6 @@ export default function SelectedItemsModal(props) {
                   >
                     Play List
                   </BulkOpsButton>
-                  <StemCreateQueueTriggerButton
-                    tunebook={props.tunebook}
-                    label="Stems"
-                    variant="success"
-                    pendingCount={stemCreateQueue.pendingCount}
-                    disabled={isStemsDownloadDisabled(selectedTunes(), props.tunebook)}
-                    onClick={handleBulkStems}
-                  />
                 </ButtonGroup>
               </div>
             <div className="bulk-ops-toolbar-block bulk-ops-download-block">
@@ -588,10 +392,12 @@ export default function SelectedItemsModal(props) {
                 token={props.token}
                 onComplete={handleClose}
               />
+              <BulkOpsButton as={Link} to="/print" variant="primary" icon={icons.printer} label="Print" />
               <BulkOpsButton variant="danger" icon={icons.deletebin} label="Delete" onClick={clickDelete} />
             </div>
           </div>
 
+          <div className="bulk-ops-tabs-shell">
           <Tabs defaultActiveKey="addbook" className="bulk-ops-tabs">
             <Tab eventKey="addbook" title="Add Book">
               <div className="bulk-ops-tab-panel">
@@ -728,6 +534,7 @@ export default function SelectedItemsModal(props) {
               </div>
             </Tab>
           </Tabs>
+          </div>
         </Modal.Body>
       </Modal>
     </>

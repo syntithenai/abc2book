@@ -1,5 +1,6 @@
 import {
   createImportReviewSession,
+  createBlankAddCandidate,
   advanceReviewStep,
   markCandidateImported,
   beginMergeForCandidateIndex,
@@ -14,6 +15,7 @@ import {
   navigateReviewCandidate,
   cancelCurrentCandidate,
   markAllCandidatesImported,
+  isAddTunesChrome,
 } from './importReviewSession';
 import {
   createEnrichmentJob,
@@ -32,6 +34,27 @@ describe('importReviewSession', function() {
     expect(session.step).toBe('review');
     expect(session.phase).toBe('identify');
     expect(session.sessionSummary).toEqual(emptySessionSummary());
+    expect(session.entryMode).toBe('import');
+  });
+
+  test('createBlankAddCandidate seeds empty manual draft', function() {
+    const candidate = createBlankAddCandidate({ book: 'Session', tags: ['slow'] });
+    expect(candidate.sourceKind).toBe('manual');
+    expect(candidate.tune.books).toEqual(['session']);
+    expect(candidate.tune.tags).toEqual(['slow']);
+    expect(candidate.tune.voices['1'].notes).toEqual([]);
+  });
+
+  test('isAddTunesChrome only for single manual add-mode session', function() {
+    const blank = createImportReviewSession([createBlankAddCandidate({ book: 'x' })], { entryMode: 'add' });
+    expect(isAddTunesChrome(blank)).toBe(true);
+    const imported = createImportReviewSession([{ tune: { name: 'A' }, sourceKind: 'abc' }], { entryMode: 'add' });
+    expect(isAddTunesChrome(imported)).toBe(false);
+    const multi = createImportReviewSession([
+      createBlankAddCandidate({}),
+      { tune: { name: 'B' }, sourceKind: 'abc' },
+    ], { entryMode: 'add' });
+    expect(isAddTunesChrome(multi)).toBe(false);
   });
 
   test('advanceReviewStep keeps unified review page active', function() {

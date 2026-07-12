@@ -308,6 +308,7 @@ export async function researchTuneBackground(options) {
     title,
     artist,
     lyrics,
+    backgroundInfo,
     accessToken,
     signal,
     onProgress,
@@ -323,6 +324,7 @@ export async function researchTuneBackground(options) {
       title: title || '',
       artist: artist || '',
       lyrics: typeof lyrics === 'string' ? lyrics : '',
+      backgroundInfo: typeof backgroundInfo === 'string' ? backgroundInfo : '',
     }),
     signal: signal,
     headers: {

@@ -1,6 +1,7 @@
 import { enrichmentSummary, findEnrichmentJob } from './importReviewEnrichmentQueue'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getAllMediaAnalysisJobs, getMediaAnalysisJob } from './mediaAnalysisJobs'
+import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 
 const reviewedMediaAnalysisTuneIds = new Set()
 const listeners = new Set()
@@ -72,9 +73,18 @@ export function getBackgroundReviewSummary() {
     }
   })
 
-  const ready = importReady + mediaReady.length
-  const processing = importProcessing + mediaProcessing.length
+  const fieldLookupAwaitingJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    // Linked into import review — counted via the import session instead.
+    return job.status === 'awaiting' && !job.reviewCandidateId
+  })
+  const fieldLookupProcessing = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    return job.status === 'pending' || job.status === 'running'
+  })
+
+  const ready = importReady + mediaReady.length + fieldLookupAwaitingJobs.length
+  const processing = importProcessing + mediaProcessing.length + fieldLookupProcessing.length
   const total = importTotal + mediaReady.length + mediaProcessing.length
+    + fieldLookupAwaitingJobs.length + fieldLookupProcessing.length
 
   return {
     ready: ready,
@@ -86,6 +96,20 @@ export function getBackgroundReviewSummary() {
     importTotal: importTotal,
     mediaReady: mediaReady,
     mediaProcessing: mediaProcessing,
+    fieldLookupAwaiting: fieldLookupAwaitingJobs.map(function(job) { return job.id }),
+    fieldLookupAwaitingJobs: fieldLookupAwaitingJobs.map(function(job) {
+      return {
+        id: job.id,
+        tuneId: job.tuneId || null,
+        candidateId: job.candidateId || null,
+        kind: job.kind,
+        label: job.label || job.kind,
+        tuneName: job.tuneName || job.title || '',
+        title: job.title || '',
+        candidateCount: Array.isArray(job.candidates) ? job.candidates.length : 0,
+      }
+    }),
+    fieldLookupProcessing: fieldLookupProcessing.map(function(job) { return job.id }),
     hasImportSession: !!importSession,
   }
 }
@@ -99,6 +123,8 @@ export function getBackgroundReviewRevision() {
     summary.importReady,
     summary.mediaReady.join(','),
     summary.mediaProcessing.join(','),
+    (summary.fieldLookupAwaiting || []).join(','),
+    (summary.fieldLookupProcessing || []).join(','),
   ].join('|')
 }
 

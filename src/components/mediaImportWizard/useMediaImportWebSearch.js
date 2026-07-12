@@ -7,6 +7,7 @@ import { useCancellableAsyncJob } from '../../useCancellableAsyncJob';
 import { discoverComposerCandidatesIfNeeded } from '../../composerLookupUtils';
 import { needsComposerDiscovery } from '../../composerDiscoveryUtils';
 import { isGenericArtist } from '../../genericArtistUtils';
+import { capitalizeSongTitle } from '../../titleCaseUtils';
 
 function formatSourceLabel(result) {
   if (!result || !result.source) return '';
@@ -116,7 +117,15 @@ async function searchChordsAndLyrics(options) {
 }
 
 async function runBackgroundLookup(options) {
-  const { title, artist, token, signal, onProgress, canResearchBackground } = options;
+  const {
+    title,
+    artist,
+    backgroundInfo,
+    token,
+    signal,
+    onProgress,
+    canResearchBackground,
+  } = options;
   if (!canResearchBackground) {
     return { text: '', source: '', skipped: true };
   }
@@ -124,6 +133,7 @@ async function runBackgroundLookup(options) {
     const result = await researchTuneBackground({
       title: title,
       artist: artist,
+      backgroundInfo: typeof backgroundInfo === 'string' ? backgroundInfo : '',
       accessToken: token,
       signal: signal,
       onProgress: function(message, progress) {
@@ -208,6 +218,7 @@ export function useMediaImportWebSearch(options) {
         backgroundResult = await runBackgroundLookup({
           title: title,
           artist: artist,
+          backgroundInfo: typeof options.backgroundInfo === 'string' ? options.backgroundInfo : '',
           token: token,
           signal: ctx.signal,
           canResearchBackground: canResearchBackground,
@@ -261,7 +272,7 @@ export function useMediaImportWebSearch(options) {
           deferApply: true,
           onProgress: function(message, progress) {
             if (!ctx.isCurrent()) return;
-            handleProgress(message || 'Discovering composer...', progress);
+            handleProgress(message || 'Discovering artist...', progress);
           },
         });
         if (composerLookup.candidates.length > 0) {
@@ -276,6 +287,9 @@ export function useMediaImportWebSearch(options) {
       }
 
       if (typeof options.onResults === 'function') {
+        if (mode === 'full' && title) {
+          resultsPatch.capitalizedTitle = capitalizeSongTitle(title);
+        }
         options.onResults(resultsPatch);
       }
       if (typeof options.onBackgroundResults === 'function') {

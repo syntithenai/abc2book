@@ -1,11 +1,10 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import { Alert, Button, ListGroup, Modal } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAbcjsParser from '../useAbcjsParser'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
 import { isAbortError } from '../abortUtils'
-import { registerLongRunningJob } from '../longRunningJobRegistry'
 import { searchNotation } from '../notationSearchClient'
 import { searchChords } from '../chordsSearchClient'
 import { searchLyrics } from '../lyricsSearchClient'
@@ -62,20 +61,6 @@ export default function AddTuneWebSearchButton({
   const [genreSuggestion, setGenreSuggestion] = useState(null)
   const skipSupplementaryOnPickerCloseRef = useRef(false)
   const abortRef = useRef(null)
-
-  useEffect(function() {
-    if (!busy) return undefined
-    return registerLongRunningJob({
-      label: 'Add tune web search',
-      onCancel: cancelJob,
-    })
-  }, [busy])
-
-  useEffect(function() {
-    return function() {
-      if (abortRef.current) abortRef.current.abort()
-    }
-  }, [])
 
   function beginJob() {
     if (abortRef.current) {
@@ -339,10 +324,14 @@ export default function AddTuneWebSearchButton({
     if (typeof onBackgroundInfo !== 'function' || !features.llm) return
     await refreshMediaResolverHealth()
     updateProgress('Researching background information...', 0.92)
+    const existingBackground = currentTune && typeof currentTune.backgroundInfo === 'string'
+      ? currentTune.backgroundInfo
+      : ''
     const result = await researchTuneBackground({
       title: researchTitle,
       artist: researchArtist || '',
       lyrics: researchLyrics || '',
+      backgroundInfo: existingBackground,
       accessToken: token,
       signal: signal,
       onProgress: function(message, progress) {

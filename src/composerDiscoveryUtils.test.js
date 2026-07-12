@@ -60,4 +60,23 @@ describe('composerDiscoveryUtils', function() {
     }, 'Traditional')
     expect(candidates.map(function(item) { return item.artist })).toEqual(['Traditional', 'Oasis'])
   })
+
+  test('buildComposerPickerCandidates puts writers before performers', function() {
+    const candidates = buildComposerPickerCandidates({
+      multiple: true,
+      candidates: [
+        { artist: 'Oasis', role: 'performer', source: 'MusicBrainz/Genius', preview: 'Performer' },
+        { artist: 'Noel Gallagher', role: 'writer', source: 'MusicBrainz', preview: 'Writer' },
+        { artist: 'Ryan Adams', role: 'performer', source: 'MusicBrainz/Genius', preview: 'Performer' },
+      ],
+    }, '')
+    expect(candidates.map(function(item) { return item.artist })).toEqual([
+      'Noel Gallagher',
+      'Oasis',
+      'Ryan Adams',
+    ])
+    expect(candidates[0].role).toBe('writer')
+    expect(candidates[0].source).toMatch(/Writer/)
+    expect(candidates[1].role).toBe('performer')
+  })
 })

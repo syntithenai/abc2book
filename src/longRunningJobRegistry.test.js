@@ -5,6 +5,7 @@ import {
 } from './longRunningJobRegistry'
 import * as bulkCheckRunner from './bulkCheckRunner'
 import * as bulkBackgroundResearchQueue from './bulkBackgroundResearchQueue'
+import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 import { patchMediaAnalysisJob } from './mediaAnalysisJobs'
 import { patchPlaybackRegionScanJob } from './playbackRegionScanJobs'
 
@@ -15,6 +16,7 @@ describe('longRunningJobRegistry', function() {
     patchPlaybackRegionScanJob('t1', 0, { isScanning: false })
     bulkCheckRunner.cancelBulkCheckRun()
     bulkBackgroundResearchQueue.__resetForTests()
+    tuneFieldLookupQueue.__resetForTests()
   })
 
   test('hasActiveLongRunningJobs tracks manual search jobs', function() {
@@ -40,6 +42,18 @@ describe('longRunningJobRegistry', function() {
 
   test('hasActiveLongRunningJobs ignores active media analysis jobs', function() {
     patchMediaAnalysisJob('t1', { isAnalyzing: true })
+    expect(hasActiveLongRunningJobs()).toBe(false)
+  })
+
+  test('hasActiveLongRunningJobs ignores field lookup queue jobs', function() {
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+    })
+    tuneFieldLookupQueue.start()
+    expect(tuneFieldLookupQueue.getState().jobs.length).toBe(1)
     expect(hasActiveLongRunningJobs()).toBe(false)
   })
 })

@@ -64,6 +64,7 @@ function publicJob(job) {
       ? job.composerCandidates.map(function(candidate) {
         return {
           artist: candidate.artist,
+          role: candidate.role || '',
           source: candidate.source || '',
           preview: candidate.preview || candidate.artist,
         }
@@ -360,18 +361,18 @@ function saveComposerForJob(job, composer) {
   const getTune = queueContext.getTune
   const saveTune = queueContext.saveTune
   if (typeof getTune !== 'function' || typeof saveTune !== 'function') {
-    throw new Error('Tunebook context not registered for composer discovery queue')
+    throw new Error('Tunebook context not registered for artist discovery queue')
   }
   const tune = getTune(job.tuneId)
   if (!tune) {
     throw new Error('Tune not found: ' + job.tuneId)
   }
   tune.composer = composer
-  saveTune(tune, false, { historyLabel: 'Composer discovery' })
+  saveTune(tune, false, { historyLabel: 'Artist discovery' })
   if (typeof queueContext.forceRefresh === 'function') {
     queueContext.forceRefresh()
   }
-  toast.info('Updated composer: ' + (tune.name || job.title), {
+  toast.info('Updated artist: ' + (tune.name || job.title), {
     hideProgressBar: true,
     autoClose: 1000,
   })
@@ -395,7 +396,7 @@ export function applyComposerDiscoveryChoice(jobId, composer) {
     return true
   } catch (e) {
     job.status = 'error'
-    job.error = e && e.message ? e.message : 'Could not save composer'
+    job.error = e && e.message ? e.message : 'Could not save artist'
     notify()
     schedulePersist()
     return false
@@ -409,7 +410,7 @@ async function runJob(job) {
 
   job.status = 'running'
   job.progress = 0
-  job.message = 'Discovering composer...'
+  job.message = 'Discovering artist...'
   currentJobId = job.id
   notify()
   schedulePersist()
@@ -441,7 +442,7 @@ async function runJob(job) {
 
     const candidates = buildComposerPickerCandidates(result, job.artist || '')
     if (!candidates.length) {
-      throw new Error('Composer discovery returned no artist')
+      throw new Error('Artist discovery returned no artist')
     }
 
     job.composerCandidates = candidates
@@ -455,7 +456,7 @@ async function runJob(job) {
       job.error = null
     } else {
       job.status = 'error'
-      job.error = e && e.message ? e.message : 'Composer discovery failed'
+      job.error = e && e.message ? e.message : 'Artist discovery failed'
     }
   } finally {
     if (job.abortController === controller) {

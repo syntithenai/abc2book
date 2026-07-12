@@ -1,12 +1,15 @@
 import {
   GIG_NOTATION_FIT_SAFETY_PX,
+  GIG_NOTATION_FRAME_PAD_X,
   NOTATION_FIT_HORIZONTAL,
   NOTATION_FIT_VERTICAL,
   buildFitFrame,
   computeNotationFit,
+  expandNotationViewBoxForMeta,
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
   horizontalFitTargetWidth,
+  measureSingleViewPaper,
   readNotationSvgDims,
   verticalFitTargetHeight,
   verticalScaledWidth,
@@ -72,19 +75,111 @@ describe('gigNotationFit', function() {
     });
   });
 
+  describe('expandNotationViewBoxForMeta', function() {
+    it('expands left/right for a long centered title without shrinking the staff', function() {
+      const svg = {
+        getAttribute: function(name) {
+          if (name === 'width') return '400';
+          if (name === 'height') return '200';
+          return null;
+        },
+        getBoundingClientRect: function() {
+          return { left: 0, top: 0, width: 400, height: 200 };
+        },
+        querySelectorAll: function(selector) {
+          if (selector.indexOf('title') >= 0 || selector.indexOf('meta-top') >= 0) {
+            return [{
+              tagName: 'text',
+              getBoundingClientRect: function() {
+                // Title centered at 200, wider than the staff envelope.
+                return { left: -40, top: 10, width: 480, height: 24 };
+              },
+            }];
+          }
+          return [];
+        },
+      };
+      const frame = expandNotationViewBoxForMeta(svg, { width: 400, height: 200 });
+      expect(frame.x).toBe(-40 - GIG_NOTATION_FRAME_PAD_X);
+      expect(frame.width).toBe(480 + (GIG_NOTATION_FRAME_PAD_X * 2));
+      expect(frame.y).toBe(0);
+      expect(frame.height).toBe(200);
+    });
+
+    it('keeps the native envelope when meta does not overhang', function() {
+      const svg = {
+        getAttribute: function(name) {
+          if (name === 'width') return '400';
+          if (name === 'height') return '200';
+          return null;
+        },
+        getBoundingClientRect: function() {
+          return { left: 0, top: 0, width: 400, height: 200 };
+        },
+        querySelectorAll: function() { return []; },
+      };
+      const frame = expandNotationViewBoxForMeta(svg, { width: 400, height: 200 });
+      expect(frame.x).toBe(-GIG_NOTATION_FRAME_PAD_X);
+      expect(frame.width).toBe(400 + (GIG_NOTATION_FRAME_PAD_X * 2));
+      expect(frame.height).toBe(200);
+    });
+  });
+
+  describe('measureSingleViewPaper', function() {
+    it('prefers the viewer width over a wider padded column', function() {
+      const column = {
+        clientWidth: 500,
+        getBoundingClientRect: function() {
+          return { left: 0, top: 0, width: 500, height: 400 };
+        },
+      };
+      const renderEl = {
+        clientWidth: 420,
+        closest: function() { return column; },
+        getBoundingClientRect: function() {
+          return { left: 40, top: 100, width: 420, height: 50 };
+        },
+      };
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+
+      const paper = measureSingleViewPaper(renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+
+      expect(paper.availW).toBe(420 - 8);
+      expect(paper.availH).toBe(700 - 100 - 8);
+    });
+  });
+
   describe('fitSingleViewVertical', function() {
-    function makeSvg(width, height) {
+    function makeSvg(width, height, metaRect) {
+      const attrs = {};
       return {
         viewBox: { baseVal: { x: 0, y: 0, width: width, height: height } },
         getAttribute: function(name) {
+          if (attrs[name] != null) return attrs[name];
           if (name === 'viewBox') return '0 0 ' + width + ' ' + height;
           if (name === 'width') return String(width);
           if (name === 'height') return String(height);
           return null;
         },
-        setAttribute: function() {},
-        removeAttribute: function() {},
+        setAttribute: function(name, value) { attrs[name] = value; },
+        removeAttribute: function(name) { delete attrs[name]; },
         style: {},
+        getBoundingClientRect: function() {
+          return { left: 0, top: 0, width: width, height: height };
+        },
+        querySelectorAll: function(selector) {
+          if (!metaRect) return [];
+          if (selector.indexOf('title') >= 0 || selector.indexOf('meta-top') >= 0) {
+            return [{
+              tagName: 'text',
+              getBoundingClientRect: function() { return metaRect; },
+            }];
+          }
+          return [];
+        },
       };
     }
 
@@ -98,6 +193,7 @@ describe('gigNotationFit', function() {
           contains: function(name) { return !!this._items[name]; },
         },
         style: {},
+        clientWidth: 400,
         closest: function() { return null; },
         getBoundingClientRect: function() {
           return { left: 20, top: 100, width: 400, height: 50 };
@@ -123,13 +219,16 @@ describe('gigNotationFit', function() {
       Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
 
       expect(fit).not.toBeNull();
-      const availW = 420 - 20 - 8;
+      // Viewer width 400 (renderEl), not document width — plus horizontal title pad.
+      const availW = 400 - 8;
       const availH = 700 - 100 - 8;
       const targetW = availW - GIG_NOTATION_FIT_SAFETY_PX;
       const targetH = availH - GIG_NOTATION_FIT_SAFETY_PX;
+      const frameW = 800 + (GIG_NOTATION_FRAME_PAD_X * 2);
+      const frameH = 200;
       // Width-limited contain: scaleW < scaleH
       expect(fit.width).toBeCloseTo(targetW, 5);
-      expect(fit.height).toBeCloseTo(200 * (targetW / 800), 5);
+      expect(fit.height).toBeCloseTo(frameH * (targetW / frameW), 5);
       expect(fit.height).toBeLessThan(targetH);
       expect(fit.overflowX).toBe(false);
       expect(fit.fillsHeight).toBe(false);
@@ -153,6 +252,22 @@ describe('gigNotationFit', function() {
       expect(fit.height).toBeCloseTo(targetH, 5);
       expect(fit.fillsHeight).toBe(true);
       expect(fit.overflowX).toBe(false);
+    });
+
+    it('includes title overhang in the viewBox so fit-height does not clip it', function() {
+      const svg = makeSvg(400, 800, { left: -60, top: 8, width: 520, height: 28 });
+      const renderEl = makeRenderEl();
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 900 });
+
+      fitSingleViewVertical(svg, renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+
+      const viewBox = svg.getAttribute('viewBox').split(' ').map(Number);
+      expect(viewBox[0]).toBe(-60 - GIG_NOTATION_FRAME_PAD_X);
+      expect(viewBox[2]).toBe(520 + (GIG_NOTATION_FRAME_PAD_X * 2));
+      expect(svg.getAttribute('preserveAspectRatio')).toBe('xMidYMid meet');
     });
   });
 

@@ -1,5 +1,6 @@
 import { getMusicGenreSelectOptions } from './musicGenreOptions'
 import { normalizeKeySignature } from './keySignatureNormalize'
+import { normalizeSuitableInstruments } from './practiceSessionSettings'
 
 export const BULK_EDIT_FIELDS = [
   { key: 'key', label: 'Key', type: 'key', allowEmpty: true },
@@ -53,16 +54,57 @@ export const BULK_EDIT_FIELDS = [
       { value: 'false', label: 'No — exclude from practice' },
     ],
   },
+  {
+    key: 'suitableFor',
+    label: 'Suitable for instruments',
+    type: 'instruments',
+    allowEmpty: true,
+  },
+  {
+    key: 'cache',
+    label: 'Cache',
+    type: 'select',
+    allowEmpty: false,
+    action: true,
+    options: [
+      { value: 'save', label: 'Save to cache' },
+      { value: 'clear-audio', label: 'Clear audio cache' },
+      { value: 'clear-stems', label: 'Clear stem cache' },
+      { value: 'clear-midi', label: 'Clear MIDI cache' },
+      { value: 'clear-all', label: 'Clear all caches' },
+    ],
+  },
+  {
+    key: 'mediaCacheLocked',
+    label: 'Cache lock',
+    type: 'toggle',
+    allowEmpty: false,
+    options: [
+      { value: 'true', label: 'Locked' },
+      { value: 'false', label: 'Unlocked' },
+    ],
+  },
 ]
 
 export function getBulkEditField(fieldKey) {
   return BULK_EDIT_FIELDS.find(function(field) { return field.key === fieldKey }) || null
 }
 
+export function isBulkActionField(fieldKey) {
+  var field = getBulkEditField(fieldKey)
+  return !!(field && field.action)
+}
+
 export function isBulkChangeRowComplete(row) {
   if (!row || !row.field) return false
   var field = getBulkEditField(row.field)
   if (!field) return false
+  if (field.type === 'instruments') {
+    return true
+  }
+  if (field.type === 'toggle') {
+    return row.value === true || row.value === false || row.value === 'true' || row.value === 'false'
+  }
   if (row.value === '' || row.value === null || row.value === undefined) {
     return !!field.allowEmpty
   }
@@ -71,7 +113,15 @@ export function isBulkChangeRowComplete(row) {
 
 export function coerceBulkFieldValue(fieldKey, rawValue) {
   var field = getBulkEditField(fieldKey)
+  if (fieldKey === 'suitableFor' || (field && field.type === 'instruments')) {
+    return normalizeSuitableInstruments(Array.isArray(rawValue) ? rawValue : [])
+  }
+
   if (!field) return rawValue
+
+  if (fieldKey === 'cache') {
+    return String(rawValue || '').trim()
+  }
 
   if (rawValue === '' || rawValue === null || rawValue === undefined) {
     if (field.type === 'number' && field.key === 'capo') return 0
@@ -86,7 +136,7 @@ export function coerceBulkFieldValue(fieldKey, rawValue) {
     return String(parsed)
   }
 
-  if (field.key === 'suitableForPractice') {
+  if (field.key === 'suitableForPractice' || field.key === 'mediaCacheLocked' || field.type === 'toggle') {
     return rawValue === false || rawValue === 'false' ? false : true
   }
 
@@ -103,6 +153,33 @@ export function prepareBulkChanges(rows) {
   var byField = {}
   rows.forEach(function(row) {
     if (!isBulkChangeRowComplete(row)) return
+    if (isBulkActionField(row.field)) return
+    if (row.field === 'suitableFor') {
+      byField.suitableFor = {
+        key: 'suitableFor',
+        value: coerceBulkFieldValue('suitableFor', row.value),
+        replace: true,
+      }
+      return
+    }
+    byField[row.field] = {
+      key: row.field,
+      value: coerceBulkFieldValue(row.field, row.value),
+    }
+  })
+
+  return Object.keys(byField).map(function(fieldKey) {
+    return byField[fieldKey]
+  })
+}
+
+export function prepareBulkActions(rows) {
+  if (!Array.isArray(rows)) return []
+
+  var byField = {}
+  rows.forEach(function(row) {
+    if (!isBulkChangeRowComplete(row)) return
+    if (!isBulkActionField(row.field)) return
     byField[row.field] = {
       key: row.field,
       value: coerceBulkFieldValue(row.field, row.value),

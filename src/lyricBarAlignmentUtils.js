@@ -17,7 +17,10 @@ export function flattenMelodyText(noteLines) {
 export function splitMelodyIntoBlocks(noteLines) {
   const flat = flattenMelodyText(noteLines);
   if (!flat) return [];
-  return flat.split(/\|\||\:\:/)
+  // || and :: are explicit strain breaks; |: also starts a new strain in
+  // hymns that open the chorus with a repeat mark instead of a double bar.
+  // Do not split on :| alone — first endings use it mid-strain.
+  return flat.split(/\|\||::|\|:/)
     .map(function(part) { return part.trim(); })
     .filter(Boolean);
 }
@@ -155,6 +158,24 @@ export function detectBarsPerLyricLine(lineCount, barCount, chordChangeBars) {
     const lastEnd = assignments.length > 0 ? assignments[assignments.length - 1].endBar : -1;
     if (lastEnd < barCount - 1) {
       score -= 20 * (barCount - 1 - lastEnd);
+    }
+    // Prefer layouts where each lyric line owns a distinct bar range. Oversized
+    // bars-per-line (eg. 4 bars/line for 8 bars and 4 lines) collapses trailing
+    // lines onto the final bar and can falsely score mid-phrase chord changes
+    // as "line starts".
+    const rangeKeys = {};
+    let collapsedLines = 0;
+    assignments.forEach(function(a) {
+      const key = a.startBar + ':' + a.endBar;
+      if (rangeKeys[key]) collapsedLines += 1;
+      else rangeKeys[key] = true;
+      if (a.endBar < a.startBar) collapsedLines += 1;
+    });
+    if (collapsedLines > 0) {
+      score -= 25 * collapsedLines;
+    }
+    if (Object.keys(rangeKeys).length < lineCount) {
+      score -= 15 * (lineCount - Object.keys(rangeKeys).length);
     }
     changes.forEach(function(changeBar) {
       let bestLineScore = -Infinity;

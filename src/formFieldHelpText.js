@@ -87,7 +87,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   backgroundJobs: {
     title: 'Background jobs',
-    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, import enrichment, active searches) fetch data you still choose how to use. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed entries.',
+    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed entries.',
   },
 };
 

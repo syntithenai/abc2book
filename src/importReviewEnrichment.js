@@ -19,6 +19,7 @@ import { isAbortError } from './abortUtils';
 import { discoverComposerCandidatesIfNeeded } from './composerLookupUtils';
 import { needsComposerDiscovery } from './composerDiscoveryUtils';
 import { isGenericArtist } from './genericArtistUtils';
+import { capitalizeSongTitle } from './titleCaseUtils';
 
 async function searchChordsAndLyrics(options) {
   const { title, artist, token, signal, onProgress, resolverAvailable, abcTools, renderChords } = options;
@@ -75,6 +76,9 @@ export async function enrichImportCandidate(candidate, options) {
   const onProgress = options.onProgress || function() {};
 
   const tune = JSON.parse(JSON.stringify(candidate.tune));
+  if (tune.name) {
+    tune.name = capitalizeSongTitle(tune.name);
+  }
   const title = tune.name || '';
   const artist = tune.composer || '';
 
@@ -96,6 +100,7 @@ export async function enrichImportCandidate(candidate, options) {
     ? researchTuneBackground({
       title: title,
       artist: artist,
+      backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
       accessToken: token,
       signal: signal,
       onProgress: function(message, progress) {

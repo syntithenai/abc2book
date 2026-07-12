@@ -2,6 +2,7 @@ import unittest
 
 from voice_command import (
     apply_catalog_matches,
+    build_fallback_help_answer,
     match_catalog_name,
     normalize_voice_intent_from_llm,
     parse_catalog_json,
@@ -119,6 +120,35 @@ class VoiceCommandTests(unittest.TestCase):
         ranked = rank_help_links("how do i change playback speed and loop")
         self.assertGreaterEqual(len(ranked), 1)
         self.assertEqual(ranked[0], "/help#practise")
+
+    def test_rank_help_links_finds_foot_pedal(self):
+        ranked = rank_help_links("How do I use a foot pedal?")
+        self.assertEqual(ranked[0], "/help#foot-pedal")
+
+    def test_build_fallback_help_answer_for_foot_pedal(self):
+        answer = build_fallback_help_answer(question="How do I use a foot pedal?")
+        self.assertIn("settings", answer.lower())
+        self.assertIn("pedal", answer.lower())
+        self.assertNotIn("closest topic", answer.lower())
+
+    def test_build_fallback_help_answer_uses_edit_music_blurb(self):
+        answer = build_fallback_help_answer(
+            ["/help#edit-music", "/help#abc-notation"],
+            question="How do I edit notation?",
+        )
+        self.assertIn("tune menu", answer.lower())
+        self.assertIn("edit", answer.lower())
+        self.assertNotIn("closest topic", answer.lower())
+
+    def test_build_fallback_help_answer_ranks_from_question(self):
+        answer = build_fallback_help_answer(question="how do i import from media")
+        self.assertIn("import from media", answer.lower())
+
+    def test_vague_llm_help_answer_is_replaced_by_blurb(self):
+        from voice_command import _is_vague_help_answer
+
+        self.assertTrue(_is_vague_help_answer("Open the help section for the closest topic."))
+        self.assertFalse(_is_vague_help_answer("Open a tune, then use Edit."))
 
 
 if __name__ == "__main__":

@@ -13,6 +13,7 @@ import { isBulkCheckRunnerActive } from './bulkCheckRunner'
 import { getImportReviewEnrichmentSnapshot } from './importReviewEnrichmentBridge'
 import { getActiveTrackedJobs } from './longRunningJobRegistry'
 import { enrichmentSummary } from './importReviewEnrichmentQueue'
+import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 
 export function countBackgroundResearchIncomplete() {
   return countActiveFifoJobs(bulkBackgroundResearchQueue.getState().jobs)
@@ -67,8 +68,24 @@ export function countImportEnrichmentIncomplete() {
 }
 
 export function countActiveSearchIncomplete() {
-  return getActiveTrackedJobs().length
+  const fieldJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
+  }).length
+  return fieldJobs + getActiveTrackedJobs().length
 }
+
+/** Display order of Background Jobs tabs in Settings (eventKey → count field). */
+export const BACKGROUND_JOB_TAB_ORDER = [
+  { eventKey: 'research', countKey: 'research' },
+  { eventKey: 'composer-discovery', countKey: 'composerDiscovery' },
+  { eventKey: 'media-cache', countKey: 'mediaCache' },
+  { eventKey: 'stem-create', countKey: 'stemCreate' },
+  { eventKey: 'playback-scans', countKey: 'playbackScans' },
+  { eventKey: 'bulk-check', countKey: 'bulkCheck' },
+  { eventKey: 'media-analysis', countKey: 'mediaAnalysis' },
+  { eventKey: 'import-enrichment', countKey: 'importEnrichment' },
+  { eventKey: 'active-searches', countKey: 'activeSearches' },
+]
 
 export function getBackgroundJobTabCounts(mediaController) {
   return {
@@ -82,6 +99,16 @@ export function getBackgroundJobTabCounts(mediaController) {
     importEnrichment: countImportEnrichmentIncomplete(),
     activeSearches: countActiveSearchIncomplete(),
   }
+}
+
+/** First Background Jobs tab (in Settings order) with incomplete work, or null. */
+export function getFirstActiveBackgroundJobTab(mediaController) {
+  const counts = getBackgroundJobTabCounts(mediaController)
+  for (let i = 0; i < BACKGROUND_JOB_TAB_ORDER.length; i++) {
+    const tab = BACKGROUND_JOB_TAB_ORDER[i]
+    if (counts[tab.countKey] > 0) return tab.eventKey
+  }
+  return null
 }
 
 export function getBackgroundJobTabCountsKey(mediaController) {

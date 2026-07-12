@@ -86,9 +86,9 @@ export function subscribeLongRunningJobs(listener) {
   }
 }
 
-// Background queues (bulk check, background research, playback-region scans, media
-// analysis) are intentionally excluded: they keep running while you browse tunes
-// and surface completion via the review toast/page.
+// Background queues (bulk check, background research, field lookups, playback-region
+// scans, media analysis) are intentionally excluded: they keep running while you browse
+// tunes and surface completion via the review toast/page.
 export function hasActiveLongRunningJobs() {
   return manualJobCount > 0
     || stemJobCount > 0

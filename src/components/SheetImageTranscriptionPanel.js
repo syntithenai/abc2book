@@ -99,7 +99,7 @@ export default function SheetImageTranscriptionPanel(props) {
           </div>
           <div className="col-md-6">
             <Form.Group>
-              <Form.Label>Composer / artist</Form.Label>
+              <Form.Label>Artist</Form.Label>
               <Form.Control
                 value={metaArtist}
                 onChange={function(e) { updateMeta({ artist: e.target.value }); }}

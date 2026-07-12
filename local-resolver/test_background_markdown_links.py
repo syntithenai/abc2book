@@ -187,6 +187,19 @@ class BackgroundMarkdownLinksTests(unittest.IsolatedAsyncioTestCase):
             "- [Live](https://www.youtube.com/watch?v=abcdefghijk)"
         ))
 
+    def test_insert_youtube_links_before_references(self):
+        text = (
+            "## Overview\n\n"
+            "A folk song.\n\n"
+            "## References\n\n"
+            "- [Example](https://example.com)\n"
+        )
+        links = [{"title": "Live", "url": "https://www.youtube.com/watch?v=abcdefghijk"}]
+        enriched = insert_youtube_links_section(text, links)
+        youtube_pos = enriched.index("## YouTube")
+        references_pos = enriched.index("## References")
+        self.assertLess(youtube_pos, references_pos)
+
     async def test_enrich_background_markdown_searches_youtube(self):
         sources = [{
             "title": "Copper Kettle",

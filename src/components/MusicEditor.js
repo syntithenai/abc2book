@@ -3,6 +3,7 @@ import {Button, ButtonGroup} from 'react-bootstrap'
 import {useState, useEffect, useCallback} from 'react'
 import AbcEditor from './AbcEditor'
 import LocalSearchSelectorModal from './LocalSearchSelectorModal'
+import FieldLookupReviewButton from './FieldLookupReviewButton'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
@@ -114,6 +115,20 @@ export default function MusicEditor(props) {
                 </ButtonGroup>
                 <span className="music-editor-search">
                     <LocalSearchSelectorModal value={tune ? (tune.name ?? '') : ''} currentTune={tune} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} token={props.token} />
+                    <FieldLookupReviewButton
+                      tuneId={tune && tune.id}
+                      kind="notation"
+                      fallbackTitle={tune && tune.name ? tune.name : ''}
+                      onApply={function(candidate) {
+                        if (!candidate || !candidate.abc || !tune || !props.tunebook) return
+                        const imported = props.tunebook.abcTools.abc2json(candidate.abc)
+                        if (imported) {
+                          imported.id = tune.id
+                          props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
+                          if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                        }
+                      }}
+                    />
                 </span>
             </div>
             <div className="music-editor-header-actions">

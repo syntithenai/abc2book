@@ -5,6 +5,7 @@ import {
   canApplyImportInline,
   emptyFormValues,
   formValuesToTune,
+  importSuggestionDiffersFromForm,
   mergeImportedLinks,
   tuneToFormValues,
 } from './importReviewFieldUtils';
@@ -65,6 +66,44 @@ describe('importReviewFieldUtils', function() {
     expect(result.formValues.title).toBe('Mine');
     expect(result.formValues.genre).toBe('Irish');
     expect(result.suggestions.rhythm).toBeTruthy();
+  });
+
+  test('applyInlineImportToForm fills empty ABC voices and notes', function() {
+    const current = emptyFormValues();
+    current.title = '';
+    const imported = {
+      name: 'Pastoral',
+      books: ['session'],
+      voices: { '1': { meta: '', notes: ['GAB c2|'] } },
+    };
+    const result = applyInlineImportToForm(current, imported);
+    expect(result.formValues.title).toBe('Pastoral');
+    expect(result.formValues.bookList).toBe('session');
+    expect(result.formValues.voices['1'].notes).toEqual(['GAB c2|']);
+    expect(result.formValues.notes).toContain('GAB c2|');
+    expect(result.autoAppliedKeys).toContain('voices');
+    expect(result.suggestions.notes).toBeUndefined();
+  });
+
+  test('importSuggestionDiffersFromForm hides matching values', function() {
+    const form = emptyFormValues();
+    form.rhythm = 'reel';
+    form.bookList = 'session, dance';
+    expect(importSuggestionDiffersFromForm('rhythm', {
+      key: 'rhythm',
+      value: 'reel',
+      displayValue: 'reel',
+    }, form)).toBe(false);
+    expect(importSuggestionDiffersFromForm('rhythm', {
+      key: 'rhythm',
+      value: 'jig',
+      displayValue: 'jig',
+    }, form)).toBe(true);
+    expect(importSuggestionDiffersFromForm('bookList', {
+      key: 'books',
+      value: ['session', 'dance'],
+      displayValue: 'session, dance',
+    }, form)).toBe(false);
   });
 
   test('formValuesToTune round-trips scalar fields', function() {

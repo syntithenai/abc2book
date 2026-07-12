@@ -40,6 +40,29 @@ export function createImportCandidate(options) {
   };
 }
 
+export function createBlankAddCandidate(options) {
+  const opts = options || {};
+  const book = opts.book ? String(opts.book).trim().toLowerCase() : '';
+  const tags = Array.isArray(opts.tags) ? opts.tags.slice() : [];
+  const tune = {
+    id: opts.id || null,
+    name: '',
+    composer: '',
+    books: book ? [book] : [],
+    tags: tags,
+    voices: { '1': { meta: '', notes: [] } },
+    words: [],
+    links: [],
+  };
+  return createImportCandidate({
+    id: opts.candidateId,
+    tune: tune,
+    sourceKind: 'manual',
+    mergeTargetId: null,
+    skipEnrich: false,
+  });
+}
+
 function normalizeCandidate(item, index) {
   const candidate = item && item.id
     ? item
@@ -54,6 +77,7 @@ function normalizeCandidate(item, index) {
 
 export function createImportReviewSession(candidates, options) {
   const list = (Array.isArray(candidates) ? candidates : []).map(normalizeCandidate);
+  const opts = options || {};
   return {
     candidates: list,
     index: 0,
@@ -64,9 +88,18 @@ export function createImportReviewSession(candidates, options) {
     importedCandidateIds: {},
     skipEnrichForRemaining: false,
     skipYoutubeForRemaining: false,
-    skipEnrichment: !!(options && options.skipEnrichment),
+    skipEnrichment: !!opts.skipEnrichment,
+    entryMode: opts.entryMode === 'add' ? 'add' : 'import',
     sessionSummary: emptySessionSummary(),
   };
+}
+
+/** True when chrome should say "Add tunes" / primary "Add" (blank single manual draft). */
+export function isAddTunesChrome(session) {
+  if (!session || session.entryMode !== 'add') return false;
+  if (!Array.isArray(session.candidates) || session.candidates.length !== 1) return false;
+  const candidate = session.candidates[0];
+  return !!(candidate && candidate.sourceKind === 'manual');
 }
 
 export function currentCandidate(session) {

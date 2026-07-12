@@ -15,6 +15,18 @@ import {
   getImportReviewSessionRevision,
 } from '../importReviewSessionStore'
 import { snoozeBackgroundReviewToast } from '../backgroundReviewToast'
+import {
+  subscribe as subscribeFieldLookupQueue,
+  getState as getFieldLookupState,
+} from '../tuneFieldLookupQueue'
+
+function getFieldLookupRevision() {
+  const state = getFieldLookupState()
+  return (state.jobs || []).map(function(job) {
+    return job.id + ':' + job.status + ':' + (job.reviewCandidateId || '') + ':'
+      + (Array.isArray(job.candidates) ? job.candidates.length : 0)
+  }).join('|')
+}
 
 function useReviewSummary() {
   const reviewRevision = useSyncExternalStore(
@@ -27,12 +39,18 @@ function useReviewSummary() {
     getImportReviewSessionRevision,
     function() { return '' }
   )
+  const fieldLookupRevision = useSyncExternalStore(
+    subscribeFieldLookupQueue,
+    getFieldLookupRevision,
+    function() { return '' }
+  )
   return useMemo(function() {
     return getBackgroundReviewSummary()
-  }, [reviewRevision, importRevision])
+  }, [reviewRevision, importRevision, fieldLookupRevision])
 }
 
-function resolveTuneName(tunes, tuneId) {
+function resolveTuneName(tunes, tuneId, fallback) {
+  if (fallback) return fallback
   if (!tunes || !tuneId) return 'Untitled'
   const tune = tunes[tuneId]
   return tune && tune.name ? tune.name : 'Untitled'
@@ -48,20 +66,22 @@ export default function ReviewPage(props) {
 
   const hasImport = hasActiveImportReviewSession()
   const hasMedia = summary.mediaReady.length > 0
+  const hasAnything = hasImport || hasMedia || summary.ready > 0
 
   return (
     <div className="app-surface-panel review-page">
       <div className="review-page-header">
         <h1>Review queue</h1>
         <p className="app-text-muted">
-          Work through imports and media analysis results one tune at a time.
+          Work through imports, media analysis, and search merges one tune at a time.
+          Search results appear as merge items in the import review form below.
           {summary.processing > 0 ? (
             <> {' '}{summary.processing} still processing in the background.</>
           ) : null}
         </p>
       </div>
 
-      {!hasImport && !hasMedia && summary.ready === 0 ? (
+      {!hasAnything ? (
         <p className="app-text-muted">Nothing waiting for review.</p>
       ) : null}
 
@@ -69,8 +89,8 @@ export default function ReviewPage(props) {
         <section className="review-page-section">
           <h2>Import review</h2>
           <p className="app-text-muted">
-            {summary.importReady} of {summary.importTotal} import{summary.importTotal === 1 ? '' : 's'} ready to merge.
-            Use the import dialog below to review each tune.
+            {summary.importReady} of {summary.importTotal} item{summary.importTotal === 1 ? '' : 's'} ready to merge.
+            Use the form below to review each tune, including search suggestions.
           </p>
         </section>
       ) : null}
@@ -119,7 +139,7 @@ export default function ReviewPage(props) {
         <Button variant="outline-secondary" onClick={function() { navigate(-1) }}>
           Back
         </Button>
-        {hasImport ? (
+        {hasImport || hasMedia ? (
           <Button
             variant="outline-primary"
             onClick={function() {

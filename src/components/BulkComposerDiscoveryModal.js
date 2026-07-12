@@ -39,9 +39,14 @@ export default function BulkComposerDiscoveryModal({
   selected,
   selectedCount,
   token,
+  show: controlledShow,
+  onHide,
+  hideTrigger = false,
 }) {
   const icons = tunebook.icons
-  const [show, setShow] = useState(false)
+  const isControlled = controlledShow !== undefined
+  const [internalShow, setInternalShow] = useState(false)
+  const show = isControlled ? controlledShow : internalShow
   const [retrying, setRetrying] = useState(false)
   const queue = useBulkComposerDiscoveryQueue()
   const {
@@ -67,12 +72,20 @@ export default function BulkComposerDiscoveryModal({
     return queue.previewEnqueueTunes(selectedTunes())
   }
 
+  function close() {
+    if (isControlled) {
+      if (onHide) onHide()
+    } else {
+      setInternalShow(false)
+    }
+  }
+
   function handleStart() {
     queue.enqueueTunes(selectedTunes(), {
       accessToken: accessToken(),
     })
     queue.start()
-    setShow(false)
+    close()
   }
 
   async function handleRetryHealth() {
@@ -88,16 +101,18 @@ export default function BulkComposerDiscoveryModal({
 
   return (
     <>
-      <BulkOpsButton
-        variant="outline-primary"
-        icon={icons.search}
-        label="Discover artists"
-        onClick={function() { setShow(true) }}
-      >
-        Artists
-      </BulkOpsButton>
+      {!hideTrigger ? (
+        <BulkOpsButton
+          variant="outline-primary"
+          icon={icons.search}
+          label="Discover artists"
+          onClick={function() { setInternalShow(true) }}
+        >
+          Artists
+        </BulkOpsButton>
+      ) : null}
 
-      <Modal show={show} onHide={function() { setShow(false) }} size="lg" scrollable>
+      <Modal show={show} onHide={close} size="lg" scrollable>
         <Modal.Header closeButton>
           <Modal.Title>
             Discover artists for {selectedCount} selected tune{selectedCount === 1 ? '' : 's'}
@@ -113,7 +128,7 @@ export default function BulkComposerDiscoveryModal({
           {checked && !resolverAvailable ? (
             <Alert variant="warning">
               <p style={{ marginBottom: '0.5em' }}>
-                Full composer discovery uses the media resolver. Without it, only MusicBrainz lookup runs.
+                Full artist discovery uses the media resolver. Without it, only MusicBrainz lookup runs.
                 Set the resolver URL in <Link to="/settings">Settings</Link>.
               </p>
               <Button variant="outline-primary" size="sm" disabled={retrying} onClick={handleRetryHealth}>
@@ -127,12 +142,12 @@ export default function BulkComposerDiscoveryModal({
           </p>
           {previewSummary ? (
             <p className="text-muted" style={{ marginBottom: 0 }}>
-              {formatPreviewSummary(previewSummary) || 'No tunes eligible for composer discovery.'}
+              {formatPreviewSummary(previewSummary) || 'No tunes eligible for artist discovery.'}
             </p>
           ) : null}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={function() { setShow(false) }}>Cancel</Button>
+          <Button variant="secondary" onClick={close}>Cancel</Button>
           <Button
             variant="primary"
             disabled={!previewSummary || previewSummary.willDiscover === 0}

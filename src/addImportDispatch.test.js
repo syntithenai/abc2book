@@ -167,13 +167,19 @@ describe('addImportDispatch', function() {
     expect(draft.fileName).toBe('sheet.png');
   });
 
-  test('dispatchAddImport returns sheetDraft on Add form when stayOnForm is set', async function() {
+  test('dispatchAddImport sends sheet images to review even when stayOnForm is set', async function() {
     const file = new File(['img'], 'sheet.png', { type: 'image/png' });
     const result = await dispatchAddImport(file, mockContext({ resolverAvailable: true, stayOnForm: true }));
-    expect(result.action).toBe('sheetDraft');
-    expect(result.draft.title).toBe('Photo Tune');
-    expect(result.draft.body.chordSheet.text).toBe('[C]hello');
-    expect(result.draft.chordText).toBe('[C]hello');
+    expect(result.action).toBe('review');
+    expect(result.candidates[0].sourceKind).toBe('sheetimage');
+    expect(result.candidates[0].skipEnrich).toBe(true);
+  });
+
+  test('dispatchAddImport sends PDFs to review like other sheet images', async function() {
+    const file = new File(['pdf'], 'Another Jig Will Do.pdf', { type: 'application/pdf' });
+    const result = await dispatchAddImport(file, mockContext({ resolverAvailable: true, stayOnForm: true }));
+    expect(result.action).toBe('review');
+    expect(result.candidates[0].sourceKind).toBe('sheetimage');
   });
 
   test('classifyImportContent marks audio files', function() {

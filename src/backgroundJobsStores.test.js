@@ -30,6 +30,7 @@ import {
   countMediaAnalysisIncomplete,
   countImportEnrichmentIncomplete,
   countActiveSearchIncomplete,
+  getFirstActiveBackgroundJobTab,
 } from './backgroundJobsCounts'
 
 describe('background job store APIs', function() {
@@ -150,5 +151,24 @@ describe('background job store APIs', function() {
     cancelAllTrackedJobs()
     expect(first).toHaveBeenCalled()
     expect(second).toHaveBeenCalled()
+  })
+
+  test('getFirstActiveBackgroundJobTab picks first tab with incomplete jobs', function() {
+    expect(getFirstActiveBackgroundJobTab(null)).toBeNull()
+
+    patchMediaAnalysisJob('t1', {
+      isAnalyzing: true,
+      status: 'Analyzing...',
+      progress: 10,
+    })
+    expect(getFirstActiveBackgroundJobTab(null)).toBe('media-analysis')
+
+    patchPlaybackRegionScanJob('t2', 0, {
+      isScanning: true,
+      status: 'Scanning...',
+      progress: 5,
+    })
+    // playback-scans comes before media-analysis in Settings tab order
+    expect(getFirstActiveBackgroundJobTab(null)).toBe('playback-scans')
   })
 })

@@ -4,6 +4,7 @@ import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
 import CreatableSelect from 'react-select/creatable';
 import ChordsSearchButton from './ChordsSearchButton'
+import FieldLookupReviewButton from './FieldLookupReviewButton'
 import { applyChordSheetToTune, buildMeterMergeOptions } from '../applyChordSheetToTune'
 import { buildChordKeyMergeOptions } from '../chordKeyMergeOptions'
 import { exportTuneToChordPro, parseChordSheetText } from '../chordProFormatUtils'
@@ -246,6 +247,7 @@ export default function ChordsWizard(props) {
         <Form.Group  controlId="chordwiz">
             <div style={{display:'flex', flexWrap:'wrap', alignItems:'flex-start', gap:'1em'}} >
                 <ChordsSearchButton
+                  tuneId={tune && tune.id}
                   title={tune.name}
                   artist={tune.composer || ''}
                   rhythm={tune.rhythm || ''}
@@ -257,6 +259,17 @@ export default function ChordsWizard(props) {
                   onLyrics={function(result) {
                     if (typeof props.onLyricsImport === 'function') {
                         props.onLyricsImport(result.lines)
+                    }
+                  }}
+                />
+                <FieldLookupReviewButton
+                  tuneId={tune && tune.id}
+                  kind="chords"
+                  fallbackTitle={tune.name || ''}
+                  onApply={function(result) {
+                    if (result && result.chordText) setChords(result.chordText)
+                    if (result && typeof props.onLyricsImport === 'function' && result.lyricLines) {
+                      props.onLyricsImport(result.lyricLines)
                     }
                   }}
                 />

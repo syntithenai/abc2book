@@ -7,7 +7,15 @@ import {
   buildTuneBackgroundSearchUrl,
   extractFirstLyricLine,
   lyricsSearchPhrases,
+  researchTuneBackground,
 } from './tuneBackgroundResearchClient';
+import { fetchViaMediaProxy } from './mediaProxyClient';
+
+jest.mock('./mediaProxyClient', function() {
+  return {
+    fetchViaMediaProxy: jest.fn(),
+  };
+});
 
 describe('tuneBackgroundResearchClient', function() {
   test('normalizeTuneBackgroundResearch maps response', function() {
@@ -27,6 +35,39 @@ describe('tuneBackgroundResearchClient', function() {
     expect(result.model).toBe('google/gemma-3-4b-it');
     expect(result.timing.wordCount).toBe(812);
     expect(result.timing.totalMs).toBe(46200);
+  });
+
+  test('researchTuneBackground sends existing backgroundInfo', async function() {
+    fetchViaMediaProxy.mockResolvedValue({
+      ok: true,
+      headers: { get: function() { return 'application/json'; } },
+      json: async function() {
+        return {
+          text: 'Revised background with references.',
+          sources: [],
+          searchBackend: 'duckduckgo',
+          model: 'test-model',
+          title: 'Wild Rover',
+          artist: 'Dubliners',
+        };
+      },
+    });
+
+    const result = await researchTuneBackground({
+      title: 'Wild Rover',
+      artist: 'Dubliners',
+      lyrics: 'I\'ve been a wild rover',
+      backgroundInfo: 'Known as a drinking song.',
+      accessToken: 'token',
+    });
+
+    expect(result.text).toBe('Revised background with references.');
+    expect(fetchViaMediaProxy).toHaveBeenCalled();
+    const call = fetchViaMediaProxy.mock.calls[0];
+    expect(call[0]).toBe('/research-tune-background');
+    const body = JSON.parse(call[2].body);
+    expect(body.backgroundInfo).toBe('Known as a drinking song.');
+    expect(body.lyrics).toBe('I\'ve been a wild rover');
   });
 
   test('formatResearchDuration formats seconds and minutes', function() {

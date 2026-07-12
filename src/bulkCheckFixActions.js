@@ -9,6 +9,7 @@ import { importedTuneFromNotationCandidate } from './notationImportUtils'
 import { enqueueStemCreateJob } from './stemCreateQueue'
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { syncTuneFromStore } from './bulkCheckTuneSync'
+import { capitalizeSongTitle } from './titleCaseUtils'
 
 function tuneTitle(tune) {
   return tune && tune.name ? String(tune.name).trim() : ''
@@ -174,6 +175,7 @@ export async function runBulkCheckFixAction(action, options) {
     const bg = await researchTuneBackground({
       title: tuneTitle(next),
       artist: tuneArtist(next),
+      backgroundInfo: typeof next.backgroundInfo === 'string' ? next.backgroundInfo : '',
       accessToken: token,
       signal: signal,
     })
@@ -198,6 +200,10 @@ export async function runBulkCheckFixAction(action, options) {
   }
 
   if (action === 'searchAll') {
+    if (next.name) {
+      next.name = capitalizeSongTitle(next.name)
+      next = saveFixTune(next, tunebook, opts)
+    }
     const actions = ['searchAbc', 'searchChordsLyrics', 'backgroundInfo']
     if (tuneHasAudioForFix(next, tunebook)) {
       actions.unshift('analyse')

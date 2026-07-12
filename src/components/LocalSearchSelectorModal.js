@@ -9,7 +9,8 @@ import useMediaResolverHealth from '../useMediaResolverHealth'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
 import { searchNotation } from '../notationSearchClient'
 import { isAbortError } from '../abortUtils'
-import { registerLongRunningJob } from '../longRunningJobRegistry'
+import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
+import { applyFieldLookupChoice } from '../tuneFieldLookupQueue'
 import {
   formatLocalSearchLabel,
   inferSongTypeFromRhythm,
@@ -85,8 +86,33 @@ function LocalSearchSelectorModal(props) {
   const [resolverUnreachable, setResolverUnreachable] = useState(false)
   const searchGenerationRef = useRef(0)
   const abortRef = useRef(null)
+  const applyRemoteRef = useRef(null)
+  const tuneId = currentTune && currentTune.id
 
   const useUnifiedSearch = resolverChecked && resolverAvailable && !resolverUnreachable
+
+  const lookup = useFieldLookupSearchJob({
+    tuneId: tuneId,
+    kind: 'notation',
+    onAwaiting: function(job) {
+      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      if (candidates.length === 1) {
+        if (typeof applyRemoteRef.current === 'function') {
+          applyRemoteRef.current(candidates[0], job.id)
+        }
+      } else if (candidates.length > 1) {
+        setPickerCandidates(candidates)
+        setShowPicker(true)
+      }
+      setBusy(false)
+      setProgressMessage('')
+    },
+    onError: function(job) {
+      setError(job.error || 'Notation search failed')
+      setBusy(false)
+      setProgressMessage('')
+    },
+  })
 
   function cancelSearch() {
     searchGenerationRef.current += 1
@@ -94,21 +120,19 @@ function LocalSearchSelectorModal(props) {
       abortRef.current.abort()
       abortRef.current = null
     }
+    if (lookup.busy) lookup.cancel()
     setBusy(false)
     setProgressMessage('')
     setProgressPercent(0)
   }
 
-  useEffect(function() {
-    if (!busy) return undefined
-    return registerLongRunningJob({
-      label: 'Notation search',
-      onCancel: cancelSearch,
-    })
-  }, [busy])
-
   const handleClose = function() {
-    cancelSearch()
+    // Leave background notation lookup running; only clear local modal state.
+    searchGenerationRef.current += 1
+    if (abortRef.current) {
+      abortRef.current.abort()
+      abortRef.current = null
+    }
     setPendingImport(null)
     setShow(false)
     setBusy(false)
@@ -205,12 +229,14 @@ function LocalSearchSelectorModal(props) {
     return 'Import from web'
   }
 
-  function applyRemoteCandidate(candidate) {
+  function applyRemoteCandidate(candidate, jobId) {
     if (!candidate || !candidate.abc) return
+    if (jobId) applyFieldLookupChoice(jobId, candidate)
     beginImport(candidate.abc, sourceLabelForCandidate(candidate), candidate)
     setShowPicker(false)
     setPickerCandidates([])
   }
+  applyRemoteRef.current = applyRemoteCandidate
 
   function handleResolverFailure(err, localResultCount) {
     if (isMediaResolverInfrastructureError(err)) {
@@ -224,7 +250,28 @@ function LocalSearchSelectorModal(props) {
     return false
   }
 
+  function enqueueRemoteNotationSearch(queryText, activeSongType, forceLightweight) {
+    if (!tuneId) {
+      return Promise.reject(new Error('Tune id required for background notation search'))
+    }
+    lookup.startSearch({
+      title: queryText,
+      artist: currentTune && currentTune.composer ? currentTune.composer : '',
+      tuneName: queryText,
+      accessToken: token,
+      options: { songType: activeSongType || songType },
+      searchOptions: {
+        resolverAvailable: forceLightweight ? false : (resolverChecked && resolverAvailable && !resolverUnreachable),
+        abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+      },
+    })
+  }
+
   async function runRemoteNotationSearch(queryText, activeSongType, signal, forceLightweight) {
+    if (tuneId) {
+      enqueueRemoteNotationSearch(queryText, activeSongType, forceLightweight)
+      return
+    }
     const result = await searchNotation({
       title: queryText,
       artist: currentTune && currentTune.composer ? currentTune.composer : '',
@@ -254,7 +301,7 @@ function LocalSearchSelectorModal(props) {
     const activeSongType = songTypeOverride || songType
     if (!queryText) return
 
-    if (busy) {
+    if (busy || lookup.busy) {
       cancelSearch()
       return
     }
@@ -271,6 +318,7 @@ function LocalSearchSelectorModal(props) {
     updateProgress('Searching local collection...', 0.05, 'local')
 
     let localResultCount = 0
+    let handedOffToQueue = false
 
     try {
       const results = await runLocalSearch(queryText)
@@ -285,6 +333,7 @@ function LocalSearchSelectorModal(props) {
           return
         }
         await runRemoteNotationSearch(queryText, activeSongType, controller.signal, true)
+        handedOffToQueue = !!tuneId
         return
       }
 
@@ -293,6 +342,7 @@ function LocalSearchSelectorModal(props) {
       }
 
       await runRemoteNotationSearch(queryText, activeSongType, controller.signal, false)
+      handedOffToQueue = !!tuneId
     } catch (e) {
       if (generation !== searchGenerationRef.current) return
       if (isAbortError(e)) return
@@ -311,13 +361,24 @@ function LocalSearchSelectorModal(props) {
         if (abortRef.current === controller) {
           abortRef.current = null
         }
-        setBusy(false)
-        if (!showPicker) {
-          setProgressMessage('')
+        if (!handedOffToQueue) {
+          setBusy(false)
+          if (!showPicker) {
+            setProgressMessage('')
+          }
+        } else {
+          updateProgress('Searching online...', 0.2, 'remote')
         }
       }
     }
   }
+
+  useEffect(function() {
+    if (!lookup.busy) return
+    setBusy(true)
+    if (lookup.progressMessage) setProgressMessage(lookup.progressMessage)
+    if (lookup.progressPercent) setProgressPercent(lookup.progressPercent)
+  }, [lookup.busy, lookup.progressMessage, lookup.progressPercent])
 
   const filterChangeTimeout = useRef(null)
   function filterChange(e) {
@@ -498,7 +559,12 @@ function LocalSearchSelectorModal(props) {
         items={pickerCandidates}
         fallbackTitle={filter}
         emptyMessage="No notation results available."
-        onSelect={function(candidate) { applyRemoteCandidate(candidate) }}
+        onSelect={function(candidate) {
+          const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+            ? lookup.activeJob.id
+            : null
+          applyRemoteCandidate(candidate, jobId)
+        }}
         onHide={function() {
           setShowPicker(false)
           setPickerCandidates([])
