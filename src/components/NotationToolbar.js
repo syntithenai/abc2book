@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
-import { BARLINE_TOKENS, EDITOR_MODES } from '../notation/notationConstants';
+import { BARLINE_TOKENS } from '../notation/notationConstants';
 import NotationToolsDropdown from './NotationToolsDropdown';
 import NotationVoicesDropdown from './NotationVoicesDropdown';
 import NotationMarksDropdown from './NotationMarksDropdown';
@@ -27,6 +27,8 @@ export default function NotationToolbar(props) {
     onOpenHelp,
     onQuantize,
     onInsertBarline,
+    onInsertMeasure,
+    onBeamBreak,
     onToggleTie,
     onMarkAction,
     onTupletAction,
@@ -34,7 +36,10 @@ export default function NotationToolbar(props) {
     onApplyRecord,
     onDiscardRecord,
     pendingRecordCount,
+    expandFlags,
   } = props;
+
+  const expand = expandFlags || {};
 
   return (
     <div className="notation-toolbar d-flex flex-wrap align-items-center gap-2">
@@ -55,53 +60,77 @@ export default function NotationToolbar(props) {
         onVoiceNameChange={props.onVoiceNameChange}
         onAddVoice={props.onAddVoice}
         onDeleteVoice={props.onDeleteVoice}
+        expanded={!!expand.voices}
       />
       <NotationToolsDropdown
         tunebook={tunebook}
         onOpenWizard={onOpenWizard}
         onQuantize={onQuantize}
+        onInsertMeasure={onInsertMeasure}
+        onBeamBreak={onBeamBreak}
       />
-      <Dropdown as={ButtonGroup} className="notation-barline-dropdown">
-        <Button
-          size="lg"
-          variant="outline-secondary"
-          className="notation-barline-main-btn"
-          title="Bar line (|)"
-          onClick={function() { onInsertBarline(BARLINE_TOKENS.SINGLE); }}
-          data-testid="notation-barline"
-        >|</Button>
-        <Dropdown.Toggle
-          split
-          variant="outline-secondary"
-          size="lg"
-          title="Choose bar line type"
-          data-testid="notation-barline-menu"
-          aria-label="Choose bar line type"
-        />
-        <Dropdown.Menu>
+      {expand.barlines ? (
+        <ButtonGroup className="notation-barline-expanded" data-testid="notation-barline-expanded" aria-label="Bar lines">
           {BARLINE_OPTIONS.map(function(option) {
             return (
-              <Dropdown.Item
+              <Button
                 key={option.token}
+                size="lg"
+                variant="outline-secondary"
+                className="notation-barline-compact-btn"
                 title={option.description + ' (' + option.label + ')'}
+                data-testid={option.token === BARLINE_TOKENS.SINGLE ? 'notation-barline' : undefined}
                 onClick={function() { onInsertBarline(option.token); }}
-              >
-                <span className="notation-barline-menu-label">{option.label}</span>
-                {' '}{option.description}
-              </Dropdown.Item>
+              >{option.label}</Button>
             );
           })}
-        </Dropdown.Menu>
-      </Dropdown>
-      <NotationMarksDropdown onToggleTie={onToggleTie} onMarkAction={onMarkAction} />
-      <NotationTupletDropdown session={session} onTupletAction={onTupletAction} />
+        </ButtonGroup>
+      ) : (
+        <Dropdown as={ButtonGroup} className="notation-barline-dropdown">
+          <Button
+            size="lg"
+            variant="outline-secondary"
+            className="notation-barline-main-btn"
+            title="Bar line (|)"
+            onClick={function() { onInsertBarline(BARLINE_TOKENS.SINGLE); }}
+            data-testid="notation-barline"
+          >|</Button>
+          <Dropdown.Toggle
+            split
+            variant="outline-secondary"
+            size="lg"
+            title="Choose bar line type"
+            data-testid="notation-barline-menu"
+            aria-label="Choose bar line type"
+          />
+          <Dropdown.Menu>
+            {BARLINE_OPTIONS.map(function(option) {
+              return (
+                <Dropdown.Item
+                  key={option.token}
+                  title={option.description + ' (' + option.label + ')'}
+                  onClick={function() { onInsertBarline(option.token); }}
+                >
+                  <span className="notation-barline-menu-label">{option.label}</span>
+                  {' '}{option.description}
+                </Dropdown.Item>
+              );
+            })}
+          </Dropdown.Menu>
+        </Dropdown>
+      )}
+      <NotationMarksDropdown
+        onToggleTie={onToggleTie}
+        onMarkAction={onMarkAction}
+        expanded={!!expand.palette}
+      />
+      <NotationTupletDropdown
+        session={session}
+        onTupletAction={onTupletAction}
+        expanded={!!expand.tuplets}
+      />
       {session.slurMode ? (
         <span className="notation-mode-badge" title="Slur mode — select start and end notes" data-testid="notation-mode-badge-slur">Slur</span>
-      ) : null}
-      {session.mode === EDITOR_MODES.NOTE_INPUT ? (
-        <span className="notation-mode-badge notation-mode-badge-input" title="Note input — press A–G or use the piano" data-testid="notation-mode-badge-input">
-          Input
-        </span>
       ) : null}
       {session.tupletMode ? (
         <span className="notation-mode-badge" title="Tuplet input mode active">

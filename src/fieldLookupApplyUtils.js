@@ -210,3 +210,22 @@ export function toastAppliedFieldLookup(kind, tuneName) {
     autoClose: 1500,
   })
 }
+
+export function toastFieldSearchFinished(kind, options) {
+  const opts = options || {}
+  const count = Number(opts.count) || 0
+  const applied = !!opts.applied
+  const label = kind === 'composer' ? 'artist' : String(kind || 'field')
+  let message
+  if (count <= 0) {
+    message = 'No ' + label + ' results'
+  } else if (applied) {
+    message = 'Applied ' + label + ' · ' + count + ' suggestion' + (count === 1 ? '' : 's')
+  } else {
+    message = count + ' ' + label + ' suggestion' + (count === 1 ? '' : 's')
+  }
+  toast.info(message, {
+    hideProgressBar: true,
+    autoClose: 2000,
+  })
+}

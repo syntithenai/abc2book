@@ -17,6 +17,15 @@ export default function NotationToolsDropdown(props) {
       <Dropdown.Menu>
         <Dropdown.Item onClick={onOpenWizard}>Layout wizards</Dropdown.Item>
         <Dropdown.Item onClick={onQuantize}>Quantize…</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item
+          onClick={function() { if (props.onInsertMeasure) props.onInsertMeasure(); }}
+          data-testid="notation-insert-measure"
+        >Insert empty measure (Ins / Ctrl+B)</Dropdown.Item>
+        <Dropdown.Item
+          onClick={function() { if (props.onBeamBreak) props.onBeamBreak(); }}
+          data-testid="notation-beam-break"
+        >Break beam before selection</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

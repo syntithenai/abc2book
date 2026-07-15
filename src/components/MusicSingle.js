@@ -46,6 +46,7 @@ import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
 import MarkdownContent from './MarkdownContent'
 import StructureChordBlock from './StructureChordBlock'
 import LyricsZoomControls from './LyricsZoomControls'
+import FileZoomControls, { clampFileViewZoom } from './FileZoomControls'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
 import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
 import { filterTuneVoices } from '../abcVoiceFilter'
@@ -81,6 +82,7 @@ export default function MusicSingle(props) {
       return getTuneNotationFitMode(null)
     })
     const [lyricsZoom, setLyricsZoom] = useState(1.2)
+    const [fileViewZoom, setFileViewZoom] = useState(1)
     const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
     
     var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
@@ -181,6 +183,7 @@ export default function MusicSingle(props) {
         if (tune) {
            setNotationFitModeState(getTuneNotationFitMode(tune))
            setLyricsZoom(getTuneGigZoom(tune))
+           setFileViewZoom(1)
            if (tune.viewMode) {
                props.setViewMode(tune.viewMode)
            } else {
@@ -239,6 +242,10 @@ export default function MusicSingle(props) {
             //props.mediaController.setTune(null)
         //}
     },[])
+
+    useEffect(function() {
+        setFileViewZoom(1)
+    }, [tune && tune.activeFile])
 
     function getTempo() {
         // use page tempo that has been updated from tune
@@ -373,18 +380,31 @@ export default function MusicSingle(props) {
                   props.tunebook,
                   { hasChords: hasChords }
                 )
+                const fileOverlayActive = !!findTuneFileMeta(tune, tune.activeFile)
+                const availableForControls = fileOverlayActive
+                  ? Object.assign({}, availableFlags, {
+                    notation: false,
+                    lyrics: false,
+                    structure: false,
+                    chords: false,
+                  })
+                  : availableFlags
                 const layout = resolveTuneDisplayLayout(viewFlags)
                 const notationVisible = !!viewFlags.notation && viewFlags.notation !== 'off'
                 const lyricsVisible = !!viewFlags.lyrics
                 const structureVisible = !!viewFlags.structure && hasChords
                 const chordsAnnotate = !!viewFlags.chords
-                const viewModesEmpty = isViewModesEmpty(viewFlags, availableFlags)
+                // File overlay covers chart panels; keep them mounted (hidden) for capture/playback.
+                const showNotationUi = notationVisible && !fileOverlayActive
+                const showLyricsUi = lyricsVisible && !fileOverlayActive
+                const showStructureUi = structureVisible && !fileOverlayActive
+                const viewModesEmpty = !fileOverlayActive && isViewModesEmpty(viewFlags, availableFlags)
                 const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL
                 const syncLyricsStructure = !!layout.syncLyricsStructure
                 // Without notation: fit-height scales lyrics (or structure-only, or synced pair).
-                const lyricsStructureFitHeight = fitHeightOn && !notationVisible && syncLyricsStructure
-                const lyricsFitHeight = fitHeightOn && !notationVisible && lyricsVisible && !syncLyricsStructure
-                const structureFitHeight = fitHeightOn && !notationVisible && structureVisible && !lyricsVisible
+                const lyricsStructureFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && syncLyricsStructure
+                const lyricsFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && lyricsVisible && !syncLyricsStructure
+                const structureFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && structureVisible && !lyricsVisible
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
                   : ''
@@ -444,6 +464,10 @@ export default function MusicSingle(props) {
                   const clamped = clampGigZoom(next)
                   setLyricsZoom(clamped)
                   persistTunePatch({ zoom: clamped })
+                }
+
+                function handleFileViewZoomChange(next) {
+                  setFileViewZoom(clampFileViewZoom(next))
                 }
 
                 function fixLinks(tune,index,field,startOrEnd) {
@@ -606,7 +630,13 @@ export default function MusicSingle(props) {
 			    </div>
 
 			    <div className="music-buttons-col-right">
-			      {availableFlags.lyrics ? (
+			      {fileOverlayActive ? (
+			        <FileZoomControls
+			          zoom={fileViewZoom}
+			          onChange={handleFileViewZoomChange}
+			          tunebook={props.tunebook}
+			        />
+			      ) : availableFlags.lyrics ? (
 			        <LyricsZoomControls
 			          zoom={lyricsZoom}
 			          onChange={handleLyricsZoomChange}
@@ -630,7 +660,9 @@ export default function MusicSingle(props) {
               forceDropdown={mediumToolbar}
 			        notationFitMode={notationFitMode}
 			        onNotationFitModeChange={handleNotationFitModeChange}
-              hideInlineVoiceControls={false}
+              hideInlineVoiceControls={fileOverlayActive}
+              fileOverlayActive={fileOverlayActive}
+              availableOverride={availableForControls}
               onVoiceSettingsChange={function() {
                   setVoiceSettingsVersion(function(v) { return v + 1 })
               }}
@@ -642,7 +674,6 @@ export default function MusicSingle(props) {
                   driveApi={driveDocs}
                   requestGoogleScopes={props.requestGoogleScopes}
                   login={props.login}
-                  captureRootSelector=".music-single-panels"
                   variant={mediumToolbar ? 'menu' : 'toolbar'}
                   stopMenuClose={!!mediumToolbar}
                   onTuneChange={function(next) {
@@ -652,10 +683,10 @@ export default function MusicSingle(props) {
                   }}
                 />
               )}
-              extraMenuContent={transposeCapoBlock}
+              extraMenuContent={fileOverlayActive ? null : transposeCapoBlock}
 			        onChange={handleViewModeChange}
 			      />
-            {!mediumToolbar ? transposeCapoBlock : null}
+            {!mediumToolbar && !fileOverlayActive ? transposeCapoBlock : null}
 			    </div>
 			  </div>
 			</div>
@@ -669,11 +700,13 @@ export default function MusicSingle(props) {
 				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
 			 })}
 
-             {findTuneFileMeta(tune, tune.activeFile) ? (
+             {fileOverlayActive ? (
                <TuneFilePanel
                  tune={tune}
                  token={props.token}
                  driveApi={driveDocs}
+                 fitMode={notationFitMode}
+                 zoom={fileViewZoom}
                  onTuneChange={function(next) {
                    setTune(next)
                    props.tunebook.saveTune(next)
@@ -683,26 +716,26 @@ export default function MusicSingle(props) {
 
 
               
-             <div className={`music-single-panels tune-display-panels ${layout.layoutClass}${notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : ''}`}>
+             <div className={`music-single-panels tune-display-panels ${layout.layoutClass}${!fileOverlayActive && notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : ''}${fileOverlayActive ? ' music-single-panels--file-overlay' : ''}`}>
                {viewModesEmpty ? (
                  <div className="tune-view-modes-empty" role="status">
                    No view modes enabled
                  </div>
                ) : null}
-               {/* Notation panel — always in DOM for audio continuity, visually hidden when off */}
-               <div className={`music-body-notation tune-panel-notation${!chordsAnnotate ? ' no-inline-chords' : ''}${layout.main === 'notation' ? ' tune-slot-main' : ''}${layout.side === 'notation' ? ' tune-slot-side' : ''}`} style={notationVisible ? {} : {display:'none'}}>
+               {/* Notation panel — always in DOM for audio continuity, visually hidden when off or file overlay */}
+               <div className={`music-body-notation tune-panel-notation${!chordsAnnotate ? ' no-inline-chords' : ''}${layout.main === 'notation' ? ' tune-slot-main' : ''}${layout.side === 'notation' ? ' tune-slot-side' : ''}`} style={showNotationUi ? {} : {display:'none'}}>
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={notationVisible} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
                    </div>
                  </div>
                </div>
 
-               {/* Lyrics panel — TimedLyricsChordsView maps chords above each lyric line */}
+               {/* Lyrics panel — keep mounted when enabled so Capture screenshot can reveal it under overlay */}
                {lyricsVisible && (
-                 <div className={`music-body-lyrics tune-panel-lyrics${syncLyricsStructure ? ' tune-panel-lyrics-structure-sync' : ''}${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`}>
+                 <div className={`music-body-lyrics tune-panel-lyrics${syncLyricsStructure ? ' tune-panel-lyrics-structure-sync' : ''}${layout.main === 'lyrics' ? ' tune-slot-main' : ''}${layout.side === 'lyrics' ? ' tune-slot-side' : ''}${layout.below === 'lyrics' ? ' tune-slot-below' : ''}${layout.wrapLyricsAroundStructure ? ' tune-lyrics-wrap' : ''}`} style={showLyricsUi ? undefined : {display:'none'}}>
                    <div className="lyrics-panel-inner">
                      <div className="lyrics-panel-header">
                        {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
@@ -756,7 +789,7 @@ export default function MusicSingle(props) {
 
                {/* Structure (chord block) panel */}
                {structureVisible && !syncLyricsStructure && (
-                 <div className={`music-body-chords tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}`}>
+                 <div className={`music-body-chords tune-panel-structure${layout.main === 'structure' ? ' tune-slot-main' : ''}${layout.side === 'structure' ? ' tune-slot-side' : ''}`} style={showStructureUi ? undefined : {display:'none'}}>
                    <StructureChordBlock
                      chords={chords}
                      uniqueChords={uniqueChords}

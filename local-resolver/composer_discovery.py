@@ -2,7 +2,7 @@ import re
 
 from recording_artists import (
     discover_recording_artists,
-    discover_work_writers,
+    discover_work_writers_with_prominence,
     is_generic_artist,
 )
 from tune_background_research import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TIMEOUT_SECONDS, search_web
@@ -150,8 +150,136 @@ def _add_candidate(store, artist, role="performer", source=""):
     }
 
 
+def _promote_candidate(store, artist):
+    """Move artist to the front of store (dict insertion order)."""
+    key = _artist_key(artist)
+    entry = store.get(key)
+    if not entry:
+        return False
+    rebuilt = {key: entry}
+    for existing_key, existing_entry in store.items():
+        if existing_key != key:
+            rebuilt[existing_key] = existing_entry
+    store.clear()
+    store.update(rebuilt)
+    return True
+
+
 def _role_label(role):
     return "Writer" if role == "writer" else "Performer"
+
+
+def _match_writer_in_list(reply, writer_names):
+    """Map an LLM/web reply to an exact writer name from writer_names."""
+    reply_key = _artist_key(reply)
+    if not reply_key:
+        return ""
+    by_key = {_artist_key(name): name for name in writer_names if name}
+    if reply_key in by_key:
+        return by_key[reply_key]
+    # Tolerate replies that include extra words around a listed name.
+    for key, name in by_key.items():
+        if key and (key in reply_key or reply_key in key):
+            return name
+    return ""
+
+
+def pick_prominent_writer(writers_with_prominence):
+    """Return the clear prominence winner, or '' if tied / inconclusive."""
+    if not writers_with_prominence:
+        return ""
+    ranked = sorted(
+        writers_with_prominence,
+        key=lambda entry: (
+            -(int(entry.get("recording_count") or 0)),
+            -(int(entry.get("score") or 0)),
+            _normalize_space(entry.get("artist")).lower(),
+        ),
+    )
+    best = ranked[0]
+    best_rc = int(best.get("recording_count") or 0)
+    best_score = int(best.get("score") or 0)
+    if len(ranked) == 1:
+        return _normalize_space(best.get("artist"))
+    second = ranked[1]
+    second_rc = int(second.get("recording_count") or 0)
+    second_score = int(second.get("score") or 0)
+    if (best_rc, best_score) == (second_rc, second_score):
+        return ""
+    if best_rc == 0 and second_rc == 0 and best_score == second_score:
+        return ""
+    return _normalize_space(best.get("artist"))
+
+
+async def _rank_writers_llm(client, title, writer_names):
+    """Ask the LLM which listed writer is the best-known composer for title."""
+    if not LLM_BASE_URL:
+        return ""
+    names = [_normalize_space(name) for name in writer_names if _normalize_space(name)]
+    if len(names) < 2:
+        return ""
+    listed = "\n".join(f"- {name}" for name in names)
+    prompt = (
+        f"For the song, classical piece, or melody \"{title}\", which of these "
+        f"people is the best-known / most likely composer or songwriter?\n"
+        f"{listed}\n"
+        "Reply with ONLY the exact name from the list, nothing else."
+    )
+    try:
+        response = await client.post(
+            f"{LLM_BASE_URL.rstrip('/')}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {LLM_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": (
+                            "You pick the best-known composer or songwriter from a "
+                            "short list. Reply with one listed name only."
+                        ),
+                    },
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.1,
+                "max_tokens": 64,
+            },
+            timeout=LLM_TIMEOUT_SECONDS,
+        )
+        response.raise_for_status()
+        data = response.json()
+        choices = data.get("choices") or []
+        if not choices:
+            return ""
+        content = (choices[0].get("message") or {}).get("content") or ""
+        content = _normalize_space(content.strip('"\' '))
+        if not content:
+            return ""
+        return _match_writer_in_list(content, names)
+    except Exception:
+        return ""
+
+
+async def _rank_writers_best_effort(client, title, writers_with_prominence):
+    """Rank without LLM: MB prominence, then web name intersecting the list."""
+    prominent = pick_prominent_writer(writers_with_prominence)
+    if prominent:
+        return prominent
+    writer_names = [
+        _normalize_space(entry.get("artist"))
+        for entry in writers_with_prominence
+        if _normalize_space(entry.get("artist"))
+    ]
+    if not writer_names:
+        return ""
+    for web_name in await _discover_writer_web(client, title):
+        matched = _match_writer_in_list(web_name, writer_names)
+        if matched:
+            return matched
+    return ""
 
 
 async def _discover_writer_llm(client, title, artist_hint=""):
@@ -282,10 +410,14 @@ async def discover_composer(
             await on_progress(stage, message, progress)
 
     merged = {}
+    writers_with_prominence = []
 
     await emit("writers", "Looking up songwriters and composers...", 0.12)
-    for name in await discover_work_writers(client, search_title, max_writers=max_artists):
-        _add_candidate(merged, name, role="writer", source="MusicBrainz")
+    writers_with_prominence = await discover_work_writers_with_prominence(
+        client, search_title, max_writers=max_artists
+    )
+    for entry in writers_with_prominence:
+        _add_candidate(merged, entry.get("artist"), role="writer", source="MusicBrainz")
 
     writer_count = sum(1 for entry in merged.values() if entry["role"] == "writer")
     if writer_count < 1:
@@ -298,6 +430,18 @@ async def discover_composer(
         await emit("web", "Searching the web for the writer...", 0.55)
         for name in await _discover_writer_web(client, search_title):
             _add_candidate(merged, name, role="writer", source="web search")
+    elif writer_count >= 2:
+        await emit("rank", "Ranking composers...", 0.45)
+        writer_names = [
+            entry["artist"] for entry in merged.values() if entry["role"] == "writer"
+        ]
+        ranked_name = await _rank_writers_llm(client, search_title, writer_names)
+        if not ranked_name:
+            ranked_name = await _rank_writers_best_effort(
+                client, search_title, writers_with_prominence
+            )
+        if ranked_name:
+            _promote_candidate(merged, ranked_name)
 
     # Title/filename hints are usually performers, not writers.
     if parsed["artist_hint"]:

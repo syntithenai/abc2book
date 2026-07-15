@@ -14,15 +14,6 @@ function notify() {
   })
 }
 
-function analysisNeedsReview(analysis) {
-  if (!analysis || !analysis.formatted) return false
-  const formatted = analysis.formatted
-  if (formatted.lyricsText && String(formatted.lyricsText).trim()) return true
-  if (formatted.melodyNotesText && String(formatted.melodyNotesText).trim()) return true
-  if (formatted.chordGridText && String(formatted.chordGridText).trim()) return true
-  return false
-}
-
 export function markMediaAnalysisReviewed(tuneId) {
   if (!tuneId) return
   reviewedMediaAnalysisTuneIds.add(String(tuneId))
@@ -73,36 +64,24 @@ export function getBackgroundReviewSummary() {
     const tuneId = String(job.tuneId)
     if (full.isAnalyzing) {
       mediaProcessing.push(tuneId)
-      return
     }
-    if (full.analysis && analysisNeedsReview(full.analysis) && !reviewedMediaAnalysisTuneIds.has(tuneId)) {
-      mediaReady.push(tuneId)
-    }
+    // Completed analysis persists field suggestions; it is not Import Review work.
   })
 
-  const fieldLookupAwaitingJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
-    // Linked into import review — counted via the import session instead.
-    if (!job || job.status !== 'awaiting' || job.reviewCandidateId) return false
-    // Add/import draft searches (candidateId, no tuneId) stay on the form as
-    // Use-search choices — they are not Review-queue "Search results".
-    if (!job.tuneId) return false
-    // Auto-mode searches never promote into the review form.
-    const mode = job.options && job.options.searchMode
-    if (mode === 'auto') return false
-    return true
-  })
+  // Field-lookup suggestions are revisited on the edit form / Review suggestions
+  // page — they are not Import Review "ready" items.
+  const fieldLookupAwaitingJobs = []
   const fieldLookupProcessing = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
-    // Match ready filter: only tune-scoped searches that belong on Review.
     if (!job || !job.tuneId) return false
     return job.status === 'pending' || job.status === 'running'
   })
 
   const fileOcrSummary = getFileOcrReviewSummary()
 
-  const ready = importReady + mediaReady.length + fieldLookupAwaitingJobs.length + fileOcrSummary.ready.length
+  const ready = importReady + fileOcrSummary.ready.length
   const processing = importProcessing + mediaProcessing.length + fieldLookupProcessing.length + fileOcrSummary.processing.length
-  const total = importTotal + mediaReady.length + mediaProcessing.length
-    + fieldLookupAwaitingJobs.length + fieldLookupProcessing.length
+  const total = importTotal + mediaProcessing.length
+    + fieldLookupProcessing.length
     + fileOcrSummary.total
 
   return {

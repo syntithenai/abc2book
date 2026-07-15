@@ -7,9 +7,10 @@ import {
 import {
   beatsToDuration,
   durationToBeats,
+  measureCapacityBeats,
 } from './beatGrid';
 import { DURATION_KEY_MULTIPLIERS } from './notationConstants';
-import { midiToAbcPitch } from '../melodyPitchSpelling';
+import { midiToAbcPitch, enharmonicAbcName } from '../melodyPitchSpelling';
 import { reassignEventTiming } from './abcVoiceSerializer';
 import { defaultNoteExtensions, attachTupletToNewEvent, advanceTupletMode } from './notationMarks';
 
@@ -631,4 +632,115 @@ export function selectMeasureContaining(events, eventId) {
   const ids = [];
   for (let j = start; j <= end; j += 1) ids.push(events[j].id);
   return ids;
+}
+
+/**
+ * Insert one empty measure (rests totaling meter capacity + barline) at caret.
+ */
+export function insertEmptyMeasureAtCaret(session) {
+  const events = session.events.map(cloneVoiceEvent);
+  const idx = Math.min(session.caretIndex, events.length);
+  const unit = session.unitLengthDecimal;
+  const cap = measureCapacityBeats(session.tuneMeta.meter || '4/4');
+  const dur = beatsToDuration(cap, unit);
+  const unitBeats = unit * 4;
+  const units = cap / unitBeats;
+  const duration = Math.abs(units - Math.round(units)) < 0.001
+    ? { num: Math.round(units), den: 1, dotted: false }
+    : dur;
+  const rest = Object.assign({
+    id: createEventId('rest'),
+    type: 'rest',
+    duration: duration,
+    tieStart: false,
+    tieEnd: false,
+    pitches: null,
+    pitch: null,
+    sourceToken: 'z',
+  }, defaultNoteExtensions());
+  const bar = {
+    id: createEventId('bar'),
+    type: 'barline',
+    barToken: '|',
+    duration: { num: 0, den: 1, dotted: false },
+    tieStart: false,
+    tieEnd: false,
+  };
+  events.splice(idx, 0, rest, bar);
+  return patchSession(session, { events: events, caretIndex: idx + 2, lastEvent: null });
+}
+
+function pitchPreferFlats(pitch) {
+  if (!pitch) return null;
+  if (pitch.accidental < 0) return true;
+  if (pitch.accidental > 0) return false;
+  const name = String(pitch.abcName || '');
+  if (name.indexOf('_') >= 0) return true;
+  if (name.indexOf('^') >= 0) return false;
+  return null;
+}
+
+function pitchFromAbcToken(abc) {
+  let accidental = 0;
+  let body = String(abc || '');
+  if (body.startsWith('^^')) { accidental = 2; body = body.slice(2); }
+  else if (body.startsWith('__')) { accidental = -2; body = body.slice(2); }
+  else if (body.startsWith('^')) { accidental = 1; body = body.slice(1); }
+  else if (body.startsWith('_')) { accidental = -1; body = body.slice(1); }
+  else if (body.startsWith('=')) { accidental = 0; body = body.slice(1); }
+  const lower = body.toLowerCase();
+  const commas = (body.match(/,/g) || []).length;
+  const apostrophes = (body.match(/'/g) || []).length;
+  const octave = body === lower
+    ? 5 + apostrophes - commas
+    : 4 - commas + apostrophes;
+  return {
+    step: lower.replace(/[,']/g, '').charAt(0).toUpperCase(),
+    octave: octave,
+    accidental: accidental,
+    abcName: abc,
+  };
+}
+
+function respellPitchEnharmonic(pitch) {
+  if (!pitch) return pitch;
+  const midi = pitchToMidi(pitch);
+  if (midi == null) return pitch;
+  const prefer = pitchPreferFlats(pitch);
+  if (prefer == null) {
+    // Natural white-key spelling with no alternate table entry.
+    const sharpAlt = enharmonicAbcName(midi, false);
+    const flatAlt = enharmonicAbcName(midi, true);
+    if (!sharpAlt && !flatAlt) return pitch;
+    // Rare cases (B# vs C): prefer flipping toward flats first.
+    const nextName = flatAlt && flatAlt !== midiToAbcPitch(midi, { preferFlats: false })
+      ? flatAlt
+      : sharpAlt;
+    if (!nextName) return pitch;
+    return pitchFromAbcToken(nextName);
+  }
+  const nextName = enharmonicAbcName(midi, !prefer);
+  if (!nextName) return pitch;
+  return pitchFromAbcToken(nextName);
+}
+
+export function respellEnharmonicSelection(session) {
+  const resolved = resolveEditTargetIds(session);
+  if (!resolved || !resolved.eventIds || !resolved.eventIds.length) return null;
+  const ids = resolved.eventIds;
+  const events = session.events.map(cloneVoiceEvent);
+  const idSet = {};
+  ids.forEach(function(id) { idSet[id] = true; });
+  events.forEach(function(ev) {
+    if (!idSet[ev.id]) return;
+    if (ev.type !== 'note' && ev.type !== 'chord') return;
+    if (ev.pitches && ev.pitches.length) {
+      ev.pitches = ev.pitches.map(respellPitchEnharmonic);
+      ev.pitch = ev.pitches[0];
+    } else if (ev.pitch) {
+      ev.pitch = respellPitchEnharmonic(ev.pitch);
+      ev.pitches = [ev.pitch];
+    }
+  });
+  return patchSession(session, { events: events });
 }

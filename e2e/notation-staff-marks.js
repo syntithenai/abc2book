@@ -87,26 +87,26 @@ async function runStaffMarksTests(page, ctx) {
     if (slur.slurMode) throw new Error('slur mode should end after completing slur')
   })
 
-  await runScenario(results, 'P1: clear slur removes slur flags on selection', async function() {
+  await runScenario(results, 'P1: clear slur removes whole slur group', async function() {
     await resetNotationFixture(page, BASIC_TUNE_ID)
     await focusNotationEditor(page)
     await clickMarksMenuItem(page, 'Slur mode')
     const centers = await staffNoteCenters(page, 0)
     await page.mouse.click(centers[0].x, centers[0].y)
     await sleep(150)
-    await page.mouse.click(centers[1].x, centers[1].y)
+    await page.mouse.click(centers[2] ? centers[2].x : centers[1].x, centers[2] ? centers[2].y : centers[1].y)
     await sleep(200)
-    await page.mouse.click(centers[0].x, centers[0].y)
+    await page.mouse.click(centers[1] ? centers[1].x : centers[0].x, centers[1] ? centers[1].y : centers[0].y)
     await sleep(150)
     await clickMarksMenuItem(page, 'Clear slur')
     await sleep(200)
-    const flags = await page.evaluate(function() {
+    const remaining = await page.evaluate(function() {
       const events = window.__abc2bookNotationTest.getSessionEvents()
-      const selection = window.__abc2bookNotationTest.getSelection()
-      const selected = events.filter(function(ev) { return selection.eventIds.indexOf(ev.id) >= 0 })
-      return selected.some(function(ev) { return ev.slurStart || ev.slurEnd })
+      return events.filter(function(ev) {
+        return ev.slurStart || ev.slurEnd || ev.slurGroupId
+      }).length
     })
-    if (flags) throw new Error('clear slur should remove slur flags on selected note')
+    if (remaining) throw new Error('clear slur should remove entire slur group, remaining=' + remaining)
   })
 
   await runScenario(results, 'P1: tuplet mode inserts three triplet notes', async function() {
@@ -138,6 +138,91 @@ async function runStaffMarksTests(page, ctx) {
     }
     if (tupletState.mode != null) throw new Error('tuplet mode should auto-end after 3 notes')
     if (tupletState.abc.indexOf('(3') < 0) throw new Error('ABC should contain (3 tuplet marker')
+  })
+
+  await runScenario(results, 'P1: apply tuplet to multi-selection', async function() {
+    await resetNotationFixture(page, BASIC_TUNE_ID)
+    await ensureNormalMode(page)
+    await focusNotationEditor(page)
+    const centers = await staffNoteCenters(page, 0)
+    if (centers.length < 3) throw new Error('need 3 notes for apply-tuplet')
+    await page.mouse.click(centers[0].x, centers[0].y)
+    await sleep(100)
+    await page.keyboard.down('Shift')
+    await page.mouse.click(centers[2].x, centers[2].y)
+    await page.keyboard.up('Shift')
+    await sleep(150)
+    await page.click('.notation-tuplet-dropdown .btn:first-child')
+    await sleep(250)
+    const applied = await page.evaluate(function() {
+      const events = window.__abc2bookNotationTest.getSessionEvents()
+      const notes = events.filter(function(ev) { return ev.type === 'note' }).slice(0, 3)
+      return {
+        nums: notes.map(function(n) { return n.tuplet && n.tuplet.num }),
+        mode: window.__abc2bookNotationTest.getTupletMode(),
+        abc: window.__abc2bookNotationTest.getVoiceAbc(),
+      }
+    })
+    if (applied.nums.some(function(n) { return n !== 3; })) {
+      throw new Error('selection tuplet apply should set num 3, got ' + JSON.stringify(applied.nums))
+    }
+    if (applied.mode != null) throw new Error('apply tuplet should clear insert mode')
+    if (applied.abc.indexOf('(3') < 0) throw new Error('ABC should contain (3 after apply')
+  })
+
+  await runScenario(results, 'P1: Insert measure adds rest+barline; J respells', async function() {
+    await resetNotationFixture(page, EMPTY_TUNE_ID)
+    await ensureNoteInputMode(page)
+    await focusNotationEditor(page)
+    await clickStaffForNoteInput(page)
+    await pressKey(page, '+')
+    await pressKey(page, 'c')
+    await sleep(250)
+    await ensureNormalMode(page)
+    const centers = await staffNoteCenters(page, 0)
+    if (!centers.length) throw new Error('expected a staff note after insert')
+    await page.mouse.click(centers[0].x, centers[0].y)
+    await sleep(150)
+    await pressKey(page, 'j')
+    await sleep(200)
+    const spelled = await page.evaluate(function() {
+      const events = window.__abc2bookNotationTest.getSessionEvents()
+      const note = events.find(function(ev) { return ev.type === 'note' })
+      return note && note.pitch && (note.pitch.abcName || '')
+    })
+    if (!spelled || spelled.indexOf('_') < 0) {
+      throw new Error('J should respell sharp to flat abcName, got ' + spelled)
+    }
+    await pressKey(page, 'Insert')
+    await sleep(250)
+    const afterInsert = await page.evaluate(function() {
+      const events = window.__abc2bookNotationTest.getSessionEvents()
+      const types = events.map(function(ev) { return ev.type })
+      return {
+        types: types,
+        hasRest: types.indexOf('rest') >= 0,
+        hasBar: types.indexOf('barline') >= 0,
+      }
+    })
+    if (!afterInsert.hasRest || !afterInsert.hasBar) {
+      throw new Error('Insert measure should include rest and barline, got ' + JSON.stringify(afterInsert.types))
+    }
+  })
+
+  await runScenario(results, 'P1: slur endpoint handles appear for slurred selection', async function() {
+    await resetNotationFixture(page, BASIC_TUNE_ID)
+    await ensureNormalMode(page)
+    await focusNotationEditor(page)
+    await clickMarksMenuItem(page, 'Slur mode')
+    const centers = await staffNoteCenters(page, 0)
+    await page.mouse.click(centers[0].x, centers[0].y)
+    await sleep(150)
+    await page.mouse.click(centers[1].x, centers[1].y)
+    await sleep(200)
+    await page.mouse.click(centers[0].x, centers[0].y)
+    await sleep(200)
+    const handle = await page.$('[data-testid="notation-slur-handle-start"]')
+    if (!handle) throw new Error('expected slur start handle overlay')
   })
 
   await runScenario(results, 'P1: decorations staccato and accent on selection', async function() {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Dropdown } from 'react-bootstrap';
 import { formatTuneFieldValue } from '../tuneImportMergeUtils';
 import SuggestionPreviewDialog from './SuggestionPreviewDialog';
@@ -45,6 +45,19 @@ export default function ImportFieldSuggestion(props) {
   const [previewChoice, setPreviewChoice] = useState(null);
   const [previewIndex, setPreviewIndex] = useState(-1);
   const [showNotationGallery, setShowNotationGallery] = useState(false);
+  const [showChoicesModal, setShowChoicesModal] = useState(false);
+
+  useEffect(function() {
+    if (!props.openRequestToken) return;
+    if (previewKind(
+      (props.suggestion && props.suggestion.key) || props.fieldKey || '',
+      (props.suggestion && props.suggestion.formKey) || props.formKey || ''
+    ) === 'notation') {
+      setShowNotationGallery(true);
+      return;
+    }
+    setShowChoicesModal(true);
+  }, [props.openRequestToken]);
 
   if (!suggestion && (!choices || choices.length === 0)) return null;
 
@@ -171,6 +184,20 @@ export default function ImportFieldSuggestion(props) {
           setPreviewIndex(-1);
           if (choice) applyChoice(choice, index);
         }}
+      />
+      <SearchResultPickerModal
+        show={!!showChoicesModal}
+        title={'Choose ' + (label || 'suggestion')}
+        layout={useLyricsPreview ? 'lyrics' : 'list'}
+        previewMetadata={props.previewMetadata}
+        items={menuChoices.map(choiceToPickerItem)}
+        onSelect={function(item, index) {
+          const choice = menuChoices[index];
+          if (!choice) return;
+          setShowChoicesModal(false);
+          handleChoiceClick(choice, index);
+        }}
+        onHide={function() { setShowChoicesModal(false); }}
       />
     </>
   );

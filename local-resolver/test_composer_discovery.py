@@ -1,13 +1,25 @@
 import unittest
 
+from unittest.mock import AsyncMock, patch
+
 from composer_discovery import (
     _format_candidates,
     _add_candidate,
+    _match_writer_in_list,
+    _promote_candidate,
+    _rank_writers_best_effort,
+    _rank_writers_llm,
+    discover_composer,
     extract_writers_from_text,
     is_plausible_writer_name,
     parse_title_composer_hint,
+    pick_prominent_writer,
 )
-from recording_artists import discover_work_writers, WRITER_RELATION_TYPES
+from recording_artists import (
+    discover_work_writers,
+    discover_work_writers_with_prominence,
+    WRITER_RELATION_TYPES,
+)
 
 
 class ComposerDiscoveryTests(unittest.TestCase):
@@ -81,6 +93,34 @@ class ComposerDiscoveryTests(unittest.TestCase):
             extract_writers_from_text("Clair de lune was composed by Claude Debussy."),
             ["Claude Debussy"],
         )
+
+    def test_pick_prominent_writer_requires_clear_winner(self):
+        writers = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Claude Debussy", "recording_count": 40, "score": 94},
+        ]
+        self.assertEqual(pick_prominent_writer(writers), "Claude Debussy")
+        tied = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Django Reinhardt", "recording_count": 2, "score": 100},
+        ]
+        self.assertEqual(pick_prominent_writer(tied), "")
+
+    def test_match_and_promote_writer(self):
+        self.assertEqual(
+            _match_writer_in_list("Claude Debussy", ["Joseph Kosma", "Claude Debussy"]),
+            "Claude Debussy",
+        )
+        self.assertEqual(
+            _match_writer_in_list("debussy", ["Joseph Kosma", "Claude Debussy"]),
+            "Claude Debussy",
+        )
+        store = {}
+        _add_candidate(store, "Joseph Kosma", role="writer", source="MusicBrainz")
+        _add_candidate(store, "Claude Debussy", role="writer", source="MusicBrainz")
+        self.assertEqual(list(store.values())[0]["artist"], "Joseph Kosma")
+        self.assertTrue(_promote_candidate(store, "Claude Debussy"))
+        self.assertEqual(list(store.values())[0]["artist"], "Claude Debussy")
 
 
 class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
@@ -252,6 +292,219 @@ class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
         self.assertIn("Claude Debussy", writers)
         self.assertIn("Torstein Bieler", writers)
         self.assertIn("Django Reinhardt", writers)
+
+    async def test_discover_work_writers_with_prominence_tracks_recording_count(self):
+        class WorkSearchResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "works": [
+                        {
+                            "id": "work-kosma",
+                            "title": "Clair de Lune",
+                            "score": 100,
+                        },
+                        {
+                            "id": "work-debussy",
+                            "title": "Clair de Lune",
+                            "score": 94,
+                            "recording-count": 12,
+                        },
+                    ],
+                }
+
+        class WorkLookupResponse:
+            def __init__(self, name, performances=0):
+                self._name = name
+                self._performances = performances
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                relations = [
+                    {"type": "composer", "artist": {"name": self._name}},
+                ]
+                for index in range(self._performances):
+                    relations.append({
+                        "type": "performance",
+                        "recording": {"id": "rec-%s" % index, "title": "x"},
+                    })
+                return {"relations": relations}
+
+        class FakeClient:
+            async def get(self, url, params=None, headers=None):
+                if url.endswith("/work"):
+                    return WorkSearchResponse()
+                if "work-kosma" in url:
+                    return WorkLookupResponse("Joseph Kosma", performances=1)
+                if "work-debussy" in url:
+                    return WorkLookupResponse("Claude Debussy", performances=3)
+                raise AssertionError("unexpected url " + url)
+
+        enriched = await discover_work_writers_with_prominence(
+            FakeClient(), "Clair de Lune", max_writers=5
+        )
+        by_name = {entry["artist"]: entry for entry in enriched}
+        self.assertEqual(by_name["Joseph Kosma"]["recording_count"], 1)
+        self.assertEqual(by_name["Claude Debussy"]["recording_count"], 12)
+
+
+class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
+    async def test_rank_writers_llm_promotes_listed_name(self):
+        class FakeResponse:
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "choices": [
+                        {"message": {"content": "Claude Debussy"}},
+                    ],
+                }
+
+        class FakeClient:
+            async def post(self, url, headers=None, json=None, timeout=None):
+                return FakeResponse()
+
+        with patch("composer_discovery.LLM_BASE_URL", "http://llm.test"):
+            ranked = await _rank_writers_llm(
+                FakeClient(),
+                "Claire de Lune",
+                ["Joseph Kosma", "Django Reinhardt", "Claude Debussy"],
+            )
+        self.assertEqual(ranked, "Claude Debussy")
+
+    async def test_rank_writers_llm_noop_without_base_url(self):
+        class FakeClient:
+            async def post(self, *args, **kwargs):
+                raise AssertionError("LLM should not be called")
+
+        with patch("composer_discovery.LLM_BASE_URL", ""):
+            ranked = await _rank_writers_llm(
+                FakeClient(),
+                "Claire de Lune",
+                ["Joseph Kosma", "Claude Debussy"],
+            )
+        self.assertEqual(ranked, "")
+
+    async def test_best_effort_uses_prominence_then_web(self):
+        writers = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Claude Debussy", "recording_count": 40, "score": 94},
+        ]
+        ranked = await _rank_writers_best_effort(object(), "Claire de Lune", writers)
+        self.assertEqual(ranked, "Claude Debussy")
+
+        tied = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Django Reinhardt", "recording_count": 2, "score": 100},
+            {"artist": "Claude Debussy", "recording_count": 2, "score": 94},
+        ]
+
+        async def fake_web(client, title):
+            return ["Claude Debussy"]
+
+        with patch(
+            "composer_discovery._discover_writer_web",
+            new=AsyncMock(side_effect=fake_web),
+        ):
+            ranked = await _rank_writers_best_effort(
+                object(), "Claire de Lune", tied
+            )
+        self.assertEqual(ranked, "Claude Debussy")
+
+    async def test_discover_composer_llm_rank_puts_debussy_first(self):
+        writers = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Django Reinhardt", "recording_count": 2, "score": 100},
+            {"artist": "Claude Debussy", "recording_count": 2, "score": 94},
+        ]
+
+        class FakeClient:
+            async def get(self, *args, **kwargs):
+                raise AssertionError("unexpected get")
+
+            async def post(self, *args, **kwargs):
+                raise AssertionError("unexpected post")
+
+        with patch(
+            "composer_discovery.discover_work_writers_with_prominence",
+            new=AsyncMock(return_value=writers),
+        ), patch(
+            "composer_discovery._rank_writers_llm",
+            new=AsyncMock(return_value="Claude Debussy"),
+        ), patch(
+            "composer_discovery._rank_writers_best_effort",
+            new=AsyncMock(side_effect=AssertionError("should not fall back")),
+        ), patch(
+            "composer_discovery.discover_recording_artists",
+            new=AsyncMock(return_value=[]),
+        ):
+            result = await discover_composer(FakeClient(), "Claire de Lune")
+
+        self.assertTrue(result["multiple"])
+        artists = [c["artist"] for c in result["candidates"]]
+        self.assertEqual(artists[0], "Claude Debussy")
+        self.assertIn("Joseph Kosma", artists)
+
+    async def test_discover_composer_best_effort_when_llm_unavailable(self):
+        writers = [
+            {"artist": "Joseph Kosma", "recording_count": 2, "score": 100},
+            {"artist": "Claude Debussy", "recording_count": 40, "score": 94},
+        ]
+
+        class FakeClient:
+            async def get(self, *args, **kwargs):
+                raise AssertionError("unexpected get")
+
+        with patch(
+            "composer_discovery.discover_work_writers_with_prominence",
+            new=AsyncMock(return_value=writers),
+        ), patch(
+            "composer_discovery._rank_writers_llm",
+            new=AsyncMock(return_value=""),
+        ), patch(
+            "composer_discovery.discover_recording_artists",
+            new=AsyncMock(return_value=[]),
+        ):
+            result = await discover_composer(FakeClient(), "Claire de Lune")
+
+        artists = [c["artist"] for c in result["candidates"]]
+        self.assertEqual(artists[0], "Claude Debussy")
+
+    async def test_discover_composer_skips_rank_for_single_writer(self):
+        writers = [
+            {"artist": "Noel Gallagher", "recording_count": 10, "score": 100},
+        ]
+
+        class FakeClient:
+            async def get(self, *args, **kwargs):
+                raise AssertionError("unexpected get")
+
+        rank_llm = AsyncMock(return_value="Noel Gallagher")
+        best_effort = AsyncMock(return_value="Noel Gallagher")
+        with patch(
+            "composer_discovery.discover_work_writers_with_prominence",
+            new=AsyncMock(return_value=writers),
+        ), patch(
+            "composer_discovery._rank_writers_llm",
+            new=rank_llm,
+        ), patch(
+            "composer_discovery._rank_writers_best_effort",
+            new=best_effort,
+        ), patch(
+            "composer_discovery.discover_recording_artists",
+            new=AsyncMock(return_value=[]),
+        ):
+            result = await discover_composer(FakeClient(), "Wonderwall")
+
+        self.assertFalse(result["multiple"])
+        self.assertEqual(result["artist"], "Noel Gallagher")
+        rank_llm.assert_not_called()
+        best_effort.assert_not_called()
 
 
 if __name__ == "__main__":

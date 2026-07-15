@@ -322,15 +322,18 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
 
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
-                result = await search_notation(
-                    "Drowsy Maggie",
-                    song_type="traditional_tune",
-                    on_progress=on_progress,
-                )
+                with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                        result = await search_notation(
+                            "Drowsy Maggie",
+                            song_type="traditional_tune",
+                            on_progress=on_progress,
+                        )
 
         self.assertIn("abc", result)
         self.assertIn("K:Edor", result["abc"])
         self.assertTrue(any(item["stage"] == "thesession" for item in progress))
+        self.assertTrue(any(item["stage"] == "sources" for item in progress))
         self.assertTrue(any(item["stage"] == "done" for item in progress))
 
     async def test_search_notation_handles_snow_on_the_tracks_style_settings(self):
@@ -379,7 +382,9 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
 
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
-                result = await search_notation("Snow On The Tracks", song_type="traditional_tune")
+                with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                        result = await search_notation("Snow On The Tracks", song_type="traditional_tune")
 
         self.assertIn("abc", result)
         self.assertIn("Snow On The Tracks", result["abc"])
@@ -533,17 +538,19 @@ K:D
 
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=fake_collect_web_abc_candidates):
-                result = await search_notation(
-                    "Bicycle Race",
-                    artist="Queen",
-                    song_type="song",
-                    on_progress=on_progress,
-                )
+                with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                        result = await search_notation(
+                            "Bicycle Race",
+                            artist="Queen",
+                            song_type="song",
+                            on_progress=on_progress,
+                        )
 
         self.assertTrue(web_called["value"])
         self.assertIn("abc", result)
         self.assertIn("Bicycle Race", result["abc"])
-        self.assertTrue(any(stage == "web" for stage in progress))
+        self.assertTrue(any(stage == "sources" for stage in progress))
 
 
 if __name__ == "__main__":

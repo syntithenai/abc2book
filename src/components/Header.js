@@ -21,23 +21,10 @@ import {
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import {
-    getBackgroundReviewRevision,
-    getBackgroundReviewSummary,
-    subscribeBackgroundReviewQueue,
-} from '../backgroundReviewQueue'
-import {
-    getImportReviewSessionRevision,
-    showImportReviewUi,
-    subscribeImportReviewSession,
-} from '../importReviewSessionStore'
-import {
     subscribe as subscribeFieldLookupQueue,
     getState as getFieldLookupState,
 } from '../tuneFieldLookupQueue'
-import {
-    getFileOcrJobs,
-    subscribeFileOcrJobs,
-} from '../fileOcrJobs'
+import { countTunesWithFieldSuggestions } from '../fieldSuggestionsUtils'
 
 function getFieldLookupReviewRevision() {
     const state = getFieldLookupState()
@@ -46,36 +33,16 @@ function getFieldLookupReviewRevision() {
     }).join('|')
 }
 
-function getFileOcrReviewRevision() {
-    return getFileOcrJobs().map(function(job) {
-        return job.id + ':' + job.status
-    }).join('|')
-}
-
-function useBackgroundReviewReadyCount() {
-    const reviewRevision = useSyncExternalStore(
-        subscribeBackgroundReviewQueue,
-        getBackgroundReviewRevision,
-        function() { return '' }
-    )
-    const importRevision = useSyncExternalStore(
-        subscribeImportReviewSession,
-        getImportReviewSessionRevision,
-        function() { return '' }
-    )
+function useSearchSuggestionsTuneCount() {
     const fieldLookupRevision = useSyncExternalStore(
         subscribeFieldLookupQueue,
         getFieldLookupReviewRevision,
         function() { return '' }
     )
-    const fileOcrRevision = useSyncExternalStore(
-        subscribeFileOcrJobs,
-        getFileOcrReviewRevision,
-        function() { return '' }
-    )
     return useMemo(function() {
-        return getBackgroundReviewSummary().ready
-    }, [reviewRevision, importRevision, fieldLookupRevision, fileOcrRevision])
+        const jobs = getFieldLookupState().jobs || []
+        return countTunesWithFieldSuggestions(jobs)
+    }, [fieldLookupRevision])
 }
 
 
@@ -192,7 +159,7 @@ export default function Header(props) {
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',
     }
-    const reviewReadyCount = useBackgroundReviewReadyCount()
+    const reviewSuggestionsTuneCount = useSearchSuggestionsTuneCount()
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
@@ -294,7 +261,7 @@ export default function Header(props) {
                                 </span>
                             </Button>
                         </span>
-                        {reviewReadyCount > 0 ? (
+                        {reviewSuggestionsTuneCount > 0 ? (
                             <Button
                                 as={Link}
                                 to="/review"
@@ -302,15 +269,12 @@ export default function Header(props) {
                                 size={navButtonSize}
                                 className="header-dropdown-btn header-dropdown-review-btn"
                                 data-testid="header-review-button"
-                                title="Review"
-                                onClick={function() {
-                                    setNavMenuOpen(false)
-                                    showImportReviewUi()
-                                }}
+                                title={'Review ' + reviewSuggestionsTuneCount + ' Search Suggestions'}
+                                onClick={function() { setNavMenuOpen(false) }}
                             >
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.menu}
-                                    <span>Review</span>
+                                    <span>Review {reviewSuggestionsTuneCount} Search Suggestions</span>
                                 </span>
                             </Button>
                         ) : null}

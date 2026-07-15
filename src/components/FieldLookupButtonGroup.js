@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { Button, ButtonGroup } from 'react-bootstrap'
-import FieldSearchModeDialog from './FieldSearchModeDialog'
+import { Badge, Button, ButtonGroup, ProgressBar } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 
 const DEFAULT_SEARCH_ICON = (
@@ -10,15 +9,38 @@ const DEFAULT_SEARCH_ICON = (
   </svg>
 )
 
-function renderSearchButton(props) {
+const CLEAR_ICON = (
+  <span aria-hidden="true" style={{ fontWeight: 700, lineHeight: 1 }}>×</span>
+)
+
+/**
+ * Uniform field search chrome:
+ * [Clear] [Suggestions] [Search|Cancel] [External?]
+ * + progress bar while busy.
+ *
+ * External only when `showExternal` is true (caller: no local search and no resolver).
+ * Mode dialog removed — onSearch always starts a search (or cancels when busy).
+ */
+export function FieldLookupButtonGroup(props) {
   const {
+    automaticLookup = true,
     busy,
     disabled,
-    narrow,
-    onClick,
+    externalUrl,
+    externalLinkIcon,
+    showExternal,
+    narrow: narrowProp,
+    onSearch,
+    onClearSuggestions,
+    onOpenSuggestions,
+    suggestionCount = 0,
     buttonStyle,
     searchIcon,
+    inline,
+    progress = 0,
   } = props
+  const viewportNarrow = useIsNarrowViewport()
+  const narrow = typeof narrowProp === 'boolean' ? narrowProp : viewportNarrow
   const style = Object.assign({
     color: 'black',
     display: 'inline-flex',
@@ -27,116 +49,19 @@ function renderSearchButton(props) {
     whiteSpace: 'nowrap',
   }, buttonStyle || {})
   const icon = searchIcon || DEFAULT_SEARCH_ICON
-  const label = busy ? 'Cancel' : 'Search'
-  return (
-    <Button
-      style={style}
-      variant={busy ? 'warning' : undefined}
-      disabled={disabled}
-      onClick={onClick}
-    >
-      {icon}
-      {!narrow && <span>{label}</span>}
-    </Button>
-  )
-}
-
-function renderExternalButton(props) {
-  const { externalUrl, externalLinkIcon, buttonStyle } = props
-  if (!externalLinkIcon || !externalUrl) return null
-  const style = Object.assign({
-    color: 'black',
-    display: 'inline-flex',
-    alignItems: 'center',
-  }, buttonStyle || {})
-  return (
-    <Button
-      as="a"
-      href={externalUrl}
-      target="_blank"
-      rel="noreferrer"
-      style={style}
-    >
-      {externalLinkIcon}
-    </Button>
-  )
-}
-
-/**
- * Search (+ optional external link) control.
- * When confirmSearchMode is true (default for automatic lookup), Search opens
- * Auto / Review / Cancel; onSearch receives 'auto' | 'review'.
- * When confirmSearchMode is false, onSearch receives defaultSearchMode ('auto' by default).
- * When busy, Search cancels and calls onSearch() with no mode.
- * When `narrow` is omitted, follows the narrow viewport breakpoint.
- */
-export function FieldLookupButtonGroup(props) {
-  const {
-    automaticLookup,
-    busy,
-    disabled,
-    externalUrl,
-    externalLinkIcon,
-    narrow: narrowProp,
-    onSearch,
-    buttonStyle,
-    searchIcon,
-    inline,
-    confirmSearchMode = true,
-    defaultSearchMode = 'auto',
-    modeDialogTitle,
-    modeDialogBody,
-  } = props
-  const viewportNarrow = useIsNarrowViewport()
-  const narrow = typeof narrowProp === 'boolean' ? narrowProp : viewportNarrow
-  const [showModeDialog, setShowModeDialog] = useState(false)
-
-  const style = Object.assign({ color: 'black' }, buttonStyle || {})
-  const shared = {
-    busy: busy,
-    disabled: disabled,
-    narrow: narrow,
-    buttonStyle: buttonStyle,
-    searchIcon: searchIcon,
-    externalUrl: externalUrl,
-    externalLinkIcon: externalLinkIcon,
-  }
+  const canSearch = automaticLookup !== false
+  const externalAllowed = !!showExternal && !!externalUrl && !!externalLinkIcon
+  const count = Number(suggestionCount) || 0
 
   function handleSearchClick() {
-    if (busy) {
-      if (typeof onSearch === 'function') onSearch()
-      return
-    }
-    if (confirmSearchMode) {
-      setShowModeDialog(true)
-      return
-    }
-    if (typeof onSearch === 'function') {
-      onSearch(defaultSearchMode === 'review' ? 'review' : 'auto')
-    }
+    if (typeof onSearch === 'function') onSearch(busy ? undefined : 'auto')
   }
 
-  function chooseMode(mode) {
-    setShowModeDialog(false)
-    if (typeof onSearch === 'function') onSearch(mode)
-  }
-
-  const modeDialog = (
-    <FieldSearchModeDialog
-      show={showModeDialog}
-      onHide={function() { setShowModeDialog(false) }}
-      onAuto={function() { chooseMode('auto') }}
-      onReview={function() { chooseMode('review') }}
-      title={modeDialogTitle}
-      body={modeDialogBody}
-    />
-  )
-
-  if (!automaticLookup) {
-    if (disabled || !externalUrl) {
+  if (!canSearch) {
+    if (!externalAllowed) {
       return (
         <Button style={style} disabled>
-          {externalLinkIcon || DEFAULT_SEARCH_ICON}
+          {externalLinkIcon || icon}
         </Button>
       )
     }
@@ -148,28 +73,104 @@ export function FieldLookupButtonGroup(props) {
         rel="noreferrer"
         style={style}
       >
-        {externalLinkIcon || DEFAULT_SEARCH_ICON}
+        {externalLinkIcon || icon}
       </Button>
     )
   }
 
-  if (inline) {
-    return (
-      <>
-        {renderSearchButton(Object.assign({}, shared, { onClick: handleSearchClick }))}
-        {renderExternalButton(shared)}
-        {modeDialog}
-      </>
-    )
-  }
+  const clearBtn = (
+    <Button
+      type="button"
+      variant="outline-secondary"
+      style={style}
+      disabled={disabled || busy || count === 0 || typeof onClearSuggestions !== 'function'}
+      title="Clear suggestions"
+      aria-label="Clear suggestions"
+      data-testid="field-suggestions-clear"
+      onClick={function() {
+        if (typeof onClearSuggestions === 'function') onClearSuggestions()
+      }}
+    >
+      {CLEAR_ICON}
+    </Button>
+  )
+
+  const suggestionsBtn = (
+    <Button
+      type="button"
+      variant={count > 0 ? 'info' : 'outline-secondary'}
+      style={style}
+      disabled={disabled || count === 0 || typeof onOpenSuggestions !== 'function'}
+      title="Open suggestions"
+      aria-label="Open suggestions"
+      data-testid="field-suggestions-open"
+      onClick={function() {
+        if (typeof onOpenSuggestions === 'function') onOpenSuggestions()
+      }}
+    >
+      {!narrow && <span>Suggestions</span>}
+      {count > 0 ? (
+        <Badge bg="dark" pill className="ms-1">{count}</Badge>
+      ) : null}
+    </Button>
+  )
+
+  const searchBtn = (
+    <Button
+      type="button"
+      style={style}
+      variant={busy ? 'warning' : undefined}
+      disabled={disabled && !busy}
+      onClick={handleSearchClick}
+      data-testid="field-search-button"
+    >
+      {icon}
+      {!narrow && <span>{busy ? 'Cancel' : 'Search'}</span>}
+    </Button>
+  )
+
+  const externalBtn = externalAllowed ? (
+    <Button
+      as="a"
+      href={externalUrl}
+      target="_blank"
+      rel="noreferrer"
+      style={style}
+    >
+      {externalLinkIcon}
+    </Button>
+  ) : null
+
+  const group = inline ? (
+    <>
+      {clearBtn}
+      {suggestionsBtn}
+      {searchBtn}
+      {externalBtn}
+    </>
+  ) : (
+    <ButtonGroup>
+      {clearBtn}
+      {suggestionsBtn}
+      {searchBtn}
+      {externalBtn}
+    </ButtonGroup>
+  )
 
   return (
-    <>
-      <ButtonGroup>
-        {renderSearchButton(Object.assign({}, shared, { onClick: handleSearchClick }))}
-        {renderExternalButton(shared)}
-      </ButtonGroup>
-      {modeDialog}
-    </>
+    <div className="field-lookup-button-group" data-testid="field-lookup-button-group">
+      {group}
+      {busy ? (
+        <ProgressBar
+          now={Math.max(5, Math.min(100, Number(progress) || 15))}
+          animated
+          className="mt-1"
+          style={{ height: '0.35rem' }}
+          data-testid="field-search-progress"
+        />
+      ) : null}
+    </div>
   )
 }
+
+export default FieldLookupButtonGroup

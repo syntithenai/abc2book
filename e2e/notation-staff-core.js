@@ -411,12 +411,12 @@ async function runStaffCoreTests(page, ctx) {
     await page.mouse.move(pt.x, pt.y - ((1 + 0.45) * stepPx), { steps: 10 })
     await sleep(100)
     const mid = await page.evaluate(function() {
-      const preview = document.querySelector('.notation-staff-selection-box--drag-preview')
-      return { hasPreview: !!preview }
+      const target = document.querySelector('[data-testid="notation-staff-pitch-target"]')
+      return { hasPreview: !!target }
     })
     await page.mouse.up()
     await sleep(400)
-    if (!mid.hasPreview) throw new Error('expected drag-preview class during vertical pitch drag')
+    if (!mid.hasPreview) throw new Error('expected pitch-target notehead during vertical pitch drag')
     await assertNoteSteps(page, ['C', 'E', 'E', 'F'], 'drag D up one staff step → E')
   })
 

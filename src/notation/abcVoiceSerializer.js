@@ -55,9 +55,20 @@ function serializeChordSymbols(ev) {
   }).join('');
 }
 
-function serializeTupletPrefix(ev) {
+export function serializeTupletPrefix(ev) {
   if (!ev.tuplet || ev.tuplet.indexInGroup !== 0) return '';
-  return '(' + ev.tuplet.num;
+  const num = ev.tuplet.num;
+  const den = ev.tuplet.den != null ? ev.tuplet.den : 2;
+  const size = ev.tuplet.size != null ? ev.tuplet.size : num;
+  // Canonical short forms: (3)=(3:2:3), (2)=(2:3:2), (4)=(4:3:4)
+  if (num === 3 && den === 2 && size === 3) return '(3';
+  if (num === 2 && den === 3 && size === 2) return '(2';
+  if (num === 4 && den === 3 && size === 4) return '(4';
+  if (den === 2 && size === num && (num === 3 || num === 2 || num === 4)) {
+    return '(' + num;
+  }
+  if (den === 2 && size === num) return '(' + num;
+  return '(' + num + ':' + den + ':' + size;
 }
 
 function serializeNoteBody(ev, unit) {
@@ -78,41 +89,65 @@ function serializeNoteBody(ev, unit) {
   return body;
 }
 
-export function serializeVoiceEvents(events, tuneMeta) {
+function eventToken(ev, unit) {
+  if (!ev || ev.type === 'lineBreak') return null;
+  if (ev.type === 'barline') {
+    return serializeChordSymbols(ev)
+      + (ev.abcLeading || '')
+      + (ev.barToken || '|')
+      + (ev.abcTrailing || '');
+  }
+  const leading = serializeChordSymbols(ev)
+    + (ev.abcLeading || '')
+    + serializeGraceNotes(ev.graceNotes, unit)
+    + serializeTupletPrefix(ev)
+    + serializeDecorations(ev.decorations);
+  let body = serializeNoteBody(ev, unit);
+  if (ev.slurStart) body = '(' + body;
+  if (ev.slurEnd) body = body + ')';
+  return leading + body + (ev.abcTrailing || '');
+}
+
+/**
+ * Serialize events and return character spans so click/caret mapping works when notes
+ * are concatenated without spaces (beam grouping).
+ * @returns {{ body: string, spans: Array<{ start: number, end: number, eventIndex: number }> }}
+ */
+export function serializeVoiceEventSpans(events, tuneMeta) {
   const meter = tuneMeta && tuneMeta.meter ? tuneMeta.meter : '4/4';
   const noteLength = tuneMeta && tuneMeta.noteLength ? tuneMeta.noteLength : '1/8';
   const unit = parseNoteLengthDecimal(noteLength, meter);
-  const lines = [[]];
-  events.forEach(function(ev) {
+  let body = '';
+  const spans = [];
+  let prevPrintable = null;
+
+  (events || []).forEach(function(ev, eventIndex) {
     if (ev.type === 'lineBreak') {
-      lines.push([]);
+      const start = body.length;
+      body += '\n';
+      spans.push({ start: start, end: body.length, eventIndex: eventIndex });
+      prevPrintable = null;
       return;
     }
-    let token = null;
-    if (ev.type === 'barline') {
-      token = serializeChordSymbols(ev)
-        + (ev.abcLeading || '')
-        + (ev.barToken || '|')
-        + (ev.abcTrailing || '');
-    } else {
-      const leading = serializeChordSymbols(ev)
-        + (ev.abcLeading || '')
-        + serializeGraceNotes(ev.graceNotes, unit)
-        + serializeTupletPrefix(ev)
-        + serializeDecorations(ev.decorations);
-      let body = serializeNoteBody(ev, unit);
-      if (ev.slurStart) body = '(' + body;
-      if (ev.slurEnd) body = body + ')';
-      token = leading + body + (ev.abcTrailing || '');
-    }
-    if (token) lines[lines.length - 1].push(token);
+    const token = eventToken(ev, unit);
+    if (!token) return;
+    const needSpace = !!prevPrintable && (
+      prevPrintable.type === 'barline'
+      || ev.type === 'barline'
+      || !!ev.beamBreakBefore
+    );
+    if (needSpace) body += ' ';
+    const start = body.length;
+    body += token;
+    spans.push({ start: start, end: body.length, eventIndex: eventIndex });
+    prevPrintable = ev;
   });
-  return lines
-    .map(function(line) { return line.join(' ').trim(); })
-    .filter(function(line, index, all) {
-      return line.length > 0 || all.length === 1 || index < all.length - 1;
-    })
-    .join('\n');
+
+  return { body: body, spans: spans };
+}
+
+export function serializeVoiceEvents(events, tuneMeta) {
+  return serializeVoiceEventSpans(events, tuneMeta).body;
 }
 
 export function serializeVoiceEventsViaParser(events, tuneMeta, abcjsParser) {

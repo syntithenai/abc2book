@@ -182,7 +182,7 @@ describe('tuneFieldLookupQueue', function() {
     }).length).toBe(1)
   })
 
-  test('enqueueLookup re-notifies live handler for awaiting duplicates', function() {
+  test('enqueueLookup clears awaiting suggestions and starts a new search', function() {
     const onAwaiting = jest.fn()
     tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'notation', { onAwaiting: onAwaiting })
     const seeded = tuneFieldLookupQueue.seedAwaitingLookup({
@@ -199,9 +199,9 @@ describe('tuneFieldLookupQueue', function() {
       title: 'Song',
       accessToken: 'token',
     })
-    expect(again).toBe(seeded)
-    expect(onAwaiting).toHaveBeenCalledTimes(1)
-    expect(onAwaiting.mock.calls[0][0].id).toBe(seeded)
+    expect(again).not.toBe(seeded)
+    expect(tuneFieldLookupQueue.findJobById(seeded).status).toBe('done')
+    expect(tuneFieldLookupQueue.findJobById(again).status).toBe('pending')
   })
 
   test('lyrics search lands as awaiting with candidates', async function() {
@@ -223,7 +223,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates.length).toBe(2)
   })
 
-  test('applyFieldLookupChoice clears awaiting job', async function() {
+  test('applyFieldLookupChoice keeps suggestions awaiting', async function() {
     tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',
       kind: 'lyrics',
@@ -234,7 +234,8 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) { return item && item.status === 'awaiting' })
     const chosen = tuneFieldLookupQueue.applyFieldLookupChoice(job.id, job.candidates[0])
     expect(chosen.text).toBe('line one')
-    expect(tuneFieldLookupQueue.findJobById(job.id).status).toBe('done')
+    expect(tuneFieldLookupQueue.findJobById(job.id).status).toBe('awaiting')
+    expect(tuneFieldLookupQueue.findJobById(job.id).candidates.length).toBe(2)
   })
 
   test('seedAwaitingLookup creates awaiting job for candidateId', function() {
@@ -336,8 +337,9 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
-    expect(job.status).toBe('done')
+    expect(job.status).toBe('awaiting')
     expect(tune.composer).toBe('Only Artist')
+    expect(job.candidates.length).toBeGreaterThan(0)
     expect(saveTune).toHaveBeenCalled()
   })
 
@@ -369,7 +371,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates.length).toBeGreaterThanOrEqual(1)
   })
 
-  test('auto mode applies first of multiple lyrics candidates', async function() {
+  test('empty field applies first lyrics candidate but keeps suggestions awaiting', async function() {
     const tune = { id: 't1', name: 'Song' }
     const saveTune = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
@@ -387,8 +389,9 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
-    expect(job.status).toBe('done')
+    expect(job.status).toBe('awaiting')
     expect(saveTune).toHaveBeenCalled()
+    expect(job.candidates.length).toBeGreaterThan(0)
   })
 
   test('review mode leaves awaiting even for single empty-field result', async function() {
@@ -415,7 +418,8 @@ describe('tuneFieldLookupQueue', function() {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
     expect(job.status).toBe('awaiting')
-    expect(tune.composer).toBe('')
+    // Empty field also receives the first result while keeping suggestions.
+    expect(tune.composer).toBe('Only Artist')
   })
 
   test('shouldDeferFieldLookupSave for review and linked jobs', function() {
@@ -453,7 +457,7 @@ describe('tuneFieldLookupQueue', function() {
     const job = tuneFieldLookupQueue.findJobById(id)
     expect(job.status).toBe('awaiting')
     tuneFieldLookupQueue.applyFieldLookupChoice(id, job.candidates[0])
-    expect(tuneFieldLookupQueue.findJobById(id).status).toBe('done')
+    expect(tuneFieldLookupQueue.findJobById(id).status).toBe('awaiting')
     expect(tune.composer).toBe('Old')
     expect(saveTune).not.toHaveBeenCalled()
   })

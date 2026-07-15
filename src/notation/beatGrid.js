@@ -54,11 +54,18 @@ export function buildSyntheticBeatTimes(beatsPerBar, numBars, tempoBpm) {
   return times;
 }
 
+export function tupletBeatScale(tuplet) {
+  if (!tuplet || !tuplet.num) return 1;
+  const den = tuplet.den != null ? tuplet.den : 2;
+  return den / tuplet.num;
+}
+
 export function assignTimingToEvents(events, meterText, unitLengthDecimal) {
   const beatsPerBar = beatsPerBarFromMeter(meterText);
   let cursor = 0;
   return events.map(function(event, index) {
-    const durationBeats = durationToBeats(event.duration, unitLengthDecimal);
+    let durationBeats = durationToBeats(event.duration, unitLengthDecimal);
+    if (event.tuplet) durationBeats *= tupletBeatScale(event.tuplet);
     const measureIndex = Math.floor(cursor / beatsPerBar);
     const next = Object.assign({}, event, {
       id: event.id || 'e-' + index,

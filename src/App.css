@@ -3484,6 +3484,39 @@ button img:after {
   display: grid;
 }
 
+.music-single-panels--file-overlay {
+  min-height: 0;
+}
+
+.tune-panel-file.tune-file-fit-width .tune-file-image-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.tune-panel-file.tune-file-fit-height .tune-file-image-wrap {
+  overflow: auto;
+}
+
+.tune-panel-file .tune-file-image {
+  vertical-align: top;
+}
+
+.tune-panel-file.tune-file-fit-width .tune-file-image {
+  display: block;
+  height: auto;
+}
+
+.file-zoom-group .btn svg {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.15em;
+}
+
+.tune-file-add-from .btn {
+  text-align: left;
+}
+
 /* Notation only — takes full width */
 .music-layout-notation-only .music-body-notation,
 .music-layout-empty .music-body-notation {

@@ -4,10 +4,14 @@ import {
   toggleTie,
   toggleDecoration,
   applySlurToRange,
+  applySlurFromSelection,
   clearSlurOnSelection,
   insertGraceBeforeSelection,
   attachTupletToNewEvent,
   advanceTupletMode,
+  applyTupletToSelection,
+  setBeamBreakBeforeSelection,
+  reassignSlurEndpoints,
 } from './notationMarks';
 import { insertPitchAtCaret, pitchFromLetter } from './notationActions';
 import { createInitialSession } from './notationSession';
@@ -101,16 +105,51 @@ describe('notationMarks', function() {
     expect(session.events[2].slurEnd).toBe(true);
   });
 
-  test('clearSlurOnSelection removes slur flags on selected note only', function() {
+  test('clearSlurOnSelection clears whole slur group', function() {
     let session = createInitialSession(meta, 'c d e |');
     const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
     session = applySlurToRange(session, notes[0].id, notes[2].id);
     session = Object.assign({}, session, {
-      selection: { eventIds: [notes[0].id], toneIndex: null, anchorId: notes[0].id },
+      selection: { eventIds: [notes[1].id], toneIndex: null, anchorId: notes[1].id },
     });
     session = clearSlurOnSelection(session);
     expect(session.events[0].slurStart).toBe(false);
-    expect(session.events[2].slurEnd).toBe(true);
+    expect(session.events[0].slurGroupId).toBeNull();
+    expect(session.events[2].slurEnd).toBe(false);
+    expect(session.events[2].slurGroupId).toBeNull();
+  });
+
+  test('applySlurFromSelection spans multi-note selection', function() {
+    let session = createInitialSession(meta, 'c d e f |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: {
+        eventIds: [notes[0].id, notes[1].id, notes[2].id],
+        toneIndex: null,
+        anchorId: notes[0].id,
+      },
+    });
+    const next = applySlurFromSelection(session);
+    expect(next.events[0].slurStart).toBe(true);
+    expect(next.events[2].slurEnd).toBe(true);
+    expect(next.slurMode).toBe(false);
+  });
+
+  test('applySlurFromSelection with one note slurs to next', function() {
+    let session = createInitialSession(meta, 'c d e |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: { eventIds: [notes[0].id], toneIndex: null, anchorId: notes[0].id },
+    });
+    const next = applySlurFromSelection(session);
+    expect(next.events[0].slurStart).toBe(true);
+    expect(next.events[1].slurEnd).toBe(true);
+  });
+
+  test('applySlurFromSelection with empty selection enters click mode', function() {
+    const session = createInitialSession(meta, 'c d |');
+    const result = applySlurFromSelection(session);
+    expect(result.enterMode).toBe(true);
   });
 
   test('tuplet mode attaches to three inserted notes then ends', function() {
@@ -148,5 +187,48 @@ describe('notationMarks', function() {
     session = insertGraceBeforeSelection(session, true);
     const abc = serializeVoiceEvents(session.events, meta);
     expect(abc).toMatch(/\{.*\}/);
+  });
+
+  test('applyTupletToSelection tags selected notes', function() {
+    let session = createInitialSession(meta, 'c d e f |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: {
+        eventIds: [notes[0].id, notes[1].id, notes[2].id],
+        toneIndex: null,
+        anchorId: notes[0].id,
+      },
+    });
+    session = applyTupletToSelection(session, { num: 3, den: 2, size: 3 });
+    expect(session.events[0].tuplet.num).toBe(3);
+    expect(session.events[0].tuplet.indexInGroup).toBe(0);
+    expect(session.events[2].tuplet.indexInGroup).toBe(2);
+    expect(session.tupletMode).toBeNull();
+  });
+
+  test('setBeamBreakBeforeSelection flags second selected note', function() {
+    let session = createInitialSession(meta, 'c d e f |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: {
+        eventIds: [notes[0].id, notes[1].id],
+        toneIndex: null,
+        anchorId: notes[0].id,
+      },
+    });
+    session = setBeamBreakBeforeSelection(session, true);
+    expect(session.events[0].beamBreakBefore).toBeFalsy();
+    expect(session.events[1].beamBreakBefore).toBe(true);
+  });
+
+  test('reassignSlurEndpoints moves slur span', function() {
+    let session = createInitialSession(meta, 'c d e f |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = applySlurToRange(session, notes[0].id, notes[2].id);
+    const groupId = session.events[0].slurGroupId;
+    session = reassignSlurEndpoints(session, notes[0].id, notes[3].id, groupId);
+    expect(session.events[0].slurStart).toBe(true);
+    expect(session.events[3].slurEnd).toBe(true);
+    expect(session.events[2].slurEnd).toBe(false);
   });
 });

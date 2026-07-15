@@ -20,8 +20,15 @@ import {
   historyLabelForKind,
   isTuneFieldEmptyForKind,
   toastAppliedFieldLookup,
+  toastFieldSearchFinished,
 } from './fieldLookupApplyUtils'
+import {
+  buildCurrentValueSuggestion,
+  collateUniqueSuggestions,
+} from './fieldSuggestionsUtils'
 import { getImportReviewSession } from './importReviewSessionStore'
+import { getPlainLyricLines } from './wLinesUtils'
+import { primaryArtist } from './tuneBibliographicUtils'
 
 export const FIELD_LOOKUP_KINDS = [
   'lyrics',
@@ -335,13 +342,14 @@ export function enqueueLookup(spec) {
   const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
   const duplicate = findDuplicateJob(targetKey, spec.kind)
   if (duplicate) {
-    // Re-fire live handlers so open forms can reopen pickers instead of
-    // appearing to do nothing when Search is clicked again.
-    if (duplicate.status === 'awaiting') {
-      notifyLive(duplicate)
-      notify()
+    // Already searching — reuse the in-flight job.
+    if (duplicate.status === 'pending' || duplicate.status === 'running') {
+      return duplicate.id
     }
-    return duplicate.id
+    // New Search clears prior suggestions for this kind, then re-enqueues.
+    if (duplicate.status === 'awaiting') {
+      dismissFieldLookup(duplicate.id)
+    }
   }
 
   const job = {
@@ -513,13 +521,12 @@ export function applyFieldLookupChoice(jobId, candidate) {
     }
   }
 
-  job.status = 'done'
+  // Keep suggestions so the user can try other choices until Clear or Search.
+  job.appliedCandidate = candidate || null
+  job.status = 'awaiting'
   job.progress = 100
   job.message = ''
   job.error = null
-  job.candidates = []
-  job.manualCandidates = []
-  job.appliedCandidate = candidate || null
   notifyFieldLookupResolved(job)
   notify()
   schedulePersist()
@@ -805,19 +812,45 @@ function markAwaiting(job) {
   notifyLive(job)
 }
 
-function tryAutoApplyFirstCandidate(job, candidates) {
+function currentFieldValueForJob(job) {
+  const getTune = queueContext.getTune
+  if (typeof getTune !== 'function' || !job.tuneId) return null
+  const tune = getTune(job.tuneId)
+  if (!tune) return null
+  if (job.kind === 'composer') return primaryArtist(tune) || ''
+  if (job.kind === 'lyrics') {
+    const lines = getPlainLyricLines(tune)
+    return Array.isArray(lines) && lines.length ? lines.join('\n') : ''
+  }
+  if (job.kind === 'notation') {
+    return tune.abc || (tune.voices && tune.voices['1'] && Array.isArray(tune.voices['1'].notes)
+      ? tune.voices['1'].notes.join('\n')
+      : '')
+  }
+  if (job.kind === 'chords') {
+    // Prefer chord-ish text in notes / words
+    return (tune.abc && String(tune.abc)) || ''
+  }
+  if (job.kind === 'genre') return tune.genre || ''
+  if (job.kind === 'artists') return Array.isArray(tune.artists) ? tune.artists : []
+  if (job.kind === 'aliases') return Array.isArray(tune.aliases) ? tune.aliases : []
+  if (job.kind === 'links') return Array.isArray(tune.links) ? tune.links : []
+  return null
+}
+
+function tryApplyCandidateKeepSuggestions(job, candidate) {
   const getTune = queueContext.getTune
   const saveTune = queueContext.saveTune
   if (typeof getTune !== 'function' || typeof saveTune !== 'function' || !job.tuneId) {
     return false
   }
-  if (!candidates || candidates.length === 0) return false
+  if (!candidate) return false
   const tune = getTune(job.tuneId)
-  if (!tune || !isTuneFieldEmptyForKind(tune, job.kind)) return false
+  if (!tune) return false
   const applied = applyCandidateToTune(
     tune,
     job.kind,
-    candidates[0],
+    candidate,
     queueContext.abcTools
   )
   if (!applied) return false
@@ -826,14 +859,7 @@ function tryAutoApplyFirstCandidate(job, candidates) {
     if (typeof queueContext.forceRefresh === 'function') {
       queueContext.forceRefresh()
     }
-    toastAppliedFieldLookup(job.kind, tune.name || job.title)
-    job.status = 'done'
-    job.progress = 100
-    job.message = ''
-    job.error = null
-    job.candidates = []
-    job.manualCandidates = []
-    job.appliedCandidate = candidates[0]
+    job.appliedCandidate = candidate
     return true
   } catch (e) {
     return false
@@ -841,41 +867,40 @@ function tryAutoApplyFirstCandidate(job, candidates) {
 }
 
 /**
- * Settle a completed search.
- * - Auto: apply first match when possible; never force review pick; no merge promote.
- * - Review / alwaysPick: leave awaiting (live picker + import-review promotion).
- * - Default (Enhance): silent apply when single empty-field candidate and no live handler.
+ * Settle a completed search:
+ * - Always persist unique suggestions (including Current when field non-empty).
+ * - If field empty, also apply the first search result.
+ * - Stay awaiting so Suggestions / Review strip can revisit.
  */
 function settleCompletedJob(job) {
-  const mode = jobSearchMode(job)
-  const alwaysPick = !!(job.options && job.options.alwaysPick) || mode === 'review'
-  const candidates = Array.isArray(job.candidates) ? job.candidates : []
-
-  if (mode === 'auto') {
-    // Prefer live form handlers so on-page callbacks update draft state.
-    if (hasLiveHandler(job)) {
-      markAwaiting(job)
-      return
+  let candidates = Array.isArray(job.candidates) ? job.candidates.slice() : []
+  const currentValue = currentFieldValueForJob(job)
+  const fieldEmpty = !job.tuneId || isTuneFieldEmptyForKind(
+    queueContext.getTune && job.tuneId ? queueContext.getTune(job.tuneId) : null,
+    job.kind
+  )
+  if (!fieldEmpty) {
+    const currentSuggestion = buildCurrentValueSuggestion(job.kind, currentValue)
+    if (currentSuggestion) {
+      candidates = [currentSuggestion].concat(candidates)
     }
-    if (tryAutoApplyFirstCandidate(job, candidates)) return
-    // Nothing to apply off-form: finish without promoting to Review.
-    job.status = 'done'
-    job.progress = 100
-    job.message = candidates.length ? '' : 'No match applied'
-    job.error = null
-    job.candidates = []
-    job.manualCandidates = []
-    return
+  }
+  candidates = collateUniqueSuggestions(job.kind, candidates)
+  job.candidates = candidates
+
+  let applied = false
+  if (fieldEmpty && candidates.length) {
+    const firstSearch = candidates.find(function(item) {
+      return item && !item.isCurrent && item.id !== 'current'
+    }) || candidates[0]
+    applied = tryApplyCandidateKeepSuggestions(job, firstSearch)
   }
 
-  if (hasLiveHandler(job) || alwaysPick || candidates.length !== 1 || !job.tuneId) {
-    markAwaiting(job)
-    return
-  }
-
-  if (!tryAutoApplyFirstCandidate(job, candidates)) {
-    markAwaiting(job)
-  }
+  markAwaiting(job)
+  toastFieldSearchFinished(job.kind, {
+    count: candidates.length,
+    applied: applied,
+  })
 }
 
 async function runJob(job) {
@@ -928,13 +953,12 @@ async function runJob(job) {
     }
 
     if (normalized.empty || normalized.candidates.length === 0) {
-      job.status = 'error'
-      job.error = job.kind === 'composer'
-        ? 'Artist search returned no artist'
-        : job.kind === 'links'
-          ? 'No YouTube link suggestions found'
-          : ('No ' + job.kind + ' found for this song')
+      job.status = 'done'
+      job.error = null
       job.candidates = []
+      job.progress = 100
+      job.message = ''
+      toastFieldSearchFinished(job.kind, { count: 0, applied: false })
       notifyLive(job)
       return
     }

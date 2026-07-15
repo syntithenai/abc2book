@@ -31,4 +31,16 @@ describe('notationShortcuts', function() {
     expect(resolveNotationAction({ key: 'ArrowLeft', metaKey: false, ctrlKey: false, shiftKey: true, altKey: false }, {}))
       .toEqual({ action: 'extendSelection', delta: -1 });
   });
+
+  test('maps Insert and Ctrl+B to insertMeasure', function() {
+    expect(resolveNotationAction({ key: 'Insert', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {}).action)
+      .toBe('insertMeasure');
+    expect(resolveNotationAction({ key: 'b', metaKey: false, ctrlKey: true, shiftKey: false, altKey: false }, {}).action)
+      .toBe('insertMeasure');
+  });
+
+  test('maps J to respellEnharmonic', function() {
+    expect(resolveNotationAction({ key: 'j', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {}).action)
+      .toBe('respellEnharmonic');
+  });
 });

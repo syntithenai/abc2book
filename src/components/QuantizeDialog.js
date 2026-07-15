@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { DEFAULT_QUANTIZE_STRENGTH, DEFAULT_SNAP_SLOTS_PER_BEAT } from '../notation/notationConstants';
 
 export default function QuantizeDialog(props) {
-  const { show, onHide, onApply } = props;
+  const { show, onHide, onApply, noChangeHint } = props;
   const [strength, setStrength] = useState(DEFAULT_QUANTIZE_STRENGTH);
   const [slotsPerBeat, setSlotsPerBeat] = useState(DEFAULT_SNAP_SLOTS_PER_BEAT);
   const [quantizeStart, setQuantizeStart] = useState(true);
   const [quantizeDuration, setQuantizeDuration] = useState(true);
+
+  useEffect(function() {
+    if (!show) return;
+  }, [show]);
 
   return (
     <Modal show={show} onHide={onHide} size="sm">
@@ -28,6 +32,11 @@ export default function QuantizeDialog(props) {
         </Form.Group>
         <Form.Check type="checkbox" label="Quantize start" checked={quantizeStart} onChange={function(e) { setQuantizeStart(e.target.checked); }} />
         <Form.Check type="checkbox" label="Quantize duration" checked={quantizeDuration} onChange={function(e) { setQuantizeDuration(e.target.checked); }} />
+        {noChangeHint ? (
+          <div className="text-muted small mt-2" data-testid="quantize-no-change-hint">
+            {noChangeHint}
+          </div>
+        ) : null}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>Cancel</Button>

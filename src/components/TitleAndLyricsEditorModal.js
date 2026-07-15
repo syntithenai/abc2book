@@ -9,6 +9,7 @@ import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
+import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
@@ -99,6 +100,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
 
+          <TuneFieldSuggestionsStrip tuneId={params.tuneId || (tune && tune.id)} />
 
              <Form.Group className="mb-3" controlId="title">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>

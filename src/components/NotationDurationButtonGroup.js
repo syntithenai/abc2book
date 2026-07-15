@@ -11,7 +11,7 @@ export default function NotationDurationButtonGroup(props) {
   }
 
   return (
-    <ButtonGroup className="notation-duration-buttons d-none d-lg-inline-flex" aria-label="Note durations">
+    <ButtonGroup className="notation-duration-buttons" aria-label="Note durations">
       {DURATION_KEYS.map(function(key) {
         return (
           <Button

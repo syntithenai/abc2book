@@ -27,6 +27,7 @@ import {
   setMediaAnalysisAbortController,
   subscribeMediaAnalysisJobs,
 } from './mediaAnalysisJobs';
+import { persistMediaAnalysisFieldSuggestions } from './mediaAnalysisSuggestions';
 
 const TuneMediaAnalysisDepsContext = createContext(null);
 
@@ -150,6 +151,21 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       isAnalyzing: false,
       showSourceDialog: false,
     });
+
+    if (!skipPersist && liveTune && liveTune.id) {
+      try {
+        persistMediaAnalysisFieldSuggestions(liveTune.id, formatted, liveTune, {
+          abcTools: deps.tunebook && deps.tunebook.abcTools,
+          saveTune: deps.tunebook && typeof deps.tunebook.saveTune === 'function'
+            ? function(tune, skipHistory, opts) {
+              return deps.tunebook.saveTune(tune, skipHistory, opts);
+            }
+            : null,
+        });
+      } catch (e) {
+        console.log(e);
+      }
+    }
 
     if (typeof deps.forceRefresh === 'function' && !skipPersist) {
       deps.forceRefresh();

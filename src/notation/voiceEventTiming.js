@@ -1,6 +1,6 @@
 import { assignTimingToEvents, parseNoteLengthDecimal } from './beatGrid';
 import { parseVoiceEvents, pitchToMidi } from './voiceEventModel';
-import { serializeVoiceEvents } from './abcVoiceSerializer';
+import { serializeVoiceEventSpans } from './abcVoiceSerializer';
 import { mapAbcClickToVoiceCursor } from './notationDisplayAbc';
 
 /** Convert abcjs line-local measure to a disambiguation key (line + measure). */
@@ -177,65 +177,37 @@ export function eventIndexFromAbcClick(events, analysis, abcelem) {
 
 /** Map event caret index to character range in serialized voice body. */
 export function abcCharRangeForEventIndex(events, index, tuneMeta) {
-  const body = serializeVoiceEvents(events, tuneMeta);
+  const packed = serializeVoiceEventSpans(events, tuneMeta);
+  const body = packed.body;
   if (!body || index <= 0) return { start: 0, end: 0 };
-
-  let eventCount = 0;
-  let pos = 0;
-  const lines = body.split('\n');
-
-  for (let li = 0; li < lines.length; li += 1) {
-    if (li > 0) {
-      if (eventCount === index) return { start: pos, end: pos };
-      pos += 1;
-      eventCount += 1;
+  if (index >= events.length) return { start: body.length, end: body.length };
+  const span = packed.spans.find(function(s) { return s.eventIndex === index; });
+  if (span) return { start: span.start, end: span.end };
+  // Between events / after last printable: use next span start or end of body.
+  for (let i = 0; i < packed.spans.length; i += 1) {
+    if (packed.spans[i].eventIndex > index) {
+      return { start: packed.spans[i].start, end: packed.spans[i].start };
     }
-    const tokens = lines[li].trim() ? lines[li].trim().split(/\s+/) : [];
-    for (let ti = 0; ti < tokens.length; ti += 1) {
-      if (eventCount === index) {
-        const tokenStart = body.indexOf(tokens[ti], pos);
-        return { start: tokenStart >= 0 ? tokenStart : pos, end: tokenStart >= 0 ? tokenStart + tokens[ti].length : pos };
-      }
-      eventCount += 1;
-      const tokenStart = body.indexOf(tokens[ti], pos);
-      pos = tokenStart >= 0 ? tokenStart + tokens[ti].length : pos + tokens[ti].length + 1;
-    }
-    if (li < lines.length - 1 && lines[li].length) pos = body.indexOf('\n', pos) + 1;
   }
   return { start: body.length, end: body.length };
 }
 
 /** Map ABC textarea cursor position to nearest event index. */
 export function eventIndexFromAbcCharPosition(events, tuneMeta, charPos) {
-  const body = serializeVoiceEvents(events, tuneMeta);
+  const packed = serializeVoiceEventSpans(events, tuneMeta);
+  const body = packed.body;
   if (!body) return 0;
   const pos = Math.max(0, Math.min(charPos, body.length));
+  if (!packed.spans.length) return events.length;
 
-  let eventCount = 0;
-  let cursor = 0;
-  const lines = body.split('\n');
-
-  for (let li = 0; li < lines.length; li += 1) {
-    if (li > 0) {
-      if (pos <= cursor) return eventCount;
-      cursor += 1;
-      eventCount += 1;
-    }
-    const line = lines[li];
-    const tokens = line.trim() ? line.trim().split(/\s+/) : [];
-    let linePos = body.indexOf(line, cursor);
-    if (linePos < 0) linePos = cursor;
-
-    for (let ti = 0; ti < tokens.length; ti += 1) {
-      const tokenStart = body.indexOf(tokens[ti], linePos);
-      const tokenEnd = tokenStart + tokens[ti].length;
-      if (pos <= tokenEnd) return eventCount;
-      eventCount += 1;
-      linePos = tokenEnd;
-    }
-    cursor = body.indexOf('\n', cursor);
-    if (cursor < 0) cursor = body.length;
-    else cursor += 1;
+  // Prefer the token that contains pos with exclusive end so adjacent beamed notes
+  // (shared boundary, no space) resolve to the later glyph's startChar.
+  for (let i = 0; i < packed.spans.length; i += 1) {
+    const span = packed.spans[i];
+    if (pos >= span.start && pos < span.end) return span.eventIndex;
+  }
+  for (let i = packed.spans.length - 1; i >= 0; i -= 1) {
+    if (pos >= packed.spans[i].end) return packed.spans[i].eventIndex;
   }
   return events.length;
 }

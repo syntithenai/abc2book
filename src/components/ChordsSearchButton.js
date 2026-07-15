@@ -120,9 +120,16 @@ export default function ChordsSearchButton({
   })
 
   const googleUrl = buildGoogleChordsSearchUrl(title, artist, extraQuery)
+  const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
 
   function chooseChordCandidate(candidate) {
     setShowPicker(false)
@@ -131,6 +138,19 @@ export default function ChordsSearchButton({
       ? lookup.activeJob.id
       : null
     finishApply(candidate, jobId)
+  }
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    setError('')
+    setPickerCandidates(awaitingCandidates)
+    setShowPicker(true)
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
   }
 
   function runSearch(mode) {
@@ -166,6 +186,10 @@ export default function ChordsSearchButton({
       lookup.cancel()
       return
     }
+    // New Search clears prior suggestions for this kind.
+    if (awaitingCandidates.length > 0) {
+      clearAwaitingSuggestions()
+    }
     pendingModeRef.current = mode === 'review' ? 'review' : 'auto'
     // Overwrite confirmation is only for Auto (immediate apply). Review leaves
     // results as choosable suggestions without wiping the tune yet.
@@ -194,14 +218,19 @@ export default function ChordsSearchButton({
       <ButtonGroup className="chords-search-button-group">
         <FieldLookupButtonGroup
           automaticLookup={automaticLookup}
+          showExternal={!automaticLookup}
           busy={busy}
           disabled={!canSearch || disabled}
           externalUrl={googleUrl}
           externalLinkIcon={externalLinkIcon}
           inline={true}
           onSearch={requestSearch}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
           buttonStyle={buttonStyle}
-          tunebook={tunebook}
+          searchIcon={searchIcon}
+          progress={lookup.progressPercent}
         />
         {showLyricsCheckbox && !confirmOverwrite && automaticLookup && (
           <ToggleButton

@@ -14,17 +14,6 @@ jest.mock('../useMediaQuery', function() {
   }
 })
 
-jest.mock('./FieldSearchModeDialog', function() {
-  const React = require('react')
-  return function MockModeDialog(props) {
-    if (!props.show) return null
-    return React.createElement('div', { 'data-testid': 'mode-dialog' },
-      React.createElement('button', { type: 'button', onClick: props.onAuto }, 'Auto'),
-      React.createElement('button', { type: 'button', onClick: props.onReview }, 'Review')
-    )
-  }
-})
-
 describe('FieldLookupButtonGroup', function() {
   let container
   let root
@@ -40,57 +29,91 @@ describe('FieldLookupButtonGroup', function() {
     container.remove()
   })
 
-  test('opens mode dialog by default', function() {
+  test('Search starts without a mode dialog', function() {
     const onSearch = jest.fn()
     act(function() {
-      root.render(
-        React.createElement(FieldLookupButtonGroup, {
-          automaticLookup: true,
-          busy: false,
-          onSearch: onSearch,
-        })
-      )
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        onSearch: onSearch,
+      }))
     })
-    const searchBtn = Array.from(container.querySelectorAll('button')).find(function(btn) {
-      return (btn.textContent || '').indexOf('Search') >= 0
-    })
-    act(function() { searchBtn.click() })
-    expect(container.querySelector('[data-testid="mode-dialog"]')).toBeTruthy()
-    expect(onSearch).not.toHaveBeenCalled()
+    const search = container.querySelector('[data-testid="field-search-button"]')
+    act(function() { search.click() })
+    expect(onSearch).toHaveBeenCalledWith('auto')
+    expect(container.textContent).not.toContain('Auto')
   })
 
-  test('skips mode dialog and uses defaultSearchMode when confirmSearchMode is false', function() {
+  test('busy Search becomes Cancel and shows progress', function() {
     const onSearch = jest.fn()
     act(function() {
-      root.render(
-        React.createElement(FieldLookupButtonGroup, {
-          automaticLookup: true,
-          busy: false,
-          confirmSearchMode: false,
-          defaultSearchMode: 'review',
-          onSearch: onSearch,
-        })
-      )
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        busy: true,
+        progress: 40,
+        onSearch: onSearch,
+      }))
     })
-    const searchBtn = Array.from(container.querySelectorAll('button')).find(function(btn) {
-      return (btn.textContent || '').indexOf('Search') >= 0
+    expect(container.textContent).toContain('Cancel')
+    expect(container.querySelector('[data-testid="field-search-progress"]')).toBeTruthy()
+    act(function() {
+      container.querySelector('[data-testid="field-search-button"]').click()
     })
-    act(function() { searchBtn.click() })
-    expect(container.querySelector('[data-testid="mode-dialog"]')).toBeNull()
-    expect(onSearch).toHaveBeenCalledWith('review')
+    expect(onSearch).toHaveBeenCalled()
   })
 
-  test('hides Search label when narrow', function() {
+  test('Suggestions and Clear only enable when count > 0', function() {
+    const onClear = jest.fn()
+    const onOpen = jest.fn()
     act(function() {
-      root.render(
-        React.createElement(FieldLookupButtonGroup, {
-          automaticLookup: true,
-          busy: false,
-          narrow: true,
-          onSearch: function() {},
-        })
-      )
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        suggestionCount: 0,
+        onClearSuggestions: onClear,
+        onOpenSuggestions: onOpen,
+        onSearch: jest.fn(),
+      }))
     })
-    expect((container.textContent || '').indexOf('Search')).toBe(-1)
+    expect(container.querySelector('[data-testid="field-suggestions-clear"]').disabled).toBe(true)
+    expect(container.querySelector('[data-testid="field-suggestions-open"]').disabled).toBe(true)
+
+    act(function() {
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        suggestionCount: 2,
+        onClearSuggestions: onClear,
+        onOpenSuggestions: onOpen,
+        onSearch: jest.fn(),
+      }))
+    })
+    act(function() {
+      container.querySelector('[data-testid="field-suggestions-open"]').click()
+      container.querySelector('[data-testid="field-suggestions-clear"]').click()
+    })
+    expect(onOpen).toHaveBeenCalled()
+    expect(onClear).toHaveBeenCalled()
+  })
+
+  test('external link only when showExternal', function() {
+    act(function() {
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        externalUrl: 'https://example.com',
+        externalLinkIcon: <span>ext</span>,
+        showExternal: false,
+        onSearch: jest.fn(),
+      }))
+    })
+    expect(container.querySelector('a[href="https://example.com"]')).toBeFalsy()
+
+    act(function() {
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        externalUrl: 'https://example.com',
+        externalLinkIcon: <span>ext</span>,
+        showExternal: true,
+        onSearch: jest.fn(),
+      }))
+    })
+    expect(container.querySelector('a[href="https://example.com"]')).toBeTruthy()
   })
 })

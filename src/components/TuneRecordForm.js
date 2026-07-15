@@ -13,6 +13,7 @@ import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
 import LyricsSearchButton from './LyricsSearchButton';
+import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip';
 import ArtistsSearchButton from './ArtistsSearchButton';
 import AliasesSearchButton from './AliasesSearchButton';
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton';
@@ -119,6 +120,9 @@ export default function TuneRecordForm(props) {
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false);
   const [showLyricsTools, setShowLyricsTools] = useState(false);
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('');
+  const tuneIdForSuggestions = (props.previewTune && props.previewTune.id)
+    || (values && values.id)
+    || null;
   const hasAdvancedMergeFields = ADVANCED_MERGE_FIELD_KEYS.some(function(key) {
     return !!suggestions[key];
   });
@@ -348,9 +352,17 @@ export default function TuneRecordForm(props) {
   };
 
   return (
-    <div className="tune-record-form">
+    <div className="tune-record-form" data-testid="tune-record-form">
       {props.toolbar ? <div className="tune-record-form-toolbar mb-3">{props.toolbar}</div> : null}
       {props.statusBanner ? <div className="mb-3">{props.statusBanner}</div> : null}
+      <TuneFieldSuggestionsStrip
+        tuneId={tuneIdForSuggestions}
+        onOpen={function(item) {
+          if (typeof props.onOpenFieldSuggestions === 'function') {
+            props.onOpenFieldSuggestions(item);
+          }
+        }}
+      />
 
       <FormBlock>
         <Form.Group className="mb-3">

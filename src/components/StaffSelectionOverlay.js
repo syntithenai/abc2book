@@ -1,6 +1,7 @@
-import React, { useLayoutEffect, useState } from 'react';
+import React, { useLayoutEffect, useMemo, useState } from 'react';
 import { EDITOR_MODES } from '../notation/notationConstants';
 import { selectionRectsForEventIds } from '../notation/staffClickResolve';
+import { findSlurGroupForSelection } from '../notation/notationMarks';
 
 export default function StaffSelectionOverlay(props) {
   const {
@@ -11,8 +12,12 @@ export default function StaffSelectionOverlay(props) {
     clickRects,
     dragPreview,
     marqueeRect,
+    slurSnapEventId,
+    onSlurHandlePointerDown,
   } = props;
   const [rects, setRects] = useState([]);
+  const [slurEndpointRects, setSlurEndpointRects] = useState({ start: null, end: null });
+  const [snapRect, setSnapRect] = useState(null);
   const previewEventIds = dragPreview && Array.isArray(dragPreview.eventIds)
     ? dragPreview.eventIds
     : null;
@@ -34,8 +39,13 @@ export default function StaffSelectionOverlay(props) {
     ? dragPreview.staffSteps
     : 0;
   const previewStepPx = dragPreview && dragPreview.stepPx > 0 ? dragPreview.stepPx : 14;
-  // Positive staffSteps = drag down = lower pitch = increase Y.
   const previewOffsetY = previewSteps * previewStepPx;
+  const showPitchTarget = previewSteps !== 0;
+
+  const slurGroup = useMemo(function() {
+    if (session.mode === EDITOR_MODES.NOTE_INPUT) return null;
+    return findSlurGroupForSelection(session);
+  }, [session]);
 
   useLayoutEffect(function() {
     if (!showSelection) {
@@ -90,21 +100,74 @@ export default function StaffSelectionOverlay(props) {
     dragPreview,
   ]);
 
+  useLayoutEffect(function() {
+    const node = containerRef && containerRef.current;
+    if (!node || !slurGroup) {
+      setSlurEndpointRects({ start: null, end: null });
+      return undefined;
+    }
+    function measureHandles() {
+      const startRects = selectionRectsForEventIds(node, session.events, [slurGroup.startId], voiceStaffIndex);
+      const endRects = selectionRectsForEventIds(node, session.events, [slurGroup.endId], voiceStaffIndex);
+      setSlurEndpointRects({
+        start: startRects[0] || null,
+        end: endRects[0] || null,
+      });
+    }
+    measureHandles();
+    const raf = requestAnimationFrame(measureHandles);
+    return function() { cancelAnimationFrame(raf); };
+  }, [containerRef, slurGroup, session.events, displayAbc, voiceStaffIndex]);
+
+  useLayoutEffect(function() {
+    const node = containerRef && containerRef.current;
+    if (!node || !slurSnapEventId) {
+      setSnapRect(null);
+      return undefined;
+    }
+    const snapRects = selectionRectsForEventIds(node, session.events, [slurSnapEventId], voiceStaffIndex);
+    setSnapRect(snapRects[0] || null);
+  }, [containerRef, slurSnapEventId, session.events, displayAbc, voiceStaffIndex]);
+
   const hasMarquee = !!(marqueeRect
     && Math.abs(marqueeRect.right - marqueeRect.left) > 2
     && Math.abs(marqueeRect.bottom - marqueeRect.top) > 2);
 
-  if ((!showSelection || !rects.length) && !hasMarquee) return null;
+  if ((!showSelection || !rects.length) && !hasMarquee && !slurGroup && !snapRect) return null;
+
+  function handlePoint(rect, which) {
+    if (!rect || typeof onSlurHandlePointerDown !== 'function') return null;
+    const size = 12;
+    return (
+      <div
+        key={'slur-handle-' + which}
+        className="notation-slur-endpoint-handle"
+        data-testid={'notation-slur-handle-' + which}
+        data-slur-end={which}
+        style={{
+          left: (rect.left + rect.width / 2) + 'px',
+          top: (rect.top + rect.height / 2) + 'px',
+          width: size + 'px',
+          height: size + 'px',
+          marginLeft: (-size / 2) + 'px',
+          marginTop: (-size / 2) + 'px',
+        }}
+        onPointerDown={function(e) {
+          onSlurHandlePointerDown(e, which, slurGroup);
+        }}
+      />
+    );
+  }
 
   return (
     <div className="notation-staff-selection-layer" aria-hidden="true">
       {showSelection ? rects.map(function(rect, index) {
         return (
           <div
-            key={index}
+            key={'sel-' + index}
             className={
               'notation-staff-selection-box'
-              + (previewSteps ? ' notation-staff-selection-box--drag-preview' : '')
+              + (showPitchTarget ? ' notation-staff-selection-box--origin-muted' : '')
             }
             data-testid="notation-staff-selection-box"
             style={{
@@ -112,11 +175,45 @@ export default function StaffSelectionOverlay(props) {
               top: rect.top + 'px',
               width: rect.width + 'px',
               height: rect.height + 'px',
-              transform: previewSteps ? ('translateY(' + previewOffsetY + 'px)') : undefined,
             }}
           />
         );
       }) : null}
+      {showSelection && showPitchTarget ? rects.map(function(rect, index) {
+        const headW = Math.max(10, Math.min(16, rect.width * 0.7 || 14));
+        const headH = Math.max(7, Math.min(12, rect.height * 0.45 || 10));
+        return (
+          <div
+            key={'target-' + index}
+            className="notation-staff-pitch-target"
+            data-testid="notation-staff-pitch-target"
+            style={{
+              left: (rect.left + rect.width / 2) + 'px',
+              top: (rect.top + rect.height * 0.55 + previewOffsetY) + 'px',
+              width: headW + 'px',
+              height: headH + 'px',
+              marginLeft: (-headW / 2) + 'px',
+              marginTop: (-headH / 2) + 'px',
+            }}
+          />
+        );
+      }) : null}
+      {slurGroup ? handlePoint(slurEndpointRects.start, 'start') : null}
+      {slurGroup ? handlePoint(slurEndpointRects.end, 'end') : null}
+      {snapRect ? (
+        <div
+          className="notation-slur-snap-target"
+          data-testid="notation-slur-snap-target"
+          style={{
+            left: (snapRect.left + snapRect.width / 2) + 'px',
+            top: (snapRect.top + snapRect.height * 0.55) + 'px',
+            width: '14px',
+            height: '10px',
+            marginLeft: '-7px',
+            marginTop: '-5px',
+          }}
+        />
+      ) : null}
       {hasMarquee ? (
         <div
           className="notation-staff-marquee"

@@ -96,7 +96,7 @@ function normalizeSingleNotationResult(body) {
     ? body.preview
     : abcPreview(abc)
 
-  return {
+  const out = {
     abc: abc,
     source: typeof body.source === 'string' ? body.source : '',
     sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
@@ -110,6 +110,10 @@ function normalizeSingleNotationResult(body) {
     titleOnly: body.titleOnly === true,
     tuneMeta: tuneMeta,
   }
+  if (typeof body.matchScore === 'number' && Number.isFinite(body.matchScore)) {
+    out.matchScore = body.matchScore
+  }
+  return out
 }
 
 export function normalizeNotationSearch(body) {

@@ -63,7 +63,8 @@ describe('notationSession', function() {
       voiceBody: 'E F |',
     });
 
-    expect(loaded.caretIndex).toBe(0);
+    // Caret slot is preserved across commit-echo reloads; selection is cleared.
+    expect(loaded.caretIndex).toBe(2);
     expect(loaded.selection.eventIds).toEqual([]);
     expect(loaded.events.some(function(ev) { return ev.pitch && ev.pitch.step === 'E'; })).toBe(true);
     expect(loaded.mode).toBe(EDITOR_MODES.NOTE_INPUT);

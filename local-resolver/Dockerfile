@@ -80,6 +80,10 @@ FROM ghcr.io/ggml-org/whisper.cpp:main-vulkan
 
 WORKDIR /app
 
+# MuseScore Studio Linux builds are AppImages only (no .deb on GitHub releases).
+# Extract without FUSE so conversion works in Docker; expose as `mscore` for LibreScore fallback.
+ARG MUSESCORE_APPIMAGE_URL=https://github.com/musescore/MuseScore/releases/download/v4.4.3/MuseScore-Studio-4.4.3.242971445-x86_64.AppImage
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 \
     python3-dev \
@@ -93,7 +97,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libgomp1 \
     libgl1 \
     libglib2.0-0 \
+    nodejs \
+    npm \
+    wget \
+    xvfb \
     && curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh \
+    && wget -qO /tmp/musescore.AppImage "${MUSESCORE_APPIMAGE_URL}" \
+    && chmod +x /tmp/musescore.AppImage \
+    && cd /tmp && ./musescore.AppImage --appimage-extract \
+    && mv /tmp/squashfs-root /opt/musescore \
+    && ln -sf /opt/musescore/AppRun /usr/local/bin/mscore \
+    && ln -sf /opt/musescore/AppRun /usr/local/bin/musescore \
+    && rm -f /tmp/musescore.AppImage \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /app/requirements.txt

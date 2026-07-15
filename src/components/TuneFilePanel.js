@@ -6,9 +6,12 @@ import {
   updateTuneFileMeta,
 } from '../tuneFiles'
 import TuneFilePdfViewer from './TuneFilePdfViewer'
+import { clampFileViewZoom } from './FileZoomControls'
+import { NOTATION_FIT_VERTICAL } from '../gigNotationFit'
 
 /**
- * Fit-to-height display of the tune's active File (image or PDF).
+ * Display the tune's active File (image or PDF) with fit-height / fit-width + zoom.
+ * Zoomed content uses overflow scroll so left/right edges stay reachable.
  */
 export default function TuneFilePanel(props) {
   const {
@@ -16,12 +19,16 @@ export default function TuneFilePanel(props) {
     token,
     driveApi,
     onTuneChange,
+    fitMode,
+    zoom,
   } = props
   const activeId = tune && tune.activeFile ? tune.activeFile : ''
   const meta = findTuneFileMeta(tune, activeId)
   const [objectUrl, setObjectUrl] = useState(null)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const fitHeight = fitMode === NOTATION_FIT_VERTICAL || fitMode === 'height'
+  const fileZoom = clampFileViewZoom(zoom)
 
   useEffect(function() {
     let revoked = null
@@ -62,36 +69,71 @@ export default function TuneFilePanel(props) {
     onTuneChange(updateTuneFileMeta(tune, meta.id, { pdfPage: page }))
   }
 
+  const rootClass = 'tune-panel-file'
+    + (fitHeight ? ' tune-file-fit-height music-panels-fit-height' : ' tune-file-fit-width')
+
   return (
-    <div className="tune-panel-file music-panels-fit-height" style={{ width: '100%' }}>
+    <div className={rootClass} style={{ width: '100%' }}>
       <div className="tune-file-panel-label small text-muted px-2 py-1">{meta.name || 'File'}</div>
       {loading ? <div className="p-3">Loading file…</div> : null}
       {error ? <div className="p-3 text-danger">{error}</div> : null}
       {!loading && !error && objectUrl && isPdfTuneFileType(meta.type) ? (
-        <div style={{ height: 'calc(100vh - 8rem)' }}>
+        <div
+          className="tune-file-pdf-wrap"
+          style={fitHeight ? { height: 'calc(100vh - 8rem)' } : { minHeight: '12rem', overflow: 'auto' }}
+        >
           <TuneFilePdfViewer
             src={objectUrl}
             pageNumber={meta.pdfPage || 1}
             onPageChange={handlePageChange}
+            fitMode={fitHeight ? 'height' : 'width'}
+            scale={fileZoom}
           />
         </div>
       ) : null}
       {!loading && !error && objectUrl && !isPdfTuneFileType(meta.type) ? (
         <div
           className="tune-file-image-wrap"
-          style={{
+          style={fitHeight ? {
             height: 'calc(100vh - 8rem)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
             overflow: 'auto',
+            WebkitOverflowScrolling: 'touch',
+          } : {
+            width: '100%',
+            maxWidth: '100%',
+            overflow: 'auto',
+            WebkitOverflowScrolling: 'touch',
           }}
         >
-          <img
-            src={objectUrl}
-            alt={meta.name || 'File'}
-            style={{ maxHeight: '100%', maxWidth: '100%', width: 'auto', height: 'auto', objectFit: 'contain' }}
-          />
+          <div
+            className="tune-file-image-sizer"
+            style={{
+              display: 'inline-block',
+              minWidth: fileZoom > 1 ? (fileZoom * 100) + '%' : '100%',
+              // Keep scrollable width/height rooted at top-left so zoom does not clip left edge.
+              verticalAlign: 'top',
+            }}
+          >
+            <img
+              src={objectUrl}
+              alt={meta.name || 'File'}
+              className="tune-file-image"
+              style={fitHeight && fileZoom === 1 ? {
+                maxHeight: 'calc(100vh - 8rem)',
+                maxWidth: '100%',
+                width: 'auto',
+                height: 'auto',
+                objectFit: 'contain',
+                display: 'block',
+                margin: '0 auto',
+              } : {
+                width: (fileZoom * 100) + '%',
+                maxWidth: 'none',
+                height: 'auto',
+                display: 'block',
+              }}
+            />
+          </div>
         </div>
       ) : null}
     </div>

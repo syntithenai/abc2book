@@ -11,6 +11,7 @@ export function resolveNotationAction(event, context) {
   if (mod && key.toLowerCase() === 'x') return { action: 'cut' };
   if (mod && key.toLowerCase() === 'v') return { action: 'paste' };
   if (mod && alt && key.toLowerCase() === 'p') return { action: 'togglePianoRoll' };
+  if (mod && !shift && key.toLowerCase() === 'b') return { action: 'insertMeasure' };
 
   if (!mod && !alt && key.toLowerCase() === 'n') return { action: 'toggleNoteInput' };
   if (key === 'Escape') return { action: 'exitNoteInput' };
@@ -58,6 +59,8 @@ export function resolveNotationAction(event, context) {
   if (!mod && !shift && key === 's') return { action: 'toggleSnap' };
   if (!mod && key === '|') return { action: 'insertBarline', barToken: '|' };
   if (!mod && key === '!') return { action: 'insertSystemBreak' };
+  if (key === 'Insert') return { action: 'insertMeasure' };
+  if (!mod && !shift && !alt && (key === 'j' || key === 'J')) return { action: 'respellEnharmonic' };
 
   return null;
 }

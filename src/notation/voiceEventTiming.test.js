@@ -5,6 +5,7 @@ import {
   eventsFromVoiceBody,
   globalMeasureFromAnalysis,
 } from './voiceEventTiming';
+import { serializeVoiceEvents } from './abcVoiceSerializer';
 import { buildAbcPreviewFromBodies } from './notationDisplayAbc';
 import useAbcTools from '../useAbcTools';
 
@@ -76,7 +77,8 @@ describe('eventIndexFromStaffAbcElem', function() {
 
   test('eventIndexFromStaffAbcElem with chord startChar', function() {
     const events = eventsFromVoiceBody('[CEG] D |', tuneMeta);
-    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: '[CEG] D |' });
+    const body = serializeVoiceEvents(events, tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: body });
     const chordStart = abc.indexOf('[');
     expect(chordStart).toBeGreaterThanOrEqual(0);
     expect(eventIndexFromStaffAbcElem(
@@ -92,7 +94,8 @@ describe('eventIndexFromStaffAbcElem', function() {
 
   test('eventIndexFromStaffAbcElem with rest startChar', function() {
     const events = eventsFromVoiceBody('C z D |', tuneMeta);
-    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C z D |' });
+    const body = serializeVoiceEvents(events, tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: body });
     const restStart = abc.indexOf('z');
     expect(restStart).toBeGreaterThanOrEqual(0);
     expect(eventIndexFromStaffAbcElem(
@@ -108,7 +111,8 @@ describe('eventIndexFromStaffAbcElem', function() {
 
   test('eventIndexFromStaffAbcElem midi fallback finds matching pitch', function() {
     const events = eventsFromVoiceBody('C D E |', tuneMeta);
-    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C D E |' });
+    const body = serializeVoiceEvents(events, tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: body });
     const result = eventIndexFromStaffAbcElem(
       events,
       tuneMeta,
@@ -123,7 +127,8 @@ describe('eventIndexFromStaffAbcElem', function() {
 
   test('eventIndexFromStaffAbcElem midi mismatch falls through without startChar', function() {
     const events = eventsFromVoiceBody('C D E |', tuneMeta);
-    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C D E |' });
+    const body = serializeVoiceEvents(events, tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: body });
     const result = eventIndexFromStaffAbcElem(
       events,
       tuneMeta,
@@ -137,13 +142,14 @@ describe('eventIndexFromStaffAbcElem', function() {
   });
 
   test('eventIndexFromStaffAbcElem maps second system note via startChar on multiline ABC', function() {
-    const body = 'C D E F | G A B c |\nd e f g |';
-    const events = eventsFromVoiceBody(body, tuneMeta);
+    const source = 'C D E F | G A B c |\nd e f g |';
+    const events = eventsFromVoiceBody(source, tuneMeta);
+    const body = serializeVoiceEvents(events, tuneMeta);
     const tuneMulti = Object.assign({}, tune, {
       voices: { 1: { notes: [body] } },
     });
     const abc = buildAbcPreviewFromBodies(tuneMulti, tunebook, ['1'], { 1: body });
-    const dStart = abc.indexOf('d e');
+    const dStart = abc.indexOf('defg') >= 0 ? abc.indexOf('defg') : abc.indexOf('d');
     expect(dStart).toBeGreaterThanOrEqual(0);
     const idx = eventIndexFromStaffAbcElem(
       events,
@@ -172,8 +178,9 @@ describe('eventIndexFromStaffAbcElem', function() {
 
   test('eventIndexFromStaffAbcElem respects voice index for multiline', function() {
     const events = eventsFromVoiceBody('D E F |', tuneMeta);
-    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'D E F |' });
-    const dStart = abc.indexOf('D ');
+    const body = serializeVoiceEvents(events, tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: body });
+    const dStart = abc.lastIndexOf('D');
     expect(dStart).toBeGreaterThanOrEqual(0);
     expect(eventIndexFromStaffAbcElem(
       events,

@@ -34,6 +34,7 @@ import {
   fieldLookupKindsForCandidate,
 } from '../importReviewCandidateUtils';
 import TuneRecordForm from './TuneRecordForm';
+import AddTuneSimpleForm from './AddTuneSimpleForm';
 import YouTubeSearchModal from './YouTubeSearchModal';
 import PasteImportModal from './PasteImportModal';
 import ImportUrlModal from './ImportUrlModal';
@@ -631,7 +632,8 @@ export default function ImportReviewModal(props) {
       candidateTune.id = tunes[mergeTargetId].id;
     }
 
-    if (isAddTunesChrome(session)) {
+    const addMode = isAddTunesChrome(session);
+    if (addMode) {
       const title = String(candidateTune.name || '').trim();
       const composer = String(candidateTune.composer || '').trim();
       const books = Array.isArray(candidateTune.books) ? candidateTune.books : [];
@@ -641,15 +643,22 @@ export default function ImportReviewModal(props) {
       if (!books.length && props.currentTuneBook) {
         candidateTune.books = [String(props.currentTuneBook).trim().toLowerCase()];
       }
+      // Add always creates a new tune (matches open existing via Open).
+      candidateTune = Object.assign({}, candidateTune);
+      delete candidateTune.id;
     }
 
     const updated = updateCurrentCandidate(base, {
       tune: candidateTune,
-      mergeTargetId: mergeTargetId,
+      mergeTargetId: addMode ? null : mergeTargetId,
     });
 
     if (typeof props.onFinishCandidate === 'function') {
-      props.onFinishCandidate(updated, function() {
+      props.onFinishCandidate(updated, function(savedTune) {
+        if (addMode) {
+          // Bridge clears session and navigates to the new tune editor.
+          return;
+        }
         const nextSession = markCandidateImported(updated);
         if (typeof props.onSessionChange === 'function') props.onSessionChange(nextSession);
         if (nextSession.step === 'done' && typeof props.onComplete === 'function') {
@@ -657,6 +666,17 @@ export default function ImportReviewModal(props) {
         }
       });
     }
+  }
+
+  function handleOpenCollectionMatch(tune) {
+    if (!tune || !tune.id) return;
+    // Discard the transient Add draft and open the existing tune.
+    if (typeof props.onDiscardAddDraft === 'function') {
+      props.onDiscardAddDraft();
+    } else if (typeof props.onClose === 'function') {
+      props.onClose();
+    }
+    if (typeof props.onOpenTune === 'function') props.onOpenTune(tune);
   }
 
   function finishAllQueuedCandidates() {
@@ -1153,7 +1173,26 @@ export default function ImportReviewModal(props) {
     );
   }
 
-  const panelBody = (
+  const addTunesMode = isAddTunesChrome(session);
+
+  const panelBody = addTunesMode ? (
+    <AddTuneSimpleForm
+      values={formValues}
+      onChange={function(patch) {
+        patchFormValues(function(current) {
+          const nextPatch = typeof patch === 'function' ? patch(current) : patch;
+          return Object.assign({}, current, nextPatch);
+        });
+      }}
+      tunes={tunes}
+      tunebook={props.tunebook}
+      token={props.token}
+      forceRefresh={props.forceRefresh}
+      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+      onAdd={finishCurrentCandidate}
+      onOpenMatch={handleOpenCollectionMatch}
+    />
+  ) : (
     <Row style={{ flexWrap: 'nowrap' }}>
       <div style={{ flex: '1 1 auto', minWidth: 0, overflowY: 'auto', paddingRight: '1rem' }}>
         <TuneRecordForm
@@ -1192,7 +1231,6 @@ export default function ImportReviewModal(props) {
     </Row>
   );
 
-  const addTunesMode = isAddTunesChrome(session);
   const canMoveQueue = !addTunesMode
     && session
     && Array.isArray(session.candidates)
@@ -1249,36 +1287,18 @@ export default function ImportReviewModal(props) {
           <Button variant="secondary" onClick={function() { setCancelWarningMode('current'); }}>Cancel</Button>
         </>
       ) : null}
-      {showEnhance ? (
-        <Button
-          variant="warning"
-          data-testid={addTunesMode ? 'add-tunes-enhance' : undefined}
-          disabled={
-            addTunesMode
-              && (
-                !String(formValues.title || '').trim()
-                || !String(formValues.artist || '').trim()
-              )
-          }
-          onClick={handleEnhanceClick}
-        >
+      {showEnhance && !addTunesMode ? (
+        <Button variant="warning" onClick={handleEnhanceClick}>
           Enhance
         </Button>
       ) : null}
-      <Button
-        variant={primaryActionDisabled ? 'secondary' : 'success'}
-        disabled={!!primaryActionDisabled}
-        onClick={finishCurrentCandidate}
-      >
-        {primaryActionLabel}
-      </Button>
-      {addTunesMode ? (
+      {!addTunesMode ? (
         <Button
-          variant="secondary"
-          data-testid="add-tunes-cancel"
-          onClick={handleCancelAdd}
+          variant={primaryActionDisabled ? 'secondary' : 'success'}
+          disabled={!!primaryActionDisabled}
+          onClick={finishCurrentCandidate}
         >
-          Cancel
+          {primaryActionLabel}
         </Button>
       ) : null}
       {typeof props.onImportAll === 'function' && importAllSummary.total > 1 && !addTunesMode ? (
@@ -1310,7 +1330,9 @@ export default function ImportReviewModal(props) {
           </h5>
           {headerActions}
         </div>
-        <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
+        {!addTunesMode ? (
+          <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
+        ) : null}
         {panelBody}
         {cancelWarningModal}
         {importAllWarningModal}
@@ -1322,6 +1344,17 @@ export default function ImportReviewModal(props) {
     <Modal
       show={show}
       onHide={function() {
+        if (addTunesMode) {
+          // Transient Add draft: discard on close.
+          if (typeof props.onDiscardAddDraft === 'function') {
+            props.onDiscardAddDraft();
+            return;
+          }
+          if (typeof props.onClose === 'function') {
+            props.onClose();
+            return;
+          }
+        }
         if (typeof props.onContinueLater === 'function') {
           props.onContinueLater();
           return;
@@ -1351,31 +1384,35 @@ export default function ImportReviewModal(props) {
             </Modal.Title>
             {headerActions}
           </div>
-          {addFromToolbar}
+          {!addTunesMode ? addFromToolbar : null}
         </div>
       </Modal.Header>
       <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
       {cancelWarningModal}
       {importAllWarningModal}
-      <SheetImageCameraModal
-        show={showSheetCamera}
-        onHide={function() { setShowSheetCamera(false); }}
-        onCapture={function(file) {
-          setShowSheetCamera(false);
-          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-        }}
-      />
-      <SheetImageGooglePhotosModal
-        show={showSheetGooglePhotos}
-        onHide={function() { setShowSheetGooglePhotos(false); }}
-        token={props.token}
-        requestGoogleScopes={props.requestGoogleScopes}
-        onLogin={props.login}
-        onSelectFile={function(file) {
-          setShowSheetGooglePhotos(false);
-          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-        }}
-      />
+      {!addTunesMode ? (
+        <>
+          <SheetImageCameraModal
+            show={showSheetCamera}
+            onHide={function() { setShowSheetCamera(false); }}
+            onCapture={function(file) {
+              setShowSheetCamera(false);
+              if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+            }}
+          />
+          <SheetImageGooglePhotosModal
+            show={showSheetGooglePhotos}
+            onHide={function() { setShowSheetGooglePhotos(false); }}
+            token={props.token}
+            requestGoogleScopes={props.requestGoogleScopes}
+            onLogin={props.login}
+            onSelectFile={function(file) {
+              setShowSheetGooglePhotos(false);
+              if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+            }}
+          />
+        </>
+      ) : null}
     </Modal>
   );
 }

@@ -64,7 +64,9 @@ export async function openGoogleDrivePicker(options) {
   const accessToken = opts.accessToken;
   const apiKey = opts.apiKey || process.env.REACT_APP_GOOGLE_API_KEY;
   if (!accessToken) throw new Error('Log in with Google first.');
-  if (!apiKey) throw new Error('Google API key is not configured for Drive picker.');
+  if (!apiKey) {
+    throw new Error('Google API key is not configured for Drive picker.');
+  }
 
   await loadGooglePickerApi();
   if (!window.google || !window.google.picker) {
@@ -76,6 +78,8 @@ export async function openGoogleDrivePicker(options) {
       .setIncludeFolders(false);
     if (Array.isArray(opts.mimeTypes) && opts.mimeTypes.length > 0) {
       docsView.setMimeTypes(opts.mimeTypes.join(','));
+    } else if (typeof opts.mimeTypes === 'string' && opts.mimeTypes.trim()) {
+      docsView.setMimeTypes(opts.mimeTypes);
     }
 
     const picker = new window.google.picker.PickerBuilder()

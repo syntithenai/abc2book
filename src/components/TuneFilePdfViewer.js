@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap'
 import { Document, Page, Outline, pdfjs } from 'react-pdf'
 import 'react-pdf/dist/Page/TextLayer.css'
 import 'react-pdf/dist/Page/AnnotationLayer.css'
+import { clampFileViewZoom } from './FileZoomControls'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -10,22 +11,30 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString()
 
 /**
- * Compact PDF viewer for tune Files panel: fit-height, page nav, pinch zoom.
+ * Compact PDF viewer for tune Files panel: page nav + outline.
+ * Fit mode and zoom come from the single-view toolbar (Fit height / file zoom).
  */
 export default function TuneFilePdfViewer(props) {
   const {
     src,
     pageNumber,
     onPageChange,
-    tunebook,
+    fitMode: fitModeProp,
+    scale: scaleProp,
   } = props
   const wrapRef = useRef(null)
   const [numPages, setNumPages] = useState(0)
   const [pageWidth, setPageWidth] = useState(null)
-  const [scale, setScale] = useState(1)
-  const [fitMode, setFitMode] = useState('height') // height | width
-  const pinchRef = useRef(null)
+  const fitMode = fitModeProp === 'width' ? 'width' : 'height'
+  const scale = clampFileViewZoom(scaleProp != null ? scaleProp : 1)
+  const pinchBaseRef = useRef(null)
+  const [pinchScale, setPinchScale] = useState(null)
   const page = Math.max(1, parseInt(pageNumber, 10) || 1)
+  const effectiveScale = pinchScale != null ? pinchScale : scale
+
+  useEffect(function() {
+    setPinchScale(null)
+  }, [scale])
 
   useEffect(function() {
     function measure() {
@@ -34,7 +43,6 @@ export default function TuneFilePdfViewer(props) {
       if (fitMode === 'width') {
         setPageWidth(Math.max(120, rect.width - 8))
       } else {
-        // Fit height: approximate page width from panel height assuming A4-ish ratio
         const h = Math.max(120, rect.height - 48)
         setPageWidth(Math.max(120, h * 0.707))
       }
@@ -54,28 +62,26 @@ export default function TuneFilePdfViewer(props) {
     if (e.touches.length === 2) {
       const a = e.touches[0]
       const b = e.touches[1]
-      pinchRef.current = {
+      pinchBaseRef.current = {
         dist: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY),
-        scale: scale,
+        scale: effectiveScale,
       }
     }
   }
 
   function onTouchMove(e) {
-    if (e.touches.length === 2 && pinchRef.current && pinchRef.current.dist > 0) {
+    if (e.touches.length === 2 && pinchBaseRef.current && pinchBaseRef.current.dist > 0) {
       e.preventDefault()
       const a = e.touches[0]
       const b = e.touches[1]
       const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY)
-      const next = pinchRef.current.scale * (dist / pinchRef.current.dist)
-      setScale(Math.min(4, Math.max(0.5, next)))
+      const next = pinchBaseRef.current.scale * (dist / pinchBaseRef.current.dist)
+      setPinchScale(clampFileViewZoom(next))
     }
   }
 
   function onTouchEnd() {
-    if (!pinchRef.current) return
-    // keep scale; clear pinch state when fewer than 2 touches
-    pinchRef.current = null
+    pinchBaseRef.current = null
   }
 
   return (
@@ -98,27 +104,10 @@ export default function TuneFilePdfViewer(props) {
         <Button size="sm" variant="outline-secondary" onClick={function() { setPage(page + 1) }} disabled={!!numPages && page >= numPages}>
           Next
         </Button>
-        <Button
-          size="sm"
-          variant={fitMode === 'height' ? 'primary' : 'outline-secondary'}
-          onClick={function() { setFitMode('height'); setScale(1) }}
-        >
-          Fit height
-        </Button>
-        <Button
-          size="sm"
-          variant={fitMode === 'width' ? 'primary' : 'outline-secondary'}
-          onClick={function() { setFitMode('width'); setScale(1) }}
-        >
-          Fit width
-        </Button>
-        <Button size="sm" variant="outline-secondary" onClick={function() { setScale(1) }}>
-          Reset zoom
-        </Button>
       </div>
       <div
         className="tune-file-pdf-pages"
-        style={{ flex: 1, overflow: 'auto', textAlign: 'center', touchAction: 'pan-y' }}
+        style={{ flex: 1, overflow: 'auto', textAlign: 'left', touchAction: 'pan-x pan-y' }}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
@@ -130,10 +119,10 @@ export default function TuneFilePdfViewer(props) {
             loading={<div className="p-3">Loading PDF…</div>}
             error={<div className="p-3 text-danger">Could not load PDF</div>}
           >
-            <div style={{ transform: 'scale(' + scale + ')', transformOrigin: 'top center', display: 'inline-block' }}>
+            <div className="tune-file-pdf-page-sizer" style={{ display: 'inline-block' }}>
               <Page
                 pageNumber={Math.min(page, numPages || page)}
-                width={pageWidth || undefined}
+                width={pageWidth ? Math.max(120, pageWidth * effectiveScale) : undefined}
                 renderTextLayer={true}
                 renderAnnotationLayer={true}
               />

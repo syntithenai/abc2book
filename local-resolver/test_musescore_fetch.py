@@ -151,9 +151,6 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[session_candidate],
         ), patch(
-            "notation_fetch.has_strong_notation_match",
-            return_value=False,
-        ), patch(
             "notation_fetch.collect_web_abc_candidates",
             new_callable=AsyncMock,
             return_value=[],
@@ -161,6 +158,10 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
             "notation_fetch.collect_musescore_candidates",
             new_callable=AsyncMock,
             return_value=[muse_ok],
+        ), patch(
+            "notation_fetch.collect_web_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
         ):
             body = await search_notation("Drowsy Maggie")
 
@@ -168,6 +169,8 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
         sources = [c.get("source") for c in body["candidates"]]
         self.assertIn("thesession.org", sources)
         self.assertIn("musescore.com", sources)
+        # MuseScore ranked above Session for the same title.
+        self.assertEqual(sources[0], "musescore.com")
 
     async def test_search_notation_succeeds_when_all_musescore_gated(self):
         session_candidate = {
@@ -184,10 +187,15 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[session_candidate],
         ), patch(
-            "notation_fetch.has_strong_notation_match",
-            return_value=True,
+            "notation_fetch.collect_web_abc_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
         ), patch(
             "notation_fetch.collect_musescore_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_web_midi_candidates",
             new_callable=AsyncMock,
             return_value=[],
         ):

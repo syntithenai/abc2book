@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Button, ButtonGroup, Dropdown, Spinner } from 'react-bootstrap'
-import html2canvas from 'html2canvas'
+import { Button, Dropdown, Spinner } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import SheetImageCameraModal from './SheetImageCameraModal'
 import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal'
@@ -23,6 +22,11 @@ import {
   findFileOcrJobForFile,
   subscribeFileOcrJobs,
 } from '../fileOcrJobs'
+import { captureTuneChartPanels } from '../tuneFileScreenshot'
+import {
+  consumeFilePickerIntent,
+  writeFilePickerIntent,
+} from '../filePickerIntent'
 
 function isAcceptableFile(file) {
   if (!file) return false
@@ -41,7 +45,6 @@ export default function FileControls(props) {
     driveApi,
     requestGoogleScopes,
     login,
-    captureRootSelector,
     onTuneChange,
     stopMenuClose,
     variant, // 'toolbar' | 'menu'
@@ -53,13 +56,33 @@ export default function FileControls(props) {
   const [drawState, setDrawState] = useState(null) // { meta, blob, fromPdf }
   const [showCamera, setShowCamera] = useState(false)
   const [showPhotos, setShowPhotos] = useState(false)
+  const [photosAutoStart, setPhotosAutoStart] = useState(false)
+  const [driveOpenToken, setDriveOpenToken] = useState(0)
   const fileInputRef = useRef(null)
+  const resumeDoneRef = useRef(false)
 
   useEffect(function() {
     return subscribeFileOcrJobs(function() {
       setOcrTick(function(v) { return v + 1 })
     })
   }, [])
+
+  // Resume Photos/Drive picker after OAuth consent returns focus.
+  useEffect(function() {
+    if (resumeDoneRef.current) return
+    if (!tune || !tune.id) return
+    const kind = consumeFilePickerIntent(tune.id)
+    if (!kind) return
+    resumeDoneRef.current = true
+    if (kind === 'photos') {
+      setPhotosAutoStart(true)
+      setShowPhotos(true)
+      return
+    }
+    if (kind === 'drive') {
+      setDriveOpenToken(function(v) { return v + 1 })
+    }
+  }, [tune && tune.id, token && token.access_token, requestGoogleScopes])
 
   const files = getTuneFiles(tune)
   const activeId = tune && tune.activeFile ? tune.activeFile : ''
@@ -123,23 +146,10 @@ export default function FileControls(props) {
 
   async function handleTakeSnapshot() {
     stop()
-    const root = document.querySelector(captureRootSelector || '.music-single-panels')
-    if (!root) {
-      toast.error('Nothing to capture')
-      return
-    }
     setBusy(true)
     try {
-      const canvas = await html2canvas(root, {
-        backgroundColor: '#ffffff',
-        useCORS: true,
-        logging: false,
-      })
-      const blob = await new Promise(function(resolve) {
-        canvas.toBlob(resolve, 'image/png')
-      })
-      if (!blob) throw new Error('Capture failed')
-      await attachBlob(blob, 'Snapshot ' + new Date().toLocaleString(), 'image/png', 'capture')
+      const blob = await captureTuneChartPanels()
+      await attachBlob(blob, 'Screenshot ' + new Date().toLocaleString(), 'image/png', 'capture')
     } catch (err) {
       toast.error(err && err.message ? err.message : 'Capture failed')
       setBusy(false)
@@ -280,46 +290,78 @@ export default function FileControls(props) {
 
   void ocrTick
 
+  function openPhotos() {
+    stop()
+    if (tune && tune.id) writeFilePickerIntent('photos', tune.id)
+    setPhotosAutoStart(false)
+    setShowPhotos(true)
+  }
+
+  function openDriveBefore() {
+    if (tune && tune.id) writeFilePickerIntent('drive', tune.id)
+    return true
+  }
+
+  const addFromButtons = (
+    <div className="tune-file-add-from d-grid gap-1 px-2 py-1" onClick={function(e) { e.stopPropagation() }}>
+      <Button size="sm" variant="outline-secondary" className="w-100" disabled={busy} onClick={handleTakeSnapshot}>
+        Capture screenshot
+      </Button>
+      <Button
+        size="sm"
+        variant="outline-secondary"
+        className="w-100"
+        disabled={busy}
+        onClick={function() {
+          stop()
+          if (fileInputRef.current) fileInputRef.current.click()
+        }}
+      >
+        Choose file…
+      </Button>
+      <Button
+        size="sm"
+        variant="outline-secondary"
+        className="w-100"
+        disabled={busy}
+        onClick={function() {
+          stop()
+          setShowCamera(true)
+        }}
+      >
+        Capture photo
+      </Button>
+      <Button size="sm" variant="outline-secondary" className="w-100" disabled={busy} onClick={openPhotos}>
+        Google Photos
+      </Button>
+      <DriveFilePickerModal
+        label="Google Drive"
+        token={token}
+        requestGoogleScopes={requestGoogleScopes}
+        login={login}
+        driveApi={driveApi}
+        mimeTypes="image/png,image/jpeg,image/webp,application/pdf"
+        buttonClassName="w-100"
+        buttonSize="sm"
+        buttonVariant="outline-secondary"
+        openSignal={driveOpenToken}
+        onBeforeOpen={openDriveBefore}
+        onFile={function(file) {
+          if (!isAcceptableFile(file)) {
+            toast.error('Choose an image or PDF')
+            return
+          }
+          attachBlob(file, file.name || 'Drive file', file.type, 'drive')
+        }}
+      />
+    </div>
+  )
+
   const menuItems = (
     <>
-      <Dropdown.Item as="button" disabled={busy} onClick={handleTakeSnapshot}>
-        Take snapshot
+      <Dropdown.Item as="button" active={!hasActive} onClick={clearActive}>
+        None
       </Dropdown.Item>
-      <Dropdown.Item as="button" disabled={busy} onClick={function() {
-        stop()
-        if (fileInputRef.current) fileInputRef.current.click()
-      }}>
-        Choose file…
-      </Dropdown.Item>
-      <Dropdown.Item as="button" disabled={busy} onClick={function() {
-        stop()
-        setShowCamera(true)
-      }}>
-        Capture photo
-      </Dropdown.Item>
-      <Dropdown.Item as="button" disabled={busy} onClick={function() {
-        stop()
-        setShowPhotos(true)
-      }}>
-        Google Photos
-      </Dropdown.Item>
-      <div className="px-2 py-1" onClick={function(e) { e.stopPropagation() }}>
-        <DriveFilePickerModal
-          label="Google Drive"
-          token={token}
-          requestGoogleScopes={requestGoogleScopes}
-          login={login}
-          driveApi={driveApi}
-          mimeTypes="image/png,image/jpeg,image/webp,application/pdf"
-          onFile={function(file) {
-            if (!isAcceptableFile(file)) {
-              toast.error('Choose an image or PDF')
-              return
-            }
-            attachBlob(file, file.name || 'Drive file', file.type, 'drive')
-          }}
-        />
-      </div>
       <Dropdown.Divider />
       <Dropdown.Header>Files</Dropdown.Header>
       {files.length === 0 ? (
@@ -373,9 +415,8 @@ export default function FileControls(props) {
         )
       })}
       <Dropdown.Divider />
-      <Dropdown.Item as="button" active={!hasActive} onClick={clearActive}>
-        None
-      </Dropdown.Item>
+      <Dropdown.Header>Add From</Dropdown.Header>
+      {addFromButtons}
     </>
   )
 
@@ -427,9 +468,7 @@ export default function FileControls(props) {
         imageBlob={drawState && drawState.blob}
         title={drawState && drawState.meta ? ('Edit — ' + (drawState.meta.name || 'File')) : 'Edit file'}
         tunebook={tunebook}
-        resolverAvailable={resolverAvailable}
         onSave={function(blob) { return saveDrawing(blob, { submitOcr: false }) }}
-        onSaveAndOcr={function(blob) { return saveDrawing(blob, { submitOcr: true }) }}
       />
 
       <SheetImageCameraModal
@@ -442,12 +481,17 @@ export default function FileControls(props) {
       />
       <SheetImageGooglePhotosModal
         show={showPhotos}
-        onHide={function() { setShowPhotos(false) }}
+        autoStart={photosAutoStart}
+        onHide={function() {
+          setShowPhotos(false)
+          setPhotosAutoStart(false)
+        }}
         token={token}
         requestGoogleScopes={requestGoogleScopes}
         onLogin={login}
         onSelectFile={function(file) {
           setShowPhotos(false)
+          setPhotosAutoStart(false)
           attachBlob(file, file.name || 'Photo.jpg', file.type || 'image/jpeg', 'photos')
         }}
       />

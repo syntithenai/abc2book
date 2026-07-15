@@ -46,12 +46,22 @@ const CHORDS_SCROLL_ROOT_SELECTORS = [
 ].join(', ');
 
 const PREFERRED_LYRICS_SCROLL_CONTAINER_SELECTORS = [
+  '.tune-file-image-wrap',
+  '.tune-file-pdf-pages',
+  '.tune-file-pdf-wrap',
   '.tune-lyrics-structure-sync-host--scrollable',
   '.tune-lyrics-structure-sync-host--fit-height',
   '.lyrics-fit-height-host--scrollable',
   '.gig-mode-lyrics-col',
   '.music-and-lyrics-text',
 ];
+
+const FILE_SCROLL_ROOT_SELECTORS = [
+  '.tune-panel-file',
+  '.tune-file-image-wrap',
+  '.tune-file-image',
+  '.tune-file-pdf-pages',
+].join(', ');
 
 export function getTuneLink(tune, linkIndex) {
   if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return null;
@@ -163,10 +173,21 @@ export function findVisibleChordsBlockElement(contextEl) {
   return null;
 }
 
+export function findVisibleFilePanelElement(contextEl) {
+  if (!contextEl || typeof contextEl.querySelectorAll !== 'function') return null;
+  const matches = contextEl.querySelectorAll(FILE_SCROLL_ROOT_SELECTORS);
+  for (let i = 0; i < matches.length; i++) {
+    if (isElementVisible(matches[i])) return matches[i];
+  }
+  return null;
+}
+
 /**
- * Prefer lyrics height, then notation, then chord block for autoscroll distance.
+ * Prefer active file panel (fit-to-width image/PDF), then lyrics, notation, chords.
  */
 export function findAutoscrollContentRoot(musicSingleEl) {
+  const fileRoot = findVisibleFilePanelElement(musicSingleEl);
+  if (fileRoot) return fileRoot;
   const lyricsRoot = findLyricsScrollRoot(musicSingleEl);
   if (lyricsRoot) return lyricsRoot;
   const notationEl = findVisibleNotationElement(musicSingleEl);

@@ -173,6 +173,53 @@ jest.mock('./TuneRecordForm', function() {
   };
 });
 
+
+jest.mock('./AddTuneSimpleForm', function() {
+  return function AddTuneSimpleForm(props) {
+    const values = props.values || {};
+    const title = values.title || '';
+    const artist = values.artist || '';
+    const canAdd = !!(String(title).trim() && String(artist).trim());
+    return (
+      <div data-testid="add-tune-simple-form">
+        <input
+          data-testid="add-tune-title"
+          value={title}
+          onChange={function(e) {
+            if (typeof props.onChange === 'function') {
+              props.onChange(function(current) {
+                return Object.assign({}, current, { title: e.target.value });
+              });
+            }
+          }}
+        />
+        <input
+          data-testid="add-tune-composer"
+          value={artist}
+          onChange={function(e) {
+            if (typeof props.onChange === 'function') {
+              props.onChange(function(current) {
+                return Object.assign({}, current, { artist: e.target.value });
+              });
+            }
+          }}
+        />
+        <button
+          type="button"
+          data-testid="add-tune-save"
+          disabled={!canAdd}
+          onClick={function() {
+            if (typeof props.onAdd === 'function') props.onAdd();
+          }}
+        >
+          Add
+        </button>
+        <div data-testid="add-tune-matches">matches</div>
+      </div>
+    );
+  };
+});
+
 jest.mock('./PasteImportModal', function() {
   return function PasteImportModal() {
     return <button type="button">Paste</button>;
@@ -312,8 +359,8 @@ describe('ImportReviewModal', function() {
     const view = renderModal();
     const onImportYouTube = jest.fn();
     const session = createImportReviewSession(
-      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
-      { entryMode: 'add' }
+      [{ id: 'imp-1', tune: { name: '', composer: '', links: [] }, sourceKind: 'abc', mergeTargetId: null }],
+      { entryMode: 'import' }
     );
     const props = buildProps({
       session: session,
@@ -342,7 +389,7 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
-  test('blank add session uses Add tunes chrome and gated Add button', async function() {
+  test('blank add session uses simplified Add form with gated Add', async function() {
     const view = renderModal();
     const session = createImportReviewSession(
       [createBlankAddCandidate({ book: 'songs' })],
@@ -356,20 +403,14 @@ describe('ImportReviewModal', function() {
     await view.render(props);
 
     expect(view.container.textContent).toContain('Add tunes');
-    const addButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
-      return button.textContent === 'Add';
-    });
+    expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
+    expect(view.container.querySelector('[data-testid="tune-record-form"]')).toBeFalsy();
+    expect(view.container.textContent).not.toContain('Add From');
+    expect(view.container.textContent).not.toContain('Enhance');
+    expect(view.container.querySelector('[data-testid="add-tunes-cancel"]')).toBeFalsy();
+    const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
     expect(addButton.disabled).toBe(true);
-    expect(view.container.querySelector('[data-testid="add-tunes-reset"]')).toBeTruthy();
-    expect(view.container.querySelector('[data-testid="add-tunes-cancel"]')).toBeTruthy();
-    const enhanceButton = view.container.querySelector('[data-testid="add-tunes-enhance"]');
-    expect(enhanceButton).toBeTruthy();
-    expect(enhanceButton.disabled).toBe(true);
-    expect(view.container.textContent.match(/Enhance/g) || []).toHaveLength(1);
-    // Enhance sits in the header actions, not the status banner (banner has Reset only).
-    const banner = view.container.querySelector('.border.rounded.p-2');
-    expect(banner && banner.textContent).not.toContain('Enhance');
 
     await view.unmount();
   });
@@ -396,69 +437,41 @@ describe('ImportReviewModal', function() {
 
     await view.render(props);
 
-    const addButton = Array.from(view.container.querySelectorAll('button')).find(function(button) {
-      return button.textContent === 'Add';
-    });
+    const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
     expect(addButton.disabled).toBe(false);
-    const enhanceButton = view.container.querySelector('[data-testid="add-tunes-enhance"]');
-    expect(enhanceButton).toBeTruthy();
-    expect(enhanceButton.disabled).toBe(false);
 
     await view.unmount();
   });
 
-  test('Add tunes Reset clears form fields and collection match', async function() {
+  test('Add dialog X discard uses onDiscardAddDraft', async function() {
     const view = renderModal();
-    const onSessionChange = jest.fn();
-    const filled = createBlankAddCandidate({
-      book: 'songs',
-      candidateId: 'add-1',
-    });
-    filled.tune = Object.assign({}, filled.tune, {
-      name: 'Bicycle Race',
-      composer: 'Queen',
-      links: [{ link: 'https://youtu.be/abc', title: 'clip' }],
-      words: ['lyrics line'],
-    });
-    filled.mergeTargetId = 'existing-1';
-    filled.draftFormOverrides = { title: 'Bicycle Race' };
-    filled.fieldChoices = { title: { choiceId: 'x' } };
-    filled.pendingInlineSuggestions = { notes: { value: 'C' } };
-    const session = createImportReviewSession([filled], { entryMode: 'add' });
+    const onDiscardAddDraft = jest.fn();
+    const onContinueLater = jest.fn();
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
+      { entryMode: 'add' }
+    );
     const props = buildProps({
       session: session,
       currentTuneBook: 'songs',
-      onSessionChange: onSessionChange,
+      embedded: false,
+      onDiscardAddDraft: onDiscardAddDraft,
+      onContinueLater: onContinueLater,
     });
 
     await view.render(props);
 
-    expect(view.container.textContent).toContain('Merging into Existing Tune');
-    const resetButton = view.container.querySelector('[data-testid="add-tunes-reset"]');
-    expect(resetButton).toBeTruthy();
+    const closeButton = view.container.querySelector('.btn-close');
+    expect(closeButton).toBeTruthy();
 
     await act(async function() {
-      resetButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      closeButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
       await Promise.resolve();
     });
 
-    expect(onSessionChange).toHaveBeenCalled();
-    const nextSession = onSessionChange.mock.calls[onSessionChange.mock.calls.length - 1][0];
-    const nextCandidate = nextSession.candidates[nextSession.index];
-    expect(nextCandidate.id).toBe('add-1');
-    expect(nextCandidate.mergeTargetId).toBe(null);
-    expect(nextCandidate.tune.name).toBe('');
-    expect(nextCandidate.tune.composer).toBe('');
-    expect(nextCandidate.tune.books).toEqual(['songs']);
-    expect(nextCandidate.draftFormOverrides).toBeUndefined();
-    expect(nextCandidate.fieldChoices).toBeUndefined();
-    expect(nextCandidate.pendingInlineSuggestions).toBeUndefined();
-
-    await view.render(Object.assign({}, props, { session: nextSession }));
-    expect(view.container.textContent).toContain('Adding Untitled');
-    expect(view.container.textContent).not.toContain('Merging into Existing Tune');
-    expect(view.container.textContent).not.toContain('Bicycle Race');
+    expect(onDiscardAddDraft).toHaveBeenCalledTimes(1);
+    expect(onContinueLater).not.toHaveBeenCalled();
 
     await view.unmount();
   });
@@ -676,79 +689,6 @@ describe('ImportReviewModal', function() {
     });
 
     expect(onClose).toHaveBeenCalledTimes(1);
-
-    await view.unmount();
-  });
-
-  test('Add tunes Cancel clears the session via onClose', async function() {
-    const view = renderModal();
-    const onClose = jest.fn();
-    const onContinueLater = jest.fn();
-    const session = createImportReviewSession(
-      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
-      { entryMode: 'add' }
-    );
-    const props = buildProps({
-      session: session,
-      currentTuneBook: 'songs',
-      onClose: onClose,
-      onContinueLater: onContinueLater,
-    });
-
-    await view.render(props);
-
-    const cancelButton = view.container.querySelector('[data-testid="add-tunes-cancel"]');
-    expect(cancelButton).toBeTruthy();
-
-    await act(async function() {
-      cancelButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      await Promise.resolve();
-    });
-
-    expect(onClose).toHaveBeenCalledTimes(1);
-    expect(onContinueLater).not.toHaveBeenCalled();
-
-    await view.unmount();
-  });
-
-  test('Add tunes Cancel keeps parked review items and closes via Continue later', async function() {
-    const view = renderModal();
-    const onClose = jest.fn();
-    const onContinueLater = jest.fn();
-    const onSessionChange = jest.fn();
-    const parked = {
-      id: 'review-1',
-      tune: { name: 'Prior Tune', composer: 'Someone' },
-      sourceKind: 'manual',
-      mergeTargetId: null,
-    };
-    const session = createImportReviewSession(
-      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' }), parked],
-      { entryMode: 'add' }
-    );
-    const props = buildProps({
-      session: session,
-      currentTuneBook: 'songs',
-      onClose: onClose,
-      onContinueLater: onContinueLater,
-      onSessionChange: onSessionChange,
-    });
-
-    await view.render(props);
-
-    const cancelButton = view.container.querySelector('[data-testid="add-tunes-cancel"]');
-    await act(async function() {
-      cancelButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      await Promise.resolve();
-    });
-
-    expect(onClose).not.toHaveBeenCalled();
-    expect(onContinueLater).toHaveBeenCalledTimes(1);
-    expect(onSessionChange).toHaveBeenCalled();
-    const next = onSessionChange.mock.calls[onSessionChange.mock.calls.length - 1][0];
-    expect(next.entryMode).toBe('import');
-    expect(next.candidates).toHaveLength(1);
-    expect(next.candidates[0].id).toBe('review-1');
 
     await view.unmount();
   });

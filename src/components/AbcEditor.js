@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import {useParams, Link} from 'react-router-dom'
+import {useParams, Link, useSearchParams} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Container, Row, Col, Tabs, Tab, Form, Button, Modal} from 'react-bootstrap'
 import { toast } from 'react-toastify'
@@ -29,6 +29,7 @@ import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
 import NotationSearchButton from './NotationSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
+import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
@@ -48,6 +49,7 @@ import {
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
 import { mergeBibliographicList } from '../tuneBibliographicUtils'
+import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
 
 export default function AbcEditor(props) {
@@ -55,6 +57,7 @@ export default function AbcEditor(props) {
   const [currentVoice, setCurrentVoice] = useState(0);
   const editorViewMode = normalizeEditorViewMode(props.editorViewMode);
   let params = useParams();
+  const [searchParams] = useSearchParams();
   var musicBrainz = useMusicBrainz()
   const { available: resolverAvailable } = useMediaResolverHealth()
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
@@ -76,6 +79,15 @@ export default function AbcEditor(props) {
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
   const backgroundInfoSaveTimeout = useRef(null)
   const tuneId = tune && tune.id
+
+  useEffect(function() {
+    const suggest = searchParams && searchParams.get('suggest')
+    if (!suggest || !tuneId) return
+    const timer = setTimeout(function() {
+      requestOpenFieldSuggestions(tuneId, suggest)
+    }, 200)
+    return function() { clearTimeout(timer) }
+  }, [tuneId, searchParams])
 
   useEffect(function() {
     setWLinesText(lyricLinesToText(tune))
@@ -388,6 +400,7 @@ export default function AbcEditor(props) {
     if (editorViewMode === 'info') {
       return (
                     <>
+                    <TuneFieldSuggestionsStrip tuneId={tuneId} />
                     <Form className="abc-editor-info-form">
                       <div className="abc-editor-info-section">
                       <Row>
@@ -836,6 +849,7 @@ export default function AbcEditor(props) {
     if (editorViewMode === 'lyrics') {
       return (
                     <div className="abc-editor-lyrics-panel">
+                    <TuneFieldSuggestionsStrip tuneId={tuneId} />
                     <div className="abc-editor-lyrics-toolbar">
                       <LyricsSectionsDropdown
                         lyricsText={wLinesText}

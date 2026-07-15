@@ -21,13 +21,19 @@ import { useIsNarrowViewport } from '../useMediaQuery';
 import DisplayModeControls from './DisplayModeControls';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 
-/** True when Fit height can apply to the current panels. */
-export function canShowFitHeightButton(flags) {
+/** True when Fit height can apply to the current panels (or file overlay). */
+export function canShowFitHeightButton(flags, options) {
+  if (options && options.fileOverlayActive) return true;
   if (!flags) return false;
   return flags.notation !== 'off' || !!flags.lyrics || !!flags.structure;
 }
 
-function fitHeightLabel(flags, vertical) {
+function fitHeightLabel(flags, vertical, fileOverlayActive) {
+  if (fileOverlayActive) {
+    return vertical
+      ? 'Fit file to page width'
+      : 'Fit file to page height';
+  }
   const notationOn = flags && flags.notation !== 'off';
   const lyricsOn = !!(flags && flags.lyrics);
   const structureOn = !!(flags && flags.structure);
@@ -42,9 +48,9 @@ function fitHeightLabel(flags, vertical) {
 }
 
 function NotationFitButton(props) {
-  const { tunebook, fitMode, onChange, stopMenuClose, className, displayFlags } = props;
+  const { tunebook, fitMode, onChange, stopMenuClose, className, displayFlags, fileOverlayActive } = props;
   const vertical = fitMode === NOTATION_FIT_VERTICAL;
-  const label = fitHeightLabel(displayFlags, vertical);
+  const label = fitHeightLabel(displayFlags, vertical, fileOverlayActive);
 
   function stop(e) {
     if (!stopMenuClose) return;
@@ -170,10 +176,12 @@ function DisplayModeToolbar(props) {
     hideInlineVoiceControls,
     separateInlineFitButton,
     fileControls,
+    fileOverlayActive,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
-  const showFit = canShowFitHeightButton(displayFlags) && !!onNotationFitModeChange;
+  const showFit = canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive })
+    && !!onNotationFitModeChange;
 
   return (
     <div
@@ -202,6 +210,7 @@ function DisplayModeToolbar(props) {
           fitMode={notationFitMode}
           onChange={onNotationFitModeChange}
           displayFlags={displayFlags}
+          fileOverlayActive={fileOverlayActive}
         />
       ) : null}
     </div>
@@ -249,7 +258,7 @@ export default function ViewModeSelectorModal(props) {
     && typeof props.tune.backgroundInfo === 'string'
     && !!props.tune.backgroundInfo.trim();
   const available = !isEditor
-    ? getAvailableDisplayFlags(props.tune, props.tunebook, { hasChords: hasChords, hasInfo: hasInfo })
+    ? (props.availableOverride || getAvailableDisplayFlags(props.tune, props.tunebook, { hasChords: hasChords, hasInfo: hasInfo }))
     : null;
   const displayFlags = !isEditor
     ? resolveDisplayFlagsForTune(
@@ -270,8 +279,9 @@ export default function ViewModeSelectorModal(props) {
   const useEditorToolbar = isEditor && !isNarrowViewport;
   const useDisplayToolbar = !isEditor && !isNarrowViewport && !forceDropdown;
   const separateInlineFitButton = !isEditor && !!props.separateInlineFitButton;
+  const fileOverlayActive = !!props.fileOverlayActive;
   const showSeparateInlineFitButton = separateInlineFitButton
-    && canShowFitHeightButton(displayFlags)
+    && canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive })
     && !!props.onNotationFitModeChange;
 
   function handleSelect(modeId) {
@@ -313,6 +323,7 @@ export default function ViewModeSelectorModal(props) {
           hideInlineVoiceControls={props.hideInlineVoiceControls}
           separateInlineFitButton={separateInlineFitButton}
           fileControls={props.fileControls}
+          fileOverlayActive={fileOverlayActive}
         />
         {showSeparateInlineFitButton ? (
           <NotationFitButton
@@ -321,6 +332,7 @@ export default function ViewModeSelectorModal(props) {
             fitMode={props.notationFitMode}
             onChange={props.onNotationFitModeChange}
             displayFlags={displayFlags}
+            fileOverlayActive={fileOverlayActive}
           />
         ) : null}
       </>
@@ -419,7 +431,7 @@ export default function ViewModeSelectorModal(props) {
                 </div>
               </>
             ) : null}
-            {canShowFitHeightButton(displayFlags) && props.onNotationFitModeChange ? (
+            {canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive }) && props.onNotationFitModeChange ? (
               <>
                 <Dropdown.Divider />
                 <NotationFitButton
@@ -428,6 +440,7 @@ export default function ViewModeSelectorModal(props) {
                   fitMode={props.notationFitMode}
                   onChange={props.onNotationFitModeChange}
                   displayFlags={displayFlags}
+                  fileOverlayActive={fileOverlayActive}
                   stopMenuClose={true}
                 />
               </>

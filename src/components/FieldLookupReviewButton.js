@@ -5,11 +5,11 @@ import ImportFieldSuggestion from './ImportFieldSuggestion'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import {
   applyFieldLookupChoice,
-  dismissFieldLookup,
   getAwaitingJob,
   shouldDeferFieldLookupSave,
 } from '../tuneFieldLookupQueue'
 import { candidateDisplayValue } from '../fieldLookupApplyUtils'
+import { subscribeOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
 function fieldLabel(kind) {
   if (kind === 'composer') return 'Artist'
@@ -96,6 +96,8 @@ export default function FieldLookupReviewButton({
     ? candidates
     : (manualOnly ? awaiting.manualCandidates : [])
 
+  const [forceOpenSuggestion, setForceOpenSuggestion] = useState(0)
+
   // Freeze the form value shown as "Current value" when the awaiting job first
   // appears so applying a search result does not rewrite that baseline choice.
   useEffect(function() {
@@ -110,6 +112,15 @@ export default function FieldLookupReviewButton({
       display: previewFromCurrent(currentDisplay, currentValue),
     }
   }, [awaiting && awaiting.id, list.length, currentValue, currentDisplay])
+
+  useEffect(function() {
+    return subscribeOpenFieldSuggestions(function(openTuneId, openKind) {
+      if (!tuneId || String(tuneId) !== String(openTuneId)) return
+      if (String(kind) !== String(openKind)) return
+      if (kind === 'notation') setShowNotationPicker(true)
+      else setForceOpenSuggestion(function(n) { return n + 1 })
+    })
+  }, [tuneId, kind])
 
   if (!awaiting || list.length === 0) return null
 
@@ -142,15 +153,13 @@ export default function FieldLookupReviewButton({
   }
 
   function applyCurrentValue() {
-    if (deferred) {
-      if (typeof onApply === 'function') {
-        onApply(null, awaiting, { deferred: true, keepCurrent: true, persistChoices: true })
-      }
-      return
-    }
-    dismissFieldLookup(awaiting.id)
+    // Applying Current keeps suggestions so alternatives remain available.
     if (typeof onApply === 'function') {
-      onApply(null, awaiting, { deferred: false, keepCurrent: true })
+      onApply(null, awaiting, {
+        deferred: deferred,
+        keepCurrent: true,
+        persistChoices: deferred,
+      })
     }
   }
 
@@ -251,6 +260,7 @@ export default function FieldLookupReviewButton({
           : (searchChoices[0] && searchChoices[0].label) || display}
         actionLabel="Use search"
         choices={choices}
+        openRequestToken={forceOpenSuggestion}
         onSelectChoice={function(choice) {
           if (choice && choice.__current) {
             applyCurrentValue()

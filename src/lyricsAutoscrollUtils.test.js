@@ -406,6 +406,43 @@ describe('lyricsAutoscrollUtils', function() {
     document.body.removeChild(root);
   });
 
+  test('autoscrolls fit-to-width file image by displayed height', function() {
+    const {
+      findAutoscrollContentRoot,
+      findVisibleFilePanelElement,
+    } = require('./lyricsAutoscrollUtils');
+    const root = document.createElement('div');
+    root.className = 'music-single';
+    const filePanel = document.createElement('div');
+    filePanel.className = 'tune-panel-file tune-file-fit-width';
+    const img = document.createElement('img');
+    img.className = 'tune-file-image';
+    filePanel.appendChild(img);
+    root.appendChild(filePanel);
+    document.body.appendChild(root);
+
+    Object.defineProperty(window, 'scrollY', { configurable: true, writable: true, value: 0 });
+    Object.defineProperty(window, 'innerHeight', { configurable: true, writable: true, value: 700 });
+    Object.defineProperty(document.documentElement, 'scrollHeight', { configurable: true, value: 2400 });
+
+    jest.spyOn(filePanel, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 2100, left: 0, right: 800, width: 800, height: 2000,
+    });
+    jest.spyOn(img, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 2100, left: 0, right: 800, width: 800, height: 2000,
+    });
+
+    expect(findVisibleFilePanelElement(root)).toBe(filePanel);
+    expect(findAutoscrollContentRoot(root)).toBe(filePanel);
+
+    const context = getLyricsScrollContext(root);
+    expect(context.lyricsRoot).toBe(filePanel);
+    const metrics = getLyricsScrollMetrics(filePanel, context, root);
+    expect(metrics.distance).toBeGreaterThan(500);
+
+    document.body.removeChild(root);
+  });
+
   test('persists lyrics scroll speed in abc for sync', function() {
     const useAbcTools = require('./useAbcTools').default;
     const abcTools = useAbcTools();

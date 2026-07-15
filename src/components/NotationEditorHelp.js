@@ -273,16 +273,24 @@ export default function NotationEditorHelp(props) {
             <div className="help-section-body">
               <p>The <strong>♪</strong> marks button toggles a <strong>tie</strong> on the selection or note before the caret (<kbd>T</kbd>). Open the dropdown for more:</p>
               <ul>
-                <li><strong>Phrasing</strong> — slur mode (click start and end notes), clear slur</li>
+                <li><strong>Phrasing</strong> — slur (from selection when possible; otherwise click start/end), clear slur</li>
                 <li><strong>Articulations</strong> — staccato, tenuto, accent, staccatissimo, breath mark</li>
                 <li><strong>Ornaments</strong> — trill, mordent, turn, pralltriller</li>
                 <li><strong>Dynamics</strong> — p, mp, mf, f, ff, crescendo/diminuendo start and end</li>
                 <li><strong>Other</strong> — fermata, upbow, downbow</li>
               </ul>
-              <p>Marks apply to selected notes. Click a note to select it, or <kbd>Shift</kbd>+click for a range. Blue “Slur” and “Tuplet N” badges show when those modes are active.</p>
+              <p>
+                <strong>Slur:</strong> with two or more notes selected, Slur spans first→last (MuseScore-style).
+                With one note selected, slur extends to the next note. With no useful selection, enter click start/end mode.
+                Drag the blue endpoint handles on a slurred selection; a red snap mark shows the landing note.
+                <strong>Clear slur</strong> removes the whole slur group for any selected member.
+                Star favorites in the palette menu expand as compact toolbar buttons when width allows.
+              </p>
+              <p>Marks apply to selected notes. Selecting a note plays a short piano audition. Selected notes use a blue fill highlight. Vertical pitch drag shows a notehead landing marker.</p>
               <p>
                 <strong>Edit selected notes:</strong> press <kbd>1</kbd>–<kbd>9</kbd> (or the duration toolbar) to change length;
                 press <kbd>A</kbd>–<kbd>G</kbd> to replace pitch; use the accidental control or <kbd>-</kbd>/<kbd>=</kbd>/<kbd>+</kbd> for flat/natural/sharp;
+                press <kbd>J</kbd> to respell enharmonically (sharp↔flat, same pitch);
                 use this Marks menu for accent, staccato, and other articulations.
               </p>
             </div>
@@ -291,9 +299,10 @@ export default function NotationEditorHelp(props) {
           <section id="notation-help-tuplets" className="help-section">
             <h2>Tuplets & grace notes</h2>
             <div className="help-section-body">
-              <p>The <strong>(3</strong> tuplets button starts triplet input mode; new notes inherit tuplet timing until the group is complete or you end tuplet mode.</p>
+              <p>The <strong>(3</strong> tuplets button starts triplet input mode; new notes inherit tuplet timing until the group is complete or you end tuplet mode. With two or more notes selected, the same control applies the tuplet to the selection instead.</p>
               <ul>
                 <li>Choose duplet, triplet, quadruplet, quintuplet, or sextuplet from the menu.</li>
+                <li><strong>Break beam before selection</strong> (Tools or Tuplets menu) inserts an ABC beam break before the second and later selected notes.</li>
                 <li><strong>Grace before</strong> adds a short grace note before the selected note (acciaccatura or appoggiatura).</li>
               </ul>
               <p>A badge shows when tuplet or slur mode is active.</p>
@@ -311,13 +320,15 @@ export default function NotationEditorHelp(props) {
                 <li><strong>Double-click</strong> a note — select the whole measure (through that measure&apos;s bar line).</li>
                 <li><kbd>←</kbd>/<kbd>→</kbd> — move selection to previous/next event (works even if the staff left focus on the page body).</li>
                 <li><kbd>Shift</kbd>+<kbd>←</kbd>/<kbd>→</kbd> — extend the selection from the anchor.</li>
-                <li><strong>Vertical drag</strong> on a note — live pitch preview on the selection boxes; pitch commits when you release.</li>
+                <li><strong>Vertical drag</strong> on a note — a notehead ghost shows the landing pitch; commit on release.</li>
                 <li><kbd>Ctrl</kbd>+<kbd>C</kbd> / <kbd>X</kbd> / <kbd>V</kbd> — copy, cut, paste selected events (internal clipboard).</li>
                 <li><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> — swap selection with clipboard.</li>
                 <li><kbd>R</kbd> — repeat last note or repeat selection at caret.</li>
                 <li><kbd>Q</kbd> / <kbd>W</kbd> — halve / double duration; <kbd>Shift</kbd>+<kbd>Q</kbd>/<kbd>W</kbd> dot-aware.</li>
                 <li><kbd>Delete</kbd> — turn selected notes into rests; remove selected bar lines / system breaks. <kbd>Ctrl</kbd>+<kbd>Delete</kbd> removes any selected events entirely.</li>
                 <li><kbd>↑</kbd>/<kbd>↓</kbd> — chromatic transpose; <kbd>Ctrl</kbd>+↑/↓ octave; <kbd>Alt</kbd>+<kbd>Shift</kbd>+↑/↓ diatonic.</li>
+                <li><kbd>J</kbd> — enharmonic respell of selected pitches.</li>
+                <li><kbd>Insert</kbd> or <kbd>Ctrl</kbd>+<kbd>B</kbd> — insert an empty measure (full-bar rest + bar line) at the caret.</li>
               </ul>
             </div>
           </section>
@@ -328,6 +339,7 @@ export default function NotationEditorHelp(props) {
               <p>
                 Open <strong>Tools → Quantize…</strong> in the staff toolbar, or press <strong>Q</strong> in the piano roll toolbar.
                 If notes are selected, only those are quantized; otherwise the entire active voice is processed.
+                Timing snaps in beat space onto the chosen subdivision. Notes already on that grid will not move — the dialog reports when nothing changed.
               </p>
               <ul>
                 <li><strong>Strength</strong> — 0–100% how strongly notes move toward the grid.</li>

@@ -24,6 +24,8 @@ import {
   selectEventRange,
   toggleSelectionEventId,
   selectMeasureContaining,
+  insertEmptyMeasureAtCaret,
+  respellEnharmonicSelection,
 } from './notationActions';
 import { DURATION_KEY_MULTIPLIERS } from './notationConstants';
 import { serializeVoiceEvents } from './abcVoiceSerializer';
@@ -39,7 +41,7 @@ describe('notationActions', function() {
     session = insertBarlineAtCaret(session, '|');
     expect(session.caretIndex).toBe(3);
     const abc = serializeVoiceEvents(session.events, tuneMeta);
-    expect(abc).toMatch(/C D \| E F/);
+    expect(abc).toMatch(/CD \| EF/);
   });
 
   test('sequential insert at caret advances and preserves order', function() {
@@ -107,7 +109,7 @@ describe('notationActions', function() {
     expect(after[1].pitch.step).toBe('D');
     expect(after[2].pitch.step).toBe('G');
     expect(after[3].pitch.step).toBe('F');
-    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/C D [Gg] F/);
+    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/CD[Gg]F/);
   });
 
   test('deleteSelectionToRest Delete key removes event at caret, not before it', function() {
@@ -461,5 +463,29 @@ describe('notationActions', function() {
     session = removeSelection(session);
     const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
     expect(notes.map(function(ev) { return ev.pitch.step; })).toEqual(['E', 'F']);
+  });
+
+  test('insertEmptyMeasureAtCaret inserts full-bar rest and barline', function() {
+    let session = createInitialSession(tuneMeta, 'C |');
+    session = Object.assign({}, session, { caretIndex: 0 });
+    session = insertEmptyMeasureAtCaret(session);
+    expect(session.events[0].type).toBe('rest');
+    expect(session.events[0].durationBeats).toBeCloseTo(4, 5);
+    expect(session.events[1].type).toBe('barline');
+    expect(session.caretIndex).toBe(2);
+  });
+
+  test('respellEnharmonicSelection flips sharp to flat', function() {
+    let session = createInitialSession(tuneMeta, '^C |');
+    const id = session.events[0].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [id], toneIndex: null, anchorId: id },
+    });
+    const beforeMidi = pitchToMidi(session.events[0].pitch);
+    session = respellEnharmonicSelection(session);
+    expect(pitchToMidi(session.events[0].pitch)).toBe(beforeMidi);
+    expect(session.events[0].pitch.abcName).toMatch(/_D/);
+    session = respellEnharmonicSelection(session);
+    expect(session.events[0].pitch.abcName).toMatch(/\^C/);
   });
 });

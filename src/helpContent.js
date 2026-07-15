@@ -64,7 +64,7 @@ export function HelpWhatYouCanDo() {
         <li>Import <strong>Score</strong> files: MusicXML/MXL offline; MIDI when logged in and the media resolver is available.</li>
         <li>Import <strong>YouTube</strong> playlists when logged in (Add → Import → <strong>YouTube</strong>).</li>
         <li>Import curated tune collections from the Import tab.</li>
-        <li>Search the built-in ABC database from the editor toolbar search button (includes tunes from thesession.org and other scraped sources). With a media resolver, notation search can also suggest public MuseScore.com scores when MusicXML is freely downloadable, and fall back to known MIDI sites when ABC/MuseScore matches are weak or missing (MIDI conversion is experimental).</li>
+        <li>Search the built-in ABC database from the editor toolbar search button (includes tunes from thesession.org and other scraped sources). With a media resolver, notation search also queries ABC sites, public MuseScore.com scores, and known MIDI sites in parallel, then lists up to 20 suggestions ranked by title match (MuseScore preferred, MIDI demoted). MIDI conversion is experimental.</li>
         <li>Use <strong>Import from media</strong> (Add tune flow or editor Wizards) to derive lyrics/chords from audio when the resolver is available.</li>
       </ul>
       <h4>Edit and improve</h4>
@@ -127,7 +127,7 @@ export function HelpEditMusic() {
       <p>From a tune page: tune menu → <strong>Edit</strong>.</p>
       <p>Editor tabs:</p>
       <ul>
-        <li><strong>Music</strong> — staff notation editor (notes, bar lines, marks). Full guide: <a href="#notation-editor">Notation editor</a>. Use <strong>Search</strong> to find ABC from The Session and other sites; with a media resolver, public MuseScore.com scores and (when matches are weak) MIDI from known sites may appear as suggestions. Paste a musescore.com score URL or a direct <code>.mid</code> URL into the search query to import when available.</li>
+        <li><strong>Music</strong> — staff notation editor (notes, bar lines, marks). Full guide: <a href="#notation-editor">Notation editor</a>. Use <strong>Search</strong> to find notation from The Session, ABC sites, public MuseScore.com scores, and (ranked lower) MIDI from known sites — up to 20 suggestions. Paste a musescore.com score URL or a direct <code>.mid</code> URL into the search query to import when available.</li>
         <li><strong>Info</strong> — metadata, tablature, <strong>Background information</strong> (with <strong>Research Background</strong> when resolver available)</li>
         <li><strong>Lyrics</strong> — <strong>Search Lyrics</strong>, lyrics textarea</li>
         <li><strong>Chords</strong> — <strong>Search Chords</strong>, Reset, <strong>Save</strong></li>

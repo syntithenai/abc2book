@@ -112,65 +112,15 @@ function renderReviewToast(message, opts, renderProps) {
 }
 
 /**
- * Show the Review toast only when a processing batch finishes (processing → 0)
- * with ready work, or when a new ready fingerprint appears while idle.
- * Do not re-fire toast.warn on every queue notify for the same ready set.
+ * Old "ready for review" persistent toast retired — field searches use short
+ * finish toasts plus the Review N Search Suggestions page.
  */
 export function syncBackgroundReviewToast(options) {
-  const opts = options || {}
-  const summary = getBackgroundReviewSummary()
-  const readyCount = summary.ready > 0 ? summary.ready : 0
-  const processingCount = summary.processing > 0 ? summary.processing : 0
-  const readyMessage = readyCount > 0 ? readyCount + ' ready for review' : ''
-  const processingMessage = processingCount > 0 ? processingCount + ' still processing' : ''
-  const fingerprint = readyFingerprint(summary)
-  const processingDroppedToZero = lastProcessingCount > 0 && processingCount === 0
-  const fingerprintChanged = fingerprint !== shownReadyFingerprint
-  const suppressed = !readyMessage || shouldSuppressReadyToast(summary, opts)
-  const shouldShowReady = !suppressed
-    && processingCount === 0
-    && (processingDroppedToZero || fingerprintChanged)
-
-  if (suppressed || processingCount > 0 || !shouldShowReady) {
-    if (suppressed || readyCount === 0) {
-      dismissReviewToastProgrammatically()
-      if (readyCount === 0) shownReadyFingerprint = null
-    }
-  } else {
-    suppressNextCloseCapture = false
-    shownReadyFingerprint = fingerprint
-    toast.warn(
-      function(renderProps) {
-        return renderReviewToast(readyMessage, opts, renderProps)
-      },
-      {
-        toastId: BACKGROUND_REVIEW_TOAST_ID,
-        autoClose: false,
-        closeOnClick: false,
-        onClose: function() {
-          if (suppressNextCloseCapture) {
-            suppressNextCloseCapture = false
-            return
-          }
-          markReviewToastDismissedNow()
-        },
-      }
-    )
-  }
-
-  lastProcessingCount = processingCount
-
-  if (!processingMessage) {
-    toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
-  } else if (opts.showProcessingNotice) {
-    toast.info(processingMessage, {
-      toastId: BACKGROUND_PROCESSING_TOAST_ID,
-      autoClose: PROCESSING_TOAST_AUTO_CLOSE_MS,
-      hideProgressBar: true,
-    })
-  }
-
-  return readyMessage || processingMessage || null
+  dismissReviewToastProgrammatically()
+  toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
+  lastProcessingCount = 0
+  shownReadyFingerprint = null
+  return null
 }
 
 export function showBackgroundProcessingNotice(options) {

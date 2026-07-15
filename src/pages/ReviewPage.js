@@ -1,300 +1,161 @@
-import { useEffect, useMemo, useState, useSyncExternalStore } from 'react'
+import { useMemo, useState, useSyncExternalStore } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Button, ListGroup } from 'react-bootstrap'
-import {
-  getBackgroundReviewRevision,
-  getBackgroundReviewSummary,
-  markMediaAnalysisReviewed,
-  subscribeBackgroundReviewQueue,
-} from '../backgroundReviewQueue'
-import {
-  hasActiveImportReviewSession,
-  hideImportReviewUi,
-  openImportReviewFromToast,
-  subscribeImportReviewSession,
-  getImportReviewSessionRevision,
-} from '../importReviewSessionStore'
-import { showBackgroundJobsContinuingNotice, snoozeBackgroundReviewToast } from '../backgroundReviewToast'
+import { Form } from 'react-bootstrap'
+import FieldSuggestionsChangesStrip from '../components/FieldSuggestionsChangesStrip'
 import {
   subscribe as subscribeFieldLookupQueue,
   getState as getFieldLookupState,
   dismissFieldLookup,
+  applyFieldLookupChoice,
 } from '../tuneFieldLookupQueue'
-import {
-  dismissFileOcrJob,
-  getFileOcrJob,
-  getFileOcrJobs,
-  subscribeFileOcrJobs,
-} from '../fileOcrJobs'
-import FileOcrReviewModal from '../components/FileOcrReviewModal'
+import { countTunesWithFieldSuggestions } from '../fieldSuggestionsUtils'
+import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
 function getFieldLookupRevision() {
   const state = getFieldLookupState()
   return (state.jobs || []).map(function(job) {
-    return job.id + ':' + job.status + ':' + (job.reviewCandidateId || '') + ':'
+    return job.id + ':' + job.status + ':'
       + (Array.isArray(job.candidates) ? job.candidates.length : 0)
   }).join('|')
 }
 
-function getFileOcrRevision() {
-  return getFileOcrJobs().map(function(job) {
-    return job.id + ':' + job.status
-  }).join('|')
-}
-
-function useReviewSummary() {
-  const reviewRevision = useSyncExternalStore(
-    subscribeBackgroundReviewQueue,
-    getBackgroundReviewRevision,
-    function() { return '' }
-  )
-  const importRevision = useSyncExternalStore(
-    subscribeImportReviewSession,
-    getImportReviewSessionRevision,
-    function() { return '' }
-  )
-  const fieldLookupRevision = useSyncExternalStore(
+function useFieldLookupJobs() {
+  const revision = useSyncExternalStore(
     subscribeFieldLookupQueue,
     getFieldLookupRevision,
     function() { return '' }
   )
-  const fileOcrRevision = useSyncExternalStore(
-    subscribeFileOcrJobs,
-    getFileOcrRevision,
-    function() { return '' }
-  )
   return useMemo(function() {
-    return getBackgroundReviewSummary()
-  }, [reviewRevision, importRevision, fieldLookupRevision, fileOcrRevision])
+    return getFieldLookupState().jobs || []
+  }, [revision])
 }
 
-function resolveTuneName(tunes, tuneId, fallback) {
-  if (fallback) return fallback
-  if (!tunes || !tuneId) return 'Untitled'
-  const tune = tunes[tuneId]
-  return tune && tune.name ? tune.name : 'Untitled'
+function preferAcceptCandidate(job) {
+  const candidates = Array.isArray(job.candidates) ? job.candidates : []
+  const nonCurrent = candidates.find(function(item) {
+    return item && !item.isCurrent && item.id !== 'current'
+  })
+  return nonCurrent || candidates[0] || null
 }
 
+/**
+ * Review page: tunes that currently have search suggestions attached.
+ */
 export default function ReviewPage(props) {
+  const tunes = props.tunes || {}
+  const jobs = useFieldLookupJobs()
+  const [titleFilter, setTitleFilter] = useState('')
   const navigate = useNavigate()
-  const summary = useReviewSummary()
-  const [showFileOcr, setShowFileOcr] = useState(false)
-  const [focusFileOcrId, setFocusFileOcrId] = useState(null)
 
-  useEffect(function() {
-    return subscribeFileOcrJobs(function() {
-      // force summary refresh via background queue subscription path
+  const rows = useMemo(function() {
+    const byTune = {}
+    jobs.forEach(function(job) {
+      if (!job || job.status !== 'awaiting' || !job.tuneId) return
+      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      if (!candidates.length) return
+      const id = String(job.tuneId)
+      if (!byTune[id]) byTune[id] = []
+      byTune[id].push(job)
     })
-  }, [])
+    return Object.keys(byTune).map(function(tuneId) {
+      const tune = tunes[tuneId]
+      const title = (tune && tune.name) || 'Untitled'
+      const items = byTune[tuneId].map(function(job) {
+        return {
+          jobId: job.id,
+          kind: job.kind,
+          count: Array.isArray(job.candidates) ? job.candidates.length : 0,
+          job: job,
+        }
+      })
+      return { tuneId: tuneId, title: title, items: items }
+    }).sort(function(a, b) {
+      return String(a.title).localeCompare(String(b.title))
+    })
+  }, [jobs, tunes])
 
-  const hasImport = hasActiveImportReviewSession()
-  const hasMedia = summary.mediaReady.length > 0
-  const fieldLookups = Array.isArray(summary.fieldLookupAwaitingJobs)
-    ? summary.fieldLookupAwaitingJobs
-    : []
-  const hasFieldLookups = fieldLookups.length > 0
-  const fileOcrReady = Array.isArray(summary.fileOcrReady) ? summary.fileOcrReady : []
-  const hasFileOcr = fileOcrReady.length > 0
-  const hasAnything = hasImport || hasMedia || hasFieldLookups || hasFileOcr
+  const filtered = useMemo(function() {
+    const q = String(titleFilter || '').trim().toLowerCase()
+    if (!q) return rows
+    return rows.filter(function(row) {
+      return String(row.title || '').toLowerCase().indexOf(q) >= 0
+    })
+  }, [rows, titleFilter])
 
-  // Open import review whenever a session is (or becomes) active on this page.
-  // Do not hide the UI while field lookups are still awaiting promotion after reload.
-  useEffect(function() {
-    if (hasImport) {
-      openImportReviewFromToast()
-      return
+  const tuneCount = countTunesWithFieldSuggestions(jobs)
+
+  function acceptItem(item) {
+    const candidate = preferAcceptCandidate(item.job)
+    if (!candidate) return
+    applyFieldLookupChoice(item.jobId, candidate)
+  }
+
+  function clearItem(item) {
+    dismissFieldLookup(item.jobId)
+  }
+
+  function openItem(item) {
+    const tuneId = item && item.job && item.job.tuneId
+    const kind = item && item.kind
+    if (!tuneId) return
+    if (typeof props.onOpenTune === 'function') {
+      props.onOpenTune({ id: tuneId, suggestKind: kind })
+    } else {
+      navigate('/editor/' + encodeURIComponent(tuneId) + (kind ? ('?suggest=' + encodeURIComponent(kind)) : ''))
     }
-    if (!hasAnything) {
-      hideImportReviewUi()
-    }
-  }, [hasImport, hasAnything])
+    // Open after navigation so the editor form mounts and can handle the event.
+    setTimeout(function() {
+      requestOpenFieldSuggestions(tuneId, kind)
+    }, 250)
+  }
 
   return (
-    <div className="app-surface-panel review-page">
+    <div className="app-surface-panel review-page" data-testid="search-suggestions-review-page">
       <div className="review-page-header">
-        <h1>Review queue</h1>
+        <h1>Search suggestions</h1>
         <p className="app-text-muted">
-          Work through imports, media analysis, and search merges one tune at a time.
-          Search results appear as merge items in the import review form below.
-          {summary.processing > 0 ? (
-            <> {' '}{summary.processing} still processing in the background.</>
-          ) : null}
+          {tuneCount === 0
+            ? 'No tunes have search suggestions right now.'
+            : (tuneCount + ' tune' + (tuneCount === 1 ? '' : 's') + ' with suggestions.')}
         </p>
       </div>
 
-      {!hasAnything ? (
-        <p className="app-text-muted">Nothing waiting for review.</p>
+      {tuneCount > 0 ? (
+        <Form.Group className="mb-3" style={{ maxWidth: '28em' }}>
+          <Form.Label>Filter by title</Form.Label>
+          <Form.Control
+            value={titleFilter}
+            data-testid="suggestions-title-filter"
+            placeholder="Search titles…"
+            onChange={function(e) { setTitleFilter(e.target.value) }}
+          />
+        </Form.Group>
       ) : null}
 
-      {hasImport ? (
-        <section className="review-page-section">
-          <h2>Import review</h2>
-          <p className="app-text-muted">
-            {summary.importReady} of {summary.importTotal} item{summary.importTotal === 1 ? '' : 's'} ready to merge.
-            Use the form below to review each tune, including search suggestions.
-          </p>
-        </section>
-      ) : null}
-
-      {hasFieldLookups && !hasImport ? (
-        <section className="review-page-section">
-          <h2>Search results</h2>
-          <p className="app-text-muted">
-            Waiting for your tune collection to finish loading so these can open in import review.
-            You can dismiss any that are no longer needed.
-          </p>
-          <ListGroup className="review-page-media-list">
-            {fieldLookups.map(function(job) {
-              return (
-                <ListGroup.Item key={job.id} className="review-page-media-item">
-                  <div className="review-page-media-item-main">
-                    <strong>{resolveTuneName(props.tunes, job.tuneId, job.tuneName || job.title)}</strong>
-                    <span className="app-text-muted">
-                      {' — '}
-                      {job.label || job.kind}
-                      {job.candidateCount ? (' (' + job.candidateCount + ')') : ''}
-                    </span>
-                  </div>
-                  <div className="review-page-media-item-actions">
-                    {job.tuneId ? (
-                      <Button
-                        as={Link}
-                        to={'/editor/' + encodeURIComponent(job.tuneId)}
-                        variant="primary"
-                        size="sm"
-                      >
-                        Open tune
-                      </Button>
-                    ) : null}
-                    <Button
-                      variant="outline-secondary"
-                      size="sm"
-                      onClick={function() {
-                        dismissFieldLookup(job.id)
-                      }}
-                    >
-                      Dismiss
-                    </Button>
-                  </div>
-                </ListGroup.Item>
-              )
-            })}
-          </ListGroup>
-        </section>
-      ) : null}
-
-      {hasMedia ? (
-        <section className="review-page-section">
-          <h2>Media analysis</h2>
-          <ListGroup className="review-page-media-list">
-            {summary.mediaReady.map(function(tuneId) {
-              return (
-                <ListGroup.Item key={tuneId} className="review-page-media-item">
-                  <div className="review-page-media-item-main">
-                    <strong>{resolveTuneName(props.tunes, tuneId)}</strong>
-                    <span className="app-text-muted"> — transcription ready</span>
-                  </div>
-                  <div className="review-page-media-item-actions">
-                    <Button
-                      as={Link}
-                      to={'/editor/' + encodeURIComponent(tuneId)}
-                      variant="primary"
-                      size="sm"
-                      onClick={function() {
-                        markMediaAnalysisReviewed(tuneId)
-                      }}
-                    >
-                      Review on tune
-                    </Button>
-                    <Button
-                      variant="outline-secondary"
-                      size="sm"
-                      onClick={function() {
-                        markMediaAnalysisReviewed(tuneId)
-                      }}
-                    >
-                      Dismiss
-                    </Button>
-                  </div>
-                </ListGroup.Item>
-              )
-            })}
-          </ListGroup>
-        </section>
-      ) : null}
-
-      {hasFileOcr ? (
-        <section className="review-page-section">
-          <h2>File OCR</h2>
-          <ListGroup className="review-page-media-list">
-            {fileOcrReady.map(function(jobId) {
-              const job = getFileOcrJob(jobId)
-              if (!job) return null
-              return (
-                <ListGroup.Item key={jobId} className="review-page-media-item">
-                  <div className="review-page-media-item-main">
-                    <strong>{resolveTuneName(props.tunes, job.tuneId, job.tuneName)}</strong>
-                    <span className="app-text-muted"> — {job.fileName || 'file'} OCR ready</span>
-                  </div>
-                  <div className="review-page-media-item-actions">
-                    <Button
-                      variant="primary"
-                      size="sm"
-                      onClick={function() {
-                        setFocusFileOcrId(jobId)
-                        setShowFileOcr(true)
-                      }}
-                    >
-                      Review changes
-                    </Button>
-                    <Button
-                      variant="outline-secondary"
-                      size="sm"
-                      onClick={function() {
-                        dismissFileOcrJob(jobId)
-                      }}
-                    >
-                      Dismiss
-                    </Button>
-                  </div>
-                </ListGroup.Item>
-              )
-            })}
-          </ListGroup>
-        </section>
-      ) : null}
-
-      <FileOcrReviewModal
-        show={showFileOcr}
-        onHide={function() {
-          setShowFileOcr(false)
-          setFocusFileOcrId(null)
-        }}
-        tunes={props.tunes}
-        tunebook={props.tunebook}
-        focusJobId={focusFileOcrId}
-      />
-
-      <div className="review-page-footer d-flex gap-2 flex-wrap">
-        <Button variant="outline-secondary" onClick={function() { navigate(-1) }}>
-          Back
-        </Button>
-        {hasAnything ? (
-          <Button
-            variant="outline-primary"
-            onClick={function() {
-              const nextSummary = getBackgroundReviewSummary()
-              if (nextSummary && nextSummary.processing > 0) {
-                showBackgroundJobsContinuingNotice({ summary: nextSummary })
-              }
-              snoozeBackgroundReviewToast()
-              hideImportReviewUi()
-              navigate('/tunes')
-            }}
-          >
-            Continue later
-          </Button>
-        ) : null}
+      <div className="d-flex flex-column gap-3">
+        {filtered.map(function(row) {
+          return (
+            <div key={row.tuneId} className="border rounded p-3" data-testid="suggestions-tune-row">
+              <div className="d-flex align-items-center justify-content-between gap-2 mb-2 flex-wrap">
+                <Link to={'/editor/' + encodeURIComponent(row.tuneId)}>
+                  <strong>{row.title}</strong>
+                </Link>
+              </div>
+              <FieldSuggestionsChangesStrip
+                items={row.items}
+                onAccept={acceptItem}
+                onClear={clearItem}
+                onOpen={openItem}
+                onAcceptAll={function() {
+                  row.items.forEach(acceptItem)
+                }}
+                onClearAll={function() {
+                  row.items.forEach(clearItem)
+                }}
+              />
+            </div>
+          )
+        })}
       </div>
     </div>
   )

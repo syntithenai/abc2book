@@ -85,9 +85,7 @@ export default function TuneEnhanceButton({
     }
 
     if (queued > 0 || discoveryPreview.willDiscover > 0 || willResearch > 0) {
-      toast.success(
-        'Queued enhancements for this tune. Review choices in Review or Settings → Background jobs → Active searches.'
-      )
+      toast.success('Queued enhancements for this tune.')
     } else {
       toast.info('No new enhancements queued (fields already filled or jobs already running).')
     }

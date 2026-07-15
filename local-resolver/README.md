@@ -17,7 +17,7 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/lyrics-reverse-dictionary` | Return meaning, topic, and pattern matches for a phrase or concept. |
 | POST | `/lyrics-phrases` | Return left-context, right-context, and phrase-shaped suggestions for a phrase or seed word. |
 | POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
-| POST | `/search-notation` | Search The Session, allowlisted ABC sites, public MuseScore.com MusicXML, and (when no strong match) allowlisted MIDI sites by title (optional `songType`). Optional `url` for musescore.com, direct `.mid`/`.midi`, allowlisted MIDI pages, or allowlisted ABC URLs. Accept `application/x-ndjson` for streaming progress. |
+| POST | `/search-notation` | Search The Session, then ABC sites, public MuseScore.com MusicXML, and allowlisted MIDI sites in parallel by title (optional `songType`). Returns up to 20 candidates ranked by match (MuseScore boosted, MIDI demoted). Optional `url` for musescore.com, direct `.mid`/`.midi`, allowlisted MIDI pages, or allowlisted ABC URLs. Accept `application/x-ndjson` for streaming progress. |
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |

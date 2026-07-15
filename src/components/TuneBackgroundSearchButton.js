@@ -97,6 +97,7 @@ export default function TuneBackgroundSearchButton({
   const busy = !!activeJob;
   const progressPercent = activeJob ? (activeJob.progress || 0) : 0;
   const progressMessage = activeJob ? (activeJob.message || '') : '';
+  const suggestionCount = awaitingJob && awaitingJob.resultText ? 1 : 0;
 
   useEffect(function() {
     return function() {
@@ -194,11 +195,24 @@ export default function TuneBackgroundSearchButton({
     queue.cancelJob(activeJob.id);
   }
 
+  function openAwaitingSuggestions() {
+    if (!awaitingJob || !awaitingJob.resultText) return;
+    setPendingReviewText(awaitingJob.resultText);
+    setShowReviewAccept(true);
+  }
+
+  function clearAwaitingSuggestions() {
+    dismissReviewResult();
+  }
+
   function requestResearch(mode) {
     if (!title || !tuneId) return;
     if (busy) {
       cancelResearch();
       return;
+    }
+    if (suggestionCount > 0) {
+      clearAwaitingSuggestions();
     }
     pendingModeRef.current = mode === 'review' ? 'review' : 'auto';
     if (hasExistingBackgroundInfo(existingBackgroundInfo)) {
@@ -258,14 +272,19 @@ export default function TuneBackgroundSearchButton({
     <>
       <FieldLookupButtonGroup
         automaticLookup={canResearchBackground}
+        showExternal={!canResearchBackground}
         busy={busy}
         disabled={!title || !tuneId || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         narrow={narrow}
         onSearch={requestResearch}
+        suggestionCount={suggestionCount}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={openAwaitingSuggestions}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
+        progress={progressPercent}
       />
       {busy && (
         <div style={{ marginTop: '0.75em', maxWidth: '28em', clear: 'both' }}>

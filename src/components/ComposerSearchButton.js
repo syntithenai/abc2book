@@ -93,6 +93,12 @@ export default function ComposerSearchButton({
   const busy = lookup.busy
   const canSearch = !!(effectiveTitle && (tuneId || candidateId))
   const searchDisabled = disabled || !canSearch
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
 
   function chooseComposerCandidate(candidate) {
     setShowPicker(false)
@@ -103,11 +109,28 @@ export default function ComposerSearchButton({
     finishApply(candidate, jobId)
   }
 
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    setError('')
+    setPickerCandidates(awaitingCandidates)
+    setShowPicker(true)
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
+  }
+
   function run(mode) {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
+    }
+    // New Search clears prior suggestions for this kind.
+    if (awaitingCandidates.length > 0) {
+      clearAwaitingSuggestions()
     }
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
@@ -134,14 +157,19 @@ export default function ComposerSearchButton({
     <>
       <FieldLookupButtonGroup
         automaticLookup={true}
+        showExternal={false}
         busy={busy}
         disabled={searchDisabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         onSearch={run}
+        suggestionCount={awaitingCandidates.length}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={openAwaitingSuggestions}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
+        progress={lookup.progressPercent}
       />
       {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
       <SearchProgressBar

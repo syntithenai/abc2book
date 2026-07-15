@@ -146,87 +146,10 @@ export function getUnpromotedAwaitingFieldLookups(options) {
  * can be re-promoted. Returns { candidates, linkedJobIds }.
  */
 export function promoteAwaitingFieldLookups(options) {
-  const opts = options || {}
-  const getTune = opts.getTune
-  const abcTools = opts.abcTools || null
-  const session = opts.session || getImportReviewSession()
-  clearOrphanFieldLookupReviewLinks(session)
-  // Only when the caller knows the tune map is fully loaded.
-  if (typeof getTune === 'function' && opts.dismissMissingTunes === true) {
-    dismissAwaitingFieldLookupsMissingTune(getTune)
-  }
-  const jobs = getUnpromotedAwaitingFieldLookups({ session: session })
-  const byTune = {}
-  const byCandidate = {}
-
-  jobs.forEach(function(job) {
-    if (job.tuneId) {
-      const existing = typeof getTune === 'function' ? getTune(job.tuneId) : null
-      if (!existing) return
-      const key = String(job.tuneId)
-      if (!byTune[key]) byTune[key] = { existing: existing, jobs: [] }
-      byTune[key].jobs.push(job)
-      return
-    }
-    const key = String(job.candidateId)
-    if (!byCandidate[key]) byCandidate[key] = { jobs: [] }
-    byCandidate[key].jobs.push(job)
-  })
-
-  const candidates = []
-  const linkedJobIds = []
-
-  function linkGroup(groupJobs, coalesced) {
-    groupJobs.forEach(function(job) {
-      linkFieldLookupToReviewCandidate(job.id, coalesced.id)
-      linkedJobIds.push(job.id)
-    })
-    candidates.push(coalesced)
-  }
-
-  Object.keys(byTune).forEach(function(tuneId) {
-    const group = byTune[tuneId]
-    const built = group.jobs.map(function(job) {
-      return buildFieldLookupReviewCandidate(job, group.existing, abcTools)
-    }).filter(Boolean)
-    if (!built.length) return
-
-    const coalesced = built.length === 1
-      ? built[0]
-      : coalesceImportCandidates(built[0], built.slice(1))
-
-    coalesced.mergeTargetId = String(tuneId)
-    if (built.length > 1) {
-      coalesced.sourceKind = 'search-multi'
-    }
-
-    linkGroup(group.jobs, coalesced)
-  })
-
-  Object.keys(byCandidate).forEach(function(candidateId) {
-    const group = byCandidate[candidateId]
-    const built = group.jobs.map(function(job) {
-      return buildFieldLookupReviewCandidate(job, {
-        name: job.title || '',
-        composer: job.artist || '',
-      }, abcTools)
-    }).filter(Boolean)
-    if (!built.length) return
-
-    const coalesced = built.length === 1
-      ? built[0]
-      : coalesceImportCandidates(built[0], built.slice(1))
-
-    coalesced.mergeTargetId = null
-    coalesced.id = String(candidateId)
-    if (built.length > 1) {
-      coalesced.sourceKind = 'search-multi'
-    }
-
-    linkGroup(group.jobs, coalesced)
-  })
-
-  return { candidates: candidates, linkedJobIds: linkedJobIds }
+  // Field searches no longer promote into Import Review; suggestions stay on
+  // the field-lookup cache / edit form / Review suggestions page.
+  void options
+  return { session: (options && options.session) || null, candidates: [], jobIds: [], linkedJobIds: [] }
 }
 
 function draftFormOverrideForFieldLookup(kind, applied, abcTools) {

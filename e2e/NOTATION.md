@@ -118,21 +118,26 @@ Semantics pinned by tests (see help for full list):
 | **Arrow ←/→** | Normal: select previous/next event (works with focus on body); note input: move caret. On editor music tab these do **not** change tune (use header skip buttons) |
 | **Shift+←/→** | Extend selection from fixed `anchorId` to newly focused event |
 | **Ctrl+←/→** | Jump caret by measure |
-| **Arrow ↑/↓** | Chromatic transpose ±1 on selection |
+| **Arrow ↑/↓** | Chromatic transpose ±1 on selection (auditions piano pitch) |
 | **Ctrl+↑/↓** | Octave ±12 |
 | **Alt+Shift+↑/↓** | Diatonic ±1 step (implemented as ±2 semitone steps) |
+| **J** | Enharmonic respell selected pitches (sharp↔flat) |
+| **Insert / Ctrl+B** | Insert empty measure (full-bar rest + barline) at caret |
 | **R** | Repeat selection at caret (or repeat last) |
 | **T** | Toggle tie to next note |
 | **Q / W** | Halve / double duration |
 | **Ctrl+C/X/V** | Copy / cut / paste |
 | **Ctrl+Alt+P** | Cycle Staff → Piano roll → Split |
-| **Staff drag** | Vertical drag = diatonic steps; live ghost overlay while dragging; commit on pointerup (`dragging={false}`) |
+| **Staff drag** | Vertical drag = diatonic steps; live ghost overlay while dragging; commit on pointerup (`dragging={false}`); auditions on commit |
+| **Click select note** | Selects + piano audition |
 | **Shift+click** | Contiguous range from selection `anchorId` |
 | **Ctrl/Cmd+click** | Toggle event in multi-select |
 | **Empty-staff drag** | Marquee select (glyph centers intersecting rect) |
 | **Double-click note** | Select whole measure through trailing barline |
 | **Click barline** | Select that barline event (Delete removes it) |
-| **(3** | Start triplet input; auto-ends after 3 notes |
+| **(3** | Start triplet input or apply triplet to multi-selection; ABC `(p:q:r)` when needed |
+| **Slur endpoints** | Drag blue handles; red snap target; clear slur clears whole group |
+| **Break beam** | Tools/Tuplets menu — `beamBreakBefore` → space in ABC |
 
 ## Walkthrough step → test tier
 

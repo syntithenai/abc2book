@@ -206,8 +206,7 @@ export default function BulkSearchModal({
         return FIELD_LOOKUP_LABELS[kind] || kind
       }).join(', ')
       toast.success(
-        'Queued ' + queued + ' ' + kindLabels + ' search' + (queued === 1 ? '' : 'es')
-        + '. Review choices in Review or Settings → Background jobs → Active searches.'
+        'Queued ' + queued + ' ' + kindLabels + ' search' + (queued === 1 ? '' : 'es') + '.'
       )
     } else {
       toast.info(

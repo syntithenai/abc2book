@@ -66,12 +66,35 @@ export default function GenreSearchButton({
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    setError('')
+    setPickerCandidates(awaitingCandidates)
+    setShowPicker(true)
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
+  }
 
   function run(mode) {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
+    }
+    // New Search clears prior suggestions for this kind.
+    if (awaitingCandidates.length > 0) {
+      clearAwaitingSuggestions()
     }
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
@@ -94,14 +117,19 @@ export default function GenreSearchButton({
     <>
       <FieldLookupButtonGroup
         automaticLookup={true}
+        showExternal={false}
         busy={busy}
         disabled={!canSearch || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         onSearch={run}
+        suggestionCount={awaitingCandidates.length}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={openAwaitingSuggestions}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
+        progress={lookup.progressPercent}
       />
       <SearchProgressBar
         visible={busy}

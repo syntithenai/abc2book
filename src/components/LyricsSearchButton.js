@@ -197,6 +197,12 @@ export default function LyricsSearchButton({
   const progressMessage = alsoSearchChords
     ? (chordsLookup.busy ? chordsLookup.progressMessage : lookup.progressMessage)
     : lookup.progressMessage
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
 
   function chooseLyricsCandidate(candidate) {
     setShowPicker(false)
@@ -205,6 +211,19 @@ export default function LyricsSearchButton({
       ? lookup.activeJob.id
       : null
     finishApply(candidate, jobId)
+  }
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    setError('')
+    setPickerCandidates(awaitingCandidates)
+    setShowPicker(true)
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
   }
 
   function cancelPriorLookupJobs() {
@@ -230,6 +249,10 @@ export default function LyricsSearchButton({
       if (alsoSearchChords) chordsLookup.cancel()
       lyricsFallbackSpecRef.current = null
       return
+    }
+    // New Search clears prior suggestions for this kind.
+    if (awaitingCandidates.length > 0) {
+      clearAwaitingSuggestions()
     }
     const searchMode = forceReview || mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
@@ -276,17 +299,20 @@ export default function LyricsSearchButton({
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
       <FieldLookupButtonGroup
         automaticLookup={true}
+        showExternal={false}
         busy={busy}
         disabled={!canSearch || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         narrow={narrow}
         onSearch={run}
+        suggestionCount={awaitingCandidates.length}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={openAwaitingSuggestions}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
-        confirmSearchMode={!forceReview}
-        defaultSearchMode={forceReview ? 'review' : 'auto'}
+        progress={progressPercent}
       />
       <SearchProgressBar
         visible={busy}

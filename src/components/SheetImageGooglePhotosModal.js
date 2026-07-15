@@ -1,88 +1,97 @@
-import { useState } from 'react';
-import { Alert, Button, Modal } from 'react-bootstrap';
+import { useEffect, useState } from 'react'
+import { Alert, Button, Modal } from 'react-bootstrap'
 import {
   GOOGLE_PHOTOS_PICKER_SCOPE,
   pickGooglePhotosAndDownload,
   tokenHasPhotosScope,
   tokenResponseIncludesPhotosScope,
-} from '../googlePhotosPickerClient';
+} from '../googlePhotosPickerClient'
+import { clearFilePickerIntent } from '../filePickerIntent'
 
 export default function SheetImageGooglePhotosModal(props) {
-  const [error, setError] = useState('');
-  const [busy, setBusy] = useState(false);
-  const [status, setStatus] = useState('');
-  const [pickerUrl, setPickerUrl] = useState('');
+  const [error, setError] = useState('')
+  const [busy, setBusy] = useState(false)
+  const [status, setStatus] = useState('')
+  const [pickerUrl, setPickerUrl] = useState('')
 
   function resetState() {
-    setError('');
-    setBusy(false);
-    setStatus('');
-    setPickerUrl('');
+    setError('')
+    setBusy(false)
+    setStatus('')
+    setPickerUrl('')
   }
 
   function handleHide() {
-    resetState();
-    if (props.onHide) props.onHide();
+    clearFilePickerIntent()
+    resetState()
+    if (props.onHide) props.onHide()
   }
 
   function openPickerWindow(url) {
-    setPickerUrl(url);
-    const popup = window.open(url, 'google-photos-picker', 'width=980,height=760,resizable=yes,scrollbars=yes');
+    setPickerUrl(url)
+    const popup = window.open(url, 'google-photos-picker', 'width=980,height=760,resizable=yes,scrollbars=yes')
     if (!popup) {
-      setStatus('Popup blocked. Use the Open Google Photos button below.');
+      setStatus('Popup blocked. Use the Open Google Photos button below.')
     }
   }
 
   async function ensurePhotosScope() {
     if (!props.requestGoogleScopes) {
-      throw new Error('Google Photos is not available in this view');
+      throw new Error('Google Photos is not available in this view')
     }
-    let tokenResponse = await props.requestGoogleScopes([GOOGLE_PHOTOS_PICKER_SCOPE]);
+    let tokenResponse = await props.requestGoogleScopes([GOOGLE_PHOTOS_PICKER_SCOPE])
     if (!tokenResponseIncludesPhotosScope(tokenResponse) && !(await tokenHasPhotosScope(tokenResponse))) {
-      tokenResponse = await props.requestGoogleScopes([GOOGLE_PHOTOS_PICKER_SCOPE], { forceConsent: true });
+      tokenResponse = await props.requestGoogleScopes([GOOGLE_PHOTOS_PICKER_SCOPE], { forceConsent: true })
     }
     if (!tokenResponseIncludesPhotosScope(tokenResponse) && !(await tokenHasPhotosScope(tokenResponse))) {
       throw new Error(
         'Google Photos access was not granted. On the consent screen, approve photo access, then try again. '
         + 'The developer must also add the Google Photos Picker scope in Google Cloud Console → OAuth consent screen → Data access.'
-      );
+      )
     }
-    return tokenResponse;
+    return tokenResponse
   }
 
   async function startPicker() {
     if (!props.token) {
-      setError('Sign in with Google to pick photos from Google Photos.');
-      return;
+      setError('Sign in with Google to pick photos from Google Photos.')
+      return
     }
-    setBusy(true);
-    setError('');
-    setStatus('Requesting Google Photos access...');
+    setBusy(true)
+    setError('')
+    setStatus('Requesting Google Photos access...')
     try {
-      const photosToken = await ensurePhotosScope();
+      const photosToken = await ensurePhotosScope()
       const result = await pickGooglePhotosAndDownload(photosToken, {
         maxItemCount: 1,
         onProgress: setStatus,
         openPicker: openPickerWindow,
-      });
-      const file = result.files && result.files[0];
+      })
+      const file = result.files && result.files[0]
       if (!file) {
-        throw new Error('No photo was selected');
+        throw new Error('No photo was selected')
       }
-      if (props.onSelectFile) props.onSelectFile(file);
-      handleHide();
+      clearFilePickerIntent()
+      if (props.onSelectFile) props.onSelectFile(file)
+      handleHide()
     } catch (e) {
-      const message = e && e.message ? e.message : 'Google Photos picker failed';
+      const message = e && e.message ? e.message : 'Google Photos picker failed'
       if (/access_denied|cancel/i.test(message)) {
-        setError('Google Photos access was not granted. Use Advanced → Go to tunebook (unsafe) on the Google warning screen, or add your account as a test user in Google Cloud Console.');
+        setError('Google Photos access was not granted. Use Advanced → Go to tunebook (unsafe) on the Google warning screen, or add your account as a test user in Google Cloud Console.')
       } else {
-        setError(message);
+        setError(message)
       }
-      setStatus('');
+      setStatus('')
     } finally {
-      setBusy(false);
+      setBusy(false)
     }
   }
+
+  useEffect(function() {
+    if (!props.show || !props.autoStart) return
+    startPicker()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.show, props.autoStart])
 
   return (
     <Modal show={props.show} onHide={function() {}} backdrop="static" keyboard={false} centered>
@@ -146,5 +155,5 @@ export default function SheetImageGooglePhotosModal(props) {
         </Button>
       </Modal.Footer>
     </Modal>
-  );
+  )
 }

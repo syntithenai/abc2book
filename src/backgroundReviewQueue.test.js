@@ -54,7 +54,7 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(2)
   })
 
-  test('tracks media analysis ready for review', function() {
+  test('completed media analysis is not Import Review ready', function() {
     patchMediaAnalysisJob('t1', {
       isAnalyzing: false,
       analysis: {
@@ -62,12 +62,7 @@ describe('backgroundReviewQueue', function() {
       },
     })
 
-    let summary = getBackgroundReviewSummary()
-    expect(summary.mediaReady).toEqual(['t1'])
-    expect(summary.ready).toBe(1)
-
-    markMediaAnalysisReviewed('t1')
-    summary = getBackgroundReviewSummary()
+    const summary = getBackgroundReviewSummary()
     expect(summary.mediaReady).toEqual([])
     expect(summary.ready).toBe(0)
   })
@@ -87,8 +82,8 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(0)
   })
 
-  test('counts awaiting field lookup jobs ready for review', function() {
-    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+  test('awaiting field lookup jobs are not Import Review ready', function() {
+    tuneFieldLookupQueue.seedAwaitingLookup({
       tuneId: 't1',
       kind: 'composer',
       title: 'Wonderwall',
@@ -98,10 +93,9 @@ describe('backgroundReviewQueue', function() {
       ],
     })
     const summary = getBackgroundReviewSummary()
-    expect(summary.fieldLookupAwaiting).toEqual([id])
-    expect(summary.fieldLookupAwaitingJobs.length).toBe(1)
-    expect(summary.fieldLookupAwaitingJobs[0].kind).toBe('composer')
-    expect(summary.ready).toBe(1)
+    expect(summary.fieldLookupAwaiting).toEqual([])
+    expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
+    expect(summary.ready).toBe(0)
   })
 
   test('excludes field lookup jobs already linked into import review', function() {
@@ -168,7 +162,7 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(0)
   })
 
-  test('orphan review links are cleared so jobs count again until re-promoted', function() {
+  test('orphan review links clear without becoming Import Review ready', function() {
     const id = tuneFieldLookupQueue.seedAwaitingLookup({
       tuneId: 't1',
       kind: 'composer',
@@ -181,7 +175,7 @@ describe('backgroundReviewQueue', function() {
 
     const cleared = tuneFieldLookupQueue.clearOrphanFieldLookupReviewLinks(null)
     expect(cleared).toBe(1)
-    expect(getBackgroundReviewSummary().ready).toBe(1)
-    expect(getBackgroundReviewSummary().fieldLookupAwaiting).toEqual([id])
+    expect(getBackgroundReviewSummary().ready).toBe(0)
+    expect(getBackgroundReviewSummary().fieldLookupAwaiting).toEqual([])
   })
 })

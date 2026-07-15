@@ -91,6 +91,12 @@ export default function NotationSearchButton({
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
 
   function openAwaitingPicker(job) {
     const candidates = job && Array.isArray(job.candidates) ? job.candidates : []
@@ -99,6 +105,12 @@ export default function NotationSearchButton({
     setPickerCandidates(candidates)
     setShowPicker(true)
     return true
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
   }
 
   function run(mode) {
@@ -112,12 +124,10 @@ export default function NotationSearchButton({
       lookup.cancel()
       return
     }
-    // Re-click while results are awaiting: reopen picker instead of silently no-op.
-    const active = lookup.activeJob
-    if (active && active.status === 'awaiting' && openAwaitingPicker(active)) {
-      return
+    // New Search clears prior suggestions for this kind.
+    if (lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      clearAwaitingSuggestions()
     }
-    // Always Review — ignore any Auto mode from shared button chrome.
     void mode
     setError('')
     setShowPicker(false)
@@ -142,16 +152,19 @@ export default function NotationSearchButton({
     <>
       <FieldLookupButtonGroup
         automaticLookup={true}
+        showExternal={false}
         busy={busy}
         disabled={!canSearch || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         onSearch={run}
+        suggestionCount={awaitingCandidates.length}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={function() { openAwaitingPicker(awaitingJob) }}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
-        confirmSearchMode={false}
-        defaultSearchMode="review"
+        progress={lookup.progressPercent}
       />
       <SearchProgressBar
         visible={busy}

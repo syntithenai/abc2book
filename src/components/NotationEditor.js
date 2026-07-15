@@ -47,6 +47,8 @@ import {
   addToneToEvent,
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
+  insertEmptyMeasureAtCaret,
+  respellEnharmonicSelection,
 } from '../notation/notationActions';
 import {
   copyToClipboard,
@@ -73,22 +75,32 @@ import { beatsPerBarFromMeter } from '../notation/beatGrid';
 import { eventIdFromStaffNoteElement, findStaffClickNoteEl, caretIndexAndAnchorFromStaffClick, findBarlineEventAtClick, staffMarqueeSelectEventIds } from '../notation/staffCaretPosition';
 import { resolveStaffClick } from '../notation/staffClickResolve';
 import useMidiInput from '../notation/useMidiInput';
+import useToolbarExpand from '../notation/useToolbarExpand';
 import {
   toggleTie,
   toggleDecoration,
   clearSlurOnSelection,
   handleSlurModeClick,
+  applySlurFromSelection,
   insertGraceBeforeSelection,
+  applyTupletToSelection,
+  setBeamBreakBeforeSelection,
+  findSlurGroupForSelection,
+  reassignSlurEndpoints,
 } from '../notation/notationMarks';
-import { createEventId } from '../notation/voiceEventModel';
+import { createEventId, eventMidiPitch, eventMelodicMidiPitch } from '../notation/voiceEventModel';
 import {
   appendMidiRecordNote,
   midiRecordBufferToEvents,
 } from '../notation/notationMidiRecord';
+import { useNoteAudition } from '../hooks/useNoteAudition';
 import './NotationEditor.css';
 
 export default function NotationEditor(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
+  const { auditionMidi } = useNoteAudition();
+  const auditionMidiRef = useRef(auditionMidi);
+  auditionMidiRef.current = auditionMidi;
   const tuneMeta = useMemo(function() {
     return {
       meter: props.tune.meter || '4/4',
@@ -107,13 +119,31 @@ export default function NotationEditor(props) {
       return initial;
     }
   );
+  const sessionRef = useRef(session);
 
   const staffRef = useRef(null);
   const staffWrapRef = useRef(null);
+  const editingControlsRef = useRef(null);
+  const expandFlags = useToolbarExpand(editingControlsRef);
   const staffDragTargetRef = useRef(null);
   const staffDragPointerRef = useRef(null);
   const staffMarqueeRef = useRef(null);
+  const slurDragRef = useRef(null);
+  const [slurSnapEventId, setSlurSnapEventId] = useState(null);
   const displayedVoiceKeysRef = useRef([]);
+
+  function auditionEvent(ev, toneIndex) {
+    if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) return;
+    const midi = eventMidiPitch(ev, toneIndex) || eventMelodicMidiPitch(ev);
+    if (midi != null && auditionMidiRef.current) auditionMidiRef.current(midi);
+  }
+
+  function auditionSelection(sessionLike) {
+    const s = sessionLike || sessionRef.current;
+    if (!s || !s.selection || !s.selection.eventIds || !s.selection.eventIds.length) return;
+    const ev = s.events.find(function(e) { return e.id === s.selection.eventIds[0]; });
+    auditionEvent(ev, s.selection.toneIndex);
+  }
   const lastNoteSelectionRef = useRef({ eventIds: [], toneIndex: null, anchorId: null });
   const staffDragSuppressClickRef = useRef(false);
   const staffInputHandledRef = useRef(false);
@@ -157,6 +187,7 @@ export default function NotationEditor(props) {
     syncSessionAction({ type: 'SET_CARET', index: index });
   }, [syncSessionAction]);
   const [showQuantize, setShowQuantize] = useState(false);
+  const [quantizeNoChangeHint, setQuantizeNoChangeHint] = useState(null);
   const [showWizard, setShowWizard] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showWalkthrough, setShowWalkthrough] = useState(false);
@@ -181,7 +212,6 @@ export default function NotationEditor(props) {
   const splitDragRef = useRef(null);
   const commitDebounce = useRef(null);
   const abcSaveDebounce = useRef(null);
-  const sessionRef = useRef(session);
   const midiRecordBufferRef = useRef([]);
   const skipExternalLoad = useRef(false);
   const prevLoadedVoiceKeyRef = useRef(props.voiceKey);
@@ -526,6 +556,7 @@ export default function NotationEditor(props) {
     window.setTimeout(function() {
       applyEvents(patch, EDITOR_VIEWS.STAFF, 'Drag pitch');
       setCaretIndex(nextCaret);
+      auditionSelection(Object.assign({}, sessionWithSelection, { events: patch.events, selection: sessionWithSelection.selection }));
       window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
     }, 0);
   };
@@ -860,7 +891,25 @@ export default function NotationEditor(props) {
       let delta = action.delta;
       if (action.action === 'transposeOctave') delta *= 12;
       if (action.action === 'transposeDiatonic') delta *= 2;
-      applyEvents(transposeSelection(s, delta, s.selection.toneIndex), EDITOR_VIEWS.STAFF, 'Transpose');
+      const patch = transposeSelection(s, delta, s.selection.toneIndex);
+      applyEvents(patch, EDITOR_VIEWS.STAFF, 'Transpose');
+      if (patch) auditionSelection(Object.assign({}, s, { events: patch.events }));
+      return;
+    }
+    if (action.action === 'insertMeasure') {
+      applyEvents(patchAfterLayoutInsert(s, insertEmptyMeasureAtCaret(sessionForCaretInsert(s))), s.view, 'Insert measure');
+      return;
+    }
+    if (action.action === 'respellEnharmonic') {
+      const editSession = sessionWithEditSelection(s);
+      const patch = respellEnharmonicSelection(editSession);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Enharmonic respell');
+      return;
+    }
+    if (action.action === 'beamBreak') {
+      const editSession = sessionWithEditSelection(s);
+      const patch = setBeamBreakBeforeSelection(editSession);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Beam break');
       return;
     }
     if (action.action === 'deleteToRest') {
@@ -1300,6 +1349,55 @@ export default function NotationEditor(props) {
     });
     setCaretIndex(idx);
     focusStaffEditor();
+    auditionEvent(ev, null);
+  }
+
+  function handleSlurHandlePointerDown(e, which, slurGroup) {
+    if (!e || !slurGroup) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const fixedId = which === 'start' ? slurGroup.endId : slurGroup.startId;
+    slurDragRef.current = {
+      fixedId: fixedId,
+      movingEnd: which,
+      groupId: slurGroup.groupId,
+      snapId: which === 'start' ? slurGroup.startId : slurGroup.endId,
+    };
+    setSlurSnapEventId(slurDragRef.current.snapId);
+    staffDragSuppressClickRef.current = true;
+
+    function onMove(ev) {
+      const drag = slurDragRef.current;
+      if (!drag) return;
+      const wrap = staffWrapRef.current;
+      const s = sessionRef.current;
+      if (!wrap || !s) return;
+      const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
+      const hitId = eventIdFromStaffNoteElement(wrap, s.events, ev, null, voiceStaffIdx);
+      if (!hitId || hitId === drag.fixedId) return;
+      const hitEv = s.events.find(function(x) { return x.id === hitId; });
+      if (!hitEv || (hitEv.type !== 'note' && hitEv.type !== 'chord')) return;
+      drag.snapId = hitId;
+      setSlurSnapEventId(hitId);
+    }
+
+    function onUp() {
+      window.removeEventListener('pointermove', onMove, true);
+      window.removeEventListener('pointerup', onUp, true);
+      window.removeEventListener('mouseup', onUp, true);
+      const drag = slurDragRef.current;
+      slurDragRef.current = null;
+      setSlurSnapEventId(null);
+      window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+      if (!drag || !drag.snapId || drag.snapId === drag.fixedId) return;
+      const s = sessionRef.current;
+      const patch = reassignSlurEndpoints(s, drag.fixedId, drag.snapId, drag.groupId);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Move slur end');
+    }
+
+    window.addEventListener('pointermove', onMove, true);
+    window.addEventListener('pointerup', onUp, true);
+    window.addEventListener('mouseup', onUp, true);
   }
 
   function handleAbcTextChange(voiceKey, value) {
@@ -1373,9 +1471,27 @@ export default function NotationEditor(props) {
       return;
     }
     if (key === '_slurMode') {
-      const next = notationSessionReducer(s, { type: 'SET_SLUR_MODE', value: !s.slurMode });
-      sessionRef.current = next;
-      dispatch({ type: 'SET_SLUR_MODE', value: !s.slurMode });
+      if (s.slurMode) {
+        const next = notationSessionReducer(s, { type: 'SET_SLUR_MODE', value: false });
+        sessionRef.current = next;
+        dispatch({ type: 'SET_SLUR_MODE', value: false });
+        return;
+      }
+      const result = applySlurFromSelection(s);
+      if (result && result.events) {
+        applyEvents(result, EDITOR_VIEWS.STAFF, 'Slur');
+        return;
+      }
+      if (result && result.enterMode) {
+        const next = notationSessionReducer(s, { type: 'SET_SLUR_MODE', value: true });
+        let withPending = next;
+        if (result.pendingStartId) {
+          withPending = notationSessionReducer(next, { type: 'SET_SLUR_PENDING', id: result.pendingStartId });
+          dispatch({ type: 'SET_SLUR_PENDING', id: result.pendingStartId });
+        }
+        sessionRef.current = withPending;
+        dispatch({ type: 'SET_SLUR_MODE', value: true });
+      }
       return;
     }
     if (key === '_clearSlur') {
@@ -1388,18 +1504,44 @@ export default function NotationEditor(props) {
   }
 
   function handleTupletAction(action) {
-    const s = sessionRef.current;
+    const s = sessionWithEditSelection(sessionRef.current);
     if (action === '_endTuplet') {
       dispatch({ type: 'SET_TUPLET_MODE', tupletMode: null });
       return;
     }
-    if (action === '_triplet') {
+    if (action === '_beamBreak') {
+      const patch = setBeamBreakBeforeSelection(s);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Beam break');
+      return;
+    }
+    const noteSelCount = ((s.selection && s.selection.eventIds) || []).filter(function(id) {
+      const ev = s.events.find(function(e) { return e.id === id; });
+      return ev && (ev.type === 'note' || ev.type === 'chord' || ev.type === 'rest');
+    }).length;
+
+    function startOrApplyTuplet(preset) {
+      if (noteSelCount >= 2) {
+        const patch = applyTupletToSelection(s, preset);
+        if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Apply tuplet');
+        return;
+      }
       dispatch({
         type: 'SET_TUPLET_MODE',
         tupletMode: {
-          num: 3, den: 2, groupId: createEventId('tup'), notesEntered: 0, size: 3,
+          num: preset.num,
+          den: preset.den,
+          groupId: createEventId('tup'),
+          notesEntered: 0,
+          size: preset.size || preset.num,
         },
       });
+      if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
+        dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NOTE_INPUT });
+      }
+    }
+
+    if (action === '_triplet') {
+      startOrApplyTuplet({ num: 3, den: 2, size: 3 });
       return;
     }
     if (action === '_graceAcci') {
@@ -1413,16 +1555,7 @@ export default function NotationEditor(props) {
       return;
     }
     if (action && action.num) {
-      dispatch({
-        type: 'SET_TUPLET_MODE',
-        tupletMode: {
-          num: action.num,
-          den: action.den,
-          groupId: createEventId('tup'),
-          notesEntered: 0,
-          size: action.num,
-        },
-      });
+      startOrApplyTuplet(action);
     }
   }
 
@@ -1824,6 +1957,8 @@ export default function NotationEditor(props) {
         clickRects={selectionClickRects}
         dragPreview={pitchDragPreview}
         marqueeRect={marqueeClientRect}
+        slurSnapEventId={slurSnapEventId}
+        onSlurHandlePointerDown={handleSlurHandlePointerDown}
       />
       <GhostNoteOverlay session={session} />
     </div>
@@ -1894,10 +2029,9 @@ export default function NotationEditor(props) {
       ) : null}
 
       {isStaffLikeView ? (
-        <div className="notation-editing-controls">
-          <div className="d-flex align-items-start gap-2 flex-wrap">
-            <div style={{ flex: '1 1 auto', minWidth: 0 }}>
-              <NotationToolbar
+        <div className="notation-editing-controls" ref={editingControlsRef}>
+          <div className="notation-editing-controls-main">
+            <NotationToolbar
                 session={session}
                 tunebook={props.tunebook}
                 midi={midi}
@@ -1920,12 +2054,21 @@ export default function NotationEditor(props) {
                 onDeleteVoice={props.onDeleteVoice}
                 onOpenWizard={function() { setShowWizard(true); }}
                 onOpenHelp={function() { setShowHelp(true); }}
-                onQuantize={function() { setShowQuantize(true); }}
+                onQuantize={function() {
+                  setQuantizeNoChangeHint(null);
+                  setShowQuantize(true);
+                }}
                 onInsertSystemBreak={function() {
                   insertLayout(insertSystemBreakAtCaret, 'Insert system break');
                 }}
                 onInsertBarline={function(barToken) {
                   insertLayout(function(s) { return insertBarlineAtCaret(s, barToken); }, 'Insert bar line');
+                }}
+                onInsertMeasure={function() {
+                  handleShortcutAction({ action: 'insertMeasure' });
+                }}
+                onBeamBreak={function() {
+                  handleShortcutAction({ action: 'beamBreak' });
                 }}
                 onToggleTie={handleToggleTie}
                 onMarkAction={handleMarkAction}
@@ -1934,10 +2077,12 @@ export default function NotationEditor(props) {
                 onApplyRecord={handleApplyRecord}
                 onDiscardRecord={handleDiscardRecord}
                 pendingRecordCount={pendingRecordCount}
+                expandFlags={expandFlags}
               />
               <NotationDurationToolbar
             session={session}
             dispatch={dispatch}
+            expandFlags={expandFlags}
             onToggleNoteInput={function() {
               handleShortcutAction({ action: 'toggleNoteInput' });
             }}
@@ -1958,13 +2103,12 @@ export default function NotationEditor(props) {
               insertLayout(insertSystemBreakAtCaret, 'Insert system break');
             }}
           />
-            </div>
-            {props.toolbarEnd ? (
-              <div className="notation-toolbar-end" style={{ marginLeft: 'auto', flex: '0 0 auto' }}>
-                {props.toolbarEnd}
-              </div>
-            ) : null}
           </div>
+          {props.toolbarEnd ? (
+            <div className="notation-toolbar-end">
+              {props.toolbarEnd}
+            </div>
+          ) : null}
         </div>
       ) : null}
 
@@ -2089,7 +2233,11 @@ export default function NotationEditor(props) {
 
       <QuantizeDialog
         show={showQuantize}
-        onHide={function() { setShowQuantize(false); }}
+        noChangeHint={quantizeNoChangeHint}
+        onHide={function() {
+          setShowQuantize(false);
+          setQuantizeNoChangeHint(null);
+        }}
         onApply={function(opts) {
           const s = sessionRef.current;
           dispatch({ type: 'SET_LAST_QUANTIZE_OPTIONS', options: opts });
@@ -2104,6 +2252,13 @@ export default function NotationEditor(props) {
             beatsPerBar: beatsPerBarFromMeter(tuneMeta.meter),
             tempo: tuneMeta.tempo,
           }));
+          if (quantized.unchanged) {
+            setQuantizeNoChangeHint(
+              'Already on the grid — nothing changed. Nudge notes off the beat (or lower subdivision) to hear a difference.'
+            );
+            return;
+          }
+          setQuantizeNoChangeHint(null);
           const merged = rest.concat(quantized).sort(function(a, b) {
             return (a.startBeat || 0) - (b.startBeat || 0);
           });

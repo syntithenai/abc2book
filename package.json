@@ -80,6 +80,7 @@
     "test:notation:e2e": "node e2e/notation-e2e.js",
     "test:notation:e2e:headed": "HEADLESS=0 node e2e/notation-e2e.js",
     "test:notation:all": "npm test -- --watchAll=false --testPathPattern=notation && npm run test:notation:e2e",
+    "docs:musescore-handbook": "bash ./scripts/fetch-musescore-handbook.sh",
     "eject": "react-scripts eject",
     "serveextras": "ws --cors.origin=* -p 4000",
     "start:soundfonts": "ws --cors.origin=* -p 4000"

@@ -12,7 +12,7 @@ export default function NotationDurationDropdown(props) {
   }
 
   return (
-    <Dropdown as={ButtonGroup} className="notation-duration-dropdown d-lg-none">
+    <Dropdown as={ButtonGroup} className="notation-duration-dropdown">
       <Button
         size="lg"
         variant={session.durationKey ? 'primary' : 'outline-secondary'}

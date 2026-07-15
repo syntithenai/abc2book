@@ -74,6 +74,12 @@ export default function ArtistsSearchButton({
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
+  const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+    ? lookup.activeJob
+    : null
+  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
+    ? awaitingJob.candidates
+    : []
 
   function closePicker(dismissJob) {
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
@@ -85,11 +91,31 @@ export default function ArtistsSearchButton({
     if (dismissJob && jobId) dismissFieldLookup(jobId)
   }
 
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    setError('')
+    addedRef.current = false
+    setSelectedIndexes([])
+    setPickerCandidates(awaitingCandidates)
+    setShowPicker(true)
+  }
+
+  function clearAwaitingSuggestions() {
+    lookup.dismiss()
+    setShowPicker(false)
+    setPickerCandidates([])
+    setSelectedIndexes([])
+  }
+
   function run(mode) {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
+    }
+    // New Search clears prior suggestions for this kind.
+    if (awaitingCandidates.length > 0) {
+      clearAwaitingSuggestions()
     }
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
@@ -112,14 +138,19 @@ export default function ArtistsSearchButton({
     <>
       <FieldLookupButtonGroup
         automaticLookup={true}
+        showExternal={false}
         busy={busy}
         disabled={!canSearch || disabled}
         externalUrl={googleUrl}
         externalLinkIcon={externalLinkIcon}
         onSearch={run}
+        suggestionCount={awaitingCandidates.length}
+        onClearSuggestions={clearAwaitingSuggestions}
+        onOpenSuggestions={openAwaitingSuggestions}
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
+        progress={lookup.progressPercent}
       />
       <SearchProgressBar
         visible={busy}

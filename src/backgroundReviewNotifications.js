@@ -4,7 +4,6 @@ import { subscribeBackgroundReviewQueue } from './backgroundReviewQueue'
 import { syncBackgroundReviewToast } from './backgroundReviewToast'
 import {
   isImportReviewUiVisible,
-  openImportReviewFromToast,
   subscribeImportReviewSession,
 } from './importReviewSessionStore'
 import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
@@ -20,7 +19,7 @@ export default function BackgroundReviewNotifications(props) {
 
   useEffect(function() {
     function navigateToReview() {
-      openImportReviewFromToast()
+      // /review is the search-suggestions list (not Import Review).
       navigate('/review')
     }
 

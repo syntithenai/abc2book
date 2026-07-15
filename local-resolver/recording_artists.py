@@ -124,7 +124,9 @@ def _work_title_matches(work_title, search_title):
 
 
 async def _discover_writers_from_work(client, work_id):
+    """Return (writer_names, recording_count_proxy) for a MusicBrainz work."""
     writers = {}
+    recording_count = 0
     try:
         response = await client.get(
             f"https://musicbrainz.org/ws/2/work/{work_id}",
@@ -135,29 +137,69 @@ async def _discover_writers_from_work(client, work_id):
             headers={"User-Agent": BROWSER_USER_AGENT},
         )
         response.raise_for_status()
-        relations = (response.json() or {}).get("relations") or []
+        data = response.json() or {}
+        relations = data.get("relations") or []
         for relation in relations:
             rel_type = (relation.get("type") or "").strip().lower()
+            if rel_type == "performance":
+                recording_count += 1
+                continue
             if rel_type not in WRITER_RELATION_TYPES:
                 continue
             artist = relation.get("artist") or {}
             _add_artist(writers, artist.get("name"))
+        for key in ("recording-count", "recording_count"):
+            raw = data.get(key)
+            if isinstance(raw, int) and raw > recording_count:
+                recording_count = raw
+                break
     except Exception:
         pass
-    return list(writers.values())
+    return list(writers.values()), recording_count
 
 
-async def discover_work_writers(client, title, max_writers=6, max_works=8):
-    """Find composers/lyricists/writers for a song via MusicBrainz works.
+def _work_recording_count(work):
+    for key in ("recording-count", "recording_count"):
+        raw = (work or {}).get(key)
+        if isinstance(raw, int) and raw >= 0:
+            return raw
+    return 0
 
-    Tries claire/clair/clare title variants and collects writers from all
-    exact-title works with score >= 70 (homonymous songs are common).
+
+def _update_writer_prominence(store, name, score=0, recording_count=0):
+    cleaned = (name or "").strip()
+    if not cleaned or is_generic_artist(cleaned):
+        return
+    key = normalize_artist_key(cleaned)
+    if not key:
+        return
+    existing = store.get(key)
+    if not existing:
+        store[key] = {
+            "artist": cleaned,
+            "recording_count": int(recording_count or 0),
+            "score": int(score or 0),
+        }
+        return
+    existing["recording_count"] = max(
+        existing.get("recording_count") or 0,
+        int(recording_count or 0),
+    )
+    existing["score"] = max(existing.get("score") or 0, int(score or 0))
+
+
+async def discover_work_writers_with_prominence(
+    client, title, max_writers=6, max_works=8
+):
+    """Find work writers with MB prominence (recording-count + search score).
+
+    Returns a list of dicts: {artist, recording_count, score}, insertion-ordered.
     """
     title = (title or "").strip()
     if not title:
         return []
 
-    writers = {}
+    prominence = {}
     exact_works = []
     seen_work_ids = set()
 
@@ -199,14 +241,38 @@ async def discover_work_writers(client, title, max_writers=6, max_works=8):
     selected = [work for _score, work in exact_works][:max_works]
 
     for work in selected:
-        if len(writers) >= max_writers:
+        if len(prominence) >= max_writers:
             break
-        for name in await _discover_writers_from_work(client, work.get("id")):
-            _add_artist(writers, name)
-            if len(writers) >= max_writers:
-                break
+        score = work.get("score")
+        if score is None:
+            score = 0
+        search_rc = _work_recording_count(work)
+        names, lookup_rc = await _discover_writers_from_work(client, work.get("id"))
+        recording_count = max(search_rc, lookup_rc)
+        for name in names:
+            key = normalize_artist_key(name)
+            if key not in prominence and len(prominence) >= max_writers:
+                continue
+            _update_writer_prominence(
+                prominence,
+                name,
+                score=score,
+                recording_count=recording_count,
+            )
 
-    return list(writers.values())[:max_writers]
+    return list(prominence.values())[:max_writers]
+
+
+async def discover_work_writers(client, title, max_writers=6, max_works=8):
+    """Find composers/lyricists/writers for a song via MusicBrainz works.
+
+    Tries claire/clair/clare title variants and collects writers from all
+    exact-title works with score >= 70 (homonymous songs are common).
+    """
+    enriched = await discover_work_writers_with_prominence(
+        client, title, max_writers=max_writers, max_works=max_works
+    )
+    return [entry["artist"] for entry in enriched]
 
 
 async def discover_recording_artists(client, title, max_artists=8):

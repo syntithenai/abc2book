@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import io
+import os
 import re
+import subprocess
+import tempfile
 import zipfile
 from urllib.parse import urljoin, urlparse
 
@@ -14,6 +17,7 @@ from polite_fetch import browser_headers
 from tune_background_research import search_web
 
 MUSESCORE_FETCH_TIMEOUT_SECONDS = 20.0
+MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS = 60.0
 MAX_MUSESCORE_SEARCH_URLS = 5
 MUSESCORE_HOST_SUFFIXES = ("musescore.com",)
 
@@ -60,7 +64,7 @@ MUSICXML_MARKERS = (
 class MuseScoreDownloadUnavailable(ValueError):
     """Raised when a MuseScore score cannot be downloaded without auth/Pro."""
 
-    def __init__(self, message=None):
+    def __init__(self, message=None, source=None):
         super().__init__(
             message
             or (
@@ -69,11 +73,108 @@ class MuseScoreDownloadUnavailable(ValueError):
                 "Select a file in ABC Tune Book."
             )
         )
+        self.source = source or "unknown"
 
 
 async def _emit_progress(on_progress, stage, message, progress):
     if on_progress:
         await on_progress(stage, message, progress)
+
+
+async def fetch_musescore_url_with_librescore(score_id, on_progress=None, client=None, page_url=""):
+    """
+    Attempt to fetch a MuseScore score using LibreScore's dl-librescore CLI.
+    This is a fallback when the direct method fails.
+    """
+    await _emit_progress(on_progress, "librescore", "Attempting download via LibreScore...", 0.3)
+
+    try:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_dir = os.path.join(temp_dir, "librescore_output")
+            os.makedirs(output_dir, exist_ok=True)
+
+            score_url = f"https://musescore.com/score/{score_id}"
+            cmd = [
+                "npx",
+                "dl-librescore@latest",
+                score_url,
+                "-o", output_dir
+            ]
+
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS)
+
+            if result.returncode != 0:
+                raise MuseScoreDownloadUnavailable(
+                    f"LibreScore CLI failed: {result.stderr}",
+                    source="librescore"
+                )
+
+            downloaded_files = os.listdir(output_dir)
+            mscz_file = None
+            for f in downloaded_files:
+                if f.endswith('.mscz'):
+                    mscz_file = os.path.join(output_dir, f)
+                    break
+
+            if not mscz_file:
+                raise MuseScoreDownloadUnavailable(
+                    "LibreScore downloaded a file, but it was not a .mscz file.",
+                    source="librescore"
+                )
+
+            # Convert .mscz to MXL via MuseScore CLI (Docker extracts AppImage as mscore).
+            mxl_output = os.path.join(temp_dir, "output.mxl")
+            convert_attempts = (
+                ("xvfb-run", "-a", "mscore", "-o", mxl_output, mscz_file),
+                ("xvfb-run", "-a", "musescore", "-o", mxl_output, mscz_file),
+                ("mscore", "-o", mxl_output, mscz_file),
+                ("musescore", "-o", mxl_output, mscz_file),
+            )
+            convert_result = None
+            last_error = ""
+            for convert_cmd in convert_attempts:
+                try:
+                    convert_result = subprocess.run(
+                        list(convert_cmd),
+                        capture_output=True,
+                        text=True,
+                        timeout=MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS,
+                    )
+                except FileNotFoundError:
+                    last_error = "Command not found: {0}".format(convert_cmd[0])
+                    continue
+                if convert_result.returncode == 0:
+                    break
+                last_error = (convert_result.stderr or convert_result.stdout or "").strip()
+            else:
+                raise MuseScoreDownloadUnavailable(
+                    "MuseScore conversion failed: {0}".format(last_error or "unknown error"),
+                    source="librescore",
+                )
+
+            # Read the converted MXL file
+            with open(mxl_output, 'rb') as f:
+                mxl_data = f.read()
+                
+            return extract_musicxml_from_mxl_bytes(mxl_data)
+
+    except MuseScoreDownloadUnavailable:
+        raise
+    except FileNotFoundError:
+        raise MuseScoreDownloadUnavailable(
+            "The 'npx' command was not found. Node.js is required for the LibreScore fallback.",
+            source="librescore"
+        )
+    except subprocess.TimeoutExpired:
+        raise MuseScoreDownloadUnavailable(
+            "LibreScore download timed out.",
+            source="librescore"
+        )
+    except Exception as e:
+        raise MuseScoreDownloadUnavailable(
+            f"LibreScore fallback failed: {str(e)}",
+            source="librescore"
+        )
 
 
 def _strip_www(hostname):
@@ -200,6 +301,9 @@ def _clean_html_text(value):
     return text
 
 
+MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS = 60.0
+
+
 def extract_musescore_page_meta(html, page_url=""):
     """Pull title/artist/score id from score page HTML."""
     text = str(html or "")
@@ -313,7 +417,7 @@ def extract_musicxml_download_urls(html, page_url=""):
     return ordered
 
 
-def annotate_musescore_candidate(music_xml, title="", artist="", source_url="", score_id=""):
+def annotate_musescore_candidate(music_xml, title="", artist="", source_url="", score_id="", source="musescore.com"):
     tune_meta = {
         "srcUrl": source_url or "",
     }
@@ -328,7 +432,7 @@ def annotate_musescore_candidate(music_xml, title="", artist="", source_url="", 
         "musicXml": music_xml,
         "title": title or "",
         "artist": artist or "",
-        "source": "musescore.com",
+        "source": source if source in ("musescore.com", "librescore") else "musescore.com",
         "sourceUrl": source_url or "",
         "preview": "",
         "titleOnly": not bool(title),
@@ -381,6 +485,7 @@ async def _musicxml_from_download_response(response):
 async def fetch_musescore_url(url, on_progress=None, client=None):
     """
     Load a MuseScore.com score page and attempt an unauthenticated MusicXML/MXL download.
+    Falls back to LibreScore if direct download fails.
     Returns a notation-style candidate with musicXml (abc empty for client conversion).
     """
     parsed = parse_musescore_score_url(url)
@@ -388,6 +493,7 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
         raise ValueError("Not a supported MuseScore.com score URL")
 
     page_url = parsed["url"]
+    score_id = parsed["scoreId"]
     await _emit_progress(on_progress, "musescore", "Fetching MuseScore score page...", 0.2)
 
     owns_client = client is None
@@ -402,15 +508,16 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
         if page.blocked_reason == "challenge_html":
             raise MuseScoreDownloadUnavailable(
                 "MuseScore.com blocked automated access (bot challenge). "
-                "Export MusicXML/.mxl from the site and import the file instead."
+                "Export MusicXML/.mxl from the site and import the file instead.",
+                source="musescore.com"
             )
         if page.status >= 400 or not html.strip():
             raise MuseScoreDownloadUnavailable(
-                "Could not load this MuseScore.com score page for download."
+                "Could not load this MuseScore.com score page for download.",
+                source="musescore.com"
             )
 
         meta = extract_musescore_page_meta(html, final_url)
-        score_id = meta.get("scoreId") or parsed["scoreId"]
         title = meta.get("title") or ""
         artist = meta.get("artist") or ""
 
@@ -435,6 +542,7 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
                         artist=artist,
                         source_url=page_url,
                         score_id=score_id,
+                        source="musescore.com"
                     )
             except MuseScoreDownloadUnavailable as exc:
                 last_error = exc
@@ -456,17 +564,51 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
                         artist=artist,
                         source_url=page_url,
                         score_id=score_id,
+                        source="musescore.com"
                     )
             except MuseScoreDownloadUnavailable:
                 raise
             except Exception:
                 continue
 
+        # If direct download fails, attempt LibreScore fallback
         if page_looks_paywalled(html) or last_error is not None:
-            raise MuseScoreDownloadUnavailable()
+            await _emit_progress(
+                on_progress,
+                "librescore",
+                "Direct download failed. Attempting LibreScore fallback...",
+                0.7
+            )
+            try:
+                librescore_xml = await fetch_musescore_url_with_librescore(
+                    score_id=score_id,
+                    on_progress=on_progress,
+                    client=client,
+                    page_url=page_url,
+                )
+                if librescore_xml:
+                    await _emit_progress(on_progress, "librescore", "LibreScore MusicXML ready", 1.0)
+                    return annotate_musescore_candidate(
+                        librescore_xml,
+                        title=title,
+                        artist=artist,
+                        source_url=page_url,
+                        score_id=score_id,
+                        source="librescore"
+                    )
+            except MuseScoreDownloadUnavailable as librescore_exc:
+                # LibreScore also failed, but we don't want to abort the search
+                # The caller will handle this exception
+                pass
+
+        # All attempts failed
+        if last_error is not None:
+            raise last_error
         raise MuseScoreDownloadUnavailable(
-            "No public MusicXML/.mxl download was found on this MuseScore.com page. "
-            "Export MusicXML from MuseScore.com and use Score file import."
+            "No public MusicXML/.mxl download was found on this MuseScore.com page, "
+            "and the LibreScore fallback was also unsuccessful. "
+            "Export MusicXML from MuseScore.com and use Score file import.",
+            source="musescore.com"
         )
     finally:
         if owns_client:
@@ -572,6 +714,8 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
                 client=client,
             )
         except MuseScoreDownloadUnavailable:
+            # LibreScore also failed or direct download was unavailable
+            # This is not an error - we'll fall back to ABC/MIDI sources
             await _emit_progress(
                 on_progress,
                 "musescore",
@@ -580,6 +724,7 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
             )
             continue
         except Exception:
+            # Unexpected error - skip this score but continue search
             continue
         if candidate:
             candidates.append(candidate)

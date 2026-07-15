@@ -10,7 +10,7 @@ const ACCIDENTAL_OPTIONS = [
 ];
 
 export default function NotationAccidentalDropdown(props) {
-  const { session, dispatch, onApplyAccidental } = props;
+  const { session, dispatch, onApplyAccidental, expanded } = props;
   const carry = session.accidentalCarry;
   const current = ACCIDENTAL_OPTIONS.find(function(o) { return o.value === carry; });
   const mainLabel = current ? current.label : '♮';
@@ -22,6 +22,24 @@ export default function NotationAccidentalDropdown(props) {
       return;
     }
     dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: value });
+  }
+
+  if (expanded) {
+    return (
+      <ButtonGroup className="notation-accidental-buttons" data-testid="notation-accidental-menu" aria-label="Accidentals">
+        {ACCIDENTAL_OPTIONS.map(function(opt) {
+          return (
+            <Button
+              key={opt.value}
+              size="lg"
+              variant={carry === opt.value ? 'primary' : 'outline-secondary'}
+              title={opt.title}
+              onClick={function() { apply(opt.value); }}
+            >{opt.label}</Button>
+          );
+        })}
+      </ButtonGroup>
+    );
   }
 
   return (

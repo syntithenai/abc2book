@@ -799,50 +799,93 @@ def _candidate_import_format(candidate):
     return "abc"
 
 
+MAX_NOTATION_CANDIDATES = 20
+SOURCE_BONUS_MUSESCORE = 30
+SOURCE_BONUS_ABC = 10
+SOURCE_BONUS_MIDI = -45
+MIN_ABC_BASE_SCORE = 30
+MIN_MIDI_BASE_SCORE = 45
+
+
+def notation_source_bonus(candidate):
+    """Rank preference: MuseScore up, ABC slight boost, MIDI demoted."""
+    import_format = _candidate_import_format(candidate)
+    if import_format == "midi":
+        return SOURCE_BONUS_MIDI
+    if (
+        import_format in ("musescore", "musicxml")
+        or str((candidate or {}).get("source") or "").lower() == "musescore.com"
+    ):
+        return SOURCE_BONUS_MUSESCORE
+    return SOURCE_BONUS_ABC
+
+
+def notation_priority_score(candidate, title, artist):
+    base = notation_candidate_score(candidate, title, artist)
+    return base + notation_source_bonus(candidate)
+
+
+def _with_match_score(candidate, score):
+    out = dict(candidate or {})
+    out["matchScore"] = int(score)
+    return out
+
+
 def finalize_notation_candidates(candidates, title, artist):
-    """Rank/filter candidates; demote weak ABC when MuseScore/MIDI exist."""
+    """Rank/filter candidates with source weights; return up to 20."""
     usable = [
         candidate for candidate in (candidates or [])
         if _candidate_has_usable_payload(candidate)
     ]
-    has_alt = any(
-        _candidate_import_format(candidate) in ("midi", "musescore", "musicxml")
-        or str(candidate.get("source") or "").lower() == "musescore.com"
-        or ((candidate.get("tuneMeta") or {}).get("meta") or {}).get("importFormat") == "midi"
-        for candidate in usable
-    )
 
     filtered = []
     for candidate in usable:
-        score = notation_candidate_score(candidate, title, artist)
-        source = str(candidate.get("source") or "")
+        base = notation_candidate_score(candidate, title, artist)
         import_format = _candidate_import_format(candidate)
-        is_midi_or_muse = (
-            import_format == "midi"
-            or source == "musescore.com"
-            or bool(str(candidate.get("musicXml") or "").strip())
+        is_midi = import_format == "midi"
+        is_muse = (
+            import_format in ("musescore", "musicxml")
+            or str(candidate.get("source") or "").lower() == "musescore.com"
         )
-        # Drop weak ABC/Session noise when better MuseScore/MIDI hits exist.
-        if has_alt and (not is_midi_or_muse) and score < 50:
+        if is_midi and base < MIN_MIDI_BASE_SCORE:
             continue
-        if score < 30 and not is_midi_or_muse:
+        if (not is_midi) and (not is_muse) and base < MIN_ABC_BASE_SCORE:
             continue
-        filtered.append(candidate)
+        priority = base + notation_source_bonus(candidate)
+        filtered.append(_with_match_score(candidate, priority))
 
-    filtered.sort(
-        key=lambda candidate: notation_candidate_score(candidate, title, artist),
-        reverse=True,
-    )
+    filtered.sort(key=lambda candidate: candidate.get("matchScore") or 0, reverse=True)
     if filtered:
-        return filtered
-    # Prefer any MuseScore/MIDI payload over empty, even with weak title scores.
+        return filtered[:MAX_NOTATION_CANDIDATES]
+
+    # Prefer MuseScore MusicXML, then any MusicXML/MIDI, then any usable.
+    def score_fallback(candidate):
+        return notation_priority_score(candidate, title, artist)
+
+    muse = [
+        candidate for candidate in usable
+        if str(candidate.get("source") or "").lower() == "musescore.com"
+        or _candidate_import_format(candidate) in ("musescore", "musicxml")
+    ]
+    if muse:
+        muse_scored = [
+            _with_match_score(candidate, score_fallback(candidate))
+            for candidate in muse
+        ]
+        muse_scored.sort(key=lambda c: c.get("matchScore") or 0, reverse=True)
+        return muse_scored[:MAX_NOTATION_CANDIDATES]
+
     alt = [
         candidate for candidate in usable
         if str(candidate.get("musicXml") or "").strip()
     ]
-    if alt:
-        return alt[:8]
-    return usable[:8]
+    pool = alt if alt else usable
+    scored = [
+        _with_match_score(candidate, score_fallback(candidate))
+        for candidate in pool
+    ]
+    scored.sort(key=lambda c: c.get("matchScore") or 0, reverse=True)
+    return scored[:MAX_NOTATION_CANDIDATES]
 
 
 async def search_notation_url(url, on_progress=None):
@@ -892,6 +935,14 @@ async def search_notation_url(url, on_progress=None):
         }
 
 
+def _collector_results_or_empty(result):
+    if isinstance(result, Exception):
+        return []
+    if not isinstance(result, list):
+        return []
+    return result
+
+
 async def search_notation(title, artist="", song_type="instrumental", on_progress=None):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
@@ -908,49 +959,41 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         )
         session_candidates = filter_notation_candidates(session_candidates, title, artist)
 
-        artist_key = normalize_match_text(artist)
-        need_web = (
-            song_type == "song"
-            or bool(artist_key)
-            or not session_candidates
-            or not has_strong_notation_match(session_candidates, title, artist)
+        await _emit_progress(
+            on_progress,
+            "sources",
+            "Searching ABC, MuseScore, and MIDI...",
+            0.4,
         )
-
-        candidates = list(session_candidates)
-        if need_web:
-            await _emit_progress(
-                on_progress,
-                "web",
-                "Searching the web for ABC notation...",
-                0.5,
-            )
-            web_candidates = await collect_web_abc_candidates(
+        web_result, muse_result, midi_result = await asyncio.gather(
+            collect_web_abc_candidates(
                 client,
                 title,
                 song_type,
                 artist,
                 on_progress=on_progress,
-            )
-            candidates = dedupe_candidates(candidates + web_candidates)
-
-        if need_web or not has_strong_notation_match(candidates, title, artist):
-            muse_candidates = await collect_musescore_candidates(
+            ),
+            collect_musescore_candidates(
                 client,
                 title,
                 artist,
                 on_progress=on_progress,
-            )
-            candidates = dedupe_candidates(candidates + muse_candidates)
-
-        if not has_strong_notation_match(candidates, title, artist):
-            midi_candidates = await collect_web_midi_candidates(
+            ),
+            collect_web_midi_candidates(
                 client,
                 title,
                 artist,
                 on_progress=on_progress,
-            )
-            candidates = dedupe_candidates(candidates + midi_candidates)
+            ),
+            return_exceptions=True,
+        )
 
+        candidates = dedupe_candidates(
+            list(session_candidates)
+            + _collector_results_or_empty(web_result)
+            + _collector_results_or_empty(muse_result)
+            + _collector_results_or_empty(midi_result)
+        )
         candidates = finalize_notation_candidates(candidates, title, artist)
 
         if not candidates:

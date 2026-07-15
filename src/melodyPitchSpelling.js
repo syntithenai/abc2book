@@ -72,7 +72,10 @@ export function midiToAbcPitch(midi, options) {
     }
   }
 
-  const names = keyInfo && keyInfo.preferFlats ? FLAT_NAMES : SHARP_NAMES;
+  const preferFlats = opts.preferFlats != null
+    ? !!opts.preferFlats
+    : !!(keyInfo && keyInfo.preferFlats);
+  const names = preferFlats ? FLAT_NAMES : SHARP_NAMES;
   const name = names[resolvedPitchClass];
 
   if (octave >= 5) {
@@ -82,6 +85,20 @@ export function midiToAbcPitch(midi, options) {
     return name;
   }
   return name + ','.repeat(Math.max(0, 4 - octave));
+}
+
+/** Alternate enharmonic ABC name for a MIDI pitch, or null if no useful alternate. */
+export function enharmonicAbcName(midi, preferFlats) {
+  const value = Math.round(Number(midi) || 0);
+  const pitchClass = ((value % 12) + 12) % 12;
+  const sharp = SHARP_NAMES[pitchClass];
+  const flat = FLAT_NAMES[pitchClass];
+  if (sharp === flat) return null;
+  const chosen = preferFlats ? flat : sharp;
+  const octave = Math.floor(value / 12) - 1;
+  if (octave >= 5) return chosen.toLowerCase() + "'".repeat(octave - 5);
+  if (octave === 4) return chosen;
+  return chosen + ','.repeat(Math.max(0, 4 - octave));
 }
 
 export function formatKeySignatureShort(keyText) {
