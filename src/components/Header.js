@@ -296,6 +296,7 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
+                    {props.user && props.user.email === 'syntithenai@gmail.com' ? (
                     <Dropdown.Item as="div">
                         <Link to="/feed">
                             <Button size={navButtonSize} variant="primary" className="header-dropdown-btn" data-testid="header-feed-button">
@@ -303,6 +304,7 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
+                    ) : null}
                     <Dropdown.Item as="div">
                         <Link to="/privacy" onClick={function() { setTimeout(function() { props.tunebook.utils.scrollTo('topofpage') }, 300) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
