@@ -10,12 +10,18 @@ import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
 
 function stripPracticeNotationHeaders(abcText) {
   if (!abcText) return ''
+  let seenComposer = false
   return abcText.split('\n').filter(function(line) {
     const trimmed = line.trim()
     if (trimmed.startsWith('B:')) return false
     if (trimmed.startsWith('T:')) return false
     if (trimmed.startsWith('N: AKA:')) return false
     if (trimmed.startsWith('% abcbook-tags')) return false
+    if (/^C:/i.test(trimmed)) {
+      if (seenComposer) return false
+      seenComposer = true
+      return true
+    }
     return true
   }).join('\n')
 }

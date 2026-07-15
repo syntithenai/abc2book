@@ -3,11 +3,11 @@
 Project: **`abc2book`**  
 Image: light gateway only (`Dockerfile.light` + `server_light.py`) — no local Whisper/Demucs/OCR GPU stack.
 
-Service URL will look like:
+**Deployed service URL** (abc2book / australia-southeast1):
 
-`https://tunebook-resolver-light-<hash>-ts.a.run.app`
+`https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app`
 
-(No custom domain required.)
+(No custom domain required. Alternate host form may appear in `gcloud run deploy` output; either resolves to the same service.)
 
 ---
 
@@ -151,7 +151,39 @@ cd local-resolver
 export REGION=australia-southeast1
 export IMAGE="${REGION}-docker.pkg.dev/abc2book/tunebook/resolver-light"
 
-gcloud builds submit --tag "$IMAGE" -f Dockerfile.light . --project=abc2book
+# Keep upload small: rely on .gcloudignore (do not upload whisper/models/soundfonts).
+# gcloud builds submit has no -f; use a Cloud Build config:
+cat > /tmp/cloudbuild-light.yaml << EOF
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '$IMAGE', '-f', 'Dockerfile.light', '.']
+images:
+  - '$IMAGE'
+timeout: 1200s
+EOF
+gcloud builds submit --config=/tmp/cloudbuild-light.yaml --project=abc2book .
+
+# Commas in ALLOWED_ORIGINS break --set-env-vars; use a YAML file instead.
+cat > /tmp/tunebook-resolver-env.yaml << 'EOF'
+REQUIRE_AUTH: "true"
+RESOLVER_LIGHT_MODE: "true"
+PROXY_ENABLED: "true"
+YTDLP_REQUIRE_USER_PROXY: "true"
+WHISPER_ENABLED: "true"
+LLM_ENABLED: "true"
+FREE_ACCESS_EMAILS: "syntithenai@gmail.com"
+EMBEDDED_CREDS_EMAILS: "syntithenai@gmail.com"
+ALLOWED_ORIGINS: "https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000"
+PROVIDER_WHISPER_PROVIDER: "groq"
+PROVIDER_WHISPER_BASE_URL: "https://api.groq.com/openai/v1"
+PROVIDER_WHISPER_MODEL: "whisper-large-v3"
+PROVIDER_LLM_PROVIDER: "groq"
+PROVIDER_LLM_BASE_URL: "https://api.groq.com/openai/v1"
+PROVIDER_LLM_MODEL: "openai/gpt-oss-120b"
+PROVIDER_OCR_PROVIDER: "groq"
+PROVIDER_OCR_BASE_URL: "https://api.groq.com/openai/v1"
+PROVIDER_OCR_MODEL: "meta-llama/llama-4-scout-17b-16e-instruct"
+EOF
 
 gcloud run deploy tunebook-resolver-light \
   --project=abc2book \
@@ -164,26 +196,7 @@ gcloud run deploy tunebook-resolver-light \
   --cpu=1 \
   --timeout=120 \
   --max-instances=3 \
-  --set-env-vars="^\
-REQUIRE_AUTH=true,\
-RESOLVER_LIGHT_MODE=true,\
-PROXY_ENABLED=true,\
-YTDLP_REQUIRE_USER_PROXY=true,\
-WHISPER_ENABLED=true,\
-LLM_ENABLED=true,\
-FREE_ACCESS_EMAILS=syntithenai@gmail.com,\
-EMBEDDED_CREDS_EMAILS=syntithenai@gmail.com,\
-ALLOWED_ORIGINS=https://tunebook.net,http://localhost:3000,http://127.0.0.1:3000,\
-PROVIDER_WHISPER_PROVIDER=groq,\
-PROVIDER_WHISPER_BASE_URL=https://api.groq.com/openai/v1,\
-PROVIDER_WHISPER_MODEL=whisper-large-v3,\
-PROVIDER_LLM_PROVIDER=groq,\
-PROVIDER_LLM_BASE_URL=https://api.groq.com/openai/v1,\
-PROVIDER_LLM_MODEL=openai/gpt-oss-120b,\
-PROVIDER_OCR_PROVIDER=groq,\
-PROVIDER_OCR_BASE_URL=https://api.groq.com/openai/v1,\
-PROVIDER_OCR_MODEL=meta-llama/llama-4-scout-17b-16e-instruct\
-" \
+  --env-vars-file=/tmp/tunebook-resolver-env.yaml \
   --set-secrets="\
 GOOGLE_CLIENT_ID=google-client-id:latest,\
 PROVIDER_WHISPER_API_KEY=provider-groq-api-key:latest,\
@@ -222,9 +235,9 @@ Build/host Tunebook with the Cloud Run URL as a public candidate (or the only de
 
 ```bash
 # CRA / production build env
-REACT_APP_MEDIA_PROXY_BASE=https://tunebook-resolver-light-.....a.run.app
+REACT_APP_MEDIA_PROXY_BASE=https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app
 # and/or append to the fallback list:
-REACT_APP_PUBLIC_MEDIA_PROXY_URLS=https://tunebook-resolver-light-.....a.run.app
+REACT_APP_PUBLIC_MEDIA_PROXY_URLS=https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app
 ```
 
 Discovery order remains: **saved Settings URL → local https → env/public**. Local home resolver still wins when reachable.

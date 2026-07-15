@@ -61,8 +61,37 @@ export function awaitingJobsForTune(jobs, tuneId) {
   return (jobs || []).filter(function(job) {
     if (!job || job.status !== 'awaiting') return false
     if (String(job.tuneId || '') !== id) return false
-    return Array.isArray(job.candidates) && job.candidates.length > 0
+    return nonCurrentCandidates(job.candidates).length > 0
   })
+}
+
+/** Search results only — excludes the frozen "Current value" baseline. */
+export function nonCurrentCandidates(candidates) {
+  return (Array.isArray(candidates) ? candidates : []).filter(function(item) {
+    return !!(item && !item.isCurrent && item.id !== 'current')
+  })
+}
+
+/**
+ * List-item shape for SearchResultPickerModal "Current value" row.
+ * Capture display/value at open time so later form edits do not rewrite it.
+ */
+export function buildPickerCurrentValueItem(options) {
+  const opts = options || {}
+  const value = opts.value
+  const display = opts.display != null
+    ? String(opts.display)
+    : (value != null && String(value).trim() !== '' ? String(value) : '(empty)')
+  const preview = display === '(empty)' ? '' : display
+  return {
+    title: 'Current value',
+    artist: '',
+    preview: preview,
+    abc: typeof opts.abc === 'string' ? opts.abc : (typeof value === 'string' ? value : ''),
+    source: 'current',
+    __current: true,
+    __currentValue: value,
+  }
 }
 
 export { isTuneFieldEmptyForKind }

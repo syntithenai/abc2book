@@ -668,91 +668,111 @@ export default function LinksEditor(props) {
                                         }
                                     }} >{props.tunebook.icons.deletebin}</Button>
                             </div>
-                            <Form.Group className="links-editor-field-group links-editor-field-group--title">
-                                <div className="links-editor-field-label-row">
-                                    <Form.Label className="links-editor-field-label">Title</Form.Label>
-                                    <MediaImportEntryButton
-                                        className="links-editor-field-label-action"
-                                        tune={tuneForMedia || props.tune}
-                                        label="Analyse Audio"
-                                        compact={true}
-                                        disabled={!linkHasMedia(link)}
-                                        onOpen={function() { openMediaWizard(lk); }}
-                                    />
+                            <div className={'links-editor-fields' + (simplified ? ' links-editor-fields--simplified' : '')}>
+                                <div className="links-editor-fields-row links-editor-fields-row--primary">
+                                    <Form.Group className="links-editor-field-group links-editor-field-group--title">
+                                        <div className="links-editor-field-label-row">
+                                            <Form.Label className="links-editor-field-label">Title</Form.Label>
+                                            <MediaImportEntryButton
+                                                className="links-editor-field-label-action"
+                                                tune={tuneForMedia || props.tune}
+                                                label="Analyse Audio"
+                                                compact={true}
+                                                disabled={!linkHasMedia(link)}
+                                                onOpen={function() { openMediaWizard(lk); }}
+                                            />
+                                        </div>
+                                        <div className="links-editor-field-input links-editor-title-input-row">
+                                            <Form.Control type="text" value={link.title} onChange={function(e) {
+                                                var links = props.links
+                                                if (!links[lk]) links[lk] = {}
+                                                links[lk].title = e.target.value
+                                                props.onChange(links)
+                                            }} />
+                                            {ownedMedia && (
+                                                <>
+                                                    <Badge bg="secondary">{ownedMediaSourceLabel(link)}</Badge>
+                                                    <Badge bg={syncStatus === 'synced' ? 'success' : (syncStatus === 'pending' ? 'warning' : 'info')}>
+                                                        {syncStatusLabel(syncStatus)}
+                                                    </Badge>
+                                                </>
+                                            )}
+                                        </div>
+                                    </Form.Group>
+                                    <Form.Group className="links-editor-field-group links-editor-field-group--link">
+                                        {!linkHidesUrlField(link) && <>
+                                            <Form.Label className="links-editor-field-label">Link</Form.Label>
+                                            <Form.Control type="text" value={link.link} onChange={function(e) {
+                                                var links = props.links
+                                                links[lk].link = e.target.value
+                                                afterLinksChanged(links, lk, false)
+                                            }} onBlur={function() {
+                                                if (!linkHasMedia(link)) return
+                                                triggerAutoScan(lk, props.links[lk], props.links, true)
+                                            }} />
+                                        </>}
+                                        {ownedMedia && (
+                                            <div className="links-editor-owned-media-uri">
+                                                {link.link}
+                                            </div>
+                                        )}
+                                    </Form.Group>
                                 </div>
-                                <div className="links-editor-field-input links-editor-title-input-row">
-                                    <Form.Control style={{flex:'1 1 12em'}} type='text' value={link.title} onChange={function(e) {
-                                        var links = props.links
-                                        if (!links[lk]) links[lk] = {}
-                                        links[lk].title = e.target.value
-                                        props.onChange(links)
-                                    }} />
-                                    {ownedMedia && (
-                                        <>
-                                            <Badge bg="secondary">{ownedMediaSourceLabel(link)}</Badge>
-                                            <Badge bg={syncStatus === 'synced' ? 'success' : (syncStatus === 'pending' ? 'warning' : 'info')}>
-                                                {syncStatusLabel(syncStatus)}
-                                            </Badge>
-                                        </>
-                                    )}
-                                </div>
-                            </Form.Group>
-                            <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em', width:'100%'}} >
-                                {!linkHidesUrlField(link) && <>
-                                    <Form.Label>Link</Form.Label>
-                                    <Form.Control type='text' value={link.link} onChange={function(e) {
-                                        var links = props.links
-                                        links[lk].link = e.target.value
-                                        afterLinksChanged(links, lk, false)
-                                    }} onBlur={function() {
-                                        if (!linkHasMedia(link)) return
-                                        triggerAutoScan(lk, props.links[lk], props.links, true)
-                                    }} />
-                                </>}
-                                {ownedMedia && (
-                                    <div style={{fontSize:'0.9em', color:'#333', marginBottom:'0.3em'}}>
-                                        {link.link}
+                                {!simplified && (
+                                    <div className="links-editor-fields-row links-editor-fields-row--region">
+                                        <Form.Group className="links-editor-field-group links-editor-field-group--start-at">
+                                            <div className="links-editor-field-label-row">
+                                                <FormLabelWithHelp
+                                                    className="links-editor-field-label"
+                                                    label="Start"
+                                                    helpBody={LINKS_FIELD_HELP.startAt.body}
+                                                    helpTitle={LINKS_FIELD_HELP.startAt.title}
+                                                />
+                                                <LinkPlaybackRegionScanControls
+                                                    className="links-editor-field-label-action"
+                                                    tune={tuneForMedia || props.tune}
+                                                    linkIndex={lk}
+                                                    link={link}
+                                                    currentLinks={props.links}
+                                                    onLinksUpdated={onChange}
+                                                />
+                                            </div>
+                                            <Form.Control
+                                                as="input"
+                                                className="links-editor-region-input"
+                                                type="text"
+                                                size="sm"
+                                                value={link.startAt}
+                                                onChange={function(e) {
+                                                    var links = props.links
+                                                    links[lk].startAt = e.target.value
+                                                    props.onChange(links)
+                                                }}
+                                            />
+                                        </Form.Group>
+                                        <Form.Group className="links-editor-field-group links-editor-field-group--end-at">
+                                            <FormLabelWithHelp
+                                                className="links-editor-field-label"
+                                                label="End"
+                                                helpBody={LINKS_FIELD_HELP.endAt.body}
+                                                helpTitle={LINKS_FIELD_HELP.endAt.title}
+                                            />
+                                            <Form.Control
+                                                as="input"
+                                                className="links-editor-region-input"
+                                                type="text"
+                                                size="sm"
+                                                value={link.endAt}
+                                                onChange={function(e) {
+                                                    var links = props.links
+                                                    links[lk].endAt = e.target.value
+                                                    props.onChange(links)
+                                                }}
+                                            />
+                                        </Form.Group>
                                     </div>
                                 )}
-                            </Form.Group>
-                            {!simplified && <Form.Group className="links-editor-field-group links-editor-field-group--start-at" style={{borderBottom:'2px solid black', marginBottom:'0.3em', width:'100%'}} >
-                                <div className="links-editor-field-label-row">
-                                    <FormLabelWithHelp
-                                        className="links-editor-field-label"
-                                        label="Start At (seconds)"
-                                        helpBody={LINKS_FIELD_HELP.startAt.body}
-                                        helpTitle={LINKS_FIELD_HELP.startAt.title}
-                                    />
-                                    <LinkPlaybackRegionScanControls
-                                        className="links-editor-field-label-action"
-                                        tune={tuneForMedia || props.tune}
-                                        linkIndex={lk}
-                                        link={link}
-                                        currentLinks={props.links}
-                                        onLinksUpdated={onChange}
-                                    />
-                                    <Form.Control
-                                        as="input"
-                                        className="links-editor-region-input"
-                                        type="text"
-                                        size="sm"
-                                        value={link.startAt}
-                                        onChange={function(e) {
-                                            var links = props.links
-                                            links[lk].startAt = e.target.value
-                                            props.onChange(links)
-                                        }}
-                                    />
-                                </div>
-                            </Form.Group>}
-                            {!simplified && <Form.Group style={{borderBottom:'2px solid black', marginBottom:'0.3em', width:'100%'}} >
-                                <FormLabelWithHelp label="End At (seconds)" helpBody={LINKS_FIELD_HELP.endAt.body} helpTitle={LINKS_FIELD_HELP.endAt.title} />
-                                <Form.Control type='text' value={link.endAt} onChange={function(e) {
-                                    var links = props.links
-                                    links[lk].endAt = e.target.value
-                                    props.onChange(links)
-                                }} />
-                            </Form.Group>}
+                            </div>
                         </div>
                     })}
                 </div>

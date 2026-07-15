@@ -16,7 +16,7 @@ import GenreSuggestionOffer from './GenreSuggestionOffer'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import {
   buildGenreSearchContext,
   inferGenreFromSearchContext,
@@ -331,16 +331,7 @@ export default function LyricsSearchButton({
         />
       </div>
     ),
-    suggestionsDropdown: buildSuggestionsDropdown({
-      items: awaitingCandidates,
-      onClear: clearAwaitingSuggestions,
-      onSelect: chooseLyricsCandidate,
-      getLabel: function(candidate) {
-        const t = candidate && candidate.title ? candidate.title : (title || 'Lyrics')
-        const src = candidate && candidate.source ? candidate.source : ''
-        return src ? (t + ' · ' + src) : t
-      },
-    }),
+    suggestionsDropdown: null,
     errorNode: (
       <>
         {error && (

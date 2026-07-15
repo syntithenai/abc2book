@@ -89,6 +89,24 @@ describe('FieldLookupButtonGroup', function() {
     expect(container.textContent).toContain('Suggestions')
   })
 
+  test('Suggestions button is rendered to the right of Search', function() {
+    act(function() {
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        suggestionCount: 3,
+        onClearSuggestions: jest.fn(),
+        onOpenSuggestions: jest.fn(),
+        onSearch: jest.fn(),
+      }))
+    })
+    const search = container.querySelector('[data-testid="field-search-button"]')
+    const suggestions = container.querySelector('[data-testid="field-suggestions-open"]')
+    expect(search).toBeTruthy()
+    expect(suggestions).toBeTruthy()
+    const position = search.compareDocumentPosition(suggestions)
+    expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  })
+
   test('external link only when showExternal', function() {
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {

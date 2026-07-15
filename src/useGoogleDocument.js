@@ -767,7 +767,9 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           resolve({error: e})
         })
       } else {
-        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh() 
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh()
+        // Always settle — otherwise callers (e.g. file delete) hang forever when signed out.
+        resolve()
       }
     })
   }

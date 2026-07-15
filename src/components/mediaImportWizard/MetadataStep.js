@@ -1,12 +1,12 @@
 import { Alert, Button, Form } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
+import AsyncCreatableSelect from 'react-select/async-creatable';
 import ComposerSearchButton from '../ComposerSearchButton'
 import FieldLookupReviewButton from '../FieldLookupReviewButton'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import CapitalizeTitleButton from '../CapitalizeTitleButton'
 import KeySignatureInput from '../KeySignatureInput'
-import SelectInput from '../SelectInput'
-import useMusicBrainzArtistOptions from '../../useMusicBrainzArtistOptions'
+import useMusicBrainz from '../../useMusicBrainz'
 
 function PendingImportCard(props) {
   const item = props.item;
@@ -32,7 +32,7 @@ function PendingImportCard(props) {
 export default function MediaImportMetadataStep(props) {
   const draft = props.draft || {};
   const metadata = draft.metadata || {};
-  const composerOptions = useMusicBrainzArtistOptions(metadata.composer);
+  const musicBrainz = useMusicBrainz();
   const tunebook = props.tunebook;
 
   function update(field, value) {
@@ -184,11 +184,18 @@ export default function MediaImportMetadataStep(props) {
                     }}
                   />
                 ) : null}
-                <SelectInput
-                  value={metadata.composer || ''}
-                  onChange={function(val) { update('composer', val); }}
-                  options={composerOptions}
-                  endAppend={api.suggestionsDropdown}
+                <AsyncCreatableSelect
+                  value={metadata.composer
+                    ? { value: metadata.composer, label: metadata.composer }
+                    : null}
+                  onChange={function(val) { update('composer', val ? val.label : ''); }}
+                  defaultOptions={[]}
+                  loadOptions={musicBrainz.artistOptions}
+                  isClearable={true}
+                  blurInputOnSelect={true}
+                  createOptionPosition="first"
+                  allowCreateWhileLoading={true}
+                  placeholder="Type composer name"
                 />
                 {api.errorNode}
               </>

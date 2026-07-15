@@ -9,6 +9,8 @@ import { buildPublicDriveDownloadUrl } from './linkRecording'
 
 const tuneFilesStore = localforage.createInstance({ name: 'tunefiles' })
 const tuneFileBlobCache = localforage.createInstance({ name: 'tunefilecache' })
+const tuneFilePendingDeletesStore = localforage.createInstance({ name: 'tunefilependingdeletes' })
+const PENDING_DELETE_KEY = 'googleIds'
 const utils = utilsFunctions()
 
 function getAccessToken(token) {
@@ -119,11 +121,11 @@ export async function saveStoredTuneFile(record) {
   return record
 }
 
-export async function deleteStoredTuneFile(fileId) {
+export async function deleteStoredTuneFile(fileId, tuneId) {
   if (!fileId) return
   await tuneFilesStore.removeItem(fileId)
   try {
-    await tuneFileBlobCache.removeItem(cacheKey('', fileId))
+    await tuneFileBlobCache.removeItem(cacheKey(tuneId || '', fileId))
   } catch (e) { /* ignore */ }
 }
 
@@ -433,15 +435,117 @@ export async function resolveTuneFileBlob(meta, tuneId, options) {
   throw new Error('File is not available offline')
 }
 
+async function getPendingDriveDeletes() {
+  const list = await tuneFilePendingDeletesStore.getItem(PENDING_DELETE_KEY)
+  return Array.isArray(list) ? list.filter(Boolean).map(String) : []
+}
+
+async function setPendingDriveDeletes(ids) {
+  const unique = []
+  const seen = {}
+  ;(ids || []).forEach(function(id) {
+    const key = String(id || '')
+    if (!key || seen[key]) return
+    seen[key] = true
+    unique.push(key)
+  })
+  await tuneFilePendingDeletesStore.setItem(PENDING_DELETE_KEY, unique)
+  return unique
+}
+
+export async function enqueuePendingDriveDelete(googleId) {
+  if (!googleId) return
+  const list = await getPendingDriveDeletes()
+  if (list.indexOf(String(googleId)) >= 0) return list
+  list.push(String(googleId))
+  return setPendingDriveDeletes(list)
+}
+
+/**
+ * Attempt Drive deletes for queued googleIds. Removes ids that succeed or are gone.
+ * Safe to call when offline — failures stay queued.
+ */
+export async function flushPendingDriveDeletes(options) {
+  const opts = options || {}
+  const driveApi = opts.driveApi
+  if (!driveApi || typeof driveApi.deleteDocument !== 'function') {
+    return { deleted: 0, remaining: await getPendingDriveDeletes() }
+  }
+  const accessToken = getAccessToken(opts.token || opts.accessToken)
+  if (!accessToken) {
+    return { deleted: 0, remaining: await getPendingDriveDeletes() }
+  }
+  if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+    return { deleted: 0, remaining: await getPendingDriveDeletes() }
+  }
+
+  const pending = await getPendingDriveDeletes()
+  if (!pending.length) return { deleted: 0, remaining: [] }
+
+  const remaining = []
+  let deleted = 0
+  for (let i = 0; i < pending.length; i += 1) {
+    const googleId = pending[i]
+    try {
+      const result = await driveApi.deleteDocument(googleId)
+      if (result && result.error) {
+        const status = result.error.response && result.error.response.status
+        // Already gone (404) — drop from queue.
+        if (status === 404) {
+          deleted += 1
+        } else {
+          remaining.push(googleId)
+        }
+      } else {
+        deleted += 1
+      }
+    } catch (e) {
+      remaining.push(googleId)
+    }
+  }
+  await setPendingDriveDeletes(remaining)
+  return { deleted: deleted, remaining: remaining }
+}
+
+async function tryDeleteFromDrive(googleId, options) {
+  const opts = options || {}
+  if (!googleId) return true
+  const driveApi = opts.driveApi
+  const accessToken = getAccessToken(opts.token || opts.accessToken)
+  if (!driveApi || typeof driveApi.deleteDocument !== 'function' || !accessToken) {
+    await enqueuePendingDriveDelete(googleId)
+    return false
+  }
+  if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+    await enqueuePendingDriveDelete(googleId)
+    return false
+  }
+  try {
+    const result = await driveApi.deleteDocument(googleId)
+    if (result && result.error) {
+      const status = result.error.response && result.error.response.status
+      if (status === 404) return true
+      await enqueuePendingDriveDelete(googleId)
+      return false
+    }
+    return true
+  } catch (e) {
+    await enqueuePendingDriveDelete(googleId)
+    return false
+  }
+}
+
 export async function deleteTuneFile(tune, fileId, options) {
   const opts = options || {}
   const meta = findTuneFileMeta(tune, fileId)
   const nextTune = removeTuneFileMeta(tune, fileId)
-  await deleteStoredTuneFile(fileId)
-  if (meta && meta.googleId && opts.driveApi && typeof opts.driveApi.deleteDocument === 'function') {
-    try {
-      await opts.driveApi.deleteDocument(meta.googleId)
-    } catch (e) { /* ignore drive delete failures */ }
+  await deleteStoredTuneFile(fileId, tune && tune.id)
+  // Local metadata/blob are gone immediately. Drive cleanup is best-effort and
+  // queued when offline / unsigned-in so it can flush later.
+  if (meta && meta.googleId) {
+    tryDeleteFromDrive(meta.googleId, opts).catch(function() {
+      enqueuePendingDriveDelete(meta.googleId)
+    })
   }
   return nextTune
 }

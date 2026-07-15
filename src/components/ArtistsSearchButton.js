@@ -10,7 +10,7 @@ import { buildGoogleArtistsSearchUrl } from '../artistsSearchClient'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 export default function ArtistsSearchButton({
   tuneId,
@@ -164,20 +164,7 @@ export default function ArtistsSearchButton({
         />
       </>
     ),
-    suggestionsDropdown: buildSuggestionsDropdown({
-      items: awaitingCandidates,
-      onClear: clearAwaitingSuggestions,
-      onSelect: function(candidate) {
-        finishApply(candidate, null, { keepOpen: true })
-      },
-      getLabel: function(candidate) {
-        const role = candidate && candidate.role === 'writer'
-          ? 'Writer'
-          : (candidate && candidate.role === 'performer' ? 'Performer' : '')
-        const name = candidate && candidate.artist ? candidate.artist : ''
-        return role ? (name + ' (' + role + ')') : name
-      },
-    }),
+    suggestionsDropdown: null,
     errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
     modals: (
       <SearchResultPickerModal

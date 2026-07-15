@@ -7,6 +7,7 @@ import {
   collectTuneFilesForShareScope,
   uploadPendingTuneFilesInScope,
   getTuneFileSyncStatus,
+  flushPendingDriveDeletes,
 } from './tuneFiles'
 import { tuneIdsForSet } from './shareTunebookUtils'
 import { tuneIdsForPlaylistRecord } from './savedPlaylistsStore'
@@ -238,6 +239,10 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
   if (fileUpload.errors && fileUpload.errors.length) {
     errors.push.apply(errors, fileUpload.errors)
   }
+
+  try {
+    await flushPendingDriveDeletes({ token: token, driveApi: driveApi })
+  } catch (e) { /* ignore queued-delete flush failures */ }
 
   return {
     tunes: fileUpload.tunes || nextTunes,

@@ -1,9 +1,12 @@
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils';
 import { parseVoiceMeta } from './voiceMeta';
 
-/** Remove book/tag metadata lines that abcjs renders as text under the staff. */
+/** Remove book/tag metadata lines that abcjs renders as text under the staff.
+ *  Keeps only the first C: line so additional artists are not drawn as composer credits.
+ */
 export function stripNotationDisplayMetadata(abcText) {
   if (!abcText) return '';
+  let seenComposer = false;
   return abcText.split('\n').filter(function(line) {
     const trimmed = line.trim();
     if (trimmed.startsWith('B:')) return false;
@@ -11,6 +14,11 @@ export function stripNotationDisplayMetadata(abcText) {
     if (trimmed.startsWith('N: AKA:')) return false;
     if (trimmed.startsWith('% abcbook-tags')) return false;
     if (trimmed.startsWith('%%abcbook-tags')) return false;
+    if (/^C:/i.test(trimmed)) {
+      if (seenComposer) return false;
+      seenComposer = true;
+      return true;
+    }
     return true;
   }).join('\n');
 }

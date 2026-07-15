@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi';
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -270,10 +270,6 @@ export default function TuneBackgroundSearchButton({
     setPendingReviewText('');
   }
 
-  const backgroundItems = suggestionCount > 0
-    ? [{ label: 'Review research result', preview: awaitingJob && awaitingJob.resultText }]
-    : [];
-
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -312,15 +308,7 @@ export default function TuneBackgroundSearchButton({
         )}
       </>
     ),
-    suggestionsDropdown: buildSuggestionsDropdown({
-      items: backgroundItems,
-      count: suggestionCount,
-      onClear: clearAwaitingSuggestions,
-      onSelect: openAwaitingSuggestions,
-      getLabel: function(item) {
-        return item && item.label ? item.label : 'Review research result';
-      },
-    }),
+    suggestionsDropdown: null,
     errorNode: (
       <>
         {error && (

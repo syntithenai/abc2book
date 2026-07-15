@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Accordion, Button, ButtonGroup, Col, Form, Row } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
+import AsyncCreatableSelect from 'react-select/async-creatable';
 import { formatTuneFieldValue } from '../tuneImportMergeUtils';
 import { getMusicGenreSelectOptions, genreSelectValue } from '../musicGenreOptions';
+import useMusicBrainz from '../useMusicBrainz';
 import ImportFieldSuggestion from './ImportFieldSuggestion';
 import ReviewNotationMergePanel from './ReviewNotationMergePanel';
 import FieldPreviewEditor from './FieldPreviewEditor';
@@ -35,8 +37,6 @@ import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText';
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings';
 import { formValuesToTune, importSuggestionDiffersFromForm, tuneToFormValues } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
-import SelectInput from './SelectInput';
-import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions';
 import { mergeBibliographicList } from '../tuneBibliographicUtils';
 import useAbcjsParser from '../useAbcjsParser';
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune';
@@ -121,7 +121,7 @@ export default function TuneRecordForm(props) {
   const suggestions = props.suggestions || {};
   const tunebook = props.tunebook;
   const abcjsParser = useAbcjsParser({ tunebook: tunebook });
-  const composerOptions = useMusicBrainzArtistOptions(values.artist);
+  const musicBrainz = useMusicBrainz();
   const lyricsTextareaRef = useRef(null);
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false);
   const [showLyricsTools, setShowLyricsTools] = useState(false);
@@ -480,11 +480,18 @@ export default function TuneRecordForm(props) {
                         }}
                       />
                     </FieldLabelRow>
-                    <SelectInput
-                      value={values.artist || ''}
-                      onChange={function(val) { setField('artist', val); }}
-                      options={composerOptions}
-                      endAppend={api.suggestionsDropdown}
+                    <AsyncCreatableSelect
+                      value={values.artist
+                        ? { value: values.artist, label: values.artist }
+                        : null}
+                      onChange={function(val) { setField('artist', val ? val.label : ''); }}
+                      defaultOptions={[]}
+                      loadOptions={musicBrainz.artistOptions}
+                      isClearable={true}
+                      blurInputOnSelect={true}
+                      createOptionPosition="first"
+                      allowCreateWhileLoading={true}
+                      placeholder="Type composer name"
                     />
                     {api.errorNode}
                   </>
@@ -513,10 +520,18 @@ export default function TuneRecordForm(props) {
                   }}
                 />
               </FieldLabelRow>
-              <SelectInput
-                value={values.artist || ''}
-                onChange={function(val) { setField('artist', val); }}
-                options={composerOptions}
+              <AsyncCreatableSelect
+                value={values.artist
+                  ? { value: values.artist, label: values.artist }
+                  : null}
+                onChange={function(val) { setField('artist', val ? val.label : ''); }}
+                defaultOptions={[]}
+                loadOptions={musicBrainz.artistOptions}
+                isClearable={true}
+                blurInputOnSelect={true}
+                createOptionPosition="first"
+                allowCreateWhileLoading={true}
+                placeholder="Type composer name"
               />
             </>
           )}
@@ -551,7 +566,6 @@ export default function TuneRecordForm(props) {
                   <TuneArtistsField
                     value={Array.isArray(values.artists) ? values.artists : []}
                     onChange={function(next) { setField('artists', next); }}
-                    endAppend={api.suggestionsDropdown}
                   />
                 </div>
                 {api.buttonGroup}
@@ -589,7 +603,6 @@ export default function TuneRecordForm(props) {
                   <TuneAliasesField
                     value={Array.isArray(values.aliases) ? values.aliases : []}
                     onChange={function(next) { setField('aliases', next); }}
-                    endAppend={api.suggestionsDropdown}
                   />
                 </div>
                 {api.buttonGroup}

@@ -26,7 +26,12 @@ export default function FileDrawModal(props) {
   const [strokes, setStrokes] = useState([])
   const [redoStack, setRedoStack] = useState([])
   const [saving, setSaving] = useState(false)
+  const strokesRef = useRef(strokes)
   const resetZoomRef = useRef(null)
+
+  useEffect(function() {
+    strokesRef.current = strokes
+  }, [strokes])
 
   useEffect(function() {
     let cancelled = false
@@ -87,16 +92,25 @@ export default function FileDrawModal(props) {
     ink.width = image.naturalWidth || image.width
     ink.height = image.naturalHeight || image.height
     const { redrawInkLayer } = await import('../fileDrawStrokeUtils')
-    redrawInkLayer(ink, strokes)
+    redrawInkLayer(ink, strokesRef.current)
     return compositeImageAndInk(image, ink)
   }
 
-  async function handleSave() {
+  async function handleClose() {
+    if (saving) return
+    if (!strokesRef.current.length || !image) {
+      onHide()
+      return
+    }
     setSaving(true)
     try {
       const blob = await flatten()
-      if (!blob) return
-      if (onSave) await onSave(blob)
+      if (blob && onSave) {
+        await onSave(blob)
+      } else {
+        onHide()
+      }
+    } catch (err) {
       onHide()
     } finally {
       setSaving(false)
@@ -104,9 +118,12 @@ export default function FileDrawModal(props) {
   }
 
   return (
-    <Modal show={!!show} onHide={onHide} fullscreen className="file-draw-modal">
+    <Modal show={!!show} onHide={handleClose} fullscreen className="file-draw-modal">
       <Modal.Header closeButton>
-        <Modal.Title>{title || 'Edit file'}</Modal.Title>
+        <Modal.Title>
+          {title || 'Edit file'}
+          {saving ? <span className="ms-2 text-muted" style={{ fontSize: '0.85rem' }}>Saving…</span> : null}
+        </Modal.Title>
       </Modal.Header>
       <div className="file-draw-toolbar d-flex flex-wrap gap-2 align-items-center px-2 py-2 border-bottom">
         <ButtonGroup size="sm">
@@ -154,23 +171,36 @@ export default function FileDrawModal(props) {
             })}
           </ButtonGroup>
         ) : null}
-        <Button size="sm" variant="outline-secondary" onClick={undo} disabled={!strokes.length}>Undo</Button>
-        <Button size="sm" variant="outline-secondary" onClick={redo} disabled={!redoStack.length}>Redo</Button>
+        <ButtonGroup size="sm" aria-label="Undo and redo">
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={undo}
+            disabled={!strokes.length || saving}
+            title="Undo"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.arrowgoback : 'Undo'}
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={redo}
+            disabled={!redoStack.length || saving}
+            title="Redo"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.arrowgoforward : 'Redo'}
+          </Button>
+        </ButtonGroup>
         <Button
           size="sm"
           variant="outline-secondary"
           onClick={function() {
             if (resetZoomRef.current) resetZoomRef.current()
           }}
+          disabled={saving}
         >
           Fit
         </Button>
-        <div className="ms-auto d-flex gap-2">
-          <Button size="sm" variant="secondary" onClick={onHide} disabled={saving}>Cancel</Button>
-          <Button size="sm" variant="success" onClick={handleSave} disabled={saving || !image}>
-            {saving ? 'Saving…' : 'Save'}
-          </Button>
-        </div>
       </div>
       <Modal.Body className="p-0 d-flex flex-column" style={{ height: 'calc(100vh - 8rem)', minHeight: 0 }}>
         {image ? (

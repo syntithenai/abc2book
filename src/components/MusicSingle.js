@@ -34,6 +34,7 @@ import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit'
+import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc'
 import {
   EDITOR_VIEW_MODES,
   viewModeToDisplayFlags,
@@ -501,16 +502,11 @@ export default function MusicSingle(props) {
 
                 function stripNotationMeta(abcText) {
                   if (!abcText) return ''
-                  return abcText
+                  // Keep lyrics block off the staff (shown in the lyrics panel).
+                  return stripNotationDisplayMetadata(abcText)
                     .split('\n')
                     .filter(function(line) {
-                      const trimmed = String(line || '').trim()
-                      if (trimmed.startsWith('B:')) return false
-                      if (/^H:/i.test(trimmed)) return false
-                      if (/^W:/i.test(trimmed)) return false
-                      if (trimmed.startsWith('% abcbook-tags')) return false
-                      if (trimmed.startsWith('%%abcbook-tags')) return false
-                      return true
+                      return !/^W:/i.test(String(line || '').trim())
                     })
                     .join('\n')
                 }

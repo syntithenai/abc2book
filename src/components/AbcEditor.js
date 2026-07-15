@@ -19,7 +19,6 @@ import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
-import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
 import ChordsSearchButton from './ChordsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
@@ -125,23 +124,6 @@ export default function AbcEditor(props) {
       if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
     }
   }, [])
-  const [artistOptions, setArtistOptions] = useState([])
-  var artistLoadTimeout = useRef()
-  const tuneComposer = tune && tune.composer ? tune.composer : null
-  useEffect(function() {
-      //console.log("COMPOSER CHANGE", tune)
-      if (tune && tune.composer) {
-          clearTimeout(artistLoadTimeout.current)
-          artistLoadTimeout.current = setTimeout(function() {
-              //console.log("load artists "+tune.composer)
-              musicBrainz.artistOptions(tune.composer).then(function(o) {
-                  //console.log("loaded artists "+tune.composer, o)
-                setArtistOptions(o.map(function(v) {return v.label}))
-              })
-          },500)
-      }
-  }, [tune, tuneComposer, musicBrainz])
-   
   //var [tune, setTune] = useState(null)
   //var [noteSaveTimeout, setNoteSaveTimeout] = useState(null)
   useEffect(() => {
@@ -503,11 +485,22 @@ export default function AbcEditor(props) {
                                         }}
                                       />
                                     </div>
-                                    <SelectInput
-                                      onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune) }}
-                                      value={tune && tune.composer ? tune.composer : ''}
-                                      options={artistOptions}
-                                      endAppend={api.suggestionsDropdown}
+                                    <AsyncCreatableSelect
+                                      value={tune && tune.composer
+                                        ? { value: tune.composer, label: tune.composer }
+                                        : null}
+                                      onChange={function(val) {
+                                        tune.composer = val ? val.label : ''
+                                        tune.id = params.tuneId
+                                        saveTune(tune)
+                                      }}
+                                      defaultOptions={[]}
+                                      loadOptions={musicBrainz.artistOptions}
+                                      isClearable={true}
+                                      blurInputOnSelect={true}
+                                      createOptionPosition="first"
+                                      allowCreateWhileLoading={true}
+                                      placeholder="Type composer name"
                                     />
                                     {api.errorNode}
                                   </>
@@ -547,26 +540,21 @@ export default function AbcEditor(props) {
                                       <Form.Label htmlFor="genre" style={{ marginBottom: 0 }}>Genre</Form.Label>
                                       {api.buttonGroup}
                                     </div>
-                                    <div className="d-flex align-items-stretch gap-0 field-lookup-input-with-suggestions">
-                                      <div style={{ flex: '1 1 auto', minWidth: 0 }}>
-                                        <CreatableSelect
-                                          inputId="genre"
-                                          value={genreSelectValue(tune.genre)}
-                                          onChange={function(val) {
-                                            tune.genre = val ? val.label : ''
-                                            tune.id = params.tuneId
-                                            saveTune(tune)
-                                          }}
-                                          options={getMusicGenreSelectOptions()}
-                                          isClearable={true}
-                                          blurInputOnSelect={true}
-                                          createOptionPosition="first"
-                                          allowCreateWhileLoading={true}
-                                          placeholder="eg Folk, Jazz"
-                                        />
-                                      </div>
-                                      {api.suggestionsDropdown}
-                                    </div>
+                                    <CreatableSelect
+                                      inputId="genre"
+                                      value={genreSelectValue(tune.genre)}
+                                      onChange={function(val) {
+                                        tune.genre = val ? val.label : ''
+                                        tune.id = params.tuneId
+                                        saveTune(tune)
+                                      }}
+                                      options={getMusicGenreSelectOptions()}
+                                      isClearable={true}
+                                      blurInputOnSelect={true}
+                                      createOptionPosition="first"
+                                      allowCreateWhileLoading={true}
+                                      placeholder="eg Folk, Jazz"
+                                    />
                                     {api.errorNode}
                                   </>
                                 )
@@ -606,7 +594,6 @@ export default function AbcEditor(props) {
                                       tune.id = params.tuneId
                                       saveTune(tune)
                                     }}
-                                    endAppend={api.suggestionsDropdown}
                                   />
                                   {api.errorNode}
                                 </>
@@ -648,7 +635,6 @@ export default function AbcEditor(props) {
                                       tune.id = params.tuneId
                                       saveTune(tune)
                                     }}
-                                    endAppend={api.suggestionsDropdown}
                                   />
                                   {api.errorNode}
                                 </>
@@ -927,30 +913,27 @@ export default function AbcEditor(props) {
                                     </Button>
                                   </div>
                                 </div>
-                                <div className="d-flex align-items-start gap-0 mt-2 field-lookup-input-with-suggestions">
-                                  <div style={{ flex: '1 1 auto', minWidth: 0 }}>
-                                    {backgroundInfoPreview
-                                      ? <div className="abc-editor-markdown-preview">
-                                          <MarkdownContent text={backgroundInfoText} />
-                                        </div>
-                                      : <Form.Control
-                                          as="textarea"
-                                          rows={16}
-                                          placeholder={'Performers, alternative names, first recording date, who popularized the tune, record labels, anecdotes, musical structure, YouTube links... (Markdown supported)'}
-                                          value={backgroundInfoText}
-                                          onChange={function(e) {
-                                            var next = e.target.value
-                                            setBackgroundInfoText(next)
-                                            if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
-                                            backgroundInfoSaveTimeout.current = setTimeout(function() {
-                                              tune.backgroundInfo = next
-                                              tune.id = params.tuneId
-                                              saveTune(tune)
-                                            }, 500)
-                                          }}
-                                        />}
-                                  </div>
-                                  {api.suggestionsDropdown}
+                                <div className="mt-2">
+                                  {backgroundInfoPreview
+                                    ? <div className="abc-editor-markdown-preview">
+                                        <MarkdownContent text={backgroundInfoText} />
+                                      </div>
+                                    : <Form.Control
+                                        as="textarea"
+                                        rows={16}
+                                        placeholder={'Performers, alternative names, first recording date, who popularized the tune, record labels, anecdotes, musical structure, YouTube links... (Markdown supported)'}
+                                        value={backgroundInfoText}
+                                        onChange={function(e) {
+                                          var next = e.target.value
+                                          setBackgroundInfoText(next)
+                                          if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
+                                          backgroundInfoSaveTimeout.current = setTimeout(function() {
+                                            tune.backgroundInfo = next
+                                            tune.id = params.tuneId
+                                            saveTune(tune)
+                                          }, 500)
+                                        }}
+                                      />}
                                 </div>
                                 {api.errorNode}
                               </>

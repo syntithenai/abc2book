@@ -24,6 +24,7 @@ export default function FileDrawStage(props) {
   const inkRef = useRef(null)
   const [scale, setScale] = useState(1)
   const [offset, setOffset] = useState({ x: 0, y: 0 })
+  const [cursorPos, setCursorPos] = useState(null)
   const drawingRef = useRef(null)
   const panRef = useRef(null)
   const pinchRef = useRef(null)
@@ -75,7 +76,17 @@ export default function FileDrawStage(props) {
     }
   }
 
+  function updateCursorFromEvent(e) {
+    if (!wrapRef.current) return
+    const rect = wrapRef.current.getBoundingClientRect()
+    setCursorPos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    })
+  }
+
   function onPointerDown(e) {
+    updateCursorFromEvent(e)
     const isPen = e.pointerType === 'pen' || e.pointerType === 'mouse'
     if (isPen) {
       const pt = toImageCoords(e.clientX, e.clientY)
@@ -113,6 +124,9 @@ export default function FileDrawStage(props) {
   }
 
   function onPointerMove(e) {
+    if (e.pointerType === 'pen' || e.pointerType === 'mouse') {
+      updateCursorFromEvent(e)
+    }
     if (drawingRef.current) {
       const pt = toImageCoords(e.clientX, e.clientY)
       if (!pt) return
@@ -155,6 +169,12 @@ export default function FileDrawStage(props) {
     }
   }
 
+  function onPointerLeave(e) {
+    if (e.pointerType === 'pen' || e.pointerType === 'mouse') {
+      if (!drawingRef.current) setCursorPos(null)
+    }
+  }
+
   function resetZoom() {
     if (!image || !wrapRef.current) return
     const rect = wrapRef.current.getBoundingClientRect()
@@ -176,6 +196,8 @@ export default function FileDrawStage(props) {
 
   const iw = image.naturalWidth || image.width
   const ih = image.naturalHeight || image.height
+  const brushDiameter = Math.max(6, (width || 4) * (scale || 1))
+  const cursorBorder = tool === 'eraser' ? '#666666' : (color || '#111111')
 
   return (
     <div
@@ -185,6 +207,7 @@ export default function FileDrawStage(props) {
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
       onPointerCancel={onPointerUp}
+      onPointerLeave={onPointerLeave}
       style={{
         touchAction: 'none',
         overflow: 'hidden',
@@ -194,6 +217,7 @@ export default function FileDrawStage(props) {
         minHeight: '12rem',
         position: 'relative',
         background: '#333',
+        cursor: 'none',
       }}
     >
       <div
@@ -235,6 +259,27 @@ export default function FileDrawStage(props) {
           }}
         />
       </div>
+      {cursorPos ? (
+        <div
+          className={'file-draw-brush-cursor' + (tool === 'eraser' ? ' file-draw-brush-cursor--eraser' : '')}
+          aria-hidden="true"
+          style={{
+            position: 'absolute',
+            left: cursorPos.x,
+            top: cursorPos.y,
+            width: brushDiameter,
+            height: brushDiameter,
+            marginLeft: -brushDiameter / 2,
+            marginTop: -brushDiameter / 2,
+            borderRadius: '50%',
+            border: '2px solid ' + cursorBorder,
+            background: tool === 'eraser' ? 'rgba(255,255,255,0.15)' : 'transparent',
+            boxSizing: 'border-box',
+            pointerEvents: 'none',
+            zIndex: 5,
+          }}
+        />
+      ) : null}
     </div>
   )
 }

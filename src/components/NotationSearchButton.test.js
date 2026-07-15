@@ -10,6 +10,7 @@ globalThis.IS_REACT_ACT_ENVIRONMENT = true
 
 const mockStartSearch = jest.fn()
 const mockCancel = jest.fn()
+const mockDismiss = jest.fn()
 let capturedOnAwaiting = null
 let mockActiveJob = null
 
@@ -28,6 +29,7 @@ jest.mock('../useFieldLookupSearchJob', function() {
         activeJob: mockActiveJob,
         startSearch: mockStartSearch,
         cancel: mockCancel,
+        dismiss: mockDismiss,
       }
     },
   }
@@ -63,6 +65,7 @@ describe('NotationSearchButton', function() {
   beforeEach(function() {
     mockStartSearch.mockClear()
     mockCancel.mockClear()
+    mockDismiss.mockClear()
     mockStartSearch.mockReturnValue('job-1')
     capturedOnAwaiting = null
     mockActiveJob = null
@@ -122,14 +125,16 @@ describe('NotationSearchButton', function() {
     expect(container.querySelector('[data-testid="notation-picker"]')).not.toBeNull()
   })
 
-  test('reopens awaiting picker instead of starting a duplicate silent search', function() {
+  test('Suggestions button reopens awaiting picker without starting a new search', function() {
     mockActiveJob = {
       id: 'awaiting-1',
       status: 'awaiting',
       candidates: [{ title: 'Demo', abc: 'X:1\nK:C\nC', source: 'test' }],
     }
     renderButton({ leaveAwaiting: true })
-    clickSearch()
+    const suggestionsBtn = container.querySelector('[data-testid="field-suggestions-open"]')
+    expect(suggestionsBtn).not.toBeNull()
+    act(function() { suggestionsBtn.click() })
     expect(mockStartSearch).not.toHaveBeenCalled()
     expect(container.querySelector('[data-testid="notation-picker"]')).not.toBeNull()
   })

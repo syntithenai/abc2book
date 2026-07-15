@@ -21,6 +21,23 @@ describe('stripNotationDisplayMetadata', function() {
     expect(stripped).not.toMatch(/^h:/m);
     expect(stripped).toMatch(/CDEF/);
   });
+
+  test('keeps only the first C: composer line for notation display', function() {
+    const abc = [
+      'X:1',
+      'T:Test',
+      'C:Composer One',
+      'C:Performer Two',
+      'C:Another Artist',
+      'K:C',
+      'CDEF |',
+    ].join('\n');
+    const stripped = stripNotationDisplayMetadata(abc);
+    expect(stripped).toContain('C:Composer One');
+    expect(stripped).not.toContain('C:Performer Two');
+    expect(stripped).not.toContain('C:Another Artist');
+    expect(stripped).toMatch(/CDEF/);
+  });
 });
 
 describe('buildAbcPreviewFromBodies', function() {

@@ -13,7 +13,7 @@ import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLook
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 function splitComposerSearchCandidates(candidates) {
   const list = Array.isArray(candidates) ? candidates : []
@@ -363,28 +363,6 @@ export default function ComposerSearchButton({
     </>
   )
 
-  const suggestionsDropdown = showSuggestionsChrome ? buildSuggestionsDropdown({
-    items: awaitingCandidates,
-    count: awaitingCandidates.length,
-    onClear: clearAwaitingSuggestions,
-    onSelect: function(candidate) {
-      if (!candidate) {
-        openAwaitingSuggestions()
-        return
-      }
-      const split = splitComposerSearchCandidates(awaitingCandidates)
-      setPendingArtistCandidates(split.artistCandidates)
-      chooseComposerCandidate(candidate)
-    },
-    getLabel: function(candidate) {
-      const role = candidate && candidate.role === 'writer'
-        ? 'Writer'
-        : (candidate && candidate.role === 'performer' ? 'Performer' : '')
-      const name = candidate && candidate.artist ? candidate.artist : ''
-      return role ? (name + ' (' + role + ')') : name
-    },
-  }) : null
-
   const modals = (
     <>
       <SearchResultPickerModal
@@ -430,7 +408,7 @@ export default function ComposerSearchButton({
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: buttonGroup,
-    suggestionsDropdown: suggestionsDropdown,
+    suggestionsDropdown: null,
     errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
     modals: modals,
   })

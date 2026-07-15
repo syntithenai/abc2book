@@ -4,21 +4,10 @@
  */
 import FieldSuggestionsChangesStrip from './FieldSuggestionsChangesStrip'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
-import {
-  applyFieldLookupChoice,
-  dismissFieldLookup,
-} from '../tuneFieldLookupQueue'
-import { awaitingJobsForTune } from '../fieldSuggestionsUtils'
+import { dismissFieldLookup } from '../tuneFieldLookupQueue'
+import { awaitingJobsForTune, nonCurrentCandidates } from '../fieldSuggestionsUtils'
 import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 import { useMemo } from 'react'
-
-function preferCandidate(job) {
-  const candidates = Array.isArray(job.candidates) ? job.candidates : []
-  const nonCurrent = candidates.find(function(item) {
-    return item && !item.isCurrent && item.id !== 'current'
-  })
-  return nonCurrent || candidates[0] || null
-}
 
 export default function TuneFieldSuggestionsStrip(props) {
   const tuneId = props.tuneId
@@ -33,20 +22,13 @@ export default function TuneFieldSuggestionsStrip(props) {
       return {
         jobId: job.id,
         kind: job.kind,
-        count: Array.isArray(job.candidates) ? job.candidates.length : 0,
+        count: nonCurrentCandidates(job.candidates).length,
         job: job,
       }
     })
   }, [fieldLookupQueue.state, tuneId])
 
   if (!items.length) return null
-
-  function acceptItem(item) {
-    const candidate = preferCandidate(item.job)
-    if (!candidate) return
-    applyFieldLookupChoice(item.jobId, candidate)
-    if (typeof props.onAccept === 'function') props.onAccept(item, candidate)
-  }
 
   function clearItem(item) {
     dismissFieldLookup(item.jobId)
@@ -60,10 +42,7 @@ export default function TuneFieldSuggestionsStrip(props) {
   return (
     <FieldSuggestionsChangesStrip
       items={items}
-      onAccept={acceptItem}
-      onClear={clearItem}
       onOpen={openItem}
-      onAcceptAll={function() { items.forEach(acceptItem) }}
       onClearAll={function() { items.forEach(clearItem) }}
     />
   )

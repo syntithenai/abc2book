@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Button, Dropdown, Spinner } from 'react-bootstrap'
+import { Button, ButtonGroup, Dropdown, Spinner } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import SheetImageCameraModal from './SheetImageCameraModal'
 import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal'
@@ -10,6 +10,7 @@ import {
   createTuneFileFromBlob,
   deleteTuneFile,
   findTuneFileMeta,
+  flushPendingDriveDeletes,
   getTuneFiles,
   isPdfTuneFileType,
   resolveTuneFileBlob,
@@ -84,6 +85,19 @@ export default function FileControls(props) {
     }
   }, [tune && tune.id, token && token.access_token, requestGoogleScopes])
 
+  // Flush queued Drive file deletes when signed in / back online.
+  useEffect(function() {
+    if (!token || !driveApi) return undefined
+    flushPendingDriveDeletes({ token: token, driveApi: driveApi }).catch(function() { /* ignore */ })
+    function onOnline() {
+      flushPendingDriveDeletes({ token: token, driveApi: driveApi }).catch(function() { /* ignore */ })
+    }
+    window.addEventListener('online', onOnline)
+    return function() {
+      window.removeEventListener('online', onOnline)
+    }
+  }, [token && token.access_token, driveApi])
+
   const files = getTuneFiles(tune)
   const activeId = tune && tune.activeFile ? tune.activeFile : ''
   const hasActive = !!findTuneFileMeta(tune, activeId)
@@ -144,14 +158,28 @@ export default function FileControls(props) {
     }
   }
 
+  async function attachBlobAndEdit(blob, name, type, source) {
+    const result = await attachBlob(blob, name, type, source)
+    if (result && result.meta) {
+      if (isPdfTuneFileType(result.meta.type || type)) {
+        await openEdit(result.meta)
+      } else {
+        stop()
+        setDrawState({ meta: result.meta, blob: blob, fromPdf: false })
+      }
+    }
+    return result
+  }
+
   async function handleTakeSnapshot() {
     stop()
     setBusy(true)
     try {
       const blob = await captureTuneChartPanels()
-      await attachBlob(blob, 'Screenshot ' + new Date().toLocaleString(), 'image/png', 'capture')
+      await attachBlobAndEdit(blob, 'Screenshot ' + new Date().toLocaleString(), 'image/png', 'capture')
     } catch (err) {
       toast.error(err && err.message ? err.message : 'Capture failed')
+    } finally {
       setBusy(false)
     }
   }
@@ -161,7 +189,7 @@ export default function FileControls(props) {
       toast.error('Choose an image or PDF')
       return
     }
-    await attachBlob(file, file.name || 'File', file.type, 'file')
+    await attachBlobAndEdit(file, file.name || 'File', file.type, 'file')
   }
 
   async function openEdit(meta) {
@@ -259,7 +287,10 @@ export default function FileControls(props) {
     if (!meta || !window.confirm('Delete file "' + (meta.name || 'File') + '"?')) return
     setBusy(true)
     try {
-      const next = await deleteTuneFile(tune, meta.id, { driveApi: driveApi })
+      const next = await deleteTuneFile(tune, meta.id, {
+        driveApi: driveApi,
+        token: token,
+      })
       persistTune(next)
       toast.success('File deleted')
     } catch (err) {
@@ -302,68 +333,86 @@ export default function FileControls(props) {
     return true
   }
 
-  const addFromButtons = (
-    <div className="tune-file-add-from d-grid gap-1 px-2 py-1" onClick={function(e) { e.stopPropagation() }}>
-      <Button size="sm" variant="outline-secondary" className="w-100" disabled={busy} onClick={handleTakeSnapshot}>
-        Capture screenshot
-      </Button>
-      <Button
-        size="sm"
-        variant="outline-secondary"
-        className="w-100"
-        disabled={busy}
-        onClick={function() {
-          stop()
-          if (fileInputRef.current) fileInputRef.current.click()
-        }}
-      >
-        Choose file…
-      </Button>
-      <Button
-        size="sm"
-        variant="outline-secondary"
-        className="w-100"
-        disabled={busy}
-        onClick={function() {
-          stop()
-          setShowCamera(true)
-        }}
-      >
-        Capture photo
-      </Button>
-      <Button size="sm" variant="outline-secondary" className="w-100" disabled={busy} onClick={openPhotos}>
-        Google Photos
-      </Button>
-      <DriveFilePickerModal
-        label="Google Drive"
-        token={token}
-        requestGoogleScopes={requestGoogleScopes}
-        login={login}
-        driveApi={driveApi}
-        mimeTypes="image/png,image/jpeg,image/webp,application/pdf"
-        buttonClassName="w-100"
-        buttonSize="sm"
-        buttonVariant="outline-secondary"
-        openSignal={driveOpenToken}
-        onBeforeOpen={openDriveBefore}
-        onFile={function(file) {
-          if (!isAcceptableFile(file)) {
-            toast.error('Choose an image or PDF')
-            return
-          }
-          attachBlob(file, file.name || 'Drive file', file.type, 'drive')
-        }}
-      />
+  function openLocalFilePicker() {
+    stop()
+    if (fileInputRef.current) fileInputRef.current.click()
+  }
+
+  function openCamera() {
+    stop()
+    setShowCamera(true)
+  }
+
+  function openDrivePicker() {
+    stop()
+    openDriveBefore()
+    setDriveOpenToken(function(v) { return v + 1 })
+  }
+
+  const captureAddGroup = (
+    <div
+      className="file-capture-add-group"
+      onClick={function(e) { e.stopPropagation() }}
+      onMouseDown={function(e) { e.stopPropagation() }}
+    >
+      <Dropdown as={ButtonGroup} className="file-capture-split" align="end">
+        <Button
+          size="sm"
+          variant="primary"
+          className="file-capture-main"
+          disabled={busy}
+          onClick={handleTakeSnapshot}
+          title="Capture screenshot"
+        >
+          <span className="file-capture-main-icon">
+            {tunebook && tunebook.icons ? tunebook.icons.camera : null}
+          </span>
+          <span className="file-capture-main-label">Capture</span>
+        </Button>
+        <Dropdown.Toggle
+          split
+          size="sm"
+          variant="primary"
+          disabled={busy}
+          id="file-capture-add-sources"
+          aria-label="Add file from…"
+          title="Add from…"
+        />
+        <Dropdown.Menu>
+          <Dropdown.Item as="button" onClick={openLocalFilePicker}>Choose file…</Dropdown.Item>
+          <Dropdown.Item as="button" onClick={openCamera}>Capture photo</Dropdown.Item>
+          <Dropdown.Item as="button" onClick={openPhotos}>Google Photos</Dropdown.Item>
+          <Dropdown.Item as="button" onClick={openDrivePicker}>Google Drive</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+    </div>
+  )
+
+  const filesHeader = (
+    <div className="file-controls-header d-flex align-items-center gap-2 px-2 py-1">
+      <div className="fw-semibold small mb-0 d-flex align-items-center gap-1">
+        <span>Files</span>
+        {busy ? <Spinner animation="border" size="sm" /> : null}
+      </div>
+      <div className="ms-auto">{captureAddGroup}</div>
     </div>
   )
 
   const menuItems = (
     <>
-      <Dropdown.Item as="button" active={!hasActive} onClick={clearActive}>
-        None
-      </Dropdown.Item>
+      {filesHeader}
       <Dropdown.Divider />
-      <Dropdown.Header>Files</Dropdown.Header>
+      <div className="tune-file-menu-row px-2 py-1">
+        <Button
+          size="sm"
+          variant={!hasActive ? 'primary' : 'outline-secondary'}
+          className="w-100 text-start"
+          onClick={clearActive}
+          disabled={busy}
+        >
+          None
+        </Button>
+      </div>
       {files.length === 0 ? (
         <Dropdown.ItemText className="text-muted small">No files yet</Dropdown.ItemText>
       ) : files.map(function(meta) {
@@ -414,9 +463,6 @@ export default function FileControls(props) {
           </div>
         )
       })}
-      <Dropdown.Divider />
-      <Dropdown.Header>Add From</Dropdown.Header>
-      {addFromButtons}
     </>
   )
 
@@ -434,12 +480,28 @@ export default function FileControls(props) {
         }}
       />
 
+      {/* Drive picker host — trigger button hidden; opened via driveOpenToken */}
+      <DriveFilePickerModal
+        label="Google Drive"
+        token={token}
+        requestGoogleScopes={requestGoogleScopes}
+        login={login}
+        driveApi={driveApi}
+        mimeTypes="image/png,image/jpeg,image/webp,application/pdf"
+        buttonClassName="d-none"
+        openSignal={driveOpenToken}
+        onBeforeOpen={openDriveBefore}
+        onFile={function(file) {
+          if (!isAcceptableFile(file)) {
+            toast.error('Choose an image or PDF')
+            return
+          }
+          attachBlobAndEdit(file, file.name || 'Drive file', file.type, 'drive')
+        }}
+      />
+
       {variant === 'menu' ? (
         <div className="file-controls-menu" onClick={function(e) { e.stopPropagation() }} onMouseDown={stop}>
-          <div className="fw-semibold small mb-1">
-            {tunebook.icons.tunefile} Files
-            {busy ? <Spinner animation="border" size="sm" className="ms-2" /> : null}
-          </div>
           <div className="d-grid gap-1">{menuItems}</div>
         </div>
       ) : (
@@ -476,7 +538,7 @@ export default function FileControls(props) {
         onHide={function() { setShowCamera(false) }}
         onCapture={function(file) {
           setShowCamera(false)
-          attachBlob(file, file.name || 'Photo.jpg', file.type || 'image/jpeg', 'camera')
+          attachBlobAndEdit(file, file.name || 'Photo.jpg', file.type || 'image/jpeg', 'camera')
         }}
       />
       <SheetImageGooglePhotosModal
@@ -492,7 +554,7 @@ export default function FileControls(props) {
         onSelectFile={function(file) {
           setShowPhotos(false)
           setPhotosAutoStart(false)
-          attachBlob(file, file.name || 'Photo.jpg', file.type || 'image/jpeg', 'photos')
+          attachBlobAndEdit(file, file.name || 'Photo.jpg', file.type || 'image/jpeg', 'photos')
         }}
       />
     </>

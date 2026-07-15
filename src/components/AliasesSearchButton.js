@@ -14,7 +14,7 @@ import {
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 export default function AliasesSearchButton({
   tuneId,
@@ -182,16 +182,7 @@ export default function AliasesSearchButton({
         />
       </>
     ),
-    suggestionsDropdown: buildSuggestionsDropdown({
-      items: awaitingCandidates,
-      onClear: clearAwaitingSuggestions,
-      onSelect: function(candidate) {
-        finishApply(candidate, null, { keepOpen: true })
-      },
-      getLabel: function(candidate) {
-        return candidate && candidate.alias ? candidate.alias : ''
-      },
-    }),
+    suggestionsDropdown: null,
     errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
     modals: (
       <SearchResultPickerModal

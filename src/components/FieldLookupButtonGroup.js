@@ -8,14 +8,11 @@ const DEFAULT_SEARCH_ICON = (
   </svg>
 )
 
-const CLEAR_ICON = (
-  <span aria-hidden="true" style={{ fontWeight: 700, lineHeight: 1 }}>×</span>
-)
-
 /**
  * Uniform field search chrome:
- * [Clear?] [Suggestions?] [Search|Cancel] [External?]
- * Clear / Suggestions only render when suggestionCount > 0.
+ * [Search|Cancel] [Suggestions?] [External?]
+ * Suggestions only renders when suggestionCount > 0 and opens the selection dialog.
+ * Clear belongs on the top Suggestions strip, not here.
  * + progress bar while busy.
  */
 export function FieldLookupButtonGroup(props) {
@@ -28,7 +25,6 @@ export function FieldLookupButtonGroup(props) {
     showExternal,
     narrow: narrowProp,
     onSearch,
-    onClearSuggestions,
     onOpenSuggestions,
     suggestionCount = 0,
     buttonStyle,
@@ -76,23 +72,6 @@ export function FieldLookupButtonGroup(props) {
     )
   }
 
-  const clearBtn = showSuggestions ? (
-    <Button
-      type="button"
-      variant="outline-secondary"
-      style={style}
-      disabled={disabled || busy || typeof onClearSuggestions !== 'function'}
-      title="Clear suggestions"
-      aria-label="Clear suggestions"
-      data-testid="field-suggestions-clear"
-      onClick={function() {
-        if (typeof onClearSuggestions === 'function') onClearSuggestions()
-      }}
-    >
-      {CLEAR_ICON}
-    </Button>
-  ) : null
-
   const suggestionsBtn = showSuggestions ? (
     <Button
       type="button"
@@ -139,16 +118,14 @@ export function FieldLookupButtonGroup(props) {
 
   const group = inline ? (
     <>
-      {clearBtn}
-      {suggestionsBtn}
       {searchBtn}
+      {suggestionsBtn}
       {externalBtn}
     </>
   ) : (
     <ButtonGroup>
-      {clearBtn}
-      {suggestionsBtn}
       {searchBtn}
+      {suggestionsBtn}
       {externalBtn}
     </ButtonGroup>
   )

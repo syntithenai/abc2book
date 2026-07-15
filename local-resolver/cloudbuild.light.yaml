@@ -1,0 +1,20 @@
+# Build the light Cloud Run image (Dockerfile.light).
+# Usage from local-resolver/:
+#   export IMAGE=australia-southeast1-docker.pkg.dev/abc2book/tunebook/resolver-light
+#   # substitute IMAGE in this file, or:
+#   gcloud builds submit --config=cloudbuild.light.yaml --project=abc2book \
+#     --substitutions=_IMAGE="$IMAGE" .
+#
+# Requires .gcloudignore so the upload stays small.
+
+substitutions:
+  _IMAGE: australia-southeast1-docker.pkg.dev/abc2book/tunebook/resolver-light
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_IMAGE}', '-f', 'Dockerfile.light', '.']
+
+images:
+  - '${_IMAGE}'
+
+timeout: 1200s

@@ -7,7 +7,7 @@ import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
-import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import {
   buildGenreSearchContext,
   inferGenreFromSearchContext,
@@ -180,21 +180,7 @@ export default function NotationSearchButton({
         />
       </>
     ),
-    suggestionsDropdown: buildSuggestionsDropdown({
-      items: awaitingCandidates,
-      onClear: clearAwaitingSuggestions,
-      onSelect: function(candidate) {
-        const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
-          ? lookup.activeJob.id
-          : null
-        finishApply(candidate, jobId)
-      },
-      getLabel: function(candidate) {
-        const t = candidate && (candidate.title || title) ? (candidate.title || title) : 'Notation'
-        const src = candidate && candidate.source ? candidate.source : ''
-        return src ? (t + ' · ' + src) : t
-      },
-    }),
+    suggestionsDropdown: null,
     errorNode: (
       <>
         {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
