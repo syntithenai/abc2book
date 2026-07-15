@@ -4,14 +4,85 @@
   }
 }
 
+.practice-config-label-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.practice-config-recent-instruments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.practice-config-recent-chip {
+  max-width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.practice-config-instrument-duration-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+
+.practice-config-instrument-select {
+  flex: 1 1 12rem;
+  min-width: 10rem;
+  max-width: 22rem;
+}
+
+.practice-config-duration-label {
+  margin-right: 0.35rem;
+}
+
+.practice-duration-buttons {
+  flex: 0 0 auto;
+}
+
+.practice-config-vocal-range-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.practice-config-vocal-range-value {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.practice-config-skill-row {
+  width: 100%;
+  display: block;
+}
+
+.practice-config-skill-field {
+  width: 100%;
+  min-width: 0;
+}
+
+.practice-config-filter-field {
+  flex: 1 1 10rem;
+  min-width: 0;
+}
+
+.practice-config-section-divider {
+  margin: 1rem 0 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  opacity: 1;
+  width: 100%;
+}
+
 .practice-config-filters-row {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem 1.5rem;
   align-items: flex-start;
-}
-
-.practice-config-filter-field {
-  flex: 1 1 16rem;
-  min-width: 0;
 }

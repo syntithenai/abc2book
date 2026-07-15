@@ -16,6 +16,9 @@ import {
   cancelCurrentCandidate,
   markAllCandidatesImported,
   isAddTunesChrome,
+  asImportReviewChrome,
+  ensureBlankAddSession,
+  removeAddDraftFromSession,
   coalesceSessionCandidatesByMergeTarget,
   foldIncomingCandidate,
   removeImportReviewCandidatesByFieldLookupJobId,
@@ -49,16 +52,67 @@ describe('importReviewSession', function() {
     expect(candidate.tune.voices['1'].notes).toEqual([]);
   });
 
-  test('isAddTunesChrome only for single manual add-mode session', function() {
+  test('isAddTunesChrome follows entryMode', function() {
     const blank = createImportReviewSession([createBlankAddCandidate({ book: 'x' })], { entryMode: 'add' });
     expect(isAddTunesChrome(blank)).toBe(true);
+    expect(blank.candidates[0].addDraft).toBe(true);
     const imported = createImportReviewSession([{ tune: { name: 'A' }, sourceKind: 'abc' }], { entryMode: 'add' });
-    expect(isAddTunesChrome(imported)).toBe(false);
+    expect(isAddTunesChrome(imported)).toBe(true);
     const multi = createImportReviewSession([
       createBlankAddCandidate({}),
       { tune: { name: 'B' }, sourceKind: 'abc' },
     ], { entryMode: 'add' });
-    expect(isAddTunesChrome(multi)).toBe(false);
+    expect(isAddTunesChrome(multi)).toBe(true);
+    const reviewOnly = createImportReviewSession([{ tune: { name: 'A' }, sourceKind: 'abc' }]);
+    expect(isAddTunesChrome(reviewOnly)).toBe(false);
+  });
+
+  test('ensureBlankAddSession parks review candidates beside a new Add draft', function() {
+    const review = createImportReviewSession([{
+      id: 'review-1',
+      tune: { name: 'Prior' },
+      sourceKind: 'manual',
+    }]);
+    review.enrichmentJobs = [{ id: 'job-1', candidateId: 'review-1', status: 'pending' }];
+    const next = ensureBlankAddSession(review, { book: 'songs' });
+    expect(next.entryMode).toBe('add');
+    expect(isAddTunesChrome(next)).toBe(true);
+    expect(next.candidates).toHaveLength(2);
+    expect(next.candidates[0].addDraft).toBe(true);
+    expect(next.candidates[1].id).toBe('review-1');
+    expect(next.enrichmentJobs[0].status).toBe('pending');
+    expect(next.index).toBe(0);
+  });
+
+  test('removeAddDraftFromSession keeps parked review items', function() {
+    const session = ensureBlankAddSession(createImportReviewSession([{
+      id: 'review-1',
+      tune: { name: 'Prior' },
+    }]), { book: 'songs' });
+    const next = removeAddDraftFromSession(session);
+    expect(next.entryMode).toBe('import');
+    expect(next.candidates).toHaveLength(1);
+    expect(next.candidates[0].id).toBe('review-1');
+  });
+
+  test('asImportReviewChrome switches add draft to import chrome', function() {
+    const blank = createImportReviewSession([createBlankAddCandidate({ book: 'x' })], { entryMode: 'add' });
+    const next = asImportReviewChrome(blank);
+    expect(isAddTunesChrome(next)).toBe(false);
+    expect(next.entryMode).toBe('import');
+    expect(next.candidates).toHaveLength(1);
+  });
+
+  test('asImportReviewChrome focuses a parked review candidate', function() {
+    const session = ensureBlankAddSession(createImportReviewSession([{
+      id: 'review-1',
+      tune: { name: 'Prior' },
+    }]), { book: 'songs' });
+    expect(session.index).toBe(0);
+    const next = asImportReviewChrome(session);
+    expect(next.entryMode).toBe('import');
+    expect(next.index).toBe(1);
+    expect(next.candidates[next.index].id).toBe('review-1');
   });
 
   test('advanceReviewStep keeps unified review page active', function() {
@@ -116,12 +170,16 @@ describe('importReviewSession', function() {
     expect(next.enrichmentJobs[0].status).toBe('pending');
   });
 
-  test('deferCandidateForEnhancement ends session when no more candidates', function() {
-    const session = createImportReviewSession([{ id: 'a', tune: { name: 'A' } }]);
+  test('deferCandidateForEnhancement keeps single-candidate in review queue for enrichment', function() {
+    const session = createImportReviewSession([{ id: 'a', tune: { name: 'A' } }], { entryMode: 'add' });
     const job = createEnrichmentJob(session.candidates[0]);
     const jobs = startEnrichmentJob([job], job.id);
     const next = deferCandidateForEnhancement(session, jobs);
-    expect(next.step).toBe('done');
+    expect(next.step).toBe('review');
+    expect(next.phase).toBe('enrichment');
+    expect(next.entryMode).toBe('import');
+    expect(next.index).toBe(0);
+    expect(next.enrichmentJobs[0].status).toBe('pending');
   });
 
   test('beginEnrichmentPhase opens queue step', function() {

@@ -3,11 +3,17 @@ import {
   getOwnedMediaSyncStatus,
   uploadOwnedMediaLinksForTune,
 } from './linkRecording'
+import {
+  collectTuneFilesForShareScope,
+  uploadPendingTuneFilesInScope,
+  getTuneFileSyncStatus,
+} from './tuneFiles'
 import { tuneIdsForSet } from './shareTunebookUtils'
 import { tuneIdsForPlaylistRecord } from './savedPlaylistsStore'
 import { normalizePerformanceSetItems } from './performanceSetStore'
 
 const AUDIO_PUBLIC_CONFIRM_PREFIX = 'bookstorage_audio_public_'
+const FILE_PUBLIC_CONFIRM_PREFIX = 'bookstorage_file_public_'
 
 export function isAnyoneReadable(permissionsRes) {
   const permissions = permissionsRes && permissionsRes.data && Array.isArray(permissionsRes.data.permissions)
@@ -151,6 +157,20 @@ export function setAudioPublicConfirm(googleId) {
   localStorage.setItem(audioPublicConfirmKey(googleId), 'true')
 }
 
+export function filePublicConfirmKey(googleId) {
+  return FILE_PUBLIC_CONFIRM_PREFIX + googleId
+}
+
+export function hasFilePublicConfirm(googleId) {
+  if (!googleId) return false
+  return localStorage.getItem(filePublicConfirmKey(googleId)) === 'true'
+}
+
+export function setFilePublicConfirm(googleId) {
+  if (!googleId) return
+  localStorage.setItem(filePublicConfirmKey(googleId), 'true')
+}
+
 export async function checkOwnedMediaPublicStatus(driveApi, googleDocumentId, entries) {
   const withGoogleId = (entries || []).filter(function(entry) {
     return entry && entry.googleId && entry.status === 'synced'
@@ -209,7 +229,21 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
     }
   }
 
-  return { tunes: nextTunes, uploaded: uploaded, errors: errors }
+  const fileUpload = await uploadPendingTuneFilesInScope(nextTunes, tuneIds, {
+    token: token,
+    driveApi: driveApi,
+    saveTune: saveTune,
+  })
+  uploaded += fileUpload.uploaded || 0
+  if (fileUpload.errors && fileUpload.errors.length) {
+    errors.push.apply(errors, fileUpload.errors)
+  }
+
+  return {
+    tunes: fileUpload.tunes || nextTunes,
+    uploaded: uploaded,
+    errors: errors,
+  }
 }
 
 export async function prepareOwnedMediaForShare(tunes, scope, options) {
@@ -277,9 +311,53 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     summary.shared += 1
   }
 
+  const tuneIds = collectTuneIdsInScope(workingTunes, scope)
+  let fileEntries = collectTuneFilesForShareScope(workingTunes, tuneIds)
+  if (driveApi && typeof driveApi.listPermissions === 'function') {
+    fileEntries = await Promise.all(fileEntries.map(function(entry) {
+      if (!entry.googleId || entry.status !== 'synced') {
+        return Promise.resolve(Object.assign({}, entry, { alreadyPublic: false }))
+      }
+      return driveApi.listPermissions(entry.googleId).then(function(res) {
+        return Object.assign({}, entry, { alreadyPublic: isAnyoneReadable(res) })
+      }).catch(function() {
+        return Object.assign({}, entry, { alreadyPublic: false })
+      })
+    }))
+  }
+
+  for (let i = 0; i < fileEntries.length; i += 1) {
+    const entry = fileEntries[i]
+    const status = entry.status || getTuneFileSyncStatus(entry.meta)
+    const googleId = entry.googleId
+    if (status === 'local' || status === 'pending' || !googleId) {
+      summary.notUploadable.push(entry.tuneName + ' — ' + entry.fileName + ' (could not upload)')
+      continue
+    }
+    if (entry.alreadyPublic || hasFilePublicConfirm(googleId)) {
+      summary.alreadyPublic += 1
+      continue
+    }
+    const message = '"' + entry.tuneName + ' — ' + entry.fileName + '" (file) will be readable by anyone with the link. Continue?'
+    const ok = confirmFn(message)
+    if (!ok) {
+      summary.cancelled += 1
+      summary.skipped += 1
+      continue
+    }
+    const permResult = await driveApi.addPermission(googleId, { type: 'anyone', role: 'reader' })
+    if (permResult && permResult.error) {
+      summary.failed.push(entry.tuneName + ' — ' + entry.fileName)
+      continue
+    }
+    setFilePublicConfirm(googleId)
+    summary.shared += 1
+  }
+
   return {
     summary: summary,
     tunes: workingTunes,
     entries: entries,
+    fileEntries: fileEntries,
   }
 }

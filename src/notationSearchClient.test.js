@@ -3,6 +3,7 @@ import {
   handleNotationSearchStreamEvent,
   searchNotation,
   searchNotationViaResolver,
+  extractNotationSearchUrl,
 } from './notationSearchClient'
 import { searchNotationLight } from './notationSearchLight'
 import * as mediaProxyClient from './mediaProxyClient'
@@ -103,6 +104,28 @@ describe('notationSearchClient', function() {
     expect(result.manualCandidates[0].contentType).toBe('notation')
   })
 
+  test('normalizeNotationSearch converts MuseScore musicXml to abc', function() {
+    const { MINIMAL_MUSICXML } = require('./__fixtures__/musicXmlSamples')
+    const result = normalizeNotationSearch({
+      abc: '',
+      musicXml: MINIMAL_MUSICXML,
+      source: 'musescore.com',
+      sourceUrl: 'https://musescore.com/user/1/scores/9',
+      title: 'Public Tune',
+      artist: 'Anon',
+    })
+    expect(result.abc).toContain('K:')
+    expect(result.source).toBe('musescore.com')
+    expect(result.title).toBe('Public Tune')
+    expect(result.multiple).toBe(false)
+  })
+
+  test('extractNotationSearchUrl detects musescore and midi URLs', function() {
+    expect(extractNotationSearchUrl('https://musescore.com/user/1/scores/9')).toContain('musescore.com')
+    expect(extractNotationSearchUrl('https://bitmidi.com/files/clair.mid')).toContain('.mid')
+    expect(extractNotationSearchUrl('Drowsy Maggie')).toBe('')
+  })
+
   test('handleNotationSearchStreamEvent forwards progress', function() {
     const updates = []
     handleNotationSearchStreamEvent({
@@ -190,6 +213,63 @@ describe('notationSearchClient', function() {
       expect(searchNotationLight).not.toHaveBeenCalled()
       expect(result.abc).toContain('K:Edor')
       expect(result.source).toBe('thesession.org')
+    })
+
+    test('sends url payload when title is a MuseScore URL', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        json: async function() {
+          return {
+            abc: 'X:1\nT:From Muse\nK:C\nCDEF|',
+            source: 'musescore.com',
+            title: 'From Muse',
+            sourceUrl: 'https://musescore.com/user/1/scores/9',
+          }
+        },
+      })
+
+      await searchNotationViaResolver({
+        title: 'https://musescore.com/user/1/scores/9',
+      })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).toHaveBeenCalledWith(
+        '/search-notation',
+        undefined,
+        expect.objectContaining({
+          body: JSON.stringify({
+            url: 'https://musescore.com/user/1/scores/9',
+          }),
+        })
+      )
+      expect(searchNotationLight).not.toHaveBeenCalled()
+    })
+
+    test('sends url payload when title is a MIDI file URL', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: true,
+        json: async function() {
+          return {
+            abc: 'X:1\nT:From Midi\nK:C\nCDEF|',
+            source: 'bitmidi.com',
+            title: 'From Midi',
+            sourceUrl: 'https://bitmidi.com/files/clair.mid',
+          }
+        },
+      })
+
+      await searchNotationViaResolver({
+        title: 'https://bitmidi.com/files/clair.mid',
+      })
+
+      expect(mediaProxyClient.fetchViaMediaProxy).toHaveBeenCalledWith(
+        '/search-notation',
+        undefined,
+        expect.objectContaining({
+          body: JSON.stringify({
+            url: 'https://bitmidi.com/files/clair.mid',
+          }),
+        })
+      )
     })
   })
 })

@@ -42,6 +42,7 @@ PLAYWRIGHT_ELIGIBLE_HOST_SUFFIXES = (
     "genius.com",
     "metrolyrics.com",
     "songlyrics.com",
+    "musescore.com",
 )
 
 HOST_WAIT_SELECTORS = {

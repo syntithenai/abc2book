@@ -21,6 +21,7 @@ import {
   isTuneFieldEmptyForKind,
   toastAppliedFieldLookup,
 } from './fieldLookupApplyUtils'
+import { getImportReviewSession } from './importReviewSessionStore'
 
 export const FIELD_LOOKUP_KINDS = [
   'lyrics',
@@ -157,6 +158,7 @@ function publicJob(job) {
     candidates: Array.isArray(job.candidates) ? job.candidates.slice() : [],
     manualCandidates: Array.isArray(job.manualCandidates) ? job.manualCandidates.slice() : [],
     options: job.options ? Object.assign({}, job.options) : {},
+    appliedCandidate: job.appliedCandidate || null,
   }
 }
 
@@ -303,6 +305,9 @@ export async function restoreAndResume() {
     if (saved.running && !paused && jobs.some(function(job) { return job.status === 'pending' })) {
       start()
     }
+    // Session may have been dropped on reload; unlink stale review ids so jobs
+    // can be re-promoted into a fresh import-review session.
+    clearOrphanFieldLookupReviewLinks(getImportReviewSession())
   } catch (e) {
     console.log(e)
   } finally {
@@ -330,7 +335,12 @@ export function enqueueLookup(spec) {
   const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
   const duplicate = findDuplicateJob(targetKey, spec.kind)
   if (duplicate) {
-    if (duplicate.status === 'awaiting') return duplicate.id
+    // Re-fire live handlers so open forms can reopen pickers instead of
+    // appearing to do nothing when Search is clicked again.
+    if (duplicate.status === 'awaiting') {
+      notifyLive(duplicate)
+      notify()
+    }
     return duplicate.id
   }
 
@@ -463,14 +473,18 @@ export function clearFinishedJobs() {
   schedulePersist()
 }
 
+export function shouldDeferFieldLookupSave(job) {
+  if (!job) return false
+  if (job.reviewCandidateId) return true
+  return jobSearchMode(job) === 'review'
+}
+
 export function applyFieldLookupChoice(jobId, candidate) {
   const job = jobs.find(function(item) { return item.id === jobId })
   if (!job || job.status !== 'awaiting') return null
 
-  // When linked into import review, the review form owns persistence on Import
-  // unless the user resolved on the live edit form (searchMode review + live apply).
-  const liveResolved = !!(job.options && job.options.searchMode === 'review' && hasLiveHandler(job))
-  const deferSave = !!job.reviewCandidateId && !liveResolved
+  // Review mode and jobs linked into import review: draft owns persistence on Import/Add.
+  const deferSave = shouldDeferFieldLookupSave(job)
 
   if (!deferSave && job.tuneId && candidate) {
     const getTune = queueContext.getTune
@@ -524,6 +538,61 @@ export function linkFieldLookupToReviewCandidate(jobId, candidateId) {
   notify()
   schedulePersist()
   return true
+}
+
+/**
+ * Drop reviewCandidateId links that no longer point at an active import-review
+ * candidate (e.g. after reload when sessionStorage session was cleared).
+ * Returns the number of jobs unlinked.
+ */
+export function clearOrphanFieldLookupReviewLinks(session) {
+  const activeIds = {}
+  if (session && Array.isArray(session.candidates)) {
+    session.candidates.forEach(function(candidate) {
+      if (candidate && candidate.id) activeIds[String(candidate.id)] = true
+    })
+  }
+  let changed = 0
+  jobs.forEach(function(job) {
+    if (!job || !job.reviewCandidateId) return
+    if (job.status !== 'awaiting' && job.status !== 'pending' && job.status !== 'running') {
+      return
+    }
+    if (activeIds[String(job.reviewCandidateId)]) return
+    job.reviewCandidateId = null
+    changed += 1
+  })
+  if (changed) {
+    notify()
+    schedulePersist()
+  }
+  return changed
+}
+
+/**
+ * Mark awaiting Review-mode lookups done when their tune no longer exists.
+ * Returns the number of jobs dismissed.
+ */
+export function dismissAwaitingFieldLookupsMissingTune(getTune) {
+  if (typeof getTune !== 'function') return 0
+  let changed = 0
+  jobs.forEach(function(job) {
+    if (!job || job.status !== 'awaiting' || !job.tuneId) return
+    if (getTune(job.tuneId)) return
+    job.status = 'done'
+    job.progress = 100
+    job.message = ''
+    job.error = null
+    job.candidates = []
+    job.manualCandidates = []
+    job.reviewCandidateId = null
+    changed += 1
+  })
+  if (changed) {
+    notify()
+    schedulePersist()
+  }
+  return changed
 }
 
 export function dismissFieldLookup(jobId) {

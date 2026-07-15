@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Button, Form, Nav, Tab } from 'react-bootstrap'
+import { Button, ButtonGroup, Form, Nav, Tab } from 'react-bootstrap'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { toast } from 'react-toastify'
 import {
@@ -18,13 +18,23 @@ import {
   setSavedMediaProxyBase,
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
+import { pingYoutubeExtension } from '../youtubeExtensionClient'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import FormFieldHelp from '../components/FormFieldHelp'
+import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import {
   loadOfflineMediaSettings,
   saveOfflineMediaSettings,
 } from '../offlineMediaSettings'
+import {
+  AUDIO_COMPRESS_FORMAT_OPTIONS,
+  loadAudioCompressSettings,
+  saveAudioCompressSettings,
+} from '../audioCompressSettings'
+import {
+  coerceAudioCompressFormat,
+  getAudioCompressCapabilities,
+} from '../audioCompressEncode'
 import {
   getPerformanceBindings,
   resetPerformanceBindings,
@@ -98,6 +108,8 @@ export default function SettingsPage(props) {
   const lockedCacheTuneCount = countMediaCacheLockedTunes(tunes)
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
   const [offlineMediaSettings, setOfflineMediaSettings] = useState(loadOfflineMediaSettings())
+  const [audioCompressSettings, setAudioCompressSettings] = useState(loadAudioCompressSettings())
+  const [audioCompressCapabilities, setAudioCompressCapabilities] = useState(null)
   const [performanceBindings, setPerformanceBindingsState] = useState(getPerformanceBindings())
   const [colorScheme, setColorSchemeState] = useState(getColorScheme())
   const [recordingAction, setRecordingAction] = useState(null)
@@ -109,6 +121,34 @@ export default function SettingsPage(props) {
   const [activeTab, setActiveTab] = useState(TAB_BACKGROUND_JOBS)
   const { status: resolverStatus, checked, features, refreshMediaResolverHealth } = useMediaResolverHealth()
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
+  const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
+    checking: true,
+    ok: false,
+    version: null,
+    error: null,
+  })
+  const [showYoutubeHelperInstallHelp, setShowYoutubeHelperInstallHelp] = useState(false)
+  const youtubeHelperZipHref =
+    (process.env.PUBLIC_URL || '') + '/downloads/tunebook-youtube-helper.zip'
+
+  const refreshYoutubeHelperStatus = useCallback(function() {
+    setYoutubeHelperStatus(function(prev) {
+      return Object.assign({}, prev, { checking: true })
+    })
+    return pingYoutubeExtension({ force: true }).then(function(result) {
+      setYoutubeHelperStatus({
+        checking: false,
+        ok: !!result.ok,
+        version: result.version || null,
+        error: result.error || null,
+      })
+      return result
+    })
+  }, [])
+
+  useEffect(function() {
+    refreshYoutubeHelperStatus()
+  }, [refreshYoutubeHelperStatus])
 
   const refreshCacheStats = useCallback(function() {
     setCacheStatsLoading(true)
@@ -125,6 +165,20 @@ export default function SettingsPage(props) {
   useEffect(function() {
     refreshCacheStats()
   }, [refreshCacheStats])
+
+  useEffect(function() {
+    let cancelled = false
+    getAudioCompressCapabilities().then(function(capabilities) {
+      if (cancelled) return
+      setAudioCompressCapabilities(capabilities)
+      const current = loadAudioCompressSettings()
+      const coerced = coerceAudioCompressFormat(current.format, capabilities)
+      if (coerced !== current.format) {
+        setAudioCompressSettings(saveAudioCompressSettings({ format: coerced }))
+      }
+    })
+    return function() { cancelled = true }
+  }, [])
 
   useEffect(function() {
     setResolverMessage(getResolverMessage(resolverStatus, checked))
@@ -157,6 +211,25 @@ export default function SettingsPage(props) {
       [key]: checked,
     }))
     setOfflineMediaSettings(next)
+  }
+
+  function updateAudioCompressFormat(format) {
+    if (audioCompressCapabilities && !audioCompressCapabilities[format]) {
+      return
+    }
+    const next = saveAudioCompressSettings({ format: format })
+    setAudioCompressSettings(next)
+  }
+
+  function compressAudioCommentary() {
+    const base = 'Applies to new cache writes and downloads. Clear Audio, MIDI, or stems caches to recompress existing entries.'
+    if (!audioCompressCapabilities) {
+      return base + ' Checking which formats this browser supports…'
+    }
+    if (!audioCompressCapabilities.aac) {
+      return base + ' Compressed AAC is not available in this browser, so only WAV and MP3 are offered.'
+    }
+    return base
   }
 
   useEffect(function() {
@@ -350,6 +423,89 @@ export default function SettingsPage(props) {
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_MEDIA}>
+          <div className="app-surface-panel App-settings-section">
+            <h2>
+              Compress Audio
+              <FormFieldHelp
+                title={SETTINGS_FIELD_HELP.compressAudio.title}
+                body={SETTINGS_FIELD_HELP.compressAudio.body}
+              />
+            </h2>
+            <ButtonGroup className="settings-compress-audio-buttons" aria-label="Compress Audio format">
+              {AUDIO_COMPRESS_FORMAT_OPTIONS.map(function(option) {
+                const available = !audioCompressCapabilities || !!audioCompressCapabilities[option.value]
+                const selected = audioCompressSettings.format === option.value
+                return (
+                  <Button
+                    key={option.value}
+                    variant={selected ? 'primary' : 'outline-primary'}
+                    disabled={!available}
+                    title={!available ? option.label + ' is not available in this browser' : undefined}
+                    onClick={function() { updateAudioCompressFormat(option.value) }}
+                  >
+                    {option.label}
+                  </Button>
+                )
+              })}
+            </ButtonGroup>
+            <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
+              {compressAudioCommentary()}
+            </p>
+          </div>
+
+          <div className="app-surface-panel App-settings-section">
+            <h2>
+              YouTube Helper extension
+              <FormFieldHelp
+                title={SETTINGS_FIELD_HELP.youtubeHelper.title}
+                body={SETTINGS_FIELD_HELP.youtubeHelper.body}
+              />
+            </h2>
+            <p className="app-text-muted">
+              Optional Chromium extension that loads YouTube audio in your browser so pitch, filters,
+              and caching work without a cloud YouTube proxy. Download the zip, then see How to install.
+            </p>
+            <div className="App-settings-resolver-status">
+              <strong>
+                {youtubeHelperStatus.checking
+                  ? 'Checking YouTube Helper…'
+                  : youtubeHelperStatus.ok
+                    ? ('YouTube Helper: connected' +
+                      (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
+                    : 'YouTube Helper: not connected'}
+              </strong>
+              {!youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
+                <span className="app-text-muted"> — {youtubeHelperStatus.error}</span>
+              ) : null}
+            </div>
+            <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
+              <Button
+                as="a"
+                variant="primary"
+                href={youtubeHelperZipHref}
+                download="tunebook-youtube-helper.zip"
+                style={{ color: '#fff', textDecoration: 'none' }}
+              >
+                Download YouTube Helper
+              </Button>
+              <Button
+                variant="outline-secondary"
+                onClick={function() { setShowYoutubeHelperInstallHelp(true) }}
+              >
+                How to install
+              </Button>
+              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
+                Refresh Helper status
+              </Button>
+            </div>
+            <FieldHelpModal
+              show={showYoutubeHelperInstallHelp}
+              title={SETTINGS_FIELD_HELP.youtubeHelperInstall.title}
+              fields={SETTINGS_FIELD_HELP.youtubeHelperInstall.fields}
+              onHide={function() { setShowYoutubeHelperInstallHelp(false) }}
+            />
+          </div>
+
           <div className="app-surface-panel App-settings-section">
             <h2>Media resolver / proxy</h2>
             <p className="app-text-muted">

@@ -13,6 +13,7 @@ import ChordMergeFailureToast from './ChordMergeFailureToast'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import {
   firstSectionMeter,
+  firstSectionTempo,
   insertChordsEditorSectionAfter,
   rebuildChordGridFromSections,
   reconcileChordSectionsFromGrid,
@@ -20,6 +21,7 @@ import {
   renameChordsEditorSection,
   replaceSectionChart,
   replaceSectionMeter,
+  replaceSectionTempo,
   applyChordSectionLabels,
 } from '../chordsEditorSections'
 import {
@@ -109,6 +111,7 @@ export default function ChordsWizard(props) {
       chordChart: chordChart,
       lyricLines: lyricLines,
       defaultMeter: tune.meter || '4/4',
+      defaultTempo: tune.tempo || 120,
       chordSectionLabels: labels,
     })
     warningsBanner.current = extracted.warnings || []
@@ -152,6 +155,7 @@ export default function ChordsWizard(props) {
         title: 'Record chords',
         chart: rebuildChordGridFromSections(sections),
         meter: firstSectionMeter(sections, tune.meter),
+        tempo: firstSectionTempo(sections, tune.tempo),
       })
     } else {
       const firstEditable = sections.find(function(s) { return s && !s.chartRevisit })
@@ -196,6 +200,7 @@ export default function ChordsWizard(props) {
     }
 
     const firstMeter = opts.firstMeter || firstSectionMeter(nextSections, tune.meter)
+    const firstTempo = opts.firstTempo || firstSectionTempo(nextSections, tune.tempo)
     const notes = primaryNoteLines()
     const structural = !!opts.structural
     // Structural New/Delete must rebuild scaffold from the editor section list;
@@ -212,6 +217,8 @@ export default function ChordsWizard(props) {
       chordSheetAlignment: opts.chordSheetAlignment,
       defaultMeter: firstMeter,
       firstMeter: firstMeter,
+      defaultTempo: firstTempo,
+      firstTempo: firstTempo,
       updateLyrics: !!opts.updateLyrics,
       lyricLines: opts.lyricLines,
     })
@@ -271,6 +278,7 @@ export default function ChordsWizard(props) {
       title: 'Record chords',
       chart: wholeDraft != null ? wholeDraft : rebuildChordGridFromSections(sections),
       meter: firstSectionMeter(sections, tune.meter),
+      tempo: firstSectionTempo(sections, tune.tempo),
     })
   }
 
@@ -332,17 +340,25 @@ export default function ChordsWizard(props) {
       const reconciled = reconcileChordSectionsFromGrid(
         sections,
         String(payload.chart || ''),
-        payload.meter || tune.meter || '4/4'
+        payload.meter || tune.meter || '4/4',
+        payload.tempo != null ? payload.tempo : tune.tempo
       )
-      saveSectionsTransaction(reconciled, { historyLabel: 'Save recorded chords' })
+      saveSectionsTransaction(reconciled, {
+        historyLabel: 'Save recorded chords',
+        firstTempo: payload.tempo,
+      })
     } else if (recordTarget.section) {
       const next = replaceSectionChart(
         sections,
         recordTarget.section.key,
         payload.chart,
-        payload.meter || recordTarget.section.meter
+        payload.meter || recordTarget.section.meter,
+        payload.tempo != null ? payload.tempo : recordTarget.section.tempo
       )
-      saveSectionsTransaction(next, { historyLabel: 'Save recorded section chords' })
+      saveSectionsTransaction(next, {
+        historyLabel: 'Save recorded section chords',
+        firstTempo: firstSectionTempo(next, payload.tempo || tune.tempo),
+      })
     }
     setRecordTarget(null)
   }
@@ -357,6 +373,21 @@ export default function ChordsWizard(props) {
     setSections(next)
     committedSectionsRef.current = next
     saveSectionsTransaction(next, { historyLabel: 'Save section meter' })
+  }
+
+  function handleTempoChange(section, nextTempo) {
+    if (!section || !(nextTempo > 0)) return
+    const next = replaceSectionTempo(
+      sectionsWithDrafts(sections, sectionDrafts),
+      section.key,
+      nextTempo
+    )
+    setSections(next)
+    committedSectionsRef.current = next
+    saveSectionsTransaction(next, {
+      historyLabel: 'Save section tempo',
+      firstTempo: firstSectionTempo(next, nextTempo),
+    })
   }
 
   function handleStanzaNameChange(section, nextName) {
@@ -532,7 +563,8 @@ export default function ChordsWizard(props) {
             tuneId={tune && tune.id}
             kind="chords"
             fallbackTitle={tune.name || ''}
-            onApply={function(result) {
+            onApply={function(result, _job, meta) {
+              if (meta && (meta.deferred || meta.keepCurrent)) return
               if (!result) return
               var text = ''
               if (result.chordProSource) text = String(result.chordProSource)
@@ -691,6 +723,21 @@ export default function ChordsWizard(props) {
                       />
                     </div>
                   ) : null}
+                  {!isRevisit ? (
+                    <Form.Control
+                      type="number"
+                      min="20"
+                      max="300"
+                      title="Tempo (BPM)"
+                      aria-label={'Tempo for ' + (section.title || 'section')}
+                      value={section.tempo > 0 ? section.tempo : (tune.tempo || 120)}
+                      style={{ width: '4.75rem' }}
+                      onChange={function(e) {
+                        const next = parseInt(e.target.value, 10)
+                        if (!isNaN(next) && next > 0) handleTempoChange(section, next)
+                      }}
+                    />
+                  ) : null}
                   <div style={{ flex: '1 1 12rem', minWidth: '10rem', maxWidth: '22rem' }}>
                     <CreatableSelect
                       value={section.title ? { value: section.title, label: section.title } : null}
@@ -769,6 +816,7 @@ export default function ChordsWizard(props) {
             : (recordTarget && recordTarget.section ? ('Record · ' + recordTarget.section.title) : 'Record chords')
         }
         tune={tune}
+        meterOptions={meterOptions}
         sectionKey={recordTarget && recordTarget.section ? recordTarget.section.key : 'all'}
         chart={
           recordTarget && recordTarget.mode === 'all'
@@ -779,6 +827,13 @@ export default function ChordsWizard(props) {
           recordTarget && recordTarget.mode === 'all'
             ? recordTarget.meter
             : (recordTarget && recordTarget.section ? recordTarget.section.meter : tune.meter)
+        }
+        tempo={
+          recordTarget && recordTarget.mode === 'all'
+            ? recordTarget.tempo
+            : (recordTarget && recordTarget.section
+              ? (recordTarget.section.tempo || tune.tempo)
+              : tune.tempo)
         }
         autoActivate={!!props.autoActivateChordRecord && !!recordTarget}
         onSave={handleRecordSave}

@@ -26,8 +26,16 @@ export function resolveNotationAction(event, context) {
       return { action: shift ? 'addChordTone' : 'insertPitch', letter: pitchLetter };
     }
   }
-  if (key === 'ArrowLeft') return { action: mod ? 'prevMeasure' : 'prevEvent' };
-  if (key === 'ArrowRight') return { action: mod ? 'nextMeasure' : 'nextEvent' };
+  if (key === 'ArrowLeft') {
+    if (mod) return { action: 'prevMeasure' };
+    if (shift) return { action: 'extendSelection', delta: -1 };
+    return { action: 'prevEvent' };
+  }
+  if (key === 'ArrowRight') {
+    if (mod) return { action: 'nextMeasure' };
+    if (shift) return { action: 'extendSelection', delta: 1 };
+    return { action: 'nextEvent' };
+  }
   if (key === 'ArrowUp') {
     if (mod) return { action: 'transposeOctave', delta: 1 };
     if (alt && shift) return { action: 'transposeDiatonic', delta: 1 };

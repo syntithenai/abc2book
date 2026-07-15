@@ -287,6 +287,34 @@ async function clickTestId(page, testId) {
 
 async function staffNoteCenters(page, voiceClass) {
   return page.evaluate(function(vc) {
+    function className(el) {
+      if (!el || !el.className) return ''
+      if (typeof el.className === 'string') return el.className
+      if (el.className.baseVal != null) return el.className.baseVal
+      return ''
+    }
+    function classNum(el, prefix) {
+      const parts = className(el).split(/\s+/)
+      for (let i = 0; i < parts.length; i += 1) {
+        if (parts[i].indexOf(prefix) === 0) {
+          const n = parseInt(parts[i].slice(prefix.length), 10)
+          if (!isNaN(n)) return n
+        }
+      }
+      return null
+    }
+    /** Never sort by notehead top — pitch contour looks like multiple system lines. */
+    function sortReadingOrder(notes) {
+      return notes.slice().sort(function(a, b) {
+        const lineA = classNum(a, 'abcjs-l')
+        const lineB = classNum(b, 'abcjs-l')
+        if (lineA != null && lineB != null && lineA !== lineB) return lineA - lineB
+        const mA = classNum(a, 'abcjs-m')
+        const mB = classNum(b, 'abcjs-m')
+        if (mA != null && mB != null && mA !== mB) return mA - mB
+        return a.getBoundingClientRect().left - b.getBoundingClientRect().left
+      })
+    }
     const wrap = document.querySelector('[data-testid="notation-staff-wrap"]')
     if (!wrap) return []
     let notes
@@ -296,12 +324,7 @@ async function staffNoteCenters(page, voiceClass) {
     if (!notes || !notes.length) {
       notes = Array.from(wrap.querySelectorAll('.abcjs-note, .abcjs-rest'))
     }
-    notes.sort(function(a, b) {
-      const ra = a.getBoundingClientRect()
-      const rb = b.getBoundingClientRect()
-      if (Math.abs(ra.top - rb.top) > 8) return ra.top - rb.top
-      return ra.left - rb.left
-    })
+    notes = sortReadingOrder(notes)
     return notes.map(function(el) {
       const r = el.getBoundingClientRect()
       return { x: r.left + r.width / 2, y: r.top + r.height / 2 }
@@ -323,6 +346,26 @@ async function staffStepPixels(page) {
   return page.evaluate(function() {
     const wrap = document.querySelector('[data-testid="notation-staff-wrap"]')
     if (!wrap) return 14
+    const staff = wrap.querySelector('.abcjs-staff')
+    if (staff) {
+      const lineEls = Array.from(staff.querySelectorAll('path, line')).filter(function(el) {
+        const r = el.getBoundingClientRect()
+        return r.height <= 3 && r.width > 20
+      })
+      const tops = lineEls.map(function(el) { return el.getBoundingClientRect().top }).sort(function(a, b) { return a - b })
+      const uniq = []
+      tops.forEach(function(t) {
+        if (!uniq.length || Math.abs(t - uniq[uniq.length - 1]) > 2) uniq.push(t)
+      })
+      if (uniq.length >= 2) {
+        let best = null
+        for (let i = 0; i < uniq.length - 1; i += 1) {
+          const space = uniq[i + 1] - uniq[i]
+          if (space >= 5 && space <= 28 && (best == null || space < best)) best = space
+        }
+        if (best != null) return best / 2
+      }
+    }
     const notes = Array.from(wrap.querySelectorAll('.abcjs-note'))
     if (notes.length >= 4) {
       const eRect = notes[2].getBoundingClientRect()
@@ -342,13 +385,14 @@ async function staffStepPixels(page) {
 
 async function dragStaffNoteByIndex(page, noteIndex, staffSteps) {
   const stepPx = await staffStepPixels(page)
-  const deltaY = -((staffSteps + 0.15) * stepPx)
+  // Extra half-step bias so rounding never under-counts intentional multi-step drags.
+  const deltaY = -((staffSteps + 0.45) * stepPx)
   const centers = await staffNoteCenters(page, 0)
   const pt = centers[noteIndex]
   if (!pt) throw new Error('staff note index ' + noteIndex + ' not found (' + centers.length + ' notes)')
   await page.mouse.move(pt.x, pt.y)
   await page.mouse.down()
-  await page.mouse.move(pt.x, pt.y + deltaY, { steps: Math.max(4, Math.abs(staffSteps) * 2) })
+  await page.mouse.move(pt.x, pt.y + deltaY, { steps: Math.max(8, Math.abs(staffSteps) * 4) })
   await page.mouse.up()
   await sleep(500)
 }
@@ -401,7 +445,8 @@ async function clickStaffForNoteInput(page, options) {
     y = pt.y
   } else if (opts.atEnd && centers.length) {
     const last = centers[centers.length - 1]
-    x = last.x + 30
+    // Past last note and typical trailing bar so caret lands at events.length.
+    x = last.x + 80
     y = last.y
   } else {
     const pt = await page.evaluate(function() {
@@ -417,6 +462,68 @@ async function clickStaffForNoteInput(page, options) {
   }
   await page.mouse.click(x, y)
   await sleep(200)
+}
+
+/** Human end-append: click past the reading-order last note (gap before trailing | if present). */
+async function clickAfterLastNoteHuman(page) {
+  const pt = await page.evaluate(function() {
+    function className(el) {
+      if (!el || !el.className) return ''
+      if (typeof el.className === 'string') return el.className
+      if (el.className.baseVal != null) return el.className.baseVal
+      return ''
+    }
+    function classNum(el, prefix) {
+      const parts = className(el).split(/\s+/)
+      for (let i = 0; i < parts.length; i += 1) {
+        if (parts[i].indexOf(prefix) === 0) {
+          const n = parseInt(parts[i].slice(prefix.length), 10)
+          if (!isNaN(n)) return n
+        }
+      }
+      return null
+    }
+    const wrap = document.querySelector('[data-testid="notation-staff-wrap"]')
+    if (!wrap) return null
+    const notes = Array.from(wrap.querySelectorAll('.abcjs-note')).slice().sort(function(a, b) {
+      const lineA = classNum(a, 'abcjs-l')
+      const lineB = classNum(b, 'abcjs-l')
+      if (lineA != null && lineB != null && lineA !== lineB) return lineA - lineB
+      const mA = classNum(a, 'abcjs-m')
+      const mB = classNum(b, 'abcjs-m')
+      if (mA != null && mB != null && mA !== mB) return mA - mB
+      return a.getBoundingClientRect().left - b.getBoundingClientRect().left
+    })
+    if (!notes.length) return null
+    const last = notes[notes.length - 1]
+    const lr = last.getBoundingClientRect()
+    const bars = Array.from(wrap.querySelectorAll('.abcjs-bar'))
+    let barLeft = null
+    bars.forEach(function(b) {
+      const br = b.getBoundingClientRect()
+      if (br.left >= lr.right - 2) {
+        if (barLeft == null || br.left < barLeft) barLeft = br.left
+      }
+    })
+    // Mid-bar only (no trailing |): click just past last notehead. With trailing |: gap before it.
+    const x = barLeft != null ? (lr.right + barLeft) * 0.5 : lr.right + 12
+    return { x: x, y: lr.top + lr.height / 2 }
+  })
+  if (!pt) throw new Error('could not resolve human end-gap click')
+  await page.mouse.click(pt.x, pt.y)
+  await sleep(200)
+}
+
+async function dragStaffNoteFarOffGlyph(page, noteIndex) {
+  const centers = await staffNoteCenters(page, 0)
+  const pt = centers[noteIndex]
+  if (!pt) throw new Error('staff note index ' + noteIndex + ' not found')
+  await page.mouse.move(pt.x, pt.y)
+  await page.mouse.down()
+  // Few steps, large leap — mimics fast flick that inflated abcjs drag.step.
+  await page.mouse.move(pt.x, pt.y - 220, { steps: 2 })
+  await page.mouse.up()
+  await sleep(500)
 }
 
 async function setNotationFlag(page, key, value) {
@@ -465,8 +572,11 @@ module.exports = {
   clickTestId,
   staffNoteCenters,
   staffNoteOnSystemLine,
+  staffStepPixels,
   dragStaffNoteByIndex,
+  dragStaffNoteFarOffGlyph,
   clickStaffGap,
   clickStaffForNoteInput,
+  clickAfterLastNoteHuman,
   setNotationFlag,
 }

@@ -234,6 +234,7 @@ var useAbcTools = () => {
         var currentVoice = '1'
         var links = {}
          var files = {}
+         var tuneFiles = {}
          var recordings = {}
          var abcbookJsonChunks = {}
          var hLines = []
@@ -415,6 +416,44 @@ var useAbcTools = () => {
                     tune.timingScaffold = abcbookFieldValue(line, '% abcbook-timing-scaffold') === 'true'
                } else  if (line.startsWith('% abcbook-src-url')) {
                     tune.srcUrl = line.slice(17).trim()
+               } else if (line.startsWith('% abcbook-active-file')) {
+                    tune.activeFile = abcbookFieldValue(line, '% abcbook-active-file')
+               } else if (line.startsWith('% abcbook-file-id-')) {
+                    var parts = line.trim().split('% abcbook-file-id-')
+                    if (parts.length > 1) {
+                        var numberParts = parts[1].split(' ')
+                        if (numberParts.length > 1) {
+                            if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
+                            tuneFiles[numberParts[0]].id = numberParts.slice(1).join(' ')
+                        }
+                    }
+               } else if (line.startsWith('% abcbook-file-google-id-')) {
+                    var parts = line.trim().split('% abcbook-file-google-id-')
+                    if (parts.length > 1) {
+                        var numberParts = parts[1].split(' ')
+                        if (numberParts.length > 1) {
+                            if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
+                            tuneFiles[numberParts[0]].googleId = numberParts.slice(1).join(' ')
+                        }
+                    }
+               } else if (line.startsWith('% abcbook-file-source-')) {
+                    var parts = line.trim().split('% abcbook-file-source-')
+                    if (parts.length > 1) {
+                        var numberParts = parts[1].split(' ')
+                        if (numberParts.length > 1) {
+                            if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
+                            tuneFiles[numberParts[0]].source = numberParts.slice(1).join(' ')
+                        }
+                    }
+               } else if (line.startsWith('% abcbook-file-pdf-page-')) {
+                    var parts = line.trim().split('% abcbook-file-pdf-page-')
+                    if (parts.length > 1) {
+                        var numberParts = parts[1].split(' ')
+                        if (numberParts.length > 1) {
+                            if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
+                            tuneFiles[numberParts[0]].pdfPage = parseInt(numberParts.slice(1).join(' '), 10) || 1
+                        }
+                    }
                } else  if (line.startsWith('% abcbook-file-')) {
 				   //console.log('read file line',line)
                     if (line.startsWith('% abcbook-file-type-')) {
@@ -424,8 +463,12 @@ var useAbcTools = () => {
                             var numberParts = parts[1].split(' ')
                             //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
-                                if (!files[numberParts[0]]) files[numberParts[0]] = {}
-                                files[numberParts[0]].type = numberParts.slice(1).join(' ')
+                                if (tuneFiles[numberParts[0]]) {
+                                    tuneFiles[numberParts[0]].type = numberParts.slice(1).join(' ')
+                                } else {
+                                    if (!files[numberParts[0]]) files[numberParts[0]] = {}
+                                    files[numberParts[0]].type = numberParts.slice(1).join(' ')
+                                }
                             }
                         }
                     } else if (line.startsWith('% abcbook-file-google-document-id-')) {
@@ -446,8 +489,12 @@ var useAbcTools = () => {
                             var numberParts = parts[1].split(' ')
                             //console.log('TTs','numparts',numberParts)
                             if (numberParts.length > 1) {
-                                if (!files[numberParts[0]]) files[numberParts[0]] = {}
-                                files[numberParts[0]].name = numberParts.slice(1).join(' ')
+                                if (tuneFiles[numberParts[0]]) {
+                                    tuneFiles[numberParts[0]].name = numberParts.slice(1).join(' ')
+                                } else {
+                                    if (!files[numberParts[0]]) files[numberParts[0]] = {}
+                                    files[numberParts[0]].name = numberParts.slice(1).join(' ')
+                                }
                             }
                         }
                     } else if (line.startsWith('% abcbook-file-data-')) {
@@ -602,6 +649,14 @@ var useAbcTools = () => {
         //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
         tune.files = Object.values(files)
+        tune.tuneFiles = Object.keys(tuneFiles).sort(function(a, b) {
+          return parseInt(a, 10) - parseInt(b, 10)
+        }).map(function(key) {
+          return tuneFiles[key]
+        }).filter(function(meta) {
+          return meta && meta.id
+        })
+        if (!tune.activeFile) tune.activeFile = ''
         tune.recordings = Object.values(recordings)
         var timedJsonFields = applyAbcbookJsonChunks(abcbookJsonChunks)
         Object.keys(timedJsonFields).forEach(function(fieldName) {
@@ -724,6 +779,31 @@ var useAbcTools = () => {
 				}
             })
         }
+        var tuneFilesRendered = []
+        if (Array.isArray(tune.tuneFiles) && tune.tuneFiles.length > 0) {
+            tune.tuneFiles.forEach(function(file, k) {
+                if (!file || !file.id) return
+                tuneFilesRendered.push("% abcbook-file-id-" + k + ' ' + ensureText(file.id, ""))
+                if (file.name) {
+                    tuneFilesRendered.push("% abcbook-file-name-" + k + ' ' + ensureText(file.name, ""))
+                }
+                if (file.type) {
+                    tuneFilesRendered.push("% abcbook-file-type-" + k + ' ' + ensureText(file.type, ""))
+                }
+                if (file.googleId) {
+                    tuneFilesRendered.push("% abcbook-file-google-id-" + k + ' ' + ensureText(file.googleId, ""))
+                }
+                if (file.source) {
+                    tuneFilesRendered.push("% abcbook-file-source-" + k + ' ' + ensureText(file.source, ""))
+                }
+                if (file.pdfPage > 0) {
+                    tuneFilesRendered.push("% abcbook-file-pdf-page-" + k + ' ' + ensureNumber(file.pdfPage, 1))
+                }
+            })
+        }
+        if (tune.activeFile) {
+            tuneFilesRendered.push("% abcbook-active-file " + ensureText(tune.activeFile, ""))
+        }
         var recordingsRendered = []
         if (Array.isArray(tune.recordings)&& tune.recordings.length > 0) {
             tune.recordings.forEach(function(file,k) {
@@ -799,6 +879,7 @@ var useAbcTools = () => {
                     + ((renderTimedJsonFields(tune).length > 0) ? renderTimedJsonFields(tune).join("\n") + "\n" : '')
                     + ensureText((Array.isArray(tune.abccomments) ? tune.abccomments.join("\n")  + "\n" : "\n")) 
                     + ((filesRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
+                    + ((tuneFilesRendered.length > 0) ? tuneFilesRendered.join("\n") + "\n" : '')
                     + ((recordingsRendered.length > 0) ? filesRendered.join("\n") + "\n" : '')
                     
         

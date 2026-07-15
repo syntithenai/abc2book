@@ -27,6 +27,7 @@ import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import GenreSearchButton from './GenreSearchButton'
 import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
+import NotationSearchButton from './NotationSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -273,6 +274,33 @@ export default function AbcEditor(props) {
         controlledView={editorViewModeToNotationView(editorViewMode)}
         hideViewSelector={true}
         onHelpModeChange={props.onNotationHelpModeChange}
+        toolbarEnd={(
+          <NotationSearchButton
+            tuneId={params.tuneId || tune.id}
+            title={tune.name || ''}
+            artist={tune.composer || ''}
+            rhythm={tune.rhythm || ''}
+            currentGenre={tune.genre || ''}
+            token={props.token}
+            tunebook={props.tunebook}
+            resolverAvailable={resolverAvailable}
+            disabled={!(tune && tune.name && String(tune.name).trim())}
+            onGenreAccept={function(genre) {
+              tune.genre = genre
+              tune.id = params.tuneId
+              saveTune(tune)
+            }}
+            onNotation={function(candidate) {
+              const abcText = candidate && candidate.abc ? String(candidate.abc) : ''
+              if (!abcText || !props.tunebook || !props.tunebook.abcTools) return
+              const imported = props.tunebook.abcTools.abc2json(abcText)
+              if (!imported) return
+              imported.id = tune.id
+              props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
+              if (typeof props.forceRefresh === 'function') props.forceRefresh()
+            }}
+          />
+        )}
       />
     )
   }
@@ -404,7 +432,9 @@ export default function AbcEditor(props) {
                                 tuneId={params.tuneId || tune.id}
                                 kind="composer"
                                 fallbackTitle={tune.name || ''}
-                                onApply={function(candidate) {
+                                currentValue={tune && tune.composer ? tune.composer : ''}
+                                onApply={function(candidate, _job, meta) {
+                                  if (meta && (meta.deferred || meta.keepCurrent)) return
                                   if (candidate && candidate.artist) {
                                     tune.composer = candidate.artist
                                     tune.id = params.tuneId
@@ -433,7 +463,6 @@ export default function AbcEditor(props) {
                                 backgroundInfo={tune.backgroundInfo || ''}
                                 tunebook={props.tunebook}
                                 disabled={!(tune && tune.name && String(tune.name).trim())}
-                                inline={true}
                                 onGenre={function(genre) {
                                   tune.genre = genre
                                   tune.id = params.tuneId
@@ -479,7 +508,6 @@ export default function AbcEditor(props) {
                               existingArtists={tune.artists}
                               tunebook={props.tunebook}
                               disabled={!(tune && tune.name && String(tune.name).trim())}
-                              inline={true}
                               onAddArtist={function(artistName) {
                                 tune.artists = mergeBibliographicList(tune.artists, [artistName])
                                 tune.id = params.tuneId
@@ -509,7 +537,6 @@ export default function AbcEditor(props) {
                               resolverAvailable={resolverAvailable}
                               token={props.token}
                               disabled={!(tune && tune.name && String(tune.name).trim())}
-                              inline={true}
                               onAddAlias={function(alias) {
                                 tune.aliases = mergeBibliographicList(tune.aliases, [alias])
                                 tune.id = params.tuneId
@@ -821,7 +848,10 @@ export default function AbcEditor(props) {
                         tuneId={params.tuneId || tune.id}
                         kind="lyrics"
                         fallbackTitle={tune.name || ''}
-                        onApply={function(result) {
+                        currentValue={wLinesText || ''}
+                        onApply={function(result, _job, meta) {
+                          if (meta && (meta.deferred || meta.keepCurrent)) return
+                          if (!result) return
                           setWLinesText(result.text)
                           setPlainLyricLines(tune, result.lines)
                           tune.id = params.tuneId

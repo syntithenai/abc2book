@@ -21,6 +21,7 @@ import { getBackgroundReviewSummary } from './backgroundReviewQueue'
 import {
   __resetBackgroundReviewToastForTests,
   dismissBackgroundReviewToast,
+  showBackgroundJobsContinuingNotice,
   showBackgroundProcessingNotice,
   snoozeBackgroundReviewToast,
   syncBackgroundReviewToast,
@@ -58,23 +59,61 @@ describe('backgroundReviewToast', function() {
     expect(toast.warn).not.toHaveBeenCalled()
   })
 
-  test('reuses a single toast id when multiple items become ready', function() {
-    getBackgroundReviewSummary
-      .mockReturnValueOnce({ ready: 1, processing: 0, importReadyIds: ['a'], mediaReady: [] })
-      .mockReturnValueOnce({ ready: 2, processing: 0, importReadyIds: ['a', 'b'], mediaReady: [] })
-      .mockReturnValueOnce({ ready: 3, processing: 1, importReadyIds: ['a', 'b', 'c'], mediaReady: [] })
-
-    syncBackgroundReviewToast()
-    syncBackgroundReviewToast()
-    syncBackgroundReviewToast()
-
-    const readyCalls = toast.warn.mock.calls.filter(function(call) {
-      return call[1] && call[1].toastId === 'background-review'
+  test('shows ready toast once when processing drops to zero', function() {
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 0,
+      processing: 2,
+      importReadyIds: [],
+      mediaReady: [],
     })
-    expect(readyCalls).toHaveLength(3)
-    expect(readyCalls.every(function(call) {
-      return call[1].autoClose === false
-    })).toBe(true)
+    syncBackgroundReviewToast()
+    expect(toast.warn).not.toHaveBeenCalled()
+
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 2,
+      processing: 0,
+      importReadyIds: ['a', 'b'],
+      mediaReady: [],
+    })
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(1)
+
+    // Same ready set — subsequent notifies must not re-fire
+    syncBackgroundReviewToast()
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(1)
+  })
+
+  test('shows ready toast when ready appears while processing already zero', function() {
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 1,
+      processing: 0,
+      importReadyIds: ['a'],
+      mediaReady: [],
+    })
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(1)
+
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 2,
+      processing: 0,
+      importReadyIds: ['a', 'b'],
+      mediaReady: [],
+    })
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(2)
+  })
+
+  test('does not show ready toast while processing continues', function() {
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 1,
+      processing: 1,
+      importReadyIds: ['a'],
+      mediaReady: [],
+    })
+    syncBackgroundReviewToast()
+    syncBackgroundReviewToast()
+    expect(toast.warn).not.toHaveBeenCalled()
   })
 
   test('shows transient toast for processing-only work when explicitly requested', function() {
@@ -131,6 +170,22 @@ describe('backgroundReviewToast', function() {
     expect(toast.warn).toHaveBeenCalledTimes(1)
 
     now += 1_100
+    // Fingerprint unchanged and already shown — still suppressed by dismiss window
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(1)
+
+    // After suppress window, still same fingerprint — do not re-spam
+    now += 1
+    syncBackgroundReviewToast()
+    expect(toast.warn).toHaveBeenCalledTimes(1)
+
+    // New ready work after suppress window expired
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 3,
+      processing: 0,
+      importReadyIds: ['a', 'b', 'c'],
+      mediaReady: [],
+    })
     syncBackgroundReviewToast()
     expect(toast.warn).toHaveBeenCalledTimes(2)
   })
@@ -215,5 +270,25 @@ describe('backgroundReviewToast', function() {
     })
     syncBackgroundReviewToast()
     expect(toast.warn).toHaveBeenCalledTimes(1)
+  })
+
+  test('showBackgroundJobsContinuingNotice toasts active job count', function() {
+    getBackgroundReviewSummary.mockReturnValue({
+      ready: 0,
+      processing: 3,
+      importReadyIds: [],
+      mediaReady: [],
+    })
+    const message = showBackgroundJobsContinuingNotice()
+    expect(message).toBe('3 jobs continuing in background')
+    expect(toast.info).toHaveBeenCalledWith(
+      '3 jobs continuing in background',
+      expect.objectContaining({ toastId: 'background-jobs-continuing' })
+    )
+  })
+
+  test('showBackgroundJobsContinuingNotice is a no-op when nothing is processing', function() {
+    expect(showBackgroundJobsContinuingNotice()).toBe(null)
+    expect(toast.info).not.toHaveBeenCalled()
   })
 })

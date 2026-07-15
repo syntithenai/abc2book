@@ -6,7 +6,7 @@ import NotationDurationButtonGroup from './NotationDurationButtonGroup';
 import NotationAccidentalDropdown from './NotationAccidentalDropdown';
 
 export default function NotationDurationToolbar(props) {
-  const { session, dispatch, onToggleNoteInput, onApplyDuration, onInsertSystemBreak } = props;
+  const { session, dispatch, onToggleNoteInput, onApplyDuration, onInsertSystemBreak, onApplyAccidental } = props;
 
   return (
     <div className="notation-duration-toolbar d-flex flex-wrap align-items-center gap-2">
@@ -34,7 +34,11 @@ export default function NotationDurationToolbar(props) {
         title="Dot (.)"
         data-testid="notation-dot"
       >.</Button>
-      <NotationAccidentalDropdown session={session} dispatch={dispatch} />
+      <NotationAccidentalDropdown
+        session={session}
+        dispatch={dispatch}
+        onApplyAccidental={onApplyAccidental}
+      />
       {onInsertSystemBreak ? (
         <Button
           size="lg"

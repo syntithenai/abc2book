@@ -1,7 +1,9 @@
 import { enrichmentSummary, findEnrichmentJob } from './importReviewEnrichmentQueue'
 import { getImportReviewSession } from './importReviewSessionStore'
+import { isAddDraftCandidate, isReviewSessionActive } from './importReviewSession'
 import { getAllMediaAnalysisJobs, getMediaAnalysisJob } from './mediaAnalysisJobs'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
+import { getFileOcrReviewSummary } from './fileOcrJobs'
 
 const reviewedMediaAnalysisTuneIds = new Set()
 const listeners = new Set()
@@ -35,21 +37,26 @@ export function clearMediaAnalysisReviewed(tuneId) {
 
 export function getBackgroundReviewSummary() {
   const importSession = getImportReviewSession()
-  const imported = importSession && importSession.importedCandidateIds
+  // Blank Add drafts are not Review-queue work, but parked Enhance/import
+  // candidates beside an open Add draft still count.
+  const sessionActive = isReviewSessionActive(importSession)
+  const imported = sessionActive && importSession.importedCandidateIds
     ? importSession.importedCandidateIds
     : {}
-  const jobs = importSession && Array.isArray(importSession.enrichmentJobs)
+  const jobs = sessionActive && Array.isArray(importSession.enrichmentJobs)
     ? importSession.enrichmentJobs
     : []
   const enrichSummary = enrichmentSummary(jobs)
 
   let importReady = 0
   const importReadyIds = []
-  const candidates = importSession && Array.isArray(importSession.candidates)
-    ? importSession.candidates
+  const candidates = sessionActive && Array.isArray(importSession.candidates)
+    ? importSession.candidates.filter(function(candidate) {
+      return candidate && !isAddDraftCandidate(candidate)
+    })
     : []
   candidates.forEach(function(candidate) {
-    if (!candidate || !candidate.id || imported[candidate.id]) return
+    if (!candidate || !candidate.id || imported[candidate.id] || candidate.imported) return
     const job = findEnrichmentJob(jobs, candidate.id)
     if (job && (job.status === 'pending' || job.status === 'running')) return
     importReady += 1
@@ -75,16 +82,28 @@ export function getBackgroundReviewSummary() {
 
   const fieldLookupAwaitingJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
     // Linked into import review — counted via the import session instead.
-    return job.status === 'awaiting' && !job.reviewCandidateId
+    if (!job || job.status !== 'awaiting' || job.reviewCandidateId) return false
+    // Add/import draft searches (candidateId, no tuneId) stay on the form as
+    // Use-search choices — they are not Review-queue "Search results".
+    if (!job.tuneId) return false
+    // Auto-mode searches never promote into the review form.
+    const mode = job.options && job.options.searchMode
+    if (mode === 'auto') return false
+    return true
   })
   const fieldLookupProcessing = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    // Match ready filter: only tune-scoped searches that belong on Review.
+    if (!job || !job.tuneId) return false
     return job.status === 'pending' || job.status === 'running'
   })
 
-  const ready = importReady + mediaReady.length + fieldLookupAwaitingJobs.length
-  const processing = importProcessing + mediaProcessing.length + fieldLookupProcessing.length
+  const fileOcrSummary = getFileOcrReviewSummary()
+
+  const ready = importReady + mediaReady.length + fieldLookupAwaitingJobs.length + fileOcrSummary.ready.length
+  const processing = importProcessing + mediaProcessing.length + fieldLookupProcessing.length + fileOcrSummary.processing.length
   const total = importTotal + mediaReady.length + mediaProcessing.length
     + fieldLookupAwaitingJobs.length + fieldLookupProcessing.length
+    + fileOcrSummary.total
 
   return {
     ready: ready,
@@ -110,6 +129,8 @@ export function getBackgroundReviewSummary() {
       }
     }),
     fieldLookupProcessing: fieldLookupProcessing.map(function(job) { return job.id }),
+    fileOcrReady: fileOcrSummary.ready,
+    fileOcrProcessing: fileOcrSummary.processing,
     hasImportSession: !!importSession,
   }
 }
@@ -125,7 +146,13 @@ export function getBackgroundReviewRevision() {
     summary.mediaProcessing.join(','),
     (summary.fieldLookupAwaiting || []).join(','),
     (summary.fieldLookupProcessing || []).join(','),
+    (summary.fileOcrReady || []).join(','),
+    (summary.fileOcrProcessing || []).join(','),
   ].join('|')
+}
+
+export function notifyBackgroundReviewQueue() {
+  notify()
 }
 
 export function subscribeBackgroundReviewQueue(listener) {

@@ -56,9 +56,15 @@ export function notationSessionReducer(state, action) {
     case 'LOAD_VOICE': {
       const next = createInitialSession(action.tuneMeta, action.voiceBody);
       // Preserve editor chrome so voice reloads do not kick piano-roll/ABC back to staff.
+      // Keep caret slot when the reload is a commit echo (IDs change; index still meaningful).
+      const preservedCaret = Math.max(0, Math.min(
+        typeof state.caretIndex === 'number' ? state.caretIndex : 0,
+        next.events.length
+      ));
       return Object.assign({}, next, {
         view: state.view,
         mode: state.mode,
+        caretIndex: preservedCaret,
         pianoRollZoom: state.pianoRollZoom,
         pianoRollTool: state.pianoRollTool,
         pianoRollShowWaveform: state.pianoRollShowWaveform,

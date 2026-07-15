@@ -22,7 +22,12 @@ export function processReviewResult(result, importContext, applyImportedTune, st
     // fall through to queue handoff on any error
   }
   startImportReview(result.candidates);
-  return { handled: true, closeModal: true, inline: false };
+  return {
+    handled: true,
+    // Stay-on-form Add From must not dismiss the review/add UI.
+    closeModal: !(importContext && importContext.stayOnForm),
+    inline: false,
+  };
 }
 
 export default processReviewResult;

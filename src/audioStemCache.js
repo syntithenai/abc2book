@@ -1,5 +1,7 @@
 import localforage from 'localforage';
 import { scheduleMediaCacheStorageCheck, tuneIdFromStemCacheKey } from './mediaCacheStorage';
+import { encodeAudioBuffer, blobToArrayBuffer } from './audioCompressEncode';
+import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings';
 
 const memoryCache = new Map();
 const store = localforage.createInstance({ name: 'stemcache' });
@@ -20,24 +22,52 @@ export function getStemCacheKey(tuneId, linkIndex, src, cacheId, model) {
   return getStemSourceCacheKey(tuneId, linkIndex, src, model || cacheId);
 }
 
-async function decodeStemWavBytes(arrayBuffer) {
+async function decodeStemAudioBytes(arrayBuffer) {
   const decodeModule = await import('audio-decode');
   const decode = decodeModule.default || decodeModule;
   return decode(arrayBuffer);
 }
 
-async function hydrateStemBuffers(stemWavBytes) {
-  if (!stemWavBytes || typeof stemWavBytes !== 'object') {
+function getStoredStemBytes(payload) {
+  if (!payload || typeof payload !== 'object') return null;
+  if (payload.stemAudioBytes && typeof payload.stemAudioBytes === 'object') {
+    return payload.stemAudioBytes;
+  }
+  if (payload.stemWavBytes && typeof payload.stemWavBytes === 'object') {
+    return payload.stemWavBytes;
+  }
+  return null;
+}
+
+async function hydrateStemBuffers(stemBytes) {
+  if (!stemBytes || typeof stemBytes !== 'object') {
     return null;
   }
   const stemBuffers = {};
-  const names = Object.keys(stemWavBytes);
+  const names = Object.keys(stemBytes);
   await Promise.all(names.map(async function(stemName) {
-    const bytes = stemWavBytes[stemName];
+    const bytes = stemBytes[stemName];
     if (!bytes) return;
-    stemBuffers[stemName] = await decodeStemWavBytes(bytes);
+    stemBuffers[stemName] = await decodeStemAudioBytes(bytes);
   }));
   return Object.keys(stemBuffers).length > 0 ? stemBuffers : null;
+}
+
+async function encodeStemBuffers(stemBuffers, format) {
+  const stemAudioBytes = {};
+  const names = Object.keys(stemBuffers || {});
+  let actualFormat = format;
+  await Promise.all(names.map(async function(stemName) {
+    const buffer = stemBuffers[stemName];
+    if (!buffer) return;
+    const encoded = await encodeAudioBuffer(buffer, format);
+    actualFormat = encoded.format;
+    stemAudioBytes[stemName] = await blobToArrayBuffer(encoded.blob);
+  }));
+  return {
+    stemAudioBytes: stemAudioBytes,
+    audioFormat: actualFormat,
+  };
 }
 
 function normalizeCachedPayload(payload) {
@@ -47,10 +77,13 @@ function normalizeCachedPayload(payload) {
   if (payload.stemBuffers) {
     return payload;
   }
-  if (payload.stemWavBytes) {
+  const stemBytes = getStoredStemBytes(payload);
+  if (stemBytes) {
     return {
       separation: payload.separation || null,
-      stemWavBytes: payload.stemWavBytes,
+      stemAudioBytes: stemBytes,
+      stemWavBytes: stemBytes,
+      audioFormat: payload.audioFormat || (payload.stemWavBytes && !payload.stemAudioBytes ? 'wav' : null),
     };
   }
   return null;
@@ -72,7 +105,8 @@ export async function getCachedStemSet(cacheKey) {
     return stored;
   }
 
-  const stemBuffers = await hydrateStemBuffers(stored.stemWavBytes);
+  const stemBytes = getStoredStemBytes(stored);
+  const stemBuffers = await hydrateStemBuffers(stemBytes);
   if (!stemBuffers) {
     return null;
   }
@@ -80,35 +114,65 @@ export async function getCachedStemSet(cacheKey) {
   const hydrated = {
     separation: stored.separation || null,
     stemBuffers: stemBuffers,
-    stemWavBytes: stored.stemWavBytes || null,
+    stemAudioBytes: stemBytes,
+    stemWavBytes: stemBytes,
+    audioFormat: stored.audioFormat || null,
   };
   memoryCache.set(cacheKey, hydrated);
   return hydrated;
 }
 
 export async function saveCachedStemSet(cacheKey, payload) {
-  const next = {
-    separation: payload && payload.separation ? payload.separation : null,
-    stemBuffers: payload && payload.stemBuffers ? payload.stemBuffers : null,
-    stemWavBytes: payload && payload.stemWavBytes ? payload.stemWavBytes : null,
-  };
-  if (next.stemBuffers || next.stemWavBytes) {
+  const separation = payload && payload.separation ? payload.separation : null;
+  let stemBuffers = payload && payload.stemBuffers ? payload.stemBuffers : null;
+  let stemAudioBytes = payload && payload.stemAudioBytes ? payload.stemAudioBytes : null;
+  let audioFormat = payload && payload.audioFormat ? payload.audioFormat : null;
+
+  // Prefer encoding from decoded buffers so we persist the global compress format.
+  if (stemBuffers && Object.keys(stemBuffers).length > 0) {
+    const encoded = await encodeStemBuffers(stemBuffers, getAudioCompressFormat());
+    stemAudioBytes = encoded.stemAudioBytes;
+    audioFormat = encoded.audioFormat;
+  } else if (!stemAudioBytes && payload && payload.stemWavBytes) {
+    // Legacy callers may only pass WAV bytes — decode then encode.
+    stemBuffers = await hydrateStemBuffers(payload.stemWavBytes);
+    if (stemBuffers) {
+      const encoded = await encodeStemBuffers(stemBuffers, getAudioCompressFormat());
+      stemAudioBytes = encoded.stemAudioBytes;
+      audioFormat = encoded.audioFormat;
+    } else {
+      stemAudioBytes = payload.stemWavBytes;
+      audioFormat = 'wav';
+    }
+  }
+
+  if (stemBuffers || stemAudioBytes) {
     memoryCache.set(cacheKey, {
-      separation: next.separation,
-      stemBuffers: next.stemBuffers,
-      stemWavBytes: next.stemWavBytes,
+      separation: separation,
+      stemBuffers: stemBuffers,
+      stemAudioBytes: stemAudioBytes,
+      stemWavBytes: stemAudioBytes,
+      audioFormat: audioFormat,
     });
   }
-  const persistable = {
-    separation: next.separation,
-    stemWavBytes: next.stemWavBytes,
-    cachedAt: Date.now(),
-  };
-  if (!persistable.stemWavBytes) {
+
+  if (!stemAudioBytes) {
     return;
   }
-  await store.setItem(cacheKey, persistable);
+
+  await store.setItem(cacheKey, {
+    separation: separation,
+    stemAudioBytes: stemAudioBytes,
+    // Keep legacy key for older readers during rollout.
+    stemWavBytes: stemAudioBytes,
+    audioFormat: audioFormat || getAudioCompressFormat(),
+    cachedAt: Date.now(),
+  });
   scheduleMediaCacheStorageCheck();
+}
+
+export function getStemDownloadExtension(audioFormat) {
+  return getAudioCompressExtension(audioFormat || getAudioCompressFormat());
 }
 
 export async function clearStemCache(lockedTuneIds) {

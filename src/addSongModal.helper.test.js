@@ -18,7 +18,7 @@ describe('processReviewResult', () => {
     expect(started).not.toHaveBeenCalled()
   })
 
-  test('queues review for non-inline sources and requests modal close', () => {
+  test('queues review for non-inline sources but keeps form open when stayOnForm', () => {
     const tune = { name: 'Audio Tune' }
     const result = { action: 'review', candidates: [{ sourceKind: 'audio', tune }] }
     const importContext = { stayOnForm: true }
@@ -28,10 +28,24 @@ describe('processReviewResult', () => {
 
     const outcome = processReviewResult(result, importContext, applied, started, toast)
     expect(outcome.handled).toBe(true)
-    expect(outcome.closeModal).toBe(true)
+    expect(outcome.closeModal).toBe(false)
     expect(outcome.inline).toBe(false)
     expect(applied).not.toHaveBeenCalled()
     expect(started).toHaveBeenCalledWith(result.candidates)
     expect(toast.info).not.toHaveBeenCalled()
+  })
+
+  test('queues review and requests modal close when not stayOnForm', () => {
+    const tune = { name: 'Audio Tune' }
+    const result = { action: 'review', candidates: [{ sourceKind: 'audio', tune }] }
+    const importContext = { stayOnForm: false }
+    const applied = jest.fn()
+    const started = jest.fn()
+    const toast = { success: jest.fn(), info: jest.fn() }
+
+    const outcome = processReviewResult(result, importContext, applied, started, toast)
+    expect(outcome.handled).toBe(true)
+    expect(outcome.closeModal).toBe(true)
+    expect(started).toHaveBeenCalledWith(result.candidates)
   })
 })

@@ -1,6 +1,7 @@
 import {
   eventIndexFromStaffNoteElement,
   eventIdFromStaffNoteElement,
+  findStaffClickNoteEl,
   caretIndexAndAnchorFromStaffClick,
   drawableElementsForVoice,
   findDrawableDomIndex,
@@ -169,7 +170,7 @@ describe('staffCaretPosition', function() {
     document.body.removeChild(wrap);
   });
 
-  test('caretIndexAndAnchorFromStaffClick places caret in empty measure gap', function() {
+  test('caretIndexAndAnchorFromStaffClick appends in gap before terminal trailing bar', function() {
     const wrap = document.createElement('div');
     wrap.getBoundingClientRect = function() {
       return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
@@ -194,7 +195,48 @@ describe('staffCaretPosition', function() {
     wrap.appendChild(staff);
     document.body.appendChild(wrap);
 
+    // Human gesture: gap between last notehead and final | → append after bar.
     const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 120, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(2);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('caretIndexAndAnchorFromStaffClick keeps mid-score gap before non-trailing bar', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    const bar = document.createElement('g');
+    bar.className = 'abcjs-bar abcjs-v0';
+    bar.getBoundingClientRect = function() {
+      return { left: 200, top: 20, right: 204, bottom: 52, width: 4, height: 32 };
+    };
+    const note2 = document.createElement('g');
+    note2.className = 'abcjs-note abcjs-v0';
+    note2.getBoundingClientRect = function() {
+      return { left: 240, top: 20, right: 256, bottom: 52, width: 16, height: 32 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(bar);
+    wrap.appendChild(note2);
+    document.body.appendChild(wrap);
+
+    // More notes after this bar → gap stays insert-at-bar (not append).
+    const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }, { type: 'note' }];
     const result = caretIndexAndAnchorFromStaffClick(
       wrap,
       events,
@@ -352,6 +394,66 @@ describe('staffCaretPosition', function() {
     expect(result.anchor.left).toBe(78);
 
     document.body.removeChild(wrap);
+  });
+
+  test('Copper-style mid-bar abcjs-n reset: click past last note appends (no trailing |)', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 500, bottom: 120, width: 500, height: 120 };
+    };
+    // A A F# B E | G G F E  — second measure reuses abcjs-n0..n3
+    function note(cls, left) {
+      const el = document.createElement('g');
+      el.className = cls;
+      el.getBoundingClientRect = function() {
+        return { left: left, top: 20, right: left + 16, bottom: 52, width: 16, height: 32 };
+      };
+      wrap.appendChild(el);
+      return el;
+    }
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n0', 40);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n1', 80);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n2', 120);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n3', 160);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n4', 200);
+    const bar = document.createElement('g');
+    bar.className = 'abcjs-bar abcjs-v0';
+    bar.getBoundingClientRect = function() {
+      return { left: 230, top: 20, right: 234, bottom: 52, width: 4, height: 32 };
+    };
+    wrap.appendChild(bar);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m1 abcjs-n0', 260);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m1 abcjs-n1', 300);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m1 abcjs-n2', 340);
+    note('abcjs-note abcjs-v0 abcjs-l0 abcjs-m1 abcjs-n3', 380);
+    document.body.appendChild(wrap);
+
+    const events = [
+      { type: 'note' }, { type: 'note' }, { type: 'note' }, { type: 'note' }, { type: 'note' },
+      { type: 'barline', barToken: '|' },
+      { type: 'note' }, { type: 'note' }, { type: 'note' }, { type: 'note' },
+    ];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 400, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(10);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('findDrawableDomIndex prefers matching measure when abcjs-n repeats', function() {
+    const first = document.createElement('g');
+    first.className = 'abcjs-note abcjs-v0 abcjs-l0 abcjs-m0 abcjs-n3';
+    const second = document.createElement('g');
+    second.className = 'abcjs-note abcjs-v0 abcjs-l0 abcjs-m1 abcjs-n3';
+    const drawables = [first, second];
+    expect(findDrawableDomIndex(drawables, second)).toBe(1);
+    expect(findDrawableDomIndex(drawables, first)).toBe(0);
   });
 
   test('eventIndexFromStaffNoteElement maps clicked note to event index', function() {
@@ -686,6 +788,102 @@ describe('staffCaretPosition', function() {
     document.body.removeChild(wrap);
   });
 
+  test('caretIndexAndAnchorFromStaffClick past trailing bar is append index', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    const bar = document.createElement('g');
+    bar.className = 'abcjs-bar abcjs-v0';
+    bar.getBoundingClientRect = function() {
+      return { left: 100, top: 20, right: 104, bottom: 52, width: 4, height: 32 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(bar);
+    document.body.appendChild(wrap);
+
+    const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 160, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(events.length);
+    expect(result.hitEventIndex).toBeUndefined();
+
+    document.body.removeChild(wrap);
+  });
+
+  test('caretIndexAndAnchorFromStaffClick on trailing bar is append index', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    const bar = document.createElement('g');
+    bar.className = 'abcjs-bar abcjs-v0';
+    bar.getBoundingClientRect = function() {
+      return { left: 100, top: 20, right: 104, bottom: 52, width: 4, height: 32 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(bar);
+    document.body.appendChild(wrap);
+
+    const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }];
+    // Click on the bar itself (left half) — still append for trailing final bar.
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 101, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(events.length);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('caretIndexAndAnchorFromStaffClick past last note skips trailing bar to append', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    // Only the note is in the DOM (bar missing) — still append past trailing bar event.
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    wrap.appendChild(note);
+    document.body.appendChild(wrap);
+
+    const events = [{ type: 'note' }, { type: 'barline', barToken: '|' }];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 200, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(events.length);
+
+    document.body.removeChild(wrap);
+  });
+
   test('eventIndexFromStaffClick returns safe index for invalid inputs', function() {
     const result = eventIndexFromStaffClick(null, null, null, null, null, 0);
     expect(typeof result).toBe('number');
@@ -718,6 +916,26 @@ describe('staffCaretPosition', function() {
     const abcFallback = require('./voiceEventTiming').caretIndexFromStaffClick(events, null, badAbcelem);
     const idx = eventIndexFromStaffClick(wrap, events, mouseEvent, badAbcelem, null, 0);
     expect(idx).toBe(abcFallback);
+    document.body.removeChild(wrap);
+  });
+
+  test('findStaffClickNoteEl falls back to glyph geometry when elementFromPoint misses note paths', function() {
+    const wrap = document.createElement('div');
+    wrap.className = 'notation-staff-wrap';
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    const note = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    note.setAttribute('class', 'abcjs-note abcjs-n0');
+    note.getBoundingClientRect = function() {
+      return { left: 80, top: 20, right: 96, bottom: 52, width: 16, height: 32 };
+    };
+    svg.appendChild(note);
+    wrap.appendChild(svg);
+    document.body.appendChild(wrap);
+    const prev = document.elementFromPoint;
+    document.elementFromPoint = function() { return svg; };
+    const found = findStaffClickNoteEl(wrap, null, { clientX: 88, clientY: 36 });
+    expect(found).toBe(note);
+    document.elementFromPoint = prev;
     document.body.removeChild(wrap);
   });
 });

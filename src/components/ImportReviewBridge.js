@@ -5,13 +5,13 @@ import AudioDriveUploadModal from './AudioDriveUploadModal'
 import {
   appendImportReviewCandidates,
   createImportReviewSession,
-  createBlankAddCandidate,
   beginMergeForJob,
   currentCandidate,
   deferCandidateForEnhancement,
+  ensureBlankAddSession,
+  isAddTunesChrome,
   isReviewSessionActive,
   updateCurrentCandidate,
-  removeImportReviewCandidatesByFieldLookupJobId,
 } from '../importReviewSession'
 import {
   detectContentHashDuplicates,
@@ -39,20 +39,26 @@ import {
   hasActiveImportReviewSession,
   hideImportReviewUi,
   isImportReviewUiVisible,
+  openImportReviewFromToast,
   registerImportReviewStarter,
   setImportReviewSession,
   showImportReviewUi,
   subscribeImportReviewSession,
   getImportReviewSessionRevision,
 } from '../importReviewSessionStore'
-import { dismissBackgroundReviewToast, snoozeBackgroundReviewToast } from '../backgroundReviewToast'
+import {
+  dismissBackgroundReviewToast,
+  showBackgroundJobsContinuingNotice,
+  snoozeBackgroundReviewToast,
+} from '../backgroundReviewToast'
+import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import {
   seedAwaitingLookup,
   dismissFieldLookup,
   subscribe as subscribeFieldLookupQueue,
   setFieldLookupResolvedHandler,
 } from '../tuneFieldLookupQueue'
-import { promoteAwaitingFieldLookups } from '../fieldLookupReviewPromotion'
+import { promoteAwaitingFieldLookups, applyResolvedFieldLookupToImportSession } from '../fieldLookupReviewPromotion'
 import { buildComposerPickerCandidates } from '../composerDiscoveryUtils'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -63,6 +69,7 @@ import { processReviewResult } from '../addSongModalHelper'
 import { createAttachedAudioLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
 import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues, formValuesToTune } from '../importReviewFieldUtils'
+import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
@@ -147,12 +154,20 @@ export default function ImportReviewBridge(props) {
 
     const listIn = Array.isArray(candidates) ? candidates : []
     const useBlankAdd = opts.entryMode === 'add' && listIn.length === 0
-    const seedList = useBlankAdd
-      ? [createBlankAddCandidate({
+
+    if (useBlankAdd) {
+      const nextSession = ensureBlankAddSession(getImportReviewSession(), {
         book: opts.book || props.currentTuneBook,
         tags: opts.tags,
-      })]
-      : listIn
+        skipEnrichment: !resolverAvailable,
+      })
+      setImportReviewSession(nextSession)
+      showImportReviewUi()
+      navigate('/add')
+      return
+    }
+
+    const seedList = listIn
 
     const tunebook = props.tunebook
     const tunesHash = props.tunesHash
@@ -179,11 +194,8 @@ export default function ImportReviewBridge(props) {
       })
     }
 
-    if (split.nonDuplicates.length > 0 || useBlankAdd) {
-      openSession(useBlankAdd ? seedList : split.nonDuplicates)
-      if (useBlankAdd) {
-        navigate('/add')
-      }
+    if (split.nonDuplicates.length > 0) {
+      openSession(split.nonDuplicates)
     }
   }, [props.tunebook, props.tunesHash, props.currentTuneBook, resolverAvailable, navigate])
 
@@ -195,20 +207,31 @@ export default function ImportReviewBridge(props) {
   }, [startReview])
 
   // Promote awaiting field-lookup searches into import-review queue items.
+  // Do not open the review UI here — BackgroundReviewNotifications shows a
+  // toast with a Review button when processing finishes.
   useEffect(function() {
     function promote() {
+      const tunesMap = props.tunes || {}
+      const tuneIds = Object.keys(tunesMap)
+      const collectionReady = tuneIds.length > 0
+
       const result = promoteAwaitingFieldLookups({
         getTune: function(tuneId) {
-          return props.tunes && props.tunes[tuneId] ? props.tunes[tuneId] : null
+          return tunesMap[tuneId] ? tunesMap[tuneId] : null
         },
         abcTools: props.tunebook && props.tunebook.abcTools,
+        // Only dismiss missing-tune jobs once the collection has loaded.
+        dismissMissingTunes: collectionReady,
       })
       if (!result.candidates.length) return
 
       const current = getImportReviewSession()
       if (current && isReviewSessionActive(current)) {
-        updateSession(appendImportReviewCandidates(current, result.candidates))
-        showImportReviewUi()
+        const appended = appendImportReviewCandidates(current, result.candidates)
+        updateSession(Object.assign({}, appended, {
+          // Search merges belong in Import review, not Add tunes chrome.
+          entryMode: 'import',
+        }))
         return
       }
 
@@ -217,24 +240,29 @@ export default function ImportReviewBridge(props) {
         entryMode: 'import',
       })
       setImportReviewSession(nextSession)
-      showImportReviewUi()
     }
 
     promote()
     return subscribeFieldLookupQueue(promote)
   }, [props.tunes, props.tunebook, updateSession])
 
-  // When the user resolves a Review search on the edit form, drop the linked candidate.
+  // When the user resolves a Review search from the live edit form, apply the
+  // choice into the import-review draft and open Review. If Review is already
+  // open, the form's FieldLookupReviewButton onApply owns the draft patch.
   useEffect(function() {
     setFieldLookupResolvedHandler(function(job) {
       const current = getImportReviewSession()
-      if (!current || !job) return
-      updateSession(removeImportReviewCandidatesByFieldLookupJobId(current, job.id))
+      if (!current || !job || !job.appliedCandidate) return
+      if (isImportReviewUiVisible()) return
+      const abcTools = props.tunebook && props.tunebook.abcTools
+      const next = applyResolvedFieldLookupToImportSession(current, job, abcTools)
+      updateSession(next)
+      openImportReviewFromToast()
     })
     return function() {
       setFieldLookupResolvedHandler(null)
     }
-  }, [updateSession])
+  }, [updateSession, props.tunebook])
 
   const handleMatchComplete = useCallback(function(updatedSession) {
     updateSession(updatedSession)
@@ -279,9 +307,16 @@ export default function ImportReviewBridge(props) {
     }
 
     const normalizedInput = input && input.file ? input.file : input
-    const result = await dispatchAddImport(normalizedInput, importContext)
+    let result
+    try {
+      result = await dispatchAddImport(normalizedInput, importContext)
+    } catch (e) {
+      toast.error(e && e.message ? e.message : 'Import failed.')
+      return
+    }
     if (!result || result.action === 'error') {
-      throw new Error(result && result.message ? result.message : 'Import failed.')
+      toast.error(result && result.message ? result.message : 'Import failed.')
+      return
     }
 
     if (result.action === 'audio') {
@@ -331,6 +366,8 @@ export default function ImportReviewBridge(props) {
   const handleEnhanceAndAdvance = useCallback(function(persistedSession) {
     const candidate = currentCandidate(persistedSession)
     if (!candidate) return
+    const fromAdd = isAddTunesChrome(persistedSession)
+      || (persistedSession && persistedSession.entryMode === 'add')
     let jobs = (persistedSession.enrichmentJobs || []).slice()
     let job = findEnrichmentJob(jobs, candidate.id)
     if (!job) {
@@ -338,9 +375,15 @@ export default function ImportReviewBridge(props) {
       job = findEnrichmentJob(jobs, candidate.id)
     }
     jobs = startEnrichmentJob(jobs, job.id)
-    const next = deferCandidateForEnhancement(persistedSession, jobs)
-    updateSession(Object.assign({}, next, { phase: 'enrichment' }))
-    if (next.step === 'done') {
+    let next = deferCandidateForEnhancement(persistedSession, jobs)
+    // Enhance from Add promotes the draft into the Review queue and closes Add.
+    next = Object.assign({}, next, {
+      phase: 'enrichment',
+      entryMode: 'import',
+      step: next.step === 'done' ? 'review' : next.step,
+    })
+    updateSession(next)
+    if (fromAdd || next.step === 'done') {
       hideImportReviewUi()
       navigate('/tunes')
     }
@@ -348,16 +391,49 @@ export default function ImportReviewBridge(props) {
 
   const handleReviewYouTubeImport = useCallback(function(link, draft) {
     if (!link || !link.link) return
-    const candidate = asIndependentReviewCandidate({
+    const sessionNow = getImportReviewSession()
+    if (!sessionNow) return
+    const candidate = currentCandidate(sessionNow)
+    const draftTune = (draft && draft.tune)
+      || (candidate && candidate.tune)
+      || {}
+    const youtubeLink = {
+      title: link.title || '',
+      link: link.link,
+      startAt: '',
+      endAt: '',
+    }
+    if (link.image) youtubeLink.image = link.image
+
+    // Add draft / single open candidate: apply onto the current form instead of
+    // appending a second queued item the user never navigates to.
+    if (isAddTunesChrome(sessionNow) || (candidate && !candidate.mergeTargetId
+      && (!Array.isArray(sessionNow.candidates) || sessionNow.candidates.length <= 1))) {
+      if (!candidate) return
+      const existingLinks = Array.isArray(draftTune.links) ? draftTune.links.slice() : []
+      const nextLinks = [youtubeLink].concat(existingLinks.filter(function(item) {
+        return !(item && item.link && String(item.link) === String(youtubeLink.link))
+      }))
+      const nextName = String(draftTune.name || '').trim() || String(link.title || '').trim()
+      updateSession(updateCurrentCandidate(sessionNow, {
+        tune: Object.assign({}, draftTune, {
+          name: nextName,
+          links: nextLinks,
+        }),
+      }))
+      return
+    }
+
+    const independent = asIndependentReviewCandidate({
       tune: {
-        name: (draft && draft.tune && draft.tune.name) || link.title || '',
-        composer: (draft && draft.tune && draft.tune.composer) || '',
-        links: [{ title: link.title || '', link: link.link, startAt: '', endAt: '' }],
+        name: draftTune.name || link.title || '',
+        composer: draftTune.composer || '',
+        links: [youtubeLink],
       },
       sourceKind: 'youtube',
       mergeTargetId: null,
     }, draft)
-    updateSession(appendImportReviewCandidates(getImportReviewSession(), [candidate]))
+    updateSession(appendImportReviewCandidates(sessionNow, [independent]))
   }, [updateSession])
 
   const finishCandidate = useCallback(function(updatedSession, done) {
@@ -375,28 +451,47 @@ export default function ImportReviewBridge(props) {
 
     if (candidate.mergeTargetId && props.tunes && props.tunes[candidate.mergeTargetId]) {
       const existing = props.tunes[candidate.mergeTargetId]
-      const merged = Object.assign({}, existing, candidate.tune)
+      let merged = Object.assign({}, existing, candidate.tune)
       merged.id = candidate.mergeTargetId
       merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
       merged.lastUpdated = Date.now()
-      tunebook.saveTune(merged)
+      attachPendingFileFromCandidate(merged, candidate.pendingFile, {
+        token: props.token,
+        driveApi: driveApi,
+      }).then(function(withFile) {
+        tunebook.saveTune(withFile)
+        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+        if (typeof done === 'function') done()
+      })
+      fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
+        dismissFieldLookup(jobId)
+      })
+      return
     } else {
-      const tune = Object.assign({}, candidate.tune)
+      let tune = Object.assign({}, candidate.tune)
       if (book) {
         const books = Array.isArray(tune.books) ? tune.books.slice() : []
         if (books.indexOf(book) === -1) books.push(book)
         tune.books = books
       }
+      // saveTune assigns id when missing
       tunebook.saveTune(tune)
+      const savedId = tune.id
+      const saved = props.tunes && savedId ? (props.tunes[savedId] || tune) : tune
+      attachPendingFileFromCandidate(saved, candidate.pendingFile, {
+        token: props.token,
+        driveApi: driveApi,
+      }).then(function(withFile) {
+        if (withFile && withFile !== saved) tunebook.saveTune(withFile)
+        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+        if (typeof done === 'function') done()
+      })
+      fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
+        dismissFieldLookup(jobId)
+      })
+      return
     }
-
-    fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
-      dismissFieldLookup(jobId)
-    })
-
-    if (typeof props.forceRefresh === 'function') props.forceRefresh()
-    if (typeof done === 'function') done()
-  }, [props])
+  }, [props, driveApi])
 
   const finishAllCandidates = useCallback(function(updatedSession, done) {
     const tunebook = props.tunebook
@@ -412,11 +507,17 @@ export default function ImportReviewBridge(props) {
 
       if (candidate.mergeTargetId && tunesSnapshot[candidate.mergeTargetId]) {
         const existing = tunesSnapshot[candidate.mergeTargetId]
-        const merged = Object.assign({}, existing, candidate.tune)
+        let merged = Object.assign({}, existing, candidate.tune)
         merged.id = candidate.mergeTargetId
         merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
         merged.lastUpdated = Date.now()
-        tunebook.saveTune(merged)
+        attachPendingFileFromCandidate(merged, candidate.pendingFile, {
+          token: props.token,
+          driveApi: driveApi,
+        }).then(function(withFile) {
+          tunebook.saveTune(withFile)
+          tunesSnapshot[candidate.mergeTargetId] = withFile
+        })
         tunesSnapshot[candidate.mergeTargetId] = merged
       } else {
         const tune = Object.assign({}, candidate.tune)
@@ -426,6 +527,15 @@ export default function ImportReviewBridge(props) {
           tune.books = books
         }
         tunebook.saveTune(tune)
+        attachPendingFileFromCandidate(tune, candidate.pendingFile, {
+          token: props.token,
+          driveApi: driveApi,
+        }).then(function(withFile) {
+          if (withFile && withFile.id) {
+            tunebook.saveTune(withFile)
+            tunesSnapshot[withFile.id] = withFile
+          }
+        })
         if (tune.id) tunesSnapshot[tune.id] = tune
       }
 
@@ -436,7 +546,7 @@ export default function ImportReviewBridge(props) {
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
     if (typeof done === 'function') done()
-  }, [props])
+  }, [props, driveApi])
 
   const handleComplete = useCallback(function(finalSession) {
     clearImportReviewEnrichmentBridge()
@@ -460,6 +570,10 @@ export default function ImportReviewBridge(props) {
   const showModal = !!(session && session.step !== 'done' && uiVisible)
 
   const handleContinueLater = useCallback(function() {
+    const summary = getBackgroundReviewSummary()
+    if (summary && summary.processing > 0) {
+      showBackgroundJobsContinuingNotice({ summary: summary })
+    }
     snoozeBackgroundReviewToast()
     hideImportReviewUi()
     navigate('/tunes')

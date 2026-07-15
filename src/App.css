@@ -559,6 +559,10 @@ div.channel {
   flex-wrap: wrap;
 }
 
+.settings-compress-audio-buttons {
+  flex-wrap: wrap;
+}
+
 .settings-offline-media-heading {
   font-size: 1.2em;
   font-weight: bold;

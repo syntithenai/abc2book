@@ -9,6 +9,7 @@ Run on `http://localhost:3000/#/editor/<tuneId>/music` after changes to staff cl
 | `e2e00000000000000000001` | Single-line `C D E F \|` |
 | `e2e00000000000000000003` | Multiline two systems |
 | `e2e00000000000000000004` | Empty staff |
+| `e2e00000000000000000006` | Copper: `A2A2^F2BE\| GGFE` (mid-bar `abcjs-n` reset, no trailing `\|`) |
 
 ## Checklist
 
@@ -36,6 +37,12 @@ Run on `http://localhost:3000/#/editor/<tuneId>/music` after changes to staff cl
 ### Empty staff (`…004`)
 
 - [ ] Note input: click staff — caret at start; type `c` — C appears
+
+### Copper mid-bar (`…006`) — `A2A2^F2BE| GGFE`
+
+- [ ] Note input: click past last E — caret appends; type `c` — C appears after FE (not mid-measure)
+- [ ] Select mode: drag the ^F (3rd note) up one step — only that note moves (measure-2 F stays)
+- [ ] Select measure-2 F once — press `+` — sharp sticks on that F (not carry-only)
 
 ## Rollback
 

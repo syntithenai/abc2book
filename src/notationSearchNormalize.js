@@ -1,3 +1,5 @@
+import { musicXmlToAbc } from './musicXmlToAbc'
+
 function hostFromUrl(url) {
   if (!url) return ''
   try {
@@ -36,13 +38,63 @@ function isEmptyManualResult(body) {
   return body.found === false && Array.isArray(body.manualCandidates)
 }
 
+function abcPreview(abcText, maxLines) {
+  const limit = maxLines || 6
+  const lines = String(abcText || '').split(/\r?\n/).filter(function(line) {
+    return line.trim()
+  })
+  return lines.slice(0, limit).join('\n')
+}
+
+/**
+ * If the query is a MuseScore.com score URL or a direct .mid/.midi URL, return it.
+ */
+export function extractNotationSearchUrl(query) {
+  const text = String(query || '').trim()
+  if (!/^https?:\/\//i.test(text)) return ''
+  try {
+    const parsed = new URL(text)
+    const host = (parsed.hostname || '').replace(/^www\./i, '').toLowerCase()
+    const path = (parsed.pathname || '').toLowerCase()
+    if (path.endsWith('.mid') || path.endsWith('.midi')) {
+      return text
+    }
+    if (host === 'musescore.com' || host.endsWith('.musescore.com')) {
+      return text
+    }
+  } catch (e) {
+    return ''
+  }
+  return ''
+}
+
+function convertMusicXmlCandidate(body) {
+  const musicXml = typeof body.musicXml === 'string' ? body.musicXml.trim() : ''
+  if (!musicXml) return null
+  try {
+    const abc = String(musicXmlToAbc(musicXml, {
+      fileName: (body.title || 'musescore') + '.musicxml',
+    }) || '').trim()
+    if (!abc || abc.indexOf('K:') === -1) return null
+    return abc
+  } catch (e) {
+    return null
+  }
+}
+
 function normalizeSingleNotationResult(body) {
-  const abc = typeof body.abc === 'string' ? body.abc.trim() : ''
+  let abc = typeof body.abc === 'string' ? body.abc.trim() : ''
+  if ((!abc || abc.indexOf('K:') === -1) && body && body.musicXml) {
+    abc = convertMusicXmlCandidate(body) || ''
+  }
   if (!abc || abc.indexOf('K:') === -1) {
     throw new Error('Notation search returned no usable ABC')
   }
 
   const tuneMeta = body.tuneMeta && typeof body.tuneMeta === 'object' ? body.tuneMeta : null
+  const preview = typeof body.preview === 'string' && body.preview
+    ? body.preview
+    : abcPreview(abc)
 
   return {
     abc: abc,
@@ -54,7 +106,7 @@ function normalizeSingleNotationResult(body) {
     artist: typeof body.artist === 'string'
       ? body.artist
       : (tuneMeta && tuneMeta.composer ? String(tuneMeta.composer) : ''),
-    preview: typeof body.preview === 'string' ? body.preview : '',
+    preview: preview,
     titleOnly: body.titleOnly === true,
     tuneMeta: tuneMeta,
   }
@@ -79,8 +131,13 @@ export function normalizeNotationSearch(body) {
   }
 
   if (body.multiple === true && Array.isArray(body.candidates)) {
-    const candidates = body.candidates.map(function(candidate) {
-      return normalizeSingleNotationResult(candidate)
+    const candidates = []
+    body.candidates.forEach(function(candidate) {
+      try {
+        candidates.push(normalizeSingleNotationResult(candidate))
+      } catch (e) {
+        // Skip MusicXML candidates that fail conversion.
+      }
     })
     if (candidates.length === 0) {
       throw new Error('Notation search returned no candidates')

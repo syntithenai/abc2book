@@ -1,6 +1,7 @@
 import {useRef, useState, useEffect} from 'react'
 //import axios from 'axios'
 import useUtils from './useUtils'
+import { subscribeAccessTokenUpdates } from './googleLoginRefreshRegistry'
 
 export default function useSyncWorker(tokenT, logout, tuneBookName) {
 
@@ -9,6 +10,26 @@ export default function useSyncWorker(tokenT, logout, tuneBookName) {
 	var [isRunning, setIsRunning] = useState(false)
   
 	var token = tokenT ? tokenT.access_token : null
+
+	function pushTokenToWorker(accessToken) {
+		if (myWorker.current && accessToken) {
+			try {
+				myWorker.current.postMessage('token=' + accessToken)
+			} catch (e) {}
+		}
+	}
+
+	useEffect(function() {
+		pushTokenToWorker(token)
+	}, [token])
+
+	useEffect(function() {
+		return subscribeAccessTokenUpdates(function(tokenResponse) {
+			if (tokenResponse && tokenResponse.access_token) {
+				pushTokenToWorker(tokenResponse.access_token)
+			}
+		})
+	}, [])
   
     function createWorker(fn) {
 	  var blob = new Blob(['var tuneBookName=' + (tuneBookName ? '"'+tuneBookName+'"' : '') + '; var token=null; self.onmessage = ',fn.toString()], { type: 'text/javascript' });

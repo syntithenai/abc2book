@@ -14,6 +14,7 @@ import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
 } from '../playbackNavigationUtils';
+import { isEditorNotationPath } from '../viewModeUtils';
 import {
   isPlaybackInterruptPath,
   useToolPagePlaybackInterrupt,
@@ -29,6 +30,27 @@ import {
     showImportReviewUi,
     subscribeImportReviewSession,
 } from '../importReviewSessionStore'
+import {
+    subscribe as subscribeFieldLookupQueue,
+    getState as getFieldLookupState,
+} from '../tuneFieldLookupQueue'
+import {
+    getFileOcrJobs,
+    subscribeFileOcrJobs,
+} from '../fileOcrJobs'
+
+function getFieldLookupReviewRevision() {
+    const state = getFieldLookupState()
+    return (state.jobs || []).map(function(job) {
+        return job.id + ':' + job.status + ':' + (job.reviewCandidateId || '')
+    }).join('|')
+}
+
+function getFileOcrReviewRevision() {
+    return getFileOcrJobs().map(function(job) {
+        return job.id + ':' + job.status
+    }).join('|')
+}
 
 function useBackgroundReviewReadyCount() {
     const reviewRevision = useSyncExternalStore(
@@ -41,9 +63,19 @@ function useBackgroundReviewReadyCount() {
         getImportReviewSessionRevision,
         function() { return '' }
     )
+    const fieldLookupRevision = useSyncExternalStore(
+        subscribeFieldLookupQueue,
+        getFieldLookupReviewRevision,
+        function() { return '' }
+    )
+    const fileOcrRevision = useSyncExternalStore(
+        subscribeFileOcrJobs,
+        getFileOcrReviewRevision,
+        function() { return '' }
+    )
     return useMemo(function() {
         return getBackgroundReviewSummary().ready
-    }, [reviewRevision, importRevision])
+    }, [reviewRevision, importRevision, fieldLookupRevision, fileOcrRevision])
 }
 
 
@@ -56,6 +88,7 @@ export default function Header(props) {
     var params = {tuneId: parts.length >= 3 ? parts[2] : null}
     const [userImageError, setUserImageError] = useState(false)
     const [showPlaylists, setShowPlaylists] = useState(false)
+    const [navMenuOpen, setNavMenuOpen] = useState(false)
     const token = props.token
     const user = props.user
     const loadUserImage = props.loadUserImage
@@ -85,6 +118,8 @@ export default function Header(props) {
     const onKeyPress = (event) => {
         if (props.blockKeyboardShortcuts) return;
         if (location.pathname.startsWith('/gig/')) return;
+        // Notation music / piano-roll / ABC tabs own arrows (MuseScore: caret + transpose).
+        if (isEditorNotationPath(location.pathname)) return;
 
         const mediaController = props.mediaController;
         const ctrlSeek = event.ctrlKey || event.metaKey;
@@ -251,6 +286,7 @@ export default function Header(props) {
                                 className="header-dropdown-btn header-dropdown-add-btn"
                                 title="Add Tunes"
                                 data-testid="header-add-button"
+                                onClick={function() { setNavMenuOpen(false) }}
                             >
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.fileadd}
@@ -267,7 +303,10 @@ export default function Header(props) {
                                 className="header-dropdown-btn header-dropdown-review-btn"
                                 data-testid="header-review-button"
                                 title="Review"
-                                onClick={function() { showImportReviewUi() }}
+                                onClick={function() {
+                                    setNavMenuOpen(false)
+                                    showImportReviewUi()
+                                }}
                             >
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.menu}
@@ -393,7 +432,14 @@ export default function Header(props) {
                 >
                     {props.tunebook.icons.musicheader}
                 </Button>
-                <Dropdown as={ButtonGroup} autoClose={true} className="header-nav-dropdown" style={{position:'relative'}}>
+                <Dropdown
+                    as={ButtonGroup}
+                    show={navMenuOpen}
+                    onToggle={function(next) { setNavMenuOpen(!!next) }}
+                    autoClose={true}
+                    className="header-nav-dropdown"
+                    style={{position:'relative'}}
+                >
                     {props.isSyncing && <b style={{position:'absolute', top:0, left:0, backgroundColor:'lightgrey', zIndex:999}}>SYNC</b>}
                     <Dropdown.Toggle
                         variant="info"

@@ -1,9 +1,9 @@
 .practice-accuracy-overlay {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 5;
-  margin: 0 0 0.75rem;
-  padding: 0.75rem 1rem;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0.25rem 0.65rem;
   border-radius: 8px;
   background: #f7f9fc;
   border: 1px solid rgba(0, 0, 0, 0.12);
@@ -12,37 +12,34 @@
 
 .practice-accuracy-live {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 0.75rem 1.25rem;
+  gap: 0.5rem 0.75rem;
+  height: 1.6rem;
+  min-height: 1.6rem;
+  max-height: 1.6rem;
+  overflow: hidden;
 }
 
 .practice-accuracy-mic-meter {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  min-width: 10rem;
-  flex: 1 1 12rem;
+  gap: 0.35rem;
+  width: 5.5rem;
+  flex: 0 0 auto;
 }
 
-.practice-accuracy-mic-label,
-.practice-accuracy-mic-value {
-  font-size: 0.75rem;
+.practice-accuracy-mic-label {
+  font-size: 0.7rem;
   opacity: 0.75;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  font-variant-numeric: tabular-nums;
-  min-width: 2.25rem;
-}
-
-.practice-accuracy-mic-value {
-  text-transform: none;
-  text-align: right;
+  flex-shrink: 0;
 }
 
 .practice-accuracy-mic-track {
   flex: 1;
-  height: 0.65rem;
+  height: 0.3rem;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.08);
   overflow: hidden;
@@ -60,41 +57,34 @@
   background: linear-gradient(90deg, #1a7f37, #3d8bfd);
 }
 
-.practice-accuracy-mic-status {
-  flex: 1 1 100%;
-  font-size: 0.85rem;
-  opacity: 0.85;
-}
-
-.practice-accuracy-mic-status--warn {
-  color: #9a6700;
-}
-
 .practice-accuracy-cents {
-  display: flex;
-  flex-direction: column;
-  min-width: 4rem;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.35rem;
+  flex-shrink: 0;
+  min-width: 0;
 }
 
 .practice-accuracy-cents-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   opacity: 0.7;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
 .practice-accuracy-cents-value {
-  font-size: 1.5rem;
+  font-size: 0.95rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
+  line-height: 1;
 }
 
 .practice-accuracy-cents-far {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   opacity: 0.7;
-  margin-top: 0.1rem;
 }
 
 .practice-accuracy-cents--green .practice-accuracy-cents-value {
@@ -111,7 +101,8 @@
 
 .practice-accuracy-timing {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
+  flex-shrink: 0;
 }
 
 .practice-accuracy-timing--early,
@@ -119,33 +110,53 @@
   color: #9a6700;
 }
 
-.practice-accuracy-hint {
-  font-size: 0.85rem;
+.practice-accuracy-inline-status {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.75rem;
   opacity: 0.85;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
 }
 
+.practice-accuracy-inline-status--warn {
+  color: #9a6700;
+}
+
+.practice-accuracy-inline-status--empty {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.practice-accuracy-volume {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0;
+  flex: 0 0 auto;
+}
+
+.practice-accuracy-volume-label {
+  font-size: 0.7rem;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.practice-accuracy-volume-slider {
+  width: 5.5rem;
+  height: 1.1rem;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Keep the mic row one line; rep/aggregate summaries appear as compact tip in the middle status slot. */
 .practice-accuracy-rep-summary,
 .practice-accuracy-aggregate {
-  margin-top: 0.75rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 0.95rem;
-}
-
-.practice-accuracy-missed {
-  font-size: 0.85rem;
-  opacity: 0.8;
-  margin-top: 0.25rem;
-}
-
-.practice-accuracy-resolver-pending {
-  font-size: 0.85rem;
-  font-style: italic;
-  margin-top: 0.25rem;
-}
-
-.practice-accuracy-resolver-badge {
-  font-size: 0.8rem;
-  margin-top: 0.25rem;
-  opacity: 0.75;
+  display: none;
 }

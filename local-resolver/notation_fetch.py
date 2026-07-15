@@ -7,6 +7,19 @@ import httpx
 
 from browser_fetch import fetch_html_with_fallback
 from chords_fetch import normalize_match_text, score_title_artist_match
+from midi_fetch import (
+    collect_web_midi_candidates,
+    fetch_midi_from_allowlisted_page,
+    fetch_midi_url,
+    is_allowed_midi_host,
+    is_direct_midi_file_url,
+)
+from musescore_fetch import (
+    MuseScoreDownloadUnavailable,
+    collect_musescore_candidates,
+    fetch_musescore_url,
+    is_musescore_url,
+)
 from polite_fetch import BROWSER_USER_AGENT
 from tune_background_research import search_web
 
@@ -66,6 +79,12 @@ ABC_BLOCK_RE = re.compile(
 )
 PRE_BLOCK_RE = re.compile(r"<pre[^>]*>(.*?)</pre>", re.S | re.I)
 TAG_RE = re.compile(r"<[^>]+>")
+# Truncate scraped ABC when X:… matched past </pre> into page chrome.
+HTML_CUT_RE = re.compile(
+    r"</?(?:pre|div|span|p|html|body|head|script|style|table|tr|td|th|ul|ol|li|"
+    r"section|article|nav|header|footer|main|form|button|a|br|hr|img|meta|link)\b[^>]*>",
+    re.I,
+)
 HTTP_URL_RE = re.compile(r"https?://[^\s<>\"']+", re.I)
 
 
@@ -357,29 +376,77 @@ def strip_html_tags(text):
     return html.unescape(TAG_RE.sub("", text or "")).strip()
 
 
-def extract_abc_from_text(text):
+def sanitize_abc_block(text):
+    """
+    Keep only ABC content from a scraped block.
+    Truncates at the first HTML tag (common when X:… matches bleed past </pre>),
+    then strips residual tags/entities.
+    """
+    raw = str(text or "")
+    if not raw.strip():
+        return ""
+    cut = HTML_CUT_RE.search(raw)
+    if cut:
+        raw = raw[:cut.start()]
+    # Stop if a bare tag slipped through without matching HTML_CUT_RE.
+    bare = re.search(r"<[A-Za-z/!?]", raw)
+    if bare and (bare.start() == 0 or raw[bare.start() - 1] in "\n\r"):
+        raw = raw[:bare.start()]
+    cleaned = strip_html_tags(raw)
+    lines = [line.rstrip() for line in cleaned.splitlines()]
+    while lines and not lines[-1].strip():
+        lines.pop()
+    return "\n".join(lines).strip()
+
+
+def _looks_like_html(text):
+    sample = str(text or "")[:8000].lower()
+    return "<pre" in sample or "<html" in sample or "</body>" in sample or "<div" in sample
+
+
+def _abc_blocks_from_plain_text(text):
     text = str(text or "")
     if not text.strip():
         return []
 
     blocks = []
     for match in ABC_BLOCK_RE.finditer(text):
-        block = match.group(1).strip()
-        if "K:" in block and ("|" in block or re.search(r"[A-Ga-g][,']", block)):
+        block = sanitize_abc_block(match.group(1))
+        if block and "K:" in block and ("|" in block or re.search(r"[A-Ga-g][,']", block)):
             blocks.append(block)
 
     if blocks:
         return blocks
 
-    if text.strip().startswith("X:") and "K:" in text:
-        return [text.strip()]
+    cleaned = sanitize_abc_block(text)
+    if cleaned.startswith("X:") and "K:" in cleaned:
+        return [cleaned]
+    return []
+
+
+def extract_abc_from_text(text):
+    text = str(text or "")
+    if not text.strip():
+        return []
+
+    # Prefer <pre> on HTML pages so X:… does not swallow chrome after </pre>.
+    if _looks_like_html(text):
+        blocks = []
+        for pre_match in PRE_BLOCK_RE.finditer(text):
+            pre_text = sanitize_abc_block(strip_html_tags(pre_match.group(1)))
+            if "X:" in pre_text and "K:" in pre_text:
+                blocks.extend(_abc_blocks_from_plain_text(pre_text))
+        if blocks:
+            return blocks
+
+    blocks = _abc_blocks_from_plain_text(text)
+    if blocks:
+        return blocks
 
     for pre_match in PRE_BLOCK_RE.finditer(text):
-        pre_text = strip_html_tags(pre_match.group(1))
+        pre_text = sanitize_abc_block(strip_html_tags(pre_match.group(1)))
         if "X:" in pre_text and "K:" in pre_text:
-            for block in extract_abc_from_text(pre_text):
-                blocks.append(block)
-
+            blocks.extend(_abc_blocks_from_plain_text(pre_text))
     return blocks
 
 
@@ -710,6 +777,121 @@ def has_strong_notation_match(candidates, title, artist):
     return False
 
 
+def _candidate_has_usable_payload(candidate):
+    abc = str((candidate or {}).get("abc") or "").strip()
+    if abc and "K:" in abc:
+        return True
+    music_xml = str((candidate or {}).get("musicXml") or "").strip()
+    return bool(music_xml)
+
+
+def _candidate_import_format(candidate):
+    meta = (candidate or {}).get("tuneMeta") or {}
+    if isinstance(meta, dict):
+        nested = meta.get("meta") or {}
+        if isinstance(nested, dict) and nested.get("importFormat"):
+            return str(nested.get("importFormat"))
+    source = str((candidate or {}).get("source") or "").lower()
+    if source == "musescore.com":
+        return "musescore"
+    if (candidate or {}).get("musicXml") and not str((candidate or {}).get("abc") or "").strip():
+        return "musicxml"
+    return "abc"
+
+
+def finalize_notation_candidates(candidates, title, artist):
+    """Rank/filter candidates; demote weak ABC when MuseScore/MIDI exist."""
+    usable = [
+        candidate for candidate in (candidates or [])
+        if _candidate_has_usable_payload(candidate)
+    ]
+    has_alt = any(
+        _candidate_import_format(candidate) in ("midi", "musescore", "musicxml")
+        or str(candidate.get("source") or "").lower() == "musescore.com"
+        or ((candidate.get("tuneMeta") or {}).get("meta") or {}).get("importFormat") == "midi"
+        for candidate in usable
+    )
+
+    filtered = []
+    for candidate in usable:
+        score = notation_candidate_score(candidate, title, artist)
+        source = str(candidate.get("source") or "")
+        import_format = _candidate_import_format(candidate)
+        is_midi_or_muse = (
+            import_format == "midi"
+            or source == "musescore.com"
+            or bool(str(candidate.get("musicXml") or "").strip())
+        )
+        # Drop weak ABC/Session noise when better MuseScore/MIDI hits exist.
+        if has_alt and (not is_midi_or_muse) and score < 50:
+            continue
+        if score < 30 and not is_midi_or_muse:
+            continue
+        filtered.append(candidate)
+
+    filtered.sort(
+        key=lambda candidate: notation_candidate_score(candidate, title, artist),
+        reverse=True,
+    )
+    if filtered:
+        return filtered
+    # Prefer any MuseScore/MIDI payload over empty, even with weak title scores.
+    alt = [
+        candidate for candidate in usable
+        if str(candidate.get("musicXml") or "").strip()
+    ]
+    if alt:
+        return alt[:8]
+    return usable[:8]
+
+
+async def search_notation_url(url, on_progress=None):
+    """Fetch notation from MuseScore, MIDI, or allowlisted ABC URL."""
+    page_url = str(url or "").strip()
+    if not page_url:
+        raise ValueError("URL is required")
+
+    if is_musescore_url(page_url):
+        try:
+            return await fetch_musescore_url(page_url, on_progress=on_progress)
+        except MuseScoreDownloadUnavailable:
+            raise
+        except ValueError:
+            raise
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch MuseScore score") from exc
+
+    if is_direct_midi_file_url(page_url):
+        try:
+            return await fetch_midi_url(page_url, on_progress=on_progress)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch MIDI file") from exc
+
+    try:
+        host = urlparse(page_url).hostname
+    except Exception:
+        host = ""
+    if is_allowed_midi_host(host):
+        try:
+            return await fetch_midi_from_allowlisted_page(page_url, on_progress=on_progress)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch MIDI from that page") from exc
+
+    async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
+        await _emit_progress(on_progress, "fetch", "Fetching ABC from URL...", 0.2)
+        candidates = await fetch_abc_from_url(client, page_url, title="")
+        if not candidates:
+            await _emit_progress(on_progress, "done", "Could not extract ABC from that URL", 1.0)
+            raise ValueError("Could not extract ABC from that URL")
+        await _emit_progress(on_progress, "done", "ABC found", 1.0)
+        if len(candidates) == 1:
+            return candidates[0]
+        return {
+            "multiple": True,
+            "candidates": candidates,
+        }
+
+
 async def search_notation(title, artist="", song_type="instrumental", on_progress=None):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
@@ -751,14 +933,25 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             )
             candidates = dedupe_candidates(candidates + web_candidates)
 
-        candidates.sort(
-            key=lambda candidate: notation_candidate_score(candidate, title, artist),
-            reverse=True,
-        )
-        candidates = [
-            candidate for candidate in candidates
-            if notation_candidate_score(candidate, title, artist) >= 30
-        ] or candidates[:8]
+        if need_web or not has_strong_notation_match(candidates, title, artist):
+            muse_candidates = await collect_musescore_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            )
+            candidates = dedupe_candidates(candidates + muse_candidates)
+
+        if not has_strong_notation_match(candidates, title, artist):
+            midi_candidates = await collect_web_midi_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            )
+            candidates = dedupe_candidates(candidates + midi_candidates)
+
+        candidates = finalize_notation_candidates(candidates, title, artist)
 
         if not candidates:
             await _emit_progress(on_progress, "done", "No ABC notation found", 1.0)

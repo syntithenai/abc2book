@@ -1,6 +1,9 @@
+import { encodeAudioBufferToWav } from './encodeAudioBufferToWav';
 import { mixStemBuffers } from './audioStemMixer';
 import { fetchStemBuffers, separateStemsFromSource } from './mediaStemClient';
 import { getCachedStemSet, getStemSourceCacheKey, saveCachedStemSet } from './audioStemCache';
+
+export { encodeAudioBufferToWav };
 
 export function getNativeFilteredBlobCacheKey(cacheOptions, separationCacheId, audioFilters) {
   return [
@@ -33,7 +36,9 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
       return {
         separation: cached.separation,
         stemBuffers: cached.stemBuffers,
-        stemWavBytes: cached.stemWavBytes || null,
+        stemWavBytes: cached.stemWavBytes || cached.stemAudioBytes || null,
+        stemAudioBytes: cached.stemAudioBytes || cached.stemWavBytes || null,
+        audioFormat: cached.audioFormat || null,
         fromCache: true,
       };
     }
@@ -60,7 +65,9 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     return {
       separation: cachedAfterSeparation.separation || separation,
       stemBuffers: cachedAfterSeparation.stemBuffers,
-      stemWavBytes: cachedAfterSeparation.stemWavBytes || null,
+      stemWavBytes: cachedAfterSeparation.stemWavBytes || cachedAfterSeparation.stemAudioBytes || null,
+      stemAudioBytes: cachedAfterSeparation.stemAudioBytes || cachedAfterSeparation.stemWavBytes || null,
+      audioFormat: cachedAfterSeparation.audioFormat || null,
       fromCache: true,
     };
   }
@@ -77,10 +84,13 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     stemBuffers: fetched.stemBuffers,
     stemWavBytes: fetched.stemWavBytes,
   });
+  const cachedAfterSave = await getCachedStemSet(saveKey);
   return {
     separation: separation,
     stemBuffers: fetched.stemBuffers,
-    stemWavBytes: fetched.stemWavBytes,
+    stemWavBytes: (cachedAfterSave && (cachedAfterSave.stemAudioBytes || cachedAfterSave.stemWavBytes)) || fetched.stemWavBytes,
+    stemAudioBytes: cachedAfterSave && (cachedAfterSave.stemAudioBytes || cachedAfterSave.stemWavBytes),
+    audioFormat: cachedAfterSave && cachedAfterSave.audioFormat,
     fromCache: false,
   };
 }
@@ -101,65 +111,6 @@ export function mixStemBuffersOffline(stemBuffers, audioFilters) {
   const length = Math.max(1, Math.ceil(maxDuration * targetRate));
   const offline = new OfflineAudioContext(2, length, targetRate);
   return mixStemBuffers(offline, stemBuffers, audioFilters);
-}
-
-export function encodeAudioBufferToWav(audioBuffer) {
-  const numChannels = audioBuffer.numberOfChannels;
-  const sampleRate = audioBuffer.sampleRate;
-  const length = audioBuffer.length;
-  const bytesPerSample = 2;
-  const blockAlign = numChannels * bytesPerSample;
-  const dataSize = length * blockAlign;
-  const buffer = new ArrayBuffer(44 + dataSize);
-  const view = new DataView(buffer);
-  let pos = 0;
-
-  function writeString(value) {
-    for (let i = 0; i < value.length; i += 1) {
-      view.setUint8(pos, value.charCodeAt(i));
-      pos += 1;
-    }
-  }
-
-  function writeUint32(value) {
-    view.setUint32(pos, value, true);
-    pos += 4;
-  }
-
-  function writeUint16(value) {
-    view.setUint16(pos, value, true);
-    pos += 2;
-  }
-
-  writeString('RIFF');
-  writeUint32(36 + dataSize);
-  writeString('WAVE');
-  writeString('fmt ');
-  writeUint32(16);
-  writeUint16(1);
-  writeUint16(numChannels);
-  writeUint32(sampleRate);
-  writeUint32(sampleRate * blockAlign);
-  writeUint16(blockAlign);
-  writeUint16(16);
-  writeString('data');
-  writeUint32(dataSize);
-
-  const channels = [];
-  for (let ch = 0; ch < numChannels; ch += 1) {
-    channels.push(audioBuffer.getChannelData(ch));
-  }
-
-  for (let i = 0; i < length; i += 1) {
-    for (let ch = 0; ch < numChannels; ch += 1) {
-      const sample = Math.max(-1, Math.min(1, channels[ch][i]));
-      const intSample = sample < 0 ? sample * 0x8000 : sample * 0x7FFF;
-      view.setInt16(pos, intSample, true);
-      pos += 2;
-    }
-  }
-
-  return new Blob([buffer], { type: 'audio/wav' });
 }
 
 export async function buildFilteredMediaBlob(cacheOptions, audioFilters, options) {

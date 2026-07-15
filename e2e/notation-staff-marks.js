@@ -147,17 +147,23 @@ async function runStaffMarksTests(page, ctx) {
     await page.mouse.click(centers[0].x, centers[0].y)
     await sleep(150)
     await clickMarksMenuItem(page, 'Staccato')
-    await page.mouse.click(centers[0].x, centers[0].y)
     await sleep(150)
+    // Select-once: do NOT re-click before Accent (false-green used to hide stale selection).
     await clickMarksMenuItem(page, 'Accent')
-    await sleep(200)
+    await sleep(250)
     const deco = await page.evaluate(function() {
       return window.__abc2bookNotationTest.getSessionEvents()[0].decorations || []
     })
     if (deco.indexOf('staccato') < 0) throw new Error('expected staccato decoration')
     if (deco.indexOf('accent') < 0) throw new Error('expected accent decoration')
-    const abc = await page.evaluate(function() { return window.__abc2bookNotationTest.getVoiceAbc() })
+    const abc = await page.evaluate(function() {
+      const h = window.__abc2bookNotationTest
+      return (h.getCommittedVoiceAbc && h.getCommittedVoiceAbc()) || h.getVoiceAbc()
+    })
     if (abc.indexOf('.') < 0) throw new Error('ABC should contain staccato dot')
+    if (abc.indexOf('!>!') < 0 && abc.indexOf('L') < 0) {
+      throw new Error('committed ABC should contain accent token (!>! or L), got: ' + abc)
+    }
   })
 
   await runScenario(results, 'P1: grace note before selection', async function() {

@@ -41,7 +41,6 @@ export default function ChordsSearchButton({
   resolverAvailable: resolverAvailableProp,
 }) {
   const [error, setError] = useState('')
-  const [source, setSource] = useState('')
   const [updateLyrics, setUpdateLyrics] = useState(forceUpdateLyrics || defaultUpdateLyrics)
   const [showOverwriteConfirm, setShowOverwriteConfirm] = useState(false)
   const [confirmUpdateLyrics, setConfirmUpdateLyrics] = useState(forceUpdateLyrics || defaultUpdateLyrics)
@@ -74,10 +73,6 @@ export default function ChordsSearchButton({
         sourceUrl: result.sourceUrl,
       })
     }
-    const sourceLabel = result && result.source
-      ? (result.sourceUrl ? result.source + ' (' + result.sourceUrl + ')' : result.source)
-      : ''
-    setSource(sourceLabel)
     if (typeof onGenreAccept === 'function' && result) {
       const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
         title: title,
@@ -147,7 +142,6 @@ export default function ChordsSearchButton({
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
-    setSource('')
     setManualCandidates([])
     setLockedModalCandidate(null)
     setShowPicker(false)
@@ -173,7 +167,9 @@ export default function ChordsSearchButton({
       return
     }
     pendingModeRef.current = mode === 'review' ? 'review' : 'auto'
-    if (confirmOverwrite) {
+    // Overwrite confirmation is only for Auto (immediate apply). Review leaves
+    // results as choosable suggestions without wiping the tune yet.
+    if (confirmOverwrite && pendingModeRef.current === 'auto') {
       setConfirmUpdateLyrics(forceUpdateLyrics || updateLyrics)
       setShowOverwriteConfirm(true)
       return
@@ -202,7 +198,6 @@ export default function ChordsSearchButton({
           disabled={!canSearch || disabled}
           externalUrl={googleUrl}
           externalLinkIcon={externalLinkIcon}
-          narrow={false}
           inline={true}
           onSearch={requestSearch}
           buttonStyle={buttonStyle}
@@ -271,12 +266,6 @@ export default function ChordsSearchButton({
           setLockedModalCandidate(candidate)
         }}
       />
-      {source && !error && manualCandidates.length === 0 && (
-        <Alert variant="success" style={{ marginTop: '0.75em', clear: 'both' }}>
-          Chords imported from {source}
-          {(showLyricsCheckbox || confirmOverwrite) && updateLyrics ? ' with synced lyrics.' : '.'}
-        </Alert>
-      )}
 
       <GenreSuggestionOffer
         suggestion={genreSuggestion}

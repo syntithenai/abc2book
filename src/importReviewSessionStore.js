@@ -1,4 +1,4 @@
-import { isReviewSessionActive } from './importReviewSession'
+import { asImportReviewChrome, isReviewSessionActive } from './importReviewSession'
 
 const STORAGE_KEY = 'abc2book.importReviewSession'
 
@@ -57,12 +57,35 @@ export function isImportReviewUiVisible() {
 }
 
 export function setImportReviewSession(next) {
+  // Finished / empty sessions should not linger in memory (storage already drops them).
+  // Leaving them made the nav Review button stay visible with nothing to open.
+  if (!next || !isReviewSessionActive(next)) {
+    session = null
+    uiVisible = false
+    writeStoredSession(null)
+    notify()
+    return
+  }
   session = next
   writeStoredSession(next)
   notify()
 }
 
 export function showImportReviewUi() {
+  uiVisible = true
+  notify()
+}
+
+/**
+ * Open the review UI from the ready toast or /review route.
+ * Blank "Add tunes" sessions are switched to Import review chrome so users
+ * land on merge/search review instead of the add draft dialog.
+ */
+export function openImportReviewFromToast() {
+  if (session) {
+    session = asImportReviewChrome(session)
+    writeStoredSession(session)
+  }
   uiVisible = true
   notify()
 }

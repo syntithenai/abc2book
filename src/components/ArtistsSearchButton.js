@@ -1,7 +1,11 @@
 import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
+import {
+  applyFieldLookupChoice,
+  buildSearchModeOptions,
+  dismissFieldLookup,
+} from '../tuneFieldLookupQueue'
 import { buildGoogleArtistsSearchUrl } from '../artistsSearchClient'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
@@ -20,18 +24,20 @@ export default function ArtistsSearchButton({
   inline,
 }) {
   const [error, setError] = useState('')
-  const [source, setSource] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
+  const [selectedIndexes, setSelectedIndexes] = useState([])
   const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
+  const addedRef = useRef(false)
 
-  function finishApply(result, jobId) {
-    if (jobId) applyFieldLookupChoice(jobId, result)
+  function finishApply(result, jobId, options) {
+    const keepOpen = !!(options && options.keepOpen)
+    if (!keepOpen && jobId) applyFieldLookupChoice(jobId, result)
     if (typeof onAddArtist === 'function' && result && result.artist) {
       onAddArtist(result.artist)
+      addedRef.current = true
     }
-    setSource(result && result.source ? result.source : '')
   }
   applyRef.current = finishApply
 
@@ -46,6 +52,8 @@ export default function ArtistsSearchButton({
           setError('No artists found')
           return
         }
+        addedRef.current = false
+        setSelectedIndexes([])
         setPickerCandidates(candidates)
         setShowPicker(true)
         return
@@ -67,6 +75,16 @@ export default function ArtistsSearchButton({
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
 
+  function closePicker(dismissJob) {
+    const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+      ? lookup.activeJob.id
+      : null
+    setShowPicker(false)
+    setPickerCandidates([])
+    setSelectedIndexes([])
+    if (dismissJob && jobId) dismissFieldLookup(jobId)
+  }
+
   function run(mode) {
     if (!canSearch) return
     if (busy) {
@@ -76,9 +94,10 @@ export default function ArtistsSearchButton({
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
-    setSource('')
     setShowPicker(false)
     setPickerCandidates([])
+    setSelectedIndexes([])
+    addedRef.current = false
     lookup.startSearch({
       title: title,
       artist: artist || '',
@@ -109,12 +128,11 @@ export default function ArtistsSearchButton({
         defaultMessage="Searching for artists..."
       />
       {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-      {source && !error ? (
-        <Alert variant="success" className="mt-2 mb-0">Artist from {source}</Alert>
-      ) : null}
       <SearchResultPickerModal
         show={showPicker}
-        title="Choose artist to add"
+        title="Choose artists to add"
+        multiSelect={true}
+        selectedIndexes={selectedIndexes}
         items={pickerCandidates.map(function(candidate) {
           const role = candidate.role === 'writer'
             ? 'Writer'
@@ -126,17 +144,23 @@ export default function ArtistsSearchButton({
             source: candidate.source || '',
           }
         })}
-        onSelect={function(item) {
-          setShowPicker(false)
-          setPickerCandidates([])
-          const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
-            ? lookup.activeJob.id
-            : null
-          finishApply({ artist: item.title, source: item.source }, jobId)
+        onSelect={function(item, index) {
+          let alreadySelected = false
+          setSelectedIndexes(function(prev) {
+            if (prev.indexOf(index) >= 0) {
+              alreadySelected = true
+              return prev
+            }
+            return prev.concat([index])
+          })
+          if (alreadySelected) return
+          finishApply({ artist: item.title, source: item.source }, null, { keepOpen: true })
+        }}
+        onDone={function() {
+          closePicker(addedRef.current)
         }}
         onHide={function() {
-          setShowPicker(false)
-          setPickerCandidates([])
+          closePicker(addedRef.current)
         }}
       />
     </>

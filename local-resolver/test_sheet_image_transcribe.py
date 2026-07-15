@@ -178,6 +178,34 @@ class SheetImageTranscribeTests(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(result["pageType"], "chord_chart")
             self.assertIn("Amazing", result["chordSheet"]["text"])
 
+    async def test_transcribe_empty_detection_raises(self):
+        fixture = os.path.join(
+            os.path.dirname(__file__),
+            "test_fixtures",
+            "sheet_images",
+            "staff_only.png",
+        )
+        with open(fixture, "rb") as handle:
+            data = handle.read()
+
+        with patch("sheet_image_transcribe.paddleocr_available", return_value=True), patch(
+            "sheet_image_transcribe.extract_ocr_boxes",
+            return_value=[],
+        ), patch("sheet_image_transcribe.homr_available", return_value=True), patch(
+            "sheet_image_transcribe._extract_melody",
+            side_effect=RuntimeError("No noteheads found"),
+        ), patch(
+            "sheet_image_transcribe.maybe_apply_vlm_fallback",
+            new=AsyncMock(return_value=None),
+        ), patch(
+            "sheet_image_transcribe.detect_staff_regions",
+            return_value={"hasStaff": True, "staffRegionCount": 1, "staffRegions": [], "confidence": 0.8},
+        ):
+            from sheet_image_transcribe import transcribe_sheet_image_bytes
+
+            with self.assertRaisesRegex(RuntimeError, "melody recognition failed"):
+                await transcribe_sheet_image_bytes(data, "staff_only.png")
+
 
 if __name__ == "__main__":
     unittest.main()

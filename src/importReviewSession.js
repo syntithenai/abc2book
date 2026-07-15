@@ -57,13 +57,16 @@ export function createBlankAddCandidate(options) {
     words: [],
     links: [],
   };
-  return createImportCandidate({
+  const candidate = createImportCandidate({
     id: opts.candidateId,
     tune: tune,
     sourceKind: 'manual',
     mergeTargetId: null,
     skipEnrich: false,
   });
+  // Marks the live Add-form draft so Review can park/enrich other items beside it.
+  candidate.addDraft = true;
+  return candidate;
 }
 
 function normalizeCandidate(item, index) {
@@ -97,12 +100,105 @@ export function createImportReviewSession(candidates, options) {
   };
 }
 
-/** True when chrome should say "Add tunes" / primary "Add" (blank single manual draft). */
+/** True when chrome should say "Add tunes" / primary "Add". */
 export function isAddTunesChrome(session) {
-  if (!session || session.entryMode !== 'add') return false;
-  if (!Array.isArray(session.candidates) || session.candidates.length !== 1) return false;
-  const candidate = session.candidates[0];
-  return !!(candidate && candidate.sourceKind === 'manual');
+  return !!(session && session.entryMode === 'add');
+}
+
+export function isAddDraftCandidate(candidate) {
+  return !!(candidate && candidate.addDraft);
+}
+
+/**
+ * Open a blank Add draft without wiping an in-progress Review queue.
+ * Resumes an existing Add draft when present; otherwise prepends a new blank.
+ */
+export function ensureBlankAddSession(session, options) {
+  const opts = options || {};
+  const blank = createBlankAddCandidate({
+    book: opts.book,
+    tags: opts.tags,
+    candidateId: opts.candidateId,
+  });
+  if (!session || !isReviewSessionActive(session)) {
+    return createImportReviewSession([blank], {
+      entryMode: 'add',
+      skipEnrichment: !!opts.skipEnrichment,
+    });
+  }
+  if (isAddTunesChrome(session)) {
+    const current = currentCandidate(session);
+    if (isAddDraftCandidate(current)) return session;
+    const draftIndex = (session.candidates || []).findIndex(isAddDraftCandidate);
+    if (draftIndex >= 0) {
+      return Object.assign({}, session, {
+        index: draftIndex,
+        mergeIndex: null,
+        phase: 'identify',
+        step: 'review',
+      });
+    }
+  }
+  const draftIndex = (session.candidates || []).findIndex(isAddDraftCandidate);
+  if (draftIndex >= 0) {
+    return Object.assign({}, session, {
+      index: draftIndex,
+      mergeIndex: null,
+      entryMode: 'add',
+      phase: 'identify',
+      step: 'review',
+    });
+  }
+  return Object.assign({}, session, {
+    candidates: [blank].concat(session.candidates || []),
+    index: 0,
+    mergeIndex: null,
+    entryMode: 'add',
+    phase: 'identify',
+    step: 'review',
+  });
+}
+
+/**
+ * Drop the live Add draft (e.g. Cancel) while keeping parked Review items.
+ * Returns null when nothing remains.
+ */
+export function removeAddDraftFromSession(session) {
+  if (!session || !Array.isArray(session.candidates)) return null;
+  const kept = session.candidates.filter(function(candidate) {
+    return !isAddDraftCandidate(candidate);
+  });
+  if (kept.length === 0) return null;
+  const nextIndex = Math.min(session.index || 0, kept.length - 1);
+  return Object.assign({}, session, {
+    candidates: kept,
+    index: nextIndex,
+    mergeIndex: null,
+    entryMode: 'import',
+    phase: session.phase === 'enrichment' ? 'enrichment' : 'identify',
+    step: 'review',
+  });
+}
+
+/**
+ * Toast / Review-page opens should show Import review, not the blank Add tunes draft.
+ * Keeps the same candidates; only switches chrome and focuses a review item.
+ */
+export function asImportReviewChrome(session) {
+  if (!session) return session;
+  let next = session.entryMode === 'add'
+    ? Object.assign({}, session, { entryMode: 'import' })
+    : session;
+  const candidates = next.candidates || [];
+  const focus = candidates.findIndex(function(candidate) {
+    return candidate && !isAddDraftCandidate(candidate)
+      && !candidate.imported
+      && !(next.importedCandidateIds && next.importedCandidateIds[candidate.id]);
+  });
+  if (focus >= 0 && focus !== next.index) {
+    next = Object.assign({}, next, { index: focus, mergeIndex: null });
+  }
+  return next;
 }
 
 export function currentCandidate(session) {
@@ -312,19 +408,36 @@ export function deferCandidateForEnhancement(session, enrichmentJobs) {
   const currentIndex = session.mergeIndex != null ? session.mergeIndex : session.index;
   const nextIndex = findNextReviewCandidateIndex(session, currentIndex);
   if (nextIndex < 0) {
+    // Last/only candidate: keep it in the review queue with enrichment attached
+    // (UI may close for Add → Review handoff).
+    const candidates = (session.candidates || []).slice();
+    const current = candidates[currentIndex];
+    if (current && current.addDraft) {
+      candidates[currentIndex] = Object.assign({}, current, { addDraft: false });
+    }
     return Object.assign({}, session, {
+      candidates: candidates,
       enrichmentJobs: enrichmentJobs || session.enrichmentJobs || [],
-      step: 'done',
+      index: currentIndex,
       mergeIndex: null,
-      phase: 'identify',
+      phase: 'enrichment',
+      step: 'review',
+      entryMode: 'import',
     });
   }
+  const candidates = (session.candidates || []).slice();
+  const current = candidates[currentIndex];
+  if (current && current.addDraft) {
+    candidates[currentIndex] = Object.assign({}, current, { addDraft: false });
+  }
   return Object.assign({}, session, {
+    candidates: candidates,
     enrichmentJobs: enrichmentJobs || session.enrichmentJobs || [],
     index: nextIndex,
     mergeIndex: null,
     phase: 'identify',
     step: 'review',
+    entryMode: session.entryMode === 'add' ? 'import' : session.entryMode,
   });
 }
 

@@ -12,6 +12,8 @@ import {
   hasAnyViewModeEnabled,
   enableInfoInViewMode,
   applyGeneratedBackgroundInfo,
+  isEditorNotationPath,
+  isNotationEditorView,
 } from './viewModeUtils';
 import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
 
@@ -302,5 +304,22 @@ describe('enableInfoInViewMode / applyGeneratedBackgroundInfo', function() {
     applyGeneratedBackgroundInfo(tune, '   ');
     expect(tune.backgroundInfo).toBe('');
     expect(tune.viewMode).toBe('music');
+  });
+});
+
+describe('isEditorNotationPath', function() {
+  it('detects music / pianoRoll / notationAbc editor tabs', function() {
+    expect(isEditorNotationPath('/editor/abc123/music')).toBe(true);
+    expect(isEditorNotationPath('/editor/abc123/pianoRoll')).toBe(true);
+    expect(isEditorNotationPath('/editor/abc123/notationAbc')).toBe(true);
+    expect(isNotationEditorView('music')).toBe(true);
+  });
+
+  it('leaves info/lyrics and non-editor routes for tune-skip arrows', function() {
+    expect(isEditorNotationPath('/editor/abc123')).toBe(false);
+    expect(isEditorNotationPath('/editor/abc123/info')).toBe(false);
+    expect(isEditorNotationPath('/editor/abc123/lyrics')).toBe(false);
+    expect(isEditorNotationPath('/tunes/abc123')).toBe(false);
+    expect(isEditorNotationPath('/settings')).toBe(false);
   });
 });

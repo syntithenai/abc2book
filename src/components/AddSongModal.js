@@ -8,10 +8,11 @@ import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useGoogleDocument from '../useGoogleDocument'
 import {
-  hasActiveImportReviewSession,
+  getImportReviewSession,
   requestImportReview,
   showImportReviewUi,
 } from '../importReviewSessionStore'
+import { isAddTunesChrome } from '../importReviewSession'
 import DriveFilePickerModal from './DriveFilePickerModal'
 import BulkYouTubePlaylistModal from './BulkYouTubePlaylistModal'
 import AudioDriveUploadModal from './AudioDriveUploadModal'
@@ -85,7 +86,10 @@ function AddSongModal(props) {
   }, [dismissRoute])
 
   const openBlankOrResumeAdd = useCallback(function() {
-    if (hasActiveImportReviewSession()) {
+    const current = getImportReviewSession()
+    // Only resume an Add draft. An in-progress Import review / Enhance job must
+    // not reopen as the Add form — ensureBlankAddSession parks those beside a blank.
+    if (isAddTunesChrome(current)) {
       showImportReviewUi()
       return
     }

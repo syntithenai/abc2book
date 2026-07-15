@@ -286,7 +286,11 @@ export function buildPracticeSessionPlan(options) {
   const skillLevel = opts.skillLevel != null ? opts.skillLevel : 5
   const instrument = normalizePracticeInstrument(opts.instrument || 'mandolin')
   const tempoRange = getSkillTempoRange(skillLevel)
-  const warmupGenOptions = getWarmupOptionsForSkill(skillLevel, { instrument: instrument })
+  const warmupGenOptions = getWarmupOptionsForSkill(skillLevel, {
+    instrument: instrument,
+    vocalRangeLow: opts.vocalRangeLow,
+    vocalRangeHigh: opts.vocalRangeHigh,
+  })
   const tunes = opts.tunes || {}
   const helpers = opts.helpers || {}
   const filters = opts.filters || {}
@@ -339,6 +343,7 @@ export function buildPracticeSessionPlan(options) {
           id: warmup.id,
           title: warmup.title,
           abc: warmup.abc,
+          firstMidi: warmup.firstMidi,
           meter: warmup.meter,
           action: warmup.action,
           estimatedSeconds: WARMUP_SECONDS_EACH,

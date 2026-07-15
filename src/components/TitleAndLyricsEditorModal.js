@@ -139,7 +139,9 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             tuneId={params.tuneId || (tune && tune.id)}
                             kind="composer"
                             fallbackTitle={tune.name || ''}
-                            onApply={function(candidate) {
+                            currentValue={tune && tune.composer ? tune.composer : ''}
+                            onApply={function(candidate, _job, meta) {
+                              if (meta && (meta.deferred || meta.keepCurrent)) return
                               if (candidate && candidate.artist) {
                                 tune.composer = candidate.artist
                                 tune.id = params.tuneId
@@ -200,7 +202,9 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           tuneId={params.tuneId || (tune && tune.id)}
                           kind="lyrics"
                           fallbackTitle={tune.name || ''}
-                          onApply={function(result) {
+                          currentValue={lyricLinesToText(tune)}
+                          onApply={function(result, _job, meta) {
+                            if (meta && (meta.deferred || meta.keepCurrent)) return
                             if (result && result.lines) saveLyrics(result.lines)
                             else if (result && result.text) saveLyrics(String(result.text).split(/\r?\n/))
                           }}

@@ -150,7 +150,19 @@ export default function MultiSheetCaptureModal(props) {
           book: props.currentTuneBook,
           titleOverride: titleHint || undefined,
         });
-        return { tune: tune, sourceKind: 'sheetimage' };
+        const firstPage = Array.isArray(group.pageIndexes) && pages[group.pageIndexes[0]]
+          ? pages[group.pageIndexes[0]]
+          : pages[0];
+        const candidate = { tune: tune, sourceKind: 'sheetimage' };
+        if (firstPage && firstPage.blob) {
+          candidate.pendingFile = {
+            name: firstPage.fileName || 'Sheet capture.jpg',
+            type: (firstPage.blob && firstPage.blob.type) || 'image/jpeg',
+            blob: firstPage.blob,
+            source: 'import',
+          };
+        }
+        return candidate;
       });
       if (typeof props.onCandidates === 'function') props.onCandidates(candidates);
       handleClose();

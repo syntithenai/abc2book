@@ -12,10 +12,16 @@ describe('textSearchIndexUtils', function() {
     })).toEqual(['wild', 'rover'])
   })
 
-  test('scoreSearchResult prefers exact title matches', function() {
-    const exact = scoreSearchResult('Drowsy Maggie', 'Drowsy Maggie', 2, ['drowsy', 'maggie'])
-    const partial = scoreSearchResult('Drowsy Maggie', 'Maggie Went to Market', 2, ['drowsy', 'maggie'])
-    expect(exact.score).toBeGreaterThan(partial.score)
+  test('tokenizeSearchQuery drops ultra-short tokens', function() {
+    expect(tokenizeSearchQuery('clare de lune', function(text) { return text })).toEqual([
+      'clare',
+      'lune',
+    ])
+  })
+
+  test('scoreSearchResult does not count short tokens inside unrelated words', function() {
+    const scored = scoreSearchResult('Clare de Lune', 'Merry Dance', 1, ['clare', 'de', 'lune'])
+    expect(scored.matchedTokenCount).toBe(0)
   })
 
   test('isStrongLocalMatch accepts full token coverage', function() {

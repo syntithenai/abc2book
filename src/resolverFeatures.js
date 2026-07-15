@@ -4,6 +4,7 @@ export const DEFAULT_RESOLVER_FEATURES = Object.freeze({
   whisper: false,
   llm: false,
   practiceAnalysis: false,
+  oauthBff: false,
 });
 
 export const ALL_RESOLVER_FEATURES = Object.freeze({
@@ -12,6 +13,8 @@ export const ALL_RESOLVER_FEATURES = Object.freeze({
   whisper: true,
   llm: true,
   practiceAnalysis: true,
+  // Legacy health bodies without features do not imply OAuth BFF.
+  oauthBff: false,
 });
 
 export function normalizeResolverFeatures(raw, options) {
@@ -28,6 +31,7 @@ export function normalizeResolverFeatures(raw, options) {
     whisper: raw.whisper === true,
     llm: raw.llm === true,
     practiceAnalysis: raw.practiceAnalysis === true,
+    oauthBff: raw.oauthBff === true,
   };
 }
 

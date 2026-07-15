@@ -1,6 +1,8 @@
 import {
   applyImportSuggestion,
   applyInlineImportToForm,
+  applyCoalescedFieldChoicesToSuggestions,
+  attachCurrentValueChoice,
   buildReviewFormState,
   canApplyImportInline,
   emptyFormValues,
@@ -108,6 +110,53 @@ describe('importReviewFieldUtils', function() {
     expect(result.suggestions.rhythm.choices[0].preview).toBe('reel');
     expect(result.suggestions.rhythm.choices[1].id).toBe('imported');
     expect(result.suggestions.rhythm.choices[1].preview).toBe('jig');
+  });
+
+  test('lyrics conflict suggestions put Current value first', function() {
+    const current = tuneToFormValues({ name: 'Mine', words: ['Old line'] });
+    const result = applyInlineImportToForm(current, { name: 'Mine', words: ['New line'] });
+    expect(result.suggestions.lyrics).toBeTruthy();
+    expect(result.suggestions.lyrics.choices[0].id).toBe('current');
+    expect(result.suggestions.lyrics.choices[0].preview).toContain('Old line');
+  });
+
+  test('attachCurrentValueChoice drops rest entries matching baseline', function() {
+    const suggestion = attachCurrentValueChoice({
+      key: 'rhythm',
+      formKey: 'rhythm',
+      value: 'reel',
+      displayValue: 'reel',
+      choices: [
+        { id: 'imported', label: 'Imported', preview: 'reel', value: 'reel', source: 'import' },
+        { id: 'from-abc', label: 'From abc', preview: 'jig', value: 'jig', source: 'abc' },
+        { id: 'dup', label: 'From search', preview: 'jig', value: 'jig', source: 'search' },
+      ],
+    }, 'reel', 'reel');
+    expect(suggestion.choices[0].id).toBe('current');
+    expect(suggestion.choices.map(function(c) { return c.value; })).toEqual(['reel', 'jig']);
+  });
+
+  test('applyCoalescedFieldChoicesToSuggestions dedupes by semantic equality', function() {
+    const form = emptyFormValues();
+    form.rhythm = 'reel';
+    const suggestions = {
+      rhythm: attachCurrentValueChoice({
+        key: 'rhythm',
+        formKey: 'rhythm',
+        value: 'jig',
+        displayValue: 'jig',
+      }, 'reel', 'reel'),
+    };
+    const next = applyCoalescedFieldChoicesToSuggestions(suggestions, {
+      rhythm: [
+        { id: 'a', label: 'From abc', preview: 'jig', value: 'jig' },
+        { id: 'b', label: 'From search', preview: 'reel', value: 'reel' },
+        { id: 'c', label: 'From other', preview: 'hornpipe', value: 'hornpipe' },
+      ],
+    }, form);
+    const values = next.rhythm.choices.map(function(c) { return c.value; });
+    expect(next.rhythm.choices[0].id).toBe('current');
+    expect(values).toEqual(['reel', 'jig', 'hornpipe']);
   });
 
   test('importSuggestionDiffersFromForm hides matching values', function() {

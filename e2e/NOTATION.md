@@ -2,6 +2,18 @@
 
 Scope is driven by [NotationEditorHelp.js](../src/components/NotationEditorHelp.js) and the 35-step [NotationEditorWalkthrough.js](../src/components/NotationEditorWalkthrough.js).
 
+## Human gesture invariants
+
+These catch failures that softer E2E used to miss (false greens):
+
+| Gesture | Do | Assert |
+|---------|----|--------|
+| **End gap** | Click the gap between last notehead and trailing `\|` (`clickAfterLastNoteHuman`) — not `last.x + 80` past the bar | `getCaretIndex() === events.length` before typing; insert after `\|` |
+| **Large / off-glyph drag** | Drag ≥5 staff steps or flick far off glyph | Use octave-aware `assertEvents` / pitchSummary — never letter-only |
+| **Select-once toolbar** | Click a note once, then Marks / accidental / `+` **without re-clicking** | Effect appears in **committed** ABC (`getCommittedVoiceAbc` / viaParser), not only session decorations |
+
+Helpers: `clickAfterLastNoteHuman`, `dragStaffNoteFarOffGlyph`. Prefer committed ABC for edit effects that go through `commitToAbc`.
+
 ## Click & Caret Invariants
 
 Staff click and caret behavior must satisfy these contracts (verified by unit tests, E2E, and manual smoke):
@@ -36,6 +48,7 @@ localStorage.setItem('notationClickResolverV2', '0')  // rollback to legacy path
 | `getCaretIndex()` | Session caret index (0..events.length) |
 | `getSelection()` | `{ eventIds, toneIndex, anchorId }` |
 | `getVoiceAbc()` | Serialized active voice body |
+| `getCommittedVoiceAbc()` | Last viaParser commit body (toolbar edits) |
 | `getMode()` | `normal`, `noteInput`, etc. |
 | `getResolverDebug()` | Last click resolve `{ source, eventIndex }` (dev only) |
 
@@ -74,6 +87,7 @@ Dev hook `window.__abc2bookNotationTest` also exposes: `getDurationKey`, `getDot
 | `e2e…003` | Two-line `C D E F \| G A B c \|` / `d e f g \|` | Multiline caret |
 | `e2e…004` | Empty | Workflow build-from-scratch |
 | `e2e…005` | `G A B \| c3 \|` in K:G, M:6/8 | Key signature |
+| `e2e…006` | `A2A2^F2BE\| GGFE` (no trailing `\|`) | Mid-bar `abcjs-n` reset (Copper) |
 
 ## Running
 
@@ -101,6 +115,9 @@ Semantics pinned by tests (see help for full list):
 | **Delete** | Selection → rest; else rest event **at** caret (forward) |
 | **Backspace** | Selection → rest; else rest event **before** caret |
 | **Ctrl+Delete** | Remove selected events from timeline |
+| **Arrow ←/→** | Normal: select previous/next event (works with focus on body); note input: move caret. On editor music tab these do **not** change tune (use header skip buttons) |
+| **Shift+←/→** | Extend selection from fixed `anchorId` to newly focused event |
+| **Ctrl+←/→** | Jump caret by measure |
 | **Arrow ↑/↓** | Chromatic transpose ±1 on selection |
 | **Ctrl+↑/↓** | Octave ±12 |
 | **Alt+Shift+↑/↓** | Diatonic ±1 step (implemented as ±2 semitone steps) |
@@ -109,7 +126,12 @@ Semantics pinned by tests (see help for full list):
 | **Q / W** | Halve / double duration |
 | **Ctrl+C/X/V** | Copy / cut / paste |
 | **Ctrl+Alt+P** | Cycle Staff → Piano roll → Split |
-| **Staff drag** | Vertical drag = diatonic steps (`transposeSelectionByStaffSteps`) |
+| **Staff drag** | Vertical drag = diatonic steps; live ghost overlay while dragging; commit on pointerup (`dragging={false}`) |
+| **Shift+click** | Contiguous range from selection `anchorId` |
+| **Ctrl/Cmd+click** | Toggle event in multi-select |
+| **Empty-staff drag** | Marquee select (glyph centers intersecting rect) |
+| **Double-click note** | Select whole measure through trailing barline |
+| **Click barline** | Select that barline event (Delete removes it) |
 | **(3** | Start triplet input; auto-ends after 3 notes |
 
 ## Walkthrough step → test tier
@@ -126,6 +148,7 @@ Semantics pinned by tests (see help for full list):
 | 7 | `transpose` (drag) | P0 | notation-staff-core |
 | 7b | click regression | P0 | notation-click-regression |
 | 8 | `transpose` (↑) | P0 | notation-staff-core |
+| 8b | cursor ←/→ | P0 | notation-staff-core |
 | 9 | `barlines` | P0 | notation-staff-core |
 | 10 | `views` | P0/P3 | notation-staff-core + notation-advanced |
 | 11 | `durations` | P1 | notation-staff-full |
@@ -152,6 +175,9 @@ Semantics pinned by tests (see help for full list):
 - Delete vs Backspace exact pitch targets (middle-note regression)
 - View switching (Ctrl+Alt+P + dropdown)
 - Staff drag exact diatonic pitch results
+- Arrow ←/→ after selecting a note then blurring to `body`
+- Shift+click range, Ctrl+click additive, empty-staff marquee, double-click measure
+- Pitch-drag live overlay class then commit on release
 
 ## Out of Puppeteer scope (manual or unit-only)
 

@@ -152,7 +152,9 @@ export default function MediaImportMetadataStep(props) {
             candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
             kind="composer"
             fallbackTitle={metadata.name || ''}
-            onApply={function(candidate) {
+            currentValue={metadata.composer || ''}
+            onApply={function(candidate, _job, meta) {
+              if (meta && meta.keepCurrent) return
               if (candidate && candidate.artist) {
                 update('composer', candidate.artist);
                 if (typeof props.onDraftChange === 'function') {

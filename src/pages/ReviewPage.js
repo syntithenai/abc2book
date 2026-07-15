@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useSyncExternalStore } from 'react'
+import { useEffect, useMemo, useState, useSyncExternalStore } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Button, ListGroup } from 'react-bootstrap'
 import {
@@ -10,21 +10,35 @@ import {
 import {
   hasActiveImportReviewSession,
   hideImportReviewUi,
-  showImportReviewUi,
+  openImportReviewFromToast,
   subscribeImportReviewSession,
   getImportReviewSessionRevision,
 } from '../importReviewSessionStore'
-import { snoozeBackgroundReviewToast } from '../backgroundReviewToast'
+import { showBackgroundJobsContinuingNotice, snoozeBackgroundReviewToast } from '../backgroundReviewToast'
 import {
   subscribe as subscribeFieldLookupQueue,
   getState as getFieldLookupState,
+  dismissFieldLookup,
 } from '../tuneFieldLookupQueue'
+import {
+  dismissFileOcrJob,
+  getFileOcrJob,
+  getFileOcrJobs,
+  subscribeFileOcrJobs,
+} from '../fileOcrJobs'
+import FileOcrReviewModal from '../components/FileOcrReviewModal'
 
 function getFieldLookupRevision() {
   const state = getFieldLookupState()
   return (state.jobs || []).map(function(job) {
     return job.id + ':' + job.status + ':' + (job.reviewCandidateId || '') + ':'
       + (Array.isArray(job.candidates) ? job.candidates.length : 0)
+  }).join('|')
+}
+
+function getFileOcrRevision() {
+  return getFileOcrJobs().map(function(job) {
+    return job.id + ':' + job.status
   }).join('|')
 }
 
@@ -44,9 +58,14 @@ function useReviewSummary() {
     getFieldLookupRevision,
     function() { return '' }
   )
+  const fileOcrRevision = useSyncExternalStore(
+    subscribeFileOcrJobs,
+    getFileOcrRevision,
+    function() { return '' }
+  )
   return useMemo(function() {
     return getBackgroundReviewSummary()
-  }, [reviewRevision, importRevision, fieldLookupRevision])
+  }, [reviewRevision, importRevision, fieldLookupRevision, fileOcrRevision])
 }
 
 function resolveTuneName(tunes, tuneId, fallback) {
@@ -59,14 +78,36 @@ function resolveTuneName(tunes, tuneId, fallback) {
 export default function ReviewPage(props) {
   const navigate = useNavigate()
   const summary = useReviewSummary()
+  const [showFileOcr, setShowFileOcr] = useState(false)
+  const [focusFileOcrId, setFocusFileOcrId] = useState(null)
 
   useEffect(function() {
-    showImportReviewUi()
+    return subscribeFileOcrJobs(function() {
+      // force summary refresh via background queue subscription path
+    })
   }, [])
 
   const hasImport = hasActiveImportReviewSession()
   const hasMedia = summary.mediaReady.length > 0
-  const hasAnything = hasImport || hasMedia || summary.ready > 0
+  const fieldLookups = Array.isArray(summary.fieldLookupAwaitingJobs)
+    ? summary.fieldLookupAwaitingJobs
+    : []
+  const hasFieldLookups = fieldLookups.length > 0
+  const fileOcrReady = Array.isArray(summary.fileOcrReady) ? summary.fileOcrReady : []
+  const hasFileOcr = fileOcrReady.length > 0
+  const hasAnything = hasImport || hasMedia || hasFieldLookups || hasFileOcr
+
+  // Open import review whenever a session is (or becomes) active on this page.
+  // Do not hide the UI while field lookups are still awaiting promotion after reload.
+  useEffect(function() {
+    if (hasImport) {
+      openImportReviewFromToast()
+      return
+    }
+    if (!hasAnything) {
+      hideImportReviewUi()
+    }
+  }, [hasImport, hasAnything])
 
   return (
     <div className="app-surface-panel review-page">
@@ -92,6 +133,53 @@ export default function ReviewPage(props) {
             {summary.importReady} of {summary.importTotal} item{summary.importTotal === 1 ? '' : 's'} ready to merge.
             Use the form below to review each tune, including search suggestions.
           </p>
+        </section>
+      ) : null}
+
+      {hasFieldLookups && !hasImport ? (
+        <section className="review-page-section">
+          <h2>Search results</h2>
+          <p className="app-text-muted">
+            Waiting for your tune collection to finish loading so these can open in import review.
+            You can dismiss any that are no longer needed.
+          </p>
+          <ListGroup className="review-page-media-list">
+            {fieldLookups.map(function(job) {
+              return (
+                <ListGroup.Item key={job.id} className="review-page-media-item">
+                  <div className="review-page-media-item-main">
+                    <strong>{resolveTuneName(props.tunes, job.tuneId, job.tuneName || job.title)}</strong>
+                    <span className="app-text-muted">
+                      {' — '}
+                      {job.label || job.kind}
+                      {job.candidateCount ? (' (' + job.candidateCount + ')') : ''}
+                    </span>
+                  </div>
+                  <div className="review-page-media-item-actions">
+                    {job.tuneId ? (
+                      <Button
+                        as={Link}
+                        to={'/editor/' + encodeURIComponent(job.tuneId)}
+                        variant="primary"
+                        size="sm"
+                      >
+                        Open tune
+                      </Button>
+                    ) : null}
+                    <Button
+                      variant="outline-secondary"
+                      size="sm"
+                      onClick={function() {
+                        dismissFieldLookup(job.id)
+                      }}
+                    >
+                      Dismiss
+                    </Button>
+                  </div>
+                </ListGroup.Item>
+              )
+            })}
+          </ListGroup>
         </section>
       ) : null}
 
@@ -135,14 +223,70 @@ export default function ReviewPage(props) {
         </section>
       ) : null}
 
+      {hasFileOcr ? (
+        <section className="review-page-section">
+          <h2>File OCR</h2>
+          <ListGroup className="review-page-media-list">
+            {fileOcrReady.map(function(jobId) {
+              const job = getFileOcrJob(jobId)
+              if (!job) return null
+              return (
+                <ListGroup.Item key={jobId} className="review-page-media-item">
+                  <div className="review-page-media-item-main">
+                    <strong>{resolveTuneName(props.tunes, job.tuneId, job.tuneName)}</strong>
+                    <span className="app-text-muted"> — {job.fileName || 'file'} OCR ready</span>
+                  </div>
+                  <div className="review-page-media-item-actions">
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      onClick={function() {
+                        setFocusFileOcrId(jobId)
+                        setShowFileOcr(true)
+                      }}
+                    >
+                      Review changes
+                    </Button>
+                    <Button
+                      variant="outline-secondary"
+                      size="sm"
+                      onClick={function() {
+                        dismissFileOcrJob(jobId)
+                      }}
+                    >
+                      Dismiss
+                    </Button>
+                  </div>
+                </ListGroup.Item>
+              )
+            })}
+          </ListGroup>
+        </section>
+      ) : null}
+
+      <FileOcrReviewModal
+        show={showFileOcr}
+        onHide={function() {
+          setShowFileOcr(false)
+          setFocusFileOcrId(null)
+        }}
+        tunes={props.tunes}
+        tunebook={props.tunebook}
+        focusJobId={focusFileOcrId}
+      />
+
       <div className="review-page-footer d-flex gap-2 flex-wrap">
         <Button variant="outline-secondary" onClick={function() { navigate(-1) }}>
           Back
         </Button>
-        {hasImport || hasMedia ? (
+        {hasAnything ? (
           <Button
             variant="outline-primary"
             onClick={function() {
+              const nextSummary = getBackgroundReviewSummary()
+              if (nextSummary && nextSummary.processing > 0) {
+                showBackgroundJobsContinuingNotice({ summary: nextSummary })
+              }
               snoozeBackgroundReviewToast()
               hideImportReviewUi()
               navigate('/tunes')

@@ -1,3 +1,8 @@
+import {
+  normalizeVocalNoteName,
+  resolveVocalRange,
+} from './practiceInstrumentProfiles'
+
 export const PRACTICE_SETTINGS_STORAGE_KEY = 'bookstorage_practice_settings'
 
 export const PRACTICE_INSTRUMENTS = [
@@ -8,6 +13,7 @@ export const PRACTICE_INSTRUMENTS = [
   { id: 'flute', label: 'Flute' },
   { id: 'piano', label: 'Piano' },
   { id: 'guitar', label: 'Guitar' },
+  { id: 'banjo', label: 'Banjo - 5 string open G' },
   { id: 'voice', label: 'Voice' },
 ]
 
@@ -17,12 +23,19 @@ export const DEFAULT_PRACTICE_SETTINGS = {
   includeWarmups: true,
   skillLevel: 5,
   accuracyCheckingEnabled: false,
-  headphoneMode: false,
-  practiceReferenceGain: 0.08,
+  // Mid quiet-reference: room to turn down; slider max is PRACTICE_REFERENCE_GAIN_MAX.
+  practiceReferenceGain: 0.12,
+  recentInstruments: [],
+  vocalRangeLow: '',
+  vocalRangeHigh: '',
 }
+
+/** Cap for accuracy-mode reference notes (slider full = this, not unity). */
+export const PRACTICE_REFERENCE_GAIN_MAX = 0.35
 
 const DURATION_OPTIONS = [5, 10, 20]
 const PRACTICE_INSTRUMENT_IDS = PRACTICE_INSTRUMENTS.map(function(item) { return item.id })
+const MAX_RECENT_INSTRUMENTS = 3
 
 function clampSkillLevel(value) {
   const n = Math.round(Number(value))
@@ -75,25 +88,82 @@ export function getPracticeInstrumentLabel(instrumentId) {
   return match ? match.label : id
 }
 
-function clampReferenceGain(value) {
+/**
+ * Keep up to 3 unique recent instrument ids (most-recent first), excluding current.
+ */
+export function normalizeRecentInstruments(values, currentInstrument) {
+  const current = normalizePracticeInstrument(currentInstrument)
+  const seen = {}
+  const out = []
+  const list = Array.isArray(values) ? values : []
+  list.forEach(function(value) {
+    if (out.length >= MAX_RECENT_INSTRUMENTS) return
+    const id = String(value || '').trim().toLowerCase()
+    const mapped = LEGACY_PRACTICE_INSTRUMENTS[id] || id
+    if (PRACTICE_INSTRUMENT_IDS.indexOf(mapped) === -1) return
+    if (mapped === current) return
+    if (seen[mapped]) return
+    seen[mapped] = true
+    out.push(mapped)
+  })
+  return out
+}
+
+/**
+ * When switching from previousInstrument to next, push previous onto recent list.
+ */
+export function pushRecentInstrument(recentList, previousInstrument, nextInstrument) {
+  const next = normalizePracticeInstrument(nextInstrument)
+  const prev = previousInstrument != null
+    ? String(previousInstrument).trim().toLowerCase()
+    : ''
+  const mappedPrev = LEGACY_PRACTICE_INSTRUMENTS[prev] || prev
+  let nextRecent = Array.isArray(recentList) ? recentList.slice() : []
+  if (mappedPrev && PRACTICE_INSTRUMENT_IDS.indexOf(mappedPrev) !== -1 && mappedPrev !== next) {
+    nextRecent = [mappedPrev].concat(nextRecent)
+  }
+  return normalizeRecentInstruments(nextRecent, next)
+}
+
+export function clampReferenceGain(value) {
   const n = parseFloat(value)
   if (!Number.isFinite(n)) return DEFAULT_PRACTICE_SETTINGS.practiceReferenceGain
-  return Math.max(0.05, Math.min(1, n))
+  return Math.max(0, Math.min(PRACTICE_REFERENCE_GAIN_MAX, n))
 }
+
+/**
+ * Squared slider mapping: finer control at quiet end, softer top.
+ * gain = max * (percent/100)^2
+ */
+export function referenceGainToSliderPercent(gain) {
+  const capped = clampReferenceGain(gain)
+  const ratio = PRACTICE_REFERENCE_GAIN_MAX > 0 ? capped / PRACTICE_REFERENCE_GAIN_MAX : 0
+  return Math.round(Math.sqrt(Math.max(0, Math.min(1, ratio))) * 100)
+}
+
+export function sliderPercentToReferenceGain(percent) {
+  const t = Math.max(0, Math.min(100, parseFloat(percent) || 0)) / 100
+  return clampReferenceGain(PRACTICE_REFERENCE_GAIN_MAX * t * t)
+}
+
+export { resolveVocalRange, normalizeVocalNoteName }
 
 export function loadPracticeSettings() {
   try {
     const raw = localStorage.getItem(PRACTICE_SETTINGS_STORAGE_KEY)
     if (!raw) return Object.assign({}, DEFAULT_PRACTICE_SETTINGS)
     const parsed = JSON.parse(raw)
+    const instrument = normalizePracticeInstrument(parsed.instrument)
     return {
-      instrument: normalizePracticeInstrument(parsed.instrument),
+      instrument: instrument,
       totalMinutes: normalizeDuration(parsed.totalMinutes),
       includeWarmups: parsed.includeWarmups !== false,
       skillLevel: clampSkillLevel(parsed.skillLevel),
       accuracyCheckingEnabled: parsed.accuracyCheckingEnabled === true,
-      headphoneMode: parsed.headphoneMode === true,
       practiceReferenceGain: clampReferenceGain(parsed.practiceReferenceGain),
+      recentInstruments: normalizeRecentInstruments(parsed.recentInstruments, instrument),
+      vocalRangeLow: normalizeVocalNoteName(parsed.vocalRangeLow),
+      vocalRangeHigh: normalizeVocalNoteName(parsed.vocalRangeHigh),
     }
   } catch (e) {
     return Object.assign({}, DEFAULT_PRACTICE_SETTINGS)
@@ -101,16 +171,22 @@ export function loadPracticeSettings() {
 }
 
 export function savePracticeSettings(settings) {
+  const instrument = normalizePracticeInstrument(settings && settings.instrument)
   const next = {
-    instrument: normalizePracticeInstrument(settings && settings.instrument),
+    instrument: instrument,
     totalMinutes: normalizeDuration(settings && settings.totalMinutes),
     includeWarmups: settings && settings.includeWarmups !== false,
     skillLevel: clampSkillLevel(settings && settings.skillLevel),
     accuracyCheckingEnabled: settings && settings.accuracyCheckingEnabled === true,
-    headphoneMode: settings && settings.headphoneMode === true,
     practiceReferenceGain: clampReferenceGain(
       settings && settings.practiceReferenceGain
     ),
+    recentInstruments: normalizeRecentInstruments(
+      settings && settings.recentInstruments,
+      instrument
+    ),
+    vocalRangeLow: normalizeVocalNoteName(settings && settings.vocalRangeLow),
+    vocalRangeHigh: normalizeVocalNoteName(settings && settings.vocalRangeHigh),
   }
   try {
     localStorage.setItem(PRACTICE_SETTINGS_STORAGE_KEY, JSON.stringify(next))
@@ -161,10 +237,19 @@ export function getSkillTempoRange(skillLevel) {
 export function getWarmupOptionsForSkill(skillLevel, baseOptions) {
   const skill = clampSkillLevel(skillLevel)
   const opts = baseOptions || {}
+  const instrument = normalizePracticeInstrument(opts.instrument)
+  const isVoice = instrument === 'voice'
+  const tempo = isVoice
+    ? 52 + skill * 3
+    : 70 + skill * 4
+  const noteLength = isVoice
+    ? '1/4'
+    : (skill <= 4 ? '1/4' : '1/8')
   return Object.assign({}, opts, {
     skillLevel: skill,
-    tempo: 70 + skill * 4,
-    noteLength: skill <= 4 ? '1/4' : '1/8',
+    instrument: instrument,
+    tempo: tempo,
+    noteLength: noteLength,
   })
 }
 

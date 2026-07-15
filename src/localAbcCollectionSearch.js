@@ -81,7 +81,12 @@ export function searchLocalCollection(text, textSearchIndex) {
   const andMatchIds = allMatchIds.filter(function(matchId) {
     return matches[matchId] >= parts.length
   })
-  const candidateIds = andMatchIds.length > 0 ? andMatchIds : allMatchIds
+  // Multi-word queries must match every significant token (AND). Falling back to
+  // OR floods FolkTuneFinder with partial titles (e.g. every "Clare" for
+  // "Clare de Lune").
+  const candidateIds = parts.length > 1
+    ? andMatchIds
+    : (andMatchIds.length > 0 ? andMatchIds : allMatchIds)
 
   const seen = {}
   candidateIds.forEach(function(matchId) {
@@ -115,8 +120,7 @@ export function searchLocalCollection(text, textSearchIndex) {
 
   if (parts.length > 1) {
     final = final.filter(function(result) {
-      return result.matchedTokenCount > 0
-        && (result.matchedTokenCount === parts.length || result.tokenCoverage >= 0.5)
+      return result.matchedTokenCount === parts.length
     })
   }
 

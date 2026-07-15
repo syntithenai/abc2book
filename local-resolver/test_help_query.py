@@ -11,7 +11,9 @@ class HelpQueryEndpointTests(unittest.TestCase):
         self.client = TestClient(server.app)
 
     def test_help_query_returns_help_answer_payload(self):
-        with patch.object(server, "require_resolver_feature", return_value=None), patch.object(
+        with patch.object(
+            server, "require_resolver_feature", new_callable=AsyncMock, return_value=None
+        ), patch.object(
             server, "track_resolver_usage"
         ), patch.object(
             server, "maybe_require_auth", new_callable=AsyncMock, return_value=None
@@ -38,7 +40,9 @@ class HelpQueryEndpointTests(unittest.TestCase):
         self.assertEqual(body["parseMethod"], "llm")
 
     def test_help_query_requires_question(self):
-        with patch.object(server, "require_resolver_feature", return_value=None), patch.object(
+        with patch.object(
+            server, "require_resolver_feature", new_callable=AsyncMock, return_value=None
+        ), patch.object(
             server, "track_resolver_usage"
         ), patch.object(
             server, "maybe_require_auth", new_callable=AsyncMock, return_value=None

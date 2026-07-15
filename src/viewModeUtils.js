@@ -498,6 +498,18 @@ export function isNotationEditorView(mode) {
   return normalized === 'music' || normalized === 'pianoRoll' || normalized === 'notationAbc';
 }
 
+/**
+ * True when pathname is an editor tab that owns MuseScore-style arrow keys
+ * (music / piano roll / ABC notation) — e.g. `/editor/:tuneId/music`.
+ * Default `/editor/:tuneId` (info) is false so tune-skip arrows still work there.
+ */
+export function isEditorNotationPath(pathname) {
+  const parts = String(pathname || '').replace(/\/+$/, '').split('/').filter(Boolean);
+  if (parts[0] !== 'editor' || !parts[1]) return false;
+  const view = parts[2] || 'info';
+  return isNotationEditorView(view);
+}
+
 /** Music uses staff notation; ABC Notes is voice ABC text with notation preview. */
 export function editorViewModeToNotationView(mode) {
   const normalized = normalizeEditorViewMode(mode);

@@ -1,15 +1,21 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Alert, Button, Form } from 'react-bootstrap';
+import { Alert, Button, Form, Modal } from 'react-bootstrap';
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import { createChordRecordSession, CHORD_RECORD_STATES } from '../chordRecordSession';
 import { chordsForKeyPalette, listChordPaletteKeyOptions } from '../chordPaletteFromKey';
 import { filterKeySignatureOption } from '../keySignatureNormalize';
-import { rhythmFromTimeSignature } from '../metronomeRhythmPresets';
+import { normalizeMeter } from '../barModel';
+import { normalizeTempo } from '../chordsEditorSections';
+import { formatRhythmText, rhythmFromTimeSignature } from '../metronomeRhythmPresets';
+import { icons } from '../Icons';
 import MetronomePanel from './MetronomePanel';
 import './ChordRecordControls.css';
 
 const PALETTE_KEY_OPTIONS = listChordPaletteKeyOptions();
+const DEFAULT_METER_OPTIONS = ['4/4', '3/4', '6/8', '2/4', '2/2', '5/4', '9/8', '12/8'].map(function(type) {
+  return { value: type, label: type };
+});
 
 function uniqueChordTokens(chordText) {
   const tokens = new Set();
@@ -28,15 +34,21 @@ function paletteToOptions(palette) {
 
 export default function ChordRecordControls(props) {
   const tune = props.tune || {};
-  const meter = props.meter || tune.meter || '4/4';
   const key = tune.key || 'C';
-  const defaultTempo = tune.tempo > 0 ? tune.tempo : 120;
-  const initialRhythm = rhythmFromTimeSignature(meter);
+  const propMeter = normalizeMeter(props.meter || tune.meter || '4/4');
+  const propTempo = normalizeTempo(props.tempo != null ? props.tempo : tune.tempo) || 120;
+  const meterOptions = Array.isArray(props.meterOptions) && props.meterOptions.length
+    ? props.meterOptions
+    : DEFAULT_METER_OPTIONS;
 
   const [palette, setPalette] = useState([]);
   const [paletteKey, setPaletteKey] = useState('');
-  const [tempo, setTempo] = useState(defaultTempo);
-  const [rhythm, setRhythm] = useState(initialRhythm);
+  const [meter, setMeter] = useState(propMeter);
+  const [tempo, setTempo] = useState(propTempo);
+  const [rhythm, setRhythm] = useState(function() {
+    return rhythmFromTimeSignature(propMeter);
+  });
+  const [showMetronomeSettings, setShowMetronomeSettings] = useState(false);
   const [snapshot, setSnapshot] = useState(null);
   const [error, setError] = useState('');
   const [preparing, setPreparing] = useState(false);
@@ -44,11 +56,20 @@ export default function ChordRecordControls(props) {
   const seededRef = useRef(false);
 
   useEffect(function() {
+    setMeter(propMeter);
+    setRhythm(rhythmFromTimeSignature(propMeter));
+  }, [propMeter]);
+
+  useEffect(function() {
+    setTempo(propTempo);
+  }, [propTempo]);
+
+  useEffect(function() {
     sessionRef.current = createChordRecordSession({
-      meter: meter,
-      tempo: tempo,
+      meter: propMeter,
+      tempo: propTempo,
       key: key,
-      rhythm: initialRhythm,
+      rhythm: rhythmFromTimeSignature(propMeter),
       onStateChange: function(nextState, snap) {
         setSnapshot(snap);
       },
@@ -61,11 +82,6 @@ export default function ChordRecordControls(props) {
       sessionRef.current = null;
     };
   }, []);
-
-  useEffect(function() {
-    const nextRhythm = rhythmFromTimeSignature(meter);
-    setRhythm(nextRhythm);
-  }, [meter]);
 
   useEffect(function() {
     if (sessionRef.current) {
@@ -89,6 +105,30 @@ export default function ChordRecordControls(props) {
     }
   }, [props.initialChords]);
 
+  function notifyMeterTempo(nextMeter, nextTempo) {
+    if (typeof props.onMeterTempoChange === 'function') {
+      props.onMeterTempoChange({
+        meter: nextMeter,
+        tempo: nextTempo,
+      });
+    }
+  }
+
+  function handleMeterChange(nextMeterRaw, options) {
+    const nextMeter = normalizeMeter(nextMeterRaw || meter);
+    setMeter(nextMeter);
+    if (!options || options.keepRhythm !== true) {
+      setRhythm(rhythmFromTimeSignature(nextMeter));
+    }
+    notifyMeterTempo(nextMeter, tempo);
+  }
+
+  function handleTempoChange(nextTempoRaw) {
+    const nextTempo = normalizeTempo(nextTempoRaw) || tempo;
+    setTempo(nextTempo);
+    notifyMeterTempo(meter, nextTempo);
+  }
+
   const state = snapshot ? snapshot.state : CHORD_RECORD_STATES.IDLE;
   const sessionBusy = state === CHORD_RECORD_STATES.COUNT_IN
     || state === CHORD_RECORD_STATES.RECORDING;
@@ -109,10 +149,10 @@ export default function ChordRecordControls(props) {
   const showSession = sessionActive || state === CHORD_RECORD_STATES.PREPARING;
 
   useEffect(function() {
-    if (!props.autoActivate) return
-    const node = document.querySelector('.chord-record-controls')
-    if (node && node.scrollIntoView) node.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-  }, [props.autoActivate])
+    if (!props.autoActivate) return;
+    const node = document.querySelector('.chord-record-controls');
+    if (node && node.scrollIntoView) node.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }, [props.autoActivate]);
 
   async function handlePrepare() {
     if (!sessionRef.current) return;
@@ -187,8 +227,7 @@ export default function ChordRecordControls(props) {
   function handlePaletteKeyChange(nextKey) {
     setPaletteKey(nextKey);
     if (!nextKey) return;
-    const generated = chordsForKeyPalette(nextKey);
-    setPalette(generated);
+    setPalette(chordsForKeyPalette(nextKey));
   }
 
   function statusMessage() {
@@ -210,49 +249,101 @@ export default function ChordRecordControls(props) {
 
   return (
     <div className="chord-record-controls">
+      <div className="chord-record-toolbar">
+        <Form.Group className="chord-record-palette-key mb-0">
+          <Form.Label className="small mb-1">Key</Form.Label>
+          <Select
+            aria-label="Key for chord palette"
+            options={PALETTE_KEY_OPTIONS}
+            value={paletteKey ? { value: paletteKey, label: paletteKey } : null}
+            onChange={function(val) {
+              handlePaletteKeyChange(val ? val.value : '');
+            }}
+            isClearable={true}
+            isDisabled={sessionBusy}
+            filterOption={filterKeySignatureOption}
+            placeholder="Key…"
+            blurInputOnSelect={true}
+            menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+            styles={{
+              menuPortal: function(base) { return Object.assign({}, base, { zIndex: 9999 }); },
+            }}
+          />
+        </Form.Group>
+
+        <div className="chord-record-toolbar-right">
+          <Form.Group className="chord-record-tempo mb-0">
+            <Form.Label className="small mb-1">Tempo</Form.Label>
+            <Form.Control
+              type="number"
+              min="20"
+              max="300"
+              value={tempo}
+              disabled={sessionBusy}
+              aria-label="Tempo in beats per minute"
+              onChange={function(e) {
+                const next = parseInt(e.target.value, 10);
+                if (!isNaN(next) && next > 0) handleTempoChange(next);
+              }}
+            />
+          </Form.Group>
+
+          <Form.Group className="chord-record-meter mb-0">
+            <Form.Label className="small mb-1">Time signature</Form.Label>
+            <CreatableSelect
+              aria-label="Time signature"
+              value={meter ? { value: meter, label: meter } : null}
+              onChange={function(val) {
+                if (val && val.label) handleMeterChange(val.label);
+              }}
+              options={meterOptions}
+              isDisabled={sessionBusy}
+              isClearable={false}
+              blurInputOnSelect={true}
+              createOptionPosition="first"
+              allowCreateWhileLoading={true}
+              allowCreate={true}
+              menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+              styles={{
+                container: function(base) { return Object.assign({}, base, { minWidth: '6rem' }); },
+                menuPortal: function(base) { return Object.assign({}, base, { zIndex: 10050 }); },
+              }}
+            />
+          </Form.Group>
+
+          <Button
+            variant="outline-secondary"
+            className="chord-record-metronome-btn"
+            title="Metronome settings"
+            aria-label="Metronome settings"
+            disabled={sessionBusy}
+            onClick={function() { setShowMetronomeSettings(true); }}
+          >
+            <span className="chord-record-metronome-icon">{icons.metronome}</span>
+          </Button>
+        </div>
+      </div>
+
       <div className="chord-record-setup">
         <Form.Group className="chord-record-palette mb-0">
           <Form.Label className="small mb-1">Chord palette</Form.Label>
-          <div className="chord-record-palette-row">
-            <div className="chord-record-palette-key">
-              <Select
-                aria-label="Key for chord palette"
-                options={PALETTE_KEY_OPTIONS}
-                value={paletteKey ? { value: paletteKey, label: paletteKey } : null}
-                onChange={function(val) {
-                  handlePaletteKeyChange(val ? val.value : '');
-                }}
-                isClearable={true}
-                isDisabled={sessionBusy}
-                filterOption={filterKeySignatureOption}
-                placeholder="Key…"
-                blurInputOnSelect={true}
-                menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
-                styles={{
-                  menuPortal: function(base) { return Object.assign({}, base, { zIndex: 9999 }); },
-                }}
-              />
-            </div>
-            <div className="chord-record-palette-select">
-              <CreatableSelect
-                isMulti
-                isDisabled={sessionBusy}
-                value={paletteToOptions(palette)}
-                onChange={function(vals, actionMeta) {
-                  if (actionMeta && actionMeta.action === 'create-option') {
-                    addPaletteTokens(actionMeta.option && actionMeta.option.value);
-                    return;
-                  }
-                  setPalette((vals || []).map(function(item) { return item.value; }));
-                }}
-                placeholder="Add chords (C, Am, G7…)"
-                blurInputOnSelect={true}
-                createOptionPosition="first"
-                allowCreateWhileLoading={true}
-                allowCreate={true}
-              />
-            </div>
-          </div>
+          <CreatableSelect
+            isMulti
+            isDisabled={sessionBusy}
+            value={paletteToOptions(palette)}
+            onChange={function(vals, actionMeta) {
+              if (actionMeta && actionMeta.action === 'create-option') {
+                addPaletteTokens(actionMeta.option && actionMeta.option.value);
+                return;
+              }
+              setPalette((vals || []).map(function(item) { return item.value; }));
+            }}
+            placeholder="Add chords (C, Am, G7…)"
+            blurInputOnSelect={true}
+            createOptionPosition="first"
+            allowCreateWhileLoading={true}
+            allowCreate={true}
+          />
         </Form.Group>
 
         <div className="chord-record-actions">
@@ -282,23 +373,6 @@ export default function ChordRecordControls(props) {
             </>
           ) : null}
         </div>
-      </div>
-
-      <div className="chord-record-metronome">
-        <MetronomePanel
-          settingsOnly={true}
-          showPreview={true}
-          hideTempo={false}
-          hideTransport={true}
-          disabled={sessionBusy}
-          tune={metroTune}
-          rhythm={rhythm}
-          previewTempo={tempo}
-          onTempoChange={setTempo}
-          onRhythmChange={function(next) {
-            if (next && next.rhythm) setRhythm(next.rhythm);
-          }}
-        />
       </div>
 
       {error ? <Alert variant="danger" className="py-2 px-3 mt-2 mb-0">{error}</Alert> : null}
@@ -339,6 +413,42 @@ export default function ChordRecordControls(props) {
           </div>
         </div>
       ) : null}
+
+      <Modal
+        show={showMetronomeSettings}
+        onHide={function() { setShowMetronomeSettings(false); }}
+        centered
+        size="lg"
+        className="chord-record-metronome-modal"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Metronome settings</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <MetronomePanel
+            settingsOnly={true}
+            showPreview={true}
+            hideTempo={false}
+            hideTransport={false}
+            disabled={sessionBusy}
+            tune={metroTune}
+            rhythm={rhythm}
+            previewTempo={tempo}
+            onTempoChange={handleTempoChange}
+            onRhythmChange={function(next) {
+              if (!next || !next.rhythm) return;
+              setRhythm(next.rhythm);
+              const nextMeter = normalizeMeter(formatRhythmText(next.rhythm) || meter);
+              handleMeterChange(nextMeter, { keepRhythm: true });
+            }}
+          />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={function() { setShowMetronomeSettings(false); }}>
+            Done
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

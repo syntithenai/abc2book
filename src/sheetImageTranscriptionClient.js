@@ -2,7 +2,20 @@ import { fetchViaMediaProxy } from './mediaProxyClient';
 
 const SHEET_IMAGE_ACCEPT_HEADER = 'application/x-ndjson, application/json';
 
-function normalizeSheetImageTranscription(body) {
+function emptySheetImageDetectionMessage(body) {
+  const warnings = Array.isArray(body && body.warnings) ? body.warnings : [];
+  const hasOmrFailed = warnings.indexOf('omr_failed') >= 0;
+  const hasStaff = !!(body && body.staffDetection && body.staffDetection.hasStaff);
+  if (hasOmrFailed || hasStaff) {
+    return 'No chords, lyrics, or melody were detected. Staff notation was found but melody recognition failed. Try a clearer photo, or import MusicXML/ABC for notation scores.';
+  }
+  if (warnings.indexOf('paddleocr_unavailable') >= 0) {
+    return 'No chords, lyrics, or melody were detected. OCR is not available on this resolver.';
+  }
+  return 'No chords, lyrics, or melody were detected in the image. Try a clearer photo of a chord chart or lead sheet.';
+}
+
+export function normalizeSheetImageTranscription(body) {
   if (!body || typeof body !== 'object') {
     throw new Error('Resolver returned an invalid sheet image response');
   }
@@ -14,7 +27,7 @@ function normalizeSheetImageTranscription(body) {
   const chordText = typeof chordSheet.text === 'string' ? chordSheet.text.trim() : '';
   const melodyAbc = melody && typeof melody.abc === 'string' ? melody.abc.trim() : '';
   if (!chordText && !melodyAbc) {
-    throw new Error('No chords, lyrics, or melody were detected in the image');
+    throw new Error(emptySheetImageDetectionMessage(body));
   }
   return {
     title: typeof body.title === 'string' ? body.title.trim() : '',

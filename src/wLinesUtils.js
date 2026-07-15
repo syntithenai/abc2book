@@ -69,10 +69,13 @@ export function getNoteAlignedLyricLines(tune) {
   if (tune.timingScaffold) return wLines.slice();
   if (linesHaveNoteSpacing(wLines)) return wLines.slice();
   const words = Array.isArray(tune.words) ? tune.words : [];
-  // Saved from the note-aligned editor: plain words kept separately, one w: per note line.
-  if (words.length > 0
-      && wLines.length === countVoiceNoteLines(tune)
-      && !wordsMatchWLines(tune)) {
+  // Identical words + wLines means block lyrics stored in both places — not under-staff.
+  if (words.length > 0 && wordsMatchWLines(tune)) {
+    return [];
+  }
+  // One w: line per music line: classic under-staff lyrics (space-separated tokens → notes).
+  // Covers voice practice warmups (ooh ahh lah…) and songs with plain per-note words.
+  if (wLines.length === countVoiceNoteLines(tune)) {
     return wLines.slice();
   }
   return [];

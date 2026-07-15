@@ -12,13 +12,17 @@ const {
   staffNoteCenters,
   staffNoteOnSystemLine,
   clickStaffForNoteInput,
+  clickAfterLastNoteHuman,
+  dragStaffNoteByIndex,
   sleep,
   resetNotationFixture,
 } = require('./helpers')
 const { assertEvents, assertVoiceAbc, assertNoteSteps, getCaretIndex, assertSelectionMatchesClick } = require('./notation-assertions')
+const { NOTATION_E2E_COPPER_ID } = require('./notation-fixtures')
 
 const BASIC_TUNE_ID = 'e2e00000000000000000001'
 const MULTILINE_TUNE_ID = 'e2e00000000000000000003'
+const COPPER_TUNE_ID = NOTATION_E2E_COPPER_ID
 
 async function runClickRegressionTests(page, ctx) {
   const results = ctx.results
@@ -38,7 +42,7 @@ async function runClickRegressionTests(page, ctx) {
     if (centers.length < 2) throw new Error('need at least 2 notes')
     await page.mouse.click(centers[1].x, centers[1].y)
     await sleep(200)
-    await assertSelectionMatchesClick(page, 'note:D5', 'click D selects D with caret sync')
+    await assertSelectionMatchesClick(page, 'note:D4', 'click D selects D with caret sync')
   })
 
   await runScenario(results, 'Click: note input between notes inserts at caret', async function() {
@@ -51,7 +55,44 @@ async function runClickRegressionTests(page, ctx) {
     await pressKey(page, 'a')
     await sleep(300)
     await assertNoteSteps(page, ['C', 'D', 'A', 'E', 'F'], 'A inserted between D and E')
-    await assertEvents(page, ['note:C5', 'note:D5', 'note:A5:2', 'note:E5', 'note:F5', 'bar:|'], 'A event between D and E')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:A4:2', 'note:E4', 'note:F4', 'bar:|'], 'A event between D and E')
+  })
+
+  await runScenario(results, 'Click: human gap before final bar appends at end', async function() {
+    await resetNotationFixture(page, BASIC_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNoteInputMode(page)
+    await clickAfterLastNoteHuman(page)
+    const caret = await getCaretIndex(page)
+    const eventCount = await page.evaluate(function() {
+      return window.__abc2bookNotationTest.getSessionEvents().length
+    })
+    if (caret !== eventCount) {
+      throw new Error('human end-gap caret should be ' + eventCount + ' (append), got ' + caret)
+    }
+    await pressKey(page, 'a')
+    await sleep(300)
+    await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'A'], 'A appended after human end-gap')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'bar:|', 'note:A4:2'], 'A event after bar')
+    await assertVoiceAbc(page, 'C D E F | A2', 'ABC append after terminal gap')
+  })
+
+  await runScenario(results, 'Click: note input after last note appends at end', async function() {
+    await resetNotationFixture(page, BASIC_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNoteInputMode(page)
+    await clickStaffForNoteInput(page, { atEnd: true })
+    const caret = await getCaretIndex(page)
+    const eventCount = await page.evaluate(function() {
+      return window.__abc2bookNotationTest.getSessionEvents().length
+    })
+    if (caret !== eventCount) {
+      throw new Error('caret after last note should be ' + eventCount + ', got ' + caret)
+    }
+    await pressKey(page, 'a')
+    await sleep(300)
+    await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'A'], 'A appended after trailing bar')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'bar:|', 'note:A4:2'], 'A event after bar')
   })
 
   await runScenario(results, 'Click: multiline second system DOM click selects line-2 note', async function() {
@@ -114,6 +155,89 @@ async function runClickRegressionTests(page, ctx) {
       return { ok: true }
     })
     if (!inserted.ok) throw new Error(inserted.reason)
+  })
+
+  // Copper Kettle: mid-bar abcjs-n reset + no trailing | (A2A2^F2BE| GGFE)
+  await runScenario(results, 'Click: Copper mid-bar — human end-gap appends (no trailing |)', async function() {
+    await resetNotationFixture(page, COPPER_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNoteInputMode(page)
+    await clickAfterLastNoteHuman(page)
+    const caret = await getCaretIndex(page)
+    const eventCount = await page.evaluate(function() {
+      return window.__abc2bookNotationTest.getSessionEvents().length
+    })
+    if (caret !== eventCount) {
+      throw new Error('Copper end-gap caret should be ' + eventCount + ' (append), got ' + caret)
+    }
+    await pressKey(page, 'c')
+    await sleep(300)
+    await assertVoiceAbc(page, 'A2 A2 ^F2 B E | G G F E C2', 'Copper append after last E (no trailing bar)')
+  })
+
+  await runScenario(results, 'Click: Copper mid-bar — drag ^F (index 2) does not rematch as measure-2 F', async function() {
+    await resetNotationFixture(page, COPPER_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNormalMode(page)
+    await assertNoteSteps(page, ['A', 'A', 'F#1', 'B', 'E', 'G', 'G', 'F', 'E'], 'Copper fixture before drag')
+    await dragStaffNoteByIndex(page, 2, 1)
+    const after = await page.evaluate(function() {
+      const events = window.__abc2bookNotationTest.getSessionEvents()
+      const notes = events.filter(function(ev) { return ev.type === 'note' })
+      return {
+        steps: notes.map(function(n) {
+          const p = n.pitch || {}
+          return p.step + (p.accidental ? ('#' + p.accidental) : '')
+        }),
+        abc: (window.__abc2bookNotationTest.getCommittedVoiceAbc
+          && window.__abc2bookNotationTest.getCommittedVoiceAbc())
+          || window.__abc2bookNotationTest.getVoiceAbc(),
+      }
+    })
+    // ^F up one staff step → ^G (diatonic from F♯ in D)
+    if (after.steps[2] !== 'G#1' && after.steps[2] !== 'G') {
+      throw new Error('drag should move measure-1 ^F, got index2=' + after.steps[2] + ' all=' + after.steps.join(',') + ' abc=' + after.abc)
+    }
+    // Measure-2 F (index 7) and last E must stay put — rematch bug used to edit the wrong note.
+    if (after.steps[7] !== 'F') {
+      throw new Error('measure-2 F must stay F after dragging ^F, got ' + after.steps[7])
+    }
+    if (after.steps[8] !== 'E') {
+      throw new Error('last E must stay E after dragging ^F, got ' + after.steps[8])
+    }
+  })
+
+  await runScenario(results, 'Click: Copper mid-bar — select measure-2 F once then sharp sticks', async function() {
+    await resetNotationFixture(page, COPPER_TUNE_ID)
+    await focusNotationEditor(page)
+    await ensureNormalMode(page)
+    const centers = await staffNoteCenters(page, 0)
+    // Index 7 = measure-2 F (abcjs-n2 in m1 — the rematch collision case)
+    if (centers.length < 9) throw new Error('expected 9 Copper notes, got ' + centers.length)
+    await page.mouse.click(centers[7].x, centers[7].y)
+    await sleep(150)
+    await pressKey(page, '+')
+    await sleep(300)
+    const state = await page.evaluate(function() {
+      const h = window.__abc2bookNotationTest
+      const events = h.getSessionEvents()
+      const notes = events.filter(function(ev) { return ev.type === 'note' })
+      const m2F = notes[7]
+      const body = (h.getCommittedVoiceAbc && h.getCommittedVoiceAbc()) || h.getVoiceAbc()
+      const second = String(body).split('|')[1] || ''
+      return {
+        acc: m2F && m2F.pitch ? m2F.pitch.accidental : null,
+        step: m2F && m2F.pitch ? m2F.pitch.step : null,
+        secondMeasure: second.trim(),
+        carry: h.getAccidentalCarry(),
+      }
+    })
+    if (state.step !== 'F') throw new Error('selection target should be measure-2 F, got ' + state.step)
+    if (state.acc !== 1) throw new Error('measure-2 F should be sharp, accidental=' + state.acc)
+    if (state.secondMeasure.indexOf('^') < 0) {
+      throw new Error('second measure ABC should contain ^ for F, got: ' + state.secondMeasure)
+    }
+    if (state.carry === 1) throw new Error('sharp must apply to selection, not silently become carry')
   })
 }
 

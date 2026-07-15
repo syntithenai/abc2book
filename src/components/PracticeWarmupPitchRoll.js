@@ -6,34 +6,34 @@ import './PracticeWarmupPitchRoll.css'
 // First color matches TunerPitchGraph live stroke.
 const REP_COLORS = ['#5dade2', '#e67e22', '#1abc9c', '#9b59b6', '#e74c3c', '#f1c40f']
 const TRACE_GAP_MS = 200
-const PAD_MIDI = 1.5
 const ROW_HEIGHT = 18
-const MIN_HEIGHT = 220
+const MIN_HEIGHT = 160
 const PADDING_LEFT = 36
 const PADDING_RIGHT = 12
 const PADDING_Y = 16
+/** Floor so a single pitch still has usable room for ±cents. */
+const MIN_NOTE_SPAN = 4
 
-function pitchRangeFromNotes(notes, traces) {
+/**
+ * Canvas pitch window: expected note range, plus half that span above and below.
+ * Live traces do not expand the window (avoids a tall blank area above low notes).
+ */
+function pitchRangeFromNotes(notes) {
   let min = null
   let max = null
-  function consider(midi) {
-    if (midi == null || !Number.isFinite(midi)) return
-    if (min == null || midi < min) min = midi
-    if (max == null || midi > max) max = midi
-  }
-  ;(notes || []).forEach(function(n) { consider(n.midi) })
-  ;(traces || []).forEach(function(trace) {
-    ;(trace.points || []).forEach(function(pt) {
-      consider(displayMidi(pt))
-    })
+  ;(notes || []).forEach(function(n) {
+    if (n == null || n.midi == null || !Number.isFinite(n.midi)) return
+    if (min == null || n.midi < min) min = n.midi
+    if (max == null || n.midi > max) max = n.midi
   })
   if (min == null || max == null) {
     return { min: 55, max: 72 }
   }
-  // Extra pad so sharp/flat (±50¢) has room around note boxes.
+  const span = Math.max(MIN_NOTE_SPAN, max - min)
+  const pad = span / 2
   return {
-    min: Math.max(0, Math.floor(min) - PAD_MIDI - 0.5),
-    max: Math.min(127, Math.ceil(max) + PAD_MIDI + 0.5),
+    min: Math.max(0, min - pad),
+    max: Math.min(127, max + pad),
   }
 }
 
@@ -65,11 +65,12 @@ function pointXY(pt, beatWidth, range, rowHeight) {
 
 function isTraceGap(prev, next) {
   if (!prev) return true
+  // Rep restart / seek backwards
   if (next.beat < prev.beat - 0.05) return true
+  // Silence / dropout (same as TunerPitchGraph)
   if (next.timeMs != null && prev.timeMs != null && next.timeMs - prev.timeMs > TRACE_GAP_MS) {
     return true
   }
-  if (next.beat - prev.beat > 0.75) return true
   return false
 }
 
@@ -110,7 +111,7 @@ function drawRoll(ctx, width, height, props) {
   const traces = props.repTraces || []
   const patternBeats = Math.max(1, props.patternDurationBeats || 1)
   const playheadBeat = props.playheadBeat || 0
-  const range = pitchRangeFromNotes(notes, traces)
+  const range = pitchRangeFromNotes(notes)
   const innerW = Math.max(1, width - PADDING_LEFT - PADDING_RIGHT)
   const innerH = Math.max(1, height - PADDING_Y * 2)
   const beatWidth = innerW / patternBeats
@@ -227,10 +228,9 @@ export default function PracticeWarmupPitchRoll(props) {
       if (disposed) return
       const latest = propsRef.current || {}
       const dpr = window.devicePixelRatio || 1
-      const cssW = Math.max(280, wrap.clientWidth || 280)
-      const range = pitchRangeFromNotes(latest.expectedNotes, latest.repTraces)
-      const rows = Math.max(8, range.max - range.min)
-      const cssH = Math.max(MIN_HEIGHT, rows * ROW_HEIGHT + PADDING_Y * 2)
+      const host = wrap.parentElement || wrap
+      const cssW = Math.max(280, wrap.clientWidth || host.clientWidth || 280)
+      const cssH = Math.max(MIN_HEIGHT, wrap.clientHeight || 160)
       if (canvas.width !== Math.floor(cssW * dpr) || canvas.height !== Math.floor(cssH * dpr)) {
         canvas.width = Math.floor(cssW * dpr)
         canvas.height = Math.floor(cssH * dpr)
@@ -250,21 +250,29 @@ export default function PracticeWarmupPitchRoll(props) {
 
     const onResize = function() { paint() }
     window.addEventListener('resize', onResize)
+    let observer = null
+    if (typeof ResizeObserver !== 'undefined') {
+      observer = new ResizeObserver(onResize)
+      observer.observe(wrap)
+    }
     return function() {
       disposed = true
       if (raf != null) cancelAnimationFrame(raf)
       window.removeEventListener('resize', onResize)
+      if (observer) observer.disconnect()
     }
   }, [])
 
   return (
-    <div className="practice-warmup-pitch-roll" ref={wrapRef}>
+    <div className="practice-warmup-pitch-roll">
       <div className="practice-warmup-pitch-roll-title">Heard pitch on warmup notes</div>
-      <canvas
-        ref={canvasRef}
-        className="practice-warmup-pitch-roll-canvas"
-        aria-label="Warmup pitch piano roll with live pitch"
-      />
+      <div className="practice-warmup-pitch-roll-wrap" ref={wrapRef}>
+        <canvas
+          ref={canvasRef}
+          className="practice-warmup-pitch-roll-canvas"
+          aria-label="Warmup pitch piano roll with live pitch"
+        />
+      </div>
     </div>
   )
 }

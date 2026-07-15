@@ -40,6 +40,21 @@ export function eventMidiPitch(event, toneIndex) {
   return null;
 }
 
+/** Melody / cue pitch: highest tone of a chord, else primary pitch. */
+export function eventMelodicMidiPitch(event) {
+  if (!event) return null;
+  if (event.pitches && event.pitches.length > 1) {
+    let best = null;
+    event.pitches.forEach(function(pitch) {
+      const midi = pitchToMidi(pitch);
+      if (midi == null) return;
+      if (best == null || midi > best) best = midi;
+    });
+    return best;
+  }
+  return eventMidiPitch(event);
+}
+
 function rationalFromAbcjsDuration(duration, unitLengthDecimal) {
   const d = Number(duration) || 0;
   if (d <= 0) return { num: 1, den: 8, dotted: false };
@@ -57,13 +72,14 @@ function pitchFromAbcjsName(name) {
   else if (body.startsWith('^')) { accidental = 1; body = body.slice(1); }
   else if (body.startsWith('_')) { accidental = -1; body = body.slice(1); }
   else if (body.startsWith('=')) { accidental = 0; body = body.slice(1); }
-  let octave = 4;
+  // ABC: C = C4, c = C5, C, = C3, c' = C6
   const lower = body.toLowerCase();
   const step = lower.replace(/[,']/g, '').toUpperCase();
   const commas = (body.match(/,/g) || []).length;
   const apostrophes = (body.match(/'/g) || []).length;
-  if (body === lower) octave = 4 - commas;
-  else octave = 5 + apostrophes;
+  const octave = body === lower
+    ? 5 + apostrophes - commas
+    : 4 - commas + apostrophes;
   return { step: step.charAt(0), octave: octave, accidental: accidental, abcName: raw };
 }
 

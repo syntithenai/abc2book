@@ -3,7 +3,29 @@ import {useRef, useEffect} from 'react'
 import isOnline from 'is-online';
 import useUtils from './useUtils'
 import * as localForage from "localforage";
+import { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 //console.log(await isOnline());
+
+var unauthorizedRefreshInFlight = null
+
+function handleDriveUnauthorized(logout) {
+  if (!unauthorizedRefreshInFlight) {
+    unauthorizedRefreshInFlight = tryRefreshAccessToken().finally(function() {
+      unauthorizedRefreshInFlight = null
+    })
+  }
+  return unauthorizedRefreshInFlight.then(function(refreshed) {
+    if (refreshed && refreshed.access_token) {
+      return refreshed
+    }
+    if (typeof logout === 'function') logout()
+    return null
+  }).catch(function() {
+    if (typeof logout === 'function') logout()
+    return null
+  })
+}
+
 export default function useGoogleDocument(token, logout, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
@@ -264,6 +286,51 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 			xhr.send()
 		})
 	}
+
+    function findOrCreateFilesFolderInDrive(parentFolderId) {
+		return new Promise(function(resolve) {
+			if (!parentFolderId || !accessToken) {
+				resolve(null)
+				return
+			}
+			var filesFolderName = 'Files'
+			var xhr = new XMLHttpRequest()
+			xhr.onload = function(res) {
+				if (!res.target.responseText) {
+					resolve(null)
+					return
+				}
+				var response = JSON.parse(res.target.responseText)
+				var found = null
+				if (response && Array.isArray(response.files)) {
+					response.files.forEach(function(file) {
+						if (file && file.name === filesFolderName) {
+							found = file.id
+						}
+					})
+				}
+				if (found) {
+					resolve(found)
+				} else {
+					createDocument(
+						filesFolderName,
+						null,
+						'application/vnd.google-apps.folder',
+						'Files from TuneBook',
+						parentFolderId
+					).then(function(newId) {
+						resolve(newId && !newId.error ? newId : null)
+					})
+				}
+			}
+			var filter = '?q=' + encodeURIComponent(
+				"name='" + filesFolderName + "' and mimeType = 'application/vnd.google-apps.folder' and '" + parentFolderId + "' in parents and trashed = false"
+			)
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken)
+			xhr.send()
+		})
+	}
 	
   function _pollChanges(interval, onChanges, multiplier = 1) {
       //console.log('_DO POLL',multiplier, localStorage.getItem('google_last_page_token'))
@@ -323,8 +390,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  //console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve()
         })
@@ -364,8 +430,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 					}).catch(function(e) {
 						console.log('axios err', e)
 						if (e && e.response && e.response.status == '401') {
-							  console.log('LOGOUT ON AUTH TOKEN FAIL')
-							  logout()
+			  handleDriveUnauthorized(logout)
 						}
 						resolve()
 					})
@@ -396,8 +461,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           //getToken()
           //refresh()
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve()
         })
@@ -447,8 +511,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           //getToken()
           //refresh()
@@ -477,8 +540,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           //getToken()
           //refresh()
@@ -507,8 +569,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           //getToken()
           //refresh()
@@ -538,8 +599,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           //getToken()
           //refresh()
@@ -567,8 +627,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           //getToken()
           //refresh()
@@ -619,8 +678,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
             //getToken()
             console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
             resolve({error:e})
           })
@@ -648,8 +706,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
           }).catch(function(e) {
             console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 			}
 			resolve({error: e})
           })
@@ -679,8 +736,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
           console.log(e)
           if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve({error: e})
         })
@@ -706,8 +762,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve({error: e})
         })
@@ -732,8 +787,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve({error: e})
         })
@@ -758,8 +812,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve({error: e})
         })
@@ -785,8 +838,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 		  }
           resolve({error: e})
         })
@@ -810,8 +862,7 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
         }).catch(function(e) {
 			console.log(e)
 			if (e && e.response && e.response.status == '401') {
-			  console.log('LOGOUT ON AUTH TOKEN FAIL')
-			  logout()
+			  handleDriveUnauthorized(logout)
 			}
 			resolve({error: e})
         })
@@ -849,6 +900,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
 
-  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
+  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
   
 }

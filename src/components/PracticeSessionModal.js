@@ -7,12 +7,13 @@ import PracticePlaybackStatus from './PracticePlaybackStatus'
 import PracticeAccuracyOverlay from './PracticeAccuracyOverlay'
 import PracticeWarmupPitchRoll from './PracticeWarmupPitchRoll'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
-import { getPracticeInstrumentLabel, loadPracticeSettings } from '../practiceSessionSettings'
+import { loadPracticeSettings, mergePracticeSettings, clampReferenceGain } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
 import usePracticeAccuracyMonitor from '../usePracticeAccuracyMonitor'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { analyzePracticeRecording } from '../practiceAccuracyClient'
 import { noteEventsFromWarmupAbc, noteWindowsFromTimeline } from '../practiceExpectedTimeline'
+import { firstWarmupCueMidi } from '../countInPitchCue'
 import './PracticeSessionModal.css'
 
 export const PRACTICE_WARMUP_REPEATS = 4
@@ -36,16 +37,28 @@ export default function PracticeSessionModal(props) {
   const resolverHealth = useMediaResolverHealth()
   const accuracyEnabled = practiceSettings.accuracyCheckingEnabled
     && currentStep && currentStep.type === 'warmup'
-  const referenceGain = practiceSettings.headphoneMode
-    ? 1
-    : (practiceSettings.practiceReferenceGain != null ? practiceSettings.practiceReferenceGain : 0.08)
+  const referenceGain = practiceSettings.practiceReferenceGain != null
+    ? practiceSettings.practiceReferenceGain
+    : 0.12
+
+  function handleReferenceVolumeChange(nextGain) {
+    const gain = clampReferenceGain(nextGain)
+    setPracticeSettings(function(prev) {
+      return Object.assign({}, prev, {
+        practiceReferenceGain: gain,
+      })
+    })
+    mergePracticeSettings({
+      practiceReferenceGain: gain,
+    })
+  }
 
   useEffect(function() {
     if (props.show) setPracticeSettings(loadPracticeSettings())
   }, [props.show, props.stepIndex])
 
   const accuracyMonitor = usePracticeAccuracyMonitor({
-    enabled: !!accuracyEnabled && warmupStatus !== 'idle',
+    enabled: !!accuracyEnabled && warmupStatus !== 'idle' && !userPaused,
     abc: currentStep && currentStep.type === 'warmup' ? currentStep.abc : null,
     audioContext: sharedAudioContext,
     useOffMainThread: false,
@@ -57,14 +70,13 @@ export default function PracticeSessionModal(props) {
     warmupRun: currentStep && currentStep.type === 'warmup' ? warmupRun + 1 : null,
     warmupRepeats: PRACTICE_WARMUP_REPEATS,
   })
-  const stepCount = plan && plan.steps ? plan.steps.length : 0
-  const stepNumber = props.stepIndex != null ? props.stepIndex + 1 : 0
   const tune = currentStep && currentStep.type === 'tune' && props.tunes
     ? props.tunes[String(currentStep.tuneId)]
     : null
   const canPausePlayback = !isEnded && currentStep && (currentStep.type === 'warmup' || currentStep.type === 'tune')
   const mediaTapToPlay = props.mediaController && props.mediaController.tapToPlay
   const showPauseControl = canPausePlayback && !mediaTapToPlay
+  const togglePausePlaybackRef = useRef(null)
 
   useEffect(function() {
     if (currentStep && currentStep.type === 'warmup') {
@@ -218,6 +230,56 @@ export default function PracticeSessionModal(props) {
       props.mediaController.pause()
     }
   }
+  togglePausePlaybackRef.current = togglePausePlayback
+
+  function handleRestartStep() {
+    if (!canPausePlayback) return
+    if (props.armPlaybackGesture) props.armPlaybackGesture()
+    setUserPaused(false)
+    if (currentStep.type === 'warmup') {
+      setCountInBeat(0)
+      setCountInTotal(0)
+      setWarmupRun(0)
+      setWarmupStatus('countIn')
+      setShowRepSummary(false)
+      setShowStepAggregate(false)
+      prevWarmupRunRef.current = 0
+      if (accuracyMonitor && accuracyMonitor.resetRepBuffers) accuracyMonitor.resetRepBuffers()
+      if (accuracyMonitor && accuracyMonitor.clearAllTraces) accuracyMonitor.clearAllTraces()
+      const warmupPlayback = warmupPlaybackRef.current
+      if (warmupPlayback && warmupPlayback.restart) {
+        warmupPlayback.restart()
+      }
+      return
+    }
+    if (props.mediaController && props.mediaController.restartPlaybackFromStart) {
+      props.mediaController.restartPlaybackFromStart()
+    } else if (props.mediaController && props.mediaController.playFromUserGesture) {
+      props.mediaController.playFromUserGesture({ restart: true })
+    } else if (props.mediaController && props.mediaController.play) {
+      props.mediaController.play({ restart: true })
+    }
+  }
+
+  useEffect(function() {
+    if (!props.show || isEnded || !canPausePlayback) return undefined
+    function onKeyDown(e) {
+      if (e.code !== 'Space' && e.key !== ' ') return
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const target = e.target
+      if (target) {
+        const tag = String(target.tagName || '').toLowerCase()
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') return
+        if (target.isContentEditable) return
+      }
+      e.preventDefault()
+      if (togglePausePlaybackRef.current) togglePausePlaybackRef.current()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return function() {
+      window.removeEventListener('keydown', onKeyDown)
+    }
+  }, [props.show, isEnded, canPausePlayback])
 
   function handleModalHide() {
     if (isEnded) {
@@ -327,13 +389,6 @@ export default function PracticeSessionModal(props) {
                     Tempo: {Math.round((props.currentTempo || 0.5) * 1000) / 10}%
                   </span>
                 ) : null}
-                {currentStep && currentStep.type === 'warmup' ? (
-                  <span>Rep {warmupRun + 1} of {PRACTICE_WARMUP_REPEATS}</span>
-                ) : null}
-                {stepCount > 0 ? <span>Step {stepNumber} of {stepCount}</span> : null}
-                {plan && plan.practiceKey ? <span>Key: {plan.practiceKey}</span> : null}
-                {plan && plan.instrument ? <span>Instrument: {getPracticeInstrumentLabel(plan.instrument)}</span> : null}
-                {plan && plan.skillLevel ? <span>Skill: {plan.skillLevel}</span> : null}
               </div>
             </div>
           ) : (
@@ -345,18 +400,27 @@ export default function PracticeSessionModal(props) {
             {!isEnded ? (
               <>
                 {showPauseControl ? (
-                  <Button
-                    variant={userPaused ? 'success' : 'warning'}
-                    className={'practice-session-playback-btn' + (userPaused ? ' practice-session-playback-btn--play' : '')}
-                    aria-label={pauseButtonLabel}
-                    title={pauseButtonLabel}
-                    onClick={togglePausePlayback}
-                  >
-                    {pauseButtonIcon ? (
-                      <span className="practice-session-playback-btn-icon" aria-hidden="true">{pauseButtonIcon}</span>
-                    ) : null}
-                    <span className="practice-session-playback-btn-label">{pauseButtonLabel}</span>
-                  </Button>
+                  <>
+                    {renderHeaderBtn(
+                      'Restart',
+                      icons && (icons.skipback || icons.rewind),
+                      'practice-session-header-btn--restart',
+                      'outline-secondary',
+                      handleRestartStep
+                    )}
+                    <Button
+                      variant={userPaused ? 'success' : 'warning'}
+                      className={'practice-session-playback-btn' + (userPaused ? ' practice-session-playback-btn--play' : '')}
+                      aria-label={pauseButtonLabel}
+                      title={pauseButtonLabel}
+                      onClick={togglePausePlayback}
+                    >
+                      {pauseButtonIcon ? (
+                        <span className="practice-session-playback-btn-icon" aria-hidden="true">{pauseButtonIcon}</span>
+                      ) : null}
+                      <span className="practice-session-playback-btn-label">{pauseButtonLabel}</span>
+                    </Button>
+                  </>
                 ) : null}
                 {renderHeaderBtn(
                   'Quit',
@@ -392,17 +456,6 @@ export default function PracticeSessionModal(props) {
 
         {currentStep && currentStep.type === 'warmup' && currentStep.abc ? (
           <div className="practice-session-warmup-notation">
-            {warmupStatus === 'countIn' && countInTotal > 0 ? (
-              <div className="practice-warmup-countin-overlay" aria-live="assertive">
-                <div className="practice-warmup-countin-label">Count-in</div>
-                <div className="practice-warmup-countin-beat">
-                  {Math.max(1, countInTotal - countInBeat + 1)}
-                </div>
-                <div className="practice-warmup-countin-meta">
-                  {countInBeat >= countInTotal ? 'Play!' : 'beats to go'}
-                </div>
-              </div>
-            ) : null}
             {accuracyEnabled ? (
               <PracticeAccuracyOverlay
                 enabled={warmupStatus !== 'idle'}
@@ -412,66 +465,70 @@ export default function PracticeSessionModal(props) {
                 showRepSummary={showRepSummary}
                 showAggregate={showStepAggregate}
                 resolverPending={accuracyMonitor.resolverPending}
-                accuracyHint={!practiceSettings.headphoneMode
-                  ? 'Reference notes play quietly. Enable headphone mode for louder playback.'
-                  : null}
+                volume={referenceGain}
+                onVolumeChange={handleReferenceVolumeChange}
               />
             ) : null}
-            <Abc
-              key={'warmup-' + props.stepIndex + (accuracyEnabled ? '-acc' : '')}
-              abc={currentStep.abc}
-              tunebook={props.tunebook}
-              autoPrime={true}
-              practiceAutoPlay={true}
-              practiceReferenceGain={accuracyEnabled ? referenceGain : undefined}
-              onPracticeBeat={accuracyEnabled ? accuracyMonitor.handlePracticeBeat : undefined}
-              onCountInBeat={function(payload) {
-                if (!payload) return
-                setCountInBeat(payload.beat || 0)
-                setCountInTotal(payload.totalBeats || 0)
-                setWarmupStatus('countIn')
-              }}
-              consumePlaybackGesture={props.consumePlaybackGesture}
-              hasPlaybackGesture={props.hasPlaybackGesture}
-              playbackControlRef={warmupPlaybackRef}
-              repeat={PRACTICE_WARMUP_REPEATS}
-              repeatGapBeats={1}
-              hidePlayer={true}
-              hideSvg={false}
-              editableTempo={false}
-              metronomeCountIn={true}
-              metronomeCountInBarOnly={true}
-              metronomeCountInCueMidi={(function() {
-                if (accuracyMonitor.expectedNotes && accuracyMonitor.expectedNotes[0]) {
-                  return accuracyMonitor.expectedNotes[0].midi
-                }
-                if (!(currentStep && currentStep.abc)) return undefined
-                try {
-                  const timeline = noteEventsFromWarmupAbc(currentStep.abc)
-                  return timeline.notes[0] ? timeline.notes[0].midi : undefined
-                } catch (err) {
-                  return undefined
-                }
-              })()}
-              onStarted={function() {
-                setWarmupStatus('playing')
-                setWarmupRun(1)
-                setCountInBeat(0)
-                setCountInTotal(0)
-              }}
-              onRepeat={function(run) {
-                setWarmupStatus('playing')
-                setWarmupRun(run)
-              }}
-              onEnded={handleWarmupEnded}
-            />
-            {accuracyEnabled ? (
-              <PracticeWarmupPitchRoll
-                expectedNotes={accuracyMonitor.expectedNotes}
-                patternDurationBeats={accuracyMonitor.patternDurationBeats}
-                repTraces={accuracyMonitor.repTraces}
-                playheadBeat={accuracyMonitor.playheadBeat}
+            <div className="practice-session-warmup-score">
+              {warmupStatus === 'countIn' && countInTotal > 0 ? (
+                <div className="practice-warmup-countin-overlay" aria-live="assertive">
+                  <div className="practice-warmup-countin-beat">
+                    {countInBeat >= countInTotal
+                      ? '!'
+                      : Math.max(1, countInTotal - countInBeat + 1)}
+                  </div>
+                </div>
+              ) : null}
+              <Abc
+                key={'warmup-' + props.stepIndex + (accuracyEnabled ? '-acc' : '')}
+                abc={currentStep.abc}
+                tunebook={props.tunebook}
+                autoPrime={true}
+                practiceAutoPlay={true}
+                practiceReferenceGain={accuracyEnabled ? referenceGain : undefined}
+                onPracticeBeat={accuracyEnabled ? accuracyMonitor.handlePracticeBeat : undefined}
+                onCountInBeat={function(payload) {
+                  if (!payload) return
+                  setCountInBeat(payload.beat || 0)
+                  setCountInTotal(payload.totalBeats || 0)
+                  setWarmupStatus('countIn')
+                }}
+                consumePlaybackGesture={props.consumePlaybackGesture}
+                hasPlaybackGesture={props.hasPlaybackGesture}
+                playbackControlRef={warmupPlaybackRef}
+                repeat={PRACTICE_WARMUP_REPEATS}
+                repeatGapBeats={1}
+                hidePlayer={true}
+                hideSvg={false}
+                editableTempo={false}
+                metronomeCountIn={true}
+                metronomeCountInBarOnly={true}
+                metronomeCountInCueMidi={firstWarmupCueMidi(
+                  currentStep && currentStep.abc,
+                  currentStep && currentStep.firstMidi
+                )}
+                onStarted={function() {
+                  setWarmupStatus('playing')
+                  setWarmupRun(1)
+                  setCountInBeat(0)
+                  setCountInTotal(0)
+                }}
+                onRepeat={function(run) {
+                  setWarmupStatus('playing')
+                  setWarmupRun(run)
+                }}
+                onEnded={handleWarmupEnded}
               />
+            </div>
+            {accuracyEnabled ? (
+              <div className="practice-session-warmup-pitch">
+                <PracticeWarmupPitchRoll
+                  expectedNotes={accuracyMonitor.expectedNotes}
+                  patternDurationBeats={accuracyMonitor.patternDurationBeats}
+                  repTraces={accuracyMonitor.repTraces}
+                  playheadBeat={accuracyMonitor.playheadBeat}
+                />
+              </div>
             ) : null}
           </div>
         ) : null}

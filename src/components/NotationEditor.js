@@ -38,6 +38,12 @@ import {
   moveCaret,
   repeatLast,
   selectEventRange,
+  toggleSelectionEventId,
+  selectMeasureContaining,
+  applyAccidentalToSelection,
+  replaceSelectionPitch,
+  resolveDragStaffSteps,
+  resolveEditTargetIds,
   addToneToEvent,
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
@@ -64,7 +70,7 @@ import {
   eventIndexFromSelectableIndex,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
-import { eventIdFromStaffNoteElement, findStaffClickNoteEl } from '../notation/staffCaretPosition';
+import { eventIdFromStaffNoteElement, findStaffClickNoteEl, caretIndexAndAnchorFromStaffClick, findBarlineEventAtClick, staffMarqueeSelectEventIds } from '../notation/staffCaretPosition';
 import { resolveStaffClick } from '../notation/staffClickResolve';
 import useMidiInput from '../notation/useMidiInput';
 import {
@@ -105,10 +111,17 @@ export default function NotationEditor(props) {
   const staffRef = useRef(null);
   const staffWrapRef = useRef(null);
   const staffDragTargetRef = useRef(null);
+  const staffDragPointerRef = useRef(null);
+  const staffMarqueeRef = useRef(null);
+  const displayedVoiceKeysRef = useRef([]);
+  const lastNoteSelectionRef = useRef({ eventIds: [], toneIndex: null, anchorId: null });
+  const staffDragSuppressClickRef = useRef(false);
   const staffInputHandledRef = useRef(false);
   const staffPointerRef = useRef(null);
   const resolverDebugRef = useRef(null);
   const [selectionClickRects, setSelectionClickRects] = useState([]);
+  const [pitchDragPreview, setPitchDragPreview] = useState(null);
+  const [marqueeClientRect, setMarqueeClientRect] = useState(null);
 
   const focusStaffEditor = useCallback(function() {
     function focusNow() {
@@ -122,9 +135,23 @@ export default function NotationEditor(props) {
 
   const syncSessionAction = useCallback(function(action) {
     sessionRef.current = notationSessionReducer(sessionRef.current, action);
+    if (action.type === 'SET_SELECTION' && action.selection && action.selection.eventIds && action.selection.eventIds.length) {
+      lastNoteSelectionRef.current = {
+        eventIds: action.selection.eventIds.slice(),
+        toneIndex: action.selection.toneIndex,
+        anchorId: action.selection.anchorId || action.selection.eventIds[0],
+      };
+    }
     dispatch(action);
     return sessionRef.current;
   }, []);
+
+  function sessionWithEditSelection(session) {
+    if (!session) return session;
+    const resolved = resolveEditTargetIds(session, lastNoteSelectionRef.current);
+    if (!resolved) return session;
+    return Object.assign({}, session, { selection: resolved });
+  }
 
   const setCaretIndex = useCallback(function(index) {
     syncSessionAction({ type: 'SET_CARET', index: index });
@@ -179,6 +206,67 @@ export default function NotationEditor(props) {
   useEffect(function() { sessionRef.current = session; }, [session]);
 
   useEffect(function() {
+    function onMove(e) {
+      if (staffMarqueeRef.current && typeof e.clientX === 'number') {
+        staffMarqueeRef.current.lastClientX = e.clientX;
+        staffMarqueeRef.current.lastClientY = e.clientY;
+        const wrap = staffWrapRef.current;
+        if (wrap) {
+          const wr = wrap.getBoundingClientRect();
+          const m = staffMarqueeRef.current;
+          setMarqueeClientRect({
+            left: Math.min(m.clientX, e.clientX) - wr.left + (wrap.scrollLeft || 0),
+            top: Math.min(m.clientY, e.clientY) - wr.top + (wrap.scrollTop || 0),
+            right: Math.max(m.clientX, e.clientX) - wr.left + (wrap.scrollLeft || 0),
+            bottom: Math.max(m.clientY, e.clientY) - wr.top + (wrap.scrollTop || 0),
+          });
+        }
+        return;
+      }
+      if (!staffDragPointerRef.current) return;
+      if (typeof e.clientY === 'number') staffDragPointerRef.current.lastClientY = e.clientY;
+      const dragPointer = staffDragPointerRef.current;
+      const stepPx = dragPointer.stepPx > 0 ? dragPointer.stepPx : 14;
+      const dragSteps = resolveDragStaffSteps({
+        pointerDeltaY: dragPointer.lastClientY - dragPointer.clientY,
+        stepPx: stepPx,
+        clampAbs: 4,
+      });
+      const targetId = staffDragTargetRef.current;
+      const s = sessionRef.current;
+      const selIds = (s
+        && s.selection
+        && s.selection.eventIds
+        && s.selection.eventIds.length
+        && s.selection.eventIds.indexOf(targetId) >= 0)
+        ? s.selection.eventIds.slice()
+        : (targetId ? [targetId] : null);
+      setPitchDragPreview(function(prev) {
+        if (!selIds || !selIds.length) return null;
+        if (prev
+          && prev.staffSteps === dragSteps
+          && prev.stepPx === stepPx
+          && prev.eventIds
+          && prev.eventIds.length === selIds.length
+          && prev.eventIds.every(function(id, i) { return id === selIds[i]; })) {
+          return prev;
+        }
+        return {
+          eventIds: selIds,
+          staffSteps: dragSteps,
+          stepPx: stepPx,
+        };
+      });
+    }
+    window.addEventListener('pointermove', onMove, true);
+    window.addEventListener('mousemove', onMove, true);
+    return function() {
+      window.removeEventListener('pointermove', onMove, true);
+      window.removeEventListener('mousemove', onMove, true);
+    };
+  }, []);
+
+  useEffect(function() {
     midiRecordBufferRef.current = session.midiRecordBuffer || [];
   }, [session.midiRecordBuffer]);
 
@@ -217,6 +305,7 @@ export default function NotationEditor(props) {
       return;
     }
     skipExternalLoad.current = false;
+    lastNoteSelectionRef.current = { eventIds: [], toneIndex: null, anchorId: null };
     dispatch({ type: 'LOAD_VOICE', tuneMeta: tuneMeta, voiceBody: props.voiceNotes });
   }, [props.voiceKey, props.voiceNotes, tuneMeta]);
 
@@ -247,12 +336,15 @@ export default function NotationEditor(props) {
     prevViewRef.current = session.view;
   }, [session.view, session.caretIndex, session.events, props.voiceKey, tuneMeta]);
 
+  const lastCommittedAbcRef = useRef('');
+
   const commitToAbc = useCallback(function(events, label, voiceKey) {
     const vk = voiceKey != null ? voiceKey : props.voiceKey;
     clearTimeout(commitDebounce.current);
     const eventsSnapshot = events;
     commitDebounce.current = setTimeout(function() {
       const body = serializeVoiceEventsViaParser(eventsSnapshot, tuneMeta, abcjsParser);
+      lastCommittedAbcRef.current = body;
       skipExternalLoad.current = true;
       props.onVoiceNotesChange(vk, body, label);
     }, 50);
@@ -273,6 +365,7 @@ export default function NotationEditor(props) {
     if (!s || !Array.isArray(s.events)) return;
     const vk = voiceKey != null ? voiceKey : props.voiceKey;
     const body = serializeVoiceEventsViaParser(s.events, tuneMeta, abcjsParser);
+    lastCommittedAbcRef.current = body;
     skipExternalLoad.current = true;
     props.onVoiceNotesChange(vk, body, 'Edit notation');
   }, [abcjsParser, props, tuneMeta]);
@@ -340,6 +433,120 @@ export default function NotationEditor(props) {
     }
     focusStaffEditor();
   }, [commitToAbc, focusStaffEditor]);
+
+  // Keep latest commit helpers in refs so window pointerup is registered once
+  // and not torn down mid-drag when React re-renders (e.g. pitch-preview setState).
+  const commitStaffPointerUpRef = useRef(null);
+  commitStaffPointerUpRef.current = function(endClientX, endClientY) {
+    if (staffMarqueeRef.current) {
+      const marquee = staffMarqueeRef.current;
+      staffMarqueeRef.current = null;
+      setMarqueeClientRect(null);
+      const s = sessionRef.current;
+      if (!s || s.mode === EDITOR_MODES.NOTE_INPUT) return;
+      const wrap = staffWrapRef.current;
+      if (!wrap || !marquee) return;
+      const endX = typeof endClientX === 'number' ? endClientX
+        : (typeof marquee.lastClientX === 'number' ? marquee.lastClientX : marquee.clientX);
+      const endY = typeof endClientY === 'number' ? endClientY
+        : (typeof marquee.lastClientY === 'number' ? marquee.lastClientY : marquee.clientY);
+      if (Math.abs(endX - marquee.clientX) < 4 && Math.abs(endY - marquee.clientY) < 4) {
+        return;
+      }
+      const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
+      const ids = staffMarqueeSelectEventIds(wrap, s.events, {
+        left: Math.min(marquee.clientX, endX),
+        right: Math.max(marquee.clientX, endX),
+        top: Math.min(marquee.clientY, endY),
+        bottom: Math.max(marquee.clientY, endY),
+      }, voiceStaffIdx);
+      staffDragSuppressClickRef.current = true;
+      if (!ids.length) {
+        syncSessionAction({ type: 'SET_SELECTION', selection: { eventIds: [], toneIndex: null, anchorId: null } });
+        setSelectionClickRects([]);
+      } else {
+        syncSessionAction({
+          type: 'SET_SELECTION',
+          selection: { eventIds: ids, toneIndex: null, anchorId: ids[0] },
+        });
+        setSelectionClickRects([]);
+        focusStaffEditor();
+      }
+      window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+      return;
+    }
+
+    const dragPointer = staffDragPointerRef.current;
+    if (!dragPointer) return;
+    staffDragPointerRef.current = null;
+    setPitchDragPreview(null);
+    const s = sessionRef.current;
+    if (!s || s.mode === EDITOR_MODES.NOTE_INPUT) {
+      staffDragTargetRef.current = null;
+      return;
+    }
+    const endY = typeof endClientY === 'number'
+      ? endClientY
+      : (typeof dragPointer.lastClientY === 'number' ? dragPointer.lastClientY : dragPointer.clientY);
+    const stepPx = dragPointer.stepPx > 0 ? dragPointer.stepPx : 14;
+    const dragSteps = resolveDragStaffSteps({
+      pointerDeltaY: endY - dragPointer.clientY,
+      stepPx: stepPx,
+      clampAbs: 4,
+    });
+    if (!dragSteps) {
+      staffDragTargetRef.current = null;
+      return;
+    }
+    let dragEv = null;
+    let dragIdx = null;
+    if (staffDragTargetRef.current) {
+      const idx = s.events.findIndex(function(ev) { return ev.id === staffDragTargetRef.current; });
+      if (idx >= 0) {
+        const candidate = s.events[idx];
+        if (candidate && (candidate.type === 'note' || candidate.type === 'chord')) {
+          dragIdx = idx;
+          dragEv = candidate;
+        }
+      }
+    }
+    staffDragTargetRef.current = null;
+    if (!dragEv) return;
+    const selIds = (s.selection.eventIds && s.selection.eventIds.length
+      && s.selection.eventIds.indexOf(dragEv.id) >= 0)
+      ? s.selection.eventIds.slice()
+      : [dragEv.id];
+    const sessionWithSelection = Object.assign({}, s, {
+      selection: { eventIds: selIds, toneIndex: null, anchorId: dragEv.id },
+    });
+    const patch = transposeSelectionByStaffSteps(sessionWithSelection, dragSteps, null);
+    if (!patch) return;
+    staffDragSuppressClickRef.current = true;
+    const nextCaret = dragIdx != null && dragIdx >= 0 ? dragIdx : s.caretIndex;
+    window.setTimeout(function() {
+      applyEvents(patch, EDITOR_VIEWS.STAFF, 'Drag pitch');
+      setCaretIndex(nextCaret);
+      window.setTimeout(function() { staffDragSuppressClickRef.current = false; }, 50);
+    }, 0);
+  };
+
+  useEffect(function() {
+    function onUp(e) {
+      if (typeof commitStaffPointerUpRef.current === 'function') {
+        commitStaffPointerUpRef.current(
+          e && typeof e.clientX === 'number' ? e.clientX : null,
+          e && typeof e.clientY === 'number' ? e.clientY : null
+        );
+      }
+    }
+    // Prefer pointerup; mouseup is a Puppeteer/legacy fallback when pointer events are missing.
+    window.addEventListener('pointerup', onUp, true);
+    window.addEventListener('mouseup', onUp, true);
+    return function() {
+      window.removeEventListener('pointerup', onUp, true);
+      window.removeEventListener('mouseup', onUp, true);
+    };
+  }, []);
 
   const pushMidiRecordNote = useCallback(function(payload, isNoteOn) {
     const buffer = appendMidiRecordNote(midiRecordBufferRef.current, payload, isNoteOn);
@@ -474,18 +681,48 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'insertPitch' || action.action === 'addChordTone') {
-      if (s.mode !== EDITOR_MODES.NOTE_INPUT) return;
-      dispatch({ type: 'SET_CHORD_BUILD', value: action.action === 'addChordTone' });
       const pitch = pitchFromLetter(action.letter, s);
-      const patch = insertPitchAtCaret(
-        Object.assign({}, s, { chordBuild: action.action === 'addChordTone' }),
-        pitch
-      );
-      applyEvents(patch, EDITOR_VIEWS.STAFF, 'Insert note');
+      if (s.mode === EDITOR_MODES.NOTE_INPUT) {
+        dispatch({ type: 'SET_CHORD_BUILD', value: action.action === 'addChordTone' });
+        const patch = insertPitchAtCaret(
+          Object.assign({}, s, { chordBuild: action.action === 'addChordTone' }),
+          pitch
+        );
+        applyEvents(patch, EDITOR_VIEWS.STAFF, 'Insert note');
+        return;
+      }
+      if (s.selection.eventIds.length) {
+        if (action.action === 'addChordTone') {
+          const selId = s.selection.anchorId || s.selection.eventIds[0];
+          const idx = s.events.findIndex(function(ev) { return ev.id === selId; });
+          if (idx >= 0) {
+            const patch = addToneToEvent(s, idx, pitch);
+            if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Add chord tone');
+          }
+          return;
+        }
+        const patch = replaceSelectionPitch(s, pitch);
+        if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Replace pitch');
+      }
       return;
     }
     if (action.action === 'accidental') {
-      dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: action.value });
+      const liveFromSession = (s.selection.eventIds || []).filter(function(id) {
+        return s.events.some(function(ev) { return ev.id === id; });
+      });
+      // Note input with no live selection → carry for next typed note (do not caret-retarget).
+      if (s.mode === EDITOR_MODES.NOTE_INPUT && !liveFromSession.length) {
+        dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: action.value });
+        return;
+      }
+      const editSession = sessionWithEditSelection(s);
+      if (editSession.selection && editSession.selection.eventIds && editSession.selection.eventIds.length) {
+        const patch = applyAccidentalToSelection(editSession, action.value);
+        if (patch) {
+          applyEvents(patch, EDITOR_VIEWS.STAFF, 'Accidental');
+          return;
+        }
+      }
       return;
     }
     if (action.action === 'copy') {
@@ -529,7 +766,79 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'prevEvent' || action.action === 'nextEvent') {
-      setCaretIndex(moveCaret(s, action.action === 'nextEvent' ? 1 : -1).caretIndex);
+      const delta = action.action === 'nextEvent' ? 1 : -1;
+      // Note input: move insert caret only (MuseScore note-input cursor).
+      if (s.mode === 'noteInput') {
+        setCaretIndex(moveCaret(s, delta).caretIndex);
+        return;
+      }
+      // Normal mode: select previous/next event (MuseScore Select previous/next chord).
+      if (!s.events.length) return;
+      let fromIdx = -1;
+      if (s.selection.eventIds && s.selection.eventIds.length) {
+        const indices = [];
+        for (let i = 0; i < s.selection.eventIds.length; i += 1) {
+          const id = s.selection.eventIds[i];
+          const found = s.events.findIndex(function(ev) { return ev.id === id; });
+          if (found >= 0) indices.push(found);
+        }
+        if (indices.length) {
+          fromIdx = delta > 0
+            ? Math.max.apply(null, indices)
+            : Math.min.apply(null, indices);
+        }
+      }
+      if (fromIdx < 0) {
+        if (s.caretIndex >= s.events.length) {
+          fromIdx = s.events.length - 1;
+        } else if (s.caretIndex > 0 && delta < 0) {
+          fromIdx = s.caretIndex;
+        } else {
+          fromIdx = Math.min(s.caretIndex, s.events.length - 1);
+        }
+      }
+      const targetIdx = Math.max(0, Math.min(fromIdx + delta, s.events.length - 1));
+      const ev = s.events[targetIdx];
+      if (!ev) return;
+      setSelectionClickRects([]);
+      syncSessionAction({ type: 'SET_CARET', index: targetIdx });
+      syncSessionAction({
+        type: 'SET_SELECTION',
+        selection: { eventIds: [ev.id], toneIndex: null, anchorId: ev.id },
+      });
+      return;
+    }
+    if (action.action === 'extendSelection') {
+      if (s.mode === 'noteInput' || !s.events.length) return;
+      const delta = action.delta || 1;
+      const anchorId = s.selection.anchorId
+        || (s.selection.eventIds && s.selection.eventIds[0])
+        || null;
+      let fromIdx = -1;
+      if (s.selection.eventIds && s.selection.eventIds.length) {
+        const indices = [];
+        for (let i = 0; i < s.selection.eventIds.length; i += 1) {
+          const found = s.events.findIndex(function(ev) { return ev.id === s.selection.eventIds[i]; });
+          if (found >= 0) indices.push(found);
+        }
+        if (indices.length) {
+          fromIdx = delta > 0
+            ? Math.max.apply(null, indices)
+            : Math.min.apply(null, indices);
+        }
+      }
+      if (fromIdx < 0) fromIdx = Math.min(s.caretIndex, s.events.length - 1);
+      const targetIdx = Math.max(0, Math.min(fromIdx + delta, s.events.length - 1));
+      const target = s.events[targetIdx];
+      if (!target) return;
+      const anchor = anchorId || target.id;
+      const ids = selectEventRange(s.events, anchor, target.id);
+      setSelectionClickRects([]);
+      syncSessionAction({ type: 'SET_CARET', index: targetIdx });
+      syncSessionAction({
+        type: 'SET_SELECTION',
+        selection: { eventIds: ids, toneIndex: null, anchorId: anchor },
+      });
       return;
     }
     if (action.action === 'prevMeasure' || action.action === 'nextMeasure') {
@@ -660,6 +969,75 @@ export default function NotationEditor(props) {
     return noteEl ? { selectableElement: noteEl } : null;
   }
 
+  function measureStaffStepPx(wrap) {
+    if (!wrap || !wrap.querySelector) return 14;
+    // Prefer adjacent staff-line spacing ÷ 2 (one diatonic step = half a staff space).
+    // Note-group getBoundingClientRect tops are ~4px apart here too, but staff lines are stable
+    // across glyphs / stems and do not require abcjs-dN (often a fixed "d0-25" class).
+    const staff = wrap.querySelector('.abcjs-staff');
+    if (staff) {
+      const lineEls = Array.from(staff.querySelectorAll('path, line')).filter(function(el) {
+        const cls = String(el.className && (el.className.baseVal || el.className) || '');
+        // Staff lines are nearly horizontal hairlines.
+        const r = el.getBoundingClientRect();
+        return r.height <= 3 && r.width > 20 && cls.indexOf('ledger') < 0;
+      });
+      const tops = lineEls.map(function(el) { return el.getBoundingClientRect().top; })
+        .sort(function(a, b) { return a - b; });
+      const uniq = [];
+      tops.forEach(function(t) {
+        if (!uniq.length || Math.abs(t - uniq[uniq.length - 1]) > 2) uniq.push(t);
+      });
+      if (uniq.length >= 2) {
+        let best = null;
+        for (let i = 0; i < uniq.length - 1; i += 1) {
+          const space = uniq[i + 1] - uniq[i];
+          if (space >= 5 && space <= 28) {
+            if (best == null || space < best) best = space;
+          }
+        }
+        if (best != null) return best / 2;
+      }
+      const h = staff.getBoundingClientRect().height;
+      if (h > 16) {
+        const step = h / 8; // 4 spaces → 8 diatonic steps
+        if (step >= 3 && step <= 20) return step;
+      }
+    }
+    // Fallback: notehead centers (ignore stems/ledgers).
+    const notes = Array.from(wrap.querySelectorAll('.abcjs-note'));
+    const headYs = notes.map(function(n) {
+      const paths = Array.from(n.querySelectorAll('path')).filter(function(p) {
+        const cls = String(p.className && (p.className.baseVal || p.className) || '');
+        return cls.indexOf('stem') < 0 && cls.indexOf('ledger') < 0;
+      });
+      let best = null;
+      paths.forEach(function(p) {
+        const r = p.getBoundingClientRect();
+        if (r.width < 4 || r.height < 4 || r.height > 16) return;
+        const y = r.top + r.height * 0.5;
+        if (best == null || r.width > best.w) best = { y: y, w: r.width };
+      });
+      return best ? best.y : null;
+    }).filter(function(y) { return y != null; })
+      .sort(function(a, b) { return a - b; });
+    for (let i = 0; i < headYs.length - 1; i += 1) {
+      const dy = headYs[i + 1] - headYs[i];
+      if (dy >= 3 && dy <= 20) return dy;
+    }
+    return 14;
+  }
+
+  function handleStaffWrapPointerMove(e) {
+    if (staffMarqueeRef.current) {
+      staffMarqueeRef.current.lastClientX = e.clientX;
+      staffMarqueeRef.current.lastClientY = e.clientY;
+      return;
+    }
+    if (!staffDragPointerRef.current) return;
+    staffDragPointerRef.current.lastClientY = e.clientY;
+  }
+
   function handleStaffWrapPointerDown(e) {
     const s = sessionRef.current;
     staffPointerRef.current = { clientX: e.clientX, clientY: e.clientY };
@@ -667,19 +1045,76 @@ export default function NotationEditor(props) {
     if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
       const wrap = staffWrapRef.current;
       if (wrap && wrap.contains(e.target) && e.button === 0) {
-        const resolved = resolveStaffClickFromEditor(e, pointerAnalysis, null, null);
-        const pinIdx = resolved && typeof resolved.eventIndex === 'number' ? resolved.eventIndex : -1;
-        const pinEv = pinIdx >= 0 && pinIdx < s.events.length ? s.events[pinIdx] : null;
-        if (pinEv && (pinEv.type === 'note' || pinEv.type === 'chord') && pinEv.id) {
-          staffDragTargetRef.current = pinEv.id;
-        } else {
-          const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
-          const eventId = eventIdFromStaffNoteElement(wrap, s.events, e, pointerAnalysis, voiceStaffIdx);
-          staffDragTargetRef.current = eventId || null;
+        // Already tracking this gesture (pointerdown + mousedown both fire).
+        if (staffDragPointerRef.current || staffMarqueeRef.current) return;
+
+        const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
+        const noteEl = findStaffClickNoteEl(wrap, pointerAnalysis, e);
+        // Resolve id even when noteEl came from target.closest (more reliable than
+        // requiring a second elementFromPoint pass to succeed first).
+        const eventId = eventIdFromStaffNoteElement(wrap, s.events, e, pointerAnalysis, voiceStaffIdx);
+        const pitchedEv = eventId
+          ? s.events.find(function(ev) { return ev.id === eventId; })
+          : null;
+        const noteHit = !!(pitchedEv && (pitchedEv.type === 'note' || pitchedEv.type === 'chord'));
+        const glyphUnderPointer = !!(noteEl || pitchedEv);
+        const modSelect = !!(e.shiftKey || e.ctrlKey || e.metaKey);
+
+        // Shift/Ctrl clicks wait for click handler (range / toggle) — no pitch drag.
+        if (modSelect) {
+          staffDragPointerRef.current = null;
+          staffDragTargetRef.current = null;
+          staffMarqueeRef.current = null;
+          setPitchDragPreview(null);
+          setMarqueeClientRect(null);
+          staffDragSuppressClickRef.current = false;
+          return;
         }
+
+        if (noteHit) {
+          const stepPx = measureStaffStepPx(wrap);
+          staffMarqueeRef.current = null;
+          setMarqueeClientRect(null);
+          staffDragPointerRef.current = {
+            clientY: e.clientY,
+            lastClientY: e.clientY,
+            stepPx: stepPx,
+          };
+          staffDragTargetRef.current = eventId;
+          staffDragSuppressClickRef.current = false;
+          return;
+        }
+
+        // On a glyph we couldn't map to a pitched event (rest / bar / miss) — do not
+        // start marquee; let click selection handle it.
+        if (glyphUnderPointer) {
+          staffDragPointerRef.current = null;
+          staffDragTargetRef.current = null;
+          staffMarqueeRef.current = null;
+          setPitchDragPreview(null);
+          setMarqueeClientRect(null);
+          return;
+        }
+
+        // Empty staff / gap: start marquee (no pitch drag).
+        staffDragPointerRef.current = null;
+        staffDragTargetRef.current = null;
+        setPitchDragPreview(null);
+        staffMarqueeRef.current = {
+          clientX: e.clientX,
+          clientY: e.clientY,
+          lastClientX: e.clientX,
+          lastClientY: e.clientY,
+        };
+        staffDragSuppressClickRef.current = false;
       }
       return;
     }
+
+    staffDragPointerRef.current = null;
+    staffMarqueeRef.current = null;
+    setPitchDragPreview(null);
+    setMarqueeClientRect(null);
 
     const wrap = staffWrapRef.current;
     if (!wrap || !wrap.contains(e.target)) return;
@@ -708,6 +1143,19 @@ export default function NotationEditor(props) {
   }
 
   function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+    if (staffDragSuppressClickRef.current) {
+      staffDragSuppressClickRef.current = false;
+      staffDragPointerRef.current = null;
+      staffDragTargetRef.current = null;
+      staffMarqueeRef.current = null;
+      setPitchDragPreview(null);
+      return;
+    }
+    // Window pointerup commits pitch/marquee. Never clear an active drag pin here —
+    // that raced pointerup and dropped live-drag commits.
+    if (staffDragPointerRef.current || staffMarqueeRef.current) {
+      return;
+    }
     const s = sessionRef.current;
     const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : 0;
     const fullAbc = renderedAbc || displayAbc;
@@ -722,52 +1170,6 @@ export default function NotationEditor(props) {
         analysis,
         options
       );
-    }
-
-    if (drag && typeof drag.step === 'number' && drag.step !== 0 && s.mode !== EDITOR_MODES.NOTE_INPUT) {
-      let dragEv = null;
-      let dragIdx = null;
-      function acceptDragCandidate(idx) {
-        if (typeof idx !== 'number' || idx < 0 || idx >= s.events.length) return false;
-        const candidate = s.events[idx];
-        if (!candidate || (candidate.type !== 'note' && candidate.type !== 'chord')) return false;
-        dragIdx = idx;
-        dragEv = candidate;
-        return true;
-      }
-      // Prefer pointerdown pin (stable across release). Never use midi fallback —
-      // another note may already sit at the destination pitch.
-      if (staffDragTargetRef.current) {
-        acceptDragCandidate(s.events.findIndex(function(ev) {
-          return ev.id === staffDragTargetRef.current;
-        }));
-      }
-      if (!dragEv && drag && typeof drag.index === 'number') {
-        acceptDragCandidate(eventIndexFromSelectableIndex(s.events, drag.index));
-      }
-      if (!dragEv) {
-        acceptDragCandidate(resolveEventIndex({ startCharOnly: true }));
-      }
-      staffDragTargetRef.current = null;
-      if (dragEv && (dragEv.type === 'note' || dragEv.type === 'chord')) {
-        const sessionWithSelection = Object.assign({}, s, {
-          selection: { eventIds: [dragEv.id], toneIndex: null, anchorId: dragEv.id },
-        });
-        const patch = transposeSelectionByStaffSteps(sessionWithSelection, drag.step, null);
-        const nextCaret = dragIdx != null && dragIdx >= 0 ? dragIdx : s.caretIndex;
-        // Defer commit so abcjs mouseUp can finish (focus / class cleanup) before SVG remount.
-        if (patch) {
-          window.setTimeout(function() {
-            applyEvents(patch, EDITOR_VIEWS.STAFF, 'Drag pitch');
-            setCaretIndex(nextCaret);
-          }, 0);
-        }
-      }
-      return;
-    }
-
-    if (drag && typeof drag.step === 'number') {
-      staffDragTargetRef.current = null;
     }
 
     const resolved = resolveStaffClickFromEditor(mouseEvent, analysis, abcelem, fullAbc);
@@ -798,7 +1200,9 @@ export default function NotationEditor(props) {
       if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
         const targetEv = ev || (idx > 0 ? s.events[idx - 1] : null);
         const ids = selectEventRange(s.events, s.selection.anchorId, targetEv && targetEv.id);
-        dispatch({ type: 'SET_SELECTION', selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId } });
+        syncSessionAction({ type: 'SET_SELECTION', selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId } });
+        setSelectionClickRects([]);
+        focusStaffEditor();
         staffInputHandledRef.current = true;
         return;
       }
@@ -808,12 +1212,62 @@ export default function NotationEditor(props) {
       placeNoteInputCaretFromPointer(mouseEvent, analysis, fullAbc);
       return;
     }
-    if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
-      const targetEv = ev || (idx > 0 ? s.events[idx - 1] : null);
-      const ids = selectEventRange(s.events, s.selection.anchorId, targetEv && targetEv.id);
-      dispatch({ type: 'SET_SELECTION', selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId } });
+
+    const wrap = staffWrapRef.current;
+    const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
+    const barEv = (!ev && mouseEvent)
+      ? findBarlineEventAtClick(wrap, s.events, mouseEvent, voiceStaffIdx)
+      : null;
+    const targetEv = ev
+      || barEv
+      || (idx >= 0 && idx < s.events.length ? s.events[idx] : null);
+
+    if (mouseEvent && mouseEvent.detail >= 2 && targetEv && targetEv.id) {
+      const ids = selectMeasureContaining(s.events, targetEv.id);
+      if (ids.length) {
+        syncSessionAction({
+          type: 'SET_SELECTION',
+          selection: { eventIds: ids, toneIndex: null, anchorId: targetEv.id },
+        });
+        setSelectionClickRects([]);
+        setCaretIndex(s.events.findIndex(function(x) { return x.id === targetEv.id; }));
+        focusStaffEditor();
+      }
       return;
     }
+
+    if (mouseEvent && (mouseEvent.ctrlKey || mouseEvent.metaKey) && targetEv
+      && (targetEv.type === 'note' || targetEv.type === 'chord' || targetEv.type === 'barline' || targetEv.type === 'rest')) {
+      const nextSel = toggleSelectionEventId(s.selection, targetEv.id);
+      syncSessionAction({ type: 'SET_SELECTION', selection: nextSel });
+      setSelectionClickRects([]);
+      focusStaffEditor();
+      return;
+    }
+
+    if (mouseEvent && mouseEvent.shiftKey && s.selection.anchorId) {
+      const rangeTarget = targetEv || (idx > 0 ? s.events[idx - 1] : null);
+      const ids = selectEventRange(s.events, s.selection.anchorId, rangeTarget && rangeTarget.id);
+      syncSessionAction({
+        type: 'SET_SELECTION',
+        selection: { eventIds: ids, toneIndex: null, anchorId: s.selection.anchorId },
+      });
+      setSelectionClickRects([]);
+      focusStaffEditor();
+      return;
+    }
+
+    if (barEv) {
+      syncSessionAction({
+        type: 'SET_SELECTION',
+        selection: { eventIds: [barEv.id], toneIndex: null, anchorId: barEv.id },
+      });
+      setSelectionClickRects([]);
+      setCaretIndex(s.events.findIndex(function(x) { return x.id === barEv.id; }));
+      focusStaffEditor();
+      return;
+    }
+
     if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) {
       setCaretIndex(resolved.caretIndex);
       setSelectionClickRects([]);
@@ -822,7 +1276,6 @@ export default function NotationEditor(props) {
     }
     // Capture the clicked glyph's screen box so the overlay tracks the real note,
     // not a drawable-ordinal guess that drifts on long/multi-line scores.
-    const wrap = staffWrapRef.current;
     const noteEl = (analysis && analysis.selectableElement)
       || (mouseEvent && wrap && findStaffClickNoteEl(wrap, analysis, mouseEvent));
     if (wrap && noteEl && noteEl.getBoundingClientRect) {
@@ -841,7 +1294,7 @@ export default function NotationEditor(props) {
       type: 'SET_SELECTION',
       selection: {
         eventIds: [ev.id],
-        toneIndex: mouseEvent && mouseEvent.shiftKey ? 0 : null,
+        toneIndex: null,
         anchorId: ev.id,
       },
     });
@@ -914,7 +1367,7 @@ export default function NotationEditor(props) {
   }
 
   function handleMarkAction(key) {
-    const s = sessionRef.current;
+    const s = sessionWithEditSelection(sessionRef.current);
     if (key === '_tie') {
       handleToggleTie();
       return;
@@ -1016,6 +1469,10 @@ export default function NotationEditor(props) {
       .map(function(vi) { return voiceNames[vi]; })
       .filter(Boolean);
   }, [props.voiceNames, displayedVoiceIndices]);
+
+  useEffect(function() {
+    displayedVoiceKeysRef.current = displayedVoiceKeys;
+  }, [displayedVoiceKeys]);
 
   function voiceBodyForDisplay(voiceKey) {
     if (session.view === EDITOR_VIEWS.ABC) {
@@ -1180,6 +1637,13 @@ export default function NotationEditor(props) {
       getVoiceAbc: function() {
         return serializeVoiceEvents(sessionRef.current.events, tuneMeta);
       },
+      getCommittedVoiceAbc: function() {
+        return lastCommittedAbcRef.current || serializeVoiceEventsViaParser(
+          sessionRef.current.events,
+          tuneMeta,
+          abcjsParser
+        );
+      },
       getSessionEvents: function() {
         return JSON.parse(JSON.stringify(sessionRef.current.events));
       },
@@ -1237,6 +1701,7 @@ export default function NotationEditor(props) {
         if (targetIdx < 0) return false;
         const ev = s.events[targetIdx];
         const selection = { eventIds: [ev.id], toneIndex: null, anchorId: ev.id };
+        lastNoteSelectionRef.current = selection;
         let next = notationSessionReducer(sessionRef.current, { type: 'SET_SELECTION', selection: selection });
         next = notationSessionReducer(next, { type: 'SET_CARET', index: targetIdx });
         sessionRef.current = next;
@@ -1268,8 +1733,32 @@ export default function NotationEditor(props) {
           : null;
         dbg.selectionIds = s.selection.eventIds.slice();
         dbg.mode = s.mode;
-        dbg.caretIndex = s.caretIndex;
+        dbg.sessionCaretIndex = s.caretIndex;
         return dbg;
+      },
+      debugCaretAt: function(clientX, clientY) {
+        const wrap = staffWrapRef.current;
+        const s = sessionRef.current;
+        const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
+        const pos = caretIndexAndAnchorFromStaffClick(
+          wrap,
+          s.events,
+          { clientX: clientX, clientY: clientY },
+          null,
+          voiceStaffIdx
+        );
+        const resolved = resolveStaffClick({
+          wrapEl: wrap,
+          events: s.events,
+          mouseEvent: { clientX: clientX, clientY: clientY },
+          abcelem: null,
+          analysis: null,
+          voiceStaffIndex: voiceStaffIdx,
+          tuneMeta: tuneMeta,
+          fullAbc: displayAbc,
+          displayedVoiceKeys: displayedVoiceKeys,
+        });
+        return { pos: pos, resolved: resolved, eventsLen: s.events.length, sessionCaret: s.caretIndex };
       },
     };
     return function() {
@@ -1290,6 +1779,13 @@ export default function NotationEditor(props) {
       className={'notation-staff-wrap' + (session.mode === EDITOR_MODES.NOTE_INPUT ? ' notation-staff-wrap--note-input' : '')}
       data-testid="notation-staff-wrap"
       onPointerDownCapture={handleStaffWrapPointerDown}
+      onPointerMove={handleStaffWrapPointerMove}
+      onMouseDownCapture={function(e) {
+        // Puppeteer/some browsers may not synthesize pointerdown for mouse drags.
+        if (!staffDragPointerRef.current && !staffMarqueeRef.current) {
+          handleStaffWrapPointerDown(e);
+        }
+      }}
       onContextMenu={function(e) {
         if (session.mode === EDITOR_MODES.NOTE_INPUT) e.preventDefault();
       }}
@@ -1306,7 +1802,10 @@ export default function NotationEditor(props) {
         showTempoSlider={true}
         editableTempo={true}
         meter={tuneMeta.meter}
-        dragging={session.mode !== EDITOR_MODES.NOTE_INPUT}
+        // Disable abcjs live rubber-band drag: it flies glyphs off-staff while the pointer
+        // moves, then our clamped commit snaps them back (looks like a leap / vanish).
+        // Pitch changes still come from our pointer tracking in handleStaffClick.
+        dragging={false}
         selectTypes={staffAbcSelectTypes}
         onClick={handleStaffClick}
         suppressPlaybackSeek={true}
@@ -1323,6 +1822,8 @@ export default function NotationEditor(props) {
         displayAbc={displayAbc}
         voiceStaffIndex={activeVoiceStaffIndex}
         clickRects={selectionClickRects}
+        dragPreview={pitchDragPreview}
+        marqueeRect={marqueeClientRect}
       />
       <GhostNoteOverlay session={session} />
     </div>
@@ -1364,7 +1865,7 @@ export default function NotationEditor(props) {
       {viewToggle && (toggleSlot ? createPortal(viewToggle, toggleSlot) : viewToggle)}
 
       {!isStaffLikeView ? (
-        <div className="notation-nonstaff-controls mb-2">
+        <div className="notation-nonstaff-controls mb-2 d-flex align-items-center gap-2 flex-wrap">
           <NotationVoicesDropdown
             tune={props.tune}
             voiceNames={voiceNames}
@@ -1384,50 +1885,57 @@ export default function NotationEditor(props) {
             }}
             onDeleteVoice={props.onDeleteVoice}
           />
+          {props.toolbarEnd ? (
+            <div className="notation-toolbar-end" style={{ marginLeft: 'auto' }}>
+              {props.toolbarEnd}
+            </div>
+          ) : null}
         </div>
       ) : null}
 
       {isStaffLikeView ? (
         <div className="notation-editing-controls">
-          <NotationToolbar
-            session={session}
-            tunebook={props.tunebook}
-            midi={midi}
-            dispatch={dispatch}
-            tune={props.tune}
-            voiceNames={voiceNames}
-            voiceIndex={props.voiceIndex}
-            displayedVoiceIndices={displayedVoiceIndices}
-            onVoiceSelect={handleVoiceSelect}
-            onDisplayedVoicesChange={handleDisplayedVoicesChange}
-            onVoiceNameChange={props.onVoiceMetaChange}
-            onAddVoice={function() {
-              if (sessionRef.current.view === EDITOR_VIEWS.ABC) {
-                flushAllAbcDrafts();
-              } else {
-                flushCommit();
-              }
-              if (props.onAddVoice) props.onAddVoice();
-            }}
-            onDeleteVoice={props.onDeleteVoice}
-            onOpenWizard={function() { setShowWizard(true); }}
-            onOpenHelp={function() { setShowHelp(true); }}
-            onQuantize={function() { setShowQuantize(true); }}
-            onInsertSystemBreak={function() {
-              insertLayout(insertSystemBreakAtCaret, 'Insert system break');
-            }}
-            onInsertBarline={function(barToken) {
-              insertLayout(function(s) { return insertBarlineAtCaret(s, barToken); }, 'Insert bar line');
-            }}
-            onToggleTie={handleToggleTie}
-            onMarkAction={handleMarkAction}
-            onTupletAction={handleTupletAction}
-            onToggleRecord={handleToggleRecord}
-            onApplyRecord={handleApplyRecord}
-            onDiscardRecord={handleDiscardRecord}
-            pendingRecordCount={pendingRecordCount}
-          />
-          <NotationDurationToolbar
+          <div className="d-flex align-items-start gap-2 flex-wrap">
+            <div style={{ flex: '1 1 auto', minWidth: 0 }}>
+              <NotationToolbar
+                session={session}
+                tunebook={props.tunebook}
+                midi={midi}
+                dispatch={dispatch}
+                tune={props.tune}
+                voiceNames={voiceNames}
+                voiceIndex={props.voiceIndex}
+                displayedVoiceIndices={displayedVoiceIndices}
+                onVoiceSelect={handleVoiceSelect}
+                onDisplayedVoicesChange={handleDisplayedVoicesChange}
+                onVoiceNameChange={props.onVoiceMetaChange}
+                onAddVoice={function() {
+                  if (sessionRef.current.view === EDITOR_VIEWS.ABC) {
+                    flushAllAbcDrafts();
+                  } else {
+                    flushCommit();
+                  }
+                  if (props.onAddVoice) props.onAddVoice();
+                }}
+                onDeleteVoice={props.onDeleteVoice}
+                onOpenWizard={function() { setShowWizard(true); }}
+                onOpenHelp={function() { setShowHelp(true); }}
+                onQuantize={function() { setShowQuantize(true); }}
+                onInsertSystemBreak={function() {
+                  insertLayout(insertSystemBreakAtCaret, 'Insert system break');
+                }}
+                onInsertBarline={function(barToken) {
+                  insertLayout(function(s) { return insertBarlineAtCaret(s, barToken); }, 'Insert bar line');
+                }}
+                onToggleTie={handleToggleTie}
+                onMarkAction={handleMarkAction}
+                onTupletAction={handleTupletAction}
+                onToggleRecord={handleToggleRecord}
+                onApplyRecord={handleApplyRecord}
+                onDiscardRecord={handleDiscardRecord}
+                pendingRecordCount={pendingRecordCount}
+              />
+              <NotationDurationToolbar
             session={session}
             dispatch={dispatch}
             onToggleNoteInput={function() {
@@ -1439,10 +1947,24 @@ export default function NotationEditor(props) {
                 applyEvents(changeSelectedDuration(s, key, s.dotted), EDITOR_VIEWS.STAFF, 'Change duration');
               }
             }}
+            onApplyAccidental={function(value) {
+              if (value == null) {
+                dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: null });
+                return;
+              }
+              handleShortcutAction({ action: 'accidental', value: value });
+            }}
             onInsertSystemBreak={function() {
               insertLayout(insertSystemBreakAtCaret, 'Insert system break');
             }}
           />
+            </div>
+            {props.toolbarEnd ? (
+              <div className="notation-toolbar-end" style={{ marginLeft: 'auto', flex: '0 0 auto' }}>
+                {props.toolbarEnd}
+              </div>
+            ) : null}
+          </div>
         </div>
       ) : null}
 

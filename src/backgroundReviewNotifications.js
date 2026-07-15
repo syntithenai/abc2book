@@ -4,13 +4,14 @@ import { subscribeBackgroundReviewQueue } from './backgroundReviewQueue'
 import { syncBackgroundReviewToast } from './backgroundReviewToast'
 import {
   isImportReviewUiVisible,
-  showImportReviewUi,
+  openImportReviewFromToast,
   subscribeImportReviewSession,
 } from './importReviewSessionStore'
 import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
 import {
   subscribe as subscribeFieldLookupQueue,
 } from './tuneFieldLookupQueue'
+import { subscribeFileOcrJobs } from './fileOcrJobs'
 
 export default function BackgroundReviewNotifications(props) {
   const navigate = useNavigate()
@@ -19,7 +20,7 @@ export default function BackgroundReviewNotifications(props) {
 
   useEffect(function() {
     function navigateToReview() {
-      showImportReviewUi()
+      openImportReviewFromToast()
       navigate('/review')
     }
 
@@ -41,6 +42,7 @@ export default function BackgroundReviewNotifications(props) {
       subscribeImportReviewSession(refreshToast),
       subscribeMediaAnalysisJobs(refreshToast),
       subscribeFieldLookupQueue(refreshToast),
+      subscribeFileOcrJobs(refreshToast),
     ]
     return function cleanup() {
       unsubs.forEach(function(unsub) { unsub() })

@@ -1,12 +1,13 @@
 import { getMediaPlaybackSettings, audioFiltersAreNeutral, playbackNeedsExternalProcessing } from './pitchTempoUtils'
 import { applyPlaybackSettingsOffline } from './processedMediaExport'
-import { mixStemBuffersOffline, loadStemBuffersForSource, encodeAudioBufferToWav } from './nativeFilteredMedia'
+import { mixStemBuffersOffline, loadStemBuffersForSource } from './nativeFilteredMedia'
 import { getExternalMediaMp3Blob } from './externalMediaAudioCache'
-import MP3Converter from './MP3Converter'
+import { encodeAudioBuffer } from './audioCompressEncode'
+import { getAudioCompressFormat, normalizeAudioCompressFormat } from './audioCompressSettings'
 import { triggerBlobDownload } from './processedMediaExport'
 import { trimAudioBuffer, getLinkTrimBounds } from './mediaAudioTrim'
 
-async function decodeCachedMp3(blob) {
+async function decodeCachedAudio(blob) {
   const arrayBuffer = await blob.arrayBuffer()
   const decodeModule = await import('audio-decode')
   const decode = decodeModule.default || decodeModule
@@ -14,15 +15,15 @@ async function decodeCachedMp3(blob) {
 }
 
 function normalizeAudioFormat(audioFormat) {
-  return audioFormat === 'wav' ? 'wav' : 'mp3'
+  if (audioFormat === null || audioFormat === undefined || audioFormat === '') {
+    return getAudioCompressFormat()
+  }
+  return normalizeAudioCompressFormat(audioFormat)
 }
 
 async function encodeBufferForExport(buffer, audioFormat) {
-  if (normalizeAudioFormat(audioFormat) === 'wav') {
-    return encodeAudioBufferToWav(buffer)
-  }
-  const converter = new MP3Converter()
-  return converter.convertAudioBuffer(buffer, { bitRate: 96 })
+  const encoded = await encodeAudioBuffer(buffer, normalizeAudioFormat(audioFormat))
+  return encoded.blob
 }
 
 function exportNeedsProcessing(settings, link, trim) {
@@ -33,7 +34,7 @@ function exportNeedsProcessing(settings, link, trim) {
 }
 
 async function loadSourceBuffer(options) {
-  const mp3 = await getExternalMediaMp3Blob({
+  const cached = await getExternalMediaMp3Blob({
     tuneId: options.tuneId,
     linkIndex: options.linkIndex,
     src: options.src,
@@ -41,10 +42,10 @@ async function loadSourceBuffer(options) {
     youtubeGetId: options.youtubeGetId,
     accessToken: options.accessToken,
   })
-  if (!mp3 || !mp3.blob) {
+  if (!cached || !cached.blob) {
     throw new Error('Could not load audio for export')
   }
-  return decodeCachedMp3(mp3.blob)
+  return decodeCachedAudio(cached.blob)
 }
 
 export async function buildTuneMediaExportBlob(options) {
@@ -71,22 +72,27 @@ export async function buildTuneMediaExportBlob(options) {
   }
 
   if (!exportNeedsProcessing(settings, link, trim)) {
-    const mp3 = await getExternalMediaMp3Blob(loadOptions)
-    if (!mp3 || !mp3.blob) {
+    const cached = await getExternalMediaMp3Blob(loadOptions)
+    if (!cached || !cached.blob) {
       throw new Error('Could not load audio for export')
     }
-    if (audioFormat === 'mp3') {
+    const cachedFormat = cached.audioFormat || null
+    // Reuse cache blob when it already matches the requested export format.
+    if (cachedFormat === audioFormat || (!cachedFormat && audioFormat === 'mp3')) {
       return {
-        blob: mp3.blob,
-        duration: mp3.duration || 0,
-        fromCache: !!mp3.cached,
+        blob: cached.blob,
+        duration: cached.duration || 0,
+        fromCache: !!cached.cached,
+        audioFormat: audioFormat,
       }
     }
-    const buffer = await decodeCachedMp3(mp3.blob)
+    const buffer = await decodeCachedAudio(cached.blob)
+    const encoded = await encodeAudioBuffer(buffer, audioFormat)
     return {
-      blob: encodeAudioBufferToWav(buffer),
-      duration: mp3.duration || buffer.duration || 0,
-      fromCache: !!mp3.cached,
+      blob: encoded.blob,
+      duration: cached.duration || buffer.duration || 0,
+      fromCache: !!cached.cached,
+      audioFormat: encoded.format,
     }
   }
 
@@ -128,10 +134,11 @@ export async function buildTuneMediaExportBlob(options) {
   }
 
   const processed = await applyPlaybackSettingsOffline(buffer, settings)
-  const blob = await encodeBufferForExport(processed, audioFormat)
+  const encoded = await encodeAudioBuffer(processed, audioFormat)
   return {
-    blob: blob,
+    blob: encoded.blob,
     duration: processed.duration,
+    audioFormat: encoded.format,
   }
 }
 

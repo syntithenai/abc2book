@@ -12,6 +12,7 @@ const {
   sleep,
   resetNotationFixture,
   clickStaffForNoteInput,
+  ensureNormalMode,
 } = require('./helpers')
 const { assertEvents, assertVoiceAbc, assertNoteSteps, assertSelectionMatchesClick } = require('./notation-assertions')
 
@@ -55,7 +56,7 @@ async function runStaffFullTests(page, ctx) {
     if (Math.abs(beats - 2) > 0.01) {
       throw new Error('duration key 5 should insert half note (2 beats), got durationBeats=' + beats)
     }
-    await assertVoiceAbc(page, 'C D E F A2 |', 'half note A2 appended')
+    await assertVoiceAbc(page, 'C D E F | A2', 'half note A2 appended')
   })
 
   await runScenario(results, 'P1: sharp carry then g inserts sharp', async function() {
@@ -70,7 +71,33 @@ async function runStaffFullTests(page, ctx) {
     const afterCarry = await page.evaluate(function() { return window.__abc2bookNotationTest.getAccidentalCarry() })
     if (afterCarry != null) throw new Error('accidental carry should clear after insert')
     await assertNoteSteps(page, ['C', 'D', 'E', 'F', 'G#1'], 'sharp G appended')
-    await assertVoiceAbc(page, 'C D E F ^G2 |', 'sharp G in ABC')
+    await assertVoiceAbc(page, 'C D E F | ^G2', 'sharp G in ABC')
+  })
+
+  await runScenario(results, 'P1: select once then sharp applies to selection (committed ABC)', async function() {
+    await gotoBasic(page)
+    await ensureNormalMode(page)
+    const centers = await staffNoteCenters(page, 0)
+    await page.mouse.click(centers[1].x, centers[1].y)
+    await sleep(150)
+    // Select once — no re-click; + must apply to selection, not become carry.
+    await pressKey(page, '+')
+    await sleep(300)
+    const state = await page.evaluate(function() {
+      const h = window.__abc2bookNotationTest
+      const events = h.getSessionEvents()
+      const d = events.find(function(ev) { return ev.type === 'note' && ev.pitch && ev.pitch.step === 'D' })
+      return {
+        acc: d && d.pitch ? d.pitch.accidental : null,
+        abc: (h.getCommittedVoiceAbc && h.getCommittedVoiceAbc()) || h.getVoiceAbc(),
+        carry: h.getAccidentalCarry(),
+      }
+    })
+    if (state.acc !== 1) throw new Error('selected D should be sharp, accidental=' + state.acc)
+    if (String(state.abc).indexOf('^') < 0) {
+      throw new Error('committed ABC should contain ^ for sharp D, got: ' + state.abc)
+    }
+    if (state.carry === 1) throw new Error('sharp must apply to selection, not silently become carry')
   })
 
   await runScenario(results, 'P1: Shift+G adds chord tone', async function() {
@@ -89,7 +116,7 @@ async function runStaffFullTests(page, ctx) {
     }
     const steps = chord.pitches.map(function(p) { return p.step }).sort().join('')
     if (steps !== 'CG') throw new Error('expected C+G chord, got steps ' + steps)
-    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'chord:C5+G5:2', 'bar:|'], 'chord appended at end')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'bar:|', 'chord:C4+G4:2'], 'chord appended at end')
   })
 
   await runScenario(results, 'P1: virtual piano click inserts note', async function() {
@@ -176,10 +203,10 @@ async function runStaffFullTests(page, ctx) {
     await sleep(200)
     await pressKey(page, 'q')
     await sleep(200)
-    await assertEvents(page, ['note:C5:0.5', 'note:D5', 'note:E5', 'note:F5', 'bar:|'], 'Q halves C duration')
+    await assertEvents(page, ['note:C4:0.5', 'note:D4', 'note:E4', 'note:F4', 'bar:|'], 'Q halves C duration')
     await pressKey(page, 'w')
     await sleep(200)
-    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'bar:|'], 'W restores C duration')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'bar:|'], 'W restores C duration')
   })
 
   await runScenario(results, 'P1: Ctrl+C/V clipboard round-trip', async function() {
@@ -205,7 +232,7 @@ async function runStaffFullTests(page, ctx) {
     if (!pt) throw new Error('no second system line on multiline tune')
     await page.mouse.click(pt.x, pt.y)
     await sleep(250)
-    await assertSelectionMatchesClick(page, 'note:D4', 'line-2 d selected via DOM click')
+    await assertSelectionMatchesClick(page, 'note:D5', 'line-2 d selected via DOM click')
   })
 
   await runScenario(results, 'P1: K:G fixture note input and transpose', async function() {

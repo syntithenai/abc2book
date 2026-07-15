@@ -1,6 +1,6 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
-import {useState, useEffect, useCallback} from 'react'
+import {useState, useEffect, useCallback, useRef} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
@@ -9,6 +9,8 @@ import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
 import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
 import { normalizeEditorViewMode } from '../viewModeUtils'
+import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
+import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
 
 export default function MusicEditor(props) {
     const { tunebook, forceRefresh } = props
@@ -66,6 +68,22 @@ export default function MusicEditor(props) {
       trackEditorOpen()
     },[])
 
+    const leaveWarnedRef = useRef(false)
+    function warnIfJobsContinuing() {
+      if (leaveWarnedRef.current) return
+      const summary = getBackgroundReviewSummary()
+      if (summary && summary.processing > 0) {
+        leaveWarnedRef.current = true
+        showBackgroundJobsContinuingNotice({ summary: summary })
+      }
+    }
+
+    useEffect(function() {
+      return function() {
+        warnIfJobsContinuing()
+      }
+    }, [])
+
     useEffect(function() {
         function handleHistoryShortcut(event) {
             if (!tuneId || props.blockKeyboardShortcuts) return
@@ -108,7 +126,10 @@ export default function MusicEditor(props) {
     return <div className={'music-editor' + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
         <div className="music-editor-buttons">
             <div className="music-editor-buttons-left">
-                <Button className="btn-secondary music-editor-close-btn" onClick={function() { navigate('/tunes/' + tune.id); }}>{props.tunebook.icons.close}</Button>
+                <Button className="btn-secondary music-editor-close-btn" onClick={function() {
+                  warnIfJobsContinuing()
+                  navigate('/tunes/' + tune.id)
+                }}>{props.tunebook.icons.close}</Button>
                 <ButtonGroup className="music-editor-history-group">
                     <Button title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'} disabled={!canUndo} variant="secondary" className="btn-secondary" onClick={handleUndo}>{props.tunebook.icons.arrowgoback}</Button>
                     <Button title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'} disabled={!canRedo} variant="secondary" className="btn-secondary" onClick={handleRedo}>{props.tunebook.icons.arrowgoforward}</Button>
@@ -124,7 +145,11 @@ export default function MusicEditor(props) {
                       tuneId={tune && tune.id}
                       kind="notation"
                       fallbackTitle={tune && tune.name ? tune.name : ''}
-                      onApply={function(candidate) {
+                      currentValue={tune && tune.notes
+                        ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
+                        : ''}
+                      onApply={function(candidate, _job, meta) {
+                        if (meta && (meta.deferred || meta.keepCurrent)) return
                         if (!candidate || !candidate.abc || !tune || !props.tunebook) return
                         const imported = props.tunebook.abcTools.abc2json(candidate.abc)
                         if (imported) {

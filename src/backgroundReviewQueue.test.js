@@ -6,6 +6,7 @@ import {
 import {
   setImportReviewSession,
   clearImportReviewSession,
+  getImportReviewSession,
   __resetImportReviewSessionStoreForTests,
 } from './importReviewSessionStore'
 import { patchMediaAnalysisJob } from './mediaAnalysisJobs'
@@ -71,6 +72,21 @@ describe('backgroundReviewQueue', function() {
     expect(summary.ready).toBe(0)
   })
 
+  test('does not count Add-form candidate draft searches as Review queue items', function() {
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      candidateId: 'add-cand-1',
+      kind: 'chords',
+      title: 'Summer of 69',
+      candidates: [{ chordText: 'D A Bm G', lyricText: 'I got my first real six-string', source: 'web' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    expect(id).toBeTruthy()
+    const summary = getBackgroundReviewSummary()
+    expect(summary.fieldLookupAwaiting).toEqual([])
+    expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
+    expect(summary.ready).toBe(0)
+  })
+
   test('counts awaiting field lookup jobs ready for review', function() {
     const id = tuneFieldLookupQueue.seedAwaitingLookup({
       tuneId: 't1',
@@ -101,5 +117,71 @@ describe('backgroundReviewQueue', function() {
     const summary = getBackgroundReviewSummary()
     expect(summary.fieldLookupAwaiting).toEqual([])
     expect(summary.fieldLookupAwaitingJobs.length).toBe(0)
+  })
+
+  test('does not count blank Add-tunes drafts as ready for review', function() {
+    setImportReviewSession({
+      candidates: [{ id: 'c1', addDraft: true, sourceKind: 'manual', tune: { name: '' } }],
+      enrichmentJobs: [],
+      importedCandidateIds: {},
+      step: 'review',
+      phase: 'identify',
+      entryMode: 'add',
+    })
+    const summary = getBackgroundReviewSummary()
+    expect(summary.importReady).toBe(0)
+    expect(summary.ready).toBe(0)
+  })
+
+  test('counts parked review candidates while an Add draft is open', function() {
+    setImportReviewSession({
+      candidates: [
+        { id: 'add-1', addDraft: true, sourceKind: 'manual', tune: { name: '' } },
+        { id: 'review-1', sourceKind: 'manual', tune: { name: 'Prior' } },
+      ],
+      enrichmentJobs: [
+        { id: 'j1', candidateId: 'review-1', status: 'pending' },
+      ],
+      importedCandidateIds: {},
+      step: 'review',
+      phase: 'enrichment',
+      entryMode: 'add',
+      index: 0,
+    })
+    const summary = getBackgroundReviewSummary()
+    expect(summary.importTotal).toBe(1)
+    expect(summary.importProcessing).toBe(1)
+    expect(summary.importReady).toBe(0)
+  })
+
+  test('does not count finished import sessions as ready', function() {
+    setImportReviewSession({
+      candidates: [{ id: 'c1' }],
+      enrichmentJobs: [],
+      importedCandidateIds: {},
+      step: 'done',
+      phase: 'identify',
+    })
+    expect(getImportReviewSession()).toBe(null)
+    const summary = getBackgroundReviewSummary()
+    expect(summary.importReady).toBe(0)
+    expect(summary.ready).toBe(0)
+  })
+
+  test('orphan review links are cleared so jobs count again until re-promoted', function() {
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Wonderwall',
+      candidates: [{ artist: 'Oasis', source: 'web' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    tuneFieldLookupQueue.linkFieldLookupToReviewCandidate(id, 'missing-candidate')
+    expect(getBackgroundReviewSummary().ready).toBe(0)
+
+    const cleared = tuneFieldLookupQueue.clearOrphanFieldLookupReviewLinks(null)
+    expect(cleared).toBe(1)
+    expect(getBackgroundReviewSummary().ready).toBe(1)
+    expect(getBackgroundReviewSummary().fieldLookupAwaiting).toEqual([id])
   })
 })

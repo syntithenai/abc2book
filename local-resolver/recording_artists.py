@@ -3,6 +3,8 @@ from urllib.parse import quote
 
 import httpx
 
+from notation_title_variants import notation_title_variants
+
 BROWSER_USER_AGENT = (
     "Mozilla/5.0 (compatible; ABC2BookResolver/1.0; +https://tunebook.net)"
 )
@@ -145,62 +147,64 @@ async def _discover_writers_from_work(client, work_id):
     return list(writers.values())
 
 
-async def discover_work_writers(client, title, max_writers=6, max_works=3):
-    """Find composers/lyricists/writers for a song via MusicBrainz works."""
+async def discover_work_writers(client, title, max_writers=6, max_works=8):
+    """Find composers/lyricists/writers for a song via MusicBrainz works.
+
+    Tries claire/clair/clare title variants and collects writers from all
+    exact-title works with score >= 70 (homonymous songs are common).
+    """
     title = (title or "").strip()
     if not title:
         return []
 
     writers = {}
-    try:
-        response = await client.get(
-            "https://musicbrainz.org/ws/2/work",
-            params={
-                "query": f'work:"{title}"',
-                "fmt": "json",
-                "limit": 8,
-            },
-            headers={"User-Agent": BROWSER_USER_AGENT},
-        )
-        response.raise_for_status()
-        works = (response.json() or {}).get("works") or []
-    except Exception:
-        return []
-
     exact_works = []
-    for work in works:
-        work_title = work.get("title") or ""
-        if not _work_title_matches(work_title, title):
+    seen_work_ids = set()
+
+    for search_title in notation_title_variants(title):
+        try:
+            response = await client.get(
+                "https://musicbrainz.org/ws/2/work",
+                params={
+                    "query": f'work:"{search_title}"',
+                    "fmt": "json",
+                    "limit": 15,
+                },
+                headers={"User-Agent": BROWSER_USER_AGENT},
+            )
+            response.raise_for_status()
+            works = (response.json() or {}).get("works") or []
+        except Exception:
             continue
-        score = work.get("score")
-        if score is None:
-            score = 0
-        if score < 70:
-            continue
-        if not work.get("id"):
-            continue
-        exact_works.append((score, work))
+
+        for work in works:
+            work_id = work.get("id")
+            if not work_id or work_id in seen_work_ids:
+                continue
+            work_title = work.get("title") or ""
+            if not _work_title_matches(work_title, search_title):
+                continue
+            score = work.get("score")
+            if score is None:
+                score = 0
+            if score < 70:
+                continue
+            seen_work_ids.add(work_id)
+            exact_works.append((score, work))
 
     if not exact_works:
         return []
 
     exact_works.sort(key=lambda item: item[0], reverse=True)
-    best_score = exact_works[0][0]
-    # Prefer the best-matching work(s); ignore lower-scoring same-title works
-    # (e.g. unrelated songs that share a common title).
-    exact_works = [work for score, work in exact_works if score >= best_score - 5][:max_works]
+    selected = [work for _score, work in exact_works][:max_works]
 
-    for work in exact_works:
+    for work in selected:
         if len(writers) >= max_writers:
             break
         for name in await _discover_writers_from_work(client, work.get("id")):
             _add_artist(writers, name)
             if len(writers) >= max_writers:
                 break
-        # Once the top-scoring work yields writers, stop — lower-score
-        # same-title works are usually different compositions.
-        if writers:
-            break
 
     return list(writers.values())[:max_writers]
 

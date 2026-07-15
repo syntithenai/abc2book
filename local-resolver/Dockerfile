@@ -107,8 +107,10 @@ RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 COPY --from=autochord-env /opt/autochord-venv /opt/autochord-venv
 COPY --from=autochord-env /root/.autochord /root/.autochord
-# Demucs htdemucs weights are prefetched into the torch hub cache; copy it so
+# Demucs 4.1+ prefetches bag models (htdemucs, …) into the HuggingFace hub
+# cache; legacy AWS fallbacks still use the torch hub cache. Copy both so
 # stem separation works offline at runtime (otherwise it re-downloads).
+COPY --from=autochord-env /root/.cache/huggingface /root/.cache/huggingface
 COPY --from=autochord-env /root/.cache/torch /root/.cache/torch
 ENV VISION_VENV=/opt/vision-venv
 ENV VISION_CACHE_ROOT=/opt/vision-cache
@@ -133,6 +135,7 @@ RUN mkdir -p /opt/autochord-libs \
     && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python3
 
 COPY server.py /app/server.py
+COPY oauth_bff.py /app/oauth_bff.py
 COPY subprocess_utils.py /app/subprocess_utils.py
 COPY recording_artists.py /app/recording_artists.py
 COPY background_markdown_links.py /app/background_markdown_links.py
@@ -141,6 +144,10 @@ COPY browser_fetch.py /app/browser_fetch.py
 COPY page_title_meta.py /app/page_title_meta.py
 COPY chords_fetch.py /app/chords_fetch.py
 COPY notation_fetch.py /app/notation_fetch.py
+COPY notation_title_variants.py /app/notation_title_variants.py
+COPY musescore_fetch.py /app/musescore_fetch.py
+COPY midi_convert.py /app/midi_convert.py
+COPY midi_fetch.py /app/midi_fetch.py
 COPY lyrics_fetch.py /app/lyrics_fetch.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
 COPY composer_discovery.py /app/composer_discovery.py

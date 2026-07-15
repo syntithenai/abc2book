@@ -13,6 +13,10 @@ import {
   shouldOfferGenreSuggestion,
 } from '../genreInference'
 
+/**
+ * Multi-source ABC notation search. Always Review mode — no Auto/Review dialog,
+ * never silent-applies the first hit.
+ */
 export default function NotationSearchButton({
   tuneId,
   candidateId,
@@ -29,9 +33,10 @@ export default function NotationSearchButton({
   resolverAvailable: resolverAvailableProp,
   inline,
   songType,
+  /** Kept for TuneRecordForm API; picker always opens when results arrive. */
+  leaveAwaiting = false,
 }) {
   const [error, setError] = useState('')
-  const [source, setSource] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const [genreSuggestion, setGenreSuggestion] = useState(null)
@@ -39,13 +44,12 @@ export default function NotationSearchButton({
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
     : resolverAvailableFromHealth
-  const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
 
   function finishApply(result, jobId) {
+    // Review-mode applyFieldLookupChoice defers saving to the form callback.
     if (jobId) applyFieldLookupChoice(jobId, result)
     if (typeof onNotation === 'function') onNotation(result)
-    setSource(result && result.source ? result.source : '')
     if (typeof onGenreAccept === 'function' && result) {
       const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
         title: title,
@@ -67,20 +71,14 @@ export default function NotationSearchButton({
     kind: 'notation',
     onAwaiting: function(job) {
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (searchModeRef.current === 'review') {
-        if (candidates.length === 0) {
-          setError('No notation found for this song')
-          return
-        }
-        setPickerCandidates(candidates)
-        setShowPicker(true)
+      if (candidates.length === 0) {
+        setError('No notation found for this song')
         return
       }
-      if (candidates.length >= 1) {
-        applyRef.current(candidates[0], job.id)
-        return
-      }
-      setError('No notation found for this song')
+      // Always open the gallery picker. FieldLookupReviewButton remains as a
+      // fallback if the user dismisses without choosing.
+      setPickerCandidates(candidates)
+      setShowPicker(true)
     },
     onError: function(job) {
       setError(job.error || 'Notation search failed')
@@ -94,29 +92,50 @@ export default function NotationSearchButton({
   const busy = lookup.busy
   const canSearch = !!(title && (tuneId || candidateId))
 
+  function openAwaitingPicker(job) {
+    const candidates = job && Array.isArray(job.candidates) ? job.candidates : []
+    if (candidates.length === 0) return false
+    setError('')
+    setPickerCandidates(candidates)
+    setShowPicker(true)
+    return true
+  }
+
   function run(mode) {
-    if (!canSearch) return
+    if (!canSearch) {
+      setError(!(title || '').trim()
+        ? 'Enter a title first'
+        : 'Open a saved tune (or an Add/Import draft) to search notation')
+      return
+    }
     if (busy) {
       lookup.cancel()
       return
     }
-    const searchMode = mode === 'review' ? 'review' : 'auto'
-    searchModeRef.current = searchMode
+    // Re-click while results are awaiting: reopen picker instead of silently no-op.
+    const active = lookup.activeJob
+    if (active && active.status === 'awaiting' && openAwaitingPicker(active)) {
+      return
+    }
+    // Always Review — ignore any Auto mode from shared button chrome.
+    void mode
     setError('')
-    setSource('')
     setShowPicker(false)
     setPickerCandidates([])
-    lookup.startSearch({
+    const started = lookup.startSearch({
       title: title,
       artist: artist || '',
       tuneName: title,
       accessToken: token,
-      options: buildSearchModeOptions(searchMode, { songType: songType }),
+      options: buildSearchModeOptions('review', { songType: songType }),
       searchOptions: {
         resolverAvailable: resolverAvailable,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
       },
     })
+    if (!started) {
+      setError('Could not start notation search')
+    }
   }
 
   return (
@@ -131,6 +150,8 @@ export default function NotationSearchButton({
         buttonStyle={buttonStyle}
         searchIcon={searchIcon}
         inline={inline}
+        confirmSearchMode={false}
+        defaultSearchMode="review"
       />
       <SearchProgressBar
         visible={busy}
@@ -139,9 +160,6 @@ export default function NotationSearchButton({
         defaultMessage="Searching for notation..."
       />
       {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-      {source && !error ? (
-        <Alert variant="success" className="mt-2 mb-0">Notation from {source}</Alert>
-      ) : null}
       <GenreSuggestionOffer
         suggestion={genreSuggestion}
         onAccept={function(genre) {
@@ -153,12 +171,15 @@ export default function NotationSearchButton({
       <SearchResultPickerModal
         show={showPicker}
         title="Choose notation"
+        layout="notation"
         items={pickerCandidates.map(function(candidate) {
           return {
             title: candidate.title || title,
             artist: candidate.artist || artist || '',
             preview: candidate.preview || candidate.abc || '',
+            abc: candidate.abc || candidate.preview || '',
             source: candidate.source || '',
+            sourceUrl: candidate.sourceUrl || '',
           }
         })}
         onSelect={function(item, index) {

@@ -64,9 +64,11 @@ function sortDrawablesReadingOrder(elements) {
     const lineA = elementClassNumber(a, 'abcjs-l');
     const lineB = elementClassNumber(b, 'abcjs-l');
     if (lineA != null && lineB != null && lineA !== lineB) return lineA - lineB;
-    const noteA = elementClassNumber(a, 'abcjs-n');
-    const noteB = elementClassNumber(b, 'abcjs-n');
-    if (noteA != null && noteB != null && noteA !== noteB) return noteA - noteB;
+    // Never sort by abcjs-n alone — that class resets every measure (Copper Kettle:
+    // A2A2^F2BE| GGFE made second-measure notes collide with first-measure ordinals).
+    const measureA = elementClassNumber(a, 'abcjs-m');
+    const measureB = elementClassNumber(b, 'abcjs-m');
+    if (measureA != null && measureB != null && measureA !== measureB) return measureA - measureB;
     return a.getBoundingClientRect().left - b.getBoundingClientRect().left;
   });
 }
@@ -268,6 +270,33 @@ export function barlineElementsForVoice(wrapEl, voiceStaffIndex) {
   return lines[idx] || all;
 }
 
+/**
+ * With abcjs dragging={false}, note paths often have no hit-testing, so
+ * elementFromPoint lands on the parent <svg>. Fall back to bounding-box hit.
+ */
+function findStaffNoteElByGeometry(wrapEl, clientX, clientY) {
+  if (!wrapEl || clientX == null || clientY == null) return null;
+  const notes = noteElementsIn(staffRenderRoot(wrapEl));
+  let best = null;
+  let bestArea = Infinity;
+  for (let i = 0; i < notes.length; i += 1) {
+    const el = notes[i];
+    const rect = el.getBoundingClientRect();
+    if (rect.width <= 0 || rect.height <= 0) continue;
+    // Slight pad so stem/edge clicks still count as the glyph.
+    if (clientX < rect.left - 2 || clientX > rect.right + 2
+      || clientY < rect.top - 2 || clientY > rect.bottom + 2) {
+      continue;
+    }
+    const area = rect.width * rect.height;
+    if (area < bestArea) {
+      bestArea = area;
+      best = el;
+    }
+  }
+  return best;
+}
+
 export function findStaffClickNoteEl(wrapEl, analysis, mouseEvent) {
   if (!wrapEl) return null;
   if (mouseEvent && typeof document.elementFromPoint === 'function') {
@@ -296,6 +325,9 @@ export function findStaffClickNoteEl(wrapEl, analysis, mouseEvent) {
         if (cls[i].indexOf('abcjs-note') >= 0 || cls[i].indexOf('abcjs-rest') >= 0) return sel;
       }
     }
+  }
+  if (mouseEvent) {
+    return findStaffNoteElByGeometry(wrapEl, mouseEvent.clientX, mouseEvent.clientY);
   }
   return null;
 }
@@ -363,14 +395,19 @@ export function findDrawableDomIndex(drawables, noteEl) {
     lNum = elementClassNumber(noteEl.parentNode, 'abcjs-l');
   }
   if (nNum != null) {
-    // Prefer exact line match; never return a different system line's note.
+    // Prefer exact line + measure match; abcjs-n alone resets every measure.
+    const mNum = elementClassNumber(noteEl, 'abcjs-m')
+      || (noteEl.parentNode ? elementClassNumber(noteEl.parentNode, 'abcjs-m') : null);
     let fallback = -1;
     for (let j = 0; j < drawables.length; j += 1) {
       if (elementClassNumber(drawables[j], 'abcjs-n') !== nNum) continue;
       const drawableLine = elementClassNumber(drawables[j], 'abcjs-l');
-      if (lNum != null && drawableLine != null) {
-        if (drawableLine === lNum) return j;
-        continue;
+      const drawableMeasure = elementClassNumber(drawables[j], 'abcjs-m');
+      if (lNum != null && drawableLine != null && drawableLine !== lNum) continue;
+      if (mNum != null && drawableMeasure != null && drawableMeasure !== mNum) continue;
+      if (lNum != null && drawableLine != null && drawableLine === lNum
+        && (mNum == null || drawableMeasure == null || drawableMeasure === mNum)) {
+        return j;
       }
       if (fallback < 0) fallback = j;
     }
@@ -426,6 +463,19 @@ function clickHitsNote(noteEl, clickX, clickY) {
  * When the click lands on a note/rest glyph, also returns hitEventIndex (the event under the
  * pointer) so selection can pin that note even if caretIndex is "after" (right-half bisect).
  */
+function onlyTrailingLayoutAfter(list, index) {
+  for (let i = index; i < list.length; i += 1) {
+    const t = list[i].type;
+    if (t !== 'barline' && t !== 'lineBreak') return false;
+  }
+  return true;
+}
+
+function terminalAppendIndex(list, afterNoteIndex) {
+  if (!onlyTrailingLayoutAfter(list, afterNoteIndex)) return afterNoteIndex;
+  return list.length;
+}
+
 function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, clickX, clickY, wrapRect, wrapEl) {
   if (clickX == null) return null;
 
@@ -454,14 +504,17 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
     const barDomIdx = bars.indexOf(el);
     if (barDomIdx < 0) return;
     const barEventIdx = eventIndexForBarDomIndex(list, barDomIdx);
+    const trailing = onlyTrailingLayoutAfter(list, barEventIdx);
     targets.push({
       kind: 'bar',
       el: el,
       left: rect.left,
-      right: rect.right + 4,
+      // Wide hit area past the final bar so "click after last note" can reach append.
+      right: rect.right + (trailing ? 64 : 4),
       mid: rect.left + Math.max(rect.width, 1) * 0.5,
       rect: rect,
       barEventIdx: barEventIdx,
+      trailing: trailing,
     });
   });
 
@@ -482,9 +535,10 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
           anchor: anchorAtClick(clickX, clickY, sortedNotes.length ? sortedNotes : [t.el], wrapRect, wrapEl),
         };
       }
+      // Gap before bar: terminal trailing bar → append after |; mid-score empty measure → bar index.
       return {
-        caretIndex: t.barEventIdx,
-        anchor: anchorFromRect(t.rect, wrapRect, false, wrapEl),
+        caretIndex: t.trailing ? list.length : t.barEventIdx,
+        anchor: anchorFromRect(t.rect, wrapRect, !!t.trailing, wrapEl),
       };
     }
 
@@ -492,12 +546,28 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
       const insertAfter = clickX >= t.mid;
       if (t.kind === 'note') {
         const noteIdx = caretIndexForDrawableDomIndex(list, t.domIdx, false);
+        const afterNote = caretIndexForDrawableDomIndex(list, t.domIdx, insertAfter);
+        // Right half of final note before only trailing bars → true end (after |).
+        if (insertAfter && terminalAppendIndex(list, afterNote) === list.length) {
+          return {
+            caretIndex: list.length,
+            hitEventIndex: noteIdx,
+            anchor: anchorFromRect(t.rect, wrapRect, true, wrapEl),
+          };
+        }
         return {
-          caretIndex: caretIndexForDrawableDomIndex(list, t.domIdx, insertAfter),
+          caretIndex: afterNote,
           hitEventIndex: noteIdx,
           anchor: insertAfter
             ? anchorFromRect(t.rect, wrapRect, true, wrapEl)
             : anchorFromRect(t.rect, wrapRect, false, wrapEl),
+        };
+      }
+      // On/past a trailing final bar → always append at end.
+      if (t.trailing) {
+        return {
+          caretIndex: list.length,
+          anchor: anchorFromRect(t.rect, wrapRect, true, wrapEl),
         };
       }
       return {
@@ -511,17 +581,51 @@ function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, 
 
   if (targets.length) {
     const last = targets[targets.length - 1];
-    if (last.kind === 'note') {
-      const noteIdx = caretIndexForDrawableDomIndex(list, last.domIdx, false);
+    // Past every note on this line (with or without a trailing bar): append when no
+    // further music events follow after that note — covers Copper-style `| GGFE` endings.
+    const rightmostNote = targets.reduce(function(best, t) {
+      if (t.kind !== 'note') return best;
+      if (!best || t.right >= best.right) return t;
+      return best;
+    }, null);
+    if (rightmostNote && clickX > rightmostNote.right) {
+      const afterNote = caretIndexForDrawableDomIndex(list, rightmostNote.domIdx, true);
+      let caret = afterNote;
+      let musicAfter = false;
+      for (let j = afterNote; j < list.length; j += 1) {
+        if (isStaffDrawableEvent(list[j])) {
+          musicAfter = true;
+          break;
+        }
+      }
+      if (!musicAfter) caret = list.length;
       return {
-        caretIndex: caretIndexForDrawableDomIndex(list, last.domIdx, true),
-        hitEventIndex: noteIdx,
-        anchor: anchorAtClick(clickX, clickY, sortedNotes, wrapRect, wrapEl),
+        caretIndex: caret,
+        anchor: anchorAtClick(
+          clickX,
+          clickY,
+          sortedNotes.length ? sortedNotes : [rightmostNote.el],
+          wrapRect,
+          wrapEl
+        ),
       };
     }
+    if (last.kind === 'bar') {
+      return {
+        caretIndex: last.trailing ? list.length : Math.min(last.barEventIdx + 1, list.length),
+        anchor: anchorFromRect(last.rect, wrapRect, true, wrapEl),
+      };
+    }
+    const afterNote = caretIndexForDrawableDomIndex(list, last.domIdx, true);
     return {
-      caretIndex: last.barEventIdx + 1,
-      anchor: anchorFromRect(last.rect, wrapRect, true, wrapEl),
+      caretIndex: terminalAppendIndex(list, afterNote),
+      anchor: anchorAtClick(
+        clickX,
+        clickY,
+        sortedNotes.length ? sortedNotes : [last.el],
+        wrapRect,
+        wrapEl
+      ),
     };
   }
 
@@ -548,7 +652,8 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
   const clickX = mouseEvent ? mouseEvent.clientX : null;
   const clickY = mouseEvent ? mouseEvent.clientY : null;
   const lineDrawables = systemLineForClick(drawables, clickY, wrapEl);
-  const lineBars = elementsOnSameSystemLine(bars, clickY);
+  // Bars are thin vertical strokes — widen Y so a click at notehead height still sees them.
+  const lineBars = elementsOnSameSystemLine(bars, clickY, 48);
 
   if (clickX != null && (lineDrawables.length || lineBars.length)) {
     const fromLine = caretFromLineDrawables(
@@ -583,7 +688,7 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
         && clickY <= staffRect.bottom + 8
       ) {
         // Prefer nearest barline/note on this staff Y rather than coarse 55% start/end.
-        const nearBars = elementsOnSameSystemLine(bars, clickY, 40);
+        const nearBars = elementsOnSameSystemLine(bars, clickY, 48);
         const nearNotes = elementsOnSameSystemLine(drawables, clickY, 40);
         if (nearBars.length || nearNotes.length) {
           const fromNear = caretFromLineDrawables(
@@ -728,6 +833,7 @@ export function staffCaretAnchorRect(wrapEl, events, caretIndex, voiceStaffIndex
 export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIndex) {
   if (!wrapEl || !Array.isArray(events) || !eventIds || !eventIds.length) return [];
   const drawables = drawableElementsForVoice(wrapEl, voiceStaffIndex);
+  const bars = barlineElementsForVoice(wrapEl, voiceStaffIndex);
   const wrapRect = wrapEl.getBoundingClientRect();
   const scrollLeft = wrapEl.scrollLeft || 0;
   const scrollTop = wrapEl.scrollTop || 0;
@@ -735,8 +841,23 @@ export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIn
   eventIds.forEach(function(id) { idSet[id] = true; });
   const rects = [];
   let drawableSeen = -1;
+  let barSeen = -1;
 
   events.forEach(function(ev) {
+    if (isBarlineEvent(ev)) {
+      barSeen += 1;
+      if (!idSet[ev.id]) return;
+      const el = bars[barSeen];
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      rects.push({
+        left: rect.left - wrapRect.left + scrollLeft - 2,
+        top: rect.top - wrapRect.top + scrollTop,
+        width: Math.max(rect.width + 4, 6),
+        height: Math.max(rect.height, 12),
+      });
+      return;
+    }
     if (!isStaffDrawableEvent(ev)) return;
     drawableSeen += 1;
     if (!idSet[ev.id]) return;
@@ -752,4 +873,58 @@ export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIn
   });
 
   return rects;
+}
+
+/** Barline event under a pointer click, if any. */
+export function findBarlineEventAtClick(wrapEl, events, mouseEvent, voiceStaffIndex) {
+  if (!wrapEl || !mouseEvent || !Array.isArray(events)) return null;
+  const bars = barlineElementsForVoice(wrapEl, voiceStaffIndex);
+  const x = mouseEvent.clientX;
+  const y = mouseEvent.clientY;
+  for (let i = 0; i < bars.length; i += 1) {
+    const rect = bars[i].getBoundingClientRect();
+    if (x >= rect.left - 3 && x <= rect.right + 3
+      && y >= rect.top - 6 && y <= rect.bottom + 6) {
+      const idx = eventIndexForBarDomIndex(events, i);
+      if (idx >= 0 && events[idx] && events[idx].type === 'barline') return events[idx];
+    }
+  }
+  return null;
+}
+
+/**
+ * Select drawable + barline events whose glyph centers intersect a client-space marquee.
+ * @param {{ left: number, top: number, right: number, bottom: number }} marquee client coords
+ */
+export function staffMarqueeSelectEventIds(wrapEl, events, marquee, voiceStaffIndex) {
+  if (!wrapEl || !marquee || !Array.isArray(events)) return [];
+  const drawables = drawableElementsForVoice(wrapEl, voiceStaffIndex);
+  const bars = barlineElementsForVoice(wrapEl, voiceStaffIndex);
+  const ids = [];
+  let drawableSeen = -1;
+  let barSeen = -1;
+  const left = Math.min(marquee.left, marquee.right);
+  const right = Math.max(marquee.left, marquee.right);
+  const top = Math.min(marquee.top, marquee.bottom);
+  const bottom = Math.max(marquee.top, marquee.bottom);
+
+  function centerIn(rect) {
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    return cx >= left && cx <= right && cy >= top && cy <= bottom;
+  }
+
+  events.forEach(function(ev) {
+    if (isBarlineEvent(ev)) {
+      barSeen += 1;
+      const el = bars[barSeen];
+      if (el && centerIn(el.getBoundingClientRect())) ids.push(ev.id);
+      return;
+    }
+    if (!isStaffDrawableEvent(ev)) return;
+    drawableSeen += 1;
+    const el = drawables[drawableSeen];
+    if (el && centerIn(el.getBoundingClientRect())) ids.push(ev.id);
+  });
+  return ids;
 }

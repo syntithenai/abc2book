@@ -6,6 +6,8 @@ import Metronome from '../Metronome'
 import {
   METRONOME_ACCENT,
   METRONOME_MUTE,
+  getMetronomeVolumes,
+  setMetronomeVolumes,
 } from '../metronomeTickSounds'
 import {
   METRONOME_PULSE_OPTIONS,
@@ -72,12 +74,16 @@ const METRONOME_HELP_FIELDS = [
     body: 'Each beat has its own pulse count (1–5). Use 1 for a simple meter such as 5/4, or different values per beat for additive feels such as 3+2.',
   },
   {
+    title: 'Volume',
+    body: 'Volume controls the loudness of regular ticks and subdivisions. Accent volume controls accented beats (usually the downbeat). Both apply to every metronome in the app, including playback count-in and chord recording.',
+  },
+  {
     title: 'Reset',
     body: 'Restore the default rhythm from the tune time signature (or 4/4 when no meter is set).',
   },
   {
     title: 'Settings',
-    body: 'Tempo and rhythm choices are saved in this browser so they return the next time you open the metronome page.',
+    body: 'Tempo, rhythm, and volume choices are saved in this browser so they return the next time you open the metronome.',
   },
 ]
 
@@ -202,6 +208,9 @@ export default function MetronomePanel(props) {
   const [quickRhythmOpen, setQuickRhythmOpen] = useState(false)
   const [isRunning, setIsRunning] = useState(false)
   const [activeSlot, setActiveSlot] = useState(-1)
+  const initialVolumes = getMetronomeVolumes()
+  const [tickVolume, setTickVolume] = useState(initialVolumes.volume)
+  const [accentVolume, setAccentVolume] = useState(initialVolumes.accentVolume)
 
   const metronomeRef = useRef(null)
   const audioContextRef = useRef(null)
@@ -394,6 +403,22 @@ export default function MetronomePanel(props) {
     tapTimesRef.current = []
   }
 
+  function commitTickVolume(next) {
+    if (disabled) return
+    const value = Math.max(0, Math.min(1, parseFloat(next)))
+    if (!Number.isFinite(value)) return
+    setTickVolume(value)
+    setMetronomeVolumes({ volume: value })
+  }
+
+  function commitAccentVolume(next) {
+    if (disabled) return
+    const value = Math.max(0, Math.min(1, parseFloat(next)))
+    if (!Number.isFinite(value)) return
+    setAccentVolume(value)
+    setMetronomeVolumes({ accentVolume: value })
+  }
+
   function adjustTempo(delta) {
     commitTempo((parseInt(tempo, 10) || DEFAULT_TEMPO) + delta)
   }
@@ -527,6 +552,43 @@ export default function MetronomePanel(props) {
           </Button>
         </div>
         ) : null}
+
+        <div className={'metronome-panel__volume-row' + (disabled ? ' metronome-panel__volume-row--disabled' : '')}>
+          <label className="metronome-panel__volume-control">
+            <span className="metronome-panel__volume-label">Volume</span>
+            <input
+              type="range"
+              className="metronome-panel__volume-slider"
+              min="0"
+              max="100"
+              step="1"
+              value={Math.round(tickVolume * 100)}
+              disabled={disabled}
+              aria-label="Metronome volume"
+              onChange={function(e) {
+                commitTickVolume(parseInt(e.target.value, 10) / 100)
+              }}
+            />
+            <span className="metronome-panel__volume-value">{Math.round(tickVolume * 100)}</span>
+          </label>
+          <label className="metronome-panel__volume-control">
+            <span className="metronome-panel__volume-label">Accent volume</span>
+            <input
+              type="range"
+              className="metronome-panel__volume-slider"
+              min="0"
+              max="100"
+              step="1"
+              value={Math.round(accentVolume * 100)}
+              disabled={disabled}
+              aria-label="Metronome accent volume"
+              onChange={function(e) {
+                commitAccentVolume(parseInt(e.target.value, 10) / 100)
+              }}
+            />
+            <span className="metronome-panel__volume-value">{Math.round(accentVolume * 100)}</span>
+          </label>
+        </div>
 
         <div className={'metronome-panel__rhythm-row' + (disabled ? ' metronome-panel__rhythm-row--disabled' : '')}>
           <div className="metronome-panel__preset-wrap" ref={quickRhythmRef}>

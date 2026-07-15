@@ -21,8 +21,9 @@ function buildAutoStartConfig(searchParams) {
     includeWarmups: saved.includeWarmups,
     skillLevel: saved.skillLevel,
     accuracyCheckingEnabled: saved.accuracyCheckingEnabled,
-    headphoneMode: saved.headphoneMode,
     practiceReferenceGain: saved.practiceReferenceGain,
+    vocalRangeLow: saved.vocalRangeLow,
+    vocalRangeHigh: saved.vocalRangeHigh,
     bookFilter: '',
     tagFilter: [],
   }

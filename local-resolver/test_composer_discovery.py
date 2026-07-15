@@ -3,6 +3,8 @@ import unittest
 from composer_discovery import (
     _format_candidates,
     _add_candidate,
+    extract_writers_from_text,
+    is_plausible_writer_name,
     parse_title_composer_hint,
 )
 from recording_artists import discover_work_writers, WRITER_RELATION_TYPES
@@ -48,6 +50,37 @@ class ComposerDiscoveryTests(unittest.TestCase):
         entry = list(store.values())[0]
         self.assertEqual(entry["role"], "writer")
         self.assertEqual(entry["source"], "MusicBrainz")
+
+    def test_rejects_debussy_snippet_debris_as_writer(self):
+        debris = (
+            "who wrote Claire De Lune and Nocturnes, died on March 25th, "
+            "1918 at the height of"
+        )
+        self.assertFalse(is_plausible_writer_name(debris))
+        store = {}
+        _add_candidate(store, debris, role="writer", source="web search")
+        self.assertEqual(store, {})
+
+    def test_extract_writers_from_debussy_bio_snippet(self):
+        snippet = (
+            "French composer Claude Debussy who wrote Claire De Lune and "
+            "Nocturnes, died on March 25th, 1918 at the height of World War I."
+        )
+        writers = extract_writers_from_text(snippet)
+        self.assertIn("Claude Debussy", writers)
+        self.assertFalse(
+            any("who wrote" in name.lower() for name in writers)
+        )
+
+    def test_extract_writers_composed_by_and_written_by(self):
+        self.assertEqual(
+            extract_writers_from_text("Wonderwall was written by Noel Gallagher."),
+            ["Noel Gallagher"],
+        )
+        self.assertEqual(
+            extract_writers_from_text("Clair de lune was composed by Claude Debussy."),
+            ["Claude Debussy"],
+        )
 
 
 class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
@@ -101,7 +134,7 @@ class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(writers, ["Noel Gallagher"])
         self.assertIn("composer", WRITER_RELATION_TYPES)
 
-    async def test_discover_work_writers_prefers_top_scoring_work(self):
+    async def test_discover_work_writers_collects_from_multiple_exact_works(self):
         class WorkSearchResponse:
             def raise_for_status(self):
                 return None
@@ -139,7 +172,86 @@ class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
                 raise AssertionError("unexpected url " + url)
 
         writers = await discover_work_writers(FakeClient(), "Wonderwall", max_writers=5)
-        self.assertEqual(writers, ["Noel Gallagher"])
+        self.assertEqual(writers, ["Noel Gallagher", "Metome"])
+
+    async def test_discover_work_writers_claire_variant_includes_debussy(self):
+        claire_works = {
+            "works": [
+                {
+                    "id": "work-bieler",
+                    "title": "Claire de Lune",
+                    "score": 100,
+                },
+            ],
+        }
+        clair_works = {
+            "works": [
+                {
+                    "id": "work-django",
+                    "title": "Clair de Lune",
+                    "score": 100,
+                },
+                {
+                    "id": "work-debussy",
+                    "title": "Clair de lune",
+                    "score": 94,
+                },
+            ],
+        }
+        lookups = {
+            "work-bieler": "Torstein Bieler",
+            "work-django": "Django Reinhardt",
+            "work-debussy": "Claude Debussy",
+        }
+        queried = []
+
+        class WorkSearchResponse:
+            def __init__(self, payload):
+                self._payload = payload
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self._payload
+
+        class WorkLookupResponse:
+            def __init__(self, name):
+                self._name = name
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {
+                    "relations": [
+                        {"type": "composer", "artist": {"name": self._name}},
+                    ],
+                }
+
+        class FakeClient:
+            async def get(self, url, params=None, headers=None):
+                if url.endswith("/work"):
+                    query = (params or {}).get("query") or ""
+                    queried.append(query)
+                    if 'work:"Claire de Lune"' in query:
+                        return WorkSearchResponse(claire_works)
+                    if 'work:"Clair de Lune"' in query:
+                        return WorkSearchResponse(clair_works)
+                    return WorkSearchResponse({"works": []})
+                for work_id, name in lookups.items():
+                    if work_id in url:
+                        return WorkLookupResponse(name)
+                raise AssertionError("unexpected url " + url)
+
+        writers = await discover_work_writers(
+            FakeClient(), "Claire de Lune", max_writers=8, max_works=8
+        )
+        self.assertTrue(any('work:"Claire de Lune"' in q for q in queried))
+        self.assertTrue(any('work:"Clair de Lune"' in q for q in queried))
+        self.assertIn("Claude Debussy", writers)
+        self.assertIn("Torstein Bieler", writers)
+        self.assertIn("Django Reinhardt", writers)
 
 
 if __name__ == "__main__":

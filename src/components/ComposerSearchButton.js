@@ -28,7 +28,6 @@ export default function ComposerSearchButton({
   alwaysPick,
 }) {
   const [error, setError] = useState('')
-  const [source, setSource] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
@@ -53,7 +52,6 @@ export default function ComposerSearchButton({
         source: result.source,
       })
     }
-    setSource(result && result.source ? result.source : '')
   }
   applyRef.current = finishApply
 
@@ -114,7 +112,6 @@ export default function ComposerSearchButton({
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
-    setSource('')
     setShowPicker(false)
     setPickerCandidates([])
     lookup.startSearch({
@@ -147,9 +144,6 @@ export default function ComposerSearchButton({
         inline={inline}
       />
       {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-      {source && !error ? (
-        <Alert variant="success" className="mt-2 mb-0">Artist from {source}</Alert>
-      ) : null}
       <SearchProgressBar
         visible={busy}
         percent={lookup.progressPercent}

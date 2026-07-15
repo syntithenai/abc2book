@@ -5,6 +5,7 @@ export const NOTATION_E2E_TWO_VOICE_ID = 'e2e00000000000000000002'
 export const NOTATION_E2E_MULTILINE_ID = 'e2e00000000000000000003'
 export const NOTATION_E2E_EMPTY_ID = 'e2e00000000000000000004'
 export const NOTATION_E2E_RICH_ID = 'e2e00000000000000000005'
+export const NOTATION_E2E_COPPER_ID = 'e2e00000000000000000006'
 
 export const NOTATION_E2E_TUNE_IDS = {
   basic: NOTATION_E2E_TUNE_ID,
@@ -12,6 +13,7 @@ export const NOTATION_E2E_TUNE_IDS = {
   multiline: NOTATION_E2E_MULTILINE_ID,
   empty: NOTATION_E2E_EMPTY_ID,
   rich: NOTATION_E2E_RICH_ID,
+  copper: NOTATION_E2E_COPPER_ID,
 }
 
 export const NOTATION_E2E_FULL_ABC = `X:10
@@ -61,5 +63,14 @@ L:1/8
 K:G
 B:e2e-notation
 G A B | c3 |
+
+X:15
+% abcbook-tune_id ${NOTATION_E2E_COPPER_ID}
+T:Notation E2E Copper Kettle
+M:4/4
+L:1/8
+K:D
+B:e2e-notation
+A2A2^F2BE| GGFE
 
 `

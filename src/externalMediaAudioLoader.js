@@ -1,5 +1,9 @@
 import decode from 'audio-decode';
 import { fetchDirectOrProxy, isMediaProxyConfigured } from './mediaProxyClient';
+import {
+  fetchYoutubeAudioViaExtension,
+  isYoutubeExtensionConnected,
+} from './youtubeExtensionClient';
 
 const PIPED_INSTANCES = [
   'https://pipedapi.kavin.rocks',
@@ -24,7 +28,25 @@ export async function resolveYoutubeAudioUrl(videoId) {
   return null;
 }
 
+/**
+ * Prefer Tunebook YouTube Helper extension, then media resolver /youtube,
+ * then Piped direct URL (best-effort).
+ */
 export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken) {
+  if (srcType === 'youtube' && typeof youtubeGetId === 'function') {
+    const videoId = youtubeGetId(src);
+    if (videoId && (await isYoutubeExtensionConnected())) {
+      const fetched = await fetchYoutubeAudioViaExtension(videoId);
+      const audioBuffer = await decode(fetched.arrayBuffer);
+      return {
+        audioBuffer: audioBuffer,
+        duration: audioBuffer.duration,
+        sourceUrl: 'extension',
+        mime: fetched.mime,
+      };
+    }
+  }
+
   const { response, viaProxy } = await fetchDirectOrProxy({
     src: src,
     srcType: srcType,

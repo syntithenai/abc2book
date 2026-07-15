@@ -12,6 +12,19 @@ import {
 import { normalizeMeter } from './barModel'
 
 const METER_TOKEN_RE = /\[M:\s*([^\]]+)\]/gi
+const TEMPO_TOKEN_RE = /\[Q:\s*([^\]]+)\]/gi
+
+/**
+ * Normalize a BPM value for chord-section tempo (20–300), or null if invalid.
+ */
+export function normalizeTempo(value) {
+  if (value == null || value === '') return null
+  const raw = String(value).trim()
+  const afterEq = raw.indexOf('=') >= 0 ? raw.split('=').pop() : raw
+  const n = parseInt(String(afterEq || '').trim(), 10)
+  if (!n || n < 20 || n > 300) return null
+  return n
+}
 
 /**
  * Pull the first [M:x/y] marker from a chord chart block, if any.
@@ -24,11 +37,22 @@ export function extractMeterFromChartBlock(chart) {
 }
 
 /**
- * Remove [M:…] tokens from chord chart text (keeps chord/bar content).
+ * Pull the first [Q:…] marker from a chord chart block (BPM), if any.
+ */
+export function extractTempoFromChartBlock(chart) {
+  const text = String(chart == null ? '' : chart)
+  const match = /\[Q:\s*([^\]]+)\]/i.exec(text)
+  if (!match) return null
+  return normalizeTempo(match[1])
+}
+
+/**
+ * Remove [M:…] and [Q:…] tokens from chord chart text (keeps chord/bar content).
  */
 export function stripMeterMarkers(chart) {
   return String(chart == null ? '' : chart)
     .replace(METER_TOKEN_RE, ' ')
+    .replace(TEMPO_TOKEN_RE, ' ')
     .replace(/[ \t]+\n/g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .replace(/[ \t]{2,}/g, ' ')
@@ -36,18 +60,25 @@ export function stripMeterMarkers(chart) {
 }
 
 /**
- * Ensure a chart block begins with [M:…] when meter is set and differs from previous.
+ * Ensure a chart block begins with [M:…] / [Q:…] when meter or tempo changes
+ * from the previous sounding section. First section uses ABC headers.
  */
-export function prependMeterMarker(chart, meter, previousMeter) {
+export function prependMeterMarker(chart, meter, previousMeter, tempo, previousTempo) {
   const clean = stripMeterMarkers(chart)
   const nextMeter = normalizeMeter(meter)
   const prev = previousMeter ? normalizeMeter(previousMeter) : null
-  // First sounding section uses ABC header M:; only later changes get [M:].
-  if (!nextMeter || !prev || nextMeter === prev) {
-    return clean
+  const nextTempo = normalizeTempo(tempo)
+  const prevTempo = previousTempo != null ? normalizeTempo(previousTempo) : null
+  const tokens = []
+  if (nextMeter && prev && nextMeter !== prev) {
+    tokens.push('[M:' + nextMeter + ']')
   }
-  if (!clean) return '[M:' + nextMeter + ']'
-  return '[M:' + nextMeter + '] ' + clean
+  if (nextTempo && prevTempo != null && nextTempo !== prevTempo) {
+    tokens.push('[Q:' + nextTempo + ']')
+  }
+  if (!tokens.length) return clean
+  if (!clean) return tokens.join(' ')
+  return tokens.join(' ') + ' ' + clean
 }
 
 function lyricsHaveContent(lyricLines) {
@@ -81,12 +112,14 @@ function sectionKeyForIndex(index, type, header) {
 export function listChordsEditorSections(options) {
   const opts = options || {}
   const defaultMeter = normalizeMeter(opts.defaultMeter || '4/4')
+  const defaultTempo = normalizeTempo(opts.defaultTempo) || normalizeTempo(opts.tuneTempo) || 120
   const lyricLines = Array.isArray(opts.lyricLines) ? opts.lyricLines : []
   const fullChart = String(opts.chordChart == null ? '' : opts.chordChart)
   const blocks = splitChordChartIntoBlocks(fullChart)
 
   if (!lyricsHaveContent(lyricLines)) {
     const meter = extractMeterFromChartBlock(fullChart) || defaultMeter
+    const tempo = extractTempoFromChartBlock(fullChart) || defaultTempo
     return [{
       key: 'chords-0',
       title: 'Chords',
@@ -97,6 +130,7 @@ export function listChordsEditorSections(options) {
       chartRevisit: false,
       sourceTypeKey: null,
       meter: meter,
+      tempo: tempo,
       startLine: 0,
     }]
   }
@@ -108,6 +142,7 @@ export function listChordsEditorSections(options) {
   }))
   const lyricSections = listLyricSections(lyricLines)
   let previousMeter = null
+  let previousTempo = null
 
   return aligned.map(function(block, index) {
     const lyricSection = lyricSections[index] || null
@@ -117,7 +152,15 @@ export function listChordsEditorSections(options) {
       || (index === 0 ? defaultMeter : previousMeter)
       || defaultMeter
     const meter = normalizeMeter(blockMeter)
-    if (!block.chartRevisit) previousMeter = meter
+    const blockTempo = extractTempoFromChartBlock(rawChart)
+      || extractTempoFromChartBlock(block.extraChart)
+      || (index === 0 ? defaultTempo : previousTempo)
+      || defaultTempo
+    const tempo = normalizeTempo(blockTempo) || defaultTempo
+    if (!block.chartRevisit) {
+      previousMeter = meter
+      previousTempo = tempo
+    }
 
     const header = block.header || (lyricSection && lyricSection.header) || ''
     const type = block.type != null
@@ -137,6 +180,7 @@ export function listChordsEditorSections(options) {
       chartRevisit: !!block.chartRevisit,
       sourceTypeKey: type || null,
       meter: meter,
+      tempo: tempo,
       startLine: lyricSection ? lyricSection.startLine : index,
     }
   })
@@ -152,7 +196,7 @@ export function listChordsEditorSections(options) {
  * - More blocks → append new sections for extras.
  * - Fewer blocks → clear charts on trailing non-revisit sections (keep slots).
  */
-export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter) {
+export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter, defaultTempo) {
   const list = Array.isArray(sections) ? sections.map(function(s) {
     return s ? Object.assign({}, s) : s
   }) : []
@@ -165,7 +209,11 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
   if (editable.length === 0 && blocks.length === 0) return list
 
   let previousMeter = null
+  let previousTempo = null
   const meterFallback = normalizeMeter(defaultMeter || '4/4')
+  const tempoFallback = normalizeTempo(defaultTempo)
+    || normalizeTempo(list[0] && list[0].tempo)
+    || 120
 
   for (let i = 0; i < Math.max(editable.length, blocks.length); i++) {
     const chartRaw = i < blocks.length ? blocks[i] : ''
@@ -173,8 +221,13 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
       || previousMeter
       || meterFallback
     const meter = normalizeMeter(blockMeter)
+    const blockTempo = extractTempoFromChartBlock(chartRaw)
+      || previousTempo
+      || tempoFallback
+    const tempo = normalizeTempo(blockTempo) || tempoFallback
     const chart = stripMeterMarkers(chartRaw)
     previousMeter = meter
+    previousTempo = tempo
 
     if (i < editable.length) {
       const idx = editable[i]
@@ -182,6 +235,7 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
       list[idx] = Object.assign({}, section, {
         chart: chart,
         meter: meter,
+        tempo: tempo,
       })
       const typeKey = section.sourceTypeKey || section.type
       if (typeKey) {
@@ -189,7 +243,7 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
           if (!sib || si === idx) return
           if ((sib.sourceTypeKey || sib.type) !== typeKey) return
           if (!sib.chartRevisit) return
-          list[si] = Object.assign({}, sib, { chart: chart, meter: meter })
+          list[si] = Object.assign({}, sib, { chart: chart, meter: meter, tempo: tempo })
         })
       }
     } else {
@@ -204,6 +258,7 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
         chartRevisit: false,
         sourceTypeKey: null,
         meter: meter,
+        tempo: tempo,
         startLine: index,
       })
     }
@@ -223,17 +278,26 @@ export function reconcileChordSectionsFromGrid(sections, gridText, defaultMeter)
 /**
  * Rebuild a blank-line-separated chord grid from editor sections.
  * Revisit sections are skipped (their chart was already emitted on first type).
- * Emits [M:…] when a section’s meter differs from the previous emitted meter.
+ * Emits [M:…] / [Q:…] when a section’s meter or tempo differs from the previous.
  * Empty sections emit a single bar `|` so the slot survives blank-line splitting.
  */
 export function rebuildChordGridFromSections(sections) {
   const parts = []
   let previousMeter = null
+  let previousTempo = null
   ;(Array.isArray(sections) ? sections : []).forEach(function(section) {
     if (!section || section.chartRevisit) return
     const meter = normalizeMeter(section.meter || previousMeter || '4/4')
-    const chart = prependMeterMarker(section.chart || '', meter, previousMeter)
+    const tempo = normalizeTempo(section.tempo) || previousTempo
+    const chart = prependMeterMarker(
+      section.chart || '',
+      meter,
+      previousMeter,
+      tempo,
+      previousTempo
+    )
     previousMeter = meter
+    if (tempo != null) previousTempo = tempo
     const trimmed = String(chart).trim()
     parts.push(trimmed || '|')
   })
@@ -241,17 +305,21 @@ export function rebuildChordGridFromSections(sections) {
 }
 
 /**
- * Update chart (and optional meter) for a section. When the section shares a
+ * Update chart (and optional meter/tempo) for a section. When the section shares a
  * type with others, the first source of that type is updated and revisits follow.
  */
-export function replaceSectionChart(sections, sectionKey, newChart, newMeter) {
+export function replaceSectionChart(sections, sectionKey, newChart, newMeter, newTempo) {
   const list = Array.isArray(sections) ? sections.slice() : []
   const index = list.findIndex(function(s) { return s && s.key === sectionKey })
   if (index < 0) return list
   const target = list[index]
   const chart = stripMeterMarkers(newChart)
   const meter = newMeter != null ? normalizeMeter(newMeter) : target.meter
+  const tempo = newTempo != null
+    ? (normalizeTempo(newTempo) || target.tempo)
+    : target.tempo
   const typeKey = target.sourceTypeKey || target.type
+  const patch = { chart: chart, meter: meter, tempo: tempo }
 
   if (typeKey) {
     let sourceIndex = -1
@@ -267,19 +335,15 @@ export function replaceSectionChart(sections, sectionKey, newChart, newMeter) {
       const sameType = (section.sourceTypeKey || section.type) === typeKey
       if (!sameType) return section
       if (i === sourceIndex) {
-        return Object.assign({}, section, { chart: chart, meter: meter, chartRevisit: false })
+        return Object.assign({}, section, patch, { chartRevisit: false })
       }
-      return Object.assign({}, section, {
-        chart: chart,
-        meter: meter,
-        chartRevisit: true,
-      })
+      return Object.assign({}, section, patch, { chartRevisit: true })
     })
   }
 
   return list.map(function(section, i) {
     if (i !== index) return section
-    return Object.assign({}, section, { chart: chart, meter: meter })
+    return Object.assign({}, section, patch)
   })
 }
 
@@ -290,7 +354,17 @@ export function replaceSectionMeter(sections, sectionKey, newMeter) {
   const list = Array.isArray(sections) ? sections : []
   const found = list.find(function(s) { return s && s.key === sectionKey })
   if (!found) return list.slice()
-  return replaceSectionChart(sections, sectionKey, found.chart, newMeter)
+  return replaceSectionChart(sections, sectionKey, found.chart, newMeter, found.tempo)
+}
+
+/**
+ * Update only the tempo on a section (and shared type siblings).
+ */
+export function replaceSectionTempo(sections, sectionKey, newTempo) {
+  const list = Array.isArray(sections) ? sections : []
+  const found = list.find(function(s) { return s && s.key === sectionKey })
+  if (!found) return list.slice()
+  return replaceSectionChart(sections, sectionKey, found.chart, found.meter, newTempo)
 }
 
 /**
@@ -325,7 +399,7 @@ export function reorderChordsEditorSections(sections, fromIndex, toIndex) {
 /**
  * Append an empty chord section (does not touch lyrics).
  */
-export function appendChordsEditorSection(sections, name, defaultMeter) {
+export function appendChordsEditorSection(sections, name, defaultMeter, defaultTempo) {
   const list = Array.isArray(sections) ? sections.slice() : []
   const trimmed = String(name == null ? '' : name).trim()
   const header = trimmed
@@ -346,6 +420,9 @@ export function appendChordsEditorSection(sections, name, defaultMeter) {
     chartRevisit: false,
     sourceTypeKey: type,
     meter: normalizeMeter(defaultMeter || (list[0] && list[0].meter) || '4/4'),
+    tempo: normalizeTempo(defaultTempo)
+      || normalizeTempo(list[0] && list[0].tempo)
+      || 120,
     startLine: index,
   })
   return list
@@ -355,7 +432,7 @@ export function appendChordsEditorSection(sections, name, defaultMeter) {
  * Insert a new empty chord section after the section with afterKey.
  * If afterKey is missing, appends at the end.
  */
-export function insertChordsEditorSectionAfter(sections, afterKey, name, defaultMeter) {
+export function insertChordsEditorSectionAfter(sections, afterKey, name, defaultMeter, defaultTempo) {
   const list = Array.isArray(sections) ? sections.slice() : []
   const afterIndex = list.findIndex(function(s) { return s && s.key === afterKey })
   const insertAt = afterIndex >= 0 ? afterIndex + 1 : list.length
@@ -380,6 +457,10 @@ export function insertChordsEditorSectionAfter(sections, afterKey, name, default
     meter: normalizeMeter(
       defaultMeter || (neighbour && neighbour.meter) || (list[0] && list[0].meter) || '4/4'
     ),
+    tempo: normalizeTempo(defaultTempo)
+      || normalizeTempo(neighbour && neighbour.tempo)
+      || normalizeTempo(list[0] && list[0].tempo)
+      || 120,
     startLine: insertAt,
   })
   return list.map(function(section, index) {
@@ -433,6 +514,18 @@ export function firstSectionMeter(sections, fallback) {
 }
 
 /**
+ * First sounding section tempo (for ABC header Q:).
+ */
+export function firstSectionTempo(sections, fallback) {
+  const list = Array.isArray(sections) ? sections : []
+  for (let i = 0; i < list.length; i++) {
+    const tempo = normalizeTempo(list[i] && list[i].tempo)
+    if (tempo) return tempo
+  }
+  return normalizeTempo(fallback) || 120
+}
+
+/**
  * Paste sheet → section list for review (chords only; lyrics used for labels/match).
  */
 export function listPasteChordSections(parsedSheet) {
@@ -460,6 +553,9 @@ export function listPasteChordSections(parsedSheet) {
         lyricLines: Array.isArray(block.lines) ? block.lines.slice() : [],
         chart: chart,
         meter: normalizeMeter(parsed.meter || '4/4'),
+        tempo: extractTempoFromChartBlock(chart)
+          || normalizeTempo(parsed.tempo)
+          || 120,
       }
     }).filter(function(section) {
       return chartBlockHasChords(section.chart) || (section.lyricLines && section.lyricLines.length)
@@ -477,6 +573,7 @@ export function listPasteChordSections(parsedSheet) {
       lyricLines: Array.isArray(parsed.lyricLines) ? parsed.lyricLines : [],
       chart: stripMeterMarkers(chart),
       meter: normalizeMeter(parsed.meter || '4/4'),
+      tempo: extractTempoFromChartBlock(chart) || normalizeTempo(parsed.tempo) || 120,
     }]
   }
   return blocks.map(function(block, index) {
@@ -488,6 +585,7 @@ export function listPasteChordSections(parsedSheet) {
       lyricLines: [],
       chart: stripMeterMarkers(block),
       meter: extractMeterFromChartBlock(block) || normalizeMeter(parsed.meter || '4/4'),
+      tempo: extractTempoFromChartBlock(block) || normalizeTempo(parsed.tempo) || 120,
     }
   })
 }
@@ -526,7 +624,13 @@ export function applyPasteSectionToTuneSections(tuneSections, pasteSection, mode
   const match = matchPasteSectionToTune(pasteSection, list)
   if (mode === 'save' || mode === 'merge') {
     if (!match) return list
-    return replaceSectionChart(list, match.key, pasteSection.chart, pasteSection.meter || match.meter)
+    return replaceSectionChart(
+      list,
+      match.key,
+      pasteSection.chart,
+      pasteSection.meter || match.meter,
+      pasteSection.tempo != null ? pasteSection.tempo : match.tempo
+    )
   }
   if (mode === 'add') {
     if (match) return list
@@ -558,6 +662,7 @@ export function buildTuneSectionsFromPaste(pasteSections, defaultMeter) {
     const type = pasteSection.type || null
     const header = pasteSection.header || ''
     const meter = normalizeMeter(pasteSection.meter || defaultMeter || '4/4')
+    const tempo = normalizeTempo(pasteSection.tempo) || 120
     const chart = stripMeterMarkers(pasteSection.chart || '')
     let chartRevisit = false
     let resolvedChart = chart
@@ -579,6 +684,7 @@ export function buildTuneSectionsFromPaste(pasteSections, defaultMeter) {
       chartRevisit: chartRevisit,
       sourceTypeKey: type,
       meter: meter,
+      tempo: tempo,
       startLine: index,
     })
   })

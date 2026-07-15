@@ -1,7 +1,7 @@
 import localforage from 'localforage';
-import MP3Converter from './MP3Converter';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
 import { scheduleMediaCacheStorageCheck, tuneIdFromExternalMediaCacheKey } from './mediaCacheStorage';
+import { encodeAudioBufferWithSetting } from './audioCompressEncode';
 
 const store = localforage.createInstance({ name: 'externalmediacache' });
 
@@ -23,6 +23,24 @@ export async function isExternalMediaCached(tuneId, linkIndex, src) {
   return !!(existing && existing.blob);
 }
 
+async function encodeAndStoreExternalMedia(cacheKey, decoded) {
+  const encoded = await encodeAudioBufferWithSetting(decoded.audioBuffer);
+  await store.setItem(cacheKey, {
+    duration: decoded.duration,
+    blob: encoded.blob,
+    audioFormat: encoded.format,
+    cachedAt: Date.now(),
+  });
+  scheduleMediaCacheStorageCheck();
+  return {
+    blob: encoded.blob,
+    duration: decoded.duration,
+    audioFormat: encoded.format,
+    cached: false,
+  };
+}
+
+/** Cached compressed linked media blob (format follows Compress Audio setting). */
 export async function getExternalMediaMp3Blob(options) {
   const {
     tuneId,
@@ -36,19 +54,16 @@ export async function getExternalMediaMp3Blob(options) {
   const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, src);
   const existing = await getCachedExternalMediaBlob(cacheKey);
   if (existing && existing.blob) {
-    return { blob: existing.blob, duration: existing.duration, cached: true };
+    return {
+      blob: existing.blob,
+      duration: existing.duration,
+      audioFormat: existing.audioFormat || null,
+      cached: true,
+    };
   }
 
   const decoded = await fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken);
-  const converter = new MP3Converter();
-  const blob = await converter.convertAudioBuffer(decoded.audioBuffer, { bitRate: 96 });
-  await store.setItem(cacheKey, {
-    duration: decoded.duration,
-    blob: blob,
-    cachedAt: Date.now(),
-  });
-  scheduleMediaCacheStorageCheck();
-  return { blob: blob, duration: decoded.duration, cached: false };
+  return encodeAndStoreExternalMedia(cacheKey, decoded);
 }
 
 export async function downloadAndCacheExternalMedia(options) {
@@ -64,25 +79,27 @@ export async function downloadAndCacheExternalMedia(options) {
   const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, src);
   const existing = await getCachedExternalMediaBlob(cacheKey);
   if (existing && existing.blob) {
-    return { cached: true, duration: existing.duration };
+    return {
+      cached: true,
+      duration: existing.duration,
+      audioFormat: existing.audioFormat || null,
+    };
   }
 
   const decoded = await fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken);
-  const converter = new MP3Converter();
-  const blob = await converter.convertAudioBuffer(decoded.audioBuffer, { bitRate: 96 });
-  await store.setItem(cacheKey, {
-    duration: decoded.duration,
-    blob: blob,
-    cachedAt: Date.now(),
-  });
-  scheduleMediaCacheStorageCheck();
-  return { cached: false, duration: decoded.duration };
+  const stored = await encodeAndStoreExternalMedia(cacheKey, decoded);
+  return {
+    cached: false,
+    duration: stored.duration,
+    audioFormat: stored.audioFormat,
+  };
 }
 
-export async function putExternalMediaCache(cacheKey, blob, duration) {
+export async function putExternalMediaCache(cacheKey, blob, duration, audioFormat) {
   await store.setItem(cacheKey, {
     duration: duration || null,
     blob: blob,
+    audioFormat: audioFormat || null,
     cachedAt: Date.now(),
   });
   scheduleMediaCacheStorageCheck();

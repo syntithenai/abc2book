@@ -1,0 +1,77 @@
+.vocal-range-picker-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vocal-range-last-note {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  min-height: 1.2em;
+}
+
+.vocal-range-set-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+}
+
+.vocal-range-field {
+  flex: 1 1 14rem;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.vocal-range-piano {
+  width: 100%;
+  min-height: 7.5rem;
+}
+
+.vocal-range-piano .virtual-piano-octave-controls {
+  min-width: 3.5rem;
+}
+
+.vocal-range-piano .virtual-piano-octave-controls .btn {
+  flex: 1;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.vocal-range-piano .virtual-piano-keys {
+  position: relative;
+  display: flex;
+  height: 7rem;
+  width: 100%;
+}
+
+.vocal-range-piano .virtual-piano-white {
+  flex: 1;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-top: 4.5rem;
+  font-size: 0.7rem;
+}
+
+.vocal-range-piano .virtual-piano-white.active {
+  background: #d0ebff;
+}
+
+.vocal-range-piano .virtual-piano-black {
+  position: absolute;
+  width: 20px;
+  height: 55%;
+  top: 0;
+  background: #222;
+  border: none;
+  border-radius: 0 0 3px 3px;
+  z-index: 2;
+}
+
+.vocal-range-piano .virtual-piano-black.active {
+  background: #1864ab;
+}

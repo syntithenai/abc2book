@@ -96,6 +96,11 @@ describe('thesessionNotationClient helpers', function() {
     expect(scoreTitleArtistMatch('Wild Rover', 'Traditional', 'Wild Rover', 'Traditional')).toBe(140)
     expect(scoreTitleArtistMatch('Wild Rover Song', '', 'Wild Rover', '')).toBeGreaterThanOrEqual(45)
   })
+
+  test('scoreTitleArtistMatch rejects short substring false positives', function() {
+    expect(scoreTitleArtistMatch('Clare', '', 'Clare de Lune', '')).toBe(0)
+    expect(scoreTitleArtistMatch('Clare de Lune', '', 'Clare de Lune', '')).toBe(80)
+  })
 })
 
 describe('searchNotationLight', function() {

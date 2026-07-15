@@ -240,6 +240,26 @@ async def transcribe_sheet_image_bytes(
         elif chord_sheet.get("text") and not melody:
             page_type = "chord_chart"
 
+        chord_text = str(chord_sheet.get("text") or "").strip()
+        melody_abc = ""
+        if isinstance(melody, dict):
+            melody_abc = str(melody.get("abc") or "").strip()
+        if not chord_text and not melody_abc:
+            if "omr_failed" in warnings or staff_info.get("hasStaff"):
+                raise RuntimeError(
+                    "No chords, lyrics, or melody were detected. Staff notation was found but "
+                    "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
+                    "for notation scores."
+                )
+            if "paddleocr_unavailable" in warnings:
+                raise RuntimeError(
+                    "No chords, lyrics, or melody were detected. OCR is not available on this resolver."
+                )
+            raise RuntimeError(
+                "No chords, lyrics, or melody were detected in the image. "
+                "Try a clearer photo of a chord chart or lead sheet."
+            )
+
         result = {
             "title": title,
             "artist": artist,
@@ -285,7 +305,14 @@ def run_cli() -> int:
         data = handle.read()
     import asyncio
 
-    result = asyncio.run(transcribe_sheet_image_bytes(data, os.path.basename(args.image_path)))
+    try:
+        result = asyncio.run(transcribe_sheet_image_bytes(data, os.path.basename(args.image_path)))
+    except Exception as exc:
+        message = str(exc).strip()[:500] or "Sheet image transcription failed"
+        if os.getenv("SHEET_IMAGE_PROGRESS", "").strip().lower() in {"1", "true", "yes"}:
+            print(json.dumps({"type": "error", "message": message}), file=sys.stderr, flush=True)
+        print(message, file=sys.stderr, flush=True)
+        return 1
     print(json.dumps(result, indent=2 if args.json else None, default=str))
     return 0
 

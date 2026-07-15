@@ -3,11 +3,13 @@ import {
   buildFieldLookupReviewCandidate,
   getUnpromotedAwaitingFieldLookups,
   promoteAwaitingFieldLookups,
+  applyResolvedFieldLookupToImportSession,
 } from './fieldLookupReviewPromotion'
 import {
   __resetForTests,
   seedAwaitingLookup,
   getState,
+  linkFieldLookupToReviewCandidate,
 } from './tuneFieldLookupQueue'
 
 describe('fieldLookupReviewPromotion', function() {
@@ -108,6 +110,63 @@ describe('fieldLookupReviewPromotion', function() {
     expect(result.candidates[0].tune.aliases).toEqual(['Other'])
   })
 
+  test('promoteAwaitingFieldLookups coalesces orphan Add-form lyrics and chords', function() {
+    const lyricsId = seedAwaitingLookup({
+      candidateId: 'add-1',
+      kind: 'lyrics',
+      title: 'Summer of 69',
+      artist: 'Bryan Adams',
+      candidates: [{ text: 'I got my first real six-string', source: 'web' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    const chordsId = seedAwaitingLookup({
+      candidateId: 'add-1',
+      kind: 'chords',
+      title: 'Summer of 69',
+      artist: 'Bryan Adams',
+      candidates: [{ chordText: 'D A Bm G', lyricText: 'I got my first real six-string', source: 'ug' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    expect(lyricsId && chordsId).toBeTruthy()
+    expect(getUnpromotedAwaitingFieldLookups().length).toBe(2)
+
+    const result = promoteAwaitingFieldLookups({ session: null })
+    expect(result.candidates.length).toBe(1)
+    expect(result.candidates[0].id).toBe('add-1')
+    expect(result.candidates[0].mergeTargetId).toBe(null)
+    expect(result.candidates[0].sourceKind).toBe('search-multi')
+    expect(result.candidates[0].fieldLookupKinds.sort()).toEqual(['chords', 'lyrics'])
+
+    const lyricsJob = getState().jobs.find(function(item) { return item.id === lyricsId })
+    const chordsJob = getState().jobs.find(function(item) { return item.id === chordsId })
+    expect(lyricsJob.reviewCandidateId).toBe('add-1')
+    expect(chordsJob.reviewCandidateId).toBe('add-1')
+  })
+
+  test('does not promote Add-form jobs while their candidate session is still active', function() {
+    const { setImportReviewSession, clearImportReviewSession, __resetImportReviewSessionStoreForTests } = require('./importReviewSessionStore')
+    seedAwaitingLookup({
+      candidateId: 'add-live',
+      kind: 'chords',
+      title: 'Song',
+      candidates: [{ chordText: 'C G', source: 'web' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    setImportReviewSession({
+      candidates: [{ id: 'add-live', sourceKind: 'manual', tune: { name: 'Song' } }],
+      enrichmentJobs: [],
+      importedCandidateIds: {},
+      step: 'review',
+      phase: 'identify',
+      entryMode: 'add',
+    })
+    expect(getUnpromotedAwaitingFieldLookups().length).toBe(0)
+    const result = promoteAwaitingFieldLookups({})
+    expect(result.candidates.length).toBe(0)
+    clearImportReviewSession()
+    __resetImportReviewSessionStoreForTests()
+  })
+
   test('promoteAwaitingFieldLookups coalesces multiple kinds for one tune', function() {
     const composerId = seedAwaitingLookup({
       tuneId: 'tune-coalesce',
@@ -153,5 +212,58 @@ describe('fieldLookupReviewPromotion', function() {
     const lyricsJob = getState().jobs.find(function(item) { return item.id === lyricsId })
     expect(composerJob.reviewCandidateId).toBe(coalesced.id)
     expect(lyricsJob.reviewCandidateId).toBe(coalesced.id)
+  })
+
+  test('promoteAwaitingFieldLookups clears orphan links before promoting', function() {
+    const id = seedAwaitingLookup({
+      tuneId: 'tune-orphan',
+      kind: 'composer',
+      title: 'Hello',
+      candidates: [{ artist: 'One', source: 'a' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    linkFieldLookupToReviewCandidate(id, 'gone-candidate')
+    expect(getUnpromotedAwaitingFieldLookups().length).toBe(0)
+
+    const result = promoteAwaitingFieldLookups({
+      getTune: function() {
+        return { id: 'tune-orphan', name: 'Hello', composer: 'Existing' }
+      },
+      session: null,
+    })
+    expect(result.candidates.length).toBe(1)
+    expect(result.linkedJobIds).toEqual([id])
+    const job = getState().jobs.find(function(item) { return item.id === id })
+    expect(job.reviewCandidateId).toBe(result.candidates[0].id)
+  })
+
+  test('applyResolvedFieldLookupToImportSession patches draft and keeps sibling jobs', function() {
+    const session = {
+      candidates: [{
+        id: 'cand-1',
+        mergeTargetId: 'tune-1',
+        tune: { name: 'Hello', composer: 'Old', words: ['old lyrics'] },
+        fieldLookupJobIds: ['job-composer', 'job-lyrics'],
+        fieldLookupKinds: ['composer', 'lyrics'],
+        pendingInlineSuggestions: {
+          artist: { formKey: 'artist', value: 'Old' },
+          lyrics: { formKey: 'lyrics', value: 'old lyrics' },
+        },
+      }],
+      index: 0,
+      step: 'review',
+    }
+    const next = applyResolvedFieldLookupToImportSession(session, {
+      id: 'job-composer',
+      reviewCandidateId: 'cand-1',
+      kind: 'composer',
+      appliedCandidate: { artist: 'Chosen Artist', source: 'web' },
+    }, null)
+    expect(next.candidates.length).toBe(1)
+    expect(next.candidates[0].tune.composer).toBe('Chosen Artist')
+    expect(next.candidates[0].draftFormOverrides.artist).toBe('Chosen Artist')
+    expect(next.candidates[0].pendingInlineSuggestions.artist).toBeUndefined()
+    expect(next.candidates[0].pendingInlineSuggestions.lyrics).toBeTruthy()
+    expect(next.candidates[0].fieldLookupJobIds).toEqual(['job-composer', 'job-lyrics'])
   })
 })

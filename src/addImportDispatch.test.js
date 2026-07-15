@@ -182,6 +182,25 @@ describe('addImportDispatch', function() {
     expect(result.candidates[0].sourceKind).toBe('sheetimage');
   });
 
+  test('dispatchAddImport returns error action when sheet image transcription finds nothing', async function() {
+    jest.resetModules();
+    jest.doMock('./importSourceParse', function() {
+      const actual = jest.requireActual('./importSourceParse');
+      return Object.assign({}, actual, {
+        sheetImageFileToCandidates: function() {
+          return Promise.reject(new Error(
+            'No chords, lyrics, or melody were detected. Staff notation was found but melody recognition failed.'
+          ));
+        },
+      });
+    });
+    const { dispatchAddImport: dispatchFresh } = await import('./addImportDispatch');
+    const file = new File(['img'], 'staff.png', { type: 'image/png' });
+    const result = await dispatchFresh(file, mockContext({ resolverAvailable: true }));
+    expect(result.action).toBe('error');
+    expect(result.message).toMatch(/melody recognition failed/i);
+  });
+
   test('classifyImportContent marks audio files', function() {
     const file = new File(['audio'], 'track.wav', { type: 'audio/wav' });
     const payload = normalizeImportInput(file);

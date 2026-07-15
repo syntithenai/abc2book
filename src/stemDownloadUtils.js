@@ -1,14 +1,24 @@
 import { AUDIO_FILTER_KEYS, STEM_NAME_BY_FILTER } from './pitchTempoUtils';
 import {
   loadStemBuffersForSource,
-  encodeAudioBufferToWav,
 } from './nativeFilteredMedia';
 import { downloadBlob, sanitizeDownloadFilename } from './tuneDownloadActions';
 import { createZipArchive } from './zipStore';
+import { encodeAudioBuffer, blobToArrayBuffer } from './audioCompressEncode';
+import {
+  getAudioCompressExtension,
+  getAudioCompressFormat,
+} from './audioCompressSettings';
 
-export const STEM_DOWNLOAD_WAV_NAMES = AUDIO_FILTER_KEYS.map(function(key) {
-  return key + '.wav';
-});
+export function stemDownloadEntryNames(extension) {
+  const ext = extension || getAudioCompressExtension(getAudioCompressFormat());
+  return AUDIO_FILTER_KEYS.map(function(key) {
+    return key + '.' + ext;
+  });
+}
+
+/** @deprecated use stemDownloadEntryNames */
+export const STEM_DOWNLOAD_WAV_NAMES = stemDownloadEntryNames('wav');
 
 export function soloStemAudioFilters(filterKey) {
   const filters = {};
@@ -18,13 +28,7 @@ export function soloStemAudioFilters(filterKey) {
   return filters;
 }
 
-async function createSilentWavBlob(sampleRate, length) {
-  const offline = new OfflineAudioContext(2, Math.max(1, length), sampleRate || 44100);
-  const silent = await offline.startRendering();
-  return encodeAudioBufferToWav(silent);
-}
-
-function stemWavBytesToUint8Array(bytes) {
+function stemBytesToUint8Array(bytes) {
   if (!bytes) return null;
   if (bytes instanceof Uint8Array) return bytes;
   if (bytes instanceof ArrayBuffer) return new Uint8Array(bytes);
@@ -34,26 +38,47 @@ function stemWavBytesToUint8Array(bytes) {
   return null;
 }
 
-export async function stemZipEntryDataForFilter(loaded, filterKey) {
+export async function stemZipEntryDataForFilter(loaded, filterKey, options) {
+  const opts = options || {};
+  const format = opts.format || loaded.audioFormat || getAudioCompressFormat();
   const stemName = STEM_NAME_BY_FILTER[filterKey];
-  const rawBytes = loaded.stemWavBytes && loaded.stemWavBytes[stemName];
-  const fromCache = stemWavBytesToUint8Array(rawBytes);
-  if (fromCache) {
-    return fromCache;
+  const rawBytes = (loaded.stemAudioBytes && loaded.stemAudioBytes[stemName])
+    || (loaded.stemWavBytes && loaded.stemWavBytes[stemName]);
+  const fromCache = stemBytesToUint8Array(rawBytes);
+  if (fromCache && (!opts.forceReencode)) {
+    return {
+      data: fromCache,
+      extension: getAudioCompressExtension(format),
+      format: format,
+    };
   }
 
   const buffer = loaded.stemBuffers && loaded.stemBuffers[stemName];
   if (buffer) {
-    const wavBlob = encodeAudioBufferToWav(buffer);
-    return new Uint8Array(await wavBlob.arrayBuffer());
+    const encoded = await encodeAudioBuffer(buffer, format);
+    const arrayBuffer = await blobToArrayBuffer(encoded.blob);
+    return {
+      data: new Uint8Array(arrayBuffer),
+      extension: encoded.extension,
+      format: encoded.format,
+    };
   }
 
-  const silent = await createSilentWavBlob(44100, 1);
-  return new Uint8Array(await silent.arrayBuffer());
+  // Silent placeholder in the requested format
+  const offline = new OfflineAudioContext(2, 1, 44100);
+  const silent = await offline.startRendering();
+  const encoded = await encodeAudioBuffer(silent, format);
+  const arrayBuffer = await blobToArrayBuffer(encoded.blob);
+  return {
+    data: new Uint8Array(arrayBuffer),
+    extension: encoded.extension,
+    format: encoded.format,
+  };
 }
 
 export async function buildStemZipBlob(cacheOptions, options) {
   const opts = options || {};
+  const format = opts.audioFormat || getAudioCompressFormat();
 
   function report(percent, message) {
     if (typeof opts.onProgress === 'function') {
@@ -83,9 +108,12 @@ export async function buildStemZipBlob(cacheOptions, options) {
       85 + Math.round((i / AUDIO_FILTER_KEYS.length) * 10),
       'Packaging ' + filterKey + '...'
     );
+    const entry = await stemZipEntryDataForFilter(loaded, filterKey, {
+      format: loaded.audioFormat || format,
+    });
     entries.push({
-      name: filterKey + '.wav',
-      data: await stemZipEntryDataForFilter(loaded, filterKey),
+      name: filterKey + '.' + entry.extension,
+      data: entry.data,
     });
   }
 

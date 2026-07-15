@@ -4,7 +4,7 @@ import useAbcTools from './useAbcTools'
 import {isMobile} from 'react-device-detect'
 import abcjs from "abcjs";
 import Metronome from './Metronome'
-import MP3Converter from './MP3Converter'
+import { encodeAudioBufferWithSetting } from './audioCompressEncode'
 import { getSoundFontUrl, getSoundFontVolumeMultiplier } from './soundFontConfig'
 import PitchTempoShifter from './pitchTempoShifter'
 import { getPlaybackSettings } from './pitchTempoUtils'
@@ -21,7 +21,7 @@ import {
 import { getPlaybackMetronomeSettings } from './playbackMetronomeSettings'
 import { createRhythm, countInMusicStartDelayMs, slotsForBeatCount } from './metronomeRhythmPresets'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
-import { preloadCountInCueInstrument, scheduleCountInCueNote } from './countInPitchCue'
+import { preloadCountInCueInstrument, scheduleCountInCueNote, firstWarmupCueMidi, firstPlaybackCueMidiFromVisual } from './countInPitchCue'
 
 export default function useAbcSynth(props) {
     
@@ -158,9 +158,8 @@ export default function useAbcSynth(props) {
                 pitchShifterRef.current.setDirectOutputGain(false)
                 pitchShifterRef.current.setOutputVolume(props.mediaController.playbackVolume)
             } else if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0) {
-                // Quiet level is baked into the soundfont buffer at prime time.
                 pitchShifterRef.current.setDirectOutputGain(true)
-                pitchShifterRef.current.setOutputVolume(1)
+                pitchShifterRef.current.setOutputVolume(Math.max(0, Math.min(1, props.practiceReferenceGain)))
             }
             midiPlaybackGuardUntilRef.current = Date.now() + 3000
             return pitchShifterRef.current.isConnected()
@@ -564,7 +563,19 @@ export default function useAbcSynth(props) {
                 setIsPlaying(false)
             },
             resume: function() {
+                // After pause, isPlaying is false and force intent may already be cleared,
+                // so resume must re-arm intent and clear the post-pause seek guard.
+                midiPlaybackGuardUntilRef.current = 0
+                forcePlaybackUntilStartRef.current = true
+                setForceStop(false)
                 beginMidiPlayback({ resume: true })
+            },
+            restart: function() {
+                midiPlaybackGuardUntilRef.current = 0
+                forcePlaybackUntilStartRef.current = true
+                setForceStop(false)
+                setPlayCount(0)
+                beginMidiPlayback({ restart: true })
             },
             getAudioContext: function() {
                 return gaudioContext.current || null
@@ -581,9 +592,8 @@ export default function useAbcSynth(props) {
         if (props.mediaController && props.mediaController.playbackVolume !== undefined) return
         if (props.practiceReferenceGain == null || props.practiceReferenceGain < 0) return
         if (pitchShifterRef.current) {
-            // Volume is baked into the buffer; keep unity gain on the shifter.
             pitchShifterRef.current.setDirectOutputGain(true)
-            pitchShifterRef.current.setOutputVolume(1)
+            pitchShifterRef.current.setOutputVolume(Math.max(0, Math.min(1, props.practiceReferenceGain)))
         }
     }, [props.practiceReferenceGain, props.mediaController])
     
@@ -975,15 +985,9 @@ export default function useAbcSynth(props) {
       async function saveAudioToCache(tuneId,audioBuffers, duration) {
       //console.log('saveaudio', typeof tuneId,':',tuneId, audioBuffers, duration)
       if (duration > 0) {
-        //let encoder = new Encoder();
-        //var serialized = audioBuffers.map(function(buffer) {return encoder.execute(buffer)}) 
-        //console.log('saveaudio serialized',serialized )
-        var converter = new MP3Converter()
-        converter.convertAudioBuffer(audioBuffers[0], {
-            bitRate: 96
-        }).then(function (blob) {
-          //console.log('SAVEaudio converted',blob)
-          store.setItem(tuneId, [duration, blob] ).then(function () {
+        encodeAudioBufferWithSetting(audioBuffers[0]).then(function (encoded) {
+          //console.log('SAVEaudio converted',encoded.blob)
+          store.setItem(tuneId, [duration, encoded.blob, encoded.format] ).then(function () {
             scheduleMediaCacheStorageCheck()
             return store.getItem(tuneId);
           })
@@ -996,7 +1000,8 @@ export default function useAbcSynth(props) {
       if (!audioContext) return
       return store.getItem(tuneId).then(function (val) {
         if (val && Array.isArray(val)) {
-          const [duration, buffers] = val;
+          const duration = val[0]
+          const buffers = val[1]
           return buffers.arrayBuffer().then(function(arrayBuffer) {
             return audioContext.decodeAudioData(arrayBuffer).then(function(audioBuffer) {
               return [duration, [audioBuffer, audioBuffer]]
@@ -1142,7 +1147,7 @@ export default function useAbcSynth(props) {
             pitchShifterRef.current.setOutputVolume(props.mediaController.playbackVolume)
         } else if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0) {
             pitchShifterRef.current.setDirectOutputGain(true)
-            pitchShifterRef.current.setOutputVolume(1)
+            pitchShifterRef.current.setOutputVolume(Math.max(0, Math.min(1, props.practiceReferenceGain)))
         }
     }
 
@@ -1359,15 +1364,17 @@ export default function useAbcSynth(props) {
     }
 
     async function resumeMidiPlayback() {
-        if (isSynthSeekGuardActive()) return false
+        // Pause arms a short seek guard; clear it so immediate unpause can restart.
+        midiPlaybackGuardUntilRef.current = 0
+        forcePlaybackUntilStartRef.current = true
+        setForceStop(false)
         if (!wantsMidiPlayback(true)) return false
         midiStartHandledRef.current = true
-        setForceStop(false)
         stopMetronome()
         resumeSynthAudioContext()
         const ratio = getMidiPlaybackRatio()
         syncTimingCallbacksToSettings(ratio)
-        return startMidiAndTiming()
+        return startMidiAndTiming({ forcePlayback: true })
     }
 
     function beginMidiPlayback(options) {
@@ -1378,6 +1385,8 @@ export default function useAbcSynth(props) {
             return
         }
         if (opts.resume) {
+            midiPlaybackGuardUntilRef.current = 0
+            forcePlaybackUntilStartRef.current = true
             midiStartHandledRef.current = true
             setForceStop(false)
             if (gtimingCallbacks.current && gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
@@ -1560,10 +1569,11 @@ export default function useAbcSynth(props) {
     
   async function startMidiAndTiming(startOptions) {
       const opts = startOptions || {}
+      const forceWanted = !!opts.forcePlayback
       stopMetronome()
-      if (isSynthSeekGuardActive()) return false
+      if (!forceWanted && isSynthSeekGuardActive()) return false
       const generation = playbackGenerationRef.current
-      if (!wantsMidiPlayback() || getForceStop()) {
+      if (!wantsMidiPlayback(forceWanted) || getForceStop()) {
           releaseMidiUiLoading()
           return false
       }
@@ -1572,7 +1582,7 @@ export default function useAbcSynth(props) {
           if (!isPlaybackGenerationCurrent(generation)) {
               return false
           }
-          if (!wantsMidiPlayback() || getForceStop()) {
+          if (!wantsMidiPlayback(forceWanted) || getForceStop()) {
               releaseMidiUiLoading()
               return false
           }
@@ -1605,7 +1615,7 @@ export default function useAbcSynth(props) {
               return false
           }
 
-          if (!isPlaybackGenerationCurrent(generation) || !wantsMidiPlayback() || getForceStop()) {
+          if (!isPlaybackGenerationCurrent(generation) || !wantsMidiPlayback(forceWanted) || getForceStop()) {
               pauseMidiSynth()
               return false
           }
@@ -1617,7 +1627,7 @@ export default function useAbcSynth(props) {
                   gtimingCallbacks.current.start()
               }
           }
-          if (!isPlaybackGenerationCurrent(generation) || !wantsMidiPlayback() || getForceStop()) {
+          if (!isPlaybackGenerationCurrent(generation) || !wantsMidiPlayback(forceWanted) || getForceStop()) {
               pauseMidiSynth()
               return false
           }
@@ -1727,23 +1737,45 @@ export default function useAbcSynth(props) {
                         )
                         let countInSlotEmitted = 0
                         const totalCountInBeats = countInSlots
-                        const cueMidi = props.metronomeCountInCueMidi
-                        const barDurationSec = (60 / effectiveTempo) * Math.max(1, countInRhythm.beatsPerBar || metronomeBeats || 4)
-                        if (cueMidi != null && Number.isFinite(cueMidi)) {
-                            preloadCountInCueInstrument(gaudioContext.current)
-                        }
+                        // Prefer the literal start of the primed warmup buffer so the
+                        // cue cannot diverge from what playback will sound a bar later.
+                        // Fall back to firstMidi / visual / ABC parse for a sine tone.
+                        const preferredCue = (props.metronomeCountInCueMidi != null
+                          && Number.isFinite(props.metronomeCountInCueMidi))
+                          ? Math.round(props.metronomeCountInCueMidi)
+                          : null
+                        const fromVisual = firstPlaybackCueMidiFromVisual(gvisualObj.current)
+                        const cueMidi = preferredCue != null
+                          ? preferredCue
+                          : ((fromVisual != null && Number.isFinite(fromVisual))
+                            ? fromVisual
+                            : firstWarmupCueMidi(props.abc))
+                        const beatDurationSec = 60 / effectiveTempo
+                        // One beat is enough to hear the first note without spilling into the next.
+                        const cueDurationSec = Math.max(0.35, Math.min(1.2, beatDurationSec * 0.95))
+                        const primedCueBuffer = gmidiBuffer.current
+                          && gmidiBuffer.current.audioBuffers
+                          && gmidiBuffer.current.audioBuffers[0]
+                        const cueReady = primedCueBuffer
+                          ? Promise.resolve(primedCueBuffer)
+                          : (cueMidi != null && Number.isFinite(cueMidi)
+                            ? preloadCountInCueInstrument(gaudioContext.current)
+                            : Promise.resolve(null))
                         metronome.current.onFirstNoteSchedule = function(time) {
                             if (!isPlaybackGenerationCurrent(countInGeneration)) return
-                            if (cueMidi == null || !Number.isFinite(cueMidi)) return
                             const cueGain = props.practiceReferenceGain != null
-                                ? Math.max(0.2, Math.min(0.7, props.practiceReferenceGain * 2.5))
-                                : 0.45
+                                ? Math.max(0.35, Math.min(1, props.practiceReferenceGain * 4))
+                                : 0.75
+                            const buffer = gmidiBuffer.current
+                              && gmidiBuffer.current.audioBuffers
+                              && gmidiBuffer.current.audioBuffers[0]
                             scheduleCountInCueNote(
                                 gaudioContext.current,
                                 cueMidi,
                                 time,
-                                barDurationSec,
-                                cueGain
+                                cueDurationSec,
+                                cueGain,
+                                buffer || primedCueBuffer || null
                             )
                         }
                         metronome.current.onSlotChange = function() {
@@ -1759,7 +1791,11 @@ export default function useAbcSynth(props) {
                             }
                         }
                         startCountInCursor()
-                        metronome.current.start()
+                        cueReady.then(function() {
+                            if (!isPlaybackGenerationCurrent(countInGeneration)) return
+                            if (!metronome.current) return
+                            metronome.current.start()
+                        })
                     })
                 }
                 var speakTitle = localStorage.getItem('bookstorage_announcesong') === "true" ? true : false
@@ -1841,12 +1877,8 @@ export default function useAbcSynth(props) {
             var a = getSoundFontUrl()
             //var warp =  props.warp > 0 ? props.warp : 1
             var soundFontVolume = getSoundFontVolumeMultiplier()
-            if (props.practiceReferenceGain != null && props.practiceReferenceGain >= 0
-                && !(props.mediaController && props.mediaController.playbackVolume !== undefined)) {
-              // Bake quiet reference level into the rendered buffer so warmups
-              // stay soft even if the pitch-shifter gain path is skipped.
-              soundFontVolume = soundFontVolume * Math.max(0.05, Math.min(1, props.practiceReferenceGain))
-            }
+            // Practice quiet/loud level is applied live via pitch-shifter output
+            // gain so the session volume slider can change without re-priming.
             var initOptions = {
                 audioContext: audioContext,
               //onPlaying: function(details) {

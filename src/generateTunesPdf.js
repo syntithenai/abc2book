@@ -8,6 +8,8 @@ export const PRINT_INNER_WIDTH_PX = PRINT_PAGE_WIDTH_PX - (PRINT_PAGE_PADDING_PX
 export const PRINT_NOTATION_COL_WIDTH_PX = Math.floor(PRINT_INNER_WIDTH_PX * 0.58);
 export const PRINT_CHORDS_COL_WIDTH_PX = PRINT_INNER_WIDTH_PX - PRINT_NOTATION_COL_WIDTH_PX;
 export const PRINT_CHORDS_FLOAT_WIDTH_PX = Math.floor(PRINT_INNER_WIDTH_PX * 0.3);
+/** Capture / SVG raster scale (~300dpi relative to 96dpi CSS page width). */
+export const PRINT_PDF_CAPTURE_SCALE = 3;
 
 function getOffsetTopWithin(child, ancestor) {
   if (!child || !ancestor) return 0;
@@ -141,27 +143,50 @@ export async function waitForPrintRender(container) {
   assertPrintLayoutReady(container);
 }
 
-function svgElementToDataUrl(svg) {
+export function getPrintSvgRasterSize(cssWidth, cssHeight, scale) {
+  const rasterScale = scale > 0 ? scale : PRINT_PDF_CAPTURE_SCALE;
+  const width = Math.max(1, cssWidth || 800);
+  const height = Math.max(1, cssHeight || 600);
+  return {
+    cssWidth: width,
+    cssHeight: height,
+    canvasWidth: Math.max(1, Math.ceil(width * rasterScale)),
+    canvasHeight: Math.max(1, Math.ceil(height * rasterScale)),
+  };
+}
+
+function svgElementToDataUrl(svg, scale) {
   return new Promise(function(resolve, reject) {
     const serializer = new XMLSerializer();
-    const svgString = serializer.serializeToString(svg);
+    let svgClone = svg.cloneNode(true);
+    if (!svgClone.getAttribute('xmlns')) {
+      svgClone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    }
+    const svgString = serializer.serializeToString(svgClone);
     const blob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const img = new Image();
     img.onload = function() {
-      const width = parseFloat(svg.getAttribute('width')) || svg.clientWidth || img.width || 800;
-      const height = parseFloat(svg.getAttribute('height')) || svg.clientHeight || img.height || 600;
+      const cssWidth = parseFloat(svg.getAttribute('width')) || svg.clientWidth || img.width || 800;
+      const cssHeight = parseFloat(svg.getAttribute('height')) || svg.clientHeight || img.height || 600;
+      const size = getPrintSvgRasterSize(cssWidth, cssHeight, scale);
       const canvas = document.createElement('canvas');
-      canvas.width = Math.max(1, Math.ceil(width));
-      canvas.height = Math.max(1, Math.ceil(height));
+      canvas.width = size.canvasWidth;
+      canvas.height = size.canvasHeight;
       const ctx = canvas.getContext('2d');
       if (ctx) {
+        ctx.imageSmoothingEnabled = true;
+        ctx.imageSmoothingQuality = 'high';
         ctx.fillStyle = '#ffffff';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
       }
       URL.revokeObjectURL(url);
-      resolve(canvas.toDataURL('image/png'));
+      resolve({
+        dataUrl: canvas.toDataURL('image/png'),
+        cssWidth: size.cssWidth,
+        cssHeight: size.cssHeight,
+      });
     };
     img.onerror = function(err) {
       URL.revokeObjectURL(url);
@@ -171,20 +196,24 @@ function svgElementToDataUrl(svg) {
   });
 }
 
-async function replaceSvgsWithImages(root) {
+async function replaceSvgsWithImages(root, scale) {
+  const rasterScale = scale > 0 ? scale : PRINT_PDF_CAPTURE_SCALE;
   const svgs = Array.from(root.querySelectorAll('svg'));
   const replacements = [];
   for (let i = 0; i < svgs.length; i += 1) {
     const svg = svgs[i];
     try {
-      const dataUrl = await svgElementToDataUrl(svg);
+      const raster = await svgElementToDataUrl(svg, rasterScale);
       const img = document.createElement('img');
-      img.src = dataUrl;
+      img.src = raster.dataUrl;
       img.alt = '';
       img.style.width = '100%';
       img.style.maxWidth = '100%';
       img.style.height = 'auto';
       img.style.display = 'block';
+      // Keep layout CSS size while intrinsic PNG is high-DPI for html2canvas.
+      img.width = Math.round(raster.cssWidth);
+      img.height = Math.round(raster.cssHeight);
       const parent = svg.parentNode;
       if (parent) {
         parent.replaceChild(img, svg);
@@ -291,7 +320,7 @@ export async function generateTunesPdf(container, filename) {
   await waitForPrintRender(container);
   assertPrintLayoutReady(container);
   const restoreHostVisibility = revealPrintHostForCapture(container);
-  const restoreSvgs = await replaceSvgsWithImages(container);
+  const restoreSvgs = await replaceSvgsWithImages(container, PRINT_PDF_CAPTURE_SCALE);
   const originalHostTransform = container.style.transform;
   const originalHostTransition = container.style.transition;
   container.style.transition = 'none';
@@ -321,7 +350,7 @@ export async function generateTunesPdf(container, filename) {
         console.warn('Print page exceeds layout height; slicing across PDF pages.', pageHeight);
       }
       const canvas = await html2canvas(pageEl, {
-        scale: 2,
+        scale: PRINT_PDF_CAPTURE_SCALE,
         useCORS: true,
         backgroundColor: '#ffffff',
         logging: false,
@@ -335,7 +364,7 @@ export async function generateTunesPdf(container, filename) {
           applyPrintCloneStyles(clonedDoc);
         },
       });
-      if (canvas.width < PRINT_PAGE_WIDTH_PX * 1.9) {
+      if (canvas.width < PRINT_PAGE_WIDTH_PX * (PRINT_PDF_CAPTURE_SCALE * 0.95)) {
         throw new Error('Print capture did not reach full page width.');
       }
       const pagesAdded = addCanvasPagesToPdf(
@@ -365,11 +394,12 @@ export async function generateTunesPdf(container, filename) {
 function addCanvasPagesToPdf(pdf, canvas, pdfWidth, pdfHeight, addPageBeforeFirst) {
   const scale = pdfWidth / canvas.width;
   const totalPdfHeight = canvas.height * scale;
+  // PNG keeps thin stave lines crisp; JPEG adds grain under zoom.
   if (totalPdfHeight <= pdfHeight + 1) {
     if (addPageBeforeFirst) {
       pdf.addPage();
     }
-    pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pdfWidth, totalPdfHeight);
+    pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, pdfWidth, totalPdfHeight);
     return 1;
   }
 
@@ -403,8 +433,8 @@ function addCanvasPagesToPdf(pdf, canvas, pdfWidth, pdfHeight, addPageBeforeFirs
       );
     }
     pdf.addImage(
-      sliceCanvas.toDataURL('image/jpeg', 0.92),
-      'JPEG',
+      sliceCanvas.toDataURL('image/png'),
+      'PNG',
       0,
       0,
       pdfWidth,

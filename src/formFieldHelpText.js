@@ -73,13 +73,46 @@ export const LINKS_FIELD_HELP = {
 };
 
 export const SETTINGS_FIELD_HELP = {
+  compressAudio: {
+    title: 'Compress Audio',
+    body: 'Controls how linked media, MIDI playback, and stems are stored in the browser cache and how audio downloads are packaged. Uncompressed WAV uses more space with no quality loss. MP3 and AAC use much less space. Formats that this browser cannot encode are disabled in Settings. New cache writes and downloads use this setting immediately; clear Audio, MIDI, or stems caches to recompress existing entries.',
+  },
   resolverUrl: {
     title: 'Resolver URL',
     body: 'Base URL for the media resolver used for pitch/tempo playback, lyrics and chord search, and Import from media. Leave blank to try localhost first, then shared public resolvers.',
   },
+  youtubeHelper: {
+    title: 'YouTube Helper extension',
+    body: 'A Chromium extension that fetches YouTube audio in your browser (your network, your session). When connected, Tunebook can pitch-shift, filter, and cache YouTube links without sending that media through a cloud resolver.',
+  },
+  youtubeHelperInstall: {
+    title: 'How to install YouTube Helper',
+    fields: [
+      {
+        title: '1. Download',
+        body: 'Use Download YouTube Helper on Settings → Media to get tunebook-youtube-helper.zip.',
+      },
+      {
+        title: '2. Unzip',
+        body: 'Extract the zip. You should get a folder named tunebook-youtube-helper (it contains manifest.json).',
+      },
+      {
+        title: '3. Load unpacked in Chrome',
+        body: 'Open chrome://extensions, turn on Developer mode, click Load unpacked, and select that folder.',
+      },
+      {
+        title: '4. Reload Tunebook',
+        body: 'Reload this Tunebook tab after install or update so the page bridge can inject.',
+      },
+      {
+        title: '5. Confirm connected',
+        body: 'Status on Settings → Media should show connected. In DevTools → Elements, <html> should have data-tunebook-yt-helper. If it stays disconnected, reload the extension on chrome://extensions, then hard-reload Tunebook again.',
+      },
+    ],
+  },
   offlineMedia: {
     title: 'Audio Cache',
-    body: 'Caches the full linked recording as MP3 in local storage. When enabled, the current track is cached after playback starts and the next playlist track is prefetched. Playback still applies your saved tempo, pitch, trim, and filters at play time. YouTube caching requires a working media resolver.',
+    body: 'Caches the full linked recording using the Compress Audio setting. When enabled, the current track is cached after playback starts and the next playlist track is prefetched. Playback still applies your saved tempo, pitch, trim, and filters at play time. YouTube caching needs the YouTube Helper extension or a working media resolver.',
   },
   colorScheme: {
     title: 'Color scheme',

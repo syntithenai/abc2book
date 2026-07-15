@@ -28,6 +28,7 @@
     "mathjs": "^10.5.2",
     "midi-player-js": "^2.0.16",
     "midi.js": "^0.3.1",
+    "mp4-muxer": "^5.2.2",
     "music-metadata-browser": "^2.5.11",
     "music-scale": "^1.2.0",
     "nosleep.js": "^0.12.0",
@@ -63,7 +64,8 @@
   "scripts": {
     "start": "BROWSERSLIST_IGNORE_OLD_DATA=true craco start",
     "buildresources": "cd ./abcresources; nodejs ./rename_all.js; nodejs ./indexes_from_files.js",
-    "build": "craco build && rm -rf ./static/ && cp -r ./build/* ./ && cp ./manifest.template.json ./manifest.json && node hackSw.js ",
+    "package:youtube-helper": "node scripts/packageYoutubeHelperExtension.js",
+    "build": "npm run package:youtube-helper && craco build && rm -rf ./static/ && cp -r ./build/* ./ && cp ./manifest.template.json ./manifest.json && node hackSw.js ",
     "build:chordlib": "node scripts/buildChordLib.js",
     "start:resolver": "cd local-resolver && docker compose up --build",
     "test": "craco test",

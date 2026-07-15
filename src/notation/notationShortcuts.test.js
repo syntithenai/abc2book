@@ -25,10 +25,10 @@ describe('notationShortcuts', function() {
     expect(action.letter).toBe('G');
   });
 
-  test('maps Delete forward and Backspace backward', function() {
-    expect(resolveNotationAction({ key: 'Delete', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {}))
-      .toEqual({ action: 'deleteToRest', backward: false });
-    expect(resolveNotationAction({ key: 'Backspace', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {}))
-      .toEqual({ action: 'deleteToRest', backward: true });
+  test('maps Shift+Arrow to extendSelection', function() {
+    expect(resolveNotationAction({ key: 'ArrowRight', metaKey: false, ctrlKey: false, shiftKey: true, altKey: false }, {}))
+      .toEqual({ action: 'extendSelection', delta: 1 });
+    expect(resolveNotationAction({ key: 'ArrowLeft', metaKey: false, ctrlKey: false, shiftKey: true, altKey: false }, {}))
+      .toEqual({ action: 'extendSelection', delta: -1 });
   });
 });

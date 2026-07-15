@@ -1,11 +1,13 @@
 import { Accordion, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import NotationEditorHelp from './components/NotationEditorHelp';
 
 export const HELP_NAV = [
   { id: 'start-here', title: 'Start here' },
   { id: 'what-you-can-do', title: 'What you can do' },
   { id: 'organise', title: 'Add and organise' },
   { id: 'edit-music', title: 'Edit music' },
+  { id: 'notation-editor', title: 'Notation editor' },
   { id: 'practise', title: 'Practise with media' },
   { id: 'tuner', title: 'Tuner' },
   { id: 'lyrics-chords', title: 'Lyrics and chords' },
@@ -62,12 +64,12 @@ export function HelpWhatYouCanDo() {
         <li>Import <strong>Score</strong> files: MusicXML/MXL offline; MIDI when logged in and the media resolver is available.</li>
         <li>Import <strong>YouTube</strong> playlists when logged in (Add → Import → <strong>YouTube</strong>).</li>
         <li>Import curated tune collections from the Import tab.</li>
-        <li>Search the built-in ABC database from the editor toolbar search button (includes tunes from thesession.org and other scraped sources).</li>
+        <li>Search the built-in ABC database from the editor toolbar search button (includes tunes from thesession.org and other scraped sources). With a media resolver, notation search can also suggest public MuseScore.com scores when MusicXML is freely downloadable, and fall back to known MIDI sites when ABC/MuseScore matches are weak or missing (MIDI conversion is experimental).</li>
         <li>Use <strong>Import from media</strong> (Add tune flow or editor Wizards) to derive lyrics/chords from audio when the resolver is available.</li>
       </ul>
       <h4>Edit and improve</h4>
       <ul>
-        <li>Edit ABC with live notation and playback.</li>
+        <li>Edit ABC with live notation and playback. See <a href="#notation-editor">Notation editor</a> for staff editing, bar lines, and shortcuts.</li>
         <li><strong>Wizards</strong>: Auto Fix, halve/double note lengths, bar layouts.</li>
         <li>Click tempo mark or key signature in the music view to change tempo or transpose.</li>
         <li>Set tablature in the editor <strong>Info</strong> tab.</li>
@@ -125,14 +127,27 @@ export function HelpEditMusic() {
       <p>From a tune page: tune menu → <strong>Edit</strong>.</p>
       <p>Editor tabs:</p>
       <ul>
-        <li><strong>Music</strong> — per-voice note lines</li>
+        <li><strong>Music</strong> — staff notation editor (notes, bar lines, marks). Full guide: <a href="#notation-editor">Notation editor</a>. Use <strong>Search</strong> to find ABC from The Session and other sites; with a media resolver, public MuseScore.com scores and (when matches are weak) MIDI from known sites may appear as suggestions. Paste a musescore.com score URL or a direct <code>.mid</code> URL into the search query to import when available.</li>
         <li><strong>Info</strong> — metadata, tablature, <strong>Background information</strong> (with <strong>Research Background</strong> when resolver available)</li>
         <li><strong>Lyrics</strong> — <strong>Search Lyrics</strong>, lyrics textarea</li>
         <li><strong>Chords</strong> — <strong>Search Chords</strong>, Reset, <strong>Save</strong></li>
         <li><strong>ABC</strong> — raw ABC and <strong>Errors</strong> sub-tab</li>
       </ul>
+      <p>In the Music tab, open the notation <strong>Help</strong> button for the same guide inside the editor (plus an interactive walkthrough).</p>
       <p>Click the tempo mark or key signature in the music view for quick changes without opening the full editor.</p>
       <p>Undo/redo arrows are in the editor toolbar.</p>
+    </>
+  );
+}
+
+export function HelpNotationEditor() {
+  return (
+    <>
+      <p>
+        Open a tune → <strong>Edit</strong> → <strong>Music</strong> to use the staff notation editor.
+        The same content is available from the editor <strong>Help</strong> button (with a guided walkthrough).
+      </p>
+      <NotationEditorHelp />
     </>
   );
 }
@@ -619,6 +634,7 @@ export const HELP_SECTIONS = [
   { id: 'what-you-can-do', title: 'What you can do', Content: HelpWhatYouCanDo },
   { id: 'organise', title: 'Add and organise tunes', Content: HelpOrganise },
   { id: 'edit-music', title: 'Edit music', Content: HelpEditMusic },
+  { id: 'notation-editor', title: 'Notation editor', Content: HelpNotationEditor },
   { id: 'practise', title: 'Practise with media', Content: HelpPractise },
   { id: 'tuner', title: 'Tuner', Content: HelpTuner },
   { id: 'lyrics-chords', title: 'Lyrics, chords, and background', Content: HelpLyricsChords },

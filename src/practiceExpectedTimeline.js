@@ -1,6 +1,6 @@
 import { eventsFromVoiceBody } from './notation/voiceEventTiming'
 import { parseNoteLengthDecimal, beatsPerBarFromMeter } from './notation/beatGrid'
-import { eventMidiPitch } from './notation/voiceEventModel'
+import { eventMelodicMidiPitch } from './notation/voiceEventModel'
 
 const HEADER_KEYS = ['X', 'T', 'M', 'L', 'Q', 'K']
 
@@ -78,7 +78,8 @@ export function noteEventsFromWarmupAbc(abc) {
   const notes = []
   events.forEach(function(ev) {
     if (ev.type === 'rest' || ev.type === 'barline' || ev.type === 'lineBreak') return
-    const midi = eventMidiPitch(ev)
+    // Melodic pitch (highest of a dyad) so count-in / accuracy match the written melody.
+    const midi = eventMelodicMidiPitch(ev)
     if (midi == null) return
     const startBeat = typeof ev.startBeat === 'number' ? ev.startBeat : 0
     const durationBeats = typeof ev.durationBeats === 'number' ? ev.durationBeats : 0

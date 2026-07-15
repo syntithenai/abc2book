@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, ButtonGroup } from 'react-bootstrap'
 import FieldSearchModeDialog from './FieldSearchModeDialog'
+import { useIsNarrowViewport } from '../useMediaQuery'
 
 const DEFAULT_SEARCH_ICON = (
   <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
@@ -65,7 +66,9 @@ function renderExternalButton(props) {
  * Search (+ optional external link) control.
  * When confirmSearchMode is true (default for automatic lookup), Search opens
  * Auto / Review / Cancel; onSearch receives 'auto' | 'review'.
+ * When confirmSearchMode is false, onSearch receives defaultSearchMode ('auto' by default).
  * When busy, Search cancels and calls onSearch() with no mode.
+ * When `narrow` is omitted, follows the narrow viewport breakpoint.
  */
 export function FieldLookupButtonGroup(props) {
   const {
@@ -74,15 +77,18 @@ export function FieldLookupButtonGroup(props) {
     disabled,
     externalUrl,
     externalLinkIcon,
-    narrow,
+    narrow: narrowProp,
     onSearch,
     buttonStyle,
     searchIcon,
     inline,
     confirmSearchMode = true,
+    defaultSearchMode = 'auto',
     modeDialogTitle,
     modeDialogBody,
   } = props
+  const viewportNarrow = useIsNarrowViewport()
+  const narrow = typeof narrowProp === 'boolean' ? narrowProp : viewportNarrow
   const [showModeDialog, setShowModeDialog] = useState(false)
 
   const style = Object.assign({ color: 'black' }, buttonStyle || {})
@@ -105,7 +111,9 @@ export function FieldLookupButtonGroup(props) {
       setShowModeDialog(true)
       return
     }
-    if (typeof onSearch === 'function') onSearch('auto')
+    if (typeof onSearch === 'function') {
+      onSearch(defaultSearchMode === 'review' ? 'review' : 'auto')
+    }
   }
 
   function chooseMode(mode) {

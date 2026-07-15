@@ -88,6 +88,10 @@ export default function NotationEditorHelp(props) {
               <p>
                 Toolbars use compact dropdown menus (like bar lines): durations, accidentals, tools, marks, tuplets, and MIDI options.
               </p>
+              <p className="help-tip">
+                This guide is also listed under <strong>Help → Notation editor</strong> on the main Help page.
+                In the Music editor, the <strong>Help</strong> button opens the same content plus an interactive walkthrough.
+              </p>
             </div>
           </section>
 
@@ -131,6 +135,8 @@ export default function NotationEditorHelp(props) {
               <ul>
                 <li>In note input mode, letter keys <kbd>A</kbd>–<kbd>G</kbd> insert notes at the caret using the selected duration.</li>
                 <li>Press <kbd>0</kbd> to insert a rest. Right-click on the staff also inserts a rest at the click position.</li>
+                <li>In select mode, click a note then press <kbd>A</kbd>–<kbd>G</kbd> to replace its pitch, or <kbd>1</kbd>–<kbd>9</kbd> to change duration.</li>
+                <li>Accidentals (−/=/+) apply to the selection when notes are selected; otherwise they set carry for the next typed note.</li>
                 <li>Press <kbd>.</kbd> to toggle dotted duration, or pick a duration with keys <kbd>1</kbd>–<kbd>9</kbd> (defaults: <kbd>5</kbd> = quarter note).</li>
                 <li><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>G</kbd> adds a chord tone to the previous note instead of starting a new one.</li>
               </ul>
@@ -244,6 +250,19 @@ export default function NotationEditorHelp(props) {
                 <li><strong>↵</strong> on the duration row — system break (<kbd>!</kbd>)</li>
               </ul>
               <p>
+                In note input mode, press <kbd>|</kbd> to insert a single bar line at the caret,
+                or <kbd>!</kbd> for a system break.
+              </p>
+              <h3>Delete a bar line</h3>
+              <ol>
+                <li>Select the bar line — click a note next to it, then press <kbd>←</kbd> or <kbd>→</kbd> until the bar is selected (selection outlines that event).</li>
+                <li>Press <kbd>Delete</kbd> or <kbd>Backspace</kbd> to remove it.</li>
+              </ol>
+              <p>
+                You can also use <kbd>Ctrl</kbd>+<kbd>Delete</kbd> (or <kbd>Ctrl</kbd>+<kbd>Backspace</kbd>) to remove any selected events entirely.
+                In the <strong>ABC text</strong> view (or <strong>ABC Notes</strong> tab), delete the <code>|</code> character from the voice text.
+              </p>
+              <p>
                 Layout wizards (Auto Fix, halve/double lengths, 4/6/8-bar layout) run on <strong>every voice</strong> in the tune.
               </p>
             </div>
@@ -261,6 +280,11 @@ export default function NotationEditorHelp(props) {
                 <li><strong>Other</strong> — fermata, upbow, downbow</li>
               </ul>
               <p>Marks apply to selected notes. Click a note to select it, or <kbd>Shift</kbd>+click for a range. Blue “Slur” and “Tuplet N” badges show when those modes are active.</p>
+              <p>
+                <strong>Edit selected notes:</strong> press <kbd>1</kbd>–<kbd>9</kbd> (or the duration toolbar) to change length;
+                press <kbd>A</kbd>–<kbd>G</kbd> to replace pitch; use the accidental control or <kbd>-</kbd>/<kbd>=</kbd>/<kbd>+</kbd> for flat/natural/sharp;
+                use this Marks menu for accent, staccato, and other articulations.
+              </p>
             </div>
           </section>
 
@@ -280,11 +304,19 @@ export default function NotationEditorHelp(props) {
             <h2>Selection & clipboard</h2>
             <div className="help-section-body">
               <ul>
+                <li><strong>Click</strong> a note, rest, or bar line — select that event (sets the selection anchor).</li>
+                <li><kbd>Shift</kbd>+click — contiguous range from the anchor to the clicked event.</li>
+                <li><kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+click — toggle an event in or out of the selection.</li>
+                <li><strong>Drag on empty staff</strong> — marquee-select events whose glyphs intersect the box.</li>
+                <li><strong>Double-click</strong> a note — select the whole measure (through that measure&apos;s bar line).</li>
+                <li><kbd>←</kbd>/<kbd>→</kbd> — move selection to previous/next event (works even if the staff left focus on the page body).</li>
+                <li><kbd>Shift</kbd>+<kbd>←</kbd>/<kbd>→</kbd> — extend the selection from the anchor.</li>
+                <li><strong>Vertical drag</strong> on a note — live pitch preview on the selection boxes; pitch commits when you release.</li>
                 <li><kbd>Ctrl</kbd>+<kbd>C</kbd> / <kbd>X</kbd> / <kbd>V</kbd> — copy, cut, paste selected events (internal clipboard).</li>
                 <li><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> — swap selection with clipboard.</li>
                 <li><kbd>R</kbd> — repeat last note or repeat selection at caret.</li>
                 <li><kbd>Q</kbd> / <kbd>W</kbd> — halve / double duration; <kbd>Shift</kbd>+<kbd>Q</kbd>/<kbd>W</kbd> dot-aware.</li>
-                <li><kbd>Delete</kbd> — turn selection into rests; <kbd>Ctrl</kbd>+<kbd>Delete</kbd> removes events entirely.</li>
+                <li><kbd>Delete</kbd> — turn selected notes into rests; remove selected bar lines / system breaks. <kbd>Ctrl</kbd>+<kbd>Delete</kbd> removes any selected events entirely.</li>
                 <li><kbd>↑</kbd>/<kbd>↓</kbd> — chromatic transpose; <kbd>Ctrl</kbd>+↑/↓ octave; <kbd>Alt</kbd>+<kbd>Shift</kbd>+↑/↓ diatonic.</li>
               </ul>
             </div>
@@ -332,7 +364,8 @@ export default function NotationEditorHelp(props) {
                 <li><kbd>-</kbd> / <kbd>=</kbd> / <kbd>+</kbd> — flat / natural / sharp carry</li>
                 <li><kbd>T</kbd> tie; <kbd>R</kbd> repeat; <kbd>Q</kbd>/<kbd>W</kbd> halve/double duration</li>
                 <li><kbd>|</kbd> bar line; <kbd>!</kbd> system break (note input mode)</li>
-                <li><kbd>←</kbd>/<kbd>→</kbd> events; <kbd>Ctrl</kbd>+arrows measures</li>
+                <li>Select bar + <kbd>Delete</kbd> — remove bar line</li>
+                <li><kbd>←</kbd>/<kbd>→</kbd> events; <kbd>Shift</kbd>+arrows extend selection; <kbd>Ctrl</kbd>+arrows measures</li>
                 <li><kbd>↑</kbd>/<kbd>↓</kbd> chromatic; <kbd>Ctrl</kbd> octave; <kbd>Alt</kbd>+<kbd>Shift</kbd> diatonic</li>
                 <li><kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>X</kbd>/<kbd>V</kbd> clipboard; <kbd>s</kbd> toggle snap</li>
                 <li><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd> — cycle Staff / Piano roll / Split</li>

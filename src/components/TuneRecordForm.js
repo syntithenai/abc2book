@@ -12,6 +12,7 @@ import TuneArtistsField from './TuneArtistsField';
 import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
+import LyricsSearchButton from './LyricsSearchButton';
 import ArtistsSearchButton from './ArtistsSearchButton';
 import AliasesSearchButton from './AliasesSearchButton';
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton';
@@ -28,9 +29,12 @@ import LyricsSectionsDropdown from './LyricsSectionsDropdown';
 import { FormLabelWithHelp } from './FormFieldHelp';
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText';
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings';
-import { formValuesToTune, importSuggestionDiffersFromForm } from '../importReviewFieldUtils';
+import { formValuesToTune, importSuggestionDiffersFromForm, tuneToFormValues } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
 import { mergeBibliographicList } from '../tuneBibliographicUtils';
+import useAbcjsParser from '../useAbcjsParser';
+import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune';
+import { candidateDisplayValue } from '../fieldLookupApplyUtils';
 function FormBlock(props) {
   return (
     <div className={'tune-record-form-block' + (props.className ? ' ' + props.className : '')}>
@@ -42,8 +46,6 @@ function FormBlock(props) {
 const NOTE_LENGTH_OPTIONS = ['', '1', '1/2', '1/3', '1/4', '1/6', '1/8', '1/12', '1/16'];
 
 const ADVANCED_MERGE_FIELD_KEYS = [
-  'aliases',
-  'artists',
   'rhythm',
   'noteLength',
   'capo',
@@ -57,8 +59,13 @@ const ADVANCED_MERGE_FIELD_KEYS = [
 ];
 
 function FieldLabelRow(props) {
+  const hasChoiceList = props.suggestion
+    && Array.isArray(props.suggestion.choices)
+    && props.suggestion.choices.length > 1;
   const showSuggestion = props.suggestion
-    && (!props.values || importSuggestionDiffersFromForm(props.formKey, props.suggestion, props.values));
+    && (hasChoiceList
+      || !props.values
+      || importSuggestionDiffersFromForm(props.formKey, props.suggestion, props.values));
   return (
     <div className="d-flex align-items-center gap-2 flex-wrap" style={{ marginBottom: props.tight ? 0 : '0.35em' }}>
       <Form.Label className="mb-0" htmlFor={props.htmlFor}>{props.label}</Form.Label>
@@ -66,10 +73,12 @@ function FieldLabelRow(props) {
         <ImportFieldSuggestion
           id={props.formKey}
           label={props.label}
+          formKey={props.formKey}
           fieldKey={props.suggestion.key}
           suggestion={props.suggestion}
           choices={Array.isArray(props.suggestion.choices) ? props.suggestion.choices : null}
           importedDisplay={formatTuneFieldValue(props.suggestion.key, props.suggestion.value)}
+          previewMetadata={props.previewMetadata}
           onSelectChoice={function(choice) {
             if (typeof props.onApplySuggestion !== 'function') return;
             props.onApplySuggestion(props.formKey, Object.assign({}, props.suggestion, {
@@ -105,6 +114,7 @@ export default function TuneRecordForm(props) {
   const values = props.values || {};
   const suggestions = props.suggestions || {};
   const tunebook = props.tunebook;
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook });
   const lyricsTextareaRef = useRef(null);
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false);
   const [showLyricsTools, setShowLyricsTools] = useState(false);
@@ -122,7 +132,46 @@ export default function TuneRecordForm(props) {
 
   function setField(field, value) {
     if (typeof props.onChange === 'function') {
-      props.onChange(updateValues(values, { [field]: value }));
+      // Partial patch so parents can merge against latest state (multi-add pickers).
+      props.onChange({ [field]: value });
+    }
+  }
+
+  function patchField(field, updater) {
+    if (typeof props.onChange !== 'function') return;
+    props.onChange(function(current) {
+      const prev = current && Object.prototype.hasOwnProperty.call(current, field)
+        ? current[field]
+        : values[field];
+      return { [field]: updater(prev) };
+    });
+  }
+
+  function applyChordSearchResult(candidate, meta) {
+    if (meta && meta.keepCurrent) return
+    if (!candidate || !tunebook || !tunebook.abcTools || !abcjsParser) return
+    const baseTune = formValuesToTune(values, props.previewTune || {})
+    const committed = commitChordSearchResultToTune({
+      result: candidate,
+      tune: baseTune,
+      abc: tunebook.abcTools.json2abc(baseTune),
+      tunebook: tunebook,
+      abcjsParser: abcjsParser,
+      updateLyrics: false,
+      skipSave: true,
+    })
+    if (!committed.ok || !committed.tune) return
+    const nextForm = tuneToFormValues(committed.tune)
+    if (typeof props.onChange === 'function') {
+      props.onChange(updateValues(values, {
+        voices: nextForm.voices,
+        notes: nextForm.notes,
+        meter: nextForm.meter || values.meter,
+        keyName: nextForm.keyName || values.keyName,
+        tempo: nextForm.tempo || values.tempo,
+        capo: nextForm.capo || values.capo,
+        noteLength: nextForm.noteLength || values.noteLength,
+      }))
     }
   }
 
@@ -253,15 +302,19 @@ export default function TuneRecordForm(props) {
 
   function suggestionControl(formKey, label) {
     const suggestion = suggestions[formKey];
-    if (!suggestion || !importSuggestionDiffersFromForm(formKey, suggestion, values)) return null;
+    if (!suggestion) return null;
+    const hasChoiceList = Array.isArray(suggestion.choices) && suggestion.choices.length > 1;
+    if (!hasChoiceList && !importSuggestionDiffersFromForm(formKey, suggestion, values)) return null;
     return (
       <ImportFieldSuggestion
         id={formKey}
         label={label}
+        formKey={formKey}
         fieldKey={suggestion.key}
         suggestion={suggestion}
         choices={Array.isArray(suggestion.choices) ? suggestion.choices : null}
         importedDisplay={formatTuneFieldValue(suggestion.key, suggestion.value)}
+        previewMetadata={notationMetadata}
         onSelectChoice={function(choice) {
           if (typeof props.onApplySuggestion !== 'function') return;
           props.onApplySuggestion(formKey, Object.assign({}, suggestion, {
@@ -352,7 +405,9 @@ export default function TuneRecordForm(props) {
               candidateId={props.candidateId}
               kind="composer"
               fallbackTitle={values.title || ''}
-              onApply={function(candidate) {
+              currentValue={values.artist || ''}
+              onApply={function(candidate, _job, meta) {
+                if (meta && meta.keepCurrent) return
                 if (candidate && candidate.artist) setField('artist', candidate.artist);
               }}
             />
@@ -370,6 +425,64 @@ export default function TuneRecordForm(props) {
             />
           ) : null}
         </Form.Group>
+
+        <div className="d-flex align-items-start gap-2 flex-wrap mb-2 mt-3">
+          <div style={{ flex: '1 1 12em' }}>
+            <TuneArtistsField
+              value={Array.isArray(values.artists) ? values.artists : []}
+              onChange={function(next) { setField('artists', next); }}
+            />
+          </div>
+          <ArtistsSearchButton
+            tuneId={props.previewTune && props.previewTune.id}
+            candidateId={props.candidateId}
+            title={values.title}
+            artist={values.artist}
+            existingArtists={values.artists}
+            tunebook={tunebook}
+            disabled={!String(values.title || '').trim()}
+            onAddArtist={function(artistName) {
+              patchField('artists', function(current) {
+                return mergeBibliographicList(current, [artistName]);
+              });
+            }}
+          />
+        </div>
+        {suggestions.artists ? (
+          <div className="mb-2">
+            {suggestionControl('artists', 'Artists')}
+          </div>
+        ) : null}
+
+        <div className="d-flex align-items-start gap-2 flex-wrap mb-0">
+          <div style={{ flex: '1 1 12em' }}>
+            <TuneAliasesField
+              value={Array.isArray(values.aliases) ? values.aliases : []}
+              onChange={function(next) { setField('aliases', next); }}
+            />
+          </div>
+          <AliasesSearchButton
+            tuneId={props.previewTune && props.previewTune.id}
+            candidateId={props.candidateId}
+            title={values.title}
+            artist={values.artist}
+            existingAliases={values.aliases}
+            tunebook={tunebook}
+            resolverAvailable={props.resolverAvailable}
+            token={props.token}
+            disabled={!String(values.title || '').trim()}
+            onAddAlias={function(alias) {
+              patchField('aliases', function(current) {
+                return mergeBibliographicList(current, [alias]);
+              });
+            }}
+          />
+        </div>
+        {suggestions.aliases ? (
+          <div className="mt-2">
+            {suggestionControl('aliases', 'Aliases')}
+          </div>
+        ) : null}
       </FormBlock>
 
       <FormBlock>
@@ -379,7 +492,7 @@ export default function TuneRecordForm(props) {
       <FormBlock className="tune-record-form-block--meta">
         <div className="tune-record-form-meta-row">
           <Form.Group className="tune-record-form-meta-field">
-            <FieldLabelRow label="Meter" formKey="meter" suggestion={suggestions.meter} onApplySuggestion={props.onApplySuggestion} values={values} tight={true} />
+            <FieldLabelRow label="Time Signature" formKey="meter" suggestion={suggestions.meter} onApplySuggestion={props.onApplySuggestion} values={values} tight={true} />
             <CreatableSelect
               value={values.meter ? { value: values.meter, label: values.meter } : { value: '', label: '' }}
               onChange={function(val) { setField('meter', val ? val.value : ''); }}
@@ -420,7 +533,6 @@ export default function TuneRecordForm(props) {
                 backgroundInfo={values.backgroundInfo}
                 tunebook={tunebook}
                 disabled={!String(values.title || '').trim()}
-                inline={true}
                 onGenre={function(genre) { setField('genre', genre); }}
               />
             </FieldLabelRow>
@@ -450,14 +562,58 @@ export default function TuneRecordForm(props) {
           suggestionControl={(
             <>
               {suggestionControl('lyrics', 'Lyrics')}
+              <LyricsSearchButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                title={values.title}
+                artist={values.artist}
+                rhythm={values.rhythm}
+                currentGenre={values.genre}
+                token={props.token}
+                tunebook={tunebook}
+                resolverAvailable={props.resolverAvailable}
+                existingLyrics={values.lyrics || ''}
+                disabled={!String(values.title || '').trim()}
+                leaveAwaiting={true}
+                alsoSearchChords={true}
+                forceReview={true}
+                onGenreAccept={function(genre) { setField('genre', genre); }}
+                onLyrics={function(result) {
+                  const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
+                  if (text) setField('lyrics', text);
+                }}
+              />
               <FieldLookupReviewButton
                 tuneId={props.previewTune && props.previewTune.id}
                 candidateId={props.candidateId}
                 kind="lyrics"
                 fallbackTitle={values.title || ''}
-                onApply={function(result) {
+                currentValue={values.lyrics || ''}
+                onApply={function(result, _job, meta) {
+                  if (meta && meta.keepCurrent) return
                   const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
                   if (text) setField('lyrics', text);
+                }}
+              />
+              <FieldLookupReviewButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                kind="chords"
+                fallbackTitle={values.title || ''}
+                currentValue={values.notes || ''}
+                currentDisplay={candidateDisplayValue('chords', {
+                  chordText: values.notes || '',
+                }) || '(empty)'}
+                onApply={function(candidate, _job, meta) {
+                  if (meta && meta.keepCurrent) return
+                  const lyricText = candidate && (
+                    candidate.lyricText
+                    || (Array.isArray(candidate.lyricLines) ? candidate.lyricLines.join('\n') : '')
+                  )
+                  if (String(lyricText || '').trim()) {
+                    setField('lyrics', String(lyricText).trim())
+                  }
+                  applyChordSearchResult(candidate, meta)
                 }}
               />
             </>
@@ -546,7 +702,7 @@ export default function TuneRecordForm(props) {
                 tunebook={tunebook}
                 resolverAvailable={props.resolverAvailable}
                 disabled={!String(values.title || '').trim()}
-                inline={true}
+                leaveAwaiting={true}
                 onGenreAccept={function(genre) { setField('genre', genre); }}
                 onNotation={function(candidate) {
                   const abc = candidate && candidate.abc ? String(candidate.abc) : '';
@@ -575,7 +731,10 @@ export default function TuneRecordForm(props) {
                 candidateId={props.candidateId}
                 kind="notation"
                 fallbackTitle={values.title || ''}
-                onApply={function(candidate) {
+                previewMetadata={notationMetadata}
+                currentValue={values.notes || ''}
+                onApply={function(candidate, _job, meta) {
+                  if (meta && meta.keepCurrent) return
                   const abc = candidate && candidate.abc ? String(candidate.abc) : '';
                   if (!abc || !tunebook || !tunebook.abcTools) return;
                   const imported = tunebook.abcTools.abc2json(abc);
@@ -595,6 +754,16 @@ export default function TuneRecordForm(props) {
                       notes: notes,
                     }));
                   }
+                }}
+              />
+              <FieldLookupReviewButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                kind="chords"
+                fallbackTitle={values.title || ''}
+                currentValue={values.notes || ''}
+                onApply={function(candidate, _job, meta) {
+                  applyChordSearchResult(candidate, meta)
                 }}
               />
             </>
@@ -689,62 +858,6 @@ export default function TuneRecordForm(props) {
             Advanced fields
           </Accordion.Header>
           <Accordion.Body>
-            <div className="d-flex align-items-start gap-2 flex-wrap mb-2">
-              <div style={{ flex: '1 1 12em' }}>
-                <TuneArtistsField
-                  value={Array.isArray(values.artists) ? values.artists : []}
-                  onChange={function(next) { setField('artists', next); }}
-                />
-              </div>
-              <ArtistsSearchButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                title={values.title}
-                artist={values.artist}
-                existingArtists={values.artists}
-                tunebook={tunebook}
-                disabled={!String(values.title || '').trim()}
-                inline={true}
-                onAddArtist={function(artistName) {
-                  setField('artists', mergeBibliographicList(values.artists, [artistName]));
-                }}
-              />
-            </div>
-            {suggestions.artists ? (
-              <div className="mb-3">
-                {suggestionControl('artists', 'Artists')}
-              </div>
-            ) : null}
-
-            <div className="d-flex align-items-start gap-2 flex-wrap mb-2">
-              <div style={{ flex: '1 1 12em' }}>
-                <TuneAliasesField
-                  value={Array.isArray(values.aliases) ? values.aliases : []}
-                  onChange={function(next) { setField('aliases', next); }}
-                />
-              </div>
-              <AliasesSearchButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                title={values.title}
-                artist={values.artist}
-                existingAliases={values.aliases}
-                tunebook={tunebook}
-                resolverAvailable={props.resolverAvailable}
-                token={props.token}
-                disabled={!String(values.title || '').trim()}
-                inline={true}
-                onAddAlias={function(alias) {
-                  setField('aliases', mergeBibliographicList(values.aliases, [alias]));
-                }}
-              />
-            </div>
-            {suggestions.aliases ? (
-              <div className="mb-3">
-                {suggestionControl('aliases', 'Aliases')}
-              </div>
-            ) : null}
-
             <Form.Group className="mb-3">
               <FieldLabelRow label="Rhythm" formKey="rhythm" suggestion={suggestions.rhythm} onApplySuggestion={props.onApplySuggestion}  values={values} />
               <CreatableSelect

@@ -1,8 +1,13 @@
+import { useEffect, useRef, useState } from 'react'
+import { Button } from 'react-bootstrap'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
 import ImportFieldSuggestion from './ImportFieldSuggestion'
+import SearchResultPickerModal from './SearchResultPickerModal'
 import {
   applyFieldLookupChoice,
+  dismissFieldLookup,
   getAwaitingJob,
+  shouldDeferFieldLookupSave,
 } from '../tuneFieldLookupQueue'
 import { candidateDisplayValue } from '../fieldLookupApplyUtils'
 
@@ -47,9 +52,17 @@ function truncateOneLine(text, maxLen) {
   return value.slice(0, maxLen - 1) + '…'
 }
 
+function previewFromCurrent(currentDisplay, currentValue) {
+  if (currentDisplay != null) return String(currentDisplay)
+  if (currentValue != null && String(currentValue).trim() !== '') return String(currentValue)
+  return '(empty)'
+}
+
 /**
  * Merge-suggestion control for an awaiting field-lookup job.
- * Opens a dropdown of search result choices (no Use/Choose/Dismiss buttons).
+ * Notation opens a fullscreen gallery picker; other kinds use a dropdown.
+ *
+ * Review / linked jobs defer live save — host onApply receives { deferred: true }.
  */
 export default function FieldLookupReviewButton({
   tuneId,
@@ -58,8 +71,13 @@ export default function FieldLookupReviewButton({
   onApply,
   fallbackTitle,
   className,
+  previewMetadata,
+  currentValue,
+  currentDisplay,
 }) {
   const queue = useTuneFieldLookupQueue()
+  const [showNotationPicker, setShowNotationPicker] = useState(false)
+  const frozenCurrentRef = useRef(null)
 
   const targetKey = tuneId
     ? ('tune:' + String(tuneId))
@@ -78,21 +96,121 @@ export default function FieldLookupReviewButton({
     ? candidates
     : (manualOnly ? awaiting.manualCandidates : [])
 
+  // Freeze the form value shown as "Current value" when the awaiting job first
+  // appears so applying a search result does not rewrite that baseline choice.
+  useEffect(function() {
+    if (!awaiting || !awaiting.id || list.length === 0) {
+      frozenCurrentRef.current = null
+      return
+    }
+    if (frozenCurrentRef.current && frozenCurrentRef.current.jobId === awaiting.id) return
+    frozenCurrentRef.current = {
+      jobId: awaiting.id,
+      value: currentValue,
+      display: previewFromCurrent(currentDisplay, currentValue),
+    }
+  }, [awaiting && awaiting.id, list.length, currentValue, currentDisplay])
+
   if (!awaiting || list.length === 0) return null
 
   const multi = list.length > 1
   const primary = list[0]
   const display = candidateDisplayValue(kind, primary)
   const titleHint = fallbackTitle || awaiting.title || ''
+  const deferred = shouldDeferFieldLookupSave(awaiting)
+  const frozen = frozenCurrentRef.current && frozenCurrentRef.current.jobId === awaiting.id
+    ? frozenCurrentRef.current
+    : {
+      value: currentValue,
+      display: previewFromCurrent(currentDisplay, currentValue),
+    }
+  const currentPreview = frozen.display
+  const frozenCurrentValue = frozen.value
 
   function applyRaw(raw) {
+    // Review / import-draft jobs keep candidates selectable until Import/Add.
+    if (deferred) {
+      if (typeof onApply === 'function') {
+        onApply(raw, awaiting, { deferred: true, persistChoices: true })
+      }
+      return
+    }
     const applied = applyFieldLookupChoice(awaiting.id, raw)
     if (typeof onApply === 'function' && applied) {
-      onApply(applied, awaiting)
+      onApply(applied, awaiting, { deferred: false })
     }
   }
 
-  const choices = list.map(function(candidate, index) {
+  function applyCurrentValue() {
+    if (deferred) {
+      if (typeof onApply === 'function') {
+        onApply(null, awaiting, { deferred: true, keepCurrent: true, persistChoices: true })
+      }
+      return
+    }
+    dismissFieldLookup(awaiting.id)
+    if (typeof onApply === 'function') {
+      onApply(null, awaiting, { deferred: false, keepCurrent: true })
+    }
+  }
+
+  if (kind === 'notation') {
+    const pickerItems = [{
+      title: 'Current value',
+      artist: '',
+      preview: currentPreview === '(empty)' ? '' : currentPreview,
+      abc: typeof frozenCurrentValue === 'string' ? frozenCurrentValue : '',
+      source: 'current',
+      sourceUrl: '',
+      __current: true,
+    }].concat(list.map(function(candidate) {
+      return {
+        title: candidate.title || titleHint,
+        artist: candidate.artist || '',
+        preview: candidate.preview || candidate.abc || '',
+        abc: candidate.abc || candidate.preview || '',
+        source: candidate.source || '',
+        sourceUrl: candidate.sourceUrl || '',
+      }
+    }))
+    return (
+      <span className={className || 'field-lookup-review-btn'}>
+        <Button
+          variant="outline-info"
+          size="sm"
+          onClick={function() { setShowNotationPicker(true) }}
+          aria-label={'Use search suggestion for ' + fieldLabel(kind)}
+        >
+          Use search: {multi ? (list.length + ' results') : ((pickerItems[1] && pickerItems[1].title) || 'result')}
+        </Button>
+        <SearchResultPickerModal
+          show={showNotationPicker}
+          title="Choose notation"
+          layout="notation"
+          previewMetadata={previewMetadata}
+          fallbackTitle={titleHint}
+          items={pickerItems}
+          onSelect={function(item, index) {
+            if (item && item.__current) {
+              setShowNotationPicker(false)
+              applyCurrentValue()
+              return
+            }
+            const raw = list[index - 1] || list.find(function(candidate) {
+              return (candidate.title || titleHint) === (item && item.title)
+                && (candidate.source || '') === (item && item.source || '')
+            })
+            if (!raw) return
+            setShowNotationPicker(false)
+            applyRaw(raw)
+          }}
+          onHide={function() { setShowNotationPicker(false) }}
+        />
+      </span>
+    )
+  }
+
+  const searchChoices = list.map(function(candidate, index) {
     const preview = candidateDisplayValue(kind, candidate)
     return {
       id: String(candidate.sourceUrl || candidate.artist || candidate.title || index),
@@ -103,6 +221,16 @@ export default function FieldLookupReviewButton({
       value: candidate,
     }
   })
+
+  const choices = [{
+    id: 'current',
+    label: 'Current value',
+    preview: currentPreview,
+    source: 'current',
+    raw: null,
+    value: frozenCurrentValue,
+    __current: true,
+  }].concat(searchChoices)
 
   const suggestion = {
     key: kind,
@@ -120,10 +248,14 @@ export default function FieldLookupReviewButton({
         suggestion={suggestion}
         importedDisplay={multi
           ? (list.length + ' results')
-          : (choices[0] && choices[0].label) || display}
+          : (searchChoices[0] && searchChoices[0].label) || display}
         actionLabel="Use search"
         choices={choices}
         onSelectChoice={function(choice) {
+          if (choice && choice.__current) {
+            applyCurrentValue()
+            return
+          }
           applyRaw(choice && choice.raw ? choice.raw : choice)
         }}
       />

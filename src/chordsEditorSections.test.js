@@ -4,6 +4,7 @@ import {
   applyPasteSectionToTuneSections,
   buildTuneSectionsFromPaste,
   extractMeterFromChartBlock,
+  extractTempoFromChartBlock,
   firstSectionMeter,
   insertChordsEditorSectionAfter,
   listChordsEditorSections,
@@ -87,6 +88,15 @@ describe('chordsEditorSections', function() {
     expect(blocks).toHaveLength(2);
   });
 
+  test('rebuildChordGridFromSections emits [Q:] when tempos differ', function() {
+    const grid = rebuildChordGridFromSections([
+      { chart: 'C . . . |', meter: '4/4', tempo: 100, chartRevisit: false },
+      { chart: 'G . . . |', meter: '4/4', tempo: 140, chartRevisit: false },
+    ]);
+    expect(grid).toContain('[Q:140]');
+    expect(extractTempoFromChartBlock(grid.split('\n\n')[1])).toBe(140);
+  });
+
   test('rebuildChordGridFromSections keeps empty section slots', function() {
     const grid = rebuildChordGridFromSections([
       { chart: 'C|', meter: '4/4', chartRevisit: false },
@@ -163,6 +173,13 @@ describe('chordsEditorSections', function() {
     expect(extractMeterFromChartBlock(withMeter)).toBe('3/4');
     expect(stripMeterMarkers(withMeter)).toBe('Am G|');
     expect(prependMeterMarker('Am G|', '4/4', null)).toBe('Am G|');
+  });
+
+  test('prependMeterMarker emits tempo change markers', function() {
+    const withTempo = prependMeterMarker('Am G|', '4/4', '4/4', 140, 100);
+    expect(withTempo).toContain('[Q:140]');
+    expect(extractTempoFromChartBlock(withTempo)).toBe(140);
+    expect(stripMeterMarkers(withTempo)).toBe('Am G|');
   });
 
   test('firstSectionMeter reads the first section', function() {

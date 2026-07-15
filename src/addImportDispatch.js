@@ -116,11 +116,15 @@ function errorResult(message, flags) {
 }
 
 async function dispatchFromSource(source, ctx) {
-  const candidates = await candidatesFromImportSource(source, importOptionsFromContext(ctx));
-  if (!candidates.length) {
-    return errorResult('No tunes found in that import.');
+  try {
+    const candidates = await candidatesFromImportSource(source, importOptionsFromContext(ctx));
+    if (!candidates.length) {
+      return errorResult('No tunes found in that import.');
+    }
+    return { action: 'review', candidates: candidates };
+  } catch (e) {
+    return errorResult((e && e.message) || 'Import failed.');
   }
-  return { action: 'review', candidates: candidates };
 }
 
 async function dispatchFromFile(file, ctx) {
@@ -134,8 +138,12 @@ async function dispatchFromFile(file, ctx) {
     if (!ctx.resolverAvailable) {
       return errorResult(SHEET_IMAGE_RESOLVER_ERROR, { needsResolver: true });
     }
-    const candidates = await sheetImageFileToCandidates(file, importOptionsFromContext(ctx));
-    return { action: 'review', candidates: candidates };
+    try {
+      const candidates = await sheetImageFileToCandidates(file, importOptionsFromContext(ctx));
+      return { action: 'review', candidates: candidates };
+    } catch (e) {
+      return errorResult((e && e.message) || 'Sheet image transcription failed.');
+    }
   }
 
   if (kind === 'notation') {

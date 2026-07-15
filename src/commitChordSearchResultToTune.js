@@ -102,6 +102,7 @@ export function commitChordSearchResultToTune(options) {
     tunebook: opts.tunebook,
     abcjsParser: opts.abcjsParser,
     forceUpdateLyrics: updateLyrics,
+    skipSave: !!opts.skipSave,
     historyLabel: opts.historyLabel
       || (updateLyrics ? 'Search chords and lyrics' : 'Search chords'),
   })

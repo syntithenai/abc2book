@@ -5,7 +5,11 @@ import {
   rhythmFromTimeSignature,
   slotPulseIndex,
 } from './metronomeRhythmPresets';
-import { beatsPerBarFromMeter } from './chordFillPattern';
+import {
+  beatsPerBarFromMeter,
+  metronomeBarDurationSec,
+  trimOrPadBufferToDuration,
+} from './chordFillPattern';
 import { primeChordFills, getFillBuffer } from './chordFillPrerender';
 import {
   createBeatCapture,
@@ -108,21 +112,47 @@ export function createChordRecordSession(options) {
     scheduledSources = [];
   }
 
-  function scheduleFillPlayback(chordLabel, when) {
+  function scheduleFillPlayback(chordLabel, when, options) {
     if (!audioContext || !gainNode) return;
-    const buffer = getFillBuffer(fillBuffers, chordLabel, { meter: meter, tempo: tempo, key: key });
+    const fillOpts = { meter: meter, tempo: tempo, key: key, beatsPerBar: beatsPerBar };
+    const buffer = getFillBuffer(fillBuffers, chordLabel, fillOpts);
     if (!buffer) return;
     const startAt = Math.max(when, audioContext.currentTime + 0.01);
+    const loop = !options || options.loop !== false;
+    const barDur = metronomeBarDurationSec(tempo, beatsPerBar);
+    const offsetSec = options && options.offsetSec > 0 ? options.offsetSec : 0;
+    const safeOffset = Math.min(Math.max(0, offsetSec), Math.max(0, barDur - 0.001));
+
     // Cut any overlapping fill so only one chord sounds from the change point.
     stopScheduledSources(startAt);
     const source = audioContext.createBufferSource();
     source.buffer = buffer;
+    source.loop = loop;
+    if (loop) {
+      // Loop period must match the metronome bar. Prefer barDur so a long
+      // abcjs buffer (fade tail) cannot drift even if trim was skipped.
+      source.loopStart = 0;
+      source.loopEnd = Math.min(barDur, buffer.duration);
+    }
     source.connect(gainNode);
-    source.start(startAt);
+    if (safeOffset > 0) {
+      source.start(startAt, safeOffset);
+    } else {
+      source.start(startAt);
+    }
     scheduledSources.push(source);
     source.onended = function() {
       scheduledSources = scheduledSources.filter(function(item) { return item !== source; });
     };
+  }
+
+  function normalizePreparedBuffers(buffers) {
+    const barDur = metronomeBarDurationSec(tempo, beatsPerBar);
+    const next = new Map();
+    buffers.forEach(function(buffer, key) {
+      next.set(key, trimOrPadBufferToDuration(buffer, barDur, audioContext));
+    });
+    return next;
   }
 
   function syncPreparedCapture() {
@@ -273,16 +303,19 @@ export function createChordRecordSession(options) {
           meter: meter,
           tempo: tempo,
           key: key,
+          beatsPerBar: beatsPerBar,
           audioContext: audioContext,
         });
-        fillBuffers = result.buffers;
+        fillBuffers = normalizePreparedBuffers(result.buffers);
         if (result.errors && result.errors.length) {
-          const failed = result.errors.map(function(item) { return item.label; }).join(', ');
-          throw new Error('Failed to prepare fills for: ' + failed);
+          const details = result.errors.map(function(item) {
+            return item.label + (item.error ? ' (' + item.error + ')' : '');
+          }).join('; ');
+          throw new Error('Failed to prepare fills for: ' + details);
         }
         syncPreparedCapture();
         setState(CHORD_RECORD_STATES.READY);
-        return { ok: true };
+        return { ok: true, usedFallback: !!result.usedFallback };
       } catch (err) {
         setState(CHORD_RECORD_STATES.IDLE);
         return { ok: false, error: err && err.message ? err.message : String(err) };
@@ -320,7 +353,12 @@ export function createChordRecordSession(options) {
       } catch (err) {
         return { ok: false, error: 'Audio context unavailable' };
       }
-      if (!getFillBuffer(fillBuffers, label, { meter: meter, tempo: tempo, key: key })) {
+      if (!getFillBuffer(fillBuffers, label, {
+        meter: meter,
+        tempo: tempo,
+        key: key,
+        beatsPerBar: beatsPerBar,
+      })) {
         return { ok: false, error: 'Prepare recording first' };
       }
       scheduleFillPlayback(label, audioContext.currentTime);
@@ -346,7 +384,13 @@ export function createChordRecordSession(options) {
       if (result.beatIndex < countInBeats) return null;
 
       lastAssignedChord = String(chordLabel || '').trim();
-      scheduleFillPlayback(lastAssignedChord, result.beatTime);
+      const recordingBeat = result.beatIndex - countInBeats;
+      const beatInBar = ((recordingBeat % beatsPerBar) + beatsPerBar) % beatsPerBar;
+      const secondsPerBeat = 60 / Math.max(1, tempo);
+      scheduleFillPlayback(lastAssignedChord, result.beatTime, {
+        loop: true,
+        offsetSec: beatInBar * secondsPerBeat,
+      });
       notifyState();
       if (typeof opts.onChordAssigned === 'function') {
         opts.onChordAssigned(lastAssignedChord, result.beatIndex - countInBeats);

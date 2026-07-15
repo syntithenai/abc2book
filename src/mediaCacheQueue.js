@@ -6,6 +6,11 @@ import {
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaPlaybackSettings } from './pitchTempoUtils'
 import { sanitizeDownloadFilename } from './tuneDownloadActions'
+import {
+  getAudioCompressExtension,
+  getAudioCompressFormat,
+  normalizeAudioCompressFormat,
+} from './audioCompressSettings'
 
 let jobCounter = 0
 let running = false
@@ -31,7 +36,10 @@ function makeJobId() {
 }
 
 function normalizeAudioFormat(audioFormat) {
-  return audioFormat === 'wav' ? 'wav' : 'mp3'
+  if (audioFormat === null || audioFormat === undefined || audioFormat === '') {
+    return getAudioCompressFormat()
+  }
+  return normalizeAudioCompressFormat(audioFormat)
 }
 
 function findDuplicateJob(type, tuneId, linkIndex, src, audioFormat) {
@@ -181,7 +189,7 @@ export function enqueueTunesCacheJobs(tunes, tunebook, preferredLinkIndexByTuneI
 export function enqueueTunesDownloadJobs(tunes, tunebook, preferredLinkIndexByTuneId, audioFormat) {
   const ids = []
   const format = normalizeAudioFormat(audioFormat)
-  const extension = format === 'wav' ? 'wav' : 'mp3'
+  const extension = getAudioCompressExtension(format)
   const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
   const youtubeGetId = tunebook && tunebook.utils ? tunebook.utils.YouTubeGetID : null
   const accessToken = tunebook && tunebook.getGoogleAccessToken

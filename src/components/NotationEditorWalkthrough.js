@@ -95,16 +95,16 @@ export const WALKTHROUGH_STEPS = [
   {
     id: 'accidentals',
     phase: 'staff-input',
-    title: 'Accidental carry',
-    summary: 'Set sharps, flats, and naturals for upcoming notes.',
+    title: 'Accidentals',
+    summary: 'Sharps, flats, and naturals on selection or next typed note.',
     body: [
-      'The accidental split button (♮/♭/♯) sets an accidental that applies to the next note(s) you enter. Open the menu for double-flat (𝄫), double-sharp (𝄪), and Clear carry.',
+      'With notes selected, the accidental control (♮/♭/♯) and shortcuts (-/=/+) apply to the selection.',
+      'With no selection (note input), they set accidental carry for the next note(s) you type. Open the menu for double-flat (𝄫), double-sharp (𝄪), and Clear carry.',
       'Keyboard shortcuts: - (minus) = flat, = (equals) = natural, + (plus) = sharp.',
-      'Accidental carry affects new input only; it does not retroactively change existing notes.',
     ],
     tryIt: [
-      'Press + to set sharp carry, then press G to insert G♯.',
-      'Open the accidental menu and choose Clear carry before entering a natural pitch.',
+      'Select a note, press + to sharpen it.',
+      'In note input, press + then G to insert G♯; Clear carry before a natural pitch.',
     ],
   },
   {
@@ -278,13 +278,14 @@ export const WALKTHROUGH_STEPS = [
       'Ctrl+C copies the selection. Ctrl+X cuts. Ctrl+V pastes at the caret (in the piano roll, paste aligns to the first selected note’s beat).',
       'Ctrl+Shift+X swaps the selection with the clipboard contents.',
       'Press R to repeat the selection at the caret, or repeat the last note if nothing is selected.',
-      'Delete or Backspace turns the selection into rests. Ctrl+Delete or Ctrl+Backspace removes selected events entirely.',
+      'Delete or Backspace turns selected notes into rests and removes selected bar lines. Ctrl+Delete or Ctrl+Backspace removes selected events entirely.',
       'The clipboard is internal to the editor session, not the system clipboard.',
     ],
     tryIt: [
       'Select a short phrase, press Ctrl+C, move the caret, and press Ctrl+V.',
       'Press R to repeat the last entered note.',
       'Select notes and press Delete to convert them to rests.',
+      'Select a bar line with ←/→ then Delete to remove it.',
     ],
   },
   {

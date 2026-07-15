@@ -3,9 +3,11 @@ import {
   clearImportReviewSession,
   getImportReviewSession,
   hasActiveImportReviewSession,
+  isImportReviewUiVisible,
+  openImportReviewFromToast,
   setImportReviewSession,
 } from './importReviewSessionStore'
-import { createBlankAddCandidate, createImportReviewSession } from './importReviewSession'
+import { createBlankAddCandidate, createImportReviewSession, isAddTunesChrome } from './importReviewSession'
 
 describe('importReviewSessionStore persistence', function() {
   beforeEach(function() {
@@ -45,19 +47,18 @@ describe('importReviewSessionStore persistence', function() {
     expect(hasActiveImportReviewSession()).toBe(false)
   })
 
-  test('module hydrates active session from sessionStorage', function() {
+  test('openImportReviewFromToast switches Add tunes chrome to Import review', function() {
     const session = createImportReviewSession(
       [createBlankAddCandidate({ book: 'songs' })],
       { entryMode: 'add' }
     )
-    session.candidates[0].tune.name = 'The Wild Rover'
-    sessionStorage.setItem('abc2book.importReviewSession', JSON.stringify(session))
+    setImportReviewSession(session)
+    expect(isAddTunesChrome(getImportReviewSession())).toBe(true)
 
-    jest.isolateModules(function() {
-      const store = require('./importReviewSessionStore')
-      expect(store.hasActiveImportReviewSession()).toBe(true)
-      expect(store.getImportReviewSession().candidates[0].tune.name).toBe('The Wild Rover')
-      store.__resetImportReviewSessionStoreForTests()
-    })
+    openImportReviewFromToast()
+
+    expect(isImportReviewUiVisible()).toBe(true)
+    expect(getImportReviewSession().entryMode).toBe('import')
+    expect(isAddTunesChrome(getImportReviewSession())).toBe(false)
   })
 })

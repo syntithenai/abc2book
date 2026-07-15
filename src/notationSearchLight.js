@@ -33,10 +33,14 @@ function finalizeLightResult(candidates) {
 }
 
 function filterCandidatesByScore(candidates, title, artist) {
+  const queryWords = String(title || '').trim().split(/\s+/).filter(Boolean).length
+  const minScore = queryWords > 1 ? 50 : 30
   const filtered = candidates.filter(function(candidate) {
-    return scoreTitleArtistMatch(candidate.title, candidate.artist, title, artist) >= 30
+    return scoreTitleArtistMatch(candidate.title, candidate.artist, title, artist) >= minScore
   })
   if (filtered.length > 0) return filtered
+  // Prefer nothing over a flood of weak FolkTuneFinder / Session substring hits.
+  if (queryWords > 1) return []
   return candidates.slice(0, 8)
 }
 

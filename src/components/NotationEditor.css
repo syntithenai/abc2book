@@ -197,6 +197,18 @@
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.85);
   box-sizing: border-box;
 }
+.notation-staff-selection-box--drag-preview {
+  border-style: dashed;
+  background: rgba(13, 110, 253, 0.12);
+  opacity: 0.95;
+}
+.notation-staff-marquee {
+  position: absolute;
+  border: 1px solid #0d6efd;
+  background: rgba(13, 110, 253, 0.12);
+  box-sizing: border-box;
+  pointer-events: none;
+}
 .notation-staff-wrap .abcjs-note_selected,
 .notation-staff-wrap .abcjs-note_selected path {
   /* Keep a soft fill so the selected glyph is obvious; overlay box remains primary. */

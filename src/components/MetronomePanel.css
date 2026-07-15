@@ -423,6 +423,50 @@
   margin-bottom: 0.75rem;
 }
 
+.metronome-panel__volume-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  align-items: center;
+  margin: 0 0 0.85rem;
+}
+
+.metronome-panel__volume-control {
+  display: inline-flex;
+  flex: 1 1 12rem;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0;
+  min-width: 10rem;
+}
+
+.metronome-panel__volume-label {
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #084298;
+  min-width: 6.5rem;
+}
+
+.metronome-panel__volume-slider {
+  flex: 1 1 auto;
+  min-width: 5rem;
+  accent-color: #0d6efd;
+}
+
+.metronome-panel__volume-value {
+  flex: 0 0 2.25rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+.metronome-panel__volume-row--disabled {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
 .metronome-panel__rhythm-row--disabled {
   opacity: 0.55;
   pointer-events: none;

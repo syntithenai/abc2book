@@ -264,7 +264,9 @@ export default function ImportChordUrlModal(props) {
                   candidateId="chord-import-draft"
                   kind="composer"
                   fallbackTitle={title}
-                  onApply={function(candidate) {
+                  currentValue={artist}
+                  onApply={function(candidate, _job, meta) {
+                    if (meta && meta.keepCurrent) return
                     if (candidate && candidate.artist) setArtist(candidate.artist)
                   }}
                 />

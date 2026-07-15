@@ -102,6 +102,48 @@ K:Edor
         blocks = extract_abc_from_text(html_text)
         self.assertEqual(len(blocks), 1)
         self.assertIn("Drowsy Maggie", blocks[0])
+        self.assertNotIn("</pre>", blocks[0])
+        self.assertNotIn("<", blocks[0])
+
+    def test_extract_abc_strips_html_after_pre(self):
+        """abcnotation-style pages: X: match must not swallow chrome after </pre>."""
+        html_text = """
+        <html><body><div class="tune">
+        <pre>
+X:1
+T:The Foggy Dew
+M:4/4
+L:1/8
+K:Edor
+|:E2B2|</pre>
+        </div>
+        <div class="footer"><a href="/">Home</a><script>alert(1)</script></div>
+        <p>More tunes at abcnotation.com</p>
+        </body></html>
+        """
+        blocks = extract_abc_from_text(html_text)
+        self.assertEqual(len(blocks), 1)
+        self.assertIn("The Foggy Dew", blocks[0])
+        self.assertIn("|:E2B2|", blocks[0])
+        self.assertNotIn("</pre>", blocks[0])
+        self.assertNotIn("<div", blocks[0])
+        self.assertNotIn("script", blocks[0])
+        self.assertNotIn("abcnotation.com", blocks[0])
+        self.assertNotIn("Home", blocks[0])
+
+    def test_sanitize_abc_block_cuts_at_html_tag(self):
+        from notation_fetch import sanitize_abc_block
+        leaked = """X:1
+T:Leak
+K:G
+|:G2|
+</pre>
+<div class="chrome">nav</div>"""
+        cleaned = sanitize_abc_block(leaked)
+        self.assertIn("K:G", cleaned)
+        self.assertIn("|:G2|", cleaned)
+        self.assertNotIn("</pre>", cleaned)
+        self.assertNotIn("chrome", cleaned)
 
     def test_parse_abc_header_fields_takes_first_of_each(self):
         abc = """X:1
@@ -116,11 +158,28 @@ K:G
 |:G2|"""
         fields = parse_abc_header_fields(abc)
         self.assertEqual(fields["T"], "First Title")
+        self.assertEqual(fields["T_aliases"], ["Second Title"])
         self.assertEqual(fields["C"], "Composer One")
+        self.assertEqual(fields["C_artists"], ["Composer Two"])
         self.assertEqual(fields["Q"], "1/4=112")
         self.assertEqual(fields["M"], "6/8")
         self.assertEqual(fields["R"], "jig")
         self.assertEqual(fields["K"], "G")
+
+    def test_tune_meta_from_abc_headers_maps_multi_title_and_composer(self):
+        abc = """X:1
+T:Main Title
+T:Alt Title
+C:Writer
+C:Band
+M:4/4
+K:G
+|:G2|"""
+        meta = tune_meta_from_abc_headers(abc)
+        self.assertEqual(meta["name"], "Main Title")
+        self.assertEqual(meta["aliases"], ["Alt Title"])
+        self.assertEqual(meta["composer"], "Writer")
+        self.assertEqual(meta["artists"], ["Band"])
 
     def test_tune_meta_from_abc_headers_maps_candidate_fields(self):
         abc = """X:1

@@ -96,13 +96,16 @@ function baselineDisplayForFormValue(formKey, value) {
 
 /**
  * Ensure every import Use-dropdown includes a "Current value" choice that
- * restores the pre-import field value.
+ * restores the pre-import field value. Current is always first; other choices
+ * that match the baseline (or each other) are dropped.
  */
 export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisplay) {
   if (!suggestion) return suggestion;
+  const formKey = suggestion.formKey || '';
+  const tuneKey = suggestion.key || FORM_KEY_TO_TUNE[formKey] || formKey;
   const display = baselineDisplay != null
     ? baselineDisplay
-    : baselineDisplayForFormValue(suggestion.formKey || '', baselineValue);
+    : baselineDisplayForFormValue(formKey, baselineValue);
   const currentChoice = {
     id: 'current',
     label: 'Current value',
@@ -126,9 +129,27 @@ export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisp
       source: 'import',
     }];
   }
+  const baselineComparable = formValueAsTuneComparable(formKey, baselineValue);
+  const unique = [];
+  rest.forEach(function(choice) {
+    if (!choice) return;
+    const choiceComparable = formValueAsTuneComparable(formKey, choice.value);
+    if (fieldValuesSemanticallyEqual(tuneKey, baselineComparable, choiceComparable)) {
+      return;
+    }
+    const dup = unique.some(function(item) {
+      return fieldValuesSemanticallyEqual(
+        tuneKey,
+        formValueAsTuneComparable(formKey, item.value),
+        choiceComparable
+      );
+    });
+    if (dup) return;
+    unique.push(choice);
+  });
   return Object.assign({}, suggestion, {
     baselineValue: baselineValue === undefined ? null : cloneValue(baselineValue),
-    choices: [currentChoice].concat(rest),
+    choices: [currentChoice].concat(unique),
   });
 }
 
@@ -159,14 +180,21 @@ export function applyCoalescedFieldChoicesToSuggestions(suggestions, fieldChoice
     }
     extras.forEach(function(choice, index) {
       if (!choice) return;
+      const tuneKey = (existing && existing.key)
+        || FORM_KEY_TO_TUNE[formKey]
+        || (formKey === 'notes' ? 'voices' : formKey);
+      const choiceComparable = formValueAsTuneComparable(formKey, choice.value);
       const duplicate = mergedChoices.some(function(item) {
-        try {
-          return JSON.stringify(item && item.value) === JSON.stringify(choice.value);
-        } catch (e) {
-          return false;
-        }
+        return fieldValuesSemanticallyEqual(
+          tuneKey,
+          formValueAsTuneComparable(formKey, item && item.value),
+          choiceComparable
+        );
       });
       if (duplicate) return;
+      if (fieldValuesSemanticallyEqual(tuneKey, formValueAsTuneComparable(formKey, baseline), choiceComparable)) {
+        return;
+      }
       mergedChoices.push(Object.assign({}, choice, {
         id: choice.id || (formKey + '-coalesce-' + index),
       }));

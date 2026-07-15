@@ -48,7 +48,7 @@ export const KEY_TO_ABC_TOKEN = {
   upbow: 'u',
   downbow: 'v',
   fermata: 'H',
-  accent: 'L',
+  accent: '!>!',
   mordent: 'M',
   coda: 'O',
   pralltriller: 'P',

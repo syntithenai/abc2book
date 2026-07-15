@@ -224,11 +224,20 @@ export async function sheetImageFileToCandidates(file, options) {
     book: opts.book,
     titleOverride: opts.titleOverride,
   });
-  return [createImportCandidate({
+  const candidate = createImportCandidate({
     tune: tune,
     sourceKind: 'sheetimage',
     skipEnrich: true,
-  })];
+  });
+  if (file) {
+    candidate.pendingFile = {
+      name: file.name || 'Sheet image',
+      type: file.type || 'image/png',
+      blob: file,
+      source: 'import',
+    };
+  }
+  return [candidate];
 }
 
 export function classifyTextImport(text, fileName) {

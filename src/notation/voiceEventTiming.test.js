@@ -106,7 +106,7 @@ describe('eventIndexFromStaffAbcElem', function() {
     )).toBe(1);
   });
 
-  test('eventIndexFromStaffAbcElem returns null when startChar is missing', function() {
+  test('eventIndexFromStaffAbcElem midi fallback finds matching pitch', function() {
     const events = eventsFromVoiceBody('C D E |', tuneMeta);
     const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C D E |' });
     const result = eventIndexFromStaffAbcElem(
@@ -116,6 +116,21 @@ describe('eventIndexFromStaffAbcElem', function() {
       ['1'],
       0,
       { midi: 60 },
+      null
+    );
+    expect(result).toBe(0);
+  });
+
+  test('eventIndexFromStaffAbcElem midi mismatch falls through without startChar', function() {
+    const events = eventsFromVoiceBody('C D E |', tuneMeta);
+    const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1'], { 1: 'C D E |' });
+    const result = eventIndexFromStaffAbcElem(
+      events,
+      tuneMeta,
+      abc,
+      ['1'],
+      0,
+      { midi: 1 },
       null
     );
     expect(result).toBe(events.length);

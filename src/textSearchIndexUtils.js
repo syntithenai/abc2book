@@ -53,7 +53,11 @@ export function tokenizeSearchQuery(text, stripCommonWords) {
   return cleanText
     .split(' ')
     .map(function(part) { return part.trim() })
-    .filter(function(part) { return part.length > 0 })
+    .filter(function(part) {
+      // Drop ultra-short fragments ("de", "of") that otherwise match inside
+      // unrelated titles via naive substring checks.
+      return part.length >= 3
+    })
 }
 
 export function collectionLabelForIds(ids) {
@@ -86,10 +90,14 @@ export function inferNotationSongType(rhythm, artist) {
 }
 
 function countMatchedTokens(title, tokens) {
-  const normalizedTitle = normalizeTitle(title)
+  const words = normalizeTitle(title)
+    .split(' ')
+    .filter(Boolean)
   let matched = 0
   tokens.forEach(function(token) {
-    if (normalizedTitle.indexOf(token.toLowerCase()) !== -1) {
+    const needle = String(token || '').toLowerCase()
+    if (!needle) return
+    if (words.some(function(word) { return word === needle })) {
       matched += 1
     }
   })
@@ -141,6 +149,11 @@ export function isStrongLocalMatch(query, results) {
   const normalizedQuery = normalizeTitle(query)
   const normalizedTitle = normalizeTitle(top.name)
   if (normalizedQuery && normalizedTitle === normalizedQuery) return true
+  // Multi-word queries need every significant token present (not half coverage).
+  if ((top.queryTokenCount || 0) > 1) {
+    return top.matchedTokenCount === top.queryTokenCount
+      && top.score >= (top.queryTokenCount * 3)
+  }
   return top.matchedTokenCount === top.queryTokenCount && top.score >= top.queryTokenCount
 }
 

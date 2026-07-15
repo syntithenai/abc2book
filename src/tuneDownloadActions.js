@@ -6,6 +6,7 @@ import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { resolverHasFeature } from './resolverFeatures'
 import * as mediaCacheQueue from './mediaCacheQueue'
 import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } from './chordProFormatUtils'
+import { getAudioCompressFormat } from './audioCompressSettings'
 
 export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file' },
@@ -17,18 +18,21 @@ export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'onsong', label: 'OnSong', icon: 'words', description: 'OnSong chord sheet (.onsong)' },
   { id: 'links', label: 'Links list', icon: 'link', description: 'Titles and media links' },
   { id: 'lyrics', label: 'Lyrics text', icon: 'words', description: 'Lyrics with title and artist headers' },
-  { id: 'linked-audio-mp3', label: 'Audio (MP3)', icon: 'headphone', description: 'Linked media as MP3 with playback settings and trim applied' },
-  { id: 'linked-audio-wav', label: 'Audio (WAV)', icon: 'headphone', description: 'Linked media as WAV with playback settings and trim applied' },
+  { id: 'linked-audio', label: 'Audio', icon: 'headphone', description: 'Linked media using the Compress Audio setting, with playback settings and trim applied' },
 ]
 
 export function linkedAudioDownloadFormat(formatId) {
+  if (formatId === 'linked-audio') return getAudioCompressFormat()
+  // Legacy ids still resolve for queued jobs / bookmarks.
   if (formatId === 'linked-audio-wav') return 'wav'
   if (formatId === 'linked-audio-mp3') return 'mp3'
   return null
 }
 
 export function isLinkedAudioDownloadFormat(formatId) {
-  return linkedAudioDownloadFormat(formatId) !== null
+  return formatId === 'linked-audio'
+    || formatId === 'linked-audio-wav'
+    || formatId === 'linked-audio-mp3'
 }
 
 function escapeCsvCell(value) {
@@ -218,6 +222,7 @@ export async function executeTuneDownload(formatId, options) {
       }
       return
     }
+    case 'linked-audio':
     case 'linked-audio-mp3':
     case 'linked-audio-wav': {
       const audioFormat = linkedAudioDownloadFormat(formatId)

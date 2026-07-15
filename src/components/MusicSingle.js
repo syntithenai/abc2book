@@ -26,6 +26,10 @@ import RepeatsEditorModal from './RepeatsEditorModal'
 import OpenSheetMusicDisplay from './OpenSheetMusicDisplay'
 import useFileManager from '../useFileManager'
 import FileRenderer from './FileRenderer'
+import FileControls from './FileControls'
+import TuneFilePanel from './TuneFilePanel'
+import useGoogleDocument from '../useGoogleDocument'
+import { findTuneFileMeta } from '../tuneFiles'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
@@ -83,6 +87,7 @@ export default function MusicSingle(props) {
 	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
 	var allowedAudioMimeTypes = ['audio/*']
 	var recordingsManager = useFileManager('recordings',props.token ? props.token : null, props.logout, tune, allowedAudioMimeTypes)
+	var driveDocs = useGoogleDocument(props.token, props.logout || function() {})
 	
 	//const [files, setFiles] = useState([])
 	//const [recordings, setRecordings] = useState([])
@@ -629,6 +634,24 @@ export default function MusicSingle(props) {
               onVoiceSettingsChange={function() {
                   setVoiceSettingsVersion(function(v) { return v + 1 })
               }}
+              fileControls={(
+                <FileControls
+                  tune={tune}
+                  tunebook={props.tunebook}
+                  token={props.token}
+                  driveApi={driveDocs}
+                  requestGoogleScopes={props.requestGoogleScopes}
+                  login={props.login}
+                  captureRootSelector=".music-single-panels"
+                  variant={mediumToolbar ? 'menu' : 'toolbar'}
+                  stopMenuClose={!!mediumToolbar}
+                  onTuneChange={function(next) {
+                    setTune(next)
+                    props.tunebook.saveTune(next)
+                    if (props.forceRefresh) props.forceRefresh()
+                  }}
+                />
+              )}
               extraMenuContent={transposeCapoBlock}
 			        onChange={handleViewModeChange}
 			      />
@@ -645,6 +668,18 @@ export default function MusicSingle(props) {
              {(fileManager && Array.isArray(fileManager.filtered))  && fileManager.filtered.map(function(file, fk) {
 				return <FileRenderer key={fk} tunebook={props.tunebook} file={file} /> 
 			 })}
+
+             {findTuneFileMeta(tune, tune.activeFile) ? (
+               <TuneFilePanel
+                 tune={tune}
+                 token={props.token}
+                 driveApi={driveDocs}
+                 onTuneChange={function(next) {
+                   setTune(next)
+                   props.tunebook.saveTune(next)
+                 }}
+               />
+             ) : null}
 
 
               

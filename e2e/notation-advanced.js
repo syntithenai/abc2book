@@ -50,7 +50,7 @@ async function runAdvancedTests(page, ctx) {
     await page.keyboard.type(' z')
     await sleep(400)
     await assertVoiceAbc(page, 'C D E F z |', 'ABC edit inserts rest')
-    await assertEvents(page, ['note:C5', 'note:D5', 'note:E5', 'note:F5', 'rest:1', 'bar:|'], 'rest event from ABC edit')
+    await assertEvents(page, ['note:C4', 'note:D4', 'note:E4', 'note:F4', 'rest:1', 'bar:|'], 'rest event from ABC edit')
   })
 
   await runScenario(results, 'P3: split view via Ctrl+Alt+P cycle', async function() {
@@ -74,7 +74,7 @@ async function runAdvancedTests(page, ctx) {
     await clickStaffForNoteInput(page, { between: 1 })
     await clickTestId(page, 'notation-barline')
     await sleep(300)
-    await assertEvents(page, ['note:C5', 'note:D5', 'bar:|', 'note:E5', 'note:F5', 'bar:|'], 'barline inserted before undo')
+    await assertEvents(page, ['note:C4', 'note:D4', 'bar:|', 'note:E4', 'note:F4', 'bar:|'], 'barline inserted before undo')
     await page.keyboard.down('Control')
     await page.keyboard.press('z')
     await page.keyboard.up('Control')

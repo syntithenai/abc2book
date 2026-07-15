@@ -44,9 +44,11 @@ describe('tuneDownloadActions', function() {
   })
 
   test('maps linked audio download formats', function() {
+    expect(linkedAudioDownloadFormat('linked-audio')).toBe('aac')
     expect(linkedAudioDownloadFormat('linked-audio-mp3')).toBe('mp3')
     expect(linkedAudioDownloadFormat('linked-audio-wav')).toBe('wav')
     expect(linkedAudioDownloadFormat('abc')).toBeNull()
+    expect(isLinkedAudioDownloadFormat('linked-audio')).toBe(true)
     expect(isLinkedAudioDownloadFormat('linked-audio-mp3')).toBe(true)
     expect(isLinkedAudioDownloadFormat('linked-audio-wav')).toBe(true)
     expect(isLinkedAudioDownloadFormat('midi')).toBe(false)

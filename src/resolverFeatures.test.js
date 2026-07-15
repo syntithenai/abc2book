@@ -11,12 +11,14 @@ describe('resolverFeatures', function() {
   test('parseResolverFeaturesFromHealthBody reads granular features', function() {
     expect(parseResolverFeaturesFromHealthBody({
       ok: true,
-      features: { proxy: true, stems: false, whisper: true, llm: false },
+      features: { proxy: true, stems: false, whisper: true, llm: false, oauthBff: true },
     })).toEqual({
       proxy: true,
       stems: false,
       whisper: true,
       llm: false,
+      practiceAnalysis: false,
+      oauthBff: true,
     });
   });
 
@@ -32,7 +34,7 @@ describe('resolverFeatures', function() {
   test('resolverHasFeature checks a single capability', function() {
     const status = {
       available: true,
-      features: { proxy: true, stems: false, whisper: true, llm: true },
+      features: { proxy: true, stems: false, whisper: true, llm: true, oauthBff: false },
     };
     expect(resolverHasFeature(status, 'proxy')).toBe(true);
     expect(resolverHasFeature(status, 'stems')).toBe(false);

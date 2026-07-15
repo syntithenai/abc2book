@@ -107,6 +107,7 @@ import { normalizeSourceUrlKey } from './sourceUrlSync'
 import PerformanceSetMergeHost from './components/PerformanceSetMergeHost'
 import PlaylistMergeHost from './components/PlaylistMergeHost'
 import { syncPendingRecordingUploads } from './linkRecording'
+import { syncPendingTuneFileUploads } from './tuneFiles'
 import { applyDriveRecordStateToTunes } from './incomingMergeUtils'
 
 import {useState, useEffect, useRef, useCallback} from 'react';
@@ -753,6 +754,17 @@ function App(props) {
           toast.success(result.uploaded + ' ' + label + ' synced to Google Drive')
         }
       }).catch(function() {})
+      syncPendingTuneFileUploads({
+        token: token,
+        driveApi: filesDocumentManager,
+        tunes: tunesRef.current,
+        saveTune: tunebook.saveTune,
+      }).then(function(result) {
+        if (result && result.uploaded > 0) {
+          const label = result.uploaded === 1 ? 'file' : 'files'
+          toast.success(result.uploaded + ' ' + label + ' synced to Google Drive')
+        }
+      }).catch(function() {})
     }
   }
 
@@ -1128,11 +1140,11 @@ function App(props) {
                         path={`check`}
                         element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} showPreviewInList={showPreviewInList} setShowPreviewInList={setShowPreviewInList} tagCollation={tagCollation} setTagCollation={setTagCollation} />}
                       />
-                      <Route  path={`:tuneId`} element={<MusicSingle   mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} />} />
+                      <Route  path={`:tuneId`} element={<MusicSingle   mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
-                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} />} />
+                      <Route  path={`:tuneId/:playState`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
-                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} />} />
+                      <Route  path={`:tuneId/:playState/:mediaLinkNumber`} element={<MusicSingle  mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token} user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
                     </Route>  
                     

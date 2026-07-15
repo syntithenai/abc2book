@@ -67,11 +67,13 @@ export function commitPasteChordSheetToTune(options) {
     sourceTune[key] = abcJson[key]
   })
 
-  tunebook.saveTune(abcJson, false, {
-    historyLabel: opts.historyLabel
-      || (updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
-    immediate: true,
-  })
+  if (!opts.skipSave) {
+    tunebook.saveTune(abcJson, false, {
+      historyLabel: opts.historyLabel
+        || (updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
+      immediate: true,
+    })
+  }
 
   return {
     ok: true,

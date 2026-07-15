@@ -365,6 +365,8 @@ export default function usePracticeSession(options) {
         includeWarmups: config.includeWarmups,
         skillLevel: config.skillLevel,
         instrument: config.instrument,
+        vocalRangeLow: config.vocalRangeLow,
+        vocalRangeHigh: config.vocalRangeHigh,
         tunes: tunesRef.current || tunes,
         helpers,
         filters: {
@@ -388,8 +390,10 @@ export default function usePracticeSession(options) {
         includeWarmups: config.includeWarmups,
         skillLevel: config.skillLevel,
         accuracyCheckingEnabled: config.accuracyCheckingEnabled,
-        headphoneMode: config.headphoneMode,
         practiceReferenceGain: config.practiceReferenceGain,
+        vocalRangeLow: config.vocalRangeLow,
+        vocalRangeHigh: config.vocalRangeHigh,
+        recentInstruments: config.recentInstruments,
       })
 
       setPlan(built)

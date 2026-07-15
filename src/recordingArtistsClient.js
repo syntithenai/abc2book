@@ -75,6 +75,49 @@ function workTitleMatches(workTitle, searchTitle) {
   return workKey === searchKey
 }
 
+const TITLE_VARIANT_SWAPS = [
+  ['clare', 'clair'],
+  ['clair', 'clare'],
+  ['claire', 'clair'],
+  ['clair', 'claire'],
+]
+
+/** Unique title strings to try in MusicBrainz work search (original first). */
+export function titleVariants(title) {
+  const text = String(title || '').trim()
+  if (!text) return []
+
+  const ordered = [text]
+  const seen = {}
+  seen[text.toLowerCase()] = true
+
+  function add(candidate) {
+    const next = String(candidate || '').trim()
+    if (!next) return
+    const key = next.toLowerCase()
+    if (seen[key]) return
+    seen[key] = true
+    ordered.push(next)
+  }
+
+  const lower = text.toLowerCase()
+  TITLE_VARIANT_SWAPS.forEach(function(pair) {
+    const left = pair[0]
+    const right = pair[1]
+    const boundary = new RegExp('\\b' + left.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i')
+    if (!boundary.test(lower)) return
+    add(text.replace(boundary, function(word) {
+      if (word === word.toUpperCase()) return right.toUpperCase()
+      if (word.charAt(0) === word.charAt(0).toUpperCase()) {
+        return right.charAt(0).toUpperCase() + right.slice(1)
+      }
+      return right
+    }))
+  })
+
+  return ordered
+}
+
 async function discoverWritersFromWork(workId, signal) {
   const writers = {}
   try {
@@ -103,47 +146,52 @@ export async function discoverWorkWriters(options) {
   const opts = options || {}
   const title = String(opts.title || '').trim()
   const maxWriters = typeof opts.maxWriters === 'number' ? opts.maxWriters : 6
-  const maxWorks = typeof opts.maxWorks === 'number' ? opts.maxWorks : 3
+  const maxWorks = typeof opts.maxWorks === 'number' ? opts.maxWorks : 8
   if (!title) return []
 
   const writers = {}
-  let works = []
-  try {
-    const response = await axios.get(MUSICBRAINZ_BASE + '/work', {
-      params: {
-        query: 'work:"' + title + '"',
-        fmt: 'json',
-        limit: 8,
-      },
-      headers: { 'User-Agent': CLIENT_USER_AGENT },
-      signal: opts.signal,
+  const exactWorks = []
+  const seenWorkIds = {}
+  const variants = titleVariants(title)
+
+  for (let v = 0; v < variants.length; v += 1) {
+    const searchTitle = variants[v]
+    let works = []
+    try {
+      const response = await axios.get(MUSICBRAINZ_BASE + '/work', {
+        params: {
+          query: 'work:"' + searchTitle + '"',
+          fmt: 'json',
+          limit: 15,
+        },
+        headers: { 'User-Agent': CLIENT_USER_AGENT },
+        signal: opts.signal,
+      })
+      works = (response.data && response.data.works) || []
+    } catch (e) {
+      continue
+    }
+
+    works.forEach(function(work) {
+      const workId = work && work.id
+      if (!workId || seenWorkIds[workId]) return
+      const score = typeof work.score === 'number' ? work.score : 0
+      if (score < 70) return
+      if (!workTitleMatches(work.title, searchTitle)) return
+      seenWorkIds[workId] = true
+      exactWorks.push({ score: score, work: work })
     })
-    works = (response.data && response.data.works) || []
-  } catch (e) {
-    return []
   }
 
-  const exactWorks = []
-  works.forEach(function(work) {
-    const score = typeof work.score === 'number' ? work.score : 0
-    if (score < 70) return
-    if (!workTitleMatches(work.title, title)) return
-    if (!work.id) return
-    exactWorks.push({ score: score, work: work })
-  })
   if (exactWorks.length === 0) return []
 
   exactWorks.sort(function(a, b) { return b.score - a.score })
-  const bestScore = exactWorks[0].score
-  const selected = exactWorks
-    .filter(function(item) { return item.score >= bestScore - 5 })
-    .slice(0, maxWorks)
+  const selected = exactWorks.slice(0, maxWorks)
 
   for (let i = 0; i < selected.length; i += 1) {
     if (Object.keys(writers).length >= maxWriters) break
     const found = await discoverWritersFromWork(selected[i].work.id, opts.signal)
     found.forEach(function(name) { addArtist(writers, name) })
-    if (Object.keys(writers).length > 0) break
   }
 
   return Object.values(writers).slice(0, maxWriters)

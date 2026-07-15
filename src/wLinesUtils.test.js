@@ -45,14 +45,15 @@ describe('wLinesUtils lyric export helpers', function() {
     expect(getPlainLyricLines(tune)).toEqual(['Amazing grace']);
   });
 
-  test('treats oversized wLines-only tunes as block lyrics', function() {
+  test('treats matching plain wLines as under-staff lyrics', function() {
     const tune = {
-      voices: { 1: { meta: '', notes: ['|:"G"B2 B>A|'] } },
-      wLines: ['line one', 'line two', 'line three'],
+      voices: { 1: { meta: '', notes: ['CDEFGFED|'] } },
+      words: [],
+      wLines: ['ooh ahh lah pah poo caw cah coo'],
     };
-    expect(getInterleavedLyricLines(tune)).toEqual([]);
-    expect(getBlockLyricLines(tune)).toEqual(['line one', 'line two', 'line three']);
-    expect(getPlainLyricLines(tune)).toEqual(['line one', 'line two', 'line three']);
+    expect(getNoteAlignedLyricLines(tune)).toEqual(['ooh ahh lah pah poo caw cah coo']);
+    expect(getInterleavedLyricLines(tune)).toEqual(['ooh ahh lah pah poo caw cah coo']);
+    expect(getBlockLyricLines(tune)).toEqual([]);
   });
 
   test('strips syllable markers when recovering plain lyrics from wLines', function() {

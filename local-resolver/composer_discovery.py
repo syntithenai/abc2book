@@ -8,11 +8,27 @@ from recording_artists import (
 from tune_background_research import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TIMEOUT_SECONDS, search_web
 
 TITLE_SPLIT_RE = re.compile(r"\s*[-–—|]\s+")
+# Name capture uses (?-i:[A-Z]) so re.IGNORECASE does not let "composer who…"
+# match as if "who" were a proper name.
 WRITER_SNIPPET_RE = re.compile(
-    r"(?:written\s+by|wrote|composed\s+by|composer(?:s)?|songwriter(?:s)?|"
-    r"lyricist(?:s)?|penned\s+by|words\s+(?:and|&)\s+music\s+by|"
-    r"music\s+(?:and|&)\s+lyrics\s+by)\s*[:\-]?\s*"
-    r"([A-Z][A-Za-z0-9' .,&/-]{1,80})",
+    r"(?:written\s+by|(?<!\bwho\s)wrote|composed\s+by|"
+    r"composers?\s*[:\-]|songwriters?\s*[:\-]|lyricists?\s*[:\-]|"
+    r"penned\s+by|words\s+(?:and|&)\s+music\s+by|"
+    r"music\s+(?:and|&)\s+lyrics\s+by)\s*"
+    r"(?-i:([A-Z][A-Za-z0-9' .,&/-]{0,50}))",
+    re.IGNORECASE,
+)
+# Also accept "composer Claude Debussy" / "songwriter Noel Gallagher"
+# when the next token is clearly capitalized (not "composer who…").
+WRITER_LABEL_NAME_RE = re.compile(
+    r"\b(?:composers?|songwriters?|lyricists?)\s+"
+    r"(?-i:([A-Z][A-Za-z][A-Za-z0-9' .,&/-]{0,48}))",
+    re.IGNORECASE,
+)
+NARRATIVE_WRITER_RE = re.compile(
+    r"\b(?:who|whom|whose|which|that|wrote|written|died|born|height|"
+    r"nocturnes?|composed|composer|songwriter|lyricist|march\s+\d|"
+    r"at\s+the|and\s+then)\b",
     re.IGNORECASE,
 )
 
@@ -23,6 +39,54 @@ def _normalize_space(value):
 
 def _artist_key(value):
     return re.sub(r"[^a-z0-9]+", "", _normalize_space(value).lower())
+
+
+def is_plausible_writer_name(value):
+    """Reject web/LLM snippet debris mistaken for a person or band name."""
+    name = _normalize_space(value)
+    if not name or is_generic_artist(name):
+        return False
+    if len(name) < 2 or len(name) > 60:
+        return False
+    words = name.split()
+    if not words or len(words) > 6:
+        return False
+    # Must start with an uppercase letter (person/band), not "who wrote…".
+    if not words[0][0].isupper():
+        return False
+    if NARRATIVE_WRITER_RE.search(name):
+        return False
+    # Drop trailing clause fragments left after weak splits.
+    if name.endswith((" of", " the", " a", " an", " and", " or")):
+        return False
+    return True
+
+
+def extract_writers_from_text(text):
+    """Pull plausible writer names from a search title or snippet."""
+    text = _normalize_space(text)
+    if not text:
+        return []
+    found = []
+    seen = set()
+    for pattern in (WRITER_SNIPPET_RE, WRITER_LABEL_NAME_RE):
+        for match in pattern.finditer(text):
+            raw = match.group(1)
+            cleaned = re.split(
+                r"[.;|]| - |,|\s+who\s+|\s+wrote\b|\s+died\b|\s+born\b",
+                raw,
+                maxsplit=1,
+                flags=re.IGNORECASE,
+            )[0].strip(" ,")
+            cleaned = _normalize_space(cleaned)
+            if not is_plausible_writer_name(cleaned):
+                continue
+            key = _artist_key(cleaned)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            found.append(cleaned)
+    return found
 
 
 def parse_title_composer_hint(title, title_hint="", artist=""):
@@ -59,6 +123,16 @@ def _add_candidate(store, artist, role="performer", source=""):
     name = _normalize_space(artist)
     if not name or is_generic_artist(name):
         return
+    # Web/LLM often emit sentence fragments; MusicBrainz names are trusted unless
+    # they are obvious narrative debris.
+    source_key = (source or "").lower()
+    if role == "writer" and ("web" in source_key or source_key == "llm"):
+        if not is_plausible_writer_name(name):
+            return
+    elif role == "writer" and (
+        NARRATIVE_WRITER_RE.search(name) or len(name) > 60
+    ):
+        return
     key = _artist_key(name)
     if not key:
         return
@@ -85,11 +159,11 @@ async def _discover_writer_llm(client, title, artist_hint=""):
         return ""
     hint_line = f"Known artist/performer hint: {artist_hint}\n" if artist_hint else ""
     prompt = (
-        f"Who wrote the song \"{title}\"?\n"
+        f"Who wrote the song, classical piece, or melody \"{title}\"?\n"
         f"{hint_line}"
         "Reply with ONLY the composer, songwriter, or lyricist name (the person or band "
-        "credited with writing the song), nothing else.\n"
-        "Do not name a cover artist or performer unless they also wrote the song."
+        "credited with writing it), nothing else.\n"
+        "Do not name a cover artist or performer unless they also wrote it."
     )
     try:
         response = await client.post(
@@ -104,7 +178,8 @@ async def _discover_writer_llm(client, title, artist_hint=""):
                     {
                         "role": "system",
                         "content": (
-                            "You identify songwriters and composers. "
+                            "You identify songwriters and composers for songs, "
+                            "classical pieces, and melodies. "
                             "Reply with one writer name only."
                         ),
                     },
@@ -122,7 +197,7 @@ async def _discover_writer_llm(client, title, artist_hint=""):
             return ""
         content = (choices[0].get("message") or {}).get("content") or ""
         content = _normalize_space(content.strip('"\' '))
-        if content and not is_generic_artist(content):
+        if content and is_plausible_writer_name(content):
             return content
     except Exception:
         pass
@@ -130,7 +205,10 @@ async def _discover_writer_llm(client, title, artist_hint=""):
 
 
 async def _discover_writer_web(client, title):
-    query = f'"{title}" song (writer OR songwriter OR composer OR "written by")'
+    query = (
+        f'"{title}" (song OR piece OR melody) '
+        f'(writer OR songwriter OR composer OR "written by" OR "composed by")'
+    )
     try:
         results = await search_web(client, query)
         writers = {}
@@ -138,12 +216,8 @@ async def _discover_writer_web(client, title):
             snippet = _normalize_space(item.get("snippet") or "")
             title_text = _normalize_space(item.get("title") or "")
             for text in (title_text, snippet):
-                for match in WRITER_SNIPPET_RE.finditer(text):
-                    raw = match.group(1)
-                    # Stop at sentence boundaries / trailing junk.
-                    cleaned = re.split(r"[.;|]| - ", raw, maxsplit=1)[0].strip(" ,")
-                    if cleaned:
-                        _add_candidate(writers, cleaned, role="writer", source="web search")
+                for name in extract_writers_from_text(text):
+                    _add_candidate(writers, name, role="writer", source="web search")
         return [entry["artist"] for entry in writers.values()][:3]
     except Exception:
         return []

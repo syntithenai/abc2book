@@ -61,7 +61,7 @@ async function runVoiceTests(page, ctx) {
     await clickStaffForNoteInput(page, { atEnd: true })
     await pressKey(page, 'c')
     await sleep(300)
-    await assertNoteSteps(page, ['G', 'B', 'C', 'D'], 'note added in voice 2')
+    await assertNoteSteps(page, ['G', 'B', 'D', 'C'], 'note added in voice 2')
 
     await selectVoiceByKey(page, '1')
     await page.waitForFunction(function() {

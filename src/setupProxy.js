@@ -39,6 +39,7 @@ function shouldProxyResolver(pathname) {
   if (RESOLVER_PATHS.has(pathname)) return true;
   if (pathname.startsWith('/youtube/')) return true;
   if (pathname.startsWith('/stems/')) return true;
+  if (pathname.startsWith('/auth/google/')) return true;
   for (let i = 0; i < STATIC_RESOURCE_PREFIXES.length; i++) {
     if (pathname.startsWith(STATIC_RESOURCE_PREFIXES[i])) return true;
   }

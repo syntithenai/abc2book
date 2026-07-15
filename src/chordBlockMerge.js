@@ -17,7 +17,10 @@ import {
   applyChordSectionLabels,
   chordSectionLabelsFromSections,
   extractMeterFromChartBlock,
+  extractTempoFromChartBlock,
   firstSectionMeter,
+  firstSectionTempo,
+  normalizeTempo,
   prependMeterMarker,
   rebuildChordGridFromSections,
   stripMeterMarkers,
@@ -220,6 +223,7 @@ export function buildUnifiedBlocks(options) {
   const noteLines = Array.isArray(opts.noteLines) ? opts.noteLines : []
   const lyricLines = Array.isArray(opts.lyricLines) ? opts.lyricLines : []
   const defaultMeter = normalizeMeter(opts.defaultMeter || '4/4')
+  const defaultTempo = normalizeTempo(opts.defaultTempo) || 120
   const fullChart = String(opts.chordChart == null ? '' : opts.chordChart)
   const chartBlocks = splitChordChartIntoBlocks(fullChart)
   const strains = splitMelodyStrainsWithBarlines(noteLines)
@@ -230,12 +234,17 @@ export function buildUnifiedBlocks(options) {
   if (strains.length === 0) {
     // No melody — treat chart blocks as blocks (scaffold / paste create).
     let previousMeter = null
+    let previousTempo = null
     let blocks = (chartBlocks.length ? chartBlocks : [fullChart]).map(function(chart, index) {
       const raw = String(chart || '')
       const meter = normalizeMeter(
         extractMeterFromChartBlock(raw) || previousMeter || defaultMeter
       )
+      const tempo = normalizeTempo(
+        extractTempoFromChartBlock(raw) || previousTempo || defaultTempo
+      ) || defaultTempo
       previousMeter = meter
+      previousTempo = tempo
       const lyricSection = lyricSections[index] || null
       const header = (lyricSection && lyricSection.header) || ''
       const type = header ? normalizeSectionType(header) : null
@@ -244,6 +253,7 @@ export function buildUnifiedBlocks(options) {
         key: sectionKeyForIndex(index, type, header),
         chart: stripMeterMarkers(raw),
         meter: meter,
+        tempo: tempo,
         abcBarStart: 0,
         abcBarEnd: Math.max(0, countChartBars(raw) - 1),
         melodyStrainIndex: index,
@@ -283,6 +293,7 @@ export function buildUnifiedBlocks(options) {
 
   let globalBar = 0
   let previousMeter = null
+  let previousTempo = null
   const hymnSingleChart = chartBlocks.length === 1 && strains.length > 1
 
   const blocks = strains.map(function(strain, index) {
@@ -308,7 +319,14 @@ export function buildUnifiedBlocks(options) {
       || (index === 0 ? defaultMeter : previousMeter)
       || defaultMeter
     const meter = normalizeMeter(blockMeter)
-    if (String(rawChart).trim() || index === 0) previousMeter = meter
+    const blockTempo = extractTempoFromChartBlock(rawChart)
+      || (index === 0 ? defaultTempo : previousTempo)
+      || defaultTempo
+    const tempo = normalizeTempo(blockTempo) || defaultTempo
+    if (String(rawChart).trim() || index === 0) {
+      previousMeter = meter
+      previousTempo = tempo
+    }
 
     const lyricSection = lyricSections[index] || null
     const header = (lyricSection && lyricSection.header) || ''
@@ -322,6 +340,7 @@ export function buildUnifiedBlocks(options) {
       key: sectionKeyForIndex(index, type, header),
       chart: stripMeterMarkers(rawChart),
       meter: meter,
+      tempo: tempo,
       abcBarStart: abcBarStart,
       abcBarEnd: abcBarEnd,
       melodyStrainIndex: index,
@@ -350,13 +369,17 @@ export function buildUnifiedBlocks(options) {
 /**
  * Positional reconcile of unified blocks from an edited whole-grid string.
  */
-export function reconcileBlocksFromGrid(blocks, gridText, defaultMeter) {
+export function reconcileBlocksFromGrid(blocks, gridText, defaultMeter, defaultTempo) {
   const list = Array.isArray(blocks) ? blocks.map(function(b) {
     return b ? Object.assign({}, b) : b
   }) : []
   const chartBlocks = splitChordChartIntoBlocks(String(gridText == null ? '' : gridText))
   const meterFallback = normalizeMeter(defaultMeter || (list[0] && list[0].meter) || '4/4')
+  const tempoFallback = normalizeTempo(defaultTempo)
+    || normalizeTempo(list[0] && list[0].tempo)
+    || 120
   let previousMeter = null
+  let previousTempo = null
   const next = []
 
   for (let i = 0; i < Math.max(list.length, chartBlocks.length); i++) {
@@ -364,11 +387,16 @@ export function reconcileBlocksFromGrid(blocks, gridText, defaultMeter) {
     const meter = normalizeMeter(
       extractMeterFromChartBlock(raw) || previousMeter || meterFallback
     )
+    const tempo = normalizeTempo(
+      extractTempoFromChartBlock(raw) || previousTempo || tempoFallback
+    ) || tempoFallback
     previousMeter = meter
+    previousTempo = tempo
     if (i < list.length) {
       next.push(Object.assign({}, list[i], {
         chart: stripMeterMarkers(raw),
         meter: meter,
+        tempo: tempo,
       }))
     } else {
       const prev = next[next.length - 1] || list[list.length - 1] || {}
@@ -377,6 +405,7 @@ export function reconcileBlocksFromGrid(blocks, gridText, defaultMeter) {
         key: 'section-' + i,
         chart: stripMeterMarkers(raw),
         meter: meter,
+        tempo: tempo,
         abcBarStart: -1,
         abcBarEnd: -1,
         melodyStrainIndex: i,
@@ -649,6 +678,7 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     return {
       chart: b.chart,
       meter: b.meter,
+      tempo: b.tempo,
       chartRevisit: !!b.chartRevisit,
     }
   }))
@@ -656,11 +686,13 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   if (opts.wipeNotation) {
     const header = headerFromAbc(abcString, abcTools)
     const firstMeter = firstSectionMeter(list, header.meter)
+    const firstTempo = firstSectionTempo(list, header.abcJson && header.abcJson.tempo)
     const emptyAbc = [
       'X:1',
       'T:',
       'M:' + firstMeter,
       'L:' + header.noteLength,
+      'Q:1/4=' + firstTempo,
       'K:' + header.key,
       'z |',
     ].join('\n')
@@ -706,12 +738,14 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   if (!hasMelody) {
     try {
       const firstMeter = firstSectionMeter(workingBlocks, opts.defaultMeter || '4/4')
+      const firstTempo = firstSectionTempo(workingBlocks, opts.defaultTempo)
       const header = headerFromAbc(abcString, abcTools)
       const emptyAbc = [
         'X:1',
         'T:',
         'M:' + firstMeter,
         'L:' + header.noteLength,
+        'Q:1/4=' + firstTempo,
         'K:' + header.key,
         'z |',
       ].join('\n')
@@ -936,6 +970,10 @@ export function applyBlockMergeToTune(tune, options) {
   })
   if (opts.firstMeter) tune.meter = normalizeMeter(opts.firstMeter)
   else if (abcJson.meter) tune.meter = normalizeMeter(abcJson.meter)
+  const firstTempo = opts.firstTempo != null
+    ? normalizeTempo(opts.firstTempo)
+    : firstSectionTempo(blocks, abcJson.tempo || tune.tempo)
+  if (firstTempo) tune.tempo = firstTempo
 
   clearTransientTimedFields(tune)
 

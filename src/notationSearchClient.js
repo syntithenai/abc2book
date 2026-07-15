@@ -1,9 +1,17 @@
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { handleNotationSearchStreamEvent, normalizeNotationSearch } from './notationSearchNormalize'
+import {
+  extractNotationSearchUrl,
+  handleNotationSearchStreamEvent,
+  normalizeNotationSearch,
+} from './notationSearchNormalize'
 import { searchNotationLight } from './notationSearchLight'
 
-export { normalizeNotationSearch, handleNotationSearchStreamEvent } from './notationSearchNormalize'
+export {
+  normalizeNotationSearch,
+  handleNotationSearchStreamEvent,
+  extractNotationSearchUrl,
+} from './notationSearchNormalize'
 
 const NOTATION_ACCEPT_HEADER = 'application/x-ndjson'
 
@@ -65,26 +73,40 @@ export async function searchNotationViaResolver(options) {
     title,
     artist,
     songType,
+    url,
     accessToken,
     signal,
     onProgress,
   } = options
 
-  if (!(title && String(title).trim())) {
+  const pageUrl = url || extractNotationSearchUrl(title)
+  if (!(pageUrl || (title && String(title).trim()))) {
     throw new Error('Song title is required')
   }
 
   if (typeof onProgress === 'function') {
-    onProgress('Starting notation search...', 0, 'start')
+    onProgress(
+      pageUrl
+        ? (/(\.mid|\.midi)(\?|$)/i.test(pageUrl)
+          ? 'Fetching MIDI file...'
+          : 'Fetching MuseScore score...')
+        : 'Starting notation search...',
+      0,
+      'start'
+    )
   }
 
-  const response = await fetchViaMediaProxy('/search-notation', accessToken, {
-    method: 'POST',
-    body: JSON.stringify({
+  const payload = pageUrl
+    ? { url: pageUrl }
+    : {
       title: title || '',
       artist: artist || '',
       songType: songType || 'instrumental',
-    }),
+    }
+
+  const response = await fetchViaMediaProxy('/search-notation', accessToken, {
+    method: 'POST',
+    body: JSON.stringify(payload),
     signal: signal,
     headers: {
       Accept: NOTATION_ACCEPT_HEADER,
@@ -108,7 +130,27 @@ function shouldUseResolver(options) {
 
 export async function searchNotation(options) {
   const opts = options || {}
+  const pageUrl = opts.url || extractNotationSearchUrl(opts.title)
   const useResolver = shouldUseResolver(opts)
+
+  // MuseScore / MIDI URL import requires the media resolver.
+  if (pageUrl) {
+    if (!useResolver) {
+      throw new Error(
+        'URL notation import needs the media resolver. '
+        + 'Or export MusicXML/.mxl (or a MIDI file) and use Score file import.'
+      )
+    }
+    try {
+      return await searchNotationViaResolver(Object.assign({}, opts, { url: pageUrl }))
+    } catch (err) {
+      if (!isMediaResolverInfrastructureError(err)) throw err
+      throw new Error(
+        'Could not reach the media resolver to import that URL. '
+        + 'Export MusicXML/.mxl or MIDI and use Score file import, or retry when the resolver is available.'
+      )
+    }
+  }
 
   if (useResolver) {
     try {

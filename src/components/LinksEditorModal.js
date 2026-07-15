@@ -65,7 +65,7 @@ export default function LinksEditorModal(props) {
   return (
     <>
         
-      <Button className="tune-meta-modal-btn" aria-label="Media links" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
+      <Button className="tune-meta-modal-btn" aria-label="Media" variant="warning" onClick={handleShow}><span aria-hidden="true" className="tune-meta-modal-icon">{tunebook.icons.link} </span><Badge bg="secondary" className="tune-meta-modal-badge" >{linkCount}</Badge></Button>
 
       <Modal
         show={show}
@@ -75,7 +75,7 @@ export default function LinksEditorModal(props) {
         {...responsiveModalProps}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Links{activeTune && activeTune.name ? ' — ' + activeTune.name : ''}</Modal.Title>
+          <Modal.Title>Media{activeTune && activeTune.name ? ' — ' + activeTune.name : ''}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
             <div  >

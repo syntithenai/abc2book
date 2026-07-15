@@ -29,12 +29,13 @@ export function pitchFromMidi(midi, tuneMeta) {
   else if (body.startsWith('^')) { accidental = 1; body = body.slice(1); }
   else if (body.startsWith('_')) { accidental = -1; body = body.slice(1); }
   else if (body.startsWith('=')) { accidental = 0; body = body.slice(1); }
+  // ABC: C = C4, c = C5, C, = C3, c' = C6 (must match voiceEventModel)
   const lower = body.toLowerCase();
   const commas = (body.match(/,/g) || []).length;
   const apostrophes = (body.match(/'/g) || []).length;
-  let octave = 4;
-  if (body === lower) octave = 4 - commas;
-  else octave = 5 + apostrophes;
+  const octave = body === lower
+    ? 5 + apostrophes - commas
+    : 4 - commas + apostrophes;
   return {
     step: lower.replace(/[,']/g, '').charAt(0).toUpperCase(),
     octave: octave,
@@ -210,15 +211,21 @@ export function deleteSelectionToRest(session, options) {
 
   if (ids.length > 0) {
     let changed = false;
-    events.forEach(function(ev, i) {
-      if (ids.indexOf(ev.id) >= 0) {
-        events[i] = convertEventToRest(ev);
-        changed = true;
+    const next = [];
+    events.forEach(function(ev) {
+      if (ids.indexOf(ev.id) < 0) {
+        next.push(ev);
+        return;
       }
+      changed = true;
+      // Bar lines and system breaks are layout — remove rather than turn into rests.
+      if (ev.type === 'barline' || ev.type === 'lineBreak') return;
+      next.push(convertEventToRest(ev));
     });
     if (!changed) return null;
     return patchSession(session, {
-      events: events,
+      events: next,
+      caretIndex: Math.min(session.caretIndex, next.length),
       selection: { eventIds: [], toneIndex: null, anchorId: null },
     });
   }
@@ -231,7 +238,15 @@ export function deleteSelectionToRest(session, options) {
   }
   if (idx == null) return null;
   const target = events[idx];
-  if (!target || (target.type !== 'note' && target.type !== 'chord')) return null;
+  if (!target) return null;
+  if (target.type === 'barline' || target.type === 'lineBreak') {
+    events.splice(idx, 1);
+    return patchSession(session, {
+      events: events,
+      caretIndex: Math.min(session.caretIndex, events.length),
+    });
+  }
+  if (target.type !== 'note' && target.type !== 'chord') return null;
   events[idx] = convertEventToRest(target);
   return patchSession(session, { events: events });
 }
@@ -331,6 +346,169 @@ export function transposeSelection(session, semitones, toneIndex) {
   return patchSession(session, { events: events });
 }
 
+/** Apply accidental to selected note/chord pitches. value: -2..2 (0 = natural). */
+export function applyAccidentalToSelection(session, value) {
+  let ids = session.selection.eventIds || [];
+  if (!ids.length && session.caretIndex > 0) {
+    const prev = session.events[session.caretIndex - 1];
+    if (prev && (prev.type === 'note' || prev.type === 'chord')) ids = [prev.id];
+  }
+  if (!ids.length) return null;
+  const acc = typeof value === 'number' ? value : 0;
+  const events = session.events.map(cloneVoiceEvent);
+  let changed = false;
+  events.forEach(function(ev) {
+    if (ids.indexOf(ev.id) < 0) return;
+    if (ev.type !== 'note' && ev.type !== 'chord') return;
+    const toneIndex = session.selection.toneIndex;
+    function patchPitch(p) {
+      const step = p.step || 'C';
+      const octave = typeof p.octave === 'number' ? p.octave : 4;
+      let name = step;
+      if (octave >= 5) name = String(step).toLowerCase() + "'".repeat(octave - 5);
+      else if (octave < 4) name = step + ','.repeat(4 - octave);
+      let prefix = '';
+      if (acc === 2) prefix = '^^';
+      else if (acc === -2) prefix = '__';
+      else if (acc === 1) prefix = '^';
+      else if (acc === -1) prefix = '_';
+      else prefix = '=';
+      return Object.assign({}, p, {
+        step: String(step).charAt(0).toUpperCase(),
+        octave: octave,
+        accidental: acc,
+        forceNatural: acc === 0,
+        abcName: prefix + name,
+      });
+    }
+    if (ev.type === 'chord' && typeof toneIndex === 'number' && ev.pitches && ev.pitches[toneIndex]) {
+      ev.pitches = ev.pitches.slice();
+      ev.pitches[toneIndex] = patchPitch(ev.pitches[toneIndex]);
+      changed = true;
+      return;
+    }
+    if (ev.type === 'chord' && Array.isArray(ev.pitches)) {
+      ev.pitches = ev.pitches.map(patchPitch);
+      ev.pitch = null;
+      changed = true;
+      return;
+    }
+    if (ev.pitch) {
+      ev.pitch = patchPitch(ev.pitch);
+      ev.pitches = [ev.pitch];
+      changed = true;
+    }
+  });
+  if (!changed) return null;
+  return patchSession(session, {
+    events: events,
+    accidentalCarry: null,
+    selection: {
+      eventIds: ids.slice(),
+      toneIndex: session.selection.toneIndex,
+      anchorId: session.selection.anchorId || ids[0],
+    },
+  });
+}
+
+/** Replace pitch of selected notes (select mode). */
+export function replaceSelectionPitch(session, pitch) {
+  const ids = session.selection.eventIds || [];
+  if (!ids.length || !pitch) return null;
+  const events = session.events.map(cloneVoiceEvent);
+  let changed = false;
+  events.forEach(function(ev) {
+    if (ids.indexOf(ev.id) < 0) return;
+    if (ev.type !== 'note' && ev.type !== 'chord') return;
+    if (ev.type === 'chord') {
+      ev.pitches = (ev.pitches || []).map(function() { return pitch; });
+      ev.pitch = null;
+      ev.type = ev.pitches.length > 1 ? 'chord' : 'note';
+      if (ev.type === 'note') {
+        ev.pitch = pitch;
+        ev.pitches = [pitch];
+      }
+    } else {
+      ev.pitch = pitch;
+      ev.pitches = [pitch];
+    }
+    changed = true;
+  });
+  if (!changed) return null;
+  return patchSession(session, { events: events, accidentalCarry: null, lastEvent: events.find(function(ev) {
+    return ids.indexOf(ev.id) >= 0;
+  }) || session.lastEvent });
+}
+
+/**
+ * Staff steps from pointer delta. Positive deltaY (drag down) → positive steps (lower pitch).
+ * Clamped so abcjs coordinate glitches cannot jump many octaves.
+ */
+export function staffStepsFromPointerDelta(deltaY, stepPx, clampAbs) {
+  const step = stepPx > 0 ? stepPx : 14;
+  const lim = typeof clampAbs === 'number' && clampAbs > 0 ? clampAbs : 16;
+  const raw = Math.round(Number(deltaY) / step);
+  if (!isFinite(raw)) return 0;
+  return Math.max(-lim, Math.min(lim, raw));
+}
+
+/**
+ * Resolve committed staff steps for a pitch drag.
+ * Pointer delta is authoritative; abcjs drag.step is ignored for pitch commit
+ * (abcjs can inflate when the pointer leaves the glyph).
+ */
+export function resolveDragStaffSteps(options) {
+  const opts = options || {};
+  const stepPx = opts.stepPx > 0 ? opts.stepPx : 14;
+  const clampAbs = typeof opts.clampAbs === 'number' && opts.clampAbs > 0 ? opts.clampAbs : 4;
+  const pointerDeltaY = typeof opts.pointerDeltaY === 'number' ? opts.pointerDeltaY : 0;
+  const movedPx = Math.abs(pointerDeltaY);
+  if (movedPx < stepPx * 0.35) return 0;
+  // Intentionally ignore opts.abcStep — hybrid preference was a false-green failure mode.
+  return staffStepsFromPointerDelta(pointerDeltaY, stepPx, clampAbs);
+}
+
+/**
+ * Keep edit-target IDs that still exist after LOAD_VOICE / remount.
+ * Falls back to note at caret, then note before caret.
+ */
+export function resolveEditTargetIds(session, lastSelection) {
+  if (!session || !Array.isArray(session.events)) return null;
+  const idSet = {};
+  session.events.forEach(function(ev) {
+    if (ev && ev.id) idSet[ev.id] = true;
+  });
+  function liveIds(ids) {
+    return (ids || []).filter(function(id) { return idSet[id]; });
+  }
+  let toneIndex = session.selection && session.selection.toneIndex;
+  let anchorId = session.selection && session.selection.anchorId;
+  let ids = liveIds(session.selection && session.selection.eventIds);
+  if (!ids.length && lastSelection) {
+    ids = liveIds(lastSelection.eventIds);
+    if (ids.length) {
+      toneIndex = lastSelection.toneIndex;
+      anchorId = lastSelection.anchorId;
+    }
+  }
+  if (!ids.length) {
+    const caret = typeof session.caretIndex === 'number' ? session.caretIndex : 0;
+    const atCaret = session.events[caret];
+    if (atCaret && (atCaret.type === 'note' || atCaret.type === 'chord')) {
+      ids = [atCaret.id];
+    } else if (caret > 0) {
+      const prev = session.events[caret - 1];
+      if (prev && (prev.type === 'note' || prev.type === 'chord')) ids = [prev.id];
+    }
+  }
+  if (!ids.length) return null;
+  return {
+    eventIds: ids,
+    toneIndex: toneIndex != null ? toneIndex : null,
+    anchorId: (anchorId && idSet[anchorId]) ? anchorId : ids[0],
+  };
+}
+
 export function changeSelectedDuration(session, durationKey, dotted) {
   const ids = session.selection.eventIds || [];
   const events = session.events.map(cloneVoiceEvent);
@@ -386,10 +564,71 @@ export function repeatLast(session) {
 export function selectEventRange(events, anchorId, targetId) {
   const a = events.findIndex(function(ev) { return ev.id === anchorId; });
   const b = events.findIndex(function(ev) { return ev.id === targetId; });
-  if (a < 0 || b < 0) return [targetId];
+  if (a < 0 || b < 0) return targetId ? [targetId] : [];
   const start = Math.min(a, b);
   const end = Math.max(a, b);
   const ids = [];
   for (let i = start; i <= end; i += 1) ids.push(events[i].id);
+  return ids;
+}
+
+/** Toggle eventId in a selection (Ctrl/Cmd+click). */
+export function toggleSelectionEventId(selection, eventId) {
+  if (!eventId) return selection || { eventIds: [], toneIndex: null, anchorId: null };
+  const prev = selection || { eventIds: [], toneIndex: null, anchorId: null };
+  const ids = (prev.eventIds || []).slice();
+  const found = ids.indexOf(eventId);
+  if (found >= 0) ids.splice(found, 1);
+  else ids.push(eventId);
+  let anchorId = prev.anchorId || null;
+  if (!ids.length) {
+    anchorId = null;
+  } else if (!anchorId || ids.indexOf(anchorId) < 0) {
+    // If we removed the anchor, keep a remaining id; if we added, use the new id.
+    anchorId = found >= 0 ? ids[ids.length - 1] : eventId;
+  }
+  return { eventIds: ids, toneIndex: null, anchorId: anchorId };
+}
+
+/**
+ * Select the measure containing eventId: notes/rests from after the previous
+ * barline through the trailing barline of that measure (exclusive of next measure).
+ */
+export function selectMeasureContaining(events, eventId) {
+  if (!events || !events.length || !eventId) return [];
+  const idx = events.findIndex(function(ev) { return ev.id === eventId; });
+  if (idx < 0) return [];
+
+  let start = 0;
+  for (let i = idx - 1; i >= 0; i -= 1) {
+    if (events[i].type === 'barline') {
+      start = i + 1;
+      break;
+    }
+  }
+
+  if (events[idx].type === 'barline') {
+    // Barline click/double-click: measure that *ends* at this bar.
+    start = 0;
+    for (let i = idx - 1; i >= 0; i -= 1) {
+      if (events[i].type === 'barline') {
+        start = i + 1;
+        break;
+      }
+    }
+    const ids = [];
+    for (let j = start; j <= idx; j += 1) ids.push(events[j].id);
+    return ids;
+  }
+
+  let end = events.length - 1;
+  for (let i = idx; i < events.length; i += 1) {
+    if (events[i].type === 'barline') {
+      end = i;
+      break;
+    }
+  }
+  const ids = [];
+  for (let j = start; j <= end; j += 1) ids.push(events[j].id);
   return ids;
 }

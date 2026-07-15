@@ -182,6 +182,28 @@ describe('tuneFieldLookupQueue', function() {
     }).length).toBe(1)
   })
 
+  test('enqueueLookup re-notifies live handler for awaiting duplicates', function() {
+    const onAwaiting = jest.fn()
+    tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'notation', { onAwaiting: onAwaiting })
+    const seeded = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'notation',
+      title: 'Song',
+      candidates: [{ title: 'Song', abc: 'X:1\nK:C\nC', source: 'test' }],
+    })
+    expect(seeded).toBeTruthy()
+    onAwaiting.mockClear()
+    const again = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'notation',
+      title: 'Song',
+      accessToken: 'token',
+    })
+    expect(again).toBe(seeded)
+    expect(onAwaiting).toHaveBeenCalledTimes(1)
+    expect(onAwaiting.mock.calls[0][0].id).toBe(seeded)
+  })
+
   test('lyrics search lands as awaiting with candidates', async function() {
     const id = tuneFieldLookupQueue.enqueueLookup({
       tuneId: 't1',
@@ -394,5 +416,66 @@ describe('tuneFieldLookupQueue', function() {
     })
     expect(job.status).toBe('awaiting')
     expect(tune.composer).toBe('')
+  })
+
+  test('shouldDeferFieldLookupSave for review and linked jobs', function() {
+    expect(tuneFieldLookupQueue.shouldDeferFieldLookupSave({
+      options: { searchMode: 'review' },
+    })).toBe(true)
+    expect(tuneFieldLookupQueue.shouldDeferFieldLookupSave({
+      reviewCandidateId: 'c1',
+      options: { searchMode: 'auto' },
+    })).toBe(true)
+    expect(tuneFieldLookupQueue.shouldDeferFieldLookupSave({
+      options: { searchMode: 'auto' },
+    })).toBe(false)
+  })
+
+  test('applyFieldLookupChoice does not saveTune for review mode even with live handler', async function() {
+    const tune = { id: 't1', name: 'Song', composer: 'Old' }
+    const saveTune = jest.fn()
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+    })
+    tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'composer', {
+      onAwaiting: function() {},
+    })
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Song',
+      candidates: [
+        { artist: 'New Artist', source: 'web' },
+      ],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    const job = tuneFieldLookupQueue.findJobById(id)
+    expect(job.status).toBe('awaiting')
+    tuneFieldLookupQueue.applyFieldLookupChoice(id, job.candidates[0])
+    expect(tuneFieldLookupQueue.findJobById(id).status).toBe('done')
+    expect(tune.composer).toBe('Old')
+    expect(saveTune).not.toHaveBeenCalled()
+  })
+
+  test('applyFieldLookupChoice does not saveTune when linked to review candidate', function() {
+    const tune = { id: 't1', name: 'Song', composer: 'Old' }
+    const saveTune = jest.fn()
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+    })
+    const id = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Song',
+      candidates: [{ artist: 'New Artist', source: 'web' }],
+    })
+    tuneFieldLookupQueue.linkFieldLookupToReviewCandidate(id, 'review-cand-1')
+    const job = tuneFieldLookupQueue.findJobById(id)
+    tuneFieldLookupQueue.applyFieldLookupChoice(id, job.candidates[0])
+    expect(tune.composer).toBe('Old')
+    expect(saveTune).not.toHaveBeenCalled()
+    expect(tuneFieldLookupQueue.findJobById(id).appliedCandidate.artist).toBe('New Artist')
   })
 })

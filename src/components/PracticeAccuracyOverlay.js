@@ -1,5 +1,10 @@
 import './PracticeAccuracyOverlay.css'
 import { isFarFromTarget } from '../tunerlib/tunerDisplayUtils'
+import {
+  referenceGainToSliderPercent,
+  sliderPercentToReferenceGain,
+  DEFAULT_PRACTICE_SETTINGS,
+} from '../practiceSessionSettings'
 
 const CENTS_DISPLAY_CAP = 99
 
@@ -13,10 +18,10 @@ function formatCents(cents) {
 }
 
 function micStatusLabel(status) {
-  if (status === 'requesting') return 'Requesting microphone…'
-  if (status === 'denied') return 'Microphone blocked — allow access in browser settings'
-  if (status === 'unavailable') return 'Microphone not available in this browser'
-  if (status === 'error') return 'Microphone setup failed — try refreshing'
+  if (status === 'requesting') return 'Requesting mic…'
+  if (status === 'denied') return 'Mic blocked'
+  if (status === 'unavailable') return 'Mic unavailable'
+  if (status === 'error') return 'Mic failed'
   return null
 }
 
@@ -24,88 +29,103 @@ function micLevelPercent(level) {
   return Math.round(Math.max(0, Math.min(1, level || 0)) * 100)
 }
 
+function buildMiddleStatus(props, statusMessage, quietHint) {
+  const parts = []
+  if (statusMessage) parts.push(statusMessage)
+  else if (quietHint) parts.push(quietHint)
+  if (props.accuracyHint) parts.push(props.accuracyHint)
+
+  if (props.showRepSummary && props.repSummary) {
+    const rep = props.repSummary
+    let repText = 'Rep ' + (rep.repIndex != null ? rep.repIndex + 1 : '') + ' pitch ' + rep.pitchPct + '%'
+    if (rep.timingPct != null) repText += ' · timing ' + rep.timingPct + '%'
+    if (rep.missed > 0) repText += ' · ' + rep.missed + ' missed'
+    if (props.resolverPending) repText += ' · analysing…'
+    parts.push(repText.trim())
+  } else if (props.resolverPending) {
+    parts.push('Analysing…')
+  }
+
+  if (props.showAggregate && props.aggregateSummary) {
+    const agg = props.aggregateSummary
+    const avg = agg.average && agg.average.pitchPct != null ? agg.average.pitchPct + '%' : '—'
+    parts.push('Avg pitch ' + avg)
+  }
+
+  return parts.filter(Boolean).join(' — ')
+}
+
 export default function PracticeAccuracyOverlay(props) {
   const live = props.liveState || {}
-  const repSummary = props.repSummary
-  const aggregateSummary = props.aggregateSummary
-  const showRepSummary = props.showRepSummary
-  const resolverPending = props.resolverPending
-  const accuracyHint = props.accuracyHint
+  const volume = props.volume != null ? props.volume : DEFAULT_PRACTICE_SETTINGS.practiceReferenceGain
+  const onVolumeChange = props.onVolumeChange
   const micLevel = live.micLevel != null ? live.micLevel : 0
   const micPercent = micLevelPercent(micLevel)
   const micStatus = live.micStatus || 'idle'
   const statusMessage = micStatusLabel(micStatus)
+  const quietHint = !statusMessage && micStatus === 'active' && !live.micHeard
+    ? 'Sing louder'
+    : null
   const far = isFarFromTarget(live.pitchCents)
+  const middleStatus = buildMiddleStatus(props, statusMessage, quietHint)
+  const volumePercent = referenceGainToSliderPercent(volume)
+  const warnStatus = !!(statusMessage || quietHint)
+
+  if (!props.enabled) return null
 
   return (
     <div className="practice-accuracy-overlay" aria-live="polite">
-      {props.enabled ? (
-        <div className="practice-accuracy-live">
-          <div className="practice-accuracy-mic-meter" aria-label={'Microphone level ' + micPercent + ' percent'}>
-            <span className="practice-accuracy-mic-label">Mic</span>
-            <div className="practice-accuracy-mic-track">
-              <div
-                className={'practice-accuracy-mic-fill' + (live.micHeard ? ' practice-accuracy-mic-fill--heard' : '')}
-                style={{ width: micPercent + '%' }}
-              />
-            </div>
-            <span className="practice-accuracy-mic-value">{micPercent}%</span>
+      <div className="practice-accuracy-live" title={middleStatus || undefined}>
+        <div className="practice-accuracy-mic-meter" aria-label={'Microphone level ' + micPercent + ' percent'}>
+          <span className="practice-accuracy-mic-label">Mic</span>
+          <div className="practice-accuracy-mic-track">
+            <div
+              className={'practice-accuracy-mic-fill' + (live.micHeard ? ' practice-accuracy-mic-fill--heard' : '')}
+              style={{ width: micPercent + '%' }}
+            />
           </div>
-
-          <div className={'practice-accuracy-cents practice-accuracy-cents--' + (live.intonationBand || 'none')}>
-            <span className="practice-accuracy-cents-label">Pitch</span>
-            <span className="practice-accuracy-cents-value">{formatCents(live.pitchCents)}</span>
-            {far ? <span className="practice-accuracy-cents-far">far</span> : null}
-          </div>
-
-          {statusMessage ? (
-            <div className="practice-accuracy-mic-status practice-accuracy-mic-status--warn">{statusMessage}</div>
-          ) : null}
-
-          {!statusMessage && micStatus === 'active' && !live.micHeard ? (
-            <div className="practice-accuracy-mic-status">Sing or play louder — mic is on but very quiet</div>
-          ) : null}
-
-          {live.timingHint ? (
-            <div className={'practice-accuracy-timing practice-accuracy-timing--' + live.timingHint}>
-              {live.timingHint === 'early' ? 'Early' : 'Late'}
-            </div>
-          ) : null}
-          {accuracyHint ? (
-            <div className="practice-accuracy-hint">{accuracyHint}</div>
-          ) : null}
         </div>
-      ) : null}
 
-      {showRepSummary && repSummary ? (
-        <div className="practice-accuracy-rep-summary">
-          <div className="practice-accuracy-rep-title">
-            Rep {repSummary.repIndex != null ? repSummary.repIndex + 1 : ''} pitch: {repSummary.pitchPct}%
-            {repSummary.timingPct != null ? ' · timing: ' + repSummary.timingPct + '%' : ''}
-            {repSummary.source === 'resolver' ? ' (analysed)' : ''}
-          </div>
-          {repSummary.missed > 0 ? (
-            <div className="practice-accuracy-missed">{repSummary.missed} note(s) missed or unclear</div>
-          ) : null}
-          {resolverPending ? (
-            <div className="practice-accuracy-resolver-pending">Analysing…</div>
-          ) : null}
+        <div className={'practice-accuracy-cents practice-accuracy-cents--' + (live.intonationBand || 'none')}>
+          <span className="practice-accuracy-cents-label">Pitch</span>
+          <span className="practice-accuracy-cents-value">{formatCents(live.pitchCents)}</span>
+          {far ? <span className="practice-accuracy-cents-far">far</span> : null}
         </div>
-      ) : null}
 
-      {aggregateSummary && props.showAggregate ? (
-        <div className="practice-accuracy-aggregate">
-          <div>
-            Average pitch: {aggregateSummary.average && aggregateSummary.average.pitchPct != null
-              ? aggregateSummary.average.pitchPct + '%'
-              : '—'}
-            {aggregateSummary.best ? ' · Best: ' + aggregateSummary.best.pitchPct + '%' : ''}
-          </div>
-          {aggregateSummary.source === 'resolver' ? (
-            <div className="practice-accuracy-resolver-badge">Resolver score</div>
-          ) : null}
-        </div>
-      ) : null}
+        {live.timingHint ? (
+          <span className={'practice-accuracy-timing practice-accuracy-timing--' + live.timingHint}>
+            {live.timingHint === 'early' ? 'Early' : 'Late'}
+          </span>
+        ) : null}
+
+        <span
+          className={
+            'practice-accuracy-inline-status'
+            + (warnStatus ? ' practice-accuracy-inline-status--warn' : '')
+            + (middleStatus ? '' : ' practice-accuracy-inline-status--empty')
+          }
+        >
+          {middleStatus || '\u00a0'}
+        </span>
+
+        {typeof onVolumeChange === 'function' ? (
+          <label className="practice-accuracy-volume" title={'Reference volume ' + volumePercent + '%'}>
+            <span className="practice-accuracy-volume-label">Vol</span>
+            <input
+              type="range"
+              className="practice-accuracy-volume-slider"
+              min={0}
+              max={100}
+              step={1}
+              value={volumePercent}
+              aria-label="Reference playback volume"
+              onChange={function(e) {
+                onVolumeChange(sliderPercentToReferenceGain(e.target.value))
+              }}
+            />
+          </label>
+        ) : null}
+      </div>
     </div>
   )
 }

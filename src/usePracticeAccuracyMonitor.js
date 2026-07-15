@@ -15,16 +15,25 @@ import {
   notationBeatFromAudioSeconds,
   patternLocalBeatFromAbsolute,
   absoluteBeatFromPatternLocal,
+  beatToMs,
 } from './practiceExpectedTimeline'
 import { frequencyToMidi } from './tunerTuningUtils'
 import { createPitchfinderDetector } from './practiceAccuracyBackends'
 
-const DEFAULT_BUFFER_SIZE = 4096
+const DEFAULT_BUFFER_SIZE = 2048
+const STABILIZER_WINDOW = 3
+const STABILIZER_HOLD_MS = 150
 const AUBIO_WAIT_MS = 2500
 const MIC_LEVEL_SMOOTHING = 0.18
 const TRACE_THROTTLE_BEATS = 0.01
 const TRACE_THROTTLE_MS = 25
 
+function estimateTraceLatencyMs(bufferSize, sampleRate) {
+  const rate = sampleRate > 0 ? sampleRate : 44100
+  const frameMs = (bufferSize / rate) * 1000
+  // One buffer of capture delay + half the median window settling.
+  return frameMs + (STABILIZER_WINDOW / 2) * frameMs
+}
 function publishTraces(setRepTraces, tracesRef) {
   setRepTraces(tracesRef.current.map(function(trace) {
     return {
@@ -217,6 +226,7 @@ export default function usePracticeAccuracyMonitor(options) {
   const captureRef = useRef(null)
   const currentBeatRef = useRef(0)
   const patternLocalBeatRef = useRef(0)
+  const beatAnchorRef = useRef({ beat: 0, timeMs: 0 })
   const currentRepRef = useRef(0)
   const recordingChunksRef = useRef([])
   const mediaRecorderRef = useRef(null)
@@ -248,6 +258,7 @@ export default function usePracticeAccuracyMonitor(options) {
     repTracesRef.current = []
     lastTraceBeatRef.current = -999
     lastTraceTimeRef.current = -999
+    beatAnchorRef.current = { beat: 0, timeMs: 0 }
     setRepTraces([])
     setPlayheadBeat(0)
   }, [])
@@ -266,6 +277,9 @@ export default function usePracticeAccuracyMonitor(options) {
     const pattern = timeline ? timeline.patternDurationBeats : 0
     const gap = gapBeatsRef.current
     const rep = currentRepRef.current
+    const nowMs = typeof performance !== 'undefined' && performance.now
+      ? performance.now()
+      : Date.now()
 
     if (payload.currentBeat != null && Number.isFinite(payload.currentBeat)) {
       // abcjs beat is pattern-local for the current play-through.
@@ -291,9 +305,28 @@ export default function usePracticeAccuracyMonitor(options) {
         gap
       )
     }
+    beatAnchorRef.current = {
+      beat: patternLocalBeatRef.current,
+      timeMs: nowMs,
+    }
     setPlayheadBeat(patternLocalBeatRef.current)
   }, [])
 
+  function livePatternLocalBeat(nowMs) {
+    const timeline = timelineRef.current
+    const anchor = beatAnchorRef.current
+    let beat = patternLocalBeatRef.current
+    if (!timeline || !timeline.tuneMeta) return beat
+    const msPerBeat = beatToMs(1, timeline.tuneMeta.tempoBpm, timeline.tuneMeta.beatUnit)
+    if (!(msPerBeat > 0) || !(anchor.timeMs > 0)) return beat
+    const elapsed = Math.max(0, nowMs - anchor.timeMs)
+    // Mic frames arrive much faster than abcjs beat callbacks; extrapolate X
+    // so pitch samples form horizontal segments instead of vertical stacks.
+    beat = Math.max(beat, anchor.beat + elapsed / msPerBeat)
+    const pattern = timeline.patternDurationBeats || 0
+    if (pattern > 0) beat = Math.min(beat, pattern)
+    return beat
+  }
   const scoreCurrentRep = useCallback(function(repIndex) {
     const timeline = timelineRef.current
     if (!timeline) return null
@@ -341,7 +374,13 @@ export default function usePracticeAccuracyMonitor(options) {
     }
 
     let cancelled = false
-    const stabilizer = createPitchStabilizer({ gateThreshold: 0.02 })
+    const bufferSize = DEFAULT_BUFFER_SIZE
+    let traceLatencyMs = estimateTraceLatencyMs(bufferSize, 44100)
+    const stabilizer = createPitchStabilizer({
+      gateThreshold: 0.02,
+      windowSize: STABILIZER_WINDOW,
+      holdAfterMs: STABILIZER_HOLD_MS,
+    })
     stabilizerRef.current = stabilizer
     stabilizer.reset()
     levelSmootherRef.current = createLevelSmoother()
@@ -372,12 +411,24 @@ export default function usePracticeAccuracyMonitor(options) {
         return
       }
       const timeMs = frame.time * 1000
+      const wallMs = typeof performance !== 'undefined' && performance.now
+        ? performance.now()
+        : Date.now()
+      const localBeat = livePatternLocalBeat(wallMs)
+      const timeline = timelineRef.current
+      const absBeat = absoluteBeatFromPatternLocal(
+        localBeat,
+        currentRepRef.current,
+        timeline.patternDurationBeats || 0,
+        gapBeatsRef.current
+      )
+      currentBeatRef.current = absBeat
       const repNotes = expandTimelineForRep(
-        timelineRef.current,
+        timeline,
         currentRepRef.current,
         gapBeatsRef.current
       )
-      const expected = expectedNoteAtBeat(repNotes, currentBeatRef.current)
+      const expected = expectedNoteAtBeat(repNotes, absBeat)
       const expectedMidi = expected ? expected.midi : null
       const stabilized = stabilizer.process(
         frame.frequency,
@@ -386,9 +437,10 @@ export default function usePracticeAccuracyMonitor(options) {
         null,
         timeMs
       )
-      const useFreq = stabilized && stabilized.freq > 0 ? stabilized.freq : frame.frequency
+      const rawFreq = frame.frequency > 0 && Number.isFinite(frame.frequency) ? frame.frequency : 0
+      const useFreq = stabilized && stabilized.freq > 0 ? stabilized.freq : rawFreq
       const gated = !!(stabilized && stabilized.freq > 0)
-      const canTrace = (gated || micHeard) && useFreq > 0
+      const canTrace = (gated || micHeard) && rawFreq > 0
       let displayCents = null
       if (gated && useFreq > 0) {
         if (expectedMidi != null) {
@@ -404,26 +456,30 @@ export default function usePracticeAccuracyMonitor(options) {
         })
       }
       if (canTrace) {
-        const localBeat = patternLocalBeatRef.current
-        const beatDelta = localBeat - lastTraceBeatRef.current
+        const msPerBeat = beatToMs(1, timeline.tuneMeta.tempoBpm, timeline.tuneMeta.beatUnit)
+        const latencyBeats = msPerBeat > 0 ? traceLatencyMs / msPerBeat : 0
+        const plotBeat = Math.max(0, localBeat - latencyBeats)
+        const beatDelta = plotBeat - lastTraceBeatRef.current
         const timeDelta = timeMs - lastTraceTimeRef.current
         if (beatDelta >= TRACE_THROTTLE_BEATS || timeDelta >= TRACE_THROTTLE_MS) {
-          lastTraceBeatRef.current = localBeat
+          lastTraceBeatRef.current = plotBeat
           lastTraceTimeRef.current = timeMs
-          const rawMidi = frequencyToMidi(useFreq)
-          const displayMidi = foldMidiNearExpected(rawMidi, expectedMidi != null ? expectedMidi : rawMidi)
+          // Graph uses raw frequency for lower lag; overlay keeps stabilized cents.
+          const rawMidi = frequencyToMidi(rawFreq)
+          const displayMidiVal = foldMidiNearExpected(rawMidi, expectedMidi != null ? expectedMidi : rawMidi)
           const cents = expectedMidi != null
-            ? liveCentsToExpectedMidi(useFreq, expectedMidi)
-            : liveCentsToExpectedMidi(useFreq, Math.round(rawMidi))
+            ? liveCentsToExpectedMidi(rawFreq, expectedMidi)
+            : liveCentsToExpectedMidi(rawFreq, Math.round(rawMidi))
           const trace = ensureRepTrace(currentRepRef.current)
           trace.points.push({
-            beat: localBeat,
-            midi: displayMidi,
+            beat: plotBeat,
+            midi: displayMidiVal,
             rawMidi: rawMidi,
             expectedMidi: expectedMidi,
             cents: cents,
             timeMs: timeMs,
           })
+          if (!cancelled) setPlayheadBeat(localBeat)
           scheduleTracesPublish()
         }
       }
@@ -458,6 +514,7 @@ export default function usePracticeAccuracyMonitor(options) {
 
     const micCtx = new AudioCtx()
     micContextRef.current = micCtx
+    traceLatencyMs = estimateTraceLatencyMs(bufferSize, micCtx.sampleRate || 44100)
 
     function startCapture() {
       if (cancelled) return
@@ -484,7 +541,7 @@ export default function usePracticeAccuracyMonitor(options) {
           // optional recording for resolver
         }
 
-        const capture = createMainThreadPitchCapture(micCtx, {})
+        const capture = createMainThreadPitchCapture(micCtx, { bufferSize: bufferSize })
         captureRef.current = capture
         return capture.init().then(function() {
           if (cancelled) {

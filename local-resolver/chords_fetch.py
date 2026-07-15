@@ -127,6 +127,17 @@ def normalize_match_text(value):
     return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
 
 
+def _meaningful_substring_overlap(left, right):
+    if not left or not right:
+        return False
+    if left not in right and right not in left:
+        return False
+    shorter = min(len(left), len(right))
+    longer = max(len(left), len(right))
+    # Avoid "clare" ranking close to "claredelune".
+    return shorter >= 5 and (shorter / float(longer)) >= 0.65
+
+
 def score_title_artist_match(candidate_title, candidate_artist, title, artist):
     title_key = normalize_match_text(title)
     artist_key = normalize_match_text(artist)
@@ -137,13 +148,13 @@ def score_title_artist_match(candidate_title, candidate_artist, title, artist):
     if title_key and candidate_title_key:
         if candidate_title_key == title_key:
             score += 80
-        elif title_key in candidate_title_key or candidate_title_key in title_key:
+        elif _meaningful_substring_overlap(title_key, candidate_title_key):
             score += 45
 
     if artist_key and candidate_artist_key:
         if candidate_artist_key == artist_key:
             score += 60
-        elif artist_key in candidate_artist_key or candidate_artist_key in artist_key:
+        elif _meaningful_substring_overlap(artist_key, candidate_artist_key):
             score += 30
 
     return score

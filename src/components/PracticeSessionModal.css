@@ -1,5 +1,21 @@
 .practice-session-modal .modal-content {
   min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-session-modal .modal-header.practice-session-header {
+  flex: 0 0 auto;
+}
+
+.practice-session-modal .modal-body.practice-session-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 0.5rem;
 }
 
 .practice-session-header {
@@ -203,6 +219,10 @@
   font-size: 1.15rem;
 }
 
+.practice-session-header-btn--restart {
+  padding: 0.55rem 1rem;
+}
+
 .practice-session-header-btn-icon {
   display: inline-flex;
   align-items: center;
@@ -247,6 +267,7 @@
 }
 
 .practice-session-instruction {
+  flex: 0 0 auto;
   background: var(--app-brand-muted);
   border: 2px solid var(--app-brand-border);
   border-radius: 0.75rem;
@@ -296,12 +317,30 @@
   border-radius: 999px;
   font-weight: 600;
   border: 1px solid transparent;
+  line-height: 1;
 }
 
 .practice-playback-status-icon {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   width: 1.25rem;
   height: 1.25rem;
+  line-height: 0;
+}
+
+.practice-playback-status-icon svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+.practice-playback-status-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .practice-playback-status--loading {
@@ -386,42 +425,64 @@
 .practice-session-warmup-notation {
   margin-top: 0.5rem;
   position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.practice-session-warmup-score {
+  flex: 1 1 50%;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.practice-session-warmup-notation:not(:has(.practice-session-warmup-pitch)) .practice-session-warmup-score {
+  flex: 1 1 auto;
+}
+
+.practice-session-warmup-score .abc-wrapper,
+.practice-session-warmup-score [class*="abc"] {
+  min-height: 0;
+}
+
+.practice-session-warmup-pitch {
+  flex: 1 1 50%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .practice-warmup-countin-overlay {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  z-index: 6;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.25rem;
-  margin-bottom: 0.75rem;
-  padding: 0.85rem 1rem;
-  border-radius: 10px;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.45rem;
   background: linear-gradient(180deg, #eef4ff, #e2ebff);
   border: 1px solid #90b4f8;
-  text-align: center;
-}
-
-.practice-warmup-countin-label {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #1d4ed8;
-  opacity: 0.85;
+  box-shadow: 0 1px 4px rgba(30, 64, 175, 0.18);
+  pointer-events: none;
 }
 
 .practice-warmup-countin-beat {
-  font-size: 3rem;
+  font-size: 1.45rem;
   font-weight: 700;
   line-height: 1;
   color: #1e3a8a;
   font-variant-numeric: tabular-nums;
-}
-
-.practice-warmup-countin-meta {
-  font-size: 0.85rem;
-  color: #334155;
-  opacity: 0.85;
 }
 
 .practice-duration-buttons .btn {

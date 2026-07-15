@@ -5,11 +5,15 @@ import { getBackgroundReviewSummary } from './backgroundReviewQueue'
 const BACKGROUND_REVIEW_TOAST_ID = 'background-review'
 const BACKGROUND_PROCESSING_TOAST_ID = 'background-review-processing'
 const PROCESSING_TOAST_AUTO_CLOSE_MS = 4000
+const CONTINUING_TOAST_AUTO_CLOSE_MS = 5000
 const REVIEW_TOAST_SUPPRESS_MS = 30000
+const CONTINUING_TOAST_ID = 'background-jobs-continuing'
 
 let reviewToastDismissedUntil = 0
 let suppressNextCloseCapture = false
 let snoozedReadyKeys = null
+let lastProcessingCount = 0
+let shownReadyFingerprint = null
 
 function markReviewToastDismissedNow() {
   reviewToastDismissedUntil = Date.now() + REVIEW_TOAST_SUPPRESS_MS
@@ -45,7 +49,15 @@ export function collectReadyReviewKeys(summary) {
   fieldLookupAwaiting.forEach(function(id) {
     keys.push('field:' + id)
   })
+  const fileOcrReady = summary && Array.isArray(summary.fileOcrReady) ? summary.fileOcrReady : []
+  fileOcrReady.forEach(function(id) {
+    keys.push('fileocr:' + id)
+  })
   return keys
+}
+
+function readyFingerprint(summary) {
+  return collectReadyReviewKeys(summary).slice().sort().join('|')
 }
 
 function hasNewReadyWork(summary) {
@@ -69,6 +81,7 @@ function shouldSuppressReadyToast(summary, opts) {
 export function snoozeBackgroundReviewToast() {
   const summary = getBackgroundReviewSummary()
   snoozedReadyKeys = new Set(collectReadyReviewKeys(summary))
+  shownReadyFingerprint = readyFingerprint(summary) || null
   dismissBackgroundReviewToast()
 }
 
@@ -76,6 +89,8 @@ export function __resetBackgroundReviewToastForTests() {
   reviewToastDismissedUntil = 0
   suppressNextCloseCapture = false
   snoozedReadyKeys = null
+  lastProcessingCount = 0
+  shownReadyFingerprint = null
 }
 
 function renderReviewToast(message, opts, renderProps) {
@@ -96,6 +111,11 @@ function renderReviewToast(message, opts, renderProps) {
   )
 }
 
+/**
+ * Show the Review toast only when a processing batch finishes (processing → 0)
+ * with ready work, or when a new ready fingerprint appears while idle.
+ * Do not re-fire toast.warn on every queue notify for the same ready set.
+ */
 export function syncBackgroundReviewToast(options) {
   const opts = options || {}
   const summary = getBackgroundReviewSummary()
@@ -103,11 +123,22 @@ export function syncBackgroundReviewToast(options) {
   const processingCount = summary.processing > 0 ? summary.processing : 0
   const readyMessage = readyCount > 0 ? readyCount + ' ready for review' : ''
   const processingMessage = processingCount > 0 ? processingCount + ' still processing' : ''
+  const fingerprint = readyFingerprint(summary)
+  const processingDroppedToZero = lastProcessingCount > 0 && processingCount === 0
+  const fingerprintChanged = fingerprint !== shownReadyFingerprint
+  const suppressed = !readyMessage || shouldSuppressReadyToast(summary, opts)
+  const shouldShowReady = !suppressed
+    && processingCount === 0
+    && (processingDroppedToZero || fingerprintChanged)
 
-  if (!readyMessage || shouldSuppressReadyToast(summary, opts)) {
-    dismissReviewToastProgrammatically()
+  if (suppressed || processingCount > 0 || !shouldShowReady) {
+    if (suppressed || readyCount === 0) {
+      dismissReviewToastProgrammatically()
+      if (readyCount === 0) shownReadyFingerprint = null
+    }
   } else {
     suppressNextCloseCapture = false
+    shownReadyFingerprint = fingerprint
     toast.warn(
       function(renderProps) {
         return renderReviewToast(readyMessage, opts, renderProps)
@@ -127,6 +158,8 @@ export function syncBackgroundReviewToast(options) {
     )
   }
 
+  lastProcessingCount = processingCount
+
   if (!processingMessage) {
     toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
   } else if (opts.showProcessingNotice) {
@@ -144,4 +177,26 @@ export function showBackgroundProcessingNotice(options) {
   return syncBackgroundReviewToast(Object.assign({}, options || {}, {
     showProcessingNotice: true,
   }))
+}
+
+/**
+ * One-shot notice when leaving edit/add with jobs still running.
+ * Does not open Review.
+ */
+export function showBackgroundJobsContinuingNotice(options) {
+  const opts = options || {}
+  const summary = opts.summary || getBackgroundReviewSummary()
+  const count = typeof opts.count === 'number'
+    ? opts.count
+    : (summary && summary.processing > 0 ? summary.processing : 0)
+  if (!(count > 0)) return null
+  const message = count === 1
+    ? '1 job continuing in background'
+    : (count + ' jobs continuing in background')
+  toast.info(message, {
+    toastId: CONTINUING_TOAST_ID,
+    autoClose: CONTINUING_TOAST_AUTO_CLOSE_MS,
+    hideProgressBar: true,
+  })
+  return message
 }

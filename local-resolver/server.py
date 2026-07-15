@@ -9,7 +9,8 @@ from lyrics_word_tools import (
     lookup_thesaurus,
 )
 from image_search import image_search_available, search_images
-from notation_fetch import search_notation
+from notation_fetch import search_notation, search_notation_url
+from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
 from playback_region_detect import (
     PLAYBACK_SCAN_WHISPER_OPTIONS,
     detect_playback_region_from_wav,
@@ -59,11 +60,12 @@ ALLOWED_ORIGINS = [
     if origin.strip()
 ]
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "")
+GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "").strip()
+AUTH_SESSION_SECRET = os.getenv("AUTH_SESSION_SECRET", "").strip()
 REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "false").lower() in ("1", "true", "yes")
 YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
 MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
-MAX_MIDI_IMPORT_BYTES = int(os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024)))
 MAX_ABC_IMPORT_BYTES = int(os.getenv("MAX_ABC_IMPORT_BYTES", str(512 * 1024)))
 MAX_SHEET_IMAGE_BYTES = int(os.getenv("MAX_SHEET_IMAGE_BYTES", str(20 * 1024 * 1024)))
 SHEET_IMAGE_ENABLED = os.getenv("SHEET_IMAGE_ENABLED", "true").strip().lower() not in {"0", "false", "no"}
@@ -157,7 +159,7 @@ def cors_headers(origin):
     return {
         "Access-Control-Allow-Origin": allow_origin,
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Authorization, Content-Type, Range",
+        "Access-Control-Allow-Headers": "Authorization, Content-Type, Range, X-Abc-Auth-Session",
         "Access-Control-Expose-Headers": "Content-Length, Content-Range, Accept-Ranges, Content-Type",
     }
 
@@ -179,11 +181,48 @@ def static_site_enabled():
     return os.path.isfile(os.path.join(root, "index.html"))
 
 
+_SENSITIVE_STATIC_DIR_PREFIXES = (
+    ".git/",
+    "local-resolver/",
+    "node_modules/",
+    ".cursor/",
+    ".github/",
+)
+_SENSITIVE_STATIC_BASENAME_PREFIXES = (".env",)
+_SENSITIVE_STATIC_BASENAMES = {
+    ".env",
+    ".git",
+    "credentials.json",
+    "client_secret.json",
+    "service-account.json",
+}
+
+
+def is_sensitive_static_path(relative_path):
+    """Refuse to serve secrets/source that live next to the built SPA."""
+    path = (relative_path or "").lstrip("/").replace("\\", "/")
+    if not path or path in {".", "./"}:
+        return False
+    lowered = path.lower()
+    for prefix in _SENSITIVE_STATIC_DIR_PREFIXES:
+        if lowered == prefix.rstrip("/") or lowered.startswith(prefix):
+            return True
+    base = os.path.basename(lowered)
+    if base in _SENSITIVE_STATIC_BASENAMES:
+        return True
+    for prefix in _SENSITIVE_STATIC_BASENAME_PREFIXES:
+        if base.startswith(prefix):
+            return True
+    return False
+
+
 def resolve_static_file(relative_path):
     root = static_site_root()
     relative_path = (relative_path or "").lstrip("/")
     if not relative_path:
         relative_path = "index.html"
+    if is_sensitive_static_path(relative_path):
+        return None
     candidate = os.path.normpath(os.path.join(root, relative_path))
     root_prefix = root + os.sep
     if candidate != root and not candidate.startswith(root_prefix):
@@ -334,6 +373,17 @@ async def _refresh_llm_health_if_stale():
     return await _probe_llm_available()
 
 
+def oauth_bff_available():
+    try:
+        from oauth_bff import oauth_bff_configured
+
+        return bool(oauth_bff_configured())
+    except Exception:
+        # Do not advertise oauthBff when the module is missing/unloadable —
+        # env vars alone cannot serve /auth/google/*.
+        return False
+
+
 def resolver_features():
     features = sheet_image_features()
     playwright_ok = False
@@ -354,10 +404,15 @@ def resolver_features():
         "sheetImageOmr": bool(features.get("omr")),
         "imageSearch": image_search_available(),
         "playwright": playwright_ok,
+        "oauthBff": oauth_bff_available(),
     }
 
 
-def require_resolver_feature(feature_name):
+async def require_resolver_feature(feature_name):
+    # LLM health is cached; startup can race the llm container and leave a
+    # stale miss. Re-probe before gating LLM routes (not only /health/ready).
+    if feature_name == "llm":
+        await _refresh_llm_health_if_stale()
     features = resolver_features()
     if not features.get(feature_name):
         raise HTTPException(status_code=503, detail=f"{feature_name} is not available on this resolver")
@@ -1868,10 +1923,14 @@ async def root(request: Request):
 @app.get("/health")
 async def health(request: Request, authorization: str | None = Header(default=None)):
     """Cheap liveness probe — must stay fast so static imports work under ML load."""
+    oauth_bff = oauth_bff_available()
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "staticSite": static_site_enabled(),
+        # Top-level so auth selection works without sending a full features map
+        # (a partial features object would zero-out media capabilities in the SPA).
+        "oauthBff": oauth_bff,
     }
     if REQUIRE_AUTH:
         token = get_bearer_token(authorization)
@@ -1895,12 +1954,14 @@ async def health(request: Request, authorization: str | None = Header(default=No
 async def health_ready(request: Request, authorization: str | None = Header(default=None)):
     """Deep readiness probe with feature detection and optional LLM check."""
     await _refresh_llm_health_if_stale()
+    features = resolver_features()
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "demucsModel": os.getenv("MELODY_DEMUCS_MODEL", "htdemucs"),
         "demucsStems": list(_demucs_stems_for_model()),
-        "features": resolver_features(),
+        "features": features,
+        "oauthBff": bool(features.get("oauthBff")),
         "staticSite": static_site_enabled(),
     }
     if REQUIRE_AUTH:
@@ -1921,6 +1982,92 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 
+@app.post("/auth/google/exchange")
+async def auth_google_exchange(request: Request):
+    origin = request.headers.get("origin")
+    try:
+        from oauth_bff import exchange_authorization_code
+    except Exception:
+        return json_error(503, "oauth_bff_unavailable", origin)
+
+    try:
+        body = await request.json()
+    except Exception:
+        return json_error(400, "Invalid JSON body", origin)
+
+    result = await exchange_authorization_code(
+        code=(body or {}).get("code") or "",
+        code_verifier=(body or {}).get("code_verifier") or "",
+        redirect_uri=(body or {}).get("redirect_uri") or "",
+        allowed_emails=ALLOWED_EMAILS,
+    )
+    if result.get("error"):
+        status = int(result.get("status") or 400)
+        err_body = {"error": result["error"]}
+        if result.get("hint"):
+            err_body["hint"] = result["hint"]
+        if result.get("detail"):
+            err_body["detail"] = result["detail"]
+        return JSONResponse(status_code=status, content=err_body, headers=cors_headers(origin))
+    return JSONResponse(content=result, headers=cors_headers(origin))
+
+
+@app.post("/auth/google/refresh")
+async def auth_google_refresh(request: Request):
+    origin = request.headers.get("origin")
+    from oauth_bff import refresh_access_token, session_id_from_headers
+
+    session_id = session_id_from_headers(request.headers)
+    if not session_id:
+        return JSONResponse(
+            status_code=401,
+            content={"error": "missing_session"},
+            headers=cors_headers(origin),
+        )
+    result = await refresh_access_token(session_id)
+    if result.get("error"):
+        status = int(result.get("status") or 401)
+        return JSONResponse(
+            status_code=status,
+            content={"error": result["error"], "detail": result.get("detail")},
+            headers=cors_headers(origin),
+        )
+    return JSONResponse(content=result, headers=cors_headers(origin))
+
+
+@app.get("/auth/google/session")
+async def auth_google_session(request: Request):
+    origin = request.headers.get("origin")
+    from oauth_bff import load_session_with_token, session_id_from_headers
+
+    session_id = session_id_from_headers(request.headers)
+    if not session_id:
+        return JSONResponse(
+            status_code=401,
+            content={"error": "missing_session"},
+            headers=cors_headers(origin),
+        )
+    result = await load_session_with_token(session_id)
+    if result.get("error"):
+        status = int(result.get("status") or 401)
+        return JSONResponse(
+            status_code=status,
+            content={"error": result["error"], "detail": result.get("detail")},
+            headers=cors_headers(origin),
+        )
+    return JSONResponse(content=result, headers=cors_headers(origin))
+
+
+@app.post("/auth/google/logout")
+async def auth_google_logout(request: Request):
+    origin = request.headers.get("origin")
+    from oauth_bff import logout_session, session_id_from_headers
+
+    session_id = session_id_from_headers(request.headers)
+    result = await logout_session(session_id)
+    return JSONResponse(content=result, headers=cors_headers(origin))
+
+
 @app.get("/proxy-audio")
 async def proxy_audio(
     request: Request,
@@ -1930,7 +2077,7 @@ async def proxy_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("proxy")
+        await require_resolver_feature("proxy")
         track_resolver_usage('proxy-audio')
         validated, error = validate_target_url(url)
         if error:
@@ -1951,7 +2098,7 @@ async def youtube_audio(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("proxy")
+        await require_resolver_feature("proxy")
         track_resolver_usage('youtube-audio')
         response, error = await stream_youtube_via_ytdlp(video_id)
         if error:
@@ -2123,7 +2270,7 @@ async def analyze_practice(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("practiceAnalysis")
+        await require_resolver_feature("practiceAnalysis")
         track_resolver_usage("analyze-practice")
 
         if file is None:
@@ -2160,7 +2307,7 @@ async def transcribe(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("whisper")
+        await require_resolver_feature("whisper")
         track_resolver_usage('transcribe')
 
         audio_bytes = b""
@@ -2314,7 +2461,7 @@ async def detect_playback_region_endpoint(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("whisper")
+        await require_resolver_feature("whisper")
         track_resolver_usage("detect-playback-region")
 
         audio_bytes, filename, _content_type, _processing = await _resolve_audio_payload(
@@ -2429,7 +2576,7 @@ async def voice_command_endpoint(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("whisper")
+        await require_resolver_feature("whisper")
         track_resolver_usage("voice-command")
 
         audio_bytes = await file.read()
@@ -2471,7 +2618,7 @@ async def help_query_endpoint(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("llm")
+        await require_resolver_feature("llm")
         track_resolver_usage("help-query")
 
         payload = await request.json()
@@ -2760,6 +2907,7 @@ async def search_notation_endpoint(
         title = str(payload.get("title") or "").strip()
         artist = str(payload.get("artist") or "").strip()
         song_type = str(payload.get("songType") or "instrumental").strip()
+        page_url = str(payload.get("url") or "").strip()
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -2778,12 +2926,18 @@ async def search_notation_endpoint(
 
                 async def run():
                     try:
-                        body = await search_notation(
-                            title,
-                            artist,
-                            song_type=song_type,
-                            on_progress=on_progress,
-                        )
+                        if page_url:
+                            body = await search_notation_url(
+                                page_url,
+                                on_progress=on_progress,
+                            )
+                        else:
+                            body = await search_notation(
+                                title,
+                                artist,
+                                song_type=song_type,
+                                on_progress=on_progress,
+                            )
                         await queue.put({"type": "result", "body": body})
                     except ValueError as exc:
                         await queue.put({
@@ -2820,7 +2974,10 @@ async def search_notation_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        body = await search_notation(title, artist, song_type=song_type)
+        if page_url:
+            body = await search_notation_url(page_url)
+        else:
+            body = await search_notation(title, artist, song_type=song_type)
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -2917,7 +3074,7 @@ async def research_tune_background_endpoint(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("llm")
+        await require_resolver_feature("llm")
         track_resolver_usage('research-tune-background')
 
         payload = await request.json()
@@ -3275,16 +3432,6 @@ async def convert_abc_to_musicxml(abc_text: str) -> str:
     return await asyncio.to_thread(_convert)
 
 
-async def convert_midi_to_musicxml(midi_bytes: bytes, filename: str) -> str:
-    def _convert():
-        from music21 import converter
-
-        score = converter.parseData(midi_bytes, quarterLengthDivisors=(4, 6))
-        return _write_score_to_musicxml(score)
-
-    return await asyncio.to_thread(_convert)
-
-
 @app.post("/separate-stems")
 async def separate_stems(
     request: Request,
@@ -3294,7 +3441,7 @@ async def separate_stems(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("stems")
+        await require_resolver_feature("stems")
         track_resolver_usage('separate-stems')
 
         if file is not None:
@@ -3425,6 +3572,45 @@ async def _run_transcribe_sheet_image(
     on_progress: Callable[[dict[str, Any]], None] | None = None,
     title_hints: list[str] | None = None,
 ) -> dict:
+    def _cli_failure_message(stderr_text: str, stdout_text: str) -> str:
+        import json
+        import re
+
+        ansi_re = re.compile(r"\x1b\[[0-9;]*m")
+        structured_message = ""
+        plain_message = ""
+        for line in (stderr_text or "").splitlines():
+            cleaned = ansi_re.sub("", line).strip()
+            if not cleaned:
+                continue
+            if cleaned.startswith("{"):
+                try:
+                    event = json.loads(cleaned)
+                except json.JSONDecodeError:
+                    continue
+                if event.get("type") == "error" and event.get("message"):
+                    structured_message = str(event.get("message") or "").strip()
+                continue
+            # Prefer structured error events; fall back to the last plain stderr line
+            # (skip traceback noise like "Traceback (most recent call last):").
+            if cleaned.startswith("Traceback ") or cleaned.startswith("File ") or cleaned.startswith("  "):
+                continue
+            if cleaned.startswith("Creating model:") or cleaned.startswith("Model files already"):
+                continue
+            if cleaned.startswith("Connectivity check") or cleaned.startswith("/opt/vision-venv"):
+                continue
+            if "UserWarning:" in cleaned or "warnings.warn" in cleaned:
+                continue
+            plain_message = cleaned
+        error_message = structured_message or plain_message
+        if error_message:
+            return error_message[:500]
+        for line in reversed((stdout_text or "").splitlines()):
+            cleaned = ansi_re.sub("", line).strip()
+            if cleaned and not cleaned.startswith("{"):
+                return cleaned[:500]
+        return "sheet image transcription failed"
+
     def _run():
         import json
         import subprocess
@@ -3449,12 +3635,15 @@ async def _run_transcribe_sheet_image(
                     env=env,
                 )
 
+                stderr_chunks: list[str] = []
+
                 def _read_stderr() -> None:
-                    if proc.stderr is None or not on_progress:
+                    if proc.stderr is None:
                         return
                     for line in proc.stderr:
+                        stderr_chunks.append(line)
                         cleaned = line.strip()
-                        if not cleaned.startswith("{"):
+                        if not on_progress or not cleaned.startswith("{"):
                             continue
                         try:
                             event = json.loads(cleaned)
@@ -3466,17 +3655,23 @@ async def _run_transcribe_sheet_image(
                 stderr_thread = threading.Thread(target=_read_stderr, daemon=True)
                 stderr_thread.start()
                 try:
-                    stdout, stderr = proc.communicate(
-                        timeout=float(os.getenv("SHEET_IMAGE_TIMEOUT_SECONDS", "900")),
-                    )
+                    # Do not call communicate() while a thread drains stderr — it races
+                    # and can drop the final structured error JSON into an ignored buffer.
+                    assert proc.stdout is not None
+                    stdout = proc.stdout.read()
+                    proc.wait(timeout=float(os.getenv("SHEET_IMAGE_TIMEOUT_SECONDS", "900")))
                 except subprocess.TimeoutExpired:
                     proc.kill()
-                    proc.communicate()
+                    try:
+                        if proc.stdout is not None:
+                            proc.stdout.read()
+                    except Exception:
+                        pass
                     raise RuntimeError("sheet image transcription timeout")
-                stderr_thread.join(timeout=1.0)
+                stderr_thread.join(timeout=5.0)
+                stderr_text = "".join(stderr_chunks)
                 if proc.returncode != 0:
-                    detail = (stderr or stdout or "sheet image transcription failed").strip()
-                    raise RuntimeError(detail[:500])
+                    raise RuntimeError(_cli_failure_message(stderr_text, stdout or ""))
                 return json.loads(stdout)
 
         from sheet_image_transcribe import transcribe_sheet_image_sync
@@ -3552,7 +3747,7 @@ async def transcribe_sheet_image(
     origin = request.headers.get("origin")
     try:
         await maybe_require_auth(authorization)
-        require_resolver_feature("sheetImage")
+        await require_resolver_feature("sheetImage")
         track_resolver_usage("transcribe-sheet-image")
 
         if file is None:

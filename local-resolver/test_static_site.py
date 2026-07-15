@@ -22,18 +22,21 @@ class StaticSiteTests(unittest.TestCase):
                 self.assertEqual(server.resolve_static_file(""), index_path)
                 self.assertEqual(server.resolve_static_file("index.html"), index_path)
 
-    def test_static_site_enabled_auto_requires_index(self):
+    def test_resolve_static_file_blocks_sensitive_paths(self):
         with tempfile.TemporaryDirectory() as tmp:
-            with patch.object(server, "STATIC_SITE_DIR", tmp), patch.object(
-                server, "STATIC_SITE_ENABLED", "auto"
-            ):
-                self.assertFalse(server.static_site_enabled())
-            with open(os.path.join(tmp, "index.html"), "w", encoding="utf-8") as handle:
-                handle.write("<html></html>")
-            with patch.object(server, "STATIC_SITE_DIR", tmp), patch.object(
-                server, "STATIC_SITE_ENABLED", "auto"
-            ):
-                self.assertTrue(server.static_site_enabled())
+            env_path = os.path.join(tmp, ".env")
+            with open(env_path, "w", encoding="utf-8") as handle:
+                handle.write("SECRET=1\n")
+            nested = os.path.join(tmp, "local-resolver")
+            os.makedirs(nested)
+            secret_path = os.path.join(nested, "secrets.txt")
+            with open(secret_path, "w", encoding="utf-8") as handle:
+                handle.write("nope\n")
+            with patch.object(server, "STATIC_SITE_DIR", tmp):
+                self.assertIsNone(server.resolve_static_file(".env"))
+                self.assertIsNone(server.resolve_static_file("local-resolver/secrets.txt"))
+                self.assertTrue(server.is_sensitive_static_path(".env.local"))
+                self.assertTrue(server.is_sensitive_static_path(".git/config"))
 
 
 if __name__ == "__main__":

@@ -3,6 +3,8 @@ import {
 } from './mediaProxyConfig';
 import { trackResolverRequest } from './analytics';
 import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
+import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClient';
+import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
 
 let activeProxyBase = null;
 
@@ -144,6 +146,7 @@ function unreachableHealthResult(base) {
     requireAuth: false,
     authReason: '',
     mixedContent: isMixedContentBlocked(base),
+    oauthBff: false,
   };
 }
 
@@ -174,6 +177,7 @@ async function tryHealthAtBase(base, accessToken) {
         requireAuth: false,
         authReason: '',
         mixedContent: false,
+        oauthBff: false,
       };
     }
 
@@ -186,6 +190,7 @@ async function tryHealthAtBase(base, accessToken) {
         requireAuth: false,
         authReason: '',
         mixedContent: false,
+        oauthBff: false,
       };
     }
 
@@ -198,6 +203,7 @@ async function tryHealthAtBase(base, accessToken) {
         requireAuth: false,
         authReason: '',
         mixedContent: false,
+        oauthBff: false,
       };
     }
 
@@ -214,6 +220,10 @@ async function tryHealthAtBase(base, accessToken) {
       }
     }
 
+    const features = parseResolverFeaturesFromHealthBody(body);
+    const oauthBff = body.oauthBff === true || features.oauthBff === true;
+    if (oauthBff) features.oauthBff = true;
+
     return {
       base: base,
       reachable: true,
@@ -223,7 +233,8 @@ async function tryHealthAtBase(base, accessToken) {
       mixedContent: false,
       demucsModel: typeof body.demucsModel === 'string' ? body.demucsModel : 'htdemucs',
       demucsStems: Array.isArray(body.demucsStems) ? body.demucsStems : null,
-      features: parseResolverFeaturesFromHealthBody(body),
+      features: features,
+      oauthBff: oauthBff,
     };
   } catch (e) {
     return {
@@ -233,6 +244,7 @@ async function tryHealthAtBase(base, accessToken) {
       requireAuth: false,
       authReason: '',
       mixedContent: isMixedContentBlocked(base),
+      oauthBff: false,
     };
   }
 }
@@ -285,9 +297,13 @@ export async function probeMediaResolverCandidates(accessToken) {
   }
 
   activeProxyBase = activeBase;
+  const preferredAuthBase = pickAuthResolverBase(candidates);
+  const authBase = resolveStickyAuthBase(candidates, null);
   return {
     available: !!activeBase,
     activeBase: activeBase,
+    authBase: authBase,
+    preferredAuthBase: preferredAuthBase,
     candidates: candidates,
     // Surface the active resolver's Demucs model/stems so the UI can show the
     // correct stem sliders (eg. guitar/piano for htdemucs_6s). Without this the
@@ -319,58 +335,81 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
     throw new Error('Media proxy not configured');
   }
 
-  let lastError = null;
-  for (let i = 0; i < bases.length; i++) {
-    const proxyBase = bases[i];
-    const url = proxyBase + pathAndQuery;
-    try {
-      const mergedHeaders = Object.assign(
-        {},
-        buildAuthHeaders(accessToken),
-        requestOptions.headers || {}
-      );
-      const response = await fetch(url, {
-        ...requestOptions,
-        headers: mergedHeaders,
-      });
-      if (response.ok) {
-        activeProxyBase = proxyBase;
-        trackResolverRequest(resolverEndpointForPath(pathAndQuery));
-        return response;
-      }
-      let detail = '';
-      let hint = '';
+  let tokenForRequest = accessToken;
+  let didAuthRetry = false;
+
+  async function attemptAllBases() {
+    let lastError = null;
+    for (let i = 0; i < bases.length; i++) {
+      const proxyBase = bases[i];
+      const url = proxyBase + pathAndQuery;
       try {
-        const body = await response.json();
-        detail = body.error || '';
-        hint = body.hint || '';
-      } catch (e) {}
-      const proxyError = new Error(
-        'Media proxy error ' + response.status
-        + (detail ? ': ' + detail : '')
-        + (hint ? ' (' + hint + ')' : '')
-      );
-      if ((response.status === 401 || response.status === 403 || response.status === 404 || response.status === 405) && i < bases.length - 1) {
-        lastError = proxyError;
-        activeProxyBase = null;
-        continue;
-      }
-      throw proxyError;
-    } catch (error) {
-      lastError = error;
-      if (error && error.message && error.message.indexOf('Media proxy error') === 0) {
-        if (error.message.indexOf('Media proxy error 401') === 0
-          || error.message.indexOf('Media proxy error 403') === 0
-          || error.message.indexOf('Media proxy error 405') === 0) {
-          activeProxyBase = null;
-          if (i < bases.length - 1) continue;
+        const mergedHeaders = Object.assign(
+          {},
+          buildAuthHeaders(tokenForRequest),
+          requestOptions.headers || {}
+        );
+        const response = await fetch(url, {
+          ...requestOptions,
+          headers: mergedHeaders,
+        });
+        if (response.ok) {
+          activeProxyBase = proxyBase;
+          trackResolverRequest(resolverEndpointForPath(pathAndQuery));
+          return response;
         }
-        throw error;
+        let detail = '';
+        let hint = '';
+        try {
+          const body = await response.json();
+          detail = body.error || '';
+          hint = body.hint || '';
+        } catch (e) {}
+        const proxyError = new Error(
+          'Media proxy error ' + response.status
+          + (detail ? ': ' + detail : '')
+          + (hint ? ' (' + hint + ')' : '')
+        );
+        proxyError.status = response.status;
+        if ((response.status === 401 || response.status === 403 || response.status === 404 || response.status === 405) && i < bases.length - 1) {
+          lastError = proxyError;
+          activeProxyBase = null;
+          continue;
+        }
+        throw proxyError;
+      } catch (error) {
+        lastError = error;
+        if (error && error.message && error.message.indexOf('Media proxy error') === 0) {
+          if (error.message.indexOf('Media proxy error 401') === 0
+            || error.message.indexOf('Media proxy error 403') === 0
+            || error.message.indexOf('Media proxy error 405') === 0) {
+            activeProxyBase = null;
+            if (i < bases.length - 1) continue;
+          }
+          throw error;
+        }
       }
     }
+    wrapFetchError(lastError || new Error('fetch failed'), bases);
   }
 
-  wrapFetchError(lastError || new Error('fetch failed'), bases);
+  try {
+    return await attemptAllBases();
+  } catch (error) {
+    const is401 = error && (
+      error.status === 401
+      || (error.message && error.message.indexOf('Media proxy error 401') === 0)
+    );
+    if (is401 && !didAuthRetry) {
+      didAuthRetry = true;
+      const refreshed = await tryRefreshAccessToken();
+      if (refreshed && refreshed.access_token) {
+        tokenForRequest = refreshed.access_token;
+        return attemptAllBases();
+      }
+    }
+    throw error;
+  }
 }
 
 async function tryDirectFetch(url) {
@@ -407,7 +446,9 @@ export async function fetchDirectOrProxy(options) {
       }
     }
 
-    throw new Error('Could not resolve YouTube audio stream (configure REACT_APP_MEDIA_PROXY_BASE and start local-resolver)');
+    throw new Error(
+      'Could not resolve YouTube audio stream (install the YouTube Helper extension, or configure a media resolver)'
+    );
   }
 
   const directResponse = await tryDirectFetch(src);

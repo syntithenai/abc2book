@@ -43,6 +43,8 @@ export default function useMediaResolverHealth() {
     available: health.available,
     checked: health.checked,
     status: health.status,
+    authBase: health.authBase || '',
+    authBaseChecked: !!health.authBaseChecked,
     features: getResolverFeaturesFromStatus(health.status),
     refreshMediaResolverHealth,
   };

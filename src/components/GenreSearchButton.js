@@ -22,7 +22,6 @@ export default function GenreSearchButton({
   inline,
 }) {
   const [error, setError] = useState('')
-  const [source, setSource] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
   const searchModeRef = useRef('auto')
@@ -33,7 +32,6 @@ export default function GenreSearchButton({
     if (typeof onGenre === 'function' && result && result.genre) {
       onGenre(result.genre)
     }
-    setSource(result && result.source ? result.source : '')
   }
   applyRef.current = finishApply
 
@@ -78,7 +76,6 @@ export default function GenreSearchButton({
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
-    setSource('')
     setShowPicker(false)
     setPickerCandidates([])
     lookup.startSearch({
@@ -113,9 +110,6 @@ export default function GenreSearchButton({
         defaultMessage="Suggesting genre..."
       />
       {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-      {source && !error ? (
-        <Alert variant="success" className="mt-2 mb-0">Genre from {source}</Alert>
-      ) : null}
       <SearchResultPickerModal
         show={showPicker}
         title="Choose genre"

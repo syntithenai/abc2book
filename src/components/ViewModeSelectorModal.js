@@ -169,6 +169,7 @@ function DisplayModeToolbar(props) {
     className,
     hideInlineVoiceControls,
     separateInlineFitButton,
+    fileControls,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
@@ -185,6 +186,7 @@ function DisplayModeToolbar(props) {
         tunebook={tunebook}
         onChange={onFlagsChange}
       />
+      {fileControls || null}
       {notationOn && !hideInlineVoiceControls ? (
         <ViewModeVoiceControls
           inline
@@ -310,6 +312,7 @@ export default function ViewModeSelectorModal(props) {
           onNotationFitModeChange={props.onNotationFitModeChange}
           hideInlineVoiceControls={props.hideInlineVoiceControls}
           separateInlineFitButton={separateInlineFitButton}
+          fileControls={props.fileControls}
         />
         {showSeparateInlineFitButton ? (
           <NotationFitButton
@@ -381,6 +384,18 @@ export default function ViewModeSelectorModal(props) {
               onChange={handleFlagsChange}
               stopMenuClose={true}
             />
+            {props.fileControls ? (
+              <>
+                <Dropdown.Divider />
+                <div
+                  className="view-mode-file-controls px-1 py-1"
+                  onClick={function(e) { e.stopPropagation(); }}
+                  onMouseDown={function(e) { e.stopPropagation(); }}
+                >
+                  {props.fileControls}
+                </div>
+              </>
+            ) : null}
             {displayFlags.notation !== 'off' && getTuneVoiceKeys(props.tune).length > 1 ? (
               <>
                 <Dropdown.Divider />

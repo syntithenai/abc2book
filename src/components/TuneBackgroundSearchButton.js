@@ -75,7 +75,6 @@ export default function TuneBackgroundSearchButton({
   const narrow = useIsNarrowViewport();
   const queue = useBulkBackgroundResearchQueue();
   const [error, setError] = useState('');
-  const [source, setSource] = useState('');
   const [showConfirm, setShowConfirm] = useState(false);
   const [showReviewAccept, setShowReviewAccept] = useState(false);
   const [pendingReviewText, setPendingReviewText] = useState('');
@@ -132,7 +131,6 @@ export default function TuneBackgroundSearchButton({
     if (awaitingJob && awaitingJob.resultText) {
       setPendingReviewText(awaitingJob.resultText);
       setShowReviewAccept(true);
-      setSource(formatResultSource(awaitingJob.resultMeta) || 'ready');
     }
   }, [awaitingJob]);
 
@@ -149,7 +147,6 @@ export default function TuneBackgroundSearchButton({
 
     if (terminal.status === 'cancelled') {
       setError('');
-      setSource('');
       return;
     }
 
@@ -160,12 +157,10 @@ export default function TuneBackgroundSearchButton({
         refreshMediaResolverHealth();
       }
       setError(message);
-      setSource('');
       return;
     }
 
     setError('');
-    setSource(formatResultSource(terminal.resultMeta) || 'saved');
     if (typeof onBackgroundInfo === 'function' && terminal.resultText) {
       onBackgroundInfo({ text: terminal.resultText });
     }
@@ -217,7 +212,6 @@ export default function TuneBackgroundSearchButton({
     if (!title || !tuneId) return;
     setShowConfirm(false);
     setError('');
-    setSource('');
     setGenreSuggestion(null);
     setShowReviewAccept(false);
     setPendingReviewText('');
@@ -252,7 +246,6 @@ export default function TuneBackgroundSearchButton({
     }
     setShowReviewAccept(false);
     setPendingReviewText('');
-    setSource('accepted');
   }
 
   function dismissReviewResult() {
@@ -301,11 +294,6 @@ export default function TuneBackgroundSearchButton({
           <div style={{ marginTop: '0.5em' }}>
             <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
           </div>
-        </Alert>
-      )}
-      {source && !error && !showReviewAccept && (
-        <Alert variant="success" style={{ marginTop: '0.75em', clear: 'both' }}>
-          Background imported ({source})
         </Alert>
       )}
 

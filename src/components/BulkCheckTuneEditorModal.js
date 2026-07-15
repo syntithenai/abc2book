@@ -142,7 +142,9 @@ export default function BulkCheckTuneEditorModal(props) {
                       tuneId={props.tune && props.tune.id}
                       kind="composer"
                       fallbackTitle={draft.name || ''}
-                      onApply={function(candidate) {
+                      currentValue={draft.composer || ''}
+                      onApply={function(candidate, _job, meta) {
+                        if (meta && (meta.deferred || meta.keepCurrent)) return
                         if (candidate && candidate.artist) updateDraft({ composer: candidate.artist })
                       }}
                     />

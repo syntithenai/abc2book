@@ -16,6 +16,14 @@ import {
   moveCaret,
   removeSelection,
   addToneToEvent,
+  applyAccidentalToSelection,
+  replaceSelectionPitch,
+  staffStepsFromPointerDelta,
+  resolveDragStaffSteps,
+  resolveEditTargetIds,
+  selectEventRange,
+  toggleSelectionEventId,
+  selectMeasureContaining,
 } from './notationActions';
 import { DURATION_KEY_MULTIPLIERS } from './notationConstants';
 import { serializeVoiceEvents } from './abcVoiceSerializer';
@@ -137,6 +145,32 @@ describe('notationActions', function() {
     expect(after.map(function(ev) { return ev.pitch.step; })).toEqual(['C', 'D', 'F']);
   });
 
+  test('deleteSelectionToRest removes selected barline instead of converting to rest', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const bar = session.events.find(function(ev) { return ev.type === 'barline'; });
+    expect(bar).toBeTruthy();
+    session = Object.assign({}, session, {
+      caretIndex: session.events.indexOf(bar),
+      selection: { eventIds: [bar.id], toneIndex: null, anchorId: bar.id },
+    });
+    session = deleteSelectionToRest(session, { backward: false });
+    expect(session.events.some(function(ev) { return ev.type === 'barline'; })).toBe(false);
+    expect(session.events.some(function(ev) { return ev.type === 'rest'; })).toBe(false);
+    expect(session.events.filter(function(ev) { return ev.type === 'note'; }).length).toBe(4);
+  });
+
+  test('deleteSelectionToRest Backspace removes barline before caret', function() {
+    let session = createInitialSession(tuneMeta, 'C D | E F');
+    const barIdx = session.events.findIndex(function(ev) { return ev.type === 'barline'; });
+    expect(barIdx).toBeGreaterThanOrEqual(0);
+    session = Object.assign({}, session, {
+      caretIndex: barIdx + 1,
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+    session = deleteSelectionToRest(session, { backward: true });
+    expect(session.events.some(function(ev) { return ev.type === 'barline'; })).toBe(false);
+  });
+
   test('transposeSelection chromatic +1 on C yields C#', function() {
     let session = createInitialSession(tuneMeta, 'C D |');
     const cId = session.events[0].id;
@@ -145,7 +179,7 @@ describe('notationActions', function() {
     });
     session = transposeSelection(session, 1, null);
     expect(pitchToMidi(session.events[0].pitch)).toBe(61);
-    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/\^c/);
+    expect(serializeVoiceEvents(session.events, tuneMeta)).toMatch(/\^C/);
   });
 
   test('transposeSelection +1 on B4 crosses to C5', function() {
@@ -156,7 +190,7 @@ describe('notationActions', function() {
       selection: { eventIds: [bId], toneIndex: null, anchorId: bId },
     });
     session = transposeSelection(session, 1, null);
-    expect(pitchToMidi(session.events[0].pitch)).toBe(60);
+    expect(pitchToMidi(session.events[0].pitch)).toBe(72);
     expect(session.events[0].pitch.step).toBe('C');
   });
 
@@ -288,5 +322,144 @@ describe('notationActions', function() {
     session = addToneToEvent(session, 0, ePitch);
     expect(session.events[0].type).toBe('chord');
     expect(session.events[0].pitches.map(function(p) { return p.step; }).sort().join('')).toBe('CE');
+  });
+
+  test('applyAccidentalToSelection sharpens selected D', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const dId = session.events[1].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [dId], toneIndex: null, anchorId: dId },
+    });
+    session = applyAccidentalToSelection(session, 1);
+    expect(session.events[1].pitch.accidental).toBe(1);
+    expect(String(session.events[1].pitch.abcName)).toMatch(/\^/);
+    expect(session.events[0].pitch.accidental).toBe(0);
+    expect(session.accidentalCarry).toBeNull();
+  });
+
+  test('applyAccidentalToSelection returns null without selection', function() {
+    const session = createInitialSession(tuneMeta, 'C D |');
+    expect(applyAccidentalToSelection(session, 1)).toBeNull();
+  });
+
+  test('replaceSelectionPitch changes selected note letter', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const dId = session.events[1].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [dId], toneIndex: null, anchorId: dId },
+    });
+    const aPitch = pitchFromLetter('A', session);
+    session = replaceSelectionPitch(session, aPitch);
+    expect(session.events[1].pitch.step).toBe('A');
+    expect(session.events[0].pitch.step).toBe('C');
+    expect(session.events[2].pitch.step).toBe('E');
+  });
+
+  test('staffStepsFromPointerDelta clamps inflated steps', function() {
+    expect(staffStepsFromPointerDelta(-28, 14, 8)).toBe(-2);
+    expect(staffStepsFromPointerDelta(14, 14, 8)).toBe(1);
+    expect(staffStepsFromPointerDelta(-500, 14, 8)).toBe(-8);
+    expect(staffStepsFromPointerDelta(500, 14, 8)).toBe(8);
+    expect(staffStepsFromPointerDelta(0, 14, 8)).toBe(0);
+  });
+
+  test('resolveDragStaffSteps prefers pointer over inflated abcjs step', function() {
+    // Hybrid used to pick |abcStep| when same sign → -8 leap; pointer-only keeps -2.
+    expect(resolveDragStaffSteps({
+      pointerDeltaY: -28,
+      stepPx: 14,
+      clampAbs: 4,
+      abcStep: -8,
+    })).toBe(-2);
+    expect(resolveDragStaffSteps({
+      pointerDeltaY: -70,
+      stepPx: 14,
+      clampAbs: 4,
+      abcStep: -12,
+    })).toBe(-4);
+    expect(resolveDragStaffSteps({
+      pointerDeltaY: -2,
+      stepPx: 14,
+      clampAbs: 4,
+      abcStep: -8,
+    })).toBe(0);
+  });
+
+  test('resolveEditTargetIds drops stale ids and retargets by caret', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const liveD = session.events[1].id;
+    const stale = Object.assign({}, session, {
+      caretIndex: 1,
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+    const resolved = resolveEditTargetIds(stale, {
+      eventIds: ['dead-id-from-before-LOAD_VOICE'],
+      toneIndex: null,
+      anchorId: 'dead-id-from-before-LOAD_VOICE',
+    });
+    expect(resolved).not.toBeNull();
+    expect(resolved.eventIds).toEqual([liveD]);
+    expect(resolved.anchorId).toBe(liveD);
+  });
+
+  test('resolveEditTargetIds keeps live selection ids', function() {
+    let session = createInitialSession(tuneMeta, 'C D E |');
+    const dId = session.events[1].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [dId], toneIndex: null, anchorId: dId },
+    });
+    const resolved = resolveEditTargetIds(session, null);
+    expect(resolved.eventIds).toEqual([dId]);
+  });
+
+  test('selectEventRange returns contiguous ids inclusive', function() {
+    const session = createInitialSession(tuneMeta, 'C D E F |');
+    const ids = selectEventRange(session.events, session.events[0].id, session.events[3].id);
+    expect(ids).toEqual([
+      session.events[0].id,
+      session.events[1].id,
+      session.events[2].id,
+      session.events[3].id,
+    ]);
+  });
+
+  test('toggleSelectionEventId adds and removes', function() {
+    const session = createInitialSession(tuneMeta, 'C D E |');
+    const cId = session.events[0].id;
+    const dId = session.events[1].id;
+    let sel = { eventIds: [cId], toneIndex: null, anchorId: cId };
+    sel = toggleSelectionEventId(sel, dId);
+    expect(sel.eventIds).toEqual([cId, dId]);
+    expect(sel.anchorId).toBe(cId);
+    sel = toggleSelectionEventId(sel, cId);
+    expect(sel.eventIds).toEqual([dId]);
+    expect(sel.anchorId).toBe(dId);
+  });
+
+  test('selectMeasureContaining includes notes through trailing barline', function() {
+    const session = createInitialSession(tuneMeta, 'C D E F | G A |');
+    const eId = session.events.find(function(ev) {
+      return ev.type === 'note' && ev.pitch && ev.pitch.step === 'E';
+    }).id;
+    const ids = selectMeasureContaining(session.events, eId);
+    const selected = ids.map(function(id) {
+      return session.events.find(function(ev) { return ev.id === id; });
+    });
+    expect(selected.map(function(ev) {
+      if (ev.type === 'barline') return 'bar';
+      return ev.pitch.step;
+    })).toEqual(['C', 'D', 'E', 'F', 'bar']);
+  });
+
+  test('removeSelection clears multi-note selection', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const cId = session.events[0].id;
+    const dId = session.events[1].id;
+    session = Object.assign({}, session, {
+      selection: { eventIds: [cId, dId], toneIndex: null, anchorId: cId },
+    });
+    session = removeSelection(session);
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notes.map(function(ev) { return ev.pitch.step; })).toEqual(['E', 'F']);
   });
 });

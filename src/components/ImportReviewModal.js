@@ -4,6 +4,7 @@ import { addFromFileAcceptList } from '../importSourceParse';
 import {
   cancelCurrentCandidate,
   coalesceSessionCandidatesByMergeTarget,
+  createBlankAddCandidate,
   currentCandidate,
   isAddTunesChrome,
   isReviewComplete,
@@ -11,6 +12,7 @@ import {
   markAllCandidatesImported,
   mergeCandidate,
   navigateReviewCandidate,
+  removeAddDraftFromSession,
   sessionProgressLabel,
   updateCurrentCandidate,
 } from '../importReviewSession';
@@ -25,13 +27,13 @@ import {
   formValuesToTune,
   importSuggestionDiffersFromForm,
   importedNotationText,
+  tuneToFormValues,
 } from '../importReviewFieldUtils';
 import {
   fieldLookupJobIdsForCandidate,
   fieldLookupKindsForCandidate,
 } from '../importReviewCandidateUtils';
 import TuneRecordForm from './TuneRecordForm';
-import ImportFieldSuggestion from './ImportFieldSuggestion';
 import YouTubeSearchModal from './YouTubeSearchModal';
 import PasteImportModal from './PasteImportModal';
 import ImportUrlModal from './ImportUrlModal';
@@ -363,6 +365,44 @@ export default function ImportReviewModal(props) {
     const imported = enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
     const effectiveMergeId = targetMergeId != null ? targetMergeId : mergeTargetId;
     formDirtyRef.current = false;
+    const overrides = activeCandidate && activeCandidate.draftFormOverrides
+      && typeof activeCandidate.draftFormOverrides === 'object'
+      ? activeCandidate.draftFormOverrides
+      : null;
+    function applyDraftOverrides(formValues, suggestions) {
+      if (!overrides || !Object.keys(overrides).length) {
+        return { formValues: formValues, suggestions: suggestions };
+      }
+      const nextForm = Object.assign({}, formValues);
+      Object.keys(overrides).forEach(function(key) {
+        if (key === 'artists' || key === 'aliases') {
+          const base = Array.isArray(formValues[key]) ? formValues[key].slice() : [];
+          const add = Array.isArray(overrides[key]) ? overrides[key] : [];
+          add.forEach(function(item) {
+            const text = String(item || '').trim();
+            if (!text) return;
+            const lower = text.toLowerCase();
+            if (!base.some(function(existing) { return String(existing || '').trim().toLowerCase() === lower; })) {
+              base.push(text);
+            }
+          });
+          nextForm[key] = base;
+          return;
+        }
+        if (key === 'links') {
+          const base = Array.isArray(formValues.links) ? formValues.links.slice() : [];
+          const add = Array.isArray(overrides.links) ? overrides.links : [];
+          nextForm.links = base.concat(add);
+          return;
+        }
+        nextForm[key] = overrides[key];
+      });
+      const nextSuggestions = Object.assign({}, suggestions || {});
+      Object.keys(overrides).forEach(function(key) {
+        delete nextSuggestions[key];
+      });
+      return { formValues: nextForm, suggestions: nextSuggestions };
+    }
     if (effectiveMergeId && tunes[effectiveMergeId]) {
       const built = buildReviewFormState(tunes[effectiveMergeId], imported, 'merge');
       const withChoices = applyCoalescedFieldChoicesToSuggestions(
@@ -370,21 +410,24 @@ export default function ImportReviewModal(props) {
         activeCandidate && activeCandidate.fieldChoices,
         built.formValues
       );
-      setFormValues(built.formValues);
-      setSuggestions(withChoices);
+      const applied = applyDraftOverrides(built.formValues, withChoices);
+      setFormValues(applied.formValues);
+      setSuggestions(applied.suggestions);
       return;
     }
     const built = buildReviewFormState(null, imported, 'create');
-    setFormValues(built.formValues);
     // Inline ABC/chordsheet apply stores conflict suggestions on the candidate;
     // create-mode rebuild would otherwise drop them.
     const pending = activeCandidate && activeCandidate.pendingInlineSuggestions;
     const baseSuggestions = pending && typeof pending === 'object' ? pending : built.suggestions;
-    setSuggestions(applyCoalescedFieldChoicesToSuggestions(
+    const withChoices = applyCoalescedFieldChoicesToSuggestions(
       baseSuggestions,
       activeCandidate && activeCandidate.fieldChoices,
       built.formValues
-    ));
+    );
+    const applied = applyDraftOverrides(built.formValues, withChoices);
+    setFormValues(applied.formValues);
+    setSuggestions(applied.suggestions);
   }, [activeCandidate, enrichedImportedTune, mergeTargetId, tunes]);
 
   function patchFormValues(updater) {
@@ -508,11 +551,7 @@ export default function ImportReviewModal(props) {
     patchFormValues(function(current) {
       return applyImportSuggestion(current, formKey, suggestion);
     });
-    setSuggestions(function(current) {
-      const next = Object.assign({}, current);
-      delete next[formKey];
-      return next;
-    });
+    // Keep suggestion choices available for further selection until Import/Add.
   }
 
   function clearRecordingInterval() {
@@ -594,12 +633,9 @@ export default function ImportReviewModal(props) {
 
     if (isAddTunesChrome(session)) {
       const title = String(candidateTune.name || '').trim();
+      const composer = String(candidateTune.composer || '').trim();
       const books = Array.isArray(candidateTune.books) ? candidateTune.books : [];
-      const bookFromForm = String(formValues.bookList || '').split(',')[0] || '';
-      const hasBook = books.some(function(book) { return String(book || '').trim(); })
-        || String(bookFromForm).trim()
-        || String(props.currentTuneBook || '').trim();
-      if (!title || !hasBook) {
+      if (!title || !composer) {
         return;
       }
       if (!books.length && props.currentTuneBook) {
@@ -691,7 +727,55 @@ export default function ImportReviewModal(props) {
   function handleEnhanceClick() {
     if (!activeCandidate || activeCandidate.skipEnrich) return;
     if (typeof props.onEnhanceAndAdvance !== 'function') return;
+    if (isAddTunesChrome(session)) {
+      if (!String(formValues.title || '').trim() || !String(formValues.artist || '').trim()) return;
+    }
     props.onEnhanceAndAdvance(buildPersistedSession());
+  }
+
+  function handleCancelAdd() {
+    dismissCandidateFieldLookups(activeCandidate);
+    const next = removeAddDraftFromSession(buildPersistedSession());
+    if (!next) {
+      if (typeof props.onClose === 'function') props.onClose();
+      return;
+    }
+    if (typeof props.onSessionChange === 'function') props.onSessionChange(next);
+    if (typeof props.onContinueLater === 'function') {
+      props.onContinueLater();
+      return;
+    }
+    if (typeof props.onHide === 'function') props.onHide();
+  }
+
+  function applyYouTubeLinkToForm(link) {
+    if (!link || !link.link) return;
+    const youtubeLink = {
+      title: link.title || '',
+      link: link.link,
+      startAt: '',
+      endAt: '',
+    };
+    if (link.image) youtubeLink.image = link.image;
+    // Apply to the live form immediately. Session-only updates do not re-init the
+    // form (init keys off candidate id), and a pending dirty sync can otherwise
+    // leave the UI blank until reload.
+    if (formSyncTimerRef.current) {
+      clearTimeout(formSyncTimerRef.current);
+      formSyncTimerRef.current = null;
+    }
+    suppressFormInitRef.current = true;
+    patchFormValues(function(current) {
+      const existing = Array.isArray(current.links) ? current.links.slice() : [];
+      const nextLinks = [youtubeLink].concat(existing.filter(function(item) {
+        return !(item && item.link && String(item.link) === String(youtubeLink.link));
+      }));
+      const next = Object.assign({}, current, { links: nextLinks });
+      if (!String(current.title || '').trim() && link.title) {
+        next.title = String(link.title);
+      }
+      return next;
+    });
   }
 
   const youtubeSearchQuery = [formValues.title, formValues.artist].filter(Boolean).join(' ');
@@ -788,7 +872,10 @@ export default function ImportReviewModal(props) {
             tunebook={props.tunebook}
             value={youtubeSearchQuery}
             onChange={function(link) {
-              if (typeof props.onImportYouTube === 'function') props.onImportYouTube(link, buildDraftCandidate());
+              applyYouTubeLinkToForm(link);
+              if (typeof props.onImportYouTube === 'function') {
+                props.onImportYouTube(link, buildDraftCandidate());
+              }
             }}
             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             triggerElement={<>YouTube</>}
@@ -815,15 +902,12 @@ export default function ImportReviewModal(props) {
   const fieldLookupKinds = fieldLookupKindsForCandidate(activeCandidate);
   const fieldLookupKind = fieldLookupKinds[0] || null;
 
-  function applyFieldLookupResult(kind, result) {
+  function applyFieldLookupResult(kind, result, _job, meta) {
+    if (meta && meta.keepCurrent) return
+    if (!result) return
     if (kind === 'composer' && result && result.artist) {
       patchFormValues(function(current) {
         return Object.assign({}, current, { artist: result.artist });
-      });
-      setSuggestions(function(current) {
-        const next = Object.assign({}, current);
-        delete next.artist;
-        return next;
       });
       return;
     }
@@ -833,37 +917,32 @@ export default function ImportReviewModal(props) {
       patchFormValues(function(current) {
         return Object.assign({}, current, { lyrics: text });
       });
-      setSuggestions(function(current) {
-        const next = Object.assign({}, current);
-        delete next.lyrics;
-        return next;
-      });
       return;
     }
-    if (kind === 'notation' && result && result.abc && props.tunebook && props.tunebook.abcTools) {
-      const imported = props.tunebook.abcTools.abc2json(result.abc);
-      if (!imported) return;
+    if ((kind === 'notation' || kind === 'chords') && props.tunebook && props.tunebook.abcTools) {
+      const abc = String(
+        (result && result.abc)
+        || (result && result.chordProSource)
+        || (result && result.chordText)
+        || ''
+      ).trim();
+      if (!abc) return;
+      const imported = props.tunebook.abcTools.abc2json(abc);
+      if (!imported && kind === 'notation') return;
       patchFormValues(function(current) {
-        return Object.assign({}, current, {
-          voices: imported.voices || current.voices,
-          notes: Array.isArray(imported.notes) ? imported.notes.join('\n') : (current.notes || ''),
-        });
-      });
-      setSuggestions(function(current) {
-        const next = Object.assign({}, current);
-        delete next.notes;
-        return next;
+        if (imported) {
+          return Object.assign({}, current, {
+            voices: imported.voices || current.voices,
+            notes: Array.isArray(imported.notes) ? imported.notes.join('\n') : (current.notes || ''),
+          });
+        }
+        return Object.assign({}, current, { notes: abc });
       });
       return;
     }
     if (kind === 'genre' && result && result.genre) {
       patchFormValues(function(current) {
         return Object.assign({}, current, { genre: result.genre });
-      });
-      setSuggestions(function(current) {
-        const next = Object.assign({}, current);
-        delete next.genre;
-        return next;
       });
       return;
     }
@@ -903,11 +982,6 @@ export default function ImportReviewModal(props) {
         }
         return Object.assign({}, current, { links: existing });
       });
-      setSuggestions(function(current) {
-        const next = Object.assign({}, current);
-        delete next.links;
-        return next;
-      });
     }
   }
 
@@ -921,19 +995,59 @@ export default function ImportReviewModal(props) {
           candidateId={activeCandidate && activeCandidate.id}
           kind={kind}
           fallbackTitle={formValues.title || ''}
-          onApply={function(result) { applyFieldLookupResult(kind, result); }}
+          onApply={function(result, job, meta) { applyFieldLookupResult(kind, result, job, meta); }}
         />
       );
     });
   }
 
+  function handleResetAddForm() {
+    dismissCandidateFieldLookups(activeCandidate);
+    const blank = createBlankAddCandidate({
+      book: props.currentTuneBook || '',
+      candidateId: activeCandidate && activeCandidate.id
+        ? activeCandidate.id
+        : undefined,
+    });
+    const nextForm = tuneToFormValues(blank.tune);
+    formDirtyRef.current = false;
+    suppressFormInitRef.current = true;
+    setMergeTargetId(null);
+    setSuggestions({});
+    setFormValues(nextForm);
+    if (typeof props.onSessionChange === 'function' && session) {
+      const candidates = session.candidates.slice();
+      const index = session.mergeIndex != null ? session.mergeIndex : session.index;
+      if (candidates[index]) {
+        candidates[index] = blank;
+        props.onSessionChange(Object.assign({}, session, { candidates: candidates }));
+      }
+    }
+  }
+
+  const showEnhance = !session.skipEnrichment && activeCandidate && !activeCandidate.skipEnrich;
+
   const statusBanner = (
     <div className="border rounded p-2">
-      <strong>
-        {mergeTargetId && tunes[mergeTargetId]
-          ? ('Merging into ' + (tunes[mergeTargetId].name || 'Untitled'))
-          : ('Adding ' + (String(formValues.title || '').trim() || 'Untitled'))}
-      </strong>
+      <div className="d-flex align-items-center justify-content-between gap-2 flex-wrap">
+        <strong>
+          {mergeTargetId && tunes[mergeTargetId]
+            ? ('Merging into ' + (tunes[mergeTargetId].name || 'Untitled'))
+            : ('Adding ' + (String(formValues.title || '').trim() || 'Untitled'))}
+        </strong>
+        {isAddTunesChrome(session) ? (
+          <div className="ms-auto d-flex align-items-center gap-2">
+            <Button
+              variant="outline-secondary"
+              size="sm"
+              data-testid="add-tunes-reset"
+              onClick={handleResetAddForm}
+            >
+              Reset
+            </Button>
+          </div>
+        ) : null}
+      </div>
       {fieldLookupKinds.length ? (
         <div className="text-muted small mt-1">
           Search result{fieldLookupKinds.length > 1 ? 's' : ''} for {fieldLookupKinds.map(function(kind) {
@@ -953,37 +1067,13 @@ export default function ImportReviewModal(props) {
             {pendingSuggestionKeys.map(function(key) {
               return MERGE_FIELD_LABELS[key] || key;
             }).join(', ')}
+            {' — use the Use import control beside each field.'}
           </div>
-          <div className="d-flex flex-wrap gap-2 align-items-center">
-            {pendingSuggestionKeys.map(function(key) {
-              const suggestion = suggestions[key];
-              const label = MERGE_FIELD_LABELS[key] || key;
-              return (
-                <ImportFieldSuggestion
-                  key={key}
-                  id={'banner-' + key}
-                  label={label}
-                  fieldKey={suggestion && suggestion.key ? suggestion.key : key}
-                  suggestion={suggestion}
-                  choices={suggestion && Array.isArray(suggestion.choices) ? suggestion.choices : null}
-                  actionLabel="Use import"
-                  onSelectChoice={function(choice) {
-                    handleApplySuggestion(key, choice && choice.value !== undefined
-                      ? Object.assign({}, suggestion, {
-                        value: choice.value,
-                        displayValue: choice.preview != null ? choice.preview : suggestion.displayValue,
-                        source: choice.source || suggestion.source,
-                      })
-                      : suggestion);
-                  }}
-                  onApply={function() {
-                    handleApplySuggestion(key, suggestion);
-                  }}
-                />
-              );
-            })}
-            {renderFieldLookupReviewButtons()}
-          </div>
+          {fieldLookupKinds.length ? (
+            <div className="d-flex flex-wrap gap-2 align-items-center">
+              {renderFieldLookupReviewButtons()}
+            </div>
+          ) : null}
         </div>
       ) : fieldLookupKinds.length ? (
         <div className="mt-2 d-flex flex-wrap gap-2 align-items-center">
@@ -1070,7 +1160,8 @@ export default function ImportReviewModal(props) {
           values={formValues}
           onChange={function(patch) {
             patchFormValues(function(current) {
-              return Object.assign({}, current, patch);
+              const nextPatch = typeof patch === 'function' ? patch(current) : patch;
+              return Object.assign({}, current, nextPatch);
             });
           }}
           suggestions={suggestions}
@@ -1101,19 +1192,17 @@ export default function ImportReviewModal(props) {
     </Row>
   );
 
-  const canMoveQueue = (session && Array.isArray(session.candidates) && session.candidates.length > 1);
-  const showEnhance = !session.skipEnrichment && activeCandidate && !activeCandidate.skipEnrich;
-  const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
   const addTunesMode = isAddTunesChrome(session);
+  const canMoveQueue = !addTunesMode
+    && session
+    && Array.isArray(session.candidates)
+    && session.candidates.length > 1;
+  const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
   const headerTitle = addTunesMode ? 'Add tunes' : 'Import review';
   const primaryActionLabel = addTunesMode ? 'Add' : 'Import';
-  const hasBookForAdd = !!(
-    String(formValues.bookList || '').trim()
-    || String(props.currentTuneBook || '').trim()
-  );
-  const primaryActionDisabled = addTunesMode && (
-    !String(formValues.title || '').trim() || !hasBookForAdd
-  );
+  const hasTitleForAdd = !!String(formValues.title || '').trim();
+  const hasComposerForAdd = !!String(formValues.artist || '').trim();
+  const primaryActionDisabled = addTunesMode && (!hasTitleForAdd || !hasComposerForAdd);
   const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions, formValues);
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
@@ -1161,7 +1250,20 @@ export default function ImportReviewModal(props) {
         </>
       ) : null}
       {showEnhance ? (
-        <Button variant="warning" onClick={handleEnhanceClick}>Enhance</Button>
+        <Button
+          variant="warning"
+          data-testid={addTunesMode ? 'add-tunes-enhance' : undefined}
+          disabled={
+            addTunesMode
+              && (
+                !String(formValues.title || '').trim()
+                || !String(formValues.artist || '').trim()
+              )
+          }
+          onClick={handleEnhanceClick}
+        >
+          Enhance
+        </Button>
       ) : null}
       <Button
         variant={primaryActionDisabled ? 'secondary' : 'success'}
@@ -1170,6 +1272,15 @@ export default function ImportReviewModal(props) {
       >
         {primaryActionLabel}
       </Button>
+      {addTunesMode ? (
+        <Button
+          variant="secondary"
+          data-testid="add-tunes-cancel"
+          onClick={handleCancelAdd}
+        >
+          Cancel
+        </Button>
+      ) : null}
       {typeof props.onImportAll === 'function' && importAllSummary.total > 1 && !addTunesMode ? (
         <Button variant="danger" onClick={function() { setShowImportAllWarning(true); }}>
           Import all
