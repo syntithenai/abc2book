@@ -46,15 +46,93 @@ services:
       start_period: 90s
     restart: unless-stopped
 
-  # LM Studio binds to 127.0.0.1 by default, which Docker containers cannot
-  # reach via host.docker.internal. This bridge listens on 0.0.0.0:12340 and
-  # forwards to 127.0.0.1:1234; set RESEARCH_LLM_BASE_URL to
-  # http://host.docker.internal:12340/v1 in .env.
-  llm-bridge:
-    image: alpine/socat:1.8.0.0
+  # OpenAI-compatible LLM (llama.cpp Vulkan) using the same GGUF LM Studio uses.
+  # Set LLM_EXTERNAL_BASE_URL to skip model load and reverse-proxy an external
+  # OpenAI-compatible service instead. RESEARCH_LLM_BASE_URL should point at the
+  # gateway below (http://host.docker.internal:12340/v1).
+  llm:
+    build: ./llm
+    container_name: abc2book-llm
+    ports:
+      - "${LLM_PUBLISH_PORT:-12341}:8080"
+    env_file:
+      - .env
+    environment:
+      LLM_EXTERNAL_BASE_URL: ${LLM_EXTERNAL_BASE_URL:-}
+      LLM_EXTERNAL_API_KEY: ${LLM_EXTERNAL_API_KEY:-}
+      LLM_MODEL_FILE: /models/${LLM_MODEL_FILENAME:-gemma-4-31B-it-QAT-Q4_0.gguf}
+      LLM_MODEL_ALIAS: ${RESEARCH_LLM_MODEL:-google/gemma-4-31b-qat}
+      LLM_API_KEY: ${RESEARCH_LLM_API_KEY:-lm-studio}
+      LLM_CTX_SIZE: ${LLM_CTX_SIZE:-8192}
+      LLM_N_GPU_LAYERS: ${LLM_N_GPU_LAYERS:-99}
+      LLM_BATCH_SIZE: ${LLM_BATCH_SIZE:-512}
+      LLM_UBATCH_SIZE: ${LLM_UBATCH_SIZE:-512}
+      LLM_PARALLEL: ${LLM_PARALLEL:-1}
+      LLM_MMPROJ_FILE: ${LLM_MMPROJ_FILE:-}
+      LLM_SERVER_EXTRA_ARGS: ${LLM_SERVER_EXTRA_ARGS:-}
+      LLM_WAIT_FOR_MODEL_SECONDS: ${LLM_WAIT_FOR_MODEL_SECONDS:-0}
+      LLM_LOG_TRAFFIC: ${LLM_LOG_TRAFFIC:-true}
+      LLM_LOG_VERBOSE: ${LLM_LOG_VERBOSE:-true}
+      LLM_LOG_BODY_CHARS: ${LLM_LOG_BODY_CHARS:-50000}
+      LLM_LOG_PROMPTS_DIR: ${LLM_LOG_PROMPTS_DIR:-/var/log/llama-prompts}
+      LLM_REASONING_FORMAT: ${LLM_REASONING_FORMAT:-deepseek}
+      LLM_LOG_LEVEL: ${LLM_LOG_LEVEL:-info}
+      LLM_LISTEN_HOST: 0.0.0.0
+      LLM_LISTEN_PORT: "8080"
+    volumes:
+      # Directory mount so external-proxy mode still starts without a GGUF bind.
+      - "${LLM_MODELS_DIR:-${HOME}/.lmstudio/models/lmstudio-community/gemma-4-31B-it-QAT-GGUF}:/models:ro"
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/kfd:/dev/kfd
+    group_add:
+      # Host GIDs for /dev/dri and /dev/kfd (video=44, render=110 on Debian/Ubuntu).
+      - "44"
+      - "110"
+    # AMD Strix Halo / discrete GPUs via Vulkan. Harmless when absent.
+    device_cgroup_rules:
+      - "c 226:* rmw"
+      - "c 511:* rmw"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:8080/health || curl -fsS --max-time 5 http://127.0.0.1:8080/v1/models || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 300s
+    restart: unless-stopped
+
+  # Prefer the in-compose llm service; fall back to host LM Studio (:1234).
+  # Replaces the old socat llm-bridge. Keep listening on :12340 so existing
+  # RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1 keeps working.
+  llm-gateway:
+    build: ./llm
     container_name: abc2book-llm-bridge
     network_mode: host
-    command: TCP-LISTEN:12340,bind=0.0.0.0,fork,reuseaddr TCP:127.0.0.1:1234
+    entrypoint: ["python3", "/app/gateway.py"]
+    environment:
+      LLM_GATEWAY_LISTEN_HOST: 0.0.0.0
+      LLM_GATEWAY_LISTEN_PORT: "12340"
+      LLM_PRIMARY_BASE_URL: http://127.0.0.1:${LLM_PUBLISH_PORT:-12341}
+      LLM_FALLBACK_BASE_URL: http://127.0.0.1:${LLM_FALLBACK_PORT:-1234}
+      LLM_EXTERNAL_BASE_URL: ""
+      LLM_GATEWAY_HEALTH_TTL_SECONDS: ${LLM_GATEWAY_HEALTH_TTL_SECONDS:-15}
+      LLM_LOG_LEVEL: ${LLM_LOG_LEVEL:-info}
+    depends_on:
+      - llm
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS --max-time 5 http://127.0.0.1:12340/health || exit 1",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
     restart: unless-stopped
 
   # Optional HTTPS reverse proxy. Enable with:

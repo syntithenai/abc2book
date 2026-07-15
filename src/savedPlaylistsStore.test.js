@@ -2,6 +2,7 @@ import {
   listSavedPlaylists,
   getSavedPlaylist,
   savePlaylistFromQueue,
+  appendTunesToPlaylist,
   deleteSavedPlaylist,
   queueFromSavedPlaylist,
 } from './savedPlaylistsStore'
@@ -69,6 +70,22 @@ describe('savedPlaylistsStore', function() {
     const queue = createQueue({ tuneIds: ['gone'], name: 'Empty' })
     const saved = savePlaylistFromQueue(queue)
     expect(queueFromSavedPlaylist(saved, {})).toBeNull()
+  })
+
+  test('appendTunesToPlaylist appends tune ids', function() {
+    const queue = createQueue({ tuneIds: ['a'], name: 'Append me' })
+    const saved = savePlaylistFromQueue(queue)
+    const updated = appendTunesToPlaylist(saved.id, ['b', 'c'])
+    expect(updated.items).toEqual([
+      { tuneId: 'a' },
+      { tuneId: 'b' },
+      { tuneId: 'c' },
+    ])
+    expect(getSavedPlaylist(saved.id).items).toEqual(updated.items)
+  })
+
+  test('appendTunesToPlaylist returns null for missing playlist', function() {
+    expect(appendTunesToPlaylist('missing', ['a'])).toBeNull()
   })
 
   test('deleteSavedPlaylist removes entry', function() {

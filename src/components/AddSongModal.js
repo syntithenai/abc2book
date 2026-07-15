@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { createPortal } from 'react-dom'
 import { Button, Form, Alert, ProgressBar } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import ImportCollectionsAccordion from './ImportCollectionsAccordion'
 import useAbcjsParser from '../useAbcjsParser'
@@ -26,6 +27,7 @@ const DEFAULT_BOOK = 'songs'
 const BULK_TEXT_STORAGE_KEY = 'addSongModal_bulkText'
 
 function AddSongModal(props) {
+  const navigate = useNavigate()
   const abcjsParser = useAbcjsParser()
   const { available: resolverAvailable } = useMediaResolverHealth()
   const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh)
@@ -85,7 +87,6 @@ function AddSongModal(props) {
   const openBlankOrResumeAdd = useCallback(function() {
     if (hasActiveImportReviewSession()) {
       showImportReviewUi()
-      if (props.routeMode) dismissRoute()
       return
     }
     requestImportReview([], {
@@ -94,8 +95,7 @@ function AddSongModal(props) {
       tags: Array.isArray(props.tagFilter) ? props.tagFilter : [],
     })
     showImportReviewUi()
-    if (props.routeMode) dismissRoute()
-  }, [props.currentTuneBook, props.tagFilter, props.routeMode, dismissRoute])
+  }, [props.currentTuneBook, props.tagFilter])
 
   useEffect(function() {
     if (!props.routeMode) return undefined
@@ -105,7 +105,7 @@ function AddSongModal(props) {
   }, [props.routeMode, activeTab, openBlankOrResumeAdd])
 
   function handleShow() {
-    openBlankOrResumeAdd()
+    navigate('/add')
   }
 
   function handleClose() {

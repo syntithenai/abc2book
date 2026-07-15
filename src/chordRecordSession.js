@@ -1,5 +1,10 @@
 import Metronome from './Metronome';
-import { createRhythm, slotPulseIndex } from './metronomeRhythmPresets';
+import {
+  createRhythm,
+  formatRhythmText,
+  rhythmFromTimeSignature,
+  slotPulseIndex,
+} from './metronomeRhythmPresets';
 import { beatsPerBarFromMeter } from './chordFillPattern';
 import { primeChordFills, getFillBuffer } from './chordFillPrerender';
 import {
@@ -16,23 +21,32 @@ export const CHORD_RECORD_STATES = {
   STOPPED: 'stopped',
 };
 
+function meterFromRhythm(rhythm) {
+  if (!rhythm) return '4/4';
+  return formatRhythmText(rhythm) || (String(rhythm.beatsPerBar || 4) + '/4');
+}
+
 export function createChordRecordSession(options) {
   const opts = options || {};
   let state = CHORD_RECORD_STATES.IDLE;
   let meter = opts.meter || '4/4';
   let tempo = opts.tempo > 0 ? opts.tempo : 120;
   let key = opts.key || 'C';
-  let beatsPerBar = beatsPerBarFromMeter(meter);
+  let rhythm = opts.rhythm || rhythmFromTimeSignature(meter) || createRhythm(beatsPerBarFromMeter(meter));
+  let beatsPerBar = Math.max(1, rhythm.beatsPerBar || beatsPerBarFromMeter(meter));
   let chordLabels = [];
+  let countInBeats = beatsPerBar;
 
   let audioContext = null;
   let gainNode = null;
   let fillBuffers = new Map();
   let capture = null;
   let metronome = null;
+  let absoluteBeatIndex = -1;
   let currentBeatIndex = -1;
   let lastAssignedChord = '';
   let scheduledSources = [];
+  let preparedMeta = null;
 
   function notifyState() {
     if (typeof opts.onStateChange === 'function') {
@@ -46,37 +60,50 @@ export function createChordRecordSession(options) {
   }
 
   function getSnapshot() {
-    const beatInBar = currentBeatIndex >= 0
-      ? (currentBeatIndex % beatsPerBar) + 1
+    const inCountIn = state === CHORD_RECORD_STATES.COUNT_IN;
+    const beatInBar = absoluteBeatIndex >= 0
+      ? (absoluteBeatIndex % beatsPerBar) + 1
       : 0;
     const barNumber = currentBeatIndex >= 0
       ? Math.floor(currentBeatIndex / beatsPerBar) + 1
-      : 0;
+      : (inCountIn && absoluteBeatIndex >= 0 ? 0 : 0);
     return {
       state: state,
       meter: meter,
       tempo: tempo,
       key: key,
+      rhythm: rhythm,
       chordLabels: chordLabels.slice(),
       currentBeatIndex: currentBeatIndex,
+      absoluteBeatIndex: absoluteBeatIndex,
       beatInBar: beatInBar,
       barNumber: barNumber,
+      countInBeats: countInBeats,
       lastAssignedChord: lastAssignedChord,
     };
   }
 
   function stopMetronome() {
     if (metronome) {
+      metronome.onSlotChange = null;
+      metronome.onFirstNoteSchedule = null;
       metronome.stop();
       metronome = null;
     }
   }
 
-  function stopScheduledSources() {
+  function stopScheduledSources(when) {
+    const now = audioContext ? audioContext.currentTime : 0;
     scheduledSources.forEach(function(source) {
       try {
-        source.stop();
-      } catch (err) { /* ignore */ }
+        if (when != null && when > now + 0.02) {
+          source.stop(when);
+        } else {
+          source.stop();
+        }
+      } catch (err) {
+        try { source.stop(); } catch (err2) { /* ignore */ }
+      }
     });
     scheduledSources = [];
   }
@@ -85,10 +112,12 @@ export function createChordRecordSession(options) {
     if (!audioContext || !gainNode) return;
     const buffer = getFillBuffer(fillBuffers, chordLabel, { meter: meter, tempo: tempo, key: key });
     if (!buffer) return;
+    const startAt = Math.max(when, audioContext.currentTime + 0.01);
+    // Cut any overlapping fill so only one chord sounds from the change point.
+    stopScheduledSources(startAt);
     const source = audioContext.createBufferSource();
     source.buffer = buffer;
     source.connect(gainNode);
-    const startAt = Math.max(when, audioContext.currentTime + 0.01);
     source.start(startAt);
     scheduledSources.push(source);
     source.onended = function() {
@@ -96,12 +125,50 @@ export function createChordRecordSession(options) {
     };
   }
 
-  function startRecordingMetronome() {
-    const rhythm = createRhythm(beatsPerBar);
-    const anchor = audioContext.currentTime + 0.05;
-    capture.reset(anchor);
+  function syncPreparedCapture() {
+    capture = createBeatCapture({ tempo: tempo, beatsPerBar: beatsPerBar });
+    preparedMeta = { tempo: tempo, meter: meter, key: key, beatsPerBar: beatsPerBar };
+  }
+
+  function fillsMatchConfig() {
+    return !!(preparedMeta
+      && preparedMeta.tempo === tempo
+      && preparedMeta.meter === meter
+      && preparedMeta.key === key
+      && preparedMeta.beatsPerBar === beatsPerBar
+      && fillBuffers.size > 0);
+  }
+
+  function handleSlotPulse(slotIndex, rhythmState) {
+    if (slotPulseIndex(rhythmState, slotIndex) !== 0) return;
+    absoluteBeatIndex += 1;
+
+    if (absoluteBeatIndex < countInBeats) {
+      currentBeatIndex = -1;
+      if (state !== CHORD_RECORD_STATES.COUNT_IN) {
+        setState(CHORD_RECORD_STATES.COUNT_IN);
+      } else {
+        notifyState();
+      }
+      return;
+    }
+
+    currentBeatIndex = absoluteBeatIndex - countInBeats;
+    if (capture && capture.getBeatTimes().length <= currentBeatIndex + beatsPerBar + countInBeats) {
+      capture.extendBeats(beatsPerBar);
+    }
+    if (state !== CHORD_RECORD_STATES.RECORDING) {
+      setState(CHORD_RECORD_STATES.RECORDING);
+    } else {
+      notifyState();
+    }
+  }
+
+  function startContinuousMetronome() {
+    absoluteBeatIndex = -1;
     currentBeatIndex = -1;
     lastAssignedChord = '';
+    countInBeats = beatsPerBar;
 
     metronome = new Metronome(
       audioContext,
@@ -110,6 +177,7 @@ export function createChordRecordSession(options) {
       0,
       null,
       function onError() {
+        setState(CHORD_RECORD_STATES.READY);
         if (typeof opts.onError === 'function') {
           opts.onError('Metronome could not start');
         }
@@ -117,17 +185,14 @@ export function createChordRecordSession(options) {
       rhythm
     );
 
-    metronome.onSlotChange = function(slotIndex, rhythmState) {
-      if (slotPulseIndex(rhythmState, slotIndex) !== 0) return;
-      currentBeatIndex += 1;
-      if (capture.getBeatTimes().length <= currentBeatIndex + beatsPerBar) {
-        capture.extendBeats(beatsPerBar);
-      }
-      notifyState();
+    metronome.onFirstNoteSchedule = function(time) {
+      if (!capture) syncPreparedCapture();
+      // Beat timeline includes count-in clicks so recording beat 0 is at index countInBeats.
+      capture.reset(time);
     };
 
+    metronome.onSlotChange = handleSlotPulse;
     metronome.start();
-    setState(CHORD_RECORD_STATES.RECORDING);
   }
 
   async function ensureAudioContext() {
@@ -145,15 +210,39 @@ export function createChordRecordSession(options) {
     return audioContext;
   }
 
+  function invalidatePreparedIfConfigChanged() {
+    if (state === CHORD_RECORD_STATES.IDLE || state === CHORD_RECORD_STATES.PREPARING) return;
+    if (state === CHORD_RECORD_STATES.COUNT_IN || state === CHORD_RECORD_STATES.RECORDING) return;
+    if (fillsMatchConfig()) return;
+    stopMetronome();
+    stopScheduledSources();
+    fillBuffers = new Map();
+    capture = null;
+    preparedMeta = null;
+    absoluteBeatIndex = -1;
+    currentBeatIndex = -1;
+    lastAssignedChord = '';
+    setState(CHORD_RECORD_STATES.IDLE);
+  }
+
   return {
     getState: function() { return state; },
     getSnapshot: getSnapshot,
 
     configure(config) {
       const next = config || {};
-      if (next.meter) {
+      if (next.rhythm) {
+        rhythm = createRhythm(
+          next.rhythm.beatsPerBar,
+          next.rhythm.accents,
+          next.rhythm.pulsesPerBeat
+        );
+        beatsPerBar = Math.max(1, rhythm.beatsPerBar);
+        meter = meterFromRhythm(rhythm);
+      } else if (next.meter) {
         meter = next.meter;
-        beatsPerBar = beatsPerBarFromMeter(meter);
+        rhythm = rhythmFromTimeSignature(meter) || createRhythm(beatsPerBarFromMeter(meter));
+        beatsPerBar = Math.max(1, rhythm.beatsPerBar || beatsPerBarFromMeter(meter));
       }
       if (next.tempo > 0) tempo = next.tempo;
       if (next.key) key = next.key;
@@ -162,6 +251,7 @@ export function createChordRecordSession(options) {
           .map(function(label) { return String(label || '').trim(); })
           .filter(Boolean);
       }
+      invalidatePreparedIfConfigChanged();
       notifyState();
     },
 
@@ -190,7 +280,7 @@ export function createChordRecordSession(options) {
           const failed = result.errors.map(function(item) { return item.label; }).join(', ');
           throw new Error('Failed to prepare fills for: ' + failed);
         }
-        capture = createBeatCapture({ tempo: tempo, beatsPerBar: beatsPerBar });
+        syncPreparedCapture();
         setState(CHORD_RECORD_STATES.READY);
         return { ok: true };
       } catch (err) {
@@ -200,7 +290,12 @@ export function createChordRecordSession(options) {
     },
 
     async startRecording() {
-      if (state !== CHORD_RECORD_STATES.READY) return { ok: false };
+      if (state !== CHORD_RECORD_STATES.READY && state !== CHORD_RECORD_STATES.STOPPED) {
+        return { ok: false };
+      }
+      if (!fillsMatchConfig()) {
+        return { ok: false, error: 'Prepare recording again after changing tempo or meter' };
+      }
       try {
         await ensureAudioContext();
       } catch (err) {
@@ -210,40 +305,56 @@ export function createChordRecordSession(options) {
       stopMetronome();
       stopScheduledSources();
       setState(CHORD_RECORD_STATES.COUNT_IN);
+      startContinuousMetronome();
+      return { ok: true };
+    },
 
-      const rhythm = createRhythm(beatsPerBar);
-      metronome = new Metronome(
-        audioContext,
-        tempo,
-        beatsPerBar,
-        beatsPerBar,
-        function onCountInDone() {
-          stopMetronome();
-          startRecordingMetronome();
-        },
-        function onError() {
-          setState(CHORD_RECORD_STATES.READY);
-          if (typeof opts.onError === 'function') {
-            opts.onError('Count-in could not start');
-          }
-        },
-        rhythm
-      );
-      metronome.start();
+    async previewChord(chordLabel) {
+      const label = String(chordLabel || '').trim();
+      if (!label) return { ok: false };
+      if (state === CHORD_RECORD_STATES.COUNT_IN || state === CHORD_RECORD_STATES.RECORDING) {
+        return { ok: false };
+      }
+      try {
+        await ensureAudioContext();
+      } catch (err) {
+        return { ok: false, error: 'Audio context unavailable' };
+      }
+      if (!getFillBuffer(fillBuffers, label, { meter: meter, tempo: tempo, key: key })) {
+        return { ok: false, error: 'Prepare recording first' };
+      }
+      scheduleFillPlayback(label, audioContext.currentTime);
       return { ok: true };
     },
 
     onChordPress(chordLabel) {
-      if (state !== CHORD_RECORD_STATES.RECORDING || !capture || !audioContext) return null;
+      if (state === CHORD_RECORD_STATES.READY || state === CHORD_RECORD_STATES.STOPPED || state === CHORD_RECORD_STATES.IDLE) {
+        this.previewChord(chordLabel);
+        return null;
+      }
+      if (
+        (state !== CHORD_RECORD_STATES.RECORDING && state !== CHORD_RECORD_STATES.COUNT_IN)
+        || !capture
+        || !audioContext
+      ) {
+        return null;
+      }
+
       const result = capture.assignChordOnNextBeat(audioContext.currentTime, chordLabel);
       if (!result) return null;
+      // Ignore taps that would land inside the count-in window.
+      if (result.beatIndex < countInBeats) return null;
+
       lastAssignedChord = String(chordLabel || '').trim();
       scheduleFillPlayback(lastAssignedChord, result.beatTime);
       notifyState();
       if (typeof opts.onChordAssigned === 'function') {
-        opts.onChordAssigned(lastAssignedChord, result.beatIndex);
+        opts.onChordAssigned(lastAssignedChord, result.beatIndex - countInBeats);
       }
-      return result;
+      return {
+        beatIndex: result.beatIndex - countInBeats,
+        beatTime: result.beatTime,
+      };
     },
 
     stopRecording() {
@@ -251,11 +362,34 @@ export function createChordRecordSession(options) {
       stopScheduledSources();
       const grid = capture
         ? assignmentsToChordGrid(capture.getAssignments(), meter, {
-          endBeatIndex: currentBeatIndex >= 0 ? currentBeatIndex : undefined,
+          endBeatIndex: currentBeatIndex >= 0 ? currentBeatIndex + countInBeats : undefined,
+          startBeatIndex: countInBeats,
+          beatsPerBar: beatsPerBar,
         })
         : '';
+      absoluteBeatIndex = -1;
+      currentBeatIndex = -1;
       setState(CHORD_RECORD_STATES.STOPPED);
       return grid;
+    },
+
+    /** Keep prepared fills; clear capture and return to READY so Start works again. */
+    clearRecording() {
+      stopMetronome();
+      stopScheduledSources();
+      absoluteBeatIndex = -1;
+      currentBeatIndex = -1;
+      lastAssignedChord = '';
+      if (fillsMatchConfig()) {
+        syncPreparedCapture();
+        setState(CHORD_RECORD_STATES.READY);
+        return { ok: true };
+      }
+      fillBuffers = new Map();
+      capture = null;
+      preparedMeta = null;
+      setState(CHORD_RECORD_STATES.IDLE);
+      return { ok: true, needsPrepare: true };
     },
 
     cancel() {
@@ -263,6 +397,8 @@ export function createChordRecordSession(options) {
       stopScheduledSources();
       fillBuffers = new Map();
       capture = null;
+      preparedMeta = null;
+      absoluteBeatIndex = -1;
       currentBeatIndex = -1;
       lastAssignedChord = '';
       setState(CHORD_RECORD_STATES.IDLE);

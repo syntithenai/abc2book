@@ -1,8 +1,14 @@
 import './PracticeAccuracyOverlay.css'
+import { isFarFromTarget } from '../tunerlib/tunerDisplayUtils'
+
+const CENTS_DISPLAY_CAP = 99
 
 function formatCents(cents) {
   if (cents == null || !Number.isFinite(cents)) return '—'
   const rounded = Math.round(cents)
+  if (Math.abs(rounded) > CENTS_DISPLAY_CAP) {
+    return (rounded > 0 ? '>+' : '<-') + CENTS_DISPLAY_CAP + '¢'
+  }
   return (rounded > 0 ? '+' : '') + rounded + '¢'
 }
 
@@ -29,6 +35,7 @@ export default function PracticeAccuracyOverlay(props) {
   const micPercent = micLevelPercent(micLevel)
   const micStatus = live.micStatus || 'idle'
   const statusMessage = micStatusLabel(micStatus)
+  const far = isFarFromTarget(live.pitchCents)
 
   return (
     <div className="practice-accuracy-overlay" aria-live="polite">
@@ -48,6 +55,7 @@ export default function PracticeAccuracyOverlay(props) {
           <div className={'practice-accuracy-cents practice-accuracy-cents--' + (live.intonationBand || 'none')}>
             <span className="practice-accuracy-cents-label">Pitch</span>
             <span className="practice-accuracy-cents-value">{formatCents(live.pitchCents)}</span>
+            {far ? <span className="practice-accuracy-cents-far">far</span> : null}
           </div>
 
           {statusMessage ? (

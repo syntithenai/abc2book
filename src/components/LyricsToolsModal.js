@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Modal } from 'react-bootstrap'
+import { Button, Modal } from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import {
   LYRICS_TOOLS_CLOSE_MESSAGE,
@@ -8,7 +8,8 @@ import {
 
 /**
  * Lyrics tools dialog: embeds the lyrics page without app chrome.
- * Closes on backdrop click, Escape (including from inside the iframe), or the header close button.
+ * Closes on backdrop click, Escape (including from inside the iframe),
+ * the header close control, or the footer Close button.
  */
 export default function LyricsToolsModal(props) {
   const { show, onHide, query } = props
@@ -49,6 +50,9 @@ export default function LyricsToolsModal(props) {
           />
         ) : null}
       </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={onHide}>Close</Button>
+      </Modal.Footer>
     </Modal>
   )
 }

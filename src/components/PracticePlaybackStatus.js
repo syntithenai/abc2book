@@ -42,7 +42,16 @@ export default function PracticePlaybackStatus(props) {
     const repLabel = props.warmupRun != null && props.warmupRepeats != null
       ? ('Rep ' + props.warmupRun + ' of ' + props.warmupRepeats + ' — ')
       : ''
-    if (warmupStatus === 'loading') {
+    if (warmupStatus === 'countIn') {
+      const beat = props.countInBeat != null ? props.countInBeat : 0
+      const total = props.countInTotal != null ? props.countInTotal : 0
+      const remaining = total > 0 ? Math.max(1, total - beat + 1) : 0
+      label = total > 0
+        ? ('Count-in ' + remaining)
+        : 'Count-in…'
+      icon = tunebook.icons.waiting
+      statusClass = 'practice-playback-status--countin'
+    } else if (warmupStatus === 'loading') {
       label = repLabel + 'Loading audio…'
       icon = tunebook.icons.waiting
       statusClass = 'practice-playback-status--loading'

@@ -71,11 +71,12 @@ export function createBeatCapture(options) {
 
 export function assignmentsToChordGrid(assignments, meter, options) {
   const opts = options || {};
-  const beatsPerBar = beatsPerBarFromMeter(meter);
+  const beatsPerBar = Math.max(1, opts.beatsPerBar || beatsPerBarFromMeter(meter));
   const barsPerLine = Math.max(1, opts.barsPerLine || 5);
+  const startBeat = Math.max(0, opts.startBeatIndex || 0);
   const indices = Object.keys(assignments || {})
     .map(function(key) { return parseInt(key, 10); })
-    .filter(function(index) { return !isNaN(index); })
+    .filter(function(index) { return !isNaN(index) && index >= startBeat; })
     .sort(function(a, b) { return a - b; });
 
   if (!indices.length) return '';
@@ -87,14 +88,15 @@ export function assignmentsToChordGrid(assignments, meter, options) {
   const bars = [];
   let previousChord = '';
 
-  for (let globalIndex = 0; globalIndex <= endBeat; globalIndex += 1) {
+  for (let absoluteIndex = startBeat; absoluteIndex <= endBeat; absoluteIndex += 1) {
+    const globalIndex = absoluteIndex - startBeat;
     const barIndex = Math.floor(globalIndex / beatsPerBar);
     const beatInBar = globalIndex % beatsPerBar;
     while (bars.length <= barIndex) {
       bars.push(new Array(beatsPerBar).fill(''));
     }
 
-    const chord = assignments[globalIndex];
+    const chord = assignments[absoluteIndex];
     if (chord) {
       if (chord !== previousChord) {
         bars[barIndex][beatInBar] = chord;

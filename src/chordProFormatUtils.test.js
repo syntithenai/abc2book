@@ -131,6 +131,16 @@ Am    G    Em    F  G`;
     expect(parsed.chordSheetAlignment.some(function(block) {
       return block.header === '[Chorus]';
     })).toBe(true);
+    const intro = parsed.chordSheetAlignment.find(function(block) {
+      return block.header === '[Intro]';
+    });
+    expect(intro).toBeTruthy();
+    expect(intro.linePairs[0].chordLines[0]).toContain('Am    Dm    Dm    Am9');
+    const instrumental = parsed.chordSheetAlignment.find(function(block) {
+      return block.header === '[Instrumental]';
+    });
+    expect(instrumental).toBeTruthy();
+    expect(instrumental.linePairs[0].chordLines[0]).toContain('Am    G    Em    F  G');
   });
 
   test('skeleton rest length follows meter unit slots', function() {

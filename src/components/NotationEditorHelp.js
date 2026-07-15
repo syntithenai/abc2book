@@ -196,13 +196,11 @@ export default function NotationEditorHelp(props) {
               <h4>Toolbar</h4>
               <ul>
                 <li><strong>Snap</strong> (<kbd>s</kbd>) and subdivision dropdown (1/4–1/32 beat).</li>
-                <li><strong>Rec grid</strong> — recording beat lines when timed melody beat times exist.</li>
-                <li><strong>Melody</strong> — orange overlay from detected melody import.</li>
                 <li><strong>Wave</strong> — linked media waveform along the top.</li>
-                <li><strong>Q</strong> — quantize dialog. <strong>Align</strong> — recording grid, match melody, slide +0.25 beat, set downbeat from playhead, snap to playback region.</li>
+                <li><strong>Q</strong> — quantize dialog. <strong>Align</strong> — slide +0.25 beat, set downbeat from playhead, snap to playback region.</li>
                 <li><strong>H- / H+ / V- / V+</strong> — horizontal and vertical zoom.</li>
               </ul>
-              <p>Blue notes are the active voice (yellow when selected). Gray notes are other displayed voices. Orange notes are detected melody. A red playhead and yellow playback region appear when media is linked.</p>
+              <p>Blue notes are the active voice (yellow when selected). Gray notes are other displayed voices. A red playhead and yellow playback region appear when media is linked.</p>
               <p>With piano roll focus: <kbd>←</kbd>/<kbd>→</kbd> nudge timing, <kbd>↑</kbd>/<kbd>↓</kbd> nudge pitch, <kbd>Delete</kbd> removes selection.</p>
             </div>
           </section>
@@ -303,11 +301,10 @@ export default function NotationEditorHelp(props) {
                 <li><strong>Strength</strong> — 0–100% how strongly notes move toward the grid.</li>
                 <li><strong>Grid subdivision</strong> — 1/4, 1/8, 1/16, or 1/32 beat.</li>
                 <li><strong>Quantize start / duration</strong> — choose which aspects to adjust.</li>
-                <li><strong>Use recording beat grid</strong> — when timed melody beat times exist, snap to those markers.</li>
               </ul>
               <p>
-                The piano roll <strong>Align</strong> menu offers additional actions: align to recording grid, match detected melody,
-                slide selection +0.25 beat, set downbeat from playhead, and snap to playback region start.
+                The piano roll <strong>Align</strong> menu offers additional actions: slide selection +0.25 beat,
+                set downbeat from playhead, and snap to playback region start.
               </p>
             </div>
           </section>

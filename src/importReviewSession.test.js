@@ -16,6 +16,10 @@ import {
   cancelCurrentCandidate,
   markAllCandidatesImported,
   isAddTunesChrome,
+  coalesceSessionCandidatesByMergeTarget,
+  foldIncomingCandidate,
+  removeImportReviewCandidatesByFieldLookupJobId,
+  appendImportReviewCandidates,
 } from './importReviewSession';
 import {
   createEnrichmentJob,
@@ -239,5 +243,95 @@ describe('importReviewEnrichmentQueue', function() {
     expect(next[0].status).toBe('pending');
     expect(enrichmentSummary(next).pending).toBe(1);
     expect(enrichmentSummary(next).awaiting).toBe(0);
+  });
+});
+
+describe('import review coalesce by merge target', function() {
+  test('foldIncomingCandidate merges into existing same mergeTargetId', function() {
+    const session = createImportReviewSession([{
+      id: 'c-abc',
+      sourceKind: 'abc',
+      mergeTargetId: 'tune-1',
+      tune: { name: 'Song', composer: 'ABC Artist' },
+    }]);
+    const next = foldIncomingCandidate(session, {
+      id: 'c-search',
+      sourceKind: 'search-composer',
+      mergeTargetId: 'tune-1',
+      tune: { name: 'Song', composer: 'Search Artist' },
+      fieldLookupJobId: 'job-1',
+      fieldLookupKind: 'composer',
+    });
+    expect(next.candidates.length).toBe(1);
+    expect(next.candidates[0].fieldChoices.artist.map(function(c) { return c.value; }))
+      .toEqual(expect.arrayContaining(['ABC Artist', 'Search Artist']));
+  });
+
+  test('coalesceSessionCandidatesByMergeTarget collapses matching candidates', function() {
+    const session = createImportReviewSession([
+      {
+        id: 'c1',
+        sourceKind: 'abc',
+        mergeTargetId: 'tune-1',
+        tune: { name: 'Song', backgroundInfo: 'From ABC' },
+      },
+      {
+        id: 'c2',
+        sourceKind: 'ocr',
+        mergeTargetId: 'tune-1',
+        tune: { name: 'Song', backgroundInfo: 'From OCR' },
+      },
+      {
+        id: 'c3',
+        sourceKind: 'abc',
+        mergeTargetId: 'tune-2',
+        tune: { name: 'Other' },
+      },
+    ]);
+    const result = coalesceSessionCandidatesByMergeTarget(session, 'tune-1', 'c2');
+    expect(result.session.candidates.length).toBe(2);
+    expect(result.survivorId).toBe('c2');
+    expect(result.absorbedIds).toEqual(['c1']);
+    const survivor = result.session.candidates.find(function(item) { return item.id === 'c2'; });
+    expect(survivor.fieldChoices.backgroundInfo.map(function(c) { return c.value; }))
+      .toEqual(expect.arrayContaining(['From OCR', 'From ABC']));
+  });
+
+  test('appendImportReviewCandidates folds by mergeTargetId', function() {
+    const session = createImportReviewSession([{
+      id: 'c1',
+      sourceKind: 'abc',
+      mergeTargetId: 'tune-9',
+      tune: { name: 'A', genre: 'Folk' },
+    }]);
+    const next = appendImportReviewCandidates(session, [{
+      id: 'c2',
+      sourceKind: 'search-genre',
+      mergeTargetId: 'tune-9',
+      tune: { name: 'A', genre: 'Jazz' },
+      fieldLookupJobId: 'job-g',
+      fieldLookupKind: 'genre',
+    }]);
+    expect(next.candidates.length).toBe(1);
+    expect(next.candidates[0].fieldLookupJobIds).toContain('job-g');
+  });
+
+  test('removeImportReviewCandidatesByFieldLookupJobId trims multi-job candidate', function() {
+    const session = createImportReviewSession([{
+      id: 'c1',
+      sourceKind: 'search-multi',
+      mergeTargetId: 'tune-1',
+      tune: { name: 'Song' },
+      fieldLookupJobIds: ['job-a', 'job-b'],
+      fieldLookupKinds: ['composer', 'lyrics'],
+      fieldLookupJobId: 'job-a',
+      fieldLookupKind: 'composer',
+    }]);
+    const trimmed = removeImportReviewCandidatesByFieldLookupJobId(session, 'job-a');
+    expect(trimmed.candidates.length).toBe(1);
+    expect(trimmed.candidates[0].fieldLookupJobIds).toEqual(['job-b']);
+    const gone = removeImportReviewCandidatesByFieldLookupJobId(trimmed, 'job-b');
+    expect(gone.candidates.length).toBe(0);
+    expect(gone.step).toBe('done');
   });
 });

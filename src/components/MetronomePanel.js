@@ -174,6 +174,7 @@ export default function MetronomePanel(props) {
   const settingsOnly = !!props.settingsOnly
   const showPreview = !!props.showPreview
   const hideTempo = !!props.hideTempo
+  const hideTransport = !!props.hideTransport
   const disabled = !!props.disabled
   const embedPreview = settingsOnly && showPreview
   const saved = settingsOnly ? null : loadSavedSettings()
@@ -264,6 +265,14 @@ export default function MetronomePanel(props) {
       metronomeRef.current.setTempo(tempo)
     }
   }, [tempo])
+
+  function commitTempo(nextTempo) {
+    const value = Math.max(20, Math.min(300, Math.round(nextTempo)))
+    setTempo(value)
+    if (typeof props.onTempoChange === 'function') {
+      props.onTempoChange(value)
+    }
+  }
 
   useEffect(function() {
     if (!quickRhythmOpen) return undefined
@@ -386,9 +395,7 @@ export default function MetronomePanel(props) {
   }
 
   function adjustTempo(delta) {
-    setTempo(function(current) {
-      return Math.max(20, Math.min(300, (parseInt(current, 10) || DEFAULT_TEMPO) + delta))
-    })
+    commitTempo((parseInt(tempo, 10) || DEFAULT_TEMPO) + delta)
   }
 
   function handleTapTempo() {
@@ -402,8 +409,7 @@ export default function MetronomePanel(props) {
       intervals.push(taps[i] - taps[i - 1])
     }
     const average = intervals.reduce(function(sum, value) { return sum + value }, 0) / intervals.length
-    const nextTempo = Math.max(20, Math.min(300, Math.round(60000 / average)))
-    setTempo(nextTempo)
+    commitTempo(Math.round(60000 / average))
   }
 
   const activeBeat = activeSlot >= 0 ? slotBeatIndex(rhythm, activeSlot) : -1
@@ -421,18 +427,23 @@ export default function MetronomePanel(props) {
   return (
     <div className={'metronome-panel'
       + (settingsOnly ? ' metronome-panel--settings-only' : '')
-      + (embedPreview ? ' metronome-panel--embed-preview' : '')}>
+      + (embedPreview ? ' metronome-panel--embed-preview' : '')
+      + (hideTransport ? ' metronome-panel--hide-transport' : '')
+      + (disabled ? ' metronome-panel--disabled' : '')}>
       <div className="metronome-panel__card">
         {(!settingsOnly || embedPreview) ? (
         <div className="metronome-panel__toolbar">
+          {!hideTransport ? (
           <Button
             variant={isRunning ? 'danger' : 'success'}
             size="lg"
             className="metronome-panel__start-stop"
+            disabled={disabled}
             onClick={toggleMetronome}
           >
             {isRunning ? 'Stop' : 'Start'}
           </Button>
+          ) : null}
 
           {!settingsOnly ? (
           <FormFieldHelp
@@ -443,10 +454,10 @@ export default function MetronomePanel(props) {
           />
           ) : null}
 
-          {!hideTempo && !settingsOnly ? (
+          {!hideTempo && (!settingsOnly || embedPreview) ? (
           <ButtonGroup className="metronome-panel__tempo-group" aria-label="Tempo">
-            <Button variant="primary" className="metronome-panel__tempo-step" onClick={function() { adjustTempo(-5) }}>-5</Button>
-            <Button variant="primary" className="metronome-panel__tempo-nudge" onClick={function() { adjustTempo(-1) }}>-</Button>
+            <Button variant="primary" className="metronome-panel__tempo-step" disabled={disabled} onClick={function() { adjustTempo(-5) }}>-5</Button>
+            <Button variant="primary" className="metronome-panel__tempo-nudge" disabled={disabled} onClick={function() { adjustTempo(-1) }}>-</Button>
             <div className="metronome-panel__tempo-value">
               <input
                 className="metronome-panel__tempo-input"
@@ -454,17 +465,18 @@ export default function MetronomePanel(props) {
                 min="20"
                 max="300"
                 value={tempo}
+                disabled={disabled}
                 aria-label="Tempo in beats per minute"
                 onChange={function(e) {
                   const value = parseInt(e.target.value, 10)
-                  if (!Number.isNaN(value)) setTempo(Math.max(20, Math.min(300, value)))
+                  if (!Number.isNaN(value)) commitTempo(value)
                 }}
               />
               <span className="metronome-panel__tempo-marking">{nearestTempoMarking(tempo)}</span>
             </div>
-            <Button variant="primary" className="metronome-panel__tempo-nudge" onClick={function() { adjustTempo(1) }}>+</Button>
-            <Button variant="primary" className="metronome-panel__tempo-step" onClick={function() { adjustTempo(5) }}>+5</Button>
-            <Button variant="secondary" className="metronome-panel__tap-tempo" onClick={handleTapTempo}>
+            <Button variant="primary" className="metronome-panel__tempo-nudge" disabled={disabled} onClick={function() { adjustTempo(1) }}>+</Button>
+            <Button variant="primary" className="metronome-panel__tempo-step" disabled={disabled} onClick={function() { adjustTempo(5) }}>+5</Button>
+            <Button variant="secondary" className="metronome-panel__tap-tempo" disabled={disabled} onClick={handleTapTempo}>
               Tap tempo
             </Button>
           </ButtonGroup>
@@ -508,6 +520,7 @@ export default function MetronomePanel(props) {
           <Button
             variant="danger"
             className="metronome-panel__reset"
+            disabled={disabled}
             onClick={resetMetronomeForm}
           >
             Reset
@@ -531,12 +544,13 @@ export default function MetronomePanel(props) {
                 type="text"
                 value={quickRhythmText}
                 placeholder="4/4"
+                disabled={disabled}
                 aria-label="Quick rhythm time signature"
                 aria-expanded={quickRhythmOpen}
                 aria-controls="metronome-quick-rhythm-menu"
                 autoComplete="off"
                 onChange={function(e) { setQuickRhythmText(e.target.value) }}
-                onFocus={function() { setQuickRhythmOpen(true) }}
+                onFocus={function() { if (!disabled) setQuickRhythmOpen(true) }}
                 onBlur={function(e) { commitQuickRhythmText(e.target.value) }}
                 onKeyDown={function(e) {
                   if (e.key === 'Enter') {
@@ -586,7 +600,7 @@ export default function MetronomePanel(props) {
             <Button
               variant="outline-secondary"
               onClick={function() { setBeatsPerBar(rhythm.beatsPerBar - 1) }}
-              disabled={rhythm.beatsPerBar <= 1}
+              disabled={disabled || rhythm.beatsPerBar <= 1}
             >
               -
             </Button>
@@ -596,7 +610,7 @@ export default function MetronomePanel(props) {
             <Button
               variant="outline-secondary"
               onClick={function() { setBeatsPerBar(rhythm.beatsPerBar + 1) }}
-              disabled={rhythm.beatsPerBar >= 16}
+              disabled={disabled || rhythm.beatsPerBar >= 16}
             >
               +
             </Button>
@@ -612,6 +626,7 @@ export default function MetronomePanel(props) {
                 <Button
                   key={'beat-edit-' + beatIndex}
                   variant={variant}
+                  disabled={disabled}
                   onClick={function() { cycleBeatAccent(beatIndex) }}
                   title={accentButtonTitle(level)}
                   aria-label={'Beat ' + (beatIndex + 1) + ': ' + accentButtonTitle(level)}
@@ -632,6 +647,7 @@ export default function MetronomePanel(props) {
                   key={'pulses-' + beatIndex}
                   className="metronome-panel__pulse-select"
                   value={pulses}
+                  disabled={disabled}
                   aria-label={'Pulses for beat ' + (beatIndex + 1)}
                   title={'Pulses for beat ' + (beatIndex + 1)}
                   onChange={function(e) { setPulsesForBeat(beatIndex, parseInt(e.target.value, 10)) }}

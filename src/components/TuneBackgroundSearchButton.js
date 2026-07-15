@@ -6,6 +6,10 @@ import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
 import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue';
 import {
+  applyBackgroundResearchChoice,
+  dismissBackgroundResearch,
+} from '../bulkBackgroundResearchQueue';
+import {
   buildTuneBackgroundSearchUrl,
   formatResearchDuration,
 } from '../tuneBackgroundResearchClient';
@@ -25,6 +29,13 @@ function findTuneJob(jobs, tuneId) {
   return jobs.find(function(job) {
     return job.tuneId === tuneId
       && (job.status === 'pending' || job.status === 'running');
+  }) || null;
+}
+
+function findAwaitingTuneJob(jobs, tuneId) {
+  if (!tuneId || !Array.isArray(jobs)) return null;
+  return jobs.find(function(job) {
+    return job.tuneId === tuneId && job.status === 'awaiting';
   }) || null;
 }
 
@@ -66,12 +77,15 @@ export default function TuneBackgroundSearchButton({
   const [error, setError] = useState('');
   const [source, setSource] = useState('');
   const [showConfirm, setShowConfirm] = useState(false);
+  const [showReviewAccept, setShowReviewAccept] = useState(false);
+  const [pendingReviewText, setPendingReviewText] = useState('');
   const [genreSuggestion, setGenreSuggestion] = useState(null);
   const [elapsedMs, setElapsedMs] = useState(0);
   const elapsedTimerRef = useRef(null);
   const startedAtRef = useRef(0);
   const startedJobIdRef = useRef(null);
   const handledTerminalJobRef = useRef(null);
+  const pendingModeRef = useRef('auto');
   const { available: resolverAvailable, status: resolverStatus, features, refreshMediaResolverHealth } = useMediaResolverHealth();
   const canResearchBackground = resolverAvailable && features.llm;
 
@@ -80,6 +94,7 @@ export default function TuneBackgroundSearchButton({
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null;
 
   const activeJob = findTuneJob(queue.state.jobs, tuneId);
+  const awaitingJob = findAwaitingTuneJob(queue.state.jobs, tuneId);
   const busy = !!activeJob;
   const progressPercent = activeJob ? (activeJob.progress || 0) : 0;
   const progressMessage = activeJob ? (activeJob.message || '') : '';
@@ -112,6 +127,14 @@ export default function TuneBackgroundSearchButton({
     }
     return undefined;
   }, [busy]);
+
+  useEffect(function() {
+    if (awaitingJob && awaitingJob.resultText) {
+      setPendingReviewText(awaitingJob.resultText);
+      setShowReviewAccept(true);
+      setSource(formatResultSource(awaitingJob.resultMeta) || 'ready');
+    }
+  }, [awaitingJob]);
 
   useEffect(function() {
     const jobId = startedJobIdRef.current;
@@ -176,26 +199,30 @@ export default function TuneBackgroundSearchButton({
     queue.cancelJob(activeJob.id);
   }
 
-  function requestResearch() {
+  function requestResearch(mode) {
     if (!title || !tuneId) return;
     if (busy) {
       cancelResearch();
       return;
     }
+    pendingModeRef.current = mode === 'review' ? 'review' : 'auto';
     if (hasExistingBackgroundInfo(existingBackgroundInfo)) {
       setShowConfirm(true);
       return;
     }
-    run(false);
+    run(false, pendingModeRef.current);
   }
 
-  function run(force) {
+  function run(force, mode) {
     if (!title || !tuneId) return;
     setShowConfirm(false);
     setError('');
     setSource('');
     setGenreSuggestion(null);
+    setShowReviewAccept(false);
+    setPendingReviewText('');
 
+    const searchMode = mode === 'review' ? 'review' : 'auto';
     const tune = {
       id: tuneId,
       name: title,
@@ -206,11 +233,32 @@ export default function TuneBackgroundSearchButton({
     const ids = queue.enqueueTunes([tune], {
       accessToken: token,
       force: !!force,
+      searchMode: searchMode,
       lyricsForTune: function() { return lyricsText; },
     });
     startedJobIdRef.current = ids[0] || null;
     handledTerminalJobRef.current = null;
     queue.start();
+  }
+
+  function acceptReviewResult() {
+    if (awaitingJob) {
+      applyBackgroundResearchChoice(awaitingJob.id);
+      if (typeof onBackgroundInfo === 'function' && awaitingJob.resultText) {
+        onBackgroundInfo({ text: awaitingJob.resultText });
+      }
+    } else if (pendingReviewText && typeof onBackgroundInfo === 'function') {
+      onBackgroundInfo({ text: pendingReviewText });
+    }
+    setShowReviewAccept(false);
+    setPendingReviewText('');
+    setSource('accepted');
+  }
+
+  function dismissReviewResult() {
+    if (awaitingJob) dismissBackgroundResearch(awaitingJob.id);
+    setShowReviewAccept(false);
+    setPendingReviewText('');
   }
 
   return (
@@ -255,7 +303,7 @@ export default function TuneBackgroundSearchButton({
           </div>
         </Alert>
       )}
-      {source && !error && (
+      {source && !error && !showReviewAccept && (
         <Alert variant="success" style={{ marginTop: '0.75em', clear: 'both' }}>
           Background imported ({source})
         </Alert>
@@ -275,19 +323,26 @@ export default function TuneBackgroundSearchButton({
           <Modal.Title>Replace background information?</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            This will <strong>clear all existing background information</strong> for this tune
-            and generate a new summary from web research.
-          </p>
-          <p style={{ marginBottom: 0 }}>Do you want to continue?</p>
+          This tune already has background information. Replace it with a new research result?
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>
-            Cancel
-          </Button>
-          <Button variant="danger" onClick={function() { run(true); }}>
-            Clear and research
-          </Button>
+          <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>Cancel</Button>
+          <Button variant="warning" onClick={function() { run(true, pendingModeRef.current); }}>Replace</Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal show={showReviewAccept} onHide={dismissReviewResult} size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>Review background information</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <pre style={{ whiteSpace: 'pre-wrap', maxHeight: '50vh', overflow: 'auto' }}>
+            {pendingReviewText}
+          </pre>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={dismissReviewResult}>Dismiss</Button>
+          <Button variant="success" onClick={acceptReviewResult}>Apply</Button>
         </Modal.Footer>
       </Modal>
     </>

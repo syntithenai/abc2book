@@ -20,9 +20,23 @@ import { discoverComposerCandidatesIfNeeded } from './composerLookupUtils';
 import { needsComposerDiscovery } from './composerDiscoveryUtils';
 import { isGenericArtist } from './genericArtistUtils';
 import { capitalizeSongTitle } from './titleCaseUtils';
+import { primaryArtist } from './tuneBibliographicUtils';
+import { lyricLinesToText } from './wLinesUtils';
+import { isTuneFieldEmptyForKind } from './fieldLookupApplyUtils';
 
 async function searchChordsAndLyrics(options) {
-  const { title, artist, token, signal, onProgress, resolverAvailable, abcTools, renderChords } = options;
+  const {
+    title,
+    artist,
+    token,
+    signal,
+    onProgress,
+    resolverAvailable,
+    abcTools,
+    renderChords,
+    skipChords,
+    skipLyrics,
+  } = options;
   const searchOpts = {
     title: title,
     artist: artist,
@@ -32,36 +46,84 @@ async function searchChordsAndLyrics(options) {
     abcTools: abcTools,
     renderChords: renderChords,
   };
-  try {
-    const chordResult = unwrapSearchResult(await searchChords(Object.assign({}, searchOpts, {
-      onProgress: function(message, progress) {
-        if (typeof onProgress === 'function') {
-          onProgress(message || 'Searching for chords...', progress);
-        }
-      },
-    })));
-    return {
-      chordText: chordResult.chordText || '',
-      lyricLines: Array.isArray(chordResult.lyricLines) ? chordResult.lyricLines : [],
-      artist: chordResult.artist || '',
-    };
-  } catch (chordError) {
-    if (chordError && chordError.name === 'AbortError') throw chordError;
-    const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
-      onProgress: function(message, progress) {
-        if (typeof onProgress === 'function') {
-          onProgress(message || 'Searching for lyrics...', progress);
-        }
-      },
-    })));
-    return {
-      chordText: '',
-      lyricLines: Array.isArray(lyricResult.lines)
-        ? lyricResult.lines
-        : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
-      artist: lyricResult.artist || '',
-    };
+
+  if (skipChords && skipLyrics) {
+    return { chordText: '', lyricLines: [], artist: '' };
   }
+
+  if (!skipChords) {
+    try {
+      const chordResult = unwrapSearchResult(await searchChords(Object.assign({}, searchOpts, {
+        onProgress: function(message, progress) {
+          if (typeof onProgress === 'function') {
+            onProgress(message || 'Searching for chords...', progress);
+          }
+        },
+      })));
+      const lyricLines = Array.isArray(chordResult.lyricLines) ? chordResult.lyricLines : [];
+      if (lyricLines.length > 0 || skipLyrics) {
+        return {
+          chordText: chordResult.chordText || '',
+          lyricLines: skipLyrics ? [] : lyricLines,
+          artist: chordResult.artist || '',
+        };
+      }
+      // Chords found without lyrics: still return chords; fall through for lyrics if needed.
+      if (chordResult.chordText) {
+        if (skipLyrics) {
+          return {
+            chordText: chordResult.chordText || '',
+            lyricLines: [],
+            artist: chordResult.artist || '',
+          };
+        }
+        try {
+          const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
+            onProgress: function(message, progress) {
+              if (typeof onProgress === 'function') {
+                onProgress(message || 'Searching for lyrics...', progress);
+              }
+            },
+          })));
+          return {
+            chordText: chordResult.chordText || '',
+            lyricLines: Array.isArray(lyricResult.lines)
+              ? lyricResult.lines
+              : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
+            artist: chordResult.artist || lyricResult.artist || '',
+          };
+        } catch (lyricError) {
+          if (lyricError && lyricError.name === 'AbortError') throw lyricError;
+          return {
+            chordText: chordResult.chordText || '',
+            lyricLines: [],
+            artist: chordResult.artist || '',
+          };
+        }
+      }
+    } catch (chordError) {
+      if (chordError && chordError.name === 'AbortError') throw chordError;
+    }
+  }
+
+  if (skipLyrics) {
+    return { chordText: '', lyricLines: [], artist: '' };
+  }
+
+  const lyricResult = unwrapSearchResult(await searchLyrics(Object.assign({}, searchOpts, {
+    onProgress: function(message, progress) {
+      if (typeof onProgress === 'function') {
+        onProgress(message || 'Searching for lyrics...', progress);
+      }
+    },
+  })));
+  return {
+    chordText: '',
+    lyricLines: Array.isArray(lyricResult.lines)
+      ? lyricResult.lines
+      : String(lyricResult.text || '').replace(/\r\n/g, '\n').split('\n'),
+    artist: lyricResult.artist || '',
+  };
 }
 
 export async function enrichImportCandidate(candidate, options) {
@@ -80,7 +142,7 @@ export async function enrichImportCandidate(candidate, options) {
     tune.name = capitalizeSongTitle(tune.name);
   }
   const title = tune.name || '';
-  const artist = tune.composer || '';
+  const artist = primaryArtist(tune);
 
   let draft = createWizardDraft(tune);
   try {
@@ -96,7 +158,8 @@ export async function enrichImportCandidate(candidate, options) {
   }
 
   onProgress('Searching for chords, lyrics, and background…', 0.1);
-  const backgroundPromise = token
+  const hasBackground = !!(typeof tune.backgroundInfo === 'string' && tune.backgroundInfo.trim());
+  const backgroundPromise = token && !hasBackground
     ? researchTuneBackground({
       title: title,
       artist: artist,
@@ -114,20 +177,26 @@ export async function enrichImportCandidate(candidate, options) {
     })
     : Promise.resolve('');
 
-  const searchResult = await searchChordsAndLyrics({
-    title: title,
-    artist: artist,
-    token: token,
-    signal: signal,
-    resolverAvailable: options.resolverAvailable,
-    abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
-    renderChords: abcjsParser && typeof abcjsParser.renderChords === 'function'
-      ? function(abc) { return abcjsParser.renderChords(abc, true) }
-      : null,
-    onProgress: function(message, progress) {
-      onProgress(message || 'Searching…', 0.1 + (progress || 0) * 0.2);
-    },
-  });
+  const chordsFilled = !isTuneFieldEmptyForKind(tune, 'chords');
+  const lyricsFilled = !!String(lyricLinesToText(tune) || '').trim();
+  const searchResult = (chordsFilled && lyricsFilled)
+    ? { chordText: '', lyricLines: [], artist: '' }
+    : await searchChordsAndLyrics({
+      title: title,
+      artist: artist,
+      token: token,
+      signal: signal,
+      resolverAvailable: options.resolverAvailable,
+      abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+      renderChords: abcjsParser && typeof abcjsParser.renderChords === 'function'
+        ? function(abc) { return abcjsParser.renderChords(abc, true) }
+        : null,
+      skipChords: chordsFilled,
+      skipLyrics: lyricsFilled,
+      onProgress: function(message, progress) {
+        onProgress(message || 'Searching…', 0.1 + (progress || 0) * 0.2);
+      },
+    });
   const lookupBackgroundInfo = await backgroundPromise;
 
   let composerCandidates = [];

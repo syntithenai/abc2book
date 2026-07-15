@@ -1,6 +1,5 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
-import AddSongModal from './AddSongModal'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
 import {useEffect, useMemo, useState, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
@@ -243,28 +242,22 @@ export default function Header(props) {
                 </>}
                 <div className="header-dropdown-section header-dropdown-section-actions">
                     <ButtonGroup className="header-dropdown-actions-group">
-                        <AddSongModal
-                            buttonSize={navButtonSize}
-                            buttonClassName="header-dropdown-btn"
-                            buttonGroupMember={true}
-                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                            tunes={props.tunes}
-                            token={props.token}
-                            requestGoogleScopes={props.requestGoogleScopes}
-                            login={props.login}
-                            tunesHash={props.tunesHash}
-                            forceRefresh={props.forceRefresh}
-                            filter={props.filter}
-                            setFilter={props.setFilter}
-                            tunebook={props.tunebook}
-                            currentTuneBook={props.currentTuneBook}
-                            setCurrentTuneBook={props.setCurrentTuneBook}
-                            tagFilter={props.tagFilter}
-                            setTagFilter={props.setTagFilter}
-                            searchIndex={props.searchIndex}
-                            loadTuneTexts={props.loadTuneTexts}
-                            mediaController={props.mediaController}
-                        />
+                        <span className="header-dropdown-add-trigger" style={{ display: 'contents' }}>
+                            <Button
+                                as={Link}
+                                to="/add"
+                                variant="success"
+                                size={navButtonSize}
+                                className="header-dropdown-btn header-dropdown-add-btn"
+                                title="Add Tunes"
+                                data-testid="header-add-button"
+                            >
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.fileadd}
+                                    <span>Add</span>
+                                </span>
+                            </Button>
+                        </span>
                         {reviewReadyCount > 0 ? (
                             <Button
                                 as={Link}
@@ -304,7 +297,7 @@ export default function Header(props) {
                         <Dropdown.Item as="div">
                             <Link to="/sets">
                                 <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                    {props.tunebook.icons.playlist} Setlists
+                                    {props.tunebook.icons.setlist} Setlists
                                 </Button>
                             </Link>
                         </Dropdown.Item>

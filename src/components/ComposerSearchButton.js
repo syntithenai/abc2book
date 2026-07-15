@@ -7,7 +7,7 @@ import {
   needsComposerDiscovery,
 } from '../composerDiscoveryUtils'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice } from '../tuneFieldLookupQueue'
+import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
@@ -37,6 +37,7 @@ export default function ComposerSearchButton({
     : resolverAvailableFromHealth
   const alwaysPickRef = useRef(!!alwaysPick)
   alwaysPickRef.current = !!alwaysPick
+  const searchModeRef = useRef('auto')
   const composerRef = useRef(composer)
   composerRef.current = composer
   const applyRef = useRef(null)
@@ -62,7 +63,8 @@ export default function ComposerSearchButton({
     kind: 'composer',
     onAwaiting: function(job) {
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (alwaysPickRef.current) {
+      const forcePick = alwaysPickRef.current || searchModeRef.current === 'review'
+      if (forcePick) {
         if (candidates.length === 0) {
           setError('Artist search returned no artist')
           return
@@ -71,14 +73,12 @@ export default function ComposerSearchButton({
         setShowPicker(true)
         return
       }
-      if (candidates.length > 1) {
-        setPickerCandidates(candidates)
-        setShowPicker(true)
-        return
-      }
-      if (candidates.length === 1) {
-        if (needsComposerDiscovery(composerRef.current)) {
+      if (candidates.length >= 1) {
+        if (needsComposerDiscovery(composerRef.current) || searchModeRef.current === 'auto') {
           applyRef.current(candidates[0], job.id)
+        } else if (candidates.length > 1) {
+          setPickerCandidates(candidates)
+          setShowPicker(true)
         }
         return
       }
@@ -105,12 +105,14 @@ export default function ComposerSearchButton({
     finishApply(candidate, jobId)
   }
 
-  function run() {
+  function run(mode) {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
     }
+    const searchMode = mode === 'review' ? 'review' : 'auto'
+    searchModeRef.current = searchMode
     setError('')
     setSource('')
     setShowPicker(false)
@@ -121,10 +123,10 @@ export default function ComposerSearchButton({
       titleHint: hints.titleHint || titleHint || title || '',
       tuneName: effectiveTitle,
       accessToken: token,
-      options: {
-        alwaysPick: !!alwaysPick,
+      options: buildSearchModeOptions(searchMode, {
+        alwaysPick: !!alwaysPick || searchMode === 'review',
         currentComposer: composer || '',
-      },
+      }),
       searchOptions: {
         resolverAvailable: resolverAvailable,
       },

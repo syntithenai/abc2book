@@ -310,6 +310,13 @@
   color: #e65100;
 }
 
+.practice-playback-status--countin {
+  background: #e8eefc;
+  border-color: #90b4f8;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
 .practice-playback-status--loading .practice-playback-status-icon {
   animation: practice-playback-spin 1s linear infinite;
 }
@@ -378,6 +385,43 @@
 
 .practice-session-warmup-notation {
   margin-top: 0.5rem;
+  position: relative;
+}
+
+.practice-warmup-countin-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #eef4ff, #e2ebff);
+  border: 1px solid #90b4f8;
+  text-align: center;
+}
+
+.practice-warmup-countin-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1d4ed8;
+  opacity: 0.85;
+}
+
+.practice-warmup-countin-beat {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #1e3a8a;
+  font-variant-numeric: tabular-nums;
+}
+
+.practice-warmup-countin-meta {
+  font-size: 0.85rem;
+  color: #334155;
+  opacity: 0.85;
 }
 
 .practice-duration-buttons .btn {

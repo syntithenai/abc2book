@@ -208,6 +208,57 @@ describe('staffCaretPosition', function() {
     document.body.removeChild(wrap);
   });
 
+  test('caretIndexAndAnchorFromStaffClick places caret between consecutive barlines', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 0, top: 0, right: 400, bottom: 120, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 20, right: 56, bottom: 52, width: 16, height: 32 };
+    };
+    const bar1 = document.createElement('g');
+    bar1.className = 'abcjs-bar abcjs-v0';
+    bar1.getBoundingClientRect = function() {
+      return { left: 80, top: 20, right: 84, bottom: 52, width: 4, height: 32 };
+    };
+    const bar2 = document.createElement('g');
+    bar2.className = 'abcjs-bar abcjs-v0';
+    bar2.getBoundingClientRect = function() {
+      return { left: 200, top: 20, right: 204, bottom: 52, width: 4, height: 32 };
+    };
+    const note2 = document.createElement('g');
+    note2.className = 'abcjs-note abcjs-v0';
+    note2.getBoundingClientRect = function() {
+      return { left: 240, top: 20, right: 256, bottom: 52, width: 16, height: 32 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(bar1);
+    wrap.appendChild(bar2);
+    wrap.appendChild(note2);
+    document.body.appendChild(wrap);
+
+    // C | (empty) | D  — click in the empty measure between bars
+    const events = [
+      { type: 'note' },
+      { type: 'barline', barToken: '|' },
+      { type: 'barline', barToken: '|' },
+      { type: 'note' },
+    ];
+    const result = caretIndexAndAnchorFromStaffClick(
+      wrap,
+      events,
+      { clientX: 140, clientY: 35 },
+      null,
+      0
+    );
+    expect(result).not.toBeNull();
+    expect(result.caretIndex).toBe(2);
+
+    document.body.removeChild(wrap);
+  });
+
   test('drawableElementsForVoice collects all system lines for one voice', function() {
     const wrap = document.createElement('div');
     const line1Note = document.createElement('g');

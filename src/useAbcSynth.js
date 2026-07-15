@@ -21,6 +21,7 @@ import {
 import { getPlaybackMetronomeSettings } from './playbackMetronomeSettings'
 import { createRhythm, countInMusicStartDelayMs, slotsForBeatCount } from './metronomeRhythmPresets'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
+import { preloadCountInCueInstrument, scheduleCountInCueNote } from './countInPitchCue'
 
 export default function useAbcSynth(props) {
     
@@ -615,6 +616,8 @@ export default function useAbcSynth(props) {
             metronomeTimeout.current = null
         }
         if (metronome.current) {
+            metronome.current.onSlotChange = null
+            metronome.current.onFirstNoteSchedule = null
             metronome.current.stop()
             metronome.current = null
         }
@@ -1722,6 +1725,39 @@ export default function useAbcSynth(props) {
                             },
                             countInRhythm
                         )
+                        let countInSlotEmitted = 0
+                        const totalCountInBeats = countInSlots
+                        const cueMidi = props.metronomeCountInCueMidi
+                        const barDurationSec = (60 / effectiveTempo) * Math.max(1, countInRhythm.beatsPerBar || metronomeBeats || 4)
+                        if (cueMidi != null && Number.isFinite(cueMidi)) {
+                            preloadCountInCueInstrument(gaudioContext.current)
+                        }
+                        metronome.current.onFirstNoteSchedule = function(time) {
+                            if (!isPlaybackGenerationCurrent(countInGeneration)) return
+                            if (cueMidi == null || !Number.isFinite(cueMidi)) return
+                            const cueGain = props.practiceReferenceGain != null
+                                ? Math.max(0.2, Math.min(0.7, props.practiceReferenceGain * 2.5))
+                                : 0.45
+                            scheduleCountInCueNote(
+                                gaudioContext.current,
+                                cueMidi,
+                                time,
+                                barDurationSec,
+                                cueGain
+                            )
+                        }
+                        metronome.current.onSlotChange = function() {
+                            if (!isPlaybackGenerationCurrent(countInGeneration)) return
+                            countInSlotEmitted += 1
+                            if (props.onCountInBeat) {
+                                props.onCountInBeat({
+                                    beat: Math.min(countInSlotEmitted, totalCountInBeats),
+                                    totalBeats: totalCountInBeats,
+                                    remaining: Math.max(0, totalCountInBeats - countInSlotEmitted + 1),
+                                    slotsRemaining: Math.max(0, countInSlots - countInSlotEmitted),
+                                })
+                            }
+                        }
                         startCountInCursor()
                         metronome.current.start()
                     })

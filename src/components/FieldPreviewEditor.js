@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 
-const PENCIL_ICON = (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-    <path fill="none" d="M0 0h24v24H0z" />
-    <path fill="currentColor" d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z" />
+export const FULLSCREEN_ICON = (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true">
+    <path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z" />
   </svg>
 );
 
@@ -46,10 +45,11 @@ export default function FieldPreviewEditor(props) {
     setEditing(true);
   }
 
-  function saveEditor() {
-    if (typeof props.onChange === 'function') props.onChange(draft);
-    setPreviewDraft(draft);
-    setEditing(false);
+  function applyValue(next) {
+    const text = next == null ? '' : String(next);
+    setDraft(text);
+    setPreviewDraft(text);
+    if (typeof props.onChange === 'function') props.onChange(text);
   }
 
   function commitPreview() {
@@ -71,12 +71,12 @@ export default function FieldPreviewEditor(props) {
         <Button
           size="sm"
           variant="outline-secondary"
-          className="field-preview-editor-pencil"
+          className="field-preview-editor-fullscreen-btn"
           onClick={openEditor}
-          aria-label={'Edit ' + label}
-          title={'Edit ' + label}
+          aria-label={'Edit ' + label + ' fullscreen'}
+          title={'Edit ' + label + ' fullscreen'}
         >
-          {props.editIcon || PENCIL_ICON}
+          {props.editIcon || FULLSCREEN_ICON}
         </Button>
       </div>
 
@@ -99,7 +99,6 @@ export default function FieldPreviewEditor(props) {
           show={editing}
           onHide={function() { setEditing(false); }}
           fullscreen
-          backdrop="static"
           className={'field-preview-editor-modal' + (props.fillDialogHeight ? ' field-preview-editor-modal--fill' : '')}
         >
           <Modal.Header closeButton>
@@ -109,12 +108,16 @@ export default function FieldPreviewEditor(props) {
             {props.dialogToolbar ? (
               <div className="field-preview-editor-dialog-toolbar mb-2">
                 {typeof props.dialogToolbar === 'function'
-                  ? props.dialogToolbar({ draft: draft, setDraft: setDraft, textareaRef: dialogTextareaRef })
+                  ? props.dialogToolbar({
+                    draft: draft,
+                    setDraft: applyValue,
+                    textareaRef: dialogTextareaRef,
+                  })
                   : props.dialogToolbar}
               </div>
             ) : null}
             {typeof props.renderDialogExtra === 'function'
-              ? props.renderDialogExtra(draft, { setDraft: setDraft })
+              ? props.renderDialogExtra(draft, { setDraft: applyValue })
               : (props.dialogPreview || null)}
             <Form.Control
               as="textarea"
@@ -123,14 +126,10 @@ export default function FieldPreviewEditor(props) {
               rows={props.fillDialogHeight ? undefined : (props.dialogRows || 22)}
               style={textareaStyle}
               value={draft}
-              onChange={function(e) { setDraft(e.target.value); }}
+              onChange={function(e) { applyValue(e.target.value); }}
               autoFocus
             />
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={function() { setEditing(false); }}>Cancel</Button>
-            <Button variant="success" onClick={saveEditor}>Save</Button>
-          </Modal.Footer>
         </Modal>
       ) : null}
     </div>

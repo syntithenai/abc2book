@@ -2,7 +2,6 @@ import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, Form} from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import useMusicBrainz from '../useMusicBrainz'
-import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import {useParams} from 'react-router-dom'
 import AsyncCreatableSelect from 'react-select/async-creatable';
@@ -13,8 +12,10 @@ import FieldLookupReviewButton from './FieldLookupReviewButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
+import LyricsSectionsDropdown from './LyricsSectionsDropdown'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
+import TuneArtistsField from './TuneArtistsField'
 
 function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   const text = String(textValue || '')
@@ -50,7 +51,6 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
     }
   }, [show, showNoteAlignedLyrics, showLyricsTools, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
-  var abcjsParser = useAbcjsParser()
   let params = useParams();
 
   function saveLyrics(lines) {
@@ -117,7 +117,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
 
                       <Form.Group className="mb-3" controlId="composer">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                          <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
+                          <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
                           <ComposerSearchButton
                             tuneId={params.tuneId || (tune && tune.id)}
                             title={tune.name || ''}
@@ -161,6 +161,14 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           />
 
                       </Form.Group>
+                      <TuneArtistsField
+                        value={tune.artists}
+                        onChange={function(artists) {
+                          tune.artists = artists
+                          tune.id = params.tuneId
+                          tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                        }}
+                      />
                       <TuneAliasesField
                         value={tune.aliases}
                         onChange={function(aliases) {
@@ -171,6 +179,12 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                       />
                     <Form.Group className="mb-3" controlId="key">
                         <div className="abc-editor-lyrics-toolbar">
+                        <LyricsSectionsDropdown
+                          lyricsText={lyricLinesToText(tune)}
+                          textareaRef={lyricsTextareaRef}
+                          tunebook={tunebook}
+                          onChange={function(text) { saveLyrics(String(text || '').split(/\r?\n/)) }}
+                        />
                         <LyricsSearchButton
                           tuneId={params.tuneId || (tune && tune.id)}
                           title={tune.name}
@@ -191,11 +205,6 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             else if (result && result.text) saveLyrics(String(result.text).split(/\r?\n/))
                           }}
                         />
-                        <Button variant="info" style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}} onClick={function() {
-                            var start = lyricLinesToText(tune)
-                            var clean = abcjsParser.cleanupLyrics(start)
-                            saveLyrics(clean.split('\n'))
-                        }} >{tunebook.icons.wizard} Clean</Button>
                         <Button
                           variant="outline-primary"
                           style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}

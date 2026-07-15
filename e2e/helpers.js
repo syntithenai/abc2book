@@ -350,7 +350,7 @@ async function dragStaffNoteByIndex(page, noteIndex, staffSteps) {
   await page.mouse.down()
   await page.mouse.move(pt.x, pt.y + deltaY, { steps: Math.max(4, Math.abs(staffSteps) * 2) })
   await page.mouse.up()
-  await sleep(400)
+  await sleep(500)
 }
 
 async function clickStaffGap(page, clientX, clientY) {

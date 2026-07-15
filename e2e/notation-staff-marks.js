@@ -102,7 +102,9 @@ async function runStaffMarksTests(page, ctx) {
     await sleep(200)
     const flags = await page.evaluate(function() {
       const events = window.__abc2bookNotationTest.getSessionEvents()
-      return events[0].slurStart || events[1].slurEnd
+      const selection = window.__abc2bookNotationTest.getSelection()
+      const selected = events.filter(function(ev) { return selection.eventIds.indexOf(ev.id) >= 0 })
+      return selected.some(function(ev) { return ev.slurStart || ev.slurEnd })
     })
     if (flags) throw new Error('clear slur should remove slur flags on selected note')
   })

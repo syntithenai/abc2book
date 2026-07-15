@@ -25,7 +25,7 @@ describe('timedImportFinalizer', function() {
     expect(noteLinesHaveRealMelody(['| "D" z2 "G" z "A" z |'])).toBe(false);
   });
 
-  test('clearTransientTimedFields removes timed JSON fields', function() {
+  test('clearTransientTimedFields removes timed JSON fields but keeps lyrics', function() {
     const tune = {
       timedLyrics: { lines: [] },
       timedChords: { segments: [] },
@@ -37,11 +37,11 @@ describe('timedImportFinalizer', function() {
     expect(tune.timedLyrics).toBeUndefined();
     expect(tune.timedChords).toBeUndefined();
     expect(tune.timedMelody).toBeUndefined();
-    expect(tune.words).toBeUndefined();
+    expect(tune.words).toEqual(['a']);
     expect(tune.wLines).toEqual(['keep me']);
   });
 
-  test('finalizeChordSheetToTune can preserve timed media', function() {
+  test('finalizeChordSheetToTune clears all timed fields after chord merge', function() {
     const abcjsParser = useAbcjsParser();
     const tunebook = mockTunebook();
     const abc = [
@@ -56,6 +56,7 @@ describe('timedImportFinalizer', function() {
     tune.id = 'preserve-timed';
     tune.timedLyrics = { lines: [{ text: 'hello' }] };
     tune.timedChords = { segments: [{ label: 'C' }] };
+    tune.timedMelody = { notes: [{ midi: 60, start: 0, end: 1 }] };
 
     finalizeChordSheetToTune({
       tune: tune,
@@ -64,11 +65,11 @@ describe('timedImportFinalizer', function() {
       abc: abc,
       chordGridText: 'C|G|',
       lyricLines: ['hello world'],
-      preserveTimedMedia: true,
     });
 
-    expect(tune.timedLyrics).toEqual({ lines: [{ text: 'hello' }] });
-    expect(tune.timedChords).toEqual({ segments: [{ label: 'C' }] });
+    expect(tune.timedLyrics).toBeUndefined();
+    expect(tune.timedMelody).toBeUndefined();
+    expect(tune.timedChords).toBeUndefined();
   });
 
   test('finalizeMediaTimedImport clears timed fields and keeps wLines', function() {

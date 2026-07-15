@@ -6,6 +6,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import { submitVoiceCommand } from '../voiceCommandClient';
 import { executeVoiceCommand } from '../voiceCommandExecutor';
 import { buildVoiceCatalogs, formatVoiceCommandFeedback } from '../voiceCommandUtils';
+import { primaryArtist } from '../tuneBibliographicUtils';
 
 const MIN_HOLD_MS = 300;
 const MAX_RECORD_MS = 12000;
@@ -194,7 +195,7 @@ export default function VoiceCommandButton(props) {
               return {
                 id: tune.id,
                 title: tune.name,
-                artist: tune.composer || '',
+                artist: primaryArtist(tune),
               };
             }));
             setPickerTitle('Choose a tune for "' + query + '"');

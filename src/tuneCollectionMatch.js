@@ -76,7 +76,7 @@ export function findCollectionMatches(options) {
     Object.values(tunes).forEach(function(tune) {
       if (!tune || !tune.id || seen[tune.id]) return;
       const titleScore = scoreTuneMatch(title, tune);
-      const artistScore = scoreTuneMatch(artist, { name: '', composer: tune.composer || '' });
+      const artistScore = scoreTuneMatch(artist, { name: '', composer: tune.composer || '', artists: tune.artists || [] });
       const combined = titleScore + artistScore;
       if (combined >= minScore) {
         seen[tune.id] = true;

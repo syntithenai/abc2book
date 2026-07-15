@@ -18,7 +18,7 @@ const FORM_SCALAR_FIELDS = [
 const FORM_LIST_FIELDS = ['bookList', 'tagList'];
 
 const FORM_JSON_FIELDS = [
-  'timedChords', 'timedLyrics', 'playbackAudioFilters', 'soundFonts', 'timingScaffold', 'meta',
+  'playbackAudioFilters', 'soundFonts', 'timingScaffold', 'meta',
 ];
 
 const TUNE_KEY_TO_FORM = {
@@ -51,6 +51,9 @@ function isFormFieldEmpty(formKey, value) {
   if (value === null || value === undefined) return true;
   if (typeof value === 'string') return value.trim() === '';
   if (Array.isArray(value)) return value.length === 0;
+  if (formKey === 'notes' || formKey === 'voices') {
+    if (typeof value === 'object') return voiceNotesLineCount(value) === 0;
+  }
   if (typeof value === 'object') return Object.keys(value).length === 0;
   return false;
 }
@@ -62,6 +65,126 @@ function voiceNotesLineCount(voices) {
     const notes = voice && Array.isArray(voice.notes) ? voice.notes : [];
     return total + notes.filter(function(line) { return String(line || '').trim(); }).length;
   }, 0);
+}
+
+function baselineDisplayForFormValue(formKey, value) {
+  if (formKey === 'notes' || formKey === 'voices') {
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+      return notationTextFromTune({ voices: value });
+    }
+    return String(value || '');
+  }
+  if (formKey === 'lyrics') return String(value || '');
+  if (formKey === 'bookList' || formKey === 'tagList') {
+    return parseListField(value).join(', ');
+  }
+  if (Array.isArray(value)) {
+    return value.map(function(item) {
+      if (item && typeof item === 'object') return String(item.title || item.link || '').trim();
+      return String(item || '').trim();
+    }).filter(Boolean).join('; ');
+  }
+  if (value && typeof value === 'object') {
+    try {
+      return JSON.stringify(value);
+    } catch (e) {
+      return '';
+    }
+  }
+  return value == null ? '' : String(value);
+}
+
+/**
+ * Ensure every import Use-dropdown includes a "Current value" choice that
+ * restores the pre-import field value.
+ */
+export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisplay) {
+  if (!suggestion) return suggestion;
+  const display = baselineDisplay != null
+    ? baselineDisplay
+    : baselineDisplayForFormValue(suggestion.formKey || '', baselineValue);
+  const currentChoice = {
+    id: 'current',
+    label: 'Current value',
+    preview: String(display || '').trim() ? String(display) : '(empty)',
+    value: baselineValue === undefined ? null : cloneValue(baselineValue),
+    source: 'current',
+  };
+  let rest;
+  if (Array.isArray(suggestion.choices) && suggestion.choices.length) {
+    rest = suggestion.choices.filter(function(choice) {
+      return !(choice && choice.id === 'current');
+    });
+  } else {
+    rest = [{
+      id: 'imported',
+      label: 'Imported',
+      preview: suggestion.displayValue != null && String(suggestion.displayValue).trim() !== ''
+        ? String(suggestion.displayValue)
+        : '(empty)',
+      value: cloneValue(suggestion.value),
+      source: 'import',
+    }];
+  }
+  return Object.assign({}, suggestion, {
+    baselineValue: baselineValue === undefined ? null : cloneValue(baselineValue),
+    choices: [currentChoice].concat(rest),
+  });
+}
+
+/**
+ * Fold coalesced alternate field values into review suggestions without dropping any.
+ */
+export function applyCoalescedFieldChoicesToSuggestions(suggestions, fieldChoices, formValues) {
+  const next = Object.assign({}, suggestions || {});
+  const choicesByFormKey = fieldChoices && typeof fieldChoices === 'object' ? fieldChoices : {};
+  Object.keys(choicesByFormKey).forEach(function(formKey) {
+    const extras = Array.isArray(choicesByFormKey[formKey]) ? choicesByFormKey[formKey] : [];
+    if (!extras.length) return;
+    const existing = next[formKey];
+    const baseline = formValues ? getFormFieldValue(formValues, formKey) : null;
+    let mergedChoices = [];
+    if (existing && Array.isArray(existing.choices)) {
+      mergedChoices = existing.choices.filter(function(choice) {
+        return !(choice && choice.id === 'current');
+      });
+    } else if (existing) {
+      mergedChoices = [{
+        id: 'imported',
+        label: 'Imported',
+        preview: existing.displayValue != null ? String(existing.displayValue) : '',
+        value: cloneValue(existing.value),
+        source: existing.source || 'import',
+      }];
+    }
+    extras.forEach(function(choice, index) {
+      if (!choice) return;
+      const duplicate = mergedChoices.some(function(item) {
+        try {
+          return JSON.stringify(item && item.value) === JSON.stringify(choice.value);
+        } catch (e) {
+          return false;
+        }
+      });
+      if (duplicate) return;
+      mergedChoices.push(Object.assign({}, choice, {
+        id: choice.id || (formKey + '-coalesce-' + index),
+      }));
+    });
+    if (!mergedChoices.length) return;
+    const primary = existing || {
+      key: formKey === 'title' ? 'name' : (formKey === 'artist' ? 'composer' : (formKey === 'notes' ? 'voices' : (formKey === 'lyrics' ? 'words' : formKey))),
+      formKey: formKey,
+      value: cloneValue(mergedChoices[0].value),
+      displayValue: mergedChoices[0].preview,
+    };
+    next[formKey] = attachCurrentValueChoice(Object.assign({}, primary, {
+      value: primary.value !== undefined ? primary.value : cloneValue(mergedChoices[0].value),
+      displayValue: primary.displayValue != null ? primary.displayValue : mergedChoices[0].preview,
+      choices: mergedChoices,
+    }), baseline, baselineDisplayForFormValue(formKey, baseline));
+  });
+  return next;
 }
 
 export function notationTextFromTune(tune) {
@@ -98,7 +221,7 @@ export function lyricsTextFromTune(tune) {
 function tuneValueToFormValue(tuneKey, value) {
   if (tuneKey === 'books') return Array.isArray(value) ? value.join(', ') : '';
   if (tuneKey === 'tags') return Array.isArray(value) ? value.join(', ') : '';
-  if (tuneKey === 'aliases') return Array.isArray(value) ? value.slice() : [];
+  if (tuneKey === 'aliases' || tuneKey === 'artists') return Array.isArray(value) ? value.slice() : [];
   if (tuneKey === 'links') return Array.isArray(value) ? value.slice() : [];
   if (tuneKey === 'voices') return notationTextFromTune({ voices: value });
   if (tuneKey === 'words' || tuneKey === 'wLines') return Array.isArray(value) ? value.join('\n') : '';
@@ -110,7 +233,7 @@ function tuneValueToFormValue(tuneKey, value) {
 function formValueToTuneValue(formKey, value) {
   if (formKey === 'bookList') return parseListField(value);
   if (formKey === 'tagList') return parseListField(value);
-  if (formKey === 'aliases') return Array.isArray(value) ? value.slice() : [];
+  if (formKey === 'aliases' || formKey === 'artists') return Array.isArray(value) ? value.slice() : [];
   if (formKey === 'links') return Array.isArray(value) ? value.slice() : [];
   if (formKey === 'notes') return value;
   if (formKey === 'lyrics') return value;
@@ -134,6 +257,7 @@ export function emptyFormValues() {
   const values = {
     title: '',
     artist: '',
+    artists: [],
     aliases: [],
     genre: '',
     rhythm: '',
@@ -163,8 +287,6 @@ export function emptyFormValues() {
     repeats: '',
     composerId: '',
     abccomments: '',
-    timedChords: null,
-    timedLyrics: null,
     playbackAudioFilters: null,
     soundFonts: null,
     timingScaffold: '',
@@ -178,6 +300,7 @@ export function tuneToFormValues(tune) {
   const values = emptyFormValues();
   values.title = source.name || '';
   values.artist = source.composer || '';
+  values.artists = Array.isArray(source.artists) ? source.artists.slice() : [];
   values.aliases = Array.isArray(source.aliases) ? source.aliases.slice() : [];
   values.genre = source.genre || '';
   values.rhythm = source.rhythm || '';
@@ -212,8 +335,6 @@ export function tuneToFormValues(tune) {
   values.repeats = source.repeats != null && source.repeats !== '' ? String(source.repeats) : '';
   values.composerId = source.composerId || '';
   values.abccomments = source.abccomments || '';
-  values.timedChords = source.timedChords ? cloneValue(source.timedChords) : null;
-  values.timedLyrics = source.timedLyrics ? cloneValue(source.timedLyrics) : null;
   values.playbackAudioFilters = source.playbackAudioFilters ? cloneValue(source.playbackAudioFilters) : null;
   values.soundFonts = source.soundFonts ? cloneValue(source.soundFonts) : null;
   values.timingScaffold = source.timingScaffold === true || source.timingScaffold === false
@@ -228,6 +349,7 @@ export function formValuesToTune(formValues, baseTune) {
   const values = formValues || emptyFormValues();
   next.name = String(values.title || '').trim();
   next.composer = String(values.artist || '').trim();
+  next.artists = Array.isArray(values.artists) ? values.artists.slice() : [];
   next.aliases = Array.isArray(values.aliases) ? values.aliases.slice() : [];
   next.genre = String(values.genre || '').trim();
   next.rhythm = String(values.rhythm || '').trim();
@@ -312,6 +434,10 @@ export function formValuesToTune(formValues, baseTune) {
     next.words = [];
   }
 
+  delete next.timedLyrics;
+  delete next.timedChords;
+  delete next.timedMelody;
+
   return next;
 }
 
@@ -384,9 +510,10 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
           && baseTune.links.some(function(link) {
             return !!(link && link.link && String(link.link).trim());
           });
+        const baselineLinks = Array.isArray(formValues.links) ? cloneValue(formValues.links) : [];
         // Multiple YouTube suggestions (or replacing existing links) stay choosable in review.
         if (importedLinks.length > 1 || baseHasLinks) {
-          suggestions.links = {
+          suggestions.links = attachCurrentValueChoice({
             key: 'links',
             formKey: 'links',
             value: cloneValue(importedLinks),
@@ -402,7 +529,7 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
                 source: 'youtube',
               };
             }),
-          };
+          }, baselineLinks, baselineDisplayForFormValue('links', baselineLinks));
         } else {
           formValues.links = mergeImportedLinks(formValues.links, imported.links);
           autoAppliedKeys.push('links');
@@ -411,34 +538,33 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
       if (tuneKey === 'voices' && importedFieldIsPresent('voices', imported.voices)) {
         const importedVoices = imported.voices;
         const importedNotes = notationTextFromTune({ voices: importedVoices });
-        const currentHasNotes = String(formValues.notes || '').trim()
-          || voiceNotesLineCount(formValues.voices) > 0;
-        if (!currentHasNotes) {
-          formValues.voices = cloneValue(importedVoices);
-          formValues.notes = importedNotes;
-          autoAppliedKeys.push('voices');
-        } else if (!fieldValuesSemanticallyEqual('voices', getTuneFieldValue(baseTune, 'voices'), importedVoices)) {
-          suggestions.notes = {
+        const baselineVoices = cloneValue(formValues.voices || { '1': { meta: '', notes: [] } });
+        const baselineNotes = String(formValues.notes || '').trim()
+          || notationTextFromTune({ voices: baselineVoices });
+        // Never auto-write notation — keep current value and offer Use choices to compare.
+        if (!fieldValuesSemanticallyEqual('voices', getTuneFieldValue(baseTune, 'voices'), importedVoices)) {
+          suggestions.notes = attachCurrentValueChoice({
             key: 'voices',
             formKey: 'notes',
             value: cloneValue(importedVoices),
             displayValue: importedNotes,
-          };
+          }, baselineVoices, baselineNotes);
         }
       }
       if ((tuneKey === 'words' || tuneKey === 'wLines') && !suggestions.lyrics) {
         const lyrics = lyricsTextFromTune(imported);
         if (lyrics.trim()) {
+          const baselineLyrics = formValues.lyrics || '';
           if (isFormFieldEmpty('lyrics', formValues.lyrics)) {
             formValues.lyrics = lyrics;
             autoAppliedKeys.push(tuneKey);
           } else if (!fieldValuesSemanticallyEqual(tuneKey, getTuneFieldValue(baseTune, tuneKey), getTuneFieldValue(imported, tuneKey))) {
-            suggestions.lyrics = {
+            suggestions.lyrics = attachCurrentValueChoice({
               key: tuneKey,
               formKey: 'lyrics',
               value: cloneValue(getTuneFieldValue(imported, tuneKey)),
               displayValue: lyrics,
-            };
+            }, baselineLyrics, baselineLyrics);
           }
         }
       }
@@ -472,12 +598,12 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
       return;
     }
 
-    suggestions[formKey] = {
+    suggestions[formKey] = attachCurrentValueChoice({
       key: tuneKey,
       formKey: formKey,
       value: cloneValue(importedValue),
       displayValue: tuneValueToFormValue(tuneKey, importedValue),
-    };
+    }, currentFormValue, baselineDisplayForFormValue(formKey, currentFormValue));
   });
 
   return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
@@ -494,7 +620,7 @@ function formValueAsTuneComparable(formKey, value) {
   if (formKey === 'lyrics') {
     return String(value || '').split(/\r?\n/);
   }
-  if (formKey === 'aliases' || formKey === 'links') {
+  if (formKey === 'aliases' || formKey === 'artists' || formKey === 'links') {
     return Array.isArray(value) ? value : [];
   }
   return value;
@@ -545,32 +671,61 @@ export function applyImportSuggestion(formValues, formKey, suggestion) {
   const next = Object.assign({}, formValues || emptyFormValues());
   if (!suggestion) return next;
   if (formKey === 'links') {
+    if (suggestion.source === 'current') {
+      next.links = Array.isArray(suggestion.value) ? cloneValue(suggestion.value) : [];
+      return next;
+    }
     const links = Array.isArray(suggestion.value) ? suggestion.value : [];
     next.links = mergeImportedLinks(Array.isArray(next.links) ? next.links : [], links);
     return next;
   }
-  const displayValue = suggestion.displayValue != null
-    ? suggestion.displayValue
-    : tuneValueToFormValue(suggestion.key, suggestion.value);
-  next[formKey] = cloneValue(displayValue);
   if (formKey === 'notes') {
     if (suggestion.value && typeof suggestion.value === 'object' && !Array.isArray(suggestion.value)) {
       next.voices = cloneValue(suggestion.value);
       next.notes = notationTextFromTune({ voices: next.voices });
     } else {
-      const text = String(displayValue || '');
+      const text = suggestion.value == null ? '' : String(suggestion.value);
       const voices = Object.assign({}, next.voices || { '1': { meta: '', notes: [] } });
       const primaryKey = Object.keys(voices).sort()[0] || '1';
       voices[primaryKey] = Object.assign({}, voices[primaryKey] || { meta: '' }, {
-        notes: text.split(/\r?\n/),
+        notes: text ? text.split(/\r?\n/) : [],
       });
       next.voices = voices;
       next.notes = text;
     }
+    return next;
   }
   if (formKey === 'voices' && suggestion.value && typeof suggestion.value === 'object') {
     next.voices = cloneValue(suggestion.value);
     next.notes = notationTextFromTune({ voices: next.voices });
+    return next;
+  }
+  if (formKey === 'lyrics') {
+    if (Array.isArray(suggestion.value)) {
+      next.lyrics = suggestion.value.join('\n');
+    } else {
+      next.lyrics = suggestion.value == null ? '' : String(suggestion.value);
+    }
+    return next;
+  }
+  if (formKey === 'bookList' || formKey === 'tagList') {
+    if (Array.isArray(suggestion.value)) {
+      next[formKey] = suggestion.value.join(', ');
+    } else {
+      next[formKey] = suggestion.value == null ? '' : String(suggestion.value);
+    }
+    return next;
+  }
+  const displayValue = suggestion.displayValue != null
+    ? suggestion.displayValue
+    : tuneValueToFormValue(suggestion.key, suggestion.value);
+  // Prefer structured value when present (choice selection); fall back to display.
+  if (suggestion.value !== undefined && suggestion.source === 'current') {
+    next[formKey] = suggestion.value == null ? '' : cloneValue(suggestion.value);
+  } else if (suggestion.value !== undefined && typeof suggestion.value !== 'object') {
+    next[formKey] = cloneValue(suggestion.value);
+  } else {
+    next[formKey] = cloneValue(displayValue);
   }
   return next;
 }

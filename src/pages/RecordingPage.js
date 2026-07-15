@@ -290,7 +290,7 @@ export default function RecordingPage(props) {
                   }}
                   title="Recordings Manager"
                   variant="info"
-                >{props.tunebook.icons.playlist}</Button>
+                >{props.tunebook.icons.playqueue}</Button>
                 
                 
               </div>  

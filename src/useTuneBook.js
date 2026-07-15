@@ -5,6 +5,7 @@ import useUtils from './useUtils'
 import { getAudioFilterSettings } from './pitchTempoUtils'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
+import { allArtists, allTitles, tuneMatchesArtistFilter } from './tuneBibliographicUtils'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
@@ -166,12 +167,8 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
           }
           return false
         }
-        if (filterArtists && filterArtists.length > 0 && tune.composer) {
-          var tuneArtistLower = String(tune.composer).toLowerCase()
-          for (var a = 0; a < filterArtists.length; a++) {
-            if (filterArtists[a] && String(filterArtists[a]).toLowerCase() === tuneArtistLower) return true
-          }
-          return false
+        if (filterArtists && filterArtists.length > 0) {
+          return tuneMatchesArtistFilter(tune, filterArtists)
         }
         if (book || (filterTags && filterTags.length > 0) || (filterGenres && filterGenres.length > 0) || (filterArtists && filterArtists.length > 0)) return false
         return true
@@ -1607,13 +1604,12 @@ The main difference between the two functions is the additional condition in app
               final[tuneArtistKey] = tuneArtistKey
           }
       })
-      // Always include composers from tunes (ABC C:) so the list stays complete
+      // Always include composer + artists so the list stays complete
       // even when the artist index is empty or stale.
       Object.values(tunes || {}).forEach(function(tune) {
-          if (tune && tune.composer && String(tune.composer).trim()) {
-              var artist = String(tune.composer).trim()
+          allArtists(tune).forEach(function(artist) {
               final[artist] = artist
-          }
+          })
       })
       return final
   }
@@ -1889,9 +1885,17 @@ The main difference between the two functions is the additional condition in app
             if (!filter || filter.trim().length === 0) {
                 filterOk = true
             } else {
-                if (tune && ((tune.name && tune.name.trim().length > 0  && utils.toSearchText(tune.name.trim()).indexOf(utils.toSearchText(filter.trim())) !== -1) || (tune.composer && tune.composer.trim().length > 0  && utils.toSearchText(tune.composer.trim()).indexOf(utils.toSearchText(filter.trim())) !== -1))) {
-                    filterOk = true
-                } 
+                if (tune) {
+                    const filterText = utils.toSearchText(filter.trim())
+                    const searchableText = allTitles(tune).concat(allArtists(tune)).map(function(text) {
+                        return utils.toSearchText(text)
+                    })
+                    if (searchableText.some(function(text) {
+                        return text && text.indexOf(filterText) !== -1
+                    })) {
+                        filterOk = true
+                    }
+                }
             }
             if (!bookFilter || bookFilter.trim().length === 0) {
                 bookFilterOk = true
@@ -1934,11 +1938,8 @@ The main difference between the two functions is the additional condition in app
             }
             if (!Array.isArray(artistFilterClean) || artistFilterClean.length === 0) {
                 artistFilterOk = true
-            } else if (tune && tune.composer && String(tune.composer).trim()) {
-                var tuneArtistLower = String(tune.composer).trim().toLowerCase()
-                artistFilterOk = artistFilterClean.some(function(artist) {
-                    return artist && String(artist).toLowerCase() === tuneArtistLower
-                })
+            } else {
+                artistFilterOk = tuneMatchesArtistFilter(tune, artistFilterClean)
             }
             //console.log('FILTER',tune,props.filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
             return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk)

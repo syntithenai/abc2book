@@ -4,6 +4,9 @@ import { searchChords } from './chordsSearchClient'
 import { discoverComposers } from './composerSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { searchYouTubeVideos, checkYouTubeLinkOembed } from './youtubeSearchClient'
+import { searchAliases } from './aliasesSearchClient'
+import { searchArtists } from './artistsSearchClient'
+import { searchGenre } from './genreSearchClient'
 import {
   checkAudioLinkPlayback,
   getEmptyLinkReason,
@@ -19,7 +22,47 @@ import {
   toastAppliedFieldLookup,
 } from './fieldLookupApplyUtils'
 
-export const FIELD_LOOKUP_KINDS = ['lyrics', 'chords', 'composer', 'notation', 'links']
+export const FIELD_LOOKUP_KINDS = [
+  'lyrics',
+  'chords',
+  'composer',
+  'notation',
+  'links',
+  'genre',
+  'artists',
+  'aliases',
+]
+
+const MAX_CONCURRENT_JOBS = 3
+
+/** Called when a field-lookup job is applied or dismissed while linked to Import Review. */
+let fieldLookupResolvedHandler = null
+
+export function setFieldLookupResolvedHandler(handler) {
+  fieldLookupResolvedHandler = typeof handler === 'function' ? handler : null
+}
+
+function notifyFieldLookupResolved(job) {
+  if (!job || !job.reviewCandidateId) return
+  if (typeof fieldLookupResolvedHandler !== 'function') return
+  try {
+    fieldLookupResolvedHandler(publicJob(job))
+  } catch (e) {
+    console.log(e)
+  }
+}
+
+export function buildSearchModeOptions(mode, extra) {
+  const opts = Object.assign({}, extra || {})
+  if (mode === 'review') {
+    opts.searchMode = 'review'
+    opts.alwaysPick = true
+  } else if (mode === 'auto') {
+    opts.searchMode = 'auto'
+    opts.alwaysPick = false
+  }
+  return opts
+}
 
 const STORAGE_KEY = 'queue-state'
 const store = localforage.createInstance({ name: 'tunefieldlookupqueue' })
@@ -89,6 +132,9 @@ function kindLabel(kind) {
   if (kind === 'composer') return 'Artist search'
   if (kind === 'notation') return 'Notation search'
   if (kind === 'links') return 'Link search'
+  if (kind === 'genre') return 'Genre search'
+  if (kind === 'artists') return 'Artists search'
+  if (kind === 'aliases') return 'Alias search'
   return 'Field search'
 }
 
@@ -421,8 +467,10 @@ export function applyFieldLookupChoice(jobId, candidate) {
   const job = jobs.find(function(item) { return item.id === jobId })
   if (!job || job.status !== 'awaiting') return null
 
-  // When linked into import review, the review form owns persistence on Import.
-  const deferSave = !!job.reviewCandidateId
+  // When linked into import review, the review form owns persistence on Import
+  // unless the user resolved on the live edit form (searchMode review + live apply).
+  const liveResolved = !!(job.options && job.options.searchMode === 'review' && hasLiveHandler(job))
+  const deferSave = !!job.reviewCandidateId && !liveResolved
 
   if (!deferSave && job.tuneId && candidate) {
     const getTune = queueContext.getTune
@@ -458,6 +506,7 @@ export function applyFieldLookupChoice(jobId, candidate) {
   job.candidates = []
   job.manualCandidates = []
   job.appliedCandidate = candidate || null
+  notifyFieldLookupResolved(job)
   notify()
   schedulePersist()
   return candidate
@@ -485,6 +534,7 @@ export function dismissFieldLookup(jobId) {
   job.message = ''
   job.candidates = []
   job.manualCandidates = []
+  notifyFieldLookupResolved(job)
   notify()
   schedulePersist()
   return true
@@ -651,6 +701,21 @@ async function runSearch(job, signal) {
       maxResults: 8,
     })
   }
+  if (job.kind === 'genre') {
+    return searchGenre(Object.assign({}, base, {
+      rhythm: (job.options && job.options.rhythm) || '',
+      currentGenre: (job.options && job.options.currentGenre) || '',
+      backgroundInfo: (job.options && job.options.backgroundInfo) || '',
+    }))
+  }
+  if (job.kind === 'artists') {
+    return searchArtists(base)
+  }
+  if (job.kind === 'aliases') {
+    return searchAliases(Object.assign({}, base, {
+      existingAliases: (job.options && job.options.existingAliases) || [],
+    }))
+  }
   throw new Error('Unknown field lookup kind: ' + job.kind)
 }
 
@@ -658,56 +723,35 @@ function hasLiveHandler(job) {
   return liveHandlers.has(liveHandlerKey(targetKeyForJob(job), job.kind))
 }
 
-/**
- * When a search finishes off-form: auto-apply a single candidate into an empty field.
- * Otherwise leave the job awaiting so the form can show a merge suggestion.
- * When a live form handler is registered, leave awaiting for the in-view UX.
- */
-function settleCompletedJob(job) {
-  const alwaysPick = !!(job.options && job.options.alwaysPick)
-  const candidates = Array.isArray(job.candidates) ? job.candidates : []
+function jobSearchMode(job) {
+  return job && job.options && job.options.searchMode
+    ? String(job.options.searchMode)
+    : ''
+}
 
-  if (hasLiveHandler(job) || alwaysPick || candidates.length !== 1 || !job.tuneId) {
-    job.status = 'awaiting'
-    job.progress = 100
-    job.message = ''
-    notifyLive(job)
-    return
-  }
+function markAwaiting(job) {
+  job.status = 'awaiting'
+  job.progress = 100
+  job.message = ''
+  notifyLive(job)
+}
 
+function tryAutoApplyFirstCandidate(job, candidates) {
   const getTune = queueContext.getTune
   const saveTune = queueContext.saveTune
-  if (typeof getTune !== 'function' || typeof saveTune !== 'function') {
-    job.status = 'awaiting'
-    job.progress = 100
-    job.message = ''
-    notifyLive(job)
-    return
+  if (typeof getTune !== 'function' || typeof saveTune !== 'function' || !job.tuneId) {
+    return false
   }
-
+  if (!candidates || candidates.length === 0) return false
   const tune = getTune(job.tuneId)
-  if (!tune || !isTuneFieldEmptyForKind(tune, job.kind)) {
-    job.status = 'awaiting'
-    job.progress = 100
-    job.message = ''
-    notifyLive(job)
-    return
-  }
-
+  if (!tune || !isTuneFieldEmptyForKind(tune, job.kind)) return false
   const applied = applyCandidateToTune(
     tune,
     job.kind,
     candidates[0],
     queueContext.abcTools
   )
-  if (!applied) {
-    job.status = 'awaiting'
-    job.progress = 100
-    job.message = ''
-    notifyLive(job)
-    return
-  }
-
+  if (!applied) return false
   try {
     saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })
     if (typeof queueContext.forceRefresh === 'function') {
@@ -721,11 +765,47 @@ function settleCompletedJob(job) {
     job.candidates = []
     job.manualCandidates = []
     job.appliedCandidate = candidates[0]
+    return true
   } catch (e) {
-    job.status = 'awaiting'
+    return false
+  }
+}
+
+/**
+ * Settle a completed search.
+ * - Auto: apply first match when possible; never force review pick; no merge promote.
+ * - Review / alwaysPick: leave awaiting (live picker + import-review promotion).
+ * - Default (Enhance): silent apply when single empty-field candidate and no live handler.
+ */
+function settleCompletedJob(job) {
+  const mode = jobSearchMode(job)
+  const alwaysPick = !!(job.options && job.options.alwaysPick) || mode === 'review'
+  const candidates = Array.isArray(job.candidates) ? job.candidates : []
+
+  if (mode === 'auto') {
+    // Prefer live form handlers so on-page callbacks update draft state.
+    if (hasLiveHandler(job)) {
+      markAwaiting(job)
+      return
+    }
+    if (tryAutoApplyFirstCandidate(job, candidates)) return
+    // Nothing to apply off-form: finish without promoting to Review.
+    job.status = 'done'
     job.progress = 100
-    job.message = ''
-    notifyLive(job)
+    job.message = candidates.length ? '' : 'No match applied'
+    job.error = null
+    job.candidates = []
+    job.manualCandidates = []
+    return
+  }
+
+  if (hasLiveHandler(job) || alwaysPick || candidates.length !== 1 || !job.tuneId) {
+    markAwaiting(job)
+    return
+  }
+
+  if (!tryAutoApplyFirstCandidate(job, candidates)) {
+    markAwaiting(job)
   }
 }
 
@@ -763,7 +843,9 @@ async function runJob(job) {
     }
     const normalized = normalizeCandidatesFromResult(job.kind, result, {
       currentComposer: job.artist,
-      alwaysPick: !!(job.options && job.options.alwaysPick) || job.kind === 'links',
+      alwaysPick: !!(job.options && job.options.alwaysPick)
+        || jobSearchMode(job) === 'review'
+        || job.kind === 'links',
     })
 
     if (normalized.manualCandidates.length > 0 && normalized.candidates.length === 0) {
@@ -813,18 +895,57 @@ async function runJob(job) {
 }
 
 let processQueueRunning = false
+const runningJobIds = new Set()
+
+function canStartJob(job) {
+  if (!job || job.status !== 'pending' || job.cancelled) return false
+  // Prefer chords before lyrics for the same target so lyricLines can be reused.
+  if (job.kind === 'lyrics') {
+    const targetKey = targetKeyForJob(job)
+    const chordsBlocking = jobs.some(function(other) {
+      return other.id !== job.id
+        && targetKeyForJob(other) === targetKey
+        && other.kind === 'chords'
+        && (other.status === 'pending' || other.status === 'running')
+    })
+    if (chordsBlocking) return false
+  }
+  return true
+}
 
 async function processQueue() {
   if (processQueueRunning || paused) return
   processQueueRunning = true
   try {
     while (running && !paused) {
-      const next = jobs.find(function(job) { return job.status === 'pending' && !job.cancelled })
-      if (!next) {
-        running = false
-        break
+      const availableSlots = MAX_CONCURRENT_JOBS - runningJobIds.size
+      if (availableSlots <= 0) {
+        await new Promise(function(resolve) { setTimeout(resolve, 40) })
+        continue
       }
-      await runJob(next)
+      const batch = []
+      jobs.forEach(function(job) {
+        if (batch.length >= availableSlots) return
+        if (!canStartJob(job)) return
+        if (runningJobIds.has(job.id)) return
+        batch.push(job)
+      })
+      if (batch.length === 0) {
+        if (runningJobIds.size === 0) {
+          running = false
+          break
+        }
+        await new Promise(function(resolve) { setTimeout(resolve, 40) })
+        continue
+      }
+      await Promise.all(batch.map(async function(job) {
+        runningJobIds.add(job.id)
+        try {
+          await runJob(job)
+        } finally {
+          runningJobIds.delete(job.id)
+        }
+      }))
     }
   } finally {
     processQueueRunning = false
@@ -843,6 +964,8 @@ export function __resetForTests() {
   restored = false
   liveHandlers.clear()
   listeners.clear()
+  runningJobIds.clear()
+  fieldLookupResolvedHandler = null
   queueContext = {
     getTune: null,
     saveTune: null,

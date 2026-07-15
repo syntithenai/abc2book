@@ -199,8 +199,10 @@
 }
 .notation-staff-wrap .abcjs-note_selected,
 .notation-staff-wrap .abcjs-note_selected path {
-  fill: inherit !important;
-  stroke: inherit !important;
+  /* Keep a soft fill so the selected glyph is obvious; overlay box remains primary. */
+  fill: #0d6efd !important;
+  fill-opacity: 0.35 !important;
+  stroke: #0d6efd !important;
 }
 .notation-voice-selector {
   display: flex;
@@ -526,7 +528,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 1030;
+  /* Above playlist transport (1200) so the keyboard sits on top at the page bottom. */
+  z-index: 1300;
   margin-top: 0;
   padding: 0.5rem 0.65rem calc(0.5rem + env(safe-area-inset-bottom, 0px));
   background: #f8f9fa;

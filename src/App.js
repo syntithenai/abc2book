@@ -159,6 +159,7 @@ function AppImportReviewBridge(props) {
       forceRefresh={props.forceRefresh}
       currentTuneBook={props.currentTuneBook}
       login={props.login}
+      requestGoogleScopes={props.requestGoogleScopes}
       onOpenTune={function(tune) {
         if (tune && tune.id) navigate('/editor/' + encodeURIComponent(tune.id))
       }}
@@ -936,7 +937,9 @@ function App(props) {
             <BulkCheckYoutubeHost />
             <BulkCheckCompleteToastHost />
             <BackgroundJobCompletionNotifications />
-            <BackgroundReviewNotifications />
+            <BackgroundReviewNotifications
+              practiceSessionActive={!!(practiceSession && practiceSession.sessionOpen)}
+            />
             <IncomingMergeHost
               token={token}
               tunebook={tunebook}
@@ -997,6 +1000,7 @@ function App(props) {
                 forceRefresh={forceRefresh}
                 currentTuneBook={currentTuneBook}
                 login={login}
+                requestGoogleScopes={requestGoogleScopes}
                 setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
               />
               <PlaybackRegionScanProvider

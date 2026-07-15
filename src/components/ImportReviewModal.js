@@ -3,6 +3,7 @@ import { Alert, Badge, Button, ButtonGroup, ListGroup, Modal, Row } from 'react-
 import { addFromFileAcceptList } from '../importSourceParse';
 import {
   cancelCurrentCandidate,
+  coalesceSessionCandidatesByMergeTarget,
   currentCandidate,
   isAddTunesChrome,
   isReviewComplete,
@@ -18,12 +19,17 @@ import {
 } from '../importReviewEnrichmentQueue';
 import { findCollectionMatches } from '../tuneCollectionMatch';
 import {
+  applyCoalescedFieldChoicesToSuggestions,
   applyImportSuggestion,
   buildReviewFormState,
   formValuesToTune,
   importSuggestionDiffersFromForm,
   importedNotationText,
 } from '../importReviewFieldUtils';
+import {
+  fieldLookupJobIdsForCandidate,
+  fieldLookupKindsForCandidate,
+} from '../importReviewCandidateUtils';
 import TuneRecordForm from './TuneRecordForm';
 import ImportFieldSuggestion from './ImportFieldSuggestion';
 import YouTubeSearchModal from './YouTubeSearchModal';
@@ -38,6 +44,12 @@ import useGoogleDocument from '../useGoogleDocument';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
+
+function dismissCandidateFieldLookups(candidate) {
+  fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
+    dismissFieldLookup(jobId);
+  });
+}
 
 function recordingBlobToFile(blob) {
   const extension = blob && blob.type === 'audio/webm' ? 'webm' : 'wav';
@@ -61,7 +73,8 @@ function ReviewSummary(props) {
 
 const MERGE_FIELD_LABELS = {
   title: 'Title',
-  artist: 'Artist',
+  artist: 'Composer',
+  artists: 'Artists',
   bookList: 'Books',
   tagList: 'Tags',
   genre: 'Genre',
@@ -78,8 +91,6 @@ const MERGE_FIELD_LABELS = {
   transpose: 'Transpose',
   tuning: 'Tuning',
   links: 'Links',
-  timedChords: 'Timed chords',
-  timedLyrics: 'Timed lyrics',
   playbackAudioFilters: 'Playback audio filters',
   soundFonts: 'Sound fonts',
   meta: 'Meta',
@@ -318,6 +329,9 @@ export default function ImportReviewModal(props) {
   const fileInputRef = useRef(null);
   const recordingStartedAtRef = useRef(0);
   const recordingIntervalRef = useRef(null);
+  const suppressFormInitRef = useRef(false);
+  const formSyncTimerRef = useRef(null);
+  const formDirtyRef = useRef(false);
   const [recordingDuration, setRecordingDuration] = useState(0);
   const [showSheetCamera, setShowSheetCamera] = useState(false);
   const [showSheetGooglePhotos, setShowSheetGooglePhotos] = useState(false);
@@ -348,16 +362,35 @@ export default function ImportReviewModal(props) {
   const initializeFormState = useCallback(function(targetMergeId) {
     const imported = enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
     const effectiveMergeId = targetMergeId != null ? targetMergeId : mergeTargetId;
+    formDirtyRef.current = false;
     if (effectiveMergeId && tunes[effectiveMergeId]) {
       const built = buildReviewFormState(tunes[effectiveMergeId], imported, 'merge');
+      const withChoices = applyCoalescedFieldChoicesToSuggestions(
+        built.suggestions,
+        activeCandidate && activeCandidate.fieldChoices,
+        built.formValues
+      );
       setFormValues(built.formValues);
-      setSuggestions(built.suggestions);
+      setSuggestions(withChoices);
       return;
     }
     const built = buildReviewFormState(null, imported, 'create');
     setFormValues(built.formValues);
-    setSuggestions(built.suggestions);
+    // Inline ABC/chordsheet apply stores conflict suggestions on the candidate;
+    // create-mode rebuild would otherwise drop them.
+    const pending = activeCandidate && activeCandidate.pendingInlineSuggestions;
+    const baseSuggestions = pending && typeof pending === 'object' ? pending : built.suggestions;
+    setSuggestions(applyCoalescedFieldChoicesToSuggestions(
+      baseSuggestions,
+      activeCandidate && activeCandidate.fieldChoices,
+      built.formValues
+    ));
   }, [activeCandidate, enrichedImportedTune, mergeTargetId, tunes]);
+
+  function patchFormValues(updater) {
+    formDirtyRef.current = true;
+    setFormValues(updater);
+  }
 
   useEffect(function() {
     if (!activeCandidate) return;
@@ -366,6 +399,10 @@ export default function ImportReviewModal(props) {
 
   useEffect(function() {
     if (!activeCandidate) return;
+    if (suppressFormInitRef.current) {
+      suppressFormInitRef.current = false;
+      return;
+    }
     initializeFormState(activeCandidate.mergeTargetId || null);
   }, [
     activeCandidate && activeCandidate.id,
@@ -378,6 +415,7 @@ export default function ImportReviewModal(props) {
   useEffect(function() {
     if (!activeCandidate) return;
     if (mergeTargetId === (activeCandidate.mergeTargetId || null)) return;
+    if (suppressFormInitRef.current) return;
     initializeFormState(mergeTargetId);
   }, [mergeTargetId, activeCandidate, initializeFormState]);
 
@@ -390,6 +428,61 @@ export default function ImportReviewModal(props) {
     }
     return next;
   }
+
+  function buildPersistedSession() {
+    const candidate = activeCandidate;
+    if (!candidate) return session;
+    const persistedTune = buildEditedTune(candidate.tune || {});
+    return updateCurrentCandidate(session, {
+      tune: persistedTune,
+      mergeTargetId: mergeTargetId,
+    });
+  }
+
+  const syncFormToSession = useCallback(function() {
+    if (!formDirtyRef.current) return;
+    if (!activeCandidate || typeof props.onSessionChange !== 'function') return;
+    const nextSession = buildPersistedSession();
+    const prevTune = activeCandidate.tune || {};
+    const nextTune = nextSession.candidates[nextSession.index]
+      && nextSession.candidates[nextSession.index].tune
+      ? nextSession.candidates[nextSession.index].tune
+      : {};
+    const sameMerge = (activeCandidate.mergeTargetId || null) === (mergeTargetId || null);
+    let sameTune = true;
+    try {
+      sameTune = JSON.stringify(prevTune) === JSON.stringify(nextTune);
+    } catch (e) {
+      sameTune = false;
+    }
+    if (sameTune && sameMerge) return;
+    suppressFormInitRef.current = true;
+    props.onSessionChange(nextSession);
+  }, [activeCandidate, mergeTargetId, formValues, session, props.onSessionChange, tunes]);
+
+  useEffect(function() {
+    if (!show || !activeCandidate) return undefined;
+    if (typeof props.onSessionChange !== 'function') return undefined;
+    if (formSyncTimerRef.current) clearTimeout(formSyncTimerRef.current);
+    formSyncTimerRef.current = setTimeout(function() {
+      formSyncTimerRef.current = null;
+      syncFormToSession();
+    }, 250);
+    return function() {
+      if (formSyncTimerRef.current) clearTimeout(formSyncTimerRef.current);
+    };
+  }, [formValues, mergeTargetId, show, activeCandidate && activeCandidate.id, syncFormToSession, props.onSessionChange]);
+
+  useEffect(function() {
+    if (!show) return undefined;
+    return function() {
+      if (formSyncTimerRef.current) {
+        clearTimeout(formSyncTimerRef.current);
+        formSyncTimerRef.current = null;
+      }
+      syncFormToSession();
+    };
+  }, [show, syncFormToSession]);
 
   const editedTunePreview = useMemo(function() {
     return buildEditedTune(enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {});
@@ -412,7 +505,7 @@ export default function ImportReviewModal(props) {
   }
 
   function handleApplySuggestion(formKey, suggestion) {
-    setFormValues(function(current) {
+    patchFormValues(function(current) {
       return applyImportSuggestion(current, formKey, suggestion);
     });
     setSuggestions(function(current) {
@@ -489,16 +582,6 @@ export default function ImportReviewModal(props) {
 
   if (!show) return null;
 
-  function buildPersistedSession() {
-    const candidate = activeCandidate;
-    if (!candidate) return session;
-    const persistedTune = buildEditedTune(candidate.tune || {});
-    return updateCurrentCandidate(session, {
-      tune: persistedTune,
-      mergeTargetId: mergeTargetId,
-    });
-  }
-
   function finishCurrentCandidate() {
     const base = buildPersistedSession();
     const candidate = activeCandidate;
@@ -559,9 +642,7 @@ export default function ImportReviewModal(props) {
 
   function cancelCurrent() {
     if (typeof props.onSessionChange !== 'function') return;
-    if (activeCandidate && activeCandidate.fieldLookupJobId) {
-      dismissFieldLookup(activeCandidate.fieldLookupJobId);
-    }
+    dismissCandidateFieldLookups(activeCandidate);
     const next = cancelCurrentCandidate(buildPersistedSession());
     props.onSessionChange(next);
     if (next.step === 'done' && typeof props.onComplete === 'function') {
@@ -575,14 +656,36 @@ export default function ImportReviewModal(props) {
     if (mode === 'all') {
       const base = buildPersistedSession();
       (base.candidates || []).forEach(function(candidate) {
-        if (candidate && candidate.fieldLookupJobId) {
-          dismissFieldLookup(candidate.fieldLookupJobId);
-        }
+        dismissCandidateFieldLookups(candidate);
       });
       if (typeof props.onClose === 'function') props.onClose();
       return;
     }
     if (mode === 'current') cancelCurrent();
+  }
+
+  function selectMergeTarget(tuneId) {
+    formDirtyRef.current = true;
+    const nextMergeId = tuneId || null;
+    setMergeTargetId(nextMergeId);
+    if (typeof props.onSessionChange !== 'function') {
+      initializeFormState(nextMergeId);
+      return;
+    }
+    const base = updateCurrentCandidate(buildPersistedSession(), {
+      mergeTargetId: nextMergeId,
+    });
+    if (!nextMergeId) {
+      props.onSessionChange(base);
+      return;
+    }
+    const result = coalesceSessionCandidatesByMergeTarget(
+      base,
+      nextMergeId,
+      activeCandidate && activeCandidate.id
+    );
+    suppressFormInitRef.current = false;
+    props.onSessionChange(result.session);
   }
 
   function handleEnhanceClick() {
@@ -709,7 +812,121 @@ export default function ImportReviewModal(props) {
   const pendingSuggestionKeys = Object.keys(suggestions || {}).filter(function(key) {
     return importSuggestionDiffersFromForm(key, suggestions[key], formValues);
   });
-  const fieldLookupKind = activeCandidate && activeCandidate.fieldLookupKind;
+  const fieldLookupKinds = fieldLookupKindsForCandidate(activeCandidate);
+  const fieldLookupKind = fieldLookupKinds[0] || null;
+
+  function applyFieldLookupResult(kind, result) {
+    if (kind === 'composer' && result && result.artist) {
+      patchFormValues(function(current) {
+        return Object.assign({}, current, { artist: result.artist });
+      });
+      setSuggestions(function(current) {
+        const next = Object.assign({}, current);
+        delete next.artist;
+        return next;
+      });
+      return;
+    }
+    if (kind === 'lyrics') {
+      const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
+      if (!text) return;
+      patchFormValues(function(current) {
+        return Object.assign({}, current, { lyrics: text });
+      });
+      setSuggestions(function(current) {
+        const next = Object.assign({}, current);
+        delete next.lyrics;
+        return next;
+      });
+      return;
+    }
+    if (kind === 'notation' && result && result.abc && props.tunebook && props.tunebook.abcTools) {
+      const imported = props.tunebook.abcTools.abc2json(result.abc);
+      if (!imported) return;
+      patchFormValues(function(current) {
+        return Object.assign({}, current, {
+          voices: imported.voices || current.voices,
+          notes: Array.isArray(imported.notes) ? imported.notes.join('\n') : (current.notes || ''),
+        });
+      });
+      setSuggestions(function(current) {
+        const next = Object.assign({}, current);
+        delete next.notes;
+        return next;
+      });
+      return;
+    }
+    if (kind === 'genre' && result && result.genre) {
+      patchFormValues(function(current) {
+        return Object.assign({}, current, { genre: result.genre });
+      });
+      setSuggestions(function(current) {
+        const next = Object.assign({}, current);
+        delete next.genre;
+        return next;
+      });
+      return;
+    }
+    if (kind === 'artists' && result && result.artist) {
+      patchFormValues(function(current) {
+        const artists = Array.isArray(current.artists) ? current.artists.slice() : [];
+        if (artists.indexOf(result.artist) < 0) artists.push(result.artist);
+        return Object.assign({}, current, { artists: artists });
+      });
+      return;
+    }
+    if (kind === 'aliases' && result && result.alias) {
+      patchFormValues(function(current) {
+        const aliases = Array.isArray(current.aliases) ? current.aliases.slice() : [];
+        if (aliases.indexOf(result.alias) < 0) aliases.push(result.alias);
+        return Object.assign({}, current, { aliases: aliases });
+      });
+      return;
+    }
+    if (kind === 'links' && result && result.link) {
+      const linkObj = {
+        link: String(result.link).trim(),
+        title: String(result.title || '').trim(),
+      };
+      if (result.image) linkObj.image = result.image;
+      patchFormValues(function(current) {
+        const existing = Array.isArray(current.links) ? current.links.slice() : [];
+        const emptyIdx = existing.findIndex(function(link) {
+          return !link || !link.link || !String(link.link).trim();
+        });
+        if (emptyIdx >= 0) {
+          existing[emptyIdx] = Object.assign({}, existing[emptyIdx] || {}, linkObj);
+        } else if (existing.length === 0) {
+          existing.push(linkObj);
+        } else {
+          existing[0] = Object.assign({}, existing[0] || {}, linkObj);
+        }
+        return Object.assign({}, current, { links: existing });
+      });
+      setSuggestions(function(current) {
+        const next = Object.assign({}, current);
+        delete next.links;
+        return next;
+      });
+    }
+  }
+
+  function renderFieldLookupReviewButtons() {
+    if (!fieldLookupKinds.length) return null;
+    return fieldLookupKinds.map(function(kind) {
+      return (
+        <FieldLookupReviewButton
+          key={kind}
+          tuneId={mergeTargetId}
+          candidateId={activeCandidate && activeCandidate.id}
+          kind={kind}
+          fallbackTitle={formValues.title || ''}
+          onApply={function(result) { applyFieldLookupResult(kind, result); }}
+        />
+      );
+    });
+  }
+
   const statusBanner = (
     <div className="border rounded p-2">
       <strong>
@@ -717,13 +934,15 @@ export default function ImportReviewModal(props) {
           ? ('Merging into ' + (tunes[mergeTargetId].name || 'Untitled'))
           : ('Adding ' + (String(formValues.title || '').trim() || 'Untitled'))}
       </strong>
-      {fieldLookupKind ? (
+      {fieldLookupKinds.length ? (
         <div className="text-muted small mt-1">
-          Search result for {MERGE_FIELD_LABELS[
-            fieldLookupKind === 'composer' ? 'artist'
-              : fieldLookupKind === 'notation' ? 'notes'
-                : fieldLookupKind
-          ] || fieldLookupKind}
+          Search result{fieldLookupKinds.length > 1 ? 's' : ''} for {fieldLookupKinds.map(function(kind) {
+            return MERGE_FIELD_LABELS[
+              kind === 'composer' ? 'artist'
+                : kind === 'notation' ? 'notes'
+                  : kind
+            ] || kind;
+          }).join(', ')}
           {' — choose a source below or accept the suggested merge.'}
         </div>
       ) : null}
@@ -749,8 +968,12 @@ export default function ImportReviewModal(props) {
                   choices={suggestion && Array.isArray(suggestion.choices) ? suggestion.choices : null}
                   actionLabel="Use import"
                   onSelectChoice={function(choice) {
-                    handleApplySuggestion(key, choice && choice.value != null
-                      ? Object.assign({}, suggestion, { value: choice.value, displayValue: choice.label })
+                    handleApplySuggestion(key, choice && choice.value !== undefined
+                      ? Object.assign({}, suggestion, {
+                        value: choice.value,
+                        displayValue: choice.preview != null ? choice.preview : suggestion.displayValue,
+                        source: choice.source || suggestion.source,
+                      })
                       : suggestion);
                   }}
                   onApply={function() {
@@ -759,132 +982,12 @@ export default function ImportReviewModal(props) {
                 />
               );
             })}
-            {fieldLookupKind ? (
-              <FieldLookupReviewButton
-                tuneId={mergeTargetId}
-                candidateId={activeCandidate && activeCandidate.id}
-                kind={fieldLookupKind}
-                fallbackTitle={formValues.title || ''}
-                onApply={function(result) {
-                  if (fieldLookupKind === 'composer' && result && result.artist) {
-                    setFormValues(function(current) {
-                      return Object.assign({}, current, { artist: result.artist });
-                    });
-                    setSuggestions(function(current) {
-                      const next = Object.assign({}, current);
-                      delete next.artist;
-                      return next;
-                    });
-                  } else if (fieldLookupKind === 'lyrics') {
-                    const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
-                    if (text) {
-                      setFormValues(function(current) {
-                        return Object.assign({}, current, { lyrics: text });
-                      });
-                      setSuggestions(function(current) {
-                        const next = Object.assign({}, current);
-                        delete next.lyrics;
-                        return next;
-                      });
-                    }
-                  } else if (fieldLookupKind === 'notation' && result && result.abc && props.tunebook && props.tunebook.abcTools) {
-                    const imported = props.tunebook.abcTools.abc2json(result.abc);
-                    if (imported) {
-                      setFormValues(function(current) {
-                        return Object.assign({}, current, {
-                          voices: imported.voices || current.voices,
-                          notes: Array.isArray(imported.notes) ? imported.notes.join('\n') : (current.notes || ''),
-                        });
-                      });
-                      setSuggestions(function(current) {
-                        const next = Object.assign({}, current);
-                        delete next.notes;
-                        return next;
-                      });
-                    }
-                  } else if (fieldLookupKind === 'links' && result && result.link) {
-                    const linkObj = {
-                      link: String(result.link).trim(),
-                      title: String(result.title || '').trim(),
-                    };
-                    if (result.image) linkObj.image = result.image;
-                    setFormValues(function(current) {
-                      const existing = Array.isArray(current.links) ? current.links.slice() : [];
-                      const emptyIdx = existing.findIndex(function(link) {
-                        return !link || !link.link || !String(link.link).trim();
-                      });
-                      if (emptyIdx >= 0) {
-                        existing[emptyIdx] = Object.assign({}, existing[emptyIdx] || {}, linkObj);
-                      } else if (existing.length === 0) {
-                        existing.push(linkObj);
-                      } else {
-                        existing[0] = Object.assign({}, existing[0] || {}, linkObj);
-                      }
-                      return Object.assign({}, current, { links: existing });
-                    });
-                    setSuggestions(function(current) {
-                      const next = Object.assign({}, current);
-                      delete next.links;
-                      return next;
-                    });
-                  }
-                }}
-              />
-            ) : null}
+            {renderFieldLookupReviewButtons()}
           </div>
         </div>
-      ) : fieldLookupKind ? (
+      ) : fieldLookupKinds.length ? (
         <div className="mt-2 d-flex flex-wrap gap-2 align-items-center">
-          <FieldLookupReviewButton
-            tuneId={mergeTargetId}
-            candidateId={activeCandidate && activeCandidate.id}
-            kind={fieldLookupKind}
-            fallbackTitle={formValues.title || ''}
-            onApply={function(result) {
-              if (fieldLookupKind === 'composer' && result && result.artist) {
-                setFormValues(function(current) {
-                  return Object.assign({}, current, { artist: result.artist });
-                });
-              } else if (fieldLookupKind === 'lyrics') {
-                const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
-                if (text) {
-                  setFormValues(function(current) {
-                    return Object.assign({}, current, { lyrics: text });
-                  });
-                }
-              } else if (fieldLookupKind === 'notation' && result && result.abc && props.tunebook && props.tunebook.abcTools) {
-                const imported = props.tunebook.abcTools.abc2json(result.abc);
-                if (imported) {
-                  setFormValues(function(current) {
-                    return Object.assign({}, current, {
-                      voices: imported.voices || current.voices,
-                      notes: Array.isArray(imported.notes) ? imported.notes.join('\n') : (current.notes || ''),
-                    });
-                  });
-                }
-              } else if (fieldLookupKind === 'links' && result && result.link) {
-                const linkObj = {
-                  link: String(result.link).trim(),
-                  title: String(result.title || '').trim(),
-                };
-                if (result.image) linkObj.image = result.image;
-                setFormValues(function(current) {
-                  const existing = Array.isArray(current.links) ? current.links.slice() : [];
-                  const emptyIdx = existing.findIndex(function(link) {
-                    return !link || !link.link || !String(link.link).trim();
-                  });
-                  if (emptyIdx >= 0) {
-                    existing[emptyIdx] = Object.assign({}, existing[emptyIdx] || {}, linkObj);
-                  } else if (existing.length === 0) {
-                    existing.push(linkObj);
-                  } else {
-                    existing[0] = Object.assign({}, existing[0] || {}, linkObj);
-                  }
-                  return Object.assign({}, current, { links: existing });
-                });
-              }
-            }}
-          />
+          {renderFieldLookupReviewButtons()}
         </div>
       ) : null}
       {activeJob && activeJob.status === 'running' ? (
@@ -907,7 +1010,7 @@ export default function ImportReviewModal(props) {
             className={'collection-match-choice' + (createSelected ? ' collection-match-choice--selected' : '')}
             tabIndex={0}
             aria-pressed={createSelected}
-            onClick={function() { setMergeTargetId(null); }}
+            onClick={function() { selectMergeTarget(null); }}
           >
             <strong>Create new tune</strong>
             <div className="text-muted small mt-1">Save this import as a new collection entry.</div>
@@ -923,7 +1026,7 @@ export default function ImportReviewModal(props) {
                 className={'collection-match-choice' + (selected ? ' collection-match-choice--selected' : '')}
                 tabIndex={0}
                 aria-pressed={selected}
-                onClick={function() { setMergeTargetId(tune.id); }}
+                onClick={function() { selectMergeTarget(tune.id); }}
               >
                 <Button
                   size="sm"
@@ -966,7 +1069,7 @@ export default function ImportReviewModal(props) {
         <TuneRecordForm
           values={formValues}
           onChange={function(patch) {
-            setFormValues(function(current) {
+            patchFormValues(function(current) {
               return Object.assign({}, current, patch);
             });
           }}
@@ -1058,7 +1161,7 @@ export default function ImportReviewModal(props) {
         </>
       ) : null}
       {showEnhance ? (
-        <Button variant="outline-primary" onClick={handleEnhanceClick}>Enhance</Button>
+        <Button variant="warning" onClick={handleEnhanceClick}>Enhance</Button>
       ) : null}
       <Button
         variant={primaryActionDisabled ? 'secondary' : 'success'}
@@ -1120,8 +1223,11 @@ export default function ImportReviewModal(props) {
       }}
       fullscreen
       backdrop="static"
+      className="import-review-modal"
+      dialogClassName="import-review-modal-dialog"
+      contentClassName="import-review-modal-content"
     >
-      <Modal.Header closeButton className="add-tunes-modal-header">
+      <Modal.Header closeButton className="add-tunes-modal-header import-review-modal-header">
         <div className="add-tunes-panel-header">
           <div className="add-tunes-panel-header-top">
             <Modal.Title>
@@ -1137,7 +1243,7 @@ export default function ImportReviewModal(props) {
           {addFromToolbar}
         </div>
       </Modal.Header>
-      <Modal.Body>{panelBody}</Modal.Body>
+      <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
       {cancelWarningModal}
       {importAllWarningModal}
       <SheetImageCameraModal
@@ -1153,7 +1259,7 @@ export default function ImportReviewModal(props) {
         onHide={function() { setShowSheetGooglePhotos(false); }}
         token={props.token}
         requestGoogleScopes={props.requestGoogleScopes}
-        login={props.login}
+        onLogin={props.login}
         onSelectFile={function(file) {
           setShowSheetGooglePhotos(false);
           if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());

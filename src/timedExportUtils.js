@@ -90,20 +90,11 @@ export function importMinimalTimedChords(minimal) {
   });
 }
 
-export function applyMinimalTimedFieldsToTune(tune, sections) {
+export function applyMinimalTimedFieldsToTune(tune) {
   if (!tune) return tune;
-  if (tune.timedLyrics) {
-    const exported = exportMinimalTimedLyrics(
-      Object.assign({}, tune.timedLyrics, { sections: sections || tune.timedLyrics.sections })
-    );
-    tune.timedLyrics = exported ? importMinimalTimedLyrics(exported) : null;
-  }
-  if (tune.timedChords) {
-    const exported = exportMinimalTimedChords(tune.timedChords);
-    tune.timedChords = exported ? importMinimalTimedChords(exported) : null;
-  }
+  delete tune.timedLyrics;
+  delete tune.timedChords;
   delete tune.timedMelody;
   delete tune.words;
-  delete tune.timingScaffold;
   return tune;
 }

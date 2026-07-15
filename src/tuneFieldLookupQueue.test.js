@@ -51,6 +51,43 @@ jest.mock('./notationSearchClient', function() {
   }
 })
 
+jest.mock('./aliasesSearchClient', function() {
+  return {
+    searchAliases: jest.fn(function() {
+      return Promise.resolve({
+        multiple: true,
+        candidates: [
+          { alias: 'Other Name', source: 'The Session' },
+        ],
+      })
+    }),
+  }
+})
+
+jest.mock('./artistsSearchClient', function() {
+  return {
+    searchArtists: jest.fn(function() {
+      return Promise.resolve({
+        multiple: false,
+        artist: 'Band',
+        source: 'MusicBrainz',
+      })
+    }),
+  }
+})
+
+jest.mock('./genreSearchClient', function() {
+  return {
+    searchGenre: jest.fn(function() {
+      return Promise.resolve({
+        multiple: false,
+        genre: 'Folk',
+        source: 'inference',
+      })
+    }),
+  }
+})
+
 const localforageData = {}
 
 jest.mock('localforage', function() {
@@ -308,5 +345,54 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.status).toBe('awaiting')
     expect(tune.composer).toBe('Existing Artist')
     expect(job.candidates.length).toBeGreaterThanOrEqual(1)
+  })
+
+  test('auto mode applies first of multiple lyrics candidates', async function() {
+    const tune = { id: 't1', name: 'Song' }
+    const saveTune = jest.fn()
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: saveTune,
+    })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'lyrics',
+      title: 'Song',
+      accessToken: 'token',
+      options: tuneFieldLookupQueue.buildSearchModeOptions('auto'),
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(job.status).toBe('done')
+    expect(saveTune).toHaveBeenCalled()
+  })
+
+  test('review mode leaves awaiting even for single empty-field result', async function() {
+    const tune = { id: 't1', name: 'Song', composer: '' }
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: jest.fn(),
+    })
+    discoverComposers.mockResolvedValue({
+      multiple: false,
+      artist: 'Only Artist',
+      source: 'web',
+      preview: 'Only Artist',
+    })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Song',
+      accessToken: 'token',
+      options: tuneFieldLookupQueue.buildSearchModeOptions('review'),
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(job.status).toBe('awaiting')
+    expect(tune.composer).toBe('')
   })
 })

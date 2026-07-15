@@ -1,4 +1,5 @@
 import { enrichImportCandidate } from './importReviewEnrichment';
+import { primaryArtist } from './tuneBibliographicUtils';
 
 function makeJobId() {
   return 'import-enrich-' + Date.now() + '-' + Math.random().toString(36).slice(2, 7);
@@ -9,7 +10,7 @@ export function createEnrichmentJob(candidate) {
     id: makeJobId(),
     candidateId: candidate.id,
     title: candidate.tune && candidate.tune.name ? candidate.tune.name : '',
-    artist: candidate.tune && candidate.tune.composer ? candidate.tune.composer : '',
+    artist: candidate.tune ? primaryArtist(candidate.tune) : '',
     status: 'awaiting',
     progress: 0,
     message: '',

@@ -18,8 +18,36 @@
   min-width: 12rem;
 }
 
-.chord-record-setup .chord-record-tempo {
-  width: 6rem;
+.chord-record-palette-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+.chord-record-palette-key {
+  flex: 0 1 11rem;
+  width: 11rem;
+  min-width: 8rem;
+  align-self: stretch;
+}
+
+.chord-record-palette-select {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.chord-record-metronome {
+  margin-top: 0.75rem;
+}
+
+.chord-record-metronome .metronome-panel {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chord-record-metronome .metronome-panel__card {
+  padding: 0.75rem;
 }
 
 .chord-record-actions {

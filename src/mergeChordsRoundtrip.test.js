@@ -133,4 +133,26 @@ describe('mergeChords note length roundtrip', function() {
     expect(notes).not.toMatch(/zzzzzzzz\|\|"[A-G#b]/);
     expect(notes).toMatch(/"D"zzzzzzzz\|"F"zzzzzzzz\|"C"zzzzzzzz\|"G"zzzzzzzz\|/);
   });
+
+  test('renderChords emits [M:] for inline meter changes', function() {
+    const abcjsParser = useAbcjsParser();
+    const abc = 'X:1\nT:MeterChange\nM:4/4\nL:1/8\nK:C\n"C"z2"G"z2"C"z2"G"z2 | [M:3/4] "Am"z2"G"z2"F"z2 |\n';
+    const chart = abcjsParser.renderChords(abc, true);
+    expect(chart).toContain('[M:3/4]');
+  });
+
+  test('mergeChords writes inline [M:] from chord grid meter tokens', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const tune = {
+      id: 'meter-change', name: 'Meter Change', meter: '4/4', noteLength: '1/8', key: 'C',
+      voices: { 1: { meta: '', notes: ['zzzzzzzz | zzzzzz |'] } },
+    };
+    const abc = abcTools.json2abc(tune);
+    const merged = abcjsParser.mergeChords('C . . . |\n[M:3/4] Am . . |', abc);
+    const notes = abcTools.justNotes(merged);
+    expect(notes).toContain('[M:3/4]');
+    expect(notes).toContain('"C"');
+    expect(notes).toContain('"Am"');
+  });
 });

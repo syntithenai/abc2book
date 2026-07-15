@@ -418,9 +418,9 @@ export function defaultViewModeForTune(tune, tunebook, options) {
 export const EDITOR_VIEW_MODES = [
   { id: 'info', label: 'Info' },
   { id: 'music', label: 'Music' },
+  { id: 'pianoRoll', label: 'Piano roll' },
   { id: 'lyrics', label: 'Lyrics' },
   { id: 'chords', label: 'Chords' },
-  { id: 'pianoRoll', label: 'Piano roll' },
   { id: 'notationAbc', label: 'ABC Notes' },
   { id: 'sourceAbc', label: 'ABC Record' },
 ];

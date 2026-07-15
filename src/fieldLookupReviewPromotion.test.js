@@ -69,4 +69,89 @@ describe('fieldLookupReviewPromotion', function() {
     expect(job.reviewCandidateId).toBe(result.candidates[0].id)
     expect(job.candidateId).toBe(result.candidates[0].id)
   })
+
+  test('auto mode awaiting jobs are not promoted', function() {
+    const id = seedAwaitingLookup({
+      tuneId: 'tune-auto',
+      kind: 'composer',
+      title: 'Hello',
+      candidates: [{ artist: 'One', source: 'a' }],
+      options: { searchMode: 'auto' },
+    })
+    expect(id).toBeTruthy()
+    expect(getUnpromotedAwaitingFieldLookups().length).toBe(0)
+    const result = promoteAwaitingFieldLookups({
+      getTune: function() {
+        return { id: 'tune-auto', name: 'Hello', composer: '' }
+      },
+    })
+    expect(result.candidates.length).toBe(0)
+  })
+
+  test('review mode awaiting jobs are promoted', function() {
+    const id = seedAwaitingLookup({
+      tuneId: 'tune-rev',
+      kind: 'aliases',
+      title: 'Hello',
+      candidates: [{ alias: 'Other', source: 'The Session' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    expect(id).toBeTruthy()
+    expect(getUnpromotedAwaitingFieldLookups().length).toBe(1)
+    const result = promoteAwaitingFieldLookups({
+      getTune: function() {
+        return { id: 'tune-rev', name: 'Hello', aliases: [] }
+      },
+    })
+    expect(result.candidates.length).toBe(1)
+    expect(result.candidates[0].sourceKind).toBe('search-aliases')
+    expect(result.candidates[0].tune.aliases).toEqual(['Other'])
+  })
+
+  test('promoteAwaitingFieldLookups coalesces multiple kinds for one tune', function() {
+    const composerId = seedAwaitingLookup({
+      tuneId: 'tune-coalesce',
+      kind: 'composer',
+      title: 'Hello',
+      candidates: [{ artist: 'Composer A', source: 'mb' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    const lyricsId = seedAwaitingLookup({
+      tuneId: 'tune-coalesce',
+      kind: 'lyrics',
+      title: 'Hello',
+      candidates: [{ text: 'line one', source: 'web' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    const otherTune = seedAwaitingLookup({
+      tuneId: 'tune-other',
+      kind: 'composer',
+      title: 'Other',
+      candidates: [{ artist: 'Other Artist', source: 'mb' }],
+      options: { searchMode: 'review', alwaysPick: true },
+    })
+    expect(composerId && lyricsId && otherTune).toBeTruthy()
+
+    const result = promoteAwaitingFieldLookups({
+      getTune: function(id) {
+        if (id === 'tune-coalesce') return { id: 'tune-coalesce', name: 'Hello', composer: '' }
+        return { id: 'tune-other', name: 'Other', composer: '' }
+      },
+    })
+    expect(result.candidates.length).toBe(2)
+    const coalesced = result.candidates.find(function(item) {
+      return item.mergeTargetId === 'tune-coalesce'
+    })
+    expect(coalesced).toBeTruthy()
+    expect(coalesced.sourceKind).toBe('search-multi')
+    expect(coalesced.fieldLookupJobIds.sort()).toEqual([composerId, lyricsId].sort())
+    expect(coalesced.fieldLookupKinds.sort()).toEqual(['composer', 'lyrics'].sort())
+    expect(coalesced.tune.composer).toBe('Composer A')
+    expect(Array.isArray(coalesced.tune.words) || Array.isArray(coalesced.tune.wLines) || coalesced.tune.words || coalesced.fieldChoices).toBeTruthy()
+
+    const composerJob = getState().jobs.find(function(item) { return item.id === composerId })
+    const lyricsJob = getState().jobs.find(function(item) { return item.id === lyricsId })
+    expect(composerJob.reviewCandidateId).toBe(coalesced.id)
+    expect(lyricsJob.reviewCandidateId).toBe(coalesced.id)
+  })
 })

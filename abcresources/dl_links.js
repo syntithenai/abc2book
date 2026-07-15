@@ -1,5 +1,6 @@
 var fs = require('fs')
 const useAbcTools = require('./abctools')
+const bibliographicUtils = require('./tuneBibliographicUtils')
 //const tools = require('../abc2book.converters.js')
 const tools = useAbcTools()
 //const { exec } = require('node:child_process');
@@ -86,7 +87,7 @@ if (process.argv.length > 2 && process.argv[2].toLowerCase().endsWith('.abc') &&
                         var startAt = link.startAt > 0 ? link.startAt : 0
                         var endAt = link.endAt > 0 ? link.endAt : 0
                         var duration = endAt - startAt
-                        var mp3TagFlags = '-movflags use_metadata_tags  -map_metadata 0 -metadata title="'+(tune.name ? tune.name.trim() : '')+'"  -metadata artist="'+(tune.composer ? tune.composer.trim() : '')+'"'
+                        var mp3TagFlags = '-movflags use_metadata_tags  -map_metadata 0 -metadata title="'+(tune.name ? tune.name.trim() : '')+'"  -metadata artist="'+(bibliographicUtils.primaryArtist(tune))+'"'
                         var mp3Cmd = 'ffmpeg '+(startAt > 0 ? '-ss '+startAt : '' )+(duration > 0 ? ' -t '+duration : '' )+' -i audio-'+key+'.wav -ac 1 '+mp3TagFlags + ' '+folderName+'/audio-'+key+'.mp3' 
                         
                         links.push({key:key, link: link.link, dlCmd:dlCmd, mp3Cmd: mp3Cmd, dlFile: 'audio-'+key+'.wav'})

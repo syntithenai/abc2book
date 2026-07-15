@@ -406,8 +406,13 @@
   align-self: center;
 }
 
-.metronome-panel--settings-only .metronome-panel__toolbar-actions {
+.metronome-panel--hide-transport .metronome-panel__start-stop {
   display: none;
+}
+
+.metronome-panel--hide-transport .metronome-panel__tempo-group {
+  order: 1;
+  margin-right: 0;
 }
 
 .metronome-panel--embed-preview .metronome-panel__toolbar {

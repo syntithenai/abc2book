@@ -31,11 +31,12 @@ export default function ImportFieldSuggestion(props) {
         preview: display,
         value: suggestion,
       }];
+  const toggleVariant = props.variant || 'outline-info';
 
   return (
     <Dropdown className="import-field-suggestion d-inline-block">
       <Dropdown.Toggle
-        variant="outline-info"
+        variant={toggleVariant}
         size="sm"
         id={'import-suggestion-' + (props.id || fieldKey || label)}
         aria-label={actionLabel + ' suggestion for ' + label}

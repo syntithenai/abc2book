@@ -54,4 +54,94 @@ describe('chordSheetImportUtils', function() {
     expect(blocks[1].linePairs.length).toBe(1);
     expect(blocks[1].linePairs[0].anchors.map(function(a) { return a.chord; })).toEqual(['Am', 'F']);
   });
+
+  test('keeps Intro/Outro and trailing chord-only lines across blank spacing', function() {
+    const blocks = buildChordSheetAlignmentFromLines([
+      '[Intro]',
+      'G D G D',
+      '',
+      '',
+      '[Verse 1]',
+      '  G         G/F#    G',
+      'Get you a copper kettle',
+      '',
+      '[Chorus]',
+      '   C                     G',
+      'You just lay there by the juniper',
+      '   Am            G',
+      'In the pale moonlight',
+      '',
+      'C  Em7  Am  G',
+      '',
+      '',
+      '[Outro]',
+      '',
+      'C  Em7  Am  G',
+    ]);
+
+    expect(blocks.map(function(b) { return b.header; })).toEqual([
+      '[Intro]',
+      '[Verse 1]',
+      '[Chorus]',
+      '[Outro]',
+    ]);
+    expect(blocks[0].linePairs[0].chordLines[0]).toContain('G D G D');
+    expect(blocks[0].lines).toEqual([]);
+    const chorusChordLines = blocks[2].linePairs.flatMap(function(p) { return p.chordLines || []; });
+    expect(chorusChordLines.some(function(line) { return /C\s+Em7\s+Am\s+G/.test(line); })).toBe(true);
+    expect(blocks[3].linePairs[0].chordLines[0]).toMatch(/C\s+Em7\s+Am\s+G/);
+  });
+
+  test('Copper Kettle paste keeps all section headers and chorus turnaround', function() {
+    const { parseChordSheetText } = require('./chordProFormatUtils');
+    const { listPasteChordSections } = require('./chordsEditorSections');
+    const sample = [
+      '[Intro]',
+      'G D G D',
+      '',
+      '',
+      '[Verse 1]',
+      '  G         G/F#    G',
+      'Get you a copper kettle',
+      '  G         D     G',
+      'Get you a copper coil',
+      '',
+      '[Chorus]',
+      '   C                     G',
+      'You just lay there by the juniper',
+      '   Am            G',
+      'In the pale moonlight',
+      '',
+      'C  Em7  Am  G',
+      '',
+      '',
+      '[Verse 2]',
+      '   G         G/F#      G',
+      'Build you a fire with hickory',
+      '',
+      '[Chorus]',
+      '   C                     G',
+      'You just lay there by the juniper',
+      '',
+      'C  Em7  Am  G',
+      '',
+      '[Outro]',
+      '',
+      'C  Em7  Am  G',
+    ].join('\n');
+
+    const parsed = parseChordSheetText(sample, { fallbackTitle: 'Copper Kettle' });
+    const sections = listPasteChordSections(parsed);
+    expect(sections.map(function(s) { return s.title; })).toEqual([
+      'Intro',
+      'Verse 1',
+      'Chorus',
+      'Verse 2',
+      'Chorus',
+      'Outro',
+    ]);
+    expect(sections[0].chart).toMatch(/G\s+D\s+G\s+D/);
+    expect(sections[2].chart).toMatch(/C\s+Em7\s+Am\s+G/);
+    expect(sections[5].chart).toMatch(/C\s+Em7\s+Am\s+G/);
+  });
 });

@@ -43,6 +43,9 @@ export default function StructureChordBlock(props) {
       const aligned = alignChordBlocksToLyrics(lyricLines, chordBlocks, {
         title: title || (tune && tune.name),
         composer: composer || (tune && tune.composer),
+        chordSectionLabels: tune && Array.isArray(tune.chordSectionLabels)
+          ? tune.chordSectionLabels
+          : null,
       });
       const sections = [];
       aligned.forEach(function(block) {

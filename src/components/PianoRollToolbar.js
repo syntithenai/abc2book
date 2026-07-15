@@ -6,7 +6,6 @@ export default function PianoRollToolbar(props) {
   const {
     session,
     dispatch,
-    hasRecordingGrid,
     onQuantize,
     onAlignAction,
   } = props;
@@ -64,24 +63,6 @@ export default function PianoRollToolbar(props) {
         <option value={8}>1/32</option>
       </select>
 
-      {hasRecordingGrid ? (
-        <Button
-          size="sm"
-          variant={session.pianoRollUseRecordingGrid ? 'primary' : 'outline-secondary'}
-          onClick={function() {
-            setPianoRollState({ pianoRollUseRecordingGrid: !session.pianoRollUseRecordingGrid });
-          }}
-        >Rec grid</Button>
-      ) : null}
-
-      <Button
-        size="sm"
-        variant={session.pianoRollShowTimedMelody ? 'primary' : 'outline-secondary'}
-        onClick={function() {
-          setPianoRollState({ pianoRollShowTimedMelody: !session.pianoRollShowTimedMelody });
-        }}
-      >Melody</Button>
-
       <Button
         size="sm"
         variant={session.pianoRollShowWaveform ? 'primary' : 'outline-secondary'}
@@ -95,8 +76,6 @@ export default function PianoRollToolbar(props) {
       <Dropdown as={ButtonGroup} size="sm">
         <Dropdown.Toggle variant="outline-secondary">Align</Dropdown.Toggle>
         <Dropdown.Menu>
-          <Dropdown.Item onClick={function() { onAlignAction('alignGrid'); }}>Align to recording grid</Dropdown.Item>
-          <Dropdown.Item onClick={function() { onAlignAction('matchMelody'); }}>Match detected melody</Dropdown.Item>
           <Dropdown.Item onClick={function() { onAlignAction('slideSelection'); }}>Slide selection +0.25 beat</Dropdown.Item>
           <Dropdown.Item onClick={function() { onAlignAction('downbeatFromPlayhead'); }}>Set downbeat from playhead</Dropdown.Item>
           <Dropdown.Item onClick={function() { onAlignAction('snapRegionStart'); }}>Snap to playback region</Dropdown.Item>

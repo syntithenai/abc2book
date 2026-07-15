@@ -4,10 +4,21 @@ import BulkChangeValueModal from './BulkChangeValueModal'
 import BulkCheckModal from './BulkCheckModal'
 import BulkSearchModal from './BulkSearchModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
-import {savePerformanceSet} from '../performanceSetStore'
-import {savePlaylistFromQueue} from '../savedPlaylistsStore'
+import AddTunesToListModal from './AddTunesToListModal'
+import {appendTunesToPerformanceSet, savePerformanceSet} from '../performanceSetStore'
+import {appendTunesToPlaylist, savePlaylistFromQueue} from '../savedPlaylistsStore'
 import {createQueue} from '../nowPlayingQueue'
 import {Link, useNavigate} from 'react-router-dom'
+import {toast} from 'react-toastify'
+
+function BulkOpsDualIcon({leading, trailing}) {
+  return (
+    <span className="bulk-ops-dual-icon" aria-hidden="true">
+      {leading}
+      {trailing}
+    </span>
+  )
+}
 
 function BulkOpsButton({icon, label, className, children, ...buttonProps}) {
   const classes = ['bulk-ops-action-btn']
@@ -83,6 +94,7 @@ export default function SelectedItemsModal(props) {
   const [filterAddTag, setFilterAddTag] = useState('')
   const [filterRemoveTag, setFilterRemoveTag] = useState('')
   const [tagOptions, setTagOptions] = useState(props.defaultTagOptions())
+  const [addToListKind, setAddToListKind] = useState(null)
 
   const filterAddTimeoutRef = useRef(null)
   const filterRemoveTimeoutRef = useRef(null)
@@ -90,6 +102,7 @@ export default function SelectedItemsModal(props) {
   const filterRemoveTagTimeoutRef = useRef(null)
 
   const handleClose = function() {
+    setAddToListKind(null)
     setShow(false)
   }
 
@@ -321,6 +334,45 @@ export default function SelectedItemsModal(props) {
     handleClose()
   }
 
+  function openAddToSetlist() {
+    if (!selectedTuneIds().length) return
+    setAddToListKind('setlist')
+  }
+
+  function openAddToPlaylist() {
+    if (!selectedTuneIds().length) return
+    setAddToListKind('playlist')
+  }
+
+  function handleAddToList(list) {
+    var tuneIds = selectedTuneIds()
+    if (!list || !list.id || !tuneIds.length) return
+    var updated = null
+    if (addToListKind === 'setlist') {
+      updated = appendTunesToPerformanceSet(list.id, tuneIds)
+      if (!updated) {
+        toast.error('Could not add tunes to that setlist.')
+        return
+      }
+      toast.success(
+        'Added ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') +
+        ' to setlist "' + (updated.name || list.name || 'Set') + '"'
+      )
+    } else if (addToListKind === 'playlist') {
+      updated = appendTunesToPlaylist(list.id, tuneIds)
+      if (!updated) {
+        toast.error('Could not add tunes to that playlist.')
+        return
+      }
+      toast.success(
+        'Added ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') +
+        ' to playlist "' + (updated.name || list.name || 'Playlist') + '"'
+      )
+    }
+    setAddToListKind(null)
+    handleClose()
+  }
+
   var sortedOptions = Object.keys(options)
   sortedOptions.sort(function(a, b) { if (a > b) return 1; else return -1 })
   var sortedTagOptions = Object.keys(tagOptions)
@@ -364,11 +416,11 @@ export default function SelectedItemsModal(props) {
               />
             </div>
               <div className="bulk-ops-toolbar-block bulk-ops-create-block">
-                <span className="bulk-ops-toolbar-block-title">Create</span>
-                <ButtonGroup className="bulk-ops-create-btn-group" aria-label="Create from selection">
+                <span className="bulk-ops-toolbar-block-title">Lists</span>
+                <ButtonGroup className="bulk-ops-create-btn-group" aria-label="Create or add to lists from selection">
                   <BulkOpsButton
                     variant="success"
-                    icon={icons.playlist}
+                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.setlist} />}
                     label="Create setlist"
                     onClick={createSetlistFromSelected}
                   >
@@ -376,11 +428,27 @@ export default function SelectedItemsModal(props) {
                   </BulkOpsButton>
                   <BulkOpsButton
                     variant="success"
-                    icon={icons.playlist}
+                    icon={<BulkOpsDualIcon leading={icons.start} trailing={icons.playlist} />}
                     label="Create playlist"
                     onClick={createPlaylistFromSelected}
                   >
                     Play List
+                  </BulkOpsButton>
+                  <BulkOpsButton
+                    variant="primary"
+                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.setlist} />}
+                    label="Add to setlist"
+                    onClick={openAddToSetlist}
+                  >
+                    Add to Set List
+                  </BulkOpsButton>
+                  <BulkOpsButton
+                    variant="primary"
+                    icon={<BulkOpsDualIcon leading={icons.add} trailing={icons.playlist} />}
+                    label="Add to playlist"
+                    onClick={openAddToPlaylist}
+                  >
+                    Add to Play List
                   </BulkOpsButton>
                 </ButtonGroup>
               </div>
@@ -537,6 +605,14 @@ export default function SelectedItemsModal(props) {
           </div>
         </Modal.Body>
       </Modal>
+
+      <AddTunesToListModal
+        show={!!addToListKind}
+        kind={addToListKind || 'playlist'}
+        tuneIds={selectedTuneIds()}
+        onHide={function() { setAddToListKind(null) }}
+        onSelect={handleAddToList}
+      />
     </>
   )
 }

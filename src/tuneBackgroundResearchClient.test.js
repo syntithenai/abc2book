@@ -122,8 +122,14 @@ describe('tuneBackgroundResearchClient', function() {
     expect(extractFirstLyricLine('[Verse 1]\nGet you a copper kettle\nFill it full of corn')).toBe('Get you a copper kettle');
   });
 
-  test('lyricsSearchPhrases skips section headers', function() {
+  test('lyricsSearchPhrases defaults to one phrase', function() {
     expect(lyricsSearchPhrases('[Verse 1]\nGet you a copper kettle\nFill it full of corn')).toEqual([
+      'Get you a copper kettle',
+    ]);
+  });
+
+  test('lyricsSearchPhrases skips section headers', function() {
+    expect(lyricsSearchPhrases('[Verse 1]\nGet you a copper kettle\nFill it full of corn', 2)).toEqual([
       'Get you a copper kettle',
       'Fill it full of corn',
     ]);
@@ -135,10 +141,15 @@ describe('tuneBackgroundResearchClient', function() {
       'Dubliners',
       'Get you a copper kettle\nFill it full of corn'
     );
-    expect(queries.length).toBeGreaterThanOrEqual(11);
-    expect(queries.some(function(query) { return query.indexOf('"Wild Rover" "Dubliners" song history origin') >= 0; })).toBe(true);
-    expect(queries.some(function(query) { return query.indexOf('site:youtube.com "Wild Rover" Dubliners') >= 0; })).toBe(true);
-    expect(queries.some(function(query) { return query.indexOf('"Get you a copper kettle" song lyrics') >= 0; })).toBe(true);
+    expect(queries).toHaveLength(6);
+    expect(queries.some(function(query) { return query.indexOf('"Wild Rover" "Dubliners" song history origin recording') >= 0; })).toBe(true);
+    expect(queries.some(function(query) { return query.indexOf('"Wild Rover" "Dubliners" covers performers recordings') >= 0; })).toBe(true);
+    expect(queries.some(function(query) { return query.indexOf('site:thesession.org "Wild Rover"') >= 0; })).toBe(true);
+    expect(queries.some(function(query) { return query.indexOf('site:discogs.com "Wild Rover" Dubliners') >= 0; })).toBe(true);
+    expect(queries.some(function(query) { return query.indexOf('"Get you a copper kettle" "Dubliners"') >= 0; })).toBe(true);
+    expect(queries.some(function(query) { return query.indexOf('youtube.com') >= 0; })).toBe(false);
+    expect(queries.some(function(query) { return query.indexOf('wikipedia') >= 0; })).toBe(false);
+    expect(queries.some(function(query) { return query.indexOf('Fill it full of corn') >= 0; })).toBe(false);
   });
 
   test('buildTuneBackgroundSearchQuery includes resolver research topics and lyric line', function() {
@@ -150,9 +161,11 @@ describe('tuneBackgroundResearchClient', function() {
     expect(query).toContain('"Copper Kettle"');
     expect(query).not.toContain('Traditional');
     expect(query).toContain('"Get you a copper kettle"');
-    expect(query).toContain('first recorded written');
-    expect(query).toContain('notable recordings performers covers');
-    expect(query).toContain('site:youtube.com');
+    expect(query).toContain('song history origin recording');
+    expect(query).toContain('covers performers recordings');
+    expect(query).toContain('site:thesession.org');
+    expect(query).not.toContain('site:youtube.com');
+    expect(query).not.toContain('first recorded written');
   });
 
   test('buildTuneBackgroundSearchUrl stays within browser URL limits', function() {

@@ -1,0 +1,75 @@
+.chord-section-record-modal .modal-body.chord-section-record-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+}
+
+.chord-section-record-modal .chord-record-controls {
+  margin-bottom: 0;
+}
+
+.chord-section-record-modal .chord-record-setup {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.chord-section-record-modal .chord-record-setup .chord-record-palette {
+  flex: 1 1 100%;
+  min-width: 0;
+  width: 100%;
+}
+
+.chord-section-record-modal .chord-record-palette-row {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.chord-section-record-modal .chord-record-palette-select {
+  flex: 1 1 100%;
+  min-width: 0;
+  width: 100%;
+}
+
+.chord-section-record-modal .chord-record-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+  overflow: visible;
+}
+
+.chord-section-record-modal .chord-record-chord-btn {
+  flex: 1 1 4.5rem;
+  min-width: 4.5rem;
+  max-width: 8rem;
+}
+
+.chord-section-record-compare {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chord-section-record-compare-pane {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.chord-section-record-compare-pre {
+  margin-bottom: 0;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.85em;
+  background: var(--bs-secondary-bg, #f8f9fa);
+  padding: 0.75em;
+  border-radius: 0.25rem;
+  min-height: 6em;
+}
+
+.chord-section-record-compare-textarea {
+  font-family: monospace;
+  font-size: 0.85em;
+  min-height: 6em;
+  resize: vertical;
+}

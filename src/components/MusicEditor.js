@@ -2,7 +2,7 @@ import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
 import {useState, useEffect, useCallback} from 'react'
 import AbcEditor from './AbcEditor'
-import LocalSearchSelectorModal from './LocalSearchSelectorModal'
+import TuneEnhanceButton from './TuneEnhanceButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
@@ -114,7 +114,12 @@ export default function MusicEditor(props) {
                     <Button title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'} disabled={!canRedo} variant="secondary" className="btn-secondary" onClick={handleRedo}>{props.tunebook.icons.arrowgoforward}</Button>
                 </ButtonGroup>
                 <span className="music-editor-search">
-                    <LocalSearchSelectorModal value={tune ? (tune.name ?? '') : ''} currentTune={tune} tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts} token={props.token} />
+                    <TuneEnhanceButton
+                      tune={tune}
+                      tunebook={props.tunebook}
+                      token={props.token}
+                      forceRefresh={props.forceRefresh}
+                    />
                     <FieldLookupReviewButton
                       tuneId={tune && tune.id}
                       kind="notation"

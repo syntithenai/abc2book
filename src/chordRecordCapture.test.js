@@ -48,4 +48,15 @@ describe('chordRecordCapture', function() {
   test('assignmentsToChordGrid returns empty for no assignments', function() {
     expect(assignmentsToChordGrid({}, '4/4')).toBe('');
   });
+
+  test('assignmentsToChordGrid skips count-in beats via startBeatIndex', function() {
+    const grid = assignmentsToChordGrid({
+      0: 'IGNORE',
+      4: 'C',
+      8: 'G',
+    }, '4/4', { startBeatIndex: 4, endBeatIndex: 8 });
+    expect(grid).not.toContain('IGNORE');
+    expect(grid).toContain('C');
+    expect(grid).toContain('G');
+  });
 });

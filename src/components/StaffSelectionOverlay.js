@@ -3,14 +3,25 @@ import { EDITOR_MODES } from '../notation/notationConstants';
 import { selectionRectsForEventIds } from '../notation/staffClickResolve';
 
 export default function StaffSelectionOverlay(props) {
-  const { containerRef, session, displayAbc, voiceStaffIndex } = props;
+  const { containerRef, session, displayAbc, voiceStaffIndex, clickRects } = props;
   const [rects, setRects] = useState([]);
   const showSelection = session.mode !== EDITOR_MODES.NOTE_INPUT
     && session.selection.eventIds.length > 0;
+  const useClickRects = !!(
+    clickRects
+    && clickRects.length
+    && session.selection.eventIds.length === 1
+    && clickRects.length === 1
+  );
 
   useLayoutEffect(function() {
     if (!showSelection) {
       setRects([]);
+      return undefined;
+    }
+
+    if (useClickRects) {
+      setRects(clickRects);
       return undefined;
     }
 
@@ -46,6 +57,8 @@ export default function StaffSelectionOverlay(props) {
     };
   }, [
     showSelection,
+    useClickRects,
+    clickRects,
     containerRef,
     session.selection.eventIds,
     session.events,

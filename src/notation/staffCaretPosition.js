@@ -117,8 +117,16 @@ function staffRenderRoot(wrapEl) {
 function noteElementsIn(root) {
   if (!root) return [];
   const direct = Array.from(root.querySelectorAll('.abcjs-note, .abcjs-rest'));
-  if (direct.length) return direct;
-  return Array.from(root.querySelectorAll('[class*="abcjs-note"], [class*="abcjs-rest"]'));
+  const raw = direct.length
+    ? direct
+    : Array.from(root.querySelectorAll('[class*="abcjs-note"], [class*="abcjs-rest"]'));
+  // Grace notes are extra DOM glyphs and must not consume drawable ordinals.
+  return raw.filter(function(el) {
+    const cls = elementClassName(el);
+    if (cls.indexOf('abcjs-grace') >= 0) return false;
+    if (el.closest && el.closest('.abcjs-grace')) return false;
+    return true;
+  });
 }
 
 function barlineElementsIn(root) {
@@ -355,15 +363,24 @@ export function findDrawableDomIndex(drawables, noteEl) {
     lNum = elementClassNumber(noteEl.parentNode, 'abcjs-l');
   }
   if (nNum != null) {
-    const clickedLine = lNum;
+    // Prefer exact line match; never return a different system line's note.
+    let fallback = -1;
     for (let j = 0; j < drawables.length; j += 1) {
       if (elementClassNumber(drawables[j], 'abcjs-n') !== nNum) continue;
       const drawableLine = elementClassNumber(drawables[j], 'abcjs-l');
-      if (clickedLine != null) {
-        if (drawableLine === clickedLine) return j;
+      if (lNum != null && drawableLine != null) {
+        if (drawableLine === lNum) return j;
         continue;
       }
-      return j;
+      if (fallback < 0) fallback = j;
+    }
+    // Only accept no-line fallback when a single candidate shares abcjs-n.
+    if (fallback >= 0) {
+      let sameN = 0;
+      for (let k = 0; k < drawables.length; k += 1) {
+        if (elementClassNumber(drawables[k], 'abcjs-n') === nNum) sameN += 1;
+      }
+      if (sameN === 1) return fallback;
     }
   }
   return -1;
@@ -373,6 +390,12 @@ export function findDrawableDomIndex(drawables, noteEl) {
 export function eventIndexFromStaffNoteElement(wrapEl, events, mouseEvent, analysis, voiceStaffIndex) {
   const noteEl = findStaffClickNoteEl(wrapEl, analysis, mouseEvent);
   if (!noteEl) return null;
+  const clickX = mouseEvent ? mouseEvent.clientX : null;
+  const clickY = mouseEvent ? mouseEvent.clientY : null;
+  // Reject "nearby" SVG hits — only accept when the pointer is inside the glyph box.
+  if (clickX != null && clickY != null && !clickHitsNote(noteEl, clickX, clickY)) {
+    return null;
+  }
   const drawables = drawableElementsForVoice(wrapEl, voiceStaffIndex);
   const domIdx = findDrawableDomIndex(drawables, noteEl);
   if (domIdx < 0) return null;
@@ -397,85 +420,109 @@ function clickHitsNote(noteEl, clickX, clickY) {
 
 /**
  * Map a horizontal click on one system line to a caret slot between/around notes and barlines.
+ * Notes and barlines are interleaved by X so clicks in empty measures (between bars) resolve
+ * to the gap, not to the next note after later barlines.
+ *
+ * When the click lands on a note/rest glyph, also returns hitEventIndex (the event under the
+ * pointer) so selection can pin that note even if caretIndex is "after" (right-half bisect).
  */
 function caretFromLineDrawables(list, drawables, bars, lineDrawables, lineBars, clickX, clickY, wrapRect, wrapEl) {
   if (clickX == null) return null;
 
   const sortedNotes = sortLineDrawablesInReadingOrder(drawables, lineDrawables);
-
-  for (let i = 0; i < sortedNotes.length; i += 1) {
-    const rect = sortedNotes[i].getBoundingClientRect();
-    const domIdx = findDrawableDomIndex(drawables, sortedNotes[i]);
-    if (domIdx < 0) continue;
-
-    if (clickX < rect.left) {
-      return {
-        caretIndex: caretIndexForDrawableDomIndex(list, domIdx, false),
-        anchor: anchorAtClick(clickX, clickY, sortedNotes, wrapRect, wrapEl),
-      };
-    }
-
-    if (clickX <= rect.right) {
-      const insertAfter = clickX >= rect.left + rect.width * 0.5;
-      return {
-        caretIndex: caretIndexForDrawableDomIndex(list, domIdx, insertAfter),
-        anchor: insertAfter
-          ? anchorFromRect(rect, wrapRect, true, wrapEl)
-          : anchorFromRect(rect, wrapRect, false, wrapEl),
-      };
-    }
-  }
-
   const sortedBars = lineBars.slice().sort(function(a, b) {
     return a.getBoundingClientRect().left - b.getBoundingClientRect().left;
   });
 
-  for (let bi = 0; bi < sortedBars.length; bi += 1) {
-    const barEl = sortedBars[bi];
-    const rect = barEl.getBoundingClientRect();
-    const barDomIdx = bars.indexOf(barEl);
-    if (barDomIdx < 0) continue;
+  const targets = [];
+  sortedNotes.forEach(function(el) {
+    const rect = el.getBoundingClientRect();
+    const domIdx = findDrawableDomIndex(drawables, el);
+    if (domIdx < 0) return;
+    targets.push({
+      kind: 'note',
+      el: el,
+      left: rect.left,
+      right: rect.right,
+      mid: rect.left + rect.width * 0.5,
+      rect: rect,
+      domIdx: domIdx,
+    });
+  });
+  sortedBars.forEach(function(el) {
+    const rect = el.getBoundingClientRect();
+    const barDomIdx = bars.indexOf(el);
+    if (barDomIdx < 0) return;
     const barEventIdx = eventIndexForBarDomIndex(list, barDomIdx);
+    targets.push({
+      kind: 'bar',
+      el: el,
+      left: rect.left,
+      right: rect.right + 4,
+      mid: rect.left + Math.max(rect.width, 1) * 0.5,
+      rect: rect,
+      barEventIdx: barEventIdx,
+    });
+  });
 
-    if (clickX < rect.left) {
+  targets.sort(function(a, b) {
+    if (a.left !== b.left) return a.left - b.left;
+    if (a.kind === b.kind) return 0;
+    return a.kind === 'note' ? -1 : 1;
+  });
+
+  for (let i = 0; i < targets.length; i += 1) {
+    const t = targets[i];
+
+    if (clickX < t.left) {
+      if (t.kind === 'note') {
+        return {
+          caretIndex: caretIndexForDrawableDomIndex(list, t.domIdx, false),
+          hitEventIndex: caretIndexForDrawableDomIndex(list, t.domIdx, false),
+          anchor: anchorAtClick(clickX, clickY, sortedNotes.length ? sortedNotes : [t.el], wrapRect, wrapEl),
+        };
+      }
       return {
-        caretIndex: barEventIdx,
-        anchor: anchorFromRect(rect, wrapRect, false, wrapEl),
+        caretIndex: t.barEventIdx,
+        anchor: anchorFromRect(t.rect, wrapRect, false, wrapEl),
       };
     }
 
-    if (clickX <= rect.right + 4) {
-      const insertAfter = clickX >= rect.left + rect.width * 0.5;
+    if (clickX <= t.right) {
+      const insertAfter = clickX >= t.mid;
+      if (t.kind === 'note') {
+        const noteIdx = caretIndexForDrawableDomIndex(list, t.domIdx, false);
+        return {
+          caretIndex: caretIndexForDrawableDomIndex(list, t.domIdx, insertAfter),
+          hitEventIndex: noteIdx,
+          anchor: insertAfter
+            ? anchorFromRect(t.rect, wrapRect, true, wrapEl)
+            : anchorFromRect(t.rect, wrapRect, false, wrapEl),
+        };
+      }
       return {
-        caretIndex: insertAfter ? barEventIdx + 1 : barEventIdx,
+        caretIndex: insertAfter ? t.barEventIdx + 1 : t.barEventIdx,
         anchor: insertAfter
-          ? anchorFromRect(rect, wrapRect, true, wrapEl)
-          : anchorFromRect(rect, wrapRect, false, wrapEl),
+          ? anchorFromRect(t.rect, wrapRect, true, wrapEl)
+          : anchorFromRect(t.rect, wrapRect, false, wrapEl),
       };
     }
   }
 
-  if (sortedNotes.length) {
-    const last = sortedNotes[sortedNotes.length - 1];
-    const lastDomIdx = findDrawableDomIndex(drawables, last);
-    if (lastDomIdx >= 0) {
+  if (targets.length) {
+    const last = targets[targets.length - 1];
+    if (last.kind === 'note') {
+      const noteIdx = caretIndexForDrawableDomIndex(list, last.domIdx, false);
       return {
-        caretIndex: caretIndexForDrawableDomIndex(list, lastDomIdx, true),
+        caretIndex: caretIndexForDrawableDomIndex(list, last.domIdx, true),
+        hitEventIndex: noteIdx,
         anchor: anchorAtClick(clickX, clickY, sortedNotes, wrapRect, wrapEl),
       };
     }
-  }
-
-  if (sortedBars.length) {
-    const lastBar = sortedBars[sortedBars.length - 1];
-    const barDomIdx = bars.indexOf(lastBar);
-    if (barDomIdx >= 0) {
-      const barEventIdx = eventIndexForBarDomIndex(list, barDomIdx);
-      return {
-        caretIndex: barEventIdx + 1,
-        anchor: anchorFromRect(lastBar.getBoundingClientRect(), wrapRect, true, wrapEl),
-      };
-    }
+    return {
+      caretIndex: last.barEventIdx + 1,
+      anchor: anchorFromRect(last.rect, wrapRect, true, wrapEl),
+    };
   }
 
   return null;
@@ -516,8 +563,10 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
     if (domIdx >= 0 && clickHitsNote(target, clickX, clickY)) {
       const rect = target.getBoundingClientRect();
       const insertAfter = clickX != null && clickX >= rect.left + rect.width * 0.5;
+      const noteIdx = caretIndexForDrawableDomIndex(list, domIdx, false);
       return {
         caretIndex: caretIndexForDrawableDomIndex(list, domIdx, insertAfter),
+        hitEventIndex: noteIdx,
         anchor: anchorFromRect(rect, wrapRect, insertAfter, wrapEl),
       };
     }
@@ -533,6 +582,15 @@ export function caretIndexAndAnchorFromStaffClick(wrapEl, events, mouseEvent, an
         && clickY >= staffRect.top - 8
         && clickY <= staffRect.bottom + 8
       ) {
+        // Prefer nearest barline/note on this staff Y rather than coarse 55% start/end.
+        const nearBars = elementsOnSameSystemLine(bars, clickY, 40);
+        const nearNotes = elementsOnSameSystemLine(drawables, clickY, 40);
+        if (nearBars.length || nearNotes.length) {
+          const fromNear = caretFromLineDrawables(
+            list, drawables, bars, nearNotes, nearBars, clickX, clickY, wrapRect, wrapEl
+          );
+          if (fromNear) return fromNear;
+        }
         const insertAtEnd = clickX > staffRect.left + staffRect.width * 0.55;
         const caretIndex = insertAtEnd
           ? list.length

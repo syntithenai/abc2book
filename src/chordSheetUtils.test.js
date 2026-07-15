@@ -248,6 +248,24 @@ describe('chordSheetUtils', function() {
     expect(aligned[2].lyricLines).toEqual([]);
   });
 
+  test('chordSectionLabels match charts by name when lyric order differs', function() {
+    // Charts are Verse then Chorus; lyrics are Chorus then Verse.
+    // Without labels, sequential mapping would put VERSECHORDS on the chorus.
+    const lyrics = [
+      '[Chorus]', 'chorus words', '',
+      '[Verse 1]', 'first verse words',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS'], {
+      chordSectionLabels: [
+        { header: '[Verse 1]', title: 'Verse 1', type: 'verse', chartRevisit: false },
+        { header: '[Chorus]', title: 'Chorus', type: 'chorus', chartRevisit: false },
+      ],
+    });
+    expect(aligned.length).toBe(2);
+    expect(aligned[0]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS' });
+    expect(aligned[1]).toMatchObject({ type: 'verse', chart: 'VERSECHORDS' });
+  });
+
   test('leading title/composer line does not consume first chord block', function() {
     const lyrics = [
       'Song Title - Composer Name', '',

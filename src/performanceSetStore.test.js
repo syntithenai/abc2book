@@ -1,7 +1,34 @@
 import {
   normalizePerformanceSetItems,
   exportPerformanceSetText,
+  savePerformanceSet,
+  getPerformanceSet,
+  appendTunesToPerformanceSet,
 } from './performanceSetStore';
+
+describe('appendTunesToPerformanceSet', function() {
+  beforeEach(function() {
+    localStorage.clear();
+  });
+
+  test('appends tunes to an existing set', function() {
+    const saved = savePerformanceSet({
+      name: 'Gig',
+      items: [{ type: 'tune', tuneId: 'a' }],
+    });
+    const updated = appendTunesToPerformanceSet(saved.id, ['b', 'c']);
+    expect(updated.items).toEqual([
+      { type: 'tune', tuneId: 'a' },
+      { type: 'tune', tuneId: 'b' },
+      { type: 'tune', tuneId: 'c' },
+    ]);
+    expect(getPerformanceSet(saved.id).items).toEqual(updated.items);
+  });
+
+  test('returns null for missing set', function() {
+    expect(appendTunesToPerformanceSet('missing', ['a'])).toBeNull();
+  });
+});
 
 describe('normalizePerformanceSetItems', function() {
   test('migrates standalone notes onto adjacent tunes', function() {

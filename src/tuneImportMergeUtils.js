@@ -1,6 +1,7 @@
 export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'name', label: 'Title', group: 'ABC metadata', defaultImport: true },
-  { key: 'composer', label: 'Artist', group: 'ABC metadata', defaultImport: true },
+  { key: 'composer', label: 'Composer', group: 'ABC metadata', defaultImport: true },
+  { key: 'artists', label: 'Artists', group: 'ABC metadata', defaultImport: true },
   { key: 'genre', label: 'Genre', group: 'ABC metadata', defaultImport: true },
   { key: 'rhythm', label: 'Rhythm', group: 'ABC metadata', defaultImport: true },
   { key: 'meter', label: 'Time signature', group: 'ABC metadata', defaultImport: true },
@@ -11,10 +12,8 @@ export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'meta', label: 'Other ABC metadata', group: 'ABC metadata', defaultImport: true },
   { key: 'abccomments', label: 'ABC comments', group: 'ABC metadata', defaultImport: false },
   { key: 'voices', label: 'Music (notation)', group: 'Music', defaultImport: true },
-  { key: 'timedChords', label: 'Timed chords', group: 'Music', defaultImport: false },
   { key: 'words', label: 'Lyrics (W: fields)', group: 'Lyrics', defaultImport: true },
   { key: 'wLines', label: 'Lyrics (w: fields)', group: 'Lyrics', defaultImport: true },
-  { key: 'timedLyrics', label: 'Timed lyrics', group: 'Lyrics', defaultImport: false },
   { key: 'books', label: 'Books', group: 'Collection data', defaultImport: false },
   { key: 'tags', label: 'Tags', group: 'Collection data', defaultImport: false },
   { key: 'links', label: 'Links', group: 'Collection data', defaultImport: false },
@@ -184,7 +183,7 @@ export function formatTuneFieldValue(fieldKey, value) {
   if (fieldKey === 'files' || fieldKey === 'recordings') {
     return (Array.isArray(value) ? value.length : 0) + ' item' + (value.length === 1 ? '' : 's');
   }
-  if (fieldKey === 'books' || fieldKey === 'tags' || fieldKey === 'aliases') {
+  if (fieldKey === 'books' || fieldKey === 'tags' || fieldKey === 'aliases' || fieldKey === 'artists') {
     return Array.isArray(value) ? value.join(', ') : String(value);
   }
   if (fieldKey === 'words' || fieldKey === 'wLines') {

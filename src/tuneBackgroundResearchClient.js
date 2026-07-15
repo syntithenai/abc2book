@@ -5,13 +5,9 @@ const RESEARCH_ACCEPT_HEADER = 'application/x-ndjson, application/json';
 const GOOGLE_SEARCH_BASE = 'https://www.google.com/search?q=';
 const GOOGLE_SEARCH_URL_MAX_LENGTH = 2048;
 const RESEARCH_QUERY_TOPICS = [
-  'song history origin',
+  'song history origin recording',
+  'covers performers recordings',
   'alternative names aka',
-  'first recorded written',
-  'who popularized made famous',
-  'notable recordings performers covers',
-  'record label releases',
-  'musical structure key tempo',
 ];
 
 export function normalizeTuneBackgroundResearch(body) {
@@ -162,7 +158,7 @@ export function extractFirstLyricLine(lyrics) {
 }
 
 export function lyricsSearchPhrases(lyrics, maxPhrases) {
-  const limit = typeof maxPhrases === 'number' ? maxPhrases : 3;
+  const limit = typeof maxPhrases === 'number' ? maxPhrases : 1;
   const text = String(lyrics || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim();
   if (!text) return [];
 
@@ -228,23 +224,18 @@ export function buildTuneBackgroundResearchQueries(title, artist, lyrics) {
   const artistParts = researchArtistParts(artist);
   const base = quoteTerm(cleanTitle) + artistParts.quotedArtist;
   const queries = [
-    base + ' song history origin',
+    base + ' song history origin recording',
+    base + ' covers performers recordings',
     base + ' alternative names aka',
-    base + ' first recorded written',
-    base + ' who popularized made famous',
-    base + ' notable recordings performers covers',
-    base + ' record label releases',
-    base + ' musical structure key tempo',
-    'site:youtube.com ' + quoteTerm(cleanTitle) + artistParts.artistPart,
     'site:thesession.org ' + quoteTerm(cleanTitle),
     'site:discogs.com ' + quoteTerm(cleanTitle) + artistParts.artistPart,
-    (cleanTitle + artistParts.artistPart + ' wikipedia').trim(),
   ];
 
-  lyricsSearchPhrases(lyrics).forEach(function(phrase) {
-    queries.push(quoteTerm(phrase) + ' song lyrics');
+  lyricsSearchPhrases(lyrics, 1).forEach(function(phrase) {
     if (artistParts.quotedArtist) {
       queries.push(quoteTerm(phrase) + artistParts.quotedArtist);
+    } else {
+      queries.push(quoteTerm(phrase) + ' song lyrics');
     }
   });
 

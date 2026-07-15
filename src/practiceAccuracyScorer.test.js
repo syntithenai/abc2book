@@ -5,6 +5,7 @@ import {
   summarizeRepTiming,
   aggregateRepSummaries,
   liveIntonationBand,
+  liveCentsToExpectedMidi,
   mergeResolverScore,
   SCORING_PITCH_TOLERANCE_SEMITONES,
 } from './practiceAccuracyScorer'
@@ -62,6 +63,23 @@ describe('practiceAccuracyScorer', function() {
     expect(liveIntonationBand(3)).toBe('green')
     expect(liveIntonationBand(10)).toBe('amber')
     expect(liveIntonationBand(20)).toBe('red')
+  })
+
+  test('liveCentsToExpectedMidi folds octaves into ±600', function() {
+    const expected = 60
+    const octaveBelow = midiToFrequency(48)
+    const folded = liveCentsToExpectedMidi(octaveBelow, expected)
+    expect(folded).not.toBeNull()
+    expect(Math.abs(folded)).toBeLessThan(50)
+    const slightlySharp = midiToFrequency(60) * Math.pow(2, 30 / 1200)
+    expect(liveCentsToExpectedMidi(slightlySharp, expected)).toBeCloseTo(30, 0)
+  })
+
+  test('foldMidiNearExpected maps octave neighbors onto expected', function() {
+    const { foldMidiNearExpected } = require('./practiceAccuracyScorer')
+    expect(foldMidiNearExpected(48, 60)).toBeCloseTo(60, 5)
+    expect(foldMidiNearExpected(72, 60)).toBeCloseTo(60, 5)
+    expect(foldMidiNearExpected(62, 60)).toBeCloseTo(62, 5)
   })
 
   test('aggregateRepSummaries', function() {

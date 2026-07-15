@@ -3,9 +3,12 @@ import { audioFiltersAreNeutral } from './pitchTempoUtils';
 const PREFIX = '% abcbook-json ';
 const CHUNK_SIZE = 180;
 
-export const TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords'];
+/** Timed lyrics/chords are wizard-session only; never persist in ABC. */
+export const TIMED_JSON_FIELDS = [];
 export const PLAYBACK_JSON_FIELDS = ['playbackAudioFilters'];
-export const EXTRA_JSON_FIELDS = [];
+/** Chord-editor stanza labels (override positional lyric assignment). */
+export const EXTRA_JSON_FIELDS = ['chordSectionLabels'];
+export const LEGACY_TIMED_JSON_FIELDS = ['timedLyrics', 'timedChords', 'timedMelody'];
 
 export function renderAbcbookJsonField(fieldName, value) {
   if (value === null || value === undefined) return [];

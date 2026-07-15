@@ -3,12 +3,11 @@ import { Modal, Button, Form } from 'react-bootstrap';
 import { DEFAULT_QUANTIZE_STRENGTH, DEFAULT_SNAP_SLOTS_PER_BEAT } from '../notation/notationConstants';
 
 export default function QuantizeDialog(props) {
-  const { show, onHide, onApply, hasRecordingGrid } = props;
+  const { show, onHide, onApply } = props;
   const [strength, setStrength] = useState(DEFAULT_QUANTIZE_STRENGTH);
   const [slotsPerBeat, setSlotsPerBeat] = useState(DEFAULT_SNAP_SLOTS_PER_BEAT);
   const [quantizeStart, setQuantizeStart] = useState(true);
   const [quantizeDuration, setQuantizeDuration] = useState(true);
-  const [useRecordingGrid, setUseRecordingGrid] = useState(!!hasRecordingGrid);
 
   return (
     <Modal show={show} onHide={onHide} size="sm">
@@ -29,9 +28,6 @@ export default function QuantizeDialog(props) {
         </Form.Group>
         <Form.Check type="checkbox" label="Quantize start" checked={quantizeStart} onChange={function(e) { setQuantizeStart(e.target.checked); }} />
         <Form.Check type="checkbox" label="Quantize duration" checked={quantizeDuration} onChange={function(e) { setQuantizeDuration(e.target.checked); }} />
-        {hasRecordingGrid ? (
-          <Form.Check type="checkbox" label="Use recording beat grid" checked={useRecordingGrid} onChange={function(e) { setUseRecordingGrid(e.target.checked); }} />
-        ) : null}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>Cancel</Button>
@@ -41,7 +37,6 @@ export default function QuantizeDialog(props) {
             slotsPerBeat: slotsPerBeat,
             quantizeStart: quantizeStart,
             quantizeDuration: quantizeDuration,
-            useRecordingGrid: useRecordingGrid,
           });
         }}>Apply</Button>
       </Modal.Footer>

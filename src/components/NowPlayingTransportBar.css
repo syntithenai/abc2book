@@ -103,21 +103,85 @@
   }
 }
 
+body.app-has-playlist-transport {
+  --app-playlist-transport-offset: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+}
+
 body.app-has-playlist-transport .App-body {
-  padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  padding-bottom: var(--app-playlist-transport-offset);
 }
 
 body.app-has-playlist-transport .add-page {
-  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  bottom: var(--app-playlist-transport-offset);
 }
 
+/*
+ * Fullscreen modals must keep an EXPLICIT height when the playlist transport is
+ * visible. Overriding Bootstrap's height:100% with height:auto collapses flex
+ * chrome (headers disappear) and cuts off the bottom of the body.
+ */
 body.app-has-playlist-transport .modal-fullscreen {
-  bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+  height: calc(100% - var(--app-playlist-transport-offset));
+  max-height: calc(100% - var(--app-playlist-transport-offset));
+}
+
+body.app-has-playlist-transport .modal-fullscreen .modal-content {
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+body.app-has-playlist-transport .modal-fullscreen .modal-header,
+body.app-has-playlist-transport .modal-fullscreen .modal-footer {
+  flex: 0 0 auto;
+}
+
+body.app-has-playlist-transport .modal-fullscreen .modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* Nested-scroll dialogs: body stays overflow:hidden; an inner region scrolls.
+ * Note: react-bootstrap puts `className` on the outer .modal and `dialogClassName`
+ * / fullscreen on .modal-dialog. */
+body.app-has-playlist-transport .bulk-ops-modal.modal-fullscreen .modal-body,
+body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen .modal-body,
+body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body,
+body.app-has-playlist-transport .gig-mode-modal .modal-body,
+body.app-has-playlist-transport .field-preview-editor-modal--fill .modal-body {
+  overflow: hidden;
+}
+
+/* Dialogs that hard-code 100vh / 100dvh must shrink for the transport too. */
+body.app-has-playlist-transport .bulk-ops-modal.modal-fullscreen .modal-content,
+body.app-has-playlist-transport .practice-session-modal .modal-content {
+  min-height: 0;
+  height: 100%;
+  max-height: 100%;
+}
+
+body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen {
+  height: calc(100dvh - var(--app-playlist-transport-offset));
+  max-height: calc(100dvh - var(--app-playlist-transport-offset));
+}
+
+body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen .modal-content {
+  height: 100%;
+  max-height: 100%;
+}
+
+body.app-has-playlist-transport .media-import-wizard-modal.modal-fullscreen .media-import-wizard-body {
   height: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
 }
 
 body.app-has-playlist-transport .import-review-embedded {
-  padding-bottom: calc(1.5rem + 4.25rem + env(safe-area-inset-bottom, 0px));
+  padding-bottom: calc(1.5rem + var(--app-playlist-transport-offset));
 }
 
 body.app-has-playlist-transport .add-page-body {

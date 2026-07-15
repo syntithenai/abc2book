@@ -117,9 +117,6 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
     const liveTune = (options && options.tune) || resolveTune(deps, null, tuneId);
     const skipPersist = !!(options && options.skipPersist);
     if (liveTune && !skipPersist) {
-      if (timedModels.timedLyrics) liveTune.timedLyrics = timedModels.timedLyrics;
-      if (timedModels.timedChords) liveTune.timedChords = timedModels.timedChords;
-      if (timedModels.timedMelody) liveTune.timedMelody = timedModels.timedMelody;
       if (!liveTune.meter && result.timing && result.timing.meter) {
         liveTune.meter = result.timing.meter;
       }

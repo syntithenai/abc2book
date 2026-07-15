@@ -21,6 +21,10 @@ export function applyNotationTuneMeta(importedTune, tuneMeta) {
     importedTune[fieldKey] = value
   })
 
+  if (Array.isArray(tuneMeta.artists) && tuneMeta.artists.length > 0) {
+    importedTune.artists = tuneMeta.artists.slice()
+  }
+
   if (Array.isArray(tuneMeta.aliases) && tuneMeta.aliases.length > 0) {
     importedTune.aliases = tuneMeta.aliases.slice()
   }

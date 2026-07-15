@@ -1,6 +1,7 @@
 import useUtils from './useUtils'
 import useAbcTools from './useAbcTools'
 import {useState, useRef} from 'react'
+import { allArtists } from './tuneBibliographicUtils'
 
 function indexSnapshotEqual(a, b) {
     try {
@@ -73,8 +74,10 @@ var useIndexes = () => {
 
         var artistIndexNew = utils.loadLocalObject('bookstorage_index_artists')
         artistIndexNew = removeTune(tune, artistIndexNew)
-        if (tune && tune.id && tune.composer && String(tune.composer).trim()) {
-            addTuneIdToIndexKey(artistIndexNew, String(tune.composer).trim(), tune.id)
+        if (tune && tune.id) {
+            allArtists(tune).forEach(function(artistName) {
+                addTuneIdToIndexKey(artistIndexNew, artistName, tune.id)
+            })
         }
         if (!indexSnapshotEqual(artistIndexNew, lastArtistIndexRef.current)) {
             setArtistIndex(artistIndexNew)
@@ -188,8 +191,10 @@ var useIndexes = () => {
             }
 
             artistIndexNew = removeTune(tune, artistIndexNew)
-            if (tune && tune.id && tune.composer && String(tune.composer).trim()) {
-                addTuneIdToIndexKey(artistIndexNew, String(tune.composer).trim(), tune.id)
+            if (tune && tune.id) {
+                allArtists(tune).forEach(function(artistName) {
+                    addTuneIdToIndexKey(artistIndexNew, artistName, tune.id)
+                })
             }
         })
         if (!indexSnapshotEqual(bookIndexNew, lastBookIndexRef.current)) {

@@ -2,7 +2,7 @@ import abcjs from 'abcjs'
 import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
-import { getBarModel, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
+import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
 
 /**
  * Utilities for converting to/from abcjs object format
@@ -388,7 +388,19 @@ export default function useAbcjsParser() {
                     
                     symbols.forEach(function(symbol,symbolNumber) {
                        lastSymbol = symbol
-                       if (symbol.el_type === 'note') {
+                       if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
+                            var nextMeter = String(symbol.value[0].num) + '/' + String(symbol.value[0].den)
+                            meter = normalizeMeter(nextMeter)
+                            noteLength = getNoteLengthDecimal("L:"+noteLengthText+"\nM:"+meter)
+                            barSize = abcTools.getNoteLengthsPerBar(noteLengthText, meter)
+                            fullBarDuration = barSize * noteLength
+                            final.push('[M:' + meter + ']')
+                            barLayout = []
+                            for (var mi = 0; mi < barSize; mi++) {
+                                barLayout.push([])
+                            }
+                            noteLengthsSinceLastBar = 0
+                       } else if (symbol.el_type === 'note') {
                             // assign note chord to bar layout
                             if (Array.isArray(symbol.chord) && symbol.chord.length > 0) {
                                 symbol.chord.forEach(function(chordT) {
@@ -504,14 +516,20 @@ export default function useAbcjsParser() {
 
     /**
      * Parse an string containing compressed chord format 
-     * into an object representing the lines, bars and timing of the chords
+     * into an object representing the lines, bars and timing of the chords.
+     * Supports inline [M:x/y] tokens that change beats-per-bar for following bars.
+     * @returns {{ lines: array, meterByBarKey: object, initialMeter: string }}
      */
     function parseChordText(chordText, abcString, alignment) {
         var abcJson = abcTools.abc2json(abcString)
-        var barModel = getBarModel(abcJson.meter, abcJson.noteLength)
+        var noteLengthText = abcJson.noteLength ? abcJson.noteLength : '1/8'
+        var currentMeter = normalizeMeter(abcJson.meter || '4/4')
+        var barModel = getBarModel(currentMeter, noteLengthText)
         var noteLengthsPerBar = barModel.unitSlotsPerBar
         var key = abcTools.getMetaValueFromAbc('K',abcString)
         var result = []
+        var meterByBarKey = {}
+        var initialMeter = currentMeter
         if (chordText && chordText.trim()) {
             var lines = chordText.trim().split("\n")
             var nonEmptyChordLineIndex = -1
@@ -531,8 +549,21 @@ export default function useAbcjsParser() {
               var anchorCursor = 0
               bars.forEach(function(bar,bk) {
                   if (typeof bar === 'string' && bar.trim()) {
+                    var meterMatch = /\[M:\s*([^\]]+)\]/i.exec(bar)
+                    if (meterMatch) {
+                      currentMeter = normalizeMeter(meterMatch[1])
+                      barModel = getBarModel(currentMeter, noteLengthText)
+                      noteLengthsPerBar = barModel.unitSlotsPerBar
+                      if (lineNumber === 0 && bk === 0) initialMeter = currentMeter
+                    }
+                    meterByBarKey[lineNumber + '-' + bk] = currentMeter
+                    var barWithoutMeter = bar.replace(/\[M:\s*[^\]]+\]/gi, ' ').trim()
+                    if (!barWithoutMeter) {
+                      result[lineNumber][bk] = {}
+                      return
+                    }
                     // cull empties and ensure valid chords
-                    var barChords = bar.trim().split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true}).map(function(chord) {
+                    var barChords = barWithoutMeter.split(" ").filter(function(val) {if (!val || !val.trim()) return false; else return true}).map(function(chord) {
                         var clean = cleanChord(key, chord)
                         return clean
                     })
@@ -565,22 +596,43 @@ export default function useAbcjsParser() {
             
             })
         }
-        return result
+        return {
+          lines: result,
+          meterByBarKey: meterByBarKey,
+          initialMeter: initialMeter,
+        }
     }
     
     /**
      * Merge compressed chord text into an abcString
      * and return the updated abcString.
      * Optional alignment (chordSheetAlignment) prefers anchor-based beat placement.
+     * Inline [M:…] tokens switch bar size and are written into the ABC voice.
      */
     function  mergeChords(chordText, abcString, alignment) {
-        var chordLayout = parseChordText(chordText, abcString, alignment)
+        var parsedChords = parseChordText(chordText, abcString, alignment)
+        var chordLayout = parsedChords.lines
+        var meterByBarKey = parsedChords.meterByBarKey || {}
         var abc = parse(abcString)
         var abcJson = abcTools.abc2json(abcString)
         var noteLengthText = abcJson.noteLength ? abcJson.noteLength : '1/8'
-        var meter = abcJson.meter
+        var meter = normalizeMeter(parsedChords.initialMeter || abcJson.meter || '4/4')
         var noteLength = getNoteLengthDecimal("L:"+noteLengthText+"\nM:"+meter)
         var barSize = abcTools.getNoteLengthsPerBar(noteLengthText, meter)
+        function meterState(meterText) {
+            var m = normalizeMeter(meterText || meter)
+            var nl = getNoteLengthDecimal("L:"+noteLengthText+"\nM:"+m)
+            var bs = abcTools.getNoteLengthsPerBar(noteLengthText, m)
+            return { meter: m, noteLength: nl, barSize: bs }
+        }
+        function timeSignatureSymbol(meterText) {
+            var parts = normalizeMeter(meterText).split('/')
+            return {
+              el_type: 'timeSignature',
+              type: 'specified',
+              value: [{ num: parseInt(parts[0], 10) || 4, den: parseInt(parts[1], 10) || 4 }],
+            }
+        }
         if (barSize > 0) {
             var final = []
             var noteLengthsSinceLastBar = 0
@@ -590,16 +642,20 @@ export default function useAbcjsParser() {
             // abcjs collapses a rest filling an entire bar into a single
             // symbol (rest.type 'whole'). Split it into beat-sized rests so
             // incoming chords can be placed mid-bar, not just on beat one.
-            abc[0].lines.forEach(function(line) {
+            // Also insert inline time signatures from the chord grid.
+            var voiceMeter = normalizeMeter(abcJson.meter || meter)
+            abc[0].lines.forEach(function(line, lineNumber) {
                 if (line && line.staff && line.staff.length > 0) {
                     var voice = line.staff[0].voices[0]
                     for (var i = voice.length - 1; i >= 0; i--) {
                         var symbol = voice[i]
                         if (symbol.el_type === 'note' && symbol.rest && symbol.rest.type === 'whole' && symbol.duration > 0) {
-                            var restCount = Math.max(1, Math.round(symbol.duration / noteLength))
+                            var restMeter = meterByBarKey[lineNumber + '-' + '0'] || voiceMeter
+                            var restState = meterState(restMeter)
+                            var restCount = Math.max(1, Math.round(symbol.duration / restState.noteLength))
                             var rests = []
                             for (var j = 0; j < restCount; j++) {
-                                rests.push({rest: {type: 'rest'}, el_type: 'note', duration: noteLength})
+                                rests.push({rest: {type: 'rest'}, el_type: 'note', duration: restState.noteLength})
                             }
                             voice.splice.apply(voice, [i, 1].concat(rests))
                         }
@@ -612,12 +668,16 @@ export default function useAbcjsParser() {
             abc[0].lines.forEach(function(line,lineNumber) {
                 var barCount = 0
                 var barTally = 0
+                var lineMeter = voiceMeter
                 if (line && line.staff && line.staff.length > 0) {
                     line.staff[0].voices[0].forEach(function(symbol, symbolNumber) {
                         var indexKey = lineNumber + "-" + barCount + '-' + barTally
                         //console.log(indexKey, symbol, symbol.el_type)
                         if (!Array.isArray(barIndex[indexKey])) barIndex[indexKey] = []
-                        if (symbol.el_type === 'note') {
+                        if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
+                            lineMeter = normalizeMeter(String(symbol.value[0].num) + '/' + String(symbol.value[0].den))
+                            noteLength = meterState(lineMeter).noteLength
+                        } else if (symbol.el_type === 'note') {
                             barIndex[indexKey].push(symbolNumber)
                             //console.log('UPDDURpre',barTally)
                             if (symbol.duration > 0) barTally = barTally + (symbol.duration/noteLength)
@@ -663,6 +723,20 @@ export default function useAbcjsParser() {
                     : { type: 'bar_thin', el_type: 'bar' };
             }
 
+            function barSizeFor(lineIndex, barNumber) {
+                var key = lineIndex + '-' + barNumber
+                var m = meterByBarKey[key] || meter
+                return meterState(m).barSize
+            }
+
+            function noteLengthFor(lineIndex, barNumber) {
+                var key = lineIndex + '-' + barNumber
+                var m = meterByBarKey[key] || meter
+                return meterState(m).noteLength
+            }
+
+            var lastEmittedMeter = normalizeMeter(abcJson.meter || meter)
+
             if (chordLength > parsedLength) {
                 // create lines
                 for (var i = 0; i < (chordLength - parsedLength); i++) {
@@ -671,8 +745,15 @@ export default function useAbcjsParser() {
                     var barsToCreate = chordLinesNotEmpty[lineIndex].length
                     for (var k = 0; k < barsToCreate; k++) {
                         var restChord = chordLinesNotEmpty[lineIndex][k]
-                        for (var j = 0; j< barSize; j++) {
-                            var r = {rest: {type:'rest'}, el_type:'note', duration: noteLength}
+                        var createMeter = meterByBarKey[lineIndex + '-' + k] || meter
+                        if (normalizeMeter(createMeter) !== lastEmittedMeter) {
+                            restLine.push(timeSignatureSymbol(createMeter))
+                            lastEmittedMeter = normalizeMeter(createMeter)
+                        }
+                        var createBarSize = barSizeFor(lineIndex, k)
+                        var createNoteLength = noteLengthFor(lineIndex, k)
+                        for (var j = 0; j< createBarSize; j++) {
+                            var r = {rest: {type:'rest'}, el_type:'note', duration: createNoteLength}
                             if (restChord && Array.isArray(restChord[j])) r.chord = restChord[j].map(function(c) {return {name: c}})
                             //console.log("RRRR",restChord,r)
                             restLine.push(r)
@@ -731,8 +812,15 @@ export default function useAbcjsParser() {
                     //console.log('add bars',barCountDiff,parsedLength,chordLinesNotEmpty)
                     for (var k = 0; k < barCountDiff; k++) {
                         var restChord = chordLinesNotEmpty[lineNumber][barCount + k]
-                        for (var j = 0; j< barSize; j++) {
-                            var r = {rest: {type:'rest'}, el_type:'note', duration: noteLength}
+                        var addMeter = meterByBarKey[lineNumber + '-' + (barCount + k)] || meter
+                        if (normalizeMeter(addMeter) !== lastEmittedMeter) {
+                            abc[0].lines[lineNumber].staff[0].voices[0].push(timeSignatureSymbol(addMeter))
+                            lastEmittedMeter = normalizeMeter(addMeter)
+                        }
+                        var addBarSize = barSizeFor(lineNumber, barCount + k)
+                        var addNoteLength = noteLengthFor(lineNumber, barCount + k)
+                        for (var j = 0; j< addBarSize; j++) {
+                            var r = {rest: {type:'rest'}, el_type:'note', duration: addNoteLength}
                             if (restChord[j]) r.chord = restChord[j].map(function(c) {return {name: c}})
                             abc[0].lines[lineNumber].staff[0].voices[0].push(r)
                         }
@@ -752,6 +840,65 @@ export default function useAbcjsParser() {
                     //console.log('remove bars',barCountDiff, removeBarsAfter, barLineIndex )
                     abc[0].lines[lineNumber].staff[0].voices[0] = abc[0].lines[lineNumber].staff[0].voices[0].slice(0,barLineIndex) 
                     //console.log('removed bars',abc[0].lines[lineNumber].staff[0].voices[0])
+                }
+            })
+
+            // Inject missing time signatures at bar starts from the chord grid meters.
+            lastEmittedMeter = normalizeMeter(abcJson.meter || meter)
+            abc[0].lines.forEach(function(line, lineNumber) {
+                if (!line || !line.staff || !line.staff[0] || !line.staff[0].voices) return
+                var voice = line.staff[0].voices[0]
+                var barNumber = 0
+                var insertAt = []
+                voice.forEach(function(symbol, symbolNumber) {
+                    if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
+                        lastEmittedMeter = normalizeMeter(String(symbol.value[0].num) + '/' + String(symbol.value[0].den))
+                    }
+                    if (symbol.el_type === 'bar') {
+                        barNumber += 1
+                        return
+                    }
+                    if (symbol.el_type !== 'note') return
+                    // First note of a bar: ensure meter marker if grid requests a change.
+                    var prevIsBarOrStart = symbolNumber === 0 || (voice[symbolNumber - 1] && (
+                        voice[symbolNumber - 1].el_type === 'bar'
+                        || voice[symbolNumber - 1].el_type === 'timeSignature'
+                    ))
+                    if (!prevIsBarOrStart) return
+                    var wantMeter = meterByBarKey[lineNumber + '-' + barNumber]
+                    if (!wantMeter) return
+                    if (normalizeMeter(wantMeter) === lastEmittedMeter) return
+                    if (voice[symbolNumber - 1] && voice[symbolNumber - 1].el_type === 'timeSignature') return
+                    insertAt.push({ index: symbolNumber, meter: wantMeter })
+                    lastEmittedMeter = normalizeMeter(wantMeter)
+                })
+                for (var ii = insertAt.length - 1; ii >= 0; ii--) {
+                    voice.splice(insertAt[ii].index, 0, timeSignatureSymbol(insertAt[ii].meter))
+                }
+            })
+
+            // Rebuild bar index after structural edits (added bars / time signatures).
+            barIndex = {}
+            abc[0].lines.forEach(function(line, lineNumber) {
+                var barCount = 0
+                var barTally = 0
+                var lineMeter = normalizeMeter(abcJson.meter || meter)
+                noteLength = meterState(lineMeter).noteLength
+                if (line && line.staff && line.staff.length > 0) {
+                    line.staff[0].voices[0].forEach(function(symbol, symbolNumber) {
+                        var indexKey = lineNumber + "-" + barCount + '-' + barTally
+                        if (!Array.isArray(barIndex[indexKey])) barIndex[indexKey] = []
+                        if (symbol.el_type === 'timeSignature' && symbol.value && symbol.value[0]) {
+                            lineMeter = normalizeMeter(String(symbol.value[0].num) + '/' + String(symbol.value[0].den))
+                            noteLength = meterState(lineMeter).noteLength
+                        } else if (symbol.el_type === 'note') {
+                            barIndex[indexKey].push(symbolNumber)
+                            if (symbol.duration > 0) barTally = barTally + (symbol.duration / noteLength)
+                        } else if (symbol.el_type === 'bar') {
+                            barCount++
+                            barTally = 0
+                        }
+                    })
                 }
             })
             

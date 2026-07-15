@@ -70,7 +70,9 @@ export function chordBlocksCompleteForLyrics(tune, tunebook, abcjsParser) {
   const chordChart = getMelodyChordChart(tune, tunebook, abcjsParser);
   if (!chordChart.trim()) return false;
   try {
-    const aligned = alignChordBlocksToLyrics(lyrics, chordChart);
+    const aligned = alignChordBlocksToLyrics(lyrics, chordChart, {
+      chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
+    });
     if (aligned.length === 0) return false;
     const unmatched = aligned.filter(function(block) {
       return block.lyricLines.length > 0
@@ -110,8 +112,8 @@ export function buildLinesFromTune(tune) {
 }
 
 /**
- * Per-line chord hints from timed alignment — only when the tune already has
- * explicit chord content elsewhere.
+ * Per-line chord hints from timed alignment (legacy helper).
+ * Display prefers ABC / chord-sheet chords; do not use this for rendering.
  */
 export function buildTimedAlignedLines(tune) {
   const singableDisplay = getLyricLinesForDisplay(tune).filter(function(line) {

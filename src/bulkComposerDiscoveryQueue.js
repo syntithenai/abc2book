@@ -3,6 +3,7 @@ import { toast } from 'react-toastify'
 import { discoverComposers } from './composerSearchClient'
 import { isAbortError } from './abortUtils'
 import { needsComposerDiscovery, parseTitleComposerHints, buildComposerPickerCandidates } from './composerDiscoveryUtils'
+import { primaryArtist } from './tuneBibliographicUtils'
 
 const STORAGE_KEY = 'queue-state'
 const store = localforage.createInstance({ name: 'bulkcomposerdiscoveryqueue' })
@@ -232,7 +233,7 @@ export function enqueueTunes(tunes, options) {
         tuneId: tune.id,
         tuneName: tune.name || '',
         title: '',
-        artist: tune.composer || '',
+        artist: primaryArtist(tune),
         titleHint: '',
         status: 'skipped',
         progress: 0,
@@ -252,7 +253,7 @@ export function enqueueTunes(tunes, options) {
         tuneId: tune.id,
         tuneName: tune.name || '',
         title: hints.title,
-        artist: tune.composer || '',
+        artist: primaryArtist(tune),
         titleHint: hints.titleHint,
         status: 'skipped',
         progress: 0,
@@ -277,7 +278,7 @@ export function enqueueTunes(tunes, options) {
       tuneId: tune.id,
       tuneName: tune.name || '',
       title: hints.title,
-      artist: tune.composer || '',
+      artist: primaryArtist(tune),
       titleHint: hints.titleHint,
       status: 'pending',
       progress: 0,

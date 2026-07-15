@@ -112,6 +112,7 @@ describe('useAbcTools timed persistence', function() {
       key: 'C',
       voices: { 1: { meta: '', notes: ['C D E F |'] } },
       wLines: ['row your boat'],
+      timingScaffold: true,
       timedLyrics: buildTimedLyricsFromTranscription({
         segments: [{ start: 0, end: 2, text: 'row your boat' }],
       }, { id: 'src' }),
@@ -122,11 +123,11 @@ describe('useAbcTools timed persistence', function() {
     expect(abc).toContain('w: row your boat');
   });
 
-  test('still imports legacy timedLyrics JSON from ABC comments', function() {
+  test('ignores legacy timedLyrics JSON from ABC comments', function() {
     const abcTools = useAbcTools();
     const abc = '\nX:1\nT:Test\nM:4/4\nL:1/8\nK:C\nC D E F |\n% abcbook-json timedLyrics 1/1 {"v":1,"lines":[{"t":"row your boat","s":0,"e":2}],"sections":[]}\n';
     const parsed = abcTools.abc2json(abc);
-    expect(parsed.timedLyrics.lines[0].text).toBe('row your boat');
+    expect(parsed.timedLyrics).toBeUndefined();
   });
 
   test('round-trips wLines interleaved with music lines', function() {

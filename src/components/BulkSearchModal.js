@@ -15,6 +15,7 @@ import { isScannableLink } from '../linkPlaybackRegionScanUtils'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
 import { capitalizeSongTitle, isSongTitleCapitalized } from '../titleCaseUtils'
+import { primaryArtist } from '../tuneBibliographicUtils'
 
 function formatPreviewSummary(preview) {
   const parts = []
@@ -185,7 +186,7 @@ export default function BulkSearchModal({
           tuneId: tune.id,
           kind: kind,
           title: title,
-          artist: tune.composer ? String(tune.composer).trim() : '',
+          artist: primaryArtist(tune),
           tuneName: title,
           accessToken: tokenValue,
           options: kind === 'links' ? { alwaysPick: true } : undefined,
@@ -343,7 +344,7 @@ export default function BulkSearchModal({
     <>
       <Dropdown as={ButtonGroup} className="bulk-ops-search-dropdown">
         <Dropdown.Toggle
-          variant="outline-primary"
+          variant="warning"
           className="bulk-ops-action-btn"
           id="bulk-ops-enhance"
           aria-label="Enhance selected tunes"

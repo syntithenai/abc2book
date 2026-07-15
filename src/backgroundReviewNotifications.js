@@ -12,9 +12,10 @@ import {
   subscribe as subscribeFieldLookupQueue,
 } from './tuneFieldLookupQueue'
 
-export default function BackgroundReviewNotifications() {
+export default function BackgroundReviewNotifications(props) {
   const navigate = useNavigate()
   const location = useLocation()
+  const practiceSessionActive = !!props.practiceSessionActive
 
   useEffect(function() {
     function navigateToReview() {
@@ -26,7 +27,10 @@ export default function BackgroundReviewNotifications() {
       const onReviewRoute = location.pathname === '/review'
       const onEditorRoute = String(location.pathname || '').indexOf('/editor/') === 0
       syncBackgroundReviewToast({
-        suppressReadyToast: onReviewRoute || onEditorRoute || isImportReviewUiVisible(),
+        suppressReadyToast: onReviewRoute
+          || onEditorRoute
+          || practiceSessionActive
+          || isImportReviewUiVisible(),
         onReview: navigateToReview,
       })
     }
@@ -41,7 +45,7 @@ export default function BackgroundReviewNotifications() {
     return function cleanup() {
       unsubs.forEach(function(unsub) { unsub() })
     }
-  }, [navigate, location.pathname])
+  }, [navigate, location.pathname, practiceSessionActive])
 
   return null
 }

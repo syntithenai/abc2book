@@ -68,7 +68,7 @@ describe('importReviewFieldUtils', function() {
     expect(result.suggestions.rhythm).toBeTruthy();
   });
 
-  test('applyInlineImportToForm fills empty ABC voices and notes', function() {
+  test('applyInlineImportToForm keeps empty notation and offers Use choices', function() {
     const current = emptyFormValues();
     current.title = '';
     const imported = {
@@ -79,10 +79,35 @@ describe('importReviewFieldUtils', function() {
     const result = applyInlineImportToForm(current, imported);
     expect(result.formValues.title).toBe('Pastoral');
     expect(result.formValues.bookList).toBe('session');
-    expect(result.formValues.voices['1'].notes).toEqual(['GAB c2|']);
-    expect(result.formValues.notes).toContain('GAB c2|');
-    expect(result.autoAppliedKeys).toContain('voices');
-    expect(result.suggestions.notes).toBeUndefined();
+    expect(String(result.formValues.notes || '').trim()).toBe('');
+    expect(result.autoAppliedKeys).not.toContain('voices');
+    expect(result.suggestions.notes).toBeTruthy();
+    expect(result.suggestions.notes.choices.map(function(c) { return c.id; })).toEqual(['current', 'imported']);
+    expect(result.suggestions.notes.choices[0].preview).toBe('(empty)');
+    expect(result.suggestions.notes.choices[1].preview).toContain('GAB c2|');
+  });
+
+  test('applyImportSuggestion current value restores pre-import notation', function() {
+    const form = emptyFormValues();
+    form.notes = 'OLD';
+    form.voices = { '1': { meta: '', notes: ['OLD'] } };
+    const next = applyImportSuggestion(form, 'notes', {
+      key: 'voices',
+      value: { '1': { meta: '', notes: [] } },
+      source: 'current',
+    });
+    expect(next.notes).toBe('');
+    expect(next.voices['1'].notes).toEqual([]);
+  });
+
+  test('conflict suggestions include a Current value choice', function() {
+    const current = tuneToFormValues({ name: 'Mine', rhythm: 'reel' });
+    const result = applyInlineImportToForm(current, { name: 'Theirs', rhythm: 'jig', genre: 'Irish' });
+    expect(result.suggestions.rhythm).toBeTruthy();
+    expect(result.suggestions.rhythm.choices[0].id).toBe('current');
+    expect(result.suggestions.rhythm.choices[0].preview).toBe('reel');
+    expect(result.suggestions.rhythm.choices[1].id).toBe('imported');
+    expect(result.suggestions.rhythm.choices[1].preview).toBe('jig');
   });
 
   test('importSuggestionDiffersFromForm hides matching values', function() {

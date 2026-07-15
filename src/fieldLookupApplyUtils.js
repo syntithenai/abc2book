@@ -9,6 +9,9 @@ export function fieldLookupKindToFormKey(kind) {
   if (kind === 'chords') return 'chords'
   if (kind === 'notation') return 'notes'
   if (kind === 'links') return 'links'
+  if (kind === 'genre') return 'genre'
+  if (kind === 'artists') return 'artists'
+  if (kind === 'aliases') return 'aliases'
   return kind
 }
 
@@ -32,6 +35,9 @@ export function candidateDisplayValue(kind, candidate) {
     if (title && link) return title + ' — ' + link
     return title || link
   }
+  if (kind === 'genre') return String(candidate.genre || candidate.preview || '').trim()
+  if (kind === 'artists') return String(candidate.artist || candidate.preview || '').trim()
+  if (kind === 'aliases') return String(candidate.alias || candidate.preview || '').trim()
   return String(candidate.preview || candidate.title || '').trim()
 }
 
@@ -70,6 +76,17 @@ export function isTuneFieldEmptyForKind(tune, kind) {
     return !tune.links.some(function(link) {
       return !!(link && link.link && String(link.link).trim())
     })
+  }
+  if (kind === 'genre') {
+    return !String(tune.genre || '').trim()
+  }
+  if (kind === 'artists') {
+    return !Array.isArray(tune.artists) || tune.artists.length === 0
+      || !tune.artists.some(function(a) { return String(a || '').trim() })
+  }
+  if (kind === 'aliases') {
+    return !Array.isArray(tune.aliases) || tune.aliases.length === 0
+      || !tune.aliases.some(function(a) { return String(a || '').trim() })
   }
   return true
 }
@@ -129,6 +146,34 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     }
     return true
   }
+  if (kind === 'genre') {
+    const genre = String(candidate.genre || '').trim()
+    if (!genre) return false
+    tune.genre = genre
+    return true
+  }
+  if (kind === 'artists') {
+    const artist = String(candidate.artist || '').trim()
+    if (!artist || isGenericArtist(artist)) return false
+    if (!Array.isArray(tune.artists)) tune.artists = []
+    const key = artist.toLowerCase()
+    if (tune.artists.some(function(item) { return String(item || '').trim().toLowerCase() === key })) {
+      return true
+    }
+    tune.artists = tune.artists.concat([artist])
+    return true
+  }
+  if (kind === 'aliases') {
+    const alias = String(candidate.alias || '').trim()
+    if (!alias) return false
+    if (!Array.isArray(tune.aliases)) tune.aliases = []
+    const key = alias.toLowerCase()
+    if (tune.aliases.some(function(item) { return String(item || '').trim().toLowerCase() === key })) {
+      return true
+    }
+    tune.aliases = tune.aliases.concat([alias])
+    return true
+  }
   return false
 }
 
@@ -138,6 +183,9 @@ export function historyLabelForKind(kind) {
   if (kind === 'notation') return 'Search notation'
   if (kind === 'chords') return 'Search chords'
   if (kind === 'links') return 'Search links'
+  if (kind === 'genre') return 'Search genre'
+  if (kind === 'artists') return 'Search artists'
+  if (kind === 'aliases') return 'Search aliases'
   return 'Field search'
 }
 
@@ -150,7 +198,13 @@ export function toastAppliedFieldLookup(kind, tuneName) {
         ? 'notation'
         : kind === 'links'
           ? 'link'
-          : 'search result'
+          : kind === 'genre'
+            ? 'genre'
+            : kind === 'artists'
+              ? 'artists'
+              : kind === 'aliases'
+                ? 'aliases'
+                : 'search result'
   toast.info('Updated ' + label + (tuneName ? (': ' + tuneName) : ''), {
     hideProgressBar: true,
     autoClose: 1500,

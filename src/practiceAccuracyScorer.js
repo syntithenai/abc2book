@@ -48,6 +48,26 @@ export function centsFromFrequencyToMidi(freq, expectedMidi) {
   return floatCentsBetween(freq, target)
 }
 
+/** Wrap absolute cents into ±600 so octave errors read as near-unison. */
+export function liveCentsToExpectedMidi(freq, expectedMidi) {
+  const absolute = centsFromFrequencyToMidi(freq, expectedMidi)
+  if (absolute == null || !Number.isFinite(absolute)) return null
+  let folded = absolute % 1200
+  if (folded > 600) folded -= 1200
+  if (folded < -600) folded += 1200
+  return folded
+}
+
+/** Fold absolute MIDI into the nearest octave of expectedMidi (±6 semitones). */
+export function foldMidiNearExpected(midi, expectedMidi) {
+  if (midi == null || !Number.isFinite(midi)) return null
+  if (expectedMidi == null || !Number.isFinite(expectedMidi)) return midi
+  let folded = midi
+  while (folded - expectedMidi > 6) folded -= 12
+  while (expectedMidi - folded > 6) folded += 12
+  return folded
+}
+
 export function summarizeRepPitch(windows, detectedSamples, options) {
   const opts = options || {}
   const tolerance = opts.toleranceSemitones != null

@@ -6,10 +6,8 @@ import CreatableSelect from 'react-select/creatable';
 import TuneMediaAnalysisButton from './TuneMediaAnalysisButton';
 import useTuneMediaAnalysis from '../useTuneMediaAnalysis';
 import { loadTimedMediaDraft, saveTimedMediaDraft } from '../timedMediaCache';
-import { timedMelodyToAbc } from '../timedMelodyModel';
 import { resolvePrimaryVoiceKey } from '../abcVoiceUtils';
 import MelodyProcessingPanel from './MelodyProcessingPanel';
-import TimedDerivationControls from './TimedDerivationControls';
 import {
   loadMelodyProcessingSettings,
   saveMelodyProcessingSettings,
@@ -39,27 +37,9 @@ export default function MelodyWizard(props) {
     loadTimedMediaDraft(tune.id).then(function(draft) {
       if (draft && draft.melodyAbcText) {
         setMelody(draft.melodyAbcText);
-        return;
-      }
-      if (tune.timedMelody) {
-        const meter = tune.meter || '4/4';
-        const beatsPerBar = props.tunebook.abcTools.getBeatsPerBar(meter) || 4;
-        const barSlots = props.tunebook.abcTools.getNoteLengthsPerBar(
-          tune.noteLength || '1/8',
-          meter
-        );
-        const slotsPerBeat = barSlots && beatsPerBar
-          ? Math.max(1, Math.round(barSlots / beatsPerBar))
-          : 2;
-        const abcText = timedMelodyToAbc(tune.timedMelody, {
-          beatsPerBar: beatsPerBar,
-          slotsPerBeat: slotsPerBeat,
-          noteLength: tune.noteLength,
-        });
-        if (abcText) setMelody(abcText);
       }
     });
-  }, [tune, tuneId, props.tunebook.abcTools]);
+  }, [tune, tuneId]);
 
   useEffect(function() {
     if (Array.isArray(props.notes) && props.notes.length > 0) {
@@ -129,15 +109,6 @@ export default function MelodyWizard(props) {
       onChange={function(next) {
         setProcessingSettings(next);
         saveMelodyProcessingSettings(next);
-      }}
-    />
-
-    <TimedDerivationControls
-      tune={tune}
-      tunebook={props.tunebook}
-      abc={props.abc}
-      onSaveTune={function(updated, historyOptions) {
-        props.tunebook.saveTune(updated || tune, false, historyOptions || { historyLabel: 'Apply melody', immediate: true });
       }}
     />
 

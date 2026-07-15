@@ -2,6 +2,7 @@ import localforage from 'localforage'
 import { researchTuneBackground } from './tuneBackgroundResearchClient'
 import { applyGeneratedBackgroundInfo } from './viewModeUtils'
 import { isAbortError } from './abortUtils'
+import { primaryArtist } from './tuneBibliographicUtils'
 
 const STORAGE_KEY = 'queue-state'
 const store = localforage.createInstance({ name: 'bulkbackgroundqueue' })
@@ -47,7 +48,7 @@ function hasExistingBackgroundInfo(tune) {
 function findDuplicateJob(tuneId) {
   return jobs.find(function(job) {
     return job.tuneId === tuneId
-      && (job.status === 'pending' || job.status === 'running')
+      && (job.status === 'pending' || job.status === 'running' || job.status === 'awaiting')
   })
 }
 
@@ -63,6 +64,7 @@ function publicJob(job) {
     message: job.message,
     error: job.error,
     skipReason: job.skipReason,
+    searchMode: job.searchMode || '',
     resultText: job.resultText || null,
     resultMeta: job.resultMeta || null,
   }
@@ -83,6 +85,7 @@ export function getState() {
     overallProgress: overallProgress,
     finishedCount: finished,
     totalCount: total,
+    awaitingCount: jobs.filter(function(job) { return job.status === 'awaiting' }).length,
   }
 }
 
@@ -225,6 +228,7 @@ export function previewEnqueueTunes(tunes) {
 export function enqueueTunes(tunes, options) {
   const accessToken = options && options.accessToken ? options.accessToken : null
   const force = !!(options && options.force)
+  const searchMode = options && options.searchMode ? String(options.searchMode) : ''
   const lyricsForTune = options && typeof options.lyricsForTune === 'function'
     ? options.lyricsForTune
     : function() { return '' }
@@ -242,7 +246,7 @@ export function enqueueTunes(tunes, options) {
         tuneId: tune.id,
         tuneName: tune.name || '',
         title: '',
-        artist: tune.composer || '',
+        artist: primaryArtist(tune),
         lyrics: '',
         backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
         status: 'skipped',
@@ -251,6 +255,7 @@ export function enqueueTunes(tunes, options) {
         error: null,
         skipReason: 'no-title',
         accessToken: accessToken,
+        searchMode: searchMode,
         cancelled: false,
       })
       return
@@ -262,7 +267,7 @@ export function enqueueTunes(tunes, options) {
         tuneId: tune.id,
         tuneName: tune.name || '',
         title: title,
-        artist: tune.composer || '',
+        artist: primaryArtist(tune),
         lyrics: lyricsForTune(tune),
         backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
         status: 'skipped',
@@ -271,6 +276,7 @@ export function enqueueTunes(tunes, options) {
         error: null,
         skipReason: 'has-background',
         accessToken: accessToken,
+        searchMode: searchMode,
         cancelled: false,
       })
       return
@@ -287,7 +293,7 @@ export function enqueueTunes(tunes, options) {
       tuneId: tune.id,
       tuneName: tune.name || '',
       title: title,
-      artist: tune.composer || '',
+      artist: primaryArtist(tune),
       lyrics: lyricsForTune(tune),
       backgroundInfo: typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '',
       status: 'pending',
@@ -296,6 +302,7 @@ export function enqueueTunes(tunes, options) {
       error: null,
       skipReason: null,
       accessToken: accessToken,
+      searchMode: searchMode,
       cancelled: false,
     }
     jobs.push(job)
@@ -312,9 +319,33 @@ export function cancelJob(id) {
   if (!job) return false
   if (job.status === 'done' || job.status === 'cancelled' || job.status === 'skipped') return false
   abortRunningJob(job)
-  if (job.status === 'pending') {
+  if (job.status === 'pending' || job.status === 'awaiting') {
     job.status = 'cancelled'
   }
+  notify()
+  schedulePersist()
+  return true
+}
+
+export function applyBackgroundResearchChoice(jobId) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || job.status !== 'awaiting' || !job.resultText) return false
+  saveBackgroundForJob(job, job.resultText)
+  job.status = 'done'
+  job.progress = 100
+  job.message = ''
+  job.error = null
+  notify()
+  schedulePersist()
+  return true
+}
+
+export function dismissBackgroundResearch(jobId) {
+  const job = jobs.find(function(item) { return item.id === jobId })
+  if (!job || job.status !== 'awaiting') return false
+  job.status = 'done'
+  job.progress = 100
+  job.message = ''
   notify()
   schedulePersist()
   return true
@@ -469,7 +500,6 @@ async function runJob(job) {
       throw new Error('Tune background research returned no text')
     }
 
-    saveBackgroundForJob(job, result.text)
     job.resultText = result.text
     const timing = result.timing || {}
     job.resultMeta = {
@@ -479,10 +509,18 @@ async function runJob(job) {
       wordCount: timing.wordCount || 0,
       totalMs: timing.totalMs || 0,
     }
-    job.status = 'done'
-    job.progress = 100
-    job.message = ''
-    job.error = null
+    if (job.searchMode === 'review') {
+      job.status = 'awaiting'
+      job.progress = 100
+      job.message = 'Review background result'
+      job.error = null
+    } else {
+      saveBackgroundForJob(job, result.text)
+      job.status = 'done'
+      job.progress = 100
+      job.message = ''
+      job.error = null
+    }
   } catch (e) {
     if (job.cancelled || isAbortError(e)) {
       job.status = 'cancelled'

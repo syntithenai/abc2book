@@ -7,6 +7,7 @@ import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import { FormLabelWithHelp } from './FormFieldHelp'
 import LinksEditor from './LinksEditor'
 import TuneAliasesField from './TuneAliasesField'
+import TuneArtistsField from './TuneArtistsField'
 import ComposerSearchButton from './ComposerSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
@@ -35,6 +36,7 @@ function mergeDraftWithAbc(draft, abcText, tunebook, lyricsText) {
     capo: draft.capo,
     genre: draft.genre,
     aliases: draft.aliases,
+    artists: draft.artists,
     tags: draft.tags,
     books: draft.books,
     type: draft.type,
@@ -122,7 +124,7 @@ export default function BulkCheckTuneEditorModal(props) {
               <Col md={6}>
                 <Form.Group className="mb-3">
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                    <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
+                    <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
                     <ComposerSearchButton
                       tuneId={props.tune && props.tune.id}
                       title={draft.name || ''}
@@ -151,7 +153,13 @@ export default function BulkCheckTuneEditorModal(props) {
                   />
                 </Form.Group>
               </Col>
-              <Col xs={12}>
+              <Col xs={12} md={6}>
+                <TuneArtistsField
+                  value={draft.artists}
+                  onChange={function(artists) { updateDraft({ artists: artists }) }}
+                />
+              </Col>
+              <Col xs={12} md={6}>
                 <TuneAliasesField
                   value={draft.aliases}
                   onChange={function(aliases) { updateDraft({ aliases: aliases }) }}

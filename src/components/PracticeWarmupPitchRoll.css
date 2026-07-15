@@ -1,0 +1,24 @@
+.practice-warmup-pitch-roll {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem 0.75rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.practice-warmup-pitch-roll-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6c757d;
+  margin-bottom: 0.35rem;
+}
+
+.practice-warmup-pitch-roll-canvas {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 220px;
+  border-radius: 4px;
+  background: #f8f9fa;
+}

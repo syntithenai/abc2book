@@ -552,6 +552,10 @@ export function mergeChordsIntoLyricLines(lyricLines, chordChart, options) {
  * last lyric block that has no mapped chart (unidentified lyrics), so they
  * appear before that block's words.
  *
+ * When options.chordSectionLabels is set (persisted chords-editor stanza names),
+ * charts are matched to lyric sections by label name/type instead of consuming
+ * charts in lyric-page order.
+ *
  * @returns array of { header, type, chart, lyricLines, inlineChords, chartRevisit, extraChart }
  */
 export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
@@ -585,24 +589,90 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   // When some lyric blocks have section headers, consume melody charts in order.
   // Untyped leading verses still take a chart (hymns often label only [Chorus]),
   // and repeated types reuse the chart bound on first appearance.
+  // When chordSectionLabels are provided (chords editor stanza names), match by
+  // label name/type instead of consuming charts in lyric-page order.
   const chartForType = {};
   const chartByBlockIndex = {};
   let typedMappedChartCount = 0;
-  if (hasTypes) {
+  const usedChartIndexes = Object.create(null);
+  let usedLabelMatching = false;
+  const rawLabels = options && Array.isArray(options.chordSectionLabels)
+    ? options.chordSectionLabels
+    : null;
+  // Sounding charts omit revisits (same as rebuildChordGridFromSections).
+  const soundingLabels = rawLabels
+    ? rawLabels.filter(function(label) { return label && !label.chartRevisit; })
+    : null;
+
+  function stanzaNameKey(value) {
+    return String(value == null ? '' : value)
+      .toLowerCase()
+      .replace(/^\[/, '')
+      .replace(/\]$/, '')
+      .replace(/^#+\s*/, '')
+      .replace(/^[-–—−•*]\s*/, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  if (hasTypes && soundingLabels && soundingLabels.length > 0) {
+    usedLabelMatching = true;
+    const chartsByType = Object.create(null);
+    const chartsByName = Object.create(null);
+    soundingLabels.forEach(function(label, i) {
+      if (i >= charts.length || !chartBlockHasChords(charts[i])) return;
+      const chart = sanitizeChordChartBlock(charts[i]);
+      const type = label.type
+        || (label.header ? normalizeSectionType(label.header) : null)
+        || (label.title ? normalizeSectionType('[' + String(label.title) + ']') : null);
+      const nameKey = stanzaNameKey(label.header || label.title);
+      if (type && !Object.prototype.hasOwnProperty.call(chartsByType, type)) {
+        chartsByType[type] = { chart: chart, index: i };
+      }
+      if (nameKey && !Object.prototype.hasOwnProperty.call(chartsByName, nameKey)) {
+        chartsByName[nameKey] = { chart: chart, index: i };
+      }
+    });
+
+    blocks.forEach(function(b, index) {
+      const nameKey = stanzaNameKey(b.header);
+      let hit = null;
+      if (b.type && Object.prototype.hasOwnProperty.call(chartsByType, b.type)) {
+        hit = chartsByType[b.type];
+      } else if (nameKey && Object.prototype.hasOwnProperty.call(chartsByName, nameKey)) {
+        hit = chartsByName[nameKey];
+      }
+      if (!hit) return;
+      chartByBlockIndex[index] = hit.chart;
+      if (b.type) chartForType[b.type] = hit.chart;
+      usedChartIndexes[hit.index] = true;
+    });
+    typedMappedChartCount = Object.keys(usedChartIndexes).length;
+  } else if (hasTypes) {
     let nextChart = 0;
+    let seenTyped = false;
     blocks.forEach(function(b, index) {
       const hasWords = b.lyricLines.some(function(line) {
         return String(line).trim().length > 0;
       });
       if (b.type && Object.prototype.hasOwnProperty.call(chartForType, b.type)) {
         chartByBlockIndex[index] = chartForType[b.type];
+        seenTyped = true;
         return;
       }
       if (!hasWords && !b.type) return;
+      // Leading untyped verses still take a chart (hymns often label only
+      // [Chorus]). Trailing/intervening untyped blocks do not — surplus
+      // charts attach as extraChart on unidentified lyrics.
+      if (!b.type && seenTyped) return;
       if (nextChart < charts.length && chartBlockHasChords(charts[nextChart])) {
         const chart = sanitizeChordChartBlock(charts[nextChart]);
-        if (b.type) chartForType[b.type] = chart;
+        if (b.type) {
+          chartForType[b.type] = chart;
+          seenTyped = true;
+        }
         chartByBlockIndex[index] = chart;
+        usedChartIndexes[nextChart] = true;
         nextChart += 1;
       }
     });
@@ -685,14 +755,23 @@ export function alignChordBlocksToLyrics(lyricLines, chordBlocks, options) {
   // Chord blocks from the melody that did not map to any lyric section are
   // shown as extraChart before the last unidentified lyric block (words with
   // no mapped chart). Fall back to the last lyric block when every block mapped.
-  const mappedChartCount = hasTypes
-    ? typedMappedChartCount
-    : (combinedChartForSingleBlock !== null
-      ? charts.length
-      : Math.min(charts.length, blocks.length));
-  const orphanCharts = charts.slice(mappedChartCount)
-    .map(sanitizeChordChartBlock)
-    .filter(chartBlockHasChords);
+  let orphanCharts = [];
+  if (usedLabelMatching) {
+    charts.forEach(function(chart, index) {
+      if (usedChartIndexes[index]) return;
+      const cleaned = sanitizeChordChartBlock(chart);
+      if (chartBlockHasChords(cleaned)) orphanCharts.push(cleaned);
+    });
+  } else {
+    const mappedChartCount = hasTypes
+      ? typedMappedChartCount
+      : (combinedChartForSingleBlock !== null
+        ? charts.length
+        : Math.min(charts.length, blocks.length));
+    orphanCharts = charts.slice(mappedChartCount)
+      .map(sanitizeChordChartBlock)
+      .filter(chartBlockHasChords);
+  }
   if (orphanCharts.length > 0 && aligned.length > 0) {
     let target = -1;
     for (let i = aligned.length - 1; i >= 0; i--) {

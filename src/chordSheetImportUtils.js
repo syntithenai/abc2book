@@ -123,8 +123,27 @@ export function buildChordSheetAlignmentFromLines(sheetLines) {
     }
   }
 
+  /**
+   * Instrumental / trailing chord rows (Intro, Outro, turnaround after a chorus)
+   * have no lyric line. Keep them as chord-only pairs so they are not dropped
+   * when a blank line or section boundary arrives.
+   */
+  function emitPendingChordOnly() {
+    if (!current || pendingChordLines.length === 0) return
+    pendingChordLines.forEach(function(chordLine) {
+      current.linePairs.push({
+        lyricLine: '',
+        lyricTokens: [],
+        chordLines: [chordLine.text],
+        anchors: [],
+      })
+    })
+    pendingChordLines = []
+  }
+
   function flushBlock() {
-    if (current && (current.header || current.lines.length > 0)) {
+    emitPendingChordOnly()
+    if (current && (current.header || current.lines.length > 0 || current.linePairs.length > 0)) {
       if (current.header && !current.type) {
         const structured = normalizeLyricStructure([current.header].concat(current.lines))
         current.type = structured[0] ? structured[0].type : null
@@ -140,19 +159,23 @@ export function buildChordSheetAlignmentFromLines(sheetLines) {
     const item = classified[index]
 
     if (item.type === 'blank') {
-      flushBlock()
+      // Keep section-header blocks open across blank lines (UG-style spacing).
+      // Without a header, blank lines still separate positional chord blocks.
+      if (pendingChordLines.length > 0) {
+        if (!current) current = createBlock('')
+        emitPendingChordOnly()
+      }
+      if (current && !current.header) flushBlock()
       continue
     }
     if (item.type === 'header') {
-      if (current && (current.header || current.lines.length > 0)) flushBlock()
-      if (!current) current = createBlock(item.text)
-      else {
-        current.header = item.text
-        current.type = structureByHeader[item.text] || null
-      }
+      flushBlock()
+      current = createBlock(item.text)
       continue
     }
     if (item.type === 'chord') {
+      // A new chord row after lyrics (no blank) ends the previous lyric span;
+      // keep pending chords that have not been paired yet.
       pendingChordLines.push(item)
       if (!current) current = createBlock('')
       continue

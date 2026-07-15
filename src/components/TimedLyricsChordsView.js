@@ -1,6 +1,6 @@
 import { getLyricLinesForDisplay } from '../wLinesUtils';
-import { buildLinesFromTune, buildTimedAlignedLines, tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
-import { classifyLyricChordLines, alignChordBlocksToLyrics, splitChordChartIntoBlocks, mergeChordsIntoLyricLines, hasChordLines, chartBlockHasChords, formatChordChartForDisplay, isSectionHeader } from '../chordSheetUtils';
+import { buildLinesFromTune } from '../timedLyricsChordsDisplay';
+import { classifyLyricChordLines, alignChordBlocksToLyrics, splitChordChartIntoBlocks, mergeChordsIntoLyricLines, hasChordLines, chartBlockHasChords, formatChordChartForDisplay } from '../chordSheetUtils';
 import useAbcjsParser from '../useAbcjsParser';
 import LyricsDisplayLines, { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
@@ -157,11 +157,6 @@ export default function TimedLyricsChordsView(props) {
   const isChordSheet = hasChordLines(displayLines);
   const lines = buildLinesFromTune(tune);
 
-  const timedLines = tuneHasExplicitChords(tune, tunebook, abcjsParser)
-    ? buildTimedAlignedLines(tune)
-    : [];
-  const timedHasChords = timedLines.some(function(line) { return line.chord; });
-
   let chordChart = '';
   try {
     const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
@@ -211,7 +206,9 @@ export default function TimedLyricsChordsView(props) {
     }
 
     if (melodyHasChords && lines.length > 0) {
-      const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, null);
+      const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
+        chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
+      });
       const blocksWithCharts = alignedBlocks.filter(function(block) {
         if (block.chartRevisit) {
           return !!displaySectionHeader(block.header);
@@ -235,20 +232,6 @@ export default function TimedLyricsChordsView(props) {
       }
     }
 
-    if (timedLines.length > 0 && timedHasChords) {
-      const timedChordText = timedLines
-        .filter(function(line) { return line.chord; })
-        .map(function(line) { return line.chord; })
-        .join('\n');
-      if (timedChordText.trim()) {
-        return (
-          <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
-            <ChordChartBlocksFromText chart={timedChordText} />
-          </ChordsOnlyBlockView>
-        );
-      }
-    }
-
     if (melodyHasChords && chordChart.trim()) {
       return (
         <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
@@ -264,9 +247,7 @@ export default function TimedLyricsChordsView(props) {
     );
   }
 
-  // 1) ChordPro-style w: lines (chord rows above lyric rows). Check this before
-  // timed alignment so scaffolded lyrics that include chord tokens still render
-  // as a chord sheet rather than plain lyric text.
+  // 1) ChordPro-style w: lines (chord rows above lyric rows).
   if (isChordSheet) {
     return wrapFit(
       <div className="timed-lyrics-chords-view chord-sheet" style={contentFontStyle({ fontFamily: 'monospace', overflowX: 'auto' })}>
@@ -289,37 +270,15 @@ export default function TimedLyricsChordsView(props) {
     );
   }
 
-  // 2) Timed alignment with a chord per line when the tune already has chords.
-  if (timedLines.length > 0 && timedHasChords) {
-    return wrapFit(
-      <div className="timed-lyrics-chords-view" style={contentFontStyle()}>
-        {timedLines.map(function(line, index) {
-          if (isSectionHeader(line.text)) {
-            const label = displaySectionHeader(line.text);
-            if (!label) return null;
-            return <SectionHeader key={index} label={label} />;
-          }
-          return (
-            <div key={index} className="lyrics-block" style={{ paddingTop: '0.8em', paddingBottom: '0.8em', pageBreakInside: 'avoid' }}>
-              {line.chord && !hideChords && (
-                <div className="chord-above" style={{ fontWeight: 'bold', marginBottom: '0.2em' }}>{line.chord}</div>
-              )}
-              <div className="lyrics-line">{line.text}</div>
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
-
-  // 3) Clean lyrics with chords only in the melody notation. Split the melody
+  // 2) Clean lyrics with chords only in the melody notation. Split the melody
   // into chord blocks at the double barlines and align them to the lyric blocks
   // by section so every word shows and the chords stay grouped per block (verse
   // / chorus / bridge) rather than running continuously down the page.
   if (melodyHasChords && lines.length > 0) {
-    const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, suppressLeadingTitle ? null : {
-      title: tune.name,
-      composer: tune.composer,
+    const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
+      title: suppressLeadingTitle ? undefined : tune.name,
+      composer: suppressLeadingTitle ? undefined : tune.composer,
+      chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
     });
     const sheetAlignment = tune && tune.meta && Array.isArray(tune.meta.chordSheetAlignment)
       ? tune.meta.chordSheetAlignment
@@ -384,7 +343,7 @@ export default function TimedLyricsChordsView(props) {
     );
   }
 
-  // 4) Plain lyrics (no chords available anywhere).
+  // 3) Plain lyrics (no chords available anywhere).
   if (lines.length > 0) {
     return wrapFit(
       <div className="timed-lyrics-chords-view" style={contentFontStyle()}>

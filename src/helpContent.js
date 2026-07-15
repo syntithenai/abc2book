@@ -103,7 +103,8 @@ export function HelpWhatYouCanDo() {
 export function HelpOrganise() {
   return (
     <>
-      <p>Books, tags, genres, and artists are the main organisation tools. Each tune can belong to many books and have many tags, one genre, and one artist (ABC composer).</p>
+      <p>Books, tags, genres, and artists are the main organisation tools. Each tune can belong to many books and have many tags, one genre, a primary composer (<code>C:</code> first line), and optional additional artists (<code>C:</code> extra lines).</p>
+      <p>Alternate titles are stored as aliases and round-trip as extra <code>T:</code> lines (legacy <code>N: AKA:</code> lines still import correctly).</p>
       <p>On the <strong>Tunes</strong> page, filter by book, tag, genre, artist, and title.</p>
       <p>
         Select multiple tunes in the list, then use the grey <strong>dropdown</strong> button that appears (<strong>With N selected tunes..</strong>) to add/remove books or tags, bulk-edit fields, or set confidence.
@@ -126,8 +127,8 @@ export function HelpEditMusic() {
       <ul>
         <li><strong>Music</strong> — per-voice note lines</li>
         <li><strong>Info</strong> — metadata, tablature, <strong>Background information</strong> (with <strong>Research Background</strong> when resolver available)</li>
-        <li><strong>Lyrics</strong> — <strong>Search Lyrics</strong>, Clean, lyrics textarea</li>
-        <li><strong>Chords</strong> — <strong>Search Chords</strong>, Clean Text, Reset, <strong>Save</strong></li>
+        <li><strong>Lyrics</strong> — <strong>Search Lyrics</strong>, lyrics textarea</li>
+        <li><strong>Chords</strong> — <strong>Search Chords</strong>, Reset, <strong>Save</strong></li>
         <li><strong>ABC</strong> — raw ABC and <strong>Errors</strong> sub-tab</li>
       </ul>
       <p>Click the tempo mark or key signature in the music view for quick changes without opening the full editor.</p>
@@ -225,7 +226,12 @@ export function HelpLyricsChords() {
     <>
       <p><strong>Lyrics tab:</strong> <strong>Search</strong> fills lyrics from bundled collections and lyrics.ovh (always available); the ↗ button opens Google. With a resolver, Genius and other sites are searched too.</p>
       <p>
-        <strong>Chords tab:</strong> type a chord scaffold, use <strong>Search</strong>, then press <strong>Save</strong> to write chords into the ABC. Chords are not saved until you press <strong>Save</strong>.
+        <strong>Chords tab:</strong> sections come from melody strains in the ABC (titles from lyrics when present).
+        Chord grids autosave as you edit (incomplete lines wait until they end with <code>|</code>).
+        Use <strong>Record</strong> for a full-screen tapping session. Repeated sections (same type) show only a reuse label — edit the first occurrence.
+        Each editable section has its own time signature (first section sets the ABC <code>M:</code> header; later changes become inline <code>[M:]</code>).
+        <strong>Hide sections</strong> shows one chord grid (blank lines = breaks) with the same autosave and Record.
+        <strong>Paste</strong> (lyrics or chords tab) replaces all existing notation with a scaffold from the paste. On the Chords tab you can optionally tick <strong>Update lyrics too</strong>; from the Lyrics tab, lyrics are always updated.
       </p>
       <p>
         Chord search has two tiers. <strong>Without a resolver</strong>, <strong>Search</strong> looks in bundled ABC collections for tunes whose notation already includes chord symbols (quoted names in the notes, e.g. <code>&quot;Am&quot;</code> <code>&quot;G&quot;</code>) and builds a chord scaffold from those matches. That works offline and needs no extra setup, but only helps when a matching tune in the collection already has chords. <strong>With a resolver</strong>, <strong>Search</strong> can also fetch chord sheets from Ultimate Guitar, e-chords, and similar sites. Use ↗ for manual web search when automatic lookup cannot reach a site or finds nothing.
@@ -558,23 +564,28 @@ export function HelpChordsDetail() {
       <p>
         Bundled ABC collections often include tunes notated this way. <strong>Search Chords</strong> can find them by title/artist and turn those embedded symbols into a chord-scaffold draft — no resolver required. If your tune is not in a local collection, or the source ABC has no chord symbols, use a resolver for chord-site lookup or paste from ↗ web search.
       </p>
-      <h4>Chords tab (compact format)</h4>
+      <h4>Chords tab (sections)</h4>
+      <p>
+        The Chords editor lists sections from melody strains (titles from lyrics when present). Chord grids autosave as you edit; incomplete lines wait until they end with <code>|</code>.
+        <strong>Record</strong> opens a full-screen dialog. Repeated sections reuse an earlier chart and are not editable here.
+        Compact grid format still looks like:
+      </p>
       <pre className="help-code">{`C|F G|G F F C|C . G C`}</pre>
-      <p>Press <strong>Save</strong> to generate ABC notation. Chords are not stored until you <strong>Save</strong>.</p>
+      <p>Chords are not stored until you press <strong>Save</strong>.</p>
 
       <h4>Chord stanza blocks (blank lines)</h4>
-      <p>In the <strong>Chords</strong> tab textarea, a <strong>blank line</strong> starts a new chord block (stanza). This is the easiest way to group verses or sections:</p>
+      <p>With <strong>Hide sections</strong>, a <strong>blank line</strong> starts a new chord block (stanza). Section time signatures may appear as <code>[M:3/4]</code> at block starts when meters change:</p>
       <pre className="help-code">{`C F G G
 Am D G C
 
-C G G C
-F C G C`}</pre>
+[M:3/4] C G G
+F C G`}</pre>
       <p>The first block and second block stay separate in <strong>Lyrics with Chords</strong> and <strong>Lyrics and Chord Diagrams</strong> view modes.</p>
 
       <h4>Ultimate Guitar / chord-sheet paste</h4>
       <p>
-        Prefer <strong>Add → Import → Chord sheet</strong> or <strong>Chord URL</strong> for ChordPro files and supported chord sites (Ultimate Guitar, e-chords, WorshipTogether). You can still paste chord+lyric text manually in the editor: from sites like{' '}
-        <a href="https://tabs.ultimate-guitar.com/" target="_blank" rel="noreferrer">Ultimate Guitar</a>, delete lyric lines to keep chord lines for the scaffold, then paste lyrics separately in the <strong>Lyrics</strong> tab so words and chords align. One line of chords becomes one bar — rhythm may be approximate but is often enough for harmony practice.
+        Prefer <strong>Add → Import → Chord sheet</strong> or <strong>Chord URL</strong> for ChordPro files and supported chord sites (Ultimate Guitar, e-chords, WorshipTogether).
+        In the editor Lyrics or Chords tab, <strong>Paste</strong> opens a review modal that replaces existing notation with a scaffold from the paste. The Chords tab can optionally update lyrics; the Lyrics tab always updates lyrics.
       </p>
 
       <h4>Double bar lines in ABC (display spacing)</h4>

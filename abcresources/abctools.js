@@ -1,6 +1,7 @@
 //import {Fraction} from './Fraction'
 //import abcjs from "abcjs";
 //import useUtils from './useUtils'
+const bibliographicUtils = require('./tuneBibliographicUtils')
 
 var useAbcTools = () => {
     //var utils = useUtils()
@@ -123,7 +124,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[],abccomments:[], notes:[], words: [] , meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, noteLength: null, meter: null,key:null, boost: 0, aliases:[], artists:[],abccomments:[], notes:[], words: [] , meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -147,11 +148,13 @@ var useAbcTools = () => {
                         //console.log('LINE Vvoice meta',parts[0], line)
                         break
                     case "T":
-                        // only the first one, subsequent go into meta arrays
-                        if (!tune.name) {
-                            tune.name = line.slice(2)
-                        } else {
-                            tune.meta = pushMeta(tune.meta, "T", line.slice(2))
+                        {
+                            var titleText = line.slice(2).trim()
+                            if (!tune.name) {
+                                tune.name = titleText
+                            } else {
+                                tune.aliases = bibliographicUtils.mergeBibliographicList(tune.aliases, titleText)
+                            }
                         }
                         break
                     case "B":
@@ -175,12 +178,33 @@ var useAbcTools = () => {
                         }
                         break
                     case "C":
-                        if (!tune.composer) {
-                            tune.composer = line.slice(2).trim()
+                        {
+                            var composerText = line.slice(2).trim()
+                            if (!tune.composer) {
+                                tune.composer = composerText
+                            } else {
+                                tune.artists = bibliographicUtils.mergeBibliographicList(tune.artists, composerText)
+                            }
                         }
                         break
                     case "K":
                         if (!tune.key) tune.key = line.slice(2).trim()
+                        break
+                    case "N":
+                        {
+                            var noteBody = line.slice(2).trim()
+                            if (/^AKA:\s*/i.test(noteBody)) {
+                                if (!Array.isArray(tune.aliases)) tune.aliases = []
+                                noteBody.replace(/^AKA:\s*/i, '').split(',').forEach(function(aliasPart) {
+                                    var alias = aliasPart.trim()
+                                    if (alias) {
+                                        tune.aliases = bibliographicUtils.mergeBibliographicList(tune.aliases, alias)
+                                    }
+                                })
+                            } else {
+                                tune.meta = pushMeta(tune.meta, "N", noteBody)
+                            }
+                        }
                         break
                     case "Q":
                         tune.tempo = cleanTempo(line.slice(2).trim())
@@ -311,6 +335,7 @@ var useAbcTools = () => {
         //if (Object.keys(links).length > 0) console.log('FOUND TUNE LINKS',links)
         tune.links = Object.values(links)
         tune.files = Object.values(files)
+        bibliographicUtils.normalizeBibliographicFields(tune)
         if (tune.id === null)  tune.id = generateObjectId()
           //console.log('LINE Vm ABC2JSON single',tune)
           return tune
@@ -331,13 +356,10 @@ var useAbcTools = () => {
       //console.log('json2abc',tune)
       //var bookData = {}
       if (tune) {
-        var aliasText = ''
-        if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
-           var aliasChunks = sliceIntoChunks(tune.aliases,5)
-           aliasChunks.forEach(function(chunk) {
-             aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
-           })
-        }
+        var titleHeaderText = bibliographicUtils.renderBibliographicTitleLines(tune).join("\n")
+        if (titleHeaderText) titleHeaderText += "\n"
+        var composerHeaderText = bibliographicUtils.renderBibliographicComposerLines(tune).join("\n")
+        if (composerHeaderText) composerHeaderText += "\n"
         var boost = tune.boost > 0 ? tune.boost : 0
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var books = Array.isArray(tune.books) && tune.books.length > 0 ? tune.books.map(function(book) {
@@ -408,15 +430,14 @@ var useAbcTools = () => {
         //console.log('voicesandnotes',tune.voices,voicesAndNotes)
         //console.log('JSON2abc tempo',tune.tempo,cleanTempo(tune.tempo), tempoLine)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
-                    + ensure(tune.name,"T: " + ensureText(tune.name) + "\n" )
-                    + ensure(tune.composer, "C:" + ensureText(tune.composer) + "\n" )
+                    + titleHeaderText
+                    + composerHeaderText
                     + books
                     + ensure(tune.meter,"M:"+ensureText(tune.meter)+ "\n" )
                     + ensure(tune.noteLength, "L:" + ensureText(tune.noteLength) + "\n" )
                     + ensure(tune.rhythm, "R: "+  ensureText(tune.rhythm) + "\n" )
                     + tempoLine
                     + otherHeaders
-                    + aliasText 
                     + ensure(tune.key, "K:"+ensureText(tune.key)+ "\n" )
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     + renderWordHeaders(tune)
@@ -461,13 +482,10 @@ var useAbcTools = () => {
     }
      function json2abc_print(tune) {
       if (tune) {
-        var aliasText = ''
-        if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
-           var aliasChunks = sliceIntoChunks(tune.aliases,5)
-           aliasChunks.forEach(function(chunk) {
-            aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
-          })
-        }
+        var titleHeaderText = bibliographicUtils.renderBibliographicTitleLines(tune).join("\n")
+        if (titleHeaderText) titleHeaderText += "\n"
+        var composerHeaderText = bibliographicUtils.renderBibliographicComposerLines(tune).join("\n")
+        if (composerHeaderText) composerHeaderText += "\n"
         var voicesAndNotes=[]
         if (tune.voices) {
             Object.keys(tune.voices).forEach(function(voice) {
@@ -481,13 +499,12 @@ var useAbcTools = () => {
         }
         var tuneNumber = tune && tune.meta && parseInt(tune.meta.X) !== NaN && tune.meta.X >= 0 ? tune.meta.X : parseInt(Math.random()*100000)
         var finalAbc = "\nX: "+tuneNumber + "\n" 
-                    + "T: " + ensureText(tune.name) + "\n" 
-                    + (tune.composer ? "C:" + tune.composer + "\n" :  '' )
+                    + titleHeaderText
+                    + composerHeaderText
                     + "M:"+ensureText(tune.meter)+ "\n" 
                     + "L:" + ensureText(tune.noteLength) + "\n" 
                     + "R: "+  ensureText(tune.rhythm) + "\n" 
                     + (cleanTempo(tune.tempo) > 0 ?  "Q: "+ getBeatLength(tune.meter)+'='+ ensureText(cleanTempo(tune.tempo)) + "\n"  : "")
-                    + aliasText 
                     + "K:"+ensureText(tune.key)+ "\n" 
                     + ((voicesAndNotes.length > 0) ? voicesAndNotes.join("\n") + "\n" : '')
                     //+ renderWordHeaders(tune)

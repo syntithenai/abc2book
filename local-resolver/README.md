@@ -18,7 +18,7 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/lyrics-phrases` | Return left-context, right-context, and phrase-shaped suggestions for a phrase or seed word. |
 | POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
 | POST | `/search-notation` | Search The Session and the web for ABC notation by title (optional `songType`: `song`, `instrumental`, `traditional_tune`). Accept `application/x-ndjson` for streaming progress events. |
-| POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (LM Studio by default) |
+| POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
 | POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
@@ -70,6 +70,40 @@ or relative to `local-resolver/`). The container expects the file at
 `/models/ggml-large-v3.bin` unless you override `MODEL_PATH` in compose.
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
+
+### OpenAI-compatible LLM (`llm` + `llm-gateway`)
+
+Compose starts two LLM helpers:
+
+| Service | Port | Role |
+|---------|------|------|
+| `llm` | `12341` → container `:8080` | Vulkan [llama.cpp](https://github.com/ggml-org/llama.cpp) server (preloads the configured GGUF) **or** an OpenAI-compatible reverse proxy when `LLM_EXTERNAL_BASE_URL` is set |
+| `llm-gateway` (`abc2book-llm-bridge`) | `12340` (host network) | Prefers `llm` on `:12341`, falls back to host LM Studio on `:1234` |
+
+Keep `RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1` so the resolver always talks to the gateway. Defaults load the same Gemma GGUF LM Studio uses (`LLM_MODELS_DIR` + `LLM_MODEL_FILENAME`).
+
+```bash
+# Local GGUF (default) — model is loaded at container start and kept resident
+# LLM_MODELS_DIR=/home/YOU/.lmstudio/models/lmstudio-community/gemma-4-31B-it-QAT-GGUF
+# LLM_MODEL_FILENAME=gemma-4-31B-it-QAT-Q4_0.gguf
+# RESEARCH_LLM_MODEL=google/gemma-4-31b-qat
+
+# Or proxy an external OpenAI-compatible API (no GGUF load in the llm container)
+# LLM_EXTERNAL_BASE_URL=https://api.openai.com/v1
+# LLM_EXTERNAL_API_KEY=sk-...
+```
+
+Gateway health: `curl -s http://127.0.0.1:12340/health`. If the in-compose `llm` container is down or still loading, requests fall through to LM Studio when it is running on `:1234`.
+
+Watch prompts and model reasoning in the llm container logs:
+
+```bash
+docker logs -f abc2book-llm
+```
+
+By default the llm service enables `LLM_LOG_TRAFFIC=true` (logs chat messages plus `reasoning_content`/`content`), `LLM_LOG_VERBOSE=true` (llama.cpp verbose), and `LLM_REASONING_FORMAT=deepseek`.
+
+On non-AMD hosts without `/dev/kfd`, remove that device mapping from the `llm` service in `docker-compose.yml`.
 
 The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
 

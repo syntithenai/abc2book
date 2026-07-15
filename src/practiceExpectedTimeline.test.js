@@ -64,6 +64,12 @@ describe('practiceExpectedTimeline', function() {
     expect(rep1Beat).toBeCloseTo(timeline.patternDurationBeats + 1, 3)
   })
 
+  test('patternLocalBeatFromAbsolute strips rep offset', function() {
+    const { patternLocalBeatFromAbsolute, absoluteBeatFromPatternLocal } = require('./practiceExpectedTimeline')
+    expect(patternLocalBeatFromAbsolute(17, 1, 16, 1)).toBeCloseTo(0, 5)
+    expect(absoluteBeatFromPatternLocal(3, 2, 16, 1)).toBeCloseTo(3 + 2 * 17, 5)
+  })
+
   test('beatToMs at 90 BPM quarter note', function() {
     expect(beatToMs(1, 90, 0.25)).toBeCloseTo(666.67, 0)
   })

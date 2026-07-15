@@ -335,6 +335,8 @@ export default function ImportReviewHost(props) {
       tunebook={props.tunebook}
       tunes={props.tunes}
       token={props.token}
+      login={props.login}
+      requestGoogleScopes={props.requestGoogleScopes}
       searchIndex={props.searchIndex}
       loadTuneTexts={props.loadTuneTexts}
       resolverAvailable={resolverAvailable}

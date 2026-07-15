@@ -157,6 +157,17 @@ export function savePerformanceSet(set) {
   return Object.assign({ id: id }, next);
 }
 
+export function appendTunesToPerformanceSet(setId, tuneIds) {
+  const ids = Array.isArray(tuneIds) ? tuneIds.filter(Boolean) : [];
+  if (!setId || !ids.length) return null;
+  const existing = getPerformanceSet(setId);
+  if (!existing) return null;
+  const nextItems = (existing.items || []).concat(ids.map(function(tuneId) {
+    return { type: 'tune', tuneId: tuneId };
+  }));
+  return savePerformanceSet(Object.assign({}, existing, { items: nextItems }));
+}
+
 export function deletePerformanceSet(setId) {
   const sets = readSets();
   const existing = sets[setId];

@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { createPitchStabilizer } from './tunerlib/pitchStabilizer'
 import {
-  centsFromFrequencyToMidi,
+  liveCentsToExpectedMidi,
   liveIntonationBand,
+  foldMidiNearExpected,
   summarizeRepPitch,
   summarizeRepTiming,
 } from './practiceAccuracyScorer'
@@ -12,6 +13,8 @@ import {
   noteWindowsFromTimeline,
   expectedNoteAtBeat,
   notationBeatFromAudioSeconds,
+  patternLocalBeatFromAbsolute,
+  absoluteBeatFromPatternLocal,
 } from './practiceExpectedTimeline'
 import { frequencyToMidi } from './tunerTuningUtils'
 import { createPitchfinderDetector } from './practiceAccuracyBackends'
@@ -19,6 +22,17 @@ import { createPitchfinderDetector } from './practiceAccuracyBackends'
 const DEFAULT_BUFFER_SIZE = 4096
 const AUBIO_WAIT_MS = 2500
 const MIC_LEVEL_SMOOTHING = 0.18
+const TRACE_THROTTLE_BEATS = 0.01
+const TRACE_THROTTLE_MS = 25
+
+function publishTraces(setRepTraces, tracesRef) {
+  setRepTraces(tracesRef.current.map(function(trace) {
+    return {
+      repIndex: trace.repIndex,
+      points: trace.points.slice(),
+    }
+  }))
+}
 
 function getAubio() {
   return typeof window !== 'undefined' ? window.aubio : null
@@ -190,6 +204,10 @@ export default function usePracticeAccuracyMonitor(options) {
   const [repSummary, setRepSummary] = useState(null)
   const [aggregateSummary, setAggregateSummary] = useState(null)
   const [resolverPending, setResolverPending] = useState(false)
+  const [repTraces, setRepTraces] = useState([])
+  const [playheadBeat, setPlayheadBeat] = useState(0)
+  const [expectedNotes, setExpectedNotes] = useState([])
+  const [patternDurationBeats, setPatternDurationBeats] = useState(0)
 
   const samplesRef = useRef([])
   const onsetsRef = useRef([])
@@ -198,32 +216,82 @@ export default function usePracticeAccuracyMonitor(options) {
   const stabilizerRef = useRef(createPitchStabilizer({ gateThreshold: 0.02 }))
   const captureRef = useRef(null)
   const currentBeatRef = useRef(0)
+  const patternLocalBeatRef = useRef(0)
   const currentRepRef = useRef(0)
   const recordingChunksRef = useRef([])
   const mediaRecorderRef = useRef(null)
   const micContextRef = useRef(null)
   const levelSmootherRef = useRef(createLevelSmoother())
+  const repTracesRef = useRef([])
+  const lastTraceBeatRef = useRef(-999)
+  const lastTraceTimeRef = useRef(-999)
+  const tracesPublishTimerRef = useRef(null)
+
+  const scheduleTracesPublish = useCallback(function() {
+    if (tracesPublishTimerRef.current != null) return
+    tracesPublishTimerRef.current = setTimeout(function() {
+      tracesPublishTimerRef.current = null
+      publishTraces(setRepTraces, repTracesRef)
+    }, 50)
+  }, [])
+
+  const ensureRepTrace = useCallback(function(repIndex) {
+    let trace = repTracesRef.current.find(function(t) { return t.repIndex === repIndex })
+    if (!trace) {
+      trace = { repIndex: repIndex, points: [] }
+      repTracesRef.current = repTracesRef.current.concat([trace])
+    }
+    return trace
+  }, [])
+
+  const clearAllTraces = useCallback(function() {
+    repTracesRef.current = []
+    lastTraceBeatRef.current = -999
+    lastTraceTimeRef.current = -999
+    setRepTraces([])
+    setPlayheadBeat(0)
+  }, [])
 
   const resetRepBuffers = useCallback(function() {
     samplesRef.current = []
     onsetsRef.current = []
+    lastTraceBeatRef.current = -999
+    lastTraceTimeRef.current = -999
   }, [])
 
   const handlePracticeBeat = useCallback(function(payload) {
     if (!payload) return
     if (payload.repIndex != null) currentRepRef.current = payload.repIndex
     const timeline = timelineRef.current
-    if (timeline && typeof payload.audioSeconds === 'number') {
+    const pattern = timeline ? timeline.patternDurationBeats : 0
+    const gap = gapBeatsRef.current
+    const rep = currentRepRef.current
+
+    if (payload.currentBeat != null && Number.isFinite(payload.currentBeat)) {
+      // abcjs beat is pattern-local for the current play-through.
+      patternLocalBeatRef.current = Math.max(0, payload.currentBeat)
+      currentBeatRef.current = absoluteBeatFromPatternLocal(
+        patternLocalBeatRef.current,
+        rep,
+        pattern,
+        gap
+      )
+    } else if (timeline && typeof payload.audioSeconds === 'number') {
       currentBeatRef.current = notationBeatFromAudioSeconds(
         payload.audioSeconds,
         timeline.tuneMeta,
-        currentRepRef.current,
-        timeline.patternDurationBeats,
-        gapBeatsRef.current
+        rep,
+        pattern,
+        gap
       )
-    } else if (payload.currentBeat != null) {
-      currentBeatRef.current = payload.currentBeat
+      patternLocalBeatRef.current = patternLocalBeatFromAbsolute(
+        currentBeatRef.current,
+        rep,
+        pattern,
+        gap
+      )
     }
+    setPlayheadBeat(patternLocalBeatRef.current)
   }, [])
 
   const scoreCurrentRep = useCallback(function(repIndex) {
@@ -245,10 +313,18 @@ export default function usePracticeAccuracyMonitor(options) {
   useEffect(function() {
     if (!abc) {
       timelineRef.current = null
+      setExpectedNotes([])
+      setPatternDurationBeats(0)
+      clearAllTraces()
       return
     }
-    timelineRef.current = noteEventsFromWarmupAbc(abc)
-  }, [abc])
+    const timeline = noteEventsFromWarmupAbc(abc)
+    timelineRef.current = timeline
+    setExpectedNotes(timeline.notes.slice())
+    setPatternDurationBeats(timeline.patternDurationBeats || 0)
+    clearAllTraces()
+    repSummariesRef.current = []
+  }, [abc, clearAllTraces])
 
   useEffect(function() {
     if (!enabled) {
@@ -280,10 +356,11 @@ export default function usePracticeAccuracyMonitor(options) {
     function processFrame(frame) {
       if (cancelled) return
       const micLevel = levelSmootherRef.current(frame.rms)
+      const micHeard = micLevel > 0.04
       const baseState = {
         micLevel: micLevel,
         micStatus: 'active',
-        micHeard: micLevel > 0.04,
+        micHeard: micHeard,
       }
       if (!timelineRef.current) {
         setMicState(Object.assign({}, baseState, {
@@ -302,33 +379,57 @@ export default function usePracticeAccuracyMonitor(options) {
       )
       const expected = expectedNoteAtBeat(repNotes, currentBeatRef.current)
       const expectedMidi = expected ? expected.midi : null
-      let cents = null
-      if (frame.frequency > 0) {
-        if (expectedMidi != null) {
-          cents = centsFromFrequencyToMidi(frame.frequency, expectedMidi)
-        } else {
-          const nearestMidi = Math.round(frequencyToMidi(frame.frequency))
-          cents = centsFromFrequencyToMidi(frame.frequency, nearestMidi)
-        }
-      }
       const stabilized = stabilizer.process(
         frame.frequency,
         frame.rms,
-        cents,
+        null,
         null,
         timeMs
       )
-      if (stabilized && stabilized.freq > 0) {
+      const useFreq = stabilized && stabilized.freq > 0 ? stabilized.freq : frame.frequency
+      const gated = !!(stabilized && stabilized.freq > 0)
+      const canTrace = (gated || micHeard) && useFreq > 0
+      let displayCents = null
+      if (gated && useFreq > 0) {
+        if (expectedMidi != null) {
+          displayCents = liveCentsToExpectedMidi(useFreq, expectedMidi)
+        } else {
+          const nearestMidi = Math.round(frequencyToMidi(useFreq))
+          displayCents = liveCentsToExpectedMidi(useFreq, nearestMidi)
+        }
         samplesRef.current.push({
           timeMs: timeMs,
-          frequency: stabilized.freq,
+          frequency: useFreq,
           gated: true,
         })
       }
-      const displayCents = stabilized && stabilized.cents != null ? stabilized.cents : cents
+      if (canTrace) {
+        const localBeat = patternLocalBeatRef.current
+        const beatDelta = localBeat - lastTraceBeatRef.current
+        const timeDelta = timeMs - lastTraceTimeRef.current
+        if (beatDelta >= TRACE_THROTTLE_BEATS || timeDelta >= TRACE_THROTTLE_MS) {
+          lastTraceBeatRef.current = localBeat
+          lastTraceTimeRef.current = timeMs
+          const rawMidi = frequencyToMidi(useFreq)
+          const displayMidi = foldMidiNearExpected(rawMidi, expectedMidi != null ? expectedMidi : rawMidi)
+          const cents = expectedMidi != null
+            ? liveCentsToExpectedMidi(useFreq, expectedMidi)
+            : liveCentsToExpectedMidi(useFreq, Math.round(rawMidi))
+          const trace = ensureRepTrace(currentRepRef.current)
+          trace.points.push({
+            beat: localBeat,
+            midi: displayMidi,
+            rawMidi: rawMidi,
+            expectedMidi: expectedMidi,
+            cents: cents,
+            timeMs: timeMs,
+          })
+          scheduleTracesPublish()
+        }
+      }
       setMicState(Object.assign({}, baseState, {
-        pitchCents: displayCents,
-        intonationBand: liveIntonationBand(displayCents),
+        pitchCents: gated && micHeard ? displayCents : null,
+        intonationBand: gated && micHeard ? liveIntonationBand(displayCents) : 'none',
         expectedMidi: expectedMidi,
         timingHint: null,
       }))
@@ -416,6 +517,10 @@ export default function usePracticeAccuracyMonitor(options) {
 
     return function() {
       cancelled = true
+      if (tracesPublishTimerRef.current != null) {
+        clearTimeout(tracesPublishTimerRef.current)
+        tracesPublishTimerRef.current = null
+      }
       if (captureRef.current) captureRef.current.stop()
       if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
         try { mediaRecorderRef.current.stop() } catch (e) { /* ignore */ }
@@ -431,7 +536,7 @@ export default function usePracticeAccuracyMonitor(options) {
   // (resolver features / audio context identity) previously looped this effect
   // and left the UI stuck on "Requesting microphone…".
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [enabled])
+  }, [enabled, ensureRepTrace, scheduleTracesPublish])
 
   const onRepComplete = useCallback(function(repIndex) {
     return scoreCurrentRep(repIndex)
@@ -481,10 +586,15 @@ export default function usePracticeAccuracyMonitor(options) {
     repSummary: repSummary,
     aggregateSummary: aggregateSummary,
     resolverPending: resolverPending,
+    repTraces: repTraces,
+    playheadBeat: playheadBeat,
+    expectedNotes: expectedNotes,
+    patternDurationBeats: patternDurationBeats,
     handlePracticeBeat: handlePracticeBeat,
     onRepComplete: onRepComplete,
     onStepComplete: onStepComplete,
     resetRepBuffers: resetRepBuffers,
+    clearAllTraces: clearAllTraces,
     getRecordingBlob: getRecordingBlob,
     applyResolverSummary: applyResolverSummary,
     startResolverPending: startResolverPending,

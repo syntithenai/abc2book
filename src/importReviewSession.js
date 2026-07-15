@@ -1,3 +1,6 @@
+import { primaryArtist } from './tuneBibliographicUtils';
+import { coalesceImportCandidates, fieldLookupJobIdsForCandidate, fieldLookupKindsForCandidate } from './importReviewCandidateUtils';
+
 export const IMPORT_REVIEW_STEPS = ['review', 'enrichmentQueue'];
 
 const SCORE_SOURCE_KINDS = ['musicxml', 'mxl', 'midi'];
@@ -356,11 +359,170 @@ export function appendImportReviewCandidates(session, candidates) {
     return createImportReviewSession(list);
   }
   if (list.length === 0) return session;
+  let next = session;
+  list.forEach(function(candidate) {
+    next = foldIncomingCandidate(next, candidate);
+  });
+  return next;
+}
+
+/**
+ * Fold an incoming candidate into an existing pending candidate with the same
+ * mergeTargetId, or append when none matches.
+ */
+export function foldIncomingCandidate(session, candidate) {
+  if (!candidate) return session;
+  const normalized = normalizeCandidate(candidate, 0);
+  if (!session) {
+    return createImportReviewSession([normalized]);
+  }
+  const mergeTargetId = normalized.mergeTargetId ? String(normalized.mergeTargetId) : '';
+  if (!mergeTargetId) {
+    return Object.assign({}, session, {
+      candidates: (session.candidates || []).concat([normalized]),
+      step: session.step === 'done' ? 'review' : session.step,
+      phase: session.step === 'done' ? 'identify' : session.phase,
+      mergeIndex: null,
+    });
+  }
+
+  const candidates = Array.isArray(session.candidates) ? session.candidates.slice() : [];
+  const matchIndex = candidates.findIndex(function(item) {
+    return item
+      && !item.imported
+      && item.mergeTargetId
+      && String(item.mergeTargetId) === mergeTargetId
+      && item.id !== normalized.id;
+  });
+  if (matchIndex < 0) {
+    return Object.assign({}, session, {
+      candidates: candidates.concat([normalized]),
+      step: session.step === 'done' ? 'review' : session.step,
+      phase: session.step === 'done' ? 'identify' : session.phase,
+      mergeIndex: null,
+    });
+  }
+
+  candidates[matchIndex] = coalesceImportCandidates(candidates[matchIndex], [normalized]);
   return Object.assign({}, session, {
-    candidates: (session.candidates || []).concat(list),
+    candidates: candidates,
     step: session.step === 'done' ? 'review' : session.step,
     phase: session.step === 'done' ? 'identify' : session.phase,
+  });
+}
+
+/**
+ * Collapse all pending candidates sharing mergeTargetId into one survivor.
+ * Prefer preferCandidateId when provided, else the current session index.
+ * Returns { session, survivorId, absorbedIds }.
+ */
+export function coalesceSessionCandidatesByMergeTarget(session, mergeTargetId, preferCandidateId) {
+  if (!session || !mergeTargetId || !Array.isArray(session.candidates)) {
+    return { session: session, survivorId: null, absorbedIds: [] };
+  }
+  const target = String(mergeTargetId);
+  const indexes = [];
+  session.candidates.forEach(function(candidate, index) {
+    if (!candidate || candidate.imported) return;
+    if (!candidate.mergeTargetId || String(candidate.mergeTargetId) !== target) return;
+    indexes.push(index);
+  });
+  if (indexes.length <= 1) {
+    return {
+      session: session,
+      survivorId: indexes.length === 1 ? session.candidates[indexes[0]].id : null,
+      absorbedIds: [],
+    };
+  }
+
+  let survivorIndex = indexes[0];
+  if (preferCandidateId) {
+    const preferred = indexes.find(function(index) {
+      return session.candidates[index] && session.candidates[index].id === preferCandidateId;
+    });
+    if (preferred != null) survivorIndex = preferred;
+  } else {
+    const activeIndex = session.mergeIndex != null ? session.mergeIndex : session.index;
+    if (indexes.indexOf(activeIndex) >= 0) survivorIndex = activeIndex;
+  }
+
+  const survivor = session.candidates[survivorIndex];
+  const others = indexes
+    .filter(function(index) { return index !== survivorIndex; })
+    .map(function(index) { return session.candidates[index]; });
+  const absorbedIds = others.map(function(item) { return item && item.id; }).filter(Boolean);
+  const coalesced = coalesceImportCandidates(survivor, others);
+  const remove = {};
+  indexes.forEach(function(index) {
+    if (index !== survivorIndex) remove[index] = true;
+  });
+  const nextCandidates = [];
+  let newSurvivorIndex = 0;
+  session.candidates.forEach(function(candidate, index) {
+    if (remove[index]) return;
+    if (index === survivorIndex) {
+      newSurvivorIndex = nextCandidates.length;
+      nextCandidates.push(coalesced);
+      return;
+    }
+    nextCandidates.push(candidate);
+  });
+
+  return {
+    session: Object.assign({}, session, {
+      candidates: nextCandidates,
+      index: newSurvivorIndex,
+      mergeIndex: session.mergeIndex != null ? newSurvivorIndex : null,
+      step: nextCandidates.length ? (session.step === 'done' ? 'review' : session.step) : 'done',
+      phase: session.step === 'done' && nextCandidates.length ? 'identify' : session.phase,
+    }),
+    survivorId: coalesced.id,
+    absorbedIds: absorbedIds,
+  };
+}
+
+/**
+ * Drop or trim review candidates linked to a field-lookup job.
+ * Multi-job coalesced candidates lose only that job link until none remain.
+ */
+export function removeImportReviewCandidatesByFieldLookupJobId(session, jobId) {
+  if (!session || !jobId || !Array.isArray(session.candidates)) return session;
+  const target = String(jobId);
+  let changed = false;
+  const remaining = [];
+  session.candidates.forEach(function(candidate) {
+    const ids = fieldLookupJobIdsForCandidate(candidate);
+    if (ids.indexOf(target) < 0) {
+      remaining.push(candidate);
+      return;
+    }
+    changed = true;
+    const nextIds = ids.filter(function(id) { return id !== target; });
+    if (nextIds.length === 0) return;
+    const kinds = fieldLookupKindsForCandidate(candidate).slice();
+    remaining.push(Object.assign({}, candidate, {
+      fieldLookupJobIds: nextIds,
+      fieldLookupJobId: nextIds[0] || null,
+      fieldLookupKinds: kinds,
+      fieldLookupKind: kinds[0] || null,
+    }));
+  });
+  if (!changed) return session;
+  if (remaining.length === 0) {
+    return Object.assign({}, session, {
+      candidates: [],
+      index: 0,
+      mergeIndex: null,
+      phase: 'identify',
+      step: 'done',
+    });
+  }
+  const nextIndex = Math.min(session.index || 0, remaining.length - 1);
+  return Object.assign({}, session, {
+    candidates: remaining,
+    index: nextIndex,
     mergeIndex: null,
+    step: session.step === 'done' ? 'review' : session.step,
   });
 }
 
@@ -422,7 +584,7 @@ export function candidateIdentityLabel(candidate) {
   if (!candidate || !candidate.tune) return { title: '', artist: '' };
   return {
     title: candidate.tune.name ? String(candidate.tune.name) : '',
-    artist: candidate.tune.composer ? String(candidate.tune.composer) : '',
+    artist: candidate.tune ? primaryArtist(candidate.tune) : '',
   };
 }
 

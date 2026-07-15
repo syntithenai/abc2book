@@ -1,9 +1,10 @@
 from background_markdown_links import enrich_background_markdown
+import asyncio
 import json
 import os
 import re
 import time
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 
 import httpx
 
@@ -21,8 +22,12 @@ MAX_WORDS = int(os.getenv("RESEARCH_MAX_WORDS", "950"))
 LLM_MAX_TOKENS = int(os.getenv("RESEARCH_LLM_MAX_TOKENS", "2800"))
 MAX_SOURCES_IN_PROMPT = int(os.getenv("RESEARCH_MAX_SOURCES_IN_PROMPT", "80"))
 MAX_SNIPPET_CHARS = int(os.getenv("RESEARCH_MAX_SNIPPET_CHARS", "1200"))
-SEARCH_RESULTS_PER_QUERY = int(os.getenv("RESEARCH_SEARCH_RESULTS_PER_QUERY", "8"))
-MAX_SUPPLEMENTAL_QUERIES = int(os.getenv("RESEARCH_MAX_SUPPLEMENTAL_QUERIES", "10"))
+SEARCH_RESULTS_PER_QUERY = int(os.getenv("RESEARCH_SEARCH_RESULTS_PER_QUERY", "5"))
+MAX_SUPPLEMENTAL_QUERIES = int(os.getenv("RESEARCH_MAX_SUPPLEMENTAL_QUERIES", "4"))
+MIN_SOURCES_BEFORE_SKIP_SUPPLEMENTAL = int(
+    os.getenv("RESEARCH_MIN_SOURCES_BEFORE_SKIP_SUPPLEMENTAL", "12")
+)
+SEARCH_QUERY_CONCURRENCY = int(os.getenv("RESEARCH_SEARCH_QUERY_CONCURRENCY", "3"))
 SUPPLEMENTAL_QUERY_LLM_MAX_TOKENS = int(os.getenv("RESEARCH_SUPPLEMENTAL_QUERY_LLM_MAX_TOKENS", "600"))
 MAX_LYRICS_CHARS = int(os.getenv("RESEARCH_MAX_LYRICS_CHARS", "8000"))
 MAX_EXISTING_BACKGROUND_CHARS = int(os.getenv("RESEARCH_MAX_EXISTING_BACKGROUND_CHARS", "12000"))
@@ -48,6 +53,18 @@ ALLOWED_FETCH_HOST_SUFFIXES = (
     "thesession.org",
     "youtube.com",
     "youtu.be",
+)
+
+HIGH_TRUST_SOURCE_TYPES = frozenset({"wikipedia", "musicbrainz"})
+HIGH_TRUST_HOST_SUFFIXES = (
+    "wikipedia.org",
+    "wikidata.org",
+    "musicbrainz.org",
+    "allmusic.com",
+    "discogs.com",
+    "secondhandsongs.com",
+    "folkopedia.org",
+    "thesession.org",
 )
 
 
@@ -132,8 +149,9 @@ def _existing_background_prompt_block(existing_background):
 
 
 def _format_sources_for_prompt(sources):
+    ranked = rank_sources_for_prompt(sources)
     context_lines = []
-    for idx, source in enumerate(sources[:MAX_SOURCES_IN_PROMPT], start=1):
+    for idx, source in enumerate(ranked[:MAX_SOURCES_IN_PROMPT], start=1):
         context_lines.append(
             f"[{idx}] {source.get('title', '')}\n"
             f"URL: {source.get('url', '')}\n"
@@ -155,7 +173,7 @@ def _is_meaningful_lyric_line(line):
     return alpha_count >= 6
 
 
-def _lyrics_search_phrases(lyrics, max_phrases=3):
+def _lyrics_search_phrases(lyrics, max_phrases=1):
     text = _normalize_lyrics(lyrics)
     if not text:
         return []
@@ -190,23 +208,65 @@ def build_research_queries(title, artist, lyrics=""):
     base = f'"{title}"' + (f' "{artist}"' if artist else "")
     artist_part = f" {artist}" if artist else ""
     queries = [
-        f"{base} song history origin",
+        f"{base} song history origin recording",
+        f"{base} covers performers recordings",
         f"{base} alternative names aka",
-        f"{base} first recorded written",
-        f"{base} who popularized made famous",
-        f"{base} notable recordings performers covers",
-        f"{base} record label releases",
-        f"{base} musical structure key tempo",
-        f'site:youtube.com "{title}"{artist_part}',
         f'site:thesession.org "{title}"',
         f'site:discogs.com "{title}"{artist_part}',
-        f"{title}{artist_part} wikipedia".strip(),
     ]
-    for phrase in _lyrics_search_phrases(lyrics):
-        queries.append(f'"{phrase}" song lyrics')
+    for phrase in _lyrics_search_phrases(lyrics, max_phrases=1):
         if artist:
             queries.append(f'"{phrase}" "{artist}"')
+        else:
+            queries.append(f'"{phrase}" song lyrics')
     return queries
+
+
+def _host_matches_suffix(host, suffix):
+    host = (host or "").lower().rstrip(".")
+    suffix = (suffix or "").lower().rstrip(".")
+    return host == suffix or host.endswith("." + suffix)
+
+
+def _source_host(url):
+    try:
+        return (urlparse(url or "").hostname or "").lower()
+    except Exception:
+        return ""
+
+
+def _source_trust_rank(source):
+    source_type = _normalize_space(source.get("source") or "").lower()
+    if source_type in HIGH_TRUST_SOURCE_TYPES:
+        return 0
+    host = _source_host(source.get("url") or "")
+    for suffix in HIGH_TRUST_HOST_SUFFIXES:
+        if _host_matches_suffix(host, suffix):
+            return 1
+    return 2
+
+
+def rank_sources_for_prompt(sources):
+    indexed = list(enumerate(sources or []))
+    indexed.sort(
+        key=lambda item: (
+            _source_trust_rank(item[1]),
+            -len(_normalize_space(item[1].get("snippet") or "")),
+            item[0],
+        )
+    )
+    return [source for _, source in indexed]
+
+
+def sources_rich_enough_to_skip_supplemental(sources):
+    items = list(sources or [])
+    if len(items) < MIN_SOURCES_BEFORE_SKIP_SUPPLEMENTAL:
+        return False
+    return any(
+        _normalize_space(source.get("source") or "").lower() == "wikipedia"
+        and len(_normalize_space(source.get("snippet") or "")) >= 80
+        for source in items
+    )
 
 
 def _dedupe_queries(queries):
@@ -270,28 +330,39 @@ def _source_digest(sources, limit=15, snippet_chars=220):
 
 
 async def generate_supplemental_queries(
-    client, title, artist, sources, lyrics="", existing_background=""
+    client, title, artist, sources, lyrics="", existing_background="", already_run_queries=None
 ):
     digest = _source_digest(sources)
     artist_line = f"Artist/composer: {artist}\n" if artist else ""
     lyrics_block = _lyrics_prompt_block(lyrics)
     existing_block = _existing_background_prompt_block(existing_background)
+    already_run = _dedupe_queries(already_run_queries or [])
+    already_block = ""
+    if already_run:
+        already_block = (
+            "Queries already run (do not repeat these or near-duplicates):\n"
+            + "\n".join(f"- {query}" for query in already_run)
+            + "\n\n"
+        )
     prompt = (
-        f"You are planning web searches to research the song/tune \"{title}\".\n"
+        f"You are planning a small number of gap-filling web searches for the song/tune \"{title}\".\n"
         f"{artist_line}"
         f"{lyrics_block}"
         f"{existing_block}"
         f"We already collected {len(sources)} source snippets. Sample:\n"
         f"{digest or '(none yet)'}\n\n"
-        "Generate diverse search queries to fill gaps, especially:\n"
+        f"{already_block}"
+        "Propose ONLY queries that fill clear gaps in the notes above. Focus on missing topics such as:\n"
         "- identifying the correct song when the title is ambiguous\n"
         "- alternative titles and origins\n"
         "- first recordings and who popularized the piece\n"
         "- notable performers, cover versions, and labels\n"
-        "- YouTube performances\n"
         "- historical and cultural context\n"
         "- verifying or expanding facts from any existing background info above\n\n"
-        f"Return ONLY a JSON array of up to {MAX_SUPPLEMENTAL_QUERIES} search query strings."
+        "Do not plan a full second research pass. Skip topics already well covered. "
+        "Do not request YouTube searches.\n\n"
+        f"Return ONLY a JSON array of up to {MAX_SUPPLEMENTAL_QUERIES} search query strings. "
+        "Return [] if there are no important gaps."
     )
     resp = await client.post(
         f"{LLM_BASE_URL}/chat/completions",
@@ -305,7 +376,7 @@ async def generate_supplemental_queries(
                 {
                     "role": "system",
                     "content": (
-                        "You generate concise web search queries for music research. "
+                        "You generate concise gap-filling web search queries for music research. "
                         "Respond with a JSON array of strings only."
                     ),
                 },
@@ -323,7 +394,13 @@ async def generate_supplemental_queries(
         raise ValueError("LLM returned no choices for supplemental queries")
     message = choices[0].get("message") or {}
     queries = parse_llm_json_array(message)
-    return _dedupe_queries(queries)[:MAX_SUPPLEMENTAL_QUERIES]
+    already_normalized = {_normalize_space(query).lower() for query in already_run}
+    filtered = [
+        query
+        for query in _dedupe_queries(queries)
+        if _normalize_space(query).lower() not in already_normalized
+    ]
+    return filtered[:MAX_SUPPLEMENTAL_QUERIES]
 
 
 def _source_key(url):
@@ -628,6 +705,9 @@ def _build_llm_prompt(title, artist, sources, lyrics="", existing_background="")
         "Do not include a References section yet; references are added in a later step.\n\n"
         f"{about_section}\n\n"
         "STYLE: Write in flowing prose for musicians. Lead with confirmed facts from the notes. "
+        "Prefer specific dates, places, people, release names, and labels when the notes include them. "
+        "When notes conflict, prefer higher-trust reference sources (Wikipedia, MusicBrainz, Discogs, "
+        "The Session, AllMusic, SecondHandSongs) over lyric sites, blogs, or thin search snippets. "
         "Expand each section with specific detail from the notes. "
         f"If a section has no supporting evidence in the {notes_basis}, omit that section "
         "heading entirely. "
@@ -638,7 +718,7 @@ def _build_llm_prompt(title, artist, sources, lyrics="", existing_background="")
         "meta-commentary about missing data. Do not invent facts not supported by the notes"
         + (" or existing background" if existing_block else "")
         + ".\n\n"
-        f"Research notes ({len(sources[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}"
+        f"Research notes ({len(rank_sources_for_prompt(sources)[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}"
     )
 
 
@@ -660,16 +740,19 @@ def _build_critique_prompt(title, artist, draft, sources, existing_background=""
         + ".\n"
         "3. Preserve factual claims from existing background unless notes clearly contradict them "
         "with stronger evidence.\n"
-        "4. Prefer claims that can be tied to a source. Where a specific source supports a key "
-        "fact, add a light inline marker like [1] matching the source index below.\n"
-        "5. Keep the same readable prose style with section headings. Do not discuss the "
+        "4. Prefer claims that can be tied to a higher-trust source. Prefer Wikipedia, MusicBrainz, "
+        "Discogs, The Session, AllMusic, and SecondHandSongs over lyric sites, blogs, or duplicated "
+        "thin snippets. Where a specific source supports a key fact, add a light inline marker like "
+        "[1] matching the source index below.\n"
+        "5. Remove claims that appear only in low-trust or duplicated snippets without corroboration.\n"
+        "6. Keep the same readable prose style with section headings. Do not discuss the "
         "critique process or mention that you fact-checked the text.\n"
-        "6. Do not include a YouTube section.\n"
-        "7. End with a ## References section listing ONLY sources actually used to support "
+        "7. Do not include a YouTube section.\n"
+        "8. End with a ## References section listing ONLY sources actually used to support "
         "claims in the revised article. Format each as a markdown bullet: "
         "- [Title](url)\n"
-        "8. Return ONLY the revised markdown article.\n\n"
-        f"Research notes ({len(sources[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}\n\n"
+        "9. Return ONLY the revised markdown article.\n\n"
+        f"Research notes ({len(rank_sources_for_prompt(sources)[:MAX_SOURCES_IN_PROMPT])} sources):\n{context}\n\n"
         f"DRAFT ARTICLE:\n{draft}"
     )
 
@@ -695,7 +778,8 @@ def _sources_cited_in_text(text, sources):
     body = str(text or "")
     cited = []
     seen = set()
-    for idx, source in enumerate(sources[:MAX_SOURCES_IN_PROMPT], start=1):
+    ranked = rank_sources_for_prompt(sources)
+    for idx, source in enumerate(ranked[:MAX_SOURCES_IN_PROMPT], start=1):
         url = (source.get("url") or "").strip()
         title = _normalize_space(source.get("title") or "")
         marker = f"[{idx}]"
@@ -720,7 +804,7 @@ def ensure_references_section(text, sources):
         return result if result.endswith("\n") else result + "\n"
 
     cited = _sources_cited_in_text(result, sources)
-    fallback = cited if cited else list(sources[:MAX_REFERENCES])
+    fallback = cited if cited else rank_sources_for_prompt(sources)[:MAX_REFERENCES]
     section = _format_references_section(fallback)
     if not section:
         return result if result.endswith("\n") else result + "\n"
@@ -823,13 +907,16 @@ async def _emit_progress(on_progress, stage, message, progress, elapsed_ms=None)
 
 async def _run_search_queries(client, source_store, queries, on_progress, progress_start, progress_end, label_prefix):
     total_queries = len(queries)
-    for idx, query in enumerate(queries):
-        await _emit_progress(
-            on_progress,
-            "search",
-            f"{label_prefix} ({idx + 1}/{total_queries})...",
-            progress_start + ((progress_end - progress_start) * (idx + 1) / max(total_queries, 1)),
-        )
+    if total_queries == 0:
+        return
+
+    # DuckDuckGo is rate-limited; keep those searches serial. Other backends can
+    # fan out a little for latency without changing result quality.
+    concurrency = 1 if SEARCH_BACKEND == "duckduckgo" else max(1, SEARCH_QUERY_CONCURRENCY)
+    completed = 0
+
+    async def run_one(query):
+        nonlocal completed
         try:
             hits = await search_web(client, query)
         except Exception:
@@ -842,6 +929,27 @@ async def _run_search_queries(client, source_store, queries, on_progress, progre
                 hit.get("snippet"),
                 hit.get("source") or SEARCH_BACKEND,
             )
+        completed += 1
+        await _emit_progress(
+            on_progress,
+            "search",
+            f"{label_prefix} ({completed}/{total_queries})...",
+            progress_start
+            + ((progress_end - progress_start) * completed / max(total_queries, 1)),
+        )
+
+    if concurrency <= 1:
+        for query in queries:
+            await run_one(query)
+        return
+
+    semaphore = asyncio.Semaphore(concurrency)
+
+    async def guarded(query):
+        async with semaphore:
+            await run_one(query)
+
+    await asyncio.gather(*(guarded(query) for query in queries))
 
 
 async def research_tune_background(
@@ -893,37 +1001,49 @@ async def research_tune_background(
             "Web search",
         )
 
-        await _emit_progress(
-            on_progress,
-            "search",
-            "Generating supplemental search queries...",
-            0.48,
-            elapsed_ms(),
-        )
-        try:
-            supplemental_queries = await generate_supplemental_queries(
-                client,
-                title,
-                artist,
-                list(source_store.values()),
-                lyrics,
-                existing_background,
-            )
-        except Exception:
-            supplemental_queries = []
-
-        if supplemental_queries:
-            await _run_search_queries(
-                client,
-                source_store,
-                supplemental_queries,
+        current_sources = list(source_store.values())
+        supplemental_queries = []
+        if sources_rich_enough_to_skip_supplemental(current_sources):
+            await _emit_progress(
                 on_progress,
-                0.50,
-                0.62,
-                "Expanded search",
+                "search",
+                "Skipping supplemental search (sources already rich)...",
+                0.55,
+                elapsed_ms(),
             )
+        else:
+            await _emit_progress(
+                on_progress,
+                "search",
+                "Generating supplemental search queries...",
+                0.48,
+                elapsed_ms(),
+            )
+            try:
+                supplemental_queries = await generate_supplemental_queries(
+                    client,
+                    title,
+                    artist,
+                    current_sources,
+                    lyrics,
+                    existing_background,
+                    already_run_queries=queries,
+                )
+            except Exception:
+                supplemental_queries = []
 
-        sources = list(source_store.values())
+            if supplemental_queries:
+                await _run_search_queries(
+                    client,
+                    source_store,
+                    supplemental_queries,
+                    on_progress,
+                    0.50,
+                    0.62,
+                    "Expanded search",
+                )
+
+        sources = rank_sources_for_prompt(list(source_store.values()))
         if not sources:
             raise ValueError("No research sources found for this tune")
 

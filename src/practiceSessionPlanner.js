@@ -31,12 +31,6 @@ export function normalizePracticeKey(key) {
 export function getTuneKey(tune) {
   if (!tune) return ''
   if (tune.key && String(tune.key).trim()) return String(tune.key).trim()
-  if (tune.timedMelody && tune.timedMelody.detectedKey) {
-    return String(tune.timedMelody.detectedKey).trim()
-  }
-  if (tune.timedMelody && tune.timedMelody.key) {
-    return String(tune.timedMelody.key).trim()
-  }
   return ''
 }
 

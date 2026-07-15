@@ -75,9 +75,27 @@ export default class Metronome
         playMetronomeTick(this.audioContext, time, accentLevel);
 
         this.currentBeat += 1;
+        if (this.currentBeat === 1 && typeof this.onFirstNoteSchedule === 'function') {
+            this.onFirstNoteSchedule(time);
+        }
+    }
+
+    flushAllVisuals() {
+        if (!this.onSlotChange) {
+            this.notesInQueue = []
+            return
+        }
+        while (this.notesInQueue.length > 0) {
+            const note = this.notesInQueue.shift()
+            this.onSlotChange(note.slot, this.rhythm)
+        }
     }
 
     finishCompletion(callback) {
+        // Flush any clicks still waiting in the lookahead queue so UI
+        // countdowns see every beat (including the last one).
+        this.flushDueVisuals()
+        this.flushAllVisuals()
         const cb = callback || this.callback
         this.stop()
         if (cb) cb()

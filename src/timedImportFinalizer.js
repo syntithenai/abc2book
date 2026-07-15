@@ -61,7 +61,7 @@ export function clearTransientTimedFields(tune) {
   delete tune.timedLyrics;
   delete tune.timedChords;
   delete tune.timedMelody;
-  delete tune.words;
+  // Plain lyrics (tune.words) and note-aligned wLines are durable — do not clear.
   return tune;
 }
 
@@ -193,6 +193,7 @@ export function finalizeMediaTimedImport(options) {
 
 /**
  * Algorithm B8: merge scraped chord grid into ABC and fit w: lines when melody exists.
+ * Timed analysis fields are always discarded — ABC + wLines are durable.
  */
 export function finalizeChordSheetToTune(options) {
   const {
@@ -202,7 +203,6 @@ export function finalizeChordSheetToTune(options) {
     abc,
     chordGridText,
     lyricLines,
-    preserveTimedMedia,
     chordSheetAlignment,
   } = options;
 
@@ -224,14 +224,6 @@ export function finalizeChordSheetToTune(options) {
   const voiceKey = resolvePrimaryVoiceKey(abcJson.voices);
   const noteLines = abcTools.justNotes(mergedAbc).split('\n');
   const existingMeta = Object.assign({}, tune.meta || {});
-  const preservedTimed = preserveTimedMedia
-    ? {
-        timedLyrics: tune.timedLyrics,
-        timedChords: tune.timedChords,
-        timedMelody: tune.timedMelody,
-        words: tune.words,
-      }
-    : null;
   abcJson.voices = Object.assign({}, abcJson.voices);
   abcJson.voices[voiceKey] = Object.assign({}, abcJson.voices[voiceKey] || { meta: '', notes: [] }, {
     notes: noteLines,
@@ -239,12 +231,6 @@ export function finalizeChordSheetToTune(options) {
 
   Object.assign(tune, abcJson);
   tune.meta = Object.assign({}, abcJson.meta || {}, existingMeta, tune.meta || {});
-  if (preservedTimed) {
-    if (preservedTimed.timedLyrics) tune.timedLyrics = preservedTimed.timedLyrics;
-    if (preservedTimed.timedChords) tune.timedChords = preservedTimed.timedChords;
-    if (preservedTimed.timedMelody) tune.timedMelody = preservedTimed.timedMelody;
-    if (preservedTimed.words) tune.words = preservedTimed.words;
-  }
 
   if (Array.isArray(lyricLines)) {
     setPlainLyricLines(tune, lyricLines);
@@ -257,8 +243,6 @@ export function finalizeChordSheetToTune(options) {
     }
   }
 
-  if (!preserveTimedMedia) {
-    clearTransientTimedFields(tune);
-  }
+  clearTransientTimedFields(tune);
   return tune;
 }

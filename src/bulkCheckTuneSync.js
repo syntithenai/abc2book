@@ -54,8 +54,5 @@ export function syncTuneFromStore(draft, opts) {
     tempo: draft.tempo || live.tempo || null,
     meter: draft.meter || live.meter || null,
     noteLength: draft.noteLength || live.noteLength || null,
-    timedLyrics: draft.timedLyrics || live.timedLyrics,
-    timedChords: draft.timedChords || live.timedChords,
-    timedMelody: draft.timedMelody || live.timedMelody,
   })
 }

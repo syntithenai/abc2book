@@ -239,7 +239,7 @@ export default function MultiSheetCaptureModal(props) {
         onHide={function() { setShowGooglePhotos(false); }}
         token={props.token}
         requestGoogleScopes={props.requestGoogleScopes}
-        login={props.login}
+        onLogin={props.login}
         onSelectFile={function(file) {
           addPageFromFile(file);
           setShowGooglePhotos(false);

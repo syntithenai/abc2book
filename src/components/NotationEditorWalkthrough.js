@@ -343,7 +343,7 @@ export const WALKTHROUGH_STEPS = [
     body: [
       'In the MIDI dropdown, press Start recording to capture note on/off events with timestamps. A red ● badge appears on the MIDI button while recording.',
       'Press Stop recording when finished. Choose Apply to convert the performance into quantized notes inserted at the caret, or Discard to clear the buffer.',
-      'Apply uses your most recent quantize settings (strength, grid, recording grid option).',
+      'Apply uses your most recent quantize settings (strength and grid subdivision).',
     ],
     tryIt: [
       'Position the caret where you want recorded notes to begin.',
@@ -358,14 +358,13 @@ export const WALKTHROUGH_STEPS = [
     summary: 'Edit timing and pitch on a grid.',
     body: [
       'Switch to Piano roll or Staff + Roll view. The piano roll shows time horizontally (beats) and pitch vertically.',
-      'Blue notes belong to the active voice; selected notes turn yellow. Gray semi-transparent notes are other displayed voices. Orange notes are the detected melody overlay from media import.',
+      'Blue notes belong to the active voice; selected notes turn yellow. Gray semi-transparent notes are other displayed voices.',
       'A red vertical playhead tracks linked media playback. A yellow-tinted band marks the playback region from the link’s start and end beats.',
       'Faint full-height rectangles indicate rests. A waveform may appear along the top when Wave is enabled.',
     ],
     tryIt: [
       'Switch to Piano roll view and locate the active-voice notes.',
       'If the tune has linked media, play it and watch the playhead move.',
-      'Toggle the Melody overlay to compare with detected melody notes.',
     ],
   },
   {
@@ -413,28 +412,23 @@ export const WALKTHROUGH_STEPS = [
     body: [
       'Toggle Snap on or off with the Snap button, or press s on the keyboard (when not in a text field).',
       'Use the snap subdivision dropdown to choose 1/4, 1/8, 1/16, or 1/32 of a beat.',
-      'When the tune has a timed melody with beat markers, enable Rec grid to use the recording beat grid for display and alignment.',
     ],
     tryIt: [
       'Turn Snap off, drag a note freely, then turn Snap back on.',
       'Change the subdivision to 1/8 and insert a note — notice how it aligns.',
-      'If available, toggle Rec grid and compare the beat lines.',
     ],
   },
   {
     id: 'piano-roll-overlays',
     phase: 'piano-roll',
-    title: 'Overlays: melody, waveform, and region',
+    title: 'Overlays: waveform and region',
     summary: 'Visual guides for aligning with recordings.',
     body: [
-      'Melody: show or hide orange notes from the detected melody (timedMelody import data).',
       'Wave: show or hide the linked media audio waveform along the top of the canvas.',
-      'Rec grid: when beat times exist, draw green beat lines and stronger downbeat lines from the recording.',
       'The playback region highlight and playhead help you align notes to a specific section of linked media.',
     ],
     tryIt: [
       'Toggle Wave on and off while media plays.',
-      'Toggle Melody and compare orange overlay notes to your blue notes.',
       'Click the ruler to seek to a downbeat and align a note visually.',
     ],
   },
@@ -514,13 +508,11 @@ export const WALKTHROUGH_STEPS = [
       'Strength (0–100%): how strongly notes move toward the grid.',
       'Grid subdivision: 1/4, 1/8, 1/16, or 1/32 beat.',
       'Quantize start and Quantize duration: choose which aspects to adjust.',
-      'Use recording beat grid: when the tune has timed melody beat times, snap to those instead of a uniform grid.',
       'If notes are selected, only those are quantized; otherwise the entire active voice is processed.',
     ],
     tryIt: [
       'Select a few slightly off-grid notes in the piano roll.',
       'Open Quantize, set strength to 100%, and Apply.',
-      'If beat markers exist, try quantizing with the recording grid enabled.',
     ],
   },
   {
@@ -530,8 +522,6 @@ export const WALKTHROUGH_STEPS = [
     summary: 'Match notes to recordings and playback regions.',
     body: [
       'Open the Align dropdown in the piano roll toolbar:',
-      'Align to recording grid — snap selected (or all timed) events to timedMelody beat times.',
-      'Match detected melody — match pitch and timing to detected melody notes within 0.5 beat tolerance.',
       'Slide selection +0.25 beat — nudge selected notes (or all notes if none selected) forward.',
       'Set downbeat from playhead — offset all notes so the earliest aligns with the current media beat.',
       'Snap to playback region — shift the selection so the earliest selected note starts at the link region start.',
@@ -539,7 +529,6 @@ export const WALKTHROUGH_STEPS = [
     tryIt: [
       'Play media to a downbeat and choose Set downbeat from playhead.',
       'Select notes near the link start and choose Snap to playback region.',
-      'If melody data exists, try Match detected melody.',
     ],
   },
   {

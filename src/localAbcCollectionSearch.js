@@ -11,6 +11,7 @@ import {
   scoreSearchResult,
   tokenizeSearchQuery,
 } from './textSearchIndexUtils'
+import { primaryArtist } from './tuneBibliographicUtils'
 import { getResourceBase, resourceUrl } from './resourceBase'
 
 const COLLECTION_FILE_PATHS = [
@@ -269,7 +270,7 @@ export async function searchLocalCollectionLyrics(options) {
         lines: lines,
         stanzas: [],
         title: settingTitle,
-        artist: (tune && tune.composer) ? String(tune.composer) : '',
+        artist: tune ? primaryArtist(tune) : '',
         source: source || 'local collection',
         sourceUrl: '',
         preview: lyricsPreview(lines),
@@ -310,7 +311,7 @@ export async function searchLocalCollectionChords(options) {
         : result.name
       const candidate = buildLocalAbcChordCandidate(abcText, tune, {
         title: settingTitle,
-        artist: tune.composer ? String(tune.composer) : '',
+        artist: tune ? primaryArtist(tune) : '',
         source: source || 'local collection',
         sourceUrl: '',
       }, opts.abcTools, opts.renderChords)

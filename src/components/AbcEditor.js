@@ -10,16 +10,23 @@ import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LinksEditor from './LinksEditor'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
+import LyricsSectionsDropdown from './LyricsSectionsDropdown'
+import PasteChordSheetModal from './PasteChordSheetModal'
+import useAbcjsParser from '../useAbcjsParser'
+import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
+import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
-import useAbcjsParser from '../useAbcjsParser'
 import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
-import LyricsSearchButton from './LyricsSearchButton'
+import ChordsSearchButton from './ChordsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
+import GenreSearchButton from './GenreSearchButton'
+import ArtistsSearchButton from './ArtistsSearchButton'
+import AliasesSearchButton from './AliasesSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -38,6 +45,8 @@ import {
   editorViewModeToNotationView,
 } from '../viewModeUtils'
 import TuneAliasesField from './TuneAliasesField'
+import TuneArtistsField from './TuneArtistsField'
+import { mergeBibliographicList } from '../tuneBibliographicUtils'
 
 
 export default function AbcEditor(props) {
@@ -47,7 +56,7 @@ export default function AbcEditor(props) {
   let params = useParams();
   var musicBrainz = useMusicBrainz()
   const { available: resolverAvailable } = useMediaResolverHealth()
-  const abcjsParser = useAbcjsParser({tunebook: props.tunebook})
+  const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
   var tune = props.tune
   
   //var inputRefs = []
@@ -58,6 +67,7 @@ export default function AbcEditor(props) {
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
+  const [showLyricsPaste, setShowLyricsPaste] = useState(false)
   const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
@@ -306,11 +316,11 @@ export default function AbcEditor(props) {
     setShowLyricsTools(true)
   }
 
-  function renderNoteAlignedLyricsButton() {
+  function renderNoteAlignedLyricsButton(extraStyle) {
     return (
       <Button
         variant="outline-secondary"
-        style={{ marginLeft: 'auto' }}
+        style={extraStyle || undefined}
         onClick={function() { setShowNoteAlignedLyrics(true) }}
       >
         Note-aligned lyrics
@@ -372,7 +382,7 @@ export default function AbcEditor(props) {
                         <Col xs={12} md={4}>
                           <Form.Group className="mb-3" controlId="composer">
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                              <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
+                              <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
                               <ComposerSearchButton
                                 tuneId={params.tuneId || tune.id}
                                 title={tune.name || ''}
@@ -412,7 +422,25 @@ export default function AbcEditor(props) {
                         </Col>
                         <Col xs={12} md={3}>
                           <Form.Group className="mb-3" controlId="genre">
-                            <FormLabelWithHelp label="Genre" htmlFor="genre" helpBody={EDITOR_INFO_FIELD_HELP.genre.body} helpTitle={EDITOR_INFO_FIELD_HELP.genre.title} />
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                              <FormLabelWithHelp label="Genre" htmlFor="genre" helpBody={EDITOR_INFO_FIELD_HELP.genre.body} helpTitle={EDITOR_INFO_FIELD_HELP.genre.title} />
+                              <GenreSearchButton
+                                tuneId={params.tuneId || tune.id}
+                                title={tune.name || ''}
+                                artist={tune.composer || ''}
+                                rhythm={tune.rhythm || ''}
+                                currentGenre={tune.genre || ''}
+                                backgroundInfo={tune.backgroundInfo || ''}
+                                tunebook={props.tunebook}
+                                disabled={!(tune && tune.name && String(tune.name).trim())}
+                                inline={true}
+                                onGenre={function(genre) {
+                                  tune.genre = genre
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
                             <CreatableSelect
                               inputId="genre"
                               value={genreSelectValue(tune.genre)}
@@ -432,15 +460,63 @@ export default function AbcEditor(props) {
                         </Col>
                       </Row>
                       <Row>
-                        <Col xs={12}>
-                          <TuneAliasesField
-                            value={tune.aliases}
-                            onChange={function(aliases) {
-                              tune.aliases = aliases
-                              tune.id = params.tuneId
-                              saveTune(tune)
-                            }}
-                          />
+                        <Col xs={12} md={6}>
+                          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.6em', flexWrap: 'wrap' }}>
+                            <div style={{ flex: '1 1 12em' }}>
+                              <TuneArtistsField
+                                value={tune.artists}
+                                onChange={function(artists) {
+                                  tune.artists = artists
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                            <ArtistsSearchButton
+                              tuneId={params.tuneId || tune.id}
+                              title={tune.name || ''}
+                              artist={tune.composer || ''}
+                              existingArtists={tune.artists}
+                              tunebook={props.tunebook}
+                              disabled={!(tune && tune.name && String(tune.name).trim())}
+                              inline={true}
+                              onAddArtist={function(artistName) {
+                                tune.artists = mergeBibliographicList(tune.artists, [artistName])
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                            />
+                          </div>
+                        </Col>
+                        <Col xs={12} md={6}>
+                          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.6em', flexWrap: 'wrap' }}>
+                            <div style={{ flex: '1 1 12em' }}>
+                              <TuneAliasesField
+                                value={tune.aliases}
+                                onChange={function(aliases) {
+                                  tune.aliases = aliases
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }}
+                              />
+                            </div>
+                            <AliasesSearchButton
+                              tuneId={params.tuneId || tune.id}
+                              title={tune.name || ''}
+                              artist={tune.composer || ''}
+                              existingAliases={tune.aliases}
+                              tunebook={props.tunebook}
+                              resolverAvailable={resolverAvailable}
+                              token={props.token}
+                              disabled={!(tune && tune.name && String(tune.name).trim())}
+                              inline={true}
+                              onAddAlias={function(alias) {
+                                tune.aliases = mergeBibliographicList(tune.aliases, [alias])
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                            />
+                          </div>
                         </Col>
                       </Row>
                       </div>
@@ -734,23 +810,13 @@ export default function AbcEditor(props) {
       return (
                     <div className="abc-editor-lyrics-panel">
                     <div className="abc-editor-lyrics-toolbar">
-                      <LyricsSearchButton
-                        tuneId={params.tuneId || tune.id}
-                        title={tune.name}
-                        artist={tune.composer || ''}
-                        rhythm={tune.rhythm || ''}
-                        currentGenre={tune.genre || ''}
-                        onGenreAccept={acceptSuggestedGenre}
-                        token={props.token}
+                      <LyricsSectionsDropdown
+                        lyricsText={wLinesText}
+                        textareaRef={wLyricsTextareaRef}
                         tunebook={props.tunebook}
-                        existingLyrics={wLinesText}
-                        onLyrics={function(result) {
-                          setWLinesText(result.text)
-                          setPlainLyricLines(tune, result.lines)
-                          tune.id = params.tuneId
-                          saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
-                        }}
+                        onChange={handleLyricsTextChange}
                       />
+                      {renderNoteAlignedLyricsButton()}
                       <FieldLookupReviewButton
                         tuneId={params.tuneId || tune.id}
                         kind="lyrics"
@@ -763,20 +829,6 @@ export default function AbcEditor(props) {
                         }}
                       />
                       <Button
-                        variant="info"
-                        style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
-                        onClick={function() {
-                          var clean = abcjsParser.cleanupLyrics(wLinesText)
-                          setWLinesText(clean)
-                          setPlainLyricLines(tune, clean.split('\n'))
-                          tune.id = params.tuneId
-                          saveTune(tune)
-                        }}
-                      >
-                        <span style={{ display: 'inline-flex', alignItems: 'center', lineHeight: 1 }}>{props.tunebook.icons.wizard}</span>
-                        Clean
-                      </Button>
-                      <Button
                         variant="outline-primary"
                         style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
                         title="Open lyrics tools with selected text"
@@ -784,7 +836,57 @@ export default function AbcEditor(props) {
                       >
                         {props.tunebook.icons.quillpen} Tools
                       </Button>
-                      {renderNoteAlignedLyricsButton()}
+                      <div className="abc-editor-toolbar-end">
+                        <ChordsSearchButton
+                          tuneId={params.tuneId || tune.id}
+                          title={tune.name}
+                          artist={tune.composer || ''}
+                          rhythm={tune.rhythm || ''}
+                          currentGenre={tune.genre || ''}
+                          onGenreAccept={acceptSuggestedGenre}
+                          token={props.token}
+                          tunebook={props.tunebook}
+                          showLyricsCheckbox={false}
+                          defaultUpdateLyrics={true}
+                          forceUpdateLyrics={true}
+                          confirmOverwrite={true}
+                          onChords={function(result) {
+                            const committed = commitChordSearchResultToTune({
+                              result: result,
+                              tune: tune,
+                              abc: props.abc,
+                              tunebook: props.tunebook,
+                              abcjsParser: abcjsParser,
+                              updateLyrics: true,
+                              historyLabel: 'Search chords and lyrics',
+                            })
+                            if (!committed.ok) {
+                              toast.error(
+                                (committed.error && committed.error.message)
+                                  ? committed.error.message
+                                  : 'Could not apply chord search result'
+                              )
+                              return
+                            }
+                            if (Array.isArray(committed.lyricLines)) {
+                              setWLinesText(committed.lyricLines.join('\n'))
+                            }
+                            toast.success('Chords and lyrics updated from search')
+                          }}
+                          onLyrics={function() { /* lyrics always applied via merge */ }}
+                        />
+                        <Button
+                          variant="outline-primary"
+                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                          title="Paste lyrics and chords"
+                          onClick={function() {
+                            setShowLyricsPaste(true)
+                          }}
+                        >
+                          {props.tunebook.icons.paste}
+                          Paste chords and lyrics
+                        </Button>
+                      </div>
                     </div>
                     {renderLyricsTextarea()}
                     <NoteAlignedLyricsModal
@@ -801,6 +903,40 @@ export default function AbcEditor(props) {
                       show={showLyricsTools}
                       onHide={function() { setShowLyricsTools(false) }}
                       query={lyricsToolsQuery}
+                    />
+                    <PasteChordSheetModal
+                      show={showLyricsPaste}
+                      onHide={function() {
+                        setShowLyricsPaste(false)
+                      }}
+                      tune={tune}
+                      tuneSections={[]}
+                      forceUpdateLyrics={true}
+                      initialUpdateLyrics={true}
+                      onSaveSections={function(result) {
+                        const committed = commitPasteChordSheetToTune({
+                          result: result,
+                          tune: tune,
+                          abc: props.abc,
+                          tunebook: props.tunebook,
+                          abcjsParser: abcjsParser,
+                          forceUpdateLyrics: true,
+                          historyLabel: 'Paste chords and lyrics',
+                        })
+                        if (!committed.ok) {
+                          toast.error(
+                            (committed.error && committed.error.message)
+                              ? committed.error.message
+                              : 'Could not apply pasted chords and lyrics'
+                          )
+                          return
+                        }
+                        if (Array.isArray(committed.lyricLines)) {
+                          setWLinesText(committed.lyricLines.join('\n'))
+                        }
+                        setShowLyricsPaste(false)
+                        toast.success('Chords and lyrics updated')
+                      }}
                     />
                     </div>
       )

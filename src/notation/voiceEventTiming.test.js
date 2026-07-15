@@ -203,6 +203,21 @@ describe('eventIndexFromStaffAbcElem', function() {
     expect(idx).toBe(events.length - 1);
   });
 
+  test('eventIndexFromStaffAbcElem startCharOnly skips midi fallback', function() {
+    const events = [{ type: 'note', pitch: 'C' }, { type: 'note', pitch: 'E' }];
+    const idx = eventIndexFromStaffAbcElem(
+      events,
+      tuneMeta,
+      'C E',
+      ['1'],
+      0,
+      { midi: 64 },
+      null,
+      { startCharOnly: true }
+    );
+    expect(idx).toBeNull();
+  });
+
   test('eventIndexFromSelectableIndex handles empty events', function() {
     const events = [];
     const result = eventIndexFromSelectableIndex(events, 0);

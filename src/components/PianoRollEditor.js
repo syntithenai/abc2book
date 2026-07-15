@@ -18,8 +18,6 @@ import {
   DEFAULT_ROW_HEIGHT,
 } from '../notation/pianoRollGeometry';
 import { marqueeSelect, nudgeSelection, duplicateSelection } from '../notation/pianoRollSelection';
-import { timedMelodyToOverlayEvents } from '../notation/timedMelodyOverlay';
-import { buildRecordingGridLines } from '../notation/recordingGrid';
 import { usePianoRollMediaSync } from '../hooks/usePianoRollMediaSync';
 import { useWaveformPeaks } from '../hooks/useWaveformPeaks';
 import { useNoteAudition } from '../hooks/useNoteAudition';
@@ -43,7 +41,6 @@ export default function PianoRollEditor(props) {
     backgroundEvents,
     onAlignAction,
     onQuantize,
-    hasRecordingGrid,
     dispatch,
   } = props;
 
@@ -58,12 +55,7 @@ export default function PianoRollEditor(props) {
   const rowHeight = zoom.rowHeight || DEFAULT_ROW_HEIGHT;
   const tool = session.pianoRollTool || PIANO_ROLL_TOOLS.SELECT;
 
-  const beatTimes = useMemo(function() {
-    if (session.pianoRollUseRecordingGrid && tune && tune.timedMelody && tune.timedMelody.beatTimes) {
-      return tune.timedMelody.beatTimes;
-    }
-    return null;
-  }, [session.pianoRollUseRecordingGrid, tune]);
+  const beatTimes = null;
 
   const linkStartAt = mediaController && mediaController.getLinkStartAt
     ? mediaController.getLinkStartAt()
@@ -106,11 +98,6 @@ export default function PianoRollEditor(props) {
     });
   }, [backgroundEvents]);
 
-  const referenceNoteEvents = useMemo(function() {
-    if (!session.pianoRollShowTimedMelody || !tune || !tune.timedMelody) return [];
-    return timedMelodyToOverlayEvents(tune.timedMelody, tuneMeta);
-  }, [session.pianoRollShowTimedMelody, tune, tuneMeta]);
-
   const pitchRange = useMemo(function() {
     let min = 60;
     let max = 72;
@@ -127,9 +114,8 @@ export default function PianoRollEditor(props) {
     }
     scanEvents(noteEvents);
     scanEvents(backgroundNoteEvents);
-    scanEvents(referenceNoteEvents);
     return { min: min - 2, max: max + 2 };
-  }, [noteEvents, backgroundNoteEvents, referenceNoteEvents]);
+  }, [noteEvents, backgroundNoteEvents]);
 
   const beatsPerBar = beatsPerBarFromMeter(tuneMeta.meter);
   const gridSlots = session.snapSlotsPerBeat || 4;
@@ -139,7 +125,6 @@ export default function PianoRollEditor(props) {
   const numBars = Math.max(4, Math.ceil(Math.max(
     noteEvents[noteEvents.length - 1]?.startBeat || 0,
     backgroundNoteEvents[backgroundNoteEvents.length - 1]?.startBeat || 0,
-    referenceNoteEvents[referenceNoteEvents.length - 1]?.startBeat || 0,
     mediaSync.playheadBeat || 0
   ) / beatsPerBar) + 1);
 
@@ -347,11 +332,6 @@ export default function PianoRollEditor(props) {
     }
   }
 
-  const recordingGrid = useMemo(function() {
-    if (!beatTimes || !beatTimes.length) return null;
-    return buildRecordingGridLines(beatTimes, tune && tune.timedMelody && tune.timedMelody.downbeatTimes, numBars * beatsPerBar);
-  }, [beatTimes, tune, numBars, beatsPerBar]);
-
   const renderNoteLayer = useCallback(function(events, className, interactive) {
     return events.map(function(ev) {
       const midis = (ev.pitches || [ev.pitch]).map(function(p) { return pitchToMidi(p); }).filter(function(m) { return m != null; });
@@ -403,7 +383,6 @@ export default function PianoRollEditor(props) {
         <PianoRollToolbar
           session={session}
           dispatch={dispatch}
-          hasRecordingGrid={hasRecordingGrid}
           onQuantize={onQuantize}
           onAlignAction={onAlignAction}
         />
@@ -463,14 +442,6 @@ export default function PianoRollEditor(props) {
                   fill="transparent"
                   onPointerDown={handleBackgroundPointerDown}
                 />
-                {recordingGrid ? recordingGrid.downbeatLines.map(function(beat) {
-                  const x = beatToX(beat, beatWidth);
-                  return <line key={'db-' + beat} x1={x} y1={0} x2={x} y2={height} className="piano-roll-downbeatline" />;
-                }) : null}
-                {recordingGrid ? recordingGrid.beatLines.map(function(beat) {
-                  const x = beatToX(beat, beatWidth);
-                  return <line key={'rb-' + beat} x1={x} y1={0} x2={x} y2={height} className="piano-roll-recording-gridline" />;
-                }) : null}
                 {Array.from({ length: Math.floor(numBars * beatsPerBar / gridBeat) + 1 }).map(function(_, i) {
                   const x = i * gridBeat * beatWidth;
                   return <line key={'grid-' + i} x1={x} y1={0} x2={x} y2={height} className="piano-roll-gridline" />;
@@ -499,7 +470,6 @@ export default function PianoRollEditor(props) {
                   height={height}
                 />
                 {renderNoteLayer(backgroundNoteEvents, 'piano-roll-note-background', false)}
-                {renderNoteLayer(referenceNoteEvents, 'piano-roll-note-reference', false)}
                 {renderNoteLayer(noteEvents, '', true)}
                 <PianoRollPlayhead beat={mediaSync.playheadBeat} beatWidth={beatWidth} height={height} />
                 {marquee ? (

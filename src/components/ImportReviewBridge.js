@@ -11,6 +11,7 @@ import {
   deferCandidateForEnhancement,
   isReviewSessionActive,
   updateCurrentCandidate,
+  removeImportReviewCandidatesByFieldLookupJobId,
 } from '../importReviewSession'
 import {
   detectContentHashDuplicates,
@@ -49,6 +50,7 @@ import {
   seedAwaitingLookup,
   dismissFieldLookup,
   subscribe as subscribeFieldLookupQueue,
+  setFieldLookupResolvedHandler,
 } from '../tuneFieldLookupQueue'
 import { promoteAwaitingFieldLookups } from '../fieldLookupReviewPromotion'
 import { buildComposerPickerCandidates } from '../composerDiscoveryUtils'
@@ -60,17 +62,21 @@ import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
 import { createAttachedAudioLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
-import { mergeImportedLinks } from '../importReviewFieldUtils'
+import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues, formValuesToTune } from '../importReviewFieldUtils'
+import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
-  freshTuneId,
-  mergeDraftTune,
+  fieldLookupJobIdsForCandidate,
 } from '../importReviewCandidateUtils'
+
+function freshTuneId() {
+  return 'tune-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
+}
 
 async function audioFileToReviewCandidate(file, draft, token, driveApi, uploadToDrive) {
   const metadata = await readAudioFileMetadata(file)
   const title = metadata.title || (draft && draft.tune && draft.tune.name) || file.name
-  const artist = metadata.artist || (draft && draft.tune && draft.tune.composer) || ''
+  const artist = metadata.artist || (draft && draft.tune ? primaryArtist(draft.tune) : '') || ''
   const tuneBase = {
     id: freshTuneId(),
     name: title,
@@ -175,6 +181,9 @@ export default function ImportReviewBridge(props) {
 
     if (split.nonDuplicates.length > 0 || useBlankAdd) {
       openSession(useBlankAdd ? seedList : split.nonDuplicates)
+      if (useBlankAdd) {
+        navigate('/add')
+      }
     }
   }, [props.tunebook, props.tunesHash, props.currentTuneBook, resolverAvailable, navigate])
 
@@ -215,6 +224,18 @@ export default function ImportReviewBridge(props) {
     return subscribeFieldLookupQueue(promote)
   }, [props.tunes, props.tunebook, updateSession])
 
+  // When the user resolves a Review search on the edit form, drop the linked candidate.
+  useEffect(function() {
+    setFieldLookupResolvedHandler(function(job) {
+      const current = getImportReviewSession()
+      if (!current || !job) return
+      updateSession(removeImportReviewCandidatesByFieldLookupJobId(current, job.id))
+    })
+    return function() {
+      setFieldLookupResolvedHandler(null)
+    }
+  }, [updateSession])
+
   const handleMatchComplete = useCallback(function(updatedSession) {
     updateSession(updatedSession)
   }, [updateSession])
@@ -244,9 +265,16 @@ export default function ImportReviewBridge(props) {
       if (!sessionNow) return
       const candidate = currentCandidate(sessionNow)
       if (!candidate) return
+      const draftTune = (draft && draft.tune) || candidate.tune || {}
+      const built = applyInlineImportToForm(tuneToFormValues(draftTune), importedTune || {})
+      const mergedTune = formValuesToTune(built.formValues, Object.assign({}, draftTune, importedTune || {}))
       updateSession(updateCurrentCandidate(sessionNow, {
-        tune: mergeDraftTune(importedTune, draft && draft.tune),
+        tune: mergedTune,
         mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
+        sourceKind: candidate.sourceKind && candidate.sourceKind !== 'manual'
+          ? candidate.sourceKind
+          : 'abc',
+        pendingInlineSuggestions: built.suggestions || {},
       }))
     }
 
@@ -362,9 +390,9 @@ export default function ImportReviewBridge(props) {
       tunebook.saveTune(tune)
     }
 
-    if (candidate.fieldLookupJobId) {
-      dismissFieldLookup(candidate.fieldLookupJobId)
-    }
+    fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
+      dismissFieldLookup(jobId)
+    })
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
     if (typeof done === 'function') done()
@@ -401,9 +429,9 @@ export default function ImportReviewBridge(props) {
         if (tune.id) tunesSnapshot[tune.id] = tune
       }
 
-      if (candidate.fieldLookupJobId) {
-        dismissFieldLookup(candidate.fieldLookupJobId)
-      }
+      fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
+        dismissFieldLookup(jobId)
+      })
     })
 
     if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -563,7 +591,7 @@ export default function ImportReviewBridge(props) {
           tuneId: candidate && candidate.mergeTargetId ? candidate.mergeTargetId : null,
           kind: 'composer',
           title: tune.name || '',
-          artist: tune.composer || '',
+          artist: primaryArtist(tune),
           candidates: buildComposerPickerCandidates({
             multiple: true,
             candidates: composerCandidates,

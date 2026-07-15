@@ -95,8 +95,22 @@ export default function CollectionNav(props) {
     )
   }
 
+  const tuneCount = props.tuneCount
+  const showTuneCount = tuneCount != null && Number.isFinite(Number(tuneCount))
+
   return (
     <nav className={'collection-nav' + (props.className ? ' ' + props.className : '')} aria-label="Collection shortcuts">
+      {showTuneCount ? (
+        <Badge
+          bg="secondary"
+          className="collection-nav-tune-count"
+          title="tunes in tunebook"
+          aria-label={Number(tuneCount) + ' tunes in tunebook'}
+        >
+          <span className="collection-nav-tune-count-number">{Number(tuneCount)}</span>
+          <span className="collection-nav-tune-count-label">tunes</span>
+        </Badge>
+      ) : null}
       {sections.map(renderButton)}
       {props.showGenerate ? (
         <Button

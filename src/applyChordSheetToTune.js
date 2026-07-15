@@ -1,7 +1,13 @@
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
-import { finalizeChordSheetToTune, noteLinesHaveRealMelody } from './timedImportFinalizer'
-import { setPlainLyricLines } from './wLinesUtils'
+import {
+  clearTransientTimedFields,
+  finalizeChordSheetToTune,
+  noteLinesHaveRealMelody,
+} from './timedImportFinalizer'
+import { setPlainLyricLines, setNoteAlignedLyricLines, getPlainLyricLines } from './wLinesUtils'
+import { buildNotationWLines } from './noteSpacingUtils'
 import { buildMeterMergeOptions, normalizeMeter } from './barModel'
+import { applyBlockMergeToTune, invalidateChordBlockCache } from './chordBlockMerge'
 
 const META_FIELD_MAP = [
   { metaKey: 'name', tuneKey: 'name' },
@@ -53,10 +59,6 @@ function applySelectedMeter(tune, options) {
   }
 }
 
-function tuneHasTimedMedia(tune) {
-  return !!(tune && (tune.timedLyrics || tune.timedChords || tune.timedMelody))
-}
-
 /**
  * Unified path for applying a chord sheet (grid + lyrics + alignment + meta)
  * onto an existing or newly created tune.
@@ -91,7 +93,6 @@ export function applyChordSheetToTune(tune, options) {
 
   const tunebook = opts.tunebook
   const abcjsParser = opts.abcjsParser
-  const preserveTimedMedia = !!(opts.preserveTimedMedia && tuneHasTimedMedia(tune))
 
   let abc = opts.abc
   if (!abc && tunebook && tunebook.abcTools) {
@@ -100,24 +101,69 @@ export function applyChordSheetToTune(tune, options) {
 
   const canFinalize = !!(tunebook && abcjsParser && abc)
   if (canFinalize) {
+    if (opts.useBlockMerge && Array.isArray(opts.blocks)) {
+      const result = applyBlockMergeToTune(tune, {
+        abc: abc,
+        blocks: opts.blocks,
+        tunebook: tunebook,
+        abcjsParser: abcjsParser,
+        wipeNotation: !!opts.wipeNotation,
+        chordSheetAlignment: opts.chordSheetAlignment || tune.meta.chordSheetAlignment,
+        defaultMeter: tune.meter,
+        firstMeter: opts.selectedMeterOption && opts.selectedMeterOption.meter,
+        updateLyrics: hasLyrics,
+        lyricLines: hasLyrics ? lyricLines : undefined,
+      })
+      if (!result.ok) {
+        const err = new Error(result.error && result.error.message ? result.error.message : 'Block merge failed')
+        err.mergeFailure = result.error
+        throw err
+      }
+      return tune
+    }
+
     const voiceKey = resolvePrimaryVoiceKey(tune.voices)
     const existingNotes = tune.voices && tune.voices[voiceKey] && tune.voices[voiceKey].notes
       ? tune.voices[voiceKey].notes
       : []
     const hasMelody = noteLinesHaveRealMelody(existingNotes)
-    const useFinalize = hasMelody || tune.timingScaffold || opts.mergeMode === 'create' || opts.forceFinalize
+    const useFinalize = hasMelody
+      || tune.timingScaffold
+      || opts.mergeMode === 'create'
+      || opts.forceFinalize
+      || opts.wipeNotation
 
     if (useFinalize) {
+      let abcForMerge = abc
+      if (opts.wipeNotation) {
+        const meter = normalizeMeter(
+          (opts.selectedMeterOption && opts.selectedMeterOption.meter) || tune.meter || '4/4'
+        )
+        abcForMerge = [
+          'X:1',
+          'T:',
+          'M:' + meter,
+          'L:' + (tune.noteLength || '1/8'),
+          'K:' + (tune.key || 'C'),
+          'z |',
+        ].join('\n')
+      }
       finalizeChordSheetToTune({
         tune: tune,
         tunebook: tunebook,
         abcjsParser: abcjsParser,
-        abc: abc,
+        abc: abcForMerge,
         chordGridText: chordGridText,
         lyricLines: hasLyrics ? lyricLines : undefined,
-        preserveTimedMedia: preserveTimedMedia,
         chordSheetAlignment: opts.chordSheetAlignment || tune.meta.chordSheetAlignment,
       })
+      if (hasLyrics && getPlainLyricLines(tune).length > 0) {
+        const spaced = buildNotationWLines(tune)
+        if (spaced.some(function(line) { return String(line || '').trim().length > 0 })) {
+          setNoteAlignedLyricLines(tune, spaced)
+        }
+      }
+      invalidateChordBlockCache(tune)
       return tune
     }
 
@@ -130,10 +176,12 @@ export function applyChordSheetToTune(tune, options) {
       tune.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey] || { meta: '', notes: [] }, {
         notes: newAbcNotes.split('\n'),
       })
+      invalidateChordBlockCache(tune)
     }
     if (hasLyrics) {
       setPlainLyricLines(tune, lyricLines)
     }
+    clearTransientTimedFields(tune)
     return tune
   }
 

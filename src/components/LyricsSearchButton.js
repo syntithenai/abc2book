@@ -3,7 +3,7 @@ import { Alert } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 import useAbcjsParser from '../useAbcjsParser'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice } from '../tuneFieldLookupQueue'
+import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
@@ -54,6 +54,7 @@ export default function LyricsSearchButton({
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
   const existingLyricsRef = useRef(existingLyrics)
   existingLyricsRef.current = existingLyrics
+  const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
 
   function finishApply(result, jobId) {
@@ -89,16 +90,26 @@ export default function LyricsSearchButton({
         return
       }
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (candidates.length === 1) {
-        const existing = String(existingLyricsRef.current || '').trim()
-        if (!existing) {
-          applyRef.current(candidates[0], job.id)
+      if (searchModeRef.current === 'review') {
+        if (candidates.length === 0) {
+          setError('No lyrics found for this song')
+          return
         }
-        return
-      }
-      if (candidates.length > 1) {
         setPickerCandidates(candidates)
         setShowPicker(true)
+        return
+      }
+      if (candidates.length >= 1) {
+        const existing = String(existingLyricsRef.current || '').trim()
+        if (!existing || searchModeRef.current === 'auto') {
+          applyRef.current(candidates[0], job.id)
+          return
+        }
+        if (candidates.length > 1) {
+          setPickerCandidates(candidates)
+          setShowPicker(true)
+          return
+        }
         return
       }
       setError('No lyrics found for this song')
@@ -125,12 +136,14 @@ export default function LyricsSearchButton({
     finishApply(candidate, jobId)
   }
 
-  function run() {
+  function run(mode) {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
     }
+    const searchMode = mode === 'review' ? 'review' : 'auto'
+    searchModeRef.current = searchMode
     setError('')
     setSource('')
     setManualCandidates([])
@@ -142,6 +155,7 @@ export default function LyricsSearchButton({
       artist: artist || '',
       tuneName: title,
       accessToken: token,
+      options: buildSearchModeOptions(searchMode),
       searchOptions: {
         resolverAvailable: resolverAvailable,
         abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,

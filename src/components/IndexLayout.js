@@ -526,6 +526,7 @@ export default function IndexLayout(props) {
       <div id="tune-search-panel" className={tuneSearchPanelClass} >
         <CollectionNav
             tunebook={props.tunebook}
+            tuneCount={props.tunes ? Object.keys(props.tunes).length : 0}
             tbCount={tbOptions.length}
             tagCount={tagOptions.length}
             genreCount={genreOptions.length}

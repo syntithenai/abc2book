@@ -5,6 +5,7 @@ import PracticeTuneDisplay from './PracticeTuneDisplay'
 import PracticeSessionPlaybackHost from './PracticeSessionPlaybackHost'
 import PracticePlaybackStatus from './PracticePlaybackStatus'
 import PracticeAccuracyOverlay from './PracticeAccuracyOverlay'
+import PracticeWarmupPitchRoll from './PracticeWarmupPitchRoll'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
 import { getPracticeInstrumentLabel, loadPracticeSettings } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
@@ -27,6 +28,8 @@ export default function PracticeSessionModal(props) {
   const [sharedAudioContext, setSharedAudioContext] = useState(null)
   const [showRepSummary, setShowRepSummary] = useState(false)
   const [showStepAggregate, setShowStepAggregate] = useState(false)
+  const [countInBeat, setCountInBeat] = useState(0)
+  const [countInTotal, setCountInTotal] = useState(0)
   const warmupPlaybackRef = useRef(null)
   const prevWarmupRunRef = useRef(0)
   const [practiceSettings, setPracticeSettings] = useState(function() { return loadPracticeSettings() })
@@ -70,11 +73,16 @@ export default function PracticeSessionModal(props) {
       prevWarmupRunRef.current = 0
       setShowRepSummary(false)
       setShowStepAggregate(false)
+      setCountInBeat(0)
+      setCountInTotal(0)
       accuracyMonitor.resetRepBuffers()
+      if (accuracyMonitor.clearAllTraces) accuracyMonitor.clearAllTraces()
     } else {
       setWarmupStatus('idle')
       setWarmupRun(0)
       setShowStepAggregate(false)
+      setCountInBeat(0)
+      setCountInTotal(0)
     }
     setUserPaused(false)
   }, [currentStep, props.stepIndex])
@@ -301,6 +309,8 @@ export default function PracticeSessionModal(props) {
                   warmupStatus={warmupStatus}
                   warmupRun={currentStep && currentStep.type === 'warmup' ? warmupRun + 1 : null}
                   warmupRepeats={PRACTICE_WARMUP_REPEATS}
+                  countInBeat={countInBeat}
+                  countInTotal={countInTotal}
                   mediaController={props.mediaController}
                   userPaused={userPaused}
                 />
@@ -382,6 +392,17 @@ export default function PracticeSessionModal(props) {
 
         {currentStep && currentStep.type === 'warmup' && currentStep.abc ? (
           <div className="practice-session-warmup-notation">
+            {warmupStatus === 'countIn' && countInTotal > 0 ? (
+              <div className="practice-warmup-countin-overlay" aria-live="assertive">
+                <div className="practice-warmup-countin-label">Count-in</div>
+                <div className="practice-warmup-countin-beat">
+                  {Math.max(1, countInTotal - countInBeat + 1)}
+                </div>
+                <div className="practice-warmup-countin-meta">
+                  {countInBeat >= countInTotal ? 'Play!' : 'beats to go'}
+                </div>
+              </div>
+            ) : null}
             {accuracyEnabled ? (
               <PracticeAccuracyOverlay
                 enabled={warmupStatus !== 'idle'}
@@ -404,6 +425,12 @@ export default function PracticeSessionModal(props) {
               practiceAutoPlay={true}
               practiceReferenceGain={accuracyEnabled ? referenceGain : undefined}
               onPracticeBeat={accuracyEnabled ? accuracyMonitor.handlePracticeBeat : undefined}
+              onCountInBeat={function(payload) {
+                if (!payload) return
+                setCountInBeat(payload.beat || 0)
+                setCountInTotal(payload.totalBeats || 0)
+                setWarmupStatus('countIn')
+              }}
               consumePlaybackGesture={props.consumePlaybackGesture}
               hasPlaybackGesture={props.hasPlaybackGesture}
               playbackControlRef={warmupPlaybackRef}
@@ -414,9 +441,23 @@ export default function PracticeSessionModal(props) {
               editableTempo={false}
               metronomeCountIn={true}
               metronomeCountInBarOnly={true}
+              metronomeCountInCueMidi={(function() {
+                if (accuracyMonitor.expectedNotes && accuracyMonitor.expectedNotes[0]) {
+                  return accuracyMonitor.expectedNotes[0].midi
+                }
+                if (!(currentStep && currentStep.abc)) return undefined
+                try {
+                  const timeline = noteEventsFromWarmupAbc(currentStep.abc)
+                  return timeline.notes[0] ? timeline.notes[0].midi : undefined
+                } catch (err) {
+                  return undefined
+                }
+              })()}
               onStarted={function() {
                 setWarmupStatus('playing')
                 setWarmupRun(1)
+                setCountInBeat(0)
+                setCountInTotal(0)
               }}
               onRepeat={function(run) {
                 setWarmupStatus('playing')
@@ -424,6 +465,14 @@ export default function PracticeSessionModal(props) {
               }}
               onEnded={handleWarmupEnded}
             />
+            {accuracyEnabled ? (
+              <PracticeWarmupPitchRoll
+                expectedNotes={accuracyMonitor.expectedNotes}
+                patternDurationBeats={accuracyMonitor.patternDurationBeats}
+                repTraces={accuracyMonitor.repTraces}
+                playheadBeat={accuracyMonitor.playheadBeat}
+              />
+            ) : null}
           </div>
         ) : null}
 

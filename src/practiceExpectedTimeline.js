@@ -144,6 +144,20 @@ export function notationBeatFromAudioSeconds(audioSeconds, tuneMeta, repIndex, p
   return rep * (pattern + gap) + beatInRep
 }
 
+export function patternLocalBeatFromAbsolute(absoluteBeat, repIndex, patternDurationBeats, gapBeats) {
+  const rep = Math.max(0, parseInt(repIndex, 10) || 0)
+  const gap = Math.max(0, parseFloat(gapBeats) || 0)
+  const pattern = Math.max(0, parseFloat(patternDurationBeats) || 0)
+  return Math.max(0, (typeof absoluteBeat === 'number' ? absoluteBeat : 0) - rep * (pattern + gap))
+}
+
+export function absoluteBeatFromPatternLocal(patternLocalBeat, repIndex, patternDurationBeats, gapBeats) {
+  const rep = Math.max(0, parseInt(repIndex, 10) || 0)
+  const gap = Math.max(0, parseFloat(gapBeats) || 0)
+  const pattern = Math.max(0, parseFloat(patternDurationBeats) || 0)
+  return Math.max(0, typeof patternLocalBeat === 'number' ? patternLocalBeat : 0) + rep * (pattern + gap)
+}
+
 export function expectedNoteAtBeat(notes, currentBeat) {
   if (!notes || !notes.length) return null
   const beat = typeof currentBeat === 'number' ? currentBeat : 0

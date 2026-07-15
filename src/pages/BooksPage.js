@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
-import AddSongModal from '../components/AddSongModal'
 import {useEffect, useState, useCallback} from 'react'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 import {useNavigate} from 'react-router-dom'
@@ -185,6 +184,7 @@ export default function BooksPage(props) {
                 <CollectionNav
                     className="books-page-nav"
                     tunebook={props.tunebook}
+                    tuneCount={props.tunes ? Object.keys(props.tunes).length : 0}
                     tbCount={tbOptions.length}
                     tagCount={tagOptions.length}
                     genreCount={genreOptions.length}
@@ -336,26 +336,16 @@ export default function BooksPage(props) {
 
             {tbOptions.length === 0 && <div className="books-page-empty">
                 <div className="books-page-empty-add">
-                    <AddSongModal
-                        buttonSize="lg"
-                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        tunes={props.tunes}
-                        token={props.token}
-                        requestGoogleScopes={props.requestGoogleScopes}
-                        login={props.login}
-                        tunesHash={props.tunesHash}
-                        forceRefresh={props.forceRefresh}
-                        filter={props.filter}
-                        setFilter={props.setFilter}
-                        tunebook={props.tunebook}
-                        currentTuneBook={props.currentTuneBook}
-                        setCurrentTuneBook={props.setCurrentTuneBook}
-                        tagFilter={props.tagFilter}
-                        setTagFilter={props.setTagFilter}
-                        searchIndex={props.searchIndex}
-                        loadTuneTexts={props.loadTuneTexts}
-                        mediaController={props.mediaController}
-                    />
+                    <Button
+                        as={Link}
+                        to="/add"
+                        variant="success"
+                        size="lg"
+                        title="Add Tunes"
+                        data-testid="books-page-add-button"
+                    >
+                        {props.tunebook.icons.fileadd} Add
+                    </Button>
                     <div className="books-page-empty-add-instructions">
                         <h4 className="books-page-empty-title">Get started</h4>
                         <p className="books-page-empty-lead">

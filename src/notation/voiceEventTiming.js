@@ -85,10 +85,11 @@ export function caretIndexFromStaffClick(events, analysis, abcelem) {
 
 /**
  * Map a staff click/drag to an event index. Prefer startChar in the rendered ABC
- * so drag-release (where abcelem.midi is the new pitch) still targets the note
- * that was dragged, not another note at the destination pitch.
+ * so identity stays tied to the glyph that was clicked. Midi fallback is for
+ * clicks only — drag release must not use it (other notes may share the destination pitch).
  */
-export function eventIndexFromStaffAbcElem(events, tuneMeta, fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem, analysis) {
+export function eventIndexFromStaffAbcElem(events, tuneMeta, fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem, analysis, options) {
+  const opts = options || {};
   if (abcelem && typeof abcelem.startChar === 'number' && fullAbc && displayedVoiceKeys && displayedVoiceKeys.length) {
     const mapped = mapAbcClickToVoiceCursor(fullAbc, displayedVoiceKeys, analysisVoiceIndex, abcelem.startChar);
     if (mapped) {
@@ -105,6 +106,7 @@ export function eventIndexFromStaffAbcElem(events, tuneMeta, fullAbc, displayedV
       return idx;
     }
   }
+  if (opts.startCharOnly) return null;
   return caretIndexFromStaffClick(events, analysis, abcelem);
 }
 

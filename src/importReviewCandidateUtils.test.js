@@ -1,6 +1,37 @@
 import {
   asIndependentReviewCandidate,
+  coalesceImportCandidates,
+  mergeDraftTune,
 } from './importReviewCandidateUtils';
+
+describe('mergeDraftTune', function() {
+  test('does not let empty draft fields wipe imported ABC content', function() {
+    const imported = {
+      name: 'Pastoral',
+      composer: 'Trad',
+      voices: { '1': { meta: '', notes: ['GAB c2|'] } },
+    };
+    const draft = {
+      name: '',
+      composer: '',
+      voices: { '1': { meta: '', notes: [] } },
+      books: [],
+    };
+    const merged = mergeDraftTune(imported, draft);
+    expect(merged.name).toBe('Pastoral');
+    expect(merged.composer).toBe('Trad');
+    expect(merged.voices['1'].notes).toEqual(['GAB c2|']);
+  });
+
+  test('keeps non-empty draft fields over import', function() {
+    const imported = { name: 'Imported', composer: 'A', rhythm: 'jig' };
+    const draft = { name: 'Mine', composer: '', rhythm: 'reel' };
+    const merged = mergeDraftTune(imported, draft);
+    expect(merged.name).toBe('Mine');
+    expect(merged.composer).toBe('A');
+    expect(merged.rhythm).toBe('reel');
+  });
+});
 
 describe('asIndependentReviewCandidate', function() {
   test('keeps each audio upload as its own tune id, links, and no draft mergeTarget', function() {
@@ -81,5 +112,34 @@ describe('asIndependentReviewCandidate', function() {
       mergeTargetId: 'keep-me',
     }, { mergeTargetId: 'draft-target' });
     expect(next.mergeTargetId).toBe('keep-me');
+  });
+});
+
+describe('coalesceImportCandidates', function() {
+  test('keeps distinct field values as choices and unions job ids', function() {
+    const survivor = {
+      id: 'c1',
+      sourceKind: 'abc',
+      mergeTargetId: 'tune-1',
+      tune: { name: 'Song', composer: 'From ABC' },
+      fieldLookupJobIds: [],
+    };
+    const other = {
+      id: 'c2',
+      sourceKind: 'search-composer',
+      mergeTargetId: 'tune-1',
+      tune: { name: 'Song', composer: 'From Search' },
+      fieldLookupJobId: 'job-composer',
+      fieldLookupKind: 'composer',
+    };
+    const coalesced = coalesceImportCandidates(survivor, [other]);
+    expect(coalesced.tune.composer).toBe('From ABC');
+    expect(coalesced.fieldLookupJobIds).toEqual(['job-composer']);
+    expect(coalesced.coalescedSourceKinds).toEqual(expect.arrayContaining(['abc', 'search-composer']));
+    expect(coalesced.fieldChoices.artist.length).toBeGreaterThanOrEqual(2);
+    const composerValues = coalesced.fieldChoices.artist.map(function(choice) {
+      return choice.value;
+    });
+    expect(composerValues).toEqual(expect.arrayContaining(['From ABC', 'From Search']));
   });
 });

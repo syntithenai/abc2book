@@ -129,6 +129,17 @@ export function savePlaylist(record, options) {
   return Object.assign({ id: id }, next)
 }
 
+export function appendTunesToPlaylist(playlistId, tuneIds) {
+  const ids = Array.isArray(tuneIds) ? tuneIds.filter(Boolean) : []
+  if (!playlistId || !ids.length) return null
+  const existing = getSavedPlaylist(playlistId)
+  if (!existing) return null
+  const nextItems = (existing.items || []).concat(ids.map(function(tuneId) {
+    return { tuneId: tuneId }
+  }))
+  return savePlaylist(Object.assign({}, existing, { items: nextItems }), { id: playlistId })
+}
+
 export function savePlaylistFromQueue(queue, options) {
   if (!isQueueActive(queue)) return null
   const opts = options || {}

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Button, ButtonGroup, Form, Modal } from 'react-bootstrap';
 import abcjs from 'abcjs';
 import DeleteVoiceConfirmModal from './DeleteVoiceConfirmModal';
+import { FULLSCREEN_ICON } from './FieldPreviewEditor';
 
 function normalizeVoices(voices) {
   if (!voices || typeof voices !== 'object' || Object.keys(voices).length === 0) {
@@ -55,12 +56,30 @@ function flattenVoiceNotes(text) {
   return String(text || '').replace(/\s+/g, ' ').trim();
 }
 
-/** Minimal one-line ABC for the compact strip — avoid full json2abc (headers/lyrics noise). */
-function buildOneLinePreviewAbc(voices, metadata, enabledKeys) {
+function noteLinesFromVoice(voice, flatten) {
+  const raw = voiceNotesText(voice);
+  if (flatten) {
+    const flat = flattenVoiceNotes(raw);
+    return flat ? [flat] : [];
+  }
+  return String(raw || '')
+    .split(/\r?\n/)
+    .map(function(line) { return String(line || '').replace(/\s+$/g, ''); })
+    .filter(function(line) { return !!String(line || '').trim(); });
+}
+
+/**
+ * Preview ABC for notation panes.
+ * flatten:true → one continuous staff (main form, horizontal scroll)
+ * flatten:false → preserve newlines (fullscreen, vertical flow)
+ */
+function buildPreviewAbc(voices, metadata, enabledKeys, options) {
+  const flatten = !!(options && options.flatten);
   const meta = metadata || {};
-  const enabled = Array.isArray(enabledKeys) && enabledKeys.length
-    ? enabledKeys
-    : sortVoiceKeys(voices);
+  const enabled = enabledKeys == null
+    ? sortVoiceKeys(voices)
+    : (Array.isArray(enabledKeys) ? enabledKeys : []);
+  if (enabled.length === 0) return '';
   const lines = [
     'X:1',
     'M:' + (meta.meter || '4/4'),
@@ -70,8 +89,8 @@ function buildOneLinePreviewAbc(voices, metadata, enabledKeys) {
   let noteCount = 0;
   enabled.forEach(function(key) {
     if (!voices || !voices[key]) return;
-    const notes = flattenVoiceNotes(voiceNotesText(voices[key]));
-    if (!notes) return;
+    const noteLines = noteLinesFromVoice(voices[key], flatten);
+    if (!noteLines.length) return;
     noteCount += 1;
     if (enabled.length > 1) {
       const voiceMeta = voices[key].meta && String(voices[key].meta).trim()
@@ -79,7 +98,7 @@ function buildOneLinePreviewAbc(voices, metadata, enabledKeys) {
         : '';
       lines.push('V:' + key + (voiceMeta ? ' ' + voiceMeta : ''));
     }
-    lines.push(notes);
+    noteLines.forEach(function(line) { lines.push(line); });
   });
   if (noteCount === 0) return '';
   return lines.join('\n');
@@ -89,86 +108,226 @@ function hasRenderableNotes(abc) {
   return String(abc || '').split(/\n/).some(function(line) {
     const trimmed = String(line || '').trim();
     if (!trimmed) return false;
-    // Skip ABC header fields like M:, K:, L:, V:, etc.
     if (/^[A-Za-z]:/.test(trimmed)) return false;
     return true;
   });
 }
 
-const PENCIL_ICON = (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-    <path fill="none" d="M0 0h24v24H0z" />
-    <path fill="currentColor" d="M15.728 9.686l-1.414-1.414L5 17.586V19h1.414l9.314-9.314zm1.414-1.414l1.414-1.414-1.414-1.414-1.414 1.414 1.414 1.414zM7.242 21H3v-4.243L16.435 3.322a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414L7.243 21z" />
-  </svg>
-);
+function readSvgContentBox(svg) {
+  if (!svg) return null;
+
+  // Union every drawable child's box — extreme ledger lines often sit outside
+  // abcjs's reported SVG height / viewBox.
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+  let found = false;
+  const nodes = svg.querySelectorAll('*');
+  for (let i = 0; i < nodes.length; i += 1) {
+    const el = nodes[i];
+    if (typeof el.getBBox !== 'function') continue;
+    try {
+      const b = el.getBBox();
+      if (!(b.width >= 0) || !(b.height >= 0)) continue;
+      if (b.width === 0 && b.height === 0) continue;
+      found = true;
+      minX = Math.min(minX, b.x);
+      minY = Math.min(minY, b.y);
+      maxX = Math.max(maxX, b.x + b.width);
+      maxY = Math.max(maxY, b.y + b.height);
+    } catch (e) {
+      // Some elements throw if not rendered yet.
+    }
+  }
+  if (found && maxX > minX && maxY > minY) {
+    return { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+  }
+
+  let box = null;
+  try {
+    box = svg.getBBox();
+  } catch (e) {
+    box = null;
+  }
+  const layoutH = parseFloat(svg.getAttribute('height')) || 0;
+  const layoutW = parseFloat(svg.getAttribute('width')) || 0;
+  const vb = svg.viewBox && svg.viewBox.baseVal;
+  const vbW = vb && vb.width > 0 ? vb.width : layoutW;
+  const vbH = vb && vb.height > 0 ? vb.height : layoutH;
+  const vbX = vb ? vb.x : 0;
+  const vbY = vb ? vb.y : 0;
+  if (box && box.width > 0 && box.height > 0) {
+    const x1 = Math.min(vbX, box.x);
+    const y1 = Math.min(vbY, box.y);
+    const x2 = Math.max(vbX + vbW, box.x + box.width);
+    const y2 = Math.max(vbY + vbH, box.y + box.height);
+    return { x: x1, y: y1, width: x2 - x1, height: y2 - y1 };
+  }
+  if (vbW > 0 && vbH > 0) return { x: vbX, y: vbY, width: vbW, height: vbH };
+  if (layoutW > 0 && layoutH > 0) return { x: 0, y: 0, width: layoutW, height: layoutH };
+  return null;
+}
+
+/** Main-form strip: shrink full ink (incl. extreme ledger lines) into pane height. */
+function fitSvgToStripHeight(svg, availH) {
+  if (!svg || !(availH > 0)) return;
+  const box = readSvgContentBox(svg);
+  if (!box || !(box.width > 0) || !(box.height > 0)) return;
+  // Extra pad so far ledger notes aren't clipped at the edges after scaling.
+  const pad = 10;
+  const vbX = box.x - pad;
+  const vbY = box.y - pad;
+  const vbW = box.width + pad * 2;
+  const vbH = box.height + pad * 2;
+  svg.setAttribute('viewBox', [vbX, vbY, vbW, vbH].join(' '));
+  svg.setAttribute('preserveAspectRatio', 'xMinYMid meet');
+  // Always shrink to fit strip height — no vertical overflow/scroll.
+  const scale = Math.min(1, (availH - 2) / vbH);
+  const displayH = Math.max(1, vbH * scale);
+  const displayW = Math.max(1, vbW * scale);
+  svg.setAttribute('width', String(displayW));
+  svg.setAttribute('height', String(displayH));
+  svg.style.width = displayW + 'px';
+  svg.style.height = displayH + 'px';
+  svg.style.maxWidth = 'none';
+  svg.style.maxHeight = availH + 'px';
+  svg.style.display = 'block';
+  svg.style.flexShrink = '0';
+  svg.style.overflow = 'visible';
+}
+
+/** Fullscreen page: fit to pane width; natural height for vertical scroll. */
+function fitSvgToPageWidth(svg, availW) {
+  if (!svg || !(availW > 0)) return;
+  const box = readSvgContentBox(svg);
+  if (!box || !(box.width > 0) || !(box.height > 0)) return;
+  const pad = 4;
+  const vbX = box.x - pad;
+  const vbY = box.y - pad;
+  const vbW = box.width + pad * 2;
+  const vbH = box.height + pad * 2;
+  svg.setAttribute('viewBox', [vbX, vbY, vbW, vbH].join(' '));
+  const scale = Math.min(1, availW / vbW);
+  const displayW = Math.max(1, vbW * scale);
+  const displayH = Math.max(1, vbH * scale);
+  svg.setAttribute('width', String(displayW));
+  svg.setAttribute('height', String(displayH));
+  svg.style.width = displayW + 'px';
+  svg.style.height = displayH + 'px';
+  svg.style.maxWidth = '100%';
+  svg.style.maxHeight = 'none';
+  svg.style.display = 'block';
+  svg.style.flexShrink = '0';
+}
 
 function CompactAbcStrip(props) {
+  const shellRef = useRef(null);
   const hostRef = useRef(null);
   const abc = props.abc || '';
   const canRender = hasRenderableNotes(abc);
-  // Remount/rerender when a parent dialog becomes visible (abcjs needs a laid-out container).
   const renderToken = props.renderToken || 0;
+  const emptyLabel = props.emptyLabel || 'No notation preview';
+  const layout = props.layout === 'page' ? 'page' : 'strip';
+  const heightPx = props.heightPx;
 
   useEffect(function() {
-    const el = hostRef.current;
-    if (!el) return undefined;
-    el.innerHTML = '';
+    const shell = shellRef.current;
+    const host = hostRef.current;
+    if (!shell || !host) return undefined;
+    host.innerHTML = '';
     if (!canRender) return undefined;
 
     let cancelled = false;
-    function paint() {
-      if (cancelled || !hostRef.current) return;
+    let rafPaint = 0;
+    let lastSizeKey = '';
+
+    function paint(force) {
+      if (cancelled || !shellRef.current || !hostRef.current) return;
       const target = hostRef.current;
+      const shellEl = shellRef.current;
+      const availW = Math.max(160, shellEl.clientWidth - 12);
+      const availH = Math.max(28, shellEl.clientHeight - 8);
+      const sizeKey = layout + ':' + availW + 'x' + availH;
+      if (!force && sizeKey === lastSizeKey && target.querySelector('svg')) {
+        const svg = target.querySelector('svg');
+        if (layout === 'page') fitSvgToPageWidth(svg, availW);
+        else fitSvgToStripHeight(svg, availH);
+        return;
+      }
+      lastSizeKey = sizeKey;
       target.innerHTML = '';
       try {
+        const staffwidth = layout === 'page'
+          ? Math.max(200, availW)
+          : Math.max(2400, availW * 12);
+        // Large vertical padding so abcjs keeps extreme ledger lines inside the SVG.
+        const vPad = layout === 'strip' ? 48 : 10;
         abcjs.renderAbc(target, abc, {
           add_classes: true,
           selectTypes: false,
-          staffwidth: 12000,
+          staffwidth: staffwidth,
           scale: 1,
-          paddingtop: 0,
-          paddingbottom: 0,
-          paddingleft: 0,
-          paddingright: 0,
+          paddingtop: vPad,
+          paddingbottom: vPad,
+          paddingleft: 2,
+          paddingright: 2,
         });
         const svg = target.querySelector('svg');
-        if (svg) {
-          const attrH = parseFloat(svg.getAttribute('height')) || 0;
-          const targetH = 90;
-          const scale = attrH > 0 ? (targetH / attrH) : 1;
-          const attrW = parseFloat(svg.getAttribute('width')) || 0;
-          svg.removeAttribute('width');
-          svg.removeAttribute('height');
-          svg.style.height = targetH + 'px';
-          svg.style.width = attrW > 0 ? Math.round(attrW * scale) + 'px' : 'auto';
-          svg.style.maxHeight = targetH + 'px';
-          svg.style.display = 'block';
-        }
+        if (layout === 'page') fitSvgToPageWidth(svg, availW);
+        else fitSvgToStripHeight(svg, availH);
       } catch (e) {
         target.textContent = 'Unable to render notation.';
       }
     }
 
+    function schedulePaint(force) {
+      if (rafPaint) return;
+      rafPaint = window.requestAnimationFrame(function() {
+        rafPaint = 0;
+        paint(!!force);
+      });
+    }
+
     let raf2 = 0;
     const raf1 = window.requestAnimationFrame(function() {
-      raf2 = window.requestAnimationFrame(paint);
+      raf2 = window.requestAnimationFrame(function() { schedulePaint(true); });
     });
+
+    function onWindowResize() {
+      schedulePaint(true);
+    }
+    window.addEventListener('resize', onWindowResize);
+
     return function() {
       cancelled = true;
       window.cancelAnimationFrame(raf1);
       window.cancelAnimationFrame(raf2);
+      if (rafPaint) window.cancelAnimationFrame(rafPaint);
+      window.removeEventListener('resize', onWindowResize);
     };
-  }, [abc, canRender, renderToken]);
+  }, [abc, canRender, renderToken, layout, heightPx]);
+
+  const shellClass = 'abc-voices-notes-strip'
+    + (layout === 'page' ? ' abc-voices-notes-strip--page' : ' abc-voices-notes-strip--strip')
+    + (!canRender ? ' abc-voices-notes-strip--empty text-muted small' : '');
+  const shellStyle = (layout === 'strip' && heightPx > 0)
+    ? { height: heightPx + 'px' }
+    : undefined;
 
   if (!canRender) {
     return (
-      <div className="abc-voices-notes-strip abc-voices-notes-strip--empty text-muted small">
-        No notation preview
+      <div className={shellClass} style={shellStyle}>
+        {emptyLabel}
       </div>
     );
   }
 
-  return <div className="abc-voices-notes-strip" ref={hostRef} aria-label="Notation preview" />;
+  return (
+    <div className={shellClass} ref={shellRef} style={shellStyle} aria-label="Notation preview">
+      <div className="abc-voices-notes-strip-canvas" ref={hostRef} />
+    </div>
+  );
 }
 
 export default function AbcVoicesNotesEditor(props) {
@@ -178,34 +337,46 @@ export default function AbcVoicesNotesEditor(props) {
   const voiceKeys = useMemo(function() {
     return sortVoiceKeys(voices);
   }, [voices]);
+  const voiceKeysKey = voiceKeys.join('|');
+  const prevVoiceKeysRef = useRef(voiceKeys);
   const [activeKey, setActiveKey] = useState(voiceKeys[0] || '1');
   const [deleteKey, setDeleteKey] = useState(null);
   const [dialogOpen, setDialogOpen] = useState(false);
-  const [dialogVoices, setDialogVoices] = useState(voices);
   const [dialogActiveKey, setDialogActiveKey] = useState(voiceKeys[0] || '1');
-  const [enabledKeys, setEnabledKeys] = useState(voiceKeys);
+  const [enabledKeys, setEnabledKeys] = useState(function() { return voiceKeys.slice(); });
   const [previewDraft, setPreviewDraft] = useState('');
   const [dialogRenderToken, setDialogRenderToken] = useState(0);
   const [draftSynced, setDraftSynced] = useState(false);
+  const [formStripHeight, setFormStripHeight] = useState(0);
+  const formTextareaRef = useRef(null);
 
   useEffect(function() {
     if (voiceKeys.indexOf(activeKey) < 0) {
       setActiveKey(voiceKeys[0] || '1');
     }
-  }, [voiceKeys, activeKey]);
+  }, [voiceKeysKey, activeKey]);
 
   useEffect(function() {
+    if (voiceKeys.indexOf(dialogActiveKey) < 0) {
+      setDialogActiveKey(voiceKeys[0] || '1');
+    }
+  }, [voiceKeysKey, dialogActiveKey]);
+
+  // Keep preview selection in sync: drop removed voices, auto-select newly added ones.
+  // Do not re-select everything when the user has cleared the selection.
+  useEffect(function() {
+    const prevKeys = prevVoiceKeysRef.current || [];
+    prevVoiceKeysRef.current = voiceKeys;
     setEnabledKeys(function(current) {
       const kept = (current || []).filter(function(key) {
         return voiceKeys.indexOf(key) >= 0;
       });
-      if (kept.length === 0) return voiceKeys.slice();
       const additions = voiceKeys.filter(function(key) {
-        return kept.indexOf(key) < 0 && (current || []).indexOf(key) < 0;
+        return prevKeys.indexOf(key) < 0 && kept.indexOf(key) < 0;
       });
-      return additions.length ? kept.concat(additions) : kept;
+      return kept.concat(additions);
     });
-  }, [voiceKeys.join('|')]);
+  }, [voiceKeysKey]);
 
   const activeVoice = voices[activeKey] || { meta: '', notes: [] };
   const activeText = voiceNotesText(activeVoice);
@@ -217,24 +388,47 @@ export default function AbcVoicesNotesEditor(props) {
     }
   }, [activeText, dialogOpen, activeKey]);
 
+  useEffect(function() {
+    const node = formTextareaRef.current;
+    if (!node || typeof ResizeObserver === 'undefined') return undefined;
+    function syncHeight() {
+      const next = Math.round(node.offsetHeight || 0);
+      setFormStripHeight(function(current) {
+        return current === next ? current : next;
+      });
+    }
+    syncHeight();
+    const ro = new ResizeObserver(function() { syncHeight(); });
+    ro.observe(node);
+    return function() { ro.disconnect(); };
+  }, [dialogOpen]);
+
   function emit(nextVoices) {
     if (typeof props.onChange === 'function') props.onChange(normalizeVoices(nextVoices));
   }
 
-  function updateActiveNotes(text) {
+  function updateVoiceNotes(voiceKey, text) {
     const next = normalizeVoices(voices);
-    if (!next[activeKey]) next[activeKey] = { meta: '', notes: [] };
-    next[activeKey] = Object.assign({}, next[activeKey], {
+    if (!next[voiceKey]) next[voiceKey] = { meta: '', notes: [] };
+    next[voiceKey] = Object.assign({}, next[voiceKey], {
       notes: String(text || '').split(/\r?\n/),
     });
     emit(next);
   }
 
-  function updateActiveMeta(meta) {
+  function updateVoiceMeta(voiceKey, meta) {
     const next = normalizeVoices(voices);
-    if (!next[activeKey]) next[activeKey] = { meta: '', notes: [] };
-    next[activeKey] = Object.assign({}, next[activeKey], { meta: meta });
+    if (!next[voiceKey]) next[voiceKey] = { meta: '', notes: [] };
+    next[voiceKey] = Object.assign({}, next[voiceKey], { meta: meta });
     emit(next);
+  }
+
+  function updateActiveNotes(text) {
+    updateVoiceNotes(activeKey, text);
+  }
+
+  function updateActiveMeta(meta) {
+    updateVoiceMeta(activeKey, meta);
   }
 
   function addVoice() {
@@ -243,67 +437,33 @@ export default function AbcVoicesNotesEditor(props) {
     next[key] = { meta: 'Voice ' + key, notes: [''] };
     emit(next);
     setActiveKey(key);
-    setEnabledKeys(function(keys) {
-      return keys.indexOf(key) >= 0 ? keys : keys.concat([key]);
-    });
+    if (dialogOpen) setDialogActiveKey(key);
   }
 
   function openDialog() {
-    const snapshot = normalizeVoices(voices);
-    setDialogVoices(snapshot);
     setDialogActiveKey(activeKey);
-    setEnabledKeys(sortVoiceKeys(snapshot));
     setDialogOpen(true);
   }
 
-  function saveDialog() {
-    emit(dialogVoices);
+  function closeDialog() {
     setActiveKey(dialogActiveKey);
     setDialogOpen(false);
   }
 
   function updateDialogNotes(text) {
-    setDialogVoices(function(current) {
-      const next = normalizeVoices(current);
-      const key = dialogActiveKey;
-      if (!next[key]) next[key] = { meta: '', notes: [] };
-      next[key] = Object.assign({}, next[key], {
-        notes: String(text || '').split(/\r?\n/),
-      });
-      return next;
-    });
+    updateVoiceNotes(dialogActiveKey, text);
   }
 
   function updateDialogMeta(meta) {
-    setDialogVoices(function(current) {
-      const next = normalizeVoices(current);
-      const key = dialogActiveKey;
-      if (!next[key]) next[key] = { meta: '', notes: [] };
-      next[key] = Object.assign({}, next[key], { meta: meta });
-      return next;
-    });
-  }
-
-  function addDialogVoice() {
-    setDialogVoices(function(current) {
-      const next = normalizeVoices(current);
-      const key = nextVoiceKey(next);
-      next[key] = { meta: 'Voice ' + key, notes: [''] };
-      setDialogActiveKey(key);
-      setEnabledKeys(function(keys) {
-        return keys.indexOf(key) >= 0 ? keys : keys.concat([key]);
-      });
-      return next;
-    });
+    updateVoiceMeta(dialogActiveKey, meta);
   }
 
   function confirmDelete() {
     const key = deleteKey;
     setDeleteKey(null);
-    const source = dialogOpen ? dialogVoices : voices;
-    const keys = sortVoiceKeys(source);
+    const keys = sortVoiceKeys(voices);
     if (!key || keys.length <= 1) return;
-    const next = normalizeVoices(source);
+    const next = normalizeVoices(voices);
     delete next[key];
     const remaining = sortVoiceKeys(next);
     if (remaining.length === 0) {
@@ -311,30 +471,25 @@ export default function AbcVoicesNotesEditor(props) {
       remaining.push('1');
     }
     setEnabledKeys(function(current) {
-      const filtered = current.filter(function(item) { return item !== key; });
-      return filtered.length ? filtered : remaining.slice();
+      return current.filter(function(item) { return item !== key; });
     });
-    if (dialogOpen) {
-      setDialogVoices(next);
-      setDialogActiveKey(remaining[0] || '1');
-    } else {
-      emit(next);
-      setActiveKey(remaining[0] || '1');
-    }
+    emit(next);
+    const nextActive = remaining[0] || '1';
+    if (dialogOpen) setDialogActiveKey(nextActive);
+    setActiveKey(nextActive);
   }
 
   function toggleEnabled(key) {
     setEnabledKeys(function(current) {
       if (current.indexOf(key) >= 0) {
-        if (current.length <= 1) return current;
         return current.filter(function(item) { return item !== key; });
       }
       return current.concat([key]);
     });
   }
 
-  const dialogKeys = sortVoiceKeys(dialogVoices);
-  const dialogVoice = dialogVoices[dialogActiveKey] || { meta: '', notes: [] };
+  const dialogKeys = voiceKeys;
+  const dialogVoice = voices[dialogActiveKey] || { meta: '', notes: [] };
   const dialogText = voiceNotesText(dialogVoice);
   const activeLabel = activeVoice.meta && String(activeVoice.meta).trim()
     ? activeVoice.meta
@@ -345,24 +500,18 @@ export default function AbcVoicesNotesEditor(props) {
   const metadata = props.metadata || {};
   const formPreviewVoices = useMemo(function() {
     const next = normalizeVoices(voices);
-    if (draftSynced && next[activeKey]) {
+    if (draftSynced && !dialogOpen && next[activeKey]) {
       next[activeKey] = Object.assign({}, next[activeKey], {
         notes: String(previewDraft || '').split(/\r?\n/),
       });
     }
     return next;
-  }, [voices, activeKey, previewDraft, draftSynced]);
-  const formPreviewAbc = buildOneLinePreviewAbc(
-    formPreviewVoices,
-    metadata,
-    enabledKeys
-  );
-  const dialogPreviewAbc = buildOneLinePreviewAbc(
-    dialogVoices,
-    metadata,
-    enabledKeys
-  );
-  const previewRows = props.previewLines || 5;
+  }, [voices, activeKey, previewDraft, draftSynced, dialogOpen]);
+  const formPreviewAbc = buildPreviewAbc(formPreviewVoices, metadata, enabledKeys, { flatten: true });
+  const dialogPreviewAbc = buildPreviewAbc(voices, metadata, enabledKeys, { flatten: false });
+  const previewEmptyLabel = enabledKeys.length === 0
+    ? 'No voices selected for preview'
+    : 'No notation preview';
 
   function renderVoiceChooser(keys, currentKey, onSelect, onAdd, voiceSource) {
     return (
@@ -423,12 +572,12 @@ export default function AbcVoicesNotesEditor(props) {
         <Button
           size="sm"
           variant="outline-secondary"
-          className="field-preview-editor-pencil"
+          className="field-preview-editor-fullscreen-btn"
           onClick={openDialog}
-          aria-label="Edit notation"
-          title="Edit notation"
+          aria-label="Edit notation fullscreen"
+          title="Edit notation fullscreen"
         >
-          {PENCIL_ICON}
+          {FULLSCREEN_ICON}
         </Button>
       </div>
 
@@ -452,34 +601,40 @@ export default function AbcVoicesNotesEditor(props) {
         </Button>
       </div>
 
-      <div className="abc-voices-notes-main-row">
+      <div className="abc-voices-notes-main-stack">
         <Form.Control
           as="textarea"
+          ref={formTextareaRef}
           className="field-preview-editor-textarea field-preview-editor-textarea--mono abc-voices-notes-textarea"
-          rows={previewRows}
+          rows={5}
           value={previewDraft}
           placeholder="No notes for this voice yet."
-          onChange={function(e) { setPreviewDraft(e.target.value); }}
-          onBlur={function() {
-            if (previewDraft !== activeText) updateActiveNotes(previewDraft);
+          onChange={function(e) {
+            const next = e.target.value;
+            setPreviewDraft(next);
+            updateActiveNotes(next);
           }}
         />
-        <CompactAbcStrip abc={formPreviewAbc} />
+        <CompactAbcStrip
+          abc={formPreviewAbc}
+          emptyLabel={previewEmptyLabel}
+          heightPx={formStripHeight}
+          layout="strip"
+        />
       </div>
 
       <Modal
         show={dialogOpen}
-        onHide={function() { setDialogOpen(false); }}
+        onHide={closeDialog}
         onEntered={function() { setDialogRenderToken(function(n) { return n + 1; }); }}
         fullscreen
-        backdrop="static"
         className="abc-voices-notes-dialog"
       >
         <Modal.Header closeButton className="abc-voices-notes-dialog-header">
           <div className="abc-voices-notes-toolbar abc-voices-notes-toolbar--dialog">
             <Modal.Title className="abc-voices-notes-title">Edit Notation</Modal.Title>
-            {renderVoiceChooser(dialogKeys, dialogActiveKey, setDialogActiveKey, addDialogVoice, dialogVoices)}
-            {renderPreviewToggles(dialogKeys, 'dialog-preview-', dialogVoices)}
+            {renderVoiceChooser(dialogKeys, dialogActiveKey, setDialogActiveKey, addVoice, voices)}
+            {renderPreviewToggles(dialogKeys, 'dialog-preview-', voices)}
           </div>
         </Modal.Header>
         <Modal.Body className="abc-voices-notes-dialog-body">
@@ -503,20 +658,22 @@ export default function AbcVoicesNotesEditor(props) {
             </Button>
           </div>
 
-          <CompactAbcStrip abc={dialogPreviewAbc} renderToken={dialogRenderToken} />
-
           <Form.Control
             as="textarea"
-            className="field-preview-editor-dialog-textarea field-preview-editor-textarea--mono abc-voices-notes-dialog-textarea"
+            className="field-preview-editor-textarea--mono abc-voices-notes-dialog-textarea"
+            rows={10}
             value={dialogText}
             onChange={function(e) { updateDialogNotes(e.target.value); }}
             autoFocus
           />
+
+          <CompactAbcStrip
+            abc={dialogPreviewAbc}
+            renderToken={dialogRenderToken}
+            emptyLabel={previewEmptyLabel}
+            layout="page"
+          />
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={function() { setDialogOpen(false); }}>Cancel</Button>
-          <Button variant="success" onClick={saveDialog}>Save</Button>
-        </Modal.Footer>
       </Modal>
 
       <DeleteVoiceConfirmModal

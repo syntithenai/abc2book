@@ -1,3 +1,5 @@
+const { allArtists, allTitles } = require('./tuneBibliographicUtils')
+
 const VOICE_COMMAND_WORDS = new Set([
   'show', 'open', 'go', 'to', 'play', 'search', 'find', 'filter',
   'the', 'a', 'an', 'for', 'in', 'by', 'from', 'with', 'tag', 'tagged', 'book', 'tool',
@@ -69,27 +71,44 @@ export function scoreTuneMatch(query, tune) {
   const normalizedQuery = getVoiceSearchableText(query);
   if (!normalizedQuery || !isMeaningfulVoiceTranscript(query) || !tune) return 0;
 
-  const name = toSearchText(tune.name);
-  const composer = toSearchText(tune.composer);
-  if (!name && !composer) return 0;
+  const titles = allTitles(tune);
+  const artists = allArtists(tune);
+  if (titles.length === 0 && artists.length === 0) return 0;
 
   let score = 0;
-  if (name === normalizedQuery) score += 10;
-  if (name && name.indexOf(normalizedQuery) !== -1) score += 6;
-  if (composer === normalizedQuery) score += 8;
-  if (composer && composer.indexOf(normalizedQuery) !== -1) score += 4;
+  titles.forEach(function(titleText, index) {
+    const name = toSearchText(titleText);
+    const titleWeight = index === 0 ? 1 : 0.75;
+    if (name === normalizedQuery) score += Math.round(10 * titleWeight);
+    if (name && name.indexOf(normalizedQuery) !== -1) score += Math.round(6 * titleWeight);
+  });
+  artists.forEach(function(artistText, index) {
+    const composer = toSearchText(artistText);
+    const artistWeight = index === 0 ? 1 : 0.75;
+    if (composer === normalizedQuery) score += Math.round(8 * artistWeight);
+    if (composer && composer.indexOf(normalizedQuery) !== -1) score += Math.round(4 * artistWeight);
+  });
 
   const queryTokens = normalizedQuery.split(/\s+/).filter(function(token) {
     return token.length > 2;
   });
   queryTokens.forEach(function(token) {
-    if (name && name.indexOf(token) !== -1) score += 4;
-    if (composer && composer.indexOf(token) !== -1) score += 2;
+    titles.forEach(function(titleText, index) {
+      const name = toSearchText(titleText);
+      const titleWeight = index === 0 ? 1 : 0.6;
+      if (name && name.indexOf(token) !== -1) score += Math.round(4 * titleWeight);
+    });
+    artists.forEach(function(artistText, index) {
+      const composer = toSearchText(artistText);
+      const artistWeight = index === 0 ? 1 : 0.6;
+      if (composer && composer.indexOf(token) !== -1) score += Math.round(2 * artistWeight);
+    });
   });
 
-  if (name && queryTokens.length > 0) {
+  const primaryName = toSearchText(titles[0] || '');
+  if (primaryName && queryTokens.length > 0) {
     const ordered = queryTokens.join(' ');
-    if (ordered && name.indexOf(ordered) !== -1) score += 3;
+    if (ordered && primaryName.indexOf(ordered) !== -1) score += 3;
   }
 
   return score;

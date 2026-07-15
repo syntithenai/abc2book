@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { Button, Form, Alert, ToggleButton, ToggleButtonGroup } from 'react-bootstrap'
 import { icons } from '../Icons'
+import FormFieldHelp from '../components/FormFieldHelp'
 import Application, { listAudioInputDevices } from './app'
 import TunerVuMeter from './TunerVuMeter'
 import TunerPitchGraph from './TunerPitchGraph'
@@ -48,6 +49,24 @@ const LS_MIC_DEVICE = 'bookstorage_tuner_mic_device'
 const LS_SHOW_ADVANCED = 'bookstorage_tuner_show_advanced'
 const LS_CHECK_HARMONICS = 'bookstorage_tuner_check_harmonics'
 const PITCH_HISTORY_MAX = 600
+
+const FINE_HELP_BODY = (
+  <>
+    <p>Fine is display zoom only. When you are within about ±8¢ of the target, the needle scale zooms to ±3¢ so you can see small adjustments more clearly.</p>
+    <p>It does not change pitch detection — only how the meter is drawn when you are already close to pitch.</p>
+  </>
+)
+
+const GATE_HELP_BODY = (
+  <>
+    <p>Gate is a noise gate / input sensitivity. The tuner only listens when the mic volume is above this threshold.</p>
+    <ul>
+      <li><strong>Lower gate</strong> — more sensitive; picks up quieter playing but may react to room noise.</li>
+      <li><strong>Higher gate</strong> — ignores quiet sounds; raise it if background noise causes false readings.</li>
+    </ul>
+    <p>Use Gate for noisy environments. Use Fine for precise final tuning — they solve different problems.</p>
+  </>
+)
 
 function tuningStorageKey(instrument) {
   return 'bookstorage_last_tuner_tuning_' + instrument
@@ -526,139 +545,157 @@ export default function TunerComponent(props) {
       )}
 
       <div className="tuner-controls">
-        <div className="tuner-row tuner-row-primary">
-          <Form.Select
-            size="sm"
-            className="tuner-instrument-select"
-            value={instrument}
-            onChange={handleInstrumentChange}
-            onClick={function(e) { e.stopPropagation() }}
-          >
-            <option value={CHROMATIC_INSTRUMENT}>{TUNER_INSTRUMENT_LABELS.chromatic}</option>
-            {TUNER_INSTRUMENTS.map(function(instr) {
-              return (
-                <option key={instr} value={instr}>
-                  {TUNER_INSTRUMENT_LABELS[instr] || instr}
-                </option>
-              )
-            })}
-          </Form.Select>
-
-          {!isChromatic && (
+        <div className="tuner-settings-block">
+          <div className="tuner-row tuner-row-primary">
             <Form.Select
               size="sm"
-              className="tuner-preset-select"
-              value={presetId}
-              onChange={handlePresetChange}
+              className="tuner-instrument-select"
+              value={instrument}
+              onChange={handleInstrumentChange}
               onClick={function(e) { e.stopPropagation() }}
-              title={aliasHint}
             >
-              {presetOptions.map(function(p) {
-                return <option key={p.id} value={p.id}>{p.label}</option>
+              <option value={CHROMATIC_INSTRUMENT}>{TUNER_INSTRUMENT_LABELS.chromatic}</option>
+              {TUNER_INSTRUMENTS.map(function(instr) {
+                return (
+                  <option key={instr} value={instr}>
+                    {TUNER_INSTRUMENT_LABELS[instr] || instr}
+                  </option>
+                )
               })}
             </Form.Select>
-          )}
 
-          <Form.Check
-            type="switch"
-            id="tuner-show-advanced"
-            className="tuner-advanced-toggle mb-0"
-            label="Advanced"
-            checked={showAdvanced}
-            onChange={function(e) { setShowAdvanced(e.target.checked) }}
-            onClick={function(e) { e.stopPropagation() }}
-          />
-
-          {!isChromatic && (
-            <>
-              <Form.Check
-                type="switch"
-                id="tuner-auto-advance"
-                className="tuner-auto-advance-toggle mb-0"
-                label="Auto next"
-                checked={autoAdvance}
-                onChange={function(e) { setAutoAdvance(e.target.checked) }}
+            {!isChromatic && (
+              <Form.Select
+                size="sm"
+                className="tuner-preset-select"
+                value={presetId}
+                onChange={handlePresetChange}
                 onClick={function(e) { e.stopPropagation() }}
-                title="Advance to next string after 400ms in tune"
-              />
-
-              <Form.Check
-                type="switch"
-                id="tuner-check-harmonics"
-                className="tuner-check-harmonics-toggle mb-0"
-                label="Check Harmonics"
-                checked={mode === 'intonation'}
-                onChange={function(e) { toggleCheckHarmonics(e.target.checked) }}
-                onClick={function(e) { e.stopPropagation() }}
-                title="Check 12th-fret harmonics against open string tuning"
-              />
-            </>
-          )}
-        </div>
-
-        {showAdvanced && (
-          <div className="tuner-advanced-panel" onClick={function(e) { e.stopPropagation() }}>
-            <Form.Label className="tuner-a4-label mb-0">
-              A<sub>4</sub> =
-              <Form.Control
-                type="number"
-                className="tuner-a4-input"
-                min={400}
-                max={480}
-                step={0.1}
-                value={a4}
-                onChange={function(e) {
-                  const v = parseFloat(e.target.value)
-                  if (Number.isFinite(v)) setA4(v)
-                }}
-              />
-              Hz
-            </Form.Label>
+                title={aliasHint}
+              >
+                {presetOptions.map(function(p) {
+                  return <option key={p.id} value={p.id}>{p.label}</option>
+                })}
+              </Form.Select>
+            )}
 
             <Form.Check
               type="switch"
-              id="tuner-fine-mode"
-              className="tuner-fine-toggle mb-0"
-              label="Fine"
-              checked={fineMode}
-              onChange={function(e) { setFineMode(e.target.checked) }}
-              title="Zoom to ±3¢ when close to pitch"
+              id="tuner-show-advanced"
+              className="tuner-advanced-toggle mb-0"
+              label="Advanced"
+              checked={showAdvanced}
+              onChange={function(e) { setShowAdvanced(e.target.checked) }}
+              onClick={function(e) { e.stopPropagation() }}
             />
 
-            {audioStarted && micDevices.length > 0 ? (
-              <Form.Select
-                size="sm"
-                className="tuner-mic-select"
-                value={selectedMicId}
-                onChange={handleMicChange}
-              >
-                <option value="">Default microphone</option>
-                {micDevices.map(function(d) {
-                  return (
-                    <option key={d.deviceId} value={d.deviceId}>
-                      {d.label || 'Microphone ' + d.deviceId.slice(0, 8)}
-                    </option>
-                  )
-                })}
-              </Form.Select>
-            ) : (
-              <span className="tuner-mic-placeholder" aria-hidden="true" />
-            )}
+            {!isChromatic && (
+              <>
+                <Form.Check
+                  type="switch"
+                  id="tuner-auto-advance"
+                  className="tuner-auto-advance-toggle mb-0"
+                  label="Auto next"
+                  checked={autoAdvance}
+                  onChange={function(e) { setAutoAdvance(e.target.checked) }}
+                  onClick={function(e) { e.stopPropagation() }}
+                  title="Advance to next string after 400ms in tune"
+                />
 
-            <Form.Label className="tuner-gate-label mb-0">
-              Gate
-              <Form.Range
-                min={1}
-                max={20}
-                value={Math.round(gateThreshold * 100)}
-                onChange={function(e) {
-                  setGateThreshold(parseInt(e.target.value, 10) / 100)
-                }}
-                title="Noise gate — raise if background noise triggers false readings"
-              />
-            </Form.Label>
+                <Form.Check
+                  type="switch"
+                  id="tuner-check-harmonics"
+                  className="tuner-check-harmonics-toggle mb-0"
+                  label="Check Harmonics"
+                  checked={mode === 'intonation'}
+                  onChange={function(e) { toggleCheckHarmonics(e.target.checked) }}
+                  onClick={function(e) { e.stopPropagation() }}
+                  title="Check 12th-fret harmonics against open string tuning"
+                />
+              </>
+            )}
           </div>
-        )}
+
+          {showAdvanced && (
+            <div className="tuner-advanced-panel" onClick={function(e) { e.stopPropagation() }}>
+              <Form.Label className="tuner-a4-label mb-0">
+                A<sub>4</sub> =
+                <Form.Control
+                  type="number"
+                  className="tuner-a4-input"
+                  min={400}
+                  max={480}
+                  step={0.1}
+                  value={a4}
+                  onChange={function(e) {
+                    const v = parseFloat(e.target.value)
+                    if (Number.isFinite(v)) setA4(v)
+                  }}
+                />
+                Hz
+              </Form.Label>
+
+              <div className="tuner-fine-control">
+                <Form.Check
+                  type="switch"
+                  id="tuner-fine-mode"
+                  className="tuner-fine-toggle mb-0"
+                  label="Fine"
+                  checked={fineMode}
+                  onChange={function(e) { setFineMode(e.target.checked) }}
+                  title="Zoom to ±3¢ when close to pitch"
+                />
+                <FormFieldHelp
+                  title="Fine"
+                  body={FINE_HELP_BODY}
+                  className="tuner-setting-help-btn"
+                  buttonTitle="Help: Fine mode"
+                />
+              </div>
+
+              <Form.Label className="tuner-gate-label mb-0">
+                <span className="tuner-gate-heading">
+                  Gate
+                  <FormFieldHelp
+                    title="Gate"
+                    body={GATE_HELP_BODY}
+                    className="tuner-setting-help-btn"
+                    buttonTitle="Help: Gate"
+                  />
+                </span>
+                <Form.Range
+                  min={1}
+                  max={20}
+                  value={Math.round(gateThreshold * 100)}
+                  onChange={function(e) {
+                    setGateThreshold(parseInt(e.target.value, 10) / 100)
+                  }}
+                  title="Noise gate — raise if background noise triggers false readings"
+                />
+              </Form.Label>
+
+              {audioStarted && micDevices.length > 0 ? (
+                <Form.Select
+                  size="sm"
+                  className="tuner-mic-select"
+                  value={selectedMicId}
+                  onChange={handleMicChange}
+                >
+                  <option value="">Default microphone</option>
+                  {micDevices.map(function(d) {
+                    return (
+                      <option key={d.deviceId} value={d.deviceId}>
+                        {d.label || 'Microphone ' + d.deviceId.slice(0, 8)}
+                      </option>
+                    )
+                  })}
+                </Form.Select>
+              ) : (
+                <span className="tuner-mic-placeholder" aria-hidden="true" />
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
       {savePrompt && (

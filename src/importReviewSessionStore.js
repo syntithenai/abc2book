@@ -1,6 +1,32 @@
 import { isReviewSessionActive } from './importReviewSession'
 
-let session = null
+const STORAGE_KEY = 'abc2book.importReviewSession'
+
+function readStoredSession() {
+  if (typeof sessionStorage === 'undefined') return null
+  try {
+    const raw = sessionStorage.getItem(STORAGE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw)
+    if (!parsed || !isReviewSessionActive(parsed)) return null
+    return parsed
+  } catch (e) {
+    return null
+  }
+}
+
+function writeStoredSession(next) {
+  if (typeof sessionStorage === 'undefined') return
+  try {
+    if (!next || !isReviewSessionActive(next)) {
+      sessionStorage.removeItem(STORAGE_KEY)
+      return
+    }
+    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+  } catch (e) {}
+}
+
+let session = readStoredSession()
 let uiVisible = false
 const listeners = new Set()
 
@@ -32,6 +58,7 @@ export function isImportReviewUiVisible() {
 
 export function setImportReviewSession(next) {
   session = next
+  writeStoredSession(next)
   notify()
 }
 
@@ -48,6 +75,7 @@ export function hideImportReviewUi() {
 export function clearImportReviewSession() {
   session = null
   uiVisible = false
+  writeStoredSession(null)
   notify()
 }
 
@@ -83,4 +111,5 @@ export function __resetImportReviewSessionStoreForTests() {
   uiVisible = false
   startReviewHandler = null
   listeners.clear()
+  writeStoredSession(null)
 }

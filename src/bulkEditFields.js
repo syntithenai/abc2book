@@ -10,7 +10,7 @@ export const BULK_EDIT_FIELDS = [
   { key: 'boost', label: 'Confidence', type: 'number', min: 0, max: 20, allowEmpty: true },
   { key: 'difficulty', label: 'Difficulty', type: 'number', min: 0, max: 20, allowEmpty: true },
   { key: 'rhythm', label: 'Rhythm', type: 'rhythm', allowEmpty: true },
-  { key: 'composer', label: 'Artist', type: 'text', allowEmpty: true },
+  { key: 'composer', label: 'Composer', type: 'text', allowEmpty: true },
   { key: 'genre', label: 'Genre', type: 'genre', allowEmpty: true },
   { key: 'transpose', label: 'Transpose', type: 'number', allowEmpty: true },
   { key: 'capo', label: 'Capo', type: 'number', min: 0, max: 12, allowEmpty: true },

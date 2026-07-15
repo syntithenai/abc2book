@@ -51,8 +51,6 @@ import {
 } from '../notation/notationClipboard';
 import { quantizeVoiceEvents } from '../notation/quantizeVoiceEvents';
 import {
-  alignSelectionToRecordingGrid,
-  matchToTimedMelody,
   applyDownbeatOffset,
   snapToPlaybackRegionStart,
   slideSelection,
@@ -66,7 +64,7 @@ import {
   eventIndexFromSelectableIndex,
 } from '../notation/voiceEventTiming';
 import { beatsPerBarFromMeter } from '../notation/beatGrid';
-import { eventIdFromStaffNoteElement } from '../notation/staffCaretPosition';
+import { eventIdFromStaffNoteElement, findStaffClickNoteEl } from '../notation/staffCaretPosition';
 import { resolveStaffClick } from '../notation/staffClickResolve';
 import useMidiInput from '../notation/useMidiInput';
 import {
@@ -110,11 +108,16 @@ export default function NotationEditor(props) {
   const staffInputHandledRef = useRef(false);
   const staffPointerRef = useRef(null);
   const resolverDebugRef = useRef(null);
+  const [selectionClickRects, setSelectionClickRects] = useState([]);
 
   const focusStaffEditor = useCallback(function() {
-    window.setTimeout(function() {
+    function focusNow() {
       if (staffRef.current) staffRef.current.focus({ preventScroll: true });
-    }, 0);
+    }
+    focusNow();
+    // Beat abcjs svgEl.focus() / playlist chrome stealing focus after staff clicks.
+    window.setTimeout(focusNow, 0);
+    window.requestAnimationFrame(focusNow);
   }, []);
 
   const syncSessionAction = useCallback(function(action) {
@@ -426,6 +429,7 @@ export default function NotationEditor(props) {
           type: 'SET_SELECTION',
           selection: { eventIds: [], toneIndex: null, anchorId: null },
         });
+        setSelectionClickRects([]);
         setCaretIndex(s.events.length);
       } else {
       }
@@ -663,9 +667,16 @@ export default function NotationEditor(props) {
     if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
       const wrap = staffWrapRef.current;
       if (wrap && wrap.contains(e.target) && e.button === 0) {
-        const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
-        const eventId = eventIdFromStaffNoteElement(wrap, s.events, e, pointerAnalysis, voiceStaffIdx);
-        staffDragTargetRef.current = eventId || null;
+        const resolved = resolveStaffClickFromEditor(e, pointerAnalysis, null, null);
+        const pinIdx = resolved && typeof resolved.eventIndex === 'number' ? resolved.eventIndex : -1;
+        const pinEv = pinIdx >= 0 && pinIdx < s.events.length ? s.events[pinIdx] : null;
+        if (pinEv && (pinEv.type === 'note' || pinEv.type === 'chord') && pinEv.id) {
+          staffDragTargetRef.current = pinEv.id;
+        } else {
+          const voiceStaffIdx = Math.max(0, displayedVoiceKeys.indexOf(props.voiceKey));
+          const eventId = eventIdFromStaffNoteElement(wrap, s.events, e, pointerAnalysis, voiceStaffIdx);
+          staffDragTargetRef.current = eventId || null;
+        }
       }
       return;
     }
@@ -700,7 +711,7 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : 0;
     const fullAbc = renderedAbc || displayAbc;
-    function resolveEventIndex() {
+    function resolveEventIndex(options) {
       return eventIndexFromStaffAbcElem(
         s.events,
         tuneMeta,
@@ -708,36 +719,49 @@ export default function NotationEditor(props) {
         displayedVoiceKeys,
         voiceIdx,
         abcelem,
-        analysis
+        analysis,
+        options
       );
     }
 
     if (drag && typeof drag.step === 'number' && drag.step !== 0 && s.mode !== EDITOR_MODES.NOTE_INPUT) {
       let dragEv = null;
       let dragIdx = null;
-      if (staffDragTargetRef.current) {
-        dragIdx = s.events.findIndex(function(ev) { return ev.id === staffDragTargetRef.current; });
-        if (dragIdx >= 0) dragEv = s.events[dragIdx];
+      function acceptDragCandidate(idx) {
+        if (typeof idx !== 'number' || idx < 0 || idx >= s.events.length) return false;
+        const candidate = s.events[idx];
+        if (!candidate || (candidate.type !== 'note' && candidate.type !== 'chord')) return false;
+        dragIdx = idx;
+        dragEv = candidate;
+        return true;
       }
-      if (!dragEv) {
-        dragIdx = resolveEventIndex();
-        dragEv = dragIdx >= 0 ? s.events[dragIdx] : null;
+      // Prefer pointerdown pin (stable across release). Never use midi fallback —
+      // another note may already sit at the destination pitch.
+      if (staffDragTargetRef.current) {
+        acceptDragCandidate(s.events.findIndex(function(ev) {
+          return ev.id === staffDragTargetRef.current;
+        }));
       }
       if (!dragEv && drag && typeof drag.index === 'number') {
-        dragIdx = eventIndexFromSelectableIndex(s.events, drag.index);
-        dragEv = dragIdx >= 0 ? s.events[dragIdx] : null;
+        acceptDragCandidate(eventIndexFromSelectableIndex(s.events, drag.index));
+      }
+      if (!dragEv) {
+        acceptDragCandidate(resolveEventIndex({ startCharOnly: true }));
       }
       staffDragTargetRef.current = null;
       if (dragEv && (dragEv.type === 'note' || dragEv.type === 'chord')) {
         const sessionWithSelection = Object.assign({}, s, {
           selection: { eventIds: [dragEv.id], toneIndex: null, anchorId: dragEv.id },
         });
-        applyEvents(
-          transposeSelectionByStaffSteps(sessionWithSelection, drag.step, null),
-          EDITOR_VIEWS.STAFF,
-          'Drag pitch'
-        );
-        setCaretIndex(dragIdx != null && dragIdx >= 0 ? dragIdx : s.caretIndex);
+        const patch = transposeSelectionByStaffSteps(sessionWithSelection, drag.step, null);
+        const nextCaret = dragIdx != null && dragIdx >= 0 ? dragIdx : s.caretIndex;
+        // Defer commit so abcjs mouseUp can finish (focus / class cleanup) before SVG remount.
+        if (patch) {
+          window.setTimeout(function() {
+            applyEvents(patch, EDITOR_VIEWS.STAFF, 'Drag pitch');
+            setCaretIndex(nextCaret);
+          }, 0);
+        }
       }
       return;
     }
@@ -748,7 +772,13 @@ export default function NotationEditor(props) {
 
     const resolved = resolveStaffClickFromEditor(mouseEvent, analysis, abcelem, fullAbc);
     const idx = resolved.eventIndex;
-    const ev = idx < s.events.length ? s.events[idx] : null;
+    const ev = resolved.selectedFromNoteHit && idx < s.events.length ? s.events[idx] : null;
+    if (process.env.NODE_ENV !== 'production') {
+      resolverDebugRef.current = Object.assign({}, resolverDebugRef.current || {}, {
+        selectedFromNoteHit: !!resolved.selectedFromNoteHit,
+        mode: s.mode,
+      });
+    }
     if (s.slurMode && ev) {
       const slurPatch = handleSlurModeClick(s, ev.id);
       if (slurPatch && slurPatch.events) {
@@ -785,9 +815,27 @@ export default function NotationEditor(props) {
       return;
     }
     if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) {
-      setCaretIndex(idx);
+      setCaretIndex(resolved.caretIndex);
+      setSelectionClickRects([]);
       syncSessionAction({ type: 'SET_SELECTION', selection: { eventIds: [], toneIndex: null, anchorId: null } });
       return;
+    }
+    // Capture the clicked glyph's screen box so the overlay tracks the real note,
+    // not a drawable-ordinal guess that drifts on long/multi-line scores.
+    const wrap = staffWrapRef.current;
+    const noteEl = (analysis && analysis.selectableElement)
+      || (mouseEvent && wrap && findStaffClickNoteEl(wrap, analysis, mouseEvent));
+    if (wrap && noteEl && noteEl.getBoundingClientRect) {
+      const wrapRect = wrap.getBoundingClientRect();
+      const r = noteEl.getBoundingClientRect();
+      setSelectionClickRects([{
+        left: r.left - wrapRect.left + (wrap.scrollLeft || 0),
+        top: r.top - wrapRect.top + (wrap.scrollTop || 0),
+        width: Math.max(r.width, 8),
+        height: Math.max(r.height, 12),
+      }]);
+    } else {
+      setSelectionClickRects([]);
     }
     syncSessionAction({
       type: 'SET_SELECTION',
@@ -943,12 +991,7 @@ export default function NotationEditor(props) {
       quantizeStart: true,
       quantizeDuration: true,
     };
-    const beatTimes = baseOpts.useRecordingGrid && props.tune.timedMelody
-      ? props.tune.timedMelody.beatTimes
-      : null;
-    const result = midiRecordBufferToEvents(midiRecordBufferRef.current, s, Object.assign({}, baseOpts, {
-      beatTimes: beatTimes,
-    }));
+    const result = midiRecordBufferToEvents(midiRecordBufferRef.current, s, baseOpts);
     applyEvents(Object.assign({}, s, result), EDITOR_VIEWS.STAFF, 'MIDI record');
     midiRecordBufferRef.current = [];
     dispatch({ type: 'SET_MIDI_RECORD', active: false, buffer: [] });
@@ -979,9 +1022,10 @@ export default function NotationEditor(props) {
       if (abcDrafts[voiceKey] != null) return abcDrafts[voiceKey];
       return voiceNotesForKey(voiceKey);
     }
+    // Active voice must always match serializeVoiceEvents(session.events) so
+    // abcjs startChar offsets map to the same tokens as the session model.
     if (voiceKey === props.voiceKey) {
-      if (session.dirty) return liveVoiceBody;
-      return voiceNotesForKey(voiceKey);
+      return liveVoiceBody;
     }
     return voiceNotesForKey(voiceKey);
   }
@@ -1031,7 +1075,6 @@ export default function NotationEditor(props) {
   const isStaffLikeView = isStaffView || isSplitView;
   const isPianoRollVisible = isPianoRollView || isSplitView;
   const isAbcView = session.view === EDITOR_VIEWS.ABC;
-  const hasRecordingGrid = !!(props.tune.timedMelody && props.tune.timedMelody.beatTimes && props.tune.timedMelody.beatTimes.length);
 
   function handlePianoRollSelect(eventId, opts) {
     const s = sessionRef.current;
@@ -1049,18 +1092,8 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     const ids = s.selection.eventIds || [];
     let next = s.events;
-    const beatTimes = props.tune.timedMelody && props.tune.timedMelody.beatTimes
-      ? props.tune.timedMelody.beatTimes
-      : null;
 
-    if (action === 'alignGrid' && beatTimes) {
-      next = alignSelectionToRecordingGrid(next, ids, beatTimes, Object.assign({}, tuneMeta, {
-        strength: 1,
-        slotsPerBeat: s.snapSlotsPerBeat || 4,
-      }));
-    } else if (action === 'matchMelody' && props.tune.timedMelody) {
-      next = matchToTimedMelody(next, ids, props.tune.timedMelody, tuneMeta, { toleranceBeats: 0.5 });
-    } else if (action === 'slideSelection') {
+    if (action === 'slideSelection') {
       const selected = ids.length
         ? next.filter(function(ev) { return ids.indexOf(ev.id) >= 0; })
         : next.filter(function(ev) { return ev.type === 'note' || ev.type === 'chord'; });
@@ -1076,9 +1109,7 @@ export default function NotationEditor(props) {
       if (progress) {
         const linkStart = props.mediaController.getLinkStartAt ? props.mediaController.getLinkStartAt() : 0;
         const seconds = Math.max(0, (progress.currentTime || 0) - linkStart);
-        const beat = beatTimes && beatTimes.length
-          ? seconds * (tuneMeta.tempo || 120) / 60
-          : seconds * (tuneMeta.tempo || 120) / 60;
+        const beat = seconds * (tuneMeta.tempo || 120) / 60;
         const minStart = next.reduce(function(min, ev) {
           if (ev.type !== 'note' && ev.type !== 'chord') return min;
           return Math.min(min, ev.startBeat || 0);
@@ -1228,7 +1259,17 @@ export default function NotationEditor(props) {
         return len;
       },
       getResolverDebug: function() {
-        return resolverDebugRef.current ? Object.assign({}, resolverDebugRef.current) : null;
+        const dbg = resolverDebugRef.current ? Object.assign({}, resolverDebugRef.current) : null;
+        if (!dbg) return null;
+        const s = sessionRef.current;
+        const ev = typeof dbg.eventIndex === 'number' ? s.events[dbg.eventIndex] : null;
+        dbg.eventSummary = ev
+          ? (ev.type + (ev.pitch && ev.pitch.step ? ':' + ev.pitch.step : ''))
+          : null;
+        dbg.selectionIds = s.selection.eventIds.slice();
+        dbg.mode = s.mode;
+        dbg.caretIndex = s.caretIndex;
+        return dbg;
       },
     };
     return function() {
@@ -1281,6 +1322,7 @@ export default function NotationEditor(props) {
         session={session}
         displayAbc={displayAbc}
         voiceStaffIndex={activeVoiceStaffIndex}
+        clickRects={selectionClickRects}
       />
       <GhostNoteOverlay session={session} />
     </div>
@@ -1293,7 +1335,6 @@ export default function NotationEditor(props) {
       tune={props.tune}
       mediaController={props.mediaController}
       backgroundEvents={backgroundPianoRollEvents}
-      hasRecordingGrid={hasRecordingGrid}
       dispatch={dispatch}
       onSelect={handlePianoRollSelect}
       onChange={handlePianoRollChange}
@@ -1409,6 +1450,7 @@ export default function NotationEditor(props) {
         containerRef={staffRef}
         onAction={handleShortcutAction}
         enabled={true}
+        noteInputActive={session.mode === EDITOR_MODES.NOTE_INPUT}
       />
 
       {isStaffView ? staffPanel
@@ -1526,7 +1568,6 @@ export default function NotationEditor(props) {
       <QuantizeDialog
         show={showQuantize}
         onHide={function() { setShowQuantize(false); }}
-        hasRecordingGrid={hasRecordingGrid}
         onApply={function(opts) {
           const s = sessionRef.current;
           dispatch({ type: 'SET_LAST_QUANTIZE_OPTIONS', options: opts });
@@ -1537,11 +1578,7 @@ export default function NotationEditor(props) {
           const rest = ids.length
             ? s.events.filter(function(ev) { return ids.indexOf(ev.id) < 0; })
             : [];
-          const beatTimes = opts.useRecordingGrid && props.tune.timedMelody
-            ? props.tune.timedMelody.beatTimes
-            : null;
           const quantized = quantizeVoiceEvents(target, Object.assign({}, tuneMeta, opts, {
-            beatTimes: beatTimes,
             beatsPerBar: beatsPerBarFromMeter(tuneMeta.meter),
             tempo: tuneMeta.tempo,
           }));
