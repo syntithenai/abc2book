@@ -53,6 +53,7 @@ import { filterTuneVoices } from '../abcVoiceFilter'
 import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
+import { recordTuneView } from '../tuneViewHistoryStore'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -67,6 +68,11 @@ export default function MusicSingle(props) {
     //var {searchYouTube} = useYouTubeSearch()
     //console.log('single',props)
     const [showMedia, setShowMedia] = useState(false)
+
+    useEffect(function() {
+      if (params.tuneId) recordTuneView(params.tuneId)
+    }, [params.tuneId])
+
     const [mediaLinkNumber, setMediaLinkNumber] = useState(params.mediaLinkNumber > 0 ? params.mediaLinkNumber : 0)
     const [mediaLoading, setMediaLoading] = useState(false)
     const [ytMediaPlayer, setYTMediaPlayer] = useState(null)
@@ -739,7 +745,7 @@ export default function MusicSingle(props) {
                    <div className="lyrics-panel-inner">
                      <div className="lyrics-panel-header">
                        {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
-                       <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} />
+                       <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} />
                        {tune.composer && <span> - {tune.composer}</span>}
                      </div>
                      {!squashLyrics ? (

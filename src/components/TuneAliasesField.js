@@ -10,6 +10,8 @@ export default function TuneAliasesField(props) {
       label={props.label != null ? props.label : 'Aliases'}
       placeholder={props.placeholder || 'Type an alternate title and press Enter'}
       addLabel="Add alias"
+      musicBrainzSuggest={false}
+      endAppend={props.endAppend}
     />
   )
 }

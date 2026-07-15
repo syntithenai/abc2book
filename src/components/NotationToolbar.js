@@ -3,8 +3,10 @@ import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
 import { BARLINE_TOKENS } from '../notation/notationConstants';
 import NotationToolsDropdown from './NotationToolsDropdown';
 import NotationVoicesDropdown from './NotationVoicesDropdown';
+import NotationClipboardToolbar from './NotationClipboardToolbar';
 import NotationMarksDropdown from './NotationMarksDropdown';
 import NotationTupletDropdown from './NotationTupletDropdown';
+import NotationViewSelector from './NotationViewSelector';
 import MidiInputPanel from './MidiInputPanel';
 
 const BARLINE_OPTIONS = [
@@ -43,13 +45,6 @@ export default function NotationToolbar(props) {
 
   return (
     <div className="notation-toolbar d-flex flex-wrap align-items-center gap-2">
-      <Button
-        size="lg"
-        variant="outline-secondary"
-        onClick={onOpenHelp}
-        title="Notation editor help"
-        aria-label="Notation editor help"
-      >{tunebook.icons.question}</Button>
       <NotationVoicesDropdown
         tune={props.tune}
         voiceNames={props.voiceNames}
@@ -58,10 +53,31 @@ export default function NotationToolbar(props) {
         onVoiceSelect={props.onVoiceSelect}
         onDisplayedVoicesChange={props.onDisplayedVoicesChange}
         onVoiceNameChange={props.onVoiceNameChange}
+        onVoiceNotesChange={props.onVoiceNotesChange}
         onAddVoice={props.onAddVoice}
         onDeleteVoice={props.onDeleteVoice}
         expanded={!!expand.voices}
       />
+      <NotationClipboardToolbar
+        hasSelection={!!(session.selection && session.selection.eventIds && session.selection.eventIds.length)}
+        clipboardEpoch={props.clipboardEpoch || 0}
+        onCopy={function() { if (props.onClipboardAction) props.onClipboardAction('copy'); }}
+        onCut={function() { if (props.onClipboardAction) props.onClipboardAction('cut'); }}
+        onPaste={function() { if (props.onClipboardAction) props.onClipboardAction('paste'); }}
+        onDelete={function() { if (props.onClipboardAction) props.onClipboardAction('deleteToRest'); }}
+        onSwap={function() { if (props.onClipboardAction) props.onClipboardAction('swapClipboard'); }}
+      />
+      {props.historyControls ? (
+        <span className="notation-toolbar-history">{props.historyControls}</span>
+      ) : null}
+      {props.onViewChange ? (
+        <NotationViewSelector
+          variant="buttonGroup"
+          tunebook={tunebook}
+          view={props.view}
+          onChange={props.onViewChange}
+        />
+      ) : null}
       <NotationToolsDropdown
         tunebook={tunebook}
         onOpenWizard={onOpenWizard}
@@ -147,6 +163,13 @@ export default function NotationToolbar(props) {
         onDiscardRecord={onDiscardRecord}
         pendingRecordCount={pendingRecordCount}
       />
+      <Button
+        size="lg"
+        variant="outline-secondary"
+        onClick={onOpenHelp}
+        title="Notation editor help"
+        aria-label="Notation editor help"
+      >{tunebook.icons.question}</Button>
     </div>
   );
 }

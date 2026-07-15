@@ -296,6 +296,20 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
+                    <Dropdown.Item as="div">
+                        <Link to="/feed">
+                            <Button size={navButtonSize} variant="primary" className="header-dropdown-btn" data-testid="header-feed-button">
+                                {props.tunebook.icons.words} Feed
+                            </Button>
+                        </Link>
+                    </Dropdown.Item>
+                    <Dropdown.Item as="div">
+                        <Link to="/privacy" onClick={function() { setTimeout(function() { props.tunebook.utils.scrollTo('topofpage') }, 300) }}>
+                            <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
+                                Privacy Policy
+                            </Button>
+                        </Link>
+                    </Dropdown.Item>
                     <div className="header-dropdown-account-trailing">
                         <Dropdown.Item as="div">
                             <Link to="/sets">

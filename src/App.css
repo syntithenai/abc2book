@@ -1472,6 +1472,68 @@ a.header-now-playing-label:focus {
   padding-left: 1.25em;
 }
 
+.books-page-meta {
+  clear: both;
+  width: 100%;
+  float: left;
+}
+
+.books-page-meta-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+}
+
+.books-page-meta-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35em 0.55em;
+  text-align: center;
+}
+
+.books-page-meta-sep {
+  opacity: 0.55;
+}
+
+.books-page-meta-right {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.books-page-meta-opensource-btn,
+.books-page-meta-opensource-btn:link,
+.books-page-meta-opensource-btn:visited,
+.books-page-meta-opensource-btn:hover,
+.books-page-meta-opensource-btn:focus,
+.books-page-meta-opensource-btn:active {
+  color: #fff !important;
+}
+
+.books-page-meta-github-icon {
+  width: 1.15em;
+  height: 1.15em;
+  margin-right: 0.35em;
+  vertical-align: -0.15em;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .books-page-meta-row {
+    grid-template-columns: 1fr;
+  }
+
+  .books-page-meta-right {
+    text-align: center;
+    white-space: normal;
+  }
+}
+
 .books-page-nav {
   position: sticky;
   top: 4.5em;
@@ -1943,8 +2005,66 @@ html.app-embed-frame .App {
   align-self: flex-start;
   margin-top: 0.2rem;
   margin-right: 0.15rem;
-  margin-left: 4.5rem;
+  margin-left: 5.5rem;
   margin-bottom: 0;
+}
+
+.add-tunes-header-add-btn {
+  margin-right: 0.5rem;
+  font-size: 1.35rem !important;
+  font-weight: 700;
+  padding: 0.55rem 1.35rem !important;
+  line-height: 1.2;
+  min-height: 3rem;
+}
+
+.add-tune-simple-form .add-tune-field-block {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 0.5rem;
+  background: #f7f8fa;
+  padding: 0.85rem 1rem;
+}
+
+.add-tune-simple-form .add-tune-books-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.add-tune-simple-form .add-tune-books-tags > .add-tune-inner-block {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+.add-tune-simple-form .add-tune-inner-block {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 0.5rem;
+  background: #f7f8fa;
+  padding: 0.65rem 0.85rem;
+}
+
+.add-tune-simple-form .add-tune-youtube-results {
+  max-height: 16rem;
+  overflow: auto;
+}
+
+.add-tune-simple-form .add-tune-label-control-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.add-tune-simple-form .add-tune-label-control-row--tight {
+  gap: 0.55rem;
+}
+
+.add-tune-simple-form .add-tune-label-control-row > .form-label {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+  padding-right: 0.15rem;
 }
 
 .add-page-close {
@@ -4043,6 +4163,12 @@ button img:after {
   white-space: nowrap;
 }
 
+/* Custom ▾ title already shows a caret; hide Bootstrap's ::after duplicate. */
+.select-input-options-dropdown.dropdown-toggle::after,
+.chip-list-options-dropdown.dropdown-toggle::after {
+  display: none;
+}
+
 .platform-mobile .tune-list-filter-btns {
   display: none;
 }
@@ -5318,6 +5444,46 @@ button img:after {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
+.abc-editor-info-form .abc-editor-info-field-block {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 0.5rem;
+  background: #f7f8fa;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: 0.65rem;
+}
+
+.abc-editor-info-form .abc-editor-info-books-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+
+.abc-editor-info-form .abc-editor-info-books-tags > .abc-editor-info-field-block {
+  flex: 1 1 12rem;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.abc-editor-info-form .abc-editor-info-label-control-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.abc-editor-info-form .abc-editor-info-label-control-row > .form-label {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+  padding-right: 0.15rem;
+}
+
+.abc-editor-info-form .abc-editor-info-section:has(.abc-editor-info-field-block) {
+  padding-bottom: 0.85rem;
+}
+
 .abc-editor-info-form .abc-editor-info-section:nth-of-type(even) {
   background: var(--app-brand-muted);
   border-left-color: var(--app-brand-strong);
@@ -5702,6 +5868,36 @@ button img:after {
 
 .help-section-privacy {
   border-bottom: none;
+}
+
+.privacy-policy-doc h2 {
+  margin-bottom: 0.35rem;
+}
+
+.privacy-policy-updated {
+  margin: 0 0 1rem;
+  opacity: 0.8;
+}
+
+.privacy-policy-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.privacy-policy-body p,
+.privacy-policy-body ul,
+.privacy-policy-body ol {
+  line-height: 1.55;
+}
+
+.privacy-policy-body ul,
+.privacy-policy-body > ol {
+  margin-bottom: 0.75rem;
+}
+
+.privacy-policy-body li {
+  margin-bottom: 0.4rem;
 }
 
 .help-footer {

@@ -10,6 +10,7 @@ import { buildGoogleArtistsSearchUrl } from '../artistsSearchClient'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 export default function ArtistsSearchButton({
   tuneId,
@@ -22,6 +23,7 @@ export default function ArtistsSearchButton({
   disabled,
   tunebook,
   inline,
+  children,
 }) {
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
@@ -134,31 +136,50 @@ export default function ArtistsSearchButton({
     })
   }
 
-  return (
-    <>
-      <FieldLookupButtonGroup
-        automaticLookup={true}
-        showExternal={false}
-        busy={busy}
-        disabled={!canSearch || disabled}
-        externalUrl={googleUrl}
-        externalLinkIcon={externalLinkIcon}
-        onSearch={run}
-        suggestionCount={awaitingCandidates.length}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={openAwaitingSuggestions}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        inline={inline}
-        progress={lookup.progressPercent}
-      />
-      <SearchProgressBar
-        visible={busy}
-        percent={lookup.progressPercent}
-        message={lookup.progressMessage}
-        defaultMessage="Searching for artists..."
-      />
-      {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <>
+        <FieldLookupButtonGroup
+          automaticLookup={true}
+          showExternal={!!(googleUrl && externalLinkIcon)}
+          busy={busy}
+          disabled={!canSearch || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          onSearch={run}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          inline={inline}
+          progress={lookup.progressPercent}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
+        />
+        <SearchProgressBar
+          visible={busy}
+          percent={lookup.progressPercent}
+          message={lookup.progressMessage}
+          defaultMessage="Searching for artists..."
+        />
+      </>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: function(candidate) {
+        finishApply(candidate, null, { keepOpen: true })
+      },
+      getLabel: function(candidate) {
+        const role = candidate && candidate.role === 'writer'
+          ? 'Writer'
+          : (candidate && candidate.role === 'performer' ? 'Performer' : '')
+        const name = candidate && candidate.artist ? candidate.artist : ''
+        return role ? (name + ' (' + role + ')') : name
+      },
+    }),
+    errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
+    modals: (
       <SearchResultPickerModal
         show={showPicker}
         title="Choose artists to add"
@@ -194,6 +215,6 @@ export default function ArtistsSearchButton({
           closePicker(addedRef.current)
         }}
       />
-    </>
-  )
+    ),
+  })
 }

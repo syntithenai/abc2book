@@ -22,10 +22,7 @@ import { pingYoutubeExtension } from '../youtubeExtensionClient'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
-import {
-  loadOfflineMediaSettings,
-  saveOfflineMediaSettings,
-} from '../offlineMediaSettings'
+import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -51,6 +48,7 @@ import { runMergeChecksNow } from '../mergeCheckTrigger'
 const TAB_BACKGROUND_JOBS = 'background-jobs'
 const TAB_APPEARANCE = 'appearance'
 const TAB_MEDIA = 'media'
+const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
 
 function formatFeatureSummary(features) {
@@ -107,7 +105,6 @@ export default function SettingsPage(props) {
   const totalTuneCount = Object.keys(tunes).length
   const lockedCacheTuneCount = countMediaCacheLockedTunes(tunes)
   const [mediaProxyUrl, setMediaProxyUrl] = useState(getSavedMediaProxyBase())
-  const [offlineMediaSettings, setOfflineMediaSettings] = useState(loadOfflineMediaSettings())
   const [audioCompressSettings, setAudioCompressSettings] = useState(loadAudioCompressSettings())
   const [audioCompressCapabilities, setAudioCompressCapabilities] = useState(null)
   const [performanceBindings, setPerformanceBindingsState] = useState(getPerformanceBindings())
@@ -204,13 +201,6 @@ export default function SettingsPage(props) {
     setSavedMediaProxyBase('')
     setMediaProxyUrl('')
     notifyMediaProxySettingsChanged()
-  }
-
-  function updateOfflineMediaSetting(key, checked) {
-    const next = saveOfflineMediaSettings(Object.assign({}, offlineMediaSettings, {
-      [key]: checked,
-    }))
-    setOfflineMediaSettings(next)
   }
 
   function updateAudioCompressFormat(format) {
@@ -362,6 +352,9 @@ export default function SettingsPage(props) {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_MEDIA}>Media</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey={TAB_PROVIDERS}>Providers</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
@@ -557,16 +550,6 @@ export default function SettingsPage(props) {
           <div className="app-surface-panel App-settings-section">
             <div className="settings-offline-media-row">
               <span className="settings-offline-media-heading">Audio Cache</span>
-              <input
-                id="offline-autocache-on-play"
-                type="checkbox"
-                className="settings-offline-media-check-input"
-                checked={offlineMediaSettings.autocacheOnPlay}
-                onChange={function(e) { updateOfflineMediaSetting('autocacheOnPlay', e.target.checked) }}
-              />
-              <label htmlFor="offline-autocache-on-play" className="settings-offline-media-label">
-                Automatically cache media after playback starts
-              </label>
               <FormFieldHelp
                 title={SETTINGS_FIELD_HELP.offlineMedia.title}
                 body={SETTINGS_FIELD_HELP.offlineMedia.body}
@@ -652,6 +635,10 @@ export default function SettingsPage(props) {
               </Button>
             </div>
           </div>
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_PROVIDERS}>
+          <ProvidersSettingsSection resolverStatus={resolverStatus} />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PEDAL}>

@@ -14,6 +14,7 @@ import {
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 export default function AliasesSearchButton({
   tuneId,
@@ -28,6 +29,7 @@ export default function AliasesSearchButton({
   resolverAvailable: resolverAvailableProp,
   token,
   inline,
+  children,
 }) {
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
@@ -81,7 +83,9 @@ export default function AliasesSearchButton({
 
   const sessionUrl = buildTheSessionAliasesSearchUrl(title)
   const googleUrl = buildGoogleAliasesSearchUrl(title, artist)
-  const externalUrl = resolverAvailable ? sessionUrl : googleUrl
+  // Prefer a plain-English Google query; The Session title search is too minimal
+  // as an external aliases lookup (even when the resolver is available).
+  const externalUrl = googleUrl || sessionUrl
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
@@ -150,31 +154,46 @@ export default function AliasesSearchButton({
     })
   }
 
-  return (
-    <>
-      <FieldLookupButtonGroup
-        automaticLookup={true}
-        showExternal={false}
-        busy={busy}
-        disabled={!canSearch || disabled}
-        externalUrl={externalUrl}
-        externalLinkIcon={externalLinkIcon}
-        onSearch={run}
-        suggestionCount={awaitingCandidates.length}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={openAwaitingSuggestions}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        inline={inline}
-        progress={lookup.progressPercent}
-      />
-      <SearchProgressBar
-        visible={busy}
-        percent={lookup.progressPercent}
-        message={lookup.progressMessage}
-        defaultMessage="Searching for aliases..."
-      />
-      {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <>
+        <FieldLookupButtonGroup
+          automaticLookup={true}
+          showExternal={!!(externalUrl && externalLinkIcon)}
+          busy={busy}
+          disabled={!canSearch || disabled}
+          externalUrl={externalUrl}
+          externalLinkIcon={externalLinkIcon}
+          onSearch={run}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          inline={inline}
+          progress={lookup.progressPercent}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
+        />
+        <SearchProgressBar
+          visible={busy}
+          percent={lookup.progressPercent}
+          message={lookup.progressMessage}
+          defaultMessage="Searching for aliases..."
+        />
+      </>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: function(candidate) {
+        finishApply(candidate, null, { keepOpen: true })
+      },
+      getLabel: function(candidate) {
+        return candidate && candidate.alias ? candidate.alias : ''
+      },
+    }),
+    errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
+    modals: (
       <SearchResultPickerModal
         show={showPicker}
         title="Choose aliases to add"
@@ -207,6 +226,6 @@ export default function AliasesSearchButton({
           closePicker(addedRef.current)
         }}
       />
-    </>
-  )
+    ),
+  })
 }

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button, ButtonGroup, Dropdown } from 'react-bootstrap';
 import {
   EDITOR_VIEW_MODES,
+  EDITOR_MUSIC_SUBVIEWS,
   normalizeEditorViewMode,
   getEditorViewModeLabel,
   viewModeToDisplayFlags,
@@ -226,7 +227,11 @@ function EditorViewModeToolbar(props) {
       aria-label="Editor view"
     >
       {EDITOR_VIEW_MODES.map(function(mode) {
-        const active = currentMode === mode.id;
+        // For music subviews (pianoRoll, notationAbc), highlight the Music tab as active
+        var active = currentMode === mode.id;
+        if (!active && EDITOR_MUSIC_SUBVIEWS.indexOf(currentMode) !== -1) {
+          active = mode.id === 'music';
+        }
         const icon = renderEditorModeIcon(mode.id, tunebook);
         return (
           <Button

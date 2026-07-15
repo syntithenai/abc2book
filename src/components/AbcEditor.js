@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
-import {useParams, Link, useSearchParams} from 'react-router-dom'
+import {useParams, useSearchParams} from 'react-router-dom'
 import abcjs from "abcjs";
-import {Container, Row, Col, Tabs, Tab, Form, Button, Modal} from 'react-bootstrap'
+import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal} from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import Abc from './Abc'
 import NotationEditor from './NotationEditor'
@@ -23,11 +23,13 @@ import SelectInput from './SelectInput'
 import useMusicBrainz from '../useMusicBrainz'
 import ChordsSearchButton from './ChordsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
+import TitleSuggestionOffer from './TitleSuggestionOffer'
+import { buildTitleSuggestions } from '../composerDiscoveryUtils'
+import { findTuneCandidates } from '../voiceCommandUtils'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import GenreSearchButton from './GenreSearchButton'
 import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
-import NotationSearchButton from './NotationSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
@@ -48,6 +50,8 @@ import {
 } from '../viewModeUtils'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
+import BookSelectorModal from './BookSelectorModal'
+import TagsSelectorModal from './TagsSelectorModal'
 import { mergeBibliographicList } from '../tuneBibliographicUtils'
 import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
@@ -75,9 +79,29 @@ export default function AbcEditor(props) {
   const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
+  const [abcRecordExpanded, setAbcRecordExpanded] = useState(false)
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
+  const [composerTitleSuggestions, setComposerTitleSuggestions] = useState([])
+  const musicBrainzTitleRef = useRef('')
   const backgroundInfoSaveTimeout = useRef(null)
+
+  function refreshTitleSuggestions(currentTitle, musicBrainzTitle) {
+    const mb = musicBrainzTitle != null
+      ? String(musicBrainzTitle || '').trim()
+      : musicBrainzTitleRef.current
+    if (musicBrainzTitle != null) {
+      musicBrainzTitleRef.current = mb
+    }
+    const next = buildTitleSuggestions({
+      currentTitle: currentTitle,
+      musicBrainzTitle: mb,
+      tunes: props.tunes,
+      findTuneCandidates: findTuneCandidates,
+      limit: 5,
+    })
+    setComposerTitleSuggestions(next)
+  }
   const tuneId = tune && tune.id
 
   useEffect(function() {
@@ -220,7 +244,10 @@ export default function AbcEditor(props) {
   function addVoice() {
     var numVoices = Object.keys(tune.voices).length
     var key = (numVoices + 1) + ''
-    tune.voices[key] = { meta: 'Voice ' + key, notes: [''] }
+    tune.voices[key] = {
+      meta: 'Voice ' + key + ' clef=treble',
+      notes: ['%%MIDI program 0', ''],
+    }
     tune.id = params.tuneId
     saveTune(tune)
     setCurrentVoice(numVoices)
@@ -234,7 +261,7 @@ export default function AbcEditor(props) {
     delete tune.voices[key];
     const remaining = Object.keys(tune.voices);
     if (remaining.length === 0) {
-      tune.voices['1'] = { meta: 'Voice 1', notes: [''] };
+      tune.voices['1'] = { meta: 'Voice 1 clef=treble', notes: ['%%MIDI program 0', ''] };
       setCurrentVoice(0);
     } else if (deleteIndex <= currentVoice) {
       setCurrentVoice(Math.max(0, currentVoice - 1));
@@ -285,34 +312,9 @@ export default function AbcEditor(props) {
         forceRefresh={props.forceRefresh}
         controlledView={editorViewModeToNotationView(editorViewMode)}
         hideViewSelector={true}
+        onEditorViewChange={props.onEditorViewModeChange}
         onHelpModeChange={props.onNotationHelpModeChange}
-        toolbarEnd={(
-          <NotationSearchButton
-            tuneId={params.tuneId || tune.id}
-            title={tune.name || ''}
-            artist={tune.composer || ''}
-            rhythm={tune.rhythm || ''}
-            currentGenre={tune.genre || ''}
-            token={props.token}
-            tunebook={props.tunebook}
-            resolverAvailable={resolverAvailable}
-            disabled={!(tune && tune.name && String(tune.name).trim())}
-            onGenreAccept={function(genre) {
-              tune.genre = genre
-              tune.id = params.tuneId
-              saveTune(tune)
-            }}
-            onNotation={function(candidate) {
-              const abcText = candidate && candidate.abc ? String(candidate.abc) : ''
-              if (!abcText || !props.tunebook || !props.tunebook.abcTools) return
-              const imported = props.tunebook.abcTools.abc2json(abcText)
-              if (!imported) return
-              imported.id = tune.id
-              props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
-              if (typeof props.forceRefresh === 'function') props.forceRefresh()
-            }}
-          />
-        )}
+        historyControls={props.historyControls}
       />
     )
   }
@@ -398,14 +400,22 @@ export default function AbcEditor(props) {
       return renderMusicEditor()
     }
     if (editorViewMode === 'info') {
+      const selectedBooks = Array.isArray(tune.books)
+        ? tune.books.map(function(item) { return String(item || '').trim() }).filter(Boolean)
+        : []
+      const primaryBook = selectedBooks[0] || ''
+      const selectedTags = Array.isArray(tune.tags)
+        ? tune.tags.map(function(item) { return String(item || '').trim() }).filter(Boolean)
+        : []
       return (
                     <>
                     <TuneFieldSuggestionsStrip tuneId={tuneId} />
                     <Form className="abc-editor-info-form">
                       <div className="abc-editor-info-section">
                       <Row>
-                        <Col xs={12} md={5}>
-                          <Form.Group className="mb-3" controlId="title">
+                        <Col xs={12} md={6}>
+                          <div className="abc-editor-info-field-block">
+                          <Form.Group className="mb-0" controlId="title">
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                               <Form.Label style={{ marginBottom: 0 }}>Title</Form.Label>
                               <CapitalizeTitleButton
@@ -417,148 +427,305 @@ export default function AbcEditor(props) {
                                 }}
                               />
                             </div>
-                            <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; saveTune(tune)  }} />
-                          </Form.Group>
-                        </Col>
-                        <Col xs={12} md={4}>
-                          <Form.Group className="mb-3" controlId="composer">
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                              <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
-                              <ComposerSearchButton
-                                tuneId={params.tuneId || tune.id}
-                                title={tune.name || ''}
-                                composer={tune && tune.composer ? tune.composer : ''}
-                                titleHint={tune.name || ''}
-                                token={props.token}
-                                tunebook={props.tunebook}
-                                resolverAvailable={resolverAvailable}
-                                disabled={!(tune && tune.name && String(tune.name).trim())}
-                                onComposer={function(result) {
-                                  if (result && result.artist) {
-                                    tune.composer = result.artist
-                                    tune.id = params.tuneId
-                                    saveTune(tune)
-                                  }
-                                }}
-                              />
-                              <FieldLookupReviewButton
-                                tuneId={params.tuneId || tune.id}
-                                kind="composer"
-                                fallbackTitle={tune.name || ''}
-                                currentValue={tune && tune.composer ? tune.composer : ''}
-                                onApply={function(candidate, _job, meta) {
-                                  if (meta && (meta.deferred || meta.keepCurrent)) return
-                                  if (candidate && candidate.artist) {
-                                    tune.composer = candidate.artist
-                                    tune.id = params.tuneId
-                                    saveTune(tune)
-                                  }
-                                }}
-                              />
-                            </div>
-                            <SelectInput 
-                              onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune)  }} 
-                              value={tune && tune.composer ? tune.composer : ''}  
-                              options={artistOptions} 
-                            />  
-                          </Form.Group>
-                        </Col>
-                        <Col xs={12} md={3}>
-                          <Form.Group className="mb-3" controlId="genre">
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-                              <FormLabelWithHelp label="Genre" htmlFor="genre" helpBody={EDITOR_INFO_FIELD_HELP.genre.body} helpTitle={EDITOR_INFO_FIELD_HELP.genre.title} />
-                              <GenreSearchButton
-                                tuneId={params.tuneId || tune.id}
-                                title={tune.name || ''}
-                                artist={tune.composer || ''}
-                                rhythm={tune.rhythm || ''}
-                                currentGenre={tune.genre || ''}
-                                backgroundInfo={tune.backgroundInfo || ''}
-                                tunebook={props.tunebook}
-                                disabled={!(tune && tune.name && String(tune.name).trim())}
-                                onGenre={function(genre) {
-                                  tune.genre = genre
-                                  tune.id = params.tuneId
-                                  saveTune(tune)
-                                }}
-                              />
-                            </div>
-                            <CreatableSelect
-                              inputId="genre"
-                              value={genreSelectValue(tune.genre)}
-                              onChange={function(val) {
-                                tune.genre = val ? val.label : ''
+                            <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
+                              tune.name = e.target.value
+                              tune.id = params.tuneId
+                              refreshTitleSuggestions(e.target.value)
+                              saveTune(tune)
+                            }} />
+                            <TitleSuggestionOffer
+                              candidates={composerTitleSuggestions}
+                              onAccept={function(nextTitle) {
+                                tune.name = nextTitle
                                 tune.id = params.tuneId
+                                musicBrainzTitleRef.current = ''
+                                setComposerTitleSuggestions([])
                                 saveTune(tune)
                               }}
-                              options={getMusicGenreSelectOptions()}
-                              isClearable={true}
-                              blurInputOnSelect={true}
-                              createOptionPosition="first"
-                              allowCreateWhileLoading={true}
-                              placeholder="eg Folk, Jazz"
+                              onDismiss={function() {
+                                musicBrainzTitleRef.current = ''
+                                setComposerTitleSuggestions([])
+                              }}
                             />
                           </Form.Group>
+                          </div>
                         </Col>
-                      </Row>
-                      <Row>
                         <Col xs={12} md={6}>
-                          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.6em', flexWrap: 'wrap' }}>
-                            <div style={{ flex: '1 1 12em' }}>
-                              <TuneArtistsField
-                                value={tune.artists}
-                                onChange={function(artists) {
-                                  tune.artists = artists
-                                  tune.id = params.tuneId
-                                  saveTune(tune)
-                                }}
-                              />
-                            </div>
-                            <ArtistsSearchButton
+                          <div className="abc-editor-info-field-block">
+                          <Form.Group className="mb-0" controlId="composer">
+                            <ComposerSearchButton
                               tuneId={params.tuneId || tune.id}
                               title={tune.name || ''}
-                              artist={tune.composer || ''}
-                              existingArtists={tune.artists}
+                              composer={tune && tune.composer ? tune.composer : ''}
+                              titleHint={tune.name || ''}
+                              token={props.token}
                               tunebook={props.tunebook}
+                              resolverAvailable={resolverAvailable}
                               disabled={!(tune && tune.name && String(tune.name).trim())}
+                              existingArtists={tune.artists}
+                              onComposer={function(result) {
+                                if (result && result.artist) {
+                                  tune.composer = result.artist
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                }
+                              }}
                               onAddArtist={function(artistName) {
                                 tune.artists = mergeBibliographicList(tune.artists, [artistName])
                                 tune.id = params.tuneId
                                 saveTune(tune)
                               }}
-                            />
-                          </div>
-                        </Col>
-                        <Col xs={12} md={6}>
-                          <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.6em', flexWrap: 'wrap' }}>
-                            <div style={{ flex: '1 1 12em' }}>
-                              <TuneAliasesField
-                                value={tune.aliases}
-                                onChange={function(aliases) {
-                                  tune.aliases = aliases
-                                  tune.id = params.tuneId
-                                  saveTune(tune)
-                                }}
-                              />
-                            </div>
-                            <AliasesSearchButton
-                              tuneId={params.tuneId || tune.id}
-                              title={tune.name || ''}
-                              artist={tune.composer || ''}
-                              existingAliases={tune.aliases}
-                              tunebook={props.tunebook}
-                              resolverAvailable={resolverAvailable}
-                              token={props.token}
-                              disabled={!(tune && tune.name && String(tune.name).trim())}
-                              onAddAlias={function(alias) {
-                                tune.aliases = mergeBibliographicList(tune.aliases, [alias])
-                                tune.id = params.tuneId
-                                saveTune(tune)
+                              onSuggestedTitle={function(suggestion) {
+                                refreshTitleSuggestions(
+                                  tune.name || '',
+                                  suggestion && suggestion.title ? suggestion.title : ''
+                                )
                               }}
-                            />
+                            >
+                              {function(api) {
+                                return (
+                                  <>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                                      <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
+                                      {api.buttonGroup}
+                                      <FieldLookupReviewButton
+                                        tuneId={params.tuneId || tune.id}
+                                        kind="composer"
+                                        fallbackTitle={tune.name || ''}
+                                        currentValue={tune && tune.composer ? tune.composer : ''}
+                                        onApply={function(candidate, _job, meta) {
+                                          if (meta && (meta.deferred || meta.keepCurrent)) return
+                                          if (candidate && candidate.artist) {
+                                            tune.composer = candidate.artist
+                                            tune.id = params.tuneId
+                                            saveTune(tune)
+                                          }
+                                        }}
+                                      />
+                                    </div>
+                                    <SelectInput
+                                      onChange={function(val) { tune.composer = val; tune.id = params.tuneId; saveTune(tune) }}
+                                      value={tune && tune.composer ? tune.composer : ''}
+                                      options={artistOptions}
+                                      endAppend={api.suggestionsDropdown}
+                                    />
+                                    {api.errorNode}
+                                  </>
+                                )
+                              }}
+                            </ComposerSearchButton>
+                          </Form.Group>
                           </div>
                         </Col>
                       </Row>
+                      </div>
+
+                      <div className="abc-editor-info-section">
+                      <Row>
+                        <Col xs={12} md={4}>
+                          <div className="abc-editor-info-field-block">
+                          <Form.Group className="mb-0" controlId="genre">
+                            <GenreSearchButton
+                              tuneId={params.tuneId || tune.id}
+                              title={tune.name || ''}
+                              artist={tune.composer || ''}
+                              rhythm={tune.rhythm || ''}
+                              currentGenre={tune.genre || ''}
+                              backgroundInfo={tune.backgroundInfo || ''}
+                              tunebook={props.tunebook}
+                              disabled={!(tune && tune.name && String(tune.name).trim())}
+                              onGenre={function(genre) {
+                                tune.genre = genre
+                                tune.id = params.tuneId
+                                saveTune(tune)
+                              }}
+                            >
+                              {function(api) {
+                                return (
+                                  <>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                                      <Form.Label htmlFor="genre" style={{ marginBottom: 0 }}>Genre</Form.Label>
+                                      {api.buttonGroup}
+                                    </div>
+                                    <div className="d-flex align-items-stretch gap-0 field-lookup-input-with-suggestions">
+                                      <div style={{ flex: '1 1 auto', minWidth: 0 }}>
+                                        <CreatableSelect
+                                          inputId="genre"
+                                          value={genreSelectValue(tune.genre)}
+                                          onChange={function(val) {
+                                            tune.genre = val ? val.label : ''
+                                            tune.id = params.tuneId
+                                            saveTune(tune)
+                                          }}
+                                          options={getMusicGenreSelectOptions()}
+                                          isClearable={true}
+                                          blurInputOnSelect={true}
+                                          createOptionPosition="first"
+                                          allowCreateWhileLoading={true}
+                                          placeholder="eg Folk, Jazz"
+                                        />
+                                      </div>
+                                      {api.suggestionsDropdown}
+                                    </div>
+                                    {api.errorNode}
+                                  </>
+                                )
+                              }}
+                            </GenreSearchButton>
+                          </Form.Group>
+                          </div>
+                        </Col>
+                        <Col xs={12} md={4}>
+                          <div className="abc-editor-info-field-block">
+                          <ArtistsSearchButton
+                            tuneId={params.tuneId || tune.id}
+                            title={tune.name || ''}
+                            artist={tune.composer || ''}
+                            existingArtists={tune.artists}
+                            tunebook={props.tunebook}
+                            disabled={!(tune && tune.name && String(tune.name).trim())}
+                            onAddArtist={function(artistName) {
+                              tune.artists = mergeBibliographicList(tune.artists, [artistName])
+                              tune.id = params.tuneId
+                              saveTune(tune)
+                            }}
+                          >
+                            {function(api) {
+                              return (
+                                <>
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                                    <Form.Label style={{ marginBottom: 0 }}>Artists</Form.Label>
+                                    {api.buttonGroup}
+                                  </div>
+                                  <TuneArtistsField
+                                    label=""
+                                    className="mb-0"
+                                    value={tune.artists}
+                                    onChange={function(artists) {
+                                      tune.artists = artists
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}
+                                    endAppend={api.suggestionsDropdown}
+                                  />
+                                  {api.errorNode}
+                                </>
+                              )
+                            }}
+                          </ArtistsSearchButton>
+                          </div>
+                        </Col>
+                        <Col xs={12} md={4}>
+                          <div className="abc-editor-info-field-block">
+                          <AliasesSearchButton
+                            tuneId={params.tuneId || tune.id}
+                            title={tune.name || ''}
+                            artist={tune.composer || ''}
+                            existingAliases={tune.aliases}
+                            tunebook={props.tunebook}
+                            resolverAvailable={resolverAvailable}
+                            token={props.token}
+                            disabled={!(tune && tune.name && String(tune.name).trim())}
+                            onAddAlias={function(alias) {
+                              tune.aliases = mergeBibliographicList(tune.aliases, [alias])
+                              tune.id = params.tuneId
+                              saveTune(tune)
+                            }}
+                          >
+                            {function(api) {
+                              return (
+                                <>
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                                    <Form.Label style={{ marginBottom: 0 }}>Aliases</Form.Label>
+                                    {api.buttonGroup}
+                                  </div>
+                                  <TuneAliasesField
+                                    label=""
+                                    className="mb-0"
+                                    value={tune.aliases}
+                                    onChange={function(aliases) {
+                                      tune.aliases = aliases
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}
+                                    endAppend={api.suggestionsDropdown}
+                                  />
+                                  {api.errorNode}
+                                </>
+                              )
+                            }}
+                          </AliasesSearchButton>
+                          </div>
+                        </Col>
+                      </Row>
+                      </div>
+
+                      <div className="abc-editor-info-section">
+                        <div className="abc-editor-info-books-tags">
+                          <div className="abc-editor-info-field-block">
+                            <div className="abc-editor-info-label-control-row">
+                              <Form.Label className="mb-0">Book(s)</Form.Label>
+                              {props.tunebook ? (
+                                <ButtonGroup style={{ backgroundColor: '#3f81e3', borderRadius: '10px' }}>
+                                  {primaryBook ? (
+                                    <Button title="Clear book" onClick={function() {
+                                      tune.books = []
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}>
+                                      {props.tunebook.icons && props.tunebook.icons.closecircle ? props.tunebook.icons.closecircle : '×'}
+                                    </Button>
+                                  ) : null}
+                                  <BookSelectorModal
+                                    forceRefresh={props.forceRefresh}
+                                    title="Select a Book"
+                                    tunebook={props.tunebook}
+                                    value={primaryBook}
+                                    onChange={function(val) {
+                                      tune.books = val ? [val] : []
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}
+                                    defaultOptions={props.tunebook.getTuneBookOptions}
+                                    searchOptions={props.tunebook.getSearchTuneBookOptions}
+                                    triggerElement={
+                                      <Button style={{ marginLeft: '0.1em', color: 'black' }}>
+                                        {props.tunebook.icons && props.tunebook.icons.book ? props.tunebook.icons.book : null}{' '}
+                                        {primaryBook ? <b>{primaryBook}</b> : 'Select a book'}
+                                      </Button>
+                                    }
+                                  />
+                                </ButtonGroup>
+                              ) : null}
+                            </div>
+                          </div>
+                          <div className="abc-editor-info-field-block">
+                            <div className="abc-editor-info-label-control-row">
+                              <Form.Label className="mb-0">Tags</Form.Label>
+                              {props.tunebook ? (
+                                <div className="d-flex align-items-center gap-2 flex-wrap">
+                                  <TagsSelectorModal
+                                    forceRefresh={props.forceRefresh}
+                                    tunebook={props.tunebook}
+                                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                                    defaultOptions={props.tunebook.getTuneTagOptions}
+                                    searchOptions={props.tunebook.getSearchTuneTagOptions}
+                                    value={selectedTags}
+                                    onChange={function(value) {
+                                      tune.tags = Array.isArray(value) ? value : []
+                                      tune.id = params.tuneId
+                                      saveTune(tune)
+                                    }}
+                                    showTags={true}
+                                  />
+                                  {selectedTags.map(function(tag) {
+                                    return <Button key={tag} size="sm" variant="outline-info">{tag}</Button>
+                                  })}
+                                </div>
+                              ) : null}
+                            </div>
+                          </div>
+                        </div>
                       </div>
 
                       <div className="abc-editor-info-section abc-editor-info-section-primary">
@@ -581,9 +748,6 @@ export default function AbcEditor(props) {
                           <Form.Group className="mb-3" controlId="tuning">
                             <FormLabelWithHelp label="Tuning" htmlFor="tuning" helpBody={EDITOR_INFO_FIELD_HELP.tuning.body} helpTitle={EDITOR_INFO_FIELD_HELP.tuning.title} />
                             <Form.Control type="text" value={tune.tuning ? tune.tuning : ''} onChange={function(e) {tune.tuning = e.target.value;tune.id = params.tuneId; saveTune(tune)  }}/>
-                            {params.tuneId ? (
-                              <Link to={'/tuner?tuneId=' + encodeURIComponent(params.tuneId)} className="small">Open tuner</Link>
-                            ) : null}
                           </Form.Group>
                         </Col>
                         <Col className="abc-editor-info-field-secondary" xs={4} md={3}>
@@ -608,6 +772,12 @@ export default function AbcEditor(props) {
 
                       <div className="abc-editor-info-section abc-editor-info-section-primary">
                       <Row className="abc-editor-info-primary-row">
+                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
+                          <Form.Group className="mb-3" controlId="tempo">
+                            <Form.Label>Tempo</Form.Label>
+                            <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                          </Form.Group>
+                        </Col>
                         <Col className="abc-editor-info-field-primary" xs={12} md={5}>
                           <Form.Group className="mb-3" controlId="meter">
                             <Form.Label>Time Signature</Form.Label>
@@ -641,12 +811,6 @@ export default function AbcEditor(props) {
                           </Form.Group>
                         </Col>
                         <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
-                          <Form.Group className="mb-3" controlId="tempo">
-                            <Form.Label>Tempo</Form.Label>
-                            <Form.Control  type='number' placeholder="eg 100" value={tune.tempo ? tune.tempo : ''} onChange={function(e) {tune.tempo = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                          </Form.Group>
-                        </Col>
-                        <Col className="abc-editor-info-field-secondary abc-editor-info-field-narrow" xs={4} md={2}>
                           <Form.Group className="mb-3" controlId="repeats">
                             <FormLabelWithHelp label="Repeats" htmlFor="repeats" helpBody={EDITOR_INFO_FIELD_HELP.repeats.body} helpTitle={EDITOR_INFO_FIELD_HELP.repeats.title} />
                             <Form.Control  type='number' placeholder="eg 3" value={tune.repeats ? tune.repeats : ''} onChange={function(e) {tune.repeats = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
@@ -657,8 +821,8 @@ export default function AbcEditor(props) {
 
                       <div className="abc-editor-info-section abc-editor-info-section-practice">
                       <div className="abc-editor-info-section-heading">Practice</div>
-                      <Row className="g-2 align-items-end">
-                        <Col xs={12} lg={4}>
+                      <Row className="g-2">
+                        <Col xs={12} md={8}>
                           <Form.Group className="mb-3" controlId="suitableForPractice">
                             <FormLabelWithHelp label="Suitable for practice" helpBody={EDITOR_INFO_FIELD_HELP.suitableForPractice.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableForPractice.title} />
                             <Form.Check
@@ -673,8 +837,6 @@ export default function AbcEditor(props) {
                               }}
                             />
                           </Form.Group>
-                        </Col>
-                        <Col xs={12} lg={8}>
                           <Form.Group className="mb-3" controlId="suitableFor">
                             <FormLabelWithHelp label="Suitable for" helpBody={EDITOR_INFO_FIELD_HELP.suitableFor.body} helpTitle={EDITOR_INFO_FIELD_HELP.suitableFor.title} />
                             <div className="abc-editor-suitable-for">
@@ -707,119 +869,94 @@ export default function AbcEditor(props) {
                             </div>
                           </Form.Group>
                         </Col>
+                        <Col xs={12} md={4}>
+                          <Row className="g-2">
+                            <Col xs={6}>
+                              <Form.Group className="mb-3" controlId="boost">
+                                <FormLabelWithHelp label="Confidence" htmlFor="boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
+                                <Form.Control type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                              </Form.Group>
+                            </Col>
+                            <Col xs={6}>
+                              <Form.Group className="mb-3" controlId="difficulty">
+                                <FormLabelWithHelp label="Difficulty" htmlFor="difficulty" helpBody={EDITOR_INFO_FIELD_HELP.difficulty.body} helpTitle={EDITOR_INFO_FIELD_HELP.difficulty.title} />
+                                <Form.Control type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
+                              </Form.Group>
+                            </Col>
+                          </Row>
+                        </Col>
                       </Row>
                       </div>
 
-                      <div className="abc-editor-info-section abc-editor-info-section-details">
-                      <Row className="abc-editor-info-compact-row g-2 align-items-end">
-                        <Col xs="auto" className="abc-editor-info-compact-field">
-                          <Form.Group className="mb-3" controlId="boost">
-                            <FormLabelWithHelp label="Boost" htmlFor="boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
-                            <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.boost ? tune.boost : ''} onChange={function(e) {tune.boost = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                          </Form.Group>
-                        </Col>
-                        <Col xs="auto" className="abc-editor-info-compact-field">
-                          <Form.Group className="mb-3" controlId="difficulty">
-                            <FormLabelWithHelp label="Difficulty" htmlFor="difficulty" helpBody={EDITOR_INFO_FIELD_HELP.difficulty.body} helpTitle={EDITOR_INFO_FIELD_HELP.difficulty.title} />
-                            <Form.Control  type='number' min="0" max="20" placeholder="" value={tune.difficulty ? tune.difficulty : ''} onChange={function(e) {tune.difficulty = e.target.value; tune.id = params.tuneId;  saveTune(tune)  }}  />
-                          </Form.Group>
-                        </Col>
-                        <Col xs="auto" className="abc-editor-info-compact-field">
-                          <Form.Group className="mb-3" controlId="noteLength">
-                            <FormLabelWithHelp label="ABC Note Length" helpBody={EDITOR_INFO_FIELD_HELP.noteLength.body} helpTitle={EDITOR_INFO_FIELD_HELP.noteLength.title} />
-                            <Form.Select value={tune.noteLength ? tune.noteLength : ''} onChange={function(e) { tune.noteLength = e.target.value; tune.id = params.tuneId; saveTune(tune)  }} >
-                              <option value=""></option>
-                              <option value="1">1</option>
-                              <option value="1/2">1/2</option>
-                              <option value="1/3">1/3</option>
-                              <option value="1/4">1/4</option>
-                              <option value="1/6">1/6</option>
-                              <option value="1/8">1/8</option>
-                              <option value="1/12">1/12</option>
-                              <option value="1/16">1/16</option>
-                             </Form.Select> 
-                          </Form.Group>
-                        </Col>
-                        <Col xs="auto" className="abc-editor-info-compact-field">
-                          <Form.Group className="mb-3" controlId="tab">
-                            <FormLabelWithHelp label="Tablature" helpBody={EDITOR_INFO_FIELD_HELP.tablature.body} helpTitle={EDITOR_INFO_FIELD_HELP.tablature.title} />
-                            <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                              <option value=""></option>
-                              <option value="guitar" >Guitar</option>
-                              <option value="violin">Violin</option>
-                              </Form.Select> 
-                          </Form.Group>
-                        </Col>
-                        <Col xs={12} md={5} className="abc-editor-info-compact-field-wide">
-                          <Form.Group className="mb-3" controlId="fonts">
-                            <FormLabelWithHelp label="Sounds Fonts" helpBody={EDITOR_INFO_FIELD_HELP.soundFonts.body} helpTitle={EDITOR_INFO_FIELD_HELP.soundFonts.title} />
-                            <Form.Select value={tune.soundFonts ? tune.soundFonts.trim() : ''} onChange={function(e) { tune.soundFonts = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                              <option value="" >Local Sound Fonts Only (piano)</option>
-                              <option value="online">Requires Online Sound Fonts</option>
-                              </Form.Select> 
-                          </Form.Group>
-                        </Col>
-                        <Col xs={12} md className="abc-editor-info-compact-field-grow">
-                          <Form.Group className="mb-3" controlId="srcUrl">
-                            <FormLabelWithHelp label="Source URL" htmlFor="srcUrl" helpBody={EDITOR_INFO_FIELD_HELP.srcUrl.body} helpTitle={EDITOR_INFO_FIELD_HELP.srcUrl.title} />
-                            <Form.Control   value={tune.srcUrl ? tune.srcUrl : ''} onChange={function(e) {tune.srcUrl = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
-                          </Form.Group>
-                        </Col>
-                      </Row>
+                      <div className="abc-editor-info-section abc-editor-info-section-background">
                       <Form.Group className="mb-3 abc-editor-info-background-group" controlId="backgroundInfo">
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                          <FormLabelWithHelp
-                            label="Background information (Markdown)"
-                            helpBody={EDITOR_INFO_FIELD_HELP.backgroundInfo.body}
-                            helpTitle={EDITOR_INFO_FIELD_HELP.backgroundInfo.title}
-                          />
-                          <Button
-                            variant="outline-secondary"
-                            size="sm"
-                            disabled={!backgroundInfoText}
-                            onClick={function() { setBackgroundInfoPreview(!backgroundInfoPreview) }}
-                          >
-                            {backgroundInfoPreview ? 'Edit' : 'Preview'}
-                          </Button>
-                        </div>
-                        <div style={{ margin: '0.5em 0' }}>
-                          <TuneBackgroundSearchButton
-                            tuneId={params.tuneId || tune.id}
-                            title={tune.name}
-                            artist={tune.composer || ''}
-                            lyrics={wLinesText}
-                            rhythm={tune.rhythm || ''}
-                            currentGenre={tune.genre || ''}
-                            onGenreAccept={acceptSuggestedGenre}
-                            token={props.token}
-                            tunebook={props.tunebook}
-                            existingBackgroundInfo={backgroundInfoText}
-                            onBackgroundInfo={function(result) {
-                              setBackgroundInfoText(result.text)
-                              setBackgroundInfoPreview(true)
-                            }}
-                          />
-                        </div>
-                        {backgroundInfoPreview
-                          ? <div className="abc-editor-markdown-preview">
-                              <MarkdownContent text={backgroundInfoText} />
-                            </div>
-                          : <Form.Control
-                              as="textarea"
-                              rows={16}
-                              placeholder={'Performers, alternative names, first recording date, who popularized the tune, record labels, anecdotes, musical structure, YouTube links... (Markdown supported)'}
-                              value={backgroundInfoText}
-                              onChange={function(e) {
-                                var next = e.target.value
-                                setBackgroundInfoText(next)
-                                if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
-                                backgroundInfoSaveTimeout.current = setTimeout(function() {
-                                  tune.backgroundInfo = next
-                                  tune.id = params.tuneId
-                                  saveTune(tune)
-                                }, 500)
-                              }}
-                            />}
+                        <TuneBackgroundSearchButton
+                          tuneId={params.tuneId || tune.id}
+                          title={tune.name}
+                          artist={tune.composer || ''}
+                          lyrics={wLinesText}
+                          rhythm={tune.rhythm || ''}
+                          currentGenre={tune.genre || ''}
+                          onGenreAccept={acceptSuggestedGenre}
+                          token={props.token}
+                          tunebook={props.tunebook}
+                          existingBackgroundInfo={backgroundInfoText}
+                          onBackgroundInfo={function(result) {
+                            setBackgroundInfoText(result.text)
+                            setBackgroundInfoPreview(true)
+                          }}
+                        >
+                          {function(api) {
+                            return (
+                              <>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                                  <FormLabelWithHelp
+                                    label="Background information (Markdown)"
+                                    helpBody={EDITOR_INFO_FIELD_HELP.backgroundInfo.body}
+                                    helpTitle={EDITOR_INFO_FIELD_HELP.backgroundInfo.title}
+                                  />
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5em' }}>
+                                    {api.buttonGroup}
+                                    <Button
+                                      variant="outline-secondary"
+                                      size="sm"
+                                      disabled={!backgroundInfoText}
+                                      onClick={function() { setBackgroundInfoPreview(!backgroundInfoPreview) }}
+                                    >
+                                      {backgroundInfoPreview ? 'Edit' : 'Preview'}
+                                    </Button>
+                                  </div>
+                                </div>
+                                <div className="d-flex align-items-start gap-0 mt-2 field-lookup-input-with-suggestions">
+                                  <div style={{ flex: '1 1 auto', minWidth: 0 }}>
+                                    {backgroundInfoPreview
+                                      ? <div className="abc-editor-markdown-preview">
+                                          <MarkdownContent text={backgroundInfoText} />
+                                        </div>
+                                      : <Form.Control
+                                          as="textarea"
+                                          rows={16}
+                                          placeholder={'Performers, alternative names, first recording date, who popularized the tune, record labels, anecdotes, musical structure, YouTube links... (Markdown supported)'}
+                                          value={backgroundInfoText}
+                                          onChange={function(e) {
+                                            var next = e.target.value
+                                            setBackgroundInfoText(next)
+                                            if (backgroundInfoSaveTimeout.current) clearTimeout(backgroundInfoSaveTimeout.current)
+                                            backgroundInfoSaveTimeout.current = setTimeout(function() {
+                                              tune.backgroundInfo = next
+                                              tune.id = params.tuneId
+                                              saveTune(tune)
+                                            }, 500)
+                                          }}
+                                        />}
+                                  </div>
+                                  {api.suggestionsDropdown}
+                                </div>
+                                {api.errorNode}
+                              </>
+                            )
+                          }}
+                        </TuneBackgroundSearchButton>
                       </Form.Group>
                       </div>
                       
@@ -842,6 +979,89 @@ export default function AbcEditor(props) {
                           saveTune(tune);
                         }}
                       />
+                    </div>
+                    <div className="abc-editor-info-form mt-3">
+                      <div className="abc-editor-info-section abc-editor-info-section-details">
+                        <Row className="abc-editor-info-compact-row g-2 align-items-end">
+                          <Col xs="auto" className="abc-editor-info-compact-field">
+                            <Form.Group className="mb-3" controlId="noteLength">
+                              <FormLabelWithHelp label="ABC Note Length" helpBody={EDITOR_INFO_FIELD_HELP.noteLength.body} helpTitle={EDITOR_INFO_FIELD_HELP.noteLength.title} />
+                              <Form.Select value={tune.noteLength ? tune.noteLength : ''} onChange={function(e) { tune.noteLength = e.target.value; tune.id = params.tuneId; saveTune(tune)  }} >
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="1/2">1/2</option>
+                                <option value="1/3">1/3</option>
+                                <option value="1/4">1/4</option>
+                                <option value="1/6">1/6</option>
+                                <option value="1/8">1/8</option>
+                                <option value="1/12">1/12</option>
+                                <option value="1/16">1/16</option>
+                               </Form.Select>
+                            </Form.Group>
+                          </Col>
+                          <Col xs="auto" className="abc-editor-info-compact-field">
+                            <Form.Group className="mb-3" controlId="tab">
+                              <FormLabelWithHelp label="Tablature" helpBody={EDITOR_INFO_FIELD_HELP.tablature.body} helpTitle={EDITOR_INFO_FIELD_HELP.tablature.title} />
+                              <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                                <option value=""></option>
+                                <option value="guitar" >Guitar</option>
+                                <option value="violin">Violin</option>
+                                </Form.Select>
+                            </Form.Group>
+                          </Col>
+                          <Col xs={12} md={5} className="abc-editor-info-compact-field-wide">
+                            <Form.Group className="mb-3" controlId="fonts">
+                              <FormLabelWithHelp label="Sounds Fonts" helpBody={EDITOR_INFO_FIELD_HELP.soundFonts.body} helpTitle={EDITOR_INFO_FIELD_HELP.soundFonts.title} />
+                              <Form.Select value={tune.soundFonts ? tune.soundFonts.trim() : ''} onChange={function(e) { tune.soundFonts = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
+                                <option value="" >Auto (resolver MusyngKite when ready)</option>
+                                <option value="local">Embedded instruments only</option>
+                                <option value="online">Prefer full resolver bank</option>
+                              </Form.Select>
+                            </Form.Group>
+                          </Col>
+                          <Col xs={12} md className="abc-editor-info-compact-field-grow">
+                            <Form.Group className="mb-3" controlId="srcUrl">
+                              <FormLabelWithHelp label="Source URL" htmlFor="srcUrl" helpBody={EDITOR_INFO_FIELD_HELP.srcUrl.body} helpTitle={EDITOR_INFO_FIELD_HELP.srcUrl.title} />
+                              <Form.Control   value={tune.srcUrl ? tune.srcUrl : ''} onChange={function(e) {tune.srcUrl = e.target.value; tune.id = params.tuneId; saveTune(tune)  }}/>
+                            </Form.Group>
+                          </Col>
+                        </Row>
+                      </div>
+                    </div>
+                    <div className="lyrics-expandable-section mt-3">
+                      <button
+                        type="button"
+                        className="lyrics-expandable-section-toggle"
+                        onClick={function() { setAbcRecordExpanded(!abcRecordExpanded) }}
+                        aria-expanded={abcRecordExpanded}
+                      >
+                        <span className="lyrics-expandable-section-chevron" aria-hidden="true">
+                          {abcRecordExpanded ? '▼' : '▶'}
+                        </span>
+                        <span className="fw-semibold">ABC Record</span>
+                      </button>
+                      {abcRecordExpanded ? (
+                        <div className="lyrics-expandable-section-body">
+                          <Tabs defaultActiveKey="abc-text" id="abc-editor-abc-tabs" className="abc-editor-source-tabs mb-2">
+                            <Tab eventKey="abc-text" title="ABC">
+                              <textarea
+                                className="abc-editor-source-textarea"
+                                value={abcText}
+                                onChange={function(e) {setAbcText(e.target.value)}}
+                                onBlur={function(e) {var tune = props.tunebook.abcTools.abc2json(e.target.value); tune.id = params.tuneId; props.tunebook.saveTune(tune, true)}}
+                              />
+                            </Tab>
+                            <Tab eventKey="errors" title={<span>Errors {(warnings && warnings.length > 0 ? warnings.length+' !!' : '')} </span>}>
+                              <div id="warnings">
+                              {warnings ? warnings.map(function(warning,wk) {
+                                var pos = warning.indexOf('<span')
+                                return <div key={wk} >{warning.slice(0,pos)}</div>
+                              }) : null}
+                              </div>
+                            </Tab>
+                          </Tabs>
+                        </div>
+                      ) : null}
                     </div>
                     </>
       )

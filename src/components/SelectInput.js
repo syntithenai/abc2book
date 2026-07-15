@@ -1,49 +1,81 @@
-import React, { useState } from 'react';
-import { Form, FormControl, InputGroup, Dropdown, DropdownButton } from 'react-bootstrap';
+import { useEffect, useState } from 'react'
+import { FormControl, InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 
-const SelectInput = ({ options, onChange, value }) => {
-  const [selectedOption, setSelectedOption] = useState(value);
-  const [inputValue, setInputValue] = useState(value);
+const CARET_TITLE = (
+  <span aria-hidden="true" style={{ display: 'inline-block', lineHeight: 1 }}>▾</span>
+)
 
-  const handleInputChange = (event) => {
-    setInputValue(event.target.value);
-    onChange(event.target.value);
-  };
+/**
+ * Text input with optional MusicBrainz-style options dropdown (caret only)
+ * and an optional trailing append (e.g. field-lookup suggestions).
+ */
+export default function SelectInput({
+  options,
+  onChange,
+  onSelectOption,
+  value,
+  placeholder,
+  endAppend,
+  disabled,
+  onFocus,
+  onBlur,
+  autoComplete,
+  list,
+  'data-testid': dataTestId,
+}) {
+  const [inputValue, setInputValue] = useState(value == null ? '' : value)
 
-  const handleOptionSelect = (option) => {
-    setSelectedOption(option);
-    setInputValue(option);
-    onChange(option);
-  };
+  useEffect(function() {
+    setInputValue(value == null ? '' : value)
+  }, [value])
 
-  const handleDropdownToggle = () => {
-    setSelectedOption(null);
-    //setInputValue('');
-  };
+  function handleInputChange(event) {
+    setInputValue(event.target.value)
+    if (typeof onChange === 'function') onChange(event.target.value)
+  }
+
+  function handleOptionSelect(option) {
+    setInputValue(option)
+    if (typeof onChange === 'function') onChange(option)
+    if (typeof onSelectOption === 'function') onSelectOption(option)
+  }
+
+  const hasOptions = Array.isArray(options) && options.length > 0
 
   return (
     <InputGroup>
-      {(Array.isArray(options) && options.length > 0) && <DropdownButton
-        as={InputGroup.Append}
-        variant="outline-secondary"
-        title={options.length}
-        onSelect={handleOptionSelect}
-        onToggle={handleDropdownToggle}
-      >
-        {options.map((option) => (
-          <Dropdown.Item key={option} eventKey={option}>
-            {option}
-          </Dropdown.Item>
-        ))}
-      </DropdownButton>}
       <FormControl
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Type or select an option"
+        placeholder={placeholder || 'Type or select an option'}
+        disabled={disabled}
+        onFocus={onFocus}
+        onBlur={onBlur}
+        autoComplete={autoComplete}
+        list={list}
+        data-testid={dataTestId}
       />
-      
+      {hasOptions ? (
+        <DropdownButton
+          variant="outline-secondary"
+          className="select-input-options-dropdown"
+          title={CARET_TITLE}
+          align="end"
+          onSelect={handleOptionSelect}
+          disabled={disabled}
+          aria-label="Artist suggestions"
+          data-testid="select-input-options-dropdown"
+        >
+          {options.map(function(option) {
+            return (
+              <Dropdown.Item key={option} eventKey={option}>
+                {option}
+              </Dropdown.Item>
+            )
+          })}
+        </DropdownButton>
+      ) : null}
+      {endAppend || null}
     </InputGroup>
-  );
-};
-
-export default SelectInput;
+  )
+}

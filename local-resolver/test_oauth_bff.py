@@ -83,13 +83,17 @@ class OAuthBffTests(unittest.TestCase):
         oauth_bff.GOOGLE_CLIENT_SECRET = ""
         self.assertFalse(oauth_bff.oauth_bff_configured())
 
-    def test_health_includes_oauth_bff_without_features_map(self):
+    def test_health_includes_oauth_bff_and_features_map(self):
         response = self.client.get("/health")
         self.assertEqual(response.status_code, 200)
         body = response.json()
         self.assertTrue(body.get("ok"))
         self.assertTrue(body.get("oauthBff"))
-        self.assertNotIn("features", body)
+        self.assertIn("features", body)
+        self.assertTrue(body["features"].get("oauthBff"))
+        self.assertIn("providers", body)
+        self.assertIn("freeAccess", body)
+        self.assertIn("embeddedCreds", body)
 
     def test_health_ready_features_include_oauth_bff(self):
         with patch.object(server, "_refresh_llm_health_if_stale", new_callable=AsyncMock, return_value=True):

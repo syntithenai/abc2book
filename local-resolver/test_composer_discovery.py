@@ -18,6 +18,7 @@ from composer_discovery import (
 from recording_artists import (
     discover_work_writers,
     discover_work_writers_with_prominence,
+    pick_suggested_work_title,
     WRITER_RELATION_TYPES,
 )
 
@@ -53,6 +54,26 @@ class ComposerDiscoveryTests(unittest.TestCase):
         self.assertEqual(set(artists[1:]), {"Oasis", "Ryan Adams"})
         for candidate in result["candidates"][1:]:
             self.assertEqual(candidate["role"], "performer")
+
+    def test_format_candidates_keeps_performers_when_many_writers(self):
+        store = {}
+        for index in range(8):
+            _add_candidate(
+                store,
+                "Writer %s" % index,
+                role="writer",
+                source="MusicBrainz",
+            )
+        _add_candidate(store, "Famous Performer", role="performer", source="MusicBrainz/Genius")
+        result = _format_candidates(store, max_artists=8)
+        self.assertTrue(result["multiple"])
+        artists = [c["artist"] for c in result["candidates"]]
+        self.assertEqual(len(artists), 9)
+        self.assertIn("Famous Performer", artists)
+        performer = [
+            c for c in result["candidates"] if c["artist"] == "Famous Performer"
+        ][0]
+        self.assertEqual(performer["role"], "performer")
 
     def test_add_candidate_upgrades_performer_to_writer(self):
         store = {}
@@ -121,6 +142,22 @@ class ComposerDiscoveryTests(unittest.TestCase):
         self.assertEqual(list(store.values())[0]["artist"], "Joseph Kosma")
         self.assertTrue(_promote_candidate(store, "Claude Debussy"))
         self.assertEqual(list(store.values())[0]["artist"], "Claude Debussy")
+
+    def test_pick_suggested_work_title_offers_spelling_variant(self):
+        exact_works = [
+            (100, {"title": "Claire de Lune", "recording-count": 1}),
+            (94, {"title": "Clair de lune", "recording-count": 40}),
+        ]
+        self.assertEqual(
+            pick_suggested_work_title("Claire de Lune", exact_works),
+            "Clair de lune",
+        )
+
+    def test_pick_suggested_work_title_skips_same_normalized_title(self):
+        exact_works = [
+            (100, {"title": "Wonderwall", "recording-count": 10}),
+        ]
+        self.assertEqual(pick_suggested_work_title("Wonderwall", exact_works), "")
 
 
 class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
@@ -347,7 +384,7 @@ class WorkWritersTests(unittest.IsolatedAsyncioTestCase):
         enriched = await discover_work_writers_with_prominence(
             FakeClient(), "Clair de Lune", max_writers=5
         )
-        by_name = {entry["artist"]: entry for entry in enriched}
+        by_name = {entry["artist"]: entry for entry in enriched.get("writers") or []}
         self.assertEqual(by_name["Joseph Kosma"]["recording_count"], 1)
         self.assertEqual(by_name["Claude Debussy"]["recording_count"], 12)
 
@@ -432,7 +469,7 @@ class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
 
         with patch(
             "composer_discovery.discover_work_writers_with_prominence",
-            new=AsyncMock(return_value=writers),
+            new=AsyncMock(return_value={"writers": writers, "suggested_title": ""}),
         ), patch(
             "composer_discovery._rank_writers_llm",
             new=AsyncMock(return_value="Claude Debussy"),
@@ -462,7 +499,7 @@ class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
 
         with patch(
             "composer_discovery.discover_work_writers_with_prominence",
-            new=AsyncMock(return_value=writers),
+            new=AsyncMock(return_value={"writers": writers, "suggested_title": ""}),
         ), patch(
             "composer_discovery._rank_writers_llm",
             new=AsyncMock(return_value=""),
@@ -488,7 +525,7 @@ class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
         best_effort = AsyncMock(return_value="Noel Gallagher")
         with patch(
             "composer_discovery.discover_work_writers_with_prominence",
-            new=AsyncMock(return_value=writers),
+            new=AsyncMock(return_value={"writers": writers, "suggested_title": ""}),
         ), patch(
             "composer_discovery._rank_writers_llm",
             new=rank_llm,

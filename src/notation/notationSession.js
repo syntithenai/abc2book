@@ -2,6 +2,7 @@ import {
   EDITOR_MODES,
   EDITOR_VIEWS,
   MIDI_CHORD_MODES,
+  NOTE_INPUT_METHODS,
   PIANO_ROLL_TOOLS,
   DEFAULT_MIDI_CHORD_WINDOW_MS,
 } from './notationConstants';
@@ -18,6 +19,8 @@ export function createInitialSession(tuneMeta, voiceBody) {
   );
   return {
     mode: EDITOR_MODES.NORMAL,
+    noteInputMethod: NOTE_INPUT_METHODS.NOTE_NAME,
+    pitchCarry: null,
     view: EDITOR_VIEWS.STAFF,
     events: events,
     caretIndex: 0,
@@ -64,6 +67,8 @@ export function notationSessionReducer(state, action) {
       return Object.assign({}, next, {
         view: state.view,
         mode: state.mode,
+        noteInputMethod: state.noteInputMethod,
+        pitchCarry: state.pitchCarry,
         caretIndex: preservedCaret,
         pianoRollZoom: state.pianoRollZoom,
         pianoRollTool: state.pianoRollTool,
@@ -78,6 +83,12 @@ export function notationSessionReducer(state, action) {
     }
     case 'SET_MODE':
       return Object.assign({}, state, { mode: action.mode });
+    case 'SET_NOTE_INPUT_METHOD':
+      return Object.assign({}, state, {
+        noteInputMethod: action.method || NOTE_INPUT_METHODS.NOTE_NAME,
+      });
+    case 'SET_PITCH_CARRY':
+      return Object.assign({}, state, { pitchCarry: action.pitch || null });
     case 'SET_VIEW':
       return Object.assign({}, state, { view: action.view });
     case 'SET_DIRTY':

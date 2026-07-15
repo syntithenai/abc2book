@@ -1,4 +1,5 @@
 import { discoverRecordingArtists, discoverWorkWriters, isGenericArtist } from './recordingArtistsClient'
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from './externalSearchLinks'
 
 /**
  * MusicBrainz-based artist chip candidates for the multi-artist field.
@@ -59,7 +60,10 @@ export async function searchArtists(options) {
   return { empty: false, multiple: true, candidates: candidates }
 }
 
+export function buildGoogleArtistsSearchQuestion(title, artist) {
+  return buildExternalSearchQuestion('artists', title, artist)
+}
+
 export function buildGoogleArtistsSearchUrl(title, artist) {
-  return 'https://www.google.com/search?q='
-    + encodeURIComponent([title, artist, 'artists performers'].filter(Boolean).join(' '))
+  return buildGoogleSearchQuestionUrl(buildGoogleArtistsSearchQuestion(title, artist))
 }

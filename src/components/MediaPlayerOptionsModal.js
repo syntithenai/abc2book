@@ -7,6 +7,7 @@ import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
 import MidiPlaybackMetronomePanel from './MidiPlaybackMetronomePanel'
 import MediaSeekSlider from './MediaSeekSlider'
 import { getActiveLinkIndex } from '../mediaPlaybackUtils'
+import { youtubeAudioBytesAvailable } from '../youtubeUnlock'
 import './MediaPlayerOptionsModal.css'
 
 export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user, tunes}) {
@@ -69,6 +70,19 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && viewedTune.links
     && viewedTune.links[activeLinkIndex]
 
+  const [youtubePitchUnlocked, setYoutubePitchUnlocked] = useState(false)
+  useEffect(function() {
+    let cancelled = false
+    youtubeAudioBytesAvailable({
+      resolverFeatures: mediaController.resolverFeatures || null,
+    }).then(function(ok) {
+      if (!cancelled) setYoutubePitchUnlocked(!!ok)
+    })
+    return function() { cancelled = true }
+  }, [mediaController.resolverFeatures, show])
+
+  const showPitchControls = !!youtubePitchUnlocked
+
   const showAudioFiltersTab = !!viewedTune
     && activeLinkIndex !== null
     && viewedTune.links
@@ -76,6 +90,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     && mediaController.getSrcType(viewedTune.links[activeLinkIndex].link) !== 'abc'
     && mediaController.resolverFeatures
     && mediaController.resolverFeatures.stems
+    && youtubePitchUnlocked
 
   useEffect(function() {
     if (settingsTab === 'loop' && !showLoopTab) {
@@ -269,7 +284,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                     tune={viewedTune}
                     tunebook={tunebook}
                     mediaController={mediaController}
-                    showPitchControls={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.proxy)}
+                    showPitchControls={showPitchControls}
                   />
                 </Tab>
                 {showAudioFiltersTab && (
@@ -278,7 +293,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                       tune={viewedTune}
                       tunebook={tunebook}
                       mediaController={mediaController}
-                      showFilters={!!(mediaController.resolverFeatures && mediaController.resolverFeatures.stems)}
+                      showFilters={showPitchControls && !!(mediaController.resolverFeatures && mediaController.resolverFeatures.stems)}
                     />
                   </Tab>
                 )}

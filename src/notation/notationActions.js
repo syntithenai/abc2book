@@ -442,6 +442,58 @@ export function replaceSelectionPitch(session, pitch) {
 }
 
 /**
+ * MuseScore re-pitch: change pitch of the note at/before caret and advance to the next note.
+ */
+export function rePitchAtCaret(session, pitch) {
+  if (!pitch) return null;
+  const events = session.events.map(cloneVoiceEvent);
+  let idx = -1;
+  const ids = session.selection.eventIds || [];
+  if (ids.length) {
+    idx = events.findIndex(function(ev) { return ev.id === ids[0]; });
+  }
+  if (idx < 0) {
+    idx = Math.min(session.caretIndex, events.length) - 1;
+    while (idx >= 0 && events[idx] && events[idx].type !== 'note' && events[idx].type !== 'chord') {
+      idx -= 1;
+    }
+  }
+  if (idx < 0 || !events[idx]) return null;
+  const ev = events[idx];
+  if (ev.type !== 'note' && ev.type !== 'chord') return null;
+  if (ev.type === 'chord' && typeof session.selection.toneIndex === 'number' && ev.pitches) {
+    const tones = ev.pitches.slice();
+    if (tones[session.selection.toneIndex]) {
+      tones[session.selection.toneIndex] = pitch;
+      ev.pitches = tones;
+    } else {
+      ev.pitch = pitch;
+      ev.pitches = [pitch];
+      ev.type = 'note';
+    }
+  } else {
+    ev.pitch = pitch;
+    ev.pitches = [pitch];
+    ev.type = 'note';
+  }
+  let nextIdx = idx + 1;
+  while (nextIdx < events.length && events[nextIdx].type !== 'note' && events[nextIdx].type !== 'chord') {
+    nextIdx += 1;
+  }
+  const nextEv = nextIdx < events.length ? events[nextIdx] : null;
+  return patchSession(session, {
+    events: events,
+    caretIndex: nextEv ? nextIdx + 1 : events.length,
+    lastEvent: ev,
+    pitchCarry: pitch,
+    accidentalCarry: null,
+    selection: nextEv
+      ? { eventIds: [nextEv.id], toneIndex: null, anchorId: nextEv.id }
+      : { eventIds: [], toneIndex: null, anchorId: null },
+  });
+}
+
+/**
  * Staff steps from pointer delta. Positive deltaY (drag down) → positive steps (lower pitch).
  * Clamped so abcjs coordinate glitches cannot jump many octaves.
  */

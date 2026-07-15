@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Dropdown } from 'react-bootstrap';
+import { Dropdown, Button, ButtonGroup } from 'react-bootstrap';
 import { EDITOR_VIEWS } from '../notation/notationConstants';
 
 const VIEW_TEST_IDS = {
@@ -16,9 +16,56 @@ const NOTATION_VIEW_MODES = [
   { id: EDITOR_VIEWS.ABC, label: 'ABC' },
 ];
 
+const TOOLBAR_VIEW_MODES = [
+  { id: EDITOR_VIEWS.STAFF, label: 'Staff', iconKey: 'trebleclef' },
+  { id: EDITOR_VIEWS.PIANO_ROLL, label: 'Piano roll', iconKey: 'pianoroll' },
+  { id: EDITOR_VIEWS.ABC, label: 'ABC', textIcon: 'ABC' },
+];
+
+function renderToolbarViewContent(mode, tunebook) {
+  if (mode.textIcon) {
+    return <span className="notation-view-toggle-text" aria-hidden="true">{mode.textIcon}</span>;
+  }
+  if (mode.iconKey && tunebook && tunebook.icons) {
+    return (
+      <span className="notation-view-toggle-icon" aria-hidden="true">
+        {tunebook.icons[mode.iconKey]}
+      </span>
+    );
+  }
+  return mode.label;
+}
+
 export default function NotationViewSelector(props) {
   const [show, setShow] = useState(false);
   const current = props.view || EDITOR_VIEWS.STAFF;
+
+  // ButtonGroup variant for toolbar (no Split option)
+  if (props.variant === 'buttonGroup') {
+    return (
+      <ButtonGroup className="notation-view-toggle-group" aria-label="Notation view">
+        {TOOLBAR_VIEW_MODES.map(function(mode) {
+          var active = current === mode.id;
+          return (
+            <Button
+              key={mode.id}
+              size="lg"
+              variant={active ? 'primary' : 'outline-secondary'}
+              className={active ? 'notation-view-toggle-btn-active' : 'notation-view-toggle-btn'}
+              data-testid={VIEW_TEST_IDS[mode.id] || ('notation-view-' + mode.id)}
+              aria-pressed={active}
+              aria-label={mode.label}
+              title={mode.label}
+              onClick={function() { props.onChange(mode.id); }}
+            >
+              {renderToolbarViewContent(mode, props.tunebook)}
+            </Button>
+          );
+        })}
+      </ButtonGroup>
+    );
+  }
+
   const currentLabel = NOTATION_VIEW_MODES.find(function(mode) { return mode.id === current; });
   const label = currentLabel ? currentLabel.label : 'View';
 

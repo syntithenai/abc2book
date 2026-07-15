@@ -6,9 +6,16 @@ services:
       - "8787:8787"
     env_file:
       - .env
+    volumes:
+      - ./secrets:/app/secrets:ro
+      - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
+      - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
+      - ../:/app/www:ro
     environment:
       PORT: "8787"
       STATIC_SITE_DIR: /app/www
+      SOUNDFONT_DIR: /soundfonts
+      SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
       # Auth settings (REQUIRE_AUTH, GOOGLE_CLIENT_ID, ALLOWED_EMAILS, ALLOWED_ORIGINS)
       # come from .env via env_file above. Do NOT hardcode REQUIRE_AUTH here, because
       # values in this environment block override env_file and would disable auth.
@@ -34,10 +41,6 @@ services:
     # automatically as it is under Docker Desktop.
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    volumes:
-      - ./secrets:/app/secrets:ro
-      - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
-      - ../:/app/www:ro
     healthcheck:
       test: ["CMD-SHELL", "curl -fsS --max-time 3 http://127.0.0.1:8787/health || exit 1"]
       interval: 30s

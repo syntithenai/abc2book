@@ -1,5 +1,6 @@
 import { searchNotation } from './notationSearchClient'
 import { normalizeMatchText } from './notationMatchUtils'
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from './externalSearchLinks'
 
 /**
  * Harvest alternate titles / AKA aliases from The Session + other ABC notation sources.
@@ -108,9 +109,12 @@ export async function searchAliases(options) {
   return { empty: false, multiple: true, candidates: candidates }
 }
 
+export function buildGoogleAliasesSearchQuestion(title, artist) {
+  return buildExternalSearchQuestion('aliases', title, artist)
+}
+
 export function buildGoogleAliasesSearchUrl(title, artist) {
-  return 'https://www.google.com/search?q='
-    + encodeURIComponent([title, artist, 'also known as alias tune'].filter(Boolean).join(' '))
+  return buildGoogleSearchQuestionUrl(buildGoogleAliasesSearchQuestion(title, artist))
 }
 
 export function buildTheSessionAliasesSearchUrl(title) {

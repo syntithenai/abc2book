@@ -360,7 +360,11 @@ def _format_candidates(store, max_artists=8):
         else:
             performers.append(entry)
 
-    ordered = (writers + performers)[:max_artists]
+    # Keep performer suggestions even when many writers fill the cap — the UI
+    # shows writers for composer choice and performers for a follow-up artists picker.
+    writers = writers[:max_artists]
+    performers = performers[:max_artists]
+    ordered = writers + performers
     cleaned = []
     for entry in ordered:
         role = entry["role"]
@@ -411,11 +415,14 @@ async def discover_composer(
 
     merged = {}
     writers_with_prominence = []
+    suggested_title = ""
 
     await emit("writers", "Looking up songwriters and composers...", 0.12)
-    writers_with_prominence = await discover_work_writers_with_prominence(
+    work_result = await discover_work_writers_with_prominence(
         client, search_title, max_writers=max_artists
     )
+    writers_with_prominence = work_result.get("writers") or []
+    suggested_title = (work_result.get("suggested_title") or "").strip()
     for entry in writers_with_prominence:
         _add_candidate(merged, entry.get("artist"), role="writer", source="MusicBrainz")
 
@@ -457,4 +464,7 @@ async def discover_composer(
         _add_candidate(merged, name, role="performer", source="MusicBrainz/Genius")
 
     await emit("done", "Artist search complete", 1.0)
-    return _format_candidates(merged, max_artists=max_artists)
+    result = _format_candidates(merged, max_artists=max_artists)
+    if suggested_title:
+        result["suggestedTitle"] = suggested_title
+    return result

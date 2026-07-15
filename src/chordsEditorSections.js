@@ -424,6 +424,12 @@ export function appendChordsEditorSection(sections, name, defaultMeter, defaultT
       || normalizeTempo(list[0] && list[0].tempo)
       || 120,
     startLine: index,
+    // New sections need a rest strain on the existing primary voice (||),
+    // not a separate ABC voice / wipe rewrite.
+    needsAbcExpand: true,
+    melodyStrainIndex: -1,
+    abcBarStart: -1,
+    abcBarEnd: -1,
   })
   return list
 }
@@ -462,6 +468,10 @@ export function insertChordsEditorSectionAfter(sections, afterKey, name, default
       || normalizeTempo(list[0] && list[0].tempo)
       || 120,
     startLine: insertAt,
+    needsAbcExpand: true,
+    melodyStrainIndex: -1,
+    abcBarStart: -1,
+    abcBarEnd: -1,
   })
   return list.map(function(section, index) {
     if (!section) return section

@@ -656,7 +656,7 @@ export default function ImportReviewModal(props) {
     if (typeof props.onFinishCandidate === 'function') {
       props.onFinishCandidate(updated, function(savedTune) {
         if (addMode) {
-          // Bridge clears session and navigates to the new tune editor.
+          // Bridge clears session and navigates to the new tune single view.
           return;
         }
         const nextSession = markCandidateImported(updated);
@@ -777,9 +777,6 @@ export default function ImportReviewModal(props) {
       endAt: '',
     };
     if (link.image) youtubeLink.image = link.image;
-    // Apply to the live form immediately. Session-only updates do not re-init the
-    // form (init keys off candidate id), and a pending dirty sync can otherwise
-    // leave the UI blank until reload.
     if (formSyncTimerRef.current) {
       clearTimeout(formSyncTimerRef.current);
       formSyncTimerRef.current = null;
@@ -787,8 +784,9 @@ export default function ImportReviewModal(props) {
     suppressFormInitRef.current = true;
     patchFormValues(function(current) {
       const existing = Array.isArray(current.links) ? current.links.slice() : [];
+      // Single YouTube source: replace any prior YouTube links.
       const nextLinks = [youtubeLink].concat(existing.filter(function(item) {
-        return !(item && item.link && String(item.link) === String(youtubeLink.link));
+        return !(item && item.link && /youtu\.?be/i.test(String(item.link)));
       }));
       const next = Object.assign({}, current, { links: nextLinks });
       if (!String(current.title || '').trim() && link.title) {
@@ -1189,8 +1187,15 @@ export default function ImportReviewModal(props) {
       token={props.token}
       forceRefresh={props.forceRefresh}
       setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-      onAdd={finishCurrentCandidate}
       onOpenMatch={handleOpenCollectionMatch}
+      candidateId={activeCandidate && activeCandidate.id}
+      resolverAvailable={props.resolverAvailable}
+      onPickYouTube={function(link) {
+        applyYouTubeLinkToForm(link);
+        if (typeof props.onImportYouTube === 'function') {
+          props.onImportYouTube(link, buildDraftCandidate());
+        }
+      }}
     />
   ) : (
     <Row style={{ flexWrap: 'nowrap' }}>
@@ -1216,6 +1221,7 @@ export default function ImportReviewModal(props) {
           setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
           showComposerSearch={true}
           composerCandidates={activeJob && activeJob.composerCandidates}
+          tunes={tunes}
           statusBanner={statusBanner}
         />
       </div>
@@ -1236,11 +1242,10 @@ export default function ImportReviewModal(props) {
     && Array.isArray(session.candidates)
     && session.candidates.length > 1;
   const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
-  const headerTitle = addTunesMode ? 'Add tunes' : 'Import review';
+  const headerTitle = addTunesMode ? 'Add' : 'Import review';
   const primaryActionLabel = addTunesMode ? 'Add' : 'Import';
   const hasTitleForAdd = !!String(formValues.title || '').trim();
-  const hasComposerForAdd = !!String(formValues.artist || '').trim();
-  const primaryActionDisabled = addTunesMode && (!hasTitleForAdd || !hasComposerForAdd);
+  const primaryActionDisabled = addTunesMode ? !hasTitleForAdd : false;
   const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions, formValues);
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
@@ -1265,7 +1270,10 @@ export default function ImportReviewModal(props) {
     />
   );
   const headerActions = (
-    <div className="d-flex align-items-center gap-2 flex-wrap justify-content-end" style={{ marginLeft: 'auto' }}>
+    <div
+      className={'d-flex align-items-center gap-2 flex-wrap justify-content-end' + (addTunesMode ? ' add-tunes-header-actions' : '')}
+      style={{ marginLeft: 'auto' }}
+    >
       {canMoveQueue ? (
         <>
           <Button variant="outline-secondary" size="sm" onClick={function() { jumpQueue(-1); }}>Prev</Button>
@@ -1292,7 +1300,18 @@ export default function ImportReviewModal(props) {
           Enhance
         </Button>
       ) : null}
-      {!addTunesMode ? (
+      {addTunesMode ? (
+        <Button
+          size="lg"
+          variant={primaryActionDisabled ? 'secondary' : 'success'}
+          disabled={!!primaryActionDisabled}
+          data-testid="add-tune-save"
+          className="add-tunes-header-add-btn"
+          onClick={finishCurrentCandidate}
+        >
+          Add
+        </Button>
+      ) : (
         <Button
           variant={primaryActionDisabled ? 'secondary' : 'success'}
           disabled={!!primaryActionDisabled}
@@ -1300,7 +1319,7 @@ export default function ImportReviewModal(props) {
         >
           {primaryActionLabel}
         </Button>
-      ) : null}
+      )}
       {typeof props.onImportAll === 'function' && importAllSummary.total > 1 && !addTunesMode ? (
         <Button variant="danger" onClick={function() { setShowImportAllWarning(true); }}>
           Import all

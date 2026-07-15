@@ -24,7 +24,7 @@ export const EDITOR_INFO_FIELD_HELP = {
     body: 'How many times generated midi playback repeats the tune.',
   },
   boost: {
-    title: 'Boost',
+    title: 'Confidence',
     body: 'Confidence score from 0 to 20. Used for sorting and grouping tunes in lists and playlists.',
   },
   difficulty: {
@@ -49,7 +49,7 @@ export const EDITOR_INFO_FIELD_HELP = {
   },
   soundFonts: {
     title: 'Sound Fonts',
-    body: 'Online soundfonts use richer instruments but need Internet. Local mode uses piano-only MIDI playback.',
+    body: 'Auto uses the full MusyngKite bank from the local resolver when it is ready; otherwise MIDI programs are remapped onto the embedded instrument set. Prefer resolver forces waiting for the full bank when available.',
   },
   srcUrl: {
     title: 'Source URL',
@@ -110,9 +110,13 @@ export const SETTINGS_FIELD_HELP = {
       },
     ],
   },
+  providers: {
+    title: 'Providers',
+    body: 'Configure LLM, Whisper, and OCR backends. Your keys stay in the browser and are sent only to the active media resolver. Host credentials mean the resolver pays with operator keys for allowlisted accounts. Local uses models on a full home resolver.',
+  },
   offlineMedia: {
     title: 'Audio Cache',
-    body: 'Caches the full linked recording using the Compress Audio setting. When enabled, the current track is cached after playback starts and the next playlist track is prefetched. Playback still applies your saved tempo, pitch, trim, and filters at play time. YouTube caching needs the YouTube Helper extension or a working media resolver.',
+    body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time.',
   },
   colorScheme: {
     title: 'Color scheme',

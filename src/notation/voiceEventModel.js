@@ -301,7 +301,20 @@ export function parseVoiceEvents(voiceBody, tuneMeta) {
       symbolToEvent(symbol, unit, ctx);
     });
   });
+  stampSlurGroupMembers(events);
   return assignTimingToEvents(events, meter, unit);
+}
+
+/** Fill slurGroupId on notes between slur start and end (abcjs only marks endpoints). */
+function stampSlurGroupMembers(events) {
+  let activeId = null;
+  for (let i = 0; i < events.length; i += 1) {
+    const ev = events[i];
+    if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) continue;
+    if (ev.slurStart && ev.slurGroupId) activeId = ev.slurGroupId;
+    if (activeId) ev.slurGroupId = activeId;
+    if (ev.slurEnd) activeId = null;
+  }
 }
 
 export { beatsToDuration };

@@ -5,8 +5,8 @@ import {
   fetchYoutubeAudioViaExtension,
   isYoutubeExtensionConnected,
   pingYoutubeExtension,
-  youtubeAudioBytesAvailable,
 } from './youtubeExtensionClient'
+import { youtubeAudioBytesAvailable } from './youtubeUnlock'
 
 function encodeBase64(str) {
   return Buffer.from(str, 'binary').toString('base64')
@@ -106,13 +106,11 @@ describe('youtubeExtensionClient', function () {
     expect(String(result.error || '')).toMatch(/not connected|timed out/i)
   })
 
-  test('youtubeAudioBytesAvailable true when proxy configured', async function () {
+  test('youtubeAudioBytesAvailable true for BYOR fat proxy features', async function () {
     __resetYoutubeExtensionPingCache()
     await expect(
       youtubeAudioBytesAvailable({
-        isMediaProxyConfigured: function () {
-          return true
-        },
+        resolverFeatures: { proxy: true, lightMode: false },
       })
     ).resolves.toBe(true)
   })

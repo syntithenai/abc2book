@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Badge, Button, ButtonGroup, ProgressBar } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 
@@ -15,11 +14,9 @@ const CLEAR_ICON = (
 
 /**
  * Uniform field search chrome:
- * [Clear] [Suggestions] [Search|Cancel] [External?]
+ * [Clear?] [Suggestions?] [Search|Cancel] [External?]
+ * Clear / Suggestions only render when suggestionCount > 0.
  * + progress bar while busy.
- *
- * External only when `showExternal` is true (caller: no local search and no resolver).
- * Mode dialog removed — onSearch always starts a search (or cancels when busy).
  */
 export function FieldLookupButtonGroup(props) {
   const {
@@ -52,6 +49,7 @@ export function FieldLookupButtonGroup(props) {
   const canSearch = automaticLookup !== false
   const externalAllowed = !!showExternal && !!externalUrl && !!externalLinkIcon
   const count = Number(suggestionCount) || 0
+  const showSuggestions = count > 0 && typeof onOpenSuggestions === 'function'
 
   function handleSearchClick() {
     if (typeof onSearch === 'function') onSearch(busy ? undefined : 'auto')
@@ -78,12 +76,12 @@ export function FieldLookupButtonGroup(props) {
     )
   }
 
-  const clearBtn = (
+  const clearBtn = showSuggestions ? (
     <Button
       type="button"
       variant="outline-secondary"
       style={style}
-      disabled={disabled || busy || count === 0 || typeof onClearSuggestions !== 'function'}
+      disabled={disabled || busy || typeof onClearSuggestions !== 'function'}
       title="Clear suggestions"
       aria-label="Clear suggestions"
       data-testid="field-suggestions-clear"
@@ -93,14 +91,14 @@ export function FieldLookupButtonGroup(props) {
     >
       {CLEAR_ICON}
     </Button>
-  )
+  ) : null
 
-  const suggestionsBtn = (
+  const suggestionsBtn = showSuggestions ? (
     <Button
       type="button"
-      variant={count > 0 ? 'info' : 'outline-secondary'}
+      variant="info"
       style={style}
-      disabled={disabled || count === 0 || typeof onOpenSuggestions !== 'function'}
+      disabled={disabled}
       title="Open suggestions"
       aria-label="Open suggestions"
       data-testid="field-suggestions-open"
@@ -109,11 +107,9 @@ export function FieldLookupButtonGroup(props) {
       }}
     >
       {!narrow && <span>Suggestions</span>}
-      {count > 0 ? (
-        <Badge bg="dark" pill className="ms-1">{count}</Badge>
-      ) : null}
+      <Badge bg="dark" pill className="ms-1">{count}</Badge>
     </Button>
-  )
+  ) : null
 
   const searchBtn = (
     <Button

@@ -40,6 +40,13 @@
   background: #fff;
   margin-bottom: 0.5rem;
 }
+.notation-editing-controls,
+.notation-nonstaff-controls-main {
+  position: sticky;
+  /* Match .App-header height so the toolbar sits just below the fixed nav */
+  top: 3.3em;
+  z-index: 30;
+}
 .notation-editing-controls {
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +54,29 @@
   gap: 0.5rem 0.75rem;
   row-gap: 0.65rem;
   margin-bottom: 0.5rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.notation-toolbar-history {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.notation-toolbar-history .btn,
+.notation-view-toggle-group .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  min-width: 2.75rem;
+  font-weight: 600;
+}
+.notation-toolbar-history .btn svg {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.notation-toolbar-history .btn svg path:not([fill="none"]) {
+  fill: currentColor;
 }
 .notation-editing-controls-main {
   flex: 1 1 auto;
@@ -55,6 +85,49 @@
   flex-direction: column;
   gap: 0.55rem;
   row-gap: 0.55rem;
+}
+.notation-nonstaff-controls {
+  align-items: center;
+}
+.notation-nonstaff-controls-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  padding: 0.45rem 0.65rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.notation-view-toggle-group .btn {
+  white-space: nowrap;
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  line-height: 1;
+}
+.notation-view-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+.notation-view-toggle-icon svg {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.notation-view-toggle-icon svg path:not([fill="none"]) {
+  fill: currentColor;
+}
+.notation-view-toggle-text {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1;
 }
 .notation-editing-controls .notation-toolbar,
 .notation-editing-controls .notation-duration-toolbar {
@@ -98,6 +171,7 @@
 }
 .notation-toolbar .btn-lg {
   min-width: 2.75rem;
+  min-height: 3rem;
   font-weight: 600;
 }
 .notation-view-selector .dropdown-toggle {
@@ -246,7 +320,11 @@
   box-sizing: border-box;
   pointer-events: auto;
   cursor: grab;
-  z-index: 4;
+  z-index: 6;
+  touch-action: none;
+}
+.notation-slur-endpoint-handle:active {
+  cursor: grabbing;
 }
 .notation-slur-snap-target {
   position: absolute;
@@ -805,4 +883,23 @@
     width: auto;
     border: 1px solid #dee2e6;
   }
+}
+
+.notation-annot-overlay {
+  position: absolute;
+  z-index: 30;
+  min-width: 4.5rem;
+  pointer-events: auto;
+}
+.notation-annot-overlay .form-control {
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.notation-clipboard-toolbar .btn {
+  font-size: 0.85rem;
+}
+.voices-manage-modal .table td,
+.voices-manage-modal .table th {
+  vertical-align: middle;
 }

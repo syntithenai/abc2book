@@ -1,6 +1,7 @@
 import abcjs from 'abcjs';
 import { buildChordFillAbc, chordFillCacheKey } from './chordFillPattern';
-import { getSoundFontUrl, getSoundFontVolumeMultiplier } from './soundFontConfig';
+import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig';
+import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap';
 
 const ORIGINAL_SOUNDFONT_CDN = 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/';
 
@@ -33,7 +34,7 @@ function renderFillVisual(abc) {
   }
 }
 
-async function primeSingleFill(abc, audioContext, soundFontUrl) {
+async function primeSingleFill(abc, audioContext, soundFontUrl, remapLocal) {
   const visualObj = renderFillVisual(abc);
   if (!visualObj) {
     throw new Error('ABC render produced no visual object');
@@ -45,9 +46,8 @@ async function primeSingleFill(abc, audioContext, soundFontUrl) {
   }
 
   const synth = new abcjs.synth.CreateSynth();
-  await synth.init({
+  const initOptions = {
     audioContext: audioContext,
-    visualObj: visualObj,
     millisecondsPerMeasure: msPerMeasure,
     options: {
       soundFontUrl: soundFontUrl,
@@ -57,7 +57,15 @@ async function primeSingleFill(abc, audioContext, soundFontUrl) {
       fadeLength: 0,
       noteEnd: 0,
     },
-  });
+  };
+  if (remapLocal) {
+    const flattened = visualObj.setUpAudio({});
+    remapFlattenedMidiPrograms(flattened);
+    initOptions.sequence = flattened;
+  } else {
+    initOptions.visualObj = visualObj;
+  }
+  await synth.init(initOptions);
 
   const primeResult = await synth.prime();
   const buffer = typeof synth.getAudioBuffer === 'function'
@@ -76,12 +84,13 @@ async function primeSingleFill(abc, audioContext, soundFontUrl) {
 }
 
 function soundFontCandidates() {
-  const configured = getSoundFontUrl();
+  const musyngReady = isResolverMusyngKiteReady();
+  const configured = getSoundFontUrl({ musyngKiteReady: musyngReady });
   const list = [];
-  if (configured) list.push(configured);
-  // null → abcjs default FluidR3_GM CDN
-  list.push(null);
-  if (configured !== ORIGINAL_SOUNDFONT_CDN) list.push(ORIGINAL_SOUNDFONT_CDN);
+  if (configured) {
+    list.push({ url: configured, remapLocal: !musyngReady });
+  }
+  list.push({ url: ORIGINAL_SOUNDFONT_CDN, remapLocal: true });
   return list;
 }
 
@@ -91,7 +100,12 @@ async function primeSingleFillWithFallback(abc, audioContext) {
   for (let i = 0; i < candidates.length; i += 1) {
     try {
       if (i > 0) clearAbcjsSoundsCache();
-      return await primeSingleFill(abc, audioContext, candidates[i]);
+      return await primeSingleFill(
+        abc,
+        audioContext,
+        candidates[i].url,
+        candidates[i].remapLocal
+      );
     } catch (err) {
       lastError = err;
     }

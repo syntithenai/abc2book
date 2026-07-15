@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Button, Form } from 'react-bootstrap'
+import { Button, Dropdown, DropdownButton, Form, FormControl, InputGroup } from 'react-bootstrap'
+import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
 
 function normalizeItems(value) {
   if (!Array.isArray(value)) return []
@@ -30,6 +31,10 @@ function mergeUnique(existing, nextItems) {
   return result
 }
 
+const CARET_TITLE = (
+  <span aria-hidden="true" style={{ display: 'inline-block', lineHeight: 1 }}>▾</span>
+)
+
 /**
  * Free-text chip list: type a value, press Enter (or click Add) to create a
  * labeled chip with a delete control. onChange always receives a string[].
@@ -42,14 +47,28 @@ export default function TuneChipListField(props) {
   const label = props.label
   const placeholder = props.placeholder || 'Type a value and press Enter'
   const addLabel = props.addLabel || 'Add'
+  const musicBrainzSuggest = !!props.musicBrainzSuggest
+  const endAppend = props.endAppend || null
+  const suggestOptions = Array.isArray(props.suggestOptions) ? props.suggestOptions : []
   const [draft, setDraft] = useState('')
+  const mbOptions = useMusicBrainzArtistOptions(draft, { enabled: musicBrainzSuggest })
+  const dropdownOptions = []
+  const seenOpts = {}
+  suggestOptions.concat(mbOptions).forEach(function(option) {
+    const text = String(option || '').trim()
+    if (!text) return
+    const key = text.toLowerCase()
+    if (seenOpts[key]) return
+    seenOpts[key] = true
+    dropdownOptions.push(text)
+  })
 
   function emit(next) {
     if (typeof onChange === 'function') onChange(next)
   }
 
-  function commitDraft() {
-    const nextItems = splitDraftText(draft)
+  function commitDraft(text) {
+    const nextItems = splitDraftText(text != null ? text : draft)
     if (nextItems.length === 0) return
     emit(mergeUnique(items, nextItems))
     setDraft('')
@@ -82,43 +101,65 @@ export default function TuneChipListField(props) {
         </div>
       ) : null}
       <div className="tune-chip-list-input-row">
-        <Form.Control
-          value={draft}
-          placeholder={placeholder}
-          onChange={function(e) { setDraft(e.target.value) }}
-          onKeyDown={function(e) {
-            if (e.key === 'Enter') {
+        <InputGroup>
+          <FormControl
+            value={draft}
+            placeholder={placeholder}
+            onChange={function(e) { setDraft(e.target.value) }}
+            onKeyDown={function(e) {
+              if (e.key === 'Enter') {
+                e.preventDefault()
+                commitDraft()
+                return
+              }
+              if (e.key === 'Backspace' && !draft && items.length > 0) {
+                e.preventDefault()
+                removeItem(items.length - 1)
+              }
+            }}
+            onBlur={function() {
+              if (String(draft || '').trim()) commitDraft()
+            }}
+            onPaste={function(e) {
+              const pasted = e.clipboardData && e.clipboardData.getData('text')
+              if (!pasted || pasted.indexOf(',') < 0) return
               e.preventDefault()
-              commitDraft()
-              return
-            }
-            if (e.key === 'Backspace' && !draft && items.length > 0) {
-              e.preventDefault()
-              removeItem(items.length - 1)
-            }
-          }}
-          onBlur={function() {
-            if (String(draft || '').trim()) commitDraft()
-          }}
-          onPaste={function(e) {
-            const pasted = e.clipboardData && e.clipboardData.getData('text')
-            if (!pasted || pasted.indexOf(',') < 0) return
-            e.preventDefault()
-            const nextItems = splitDraftText(draft + pasted)
-            if (nextItems.length === 0) return
-            emit(mergeUnique(items, nextItems))
-            setDraft('')
-          }}
-        />
-        <Button
-          type="button"
-          variant="outline-secondary"
-          className="tune-chip-list-add"
-          disabled={!String(draft || '').trim()}
-          onClick={commitDraft}
-        >
-          {addLabel}
-        </Button>
+              const nextItems = splitDraftText(draft + pasted)
+              if (nextItems.length === 0) return
+              emit(mergeUnique(items, nextItems))
+              setDraft('')
+            }}
+          />
+          {dropdownOptions.length > 0 ? (
+            <DropdownButton
+              variant="outline-secondary"
+              className="chip-list-options-dropdown"
+              title={CARET_TITLE}
+              align="end"
+              onSelect={function(option) { commitDraft(option) }}
+              aria-label="Artist suggestions"
+              data-testid="chip-list-musicbrainz-dropdown"
+            >
+              {dropdownOptions.map(function(option) {
+                return (
+                  <Dropdown.Item key={option} eventKey={option}>
+                    {option}
+                  </Dropdown.Item>
+                )
+              })}
+            </DropdownButton>
+          ) : null}
+          {endAppend}
+          <Button
+            type="button"
+            variant="outline-secondary"
+            className="tune-chip-list-add"
+            disabled={!String(draft || '').trim()}
+            onClick={function() { commitDraft() }}
+          >
+            {addLabel}
+          </Button>
+        </InputGroup>
       </div>
     </Form.Group>
   )

@@ -5,6 +5,8 @@ import FieldLookupReviewButton from '../FieldLookupReviewButton'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import CapitalizeTitleButton from '../CapitalizeTitleButton'
 import KeySignatureInput from '../KeySignatureInput'
+import SelectInput from '../SelectInput'
+import useMusicBrainzArtistOptions from '../../useMusicBrainzArtistOptions'
 
 function PendingImportCard(props) {
   const item = props.item;
@@ -30,6 +32,7 @@ function PendingImportCard(props) {
 export default function MediaImportMetadataStep(props) {
   const draft = props.draft || {};
   const metadata = draft.metadata || {};
+  const composerOptions = useMusicBrainzArtistOptions(metadata.composer);
   const tunebook = props.tunebook;
 
   function update(field, value) {
@@ -125,62 +128,73 @@ export default function MediaImportMetadataStep(props) {
         />
       </Form.Group>
       <Form.Group className="mb-3">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
-          <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
-          <ComposerSearchButton
-            tuneId={props.tune && props.tune.id}
-            candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
-            title={metadata.name || ''}
-            composer={metadata.composer || ''}
-            titleHint={metadata.name || ''}
-            token={props.token}
-            tunebook={props.tunebook}
-            resolverAvailable={props.resolverAvailable}
-            alwaysPick={true}
-            inline={true}
-            onComposer={function(result) {
-              if (result && result.artist) {
-                update('composer', result.artist);
-                if (typeof props.onDraftChange === 'function') {
-                  props.onDraftChange({ lookupComposerCandidates: [] });
-                }
-              }
-            }}
-          />
-          <FieldLookupReviewButton
-            tuneId={props.tune && props.tune.id}
-            candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
-            kind="composer"
-            fallbackTitle={metadata.name || ''}
-            currentValue={metadata.composer || ''}
-            onApply={function(candidate, _job, meta) {
-              if (meta && meta.keepCurrent) return
-              if (candidate && candidate.artist) {
-                update('composer', candidate.artist);
-                if (typeof props.onDraftChange === 'function') {
-                  props.onDraftChange({ lookupComposerCandidates: [] });
-                }
-              }
-            }}
-          />
-        </div>
-        {Array.isArray(draft.lookupComposerCandidates) && draft.lookupComposerCandidates.length > 0 ? (
-          <ComposerCandidateQuickPick
-            className="mb-2"
-            candidates={draft.lookupComposerCandidates}
-            placeholder="Review discovered artist…"
-            onSelect={function(artist) {
-              update('composer', artist);
+        <ComposerSearchButton
+          tuneId={props.tune && props.tune.id}
+          candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
+          title={metadata.name || ''}
+          composer={metadata.composer || ''}
+          titleHint={metadata.name || ''}
+          token={props.token}
+          tunebook={props.tunebook}
+          resolverAvailable={props.resolverAvailable}
+          alwaysPick={true}
+          inline={true}
+          onComposer={function(result) {
+            if (result && result.artist) {
+              update('composer', result.artist);
               if (typeof props.onDraftChange === 'function') {
                 props.onDraftChange({ lookupComposerCandidates: [] });
               }
-            }}
-          />
-        ) : null}
-        <Form.Control
-          value={metadata.composer || ''}
-          onChange={function(e) { update('composer', e.target.value); }}
-        />
+            }
+          }}
+        >
+          {function(api) {
+            return (
+              <>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
+                  <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
+                  {api.buttonGroup}
+                  <FieldLookupReviewButton
+                    tuneId={props.tune && props.tune.id}
+                    candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
+                    kind="composer"
+                    fallbackTitle={metadata.name || ''}
+                    currentValue={metadata.composer || ''}
+                    onApply={function(candidate, _job, meta) {
+                      if (meta && meta.keepCurrent) return
+                      if (candidate && candidate.artist) {
+                        update('composer', candidate.artist);
+                        if (typeof props.onDraftChange === 'function') {
+                          props.onDraftChange({ lookupComposerCandidates: [] });
+                        }
+                      }
+                    }}
+                  />
+                </div>
+                {Array.isArray(draft.lookupComposerCandidates) && draft.lookupComposerCandidates.length > 0 ? (
+                  <ComposerCandidateQuickPick
+                    className="mb-2"
+                    candidates={draft.lookupComposerCandidates}
+                    placeholder="Review discovered artist…"
+                    onSelect={function(artist) {
+                      update('composer', artist);
+                      if (typeof props.onDraftChange === 'function') {
+                        props.onDraftChange({ lookupComposerCandidates: [] });
+                      }
+                    }}
+                  />
+                ) : null}
+                <SelectInput
+                  value={metadata.composer || ''}
+                  onChange={function(val) { update('composer', val); }}
+                  options={composerOptions}
+                  endAppend={api.suggestionsDropdown}
+                />
+                {api.errorNode}
+              </>
+            )
+          }}
+        </ComposerSearchButton>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Time signature</Form.Label>

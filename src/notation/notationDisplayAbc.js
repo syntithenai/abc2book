@@ -1,4 +1,5 @@
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils';
+import { parseVoiceMeta } from './voiceMeta';
 
 /** Remove book/tag metadata lines that abcjs renders as text under the staff. */
 export function stripNotationDisplayMetadata(abcText) {
@@ -99,12 +100,12 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
   return notationDisplayAbc(tuneCopy, tunebook);
 }
 
-/** Voice label for UI: meta text when set, otherwise Voice N from the voice key. */
+/** Voice label for UI: display name from meta when set, otherwise Voice N from the voice key. */
 export function voiceDisplayLabel(tune, voiceKey) {
   if (!voiceKey) return '';
   if (tune && tune.voices && tune.voices[voiceKey]) {
-    const meta = String(tune.voices[voiceKey].meta || '').trim();
-    if (meta) return meta;
+    const parsed = parseVoiceMeta(tune.voices[voiceKey].meta);
+    if (parsed.name) return parsed.name;
   }
   return 'Voice ' + voiceKey;
 }

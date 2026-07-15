@@ -1,5 +1,6 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
 import { isGenericArtist } from './genericArtistUtils';
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from './externalSearchLinks';
 
 const RESEARCH_ACCEPT_HEADER = 'application/x-ndjson, application/json';
 const GOOGLE_SEARCH_BASE = 'https://www.google.com/search?q=';
@@ -284,9 +285,9 @@ export function buildTuneBackgroundSearchQuery(title, artist, lyrics) {
 }
 
 export function buildTuneBackgroundSearchUrl(title, artist, lyrics) {
-  const query = buildTuneBackgroundSearchQuery(title, artist, lyrics);
-  if (!query) return GOOGLE_SEARCH_BASE;
-  return GOOGLE_SEARCH_BASE + encodeURIComponent(query);
+  // External link uses a plain-English question. Keep research OR-queries for the resolver.
+  void lyrics
+  return buildGoogleSearchQuestionUrl(buildExternalSearchQuestion('background', title, artist));
 }
 
 export function buildWikipediaSearchUrl(title, artist) {

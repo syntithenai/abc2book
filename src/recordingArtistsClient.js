@@ -142,12 +142,38 @@ async function discoverWritersFromWork(workId, signal) {
   return Object.values(writers)
 }
 
-export async function discoverWorkWriters(options) {
+function workRecordingCount(work) {
+  const keys = ['recording-count', 'recording_count']
+  for (let i = 0; i < keys.length; i += 1) {
+    const raw = work && work[keys[i]]
+    if (typeof raw === 'number' && raw >= 0) return raw
+  }
+  return 0
+}
+
+export function pickSuggestedWorkTitle(searchTitle, exactWorks) {
+  const searchKey = normalizeArtistKey(searchTitle)
+  if (!searchKey || !Array.isArray(exactWorks) || exactWorks.length === 0) return ''
+  const ranked = exactWorks.slice().sort(function(a, b) {
+    const rcDiff = workRecordingCount(b.work) - workRecordingCount(a.work)
+    if (rcDiff !== 0) return rcDiff
+    return b.score - a.score
+  })
+  for (let i = 0; i < ranked.length; i += 1) {
+    const workTitle = String(ranked[i].work && ranked[i].work.title || '').trim()
+    if (!workTitle) continue
+    if (normalizeArtistKey(workTitle) === searchKey) continue
+    return workTitle
+  }
+  return ''
+}
+
+export async function discoverWorkWritersWithProminence(options) {
   const opts = options || {}
   const title = String(opts.title || '').trim()
   const maxWriters = typeof opts.maxWriters === 'number' ? opts.maxWriters : 6
   const maxWorks = typeof opts.maxWorks === 'number' ? opts.maxWorks : 8
-  if (!title) return []
+  if (!title) return { writers: [], suggestedTitle: '' }
 
   const writers = {}
   const exactWorks = []
@@ -183,10 +209,13 @@ export async function discoverWorkWriters(options) {
     })
   }
 
-  if (exactWorks.length === 0) return []
+  if (exactWorks.length === 0) {
+    return { writers: [], suggestedTitle: '' }
+  }
 
   exactWorks.sort(function(a, b) { return b.score - a.score })
   const selected = exactWorks.slice(0, maxWorks)
+  const suggestedTitle = pickSuggestedWorkTitle(title, exactWorks)
 
   for (let i = 0; i < selected.length; i += 1) {
     if (Object.keys(writers).length >= maxWriters) break
@@ -194,7 +223,15 @@ export async function discoverWorkWriters(options) {
     found.forEach(function(name) { addArtist(writers, name) })
   }
 
-  return Object.values(writers).slice(0, maxWriters)
+  return {
+    writers: Object.values(writers).slice(0, maxWriters),
+    suggestedTitle: suggestedTitle,
+  }
+}
+
+export async function discoverWorkWriters(options) {
+  const enriched = await discoverWorkWritersWithProminence(options)
+  return enriched.writers || []
 }
 
 export async function discoverRecordingArtists(options) {

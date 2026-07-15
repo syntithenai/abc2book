@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Badge, Button, Form, ListGroup, Modal, Tab, Tabs } from 'react-bootstrap'
 import { toast } from 'react-toastify'
-import useGoogleDocument from '../useGoogleDocument'
 import {
   formatBytes,
   formatCacheDate,
@@ -18,7 +17,6 @@ import {
   getTuneOwnedMediaDriveSummary,
   ownedMediaDriveStatusLabel,
   ownedMediaDriveStatusVariant,
-  uploadOwnedMediaLinksForTune,
 } from '../linkRecording'
 
 const TAB_AUDIO = 'audio'
@@ -110,18 +108,10 @@ export default function MediaCacheTunesModal(props) {
   const deletedTunes = props.deletedTunes || {}
   const icons = tunebook && tunebook.icons ? tunebook.icons : {}
   const utils = tunebook && tunebook.utils ? tunebook.utils : null
-  const driveApi = useGoogleDocument(
-    props.token,
-    props.login || function() {},
-    props.forceRefresh
-  )
-  const loggedIn = !!(props.token && props.token.access_token)
   const [activeTab, setActiveTab] = useState(TAB_AUDIO)
   const [filterText, setFilterText] = useState('')
   const [summaries, setSummaries] = useState({ audio: [], stems: [], midi: [] })
   const [loading, setLoading] = useState(false)
-  const [uploadingTuneIds, setUploadingTuneIds] = useState({})
-  const [bulkUploadBusy, setBulkUploadBusy] = useState(false)
 
   const refreshSummaries = useCallback(function() {
     setLoading(true)
@@ -177,99 +167,6 @@ export default function MediaCacheTunesModal(props) {
     if (props.forceRefresh) props.forceRefresh()
   }
 
-  function setTuneUploading(tuneId, busy) {
-    setUploadingTuneIds(function(prev) {
-      const next = Object.assign({}, prev)
-      if (busy) next[tuneId] = true
-      else delete next[tuneId]
-      return next
-    })
-  }
-
-  async function handleDriveUpload(row) {
-    const tune = row.tune || getTuneById(tunes, row.tuneId)
-    if (!tune) {
-      toast.warning('Tune not found — cannot upload.')
-      return
-    }
-    if (!loggedIn) {
-      toast.warning('Log in with Google to upload to Drive.')
-      if (typeof props.login === 'function') props.login()
-      return
-    }
-    setTuneUploading(row.tuneId, true)
-    try {
-      const result = await uploadOwnedMediaLinksForTune(tune, {
-        token: props.token,
-        driveApi: driveApi,
-      })
-      if (result.uploaded > 0) {
-        tunebook.saveTune(result.tune)
-        if (props.forceRefresh) props.forceRefresh()
-        toast.success(
-          'Uploaded ' + result.uploaded + ' recording' + (result.uploaded === 1 ? '' : 's') + ' for "' + row.name + '".'
-        )
-      } else if (result.errors.length > 0) {
-        toast.error(result.errors[0], { autoClose: 4000 })
-      }
-    } catch (e) {
-      toast.error(e.message || 'Upload failed.', { autoClose: 4000 })
-    } finally {
-      setTuneUploading(row.tuneId, false)
-    }
-  }
-
-  async function handleBulkDriveUpload(rows) {
-    const targets = (rows || []).filter(function(row) {
-      return row.tune && row.driveSummary && row.driveSummary.uploadable > 0
-    })
-    if (targets.length === 0) {
-      return
-    }
-    if (!loggedIn) {
-      toast.warning('Log in with Google to upload to Drive.')
-      if (typeof props.login === 'function') props.login()
-      return
-    }
-    setBulkUploadBusy(true)
-    let uploadedTunes = 0
-    let uploadedLinks = 0
-    const errors = []
-    try {
-      for (let i = 0; i < targets.length; i += 1) {
-        const row = targets[i]
-        setTuneUploading(row.tuneId, true)
-        try {
-          const result = await uploadOwnedMediaLinksForTune(row.tune, {
-            token: props.token,
-            driveApi: driveApi,
-          })
-          if (result.uploaded > 0) {
-            tunebook.saveTune(result.tune)
-            uploadedTunes += 1
-            uploadedLinks += result.uploaded
-          }
-          if (result.errors.length > 0) {
-            errors.push(row.name + ': ' + result.errors[0])
-          }
-        } finally {
-          setTuneUploading(row.tuneId, false)
-        }
-      }
-      if (uploadedLinks > 0) {
-        if (props.forceRefresh) props.forceRefresh()
-        toast.success(
-          'Uploaded ' + uploadedLinks + ' recording' + (uploadedLinks === 1 ? '' : 's') + ' from ' + uploadedTunes + ' tune' + (uploadedTunes === 1 ? '' : 's') + '.',
-          { autoClose: 3000 }
-        )
-      } else if (errors.length > 0) {
-        toast.error(errors[0], { autoClose: 4000 })
-      }
-    } finally {
-      setBulkUploadBusy(false)
-    }
-  }
-
   function handleClearCache(row, kind) {
     if (!utils) return
     const tuneIds = [row.tuneId]
@@ -312,28 +209,6 @@ export default function MediaCacheTunesModal(props) {
     )
   }
 
-  function renderBulkDriveToolbar(rows) {
-    const uploadableCount = rows.filter(function(row) {
-      return row.driveSummary && row.driveSummary.uploadable > 0 && row.tune
-    }).length
-    if (uploadableCount === 0) return null
-    return (
-      <div className="media-cache-tunes-bulk-drive">
-        <Button
-          size="sm"
-          variant="outline-primary"
-          disabled={bulkUploadBusy || !loggedIn}
-          onClick={function() { handleBulkDriveUpload(rows) }}
-        >
-          {bulkUploadBusy ? 'Uploading…' : ('Upload all to Drive (' + uploadableCount + ')')}
-        </Button>
-        {!loggedIn ? (
-          <span className="app-text-muted media-cache-tunes-bulk-drive-hint">Log in with Google to upload.</span>
-        ) : null}
-      </div>
-    )
-  }
-
   function renderDriveStatus(row) {
     if (!row.driveSummary) return null
     const summary = row.driveSummary
@@ -357,12 +232,8 @@ export default function MediaCacheTunesModal(props) {
       return <p className="app-text-muted media-cache-tunes-empty">No matching tunes with {kind} cache.</p>
     }
     return (
-      <>
-        {renderBulkDriveToolbar(rows)}
-        <ListGroup className="media-cache-tunes-list">
+      <ListGroup className="media-cache-tunes-list">
         {rows.map(function(row, index) {
-          const isUploading = !!uploadingTuneIds[row.tuneId]
-          const canUpload = !!(row.driveSummary && row.driveSummary.uploadable > 0 && row.tune)
           return (
             <ListGroup.Item
               key={row.tuneId}
@@ -395,20 +266,6 @@ export default function MediaCacheTunesModal(props) {
                 ) : null}
               </div>
               <div className="media-cache-tunes-row-actions">
-                {canUpload ? (
-                  <Button
-                    size="sm"
-                    variant="outline-primary"
-                    className="media-cache-tunes-action-btn"
-                    aria-label={'Upload owned recordings for ' + row.name + ' to Google Drive'}
-                    title={loggedIn ? 'Upload to Google Drive' : 'Log in with Google to upload'}
-                    disabled={isUploading || bulkUploadBusy || !loggedIn}
-                    onClick={function() { handleDriveUpload(row) }}
-                  >
-                    {icons.save}
-                    <span className="media-cache-tunes-action-label">{isUploading ? 'Uploading…' : 'Upload'}</span>
-                  </Button>
-                ) : null}
                 {showLockControls ? (
                   row.locked ? (
                     <Button
@@ -451,8 +308,7 @@ export default function MediaCacheTunesModal(props) {
             </ListGroup.Item>
           )
         })}
-        </ListGroup>
-      </>
+      </ListGroup>
     )
   }
 

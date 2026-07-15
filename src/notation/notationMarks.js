@@ -92,6 +92,80 @@ export function toggleDecoration(session, decorationKey) {
   return patchSession(session, { events: events });
 }
 
+const FINGER_KEYS = ['finger0', 'finger1', 'finger2', 'finger3', 'finger4', 'finger5'];
+
+export function isFingerDecorationKey(key) {
+  return FINGER_KEYS.indexOf(key) >= 0;
+}
+
+export function fingerKeyFromDigit(digit) {
+  const n = parseInt(digit, 10);
+  if (!Number.isFinite(n) || n < 0 || n > 5) return null;
+  return 'finger' + n;
+}
+
+/** Set or clear a chord symbol on the target note/rest (one symbol per event). */
+export function setChordSymbolOnSelection(session, chordText) {
+  const ids = targetEventIds(session);
+  if (!ids.length) return null;
+  const text = String(chordText == null ? '' : chordText).trim().replace(/"/g, '');
+  const events = session.events.map(cloneVoiceEvent);
+  let changed = false;
+  ids.forEach(function(id) {
+    const ev = events.find(function(e) { return e.id === id; });
+    if (!ev || !isNoteLike(ev)) return;
+    applyNoteExtensions(ev);
+    ev.chordSymbols = text ? [text] : [];
+    changed = true;
+  });
+  if (!changed) return null;
+  return patchSession(session, { events: events });
+}
+
+/** Stamp a single piano fingering decoration (replaces any existing finger0–5). */
+export function setFingerOnSelection(session, fingerKey) {
+  const ids = targetEventIds(session);
+  if (!ids.length) return null;
+  const key = fingerKey ? String(fingerKey) : null;
+  if (key && !isFingerDecorationKey(key)) return null;
+  const events = session.events.map(cloneVoiceEvent);
+  let changed = false;
+  ids.forEach(function(id) {
+    const ev = events.find(function(e) { return e.id === id; });
+    if (!ev || !isNoteLike(ev) || ev.type === 'rest') return;
+    applyNoteExtensions(ev);
+    ev.decorations = (ev.decorations || []).filter(function(d) { return !isFingerDecorationKey(d); });
+    if (key) ev.decorations.push(key);
+    changed = true;
+  });
+  if (!changed) return null;
+  return patchSession(session, { events: events });
+}
+
+/** Advance caret/selection to the next note-like event after the current target. */
+export function advanceSelectionToNextNote(session) {
+  const ids = targetEventIds(session);
+  const events = session.events;
+  let fromIdx = -1;
+  if (ids.length) {
+    fromIdx = events.findIndex(function(ev) { return ev.id === ids[ids.length - 1]; });
+  } else {
+    fromIdx = Math.max(0, session.caretIndex - 1);
+  }
+  for (let i = fromIdx + 1; i < events.length; i++) {
+    if (isNoteLike(events[i])) {
+      return Object.assign({}, session, {
+        caretIndex: i + 1,
+        selection: { eventIds: [events[i].id], toneIndex: null, anchorId: events[i].id },
+      });
+    }
+  }
+  return Object.assign({}, session, {
+    caretIndex: events.length,
+    selection: { eventIds: [], toneIndex: null, anchorId: null },
+  });
+}
+
 export function clearSlurOnSelection(session) {
   const ids = targetEventIds(session);
   if (!ids.length) return null;
@@ -337,19 +411,112 @@ export function setBeamBreakBeforeSelection(session, value) {
 export function findSlurGroupForSelection(session) {
   const ids = (session.selection && session.selection.eventIds) || [];
   if (!ids.length) return null;
-  let groupId = null;
+
+  let seed = null;
   for (let i = 0; i < ids.length; i += 1) {
     const ev = session.events.find(function(e) { return e.id === ids[i]; });
-    if (ev && ev.slurGroupId) { groupId = ev.slurGroupId; break; }
+    if (!ev || (ev.type !== 'note' && ev.type !== 'chord')) continue;
+    if (ev.slurGroupId || ev.slurStart || ev.slurEnd) {
+      seed = ev;
+      break;
+    }
   }
-  if (!groupId) return null;
+  if (!seed) return null;
+
+  let groupId = seed.slurGroupId;
   let startId = null;
   let endId = null;
-  session.events.forEach(function(ev) {
-    if (ev.slurGroupId !== groupId) return;
-    if (ev.slurStart) startId = ev.id;
-    if (ev.slurEnd) endId = ev.id;
-  });
+
+  if (groupId) {
+    session.events.forEach(function(ev) {
+      if (ev.slurGroupId !== groupId) return;
+      if (ev.slurStart) startId = ev.id;
+      if (ev.slurEnd) endId = ev.id;
+    });
+  }
+
+  // Fallback for partially stamped / start-end-only groups.
+  if (!startId || !endId) {
+    const seedIdx = session.events.findIndex(function(e) { return e.id === seed.id; });
+    if (seedIdx < 0) return null;
+    if (!startId) {
+      for (let i = seedIdx; i >= 0; i -= 1) {
+        const ev = session.events[i];
+        if (ev && ev.slurStart && (ev.type === 'note' || ev.type === 'chord')) {
+          startId = ev.id;
+          if (!groupId && ev.slurGroupId) groupId = ev.slurGroupId;
+          break;
+        }
+      }
+    }
+    if (!endId) {
+      for (let i = seedIdx; i < session.events.length; i += 1) {
+        const ev = session.events[i];
+        if (ev && ev.slurEnd && (ev.type === 'note' || ev.type === 'chord')) {
+          endId = ev.id;
+          if (!groupId && ev.slurGroupId) groupId = ev.slurGroupId;
+          break;
+        }
+      }
+    }
+  }
+
   if (!startId || !endId) return null;
-  return { groupId: groupId, startId: startId, endId: endId };
+  return { groupId: groupId || ('slur-' + startId + '-' + endId), startId: startId, endId: endId };
+}
+
+/** Event ids belonging to a slur group (endpoints + members). */
+export function slurGroupMemberIds(session, group) {
+  if (!session || !group) return [];
+  if (group.groupId) {
+    const byId = session.events.filter(function(ev) {
+      return ev.slurGroupId === group.groupId && (ev.type === 'note' || ev.type === 'chord');
+    }).map(function(ev) { return ev.id; });
+    if (byId.length) return byId;
+  }
+  const startIdx = session.events.findIndex(function(ev) { return ev.id === group.startId; });
+  const endIdx = session.events.findIndex(function(ev) { return ev.id === group.endId; });
+  if (startIdx < 0 || endIdx < 0) return [group.startId, group.endId].filter(Boolean);
+  const lo = Math.min(startIdx, endIdx);
+  const hi = Math.max(startIdx, endIdx);
+  const ids = [];
+  for (let i = lo; i <= hi; i += 1) {
+    const ev = session.events[i];
+    if (ev && (ev.type === 'note' || ev.type === 'chord')) ids.push(ev.id);
+  }
+  return ids;
+}
+
+/**
+ * Clear tuplet insert mode and remove tuplet metadata from the active group /
+ * selection (End tuplet).
+ */
+export function clearTupletModeAndSelection(session) {
+  const events = session.events.map(cloneVoiceEvent);
+  const groupIds = {};
+  if (session.tupletMode && session.tupletMode.groupId) {
+    groupIds[session.tupletMode.groupId] = true;
+  }
+  const ids = targetEventIds(session);
+  ids.forEach(function(id) {
+    const ev = events.find(function(e) { return e.id === id; });
+    if (ev && ev.tuplet && ev.tuplet.groupId) groupIds[ev.tuplet.groupId] = true;
+  });
+  // If nothing selected but caret sits on/after a tupleted note, clear that group.
+  if (!Object.keys(groupIds).length) {
+    const caret = Math.min(session.caretIndex, events.length);
+    const near = events[caret] || (caret > 0 ? events[caret - 1] : null);
+    if (near && near.tuplet && near.tuplet.groupId) groupIds[near.tuplet.groupId] = true;
+  }
+  let changed = false;
+  events.forEach(function(ev) {
+    if (!ev.tuplet) return;
+    if (Object.keys(groupIds).length && !groupIds[ev.tuplet.groupId]) return;
+    // With empty groupIds we still only clear when tupletMode was active — do not wipe all.
+    if (!Object.keys(groupIds).length) return;
+    ev.tuplet = null;
+    changed = true;
+  });
+  if (!changed && !session.tupletMode) return null;
+  return patchSession(session, { events: events, tupletMode: null });
 }

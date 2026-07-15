@@ -17,7 +17,7 @@ export const TUNE_IMPORT_FIELD_DEFS = [
   { key: 'books', label: 'Books', group: 'Collection data', defaultImport: false },
   { key: 'tags', label: 'Tags', group: 'Collection data', defaultImport: false },
   { key: 'links', label: 'Links', group: 'Collection data', defaultImport: false },
-  { key: 'boost', label: 'Search boost', group: 'Playback & extras', defaultImport: false },
+  { key: 'boost', label: 'Confidence', group: 'Playback & extras', defaultImport: false },
   { key: 'difficulty', label: 'Difficulty', group: 'Playback & extras', defaultImport: false },
   { key: 'tablature', label: 'Tablature', group: 'Playback & extras', defaultImport: false },
   { key: 'capo', label: 'Capo', group: 'Playback & extras', defaultImport: false },

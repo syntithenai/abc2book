@@ -203,10 +203,14 @@ export default function ChordsWizard(props) {
     const firstTempo = opts.firstTempo || firstSectionTempo(nextSections, tune.tempo)
     const notes = primaryNoteLines()
     const structural = !!opts.structural
-    // Structural New/Delete must rebuild scaffold from the editor section list;
-    // otherwise leftover ABC strains make Delete look like it removed the last block.
-    const wipeNotation = !!opts.wipeNotation
+    // Expand (Add section) appends || rest strains on the primary voice.
+    // Wipe (Delete / paste) rebuilds scaffold from the section list so leftover
+    // ABC strains cannot resurface after Delete.
+    const expandNotation = !!opts.expandNotation
+    const wipeNotation = !expandNotation && (
+      !!opts.wipeNotation
       || (structural && (!noteLinesHaveRealMelody(notes) || !!tune.timingScaffold))
+    )
     const result = applyBlockMergeToTune(abcJson, {
       abc: props.abc,
       blocks: nextSections,
@@ -255,7 +259,16 @@ export default function ChordsWizard(props) {
   }
 
   function handleSectionsChange(nextSections) {
-    saveSectionsTransaction(nextSections, { historyLabel: 'Reorder chord sections' })
+    // Dropdown Add uses the same callback; expand onto the primary voice when
+    // any section still needs an ABC strain (needsAbcExpand).
+    const needsExpand = (nextSections || []).some(function(s) {
+      return s && s.needsAbcExpand
+    })
+    saveSectionsTransaction(nextSections, {
+      historyLabel: needsExpand ? 'Add chord section' : 'Reorder chord sections',
+      structural: needsExpand,
+      expandNotation: needsExpand,
+    })
   }
 
   function jumpToSection(section) {
@@ -308,7 +321,11 @@ export default function ChordsWizard(props) {
       if (prevIndex >= 0 && next[prevIndex + 1]) addedKey = next[prevIndex + 1].key
     }
     if (!addedKey && next.length) addedKey = next[next.length - 1].key
-    saveSectionsTransaction(next, { historyLabel: 'Add chord section', structural: true })
+    saveSectionsTransaction(next, {
+      historyLabel: 'Add chord section',
+      structural: true,
+      expandNotation: true,
+    })
     if (addedKey) {
       window.setTimeout(function() {
         jumpToSection(next.find(function(s) { return s && s.key === addedKey }) || next[next.length - 1])

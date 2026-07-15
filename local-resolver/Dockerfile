@@ -150,6 +150,10 @@ RUN mkdir -p /opt/autochord-libs \
     && ln -sf /usr/local/bin/python3.11 /opt/vision-venv/bin/python3
 
 COPY server.py /app/server.py
+COPY allowlists.py /app/allowlists.py
+COPY providers.py /app/providers.py
+COPY provider_cloud.py /app/provider_cloud.py
+COPY soundfont_download.py /app/soundfont_download.py
 COPY oauth_bff.py /app/oauth_bff.py
 COPY subprocess_utils.py /app/subprocess_utils.py
 COPY recording_artists.py /app/recording_artists.py

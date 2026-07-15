@@ -1,0 +1,41 @@
+# Optional Ollama LLM stack for the home resolver.
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.ollama.yml up -d
+# Or set profile:
+#   docker compose --profile ollama up -d
+#
+# Points llm-gateway primary at Ollama's OpenAI-compatible API and skips loading
+# the local GGUF llama.cpp container when LLM_EXTERNAL_BASE_URL is set on `llm`.
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: abc2book-ollama
+    profiles: ["ollama"]
+    ports:
+      - "${OLLAMA_PUBLISH_PORT:-11434}:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  llm:
+    profiles: ["ollama"]
+    environment:
+      # Proxy mode: do not load GGUF; forward to Ollama on the host network bridge.
+      LLM_EXTERNAL_BASE_URL: ${LLM_EXTERNAL_BASE_URL:-http://host.docker.internal:11434/v1}
+      LLM_EXTERNAL_API_KEY: ${LLM_EXTERNAL_API_KEY:-ollama}
+      LLM_MODEL_ALIAS: ${RESEARCH_LLM_MODEL:-llama3.2}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  llm-gateway:
+    profiles: ["ollama"]
+    environment:
+      LLM_PRIMARY_BASE_URL: http://127.0.0.1:${OLLAMA_PUBLISH_PORT:-11434}
+      LLM_FALLBACK_BASE_URL: ""
+      LLM_EXTERNAL_BASE_URL: http://127.0.0.1:${OLLAMA_PUBLISH_PORT:-11434}/v1
+    depends_on:
+      - ollama
+
+volumes:
+  ollama_data:

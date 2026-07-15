@@ -5,8 +5,11 @@ import { trackResolverRequest } from './analytics';
 import { parseResolverFeaturesFromHealthBody } from './resolverFeatures';
 import { pickAuthResolverBase, resolveStickyAuthBase } from './authResolverClient';
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry';
+import { getActiveProviderHeaders, loadProviderSettings } from './providerSettings';
+import { getYoutubeEgressHeaders } from './youtubeUnlock';
 
 let activeProxyBase = null;
+let heavyMlProxyBase = null;
 
 // Health checks must fail fast. A configured-but-unreachable candidate (e.g. the
 // public resolver when the browser can't reach it via NAT loopback) would
@@ -38,6 +41,42 @@ export function getMediaProxyBase() {
 
 export function getActiveMediaProxyBase() {
   return activeProxyBase || '';
+}
+
+export function getHeavyMlMediaProxyBase() {
+  return heavyMlProxyBase || activeProxyBase || '';
+}
+
+function isLikelyLocalResolverBase(base) {
+  try {
+    const host = new URL(base).hostname;
+    return host === 'localhost'
+      || host === '127.0.0.1'
+      || host.startsWith('192.168.')
+      || host.startsWith('10.')
+      || host.startsWith('172.');
+  } catch (e) {
+    return false;
+  }
+}
+
+function candidateHasHeavyMl(candidate) {
+  const f = candidate && candidate.features;
+  if (!f) return false;
+  return !!(f.stems || f.sheetImage || f.sheetImageOmr || f.practiceAnalysis);
+}
+
+function pickHeavyMlBase(candidates) {
+  let fallback = null;
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    if (!c.reachable || !c.available) continue;
+    if (c.freeAccess === false) continue;
+    if (!candidateHasHeavyMl(c)) continue;
+    if (isLikelyLocalResolverBase(c.base)) return c.base;
+    if (!fallback) fallback = c.base;
+  }
+  return fallback;
 }
 
 export function isMediaProxyConfigured() {
@@ -126,6 +165,9 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/search-chords') === 0) return 'search-chords';
   if (pathAndQuery.indexOf('/search-notation') === 0) return 'search-notation';
   if (pathAndQuery.indexOf('/research-tune-background') === 0) return 'research-tune-background';
+  if (pathAndQuery.indexOf('/generate-feed-articles') === 0) return 'generate-feed-articles';
+  if (pathAndQuery.indexOf('/generate-feed-quizzes') === 0) return 'generate-feed-quizzes';
+  if (pathAndQuery.indexOf('/enrich-feed-sources') === 0) return 'enrich-feed-sources';
   if (pathAndQuery.indexOf('/help-query') === 0) return 'help-query';
   if (pathAndQuery.indexOf('/discover-composer') === 0) return 'discover-composer';
   if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
@@ -147,6 +189,10 @@ function unreachableHealthResult(base) {
     authReason: '',
     mixedContent: isMixedContentBlocked(base),
     oauthBff: false,
+    freeAccess: false,
+    embeddedCreds: false,
+    providers: null,
+    lightMode: false,
   };
 }
 
@@ -223,6 +269,9 @@ async function tryHealthAtBase(base, accessToken) {
     const features = parseResolverFeaturesFromHealthBody(body);
     const oauthBff = body.oauthBff === true || features.oauthBff === true;
     if (oauthBff) features.oauthBff = true;
+    if (body.soundfontsReady === true || body.soundfontsReady === false) {
+      features.soundfonts = true;
+    }
 
     return {
       base: base,
@@ -235,6 +284,15 @@ async function tryHealthAtBase(base, accessToken) {
       demucsStems: Array.isArray(body.demucsStems) ? body.demucsStems : null,
       features: features,
       oauthBff: oauthBff,
+      freeAccess: body.freeAccess === true || (!requireAuth && available),
+      embeddedCreds: body.embeddedCreds === true,
+      providers: body.providers && typeof body.providers === 'object' ? body.providers : null,
+      lightMode: body.lightMode === true || features.lightMode === true,
+      soundfontsReady: body.soundfontsReady === true,
+      soundfontsProgress: body.soundfontsProgress && typeof body.soundfontsProgress === 'object'
+        ? body.soundfontsProgress
+        : null,
+      soundfontsRunning: body.soundfontsRunning === true,
     };
   } catch (e) {
     return {
@@ -297,18 +355,16 @@ export async function probeMediaResolverCandidates(accessToken) {
   }
 
   activeProxyBase = activeBase;
+  heavyMlProxyBase = pickHeavyMlBase(candidates);
   const preferredAuthBase = pickAuthResolverBase(candidates);
   const authBase = resolveStickyAuthBase(candidates, null);
   return {
     available: !!activeBase,
     activeBase: activeBase,
+    heavyMlBase: heavyMlProxyBase,
     authBase: authBase,
     preferredAuthBase: preferredAuthBase,
     candidates: candidates,
-    // Surface the active resolver's Demucs model/stems so the UI can show the
-    // correct stem sliders (eg. guitar/piano for htdemucs_6s). Without this the
-    // aggregate status dropped these fields and getDemucsModel() always fell
-    // back to the 4-stem 'htdemucs'.
     demucsModel: activeCandidate && activeCandidate.demucsModel
       ? activeCandidate.demucsModel
       : 'htdemucs',
@@ -318,6 +374,11 @@ export async function probeMediaResolverCandidates(accessToken) {
     features: activeCandidate && activeCandidate.features
       ? activeCandidate.features
       : null,
+    freeAccess: activeCandidate ? !!activeCandidate.freeAccess : false,
+    embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
+    providers: activeCandidate && activeCandidate.providers
+      ? activeCandidate.providers
+      : null,
   };
 }
 
@@ -326,9 +387,33 @@ export async function checkMediaResolverHealth(accessToken) {
   return status.available;
 }
 
+const HEAVY_ML_PATH_PREFIXES = [
+  '/separate-stems',
+  '/stems/',
+  '/transcribe-sheet-image',
+  '/analyze-media',
+  '/detect-chords',
+  '/analyze-practice',
+];
+
+function pathNeedsHeavyMl(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  for (let i = 0; i < HEAVY_ML_PATH_PREFIXES.length; i++) {
+    if (path.indexOf(HEAVY_ML_PATH_PREFIXES[i]) === 0) return true;
+  }
+  return false;
+}
+
+function pathNeedsYoutubeEgress(pathAndQuery) {
+  const path = String(pathAndQuery || '').split('?')[0];
+  return path.indexOf('/youtube/') === 0;
+}
+
 export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptions = {}) {
-  const bases = activeProxyBase
-    ? [activeProxyBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== activeProxyBase; }))
+  const preferHeavy = pathNeedsHeavyMl(pathAndQuery) && heavyMlProxyBase;
+  const preferredBase = preferHeavy ? heavyMlProxyBase : activeProxyBase;
+  const bases = preferredBase
+    ? [preferredBase].concat(getMediaProxyBaseCandidates().filter(function(b) { return b !== preferredBase; }))
     : getMediaProxyBaseCandidates();
 
   if (bases.length === 0) {
@@ -347,6 +432,8 @@ export async function fetchViaMediaProxy(pathAndQuery, accessToken, requestOptio
         const mergedHeaders = Object.assign(
           {},
           buildAuthHeaders(tokenForRequest),
+          getActiveProviderHeaders(loadProviderSettings()),
+          pathNeedsYoutubeEgress(pathAndQuery) ? getYoutubeEgressHeaders() : {},
           requestOptions.headers || {}
         );
         const response = await fetch(url, {

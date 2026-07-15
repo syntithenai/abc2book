@@ -25,7 +25,7 @@ import {
   rebuildChordGridFromSections,
   stripMeterMarkers,
 } from './chordsEditorSections'
-import { noteLinesHaveRealMelody, clearTransientTimedFields } from './timedImportFinalizer'
+import { clearTransientTimedFields } from './timedImportFinalizer'
 import { resolvePrimaryVoiceKey } from './abcVoiceUtils'
 import {
   getPlainLyricLines,
@@ -438,48 +438,157 @@ function restBarForMeter(meter) {
 
 /**
  * Insert rest-scaffold strains for blocks that lack an ABC range.
+ * Also expands when there are more non-revisit sections than melody strains
+ * (e.g. New section without an explicit needsAbcExpand flag).
  */
 export function autoExpandNoteLinesForBlocks(noteLines, blocks, defaultMeter) {
   const lines = Array.isArray(noteLines) ? noteLines.slice() : []
-  const list = Array.isArray(blocks) ? blocks : []
+  let list = Array.isArray(blocks) ? blocks.map(function(b) {
+    return b ? Object.assign({}, b) : b
+  }) : []
+  const strains = splitMelodyStrainsWithBarlines(lines)
+  const nonRevisit = list.filter(function(b) { return b && !b.chartRevisit })
+  const deficit = Math.max(0, nonRevisit.length - strains.length)
+  let explicitNeeds = 0
+  list.forEach(function(b) {
+    if (b && b.needsAbcExpand) explicitNeeds += 1
+  })
+  // Mark trailing blocks that lack a strain so rebuild can reindex them.
+  if (deficit > 0) {
+    let marked = 0
+    for (let i = list.length - 1; i >= 0 && marked < deficit; i--) {
+      if (!list[i] || list[i].chartRevisit) continue
+      if (!list[i].needsAbcExpand) {
+        list[i] = Object.assign({}, list[i], {
+          needsAbcExpand: true,
+          melodyStrainIndex: -1,
+          abcBarStart: -1,
+          abcBarEnd: -1,
+        })
+      }
+      marked += 1
+    }
+  }
   const needs = list.filter(function(b) { return b && b.needsAbcExpand })
-  if (needs.length === 0) {
-    return { noteLines: lines, blocks: list, error: null }
+  const expandCount = Math.max(needs.length, deficit, explicitNeeds)
+  if (expandCount === 0) {
+    return { noteLines: lines, blocks: list, error: null, expanded: false }
   }
 
   let flat = flattenMelodyText(lines)
   const meter = normalizeMeter(defaultMeter || '4/4')
   const rest = restBarForMeter(meter)
 
-  needs.forEach(function() {
+  for (let n = 0; n < expandCount; n++) {
     const sep = flat.trim() ? ' || ' : ''
     flat = (flat.trim() + sep + rest + ' |').trim()
-  })
+  }
 
   const nextLines = [flat]
   const rebuilt = buildUnifiedBlocks({
     noteLines: nextLines,
-    chordChart: list.map(function(b) { return prependMeterMarker(b.chart, b.meter, null) }).join('\n\n'),
+    chordChart: list.map(function(b) {
+      const chart = b && String(stripMeterMarkers(b.chart || '')).trim()
+        ? b.chart
+        : '. |'
+      return prependMeterMarker(chart, b && b.meter, null)
+    }).join('\n\n'),
     lyricLines: [],
     defaultMeter: meter,
   })
 
-  // Preserve charts from reconcile order
+  // Preserve charts / titles from editor order; clear expand flags.
   const mergedBlocks = rebuilt.blocks.map(function(b, i) {
     const src = list[i] || {}
     return Object.assign({}, b, {
       chart: src.chart != null ? src.chart : b.chart,
       meter: src.meter || b.meter,
+      tempo: src.tempo || b.tempo,
       title: src.title || b.title,
+      header: src.header || src.lyricSectionHeader || b.lyricSectionHeader,
+      type: src.type || src.lyricSectionType || b.lyricSectionType,
+      key: src.key || b.key,
+      id: src.id || src.key || b.id,
+      chartRevisit: !!src.chartRevisit,
+      sourceTypeKey: src.sourceTypeKey != null ? src.sourceTypeKey : b.sourceTypeKey,
       needsAbcExpand: false,
     })
   })
 
-  return { noteLines: nextLines, blocks: mergedBlocks, error: null }
+  return { noteLines: nextLines, blocks: mergedBlocks, error: null, expanded: true }
 }
 
 function stripChordsFromAbcText(text) {
   return String(text || '').replace(/"([^"]*)"/g, '')
+}
+
+/**
+ * Replace primary-voice note lines in an ABC string, preserving other voices.
+ */
+function splicePrimaryVoiceNotes(abcString, noteLines, abcTools, voicesHint) {
+  const voiceKey = resolvePrimaryVoiceKey(voicesHint)
+  const notesOut = (Array.isArray(noteLines) ? noteLines : [String(noteLines || '')])
+    .map(function(line) { return String(line == null ? '' : line) })
+  if (!notesOut.length) notesOut.push('')
+
+  const rawLines = String(abcString || '').split('\n')
+  const hasVoiceHeaders = rawLines.some(function(line) { return /^V:/i.test(line) })
+  const rebuilt = []
+  let inPrimary = !hasVoiceHeaders
+  let wrotePrimaryNotes = false
+
+  function flushPrimaryNotes() {
+    if (wrotePrimaryNotes) return
+    notesOut.forEach(function(line) { rebuilt.push(line) })
+    wrotePrimaryNotes = true
+  }
+
+  rawLines.forEach(function(line) {
+    const vMatch = String(line).match(/^V:\s*(\S+)/i)
+    if (vMatch) {
+      if (inPrimary && !wrotePrimaryNotes) flushPrimaryNotes()
+      inPrimary = vMatch[1] === voiceKey
+      rebuilt.push(line)
+      return
+    }
+    if (abcTools.isNoteLine(line) && !String(line).startsWith('w:')) {
+      if (inPrimary) {
+        if (!wrotePrimaryNotes) flushPrimaryNotes()
+        // Drop previous primary note lines (already replaced).
+        return
+      }
+      rebuilt.push(line)
+      return
+    }
+    rebuilt.push(line)
+  })
+
+  if (!wrotePrimaryNotes) {
+    if (hasVoiceHeaders) {
+      // Primary V: header missing — append it with notes.
+      rebuilt.push('V:' + voiceKey)
+    }
+    flushPrimaryNotes()
+  }
+  return rebuilt.join('\n')
+}
+
+/**
+ * Normalize mergeChords note body (often multi-line) onto strain layout:
+ * prefer a single primary-voice note stream joined with existing || markers.
+ */
+function noteLinesFromMergedBody(mergedBody, abcTools) {
+  const text = String(mergedBody || '')
+  // Full ABC (rare) — take note body only.
+  const notes = abcTools && typeof abcTools.justNotes === 'function' && /(?:^|\n)[A-Za-z]:/.test(text)
+    ? abcTools.justNotes(text)
+    : text
+  const lines = String(notes).split('\n').map(function(line) {
+    return String(line || '').trim()
+  }).filter(Boolean)
+  if (lines.length <= 1) return lines.length ? lines : ['']
+  // Flatten system breaks into one voice line; strain boundaries stay as ||.
+  return [lines.join(' ')]
 }
 
 function notesFingerprintOutsideBlocks(noteLines, blocks, editedIndexes) {
@@ -646,19 +755,15 @@ export function mergeChordsForBlock(abcString, block, chartText, options) {
   }
 
   void afterOutside
-  const newAbc = abcTools.json2abc(Object.assign({}, header.abcJson, {
-    voices: (function() {
-      const voiceKey = resolvePrimaryVoiceKey(header.abcJson.voices)
-      const voices = Object.assign({}, header.abcJson.voices)
-      voices[voiceKey] = Object.assign({}, voices[voiceKey] || { meta: '', notes: [] }, {
-        notes: newNoteLines,
-      })
-      return voices
-    })(),
-    meter: normalizeMeter((opts.firstMeter != null ? opts.firstMeter : header.abcJson.meter) || header.meter),
-  }))
+  const noteLinesOut = [joined.trim()].filter(Boolean)
+  const newAbc = splicePrimaryVoiceNotes(
+    abcString,
+    noteLinesOut,
+    abcTools,
+    header.abcJson.voices
+  )
 
-  return { ok: true, abc: newAbc, noteLines: newNoteLines }
+  return { ok: true, abc: newAbc, noteLines: noteLinesOut }
 }
 
 /**
@@ -675,8 +780,14 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
 
   const list = Array.isArray(blocks) ? blocks : []
   const grid = rebuildChordGridFromSections(list.map(function(b) {
+    // Empty editor slots use `|` as a placeholder; merge needs a real rest bar
+    // so we do not corrupt neighbouring scaffold bars.
+    const raw = stripMeterMarkers(b && b.chart)
+    const chart = String(raw || '').trim() && String(raw).trim() !== '|'
+      ? b.chart
+      : '. |'
     return {
-      chart: b.chart,
+      chart: chart,
       meter: b.meter,
       tempo: b.tempo,
       chartRevisit: !!b.chartRevisit,
@@ -698,7 +809,14 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     ].join('\n')
     try {
       const merged = abcjsParser.mergeChords(grid, emptyAbc, opts.chordSheetAlignment || null)
-      return { ok: true, abc: merged, wiped: true }
+      const noteLines = noteLinesFromMergedBody(merged, abcTools)
+      const spliced = splicePrimaryVoiceNotes(
+        abcString,
+        noteLines,
+        abcTools,
+        header.abcJson.voices
+      )
+      return { ok: true, abc: spliced, wiped: true, noteLines: noteLines }
     } catch (e) {
       return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Scaffold rebuild failed') }
     }
@@ -716,58 +834,48 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
   if (expand.error) {
     return { ok: false, error: expand.error }
   }
-  if (expand.noteLines !== noteLines || expand.blocks !== list) {
+  if (expand.expanded) {
     noteLines = expand.noteLines
     workingBlocks = expand.blocks
-    // Write expanded notes into abc snapshot
-    const header = headerFromAbc(abcString, abcTools)
-    const voiceKey = resolvePrimaryVoiceKey(header.abcJson.voices)
-    header.abcJson.voices = Object.assign({}, header.abcJson.voices)
-    header.abcJson.voices[voiceKey] = Object.assign(
-      {},
-      header.abcJson.voices[voiceKey] || { meta: '', notes: [] },
-      { notes: noteLines }
+    // Write expanded notes into abc snapshot on the primary voice only.
+    abcString = splicePrimaryVoiceNotes(
+      abcString,
+      noteLines,
+      abcTools,
+      headerFromAbc(abcString, abcTools).abcJson.voices
     )
-    abcString = abcTools.json2abc(header.abcJson)
   }
 
-  const hasMelody = noteLinesHaveRealMelody(noteLines)
   const hasTimedMedia = !!(opts.tune && (opts.tune.timedChords || opts.tune.timedLyrics || opts.tune.timedMelody))
 
-  // Rest/scaffold-only: full rewrite via mergeChords is safe and simpler.
-  if (!hasMelody) {
-    try {
-      const firstMeter = firstSectionMeter(workingBlocks, opts.defaultMeter || '4/4')
-      const firstTempo = firstSectionTempo(workingBlocks, opts.defaultTempo)
-      const header = headerFromAbc(abcString, abcTools)
-      const emptyAbc = [
-        'X:1',
-        'T:',
-        'M:' + firstMeter,
-        'L:' + header.noteLength,
-        'Q:1/4=' + firstTempo,
-        'K:' + header.key,
-        'z |',
-      ].join('\n')
-      const merged = abcjsParser.mergeChords(grid, emptyAbc, opts.chordSheetAlignment || null)
-      return { ok: true, abc: merged, blocks: workingBlocks }
-    } catch (e) {
-      return { ok: false, error: mergeFailure('chart_parse_error', e.message || 'Merge failed') }
-    }
-  }
-
-  // Pitch present: merge all strains in one pass (avoid mid-loop abc rewrite).
+  // Pitch or rest/scaffold: merge per strain onto the primary voice.
+  // (Full wipe rewrite is reserved for opts.wipeNotation above.)
   const strains = splitMelodyStrainsWithBarlines(noteLines)
   const header = headerFromAbc(abcString, abcTools)
   const firstMeter = firstSectionMeter(workingBlocks, opts.defaultMeter || header.meter)
   const hasTimed = hasTimedMedia
   const updatedStrainTexts = strains.map(function(s) { return s.text })
 
+  // Editor blocks from paste/tests may omit melodyStrainIndex — default by order.
+  let strainCursor = 0
+  workingBlocks = workingBlocks.map(function(b) {
+    if (!b || b.chartRevisit) return b
+    if (b.melodyStrainIndex == null || b.melodyStrainIndex < 0) {
+      const assigned = strainCursor
+      strainCursor += 1
+      return Object.assign({}, b, { melodyStrainIndex: assigned })
+    }
+    strainCursor = Math.max(strainCursor, (b.melodyStrainIndex | 0) + 1)
+    return b
+  })
+
   for (let i = 0; i < workingBlocks.length; i++) {
     const block = workingBlocks[i]
     if (!block || block.chartRevisit) continue
+    // Empty new sections keep expanded rest scaffold; do not run mergeChords on blank chart.
+    if (!String(stripMeterMarkers(block.chart) || '').trim()) continue
     const strainIndex = block.melodyStrainIndex
-    if (strainIndex < 0 || strainIndex >= strains.length) {
+    if (strainIndex == null || strainIndex < 0 || strainIndex >= strains.length) {
       return { ok: false, error: mergeFailure('anchor_missing_range', 'Block has no ABC strain') }
     }
 
@@ -811,6 +919,19 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     }
     const mergedFlat = flattenMelodyText(abcTools.justNotes(mergedMini).split('\n'))
     updatedStrainTexts[strainIndex] = mergedFlat.replace(/^\|:\s*/, '').trim()
+  }
+
+  // If expand added strains and no charts needed merging, return expanded ABC as-is.
+  const mergedAny = workingBlocks.some(function(b) {
+    return b && !b.chartRevisit && String(stripMeterMarkers(b.chart) || '').trim()
+  })
+  if (!mergedAny) {
+    return {
+      ok: true,
+      abc: abcString,
+      blocks: workingBlocks,
+      noteLines: noteLines,
+    }
   }
 
   const beforeOutside = strains.map(function(s, i) {
@@ -873,28 +994,13 @@ export function mergeAllChordBlocks(abcString, blocks, options) {
     { notes: notesOut }
   )
   header.abcJson.meter = normalizeMeter(firstMeter)
-  // Prefer splicing note lines into the original ABC string to avoid
-  // json2abc round-trip edge cases with voice headers.
-  const rawLines = String(abcString || '').split('\n')
-  const rebuilt = []
-  let skippedNotes = false
-  rawLines.forEach(function(line) {
-    if (abcTools.isNoteLine(line) && !String(line).startsWith('w:')) {
-      if (!skippedNotes) {
-        rebuilt.push(notesOut[0])
-        skippedNotes = true
-      }
-      return
-    }
-    if (/^V:/i.test(line) && skippedNotes) return
-    rebuilt.push(line)
-  })
-  if (!skippedNotes) {
-    rebuilt.push('V:' + voiceKey)
-    rebuilt.push(notesOut[0])
-  }
-  const currentAbc = rebuilt.join('\n')
-  return { ok: true, abc: currentAbc, blocks: workingBlocks }
+  const currentAbc = splicePrimaryVoiceNotes(
+    abcString,
+    notesOut,
+    abcTools,
+    header.abcJson.voices
+  )
+  return { ok: true, abc: currentAbc, blocks: workingBlocks, noteLines: notesOut }
 }
 
 export function readChordBlockCache(tune) {
@@ -962,9 +1068,14 @@ export function applyBlockMergeToTune(tune, options) {
   if (!result.ok) return result
 
   const abcJson = abcTools.abc2json(result.abc)
-  const voiceKey = resolvePrimaryVoiceKey(abcJson.voices || tune.voices)
-  const noteLines = abcTools.justNotes(result.abc).split('\n')
-  tune.voices = Object.assign({}, tune.voices || abcJson.voices)
+  // Always write onto the tune's existing primary voice — never adopt a fresh
+  // voice key invented by parsing a notes-only merge body.
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices || abcJson.voices)
+  const noteLines = Array.isArray(result.noteLines) && result.noteLines.length
+    ? result.noteLines
+    : noteLinesFromMergedBody(result.abc, abcTools)
+  if (!tune.voices) tune.voices = {}
+  // Keep any sibling voices; only replace primary notes.
   tune.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey] || { meta: '', notes: [] }, {
     notes: noteLines,
   })

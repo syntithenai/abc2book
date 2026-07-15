@@ -14,6 +14,9 @@ import {
   applyGeneratedBackgroundInfo,
   isEditorNotationPath,
   isNotationEditorView,
+  normalizeEditorViewMode,
+  notationViewToEditorViewMode,
+  getEditorViewModeLabel,
 } from './viewModeUtils';
 import { resolveTuneDisplayLayout } from './tuneDisplayLayout';
 
@@ -319,7 +322,40 @@ describe('isEditorNotationPath', function() {
     expect(isEditorNotationPath('/editor/abc123')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/info')).toBe(false);
     expect(isEditorNotationPath('/editor/abc123/lyrics')).toBe(false);
+    expect(isEditorNotationPath('/editor/abc123/sourceAbc')).toBe(false);
+    expect(isEditorNotationPath('/editor/abc123/abc')).toBe(false);
     expect(isEditorNotationPath('/tunes/abc123')).toBe(false);
     expect(isEditorNotationPath('/settings')).toBe(false);
+  });
+});
+
+describe('normalizeEditorViewMode and helpers', function() {
+  it('normalizes legacy ABC to info', function() {
+    expect(normalizeEditorViewMode('sourceAbc')).toBe('info');
+    expect(normalizeEditorViewMode('abc')).toBe('info');
+  });
+
+  it('accepts music/pianoRoll/notationAbc subviews', function() {
+    expect(normalizeEditorViewMode('pianoRoll')).toBe('pianoRoll');
+    expect(normalizeEditorViewMode('notationAbc')).toBe('notationAbc');
+  });
+
+  it('maps notation view to editor mode', function() {
+    expect(notationViewToEditorViewMode('staff')).toBe('music');
+    expect(notationViewToEditorViewMode('pianoRoll')).toBe('pianoRoll');
+    expect(notationViewToEditorViewMode('abc')).toBe('notationAbc');
+  });
+
+  it('gets editor view mode label', function() {
+    expect(getEditorViewModeLabel('music')).toBe('Music');
+    expect(getEditorViewModeLabel('lyrics')).toBe('Lyrics');
+    expect(getEditorViewModeLabel('pianoRoll')).toBe('Piano roll');
+    expect(getEditorViewModeLabel('notationAbc')).toBe('ABC Notes');
+    expect(getEditorViewModeLabel('sourceAbc')).toBe('Info');
+  });
+
+  it('defaults to Info for unknown modes', function() {
+    expect(normalizeEditorViewMode('unknown')).toBe('info');
+    expect(getEditorViewModeLabel('unknown')).toBe('Info');
   });
 });

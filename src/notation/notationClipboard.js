@@ -6,6 +6,10 @@ export function getNotationClipboard() {
   return clipboard;
 }
 
+export function hasClipboardContent() {
+  return !!(clipboard && Array.isArray(clipboard.events) && clipboard.events.length > 0);
+}
+
 export function copyToClipboard(events, tuneMeta, voiceIndex) {
   clipboard = {
     events: events.map(cloneVoiceEvent),

@@ -742,7 +742,7 @@ export default function ImportReviewBridge(props) {
         dismissContentHashDuplicateToast()
         dismissBackgroundReviewToast()
         if (savedTune && savedTune.id) {
-          navigate('/editor/' + encodeURIComponent(savedTune.id))
+          navigate('/tunes/' + encodeURIComponent(savedTune.id))
         } else {
           navigate('/tunes')
         }

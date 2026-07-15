@@ -188,16 +188,36 @@ def _update_writer_prominence(store, name, score=0, recording_count=0):
     existing["score"] = max(existing.get("score") or 0, int(score or 0))
 
 
+def pick_suggested_work_title(search_title, exact_works):
+    """Return a MusicBrainz work title when it differs from the search title."""
+    search_key = normalize_artist_key(search_title)
+    if not search_key or not exact_works:
+        return ""
+    ranked = sorted(
+        exact_works,
+        key=lambda item: (_work_recording_count(item[1]), item[0]),
+        reverse=True,
+    )
+    for _score, work in ranked:
+        work_title = (work.get("title") or "").strip()
+        if not work_title:
+            continue
+        if normalize_artist_key(work_title) == search_key:
+            continue
+        return work_title
+    return ""
+
+
 async def discover_work_writers_with_prominence(
     client, title, max_writers=6, max_works=8
 ):
     """Find work writers with MB prominence (recording-count + search score).
 
-    Returns a list of dicts: {artist, recording_count, score}, insertion-ordered.
+    Returns {"writers": [...], "suggested_title": "..."}.
     """
     title = (title or "").strip()
     if not title:
-        return []
+        return {"writers": [], "suggested_title": ""}
 
     prominence = {}
     exact_works = []
@@ -235,10 +255,11 @@ async def discover_work_writers_with_prominence(
             exact_works.append((score, work))
 
     if not exact_works:
-        return []
+        return {"writers": [], "suggested_title": ""}
 
     exact_works.sort(key=lambda item: item[0], reverse=True)
     selected = [work for _score, work in exact_works][:max_works]
+    suggested_title = pick_suggested_work_title(title, exact_works)
 
     for work in selected:
         if len(prominence) >= max_writers:
@@ -260,7 +281,10 @@ async def discover_work_writers_with_prominence(
                 recording_count=recording_count,
             )
 
-    return list(prominence.values())[:max_writers]
+    return {
+        "writers": list(prominence.values())[:max_writers],
+        "suggested_title": suggested_title,
+    }
 
 
 async def discover_work_writers(client, title, max_writers=6, max_works=8):
@@ -272,7 +296,7 @@ async def discover_work_writers(client, title, max_writers=6, max_works=8):
     enriched = await discover_work_writers_with_prominence(
         client, title, max_writers=max_writers, max_works=max_works
     )
-    return [entry["artist"] for entry in enriched]
+    return [entry["artist"] for entry in enriched.get("writers") or []]
 
 
 async def discover_recording_artists(client, title, max_artists=8):

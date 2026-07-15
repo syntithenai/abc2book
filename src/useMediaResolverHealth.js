@@ -25,6 +25,30 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
       setMediaResolverIdentityScopeRequest(null);
     };
   }, [accessToken, requestGoogleScopes]);
+
+  // While the resolver is downloading MusyngKite, re-probe so playback can switch
+  // to the full bank without a page reload.
+  useEffect(function() {
+    let timer = null;
+    function scheduleFromState(next) {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+      const status = next && next.status ? next.status : null;
+      const downloading = !!(status && status.available && status.soundfontsRunning && !status.soundfontsReady);
+      if (!downloading) return;
+      timer = setInterval(function() {
+        refreshStoredMediaResolverHealth();
+      }, 20000);
+    }
+    scheduleFromState(getMediaResolverHealthState());
+    const unsubscribe = subscribeMediaResolverHealth(scheduleFromState);
+    return function() {
+      unsubscribe();
+      if (timer) clearInterval(timer);
+    };
+  }, []);
 }
 
 export default function useMediaResolverHealth() {

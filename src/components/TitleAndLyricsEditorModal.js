@@ -17,6 +17,10 @@ import LyricsSectionsDropdown from './LyricsSectionsDropdown'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
+import TitleSuggestionOffer from './TitleSuggestionOffer'
+import { buildTitleSuggestions } from '../composerDiscoveryUtils'
+import { findTuneCandidates } from '../voiceCommandUtils'
+import { mergeBibliographicList } from '../tuneBibliographicUtils'
 
 function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   const text = String(textValue || '')
@@ -32,14 +36,33 @@ function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   return firstNonEmpty || ''
 }
 
-export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts}) {
+export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts, tunes}) {
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
+  const [composerTitleSuggestions, setComposerTitleSuggestions] = useState([])
+  const musicBrainzTitleRef = useRef('')
   const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
   const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
+
+  function refreshTitleSuggestions(currentTitle, musicBrainzTitle) {
+    const mb = musicBrainzTitle != null
+      ? String(musicBrainzTitle || '').trim()
+      : musicBrainzTitleRef.current
+    if (musicBrainzTitle != null) {
+      musicBrainzTitleRef.current = mb
+    }
+    const next = buildTitleSuggestions({
+      currentTitle: currentTitle,
+      musicBrainzTitle: mb,
+      tunes: tunes,
+      findTuneCandidates: findTuneCandidates,
+      limit: 5,
+    })
+    setComposerTitleSuggestions(next)
+  }
   const handleClose = () => {
       setShow(false);
   }
@@ -114,7 +137,26 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             }}
                           />
                         </div>
-                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {tune.name = e.target.value;  tune.id = params.tuneId; tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })  }} />
+                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
+                          tune.name = e.target.value
+                          tune.id = params.tuneId
+                          refreshTitleSuggestions(e.target.value)
+                          tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                        }} />
+                        <TitleSuggestionOffer
+                          candidates={composerTitleSuggestions}
+                          onAccept={function(nextTitle) {
+                            tune.name = nextTitle
+                            tune.id = params.tuneId
+                            musicBrainzTitleRef.current = ''
+                            setComposerTitleSuggestions([])
+                            tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                          }}
+                          onDismiss={function() {
+                            musicBrainzTitleRef.current = ''
+                            setComposerTitleSuggestions([])
+                          }}
+                        />
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="composer">
@@ -129,12 +171,24 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             tunebook={tunebook}
                             disabled={!(tune && tune.name && String(tune.name).trim())}
                             inline={true}
+                            existingArtists={tune.artists}
                             onComposer={function(result) {
                               if (result && result.artist) {
                                 tune.composer = result.artist
                                 tune.id = params.tuneId
                                 tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
                               }
+                            }}
+                            onAddArtist={function(artistName) {
+                              tune.artists = mergeBibliographicList(tune.artists, [artistName])
+                              tune.id = params.tuneId
+                              tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+                            }}
+                            onSuggestedTitle={function(suggestion) {
+                              refreshTitleSuggestions(
+                                tune.name || '',
+                                suggestion && suggestion.title ? suggestion.title : ''
+                              )
                             }}
                           />
                           <FieldLookupReviewButton

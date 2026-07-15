@@ -365,7 +365,7 @@ export default function BulkCheckTuneEditorModal(props) {
             <Row className="g-3">
               <Col md={2}>
                 <Form.Group className="mb-3">
-                  <FormLabelWithHelp label="Boost" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
+                  <FormLabelWithHelp label="Confidence" helpBody={EDITOR_INFO_FIELD_HELP.boost.body} helpTitle={EDITOR_INFO_FIELD_HELP.boost.title} />
                   <Form.Control
                     type="number"
                     min="0"
@@ -407,8 +407,9 @@ export default function BulkCheckTuneEditorModal(props) {
                     value={draft.soundFonts ? String(draft.soundFonts).trim() : ''}
                     onChange={function(e) { updateDraft({ soundFonts: e.target.value }) }}
                   >
-                    <option value="">Local Sound Fonts Only (piano)</option>
-                    <option value="online">Requires Online Sound Fonts</option>
+                    <option value="">Auto (resolver MusyngKite when ready)</option>
+                    <option value="local">Embedded instruments only</option>
+                    <option value="online">Prefer full resolver bank</option>
                   </Form.Select>
                 </Form.Group>
               </Col>

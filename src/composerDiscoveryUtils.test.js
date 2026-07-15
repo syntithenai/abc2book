@@ -2,8 +2,10 @@ import {
   buildGoogleComposerSearchUrl,
   buildGoogleComposerSearchQuestion,
   buildComposerPickerCandidates,
+  buildTitleSuggestions,
   needsComposerDiscovery,
   parseTitleComposerHints,
+  shouldOfferTitleSuggestion,
 } from './composerDiscoveryUtils'
 
 describe('composerDiscoveryUtils', function() {
@@ -39,7 +41,8 @@ describe('composerDiscoveryUtils', function() {
 
   test('buildGoogleComposerSearchQuestion uses natural language', function() {
     const question = buildGoogleComposerSearchQuestion('The Butterfly', 'Traditional')
-    expect(question).toContain('Tell me who is the composer')
+    expect(question).toContain('Who composed')
+    expect(question).toContain('artists have performed')
     expect(question).toContain('The Butterfly')
     expect(question).toContain('Traditional')
   })
@@ -47,7 +50,7 @@ describe('composerDiscoveryUtils', function() {
   test('buildGoogleComposerSearchUrl encodes natural language query', function() {
     const url = buildGoogleComposerSearchUrl('Wonderwall', 'Oasis')
     expect(url).toContain('google.com/search?q=')
-    expect(decodeURIComponent(url)).toContain('Tell me who is the composer')
+    expect(decodeURIComponent(url)).toContain('Who composed')
     expect(decodeURIComponent(url)).toContain('Wonderwall')
     expect(decodeURIComponent(url)).toContain('Oasis')
   })
@@ -59,6 +62,48 @@ describe('composerDiscoveryUtils', function() {
       source: 'MusicBrainz',
     }, 'Traditional')
     expect(candidates.map(function(item) { return item.artist })).toEqual(['Traditional', 'Oasis'])
+  })
+
+  test('shouldOfferTitleSuggestion ignores same normalized title', function() {
+    expect(shouldOfferTitleSuggestion('Clair de Lune', 'clair de lune')).toBe(false)
+    expect(shouldOfferTitleSuggestion('Claire de Lune', 'Clair de lune')).toBe(true)
+  })
+
+  test('buildTitleSuggestions merges MusicBrainz and collection titles', function() {
+    const tunes = {
+      a: { id: 'a', name: 'Clair de lune', composer: 'Debussy' },
+      b: { id: 'b', name: 'Clair de Lune (easy)', composer: '' },
+      c: { id: 'c', name: 'Wonderwall', composer: 'Oasis' },
+    }
+    function findTuneCandidates(query, tuneMap) {
+      return Object.values(tuneMap)
+        .filter(function(tune) {
+          return String(tune.name || '').toLowerCase().indexOf('clair') >= 0
+        })
+        .map(function(tune) { return { tune: tune, score: 10 } })
+    }
+    const results = buildTitleSuggestions({
+      currentTitle: 'Claire de Lune',
+      musicBrainzTitle: 'Clair de lune',
+      tunes: tunes,
+      findTuneCandidates: findTuneCandidates,
+      limit: 5,
+    })
+    expect(results.map(function(item) { return item.title })).toEqual([
+      'Clair de lune',
+      'Clair de Lune (easy)',
+    ])
+    expect(results[0].source).toBe('MusicBrainz')
+    expect(results[1].source).toBe('Your collection')
+  })
+
+  test('buildTitleSuggestions skips current title spelling', function() {
+    expect(buildTitleSuggestions({
+      currentTitle: 'Wonderwall',
+      musicBrainzTitle: 'Wonderwall',
+      tunes: {},
+      findTuneCandidates: function() { return [] },
+    })).toEqual([])
   })
 
   test('buildComposerPickerCandidates puts writers before performers', function() {
@@ -78,5 +123,18 @@ describe('composerDiscoveryUtils', function() {
     expect(candidates[0].role).toBe('writer')
     expect(candidates[0].source).toMatch(/Writer/)
     expect(candidates[1].role).toBe('performer')
+  })
+
+  test('SelectInput options dropdown class is wired for caret hide', function() {
+    const path = require('path')
+    const fs = require('fs')
+    const src = fs.readFileSync(
+      path.join(__dirname, 'components/SelectInput.js'),
+      'utf8'
+    )
+    expect(src).toMatch(/className="select-input-options-dropdown"/)
+    const css = fs.readFileSync(path.join(__dirname, 'App.css'), 'utf8')
+    expect(css).toMatch(/\.select-input-options-dropdown\.dropdown-toggle::after/)
+    expect(css).toMatch(/\.chip-list-options-dropdown\.dropdown-toggle::after/)
   })
 })

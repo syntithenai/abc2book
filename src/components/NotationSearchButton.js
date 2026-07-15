@@ -7,11 +7,13 @@ import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import GenreSuggestionOffer from './GenreSuggestionOffer'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import {
   buildGenreSearchContext,
   inferGenreFromSearchContext,
   shouldOfferGenreSuggestion,
 } from '../genreInference'
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 
 /**
  * Multi-source ABC notation search. Always Review mode — no Auto/Review dialog,
@@ -35,6 +37,7 @@ export default function NotationSearchButton({
   songType,
   /** Kept for TuneRecordForm API; picker always opens when results arrive. */
   leaveAwaiting = false,
+  children,
 }) {
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
@@ -85,8 +88,9 @@ export default function NotationSearchButton({
     },
   })
 
-  const googleUrl = 'https://www.google.com/search?q='
-    + encodeURIComponent([title, artist, 'abc notation'].filter(Boolean).join(' '))
+  const googleUrl = buildGoogleSearchQuestionUrl(
+    buildExternalSearchQuestion('notation', title, artist)
+  )
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
   const busy = lookup.busy
@@ -148,39 +152,63 @@ export default function NotationSearchButton({
     }
   }
 
-  return (
-    <>
-      <FieldLookupButtonGroup
-        automaticLookup={true}
-        showExternal={false}
-        busy={busy}
-        disabled={!canSearch || disabled}
-        externalUrl={googleUrl}
-        externalLinkIcon={externalLinkIcon}
-        onSearch={run}
-        suggestionCount={awaitingCandidates.length}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={function() { openAwaitingPicker(awaitingJob) }}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        inline={inline}
-        progress={lookup.progressPercent}
-      />
-      <SearchProgressBar
-        visible={busy}
-        percent={lookup.progressPercent}
-        message={lookup.progressMessage}
-        defaultMessage="Searching for notation..."
-      />
-      {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-      <GenreSuggestionOffer
-        suggestion={genreSuggestion}
-        onAccept={function(genre) {
-          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-          setGenreSuggestion(null)
-        }}
-        onDismiss={function() { setGenreSuggestion(null) }}
-      />
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <>
+        <FieldLookupButtonGroup
+          automaticLookup={true}
+          showExternal={false}
+          busy={busy}
+          disabled={!canSearch || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          onSearch={run}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          inline={inline}
+          progress={lookup.progressPercent}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={function() { openAwaitingPicker(awaitingJob) }}
+        />
+        <SearchProgressBar
+          visible={busy}
+          percent={lookup.progressPercent}
+          message={lookup.progressMessage}
+          defaultMessage="Searching for notation..."
+        />
+      </>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: function(candidate) {
+        const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+          ? lookup.activeJob.id
+          : null
+        finishApply(candidate, jobId)
+      },
+      getLabel: function(candidate) {
+        const t = candidate && (candidate.title || title) ? (candidate.title || title) : 'Notation'
+        const src = candidate && candidate.source ? candidate.source : ''
+        return src ? (t + ' · ' + src) : t
+      },
+    }),
+    errorNode: (
+      <>
+        {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
+        <GenreSuggestionOffer
+          suggestion={genreSuggestion}
+          onAccept={function(genre) {
+            if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+            setGenreSuggestion(null)
+          }}
+          onDismiss={function() { setGenreSuggestion(null) }}
+        />
+      </>
+    ),
+    modals: (
       <SearchResultPickerModal
         show={showPicker}
         title="Choose notation"
@@ -212,6 +240,6 @@ export default function NotationSearchButton({
           setPickerCandidates([])
         }}
       />
-    </>
-  )
+    ),
+  })
 }

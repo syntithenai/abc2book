@@ -104,15 +104,17 @@ export function getMediaProxyBaseCandidates() {
   const devBase = getDevServerMediaProxyBase()
   if (devBase) urls.push(devBase)
 
+  // Prefer explicit UI URL, then local, then env/public Cloud Run — so a healthy
+  // home resolver wins over Cloud Run and avoids accidental cloud traffic.
   const saved = getSavedMediaProxyBase()
   if (saved) urls.push(saved)
-
-  const fromEnv = normalizeMediaProxyBase(process.env.REACT_APP_MEDIA_PROXY_BASE || '')
-  if (fromEnv) urls.push(fromEnv)
 
   getLocalMediaProxyCandidates().forEach(function(url) {
     urls.push(url)
   })
+
+  const fromEnv = normalizeMediaProxyBase(process.env.REACT_APP_MEDIA_PROXY_BASE || '')
+  if (fromEnv) urls.push(fromEnv)
 
   getDefaultPublicMediaProxyCandidates().forEach(function(url) {
     urls.push(url)

@@ -15,6 +15,7 @@ import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import * as mediaCacheQueue from './mediaCacheQueue'
 import useMediaResolverHealth from './useMediaResolverHealth'
 import { isMediaProxyConfigured } from './mediaProxyClient'
+import { youtubeAudioBytesAvailableSync } from './youtubeUnlock'
 import useGoogleDocument from './useGoogleDocument'
 import {
     isOwnedMediaLinkUri,
@@ -955,6 +956,19 @@ export default function useTuneBookMediaController(props) {
         if (practiceSessionActiveRef.current && practiceUsesNativePlaybackOnly(resolved)) {
             return false
         }
+        if (srcType === 'youtube') {
+            // Extension, BYOR, or Webshare+light gateway
+            if (youtubeAudioBytesAvailableSync({ resolverFeatures: resolverFeatures })) {
+                return true
+            }
+            // Fallback: configured fat proxy without feature flags yet
+            if (isMediaProxyConfigured() && (!mediaResolverChecked || mediaResolverAvailable)
+                && (!mediaResolverChecked || resolverFeatures.proxy)
+                && !resolverFeatures.lightMode) {
+                return true
+            }
+            return false
+        }
         if (!isMediaProxyConfigured()) return false
         if (mediaResolverChecked && !mediaResolverAvailable) return false
         if (mediaResolverChecked && !resolverFeatures.proxy) return false
@@ -1013,6 +1027,10 @@ export default function useTuneBookMediaController(props) {
         }
 
         if (settings.autocacheOnPlay && useTune && src) {
+            if (srcType === 'youtube'
+                && !youtubeAudioBytesAvailableSync({ resolverFeatures: resolverFeatures })) {
+                return
+            }
             isExternalMediaCached(useTune.id, linkIndex, src).then(function(cached) {
                 if (cached) return
                 mediaCacheQueue.enqueueCacheJob({

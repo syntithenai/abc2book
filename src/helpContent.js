@@ -624,7 +624,7 @@ export function HelpConfidence() {
         <li>Group or sort by confidence or difficulty in the tune list.</li>
         <li>Playlists can prioritise less confident tunes.</li>
       </ul>
-      <p>Bulk-set confidence for selected tunes via the selection dropdown on the Tunes page. You can also edit <strong>Boost</strong> and <strong>Difficulty</strong> directly in the editor <strong>Info</strong> tab.</p>
+      <p>Bulk-set confidence for selected tunes via the selection dropdown on the Tunes page. You can also edit <strong>Confidence</strong> and <strong>Difficulty</strong> directly in the editor <strong>Info</strong> tab.</p>
     </>
   );
 }

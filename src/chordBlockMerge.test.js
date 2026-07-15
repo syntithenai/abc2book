@@ -20,6 +20,7 @@ import {
 import { reconcileChordSectionsFromGrid } from './chordsEditorSections'
 import { getPlainLyricLines } from './wLinesUtils'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { flattenMelodyText } from './lyricBarAlignmentUtils'
 
 function tools() {
   return { abcTools: useAbcTools(), abcjsParser: useAbcjsParser() }
@@ -267,6 +268,80 @@ describe('chordBlockMerge', function() {
     expect(classes[0]).toBe('pitch')
     expect(classes[1]).toBe('rest')
     expect(classes[2]).toBe('chord_scaffold')
+  })
+
+  test('adding empty chord section expands primary voice only', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = [
+      'X:1', 'T:Song', 'M:4/4', 'L:1/8', 'K:C',
+      'V:1 melody',
+      '"C"zzzz|"G"zzzz|',
+      'V:2 bass',
+      'C,4|G,4|',
+    ].join('\n')
+    const tune = abcTools.abc2json(abc)
+    const chart = abcjsParser.renderChords(abc, true)
+    const { blocks } = buildUnifiedBlocks({
+      noteLines: tune.voices['1'].notes,
+      chordChart: chart,
+      lyricLines: [],
+      defaultMeter: '4/4',
+    })
+    const next = blocks.concat([{
+      key: 'bridge-1',
+      title: 'Bridge',
+      chart: '',
+      meter: '4/4',
+      tempo: 120,
+      chartRevisit: false,
+      needsAbcExpand: true,
+      melodyStrainIndex: -1,
+    }])
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: next,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: false,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+      firstMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    expect(Object.keys(tune.voices).sort()).toEqual(['1', '2'])
+    expect(tune.voices['2'].notes.join('\n')).toMatch(/C,/)
+    const primary = flattenMelodyText(tune.voices['1'].notes)
+    expect(primary).toMatch(/\|\|/)
+    expect(splitMelodyStrainsWithBarlines(tune.voices['1'].notes).length).toBeGreaterThanOrEqual(2)
+  })
+
+  test('filled new section chords stay on primary voice', function() {
+    const { abcTools, abcjsParser } = tools()
+    const abc = baseAbc('"C"zzzz|"G"zzzz|')
+    const tune = abcTools.abc2json(abc)
+    const sections = [
+      { key: 'a-0', title: 'A', chart: 'C | G |', meter: '4/4', chartRevisit: false, melodyStrainIndex: 0 },
+      {
+        key: 'b-1', title: 'Bridge', chart: 'Am | F |', meter: '4/4', chartRevisit: false,
+        needsAbcExpand: true, melodyStrainIndex: -1,
+      },
+    ]
+    const result = applyBlockMergeToTune(tune, {
+      abc: abc,
+      blocks: sections,
+      tunebook: { abcTools: abcTools },
+      abcjsParser: abcjsParser,
+      wipeNotation: false,
+      keepEditorBlocks: true,
+      defaultMeter: '4/4',
+      firstMeter: '4/4',
+    })
+    expect(result.ok).toBe(true)
+    expect(Object.keys(tune.voices)).toEqual(['1'])
+    const notes = flattenMelodyText(tune.voices['1'].notes)
+    expect(notes).toMatch(/Am|F/)
+    expect(notes).toMatch(/\|\|/)
+    expect(Object.keys(tune.voices)).toEqual(['1'])
   })
 })
 

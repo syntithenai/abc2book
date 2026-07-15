@@ -70,7 +70,7 @@ function BoostSettingsModal(props) {
         <Modal.Body style={{height:'40em'}}>
           <Button style={{float:'right', marginLeft: '2em'}}  variant="success" onClick={function() {
               boostUp()
-          }} >{props.tunebook.icons.add} Boost</Button>
+          }} >{props.tunebook.icons.add} +1</Button>
           
          <span>How well do you know this tune?</span>
           <br/>

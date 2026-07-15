@@ -3,6 +3,7 @@ import {
   inferGenreFromSearchContext,
 } from './genreInference'
 import { getMusicGenreList } from './musicGenreOptions'
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from './externalSearchLinks'
 
 /**
  * Light genre suggestions from title / artist / rhythm / background heuristics.
@@ -66,7 +67,10 @@ export function searchGenre(options) {
   return { empty: false, multiple: true, candidates: candidates }
 }
 
+export function buildGoogleGenreSearchQuestion(title, artist) {
+  return buildExternalSearchQuestion('genre', title, artist)
+}
+
 export function buildGoogleGenreSearchUrl(title, artist) {
-  return 'https://www.google.com/search?q='
-    + encodeURIComponent([title, artist, 'music genre'].filter(Boolean).join(' '))
+  return buildGoogleSearchQuestionUrl(buildGoogleGenreSearchQuestion(title, artist))
 }

@@ -5,7 +5,8 @@ import {isMobile} from 'react-device-detect'
 import abcjs from "abcjs";
 import Metronome from './Metronome'
 import { encodeAudioBufferWithSetting } from './audioCompressEncode'
-import { getSoundFontUrl, getSoundFontVolumeMultiplier } from './soundFontConfig'
+import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
+import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
 import { getPlaybackSettings } from './pitchTempoUtils'
 import {
@@ -1873,8 +1874,12 @@ export default function useAbcSynth(props) {
             setMidiBuffer(null)
             var midiBuffer = new abcjs.synth.CreateSynth()
             var count = 0
-            // for development, run a server on 4000 to access sound fonts
-            var a = getSoundFontUrl()
+            // Prefer full MusyngKite from the resolver when the volume bank is ready;
+            // otherwise use the embedded selection and remap GM programs onto it.
+            // Per-tune: "local" forces remap; "online"/"" uses resolver when ready.
+            var musyngReady = isResolverMusyngKiteReady()
+            if (tune && tune.soundFonts === 'local') musyngReady = false
+            var a = getSoundFontUrl({ musyngKiteReady: musyngReady })
             //var warp =  props.warp > 0 ? props.warp : 1
             var soundFontVolume = getSoundFontVolumeMultiplier()
             // Practice quiet/loud level is applied live via pitch-shifter output
@@ -1883,8 +1888,7 @@ export default function useAbcSynth(props) {
                 audioContext: audioContext,
               //onPlaying: function(details) {
                 //if (midiBuffer.duration > 0) setSeekTo((details.timePlayed + details.startOffset)/midiBuffer.duration)
-              //}, 
-              visualObj: synthObj,
+              //},
               millisecondsPerMeasure: synthObj.millisecondsPerMeasure(),
               options:{
                  soundFontUrl: a,
@@ -1894,9 +1898,24 @@ export default function useAbcSynth(props) {
                  programOffsets: programOffsets,
                },
             }
+            if (musyngReady) {
+              initOptions.visualObj = synthObj
+            } else {
+              // Remap GM programs onto the local instrument subset so abcjs only
+              // requests samples that exist under selection/MusyngKite.
+              try {
+                var flattened = synthObj.setUpAudio({})
+                remapFlattenedMidiPrograms(flattened)
+                initOptions.sequence = flattened
+              } catch (remapErr) {
+                console.warn('Local soundfont program remap failed; using visualObj', remapErr)
+                initOptions.visualObj = synthObj
+              }
+            }
+            // Legacy "online" preference: when resolver bank is ready, MusyngKite
+            // already covers full GM. When not ready, keep remapped local fonts
+            // (no longer clears soundFontUrl to hit FluidR3 CDN).
             //console.log('prime init options',initOptions)
-            //var tune = props.tunebook.abcTools.abc2json(props.abc)
-            if (tune.soundFonts === 'online')  initOptions.options.soundFontUrl = null
             if (synthObj.visualTranspose > 0 || synthObj.visualTranspose < 0 ) {
               initOptions.options.midiTranspose = parseInt(synthObj.visualTranspose)
             }

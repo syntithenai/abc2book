@@ -117,9 +117,11 @@ describe('searchLyricsLight', function() {
 
 describe('LyricsSearchButton helpers', function() {
   test('buildGoogleLyricsSearchUrl includes title and artist', function() {
-    expect(buildGoogleLyricsSearchUrl('Wild Rover', 'Dubliners', ''))
+    expect(decodeURIComponent(buildGoogleLyricsSearchUrl('Wild Rover', 'Dubliners', '')))
       .toContain('lyrics')
-    expect(buildGoogleLyricsSearchUrl('Wild Rover', 'Dubliners', ''))
+    expect(decodeURIComponent(buildGoogleLyricsSearchUrl('Wild Rover', 'Dubliners', '')))
       .toContain('Wild Rover')
+    expect(decodeURIComponent(buildGoogleLyricsSearchUrl('Wild Rover', 'Dubliners', '')))
+      .toContain('Dubliners')
   })
 })

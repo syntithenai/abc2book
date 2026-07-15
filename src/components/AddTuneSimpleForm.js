@@ -1,11 +1,16 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Button, ButtonGroup, Col, Form, ListGroup, Row, Spinner } from 'react-bootstrap'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
+import SelectInput from './SelectInput'
+import ComposerSearchButton from './ComposerSearchButton'
+import TuneArtistsField from './TuneArtistsField'
+import AddTuneYouTubePicker from './AddTuneYouTubePicker'
 import { findCollectionMatches, matchConfidenceLabel } from '../tuneCollectionMatch'
 import { primaryArtist } from '../tuneBibliographicUtils'
+import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
 
 function uniqueStrings(values) {
   const seen = {}
@@ -21,17 +26,41 @@ function uniqueStrings(values) {
   return out
 }
 
+function isYouTubeLink(link) {
+  return !!(link && link.link && /youtu\.?be/i.test(String(link.link)))
+}
+
+function buildYouTubeQuery(title, composer, artists) {
+  const parts = []
+  const t = String(title || '').trim()
+  const c = String(composer || '').trim()
+  if (t) parts.push(t)
+  if (c) {
+    parts.push(c)
+  } else {
+    const firstArtist = (Array.isArray(artists) ? artists : []).map(function(a) {
+      return String(a || '').trim()
+    }).find(Boolean)
+    if (firstArtist) parts.push(firstArtist)
+  }
+  return parts.join(' ').trim()
+}
+
 /**
- * Slim Add dialog body: title, composer, books/tags, collection open-buttons.
+ * Slim Add dialog: title, composer Search, artists, books/tags, embedded YouTube.
  */
 export default function AddTuneSimpleForm(props) {
   const values = props.values || {}
   const tunes = props.tunes || {}
   const tunebook = props.tunebook
   const title = String(values.title || '').trim()
-  const artist = String(values.artist || '').trim()
-  const [titleFocus, setTitleFocus] = useState(false)
-  const [composerFocus, setComposerFocus] = useState(false)
+  const composer = String(values.artist || '').trim()
+  const musicBrainzComposerOptions = useMusicBrainzArtistOptions(values.artist)
+  const [composerSuggestOptions, setComposerSuggestOptions] = useState([])
+  const [performerSuggestOptions, setPerformerSuggestOptions] = useState([])
+  const [youtubeSearchQuery, setYoutubeSearchQuery] = useState('')
+  const [youtubeSearchNonce, setYoutubeSearchNonce] = useState(0)
+  const artistsRef = useRef([])
 
   const matches = useMemo(function() {
     return findCollectionMatches({
@@ -42,42 +71,9 @@ export default function AddTuneSimpleForm(props) {
     }) || []
   }, [values.title, values.artist, tunes])
 
-  const titleSuggestions = useMemo(function() {
-    const names = matches.map(function(item) {
-      return item && item.tune ? item.tune.name : ''
-    })
-    // Also surface short local fuzzy names when only composer typed
-    if (!title && artist) {
-      Object.keys(tunes).forEach(function(id) {
-        const tune = tunes[id]
-        if (!tune || !tune.name) return
-        const composer = primaryArtist(tune)
-        if (composer && composer.toLowerCase().indexOf(artist.toLowerCase()) >= 0) {
-          names.push(tune.name)
-        }
-      })
-    }
-    return uniqueStrings(names).slice(0, 12)
-  }, [matches, title, artist, tunes])
-
-  const composerSuggestions = useMemo(function() {
-    const artists = []
-    if (title) {
-      matches.forEach(function(item) {
-        if (!item || !item.tune) return
-        const name = primaryArtist(item.tune)
-        if (name) artists.push(name)
-        if (Array.isArray(item.tune.artists)) {
-          item.tune.artists.forEach(function(a) { artists.push(a) })
-        }
-      })
-    } else {
-      matches.forEach(function(item) {
-        if (item && item.tune) artists.push(primaryArtist(item.tune))
-      })
-    }
-    return uniqueStrings(artists).slice(0, 12)
-  }, [matches, title])
+  const composerOptions = useMemo(function() {
+    return uniqueStrings([].concat(composerSuggestOptions, musicBrainzComposerOptions))
+  }, [composerSuggestOptions, musicBrainzComposerOptions])
 
   const bookList = String(values.bookList || '')
   const tagList = String(values.tagList || '')
@@ -87,6 +83,9 @@ export default function AddTuneSimpleForm(props) {
   const selectedTags = tagList.split(',').map(function(part) {
     return part.trim()
   }).filter(Boolean)
+  const artists = Array.isArray(values.artists) ? values.artists : []
+  artistsRef.current = artists
+  const youtubeLink = (Array.isArray(values.links) ? values.links : []).find(isYouTubeLink) || null
 
   function setField(key, value) {
     if (typeof props.onChange !== 'function') return
@@ -95,13 +94,15 @@ export default function AddTuneSimpleForm(props) {
     })
   }
 
-  function canAdd() {
-    return !!(title && artist)
-  }
-
-  function handleAdd() {
-    if (!canAdd() || typeof props.onAdd !== 'function') return
-    props.onAdd()
+  function scheduleYouTubeSearch(nextComposer, nextArtists) {
+    const query = buildYouTubeQuery(
+      values.title || title,
+      nextComposer != null ? nextComposer : values.artist,
+      nextArtists != null ? nextArtists : artistsRef.current
+    )
+    if (!query) return
+    setYoutubeSearchQuery(query)
+    setYoutubeSearchNonce(function(n) { return n + 1 })
   }
 
   function openMatch(tune) {
@@ -109,14 +110,37 @@ export default function AddTuneSimpleForm(props) {
     if (typeof props.onOpenMatch === 'function') props.onOpenMatch(tune)
   }
 
-  const showTitleMenu = titleFocus && titleSuggestions.length > 0
-  const showComposerMenu = composerFocus && composerSuggestions.length > 0
+  function handleYouTubePick(link) {
+    if (!link || !link.link) return
+    const youtube = {
+      title: link.title || '',
+      link: link.link,
+      startAt: '',
+      endAt: '',
+    }
+    if (link.image) youtube.image = link.image
+    setField('links', [youtube].concat(
+      (Array.isArray(values.links) ? values.links : []).filter(function(item) {
+        return !isYouTubeLink(item)
+      })
+    ))
+    if (!title && link.title) setField('title', String(link.title))
+    if (typeof props.onPickYouTube === 'function') props.onPickYouTube(link)
+  }
+
+  function clearYouTube() {
+    setField('links', (Array.isArray(values.links) ? values.links : []).filter(function(item) {
+      return !isYouTubeLink(item)
+    }))
+  }
+
+  const canSearchComposer = !!(title && props.candidateId)
 
   return (
     <div className="add-tune-simple-form" data-testid="add-tune-simple-form">
       <Row>
         <Col md={7}>
-          <Form.Group className="mb-3">
+          <Form.Group className="mb-3 add-tune-field-block">
             <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
               <Form.Label className="mb-0">Title</Form.Label>
               <CapitalizeTitleButton
@@ -125,40 +149,14 @@ export default function AddTuneSimpleForm(props) {
               />
             </div>
             <div className="d-flex gap-2 align-items-start">
-              <div className="flex-grow-1 position-relative">
+              <div className="flex-grow-1">
                 <Form.Control
                   value={values.title || ''}
                   autoComplete="off"
-                  list="add-tune-title-suggestions"
                   data-testid="add-tune-title"
                   placeholder="Song title"
                   onChange={function(e) { setField('title', e.target.value) }}
-                  onFocus={function() { setTitleFocus(true) }}
-                  onBlur={function() { setTimeout(function() { setTitleFocus(false) }, 150) }}
                 />
-                <datalist id="add-tune-title-suggestions">
-                  {titleSuggestions.map(function(name) {
-                    return <option key={name} value={name} />
-                  })}
-                </datalist>
-                {showTitleMenu ? (
-                  <ListGroup
-                    className="position-absolute w-100 shadow-sm"
-                    style={{ zIndex: 5, maxHeight: '12em', overflow: 'auto' }}
-                  >
-                    {titleSuggestions.map(function(name) {
-                      return (
-                        <ListGroup.Item
-                          key={name}
-                          action
-                          onMouseDown={function(e) { e.preventDefault(); setField('title', name) }}
-                        >
-                          {name}
-                        </ListGroup.Item>
-                      )
-                    })}
-                  </ListGroup>
-                ) : null}
               </div>
               <FieldVoiceFillButton
                 fieldKind="title"
@@ -170,72 +168,105 @@ export default function AddTuneSimpleForm(props) {
             </div>
           </Form.Group>
 
-          <Form.Group className="mb-3">
-            <Form.Label>Composer</Form.Label>
-            <div className="d-flex gap-2 align-items-start">
-              <div className="flex-grow-1 position-relative">
-                <Form.Control
-                  value={values.artist || ''}
-                  autoComplete="off"
-                  list="add-tune-composer-suggestions"
-                  data-testid="add-tune-composer"
-                  placeholder="Composer / artist"
-                  onChange={function(e) { setField('artist', e.target.value) }}
-                  onFocus={function() { setComposerFocus(true) }}
-                  onBlur={function() { setTimeout(function() { setComposerFocus(false) }, 150) }}
-                />
-                <datalist id="add-tune-composer-suggestions">
-                  {composerSuggestions.map(function(name) {
-                    return <option key={name} value={name} />
-                  })}
-                </datalist>
-                {showComposerMenu ? (
-                  <ListGroup
-                    className="position-absolute w-100 shadow-sm"
-                    style={{ zIndex: 5, maxHeight: '12em', overflow: 'auto' }}
-                  >
-                    {composerSuggestions.map(function(name) {
-                      return (
-                        <ListGroup.Item
-                          key={name}
-                          action
-                          onMouseDown={function(e) { e.preventDefault(); setField('artist', name) }}
-                        >
-                          {name}
-                        </ListGroup.Item>
-                      )
-                    })}
-                  </ListGroup>
-                ) : null}
-              </div>
-              <FieldVoiceFillButton
-                fieldKind="composer"
-                token={props.token}
-                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                onFill={function(text) { setField('artist', text) }}
-                data-testid="add-tune-composer-mic"
-              />
-            </div>
+          <Form.Group className="mb-3 add-tune-field-block">
+            <ComposerSearchButton
+              candidateId={props.candidateId}
+              title={values.title || ''}
+              composer={values.artist || ''}
+              titleHint={values.title || ''}
+              token={props.token}
+              tunebook={tunebook}
+              resolverAvailable={props.resolverAvailable}
+              disabled={!canSearchComposer}
+              inline={true}
+              pickWhenMultiple={true}
+              skipArtistPicker={true}
+              showSuggestionsChrome={false}
+              existingArtists={artists}
+              onComposer={function(result) {
+                if (result && result.artist) {
+                  setField('artist', result.artist)
+                  scheduleYouTubeSearch(result.artist, artistsRef.current)
+                }
+              }}
+              onComposerCandidates={function(names) {
+                setComposerSuggestOptions(uniqueStrings(names || []))
+              }}
+              onPerformerCandidates={function(names) {
+                setPerformerSuggestOptions(uniqueStrings(names || []))
+              }}
+            >
+              {function(api) {
+                return (
+                  <>
+                    <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
+                      <Form.Label className="mb-0">Composer</Form.Label>
+                      {api.buttonGroup}
+                    </div>
+                    <div className="d-flex gap-2 align-items-start">
+                      <div className="flex-grow-1">
+                        <SelectInput
+                          value={values.artist || ''}
+                          options={composerOptions}
+                          placeholder={canSearchComposer
+                            ? 'Composer'
+                            : 'Enter a title, then Search'}
+                          autoComplete="off"
+                          data-testid="add-tune-composer"
+                          onChange={function(val) { setField('artist', val) }}
+                          onSelectOption={function(val) {
+                            scheduleYouTubeSearch(val, artistsRef.current)
+                          }}
+                          onBlur={function() {
+                            scheduleYouTubeSearch(values.artist, artistsRef.current)
+                          }}
+                        />
+                      </div>
+                      <FieldVoiceFillButton
+                        fieldKind="composer"
+                        token={props.token}
+                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                        onFill={function(text) {
+                          setField('artist', text)
+                          scheduleYouTubeSearch(text, artistsRef.current)
+                        }}
+                        data-testid="add-tune-composer-mic"
+                      />
+                    </div>
+                    {api.errorNode}
+                    <div className="mt-3">
+                      <TuneArtistsField
+                        value={artists}
+                        onChange={function(next) {
+                          const prev = artistsRef.current || []
+                          setField('artists', next)
+                          const grew = Array.isArray(next) && next.length > prev.length
+                          const hasComposer = !!String(values.artist || '').trim()
+                          if (grew && !hasComposer) {
+                            scheduleYouTubeSearch('', next)
+                          }
+                        }}
+                        label="Artists"
+                        placeholder="Type or pick a performer"
+                        suggestOptions={performerSuggestOptions}
+                      />
+                    </div>
+                  </>
+                )
+              }}
+            </ComposerSearchButton>
           </Form.Group>
 
-          <div className="mb-3">
-            <Button
-              variant={canAdd() ? 'success' : 'secondary'}
-              disabled={!canAdd()}
-              data-testid="add-tune-save"
-              onClick={handleAdd}
-            >
-              Add
-            </Button>
-            {props.matchingBusy ? (
-              <Spinner animation="border" size="sm" className="ms-2" aria-label="Matching" />
-            ) : null}
-          </div>
+          {props.matchingBusy ? (
+            <div className="mb-2">
+              <Spinner animation="border" size="sm" aria-label="Matching" />
+            </div>
+          ) : null}
 
-          <Row className="mb-2">
-            <Col md={6}>
-              <Form.Group className="mb-2">
-                <Form.Label>Book(s)</Form.Label>
+          <div className="mb-3 add-tune-books-tags">
+            <div className="add-tune-inner-block">
+              <div className="add-tune-label-control-row add-tune-label-control-row--tight">
+                <Form.Label className="mb-0">Book(s)</Form.Label>
                 {tunebook ? (
                   <ButtonGroup style={{ backgroundColor: '#3f81e3', borderRadius: '10px' }}>
                     {primaryBook ? (
@@ -266,13 +297,13 @@ export default function AddTuneSimpleForm(props) {
                     onChange={function(e) { setField('bookList', e.target.value) }}
                   />
                 )}
-              </Form.Group>
-            </Col>
-            <Col md={6}>
-              <Form.Group className="mb-2">
-                <Form.Label>Tags</Form.Label>
+              </div>
+            </div>
+            <div className="add-tune-inner-block">
+              <div className="add-tune-label-control-row add-tune-label-control-row--tight">
+                <Form.Label className="mb-0">Tags</Form.Label>
                 {tunebook ? (
-                  <div>
+                  <div className="d-flex align-items-center gap-2 flex-wrap">
                     <TagsSelectorModal
                       forceRefresh={props.forceRefresh}
                       tunebook={tunebook}
@@ -285,11 +316,9 @@ export default function AddTuneSimpleForm(props) {
                       }}
                       showTags={true}
                     />
-                    <span>
-                      {selectedTags.map(function(tag) {
-                        return <Button key={tag} style={{ marginLeft: '0.2em' }} variant="outline-info">{tag}</Button>
-                      })}
-                    </span>
+                    {selectedTags.map(function(tag) {
+                      return <Button key={tag} size="sm" variant="outline-info">{tag}</Button>
+                    })}
                   </div>
                 ) : (
                   <Form.Control
@@ -298,9 +327,20 @@ export default function AddTuneSimpleForm(props) {
                     onChange={function(e) { setField('tagList', e.target.value) }}
                   />
                 )}
-              </Form.Group>
-            </Col>
-          </Row>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-3 add-tune-field-block">
+            <AddTuneYouTubePicker
+              selected={youtubeLink}
+              searchQuery={youtubeSearchQuery}
+              searchNonce={youtubeSearchNonce}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              onChange={handleYouTubePick}
+              onClear={clearYouTube}
+            />
+          </div>
         </Col>
 
         <Col md={5}>

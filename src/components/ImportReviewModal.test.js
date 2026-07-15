@@ -402,7 +402,8 @@ describe('ImportReviewModal', function() {
 
     await view.render(props);
 
-    expect(view.container.textContent).toContain('Add tunes');
+    expect(view.container.textContent).toContain('Add');
+    expect(view.container.textContent).not.toContain('Add tunes');
     expect(view.container.querySelector('[data-testid="add-tune-simple-form"]')).toBeTruthy();
     expect(view.container.querySelector('[data-testid="tune-record-form"]')).toBeFalsy();
     expect(view.container.textContent).not.toContain('Add From');
@@ -411,6 +412,35 @@ describe('ImportReviewModal', function() {
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
     expect(addButton.disabled).toBe(true);
+
+    await view.unmount();
+  });
+
+  test('Add enables when title is filled', async function() {
+    const view = renderModal();
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
+      { entryMode: 'add' }
+    );
+    const filled = Object.assign({}, session.candidates[0], {
+      tune: Object.assign({}, session.candidates[0].tune, {
+        name: 'Summer of 69',
+        composer: '',
+      }),
+    });
+    const nextSession = Object.assign({}, session, {
+      candidates: [filled],
+    });
+    const props = buildProps({
+      session: nextSession,
+      currentTuneBook: 'songs',
+    });
+
+    await view.render(props);
+
+    const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
+    expect(addButton).toBeTruthy();
+    expect(addButton.disabled).toBe(false);
 
     await view.unmount();
   });

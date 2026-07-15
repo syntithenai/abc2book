@@ -10,10 +10,14 @@ export function resolveNotationAction(event, context) {
   if (mod && key.toLowerCase() === 'c') return { action: 'copy' };
   if (mod && key.toLowerCase() === 'x') return { action: 'cut' };
   if (mod && key.toLowerCase() === 'v') return { action: 'paste' };
+  if (mod && !shift && key.toLowerCase() === 'k') return { action: 'editChordSymbol' };
+  if (mod && !shift && key.toLowerCase() === 'f') return { action: 'editFingering' };
+  if (mod && shift && key.toLowerCase() === 'i') return { action: 'setNoteInputMethod', method: 'rePitch' };
   if (mod && alt && key.toLowerCase() === 'p') return { action: 'togglePianoRoll' };
   if (mod && !shift && key.toLowerCase() === 'b') return { action: 'insertMeasure' };
 
   if (!mod && !alt && key.toLowerCase() === 'n') return { action: 'toggleNoteInput' };
+  if (!mod && !alt && !shift && key.toLowerCase() === 'm') return { action: 'setNoteInputMethod', method: 'duration' };
   if (key === 'Escape') return { action: 'exitNoteInput' };
   if (key >= '1' && key <= '9') return { action: 'setDuration', key: parseInt(key, 10) };
   if (key === '.') return { action: 'toggleDot' };

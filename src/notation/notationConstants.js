@@ -16,6 +16,23 @@ export const EDITOR_MODES = {
   NOTE_INPUT: 'noteInput',
 };
 
+/** MuseScore-aligned step-time note input methods while EDITOR_MODES.NOTE_INPUT is on. */
+export const NOTE_INPUT_METHODS = {
+  NOTE_NAME: 'noteName',
+  DURATION: 'duration',
+  RHYTHM: 'rhythm',
+  RE_PITCH: 'rePitch',
+  INSERT: 'insert',
+};
+
+export const NOTE_INPUT_METHOD_LABELS = {
+  noteName: 'Note name',
+  duration: 'Duration',
+  rhythm: 'Rhythm',
+  rePitch: 'Re-pitch',
+  insert: 'Insert',
+};
+
 export const EDITOR_VIEWS = {
   STAFF: 'staff',
   PIANO_ROLL: 'pianoRoll',

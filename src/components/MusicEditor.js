@@ -4,11 +4,12 @@ import {useState, useEffect, useCallback, useRef} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
+import NotationSearchButton from './NotationSearchButton'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
 import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
-import { normalizeEditorViewMode } from '../viewModeUtils'
+import { isNotationEditorView, normalizeEditorViewMode } from '../viewModeUtils'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
 
@@ -48,6 +49,18 @@ export default function MusicEditor(props) {
             navigate(basePath + '/' + encodeURIComponent(normalized) + recordQuery, { replace: true })
         }
     }
+
+    // Replace legacy sourceAbc/abc URLs with /editor/:id (normalized to info)
+    useEffect(function() {
+        if (!tuneId) return
+        var legacyUrl = false
+        if (params.view === 'sourceAbc' || params.view === 'abc') {
+            legacyUrl = true
+        }
+        if (legacyUrl) {
+            navigate('/editor/' + encodeURIComponent(tuneId), { replace: true })
+        }
+    }, [tuneId, params.view])
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return
@@ -122,6 +135,28 @@ export default function MusicEditor(props) {
         }
     }, [props.blockKeyboardShortcuts, canRedo, canUndo, tuneId, handleRedo, handleUndo])
     
+    const isNotationView = isNotationEditorView(editorViewMode)
+    const historyButtonGroup = (
+      <ButtonGroup className={'music-editor-history-group' + (isNotationView ? ' notation-toolbar-history-group' : '')} aria-label="Undo and redo">
+        <Button
+          size={isNotationView ? 'lg' : undefined}
+          title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'}
+          disabled={!canUndo}
+          variant={isNotationView ? 'outline-secondary' : 'secondary'}
+          className={isNotationView ? undefined : 'btn-secondary'}
+          onClick={handleUndo}
+        >{props.tunebook.icons.arrowgoback}</Button>
+        <Button
+          size={isNotationView ? 'lg' : undefined}
+          title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'}
+          disabled={!canRedo}
+          variant={isNotationView ? 'outline-secondary' : 'secondary'}
+          className={isNotationView ? undefined : 'btn-secondary'}
+          onClick={handleRedo}
+        >{props.tunebook.icons.arrowgoforward}</Button>
+      </ButtonGroup>
+    )
+
     //console.log('EDIT',tune,abc)
     return <div className={'music-editor' + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
         <div className="music-editor-buttons">
@@ -130,17 +165,42 @@ export default function MusicEditor(props) {
                   warnIfJobsContinuing()
                   navigate('/tunes/' + tune.id)
                 }}>{props.tunebook.icons.close}</Button>
-                <ButtonGroup className="music-editor-history-group">
-                    <Button title={canUndo && undoLabel ? 'Undo ' + undoLabel : 'Undo'} disabled={!canUndo} variant="secondary" className="btn-secondary" onClick={handleUndo}>{props.tunebook.icons.arrowgoback}</Button>
-                    <Button title={canRedo && redoLabel ? 'Redo ' + redoLabel : 'Redo'} disabled={!canRedo} variant="secondary" className="btn-secondary" onClick={handleRedo}>{props.tunebook.icons.arrowgoforward}</Button>
-                </ButtonGroup>
+                {isNotationView ? (
+                  <NotationSearchButton
+                    tuneId={tuneId}
+                    title={tune && tune.name ? tune.name : ''}
+                    artist={tune && tune.composer ? tune.composer : ''}
+                    rhythm={tune && tune.rhythm ? tune.rhythm : ''}
+                    currentGenre={tune && tune.genre ? tune.genre : ''}
+                    token={props.token}
+                    tunebook={props.tunebook}
+                    disabled={!(tune && tune.name && String(tune.name).trim())}
+                    onGenreAccept={function(genre) {
+                      if (!tune) return
+                      tune.genre = genre
+                      tune.id = tuneId
+                      props.tunebook.saveTune(tune)
+                    }}
+                    onNotation={function(candidate) {
+                      const abcText = candidate && candidate.abc ? String(candidate.abc) : ''
+                      if (!abcText || !props.tunebook || !props.tunebook.abcTools || !tune) return
+                      const imported = props.tunebook.abcTools.abc2json(abcText)
+                      if (!imported) return
+                      imported.id = tune.id
+                      props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
+                      if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                    }}
+                  />
+                ) : historyButtonGroup}
                 <span className="music-editor-search">
-                    <TuneEnhanceButton
-                      tune={tune}
-                      tunebook={props.tunebook}
-                      token={props.token}
-                      forceRefresh={props.forceRefresh}
-                    />
+                    {editorViewMode === 'info' ? (
+                      <TuneEnhanceButton
+                        tune={tune}
+                        tunebook={props.tunebook}
+                        token={props.token}
+                        forceRefresh={props.forceRefresh}
+                      />
+                    ) : null}
                     <FieldLookupReviewButton
                       tuneId={tune && tune.id}
                       kind="notation"
@@ -180,13 +240,15 @@ export default function MusicEditor(props) {
           isMobile={props.isMobile}
           abc={abc}
           tunebook={props.tunebook}
+          tunes={props.tunes}
           tune={tune}
           editorViewMode={editorViewMode}
           onEditorViewModeChange={handleEditorViewChange}
           autoActivateChordRecord={autoActivateChordRecord}
           searchIndex={props.searchIndex}
           loadTuneTexts={props.loadTuneTexts}
-                    onNotationHelpModeChange={props.onNotationHelpModeChange}
+          onNotationHelpModeChange={props.onNotationHelpModeChange}
+          historyControls={isNotationView ? historyButtonGroup : null}
         />
     </div>
 }

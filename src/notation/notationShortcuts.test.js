@@ -43,4 +43,24 @@ describe('notationShortcuts', function() {
     expect(resolveNotationAction({ key: 'j', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {}).action)
       .toBe('respellEnharmonic');
   });
+
+  test('maps M to duration input method', function() {
+    const action = resolveNotationAction({ key: 'm', metaKey: false, ctrlKey: false, shiftKey: false, altKey: false }, {});
+    expect(action).toEqual({ action: 'setNoteInputMethod', method: 'duration' });
+  });
+
+  test('maps Ctrl+Shift+I to re-pitch method', function() {
+    const action = resolveNotationAction({ key: 'i', metaKey: false, ctrlKey: true, shiftKey: true, altKey: false }, {});
+    expect(action).toEqual({ action: 'setNoteInputMethod', method: 'rePitch' });
+  });
+
+  test('maps Ctrl+K to chord symbol edit', function() {
+    expect(resolveNotationAction({ key: 'k', metaKey: false, ctrlKey: true, shiftKey: false, altKey: false }, {}).action)
+      .toBe('editChordSymbol');
+  });
+
+  test('maps Ctrl+F to fingering edit', function() {
+    expect(resolveNotationAction({ key: 'f', metaKey: false, ctrlKey: true, shiftKey: false, altKey: false }, {}).action)
+      .toBe('editFingering');
+  });
 });

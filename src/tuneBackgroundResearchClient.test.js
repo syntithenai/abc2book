@@ -168,10 +168,14 @@ describe('tuneBackgroundResearchClient', function() {
     expect(query).not.toContain('first recorded written');
   });
 
-  test('buildTuneBackgroundSearchUrl stays within browser URL limits', function() {
+  test('buildTuneBackgroundSearchUrl uses a plain-English background question', function() {
     const longLyrics = 'Get you a copper kettle and a copper coil\n'.repeat(40);
     const url = buildTuneBackgroundSearchUrl('Copper Kettle', 'Joan Baez', longLyrics);
     expect(url.indexOf('https://www.google.com/search?q=')).toBe(0);
     expect(url.length).toBeLessThanOrEqual(2048);
+    const decoded = decodeURIComponent(url);
+    expect(decoded).toContain('history and background');
+    expect(decoded).toContain('Copper Kettle');
+    expect(decoded).toContain('Joan Baez');
   });
 });

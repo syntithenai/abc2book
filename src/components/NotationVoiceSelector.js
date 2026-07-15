@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, ButtonGroup, Form } from 'react-bootstrap';
 import { voiceDisplayLabel } from '../notation/notationDisplayAbc';
+import { parseVoiceMeta, formatVoiceMeta } from '../notation/voiceMeta';
 import DeleteVoiceConfirmModal from './DeleteVoiceConfirmModal';
 
 export default function NotationVoiceSelector(props) {
@@ -34,7 +35,8 @@ export default function NotationVoiceSelector(props) {
   function metaForIndex(vk) {
     const key = voiceKeyAt(vk);
     const voice = key && tune && tune.voices ? tune.voices[key] : null;
-    return voice && typeof voice.meta === 'string' ? voice.meta : '';
+    if (!voice || typeof voice.meta !== 'string') return '';
+    return parseVoiceMeta(voice.meta).name;
   }
 
   function isDisplayed(vk) {
@@ -59,8 +61,11 @@ export default function NotationVoiceSelector(props) {
   function handleNameChange(vk, value, e) {
     if (e) e.stopPropagation();
     const key = voiceKeyAt(vk);
-    if (onVoiceSelect && voiceIndex !== vk) onVoiceSelect(vk);
-    if (onVoiceNameChange && key) onVoiceNameChange(key, value);
+    // Rename must not switch the edited voice (visible ≠ edit).
+    if (!onVoiceNameChange || !key) return;
+    const voice = tune && tune.voices ? tune.voices[key] : null;
+    const current = parseVoiceMeta(voice && voice.meta);
+    onVoiceNameChange(key, formatVoiceMeta(Object.assign({}, current, { name: value })));
   }
 
   function requestDelete(vk, e) {

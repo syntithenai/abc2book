@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -71,6 +72,7 @@ export default function TuneBackgroundSearchButton({
   buttonStyle,
   disabled,
   tunebook,
+  children,
 }) {
   const narrow = useIsNarrowViewport();
   const queue = useBulkBackgroundResearchQueue();
@@ -268,90 +270,112 @@ export default function TuneBackgroundSearchButton({
     setPendingReviewText('');
   }
 
-  return (
-    <>
-      <FieldLookupButtonGroup
-        automaticLookup={canResearchBackground}
-        showExternal={!canResearchBackground}
-        busy={busy}
-        disabled={!title || !tuneId || disabled}
-        externalUrl={googleUrl}
-        externalLinkIcon={externalLinkIcon}
-        narrow={narrow}
-        onSearch={requestResearch}
-        suggestionCount={suggestionCount}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={openAwaitingSuggestions}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        progress={progressPercent}
-      />
-      {busy && (
-        <div style={{ marginTop: '0.75em', maxWidth: '28em', clear: 'both' }}>
-          <ProgressBar
-            now={progressPercent}
-            label={progressPercent + '%'}
-            animated
-            striped
-            variant={progressPercent >= 65 ? 'warning' : 'info'}
-          />
-          <div style={{ marginTop: '0.35em', fontSize: '0.9em', color: '#555' }}>
-            {progressMessage || 'Starting research...'}
-            {elapsedMs > 0 && <span> · {formatResearchDuration(elapsedMs)}</span>}
-            <span> · continues in background</span>
-          </div>
-        </div>
-      )}
-      {error && (
-        <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
-          {error}
-          {resolverStatus && resolverStatus.authReason && (
-            <div style={{ marginTop: '0.35em', fontSize: '0.9em' }}>
-              {describeResolverAuthReason(resolverStatus.authReason)}
+  const backgroundItems = suggestionCount > 0
+    ? [{ label: 'Review research result', preview: awaitingJob && awaitingJob.resultText }]
+    : [];
+
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <>
+        <FieldLookupButtonGroup
+          automaticLookup={canResearchBackground}
+          showExternal={!!(googleUrl && externalLinkIcon)}
+          busy={busy}
+          disabled={!title || !tuneId || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          narrow={narrow}
+          onSearch={requestResearch}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          progress={progressPercent}
+          suggestionCount={suggestionCount}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
+        />
+        {busy && (
+          <div style={{ marginTop: '0.75em', maxWidth: '28em', clear: 'both' }}>
+            <ProgressBar
+              now={progressPercent}
+              label={progressPercent + '%'}
+              animated
+              striped
+              variant={progressPercent >= 65 ? 'warning' : 'info'}
+            />
+            <div style={{ marginTop: '0.35em', fontSize: '0.9em', color: '#555' }}>
+              {progressMessage || 'Starting research...'}
+              {elapsedMs > 0 && <span> · {formatResearchDuration(elapsedMs)}</span>}
+              <span> · continues in background</span>
             </div>
-          )}
-          <div style={{ marginTop: '0.5em' }}>
-            <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
           </div>
-        </Alert>
-      )}
+        )}
+      </>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: backgroundItems,
+      count: suggestionCount,
+      onClear: clearAwaitingSuggestions,
+      onSelect: openAwaitingSuggestions,
+      getLabel: function(item) {
+        return item && item.label ? item.label : 'Review research result';
+      },
+    }),
+    errorNode: (
+      <>
+        {error && (
+          <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
+            {error}
+            {resolverStatus && resolverStatus.authReason && (
+              <div style={{ marginTop: '0.35em', fontSize: '0.9em' }}>
+                {describeResolverAuthReason(resolverStatus.authReason)}
+              </div>
+            )}
+            <div style={{ marginTop: '0.5em' }}>
+              <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+            </div>
+          </Alert>
+        )}
+        <GenreSuggestionOffer
+          suggestion={genreSuggestion}
+          onAccept={function(genre) {
+            if (typeof onGenreAccept === 'function') onGenreAccept(genre);
+            setGenreSuggestion(null);
+          }}
+          onDismiss={function() { setGenreSuggestion(null); }}
+        />
+      </>
+    ),
+    modals: (
+      <>
+        <Modal show={showConfirm} onHide={function() { setShowConfirm(false); }}>
+          <Modal.Header closeButton>
+            <Modal.Title>Replace background information?</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            This tune already has background information. Replace it with a new research result?
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>Cancel</Button>
+            <Button variant="warning" onClick={function() { run(true, pendingModeRef.current); }}>Replace</Button>
+          </Modal.Footer>
+        </Modal>
 
-      <GenreSuggestionOffer
-        suggestion={genreSuggestion}
-        onAccept={function(genre) {
-          if (typeof onGenreAccept === 'function') onGenreAccept(genre);
-          setGenreSuggestion(null);
-        }}
-        onDismiss={function() { setGenreSuggestion(null); }}
-      />
-
-      <Modal show={showConfirm} onHide={function() { setShowConfirm(false); }}>
-        <Modal.Header closeButton>
-          <Modal.Title>Replace background information?</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          This tune already has background information. Replace it with a new research result?
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>Cancel</Button>
-          <Button variant="warning" onClick={function() { run(true, pendingModeRef.current); }}>Replace</Button>
-        </Modal.Footer>
-      </Modal>
-
-      <Modal show={showReviewAccept} onHide={dismissReviewResult} size="lg">
-        <Modal.Header closeButton>
-          <Modal.Title>Review background information</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <pre style={{ whiteSpace: 'pre-wrap', maxHeight: '50vh', overflow: 'auto' }}>
-            {pendingReviewText}
-          </pre>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={dismissReviewResult}>Dismiss</Button>
-          <Button variant="success" onClick={acceptReviewResult}>Apply</Button>
-        </Modal.Footer>
-      </Modal>
-    </>
-  );
+        <Modal show={showReviewAccept} onHide={dismissReviewResult} size="lg">
+          <Modal.Header closeButton>
+            <Modal.Title>Review background information</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <pre style={{ whiteSpace: 'pre-wrap', maxHeight: '50vh', overflow: 'auto' }}>
+              {pendingReviewText}
+            </pre>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={dismissReviewResult}>Dismiss</Button>
+            <Button variant="success" onClick={acceptReviewResult}>Apply</Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    ),
+  });
 }

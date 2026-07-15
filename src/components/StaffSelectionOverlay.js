@@ -137,7 +137,7 @@ export default function StaffSelectionOverlay(props) {
 
   function handlePoint(rect, which) {
     if (!rect || typeof onSlurHandlePointerDown !== 'function') return null;
-    const size = 12;
+    const size = 14;
     return (
       <div
         key={'slur-handle-' + which}
@@ -146,13 +146,14 @@ export default function StaffSelectionOverlay(props) {
         data-slur-end={which}
         style={{
           left: (rect.left + rect.width / 2) + 'px',
-          top: (rect.top + rect.height / 2) + 'px',
+          // Sit above the notehead so the grab target is not buried under pitch-drag.
+          top: (rect.top - 4) + 'px',
           width: size + 'px',
           height: size + 'px',
           marginLeft: (-size / 2) + 'px',
           marginTop: (-size / 2) + 'px',
         }}
-        onPointerDown={function(e) {
+        onPointerDownCapture={function(e) {
           onSlurHandlePointerDown(e, which, slurGroup);
         }}
       />

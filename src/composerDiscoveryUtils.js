@@ -41,13 +41,67 @@ export function needsComposerDiscovery(composer) {
 export function buildGoogleComposerSearchQuestion(title, artist) {
   const songName = String(title || '').trim()
   if (!songName) return ''
-  let question = 'Tell me who is the composer of this song or fiddle tune or melody named '
+  let question = 'Who composed the song "'
     + songName
+    + '", and which artists have performed it?'
   const artistName = String(artist || '').trim()
   if (artistName) {
-    question += ' associated with the artist ' + artistName
+    question = 'Who composed the song "'
+      + songName
+      + '" by '
+      + artistName
+      + ', and which artists have performed it?'
   }
   return question
+}
+
+export function shouldOfferTitleSuggestion(currentTitle, suggestedTitle) {
+  const current = String(currentTitle || '').trim()
+  const suggested = String(suggestedTitle || '').trim()
+  if (!suggested) return false
+  return normalizeArtistKey(current) !== normalizeArtistKey(suggested)
+}
+
+/**
+ * Build title suggestion list from MusicBrainz (or other) + local collection matches.
+ * Returns [{ title, source }] (distinct, excludes current title).
+ */
+export function buildTitleSuggestions(options) {
+  const opts = options || {}
+  const currentTitle = String(opts.currentTitle || '').trim()
+  const musicBrainzTitle = String(opts.musicBrainzTitle || opts.suggestedTitle || '').trim()
+  const tunes = opts.tunes
+  const limit = typeof opts.limit === 'number' ? opts.limit : 5
+  const findCandidates = typeof opts.findTuneCandidates === 'function'
+    ? opts.findTuneCandidates
+    : null
+
+  const seen = {}
+  const results = []
+
+  function add(title, source) {
+    const cleaned = String(title || '').trim()
+    if (!cleaned || !shouldOfferTitleSuggestion(currentTitle, cleaned)) return
+    const key = normalizeArtistKey(cleaned)
+    if (!key || seen[key]) return
+    seen[key] = true
+    results.push({ title: cleaned, source: source || '' })
+  }
+
+  if (musicBrainzTitle) add(musicBrainzTitle, 'MusicBrainz')
+
+  if (findCandidates && tunes && currentTitle) {
+    const matches = findCandidates(currentTitle, tunes, {
+      limit: limit + 2,
+      minScore: typeof opts.minScore === 'number' ? opts.minScore : 4,
+    }) || []
+    matches.forEach(function(entry) {
+      const name = entry && entry.tune && entry.tune.name
+      if (name) add(name, 'Your collection')
+    })
+  }
+
+  return results.slice(0, limit)
 }
 
 export function buildGoogleComposerSearchUrl(title, artist) {

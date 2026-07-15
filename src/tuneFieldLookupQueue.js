@@ -166,6 +166,7 @@ function publicJob(job) {
     manualCandidates: Array.isArray(job.manualCandidates) ? job.manualCandidates.slice() : [],
     options: job.options ? Object.assign({}, job.options) : {},
     appliedCandidate: job.appliedCandidate || null,
+    suggestedTitle: job.suggestedTitle || '',
   }
 }
 
@@ -965,6 +966,9 @@ async function runJob(job) {
 
     job.candidates = normalized.candidates
     job.manualCandidates = []
+    job.suggestedTitle = result && result.suggestedTitle
+      ? String(result.suggestedTitle).trim()
+      : ''
     // Link suggestions always go to review / choose UI.
     if (job.kind === 'links') {
       job.options = Object.assign({}, job.options || {}, { alwaysPick: true })

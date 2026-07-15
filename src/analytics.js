@@ -261,6 +261,9 @@ const RESOLVER_EVENTS = new Set([
   'abc2xml',
   'transcribe-sheet-image',
   'search-images',
+  'generate-feed-articles',
+  'generate-feed-quizzes',
+  'enrich-feed-sources',
 ])
 
 export function trackResolverRequest(endpoint) {

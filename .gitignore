@@ -89,4 +89,7 @@ __pycache__/
 # Local whisper models (too large for git; mount/download separately)
 local-resolver/whisper/
 local-resolver/whisper/models/
+
+# Downloaded MusyngKite soundfont bank (~1GB; Docker volume)
+local-resolver/soundfonts/
 *.bin

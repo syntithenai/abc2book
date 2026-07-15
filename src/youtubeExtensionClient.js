@@ -188,21 +188,6 @@ export async function isYoutubeExtensionConnected() {
 }
 
 /**
- * True when YouTube audio bytes can be obtained without failing closed:
- * Helper extension connected, or a media resolver/proxy is configured.
- */
-export async function youtubeAudioBytesAvailable(options) {
-  const isMediaProxyConfigured =
-    options && typeof options.isMediaProxyConfigured === 'function'
-      ? options.isMediaProxyConfigured
-      : null
-  // Prefer cheap sync proxy check before waiting on extension discovery.
-  if (isMediaProxyConfigured && isMediaProxyConfigured()) return true
-  if (await isYoutubeExtensionConnected()) return true
-  return false
-}
-
-/**
  * @param {string} videoId
  * @returns {Promise<{ arrayBuffer: ArrayBuffer, mime: string, title: string|null, client: string|null, via: 'extension' }>}
  */

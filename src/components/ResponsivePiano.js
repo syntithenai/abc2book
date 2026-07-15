@@ -1,10 +1,10 @@
 import React, {useRef, useEffect, useState} from 'react';
-import ReactDOM from 'react-dom';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
 import 'react-piano/dist/styles.css';
 
 import useWindowSize from '../useWindowSize'
 import SoundfontProvider from '../SoundfontProvider';
+import { LOCAL_SOUNDFONT_INSTRUMENTS } from '../localSoundfontInstrumentMap';
 import '../piano_styles.css';
 
 const soundfontHostname = 'https://d1pzp51pvbm36p.cloudfront.net';
@@ -18,105 +18,44 @@ const keyboardShortcuts = KeyboardShortcuts.create({
   lastNote: noteRange.last,
   keyboardConfig: KeyboardShortcuts.HOME_ROW,
 });
-const instruments = [
-'accordion',
-'acoustic_grand_piano',
-'acoustic_guitar_steel',
-'brass_section',
-'choir_aahs',
-'fiddle',
-'flute',
-'harmonica',
-'recorder',
-'slap_bass_1'
-]
 
-//function App() {
-  //return (
-    //<div>
-      //<h1>react-piano demos</h1>
-      //<div className="mt-5">
-        //<p>Basic piano with hardcoded width</p>
-        //<BasicPiano />
-      //</div>
-
-      //<div className="mt-5">
-        //<p>
-          //Responsive piano which resizes to container's width. Try resizing the
-          //window!
-        //</p>
-        //<ResponsivePiano />
-      //</div>
-
-      //<div className="mt-5">
-        //<p>Piano with custom styling - see styles.css</p>
-        //<ResponsivePiano className="PianoDarkTheme" />
-      //</div>
-    //</div>
-  //);
-//}
- 
-function BasicPiano(props) {
-  const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
-  useEffect(function() {
-      audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
-      //console.log('create context',audioContext.current)
-  },[])
-  const useSoundFont = props.soundFontUrl ? props.soundFontUrl : soundfontHostname
-  const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
-  return (
-    <div>
-    <br/>
-    <label>Instrument 
-    <select value={useInstrument} onChange={function(e) {setUseInstrument(e.target.value)}} >
-    {instruments.map(function(i) {
-        return <option value={i} key={i} >{i.replace('_',' ')}</option>
-    })}
-    </select></label>
-    <br/><br/>
-    {(useInstrument && useSoundFont && audioContext.current) && <SoundfontProvider
-      instrumentName={useInstrument}
-      audioContext={audioContext.current}
-      hostname={useSoundFont}
-      render={({ isLoading, playNote, stopNote }) => (
-        <Piano
-          noteRange={noteRange}
-          width={300}
-          playNote={playNote}
-          stopNote={stopNote}
-          disabled={isLoading}
-          keyboardShortcuts={keyboardShortcuts}
-        />
-      )}
-    />}
-    </div>
-  );
-}
+const DEFAULT_INSTRUMENTS = LOCAL_SOUNDFONT_INSTRUMENTS.slice();
 
 function ResponsivePiano(props) {
-  const audioContext = useRef() //new (window.AudioContext || window.webkitAudioContext)();
+  const { soundFontUrl, instruments: instrumentsProp, fullGm, ...pianoProps } = props
+  const audioContext = useRef()
   var windowSize = useWindowSize()
   useEffect(function() {
       audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
-      //console.log('create context',audioContext.current,props.soundFontUrl)
   },[])
-  const useSoundFont = props.soundFontUrl ? props.soundFontUrl : soundfontHostname
-  
+  const useSoundFont = soundFontUrl ? soundFontUrl : soundfontHostname
+  const instruments = Array.isArray(instrumentsProp) && instrumentsProp.length
+    ? instrumentsProp
+    : DEFAULT_INSTRUMENTS
+
   const [useInstrument,setUseInstrument] = useState('acoustic_grand_piano')
+  useEffect(function() {
+    if (instruments.indexOf(useInstrument) < 0) {
+      setUseInstrument(instruments[0] || 'acoustic_grand_piano')
+    }
+  }, [instruments, useInstrument])
+
   return (
     <div>
     <br/>
-    <label>Instrument 
+    <label>Instrument
     <select value={useInstrument} onChange={function(e) {setUseInstrument(e.target.value)}} >
     {instruments.map(function(i) {
-        return <option value={i} key={i} >{i.replace('_',' ')}</option>
+        return <option value={i} key={i} >{i.replace(/_/g, ' ')}</option>
     })}
     </select></label>
+    {fullGm ? <span style={{ marginLeft: 8, opacity: 0.7 }}>Full MusyngKite (resolver)</span> : null}
     <br/><br/>
      {(useInstrument && useSoundFont && audioContext.current) && <SoundfontProvider
           instrumentName={useInstrument}
           audioContext={audioContext.current}
-          hostname={props.soundFontUrl ? props.soundFontUrl : soundfontHostname}
+          hostname={useSoundFont}
+          soundfont="MusyngKite"
           render={({ isLoading, playNote, stopNote }) => (
             <Piano
               noteRange={noteRange}
@@ -124,11 +63,11 @@ function ResponsivePiano(props) {
               playNote={playNote}
               stopNote={stopNote}
               disabled={isLoading}
-              {...props}
+              {...pianoProps}
             />
           )}
         />}
-        
+
       </div>
   );
 }

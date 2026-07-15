@@ -113,7 +113,12 @@ def ensure_db() -> None:
 
 
 def _email_allowed(email: str, allowed_emails: set[str]) -> bool:
-    return bool(email) and email.strip().lower() in allowed_emails
+    if not email or not allowed_emails:
+        return False
+    normalized = email.strip().lower()
+    if "all" in allowed_emails:
+        return True
+    return normalized in allowed_emails
 
 
 def _row_to_session(row: sqlite3.Row | None) -> dict[str, Any] | None:

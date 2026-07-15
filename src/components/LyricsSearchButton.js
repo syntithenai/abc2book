@@ -16,18 +16,20 @@ import GenreSuggestionOffer from './GenreSuggestionOffer'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import {
   buildGenreSearchContext,
   inferGenreFromSearchContext,
   shouldOfferGenreSuggestion,
 } from '../genreInference'
+import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 
 export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
-  return 'https://www.google.com/search?q=lyrics '
-    + (title || '')
-    + ' '
-    + (artist || '')
-    + (extraQuery ? ' ' + extraQuery : '')
+  let question = buildExternalSearchQuestion('lyrics', title, artist)
+  if (!question) return ''
+  const extra = String(extraQuery || '').trim()
+  if (extra) question += ' ' + extra
+  return buildGoogleSearchQuestionUrl(question)
 }
 
 /**
@@ -60,6 +62,7 @@ export default function LyricsSearchButton({
   /** Force Review mode (no Auto dialog). */
   forceReview = false,
   inline,
+  children,
 }) {
   const narrow = useIsNarrowViewport()
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
@@ -295,85 +298,103 @@ export default function LyricsSearchButton({
     lookup.startSearch(lyricsSpec)
   }
 
-  return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-      <FieldLookupButtonGroup
-        automaticLookup={true}
-        showExternal={false}
-        busy={busy}
-        disabled={!canSearch || disabled}
-        externalUrl={googleUrl}
-        externalLinkIcon={externalLinkIcon}
-        narrow={narrow}
-        onSearch={run}
-        suggestionCount={awaitingCandidates.length}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={openAwaitingSuggestions}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        inline={inline}
-        progress={progressPercent}
-      />
-      <SearchProgressBar
-        visible={busy}
-        percent={progressPercent}
-        message={progressMessage}
-        defaultMessage={alsoSearchChords
-          ? (chordsLookup.busy
-            ? 'Searching for chords and lyrics...'
-            : 'Searching for lyrics...')
-          : 'Searching for lyrics...'}
-      />
-      {error && (
-        <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
-          {error}
-          <div style={{ marginTop: '0.5em' }}>
-            <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
-          </div>
-        </Alert>
-      )}
-      <ManualCandidatesFeedback
-        message="No importable match found"
-        manualCandidates={manualCandidates}
-        tunebook={tunebook}
-        onSelectCandidate={function(candidate) {
-          setLockedModalCandidate(candidate)
-        }}
-      />
-
-      <GenreSuggestionOffer
-        suggestion={genreSuggestion}
-        onAccept={function(genre) {
-          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-          setGenreSuggestion(null)
-        }}
-        onDismiss={function() { setGenreSuggestion(null) }}
-      />
-
-      <SearchResultPickerModal
-        show={showPicker}
-        title="Choose lyrics version"
-        items={pickerCandidates}
-        fallbackTitle={title}
-        emptyMessage="No lyrics versions were found."
-        onSelect={chooseLyricsCandidate}
-        onHide={function() {
-          setShowPicker(false)
-          setPickerCandidates([])
-        }}
-      />
-
-      <LockedSourcePasteModal
-        show={!!lockedModalCandidate}
-        onHide={function() { setLockedModalCandidate(null) }}
-        candidate={lockedModalCandidate}
-        searchTitle={title}
-        searchArtist={artist}
-        tunebook={tunebook}
-        abcjsParser={abcjsParser}
-        book={book}
-        icons={tunebook && tunebook.icons}
-      />
-    </div>
-  )
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <FieldLookupButtonGroup
+          automaticLookup={true}
+          showExternal={false}
+          busy={busy}
+          disabled={!canSearch || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          narrow={narrow}
+          onSearch={run}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          inline={inline}
+          progress={progressPercent}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
+        />
+        <SearchProgressBar
+          visible={busy}
+          percent={progressPercent}
+          message={progressMessage}
+          defaultMessage={alsoSearchChords
+            ? (chordsLookup.busy
+              ? 'Searching for chords and lyrics...'
+              : 'Searching for lyrics...')
+            : 'Searching for lyrics...'}
+        />
+      </div>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: chooseLyricsCandidate,
+      getLabel: function(candidate) {
+        const t = candidate && candidate.title ? candidate.title : (title || 'Lyrics')
+        const src = candidate && candidate.source ? candidate.source : ''
+        return src ? (t + ' · ' + src) : t
+      },
+    }),
+    errorNode: (
+      <>
+        {error && (
+          <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
+            {error}
+            <div style={{ marginTop: '0.5em' }}>
+              <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+            </div>
+          </Alert>
+        )}
+        <ManualCandidatesFeedback
+          message="No importable match found"
+          manualCandidates={manualCandidates}
+          tunebook={tunebook}
+          onSelectCandidate={function(candidate) {
+            setLockedModalCandidate(candidate)
+          }}
+        />
+        <GenreSuggestionOffer
+          suggestion={genreSuggestion}
+          onAccept={function(genre) {
+            if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+            setGenreSuggestion(null)
+          }}
+          onDismiss={function() { setGenreSuggestion(null) }}
+        />
+      </>
+    ),
+    modals: (
+      <>
+        <SearchResultPickerModal
+          show={showPicker}
+          title="Choose lyrics version"
+          items={pickerCandidates}
+          fallbackTitle={title}
+          emptyMessage="No lyrics versions were found."
+          onSelect={chooseLyricsCandidate}
+          onHide={function() {
+            setShowPicker(false)
+            setPickerCandidates([])
+          }}
+        />
+        <LockedSourcePasteModal
+          show={!!lockedModalCandidate}
+          onHide={function() { setLockedModalCandidate(null) }}
+          candidate={lockedModalCandidate}
+          searchTitle={title}
+          searchArtist={artist}
+          tunebook={tunebook}
+          abcjsParser={abcjsParser}
+          book={book}
+          icons={tunebook && tunebook.icons}
+        />
+      </>
+    ),
+  })
 }

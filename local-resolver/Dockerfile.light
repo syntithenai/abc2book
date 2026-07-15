@@ -1,0 +1,39 @@
+# Slim Cloud Run / light gateway: auth, provider proxy, music21 MIDI convert, YouTube via yt-dlp+Webshare.
+# No Whisper.cpp / Demucs / Playwright / local OCR vision stack.
+FROM python:3.11-slim-bookworm
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    ffmpeg \
+    curl \
+    && rm -rf /var/lib/apt/lists/* \
+    && curl -fsSL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp \
+    && chmod a+rx /usr/local/bin/yt-dlp
+
+COPY requirements-light.txt /app/requirements-light.txt
+RUN pip install --no-cache-dir -r /app/requirements-light.txt
+
+COPY server_light.py /app/server_light.py
+COPY allowlists.py /app/allowlists.py
+COPY providers.py /app/providers.py
+COPY provider_cloud.py /app/provider_cloud.py
+COPY oauth_bff.py /app/oauth_bff.py
+COPY midi_convert.py /app/midi_convert.py
+COPY lyrics_word_tools.py /app/lyrics_word_tools.py
+COPY bulk_list_format.py /app/bulk_list_format.py
+
+ENV RESOLVER_LIGHT_MODE=true
+ENV REQUIRE_AUTH=true
+ENV WHISPER_ENABLED=true
+ENV LLM_ENABLED=true
+ENV PROXY_ENABLED=true
+ENV STEMS_ENABLED=false
+ENV SHEET_IMAGE_ENABLED=false
+ENV YTDLP_REQUIRE_USER_PROXY=true
+ENV PORT=8080
+
+EXPOSE 8080
+
+CMD ["sh", "-c", "python3 -m uvicorn server_light:app --host 0.0.0.0 --port ${PORT:-8080}"]

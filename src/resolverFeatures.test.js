@@ -11,7 +11,7 @@ describe('resolverFeatures', function() {
   test('parseResolverFeaturesFromHealthBody reads granular features', function() {
     expect(parseResolverFeaturesFromHealthBody({
       ok: true,
-      features: { proxy: true, stems: false, whisper: true, llm: false, oauthBff: true },
+      features: { proxy: true, stems: false, whisper: true, llm: false, oauthBff: true, soundfonts: true },
     })).toEqual({
       proxy: true,
       stems: false,
@@ -19,6 +19,13 @@ describe('resolverFeatures', function() {
       llm: false,
       practiceAnalysis: false,
       oauthBff: true,
+      soundfonts: true,
+      sheetImage: false,
+      sheetImageOcr: false,
+      sheetImageOmr: false,
+      lightMode: false,
+      youtubeAudio: false,
+      youtubeEgressRequired: false,
     });
   });
 
@@ -34,10 +41,11 @@ describe('resolverFeatures', function() {
   test('resolverHasFeature checks a single capability', function() {
     const status = {
       available: true,
-      features: { proxy: true, stems: false, whisper: true, llm: true, oauthBff: false },
+      features: { proxy: true, stems: false, whisper: true, llm: true, oauthBff: false, soundfonts: true },
     };
     expect(resolverHasFeature(status, 'proxy')).toBe(true);
     expect(resolverHasFeature(status, 'stems')).toBe(false);
+    expect(resolverHasFeature(status, 'soundfonts')).toBe(true);
   });
 
   test('normalizeResolverFeatures ignores unknown keys', function() {

@@ -19,6 +19,7 @@ import SetsPage from './pages/SetsPage'
 import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
+import FeedPage from './pages/FeedPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
@@ -162,7 +163,7 @@ function AppImportReviewBridge(props) {
       login={props.login}
       requestGoogleScopes={props.requestGoogleScopes}
       onOpenTune={function(tune) {
-        if (tune && tune.id) navigate('/editor/' + encodeURIComponent(tune.id))
+        if (tune && tune.id) navigate('/tunes/' + encodeURIComponent(tune.id))
       }}
       onComplete={function() {
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -1097,6 +1098,7 @@ function App(props) {
                     <Route  path={`filters`}   element={<FiltersPage tunebook={tunebook} setFilter={setFilter} setGroupBy={setGroupBy} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setCurrentTuneBook={setCurrentTuneBook} />} />
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
+                    <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} />}  />
                     <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} />}  />
                     <Route  path={`review`} element={<ReviewPage tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} token={token} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} forceRefresh={forceRefresh} currentTuneBook={currentTuneBook} />} />
                     <Route  path={`sets`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />

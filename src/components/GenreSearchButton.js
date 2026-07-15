@@ -6,6 +6,7 @@ import { buildGoogleGenreSearchUrl } from '../genreSearchClient'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 
 export default function GenreSearchButton({
   tuneId,
@@ -20,6 +21,7 @@ export default function GenreSearchButton({
   disabled,
   tunebook,
   inline,
+  children,
 }) {
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
@@ -113,31 +115,49 @@ export default function GenreSearchButton({
     })
   }
 
-  return (
-    <>
-      <FieldLookupButtonGroup
-        automaticLookup={true}
-        showExternal={false}
-        busy={busy}
-        disabled={!canSearch || disabled}
-        externalUrl={googleUrl}
-        externalLinkIcon={externalLinkIcon}
-        onSearch={run}
-        suggestionCount={awaitingCandidates.length}
-        onClearSuggestions={clearAwaitingSuggestions}
-        onOpenSuggestions={openAwaitingSuggestions}
-        buttonStyle={buttonStyle}
-        searchIcon={searchIcon}
-        inline={inline}
-        progress={lookup.progressPercent}
-      />
-      <SearchProgressBar
-        visible={busy}
-        percent={lookup.progressPercent}
-        message={lookup.progressMessage}
-        defaultMessage="Suggesting genre..."
-      />
-      {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <>
+        <FieldLookupButtonGroup
+          automaticLookup={true}
+          showExternal={!!(googleUrl && externalLinkIcon)}
+          busy={busy}
+          disabled={!canSearch || disabled}
+          externalUrl={googleUrl}
+          externalLinkIcon={externalLinkIcon}
+          onSearch={run}
+          buttonStyle={buttonStyle}
+          searchIcon={searchIcon}
+          inline={inline}
+          progress={lookup.progressPercent}
+          suggestionCount={awaitingCandidates.length}
+          onClearSuggestions={clearAwaitingSuggestions}
+          onOpenSuggestions={openAwaitingSuggestions}
+        />
+        <SearchProgressBar
+          visible={busy}
+          percent={lookup.progressPercent}
+          message={lookup.progressMessage}
+          defaultMessage="Suggesting genre..."
+        />
+      </>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: function(candidate) {
+        const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
+          ? lookup.activeJob.id
+          : null
+        finishApply(candidate, jobId)
+      },
+      getLabel: function(candidate) {
+        return candidate && candidate.genre ? candidate.genre : ''
+      },
+    }),
+    errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
+    modals: (
       <SearchResultPickerModal
         show={showPicker}
         title="Choose genre"
@@ -162,6 +182,6 @@ export default function GenreSearchButton({
           setPickerCandidates([])
         }}
       />
-    </>
-  )
+    ),
+  })
 }

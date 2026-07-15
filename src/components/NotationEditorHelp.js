@@ -299,7 +299,7 @@ export default function NotationEditorHelp(props) {
           <section id="notation-help-tuplets" className="help-section">
             <h2>Tuplets & grace notes</h2>
             <div className="help-section-body">
-              <p>The <strong>(3</strong> tuplets button starts triplet input mode; new notes inherit tuplet timing until the group is complete or you end tuplet mode. With two or more notes selected, the same control applies the tuplet to the selection instead.</p>
+              <p>The <strong>(3</strong> tuplets button starts triplet input mode; new notes inherit tuplet timing until the group is complete or you end tuplet mode. With two or more notes selected, the same control applies the tuplet to the selection instead. <strong>End tuplet mode</strong> (or click the active (3 button again) clears insert mode and removes the tuplet from the selection / active group.</p>
               <ul>
                 <li>Choose duplet, triplet, quadruplet, quintuplet, or sextuplet from the menu.</li>
                 <li><strong>Break beam before selection</strong> (Tools or Tuplets menu) inserts an ABC beam break before the second and later selected notes.</li>

@@ -12,6 +12,8 @@ import {
   applyTupletToSelection,
   setBeamBreakBeforeSelection,
   reassignSlurEndpoints,
+  findSlurGroupForSelection,
+  clearTupletModeAndSelection,
 } from './notationMarks';
 import { insertPitchAtCaret, pitchFromLetter } from './notationActions';
 import { createInitialSession } from './notationSession';
@@ -37,6 +39,14 @@ describe('voiceEventModel extended', function() {
     const notes = events.filter(function(ev) { return ev.type === 'note'; });
     expect(notes[0].slurStart).toBe(true);
     expect(notes[2].slurEnd).toBe(true);
+  });
+
+  test('parsed slur stamps groupId on middle notes', function() {
+    const events = parseVoiceEvents('(cde) |', meta);
+    const notes = events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notes[0].slurGroupId).toBeTruthy();
+    expect(notes[1].slurGroupId).toBe(notes[0].slurGroupId);
+    expect(notes[2].slurGroupId).toBe(notes[0].slurGroupId);
   });
 
   test('parses tuplet', function() {
@@ -230,5 +240,49 @@ describe('notationMarks', function() {
     expect(session.events[0].slurStart).toBe(true);
     expect(session.events[3].slurEnd).toBe(true);
     expect(session.events[2].slurEnd).toBe(false);
+  });
+
+  test('findSlurGroupForSelection works from any member of parsed slur', function() {
+    let session = createInitialSession(meta, '(cde) |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: { eventIds: [notes[1].id], toneIndex: null, anchorId: notes[1].id },
+    });
+    const group = findSlurGroupForSelection(session);
+    expect(group).toBeTruthy();
+    expect(group.startId).toBe(notes[0].id);
+    expect(group.endId).toBe(notes[2].id);
+  });
+
+  test('clearTupletModeAndSelection clears mode and selection group', function() {
+    let session = createInitialSession(meta, 'c d e |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      selection: {
+        eventIds: [notes[0].id, notes[1].id, notes[2].id],
+        toneIndex: null,
+        anchorId: notes[0].id,
+      },
+    });
+    session = applyTupletToSelection(session, { num: 3, den: 2, size: 3 });
+    expect(session.events[0].tuplet).toBeTruthy();
+    session = Object.assign({}, session, {
+      selection: { eventIds: [notes[1].id], toneIndex: null, anchorId: notes[1].id },
+      tupletMode: { num: 3, den: 2, groupId: 'open', notesEntered: 1, size: 3 },
+    });
+    session = clearTupletModeAndSelection(session);
+    expect(session.tupletMode).toBeNull();
+    expect(session.events[0].tuplet).toBeNull();
+    expect(session.events[2].tuplet).toBeNull();
+  });
+
+  test('parses finger decorations round-trip', function() {
+    const events = parseVoiceEvents('!1!c !3!d |', meta);
+    const notes = events.filter(function(ev) { return ev.type === 'note'; });
+    expect(notes[0].decorations).toContain('finger1');
+    expect(notes[1].decorations).toContain('finger3');
+    const abc = serializeVoiceEvents(events, meta);
+    expect(abc).toMatch(/!1!/);
+    expect(abc).toMatch(/!3!/);
   });
 });

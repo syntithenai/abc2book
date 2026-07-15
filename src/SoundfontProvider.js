@@ -47,8 +47,12 @@ class SoundfontProvider extends React.Component {
       format: this.props.format,
       soundfont: this.props.soundfont,
       nameToUrl: (name, soundfont, format) => {
-        // Normalize hostname to avoid double slashes when joining paths
+        // Normalize hostname to avoid double slashes when joining paths.
+        // Host may already include the bank (selection/) or just midi-js-soundfonts/.
         const host = (this.props.hostname || '').replace(/\/+$/g, '');
+        if (host.endsWith('/' + soundfont) || host.endsWith(soundfont)) {
+          return `${host}/${name}-${format}.js`;
+        }
         return `${host}/${soundfont}/${name}-${format}.js`;
       },
     }).then(instrument => {

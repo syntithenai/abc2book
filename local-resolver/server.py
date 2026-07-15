@@ -16,11 +16,21 @@ from playback_region_detect import (
     detect_playback_region_from_wav,
 )
 from tune_background_research import research_tune_background
+from feed_generation import generate_feed_articles, generate_feed_quizzes
+from feed_source_scrape import enrich_feed_sources
 from composer_discovery import discover_composer
 from sheet_image_features import sheet_image_features
+from soundfont_download import (
+    get_soundfont_status,
+    resolve_musyngkite_file,
+    soundfonts_serving_available,
+    start_soundfont_download_background,
+)
 from subprocess_utils import (
     ClientDisconnected,
+    HeavyJobQueueFull,
     heavy_job_slot,
+    heavy_jobs_status,
     run_subprocess_with_disconnect,
     terminate_subprocess_tree,
 )
@@ -49,11 +59,25 @@ from fastapi.responses import FileResponse, JSONResponse, Response, StreamingRes
 
 app = FastAPI()
 
-ALLOWED_EMAILS = {
-    email.strip().lower()
-    for email in os.getenv("ALLOWED_EMAILS", "").split(",")
-    if email.strip()
-}
+from allowlists import (
+    email_allowed,
+    load_embedded_creds_emails,
+    load_free_access_emails,
+)
+from providers import (
+    host_embedded_providers,
+    parse_overlay_header,
+    parse_providers_body,
+    providers_health_payload,
+    public_provider_summary,
+    resolve_provider,
+)
+
+# Free access to this host's media / heavy ML. FREE_ACCESS_EMAILS preferred;
+# ALLOWED_EMAILS kept as legacy alias (see allowlists.load_free_access_emails).
+ALLOWED_EMAILS = load_free_access_emails()
+FREE_ACCESS_EMAILS = ALLOWED_EMAILS
+EMBEDDED_CREDS_EMAILS = load_embedded_creds_emails()
 ALLOWED_ORIGINS = [
     origin.strip()
     for origin in os.getenv("ALLOWED_ORIGINS", "").split(",")
@@ -63,8 +87,20 @@ GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "").strip()
 AUTH_SESSION_SECRET = os.getenv("AUTH_SESSION_SECRET", "").strip()
 REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "false").lower() in ("1", "true", "yes")
+# When true, this process is a slim Cloud Run / light gateway: no local Whisper/Demucs/OCR.
+RESOLVER_LIGHT_MODE = os.getenv("RESOLVER_LIGHT_MODE", "false").lower() in ("1", "true", "yes")
 YTDLP_COOKIES_PATH = os.getenv("YTDLP_COOKIES_PATH", "")
 YTDLP_COOKIES_WRITABLE = "/tmp/youtube-cookies.txt"
+# Operator-hosted residential/egress proxy for yt-dlp (home). Prefer user Webshare on light gateways.
+YTDLP_PROXY = os.getenv("YTDLP_PROXY", "").strip()
+# When true (default in RESOLVER_LIGHT_MODE), /youtube requires X-Tunebook-Ytdlp-Proxy or YTDLP_PROXY.
+_ytdlp_require_raw = os.getenv("YTDLP_REQUIRE_USER_PROXY", "").strip().lower()
+if _ytdlp_require_raw in ("1", "true", "yes"):
+    YTDLP_REQUIRE_USER_PROXY = True
+elif _ytdlp_require_raw in ("0", "false", "no"):
+    YTDLP_REQUIRE_USER_PROXY = False
+else:
+    YTDLP_REQUIRE_USER_PROXY = RESOLVER_LIGHT_MODE
 MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
 MAX_ABC_IMPORT_BYTES = int(os.getenv("MAX_ABC_IMPORT_BYTES", str(512 * 1024)))
 MAX_SHEET_IMAGE_BYTES = int(os.getenv("MAX_SHEET_IMAGE_BYTES", str(20 * 1024 * 1024)))
@@ -159,7 +195,11 @@ def cors_headers(origin):
     return {
         "Access-Control-Allow-Origin": allow_origin,
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Authorization, Content-Type, Range, X-Abc-Auth-Session",
+        "Access-Control-Allow-Headers": (
+            "Authorization, Content-Type, Range, X-Abc-Auth-Session, "
+            "X-Tunebook-Ytdlp-Proxy, X-Tunebook-Provider-llm, "
+            "X-Tunebook-Provider-whisper, X-Tunebook-Provider-ocr"
+        ),
         "Access-Control-Expose-Headers": "Content-Length, Content-Range, Accept-Ranges, Content-Type",
     }
 
@@ -223,6 +263,16 @@ def resolve_static_file(relative_path):
         relative_path = "index.html"
     if is_sensitive_static_path(relative_path):
         return None
+
+    # Unified MusyngKite path: embed selection/abcjs first, then volume cache.
+    musyng_prefix = "midi-js-soundfonts/MusyngKite/"
+    if relative_path == "midi-js-soundfonts/MusyngKite" or relative_path.startswith(musyng_prefix):
+        under_bank = relative_path[len(musyng_prefix):] if relative_path.startswith(musyng_prefix) else ""
+        if under_bank:
+            overlay = resolve_musyngkite_file(under_bank, root)
+            if overlay:
+                return overlay
+
     candidate = os.path.normpath(os.path.join(root, relative_path))
     root_prefix = root + os.sep
     if candidate != root and not candidate.startswith(root_prefix):
@@ -236,8 +286,11 @@ def static_file_headers(origin, file_path):
     headers = cors_headers(origin)
     if os.path.basename(file_path) == "sw.js":
         headers["Service-Worker-Allowed"] = "/"
-    if file_path.lower().endswith((".jpg", ".jpeg", ".gif", ".png", ".webp", ".ico")):
+    lower = file_path.lower()
+    if lower.endswith((".jpg", ".jpeg", ".gif", ".png", ".webp", ".ico")):
         headers["Cache-Control"] = "max-age=7200"
+    elif lower.endswith((".mp3", ".js")) and "midi-js-soundfonts" in lower.replace("\\", "/"):
+        headers["Cache-Control"] = "public, max-age=86400"
     return headers
 
 
@@ -246,11 +299,31 @@ def static_file_response(origin, relative_path):
     if not resolved:
         return None
     media_type, _encoding = mimetypes.guess_type(resolved)
+    if resolved.lower().endswith(".mp3") and not media_type:
+        media_type = "audio/mpeg"
     return FileResponse(
         resolved,
         media_type=media_type or "application/octet-stream",
         headers=static_file_headers(origin, resolved),
     )
+
+
+def soundfont_health_fields():
+    status = get_soundfont_status()
+    progress = {
+        "downloaded": int(status.get("downloaded") or 0),
+        "total": int(status.get("total") or 0),
+    }
+    if progress["total"] > 0:
+        progress["fraction"] = round(progress["downloaded"] / progress["total"], 4)
+    else:
+        progress["fraction"] = 1.0 if status.get("ready") else 0.0
+    return {
+        "soundfontsReady": bool(status.get("ready")),
+        "soundfontsProgress": progress,
+        "soundfontsRunning": bool(status.get("running")),
+        "soundfontsError": status.get("error"),
+    }
 
 
 def json_error(status, message, origin, hint=None):
@@ -295,6 +368,12 @@ async def http_exception_handler(request: Request, exc: HTTPException):
     return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.exception_handler(HeavyJobQueueFull)
+async def heavy_job_queue_full_handler(request: Request, exc: HeavyJobQueueFull):
+    origin = request.headers.get("origin")
+    return json_error(503, str(exc), origin)
+
+
 @app.exception_handler(Exception)
 async def unhandled_exception_handler(request: Request, exc: Exception):
     origin = request.headers.get("origin")
@@ -308,6 +387,7 @@ async def verify_autochord_runtime():
     if not os.path.exists(autochord_python):
         print(f"WARNING: autochord python not found at {autochord_python}")
     asyncio.create_task(_probe_llm_available())
+    start_soundfont_download_background()
 
 
 def _proxy_available():
@@ -315,19 +395,60 @@ def _proxy_available():
 
 
 def _stems_available():
+    if RESOLVER_LIGHT_MODE:
+        return False
     return STEMS_ENABLED and _proxy_available()
 
 
-def _whisper_runtime_available():
+def _whisper_local_available():
+    if RESOLVER_LIGHT_MODE:
+        return False
     if not WHISPER_ENABLED:
         return False
     return os.path.isfile(WHISPER_CPP_PATH) and os.path.isfile(MODEL_PATH)
 
 
+def _whisper_cloud_configured():
+    return "whisper" in host_embedded_providers()
+
+
+def _whisper_runtime_available():
+    """Whisper on when local binary, host cloud provider, or overlays accepted (WHISPER_ENABLED)."""
+    if _whisper_local_available() or _whisper_cloud_configured():
+        return True
+    return bool(WHISPER_ENABLED)
+
+
 def _llm_runtime_available():
+    if not LLM_ENABLED and "llm" not in host_embedded_providers():
+        return False
+    if "llm" in host_embedded_providers():
+        return True
     if not LLM_ENABLED:
         return False
     return _llm_available_cache
+
+
+def _ocr_local_available():
+    if RESOLVER_LIGHT_MODE:
+        return False
+    try:
+        features = sheet_image_features()
+        return bool(SHEET_IMAGE_ENABLED and features.get("ocr"))
+    except Exception:
+        return False
+
+
+def _ocr_cloud_configured():
+    return "ocr" in host_embedded_providers()
+
+
+def local_provider_backends():
+    return {
+        "llm": bool(LLM_ENABLED and _llm_available_cache and not RESOLVER_LIGHT_MODE),
+        "whisper": _whisper_local_available(),
+        "ocr": _ocr_local_available(),
+    }
 
 
 def _practice_analysis_available():
@@ -384,7 +505,45 @@ def oauth_bff_available():
         return False
 
 
+def _youtube_audio_feature_flags():
+    """Advertise whether this host can return YouTube audio bytes for DSP/cache."""
+    proxy_ok = _proxy_available()
+    require_egress = bool(YTDLP_REQUIRE_USER_PROXY)
+    host_has_egress = bool(YTDLP_PROXY)
+    youtube_audio = False
+    if proxy_ok:
+        if not require_egress:
+            youtube_audio = True
+        elif host_has_egress:
+            youtube_audio = True
+        # else: only with per-request user Webshare (SPA feature.youtubeEgressRequired)
+    return {
+        "youtubeAudio": youtube_audio,
+        "youtubeEgressRequired": require_egress and not host_has_egress,
+    }
+
+
 def resolver_features():
+    yt_flags = _youtube_audio_feature_flags()
+    if RESOLVER_LIGHT_MODE:
+        # Slim Cloud Run / light gateway: provider-proxy capabilities only.
+        return {
+            "proxy": _proxy_available(),
+            "stems": False,
+            "whisper": _whisper_runtime_available(),
+            "llm": _llm_runtime_available(),
+            "practiceAnalysis": False,
+            "sheetImage": bool(_ocr_cloud_configured()),
+            "sheetImageOcr": bool(_ocr_cloud_configured()),
+            "sheetImageOmr": False,
+            "imageSearch": False,
+            "playwright": False,
+            "oauthBff": oauth_bff_available(),
+            "soundfonts": False,
+            "lightMode": True,
+            "youtubeAudio": yt_flags["youtubeAudio"],
+            "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
+        }
     features = sheet_image_features()
     playwright_ok = False
     try:
@@ -399,12 +558,18 @@ def resolver_features():
         "whisper": _whisper_runtime_available(),
         "llm": _llm_runtime_available(),
         "practiceAnalysis": _practice_analysis_available(),
-        "sheetImage": bool(SHEET_IMAGE_ENABLED and features.get("available")),
-        "sheetImageOcr": bool(features.get("ocr")),
+        "sheetImage": bool(
+            (SHEET_IMAGE_ENABLED and features.get("available")) or _ocr_cloud_configured()
+        ),
+        "sheetImageOcr": bool(features.get("ocr") or _ocr_cloud_configured()),
         "sheetImageOmr": bool(features.get("omr")),
         "imageSearch": image_search_available(),
         "playwright": playwright_ok,
         "oauthBff": oauth_bff_available(),
+        "soundfonts": soundfonts_serving_available(),
+        "lightMode": False,
+        "youtubeAudio": yt_flags["youtubeAudio"],
+        "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
     }
 
 
@@ -449,7 +614,14 @@ async def verify_google_access_token(access_token):
             except Exception:
                 pass
 
-        return {"email": email, "allowed": email in ALLOWED_EMAILS}
+        free = email_allowed(FREE_ACCESS_EMAILS, email)
+        embedded = email_allowed(EMBEDDED_CREDS_EMAILS, email)
+        return {
+            "email": email,
+            "allowed": free,
+            "freeAccess": free,
+            "embeddedCreds": embedded,
+        }
 
 
 async def require_auth(authorization):
@@ -470,6 +642,71 @@ async def maybe_require_auth(authorization):
     if not REQUIRE_AUTH:
         return None
     return await require_auth(authorization)
+
+
+def auth_access_flags(verified):
+    """Normalize freeAccess / embeddedCreds from require_auth result or anonymous."""
+    if not verified:
+        # Auth off (trusted LAN / personal): full access including host-embedded keys.
+        if not REQUIRE_AUTH:
+            return {"freeAccess": True, "embeddedCreds": True}
+        return {"freeAccess": False, "embeddedCreds": False}
+    return {
+        "freeAccess": bool(verified.get("freeAccess")),
+        "embeddedCreds": bool(verified.get("embeddedCreds")),
+    }
+
+
+async def resolve_request_provider(capability, request, verified, local_available):
+    """Resolve provider for this request from header / body overlay then host / local."""
+    flags = auth_access_flags(verified)
+    overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-" + capability))
+    if overlay is None and request.method in ("POST", "PUT", "PATCH"):
+        # Best-effort: do not consume body here if already read; callers can pass body overlays.
+        pass
+    return resolve_provider(
+        capability,
+        overlay=overlay,
+        allow_embedded=flags["embeddedCreds"],
+        local_available=local_available,
+    )
+
+
+def build_auth_health_fields(verified_or_none, token_present, verified_failed):
+    """Shared authorized / freeAccess / embeddedCreds for /health responses."""
+    fields = {}
+    if not REQUIRE_AUTH:
+        flags = auth_access_flags(None)
+        fields["authorized"] = True
+        fields["freeAccess"] = flags["freeAccess"]
+        fields["embeddedCreds"] = flags["embeddedCreds"]
+        return fields
+
+    if not token_present:
+        fields["authorized"] = False
+        fields["authReason"] = "login_required"
+        fields["freeAccess"] = False
+        fields["embeddedCreds"] = False
+        return fields
+
+    if verified_failed or not verified_or_none:
+        fields["authorized"] = False
+        fields["authReason"] = "invalid_token"
+        fields["freeAccess"] = False
+        fields["embeddedCreds"] = False
+        return fields
+
+    if not verified_or_none.get("allowed"):
+        fields["authorized"] = False
+        fields["authReason"] = "email_not_authorized"
+        fields["freeAccess"] = False
+        fields["embeddedCreds"] = bool(verified_or_none.get("embeddedCreds"))
+        return fields
+
+    fields["authorized"] = True
+    fields["freeAccess"] = bool(verified_or_none.get("freeAccess"))
+    fields["embeddedCreds"] = bool(verified_or_none.get("embeddedCreds"))
+    return fields
 
 
 def is_blocked_host(hostname):
@@ -541,7 +778,7 @@ def prepare_ytdlp_cookies_path():
     return YTDLP_COOKIES_WRITABLE
 
 
-def build_ytdlp_cmd(video_id, stream_to_stdout=False):
+def build_ytdlp_cmd(video_id, stream_to_stdout=False, proxy=None):
     cmd = [
         "yt-dlp",
         "--no-playlist",
@@ -554,6 +791,10 @@ def build_ytdlp_cmd(video_id, stream_to_stdout=False):
     if cookies_path:
         cmd.extend(["--cookies", cookies_path])
 
+    effective_proxy = (proxy or "").strip() or YTDLP_PROXY
+    if effective_proxy:
+        cmd.extend(["--proxy", effective_proxy])
+
     if stream_to_stdout:
         cmd.extend(["-o", "-"])
     else:
@@ -561,6 +802,28 @@ def build_ytdlp_cmd(video_id, stream_to_stdout=False):
 
     cmd.append("https://www.youtube.com/watch?v=" + video_id)
     return cmd
+
+
+def resolve_ytdlp_proxy_from_request(request: Request | None) -> str:
+    if request is None:
+        return YTDLP_PROXY
+    header = (request.headers.get("x-tunebook-ytdlp-proxy") or "").strip()
+    return header or YTDLP_PROXY
+
+
+def ensure_youtube_egress_allowed(proxy: str) -> None:
+    """Light / Cloud Run gateways must not pull YouTube on datacenter IPs alone."""
+    if not YTDLP_REQUIRE_USER_PROXY:
+        return
+    if (proxy or "").strip():
+        return
+    raise HTTPException(
+        status_code=503,
+        detail=(
+            "YouTube audio requires a residential proxy. "
+            "Set Webshare (or similar) in Settings → Providers, or use the YouTube Helper extension / a home resolver."
+        ),
+    )
 
 
 def ytdlp_error_hint(stderr_text):
@@ -610,8 +873,8 @@ def extract_youtube_video_id(raw_value):
     return None
 
 
-async def stream_youtube_via_ytdlp(video_id):
-    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True)
+async def stream_youtube_via_ytdlp(video_id, proxy=None):
+    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True, proxy=proxy)
 
     proc = await asyncio.create_subprocess_exec(
         *cmd,
@@ -649,8 +912,8 @@ async def stream_youtube_via_ytdlp(video_id):
     ), None
 
 
-async def fetch_youtube_audio_bytes(video_id):
-    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True)
+async def fetch_youtube_audio_bytes(video_id, proxy=None):
+    cmd = build_ytdlp_cmd(video_id, stream_to_stdout=True, proxy=proxy)
     proc = await asyncio.create_subprocess_exec(
         *cmd,
         stdout=asyncio.subprocess.PIPE,
@@ -983,9 +1246,31 @@ async def _run_whisper_cli(temp_audio_path, backend, request, whisper_options=No
     return returncode, stdout_text, stderr_text, backend
 
 
-async def forward_to_whisper(audio_bytes, filename, content_type, request):
+async def forward_to_whisper(audio_bytes, filename, content_type, request, provider_cfg=None):
     if not audio_bytes:
         return {"text": "", "segments": [], "language": "", "backend": "none"}
+
+    # Cloud / OpenAI-compatible path when active provider is not local.
+    if provider_cfg and provider_cfg.get("provider") != "local" and provider_cfg.get("apiUrl"):
+        try:
+            from provider_cloud import transcribe_openai_compat
+
+            return await transcribe_openai_compat(
+                audio_bytes,
+                filename,
+                content_type,
+                provider_cfg,
+                timeout=WHISPER_TIMEOUT_SECONDS,
+            )
+        except Exception as exc:
+            raise HTTPException(status_code=502, detail=str(exc).strip()[:500]) from exc
+
+    if RESOLVER_LIGHT_MODE or not _whisper_local_available():
+        raise HTTPException(
+            status_code=503,
+            detail="Local Whisper is not available; configure a Whisper provider",
+        )
+
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
 
     async with heavy_job_slot():
@@ -1924,29 +2209,39 @@ async def root(request: Request):
 async def health(request: Request, authorization: str | None = Header(default=None)):
     """Cheap liveness probe — must stay fast so static imports work under ML load."""
     oauth_bff = oauth_bff_available()
+    token = get_bearer_token(authorization)
+    verified = None
+    verified_failed = False
+    if token:
+        verified = await verify_google_access_token(token)
+        verified_failed = verified is None
+
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "staticSite": static_site_enabled(),
-        # Top-level so auth selection works without sending a full features map
-        # (a partial features object would zero-out media capabilities in the SPA).
+        "lightMode": RESOLVER_LIGHT_MODE,
+        # Top-level oauthBff for auth selection; full features map so SPA
+        # discovery does not assume ALL_RESOLVER_FEATURES for legacy bodies.
         "oauthBff": oauth_bff,
+        "features": resolver_features(),
     }
-    if REQUIRE_AUTH:
-        token = get_bearer_token(authorization)
-        if not token:
-            body["authorized"] = False
-            body["authReason"] = "login_required"
-        else:
-            verified = await verify_google_access_token(token)
-            if not verified:
-                body["authorized"] = False
-                body["authReason"] = "invalid_token"
-            elif not verified["allowed"]:
-                body["authorized"] = False
-                body["authReason"] = "email_not_authorized"
-            else:
-                body["authorized"] = True
+    body.update(soundfont_health_fields())
+    body.update(build_auth_health_fields(verified, bool(token), verified_failed))
+    flags = {
+        "freeAccess": body.get("freeAccess", False),
+        "embeddedCreds": body.get("embeddedCreds", False),
+    }
+    if not REQUIRE_AUTH:
+        flags = auth_access_flags(None)
+        body["freeAccess"] = flags["freeAccess"]
+        body["embeddedCreds"] = flags["embeddedCreds"]
+        body["authorized"] = True
+    body["providers"] = providers_health_payload(
+        allow_embedded=bool(flags.get("embeddedCreds")),
+        local_backends=local_provider_backends(),
+    )
+    body["heavyJobs"] = heavy_jobs_status()
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 
@@ -1955,30 +2250,39 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     """Deep readiness probe with feature detection and optional LLM check."""
     await _refresh_llm_health_if_stale()
     features = resolver_features()
+    token = get_bearer_token(authorization)
+    verified = None
+    verified_failed = False
+    if token:
+        verified = await verify_google_access_token(token)
+        verified_failed = verified is None
+
     body = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
+        "lightMode": RESOLVER_LIGHT_MODE,
         "demucsModel": os.getenv("MELODY_DEMUCS_MODEL", "htdemucs"),
         "demucsStems": list(_demucs_stems_for_model()),
         "features": features,
         "oauthBff": bool(features.get("oauthBff")),
         "staticSite": static_site_enabled(),
     }
-    if REQUIRE_AUTH:
-        token = get_bearer_token(authorization)
-        if not token:
-            body["authorized"] = False
-            body["authReason"] = "login_required"
-        else:
-            verified = await verify_google_access_token(token)
-            if not verified:
-                body["authorized"] = False
-                body["authReason"] = "invalid_token"
-            elif not verified["allowed"]:
-                body["authorized"] = False
-                body["authReason"] = "email_not_authorized"
-            else:
-                body["authorized"] = True
+    body.update(soundfont_health_fields())
+    body.update(build_auth_health_fields(verified, bool(token), verified_failed))
+    flags = {
+        "freeAccess": body.get("freeAccess", False),
+        "embeddedCreds": body.get("embeddedCreds", False),
+    }
+    if not REQUIRE_AUTH:
+        flags = auth_access_flags(None)
+        body["freeAccess"] = flags["freeAccess"]
+        body["embeddedCreds"] = flags["embeddedCreds"]
+        body["authorized"] = True
+    body["providers"] = providers_health_payload(
+        allow_embedded=bool(flags.get("embeddedCreds")),
+        local_backends=local_provider_backends(),
+    )
+    body["heavyJobs"] = heavy_jobs_status()
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
 
 
@@ -2100,7 +2404,9 @@ async def youtube_audio(
         await maybe_require_auth(authorization)
         await require_resolver_feature("proxy")
         track_resolver_usage('youtube-audio')
-        response, error = await stream_youtube_via_ytdlp(video_id)
+        proxy = resolve_ytdlp_proxy_from_request(request)
+        ensure_youtube_egress_allowed(proxy)
+        response, error = await stream_youtube_via_ytdlp(video_id, proxy=proxy)
         if error:
             status = 400 if error == "Invalid YouTube video id" else 502
             return json_error(status, "Could not resolve YouTube audio stream", origin, error)
@@ -2306,7 +2612,7 @@ async def transcribe(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("whisper")
         track_resolver_usage('transcribe')
 
@@ -2350,7 +2656,15 @@ async def transcribe(
         if len(audio_bytes) > MAX_STREAM_BYTES:
             return json_error(413, "Media file too large", origin)
 
-        body = await forward_to_whisper(audio_bytes, filename, content_type, request)
+        provider_cfg = await resolve_request_provider(
+            "whisper",
+            request,
+            verified,
+            local_available=_whisper_local_available(),
+        )
+        body = await forward_to_whisper(
+            audio_bytes, filename, content_type, request, provider_cfg=provider_cfg
+        )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -3110,6 +3424,75 @@ async def research_tune_background_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.post("/generate-feed-articles")
+async def generate_feed_articles_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("llm")
+        track_resolver_usage("generate-feed-articles")
+        payload = await request.json()
+        body = await generate_feed_articles(
+            str(payload.get("title") or "").strip(),
+            str(payload.get("artist") or "").strip(),
+            payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+            str(payload.get("backgroundInfo") or ""),
+        )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/generate-feed-quizzes")
+async def generate_feed_quizzes_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        await require_resolver_feature("llm")
+        track_resolver_usage("generate-feed-quizzes")
+        payload = await request.json()
+        body = await generate_feed_quizzes(
+            str(payload.get("title") or "").strip(),
+            str(payload.get("artist") or "").strip(),
+            payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+            str(payload.get("backgroundInfo") or ""),
+        )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/enrich-feed-sources")
+async def enrich_feed_sources_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage("enrich-feed-sources")
+        payload = await request.json()
+        body = await enrich_feed_sources(
+            str(payload.get("title") or "").strip(),
+            str(payload.get("artist") or "").strip(),
+        )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.post("/discover-composer")
 async def discover_composer_endpoint(
     request: Request,
@@ -3746,7 +4129,7 @@ async def transcribe_sheet_image(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         await require_resolver_feature("sheetImage")
         track_resolver_usage("transcribe-sheet-image")
 
@@ -3763,6 +4146,18 @@ async def transcribe_sheet_image(
                 "Image file too large (limit is " + str(MAX_SHEET_IMAGE_BYTES) + " bytes)",
                 origin,
             )
+
+        provider_cfg = await resolve_request_provider(
+            "ocr",
+            request,
+            verified,
+            local_available=_ocr_local_available(),
+        )
+        if provider_cfg and provider_cfg.get("provider") != "local" and provider_cfg.get("apiUrl"):
+            from provider_cloud import ocr_openai_vision
+
+            body = await ocr_openai_vision(image_bytes, filename, provider_cfg)
+            return JSONResponse(content=body, headers=cors_headers(origin))
 
         title_hint_list: list[str] | None = None
         if titleHints:

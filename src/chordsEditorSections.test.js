@@ -117,6 +117,8 @@ describe('chordsEditorSections', function() {
     const withBridge = insertChordsEditorSectionAfter(sections, 'intro-0', 'Bridge', '4/4');
     expect(withBridge.map(function(s) { return s.title; })).toEqual(['Intro', 'Bridge', 'Verse', 'Outro']);
     expect(withBridge[1].chart).toBe('');
+    expect(withBridge[1].needsAbcExpand).toBe(true);
+    expect(withBridge[1].melodyStrainIndex).toBe(-1);
     const removedFirst = removeChordsEditorSection(withBridge, withBridge[0].key);
     expect(removedFirst.map(function(s) { return s.title; })).toEqual(['Bridge', 'Verse', 'Outro']);
     expect(removedFirst[0].title).toBe('Bridge');

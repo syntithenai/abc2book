@@ -11,6 +11,7 @@ import GenreSuggestionOffer from './GenreSuggestionOffer'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import { buildSuggestionsDropdown, renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import {
   buildGenreSearchContext,
   inferGenreFromSearchContext,
@@ -39,6 +40,7 @@ export default function ChordsSearchButton({
   tunebook,
   book,
   resolverAvailable: resolverAvailableProp,
+  children,
 }) {
   const [error, setError] = useState('')
   const [updateLyrics, setUpdateLyrics] = useState(forceUpdateLyrics || defaultUpdateLyrics)
@@ -213,160 +215,177 @@ export default function ChordsSearchButton({
     runSearch(pendingModeRef.current)
   }
 
-  return (
-    <div className="chords-search-button" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-      <ButtonGroup className="chords-search-button-group">
-        <FieldLookupButtonGroup
-          automaticLookup={automaticLookup}
-          showExternal={!automaticLookup}
-          busy={busy}
-          disabled={!canSearch || disabled}
-          externalUrl={googleUrl}
-          externalLinkIcon={externalLinkIcon}
-          inline={true}
-          onSearch={requestSearch}
-          suggestionCount={awaitingCandidates.length}
-          onClearSuggestions={clearAwaitingSuggestions}
-          onOpenSuggestions={openAwaitingSuggestions}
-          buttonStyle={buttonStyle}
-          searchIcon={searchIcon}
-          progress={lookup.progressPercent}
-        />
-        {showLyricsCheckbox && !confirmOverwrite && automaticLookup && (
-          <ToggleButton
-            id="chords-search-update-lyrics"
-            type="checkbox"
-            variant="outline-secondary"
-            value="update-lyrics"
-            checked={updateLyrics}
-            disabled={busy}
-            onChange={function(e) { setUpdateLyrics(e.currentTarget.checked) }}
-          >
-            <svg
-              viewBox="0 0 24 24"
-              width="18"
-              height="18"
-              aria-hidden="true"
-              style={{ verticalAlign: 'text-bottom', marginRight: '0.35em', opacity: updateLyrics ? 1 : 0.4 }}
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              {updateLyrics
-                ? <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zm-2.05 5.536L10.586 14.9l-2.829-2.828-1.414 1.414 4.243 4.243 7.778-7.778-1.414-1.414z" />
-                : <path fill="currentColor" d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 2v14h14V5H5z" />}
-            </svg>
-            Update lyrics
-          </ToggleButton>
-        )}
-      </ButtonGroup>
-      <SearchProgressBar
-        visible={busy}
-        percent={lookup.progressPercent}
-        message={lookup.progressMessage}
-        defaultMessage="Searching for chords..."
-      />
-      {error && (
-        <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
-          {error}
-          {error.indexOf('Ultimate Guitar blocks automated access') >= 0 ? (
-            <div style={{ marginTop: '0.5em' }}>
-              Use <strong>Paste chord sheet</strong> in the chord editor to import copied Ultimate Guitar text.
-            </div>
-          ) : null}
-          {error.indexOf('No chord sheet found in local collections') >= 0 ? (
-            <div style={{ marginTop: '0.5em' }}>
-              Ultimate Guitar and similar sites need the media resolver, or paste the chord sheet manually.
-            </div>
-          ) : null}
-          {(resolverAvailable || error.indexOf('Could not reach') >= 0 || error === 'Network Error') && (
-            <div style={{ marginTop: '0.5em' }}>
-              <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
-              {error.indexOf('Could not reach') >= 0 || error === 'Network Error' ? (
-                <span> — or start the local resolver with <code>cd local-resolver &amp;&amp; docker compose up</code></span>
-              ) : null}
-            </div>
-          )}
-        </Alert>
-      )}
-      <ManualCandidatesFeedback
-        message="No importable match found"
-        manualCandidates={manualCandidates}
-        tunebook={tunebook}
-        onSelectCandidate={function(candidate) {
-          setLockedModalCandidate(candidate)
-        }}
-      />
-
-      <GenreSuggestionOffer
-        suggestion={genreSuggestion}
-        onAccept={function(genre) {
-          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-          setGenreSuggestion(null)
-        }}
-        onDismiss={function() { setGenreSuggestion(null) }}
-      />
-
-      <SearchResultPickerModal
-        show={showPicker}
-        title="Choose chord sheet"
-        items={pickerCandidates}
-        fallbackTitle={title}
-        emptyMessage="No chord sheets were found."
-        onSelect={chooseChordCandidate}
-        onHide={function() {
-          setShowPicker(false)
-          setPickerCandidates([])
-        }}
-      />
-
-      <LockedSourcePasteModal
-        show={!!lockedModalCandidate}
-        onHide={function() { setLockedModalCandidate(null) }}
-        candidate={lockedModalCandidate}
-        searchTitle={title}
-        searchArtist={artist}
-        tunebook={tunebook}
-        abcjsParser={abcjsParser}
-        book={book}
-        icons={tunebook && tunebook.icons}
-      />
-
-      <Modal
-        show={showOverwriteConfirm}
-        onHide={function() { setShowOverwriteConfirm(false) }}
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>Replace chords from search?</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Alert variant="warning" className="mb-3">
-            Continuing will <strong>overwrite all existing notation and chords</strong> for this tune
-            with the search result.
-            {forceUpdateLyrics ? (
-              <> Lyrics will also be overwritten.</>
-            ) : null}
-          </Alert>
-          {!forceUpdateLyrics ? (
-            <Form.Check
+  return renderFieldLookupSearchUi({
+    children: children,
+    buttonGroup: (
+      <div className="chords-search-button" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <ButtonGroup className="chords-search-button-group">
+          <FieldLookupButtonGroup
+            automaticLookup={automaticLookup}
+            showExternal={!automaticLookup}
+            busy={busy}
+            disabled={!canSearch || disabled}
+            externalUrl={googleUrl}
+            externalLinkIcon={externalLinkIcon}
+            inline={true}
+            onSearch={requestSearch}
+            buttonStyle={buttonStyle}
+            searchIcon={searchIcon}
+            progress={lookup.progressPercent}
+            suggestionCount={awaitingCandidates.length}
+            onClearSuggestions={clearAwaitingSuggestions}
+            onOpenSuggestions={openAwaitingSuggestions}
+          />
+          {showLyricsCheckbox && !confirmOverwrite && automaticLookup && (
+            <ToggleButton
+              id="chords-search-update-lyrics"
               type="checkbox"
-              id="chords-search-confirm-update-lyrics"
-              label="Also overwrite lyrics"
-              checked={confirmUpdateLyrics}
-              onChange={function(e) {
-                setConfirmUpdateLyrics(!!e.target.checked)
-              }}
-            />
-          ) : null}
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={function() { setShowOverwriteConfirm(false) }}>
-            Cancel
-          </Button>
-          <Button variant="danger" onClick={confirmOverwriteAndSearch}>
-            Continue
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </div>
-  )
+              variant="outline-secondary"
+              value="update-lyrics"
+              checked={updateLyrics}
+              disabled={busy}
+              onChange={function(e) { setUpdateLyrics(e.currentTarget.checked) }}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="18"
+                height="18"
+                aria-hidden="true"
+                style={{ verticalAlign: 'text-bottom', marginRight: '0.35em', opacity: updateLyrics ? 1 : 0.4 }}
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                {updateLyrics
+                  ? <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14zm-2.05 5.536L10.586 14.9l-2.829-2.828-1.414 1.414 4.243 4.243 7.778-7.778-1.414-1.414z" />
+                  : <path fill="currentColor" d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 2v14h14V5H5z" />}
+              </svg>
+              Update lyrics
+            </ToggleButton>
+          )}
+        </ButtonGroup>
+        <SearchProgressBar
+          visible={busy}
+          percent={lookup.progressPercent}
+          message={lookup.progressMessage}
+          defaultMessage="Searching for chords..."
+        />
+      </div>
+    ),
+    suggestionsDropdown: buildSuggestionsDropdown({
+      items: awaitingCandidates,
+      onClear: clearAwaitingSuggestions,
+      onSelect: chooseChordCandidate,
+      getLabel: function(candidate) {
+        const t = candidate && candidate.title ? candidate.title : (title || 'Chords')
+        const src = candidate && candidate.source ? candidate.source : ''
+        return src ? (t + ' · ' + src) : t
+      },
+    }),
+    errorNode: (
+      <>
+        {error && (
+          <Alert variant="danger" style={{ marginTop: '0.75em', clear: 'both' }}>
+            {error}
+            {error.indexOf('Ultimate Guitar blocks automated access') >= 0 ? (
+              <div style={{ marginTop: '0.5em' }}>
+                Use <strong>Paste chord sheet</strong> in the chord editor to import copied Ultimate Guitar text.
+              </div>
+            ) : null}
+            {error.indexOf('No chord sheet found in local collections') >= 0 ? (
+              <div style={{ marginTop: '0.5em' }}>
+                Ultimate Guitar and similar sites need the media resolver, or paste the chord sheet manually.
+              </div>
+            ) : null}
+            {(resolverAvailable || error.indexOf('Could not reach') >= 0 || error === 'Network Error') && (
+              <div style={{ marginTop: '0.5em' }}>
+                <a target="_blank" rel="noreferrer" href={googleUrl}>Open web search instead</a>
+                {error.indexOf('Could not reach') >= 0 || error === 'Network Error' ? (
+                  <span> — or start the local resolver with <code>cd local-resolver &amp;&amp; docker compose up</code></span>
+                ) : null}
+              </div>
+            )}
+          </Alert>
+        )}
+        <ManualCandidatesFeedback
+          message="No importable match found"
+          manualCandidates={manualCandidates}
+          tunebook={tunebook}
+          onSelectCandidate={function(candidate) {
+            setLockedModalCandidate(candidate)
+          }}
+        />
+        <GenreSuggestionOffer
+          suggestion={genreSuggestion}
+          onAccept={function(genre) {
+            if (typeof onGenreAccept === 'function') onGenreAccept(genre)
+            setGenreSuggestion(null)
+          }}
+          onDismiss={function() { setGenreSuggestion(null) }}
+        />
+      </>
+    ),
+    modals: (
+      <>
+        <SearchResultPickerModal
+          show={showPicker}
+          title="Choose chord sheet"
+          items={pickerCandidates}
+          fallbackTitle={title}
+          emptyMessage="No chord sheets were found."
+          onSelect={chooseChordCandidate}
+          onHide={function() {
+            setShowPicker(false)
+            setPickerCandidates([])
+          }}
+        />
+        <LockedSourcePasteModal
+          show={!!lockedModalCandidate}
+          onHide={function() { setLockedModalCandidate(null) }}
+          candidate={lockedModalCandidate}
+          searchTitle={title}
+          searchArtist={artist}
+          tunebook={tunebook}
+          abcjsParser={abcjsParser}
+          book={book}
+          icons={tunebook && tunebook.icons}
+        />
+        <Modal
+          show={showOverwriteConfirm}
+          onHide={function() { setShowOverwriteConfirm(false) }}
+          centered
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>Replace chords from search?</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Alert variant="warning" className="mb-3">
+              Continuing will <strong>overwrite all existing notation and chords</strong> for this tune
+              with the search result.
+              {forceUpdateLyrics ? (
+                <> Lyrics will also be overwritten.</>
+              ) : null}
+            </Alert>
+            {!forceUpdateLyrics ? (
+              <Form.Check
+                type="checkbox"
+                id="chords-search-confirm-update-lyrics"
+                label="Also overwrite lyrics"
+                checked={confirmUpdateLyrics}
+                onChange={function(e) {
+                  setConfirmUpdateLyrics(!!e.target.checked)
+                }}
+              />
+            ) : null}
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={function() { setShowOverwriteConfirm(false) }}>
+              Cancel
+            </Button>
+            <Button variant="danger" onClick={confirmOverwriteAndSearch}>
+              Continue
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    ),
+  })
 }

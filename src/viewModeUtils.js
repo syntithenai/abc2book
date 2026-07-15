@@ -420,12 +420,12 @@ export function defaultViewModeForTune(tune, tunebook, options) {
 export const EDITOR_VIEW_MODES = [
   { id: 'info', label: 'Info' },
   { id: 'music', label: 'Music' },
-  { id: 'pianoRoll', label: 'Piano roll' },
   { id: 'lyrics', label: 'Lyrics' },
   { id: 'chords', label: 'Chords' },
-  { id: 'notationAbc', label: 'ABC Notes' },
-  { id: 'sourceAbc', label: 'ABC Record' },
 ];
+
+/** Editor URL segments that are Music subviews (not header tabs). */
+export const EDITOR_MUSIC_SUBVIEWS = ['pianoRoll', 'notationAbc'];
 
 function isCompositeViewMode(mode) {
   if (!mode || typeof mode !== 'string') return false;
@@ -485,13 +485,16 @@ const LEGACY_EDITOR_TAB_MAP = {
   musiceditor: 'music',
   staff: 'music',
   split: 'music',
-  abc: 'sourceAbc',
+  abc: 'info',
 };
 
 export function normalizeEditorViewMode(mode) {
   if (!mode) return 'info';
-  if (LEGACY_EDITOR_TAB_MAP[mode]) return LEGACY_EDITOR_TAB_MAP[mode];
-  if (EDITOR_VIEW_MODES.some(function(entry) { return entry.id === mode; })) return mode;
+  var mapped = LEGACY_EDITOR_TAB_MAP[mode] || mode;
+  // Fold ABC Record into Info
+  if (mapped === 'sourceAbc') return 'info';
+  if (EDITOR_VIEW_MODES.some(function(entry) { return entry.id === mapped; })) return mapped;
+  if (EDITOR_MUSIC_SUBVIEWS.indexOf(mapped) !== -1) return mapped;
   return 'info';
 }
 
@@ -522,9 +525,27 @@ export function editorViewModeToNotationView(mode) {
 }
 
 export function getEditorViewModeLabel(mode) {
-  const normalized = normalizeEditorViewMode(mode);
-  const entry = EDITOR_VIEW_MODES.find(function(item) { return item.id === normalized; });
-  return entry ? entry.label : 'Info';
+  var normalized = normalizeEditorViewMode(mode);
+  var entry = EDITOR_VIEW_MODES.find(function(item) { return item.id === normalized; });
+  if (entry) return entry.label;
+  // Handle music subviews (pianoRoll, notationAbc) which are not in EDITOR_VIEW_MODES
+  if (normalized === 'pianoRoll') return 'Piano roll';
+  if (normalized === 'notationAbc') return 'ABC Notes';
+  return 'Info';
+}
+
+/** Header tab id for highlighting (pianoRoll/notationAbc → music). */
+export function getPrimaryEditorViewMode(mode) {
+  var normalized = normalizeEditorViewMode(mode);
+  if (normalized === 'pianoRoll' || normalized === 'notationAbc') return 'music';
+  return normalized;
+}
+
+/** Map notation session view → editor URL mode. */
+export function notationViewToEditorViewMode(view) {
+  if (view === 'pianoRoll') return 'pianoRoll';
+  if (view === 'abc') return 'notationAbc';
+  return 'music'; // staff (and any other)
 }
 
 // Back-compat exports used by older tests / call sites during migration.

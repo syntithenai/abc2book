@@ -11,13 +11,24 @@ MAX_CONCURRENT_HEAVY_JOBS = max(
     1,
     int(os.getenv("MAX_CONCURRENT_HEAVY_JOBS", os.getenv("MAX_CONCURRENT_ML_JOBS", "2"))),
 )
+HEAVY_JOB_QUEUE_TIMEOUT_SECONDS = float(os.getenv("HEAVY_JOB_QUEUE_TIMEOUT_SECONDS", "120"))
 
 _heavy_job_semaphore = None
 _heavy_job_depth = contextvars.ContextVar("heavy_job_depth", default=0)
+_heavy_jobs_active = 0
+_heavy_jobs_waiting = 0
+_heavy_jobs_lock = None
 
 
 class ClientDisconnected(Exception):
     pass
+
+
+class HeavyJobQueueFull(Exception):
+    """Raised when the heavy-job wait queue times out."""
+
+    def __init__(self, message="Heavy job queue busy; try again shortly"):
+        super().__init__(message)
 
 
 def _get_heavy_job_semaphore():
@@ -27,23 +38,75 @@ def _get_heavy_job_semaphore():
     return _heavy_job_semaphore
 
 
+def _get_heavy_jobs_lock():
+    global _heavy_jobs_lock
+    if _heavy_jobs_lock is None:
+        _heavy_jobs_lock = asyncio.Lock()
+    return _heavy_jobs_lock
+
+
+def heavy_jobs_status():
+    return {
+        "max": MAX_CONCURRENT_HEAVY_JOBS,
+        "active": int(_heavy_jobs_active),
+        "waiting": int(_heavy_jobs_waiting),
+        "queueTimeoutSeconds": HEAVY_JOB_QUEUE_TIMEOUT_SECONDS,
+    }
+
+
 @asynccontextmanager
-async def heavy_job_slot():
+async def heavy_job_slot(timeout_seconds=None):
     """Limit concurrent CPU/GPU-heavy subprocess work.
 
     Re-entrant: nested calls from the same task (e.g. analyze-media internals)
     share the outer slot instead of deadlocking on the semaphore.
+
+    Waits up to HEAVY_JOB_QUEUE_TIMEOUT_SECONDS for a slot, then raises
+    HeavyJobQueueFull (map to HTTP 503).
     """
+    global _heavy_jobs_active, _heavy_jobs_waiting
     depth = _heavy_job_depth.get()
     if depth > 0:
         yield
         return
-    async with _get_heavy_job_semaphore():
+
+    wait_s = HEAVY_JOB_QUEUE_TIMEOUT_SECONDS if timeout_seconds is None else float(timeout_seconds)
+    sem = _get_heavy_job_semaphore()
+    lock = _get_heavy_jobs_lock()
+    async with lock:
+        _heavy_jobs_waiting += 1
+    acquired = False
+    try:
+        try:
+            await asyncio.wait_for(sem.acquire(), timeout=wait_s)
+            acquired = True
+        except asyncio.TimeoutError as exc:
+            raise HeavyJobQueueFull(
+                "Heavy job queue busy (max "
+                + str(MAX_CONCURRENT_HEAVY_JOBS)
+                + " concurrent); try again shortly"
+            ) from exc
+        async with lock:
+            _heavy_jobs_waiting -= 1
+            _heavy_jobs_active += 1
         token = _heavy_job_depth.set(depth + 1)
         try:
             yield
         finally:
             _heavy_job_depth.reset(token)
+            async with lock:
+                _heavy_jobs_active = max(0, _heavy_jobs_active - 1)
+            if acquired:
+                sem.release()
+    except HeavyJobQueueFull:
+        async with lock:
+            _heavy_jobs_waiting = max(0, _heavy_jobs_waiting - 1)
+        raise
+    except Exception:
+        if not acquired:
+            async with lock:
+                _heavy_jobs_waiting = max(0, _heavy_jobs_waiting - 1)
+        raise
 
 
 async def terminate_subprocess_tree(proc, grace_seconds=None):

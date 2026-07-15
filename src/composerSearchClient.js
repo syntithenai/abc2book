@@ -1,6 +1,6 @@
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { discoverRecordingArtists, discoverWorkWriters } from './recordingArtistsClient'
+import { discoverRecordingArtists, discoverWorkWritersWithProminence } from './recordingArtistsClient'
 import { parseTitleComposerHints } from './composerDiscoveryUtils'
 
 const COMPOSER_ACCEPT_HEADER = 'application/x-ndjson, application/json'
@@ -24,6 +24,16 @@ function normalizeSingleComposerResult(body) {
   }
 }
 
+function attachComposerMeta(body, result) {
+  const suggestedTitle = body && typeof body.suggestedTitle === 'string'
+    ? body.suggestedTitle.trim()
+    : ''
+  if (suggestedTitle) {
+    result.suggestedTitle = suggestedTitle
+  }
+  return result
+}
+
 export function normalizeComposerSearch(body) {
   if (!body || typeof body !== 'object') {
     throw new Error('Resolver returned an invalid artist search response')
@@ -38,12 +48,12 @@ export function normalizeComposerSearch(body) {
     if (candidates.length === 0) {
       throw new Error('Artist search returned no candidates')
     }
-    return {
+    return attachComposerMeta(body, {
       multiple: true,
       candidates: candidates,
-    }
+    })
   }
-  return Object.assign({ multiple: false }, normalizeSingleComposerResult(body))
+  return attachComposerMeta(body, Object.assign({ multiple: false }, normalizeSingleComposerResult(body)))
 }
 
 export function handleComposerSearchStreamEvent(event, onProgress) {
@@ -150,11 +160,15 @@ async function discoverComposersLight(options) {
   if (!hints.title) {
     throw new Error('Song title is required')
   }
-  const writers = await discoverWorkWriters({
+  const workResult = await discoverWorkWritersWithProminence({
     title: hints.title,
     signal: options.signal,
     maxWriters: 6,
   })
+  const writers = (workResult && workResult.writers) || []
+  const suggestedTitle = workResult && workResult.suggestedTitle
+    ? String(workResult.suggestedTitle).trim()
+    : ''
   const performers = await discoverRecordingArtists({
     title: hints.title,
     artist: hints.artistHint,
@@ -202,12 +216,18 @@ async function discoverComposersLight(options) {
     throw new Error('No artist found')
   }
   if (candidates.length === 1) {
-    return Object.assign({ multiple: false }, candidates[0])
+    return attachComposerMeta(
+      { suggestedTitle: suggestedTitle },
+      Object.assign({ multiple: false }, candidates[0])
+    )
   }
-  return {
-    multiple: true,
-    candidates: candidates,
-  }
+  return attachComposerMeta(
+    { suggestedTitle: suggestedTitle },
+    {
+      multiple: true,
+      candidates: candidates,
+    }
+  )
 }
 
 function shouldUseResolver(options) {

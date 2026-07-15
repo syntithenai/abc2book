@@ -8,7 +8,7 @@ export const DEFAULT_XML2ABC_OPTIONS = {
   c: 0,
   v: 0,
   d: 0,
-  m: 0,
+  m: 1,
   x: 0,
   t: 0,
   v1: 0,

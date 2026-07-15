@@ -6,8 +6,8 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 
 | Method | Path | Description |
 |--------|------|-------------|
-| GET | `/health` | Cheap liveness check (`ok`, `staticSite`, optional auth status) |
-| GET | `/health/ready` | Deep readiness check with `features`, Demucs model info, and cached LLM probe |
+| GET | `/health` | Cheap liveness check (`ok`, `staticSite`, `soundfontsReady` / `soundfontsProgress`, optional auth status) |
+| GET | `/health/ready` | Deep readiness check with `features` (includes `soundfonts`), Demucs model info, and cached LLM probe |
 | GET | `/youtube/:videoId/audio` | Stream YouTube audio |
 | GET | `/proxy-audio?url=https://…` | Stream arbitrary HTTPS audio URL |
 | POST | `/search-lyrics` | Search lyrics sites by title/artist (or fetch a supported lyrics URL) and return stanza chunks with ad/noise lines stripped. Accept `application/x-ndjson` for streaming progress events. |
@@ -69,6 +69,21 @@ To use a different host directory, set `WHISPER_MODELS_DIR` in `.env` (absolute
 or relative to `local-resolver/`). The container expects the file at
 `/models/ggml-large-v3.bin` unless you override `MODEL_PATH` in compose.
 
+### MusyngKite soundfonts
+
+On first start the resolver downloads the full **MusyngKite** GM bank (~1GB,
+128 instruments as per-note MP3 packs plus `.js` packs for soundfont-player) into
+a Docker volume mounted at `/soundfonts` (host default `local-resolver/soundfonts`).
+
+- Progress is reported on `/health` as `soundfontsReady` and `soundfontsProgress`.
+- Samples are served at `/midi-js-soundfonts/MusyngKite/...`. Files already shipped
+  under `midi-js-soundfonts/selection/MusyngKite/` or piano under `abcjs/` are
+  preferred over the volume (overlay).
+- Until the download finishes (or if the resolver is offline), the SPA remaps MIDI
+  programs onto the embedded instrument subset.
+- Disable with `SOUNDFONT_DOWNLOAD_ENABLED=false`. Change the host folder with
+  `SOUNDFONT_HOST_DIR`.
+
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 
 ### OpenAI-compatible LLM (`llm` + `llm-gateway`)
@@ -92,6 +107,19 @@ Keep `RESEARCH_LLM_BASE_URL=http://host.docker.internal:12340/v1` so the resolve
 # LLM_EXTERNAL_BASE_URL=https://api.openai.com/v1
 # LLM_EXTERNAL_API_KEY=sk-...
 ```
+
+### Ollama (optional compose overlay)
+
+Run [Ollama](https://ollama.com) instead of LM Studio / local GGUF:
+
+```bash
+cd local-resolver
+docker compose -f docker-compose.yml -f docker-compose.ollama.yml --profile ollama up -d
+# pull a model once:
+docker exec -it abc2book-ollama ollama pull llama3.2
+```
+
+Set `RESEARCH_LLM_MODEL` to the Ollama model name. The overlay points `llm` / `llm-gateway` at `http://…:11434/v1`.
 
 Gateway health: `curl -s http://127.0.0.1:12340/health`. If the in-compose `llm` container is down or still loading, requests fall through to LM Studio when it is running on `:1234`.
 
@@ -286,6 +314,18 @@ docker compose exec local-resolver sh -c \
 
 A successful run prints a byte count well over `1000000` (about 3 MB for that video).
 
+### Single-port HTTPS (production)
+
+Expose **only Caddy on port 443** to the internet. Do not publish the app’s `:8787` publicly.
+
+```bash
+docker compose --profile https up -d
+```
+
+TLS uses `RESOLVER_DOMAIN` / `ACME_EMAIL` from `.env`. From an HTTPS Tunebook page the SPA reaches a local resolver at `https://localhost` (see Media settings).
+
+For a slim public Cloud Run gateway (no GPU), see [CLOUD_RUN.md](CLOUD_RUN.md).
+
 ## Dynamic DNS (Namecheap)
 
 If this machine sits on a home connection with a changing IP, the bundled `ddns`
@@ -331,7 +371,15 @@ Set in `local-resolver/.env`:
 |----------|-------------|
 | `REQUIRE_AUTH` | Set `true` to require Google login (default `false` in `.env.example`; enabled in `docker-compose.dev.yml`) |
 | `GOOGLE_CLIENT_ID` | Required when `REQUIRE_AUTH=true` |
-| `ALLOWED_EMAILS` | Comma-separated allowlist when auth is enabled |
+| `FREE_ACCESS_EMAILS` | Comma-separated emails (or `ALL`) allowed free media / heavy ML on this host |
+| `EMBEDDED_CREDS_EMAILS` | Comma-separated emails (or `ALL`) allowed to use host-embedded provider API keys |
+| `ALLOWED_EMAILS` | Legacy alias for free access when `FREE_ACCESS_EMAILS` is empty |
+| `PROVIDER_LLM_*` / `PROVIDER_WHISPER_*` / `PROVIDER_OCR_*` | Optional host-embedded cloud providers (`_PROVIDER`, `_BASE_URL`, `_API_KEY`, `_MODEL`) |
+| `RESOLVER_LIGHT_MODE` | Slim gateway: no local Whisper/Demucs/OCR (see [CLOUD_RUN.md](CLOUD_RUN.md)) |
+| `YTDLP_PROXY` | Optional host residential proxy for yt-dlp |
+| `YTDLP_REQUIRE_USER_PROXY` | Require user/host proxy for `/youtube` (default true in light mode) |
+| `HEAVY_JOB_QUEUE_TIMEOUT_SECONDS` | Wait budget for heavy ML slots before 503 (default 120) |
+| `MAX_CONCURRENT_HEAVY_JOBS` | Concurrent Whisper/stems/OCR jobs (default 2) |
 | `GOATCOUNTER_API_URL` | Optional GoatCounter count API URL for resolver endpoint analytics (paths are prefixed with resolver-server/) |
 | `GOATCOUNTER_API_TOKEN` | Optional GoatCounter API token; keep server-side only |
 | `ALLOWED_ORIGINS` | CORS origins for the tunebook app |

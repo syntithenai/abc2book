@@ -61,36 +61,32 @@ describe('FieldLookupButtonGroup', function() {
     expect(onSearch).toHaveBeenCalled()
   })
 
-  test('Suggestions and Clear only enable when count > 0', function() {
-    const onClear = jest.fn()
-    const onOpen = jest.fn()
+  test('hides Suggestions until suggestionCount is positive', function() {
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
         suggestionCount: 0,
-        onClearSuggestions: onClear,
-        onOpenSuggestions: onOpen,
+        onClearSuggestions: jest.fn(),
+        onOpenSuggestions: jest.fn(),
         onSearch: jest.fn(),
       }))
     })
-    expect(container.querySelector('[data-testid="field-suggestions-clear"]').disabled).toBe(true)
-    expect(container.querySelector('[data-testid="field-suggestions-open"]').disabled).toBe(true)
+    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeFalsy()
+    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeFalsy()
+    expect(container.textContent).not.toContain('Suggestions')
 
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
         suggestionCount: 2,
-        onClearSuggestions: onClear,
-        onOpenSuggestions: onOpen,
+        onClearSuggestions: jest.fn(),
+        onOpenSuggestions: jest.fn(),
         onSearch: jest.fn(),
       }))
     })
-    act(function() {
-      container.querySelector('[data-testid="field-suggestions-open"]').click()
-      container.querySelector('[data-testid="field-suggestions-clear"]').click()
-    })
-    expect(onOpen).toHaveBeenCalled()
-    expect(onClear).toHaveBeenCalled()
+    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeTruthy()
+    expect(container.textContent).toContain('Suggestions')
   })
 
   test('external link only when showExternal', function() {

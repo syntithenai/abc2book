@@ -276,9 +276,11 @@ export const WALKTHROUGH_STEPS = [
     summary: 'Copy, cut, paste, and duplicate musical material.',
     body: [
       'Ctrl+C copies the selection. Ctrl+X cuts. Ctrl+V pastes at the caret (in the piano roll, paste aligns to the first selected note’s beat).',
+      'On touch devices, use the Copy / Cut / Paste / Del toolbar buttons (Swap is under the overflow menu).',
       'Ctrl+Shift+X swaps the selection with the clipboard contents.',
       'Press R to repeat the selection at the caret, or repeat the last note if nothing is selected.',
       'Delete or Backspace turns selected notes into rests and removes selected bar lines. Ctrl+Delete or Ctrl+Backspace removes selected events entirely.',
+      'Ctrl+K edits a chord symbol; Ctrl+F edits piano fingering (0–5). Space advances to the next note.',
       'The clipboard is internal to the editor session, not the system clipboard.',
     ],
     tryIt: [
