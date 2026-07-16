@@ -3,6 +3,7 @@ import {Link , useParams , useNavigate, useLocation} from 'react-router-dom'
 import {Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
+import StarToggleButton from './StarToggleButton'
 //import ReactTags from 'react-tag-autocomplete'
 import BookMultiSelectorModal from  './BookMultiSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
@@ -135,10 +136,14 @@ export default function MusicSingle(props) {
         delta:300,
         trackMouse: false,    
       onSwipedRight: (eventData) => {
-          props.tunebook.navigateToPreviousSong(tune.id, navigate)
+          props.tunebook.navigateToPreviousSong(tune.id, navigate, location.pathname, {
+            forceSearchList: true,
+          })
       },
       onSwipedLeft: (eventData) => {
-          props.tunebook.navigateToNextSong(tune.id, navigate)
+          props.tunebook.navigateToNextSong(tune.id, null, navigate, location.pathname, {
+            forceSearchList: true,
+          })
       }
     });  
     
@@ -326,7 +331,11 @@ export default function MusicSingle(props) {
         //props.tunebook.abcTools.renderChords(chordsArray,false, tune.transpose)
         var uniqueChords={}
         chords.replaceAll("|",' ').split(' ').forEach(function(chord) {
-            if (chord.trim().length > 0) uniqueChords[chord.trim()] = true
+            var token = chord.trim()
+            if (!token) return
+            // Repeat / ending markers are not chord symbols (|: :| [1 …).
+            if (token === ':' || token === '|:' || token === ':|' || token === ':|:' || /^\[\d+$/.test(token) || /^\d+\.$/.test(token)) return
+            uniqueChords[token] = true
         })
         
         function getYouTubeId(url) {
@@ -408,10 +417,11 @@ export default function MusicSingle(props) {
                 const viewModesEmpty = !fileOverlayActive && isViewModesEmpty(viewFlags, availableFlags)
                 const fitHeightOn = notationFitMode === NOTATION_FIT_VERTICAL
                 const syncLyricsStructure = !!layout.syncLyricsStructure
-                // Without notation: fit-height scales lyrics (or structure-only, or synced pair).
+                // Without notation: fit-height scales lyrics (synced pair or lyrics-only).
+                // Structure always height-fits the viewport (see StructureChordBlock).
                 const lyricsStructureFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && syncLyricsStructure
                 const lyricsFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && lyricsVisible && !syncLyricsStructure
-                const structureFitHeight = fitHeightOn && !notationVisible && !fileOverlayActive && structureVisible && !lyricsVisible
+                const structureFitHeight = !fileOverlayActive && structureVisible && !syncLyricsStructure
                 const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string'
                   ? tune.backgroundInfo.trim()
                   : ''
@@ -565,6 +575,7 @@ export default function MusicSingle(props) {
 
                   <div className="music-actions-dropdown-col-meta music-actions-dropdown-col-meta-compact">
                     <ButtonGroup className="music-tune-meta-group">
+                      <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
                       <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
                       <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
                       <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
@@ -615,6 +626,7 @@ export default function MusicSingle(props) {
 
 			    <div className="music-buttons-col-meta music-tune-meta-inline">
 			      <ButtonGroup className="music-tune-meta-group">
+			        <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
 			        <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
 			        <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
 			        <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
@@ -638,7 +650,7 @@ export default function MusicSingle(props) {
 			          onChange={handleFileViewZoomChange}
 			          tunebook={props.tunebook}
 			        />
-			      ) : availableFlags.lyrics ? (
+			      ) : availableFlags.lyrics && !fitHeightOn ? (
 			        <LyricsZoomControls
 			          zoom={lyricsZoom}
 			          onChange={handleLyricsZoomChange}
@@ -742,7 +754,7 @@ export default function MusicSingle(props) {
                      <div className="lyrics-panel-header">
                        {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
                        <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} />
-                       {tune.composer && <span> - {tune.composer}</span>}
+                       {tune.composer && <span className="lyrics-panel-composer"> - {tune.composer}</span>}
                      </div>
                      {!squashLyrics ? (
                        syncLyricsStructure ? (

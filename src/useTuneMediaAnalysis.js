@@ -62,6 +62,8 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
     progress: 0,
     isAnalyzing: true,
     showSourceDialog: false,
+    analyzingSourceId: source && source.id ? source.id : null,
+    analyzingLinkIndex: source && source.linkIndex != null ? source.linkIndex : null,
   });
 
   try {
@@ -69,15 +71,41 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       return null;
     }
 
+    let tune = (options && options.tune) || resolveTune(deps, null, tuneId);
+
+    if (options && typeof options.ensurePlayRange === 'function') {
+      patchMediaAnalysisJob(tuneId, {
+        status: 'Detecting play range...',
+        progress: 0,
+      });
+      try {
+        const nextTune = await options.ensurePlayRange(source, tune, {
+          signal: abortController.signal,
+        });
+        if (nextTune) tune = nextTune;
+      } catch (rangeErr) {
+        if (rangeErr && rangeErr.name === 'AbortError') throw rangeErr;
+        // Continue analysis even if play-range detection fails.
+        console.log(rangeErr);
+      }
+      if (abortController.signal.aborted) {
+        return null;
+      }
+    }
+
     patchMediaAnalysisJob(tuneId, {
       status: 'Resolving audio...',
       progress: 0,
     });
 
-    const tune = (options && options.tune) || resolveTune(deps, null, tuneId);
+    const youtubeGetId = deps.tunebook && deps.tunebook.utils
+      && typeof deps.tunebook.utils.YouTubeGetID === 'function'
+      ? deps.tunebook.utils.YouTubeGetID
+      : null;
     const preparedSource = await prepareMediaAnalysisSource(source, tune, {
       accessToken: deps.accessToken,
       driveApi: deps.driveApi,
+      youtubeGetId: youtubeGetId,
     });
     if (abortController.signal.aborted) {
       return null;
@@ -115,7 +143,7 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       timed: timedModels,
     };
 
-    const liveTune = (options && options.tune) || resolveTune(deps, null, tuneId);
+    const liveTune = tune || resolveTune(deps, null, tuneId);
     const skipPersist = !!(options && options.skipPersist);
     if (liveTune && !skipPersist) {
       if (!liveTune.meter && result.timing && result.timing.meter) {
@@ -150,6 +178,8 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       error: '',
       isAnalyzing: false,
       showSourceDialog: false,
+      analyzingSourceId: null,
+      analyzingLinkIndex: null,
     });
 
     if (!skipPersist && liveTune && liveTune.id) {
@@ -157,8 +187,8 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
         persistMediaAnalysisFieldSuggestions(liveTune.id, formatted, liveTune, {
           abcTools: deps.tunebook && deps.tunebook.abcTools,
           saveTune: deps.tunebook && typeof deps.tunebook.saveTune === 'function'
-            ? function(tune, skipHistory, opts) {
-              return deps.tunebook.saveTune(tune, skipHistory, opts);
+            ? function(tuneToSave, skipHistory, opts) {
+              return deps.tunebook.saveTune(tuneToSave, skipHistory, opts);
             }
             : null,
         });
@@ -179,6 +209,8 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
         progress: 0,
         error: '',
         isAnalyzing: false,
+        analyzingSourceId: null,
+        analyzingLinkIndex: null,
       });
     } else {
       patchMediaAnalysisJob(tuneId, {
@@ -186,6 +218,8 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
         status: '',
         progress: 0,
         isAnalyzing: false,
+        analyzingSourceId: null,
+        analyzingLinkIndex: null,
       });
     }
     return null;
@@ -275,6 +309,8 @@ function useTuneMediaAnalysisState(options) {
     status: job.status,
     progress: job.progress,
     error: job.error,
+    analyzingSourceId: job.analyzingSourceId || null,
+    analyzingLinkIndex: job.analyzingLinkIndex != null ? job.analyzingLinkIndex : null,
     showSourceDialog: job.showSourceDialog,
     setShowSourceDialog: setShowSourceDialog,
     requestAnalysis: requestAnalysis,

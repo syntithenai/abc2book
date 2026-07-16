@@ -9,6 +9,8 @@ export const EMPTY_MEDIA_ANALYSIS_JOB = {
   analysis: null,
   analysisVersion: 0,
   showSourceDialog: false,
+  analyzingSourceId: null,
+  analyzingLinkIndex: null,
 };
 
 export function subscribeMediaAnalysisJobs(listener) {
@@ -77,6 +79,8 @@ export function getAllMediaAnalysisJobs() {
       status: job.status || '',
       progress: job.progress || 0,
       error: job.error || '',
+      analyzingSourceId: job.analyzingSourceId || null,
+      analyzingLinkIndex: job.analyzingLinkIndex != null ? job.analyzingLinkIndex : null,
     };
   });
 }

@@ -3,16 +3,18 @@ import { Alert } from 'react-bootstrap'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
 import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
+import {
+  buildPickerOriginalValueItem,
+  resolveOriginalValueForPicker,
+  searchableSuggestions,
+} from '../fieldSuggestionsUtils'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
-import GenreSuggestionOffer from './GenreSuggestionOffer'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import {
-  buildGenreSearchContext,
-  inferGenreFromSearchContext,
-  shouldOfferGenreSuggestion,
-} from '../genreInference'
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
+import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
+import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 
 /**
@@ -26,6 +28,7 @@ export default function NotationSearchButton({
   artist,
   rhythm,
   currentGenre,
+  currentValue,
   onGenreAccept,
   token,
   onNotation,
@@ -39,10 +42,10 @@ export default function NotationSearchButton({
   leaveAwaiting = false,
   children,
 }) {
+  void leaveAwaiting
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
-  const [genreSuggestion, setGenreSuggestion] = useState(null)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
@@ -50,21 +53,18 @@ export default function NotationSearchButton({
   const applyRef = useRef(null)
 
   function finishApply(result, jobId) {
-    // Review-mode applyFieldLookupChoice defers saving to the form callback.
     if (jobId) applyFieldLookupChoice(jobId, result)
     if (typeof onNotation === 'function') onNotation(result)
-    if (typeof onGenreAccept === 'function' && result) {
-      const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
-        title: title,
-        artist: artist,
-        rhythm: rhythm,
-      }))
-      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
-        setGenreSuggestion(inferred)
-      } else {
-        setGenreSuggestion(null)
-      }
-    }
+    maybeOfferGenreFromSearchResult({
+      tuneId: tuneId,
+      candidateId: candidateId,
+      result: result,
+      title: title,
+      artist: artist,
+      rhythm: rhythm,
+      currentGenre: currentGenre,
+      onGenreAccept: onGenreAccept,
+    })
   }
   applyRef.current = finishApply
 
@@ -73,15 +73,12 @@ export default function NotationSearchButton({
     candidateId: candidateId,
     kind: 'notation',
     onAwaiting: function(job) {
-      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      const candidates = searchableSuggestions(job)
       if (candidates.length === 0) {
         setError('No notation found for this song')
         return
       }
-      // Always open the gallery picker. FieldLookupReviewButton remains as a
-      // fallback if the user dismisses without choosing.
-      setPickerCandidates(candidates)
-      setShowPicker(true)
+      openPicker(candidates)
     },
     onError: function(job) {
       setError(job.error || 'Notation search failed')
@@ -98,18 +95,23 @@ export default function NotationSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
+  const awaitingCandidates = searchableSuggestions(awaitingJob)
 
-  function openAwaitingPicker(job) {
-    const candidates = job && Array.isArray(job.candidates) ? job.candidates : []
-    if (candidates.length === 0) return false
+  useSyncFieldLookupOriginalValue(tuneId, 'notation', currentValue, awaitingJob)
+
+  function openPicker(candidates) {
     setError('')
-    setPickerCandidates(candidates)
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
     setShowPicker(true)
+  }
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return false
+    openPicker(awaitingCandidates)
     return true
   }
+
+  useOpenFieldSuggestions(tuneId, 'notation', openAwaitingSuggestions)
 
   function clearAwaitingSuggestions() {
     lookup.dismiss()
@@ -128,8 +130,7 @@ export default function NotationSearchButton({
       lookup.cancel()
       return
     }
-    // New Search clears prior suggestions for this kind.
-    if (lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+    if (awaitingCandidates.length > 0) {
       clearAwaitingSuggestions()
     }
     void mode
@@ -152,6 +153,27 @@ export default function NotationSearchButton({
     }
   }
 
+  const originalAbc = resolveOriginalValueForPicker(
+    awaitingJob,
+    typeof currentValue === 'string' ? currentValue : ''
+  )
+  const pickerItems = [
+    buildPickerOriginalValueItem({
+      value: originalAbc,
+      abc: typeof originalAbc === 'string' ? originalAbc : '',
+    }),
+  ].concat(pickerCandidates.map(function(candidate) {
+    return {
+      title: candidate.title || title,
+      artist: candidate.artist || artist || '',
+      preview: candidate.preview || candidate.abc || '',
+      abc: candidate.abc || candidate.preview || '',
+      source: candidate.source || '',
+      sourceUrl: candidate.sourceUrl || '',
+      matchType: candidate.source || '',
+    }
+  }))
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -169,8 +191,7 @@ export default function NotationSearchButton({
           inline={inline}
           progress={lookup.progressPercent}
           suggestionCount={awaitingCandidates.length}
-          onClearSuggestions={clearAwaitingSuggestions}
-          onOpenSuggestions={function() { openAwaitingPicker(awaitingJob) }}
+          onOpenSuggestions={openAwaitingSuggestions}
         />
         <SearchProgressBar
           visible={busy}
@@ -182,35 +203,21 @@ export default function NotationSearchButton({
     ),
     suggestionsDropdown: null,
     errorNode: (
-      <>
-        {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
-        <GenreSuggestionOffer
-          suggestion={genreSuggestion}
-          onAccept={function(genre) {
-            if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-            setGenreSuggestion(null)
-          }}
-          onDismiss={function() { setGenreSuggestion(null) }}
-        />
-      </>
+      error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null
     ),
     modals: (
       <SearchResultPickerModal
         show={showPicker}
         title="Choose notation"
         layout="notation"
-        items={pickerCandidates.map(function(candidate) {
-          return {
-            title: candidate.title || title,
-            artist: candidate.artist || artist || '',
-            preview: candidate.preview || candidate.abc || '',
-            abc: candidate.abc || candidate.preview || '',
-            source: candidate.source || '',
-            sourceUrl: candidate.sourceUrl || '',
-          }
-        })}
+        items={pickerItems}
         onSelect={function(item, index) {
-          const candidate = pickerCandidates[index] || pickerCandidates.find(function(c) {
+          if (item && item.__current) {
+            setShowPicker(false)
+            setPickerCandidates([])
+            return
+          }
+          const candidate = pickerCandidates[index - 1] || pickerCandidates.find(function(c) {
             return (c.title || title) === item.title && (c.source || '') === (item.source || '')
           })
           if (!candidate) return

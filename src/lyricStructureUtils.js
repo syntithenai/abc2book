@@ -1,13 +1,14 @@
-import { isSectionHeader, normalizeLyricBlocks, normalizeSectionType } from './chordSheetUtils';
+import { inferSectionTypesFromLineCounts, isSectionHeader, normalizeLyricBlocks, normalizeSectionType } from './chordSheetUtils';
 
 /**
  * Normalize lyric/section lines into typed blocks.
  * Blank lines flush blocks; section headers start blocks.
+ * When no headers exist, may infer verse/chorus/bridge from alternating line counts.
  *
  * @returns {Array<{ type: string|null, header: string, lines: string[] }>}
  */
 export function normalizeLyricStructure(lines) {
-  return normalizeLyricBlocks(lines).map(function(block) {
+  const blocks = normalizeLyricBlocks(lines).map(function(block) {
     const source = Array.isArray(block) ? block : [];
     let header = '';
     let body = source;
@@ -21,6 +22,8 @@ export function normalizeLyricStructure(lines) {
       lines: body.map(function(line) { return String(line == null ? '' : line); }),
     };
   });
+  inferSectionTypesFromLineCounts(blocks);
+  return blocks;
 }
 
 function toLyricLines(textOrLines) {
@@ -61,27 +64,32 @@ export function listLyricSections(textOrLines) {
   const sections = normalizeLyricStructure(source);
   let cursor = 0;
   return sections.map(function(section) {
-    const needle = section.header
-      ? section.header
-      : (section.lines.length > 0 ? String(section.lines[0]) : null);
     let startLine = cursor;
-    if (needle != null) {
+    let headerInSource = false;
+    if (section.header) {
+      const headerNeedle = String(section.header).trim();
       for (let i = cursor; i < source.length; i++) {
-        const raw = String(source[i] == null ? '' : source[i]);
-        if (section.header) {
-          if (raw.trim() === needle) {
+        if (String(source[i] == null ? '' : source[i]).trim() === headerNeedle) {
+          startLine = i;
+          headerInSource = true;
+          break;
+        }
+      }
+    }
+    if (!headerInSource) {
+      const bodyNeedle = section.lines.length > 0 ? String(section.lines[0]) : null;
+      if (bodyNeedle != null) {
+        for (let i = cursor; i < source.length; i++) {
+          if (String(source[i] == null ? '' : source[i]) === bodyNeedle) {
             startLine = i;
             break;
           }
-        } else if (raw === needle) {
-          startLine = i;
-          break;
         }
       }
     }
 
     let endLine = startLine;
-    if (section.header) {
+    if (headerInSource) {
       endLine = startLine + 1;
       let bodyIndex = 0;
       while (bodyIndex < section.lines.length && endLine < source.length) {

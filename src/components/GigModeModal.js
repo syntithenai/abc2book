@@ -434,7 +434,8 @@ export default function GigModeModal(props) {
   const syncLyricsStructure = !!layout.syncLyricsStructure;
   const lyricsStructureFitHeight = fitHeightOn && !showNotation && syncLyricsStructure;
   const lyricsFitHeight = fitHeightOn && !showNotation && showLyrics && !syncLyricsStructure;
-  const structureFitHeight = fitHeightOn && !showNotation && showStructure && !showLyrics;
+  // Structure always height-fits the viewport; Fit height only controls lyrics/notation.
+  const structureFitHeight = showStructure && !syncLyricsStructure;
 
   let structureChordChart = '';
   if (currentTune && showStructure && tunebook) {
@@ -591,7 +592,7 @@ export default function GigModeModal(props) {
                 Capo {effectiveCapo}
               </Button>
             ) : null}
-            {availableFlags.lyrics ? (
+            {availableFlags.lyrics && !fitHeightOn ? (
               <LyricsZoomControls
                 className="gig-mode-zoom-group"
                 zoom={fontScale}

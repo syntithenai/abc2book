@@ -225,6 +225,13 @@ export default function NotationEditor(props) {
   const [showWizard, setShowWizard] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showWalkthrough, setShowWalkthrough] = useState(false);
+  const [showVirtualPiano, setShowVirtualPiano] = useState(function() {
+    try {
+      return localStorage.getItem('notationVirtualPianoVisible') === 'true';
+    } catch (err) {
+      return false;
+    }
+  });
   const [abcDraft, setAbcDraft] = useState(props.voiceNotes || '');
   const [abcDrafts, setAbcDrafts] = useState(function() {
     const init = {};
@@ -1417,7 +1424,8 @@ export default function NotationEditor(props) {
       || barEv
       || (idx >= 0 && idx < s.events.length ? s.events[idx] : null);
 
-    if (mouseEvent && mouseEvent.detail >= 2 && targetEv && targetEv.id) {
+    if (mouseEvent && mouseEvent.detail >= 3 && targetEv && targetEv.id) {
+      // Triple-click: select the containing measure (MuseScore-style range).
       const ids = selectMeasureContaining(s.events, targetEv.id);
       if (ids.length) {
         syncSessionAction({
@@ -1496,14 +1504,10 @@ export default function NotationEditor(props) {
     setCaretIndex(idx);
     auditionEvent(ev, null);
     if (mouseEvent && mouseEvent.detail === 2) {
-      // MuseScore-like: double-click note opens chord symbol edit when present,
-      // otherwise fingering if a finger decoration is set.
-      const hasFinger = (ev.decorations || []).some(isFingerDecorationKey);
-      if ((ev.chordSymbols && ev.chordSymbols.length) || !hasFinger) {
-        window.setTimeout(function() { openAnnotEditor('chord'); }, 0);
-      } else {
-        window.setTimeout(function() { openAnnotEditor('finger'); }, 0);
-      }
+      // Double-click note/rest → chord symbol edit (fingering via Ctrl+F / Marks).
+      const openId = ev.id;
+      window.setTimeout(function() { openAnnotEditor('chord', openId); }, 0);
+      return;
     }
     focusStaffEditor();
     return;
@@ -2294,7 +2298,6 @@ export default function NotationEditor(props) {
             onDisplayedVoicesChange={handleDisplayedVoicesChange}
             onVoiceNameChange={props.onVoiceMetaChange}
             onVoiceNotesChange={props.onVoiceNotesChange}
-            toggleLabel={isAbcView ? 'Voices' : 'V'}
             onAddVoice={function() {
               if (sessionRef.current.view === EDITOR_VIEWS.ABC) {
                 flushAllAbcDrafts();
@@ -2383,6 +2386,16 @@ export default function NotationEditor(props) {
                 onDiscardRecord={handleDiscardRecord}
                 pendingRecordCount={pendingRecordCount}
                 expandFlags={expandFlags}
+                showVirtualPiano={showVirtualPiano}
+                onToggleVirtualPiano={function() {
+                  setShowVirtualPiano(function(prev) {
+                    const next = !prev;
+                    try {
+                      localStorage.setItem('notationVirtualPianoVisible', next ? 'true' : 'false');
+                    } catch (err) { /* ignore */ }
+                    return next;
+                  });
+                }}
               />
               <NotationDurationToolbar
             session={session}
@@ -2420,6 +2433,35 @@ export default function NotationEditor(props) {
           {props.toolbarEnd ? (
             <div className="notation-toolbar-end">
               {props.toolbarEnd}
+            </div>
+          ) : null}
+          {showVirtualPiano ? (
+            <div className="notation-virtual-piano-row">
+              <VirtualPiano
+                session={session}
+                midiActiveNotes={midi.activeNotes}
+                onPitch={function(pitch, addTone) {
+                  let s = sessionRef.current;
+                  if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
+                    dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NOTE_INPUT });
+                    s = Object.assign({}, s, { mode: EDITOR_MODES.NOTE_INPUT });
+                    sessionRef.current = s;
+                  }
+                  const method = s.noteInputMethod || NOTE_INPUT_METHODS.NOTE_NAME;
+                  if (method === NOTE_INPUT_METHODS.DURATION || method === NOTE_INPUT_METHODS.RHYTHM) {
+                    dispatch({ type: 'SET_PITCH_CARRY', pitch: pitch });
+                    return;
+                  }
+                  if (method === NOTE_INPUT_METHODS.RE_PITCH) {
+                    const patch = rePitchAtCaret(s, pitch);
+                    if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Virtual piano re-pitch');
+                    return;
+                  }
+                  const patch = insertPitchAtCaret(Object.assign({}, s, { chordBuild: !!addTone }), pitch);
+                  applyEvents(Object.assign({}, patch, { pitchCarry: pitch }), EDITOR_VIEWS.STAFF, 'Virtual piano');
+                  dispatch({ type: 'SET_PITCH_CARRY', pitch: pitch });
+                }}
+              />
             </div>
           ) : null}
         </div>
@@ -2504,34 +2546,6 @@ export default function NotationEditor(props) {
             Line breaks (Enter) split the music across rows in the preview.
           </p>
         </div>
-      ) : null}
-
-      {isStaffLikeView ? (
-        <VirtualPiano
-          session={session}
-          midiActiveNotes={midi.activeNotes}
-          onPitch={function(pitch, addTone) {
-            let s = sessionRef.current;
-            if (s.mode !== EDITOR_MODES.NOTE_INPUT) {
-              dispatch({ type: 'SET_MODE', mode: EDITOR_MODES.NOTE_INPUT });
-              s = Object.assign({}, s, { mode: EDITOR_MODES.NOTE_INPUT });
-              sessionRef.current = s;
-            }
-            const method = s.noteInputMethod || NOTE_INPUT_METHODS.NOTE_NAME;
-            if (method === NOTE_INPUT_METHODS.DURATION || method === NOTE_INPUT_METHODS.RHYTHM) {
-              dispatch({ type: 'SET_PITCH_CARRY', pitch: pitch });
-              return;
-            }
-            if (method === NOTE_INPUT_METHODS.RE_PITCH) {
-              const patch = rePitchAtCaret(s, pitch);
-              if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Virtual piano re-pitch');
-              return;
-            }
-            const patch = insertPitchAtCaret(Object.assign({}, s, { chordBuild: !!addTone }), pitch);
-            applyEvents(Object.assign({}, patch, { pitchCarry: pitch }), EDITOR_VIEWS.STAFF, 'Virtual piano');
-            dispatch({ type: 'SET_PITCH_CARRY', pitch: pitch });
-          }}
-        />
       ) : null}
 
       <NotationEditorHelpModal

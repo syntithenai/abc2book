@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi';
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -14,12 +15,7 @@ import {
   buildTuneBackgroundSearchUrl,
   formatResearchDuration,
 } from '../tuneBackgroundResearchClient';
-import GenreSuggestionOffer from './GenreSuggestionOffer';
-import {
-  buildGenreSearchContext,
-  inferGenreFromSearchContext,
-  shouldOfferGenreSuggestion,
-} from '../genreInference';
+import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions';
 
 function hasExistingBackgroundInfo(text) {
   return typeof text === 'string' && text.trim().length > 0;
@@ -80,7 +76,6 @@ export default function TuneBackgroundSearchButton({
   const [showConfirm, setShowConfirm] = useState(false);
   const [showReviewAccept, setShowReviewAccept] = useState(false);
   const [pendingReviewText, setPendingReviewText] = useState('');
-  const [genreSuggestion, setGenreSuggestion] = useState(null);
   const [elapsedMs, setElapsedMs] = useState(0);
   const elapsedTimerRef = useRef(null);
   const startedAtRef = useRef(0);
@@ -167,19 +162,17 @@ export default function TuneBackgroundSearchButton({
     if (typeof onBackgroundInfo === 'function' && terminal.resultText) {
       onBackgroundInfo({ text: terminal.resultText });
     }
-    if (typeof onGenreAccept === 'function' && terminal.resultText) {
-      const inferred = inferGenreFromSearchContext(buildGenreSearchContext({
-        text: terminal.resultText,
-      }, {
+    if (terminal.resultText) {
+      maybeOfferGenreFromSearchResult({
+        tuneId: tuneId,
+        result: { text: terminal.resultText },
         title: title,
         artist: artist,
         rhythm: rhythm,
-      }));
-      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
-        setGenreSuggestion(inferred);
-      } else {
-        setGenreSuggestion(null);
-      }
+        currentGenre: currentGenre,
+        onGenreAccept: onGenreAccept,
+        extras: { backgroundText: terminal.resultText },
+      });
     }
   }, [
     queue.state.jobs,
@@ -189,6 +182,7 @@ export default function TuneBackgroundSearchButton({
     artist,
     rhythm,
     currentGenre,
+    tuneId,
     refreshMediaResolverHealth,
   ]);
 
@@ -202,6 +196,8 @@ export default function TuneBackgroundSearchButton({
     setPendingReviewText(awaitingJob.resultText);
     setShowReviewAccept(true);
   }
+
+  useOpenFieldSuggestions(tuneId, 'background', openAwaitingSuggestions);
 
   function clearAwaitingSuggestions() {
     dismissReviewResult();
@@ -228,7 +224,6 @@ export default function TuneBackgroundSearchButton({
     if (!title || !tuneId) return;
     setShowConfirm(false);
     setError('');
-    setGenreSuggestion(null);
     setShowReviewAccept(false);
     setPendingReviewText('');
 
@@ -287,7 +282,6 @@ export default function TuneBackgroundSearchButton({
           searchIcon={searchIcon}
           progress={progressPercent}
           suggestionCount={suggestionCount}
-          onClearSuggestions={clearAwaitingSuggestions}
           onOpenSuggestions={openAwaitingSuggestions}
         />
         {busy && (
@@ -324,14 +318,6 @@ export default function TuneBackgroundSearchButton({
             </div>
           </Alert>
         )}
-        <GenreSuggestionOffer
-          suggestion={genreSuggestion}
-          onAccept={function(genre) {
-            if (typeof onGenreAccept === 'function') onGenreAccept(genre);
-            setGenreSuggestion(null);
-          }}
-          onDismiss={function() { setGenreSuggestion(null); }}
-        />
       </>
     ),
     modals: (

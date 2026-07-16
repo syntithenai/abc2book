@@ -12,16 +12,12 @@ import {
 } from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
-import GenreSuggestionOffer from './GenreSuggestionOffer'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import {
-  buildGenreSearchContext,
-  inferGenreFromSearchContext,
-  shouldOfferGenreSuggestion,
-} from '../genreInference'
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
+import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 
 export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
@@ -69,7 +65,6 @@ export default function LyricsSearchButton({
   const [error, setError] = useState('')
   const [pickerCandidates, setPickerCandidates] = useState([])
   const [showPicker, setShowPicker] = useState(false)
-  const [genreSuggestion, setGenreSuggestion] = useState(null)
   const [manualCandidates, setManualCandidates] = useState([])
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
   const existingLyricsRef = useRef(existingLyrics)
@@ -86,18 +81,16 @@ export default function LyricsSearchButton({
   function finishApply(result, jobId) {
     if (jobId && !leaveAwaitingRef.current) applyFieldLookupChoice(jobId, result)
     if (typeof onLyrics === 'function') onLyrics(result)
-    if (typeof onGenreAccept === 'function' && result) {
-      const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, {
-        title: title,
-        artist: artist,
-        rhythm: rhythm,
-      }))
-      if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
-        setGenreSuggestion(inferred)
-      } else {
-        setGenreSuggestion(null)
-      }
-    }
+    maybeOfferGenreFromSearchResult({
+      tuneId: tuneId,
+      candidateId: candidateId,
+      result: result,
+      title: title,
+      artist: artist,
+      rhythm: rhythm,
+      currentGenre: currentGenre,
+      onGenreAccept: onGenreAccept,
+    })
   }
   applyRef.current = finishApply
 
@@ -223,6 +216,8 @@ export default function LyricsSearchButton({
     setShowPicker(true)
   }
 
+  useOpenFieldSuggestions(tuneId, 'lyrics', openAwaitingSuggestions)
+
   function clearAwaitingSuggestions() {
     lookup.dismiss()
     setShowPicker(false)
@@ -316,7 +311,6 @@ export default function LyricsSearchButton({
           inline={inline}
           progress={progressPercent}
           suggestionCount={awaitingCandidates.length}
-          onClearSuggestions={clearAwaitingSuggestions}
           onOpenSuggestions={openAwaitingSuggestions}
         />
         <SearchProgressBar
@@ -349,14 +343,6 @@ export default function LyricsSearchButton({
           onSelectCandidate={function(candidate) {
             setLockedModalCandidate(candidate)
           }}
-        />
-        <GenreSuggestionOffer
-          suggestion={genreSuggestion}
-          onAccept={function(genre) {
-            if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-            setGenreSuggestion(null)
-          }}
-          onDismiss={function() { setGenreSuggestion(null) }}
         />
       </>
     ),

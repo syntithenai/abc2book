@@ -13,18 +13,25 @@ const { assertNoteSteps, collapseAbcWhitespace } = require('./notation-assertion
 
 const TWO_VOICE_TUNE_ID = 'e2e00000000000000000002'
 
-async function selectVoiceByKey(page, voiceKey) {
-  await page.waitForSelector('[data-testid="notation-voices-menu"]', { visible: true })
-  await page.click('[data-testid="notation-voices-menu"]')
+async function openVoicesManage(page) {
+  await page.waitForSelector('[data-testid="notation-voices-manage"]', { visible: true })
+  await page.click('[data-testid="notation-voices-manage"]')
+  await page.waitForSelector('.voices-manage-modal.show, .modal.show .voices-manage-modal, .modal.show', {
+    visible: true,
+  })
   await sleep(300)
-  await page.evaluate(function(key) {
-    var input = document.querySelector('[data-testid="notation-voice-tab-' + key + '"] .notation-voice-name-input')
-    if (input) {
-      input.focus()
-      input.click()
-    }
-  }, voiceKey)
-  await sleep(600)
+}
+
+async function selectVoiceByKey(page, voiceKey) {
+  await openVoicesManage(page)
+  await page.waitForSelector('[data-testid="voices-manage-edit-' + voiceKey + '"]', { visible: true })
+  await page.click('[data-testid="voices-manage-edit-' + voiceKey + '"]')
+  await sleep(400)
+  await page.evaluate(function() {
+    var closeBtn = document.querySelector('.modal.show .btn-close, .modal.show .btn-secondary')
+    if (closeBtn) closeBtn.click()
+  })
+  await sleep(400)
 }
 
 async function runVoiceTests(page, ctx) {
@@ -80,14 +87,16 @@ async function runVoiceTests(page, ctx) {
     const before = await page.evaluate(function() {
       return document.querySelectorAll('.abcjs-note').length
     })
-    await page.click('[data-testid="notation-voices-menu"]')
-    await sleep(300)
-    const checkBtn = await page.$('[data-testid="notation-voice-tab-2"] .notation-voice-check-btn')
-    if (!checkBtn) throw new Error('voice 2 visibility checkbox not found')
-    await checkBtn.click()
+    await openVoicesManage(page)
+    const check = await page.$('[data-testid="voices-manage-visible-2"]')
+    if (!check) throw new Error('voice 2 visibility checkbox not found')
+    await check.click()
     await sleep(400)
-    await pressKey(page, 'Escape')
-    await sleep(200)
+    await page.evaluate(function() {
+      var closeBtn = document.querySelector('.modal.show .btn-close, .modal.show .btn-secondary')
+      if (closeBtn) closeBtn.click()
+    })
+    await sleep(400)
     const after = await page.evaluate(function() {
       return document.querySelectorAll('.abcjs-note').length
     })
@@ -96,18 +105,19 @@ async function runVoiceTests(page, ctx) {
     }
   })
 
-  await runScenario(results, 'P1: add voice creates new tab', async function() {
+  await runScenario(results, 'P1: add voice creates new row', async function() {
     await resetNotationFixture(page, TWO_VOICE_TUNE_ID)
     await focusNotationEditor(page)
-    await page.click('[data-testid="notation-voices-menu"]')
-    await sleep(300)
-    await page.evaluate(function() {
-      var btn = document.querySelector('.notation-voice-add-btn')
-      if (btn) btn.click()
-    })
+    await openVoicesManage(page)
+    await page.click('[data-testid="voices-manage-add"]')
     await sleep(500)
-    const tabs = await page.$$('[data-testid^="notation-voice-tab-"]')
-    if (tabs.length < 3) throw new Error('add voice should create a third voice tab')
+    const rows = await page.$$('[data-testid^="voices-manage-row-"]')
+    if (rows.length < 3) throw new Error('add voice should create a third voice row')
+    await page.evaluate(function() {
+      var closeBtn = document.querySelector('.modal.show .btn-close, .modal.show .btn-secondary')
+      if (closeBtn) closeBtn.click()
+    })
+    await sleep(400)
     await selectVoiceByKey(page, '1')
     await assertNoteSteps(page, ['C', 'E', 'G'], 'voice 1 unchanged after add')
   })

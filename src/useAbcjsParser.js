@@ -3,6 +3,7 @@ import useAbcTools from './useAbcTools'
 import useUtils from './useUtils'
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { getBarModel, normalizeMeter, beatPositionsForBarChords as barModelBeatPositions } from './barModel'
+import { normalizeChordChartRepeatMarks } from './chordSheetUtils'
 
 /**
  * Utilities for converting to/from abcjs object format
@@ -351,21 +352,38 @@ export default function useAbcjsParser() {
         var noteLengthsSinceLastBar = 0
         var hasWrittenBar = false
         var fullBarDuration = barSize * noteLength
+        // Display charts only: carry |: / [1 / [2 onto the next written bar.
+        var pendingStartRepeat = false
+        var pendingEndingLabel = null
         
-        function writeBar(barLayout) {
+        function writeBar(barLayout, closeBarline) {
             //console.log("BL",barLayout)
+            var close = closeBarline || '|'
+            var chunks = []
+            if (!showDots) {
+                if (pendingStartRepeat) {
+                    chunks.push('|:')
+                    pendingStartRepeat = false
+                }
+                if (pendingEndingLabel !== null && pendingEndingLabel !== undefined && pendingEndingLabel !== '') {
+                    chunks.push('[' + String(pendingEndingLabel))
+                    pendingEndingLabel = null
+                }
+            }
             for (var i=0; i < barSize; i++) {
                if (Array.isArray(barLayout[i]) && barLayout[i].length > 0) {
                     // push the chords on beat i
-                    final.push(barLayout[i].join(' ').trim())
+                    chunks.push(barLayout[i].join(' ').trim())
                 } else {
                     if (showDots) {
-                        final.push(".")
+                        chunks.push(".")
                     }
                 }
              }
-       
-             final.push("|")
+            // One final[] entry per bar (content + close) so join(' ') cannot
+            // insert spaces inside |: / :| / :|: markers.
+            var body = chunks.filter(Boolean).join(' ').trim()
+            final.push(body ? (body + ' ' + close) : close)
         }
         
         abc[0].lines.forEach(function(line, lineNumber) {
@@ -434,12 +452,27 @@ export default function useAbcjsParser() {
                            // Display charts also omit bars with no notes or rests
                            // (empty between barlines). Rest-only bars still render.
                            var isEmptyBar = noteLengthsSinceLastBar <= 0
+                           var closeBarline = '|'
+                           if (symbol.type === 'bar_right_repeat') closeBarline = ':|'
+                           else if (symbol.type === 'bar_dbl_repeat') closeBarline = ':|:'
                            if (!showDots) {
-                               if (!isAnacrusis && !isEmptyBar) writeBar(barLayout)
+                               if (!isAnacrusis && !isEmptyBar) writeBar(barLayout, closeBarline)
                                // Hymns often start the chorus with |: rather than ||.
                                // Emit a blank line so verse/chorus become separate blocks.
-                               if (symbol.type === 'bar_left_repeat' && hasWrittenBar) {
-                                   final.push("\n")
+                               if (symbol.type === 'bar_left_repeat') {
+                                   pendingStartRepeat = true
+                                   if (hasWrittenBar) {
+                                       final.push("\n")
+                                   }
+                               } else if (symbol.type === 'bar_dbl_repeat') {
+                                   // :|: ends one repeat and starts the next.
+                                   pendingStartRepeat = true
+                               }
+                               // startEnding applies to the following bar's content.
+                               if (symbol.startEnding !== null && symbol.startEnding !== undefined
+                                   && String(symbol.startEnding) !== ''
+                                   && Number(symbol.startEnding) > 0) {
+                                   pendingEndingLabel = symbol.startEnding
                                }
                            } else {
                                writeBar(barLayout)
@@ -469,7 +502,7 @@ export default function useAbcjsParser() {
             }
         }) 
         //console.log(final.join(' '))
-        return final.join(' ').replaceAll("\n ","\n")
+        return normalizeChordChartRepeatMarks(final.join(' ').replaceAll("\n ","\n"))
     }
     
     /**

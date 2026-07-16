@@ -1,7 +1,6 @@
 import { Button, ListGroup } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import useTuneFieldLookupQueue from '../../useTuneFieldLookupQueue'
-import { dismissFieldLookup } from '../../tuneFieldLookupQueue'
+import { isMediaAnalysisLookupJob } from '../../mediaAnalysisSuggestions'
 
 function statusLabel(status) {
   if (status === 'awaiting') return 'awaiting review'
@@ -19,27 +18,31 @@ function statusBadgeClass(status) {
 export default function ActiveSearchesTabPanel() {
   const queue = useTuneFieldLookupQueue()
   const jobs = (queue.state.jobs || []).filter(function(job) {
+    if (isMediaAnalysisLookupJob(job)) return false
     return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
   })
+  const awaitingCount = jobs.filter(function(job) { return job.status === 'awaiting' }).length
+  const canClearFinished = queue.finishedCount > 0 || awaitingCount > 0
 
   return (
     <>
       <p className="text-muted settings-background-jobs-tab-note">
         Lyrics, chords, artist, notation, and link searches keep running while you browse.
         When results need a choice they stay here as awaiting review; open the tune editor
-        and use the Choose button next to the field.
+        and use the Choose button next to the field. Clear finished also removes awaiting
+        review entries.
       </p>
       <div className="background-jobs-queue-toolbar">
         <span className="background-jobs-queue-summary">
           {jobs.length} active search{jobs.length === 1 ? '' : 'es'}
-          {queue.awaitingCount > 0 ? (' · ' + queue.awaitingCount + ' awaiting') : ''}
+          {awaitingCount > 0 ? (' · ' + awaitingCount + ' awaiting') : ''}
         </span>
         <div className="background-jobs-queue-toolbar-actions">
           <Button
             variant="outline-secondary"
             size="sm"
             className="background-jobs-queue-toolbar-btn"
-            disabled={queue.finishedCount === 0}
+            disabled={!canClearFinished}
             onClick={queue.clearFinished}
           >
             Clear finished
@@ -60,7 +63,6 @@ export default function ActiveSearchesTabPanel() {
       ) : (
         <ListGroup className="background-jobs-queue-list">
           {jobs.map(function(job) {
-            const tuneLink = job.tuneId ? ('/editor/' + encodeURIComponent(job.tuneId)) : null
             return (
               <ListGroup.Item key={job.id} className="background-jobs-queue-item">
                 <div className="background-jobs-queue-item-header">
@@ -69,25 +71,6 @@ export default function ActiveSearchesTabPanel() {
                     {job.tuneName ? <span className="text-muted"> — {job.tuneName}</span> : null}
                   </div>
                   <div className="d-flex gap-2">
-                    {job.status === 'awaiting' && tuneLink ? (
-                      <Button
-                        as={Link}
-                        to={tuneLink}
-                        variant="outline-primary"
-                        size="sm"
-                      >
-                        Review
-                      </Button>
-                    ) : null}
-                    {job.status === 'awaiting' ? (
-                      <Button
-                        variant="outline-secondary"
-                        size="sm"
-                        onClick={function() { dismissFieldLookup(job.id) }}
-                      >
-                        Dismiss
-                      </Button>
-                    ) : null}
                     <Button
                       variant="danger"
                       size="sm"

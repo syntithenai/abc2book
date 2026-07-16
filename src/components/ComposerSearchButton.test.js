@@ -48,5 +48,6 @@ describe('ComposerSearchButton candidate helpers', function() {
   test('shouldOfferTitleSuggestion detects spelling variants', function() {
     expect(shouldOfferTitleSuggestion('Claire de Lune', 'Clair de lune')).toBe(true)
     expect(shouldOfferTitleSuggestion('Clair de Lune', 'Clair de Lune')).toBe(false)
+    expect(shouldOfferTitleSuggestion('Song A', 'Completely Different')).toBe(false)
   })
 })

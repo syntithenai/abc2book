@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks } from './chordSheetUtils';
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
@@ -20,6 +20,20 @@ describe('chordSheetUtils', function() {
     expect(isChordLine('A7 X 3')).toBe(true);
     expect(isChordLine('I really like Christmas')).toBe(false);
     expect(isChordLine('')).toBe(false);
+  });
+
+  test('isMostlyChordLine accepts majority-chord lines with stray words', function() {
+    expect(isMostlyChordLine('C  yeah  G  Am')).toBe(true);
+    expect(isMostlyChordLine('C G Am F')).toBe(true);
+    expect(isMostlyChordLine('I really like Christmas')).toBe(false);
+    expect(isMostlyChordLine('C yeah')).toBe(false); // only one chord
+    expect(isChordLine('C  yeah  G  Am')).toBe(false); // strict still rejects
+  });
+
+  test('classifyLyricChordLines uses soft majority for mixed chord lines', function() {
+    const classified = classifyLyricChordLines(['C  yeah  G  Am', 'sing these words']);
+    expect(classified[0].type).toBe('chord');
+    expect(classified[1].type).toBe('lyric');
   });
 
   test('identifies section headers', function() {
@@ -193,7 +207,7 @@ describe('chordSheetUtils', function() {
   test('fillEmptyBarsWithSlash marks held bars with /', function() {
     expect(fillEmptyBarsWithSlash('Fm | | Am |')).toBe('Fm | / | Am |');
     expect(fillEmptyBarsWithSlash('Fm | . . . . | Am |')).toBe('Fm | / | Am |');
-    expect(fillEmptyBarsWithSlash('| Am |')).toBe(' / | Am |');
+    expect(fillEmptyBarsWithSlash('| Am |')).toBe('/ | Am |');
     expect(fillEmptyBarsWithSlash('Fm | / | Am |')).toBe('Fm | / | Am |');
     expect(fillEmptyBarsWithSlash('Am G | D |')).toBe('Am G | D |');
   });
@@ -210,6 +224,26 @@ describe('chordSheetUtils', function() {
 
   test('formatChordChartForDisplay fills empty bars with /', function() {
     expect(formatChordChartForDisplay('Fm | | Am |\nBb | | | F |')).toBe('Fm | / | Am |\nBb | / | / | F |');
+  });
+
+  test('formatChordChartForDisplay preserves inline repeats and endings', function() {
+    const chart = '|: C G | Am F | [1 Dm G :| [2 F C |';
+    expect(formatChordChartForDisplay(chart)).toBe('|: C G | Am F | [1 Dm G :| [2 F C |');
+    expect(extractChordBars(chart)).toEqual([['C', 'G'], ['Am', 'F'], ['Dm', 'G'], ['F', 'C']]);
+    expect(extractChordSequence(chart)).toEqual(['C', 'G', 'Am', 'F', 'Dm', 'G', 'F', 'C']);
+    expect(chartBlockHasChords('|: :| [1 [2')).toBe(false);
+  });
+
+  test('normalizeChordChartRepeatMarks removes spaces inside |: and :|', function() {
+    expect(normalizeChordChartRepeatMarks('| : C G | Am F : |')).toBe('|: C G | Am F :|');
+    expect(normalizeChordChartRepeatMarks('Am F : |')).toBe('Am F :|');
+    expect(normalizeChordChartRepeatMarks('Am F :')).toBe('Am F :|');
+    expect(normalizeChordChartRepeatMarks('Am F :\nG |')).toBe('Am F :|\nG |');
+    expect(formatChordChartForDisplay('| : C | [1 Dm : | [2 F |')).toBe('|: C | [1 Dm :| [2 F |');
+  });
+
+  test('fillEmptyBarsWithSlash keeps ending markers on empty bars', function() {
+    expect(fillEmptyBarsWithSlash('|: C | [1 :| [2 G |')).toBe('|: C | [1 / :| [2 G |');
   });
 
   test('aligns repeated sections to the right chord block instead of running down the page', function() {
@@ -310,12 +344,147 @@ describe('chordSheetUtils', function() {
     aligned.forEach(function(block, index) {
       expect(block.chart).toBe('G | G | C | G |');
       expect(block.inlineChords).toBe(true);
+      expect(block.type).toBeNull();
       if (index === 0) {
         expect(block.chartRevisit).toBe(false);
       } else {
         expect(block.chartRevisit).toBe(true);
       }
     });
+  });
+
+  test('inferSectionTypesFromLineCounts labels alternating equal lengths as verse/chorus', function() {
+    const blocks = [
+      { lyricLines: ['v1a', 'v1b', 'v1c', 'v1d'], type: null, header: null },
+      { lyricLines: ['c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f'], type: null, header: null },
+      { lyricLines: ['v2a', 'v2b', 'v2c', 'v2d'], type: null, header: null },
+      { lyricLines: ['c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(blocks[0].header).toBe('[Verse]');
+    expect(blocks[1].header).toBe('[Chorus]');
+    expect(blocks[2].header).toBe('[Verse 2]');
+    expect(blocks[3].header).toBe('[Chorus 2]');
+  });
+
+  test('inferSectionTypesFromLineCounts labels a third line-count group as bridge', function() {
+    const blocks = [
+      { lyricLines: ['a', 'b', 'c', 'd'], type: null, header: null },
+      { lyricLines: ['e', 'f', 'g', 'h', 'i', 'j'], type: null, header: null },
+      { lyricLines: ['k', 'l', 'm', 'n'], type: null, header: null },
+      { lyricLines: ['o', 'p', 'q', 'r', 's', 't'], type: null, header: null },
+      { lyricLines: ['u', 'v', 'w', 'x', 'y'], type: null, header: null },
+      { lyricLines: ['1', '2', '3', '4', '5', '6'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual([
+      'verse', 'chorus', 'verse', 'chorus', 'bridge', 'chorus',
+    ]);
+    expect(blocks[4].header).toBe('[Bridge]');
+  });
+
+  test('inferSectionTypesFromLineCounts skips when only two stanzas differ (no return to verse)', function() {
+    const blocks = [
+      { lyricLines: ['a', 'b', 'c', 'd'], type: null, header: null },
+      { lyricLines: ['e', 'f', 'g', 'h', 'i', 'j'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks[0].type).toBeNull();
+    expect(blocks[1].type).toBeNull();
+  });
+
+  test('inferSectionTypesFromLineCounts fills unlabeled verses around a labeled chorus', function() {
+    const blocks = [
+      { lyricLines: ['v1a', 'v1b', 'v1c', 'v1d'], type: null, header: null },
+      {
+        lyricLines: ['c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f'],
+        type: 'chorus',
+        header: '[Chorus]',
+      },
+      { lyricLines: ['v2a', 'v2b', 'v2c', 'v2d'], type: null, header: null },
+      { lyricLines: ['c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(blocks[1].header).toBe('[Chorus]'); // never overwrite
+    expect(blocks[0].header).toBe('[Verse]');
+    expect(blocks[2].header).toBe('[Verse 2]');
+  });
+
+  test('inferSectionTypesFromLineCounts reuses type when unlabeled body matches a labeled stanza', function() {
+    const chorusWords = ['hook line one', 'hook line two', 'hook line three'];
+    const blocks = [
+      { lyricLines: ['verse words a', 'verse words b'], type: 'verse', header: '[Verse 1]' },
+      { lyricLines: chorusWords.slice(), type: 'chorus', header: '[Chorus]' },
+      { lyricLines: ['verse two a', 'verse two b'], type: null, header: null },
+      { lyricLines: chorusWords.slice(), type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks[3].type).toBe('chorus');
+    expect(blocks[3].header).toBe('[Chorus 2]');
+    expect(blocks[2].type).toBe('verse');
+  });
+
+  test('inferSectionTypesFromLineCounts labels bridge when verse and chorus lengths are known', function() {
+    const blocks = [
+      { lyricLines: ['a', 'b', 'c', 'd'], type: 'verse', header: '[Verse]' },
+      { lyricLines: ['e', 'f', 'g', 'h', 'i', 'j'], type: 'chorus', header: '[Chorus]' },
+      { lyricLines: ['k', 'l', 'm', 'n'], type: null, header: null },
+      { lyricLines: ['o', 'p', 'q', 'r', 's', 't'], type: null, header: null },
+      { lyricLines: ['u', 'v', 'w', 'x', 'y'], type: null, header: null },
+    ];
+    inferSectionTypesFromLineCounts(blocks);
+    expect(blocks.map(function(b) { return b.type; })).toEqual([
+      'verse', 'chorus', 'verse', 'chorus', 'bridge',
+    ]);
+    expect(blocks[4].header).toBe('[Bridge]');
+  });
+
+  test('inferSectionTypesFromChartFingerprints labels by matching chord sequences', function() {
+    const verseChart = 'C | G | Am | F |';
+    const chorusChart = 'F | C | G | Am |';
+    const blocks = [
+      { lyricLines: ['v1'], type: 'verse', header: '[Verse]' },
+      { lyricLines: ['c1'], type: 'chorus', header: '[Chorus]' },
+      { lyricLines: ['v2'], type: null, header: null },
+      { lyricLines: ['c2'], type: null, header: null },
+    ];
+    inferSectionTypesFromChartFingerprints(blocks, [verseChart, chorusChart, verseChart, chorusChart]);
+    expect(blocks.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(chordChartFingerprint(verseChart)).toBe(chordChartFingerprint(verseChart));
+  });
+
+  test('alignChordBlocksToLyrics reuses charts for inferred verse/chorus alternation', function() {
+    const lyrics = [
+      'verse one line a', 'verse one line b', 'verse one line c', 'verse one line d', '',
+      'chorus line a', 'chorus line b', 'chorus line c', 'chorus line d', 'chorus line e', 'chorus line f', '',
+      'verse two line a', 'verse two line b', 'verse two line c', 'verse two line d', '',
+      'chorus two a', 'chorus two b', 'chorus two c', 'chorus two d', 'chorus two e', 'chorus two f',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS']);
+    expect(aligned.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(aligned[0]).toMatchObject({ chart: 'VERSECHORDS', chartRevisit: false });
+    expect(aligned[1]).toMatchObject({ chart: 'CHORUSCHORDS', chartRevisit: false });
+    expect(aligned[2]).toMatchObject({ chart: 'VERSECHORDS', chartRevisit: true });
+    expect(aligned[3]).toMatchObject({ chart: 'CHORUSCHORDS', chartRevisit: true });
+  });
+
+  test('alignChordBlocksToLyrics infers bridge for a third line-count group', function() {
+    const lyrics = [
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
+      'v2a', 'v2b', 'v2c', 'v2d', '',
+      'c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f', '',
+      'b1a', 'b1b', 'b1c', 'b1d', 'b1e', '',
+      'c3a', 'c3b', 'c3c', 'c3d', 'c3e', 'c3f',
+    ];
+    const aligned = alignChordBlocksToLyrics(lyrics, ['VERSECHORDS', 'CHORUSCHORDS', 'BRIDGECHORDS']);
+    expect(aligned.map(function(b) { return b.type; })).toEqual([
+      'verse', 'chorus', 'verse', 'chorus', 'bridge', 'chorus',
+    ]);
+    expect(aligned[4]).toMatchObject({ type: 'bridge', chart: 'BRIDGECHORDS', chartRevisit: false });
+    expect(aligned[5]).toMatchObject({ type: 'chorus', chart: 'CHORUSCHORDS', chartRevisit: true });
   });
 
   test('falls back to positional mapping when there are no section headers', function() {

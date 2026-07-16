@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
 import { createQueue } from '../nowPlayingQueue'
 import ShareTunebookModal from './ShareTunebookModal'
+import { savePerformanceSet } from '../performanceSetStore'
 import {
   listSavedPlaylists,
   getSavedPlaylist,
@@ -10,6 +12,15 @@ import {
   queueFromSavedPlaylist,
   savePlaylistFromQueue,
 } from '../savedPlaylistsStore'
+
+function BulkOpsDualIcon({ leading, trailing }) {
+  return (
+    <span className="bulk-ops-dual-icon" aria-hidden="true">
+      {leading}
+      {trailing}
+    </span>
+  )
+}
 
 function defaultSearchPlaylistName(filter, book, tags, genres, artists) {
   const parts = []
@@ -89,6 +100,36 @@ export default function SavedPlaylistsOpenModal({
     if (!window.confirm('Delete saved playlist "' + label + '"?')) return
     deleteSavedPlaylist(id)
     refresh()
+  }
+
+  function handleCreateSetlist(playlist, event) {
+    if (event) event.stopPropagation()
+    const saved = playlist && playlist.id ? getSavedPlaylist(playlist.id) : null
+    const source = saved || playlist
+    if (!source) return
+    const tuneIds = (source.items || []).map(function(item) {
+      return item && item.tuneId
+    }).filter(Boolean)
+    if (!tuneIds.length) {
+      toast.error('This playlist has no tunes to put in a setlist.')
+      return
+    }
+    const defaultName = String(source.name || '').trim() || 'New set'
+    const name = window.prompt(
+      'Name for the new setlist with ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') + ':',
+      defaultName
+    )
+    if (name === null) return
+    const created = savePerformanceSet({
+      name: String(name).trim() || defaultName,
+      date: new Date().toISOString().slice(0, 10),
+      notes: '',
+      items: tuneIds.map(function(tuneId) {
+        return { type: 'tune', tuneId: tuneId }
+      }),
+    })
+    if (onHide) onHide()
+    navigate('/sets/' + encodeURIComponent(created.id))
   }
 
   function handleSaveCurrentSearch() {
@@ -191,6 +232,17 @@ export default function SavedPlaylistsOpenModal({
                     </span>
                   </span>
                   <span className="d-flex align-items-center gap-1 flex-shrink-0">
+                    <Button
+                      variant="success"
+                      size="sm"
+                      className="bulk-ops-action-btn playlist-create-setlist-btn"
+                      title="Create setlist"
+                      aria-label="Create setlist"
+                      data-testid={'create-setlist-from-playlist-' + playlist.id}
+                      onClick={function(e) { handleCreateSetlist(playlist, e) }}
+                    >
+                      <BulkOpsDualIcon leading={icons.start} trailing={icons.setlist} />
+                    </Button>
                     {googleDocumentId && token ? (
                       <span onClick={function(e) { e.stopPropagation() }}>
                         <ShareTunebookModal

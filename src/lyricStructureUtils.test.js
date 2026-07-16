@@ -59,6 +59,48 @@ describe('lyricStructureUtils', function() {
     expect(normalizeLyricStructure(['', '  ', ''])).toEqual([]);
   });
 
+  test('normalizeLyricStructure infers verse/chorus/bridge from alternating line counts', function() {
+    const blocks = normalizeLyricStructure([
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
+      'v2a', 'v2b', 'v2c', 'v2d', '',
+      'c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f', '',
+      'b1a', 'b1b', 'b1c', 'b1d', 'b1e',
+    ]);
+    expect(blocks.map(function(b) { return { type: b.type, header: b.header }; })).toEqual([
+      { type: 'verse', header: '[Verse]' },
+      { type: 'chorus', header: '[Chorus]' },
+      { type: 'verse', header: '[Verse 2]' },
+      { type: 'chorus', header: '[Chorus 2]' },
+      { type: 'bridge', header: '[Bridge]' },
+    ]);
+  });
+
+  test('normalizeLyricStructure fills unlabeled blocks when some headers exist', function() {
+    const blocks = normalizeLyricStructure([
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      '[Chorus]',
+      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
+      'v2a', 'v2b', 'v2c', 'v2d', '',
+      'c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f',
+    ]);
+    expect(blocks.map(function(b) { return b.type; })).toEqual(['verse', 'chorus', 'verse', 'chorus']);
+    expect(blocks[1].header).toBe('[Chorus]');
+  });
+
+  test('listLyricSections uses inferred titles and keeps startLine on body lines', function() {
+    const sections = listLyricSections([
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
+      'v2a', 'v2b', 'v2c', 'v2d',
+    ]);
+    expect(sections.map(function(s) { return { title: s.title, type: s.type, startLine: s.startLine }; })).toEqual([
+      { title: 'Verse', type: 'verse', startLine: 0 },
+      { title: 'Chorus', type: 'chorus', startLine: 5 },
+      { title: 'Verse 2', type: 'verse', startLine: 12 },
+    ]);
+  });
+
   test('listLyricSections includes startLine and title', function() {
     const sections = listLyricSections([
       '[Verse 1]',

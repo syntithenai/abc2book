@@ -55,6 +55,7 @@ function ArtistSearchSelectorModal(props) {
     var sortedOptions = Object.keys(options);
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   const hasActiveArtists = Array.isArray(props.value) && props.value.length > 0
+  const hideSelection = !!props.hideSelection
 
   function clearArtistFilter(e) {
     if (e) {
@@ -70,9 +71,14 @@ function ArtistSearchSelectorModal(props) {
     <>
       <ButtonGroup>
         <Button onClick={handleShow} variant="info" >
-          <span>{props.tunebook.icons.artist} {Array.isArray(props.value) ? props.value.map(function(v) { return String(v).toLowerCase() }).join(",") : ''}</span>
+          <span>
+            {props.tunebook.icons.artist}
+            {hideSelection
+              ? <span className="tune-search-filters-btn-label"> Artist</span>
+              : (Array.isArray(props.value) ? ' ' + props.value.map(function(v) { return String(v).toLowerCase() }).join(",") : '')}
+          </span>
         </Button>
-        {hasActiveArtists ? (
+        {!hideSelection && hasActiveArtists ? (
           <Button variant="info" title="Clear artist filter" onClick={clearArtistFilter}>
             {props.tunebook.icons.closecircle}
           </Button>

@@ -3,6 +3,7 @@ import {
   GIG_NOTATION_FRAME_PAD_X,
   NOTATION_FIT_HORIZONTAL,
   NOTATION_FIT_VERTICAL,
+  applyCompactScreenNotationMeta,
   buildFitFrame,
   computeNotationFit,
   expandNotationViewBoxForMeta,
@@ -337,6 +338,33 @@ describe('gigNotationFit', function() {
       const box = getSvgContentBBox(svg);
       expect(box.y).toBe(0);
       expect(box.height).toBe(200);
+    });
+  });
+
+  describe('applyCompactScreenNotationMeta', function() {
+    it('shrinks title/composer fonts and tightens vertical meta spacing', function() {
+      const tune = {
+        formatting: {
+          titlefont: { face: '"Times New Roman"', size: 20, weight: 'normal', style: 'normal', decoration: 'none' },
+          subtitlefont: { face: '"Times New Roman"', size: 16, weight: 'normal', style: 'normal', decoration: 'none' },
+          composerfont: { face: '"Times New Roman"', size: 14, weight: 'normal', style: 'italic', decoration: 'none' },
+        },
+      };
+      applyCompactScreenNotationMeta(tune);
+      expect(tune.formatting.titlefont.size).toBe(14);
+      expect(tune.formatting.subtitlefont.size).toBe(12);
+      expect(tune.formatting.composerfont.size).toBe(11);
+      expect(tune.formatting.composerfont.style).toBe('italic');
+      expect(tune.formatting.titlespace).toBe(0);
+      expect(tune.formatting.topspace).toBe(0);
+      expect(tune.formatting.musicspace).toBe(2);
+    });
+
+    it('no-ops when formatting is missing', function() {
+      expect(function() {
+        applyCompactScreenNotationMeta(null);
+        applyCompactScreenNotationMeta({});
+      }).not.toThrow();
     });
   });
 });

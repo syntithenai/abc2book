@@ -7,10 +7,17 @@ import {
   dismissFieldLookup,
 } from '../tuneFieldLookupQueue'
 import { buildGoogleArtistsSearchUrl } from '../artistsSearchClient'
+import {
+  buildPickerOriginalValueItem,
+  resolveOriginalValueForPicker,
+  searchableSuggestions,
+} from '../fieldSuggestionsUtils'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
+import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
 
 export default function ArtistsSearchButton({
   tuneId,
@@ -48,16 +55,13 @@ export default function ArtistsSearchButton({
     candidateId: candidateId,
     kind: 'artists',
     onAwaiting: function(job) {
-      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      const candidates = searchableSuggestions(job)
       if (searchModeRef.current === 'review') {
         if (candidates.length === 0) {
           setError('No artists found')
           return
         }
-        addedRef.current = false
-        setSelectedIndexes([])
-        setPickerCandidates(candidates)
-        setShowPicker(true)
+        openPicker(candidates)
         return
       }
       if (candidates.length >= 1) {
@@ -79,9 +83,9 @@ export default function ArtistsSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
+  const awaitingCandidates = searchableSuggestions(awaitingJob)
+
+  useSyncFieldLookupOriginalValue(tuneId, 'artists', existingArtists, awaitingJob)
 
   function closePicker(dismissJob) {
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
@@ -93,14 +97,20 @@ export default function ArtistsSearchButton({
     if (dismissJob && jobId) dismissFieldLookup(jobId)
   }
 
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
+  function openPicker(candidates) {
     setError('')
     addedRef.current = false
     setSelectedIndexes([])
-    setPickerCandidates(awaitingCandidates)
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
     setShowPicker(true)
   }
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    openPicker(awaitingCandidates)
+  }
+
+  useOpenFieldSuggestions(tuneId, 'artists', openAwaitingSuggestions)
 
   function clearAwaitingSuggestions() {
     lookup.dismiss()
@@ -115,7 +125,6 @@ export default function ArtistsSearchButton({
       lookup.cancel()
       return
     }
-    // New Search clears prior suggestions for this kind.
     if (awaitingCandidates.length > 0) {
       clearAwaitingSuggestions()
     }
@@ -136,6 +145,25 @@ export default function ArtistsSearchButton({
     })
   }
 
+  const originalValue = resolveOriginalValueForPicker(
+    awaitingJob,
+    Array.isArray(existingArtists) ? existingArtists : []
+  )
+  const pickerItems = [
+    buildPickerOriginalValueItem({ value: originalValue }),
+  ].concat(pickerCandidates.map(function(candidate) {
+    const role = candidate.role === 'writer'
+      ? 'Writer'
+      : (candidate.role === 'performer' ? 'Performer' : '')
+    return {
+      title: candidate.artist,
+      artist: role,
+      preview: candidate.preview || candidate.artist,
+      source: candidate.source || '',
+      matchType: role || candidate.source || '',
+    }
+  }))
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -153,7 +181,6 @@ export default function ArtistsSearchButton({
           inline={inline}
           progress={lookup.progressPercent}
           suggestionCount={awaitingCandidates.length}
-          onClearSuggestions={clearAwaitingSuggestions}
           onOpenSuggestions={openAwaitingSuggestions}
         />
         <SearchProgressBar
@@ -172,18 +199,9 @@ export default function ArtistsSearchButton({
         title="Choose artists to add"
         multiSelect={true}
         selectedIndexes={selectedIndexes}
-        items={pickerCandidates.map(function(candidate) {
-          const role = candidate.role === 'writer'
-            ? 'Writer'
-            : (candidate.role === 'performer' ? 'Performer' : '')
-          return {
-            title: candidate.artist,
-            artist: role,
-            preview: candidate.preview || candidate.artist,
-            source: candidate.source || '',
-          }
-        })}
+        items={pickerItems}
         onSelect={function(item, index) {
+          if (item && item.__current) return
           let alreadySelected = false
           setSelectedIndexes(function(prev) {
             if (prev.indexOf(index) >= 0) {

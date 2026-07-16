@@ -11,10 +11,17 @@ import {
   buildGoogleAliasesSearchUrl,
   buildTheSessionAliasesSearchUrl,
 } from '../aliasesSearchClient'
+import {
+  buildPickerOriginalValueItem,
+  resolveOriginalValueForPicker,
+  searchableSuggestions,
+} from '../fieldSuggestionsUtils'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
+import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
 
 export default function AliasesSearchButton({
   tuneId,
@@ -58,16 +65,13 @@ export default function AliasesSearchButton({
     candidateId: candidateId,
     kind: 'aliases',
     onAwaiting: function(job) {
-      const candidates = Array.isArray(job.candidates) ? job.candidates : []
+      const candidates = searchableSuggestions(job)
       if (searchModeRef.current === 'review') {
         if (candidates.length === 0) {
           setError('No aliases found')
           return
         }
-        addedRef.current = false
-        setSelectedIndexes([])
-        setPickerCandidates(candidates)
-        setShowPicker(true)
+        openPicker(candidates)
         return
       }
       if (candidates.length >= 1) {
@@ -83,8 +87,6 @@ export default function AliasesSearchButton({
 
   const sessionUrl = buildTheSessionAliasesSearchUrl(title)
   const googleUrl = buildGoogleAliasesSearchUrl(title, artist)
-  // Prefer a plain-English Google query; The Session title search is too minimal
-  // as an external aliases lookup (even when the resolver is available).
   const externalUrl = googleUrl || sessionUrl
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : null
   const externalLinkIcon = tunebook && tunebook.icons ? tunebook.icons.externallink : null
@@ -93,9 +95,9 @@ export default function AliasesSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
+  const awaitingCandidates = searchableSuggestions(awaitingJob)
+
+  useSyncFieldLookupOriginalValue(tuneId, 'aliases', existingAliases, awaitingJob)
 
   function closePicker(dismissJob) {
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
@@ -107,14 +109,20 @@ export default function AliasesSearchButton({
     if (dismissJob && jobId) dismissFieldLookup(jobId)
   }
 
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
+  function openPicker(candidates) {
     setError('')
     addedRef.current = false
     setSelectedIndexes([])
-    setPickerCandidates(awaitingCandidates)
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
     setShowPicker(true)
   }
+
+  function openAwaitingSuggestions() {
+    if (awaitingCandidates.length === 0) return
+    openPicker(awaitingCandidates)
+  }
+
+  useOpenFieldSuggestions(tuneId, 'aliases', openAwaitingSuggestions)
 
   function clearAwaitingSuggestions() {
     lookup.dismiss()
@@ -129,7 +137,6 @@ export default function AliasesSearchButton({
       lookup.cancel()
       return
     }
-    // New Search clears prior suggestions for this kind.
     if (awaitingCandidates.length > 0) {
       clearAwaitingSuggestions()
     }
@@ -154,6 +161,22 @@ export default function AliasesSearchButton({
     })
   }
 
+  const originalValue = resolveOriginalValueForPicker(
+    awaitingJob,
+    Array.isArray(existingAliases) ? existingAliases : []
+  )
+  const pickerItems = [
+    buildPickerOriginalValueItem({ value: originalValue }),
+  ].concat(pickerCandidates.map(function(candidate) {
+    return {
+      title: candidate.alias,
+      artist: '',
+      preview: candidate.preview || candidate.alias,
+      source: candidate.source || '',
+      matchType: candidate.source || '',
+    }
+  }))
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -171,7 +194,6 @@ export default function AliasesSearchButton({
           inline={inline}
           progress={lookup.progressPercent}
           suggestionCount={awaitingCandidates.length}
-          onClearSuggestions={clearAwaitingSuggestions}
           onOpenSuggestions={openAwaitingSuggestions}
         />
         <SearchProgressBar
@@ -190,15 +212,9 @@ export default function AliasesSearchButton({
         title="Choose aliases to add"
         multiSelect={true}
         selectedIndexes={selectedIndexes}
-        items={pickerCandidates.map(function(candidate) {
-          return {
-            title: candidate.alias,
-            artist: '',
-            preview: candidate.preview || candidate.alias,
-            source: candidate.source || '',
-          }
-        })}
+        items={pickerItems}
         onSelect={function(item, index) {
+          if (item && item.__current) return
           let alreadySelected = false
           setSelectedIndexes(function(prev) {
             if (prev.indexOf(index) >= 0) {

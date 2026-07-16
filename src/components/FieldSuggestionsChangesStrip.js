@@ -7,6 +7,7 @@ const KIND_LABELS = {
   notation: 'Notation',
   links: 'Links',
   genre: 'Genre',
+  title: 'Title',
   artists: 'Artists',
   aliases: 'Aliases',
   background: 'Background',
@@ -14,7 +15,7 @@ const KIND_LABELS = {
 
 /**
  * Top-of-form suggestions strip:
- * Suggestions | [Composer] [Genre] … | Clear Suggestions (right-aligned)
+ * Clear Suggestions (red, left) | Suggestions | [Composer] [Genre] …
  * Field name buttons open the relevant selection dialog.
  */
 export default function FieldSuggestionsChangesStrip(props) {
@@ -26,6 +27,17 @@ export default function FieldSuggestionsChangesStrip(props) {
       className="field-suggestions-changes-strip border rounded p-2 mb-2 bg-light d-flex align-items-center gap-2 flex-wrap"
       data-testid="field-suggestions-changes-strip"
     >
+      <Button
+        size="sm"
+        variant="danger"
+        className="field-suggestions-clear-all"
+        data-testid="suggestions-clear-all"
+        onClick={function() {
+          if (typeof props.onClearAll === 'function') props.onClearAll()
+        }}
+      >
+        Clear Suggestions
+      </Button>
       <strong className="mb-0 me-1">Suggestions</strong>
       {items.map(function(item) {
         const kind = item.kind || 'field'
@@ -48,17 +60,6 @@ export default function FieldSuggestionsChangesStrip(props) {
           </Button>
         )
       })}
-      <Button
-        size="sm"
-        variant="outline-secondary"
-        className="ms-auto"
-        data-testid="suggestions-clear-all"
-        onClick={function() {
-          if (typeof props.onClearAll === 'function') props.onClearAll()
-        }}
-      >
-        Clear Suggestions
-      </Button>
     </div>
   )
 }

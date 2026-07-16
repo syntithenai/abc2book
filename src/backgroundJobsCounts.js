@@ -14,6 +14,7 @@ import { getImportReviewEnrichmentSnapshot } from './importReviewEnrichmentBridg
 import { getActiveTrackedJobs } from './longRunningJobRegistry'
 import { enrichmentSummary } from './importReviewEnrichmentQueue'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
+import { isMediaAnalysisLookupJob } from './mediaAnalysisSuggestions'
 
 export function countBackgroundResearchIncomplete() {
   return countActiveFifoJobs(bulkBackgroundResearchQueue.getState().jobs)
@@ -69,6 +70,7 @@ export function countImportEnrichmentIncomplete() {
 
 export function countActiveSearchIncomplete() {
   const fieldJobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
+    if (isMediaAnalysisLookupJob(job)) return false
     return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
   }).length
   return fieldJobs + getActiveTrackedJobs().length

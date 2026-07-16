@@ -38,10 +38,11 @@ import {
   playbackModeFromPathname,
   findNextOfflinePlayableListIndex,
 } from './offlinePlayback'
-import { parseTempoBpm, tempoRangeLabel, tempoRangeSortKey } from './tempoRange'
+import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, filter, setFilter, groupBy, setGroupBy, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -333,31 +334,29 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   }
 
   function buildSearchListOrderedIds() {
+    // Prefer the list IndexLayout last rendered (includes tuneStatus groups, etc.).
+    var fromListState = buildOrderedSearchListIds(filtered, grouped, groupBy)
+    if (fromListState && fromListState.length > 0) return fromListState
+
     var useTunes = fromSearch(filter, currentTuneBook, tagFilter, genreFilter, artistFilter)
     useTunes.sort(function(a, b) {
       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
     })
-    var orderedIds = []
-    if (groupBy) {
-      var grouped = groupTunes(useTunes, groupBy)
-      Object.keys(grouped).sort(function(a, b) {
-        if (!a || (a.trim && a.trim() === '')) return -1
-        if (!b || (b.trim && b.trim() === '')) return 1
-        if (groupBy === 'tempoRange') {
-          return tempoRangeSortKey(a) > tempoRangeSortKey(b) ? 1 : -1
-        }
-        if (parseInt(a) > 0 && parseInt(b) > 0) {
-          return parseInt(a) > parseInt(b) ? 1 : -1
-        }
-        return a > b ? 1 : -1
-      }).forEach(function(groupKey) {
-        grouped[groupKey].forEach(function(itemIndex) {
-          if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
-        })
-      })
-    } else {
-      orderedIds = useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
+    if (!groupBy || groupBy === 'tuneStatus') {
+      // tuneStatus groups are computed in IndexLayout; without list state, fall back to alpha order.
+      return useTunes.map(function(t) { return t && t.id ? t.id : null }).filter(Boolean)
     }
+    var rebuiltGroups = groupTunes(useTunes, groupBy)
+    var orderedIds = []
+    Object.keys(rebuiltGroups).sort(function(a, b) {
+      return compareSearchGroupKeys(groupBy, a, b)
+    }).forEach(function(groupKey) {
+      var indexes = rebuiltGroups[groupKey]
+      if (!Array.isArray(indexes) || indexes.length === 0) return
+      indexes.forEach(function(itemIndex) {
+        if (useTunes[itemIndex] && useTunes[itemIndex].id) orderedIds.push(useTunes[itemIndex].id)
+      })
+    })
     return orderedIds
   }
 
@@ -415,6 +414,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function runAdjacentSongNavigation(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
     var opts = options || {}
     var mediaController = opts.mediaController
+    var forceSearchList = !!opts.forceSearchList
     // Capture before stop() clears intent/playing state.
     var startPlayback = !!(mediaController && isPlaybackActivelyPlaying(mediaController))
     if (mediaController) stopSingleViewPlayback(mediaController)
@@ -424,9 +424,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       startPlayback: startPlayback,
     }
     if (mediaController) stepOpts.mediaController = mediaController
-    // In the editor, next/prev always follow the current search/list order and
-    // stay on the same editor tab — not the active set playlist or now-playing queue.
-    if (!isEditorPath(locationPathname)) {
+    // Header skip / list browse: always walk the current search results (incl. groups).
+    // Editor also stays on search/list order. Playlist/set stepping uses the bottom bar
+    // (or auto-advance) unless forceSearchList is set.
+    if (!forceSearchList && !isEditorPath(locationPathname)) {
       if (setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
         if (navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, stepOpts)) return
       }

@@ -9,11 +9,24 @@ import {
 } from '../composerDiscoveryUtils'
 import { normalizeArtistKey } from '../genericArtistUtils'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
+import {
+  applyFieldLookupChoice,
+  buildSearchModeOptions,
+  dismissFieldLookup,
+  getAwaitingJob,
+  offerSideFieldSuggestion,
+} from '../tuneFieldLookupQueue'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
+import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
+import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
+import {
+  buildPickerOriginalValueItem,
+  resolveOriginalValueForPicker,
+  searchableSuggestions,
+} from '../fieldSuggestionsUtils'
 
 function splitComposerSearchCandidates(candidates) {
   const list = Array.isArray(candidates) ? candidates : []
@@ -88,6 +101,8 @@ export default function ComposerSearchButton({
   const [pendingArtistCandidates, setPendingArtistCandidates] = useState([])
   const [showArtistPicker, setShowArtistPicker] = useState(false)
   const [selectedArtistIndexes, setSelectedArtistIndexes] = useState([])
+  const [titlePickerCandidates, setTitlePickerCandidates] = useState([])
+  const [showTitlePicker, setShowTitlePicker] = useState(false)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
     ? resolverAvailableProp
@@ -98,6 +113,8 @@ export default function ComposerSearchButton({
   pickWhenMultipleRef.current = !!pickWhenMultiple
   const skipArtistPickerRef = useRef(!!skipArtistPicker)
   skipArtistPickerRef.current = !!skipArtistPicker
+  /** Only chain to artists picker after an auto-opened post-search composer dialog. */
+  const chainArtistPickerRef = useRef(false)
   const searchModeRef = useRef('auto')
   const composerRef = useRef(composer)
   composerRef.current = composer
@@ -117,17 +134,66 @@ export default function ComposerSearchButton({
   const hints = getEffectiveComposerSearchHints(title, composer, titleHint)
   const effectiveTitle = hints.title
 
+  function notifyTitleApplied(nextTitle, source) {
+    if (typeof onSuggestedTitleRef.current !== 'function') return
+    if (!nextTitle) {
+      onSuggestedTitleRef.current(null)
+      return
+    }
+    onSuggestedTitleRef.current({
+      title: nextTitle,
+      source: source || 'MusicBrainz',
+    })
+  }
+
   function emitSuggestedTitle(job) {
     const suggested = job && job.suggestedTitle ? String(job.suggestedTitle).trim() : ''
-    if (typeof onSuggestedTitleRef.current !== 'function') return
-    if (shouldOfferTitleSuggestion(titleRef.current, suggested)) {
-      onSuggestedTitleRef.current({
-        title: suggested,
-        source: 'MusicBrainz',
-      })
-    } else {
-      onSuggestedTitleRef.current(null)
+    if (!shouldOfferTitleSuggestion(titleRef.current, suggested)) return
+    const candidate = {
+      title: suggested,
+      source: 'MusicBrainz',
+      preview: suggested,
     }
+    if (!tuneId && !candidateId) {
+      notifyTitleApplied(suggested, 'MusicBrainz')
+      return
+    }
+    offerSideFieldSuggestion({
+      tuneId: tuneId,
+      candidateId: candidateId,
+      kind: 'title',
+      candidate: candidate,
+      currentValue: titleRef.current,
+      title: titleRef.current,
+      onApplied: function(applied) {
+        notifyTitleApplied(applied && applied.title, applied && applied.source)
+      },
+    })
+  }
+
+  function openTitleSuggestions() {
+    const targetKey = tuneId
+      ? ('tune:' + String(tuneId))
+      : (candidateId ? ('candidate:' + String(candidateId)) : '')
+    if (!targetKey) return
+    const job = getAwaitingJob(targetKey, 'title')
+    const candidates = searchableSuggestions(job)
+    if (!candidates.length) return
+    setTitlePickerCandidates(candidates)
+    setShowTitlePicker(true)
+  }
+
+  useOpenFieldSuggestions(tuneId, 'title', openTitleSuggestions)
+
+  function chooseTitleCandidate(candidate) {
+    setShowTitlePicker(false)
+    setTitlePickerCandidates([])
+    const targetKey = tuneId
+      ? ('tune:' + String(tuneId))
+      : (candidateId ? ('candidate:' + String(candidateId)) : '')
+    const job = targetKey ? getAwaitingJob(targetKey, 'title') : null
+    if (job) applyFieldLookupChoice(job.id, candidate)
+    notifyTitleApplied(candidate && candidate.title, candidate && candidate.source)
   }
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
@@ -158,6 +224,14 @@ export default function ComposerSearchButton({
       }).filter(Boolean))
     }
     return filtered
+  }
+
+  function openComposerPicker(composers, artistCandidates, options) {
+    const opts = options || {}
+    chainArtistPickerRef.current = !!opts.chainArtists
+    setPendingArtistCandidates(Array.isArray(artistCandidates) ? artistCandidates : [])
+    setComposerPickerCandidates(Array.isArray(composers) ? composers : [])
+    setShowComposerPicker(true)
   }
 
   function maybeOpenArtistPicker(candidates, chosenComposer) {
@@ -210,20 +284,16 @@ export default function ComposerSearchButton({
         return
       }
       if (pickWhenMultipleRef.current) {
-        setPendingArtistCandidates(split.artistCandidates)
         if (composers.length === 1) {
           applyRef.current(composers[0], job.id)
           maybeOpenArtistPicker(split.artistCandidates, composers[0] && composers[0].artist)
           return
         }
-        setComposerPickerCandidates(composers)
-        setShowComposerPicker(true)
+        openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
         return
       }
       if (forcePick) {
-        setPendingArtistCandidates(split.artistCandidates)
-        setComposerPickerCandidates(composers)
-        setShowComposerPicker(true)
+        openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
         return
       }
       if (needsComposerDiscovery(composerRef.current) || searchModeRef.current === 'auto') {
@@ -232,9 +302,7 @@ export default function ComposerSearchButton({
         return
       }
       if (composers.length > 1) {
-        setPendingArtistCandidates(split.artistCandidates)
-        setComposerPickerCandidates(composers)
-        setShowComposerPicker(true)
+        openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
         return
       }
       applyRef.current(composers[0], job.id)
@@ -254,35 +322,49 @@ export default function ComposerSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
+  const awaitingCandidates = searchableSuggestions(awaitingJob)
+
+  useSyncFieldLookupOriginalValue(tuneId, 'composer', composer, awaitingJob)
 
   function chooseComposerCandidate(candidate) {
+    const chainArtists = chainArtistPickerRef.current
+    chainArtistPickerRef.current = false
+    const artists = pendingArtistCandidates
     closeComposerPicker()
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
       ? lookup.activeJob.id
       : null
     finishApply(candidate, jobId)
-    maybeOpenArtistPicker(pendingArtistCandidates, candidate && candidate.artist)
+    if (chainArtists) {
+      maybeOpenArtistPicker(artists, candidate && candidate.artist)
+    } else {
+      setPendingArtistCandidates([])
+    }
   }
 
   function hideComposerPicker() {
+    const chainArtists = chainArtistPickerRef.current
+    chainArtistPickerRef.current = false
     const artists = pendingArtistCandidates
     closeComposerPicker()
-    maybeOpenArtistPicker(artists, composerRef.current)
+    if (chainArtists) {
+      maybeOpenArtistPicker(artists, composerRef.current)
+    } else {
+      setPendingArtistCandidates([])
+    }
   }
 
   function openAwaitingSuggestions() {
     if (awaitingCandidates.length === 0) return
     setError('')
     const split = splitComposerSearchCandidates(awaitingCandidates)
-    setPendingArtistCandidates(split.artistCandidates)
-    setComposerPickerCandidates(split.composerCandidates)
-    setShowComposerPicker(true)
+    openComposerPicker(split.composerCandidates, split.artistCandidates, { chainArtists: false })
   }
 
+  useOpenFieldSuggestions(tuneId, 'composer', openAwaitingSuggestions)
+
   function clearAwaitingSuggestions() {
+    chainArtistPickerRef.current = false
     lookup.dismiss()
     closeComposerPicker()
     closeArtistPicker()
@@ -301,11 +383,18 @@ export default function ComposerSearchButton({
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
+    chainArtistPickerRef.current = false
     closeComposerPicker()
     closeArtistPicker()
-    if (typeof onSuggestedTitleRef.current === 'function') {
-      onSuggestedTitleRef.current(null)
+    const titleTarget = tuneId
+      ? ('tune:' + String(tuneId))
+      : (candidateId ? ('candidate:' + String(candidateId)) : '')
+    if (titleTarget) {
+      const titleJob = getAwaitingJob(titleTarget, 'title')
+      if (titleJob) dismissFieldLookup(titleJob.id)
     }
+    setShowTitlePicker(false)
+    setTitlePickerCandidates([])
     lookup.startSearch({
       title: effectiveTitle,
       artist: hints.artistHint || composer || '',
@@ -332,9 +421,19 @@ export default function ComposerSearchButton({
         artist: role,
         preview: candidate.preview || candidate.artist,
         source: candidate.source || role,
+        matchType: role || candidate.source || '',
       }
     })
   }
+
+  const originalValue = resolveOriginalValueForPicker(awaitingJob, composer || '')
+  const titleOriginalValue = resolveOriginalValueForPicker(
+    getAwaitingJob(
+      tuneId ? ('tune:' + String(tuneId)) : (candidateId ? ('candidate:' + String(candidateId)) : ''),
+      'title'
+    ),
+    title || ''
+  )
 
   const buttonGroup = (
     <>
@@ -351,7 +450,6 @@ export default function ComposerSearchButton({
         inline={inline}
         progress={lookup.progressPercent}
         suggestionCount={showSuggestionsChrome ? awaitingCandidates.length : 0}
-        onClearSuggestions={showSuggestionsChrome ? clearAwaitingSuggestions : undefined}
         onOpenSuggestions={showSuggestionsChrome ? openAwaitingSuggestions : undefined}
       />
       <SearchProgressBar
@@ -368,13 +466,20 @@ export default function ComposerSearchButton({
       <SearchResultPickerModal
         show={showComposerPicker}
         title="Choose composer"
-        items={mapCandidateItems(composerPickerCandidates)}
-        onSelect={function(item) {
-          chooseComposerCandidate({
+        items={[
+          buildPickerOriginalValueItem({ value: originalValue }),
+        ].concat(mapCandidateItems(composerPickerCandidates))}
+        onSelect={function(item, index) {
+          if (item && item.__current) {
+            hideComposerPicker()
+            return
+          }
+          const candidate = composerPickerCandidates[index - 1] || {
             artist: item.title,
             source: item.source,
             role: item.artist === 'Writer' ? 'writer' : (item.artist === 'Performer' ? 'performer' : ''),
-          })
+          }
+          chooseComposerCandidate(candidate)
         }}
         onHide={hideComposerPicker}
       />
@@ -401,6 +506,37 @@ export default function ComposerSearchButton({
         }}
         onDone={closeArtistPicker}
         onHide={closeArtistPicker}
+      />
+      <SearchResultPickerModal
+        show={showTitlePicker}
+        title="Choose title"
+        items={[
+          buildPickerOriginalValueItem({ value: titleOriginalValue }),
+        ].concat(titlePickerCandidates.map(function(candidate) {
+          return {
+            title: candidate.title,
+            artist: candidate.source || '',
+            preview: candidate.preview || candidate.title,
+            source: candidate.source || '',
+            matchType: candidate.source || '',
+          }
+        }))}
+        onSelect={function(item, index) {
+          if (item && item.__current) {
+            setShowTitlePicker(false)
+            setTitlePickerCandidates([])
+            return
+          }
+          const candidate = titlePickerCandidates[index - 1] || {
+            title: item && item.title,
+            source: item && item.source,
+          }
+          chooseTitleCandidate(candidate)
+        }}
+        onHide={function() {
+          setShowTitlePicker(false)
+          setTitlePickerCandidates([])
+        }}
       />
     </>
   )

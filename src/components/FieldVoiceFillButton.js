@@ -7,6 +7,14 @@ import { submitVoiceCommand } from '../voiceCommandClient'
 const MIN_HOLD_MS = 300
 const MAX_RECORD_MS = 12000
 
+/** Drop trailing sentence punctuation Whisper often appends (e.g. "Hello."). */
+function stripTrailingPunctuation(value) {
+  return String(value || '')
+    .trim()
+    .replace(/[.!?…,:;]+$/u, '')
+    .trim()
+}
+
 function MicIcon() {
   return (
     <svg
@@ -39,7 +47,9 @@ export default function FieldVoiceFillButton(props) {
   const maxRecordTimerRef = useRef(null)
   const abortRef = useRef(null)
   const pointerActiveRef = useRef(false)
-  const fieldKind = props.fieldKind === 'composer' ? 'composer' : 'title'
+  const fieldKind = props.fieldKind === 'composer'
+    ? 'composer'
+    : (props.fieldKind === 'search' ? 'search' : 'title')
 
   useEffect(function() {
     return function() {
@@ -149,10 +159,12 @@ export default function FieldVoiceFillButton(props) {
       let text = ''
       if (fieldKind === 'composer') {
         text = result.artist || result.transcript || ''
+      } else if (fieldKind === 'search') {
+        text = result.searchText || result.title || result.transcript || ''
       } else {
         text = result.title || result.searchText || result.transcript || ''
       }
-      text = String(text || '').trim()
+      text = stripTrailingPunctuation(text)
       if (!text) {
         toast.info('No speech recognised')
       } else if (typeof props.onFill === 'function') {
@@ -201,14 +213,19 @@ export default function FieldVoiceFillButton(props) {
 
   if (!resolverAvailable || !features.whisper) return null
 
-  const label = fieldKind === 'composer' ? 'Hold to speak composer' : 'Hold to speak title'
+  const label = fieldKind === 'composer'
+    ? 'Hold to speak composer'
+    : (fieldKind === 'search' ? 'Hold to speak search' : 'Hold to speak title')
   const busy = state === 'recording' || state === 'processing'
+  const buttonClassName = ['field-voice-fill-btn']
+  if (props.className) buttonClassName.push(props.className)
 
   return (
     <Button
       type="button"
       variant={state === 'recording' ? 'danger' : 'outline-secondary'}
-      size="sm"
+      size={props.size}
+      className={buttonClassName.join(' ')}
       disabled={state === 'processing'}
       title={label}
       aria-label={label}

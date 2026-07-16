@@ -288,6 +288,43 @@ export function getTightSvgDimensions(svg) {
   return getFitDimensionsFromFrame(frame);
 }
 
+/**
+ * Shrink abcjs title / subtitle / composer for on-screen display.
+ * Print/PDF uses TunePrintSheet HTML headers (and strips T:), so leave those paths alone.
+ * Pass as renderAbc `afterParsing` so spacing lands on tune.formatting before engrave.
+ */
+export function applyCompactScreenNotationMeta(tune) {
+  if (!tune || !tune.formatting) return;
+  const f = tune.formatting;
+  const face = (f.titlefont && f.titlefont.face) || '"Times New Roman"';
+  f.titlefont = {
+    face: face,
+    size: 14,
+    weight: (f.titlefont && f.titlefont.weight) || 'normal',
+    style: 'normal',
+    decoration: 'none',
+  };
+  f.subtitlefont = {
+    face: (f.subtitlefont && f.subtitlefont.face) || face,
+    size: 12,
+    weight: 'normal',
+    style: 'normal',
+    decoration: 'none',
+  };
+  f.composerfont = {
+    face: (f.composerfont && f.composerfont.face) || face,
+    size: 11,
+    weight: 'normal',
+    style: 'italic',
+    decoration: 'none',
+  };
+  f.titlespace = 0;
+  f.composerspace = 0.5;
+  f.subtitlespace = 0;
+  f.musicspace = 2;
+  f.topspace = 0;
+}
+
 export function buildGigNotationRenderOptions(visualTranspose) {
   return {
     visualTranspose: visualTranspose,

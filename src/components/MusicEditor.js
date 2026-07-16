@@ -3,7 +3,6 @@ import {Button, ButtonGroup} from 'react-bootstrap'
 import {useState, useEffect, useCallback, useRef} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
-import FieldLookupReviewButton from './FieldLookupReviewButton'
 import NotationSearchButton from './NotationSearchButton'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
@@ -172,6 +171,9 @@ export default function MusicEditor(props) {
                     artist={tune && tune.composer ? tune.composer : ''}
                     rhythm={tune && tune.rhythm ? tune.rhythm : ''}
                     currentGenre={tune && tune.genre ? tune.genre : ''}
+                    currentValue={tune && tune.notes
+                      ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
+                      : (typeof abc === 'string' ? abc : '')}
                     token={props.token}
                     tunebook={props.tunebook}
                     disabled={!(tune && tune.name && String(tune.name).trim())}
@@ -201,24 +203,6 @@ export default function MusicEditor(props) {
                         forceRefresh={props.forceRefresh}
                       />
                     ) : null}
-                    <FieldLookupReviewButton
-                      tuneId={tune && tune.id}
-                      kind="notation"
-                      fallbackTitle={tune && tune.name ? tune.name : ''}
-                      currentValue={tune && tune.notes
-                        ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
-                        : ''}
-                      onApply={function(candidate, _job, meta) {
-                        if (meta && (meta.deferred || meta.keepCurrent)) return
-                        if (!candidate || !candidate.abc || !tune || !props.tunebook) return
-                        const imported = props.tunebook.abcTools.abc2json(candidate.abc)
-                        if (imported) {
-                          imported.id = tune.id
-                          props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
-                          if (typeof props.forceRefresh === 'function') props.forceRefresh()
-                        }
-                      }}
-                    />
                 </span>
             </div>
             <div className="music-editor-header-actions">

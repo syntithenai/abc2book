@@ -16,16 +16,20 @@ import {
 import { buildComposerPickerCandidates } from './composerDiscoveryUtils'
 import { isAbortError } from './abortUtils'
 import {
+  buildCurrentValueSuggestion,
+  collateUniqueSuggestions,
+  nonCurrentCandidates,
+} from './fieldSuggestionsUtils'
+import { shouldOfferTitleSuggestion } from './composerDiscoveryUtils'
+import { shouldOfferGenreSuggestion } from './genreInference'
+import {
   applyCandidateToTune,
+  candidateDisplayValue,
   historyLabelForKind,
   isTuneFieldEmptyForKind,
   toastAppliedFieldLookup,
   toastFieldSearchFinished,
 } from './fieldLookupApplyUtils'
-import {
-  buildCurrentValueSuggestion,
-  collateUniqueSuggestions,
-} from './fieldSuggestionsUtils'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
@@ -39,7 +43,10 @@ export const FIELD_LOOKUP_KINDS = [
   'genre',
   'artists',
   'aliases',
+  'title',
 ]
+
+export const SIDE_FIELD_SUGGESTION_ORIGIN = 'side-inference'
 
 const MAX_CONCURRENT_JOBS = 3
 
@@ -143,6 +150,7 @@ function kindLabel(kind) {
   if (kind === 'genre') return 'Genre search'
   if (kind === 'artists') return 'Artists search'
   if (kind === 'aliases') return 'Alias search'
+  if (kind === 'title') return 'Title suggestion'
   return 'Field search'
 }
 
@@ -167,6 +175,7 @@ function publicJob(job) {
     options: job.options ? Object.assign({}, job.options) : {},
     appliedCandidate: job.appliedCandidate || null,
     suggestedTitle: job.suggestedTitle || '',
+    origin: job.origin || null,
   }
 }
 
@@ -268,6 +277,7 @@ async function persistState() {
           options: job.options || {},
           accessToken: job.accessToken,
           cancelled: !!job.cancelled,
+          origin: job.origin || null,
         }
       }),
     })
@@ -307,6 +317,7 @@ export async function restoreAndResume() {
         options: item.options && typeof item.options === 'object' ? item.options : {},
         accessToken: item.accessToken || null,
         cancelled: !!item.cancelled,
+        origin: item.origin || null,
       }
     })
     notify()
@@ -402,6 +413,9 @@ export function seedAwaitingLookup(spec) {
       existing.progress = 100
       existing.message = ''
       existing.error = null
+      if (spec.origin) existing.origin = spec.origin
+      if (spec.label) existing.label = spec.label
+      if (spec.originalValue !== undefined) existing.originalValue = spec.originalValue
       notifyLive(existing)
       notify()
       schedulePersist()
@@ -429,12 +443,106 @@ export function seedAwaitingLookup(spec) {
     searchOptions: {},
     accessToken: null,
     cancelled: false,
+    origin: spec.origin || null,
+    originalValue: spec.originalValue !== undefined ? spec.originalValue : undefined,
   }
   jobs.push(job)
   notifyLive(job)
   notify()
   schedulePersist()
   return job.id
+}
+
+/**
+ * Offer a genre/title (etc.) suggestion from another search.
+ * Empty fields are applied without attaching suggestions; matching values are skipped;
+ * otherwise seeds the normal Suggestions strip.
+ */
+export function offerSideFieldSuggestion(spec) {
+  const opts = spec || {}
+  const kind = opts.kind
+  const tuneId = opts.tuneId || null
+  const candidateId = opts.candidateId || null
+  const candidate = opts.candidate
+  if (!kind || FIELD_LOOKUP_KINDS.indexOf(kind) < 0) return null
+  if (!tuneId && !candidateId) return null
+  if (!candidate) return null
+
+  const tune = (typeof queueContext.getTune === 'function' && tuneId)
+    ? queueContext.getTune(tuneId)
+    : (opts.tune || null)
+
+  let currentValue = opts.currentValue
+  if (currentValue === undefined && tuneId) {
+    currentValue = currentFieldValueForJob({ tuneId: tuneId, kind: kind })
+  }
+  if (currentValue === undefined || currentValue === null) {
+    currentValue = kind === 'artists' || kind === 'aliases' || kind === 'links' ? [] : ''
+  }
+
+  const display = candidateDisplayValue(kind, candidate)
+  if (kind === 'genre') {
+    if (!shouldOfferGenreSuggestion(display, currentValue)) return null
+  } else if (kind === 'title') {
+    if (!shouldOfferTitleSuggestion(String(currentValue || ''), display)) return null
+  } else if (!display) {
+    return null
+  }
+
+  const empty = tune
+    ? isTuneFieldEmptyForKind(tune, kind)
+    : !(Array.isArray(currentValue)
+      ? currentValue.some(function(item) { return String(item || '').trim() })
+      : String(currentValue || '').trim())
+
+  if (empty) {
+    let applied = false
+    if (tune) {
+      applied = applyCandidateToTune(tune, kind, candidate, queueContext.abcTools)
+      if (applied && typeof queueContext.saveTune === 'function') {
+        try {
+          queueContext.saveTune(tune, false, { historyLabel: historyLabelForKind(kind) })
+          if (typeof queueContext.forceRefresh === 'function') {
+            queueContext.forceRefresh()
+          }
+        } catch (e) {
+          // keep going so onApplied can still sync draft forms
+        }
+      }
+    }
+    if (typeof opts.onApplied === 'function') {
+      opts.onApplied(candidate)
+      applied = true
+    }
+    return applied ? { applied: true } : null
+  }
+
+  const targetKey = tuneId ? ('tune:' + String(tuneId)) : ('candidate:' + String(candidateId))
+  const existing = getAwaitingJob(targetKey, kind)
+  if (existing) dismissFieldLookup(existing.id)
+
+  let candidates = [candidate]
+  const current = buildCurrentValueSuggestion(kind, currentValue)
+  if (current) candidates = [current].concat(candidates)
+  candidates = collateUniqueSuggestions(kind, candidates)
+  const searchable = nonCurrentCandidates(candidates, {
+    kind: kind,
+    originalValue: currentValue,
+  })
+  if (!searchable.length) return null
+
+  const id = seedAwaitingLookup({
+    tuneId: tuneId,
+    candidateId: candidateId,
+    kind: kind,
+    title: opts.title || '',
+    artist: opts.artist || '',
+    label: opts.label || kindLabel(kind),
+    candidates: candidates,
+    origin: opts.origin || SIDE_FIELD_SUGGESTION_ORIGIN,
+    originalValue: currentValue,
+  })
+  return id ? { seeded: id } : null
 }
 
 function abortRunningJob(job) {
@@ -475,9 +583,22 @@ export function cancelAllJobs() {
 }
 
 export function clearFinishedJobs() {
-  jobs = jobs.filter(function(job) {
-    return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
+  const kept = []
+  jobs.forEach(function(job) {
+    if (job.status === 'pending' || job.status === 'running') {
+      kept.push(job)
+      return
+    }
+    if (job.status === 'awaiting') {
+      job.status = 'done'
+      job.progress = 100
+      job.message = ''
+      job.candidates = []
+      job.manualCandidates = []
+      notifyFieldLookupResolved(job)
+    }
   })
+  jobs = kept
   notify()
   schedulePersist()
 }
@@ -833,6 +954,7 @@ function currentFieldValueForJob(job) {
     return (tune.abc && String(tune.abc)) || ''
   }
   if (job.kind === 'genre') return tune.genre || ''
+  if (job.kind === 'title') return tune.name || ''
   if (job.kind === 'artists') return Array.isArray(tune.artists) ? tune.artists : []
   if (job.kind === 'aliases') return Array.isArray(tune.aliases) ? tune.aliases : []
   if (job.kind === 'links') return Array.isArray(tune.links) ? tune.links : []
@@ -869,13 +991,17 @@ function tryApplyCandidateKeepSuggestions(job, candidate) {
 
 /**
  * Settle a completed search:
- * - Always persist unique suggestions (including Current when field non-empty).
+ * - Persist unique suggestions (including Original Value when field non-empty).
+ * - Freeze originalValue at settle time; applying a suggestion must not rewrite it.
  * - If field empty, also apply the first search result.
- * - Stay awaiting so Suggestions / Review strip can revisit.
+ * - Skip attaching suggestions when there is nothing to review:
+ *   empty field + single auto-applied result, or sole result matches current value.
+ * - Otherwise stay awaiting so Suggestions / Review strip can revisit.
  */
 function settleCompletedJob(job) {
   let candidates = Array.isArray(job.candidates) ? job.candidates.slice() : []
   const currentValue = currentFieldValueForJob(job)
+  job.originalValue = currentValue
   const fieldEmpty = !job.tuneId || isTuneFieldEmptyForKind(
     queueContext.getTune && job.tuneId ? queueContext.getTune(job.tuneId) : null,
     job.kind
@@ -883,18 +1009,42 @@ function settleCompletedJob(job) {
   if (!fieldEmpty) {
     const currentSuggestion = buildCurrentValueSuggestion(job.kind, currentValue)
     if (currentSuggestion) {
-      candidates = [currentSuggestion].concat(candidates)
+      candidates = [currentSuggestion].concat(nonCurrentCandidates(candidates, {
+        kind: job.kind,
+        originalValue: currentValue,
+      }))
     }
+  } else {
+    candidates = nonCurrentCandidates(candidates, { kind: job.kind })
   }
   candidates = collateUniqueSuggestions(job.kind, candidates)
   job.candidates = candidates
 
+  const searchCandidates = nonCurrentCandidates(candidates, {
+    kind: job.kind,
+    originalValue: currentValue,
+  })
+
   let applied = false
-  if (fieldEmpty && candidates.length) {
-    const firstSearch = candidates.find(function(item) {
-      return item && !item.isCurrent && item.id !== 'current'
-    }) || candidates[0]
-    applied = tryApplyCandidateKeepSuggestions(job, firstSearch)
+  if (fieldEmpty && searchCandidates.length) {
+    applied = tryApplyCandidateKeepSuggestions(job, searchCandidates[0])
+  }
+
+  // Nothing alternative to pick: matched current, or empty + sole result already applied.
+  const skipSuggestions = searchCandidates.length === 0
+    || (fieldEmpty && applied && searchCandidates.length === 1)
+
+  if (skipSuggestions) {
+    job.status = 'done'
+    job.progress = 100
+    job.message = ''
+    job.candidates = []
+    toastFieldSearchFinished(job.kind, {
+      count: applied ? 1 : 0,
+      applied: applied,
+    })
+    notifyLive(job)
+    return
   }
 
   markAwaiting(job)
@@ -902,6 +1052,29 @@ function settleCompletedJob(job) {
     count: candidates.length,
     applied: applied,
   })
+}
+
+/**
+ * Update the frozen Original Value for an awaiting job after a manual field edit.
+ * Does not change Original Value when a search suggestion is applied.
+ */
+export function updateFieldLookupOriginalValue(tuneId, kind, value) {
+  if (!tuneId || !kind) return false
+  const job = getAwaitingJob('tune:' + String(tuneId), kind)
+  if (!job) return false
+  job.originalValue = value
+  const rest = nonCurrentCandidates(job.candidates, {
+    kind: kind,
+    originalValue: value,
+  })
+  const original = buildCurrentValueSuggestion(kind, value)
+  job.candidates = collateUniqueSuggestions(
+    kind,
+    original ? [original].concat(rest) : rest
+  )
+  notify()
+  schedulePersist()
+  return true
 }
 
 async function runJob(job) {
@@ -1096,6 +1269,7 @@ export function __loadSavedStateForTests(saved) {
       searchOptions: {},
       accessToken: item.accessToken || null,
       cancelled: !!item.cancelled,
+      origin: item.origin || null,
     }
   })
   notify()

@@ -1,7 +1,5 @@
 import {useState} from 'react'
-import {Button, Modal, ListGroup, Form} from 'react-bootstrap'
-import { FormLabelWithHelp } from './FormFieldHelp'
-import { SEARCH_FIELD_HELP } from '../formFieldHelpText'
+import {Button, Modal, ListGroup} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 function GroupBySelectorModal(props) {
@@ -15,32 +13,18 @@ function GroupBySelectorModal(props) {
   return (
     <>
       <Button className="tune-search-layout-btn" style={{color:'black', fontWeight:'bold'}} onClick={handleShow}>
-        {props.tunebook.icons.stack} {props.value && options[props.value] ? options[props.value] : ''}
+        {props.tunebook.icons.stack}
+        {props.hideSelection
+          ? <span className="tune-search-filters-btn-label"> Group by</span>
+          : (props.value && options[props.value] ? ' ' + options[props.value] : '')}
       </Button>
 
       <Modal show={show} onHide={handleClose} {...responsiveModalProps}>
         <Modal.Header closeButton>
-          <Modal.Title>List Layout</Modal.Title>
-          
+          <Modal.Title>Group By</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', gap:'0.5em'}}>
-            <FormLabelWithHelp label="Show preview?" helpBody={SEARCH_FIELD_HELP.showPreview.body} helpTitle={SEARCH_FIELD_HELP.showPreview.title} />
-            <Form.Check
-              type="switch"
-              id="list-layout-show-preview"
-              label=""
-              checked={props.showPreviewInList ? true : false}
-              onChange={function() {
-                props.setShowPreviewInList(!props.showPreviewInList)
-              }}
-            />
-          </div>
-        </Modal.Body>
-        <Modal.Footer>
-          <Modal.Title style={{width:'100%'}} >Group By</Modal.Title>
           <ListGroup  style={{clear:'both', width: '100%'}}>
-          
             <ListGroup.Item  style={{fontSize:'1.5em'}} key={'first'} className='odd'  onClick={function(e) {props.onChange(''); handleClose()}} >No Grouping</ListGroup.Item>
             <>
             {Object.keys(options).map(function(option,tk) {
@@ -48,7 +32,7 @@ function GroupBySelectorModal(props) {
             })}
             </>
           </ListGroup>
-        </Modal.Footer>
+        </Modal.Body>
       </Modal>
     </>
   );

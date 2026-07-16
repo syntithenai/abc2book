@@ -4,6 +4,7 @@
 
 export const TOOLBAR_EXPAND_THRESHOLDS = {
   // Expand when container width is at least this many pixels.
+  clipboard: 400,
   durations: 520,
   accidentals: 680,
   barlines: 800,
@@ -19,6 +20,7 @@ export function expandFlagsForWidth(widthPx) {
   const w = typeof widthPx === 'number' && widthPx > 0 ? widthPx : 0;
   const t = TOOLBAR_EXPAND_THRESHOLDS;
   return {
+    clipboard: w >= t.clipboard,
     durations: w >= t.durations,
     accidentals: w >= t.accidentals,
     barlines: w >= t.barlines,

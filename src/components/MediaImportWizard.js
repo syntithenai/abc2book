@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Modal, Tab, Tabs, Alert } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Modal, Tab, Tabs, Alert, Button } from 'react-bootstrap';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import useAbcjsParser from '../useAbcjsParser';
 import useMediaResolverHealth from '../useMediaResolverHealth';
@@ -12,7 +12,6 @@ import {
 } from '../mediaImportWizardState';
 import { getDetectedTempoFromAnalysis, tuneHasTempo } from '../mediaAnalysisClient';
 import { finishMediaImportWizard } from '../mediaImportWizardFinish';
-import { showBackgroundProcessingNotice } from '../backgroundReviewToast';
 import { needsComposerDiscovery } from '../composerDiscoveryUtils';
 import { getLyricLines } from '../wLinesUtils';
 import { buildSectionsFromLines } from '../timedLyricsModel';
@@ -38,6 +37,7 @@ const STEPS = [
 
 export default function MediaImportWizard(props) {
   const show = !!props.show;
+  const navigate = useNavigate();
   const [activeStep, setActiveStep] = useState('metadata');
   const [draft, setDraft] = useState(null);
   const [dismissedTuningHint, setDismissedTuningHint] = useState(false);
@@ -113,7 +113,26 @@ export default function MediaImportWizard(props) {
     if (typeof props.onBackgroundStart === 'function') {
       props.onBackgroundStart();
     }
-    showBackgroundProcessingNotice();
+    toast.info(
+      function(renderProps) {
+        return (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75em', flexWrap: 'wrap' }}>
+            <span>Continuing in the background.</span>
+            <Button
+              size="sm"
+              variant="primary"
+              onClick={function() {
+                if (typeof renderProps.closeToast === 'function') renderProps.closeToast();
+                navigate('/settings');
+              }}
+            >
+              Settings
+            </Button>
+          </div>
+        );
+      },
+      { autoClose: 8000, hideProgressBar: true }
+    );
   }
 
   function runInBackground(startTask) {
@@ -264,6 +283,7 @@ export default function MediaImportWizard(props) {
                 canAnalyzeMedia={canAnalyzeMedia}
                 canSearch={canSearch}
                 resolverAvailable={resolverAvailable}
+                onLinksUpdated={props.onLinksUpdated}
                 onProcessingChange={function(settings) {
                   updateDraft({ processingSettings: settings });
                 }}

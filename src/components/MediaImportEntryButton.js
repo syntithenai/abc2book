@@ -11,13 +11,32 @@ function getUnavailableTitle(checked, available, whisper, disabled) {
   return '';
 }
 
+function isProgressForThisLink(linkIndex, analyzingLinkIndex, analyzingSourceId) {
+  if (linkIndex === null || linkIndex === undefined) return true;
+  if (analyzingLinkIndex !== null && analyzingLinkIndex !== undefined) {
+    return Number(analyzingLinkIndex) === Number(linkIndex);
+  }
+  if (analyzingSourceId) {
+    return analyzingSourceId === ('link-' + linkIndex);
+  }
+  return true;
+}
+
 export default function MediaImportEntryButton(props) {
   const { available, checked, features } = useMediaResolverHealth();
-  const { isAnalyzing, status, progress } = useTuneMediaAnalysis({ tune: props.tune });
+  const {
+    isAnalyzing,
+    status,
+    progress,
+    analyzingLinkIndex,
+    analyzingSourceId,
+  } = useTuneMediaAnalysis({ tune: props.tune });
 
   const whisper = !!features.whisper;
   const canAnalyze = checked && available && whisper;
-  const showAnalysisState = canAnalyze && isAnalyzing;
+  const showAnalysisState = canAnalyze
+    && isAnalyzing
+    && isProgressForThisLink(props.linkIndex, analyzingLinkIndex, analyzingSourceId);
   const idleLabel = props.label || 'Import from media';
   const label = showAnalysisState ? (status || 'Analyzing...') : idleLabel;
   const compact = !!props.compact;

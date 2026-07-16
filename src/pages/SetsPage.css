@@ -241,6 +241,15 @@
   gap: 0.35rem;
 }
 
+.sets-page-editor-action-btn .bulk-ops-dual-icon {
+  height: 1.35rem;
+}
+
+.sets-page-editor-action-btn .bulk-ops-dual-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
 .sets-page-add-tune-row {
   display: flex;
   flex-wrap: wrap;

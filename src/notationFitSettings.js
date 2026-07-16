@@ -2,7 +2,7 @@ import { NOTATION_FIT_HORIZONTAL, NOTATION_FIT_VERTICAL } from './gigNotationFit
 
 const NOTATION_FIT_MODE_KEY = 'bookstorage_notation_fit_mode';
 
-/** Tall scores use fit-height by default; short scores stay fit-width. */
+/** Kept for callers that still measure score height; default fit mode is always width. */
 export const NOTATION_FIT_HEIGHT_MIN_LINES = 5;
 
 function voiceKeysForCount(tune, activeVoiceKeys) {
@@ -45,13 +45,10 @@ export function effectiveNotationLineCount(tune, activeVoiceKeys) {
 }
 
 /**
- * Default fit mode: height when (source lines × active voices) is 5 or more;
- * otherwise width. e.g. 2 voices × 2 lines stays width; 2 × 3 or 1 × 5 uses height.
+ * Default fit mode is always width (fit-height off). Users opt in via the Fit height button.
  */
-export function defaultNotationFitModeForTune(tune, activeVoiceKeys) {
-  return effectiveNotationLineCount(tune, activeVoiceKeys) >= NOTATION_FIT_HEIGHT_MIN_LINES
-    ? NOTATION_FIT_VERTICAL
-    : NOTATION_FIT_HORIZONTAL;
+export function defaultNotationFitModeForTune(_tune, _activeVoiceKeys) {
+  return NOTATION_FIT_HORIZONTAL;
 }
 
 export function normalizeNotationFitMode(mode) {

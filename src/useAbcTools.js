@@ -230,7 +230,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -350,6 +350,9 @@ var useAbcTools = () => {
                     //console.log('FOUNDID',tune.id,line)
                 } else if (line.startsWith('% abcbook-boost')) {
                     tune.boost = parseInt(line.slice(16).trim())
+                } else if (line.startsWith('% abcbook-starred')) {
+                    var starredVal = abcbookFieldValue(line, '% abcbook-starred')
+                    tune.starred = starredVal === 'true' || starredVal === '1'
                 } else if (line.startsWith('% abcbook-difficulty')) {
                     tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
@@ -851,6 +854,7 @@ var useAbcTools = () => {
                     + "% abcbook-tune_composer_id " + ensureText(tune.composerId) + "\n" 
                     + ((linksRendered.length > 0) ? linksRendered.join("\n") + "\n" : '')
                     + "% abcbook-boost " +  ensureNumber(boost,0) + "\n" 
+                    + (tune.starred ? "% abcbook-starred true\n" : '')
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
                     + (tune.zoom > 0 ? "% abcbook-zoom " + ensureNumber(tune.zoom, 1) + "\n" : '')

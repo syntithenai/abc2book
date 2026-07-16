@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Button, Form } from 'react-bootstrap';
+import { toast } from 'react-toastify';
 import GigModeModal from '../components/GigModeModal';
 import ShareTunebookModal from '../components/ShareTunebookModal';
 import {
@@ -15,6 +16,8 @@ import {
   subscribePerformanceSets,
   normalizePerformanceSetItems,
 } from '../performanceSetStore';
+import { createQueue } from '../nowPlayingQueue';
+import { savePlaylistFromQueue } from '../savedPlaylistsStore';
 import {
   applyPlaylistTuneId,
   buildGigRoute,
@@ -22,6 +25,15 @@ import {
 } from '../gigRouteUtils';
 import { setDocumentTitle, DEFAULT_APP_TITLE } from '../pageTitle';
 import './SetsPage.css';
+
+function BulkOpsDualIcon({ leading, trailing }) {
+  return (
+    <span className="bulk-ops-dual-icon" aria-hidden="true">
+      {leading}
+      {trailing}
+    </span>
+  );
+}
 
 function emptySet() {
   return {
@@ -300,6 +312,32 @@ export default function SetsPage(props) {
     navigate(buildGigRoute(saved.id, firstTuneId || undefined));
   }
 
+  function handleCreatePlaylistFromDraft() {
+    const saved = flushAndGetDraft();
+    if (!saved || !setHasItems(saved)) return;
+    const tuneIds = normalizePerformanceSetItems(saved.items || []).map(function(item) {
+      return item && item.tuneId;
+    }).filter(Boolean);
+    if (!tuneIds.length) return;
+    const defaultName = String(saved.name || '').trim() || 'Playlist';
+    const name = window.prompt(
+      'Name for the new playlist with ' + tuneIds.length + ' tune' + (tuneIds.length === 1 ? '' : 's') + ':',
+      defaultName
+    );
+    if (name === null) return;
+    const queue = createQueue({
+      tuneIds: tuneIds,
+      name: String(name).trim() || defaultName,
+      source: 'set',
+    });
+    const playlist = savePlaylistFromQueue(queue, { name: queue.name });
+    if (!playlist) {
+      toast.error('Could not create playlist.');
+      return;
+    }
+    toast.success('Created playlist "' + (playlist.name || queue.name) + '"');
+  }
+
   function handleCloseGig() {
     setShowGig(false);
     if (props.setSetPlaylist) props.setSetPlaylist(null);
@@ -370,6 +408,18 @@ export default function SetsPage(props) {
                 <span className="sets-page-editor-action-label">Share</span>
               </Button>
             )}
+            <Button
+              variant="success"
+              className="sets-page-editor-action-btn bulk-ops-action-btn"
+              disabled={!draftReady}
+              title="Create playlist"
+              aria-label="Create playlist"
+              data-testid="sets-create-playlist"
+              onClick={handleCreatePlaylistFromDraft}
+            >
+              <BulkOpsDualIcon leading={tunebook.icons.start} trailing={tunebook.icons.playlist} />
+              <span className="sets-page-editor-action-label">Play List</span>
+            </Button>
           </div>
         </div>
         <Form.Group className="mb-2">

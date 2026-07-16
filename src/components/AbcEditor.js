@@ -22,14 +22,10 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import useMusicBrainz from '../useMusicBrainz'
 import ChordsSearchButton from './ChordsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
-import TitleSuggestionOffer from './TitleSuggestionOffer'
-import { buildTitleSuggestions } from '../composerDiscoveryUtils'
-import { findTuneCandidates } from '../voiceCommandUtils'
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import GenreSearchButton from './GenreSearchButton'
 import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
-import FieldLookupReviewButton from './FieldLookupReviewButton'
 import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
@@ -81,27 +77,15 @@ export default function AbcEditor(props) {
   const [abcRecordExpanded, setAbcRecordExpanded] = useState(false)
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
-  const [composerTitleSuggestions, setComposerTitleSuggestions] = useState([])
-  const musicBrainzTitleRef = useRef('')
   const backgroundInfoSaveTimeout = useRef(null)
-
-  function refreshTitleSuggestions(currentTitle, musicBrainzTitle) {
-    const mb = musicBrainzTitle != null
-      ? String(musicBrainzTitle || '').trim()
-      : musicBrainzTitleRef.current
-    if (musicBrainzTitle != null) {
-      musicBrainzTitleRef.current = mb
-    }
-    const next = buildTitleSuggestions({
-      currentTitle: currentTitle,
-      musicBrainzTitle: mb,
-      tunes: props.tunes,
-      findTuneCandidates: findTuneCandidates,
-      limit: 5,
-    })
-    setComposerTitleSuggestions(next)
-  }
   const tuneId = tune && tune.id
+
+  function acceptSuggestedTitle(suggestion) {
+    if (!suggestion || !suggestion.title || !tune) return
+    tune.name = suggestion.title
+    tune.id = params.tuneId
+    saveTune(tune)
+  }
 
   useEffect(function() {
     const suggest = searchParams && searchParams.get('suggest')
@@ -412,23 +396,8 @@ export default function AbcEditor(props) {
                             <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
                               tune.name = e.target.value
                               tune.id = params.tuneId
-                              refreshTitleSuggestions(e.target.value)
                               saveTune(tune)
                             }} />
-                            <TitleSuggestionOffer
-                              candidates={composerTitleSuggestions}
-                              onAccept={function(nextTitle) {
-                                tune.name = nextTitle
-                                tune.id = params.tuneId
-                                musicBrainzTitleRef.current = ''
-                                setComposerTitleSuggestions([])
-                                saveTune(tune)
-                              }}
-                              onDismiss={function() {
-                                musicBrainzTitleRef.current = ''
-                                setComposerTitleSuggestions([])
-                              }}
-                            />
                           </Form.Group>
                           </div>
                         </Col>
@@ -457,12 +426,7 @@ export default function AbcEditor(props) {
                                 tune.id = params.tuneId
                                 saveTune(tune)
                               }}
-                              onSuggestedTitle={function(suggestion) {
-                                refreshTitleSuggestions(
-                                  tune.name || '',
-                                  suggestion && suggestion.title ? suggestion.title : ''
-                                )
-                              }}
+                              onSuggestedTitle={acceptSuggestedTitle}
                             >
                               {function(api) {
                                 return (
@@ -470,20 +434,6 @@ export default function AbcEditor(props) {
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                                       <Form.Label style={{ marginBottom: 0 }}>Composer</Form.Label>
                                       {api.buttonGroup}
-                                      <FieldLookupReviewButton
-                                        tuneId={params.tuneId || tune.id}
-                                        kind="composer"
-                                        fallbackTitle={tune.name || ''}
-                                        currentValue={tune && tune.composer ? tune.composer : ''}
-                                        onApply={function(candidate, _job, meta) {
-                                          if (meta && (meta.deferred || meta.keepCurrent)) return
-                                          if (candidate && candidate.artist) {
-                                            tune.composer = candidate.artist
-                                            tune.id = params.tuneId
-                                            saveTune(tune)
-                                          }
-                                        }}
-                                      />
                                     </div>
                                     <AsyncCreatableSelect
                                       value={tune && tune.composer
@@ -944,24 +894,27 @@ export default function AbcEditor(props) {
                       </div>
                       
                     </Form>
-                    <div className="abc-editor-links-section mt-3">
-                      <h6>Links</h6>
-                      <LinksEditor
-                        links={tune.links}
-                        tune={tune}
-                        tuneId={params.tuneId}
-                        tunebook={props.tunebook}
-                        abc={props.abc}
-                        token={props.token}
-                        searchIndex={props.searchIndex}
-                        loadTuneTexts={props.loadTuneTexts}
-                        forceRefresh={props.forceRefresh}
-                        onChange={function(links) {
-                          tune.links = links;
-                          tune.id = params.tuneId;
-                          saveTune(tune);
-                        }}
-                      />
+                    <div className="abc-editor-info-form mt-3">
+                      <div className="abc-editor-info-section abc-editor-links-section">
+                        <div className="abc-editor-info-section-heading">Links</div>
+                        <LinksEditor
+                          links={tune.links}
+                          tune={tune}
+                          tuneId={params.tuneId}
+                          tunebook={props.tunebook}
+                          abc={props.abc}
+                          token={props.token}
+                          searchIndex={props.searchIndex}
+                          loadTuneTexts={props.loadTuneTexts}
+                          forceRefresh={props.forceRefresh}
+                          mediaController={props.mediaController}
+                          onChange={function(links) {
+                            tune.links = links;
+                            tune.id = params.tuneId;
+                            saveTune(tune);
+                          }}
+                        />
+                      </div>
                     </div>
                     <div className="abc-editor-info-form mt-3">
                       <div className="abc-editor-info-section abc-editor-info-section-details">
@@ -1052,7 +1005,6 @@ export default function AbcEditor(props) {
     if (editorViewMode === 'lyrics') {
       return (
                     <div className="abc-editor-lyrics-panel">
-                    <TuneFieldSuggestionsStrip tuneId={tuneId} />
                     <div className="abc-editor-lyrics-toolbar">
                       <LyricsSectionsDropdown
                         lyricsText={wLinesText}
@@ -1061,20 +1013,6 @@ export default function AbcEditor(props) {
                         onChange={handleLyricsTextChange}
                       />
                       {renderNoteAlignedLyricsButton()}
-                      <FieldLookupReviewButton
-                        tuneId={params.tuneId || tune.id}
-                        kind="lyrics"
-                        fallbackTitle={tune.name || ''}
-                        currentValue={wLinesText || ''}
-                        onApply={function(result, _job, meta) {
-                          if (meta && (meta.deferred || meta.keepCurrent)) return
-                          if (!result) return
-                          setWLinesText(result.text)
-                          setPlainLyricLines(tune, result.lines)
-                          tune.id = params.tuneId
-                          saveTune(tune, { historyLabel: 'Search lyrics', immediate: true })
-                        }}
-                      />
                       <Button
                         variant="outline-primary"
                         style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}

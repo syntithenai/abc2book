@@ -45,6 +45,13 @@ export default function CollectionNav(props) {
       label: 'recent',
       icon: props.tunebook.icons.recent,
     },
+    {
+      id: BOOKS_PAGE_SECTIONS.starred,
+      label: 'starred',
+      icon: props.tunebook.icons.starfilled || props.tunebook.icons.star,
+      count: props.starredCount,
+      alwaysShowCount: false,
+    },
   ]
 
   function handleClick(sectionId) {

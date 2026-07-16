@@ -23,35 +23,49 @@ describe('FieldSuggestionsChangesStrip', function() {
     container.remove()
   })
 
-  test('renders Accept, Clear, Open and bulk actions', function() {
-    const onAccept = jest.fn()
-    const onClear = jest.fn()
+  test('renders Clear Suggestions left of Suggestions label in danger style', function() {
     const onOpen = jest.fn()
-    const onAcceptAll = jest.fn()
     const onClearAll = jest.fn()
     act(function() {
       root.render(
         React.createElement(FieldSuggestionsChangesStrip, {
-          items: [{ jobId: 'j1', kind: 'lyrics', count: 2 }],
-          onAccept: onAccept,
-          onClear: onClear,
+          items: [
+            { jobId: 'j1', kind: 'lyrics', count: 2 },
+            { jobId: 'j2', kind: 'genre', count: 1 },
+          ],
           onOpen: onOpen,
-          onAcceptAll: onAcceptAll,
           onClearAll: onClearAll,
         })
       )
     })
     const strip = container.querySelector('[data-testid="field-suggestions-changes-strip"]')
     expect(strip).toBeTruthy()
-    act(function() {
-      strip.querySelector('[data-testid="suggestions-row-lyrics"] button').click()
+    expect(strip.textContent).toContain('Suggestions')
+    expect(strip.textContent).toContain('Lyrics')
+    expect(strip.textContent).toContain('Genre')
+    expect(strip.textContent).toContain('Clear Suggestions')
+    expect(container.querySelector('[data-testid="suggestions-accept-all"]')).toBeFalsy()
+
+    const clear = container.querySelector('[data-testid="suggestions-clear-all"]')
+    expect(clear).toBeTruthy()
+    expect(clear.className).toMatch(/btn-danger/)
+    expect(clear.className).toMatch(/field-suggestions-clear-all/)
+    expect(strip.firstElementChild).toBe(clear)
+    const label = Array.from(strip.children).find(function(el) {
+      return el.tagName === 'STRONG' && el.textContent === 'Suggestions'
     })
-    expect(onAccept).toHaveBeenCalled()
+    expect(label).toBeTruthy()
+    expect(
+      Array.from(strip.children).indexOf(clear)
+    ).toBeLessThan(Array.from(strip.children).indexOf(label))
+
     act(function() {
-      container.querySelector('[data-testid="suggestions-accept-all"]').click()
-      container.querySelector('[data-testid="suggestions-clear-all"]').click()
+      container.querySelector('[data-testid="suggestions-open-lyrics"]').click()
     })
-    expect(onAcceptAll).toHaveBeenCalled()
+    expect(onOpen).toHaveBeenCalled()
+    act(function() {
+      clear.click()
+    })
     expect(onClearAll).toHaveBeenCalled()
   })
 })

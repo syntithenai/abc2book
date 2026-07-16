@@ -263,14 +263,22 @@ export async function analyzeMediaFromSource(options) {
     throw new Error('Media source URL is missing');
   }
 
+  const payload = {
+    sourceUrl: source.src,
+    sourceType: source.srcType || 'audio',
+    sourceName: source.label || '',
+    processing: melodyProcessing,
+  };
+  if (typeof source.startAt === 'number' && source.startAt > 0) {
+    payload.startAt = source.startAt;
+  }
+  if (typeof source.endAt === 'number' && source.endAt > 0) {
+    payload.endAt = source.endAt;
+  }
+
   const response = await fetchViaMediaProxy('/analyze-media', accessToken, {
     method: 'POST',
-    body: JSON.stringify({
-      sourceUrl: source.src,
-      sourceType: source.srcType || 'audio',
-      sourceName: source.label || '',
-      processing: melodyProcessing,
-    }),
+    body: JSON.stringify(payload),
     signal: signal,
     headers: {
       Accept: ANALYSIS_ACCEPT_HEADER,

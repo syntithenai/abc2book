@@ -9,7 +9,7 @@ import VoiceCommandButton from './VoiceCommandButton'
 import useKeyPress from '../useKeyPress';
 import { useIsHeaderAuthHidden, useIsHeaderPlaybackInMenu, useIsNarrowViewport } from '../useMediaQuery';
 import { PLAYBACK_VOLUME_STEP } from '../playbackVolumeSettings';
-import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue';
+import { isQueueActive } from '../nowPlayingQueue';
 import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
@@ -92,9 +92,8 @@ export default function Header(props) {
         const ctrlSeek = event.ctrlKey || event.metaKey;
         const viewedTuneId = getViewedTuneIdFromPath(location.pathname);
         const queueActive = isQueueActive(props.nowPlayingQueue);
-        const navTuneId = queueActive
-            ? getCurrentTuneId(props.nowPlayingQueue)
-            : getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue);
+        // Arrow list-browse always starts from the viewed tune and walks search results.
+        const navTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue);
 
         if (ctrlSeek && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && mediaController && mediaController.seekBySeconds) {
             event.preventDefault();
@@ -118,10 +117,12 @@ export default function Header(props) {
             if (event.key === 'ArrowRight') {
                 props.tunebook.navigateToNextSong(navTuneId, null, navigate, location.pathname, {
                     mediaController: props.mediaController,
+                    forceSearchList: true,
                 });
             } else {
                 props.tunebook.navigateToPreviousSong(navTuneId, navigate, location.pathname, {
                     mediaController: props.mediaController,
+                    forceSearchList: true,
                 });
             }
         }
@@ -148,10 +149,11 @@ export default function Header(props) {
     const onPlaybackInterruptTool = isPlaybackInterruptPath(location.pathname)
     const showHeaderPlayback = onTunesOrEditor && !playbackInMenu
     const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
-    const queueActive = isQueueActive(props.nowPlayingQueue)
     const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
-    // Search-result skip in header; playlist stepping uses the bottom transport bar.
-    const showSkipButtons = !!(skipTuneId && !queueActive && viewedTuneId)
+    // Always offer prev/next on a tune page (search/list browse). Playlist queue
+    // stepping still has the bottom transport bar; do not hide these when a
+    // leftover queue is loaded — editor notation already owns arrow keys.
+    const showSkipButtons = !!(skipTuneId && viewedTuneId)
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
     // Keep skip-only on narrow tunes/editor layouts where playback lives in the menu.
@@ -171,11 +173,13 @@ export default function Header(props) {
                     <Button size={buttonSize} aria-label={prevLabel} title={prevLabel} onClick={function() {
                         props.tunebook.navigateToPreviousSong(skipTuneId, navigate, location.pathname, {
                             mediaController: props.mediaController,
+                            forceSearchList: true,
                         })
                     }}>{props.tunebook.icons.skipback}</Button>
                     <Button size={buttonSize} aria-label={nextLabel} title={nextLabel} onClick={function() {
                         props.tunebook.navigateToNextSong(skipTuneId, null, navigate, location.pathname, {
                             mediaController: props.mediaController,
+                            forceSearchList: true,
                         })
                     }}>{props.tunebook.icons.skipforward}</Button>
                 </ButtonGroup>
@@ -244,6 +248,22 @@ export default function Header(props) {
                 </>}
                 <div className="header-dropdown-section header-dropdown-section-actions">
                     <ButtonGroup className="header-dropdown-actions-group">
+                        <Button
+                            as={Link}
+                            to="/books"
+                            variant="secondary"
+                            size={navButtonSize}
+                            className="header-dropdown-btn header-dropdown-books-btn"
+                            title="Browse"
+                            aria-label="Browse"
+                            data-testid="header-books-button"
+                            onClick={function() { setNavMenuOpen(false) }}
+                        >
+                            <span className="header-dropdown-btn-label">
+                                {props.tunebook.icons.book}
+                                <span>Browse</span>
+                            </span>
+                        </Button>
                         <span className="header-dropdown-add-trigger" style={{ display: 'contents' }}>
                             <Button
                                 as={Link}
@@ -269,12 +289,12 @@ export default function Header(props) {
                                 size={navButtonSize}
                                 className="header-dropdown-btn header-dropdown-review-btn"
                                 data-testid="header-review-button"
-                                title={'Review ' + reviewSuggestionsTuneCount + ' Search Suggestions'}
+                                title="Suggestions"
                                 onClick={function() { setNavMenuOpen(false) }}
                             >
                                 <span className="header-dropdown-btn-label">
                                     {props.tunebook.icons.menu}
-                                    <span>Review {reviewSuggestionsTuneCount} Search Suggestions</span>
+                                    <span>Suggestions</span>
                                 </span>
                             </Button>
                         ) : null}
@@ -296,15 +316,6 @@ export default function Header(props) {
                             </Button>
                         </Link>
                     </Dropdown.Item>
-                    {props.user && props.user.email === 'syntithenai@gmail.com' ? (
-                    <Dropdown.Item as="div">
-                        <Link to="/feed">
-                            <Button size={navButtonSize} variant="primary" className="header-dropdown-btn" data-testid="header-feed-button">
-                                {props.tunebook.icons.words} Feed
-                            </Button>
-                        </Link>
-                    </Dropdown.Item>
-                    ) : null}
                     <Dropdown.Item as="div">
                         <Link to="/privacy" onClick={function() { setTimeout(function() { props.tunebook.utils.scrollTo('topofpage') }, 300) }}>
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
@@ -378,16 +389,32 @@ export default function Header(props) {
                 </div>
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-actions">
-                    <PracticeSessionButton
-                        tunebook={props.tunebook}
-                        tunes={props.tunes}
-                        mediaController={props.mediaController}
-                        forceRefresh={props.forceRefresh}
-                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        practiceSession={props.practiceSession}
-                        buttonSize={navButtonSize}
-                        buttonClassName="header-dropdown-btn"
-                    />
+                    <ButtonGroup className="header-dropdown-practice-feed-group">
+                        <PracticeSessionButton
+                            tunebook={props.tunebook}
+                            tunes={props.tunes}
+                            mediaController={props.mediaController}
+                            forceRefresh={props.forceRefresh}
+                            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            practiceSession={props.practiceSession}
+                            buttonSize={navButtonSize}
+                            buttonClassName="header-dropdown-btn header-dropdown-practice-btn"
+                        />
+                        <Button
+                            as={Link}
+                            to="/feed"
+                            size={navButtonSize}
+                            variant="primary"
+                            className="header-dropdown-btn header-dropdown-feed-btn"
+                            data-testid="header-feed-button"
+                            onClick={function() { setNavMenuOpen(false) }}
+                        >
+                            <span className="header-dropdown-btn-label">
+                                {props.tunebook.icons.words}
+                                <span>Feed</span>
+                            </span>
+                        </Button>
+                    </ButtonGroup>
                 </div>
             </Dropdown.Menu>
         )
@@ -444,10 +471,9 @@ export default function Header(props) {
             {showFullHeaderPlayback && (
                 <span className="header-playback">
                     {renderMediaPlayerSection(playbackButtonSize)}
-                    {renderSkipButtons(playbackButtonSize)}
                 </span>
             )}
-            {!showFullHeaderPlayback && !onPlaybackInterruptTool && showSkipButtons && (
+            {!onPlaybackInterruptTool && showSkipButtons && (
                 <span className="header-playback header-playback-skip-only">
                     {renderSkipButtons(playbackButtonSize)}
                 </span>

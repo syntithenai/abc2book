@@ -66,6 +66,7 @@ function TagsSearchSelectorModal(props) {
     });
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   const hasActiveTags = Array.isArray(props.value) && props.value.length > 0
+  const hideSelection = !!props.hideSelection
 
   function clearTagFilter(e) {
     if (e) {
@@ -81,9 +82,14 @@ function TagsSearchSelectorModal(props) {
     <>
       <ButtonGroup>
         <Button onClick={handleShow} variant="info" >
-          <span>{props.tunebook.icons.tag} {Array.isArray(props.value) ? props.value.map(function(v) { return String(v).toLowerCase() }).join(",") : ''}</span>
+          <span>
+            {props.tunebook.icons.tag}
+            {hideSelection
+              ? <span className="tune-search-filters-btn-label"> Tag</span>
+              : (Array.isArray(props.value) ? ' ' + props.value.map(function(v) { return String(v).toLowerCase() }).join(",") : '')}
+          </span>
         </Button>
-        {hasActiveTags ? (
+        {!hideSelection && hasActiveTags ? (
           <Button variant="info" title="Clear tag filter" onClick={clearTagFilter}>
             {props.tunebook.icons.closecircle}
           </Button>

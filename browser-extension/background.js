@@ -1,29 +1,39 @@
 /**
  * Tunebook YouTube Helper — MV3 service worker.
- * Resolves YouTube audio via Innertube (Android/iOS clients) and streams
+ * Resolves YouTube audio via Innertube clients and streams
  * chunked base64 to the content script over a long-lived port.
  */
 
-const EXTENSION_VERSION = '0.1.1'
+const EXTENSION_VERSION = '0.1.2'
 const CHUNK_CHARS = 240000
 
+// Prefer ANDROID_VR: progressive URLs are less PO-token gated than ANDROID/IOS.
+// Keep IOS/ANDROID as fallbacks with current client versions from yt-dlp.
 const INNERTUBE_CLIENTS = [
   {
-    name: 'ANDROID',
+    name: 'ANDROID_VR',
     apiKey: 'AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w',
     context: {
       client: {
-        clientName: 'ANDROID',
-        clientVersion: '20.10.38',
-        androidSdkVersion: 30,
+        clientName: 'ANDROID_VR',
+        clientVersion: '1.65.10',
+        deviceMake: 'Oculus',
+        deviceModel: 'Quest 3',
+        androidSdkVersion: 32,
+        osName: 'Android',
+        osVersion: '12L',
         hl: 'en',
         gl: 'US',
       },
     },
     headers: {
-      'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 11) gzip',
-      'X-YouTube-Client-Name': '3',
-      'X-YouTube-Client-Version': '20.10.38',
+      'User-Agent':
+        'com.google.android.apps.youtube.vr.oculus/1.65.10 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip',
+      'X-YouTube-Client-Name': '28',
+      'X-YouTube-Client-Version': '1.65.10',
+      'X-Goog-Api-Key': 'AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w',
+      Origin: 'https://www.youtube.com',
+      Referer: 'https://www.youtube.com/',
     },
   },
   {
@@ -32,19 +42,46 @@ const INNERTUBE_CLIENTS = [
     context: {
       client: {
         clientName: 'IOS',
-        clientVersion: '20.10.4',
+        clientVersion: '21.26.4',
         deviceMake: 'Apple',
         deviceModel: 'iPhone16,2',
         osName: 'iPhone',
-        osVersion: '17.5.1.21F90',
+        osVersion: '18.3.2.22D82',
         hl: 'en',
         gl: 'US',
       },
     },
     headers: {
-      'User-Agent': 'com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 17_5_1 like Mac OS X)',
+      'User-Agent':
+        'com.google.ios.youtube/21.26.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)',
       'X-YouTube-Client-Name': '5',
-      'X-YouTube-Client-Version': '20.10.4',
+      'X-YouTube-Client-Version': '21.26.4',
+      'X-Goog-Api-Key': 'AIzaSyB-63vPrdThhKuerbB2N_l7Kwwcxj6yUAc',
+      Origin: 'https://www.youtube.com',
+      Referer: 'https://www.youtube.com/',
+    },
+  },
+  {
+    name: 'ANDROID',
+    apiKey: 'AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w',
+    context: {
+      client: {
+        clientName: 'ANDROID',
+        clientVersion: '20.10.38',
+        androidSdkVersion: 34,
+        osName: 'Android',
+        osVersion: '14',
+        hl: 'en',
+        gl: 'US',
+      },
+    },
+    headers: {
+      'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 14) gzip',
+      'X-YouTube-Client-Name': '3',
+      'X-YouTube-Client-Version': '20.10.38',
+      'X-Goog-Api-Key': 'AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w',
+      Origin: 'https://www.youtube.com',
+      Referer: 'https://www.youtube.com/',
     },
   },
 ]
@@ -121,12 +158,21 @@ async function fetchYoutubeAudioBytes(videoId) {
         lastError = new Error('No progressive audio URL from ' + client.name)
         continue
       }
-      const audioResponse = await fetch(format.url)
+      const audioResponse = await fetch(format.url, {
+        headers: {
+          'User-Agent': client.headers['User-Agent'],
+          Referer: 'https://www.youtube.com/',
+        },
+      })
       if (!audioResponse.ok) {
-        lastError = new Error('Audio fetch HTTP ' + audioResponse.status)
+        lastError = new Error('Audio fetch HTTP ' + audioResponse.status + ' (' + client.name + ')')
         continue
       }
       const buffer = await audioResponse.arrayBuffer()
+      if (!buffer || buffer.byteLength < 1024) {
+        lastError = new Error('Empty audio from ' + client.name)
+        continue
+      }
       const mime = String(format.mimeType || 'audio/mp4').split(';')[0].trim()
       return {
         buffer: buffer,
@@ -202,7 +248,6 @@ chrome.runtime.onConnect.addListener(function (port) {
       })
       return
     }
-
     fetchYoutubeAudioBytes(videoId)
       .then(function (payload) {
         postAudioOverPort(port, requestId, payload)
@@ -212,7 +257,7 @@ chrome.runtime.onConnect.addListener(function (port) {
           type: 'tunebook.audioError',
           requestId: requestId,
           code: 'fetch_failed',
-          message: err && err.message ? String(err.message) : 'Fetch failed',
+          message: err && err.message ? String(err.message) : 'YouTube audio fetch failed',
         })
       })
   })

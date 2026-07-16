@@ -93,4 +93,32 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
     expect(fetchDirectOrProxy).toHaveBeenCalled()
     expect(result.sourceUrl).toBe('proxy')
   })
+
+  test('falls back to proxy when extension is connected but fails', async function () {
+    isYoutubeExtensionConnected.mockResolvedValue(true)
+    fetchYoutubeAudioViaExtension.mockRejectedValue(
+      new Error('Innertube player HTTP 403 (IOS)')
+    )
+    fetchDirectOrProxy.mockResolvedValue({
+      response: {
+        arrayBuffer: function () {
+          return Promise.resolve(new ArrayBuffer(4))
+        },
+      },
+      viaProxy: true,
+    })
+
+    const result = await fetchAndDecodeExternalMedia(
+      'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      'youtube',
+      function () {
+        return 'dQw4w9WgXcQ'
+      },
+      'token'
+    )
+
+    expect(fetchYoutubeAudioViaExtension).toHaveBeenCalled()
+    expect(fetchDirectOrProxy).toHaveBeenCalled()
+    expect(result.sourceUrl).toBe('proxy')
+  })
 })

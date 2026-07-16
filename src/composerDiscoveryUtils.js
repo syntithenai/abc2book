@@ -55,11 +55,59 @@ export function buildGoogleComposerSearchQuestion(title, artist) {
   return question
 }
 
-export function shouldOfferTitleSuggestion(currentTitle, suggestedTitle) {
+function titleEditDistance(a, b) {
+  const left = String(a || '')
+  const right = String(b || '')
+  if (left === right) return 0
+  if (!left.length) return right.length
+  if (!right.length) return left.length
+  if (Math.abs(left.length - right.length) > 3) return 99
+  const prev = new Array(right.length + 1)
+  for (let j = 0; j <= right.length; j += 1) prev[j] = j
+  for (let i = 1; i <= left.length; i += 1) {
+    let diag = prev[0]
+    prev[0] = i
+    for (let j = 1; j <= right.length; j += 1) {
+      const temp = prev[j]
+      const cost = left.charAt(i - 1) === right.charAt(j - 1) ? 0 : 1
+      prev[j] = Math.min(prev[j] + 1, prev[j - 1] + 1, diag + cost)
+      diag = temp
+    }
+  }
+  return prev[right.length]
+}
+
+function stripLeadingArticleKey(key) {
+  return String(key || '').replace(/^(the|a|an)/, '')
+}
+
+/**
+ * True when suggested is a near-standard refinement of current
+ * (minor spelling, article, or casing/punctuation already normalized away).
+ */
+export function isExtremelyCloseTitleMatch(currentTitle, suggestedTitle) {
   const current = String(currentTitle || '').trim()
   const suggested = String(suggestedTitle || '').trim()
+  if (!current || !suggested) return false
+  const curKey = normalizeArtistKey(current)
+  const sugKey = normalizeArtistKey(suggested)
+  if (!curKey || !sugKey || curKey === sugKey) return false
+
+  if (stripLeadingArticleKey(curKey) === stripLeadingArticleKey(sugKey)) return true
+
+  const dist = titleEditDistance(curKey, sugKey)
+  const maxLen = Math.max(curKey.length, sugKey.length)
+  if (dist <= 1 && maxLen >= 4) return true
+  if (dist <= 2 && maxLen >= 8 && (dist / maxLen) <= 0.15) return true
+  return false
+}
+
+export function shouldOfferTitleSuggestion(currentTitle, suggestedTitle) {
+  const suggested = String(suggestedTitle || '').trim()
   if (!suggested) return false
-  return normalizeArtistKey(current) !== normalizeArtistKey(suggested)
+  const current = String(currentTitle || '').trim()
+  if (!current) return false
+  return isExtremelyCloseTitleMatch(current, suggested)
 }
 
 /**

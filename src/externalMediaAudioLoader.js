@@ -36,14 +36,19 @@ export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, ac
   if (srcType === 'youtube' && typeof youtubeGetId === 'function') {
     const videoId = youtubeGetId(src);
     if (videoId && (await isYoutubeExtensionConnected())) {
-      const fetched = await fetchYoutubeAudioViaExtension(videoId);
-      const audioBuffer = await decode(fetched.arrayBuffer);
-      return {
-        audioBuffer: audioBuffer,
-        duration: audioBuffer.duration,
-        sourceUrl: 'extension',
-        mime: fetched.mime,
-      };
+      try {
+        const fetched = await fetchYoutubeAudioViaExtension(videoId);
+        const audioBuffer = await decode(fetched.arrayBuffer);
+        return {
+          audioBuffer: audioBuffer,
+          duration: audioBuffer.duration,
+          sourceUrl: 'extension',
+          mime: fetched.mime,
+        };
+      } catch (extensionError) {
+        // Extension connected but Innertube/CDN failed — fall through to resolver.
+        console.log(extensionError);
+      }
     }
   }
 

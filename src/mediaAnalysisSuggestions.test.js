@@ -19,7 +19,7 @@ describe('mediaAnalysisSuggestions', function() {
     tuneFieldLookupQueue.__resetForTests()
   })
 
-  test('seeds lyrics/chords/notation suggestions and applies empty lyrics', function() {
+  test('applies empty lyrics/chords/notation without attaching suggestions', function() {
     const tune = { id: 't1', name: 'Song', composer: 'Artist', voices: {} }
     const saveTune = jest.fn()
     const seeded = persistMediaAnalysisFieldSuggestions('t1', {
@@ -34,11 +34,11 @@ describe('mediaAnalysisSuggestions', function() {
         },
       },
     })
-    expect(seeded.length).toBe(3)
+    expect(seeded.length).toBe(0)
     const jobs = tuneFieldLookupQueue.getState().jobs.filter(function(job) {
       return job.status === 'awaiting'
     })
-    expect(jobs.length).toBe(3)
+    expect(jobs.length).toBe(0)
     expect(getPlainLyricLines(tune).join('\n')).toContain('Line one')
     expect(saveTune).toHaveBeenCalled()
   })

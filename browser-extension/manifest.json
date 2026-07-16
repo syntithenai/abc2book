@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tunebook YouTube Helper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fetches YouTube audio in your browser so Tunebook can pitch-shift, filter, and cache linked videos without a cloud YouTube proxy.",
   "icons": {
     "16": "icons/icon16.png",

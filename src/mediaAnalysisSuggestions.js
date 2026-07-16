@@ -1,19 +1,21 @@
 import {
   seedAwaitingLookup,
-  applyFieldLookupChoice,
   getAwaitingJob,
   dismissFieldLookup,
 } from './tuneFieldLookupQueue'
 import {
   buildCurrentValueSuggestion,
   collateUniqueSuggestions,
+  nonCurrentCandidates,
 } from './fieldSuggestionsUtils'
 import {
   isTuneFieldEmptyForKind,
   applyCandidateToTune,
-  toastFieldSearchFinished,
 } from './fieldLookupApplyUtils'
 import { getPlainLyricLines } from './wLinesUtils'
+import { toast } from 'react-toastify'
+
+export const MEDIA_ANALYSIS_LOOKUP_ORIGIN = 'media-analysis'
 
 function notationTextFromTune(tune) {
   if (!tune) return ''
@@ -76,9 +78,26 @@ function buildAnalysisCandidate(kind, formatted) {
   return null
 }
 
+function toastMediaAnalysisSuggestions(count, applied) {
+  let message
+  if (count <= 0) {
+    message = 'No media analysis suggestions'
+  } else if (applied) {
+    message = 'Applied media analysis · ' + count + ' suggestion' + (count === 1 ? '' : 's')
+  } else {
+    message = count + ' media analysis suggestion' + (count === 1 ? '' : 's')
+  }
+  toast.info(message, {
+    hideProgressBar: true,
+    autoClose: 2000,
+  })
+}
+
 /**
  * Persist media-analysis results as field suggestions for the tune.
- * Empty fields also receive the first applied value; Current is saved when non-empty.
+ * Empty fields receive the applied value without attaching a suggestion.
+ * Non-empty fields keep Current + analysis when they differ; same-value is skipped.
+ * Tagged with origin media-analysis so they are not listed as Active Searches.
  */
 export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, options) {
   if (!tuneId || !formatted) return []
@@ -87,6 +106,7 @@ export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, op
   const kinds = ['lyrics', 'chords', 'notation']
   const seeded = []
   let appliedAny = false
+  let appliedOnlyCount = 0
 
   kinds.forEach(function(kind) {
     const analysisCandidate = buildAnalysisCandidate(kind, formatted)
@@ -96,46 +116,58 @@ export function persistMediaAnalysisFieldSuggestions(tuneId, formatted, tune, op
     const existing = getAwaitingJob(targetKey, kind)
     if (existing) dismissFieldLookup(existing.id)
 
-    let candidates = [analysisCandidate]
     const empty = isTuneFieldEmptyForKind(tune, kind)
-    if (!empty) {
-      const current = buildCurrentValueSuggestion(kind, currentValueForKind(tune, kind))
-      if (current) candidates = [current].concat(candidates)
+    if (empty) {
+      // Single analysis result on an empty field: apply only, no suggestion chrome.
+      if (tune) {
+        const applied = applyCandidateToTune(tune, kind, analysisCandidate, abcTools)
+        if (applied) {
+          appliedAny = true
+          appliedOnlyCount += 1
+          if (options && typeof options.saveTune === 'function') {
+            try {
+              options.saveTune(tune, false, { historyLabel: 'Apply media analysis' })
+            } catch (e) {
+              // ignore save failure; value may still be in memory
+            }
+          }
+        }
+      }
+      return
     }
+
+    const currentValue = currentValueForKind(tune, kind)
+    let candidates = [analysisCandidate]
+    const current = buildCurrentValueSuggestion(kind, currentValue)
+    if (current) candidates = [current].concat(candidates)
     candidates = collateUniqueSuggestions(kind, candidates)
+    const searchable = nonCurrentCandidates(candidates, {
+      kind: kind,
+      originalValue: currentValue,
+    })
+    if (!searchable.length) return
 
     const id = seedAwaitingLookup({
       tuneId: tuneId,
       kind: kind,
+      label: 'Media analysis · ' + kind,
       title: title,
       artist: (tune && tune.composer) || '',
       candidates: candidates,
+      origin: MEDIA_ANALYSIS_LOOKUP_ORIGIN,
     })
     if (!id) return
     seeded.push({ id: id, kind: kind })
-
-    if (empty && tune) {
-      const applied = applyCandidateToTune(tune, kind, analysisCandidate, abcTools)
-      if (applied) {
-        appliedAny = true
-        if (options && typeof options.saveTune === 'function') {
-          try {
-            options.saveTune(tune, false, { historyLabel: 'Apply media analysis' })
-          } catch (e) {
-            // suggestions remain even if save fails
-          }
-        }
-      }
-      applyFieldLookupChoice(id, analysisCandidate)
-    }
   })
 
-  if (seeded.length) {
-    toastFieldSearchFinished(seeded.length === 1 ? seeded[0].kind : 'field', {
-      count: seeded.length,
-      applied: appliedAny,
-    })
+  const toastCount = seeded.length + appliedOnlyCount
+  if (toastCount) {
+    toastMediaAnalysisSuggestions(toastCount, appliedAny)
   }
 
   return seeded
+}
+
+export function isMediaAnalysisLookupJob(job) {
+  return !!(job && job.origin === MEDIA_ANALYSIS_LOOKUP_ORIGIN)
 }

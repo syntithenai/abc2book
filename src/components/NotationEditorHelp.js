@@ -230,8 +230,8 @@ export default function NotationEditorHelp(props) {
             <h2>Virtual piano</h2>
             <div className="help-section-body">
               <p>
-                The on-screen keyboard appears <strong>only in staff view</strong>, below the notation.
-                Octave buttons (◀ Oct / Oct ▶) are stacked on the left side of the keyboard.
+                Toggle the piano icon in the staff toolbar to show an on-screen keyboard as a row under the toolbar controls
+                (Staff and Split views). Octave buttons (◀ Oct / Oct ▶) are stacked on the left side of the keyboard.
               </p>
               <ul>
                 <li>Click a key to insert a note (automatically enables note input if needed).</li>

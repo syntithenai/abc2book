@@ -50,7 +50,7 @@ jest.mock('./ImportFieldSuggestion', function() {
   }
 })
 
-describe('FieldLookupReviewButton frozen current value', function() {
+describe('FieldLookupReviewButton Original Value', function() {
   let container
   let root
   let applied
@@ -62,6 +62,7 @@ describe('FieldLookupReviewButton frozen current value', function() {
       id: 'job-1',
       status: 'awaiting',
       title: 'Song',
+      originalValue: '(empty baseline)',
       candidates: [{ text: 'imported lyrics', source: 'web' }],
       options: { searchMode: 'review' },
     })
@@ -75,7 +76,7 @@ describe('FieldLookupReviewButton frozen current value', function() {
     container.remove()
   })
 
-  test('Current value stays frozen after applying a search result', function() {
+  test('Original Value stays frozen after applying a search result', function() {
     function Harness(props) {
       return React.createElement(FieldLookupReviewButton, {
         candidateId: 'c1',
@@ -86,10 +87,6 @@ describe('FieldLookupReviewButton frozen current value', function() {
     }
 
     act(function() {
-      root.render(React.createElement(Harness, { currentValue: '(empty baseline)' }))
-    })
-    act(function() {
-      // flush freeze effect
       root.render(React.createElement(Harness, { currentValue: '(empty baseline)' }))
     })
     expect(container.querySelector('[data-testid="current-preview"]').textContent)

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from 'react-bootstrap'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
 import ImportFieldSuggestion from './ImportFieldSuggestion'
@@ -10,6 +10,12 @@ import {
 } from '../tuneFieldLookupQueue'
 import { candidateDisplayValue } from '../fieldLookupApplyUtils'
 import { subscribeOpenFieldSuggestions } from '../fieldSuggestionsOpen'
+import {
+  buildPickerOriginalValueItem,
+  displayFromOriginalValue,
+  originalValueFromJob,
+  searchableSuggestions,
+} from '../fieldSuggestionsUtils'
 
 function fieldLabel(kind) {
   if (kind === 'composer') return 'Artist'
@@ -17,6 +23,8 @@ function fieldLabel(kind) {
   if (kind === 'chords') return 'Chords'
   if (kind === 'notation') return 'ABC Notes'
   if (kind === 'links') return 'Links'
+  if (kind === 'genre') return 'Genre'
+  if (kind === 'title') return 'Title'
   return 'Search'
 }
 
@@ -24,6 +32,12 @@ function choiceLabel(kind, candidate, fallbackTitle) {
   if (!candidate) return 'Result'
   if (kind === 'composer') {
     return String(candidate.artist || '').trim() || 'Artist'
+  }
+  if (kind === 'genre') {
+    return String(candidate.genre || '').trim() || 'Genre'
+  }
+  if (kind === 'title') {
+    return String(candidate.title || '').trim() || 'Title'
   }
   if (kind === 'links') {
     const title = String(candidate.title || '').trim()
@@ -77,7 +91,6 @@ export default function FieldLookupReviewButton({
 }) {
   const queue = useTuneFieldLookupQueue()
   const [showNotationPicker, setShowNotationPicker] = useState(false)
-  const frozenCurrentRef = useRef(null)
 
   const targetKey = tuneId
     ? ('tune:' + String(tuneId))
@@ -87,31 +100,16 @@ export default function FieldLookupReviewButton({
     ? (queue.getAwaitingJob(targetKey, kind) || getAwaitingJob(targetKey, kind))
     : null
 
-  const candidates = awaiting && Array.isArray(awaiting.candidates) ? awaiting.candidates : []
+  const searchList = awaiting ? searchableSuggestions(awaiting) : []
   const manualOnly = awaiting
-    && candidates.length === 0
+    && searchList.length === 0
     && Array.isArray(awaiting.manualCandidates)
     && awaiting.manualCandidates.length > 0
-  const list = candidates.length > 0
-    ? candidates
+  const list = searchList.length > 0
+    ? searchList
     : (manualOnly ? awaiting.manualCandidates : [])
 
   const [forceOpenSuggestion, setForceOpenSuggestion] = useState(0)
-
-  // Freeze the form value shown as "Current value" when the awaiting job first
-  // appears so applying a search result does not rewrite that baseline choice.
-  useEffect(function() {
-    if (!awaiting || !awaiting.id || list.length === 0) {
-      frozenCurrentRef.current = null
-      return
-    }
-    if (frozenCurrentRef.current && frozenCurrentRef.current.jobId === awaiting.id) return
-    frozenCurrentRef.current = {
-      jobId: awaiting.id,
-      value: currentValue,
-      display: previewFromCurrent(currentDisplay, currentValue),
-    }
-  }, [awaiting && awaiting.id, list.length, currentValue, currentDisplay])
 
   useEffect(function() {
     return subscribeOpenFieldSuggestions(function(openTuneId, openKind) {
@@ -129,14 +127,12 @@ export default function FieldLookupReviewButton({
   const display = candidateDisplayValue(kind, primary)
   const titleHint = fallbackTitle || awaiting.title || ''
   const deferred = shouldDeferFieldLookupSave(awaiting)
-  const frozen = frozenCurrentRef.current && frozenCurrentRef.current.jobId === awaiting.id
-    ? frozenCurrentRef.current
-    : {
-      value: currentValue,
-      display: previewFromCurrent(currentDisplay, currentValue),
-    }
-  const currentPreview = frozen.display
-  const frozenCurrentValue = frozen.value
+  const originalRaw = originalValueFromJob(awaiting)
+  const hasStoredOriginal = originalRaw !== null && originalRaw !== undefined
+  const frozenCurrentValue = hasStoredOriginal ? originalRaw : currentValue
+  const currentPreview = hasStoredOriginal
+    ? (displayFromOriginalValue(frozenCurrentValue) || '(empty)')
+    : previewFromCurrent(currentDisplay, currentValue)
 
   function applyRaw(raw) {
     // Review / import-draft jobs keep candidates selectable until Import/Add.
@@ -153,7 +149,7 @@ export default function FieldLookupReviewButton({
   }
 
   function applyCurrentValue() {
-    // Applying Current keeps suggestions so alternatives remain available.
+    // Applying Original keeps suggestions so alternatives remain available.
     if (typeof onApply === 'function') {
       onApply(null, awaiting, {
         deferred: deferred,
@@ -164,15 +160,13 @@ export default function FieldLookupReviewButton({
   }
 
   if (kind === 'notation') {
-    const pickerItems = [{
-      title: 'Current value',
-      artist: '',
-      preview: currentPreview === '(empty)' ? '' : currentPreview,
-      abc: typeof frozenCurrentValue === 'string' ? frozenCurrentValue : '',
-      source: 'current',
-      sourceUrl: '',
-      __current: true,
-    }].concat(list.map(function(candidate) {
+    const pickerItems = [
+      buildPickerOriginalValueItem({
+        value: frozenCurrentValue,
+        display: currentPreview,
+        abc: typeof frozenCurrentValue === 'string' ? frozenCurrentValue : '',
+      }),
+    ].concat(list.map(function(candidate) {
       return {
         title: candidate.title || titleHint,
         artist: candidate.artist || '',
@@ -180,6 +174,7 @@ export default function FieldLookupReviewButton({
         abc: candidate.abc || candidate.preview || '',
         source: candidate.source || '',
         sourceUrl: candidate.sourceUrl || '',
+        matchType: candidate.source || '',
       }
     }))
     return (
@@ -233,9 +228,9 @@ export default function FieldLookupReviewButton({
 
   const choices = [{
     id: 'current',
-    label: 'Current value',
-    preview: currentPreview,
-    source: 'current',
+    label: 'Original Value',
+    preview: currentPreview || '(empty)',
+    source: 'original',
     raw: null,
     value: frozenCurrentValue,
     __current: true,

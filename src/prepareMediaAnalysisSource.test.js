@@ -18,6 +18,27 @@ describe('prepareMediaAnalysisSource', function() {
     expect(prepared).toBe(source);
   });
 
+  test('attaches play-range bounds for remote youtube instead of browser trim', async function() {
+    const source = {
+      id: 'link-0',
+      kind: 'link',
+      srcType: 'youtube',
+      src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      label: 'Copper Kettle',
+      linkIndex: 0,
+    };
+    const tune = {
+      id: 't1',
+      links: [{ link: source.src, title: 'Copper Kettle', startAt: '12.5', endAt: '200' }],
+    };
+    const prepared = await prepareMediaAnalysisSource(source, tune, {});
+    expect(prepared.src).toBe(source.src);
+    expect(prepared.srcType).toBe('youtube');
+    expect(prepared.startAt).toBe(12.5);
+    expect(prepared.endAt).toBe(200);
+    expect(prepared.blob).toBeUndefined();
+  });
+
   test('resolves recording sources to blob uploads', async function() {
     const blob = { type: 'audio/mpeg' };
     resolveRecordingLinkAudio.mockResolvedValue({ blob: blob, duration: 10, source: 'cache' });
@@ -47,6 +68,7 @@ describe('prepareMediaAnalysisSource', function() {
       blob: blob,
       fileName: 'My Song.mp3',
       label: 'My Song',
+      linkIndex: 0,
     });
   });
 });

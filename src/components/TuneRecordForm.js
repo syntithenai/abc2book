@@ -12,9 +12,6 @@ import LinksEditor from './LinksEditor';
 import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
 import ComposerSearchButton from './ComposerSearchButton';
-import TitleSuggestionOffer from './TitleSuggestionOffer';
-import { buildTitleSuggestions } from '../composerDiscoveryUtils';
-import { findTuneCandidates } from '../voiceCommandUtils';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
 import LyricsSearchButton from './LyricsSearchButton';
@@ -23,7 +20,6 @@ import ArtistsSearchButton from './ArtistsSearchButton';
 import AliasesSearchButton from './AliasesSearchButton';
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton';
 import ComposerCandidateQuickPick from './ComposerCandidateQuickPick';
-import FieldLookupReviewButton from './FieldLookupReviewButton';
 import CapitalizeTitleButton from './CapitalizeTitleButton';
 import BookSelectorModal from './BookSelectorModal';
 import TagsSelectorModal from './TagsSelectorModal';
@@ -35,12 +31,9 @@ import LyricsSectionsDropdown from './LyricsSectionsDropdown';
 import { FormLabelWithHelp } from './FormFieldHelp';
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText';
 import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings';
-import { formValuesToTune, importSuggestionDiffersFromForm, tuneToFormValues } from '../importReviewFieldUtils';
+import { formValuesToTune, importSuggestionDiffersFromForm } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
 import { mergeBibliographicList } from '../tuneBibliographicUtils';
-import useAbcjsParser from '../useAbcjsParser';
-import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune';
-import { candidateDisplayValue } from '../fieldLookupApplyUtils';
 function FormBlock(props) {
   return (
     <div className={'tune-record-form-block' + (props.className ? ' ' + props.className : '')}>
@@ -120,34 +113,15 @@ export default function TuneRecordForm(props) {
   const values = props.values || {};
   const suggestions = props.suggestions || {};
   const tunebook = props.tunebook;
-  const abcjsParser = useAbcjsParser({ tunebook: tunebook });
   const musicBrainz = useMusicBrainz();
   const lyricsTextareaRef = useRef(null);
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false);
   const [showLyricsTools, setShowLyricsTools] = useState(false);
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('');
-  const [composerTitleSuggestions, setComposerTitleSuggestions] = useState([]);
-  const musicBrainzTitleRef = useRef('');
   const tuneIdForSuggestions = (props.previewTune && props.previewTune.id)
     || (values && values.id)
     || null;
 
-  function refreshTitleSuggestions(currentTitle, musicBrainzTitle) {
-    const mb = musicBrainzTitle != null
-      ? String(musicBrainzTitle || '').trim()
-      : musicBrainzTitleRef.current
-    if (musicBrainzTitle != null) {
-      musicBrainzTitleRef.current = mb
-    }
-    const next = buildTitleSuggestions({
-      currentTitle: currentTitle,
-      musicBrainzTitle: mb,
-      tunes: props.tunes,
-      findTuneCandidates: findTuneCandidates,
-      limit: 5,
-    })
-    setComposerTitleSuggestions(next)
-  }
   const hasAdvancedMergeFields = ADVANCED_MERGE_FIELD_KEYS.some(function(key) {
     return !!suggestions[key];
   });
@@ -174,34 +148,6 @@ export default function TuneRecordForm(props) {
         : values[field];
       return { [field]: updater(prev) };
     });
-  }
-
-  function applyChordSearchResult(candidate, meta) {
-    if (meta && meta.keepCurrent) return
-    if (!candidate || !tunebook || !tunebook.abcTools || !abcjsParser) return
-    const baseTune = formValuesToTune(values, props.previewTune || {})
-    const committed = commitChordSearchResultToTune({
-      result: candidate,
-      tune: baseTune,
-      abc: tunebook.abcTools.json2abc(baseTune),
-      tunebook: tunebook,
-      abcjsParser: abcjsParser,
-      updateLyrics: false,
-      skipSave: true,
-    })
-    if (!committed.ok || !committed.tune) return
-    const nextForm = tuneToFormValues(committed.tune)
-    if (typeof props.onChange === 'function') {
-      props.onChange(updateValues(values, {
-        voices: nextForm.voices,
-        notes: nextForm.notes,
-        meter: nextForm.meter || values.meter,
-        keyName: nextForm.keyName || values.keyName,
-        tempo: nextForm.tempo || values.tempo,
-        capo: nextForm.capo || values.capo,
-        noteLength: nextForm.noteLength || values.noteLength,
-      }))
-    }
   }
 
   const notationMetadata = {
@@ -408,21 +354,7 @@ export default function TuneRecordForm(props) {
             id="tune-record-title"
             value={values.title || ''}
             onChange={function(e) {
-              const nextTitle = e.target.value;
-              setField('title', nextTitle);
-              refreshTitleSuggestions(nextTitle);
-            }}
-          />
-          <TitleSuggestionOffer
-            candidates={composerTitleSuggestions}
-            onAccept={function(nextTitle) {
-              setField('title', nextTitle);
-              musicBrainzTitleRef.current = '';
-              setComposerTitleSuggestions([]);
-            }}
-            onDismiss={function() {
-              musicBrainzTitleRef.current = '';
-              setComposerTitleSuggestions([]);
+              setField('title', e.target.value);
             }}
           />
         </Form.Group>
@@ -450,10 +382,7 @@ export default function TuneRecordForm(props) {
                 });
               }}
               onSuggestedTitle={function(suggestion) {
-                refreshTitleSuggestions(
-                  values.title,
-                  suggestion && suggestion.title ? suggestion.title : ''
-                );
+                if (suggestion && suggestion.title) setField('title', suggestion.title);
               }}
             >
               {function(api) {
@@ -468,17 +397,6 @@ export default function TuneRecordForm(props) {
                       values={values}
                     >
                       {api.buttonGroup}
-                      <FieldLookupReviewButton
-                        tuneId={props.previewTune && props.previewTune.id}
-                        candidateId={props.candidateId}
-                        kind="composer"
-                        fallbackTitle={values.title || ''}
-                        currentValue={values.artist || ''}
-                        onApply={function(candidate, _job, meta) {
-                          if (meta && meta.keepCurrent) return
-                          if (candidate && candidate.artist) setField('artist', candidate.artist);
-                        }}
-                      />
                     </FieldLabelRow>
                     <AsyncCreatableSelect
                       value={values.artist
@@ -507,19 +425,7 @@ export default function TuneRecordForm(props) {
                 onApplySuggestion={props.onApplySuggestion}
                 tight={true}
                 values={values}
-              >
-                <FieldLookupReviewButton
-                  tuneId={props.previewTune && props.previewTune.id}
-                  candidateId={props.candidateId}
-                  kind="composer"
-                  fallbackTitle={values.title || ''}
-                  currentValue={values.artist || ''}
-                  onApply={function(candidate, _job, meta) {
-                    if (meta && meta.keepCurrent) return
-                    if (candidate && candidate.artist) setField('artist', candidate.artist);
-                  }}
-                />
-              </FieldLabelRow>
+              />
               <AsyncCreatableSelect
                 value={values.artist
                   ? { value: values.artist, label: values.artist }
@@ -716,39 +622,6 @@ export default function TuneRecordForm(props) {
                   if (text) setField('lyrics', text);
                 }}
               />
-              <FieldLookupReviewButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                kind="lyrics"
-                fallbackTitle={values.title || ''}
-                currentValue={values.lyrics || ''}
-                onApply={function(result, _job, meta) {
-                  if (meta && meta.keepCurrent) return
-                  const text = result && (result.text || (Array.isArray(result.lines) ? result.lines.join('\n') : ''));
-                  if (text) setField('lyrics', text);
-                }}
-              />
-              <FieldLookupReviewButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                kind="chords"
-                fallbackTitle={values.title || ''}
-                currentValue={values.notes || ''}
-                currentDisplay={candidateDisplayValue('chords', {
-                  chordText: values.notes || '',
-                }) || '(empty)'}
-                onApply={function(candidate, _job, meta) {
-                  if (meta && meta.keepCurrent) return
-                  const lyricText = candidate && (
-                    candidate.lyricText
-                    || (Array.isArray(candidate.lyricLines) ? candidate.lyricLines.join('\n') : '')
-                  )
-                  if (String(lyricText || '').trim()) {
-                    setField('lyrics', String(lyricText).trim())
-                  }
-                  applyChordSearchResult(candidate, meta)
-                }}
-              />
             </>
           )}
           dialogToolbar={function(toolbar) {
@@ -831,6 +704,7 @@ export default function TuneRecordForm(props) {
                 artist={values.artist}
                 rhythm={values.rhythm}
                 currentGenre={values.genre}
+                currentValue={values.notes || ''}
                 token={props.token}
                 tunebook={tunebook}
                 resolverAvailable={props.resolverAvailable}
@@ -857,46 +731,6 @@ export default function TuneRecordForm(props) {
                       notes: notes,
                     }));
                   }
-                }}
-              />
-              <FieldLookupReviewButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                kind="notation"
-                fallbackTitle={values.title || ''}
-                previewMetadata={notationMetadata}
-                currentValue={values.notes || ''}
-                onApply={function(candidate, _job, meta) {
-                  if (meta && meta.keepCurrent) return
-                  const abc = candidate && candidate.abc ? String(candidate.abc) : '';
-                  if (!abc || !tunebook || !tunebook.abcTools) return;
-                  const imported = tunebook.abcTools.abc2json(abc);
-                  const notes = imported && Array.isArray(imported.notes)
-                    ? imported.notes.join('\n')
-                    : (imported && imported.voices
-                      ? primaryVoiceNotesText(imported.voices)
-                      : abc);
-                  const voices = Object.assign({}, values.voices || { '1': { meta: '', notes: [] } });
-                  const primaryKey = Object.keys(voices).sort()[0] || '1';
-                  voices[primaryKey] = Object.assign({}, voices[primaryKey] || { meta: '' }, {
-                    notes: String(notes || '').split(/\r?\n/),
-                  });
-                  if (typeof props.onChange === 'function') {
-                    props.onChange(updateValues(values, {
-                      voices: imported && imported.voices ? imported.voices : voices,
-                      notes: notes,
-                    }));
-                  }
-                }}
-              />
-              <FieldLookupReviewButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                kind="chords"
-                fallbackTitle={values.title || ''}
-                currentValue={values.notes || ''}
-                onApply={function(candidate, _job, meta) {
-                  applyChordSearchResult(candidate, meta)
                 }}
               />
             </>

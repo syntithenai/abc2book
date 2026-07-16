@@ -78,9 +78,15 @@ export default function YourFilters(props) {
     }
 
     // if no filters, render nothing unless showWhenEmpty
-    const keys = Object.keys(filters)
+    const keys = Object.keys(filters).filter(function(name) {
+        if (!props.nameFilter || !String(props.nameFilter).trim()) return true
+        return String(name).toLowerCase().indexOf(String(props.nameFilter).trim().toLowerCase()) !== -1
+    })
     if (!keys || keys.length === 0) {
         if (!props.showWhenEmpty) return null
+        if (props.nameFilter && String(props.nameFilter).trim()) {
+            return <p className="books-page-saved-filters-empty">No matching filters.</p>
+        }
         return <p className="books-page-saved-filters-empty">No filters yet. Save a filter from the search page.</p>
     }
 

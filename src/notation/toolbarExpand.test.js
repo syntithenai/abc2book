@@ -2,7 +2,9 @@ import { expandFlagsForWidth, loadMarkFavorites, saveMarkFavorites, toggleMarkFa
 
 describe('toolbarExpand', function() {
   test('expandFlagsForWidth expands in planned order', function() {
+    expect(expandFlagsForWidth(100).clipboard).toBe(false);
     expect(expandFlagsForWidth(100).accidentals).toBe(false);
+    expect(expandFlagsForWidth(400).clipboard).toBe(true);
     expect(expandFlagsForWidth(700).accidentals).toBe(true);
     expect(expandFlagsForWidth(700).barlines).toBe(false);
     expect(expandFlagsForWidth(850).barlines).toBe(true);

@@ -10,6 +10,20 @@ import { icons } from '../../Icons';
 import SearchProgressBar from '../SearchProgressBar';
 import { buildAnalysisProcessingPayload } from '../../melodyProcessingSettings';
 import { getLinkedMediaSourceByIndex } from '../../mediaTranscriptionSources';
+import { useAutoLinkPlaybackRegionScan } from '../../useAutoLinkPlaybackRegionScan';
+import { linkHasConfiguredPlayRange } from '../../linkPlaybackRegionScanUtils';
+
+function applyPlayRangeResultToTune(tune, linkIndex, result) {
+  if (!tune || !Array.isArray(tune.links) || !result || linkIndex == null) return tune;
+  const links = tune.links.map(function(link, idx) {
+    if (idx !== linkIndex) return Object.assign({}, link);
+    const next = Object.assign({}, link);
+    if (result.startAt > 0) next.startAt = String(result.startAt);
+    if (result.endAt > 0) next.endAt = String(result.endAt);
+    return next;
+  });
+  return Object.assign({}, tune, { links: links });
+}
 
 export default function MediaImportAnalyzeToolbar(props) {
   const tune = props.tune;
@@ -19,6 +33,7 @@ export default function MediaImportAnalyzeToolbar(props) {
   const resolverAvailable = props.resolverAvailable !== false;
   const canAnalyzeMedia = props.canAnalyzeMedia !== false && resolverAvailable;
   const canSearch = props.canSearch !== false;
+  const { maybeAutoScan } = useAutoLinkPlaybackRegionScan();
   const {
     mediaSources,
     isAnalyzing,
@@ -38,10 +53,29 @@ export default function MediaImportAnalyzeToolbar(props) {
     return getLinkedMediaSourceByIndex(tune, props.tunebook, preferredLinkIndex);
   }, [tune, props.tunebook, preferredLinkIndex]);
 
-  const getAnalysisOptions = useCallback(function() {
-    return {
+  const ensurePlayRange = useCallback(async function(source, currentTune) {
+    if (!source || source.linkIndex == null || !currentTune || !currentTune.id) {
+      return currentTune;
+    }
+    const link = Array.isArray(currentTune.links) ? currentTune.links[source.linkIndex] : null;
+    if (!link || linkHasConfiguredPlayRange(link)) {
+      return currentTune;
+    }
+    const result = await maybeAutoScan(currentTune.id, source.linkIndex, link, {
+      force: true,
+      currentLinks: currentTune.links,
+      onLinksUpdated: typeof props.onLinksUpdated === 'function' ? props.onLinksUpdated : undefined,
+    });
+    if (!result) return currentTune;
+    return applyPlayRangeResultToTune(currentTune, source.linkIndex, result);
+  }, [maybeAutoScan, props.onLinksUpdated]);
+
+  const getAnalysisOptions = useCallback(function(overrides) {
+    return Object.assign({
+      // Keep results on the wizard draft while the modal stays open.
       skipPersist: true,
       force: true,
+      ensurePlayRange: ensurePlayRange,
       processing: buildAnalysisProcessingPayload(
         processingSettings,
         melodyNoteSettings,
@@ -51,28 +85,31 @@ export default function MediaImportAnalyzeToolbar(props) {
           existingLyrics: existingLyrics,
         }
       ),
-    };
+    }, overrides || {});
   }, [
     processingSettings,
     melodyNoteSettings,
     tune,
     existingLyrics,
+    ensurePlayRange,
   ]);
 
   const canStartAnalysis = canAnalyzeMedia
     && (preferredSource || mediaSources.length > 0)
     && !(preferredLinkIndex !== null && preferredLinkIndex !== undefined && !preferredSource);
 
-  const startAnalysis = useCallback(function() {
+  const startAnalysis = useCallback(function(overrides) {
+    const options = getAnalysisOptions(overrides);
     if (preferredSource) {
-      runAnalysis(preferredSource, getAnalysisOptions());
+      runAnalysis(preferredSource, options);
       return;
     }
-    requestAnalysis(getAnalysisOptions());
+    requestAnalysis(options);
   }, [preferredSource, runAnalysis, requestAnalysis, getAnalysisOptions]);
 
+  // Closing the wizard abandons the draft, so persist field suggestions like Bulk Search.
   const startAnalysisInBackground = useCallback(function() {
-    startAnalysis();
+    startAnalysis({ skipPersist: false });
     if (typeof props.onBackgroundStart === 'function') {
       props.onBackgroundStart();
     }
@@ -109,8 +146,9 @@ export default function MediaImportAnalyzeToolbar(props) {
   ]);
 
   function startFullScrape() {
+    // onFullLookup closes the wizard, so persist analysis suggestions.
     if (canStartAnalysis) {
-      startAnalysis();
+      startAnalysis({ skipPersist: false });
     }
     if (typeof props.onFullLookup === 'function') {
       props.onFullLookup();
@@ -292,7 +330,7 @@ export default function MediaImportAnalyzeToolbar(props) {
                   <Button
                     disabled={isAnalyzing}
                     onClick={function() {
-                      runAnalysis(source, getAnalysisOptions());
+                      runAnalysis(source, getAnalysisOptions({ skipPersist: false }));
                       if (typeof props.onBackgroundStart === 'function') {
                         props.onBackgroundStart();
                       }

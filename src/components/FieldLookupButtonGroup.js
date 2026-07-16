@@ -1,4 +1,4 @@
-import { Badge, Button, ButtonGroup, ProgressBar } from 'react-bootstrap'
+import { Button, ButtonGroup, ProgressBar } from 'react-bootstrap'
 import { useIsNarrowViewport } from '../useMediaQuery'
 
 const DEFAULT_SEARCH_ICON = (
@@ -10,10 +10,9 @@ const DEFAULT_SEARCH_ICON = (
 
 /**
  * Uniform field search chrome:
- * [Search|Cancel] [Suggestions?] [External?]
- * Suggestions only renders when suggestionCount > 0 and opens the selection dialog.
- * Clear belongs on the top Suggestions strip, not here.
- * + progress bar while busy.
+ * [Search|Cancel] [External?]   Suggestions?
+ * Suggestions is a separate button to the right (not joined), shown when
+ * suggestionCount > 0 — no count badge. Clear belongs on the top strip.
  */
 export function FieldLookupButtonGroup(props) {
   const {
@@ -85,8 +84,7 @@ export function FieldLookupButtonGroup(props) {
         if (typeof onOpenSuggestions === 'function') onOpenSuggestions()
       }}
     >
-      {!narrow && <span>Suggestions</span>}
-      <Badge bg="dark" pill className="ms-1">{count}</Badge>
+      {narrow ? 'Sug' : 'Suggestions'}
     </Button>
   ) : null
 
@@ -116,32 +114,42 @@ export function FieldLookupButtonGroup(props) {
     </Button>
   ) : null
 
-  const group = inline ? (
+  const searchGroup = inline ? (
     <>
       {searchBtn}
-      {suggestionsBtn}
       {externalBtn}
     </>
   ) : (
     <ButtonGroup>
       {searchBtn}
-      {suggestionsBtn}
       {externalBtn}
     </ButtonGroup>
   )
 
   return (
-    <div className="field-lookup-button-group" data-testid="field-lookup-button-group">
-      {group}
-      {busy ? (
-        <ProgressBar
-          now={Math.max(5, Math.min(100, Number(progress) || 15))}
-          animated
-          className="mt-1"
-          style={{ height: '0.35rem' }}
-          data-testid="field-search-progress"
-        />
-      ) : null}
+    <div
+      className="field-lookup-button-group"
+      data-testid="field-lookup-button-group"
+      style={{
+        display: 'inline-flex',
+        alignItems: 'flex-start',
+        flexWrap: 'wrap',
+        gap: '0.35rem',
+      }}
+    >
+      <div style={{ display: 'inline-flex', flexDirection: 'column' }}>
+        {searchGroup}
+        {busy ? (
+          <ProgressBar
+            now={Math.max(5, Math.min(100, Number(progress) || 15))}
+            animated
+            className="mt-1"
+            style={{ height: '0.35rem' }}
+            data-testid="field-search-progress"
+          />
+        ) : null}
+      </div>
+      {suggestionsBtn}
     </div>
   )
 }

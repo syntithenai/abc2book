@@ -64,7 +64,7 @@ export function resolveTuneDisplayLayout(flags) {
     };
   }
 
-  // Without notation: lyrics and structure share one scroll + fit-height host.
+  // Without notation: lyrics scroll; structure stays sticky and height-fitted beside them.
   if (!visible.notation && visible.lyrics && visible.structure) {
     return {
       empty: false,

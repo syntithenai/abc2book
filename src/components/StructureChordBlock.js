@@ -104,7 +104,25 @@ export default function StructureChordBlock(props) {
       if (!line.trim()) {
         return <div key={keyPrefix + '-sp-' + idx} className="chord-block-spacer" />;
       }
-      return <div key={keyPrefix + '-' + idx} className="chord-block-line">{line}</div>;
+      // Highlight |: / :| / :|: so the pipe cannot be lost to overflow clipping.
+      const parts = [];
+      const re = /:\|:|\|:|:\|/g;
+      let last = 0;
+      let match;
+      let partKey = 0;
+      while ((match = re.exec(line)) !== null) {
+        if (match.index > last) {
+          parts.push(line.slice(last, match.index));
+        }
+        parts.push(
+          <span key={keyPrefix + '-rm-' + idx + '-' + (partKey++)} className="chord-repeat-mark">
+            {match[0]}
+          </span>
+        );
+        last = match.index + match[0].length;
+      }
+      if (last < line.length) parts.push(line.slice(last));
+      return <div key={keyPrefix + '-' + idx} className="chord-block-line">{parts}</div>;
     });
   }
 

@@ -64,12 +64,15 @@ describe('composerDiscoveryUtils', function() {
     expect(candidates.map(function(item) { return item.artist })).toEqual(['Traditional', 'Oasis'])
   })
 
-  test('shouldOfferTitleSuggestion ignores same normalized title', function() {
+  test('shouldOfferTitleSuggestion only for extremely close refinements', function() {
     expect(shouldOfferTitleSuggestion('Clair de Lune', 'clair de lune')).toBe(false)
     expect(shouldOfferTitleSuggestion('Claire de Lune', 'Clair de lune')).toBe(true)
+    expect(shouldOfferTitleSuggestion('The Butterfly', 'Butterfly')).toBe(true)
+    expect(shouldOfferTitleSuggestion('Wonderwall', "Don't Look Back in Anger")).toBe(false)
+    expect(shouldOfferTitleSuggestion('Clair de Lune', 'Clair de Lune (easy)')).toBe(false)
   })
 
-  test('buildTitleSuggestions merges MusicBrainz and collection titles', function() {
+  test('buildTitleSuggestions keeps only extremely close titles', function() {
     const tunes = {
       a: { id: 'a', name: 'Clair de lune', composer: 'Debussy' },
       b: { id: 'b', name: 'Clair de Lune (easy)', composer: '' },
@@ -91,10 +94,8 @@ describe('composerDiscoveryUtils', function() {
     })
     expect(results.map(function(item) { return item.title })).toEqual([
       'Clair de lune',
-      'Clair de Lune (easy)',
     ])
     expect(results[0].source).toBe('MusicBrainz')
-    expect(results[1].source).toBe('Your collection')
   })
 
   test('buildTitleSuggestions skips current title spelling', function() {

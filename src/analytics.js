@@ -231,7 +231,7 @@ export function trackPageView(pathname) {
 }
 
 export function trackBookSectionClick(section) {
-  const allowed = new Set(['filters', 'recent', 'books', 'tags', 'genres', 'artists'])
+  const allowed = new Set(['filters', 'recent', 'starred', 'books', 'tags', 'genres', 'artists'])
   if (!allowed.has(section)) return
   trackNamedEvent('book_section_click', 'book_section_click-' + section)
 }

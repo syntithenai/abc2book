@@ -66,7 +66,6 @@ describe('FieldLookupButtonGroup', function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
         suggestionCount: 0,
-        onClearSuggestions: jest.fn(),
         onOpenSuggestions: jest.fn(),
         onSearch: jest.fn(),
       }))
@@ -79,22 +78,20 @@ describe('FieldLookupButtonGroup', function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
         suggestionCount: 2,
-        onClearSuggestions: jest.fn(),
         onOpenSuggestions: jest.fn(),
         onSearch: jest.fn(),
       }))
     })
     expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeTruthy()
-    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeFalsy()
     expect(container.textContent).toContain('Suggestions')
   })
 
-  test('Suggestions button is rendered to the right of Search', function() {
+  test('Suggestions is a separate button without a count badge', function() {
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
         suggestionCount: 3,
-        onClearSuggestions: jest.fn(),
         onOpenSuggestions: jest.fn(),
         onSearch: jest.fn(),
       }))
@@ -103,8 +100,13 @@ describe('FieldLookupButtonGroup', function() {
     const suggestions = container.querySelector('[data-testid="field-suggestions-open"]')
     expect(search).toBeTruthy()
     expect(suggestions).toBeTruthy()
+    expect(suggestions.textContent).toBe('Suggestions')
+    expect(suggestions.textContent).not.toMatch(/\d/)
     const position = search.compareDocumentPosition(suggestions)
     expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    // Not joined into the same ButtonGroup as Search
+    expect(suggestions.closest('.btn-group')).toBeFalsy()
+    expect(search.closest('.btn-group')).toBeTruthy()
   })
 
   test('external link only when showExternal', function() {

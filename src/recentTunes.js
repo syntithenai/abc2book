@@ -18,9 +18,29 @@ export function getRecentTunes(tunes, limit) {
     .slice(0, max)
 }
 
+function tuneNameKey(tune) {
+  return (tune && tune.name && String(tune.name).trim()) ? String(tune.name).trim().toLowerCase() : ''
+}
+
+export function getStarredTunes(tunes, limit) {
+  if (!tunes) return []
+  var list = Object.values(tunes)
+    .filter(function(tune) { return tune && tune.id && tune.starred })
+    .sort(function(a, b) {
+      var an = tuneNameKey(a)
+      var bn = tuneNameKey(b)
+      if (an < bn) return -1
+      if (an > bn) return 1
+      return String(a.id).localeCompare(String(b.id))
+    })
+  if (typeof limit === 'number' && limit > 0) return list.slice(0, limit)
+  return list
+}
+
 export const BOOKS_PAGE_SECTIONS = {
   filters: 'books-page-filters',
   recent: 'books-page-recent',
+  starred: 'books-page-starred',
   books: 'books-page-books',
   tags: 'books-page-tags',
   genres: 'books-page-genres',

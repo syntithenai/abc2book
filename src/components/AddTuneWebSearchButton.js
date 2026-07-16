@@ -19,12 +19,7 @@ import Abc from './Abc'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import TuneImportFieldChooserModal from './TuneImportFieldChooserModal'
-import GenreSuggestionOffer from './GenreSuggestionOffer'
-import {
-  buildGenreSearchContext,
-  inferGenreFromSearchContext,
-  shouldOfferGenreSuggestion,
-} from '../genreInference'
+import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 
 export default function AddTuneWebSearchButton({
   title,
@@ -58,7 +53,6 @@ export default function AddTuneWebSearchButton({
   const [showLocalPicker, setShowLocalPicker] = useState(false)
   const [localSettings, setLocalSettings] = useState(null)
   const [auxPicker, setAuxPicker] = useState(null)
-  const [genreSuggestion, setGenreSuggestion] = useState(null)
   const skipSupplementaryOnPickerCloseRef = useRef(false)
   const abortRef = useRef(null)
 
@@ -152,15 +146,15 @@ export default function AddTuneWebSearchButton({
   }
 
   function maybeSuggestGenre(result, extras) {
-    if (typeof onGenreAccept !== 'function') return
-    const inferred = inferGenreFromSearchContext(buildGenreSearchContext(result, Object.assign({
+    maybeOfferGenreFromSearchResult({
+      result: result,
       title: title,
       artist: artist,
       rhythm: rhythm,
-    }, extras || {})))
-    if (inferred && shouldOfferGenreSuggestion(inferred.genre, currentGenre)) {
-      setGenreSuggestion(inferred)
-    }
+      currentGenre: currentGenre,
+      onGenreAccept: onGenreAccept,
+      extras: extras,
+    })
   }
 
   function beginFieldChooser(abcText, sourceLabel, candidate) {
@@ -537,15 +531,6 @@ export default function AddTuneWebSearchButton({
       {error && (
         <Alert variant="danger" style={{ marginTop: '0.5em', maxWidth: '28em' }}>{error}</Alert>
       )}
-
-      <GenreSuggestionOffer
-        suggestion={genreSuggestion}
-        onAccept={function(genre) {
-          if (typeof onGenreAccept === 'function') onGenreAccept(genre)
-          setGenreSuggestion(null)
-        }}
-        onDismiss={function() { setGenreSuggestion(null) }}
-      />
 
       <Modal show={showLocalPicker} onHide={function() {
         setShowLocalPicker(false)

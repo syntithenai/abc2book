@@ -5,7 +5,7 @@
 import FieldSuggestionsChangesStrip from './FieldSuggestionsChangesStrip'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
 import { dismissFieldLookup } from '../tuneFieldLookupQueue'
-import { awaitingJobsForTune, nonCurrentCandidates } from '../fieldSuggestionsUtils'
+import { awaitingJobsForTune, searchableSuggestions } from '../fieldSuggestionsUtils'
 import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 import { useMemo } from 'react'
 
@@ -22,7 +22,7 @@ export default function TuneFieldSuggestionsStrip(props) {
       return {
         jobId: job.id,
         kind: job.kind,
-        count: nonCurrentCandidates(job.candidates).length,
+        count: searchableSuggestions(job).length,
         job: job,
       }
     })

@@ -3,7 +3,7 @@ import { subscribeOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
 /**
  * Subscribe to top-strip / deep-link requests to open suggestions for a field kind.
- * onOpen should open the selection dialog (and freeze Current value).
+ * onOpen should open the selection dialog (using job Original Value).
  */
 export function useOpenFieldSuggestions(tuneId, kind, onOpen) {
   const onOpenRef = useRef(onOpen)

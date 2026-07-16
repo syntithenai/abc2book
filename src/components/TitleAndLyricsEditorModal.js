@@ -8,7 +8,6 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
-import FieldLookupReviewButton from './FieldLookupReviewButton'
 import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
@@ -17,9 +16,6 @@ import LyricsSectionsDropdown from './LyricsSectionsDropdown'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
-import TitleSuggestionOffer from './TitleSuggestionOffer'
-import { buildTitleSuggestions } from '../composerDiscoveryUtils'
-import { findTuneCandidates } from '../voiceCommandUtils'
 import { mergeBibliographicList } from '../tuneBibliographicUtils'
 
 function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
@@ -41,28 +37,9 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
-  const [composerTitleSuggestions, setComposerTitleSuggestions] = useState([])
-  const musicBrainzTitleRef = useRef('')
   const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
   const { available: resolverAvailable, checked: resolverChecked } = useMediaResolverHealth()
-
-  function refreshTitleSuggestions(currentTitle, musicBrainzTitle) {
-    const mb = musicBrainzTitle != null
-      ? String(musicBrainzTitle || '').trim()
-      : musicBrainzTitleRef.current
-    if (musicBrainzTitle != null) {
-      musicBrainzTitleRef.current = mb
-    }
-    const next = buildTitleSuggestions({
-      currentTitle: currentTitle,
-      musicBrainzTitle: mb,
-      tunes: tunes,
-      findTuneCandidates: findTuneCandidates,
-      limit: 5,
-    })
-    setComposerTitleSuggestions(next)
-  }
   const handleClose = () => {
       setShow(false);
   }
@@ -76,6 +53,13 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   }, [show, showNoteAlignedLyrics, showLyricsTools, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
   let params = useParams();
+
+  function acceptSuggestedTitle(suggestion) {
+    if (!suggestion || !suggestion.title || !tune) return
+    tune.name = suggestion.title
+    tune.id = params.tuneId
+    tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
+  }
 
   function saveLyrics(lines) {
     setPlainLyricLines(tune, lines)
@@ -140,23 +124,8 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                         <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
                           tune.name = e.target.value
                           tune.id = params.tuneId
-                          refreshTitleSuggestions(e.target.value)
                           tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
                         }} />
-                        <TitleSuggestionOffer
-                          candidates={composerTitleSuggestions}
-                          onAccept={function(nextTitle) {
-                            tune.name = nextTitle
-                            tune.id = params.tuneId
-                            musicBrainzTitleRef.current = ''
-                            setComposerTitleSuggestions([])
-                            tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
-                          }}
-                          onDismiss={function() {
-                            musicBrainzTitleRef.current = ''
-                            setComposerTitleSuggestions([])
-                          }}
-                        />
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="composer">
@@ -184,26 +153,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                               tune.id = params.tuneId
                               tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
                             }}
-                            onSuggestedTitle={function(suggestion) {
-                              refreshTitleSuggestions(
-                                tune.name || '',
-                                suggestion && suggestion.title ? suggestion.title : ''
-                              )
-                            }}
-                          />
-                          <FieldLookupReviewButton
-                            tuneId={params.tuneId || (tune && tune.id)}
-                            kind="composer"
-                            fallbackTitle={tune.name || ''}
-                            currentValue={tune && tune.composer ? tune.composer : ''}
-                            onApply={function(candidate, _job, meta) {
-                              if (meta && (meta.deferred || meta.keepCurrent)) return
-                              if (candidate && candidate.artist) {
-                                tune.composer = candidate.artist
-                                tune.id = params.tuneId
-                                tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
-                              }
-                            }}
+                            onSuggestedTitle={acceptSuggestedTitle}
                           />
                         </div>
                       <AsyncCreatableSelect
@@ -253,17 +203,6 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                           token={token}
                           tunebook={tunebook}
                           onLyrics={function(result) { saveLyrics(result.lines) }}
-                        />
-                        <FieldLookupReviewButton
-                          tuneId={params.tuneId || (tune && tune.id)}
-                          kind="lyrics"
-                          fallbackTitle={tune.name || ''}
-                          currentValue={lyricLinesToText(tune)}
-                          onApply={function(result, _job, meta) {
-                            if (meta && (meta.deferred || meta.keepCurrent)) return
-                            if (result && result.lines) saveLyrics(result.lines)
-                            else if (result && result.text) saveLyrics(String(result.text).split(/\r?\n/))
-                          }}
                         />
                         <Button
                           variant="outline-primary"

@@ -64,11 +64,11 @@ export const EDITOR_INFO_FIELD_HELP = {
 export const LINKS_FIELD_HELP = {
   startAt: {
     title: 'Start At',
-    body: 'Start time of the song in seconds. Playback automatically jumps to this time when first starting (unless loops are being used). When the media resolver and Whisper are available, use Scan beside this field to auto-detect intro/outro speech and set Start At and End At without confirmation. Scan works best for spoken YouTube introductions before the tune; it is less reliable when singing starts immediately or when speech runs under music.',
+    body: 'Start time of the song in seconds. Playback automatically jumps to this time when first starting (unless loops are being used). Edit Start and End in the Play Range dialog, or use Scan Range to auto-detect intro/outro speech when the media resolver and Whisper are available. Scan works best for spoken YouTube introductions before the tune; it is less reliable when singing starts immediately or when speech runs under music.',
   },
   endAt: {
     title: 'End At',
-    body: 'End time of the song in seconds. Playback automatically stops when the progress goes past this time.',
+    body: 'End time of the song in seconds. Playback automatically stops when the progress goes past this time. Edit in the Play Range dialog.',
   },
 };
 
@@ -124,7 +124,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   backgroundJobs: {
     title: 'Background jobs',
-    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed entries.',
+    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
   },
 };
 

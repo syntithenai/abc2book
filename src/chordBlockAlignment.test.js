@@ -201,6 +201,31 @@ describe('chord block alignment against melody double barlines', function() {
     expect(extractChordBars(editorChart).length).toBeGreaterThan(3);
   });
 
+  test('display charts emit inline repeats and ending markers', function() {
+    const abcjsParser = useAbcjsParser();
+    const abcTools = useAbcTools();
+    const melodyAbc = abcTools.emptyABC('Volta')
+      + '|: "C"c2 "G"d2 | [1 "Am"e2 "F"f2 :| [2 "G"g2 "C"c2 |]';
+    const displayChart = abcjsParser.renderChords(melodyAbc, false, 0, 'C', '1/4', '4/4');
+    const editorChart = abcjsParser.renderChords(melodyAbc, true, 0, 'C', '1/4', '4/4');
+
+    expect(displayChart).toMatch(/\|:/);
+    expect(displayChart).toMatch(/:\|/);
+    expect(displayChart).toMatch(/\[1/);
+    expect(displayChart).toMatch(/\[2/);
+    expect(displayChart).not.toMatch(/\|\s+:/);
+    expect(displayChart).not.toMatch(/:\s+\|/);
+    // Endings stay on the same line(s) — no dedicated ending-only newlines.
+    expect(displayChart).not.toMatch(/\n\s*\[1/);
+    expect(displayChart).not.toMatch(/\n\s*\[2/);
+    expect(formatChordChartForDisplay(displayChart)).toMatch(/\|:.*\[1.*:\|.*\[2/);
+    expect(formatChordChartForDisplay(displayChart)).not.toMatch(/\|\s+:|:\s+\|/);
+    expect(extractChordBars(displayChart)).toEqual([['C', 'G'], ['Am', 'F'], ['G', 'C']]);
+    // Editor grid stays marker-free for merge/edit round-trip.
+    expect(editorChart).not.toMatch(/\|:/);
+    expect(editorChart).not.toMatch(/\[1/);
+  });
+
   test('chords do not leak across lyric line boundaries (line-for-line chart)', function() {
     // two chart lines, two lyric lines: each lyric line gets only its own
     // chords rather than a chord from the next line bleeding onto this one.

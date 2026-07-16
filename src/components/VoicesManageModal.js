@@ -109,6 +109,7 @@ export default function VoicesManageModal(props) {
                       <Form.Check
                         type="checkbox"
                         aria-label={'Show ' + label}
+                        data-testid={'voices-manage-visible-' + key}
                         checked={isDisplayed(vk)}
                         onChange={function() { handleDisplayToggle(vk); }}
                       />
@@ -118,6 +119,7 @@ export default function VoicesManageModal(props) {
                         type="radio"
                         name="voices-manage-edit"
                         aria-label={'Edit ' + label}
+                        data-testid={'voices-manage-edit-' + key}
                         checked={voiceIndex === vk}
                         onChange={function() { if (onVoiceSelect) onVoiceSelect(vk); }}
                       />

@@ -74,6 +74,10 @@ export function voiceLines(notes) {
   return String(notes).split('\n');
 }
 
+export function isMidiProgramLine(line) {
+  return MIDI_PROGRAM_RE.test(String(line || '').trim());
+}
+
 export function parseMidiProgramFromNotes(notes) {
   const lines = voiceLines(notes);
   for (let i = 0; i < lines.length; i++) {
@@ -88,7 +92,7 @@ export function parseMidiProgramFromNotes(notes) {
 
 export function stripMidiProgramFromNotes(notes) {
   const lines = voiceLines(notes).filter(function(line) {
-    return !MIDI_PROGRAM_RE.test(String(line).trim());
+    return !isMidiProgramLine(line);
   });
   return lines.length ? lines : [''];
 }

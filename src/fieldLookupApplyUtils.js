@@ -10,6 +10,7 @@ export function fieldLookupKindToFormKey(kind) {
   if (kind === 'notation') return 'notes'
   if (kind === 'links') return 'links'
   if (kind === 'genre') return 'genre'
+  if (kind === 'title') return 'title'
   if (kind === 'artists') return 'artists'
   if (kind === 'aliases') return 'aliases'
   return kind
@@ -36,6 +37,7 @@ export function candidateDisplayValue(kind, candidate) {
     return title || link
   }
   if (kind === 'genre') return String(candidate.genre || candidate.preview || '').trim()
+  if (kind === 'title') return String(candidate.title || candidate.text || candidate.preview || '').trim()
   if (kind === 'artists') return String(candidate.artist || candidate.preview || '').trim()
   if (kind === 'aliases') return String(candidate.alias || candidate.preview || '').trim()
   return String(candidate.preview || candidate.title || '').trim()
@@ -45,6 +47,9 @@ export function isTuneFieldEmptyForKind(tune, kind) {
   if (!tune) return true
   if (kind === 'composer') {
     return needsComposerDiscovery(tune.composer)
+  }
+  if (kind === 'title') {
+    return !String(tune.name || '').trim()
   }
   if (kind === 'lyrics') {
     const text = lyricLinesToText(tune)
@@ -152,6 +157,12 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     tune.genre = genre
     return true
   }
+  if (kind === 'title') {
+    const title = String(candidate.title || candidate.text || '').trim()
+    if (!title) return false
+    tune.name = title
+    return true
+  }
   if (kind === 'artists') {
     const artist = String(candidate.artist || '').trim()
     if (!artist || isGenericArtist(artist)) return false
@@ -184,6 +195,7 @@ export function historyLabelForKind(kind) {
   if (kind === 'chords') return 'Search chords'
   if (kind === 'links') return 'Search links'
   if (kind === 'genre') return 'Search genre'
+  if (kind === 'title') return 'Update title'
   if (kind === 'artists') return 'Search artists'
   if (kind === 'aliases') return 'Search aliases'
   return 'Field search'
@@ -200,11 +212,13 @@ export function toastAppliedFieldLookup(kind, tuneName) {
           ? 'link'
           : kind === 'genre'
             ? 'genre'
-            : kind === 'artists'
-              ? 'artists'
-              : kind === 'aliases'
-                ? 'aliases'
-                : 'search result'
+            : kind === 'title'
+              ? 'title'
+              : kind === 'artists'
+                ? 'artists'
+                : kind === 'aliases'
+                  ? 'aliases'
+                  : 'search result'
   toast.info('Updated ' + label + (tuneName ? (': ' + tuneName) : ''), {
     hideProgressBar: true,
     autoClose: 1500,

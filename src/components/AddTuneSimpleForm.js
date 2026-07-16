@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from 'react'
-import { Button, ButtonGroup, Col, Form, ListGroup, Row, Spinner } from 'react-bootstrap'
+import { Button, ButtonGroup, Col, Form, InputGroup, ListGroup, Row, Spinner } from 'react-bootstrap'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
 import BookSelectorModal from './BookSelectorModal'
@@ -148,16 +148,14 @@ export default function AddTuneSimpleForm(props) {
                 onCapitalize={function(next) { setField('title', next) }}
               />
             </div>
-            <div className="d-flex gap-2 align-items-start">
-              <div className="flex-grow-1">
-                <Form.Control
-                  value={values.title || ''}
-                  autoComplete="off"
-                  data-testid="add-tune-title"
-                  placeholder="Song title"
-                  onChange={function(e) { setField('title', e.target.value) }}
-                />
-              </div>
+            <InputGroup>
+              <Form.Control
+                value={values.title || ''}
+                autoComplete="off"
+                data-testid="add-tune-title"
+                placeholder="Song title"
+                onChange={function(e) { setField('title', e.target.value) }}
+              />
               <FieldVoiceFillButton
                 fieldKind="title"
                 token={props.token}
@@ -165,7 +163,7 @@ export default function AddTuneSimpleForm(props) {
                 onFill={function(text) { setField('title', text) }}
                 data-testid="add-tune-title-mic"
               />
-            </div>
+            </InputGroup>
           </Form.Group>
 
           <Form.Group className="mb-3 add-tune-field-block">
@@ -203,36 +201,34 @@ export default function AddTuneSimpleForm(props) {
                       <Form.Label className="mb-0">Composer</Form.Label>
                       {api.buttonGroup}
                     </div>
-                    <div className="d-flex gap-2 align-items-start">
-                      <div className="flex-grow-1">
-                        <SelectInput
-                          value={values.artist || ''}
-                          options={composerOptions}
-                          placeholder={canSearchComposer
-                            ? 'Composer'
-                            : 'Enter a title, then Search'}
-                          autoComplete="off"
-                          data-testid="add-tune-composer"
-                          onChange={function(val) { setField('artist', val) }}
-                          onSelectOption={function(val) {
-                            scheduleYouTubeSearch(val, artistsRef.current)
+                    <SelectInput
+                      value={values.artist || ''}
+                      options={composerOptions}
+                      placeholder={canSearchComposer
+                        ? 'Composer'
+                        : 'Enter a title, then Search'}
+                      autoComplete="off"
+                      data-testid="add-tune-composer"
+                      onChange={function(val) { setField('artist', val) }}
+                      onSelectOption={function(val) {
+                        scheduleYouTubeSearch(val, artistsRef.current)
+                      }}
+                      onBlur={function() {
+                        scheduleYouTubeSearch(values.artist, artistsRef.current)
+                      }}
+                      endAppend={
+                        <FieldVoiceFillButton
+                          fieldKind="composer"
+                          token={props.token}
+                          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                          onFill={function(text) {
+                            setField('artist', text)
+                            scheduleYouTubeSearch(text, artistsRef.current)
                           }}
-                          onBlur={function() {
-                            scheduleYouTubeSearch(values.artist, artistsRef.current)
-                          }}
+                          data-testid="add-tune-composer-mic"
                         />
-                      </div>
-                      <FieldVoiceFillButton
-                        fieldKind="composer"
-                        token={props.token}
-                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-                        onFill={function(text) {
-                          setField('artist', text)
-                          scheduleYouTubeSearch(text, artistsRef.current)
-                        }}
-                        data-testid="add-tune-composer-mic"
-                      />
-                    </div>
+                      }
+                    />
                     {api.errorNode}
                     <div className="mt-3">
                       <TuneArtistsField

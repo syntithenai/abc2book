@@ -56,9 +56,10 @@ export default function NotationToolbar(props) {
         onVoiceNotesChange={props.onVoiceNotesChange}
         onAddVoice={props.onAddVoice}
         onDeleteVoice={props.onDeleteVoice}
-        expanded={!!expand.voices}
       />
       <NotationClipboardToolbar
+        tunebook={tunebook}
+        expanded={!!expand.clipboard}
         hasSelection={!!(session.selection && session.selection.eventIds && session.selection.eventIds.length)}
         clipboardEpoch={props.clipboardEpoch || 0}
         onCopy={function() { if (props.onClipboardAction) props.onClipboardAction('copy'); }}
@@ -163,6 +164,17 @@ export default function NotationToolbar(props) {
         onDiscardRecord={onDiscardRecord}
         pendingRecordCount={pendingRecordCount}
       />
+      <Button
+        size="lg"
+        variant={props.showVirtualPiano ? 'success' : 'outline-secondary'}
+        title={props.showVirtualPiano ? 'Hide piano keyboard' : 'Show piano keyboard'}
+        aria-label={props.showVirtualPiano ? 'Hide piano keyboard' : 'Show piano keyboard'}
+        aria-pressed={!!props.showVirtualPiano}
+        data-testid="notation-virtual-piano-toggle"
+        onClick={function() {
+          if (typeof props.onToggleVirtualPiano === 'function') props.onToggleVirtualPiano();
+        }}
+      >{tunebook && tunebook.icons ? tunebook.icons.piano : 'Piano'}</Button>
       <Button
         size="lg"
         variant="outline-secondary"

@@ -2,6 +2,7 @@ import {
   parseVoiceMeta,
   formatVoiceMeta,
   defaultVoiceMeta,
+  isMidiProgramLine,
   parseMidiProgramFromNotes,
   setMidiProgramInNotes,
   stripMidiProgramFromNotes,
@@ -42,6 +43,8 @@ describe('voiceMeta', function() {
   });
 
   test('MIDI program helpers peel and rewrite notes', function() {
+    expect(isMidiProgramLine('%%MIDI program 0')).toBe(true);
+    expect(isMidiProgramLine('C D E F |')).toBe(false);
     expect(parseMidiProgramFromNotes(['%%MIDI program 40', 'CDEF'])).toBe(40);
     expect(setMidiProgramInNotes(['%%MIDI program 0', 'C'], 73)).toEqual([
       '%%MIDI program 73',

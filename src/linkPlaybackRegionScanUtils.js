@@ -19,3 +19,11 @@ export function canAutoScanPlaybackRegion(healthState) {
     && resolverHasFeature(health.status, 'whisper')
   )
 }
+
+/** True when the link already has a Start At and/or End At play range. */
+export function linkHasConfiguredPlayRange(link) {
+  if (!link) return false
+  const hasStart = link.startAt != null && String(link.startAt).trim() !== ''
+  const hasEnd = link.endAt != null && String(link.endAt).trim() !== ''
+  return hasStart || hasEnd
+}

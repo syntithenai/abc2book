@@ -143,12 +143,12 @@ export const WALKTHROUGH_STEPS = [
     title: 'Virtual piano',
     summary: 'Click pitches on an on-screen keyboard.',
     body: [
-      'In Staff or Split view, an on-screen piano appears below the notation. Click white or black keys to insert notes (note input mode is enabled automatically if needed).',
+      'Toggle the piano button in the staff toolbar to show an on-screen keyboard under the toolbar. Click white or black keys to insert notes (note input mode is enabled automatically if needed).',
       'Use ◀ Oct and Oct ▶ on the left to shift the keyboard range up or down an octave.',
       'Shift+click a key to add a chord tone. Keys highlight when corresponding MIDI notes are active.',
     ],
     tryIt: [
-      'Click a few keys on the virtual piano.',
+      'Turn on the piano toolbar button, then click a few keys on the virtual piano.',
       'Shift+click to build a chord.',
       'Change octave and enter notes in a higher register.',
     ],

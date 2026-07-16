@@ -2,9 +2,7 @@ import {useRef, useState, useEffect} from 'react'
 import {Button, ButtonGroup, Form, Badge} from 'react-bootstrap'
 import YouTube from 'react-youtube'
 import YouTubeSearchModal from './YouTubeSearchModal'
-import { FormLabelWithHelp } from './FormFieldHelp'
-import { LINKS_FIELD_HELP } from '../formFieldHelpText'
-import LinkPlaybackRegionScanControls from './LinkPlaybackRegionScanControls'
+import LinkPlayRangeModal from './LinkPlayRangeModal'
 import MediaImportWizard from './MediaImportWizard'
 import MediaImportEntryButton from './MediaImportEntryButton'
 import FileInputButton from './FileInputButton'
@@ -43,7 +41,7 @@ function LinksEditorToolbarButton({ icon, label, variant, style, className, icon
             title={label}
             {...buttonProps}
         >
-            {icon}
+            {icon ? <span className="links-editor-toolbar-btn-icon" aria-hidden="true">{icon}</span> : null}
             {!iconOnly && <span className="links-editor-toolbar-btn-label">{children || label}</span>}
         </Button>
     )
@@ -98,6 +96,7 @@ export default function LinksEditor(props) {
     const [ownedMediaBusy, setOwnedMediaBusy] = useState(false)
     const [previewLinkIndex, setPreviewLinkIndex] = useState(null)
     const [previewLoadingIndex, setPreviewLoadingIndex] = useState(null)
+    const [playRangeLinkIndex, setPlayRangeLinkIndex] = useState(null)
     const [youtubePreview, setYoutubePreview] = useState(null)
     const previewAudioRef = useRef(null)
     const previewBlobUrlRef = useRef(null)
@@ -275,8 +274,6 @@ export default function LinksEditor(props) {
 
         try {
             player.playVideo()
-            setPreviewLinkIndex(preview.linkIndex)
-            setPreviewLoadingIndex(null)
         } catch (e) {
             setWarning('Could not preview this YouTube link.')
             stopLinkPreview()
@@ -284,6 +281,14 @@ export default function LinksEditor(props) {
     }
 
     function onYoutubePreviewStateChange(event) {
+        if (event.data === YT_PLAYING) {
+            const preview = youtubePreviewRef.current
+            if (preview) {
+                setPreviewLinkIndex(preview.linkIndex)
+                setPreviewLoadingIndex(null)
+            }
+            return
+        }
         if (event.data === YT_ENDED) {
             stopLinkPreview()
         }
@@ -305,15 +310,28 @@ export default function LinksEditor(props) {
         setYoutubePreview(preview)
     }
 
+    function pauseOtherPlayback() {
+        const mediaController = props.mediaController
+        if (!mediaController) return
+        if (typeof mediaController.pause === 'function') {
+            mediaController.pause()
+            return
+        }
+        if (typeof mediaController.abortPlayingIntent === 'function') {
+            mediaController.abortPlayingIntent()
+        }
+    }
+
     async function toggleLinkPreview(linkIndex) {
         const link = Array.isArray(props.links) ? props.links[linkIndex] : null
         if (!linkIsPreviewable(link, isYoutubeLink)) return
 
-        if (previewLinkIndex === linkIndex) {
+        if (previewLinkIndex === linkIndex || previewLoadingIndex === linkIndex) {
             stopLinkPreview()
             return
         }
 
+        pauseOtherPlayback()
         stopLinkPreview()
         setPreviewLoadingIndex(linkIndex)
 
@@ -342,13 +360,9 @@ export default function LinksEditor(props) {
     }
 
     function openMediaWizard(linkIndex) {
-        const link = props.links && props.links[linkIndex]
         setWizardLinkIndex(linkIndex)
         setWizardAutoStartAnalysis(true)
         setShowMediaWizard(true)
-        if (link && linkHasMedia(link)) {
-            triggerAutoScan(linkIndex, link, props.links, true)
-        }
     }
 
     function closeMediaWizard() {
@@ -413,6 +427,44 @@ export default function LinksEditor(props) {
         const link = links[linkIndex]
         if (!linkHasMedia(link)) return
         triggerAutoScan(linkIndex, link, links, immediate)
+    }
+
+    function remapIndexAfterSwap(index, fromIndex, toIndex) {
+        if (index === null || index === undefined) return index
+        if (index === fromIndex) return toIndex
+        if (index === toIndex) return fromIndex
+        return index
+    }
+
+    function moveLink(fromIndex, direction) {
+        const links = Array.isArray(props.links) ? props.links.slice() : []
+        const toIndex = fromIndex + direction
+        if (toIndex < 0 || toIndex >= links.length) return
+        const moved = links[fromIndex]
+        links[fromIndex] = links[toIndex]
+        links[toIndex] = moved
+
+        setPreviewLinkIndex(function(current) {
+            return remapIndexAfterSwap(current, fromIndex, toIndex)
+        })
+        setPreviewLoadingIndex(function(current) {
+            return remapIndexAfterSwap(current, fromIndex, toIndex)
+        })
+        setPlayRangeLinkIndex(function(current) {
+            return remapIndexAfterSwap(current, fromIndex, toIndex)
+        })
+        if (youtubePreviewRef.current && youtubePreviewRef.current.linkIndex != null) {
+            youtubePreviewRef.current = Object.assign({}, youtubePreviewRef.current, {
+                linkIndex: remapIndexAfterSwap(youtubePreviewRef.current.linkIndex, fromIndex, toIndex),
+            })
+        }
+        if (youtubePreview && youtubePreview.linkIndex != null) {
+            setYoutubePreview(Object.assign({}, youtubePreview, {
+                linkIndex: remapIndexAfterSwap(youtubePreview.linkIndex, fromIndex, toIndex),
+            }))
+        }
+
+        onChange(links)
     }
 
     function prependOwnedMediaLink(newLink) {
@@ -632,50 +684,89 @@ export default function LinksEditor(props) {
                     {Array.isArray(props.links) && props.links.map(function(link, lk) {
                         const ownedMedia = isOwnedMediaLink(link)
                         const syncStatus = ownedMedia ? getOwnedMediaSyncStatus(link) : null
-                        return <div key={lk} style={{marginTop:'0.3em', backgroundColor:'lightgrey', border:'1px solid black', padding:'0.3em'}} >
-                            <div className="links-editor-link-actions" style={{float:'right', display:'flex', gap:'0.3em', alignItems:'center'}}>
-                                    {linkIsPreviewable(link, isYoutubeLink) && (
-                                        <Button
-                                            variant={previewLinkIndex === lk ? 'warning' : 'success'}
-                                            aria-label={previewLinkIndex === lk ? 'Pause preview' : 'Preview link'}
-                                            title={previewLinkIndex === lk ? 'Pause preview' : 'Preview link'}
-                                            disabled={previewLoadingIndex === lk}
-                                            onClick={function() { toggleLinkPreview(lk) }}
-                                        >
-                                            {previewLoadingIndex === lk
-                                                ? '…'
-                                                : (previewLinkIndex === lk ? props.tunebook.icons.pause : props.tunebook.icons.play)}
-                                        </Button>
-                                    )}
-                                    {(link && link.link && link.link.startsWith("data:audio/")) && <Button variant="primary" onClick={function() {
-                                        var a = document.createElement("a");
+                        return <div key={lk} className="links-editor-link-card">
+                            <div className="links-editor-link-actions">
+                                <Button
+                                    size="sm"
+                                    variant="outline-secondary"
+                                    className="links-editor-reorder-btn"
+                                    aria-label="Move link up"
+                                    title="Move link up"
+                                    disabled={lk === 0}
+                                    onClick={function() { moveLink(lk, -1) }}
+                                >
+                                    {props.tunebook.icons.arrowup}
+                                </Button>
+                                <Button
+                                    size="sm"
+                                    variant="outline-secondary"
+                                    className="links-editor-reorder-btn"
+                                    aria-label="Move link down"
+                                    title="Move link down"
+                                    disabled={lk >= props.links.length - 1}
+                                    onClick={function() { moveLink(lk, 1) }}
+                                >
+                                    {props.tunebook.icons.arrowdown}
+                                </Button>
+                                {linkIsPreviewable(link, isYoutubeLink) && (
+                                    <Button
+                                        size="sm"
+                                        variant={previewLoadingIndex === lk
+                                            ? 'secondary'
+                                            : (previewLinkIndex === lk ? 'warning' : 'success')}
+                                        aria-label={previewLoadingIndex === lk
+                                            ? 'Cancel loading'
+                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
+                                        title={previewLoadingIndex === lk
+                                            ? 'Cancel loading'
+                                            : (previewLinkIndex === lk ? 'Pause preview' : 'Preview link')}
+                                        onClick={function() { toggleLinkPreview(lk) }}
+                                    >
+                                        {previewLoadingIndex === lk
+                                            ? props.tunebook.icons.waiting
+                                            : (previewLinkIndex === lk ? props.tunebook.icons.pause : props.tunebook.icons.play)}
+                                    </Button>
+                                )}
+                                {(link && link.link && link.link.startsWith('data:audio/')) && (
+                                    <Button size="sm" variant="primary" onClick={function() {
+                                        var a = document.createElement('a')
                                         a.href = link.link
-                                        a.download = link.title;
-                                        a.click();
-                                    }} >{props.tunebook.icons.save}</Button>}
-                                    {ownedMedia && <Button variant="primary" onClick={function() {
+                                        a.download = link.title
+                                        a.click()
+                                    }}>{props.tunebook.icons.save}</Button>
+                                )}
+                                {ownedMedia && (
+                                    <Button size="sm" variant="primary" onClick={function() {
                                         downloadOwnedMediaLink(link, lk)
-                                    }} >{props.tunebook.icons.save}</Button>}
-                                    {(!simplified && link && link.link && link.link.indexOf("youtube") !== -1) && <a target="_new" rel="noreferrer" href={link.link} ><Button variant="primary"> {props.tunebook.icons.externallink}</Button></a>}
-                                    <Button variant="danger" onClick={function() {
-                                        if (previewLinkIndex === lk) {
-                                            stopLinkPreview()
-                                        }
-                                        if (window.confirm("Are you sure you want to delete this link?")) {
-                                            var links = props.links
-                                            links.splice(lk, 1)
-                                            props.onChange(links)
-                                        }
-                                    }} >{props.tunebook.icons.deletebin}</Button>
+                                    }}>{props.tunebook.icons.save}</Button>
+                                )}
+                                {(!simplified && link && link.link && link.link.indexOf('youtube') !== -1) && (
+                                    <a target="_blank" rel="noreferrer" href={link.link}>
+                                        <Button size="sm" variant="primary" aria-label="Open external link" title="Open external link">
+                                            {props.tunebook.icons.externallink}
+                                        </Button>
+                                    </a>
+                                )}
+                                <Button size="sm" variant="danger" aria-label="Delete link" title="Delete link" onClick={function() {
+                                    if (previewLinkIndex === lk) {
+                                        stopLinkPreview()
+                                    }
+                                    if (window.confirm('Are you sure you want to delete this link?')) {
+                                        var links = props.links
+                                        links.splice(lk, 1)
+                                        props.onChange(links)
+                                    }
+                                }}>{props.tunebook.icons.deletebin}</Button>
                             </div>
                             <div className={'links-editor-fields' + (simplified ? ' links-editor-fields--simplified' : '')}>
                                 <div className="links-editor-fields-row links-editor-fields-row--primary">
                                     <Form.Group className="links-editor-field-group links-editor-field-group--title">
-                                        <div className="links-editor-field-label-row">
+                                        <div className="links-editor-field-label-row links-editor-field-label-row--title">
                                             <Form.Label className="links-editor-field-label">Title</Form.Label>
                                             <MediaImportEntryButton
                                                 className="links-editor-field-label-action"
                                                 tune={tuneForMedia || props.tune}
+                                                linkIndex={lk}
                                                 label="Analyse Audio"
                                                 compact={true}
                                                 disabled={!linkHasMedia(link)}
@@ -700,8 +791,10 @@ export default function LinksEditor(props) {
                                         </div>
                                     </Form.Group>
                                     <Form.Group className="links-editor-field-group links-editor-field-group--link">
-                                        {!linkHidesUrlField(link) && <>
+                                        {(!linkHidesUrlField(link) || ownedMedia) ? (
                                             <Form.Label className="links-editor-field-label">Link</Form.Label>
+                                        ) : null}
+                                        {!linkHidesUrlField(link) && (
                                             <Form.Control type="text" value={link.link} onChange={function(e) {
                                                 var links = props.links
                                                 links[lk].link = e.target.value
@@ -710,7 +803,7 @@ export default function LinksEditor(props) {
                                                 if (!linkHasMedia(link)) return
                                                 triggerAutoScan(lk, props.links[lk], props.links, true)
                                             }} />
-                                        </>}
+                                        )}
                                         {ownedMedia && (
                                             <div className="links-editor-owned-media-uri">
                                                 {link.link}
@@ -720,56 +813,20 @@ export default function LinksEditor(props) {
                                 </div>
                                 {!simplified && (
                                     <div className="links-editor-fields-row links-editor-fields-row--region">
-                                        <Form.Group className="links-editor-field-group links-editor-field-group--start-at">
-                                            <div className="links-editor-field-label-row">
-                                                <FormLabelWithHelp
-                                                    className="links-editor-field-label"
-                                                    label="Start"
-                                                    helpBody={LINKS_FIELD_HELP.startAt.body}
-                                                    helpTitle={LINKS_FIELD_HELP.startAt.title}
-                                                />
-                                                <LinkPlaybackRegionScanControls
-                                                    className="links-editor-field-label-action"
-                                                    tune={tuneForMedia || props.tune}
-                                                    linkIndex={lk}
-                                                    link={link}
-                                                    currentLinks={props.links}
-                                                    onLinksUpdated={onChange}
-                                                />
-                                            </div>
-                                            <Form.Control
-                                                as="input"
-                                                className="links-editor-region-input"
-                                                type="text"
+                                        <div className="links-editor-region-actions">
+                                            <Button
+                                                variant="primary"
                                                 size="sm"
-                                                value={link.startAt}
-                                                onChange={function(e) {
-                                                    var links = props.links
-                                                    links[lk].startAt = e.target.value
-                                                    props.onChange(links)
+                                                onClick={function() {
+                                                    if (previewLinkIndex === lk) {
+                                                        stopLinkPreview()
+                                                    }
+                                                    setPlayRangeLinkIndex(lk)
                                                 }}
-                                            />
-                                        </Form.Group>
-                                        <Form.Group className="links-editor-field-group links-editor-field-group--end-at">
-                                            <FormLabelWithHelp
-                                                className="links-editor-field-label"
-                                                label="End"
-                                                helpBody={LINKS_FIELD_HELP.endAt.body}
-                                                helpTitle={LINKS_FIELD_HELP.endAt.title}
-                                            />
-                                            <Form.Control
-                                                as="input"
-                                                className="links-editor-region-input"
-                                                type="text"
-                                                size="sm"
-                                                value={link.endAt}
-                                                onChange={function(e) {
-                                                    var links = props.links
-                                                    links[lk].endAt = e.target.value
-                                                    props.onChange(links)
-                                                }}
-                                            />
-                                        </Form.Group>
+                                            >
+                                                Play Range
+                                            </Button>
+                                        </div>
                                     </div>
                                 )}
                             </div>
@@ -790,6 +847,21 @@ export default function LinksEditor(props) {
                     searchIndex={props.searchIndex}
                     loadTuneTexts={props.loadTuneTexts}
                     forceRefresh={props.forceRefresh}
+                    onLinksUpdated={onChange}
+                />
+            )}
+            {playRangeLinkIndex != null && props.links && props.links[playRangeLinkIndex] && (
+                <LinkPlayRangeModal
+                    show={true}
+                    onHide={function() { setPlayRangeLinkIndex(null) }}
+                    link={props.links[playRangeLinkIndex]}
+                    linkIndex={playRangeLinkIndex}
+                    links={props.links}
+                    onLinksUpdated={onChange}
+                    tune={tuneForMedia || props.tune}
+                    tunebook={props.tunebook}
+                    token={props.token}
+                    icons={props.tunebook && props.tunebook.icons}
                 />
             )}
             {youtubePreview && (

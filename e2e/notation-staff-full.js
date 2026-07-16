@@ -121,6 +121,11 @@ async function runStaffFullTests(page, ctx) {
 
   await runScenario(results, 'P1: virtual piano click inserts note', async function() {
     await gotoBasic(page)
+    await page.waitForSelector('[data-testid="notation-virtual-piano-toggle"]', { visible: true, timeout: 10000 })
+    const pianoVisible = await page.$('[data-testid="virtual-piano"]')
+    if (!pianoVisible) {
+      await page.click('[data-testid="notation-virtual-piano-toggle"]')
+    }
     await page.waitForSelector('[data-testid="virtual-piano"]', { visible: true, timeout: 10000 })
     await assertNoteSteps(page, ['C', 'D', 'E', 'F'], 'before piano click')
     await page.click('[data-testid="virtual-piano"] .virtual-piano-white')
@@ -264,7 +269,14 @@ async function runStaffFullTests(page, ctx) {
   await runScenario(results, 'P1: toolbar dropdowns open', async function() {
     await resetNotationFixture(page, TWO_VOICE_TUNE_ID)
     await focusNotationEditor(page)
-    for (const id of ['notation-voices-menu', 'notation-tools-menu', 'notation-marks-menu', 'notation-tuplet-menu']) {
+    await page.waitForSelector('[data-testid="notation-voices-manage"]', { visible: true })
+    await page.click('[data-testid="notation-voices-manage"]')
+    await sleep(300)
+    const voicesModal = await page.$('.modal.show')
+    if (!voicesModal) throw new Error('Voices manage dialog did not open')
+    await pressKey(page, 'Escape')
+    await sleep(200)
+    for (const id of ['notation-tools-menu', 'notation-marks-menu', 'notation-tuplet-menu']) {
       await openDropdownToggle(page, id)
       const menu = await page.$('[data-testid="' + id + '"] + .dropdown-menu, .dropdown-menu.show')
       if (!menu) throw new Error('menu did not open: ' + id)

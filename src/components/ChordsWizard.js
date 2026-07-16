@@ -4,7 +4,6 @@ import { toast } from 'react-toastify'
 import useAbcjsParser from '../useAbcjsParser'
 import CreatableSelect from 'react-select/creatable'
 import ChordsSearchButton from './ChordsSearchButton'
-import FieldLookupReviewButton from './FieldLookupReviewButton'
 import { getLyricLines, getPlainLyricLines } from '../wLinesUtils'
 import ChordSectionsDropdown from './ChordSectionsDropdown'
 import ChordSectionRecordModal from './ChordSectionRecordModal'
@@ -575,23 +574,6 @@ export default function ChordsWizard(props) {
             defaultMeter={tune.meter || '4/4'}
             onChange={handleSectionsChange}
             onJump={jumpToSection}
-          />
-          <FieldLookupReviewButton
-            tuneId={tune && tune.id}
-            kind="chords"
-            fallbackTitle={tune.name || ''}
-            onApply={function(result, _job, meta) {
-              if (meta && (meta.deferred || meta.keepCurrent)) return
-              if (!result) return
-              var text = ''
-              if (result.chordProSource) text = String(result.chordProSource)
-              else if (result.chordText) text = String(result.chordText)
-              if (text) {
-                setPasteInitialUpdateLyrics(false)
-                setPasteInitialText(text)
-                setShowPaste(true)
-              }
-            }}
           />
           <Form.Check
             type="switch"

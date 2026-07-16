@@ -34,7 +34,7 @@ If status stays “not connected”:
 ## What it does
 
 - Content script bridges the Tunebook page ↔ extension service worker
-- Service worker calls YouTube Innertube (Android/iOS clients) for a progressive audio URL
+- Service worker calls YouTube Innertube (Android VR / iOS / Android clients) for a progressive audio URL
 - Audio bytes are streamed back to the page in chunks and decoded with Tunebook’s existing pipeline
 
 Audio and cookies stay in your browser; they are not uploaded to Tunebook servers.
@@ -42,7 +42,8 @@ Audio and cookies stay in your browser; they are not uploaded to Tunebook server
 ## Limitations
 
 - Chromium-first (Chrome / Edge / Brave). Firefox later.
-- YouTube may change Innertube responses; if fetch fails, use a media resolver with Webshare or non-YouTube audio.
+- YouTube may change Innertube responses; if fetch fails, Tunebook falls back to the media resolver (yt-dlp). Use Webshare or non-YouTube audio when both paths fail.
+- After updating the extension files, click **Reload** on `chrome://extensions`, then reload the Tunebook tab.
 - Chrome Web Store listing is optional later; unpacked/sideload is the supported path for now.
 
 ## Permissions

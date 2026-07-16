@@ -27,7 +27,21 @@ export default function useAppData() {
   var [tagFilter, setTagFilter] = useState('')
   var [genreFilter, setGenreFilter] = useState([])
   var [artistFilter, setArtistFilter] = useState([])
-  var [showPreviewInList, setShowPreviewInList] = useState(false)
+  // list display: compact | detailed | preview
+  var [listDisplayMode, setListDisplayModeInner] = useState(function() {
+    try {
+      var saved = localStorage.getItem('bookstorage_list_display_mode')
+      if (saved === 'compact' || saved === 'detailed' || saved === 'preview') return saved
+    } catch (e) {}
+    return 'compact'
+  })
+  function setListDisplayMode(val) {
+    var next = (val === 'detailed' || val === 'preview') ? val : 'compact'
+    setListDisplayModeInner(next)
+    try {
+      localStorage.setItem('bookstorage_list_display_mode', next)
+    } catch (e) {}
+  }
   // currentTuneBook is used as list filter and in many other places
   const [currentTuneBook, setCurrentTuneBookInner] = useState(localStorage.getItem('bookstorage_current_tunebook') ? localStorage.getItem('bookstorage_current_tunebook') : 0);
   function setCurrentTuneBook(val) {
@@ -238,6 +252,6 @@ export default function useAppData() {
   const [queuePlayConfirm, setQueuePlayConfirm] = useState(null)
   
   
- return {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, showPreviewInList, setShowPreviewInList, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} 
+ return {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} 
   
 }

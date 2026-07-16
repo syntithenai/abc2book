@@ -2177,7 +2177,72 @@ async def _resolve_audio_payload(request, file, payload=None):
         parsed = urlparse(validated)
         filename = os.path.basename(parsed.path) or filename
 
+    start_at = _parse_optional_seconds(payload.get("startAt"))
+    end_at = _parse_optional_seconds(payload.get("endAt"))
+    if start_at > 0 or end_at > 0:
+        audio_bytes, filename = await _trim_audio_bytes(audio_bytes, filename, start_at, end_at)
+        content_type = "audio/mpeg"
+
     return audio_bytes, filename, content_type, processing
+
+
+def _parse_optional_seconds(value):
+    try:
+        parsed = float(value)
+    except (TypeError, ValueError):
+        return 0.0
+    if parsed != parsed or parsed <= 0:
+        return 0.0
+    return parsed
+
+
+async def _trim_audio_bytes(audio_bytes, filename, start_sec=0.0, end_sec=0.0):
+    """Trim media bytes with ffmpeg; returns (bytes, filename)."""
+    start_sec = max(0.0, float(start_sec or 0.0))
+    end_sec = max(0.0, float(end_sec or 0.0))
+    if start_sec <= 0 and end_sec <= 0:
+        return audio_bytes, filename
+
+    suffix = os.path.splitext(filename or "")[1] or ".bin"
+    inp_path = None
+    out_path = None
+    try:
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as temp_audio:
+            temp_audio.write(audio_bytes)
+            inp_path = temp_audio.name
+        out_path = inp_path + ".trim.mp3"
+        cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
+        if start_sec > 0:
+            cmd.extend(["-ss", str(start_sec)])
+        cmd.extend(["-i", inp_path])
+        if end_sec > start_sec:
+            cmd.extend(["-t", str(end_sec - start_sec)])
+        elif end_sec > 0 and start_sec <= 0:
+            cmd.extend(["-t", str(end_sec)])
+        cmd.extend(["-vn", "-acodec", "libmp3lame", "-q:a", "4", out_path])
+        proc = await asyncio.create_subprocess_exec(
+            *cmd,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            start_new_session=True,
+        )
+        try:
+            _stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=FFMPEG_TIMEOUT_SECONDS)
+        except asyncio.TimeoutError as exc:
+            await terminate_subprocess_tree(proc)
+            raise HTTPException(status_code=504, detail="Audio trim timeout") from exc
+        if proc.returncode != 0 or not os.path.exists(out_path):
+            detail = stderr.decode("utf-8", errors="ignore").strip()[:500]
+            raise HTTPException(status_code=502, detail=detail or "Audio trim failed")
+        with open(out_path, "rb") as trimmed_file:
+            return trimmed_file.read(), (os.path.splitext(filename or "audio")[0] or "audio") + ".trim.mp3"
+    finally:
+        for path in (inp_path, out_path):
+            if path:
+                try:
+                    os.unlink(path)
+                except OSError:
+                    pass
 
 
 @app.options("/{path:path}")

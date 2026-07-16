@@ -12,6 +12,7 @@ import { getSoundFontUrl } from '../soundFontConfig'
 import RepeatsEditorModal from './RepeatsEditorModal'
 import {
   NOTATION_FIT_VERTICAL,
+  applyCompactScreenNotationMeta,
   clearNotationFit,
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
@@ -195,6 +196,9 @@ export default function Abc(props) {
           generateDownload: true,
           synth: {el: "#audio"},
           clickListener: clickListener,
+          // Screen-only: print/PDF uses TunePrintSheet, not this Abc path.
+          paddingtop: 6,
+          afterParsing: applyCompactScreenNotationMeta,
         }
         if (props.selectTypes === false) {
           renderOptions.selectTypes = false

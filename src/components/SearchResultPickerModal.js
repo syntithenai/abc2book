@@ -3,14 +3,40 @@ import AbcSnippetPreview from './AbcSnippetPreview';
 import './SearchResultPickerModal.css';
 
 function formatCandidateLabel(item, fallbackTitle) {
+  if (item && item.__current) {
+    const preview = item.preview != null ? String(item.preview).trim() : '';
+    if (preview) return preview;
+    if (item.title && item.title !== 'Original Value' && item.title !== 'Current value') {
+      return String(item.title);
+    }
+    return '(empty)';
+  }
   if (item && item.titleOnly) {
     return (fallbackTitle || item.title || 'Song') + ' (title search)';
   }
   const artist = item && item.artist ? String(item.artist).trim() : '';
   const title = item && item.title ? String(item.title).trim() : (fallbackTitle || '');
-  if (artist && title) return artist + ' — ' + title;
+  if (artist && title && !looksLikeMatchMeta(artist)) return title;
+  if (title) return title;
   if (artist) return artist;
-  return title || 'Result';
+  return 'Result';
+}
+
+function looksLikeMatchMeta(text) {
+  const value = String(text || '').trim().toLowerCase();
+  return value === 'writer' || value === 'performer' || value === 'original';
+}
+
+function formatMatchType(item) {
+  if (!item) return '';
+  if (item.__current || item.isCurrent || item.id === 'current') return 'Original Value';
+  if (item.matchType) return String(item.matchType);
+  const source = item.source ? String(item.source).trim() : '';
+  if (source && source !== 'current' && source !== 'original') return source;
+  const artist = item.artist ? String(item.artist).trim() : '';
+  if (artist && looksLikeMatchMeta(artist)) return artist;
+  if (artist && item.title) return artist;
+  return '';
 }
 
 function itemHasAbcPreview(item) {
@@ -45,44 +71,35 @@ export default function SearchResultPickerModal({
 
   function renderListItem(item, index) {
     const label = formatCandidateLabel(item, fallbackTitle);
-    const source = item && item.source ? String(item.source) : '';
-    const preview = item && item.preview ? String(item.preview) : '';
+    const matchType = formatMatchType(item);
     const isSelected = selectedSet.has(index);
+    const isOriginal = !!(item && item.__current);
     return (
       <ListGroup.Item
         key={(item && item.sourceUrl) || (label + '-' + index)}
         action
         active={!!(multiSelect && isSelected)}
+        className={'search-result-picker-row' + (isOriginal ? ' search-result-picker-row--original' : '')}
         onClick={function() { onSelect(item, index); }}
       >
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5em' }}>
-          <strong style={{ flex: '1 1 auto' }}>{label}</strong>
-          {multiSelect && isSelected ? (
-            <span className="badge text-bg-success">Added</span>
-          ) : null}
+        <div className="search-result-picker-row-inner">
+          <strong className="search-result-picker-row-value">{label}</strong>
+          <span className="search-result-picker-row-meta">
+            {multiSelect && isSelected ? (
+              <span className="badge text-bg-success">Added</span>
+            ) : null}
+            {matchType ? (
+              <span className="search-result-picker-row-match">{matchType}</span>
+            ) : null}
+          </span>
         </div>
-        {source && <div style={{ fontSize: '0.9em', color: isSelected ? 'inherit' : '#666' }}>{source}</div>}
-        {preview && !notationLayout && (
-          <pre style={{
-            marginTop: '0.5em',
-            marginBottom: 0,
-            whiteSpace: 'pre-wrap',
-            fontSize: '0.85em',
-            color: isSelected ? 'inherit' : '#444',
-            background: isSelected ? 'transparent' : '#f8f9fa',
-            padding: '0.5em',
-            borderRadius: '0.25em',
-          }}>
-            {preview}
-          </pre>
-        )}
       </ListGroup.Item>
     );
   }
 
   function renderNotationCard(item, index) {
     const label = formatCandidateLabel(item, fallbackTitle);
-    const source = item && item.source ? String(item.source) : '';
+    const matchType = formatMatchType(item);
     const isSelected = selectedSet.has(index);
     return (
       <button
@@ -93,13 +110,15 @@ export default function SearchResultPickerModal({
       >
         <div className="search-result-notation-card-header">
           <strong className="search-result-notation-card-title">{label}</strong>
-          {multiSelect && isSelected ? (
-            <span className="badge text-bg-success">Added</span>
-          ) : null}
+          <span className="search-result-picker-row-meta">
+            {multiSelect && isSelected ? (
+              <span className="badge text-bg-success">Added</span>
+            ) : null}
+            {matchType ? (
+              <span className="search-result-picker-row-match">{matchType}</span>
+            ) : null}
+          </span>
         </div>
-        {source ? (
-          <div className="search-result-notation-card-source">{source}</div>
-        ) : null}
         <div className="search-result-notation-card-staff">
           {itemHasAbcPreview(item) ? (
             <AbcSnippetPreview item={item} metadata={previewMetadata} maxBars={8} />
@@ -148,7 +167,7 @@ export default function SearchResultPickerModal({
                   Click to add. You can select multiple, then Done when finished.
                 </p>
               ) : null}
-              <ListGroup variant="flush">
+              <ListGroup variant="flush" className="search-result-picker-list">
                 {items.map(renderListItem)}
               </ListGroup>
             </>

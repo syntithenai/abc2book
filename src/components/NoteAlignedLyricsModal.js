@@ -8,6 +8,7 @@ import {
   getNoteAlignedLyricLines,
 } from '../wLinesUtils'
 import { buildNotationWLines, resolveNoteAlignedWLines } from '../noteSpacingUtils'
+import { isMidiProgramLine } from '../notation/voiceMeta'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 
 function primaryNoteLines(tune) {
@@ -15,6 +16,12 @@ function primaryNoteLines(tune) {
   const voiceKey = resolvePrimaryVoiceKey(tune.voices)
   const voice = tune.voices[voiceKey]
   return voice && Array.isArray(voice.notes) ? voice.notes.slice() : []
+}
+
+function hasMelodyNoteLines(noteLines) {
+  return (Array.isArray(noteLines) ? noteLines : []).some(function(line) {
+    return String(line || '').trim() && !isMidiProgramLine(line)
+  })
 }
 
 function padLines(lines, count) {
@@ -161,15 +168,18 @@ export default function NoteAlignedLyricsModal(props) {
           </p>
         ) : null}
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '0.75em' }}>
-          <Button variant="info" size="sm" onClick={regenerate} disabled={!hasPlain || noteLines.length === 0}>
+          <Button variant="info" size="sm" onClick={regenerate} disabled={!hasPlain || !hasMelodyNoteLines(noteLines)}>
             Regenerate from lyrics
           </Button>
         </div>
-        {noteLines.length === 0 ? (
+        {!hasMelodyNoteLines(noteLines) ? (
           <p className="text-muted">This tune has no melody lines to align lyrics to.</p>
         ) : (
           <div className="note-aligned-lyrics-rows">
             {noteLines.map(function(noteLine, index) {
+              // Keep lyric slot indices aligned with voice.notes (incl. %%MIDI),
+              // but do not show instrument directives as editable rows.
+              if (isMidiProgramLine(noteLine)) return null
               return (
                 <NoteAlignedLyricsRow
                   key={'note-aligned-row-' + index}

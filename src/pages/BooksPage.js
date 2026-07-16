@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
-import {Button, ButtonGroup} from 'react-bootstrap'
+import {Button, ButtonGroup, InputGroup, Form} from 'react-bootstrap'
 import ImportCollectionsAccordion from '../components/ImportCollectionsAccordion'
-import {useEffect, useState, useCallback} from 'react'
+import {useEffect, useState, useCallback, useRef} from 'react'
 import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 import {useNavigate} from 'react-router-dom'
 import YourFilters from '../components/YourFilters'
@@ -12,14 +12,21 @@ import {
   RECENT_TUNES_EXPANDED,
   consumeBooksPageScrollTarget,
   getRecentTunes,
+  getStarredTunes,
   scrollBooksPageSection,
 } from '../recentTunes'
 import { trackBookSectionClick } from '../analytics'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
+import { generateCurrentPlaylist } from '../generateCurrentPlaylist'
+import { createQueue } from '../nowPlayingQueue'
+import { toast } from 'react-toastify'
+import { isMobilePlatform } from '../platformUtils'
+import StarToggleButton from '../components/StarToggleButton'
 
 const BOOK_SECTION_NAMES = {
   [BOOKS_PAGE_SECTIONS.filters]: 'filters',
   [BOOKS_PAGE_SECTIONS.recent]: 'recent',
+  [BOOKS_PAGE_SECTIONS.starred]: 'starred',
   [BOOKS_PAGE_SECTIONS.books]: 'books',
   [BOOKS_PAGE_SECTIONS.tags]: 'tags',
   [BOOKS_PAGE_SECTIONS.genres]: 'genres',
@@ -27,25 +34,30 @@ const BOOK_SECTION_NAMES = {
 }
 
 function matchesSectionSearch(option, searchValue) {
-  if (!option || !option.trim()) return false
   var needle = (searchValue && searchValue.trim) ? searchValue.trim().toLowerCase() : ''
   if (!needle) return true
-  return option.toLowerCase().indexOf(needle) !== -1
+  if (option == null || !String(option).trim()) return false
+  return String(option).toLowerCase().indexOf(needle) !== -1
 }
 
 export default function BooksPage(props) {
     const { defaultTab, tunebook } = props
     const navigate = useNavigate()
-    const [searchFilter, setSearchFilter] = useState('')
-    const [searchTagFilter, setSearchTagFilter] = useState('')
-    const [searchGenreFilter, setSearchGenreFilter] = useState('')
-    const [searchArtistFilter, setSearchArtistFilter] = useState('')
+    const [sectionSearch, setSectionSearch] = useState('')
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})
     const [genreImageIsHidden, setGenreImageIsHidden] = useState({})
     const [artistImageIsHidden, setArtistImageIsHidden] = useState({})
     const [myBookImageIsHidden, setMyBookImageIsHidden] = useState({})
     const [savedFilterCount, setSavedFilterCount] = useState(0)
     const [showMoreRecent, setShowMoreRecent] = useState(false)
+    const [showMoreStarred, setShowMoreStarred] = useState(false)
+    const sectionSearchRef = useRef(null)
+
+    useEffect(function() {
+        if (isMobilePlatform()) return
+        var input = sectionSearchRef.current
+        if (input && typeof input.focus === 'function') input.focus()
+    }, [])
 
     function hideTagImage(key) {
         var v = tagImageIsHidden
@@ -103,10 +115,46 @@ export default function BooksPage(props) {
     genreOptions.sort(function(a,b) {if (a.toLowerCase() > b.toLowerCase()) return 1; else return -1})
     artistOptions.sort(function(a,b) {if (a.toLowerCase() > b.toLowerCase()) return 1; else return -1})
     const recentTunesExpanded = getRecentTunes(props.tunes, RECENT_TUNES_EXPANDED)
+        .filter(function(tune) {
+            return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
+        })
     const recentTunes = showMoreRecent
         ? recentTunesExpanded
         : recentTunesExpanded.slice(0, RECENT_TUNES_DEFAULT)
     const canToggleRecent = recentTunesExpanded.length > RECENT_TUNES_DEFAULT
+    const starredTunesExpanded = getStarredTunes(props.tunes)
+        .filter(function(tune) {
+            return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
+        })
+    const starredTunes = showMoreStarred
+        ? starredTunesExpanded
+        : starredTunesExpanded.slice(0, RECENT_TUNES_DEFAULT)
+    const canToggleStarred = starredTunesExpanded.length > RECENT_TUNES_DEFAULT
+    const starredCount = getStarredTunes(props.tunes).length
+
+    function renderSongLinkButton(tune) {
+        return (
+            <ButtonGroup key={tune.id} className="books-page-song-link">
+                <StarToggleButton
+                    className="books-page-song-star-btn"
+                    tunebook={props.tunebook}
+                    tune={tune}
+                    forceRefresh={props.forceRefresh}
+                />
+                <Link
+                    to={'/tunes/' + tune.id}
+                    style={{textDecoration:'none'}}
+                    onClick={function() {
+                        if (props.setCurrentTune) props.setCurrentTune(tune.id)
+                    }}
+                >
+                    <Button variant="primary" className="books-page-recent-btn">
+                        {tune.name && tune.name.trim().length > 0 ? tune.name.toLowerCase() : 'untitled song'}
+                    </Button>
+                </Link>
+            </ButtonGroup>
+        )
+    }
 
     function clearCollectionFilters() {
         props.setTagFilter([])
@@ -178,6 +226,25 @@ export default function BooksPage(props) {
         navigateToQueueTune(navigate, tuneId, item, props.tunebook, props.tunes)
     }
 
+    function handleGeneratePlaylist() {
+        var result = generateCurrentPlaylist(props.tunebook, props.tunes, {
+            forceRefresh: props.forceRefresh,
+        })
+        if (!result.tuneIds || result.tuneIds.length === 0) {
+            toast.warn('No matching tunes found — open some tunes first to build a playlist.')
+            return
+        }
+        var queue = createQueue({
+            tuneIds: result.tuneIds,
+            name: 'Recent tunes',
+            source: 'manual',
+        })
+        props.tunebook.startNowPlayingQueue(queue, props.tunebook.navigate, {
+            startPlayback: true,
+            mediaController: props.mediaController,
+        })
+    }
+
     return <div className="App-books books-page">
         <div style={{clear:'both', width:'100%'}}>
             {tbOptions.length > 0 && <div>
@@ -190,14 +257,39 @@ export default function BooksPage(props) {
                     genreCount={genreOptions.length}
                     artistCount={artistOptions.length}
                     savedFilterCount={savedFilterCount}
+                    starredCount={starredCount}
+                    showGenerate={true}
+                    onGenerate={handleGeneratePlaylist}
                     onSectionClick={trackAndScrollToSection}
                 />
+
+                <InputGroup className="books-page-top-search-wrap">
+                    <Button
+                        type="button"
+                        variant="secondary"
+                        className="books-page-top-search-icon"
+                        tabIndex={-1}
+                        aria-hidden="true"
+                    >
+                        {props.tunebook.icons.search}
+                    </Button>
+                    <Form.Control
+                        ref={sectionSearchRef}
+                        className="books-page-top-search"
+                        type="search"
+                        placeholder="Filter books, tags, genres, artists…"
+                        value={sectionSearch}
+                        aria-label="Filter all sections"
+                        onChange={function(e) { setSectionSearch(e.target.value) }}
+                    />
+                </InputGroup>
 
                 <section id={BOOKS_PAGE_SECTIONS.filters} className="books-page-section">
                     <h3 className="books-page-section-title">Filters</h3>
                     <YourFilters
                         embedded
                         showWhenEmpty
+                        nameFilter={sectionSearch}
                         onFiltersChange={function(list) { setSavedFilterCount(Object.keys(list || {}).length) }}
                         tunebook={props.tunebook}
                         setFilter={props.setFilter}
@@ -216,20 +308,7 @@ export default function BooksPage(props) {
                         <>
                             <div className="books-page-recent-list">
                                 {recentTunes.map(function(tune) {
-                                    return (
-                                        <Link
-                                            key={tune.id}
-                                            to={'/tunes/' + tune.id}
-                                            style={{textDecoration:'none'}}
-                                            onClick={function() {
-                                                if (props.setCurrentTune) props.setCurrentTune(tune.id)
-                                            }}
-                                        >
-                                            <Button variant="primary" className="books-page-recent-btn">
-                                                {tune.name && tune.name.trim().length > 0 ? tune.name.toLowerCase() : 'untitled song'}
-                                            </Button>
-                                        </Link>
-                                    )
+                                    return renderSongLinkButton(tune)
                                 })}
                             </div>
                             {canToggleRecent ? (
@@ -244,16 +323,48 @@ export default function BooksPage(props) {
                             ) : null}
                         </>
                     ) : (
-                        <p className="books-page-recent-empty">Open a tune from search to see it here.</p>
+                        <p className="books-page-recent-empty">
+                            {sectionSearch.trim()
+                                ? 'No matching recent tunes.'
+                                : 'Open a tune from search to see it here.'}
+                        </p>
+                    )}
+                </section>
+
+                <section id={BOOKS_PAGE_SECTIONS.starred} className="books-page-section">
+                    <h3 className="books-page-section-title">Starred</h3>
+                    {starredTunes.length > 0 ? (
+                        <>
+                            <div className="books-page-recent-list">
+                                {starredTunes.map(function(tune) {
+                                    return renderSongLinkButton(tune)
+                                })}
+                            </div>
+                            {canToggleStarred ? (
+                                <Button
+                                    variant="outline-secondary"
+                                    size="sm"
+                                    className="books-page-recent-toggle"
+                                    onClick={function() { setShowMoreStarred(!showMoreStarred) }}
+                                >
+                                    {showMoreStarred ? 'show less' : 'show more'}
+                                </Button>
+                            ) : null}
+                        </>
+                    ) : (
+                        <p className="books-page-recent-empty">
+                            {sectionSearch.trim()
+                                ? 'No matching starred tunes.'
+                                : 'Star a tune to see it here.'}
+                        </p>
                     )}
                 </section>
 
                 <section id={BOOKS_PAGE_SECTIONS.books} className="books-page-section">
                     <h3 className="books-page-section-title">Books</h3>
-                    <input className="books-page-section-search" type="search" value={searchFilter} onChange={function(e) {setSearchFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {tbOptions.map(function(option, ok) {
-                            if (matchesSectionSearch(option, searchFilter)) {
+                            if (matchesSectionSearch(option, sectionSearch)) {
                                 return <ButtonGroup key={ok} className="books-page-book-card" variant="primary" onClick={function(e) {applyBookFilter(option)}}>
                                     <TuneBookOptionsModal tunebook={props.tunebook} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} googleDocumentId={props.googleDocumentId} token={props.token} login={props.login} tunes={props.tunes} fillMediaPlaylist={props.tunebook.fillMediaPlaylist} fillAbcPlaylist={props.tunebook.fillAbcPlaylist} tunebookOption={option} user={props.user} btnClassName="books-page-collection-card-side" />
                                     <Link to="/tunes" className="books-page-collection-card-link" style={{textDecoration:'none'}}>
@@ -272,10 +383,9 @@ export default function BooksPage(props) {
 
                 <section id={BOOKS_PAGE_SECTIONS.tags} className="books-page-section">
                     <h3 className="books-page-section-title">Tags</h3>
-                    <input className="books-page-section-search" type="search" value={searchTagFilter} onChange={function(e) {setSearchTagFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {tagOptions.map(function(option, ok) {
-                            if (matchesSectionSearch(option, searchTagFilter)) {
+                            if (matchesSectionSearch(option, sectionSearch)) {
                                 return <ButtonGroup key={ok} className="books-page-tag-card" variant="primary">
                                     <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyTagFilter(option); navigate('/tunes')}}>
                                         <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
@@ -293,10 +403,9 @@ export default function BooksPage(props) {
 
                 <section id={BOOKS_PAGE_SECTIONS.genres} className="books-page-section">
                     <h3 className="books-page-section-title">Genres</h3>
-                    <input className="books-page-section-search" type="search" value={searchGenreFilter} onChange={function(e) {setSearchGenreFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {genreOptions.map(function(option, ok) {
-                            if (matchesSectionSearch(option, searchGenreFilter)) {
+                            if (matchesSectionSearch(option, sectionSearch)) {
                                 return <ButtonGroup key={ok} className="books-page-tag-card" variant="primary">
                                     <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyGenreFilter(option); navigate('/tunes')}}>
                                         <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
@@ -314,10 +423,9 @@ export default function BooksPage(props) {
 
                 <section id={BOOKS_PAGE_SECTIONS.artists} className="books-page-section">
                     <h3 className="books-page-section-title">Artists</h3>
-                    <input className="books-page-section-search" type="search" value={searchArtistFilter} onChange={function(e) {setSearchArtistFilter(e.target.value)}} />
                     <div className="books-page-grid">
                         {artistOptions.map(function(option, ok) {
-                            if (matchesSectionSearch(option, searchArtistFilter)) {
+                            if (matchesSectionSearch(option, sectionSearch)) {
                                 return <ButtonGroup key={ok} className="books-page-tag-card" variant="primary">
                                     <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyArtistFilter(option); navigate('/tunes')}}>
                                         <span className="books-page-collection-card-label">{option.toLowerCase()}</span>

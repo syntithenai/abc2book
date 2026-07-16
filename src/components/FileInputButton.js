@@ -46,7 +46,7 @@ export default function FileInputButton(props) {
           if (inputRef.current) inputRef.current.click();
         }}
       >
-        {icon}
+        {icon ? <span className="links-editor-toolbar-btn-icon" aria-hidden="true">{icon}</span> : null}
         <span className="links-editor-toolbar-btn-label">{label}</span>
       </Button>
     </>

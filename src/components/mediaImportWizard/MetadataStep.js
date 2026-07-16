@@ -2,7 +2,6 @@ import { Alert, Button, Form } from 'react-bootstrap';
 import CreatableSelect from 'react-select/creatable';
 import AsyncCreatableSelect from 'react-select/async-creatable';
 import ComposerSearchButton from '../ComposerSearchButton'
-import FieldLookupReviewButton from '../FieldLookupReviewButton'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import CapitalizeTitleButton from '../CapitalizeTitleButton'
 import KeySignatureInput from '../KeySignatureInput'
@@ -154,22 +153,6 @@ export default function MediaImportMetadataStep(props) {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                   <Form.Label style={{ marginBottom: 0 }}>Artist</Form.Label>
                   {api.buttonGroup}
-                  <FieldLookupReviewButton
-                    tuneId={props.tune && props.tune.id}
-                    candidateId={!(props.tune && props.tune.id) ? 'media-import-draft' : null}
-                    kind="composer"
-                    fallbackTitle={metadata.name || ''}
-                    currentValue={metadata.composer || ''}
-                    onApply={function(candidate, _job, meta) {
-                      if (meta && meta.keepCurrent) return
-                      if (candidate && candidate.artist) {
-                        update('composer', candidate.artist);
-                        if (typeof props.onDraftChange === 'function') {
-                          props.onDraftChange({ lookupComposerCandidates: [] });
-                        }
-                      }
-                    }}
-                  />
                 </div>
                 {Array.isArray(draft.lookupComposerCandidates) && draft.lookupComposerCandidates.length > 0 ? (
                   <ComposerCandidateQuickPick

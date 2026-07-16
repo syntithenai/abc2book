@@ -441,8 +441,8 @@ export default function BulkCheckTuneEditorModal(props) {
             </Row>
           </div>
 
-          <div className="abc-editor-links-section mt-3 mb-4">
-            <h6>Links</h6>
+          <div className="abc-editor-info-section abc-editor-links-section mt-3 mb-4">
+            <div className="abc-editor-info-section-heading">Links</div>
             <LinksEditor
               links={Array.isArray(draft.links) ? draft.links : []}
               tune={draft}

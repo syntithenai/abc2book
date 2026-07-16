@@ -19,6 +19,7 @@ export default function LinkPlaybackRegionScanControls({
   currentLinks,
   onLinksUpdated,
   className,
+  idleLabel = 'Scan Range',
 }) {
   const { available: resolverAvailable, checked, features } = useMediaResolverHealth();
   const {
@@ -31,7 +32,7 @@ export default function LinkPlaybackRegionScanControls({
 
   const whisper = !!features.whisper;
   const canScan = checked && resolverAvailable && whisper && isScannableLink(link && link.link);
-  const buttonLabel = isScanning ? (getStatusLabel() || 'Scanning...') : 'Scan Start/End';
+  const buttonLabel = isScanning ? (getStatusLabel() || 'Scanning...') : idleLabel;
   const title = getUnavailableTitle(checked, resolverAvailable, whisper, link);
 
   return (

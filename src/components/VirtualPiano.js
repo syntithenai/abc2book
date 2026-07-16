@@ -25,7 +25,7 @@ export default function VirtualPiano(props) {
   }
 
   return (
-    <div className="virtual-piano virtual-piano-dock d-flex align-items-stretch gap-1" data-testid="virtual-piano">
+    <div className={'virtual-piano virtual-piano-toolbar d-flex align-items-stretch gap-1'} data-testid="virtual-piano">
       <div className="virtual-piano-octave-controls d-flex flex-column gap-1">
         <button type="button" className="btn btn-sm btn-outline-secondary" onClick={function() { setOctaveShift(octaveShift - 1); }} title="Octave down" data-testid="virtual-piano-octave-down">◀ Oct</button>
         <button type="button" className="btn btn-sm btn-outline-secondary" onClick={function() { setOctaveShift(octaveShift + 1); }} title="Octave up" data-testid="virtual-piano-octave-up">Oct ▶</button>

@@ -265,6 +265,24 @@ describe('tuneFieldLookupQueue', function() {
     expect(tuneFieldLookupQueue.findJobById(id).status).toBe('done')
   })
 
+  test('clearFinishedJobs removes awaiting review jobs', function() {
+    const awaitingId = tuneFieldLookupQueue.seedAwaitingLookup({
+      tuneId: 't1',
+      kind: 'genre',
+      title: 'Song',
+      candidates: [{ genre: 'Folk', source: 'inference' }],
+    })
+    const pendingId = tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't2',
+      kind: 'artists',
+      title: 'Other',
+      accessToken: 'token',
+    })
+    tuneFieldLookupQueue.clearFinishedJobs()
+    expect(tuneFieldLookupQueue.findJobById(awaitingId)).toBeFalsy()
+    expect(tuneFieldLookupQueue.findJobById(pendingId).status).toBe('pending')
+  })
+
   test('live handler receives awaiting notification', async function() {
     const seen = []
     tuneFieldLookupQueue.registerLiveHandler('tune:t1', 'composer', {
@@ -314,7 +332,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.status).toBe('pending')
   })
 
-  test('auto-applies single composer result when tune artist is empty', async function() {
+  test('auto-applies single composer result when tune artist is empty without attaching suggestions', async function() {
     const tune = { id: 't1', name: 'Song', composer: '' }
     const saveTune = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
@@ -337,13 +355,13 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
-    expect(job.status).toBe('awaiting')
+    expect(job.status).toBe('done')
     expect(tune.composer).toBe('Only Artist')
-    expect(job.candidates.length).toBeGreaterThan(0)
+    expect(job.candidates).toEqual([])
     expect(saveTune).toHaveBeenCalled()
   })
 
-  test('leaves awaiting when single composer result and artist already set', async function() {
+  test('leaves awaiting when single composer result differs from artist already set', async function() {
     const tune = { id: 't1', name: 'Song', composer: 'Existing Artist' }
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
@@ -371,7 +389,35 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates.length).toBeGreaterThanOrEqual(1)
   })
 
-  test('empty field applies first lyrics candidate but keeps suggestions awaiting', async function() {
+  test('finishes without suggestions when single composer result matches current value', async function() {
+    const tune = { id: 't1', name: 'Song', composer: 'Same Artist' }
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: jest.fn(),
+    })
+    discoverComposers.mockResolvedValue({
+      multiple: false,
+      artist: 'Same Artist',
+      source: 'web',
+      preview: 'Same Artist',
+    })
+    tuneFieldLookupQueue.enqueueLookup({
+      tuneId: 't1',
+      kind: 'composer',
+      title: 'Song',
+      artist: 'Same Artist',
+      accessToken: 'token',
+    })
+    tuneFieldLookupQueue.start()
+    const job = await waitForJob(function(item) {
+      return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
+    })
+    expect(job.status).toBe('done')
+    expect(tune.composer).toBe('Same Artist')
+    expect(job.candidates).toEqual([])
+  })
+
+  test('empty field applies first lyrics candidate but keeps suggestions awaiting when multiple', async function() {
     const tune = { id: 't1', name: 'Song' }
     const saveTune = jest.fn()
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
@@ -394,7 +440,7 @@ describe('tuneFieldLookupQueue', function() {
     expect(job.candidates.length).toBeGreaterThan(0)
   })
 
-  test('review mode leaves awaiting even for single empty-field result', async function() {
+  test('review mode applies single empty-field result without attaching suggestions', async function() {
     const tune = { id: 't1', name: 'Song', composer: '' }
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
@@ -417,9 +463,9 @@ describe('tuneFieldLookupQueue', function() {
     const job = await waitForJob(function(item) {
       return item && (item.status === 'done' || item.status === 'awaiting' || item.status === 'error')
     })
-    expect(job.status).toBe('awaiting')
-    // Empty field also receives the first result while keeping suggestions.
+    expect(job.status).toBe('done')
     expect(tune.composer).toBe('Only Artist')
+    expect(job.candidates).toEqual([])
   })
 
   test('shouldDeferFieldLookupSave for review and linked jobs', function() {
