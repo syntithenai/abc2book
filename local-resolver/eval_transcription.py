@@ -46,6 +46,7 @@ def summarize_melody(payload):
         "detectedKey": payload.get("detectedKey") or payload.get("key") or "",
         "backend": payload.get("backend", ""),
         "duration": payload.get("duration", 0),
+        "pitchClasses": sorted({int(note.get("midi") or 0) % 12 for note in notes}),
     }
 
 
@@ -55,24 +56,53 @@ def main():
     parser.add_argument("--python", default=os.getenv("AUTOCHORD_VENV_PYTHON", "python3"))
     parser.add_argument("--melody-config", default="", help="Optional melody config JSON path")
     parser.add_argument("--chord-config", default="", help="Optional chord config JSON path")
+    parser.add_argument(
+        "--melody-backends",
+        default="",
+        help="Optional comma-separated melody backends to A/B (runs detect_melody once each)",
+    )
+    parser.add_argument("--music-type", default="vocal")
     args = parser.parse_args()
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    melody_cmd = [args.python, os.path.join(script_dir, "detect_melody.py"), args.audio]
+    report = {"audio": args.audio}
+
+    if args.melody_backends:
+        backend_results = []
+        for backend in [part.strip() for part in args.melody_backends.split(",") if part.strip()]:
+            config = {
+                "melodyBackend": backend,
+                "musicType": args.music_type,
+                "sourceSeparation": "off",
+            }
+            import tempfile
+
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as handle:
+                json.dump(config, handle)
+                config_path = handle.name
+            try:
+                melody = run_json([args.python, os.path.join(script_dir, "detect_melody.py"), args.audio, config_path])
+                backend_results.append(summarize_melody(melody))
+            except Exception as exc:
+                backend_results.append({"backend": backend, "error": str(exc)})
+            finally:
+                try:
+                    os.unlink(config_path)
+                except FileNotFoundError:
+                    pass
+        report["melodyBackends"] = backend_results
+    else:
+        melody_cmd = [args.python, os.path.join(script_dir, "detect_melody.py"), args.audio]
+        if args.melody_config:
+            melody_cmd.append(args.melody_config)
+        melody = run_json(melody_cmd)
+        report["melody"] = summarize_melody(melody)
+
     chord_cmd = [args.python, os.path.join(script_dir, "detect_chords.py"), args.audio]
-    if args.melody_config:
-        melody_cmd.append(args.melody_config)
     if args.chord_config:
         chord_cmd.append(args.chord_config)
-
-    melody = run_json(melody_cmd)
     chords = run_json(chord_cmd)
-
-    report = {
-        "audio": args.audio,
-        "melody": summarize_melody(melody),
-        "chords": summarize_chords(chords),
-    }
+    report["chords"] = summarize_chords(chords)
     print(json.dumps(report, indent=2))
 
 

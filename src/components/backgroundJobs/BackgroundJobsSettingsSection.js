@@ -331,9 +331,6 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_MEDIA_CACHE}>
-            <p className="text-muted settings-background-jobs-tab-note">
-              Caches or downloads linked audio automatically. Safe to leave running in the background.
-            </p>
             <JobQueueTabPanel
               jobs={mediaCacheQueueHook.state.jobs}
               running={mediaCacheQueueHook.state.running}

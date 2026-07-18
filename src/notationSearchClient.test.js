@@ -196,6 +196,21 @@ describe('notationSearchClient', function() {
       expect(searchNotationLight).not.toHaveBeenCalled()
     })
 
+    test('converts empty notation misses to empty results', async function() {
+      mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
+        ok: false,
+        json: async function() {
+          return { error: 'No ABC notation found for this tune' }
+        },
+      })
+
+      const result = await searchNotationViaResolver({ title: 'Obscure Tune XYZ' })
+
+      expect(result.empty).toBe(true)
+      expect(result.candidates).toEqual([])
+      expect(searchNotationLight).not.toHaveBeenCalled()
+    })
+
     test('uses resolver when available and returns normalized result', async function() {
       mediaProxyClient.fetchViaMediaProxy.mockResolvedValue({
         ok: true,

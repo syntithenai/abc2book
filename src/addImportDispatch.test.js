@@ -124,6 +124,32 @@ describe('addImportDispatch', function() {
     expect(result.candidates[0].sourceKind).toBe('abc');
   });
 
+  test('dispatchAddImport returns batch for multi-tune ABC with importAbc', async function() {
+    const tunebook = {
+      abcTools: mockTunebook().abcTools,
+      importAbc: function(abc, forceBook, a, b, c, d, options) {
+        expect(options && options.classifyOnly).toBe(true);
+        return {
+          inserts: [{ name: 'One' }, { name: 'Two' }],
+          updates: [{ id: 'u1', name: 'Updated', lastUpdated: 2 }],
+          localUpdates: [],
+          duplicates: [],
+          skippedUpdates: [],
+          deletes: {},
+          tuneStatus: {},
+        };
+      },
+    };
+    const result = await dispatchAddImport(
+      'X:1\nT:One\nK:C\nC\n\nX:2\nT:Two\nK:C\nD',
+      mockContext({ tunebook: tunebook, tunes: {} })
+    );
+    expect(result.action).toBe('batch');
+    expect(result.batchSummary).toBeTruthy();
+    expect(result.batchSummary.raw).toBeTruthy();
+    expect(result.candidates.length).toBeGreaterThan(1);
+  });
+
   test('dispatchAddImport routes bulk textarea in bulk mode to review', async function() {
     const result = await dispatchAddImport('My Song by Me', mockContext({ bulkMode: true }));
     expect(result.action).toBe('review');

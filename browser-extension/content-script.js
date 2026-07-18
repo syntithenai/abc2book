@@ -5,7 +5,7 @@
 
 const PAGE_SOURCE = 'tunebook-page'
 const EXT_SOURCE = 'tunebook-extension'
-const EXT_VERSION = '0.1.2'
+const EXT_VERSION = '0.1.3'
 const ATTR = 'data-tunebook-yt-helper'
 
 function announcePresence() {

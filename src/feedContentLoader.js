@@ -1,6 +1,7 @@
 import { assertModuleQuality, assertUniqueModuleIds } from './feedContentQuality'
 import { PRACTICE_SETTINGS_STORAGE_KEY } from './practiceSessionSettings'
 import { loadPracticeSettings, clampSkillLevel } from './practiceSessionSettings'
+import { buildQuizBundle } from './feedQuizUtils'
 
 let contentCache = null
 
@@ -63,21 +64,24 @@ export function applyTuneContext(item, tune) {
   return next
 }
 
-export function moduleToFeedItems(module, context) {
+/**
+ * Lesson/tip card for one content module. Content cards carry no tune or
+ * practice context — they stand alone. Quizzes are bundled separately via
+ * bundleContentQuizzes so each quiz card gets up to 5 questions.
+ */
+export function moduleToFeedItems(module) {
   if (!module) return []
-  const ctx = context || {}
   const now = Date.now()
-  const items = []
   const type = module.kind === 'warmup_idea'
     ? 'warmup_idea'
     : (module.kind === 'singing_tip' ? 'singing_tip' : 'theory_lesson')
-  let base = {
+  const base = {
     id: makeId(module.id),
     type: type,
-    tuneId: ctx.tune && ctx.tune.id != null ? String(ctx.tune.id) : null,
+    tuneId: null,
     artist: '',
     headline: module.title,
-    teaser: String(module.body || '').slice(0, 140),
+    teaser: String(module.tryThis || module.body || '').slice(0, 140),
     body: module.body,
     imageUrl: '',
     source: 'content',
@@ -99,41 +103,72 @@ export function moduleToFeedItems(module, context) {
     tryThis: module.tryThis || '',
     difficulty: module.difficulty,
   }
-  if (module.tryThis) {
-    base.teaser = String(module.tryThis).slice(0, 140)
-  }
-  base = applyTuneContext(base, ctx.tune)
-  items.push(base)
+  return [base]
+}
 
-  const quizzes = Array.isArray(module.quizzes) ? module.quizzes : []
-  quizzes.forEach(function(q) {
-    items.push({
-      id: makeId(q.id || module.id),
-      type: 'theory_quiz',
-      tuneId: base.tuneId,
-      artist: '',
-      headline: 'Quiz: ' + module.title,
-      teaser: q.prompt,
-      body: '',
-      imageUrl: '',
-      source: 'content',
-      sourceUrl: '',
-      factHash: 'content_quiz_' + q.id,
-      generation: 'content',
-      quiz: q,
-      lessonId: module.id,
-      createdAt: now,
-      status: 'queued',
-      lastShownAt: null,
-      dismissedAt: null,
-      expandedAt: null,
-      answeredAt: null,
-      reuseEligible: false,
-      srsDueAt: null,
-      isNew: false,
-      attemptCount: 0,
-      difficulty: q.difficulty != null ? q.difficulty : module.difficulty,
+/**
+ * Group quizzes from all provided modules by track into 5-question quiz cards.
+ */
+export function bundleContentQuizzes(modules, options) {
+  const opts = options || {}
+  const byTrack = {}
+  ;(modules || []).forEach(function(m) {
+    if (!m) return
+    const quizzes = Array.isArray(m.quizzes) ? m.quizzes : []
+    if (!quizzes.length) return
+    const track = String(m.track || 'general')
+    if (!byTrack[track]) byTrack[track] = []
+    quizzes.forEach(function(q) {
+      byTrack[track].push({ module: m, quiz: q })
     })
+  })
+
+  const now = Date.now()
+  const items = []
+  Object.keys(byTrack).forEach(function(track) {
+    const entries = byTrack[track]
+    for (var i = 0; i < entries.length; i += 5) {
+      const chunk = entries.slice(i, i + 5)
+      if (chunk.length < 3) continue
+      const quiz = buildQuizBundle({
+        id: 'content_quiz_' + chunk[0].quiz.id,
+        title: chunk[0].module.title,
+        questions: chunk.map(function(e) { return e.quiz }),
+      }, { targetCount: 5, rng: opts.rng })
+      if (!quiz) continue
+      var difficulty = 0
+      chunk.forEach(function(e) {
+        const d = Number(e.quiz.difficulty != null ? e.quiz.difficulty : e.module.difficulty)
+        if (Number.isFinite(d) && d > difficulty) difficulty = d
+      })
+      items.push({
+        id: makeId(track + '_quiz'),
+        type: 'theory_quiz',
+        tuneId: null,
+        artist: '',
+        headline: 'Quiz: ' + chunk[0].module.title,
+        teaser: quiz.questions[0].prompt,
+        body: '',
+        imageUrl: '',
+        source: 'content',
+        sourceUrl: '',
+        factHash: 'content_quiz_' + chunk[0].quiz.id + '_' + chunk.length,
+        generation: 'content',
+        quiz: quiz,
+        lessonId: chunk[0].module.id,
+        createdAt: now,
+        status: 'queued',
+        lastShownAt: null,
+        dismissedAt: null,
+        expandedAt: null,
+        answeredAt: null,
+        reuseEligible: false,
+        srsDueAt: null,
+        isNew: false,
+        attemptCount: 0,
+        difficulty: difficulty,
+      })
+    }
   })
   return items
 }

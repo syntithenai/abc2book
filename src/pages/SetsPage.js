@@ -23,7 +23,7 @@ import {
   buildGigRoute,
   getPlaylistTuneIdAtIndex,
 } from '../gigRouteUtils';
-import { setDocumentTitle, DEFAULT_APP_TITLE } from '../pageTitle';
+import { useDocumentTitle, buildSetsPageTitle } from '../pageTitle';
 import './SetsPage.css';
 
 function BulkOpsDualIcon({ leading, trailing }) {
@@ -219,14 +219,31 @@ export default function SetsPage(props) {
   }, [draft, editingId]);
 
   useEffect(function() {
-    setDocumentTitle('Performance sets');
     refreshSets();
     const unsubscribe = subscribePerformanceSets(refreshSets);
     return function() {
       unsubscribe();
-      setDocumentTitle(DEFAULT_APP_TITLE);
     };
   }, []);
+
+  const gigTuneName = (params.tuneId && tunes[params.tuneId] && tunes[params.tuneId].name)
+    ? tunes[params.tuneId].name
+    : '';
+  const loadedSetForTitle = params.setId ? getPerformanceSet(params.setId) : null;
+  const setsTitleSetName = (props.gigMode || props.gigPickerMode || params.setId)
+    ? (
+      (editingId && draft && draft.name)
+        || (loadedSetForTitle && loadedSetForTitle.name)
+        || (draft && draft.name)
+        || ''
+    )
+    : '';
+  useDocumentTitle(buildSetsPageTitle({
+    gigPickerMode: !!props.gigPickerMode,
+    gigMode: !!props.gigMode,
+    setName: setsTitleSetName,
+    tuneName: props.gigMode ? gigTuneName : '',
+  }));
 
   useEffect(function() {
     if (!params.setId) return;

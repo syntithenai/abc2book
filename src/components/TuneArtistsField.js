@@ -11,8 +11,12 @@ export default function TuneArtistsField(props) {
       placeholder={props.placeholder || 'Type an artist name and press Enter'}
       addLabel="Add artist"
       musicBrainzSuggest={props.musicBrainzSuggest !== false}
-      suggestOptions={props.suggestOptions}
+      searchResults={props.searchResults}
+      searchResultCandidates={props.searchResultCandidates}
+      onOpenSearchResults={props.onOpenSearchResults}
+      loading={props.loading}
       endAppend={props.endAppend}
+      onSelectItem={props.onSelectItem}
     />
   )
 }

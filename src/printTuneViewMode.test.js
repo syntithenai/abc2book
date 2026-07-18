@@ -67,12 +67,12 @@ describe('printTuneViewMode', function() {
     })).toBe('notation,lyrics,noinfo');
   });
 
-  it('defaults notation+lyrics with chords to notation, lyrics, structure, and chords', function() {
+  it('defaults notation+lyrics with chords to notation, lyrics, and chords (no structure)', function() {
     const tune = {
       voices: { v: { notes: ['CDEF|'] } },
       wLines: ['Plain lyrics line'],
     };
-    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('notation,lyrics,structure,chords,noinfo');
+    expect(resolvePrintViewMode(tune, 'music', tunebook, abcjsParser)).toBe('notation,lyrics,chords,noinfo');
   });
 
   it('defaults notation-only tunes without chords to music', function() {

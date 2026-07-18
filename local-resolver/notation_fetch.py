@@ -19,6 +19,7 @@ from musescore_fetch import (
     collect_musescore_candidates,
     fetch_musescore_url,
     is_musescore_url,
+    parse_musescore_score_url,
 )
 from polite_fetch import BROWSER_USER_AGENT
 from tune_background_research import search_web
@@ -746,11 +747,30 @@ async def collect_web_abc_candidates(client, title, song_type, artist="", on_pro
     return dedupe_candidates(candidates)
 
 
+def strip_notation_match_decorations(value):
+    """Strip The Session display suffixes so setting labels still match the tune title."""
+    text = str(value or "")
+    text = re.sub(r"\s*[—–-]\s*setting\s+\d+\s*$", "", text, flags=re.I)
+    text = re.sub(r"\s*\([^)]*\)\s*$", "", text)
+    return text.strip()
+
+
 def notation_candidate_score(candidate, title, artist):
+    meta = (candidate or {}).get("tuneMeta") or {}
+    match_title = ""
+    match_artist = str((candidate or {}).get("artist") or "")
+    if isinstance(meta, dict):
+        match_title = str(meta.get("name") or "").strip()
+        if not match_artist:
+            match_artist = str(meta.get("composer") or "")
+    if not match_title:
+        match_title = strip_notation_match_decorations((candidate or {}).get("title") or "")
+    else:
+        match_title = strip_notation_match_decorations(match_title)
     return score_title_artist_match(
-        candidate.get("title") or "",
-        candidate.get("artist") or "",
-        title,
+        match_title,
+        match_artist,
+        strip_notation_match_decorations(title),
         artist,
     )
 
@@ -898,7 +918,22 @@ async def search_notation_url(url, on_progress=None):
         try:
             return await fetch_musescore_url(page_url, on_progress=on_progress)
         except MuseScoreDownloadUnavailable:
-            raise
+            parsed = parse_musescore_score_url(page_url)
+            clean_url = (parsed or {}).get("url") or page_url
+            await _emit_progress(
+                on_progress,
+                "done",
+                "MuseScore score needs manual download",
+                1.0,
+            )
+            return _empty_notation_manual_result([{
+                "url": clean_url,
+                "title": "",
+                "source": "musescore.com",
+                "host": "musescore.com",
+                "reason": "blocked",
+                "contentType": "notation",
+            }])
         except ValueError:
             raise
         except Exception as exc:
@@ -938,9 +973,31 @@ async def search_notation_url(url, on_progress=None):
 def _collector_results_or_empty(result):
     if isinstance(result, Exception):
         return []
+    if isinstance(result, dict):
+        candidates = result.get("candidates")
+        if isinstance(candidates, list):
+            return candidates
+        return []
     if not isinstance(result, list):
         return []
     return result
+
+
+def _collector_manual_candidates(result):
+    if isinstance(result, Exception) or not isinstance(result, dict):
+        return []
+    manuals = result.get("manualCandidates")
+    if not isinstance(manuals, list):
+        return []
+    return [item for item in manuals if isinstance(item, dict) and item.get("url")]
+
+
+def _empty_notation_manual_result(manual_candidates):
+    return {
+        "empty": True,
+        "found": False,
+        "manualCandidates": list(manual_candidates or []),
+    }
 
 
 async def search_notation(title, artist="", song_type="instrumental", on_progress=None):
@@ -988,6 +1045,7 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             return_exceptions=True,
         )
 
+        muse_manual = _collector_manual_candidates(muse_result)
         candidates = dedupe_candidates(
             list(session_candidates)
             + _collector_results_or_empty(web_result)
@@ -997,6 +1055,14 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         candidates = finalize_notation_candidates(candidates, title, artist)
 
         if not candidates:
+            if muse_manual:
+                await _emit_progress(
+                    on_progress,
+                    "done",
+                    "MuseScore score found — manual download required",
+                    1.0,
+                )
+                return _empty_notation_manual_result(muse_manual)
             await _emit_progress(on_progress, "done", "No ABC notation found", 1.0)
             raise ValueError("No ABC notation found for this tune")
 

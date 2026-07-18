@@ -17,7 +17,7 @@ export async function attachPendingFileFromCandidate(tune, pendingFile, options)
       source: pendingFile.source || 'import',
       token: opts.token,
       driveApi: opts.driveApi,
-      uploadToDrive: !!(opts.token && opts.driveApi),
+      uploadToDrive: opts.uploadToDrive === true,
       setActive: true,
     })
     return result.tune

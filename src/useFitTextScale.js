@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { measureViewportBottomLimit } from './gigNotationFit';
 
 /**
  * Scale a content element's font so it fits inside a container.
@@ -11,7 +12,9 @@ import { useEffect, useRef, useState } from 'react';
  *
  * @returns {{ containerRef, contentRef, fontScale, overflows }}
  *   Apply fontScale as style.fontSize = fontScale + 'em' (or %) on content.
- *   overflows is true when fitHeight is on but content still exceeds the panel at minScale.
+ *   overflows is true when fitHeight is on but the full content still exceeds
+ *   the panel at the chosen scale (eg. at minScale, or when
+ *   fitHeightExcludeSelector sections extend past the fitted height).
  */
 export function useFitTextScale(options) {
   const {
@@ -25,6 +28,12 @@ export function useFitTextScale(options) {
     padY,
     /** When set, width constraints use this column instead of the container. */
     widthColumnRef,
+    /**
+     * CSS selector for content children that should not count toward the
+     * height fit (eg. heading-only stanzas that repeat a chart already shown).
+     * They still render — overflows turns true when they extend past the panel.
+     */
+    fitHeightExcludeSelector,
   } = options || {};
 
   const containerRef = useRef(null);
@@ -38,6 +47,7 @@ export function useFitTextScale(options) {
   const py = padY != null ? padY : 16;
   const wantHeight = !!fitHeight;
   const wantLongest = !!measureLongestLine;
+  const excludeSelector = fitHeightExcludeSelector || '';
 
   useEffect(function() {
     const container = containerRef.current;
@@ -71,7 +81,7 @@ export function useFitTextScale(options) {
       }
 
       const top = container.getBoundingClientRect().top;
-      const viewportH = Math.max(40, window.innerHeight - top - 12 - py);
+      const viewportH = Math.max(40, measureViewportBottomLimit() - top - 12 - py);
 
       // Prefer the visible viewport remainder so we fill what the user sees,
       // not an oversized panel that extends below the fold.
@@ -154,8 +164,23 @@ export function useFitTextScale(options) {
       if (!wantHeight) {
         return { ok: widthOk, size: size };
       }
-      const heightOk = content.scrollHeight <= size.availH + 2;
-      return { ok: widthOk && heightOk, size: size, widthOk: widthOk, heightOk: heightOk };
+      // Excluded children (eg. heading-only stanzas) still render but do not
+      // count toward the fit — the chord-bearing stanzas set the font size.
+      let excludedH = 0;
+      if (excludeSelector) {
+        content.querySelectorAll(excludeSelector).forEach(function(el) {
+          excludedH += el.offsetHeight || 0;
+        });
+      }
+      const rawHeightOk = content.scrollHeight <= size.availH + 2;
+      const heightOk = (content.scrollHeight - excludedH) <= size.availH + 2;
+      return {
+        ok: widthOk && heightOk,
+        size: size,
+        widthOk: widthOk,
+        heightOk: heightOk,
+        rawHeightOk: rawHeightOk,
+      };
     }
 
     function recalc() {
@@ -181,7 +206,9 @@ export function useFitTextScale(options) {
       content.style.fontSize = best.toFixed(3) + 'em';
       const finalFit = fitsAt(best);
       setFontScale(Number(best.toFixed(3)));
-      setOverflows(wantHeight && !finalFit.heightOk);
+      // Report overflow against the full content so callers can enable
+      // scrolling when excluded sections extend past the panel.
+      setOverflows(wantHeight && !finalFit.rawHeightOk);
     }
 
     function schedule() {
@@ -206,7 +233,7 @@ export function useFitTextScale(options) {
       window.removeEventListener('resize', schedule);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [wantHeight, wantLongest, min, max, px, py, widthColumnRef].concat(deps || []));
+  }, [wantHeight, wantLongest, min, max, px, py, widthColumnRef, excludeSelector].concat(deps || []));
 
   return { containerRef: containerRef, contentRef: contentRef, fontScale: fontScale, overflows: overflows };
 }

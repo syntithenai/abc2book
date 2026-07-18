@@ -82,8 +82,9 @@
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
   row-gap: 0.55rem;
 }
 .notation-nonstaff-controls {
@@ -129,14 +130,11 @@
   letter-spacing: 0.02em;
   line-height: 1;
 }
+/* Flatten toolbar wrappers so note-edit controls can continue on the same
+   row as Help when there is leftover width. */
 .notation-editing-controls .notation-toolbar,
 .notation-editing-controls .notation-duration-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem;
-  row-gap: 0.55rem;
-  margin-bottom: 0;
+  display: contents;
 }
 .notation-toolbar-end {
   flex: 0 0 auto;
@@ -248,12 +246,6 @@
 .notation-mode-badge-input {
   background: #0d6efd;
   color: #fff;
-}
-.notation-duration-toolbar {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.35rem;
-  flex-wrap: wrap;
 }
 .notation-duration-buttons .btn {
   min-width: 2.15rem;

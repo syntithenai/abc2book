@@ -1,6 +1,7 @@
 import { parseBlob } from 'music-metadata-browser';
 
 const AUDIO_EXTENSIONS = ['.mp3', '.flac', '.m4a', '.ogg', '.wav', '.aac', '.wma', '.opus', '.webm'];
+const VIDEO_EXTENSIONS = ['.mp4', '.mov', '.m4v', '.webm', '.mkv', '.avi'];
 const MIDI_EXTENSIONS = ['.mid', '.midi'];
 const MIDI_MIME_TYPES = ['audio/midi', 'audio/mid', 'audio/x-midi'];
 
@@ -18,12 +19,44 @@ const AUDIO_MIME_TYPES = [
   'audio/opus',
 ];
 
+const VIDEO_MIME_TYPES = [
+  'video/mp4',
+  'video/quicktime',
+  'video/webm',
+  'video/x-matroska',
+  'video/avi',
+  'video/x-msvideo',
+];
+
 export function audioFileAcceptList() {
   return AUDIO_EXTENSIONS.concat(AUDIO_MIME_TYPES).join(',');
 }
 
+export function videoFileAcceptList() {
+  return VIDEO_EXTENSIONS.concat(VIDEO_MIME_TYPES).join(',');
+}
+
+export function mediaFileAcceptList() {
+  return audioFileAcceptList() + ',' + videoFileAcceptList();
+}
+
+export function isVideoImportFile(file) {
+  if (!file) return false;
+  const name = String(file.name || '').toLowerCase();
+  const type = String(file.type || '').toLowerCase();
+  if (type.startsWith('video/')) return true;
+  if (VIDEO_MIME_TYPES.includes(type)) return true;
+  // .webm can be audio or video — prefer audio path when mime says audio
+  if (type.startsWith('audio/')) return false;
+  return VIDEO_EXTENSIONS.some(function(ext) {
+    if (ext === '.webm' && type.startsWith('audio/')) return false;
+    return name.endsWith(ext) && ext !== '.webm';
+  }) || (name.endsWith('.webm') && type.startsWith('video/'));
+}
+
 export function isAudioImportFile(file) {
   if (!file) return false;
+  if (isVideoImportFile(file)) return false;
   const name = String(file.name || '').toLowerCase();
   const type = String(file.type || '').toLowerCase();
   if (MIDI_EXTENSIONS.some(function(ext) { return name.endsWith(ext); })) return false;

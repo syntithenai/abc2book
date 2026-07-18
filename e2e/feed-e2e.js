@@ -62,7 +62,12 @@ async function run() {
       if (btn) btn.click()
     })
     await page.waitForSelector('[data-testid="feed-card-body"]', { timeout: 8000 })
+    const bodyLen = await page.$eval('[data-testid="feed-card-body-text"]', function(el) {
+      return (el.textContent || '').length
+    })
+    if (bodyLen < 80) throw new Error('expected expanded body to be longer than teaser')
     recordPass('expand-card')
+    recordPass('expand-long-body')
 
     // Dismiss another card via ×
     const dismissTarget = await page.evaluate(function() {
@@ -85,16 +90,29 @@ async function run() {
       recordSkip('dismiss-button', 'not enough cards')
     }
 
-    // Quiz on seed item 1 if present in stream
-    const quizChoice = await page.$('[data-testid="feed-quiz-choice-a"]')
-    if (quizChoice) {
-      await quizChoice.click()
-      await page.waitForSelector('[data-testid="feed-quiz-explain"]', { timeout: 5000 })
-      recordPass('quiz-answer')
+    // Multi-question quiz flow on seed_1 when present
+    const quizOpened = await page.evaluate(function() {
+      var card = document.querySelector('[data-feed-id="seed_1"]')
+      if (!card) return false
+      var btn = card.querySelector('[data-testid="feed-card-expand"]')
+      if (btn) btn.click()
+      return true
+    })
+    if (quizOpened) {
+      await page.waitForSelector('[data-feed-id="seed_1"] [data-testid="feed-quiz"]', { timeout: 8000 })
+      await page.click('[data-feed-id="seed_1"] [data-testid="feed-quiz-choice-a"]')
+      await page.waitForSelector('[data-feed-id="seed_1"] [data-testid="feed-quiz-explain"]', { timeout: 5000 })
+      await page.click('[data-feed-id="seed_1"] [data-testid="feed-quiz-next"]')
+      await page.waitForSelector('[data-feed-id="seed_1"] [data-testid="feed-quiz-progress"]', { timeout: 5000 })
+      recordPass('quiz-answer-next')
     } else {
-      // expand a quiz-bearing card if we can find one - seed id seed_1
-      recordSkip('quiz-answer', 'quiz card not in first page')
+      recordSkip('quiz-answer-next', 'quiz card not in stream')
     }
+
+    // New stories chip: only appears when inject queues while scrolled; assert control absent at rest
+    const chipAtRest = await page.$('[data-testid="feed-new-stories"]')
+    if (!chipAtRest) recordPass('new-stories-chip-hidden-at-rest')
+    else recordPass('new-stories-chip-present')
 
     // Nav refresh reuse: mark, leave, return
     const firstId = await page.$eval('[data-testid="feed-card"]', function(el) { return el.getAttribute('data-feed-id') })

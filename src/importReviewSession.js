@@ -30,14 +30,21 @@ export function youtubeUrlFromCandidate(candidate) {
 export function createImportCandidate(options) {
   const tune = options.tune || {};
   const sourceKind = options.sourceKind || 'manual';
+  const skipEnrich = options.skipEnrich !== undefined
+    ? !!options.skipEnrich
+    : true;
   return {
     id: options.id || 'candidate-' + Date.now() + '-' + Math.random().toString(36).slice(2, 7),
     tune: Object.assign({}, tune),
     sourceKind: sourceKind,
     rawText: options.rawText || null,
     mergeTargetId: options.mergeTargetId || null,
+    mergeStatus: options.mergeStatus || 'new',
+    mergeMode: options.mergeMode || 'suggestOnly',
+    attachmentPolicy: options.attachmentPolicy || null,
+    warningReason: options.warningReason || null,
     youtubeUrl: options.youtubeUrl || '',
-    skipEnrich: !!options.skipEnrich || sourceKind === 'sheetimage',
+    skipEnrich: sourceKind === 'sheetimage' ? true : skipEnrich,
     contentHashDuplicate: !!options.contentHashDuplicate,
     imported: false,
   };
@@ -84,6 +91,9 @@ function normalizeCandidate(item, index) {
 export function createImportReviewSession(candidates, options) {
   const list = (Array.isArray(candidates) ? candidates : []).map(normalizeCandidate);
   const opts = options || {};
+  const addPanelMode = opts.addPanelMode === 'curated' || opts.addPanelMode === 'bulk'
+    ? opts.addPanelMode
+    : 'form';
   return {
     candidates: list,
     index: 0,
@@ -96,6 +106,7 @@ export function createImportReviewSession(candidates, options) {
     skipYoutubeForRemaining: false,
     skipEnrichment: !!opts.skipEnrichment,
     entryMode: opts.entryMode === 'add' ? 'add' : 'import',
+    addPanelMode: opts.entryMode === 'add' ? addPanelMode : 'form',
     sessionSummary: emptySessionSummary(),
   };
 }
@@ -124,11 +135,21 @@ export function ensureBlankAddSession(session, options) {
     return createImportReviewSession([blank], {
       entryMode: 'add',
       skipEnrichment: !!opts.skipEnrichment,
+      addPanelMode: opts.addPanelMode,
     });
   }
   if (isAddTunesChrome(session)) {
     const current = currentCandidate(session);
-    if (isAddDraftCandidate(current)) return session;
+    if (isAddDraftCandidate(current)) {
+      // Only apply curated/bulk from deep links; do not clobber an in-dialog
+      // panel choice when Add page re-opens with the default form mode.
+      if (opts.addPanelMode === 'curated' || opts.addPanelMode === 'bulk') {
+        if (opts.addPanelMode !== session.addPanelMode) {
+          return Object.assign({}, session, { addPanelMode: opts.addPanelMode });
+        }
+      }
+      return session;
+    }
     const draftIndex = (session.candidates || []).findIndex(isAddDraftCandidate);
     if (draftIndex >= 0) {
       return Object.assign({}, session, {
@@ -154,6 +175,7 @@ export function ensureBlankAddSession(session, options) {
     index: 0,
     mergeIndex: null,
     entryMode: 'add',
+    addPanelMode: opts.addPanelMode === 'curated' || opts.addPanelMode === 'bulk' ? opts.addPanelMode : 'form',
     phase: 'identify',
     step: 'review',
   });

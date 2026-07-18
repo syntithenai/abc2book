@@ -4,8 +4,10 @@ import PrivacyContent from '../components/PrivacyContent';
 import { Button, Container } from 'react-bootstrap';
 import { HELP_NAV, HELP_SECTIONS } from '../helpContent';
 import { helpSectionIdFromLink, scrollToHelpSection } from '../helpNavigation';
+import { useDocumentTitle } from '../pageTitle';
 
 export default function HelpPage(props) {
+  useDocumentTitle('Help');
   var location = useLocation();
   var loginButton = props.tunebook && props.tunebook.icons
     ? <Button variant="success">{props.tunebook.icons.login}</Button>

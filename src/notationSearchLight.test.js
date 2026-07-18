@@ -4,7 +4,7 @@ import {
   searchThesessionNotation,
   sortNotationCandidates,
 } from './thesessionNotationClient'
-import { scoreTitleArtistMatch } from './notationMatchUtils'
+import { scoreNotationCandidate, scoreTitleArtistMatch } from './notationMatchUtils'
 import { searchNotationLight } from './notationSearchLight'
 import * as localAbcCollectionSearch from './localAbcCollectionSearch'
 import * as textSearchIndexUtils from './textSearchIndexUtils'
@@ -95,6 +95,24 @@ describe('thesessionNotationClient helpers', function() {
   test('scoreTitleArtistMatch ranks exact title and artist highest', function() {
     expect(scoreTitleArtistMatch('Wild Rover', 'Traditional', 'Wild Rover', 'Traditional')).toBe(140)
     expect(scoreTitleArtistMatch('Wild Rover Song', '', 'Wild Rover', '')).toBeGreaterThanOrEqual(45)
+  })
+
+  test('scoreTitleArtistMatch matches The Session setting labels to the clean title', function() {
+    expect(scoreTitleArtistMatch(
+      'Planxty Burke (waltz) — setting 1',
+      '',
+      'Planxty Burke',
+      'Turlough O Carolan'
+    )).toBe(80)
+  })
+
+  test('scoreNotationCandidate prefers tuneMeta.name over decorated title', function() {
+    expect(scoreNotationCandidate({
+      title: 'Planxty Burke (waltz) — setting 2',
+      artist: '',
+      tuneMeta: { name: 'Planxty Burke', composer: '' },
+      source: 'thesession.org',
+    }, 'Planxty Burke', 'Someone Else')).toBe(80)
   })
 
   test('scoreTitleArtistMatch rejects short substring false positives', function() {
@@ -194,8 +212,9 @@ describe('searchNotationLight', function() {
     expect(result.candidates).toHaveLength(2)
   })
 
-  test('throws when no notation is found', async function() {
-    await expect(searchNotationLight({ title: 'Obscure Tune XYZ' }))
-      .rejects.toThrow('No ABC notation found for this tune')
+  test('returns empty result when no notation is found', async function() {
+    const result = await searchNotationLight({ title: 'Obscure Tune XYZ' })
+    expect(result.empty).toBe(true)
+    expect(result.candidates).toEqual([])
   })
 })

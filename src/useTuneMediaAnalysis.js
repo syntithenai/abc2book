@@ -9,14 +9,14 @@ import { useParams } from 'react-router-dom';
 import {
   analyzeMediaFromSource,
   formatMediaAnalysisForTune,
-  getDetectedTempoFromAnalysis,
-  tuneHasTempo,
 } from './mediaAnalysisClient';
 import { buildTimedModelsFromAnalysis } from './mediaAnalysisModels';
 import { saveTimedMediaDraft } from './timedMediaCache';
 import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 import { getLinkedMediaSources } from './mediaTranscriptionSources';
 import { prepareMediaAnalysisSource } from './prepareMediaAnalysisSource';
+import { separateStemsFromSource } from './mediaStemClient';
+import { getCachedStemSet, getStemSourceCacheKey } from './audioStemCache';
 import useUtils from './useUtils';
 import {
   clearMediaAnalysisAbortController,
@@ -28,6 +28,9 @@ import {
   subscribeMediaAnalysisJobs,
 } from './mediaAnalysisJobs';
 import { persistMediaAnalysisFieldSuggestions } from './mediaAnalysisSuggestions';
+import { extractMelodySourceNotes } from './melodyRefilterUtils';
+import useAbcjsParser from './useAbcjsParser';
+import { getMediaResolverHealthState } from './mediaResolverHealthStore';
 
 const TuneMediaAnalysisDepsContext = createContext(null);
 
@@ -35,6 +38,71 @@ function resolveTune(deps, tune, tuneId) {
   if (tune && tune.id) return tune;
   if (tuneId && deps && deps.tunes) return deps.tunes[tuneId] || null;
   return null;
+}
+
+function extractTuneKey(tune) {
+  if (!tune) return '';
+  if (tune.key) return String(tune.key).trim();
+  if (Array.isArray(tune.keys) && tune.keys[0]) return String(tune.keys[0]).trim();
+  return '';
+}
+
+function fallbackDemucsModel(deps) {
+  if (deps && deps.tunebook && deps.tunebook.demucsModel) {
+    return deps.tunebook.demucsModel;
+  }
+  const health = getMediaResolverHealthState().status;
+  return (health && health.demucsModel) || 'htdemucs';
+}
+
+async function resolveStemCacheIdForAnalysis(deps, tune, source, preparedSource, processing, abortController) {
+  const shouldPrecreate = processing
+    && processing.applyAudioFilters !== false
+    && processing.precreateStemsBeforeAnalyze !== false;
+  if (!shouldPrecreate || !source) {
+    return processing && processing.stemCacheId ? processing.stemCacheId : '';
+  }
+
+  const demucsModel = (processing && processing.demucsModel)
+    || fallbackDemucsModel(deps);
+  const tuneId = tune && tune.id ? tune.id : '';
+  const linkIndex = source.linkIndex != null ? source.linkIndex : 0;
+  const src = (preparedSource && (preparedSource.src || preparedSource.sourceUrl))
+    || source.src
+    || source.sourceUrl
+    || '';
+  if (tuneId && src) {
+    try {
+      const cacheKey = getStemSourceCacheKey(tuneId, linkIndex, src, demucsModel);
+      const cached = await getCachedStemSet(cacheKey);
+      if (cached && cached.separation && cached.separation.cacheId) {
+        return cached.separation.cacheId;
+      }
+    } catch (e) {
+      // Fall through to network separation.
+    }
+  }
+
+  patchMediaAnalysisJob(tune && tune.id, {
+    status: 'Creating stems for analysis...',
+    progress: 5,
+  });
+
+  const stemSource = preparedSource || source;
+  const separation = await separateStemsFromSource({
+    source: stemSource,
+    accessToken: deps.accessToken,
+    signal: abortController.signal,
+    demucsModel: demucsModel,
+    onProgress: function(message, progressValue) {
+      const patch = { status: message || 'Separating stems...' };
+      if (typeof progressValue === 'number' && !isNaN(progressValue)) {
+        patch.progress = Math.max(0, Math.min(40, Math.round(progressValue * 0.4)));
+      }
+      patchMediaAnalysisJob(tune && tune.id, patch);
+    },
+  });
+  return separation && separation.cacheId ? separation.cacheId : '';
 }
 
 async function runMediaAnalysisJob(deps, tuneId, source, options) {
@@ -111,6 +179,49 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       return null;
     }
 
+    let processing = (options && options.processing)
+      ? Object.assign({}, options.processing)
+      : buildAnalysisProcessingPayload(loadMelodyProcessingSettings(), null, {
+        name: tune && tune.name,
+        composer: tune && tune.composer,
+        key: extractTuneKey(tune),
+        demucsModel: fallbackDemucsModel(deps),
+      });
+    if (!processing.demucsModel) {
+      processing.demucsModel = fallbackDemucsModel(deps);
+    }
+    if (String(processing.musicType || '').toLowerCase() === 'piano') {
+      processing.demucsModel = 'htdemucs_6s';
+    }
+    if (!processing.detectedKey && !processing.key) {
+      const key = extractTuneKey(tune);
+      if (key) {
+        processing.detectedKey = key;
+        processing.key = key;
+      }
+    }
+
+    try {
+      const stemCacheId = await resolveStemCacheIdForAnalysis(
+        deps,
+        tune,
+        source,
+        preparedSource,
+        processing,
+        abortController
+      );
+      if (stemCacheId) {
+        processing.stemCacheId = stemCacheId;
+      }
+    } catch (stemErr) {
+      if (stemErr && stemErr.name === 'AbortError') throw stemErr;
+      // Continue without precreated stems — resolver will separate during analyze.
+      console.log(stemErr);
+    }
+    if (abortController.signal.aborted) {
+      return null;
+    }
+
     const result = await analyzeMediaFromSource({
       source: preparedSource,
       accessToken: deps.accessToken,
@@ -122,18 +233,17 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
         }
         patchMediaAnalysisJob(tuneId, patch);
       },
-      processing: (options && options.processing)
-        ? options.processing
-        : buildAnalysisProcessingPayload(loadMelodyProcessingSettings()),
+      processing: processing,
     });
 
-    const processing = (options && options.processing)
-        ? options.processing
-        : buildAnalysisProcessingPayload(loadMelodyProcessingSettings());
     const formatted = formatMediaAnalysisForTune(result, tune, deps.tunebook, {
       includeMeterChanges: !!processing.enableMeterChanges,
     });
     const timedModels = buildTimedModelsFromAnalysis(result, tune, preparedSource);
+    const melodySourceNotes = extractMelodySourceNotes(
+      result && result.melody,
+      timedModels && timedModels.timedMelody
+    );
     const nextVersion = getMediaAnalysisJob(tuneId).analysisVersion + 1;
     const nextAnalysis = {
       sourceId: source.id,
@@ -146,21 +256,6 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
     const liveTune = tune || resolveTune(deps, null, tuneId);
     const skipPersist = !!(options && options.skipPersist);
     if (liveTune && !skipPersist) {
-      if (!liveTune.meter && result.timing && result.timing.meter) {
-        liveTune.meter = result.timing.meter;
-      }
-      if (!tuneHasTempo(liveTune)) {
-        const detectedTempo = getDetectedTempoFromAnalysis(result);
-        if (detectedTempo > 0) {
-          liveTune.tempo = detectedTempo;
-        }
-      }
-      if (!liveTune.key && timedModels.timedMelody && timedModels.timedMelody.detectedKey) {
-        liveTune.key = timedModels.timedMelody.detectedKey;
-      }
-      if (typeof deps.tunebook.saveTune === 'function') {
-        deps.tunebook.saveTune(liveTune);
-      }
       if (liveTune.id) {
         await saveTimedMediaDraft(liveTune.id, {
           chordGridText: formatted.chordsText || '',
@@ -180,12 +275,20 @@ async function runMediaAnalysisJob(deps, tuneId, source, options) {
       showSourceDialog: false,
       analyzingSourceId: null,
       analyzingLinkIndex: null,
+      melodySourceNotes: melodySourceNotes,
+      timedMelody: timedModels && timedModels.timedMelody ? timedModels.timedMelody : null,
+      chordsText: formatted.chordsText || '',
     });
 
     if (!skipPersist && liveTune && liveTune.id) {
       try {
-        persistMediaAnalysisFieldSuggestions(liveTune.id, formatted, liveTune, {
+        const suggestionPayload = Object.assign({}, formatted);
+        if (!suggestionPayload.key && timedModels && timedModels.timedMelody && timedModels.timedMelody.detectedKey) {
+          suggestionPayload.key = timedModels.timedMelody.detectedKey;
+        }
+        persistMediaAnalysisFieldSuggestions(liveTune.id, suggestionPayload, liveTune, {
           abcTools: deps.tunebook && deps.tunebook.abcTools,
+          abcjsParser: deps.abcjsParser || null,
           saveTune: deps.tunebook && typeof deps.tunebook.saveTune === 'function'
             ? function(tuneToSave, skipHistory, opts) {
               return deps.tunebook.saveTune(tuneToSave, skipHistory, opts);
@@ -316,11 +419,15 @@ function useTuneMediaAnalysisState(options) {
     requestAnalysis: requestAnalysis,
     runAnalysis: runAnalysis,
     getStatusLabel: getStatusLabel,
+    melodySourceNotes: job.melodySourceNotes || null,
+    timedMelody: job.timedMelody || null,
+    chordsText: job.chordsText || '',
   };
 }
 
 export function TuneMediaAnalysisProvider({ children, tunebook, tunes, token, forceRefresh }) {
   const accessToken = token && token.access_token ? token.access_token : null;
+  const abcjsParser = useAbcjsParser({ tunebook: tunebook });
   const value = useMemo(function() {
     return {
       tunebook: tunebook,
@@ -328,8 +435,9 @@ export function TuneMediaAnalysisProvider({ children, tunebook, tunes, token, fo
       token: token,
       forceRefresh: forceRefresh,
       accessToken: accessToken,
+      abcjsParser: abcjsParser,
     };
-  }, [tunebook, tunes, token, forceRefresh, accessToken]);
+  }, [tunebook, tunes, token, forceRefresh, accessToken, abcjsParser]);
 
   return (
     <TuneMediaAnalysisDepsContext.Provider value={value}>

@@ -16,12 +16,14 @@ import {
   getAwaitingJob,
   offerSideFieldSuggestion,
 } from '../tuneFieldLookupQueue'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
-import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
 import {
   buildPickerOriginalValueItem,
   resolveOriginalValueForPicker,
@@ -90,8 +92,6 @@ export default function ComposerSearchButton({
   pickWhenMultiple = false,
   /** Do not open the performers multi-select dialog. */
   skipArtistPicker = false,
-  /** Hide Clear/Suggestions chrome on the Search button group. */
-  showSuggestionsChrome = true,
   children,
 }) {
   const [error, setError] = useState('')
@@ -101,6 +101,7 @@ export default function ComposerSearchButton({
   const [pendingArtistCandidates, setPendingArtistCandidates] = useState([])
   const [showArtistPicker, setShowArtistPicker] = useState(false)
   const [selectedArtistIndexes, setSelectedArtistIndexes] = useState([])
+  const [artistPickerComment, setArtistPickerComment] = useState('')
   const [titlePickerCandidates, setTitlePickerCandidates] = useState([])
   const [showTitlePicker, setShowTitlePicker] = useState(false)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
@@ -130,6 +131,8 @@ export default function ComposerSearchButton({
   onSuggestedTitleRef.current = onSuggestedTitle
   const titleRef = useRef(title)
   titleRef.current = title
+  const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'composer')
+  const fieldEmpty = needsComposerDiscovery(composer)
 
   const hints = getEffectiveComposerSearchHints(title, composer, titleHint)
   const effectiveTitle = hints.title
@@ -195,6 +198,7 @@ export default function ComposerSearchButton({
     if (job) applyFieldLookupChoice(job.id, candidate)
     notifyTitleApplied(candidate && candidate.title, candidate && candidate.source)
   }
+
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
     if (typeof onComposer === 'function') {
@@ -213,11 +217,23 @@ export default function ComposerSearchButton({
     }).filter(Boolean))
   }
 
+  function cacheComposerResults(composers) {
+    const key = targetKeyForFieldSearch(tuneId, candidateId)
+    if (!key) return
+    if (Array.isArray(composers) && composers.length > 0) {
+      setFieldSearchResults(key, 'composer', composers)
+    }
+  }
+
   function emitPerformers(candidates, chosenComposer) {
     const filtered = filterArtistCandidates(candidates, {
       existingArtists: existingArtistsRef.current,
       chosenComposer: chosenComposer || composerRef.current || '',
     })
+    const key = targetKeyForFieldSearch(tuneId, candidateId)
+    if (key && filtered.length > 0) {
+      setFieldSearchResults(key, 'artists', filtered)
+    }
     if (typeof onPerformerCandidatesRef.current === 'function') {
       onPerformerCandidatesRef.current(filtered.map(function(item) {
         return item && item.artist ? item.artist : ''
@@ -234,25 +250,45 @@ export default function ComposerSearchButton({
     setShowComposerPicker(true)
   }
 
-  function maybeOpenArtistPicker(candidates, chosenComposer) {
+  function maybeOpenArtistPicker(candidates, chosenComposer, options) {
+    const opts = options || {}
     const filtered = emitPerformers(candidates, chosenComposer)
     setPendingArtistCandidates([])
     if (skipArtistPickerRef.current) {
       setShowArtistPicker(false)
       setArtistPickerCandidates([])
       setSelectedArtistIndexes([])
+      setArtistPickerComment('')
       return
     }
     if (filtered.length === 0 || typeof onAddArtist !== 'function') {
       setShowArtistPicker(false)
       setArtistPickerCandidates([])
       setSelectedArtistIndexes([])
+      setArtistPickerComment('')
       return
     }
     artistsAddedRef.current = false
     setSelectedArtistIndexes([])
     setArtistPickerCandidates(filtered)
+    const autoFilled = String(opts.composerAutoFilled || '').trim()
+    setArtistPickerComment(autoFilled
+      ? (
+        'Composer was empty, so it was set to "'
+        + autoFilled
+        + '". Choose any performing artists to add below, or Done if none apply.'
+      )
+      : '')
     setShowArtistPicker(true)
+  }
+
+  function autoApplyComposerThenArtists(composers, artistCandidates, jobId) {
+    const wasBlank = needsComposerDiscovery(composerRef.current)
+    const chosen = composers && composers[0]
+    applyRef.current(chosen, jobId)
+    maybeOpenArtistPicker(artistCandidates, chosen && chosen.artist, {
+      composerAutoFilled: wasBlank ? (chosen && chosen.artist) : '',
+    })
   }
 
   function closeComposerPicker() {
@@ -265,6 +301,7 @@ export default function ComposerSearchButton({
     setArtistPickerCandidates([])
     setSelectedArtistIndexes([])
     setPendingArtistCandidates([])
+    setArtistPickerComment('')
   }
 
   const lookup = useFieldLookupSearchJob({
@@ -275,38 +312,55 @@ export default function ComposerSearchButton({
       emitSuggestedTitle(job)
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
       const split = splitComposerSearchCandidates(candidates)
-      const forcePick = alwaysPickRef.current || searchModeRef.current === 'review'
       const composers = split.composerCandidates
-      emitComposerCandidates(composers)
-      if (composers.length === 0) {
+      const applied = job.appliedCandidate
+      emitComposerCandidates(composers.length ? composers : (applied && applied.artist ? [applied] : []))
+      cacheComposerResults(composers.length ? composers : (applied && applied.artist ? [applied] : []))
+
+      if (composers.length === 0 && !(applied && applied.artist)) {
         setError('Artist search returned no artist')
         emitPerformers(split.artistCandidates, composerRef.current)
         return
       }
+      setError('')
+
+      // Auto-applied (empty field) or already settled: sync form, then one-shot performers.
+      if (job.status === 'done' || (applied && fieldEmpty)) {
+        if (applied && typeof onComposer === 'function') {
+          onComposer({
+            artist: applied.artist,
+            source: applied.source,
+          })
+        }
+        maybeOpenArtistPicker(
+          split.artistCandidates,
+          (applied && applied.artist) || (composers[0] && composers[0].artist)
+        )
+        return
+      }
+
       if (pickWhenMultipleRef.current) {
         if (composers.length === 1) {
-          applyRef.current(composers[0], job.id)
-          maybeOpenArtistPicker(split.artistCandidates, composers[0] && composers[0].artist)
+          autoApplyComposerThenArtists(composers, split.artistCandidates, job.id)
           return
         }
         openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
         return
       }
-      if (forcePick) {
+
+      if (alwaysPickRef.current || searchModeRef.current === 'review') {
         openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
         return
       }
-      if (needsComposerDiscovery(composerRef.current) || searchModeRef.current === 'auto') {
-        applyRef.current(composers[0], job.id)
-        maybeOpenArtistPicker(split.artistCandidates, composers[0] && composers[0].artist)
+
+      // Empty field: auto-apply first composer, then chain performers.
+      if (needsComposerDiscovery(composerRef.current)) {
+        autoApplyComposerThenArtists(composers, split.artistCandidates, job.id)
         return
       }
-      if (composers.length > 1) {
-        openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
-        return
-      }
-      applyRef.current(composers[0], job.id)
-      maybeOpenArtistPicker(split.artistCandidates, composers[0] && composers[0].artist)
+
+      // Non-empty: one-shot composer picker.
+      openComposerPicker(composers, split.artistCandidates, { chainArtists: true })
     },
     onError: function(job) {
       setError(job.error || 'Artist search failed')
@@ -322,9 +376,12 @@ export default function ComposerSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = searchableSuggestions(awaitingJob)
 
-  useSyncFieldLookupOriginalValue(tuneId, 'composer', composer, awaitingJob)
+  function dismissAwaitingIfNeeded() {
+    if (lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      dismissFieldLookup(lookup.activeJob.id)
+    }
+  }
 
   function chooseComposerCandidate(candidate) {
     const chainArtists = chainArtistPickerRef.current
@@ -347,6 +404,7 @@ export default function ComposerSearchButton({
     chainArtistPickerRef.current = false
     const artists = pendingArtistCandidates
     closeComposerPicker()
+    dismissAwaitingIfNeeded()
     if (chainArtists) {
       maybeOpenArtistPicker(artists, composerRef.current)
     } else {
@@ -354,20 +412,14 @@ export default function ComposerSearchButton({
     }
   }
 
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
+  function openCachedComposerPicker(candidates) {
     setError('')
-    const split = splitComposerSearchCandidates(awaitingCandidates)
-    openComposerPicker(split.composerCandidates, split.artistCandidates, { chainArtists: false })
-  }
-
-  useOpenFieldSuggestions(tuneId, 'composer', openAwaitingSuggestions)
-
-  function clearAwaitingSuggestions() {
-    chainArtistPickerRef.current = false
-    lookup.dismiss()
-    closeComposerPicker()
-    closeArtistPicker()
+    const split = splitComposerSearchCandidates(candidates)
+    openComposerPicker(
+      split.composerCandidates.length ? split.composerCandidates : candidates,
+      split.artistCandidates,
+      { chainArtists: false }
+    )
   }
 
   function run(mode) {
@@ -376,10 +428,7 @@ export default function ComposerSearchButton({
       lookup.cancel()
       return
     }
-    // New Search clears prior suggestions for this kind.
-    if (awaitingCandidates.length > 0) {
-      clearAwaitingSuggestions()
-    }
+    if (awaitingJob) dismissFieldLookup(awaitingJob.id)
     const searchMode = mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
@@ -435,6 +484,17 @@ export default function ComposerSearchButton({
     title || ''
   )
 
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openCachedComposerPicker}
+      aria-label="Cached composer search results"
+      data-testid="composer-search-results-caret"
+    />
+  )
+
   const buttonGroup = (
     <>
       <FieldLookupButtonGroup
@@ -449,8 +509,7 @@ export default function ComposerSearchButton({
         searchIcon={searchIcon}
         inline={inline}
         progress={lookup.progressPercent}
-        suggestionCount={showSuggestionsChrome ? awaitingCandidates.length : 0}
-        onOpenSuggestions={showSuggestionsChrome ? openAwaitingSuggestions : undefined}
+        resultsCaret={resultsCaret}
       />
       <SearchProgressBar
         visible={busy}
@@ -486,6 +545,7 @@ export default function ComposerSearchButton({
       <SearchResultPickerModal
         show={showArtistPicker}
         title="Choose artists to add"
+        comment={artistPickerComment}
         multiSelect={true}
         selectedIndexes={selectedArtistIndexes}
         items={mapCandidateItems(artistPickerCandidates)}
@@ -547,6 +607,7 @@ export default function ComposerSearchButton({
     suggestionsDropdown: null,
     errorNode: error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null,
     modals: modals,
+    busy: busy,
   })
 }
 

@@ -6,6 +6,7 @@ import NotationVoicesDropdown from './NotationVoicesDropdown';
 import NotationClipboardToolbar from './NotationClipboardToolbar';
 import NotationMarksDropdown from './NotationMarksDropdown';
 import NotationTupletDropdown from './NotationTupletDropdown';
+import NotationAccidentalDropdown from './NotationAccidentalDropdown';
 import NotationViewSelector from './NotationViewSelector';
 import MidiInputPanel from './MidiInputPanel';
 
@@ -34,6 +35,7 @@ export default function NotationToolbar(props) {
     onToggleTie,
     onMarkAction,
     onTupletAction,
+    onApplyAccidental,
     onToggleRecord,
     onApplyRecord,
     onDiscardRecord,
@@ -44,7 +46,7 @@ export default function NotationToolbar(props) {
   const expand = expandFlags || {};
 
   return (
-    <div className="notation-toolbar d-flex flex-wrap align-items-center gap-2">
+    <div className="notation-toolbar">
       <NotationVoicesDropdown
         tune={props.tune}
         voiceNames={props.voiceNames}
@@ -154,6 +156,12 @@ export default function NotationToolbar(props) {
           Tuplet {session.tupletMode.num}
         </span>
       ) : null}
+      <NotationAccidentalDropdown
+        session={session}
+        dispatch={dispatch}
+        onApplyAccidental={onApplyAccidental}
+        expanded={!!expand.accidentals}
+      />
       <MidiInputPanel
         midi={midi}
         session={session}

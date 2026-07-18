@@ -2,6 +2,7 @@ import {
   __resetImportReviewSessionStoreForTests,
   clearImportReviewSession,
   getImportReviewSession,
+  getImportReviewSessionRevision,
   hasActiveImportReviewSession,
   isImportReviewUiVisible,
   openImportReviewFromToast,
@@ -60,5 +61,20 @@ describe('importReviewSessionStore persistence', function() {
     expect(isImportReviewUiVisible()).toBe(true)
     expect(getImportReviewSession().entryMode).toBe('import')
     expect(isAddTunesChrome(getImportReviewSession())).toBe(false)
+  })
+
+  test('revision changes when addPanelMode changes', function() {
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs' })],
+      { entryMode: 'add' }
+    )
+    setImportReviewSession(session)
+    const before = getImportReviewSessionRevision()
+
+    setImportReviewSession(Object.assign({}, session, { addPanelMode: 'curated' }))
+    const after = getImportReviewSessionRevision()
+
+    expect(after).not.toBe(before)
+    expect(after).toContain('curated')
   })
 })

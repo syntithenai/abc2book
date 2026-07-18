@@ -80,6 +80,10 @@ Only callers on `EMBEDDED_CREDS_EMAILS` (or `ALL`) use these. Everyone else must
 | `PROVIDER_OCR_BASE_URL` | e.g. `https://api.openai.com/v1` |
 | `PROVIDER_OCR_API_KEY` | Secret |
 | `PROVIDER_OCR_MODEL` | e.g. `gpt-4o-mini` |
+| `PROVIDER_STEMS_PROVIDER` | e.g. `fal` / `replicate` |
+| `PROVIDER_STEMS_BASE_URL` | e.g. `https://fal.run` |
+| `PROVIDER_STEMS_API_KEY` | Secret (fal key or Replicate token) |
+| `PROVIDER_STEMS_MODEL` | e.g. `htdemucs` or `cjwbw/demucs` |
 
 **Do not** set `YTDLP_PROXY` on the public Cloud Run service for “everyone” — users BYO Webshare in Settings, or use the browser Helper / home resolver.
 
@@ -251,7 +255,7 @@ Also ensure Cloud Console OAuth **JavaScript origins** include your SPA hosts ([
 On this Cloud Run service, `/youtube` needs one of:
 
 1. **Settings → Providers → Webshare** proxy URL (sent as `X-Tunebook-Ytdlp-Proxy`), or  
-2. **YouTube Helper** browser extension, or  
+2. **TuneBook Helper** browser extension, or
 3. Point Media resolver at a **home BYOR** full resolver instead.
 
 ---
@@ -283,11 +287,10 @@ Friends open Settings → Providers → Wizard.
 
 ## 7. Redeploy after code changes
 
+One-shot (build + deploy + health smoke):
+
 ```bash
-cd local-resolver
-gcloud builds submit --tag "$IMAGE" -f Dockerfile.light . --project=abc2book
-gcloud run deploy tunebook-resolver-light \
-  --project=abc2book --image="$IMAGE" --region="$REGION"
+./local-resolver/deploy-cloud-light.sh
 ```
 
 Env/secrets persist on the service unless you change them with another `deploy` / `services update`.

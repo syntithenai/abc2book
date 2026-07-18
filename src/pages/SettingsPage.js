@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { Button, ButtonGroup, Form, Nav, Tab } from 'react-bootstrap'
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { useDocumentTitle } from '../pageTitle'
 import { toast } from 'react-toastify'
 import {
   formatBytes,
@@ -11,7 +12,6 @@ import MediaCacheTunesModal from '../components/MediaCacheTunesModal'
 import BackgroundJobsSettingsSection from '../components/backgroundJobs/BackgroundJobsSettingsSection'
 import {
   DEFAULT_PUBLIC_MEDIA_PROXY,
-  getLocalMediaProxyCandidates,
   getSavedMediaProxyBase,
   normalizeMediaProxyBase,
   notifyMediaProxySettingsChanged,
@@ -23,6 +23,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth'
 import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
+import BackupSettingsSection from '../components/BackupSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -50,6 +51,7 @@ const TAB_APPEARANCE = 'appearance'
 const TAB_MEDIA = 'media'
 const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
+const TAB_BACKUP = 'backup'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -96,6 +98,7 @@ function getResolverMessage(status, checked) {
 }
 
 export default function SettingsPage(props) {
+  useDocumentTitle('Settings')
   const navigate = useNavigate()
   const tunebook = props.tunebook
   const token = props.token
@@ -125,8 +128,11 @@ export default function SettingsPage(props) {
     error: null,
   })
   const [showYoutubeHelperInstallHelp, setShowYoutubeHelperInstallHelp] = useState(false)
+  const mediaProxyUrlSkipDebounceRef = useRef(true)
   const youtubeHelperZipHref =
-    (process.env.PUBLIC_URL || '') + '/downloads/tunebook-youtube-helper.zip'
+    (process.env.PUBLIC_URL || '') + '/downloads/tunebook-helper.zip'
+  const isMediaCacheAdmin =
+    !!(props.user && props.user.email === 'syntithenai@gmail.com')
 
   const refreshYoutubeHelperStatus = useCallback(function() {
     setYoutubeHelperStatus(function(prev) {
@@ -146,6 +152,26 @@ export default function SettingsPage(props) {
   useEffect(function() {
     refreshYoutubeHelperStatus()
   }, [refreshYoutubeHelperStatus])
+
+  useEffect(function() {
+    if (mediaProxyUrlSkipDebounceRef.current) {
+      mediaProxyUrlSkipDebounceRef.current = false
+      return undefined
+    }
+    const timeoutId = setTimeout(function() {
+      const trimmed = mediaProxyUrl.trim()
+      const normalized = normalizeMediaProxyBase(mediaProxyUrl)
+      if (trimmed && !normalized) {
+        setResolverMessage('Enter a valid http:// or https:// URL')
+        return
+      }
+      if (normalized === getSavedMediaProxyBase()) return
+      setSavedMediaProxyBase(normalized)
+      if (mediaProxyUrl !== normalized) setMediaProxyUrl(normalized)
+      notifyMediaProxySettingsChanged()
+    }, 500)
+    return function() { clearTimeout(timeoutId) }
+  }, [mediaProxyUrl])
 
   const refreshCacheStats = useCallback(function() {
     setCacheStatsLoading(true)
@@ -186,17 +212,6 @@ export default function SettingsPage(props) {
     return refreshMediaResolverHealth()
   }
 
-  function saveMediaProxy() {
-    const normalized = normalizeMediaProxyBase(mediaProxyUrl)
-    if (mediaProxyUrl.trim() && !normalized) {
-      setResolverMessage('Enter a valid http:// or https:// URL')
-      return
-    }
-    setSavedMediaProxyBase(normalized)
-    setMediaProxyUrl(normalized)
-    notifyMediaProxySettingsChanged()
-  }
-
   function clearMediaProxy() {
     setSavedMediaProxyBase('')
     setMediaProxyUrl('')
@@ -212,14 +227,13 @@ export default function SettingsPage(props) {
   }
 
   function compressAudioCommentary() {
-    const base = 'Applies to new cache writes and downloads. Clear Audio, MIDI, or stems caches to recompress existing entries.'
     if (!audioCompressCapabilities) {
-      return base + ' Checking which formats this browser supports…'
+      return 'Checking which formats this browser supports…'
     }
     if (!audioCompressCapabilities.aac) {
-      return base + ' Compressed AAC is not available in this browser, so only WAV and MP3 are offered.'
+      return 'Compressed AAC is not available in this browser, so only WAV and MP3 are offered.'
     }
-    return base
+    return ''
   }
 
   useEffect(function() {
@@ -269,11 +283,11 @@ export default function SettingsPage(props) {
       const removed = result && result.removed != null ? result.removed : 0
       const remaining = result && result.remaining != null ? result.remaining : 0
       if (removed > 0) {
-        toast.success('Removed ' + removed + ' audio cache entr' + (removed === 1 ? 'y' : 'ies') + ' (' + remaining + ' remaining).')
+        toast.success('Removed ' + removed + ' cache entr' + (removed === 1 ? 'y' : 'ies') + ' (' + remaining + ' remaining).')
       }
       refreshCacheStats()
     }).catch(function() {
-      toast.error('Could not clean up audio cache.')
+      toast.error('Could not clean up cache.')
     })
   }
 
@@ -315,6 +329,8 @@ export default function SettingsPage(props) {
     }, 0)
     return function() { clearTimeout(timeoutId) }
   }, [props.token])
+
+  const compressCommentary = compressAudioCommentary()
 
   return <>
   <div className="App-settings">
@@ -358,6 +374,9 @@ export default function SettingsPage(props) {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey={TAB_BACKUP}>Backup</Nav.Link>
         </Nav.Item>
       </Nav>
 
@@ -441,54 +460,55 @@ export default function SettingsPage(props) {
                 )
               })}
             </ButtonGroup>
-            <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-              {compressAudioCommentary()}
-            </p>
+            {compressCommentary ? (
+              <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
+                {compressCommentary}
+              </p>
+            ) : null}
           </div>
 
           <div className="app-surface-panel App-settings-section">
             <h2>
-              YouTube Helper extension
+              TuneBook Helper extension
               <FormFieldHelp
                 title={SETTINGS_FIELD_HELP.youtubeHelper.title}
                 body={SETTINGS_FIELD_HELP.youtubeHelper.body}
               />
             </h2>
             <p className="app-text-muted">
-              Optional Chromium extension that loads YouTube audio in your browser so pitch, filters,
-              and caching work without a cloud YouTube proxy. Download the zip, then see How to install.
+              Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.
             </p>
             <div className="App-settings-resolver-status">
               <strong>
                 {youtubeHelperStatus.checking
-                  ? 'Checking YouTube Helper…'
+                  ? 'Checking TuneBook Helper…'
                   : youtubeHelperStatus.ok
-                    ? ('YouTube Helper: connected' +
+                    ? ('TuneBook Helper: connected' +
                       (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
-                    : 'YouTube Helper: not connected'}
+                    : 'TuneBook Helper: not connected'}
               </strong>
               {!youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
                 <span className="app-text-muted"> — {youtubeHelperStatus.error}</span>
               ) : null}
             </div>
             <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
+              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
+                Refresh Helper status
+              </Button>
               <Button
                 as="a"
                 variant="primary"
                 href={youtubeHelperZipHref}
-                download="tunebook-youtube-helper.zip"
+                download="tunebook-helper.zip"
                 style={{ color: '#fff', textDecoration: 'none' }}
               >
-                Download YouTube Helper
+                Download TuneBook Helper
               </Button>
               <Button
                 variant="outline-secondary"
                 onClick={function() { setShowYoutubeHelperInstallHelp(true) }}
               >
                 How to install
-              </Button>
-              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
-                Refresh Helper status
               </Button>
             </div>
             <FieldHelpModal
@@ -500,56 +520,8 @@ export default function SettingsPage(props) {
           </div>
 
           <div className="app-surface-panel App-settings-section">
-            <h2>Media resolver / proxy</h2>
-            <p className="app-text-muted">
-              Optional base URL for pitch/tempo playback, lyrics transcription, and chord discovery.
-              Leave blank to try localhost, then shared public resolvers.
-            </p>
-            <Form.Group className="mb-2">
-              <Form.Label htmlFor="media-proxy-url">
-                Resolver URL
-                <FormFieldHelp title={SETTINGS_FIELD_HELP.resolverUrl.title} body={SETTINGS_FIELD_HELP.resolverUrl.body} />
-              </Form.Label>
-              <Form.Control
-                id="media-proxy-url"
-                type="url"
-                value={mediaProxyUrl}
-                placeholder={DEFAULT_PUBLIC_MEDIA_PROXY}
-                onChange={function(e) { setMediaProxyUrl(e.target.value) }}
-              />
-            </Form.Group>
-            <div className="App-settings-actions">
-              <Button variant="primary" onClick={saveMediaProxy}>Save resolver</Button>
-              <Button variant="outline-secondary" onClick={clearMediaProxy}>Use defaults</Button>
-              <Button variant="outline-secondary" onClick={refreshResolverStatus}>Refresh status</Button>
-            </div>
-            <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-              Order when blank: {getLocalMediaProxyCandidates()[0]}, then {DEFAULT_PUBLIC_MEDIA_PROXY}
-            </p>
-            <div className="App-settings-resolver-status">
-              <strong>{resolverMessage}</strong>
-            </div>
-            {resolverStatus && resolverStatus.candidates.length > 0 && (
-              <ul className="App-settings-resolver-list">
-                {resolverStatus.candidates.map(function(candidate) {
-                  return (
-                    <li key={candidate.base}>
-                      {formatCandidateStatus(candidate, resolverStatus.activeBase)}
-                    </li>
-                  )
-                })}
-              </ul>
-            )}
-            {!accessToken && (
-              <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-                Log in with Google if the shared resolver requires an authorized account.
-              </p>
-            )}
-          </div>
-
-          <div className="app-surface-panel App-settings-section">
             <div className="settings-offline-media-row">
-              <span className="settings-offline-media-heading">Audio Cache</span>
+              <span className="settings-offline-media-heading">Cache</span>
               <FormFieldHelp
                 title={SETTINGS_FIELD_HELP.offlineMedia.title}
                 body={SETTINGS_FIELD_HELP.offlineMedia.body}
@@ -580,7 +552,7 @@ export default function SettingsPage(props) {
                     </li>
                   </ul>
                   <p className="settings-cache-details-text">
-                    {(cacheStats.audio && cacheStats.audio.tuneCount) || 0} of {totalTuneCount} tune{totalTuneCount === 1 ? '' : 's'} have downloaded audio cache
+                    {(cacheStats.audio && cacheStats.audio.tuneCount) || 0} of {totalTuneCount} tune{totalTuneCount === 1 ? '' : 's'} have downloaded cache
                     {(cacheStats.audio && cacheStats.audio.entries)
                       ? ' (' + cacheStats.audio.entries + ' cached link' + (cacheStats.audio.entries === 1 ? '' : 's') + ')'
                       : ''}
@@ -589,13 +561,15 @@ export default function SettingsPage(props) {
                       : ''}
                     .
                   </p>
-                  <Button
-                    variant="outline-secondary"
-                    className="settings-cache-details-toggle"
-                    onClick={function() { setShowMediaCacheTunes(true) }}
-                  >
-                    Show tunes with media cache
-                  </Button>
+                  {isMediaCacheAdmin ? (
+                    <Button
+                      variant="outline-secondary"
+                      className="settings-cache-details-toggle"
+                      onClick={function() { setShowMediaCacheTunes(true) }}
+                    >
+                      Show tunes with media cache
+                    </Button>
+                  ) : null}
                 </>
               ) : (
                 <p className="app-text-muted">Could not measure cache storage.</p>
@@ -605,17 +579,17 @@ export default function SettingsPage(props) {
               <Button
                 variant="info"
                 onClick={handleCleanupHalfAudioCache}
-                title="Clear the oldest cached half of the audio cache"
+                title="Clear the oldest cached half of the cache"
               >
-                Cleanup Audio Cache
+                Cleanup Cache
               </Button>
               <Button
                 variant="warning"
                 onClick={function() {
-                  handleClearCache(tunebook.utils.clearDownloadedAudioCache, 'Downloaded audio cache cleared.')
+                  handleClearCache(tunebook.utils.clearDownloadedAudioCache, 'Downloaded cache cleared.')
                 }}
               >
-                Clear Audio Cache
+                Clear Cache
               </Button>
               <Button
                 variant="warning"
@@ -638,7 +612,16 @@ export default function SettingsPage(props) {
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PROVIDERS}>
-          <ProvidersSettingsSection resolverStatus={resolverStatus} />
+          <ProvidersSettingsSection
+            resolverStatus={resolverStatus}
+            mediaProxyUrl={mediaProxyUrl}
+            setMediaProxyUrl={setMediaProxyUrl}
+            clearMediaProxy={clearMediaProxy}
+            refreshResolverStatus={refreshResolverStatus}
+            resolverMessage={resolverMessage}
+            accessToken={accessToken}
+            formatCandidateStatus={formatCandidateStatus}
+          />
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PEDAL}>
@@ -696,6 +679,18 @@ export default function SettingsPage(props) {
               Reset to defaults
             </Button>
           </div>
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_BACKUP}>
+          <BackupSettingsSection
+            tunebook={tunebook}
+            tunes={tunes}
+            token={token}
+            login={props.login}
+            googleDocumentId={props.googleDocumentId}
+            overrideTuneBook={props.overrideTuneBook}
+            forceRefresh={props.forceRefresh}
+          />
         </Tab.Pane>
       </Tab.Content>
     </Tab.Container>

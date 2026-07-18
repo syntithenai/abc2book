@@ -40,13 +40,17 @@ jest.mock('./TagsSelectorModal', function() {
 
 jest.mock('./AddTuneYouTubePicker', function() {
   const React = require('react')
-  return function AddTuneYouTubePicker() {
-    return React.createElement('div', { 'data-testid': 'add-tune-youtube-block' }, 'YouTube')
+  return function AddTuneYouTubePicker(props) {
+    return React.createElement('div', {
+      'data-testid': 'add-tune-youtube-block',
+      'data-search-query': props.searchQuery || '',
+      'data-search-nonce': String(props.searchNonce || 0),
+    }, 'YouTube')
   }
 })
 
 jest.mock('../useMusicBrainzArtistOptions', function() {
-  return function useMusicBrainzArtistOptions() { return [] }
+  return function useMusicBrainzArtistOptions() { return { options: [], loading: false } }
 })
 
 describe('AddTuneSimpleForm', function() {
@@ -76,5 +80,51 @@ describe('AddTuneSimpleForm', function() {
     expect(container.querySelector('[data-testid="field-search-button"]').disabled).toBe(false)
     expect(container.querySelector('[data-testid="add-tune-youtube-block"]')).toBeTruthy()
     expect(container.querySelector('.add-tune-books-tags')).toBeTruthy()
+    expect(container.querySelector('[data-testid="add-tune-files-block"]')).toBeNull()
+    expect(container.querySelector('[data-testid="add-tune-media-block"]')).toBeNull()
+  })
+
+  test('shows Files and Audio blocks only when they have values', function() {
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: {
+          title: 'Song',
+          tuneFiles: [{ id: 'f1', name: 'sheet.png', type: 'image/png' }],
+          links: [{ link: 'recording:r1', title: 'Take', recordingId: 'r1' }],
+        },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+      }))
+    })
+    expect(container.querySelector('[data-testid="add-tune-files-block"]')).toBeTruthy()
+    expect(container.querySelector('[data-testid="add-tune-media-block"]')).toBeTruthy()
+  })
+
+  test('clicking a selected artist updates the YouTube search to that artist', function() {
+    act(function() {
+      root.render(React.createElement(AddTuneSimpleForm, {
+        values: {
+          title: 'Whiskey in the Jar',
+          artist: 'Traditional',
+          artists: ['The Dubliners', 'Metallica'],
+        },
+        tunes: {},
+        candidateId: 'add-1',
+        onChange: jest.fn(),
+      }))
+    })
+
+    const chip = container.querySelector('[data-testid="chip-list-select-item"]')
+    expect(chip).toBeTruthy()
+    expect(chip.textContent).toBe('The Dubliners')
+
+    act(function() {
+      chip.click()
+    })
+
+    const youtube = container.querySelector('[data-testid="add-tune-youtube-block"]')
+    expect(youtube.getAttribute('data-search-query')).toBe('Whiskey in the Jar The Dubliners')
+    expect(Number(youtube.getAttribute('data-search-nonce'))).toBeGreaterThan(0)
   })
 })

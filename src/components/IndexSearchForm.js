@@ -243,7 +243,13 @@ export default function IndexSearchForm(props) {
     function renderListDisplayModeToggle(showLabels) {
         var mode = props.listDisplayMode || 'compact'
         var icons = props.tunebook.icons
+        var previewLimit = props.PREVIEW_LIST_LIMIT > 0 ? props.PREVIEW_LIST_LIMIT : 150
+        var previewDisabled = Array.isArray(props.filtered) && props.filtered.length > previewLimit
         function setMode(next) {
+            if (next === 'preview' && previewDisabled) {
+                toast.info('Refine your search to ' + previewLimit + ' or fewer results to enable Preview mode')
+                return
+            }
             if (typeof props.setListDisplayMode === 'function') props.setListDisplayMode(next)
             if (next === 'compact') {
                 if (typeof props.setSelected === 'function') props.setSelected({})
@@ -253,7 +259,15 @@ export default function IndexSearchForm(props) {
         var options = [
             { id: 'compact', label: 'Compact', icon: icons.list, title: 'Compact list' },
             { id: 'detailed', label: 'Detailed', icon: icons.menu, title: 'Detailed list' },
-            { id: 'preview', label: 'Preview', icon: icons.music, title: 'Preview list' },
+            {
+                id: 'preview',
+                label: 'Preview',
+                icon: icons.music,
+                title: previewDisabled
+                    ? 'Preview list is unavailable for more than ' + previewLimit + ' results — narrow the search first'
+                    : 'Preview list',
+                disabled: previewDisabled,
+            },
         ]
         return (
             <ButtonGroup className="tune-search-display-mode-group" aria-label="List display mode">
@@ -264,9 +278,11 @@ export default function IndexSearchForm(props) {
                             type="button"
                             size="sm"
                             variant={mode === option.id ? 'primary' : 'outline-secondary'}
+                            className={option.disabled ? 'tune-search-display-mode-disabled' : undefined}
                             title={option.title}
                             aria-label={option.label}
                             aria-pressed={mode === option.id}
+                            aria-disabled={!!option.disabled}
                             onClick={function() { setMode(option.id) }}
                         >
                             {option.icon}

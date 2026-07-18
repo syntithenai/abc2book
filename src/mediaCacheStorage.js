@@ -213,7 +213,7 @@ async function collectStoreStats(store, options) {
 export async function getExternalMediaCacheStats() {
   return collectStoreStats(externalMediaStore, {
     id: 'audio',
-    label: 'Audio cache',
+    label: 'File Cache',
     tuneIdFromKey: tuneIdFromExternalMediaCacheKey,
   })
 }

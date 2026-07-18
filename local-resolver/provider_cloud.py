@@ -11,6 +11,14 @@ import httpx
 from providers import openai_compat_chat_url, openai_compat_transcriptions_url
 
 
+def _transcription_response_format(model: str) -> str:
+    """OpenAI gpt-4o-*-transcribe only accept json/text; Whisper accepts verbose_json."""
+    name = (model or "").strip().lower()
+    if "transcribe" in name and "whisper" not in name:
+        return "json"
+    return "verbose_json"
+
+
 async def transcribe_openai_compat(audio_bytes, filename, content_type, provider_cfg, timeout=600.0):
     """POST multipart to /v1/audio/transcriptions. Returns SPA-shaped whisper JSON."""
     if not provider_cfg or not provider_cfg.get("apiUrl"):
@@ -19,10 +27,11 @@ async def transcribe_openai_compat(audio_bytes, filename, content_type, provider
     headers = {}
     if provider_cfg.get("apiKey"):
         headers["Authorization"] = "Bearer " + provider_cfg["apiKey"]
+    model = provider_cfg.get("model") or ""
     data = {}
-    if provider_cfg.get("model"):
-        data["model"] = provider_cfg["model"]
-    data["response_format"] = "verbose_json"
+    if model:
+        data["model"] = model
+    data["response_format"] = _transcription_response_format(model)
     files = {
         "file": (filename or "audio.wav", audio_bytes, content_type or "application/octet-stream"),
     }
@@ -51,8 +60,15 @@ async def transcribe_openai_compat(audio_bytes, filename, content_type, provider
     }
 
 
-async def chat_openai_compat(messages, provider_cfg, timeout=120.0, temperature=0.2):
-    """OpenAI-compatible chat completions."""
+async def chat_openai_compat(
+    messages,
+    provider_cfg,
+    timeout=120.0,
+    temperature=0.2,
+    max_tokens=None,
+    client=None,
+):
+    """OpenAI-compatible chat completions; returns assistant message text."""
     if not provider_cfg or not provider_cfg.get("apiUrl"):
         raise ValueError("Missing provider apiUrl")
     url = openai_compat_chat_url(provider_cfg["apiUrl"])
@@ -64,12 +80,21 @@ async def chat_openai_compat(messages, provider_cfg, timeout=120.0, temperature=
         "messages": messages,
         "temperature": temperature,
     }
-    async with httpx.AsyncClient(timeout=timeout) as client:
-        resp = await client.post(url, headers=headers, json=body)
+    if max_tokens is not None:
+        body["max_tokens"] = int(max_tokens)
+
+    async def _post(http_client):
+        resp = await http_client.post(url, headers=headers, json=body)
         if resp.status_code >= 400:
             detail = (resp.text or "")[:500]
             raise RuntimeError(f"Cloud LLM failed ({resp.status_code}): {detail}")
-        payload = resp.json()
+        return resp.json()
+
+    if client is not None:
+        payload = await _post(client)
+    else:
+        async with httpx.AsyncClient(timeout=timeout) as http_client:
+            payload = await _post(http_client)
     choices = payload.get("choices") or []
     if not choices:
         return ""

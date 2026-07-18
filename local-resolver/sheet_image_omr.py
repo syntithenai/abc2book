@@ -7,19 +7,27 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 from typing import Any
 
+# Same constraint as paddleocr: import/--help probes must not run on the
+# asyncio thread from /health.
+_homr_cached: bool | None = None
+_homr_probe_lock = threading.Lock()
+_homr_probe_started = False
 
-def homr_available() -> bool:
-    if os.getenv("SHEET_IMAGE_OMR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
-        return False
+
+def _run_homr_probe() -> bool:
+    global _homr_cached
     python_path = os.getenv("VISION_VENV_PYTHON", sys.executable)
     homr_bin = os.getenv("HOMR_BIN", "")
     candidates = [homr_bin] if homr_bin else []
     candidates.extend(["homr", python_path])
     for candidate in candidates:
+        if not candidate:
+            continue
         try:
-            if candidate in {python_path}:
+            if candidate == python_path:
                 proc = subprocess.run(
                     [python_path, "-c", "import homr"],
                     capture_output=True,
@@ -36,10 +44,40 @@ def homr_available() -> bool:
                     check=False,
                 )
             if proc.returncode == 0:
+                _homr_cached = True
                 return True
         except Exception:
             continue
+    _homr_cached = False
     return False
+
+
+def _ensure_homr_probe_started() -> None:
+    global _homr_probe_started
+    if _homr_cached is not None or _homr_probe_started:
+        return
+    with _homr_probe_lock:
+        if _homr_cached is not None or _homr_probe_started:
+            return
+        _homr_probe_started = True
+        threading.Thread(target=_run_homr_probe, name="homr-probe", daemon=True).start()
+
+
+def homr_available() -> bool:
+    """Return OMR availability without blocking; probes in a background thread."""
+    if os.getenv("SHEET_IMAGE_OMR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return False
+    if _homr_cached is not None:
+        return _homr_cached
+    _ensure_homr_probe_started()
+    return False
+
+
+def warmup_homr_probe() -> None:
+    """Kick the background import probe (e.g. on server startup)."""
+    if os.getenv("SHEET_IMAGE_OMR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return
+    _ensure_homr_probe_started()
 
 
 def _homr_command(image_path: str) -> list[str]:

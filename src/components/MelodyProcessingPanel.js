@@ -1,9 +1,14 @@
+import { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import FormFieldHelp from './FormFieldHelp';
 import {
+  ANALYSIS_FILTER_PRESETS,
   MELODY_PROCESSING_DEFAULTS,
   NOISE_MODE_PRESETS,
+  getAnalysisAudioFilters,
+  getAnalysisStemKeysForSettings,
   loadMelodyNoteSettings,
+  resolveMelodyVoicing,
   saveMelodyProcessingSettings,
 } from '../melodyProcessingSettings';
 import './MelodyProcessingPanel.css';
@@ -11,12 +16,25 @@ import './MelodyProcessingPanel.css';
 export const MUSIC_TYPE_OPTIONS = [
   { value: 'vocal', label: 'Song' },
   { value: 'instrumental', label: 'Instrumental' },
+  { value: 'piano', label: 'Piano' },
 ];
 
 export const ANALYSIS_HELP_FIELDS = [
   {
     title: 'Music type',
-    body: 'Chooses how Demucs stems are mixed before analysis. Song sends vocals only to lyrics and melody detection, and reduces vocals and percussion for chord detection. Instrumental favours the other and bass stems for melody and reduces percussion for chords.',
+    body: 'Chooses how Demucs stems are mixed before analysis. Song sends vocals to lyrics and melody, and bass+other to chords. Instrumental favours other+bass. Piano prefers the piano stem (6-stem Demucs) or other for Kong piano transcription.',
+  },
+  {
+    title: 'Create stems first',
+    body: 'When enabled, Analyse Audio creates or reuses Demucs stems before transcription so lyrics, chords, and melody each get a task-specific mix without running separation twice.',
+  },
+  {
+    title: 'Full piano voicing',
+    body: 'When music type is Piano, keep simultaneous notes from the transcription instead of collapsing each chord to the highest pitch (melody line).',
+  },
+  {
+    title: 'Advanced stem mixes',
+    body: 'Per-task Demucs stem weights for lyrics, chords, and melody. Reset restores the preset for the current music type.',
   },
 ];
 
@@ -49,6 +67,12 @@ const NOISE_MODE_OPTIONS = [
   { key: 'permissive', label: 'Permissive' },
 ];
 
+const ANALYSIS_TASKS = [
+  { key: 'lyrics', label: 'Lyrics' },
+  { key: 'chords', label: 'Chords' },
+  { key: 'melody', label: 'Melody' },
+];
+
 function getDefaultSettings(variant) {
   if (variant === 'notation') {
     return loadMelodyNoteSettings();
@@ -58,12 +82,84 @@ function getDefaultSettings(variant) {
   };
 }
 
+function StemMixSliders(props) {
+  const settings = props.settings;
+  const stemKeys = getAnalysisStemKeysForSettings(settings);
+  const onChange = props.onChange;
+
+  function updateTaskStem(task, stem, value) {
+    const current = settings.analysisAudioFilters && typeof settings.analysisAudioFilters === 'object'
+      ? Object.assign({}, settings.analysisAudioFilters)
+      : {};
+    const taskWeights = Object.assign({}, getAnalysisAudioFilters(settings, task), current[task] || {});
+    taskWeights[stem] = value;
+    current[task] = taskWeights;
+    onChange(Object.assign({}, settings, { analysisAudioFilters: current }));
+  }
+
+  function resetToPreset() {
+    const musicType = settings.musicType || 'vocal';
+    const preset = ANALYSIS_FILTER_PRESETS[musicType] || ANALYSIS_FILTER_PRESETS.vocal;
+    onChange(Object.assign({}, settings, {
+      analysisAudioFilters: {
+        melody: Object.assign({}, preset.melody),
+        chords: Object.assign({}, preset.chords),
+        lyrics: Object.assign({}, preset.lyrics),
+      },
+    }));
+  }
+
+  return (
+    <div className="melody-processing-stem-mixes">
+      <div className="melody-processing-stem-mixes-header">
+        <Button size="sm" variant="outline-secondary" onClick={resetToPreset}>
+          Reset to preset
+        </Button>
+      </div>
+      {ANALYSIS_TASKS.map(function(task) {
+        const weights = getAnalysisAudioFilters(settings, task.key);
+        return (
+          <div key={task.key} className="melody-processing-stem-task">
+            <div className="melody-processing-stem-task-label">{task.label}</div>
+            <div className="melody-processing-stem-sliders">
+              {stemKeys.map(function(stem) {
+                const value = typeof weights[stem] === 'number' ? weights[stem] : 0;
+                return (
+                  <div key={stem} className="melody-processing-stem-slider">
+                    <Form.Label>
+                      {stem}
+                      <span className="melody-processing-stem-value">{value.toFixed(2)}</span>
+                    </Form.Label>
+                    <Form.Range
+                      min={0}
+                      max={1}
+                      step={0.05}
+                      value={value}
+                      onChange={function(e) {
+                        updateTaskStem(task.key, stem, parseFloat(e.target.value) || 0);
+                      }}
+                      aria-label={task.label + ' ' + stem + ' weight'}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function MelodyProcessingPanel(props) {
   const variant = props.variant || 'analysis';
   const settings = props.settings || getDefaultSettings(variant);
   const persist = props.persist !== false;
   const helpFields = variant === 'notation' ? NOTATION_HELP_FIELDS : ANALYSIS_HELP_FIELDS;
   const helpTitle = variant === 'notation' ? 'Note detection settings' : 'Analysis settings';
+  const [showAdvancedMixes, setShowAdvancedMixes] = useState(false);
+  const isPiano = (settings.musicType || 'vocal') === 'piano';
+  const fullVoicing = resolveMelodyVoicing(settings) === 'full';
 
   function update(field, value) {
     const next = Object.assign({}, settings, { [field]: value });
@@ -72,6 +168,15 @@ export default function MelodyProcessingPanel(props) {
       next.confidenceThreshold = preset.confidenceThreshold;
       next.minNoteSeconds = preset.minNoteSeconds;
     }
+    if (persist) {
+      saveMelodyProcessingSettings(Object.assign({}, loadMelodyNoteSettings(), next));
+    }
+    if (typeof props.onChange === 'function') {
+      props.onChange(next);
+    }
+  }
+
+  function replaceSettings(next) {
     if (persist) {
       saveMelodyProcessingSettings(Object.assign({}, loadMelodyNoteSettings(), next));
     }
@@ -112,12 +217,49 @@ export default function MelodyProcessingPanel(props) {
               title="Include detected meter changes in chord and melody output"
             />
           </div>
+          <div className="melody-processing-precreate-stems">
+            <Form.Check
+              type="checkbox"
+              id="analysis-precreate-stems"
+              label="Create stems before analyse"
+              checked={settings.precreateStemsBeforeAnalyze !== false}
+              onChange={function(e) { update('precreateStemsBeforeAnalyze', e.target.checked); }}
+              title="Run Demucs once and reuse stems for lyrics, chords, and melody"
+            />
+          </div>
           <FormFieldHelp
             title={helpTitle}
             fields={helpFields}
             className="melody-processing-help-btn"
             buttonTitle="Explain analysis settings"
           />
+        </div>
+      )}
+      {variant === 'analysis' && isPiano && (
+        <div className="melody-processing-piano-voicing">
+          <Form.Check
+            type="checkbox"
+            id="analysis-full-piano-voicing"
+            label="Full piano voicing"
+            checked={fullVoicing}
+            onChange={function(e) { update('melodyVoicing', e.target.checked ? 'full' : 'melody-line'); }}
+            title="Keep simultaneous piano notes instead of collapsing to a melody line"
+          />
+        </div>
+      )}
+      {variant === 'analysis' && (
+        <div className="melody-processing-advanced-mixes">
+          <button
+            type="button"
+            className="melody-processing-advanced-toggle"
+            onClick={function() { setShowAdvancedMixes(!showAdvancedMixes); }}
+            aria-expanded={showAdvancedMixes}
+          >
+            {showAdvancedMixes ? 'Hide' : 'Show'} advanced stem mixes
+          </button>
+          {showAdvancedMixes && (
+            <StemMixSliders settings={settings} onChange={replaceSettings} />
+          )}
         </div>
       )}
       {variant === 'notation' && (
@@ -196,12 +338,17 @@ export default function MelodyProcessingPanel(props) {
       )}
       {variant === 'analysis' && (settings.musicType || 'vocal') === 'vocal' && (
         <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.5em' }}>
-          Song preset: melody and lyrics use the vocal stem only; chords reduce vocals and percussion.
+          Song preset: melody and lyrics use the vocal stem; chords use bass+other (no vocals/drums).
         </div>
       )}
       {variant === 'analysis' && settings.musicType === 'instrumental' && (
         <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.5em' }}>
-          Instrumental preset: melody favours the other stem; chords reduce percussion.
+          Instrumental preset: melody favours the other stem; chords use bass+other.
+        </div>
+      )}
+      {variant === 'analysis' && settings.musicType === 'piano' && (
+        <div style={{ fontSize: '0.85em', color: '#666', marginTop: '0.5em' }}>
+          Piano preset: uses 6-stem Demucs (htdemucs_6s) and Kong when available; full voicing keeps chords.
         </div>
       )}
       {variant === 'notation' && (

@@ -391,7 +391,7 @@ export default function FileControls(props) {
   const filesHeader = (
     <div className="file-controls-header d-flex align-items-center gap-2 px-2 py-1">
       <div className="fw-semibold small mb-0 d-flex align-items-center gap-1">
-        <span>Files</span>
+        <span>Snapshots</span>
         {busy ? <Spinner animation="border" size="sm" /> : null}
       </div>
       <div className="ms-auto">{captureAddGroup}</div>
@@ -510,12 +510,12 @@ export default function FileControls(props) {
             size="sm"
             variant={hasActive ? 'primary' : 'outline-secondary'}
             id="tune-files-dropdown"
-            aria-label="Files"
-            title="Files"
+            aria-label="Snapshots"
+            title="Snapshots"
             disabled={busy}
           >
             <span className="display-mode-group-icon">{tunebook.icons.tunefile}</span>
-            <span className="display-mode-group-label">Files</span>
+            <span className="display-mode-group-label">Snapshots</span>
             {busy ? <Spinner animation="border" size="sm" className="ms-1" /> : null}
           </Dropdown.Toggle>
           <Dropdown.Menu className="file-controls-menu-panel" style={{ minWidth: '18rem' }}>

@@ -704,24 +704,30 @@ def _help_answer_prompt(transcript):
 
 
 async def parse_help_intent_llm(transcript):
+    from llm_runtime import (
+        enrich_chat_completion_payload,
+        get_active_llm_config,
+        llm_auth_headers,
+        llm_chat_url,
+        llm_model,
+    )
+
     system_prompt, user_prompt = _help_answer_prompt(transcript)
     help_max_tokens = max(LLM_MAX_TOKENS, 450)
+    cfg = get_active_llm_config(voice=True)
     async with httpx.AsyncClient(timeout=LLM_TIMEOUT_SECONDS) as client:
         resp = await client.post(
-            f"{LLM_BASE_URL}/chat/completions",
-            headers={
-                "Authorization": f"Bearer {LLM_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
+            llm_chat_url(cfg),
+            headers=llm_auth_headers(cfg),
+            json=enrich_chat_completion_payload({
+                "model": llm_model(cfg),
                 "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
                 "temperature": 0.2,
                 "max_tokens": help_max_tokens,
-            },
+            }, cfg),
         )
         resp.raise_for_status()
         payload = resp.json()
@@ -797,22 +803,28 @@ async def parse_voice_intent_llm(transcript, books, tags, narrow=False, narrow_t
         )
         force_tool = None
 
+    from llm_runtime import (
+        enrich_chat_completion_payload,
+        get_active_llm_config,
+        llm_auth_headers,
+        llm_chat_url,
+        llm_model,
+    )
+
+    cfg = get_active_llm_config(voice=True)
     async with httpx.AsyncClient(timeout=LLM_TIMEOUT_SECONDS) as client:
         resp = await client.post(
-            f"{LLM_BASE_URL}/chat/completions",
-            headers={
-                "Authorization": f"Bearer {LLM_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
+            llm_chat_url(cfg),
+            headers=llm_auth_headers(cfg),
+            json=enrich_chat_completion_payload({
+                "model": llm_model(cfg),
                 "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
                 "temperature": 0.2,
                 "max_tokens": LLM_MAX_TOKENS,
-            },
+            }, cfg),
         )
         resp.raise_for_status()
         payload = resp.json()

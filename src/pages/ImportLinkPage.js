@@ -1,8 +1,10 @@
-import {Link , useNavigate , useParams} from 'react-router-dom'
-import {useState, useEffect} from 'react'
-import {Button, Modal} from 'react-bootstrap'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useState, useEffect, useMemo } from 'react'
+import { Button } from 'react-bootstrap'
 import axios from 'axios'
 import { curatedScrapeUrl } from '../resourceBase'
+import { findCuratedImportTitle } from '../curatedImportMatch'
+import { useDocumentTitle } from '../pageTitle'
 
 const IMPORT_SOURCE_TIMEOUT_MS = 30000
 const RESOLVER_HINT = 'Start the local resolver with `npm run start:resolver` (or `cd local-resolver && docker compose up`).'
@@ -19,158 +21,127 @@ function looksLikeAbc(text) {
   return /^(%abc|X:|T:)/im.test(trimmed)
 }
 
-export default function ImportLinkPage({tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter, navigateAfterImport, setNavigateAfterImport, setImportResults }) {
-    
-    //useEffect(function() {
-        //localStorage.setItem('importPlay',(autoplay ? 'true' : 'false'))
-    //},[])
-    
-    var navigate = useNavigate()
-    var params = useParams()
-    //console.log("IMPLINK",params, {tunebook, token, refresh, mediaPlaylist, setMediaPlaylist, autoplay, setCurrentTuneBook, setTunes, forceRefresh, setTagFilter, setNavigateAfterImport})
-    
-    const [error,setError] = useState('')
-    const [finished, setFinished] = useState(false)
-    const [clickToStart, setClickToStart] = useState(false)
-    //if (curated.hasOwnProperty(params.curation)) {
-        //console.log("D",params.curation) //curated[params.curation])
-    //} 
-    const [agree, setAgree] = useState(false)
-    const [show, setShow] = useState(false)
-    
-    function handleCloseAgree() {
-        //console.log('close',params)
-        if (params.tuneId) {
-            navigate("/tunes/"+params.tuneId)
-        } else {
-            navigate("/tunes")
+export default function ImportLinkPage({
+  tunebook,
+  autoplay,
+  setCurrentTuneBook,
+  setTagFilter,
+  setNavigateAfterImport,
+  setImportResults,
+  importResults,
+}) {
+  var navigate = useNavigate()
+  var params = useParams()
+
+  const [error, setError] = useState('')
+  const [finished, setFinished] = useState(false)
+  const [clickToStart, setClickToStart] = useState(false)
+
+  const curatedTitle = useMemo(function() {
+    return findCuratedImportTitle(
+      tunebook && tunebook.curatedTuneBooks,
+      params.link,
+      params.bookName,
+      params.tagName
+    )
+  }, [tunebook, params.link, params.bookName, params.tagName])
+
+  const pageHeading = curatedTitle
+    ? ('Importing curated book: ' + curatedTitle)
+    : 'Importing shared tune book'
+
+  useDocumentTitle(finished ? 'Review import' : (curatedTitle ? ('Import: ' + curatedTitle) : 'Import tune book'))
+
+  useEffect(function() {
+    if (!params.link) {
+      navigate('/tunes')
+      return
+    }
+    const sourceUrl = resolveImportSourceUrl(params.link)
+    axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
+      if (res.data && looksLikeAbc(res.data)) {
+        var results = tunebook.importAbc(res.data, null, params.tuneId, params.bookName, params.tagName)
+        setCurrentTuneBook('')
+        if (params.bookName) {
+          setCurrentTuneBook(params.bookName)
         }
-    }
-    
-    function onClose() {
-        //console.log('onClose')
-        //props.setCurrentTuneBook(params.googleDocumentId)
-        navigate("/tunes")
-    }
-    
-    
-    useEffect(function() {
-      //console.log('impo go usef',params.googleDocumentId,token)
-      if (!params.link) {
-          navigate("/tunes")
+        setTagFilter([])
+        if (params.tagName) {
+          setTagFilter([params.tagName])
+        }
+        if (!tunebook.showImportWarning(results)) {
+          tunebook.applyMergeData(results).then(function(mergedTunes) {
+            if (autoplay && mergedTunes) {
+              if (params.tuneId) {
+                navigate('/tunes' + (params.tuneId ? '/' + params.tuneId + (autoplay ? '/playMedia' : '') : ''))
+              } else {
+                var firstTuneId = tunebook.fillMediaPlaylist(
+                  params.bookName,
+                  (Array.isArray(results) ? results.map(function(result) {
+                    return result.id
+                  }).join(',') : ''),
+                  (params.tagName && params.tagName.trim() ? [params.tagName] : []),
+                  mergedTunes
+                )
+                navigate('/tunes' + (firstTuneId ? '/' + firstTuneId + (autoplay ? '/playMedia' : '') : ''))
+              }
+            } else {
+              if (params.tuneId) {
+                navigate('/tunes/' + params.tuneId + (autoplay ? '/playMedia' : ''))
+              } else if (params.bookName || params.tagName) {
+                navigate('/tunes')
+              } else {
+                navigate('/books')
+              }
+            }
+          })
+        } else {
+          setNavigateAfterImport(Object.assign({}, params, {
+            autoplay: autoplay,
+            curatedTitle: curatedTitle || null,
+            importKind: curatedTitle ? 'curated' : 'shared',
+          }))
+          if (setImportResults) setImportResults(results)
+          setFinished(true)
+        }
       } else {
-          const sourceUrl = resolveImportSourceUrl(params.link)
-          axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
-                  if (res.data && looksLikeAbc(res.data)) {
-                      //console.log("gotres",res.data.length)
-                      
-                      var results = tunebook.importAbc(res.data,null,params.tuneId,params.bookName, params.tagName)
-                      setCurrentTuneBook('')
-                      if (params.bookName) {
-                      //setTimeout(function() {
-                          setCurrentTuneBook(params.bookName)
-                      }
-                      setTagFilter([])
-                      if (params.tagName) {
-                          setTagFilter([params.tagName])
-                      }
-                      //console.log("gotreeees",results) 
-                      if (!tunebook.showImportWarning(results)) {
-                          //console.log("no show warning", autoplay , setMediaPlaylist)
-                          tunebook.applyMergeData(results).then(function(mergedTunes) {
-                              
-                              if (autoplay && mergedTunes) {
-                                    if (params.tuneId) {
-                                        navigate("/tunes"+(params.tuneId ? "/" + params.tuneId + (autoplay ? "/playMedia" : '') : ''))
-                                    } else {
-                                        var firstTuneId = tunebook.fillMediaPlaylist(
-                                            params.bookName,
-                                            (Array.isArray(results) ? results.map(function(result) {
-                                                return result.id
-                                            }).join(","): ''), (params.tagName && params.tagName.trim() ? [params.tagName] : []),mergedTunes) 
-                                        navigate("/tunes"+(firstTuneId ? "/" + firstTuneId + (autoplay ? "/playMedia" : '') : ''))
-                                    }
-                                    
-                              } else { 
-                                  if (params.tuneId) {
-                                      navigate("/tunes/"+params.tuneId + (autoplay ? "/playMedia" : ''))
-                                  } else if (params.bookName || params.tagName) {
-                                      navigate("/tunes")
-                                  } else {
-                                      navigate("/books")
-                                  }
-                                  //console.log("GO TO ",params.bookName  )
-                                  
-                              }
-                          })
-                      } else {
-                          setNavigateAfterImport(Object.assign({},params,{autoplay:autoplay}))
-                          if (setImportResults) setImportResults(results)
-                          setFinished(true)
-                      }
-                      
-                  } else {
-                      setError("Unable to load import source. " + RESOLVER_HINT)
-                  }
-              }).catch(function(e) {
-                  console.log(e)
-                  if (e && e.code === 'ECONNABORTED') {
-                    setError('Timed out loading import source. ' + RESOLVER_HINT)
-                  } else if (e && (e.code === 'ECONNREFUSED' || e.message === 'Network Error')) {
-                    setError('Cannot reach the local resolver. ' + RESOLVER_HINT)
-                  } else {
-                    setError("Error loading import source")
-                  }
-              })
-              //docs.getDocument(params.googleDocumentId).then(function(fullSheet) {
-                  //console.log('ldd',fullSheet)
-                  //if (fullSheet) {
-                      //tunebook.importAbc(fullSheet)
-                      //navigate("/tunes")
-                  //} else {
-                      //setError("Unable to load import source")
-                  //}
-              //})
-            //}
+        setError('Unable to load import source. ' + RESOLVER_HINT)
       }
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- one-time import when link route mounts
-    }, [])
-    if (clickToStart) {
-        return <div style={{width:'80%', margin:'5em', padding:'5em', backgroundColor:'lightgreen'}} >
-            <Button size='lg' variant="success" onClick={function() {
-                setClickToStart(false); 
-                //console.log("MP",mediaPlaylist)
-                if (mediaPlaylist && mediaPlaylist.tunes) {
-                    navigate("/tunes")
-                } else {
-                   navigate("/tunes")
-                }
-            }} >Start the Playlist</Button>
-            </div>
-    } else {
-        return <>{(params.link && params.link.trim()) ? <div className="App-import">
-         <h1>Import a Shared Tune Book </h1>
-         {(!error && !finished) && <>Loading..</>}
-         {(error) && <>{error}</>}
-        </div> : null}</>
-    }
+    }).catch(function(e) {
+      console.log(e)
+      if (e && e.code === 'ECONNABORTED') {
+        setError('Timed out loading import source. ' + RESOLVER_HINT)
+      } else if (e && (e.code === 'ECONNREFUSED' || e.message === 'Network Error')) {
+        setError('Cannot reach the local resolver. ' + RESOLVER_HINT)
+      } else {
+        setError('Error loading import source')
+      }
+    })
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- one-time import when link route mounts
+  }, [])
+
+  // Review UI is owned by ImportWarningDialog; avoid a stray page heading under it.
+  // importAbc also sets app-scoped importResults before local finished flips.
+  if (finished || importResults) return null
+
+  if (clickToStart) {
+    return (
+      <div style={{ width: '80%', margin: '5em', padding: '5em', backgroundColor: 'lightgreen' }}>
+        <Button size="lg" variant="success" onClick={function() {
+          setClickToStart(false)
+          navigate('/tunes')
+        }}>Start the Playlist</Button>
+      </div>
+    )
+  }
+
+  if (!(params.link && params.link.trim())) return null
+
+  return (
+    <div className="App-import">
+      <h1>{pageHeading}</h1>
+      {(!error) && <>Loading…</>}
+      {(error) && <>{error}</>}
+    </div>
+  )
 }
-//{agree 
-         //? <ImportCollectionModal autoStart={params.curation && params.curation.trim() ? params.curation : false} forceRefresh={props.forceRefresh}  tunebook={props.tunebook}   currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook} closeParent={handleCloseAgree} /> 
-         //: <Modal show={!agree} onHide={handleCloseAgree}>
-        //<Modal.Header closeButton>
-          //<Modal.Title>Import a Book</Modal.Title>
-          
-        //</Modal.Header>
-       
-        //<Modal.Body> 
-        //Do you want to import the book <i>{params.curation}</i>? 
-        //<div style={{fontWeight: 'bold'}} >This will override any changes you have made to prior imports.</div>
-        //</Modal.Body>
-        //<Modal.Footer>
-        //<Button onClick={function(e) {setAgree(true)}} variant="success" >OK</Button>
-        //<Button onClick={function(e) {navigate('/tunes')}} variant="danger" >Cancel</Button>
-        
-        //</Modal.Footer>
-      //</Modal>
-     //}

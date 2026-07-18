@@ -5,7 +5,7 @@ from recording_artists import (
     discover_work_writers_with_prominence,
     is_generic_artist,
 )
-from tune_background_research import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, LLM_TIMEOUT_SECONDS, search_web
+from tune_background_research import LLM_TIMEOUT_SECONDS, search_web
 
 TITLE_SPLIT_RE = re.compile(r"\s*[-–—|]\s+")
 # Name capture uses (?-i:[A-Z]) so re.IGNORECASE does not let "composer who…"
@@ -213,7 +213,16 @@ def pick_prominent_writer(writers_with_prominence):
 
 async def _rank_writers_llm(client, title, writer_names):
     """Ask the LLM which listed writer is the best-known composer for title."""
-    if not LLM_BASE_URL:
+    from llm_runtime import (
+        enrich_chat_completion_payload,
+        get_active_llm_config,
+        llm_auth_headers,
+        llm_chat_url,
+        llm_model,
+    )
+
+    cfg = get_active_llm_config()
+    if not cfg.get("apiUrl"):
         return ""
     names = [_normalize_space(name) for name in writer_names if _normalize_space(name)]
     if len(names) < 2:
@@ -227,13 +236,10 @@ async def _rank_writers_llm(client, title, writer_names):
     )
     try:
         response = await client.post(
-            f"{LLM_BASE_URL.rstrip('/')}/chat/completions",
-            headers={
-                "Authorization": f"Bearer {LLM_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
+            llm_chat_url(cfg),
+            headers=llm_auth_headers(cfg),
+            json=enrich_chat_completion_payload({
+                "model": llm_model(cfg),
                 "messages": [
                     {
                         "role": "system",
@@ -246,7 +252,7 @@ async def _rank_writers_llm(client, title, writer_names):
                 ],
                 "temperature": 0.1,
                 "max_tokens": 64,
-            },
+            }, cfg),
             timeout=LLM_TIMEOUT_SECONDS,
         )
         response.raise_for_status()
@@ -283,7 +289,16 @@ async def _rank_writers_best_effort(client, title, writers_with_prominence):
 
 
 async def _discover_writer_llm(client, title, artist_hint=""):
-    if not LLM_BASE_URL:
+    from llm_runtime import (
+        enrich_chat_completion_payload,
+        get_active_llm_config,
+        llm_auth_headers,
+        llm_chat_url,
+        llm_model,
+    )
+
+    cfg = get_active_llm_config()
+    if not cfg.get("apiUrl"):
         return ""
     hint_line = f"Known artist/performer hint: {artist_hint}\n" if artist_hint else ""
     prompt = (
@@ -295,13 +310,10 @@ async def _discover_writer_llm(client, title, artist_hint=""):
     )
     try:
         response = await client.post(
-            f"{LLM_BASE_URL.rstrip('/')}/chat/completions",
-            headers={
-                "Authorization": f"Bearer {LLM_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
+            llm_chat_url(cfg),
+            headers=llm_auth_headers(cfg),
+            json=enrich_chat_completion_payload({
+                "model": llm_model(cfg),
                 "messages": [
                     {
                         "role": "system",
@@ -315,7 +327,7 @@ async def _discover_writer_llm(client, title, artist_hint=""):
                 ],
                 "temperature": 0.2,
                 "max_tokens": 64,
-            },
+            }, cfg),
             timeout=LLM_TIMEOUT_SECONDS,
         )
         response.raise_for_status()

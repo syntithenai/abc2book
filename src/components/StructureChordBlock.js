@@ -85,13 +85,16 @@ export default function StructureChordBlock(props) {
 
   const useOwnFit = !inheritScale;
 
-  const { containerRef, contentRef, fontScale } = useFitTextScale({
+  const { containerRef, contentRef, fontScale, overflows } = useFitTextScale({
     fitHeight: useOwnFit && !!fitHeight,
     measureLongestLine: useOwnFit,
     minScale: 0.35,
     maxScale: fitHeight ? 4.5 : 3.2,
     padX: 16,
     padY: 16,
+    // Heading-only stanzas (repeated verses/choruses with no chart of their
+    // own) still render, but must not shrink the chord text to fit.
+    fitHeightExcludeSelector: '.structure-section--no-chart',
     deps: [sectionsKey, !!fitHeight, !!inheritScale],
   });
 
@@ -131,6 +134,7 @@ export default function StructureChordBlock(props) {
       className={
         'chord-block-view structure-chord-block'
         + (fitHeight ? ' structure-chord-block--fit-height' : '')
+        + (fitHeight && useOwnFit && overflows ? ' structure-chord-block--scroll' : '')
         + (className ? ' ' + className : '')
       }
       ref={useOwnFit ? containerRef : null}
@@ -152,8 +156,16 @@ export default function StructureChordBlock(props) {
         style={useOwnFit ? { fontSize: fontScale + 'em', flex: '0 0 auto' } : { flex: '0 0 auto' }}
       >
         {structureSections.map(function(section, si) {
+          const noChart = !section.chart && !section.extraChart;
           return (
-            <div key={si} className={'structure-section' + (section.headingOnly ? ' structure-section--heading-only' : '')}>
+            <div
+              key={si}
+              className={
+                'structure-section'
+                + (section.headingOnly ? ' structure-section--heading-only' : '')
+                + (noChart ? ' structure-section--no-chart' : '')
+              }
+            >
               {si > 0 ? <div className="structure-section-gap" aria-hidden="true" /> : null}
               {section.label ? (
                 <div className="chord-section-header lyrics-section-header">

@@ -23,6 +23,8 @@ import { findCollectionMatches } from '../tuneCollectionMatch';
 import {
   applyCoalescedFieldChoicesToSuggestions,
   applyImportSuggestion,
+  acceptAllImportSuggestions,
+  keepAllLocalImportSuggestions,
   buildReviewFormState,
   formValuesToTune,
   importSuggestionDiffersFromForm,
@@ -33,8 +35,11 @@ import {
   fieldLookupJobIdsForCandidate,
   fieldLookupKindsForCandidate,
 } from '../importReviewCandidateUtils';
+import { addDraftHasLocalAttachments } from '../addFormAttach';
 import TuneRecordForm from './TuneRecordForm';
 import AddTuneSimpleForm from './AddTuneSimpleForm';
+import AddCuratedCollectionsPanel from './AddCuratedCollectionsPanel';
+import AddBulkImportPanel from './AddBulkImportPanel';
 import YouTubeSearchModal from './YouTubeSearchModal';
 import PasteImportModal from './PasteImportModal';
 import ImportUrlModal from './ImportUrlModal';
@@ -405,7 +410,12 @@ export default function ImportReviewModal(props) {
       return { formValues: nextForm, suggestions: nextSuggestions };
     }
     if (effectiveMergeId && tunes[effectiveMergeId]) {
-      const built = buildReviewFormState(tunes[effectiveMergeId], imported, 'merge');
+      const candidateMergeMode = activeCandidate && activeCandidate.mergeMode === 'suggestOnly'
+        ? 'suggestOnly'
+        : 'direct';
+      const built = buildReviewFormState(tunes[effectiveMergeId], imported, 'merge', {
+        mergeMode: candidateMergeMode,
+      });
       const withChoices = applyCoalescedFieldChoicesToSuggestions(
         built.suggestions,
         activeCandidate && activeCandidate.fieldChoices,
@@ -504,6 +514,9 @@ export default function ImportReviewModal(props) {
     props.onSessionChange(nextSession);
   }, [activeCandidate, mergeTargetId, formValues, session, props.onSessionChange, tunes]);
 
+  const syncFormToSessionRef = useRef(syncFormToSession);
+  syncFormToSessionRef.current = syncFormToSession;
+
   useEffect(function() {
     if (!show || !activeCandidate) return undefined;
     if (typeof props.onSessionChange !== 'function') return undefined;
@@ -517,6 +530,8 @@ export default function ImportReviewModal(props) {
     };
   }, [formValues, mergeTargetId, show, activeCandidate && activeCandidate.id, syncFormToSession, props.onSessionChange]);
 
+  // Persist dirty form only when the modal closes / unmounts — not whenever
+  // syncFormToSession's identity changes (that raced with YouTube pick and wiped links).
   useEffect(function() {
     if (!show) return undefined;
     return function() {
@@ -524,9 +539,11 @@ export default function ImportReviewModal(props) {
         clearTimeout(formSyncTimerRef.current);
         formSyncTimerRef.current = null;
       }
-      syncFormToSession();
+      if (typeof syncFormToSessionRef.current === 'function') {
+        syncFormToSessionRef.current();
+      }
     };
-  }, [show, syncFormToSession]);
+  }, [show]);
 
   const editedTunePreview = useMemo(function() {
     return buildEditedTune(enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {});
@@ -643,9 +660,12 @@ export default function ImportReviewModal(props) {
       if (!books.length && props.currentTuneBook) {
         candidateTune.books = [String(props.currentTuneBook).trim().toLowerCase()];
       }
-      // Add always creates a new tune (matches open existing via Open).
+      // Add always creates a new tune (matches open existing via Open),
+      // unless local files/media were already attached under a provisional id.
       candidateTune = Object.assign({}, candidateTune);
-      delete candidateTune.id;
+      if (!addDraftHasLocalAttachments(candidateTune)) {
+        delete candidateTune.id;
+      }
     }
 
     const updated = updateCurrentCandidate(base, {
@@ -809,24 +829,73 @@ export default function ImportReviewModal(props) {
   const externalLinkIcon = (props.tunebook && props.tunebook.icons && props.tunebook.icons.externallink)
     || <span aria-hidden="true">↗</span>;
 
+  const addTunesMode = isAddTunesChrome(session);
+  const addPanelMode = addTunesMode && (session.addPanelMode === 'curated' || session.addPanelMode === 'bulk')
+    ? session.addPanelMode
+    : 'form';
+
+  function setAddPanelMode(mode) {
+    if (!addTunesMode || !session || typeof props.onSessionChange !== 'function') return;
+    const next = mode === 'curated' || mode === 'bulk' ? mode : 'form';
+    props.onSessionChange(Object.assign({}, session, { addPanelMode: next }));
+  }
+
+  function selectFormPanelMode() {
+    if (!addTunesMode || addPanelMode === 'form') return;
+    if (typeof props.onSessionChange === 'function' && session) {
+      props.onSessionChange(Object.assign({}, session, { addPanelMode: 'form' }));
+    }
+  }
+
   const addFromToolbar = (
     <div className="add-from-strip">
       <div className="add-from-strip-row">
         <Button variant="outline-secondary" disabled tabIndex={-1} size="sm" style={{ opacity: 1, color: 'inherit' }}>
           Add From
         </Button>
+        {addTunesMode ? (
+          <ButtonGroup size="sm" data-testid="add-panel-mode-group">
+            <Button
+              variant={addPanelMode === 'form' ? 'primary' : 'outline-primary'}
+              data-testid="add-from-form"
+              onClick={function() { setAddPanelMode('form'); }}
+            >
+              Add Form
+            </Button>
+            <Button
+              variant={addPanelMode === 'curated' ? 'primary' : 'outline-primary'}
+              data-testid="add-from-curated"
+              onClick={function() { setAddPanelMode('curated'); }}
+            >
+              Curated Collections
+            </Button>
+            <Button
+              variant={addPanelMode === 'bulk' ? 'primary' : 'outline-primary'}
+              data-testid="add-from-bulk"
+              onClick={function() { setAddPanelMode('bulk'); }}
+            >
+              Bulk Import
+            </Button>
+          </ButtonGroup>
+        ) : null}
+        {addTunesMode ? <span className="add-from-strip-spacer" aria-hidden="true" /> : null}
         <ButtonGroup size="sm">
           <Button
             variant="outline-primary"
-            onClick={function() { if (fileInputRef.current) fileInputRef.current.click(); }}
+            onClick={function() {
+              selectFormPanelMode();
+              if (fileInputRef.current) fileInputRef.current.click();
+            }}
           >
             File
           </Button>
           <PasteImportModal
             onImportText={function(text) {
+              selectFormPanelMode();
               if (typeof props.onImportText === 'function') props.onImportText(text, buildDraftCandidate());
             }}
             onImportFiles={function(files) {
+              selectFormPanelMode();
               if (typeof props.onImportFiles === 'function') props.onImportFiles(files, buildDraftCandidate());
             }}
           />
@@ -838,6 +907,7 @@ export default function ImportReviewModal(props) {
             accessToken={props.token && props.token.access_token}
             resolverAvailable={resolverAvailable}
             onImportSource={function(source) {
+              selectFormPanelMode();
               if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
             }}
           />
@@ -849,12 +919,21 @@ export default function ImportReviewModal(props) {
               <Button variant="outline-danger" disabled aria-label="Recording duration">{recordingDuration + 1}s</Button>
             </>
           ) : (
-            <Button variant="outline-primary" onClick={startReviewRecording}>Record</Button>
+            <Button
+              variant="outline-primary"
+              onClick={function() {
+                selectFormPanelMode();
+                startReviewRecording();
+              }}
+            >
+              Record
+            </Button>
           )}
           <Button
             variant="outline-primary"
             onClick={function() {
               if (!resolverAvailable) return;
+              selectFormPanelMode();
               setShowSheetCamera(true);
             }}
             disabled={!resolverChecked || !resolverAvailable}
@@ -868,7 +947,10 @@ export default function ImportReviewModal(props) {
             variant="outline-primary"
             onClick={function() {
               requireGoogleLogin(function() {
-                if (resolverChecked && resolverAvailable) setShowSheetGooglePhotos(true);
+                if (resolverChecked && resolverAvailable) {
+                  selectFormPanelMode();
+                  setShowSheetGooglePhotos(true);
+                }
               });
             }}
             title="Import from Google Photos"
@@ -883,6 +965,7 @@ export default function ImportReviewModal(props) {
             login={props.login}
             requestGoogleScopes={props.requestGoogleScopes}
             onImportSource={function(source) {
+              selectFormPanelMode();
               if (typeof props.onImportSource === 'function') props.onImportSource(source, buildDraftCandidate());
             }}
           />
@@ -890,10 +973,8 @@ export default function ImportReviewModal(props) {
             tunebook={props.tunebook}
             value={youtubeSearchQuery}
             onChange={function(link) {
+              selectFormPanelMode();
               applyYouTubeLinkToForm(link);
-              if (typeof props.onImportYouTube === 'function') {
-                props.onImportYouTube(link, buildDraftCandidate());
-              }
             }}
             setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             triggerElement={<>YouTube</>}
@@ -1080,13 +1161,45 @@ export default function ImportReviewModal(props) {
       ) : null}
       {pendingSuggestionKeys.length > 0 ? (
         <div className="mt-2">
-          <div className="text-muted small mb-2">
-            Changed fields:{' '}
-            {pendingSuggestionKeys.map(function(key) {
-              return MERGE_FIELD_LABELS[key] || key;
-            }).join(', ')}
-            {' — use the Use import control beside each field.'}
+          <div className="d-flex flex-wrap gap-2 align-items-center mb-2">
+            <Button
+              size="sm"
+              variant="outline-success"
+              data-testid="accept-all-import-fields"
+              onClick={function() {
+                const next = acceptAllImportSuggestions(formValues, suggestions);
+                formDirtyRef.current = true;
+                setFormValues(next.formValues);
+                setSuggestions(next.suggestions);
+              }}
+            >
+              Accept all imported fields
+            </Button>
+            <Button
+              size="sm"
+              variant="outline-secondary"
+              data-testid="keep-all-local-fields"
+              onClick={function() {
+                const next = keepAllLocalImportSuggestions(formValues, suggestions);
+                formDirtyRef.current = true;
+                setFormValues(next.formValues);
+                setSuggestions(next.suggestions);
+              }}
+            >
+              Keep all local
+            </Button>
           </div>
+          <details className="text-muted small mb-2">
+            <summary>
+              {pendingSuggestionKeys.length} changed field{pendingSuggestionKeys.length === 1 ? '' : 's'}
+              {' — use Accept all or Use import beside each field'}
+            </summary>
+            <div className="mt-1">
+              {pendingSuggestionKeys.map(function(key) {
+                return MERGE_FIELD_LABELS[key] || key;
+              }).join(', ')}
+            </div>
+          </details>
           {fieldLookupKinds.length ? (
             <div className="d-flex flex-wrap gap-2 align-items-center">
               {renderFieldLookupReviewButtons()}
@@ -1105,11 +1218,23 @@ export default function ImportReviewModal(props) {
   );
 
   function renderMergeChoicesPanel() {
-    const isContentDuplicate = !!(activeCandidate && activeCandidate.contentHashDuplicate);
+    const isContentDuplicate = !!(activeCandidate && activeCandidate.contentHashDuplicate)
+      || (activeCandidate && activeCandidate.warningReason === 'contentHashDuplicate');
+    const isLocalNewer = activeCandidate && activeCandidate.warningReason === 'localNewer';
     const createSelected = !mergeTargetId;
     return (
       <div role="region" aria-label="Merge choices" tabIndex={-1} className="collection-match-panel">
         <h6>Collection match</h6>
+        {isLocalNewer ? (
+          <Alert variant="warning" className="py-2">
+            Your local copy is newer than this import. Imported values appear as suggestions only.
+          </Alert>
+        ) : null}
+        {isContentDuplicate ? (
+          <Alert variant="info" className="py-2">
+            This import matches existing content (same hash). Review carefully before creating a duplicate.
+          </Alert>
+        ) : null}
         <p className="text-muted small">Choose an existing tune to merge into, or create a new tune.</p>
         <ListGroup className="mb-3 collection-match-list" variant="flush">
           <ListGroup.Item
@@ -1171,33 +1296,7 @@ export default function ImportReviewModal(props) {
     );
   }
 
-  const addTunesMode = isAddTunesChrome(session);
-
-  const panelBody = addTunesMode ? (
-    <AddTuneSimpleForm
-      values={formValues}
-      onChange={function(patch) {
-        patchFormValues(function(current) {
-          const nextPatch = typeof patch === 'function' ? patch(current) : patch;
-          return Object.assign({}, current, nextPatch);
-        });
-      }}
-      tunes={tunes}
-      tunebook={props.tunebook}
-      token={props.token}
-      forceRefresh={props.forceRefresh}
-      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
-      onOpenMatch={handleOpenCollectionMatch}
-      candidateId={activeCandidate && activeCandidate.id}
-      resolverAvailable={props.resolverAvailable}
-      onPickYouTube={function(link) {
-        applyYouTubeLinkToForm(link);
-        if (typeof props.onImportYouTube === 'function') {
-          props.onImportYouTube(link, buildDraftCandidate());
-        }
-      }}
-    />
-  ) : (
+  const panelBody = !addTunesMode ? (
     <Row style={{ flexWrap: 'nowrap' }}>
       <div style={{ flex: '1 1 auto', minWidth: 0, overflowY: 'auto', paddingRight: '1rem' }}>
         <TuneRecordForm
@@ -1235,6 +1334,46 @@ export default function ImportReviewModal(props) {
         )}
       </div>
     </Row>
+  ) : addPanelMode === 'curated' ? (
+    <AddCuratedCollectionsPanel
+      tunebook={props.tunebook}
+      setCurrentTuneBook={props.setCurrentTuneBook}
+      currentTuneBook={props.currentTuneBook}
+      forceRefresh={props.forceRefresh}
+      startCollapsed={false}
+    />
+  ) : addPanelMode === 'bulk' ? (
+    <AddBulkImportPanel
+      tunebook={props.tunebook}
+      tunes={tunes}
+      token={props.token}
+      login={props.login}
+      requestGoogleScopes={props.requestGoogleScopes}
+      forceRefresh={props.forceRefresh}
+      currentTuneBook={props.currentTuneBook}
+    />
+  ) : (
+    <AddTuneSimpleForm
+      values={formValues}
+      onChange={function(patch) {
+        patchFormValues(function(current) {
+          const nextPatch = typeof patch === 'function' ? patch(current) : patch;
+          return Object.assign({}, current, nextPatch);
+        });
+      }}
+      tunes={tunes}
+      tunebook={props.tunebook}
+      token={props.token}
+      tuneId={activeCandidate && activeCandidate.tune && activeCandidate.tune.id}
+      forceRefresh={props.forceRefresh}
+      setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+      onOpenMatch={handleOpenCollectionMatch}
+      candidateId={activeCandidate && activeCandidate.id}
+      resolverAvailable={props.resolverAvailable}
+      onPickYouTube={function(link) {
+        applyYouTubeLinkToForm(link);
+      }}
+    />
   );
 
   const canMoveQueue = !addTunesMode
@@ -1242,7 +1381,13 @@ export default function ImportReviewModal(props) {
     && Array.isArray(session.candidates)
     && session.candidates.length > 1;
   const importRequestCount = session && Array.isArray(session.candidates) ? session.candidates.length : 0;
-  const headerTitle = addTunesMode ? 'Add' : 'Import review';
+  const headerTitle = !addTunesMode
+    ? 'Import review'
+    : addPanelMode === 'curated'
+      ? 'Curated collections'
+      : addPanelMode === 'bulk'
+        ? 'Bulk import'
+        : 'Add';
   const primaryActionLabel = addTunesMode ? 'Add' : 'Import';
   const hasTitleForAdd = !!String(formValues.title || '').trim();
   const primaryActionDisabled = addTunesMode ? !hasTitleForAdd : false;
@@ -1301,16 +1446,20 @@ export default function ImportReviewModal(props) {
         </Button>
       ) : null}
       {addTunesMode ? (
-        <Button
-          size="lg"
-          variant={primaryActionDisabled ? 'secondary' : 'success'}
-          disabled={!!primaryActionDisabled}
-          data-testid="add-tune-save"
-          className="add-tunes-header-add-btn"
-          onClick={finishCurrentCandidate}
-        >
-          Add
-        </Button>
+        <>
+          {addPanelMode === 'form' ? (
+            <Button
+              size="lg"
+              variant={primaryActionDisabled ? 'secondary' : 'success'}
+              disabled={!!primaryActionDisabled}
+              data-testid="add-tune-save"
+              className="add-tunes-header-add-btn"
+              onClick={finishCurrentCandidate}
+            >
+              Add
+            </Button>
+          ) : null}
+        </>
       ) : (
         <Button
           variant={primaryActionDisabled ? 'secondary' : 'success'}
@@ -1349,9 +1498,7 @@ export default function ImportReviewModal(props) {
           </h5>
           {headerActions}
         </div>
-        {!addTunesMode ? (
-          <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
-        ) : null}
+        <div className="mb-3 add-from-strip add-from-strip--separated">{addFromToolbar}</div>
         {panelBody}
         {cancelWarningModal}
         {importAllWarningModal}
@@ -1403,35 +1550,31 @@ export default function ImportReviewModal(props) {
             </Modal.Title>
             {headerActions}
           </div>
-          {!addTunesMode ? addFromToolbar : null}
+          {addFromToolbar}
         </div>
       </Modal.Header>
       <Modal.Body className="import-review-modal-body">{panelBody}</Modal.Body>
       {cancelWarningModal}
       {importAllWarningModal}
-      {!addTunesMode ? (
-        <>
-          <SheetImageCameraModal
-            show={showSheetCamera}
-            onHide={function() { setShowSheetCamera(false); }}
-            onCapture={function(file) {
-              setShowSheetCamera(false);
-              if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-            }}
-          />
-          <SheetImageGooglePhotosModal
-            show={showSheetGooglePhotos}
-            onHide={function() { setShowSheetGooglePhotos(false); }}
-            token={props.token}
-            requestGoogleScopes={props.requestGoogleScopes}
-            onLogin={props.login}
-            onSelectFile={function(file) {
-              setShowSheetGooglePhotos(false);
-              if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
-            }}
-          />
-        </>
-      ) : null}
+      <SheetImageCameraModal
+        show={showSheetCamera}
+        onHide={function() { setShowSheetCamera(false); }}
+        onCapture={function(file) {
+          setShowSheetCamera(false);
+          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+        }}
+      />
+      <SheetImageGooglePhotosModal
+        show={showSheetGooglePhotos}
+        onHide={function() { setShowSheetGooglePhotos(false); }}
+        token={props.token}
+        requestGoogleScopes={props.requestGoogleScopes}
+        onLogin={props.login}
+        onSelectFile={function(file) {
+          setShowSheetGooglePhotos(false);
+          if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+        }}
+      />
     </Modal>
   );
 }

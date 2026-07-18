@@ -602,6 +602,7 @@ export default function ChordsWizard(props) {
               showLyricsCheckbox={false}
               defaultUpdateLyrics={false}
               confirmOverwrite={true}
+              existingLyrics={getLyricLines(tune).join('\n')}
               onChords={function(result, options) {
                 const committed = commitChordSearchResultToTune({
                   result: result,
@@ -638,7 +639,7 @@ export default function ChordsWizard(props) {
                     : 'Chords updated from search'
                 )
               }}
-              onLyrics={function() { /* lyrics applied via merge when selected */ }}
+              onLyrics={function() { /* lyrics applied via merge when empty */ }}
             />
             <Button
               variant="outline-primary"

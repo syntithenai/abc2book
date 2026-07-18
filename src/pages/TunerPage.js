@@ -3,8 +3,10 @@ import { useSearchParams } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import TunerComponent from '../tunerlib/TunerComponent'
 import { resolvePresetForTune, isValidTunerInstrument } from '../tuningPresetResolver'
+import { useDocumentTitle } from '../pageTitle'
 
 export default function TunerPage(props) {
+  useDocumentTitle('Tuner')
   const [searchParams] = useSearchParams()
   const tuneId = searchParams.get('tuneId')
   const urlInstrument = searchParams.get('instrument')

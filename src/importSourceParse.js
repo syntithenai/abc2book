@@ -1,5 +1,5 @@
 import { isMusicXmlText } from './mxlExtract';
-import { audioFileAcceptList, isAudioImportFile } from './audioFileMetadata';
+import { audioFileAcceptList, isAudioImportFile, mediaFileAcceptList } from './audioFileMetadata';
 import {
   parseChordSheetText,
   createTuneFromChordSheet,
@@ -147,8 +147,13 @@ export function parseImportText(options) {
   return abcTextToCandidates(text, tunebook, book);
 }
 
-export const OFFLINE_FILE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,application/vnd.recordare.musicxml+xml,application/xml,text/plain';
+export const OFFLINE_FILE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip';
 export const MIDI_FILE_ACCEPT = ',.mid,.midi,audio/midi,audio/mid';
+/** Score formats commonly downloadable from MuseScore (and paste-dialog file pick). */
+export const NOTATION_DOWNLOAD_FILE_ACCEPT =
+  '.mscz,.musicxml,.xml,.mxl,.abc,.mid,.midi,'
+  + 'application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml,'
+  + 'application/x-musescore,application/xml,audio/midi,audio/mid'
 export const AUDIO_FILE_ACCEPT = ',.mp3,.flac,.m4a,.ogg,.wav,.aac,.wma,.opus,.webm,audio/*';
 
 export const BULK_TEXT_FILE_ACCEPT = '.txt,.csv,.tsv,.abc,text/plain';
@@ -159,7 +164,7 @@ export function fileAcceptList(resolverAvailable) {
 }
 
 export function addFromFileAcceptList(resolverAvailable) {
-  let accept = OFFLINE_FILE_ACCEPT + ',' + audioFileAcceptList();
+  let accept = OFFLINE_FILE_ACCEPT + ',' + mediaFileAcceptList();
   if (resolverAvailable) {
     accept += MIDI_FILE_ACCEPT;
     accept += SHEET_IMAGE_FILE_ACCEPT;

@@ -15,7 +15,7 @@ import ComposerSearchButton from './ComposerSearchButton';
 import NotationSearchButton from './NotationSearchButton';
 import GenreSearchButton from './GenreSearchButton';
 import LyricsSearchButton from './LyricsSearchButton';
-import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip';
+import FieldLookupReviewButton from './FieldLookupReviewButton';
 import ArtistsSearchButton from './ArtistsSearchButton';
 import AliasesSearchButton from './AliasesSearchButton';
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton';
@@ -118,9 +118,6 @@ export default function TuneRecordForm(props) {
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false);
   const [showLyricsTools, setShowLyricsTools] = useState(false);
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('');
-  const tuneIdForSuggestions = (props.previewTune && props.previewTune.id)
-    || (values && values.id)
-    || null;
 
   const hasAdvancedMergeFields = ADVANCED_MERGE_FIELD_KEYS.some(function(key) {
     return !!suggestions[key];
@@ -326,14 +323,6 @@ export default function TuneRecordForm(props) {
     <div className="tune-record-form" data-testid="tune-record-form">
       {props.toolbar ? <div className="tune-record-form-toolbar mb-3">{props.toolbar}</div> : null}
       {props.statusBanner ? <div className="mb-3">{props.statusBanner}</div> : null}
-      <TuneFieldSuggestionsStrip
-        tuneId={tuneIdForSuggestions}
-        onOpen={function(item) {
-          if (typeof props.onOpenFieldSuggestions === 'function') {
-            props.onOpenFieldSuggestions(item);
-          }
-        }}
-      />
 
       <FormBlock>
         <Form.Group className="mb-3">
@@ -410,6 +399,8 @@ export default function TuneRecordForm(props) {
                       createOptionPosition="first"
                       allowCreateWhileLoading={true}
                       placeholder="Type composer name"
+                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+                      styles={compactSelectStyles}
                     />
                     {api.errorNode}
                   </>
@@ -438,6 +429,8 @@ export default function TuneRecordForm(props) {
                 createOptionPosition="first"
                 allowCreateWhileLoading={true}
                 placeholder="Type composer name"
+                menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+                styles={compactSelectStyles}
               />
             </>
           )}
@@ -531,7 +524,20 @@ export default function TuneRecordForm(props) {
       <FormBlock className="tune-record-form-block--meta">
         <div className="tune-record-form-meta-row">
           <Form.Group className="tune-record-form-meta-field">
-            <FieldLabelRow label="Time Signature" formKey="meter" suggestion={suggestions.meter} onApplySuggestion={props.onApplySuggestion} values={values} tight={true} />
+            <FieldLabelRow label="Time Signature" formKey="meter" suggestion={suggestions.meter} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
+              <FieldLookupReviewButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                kind="meter"
+                currentValue={values.meter || ''}
+                currentDisplay={values.meter || ''}
+                onApply={function(applied) {
+                  if (!applied) return
+                  const meter = String(applied.meter || applied.preview || '').trim()
+                  if (meter) setField('meter', meter)
+                }}
+              />
+            </FieldLabelRow>
             <CreatableSelect
               value={values.meter ? { value: values.meter, label: values.meter } : { value: '', label: '' }}
               onChange={function(val) { setField('meter', val ? val.value : ''); }}
@@ -544,7 +550,20 @@ export default function TuneRecordForm(props) {
             />
           </Form.Group>
           <Form.Group className="tune-record-form-meta-field">
-            <FieldLabelRow label="Key" formKey="keyName" suggestion={suggestions.keyName} onApplySuggestion={props.onApplySuggestion} values={values} tight={true} />
+            <FieldLabelRow label="Key" formKey="keyName" suggestion={suggestions.keyName} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
+              <FieldLookupReviewButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                kind="key"
+                currentValue={values.keyName || ''}
+                currentDisplay={values.keyName || ''}
+                onApply={function(applied) {
+                  if (!applied) return
+                  const key = String(applied.key || applied.preview || '').trim()
+                  if (key) setField('keyName', key)
+                }}
+              />
+            </FieldLabelRow>
             <KeySignatureInput
               value={values.keyName || ''}
               onChange={function(next) { setField('keyName', next); }}
@@ -552,7 +571,21 @@ export default function TuneRecordForm(props) {
             />
           </Form.Group>
           <Form.Group className="tune-record-form-meta-field tune-record-form-meta-field--tempo">
-            <FieldLabelRow label="Tempo" formKey="tempo" suggestion={suggestions.tempo} onApplySuggestion={props.onApplySuggestion} values={values} tight={true} />
+            <FieldLabelRow label="Tempo" formKey="tempo" suggestion={suggestions.tempo} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
+              <FieldLookupReviewButton
+                tuneId={props.previewTune && props.previewTune.id}
+                candidateId={props.candidateId}
+                kind="tempo"
+                currentValue={values.tempo || ''}
+                currentDisplay={values.tempo || ''}
+                onApply={function(applied) {
+                  if (!applied) return
+                  const raw = applied.tempo != null ? applied.tempo : applied.preview
+                  const parsed = parseInt(String(raw == null ? '' : raw).split('=').pop(), 10)
+                  if (!isNaN(parsed) && parsed > 0) setField('tempo', String(parsed))
+                }}
+              />
+            </FieldLabelRow>
             <Form.Control
               type="number"
               size="sm"
@@ -613,7 +646,6 @@ export default function TuneRecordForm(props) {
                 resolverAvailable={props.resolverAvailable}
                 existingLyrics={values.lyrics || ''}
                 disabled={!String(values.title || '').trim()}
-                leaveAwaiting={true}
                 alsoSearchChords={true}
                 forceReview={true}
                 onGenreAccept={function(genre) { setField('genre', genre); }}
@@ -709,7 +741,6 @@ export default function TuneRecordForm(props) {
                 tunebook={tunebook}
                 resolverAvailable={props.resolverAvailable}
                 disabled={!String(values.title || '').trim()}
-                leaveAwaiting={true}
                 onGenreAccept={function(genre) { setField('genre', genre); }}
                 onNotation={function(candidate) {
                   const abc = candidate && candidate.abc ? String(candidate.abc) : '';

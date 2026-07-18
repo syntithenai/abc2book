@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Alert, Button, Modal, ProgressBar } from 'react-bootstrap';
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup';
+import FieldSearchResultsCaret from './FieldSearchResultsCaret';
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi';
-import { useOpenFieldSuggestions } from './useOpenFieldSuggestions';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { useIsNarrowViewport } from '../useMediaQuery';
 import { describeResolverAuthReason } from '../mediaProxyClient';
@@ -16,10 +16,9 @@ import {
   formatResearchDuration,
 } from '../tuneBackgroundResearchClient';
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions';
-
-function hasExistingBackgroundInfo(text) {
-  return typeof text === 'string' && text.trim().length > 0;
-}
+import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings';
+import { useFieldSearchResults } from '../useFieldSearchResults';
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache';
 
 function findTuneJob(jobs, tuneId) {
   if (!tuneId || !Array.isArray(jobs)) return null;
@@ -45,6 +44,17 @@ function formatResultSource(meta) {
     meta.wordCount ? meta.wordCount + ' words' : '',
     meta.totalMs ? formatResearchDuration(meta.totalMs) : '',
   ].filter(Boolean).join(' · ');
+}
+
+function cacheBackgroundText(tuneId, text, meta) {
+  const key = targetKeyForFieldSearch(tuneId, null);
+  if (!key || !text) return;
+  setFieldSearchResults(key, 'background', [{
+    text: text,
+    preview: text,
+    title: 'Background research',
+    source: formatResultSource(meta) || 'research',
+  }]);
 }
 
 const DEFAULT_SEARCH_ICON = (
@@ -73,7 +83,6 @@ export default function TuneBackgroundSearchButton({
   const narrow = useIsNarrowViewport();
   const queue = useBulkBackgroundResearchQueue();
   const [error, setError] = useState('');
-  const [showConfirm, setShowConfirm] = useState(false);
   const [showReviewAccept, setShowReviewAccept] = useState(false);
   const [pendingReviewText, setPendingReviewText] = useState('');
   const [elapsedMs, setElapsedMs] = useState(0);
@@ -83,7 +92,8 @@ export default function TuneBackgroundSearchButton({
   const handledTerminalJobRef = useRef(null);
   const pendingModeRef = useRef('auto');
   const { available: resolverAvailable, status: resolverStatus, features, refreshMediaResolverHealth } = useMediaResolverHealth();
-  const canResearchBackground = resolverAvailable && features.llm;
+  const canResearchBackground = resolverAvailable && isCapabilityAvailable('llm', features, loadProviderSettings());
+  const cachedCandidates = useFieldSearchResults(tuneId, null, 'background');
 
   const googleUrl = buildTuneBackgroundSearchUrl(title, artist, lyrics);
   const searchIcon = tunebook && tunebook.icons ? tunebook.icons.search : DEFAULT_SEARCH_ICON;
@@ -94,7 +104,6 @@ export default function TuneBackgroundSearchButton({
   const busy = !!activeJob;
   const progressPercent = activeJob ? (activeJob.progress || 0) : 0;
   const progressMessage = activeJob ? (activeJob.message || '') : '';
-  const suggestionCount = awaitingJob && awaitingJob.resultText ? 1 : 0;
 
   useEffect(function() {
     return function() {
@@ -127,10 +136,11 @@ export default function TuneBackgroundSearchButton({
 
   useEffect(function() {
     if (awaitingJob && awaitingJob.resultText) {
+      cacheBackgroundText(tuneId, awaitingJob.resultText, awaitingJob.resultMeta);
       setPendingReviewText(awaitingJob.resultText);
       setShowReviewAccept(true);
     }
-  }, [awaitingJob]);
+  }, [awaitingJob, tuneId]);
 
   useEffect(function() {
     const jobId = startedJobIdRef.current;
@@ -159,6 +169,9 @@ export default function TuneBackgroundSearchButton({
     }
 
     setError('');
+    if (terminal.resultText) {
+      cacheBackgroundText(tuneId, terminal.resultText, terminal.resultMeta);
+    }
     if (typeof onBackgroundInfo === 'function' && terminal.resultText) {
       onBackgroundInfo({ text: terminal.resultText });
     }
@@ -191,43 +204,45 @@ export default function TuneBackgroundSearchButton({
     queue.cancelJob(activeJob.id);
   }
 
-  function openAwaitingSuggestions() {
-    if (!awaitingJob || !awaitingJob.resultText) return;
-    setPendingReviewText(awaitingJob.resultText);
+  function openReviewModal(candidates) {
+    const list = Array.isArray(candidates) ? candidates : cachedCandidates;
+    const text = list[0] && (list[0].text || list[0].preview)
+      ? String(list[0].text || list[0].preview)
+      : (awaitingJob && awaitingJob.resultText ? awaitingJob.resultText : '');
+    if (!text) return;
+    setPendingReviewText(text);
     setShowReviewAccept(true);
   }
 
-  useOpenFieldSuggestions(tuneId, 'background', openAwaitingSuggestions);
-
-  function clearAwaitingSuggestions() {
-    dismissReviewResult();
-  }
-
-  function requestResearch(mode) {
+  function requestResearch() {
     if (!title || !tuneId) return;
     if (busy) {
       cancelResearch();
       return;
     }
-    if (suggestionCount > 0) {
-      clearAwaitingSuggestions();
-    }
-    pendingModeRef.current = mode === 'review' ? 'review' : 'auto';
-    if (hasExistingBackgroundInfo(existingBackgroundInfo)) {
-      setShowConfirm(true);
+    if (!canResearchBackground) {
+      refreshMediaResolverHealth();
+      setError(
+        resolverAvailable
+          ? 'Background research needs an LLM. Add a key under Settings → Providers.'
+          : 'Background research needs the media resolver with LLM available.'
+      );
       return;
     }
-    run(false, pendingModeRef.current);
+    if (awaitingJob) dismissBackgroundResearch(awaitingJob.id);
+    // Always auto-apply, including when background info already exists.
+    pendingModeRef.current = 'auto';
+    run(true, 'auto');
   }
 
   function run(force, mode) {
     if (!title || !tuneId) return;
-    setShowConfirm(false);
     setError('');
     setShowReviewAccept(false);
     setPendingReviewText('');
 
-    const searchMode = mode === 'review' ? 'review' : 'auto';
+    const searchMode = 'auto';
+    void mode;
     const tune = {
       id: tuneId,
       name: title,
@@ -265,12 +280,23 @@ export default function TuneBackgroundSearchButton({
     setPendingReviewText('');
   }
 
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openReviewModal}
+      aria-label="Cached background research results"
+      data-testid="background-search-results-caret"
+    />
+  );
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
       <>
         <FieldLookupButtonGroup
-          automaticLookup={canResearchBackground}
+          automaticLookup={true}
           showExternal={!!(googleUrl && externalLinkIcon)}
           busy={busy}
           disabled={!title || !tuneId || disabled}
@@ -281,8 +307,7 @@ export default function TuneBackgroundSearchButton({
           buttonStyle={buttonStyle}
           searchIcon={searchIcon}
           progress={progressPercent}
-          suggestionCount={suggestionCount}
-          onOpenSuggestions={openAwaitingSuggestions}
+          resultsCaret={resultsCaret}
         />
         {busy && (
           <div style={{ marginTop: '0.75em', maxWidth: '28em', clear: 'both' }}>
@@ -321,35 +346,20 @@ export default function TuneBackgroundSearchButton({
       </>
     ),
     modals: (
-      <>
-        <Modal show={showConfirm} onHide={function() { setShowConfirm(false); }}>
-          <Modal.Header closeButton>
-            <Modal.Title>Replace background information?</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            This tune already has background information. Replace it with a new research result?
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={function() { setShowConfirm(false); }}>Cancel</Button>
-            <Button variant="warning" onClick={function() { run(true, pendingModeRef.current); }}>Replace</Button>
-          </Modal.Footer>
-        </Modal>
-
-        <Modal show={showReviewAccept} onHide={dismissReviewResult} size="lg">
-          <Modal.Header closeButton>
-            <Modal.Title>Review background information</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <pre style={{ whiteSpace: 'pre-wrap', maxHeight: '50vh', overflow: 'auto' }}>
-              {pendingReviewText}
-            </pre>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={dismissReviewResult}>Dismiss</Button>
-            <Button variant="success" onClick={acceptReviewResult}>Apply</Button>
-          </Modal.Footer>
-        </Modal>
-      </>
+      <Modal show={showReviewAccept} onHide={dismissReviewResult} size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>Review background information</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <pre style={{ whiteSpace: 'pre-wrap', maxHeight: '50vh', overflow: 'auto' }}>
+            {pendingReviewText}
+          </pre>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={dismissReviewResult}>Dismiss</Button>
+          <Button variant="success" onClick={acceptReviewResult}>Apply</Button>
+        </Modal.Footer>
+      </Modal>
     ),
   });
 }

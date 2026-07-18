@@ -1,5 +1,10 @@
+import { allArtists } from './tuneBibliographicUtils'
+import { getRecentViewedTuneIds } from './tuneViewHistoryStore'
+
 export const RECENT_TUNES_DEFAULT = 10
 export const RECENT_TUNES_EXPANDED = 60
+export const RECENT_ARTISTS_DEFAULT = 20
+const TUNE_VIEW_HISTORY_MAX_FOR_ARTISTS = 100
 
 function tuneLastUpdated(tune) {
   if (!tune || tune.lastUpdated === undefined || tune.lastUpdated === null || tune.lastUpdated === '') {
@@ -16,6 +21,38 @@ export function getRecentTunes(tunes, limit) {
     .filter(function(tune) { return tune && tune.id && tuneLastUpdated(tune) > 0 })
     .sort(function(a, b) { return tuneLastUpdated(b) - tuneLastUpdated(a) })
     .slice(0, max)
+}
+
+/**
+ * Artists from recently viewed tunes (view history), then lastUpdated tunes.
+ * Returns unique artist names in recency order.
+ */
+export function getRecentArtists(tunes, limit) {
+  if (!tunes) return []
+  var seen = {}
+  var ordered = []
+
+  function addFromTune(tune) {
+    if (!tune) return
+    allArtists(tune).forEach(function(artist) {
+      var key = String(artist || '').trim().toLowerCase()
+      if (!key || seen[key]) return
+      seen[key] = true
+      ordered.push(artist)
+    })
+  }
+
+  getRecentViewedTuneIds(TUNE_VIEW_HISTORY_MAX_FOR_ARTISTS).forEach(function(id) {
+    addFromTune(tunes[id])
+  })
+
+  Object.values(tunes)
+    .filter(function(tune) { return tune && tune.id && tuneLastUpdated(tune) > 0 })
+    .sort(function(a, b) { return tuneLastUpdated(b) - tuneLastUpdated(a) })
+    .forEach(addFromTune)
+
+  if (typeof limit === 'number' && limit > 0) return ordered.slice(0, limit)
+  return ordered
 }
 
 function tuneNameKey(tune) {

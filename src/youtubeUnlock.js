@@ -1,11 +1,16 @@
-import { isYoutubeExtensionConnected } from './youtubeExtensionClient'
+import {
+  isYoutubeExtensionConnected,
+  isYoutubeExtensionConnectedSync,
+} from './youtubeExtensionClient'
 import {
   getSavedWebshareProxyUrl,
   isWebshareProxyConfigured,
 } from './webshareProxySettings'
 
 /**
- * Sync cheap check used for early UI decisions (may underestimate extension).
+ * Sync cheap check used for early UI decisions. Includes the extension's DOM
+ * marker / cached ping, but may still miss the extension right after page
+ * load; the async check below is authoritative.
  */
 export function youtubeAudioBytesAvailableSync(options) {
   const features = (options && options.resolverFeatures) || null
@@ -17,6 +22,7 @@ export function youtubeAudioBytesAvailableSync(options) {
   if (youtubeAudio === true) return true
   if (proxyOk && !lightMode && !egressRequired) return true
   if (proxyOk && (egressRequired || lightMode) && isWebshareProxyConfigured()) return true
+  if (isYoutubeExtensionConnectedSync()) return true
   return false
 }
 

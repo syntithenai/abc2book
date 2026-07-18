@@ -1,4 +1,4 @@
-import decode from 'audio-decode';
+import { decodeAudioBytes } from './audioDecodeBytes';
 import { fetchDirectOrProxy, isMediaProxyConfigured } from './mediaProxyClient';
 import {
   fetchYoutubeAudioViaExtension,
@@ -29,7 +29,7 @@ export async function resolveYoutubeAudioUrl(videoId) {
 }
 
 /**
- * Prefer Tunebook YouTube Helper extension, then media resolver /youtube,
+ * Prefer TuneBook Helper extension, then media resolver /youtube,
  * then Piped direct URL (best-effort).
  */
 export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken) {
@@ -38,12 +38,13 @@ export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, ac
     if (videoId && (await isYoutubeExtensionConnected())) {
       try {
         const fetched = await fetchYoutubeAudioViaExtension(videoId);
-        const audioBuffer = await decode(fetched.arrayBuffer);
+        const audioBuffer = await decodeAudioBytes(fetched.arrayBuffer);
         return {
           audioBuffer: audioBuffer,
           duration: audioBuffer.duration,
           sourceUrl: 'extension',
           mime: fetched.mime,
+          arrayBuffer: fetched.arrayBuffer,
         };
       } catch (extensionError) {
         // Extension connected but Innertube/CDN failed — fall through to resolver.
@@ -68,10 +69,15 @@ export async function fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, ac
   });
 
   const arrayBuffer = await response.arrayBuffer();
-  const audioBuffer = await decode(arrayBuffer);
+  const audioBuffer = await decodeAudioBytes(arrayBuffer);
+  const mime = response.headers && typeof response.headers.get === 'function'
+    ? response.headers.get('Content-Type')
+    : null;
   return {
     audioBuffer: audioBuffer,
     duration: audioBuffer.duration,
     sourceUrl: viaProxy ? 'proxy' : src,
+    mime: mime || null,
+    arrayBuffer: arrayBuffer,
   };
 }

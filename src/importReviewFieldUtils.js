@@ -319,6 +319,8 @@ export function emptyFormValues() {
     soundFonts: null,
     timingScaffold: '',
     meta: null,
+    tuneFiles: [],
+    activeFile: '',
   };
   return values;
 }
@@ -369,6 +371,10 @@ export function tuneToFormValues(tune) {
     ? String(source.timingScaffold)
     : '';
   values.meta = source.meta ? cloneValue(source.meta) : null;
+  values.tuneFiles = Array.isArray(source.tuneFiles)
+    ? source.tuneFiles.map(function(f) { return Object.assign({}, f); })
+    : [];
+  values.activeFile = source.activeFile ? String(source.activeFile) : '';
   return values;
 }
 
@@ -388,6 +394,12 @@ export function formValuesToTune(formValues, baseTune) {
   next.links = Array.isArray(values.links) ? values.links.slice() : [];
   next.srcUrl = String(values.srcUrl || '').trim();
   next.backgroundInfo = values.backgroundInfo || '';
+  next.tuneFiles = Array.isArray(values.tuneFiles)
+    ? values.tuneFiles.map(function(f) { return Object.assign({}, f); })
+    : (Array.isArray(baseTune && baseTune.tuneFiles) ? baseTune.tuneFiles.slice() : []);
+  next.activeFile = values.activeFile
+    ? String(values.activeFile)
+    : (baseTune && baseTune.activeFile ? String(baseTune.activeFile) : '');
 
   const scalarTuneFields = {
     tempo: 'tempo',
@@ -516,7 +528,9 @@ export function canApplyImportInline(sourceKind) {
   return INLINE_IMPORT_SOURCE_KINDS.indexOf(sourceKind) >= 0;
 }
 
-export function buildReviewFormState(baseTune, importedTune, mode) {
+export function buildReviewFormState(baseTune, importedTune, mode, options) {
+  const opts = options || {};
+  const suggestOnly = opts.mergeMode === 'suggestOnly' || mode === 'suggestOnly';
   const imported = importedTune || {};
   let formValues;
   const suggestions = {};
@@ -539,8 +553,7 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
             return !!(link && link.link && String(link.link).trim());
           });
         const baselineLinks = Array.isArray(formValues.links) ? cloneValue(formValues.links) : [];
-        // Multiple YouTube suggestions (or replacing existing links) stay choosable in review.
-        if (importedLinks.length > 1 || baseHasLinks) {
+        if (suggestOnly || importedLinks.length > 1 || baseHasLinks) {
           suggestions.links = attachCurrentValueChoice({
             key: 'links',
             formKey: 'links',
@@ -569,7 +582,6 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
         const baselineVoices = cloneValue(formValues.voices || { '1': { meta: '', notes: [] } });
         const baselineNotes = String(formValues.notes || '').trim()
           || notationTextFromTune({ voices: baselineVoices });
-        // Never auto-write notation — keep current value and offer Use choices to compare.
         if (!fieldValuesSemanticallyEqual('voices', getTuneFieldValue(baseTune, 'voices'), importedVoices)) {
           suggestions.notes = attachCurrentValueChoice({
             key: 'voices',
@@ -583,10 +595,17 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
         const lyrics = lyricsTextFromTune(imported);
         if (lyrics.trim()) {
           const baselineLyrics = formValues.lyrics || '';
-          if (isFormFieldEmpty('lyrics', formValues.lyrics)) {
+          if (!suggestOnly && isFormFieldEmpty('lyrics', formValues.lyrics)) {
             formValues.lyrics = lyrics;
             autoAppliedKeys.push(tuneKey);
           } else if (!fieldValuesSemanticallyEqual(tuneKey, getTuneFieldValue(baseTune, tuneKey), getTuneFieldValue(imported, tuneKey))) {
+            suggestions.lyrics = attachCurrentValueChoice({
+              key: tuneKey,
+              formKey: 'lyrics',
+              value: cloneValue(getTuneFieldValue(imported, tuneKey)),
+              displayValue: lyrics,
+            }, baselineLyrics, baselineLyrics);
+          } else if (suggestOnly && lyrics.trim()) {
             suggestions.lyrics = attachCurrentValueChoice({
               key: tuneKey,
               formKey: 'lyrics',
@@ -606,23 +625,26 @@ export function buildReviewFormState(baseTune, importedTune, mode) {
     if (!formKey) return;
 
     const baseValue = getTuneFieldValue(baseTune, tuneKey);
-    const autoKeys = getAutoAppliedImportFieldKeys(baseTune, imported);
-    if (autoKeys.indexOf(tuneKey) >= 0) {
-      formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
-      autoAppliedKeys.push(tuneKey);
-      return;
+    const currentFormValue = getFormFieldValue(formValues, formKey);
+
+    if (!suggestOnly) {
+      const autoKeys = getAutoAppliedImportFieldKeys(baseTune, imported);
+      if (autoKeys.indexOf(tuneKey) >= 0) {
+        formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
+        autoAppliedKeys.push(tuneKey);
+        return;
+      }
     }
 
     if (fieldValuesSemanticallyEqual(tuneKey, baseValue, importedValue)) return;
 
-    const currentFormValue = getFormFieldValue(formValues, formKey);
-    if (isFormFieldEmpty(formKey, currentFormValue)) {
+    if (!suggestOnly && isFormFieldEmpty(formKey, currentFormValue)) {
       formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
       autoAppliedKeys.push(tuneKey);
       return;
     }
 
-    if (fieldValuesSemanticallyEqual(tuneKey, formValueAsTuneComparable(formKey, currentFormValue), importedValue)) {
+    if (!suggestOnly && fieldValuesSemanticallyEqual(tuneKey, formValueAsTuneComparable(formKey, currentFormValue), importedValue)) {
       return;
     }
 
@@ -756,6 +778,46 @@ export function applyImportSuggestion(formValues, formKey, suggestion) {
     next[formKey] = cloneValue(displayValue);
   }
   return next;
+}
+
+/**
+ * Apply every pending import suggestion into the form (Accept all imported fields).
+ * Returns { formValues, suggestions } with suggestions cleared for applied keys.
+ */
+export function acceptAllImportSuggestions(formValues, suggestions) {
+  let nextForm = Object.assign({}, formValues || emptyFormValues());
+  const nextSuggestions = Object.assign({}, suggestions || {});
+  Object.keys(nextSuggestions).forEach(function(formKey) {
+    const suggestion = nextSuggestions[formKey];
+    if (!suggestion) return;
+    // Prefer the imported choice when choices exist
+    let toApply = suggestion;
+    if (Array.isArray(suggestion.choices) && suggestion.choices.length) {
+      const importedChoice = suggestion.choices.find(function(c) {
+        return c && c.source !== 'current' && c.id !== 'current';
+      });
+      if (importedChoice) {
+        toApply = Object.assign({}, suggestion, {
+          value: importedChoice.value !== undefined ? importedChoice.value : suggestion.value,
+          displayValue: importedChoice.preview != null ? importedChoice.preview : suggestion.displayValue,
+          source: importedChoice.source || 'import',
+        });
+      }
+    }
+    nextForm = applyImportSuggestion(nextForm, formKey, toApply);
+    delete nextSuggestions[formKey];
+  });
+  return { formValues: nextForm, suggestions: nextSuggestions };
+}
+
+/**
+ * Clear pending import suggestions, keeping current form values (Keep all local).
+ */
+export function keepAllLocalImportSuggestions(formValues, suggestions) {
+  return {
+    formValues: Object.assign({}, formValues || emptyFormValues()),
+    suggestions: {},
+  };
 }
 
 export function applyInlineImportToForm(currentFormValues, importedTune) {

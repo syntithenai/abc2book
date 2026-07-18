@@ -61,10 +61,10 @@ describe('lyricStructureUtils', function() {
 
   test('normalizeLyricStructure infers verse/chorus/bridge from alternating line counts', function() {
     const blocks = normalizeLyricStructure([
-      'v1a', 'v1b', 'v1c', 'v1d', '',
-      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
-      'v2a', 'v2b', 'v2c', 'v2d', '',
-      'c2a', 'c2b', 'c2c', 'c2d', 'c2e', 'c2f', '',
+      'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
+      'c1a', 'c1b', 'c1c', 'c1d', '',
+      'v2a', 'v2b', 'v2c', 'v2d', 'v2e', 'v2f', '',
+      'c2a', 'c2b', 'c2c', 'c2d', '',
       'b1a', 'b1b', 'b1c', 'b1d', 'b1e',
     ]);
     expect(blocks.map(function(b) { return { type: b.type, header: b.header }; })).toEqual([
@@ -73,6 +73,23 @@ describe('lyricStructureUtils', function() {
       { type: 'verse', header: '[Verse 2]' },
       { type: 'chorus', header: '[Chorus 2]' },
       { type: 'bridge', header: '[Bridge]' },
+    ]);
+  });
+
+  test('normalizeLyricStructure splits a chorus repeated without blank lines into its own stanza', function() {
+    const blocks = normalizeLyricStructure([
+      '[Chorus]',
+      'hook line one', 'hook line two', 'hook line three', '',
+      '[Verse 1]',
+      'v1a', 'v1b', 'v1c', 'v1d', '',
+      'v2a', 'v2b', 'v2c', 'v2d',
+      'hook line one', 'hook line two', 'hook line three',
+    ]);
+    expect(blocks.map(function(b) { return { type: b.type, lines: b.lines }; })).toEqual([
+      { type: 'chorus', lines: ['hook line one', 'hook line two', 'hook line three'] },
+      { type: 'verse', lines: ['v1a', 'v1b', 'v1c', 'v1d'] },
+      { type: 'verse', lines: ['v2a', 'v2b', 'v2c', 'v2d'] },
+      { type: 'chorus', lines: ['hook line one', 'hook line two', 'hook line three'] },
     ]);
   });
 
@@ -90,13 +107,13 @@ describe('lyricStructureUtils', function() {
 
   test('listLyricSections uses inferred titles and keeps startLine on body lines', function() {
     const sections = listLyricSections([
-      'v1a', 'v1b', 'v1c', 'v1d', '',
-      'c1a', 'c1b', 'c1c', 'c1d', 'c1e', 'c1f', '',
-      'v2a', 'v2b', 'v2c', 'v2d',
+      'v1a', 'v1b', 'v1c', 'v1d', 'v1e', 'v1f', '',
+      'c1a', 'c1b', 'c1c', 'c1d', '',
+      'v2a', 'v2b', 'v2c', 'v2d', 'v2e', 'v2f',
     ]);
     expect(sections.map(function(s) { return { title: s.title, type: s.type, startLine: s.startLine }; })).toEqual([
       { title: 'Verse', type: 'verse', startLine: 0 },
-      { title: 'Chorus', type: 'chorus', startLine: 5 },
+      { title: 'Chorus', type: 'chorus', startLine: 7 },
       { title: 'Verse 2', type: 'verse', startLine: 12 },
     ]);
   });

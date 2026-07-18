@@ -10,14 +10,17 @@ import {
   getAwaitingJob,
   getActiveJob,
 } from '../tuneFieldLookupQueue'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
+import { maybeOfferLyricsFromSearchResult } from '../lyricsSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 
 export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
@@ -29,7 +32,7 @@ export function buildGoogleLyricsSearchUrl(title, artist, extraQuery) {
 }
 
 /**
- * Lyrics search ButtonGroup. On Add/review forms, pass leaveAwaiting + alsoSearchChords
+ * Lyrics search ButtonGroup. On Add/review forms, pass alsoSearchChords
  * to prefer a chords search (usually includes lyrics). If chords find nothing, fall
  * back to a lyrics-only search and quietly skip chord suggestions.
  */
@@ -51,7 +54,7 @@ export default function LyricsSearchButton({
   showExternalLink = true,
   resolverAvailable,
   existingLyrics,
-  /** Leave jobs awaiting for FieldLookupReviewButton instead of auto/picker apply. */
+  /** Kept for TuneRecordForm API; picker always opens when results arrive. */
   leaveAwaiting = false,
   /** Prefer chords search first; fall back to lyrics-only when chords miss. */
   alsoSearchChords = false,
@@ -60,6 +63,7 @@ export default function LyricsSearchButton({
   inline,
   children,
 }) {
+  void leaveAwaiting
   const narrow = useIsNarrowViewport()
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
   const [error, setError] = useState('')
@@ -70,16 +74,16 @@ export default function LyricsSearchButton({
   const existingLyricsRef = useRef(existingLyrics)
   existingLyricsRef.current = existingLyrics
   const searchModeRef = useRef(forceReview ? 'review' : 'auto')
-  const leaveAwaitingRef = useRef(leaveAwaiting)
-  leaveAwaitingRef.current = leaveAwaiting
   const alsoSearchChordsRef = useRef(alsoSearchChords)
   alsoSearchChordsRef.current = alsoSearchChords
   const applyRef = useRef(null)
   const lyricsFallbackSpecRef = useRef(null)
   const startLyricsFallbackRef = useRef(null)
+  const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'lyrics')
+  const fieldEmpty = !String(existingLyrics || '').trim()
 
   function finishApply(result, jobId) {
-    if (jobId && !leaveAwaitingRef.current) applyFieldLookupChoice(jobId, result)
+    if (jobId) applyFieldLookupChoice(jobId, result)
     if (typeof onLyrics === 'function') onLyrics(result)
     maybeOfferGenreFromSearchResult({
       tuneId: tuneId,
@@ -93,6 +97,29 @@ export default function LyricsSearchButton({
     })
   }
   applyRef.current = finishApply
+
+  function offerSideFieldsFromChordResult(result) {
+    if (!result) return
+    maybeOfferLyricsFromSearchResult({
+      tuneId: tuneId,
+      candidateId: candidateId,
+      result: result,
+      title: title,
+      artist: artist,
+      currentLyrics: existingLyricsRef.current || '',
+      onLyricsAccept: onLyrics,
+    })
+    maybeOfferGenreFromSearchResult({
+      tuneId: tuneId,
+      candidateId: candidateId,
+      result: result,
+      title: title,
+      artist: artist,
+      rhythm: rhythm,
+      currentGenre: currentGenre,
+      onGenreAccept: onGenreAccept,
+    })
+  }
 
   function fallBackToLyricsSearch() {
     const spec = lyricsFallbackSpecRef.current
@@ -111,6 +138,20 @@ export default function LyricsSearchButton({
     return true
   }
 
+  function openPicker(candidates) {
+    setError('')
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
+    setShowPicker(true)
+  }
+
+  function closePicker(dismissJob) {
+    setShowPicker(false)
+    setPickerCandidates([])
+    if (dismissJob && lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      dismissFieldLookup(lookup.activeJob.id)
+    }
+  }
+
   const lookup = useFieldLookupSearchJob({
     tuneId: tuneId,
     candidateId: candidateId,
@@ -122,35 +163,19 @@ export default function LyricsSearchButton({
         return
       }
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (leaveAwaitingRef.current) {
-        if (candidates.length === 0 && !(job.manualCandidates && job.manualCandidates.length)) {
-          setError('No lyrics found for this song')
+      if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
+        if (job.appliedCandidate && typeof onLyrics === 'function') {
+          onLyrics(job.appliedCandidate)
         }
         return
       }
-      if (searchModeRef.current === 'review') {
-        if (candidates.length === 0) {
-          setError('No lyrics found for this song')
-          return
-        }
-        setPickerCandidates(candidates)
-        setShowPicker(true)
+      if (candidates.length === 0) {
+        setError('No lyrics found for this song')
         return
       }
-      if (candidates.length >= 1) {
-        const existing = String(existingLyricsRef.current || '').trim()
-        if (!existing || searchModeRef.current === 'auto') {
-          applyRef.current(candidates[0], job.id)
-          return
-        }
-        if (candidates.length > 1) {
-          setPickerCandidates(candidates)
-          setShowPicker(true)
-          return
-        }
-        return
-      }
-      setError('No lyrics found for this song')
+      const key = targetKeyForFieldSearch(tuneId, candidateId)
+      if (key) setFieldSearchResults(key, 'lyrics', candidates)
+      openPicker(candidates)
     },
     onError: function(job) {
       setError(job.error || 'Lyrics search failed')
@@ -169,8 +194,13 @@ export default function LyricsSearchButton({
       const manuals = Array.isArray(job.manualCandidates) ? job.manualCandidates : []
       if (candidates.length === 0 && manuals.length === 0) {
         chordsMissedQuietly(job)
+        return
       }
-      // Successful chords results stay awaiting for FieldLookupReviewButton.
+      if (candidates.length > 0) {
+        const key = targetKeyForFieldSearch(tuneId, candidateId)
+        if (key) setFieldSearchResults(key, 'chords', candidates)
+        offerSideFieldsFromChordResult(candidates[0])
+      }
     },
     onError: function() {
       if (!alsoSearchChordsRef.current) return
@@ -196,32 +226,13 @@ export default function LyricsSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
 
   function chooseLyricsCandidate(candidate) {
-    setShowPicker(false)
-    setPickerCandidates([])
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
       ? lookup.activeJob.id
       : null
     finishApply(candidate, jobId)
-  }
-
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
-    setError('')
-    setPickerCandidates(awaitingCandidates)
-    setShowPicker(true)
-  }
-
-  useOpenFieldSuggestions(tuneId, 'lyrics', openAwaitingSuggestions)
-
-  function clearAwaitingSuggestions() {
-    lookup.dismiss()
-    setShowPicker(false)
-    setPickerCandidates([])
+    closePicker(!!jobId)
   }
 
   function cancelPriorLookupJobs() {
@@ -248,10 +259,7 @@ export default function LyricsSearchButton({
       lyricsFallbackSpecRef.current = null
       return
     }
-    // New Search clears prior suggestions for this kind.
-    if (awaitingCandidates.length > 0) {
-      clearAwaitingSuggestions()
-    }
+    if (awaitingJob) dismissFieldLookup(awaitingJob.id)
     const searchMode = forceReview || mode === 'review' ? 'review' : 'auto'
     searchModeRef.current = searchMode
     setError('')
@@ -293,6 +301,17 @@ export default function LyricsSearchButton({
     lookup.startSearch(lyricsSpec)
   }
 
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openPicker}
+      aria-label="Cached lyrics search results"
+      data-testid="lyrics-search-results-caret"
+    />
+  )
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -310,8 +329,7 @@ export default function LyricsSearchButton({
           searchIcon={searchIcon}
           inline={inline}
           progress={progressPercent}
-          suggestionCount={awaitingCandidates.length}
-          onOpenSuggestions={openAwaitingSuggestions}
+          resultsCaret={resultsCaret}
         />
         <SearchProgressBar
           visible={busy}
@@ -356,8 +374,7 @@ export default function LyricsSearchButton({
           emptyMessage="No lyrics versions were found."
           onSelect={chooseLyricsCandidate}
           onHide={function() {
-            setShowPicker(false)
-            setPickerCandidates([])
+            closePicker(true)
           }}
         />
         <LockedSourcePasteModal

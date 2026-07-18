@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { normalizeMatchText, scoreTitleArtistMatch } from './notationMatchUtils'
+import { normalizeMatchText, scoreNotationCandidate, scoreTitleArtistMatch } from './notationMatchUtils'
 
 const THESESSION_BASE = 'https://thesession.org'
 const MAX_SESSION_TUNES = 5
@@ -257,12 +257,7 @@ function filterThesessionCandidates(candidates, title, artist) {
   if (!candidates.length) return []
   const artistKey = normalizeMatchText(artist)
   return candidates.filter(function(candidate) {
-    const score = scoreTitleArtistMatch(
-      candidate.title || '',
-      candidate.artist || '',
-      title,
-      artist
-    )
+    const score = scoreNotationCandidate(candidate, title, artist)
     if (artistKey && score < 60) return false
     if (score < 30 && candidate.source === 'thesession.org') return false
     return true
@@ -271,14 +266,14 @@ function filterThesessionCandidates(candidates, title, artist) {
 
 export function sortNotationCandidates(candidates, title, artist) {
   return (candidates || []).slice().sort(function(a, b) {
-    const scoreA = scoreTitleArtistMatch(a.title, a.artist, title, artist)
-    const scoreB = scoreTitleArtistMatch(b.title, b.artist, title, artist)
+    const scoreA = scoreNotationCandidate(a, title, artist)
+    const scoreB = scoreNotationCandidate(b, title, artist)
     return scoreB - scoreA
   })
 }
 
 export function hasStrongNotationMatch(candidates, title, artist) {
   return (candidates || []).some(function(candidate) {
-    return scoreTitleArtistMatch(candidate.title, candidate.artist, title, artist) >= 80
+    return scoreNotationCandidate(candidate, title, artist) >= 80
   })
 }

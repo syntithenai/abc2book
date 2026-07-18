@@ -8,7 +8,6 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
-import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
@@ -17,6 +16,8 @@ import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
 import { mergeBibliographicList } from '../tuneBibliographicUtils'
+import EditorAddFromToolbar from './EditorAddFromToolbar'
+import useAbcjsParser from '../useAbcjsParser'
 
 function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   const text = String(textValue || '')
@@ -32,7 +33,9 @@ function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
   return firstNonEmpty || ''
 }
 
-export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts, tunes}) {
+export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlockKeyboardShortcuts, tunes, forceRefresh}) {
+  void tunes
+  void forceRefresh
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
@@ -52,6 +55,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
     }
   }, [show, showNoteAlignedLyrics, showLyricsTools, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
+  const abcjsParser = useAbcjsParser()
   let params = useParams();
 
   function acceptSuggestedTitle(suggestion) {
@@ -107,7 +111,35 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
         <Modal.Body>
           <Button  style={{float:'right'}} variant="success" onClick={handleClose} >OK</Button>
 
-          <TuneFieldSuggestionsStrip tuneId={params.tuneId || (tune && tune.id)} />
+          <EditorAddFromToolbar
+            tune={tune}
+            currentTuneId={params.tuneId || (tune && tune.id)}
+            tunebook={tunebook}
+            token={token}
+            abcjsParser={abcjsParser}
+            resolverAvailable={resolverAvailable}
+            onApplyTune={function(importedTune) {
+              if (!importedTune || !tune) return
+              if (importedTune.name) tune.name = importedTune.name
+              if (importedTune.composer) tune.composer = importedTune.composer
+              if (importedTune.artists) {
+                tune.artists = mergeBibliographicList(tune.artists, importedTune.artists)
+              }
+              if (importedTune.aliases) {
+                tune.aliases = mergeBibliographicList(tune.aliases, importedTune.aliases)
+              }
+              if (Array.isArray(importedTune.wLines) && importedTune.wLines.length) {
+                setPlainLyricLines(tune, importedTune.wLines)
+              } else if (Array.isArray(importedTune.words) && importedTune.words.length) {
+                setPlainLyricLines(tune, importedTune.words)
+              }
+              if (importedTune.key) tune.key = importedTune.key
+              if (importedTune.genre) tune.genre = importedTune.genre
+              tune.id = params.tuneId
+              tunebook.saveTune(tune, false, { historyLabel: 'Add From import' })
+              toast.success('Imported into this tune')
+            }}
+          />
 
              <Form.Group className="mb-3" controlId="title">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>

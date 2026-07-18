@@ -3,6 +3,7 @@ import useMusicBrainz from './useMusicBrainz'
 
 /**
  * Debounced MusicBrainz artist name labels for caret typeaheads.
+ * Returns { options: string[], loading: boolean }.
  */
 export default function useMusicBrainzArtistOptions(query, options) {
   const opts = options || {}
@@ -10,22 +11,26 @@ export default function useMusicBrainzArtistOptions(query, options) {
   const delayMs = typeof opts.delayMs === 'number' ? opts.delayMs : 500
   const musicBrainz = useMusicBrainz()
   const [labels, setLabels] = useState([])
+  const [loading, setLoading] = useState(false)
   const timerRef = useRef(null)
   const requestIdRef = useRef(0)
 
   useEffect(function() {
     if (!enabled) {
       setLabels([])
+      setLoading(false)
       return undefined
     }
     const text = String(query || '').trim()
     if (!text) {
       setLabels([])
+      setLoading(false)
       return undefined
     }
     if (timerRef.current) clearTimeout(timerRef.current)
     const requestId = requestIdRef.current + 1
     requestIdRef.current = requestId
+    setLoading(true)
     timerRef.current = setTimeout(function() {
       musicBrainz.artistOptions(text).then(function(raw) {
         if (requestIdRef.current !== requestId) return
@@ -33,9 +38,11 @@ export default function useMusicBrainzArtistOptions(query, options) {
           ? raw.map(function(item) { return item && item.label ? item.label : '' }).filter(Boolean)
           : []
         setLabels(next)
+        setLoading(false)
       }).catch(function() {
         if (requestIdRef.current !== requestId) return
         setLabels([])
+        setLoading(false)
       })
     }, delayMs)
     return function() {
@@ -45,5 +52,5 @@ export default function useMusicBrainzArtistOptions(query, options) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, enabled, delayMs])
 
-  return labels
+  return { options: labels, loading: loading }
 }

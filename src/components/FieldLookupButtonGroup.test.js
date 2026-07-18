@@ -61,19 +61,7 @@ describe('FieldLookupButtonGroup', function() {
     expect(onSearch).toHaveBeenCalled()
   })
 
-  test('hides Suggestions until suggestionCount is positive', function() {
-    act(function() {
-      root.render(React.createElement(FieldLookupButtonGroup, {
-        automaticLookup: true,
-        suggestionCount: 0,
-        onOpenSuggestions: jest.fn(),
-        onSearch: jest.fn(),
-      }))
-    })
-    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeFalsy()
-    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeFalsy()
-    expect(container.textContent).not.toContain('Suggestions')
-
+  test('does not render Suggestions chrome', function() {
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
@@ -82,31 +70,39 @@ describe('FieldLookupButtonGroup', function() {
         onSearch: jest.fn(),
       }))
     })
-    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeTruthy()
-    expect(container.querySelector('[data-testid="field-suggestions-clear"]')).toBeFalsy()
-    expect(container.textContent).toContain('Suggestions')
+    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeFalsy()
+    expect(container.textContent).not.toContain('Suggestions')
   })
 
-  test('Suggestions is a separate button without a count badge', function() {
+  test('renders resultsCaret when provided', function() {
     act(function() {
       root.render(React.createElement(FieldLookupButtonGroup, {
         automaticLookup: true,
-        suggestionCount: 3,
-        onOpenSuggestions: jest.fn(),
+        onSearch: jest.fn(),
+        resultsCaret: React.createElement('button', {
+          type: 'button',
+          'data-testid': 'results-caret',
+        }, '▾'),
+      }))
+    })
+    expect(container.querySelector('[data-testid="results-caret"]')).toBeTruthy()
+  })
+
+  test('groups Search and external link even when inline', function() {
+    act(function() {
+      root.render(React.createElement(FieldLookupButtonGroup, {
+        automaticLookup: true,
+        inline: true,
+        externalUrl: 'https://example.com',
+        externalLinkIcon: <span>ext</span>,
+        showExternal: true,
         onSearch: jest.fn(),
       }))
     })
     const search = container.querySelector('[data-testid="field-search-button"]')
-    const suggestions = container.querySelector('[data-testid="field-suggestions-open"]')
-    expect(search).toBeTruthy()
-    expect(suggestions).toBeTruthy()
-    expect(suggestions.textContent).toBe('Suggestions')
-    expect(suggestions.textContent).not.toMatch(/\d/)
-    const position = search.compareDocumentPosition(suggestions)
-    expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
-    // Not joined into the same ButtonGroup as Search
-    expect(suggestions.closest('.btn-group')).toBeFalsy()
+    const external = container.querySelector('a[href="https://example.com"]')
     expect(search.closest('.btn-group')).toBeTruthy()
+    expect(external.closest('.btn-group')).toBe(search.closest('.btn-group'))
   })
 
   test('external link only when showExternal', function() {

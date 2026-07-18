@@ -41,6 +41,23 @@ jest.mock('../useMediaQuery', function() {
   }
 })
 
+jest.mock('../useAbcjsParser', function() {
+  return function() { return {} }
+})
+
+jest.mock('./ManualCandidatesFeedback', function() {
+  const React = require('react')
+  return function MockManual(props) {
+    if (!props.manualCandidates || !props.manualCandidates.length) return null
+    return React.createElement('div', { 'data-testid': 'notation-manual-feedback' },
+      String(props.manualCandidates.length) + ' manuals')
+  }
+})
+
+jest.mock('./LockedSourcePasteModal', function() {
+  return function MockLocked() { return null }
+})
+
 jest.mock('./FieldSearchModeDialog', function() {
   const React = require('react')
   return function MockModeDialog(props) {
@@ -49,12 +66,25 @@ jest.mock('./FieldSearchModeDialog', function() {
   }
 })
 
+jest.mock('./MelodyAnalysisRefineModal', function() {
+  return function MockRefine() { return null }
+})
+
 jest.mock('./SearchResultPickerModal', function() {
   const React = require('react')
   return function MockPicker(props) {
     if (!props.show) return null
-    return React.createElement('div', { 'data-testid': 'notation-picker' },
-      String((props.items && props.items.length) || 0) + ' items')
+    const id = props.title === 'External notation search'
+      ? 'notation-external-picker'
+      : 'notation-picker'
+    return React.createElement('div', {
+      'data-testid': id,
+      onClick: function() {
+        if (typeof props.onSelect === 'function' && props.items && props.items[0]) {
+          props.onSelect(props.items[0], 0)
+        }
+      },
+    }, String((props.items && props.items.length) || 0) + ' items')
   }
 })
 
@@ -125,17 +155,42 @@ describe('NotationSearchButton', function() {
     expect(container.querySelector('[data-testid="notation-picker"]')).not.toBeNull()
   })
 
-  test('Suggestions button reopens awaiting picker without starting a new search', function() {
-    mockActiveJob = {
-      id: 'awaiting-1',
-      status: 'awaiting',
-      candidates: [{ title: 'Demo', abc: 'X:1\nK:C\nC', source: 'test' }],
-    }
+  test('does not show Suggestions chrome', function() {
     renderButton({ leaveAwaiting: true })
-    const suggestionsBtn = container.querySelector('[data-testid="field-suggestions-open"]')
-    expect(suggestionsBtn).not.toBeNull()
-    act(function() { suggestionsBtn.click() })
-    expect(mockStartSearch).not.toHaveBeenCalled()
-    expect(container.querySelector('[data-testid="notation-picker"]')).not.toBeNull()
+    expect(container.querySelector('[data-testid="field-suggestions-open"]')).toBeNull()
+  })
+
+  test('shows MuseScore manual feedback when only locked scores are awaiting', function() {
+    renderButton()
+    expect(typeof capturedOnAwaiting).toBe('function')
+    act(function() {
+      capturedOnAwaiting({
+        candidates: [],
+        manualCandidates: [{
+          url: 'https://musescore.com/user/1/scores/2',
+          title: 'Demo',
+          source: 'musescore.com',
+          contentType: 'notation',
+        }],
+      })
+    })
+    expect(container.querySelector('[data-testid="notation-picker"]')).toBeNull()
+    expect(container.querySelector('[data-testid="notation-manual-feedback"]')).not.toBeNull()
+  })
+
+  test('external link opens one-shot chooser dialog', function() {
+    const openSpy = jest.fn()
+    const originalOpen = window.open
+    window.open = openSpy
+    renderButton()
+    const externalBtn = container.querySelector('[data-testid="notation-external-menu"]')
+    expect(externalBtn).toBeTruthy()
+    act(function() { externalBtn.click() })
+    const picker = container.querySelector('[data-testid="notation-external-picker"]')
+    expect(picker).toBeTruthy()
+    act(function() { picker.click() })
+    expect(openSpy).toHaveBeenCalled()
+    expect(String(openSpy.mock.calls[0][0] || '')).toMatch(/^https?:\/\//)
+    window.open = originalOpen
   })
 })

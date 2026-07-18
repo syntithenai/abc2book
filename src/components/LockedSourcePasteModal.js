@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Alert, Button, Form, Modal } from 'react-bootstrap'
 import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
+import { setPendingAbcImportBatch } from '../abcImportBatchStore'
 import {
   chordSheetTextToCandidate,
+  NOTATION_DOWNLOAD_FILE_ACCEPT,
   parseImportText,
 } from '../importSourceParse'
 import { createImportCandidate } from '../importReviewSession'
@@ -71,6 +73,9 @@ export default function LockedSourcePasteModal(props) {
   const [text, setText] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
+  const fileInputRef = useRef(null)
+  const allowNotationFile = !!(props.allowNotationFile || props.allowMsczFile
+    || (candidate && (candidate.contentType === 'notation' || /musescore/i.test(String(candidate.source || '') + String(candidate.host || '')))))
 
   useEffect(function() {
     if (!show) {
@@ -88,6 +93,31 @@ export default function LockedSourcePasteModal(props) {
   function openLink() {
     if (!candidate || !candidate.url) return
     window.open(candidate.url, '_blank', 'noopener,noreferrer')
+  }
+
+  function importContext() {
+    return buildImportContext({
+      tunebook: props.tunebook,
+      abcjsParser: props.abcjsParser,
+      book: props.book || '',
+      tunes: props.tunes || {},
+      resolverAvailable: !!props.resolverAvailable,
+      token: props.token,
+      accessToken: props.accessToken,
+    })
+  }
+
+  async function finishWithCandidates(candidates) {
+    if (typeof props.onImportCandidates === 'function') {
+      await props.onImportCandidates(candidates)
+      setBusy(false)
+      handleClose({ force: true })
+      return
+    }
+    requestImportReview(candidates)
+    showImportReviewUi()
+    setBusy(false)
+    handleClose({ force: true })
   }
 
   async function buildCandidates(trimmed) {
@@ -138,14 +168,16 @@ export default function LockedSourcePasteModal(props) {
 
     const result = await dispatchAddImport(
       { text: trimmed, sourceUrl: sourceUrl },
-      buildImportContext({
-        tunebook: tunebook,
-        abcjsParser: abcjsParser,
-        book: book,
-      })
+      importContext()
     )
     if (result.action === 'error') {
       throw new Error(result.message || 'Import failed')
+    }
+    if (result.action === 'batch' && result.batchSummary) {
+      setPendingAbcImportBatch(result.batchSummary)
+      setBusy(false)
+      handleClose({ force: true })
+      return null
     }
     if (result.action !== 'review' || !result.candidates || !result.candidates.length) {
       throw new Error('Could not recognize pasted content')
@@ -160,12 +192,42 @@ export default function LockedSourcePasteModal(props) {
     setBusy(true)
     try {
       const candidates = await buildCandidates(trimmed)
-      requestImportReview(candidates)
-      showImportReviewUi()
-      setBusy(false)
-      handleClose({ force: true })
+      if (!candidates) return
+      await finishWithCandidates(candidates)
     } catch (e) {
       setError(e && e.message ? e.message : 'Import failed')
+      setBusy(false)
+    }
+  }
+
+  async function handleNotationFile(file) {
+    if (!file || !props.tunebook) return
+    setError('')
+    setBusy(true)
+    try {
+      const sourceUrl = candidate && candidate.url ? candidate.url : ''
+      const result = await dispatchAddImport(file, importContext())
+      if (result.action === 'error') {
+        throw new Error(result.message || 'Could not import that file')
+      }
+      if (result.action === 'batch' && result.batchSummary) {
+        setPendingAbcImportBatch(result.batchSummary)
+        setBusy(false)
+        handleClose({ force: true })
+        return
+      }
+      if (result.action !== 'review' || !result.candidates || !result.candidates.length) {
+        throw new Error('Could not read notation from that file')
+      }
+      await finishWithCandidates(prefillCandidateMeta(result.candidates, {
+        searchTitle: props.searchTitle,
+        searchArtist: props.searchArtist,
+        fallbackTitle: candidate && candidate.title,
+        sourceUrl: sourceUrl,
+        book: props.book || '',
+      }))
+    } catch (e) {
+      setError(e && e.message ? e.message : 'Could not import that file')
       setBusy(false)
     }
   }
@@ -176,6 +238,7 @@ export default function LockedSourcePasteModal(props) {
   const pageTitle = candidate ? truncateTitle(candidate.title) : ''
   const pasteKind = contentLabel(candidate && candidate.contentType)
   const canImport = text.trim().length > 0 && !busy
+  const isNotation = (candidate && candidate.contentType === 'notation') || allowNotationFile
 
   return (
     <Modal show={show} onHide={handleClose} size="lg" backdrop="static">
@@ -191,22 +254,52 @@ export default function LockedSourcePasteModal(props) {
       </Modal.Header>
       <Modal.Body style={{ display: 'flex', flexDirection: 'column', gap: '0.75em' }}>
         <p style={{ marginBottom: 0 }}>
-          This site blocks automated import. Open the page, copy the {pasteKind}, then paste it below and import to review.
+          {isNotation
+            ? 'This MuseScore page is not available for automatic download. Open the page, download MusicXML, .mxl, .mscz, or MIDI (or copy MusicXML/ABC), then paste below or choose the saved file.'
+            : ('This site blocks automated import. Open the page, copy the ' + pasteKind + ', then paste it below and import to review.')}
         </p>
         <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap' }}>
           <Button
             variant="outline-primary"
             disabled={!candidate || !candidate.url}
             onClick={openLink}
+            data-testid="locked-source-open-link"
           >
             Open link
           </Button>
+          {allowNotationFile ? (
+            <>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept={NOTATION_DOWNLOAD_FILE_ACCEPT}
+                style={{ display: 'none' }}
+                data-testid="locked-source-notation-file-input"
+                onChange={function(e) {
+                  const file = e.target.files && e.target.files[0]
+                  e.target.value = ''
+                  if (file) handleNotationFile(file)
+                }}
+              />
+              <Button
+                variant="outline-secondary"
+                disabled={busy}
+                data-testid="locked-source-choose-file"
+                onClick={function() {
+                  if (fileInputRef.current) fileInputRef.current.click()
+                }}
+              >
+                Choose score file
+              </Button>
+            </>
+          ) : null}
           <Button
             variant="success"
             disabled={!canImport}
             onClick={handleImportToReview}
+            data-testid="locked-source-import"
           >
-            {busy ? 'Importing…' : 'Import to review'}
+            {busy ? 'Importing…' : (props.importLabel || 'Import to review')}
           </Button>
         </div>
         {error ? <Alert variant="danger">{error}</Alert> : null}
@@ -216,7 +309,10 @@ export default function LockedSourcePasteModal(props) {
           disabled={busy}
           onChange={function(e) { setText(e.target.value) }}
           style={{ minHeight: '50vh', fontFamily: 'monospace' }}
-          placeholder={'Paste the ' + pasteKind + ' here…'}
+          placeholder={isNotation
+            ? 'Paste MusicXML or ABC here…'
+            : ('Paste the ' + pasteKind + ' here…')}
+          data-testid="locked-source-paste-textarea"
         />
       </Modal.Body>
     </Modal>

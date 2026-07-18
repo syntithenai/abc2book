@@ -1,20 +1,15 @@
 import { useNavigate, useLocation } from 'react-router-dom'
 import AddSongModal from '../components/AddSongModal'
+import { useDocumentTitle } from '../pageTitle'
 
 export default function AddPage(props) {
+  useDocumentTitle('Add')
   const navigate = useNavigate()
   const location = useLocation()
   const defaultTab = location.pathname.endsWith('/bulk') ? 'bulk' : 'add'
 
   function handleRouteClose() {
     navigate('/tunes', { replace: true })
-  }
-
-  function handleActiveTabChange(tab) {
-    const target = tab === 'bulk' ? '/add/bulk' : '/add'
-    if (location.pathname !== target) {
-      navigate(target)
-    }
   }
 
   return (
@@ -38,7 +33,6 @@ export default function AddPage(props) {
       setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
       routeMode
       defaultTab={defaultTab}
-      onActiveTabChange={handleActiveTabChange}
       onRouteClose={handleRouteClose}
     />
   )

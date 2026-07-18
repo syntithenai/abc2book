@@ -11,6 +11,10 @@ export const EMPTY_MEDIA_ANALYSIS_JOB = {
   showSourceDialog: false,
   analyzingSourceId: null,
   analyzingLinkIndex: null,
+  /** Raw transcribed notes for post-import refine (in-memory only). */
+  melodySourceNotes: null,
+  timedMelody: null,
+  chordsText: '',
 };
 
 export function subscribeMediaAnalysisJobs(listener) {

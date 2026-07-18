@@ -170,6 +170,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/enrich-feed-sources') === 0) return 'enrich-feed-sources';
   if (pathAndQuery.indexOf('/help-query') === 0) return 'help-query';
   if (pathAndQuery.indexOf('/discover-composer') === 0) return 'discover-composer';
+  if (pathAndQuery.indexOf('/discover-genre') === 0) return 'discover-genre';
   if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
   if (pathAndQuery.indexOf('/transcribe-sheet-image') === 0) return 'transcribe-sheet-image';
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
@@ -534,7 +535,7 @@ export async function fetchDirectOrProxy(options) {
     }
 
     throw new Error(
-      'Could not resolve YouTube audio stream (install the YouTube Helper extension, or configure a media resolver)'
+      'Could not resolve YouTube audio stream (install the TuneBook Helper extension, or configure a media resolver)'
     );
   }
 

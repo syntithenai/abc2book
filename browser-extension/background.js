@@ -1,11 +1,14 @@
 /**
- * Tunebook YouTube Helper — MV3 service worker.
+ * TuneBook Helper — MV3 service worker.
  * Resolves YouTube audio via Innertube clients and streams
  * chunked base64 to the content script over a long-lived port.
  */
 
-const EXTENSION_VERSION = '0.1.2'
+const EXTENSION_VERSION = '0.1.3'
 const CHUNK_CHARS = 240000
+// googlevideo throttles un-ranged progressive downloads to ~playback speed;
+// ranged requests (like yt-dlp uses) download at full speed.
+const RANGE_CHUNK_BYTES = 10 * 1024 * 1024
 
 // Prefer ANDROID_VR: progressive URLs are less PO-token gated than ANDROID/IOS.
 // Keep IOS/ANDROID as fallbacks with current client versions from yt-dlp.
@@ -112,6 +115,58 @@ function pickAudioFormat(streamingData) {
   return audioOnly[0] || null
 }
 
+function parseTotalFromContentRange(contentRange) {
+  const match = /\/(\d+)\s*$/.exec(String(contentRange || ''))
+  return match ? Number(match[1]) : 0
+}
+
+async function fetchRange(url, headers, start, end) {
+  const response = await fetch(url, {
+    headers: Object.assign({}, headers, { Range: 'bytes=' + start + '-' + end }),
+  })
+  if (!response.ok) {
+    throw new Error('Ranged audio fetch HTTP ' + response.status)
+  }
+  const buffer = await response.arrayBuffer()
+  return {
+    status: response.status,
+    buffer: buffer,
+    contentRange: response.headers.get('Content-Range'),
+  }
+}
+
+async function downloadAudioBytesRanged(url, headers, declaredTotal) {
+  const parts = []
+  let received = 0
+  let total = declaredTotal > 0 ? declaredTotal : 0
+  for (;;) {
+    const start = received
+    const part = await fetchRange(url, headers, start, start + RANGE_CHUNK_BYTES - 1)
+    if (part.status !== 206) {
+      if (start === 0) {
+        // Server ignored the Range header and sent the whole body.
+        return part.buffer
+      }
+      throw new Error('Ranged audio fetch lost range support mid-download')
+    }
+    parts.push(new Uint8Array(part.buffer))
+    received += part.buffer.byteLength
+    if (!total) {
+      total = parseTotalFromContentRange(part.contentRange)
+    }
+    if (total && received >= total) break
+    if (part.buffer.byteLength < RANGE_CHUNK_BYTES) break
+    if (part.buffer.byteLength === 0) break
+  }
+  const assembled = new Uint8Array(received)
+  let offset = 0
+  for (let i = 0; i < parts.length; i++) {
+    assembled.set(parts[i], offset)
+    offset += parts[i].byteLength
+  }
+  return assembled.buffer
+}
+
 async function resolvePlayer(videoId, client) {
   const url =
     'https://www.youtube.com/youtubei/v1/player?key=' +
@@ -158,17 +213,26 @@ async function fetchYoutubeAudioBytes(videoId) {
         lastError = new Error('No progressive audio URL from ' + client.name)
         continue
       }
-      const audioResponse = await fetch(format.url, {
-        headers: {
-          'User-Agent': client.headers['User-Agent'],
-          Referer: 'https://www.youtube.com/',
-        },
-      })
-      if (!audioResponse.ok) {
-        lastError = new Error('Audio fetch HTTP ' + audioResponse.status + ' (' + client.name + ')')
-        continue
+      const audioHeaders = {
+        'User-Agent': client.headers['User-Agent'],
+        Referer: 'https://www.youtube.com/',
       }
-      const buffer = await audioResponse.arrayBuffer()
+      let buffer = null
+      try {
+        buffer = await downloadAudioBytesRanged(
+          format.url,
+          audioHeaders,
+          Number(format.contentLength) || 0
+        )
+      } catch (rangeError) {
+        // Fall back to the old single un-ranged fetch (slow but reliable).
+        const audioResponse = await fetch(format.url, { headers: audioHeaders })
+        if (!audioResponse.ok) {
+          lastError = new Error('Audio fetch HTTP ' + audioResponse.status + ' (' + client.name + ')')
+          continue
+        }
+        buffer = await audioResponse.arrayBuffer()
+      }
       if (!buffer || buffer.byteLength < 1024) {
         lastError = new Error('Empty audio from ' + client.name)
         continue

@@ -4,6 +4,7 @@ import ImportReviewModal from './ImportReviewModal'
 import AudioDriveUploadModal from './AudioDriveUploadModal'
 import {
   appendImportReviewCandidates,
+  asImportReviewChrome,
   createImportReviewSession,
   beginMergeForJob,
   currentCandidate,
@@ -66,7 +67,7 @@ import useGoogleDocument from '../useGoogleDocument'
 import { toast } from 'react-toastify'
 import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
-import { createAttachedAudioLink } from '../linkRecording'
+import { createAttachedAudioLink, createAttachedVideoLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
 import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues, formValuesToTune } from '../importReviewFieldUtils'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
@@ -75,6 +76,35 @@ import {
   asIndependentReviewCandidate,
   fieldLookupJobIdsForCandidate,
 } from '../importReviewCandidateUtils'
+import { runAddTuneAutoEnrich } from '../addTuneAutoEnrich'
+import {
+  getPendingAbcImportBatch,
+  getPendingAbcImportBatchRevision,
+  setPendingAbcImportBatch,
+  clearPendingAbcImportBatch,
+  subscribePendingAbcImportBatch,
+} from '../abcImportBatchStore'
+import {
+  applyCertainFromAbcBatch,
+  uncertainCandidatesForReview,
+} from '../abcImportBatchActions'
+import AbcImportBatchModal from './AbcImportBatchModal'
+import AddAttachAnalyzeModal from './AddAttachAnalyzeModal'
+import FileOcrReviewModal from './FileOcrReviewModal'
+import { isSheetImageImportFile } from '../importSourceParse'
+import {
+  attachSheetImageToAddDraft,
+  attachMediaFilesToAddDraft,
+} from '../addFormAttach'
+import {
+  queueOcrFromAddDraft,
+  queueMediaAnalysisFromAddDraft,
+} from '../addAttachAnalyzeActions'
+import {
+  getFileOcrReviewUiState,
+  hideFileOcrReview,
+  subscribeFileOcrReviewUi,
+} from '../fileOcrReviewUiStore'
 
 function freshTuneId() {
   return 'tune-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
@@ -105,6 +135,37 @@ async function audioFileToReviewCandidate(file, draft, token, driveApi, uploadTo
     }),
     sourceKind: 'audio',
     mergeTargetId: null,
+    skipEnrich: true,
+    mergeMode: 'suggestOnly',
+  }
+}
+
+async function videoFileToReviewCandidate(file, draft, token, driveApi, uploadToDrive) {
+  const title = (draft && draft.tune && draft.tune.name) || file.name || 'Video'
+  const artist = (draft && draft.tune ? primaryArtist(draft.tune) : '') || ''
+  const tuneBase = {
+    id: freshTuneId(),
+    name: String(title).replace(/\.[^.]+$/, ''),
+    composer: artist,
+    links: [],
+  }
+  const result = await createAttachedVideoLink({
+    tune: tuneBase,
+    file: file,
+    title: title,
+    uploadToDrive: !!uploadToDrive,
+    token: token,
+    driveApi: driveApi,
+  })
+  return {
+    tune: Object.assign({}, tuneBase, {
+      links: [result.link],
+      mediaCacheLocked: true,
+    }),
+    sourceKind: 'video',
+    mergeTargetId: null,
+    skipEnrich: true,
+    mergeMode: 'suggestOnly',
   }
 }
 
@@ -136,6 +197,35 @@ export default function ImportReviewBridge(props) {
   const [pendingAudioFiles, setPendingAudioFiles] = useState([])
   const [pendingAudioDraft, setPendingAudioDraft] = useState(null)
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false)
+  const [attachAnalyzePrompt, setAttachAnalyzePrompt] = useState(null)
+  const [attachAnalyzeBusy, setAttachAnalyzeBusy] = useState(false)
+  const [abcBatchBusy, setAbcBatchBusy] = useState(false)
+  const fileOcrReviewUi = useSyncExternalStore(
+    subscribeFileOcrReviewUi,
+    getFileOcrReviewUiState,
+    getFileOcrReviewUiState
+  )
+  const analysisDeps = useMemo(function() {
+    return {
+      tunebook: props.tunebook,
+      tunes: props.tunes || {},
+      token: props.token,
+      forceRefresh: props.forceRefresh,
+      accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+      driveApi: driveApi,
+      abcjsParser: abcjsParser,
+    }
+  }, [props.tunebook, props.tunes, props.token, props.forceRefresh, driveApi, abcjsParser])
+  const pendingAbcBatch = useSyncExternalStore(
+    subscribePendingAbcImportBatch,
+    getPendingAbcImportBatch,
+    getPendingAbcImportBatch
+  )
+  useSyncExternalStore(
+    subscribePendingAbcImportBatch,
+    getPendingAbcImportBatchRevision,
+    getPendingAbcImportBatchRevision
+  )
 
   // /review is the search-suggestions list page; Import Review stays an overlay elsewhere.
   const showImportOverlay = !onReviewRoute
@@ -159,16 +249,17 @@ export default function ImportReviewBridge(props) {
     const useBlankAdd = opts.entryMode === 'add' && listIn.length === 0
 
     if (useBlankAdd) {
-      // Transient Add form: drop any prior Add draft, keep parked review items.
-      const parked = removeAddDraftFromSession(getImportReviewSession())
-      const nextSession = ensureBlankAddSession(parked, {
+      // Transient Add form: keep an existing Add draft when present; otherwise park review items.
+      const current = getImportReviewSession()
+      const nextSession = ensureBlankAddSession(current, {
         book: opts.book || props.currentTuneBook,
         tags: opts.tags,
         skipEnrichment: !resolverAvailable,
+        addPanelMode: opts.addPanelMode,
       })
       setImportReviewSession(nextSession)
       showImportReviewUi()
-      navigate('/add')
+      navigate(opts.addPanelMode === 'bulk' ? '/add/bulk' : '/add')
       return
     }
 
@@ -239,6 +330,7 @@ export default function ImportReviewBridge(props) {
   const handleReviewSourceImport = useCallback(async function(input, draft) {
     const current = getImportReviewSession()
     if (!current) return
+    const addChrome = isAddTunesChrome(current) || current.entryMode === 'add'
 
     const importContext = buildImportContext({
       resolverAvailable: resolverAvailable,
@@ -247,13 +339,18 @@ export default function ImportReviewBridge(props) {
       tunebook: props.tunebook,
       abcjsParser: abcjsParser,
       book: props.currentTuneBook,
+      tunes: props.tunes || {},
     })
 
     const appendCandidates = function(candidates) {
       const independent = (candidates || []).map(function(candidate) {
         return asIndependentReviewCandidate(candidate, draft)
       })
-      updateSession(appendImportReviewCandidates(getImportReviewSession(), independent))
+      let next = appendImportReviewCandidates(getImportReviewSession(), independent)
+      if (next && next.entryMode === 'add' && independent.length) {
+        next = asImportReviewChrome(next)
+      }
+      updateSession(next)
     }
 
     const applyImportedTune = function(importedTune) {
@@ -275,6 +372,19 @@ export default function ImportReviewBridge(props) {
     }
 
     const normalizedInput = input && input.file ? input.file : input
+
+    // Add chrome: sheet images/PDFs → Skip/OCR dialog (default Skip = attach only).
+    if (addChrome && typeof File !== 'undefined' && normalizedInput instanceof File
+      && isSheetImageImportFile(normalizedInput)) {
+      setAttachAnalyzePrompt({
+        kind: 'sheetImage',
+        file: normalizedInput,
+        draft: draft || null,
+        fileName: normalizedInput.name || 'file',
+      })
+      return
+    }
+
     let result
     try {
       result = await dispatchAddImport(normalizedInput, importContext)
@@ -287,21 +397,207 @@ export default function ImportReviewBridge(props) {
       return
     }
 
-    if (result.action === 'audio') {
+    if (result.action === 'audio' || result.action === 'video') {
       const files = result.files || []
       if (files.length === 0) return
-      setPendingAudioDraft(draft || null)
+      // Add chrome: Skip/Analyze dialog (default Skip = attach locally, no Drive).
+      if (addChrome) {
+        setAttachAnalyzePrompt({
+          kind: 'media',
+          files: files,
+          mediaAction: result.action,
+          draft: draft || null,
+          fileName: files.length === 1
+            ? (files[0].name || 'media file')
+            : (files.length + ' media files'),
+        })
+        return
+      }
+      setPendingAudioDraft(Object.assign({}, draft || null, { mediaAction: result.action }))
       setPendingAudioFiles(files)
       setShowAudioDriveUploadModal(true)
       return
     }
 
+    if (result.action === 'batch' && result.batchSummary) {
+      setPendingAbcImportBatch(result.batchSummary)
+      return
+    }
+
     if (result.action === 'review') {
-      const outcome = processReviewResult(result, { stayOnForm: true }, applyImportedTune, appendCandidates, toast)
+      // Sheet-image transcription review: on Add, still offer attach dialog if somehow reached.
+      if (addChrome && result.candidates && result.candidates.length === 1
+        && result.candidates[0] && result.candidates[0].sourceKind === 'sheetimage'
+        && result.candidates[0].pendingFile) {
+        const pending = result.candidates[0].pendingFile
+        const file = pending.blob || pending
+        if (file) {
+          setAttachAnalyzePrompt({
+            kind: 'sheetImage',
+            file: file,
+            draft: draft || null,
+            fileName: (file && file.name) || 'file',
+          })
+          return
+        }
+      }
+      const outcome = processReviewResult(
+        result,
+        { stayOnForm: true, entryPoint: 'add' },
+        applyImportedTune,
+        appendCandidates,
+        toast
+      )
       if (outcome.handled) return
     }
-  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, abcjsParser, driveApi, updateSession, props.forceRefresh])
+  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh])
 
+  const resolveAttachBaseTune = useCallback(function(draft) {
+    const sessionNow = getImportReviewSession()
+    const candidate = currentCandidate(sessionNow)
+    return (draft && draft.tune)
+      || (candidate && candidate.tune)
+      || {}
+  }, [])
+
+  const applyOntoAddDraft = useCallback(function(nextTune, extra) {
+    const sessionNow = getImportReviewSession()
+    if (!sessionNow) return
+    const candidate = currentCandidate(sessionNow)
+    if (!candidate) return
+    updateSession(updateCurrentCandidate(sessionNow, Object.assign({
+      tune: nextTune,
+      mergeTargetId: null,
+      skipEnrich: true,
+      sourceKind: candidate.sourceKind || 'manual',
+    }, extra || {})))
+  }, [updateSession])
+
+  const handleAttachAnalyzeSkip = useCallback(async function() {
+    const prompt = attachAnalyzePrompt
+    if (!prompt) return
+    setAttachAnalyzeBusy(true)
+    try {
+      const baseTune = resolveAttachBaseTune(prompt.draft)
+      if (prompt.kind === 'media') {
+        const nextTune = await attachMediaFilesToAddDraft(baseTune, prompt.files, prompt.mediaAction)
+        applyOntoAddDraft(nextTune, {
+          sourceKind: prompt.mediaAction,
+          skipEnrich: true,
+        })
+        toast.success(prompt.mediaAction === 'video'
+          ? 'Added video to links'
+          : 'Added audio to links')
+      } else {
+        const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file)
+        applyOntoAddDraft(nextTune, { sourceKind: 'sheetimage', skipEnrich: true })
+        toast.success('Added file to this tune')
+      }
+      setAttachAnalyzePrompt(null)
+    } catch (e) {
+      toast.error((e && e.message) || 'Could not attach')
+    } finally {
+      setAttachAnalyzeBusy(false)
+    }
+  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft])
+
+  const handleAttachAnalyzeOcr = useCallback(async function() {
+    const prompt = attachAnalyzePrompt
+    if (!prompt || prompt.kind === 'media') return
+    setAttachAnalyzeBusy(true)
+    try {
+      const baseTune = resolveAttachBaseTune(prompt.draft)
+      const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file)
+      applyOntoAddDraft(nextTune, { sourceKind: 'sheetimage', skipEnrich: true })
+      await queueOcrFromAddDraft({
+        tune: nextTune,
+        tunebook: props.tunebook,
+        token: props.token,
+        driveApi: driveApi,
+        updateSession: updateSession,
+        navigate: navigate,
+      })
+      setAttachAnalyzePrompt(null)
+    } catch (e) {
+      toast.error((e && e.message) || 'Could not start OCR')
+    } finally {
+      setAttachAnalyzeBusy(false)
+    }
+  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft, props.tunebook, props.token, driveApi, updateSession, navigate])
+
+  const handleAttachAnalyzeMedia = useCallback(async function() {
+    const prompt = attachAnalyzePrompt
+    if (!prompt || prompt.kind !== 'media') return
+    setAttachAnalyzeBusy(true)
+    try {
+      const baseTune = resolveAttachBaseTune(prompt.draft)
+      const nextTune = await attachMediaFilesToAddDraft(baseTune, prompt.files, prompt.mediaAction)
+      applyOntoAddDraft(nextTune, {
+        sourceKind: prompt.mediaAction,
+        skipEnrich: true,
+      })
+      const deps = Object.assign({}, analysisDeps, {
+        tunes: Object.assign({}, analysisDeps.tunes || {}, { [nextTune.id]: nextTune }),
+      })
+      await queueMediaAnalysisFromAddDraft({
+        tune: nextTune,
+        tunebook: props.tunebook,
+        analysisDeps: deps,
+        updateSession: updateSession,
+        navigate: navigate,
+      })
+      setAttachAnalyzePrompt(null)
+    } catch (e) {
+      toast.error((e && e.message) || 'Could not start analysis')
+    } finally {
+      setAttachAnalyzeBusy(false)
+    }
+  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft, analysisDeps, props.tunebook, updateSession, navigate])
+
+  const openAbcBatchInReview = useCallback(function(includeDuplicates) {
+    const batch = getPendingAbcImportBatch()
+    if (!batch) return
+    const candidates = uncertainCandidatesForReview(batch, { includeDuplicates: !!includeDuplicates })
+    clearPendingAbcImportBatch()
+    if (!candidates.length) {
+      toast.info('Nothing left to review.')
+      return
+    }
+    startReview(candidates, { entryMode: 'import' })
+  }, [startReview])
+
+  const applyCertainAbcBatch = useCallback(function() {
+    const batch = getPendingAbcImportBatch()
+    if (!batch || !props.tunebook) return
+    setAbcBatchBusy(true)
+    applyCertainFromAbcBatch(props.tunebook, batch).then(function(outcome) {
+      const applied = outcome && outcome.applied ? outcome.applied : {}
+      const remaining = (outcome && outcome.remaining) || []
+      const parts = []
+      if (applied.updates) parts.push(applied.updates + ' updated')
+      if (applied.inserts) parts.push(applied.inserts + ' inserted')
+      if (applied.deletes) parts.push(applied.deletes + ' deleted')
+      if (parts.length) {
+        toast.success('Applied: ' + parts.join(', '))
+      } else {
+        toast.info('Nothing certain to apply.')
+      }
+      clearPendingAbcImportBatch()
+      if (remaining.length) {
+        startReview(remaining, { entryMode: 'import' })
+      } else if (typeof props.forceRefresh === 'function') {
+        props.forceRefresh()
+      }
+    }).catch(function(e) {
+      toast.error((e && e.message) || 'Could not apply import.')
+    }).finally(function() {
+      setAbcBatchBusy(false)
+    })
+  }, [props.tunebook, props.forceRefresh, startReview])
+
+  const cancelAbcBatch = useCallback(function() {
+    clearPendingAbcImportBatch()
+  }, [])
   const continuePendingAudioImport = useCallback(async function(uploadToDriveFlags) {
     const files = pendingAudioFiles.slice()
     const draft = pendingAudioDraft
@@ -310,14 +606,25 @@ export default function ImportReviewBridge(props) {
     setPendingAudioDraft(null)
     if (!files.length) return
     const candidates = []
+    const mediaAction = draft && draft.mediaAction === 'video' ? 'video' : 'audio'
     for (let i = 0; i < files.length; i += 1) {
-      candidates.push(await audioFileToReviewCandidate(
-        files[i],
-        draft,
-        props.token,
-        driveApi,
-        !!(uploadToDriveFlags && uploadToDriveFlags[i])
-      ))
+      if (mediaAction === 'video') {
+        candidates.push(await videoFileToReviewCandidate(
+          files[i],
+          draft,
+          props.token,
+          driveApi,
+          !!(uploadToDriveFlags && uploadToDriveFlags[i])
+        ))
+      } else {
+        candidates.push(await audioFileToReviewCandidate(
+          files[i],
+          draft,
+          props.token,
+          driveApi,
+          !!(uploadToDriveFlags && uploadToDriveFlags[i])
+        ))
+      }
     }
     const independent = candidates.map(function(candidate) {
       return asIndependentReviewCandidate(candidate, draft)
@@ -427,6 +734,7 @@ export default function ImportReviewBridge(props) {
       attachPendingFileFromCandidate(merged, candidate.pendingFile, {
         token: props.token,
         driveApi: driveApi,
+        uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
       }).then(function(withFile) {
         tunebook.saveTune(withFile)
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -450,6 +758,7 @@ export default function ImportReviewBridge(props) {
       attachPendingFileFromCandidate(saved, candidate.pendingFile, {
         token: props.token,
         driveApi: driveApi,
+        uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
       }).then(function(withFile) {
         if (withFile && withFile !== saved) tunebook.saveTune(withFile)
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -483,6 +792,7 @@ export default function ImportReviewBridge(props) {
         attachPendingFileFromCandidate(merged, candidate.pendingFile, {
           token: props.token,
           driveApi: driveApi,
+          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
         }).then(function(withFile) {
           tunebook.saveTune(withFile)
           tunesSnapshot[candidate.mergeTargetId] = withFile
@@ -499,6 +809,7 @@ export default function ImportReviewBridge(props) {
         attachPendingFileFromCandidate(tune, candidate.pendingFile, {
           token: props.token,
           driveApi: driveApi,
+          uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
         }).then(function(withFile) {
           if (withFile && withFile.id) {
             tunebook.saveTune(withFile)
@@ -547,6 +858,25 @@ export default function ImportReviewBridge(props) {
     hideImportReviewUi()
     navigate('/tunes')
   }, [navigate])
+
+  // Curated collection links (from the Add chrome's Curated Collections panel or
+  // elsewhere) navigate to /importlink or /importdoc. Drop the transient Add
+  // draft so the fullscreen Add dialog doesn't stay on top of the import page.
+  useEffect(function() {
+    const onImportRoute = location.pathname.indexOf('/importlink') === 0
+      || location.pathname.indexOf('/importdoc') === 0
+    if (!onImportRoute) return
+    const current = getImportReviewSession()
+    if (!current || !isAddTunesChrome(current)) return
+    const next = removeAddDraftFromSession(current)
+    if (next) {
+      updateSession(next)
+      hideImportReviewUi()
+    } else {
+      clearImportReviewEnrichmentBridge()
+      clearImportReviewSession()
+    }
+  }, [location.pathname, updateSession])
 
   useEffect(function() {
     if (!session || session.skipEnrichment) {
@@ -742,6 +1072,17 @@ export default function ImportReviewBridge(props) {
         dismissContentHashDuplicateToast()
         dismissBackgroundReviewToast()
         if (savedTune && savedTune.id) {
+          runAddTuneAutoEnrich({
+            tune: savedTune,
+            tunebook: props.tunebook,
+            abcjsParser: abcjsParser,
+            accessToken: props.token && props.token.access_token ? props.token.access_token : '',
+            resolverAvailable: resolverAvailable,
+            searchIndex: props.searchIndex,
+            loadTuneTexts: props.loadTuneTexts,
+            forceRefresh: props.forceRefresh,
+            songType: 'instrumental',
+          })
           navigate('/tunes/' + encodeURIComponent(savedTune.id))
         } else {
           navigate('/tunes')
@@ -764,7 +1105,7 @@ export default function ImportReviewBridge(props) {
       updateSession(nextSession)
       if (typeof done === 'function') done(savedTune)
     })
-  }, [finishCandidate, autoAdvanceMerge, updateSession, navigate])
+  }, [finishCandidate, autoAdvanceMerge, updateSession, navigate, props.tunebook, props.token, props.searchIndex, props.loadTuneTexts, props.forceRefresh, abcjsParser, resolverAvailable])
 
   const handleDiscardAddDraft = useCallback(function() {
     const current = getImportReviewSession()
@@ -821,6 +1162,7 @@ export default function ImportReviewBridge(props) {
         loadTuneTexts={props.loadTuneTexts}
         resolverAvailable={resolverAvailable}
         currentTuneBook={props.currentTuneBook}
+        setCurrentTuneBook={props.setCurrentTuneBook}
         onImportFile={handleReviewSourceImport}
         onImportFiles={function(files, draft) {
           return Promise.all((files || []).map(function(file) {
@@ -837,6 +1179,34 @@ export default function ImportReviewBridge(props) {
         loggedIn={!!(props.token && props.token.access_token)}
         onConfirm={continuePendingAudioImport}
         onCancel={cancelPendingAudioImport}
+      />
+      <AbcImportBatchModal
+        summary={pendingAbcBatch}
+        busy={abcBatchBusy}
+        onReviewAll={function() { openAbcBatchInReview(false) }}
+        onIncludeDuplicates={function() { openAbcBatchInReview(true) }}
+        onApplyCertain={applyCertainAbcBatch}
+        onCancel={cancelAbcBatch}
+      />
+      <AddAttachAnalyzeModal
+        show={!!attachAnalyzePrompt}
+        kind={attachAnalyzePrompt && attachAnalyzePrompt.kind}
+        fileName={attachAnalyzePrompt && attachAnalyzePrompt.fileName}
+        busy={attachAnalyzeBusy}
+        onSkip={handleAttachAnalyzeSkip}
+        onOcr={handleAttachAnalyzeOcr}
+        onAnalyze={handleAttachAnalyzeMedia}
+        onCancel={function() {
+          if (attachAnalyzeBusy) return
+          setAttachAnalyzePrompt(null)
+        }}
+      />
+      <FileOcrReviewModal
+        show={!!fileOcrReviewUi.show}
+        focusJobId={fileOcrReviewUi.focusJobId}
+        onHide={hideFileOcrReview}
+        tunes={props.tunes}
+        tunebook={props.tunebook}
       />
     </>
   )

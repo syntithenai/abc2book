@@ -231,6 +231,17 @@ describe('viewModeUtils display flags', function() {
       tunebook,
       { hasChords: true }
     )).toBe('notation,chords,noinfo');
+    // Notation + lyrics: structure block stays off by default.
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['CDEF|'] } }, wLines: ['Hello'] },
+      tunebook,
+      { hasChords: true }
+    )).toBe('notation,lyrics,chords,noinfo');
+    expect(defaultViewModeForTune(
+      { voices: { '1': { notes: ['CDEF|'] } }, wLines: ['Hello'] },
+      tunebook,
+      { hasChords: false }
+    )).toBe('notation,lyrics,noinfo');
   });
 });
 

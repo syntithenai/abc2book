@@ -49,16 +49,23 @@ ARG MELODY_PREFETCH_DEVICE=cpu
 COPY constraints-build.txt /build/constraints-build.txt
 COPY requirements-chords.txt /build/requirements-chords.txt
 COPY requirements-melody.txt /build/requirements-melody.txt
+COPY requirements-amt.txt /build/requirements-amt.txt
 COPY prefetch_autochord.py /build/prefetch_autochord.py
 COPY prefetch_madmom.py /build/prefetch_madmom.py
 COPY prefetch_demucs.py /build/prefetch_demucs.py
 COPY prefetch_basic_pitch.py /build/prefetch_basic_pitch.py
+COPY prefetch_btc.py /build/prefetch_btc.py
+COPY prefetch_kong.py /build/prefetch_kong.py
+COPY btc_chords /build/btc_chords
 
 # Applied to isolated build environments too, so legacy setup.py builds (crepe,
 # madmom) get a setuptools that still provides pkg_resources.
 ENV PIP_CONSTRAINT=/build/constraints-build.txt
 
 ENV AUTOCHORD_VENV=/opt/autochord-venv
+ENV BTC_MODEL_DIR=/opt/btc-chords
+ENV KONG_MODEL_DIR=/opt/kong-piano
+ENV KONG_CHECKPOINT_PATH=/opt/kong-piano/note_F1=0.9677_pedal_F1=0.9186.pth
 RUN python -m venv "${AUTOCHORD_VENV}" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --upgrade pip \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "setuptools<82" wheel \
@@ -67,13 +74,16 @@ RUN python -m venv "${AUTOCHORD_VENV}" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-chords.txt \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir torch torchaudio --index-url ${MELODY_TORCH_INDEX} \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-melody.txt \
+    && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir -r /build/requirements-amt.txt \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir "Cython>=0.29" \
     && "${AUTOCHORD_VENV}/bin/pip" install --no-cache-dir --no-build-isolation \
         "madmom @ git+https://github.com/CPJKU/madmom.git@main" \
     && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_autochord.py \
     && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_madmom.py \
     && MELODY_PREFETCH_DEVICE=${MELODY_PREFETCH_DEVICE} "${AUTOCHORD_VENV}/bin/python" /build/prefetch_demucs.py \
-    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_basic_pitch.py
+    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_basic_pitch.py \
+    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_btc.py \
+    && "${AUTOCHORD_VENV}/bin/python" /build/prefetch_kong.py
 
 
 FROM ghcr.io/ggml-org/whisper.cpp:main-vulkan
@@ -122,11 +132,18 @@ RUN pip3 install --no-cache-dir --break-system-packages -r /app/requirements.txt
 ENV AUTOCHORD_VENV=/opt/autochord-venv
 COPY --from=autochord-env /opt/autochord-venv /opt/autochord-venv
 COPY --from=autochord-env /root/.autochord /root/.autochord
+COPY --from=autochord-env /opt/btc-chords /opt/btc-chords
+COPY --from=autochord-env /opt/kong-piano /opt/kong-piano
+COPY --from=autochord-env /root/piano_transcription_inference_data /root/piano_transcription_inference_data
 # Demucs 4.1+ prefetches bag models (htdemucs, …) into the HuggingFace hub
 # cache; legacy AWS fallbacks still use the torch hub cache. Copy both so
 # stem separation works offline at runtime (otherwise it re-downloads).
 COPY --from=autochord-env /root/.cache/huggingface /root/.cache/huggingface
 COPY --from=autochord-env /root/.cache/torch /root/.cache/torch
+ENV BTC_MODEL_DIR=/opt/btc-chords
+ENV KONG_MODEL_DIR=/opt/kong-piano
+ENV KONG_CHECKPOINT_PATH=/opt/kong-piano/note_F1=0.9677_pedal_F1=0.9186.pth
+ENV CHORD_BACKEND=auto
 ENV VISION_VENV=/opt/vision-venv
 ENV VISION_CACHE_ROOT=/opt/vision-cache
 ENV PADDLE_PDX_CACHE_HOME=/opt/vision-cache
@@ -153,6 +170,7 @@ COPY server.py /app/server.py
 COPY allowlists.py /app/allowlists.py
 COPY providers.py /app/providers.py
 COPY provider_cloud.py /app/provider_cloud.py
+COPY provider_stems_cloud.py /app/provider_stems_cloud.py
 COPY soundfont_download.py /app/soundfont_download.py
 COPY oauth_bff.py /app/oauth_bff.py
 COPY subprocess_utils.py /app/subprocess_utils.py
@@ -170,12 +188,21 @@ COPY midi_fetch.py /app/midi_fetch.py
 COPY lyrics_fetch.py /app/lyrics_fetch.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
 COPY composer_discovery.py /app/composer_discovery.py
+COPY genre_discovery.py /app/genre_discovery.py
+COPY feed_generation.py /app/feed_generation.py
+COPY feed_source_scrape.py /app/feed_source_scrape.py
+COPY llm_runtime.py /app/llm_runtime.py
+COPY analyze_practice.py /app/analyze_practice.py
 COPY bulk_list_format.py /app/bulk_list_format.py
 COPY tune_background_research.py /app/tune_background_research.py
 COPY voice_command.py /app/voice_command.py
 COPY playback_region_detect.py /app/playback_region_detect.py
 COPY detect_chords.py /app/detect_chords.py
+COPY madmom_chords.py /app/madmom_chords.py
+COPY btc_chords /app/btc_chords
 COPY detect_melody.py /app/detect_melody.py
+COPY midi_note_events.py /app/midi_note_events.py
+COPY provider_amt_cloud.py /app/provider_amt_cloud.py
 COPY detect_timing.py /app/detect_timing.py
 COPY chord_processing.py /app/chord_processing.py
 COPY melody_pitch_processing.py /app/melody_pitch_processing.py
@@ -183,6 +210,9 @@ COPY audio_analysis_filters.py /app/audio_analysis_filters.py
 COPY stem_separation.py /app/stem_separation.py
 COPY separate_stems.py /app/separate_stems.py
 COPY eval_transcription.py /app/eval_transcription.py
+COPY scripts/eval_chords.py /app/scripts/eval_chords.py
+COPY scripts/eval_melody_backends.py /app/scripts/eval_melody_backends.py
+COPY prefetch_kong.py /app/prefetch_kong.py
 COPY prefetch_vision.py /app/prefetch_vision.py
 COPY chord_sheet_utils.py /app/chord_sheet_utils.py
 COPY sheet_image_staff_detect.py /app/sheet_image_staff_detect.py

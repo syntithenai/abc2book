@@ -2381,6 +2381,13 @@ export default function NotationEditor(props) {
                 onToggleTie={handleToggleTie}
                 onMarkAction={handleMarkAction}
                 onTupletAction={handleTupletAction}
+                onApplyAccidental={function(value) {
+                  if (value == null) {
+                    dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: null });
+                    return;
+                  }
+                  handleShortcutAction({ action: 'accidental', value: value });
+                }}
                 onToggleRecord={handleToggleRecord}
                 onApplyRecord={handleApplyRecord}
                 onDiscardRecord={handleDiscardRecord}
@@ -2417,13 +2424,6 @@ export default function NotationEditor(props) {
               } else {
                 dispatch({ type: 'SET_DURATION_KEY', key: key });
               }
-            }}
-            onApplyAccidental={function(value) {
-              if (value == null) {
-                dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: null });
-                return;
-              }
-              handleShortcutAction({ action: 'accidental', value: value });
             }}
             onInsertSystemBreak={function() {
               insertLayout(insertSystemBreakAtCaret, 'Insert system break');

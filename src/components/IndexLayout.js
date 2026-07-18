@@ -1,22 +1,22 @@
 /* global window */
 import {Link, useNavigate} from 'react-router-dom'
-import {Button, Badge, ButtonGroup} from 'react-bootstrap'
+import {Button, Badge} from 'react-bootstrap'
 import {ListGroup} from 'react-bootstrap'
 import {useState, useEffect, useRef, useCallback} from 'react'
 import IndexSearchForm from './IndexSearchForm'
 import BoostSettingsModal from './BoostSettingsModal'
-import StarToggleButton from './StarToggleButton'
 import SelectedItemsModal from './SelectedItemsModal'
 import TuneListFilterChips from './TuneListFilterChips'
     
 import Abc from './Abc'
-import {buildSearchPageTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import {buildSearchPageTitle, DEFAULT_APP_TITLE, SEARCH_PAGE_TITLE_BASE, setDocumentTitle} from '../pageTitle'
 import { getLyricLines } from '../wLinesUtils'
 import { compareSearchGroupKeys } from '../searchListOrder'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
 import { toast } from 'react-toastify'
 
 var LIST_PROTECTION_LIMIT = 500
+var PREVIEW_LIST_LIMIT = 150
 
 export default function IndexLayout(props) {
     //var [filtered, setFiltered] = useState('')
@@ -62,11 +62,12 @@ export default function IndexLayout(props) {
     },[props.setScrollOffset])
 
     useEffect(function() {
-        setDocumentTitle(buildSearchPageTitle(props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter))
+        const base = props.searchTitleBase || SEARCH_PAGE_TITLE_BASE
+        setDocumentTitle(buildSearchPageTitle(props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, base))
         return function() {
             setDocumentTitle(DEFAULT_APP_TITLE)
         }
-    }, [props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter])
+    }, [props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.searchTitleBase])
 
     // reset selection when grouping, book, tag or genre filters change (but not text filter)
     useEffect(function() {
@@ -394,9 +395,10 @@ export default function IndexLayout(props) {
     
     function renderListItems(filtered) {
         var displayMode = props.listDisplayMode || 'compact'
+        var previewAllowed = !(props.filtered && props.filtered.length > PREVIEW_LIST_LIMIT)
         var isCompact = displayMode === 'compact'
-        var isDetailed = displayMode === 'detailed'
-        var isPreview = displayMode === 'preview'
+        var isPreview = displayMode === 'preview' && previewAllowed
+        var isDetailed = displayMode === 'detailed' || (displayMode === 'preview' && !previewAllowed)
         var showRowExtras = (isDetailed || isPreview) && filtered.length > 0 && filtered.length < LIST_PROTECTION_LIMIT
         var showChips = isDetailed || isPreview
 
@@ -410,10 +412,7 @@ export default function IndexLayout(props) {
                     {(tune && tune.id && (!selected || !selected[tune.id])) && <Button className="tune-list-select-btn" variant={'secondary'} size="lg" aria-label="Not selected" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                 </>}
                 <div className="tune-list-item-title-block">
-                <ButtonGroup className="tune-list-title-group">
-                <StarToggleButton className="tune-list-star-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
-                <Link className="tune-list-item-title" key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" size="lg">{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{tune.composer ? ' - ' + tune.composer : ''}</span></Button></Link>
-                </ButtonGroup>
+                <span className="tune-list-item-title"><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" size="lg">{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{tune.composer ? ' - ' + tune.composer : ''}</span></Button> </Link></span>
                 {showChips ? (
                 <TuneListFilterChips
                   books={tune.books}
@@ -502,7 +501,7 @@ export default function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} tagCollation={tagCollation} />
+            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
 
 			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >

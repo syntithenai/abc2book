@@ -19,6 +19,7 @@ COPY server_light.py /app/server_light.py
 COPY allowlists.py /app/allowlists.py
 COPY providers.py /app/providers.py
 COPY provider_cloud.py /app/provider_cloud.py
+COPY provider_stems_cloud.py /app/provider_stems_cloud.py
 COPY oauth_bff.py /app/oauth_bff.py
 COPY midi_convert.py /app/midi_convert.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
@@ -29,7 +30,7 @@ ENV REQUIRE_AUTH=true
 ENV WHISPER_ENABLED=true
 ENV LLM_ENABLED=true
 ENV PROXY_ENABLED=true
-ENV STEMS_ENABLED=false
+ENV STEMS_ENABLED=true
 ENV SHEET_IMAGE_ENABLED=false
 ENV YTDLP_REQUIRE_USER_PROXY=true
 ENV PORT=8080

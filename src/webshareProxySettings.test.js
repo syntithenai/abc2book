@@ -5,6 +5,7 @@ import {
   setSavedWebshareProxyUrl,
 } from './webshareProxySettings'
 import { youtubeAudioBytesAvailableSync } from './youtubeUnlock'
+import { __resetYoutubeExtensionPingCache } from './youtubeExtensionClient'
 
 describe('webshareProxySettings', function() {
   beforeEach(function() {
@@ -25,6 +26,8 @@ describe('webshareProxySettings', function() {
 describe('youtubeUnlock', function() {
   beforeEach(function() {
     localStorage.clear()
+    __resetYoutubeExtensionPingCache()
+    document.documentElement.removeAttribute('data-tunebook-yt-helper')
   })
 
   test('BYOR fat proxy unlocks without webshare', function() {
@@ -47,5 +50,11 @@ describe('youtubeUnlock', function() {
     expect(youtubeAudioBytesAvailableSync({
       resolverFeatures: { proxy: false, youtubeAudio: true },
     })).toBe(true)
+  })
+
+  test('extension DOM marker unlocks sync check without resolver', function() {
+    expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
+    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+    expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(true)
   })
 })

@@ -56,12 +56,21 @@ export function collectReadyReviewKeys(summary) {
   return keys
 }
 
+/**
+ * Ready toast is only for attach-analysis work (file OCR / media), not field lookups.
+ */
+export function collectAttachAnalysisReadyKeys(summary) {
+  return collectReadyReviewKeys(summary).filter(function(key) {
+    return key.indexOf('fileocr:') === 0 || key.indexOf('media:') === 0
+  })
+}
+
 function readyFingerprint(summary) {
-  return collectReadyReviewKeys(summary).slice().sort().join('|')
+  return collectAttachAnalysisReadyKeys(summary).slice().sort().join('|')
 }
 
 function hasNewReadyWork(summary) {
-  const currentKeys = collectReadyReviewKeys(summary)
+  const currentKeys = collectAttachAnalysisReadyKeys(summary)
   if (!snoozedReadyKeys) return currentKeys.length > 0
   return currentKeys.some(function(key) {
     return !snoozedReadyKeys.has(key)
@@ -80,7 +89,7 @@ function shouldSuppressReadyToast(summary, opts) {
 
 export function snoozeBackgroundReviewToast() {
   const summary = getBackgroundReviewSummary()
-  snoozedReadyKeys = new Set(collectReadyReviewKeys(summary))
+  snoozedReadyKeys = new Set(collectAttachAnalysisReadyKeys(summary))
   shownReadyFingerprint = readyFingerprint(summary) || null
   dismissBackgroundReviewToast()
 }
@@ -112,15 +121,73 @@ function renderReviewToast(message, opts, renderProps) {
 }
 
 /**
- * Old "ready for review" persistent toast retired — field searches use short
- * finish toasts plus the Review N Search Suggestions page.
+ * Show ready toast for file OCR (and media keys if present). Field-lookup ready
+ * items stay on the Review suggestions page without a persistent toast.
  */
 export function syncBackgroundReviewToast(options) {
-  dismissReviewToastProgrammatically()
-  toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
-  lastProcessingCount = 0
-  shownReadyFingerprint = null
-  return null
+  const opts = options || {}
+  const summary = getBackgroundReviewSummary() || {}
+  const attachReadyKeys = collectAttachAnalysisReadyKeys(summary)
+  const readyCount = attachReadyKeys.length
+  const processingCount = (summary.fileOcrProcessing && summary.fileOcrProcessing.length)
+    ? summary.fileOcrProcessing.length
+    : 0
+  const mediaProcessing = summary.mediaProcessing && summary.mediaProcessing.length
+    ? summary.mediaProcessing.length
+    : 0
+  const totalProcessing = processingCount + mediaProcessing
+  const readyMessage = readyCount > 0
+    ? (readyCount === 1 ? '1 file OCR result ready' : (readyCount + ' file OCR results ready'))
+    : ''
+  const processingMessage = totalProcessing > 0 ? totalProcessing + ' still processing' : ''
+  const fingerprint = readyFingerprint(summary)
+  const processingDroppedToZero = lastProcessingCount > 0 && totalProcessing === 0
+  const fingerprintChanged = fingerprint !== shownReadyFingerprint
+  const suppressed = !readyMessage || shouldSuppressReadyToast(summary, opts)
+  const shouldShowReady = !suppressed
+    && totalProcessing === 0
+    && (processingDroppedToZero || fingerprintChanged)
+
+  if (suppressed || totalProcessing > 0 || !shouldShowReady) {
+    if (suppressed || readyCount === 0) {
+      dismissReviewToastProgrammatically()
+      if (readyCount === 0) shownReadyFingerprint = null
+    }
+  } else {
+    suppressNextCloseCapture = false
+    shownReadyFingerprint = fingerprint
+    toast.warn(
+      function(renderProps) {
+        return renderReviewToast(readyMessage, opts, renderProps)
+      },
+      {
+        toastId: BACKGROUND_REVIEW_TOAST_ID,
+        autoClose: false,
+        closeOnClick: false,
+        onClose: function() {
+          if (suppressNextCloseCapture) {
+            suppressNextCloseCapture = false
+            return
+          }
+          markReviewToastDismissedNow()
+        },
+      }
+    )
+  }
+
+  lastProcessingCount = totalProcessing
+
+  if (!processingMessage) {
+    toast.dismiss(BACKGROUND_PROCESSING_TOAST_ID)
+  } else if (opts.showProcessingNotice) {
+    toast.info(processingMessage, {
+      toastId: BACKGROUND_PROCESSING_TOAST_ID,
+      autoClose: PROCESSING_TOAST_AUTO_CLOSE_MS,
+      hideProgressBar: true,
+    })
+  }
+
+  return readyMessage || processingMessage || null
 }
 
 export function showBackgroundProcessingNotice(options) {

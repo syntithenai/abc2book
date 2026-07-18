@@ -16,6 +16,7 @@ import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
 import BulkComposerDiscoveryModal from './BulkComposerDiscoveryModal'
 import { capitalizeSongTitle, isSongTitleCapitalized } from '../titleCaseUtils'
 import { primaryArtist } from '../tuneBibliographicUtils'
+import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings'
 
 function formatPreviewSummary(preview) {
   const parts = []
@@ -31,7 +32,7 @@ function formatPreviewSummary(preview) {
   return parts.join(' · ')
 }
 
-function ResolverStatusMessage({ checked, resolverAvailable, features, onRetry, retrying }) {
+function ResolverStatusMessage({ checked, resolverAvailable, features, onRetry, retrying, llmAvailable }) {
   if (!checked) {
     return (
       <div className="bulk-search-resolver-status">
@@ -56,12 +57,12 @@ function ResolverStatusMessage({ checked, resolverAvailable, features, onRetry, 
     )
   }
 
-  if (!features.llm) {
+  if (!llmAvailable) {
     return (
       <Alert variant="warning">
         <p style={{ marginBottom: '0.5em' }}>
-          The resolver is running, but the LLM for background research is not available.
-          Start LM Studio (or your OpenAI-compatible LLM) and ensure the resolver can reach it.
+          Background research needs an LLM. Add a key under Settings → Providers, or start a local
+          OpenAI-compatible LLM (LM Studio / Ollama) that the resolver can reach.
         </p>
         <p style={{ marginBottom: '0.5em', fontSize: '0.95em' }}>
           If the resolver runs in Docker on Linux, LM Studio usually listens only on{' '}
@@ -113,7 +114,7 @@ export default function BulkSearchModal({
     features,
     refreshMediaResolverHealth,
   } = useMediaResolverHealth()
-  const canResearchBackground = resolverAvailable && features.llm
+  const canResearchBackground = resolverAvailable && isCapabilityAvailable('llm', features, loadProviderSettings())
 
   const analysisDeps = useMemo(function() {
     const tunes = {}
@@ -333,6 +334,7 @@ export default function BulkSearchModal({
         checked={checked}
         resolverAvailable={resolverAvailable}
         features={features}
+        llmAvailable={canResearchBackground}
         onRetry={handleRetryHealth}
         retrying={retrying}
       />

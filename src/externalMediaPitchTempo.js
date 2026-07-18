@@ -1,6 +1,7 @@
 import PitchTempoShifter from './pitchTempoShifter';
 import { fetchAndDecodeExternalMedia } from './externalMediaAudioLoader';
-import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './externalMediaAudioCache';
+import { decodeAudioBytes } from './audioDecodeBytes';
+import { getCachedExternalMediaBlob, getExternalMediaCacheKey, putExternalMediaCache } from './externalMediaAudioCache';
 import { trimAudioBuffer } from './mediaAudioTrim';
 import { mixStemBuffers, resampleBufferToContextRate } from './audioStemMixer';
 import { audioFiltersAreNeutral } from './pitchTempoUtils';
@@ -38,14 +39,18 @@ export default class ExternalMediaPitchTempo {
     let audioBuffer = null;
     const accessToken = cacheOptions && cacheOptions.accessToken ? cacheOptions.accessToken : null;
 
-    if (cacheOptions && cacheOptions.tuneId !== undefined && cacheOptions.linkIndex !== undefined) {
-      const cacheKey = getExternalMediaCacheKey(cacheOptions.tuneId, cacheOptions.linkIndex, src);
+    const cacheable = !!(cacheOptions && cacheOptions.tuneId !== undefined && cacheOptions.linkIndex !== undefined);
+    const cacheKey = cacheable
+      ? getExternalMediaCacheKey(cacheOptions.tuneId, cacheOptions.linkIndex, src)
+      : null;
+
+    if (cacheable) {
       const cached = await getCachedExternalMediaBlob(cacheKey);
       if (cached && cached.blob) {
         const arrayBuffer = await cached.blob.arrayBuffer();
-        const decodeModule = await import('audio-decode');
-        const decode = decodeModule.default || decodeModule;
-        audioBuffer = await decode(arrayBuffer);
+        // Decode on this.audioContext so the result is already at the
+        // context sample rate and the resample below is a no-op.
+        audioBuffer = await decodeAudioBytes(arrayBuffer, this.audioContext);
       }
     }
 
@@ -53,6 +58,13 @@ export default class ExternalMediaPitchTempo {
       const decoded = await fetchAndDecodeExternalMedia(src, srcType, youtubeGetId, accessToken);
       if (this._loadAborted) return null;
       audioBuffer = decoded.audioBuffer;
+      if (cacheable && decoded.arrayBuffer) {
+        // Write-through the original compressed bytes so future sessions
+        // skip the download. Fire-and-forget; playback must not wait, and
+        // storing source bytes avoids a main-thread re-encode.
+        const blob = new Blob([decoded.arrayBuffer], { type: decoded.mime || 'application/octet-stream' });
+        putExternalMediaCache(cacheKey, blob, decoded.duration, 'source').catch(function() {});
+      }
     }
 
     if (this._loadAborted) return null;

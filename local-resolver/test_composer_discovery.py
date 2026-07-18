@@ -406,7 +406,16 @@ class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
             async def post(self, url, headers=None, json=None, timeout=None):
                 return FakeResponse()
 
-        with patch("composer_discovery.LLM_BASE_URL", "http://llm.test"):
+        with patch(
+            "llm_runtime.get_active_llm_config",
+            return_value={
+                "provider": "local",
+                "apiUrl": "http://llm.test",
+                "apiKey": "k",
+                "model": "m",
+                "source": "env",
+            },
+        ):
             ranked = await _rank_writers_llm(
                 FakeClient(),
                 "Claire de Lune",
@@ -419,7 +428,16 @@ class ComposerRankTests(unittest.IsolatedAsyncioTestCase):
             async def post(self, *args, **kwargs):
                 raise AssertionError("LLM should not be called")
 
-        with patch("composer_discovery.LLM_BASE_URL", ""):
+        with patch(
+            "llm_runtime.get_active_llm_config",
+            return_value={
+                "provider": "local",
+                "apiUrl": "",
+                "apiKey": "",
+                "model": "",
+                "source": "env",
+            },
+        ):
             ranked = await _rank_writers_llm(
                 FakeClient(),
                 "Claire de Lune",

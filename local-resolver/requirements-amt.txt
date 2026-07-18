@@ -1,0 +1,7 @@
+# Local AMT backends baked into the full resolver image (autochord / melody venv).
+# Kong (ByteDance piano transcription) + MIDI helpers for MIDI→note-event adapter.
+# mt3-infer is intentionally omitted: large multi-GB deps; install manually or use
+# MELODY_AMT_PROVIDER=replicate when multi-instrument AMT is needed.
+piano_transcription_inference>=1.0.2
+pretty_midi>=0.2.10
+mido>=1.3.0

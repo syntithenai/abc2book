@@ -58,6 +58,7 @@ import { handleQueueAdvanceOnEnded, playCurrentQueueItem, playQueueItem, navigat
 import useTuneBookMediaController from './useTuneBookMediaController'
 import usePracticeSession from './usePracticeSession'
 import usePracticeRouteSync from './usePracticeRouteSync'
+import useSearchFilterRouteSync from './useSearchFilterRouteSync'
 import ImportModalRoutePage from './pages/ImportModalRoutePage'
 import AddPage from './pages/AddPage'
 import LegacyShowParamRedirect from './LegacyShowParamRedirect'
@@ -71,7 +72,6 @@ import BulkCheckCompleteToastHost from './components/BulkCheckCompleteToastHost'
 import BackgroundJobCompletionNotifications from './backgroundJobCompletionNotifications'
 import BackgroundReviewNotifications from './backgroundReviewNotifications'
 import ImportReviewBridge from './components/ImportReviewBridge'
-import ReviewPage from './pages/ReviewPage'
 import {
   restoreAndResume,
   setBulkBackgroundResearchQueueContext,
@@ -113,7 +113,7 @@ import { applyDriveRecordStateToTunes } from './incomingMergeUtils'
 
 import {useState, useEffect, useRef, useCallback} from 'react';
 //import jwt_decode from "jwt-decode";
-import {HashRouter as Router, Routes, Route, Link, useLocation, useParams, useNavigate, useSearchParams} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route, Link, Navigate, useLocation, useParams, useNavigate, useSearchParams} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './theme.css';
 import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
@@ -148,6 +148,11 @@ function PracticeRouteSync({ practiceSession }) {
   return null
 }
 
+function SearchFilterRouteSync(props) {
+  useSearchFilterRouteSync(props)
+  return null
+}
+
 function AppImportReviewBridge(props) {
   const navigate = useNavigate()
   return (
@@ -160,6 +165,7 @@ function AppImportReviewBridge(props) {
       loadTuneTexts={props.loadTuneTexts}
       forceRefresh={props.forceRefresh}
       currentTuneBook={props.currentTuneBook}
+      setCurrentTuneBook={props.setCurrentTuneBook}
       login={props.login}
       requestGoogleScopes={props.requestGoogleScopes}
       onOpenTune={function(tune) {
@@ -946,6 +952,20 @@ function App(props) {
             <RouteAnalytics />
             <LegacyShowParamRedirect />
             <PracticeRouteSync practiceSession={practiceSession} />
+            <SearchFilterRouteSync
+              currentTuneBook={currentTuneBook}
+              setCurrentTuneBook={setCurrentTuneBook}
+              filter={filter}
+              setFilter={setFilter}
+              tagFilter={tagFilter}
+              setTagFilter={setTagFilter}
+              genreFilter={genreFilter}
+              setGenreFilter={setGenreFilter}
+              artistFilter={artistFilter}
+              setArtistFilter={setArtistFilter}
+              groupBy={groupBy}
+              setGroupBy={setGroupBy}
+            />
             <LongRunningJobNavigationGuard />
             <BulkCheckYoutubeHost />
             <BulkCheckCompleteToastHost />
@@ -1012,6 +1032,7 @@ function App(props) {
                 loadTuneTexts={loadTuneTexts}
                 forceRefresh={forceRefresh}
                 currentTuneBook={currentTuneBook}
+                setCurrentTuneBook={setCurrentTuneBook}
                 login={login}
                 requestGoogleScopes={requestGoogleScopes}
                 setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
@@ -1099,8 +1120,8 @@ function App(props) {
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} />}  />
-                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} />}  />
-                    <Route  path={`review`} element={<ReviewPage tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} token={token} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} forceRefresh={forceRefresh} currentTuneBook={currentTuneBook} />} />
+                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} />}  />
+                    <Route  path={`review`} element={<Navigate to="/" replace />} />
                     <Route  path={`sets`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`sets/:setId`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`gig`} element={<SetsPage gigPickerMode={true} tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />

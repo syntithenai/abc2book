@@ -7,14 +7,41 @@ function makeId(prefix) {
   return prefix + '_' + Math.random().toString(36).slice(2, 9)
 }
 
+const BOILERPLATE_RE = new RegExp([
+  '^lyrics\\b',
+  'lyrics (for|to|of)\\b',
+  '\\blyrics and translation',
+  'listen to (the )?song',
+  'official (music )?video',
+  'watch the video',
+  'read the lyrics',
+  'find the lyrics',
+  'song meanings?\\b.*community',
+  'is a song by\\b.{0,40}$',
+].join('|'), 'i')
+
+/**
+ * Keep only descriptions that read like real background prose, not
+ * lyrics-site boilerplate or lyric excerpts.
+ */
+export function isUsefulSongNote(text) {
+  const t = String(text || '').trim()
+  if (t.length < 80) return false
+  if (BOILERPLATE_RE.test(t)) return false
+  // Require at least two sentence endings — lyric excerpts rarely have them.
+  const sentences = t.match(/[.!?](\s|$)/g)
+  if (!sentences || sentences.length < 2) return false
+  return true
+}
+
 function itemsFromFacts(facts, tune) {
   const now = Date.now()
   const title = String(tune && tune.name || 'Tune')
-  return (facts || []).map(function(f, idx) {
+  return (facts || []).map(function(f) {
     const text = String(f.objectText || f.rawSnippet || '').trim()
-    if (!text || text.length < 20) return null
     // Never turn lyric-only payloads into quizzes
     if (f.predicate === 'lyrics') return null
+    if (!isUsefulSongNote(text)) return null
     const c = {
       predicate: f.predicate || 'bio_snippet',
       subjectName: title,
@@ -26,13 +53,13 @@ function itemsFromFacts(facts, tune) {
       type: 'dyk',
       tuneId: c.tuneId,
       artist: primaryArtist(tune),
-      headline: 'Artist note: ' + title,
+      headline: 'About “' + title + '”',
       teaser: text.slice(0, 140) + (text.length > 140 ? '…' : ''),
       body: text,
       imageUrl: '',
       source: f.source || 'musixmatch',
       sourceUrl: String(f.sourceUrl || ''),
-      factHash: factHash(c) + '_mx_' + idx,
+      factHash: factHash(c),
       generation: f.source || 'musixmatch',
       quiz: null,
       lessonId: null,

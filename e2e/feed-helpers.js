@@ -1,6 +1,7 @@
 'use strict'
 
 const FEED_ITEMS_KEY = 'bookstorage_feed_items'
+const FEED_ITEMS_VERSION_KEY = 'bookstorage_feed_items_version'
 const PRACTICE_KEY = 'bookstorage_practice_settings'
 const VIEW_KEY = 'bookstorage_tune_view_history'
 
@@ -14,7 +15,9 @@ function sampleItems(count) {
       artist: 'Artist',
       headline: 'Seed card ' + i,
       teaser: 'Teaser ' + i,
-      body: 'Body text for seed card ' + i + '. More detail here for expand.',
+      body: 'Body text for seed card ' + i + '. More detail here for expand.\n\n'
+        + 'Second paragraph with background context that should remain visible when expanded. '
+        + 'Third paragraph continues the story so the expand pane is clearly longer than the teaser.',
       imageUrl: '',
       source: 'local',
       sourceUrl: '',
@@ -22,16 +25,33 @@ function sampleItems(count) {
       generation: 'local',
       quiz: i === 1 ? {
         id: 'seed_q1',
-        type: 'mcq',
-        prompt: '2+2?',
-        choices: [
-          { id: 'a', text: '4', correct: true },
-          { id: 'b', text: '3' },
-          { id: 'c', text: '5' },
-          { id: 'd', text: '22' },
+        title: 'Seed quiz',
+        questions: [
+          {
+            id: 'seed_q1_a',
+            prompt: '2+2?',
+            choices: [
+              { id: 'a', text: '4', correct: true },
+              { id: 'b', text: '3' },
+              { id: 'c', text: '5' },
+              { id: 'd', text: '22' },
+            ],
+            explain: 'Basic arithmetic: two plus two is four.',
+            difficulty: 0,
+          },
+          {
+            id: 'seed_q1_b',
+            prompt: 'Capital of France?',
+            choices: [
+              { id: 'a', text: 'Paris', correct: true },
+              { id: 'b', text: 'Lyon' },
+              { id: 'c', text: 'Nice' },
+              { id: 'd', text: 'Lille' },
+            ],
+            explain: 'Paris is the capital.',
+            difficulty: 0,
+          },
         ],
-        explain: 'Basic arithmetic: two plus two is four.',
-        difficulty: 0,
       } : null,
       lessonId: null,
       createdAt: Date.now() - i,
@@ -53,10 +73,13 @@ async function seedFeedStorage(page, options) {
   const opts = options || {}
   await page.evaluate(function(payload) {
     localStorage.setItem(payload.FEED_ITEMS_KEY, JSON.stringify(payload.items))
+    localStorage.setItem(payload.FEED_ITEMS_VERSION_KEY, String(payload.version))
     localStorage.setItem(payload.PRACTICE_KEY, JSON.stringify(payload.practice))
     localStorage.setItem(payload.VIEW_KEY, JSON.stringify(payload.views))
   }, {
     FEED_ITEMS_KEY: FEED_ITEMS_KEY,
+    FEED_ITEMS_VERSION_KEY: FEED_ITEMS_VERSION_KEY,
+    version: 8,
     PRACTICE_KEY: PRACTICE_KEY,
     VIEW_KEY: VIEW_KEY,
     items: opts.items || sampleItems(opts.count || 12),

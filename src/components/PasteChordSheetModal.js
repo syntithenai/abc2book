@@ -319,6 +319,28 @@ export default function PasteChordSheetModal(props) {
           </div>
         </Modal.Header>
         <Modal.Body className="paste-chord-sheet-modal-body">
+          {props.externalUrl ? (
+            <Alert variant="info" className="mb-3">
+              <div className="mb-2">
+                {props.externalHelpText
+                  || 'Open the chord page, copy the lyrics and chords, then paste them below.'}
+              </div>
+              <Button
+                variant="outline-primary"
+                size="sm"
+                as="a"
+                href={props.externalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="paste-chord-external-link"
+              >
+                {props.externalLinkLabel || 'Open Ultimate Guitar'}
+              </Button>
+              {props.externalSourceTitle ? (
+                <div className="text-muted small mt-2">{props.externalSourceTitle}</div>
+              ) : null}
+            </Alert>
+          ) : null}
           <Alert variant="warning" className="mb-3">
             Applying this paste <strong>replaces all existing ABC notation</strong>
             {' '}(melody and chord symbols) with a new scaffold from the pasted chord sheet.

@@ -27,7 +27,7 @@ export default function FileDrawModal(props) {
   const [redoStack, setRedoStack] = useState([])
   const [saving, setSaving] = useState(false)
   const strokesRef = useRef(strokes)
-  const resetZoomRef = useRef(null)
+  const viewControlsRef = useRef(null)
 
   useEffect(function() {
     strokesRef.current = strokes
@@ -71,6 +71,31 @@ export default function FileDrawModal(props) {
       }
     }
   }, [show, imageBlob])
+
+  useEffect(function() {
+    if (!show) return undefined
+    const modal = document.querySelector('.file-draw-modal')
+    if (!modal) return undefined
+
+    function onTouchMove(e) {
+      if (e.touches && e.touches.length >= 2) e.preventDefault()
+    }
+
+    function blockGesture(e) {
+      e.preventDefault()
+    }
+
+    modal.addEventListener('touchmove', onTouchMove, { passive: false })
+    modal.addEventListener('gesturestart', blockGesture, { passive: false })
+    modal.addEventListener('gesturechange', blockGesture, { passive: false })
+    modal.addEventListener('gestureend', blockGesture, { passive: false })
+    return function() {
+      modal.removeEventListener('touchmove', onTouchMove)
+      modal.removeEventListener('gesturestart', blockGesture)
+      modal.removeEventListener('gesturechange', blockGesture)
+      modal.removeEventListener('gestureend', blockGesture)
+    }
+  }, [show])
 
   function undo() {
     if (!strokes.length) return
@@ -191,16 +216,78 @@ export default function FileDrawModal(props) {
             {tunebook && tunebook.icons ? tunebook.icons.arrowgoforward : 'Redo'}
           </Button>
         </ButtonGroup>
-        <Button
-          size="sm"
-          variant="outline-secondary"
-          onClick={function() {
-            if (resetZoomRef.current) resetZoomRef.current()
-          }}
-          disabled={saving}
-        >
-          Fit
-        </Button>
+        <ButtonGroup size="sm" aria-label="Fit and zoom">
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={function() {
+              if (viewControlsRef.current && viewControlsRef.current.fitHeight) {
+                viewControlsRef.current.fitHeight()
+              }
+            }}
+            disabled={saving}
+            title="Fit height"
+            aria-label="Fit height"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.fitvertical : 'Fit height'}
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={function() {
+              if (viewControlsRef.current && viewControlsRef.current.fitWidth) {
+                viewControlsRef.current.fitWidth()
+              }
+            }}
+            disabled={saving}
+            title="Fit width"
+            aria-label="Fit width"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.fithorizontal : 'Fit width'}
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={function() {
+              if (viewControlsRef.current && viewControlsRef.current.zoomOut) {
+                viewControlsRef.current.zoomOut()
+              }
+            }}
+            disabled={saving}
+            title="Zoom out"
+            aria-label="Zoom out"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.zoomout : '−'}
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={function() {
+              if (viewControlsRef.current && viewControlsRef.current.resetZoom) {
+                viewControlsRef.current.resetZoom()
+              }
+            }}
+            disabled={saving}
+            title="Reset zoom"
+            aria-label="Reset zoom"
+          >
+            1×
+          </Button>
+          <Button
+            size="sm"
+            variant="outline-secondary"
+            onClick={function() {
+              if (viewControlsRef.current && viewControlsRef.current.zoomIn) {
+                viewControlsRef.current.zoomIn()
+              }
+            }}
+            disabled={saving}
+            title="Zoom in"
+            aria-label="Zoom in"
+          >
+            {tunebook && tunebook.icons ? tunebook.icons.zoomin : '+'}
+          </Button>
+        </ButtonGroup>
       </div>
       <Modal.Body className="p-0 d-flex flex-column" style={{ height: 'calc(100vh - 8rem)', minHeight: 0 }}>
         {image ? (
@@ -214,7 +301,7 @@ export default function FileDrawModal(props) {
               setStrokes(next)
               setRedoStack([])
             }}
-            onRegisterResetZoom={function(fn) { resetZoomRef.current = fn }}
+            onRegisterViewControls={function(controls) { viewControlsRef.current = controls }}
           />
         ) : (
           <div className="p-4 text-center text-muted">Loading image…</div>

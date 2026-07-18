@@ -1,7 +1,8 @@
 import { fetchViaMediaProxy } from './mediaProxyClient'
-import { extractFactsFromTune } from './feedFactExtractors'
+import { extractFactsFromTune, factHash } from './feedFactExtractors'
 import { upsertFeedItems } from './feedItemStore'
 import { primaryArtist } from './tuneBibliographicUtils'
+import { buildQuizBundle } from './feedQuizUtils'
 
 const AI_SESSION_KEY = 'bookstorage_feed_ai_ran'
 
@@ -23,18 +24,60 @@ function factsPayload(facts) {
   })
 }
 
+function looksLikeNameLine(line) {
+  const s = String(line || '').trim().replace(/^[,;·|/]+|[,;·|/]+$/g, '')
+  if (!s || s.length > 60) return false
+  if (/\b(wrote|written|recorded|popular|known|composed|version|origin|history|folk|album|performed|credited)\b/i.test(s)) {
+    return false
+  }
+  return /^[A-Z][A-Za-z.'\-]+(?:\s+[A-Z][A-Za-z.'\-]+){0,4}$/.test(s)
+}
+
+/** Bodies that are only a list of artist names with no context. */
+export function isThinNameListBody(text) {
+  const t = String(text || '').trim()
+  if (t.length < 80) return true
+  const lines = t.split(/[\n/;|]+/).map(function(ln) { return ln.trim() }).filter(Boolean)
+  if (lines.length >= 2) {
+    var nameLike = 0
+    lines.forEach(function(ln) { if (looksLikeNameLine(ln)) nameLike++ })
+    if (nameLike >= Math.max(2, Math.floor(0.6 * lines.length))
+        && !/\b(wrote|written|recorded|popular|known|composed|version|origin|history)\b/i.test(t)) {
+      return true
+    }
+  }
+  const sentenceEnds = (t.match(/[.!?]/g) || []).length
+  if (sentenceEnds < 2 && !/\b(wrote|written|recorded|popular|known|composed|version|origin|history)\b/i.test(t)) {
+    const words = t.match(/[A-Za-z']+/g) || []
+    if (words.length) {
+      var caps = 0
+      words.forEach(function(w) { if (w.charAt(0) === w.charAt(0).toUpperCase()) caps++ })
+      if (caps / words.length >= 0.65) return true
+    }
+  }
+  return false
+}
+
 function normalizeArticleItems(body, tune) {
   const list = body && Array.isArray(body.items) ? body.items : []
   const now = Date.now()
-  return list.map(function(raw, idx) {
+  const tuneId = tune && tune.id != null ? String(tune.id) : null
+  const NEW_RELEASE_RE = /\b(releases?\s+(a\s+)?new(\s+song|\s+single|\s+track)?|new\s+(song|single|track|album|release)\b|just\s+(released|dropped|out)|out\s+now\b|brand[- ]?new\b)/i
+  return list.map(function(raw) {
     const headline = String(raw.headline || '').trim()
     const teaser = String(raw.teaser || raw.body || '').trim()
     const articleBody = String(raw.body || teaser).trim()
     if (!headline || !articleBody) return null
+    // Reject invented contemporary release framing for old repertoire.
+    if (NEW_RELEASE_RE.test(headline) || NEW_RELEASE_RE.test(articleBody.slice(0, 200))) {
+      return null
+    }
+    if (isThinNameListBody(articleBody)) return null
+    if (/^Notes on\b/i.test(headline) && articleBody.length < 120) return null
     return {
       id: makeId('ai'),
       type: 'news',
-      tuneId: tune && tune.id != null ? String(tune.id) : null,
+      tuneId: tuneId,
       artist: primaryArtist(tune),
       headline: headline,
       teaser: teaser.slice(0, 160),
@@ -42,7 +85,12 @@ function normalizeArticleItems(body, tune) {
       imageUrl: String(raw.imageUrl || ''),
       source: 'ai',
       sourceUrl: String(raw.sourceUrl || ''),
-      factHash: 'ai_news_' + (tune && tune.id) + '_' + idx + '_' + headline.slice(0, 24),
+      factHash: factHash({
+        predicate: 'ai_news',
+        subjectName: headline,
+        objectText: articleBody.slice(0, 120),
+        tuneId: tuneId,
+      }),
       generation: 'ai',
       quiz: null,
       lessonId: null,
@@ -63,44 +111,59 @@ function normalizeArticleItems(body, tune) {
 function normalizeQuizItems(body, tune) {
   const list = body && Array.isArray(body.items) ? body.items : []
   const now = Date.now()
-  return list.map(function(raw, idx) {
+  const tuneId = tune && tune.id != null ? String(tune.id) : null
+  const title = String(tune && tune.name || 'your tune')
+  const questions = list.map(function(raw, idx) {
     const prompt = String(raw.prompt || '').trim()
     const choices = Array.isArray(raw.choices) ? raw.choices : []
     if (!prompt || choices.length < 2) return null
     return {
-      id: makeId('aiq'),
-      type: 'quiz',
-      tuneId: tune && tune.id != null ? String(tune.id) : null,
-      artist: primaryArtist(tune),
-      headline: 'Quiz: ' + String(tune && tune.name || 'your tune'),
-      teaser: prompt,
-      body: '',
-      imageUrl: '',
-      source: 'ai',
-      sourceUrl: String(raw.sourceUrl || ''),
-      factHash: 'ai_quiz_' + (tune && tune.id) + '_' + idx,
-      generation: 'ai',
-      quiz: {
-        id: 'aiq_' + idx,
-        type: 'mcq',
-        prompt: prompt,
-        choices: choices,
-        explain: String(raw.explain || 'Based on available source facts.'),
-        difficulty: Number(raw.difficulty) || 2,
-      },
-      lessonId: null,
-      createdAt: now,
-      status: 'queued',
-      lastShownAt: null,
-      dismissedAt: null,
-      expandedAt: null,
-      answeredAt: null,
-      reuseEligible: false,
-      srsDueAt: null,
-      isNew: true,
-      attemptCount: 0,
+      id: 'aiq_' + idx + '_' + prompt.slice(0, 16),
+      prompt: prompt,
+      choices: choices,
+      explain: String(raw.explain || 'Based on available source facts.'),
+      difficulty: Number(raw.difficulty) || 2,
     }
   }).filter(Boolean)
+
+  const quiz = buildQuizBundle({
+    id: 'aiq_' + (tuneId || title),
+    title: title,
+    questions: questions,
+  }, { targetCount: 5 })
+  if (!quiz) return []
+
+  return [{
+    id: makeId('aiq'),
+    type: 'quiz',
+    tuneId: tuneId,
+    artist: primaryArtist(tune),
+    headline: 'Quiz: ' + title,
+    teaser: quiz.questions[0].prompt,
+    body: '',
+    imageUrl: '',
+    source: 'ai',
+    sourceUrl: '',
+    factHash: factHash({
+      predicate: 'tune_quiz',
+      subjectName: title,
+      objectText: 'ai_mcq',
+      tuneId: tuneId,
+    }),
+    generation: 'ai',
+    quiz: quiz,
+    lessonId: null,
+    createdAt: now,
+    status: 'queued',
+    lastShownAt: null,
+    dismissedAt: null,
+    expandedAt: null,
+    answeredAt: null,
+    reuseEligible: false,
+    srsDueAt: null,
+    isNew: true,
+    attemptCount: 0,
+  }]
 }
 
 /**

@@ -1,10 +1,43 @@
+import { useEffect, useState } from 'react'
 import { useSwipeable } from 'react-swipeable'
 import { Link } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
+import { buildQuizBundle } from '../feedQuizUtils'
+import AbcSnippetPreview from './AbcSnippetPreview'
 
 export default function FeedCard(props) {
   const item = props.item || {}
   const expanded = !!props.expanded
+  const tunes = props.tunes || {}
+  const tunebook = props.tunebook
+  const [quizStep, setQuizStep] = useState(0)
+  const [choiceId, setChoiceId] = useState(null)
+  const [results, setResults] = useState([])
+  const [summary, setSummary] = useState(false)
+
+  const quizBundle = item.quiz ? buildQuizBundle(item.quiz, { shuffle: false }) : null
+  const questions = quizBundle && quizBundle.questions ? quizBundle.questions : []
+  const currentQ = questions[quizStep] || null
+
+  const tune = item.tuneId != null ? tunes[item.tuneId] : null
+  const hasLyrics = !!(item.lyrics && String(item.lyrics).trim())
+    || String(item.body || '').indexOf('## Lyrics') !== -1
+  let notationAbc = ''
+  if (expanded && item.showNotation && !hasLyrics && tune && tunebook && tunebook.abcTools && typeof tunebook.abcTools.json2abc === 'function') {
+    try {
+      notationAbc = tunebook.abcTools.json2abc(tune) || ''
+    } catch (e) {
+      notationAbc = ''
+    }
+  }
+
+  useEffect(function() {
+    setQuizStep(0)
+    setChoiceId(null)
+    setResults([])
+    setSummary(false)
+  }, [item.id])
+
   const handlers = useSwipeable({
     onSwipedLeft: function() {
       if (typeof props.onDismiss === 'function') props.onDismiss(item)
@@ -16,9 +49,45 @@ export default function FeedCard(props) {
 
   function onExpandClick(e) {
     if (e && e.target && e.target.closest && e.target.closest('[data-testid="feed-card-dismiss"]')) return
-    if (e && e.target && e.target.closest && e.target.closest('a, .feed-quiz-choice, [data-testid^="feed-quiz-choice"]')) return
+    if (e && e.target && e.target.closest && e.target.closest(
+      'a, .feed-quiz-choice, [data-testid^="feed-quiz-choice"], [data-testid="feed-quiz-next"], [data-testid="feed-quiz-summary"]'
+    )) return
     if (typeof props.onExpand === 'function') props.onExpand(item)
   }
+
+  function handleChoice(choice) {
+    if (!choice || choiceId || summary) return
+    setChoiceId(choice.id)
+    setResults(function(prev) {
+      return prev.concat([{
+        questionId: currentQ && currentQ.id,
+        prompt: currentQ && currentQ.prompt,
+        choiceId: choice.id,
+        correct: !!choice.correct,
+      }])
+    })
+  }
+
+  function handleNext() {
+    if (!choiceId) return
+    if (quizStep + 1 < questions.length) {
+      setQuizStep(quizStep + 1)
+      setChoiceId(null)
+      return
+    }
+    setSummary(true)
+    if (typeof props.onQuizComplete === 'function') {
+      const totalCorrect = results.filter(function(r) { return r.correct }).length
+      props.onQuizComplete(item, {
+        correctCount: totalCorrect,
+        total: questions.length,
+        results: results,
+      })
+    }
+  }
+
+  const misses = results.filter(function(r) { return !r.correct })
+  const correctCount = results.filter(function(r) { return r.correct }).length
 
   return (
     <article
@@ -41,6 +110,9 @@ export default function FeedCard(props) {
             <h2 className="feed-card-headline" data-testid="feed-card-headline">{item.headline}</h2>
             {item.isNew ? <span className="feed-new-badge" data-testid="feed-new-badge">New</span> : null}
           </div>
+          {item.artist ? (
+            <p className="feed-card-artist" data-testid="feed-card-artist">{item.artist}</p>
+          ) : null}
           {!expanded ? (
             <p className="feed-card-teaser" data-testid="feed-card-teaser">{item.teaser}</p>
           ) : null}
@@ -58,30 +130,108 @@ export default function FeedCard(props) {
       {item.source ? <div className="feed-card-source-chip">{item.source}{item.generation ? ' · ' + item.generation : ''}</div> : null}
       {expanded ? (
         <div className="feed-card-body" data-testid="feed-card-body">
-          {item.body ? <div className="feed-card-body-text">{item.body}</div> : null}
-          {item.tryThis ? <p className="feed-card-trythis"><strong>Try this:</strong> {item.tryThis}</p> : null}
-          {item.quiz ? (
-            <div className="feed-quiz" data-testid="feed-quiz">
-              <p className="feed-quiz-prompt">{item.quiz.prompt}</p>
-              <div className="feed-quiz-choices">
-                {(item.quiz.choices || []).map(function(choice) {
+          {(function() {
+            const images = Array.isArray(item.imageUrls) && item.imageUrls.length
+              ? item.imageUrls
+              : (item.imageUrl ? [item.imageUrl] : [])
+            if (!images.length) return null
+            return (
+              <div className="feed-card-images" data-testid="feed-card-images">
+                {images.map(function(src) {
                   return (
-                    <Button
-                      key={choice.id}
-                      size="sm"
-                      variant={props.answeredChoiceId === choice.id ? (choice.correct ? 'success' : 'danger') : 'outline-secondary'}
-                      className="feed-quiz-choice"
-                      data-testid={'feed-quiz-choice-' + choice.id}
-                      disabled={!!props.answeredChoiceId}
-                      onClick={function() { if (props.onAnswer) props.onAnswer(item, choice) }}
-                    >
-                      {choice.text}
-                    </Button>
+                    <img
+                      key={src}
+                      className="feed-card-image"
+                      src={src}
+                      alt=""
+                      loading="lazy"
+                      onError={function(e) { e.target.style.display = 'none' }}
+                    />
                   )
                 })}
               </div>
-              {props.answeredChoiceId && item.quiz.explain ? (
-                <p className="feed-quiz-explain" data-testid="feed-quiz-explain">{item.quiz.explain}</p>
+            )
+          })()}
+          {item.body ? <div className="feed-card-body-text" data-testid="feed-card-body-text">{item.body}</div> : null}
+          {item.lyrics && String(item.body || '').indexOf('## Lyrics') === -1 ? (
+            <div className="feed-card-lyrics" data-testid="feed-card-lyrics">
+              <h3 className="feed-card-lyrics-heading">Lyrics</h3>
+              <pre className="feed-card-lyrics-text">{item.lyrics}</pre>
+            </div>
+          ) : null}
+          {!hasLyrics && notationAbc ? (
+            <div className="feed-card-notation" data-testid="feed-card-notation">
+              <AbcSnippetPreview abc={notationAbc} maxBars={16} />
+            </div>
+          ) : null}
+          {item.tryThis ? <p className="feed-card-trythis"><strong>Try this:</strong> {item.tryThis}</p> : null}
+          {quizBundle && questions.length ? (
+            <div className="feed-quiz" data-testid="feed-quiz">
+              {summary ? (
+                <div className="feed-quiz-summary" data-testid="feed-quiz-summary">
+                  <p className="feed-quiz-summary-score" data-testid="feed-quiz-summary-score">
+                    You got {correctCount} of {questions.length}
+                  </p>
+                  {misses.length ? (
+                    <ul className="feed-quiz-misses" data-testid="feed-quiz-misses">
+                      {misses.map(function(m) {
+                        return (
+                          <li key={m.questionId || m.prompt}>
+                            {m.prompt}
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  ) : (
+                    <p className="feed-quiz-perfect">Nice — all correct.</p>
+                  )}
+                </div>
+              ) : currentQ ? (
+                <>
+                  <p className="feed-quiz-progress" data-testid="feed-quiz-progress">
+                    Question {quizStep + 1} of {questions.length}
+                  </p>
+                  <p className="feed-quiz-prompt" data-testid="feed-quiz-prompt">{currentQ.prompt}</p>
+                  <div className="feed-quiz-choices">
+                    {(currentQ.choices || []).map(function(choice) {
+                      var variant = 'outline-secondary'
+                      if (choiceId) {
+                        if (choice.id === choiceId) {
+                          variant = choice.correct ? 'success' : 'danger'
+                        } else if (choice.correct) {
+                          variant = 'success'
+                        }
+                      }
+                      return (
+                        <Button
+                          key={choice.id}
+                          size="sm"
+                          variant={variant}
+                          className="feed-quiz-choice"
+                          data-testid={'feed-quiz-choice-' + choice.id}
+                          disabled={!!choiceId}
+                          onClick={function() { handleChoice(choice) }}
+                        >
+                          {choice.text}
+                        </Button>
+                      )
+                    })}
+                  </div>
+                  {choiceId && currentQ.explain ? (
+                    <p className="feed-quiz-explain" data-testid="feed-quiz-explain">{currentQ.explain}</p>
+                  ) : null}
+                  {choiceId ? (
+                    <Button
+                      size="sm"
+                      variant="primary"
+                      className="feed-quiz-next"
+                      data-testid="feed-quiz-next"
+                      onClick={handleNext}
+                    >
+                      {quizStep + 1 < questions.length ? 'Next' : 'See results'}
+                    </Button>
+                  ) : null}
+                </>
               ) : null}
             </div>
           ) : null}

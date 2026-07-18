@@ -3,6 +3,9 @@
  */
 
 export const FEED_ITEMS_STORAGE_KEY = 'bookstorage_feed_items'
+export const FEED_ITEMS_VERSION_KEY = 'bookstorage_feed_items_version'
+/** Bump to wipe the persisted pool once (dev/debug resets, schema changes). */
+export const FEED_ITEMS_SCHEMA_VERSION = 8
 export const FEED_ITEMS_MAX = 200
 export const FEED_DISMISS_COOLDOWN_MS = 7 * 24 * 60 * 60 * 1000
 export const FEED_ENGAGED_COOLDOWN_MS = 3 * 24 * 60 * 60 * 1000
@@ -23,6 +26,53 @@ const GENERATION_RANK = {
   musixmatch: 4,
   genius: 4,
   ai: 5,
+}
+
+/** Dull cards (MB “Release note” albums, old boilerplate “Artist note”) — never show or keep. */
+export function isLowValueFeedItem(item) {
+  if (!item || typeof item !== 'object') return true
+  if (item.type === 'album') return true
+  if (item.generation === 'musicbrainz' || item.source === 'musicbrainz') return true
+  const headline = String(item.headline || '')
+  if (/^Release note:/i.test(headline)) return true
+  if (/^Artist note:/i.test(headline)) return true
+  // Invented “new song / just released” AI blurbs for historical repertoire.
+  if ((item.generation === 'ai' || item.source === 'ai')
+      && /\b(releases?\s+(a\s+)?new(\s+song|\s+single)?|new\s+song\b|just\s+(released|dropped)|out\s+now\b)/i.test(headline)) {
+    return true
+  }
+  const body = String(item.body || item.teaser || '')
+  if (/MusicBrainz first-release|appears related to\s+[“"]/i.test(body)) return true
+  // Thin AI “Notes on …” name lists with no context
+  if ((item.generation === 'ai' || item.source === 'ai' || item.type === 'news')
+      && (item.type === 'news' || item.type === 'dyk')) {
+    if (/^Notes on\b/i.test(headline) && body.length < 200) return true
+    const lines = body.split(/[\n/;|]+/).map(function(ln) { return ln.trim() }).filter(Boolean)
+    if (lines.length >= 2) {
+      const nameLine = /^[A-Z][A-Za-z.'\-]+(?:\s+[A-Z][A-Za-z.'\-]+){0,4}$/
+      var nameLike = 0
+      lines.forEach(function(ln) { if (nameLine.test(ln)) nameLike++ })
+      if (nameLike >= Math.max(2, Math.floor(0.6 * lines.length))
+          && !/\b(wrote|written|recorded|popular|known|composed|version|origin)\b/i.test(body)) {
+        return true
+      }
+    }
+  }
+  // Legacy thin quiz cards: pre-bundle single-prompt shape or fewer than 3 questions.
+  if (item.type === 'quiz' || item.type === 'theory_quiz') {
+    const questions = item.quiz && Array.isArray(item.quiz.questions) ? item.quiz.questions : null
+    if (!questions || questions.length < 3) return true
+  }
+  return false
+}
+
+export function scrubLowValueFeedItems(items) {
+  const list = Array.isArray(items) ? items : readArray()
+  const kept = list.filter(function(item) { return !isLowValueFeedItem(item) })
+  if (kept.length !== list.length) {
+    return saveFeedItems(kept)
+  }
+  return kept
 }
 
 function readArray() {
@@ -49,8 +99,36 @@ function isEngaged(item) {
   return !!(item && (item.expandedAt || item.answeredAt || item.dismissedAt))
 }
 
+export function clearFeedItems() {
+  return writeArray([])
+}
+
+/**
+ * One-shot wipe when FEED_ITEMS_SCHEMA_VERSION increases so stale cards
+ * from earlier feed iterations do not keep resurfacing.
+ */
+export function ensureFeedItemsSchema() {
+  try {
+    const current = Number(localStorage.getItem(FEED_ITEMS_VERSION_KEY) || 0)
+    if (current >= FEED_ITEMS_SCHEMA_VERSION) return false
+    clearFeedItems()
+    try {
+      if (typeof sessionStorage !== 'undefined') {
+        sessionStorage.removeItem('bookstorage_feed_ai_ran')
+      }
+    } catch (e) {
+      // ignore
+    }
+    localStorage.setItem(FEED_ITEMS_VERSION_KEY, String(FEED_ITEMS_SCHEMA_VERSION))
+    return true
+  } catch (e) {
+    return false
+  }
+}
+
 export function loadFeedItems() {
-  return readArray()
+  ensureFeedItemsSchema()
+  return scrubLowValueFeedItems(readArray())
 }
 
 export function saveFeedItems(items) {
@@ -82,10 +160,15 @@ export function upsertFeedItems(newItems) {
   })
   incoming.forEach(function(item) {
     if (!item || typeof item !== 'object') return
+    if (isLowValueFeedItem(item)) return
     const key = item.factHash || item.id
     if (!key) return
     const prev = byKey[key]
     if (!prev) {
+      byKey[key] = item
+      return
+    }
+    if (isLowValueFeedItem(prev)) {
       byKey[key] = item
       return
     }
@@ -102,6 +185,7 @@ export function upsertFeedItems(newItems) {
     }
   })
   const merged = Object.keys(byKey).map(function(k) { return byKey[k] })
+    .filter(function(item) { return !isLowValueFeedItem(item) })
   return saveFeedItems(pruneFeedItems(merged))
 }
 

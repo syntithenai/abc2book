@@ -259,10 +259,79 @@ export function splitBlocksOnInteriorHeaders(blocks) {
   return split;
 }
 
+function stanzaMatchesAt(normalizedBody, stanza, offset) {
+  if (offset + stanza.length > normalizedBody.length) return false;
+  for (let j = 0; j < stanza.length; j++) {
+    if (normalizedBody[offset + j] !== stanza[j]) return false;
+  }
+  return true;
+}
+
+/**
+ * When an earlier stanza (typically the chorus) is repeated later in the text
+ * without blank lines around it, split it out of the surrounding block so it
+ * behaves like a blank-line-separated stanza.
+ */
+export function splitEmbeddedRepeatedStanzas(blocks) {
+  const source = Array.isArray(blocks) ? blocks : [];
+  const seen = [];
+  const result = [];
+
+  function registerStanza(bodyLines) {
+    const key = bodyLines.map(normalizeTextForMatch);
+    if (key.length >= 2 && key.every(Boolean)) seen.push(key);
+  }
+
+  source.forEach(function(block) {
+    const lines = Array.isArray(block) ? block : [];
+    let header = null;
+    let body = lines;
+    if (lines.length > 0 && isSectionHeader(lines[0])) {
+      header = lines[0];
+      body = lines.slice(1);
+    }
+    const normalized = body.map(normalizeTextForMatch);
+
+    const segments = [];
+    let cursor = 0;
+    let i = 0;
+    while (i < normalized.length) {
+      let matchLen = 0;
+      for (let s = 0; s < seen.length; s++) {
+        if (seen[s].length > matchLen && stanzaMatchesAt(normalized, seen[s], i)) {
+          matchLen = seen[s].length;
+        }
+      }
+      // A match spanning the whole block is already its own stanza.
+      if (matchLen > 0 && !(i === 0 && matchLen === body.length)) {
+        if (i > cursor) segments.push(body.slice(cursor, i));
+        segments.push(body.slice(i, i + matchLen));
+        i += matchLen;
+        cursor = i;
+      } else {
+        i += 1;
+      }
+    }
+    if (cursor < body.length) segments.push(body.slice(cursor));
+
+    if (segments.length <= 1 && cursor === 0) {
+      result.push(block);
+      registerStanza(body);
+      return;
+    }
+    segments.forEach(function(segment, index) {
+      result.push(index === 0 && header ? [header].concat(segment) : segment);
+      registerStanza(segment);
+    });
+  });
+
+  return result;
+}
+
 export function normalizeLyricBlocks(lyricLines) {
-  return splitBlocksOnInteriorHeaders(
+  return splitEmbeddedRepeatedStanzas(splitBlocksOnInteriorHeaders(
     coalesceSectionHeaderBlocks(splitIntoBlocks(lyricLines))
-  );
+  ));
 }
 
 /**
@@ -494,19 +563,22 @@ export function inferSectionTypesFromLineCounts(blocks) {
     });
     if (unique.length < 2) return blocks;
 
-    const altVerse = unique[0];
-    const altChorus = unique[1];
-    let seenChorus = false;
-    let returnedToVerse = false;
+    // Chorus is usually shorter than the verse: when the first stanza is the
+    // shorter of the two alternating lengths, treat it as the chorus.
+    const firstIsShorter = unique[0] < unique[1];
+    const altVerse = firstIsShorter ? unique[1] : unique[0];
+    const altChorus = firstIsShorter ? unique[0] : unique[1];
+    let seenSecond = false;
+    let returnedToFirst = false;
     for (let i = 0; i < lengths.length; i++) {
       const n = lengths[i];
-      if (n === altChorus) seenChorus = true;
-      else if (seenChorus && n === altVerse) {
-        returnedToVerse = true;
+      if (n === unique[1]) seenSecond = true;
+      else if (seenSecond && n === unique[0]) {
+        returnedToFirst = true;
         break;
       }
     }
-    if (!returnedToVerse) return blocks;
+    if (!returnedToFirst) return blocks;
     applyAlternationTypes(blocks, lengths, altVerse, altChorus, typeCounts, lengthToType);
     return blocks;
   }

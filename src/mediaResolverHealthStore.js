@@ -18,8 +18,15 @@ const listeners = new Set();
 let activeAccessToken = null;
 let probePromise = null;
 let probeSeq = 0;
+let probeInFlight = false;
+let lastUnreachableProbeAt = 0;
 let settingsListenerAttached = false;
 let identityScopeRequestFn = null;
+
+// Failed proxied requests trigger re-probes; without a cooldown a burst of
+// failures (resolver down, several resolver-backed features in use) floods
+// /health with parallel probes.
+const UNREACHABLE_REPROBE_COOLDOWN_MS = 30000;
 
 export function setMediaResolverIdentityScopeRequest(fn) {
   identityScopeRequestFn = typeof fn === 'function' ? fn : null;
@@ -157,6 +164,12 @@ export function probeMediaResolverHealth(accessToken, options) {
     return probePromise;
   }
 
+  // A probe is already running for this token; share it instead of stacking
+  // another round of /health requests behind it.
+  if (probeInFlight && probePromise && activeAccessToken === accessToken) {
+    return probePromise;
+  }
+
   activeAccessToken = accessToken;
   // Only the most recently issued probe may write state. Without this guard,
   // an earlier probe (e.g. the pre-login null-token request that returns
@@ -164,7 +177,10 @@ export function probeMediaResolverHealth(accessToken, options) {
   // good result, making resolver-backed buttons disappear intermittently.
   probeSeq += 1;
   const mySeq = probeSeq;
-  probePromise = finishProbe(accessToken, mySeq);
+  probeInFlight = true;
+  probePromise = finishProbe(accessToken, mySeq).finally(function() {
+    if (mySeq === probeSeq) probeInFlight = false;
+  });
 
   return probePromise;
 }
@@ -184,8 +200,13 @@ export function ensureMediaResolverHealthSettingsListener() {
   // A proxied request that could not reach any resolver means our cached
   // "available" status is stale. Re-probe so the UI stops claiming the
   // resolver is available instead of continuing to offer resolver-backed
-  // actions that immediately fail.
+  // actions that immediately fail. Rate-limited: a burst of failing requests
+  // must not turn into a burst of /health probes.
   window.addEventListener('mediaProxyUnreachable', function() {
+    const now = Date.now();
+    if (probeInFlight) return;
+    if (now - lastUnreachableProbeAt < UNREACHABLE_REPROBE_COOLDOWN_MS) return;
+    lastUnreachableProbeAt = now;
     probeMediaResolverHealth(activeAccessToken, { force: true });
   });
 }

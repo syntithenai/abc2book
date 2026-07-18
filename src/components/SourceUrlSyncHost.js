@@ -87,17 +87,25 @@ export default function SourceUrlSyncHost(props) {
     }
   }, [token, tunes, tunebook, driveApi, processQueue]);
 
+  // Poll via a ref so the interval survives re-renders. handlePoll changes
+  // identity on nearly every App render (tunes/props churn during playback);
+  // restarting the interval each time fired the immediate initial tick and
+  // hammered every tune's source URL with fetches.
+  const handlePollRef = useRef(handlePoll);
+  handlePollRef.current = handlePoll;
+
+  const hasTunes = !!tunes;
   useEffect(function() {
-    if (!token || !tunes) return undefined;
-    return startSourceUrlPolling({ onPoll: handlePoll });
-  }, [token, tunes, handlePoll]);
+    if (!token || !hasTunes) return undefined;
+    return startSourceUrlPolling({ onPoll: function() { return handlePollRef.current(); } });
+  }, [token, hasTunes]);
 
   useEffect(function() {
-    registerMergeCheckHandler('sourceUrl', handlePoll);
+    registerMergeCheckHandler('sourceUrl', function() { return handlePollRef.current(); });
     return function() {
       unregisterMergeCheckHandler('sourceUrl');
     };
-  }, [handlePoll]);
+  }, []);
 
   return (
     <IncomingMergeModal

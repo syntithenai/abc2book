@@ -23,18 +23,21 @@ describe('FieldSuggestionsChangesStrip', function() {
     container.remove()
   })
 
-  test('renders Clear Suggestions left of Suggestions label in danger style', function() {
+  test('renders Clear Suggestions and Accept All left of Suggestions label', function() {
     const onOpen = jest.fn()
     const onClearAll = jest.fn()
+    const onAcceptAll = jest.fn()
     act(function() {
       root.render(
         React.createElement(FieldSuggestionsChangesStrip, {
           items: [
-            { jobId: 'j1', kind: 'lyrics', count: 2 },
-            { jobId: 'j2', kind: 'genre', count: 1 },
+            { jobId: 'j1', kind: 'lyrics' },
+            { jobId: 'j2', kind: 'genre' },
           ],
           onOpen: onOpen,
           onClearAll: onClearAll,
+          showAcceptAll: true,
+          onAcceptAll: onAcceptAll,
         })
       )
     })
@@ -44,12 +47,15 @@ describe('FieldSuggestionsChangesStrip', function() {
     expect(strip.textContent).toContain('Lyrics')
     expect(strip.textContent).toContain('Genre')
     expect(strip.textContent).toContain('Clear Suggestions')
-    expect(container.querySelector('[data-testid="suggestions-accept-all"]')).toBeFalsy()
+    expect(strip.textContent).toContain('Accept All')
+    expect(strip.textContent).not.toMatch(/\d/)
 
     const clear = container.querySelector('[data-testid="suggestions-clear-all"]')
+    const acceptAll = container.querySelector('[data-testid="suggestions-accept-all"]')
     expect(clear).toBeTruthy()
+    expect(acceptAll).toBeTruthy()
     expect(clear.className).toMatch(/btn-danger/)
-    expect(clear.className).toMatch(/field-suggestions-clear-all/)
+    expect(acceptAll.className).toMatch(/btn-success/)
     expect(strip.firstElementChild).toBe(clear)
     const label = Array.from(strip.children).find(function(el) {
       return el.tagName === 'STRONG' && el.textContent === 'Suggestions'
@@ -67,5 +73,9 @@ describe('FieldSuggestionsChangesStrip', function() {
       clear.click()
     })
     expect(onClearAll).toHaveBeenCalled()
+    act(function() {
+      acceptAll.click()
+    })
+    expect(onAcceptAll).toHaveBeenCalled()
   })
 })

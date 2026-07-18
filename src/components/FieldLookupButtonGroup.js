@@ -10,9 +10,8 @@ const DEFAULT_SEARCH_ICON = (
 
 /**
  * Uniform field search chrome:
- * [Search|Cancel] [External?]   Suggestions?
- * Suggestions is a separate button to the right (not joined), shown when
- * suggestionCount > 0 — no count badge. Clear belongs on the top strip.
+ * [Search|Cancel] [External?] [optional resultsCaret]
+ * Cached search results reopen via field caret / resultsCaret — not a Suggestions button.
  */
 export function FieldLookupButtonGroup(props) {
   const {
@@ -24,13 +23,16 @@ export function FieldLookupButtonGroup(props) {
     showExternal,
     narrow: narrowProp,
     onSearch,
-    onOpenSuggestions,
-    suggestionCount = 0,
     buttonStyle,
     searchIcon,
     inline,
     progress = 0,
+    resultsCaret = null,
+    externalMenu = null,
   } = props
+  void props.suggestionCount
+  void props.onOpenSuggestions
+  void inline
   const viewportNarrow = useIsNarrowViewport()
   const narrow = typeof narrowProp === 'boolean' ? narrowProp : viewportNarrow
   const style = Object.assign({
@@ -42,15 +44,15 @@ export function FieldLookupButtonGroup(props) {
   }, buttonStyle || {})
   const icon = searchIcon || DEFAULT_SEARCH_ICON
   const canSearch = automaticLookup !== false
-  const externalAllowed = !!showExternal && !!externalUrl && !!externalLinkIcon
-  const count = Number(suggestionCount) || 0
-  const showSuggestions = count > 0 && typeof onOpenSuggestions === 'function'
+  const externalAllowed = !!showExternal && !!externalUrl && !!externalLinkIcon && !externalMenu
+  const hasExternalMenu = !!showExternal && !!externalMenu
 
   function handleSearchClick() {
     if (typeof onSearch === 'function') onSearch(busy ? undefined : 'auto')
   }
 
   if (!canSearch) {
+    if (hasExternalMenu) return externalMenu
     if (!externalAllowed) {
       return (
         <Button style={style} disabled>
@@ -71,23 +73,6 @@ export function FieldLookupButtonGroup(props) {
     )
   }
 
-  const suggestionsBtn = showSuggestions ? (
-    <Button
-      type="button"
-      variant="info"
-      style={style}
-      disabled={disabled}
-      title="Open suggestions"
-      aria-label="Open suggestions"
-      data-testid="field-suggestions-open"
-      onClick={function() {
-        if (typeof onOpenSuggestions === 'function') onOpenSuggestions()
-      }}
-    >
-      {narrow ? 'Sug' : 'Suggestions'}
-    </Button>
-  ) : null
-
   const searchBtn = (
     <Button
       type="button"
@@ -102,24 +87,21 @@ export function FieldLookupButtonGroup(props) {
     </Button>
   )
 
-  const externalBtn = externalAllowed ? (
-    <Button
-      as="a"
-      href={externalUrl}
-      target="_blank"
-      rel="noreferrer"
-      style={style}
-    >
-      {externalLinkIcon}
-    </Button>
-  ) : null
+  const externalBtn = hasExternalMenu
+    ? externalMenu
+    : (externalAllowed ? (
+      <Button
+        as="a"
+        href={externalUrl}
+        target="_blank"
+        rel="noreferrer"
+        style={style}
+      >
+        {externalLinkIcon}
+      </Button>
+    ) : null)
 
-  const searchGroup = inline ? (
-    <>
-      {searchBtn}
-      {externalBtn}
-    </>
-  ) : (
+  const searchGroup = (
     <ButtonGroup>
       {searchBtn}
       {externalBtn}
@@ -149,7 +131,7 @@ export function FieldLookupButtonGroup(props) {
           />
         ) : null}
       </div>
-      {suggestionsBtn}
+      {resultsCaret}
     </div>
   )
 }

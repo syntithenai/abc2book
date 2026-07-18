@@ -313,6 +313,7 @@ export async function createOwnedMediaLink(options) {
   const token = opts.token
   const driveApi = opts.driveApi
   const uploadToDrive = opts.uploadToDrive === true
+  const mediaKind = opts.mediaKind === 'video' ? 'video' : 'audio'
 
   if (!tune || !tune.id || !audioBlob) {
     throw new Error('Missing tune or audio data')
@@ -320,17 +321,30 @@ export async function createOwnedMediaLink(options) {
 
   const recordingId = utils.generateObjectId()
   const linkUri = buildRecordingLinkUri(recordingId)
-  const mp3 = await blobToMp3Blob(audioBlob)
-  const b64 = await utils.blobToBase64(mp3.blob)
+
+  let storedBlob
+  let duration = null
+  let mimeType = 'audio/mpeg'
+  if (mediaKind === 'video') {
+    storedBlob = audioBlob
+    mimeType = audioBlob.type || 'video/mp4'
+  } else {
+    const mp3 = await blobToMp3Blob(audioBlob)
+    storedBlob = mp3.blob
+    duration = mp3.duration
+  }
+
+  const b64 = await utils.blobToBase64(storedBlob)
 
   const recording = {
     id: recordingId,
     tuneId: tune.id,
     tuneName: tune.name || '',
     name: title,
-    type: 'audio/mpeg',
+    type: mimeType,
+    mediaKind: mediaKind,
     data: b64,
-    duration: mp3.duration,
+    duration: duration,
     source: source,
     googleId: null,
     uploadPending: uploadToDrive,
@@ -339,7 +353,7 @@ export async function createOwnedMediaLink(options) {
   }
 
   await saveRecording(recording)
-  await writeRecordingCache(tune.id, linkIndex, linkUri, mp3.blob, mp3.duration)
+  await writeRecordingCache(tune.id, linkIndex, linkUri, storedBlob, duration)
 
   const link = {
     title: title,
@@ -348,6 +362,7 @@ export async function createOwnedMediaLink(options) {
     googleId: null,
     uploadPending: uploadToDrive,
     source: source,
+    mediaKind: mediaKind,
     startAt: '',
     endAt: '',
   }
@@ -387,6 +402,25 @@ export async function createAttachedAudioLink(options) {
     title: title,
     source: 'file',
     uploadToDrive: opts.uploadToDrive !== false,
+  }))
+}
+
+/**
+ * Attach a video file as owned media (same storage path as audio; MIME preserved when possible).
+ */
+export async function createAttachedVideoLink(options) {
+  const opts = options || {}
+  const file = opts.file
+  if (!file) {
+    throw new Error('Missing video file')
+  }
+  const title = opts.title || file.name || 'Attached video'
+  return createOwnedMediaLink(Object.assign({}, opts, {
+    audioBlob: file,
+    title: title,
+    source: 'video-file',
+    uploadToDrive: opts.uploadToDrive !== false,
+    mediaKind: 'video',
   }))
 }
 

@@ -4,6 +4,7 @@ import {
   __resetYoutubeExtensionPingCache,
   fetchYoutubeAudioViaExtension,
   isYoutubeExtensionConnected,
+  isYoutubeExtensionConnectedSync,
   pingYoutubeExtension,
 } from './youtubeExtensionClient'
 import { youtubeAudioBytesAvailable } from './youtubeUnlock'
@@ -98,6 +99,26 @@ describe('youtubeExtensionClient', function () {
     const result = await pending
     expect(result.ok).toBe(true)
     expect(result.version).toBe('0.1.1')
+  })
+
+  test('isYoutubeExtensionConnectedSync uses DOM marker and cached ping', async function () {
+    expect(isYoutubeExtensionConnectedSync()).toBe(false)
+
+    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+    expect(isYoutubeExtensionConnectedSync()).toBe(true)
+    document.documentElement.removeAttribute('data-tunebook-yt-helper')
+    expect(isYoutubeExtensionConnectedSync()).toBe(false)
+
+    const pending = pingYoutubeExtension({ force: true, timeoutMs: 500 })
+    const sent = postMessageSpy.mock.calls[0][0]
+    emitFromExtension({
+      type: 'tunebook.pong',
+      requestId: sent.requestId,
+      ok: true,
+      version: '0.1.2',
+    })
+    await pending
+    expect(isYoutubeExtensionConnectedSync()).toBe(true)
   })
 
   test('pingYoutubeExtension times out as not connected', async function () {

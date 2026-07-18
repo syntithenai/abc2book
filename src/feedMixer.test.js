@@ -54,8 +54,8 @@ describe('feedMixer', function() {
         if (ia && ib) badAdj++
       }
     }
-    expect(theoryCount).toBeGreaterThanOrEqual(25)
-    expect(theoryCount).toBeLessThanOrEqual(55)
+    expect(theoryCount).toBeGreaterThanOrEqual(8)
+    expect(theoryCount).toBeLessThanOrEqual(24)
     expect(singingCount).toBeGreaterThanOrEqual(10)
     expect(singingCount).toBeLessThanOrEqual(35)
     expect(badAdj).toBe(0)

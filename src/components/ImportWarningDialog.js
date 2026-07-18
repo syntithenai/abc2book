@@ -1,181 +1,252 @@
-import {Tabs, Tab, Modal, Button, ListGroup, Container, Col, Row} from 'react-bootstrap'
-import {Link, useNavigate} from 'react-router-dom'
-import DiffModal from './DiffModal'
+import { Tabs, Tab, Modal, Button, ListGroup, Container, Col, Row } from 'react-bootstrap'
+import { Link, useNavigate } from 'react-router-dom'
 import { handleImportNavigation } from '../shareImportNavigation'
 import { runPendingShareImportSideEffect } from '../shareImportSession'
-//<DiffModal label={'Show Differences'} original={props.tunebook.abcTools.json2abc(v[0])}  modified={props.tunebook.abcTools.json2abc(v[1])} />
+
+function bucketCount(bucket) {
+  if (!bucket) return 0
+  if (Array.isArray(bucket)) return bucket.length
+  return Object.keys(bucket).length
+}
+
+function bucketValues(bucket) {
+  if (!bucket) return []
+  if (Array.isArray(bucket)) return bucket
+  return Object.values(bucket)
+}
+
+function tuneTitle(tune) {
+  return (tune && (tune.name || tune.title)) || '(untitled)'
+}
+
+function contentSummary(status) {
+  if (!status) return ''
+  var parts = []
+  if (status.hasNotes) parts.push('notation')
+  if (status.hasChords) parts.push('chords')
+  if (status.hasLyrics) parts.push('lyrics')
+  return parts.length ? parts.join(' · ') : 'metadata only'
+}
+
+var BUCKET_META = {
+  inserts: {
+    tabTitle: 'New tunes',
+    countLabel: function(n) { return n + ' new tune' + (n === 1 ? '' : 's') + ' will be added to your library.' },
+    intro: 'These tunes are not in your library yet. Import will add them.',
+    rowAction: 'Will be added as a new tune',
+  },
+  updates: {
+    tabTitle: 'Updated',
+    countLabel: function(n) { return n + ' tune' + (n === 1 ? '' : 's') + ' will be updated from the import (import is newer).' },
+    intro: 'The imported copy is newer than yours. Import will replace your local copy.',
+    rowAction: 'Import is newer — will update your copy',
+  },
+  localUpdates: {
+    tabTitle: 'Local changes kept',
+    countLabel: function(n) { return n + ' locally changed tune' + (n === 1 ? '' : 's') + ' will keep your version (skipped by Import).' },
+    intro: 'Your local copy is newer than the import. Import keeps your changes. Choose Discard Local Changes to overwrite with the imported version.',
+    rowAction: 'Your copy is newer — kept as-is unless you discard local changes',
+  },
+  skippedUpdates: {
+    tabTitle: 'Up to date',
+    countLabel: function(n) { return n + ' tune' + (n === 1 ? '' : 's') + ' already match the import (no change).' },
+    intro: 'These tunes already match the import by id and timestamp. Nothing will change.',
+    rowAction: 'Already up to date — no change',
+  },
+  deletes: {
+    tabTitle: 'Deleted',
+    countLabel: function(n) { return n + ' tune' + (n === 1 ? '' : 's') + ' will be removed (deleted in the import).' },
+    intro: 'These tunes were deleted in the imported file and will be removed from your library.',
+    rowAction: 'Will be removed from your library',
+  },
+  duplicates: {
+    tabTitle: 'Duplicates',
+    countLabel: function(n) { return n + ' duplicate tune' + (n === 1 ? '' : 's') + ' will be skipped (same content already exists).' },
+    intro: 'Same musical content already exists under another id. Skipped unless you choose Import With Duplicates.',
+    rowAction: 'Duplicate content — skipped unless you force duplicates',
+  },
+}
+
+var BUCKET_ORDER = ['inserts', 'updates', 'localUpdates', 'skippedUpdates', 'deletes', 'duplicates']
+
+function ImportTuneRow(props) {
+  var tune = props.tune
+  var status = props.status
+  var action = props.action
+  var icons = props.icons
+  return (
+    <ListGroup.Item className={props.index % 2 === 0 ? 'even' : 'odd'}>
+      <Container fluid className="px-0">
+        <Row className="align-items-start g-2">
+          <Col xs="auto" className="pt-1">
+            <span>{(status && status.hasNotes) ? <Button size="sm" variant="outline-primary" disabled tabIndex={-1} title="Has notation">{icons.music}</Button> : null}</span>
+            <span>{(status && status.hasChords) ? <Button size="sm" variant="outline-primary" disabled tabIndex={-1} title="Has chords">{icons.guitar}</Button> : null}</span>
+            <span>{(status && status.hasLyrics) ? <Button size="sm" variant="outline-primary" disabled tabIndex={-1} title="Has lyrics">{icons.words}</Button> : null}</span>
+          </Col>
+          <Col>
+            <div style={{ fontWeight: 600 }}>{tuneTitle(tune)}</div>
+            <div className="text-muted small">{action}</div>
+            {contentSummary(status) ? (
+              <div className="text-muted small">Includes: {contentSummary(status)}</div>
+            ) : null}
+          </Col>
+        </Row>
+      </Container>
+    </ListGroup.Item>
+  )
+}
 
 export default function ImportWarningDialog(props) {
-//console.log(props.importResults)
   var navigate = useNavigate()
-  
-  function handleClose(e) {
+  var results = props.importResults || {}
+  var nav = props.navigateAfterImport || {}
+  var curatedTitle = nav.curatedTitle || null
+  var importKind = nav.importKind || (curatedTitle ? 'curated' : 'shared')
+  var dialogTitle = curatedTitle
+    ? ('Review curated book import: ' + curatedTitle)
+    : (importKind === 'shared' ? 'Review shared tune book import' : 'Review import')
+
+  var counts = {
+    inserts: bucketCount(results.inserts),
+    updates: bucketCount(results.updates),
+    localUpdates: bucketCount(results.localUpdates),
+    skippedUpdates: bucketCount(results.skippedUpdates),
+    deletes: bucketCount(results.deletes),
+    duplicates: bucketCount(results.duplicates),
+  }
+
+  var defaultTab = BUCKET_ORDER.find(function(key) { return counts[key] > 0 }) || 'localUpdates'
+
+  function handleClose() {
     props.closeWarning()
   }
-  
+
   function handleNavigation(tunes) {
-      props.setImportResults(null)
-      var params = {}
-      try {
-          params = props.navigateAfterImport
-      } catch (e) {
-        params = {}
-      }
+    props.setImportResults(null)
+    var params = {}
+    try {
+      params = props.navigateAfterImport
+    } catch (e) {
+      params = {}
+    }
 
-      runPendingShareImportSideEffect().finally(function() {
-        handleImportNavigation(params, {
-          navigate: navigate,
-          tunebook: props.tunebook,
-          tunes: tunes,
-          setCurrentTuneBook: props.setCurrentTuneBook,
-          setTagFilter: props.setTagFilter,
-          setFilter: props.setFilter,
-        }, !!(params && params.autoplay))
-      })
+    runPendingShareImportSideEffect().finally(function() {
+      handleImportNavigation(params, {
+        navigate: navigate,
+        tunebook: props.tunebook,
+        tunes: tunes,
+        setCurrentTuneBook: props.setCurrentTuneBook,
+        setTagFilter: props.setTagFilter,
+        setFilter: props.setFilter,
+      }, !!(params && params.autoplay))
+    })
   }
-    
-  return <Modal.Dialog  show="true" onHide={handleClose}
-    backdrop="static"
-    style={{minWidth:'95%'}} 
-    keyboard="false"
-    data-testid="import-warning-dialog"
-    >
-        <Modal.Header  >
-          <Modal.Title>Import</Modal.Title>
-        </Modal.Header>
-        {!props.importResults && <Modal.Body><h1>Import Failed</h1></Modal.Body>}
-        {props.importResults && <Modal.Body>
-          {(Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) && <p>To import these tunes</p>}
-           {Object.keys(props.importResults.updates).length ?<div><b>{Object.keys(props.importResults.updates).length}</b> items will be updated.</div>: ''}
-           {Object.keys(props.importResults.skippedUpdates).length ?<div><b>{Object.keys(props.importResults.skippedUpdates).length}</b> items are up to date.</div>: ''}
-           {Object.keys(props.importResults.inserts).length ? <div><b>{Object.keys(props.importResults.inserts).length}</b> items will be inserted.</div>: ''}
-           {(props.importResults.deletes && Object.keys(props.importResults.deletes).length) ? <div><b>{Object.keys(props.importResults.deletes).length}</b> items will be removed because they were deleted in the imported file.</div>: ''}
-           {Object.keys(props.importResults.localUpdates).length ?<div><b>{Object.keys(props.importResults.localUpdates).length}</b> locally changed items will be skipped.</div>: ''}
-           {Object.keys(props.importResults.duplicates).length ?<div><b>{Object.keys(props.importResults.duplicates).length}</b> duplicate items will be skipped.</div>: ''}
-          
-          <div style={{marginTop:'1em', marginBottom:'1em'}} >
-          
-            &nbsp;{(Object.keys(props.importResults.skippedUpdates).length > 0) || (Object.keys(props.importResults.localUpdates).length > 0) || (Object.keys(props.importResults.inserts).length > 0) || (Object.keys(props.importResults.updates).length > 0) || (props.importResults.deletes && Object.keys(props.importResults.deletes).length > 0) ? <Button variant="success" data-testid="import-warning-confirm" onClick={function() {props.tunebook.applyImport().then(handleNavigation)}} >Import</Button> : null}
-            
-            &nbsp;{(Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true).then(handleNavigation)}} >Import With Duplicates</Button> : null}
-            
-            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(false,true).then(handleNavigation)}} >Discard Local Changes</Button> : null}
-            
-            &nbsp;{(Object.keys(props.importResults.localUpdates).length > 0 && Object.keys(props.importResults.duplicates).length > 0) ? <Button variant="warning" onClick={function() {props.tunebook.applyImport(true,true).then(handleNavigation)}} >Import Duplicates and Discard Local Changes</Button> : null}
-            
-            &nbsp;
-            
-            {<Link to="/tunes"><Button variant="danger" onClick={function() {
-              props.setImportResults(null)
-              props.closeWarning()
-              
-            }} >Cancel</Button></Link>}
-            
-            
-          </div>
-          <Tabs>
-            {Object.keys(props.importResults.inserts).length > 0 && <Tab eventKey="inserts" title="Inserted" >
-              <ListGroup>
-              {Object.values(props.importResults.inserts).map(function(v,k) {
-                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                   <Container><Row>
-                     <Col xs='4' > &nbsp;
-                        
-                        <span >{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasNotes) ? <Button variant="outline-primary">{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasChords) ? <Button variant="outline-primary">{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.inserts[k] && props.importResults.tuneStatus.inserts[k].hasLyrics) ? <Button variant="outline-primary">{props.tunebook.icons.words}</Button> : null}</span>
-                    </Col>
-                    <Col xs='8'  >{v.name} </Col>
-                  </Row></Container> 
-                </ListGroup.Item>
-              })}
-              </ListGroup>
-            </Tab>}
-            { Object.keys(props.importResults.updates).length > 0 && <Tab eventKey="updates" title="Updated" >
-            <ListGroup>
-              {Object.values(props.importResults.updates).map(function(v,k) {
-                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                   <Container><Row>
-                     <Col xs='3' > &nbsp;
-                        <span >{(props.importResults.tuneStatus.updates[k] && props.importResults.tuneStatus.updates[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.updates[k] && props.importResults.tuneStatus.updates[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.updates[k] && props.importResults.tuneStatus.updates[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
-                    </Col>
-                    <Col xs='9'  >{v.name} </Col>
-                  </Row></Container> 
-                </ListGroup.Item>
-              })}
-              </ListGroup>
-            </Tab>}
-            {Object.keys(props.importResults.localUpdates).length > 0 && <Tab eventKey="localUpdates" title="Local Updates" >
-            <ListGroup>
-              {Object.values(props.importResults.localUpdates).map(function(v,k) {
-                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                   <Container><Row>
-                     <Col xs='3' > &nbsp;
-                        <span >{(props.importResults.tuneStatus.localUpdates[k] && props.importResults.tuneStatus.localUpdates[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.localUpdates[k] && props.importResults.tuneStatus.localUpdates[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.localUpdates[k] && props.importResults.tuneStatus.localUpdates[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
-                    </Col>
-                    <Col xs='9'  >{v.name} </Col>
-                  </Row></Container> 
-                </ListGroup.Item>
-              })}
-              </ListGroup>
-            </Tab>}
-            {Object.keys(props.importResults.skippedUpdates).length > 0 && <Tab eventKey="skippedUpdates" title="Skipped Updates" >
-           <ListGroup>
-              {Object.values(props.importResults.skippedUpdates).map(function(v,k) {
-                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                   <Container><Row>
-                     <Col xs='3' > &nbsp;
-                        <span >{(props.importResults.tuneStatus.skippedUpdates[k] && props.importResults.tuneStatus.skippedUpdates[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.skippedUpdates[k] && props.importResults.tuneStatus.skippedUpdates[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.skippedUpdates[k] && props.importResults.tuneStatus.skippedUpdates[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
-                    </Col>
-                    <Col xs='9'  >{v.name} </Col>
-                  </Row></Container> 
-                </ListGroup.Item>
-              })}
-              </ListGroup>
-             </Tab>}
-            {props.importResults.deletes && Object.keys(props.importResults.deletes).length > 0 && <Tab eventKey="deletes" title="Deleted" >
-            <ListGroup>
-              {Object.values(props.importResults.deletes).map(function(v,k) {
-                return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                   <Container><Row>
-                     <Col xs='3' > &nbsp;
-                        <span >{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                        <span>{(props.importResults.tuneStatus.deletes[k] && props.importResults.tuneStatus.deletes[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
-                    </Col>
-                    <Col xs='9'  >{v.name} </Col>
-                  </Row></Container> 
-                </ListGroup.Item>
-              })}
-              </ListGroup>
-            </Tab>}
-             
-            {Object.keys(props.importResults.duplicates).length > 0 && <Tab eventKey="duplicates" title="Duplicates" >
-              <ListGroup>
-                {Object.values(props.importResults.duplicates).map(function(v,k) {
-                  return <ListGroup.Item className={k%2==0 ? 'even':'odd'} key={k} >
-                     <Container><Row>
-                       <Col xs='3' > &nbsp;
-                          <span >{(props.importResults.tuneStatus.duplicates[k] && props.importResults.tuneStatus.duplicates[k].hasNotes) ? <Button>{props.tunebook.icons.music}</Button> : null}</span>
-                          <span>{(props.importResults.tuneStatus.duplicates[k] && props.importResults.tuneStatus.duplicates[k].hasChords) ? <Button>{props.tunebook.icons.guitar}</Button> : null}</span>
-                          <span>{(props.importResults.tuneStatus.duplicates[k] && props.importResults.tuneStatus.duplicates[k].hasLyrics) ? <Button>{props.tunebook.icons.words}</Button> : null}</span>
-                      </Col>
-                      <Col xs='9'  >{v.name} </Col>
-                    </Row></Container> 
-                  </ListGroup.Item>
-                })}
-                </ListGroup>
-            </Tab>}
-           
-          </Tabs>
-        </Modal.Body>}
 
-        
-      </Modal.Dialog>
+  var canImport = counts.skippedUpdates > 0 || counts.localUpdates > 0 || counts.inserts > 0 || counts.updates > 0 || counts.deletes > 0
+
+  return (
+    <Modal
+      show
+      onHide={handleClose}
+      backdrop="static"
+      keyboard={false}
+      size="xl"
+      dialogClassName="import-warning-dialog"
+      data-testid="import-warning-dialog"
+    >
+      <Modal.Header>
+        <Modal.Title>{dialogTitle}</Modal.Title>
+      </Modal.Header>
+      {!props.importResults && (
+        <Modal.Body><h1>Import Failed</h1></Modal.Body>
+      )}
+      {props.importResults && (
+        <Modal.Body>
+          <p className="mb-2">
+            {curatedTitle
+              ? ('Comparing the curated book “' + curatedTitle + '” with your library. Review what will be merged before continuing.')
+              : 'Comparing the import with your library. Review what will be merged before continuing.'}
+          </p>
+          <div className="mb-2">
+            {counts.updates ? <div>{BUCKET_META.updates.countLabel(counts.updates)}</div> : null}
+            {counts.inserts ? <div>{BUCKET_META.inserts.countLabel(counts.inserts)}</div> : null}
+            {counts.localUpdates ? <div>{BUCKET_META.localUpdates.countLabel(counts.localUpdates)}</div> : null}
+            {counts.skippedUpdates ? <div>{BUCKET_META.skippedUpdates.countLabel(counts.skippedUpdates)}</div> : null}
+            {counts.deletes ? <div>{BUCKET_META.deletes.countLabel(counts.deletes)}</div> : null}
+            {counts.duplicates ? <div>{BUCKET_META.duplicates.countLabel(counts.duplicates)}</div> : null}
+          </div>
+
+          <div style={{ marginTop: '1em', marginBottom: '1em' }}>
+            {canImport ? (
+              <Button
+                variant="success"
+                data-testid="import-warning-confirm"
+                onClick={function() { props.tunebook.applyImport().then(handleNavigation) }}
+              >
+                Import
+              </Button>
+            ) : null}
+            {' '}
+            {counts.duplicates > 0 ? (
+              <Button variant="warning" onClick={function() { props.tunebook.applyImport(true).then(handleNavigation) }}>
+                Import With Duplicates
+              </Button>
+            ) : null}
+            {' '}
+            {counts.localUpdates > 0 ? (
+              <Button variant="warning" onClick={function() { props.tunebook.applyImport(false, true).then(handleNavigation) }}>
+                Discard Local Changes
+              </Button>
+            ) : null}
+            {' '}
+            {(counts.localUpdates > 0 && counts.duplicates > 0) ? (
+              <Button variant="warning" onClick={function() { props.tunebook.applyImport(true, true).then(handleNavigation) }}>
+                Import Duplicates and Discard Local Changes
+              </Button>
+            ) : null}
+            {' '}
+            <Link to="/tunes">
+              <Button
+                variant="danger"
+                onClick={function() {
+                  props.setImportResults(null)
+                  props.closeWarning()
+                }}
+              >
+                Cancel
+              </Button>
+            </Link>
+          </div>
+
+          <Tabs defaultActiveKey={defaultTab} id="import-warning-tabs">
+            {BUCKET_ORDER.map(function(bucketKey) {
+              var meta = BUCKET_META[bucketKey]
+              var values = bucketValues(results[bucketKey])
+              if (!meta || values.length === 0) return null
+              var statuses = (results.tuneStatus && results.tuneStatus[bucketKey]) || []
+              return (
+                <Tab key={bucketKey} eventKey={bucketKey} title={meta.tabTitle + ' (' + values.length + ')'}>
+                  <p className="small text-muted mt-2 mb-2">{meta.intro}</p>
+                  <ListGroup>
+                    {values.map(function(tune, index) {
+                      return (
+                        <ImportTuneRow
+                          key={(tune && tune.id) || index}
+                          index={index}
+                          tune={tune}
+                          status={statuses[index]}
+                          action={meta.rowAction}
+                          icons={props.tunebook.icons}
+                        />
+                      )
+                    })}
+                  </ListGroup>
+                </Tab>
+              )
+            })}
+          </Tabs>
+        </Modal.Body>
+      )}
+    </Modal>
+  )
 }

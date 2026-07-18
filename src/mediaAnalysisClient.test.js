@@ -1,8 +1,14 @@
 import {
   getDetectedTempoFromAnalysis,
   handleAnalysisStreamEvent,
+  normalizeMediaAnalysis,
   tuneHasTempo,
 } from './mediaAnalysisClient';
+import {
+  buildAnalysisProcessingPayload,
+  resolveDemucsModelForSettings,
+  resolveMelodyVoicing,
+} from './melodyProcessingSettings';
 
 describe('handleAnalysisStreamEvent', function() {
   test('forwards progress updates', function() {
@@ -35,6 +41,62 @@ describe('handleAnalysisStreamEvent', function() {
     expect(function() {
       handleAnalysisStreamEvent({ type: 'error', message: 'failed' });
     }).toThrow('failed');
+  });
+});
+
+describe('normalizeMediaAnalysis', function() {
+  test('preserves inputsUsed and warnings', function() {
+    const result = normalizeMediaAnalysis({
+      lyrics: { text: 'hi' },
+      chords: { segments: [], backend: 'btc' },
+      melody: { notes: [], backend: 'kong' },
+      inputsUsed: {
+        fromStemCache: true,
+        stemCacheId: 'abc',
+        stemModel: 'htdemucs_6s',
+        musicType: 'piano',
+        keySource: 'chords',
+        melodyBackend: 'kong',
+        chordBackend: 'btc',
+        melodyVoicing: 'full',
+      },
+      warnings: ['key_inferred_from_chords', 'stems_separated_inline'],
+      stemCacheId: 'abc',
+      fromStemCache: true,
+    });
+    expect(result.inputsUsed.keySource).toBe('chords');
+    expect(result.inputsUsed.stemModel).toBe('htdemucs_6s');
+    expect(result.inputsUsed.melodyVoicing).toBe('full');
+    expect(result.warnings).toEqual(['key_inferred_from_chords', 'stems_separated_inline']);
+    expect(result.fromStemCache).toBe(true);
+    expect(result.stemCacheId).toBe('abc');
+  });
+});
+
+describe('buildAnalysisProcessingPayload', function() {
+  test('includes demucsModel and melodyVoicing for piano', function() {
+    const payload = buildAnalysisProcessingPayload({ musicType: 'piano' });
+    expect(payload.demucsModel).toBe('htdemucs_6s');
+    expect(payload.melodyVoicing).toBe('full');
+  });
+
+  test('defaults song to melody-line and non-6s demucs', function() {
+    const payload = buildAnalysisProcessingPayload({ musicType: 'vocal' }, null, {
+      demucsModel: 'htdemucs',
+    });
+    expect(payload.demucsModel).toBe('htdemucs');
+    expect(payload.melodyVoicing).toBe('melody-line');
+  });
+});
+
+describe('resolveDemucsModelForSettings / resolveMelodyVoicing', function() {
+  test('forces 6s for piano', function() {
+    expect(resolveDemucsModelForSettings({ musicType: 'piano' }, 'htdemucs')).toBe('htdemucs_6s');
+  });
+
+  test('full voicing for piano by default', function() {
+    expect(resolveMelodyVoicing({ musicType: 'piano' })).toBe('full');
+    expect(resolveMelodyVoicing({ musicType: 'vocal' })).toBe('melody-line');
   });
 });
 

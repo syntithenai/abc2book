@@ -4,15 +4,22 @@ import useMediaResolverHealth from '../useMediaResolverHealth'
 import useAbcjsParser from '../useAbcjsParser'
 import { buildGoogleChordsSearchUrl } from '../chordSearchSites'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
+import {
+  applyFieldLookupChoice,
+  buildSearchModeOptions,
+  dismissFieldLookup,
+} from '../tuneFieldLookupQueue'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import ManualCandidatesFeedback from './ManualCandidatesFeedback'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
+import { maybeOfferLyricsFromSearchResult } from '../lyricsSideSuggestions'
 
 export default function ChordsSearchButton({
   tuneId,
@@ -25,13 +32,15 @@ export default function ChordsSearchButton({
   token,
   onChords,
   onLyrics,
+  /** Current lyrics text — when set, search lyrics become suggestions instead of overwrites. */
+  existingLyrics,
   extraQuery,
   buttonStyle,
   disabled,
   showLyricsCheckbox = true,
   defaultUpdateLyrics = true,
   confirmOverwrite = false,
-  /** When true, lyrics are always updated (confirm dialog checkbox locked on). */
+  /** When true, lyrics checkbox is locked on (still only auto-writes if lyrics empty). */
   forceUpdateLyrics = false,
   tunebook,
   book,
@@ -55,20 +64,46 @@ export default function ChordsSearchButton({
   const automaticLookup = resolverAvailable || hasLocalChordSearch
   const updateLyricsRef = useRef(updateLyrics)
   updateLyricsRef.current = updateLyrics
+  const existingLyricsRef = useRef(existingLyrics)
+  existingLyricsRef.current = existingLyrics
+  const forceOverwriteLyricsRef = useRef(false)
   const searchModeRef = useRef('auto')
   const pendingModeRef = useRef('auto')
   const applyRef = useRef(null)
+  const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'chords')
 
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
-    if (typeof onChords === 'function') onChords(result, { updateLyrics: !!updateLyricsRef.current })
-    if (updateLyricsRef.current && typeof onLyrics === 'function') {
-      onLyrics({
-        lines: result.lyricLines,
-        text: result.lyricText,
-        source: result.source,
-        sourceUrl: result.sourceUrl,
-      })
+    let applyLyricsNow = false
+    if (updateLyricsRef.current) {
+      if (forceOverwriteLyricsRef.current) {
+        applyLyricsNow = true
+        if (typeof onLyrics === 'function') {
+          onLyrics({
+            lines: result.lyricLines,
+            text: result.lyricText,
+            source: result.source,
+            sourceUrl: result.sourceUrl,
+          })
+        }
+      } else {
+        maybeOfferLyricsFromSearchResult({
+          tuneId: tuneId,
+          candidateId: candidateId,
+          result: result,
+          title: title,
+          artist: artist,
+          currentLyrics: existingLyricsRef.current || '',
+          onLyricsAccept: function(payload) {
+            applyLyricsNow = true
+            if (typeof onLyrics === 'function') onLyrics(payload)
+          },
+        })
+      }
+    }
+    forceOverwriteLyricsRef.current = false
+    if (typeof onChords === 'function') {
+      onChords(result, { updateLyrics: applyLyricsNow })
     }
     maybeOfferGenreFromSearchResult({
       tuneId: tuneId,
@@ -83,6 +118,20 @@ export default function ChordsSearchButton({
   }
   applyRef.current = finishApply
 
+  function openPicker(candidates) {
+    setError('')
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
+    setShowPicker(true)
+  }
+
+  function closePicker(dismissJob) {
+    setShowPicker(false)
+    setPickerCandidates([])
+    if (dismissJob && lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      dismissFieldLookup(lookup.activeJob.id)
+    }
+  }
+
   const lookup = useFieldLookupSearchJob({
     tuneId: tuneId,
     candidateId: candidateId,
@@ -94,20 +143,19 @@ export default function ChordsSearchButton({
         return
       }
       const candidates = Array.isArray(job.candidates) ? job.candidates : []
-      if (searchModeRef.current === 'review') {
-        if (candidates.length === 0) {
-          setError('No chords found for this song')
-          return
+      if (job.status === 'done' || job.appliedCandidate) {
+        if (job.appliedCandidate) {
+          finishApply(job.appliedCandidate, null)
         }
-        setPickerCandidates(candidates)
-        setShowPicker(true)
         return
       }
-      if (candidates.length >= 1) {
-        applyRef.current(candidates[0], job.id)
+      if (candidates.length === 0) {
+        setError('No chords found for this song')
         return
       }
-      setError('No chords found for this song')
+      const key = targetKeyForFieldSearch(tuneId, candidateId)
+      if (key) setFieldSearchResults(key, 'chords', candidates)
+      openPicker(candidates)
     },
     onError: function(job) {
       setError(job.error || 'Chords search failed')
@@ -122,32 +170,13 @@ export default function ChordsSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = awaitingJob && Array.isArray(awaitingJob.candidates)
-    ? awaitingJob.candidates
-    : []
 
   function chooseChordCandidate(candidate) {
-    setShowPicker(false)
-    setPickerCandidates([])
     const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
       ? lookup.activeJob.id
       : null
     finishApply(candidate, jobId)
-  }
-
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
-    setError('')
-    setPickerCandidates(awaitingCandidates)
-    setShowPicker(true)
-  }
-
-  useOpenFieldSuggestions(tuneId, 'chords', openAwaitingSuggestions)
-
-  function clearAwaitingSuggestions() {
-    lookup.dismiss()
-    setShowPicker(false)
-    setPickerCandidates([])
+    closePicker(!!jobId)
   }
 
   function runSearch(mode) {
@@ -183,10 +212,7 @@ export default function ChordsSearchButton({
       lookup.cancel()
       return
     }
-    // New Search clears prior suggestions for this kind.
-    if (awaitingCandidates.length > 0) {
-      clearAwaitingSuggestions()
-    }
+    if (awaitingJob) dismissFieldLookup(awaitingJob.id)
     pendingModeRef.current = mode === 'review' ? 'review' : 'auto'
     // Overwrite confirmation is only for Auto (immediate apply). Review leaves
     // results as choosable suggestions without wiping the tune yet.
@@ -206,9 +232,22 @@ export default function ChordsSearchButton({
     const nextUpdateLyrics = forceUpdateLyrics || !!confirmUpdateLyrics
     setUpdateLyrics(nextUpdateLyrics)
     updateLyricsRef.current = nextUpdateLyrics
+    // Explicit checkbox consent overwrites existing lyrics; locked forceUpdateLyrics does not.
+    forceOverwriteLyricsRef.current = !forceUpdateLyrics && !!confirmUpdateLyrics
     setShowOverwriteConfirm(false)
     runSearch(pendingModeRef.current)
   }
+
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openPicker}
+      aria-label="Cached chords search results"
+      data-testid="chords-search-results-caret"
+    />
+  )
 
   return renderFieldLookupSearchUi({
     children: children,
@@ -227,8 +266,7 @@ export default function ChordsSearchButton({
             buttonStyle={buttonStyle}
             searchIcon={searchIcon}
             progress={lookup.progressPercent}
-            suggestionCount={awaitingCandidates.length}
-            onOpenSuggestions={openAwaitingSuggestions}
+            resultsCaret={resultsCaret}
           />
           {showLyricsCheckbox && !confirmOverwrite && automaticLookup && (
             <ToggleButton
@@ -310,8 +348,7 @@ export default function ChordsSearchButton({
           emptyMessage="No chord sheets were found."
           onSelect={chooseChordCandidate}
           onHide={function() {
-            setShowPicker(false)
-            setPickerCandidates([])
+            closePicker(true)
           }}
         />
         <LockedSourcePasteModal
@@ -338,7 +375,7 @@ export default function ChordsSearchButton({
               Continuing will <strong>overwrite all existing notation and chords</strong> for this tune
               with the search result.
               {forceUpdateLyrics ? (
-                <> Lyrics will also be overwritten.</>
+                <> Empty lyrics are filled from the result; existing lyrics stay as Suggestions.</>
               ) : null}
             </Alert>
             {!forceUpdateLyrics ? (

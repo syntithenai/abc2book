@@ -30,7 +30,7 @@ def _melody_device():
     return "cpu"
 
 
-def separate_stems_to_dir(audio_path, output_dir):
+def separate_stems_to_dir(audio_path, output_dir, model_name=None):
     import librosa
     import soundfile as sf
     import torch
@@ -39,9 +39,9 @@ def separate_stems_to_dir(audio_path, output_dir):
 
     os.makedirs(output_dir, exist_ok=True)
     device = _melody_device()
-    model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
-    allowed_stems = demucs_stems_for_model(model_name)
-    model = get_model(model_name)
+    resolved_model = (model_name or os.getenv("MELODY_DEMUCS_MODEL", "htdemucs") or "htdemucs").strip()
+    allowed_stems = demucs_stems_for_model(resolved_model)
+    model = get_model(resolved_model)
     model.eval()
     model.to(device)
     wav, _sr = librosa.load(audio_path, sr=model.samplerate, mono=False)
@@ -69,6 +69,6 @@ def separate_stems_to_dir(audio_path, output_dir):
         "samplerate": int(model.samplerate),
         "duration": duration,
         "backend": backend,
-        "model": model_name,
+        "model": resolved_model,
         "stems": list(allowed_stems),
     }

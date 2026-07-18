@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import subprocess
+import threading
 from typing import Any
 
 # Must be set before PaddleOCR / PaddleX import so prefetched models are found offline.
@@ -14,6 +15,11 @@ os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
 
 _paddle_ocr = None
 _paddle_init_error: str | None = None
+# Import probe can take tens of seconds; never run it on the asyncio thread from
+# /health (SPA timeout is ~6s). Cache forever once known; probe in a daemon thread.
+_paddleocr_cached: bool | None = None
+_paddleocr_probe_lock = threading.Lock()
+_paddleocr_probe_started = False
 
 
 def _paddleocr_importable_in(python_path: str) -> bool:
@@ -35,23 +41,58 @@ def _paddleocr_importable_in(python_path: str) -> bool:
     return False
 
 
-def paddleocr_available() -> bool:
-    global _paddle_init_error
-    if os.getenv("SHEET_IMAGE_OCR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
-        return False
+def _run_paddleocr_probe() -> bool:
+    global _paddleocr_cached, _paddle_init_error
     try:
         import paddleocr  # noqa: F401
     except ImportError:
         pass
     else:
+        _paddleocr_cached = True
         return True
 
     vision_python = os.getenv("VISION_VENV_PYTHON", "").strip()
     if vision_python and os.path.isfile(vision_python):
-        return _paddleocr_importable_in(vision_python)
+        result = _paddleocr_importable_in(vision_python)
+        _paddleocr_cached = result
+        return result
 
     _paddle_init_error = "paddleocr is not installed"
+    _paddleocr_cached = False
     return False
+
+
+def _ensure_paddleocr_probe_started() -> None:
+    global _paddleocr_probe_started
+    if _paddleocr_cached is not None or _paddleocr_probe_started:
+        return
+    with _paddleocr_probe_lock:
+        if _paddleocr_cached is not None or _paddleocr_probe_started:
+            return
+        _paddleocr_probe_started = True
+        threading.Thread(target=_run_paddleocr_probe, name="paddleocr-probe", daemon=True).start()
+
+
+def paddleocr_available() -> bool:
+    """Return OCR availability without blocking the event loop.
+
+    Until the background import probe finishes, returns False so /health stays
+    fast. Callers that need a definitive answer after warmup can re-check once
+    the cache is populated.
+    """
+    if os.getenv("SHEET_IMAGE_OCR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return False
+    if _paddleocr_cached is not None:
+        return _paddleocr_cached
+    _ensure_paddleocr_probe_started()
+    return False
+
+
+def warmup_paddleocr_probe() -> None:
+    """Kick the background import probe (e.g. on server startup)."""
+    if os.getenv("SHEET_IMAGE_OCR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return
+    _ensure_paddleocr_probe_started()
 
 
 def _resolve_device() -> str:

@@ -2291,6 +2291,11 @@ export default function useTuneBookMediaController(props) {
         if (!wasPlaying) {
             setTimeout(function() {
                 endSeekOperation()
+                // A paused/stopped seek has no auto-resume to protect. Leaving
+                // the guard armed makes the next play() (and the synth's
+                // beginMidiPlayback) silently bail for 3s, stranding the UI
+                // on the loading spinner.
+                seekGuardUntilRef.current = 0
                 seekWasPlayingRef.current = false
             }, 0)
             return

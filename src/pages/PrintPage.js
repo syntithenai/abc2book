@@ -6,6 +6,7 @@ import TunePrintSheet from '../components/TunePrintSheet';
 import useAbcjsParser from '../useAbcjsParser';
 import { resolvePrintViewMode } from '../printTuneViewMode';
 import { generateTunesPdf } from '../generateTunesPdf';
+import { useDocumentTitle } from '../pageTitle';
 
 function sanitizeFilename(name) {
   const base = String(name || 'tunes').trim() || 'tunes';
@@ -23,6 +24,7 @@ function buildPdfFilename(tunes, tuneBook) {
 }
 
 export default function PrintPage(props) {
+  useDocumentTitle('Print');
   const params = useParams();
   const location = useLocation();
   const navigate = useNavigate();

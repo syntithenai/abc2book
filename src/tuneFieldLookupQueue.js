@@ -33,6 +33,10 @@ import {
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
+import {
+  setFieldSearchResults,
+  targetKeyForFieldSearch,
+} from './fieldSearchResultCache'
 
 export const FIELD_LOOKUP_KINDS = [
   'lyrics',
@@ -44,6 +48,9 @@ export const FIELD_LOOKUP_KINDS = [
   'artists',
   'aliases',
   'title',
+  'tempo',
+  'meter',
+  'key',
 ]
 
 export const SIDE_FIELD_SUGGESTION_ORIGIN = 'side-inference'
@@ -151,6 +158,9 @@ function kindLabel(kind) {
   if (kind === 'artists') return 'Artists search'
   if (kind === 'aliases') return 'Alias search'
   if (kind === 'title') return 'Title suggestion'
+  if (kind === 'tempo') return 'Tempo suggestion'
+  if (kind === 'meter') return 'Time signature suggestion'
+  if (kind === 'key') return 'Key suggestion'
   return 'Field search'
 }
 
@@ -489,11 +499,17 @@ export function offerSideFieldSuggestion(spec) {
     return null
   }
 
-  const empty = tune
-    ? isTuneFieldEmptyForKind(tune, kind)
-    : !(Array.isArray(currentValue)
-      ? currentValue.some(function(item) { return String(item || '').trim() })
-      : String(currentValue || '').trim())
+  function valueLooksEmpty(value) {
+    return !(Array.isArray(value)
+      ? value.some(function(item) { return String(item || '').trim() })
+      : String(value || '').trim())
+  }
+
+  // Prefer the caller's live field value (form draft) when provided so we do not
+  // overwrite non-empty UI state just because the saved tune field is empty.
+  const empty = Object.prototype.hasOwnProperty.call(opts, 'currentValue')
+    ? valueLooksEmpty(opts.currentValue)
+    : (tune ? isTuneFieldEmptyForKind(tune, kind) : valueLooksEmpty(currentValue))
 
   if (empty) {
     let applied = false
@@ -514,6 +530,8 @@ export function offerSideFieldSuggestion(spec) {
       opts.onApplied(candidate)
       applied = true
     }
+    const cacheKey = targetKeyForFieldSearch(tuneId, candidateId)
+    if (cacheKey) setFieldSearchResults(cacheKey, kind, [candidate])
     return applied ? { applied: true } : null
   }
 
@@ -531,18 +549,12 @@ export function offerSideFieldSuggestion(spec) {
   })
   if (!searchable.length) return null
 
-  const id = seedAwaitingLookup({
-    tuneId: tuneId,
-    candidateId: candidateId,
-    kind: kind,
-    title: opts.title || '',
-    artist: opts.artist || '',
-    label: opts.label || kindLabel(kind),
-    candidates: candidates,
-    origin: opts.origin || SIDE_FIELD_SUGGESTION_ORIGIN,
-    originalValue: currentValue,
-  })
-  return id ? { seeded: id } : null
+  // Non-empty: cache for caret / one-shot picker — do not seed a global awaiting inbox.
+  setFieldSearchResults(targetKey, kind, searchable)
+  if (typeof opts.onOfferDialog === 'function') {
+    opts.onOfferDialog(searchable)
+  }
+  return { cached: true, candidates: searchable }
 }
 
 function abortRunningJob(job) {
@@ -634,7 +646,10 @@ export function applyFieldLookupChoice(jobId, candidate) {
             if (typeof queueContext.forceRefresh === 'function') {
               queueContext.forceRefresh()
             }
-            toastAppliedFieldLookup(job.kind, tune.name || job.title)
+            // Form live handlers already update the visible field — skip toast noise.
+            if (!hasLiveHandler(job)) {
+              toastAppliedFieldLookup(job.kind, tune.name || job.title)
+            }
           } catch (e) {
             console.log(e)
           }
@@ -643,12 +658,13 @@ export function applyFieldLookupChoice(jobId, candidate) {
     }
   }
 
-  // Keep suggestions so the user can try other choices until Clear or Search.
+  // One-shot: apply and finish. Cached alternatives live in fieldSearchResultCache.
   job.appliedCandidate = candidate || null
-  job.status = 'awaiting'
+  job.status = 'done'
   job.progress = 100
   job.message = ''
   job.error = null
+  job.candidates = []
   notifyFieldLookupResolved(job)
   notify()
   schedulePersist()
@@ -760,7 +776,12 @@ function notifyLive(job) {
   const handler = liveHandlers.get(liveHandlerKey(targetKeyForJob(job), job.kind))
   if (!handler) return
   try {
-    if (job.status === 'awaiting' && typeof handler.onAwaiting === 'function') {
+    // Awaiting = open one-shot picker. Done with appliedCandidate = sync auto-apply to draft forms.
+    if (
+      (job.status === 'awaiting'
+        || (job.status === 'done' && job.appliedCandidate))
+      && typeof handler.onAwaiting === 'function'
+    ) {
       handler.onAwaiting(publicJob(job))
     } else if (job.status === 'error' && typeof handler.onError === 'function') {
       handler.onError(publicJob(job))
@@ -955,6 +976,9 @@ function currentFieldValueForJob(job) {
   }
   if (job.kind === 'genre') return tune.genre || ''
   if (job.kind === 'title') return tune.name || ''
+  if (job.kind === 'tempo') return tune.tempo != null ? String(tune.tempo) : ''
+  if (job.kind === 'meter') return tune.meter || ''
+  if (job.kind === 'key') return tune.key || ''
   if (job.kind === 'artists') return Array.isArray(tune.artists) ? tune.artists : []
   if (job.kind === 'aliases') return Array.isArray(tune.aliases) ? tune.aliases : []
   if (job.kind === 'links') return Array.isArray(tune.links) ? tune.links : []
@@ -993,11 +1017,19 @@ function tryApplyCandidateKeepSuggestions(job, candidate) {
  * Settle a completed search:
  * - Persist unique suggestions (including Original Value when field non-empty).
  * - Freeze originalValue at settle time; applying a suggestion must not rewrite it.
- * - If field empty, also apply the first search result.
- * - Skip attaching suggestions when there is nothing to review:
- *   empty field + single auto-applied result, or sole result matches current value.
- * - Otherwise stay awaiting so Suggestions / Review strip can revisit.
+ * - Always write searchable candidates to fieldSearchResultCache for caret reopen.
+ * - Empty auto-apply kinds: apply first result and finish (done).
+ * - Always-pick kinds, or non-empty auto-apply kinds: stay awaiting briefly so
+ *   the live handler can open a one-shot picker, then the UI dismisses to done.
  */
+const ALWAYS_PICK_KINDS = {
+  artists: true,
+  aliases: true,
+  lyrics: true,
+  chords: true,
+  notation: true,
+}
+
 function settleCompletedJob(job) {
   let candidates = Array.isArray(job.candidates) ? job.candidates.slice() : []
   const currentValue = currentFieldValueForJob(job)
@@ -1025,33 +1057,47 @@ function settleCompletedJob(job) {
     originalValue: currentValue,
   })
 
+  const cacheKey = targetKeyForFieldSearch(job.tuneId, job.candidateId)
+  if (cacheKey && searchCandidates.length) {
+    setFieldSearchResults(cacheKey, job.kind, searchCandidates)
+  }
+
+  const alwaysPick = !!ALWAYS_PICK_KINDS[job.kind]
+    || !!(job.options && job.options.alwaysPick)
+
   let applied = false
-  if (fieldEmpty && searchCandidates.length) {
+  if (fieldEmpty && searchCandidates.length && !alwaysPick) {
     applied = tryApplyCandidateKeepSuggestions(job, searchCandidates[0])
   }
 
-  // Nothing alternative to pick: matched current, or empty + sole result already applied.
-  const skipSuggestions = searchCandidates.length === 0
-    || (fieldEmpty && applied && searchCandidates.length === 1)
+  // Empty + auto-applied (or nothing to pick): finish. Cache keeps alternatives.
+  const finishWithoutDialog = searchCandidates.length === 0
+    || (fieldEmpty && !alwaysPick && applied)
 
-  if (skipSuggestions) {
+  if (finishWithoutDialog) {
     job.status = 'done'
     job.progress = 100
     job.message = ''
-    job.candidates = []
-    toastFieldSearchFinished(job.kind, {
-      count: applied ? 1 : 0,
-      applied: applied,
-    })
+    // Notify while candidates are still present so live handlers (e.g. composer →
+    // artists picker) can split writers/performers. Then clear for storage.
+    if (!hasLiveHandler(job)) {
+      toastFieldSearchFinished(job.kind, {
+        count: applied ? 1 : 0,
+        applied: applied,
+      })
+    }
     notifyLive(job)
+    job.candidates = []
     return
   }
 
   markAwaiting(job)
-  toastFieldSearchFinished(job.kind, {
-    count: candidates.length,
-    applied: applied,
-  })
+  if (!hasLiveHandler(job)) {
+    toastFieldSearchFinished(job.kind, {
+      count: candidates.length,
+      applied: applied,
+    })
+  }
 }
 
 /**
@@ -1133,7 +1179,6 @@ async function runJob(job) {
       job.progress = 100
       job.message = ''
       toastFieldSearchFinished(job.kind, { count: 0, applied: false })
-      notifyLive(job)
       return
     }
 

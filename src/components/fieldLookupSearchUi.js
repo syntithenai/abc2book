@@ -13,6 +13,7 @@ export function renderFieldLookupSearchUi(options) {
     suggestionsDropdown,
     errorNode,
     modals,
+    busy,
   } = options
 
   if (typeof children === 'function') {
@@ -22,6 +23,7 @@ export function renderFieldLookupSearchUi(options) {
           buttonGroup: buttonGroup,
           suggestionsDropdown: suggestionsDropdown || null,
           errorNode: errorNode || null,
+          busy: !!busy,
         })}
         {modals}
       </>

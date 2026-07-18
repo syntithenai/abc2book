@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Packages browser-extension/ into
- * public/downloads/tunebook-youtube-helper.zip
+ * public/downloads/tunebook-helper.zip
  * with a single top-level folder for Chrome "Load unpacked".
  */
 
@@ -12,8 +12,9 @@ const zlib = require('zlib')
 const ROOT = path.resolve(__dirname, '..')
 const SRC_DIR = path.join(ROOT, 'browser-extension')
 const OUT_DIR = path.join(ROOT, 'public', 'downloads')
-const OUT_ZIP = path.join(OUT_DIR, 'tunebook-youtube-helper.zip')
-const ZIP_ROOT = 'tunebook-youtube-helper'
+const OUT_ZIP = path.join(OUT_DIR, 'tunebook-helper.zip')
+const ZIP_ROOT = 'tunebook-helper'
+const LEGACY_OUT_ZIP = path.join(OUT_DIR, 'tunebook-youtube-helper.zip')
 
 const EXCLUDE_NAMES = new Set([
   '.DS_Store',
@@ -164,8 +165,11 @@ function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true })
   const zipBuf = buildZip(files)
   fs.writeFileSync(OUT_ZIP, zipBuf)
+  if (fs.existsSync(LEGACY_OUT_ZIP)) {
+    fs.unlinkSync(LEGACY_OUT_ZIP)
+  }
   console.log(
-    'Packaged YouTube Helper v' +
+    'Packaged TuneBook Helper v' +
       (manifest.version || '?') +
       ' (' +
       files.length +

@@ -19,6 +19,7 @@ from tune_background_research import research_tune_background
 from feed_generation import generate_feed_articles, generate_feed_quizzes
 from feed_source_scrape import enrich_feed_sources
 from composer_discovery import discover_composer
+from genre_discovery import discover_genre
 from sheet_image_features import sheet_image_features
 from soundfont_download import (
     get_soundfont_status,
@@ -66,12 +67,21 @@ from allowlists import (
 )
 from providers import (
     host_embedded_providers,
+    is_cloud_stems_provider,
     parse_overlay_header,
     parse_providers_body,
     providers_health_payload,
     public_provider_summary,
     resolve_provider,
 )
+from llm_runtime import materialize_llm_config, use_llm_provider
+
+FEATURE_CAPABILITY = {
+    "llm": "llm",
+    "whisper": "whisper",
+    "stems": "stems",
+    "sheetImage": "ocr",
+}
 
 # Free access to this host's media / heavy ML. FREE_ACCESS_EMAILS preferred;
 # ALLOWED_EMAILS kept as legacy alias (see allowlists.load_free_access_emails).
@@ -198,7 +208,8 @@ def cors_headers(origin):
         "Access-Control-Allow-Headers": (
             "Authorization, Content-Type, Range, X-Abc-Auth-Session, "
             "X-Tunebook-Ytdlp-Proxy, X-Tunebook-Provider-llm, "
-            "X-Tunebook-Provider-whisper, X-Tunebook-Provider-ocr"
+            "X-Tunebook-Provider-whisper, X-Tunebook-Provider-ocr, "
+            "X-Tunebook-Provider-stems"
         ),
         "Access-Control-Expose-Headers": "Content-Length, Content-Range, Accept-Ranges, Content-Type",
     }
@@ -388,6 +399,15 @@ async def verify_autochord_runtime():
         print(f"WARNING: autochord python not found at {autochord_python}")
     asyncio.create_task(_probe_llm_available())
     start_soundfont_download_background()
+    # Vision import probes are expensive; start them off-thread so /health stays cheap.
+    try:
+        from sheet_image_ocr import warmup_paddleocr_probe
+        from sheet_image_omr import warmup_homr_probe
+
+        warmup_paddleocr_probe()
+        warmup_homr_probe()
+    except Exception as exc:
+        print(f"WARNING: sheet-image warmup skipped: {exc}")
 
 
 def _proxy_available():
@@ -448,6 +468,7 @@ def local_provider_backends():
         "llm": bool(LLM_ENABLED and _llm_available_cache and not RESOLVER_LIGHT_MODE),
         "whisper": _whisper_local_available(),
         "ocr": _ocr_local_available(),
+        "stems": bool(_stems_available() and not RESOLVER_LIGHT_MODE),
     }
 
 
@@ -527,9 +548,10 @@ def resolver_features():
     yt_flags = _youtube_audio_feature_flags()
     if RESOLVER_LIGHT_MODE:
         # Slim Cloud Run / light gateway: provider-proxy capabilities only.
+        # Stems available via cloud BYO/host keys (fal / Replicate).
         return {
             "proxy": _proxy_available(),
-            "stems": False,
+            "stems": True,
             "whisper": _whisper_runtime_available(),
             "llm": _llm_runtime_available(),
             "practiceAnalysis": False,
@@ -543,6 +565,7 @@ def resolver_features():
             "lightMode": True,
             "youtubeAudio": yt_flags["youtubeAudio"],
             "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
+            "chordBackend": "unavailable",
         }
     features = sheet_image_features()
     playwright_ok = False
@@ -554,7 +577,8 @@ def resolver_features():
         playwright_ok = False
     return {
         "proxy": _proxy_available(),
-        "stems": _stems_available(),
+        # STEMS_ENABLED gates the feature; local Demucs and/or cloud BYO/host keys run it.
+        "stems": bool(STEMS_ENABLED),
         "whisper": _whisper_runtime_available(),
         "llm": _llm_runtime_available(),
         "practiceAnalysis": _practice_analysis_available(),
@@ -570,17 +594,47 @@ def resolver_features():
         "lightMode": False,
         "youtubeAudio": yt_flags["youtubeAudio"],
         "youtubeEgressRequired": yt_flags["youtubeEgressRequired"],
+        "chordBackend": os.getenv("CHORD_BACKEND", "auto").strip().lower() or "auto",
     }
 
 
-async def require_resolver_feature(feature_name):
+async def require_resolver_feature(feature_name, request=None, verified=None):
     # LLM health is cached; startup can race the llm container and leave a
     # stale miss. Re-probe before gating LLM routes (not only /health/ready).
     if feature_name == "llm":
         await _refresh_llm_health_if_stale()
     features = resolver_features()
-    if not features.get(feature_name):
-        raise HTTPException(status_code=503, detail=f"{feature_name} is not available on this resolver")
+    if features.get(feature_name):
+        return
+    # BYO / host cloud providers can satisfy ML features without local backends.
+    capability = FEATURE_CAPABILITY.get(feature_name)
+    if capability and request is not None:
+        local_ok = {
+            "llm": _llm_runtime_available(),
+            "whisper": _whisper_local_available(),
+            "ocr": _ocr_local_available(),
+            "stems": bool(_stems_available() and not RESOLVER_LIGHT_MODE),
+        }.get(capability, False)
+        cfg = await resolve_request_provider(
+            capability,
+            request,
+            verified,
+            local_available=local_ok,
+        )
+        if cfg and cfg.get("provider") != "local" and (cfg.get("apiUrl") or cfg.get("apiKey")):
+            return
+    raise HTTPException(status_code=503, detail=f"{feature_name} is not available on this resolver")
+
+
+async def _resolve_llm_for_request(request, verified, *, voice=False):
+    """Resolve BYO/host/local LLM and return a materialized config for use_llm_provider."""
+    resolved = await resolve_request_provider(
+        "llm",
+        request,
+        verified,
+        local_available=_llm_runtime_available(),
+    )
+    return materialize_llm_config(resolved, voice=voice)
 
 
 def get_bearer_token(auth_header):
@@ -1383,25 +1437,67 @@ def _autochord_env():
     return env
 
 
-async def _run_detect_chords(temp_audio_path, request):
+async def _run_detect_chords(temp_audio_path, request, config_path=None):
     autochord_python = os.getenv("AUTOCHORD_VENV_PYTHON", "/opt/autochord-venv/bin/python")
     if not os.path.exists(autochord_python):
         raise HTTPException(
             status_code=502,
             detail=f"Chord detector runtime missing ({autochord_python})",
         )
+    command = [autochord_python, "/app/detect_chords.py", temp_audio_path]
+    if config_path:
+        command.append(config_path)
     return await run_subprocess_with_disconnect(
-        [autochord_python, "/app/detect_chords.py", temp_audio_path],
+        command,
         env=_autochord_env(),
         request=request,
     )
 
 
-async def detect_chords_from_path(temp_audio_path, request):
-    returncode, stdout_text, stderr_text = await asyncio.wait_for(
-        _run_detect_chords(temp_audio_path, request),
-        timeout=AUTOCHORD_TIMEOUT_SECONDS,
-    )
+def _chord_detect_config(timing=None, processing=None):
+    config = {}
+    if isinstance(timing, dict):
+        beat_times = timing.get("beatTimes")
+        if isinstance(beat_times, list) and beat_times:
+            config["beatTimes"] = beat_times
+        if timing.get("tempo") is not None:
+            config["tempo"] = timing.get("tempo")
+        if timing.get("beatsPerBar") is not None:
+            config["beatsPerBar"] = timing.get("beatsPerBar")
+    if isinstance(processing, dict):
+        if processing.get("detectedKey") or processing.get("key"):
+            config["detectedKey"] = processing.get("detectedKey") or processing.get("key")
+        if processing.get("chordBackend"):
+            config["chordBackend"] = processing.get("chordBackend")
+        if "constrainChordsToKey" in processing:
+            config["constrainChordsToKey"] = bool(processing.get("constrainChordsToKey"))
+        if processing.get("chordChangeGrid"):
+            config["chordChangeGrid"] = processing.get("chordChangeGrid")
+        if processing.get("beatsPerBar") is not None:
+            config["beatsPerBar"] = processing.get("beatsPerBar")
+        if "chordChangePenalty" in processing:
+            config["chordChangePenalty"] = bool(processing.get("chordChangePenalty"))
+    return config
+
+
+async def detect_chords_from_path(temp_audio_path, request, timing=None, processing=None):
+    config_path = None
+    try:
+        config = _chord_detect_config(timing=timing, processing=processing)
+        if config:
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as handle:
+                json.dump(config, handle)
+                config_path = handle.name
+        returncode, stdout_text, stderr_text = await asyncio.wait_for(
+            _run_detect_chords(temp_audio_path, request, config_path),
+            timeout=AUTOCHORD_TIMEOUT_SECONDS,
+        )
+    finally:
+        if config_path:
+            try:
+                os.unlink(config_path)
+            except FileNotFoundError:
+                pass
     if returncode != 0:
         raise HTTPException(
             status_code=502,
@@ -1413,7 +1509,7 @@ async def detect_chords_from_path(temp_audio_path, request):
         raise HTTPException(status_code=502, detail="Chord detector returned invalid JSON") from exc
 
 
-async def detect_chords_from_audio(audio_bytes, filename, request):
+async def detect_chords_from_audio(audio_bytes, filename, request, timing=None, processing=None):
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
 
     async with heavy_job_slot():
@@ -1422,7 +1518,12 @@ async def detect_chords_from_audio(audio_bytes, filename, request):
             temp_audio_path = temp_audio.name
 
         try:
-            return await detect_chords_from_path(temp_audio_path, request)
+            return await detect_chords_from_path(
+                temp_audio_path,
+                request,
+                timing=timing,
+                processing=processing,
+            )
         except ClientDisconnected as exc:
             raise HTTPException(status_code=499, detail="Chord discovery cancelled") from exc
         except asyncio.TimeoutError as exc:
@@ -1638,7 +1739,7 @@ def _build_stem_response(cache_id, model_name, cache_dir):
     }
 
 
-async def _run_separate_stems(temp_audio_path, output_dir, request):
+async def _run_separate_stems(temp_audio_path, output_dir, request, model_name=None):
     autochord_python = _autochord_python_path()
     command = [
         autochord_python,
@@ -1646,15 +1747,32 @@ async def _run_separate_stems(temp_audio_path, output_dir, request):
         temp_audio_path,
         output_dir,
     ]
-    return await run_subprocess_with_disconnect(command, env=_autochord_env(), request=request)
+    env = _autochord_env()
+    if model_name:
+        env["MELODY_DEMUCS_MODEL"] = str(model_name)
+    return await run_subprocess_with_disconnect(command, env=env, request=request)
 
 
-async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
-    model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
-    cache_id = _stem_cache_id(source_key, model_name)
+async def separate_stems_from_audio(audio_bytes, filename, source_key, request, provider_cfg=None, model_override=None):
+    from provider_stems_cloud import cloud_stems_model_name
+
+    use_cloud = is_cloud_stems_provider(provider_cfg)
+    if use_cloud:
+        model_name = cloud_stems_model_name(provider_cfg)
+    else:
+        model_name = os.getenv("MELODY_DEMUCS_MODEL", "htdemucs")
+        if provider_cfg and provider_cfg.get("model"):
+            model_name = str(provider_cfg.get("model") or model_name).strip() or model_name
+        if model_override:
+            model_name = str(model_override).strip() or model_name
+
+    cache_key = model_name
+    if use_cloud:
+        cache_key = model_name + "|cloud:" + str((provider_cfg or {}).get("provider") or "")
+    cache_id = _stem_cache_id(source_key, cache_key)
     cache_dir = _stem_cache_dir(cache_id)
 
-    if _stems_are_cached(cache_id):
+    if _stems_are_cached(cache_id, model_name):
         return _build_stem_response(cache_id, model_name, cache_dir)
 
     inflight_lock = _get_stem_inflight_lock(cache_id)
@@ -1666,13 +1784,14 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
         try:
             async with heavy_job_slot():
                 async with inflight_lock:
-                    if _stems_are_cached(cache_id):
+                    if _stems_are_cached(cache_id, model_name):
                         return
                     # Detach from `request`: this job outlives the HTTP request that
                     # kicked it off (which returns a "pending" response immediately),
                     # so disconnect monitoring must not cancel the separation.
                     await _separate_stems_uncached(
-                        audio_bytes, filename, model_name, cache_id, cache_dir, None
+                        audio_bytes, filename, model_name, cache_id, cache_dir, None,
+                        provider_cfg=provider_cfg if use_cloud else None,
                     )
         except Exception as exc:
             _write_stem_progress(cache_dir, {
@@ -1689,7 +1808,7 @@ async def separate_stems_from_audio(audio_bytes, filename, source_key, request):
     return _build_pending_stem_response(cache_id, model_name)
 
 
-async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, cache_dir, request):
+async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, cache_dir, request, provider_cfg=None):
     os.makedirs(cache_dir, exist_ok=True)
     estimated_seconds = _estimate_stem_job_seconds(audio_bytes)
     started_at = time.time()
@@ -1705,7 +1824,7 @@ async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, 
     async def update_progress_loop():
         while True:
             await asyncio.sleep(2)
-            if _stems_are_cached(cache_id):
+            if _stems_are_cached(cache_id, model_name):
                 return
             elapsed = max(0.0, time.time() - started_at)
             ratio = min(0.95, elapsed / max(1.0, estimated_seconds))
@@ -1720,6 +1839,38 @@ async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, 
             })
 
     progress_task = asyncio.create_task(update_progress_loop())
+
+    if is_cloud_stems_provider(provider_cfg):
+        try:
+            from provider_stems_cloud import separate_stems_cloud
+
+            result = await asyncio.wait_for(
+                separate_stems_cloud(audio_bytes, filename or "audio.wav", provider_cfg, cache_dir),
+                timeout=STEM_SEPARATION_TIMEOUT_SECONDS,
+            )
+            _write_stem_cache_metadata(cache_dir, {
+                "samplerate": result.get("samplerate") or 0,
+                "duration": result.get("duration") or 0,
+                "backend": result.get("backend") or "",
+                "model": result.get("model") or model_name,
+            })
+            _write_stem_progress(cache_dir, {
+                "stage": "complete",
+                "progress": 100,
+                "message": "Stems ready",
+                "startedAt": started_at,
+                "estimatedSeconds": estimated_seconds,
+                "elapsedSeconds": max(0.0, time.time() - started_at),
+                "duration": float(result.get("duration") or 0),
+            })
+            return _build_stem_response(cache_id, model_name, cache_dir)
+        except asyncio.TimeoutError as exc:
+            raise HTTPException(status_code=504, detail="Stem separation timeout") from exc
+        except Exception as exc:
+            raise HTTPException(status_code=502, detail=str(exc)[:500]) from exc
+        finally:
+            progress_task.cancel()
+
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
     with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as temp_audio:
         temp_audio.write(audio_bytes)
@@ -1729,7 +1880,7 @@ async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, 
     try:
         wav_path = await _convert_audio_to_wav(temp_audio_path)
         returncode, stdout_text, stderr_text = await asyncio.wait_for(
-            _run_separate_stems(wav_path, cache_dir, request),
+            _run_separate_stems(wav_path, cache_dir, request, model_name=model_name),
             timeout=STEM_SEPARATION_TIMEOUT_SECONDS,
         )
         if returncode != 0:
@@ -1771,7 +1922,35 @@ async def _separate_stems_uncached(audio_bytes, filename, model_name, cache_id, 
                 pass
 
 
-async def _transcribe_from_wav_path(wav_path, request, require_text=True, whisper_options=None, format_as_lyrics=True):
+async def _transcribe_from_wav_path(
+    wav_path,
+    request,
+    require_text=True,
+    whisper_options=None,
+    format_as_lyrics=True,
+    verified=None,
+    provider_cfg=None,
+):
+    """Transcribe a WAV via BYO/host Whisper cloud provider or local whisper.cpp."""
+    cfg = provider_cfg
+    if cfg is None and request is not None:
+        cfg = await resolve_request_provider(
+            "whisper",
+            request,
+            verified,
+            local_available=_whisper_local_available(),
+        )
+    if cfg and cfg.get("provider") != "local" and cfg.get("apiUrl"):
+        with open(wav_path, "rb") as handle:
+            audio_bytes = handle.read()
+        return await forward_to_whisper(
+            audio_bytes,
+            os.path.basename(wav_path) or "audio.wav",
+            "audio/wav",
+            request,
+            provider_cfg=cfg,
+        )
+
     temp_json_path = wav_path + ".json"
     result = None
     active_backend = "unknown"
@@ -1978,7 +2157,12 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
                 )
             )
             chords_task = asyncio.create_task(
-                detect_chords_from_path(audio_paths.get("chords") or wav_path, request)
+                detect_chords_from_path(
+                    audio_paths.get("chords") or wav_path,
+                    request,
+                    timing=timing if isinstance(timing, dict) and not timing.get("error") else None,
+                    processing=processing,
+                )
             )
             melody_task = asyncio.create_task(
                 detect_melody_from_path(
@@ -2043,23 +2227,110 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
                 if timing.get("tempo"):
                     chords["tempo"] = timing.get("tempo")
 
+            warnings = []
+            if isinstance(audio_paths, dict):
+                warnings.extend(list(audio_paths.get("warnings") or []))
+
+            key_source = "none"
             if isinstance(chords, dict) and isinstance(melody, dict) and chords.get("segments"):
                 try:
                     from chord_processing import post_process_chords
 
-                    detected_key = melody.get("detectedKey") or melody.get("key") or ""
+                    tune_key = str(
+                        (processing or {}).get("detectedKey")
+                        or (processing or {}).get("key")
+                        or ""
+                    ).strip()
+                    chord_key = str(chords.get("detectedKey") or "").strip()
+                    melody_key = str(melody.get("detectedKey") or melody.get("key") or "").strip()
+                    if tune_key:
+                        detected_key = tune_key
+                        key_source = "tune"
+                    elif chord_key:
+                        detected_key = chord_key
+                        key_source = "chords"
+                        warnings.append("key_inferred_from_chords")
+                    elif melody_key:
+                        detected_key = melody_key
+                        key_source = "melody"
+                        warnings.append("key_inferred_from_melody")
+                    else:
+                        detected_key = ""
+                        warnings.append("no_key")
+
+                    constrain = True
+                    if isinstance(processing, dict) and "constrainChordsToKey" in processing:
+                        constrain = bool(processing.get("constrainChordsToKey"))
+                    else:
+                        constrain = str(os.getenv("CHORD_CONSTRAIN_TO_KEY", "true")).strip().lower() not in {
+                            "0",
+                            "false",
+                            "no",
+                        }
+                    beats_per_bar = int(
+                        (processing or {}).get("beatsPerBar")
+                        or (timing.get("beatsPerBar") if isinstance(timing, dict) else None)
+                        or 4
+                    )
+                    change_grid = str(
+                        (processing or {}).get("chordChangeGrid")
+                        or os.getenv("CHORD_CHANGE_GRID", "beat")
+                        or "beat"
+                    )
                     chords["segments"] = post_process_chords(
                         chords.get("segments") or [],
                         key_text=detected_key,
-                        constrain_to_key=True,
+                        constrain_to_key=constrain,
                         beat_times=shared_beat_times or chords.get("beatTimes") or [],
+                        change_grid=change_grid,
+                        beats_per_bar=beats_per_bar,
                     )
+                    if detected_key:
+                        chords["detectedKey"] = detected_key
+                        chords["keySource"] = key_source
                 except Exception:
                     pass
+            elif isinstance(chords, dict) and chords.get("keySource"):
+                key_source = str(chords.get("keySource") or "none")
+
+            if not shared_beat_times:
+                warnings.append("no_beat_grid")
+
+            melody_backend = str((melody or {}).get("backend") or "")
+            if melody_backend and "kong" not in melody_backend and "mt3" not in melody_backend:
+                requested = str((processing or {}).get("melodyBackend") or "auto").lower()
+                music_type = str((processing or {}).get("musicType") or "").lower()
+                if requested in ("kong", "mt3") or (requested == "auto" and music_type == "piano"):
+                    warnings.append("amt_fallback_basic_pitch")
+
+            if isinstance(lyrics, dict) and not lyrics.get("text") and not lyrics.get("error"):
+                warnings.append("empty_lyrics")
+            if isinstance(chords, dict) and not chords.get("segments") and not chords.get("error"):
+                warnings.append("empty_chords")
+            if isinstance(melody, dict) and not melody.get("notes") and not melody.get("error"):
+                warnings.append("empty_melody")
 
             if not lyrics.get("text") and not chords.get("segments") and not melody.get("notes"):
                 detail = lyrics.get("error") or chords.get("error") or melody.get("error") or "Media analysis produced no results"
                 raise HTTPException(status_code=502, detail=detail)
+
+            from audio_analysis_filters import resolve_demucs_model, resolve_melody_voicing
+
+            music_type = str((processing or {}).get("musicType") or "vocal")
+            melody_voicing = resolve_melody_voicing(processing)
+            stem_model = ""
+            if isinstance(audio_paths, dict):
+                stem_model = str(audio_paths.get("stem_model") or "")
+            if not stem_model:
+                stem_model = resolve_demucs_model(processing)
+
+            # Deduplicate warnings while preserving order.
+            seen = set()
+            unique_warnings = []
+            for item in warnings:
+                if item and item not in seen:
+                    seen.add(item)
+                    unique_warnings.append(item)
 
             await report("finalize", "Finalizing analysis...", 98)
             body = {
@@ -2067,7 +2338,21 @@ async def analyze_media_from_audio(audio_bytes, filename, request, processing=No
                 "chords": chords,
                 "melody": melody,
                 "timing": timing,
+                "inputsUsed": {
+                    "fromStemCache": bool(isinstance(audio_paths, dict) and audio_paths.get("from_stem_cache")),
+                    "stemCacheId": str((audio_paths or {}).get("stem_cache_id") or "") if isinstance(audio_paths, dict) else "",
+                    "stemModel": stem_model,
+                    "musicType": music_type,
+                    "keySource": key_source,
+                    "melodyBackend": melody_backend,
+                    "chordBackend": str((chords or {}).get("backend") or ""),
+                    "melodyVoicing": melody_voicing,
+                },
+                "warnings": unique_warnings,
             }
+            if isinstance(audio_paths, dict) and audio_paths.get("stem_cache_id"):
+                body["stemCacheId"] = audio_paths.get("stem_cache_id")
+                body["fromStemCache"] = bool(audio_paths.get("from_stem_cache"))
             await report("complete", "Analysis complete", 100)
             return body
         except ClientDisconnected as exc:
@@ -2263,7 +2548,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/search-images", "/research-tune-background", "/discover-composer", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml", "/abc2xml", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml", "/abc2xml", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -2678,7 +2963,7 @@ async def transcribe(
     origin = request.headers.get("origin")
     try:
         verified = await maybe_require_auth(authorization)
-        await require_resolver_feature("whisper")
+        await require_resolver_feature("whisper", request, verified)
         track_resolver_usage('transcribe')
 
         audio_bytes = b""
@@ -2839,8 +3124,8 @@ async def detect_playback_region_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("whisper")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("whisper", request, verified)
         track_resolver_usage("detect-playback-region")
 
         audio_bytes, filename, _content_type, _processing = await _resolve_audio_payload(
@@ -2880,7 +3165,9 @@ async def detect_playback_region_endpoint(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
-async def _process_voice_command_audio(audio_bytes, filename, books, tags, request, voice_mode):
+async def _process_voice_command_audio(
+    audio_bytes, filename, books, tags, request, voice_mode, verified=None
+):
     total_started = time.monotonic()
     transcribe_started = time.monotonic()
     suffix = os.path.splitext(filename or "audio.wav")[1] or ".wav"
@@ -2900,6 +3187,7 @@ async def _process_voice_command_audio(audio_bytes, filename, books, tags, reque
                 require_text=False,
                 whisper_options=VOICE_WHISPER_OPTIONS,
                 format_as_lyrics=False,
+                verified=verified,
             )
             transcribe_ms = int((time.monotonic() - transcribe_started) * 1000)
             transcript = str(transcription.get("text") or "").strip()
@@ -2914,7 +3202,11 @@ async def _process_voice_command_audio(audio_bytes, filename, books, tags, reque
 
             parse_started = time.monotonic()
             try:
-                intent = await parse_voice_intent(transcript, books, tags, voice_mode=voice_mode)
+                llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
+                with use_llm_provider(llm_cfg):
+                    intent = await parse_voice_intent(
+                        transcript, books, tags, voice_mode=voice_mode
+                    )
             except Exception as exc:
                 intent = _empty_intent(transcript, "llm")
                 intent["error"] = str(exc)[:200]
@@ -2954,8 +3246,8 @@ async def voice_command_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("whisper")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("whisper", request, verified)
         track_resolver_usage("voice-command")
 
         audio_bytes = await file.read()
@@ -2983,6 +3275,7 @@ async def voice_command_endpoint(
             tag_list,
             request,
             voice_mode,
+            verified=verified,
         )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
@@ -2996,8 +3289,8 @@ async def help_query_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("llm")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("llm", request, verified)
         track_resolver_usage("help-query")
 
         payload = await request.json()
@@ -3005,7 +3298,9 @@ async def help_query_endpoint(
         if not question:
             return json_error(400, "Missing help question", origin)
 
-        intent = await parse_help_intent_llm(question)
+        llm_cfg = await _resolve_llm_for_request(request, verified, voice=True)
+        with use_llm_provider(llm_cfg):
+            intent = await parse_help_intent_llm(question)
         body = {
             "question": question,
             "answer": intent.get("helpAnswer")
@@ -3195,13 +3490,14 @@ async def search_chords_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage('search-chords')
 
         payload = await request.json()
         title = str(payload.get("title") or "").strip()
         artist = str(payload.get("artist") or "").strip()
         page_url = str(payload.get("url") or "").strip()
+        llm_cfg = await _resolve_llm_for_request(request, verified)
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -3220,10 +3516,11 @@ async def search_chords_endpoint(
 
                 async def run():
                     try:
-                        if page_url:
-                            body = await fetch_chords_url(page_url, on_progress=on_progress)
-                        else:
-                            body = await search_chords(title, artist, on_progress=on_progress)
+                        with use_llm_provider(llm_cfg):
+                            if page_url:
+                                body = await fetch_chords_url(page_url, on_progress=on_progress)
+                            else:
+                                body = await search_chords(title, artist, on_progress=on_progress)
                         await queue.put({"type": "result", "body": body})
                     except ValueError as exc:
                         await queue.put({
@@ -3260,10 +3557,11 @@ async def search_chords_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        if page_url:
-            body = await fetch_chords_url(page_url)
-        else:
-            body = await search_chords(title, artist)
+        with use_llm_provider(llm_cfg):
+            if page_url:
+                body = await fetch_chords_url(page_url)
+            else:
+                body = await search_chords(title, artist)
 
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
@@ -3452,8 +3750,8 @@ async def research_tune_background_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("llm")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("llm", request, verified)
         track_resolver_usage('research-tune-background')
 
         payload = await request.json()
@@ -3465,23 +3763,26 @@ async def research_tune_background_endpoint(
             or payload.get("existingBackground")
             or ""
         )
+        llm_cfg = await _resolve_llm_for_request(request, verified)
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
         if wants_stream:
             async def body():
-                async for line in stream_tune_background_research_events(
-                    title, artist, lyrics, existing_background
-                ):
-                    yield line.encode("utf-8")
+                with use_llm_provider(llm_cfg):
+                    async for line in stream_tune_background_research_events(
+                        title, artist, lyrics, existing_background
+                    ):
+                        yield line.encode("utf-8")
 
             headers = cors_headers(origin)
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(body(), media_type="application/x-ndjson", headers=headers)
 
-        body = await research_tune_background(
-            title, artist, lyrics, existing_background
-        )
+        with use_llm_provider(llm_cfg):
+            body = await research_tune_background(
+                title, artist, lyrics, existing_background
+            )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -3496,16 +3797,18 @@ async def generate_feed_articles_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("llm")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("llm", request, verified)
         track_resolver_usage("generate-feed-articles")
         payload = await request.json()
-        body = await generate_feed_articles(
-            str(payload.get("title") or "").strip(),
-            str(payload.get("artist") or "").strip(),
-            payload.get("facts") if isinstance(payload.get("facts"), list) else [],
-            str(payload.get("backgroundInfo") or ""),
-        )
+        llm_cfg = await _resolve_llm_for_request(request, verified)
+        with use_llm_provider(llm_cfg):
+            body = await generate_feed_articles(
+                str(payload.get("title") or "").strip(),
+                str(payload.get("artist") or "").strip(),
+                payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+                str(payload.get("backgroundInfo") or ""),
+            )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -3520,16 +3823,18 @@ async def generate_feed_quizzes_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("llm")
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("llm", request, verified)
         track_resolver_usage("generate-feed-quizzes")
         payload = await request.json()
-        body = await generate_feed_quizzes(
-            str(payload.get("title") or "").strip(),
-            str(payload.get("artist") or "").strip(),
-            payload.get("facts") if isinstance(payload.get("facts"), list) else [],
-            str(payload.get("backgroundInfo") or ""),
-        )
+        llm_cfg = await _resolve_llm_for_request(request, verified)
+        with use_llm_provider(llm_cfg):
+            body = await generate_feed_quizzes(
+                str(payload.get("title") or "").strip(),
+                str(payload.get("artist") or "").strip(),
+                payload.get("facts") if isinstance(payload.get("facts"), list) else [],
+                str(payload.get("backgroundInfo") or ""),
+            )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -3565,13 +3870,14 @@ async def discover_composer_endpoint(
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
+        verified = await maybe_require_auth(authorization)
         track_resolver_usage('discover-composer')
 
         payload = await request.json()
         title = str(payload.get("title") or "").strip()
         artist = str(payload.get("artist") or "").strip()
         title_hint = str(payload.get("titleHint") or payload.get("title_hint") or "").strip()
+        llm_cfg = await _resolve_llm_for_request(request, verified)
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -3590,14 +3896,15 @@ async def discover_composer_endpoint(
 
                 async def run():
                     try:
-                        async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
-                            body = await discover_composer(
-                                client,
-                                title,
-                                artist=artist,
-                                title_hint=title_hint,
-                                on_progress=on_progress,
-                            )
+                        with use_llm_provider(llm_cfg):
+                            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                                body = await discover_composer(
+                                    client,
+                                    title,
+                                    artist=artist,
+                                    title_hint=title_hint,
+                                    on_progress=on_progress,
+                                )
                         await queue.put({"type": "result", "body": body})
                     except ValueError as exc:
                         await queue.put({
@@ -3634,13 +3941,117 @@ async def discover_composer_endpoint(
             headers["Content-Type"] = "application/x-ndjson"
             return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
 
-        async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
-            body = await discover_composer(
-                client,
-                title,
-                artist=artist,
-                title_hint=title_hint,
-            )
+        with use_llm_provider(llm_cfg):
+            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                body = await discover_composer(
+                    client,
+                    title,
+                    artist=artist,
+                    title_hint=title_hint,
+                )
+        return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.post("/discover-genre")
+async def discover_genre_endpoint(
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        verified = await maybe_require_auth(authorization)
+        track_resolver_usage('discover-genre')
+
+        payload = await request.json()
+        title = str(payload.get("title") or "").strip()
+        artist = str(payload.get("artist") or "").strip()
+        rhythm = str(payload.get("rhythm") or "").strip()
+        background_info = str(
+            payload.get("backgroundInfo") or payload.get("background_info") or ""
+        ).strip()
+        current_genre = str(
+            payload.get("currentGenre") or payload.get("current_genre") or ""
+        ).strip()
+        llm_cfg = await _resolve_llm_for_request(request, verified)
+
+        accept = request.headers.get("accept", "")
+        wants_stream = "application/x-ndjson" in accept
+
+        if wants_stream:
+            async def stream_events():
+                queue = asyncio.Queue()
+
+                async def on_progress(stage, message, progress):
+                    await queue.put({
+                        "type": "progress",
+                        "stage": stage,
+                        "message": message,
+                        "progress": progress,
+                    })
+
+                async def run():
+                    try:
+                        with use_llm_provider(llm_cfg):
+                            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                                body = await discover_genre(
+                                    client,
+                                    title,
+                                    artist=artist,
+                                    rhythm=rhythm,
+                                    background_info=background_info,
+                                    current_genre=current_genre,
+                                    on_progress=on_progress,
+                                )
+                        await queue.put({"type": "result", "body": body})
+                    except ValueError as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 400,
+                        })
+                    except HTTPException as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc.detail),
+                            "status": exc.status_code,
+                        })
+                    except Exception as exc:
+                        await queue.put({
+                            "type": "error",
+                            "message": str(exc),
+                            "status": 500,
+                        })
+                    finally:
+                        await queue.put(None)
+
+                task = asyncio.create_task(run())
+                try:
+                    while True:
+                        item = await queue.get()
+                        if item is None:
+                            break
+                        yield json.dumps(item) + "\n"
+                finally:
+                    await task
+
+            headers = cors_headers(origin)
+            headers["Content-Type"] = "application/x-ndjson"
+            return StreamingResponse(stream_events(), media_type="application/x-ndjson", headers=headers)
+
+        with use_llm_provider(llm_cfg):
+            async with httpx.AsyncClient(timeout=httpx.Timeout(120.0)) as client:
+                body = await discover_genre(
+                    client,
+                    title,
+                    artist=artist,
+                    rhythm=rhythm,
+                    background_info=background_info,
+                    current_genre=current_genre,
+                )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except ValueError as exc:
         return json_error(400, str(exc), origin)
@@ -3884,14 +4295,33 @@ async def convert_abc_to_musicxml(abc_text: str) -> str:
 async def separate_stems(
     request: Request,
     file: UploadFile | None = File(default=None),
+    demucsModel: str | None = Form(default=None),
     authorization: str | None = Header(default=None),
 ):
     origin = request.headers.get("origin")
     try:
-        await maybe_require_auth(authorization)
-        await require_resolver_feature("stems")
+        verified = await maybe_require_auth(authorization)
+        provider_cfg = await resolve_request_provider(
+            "stems",
+            request,
+            verified,
+            local_available=_stems_available(),
+        )
+        if is_cloud_stems_provider(provider_cfg):
+            pass  # cloud BYO/host — no local Demucs required
+        elif _stems_available():
+            await require_resolver_feature("stems")
+        else:
+            raise HTTPException(
+                status_code=503,
+                detail=(
+                    "Stems provider required (Settings → Providers fal/Replicate, "
+                    "host PROVIDER_STEMS_*, or a full home resolver with Demucs)"
+                ),
+            )
         track_resolver_usage('separate-stems')
 
+        model_override = str(demucsModel or "").strip() or None
         if file is not None:
             audio_bytes = await file.read()
             filename = file.filename or "audio.bin"
@@ -3908,6 +4338,7 @@ async def separate_stems(
                 payload=payload,
             )
             source_key = source_type + ":" + source_url
+            model_override = str(payload.get("demucsModel") or payload.get("model") or demucsModel or "").strip() or None
 
         if not audio_bytes:
             return json_error(400, "No audio data", origin)
@@ -3915,7 +4346,14 @@ async def separate_stems(
         if len(audio_bytes) > MAX_STREAM_BYTES:
             return json_error(413, "Media file too large", origin)
 
-        body = await separate_stems_from_audio(audio_bytes, filename, source_key, request)
+        body = await separate_stems_from_audio(
+            audio_bytes,
+            filename,
+            source_key,
+            request,
+            provider_cfg=provider_cfg,
+            model_override=model_override,
+        )
         return JSONResponse(content=body, headers=cors_headers(origin))
     except HTTPException as exc:
         return json_error(exc.status_code, str(exc.detail), origin)
@@ -4195,7 +4633,7 @@ async def transcribe_sheet_image(
     origin = request.headers.get("origin")
     try:
         verified = await maybe_require_auth(authorization)
-        await require_resolver_feature("sheetImage")
+        await require_resolver_feature("sheetImage", request, verified)
         track_resolver_usage("transcribe-sheet-image")
 
         if file is None:

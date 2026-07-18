@@ -3,7 +3,7 @@ import {
   searchLocalCollection,
   searchLocalCollectionNotation,
 } from './localAbcCollectionSearch'
-import { scoreTitleArtistMatch } from './notationMatchUtils'
+import { scoreNotationCandidate } from './notationMatchUtils'
 import {
   hasStrongNotationMatch,
   searchThesessionNotation,
@@ -18,10 +18,19 @@ function emitProgress(onProgress, message, progress, stage) {
   }
 }
 
+function emptyNotationResult() {
+  return {
+    multiple: false,
+    empty: true,
+    found: false,
+    candidates: [],
+  }
+}
+
 function finalizeLightResult(candidates) {
   const sorted = candidates.slice()
   if (sorted.length === 0) {
-    throw new Error('No ABC notation found for this tune')
+    return emptyNotationResult()
   }
   if (sorted.length === 1) {
     return normalizeNotationSearch(sorted[0])
@@ -36,7 +45,7 @@ function filterCandidatesByScore(candidates, title, artist) {
   const queryWords = String(title || '').trim().split(/\s+/).filter(Boolean).length
   const minScore = queryWords > 1 ? 50 : 30
   const filtered = candidates.filter(function(candidate) {
-    return scoreTitleArtistMatch(candidate.title, candidate.artist, title, artist) >= minScore
+    return scoreNotationCandidate(candidate, title, artist) >= minScore
   })
   if (filtered.length > 0) return filtered
   // Prefer nothing over a flood of weak FolkTuneFinder / Session substring hits.
@@ -92,14 +101,9 @@ export async function searchNotationLight(options) {
   candidates = filterCandidatesByScore(candidates, title, artist)
 
   if (hasStrongNotationMatch(candidates, title, artist) && candidates.length > 1) {
-    const topScore = scoreTitleArtistMatch(
-      candidates[0].title,
-      candidates[0].artist,
-      title,
-      artist
-    )
+    const topScore = scoreNotationCandidate(candidates[0], title, artist)
     candidates = candidates.filter(function(candidate) {
-      return scoreTitleArtistMatch(candidate.title, candidate.artist, title, artist)
+      return scoreNotationCandidate(candidate, title, artist)
         >= Math.max(30, topScore - 10)
     })
   }

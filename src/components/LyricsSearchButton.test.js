@@ -33,6 +33,19 @@ jest.mock('../tuneFieldLookupQueue', function() {
     dismissFieldLookup: function() { return mockDismiss.apply(null, arguments) },
     getAwaitingJob: jest.fn(),
     getActiveJob: jest.fn(),
+    offerSideFieldSuggestion: jest.fn(function() { return { seeded: 'side-1' } }),
+  }
+})
+
+jest.mock('../lyricsSideSuggestions', function() {
+  return {
+    maybeOfferLyricsFromSearchResult: jest.fn(),
+  }
+})
+
+jest.mock('../genreSideSuggestions', function() {
+  return {
+    maybeOfferGenreFromSearchResult: jest.fn(),
   }
 })
 

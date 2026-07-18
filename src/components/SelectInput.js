@@ -1,13 +1,10 @@
-import { useEffect, useState } from 'react'
-import { FormControl, InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
-
-const CARET_TITLE = (
-  <span aria-hidden="true" style={{ display: 'inline-block', lineHeight: 1 }}>▾</span>
-)
+import { useEffect, useMemo, useState } from 'react'
+import { FormControl, InputGroup } from 'react-bootstrap'
+import { icons } from '../Icons'
 
 /**
- * Text input with optional MusicBrainz-style options dropdown (caret only)
- * and an optional trailing append (e.g. field-lookup suggestions).
+ * Text input with optional autosuggest options and an optional trailing append
+ * (e.g. field-lookup suggestions).
  */
 export default function SelectInput({
   options,
@@ -21,9 +18,13 @@ export default function SelectInput({
   onBlur,
   autoComplete,
   list,
+  loading,
   'data-testid': dataTestId,
 }) {
   const [inputValue, setInputValue] = useState(value == null ? '' : value)
+  const datalistId = useMemo(function() {
+    return 'select-input-list-' + Math.random().toString(36).slice(2, 10)
+  }, [])
 
   useEffect(function() {
     setInputValue(value == null ? '' : value)
@@ -34,13 +35,8 @@ export default function SelectInput({
     if (typeof onChange === 'function') onChange(event.target.value)
   }
 
-  function handleOptionSelect(option) {
-    setInputValue(option)
-    if (typeof onChange === 'function') onChange(option)
-    if (typeof onSelectOption === 'function') onSelectOption(option)
-  }
-
   const hasOptions = Array.isArray(options) && options.length > 0
+  const showLoading = !!loading
 
   return (
     <InputGroup>
@@ -52,28 +48,24 @@ export default function SelectInput({
         onFocus={onFocus}
         onBlur={onBlur}
         autoComplete={autoComplete}
-        list={list}
+        list={hasOptions ? datalistId : list}
         data-testid={dataTestId}
       />
-      {hasOptions ? (
-        <DropdownButton
-          variant="outline-secondary"
-          className="select-input-options-dropdown"
-          title={CARET_TITLE}
-          align="end"
-          onSelect={handleOptionSelect}
-          disabled={disabled}
-          aria-label="Artist suggestions"
-          data-testid="select-input-options-dropdown"
+      {showLoading ? (
+        <InputGroup.Text
+          className="select-input-loading-icon"
+          aria-label="Loading suggestions"
+          data-testid={dataTestId ? dataTestId + '-loading' : 'select-input-loading'}
         >
+          {icons.waiting}
+        </InputGroup.Text>
+      ) : null}
+      {hasOptions ? (
+        <datalist id={datalistId}>
           {options.map(function(option) {
-            return (
-              <Dropdown.Item key={option} eventKey={option}>
-                {option}
-              </Dropdown.Item>
-            )
+            return <option key={option} value={option} />
           })}
-        </DropdownButton>
+        </datalist>
       ) : null}
       {endAppend || null}
     </InputGroup>

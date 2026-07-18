@@ -86,7 +86,7 @@ export default function NotationEditorHelp(props) {
                 <strong> Staff + Roll</strong>, and <strong>ABC Notes</strong>. The active voice determines what you edit; check voice boxes to show multiple parts in the preview.
               </p>
               <p>
-                Toolbars use compact dropdown menus (like bar lines): durations, accidentals, tools, marks, tuplets, and MIDI options.
+                Toolbars use compact dropdown menus (like bar lines): durations, tools, marks, tuplets, accidentals, and MIDI options.
               </p>
               <p className="help-tip">
                 This guide is also listed under <strong>Help → Notation editor</strong> on the main Help page.

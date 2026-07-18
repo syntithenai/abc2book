@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useMemo, useState } from 'react';
 import { EDITOR_MODES } from '../notation/notationConstants';
 import { selectionRectsForEventIds } from '../notation/staffClickResolve';
+import { staffNoteheadCentersForEventIds } from '../notation/staffCaretPosition';
 import { findSlurGroupForSelection } from '../notation/notationMarks';
 
 export default function StaffSelectionOverlay(props) {
@@ -16,6 +17,7 @@ export default function StaffSelectionOverlay(props) {
     onSlurHandlePointerDown,
   } = props;
   const [rects, setRects] = useState([]);
+  const [noteheadCenters, setNoteheadCenters] = useState([]);
   const [slurEndpointRects, setSlurEndpointRects] = useState({ start: null, end: null });
   const [snapRect, setSnapRect] = useState(null);
   const previewEventIds = dragPreview && Array.isArray(dragPreview.eventIds)
@@ -50,11 +52,13 @@ export default function StaffSelectionOverlay(props) {
   useLayoutEffect(function() {
     if (!showSelection) {
       setRects([]);
+      setNoteheadCenters([]);
       return undefined;
     }
 
     if (useClickRects) {
       setRects(clickRects);
+      setNoteheadCenters([]);
       return undefined;
     }
 
@@ -62,6 +66,7 @@ export default function StaffSelectionOverlay(props) {
       const node = containerRef && containerRef.current;
       if (!node) {
         setRects([]);
+        setNoteheadCenters([]);
         return;
       }
       setRects(selectionRectsForEventIds(
@@ -70,6 +75,16 @@ export default function StaffSelectionOverlay(props) {
         eventIdsForRects,
         voiceStaffIndex
       ));
+      if (showPitchTarget) {
+        setNoteheadCenters(staffNoteheadCentersForEventIds(
+          node,
+          session.events,
+          eventIdsForRects,
+          voiceStaffIndex
+        ));
+      } else {
+        setNoteheadCenters([]);
+      }
     }
 
     measure();
@@ -98,6 +113,7 @@ export default function StaffSelectionOverlay(props) {
     displayAbc,
     voiceStaffIndex,
     dragPreview,
+    showPitchTarget,
   ]);
 
   useLayoutEffect(function() {
@@ -160,6 +176,24 @@ export default function StaffSelectionOverlay(props) {
     );
   }
 
+  const pitchTargets = showPitchTarget
+    ? (noteheadCenters.length
+      ? noteheadCenters.map(function(c) {
+        return { left: c.x, top: c.y + previewOffsetY };
+      })
+      : rects.map(function(rect) {
+        // Fallback if notehead paths are missing: prefer lower bias for tall stem boxes.
+        const tall = rect.height > rect.width * 1.6;
+        const headY = tall
+          ? (rect.top + rect.height * 0.78)
+          : (rect.top + rect.height * 0.5);
+        return {
+          left: rect.left + rect.width / 2,
+          top: headY + previewOffsetY,
+        };
+      }))
+    : [];
+
   return (
     <div className="notation-staff-selection-layer" aria-hidden="true">
       {showSelection ? rects.map(function(rect, index) {
@@ -180,17 +214,17 @@ export default function StaffSelectionOverlay(props) {
           />
         );
       }) : null}
-      {showSelection && showPitchTarget ? rects.map(function(rect, index) {
-        const headW = Math.max(10, Math.min(16, rect.width * 0.7 || 14));
-        const headH = Math.max(7, Math.min(12, rect.height * 0.45 || 10));
+      {pitchTargets.map(function(pt, index) {
+        const headW = 14;
+        const headH = 10;
         return (
           <div
             key={'target-' + index}
             className="notation-staff-pitch-target"
             data-testid="notation-staff-pitch-target"
             style={{
-              left: (rect.left + rect.width / 2) + 'px',
-              top: (rect.top + rect.height * 0.55 + previewOffsetY) + 'px',
+              left: pt.left + 'px',
+              top: pt.top + 'px',
               width: headW + 'px',
               height: headH + 'px',
               marginLeft: (-headW / 2) + 'px',
@@ -198,7 +232,7 @@ export default function StaffSelectionOverlay(props) {
             }}
           />
         );
-      }) : null}
+      })}
       {slurGroup ? handlePoint(slurEndpointRects.start, 'start') : null}
       {slurGroup ? handlePoint(slurEndpointRects.end, 'end') : null}
       {snapRect ? (

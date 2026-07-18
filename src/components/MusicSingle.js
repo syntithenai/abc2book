@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from 'react'
 import {Link , useParams , useNavigate, useLocation} from 'react-router-dom'
-import {Button, Dropdown} from 'react-bootstrap'
+import {Alert, Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
 import StarToggleButton from './StarToggleButton'
@@ -34,7 +34,7 @@ import { findTuneFileMeta } from '../tuneFiles'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
-import { NOTATION_FIT_VERTICAL } from '../gigNotationFit'
+import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
 import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc'
 import {
   EDITOR_VIEW_MODES,
@@ -42,6 +42,7 @@ import {
   resolveDisplayFlagsForTune,
   defaultViewModeForTune,
   getAvailableDisplayFlags,
+  showsMusicNotation,
 } from '../viewModeUtils'
 import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout'
 import { clampGigZoom, getTuneGigZoom } from '../gigDisplaySettings'
@@ -56,6 +57,13 @@ import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 import { recordTuneView } from '../tuneViewHistoryStore'
+import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste } from '../addTuneAutoEnrich'
+import SearchProgressBar from './SearchProgressBar'
+import PasteChordSheetModal from './PasteChordSheetModal'
+import LockedSourcePasteModal from './LockedSourcePasteModal'
+import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
+import useMediaResolverHealth from '../useMediaResolverHealth'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -63,6 +71,7 @@ export default function MusicSingle(props) {
     const location = useLocation();
     var windowSize = useWindowSize()
     const audioPlayer = useRef(); 
+    const { available: resolverAvailable } = useMediaResolverHealth()
     
     //var youtubeProgressInterval = useRef()
     var speakTimeout = null
@@ -92,6 +101,44 @@ export default function MusicSingle(props) {
     const [lyricsZoom, setLyricsZoom] = useState(1.2)
     const [fileViewZoom, setFileViewZoom] = useState(1)
     const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
+    const [autoEnrichPending, setAutoEnrichPending] = useState(function() {
+      return isAddTuneAutoEnrichPending(params.tuneId)
+    })
+    const [autoEnrichState, setAutoEnrichState] = useState(function() {
+      return getAddTuneAutoEnrichState(params.tuneId)
+    })
+    const [showAutoEnrichChordPaste, setShowAutoEnrichChordPaste] = useState(false)
+    const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
+
+    useEffect(function() {
+        setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
+        return function() {
+            setDocumentTitle(DEFAULT_APP_TITLE)
+        }
+    }, [tune])
+
+    useEffect(function() {
+      function syncPending() {
+        setAutoEnrichPending(isAddTuneAutoEnrichPending(params.tuneId))
+        setAutoEnrichState(getAddTuneAutoEnrichState(params.tuneId))
+      }
+      syncPending()
+      return subscribeAddTuneAutoEnrich(syncPending)
+    }, [params.tuneId])
+
+    useEffect(function() {
+      setShowAutoEnrichChordPaste(false)
+      setShowAutoEnrichNotationPaste(false)
+    }, [params.tuneId])
+
+    useEffect(function() {
+      if (!autoEnrichPending && autoEnrichState.needsChordPaste) {
+        setShowAutoEnrichChordPaste(true)
+      }
+      if (!autoEnrichPending && autoEnrichState.needsNotationPaste) {
+        setShowAutoEnrichNotationPaste(true)
+      }
+    }, [autoEnrichPending, autoEnrichState.needsChordPaste, autoEnrichState.needsNotationPaste, params.tuneId])
     
     var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
 	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
@@ -193,14 +240,21 @@ export default function MusicSingle(props) {
         let tune = props.tunes ? props.tunes[params.tuneId] : null
         //console.log('setuptune',tune)
         if (tune) {
-           setNotationFitModeState(getTuneNotationFitMode(tune))
            setLyricsZoom(getTuneGigZoom(tune))
            setFileViewZoom(1)
            if (tune.viewMode) {
+               setNotationFitModeState(getTuneNotationFitMode(tune))
                props.setViewMode(tune.viewMode)
            } else {
                const hasChordsForDefault = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
-               props.setViewMode(defaultViewModeForTune(tune, props.tunebook, { hasChords: hasChordsForDefault }))
+               const defaultMode = defaultViewModeForTune(tune, props.tunebook, { hasChords: hasChordsForDefault })
+               // Defaulted-to-notation tunes should also default to fit-height.
+               if (tune.notationFit !== NOTATION_FIT_VERTICAL && tune.notationFit !== NOTATION_FIT_HORIZONTAL && showsMusicNotation(defaultMode)) {
+                   setNotationFitModeState(NOTATION_FIT_VERTICAL)
+               } else {
+                   setNotationFitModeState(getTuneNotationFitMode(tune))
+               }
+               props.setViewMode(defaultMode)
            }
            //props.tunebook.utils.scrollTo('topofpage')
            //setMediaLinkNumber(params.mediaLinkNumber)
@@ -267,38 +321,6 @@ export default function MusicSingle(props) {
         return tempo
     }
     
-    let lastScrollTop = 0;
-	const [fixedSingleMenu, setFixedSingleMenu] = useState(false)
-	useEffect(() => {
-		//console.log('scroll init')
-		const handleScroll = (e) => {
-			//console.log('scroll e')
-			//console.log('scrolld e',e, e.currentTarget, e.target)
-				const currentScrollTop = window.scrollY;
-				if (currentScrollTop > lastScrollTop) {
-				  // Scrolling down
-				  //console.log('Scrolling down',window.scrollY);
-				  setFixedSingleMenu(false)
-				} else {
-				  // Scrolling up
-				  //console.log('Scrolling up',window.scrollY);
-				  if (currentScrollTop > 100) {
-					  setFixedSingleMenu(true)
-					  //setTimeout(function() { setFixedSingleMenu(false) }, 5000)
-				  } else {
-					  setFixedSingleMenu(false)
-				  }
-				}
-				
-				lastScrollTop = currentScrollTop;
-		};
-
-		window.addEventListener("scroll", handleScroll);
-
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
     
        //<Button style={{float:'right'}} variant="danger" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zm0-2a5 5 0 0 1 5 5v4a5 5 0 0 1-10 0V6a5 5 0 0 1 5-5zM3.055 11H5.07a7.002 7.002 0 0 0 13.858 0h2.016A9.004 9.004 0 0 1 13 18.945V23h-2v-4.055A9.004 9.004 0 0 1 3.055 11z"/></svg></Button>
     //console.log('single T',params.tuneId,tune,props.tunes)
@@ -384,7 +406,7 @@ export default function MusicSingle(props) {
        
                 const compactToolbar = windowSize[0] <= 768
                 const mediumToolbar = windowSize[0] <= 1180
-                const toolbarClassName = 'music-buttons' + (fixedSingleMenu ? ' music-buttons-fixed' : '')
+                const toolbarClassName = 'music-buttons'
                 const hasChords = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                 const availableFlags = getAvailableDisplayFlags(tune, props.tunebook, {
                   hasChords: hasChords,
@@ -599,9 +621,9 @@ export default function MusicSingle(props) {
                         buttonVariant="success"
                         buttonClassName="music-actions-menu-btn"
                       />
-                    </div>
-                  </div>
-                </div>
+			    </div>
+		          </div>
+			</div>
 			        </Dropdown.Menu>
 			      </Dropdown>
 
@@ -704,6 +726,170 @@ export default function MusicSingle(props) {
 			    </div>
 			  </div>
 			</div>
+      {autoEnrichPending ? (
+        <Alert variant="warning" className="m-2 mb-0" data-testid="auto-enrich-pending-alert">
+          More information is loading. Please wait.
+          <SearchProgressBar
+            visible={true}
+            percent={autoEnrichState.progress || 0}
+            message={autoEnrichState.message || 'Searching...'}
+            defaultMessage="Searching..."
+          />
+        </Alert>
+      ) : null}
+      {!autoEnrichPending && autoEnrichState.needsChordPaste ? (
+        <Alert
+          variant="warning"
+          className="m-2 mb-0"
+          data-testid="auto-enrich-chord-paste-alert"
+          dismissible
+          onClose={function() { dismissAddTuneAutoEnrichChordPaste(params.tuneId) }}
+        >
+          <div>
+            {autoEnrichState.message
+              || 'Lyrics found, but chords need a manual paste from Ultimate Guitar.'}
+          </div>
+          <div className="mt-2 d-flex flex-wrap gap-2">
+            <Button
+              size="sm"
+              variant="primary"
+              data-testid="auto-enrich-open-chord-paste"
+              onClick={function() { setShowAutoEnrichChordPaste(true) }}
+            >
+              Open link and paste chords
+            </Button>
+            {autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.url ? (
+              <Button
+                size="sm"
+                variant="outline-primary"
+                as="a"
+                href={autoEnrichState.chordPasteCandidate.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="auto-enrich-chord-source-link"
+              >
+                {autoEnrichState.chordPasteCandidate.searchFallback
+                  ? 'Search Ultimate Guitar'
+                  : ('Open ' + (autoEnrichState.chordPasteCandidate.source || 'chord page'))}
+              </Button>
+            ) : null}
+          </div>
+        </Alert>
+      ) : null}
+      {!autoEnrichPending && autoEnrichState.needsNotationPaste ? (
+        <Alert
+          variant="warning"
+          className="m-2 mb-0"
+          data-testid="auto-enrich-notation-paste-alert"
+          dismissible
+          onClose={function() { dismissAddTuneAutoEnrichNotationPaste(params.tuneId) }}
+        >
+          <div>
+            {autoEnrichState.message
+              || 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.'}
+          </div>
+          <div className="mt-2 d-flex flex-wrap gap-2">
+            <Button
+              size="sm"
+              variant="primary"
+              data-testid="auto-enrich-open-notation-paste"
+              onClick={function() { setShowAutoEnrichNotationPaste(true) }}
+            >
+              Open MuseScore and import
+            </Button>
+            {autoEnrichState.notationPasteCandidate && autoEnrichState.notationPasteCandidate.url ? (
+              <Button
+                size="sm"
+                variant="outline-primary"
+                as="a"
+                href={autoEnrichState.notationPasteCandidate.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="auto-enrich-notation-source-link"
+              >
+                {autoEnrichState.notationPasteCandidate.searchFallback
+                  ? 'Search MuseScore'
+                  : ('Open ' + (autoEnrichState.notationPasteCandidate.source || 'MuseScore'))}
+              </Button>
+            ) : null}
+          </div>
+        </Alert>
+      ) : null}
+      {!autoEnrichPending && autoEnrichState.failure ? (
+        <Alert
+          variant="danger"
+          className="m-2 mb-0"
+          data-testid="auto-enrich-failure-alert"
+          dismissible
+          onClose={function() { dismissAddTuneAutoEnrichFailure(params.tuneId) }}
+        >
+          {autoEnrichState.failure}
+        </Alert>
+      ) : null}
+      <PasteChordSheetModal
+        show={showAutoEnrichChordPaste}
+        onHide={function() { setShowAutoEnrichChordPaste(false) }}
+        tune={tune || {}}
+        forceUpdateLyrics={false}
+        initialUpdateLyrics={false}
+        externalUrl={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.url
+          ? autoEnrichState.chordPasteCandidate.url
+          : ''}
+        externalLinkLabel={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.searchFallback
+          ? 'Search Ultimate Guitar'
+          : ('Open ' + ((autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.source) || 'Ultimate Guitar'))}
+        externalSourceTitle={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.title
+          ? autoEnrichState.chordPasteCandidate.title
+          : ''}
+        externalHelpText="Chords were found on a site that blocks automatic import. Open the page, copy the lyrics and chords, paste them below, then Import."
+        onSaveSections={function(result) {
+          if (!result || !tune) return
+          const committed = commitPasteChordSheetToTune({
+            result: result,
+            tune: tune,
+            tunebook: props.tunebook,
+            abcjsParser: abcjsParser,
+            forceUpdateLyrics: false,
+            historyLabel: result.historyLabel || (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
+          })
+          if (!committed || !committed.ok) return
+          setTune(Object.assign({}, tune))
+          if (typeof props.forceRefresh === 'function') props.forceRefresh()
+          setShowAutoEnrichChordPaste(false)
+          dismissAddTuneAutoEnrichChordPaste(params.tuneId)
+        }}
+      />
+      <LockedSourcePasteModal
+        show={showAutoEnrichNotationPaste}
+        onHide={function() { setShowAutoEnrichNotationPaste(false) }}
+        candidate={autoEnrichState.notationPasteCandidate}
+        searchTitle={tune && tune.name}
+        searchArtist={tune && tune.composer}
+        tunebook={props.tunebook}
+        abcjsParser={abcjsParser}
+        resolverAvailable={resolverAvailable}
+        allowNotationFile={true}
+        importLabel="Apply to tune"
+        onImportCandidates={function(candidates) {
+          const first = Array.isArray(candidates) ? candidates[0] : null
+          if (!first || !first.tune || !tune || !props.tunebook || !props.tunebook.abcTools) {
+            throw new Error('Could not apply pasted notation')
+          }
+          const imported = first.tune
+          imported.id = tune.id
+          if (autoEnrichState.notationPasteCandidate && autoEnrichState.notationPasteCandidate.url) {
+            imported.srcUrl = imported.srcUrl || autoEnrichState.notationPasteCandidate.url
+          }
+          props.tunebook.saveTune(imported, false, {
+            historyLabel: 'Import MuseScore notation',
+            immediate: true,
+          })
+          setTune(imported)
+          if (typeof props.forceRefresh === 'function') props.forceRefresh()
+          setShowAutoEnrichNotationPaste(false)
+          dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+        }}
+      />
             {(fileManager && Array.isArray(fileManager.filtered) && fileManager.filtered.length > 0 ) && <div style={{textAlign:'center'}} >
 				<b style={{fontSize:'2em'}}>{tune.name}</b>
 				{tune.composer && <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <span>{tune.composer}</span></span>} 
@@ -733,7 +919,11 @@ export default function MusicSingle(props) {
              <div className={`music-single-panels tune-display-panels ${layout.layoutClass}${!fileOverlayActive && notationFitMode === NOTATION_FIT_VERTICAL ? ' music-panels-fit-height' : ''}${fileOverlayActive ? ' music-single-panels--file-overlay' : ''}`}>
                {viewModesEmpty ? (
                  <div className="tune-view-modes-empty" role="status">
-                   No view modes enabled
+                   <div className="tune-view-modes-empty-title">
+                     {tune.name}
+                     {tune.composer && <span className="tune-view-modes-empty-composer"> by {tune.composer}</span>}
+                   </div>
+                   <div>No view modes enabled</div>
                  </div>
                ) : null}
                {/* Notation panel — always in DOM for audio continuity, visually hidden when off or file overlay */}
@@ -753,7 +943,7 @@ export default function MusicSingle(props) {
                    <div className="lyrics-panel-inner">
                      <div className="lyrics-panel-header">
                        {Object.keys(words).length > 0 && <Button style={{marginRight:'1em'}} onClick={function() {setSquashLyrics(!squashLyrics)}}>{props.tunebook.icons.map2}</Button>}
-                       <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} />
+                       <TitleAndLyricsEditorModal tunebook={props.tunebook} tune={tune} tunes={props.tunes} forceRefresh={props.forceRefresh} token={props.token} />
                        {tune.composer && <span className="lyrics-panel-composer"> - {tune.composer}</span>}
                      </div>
                      {!squashLyrics ? (

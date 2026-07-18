@@ -1,4 +1,5 @@
 import { buildSourceUrlMergeRecords, summarizeMergeRecords } from './incomingMergeUtils';
+import { toTuneUpdatedMs } from './tuneBookSync';
 import { getSourceMergePref, normalizeSourceUrlKey, setSourceMergePref } from './incomingMergePrefs';
 import { applyTuneImportSelections, buildDefaultTuneImportSelections, buildTuneImportFieldRows } from './tuneImportMergeUtils';
 
@@ -109,7 +110,9 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
       ? state.fieldSelections
       : buildDefaultTuneImportSelections(buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; }));
     next[record.id] = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
-    next[record.id].lastUpdated = Date.now();
+    // Must beat the incoming timestamp even if the source's clock is ahead,
+    // or the same records get re-detected as incoming updates next poll.
+    next[record.id].lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
   });
   return next;
 }

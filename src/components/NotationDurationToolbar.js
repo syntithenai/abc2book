@@ -7,7 +7,6 @@ import {
 } from '../notation/notationConstants';
 import NotationDurationDropdown from './NotationDurationDropdown';
 import NotationDurationButtonGroup from './NotationDurationButtonGroup';
-import NotationAccidentalDropdown from './NotationAccidentalDropdown';
 
 const METHOD_ORDER = [
   NOTE_INPUT_METHODS.NOTE_NAME,
@@ -24,7 +23,6 @@ export default function NotationDurationToolbar(props) {
     onToggleNoteInput,
     onApplyDuration,
     onInsertSystemBreak,
-    onApplyAccidental,
     expandFlags,
   } = props;
 
@@ -34,7 +32,7 @@ export default function NotationDurationToolbar(props) {
   const methodLabel = NOTE_INPUT_METHOD_LABELS[method] || 'Note name';
 
   return (
-    <div className="notation-duration-toolbar d-flex flex-wrap align-items-center gap-2">
+    <div className="notation-duration-toolbar">
       <ButtonGroup className="notation-note-input-method-group">
         <Button
           size="lg"
@@ -103,12 +101,6 @@ export default function NotationDurationToolbar(props) {
         title="Dot (.)"
         data-testid="notation-dot"
       >.</Button>
-      <NotationAccidentalDropdown
-        session={session}
-        dispatch={dispatch}
-        onApplyAccidental={onApplyAccidental}
-        expanded={!!expand.accidentals}
-      />
       {onInsertSystemBreak ? (
         <Button
           size="lg"

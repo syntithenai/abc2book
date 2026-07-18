@@ -1,19 +1,20 @@
 import { useRef, useState } from 'react'
 import { Alert } from 'react-bootstrap'
 import { useFieldLookupSearchJob } from '../useFieldLookupSearchJob'
-import { applyFieldLookupChoice, buildSearchModeOptions } from '../tuneFieldLookupQueue'
+import { applyFieldLookupChoice, buildSearchModeOptions, dismissFieldLookup } from '../tuneFieldLookupQueue'
 import { buildGoogleGenreSearchUrl } from '../genreSearchClient'
 import {
   buildPickerOriginalValueItem,
   resolveOriginalValueForPicker,
   searchableSuggestions,
 } from '../fieldSuggestionsUtils'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
-import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
 
 export default function GenreSearchButton({
   tuneId,
@@ -35,6 +36,8 @@ export default function GenreSearchButton({
   const [showPicker, setShowPicker] = useState(false)
   const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
+  const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'genre')
+  const fieldEmpty = !String(currentGenre || '').trim()
 
   function finishApply(result, jobId) {
     if (jobId) applyFieldLookupChoice(jobId, result)
@@ -44,25 +47,39 @@ export default function GenreSearchButton({
   }
   applyRef.current = finishApply
 
+  function openPicker(candidates) {
+    setError('')
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
+    setShowPicker(true)
+  }
+
+  function closePicker(dismissJob) {
+    setShowPicker(false)
+    setPickerCandidates([])
+    if (dismissJob && lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      dismissFieldLookup(lookup.activeJob.id)
+    }
+  }
+
   const lookup = useFieldLookupSearchJob({
     tuneId: tuneId,
     candidateId: candidateId,
     kind: 'genre',
     onAwaiting: function(job) {
       const candidates = searchableSuggestions(job)
+      if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
+        if (job.appliedCandidate && typeof onGenre === 'function') {
+          const genre = String(job.appliedCandidate.genre || '').trim()
+          if (genre) onGenre(genre)
+        }
+        return
+      }
       if (candidates.length === 0) {
-        setError('No genre suggestions found')
         return
       }
-      if (searchModeRef.current === 'review') {
-        openPicker(candidates)
-        return
-      }
-      // Auto mode: settle already applied when empty; keep Suggestions strip otherwise.
-      if (job.appliedCandidate && typeof onGenre === 'function') {
-        const genre = String(job.appliedCandidate.genre || '').trim()
-        if (genre) onGenre(genre)
-      }
+      const key = targetKeyForFieldSearch(tuneId, candidateId)
+      if (key) setFieldSearchResults(key, 'genre', candidates)
+      openPicker(candidates)
     },
     onError: function(job) {
       setError(job.error || 'Genre search failed')
@@ -77,40 +94,15 @@ export default function GenreSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = searchableSuggestions(awaitingJob)
 
-  useSyncFieldLookupOriginalValue(tuneId, 'genre', currentGenre, awaitingJob)
-
-  function openPicker(candidates) {
-    setError('')
-    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
-    setShowPicker(true)
-  }
-
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
-    openPicker(awaitingCandidates)
-  }
-
-  useOpenFieldSuggestions(tuneId, 'genre', openAwaitingSuggestions)
-
-  function clearAwaitingSuggestions() {
-    lookup.dismiss()
-    setShowPicker(false)
-    setPickerCandidates([])
-  }
-
-  function run(mode) {
+  function run() {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
     }
-    if (awaitingCandidates.length > 0) {
-      clearAwaitingSuggestions()
-    }
-    const searchMode = mode === 'review' ? 'review' : 'auto'
-    searchModeRef.current = searchMode
+    if (awaitingJob) dismissFieldLookup(awaitingJob.id)
+    searchModeRef.current = 'auto'
     setError('')
     setShowPicker(false)
     setPickerCandidates([])
@@ -118,7 +110,7 @@ export default function GenreSearchButton({
       title: title,
       artist: artist || '',
       tuneName: title,
-      options: buildSearchModeOptions(searchMode, {
+      options: buildSearchModeOptions('auto', {
         rhythm: rhythm || '',
         currentGenre: currentGenre || '',
         backgroundInfo: backgroundInfo || '',
@@ -139,6 +131,17 @@ export default function GenreSearchButton({
     }
   }))
 
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openPicker}
+      aria-label="Cached genre search results"
+      data-testid="genre-search-results-caret"
+    />
+  )
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -155,8 +158,7 @@ export default function GenreSearchButton({
           searchIcon={searchIcon}
           inline={inline}
           progress={lookup.progressPercent}
-          suggestionCount={awaitingCandidates.length}
-          onOpenSuggestions={openAwaitingSuggestions}
+          resultsCaret={resultsCaret}
         />
         <SearchProgressBar
           visible={busy}
@@ -174,9 +176,8 @@ export default function GenreSearchButton({
         title="Choose genre"
         items={pickerItems}
         onSelect={function(item, index) {
-          setShowPicker(false)
-          setPickerCandidates([])
           if (item && item.__current) {
+            closePicker(true)
             return
           }
           const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
@@ -189,10 +190,10 @@ export default function GenreSearchButton({
             candidate || { genre: item.title, source: item.source },
             jobId
           )
+          closePicker(!!jobId)
         }}
         onHide={function() {
-          setShowPicker(false)
-          setPickerCandidates([])
+          closePicker(true)
         }}
       />
     ),

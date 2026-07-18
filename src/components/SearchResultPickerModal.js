@@ -54,6 +54,7 @@ export default function SearchResultPickerModal({
   items,
   fallbackTitle,
   emptyMessage,
+  comment,
   onSelect,
   onHide,
   onSkip,
@@ -68,6 +69,7 @@ export default function SearchResultPickerModal({
   const selected = Array.isArray(selectedIndexes) ? selectedIndexes : [];
   const selectedSet = new Set(selected);
   const notationLayout = layout === 'notation';
+  const headerComment = String(comment || '').trim();
 
   function renderListItem(item, index) {
     const label = formatCandidateLabel(item, fallbackTitle);
@@ -143,6 +145,11 @@ export default function SearchResultPickerModal({
         <Modal.Title>{title || 'Choose a result'}</Modal.Title>
       </Modal.Header>
       <Modal.Body className={notationLayout ? 'search-result-picker-body--notation' : undefined}>
+        {headerComment ? (
+          <p className="search-result-picker-comment mb-2" data-testid="search-result-picker-comment">
+            {headerComment}
+          </p>
+        ) : null}
         {!items || items.length === 0
           ? <p style={{ marginBottom: 0 }}>{emptyMessage || 'No results available.'}</p>
           : notationLayout ? (

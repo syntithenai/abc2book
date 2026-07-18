@@ -1,6 +1,8 @@
-import { useState } from 'react'
-import { Button, Dropdown, DropdownButton, Form, FormControl, InputGroup } from 'react-bootstrap'
+import { useMemo, useState } from 'react'
+import { Button, Form, FormControl, InputGroup } from 'react-bootstrap'
+import { icons } from '../Icons'
 import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 
 function normalizeItems(value) {
   if (!Array.isArray(value)) return []
@@ -31,13 +33,13 @@ function mergeUnique(existing, nextItems) {
   return result
 }
 
-const CARET_TITLE = (
-  <span aria-hidden="true" style={{ display: 'inline-block', lineHeight: 1 }}>▾</span>
-)
-
 /**
  * Free-text chip list: type a value, press Enter (or click Add) to create a
  * labeled chip with a delete control. onChange always receives a string[].
+ *
+ * MusicBrainz (and optional searchResults string[]) feed the datalist for typing
+ * discovery only. Cached field-search hits reopen via FieldSearchResultsCaret
+ * when searchResultCandidates + onOpenSearchResults are provided.
  */
 export default function TuneChipListField(props) {
   const items = normalizeItems(props.value)
@@ -49,18 +51,34 @@ export default function TuneChipListField(props) {
   const addLabel = props.addLabel || 'Add'
   const musicBrainzSuggest = !!props.musicBrainzSuggest
   const endAppend = props.endAppend || null
-  const suggestOptions = Array.isArray(props.suggestOptions) ? props.suggestOptions : []
+  // Typing discovery only (e.g. MusicBrainz). Do not inject field-search cache here.
+  const searchResults = Array.isArray(props.searchResults) ? props.searchResults : []
+  const searchResultCandidates = Array.isArray(props.searchResultCandidates)
+    ? props.searchResultCandidates
+    : null
+  const onOpenSearchResults = typeof props.onOpenSearchResults === 'function'
+    ? props.onOpenSearchResults
+    : null
+  const onSelectItem = typeof props.onSelectItem === 'function' ? props.onSelectItem : null
   const [draft, setDraft] = useState('')
-  const mbOptions = useMusicBrainzArtistOptions(draft, { enabled: musicBrainzSuggest })
-  const dropdownOptions = []
+  const datalistId = useMemo(function() {
+    return controlId + '-suggestions'
+  }, [controlId])
+  const musicBrainz = useMusicBrainzArtistOptions(draft, { enabled: musicBrainzSuggest })
+  const mbOptions = musicBrainz.options || []
+  const suggestLoading = !!(props.loading || musicBrainz.loading)
+  const autosuggestOptions = []
   const seenOpts = {}
-  suggestOptions.concat(mbOptions).forEach(function(option) {
+  items.forEach(function(item) {
+    seenOpts[item.toLowerCase()] = true
+  })
+  searchResults.concat(mbOptions).forEach(function(option) {
     const text = String(option || '').trim()
     if (!text) return
     const key = text.toLowerCase()
     if (seenOpts[key]) return
     seenOpts[key] = true
-    dropdownOptions.push(text)
+    autosuggestOptions.push(text)
   })
 
   function emit(next) {
@@ -78,6 +96,30 @@ export default function TuneChipListField(props) {
     emit(items.filter(function(_item, i) { return i !== index }))
   }
 
+  function applySearchCandidate(candidate) {
+    const name = typeof candidate === 'string'
+      ? candidate
+      : String((candidate && (candidate.artist || candidate.alias || candidate.title)) || '').trim()
+    if (!name) return
+    if (typeof onOpenSearchResults === 'function') {
+      onOpenSearchResults([candidate])
+      return
+    }
+    commitDraft(name)
+  }
+
+  const searchCaret = (Array.isArray(searchResultCandidates) && searchResultCandidates.length > 0)
+    ? (
+      <FieldSearchResultsCaret
+        candidates={searchResultCandidates}
+        className="chip-list-options-dropdown"
+        onSelect={applySearchCandidate}
+        aria-label="Cached search results"
+        data-testid="chip-list-search-results-caret"
+      />
+    )
+    : null
+
   return (
     <Form.Group className={className} controlId={controlId}>
       {label ? <Form.Label>{label}</Form.Label> : null}
@@ -86,7 +128,19 @@ export default function TuneChipListField(props) {
           {items.map(function(item, index) {
             return (
               <span key={item + ':' + index} className="tune-chip-list-item" role="listitem">
-                <span className="tune-chip-list-label">{item}</span>
+                {onSelectItem ? (
+                  <button
+                    type="button"
+                    className="tune-chip-list-label tune-chip-list-label-button"
+                    title={'Search YouTube for ' + item}
+                    data-testid="chip-list-select-item"
+                    onClick={function() { onSelectItem(item, index) }}
+                  >
+                    {item}
+                  </button>
+                ) : (
+                  <span className="tune-chip-list-label">{item}</span>
+                )}
                 <button
                   type="button"
                   className="tune-chip-list-remove"
@@ -105,6 +159,7 @@ export default function TuneChipListField(props) {
           <FormControl
             value={draft}
             placeholder={placeholder}
+            list={autosuggestOptions.length > 0 ? datalistId : undefined}
             onChange={function(e) { setDraft(e.target.value) }}
             onKeyDown={function(e) {
               if (e.key === 'Enter') {
@@ -117,9 +172,6 @@ export default function TuneChipListField(props) {
                 removeItem(items.length - 1)
               }
             }}
-            onBlur={function() {
-              if (String(draft || '').trim()) commitDraft()
-            }}
             onPaste={function(e) {
               const pasted = e.clipboardData && e.clipboardData.getData('text')
               if (!pasted || pasted.indexOf(',') < 0) return
@@ -130,25 +182,23 @@ export default function TuneChipListField(props) {
               setDraft('')
             }}
           />
-          {dropdownOptions.length > 0 ? (
-            <DropdownButton
-              variant="outline-secondary"
-              className="chip-list-options-dropdown"
-              title={CARET_TITLE}
-              align="end"
-              onSelect={function(option) { commitDraft(option) }}
-              aria-label="Artist suggestions"
-              data-testid="chip-list-musicbrainz-dropdown"
+          {suggestLoading ? (
+            <InputGroup.Text
+              className="select-input-loading-icon"
+              aria-label="Loading suggestions"
+              data-testid="chip-list-loading"
             >
-              {dropdownOptions.map(function(option) {
-                return (
-                  <Dropdown.Item key={option} eventKey={option}>
-                    {option}
-                  </Dropdown.Item>
-                )
-              })}
-            </DropdownButton>
+              {icons.waiting}
+            </InputGroup.Text>
           ) : null}
+          {autosuggestOptions.length > 0 ? (
+            <datalist id={datalistId}>
+              {autosuggestOptions.map(function(option) {
+                return <option key={option} value={option} />
+              })}
+            </datalist>
+          ) : null}
+          {searchCaret}
           {endAppend}
           <Button
             type="button"

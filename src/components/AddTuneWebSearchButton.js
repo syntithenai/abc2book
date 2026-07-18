@@ -9,6 +9,7 @@ import { searchNotation } from '../notationSearchClient'
 import { searchChords } from '../chordsSearchClient'
 import { searchLyrics } from '../lyricsSearchClient'
 import { researchTuneBackground } from '../tuneBackgroundResearchClient'
+import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings'
 import {
   formatLocalSearchLabel,
   inferNotationSongType,
@@ -315,7 +316,7 @@ export default function AddTuneWebSearchButton({
   }
 
   async function runBackgroundResearch(researchTitle, researchArtist, researchLyrics, signal) {
-    if (typeof onBackgroundInfo !== 'function' || !features.llm) return
+    if (typeof onBackgroundInfo !== 'function' || !isCapabilityAvailable('llm', features, loadProviderSettings())) return
     await refreshMediaResolverHealth()
     updateProgress('Researching background information...', 0.92)
     const existingBackground = currentTune && typeof currentTune.backgroundInfo === 'string'

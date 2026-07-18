@@ -1,27 +1,35 @@
 """
-Cloud Run / light gateway: auth, health, provider-backed Whisper+LLM, music21 convert.
+Cloud Run / light gateway: auth, health, provider-backed Whisper+LLM+OCR+Stems, music21 convert.
 
-Heavy ML (stems, OMR, local whisper.cpp) is refused. Configure PROVIDER_* env vars
-and EMBEDDED_CREDS_EMAILS / FREE_ACCESS_EMAILS as documented in .env.example.
+Heavy ML that needs a home GPU stack (OMR, local whisper.cpp, analyze-media) is refused.
+Stems can run via fal.ai / Replicate when the user or host provides a key.
+Configure PROVIDER_* env vars and EMBEDDED_CREDS_EMAILS / FREE_ACCESS_EMAILS as documented
+in .env.example.
 """
 
 from __future__ import annotations
 
+import asyncio
+import hashlib
 import json
 import os
+import re
+import time
 from typing import Any
 
 import httpx
 from fastapi import FastAPI, File, Header, HTTPException, Request, UploadFile
-from fastapi.responses import JSONResponse, Response
+from fastapi.responses import FileResponse, JSONResponse, Response
 
 from allowlists import email_allowed, load_embedded_creds_emails, load_free_access_emails
 from provider_cloud import chat_openai_compat, transcribe_openai_compat
 from providers import (
+    is_cloud_stems_provider,
     parse_overlay_header,
     providers_health_payload,
     resolve_provider,
 )
+from provider_stems_cloud import demucs_stems_for_model
 
 app = FastAPI(title="tunebook-resolver-light")
 
@@ -34,12 +42,23 @@ ALLOWED_ORIGINS = [
 ]
 REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "true").lower() in ("1", "true", "yes")
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "")
+STEM_CACHE_DIR = os.getenv("STEM_CACHE_DIR", "/tmp/stem-cache")
+STEM_SEPARATION_TIMEOUT_SECONDS = float(os.getenv("STEM_SEPARATION_TIMEOUT_SECONDS", "900"))
+MAX_STREAM_BYTES = int(os.getenv("MAX_STREAM_BYTES", str(80 * 1024 * 1024)))
+
+_stem_background_tasks: dict[str, asyncio.Task] = {}
+_stem_inflight_locks: dict[str, asyncio.Lock] = {}
 
 
 def cors_headers(origin: str | None) -> dict[str, str]:
     headers = {
         "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
-        "Access-Control-Allow-Headers": "Authorization,Content-Type,X-Tunebook-Provider-llm,X-Tunebook-Provider-whisper,X-Tunebook-Provider-ocr,X-Tunebook-Ytdlp-Proxy",
+        "Access-Control-Allow-Headers": (
+            "Authorization,Content-Type,"
+            "X-Tunebook-Provider-llm,X-Tunebook-Provider-whisper,"
+            "X-Tunebook-Provider-ocr,X-Tunebook-Provider-stems,"
+            "X-Tunebook-Ytdlp-Proxy"
+        ),
         "Access-Control-Max-Age": "86400",
     }
     if origin and origin in ALLOWED_ORIGINS:
@@ -111,7 +130,7 @@ def light_features() -> dict[str, Any]:
     require_egress = os.getenv("YTDLP_REQUIRE_USER_PROXY", "true").lower() in ("1", "true", "yes")
     return {
         "proxy": True,
-        "stems": False,
+        "stems": True,  # cloud BYO / host PROVIDER_STEMS_*
         "whisper": True,
         "llm": True,
         "practiceAnalysis": False,
@@ -191,7 +210,7 @@ async def _health_body(authorization: str | None) -> dict:
         flags = auth_flags(None)
     body["providers"] = providers_health_payload(
         allow_embedded=flags["embeddedCreds"],
-        local_backends={"llm": False, "whisper": False, "ocr": False},
+        local_backends={"llm": False, "whisper": False, "ocr": False, "stems": False},
     )
     return body
 
@@ -436,6 +455,301 @@ async def transcribe_sheet_image_cloud(
 
 
 @app.post("/separate-stems")
+async def separate_stems_cloud_endpoint(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    """Cloud Demucs via fal.ai / Replicate (BYO or host PROVIDER_STEMS_*)."""
+    origin = request.headers.get("origin")
+    try:
+        verified = await require_auth(authorization)
+        flags = auth_flags(verified)
+        overlay = parse_overlay_header(request.headers.get("x-tunebook-provider-stems"))
+        cfg = resolve_provider(
+            "stems",
+            overlay=overlay,
+            allow_embedded=flags["embeddedCreds"],
+            local_available=False,
+        )
+        if not is_cloud_stems_provider(cfg):
+            raise HTTPException(
+                status_code=503,
+                detail=(
+                    "Stems provider required on light gateway "
+                    "(Settings → Providers fal/Replicate, or host PROVIDER_STEMS_*)"
+                ),
+            )
+        if file is not None:
+            audio_bytes = await file.read()
+            filename = file.filename or "audio.bin"
+            source_key = "upload:" + hashlib.sha256(audio_bytes).hexdigest()
+        else:
+            try:
+                payload = await request.json()
+            except Exception:
+                payload = {}
+            source_url = str((payload or {}).get("sourceUrl") or "").strip()
+            if not source_url:
+                raise HTTPException(status_code=400, detail="file upload or sourceUrl required")
+            if not (source_url.startswith("http://") or source_url.startswith("https://")):
+                raise HTTPException(status_code=400, detail="sourceUrl must be http(s)")
+            async with httpx.AsyncClient(timeout=120.0, follow_redirects=True) as client:
+                audio_resp = await client.get(source_url)
+                if audio_resp.status_code >= 400:
+                    raise HTTPException(
+                        status_code=502,
+                        detail=f"Failed to fetch sourceUrl ({audio_resp.status_code})",
+                    )
+                audio_bytes = audio_resp.content
+            filename = str((payload or {}).get("sourceName") or "audio.bin")
+            source_type = str((payload or {}).get("sourceType") or "audio").strip().lower()
+            source_key = source_type + ":" + source_url
+
+        if not audio_bytes:
+            raise HTTPException(status_code=400, detail="No audio data")
+        if len(audio_bytes) > MAX_STREAM_BYTES:
+            raise HTTPException(status_code=413, detail="Media file too large")
+
+        from provider_stems_cloud import cloud_stems_model_name, separate_stems_cloud
+
+        model_name = cloud_stems_model_name(cfg)
+        cache_key = model_name + "|cloud:" + str(cfg.get("provider") or "")
+        cache_id = hashlib.sha256((source_key + "|" + cache_key).encode("utf-8")).hexdigest()[:32]
+        cache_dir = os.path.join(STEM_CACHE_DIR, cache_id)
+
+        def stems_cached() -> bool:
+            if not os.path.isdir(cache_dir):
+                return False
+            stems = demucs_stems_for_model(model_name)
+            return all(os.path.isfile(os.path.join(cache_dir, stem + ".wav")) for stem in stems)
+
+        def read_meta() -> dict:
+            path = os.path.join(cache_dir, "metadata.json")
+            if not os.path.isfile(path):
+                return {}
+            try:
+                with open(path, "r", encoding="utf-8") as handle:
+                    data = json.load(handle)
+                return data if isinstance(data, dict) else {}
+            except Exception:
+                return {}
+
+        def write_meta(payload: dict) -> None:
+            os.makedirs(cache_dir, exist_ok=True)
+            with open(os.path.join(cache_dir, "metadata.json"), "w", encoding="utf-8") as handle:
+                json.dump(payload, handle)
+
+        def write_progress(payload: dict) -> None:
+            os.makedirs(cache_dir, exist_ok=True)
+            with open(os.path.join(cache_dir, "progress.json"), "w", encoding="utf-8") as handle:
+                json.dump(payload, handle)
+
+        def read_progress() -> dict:
+            path = os.path.join(cache_dir, "progress.json")
+            if not os.path.isfile(path):
+                return {}
+            try:
+                with open(path, "r", encoding="utf-8") as handle:
+                    data = json.load(handle)
+                return data if isinstance(data, dict) else {}
+            except Exception:
+                return {}
+
+        def build_response(pending: bool = False) -> dict:
+            meta = read_meta()
+            stems = {
+                stem: "/stems/" + cache_id + "/" + stem
+                for stem in demucs_stems_for_model(model_name)
+            }
+            if pending:
+                return {
+                    "cacheId": cache_id,
+                    "model": model_name,
+                    "samplerate": 0,
+                    "duration": 0,
+                    "backend": "",
+                    "stems": stems,
+                    "cached": False,
+                    "pending": True,
+                }
+            return {
+                "cacheId": cache_id,
+                "model": model_name,
+                "samplerate": int(meta.get("samplerate") or 0),
+                "duration": float(meta.get("duration") or 0),
+                "backend": meta.get("backend") or "",
+                "stems": stems,
+                "cached": True,
+            }
+
+        if stems_cached():
+            return JSONResponse(build_response(False), headers=cors_headers(origin))
+
+        existing = _stem_background_tasks.get(cache_id)
+        if existing and not existing.done():
+            return JSONResponse(build_response(True), headers=cors_headers(origin))
+
+        lock = _stem_inflight_locks.get(cache_id)
+        if lock is None:
+            lock = asyncio.Lock()
+            _stem_inflight_locks[cache_id] = lock
+
+        async def run_job():
+            try:
+                async with lock:
+                    if stems_cached():
+                        return
+                    started_at = time.time()
+                    write_progress({
+                        "stage": "separating",
+                        "progress": 10,
+                        "message": "Separating stems (cloud)...",
+                        "startedAt": started_at,
+                        "estimatedSeconds": 120,
+                        "elapsedSeconds": 0,
+                    })
+                    result = await asyncio.wait_for(
+                        separate_stems_cloud(audio_bytes, filename, cfg, cache_dir),
+                        timeout=STEM_SEPARATION_TIMEOUT_SECONDS,
+                    )
+                    write_meta({
+                        "samplerate": result.get("samplerate") or 0,
+                        "duration": result.get("duration") or 0,
+                        "backend": result.get("backend") or "",
+                        "model": result.get("model") or model_name,
+                    })
+                    write_progress({
+                        "stage": "complete",
+                        "progress": 100,
+                        "message": "Stems ready",
+                        "duration": float(result.get("duration") or 0),
+                    })
+            except Exception as exc:
+                write_progress({
+                    "stage": "error",
+                    "progress": 0,
+                    "message": str(exc)[:200],
+                })
+            finally:
+                _stem_background_tasks.pop(cache_id, None)
+                _stem_inflight_locks.pop(cache_id, None)
+
+        _stem_background_tasks[cache_id] = asyncio.create_task(run_job())
+        return JSONResponse(build_response(True), headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse(
+            {"error": str(exc.detail)},
+            status_code=exc.status_code,
+            headers=cors_headers(origin),
+        )
+    except Exception as exc:
+        return JSONResponse(
+            {"error": str(exc)[:500]},
+            status_code=502,
+            headers=cors_headers(origin),
+        )
+
+
+@app.get("/stems/{cache_id}/status")
+async def get_stem_status_light(
+    cache_id: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
+            raise HTTPException(status_code=400, detail="Invalid cache id")
+        cache_dir = os.path.join(STEM_CACHE_DIR, cache_id)
+        meta_path = os.path.join(cache_dir, "metadata.json")
+        progress_path = os.path.join(cache_dir, "progress.json")
+        metadata = {}
+        if os.path.isfile(meta_path):
+            try:
+                with open(meta_path, "r", encoding="utf-8") as handle:
+                    metadata = json.load(handle) or {}
+            except Exception:
+                metadata = {}
+        model_name = str(metadata.get("model") or "htdemucs")
+        stems = demucs_stems_for_model(model_name)
+        cached = all(os.path.isfile(os.path.join(cache_dir, stem + ".wav")) for stem in stems)
+        if cached:
+            body = {
+                "cacheId": cache_id,
+                "stage": "complete",
+                "progress": 100,
+                "message": "Stems ready",
+                "cached": True,
+                "duration": float(metadata.get("duration") or 0),
+            }
+        elif os.path.isfile(progress_path):
+            try:
+                with open(progress_path, "r", encoding="utf-8") as handle:
+                    progress = json.load(handle) or {}
+            except Exception:
+                progress = {}
+            body = {
+                "cacheId": cache_id,
+                "stage": progress.get("stage") or "separating",
+                "progress": int(progress.get("progress") or 0),
+                "message": progress.get("message") or "Separating stems...",
+                "cached": False,
+                "duration": float(progress.get("duration") or 0),
+                "elapsedSeconds": float(progress.get("elapsedSeconds") or 0),
+                "estimatedSeconds": float(progress.get("estimatedSeconds") or 0),
+            }
+        else:
+            body = {
+                "cacheId": cache_id,
+                "stage": "queued",
+                "progress": 0,
+                "message": "Queued for stem separation",
+                "cached": False,
+            }
+        return JSONResponse(body, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+
+
+@app.get("/stems/{cache_id}/{stem_name}")
+async def get_stem_audio_light(
+    cache_id: str,
+    stem_name: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        if not re.fullmatch(r"[a-f0-9]{32}", cache_id or ""):
+            raise HTTPException(status_code=400, detail="Invalid cache id")
+        cache_dir = os.path.join(STEM_CACHE_DIR, cache_id)
+        meta_path = os.path.join(cache_dir, "metadata.json")
+        metadata = {}
+        if os.path.isfile(meta_path):
+            try:
+                with open(meta_path, "r", encoding="utf-8") as handle:
+                    metadata = json.load(handle) or {}
+            except Exception:
+                metadata = {}
+        allowed = demucs_stems_for_model(metadata.get("model"))
+        if stem_name not in allowed:
+            raise HTTPException(status_code=400, detail="Unknown stem")
+        stem_path = os.path.join(cache_dir, stem_name + ".wav")
+        if not os.path.isfile(stem_path):
+            raise HTTPException(status_code=404, detail="Stem not found")
+        return FileResponse(
+            stem_path,
+            media_type="audio/wav",
+            filename=stem_name + ".wav",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+
+
 @app.post("/analyze-media")
 @app.post("/detect-chords")
 @app.post("/analyze-practice")
@@ -444,7 +758,7 @@ async def heavy_refused(request: Request):
     return JSONResponse(
         {
             "error": "heavy_ml_unavailable",
-            "hint": "Use a full home resolver (BYOR) or free-access host for stems/OMR/melody",
+            "hint": "Use a full home resolver (BYOR) or free-access host for OMR/melody analysis",
         },
         status_code=503,
         headers=cors_headers(origin),

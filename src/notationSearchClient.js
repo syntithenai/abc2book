@@ -1,4 +1,9 @@
-import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
+import {
+  fetchViaMediaProxy,
+  isMediaProxyConfigured,
+  isMediaResolverInfrastructureError,
+  isNotationSearchEmptyError,
+} from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import {
   extractNotationSearchUrl,
@@ -6,6 +11,15 @@ import {
   normalizeNotationSearch,
 } from './notationSearchNormalize'
 import { searchNotationLight } from './notationSearchLight'
+
+function emptyNotationResult() {
+  return {
+    multiple: false,
+    empty: true,
+    found: false,
+    candidates: [],
+  }
+}
 
 export {
   normalizeNotationSearch,
@@ -104,17 +118,24 @@ export async function searchNotationViaResolver(options) {
       songType: songType || 'instrumental',
     }
 
-  const response = await fetchViaMediaProxy('/search-notation', accessToken, {
-    method: 'POST',
-    body: JSON.stringify(payload),
-    signal: signal,
-    headers: {
-      Accept: NOTATION_ACCEPT_HEADER,
-      'Content-Type': 'application/json',
-    },
-  })
+  try {
+    const response = await fetchViaMediaProxy('/search-notation', accessToken, {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      signal: signal,
+      headers: {
+        Accept: NOTATION_ACCEPT_HEADER,
+        'Content-Type': 'application/json',
+      },
+    })
 
-  return parseStreamingNotationSearchResponse(response, onProgress)
+    return await parseStreamingNotationSearchResponse(response, onProgress)
+  } catch (err) {
+    if (isNotationSearchEmptyError(err)) {
+      return emptyNotationResult()
+    }
+    throw err
+  }
 }
 
 function shouldUseResolver(options) {

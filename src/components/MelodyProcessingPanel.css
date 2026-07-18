@@ -98,6 +98,65 @@
   flex: 0 0 auto;
 }
 
+.melody-processing-piano-voicing {
+  margin-top: 0.55em;
+}
+
+.melody-processing-piano-voicing .form-check {
+  margin-bottom: 0;
+}
+
+.melody-processing-advanced-mixes {
+  margin-top: 0.65em;
+}
+
+.melody-processing-advanced-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #0d6efd;
+  font-size: 0.9em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.melody-processing-stem-mixes {
+  margin-top: 0.65em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85em;
+}
+
+.melody-processing-stem-mixes-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.melody-processing-stem-task-label {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 0.35em;
+}
+
+.melody-processing-stem-sliders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5em, 1fr));
+  gap: 0.45em 0.75em;
+}
+
+.melody-processing-stem-slider .form-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  margin-bottom: 0.1em;
+  text-transform: capitalize;
+}
+
+.melody-processing-stem-value {
+  font-variant-numeric: tabular-nums;
+  color: #666;
+}
+
 @media (max-width: 700px) {
   .melody-processing-settings-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

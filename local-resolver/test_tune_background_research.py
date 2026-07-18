@@ -291,7 +291,12 @@ class TuneBackgroundResearchTests(unittest.IsolatedAsyncioTestCase):
 
         self.assertEqual(text, "Summary paragraph.")
         client.post.assert_awaited()
-        user_prompt = client.post.await_args.kwargs["json"]["messages"][1]["content"]
+        payload = client.post.await_args.kwargs["json"]
+        self.assertEqual(
+            payload.get("chat_template_kwargs"),
+            {"enable_thinking": False},
+        )
+        user_prompt = payload["messages"][1]["content"]
         self.assertIn("Keep this fact.", user_prompt)
 
     async def test_research_tune_background_skips_supplemental_when_rich(self):

@@ -121,6 +121,8 @@ export function getImportReviewSessionRevision() {
     session.phase,
     session.index,
     session.mergeIndex,
+    session.entryMode || '',
+    session.addPanelMode || 'form',
     Object.keys(session.importedCandidateIds || {}).length,
     jobs.map(function(job) {
       return job.id + ':' + job.status

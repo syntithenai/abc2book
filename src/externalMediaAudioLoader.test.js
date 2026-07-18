@@ -45,9 +45,10 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
   })
 
   test('uses extension when connected for youtube', async function () {
+    const rawBytes = new ArrayBuffer(8)
     isYoutubeExtensionConnected.mockResolvedValue(true)
     fetchYoutubeAudioViaExtension.mockResolvedValue({
-      arrayBuffer: new ArrayBuffer(8),
+      arrayBuffer: rawBytes,
       mime: 'audio/mp4',
       title: 'Song',
       via: 'extension',
@@ -67,14 +68,22 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
     expect(decode).toHaveBeenCalled()
     expect(result.sourceUrl).toBe('extension')
     expect(result.duration).toBe(12.5)
+    expect(result.arrayBuffer).toBe(rawBytes)
+    expect(result.mime).toBe('audio/mp4')
   })
 
   test('falls back to proxy path when extension offline', async function () {
+    const rawBytes = new ArrayBuffer(4)
     isYoutubeExtensionConnected.mockResolvedValue(false)
     fetchDirectOrProxy.mockResolvedValue({
       response: {
         arrayBuffer: function () {
-          return Promise.resolve(new ArrayBuffer(4))
+          return Promise.resolve(rawBytes)
+        },
+        headers: {
+          get: function (name) {
+            return name === 'Content-Type' ? 'audio/mpeg' : null
+          },
         },
       },
       viaProxy: true,
@@ -92,6 +101,8 @@ describe('fetchAndDecodeExternalMedia extension preference', function () {
     expect(fetchYoutubeAudioViaExtension).not.toHaveBeenCalled()
     expect(fetchDirectOrProxy).toHaveBeenCalled()
     expect(result.sourceUrl).toBe('proxy')
+    expect(result.arrayBuffer).toBe(rawBytes)
+    expect(result.mime).toBe('audio/mpeg')
   })
 
   test('falls back to proxy when extension is connected but fails', async function () {

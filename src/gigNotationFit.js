@@ -565,11 +565,27 @@ export function clearNotationFit(svg, renderEl) {
 export const SINGLE_VIEW_SCROLLBAR_RESERVE_PX = 18;
 
 /**
+ * Usable viewport bottom in px. The Now Playing playlist transport bar is
+ * fixed to the bottom of the window; fit-height must stop above it.
+ */
+export function measureViewportBottomLimit() {
+  const windowBottom = window.innerHeight;
+  const bar = typeof document !== 'undefined' && typeof document.querySelector === 'function'
+    ? document.querySelector('.now-playing-transport-bar')
+    : null;
+  if (!bar || typeof bar.getBoundingClientRect !== 'function') return windowBottom;
+  const rect = bar.getBoundingClientRect();
+  if (!rect || !(rect.height > 0)) return windowBottom;
+  if (!(rect.top > 0) || rect.top >= windowBottom) return windowBottom;
+  return rect.top;
+}
+
+/**
  * Available paper for single-view notation.
  * Width prefers the viewer element (inside column padding) so the scaled SVG
  * does not overflow and left-align-clip the title. Falls back to the notation
  * column when the viewer has not laid out yet. Height is from the score top to
- * the bottom of the viewport.
+ * the bottom of the viewport (above the playlist transport bar when shown).
  */
 export function measureSingleViewPaper(renderEl) {
   if (!renderEl) return { availW: 100, availH: 100 };
@@ -596,7 +612,7 @@ export function measureSingleViewPaper(renderEl) {
   const availW = Math.max(100, Math.floor(baseW - rightPad));
   const availH = Math.max(
     100,
-    Math.floor(window.innerHeight - topRect.top - bottomPad)
+    Math.floor(measureViewportBottomLimit() - topRect.top - bottomPad)
   );
   return { availW: availW, availH: availH };
 }

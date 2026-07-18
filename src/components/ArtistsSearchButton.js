@@ -12,12 +12,13 @@ import {
   resolveOriginalValueForPicker,
   searchableSuggestions,
 } from '../fieldSuggestionsUtils'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { setFieldSearchResults, targetKeyForFieldSearch } from '../fieldSearchResultCache'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
 import { FieldLookupButtonGroup } from './FieldLookupButtonGroup'
+import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
-import { useOpenFieldSuggestions } from './useOpenFieldSuggestions'
-import { useSyncFieldLookupOriginalValue } from './useSyncFieldLookupOriginalValue'
 
 export default function ArtistsSearchButton({
   tuneId,
@@ -39,6 +40,10 @@ export default function ArtistsSearchButton({
   const searchModeRef = useRef('auto')
   const applyRef = useRef(null)
   const addedRef = useRef(false)
+  const cachedCandidates = useFieldSearchResults(tuneId, candidateId, 'artists')
+  const fieldEmpty = !(Array.isArray(existingArtists) && existingArtists.some(function(item) {
+    return String(item || '').trim()
+  }))
 
   function finishApply(result, jobId, options) {
     const keepOpen = !!(options && options.keepOpen)
@@ -50,25 +55,43 @@ export default function ArtistsSearchButton({
   }
   applyRef.current = finishApply
 
+  function openPicker(candidates) {
+    setError('')
+    addedRef.current = false
+    setSelectedIndexes([])
+    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
+    setShowPicker(true)
+  }
+
+  function closePicker(dismissJob) {
+    setShowPicker(false)
+    setPickerCandidates([])
+    setSelectedIndexes([])
+    if (dismissJob && lookup.activeJob && lookup.activeJob.status === 'awaiting') {
+      dismissFieldLookup(lookup.activeJob.id)
+    }
+  }
+
   const lookup = useFieldLookupSearchJob({
     tuneId: tuneId,
     candidateId: candidateId,
     kind: 'artists',
     onAwaiting: function(job) {
       const candidates = searchableSuggestions(job)
-      if (searchModeRef.current === 'review') {
-        if (candidates.length === 0) {
-          setError('No artists found')
-          return
+      if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
+        if (job.appliedCandidate && typeof onAddArtist === 'function') {
+          const name = String(job.appliedCandidate.artist || '').trim()
+          if (name) onAddArtist(name)
         }
-        openPicker(candidates)
         return
       }
-      if (candidates.length >= 1) {
-        applyRef.current(candidates[0], job.id)
+      if (candidates.length === 0) {
+        setError('No artists found')
         return
       }
-      setError('No artists found')
+      const key = targetKeyForFieldSearch(tuneId, candidateId)
+      if (key) setFieldSearchResults(key, 'artists', candidates)
+      openPicker(candidates)
     },
     onError: function(job) {
       setError(job.error || 'Artists search failed')
@@ -83,53 +106,15 @@ export default function ArtistsSearchButton({
   const awaitingJob = lookup.activeJob && lookup.activeJob.status === 'awaiting'
     ? lookup.activeJob
     : null
-  const awaitingCandidates = searchableSuggestions(awaitingJob)
 
-  useSyncFieldLookupOriginalValue(tuneId, 'artists', existingArtists, awaitingJob)
-
-  function closePicker(dismissJob) {
-    const jobId = lookup.activeJob && lookup.activeJob.status === 'awaiting'
-      ? lookup.activeJob.id
-      : null
-    setShowPicker(false)
-    setPickerCandidates([])
-    setSelectedIndexes([])
-    if (dismissJob && jobId) dismissFieldLookup(jobId)
-  }
-
-  function openPicker(candidates) {
-    setError('')
-    addedRef.current = false
-    setSelectedIndexes([])
-    setPickerCandidates(Array.isArray(candidates) ? candidates : [])
-    setShowPicker(true)
-  }
-
-  function openAwaitingSuggestions() {
-    if (awaitingCandidates.length === 0) return
-    openPicker(awaitingCandidates)
-  }
-
-  useOpenFieldSuggestions(tuneId, 'artists', openAwaitingSuggestions)
-
-  function clearAwaitingSuggestions() {
-    lookup.dismiss()
-    setShowPicker(false)
-    setPickerCandidates([])
-    setSelectedIndexes([])
-  }
-
-  function run(mode) {
+  function run() {
     if (!canSearch) return
     if (busy) {
       lookup.cancel()
       return
     }
-    if (awaitingCandidates.length > 0) {
-      clearAwaitingSuggestions()
-    }
-    const searchMode = mode === 'review' ? 'review' : 'auto'
-    searchModeRef.current = searchMode
+    if (awaitingJob) dismissFieldLookup(awaitingJob.id)
+    searchModeRef.current = 'auto'
     setError('')
     setShowPicker(false)
     setPickerCandidates([])
@@ -139,7 +124,7 @@ export default function ArtistsSearchButton({
       title: title,
       artist: artist || '',
       tuneName: title,
-      options: buildSearchModeOptions(searchMode, {
+      options: buildSearchModeOptions('auto', {
         existingArtists: Array.isArray(existingArtists) ? existingArtists : [],
       }),
     })
@@ -164,6 +149,17 @@ export default function ArtistsSearchButton({
     }
   }))
 
+  const resultsCaret = (
+    <FieldSearchResultsCaret
+      candidates={cachedCandidates}
+      className="select-input-options-dropdown"
+      openPickerOnToggle={true}
+      onOpen={openPicker}
+      aria-label="Cached artists search results"
+      data-testid="artists-search-results-caret"
+    />
+  )
+
   return renderFieldLookupSearchUi({
     children: children,
     buttonGroup: (
@@ -180,8 +176,7 @@ export default function ArtistsSearchButton({
           searchIcon={searchIcon}
           inline={inline}
           progress={lookup.progressPercent}
-          suggestionCount={awaitingCandidates.length}
-          onOpenSuggestions={openAwaitingSuggestions}
+          resultsCaret={resultsCaret}
         />
         <SearchProgressBar
           visible={busy}
@@ -214,10 +209,10 @@ export default function ArtistsSearchButton({
           finishApply({ artist: item.title, source: item.source }, null, { keepOpen: true })
         }}
         onDone={function() {
-          closePicker(addedRef.current)
+          closePicker(true)
         }}
         onHide={function() {
-          closePicker(addedRef.current)
+          closePicker(true)
         }}
       />
     ),

@@ -829,6 +829,59 @@ export function staffCaretAnchorRect(wrapEl, events, caretIndex, voiceStaffIndex
   return anchorAfterEventsPrefix(list, index, drawables, bars, wrapRect, wrapEl);
 }
 
+/**
+ * Client-space center of the notehead inside an abcjs note/rest glyph.
+ * Ignores stems/flags/ledgers so pitch-drag ghosts track the head, not the stem box.
+ */
+export function noteheadCenterInElement(el) {
+  if (!el || typeof el.getBoundingClientRect !== 'function') return null;
+  const nodes = el.querySelectorAll
+    ? Array.from(el.querySelectorAll('path, ellipse, use, circle'))
+    : [];
+  let best = null;
+  nodes.forEach(function(node) {
+    const cls = elementClassName(node);
+    if (cls.indexOf('stem') >= 0
+      || cls.indexOf('flag') >= 0
+      || cls.indexOf('ledger') >= 0
+      || cls.indexOf('dot') >= 0) {
+      return;
+    }
+    const r = node.getBoundingClientRect();
+    if (r.width < 4 || r.height < 3 || r.height > 22 || r.width > 30) return;
+    // Prefer head-like aspect (not a thin vertical scrap).
+    if (r.height > r.width * 2.2) return;
+    const area = r.width * r.height;
+    if (!best || area > best.area) {
+      best = {
+        x: r.left + r.width / 2,
+        y: r.top + r.height / 2,
+        area: area,
+      };
+    }
+  });
+  if (best) return { x: best.x, y: best.y };
+
+  const rect = el.getBoundingClientRect();
+  const stem = el.querySelector
+    ? (el.querySelector('.abcjs-stem, [class*="stem"]') || null)
+    : null;
+  if (stem && rect.height > rect.width * 1.6) {
+    const sr = stem.getBoundingClientRect();
+    const stemMid = sr.top + sr.height / 2;
+    const boxMid = rect.top + rect.height / 2;
+    // Stem above box mid → head sits near the bottom; otherwise near the top.
+    const y = stemMid < boxMid
+      ? (rect.bottom - Math.min(8, rect.height * 0.22))
+      : (rect.top + Math.min(8, rect.height * 0.22));
+    return { x: rect.left + rect.width / 2, y: y };
+  }
+  return {
+    x: rect.left + rect.width / 2,
+    y: rect.top + rect.height / 2,
+  };
+}
+
 /** Bounding boxes for selected events, relative to the staff wrap element. */
 export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIndex) {
   if (!wrapEl || !Array.isArray(events) || !eventIds || !eventIds.length) return [];
@@ -873,6 +926,40 @@ export function staffSelectionAnchorRects(wrapEl, events, eventIds, voiceStaffIn
   });
 
   return rects;
+}
+
+/**
+ * Notehead centers for pitched selected events, relative to the staff wrap.
+ * Used so pitch-drag landing ghosts sit on the same staff positions notes land on.
+ */
+export function staffNoteheadCentersForEventIds(wrapEl, events, eventIds, voiceStaffIndex) {
+  if (!wrapEl || !Array.isArray(events) || !eventIds || !eventIds.length) return [];
+  const drawables = drawableElementsForVoice(wrapEl, voiceStaffIndex);
+  const wrapRect = wrapEl.getBoundingClientRect();
+  const scrollLeft = wrapEl.scrollLeft || 0;
+  const scrollTop = wrapEl.scrollTop || 0;
+  const idSet = {};
+  eventIds.forEach(function(id) { idSet[id] = true; });
+  const centers = [];
+  let drawableSeen = -1;
+
+  events.forEach(function(ev) {
+    if (isBarlineEvent(ev)) return;
+    if (!isStaffDrawableEvent(ev)) return;
+    drawableSeen += 1;
+    if (!idSet[ev.id]) return;
+    if (ev.type !== 'note' && ev.type !== 'chord') return;
+    const el = drawables[drawableSeen];
+    if (!el) return;
+    const head = noteheadCenterInElement(el);
+    if (!head) return;
+    centers.push({
+      x: head.x - wrapRect.left + scrollLeft,
+      y: head.y - wrapRect.top + scrollTop,
+    });
+  });
+
+  return centers;
 }
 
 /** Barline event under a pointer click, if any. */

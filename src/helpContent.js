@@ -91,7 +91,7 @@ export function HelpWhatYouCanDo() {
         <li>Books and tags; filter on the Tunes page; <strong>save filters</strong> on the Books page for one-tap recall.</li>
         <li>Book Tools (dropdown arrow on Books page): Download, Play Media, Play Midi, Cheat Sheet, Print, Share.</li>
         <li>Share tunes, books, or performance sets when logged in — scan the QR code, copy the link, or email it. Recipients choose what to import (one tune, a book, a set, or the whole tunebook).</li>
-        <li>Import <strong>shared tune books</strong> from curated collections (Add → <strong>Bulk</strong> tab) or shared Google import links.</li>
+        <li>Import <strong>shared tune books</strong> from curated collections (Add → <strong>Bulk</strong>) or shared Google import links.</li>
       </ul>
       <h4>Offline and sync</h4>
       <ul>
@@ -339,7 +339,7 @@ export function HelpMediaResolver() {
       </ul>
       <h4>Configure in the app</h4>
       <ul>
-        <li><strong>Settings</strong> → <strong>Media resolver / proxy</strong> → <strong>Resolver URL</strong></li>
+        <li><strong>Settings</strong> → <strong>Resolver</strong> → <strong>Resolver URL</strong></li>
         <li>Leave blank to try <code>http://localhost:8787</code> first, then shared public resolvers</li>
         <li><strong>Refresh status</strong> shows which candidates are reachable</li>
         <li>HTTPS app pages cannot call HTTP resolvers (mixed content) — use an <code>https://</code> resolver or run both locally</li>
@@ -365,7 +365,7 @@ export function HelpDockerResolver() {
         <a href="https://github.com/syntithenai/abc2book/blob/main/local-resolver/README.md" target="_blank" rel="noreferrer">local-resolver README on GitHub</a>.
       </p>
       <p>
-        Once your resolver is running, open <Link to="/settings">Settings</Link> and set the <strong>Resolver URL</strong> to your resolver&apos;s base address (for example <code>http://localhost:8787</code>). Tap <strong>Save resolver</strong> to use it as your preferred resolver.
+        Once your resolver is running, open <Link to="/settings">Settings</Link> and set the <strong>Resolver URL</strong> to your resolver&apos;s base address (for example <code>http://localhost:8787</code>). The URL saves automatically after you stop typing.
       </p>
       <p>
         <strong>Settings</strong> also shows which resolvers are reachable, which one is <strong>in use</strong>, and the status of each candidate. Use <strong>Refresh status</strong> after starting or changing a resolver.
@@ -391,11 +391,11 @@ export function HelpAutomaticDetection() {
       <ul>
         <li>Editor <strong>Wizards</strong> → <strong>Import from media</strong>, or <strong>Import from media</strong> when adding a tune</li>
         <li>Opens the media import wizard (see next section)</li>
-        <li>Resolver runs beat detection, Whisper transcription, chord detection, and melody extraction (with vocal/instrumental stem handling)</li>
+        <li>Resolver runs beat detection, Whisper transcription, chord detection (BTC / madmom / autochord), and melody extraction (with vocal/instrumental stem handling)</li>
       </ul>
       <h4>Playback analysis</h4>
       <p>Media controls → <strong>Audio Filters</strong> — stem separation (vocals, drums, bass, other) for practice mixes when stems have been analysed.</p>
-      <p className="help-tip">Treat all automatic results as drafts — review before saving.</p>
+      <p className="help-tip">Treat all automatic results as drafts — review before saving. Chord charts are best on simple folk/pop songs; expect to fix odd bars.</p>
     </>
   );
 }
@@ -482,10 +482,11 @@ export function HelpMoreFeatures() {
       <ul>
         <li><strong>Performance sets</strong> — Header menu or footer → <strong>Sets</strong> — build gig setlists and play them in fullscreen Gig Mode (<Link to="/gig">/gig</Link>).</li>
         <li><strong>Foot pedal scrolling</strong> — Settings → <strong>Foot pedal / page turn</strong> — scroll through charts hands-free; see Help → Foot pedal.</li>
-        <li><strong>Import shared books</strong> — Add → <strong>Bulk</strong> tab → curated collections. Open a shared import link from another user to merge a tune book into yours.</li>
-        <li><strong>File / Drive / Capture / Paste</strong> on the Add tab stage imports through a review queue (identity, match, optional enrich, field merge) instead of blocking the app.</li>
-        <li><strong>Bulk import</strong> — paste or load a line list (<code>Title</code>, <code>Title by Artist</code>, or <code>Title | url</code>), then import each tune through the same review queue.</li>
-        <li>Google Drive tunebook updates and tunes with a <strong>Source URL</strong> show a non-blocking toast with <strong>Accept</strong> or <strong>Merge</strong> (field-level choices).</li>
+        <li><strong>Import shared books</strong> — Add → <strong>Bulk</strong> → curated books (or Books page). Open a shared import link from another user to merge a tune book into yours.</li>
+        <li><strong>File / Drive / Capture / Paste</strong> on the Add tab stage imports through a review queue (identity, match, optional enrich, field merge) instead of blocking the app. Use <strong>Add From</strong> on the Add form.</li>
+        <li><strong>Bulk import</strong> — paste or load a line list (<code>Title</code>, <code>Title by Artist</code>, or <code>Title | url</code>), optionally <strong>Prepare</strong> (normalize + cautious YouTube preselect), then import each tune through the same review queue.</li>
+        <li><strong>Songbook Pro</strong> — In Songbook Pro, multi-select songs → Share/Save as → <strong>ChordPro</strong> (batch creates a ZIP) and import that ZIP here. Native <code>.sbp</code> / <code>.sbpbackup</code> files are also supported. MuseScore <code>.mscz</code>, OnSong archives, and iReal Pro <code>.html</code> exports are supported too.</li>
+        <li>Google Drive tunebook updates and tunes with a <strong>Source URL</strong> show a non-blocking toast with <strong>Accept</strong> or <strong>Merge</strong> (field-level choices). Whole-book Google import opens a <strong>batch summary</strong> (inserts/updates/duplicates/…) then the review queue.</li>
         <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits.</li>
         <li><strong>Download MIDI</strong> — Where available, export generated playback as a MIDI file.</li>
         <li><strong>Stem separation</strong> — After media analysis, <strong>Audio Filters</strong> on playback lets you mix vocals, drums, bass, and other stems for practice.</li>

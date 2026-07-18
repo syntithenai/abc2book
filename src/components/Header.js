@@ -1,7 +1,7 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
-import {useEffect, useMemo, useState, useSyncExternalStore} from 'react'
+import {useEffect, useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
@@ -20,31 +20,6 @@ import {
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
-import {
-    subscribe as subscribeFieldLookupQueue,
-    getState as getFieldLookupState,
-} from '../tuneFieldLookupQueue'
-import { countTunesWithFieldSuggestions } from '../fieldSuggestionsUtils'
-
-function getFieldLookupReviewRevision() {
-    const state = getFieldLookupState()
-    return (state.jobs || []).map(function(job) {
-        return job.id + ':' + job.status + ':' + (job.reviewCandidateId || '')
-    }).join('|')
-}
-
-function useSearchSuggestionsTuneCount() {
-    const fieldLookupRevision = useSyncExternalStore(
-        subscribeFieldLookupQueue,
-        getFieldLookupReviewRevision,
-        function() { return '' }
-    )
-    return useMemo(function() {
-        const jobs = getFieldLookupState().jobs || []
-        return countTunesWithFieldSuggestions(jobs)
-    }, [fieldLookupRevision])
-}
-
 
 export default function Header(props) {
     var location = useLocation()
@@ -161,12 +136,18 @@ export default function Header(props) {
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',
     }
-    const reviewSuggestionsTuneCount = useSearchSuggestionsTuneCount()
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
-        const prevLabel = 'Previous search result'
-        const nextLabel = 'Next search result'
+        // While the playlist queue is audibly playing, next/prev steps the
+        // playlist (see runAdjacentSongNavigation); label accordingly.
+        const queuePlaybackRunning = isQueueActive(props.nowPlayingQueue)
+            && !!(props.mediaController && (props.mediaController.isPlaying || props.mediaController.isLoading))
+            && props.nowPlayingQueue.items.some(function(item) {
+                return item && String(item.tuneId) === String(skipTuneId)
+            })
+        const prevLabel = queuePlaybackRunning ? 'Previous in playlist' : 'Previous search result'
+        const nextLabel = queuePlaybackRunning ? 'Next in playlist' : 'Next search result'
         return (
             <span className="header-list-nav">
                 <ButtonGroup className="header-skip-buttons">
@@ -247,7 +228,7 @@ export default function Header(props) {
                 <Dropdown.Divider />
                 </>}
                 <div className="header-dropdown-section header-dropdown-section-actions">
-                    <ButtonGroup className="header-dropdown-actions-group">
+                    <div className="header-dropdown-actions-group">
                         <Button
                             as={Link}
                             to="/books"
@@ -281,24 +262,7 @@ export default function Header(props) {
                                 </span>
                             </Button>
                         </span>
-                        {reviewSuggestionsTuneCount > 0 ? (
-                            <Button
-                                as={Link}
-                                to="/review"
-                                variant="primary"
-                                size={navButtonSize}
-                                className="header-dropdown-btn header-dropdown-review-btn"
-                                data-testid="header-review-button"
-                                title="Suggestions"
-                                onClick={function() { setNavMenuOpen(false) }}
-                            >
-                                <span className="header-dropdown-btn-label">
-                                    {props.tunebook.icons.menu}
-                                    <span>Suggestions</span>
-                                </span>
-                            </Button>
-                        ) : null}
-                    </ButtonGroup>
+                    </div>
                 </div>
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-account">
@@ -389,7 +353,7 @@ export default function Header(props) {
                 </div>
                 <Dropdown.Divider />
                 <div className="header-dropdown-section header-dropdown-section-actions">
-                    <ButtonGroup className="header-dropdown-practice-feed-group">
+                    <div className="header-dropdown-practice-feed-group">
                         <PracticeSessionButton
                             tunebook={props.tunebook}
                             tunes={props.tunes}
@@ -414,7 +378,7 @@ export default function Header(props) {
                                 <span>Feed</span>
                             </span>
                         </Button>
-                    </ButtonGroup>
+                    </div>
                 </div>
             </Dropdown.Menu>
         )
@@ -422,7 +386,7 @@ export default function Header(props) {
 
     if (location.pathname.startsWith('/print')) return null
     //console.log("param  ",params,location)
-    return <header className="App-header" style={{zIndex:11, fontSize:'1.2em'}} >
+    return <header className="App-header" style={{fontSize:'1.2em'}} >
         <span className="header-left">
             <ButtonGroup className="header-nav-buttons">
                 <Button

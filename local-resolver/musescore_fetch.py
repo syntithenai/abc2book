@@ -669,11 +669,16 @@ def musescore_urls_from_search_results(results):
 
 
 async def collect_musescore_candidates(client, title, artist="", on_progress=None):
-    """Search the web for MuseScore.com scores and fetch publicly downloadable MusicXML."""
+    """Search the web for MuseScore.com scores and fetch publicly downloadable MusicXML.
+
+    Returns ``{"candidates": [...], "manualCandidates": [...]}``.
+    Gated scores (no public download / LibreScore miss) are listed as
+    ``manualCandidates`` so the client can prompt open-link + paste / .mscz import.
+    """
     title = str(title or "").strip()
     artist = str(artist or "").strip()
     if not title:
-        return []
+        return {"candidates": [], "manualCandidates": []}
 
     await _emit_progress(on_progress, "musescore", "Searching MuseScore.com...", 0.45)
     queries = build_musescore_search_queries(title, artist)
@@ -696,9 +701,10 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
     score_urls = score_urls[:MAX_MUSESCORE_SEARCH_URLS]
     if not score_urls:
         await _emit_progress(on_progress, "musescore", "No MuseScore.com results", 0.7)
-        return []
+        return {"candidates": [], "manualCandidates": []}
 
     candidates = []
+    manual_candidates = []
     total = len(score_urls)
     for index, score_url in enumerate(score_urls):
         await _emit_progress(
@@ -714,23 +720,37 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
                 client=client,
             )
         except MuseScoreDownloadUnavailable:
-            # LibreScore also failed or direct download was unavailable
-            # This is not an error - we'll fall back to ABC/MIDI sources
             await _emit_progress(
                 on_progress,
                 "musescore",
-                "Skipping gated MuseScore score...",
+                "MuseScore score needs manual download...",
                 0.5 + (0.35 * (index + 1) / max(total, 1)),
             )
+            parsed = parse_musescore_score_url(score_url)
+            page_url = (parsed or {}).get("url") or score_url
+            manual_candidates.append({
+                "url": page_url,
+                "title": title,
+                "source": "musescore.com",
+                "host": "musescore.com",
+                "reason": "blocked",
+                "contentType": "notation",
+            })
             continue
         except Exception:
-            # Unexpected error - skip this score but continue search
             continue
         if candidate:
             candidates.append(candidate)
 
     if candidates:
         await _emit_progress(on_progress, "musescore", "MuseScore candidates ready", 0.85)
+    elif manual_candidates:
+        await _emit_progress(
+            on_progress,
+            "musescore",
+            "MuseScore scores found (manual download required)",
+            0.85,
+        )
     else:
         await _emit_progress(on_progress, "musescore", "No public MuseScore downloads", 0.85)
-    return candidates
+    return {"candidates": candidates, "manualCandidates": manual_candidates}

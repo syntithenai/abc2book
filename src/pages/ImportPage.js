@@ -4,8 +4,10 @@ import {Button, Modal} from 'react-bootstrap'
 import curated from '../CuratedTuneBooks'
 import ImportCollectionModal from '../components/ImportCollectionModal'
 import { curatedScrapeUrl } from '../resourceBase'
+import { useDocumentTitle } from '../pageTitle'
 
 export default function ImportPage(props) {
+    useDocumentTitle('Import')
     var navigate = useNavigate()
     var params = useParams()
     const [error, setError] = useState(false)

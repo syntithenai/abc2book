@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import {useParams, useSearchParams} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 import abcjs from "abcjs";
 import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal} from 'react-bootstrap'
 import { toast } from 'react-toastify'
@@ -26,7 +26,6 @@ import TuneBackgroundSearchButton from './TuneBackgroundSearchButton'
 import GenreSearchButton from './GenreSearchButton'
 import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
-import TuneFieldSuggestionsStrip from './TuneFieldSuggestionsStrip'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
@@ -48,7 +47,6 @@ import TuneArtistsField from './TuneArtistsField'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import { mergeBibliographicList } from '../tuneBibliographicUtils'
-import { requestOpenFieldSuggestions } from '../fieldSuggestionsOpen'
 
 
 export default function AbcEditor(props) {
@@ -56,7 +54,6 @@ export default function AbcEditor(props) {
   const [currentVoice, setCurrentVoice] = useState(0);
   const editorViewMode = normalizeEditorViewMode(props.editorViewMode);
   let params = useParams();
-  const [searchParams] = useSearchParams();
   var musicBrainz = useMusicBrainz()
   const { available: resolverAvailable } = useMediaResolverHealth()
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
@@ -86,15 +83,6 @@ export default function AbcEditor(props) {
     tune.id = params.tuneId
     saveTune(tune)
   }
-
-  useEffect(function() {
-    const suggest = searchParams && searchParams.get('suggest')
-    if (!suggest || !tuneId) return
-    const timer = setTimeout(function() {
-      requestOpenFieldSuggestions(tuneId, suggest)
-    }, 200)
-    return function() { clearTimeout(timer) }
-  }, [tuneId, searchParams])
 
   useEffect(function() {
     setWLinesText(lyricLinesToText(tune))
@@ -375,7 +363,6 @@ export default function AbcEditor(props) {
         : []
       return (
                     <>
-                    <TuneFieldSuggestionsStrip tuneId={tuneId} />
                     <Form className="abc-editor-info-form">
                       <div className="abc-editor-info-section">
                       <Row>
@@ -451,6 +438,12 @@ export default function AbcEditor(props) {
                                       createOptionPosition="first"
                                       allowCreateWhileLoading={true}
                                       placeholder="Type composer name"
+                                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+                                      styles={{
+                                        menuPortal: function(base) {
+                                          return Object.assign({}, base, { zIndex: 10050 })
+                                        },
+                                      }}
                                     />
                                     {api.errorNode}
                                   </>
@@ -504,6 +497,12 @@ export default function AbcEditor(props) {
                                       createOptionPosition="first"
                                       allowCreateWhileLoading={true}
                                       placeholder="eg Folk, Jazz"
+                                      menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+                                      styles={{
+                                        menuPortal: function(base) {
+                                          return Object.assign({}, base, { zIndex: 10050 })
+                                        },
+                                      }}
                                     />
                                     {api.errorNode}
                                   </>
@@ -1035,15 +1034,18 @@ export default function AbcEditor(props) {
                           defaultUpdateLyrics={true}
                           forceUpdateLyrics={true}
                           confirmOverwrite={true}
-                          onChords={function(result) {
+                          existingLyrics={wLinesText}
+                          onChords={function(result, options) {
                             const committed = commitChordSearchResultToTune({
                               result: result,
                               tune: tune,
                               abc: props.abc,
                               tunebook: props.tunebook,
                               abcjsParser: abcjsParser,
-                              updateLyrics: true,
-                              historyLabel: 'Search chords and lyrics',
+                              updateLyrics: !!(options && options.updateLyrics),
+                              historyLabel: (options && options.updateLyrics)
+                                ? 'Search chords and lyrics'
+                                : 'Search chords',
                             })
                             if (!committed.ok) {
                               toast.error(
@@ -1053,12 +1055,16 @@ export default function AbcEditor(props) {
                               )
                               return
                             }
-                            if (Array.isArray(committed.lyricLines)) {
+                            if (committed.updateLyrics && Array.isArray(committed.lyricLines)) {
                               setWLinesText(committed.lyricLines.join('\n'))
                             }
-                            toast.success('Chords and lyrics updated from search')
+                            toast.success(
+                              committed.updateLyrics
+                                ? 'Chords and lyrics updated from search'
+                                : 'Chords updated from search'
+                            )
                           }}
-                          onLyrics={function() { /* lyrics always applied via merge */ }}
+                          onLyrics={function() { /* lyrics applied via merge when empty */ }}
                         />
                         <Button
                           variant="outline-primary"

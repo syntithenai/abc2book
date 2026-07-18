@@ -9,8 +9,12 @@ import ComposerSearchButton from './ComposerSearchButton'
 import TuneArtistsField from './TuneArtistsField'
 import AddTuneYouTubePicker from './AddTuneYouTubePicker'
 import { findCollectionMatches, matchConfidenceLabel } from '../tuneCollectionMatch'
-import { primaryArtist } from '../tuneBibliographicUtils'
+import { mergeBibliographicList, primaryArtist } from '../tuneBibliographicUtils'
 import useMusicBrainzArtistOptions from '../useMusicBrainzArtistOptions'
+import { useFieldSearchResults } from '../useFieldSearchResults'
+import { isOwnedMediaLink } from '../linkRecording'
+import { isPdfTuneFileType } from '../tuneFiles'
+import { removeAddDraftTuneFile } from '../addFormAttach'
 
 function uniqueStrings(values) {
   const seen = {}
@@ -46,6 +50,13 @@ function buildYouTubeQuery(title, composer, artists) {
   return parts.join(' ').trim()
 }
 
+function buildYouTubeQueryForArtist(title, artistName) {
+  return [String(title || '').trim(), String(artistName || '').trim()]
+    .filter(Boolean)
+    .join(' ')
+    .trim()
+}
+
 /**
  * Slim Add dialog: title, composer Search, artists, books/tags, embedded YouTube.
  */
@@ -55,9 +66,9 @@ export default function AddTuneSimpleForm(props) {
   const tunebook = props.tunebook
   const title = String(values.title || '').trim()
   const composer = String(values.artist || '').trim()
-  const musicBrainzComposerOptions = useMusicBrainzArtistOptions(values.artist)
+  const musicBrainzComposer = useMusicBrainzArtistOptions(values.artist)
+  const musicBrainzComposerOptions = musicBrainzComposer.options || []
   const [composerSuggestOptions, setComposerSuggestOptions] = useState([])
-  const [performerSuggestOptions, setPerformerSuggestOptions] = useState([])
   const [youtubeSearchQuery, setYoutubeSearchQuery] = useState('')
   const [youtubeSearchNonce, setYoutubeSearchNonce] = useState(0)
   const artistsRef = useRef([])
@@ -85,7 +96,12 @@ export default function AddTuneSimpleForm(props) {
   }).filter(Boolean)
   const artists = Array.isArray(values.artists) ? values.artists : []
   artistsRef.current = artists
+  const artistSearchCandidates = useFieldSearchResults(null, props.candidateId, 'artists')
   const youtubeLink = (Array.isArray(values.links) ? values.links : []).find(isYouTubeLink) || null
+  const mediaLinks = (Array.isArray(values.links) ? values.links : [])
+    .map(function(link, index) { return { link: link, index: index } })
+    .filter(function(entry) { return isOwnedMediaLink(entry.link) })
+  const tuneFiles = Array.isArray(values.tuneFiles) ? values.tuneFiles : []
 
   function setField(key, value) {
     if (typeof props.onChange !== 'function') return
@@ -105,6 +121,13 @@ export default function AddTuneSimpleForm(props) {
     setYoutubeSearchNonce(function(n) { return n + 1 })
   }
 
+  function scheduleYouTubeSearchForArtist(artistName) {
+    const query = buildYouTubeQueryForArtist(values.title || title, artistName)
+    if (!query) return
+    setYoutubeSearchQuery(query)
+    setYoutubeSearchNonce(function(n) { return n + 1 })
+  }
+
   function openMatch(tune) {
     if (!tune || !tune.id) return
     if (typeof props.onOpenMatch === 'function') props.onOpenMatch(tune)
@@ -112,6 +135,10 @@ export default function AddTuneSimpleForm(props) {
 
   function handleYouTubePick(link) {
     if (!link || !link.link) return
+    if (typeof props.onPickYouTube === 'function') {
+      props.onPickYouTube(link)
+      return
+    }
     const youtube = {
       title: link.title || '',
       link: link.link,
@@ -125,13 +152,36 @@ export default function AddTuneSimpleForm(props) {
       })
     ))
     if (!title && link.title) setField('title', String(link.title))
-    if (typeof props.onPickYouTube === 'function') props.onPickYouTube(link)
   }
 
   function clearYouTube() {
     setField('links', (Array.isArray(values.links) ? values.links : []).filter(function(item) {
       return !isYouTubeLink(item)
     }))
+  }
+
+  function removeMediaLink(index) {
+    const links = Array.isArray(values.links) ? values.links.slice() : []
+    if (index < 0 || index >= links.length) return
+    links.splice(index, 1)
+    setField('links', links)
+  }
+
+  async function removeTuneFile(fileId) {
+    if (!fileId) return
+    const asTune = {
+      id: props.tuneId || 'draft',
+      tuneFiles: tuneFiles,
+      activeFile: values.activeFile || '',
+    }
+    const next = await removeAddDraftTuneFile(asTune, fileId)
+    if (typeof props.onChange !== 'function') return
+    props.onChange(function(current) {
+      return Object.assign({}, current, {
+        tuneFiles: next.tuneFiles || [],
+        activeFile: next.activeFile || '',
+      })
+    })
   }
 
   const canSearchComposer = !!(title && props.candidateId)
@@ -179,7 +229,6 @@ export default function AddTuneSimpleForm(props) {
               inline={true}
               pickWhenMultiple={true}
               skipArtistPicker={true}
-              showSuggestionsChrome={false}
               existingArtists={artists}
               onComposer={function(result) {
                 if (result && result.artist) {
@@ -190,11 +239,9 @@ export default function AddTuneSimpleForm(props) {
               onComposerCandidates={function(names) {
                 setComposerSuggestOptions(uniqueStrings(names || []))
               }}
-              onPerformerCandidates={function(names) {
-                setPerformerSuggestOptions(uniqueStrings(names || []))
-              }}
             >
               {function(api) {
+                const suggestLoading = !!(api && api.busy) || !!musicBrainzComposer.loading
                 return (
                   <>
                     <div className="d-flex align-items-center gap-2 mb-1 flex-wrap">
@@ -204,6 +251,7 @@ export default function AddTuneSimpleForm(props) {
                     <SelectInput
                       value={values.artist || ''}
                       options={composerOptions}
+                      loading={suggestLoading}
                       placeholder={canSearchComposer
                         ? 'Composer'
                         : 'Enter a title, then Search'}
@@ -233,6 +281,7 @@ export default function AddTuneSimpleForm(props) {
                     <div className="mt-3">
                       <TuneArtistsField
                         value={artists}
+                        loading={!!(api && api.busy)}
                         onChange={function(next) {
                           const prev = artistsRef.current || []
                           setField('artists', next)
@@ -242,9 +291,24 @@ export default function AddTuneSimpleForm(props) {
                             scheduleYouTubeSearch('', next)
                           }
                         }}
+                        onSelectItem={function(artistName) {
+                          scheduleYouTubeSearchForArtist(artistName)
+                        }}
                         label="Artists"
                         placeholder="Type or pick a performer"
-                        suggestOptions={performerSuggestOptions}
+                        searchResultCandidates={artistSearchCandidates}
+                        onOpenSearchResults={function(candidates) {
+                          const first = Array.isArray(candidates) ? candidates[0] : null
+                          const name = first && first.artist
+                            ? first.artist
+                            : String(first || '').trim()
+                          if (!name) return
+                          const next = mergeBibliographicList(artistsRef.current, [name])
+                          setField('artists', next)
+                          if (!String(values.artist || '').trim()) {
+                            scheduleYouTubeSearch('', next)
+                          }
+                        }}
                       />
                     </div>
                   </>
@@ -327,11 +391,76 @@ export default function AddTuneSimpleForm(props) {
             </div>
           </div>
 
+          {tuneFiles.length > 0 ? (
+            <div className="mb-3 add-tune-field-block" data-testid="add-tune-files-block">
+              <Form.Label className="mb-1">Files</Form.Label>
+              <ListGroup>
+                {tuneFiles.map(function(file) {
+                  if (!file || !file.id) return null
+                  const kind = isPdfTuneFileType(file.type) ? 'PDF' : 'Image'
+                  return (
+                    <ListGroup.Item
+                      key={file.id}
+                      className="d-flex justify-content-between align-items-center gap-2 py-2"
+                    >
+                      <div style={{ minWidth: 0 }}>
+                        <div className="text-truncate">{file.name || 'File'}</div>
+                        <div className="text-muted small">{kind} · local only</div>
+                      </div>
+                      <Button
+                        size="sm"
+                        variant="outline-danger"
+                        data-testid="add-tune-remove-file"
+                        onClick={function() { removeTuneFile(file.id) }}
+                      >
+                        Remove
+                      </Button>
+                    </ListGroup.Item>
+                  )
+                })}
+              </ListGroup>
+            </div>
+          ) : null}
+
+          {mediaLinks.length > 0 ? (
+            <div className="mb-3 add-tune-field-block" data-testid="add-tune-media-block">
+              <Form.Label className="mb-1">Audio / video</Form.Label>
+              <ListGroup>
+                {mediaLinks.map(function(entry) {
+                  const link = entry.link || {}
+                  const kind = link.mediaKind === 'video' || link.source === 'video-file'
+                    ? 'Video'
+                    : 'Audio'
+                  return (
+                    <ListGroup.Item
+                      key={(link.recordingId || link.link || entry.index) + '-' + entry.index}
+                      className="d-flex justify-content-between align-items-center gap-2 py-2"
+                    >
+                      <div style={{ minWidth: 0 }}>
+                        <div className="text-truncate">{link.title || 'Recording'}</div>
+                        <div className="text-muted small">{kind} · local only</div>
+                      </div>
+                      <Button
+                        size="sm"
+                        variant="outline-danger"
+                        data-testid="add-tune-remove-media"
+                        onClick={function() { removeMediaLink(entry.index) }}
+                      >
+                        Remove
+                      </Button>
+                    </ListGroup.Item>
+                  )
+                })}
+              </ListGroup>
+            </div>
+          ) : null}
+
           <div className="mb-3 add-tune-field-block">
             <AddTuneYouTubePicker
               selected={youtubeLink}
               searchQuery={youtubeSearchQuery}
               searchNonce={youtubeSearchNonce}
+              autoSelectFirst={!!(title && composer)}
               setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               onChange={handleYouTubePick}
               onClear={clearYouTube}

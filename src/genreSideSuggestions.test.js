@@ -4,10 +4,15 @@
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 import { maybeOfferGenreFromSearchResult } from './genreSideSuggestions'
 import { shouldOfferTitleSuggestion } from './composerDiscoveryUtils'
+import {
+  __resetFieldSearchResultCacheForTests,
+  getFieldSearchResults,
+} from './fieldSearchResultCache'
 
 describe('side field suggestions', function() {
   beforeEach(function() {
     tuneFieldLookupQueue.__resetForTests()
+    __resetFieldSearchResultCacheForTests()
   })
 
   test('offerSideFieldSuggestion auto-applies empty genre without seeding', function() {
@@ -31,7 +36,7 @@ describe('side field suggestions', function() {
     expect(tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'genre')).toBeFalsy()
   })
 
-  test('offerSideFieldSuggestion seeds title when extremely close and field set', function() {
+  test('offerSideFieldSuggestion caches title when extremely close and field set', function() {
     const tune = { id: 't1', name: 'Claire de Lune', composer: 'Debussy' }
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
@@ -44,10 +49,10 @@ describe('side field suggestions', function() {
       candidate: { title: 'Clair de lune', source: 'MusicBrainz' },
       currentValue: 'Claire de Lune',
     })
-    expect(result && result.seeded).toBeTruthy()
-    const job = tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'title')
-    expect(job).toBeTruthy()
-    expect(job.candidates.some(function(c) { return c.title === 'Clair de lune' })).toBe(true)
+    expect(result && result.cached).toBe(true)
+    expect(tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'title')).toBeFalsy()
+    const hits = getFieldSearchResults('tune:t1', 'title')
+    expect(hits.some(function(c) { return c.title === 'Clair de lune' })).toBe(true)
     expect(tune.name).toBe('Claire de Lune')
   })
 
@@ -61,7 +66,7 @@ describe('side field suggestions', function() {
     expect(result).toBeNull()
   })
 
-  test('maybeOfferGenreFromSearchResult seeds when genre already set', function() {
+  test('maybeOfferGenreFromSearchResult caches when genre already set', function() {
     const tune = { id: 't1', name: 'Song', genre: 'Pop' }
     tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
       getTune: function() { return tune },
@@ -73,9 +78,28 @@ describe('side field suggestions', function() {
       title: 'Song',
       currentGenre: 'Pop',
     })
-    expect(result && result.seeded).toBeTruthy()
+    expect(result && result.cached).toBe(true)
     expect(tune.genre).toBe('Pop')
-    const job = tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'genre')
-    expect(job).toBeTruthy()
+    expect(tuneFieldLookupQueue.getAwaitingJob('tune:t1', 'genre')).toBeFalsy()
+    expect(getFieldSearchResults('tune:t1', 'genre').length).toBeGreaterThan(0)
+  })
+
+  test('offerSideFieldSuggestion prefers currentValue over empty saved tune', function() {
+    const tune = { id: 't1', name: 'Song', genre: '' }
+    const onApplied = jest.fn()
+    tuneFieldLookupQueue.setTuneFieldLookupQueueContext({
+      getTune: function() { return tune },
+      saveTune: jest.fn(),
+    })
+    const result = tuneFieldLookupQueue.offerSideFieldSuggestion({
+      tuneId: 't1',
+      kind: 'genre',
+      candidate: { genre: 'Folk', source: 'inferred' },
+      currentValue: 'Jazz',
+      onApplied: onApplied,
+    })
+    expect(result && result.cached).toBe(true)
+    expect(onApplied).not.toHaveBeenCalled()
+    expect(tune.genre).toBe('')
   })
 })

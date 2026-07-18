@@ -4,9 +4,11 @@ import {useState, useEffect, useRef} from 'react'
 import {useNavigate} from 'react-router-dom'
 import Abc from '../components/Abc'
 import BookSelectorModal from '../components/BookSelectorModal'
+import { useDocumentTitle } from '../pageTitle'
 
 
 export default function CheatSheetPage(props) {
+    useDocumentTitle('Cheat sheet')
     //console.log(props)
     var params = useParams()
     var navigate = useNavigate()

@@ -1,9 +1,9 @@
-"""Shared LLM / Whisper / OCR provider resolution for home + Cloud Run.
+"""Shared LLM / Whisper / OCR / Stems provider resolution for home + Cloud Run.
 
 Precedence for a capability:
   1. Request overlay (user Settings → Providers)
   2. Host-embedded env provider (when caller is on EMBEDDED_CREDS)
-  3. Local backend (home only; whisper.cpp / research LLM / PaddleOCR)
+  3. Local backend (home only; whisper.cpp / research LLM / PaddleOCR / Demucs)
   4. Unavailable
 """
 
@@ -14,11 +14,17 @@ import os
 from typing import Any
 
 
-CAPABILITIES = ("llm", "whisper", "ocr")
+CAPABILITIES = ("llm", "whisper", "ocr", "stems")
 
 # OpenAI-compatible STT path used by Groq, OpenAI, Together, etc.
 OPENAI_COMPAT_TRANSCRIPTIONS = "/audio/transcriptions"
 OPENAI_COMPAT_CHAT = "/chat/completions"
+
+# Default API bases for stems cloud presets when overlay omits apiUrl.
+STEMS_PROVIDER_DEFAULTS = {
+    "fal": "https://fal.run",
+    "replicate": "https://api.replicate.com/v1",
+}
 
 
 def _strip(value: Any) -> str:
@@ -42,6 +48,8 @@ def normalize_provider_set(raw: dict | None) -> dict | None:
             "model": model,
             "source": raw.get("source") or "user",
         }
+    if provider in STEMS_PROVIDER_DEFAULTS and not api_url:
+        api_url = STEMS_PROVIDER_DEFAULTS[provider]
     if not provider and not api_url:
         return None
     return {
@@ -65,7 +73,7 @@ def parse_overlay_header(header_value: str | None) -> dict | None:
 
 
 def parse_providers_body(body: dict | None) -> dict[str, dict]:
-    """Extract providers.llm / whisper / ocr from a JSON body."""
+    """Extract providers.llm / whisper / ocr / stems from a JSON body."""
     out: dict[str, dict] = {}
     if not body or not isinstance(body, dict):
         return out
@@ -111,6 +119,8 @@ def _env_provider(prefix: str) -> dict | None:
         return None
     if not provider:
         provider = "custom"
+    if provider in STEMS_PROVIDER_DEFAULTS and not api_url:
+        api_url = STEMS_PROVIDER_DEFAULTS[provider]
     return {
         "provider": provider,
         "apiUrl": api_url,
@@ -126,6 +136,7 @@ def host_embedded_providers() -> dict[str, dict]:
         "llm": "PROVIDER_LLM",
         "whisper": "PROVIDER_WHISPER",
         "ocr": "PROVIDER_OCR",
+        "stems": "PROVIDER_STEMS",
     }
     # Backward-compatible RESEARCH_LLM_* as host LLM when PROVIDER_LLM_* unset
     out: dict[str, dict] = {}
@@ -160,6 +171,16 @@ def public_provider_summary(cfg: dict | None) -> dict | None:
         "source": cfg.get("source") or "",
         "hasApiKey": bool(cfg.get("apiKey")),
     }
+
+
+def is_cloud_stems_provider(cfg: dict | None) -> bool:
+    """True when cfg points at a cloud stems API (not local Demucs)."""
+    if not cfg:
+        return False
+    provider = _strip(cfg.get("provider")).lower()
+    if provider == "local":
+        return False
+    return bool(cfg.get("apiKey") or cfg.get("apiUrl"))
 
 
 def resolve_provider(
@@ -227,7 +248,6 @@ def providers_health_payload(
     caps = {}
     for cap in CAPABILITIES:
         local_ok = bool(local_backends.get(cap))
-        host_cfg = host.get(cap) if allow_embedded else None
         # For anonymous health, advertise whether host *has* embedded (not keys)
         has_host = cap in host
         resolved = resolve_provider(

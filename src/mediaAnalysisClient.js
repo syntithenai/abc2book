@@ -4,7 +4,7 @@ import { formatMelodyNotes } from './melodyFormatter';
 import { formatKeySignatureShort } from './melodyPitchSpelling';
 import { buildAnalysisProcessingPayload, loadMelodyProcessingSettings } from './melodyProcessingSettings';
 
-function normalizeMediaAnalysis(body) {
+export function normalizeMediaAnalysis(body) {
   if (!body || typeof body !== 'object') {
     throw new Error('Resolver returned an invalid media analysis response');
   }
@@ -16,6 +16,7 @@ function normalizeMediaAnalysis(body) {
   const lyrics = body.lyrics && typeof body.lyrics === 'object' ? body.lyrics : {};
   const chords = body.chords && typeof body.chords === 'object' ? body.chords : {};
   const melody = body.melody && typeof body.melody === 'object' ? body.melody : {};
+  const inputsUsed = body.inputsUsed && typeof body.inputsUsed === 'object' ? body.inputsUsed : {};
 
   return {
     lyrics: {
@@ -31,6 +32,8 @@ function normalizeMediaAnalysis(body) {
       tempo: typeof chords.tempo === 'number' ? chords.tempo : 0,
       duration: typeof chords.duration === 'number' ? chords.duration : 0,
       backend: typeof chords.backend === 'string' ? chords.backend : '',
+      detectedKey: typeof chords.detectedKey === 'string' ? chords.detectedKey : '',
+      keySource: typeof chords.keySource === 'string' ? chords.keySource : '',
       error: typeof chords.error === 'string' ? chords.error : '',
     },
     melody: {
@@ -61,6 +64,25 @@ function normalizeMediaAnalysis(body) {
       detectedMeter: typeof body.timing.detectedMeter === 'string' ? body.timing.detectedMeter : '',
       backend: typeof body.timing.backend === 'string' ? body.timing.backend : '',
     } : null,
+    inputsUsed: {
+      fromStemCache: !!(inputsUsed.fromStemCache || body.fromStemCache),
+      stemCacheId: typeof inputsUsed.stemCacheId === 'string'
+        ? inputsUsed.stemCacheId
+        : (typeof body.stemCacheId === 'string' ? body.stemCacheId : ''),
+      stemModel: typeof inputsUsed.stemModel === 'string' ? inputsUsed.stemModel : '',
+      musicType: typeof inputsUsed.musicType === 'string' ? inputsUsed.musicType : '',
+      keySource: typeof inputsUsed.keySource === 'string' ? inputsUsed.keySource : '',
+      melodyBackend: typeof inputsUsed.melodyBackend === 'string' ? inputsUsed.melodyBackend : '',
+      chordBackend: typeof inputsUsed.chordBackend === 'string' ? inputsUsed.chordBackend : '',
+      melodyVoicing: typeof inputsUsed.melodyVoicing === 'string' ? inputsUsed.melodyVoicing : '',
+    },
+    warnings: Array.isArray(body.warnings)
+      ? body.warnings.filter(function(item) { return typeof item === 'string' && item; })
+      : [],
+    stemCacheId: typeof body.stemCacheId === 'string'
+      ? body.stemCacheId
+      : (typeof inputsUsed.stemCacheId === 'string' ? inputsUsed.stemCacheId : ''),
+    fromStemCache: !!(body.fromStemCache || inputsUsed.fromStemCache),
   };
 }
 
@@ -218,6 +240,11 @@ export function formatMediaAnalysisForTune(analysis, tune, tunebook, options) {
     lyricsText: analysis.lyrics.text || '',
     chordsText: chordsText || '',
     melodyText: melodyText || '',
+    tempo: getDetectedTempoFromAnalysis(analysis) || 0,
+    meter: (analysis.timing && analysis.timing.meter) || '',
+    key: detectedKey
+      || (analysis.timing && analysis.timing.detectedKey)
+      || '',
   };
 }
 

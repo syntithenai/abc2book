@@ -8,9 +8,11 @@ import YourFilters from '../components/YourFilters'
 import CollectionNav from '../components/CollectionNav'
 import {
   BOOKS_PAGE_SECTIONS,
+  RECENT_ARTISTS_DEFAULT,
   RECENT_TUNES_DEFAULT,
   RECENT_TUNES_EXPANDED,
   consumeBooksPageScrollTarget,
+  getRecentArtists,
   getRecentTunes,
   getStarredTunes,
   scrollBooksPageSection,
@@ -22,6 +24,7 @@ import { createQueue } from '../nowPlayingQueue'
 import { toast } from 'react-toastify'
 import { isMobilePlatform } from '../platformUtils'
 import StarToggleButton from '../components/StarToggleButton'
+import { useDocumentTitle } from '../pageTitle'
 
 const BOOK_SECTION_NAMES = {
   [BOOKS_PAGE_SECTIONS.filters]: 'filters',
@@ -43,6 +46,7 @@ function matchesSectionSearch(option, searchValue) {
 export default function BooksPage(props) {
     const { defaultTab, tunebook } = props
     const navigate = useNavigate()
+    useDocumentTitle(defaultTab === 'tags' ? 'Tags' : 'Books')
     const [sectionSearch, setSectionSearch] = useState('')
     const [tagImageIsHidden, setTagImageIsHidden] = useState({})
     const [genreImageIsHidden, setGenreImageIsHidden] = useState({})
@@ -51,6 +55,7 @@ export default function BooksPage(props) {
     const [savedFilterCount, setSavedFilterCount] = useState(0)
     const [showMoreRecent, setShowMoreRecent] = useState(false)
     const [showMoreStarred, setShowMoreStarred] = useState(false)
+    const [showMoreArtists, setShowMoreArtists] = useState(false)
     const sectionSearchRef = useRef(null)
 
     useEffect(function() {
@@ -114,6 +119,33 @@ export default function BooksPage(props) {
     tagOptions.sort(function(a,b) {if (a.toLowerCase() > b.toLowerCase()) return 1; else return -1})
     genreOptions.sort(function(a,b) {if (a.toLowerCase() > b.toLowerCase()) return 1; else return -1})
     artistOptions.sort(function(a,b) {if (a.toLowerCase() > b.toLowerCase()) return 1; else return -1})
+    var recentArtistKeys = {}
+    var recentArtistsFiltered = []
+    getRecentArtists(props.tunes).forEach(function(artist) {
+        if (!matchesSectionSearch(artist, sectionSearch)) return
+        var key = String(artist).toLowerCase()
+        if (recentArtistKeys[key]) return
+        recentArtistKeys[key] = true
+        recentArtistsFiltered.push(artist)
+    })
+    var remainingArtistsFiltered = []
+    artistOptions.forEach(function(artist) {
+        if (!matchesSectionSearch(artist, sectionSearch)) return
+        var key = String(artist).toLowerCase()
+        if (recentArtistKeys[key]) return
+        remainingArtistsFiltered.push(artist)
+    })
+    // Prefer recently viewed; if none yet, fall back to the full alphabetical list.
+    var artistsPrimary = recentArtistsFiltered.length > 0
+        ? recentArtistsFiltered
+        : remainingArtistsFiltered
+    var artistsExtra = recentArtistsFiltered.length > 0
+        ? remainingArtistsFiltered
+        : []
+    const artistsExpanded = artistsPrimary.concat(artistsExtra)
+    const artistsCollapsed = artistsPrimary.slice(0, RECENT_ARTISTS_DEFAULT)
+    const artistsShown = showMoreArtists ? artistsExpanded : artistsCollapsed
+    const canToggleArtists = artistsExpanded.length > artistsCollapsed.length
     const recentTunesExpanded = getRecentTunes(props.tunes, RECENT_TUNES_EXPANDED)
         .filter(function(tune) {
             return matchesSectionSearch(tune && tune.name ? tune.name : '', sectionSearch)
@@ -134,7 +166,7 @@ export default function BooksPage(props) {
 
     function renderSongLinkButton(tune) {
         return (
-            <ButtonGroup key={tune.id} className="books-page-song-link">
+            <div key={tune.id} className="books-page-song-link" role="group">
                 <StarToggleButton
                     className="books-page-song-star-btn"
                     tunebook={props.tunebook}
@@ -152,7 +184,7 @@ export default function BooksPage(props) {
                         {tune.name && tune.name.trim().length > 0 ? tune.name.toLowerCase() : 'untitled song'}
                     </Button>
                 </Link>
-            </ButtonGroup>
+            </div>
         )
     }
 
@@ -423,22 +455,39 @@ export default function BooksPage(props) {
 
                 <section id={BOOKS_PAGE_SECTIONS.artists} className="books-page-section">
                     <h3 className="books-page-section-title">Artists</h3>
-                    <div className="books-page-grid">
-                        {artistOptions.map(function(option, ok) {
-                            if (matchesSectionSearch(option, sectionSearch)) {
-                                return <ButtonGroup key={ok} className="books-page-tag-card" variant="primary">
-                                    <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyArtistFilter(option); navigate('/tunes')}}>
-                                        <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
-                                        {!artistImageIsHidden[ok] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideArtistImage(ok)}} alt="" />}
-                                    </Button>
-                                    <Button className="books-page-collection-card-side" variant="primary" onClick={function() {
-                                        playFilteredCollection('', [], [], [option], function() { applyArtistFilter(option) })
-                                    }}>{props.tunebook.icons.playwhite}</Button>
-                                </ButtonGroup>
-                            }
-                            return null
-                        })}
-                    </div>
+                    {artistsShown.length > 0 ? (
+                        <>
+                            <div className="books-page-grid">
+                                {artistsShown.map(function(option) {
+                                    return <ButtonGroup key={option} className="books-page-tag-card" variant="primary">
+                                        <Button className="books-page-collection-card-main" variant="primary" onClick={function(e) {applyArtistFilter(option); navigate('/tunes')}}>
+                                            <span className="books-page-collection-card-label">{option.toLowerCase()}</span>
+                                            {!artistImageIsHidden[option] && <img className="books-page-collection-card-cover" src={"/book_images/"+option.replaceAll(" ","")+".jpeg"} onError={function() {hideArtistImage(option)}} alt="" />}
+                                        </Button>
+                                        <Button className="books-page-collection-card-side" variant="primary" onClick={function() {
+                                            playFilteredCollection('', [], [], [option], function() { applyArtistFilter(option) })
+                                        }}>{props.tunebook.icons.playwhite}</Button>
+                                    </ButtonGroup>
+                                })}
+                            </div>
+                            {canToggleArtists ? (
+                                <Button
+                                    variant="outline-secondary"
+                                    size="sm"
+                                    className="books-page-recent-toggle"
+                                    onClick={function() { setShowMoreArtists(!showMoreArtists) }}
+                                >
+                                    {showMoreArtists ? 'show less' : 'show more'}
+                                </Button>
+                            ) : null}
+                        </>
+                    ) : (
+                        <p className="books-page-recent-empty">
+                            {sectionSearch.trim()
+                                ? 'No matching artists.'
+                                : 'Open tunes with artists to see them here.'}
+                        </p>
+                    )}
                 </section>
             </div>}
 
@@ -460,8 +509,8 @@ export default function BooksPage(props) {
                             Tap <strong>Add</strong> to bring tunes into your book — the same import tools as the header menu.
                         </p>
                         <ul className="books-page-empty-import-list">
-                            <li><strong>Add</strong> tab — one tune at a time from ABC, MusicXML, chord sheets, pasted text, Google Drive, sheet photos, YouTube, or online search for notation and lyrics.</li>
-                            <li><strong>Bulk</strong> tab — many tunes at once from a pasted list, file, YouTube playlist, or curated collection.</li>
+                            <li><strong>Add</strong> — one tune at a time from ABC, MusicXML, chord sheets, pasted text, Google Drive, sheet photos, YouTube, or online search.</li>
+                            <li><strong>Bulk</strong> (from Add → Bulk) — many tunes at once from a pasted list, file, YouTube playlist, or curated collection.</li>
                         </ul>
                     </div>
                 </div>
@@ -475,11 +524,26 @@ export default function BooksPage(props) {
                 <div style={{marginTop:'1em',marginBottom:'1em'}}>
                     Or import one of the curated tunebooks below.
                 </div>
-                <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} startCollapsed={false} />
+                <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} flat />
             </div>}
 
+            {tbOptions.length > 0 ? (
+                <section
+                    id="books-curated"
+                    className="books-page-section books-page-curated-section"
+                    data-testid="books-curated-section"
+                    style={{ marginTop: '1.5em' }}
+                >
+                    <h3 className="books-page-section-title">Curated books</h3>
+                    <ImportCollectionsAccordion
+                        tunebook={props.tunebook}
+                        setCurrentTuneBook={props.setCurrentTuneBook}
+                        flat
+                    />
+                </section>
+            ) : null}
+
             <div className="books-page-meta">
-                <hr/>
                 <div className="books-page-meta-row">
                     <div className="books-page-meta-center">
                         <span>Copyleft Steve Ryan {'<'}<a href="mailto:syntithenai@gmail.com">syntithenai@gmail.com</a>{'>'}</span>

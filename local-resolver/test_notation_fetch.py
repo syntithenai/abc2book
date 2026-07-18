@@ -8,10 +8,13 @@ from notation_fetch import (
     extract_abc_from_text,
     extract_thesession_tune_meta,
     extract_urls_from_search_item,
+    filter_notation_candidates,
     is_allowed_abc_host,
     is_direct_abc_file_url,
     normalize_song_type,
+    notation_candidate_score,
     parse_abc_header_fields,
+    strip_notation_match_decorations,
     tune_meta_from_abc_headers,
     validate_abc_page_url,
 )
@@ -22,6 +25,26 @@ class NotationFetchTests(unittest.TestCase):
         self.assertEqual(normalize_song_type("Song"), "song")
         self.assertEqual(normalize_song_type("traditional tune"), "traditional_tune")
         self.assertEqual(normalize_song_type(""), "instrumental")
+
+    def test_strip_notation_match_decorations_removes_setting_labels(self):
+        self.assertEqual(
+            strip_notation_match_decorations("Planxty Burke (waltz) — setting 1"),
+            "Planxty Burke",
+        )
+
+    def test_notation_candidate_score_matches_thesession_setting_titles(self):
+        candidate = annotate_candidate(
+            "X:1\nT:Planxty Burke\nK:G\nGAB|",
+            "Planxty Burke (waltz) — setting 1",
+            "thesession.org",
+            "https://thesession.org/tunes/10039#setting1",
+            artist="",
+            tune_meta={"name": "Planxty Burke", "composer": ""},
+        )
+        score = notation_candidate_score(candidate, "Planxty Burke", "Turlough O Carolan")
+        self.assertGreaterEqual(score, 80)
+        kept = filter_notation_candidates([candidate], "Planxty Burke", "Turlough O Carolan")
+        self.assertEqual(len(kept), 1)
 
     def test_build_web_abc_queries_varies_by_song_type(self):
         song_queries = build_web_abc_queries("Wild Rover", "song")

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { subscribeBackgroundReviewQueue } from './backgroundReviewQueue'
+import { subscribeBackgroundReviewQueue, getBackgroundReviewSummary } from './backgroundReviewQueue'
 import { syncBackgroundReviewToast } from './backgroundReviewToast'
 import {
   isImportReviewUiVisible,
@@ -11,6 +11,7 @@ import {
   subscribe as subscribeFieldLookupQueue,
 } from './tuneFieldLookupQueue'
 import { subscribeFileOcrJobs } from './fileOcrJobs'
+import { requestFileOcrReview } from './fileOcrReviewUiStore'
 
 export default function BackgroundReviewNotifications(props) {
   const navigate = useNavigate()
@@ -19,7 +20,12 @@ export default function BackgroundReviewNotifications(props) {
 
   useEffect(function() {
     function navigateToReview() {
-      // /review is the search-suggestions list (not Import Review).
+      const summary = getBackgroundReviewSummary()
+      const fileOcrReady = summary && Array.isArray(summary.fileOcrReady) ? summary.fileOcrReady : []
+      if (fileOcrReady.length > 0) {
+        requestFileOcrReview(fileOcrReady[0])
+        return
+      }
       navigate('/review')
     }
 

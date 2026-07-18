@@ -426,14 +426,19 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     if (mediaController) stepOpts.mediaController = mediaController
     // Header skip / list browse: always walk the current search results (incl. groups).
     // Editor also stays on search/list order. Playlist/set stepping uses the bottom bar
-    // (or auto-advance) unless forceSearchList is set.
-    if (!forceSearchList && !isEditorPath(locationPathname)) {
-      if (setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
+    // (or auto-advance) unless forceSearchList is set — except while the queue is
+    // audibly playing: the queue host owns the playback engine then, so starting a
+    // search-list tune never plays it and instead restarts the current queue tune
+    // from the beginning. While playlist playback is running, next/prev steps the
+    // playlist.
+    var queuePlaybackRunning = startPlayback && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)
+    if (!isEditorPath(locationPathname)) {
+      if (!forceSearchList && setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
         if (navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, stepOpts)) return
       }
       // Only step the now-playing queue when the current tune is in it; otherwise
       // fall through to the current search/list order.
-      if (isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
+      if ((!forceSearchList || queuePlaybackRunning) && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
         if (navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, stepOpts)) return
       }
     }
@@ -1369,9 +1374,12 @@ The main difference between the two functions is the additional condition in app
   /** 
    * import songs to a tunebook from an abc file 
    * set results {updates, inserts, duplicates} into app scoped importResults
+   * Pass options.classifyOnly to classify without setting importResults or saving online.
    */
-  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null) {
+  function importAbc(abc, forceBook = null, limitToTuneId=null, limitToBookName=null, limitToTagName=null, limitToTuneIds=null, options) {
       //console.log('importabc', forceBook, limitToTuneId, limitToBookName, limitToTagName)
+      var opts = options && typeof options === 'object' ? options : {}
+      var classifyOnly = !!opts.classifyOnly
       var currentTunesHash = buildTunesHash(tunes) || tunesHash
       var duplicates=[]
       var inserts=[]
@@ -1516,10 +1524,12 @@ The main difference between the two functions is the additional condition in app
           }
         })
       }
-      saveTunesOnline()
       var final = {inserts, updates, duplicates, skippedUpdates, localUpdates, deletes, remoteDeleted, tuneStatus, forceBook: forceBook}
       //console.log('imported SABC',final)
-      setImportResults(final)
+      if (!classifyOnly) {
+        saveTunesOnline()
+        setImportResults(final)
+      }
       return final
   }
   

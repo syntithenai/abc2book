@@ -1,5 +1,5 @@
 /**
- * Tunebook page ↔ YouTube Helper extension bridge.
+ * Tunebook page ↔ TuneBook Helper extension bridge.
  * Discovery: DOM attribute, CustomEvent, then postMessage ping (with retry).
  */
 
@@ -54,7 +54,7 @@ function waitForExtensionMessage(predicate, timeoutMs) {
   return new Promise(function (resolve, reject) {
     const timer = setTimeout(function () {
       cleanup()
-      reject(new Error('YouTube Helper extension timed out'))
+      reject(new Error('TuneBook Helper extension timed out'))
     }, timeoutMs)
 
     function cleanup() {
@@ -188,6 +188,18 @@ export async function isYoutubeExtensionConnected() {
 }
 
 /**
+ * Cheap sync connectivity check: DOM marker set by the content script, or a
+ * recent successful ping. May miss the extension right after page load
+ * (before the content script runs); the async check is authoritative.
+ */
+export function isYoutubeExtensionConnectedSync() {
+  if (cachedPing && cachedPing.ok && Date.now() - cachedPingAt < PING_CACHE_MS) {
+    return true
+  }
+  return !!readDomMarker()
+}
+
+/**
  * @param {string} videoId
  * @returns {Promise<{ arrayBuffer: ArrayBuffer, mime: string, title: string|null, client: string|null, via: 'extension' }>}
  */
@@ -201,7 +213,7 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
   if (!connected.ok) {
     throw new Error(
       connected.error ||
-        'YouTube Helper extension is not connected. Install it from browser-extension/ and reload this tab.'
+        'TuneBook Helper extension is not connected. Install it from browser-extension/ and reload this tab.'
     )
   }
 
@@ -212,7 +224,7 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
   const done = new Promise(function (resolve, reject) {
     const timer = setTimeout(function () {
       cleanup()
-      reject(new Error('YouTube Helper extension fetch timed out'))
+      reject(new Error('TuneBook Helper extension fetch timed out'))
     }, FETCH_TIMEOUT_MS)
 
     function cleanup() {
@@ -241,7 +253,7 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
       if (data.type === 'tunebook.audioError') {
         cleanup()
         reject(
-          new Error(data.message || data.code || 'YouTube Helper extension fetch failed')
+          new Error(data.message || data.code || 'TuneBook Helper extension fetch failed')
         )
       }
     }
@@ -269,7 +281,7 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
 
   const base64 = chunks.join('')
   if (!base64) {
-    throw new Error('YouTube Helper extension returned empty audio')
+    throw new Error('TuneBook Helper extension returned empty audio')
   }
 
   return {

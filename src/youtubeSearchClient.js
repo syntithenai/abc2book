@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { parseTitleArtistFromYouTubeLabel } from './youtubeTitleParse'
 
 /**
  * Search YouTube via the Google Data API (same as YouTubeSearchModal).
@@ -59,6 +60,15 @@ export async function searchYouTubeVideos(options) {
  * Lightweight YouTube availability check via oEmbed (no player probe UI).
  */
 export async function checkYouTubeLinkOembed(url, signal) {
+  const meta = await fetchYouTubeOembedMetadata(url, signal)
+  if (meta && meta.ok) return { ok: true }
+  return { ok: false, error: (meta && meta.error) || 'YouTube check failed' }
+}
+
+/**
+ * Fetch YouTube oEmbed metadata (title + channel) for a video URL.
+ */
+export async function fetchYouTubeOembedMetadata(url, signal) {
   const src = String(url || '').trim()
   if (!src) return { ok: false, error: 'Missing link URL' }
   try {
@@ -69,9 +79,16 @@ export async function checkYouTubeLinkOembed(url, signal) {
     if (!response.ok) {
       return { ok: false, error: 'YouTube video is unavailable' }
     }
-    return { ok: true }
+    const data = await response.json()
+    return {
+      ok: true,
+      title: data && data.title ? String(data.title) : '',
+      authorName: data && data.author_name ? String(data.author_name) : '',
+    }
   } catch (e) {
     if (e && e.name === 'AbortError') throw e
     return { ok: false, error: e && e.message ? e.message : 'YouTube check failed' }
   }
 }
+
+export { parseTitleArtistFromYouTubeLabel }

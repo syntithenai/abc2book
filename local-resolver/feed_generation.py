@@ -3,18 +3,109 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 from typing import Any
 
 import httpx
 
-LLM_BASE = os.getenv("RESEARCH_LLM_BASE_URL", "http://host.docker.internal:12340/v1").rstrip("/")
-LLM_MODEL = os.getenv("RESEARCH_LLM_MODEL", "")
-
 
 def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").lower()).strip()
+
+
+# Present-tense “just dropped” framing the model invents for old repertoire.
+_NEW_RELEASE_RE = re.compile(
+    r"\b("
+    r"releases?\s+(a\s+)?new(\s+song|\s+single|\s+track|\s+album)?"
+    r"|new\s+(song|single|track|album|release)\b"
+    r"|just\s+(released|dropped|out)"
+    r"|out\s+now\b"
+    r"|brand[- ]?new\b"
+    r"|latest\s+(single|release|track)"
+    r"|drops?\s+new\b"
+    r")\b",
+    re.I,
+)
+
+
+def looks_like_new_release_claim(text: str) -> bool:
+    """True when copy claims a contemporary new release."""
+    return bool(_NEW_RELEASE_RE.search(text or ""))
+
+
+def corpus_supports_new_release(corpus: str) -> bool:
+    """Allow new-release wording only if notes already say something similar."""
+    c = _normalize(corpus)
+    if not c:
+        return False
+    return bool(
+        re.search(
+            r"\b(new (song|single|track|album|release)|just released|out now|released (this|last) (week|month|year)|premiered)\b",
+            c,
+        )
+    )
+
+
+def reject_ungrounded_new_release(headline: str, body: str, corpus: str) -> bool:
+    """Drop items that invent a new-release story not present in the notes."""
+    blob = f"{headline or ''}\n{body or ''}"
+    if not looks_like_new_release_claim(blob):
+        return False
+    return not corpus_supports_new_release(corpus)
+
+
+_NAME_LINE_RE = re.compile(
+    r"^[A-Z][A-Za-z.'\-]+(?:\s+[A-Z][A-Za-z.'\-]+){0,4}$"
+)
+_CONTEXT_VERB_RE = re.compile(
+    r"\b(wrote|written|recorded|popular(?:ized)?|known|composed|arrange|version|"
+    r"origin|history|folk|album|single|performed|credited|inspired|collected)\b",
+    re.I,
+)
+
+
+def _looks_like_name_line(line: str) -> bool:
+    s = (line or "").strip().strip(",;·|/ ")
+    if not s or len(s) > 60:
+        return False
+    if _CONTEXT_VERB_RE.search(s):
+        return False
+    return bool(_NAME_LINE_RE.match(s))
+
+
+def is_thin_name_list_body(text: str) -> bool:
+    """
+    True for bodies that are little more than a list of artist/person names
+    with no historical/contextual prose.
+    """
+    t = (text or "").strip()
+    if len(t) < 80:
+        return True
+    lines = [ln.strip() for ln in re.split(r"[\n/;|]+", t) if ln.strip()]
+    if len(lines) >= 2:
+        name_like = sum(1 for ln in lines if _looks_like_name_line(ln))
+        if name_like >= max(2, int(0.6 * len(lines))) and not _CONTEXT_VERB_RE.search(t):
+            return True
+    # Comma/newline-ish name soup without sentence punctuation or context verbs
+    sentence_ends = len(re.findall(r"[.!?]", t))
+    if sentence_ends < 2 and not _CONTEXT_VERB_RE.search(t):
+        words = re.findall(r"[A-Za-z']+", t)
+        if words:
+            caps = sum(1 for w in words if w[:1].isupper())
+            if caps / len(words) >= 0.65:
+                return True
+    return False
+
+
+def is_usable_article_body(headline: str, body: str) -> bool:
+    if not (headline or "").strip() or not (body or "").strip():
+        return False
+    if is_thin_name_list_body(body):
+        return False
+    # Generic “Notes on X” with almost no substance beyond the title
+    if re.match(r"^Notes on\b", headline or "", re.I) and len((body or "").strip()) < 120:
+        return False
+    return True
 
 
 def fact_corpus(facts: list[dict] | None, background_info: str = "") -> str:
@@ -51,10 +142,20 @@ def answer_grounded(answer: str, corpus: str, allowed: list[str] | None = None) 
 
 
 async def _chat_json(system: str, user: str) -> Any:
-    model = LLM_MODEL
+    from llm_runtime import (
+        enrich_chat_completion_payload,
+        get_active_llm_config,
+        llm_auth_headers,
+        llm_chat_url,
+        llm_model,
+    )
+
+    cfg = get_active_llm_config()
+    model = llm_model(cfg)
+    headers = llm_auth_headers(cfg)
     if not model:
         async with httpx.AsyncClient(timeout=30.0) as client:
-            models = await client.get(f"{LLM_BASE}/models")
+            models = await client.get(f"{cfg['apiUrl'].rstrip('/')}/models", headers=headers)
             models.raise_for_status()
             data = models.json()
             items = data.get("data") if isinstance(data, dict) else []
@@ -62,16 +163,16 @@ async def _chat_json(system: str, user: str) -> Any:
                 model = str(items[0].get("id") or "")
     if not model:
         raise ValueError("No LLM model available")
-    payload = {
+    payload = enrich_chat_completion_payload({
         "model": model,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
         "temperature": 0.3,
-    }
+    }, cfg)
     async with httpx.AsyncClient(timeout=60.0) as client:
-        resp = await client.post(f"{LLM_BASE}/chat/completions", json=payload)
+        resp = await client.post(llm_chat_url(cfg), headers=headers, json=payload)
         resp.raise_for_status()
         body = resp.json()
     content = (
@@ -96,26 +197,35 @@ async def generate_feed_articles(
     if len(corpus) < 40:
         return {"items": []}
     system = (
-        "You write short grounded music news blurbs. "
+        "You write short grounded background blurbs about songs and artists for a musician's learning feed. "
         "Return JSON {\"items\":[{\"headline\",\"teaser\",\"body\",\"sourceUrl\"}]}. "
-        "Use ONLY facts from the provided notes. No invented years or albums."
+        "Use ONLY facts from the provided notes. No invented years, albums, or events. "
+        "Do NOT frame historical songs as brand-new releases, singles, or 'just dropped' news. "
+        "Prefer past-tense history, origin, and context (who wrote it, when it was known, notable versions). "
+        "Headlines should read like encyclopedia/magazine background, not press releases."
     )
     user = (
         f"Song: {title}\nArtist: {artist}\nNotes:\n{corpus[:4000]}\n"
-        "Write 1-3 short news items (body 80-180 words)."
+        "Write 1-3 short background items (body 80-180 words) about the song/artist history. "
+        "Do not invent a contemporary release announcement."
     )
     try:
         data = await _chat_json(system, user)
     except Exception:
-        # Fallback: stitch a local news blurb from corpus
-        sentences = re.split(r"(?<=[.!?])\s+", corpus)
-        body = " ".join(sentences[:3]).strip()
-        if len(body) < 40:
+        # Fallback: stitch prose from corpus — skip thin name-only lists
+        sentences = [
+            s.strip()
+            for s in re.split(r"(?<=[.!?])\s+", corpus)
+            if s.strip() and _CONTEXT_VERB_RE.search(s)
+        ]
+        body = " ".join(sentences[:4]).strip()
+        headline = f"Background: {title}"
+        if not is_usable_article_body(headline, body):
             return {"items": []}
         return {
             "items": [
                 {
-                    "headline": f"Notes on {title}",
+                    "headline": headline,
                     "teaser": body[:140],
                     "body": body[:600],
                     "sourceUrl": "",
@@ -129,7 +239,9 @@ async def generate_feed_articles(
             continue
         body = str(item.get("body") or "").strip()
         headline = str(item.get("headline") or "").strip()
-        if not body or not headline:
+        if not is_usable_article_body(headline, body):
+            continue
+        if reject_ungrounded_new_release(headline, body, corpus):
             continue
         # soft grounding: at least one 4+ char token from body in corpus
         tokens = [t for t in re.findall(r"[A-Za-z0-9♯♭]{4,}", body) if t.lower() not in {"this", "that", "with", "from"}]

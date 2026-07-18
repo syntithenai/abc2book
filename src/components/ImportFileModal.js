@@ -13,7 +13,7 @@ import {
   detectChordSheetFormat,
 } from '../chordProFormatUtils'
 
-const OFFLINE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,application/vnd.recordare.musicxml+xml,application/xml,text/plain'
+const OFFLINE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip'
 const MIDI_ACCEPT = ',.mid,.midi,audio/midi,audio/mid'
 const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong']
 
@@ -265,7 +265,9 @@ function ImportFileModal(props) {
           />
           {error && <Alert variant="danger" style={{marginTop: '0.5em'}}>{error}</Alert>}
           <div style={{fontSize: '0.85em', color: '#444', marginTop: '0.5em'}}>
-            Supports ABC, MusicXML, MXL, and chord sheet files (.cho, .pro, .crd, .onsong, .txt).
+            Supports ABC, MusicXML, MXL, MuseScore (.mscz), Songbook Pro (.sbp), OnSong archives, iReal Pro (.html), ZIP of ChordPro/OnSong, and chord sheet files (.cho, .pro, .crd, .onsong, .txt).
+            <br />
+            <span className="text-muted">Songbook Pro tip: export songs as ChordPro (batch creates a ZIP), or import a native .sbp backup.</span>
             {resolverAvailable
               ? ' MIDI files are converted via the media resolver and may be approximate.'
               : ' MIDI import is unavailable until you log in and the media resolver is reachable.'}

@@ -75,26 +75,51 @@ export const LINKS_FIELD_HELP = {
 export const SETTINGS_FIELD_HELP = {
   compressAudio: {
     title: 'Compress Audio',
-    body: 'Controls how linked media, MIDI playback, and stems are stored in the browser cache and how audio downloads are packaged. Uncompressed WAV uses more space with no quality loss. MP3 and AAC use much less space. Formats that this browser cannot encode are disabled in Settings. New cache writes and downloads use this setting immediately; clear Audio, MIDI, or stems caches to recompress existing entries.',
+    body: 'Controls how linked media, MIDI playback, and stems are stored in the browser cache and how audio downloads are packaged. Uncompressed WAV uses more space with no quality loss. MP3 and AAC use much less space. Formats that this browser cannot encode are disabled in Settings.',
   },
   resolverUrl: {
     title: 'Resolver URL',
-    body: 'Base URL for the media resolver used for pitch/tempo playback, lyrics and chord search, and Import from media. Leave blank to try localhost first, then shared public resolvers.',
+    body: 'Optional override of resolver base URL for pitch/tempo playback, lyrics transcription, chord discovery and more. Leave blank to try localhost first, then shared public resolvers.',
+  },
+  resolverInstall: {
+    title: 'How to install a resolver',
+    fields: [
+      {
+        title: 'What a resolver does',
+        body: 'A resolver is an optional backend for pitch/tempo playback, lyrics transcription, chord discovery, media analysis, MIDI import, and similar tools that browsers cannot do alone. Tunebook works without one for collecting and editing ABC.',
+      },
+      {
+        title: 'Skills required',
+        body: 'Self-hosting typically needs comfort with the command line, Docker Compose, editing environment files, and basic networking (localhost vs HTTPS). Optional extras: GPU setup for stem separation, Whisper model downloads, and API keys for LLM providers. Expect a few hours the first time if you are new to Docker.',
+      },
+      {
+        title: 'Install your own',
+        body: 'Clone the abc2book repo, run npm run build, then follow local-resolver/README.md (copy .env.example to .env and docker compose up --build). Point Settings → Providers → Resolver URL at your instance (for example http://localhost:8787). Changes to the URL save automatically.',
+      },
+      {
+        title: 'Bring your own keys',
+        body: 'On a full home or self-hosted resolver you can configure your own provider keys (LLM, Whisper-related services, and similar) in the resolver environment or Providers settings so usage is billed to you.',
+      },
+      {
+        title: 'Free access for now',
+        body: 'If you leave Resolver URL blank, Tunebook tries localhost first, then a shared public resolver on the developer’s home PC. That free access is a convenience only — it may be slow, unavailable, or withdrawn at any time. For reliable use, run your own resolver or bring your own keys on a host you control.',
+      },
+    ],
   },
   youtubeHelper: {
-    title: 'YouTube Helper extension',
-    body: 'A Chromium extension that fetches YouTube audio in your browser (your network, your session). When connected, Tunebook can pitch-shift, filter, and cache YouTube links without sending that media through a cloud resolver.',
+    title: 'TuneBook Helper extension',
+    body: 'Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.',
   },
   youtubeHelperInstall: {
-    title: 'How to install YouTube Helper',
+    title: 'How to install TuneBook Helper',
     fields: [
       {
         title: '1. Download',
-        body: 'Use Download YouTube Helper on Settings → Media to get tunebook-youtube-helper.zip.',
+        body: 'Use Download TuneBook Helper on Settings → Media to get tunebook-helper.zip.',
       },
       {
         title: '2. Unzip',
-        body: 'Extract the zip. You should get a folder named tunebook-youtube-helper (it contains manifest.json).',
+        body: 'Extract the zip. You should get a folder named tunebook-helper (it contains manifest.json).',
       },
       {
         title: '3. Load unpacked in Chrome',
@@ -112,10 +137,10 @@ export const SETTINGS_FIELD_HELP = {
   },
   providers: {
     title: 'Providers',
-    body: 'Configure LLM, Whisper, and OCR backends. Your keys stay in the browser and are sent only to the active media resolver. Host credentials mean the resolver pays with operator keys for allowlisted accounts. Local uses models on a full home resolver.',
+    body: 'Configure LLM, Whisper, OCR, and Stems with your own API keys (including Groq vision for OCR). Keys stay in the browser and are sent only to the active media resolver. Without a key, the resolver from Settings → Providers → Resolver (localhost or peppertrees) is used. Host credentials mean the resolver pays with operator keys for allowlisted accounts.',
   },
   offlineMedia: {
-    title: 'Audio Cache',
+    title: 'Cache',
     body: 'Shows local media cache size and lets you clear audio, MIDI, or stem caches. Cached recordings use the Compress Audio setting. Playback still applies your saved tempo, pitch, trim, and filters at play time.',
   },
   colorScheme: {

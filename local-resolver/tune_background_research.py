@@ -364,14 +364,13 @@ async def generate_supplemental_queries(
         f"Return ONLY a JSON array of up to {MAX_SUPPLEMENTAL_QUERIES} search query strings. "
         "Return [] if there are no important gaps."
     )
+    from llm_runtime import enrich_chat_completion_payload, llm_auth_headers, llm_chat_url, llm_model
+
     resp = await client.post(
-        f"{LLM_BASE_URL}/chat/completions",
-        headers={
-            "Authorization": f"Bearer {LLM_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": LLM_MODEL,
+        llm_chat_url(),
+        headers=llm_auth_headers(),
+        json=enrich_chat_completion_payload({
+            "model": llm_model(),
             "messages": [
                 {
                     "role": "system",
@@ -384,7 +383,7 @@ async def generate_supplemental_queries(
             ],
             "temperature": 0.35,
             "max_tokens": SUPPLEMENTAL_QUERY_LLM_MAX_TOKENS,
-        },
+        }),
         timeout=LLM_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
@@ -814,15 +813,14 @@ def ensure_references_section(text, sources):
 async def summarize_with_llm(
     client, title, artist, sources, lyrics="", existing_background=""
 ):
+    from llm_runtime import enrich_chat_completion_payload, llm_auth_headers, llm_chat_url, llm_model
+
     prompt = _build_llm_prompt(title, artist, sources, lyrics, existing_background)
     resp = await client.post(
-        f"{LLM_BASE_URL}/chat/completions",
-        headers={
-            "Authorization": f"Bearer {LLM_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": LLM_MODEL,
+        llm_chat_url(),
+        headers=llm_auth_headers(),
+        json=enrich_chat_completion_payload({
+            "model": llm_model(),
             "messages": [
                 {
                     "role": "system",
@@ -844,7 +842,7 @@ async def summarize_with_llm(
             ],
             "temperature": 0.45,
             "max_tokens": LLM_MAX_TOKENS,
-        },
+        }),
         timeout=LLM_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
@@ -855,22 +853,28 @@ async def summarize_with_llm(
     message = choices[0].get("message") or {}
     text = _finalize_llm_text(message.get("content") or "")
     if not text:
-        raise ValueError("LLM returned empty text")
+        finish = choices[0].get("finish_reason") or ""
+        reasoning = str(message.get("reasoning_content") or "").strip()
+        detail = "LLM returned empty text"
+        if finish:
+            detail += f" (finish_reason={finish})"
+        if reasoning and finish == "length":
+            detail += "; model used the token budget on reasoning — retry with thinking disabled"
+        raise ValueError(detail)
     return text
 
 
 async def critique_and_fact_check(
     client, title, artist, draft, sources, existing_background=""
 ):
+    from llm_runtime import enrich_chat_completion_payload, llm_auth_headers, llm_chat_url, llm_model
+
     prompt = _build_critique_prompt(title, artist, draft, sources, existing_background)
     resp = await client.post(
-        f"{LLM_BASE_URL}/chat/completions",
-        headers={
-            "Authorization": f"Bearer {LLM_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": LLM_MODEL,
+        llm_chat_url(),
+        headers=llm_auth_headers(),
+        json=enrich_chat_completion_payload({
+            "model": llm_model(),
             "messages": [
                 {
                     "role": "system",
@@ -885,7 +889,7 @@ async def critique_and_fact_check(
             ],
             "temperature": 0.2,
             "max_tokens": CRITIQUE_LLM_MAX_TOKENS,
-        },
+        }),
         timeout=LLM_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
@@ -896,7 +900,11 @@ async def critique_and_fact_check(
     message = choices[0].get("message") or {}
     text = _finalize_llm_text(message.get("content") or "")
     if not text:
-        raise ValueError("LLM returned empty critique text")
+        finish = choices[0].get("finish_reason") or ""
+        raise ValueError(
+            "LLM returned empty critique text"
+            + (f" (finish_reason={finish})" if finish else "")
+        )
     return ensure_references_section(text, sources)
 
 
@@ -1091,11 +1099,13 @@ async def research_tune_background(
     total_ms = elapsed_ms()
     word_count = len(re.findall(r"\b\w+\b", text))
     await _emit_progress(on_progress, "done", "Research complete", 1.0, total_ms)
+    from llm_runtime import llm_model
+
     return {
         "text": text,
         "sources": sources,
         "searchBackend": SEARCH_BACKEND,
-        "model": LLM_MODEL,
+        "model": llm_model(),
         "title": title,
         "artist": artist,
         "timing": {

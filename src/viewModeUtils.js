@@ -404,9 +404,9 @@ export function defaultViewModeForTune(tune, tunebook, options) {
     flags.lyrics = true;
     if (available.structure) flags.structure = true;
   } else if (available.notation && available.lyrics) {
+    // Notation + lyrics is busy enough; leave the structure block off by default.
     flags.notation = 'lines';
     flags.lyrics = true;
-    if (available.structure) flags.structure = true;
   } else if (available.structure) {
     flags.structure = true;
   } else if (available.info) {

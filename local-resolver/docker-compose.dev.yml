@@ -25,11 +25,18 @@ services:
       - ./lyrics_fetch.py:/app/lyrics_fetch.py
       - ./lyrics_word_tools.py:/app/lyrics_word_tools.py
       - ./composer_discovery.py:/app/composer_discovery.py
+      - ./genre_discovery.py:/app/genre_discovery.py
+      - ./feed_generation.py:/app/feed_generation.py
+      - ./feed_source_scrape.py:/app/feed_source_scrape.py
+      - ./llm_runtime.py:/app/llm_runtime.py
+      - ./analyze_practice.py:/app/analyze_practice.py
       - ./bulk_list_format.py:/app/bulk_list_format.py
       - ./tune_background_research.py:/app/tune_background_research.py
       - ./voice_command.py:/app/voice_command.py
       - ./playback_region_detect.py:/app/playback_region_detect.py
       - ./detect_chords.py:/app/detect_chords.py
+      - ./madmom_chords.py:/app/madmom_chords.py
+      - ./btc_chords:/app/btc_chords
       - ./detect_melody.py:/app/detect_melody.py
       - ./detect_timing.py:/app/detect_timing.py
       - ./chord_processing.py:/app/chord_processing.py
@@ -38,6 +45,7 @@ services:
       - ./stem_separation.py:/app/stem_separation.py
       - ./separate_stems.py:/app/separate_stems.py
       - ./eval_transcription.py:/app/eval_transcription.py
+      - ./scripts/eval_chords.py:/app/scripts/eval_chords.py
       - ./image_search.py:/app/image_search.py
       - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"

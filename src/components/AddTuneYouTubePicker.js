@@ -18,6 +18,7 @@ export default function AddTuneYouTubePicker(props) {
   const timerRef = useRef(null)
   const abortRef = useRef(null)
   const lastSearchedRef = useRef('')
+  const autoSelectedQueryRef = useRef('')
 
   useEffect(function() {
     const next = String(props.searchQuery || '')
@@ -56,6 +57,10 @@ export default function AddTuneYouTubePicker(props) {
         if (result && Array.isArray(result.candidates)) list = result.candidates
         else if (result && result.link) list = [result]
         setResults(list)
+        if (props.autoSelectFirst && !props.selected && list.length > 0 && autoSelectedQueryRef.current !== query) {
+          autoSelectedQueryRef.current = query
+          if (typeof props.onChange === 'function') props.onChange(list[0])
+        }
         setError('')
         setBusy(false)
       }).catch(function(err) {

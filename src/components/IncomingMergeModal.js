@@ -222,9 +222,23 @@ export default function IncomingMergeModal(props) {
     });
   }
 
+  // "Accept All" must take every differing incoming field, not the recommended
+  // defaults. Otherwise fields like tags/links stay different from the remote
+  // copy and the same tunes keep coming back as updates to merge.
+  function buildAcceptAllRecordState() {
+    const next = {};
+    (batch && batch.records ? batch.records : []).forEach(function(record) {
+      next[record.id] = {
+        accept: true,
+        fieldSelections: buildFieldSelectionsForRecord(record, true),
+      };
+    });
+    return next;
+  }
+
   function handleAcceptAll() {
     if (typeof props.onApply === 'function') {
-      props.onApply(recordState, { acceptAllFromSource: false });
+      props.onApply(buildAcceptAllRecordState(), { acceptAllFromSource: false });
     }
   }
 
@@ -236,7 +250,7 @@ export default function IncomingMergeModal(props) {
       : 'Always accept all updates from ' + label + ' automatically?';
     if (!window.confirm(msg)) return;
     if (typeof props.onApply === 'function') {
-      props.onApply(recordState, { acceptAllFromSource: true });
+      props.onApply(buildAcceptAllRecordState(), { acceptAllFromSource: true });
     }
   }
 

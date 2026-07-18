@@ -11,6 +11,9 @@ const KIND_LABELS = {
   artists: 'Artists',
   aliases: 'Aliases',
   background: 'Background',
+  tempo: 'Tempo',
+  meter: 'Time signature',
+  key: 'Key',
 }
 
 /**
@@ -38,11 +41,23 @@ export default function FieldSuggestionsChangesStrip(props) {
       >
         Clear Suggestions
       </Button>
+      {props.showAcceptAll ? (
+        <Button
+          size="sm"
+          variant="success"
+          className="field-suggestions-accept-all"
+          data-testid="suggestions-accept-all"
+          onClick={function() {
+            if (typeof props.onAcceptAll === 'function') props.onAcceptAll()
+          }}
+        >
+          Accept All
+        </Button>
+      ) : null}
       <strong className="mb-0 me-1">Suggestions</strong>
       {items.map(function(item) {
         const kind = item.kind || 'field'
         const label = KIND_LABELS[kind] || kind
-        const count = Number(item.count) || 0
         return (
           <Button
             key={item.jobId || kind}
@@ -54,9 +69,6 @@ export default function FieldSuggestionsChangesStrip(props) {
             }}
           >
             {label}
-            {count > 0 ? (
-              <span className="badge bg-dark rounded-pill ms-1">{count}</span>
-            ) : null}
           </Button>
         )
       })}

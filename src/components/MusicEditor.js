@@ -1,9 +1,10 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
-import {useState, useEffect, useCallback, useRef} from 'react'
+import {useState, useEffect, useCallback, useRef, useSyncExternalStore} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import NotationSearchButton from './NotationSearchButton'
+import MelodyAnalysisRefineModal from './MelodyAnalysisRefineModal'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
 import { trackEditorOpen } from '../analytics'
 import { canRedoTuneEdit, canUndoTuneEdit, getRedoTuneEditLabel, getUndoTuneEditLabel } from '../tuneEditHistory'
@@ -11,6 +12,13 @@ import { useBulkCheckReturnToast } from '../useBulkCheckReturnToast'
 import { isNotationEditorView, normalizeEditorViewMode } from '../viewModeUtils'
 import { getBackgroundReviewSummary } from '../backgroundReviewQueue'
 import { showBackgroundJobsContinuingNotice } from '../backgroundReviewToast'
+import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
+import {
+  EMPTY_MEDIA_ANALYSIS_JOB,
+  getMediaAnalysisJob,
+  subscribeMediaAnalysisJobs,
+} from '../mediaAnalysisJobs'
+import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 
 export default function MusicEditor(props) {
     const { tunebook, forceRefresh } = props
@@ -30,6 +38,15 @@ export default function MusicEditor(props) {
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''
     const redoLabel = tuneId && historyState ? getRedoTuneEditLabel(historyState, tuneId) : ''
     const autoActivateChordRecord = editorViewMode === 'chords' && searchParams.get('record') === '1'
+    const mediaAnalysis = useSyncExternalStore(
+      subscribeMediaAnalysisJobs,
+      function() { return getMediaAnalysisJob(tuneId) },
+      function() { return EMPTY_MEDIA_ANALYSIS_JOB }
+    )
+    const [showAnalysisRefine, setShowAnalysisRefine] = useState(false)
+    const canFineTuneAnalysis = mediaAnalysisJobHasMelodySourceNotes({
+      melodySourceNotes: mediaAnalysis.melodySourceNotes,
+    })
 
     useEffect(function() {
         const nextView = params.view ? normalizeEditorViewMode(params.view) : 'info'
@@ -79,6 +96,13 @@ export default function MusicEditor(props) {
     useEffect(function() {
       trackEditorOpen()
     },[])
+
+    useEffect(function() {
+        setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
+        return function() {
+            setDocumentTitle(DEFAULT_APP_TITLE)
+        }
+    }, [tune && tune.name])
 
     const leaveWarnedRef = useRef(false)
     function warnIfJobsContinuing() {
@@ -165,34 +189,76 @@ export default function MusicEditor(props) {
                   navigate('/tunes/' + tune.id)
                 }}>{props.tunebook.icons.close}</Button>
                 {isNotationView ? (
-                  <NotationSearchButton
-                    tuneId={tuneId}
-                    title={tune && tune.name ? tune.name : ''}
-                    artist={tune && tune.composer ? tune.composer : ''}
-                    rhythm={tune && tune.rhythm ? tune.rhythm : ''}
-                    currentGenre={tune && tune.genre ? tune.genre : ''}
-                    currentValue={tune && tune.notes
-                      ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
-                      : (typeof abc === 'string' ? abc : '')}
-                    token={props.token}
-                    tunebook={props.tunebook}
-                    disabled={!(tune && tune.name && String(tune.name).trim())}
-                    onGenreAccept={function(genre) {
-                      if (!tune) return
-                      tune.genre = genre
-                      tune.id = tuneId
-                      props.tunebook.saveTune(tune)
-                    }}
-                    onNotation={function(candidate) {
-                      const abcText = candidate && candidate.abc ? String(candidate.abc) : ''
-                      if (!abcText || !props.tunebook || !props.tunebook.abcTools || !tune) return
-                      const imported = props.tunebook.abcTools.abc2json(abcText)
-                      if (!imported) return
-                      imported.id = tune.id
-                      props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
-                      if (typeof props.forceRefresh === 'function') props.forceRefresh()
-                    }}
-                  />
+                  <>
+                    <NotationSearchButton
+                      tuneId={tuneId}
+                      tune={tune}
+                      title={tune && tune.name ? tune.name : ''}
+                      artist={tune && tune.composer ? tune.composer : ''}
+                      rhythm={tune && tune.rhythm ? tune.rhythm : ''}
+                      currentGenre={tune && tune.genre ? tune.genre : ''}
+                      currentValue={tune && tune.notes
+                        ? (Array.isArray(tune.notes) ? tune.notes.join('\n') : String(tune.notes))
+                        : (typeof abc === 'string' ? abc : '')}
+                      token={props.token}
+                      tunebook={props.tunebook}
+                      disabled={!(tune && tune.name && String(tune.name).trim())}
+                      onGenreAccept={function(genre) {
+                        if (!tune) return
+                        tune.genre = genre
+                        tune.id = tuneId
+                        props.tunebook.saveTune(tune)
+                      }}
+                      onNotation={function(candidate) {
+                        if (!props.tunebook || !props.tunebook.abcTools || !tune) return
+                        let imported = null
+                        if (candidate && candidate.tune && typeof candidate.tune === 'object') {
+                          imported = Object.assign({}, candidate.tune)
+                        } else {
+                          const abcText = candidate && candidate.abc ? String(candidate.abc) : ''
+                          if (!abcText) return
+                          imported = props.tunebook.abcTools.abc2json(abcText)
+                        }
+                        if (!imported) return
+                        imported.id = tune.id
+                        if (candidate && candidate.sourceUrl && !imported.srcUrl) {
+                          imported.srcUrl = candidate.sourceUrl
+                        }
+                        props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
+                        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                      }}
+                    />
+                    {canFineTuneAnalysis ? (
+                      <Button
+                        size="lg"
+                        variant="outline-secondary"
+                        title="Fine-tune analysis"
+                        aria-label="Fine-tune analysis"
+                        style={{ marginLeft: '0.35em' }}
+                        onClick={function() { setShowAnalysisRefine(true) }}
+                      >
+                        {props.tunebook.icons.filter}
+                        <span style={{ marginLeft: '0.35em', fontSize: '0.85em' }}>Fine-tune</span>
+                      </Button>
+                    ) : null}
+                    <MelodyAnalysisRefineModal
+                      show={showAnalysisRefine}
+                      onHide={function() { setShowAnalysisRefine(false) }}
+                      tunebook={props.tunebook}
+                      tune={tune}
+                      melodySourceNotes={mediaAnalysis.melodySourceNotes}
+                      timedMelody={mediaAnalysis.timedMelody}
+                      chordsText={mediaAnalysis.chordsText || ''}
+                      onApply={function(abcText) {
+                        if (!abcText || !props.tunebook || !props.tunebook.abcTools || !tune) return
+                        const imported = props.tunebook.abcTools.abc2json(abcText)
+                        if (!imported) return
+                        imported.id = tune.id
+                        props.tunebook.saveTune(imported, false, { historyLabel: 'Fine-tune media analysis' })
+                        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                      }}
+                    />
+                  </>
                 ) : historyButtonGroup}
                 <span className="music-editor-search">
                     {editorViewMode === 'info' ? (

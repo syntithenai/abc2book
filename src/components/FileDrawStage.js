@@ -6,6 +6,16 @@ import {
   redrawInkLayer,
 } from '../fileDrawStrokeUtils'
 
+const MIN_STAGE_SCALE = 0.25
+const MAX_STAGE_SCALE = 8
+const ZOOM_STEP = 1.15
+
+export function clampFileDrawStageScale(scale) {
+  const value = parseFloat(scale)
+  if (!Number.isFinite(value) || value <= 0) return 1
+  return Math.min(MAX_STAGE_SCALE, Math.max(MIN_STAGE_SCALE, value))
+}
+
 /**
  * Pan/zoom stage with pen ink and pinch zoom.
  * Fingers: pinch-zoom / pan. Pen (and mouse): draw/erase.
@@ -20,13 +30,12 @@ export default function FileDrawStage(props) {
     onStrokesChange,
   } = props
 
+  const shellRef = useRef(null)
   const wrapRef = useRef(null)
   const inkRef = useRef(null)
   const [scale, setScale] = useState(1)
-  const [offset, setOffset] = useState({ x: 0, y: 0 })
   const [cursorPos, setCursorPos] = useState(null)
   const drawingRef = useRef(null)
-  const panRef = useRef(null)
   const pinchRef = useRef(null)
 
   useEffect(function() {
@@ -41,24 +50,63 @@ export default function FileDrawStage(props) {
     redrawInkLayer(inkRef.current, strokes)
   }, [strokes])
 
+  function getStageMetrics() {
+    if (!image || !wrapRef.current) return null
+    const rect = wrapRef.current.getBoundingClientRect()
+    const iw = image.naturalWidth || image.width
+    const ih = image.naturalHeight || image.height
+    if (iw <= 0 || ih <= 0) return null
+    return {
+      availW: Math.max(rect.width, 1),
+      availH: Math.max(rect.height, 1),
+      iw: iw,
+      ih: ih,
+    }
+  }
+
+  function fitHeight() {
+    const metrics = getStageMetrics()
+    if (!metrics) return
+    const next = clampFileDrawStageScale(metrics.availH / metrics.ih)
+    setScale(next)
+    requestAnimationFrame(scrollContentToOrigin)
+  }
+
+  function fitWidth() {
+    const metrics = getStageMetrics()
+    if (!metrics) return
+    const next = clampFileDrawStageScale(metrics.availW / metrics.iw)
+    setScale(next)
+    requestAnimationFrame(scrollContentToOrigin)
+  }
+
+  function zoomBy(factor) {
+    if (!Number.isFinite(factor) || factor <= 0) return
+    setScale(function(current) {
+      return clampFileDrawStageScale(current * factor)
+    })
+  }
+
+  function resetViewZoom() {
+    setScale(1)
+    requestAnimationFrame(scrollContentToOrigin)
+  }
+
+  function scrollContentToOrigin() {
+    const el = wrapRef.current
+    if (!el) return
+    el.scrollLeft = 0
+    el.scrollTop = 0
+  }
+
   useEffect(function() {
     if (!image) return undefined
-    function fitToStage() {
-      if (!wrapRef.current) return
-      const rect = wrapRef.current.getBoundingClientRect()
-      const iw = image.naturalWidth || image.width
-      const ih = image.naturalHeight || image.height
-      if (iw <= 0 || ih <= 0) return
-      // Modal open can leave height 0 for a frame — fall back to width-based fit.
-      const availW = Math.max(rect.width, 1)
-      const availH = Math.max(rect.height, 1)
-      const fit = Math.min(availW / iw, availH / ih)
-      setScale(fit > 0 && Number.isFinite(fit) ? fit : 1)
-      setOffset({ x: 0, y: 0 })
+    function fitWhenReady() {
+      fitWidth()
     }
-    fitToStage()
-    const raf = requestAnimationFrame(fitToStage)
-    const t = setTimeout(fitToStage, 50)
+    fitWhenReady()
+    const raf = requestAnimationFrame(fitWhenReady)
+    const t = setTimeout(fitWhenReady, 50)
     return function() {
       cancelAnimationFrame(raf)
       clearTimeout(t)
@@ -76,13 +124,29 @@ export default function FileDrawStage(props) {
     }
   }
 
+  function pointerInShell(clientX, clientY) {
+    const shell = shellRef.current
+    if (!shell) return false
+    const rect = shell.getBoundingClientRect()
+    return clientX >= rect.left && clientX <= rect.right
+      && clientY >= rect.top && clientY <= rect.bottom
+  }
+
   function updateCursorFromEvent(e) {
-    if (!wrapRef.current) return
-    const rect = wrapRef.current.getBoundingClientRect()
+    if (!shellRef.current) return
+    if (!pointerInShell(e.clientX, e.clientY)) {
+      setCursorPos(null)
+      return
+    }
+    const rect = shellRef.current.getBoundingClientRect()
     setCursorPos({
       x: e.clientX - rect.left,
       y: e.clientY - rect.top,
     })
+  }
+
+  function clearCursor() {
+    setCursorPos(null)
   }
 
   function onPointerDown(e) {
@@ -98,28 +162,23 @@ export default function FileDrawStage(props) {
       drawStrokeOnContext(inkRef.current.getContext('2d'), stroke)
       return
     }
-    // touch
+    // touch — two-finger pinch only; one finger uses native scroll
     if (e.pointerType === 'touch') {
       if (!pinchRef.current) {
         pinchRef.current = { pointers: {} }
       }
       pinchRef.current.pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
       const ids = Object.keys(pinchRef.current.pointers)
-      if (ids.length === 1) {
-        panRef.current = {
-          x: e.clientX,
-          y: e.clientY,
-          ox: offset.x,
-          oy: offset.y,
-        }
-      } else if (ids.length === 2) {
+      if (ids.length >= 2) {
+        e.preventDefault()
+        try { e.currentTarget.setPointerCapture(e.pointerId) } catch (err) { /* ignore */ }
         const a = pinchRef.current.pointers[ids[0]]
         const b = pinchRef.current.pointers[ids[1]]
         const dist = Math.hypot(a.x - b.x, a.y - b.y)
         pinchRef.current.startDist = dist
         pinchRef.current.startScale = scale
-        panRef.current = null
       }
+      return
     }
   }
 
@@ -135,19 +194,17 @@ export default function FileDrawStage(props) {
       return
     }
     if (pinchRef.current && pinchRef.current.pointers[e.pointerId]) {
-      pinchRef.current.pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
       const ids = Object.keys(pinchRef.current.pointers)
-      if (ids.length === 2 && pinchRef.current.startDist > 0) {
-        const a = pinchRef.current.pointers[ids[0]]
-        const b = pinchRef.current.pointers[ids[1]]
-        const dist = Math.hypot(a.x - b.x, a.y - b.y)
-        const next = pinchRef.current.startScale * (dist / pinchRef.current.startDist)
-        setScale(Math.min(8, Math.max(0.25, next)))
-      } else if (ids.length === 1 && panRef.current) {
-        setOffset({
-          x: panRef.current.ox + (e.clientX - panRef.current.x),
-          y: panRef.current.oy + (e.clientY - panRef.current.y),
-        })
+      if (ids.length >= 2) {
+        if (e.pointerType === 'touch') e.preventDefault()
+        pinchRef.current.pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
+        if (pinchRef.current.startDist > 0) {
+          const a = pinchRef.current.pointers[ids[0]]
+          const b = pinchRef.current.pointers[ids[1]]
+          const dist = Math.hypot(a.x - b.x, a.y - b.y)
+          const next = pinchRef.current.startScale * (dist / pinchRef.current.startDist)
+          setScale(clampFileDrawStageScale(next))
+        }
       }
     }
   }
@@ -158,36 +215,49 @@ export default function FileDrawStage(props) {
       drawingRef.current = null
       if (onStrokesChange) onStrokesChange(next)
       try { e.currentTarget.releasePointerCapture(e.pointerId) } catch (err) { /* ignore */ }
+      if (!pointerInShell(e.clientX, e.clientY)) clearCursor()
+      else updateCursorFromEvent(e)
       return
     }
     if (pinchRef.current) {
       delete pinchRef.current.pointers[e.pointerId]
-      if (Object.keys(pinchRef.current.pointers).length === 0) {
+      const remaining = Object.keys(pinchRef.current.pointers).length
+      if (remaining === 0) {
         pinchRef.current = null
-        panRef.current = null
+      } else if (remaining === 1) {
+        pinchRef.current.startDist = 0
       }
+      try { e.currentTarget.releasePointerCapture(e.pointerId) } catch (err) { /* ignore */ }
     }
   }
 
-  function onPointerLeave(e) {
+  function onShellPointerLeave(e) {
     if (e.pointerType === 'pen' || e.pointerType === 'mouse') {
-      if (!drawingRef.current) setCursorPos(null)
+      clearCursor()
     }
   }
 
-  function resetZoom() {
-    if (!image || !wrapRef.current) return
-    const rect = wrapRef.current.getBoundingClientRect()
-    const iw = image.naturalWidth || image.width
-    const ih = image.naturalHeight || image.height
-    const fit = Math.min(rect.width / iw, rect.height / ih)
-    setScale(fit > 0 ? fit : 1)
-    setOffset({ x: 0, y: 0 })
-  }
-
-  // expose reset via prop callback
   useEffect(function() {
-    if (props.onRegisterResetZoom) props.onRegisterResetZoom(resetZoom)
+    const el = wrapRef.current
+    if (!el || !image) return undefined
+    function blockBrowserPinch(e) {
+      if (e.touches && e.touches.length >= 2) e.preventDefault()
+    }
+    el.addEventListener('touchmove', blockBrowserPinch, { passive: false })
+    return function() {
+      el.removeEventListener('touchmove', blockBrowserPinch)
+    }
+  }, [image])
+
+  useEffect(function() {
+    if (!props.onRegisterViewControls) return
+    props.onRegisterViewControls({
+      fitHeight: fitHeight,
+      fitWidth: fitWidth,
+      zoomIn: function() { zoomBy(ZOOM_STEP) },
+      zoomOut: function() { zoomBy(1 / ZOOM_STEP) },
+      resetZoom: resetViewZoom,
+    })
   })
 
   if (!image) {
@@ -196,68 +266,93 @@ export default function FileDrawStage(props) {
 
   const iw = image.naturalWidth || image.width
   const ih = image.naturalHeight || image.height
+  const contentW = iw * scale
+  const contentH = ih * scale
   const brushDiameter = Math.max(6, (width || 4) * (scale || 1))
   const cursorBorder = tool === 'eraser' ? '#666666' : (color || '#111111')
 
   return (
     <div
-      className="file-draw-stage"
-      ref={wrapRef}
-      onPointerDown={onPointerDown}
-      onPointerMove={onPointerMove}
-      onPointerUp={onPointerUp}
-      onPointerCancel={onPointerUp}
-      onPointerLeave={onPointerLeave}
+      className="file-draw-stage-shell"
+      ref={shellRef}
+      onPointerLeave={onShellPointerLeave}
       style={{
-        touchAction: 'none',
-        overflow: 'hidden',
         flex: '1 1 auto',
         width: '100%',
         height: '100%',
         minHeight: '12rem',
         position: 'relative',
+        overflow: 'hidden',
         background: '#333',
-        cursor: 'none',
+        cursor: cursorPos ? 'none' : 'default',
       }}
     >
       <div
+        className="file-draw-stage"
+        ref={wrapRef}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onPointerCancel={onPointerUp}
         style={{
-          position: 'absolute',
-          left: '50%',
-          top: '50%',
-          width: iw,
-          height: ih,
-          transform: 'translate(-50%, -50%) translate(' + offset.x + 'px,' + offset.y + 'px) scale(' + scale + ')',
-          transformOrigin: 'center center',
+          WebkitOverflowScrolling: 'touch',
+          width: '100%',
+          height: '100%',
+          position: 'relative',
+          background: '#333',
+          cursor: 'inherit',
         }}
       >
-        <img
-          src={image.src}
-          alt=""
-          draggable={false}
+        <div
+          className="file-draw-stage-sizer"
           style={{
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            width: iw,
-            height: ih,
-            maxWidth: 'none',
-            pointerEvents: 'none',
-            userSelect: 'none',
+            display: 'grid',
+            placeItems: 'center',
+            boxSizing: 'border-box',
+            minWidth: '100%',
+            minHeight: '100%',
+            width: 'max(100%, ' + contentW + 'px)',
+            height: 'max(100%, ' + contentH + 'px)',
           }}
-        />
-        <canvas
-          ref={inkRef}
-          width={iw}
-          height={ih}
-          style={{
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            width: iw,
-            height: ih,
-          }}
-        />
+        >
+          <div
+            className="file-draw-stage-content"
+            style={{
+              width: contentW,
+              height: contentH,
+              position: 'relative',
+              flexShrink: 0,
+            }}
+          >
+            <img
+              src={image.src}
+              alt=""
+              draggable={false}
+              style={{
+                position: 'absolute',
+                left: 0,
+                top: 0,
+                width: '100%',
+                height: '100%',
+                maxWidth: 'none',
+                pointerEvents: 'none',
+                userSelect: 'none',
+              }}
+            />
+            <canvas
+              ref={inkRef}
+              width={iw}
+              height={ih}
+              style={{
+                position: 'absolute',
+                left: 0,
+                top: 0,
+                width: '100%',
+                height: '100%',
+              }}
+            />
+          </div>
+        </div>
       </div>
       {cursorPos ? (
         <div

@@ -77,6 +77,14 @@ export default function MediaAnalysisTabPanel({ tunes }) {
                 {job.status ? (
                   <div className="text-muted background-jobs-queue-item-message">{job.status}</div>
                 ) : null}
+                {!job.isAnalyzing && job.analysis && job.analysis.raw && job.analysis.raw.chords && job.analysis.raw.chords.backend ? (
+                  <div className="text-muted background-jobs-queue-item-message">
+                    Chords via {job.analysis.raw.chords.backend}
+                    {job.analysis.raw.melody && job.analysis.raw.melody.backend
+                      ? (' · melody via ' + job.analysis.raw.melody.backend)
+                      : ''}
+                  </div>
+                ) : null}
                 {job.error ? (
                   <div className="text-danger background-jobs-queue-item-error">{job.error}</div>
                 ) : null}

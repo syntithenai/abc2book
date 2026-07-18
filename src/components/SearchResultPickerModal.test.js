@@ -98,4 +98,23 @@ describe('SearchResultPickerModal multiSelect', function() {
     act(function() { done.click() })
     expect(onDone).toHaveBeenCalledTimes(1)
   })
+
+  test('renders optional header comment', function() {
+    act(function() {
+      root.render(
+        React.createElement(SearchResultPickerModal, {
+          show: true,
+          multiSelect: true,
+          items: [{ title: 'Alice', source: 'a' }],
+          comment: 'Composer was empty, so it was set to "Debussy".',
+          onSelect: function() {},
+          onHide: function() {},
+        })
+      )
+    })
+    const note = container.querySelector('[data-testid="search-result-picker-comment"]')
+    expect(note).toBeTruthy()
+    expect(note.textContent).toContain('Composer was empty')
+    expect(note.textContent).toContain('Debussy')
+  })
 })

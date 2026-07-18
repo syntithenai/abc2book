@@ -125,6 +125,7 @@ export async function separateStemsFromSource(options) {
     signal,
     onProgress,
     onStatus,
+    demucsModel,
   } = options;
 
   if (!source) {
@@ -135,6 +136,8 @@ export async function separateStemsFromSource(options) {
     onProgress('Resolving audio...', 0);
   }
 
+  const model = demucsModel ? String(demucsModel).trim() : '';
+
   let response;
   if (source.kind === 'recording') {
     if (!source.blob) {
@@ -142,6 +145,9 @@ export async function separateStemsFromSource(options) {
     }
     const formData = new FormData();
     formData.append('file', source.blob, source.fileName || 'recording.wav');
+    if (model) {
+      formData.append('demucsModel', model);
+    }
     if (typeof onProgress === 'function') {
       onProgress('Uploading audio...', 5);
     }
@@ -160,13 +166,17 @@ export async function separateStemsFromSource(options) {
     if (typeof onProgress === 'function') {
       onProgress('Resolving audio...', 5);
     }
+    const payload = {
+      sourceUrl: source.src,
+      sourceType: source.srcType || 'audio',
+      sourceName: source.label || '',
+    };
+    if (model) {
+      payload.demucsModel = model;
+    }
     response = await fetchViaMediaProxy('/separate-stems', accessToken, {
       method: 'POST',
-      body: JSON.stringify({
-        sourceUrl: source.src,
-        sourceType: source.srcType || 'audio',
-        sourceName: source.label || '',
-      }),
+      body: JSON.stringify(payload),
       signal: signal,
       headers: {
         Accept: 'application/json',

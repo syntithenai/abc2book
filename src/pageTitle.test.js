@@ -1,6 +1,8 @@
 import {
   DEFAULT_APP_TITLE,
+  PRACTICE_PAGE_TITLE_BASE,
   buildSearchPageTitle,
+  buildSetsPageTitle,
   buildSingleTuneTitle,
   getActiveBookFilter,
   getFirstGenreFilter,
@@ -20,6 +22,25 @@ describe('pageTitle', function() {
     expect(buildSearchPageTitle('', '', ['Jazz'], ['Trad'])).toBe('Tunebook Search – Jazz')
     expect(buildSearchPageTitle('', '', '', ['Trad'])).toBe('Tunebook Search – Trad')
     expect(buildSearchPageTitle('', '')).toBe('Tunebook Search')
+  })
+
+  test('buildSearchPageTitle accepts a custom base', function() {
+    expect(buildSearchPageTitle('Session', [], [], [], PRACTICE_PAGE_TITLE_BASE)).toBe('Practice – Session')
+    expect(buildSearchPageTitle('', ['jig'], [], [], PRACTICE_PAGE_TITLE_BASE)).toBe('Practice – jig')
+    expect(buildSearchPageTitle('', '', '', '', PRACTICE_PAGE_TITLE_BASE)).toBe('Practice')
+  })
+
+  test('buildSetsPageTitle covers sets and gig modes', function() {
+    expect(buildSetsPageTitle({})).toBe('Performance sets')
+    expect(buildSetsPageTitle({ setName: 'Friday Night' })).toBe('Friday Night')
+    expect(buildSetsPageTitle({ gigPickerMode: true })).toBe('Gig')
+    expect(buildSetsPageTitle({ gigMode: true })).toBe('Gig')
+    expect(buildSetsPageTitle({ gigMode: true, setName: 'Friday Night' })).toBe('Gig – Friday Night')
+    expect(buildSetsPageTitle({
+      gigMode: true,
+      setName: 'Friday Night',
+      tuneName: 'The Kesh',
+    })).toBe('Gig – Friday Night – The Kesh')
   })
 
   test('filter helpers ignore empty values', function() {

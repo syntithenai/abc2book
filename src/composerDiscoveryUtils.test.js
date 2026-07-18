@@ -126,14 +126,14 @@ describe('composerDiscoveryUtils', function() {
     expect(candidates[1].role).toBe('performer')
   })
 
-  test('SelectInput options dropdown class is wired for caret hide', function() {
+  test('FieldSearchResultsCaret options dropdown class is wired for caret hide', function() {
     const path = require('path')
     const fs = require('fs')
     const src = fs.readFileSync(
-      path.join(__dirname, 'components/SelectInput.js'),
+      path.join(__dirname, 'components/FieldSearchResultsCaret.js'),
       'utf8'
     )
-    expect(src).toMatch(/className="select-input-options-dropdown"/)
+    expect(src).toMatch(/select-input-options-dropdown/)
     const css = fs.readFileSync(path.join(__dirname, 'App.css'), 'utf8')
     expect(css).toMatch(/\.select-input-options-dropdown\.dropdown-toggle::after/)
     expect(css).toMatch(/\.chip-list-options-dropdown\.dropdown-toggle::after/)

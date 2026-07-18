@@ -151,6 +151,37 @@ describe('gigNotationFit', function() {
       expect(paper.availW).toBe(420 - 8);
       expect(paper.availH).toBe(700 - 100 - 8);
     });
+
+    it('stops above the playlist transport bar when it is visible', function() {
+      const column = {
+        clientWidth: 500,
+        getBoundingClientRect: function() {
+          return { left: 0, top: 0, width: 500, height: 400 };
+        },
+      };
+      const renderEl = {
+        clientWidth: 420,
+        closest: function() { return column; },
+        getBoundingClientRect: function() {
+          return { left: 40, top: 100, width: 420, height: 50 };
+        },
+      };
+      const bar = document.createElement('div');
+      bar.className = 'now-playing-transport-bar';
+      bar.getBoundingClientRect = function() {
+        return { left: 0, top: 620, width: 500, height: 80 };
+      };
+      document.body.appendChild(bar);
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+
+      const paper = measureSingleViewPaper(renderEl);
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+      document.body.removeChild(bar);
+
+      expect(paper.availH).toBe(620 - 100 - 8);
+    });
   });
 
   describe('fitSingleViewVertical', function() {

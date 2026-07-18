@@ -640,6 +640,92 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
   
+  function listRevisions(id) {
+    return new Promise(function(resolve,reject) {
+      if (!id || !accessToken) {
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh()
+        resolve()
+        return
+      }
+      var revisions = []
+      function fetchPage(pageToken) {
+        var url = 'https://www.googleapis.com/drive/v3/files/'+id+'/revisions?fields='
+          + encodeURIComponent('nextPageToken,revisions(id,modifiedTime,size,lastModifyingUser(displayName),exportLinks)')
+          + '&pageSize=200'
+        if (pageToken) url += '&pageToken='+encodeURIComponent(pageToken)
+        axios({
+          method: 'get',
+          url: url,
+          headers: {'Authorization': 'Bearer '+accessToken},
+        }).then(function(postRes) {
+          if (postRes.data && postRes.data.revisions) revisions = revisions.concat(postRes.data.revisions)
+          if (postRes.data && postRes.data.nextPageToken) {
+            fetchPage(postRes.data.nextPageToken)
+          } else {
+            resolve(revisions)
+          }
+        }).catch(function(e) {
+          console.log(e)
+          if (e && e.response && e.response.status == '401') {
+            handleDriveUnauthorized(logout)
+          }
+          resolve()
+        })
+      }
+      fetchPage(null)
+    })
+  }
+
+  function getRevisionData(id, revisionId, exportLinks) {
+    return new Promise(function(resolve,reject) {
+      if (!id || !revisionId || !accessToken) {
+        if (refresh && !accessToken && localStorage.getItem('abc2book_lastuser')) refresh()
+        resolve()
+        return
+      }
+      function fetchExportFallback() {
+        // Google-native docs don't support alt=media on revisions; use the revision's export link
+        var exportUrl = exportLinks && (exportLinks['text/plain'] || exportLinks['text/csv'])
+        if (!exportUrl) {
+          resolve()
+          return
+        }
+        axios({
+          method: 'get',
+          url: exportUrl,
+          headers: {'Authorization': 'Bearer '+accessToken},
+          responseType: 'text',
+          transformResponse: [function(data) { return data }],
+        }).then(function(postRes) {
+          resolve(postRes.data)
+        }).catch(function(e) {
+          console.log(e)
+          if (e && e.response && e.response.status == '401') {
+            handleDriveUnauthorized(logout)
+          }
+          resolve()
+        })
+      }
+      axios({
+        method: 'get',
+        url: 'https://www.googleapis.com/drive/v3/files/'+id+'/revisions/'+revisionId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
+        headers: {'Authorization': 'Bearer '+accessToken},
+        responseType: 'text',
+        transformResponse: [function(data) { return data }],
+      }).then(function(postRes) {
+        resolve(postRes.data)
+      }).catch(function(e) {
+        console.log(e)
+        if (e && e.response && e.response.status == '401') {
+          handleDriveUnauthorized(logout)
+          resolve()
+        } else {
+          fetchExportFallback()
+        }
+      })
+    })
+  }
+
    function createDocument(title, documentData, documentType='application/vnd.google-apps.document', documentDescription='', documentFolderId = null, force_token = null) {
     return new Promise(function(resolve,reject) {
 		var useToken = force_token ? force_token : (token ? token.access_token : null)
@@ -902,6 +988,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
 
-  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument}
+  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument, listRevisions, getRevisionData}
   
 }

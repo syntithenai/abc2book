@@ -170,10 +170,22 @@ describe('autoplay and tap-to-play', function() {
     expect(shouldTriggerAutoplayRecovery(state, {})).toBe(true)
   })
 
-  test('block play during seek unless restart', function() {
-    const seeking = beginSeekOperation(snap({ playingIntent: true, isPlayingUi: true }), 3000, NOW)
+  test('block play during a playing seek unless restart', function() {
+    const captured = captureSeekPlaybackIntent(snap({ playingIntent: true, isPlayingUi: true }))
+    const seeking = beginSeekOperation(captured.snapshot, 3000, NOW)
     expect(shouldBlockPlayDuringSeek(seeking, {}, NOW)).toBe(true)
     expect(shouldBlockPlayDuringSeek(seeking, { restart: true }, NOW)).toBe(false)
+  })
+
+  test('paused seek does not block a subsequent play request', function() {
+    // pause -> rewind/seek -> play: requestPlayback flips playingIntent on and
+    // userPaused off before play(); the lingering guard must not swallow it.
+    let state = applyPause(snap({ playingIntent: true, isPlayingUi: true }))
+    const captured = captureSeekPlaybackIntent(state)
+    expect(captured.wasPlaying).toBe(false)
+    state = beginSeekOperation(captured.snapshot, 3000, NOW)
+    state = applyResumeFromPause(state)
+    expect(shouldBlockPlayDuringSeek(state, {}, NOW)).toBe(false)
   })
 
   test('user resume bypasses seek autoplay block', function() {

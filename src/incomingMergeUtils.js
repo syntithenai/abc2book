@@ -5,7 +5,7 @@ import {
   setAllTuneImportSelections,
   tunePairHasDifferingImportFields,
 } from './tuneImportMergeUtils';
-import { isIncomingTuneNewer } from './tuneBookSync';
+import { isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
 
 export function sheetUpdateResultsNeedAttention(results) {
   if (!results) return false;
@@ -163,7 +163,10 @@ export function applyRecordFieldMerge(record, selections) {
     return record.incomingTune || record.localTune;
   }
   const merged = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
-  merged.lastUpdated = Date.now();
+  // The merge decision must supersede the incoming copy even when the remote
+  // device's clock is ahead of ours; otherwise the next sync classifies the
+  // remote tune as newer again and re-prompts with the same items.
+  merged.lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
   return merged;
 }
 

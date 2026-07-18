@@ -1,4 +1,4 @@
-import { generateLocalFeedItems } from './feedLocalGenerator'
+import { generateLocalFeedItems, dedupeQuizQuestionsByArtist, tuneHasNotation } from './feedLocalGenerator'
 import { extractFactsFromTune } from './feedFactExtractors'
 
 describe('feedLocalGenerator', function() {
@@ -55,18 +55,84 @@ describe('feedLocalGenerator', function() {
     expect(items[0].headline.indexOf('Wild Rover')).toBeGreaterThan(-1)
   })
 
-  it('skips quiz when not enough distractors', function() {
+  it('skips thin quiz cards when a lone tune yields fewer than 3 questions', function() {
     const items = generateLocalFeedItems({ tunes: tunes, viewIds: ['t1'] })
-    // only one other artist in viewIds → not enough distractors
     expect(items.some(function(i) { return i.type === 'quiz' })).toBe(false)
   })
 
-  it('creates quiz when enough artist distractors', function() {
+  it('creates multi-question quiz when enough artist distractors', function() {
     const items = generateLocalFeedItems({
       tunes: tunes,
       viewIds: ['t1', 't2', 't3', 't4'],
       rng: function() { return 0 },
     })
-    expect(items.some(function(i) { return i.type === 'quiz' })).toBe(true)
+    const quiz = items.find(function(i) { return i.type === 'quiz' })
+    expect(quiz).toBeTruthy()
+    expect(quiz.quiz.questions.length).toBeGreaterThanOrEqual(2)
+  })
+
+  it('includes lyrics on From your recent cards', function() {
+    const withLyrics = Object.assign({}, tunes.t1, {
+      words: ['I\'ve been a wild rover for many\'s a year', 'And I spent all my money on whiskey and beer'],
+    })
+    const items = generateLocalFeedItems({
+      tunes: { t1: withLyrics },
+      viewIds: ['t1'],
+    })
+    const dyk = items.find(function(i) { return i.type === 'dyk' })
+    expect(dyk).toBeTruthy()
+    expect(dyk.lyrics).toContain('wild rover')
+    expect(dyk.body).toContain('## Lyrics')
+    expect(dyk.body).toContain('whiskey and beer')
+    expect(dyk.showNotation).toBe(false)
+  })
+
+  it('flags notation when recent tune has notes but no lyrics', function() {
+    const withNotes = Object.assign({}, tunes.t1, {
+      words: [],
+      voices: { '1': { meta: '', notes: ['CDEF|GABc|'] } },
+    })
+    expect(tuneHasNotation(withNotes)).toBe(true)
+    const items = generateLocalFeedItems({
+      tunes: { t1: withNotes },
+      viewIds: ['t1'],
+    })
+    const dyk = items.find(function(i) { return i.type === 'dyk' })
+    expect(dyk.showNotation).toBe(true)
+    expect(dyk.lyrics).toBe('')
+  })
+
+  it('dedupeQuizQuestionsByArtist keeps one question per artist', function() {
+    const qs = dedupeQuizQuestionsByArtist([
+      { id: 'a', aboutArtist: 'Brooke Marshal', prompt: 'Who wrote A?' },
+      { id: 'b', aboutArtist: 'Brooke Marshal', prompt: 'Which tune by Brooke?' },
+      { id: 'c', aboutArtist: 'Other Artist', prompt: 'Who wrote C?' },
+      { id: 'd', prompt: 'What year?' },
+    ])
+    expect(qs.map(function(q) { return q.id })).toEqual(['a', 'c', 'd'])
+  })
+
+  it('adds a key-signature question for recent tunes with a key', function() {
+    const withKey = Object.assign({}, tunes.t1, { key: 'G' })
+    const others = {
+      t1: withKey,
+      t2: Object.assign({}, tunes.t2, { key: 'D' }),
+      t3: Object.assign({}, tunes.t3, { key: 'Am' }),
+      t4: Object.assign({}, tunes.t4, { key: 'Em' }),
+    }
+    const items = generateLocalFeedItems({
+      tunes: others,
+      viewIds: ['t1', 't2', 't3', 't4'],
+      rng: function() { return 0.3 },
+    })
+    const quiz = items.find(function(i) { return i.type === 'quiz' && i.tuneId === 't1' })
+      || items.find(function(i) { return i.type === 'quiz' })
+    expect(quiz).toBeTruthy()
+    const keyQ = quiz.quiz.questions.find(function(q) {
+      return String(q.prompt || '').indexOf('key signature') !== -1
+    })
+    expect(keyQ).toBeTruthy()
+    const correct = keyQ.choices.find(function(c) { return c.correct })
+    expect(correct.text).toBe('G')
   })
 })

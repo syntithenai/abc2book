@@ -21,8 +21,8 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
-| POST | `/detect-chords` | Discover chords from linked or uploaded audio using autochord |
-| POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody. Runs shared beat/downbeat timing first (`detect_timing.py`, madmom when available, librosa fallback), then lyrics/chords/melody in parallel. Melody uses CREPE when available with optional Demucs vocal separation; falls back to librosa pyin. Optional `processing` JSON controls separation, noise mode, and quantize settings. Response includes `timing`, `melody.silences`, and `melody.noise`. |
+| POST | `/detect-chords` | Discover chords from linked or uploaded audio (BTC maj/min preferred, then madmom CNN+CRF, then autochord) |
+| POST | `/analyze-media` | Analyze linked or uploaded audio once for lyrics, chords, and melody. Runs shared beat/downbeat timing first (`detect_timing.py`, madmom when available, librosa fallback), then lyrics/chords/melody in parallel. Chords run on the harmonic Demucs mix and reuse shared beat times. Melody uses CREPE when available with optional Demucs vocal separation; falls back to librosa pyin. Optional `processing` JSON controls separation, noise mode, and quantize settings. Response includes `timing`, `melody.silences`, and `melody.noise`. |
 | POST | `/transcribe-sheet-image` | Upload a chord-chart or lead-sheet image/PDF page. Runs PaddleOCR for lyrics/chords and homr OMR for main-melody ABC when staff notation is detected. Optional LLM cleanup for low-confidence chord text. |
 
 By default production compose does not require login (`REQUIRE_AUTH=false` in `.env.example`). **`docker-compose.dev.yml` sets `REQUIRE_AUTH=true`** so auth issues show up during local development. The tunebook app checks `/health` on load and only shows resolver-backed controls when the resolver is reachable (and authorized when auth is required).
@@ -133,7 +133,7 @@ By default the llm service enables `LLM_LOG_TRAFFIC=true` (logs chat messages pl
 
 On non-AMD hosts without `/dev/kfd`, remove that device mapping from the `llm` service in `docker-compose.yml`.
 
-The resolver image predownloads the `autochord` chord model and NNLS-Chroma VAMP plugin during `docker compose build`. The first chord discovery request may still take a moment while TensorFlow loads the model into memory.
+The resolver image predownloads chord models during `docker compose build`: BTC maj/min weights under `/opt/btc-chords`, madmom chord/beat networks, and the legacy `autochord` TensorFlow model plus NNLS-Chroma VAMP plugin. At runtime `CHORD_BACKEND=auto` tries BTC, then madmom, then autochord.
 
 Resolver-backed chord and lyrics search prefer cheap sources first: free APIs
 and direct slug URLs, then web discovery (Brave when `BRAVE_SEARCH_API_KEY` is
@@ -173,7 +173,7 @@ bar of rests for the resolved meter. Text chord/lyric pairing (column anchors,
 section blanks) stays meter-blind. When sheet and notation meters disagree,
 ChordsWizard offers a keep-notation vs use-sheet choice before merge.
 
-Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), and **Demucs** (vocal separation). Models are prefetched at build time via `prefetch_madmom.py` and `prefetch_demucs.py`. If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning.
+Melody analysis uses a separate Python venv with **madmom** (beat/downbeat timing), **CREPE** or optional **basic-pitch** (polyphonic note events), **Demucs** (vocal separation), and **Kong** (ByteDance piano transcription via `piano_transcription_inference`). Models are prefetched at build time via `prefetch_madmom.py`, `prefetch_demucs.py`, `prefetch_basic_pitch.py`, and `prefetch_kong.py` (checkpoint under `/opt/kong-piano`). If madmom is unavailable at runtime, timing falls back to librosa with a stderr warning. Multi-instrument MT3 (`mt3-infer`) is not baked in (large); use `MELODY_AMT_PROVIDER=replicate` or install manually.
 
 Sheet image import (chord OCR + homr OMR) uses a separate `/opt/vision-venv`. During `docker compose build`, `prefetch_vision.py` runs `homr --init` and warms up PaddleOCR so ONNX and OCR weights are baked into the image. Paddle models are stored under `/opt/vision-cache/official_models`; homr and RapidOCR weights live inside the vision venv. The first sheet-image request should work offline after a successful build. Rebuild with `VISION_PREFETCH_DEVICE=gpu` in the Docker build args if you want homr/PaddleOCR GPU variants prefetched (optional).
 
@@ -187,17 +187,33 @@ Environment variables for the accuracy improvements:
 | `WHISPER_CPP_BEAM_SIZE` | `5` | Whisper beam size |
 | `WHISPER_LANGUAGE` | `en` | Whisper language hint |
 | `WHISPER_WORD_TIMESTAMPS` | `true` | Request word-level timestamps when supported |
-| `MELODY_BACKEND` | `auto` | `auto`, `basic-pitch`, `crepe`, or `pyin` |
-| `CHORD_CONSTRAIN_TO_KEY` | `true` | Snap smoothed chords toward the detected key |
+| `MELODY_BACKEND` | `auto` | `auto`, `basic-pitch`, `kong`, `mt3`, `crepe`, or `pyin`. `auto` uses Kong when `musicType=piano`, else basic-pitch then CREPE/pYIN |
+| `KONG_CHECKPOINT_PATH` | `/opt/kong-piano/note_F1=….pth` | Prefetched Kong weights (full image) |
+| `MELODY_AMT_PROVIDER` | *(empty)* | Set `replicate` to fall back to cloud Kong/MT3 when local packages/weights are missing |
+| `CHORD_BACKEND` | `auto` | `auto` (BTC→madmom→autochord), `btc`, `madmom`, or `autochord` |
+| `BTC_MODEL_DIR` | `/opt/btc-chords` | Directory containing `btc_model.pt` |
+| `BTC_CHECKPOINT_PATH` | *(empty)* | Optional explicit BTC checkpoint path |
+| `CHORD_CONSTRAIN_TO_KEY` | `true` | Snap smoothed chords toward the detected key (diatonic + V) |
 | `CHORD_MIN_DURATION_SECONDS` | `0.35` | Merge very short chord segments |
 | `CHORD_MEDIAN_WINDOW` | `3` | Median smoothing window for chord labels |
+| `CHORD_CHANGE_GRID` | `beat` | `beat`, `half-bar`, or `bar` chord persistence |
+| `STEM_CACHE_DIR` | `/tmp/stem-cache` | Shared Demucs cache for Stem Create and `/analyze-media` |
 
-The analyze payload can also include `whisperPrompt`, `melodyBackend`, and `snapToScale`.
+The analyze payload can also include `whisperPrompt`, `melodyBackend`, `musicType`, `stemCacheId`, `precreateStemsBeforeAnalyze`, `constrainChordsToKey`, `chordChangeGrid`, `detectedKey`/`key`, and `snapToScale`. Prefer creating stems once (Stem Create or “Stems first”) so analyze reuses `STEM_CACHE` instead of running Demucs twice.
+
+Optional AMT: Kong is installed and prefetched in the full image (`requirements-amt.txt` + `prefetch_kong.py`). Install `mt3-infer` separately only if you need local multi-instrument MT3.
 
 Local smoke evaluation without the UI:
 
 ```bash
 python3 local-resolver/eval_transcription.py /path/to/audio.wav
+python3 local-resolver/eval_transcription.py /path/to/audio.wav --melody-backends auto,basic-pitch,kong --music-type piano
+# Chord backends A/B (optional .lab ground truth):
+python3 local-resolver/scripts/eval_chords.py /path/to/audio.wav \
+  --backends auto,btc,madmom,autochord \
+  --lab /path/to/labels.lab \
+  --snapshot /tmp/chord-snapshots
+python3 local-resolver/scripts/eval_melody_backends.py /path/to/audio.wav --music-type piano
 ```
 
 ### Development (live source reload)

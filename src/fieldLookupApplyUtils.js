@@ -13,6 +13,9 @@ export function fieldLookupKindToFormKey(kind) {
   if (kind === 'title') return 'title'
   if (kind === 'artists') return 'artists'
   if (kind === 'aliases') return 'aliases'
+  if (kind === 'key') return 'keyName'
+  if (kind === 'tempo') return 'tempo'
+  if (kind === 'meter') return 'meter'
   return kind
 }
 
@@ -40,6 +43,12 @@ export function candidateDisplayValue(kind, candidate) {
   if (kind === 'title') return String(candidate.title || candidate.text || candidate.preview || '').trim()
   if (kind === 'artists') return String(candidate.artist || candidate.preview || '').trim()
   if (kind === 'aliases') return String(candidate.alias || candidate.preview || '').trim()
+  if (kind === 'tempo') {
+    const tempo = candidate.tempo != null ? candidate.tempo : candidate.preview
+    return tempo != null && String(tempo).trim() !== '' ? String(tempo).trim() : ''
+  }
+  if (kind === 'meter') return String(candidate.meter || candidate.preview || '').trim()
+  if (kind === 'key') return String(candidate.key || candidate.preview || '').trim()
   return String(candidate.preview || candidate.title || '').trim()
 }
 
@@ -92,6 +101,17 @@ export function isTuneFieldEmptyForKind(tune, kind) {
   if (kind === 'aliases') {
     return !Array.isArray(tune.aliases) || tune.aliases.length === 0
       || !tune.aliases.some(function(a) { return String(a || '').trim() })
+  }
+  if (kind === 'tempo') {
+    if (tune.tempo == null || tune.tempo === '') return true
+    const parsed = parseInt(String(tune.tempo).split('=').pop(), 10)
+    return isNaN(parsed) || parsed <= 0
+  }
+  if (kind === 'meter') {
+    return !String(tune.meter || '').trim()
+  }
+  if (kind === 'key') {
+    return !String(tune.key || '').trim()
   }
   return true
 }
@@ -185,6 +205,25 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     tune.aliases = tune.aliases.concat([alias])
     return true
   }
+  if (kind === 'tempo') {
+    const raw = candidate.tempo != null ? candidate.tempo : candidate.preview
+    const parsed = parseInt(String(raw == null ? '' : raw).split('=').pop(), 10)
+    if (isNaN(parsed) || parsed <= 0) return false
+    tune.tempo = parsed
+    return true
+  }
+  if (kind === 'meter') {
+    const meter = String(candidate.meter || candidate.preview || '').trim()
+    if (!meter) return false
+    tune.meter = meter
+    return true
+  }
+  if (kind === 'key') {
+    const key = String(candidate.key || candidate.preview || '').trim()
+    if (!key) return false
+    tune.key = key
+    return true
+  }
   return false
 }
 
@@ -198,6 +237,9 @@ export function historyLabelForKind(kind) {
   if (kind === 'title') return 'Update title'
   if (kind === 'artists') return 'Search artists'
   if (kind === 'aliases') return 'Search aliases'
+  if (kind === 'tempo') return 'Apply tempo'
+  if (kind === 'meter') return 'Apply time signature'
+  if (kind === 'key') return 'Apply key'
   return 'Field search'
 }
 
@@ -218,7 +260,13 @@ export function toastAppliedFieldLookup(kind, tuneName) {
                 ? 'artists'
                 : kind === 'aliases'
                   ? 'aliases'
-                  : 'search result'
+                  : kind === 'tempo'
+                    ? 'tempo'
+                    : kind === 'meter'
+                      ? 'time signature'
+                      : kind === 'key'
+                        ? 'key'
+                        : 'search result'
   toast.info('Updated ' + label + (tuneName ? (': ' + tuneName) : ''), {
     hideProgressBar: true,
     autoClose: 1500,

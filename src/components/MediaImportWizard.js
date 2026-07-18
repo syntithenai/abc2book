@@ -27,6 +27,7 @@ import {
   tuningSuggestionTunerUrl
 } from '../tuningSuggestionHeuristics';
 import { TUNER_INSTRUMENT_LABELS, getPreset } from '../instrumentTuningPresets';
+import { isCapabilityAvailable, loadProviderSettings } from '../providerSettings';
 
 const STEPS = [
   { key: 'metadata', title: 'Metadata' },
@@ -44,7 +45,7 @@ export default function MediaImportWizard(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
   const { available: resolverAvailable, features } = useMediaResolverHealth();
   const canAnalyzeMedia = resolverAvailable && features.whisper;
-  const canResearchBackground = resolverAvailable && features.llm;
+  const canResearchBackground = resolverAvailable && isCapabilityAvailable('llm', features, loadProviderSettings());
   const { analysis } = useTuneMediaAnalysis({ tune: props.tune });
 
   const metadata = draft && draft.metadata ? draft.metadata : {};

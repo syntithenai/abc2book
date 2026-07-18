@@ -12,6 +12,17 @@
   padding: 0.4rem 0.75rem;
 }
 
+.search-result-picker-comment {
+  margin: 0;
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.35rem;
+  background: #eef6fc;
+  border: 1px solid #cfe2f3;
+  color: #1a3a52;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 .search-result-picker-row-inner {
   display: flex;
   align-items: center;

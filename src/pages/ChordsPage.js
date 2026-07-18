@@ -18,6 +18,7 @@ import {
   chordVoicingsFromEntry,
   vexchordsTuningFromDiagram
 } from '../chordLibUtils'
+import { useDocumentTitle } from '../pageTitle'
 import ChordCheatSheetModal from '../components/ChordCheatSheetModal'
 var scale = require('music-scale')
 
@@ -73,6 +74,7 @@ function calcFrets(chordData) {
 }
 
 export default function ChordsPage(props) {
+    useDocumentTitle('Chords')
     var params = useParams()
     var chordsRef = useRef([])
     var schordsRef = useRef([])

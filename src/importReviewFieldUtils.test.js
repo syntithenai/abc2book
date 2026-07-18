@@ -16,7 +16,10 @@ describe('importReviewFieldUtils', function() {
   test('canApplyImportInline recognizes local parse kinds', function() {
     expect(canApplyImportInline('abc')).toBe(true);
     expect(canApplyImportInline('chordsheet')).toBe(true);
+    expect(canApplyImportInline('bulk-text')).toBe(true);
     expect(canApplyImportInline('musicxml')).toBe(false);
+    expect(canApplyImportInline('mscz')).toBe(false);
+    expect(canApplyImportInline('onsong')).toBe(false);
   });
 
   test('buildReviewFormState auto-fills empty title on merge', function() {

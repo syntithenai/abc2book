@@ -1,15 +1,15 @@
-# Tunebook YouTube Helper (browser extension)
+# TuneBook Helper (browser extension)
 
-Fetches YouTube audio **in your browser** (your ISP IP + session) so Tunebook can pitch-shift, filter, and cache linked videos without a cloud YouTube proxy or Webshare account.
+Loads audio **in your browser** (your ISP IP + session) so Tunebook can pitch-shift, filter, and cache linked media without a resolver.
 
 ## Install (preferred)
 
 1. In Tunebook, open **Settings → Media**
-2. Click **Download YouTube Helper** (serves `tunebook-youtube-helper.zip`)
-3. Unzip → folder `tunebook-youtube-helper`
+2. Click **Download TuneBook Helper** (serves `tunebook-helper.zip`)
+3. Unzip → folder `tunebook-helper`
 4. Chrome → `chrome://extensions` → enable **Developer mode** → **Load unpacked** → select that folder
 5. **Reload the Tunebook tab**
-6. Status should show **YouTube Helper: connected**
+6. Status should show **TuneBook Helper: connected**
 
 Use **How to install** on the same Settings panel for the full checklist (including the `data-tunebook-yt-helper` DevTools check).
 
@@ -22,7 +22,7 @@ Regenerate the zip after editing this folder: `npm run package:youtube-helper` (
 3. **Load unpacked** → select this `browser-extension` folder (the folder that contains `manifest.json`)
 4. Open Tunebook (`http://localhost:3000` or https://tunebook.net)
 5. **Reload that Tunebook tab** (required after install/update)
-6. Settings → Media → **YouTube Helper: connected**
+6. Settings → Media → **TuneBook Helper: connected**
 
 If status stays “not connected”:
 

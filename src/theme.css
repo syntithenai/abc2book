@@ -297,7 +297,7 @@ body {
 }
 
 .App-settings {
-  max-width: 56rem;
+  max-width: 72rem;
   padding: 0.5rem 1rem 2rem;
   color: var(--app-text);
 }
@@ -395,6 +395,85 @@ body {
   font-size: 0.8rem;
   color: var(--app-text-muted);
   line-height: 1.25;
+}
+
+.App-providers-intro {
+  margin-bottom: 0.75rem;
+}
+
+.App-providers-intro-text {
+  margin-bottom: 0.35rem;
+  line-height: 1.35;
+}
+
+.App-providers-intro-note {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.App-providers-status-table {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+  font-size: 0.78rem;
+}
+
+.App-providers-status-table th,
+.App-providers-status-table td {
+  padding: 0.28rem 0.45rem;
+  vertical-align: middle;
+}
+
+.App-providers-using-cell {
+  color: var(--app-text-muted);
+  word-break: break-word;
+}
+
+.App-providers-status-pill {
+  display: inline-block;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.App-providers-status-pill.is-connected {
+  color: #1b7a3d;
+}
+
+.App-providers-status-pill.is-unavailable {
+  color: #b42318;
+}
+
+.App-providers-tabs-panel {
+  margin-top: 0.75rem;
+}
+
+.App-providers-model-input {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9rem;
+}
+
+.App-providers-model-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.App-providers-model-chip {
+  border: 1px solid var(--app-border, #ced4da);
+  background: var(--app-surface-muted, #f8f9fa);
+  color: var(--app-text);
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  padding: 0.2rem 0.45rem;
+  cursor: pointer;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.App-providers-model-chip:hover {
+  border-color: var(--app-brand-border, #86b7fe);
+  background: var(--app-surface, #fff);
 }
 
 .App-header {

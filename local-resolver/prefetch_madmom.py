@@ -1,4 +1,4 @@
-"""Predownload madmom RNN weights during image build."""
+"""Predownload madmom RNN and chord weights during image build."""
 
 import contextlib
 import io
@@ -12,10 +12,13 @@ def main():
         # constructors need runtime args like fps), so we skip them here.
         from madmom.features.beats import RNNBeatProcessor
         from madmom.features.downbeats import RNNDownBeatProcessor
+        from madmom.features.chords import CNNChordFeatureProcessor, CRFChordRecognitionProcessor
 
         RNNBeatProcessor()
         RNNDownBeatProcessor()
-    print("madmom: beat and downbeat models prefetched")
+        CNNChordFeatureProcessor()
+        CRFChordRecognitionProcessor()
+    print("madmom: beat, downbeat, and chord models prefetched")
 
 
 if __name__ == "__main__":

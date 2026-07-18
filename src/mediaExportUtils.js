@@ -9,9 +9,8 @@ import { trimAudioBuffer, getLinkTrimBounds } from './mediaAudioTrim'
 
 async function decodeCachedAudio(blob) {
   const arrayBuffer = await blob.arrayBuffer()
-  const decodeModule = await import('audio-decode')
-  const decode = decodeModule.default || decodeModule
-  return decode(arrayBuffer)
+  const { decodeAudioBytes } = await import('./audioDecodeBytes')
+  return decodeAudioBytes(arrayBuffer)
 }
 
 function normalizeAudioFormat(audioFormat) {

@@ -15,12 +15,7 @@ from browser_fetch import (
 )
 from polite_fetch import BROWSER_USER_AGENT
 from recording_artists import discover_recording_artists, is_generic_artist
-from tune_background_research import (
-    LLM_API_KEY,
-    LLM_BASE_URL,
-    LLM_MODEL,
-    LLM_TIMEOUT_SECONDS,
-)
+from tune_background_research import LLM_TIMEOUT_SECONDS
 
 CHORDS_FETCH_TIMEOUT_SECONDS = 20.0
 CHORD_SEARCH_RESULTS_PER_QUERY = int(os.getenv("CHORD_SEARCH_RESULTS_PER_QUERY", "8"))
@@ -426,6 +421,8 @@ async def translate_cifraclub_section_labels(client, sheet_lines):
     if not labels_to_translate:
         return sheet_lines
 
+    from llm_runtime import enrich_chat_completion_payload, llm_auth_headers, llm_chat_url, llm_model
+
     prompt = (
         "Translate these chord-sheet section labels from Portuguese or Spanish into concise English.\n"
         "Keep square brackets when present.\n"
@@ -434,13 +431,10 @@ async def translate_cifraclub_section_labels(client, sheet_lines):
         + json.dumps(labels_to_translate, ensure_ascii=False)
     )
     response = await client.post(
-        f"{LLM_BASE_URL}/chat/completions",
-        headers={
-            "Authorization": f"Bearer {LLM_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": LLM_MODEL,
+        llm_chat_url(),
+        headers=llm_auth_headers(),
+        json=enrich_chat_completion_payload({
+            "model": llm_model(),
             "messages": [
                 {
                     "role": "system",
@@ -453,7 +447,7 @@ async def translate_cifraclub_section_labels(client, sheet_lines):
             ],
             "temperature": 0.1,
             "max_tokens": 1024,
-        },
+        }),
         timeout=LLM_TIMEOUT_SECONDS,
     )
     response.raise_for_status()

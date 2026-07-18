@@ -5,9 +5,8 @@ import { encodeAudioBuffer } from './audioCompressEncode';
 
 async function decodeAudioBlob(blob) {
   const arrayBuffer = await blob.arrayBuffer();
-  const decodeModule = await import('audio-decode');
-  const decode = decodeModule.default || decodeModule;
-  return decode(arrayBuffer);
+  const { decodeAudioBytes } = await import('./audioDecodeBytes');
+  return decodeAudioBytes(arrayBuffer);
 }
 
 async function trimLocalBlobSource(source, tune, options, bounds) {

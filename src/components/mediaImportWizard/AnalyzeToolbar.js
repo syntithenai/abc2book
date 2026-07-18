@@ -8,10 +8,36 @@ import MelodyProcessingPanel, {
 import { FieldHelpModal } from '../FormFieldHelp';
 import { icons } from '../../Icons';
 import SearchProgressBar from '../SearchProgressBar';
-import { buildAnalysisProcessingPayload } from '../../melodyProcessingSettings';
+import { buildAnalysisProcessingPayload, resolveDemucsModelForSettings } from '../../melodyProcessingSettings';
 import { getLinkedMediaSourceByIndex } from '../../mediaTranscriptionSources';
 import { useAutoLinkPlaybackRegionScan } from '../../useAutoLinkPlaybackRegionScan';
 import { linkHasConfiguredPlayRange } from '../../linkPlaybackRegionScanUtils';
+import { getMediaResolverHealthState } from '../../mediaResolverHealthStore';
+
+function formatAnalysisStatusLine(analysis) {
+  if (!analysis || !analysis.formatted) return '';
+  const parts = ['Analysis complete'];
+  const raw = analysis.raw || {};
+  const inputs = raw.inputsUsed || {};
+  const chordsBackend = (raw.chords && raw.chords.backend) || inputs.chordBackend || '';
+  const melodyBackend = (raw.melody && raw.melody.backend) || inputs.melodyBackend || '';
+  if (chordsBackend) parts.push('chords via ' + chordsBackend);
+  if (melodyBackend) parts.push('melody via ' + melodyBackend);
+  if (inputs.keySource && inputs.keySource !== 'none') {
+    parts.push('key from ' + inputs.keySource);
+  }
+  if (inputs.stemModel) {
+    parts.push(inputs.fromStemCache ? ('stems cache ' + inputs.stemModel) : ('stems ' + inputs.stemModel));
+  }
+  if (inputs.melodyVoicing) {
+    parts.push(inputs.melodyVoicing === 'full' ? 'full voicing' : 'melody line');
+  }
+  const warnings = Array.isArray(raw.warnings) ? raw.warnings : [];
+  if (warnings.length) {
+    parts.push('warnings: ' + warnings.join(', '));
+  }
+  return parts.join(' · ') + '.';
+}
 
 function applyPlayRangeResultToTune(tune, linkIndex, result) {
   if (!tune || !Array.isArray(tune.links) || !result || linkIndex == null) return tune;
@@ -71,6 +97,8 @@ export default function MediaImportAnalyzeToolbar(props) {
   }, [maybeAutoScan, props.onLinksUpdated]);
 
   const getAnalysisOptions = useCallback(function(overrides) {
+    const health = getMediaResolverHealthState().status;
+    const fallbackModel = (health && health.demucsModel) || 'htdemucs';
     return Object.assign({
       // Keep results on the wizard draft while the modal stays open.
       skipPersist: true,
@@ -83,6 +111,8 @@ export default function MediaImportAnalyzeToolbar(props) {
           name: tune && tune.name,
           composer: tune && tune.composer,
           existingLyrics: existingLyrics,
+          key: (tune && (tune.key || (Array.isArray(tune.keys) && tune.keys[0]))) || '',
+          demucsModel: resolveDemucsModelForSettings(processingSettings, fallbackModel),
         }
       ),
     }, overrides || {});
@@ -224,6 +254,30 @@ export default function MediaImportAnalyzeToolbar(props) {
                         title="Enable time signature changes in chord and melody output"
                       />
                     </div>
+                    <div className="media-import-analyze-meter-segment">
+                      <Form.Check
+                        type="checkbox"
+                        id="media-import-precreate-stems"
+                        label="Stems first"
+                        checked={!processingSettings || processingSettings.precreateStemsBeforeAnalyze !== false}
+                        onChange={function(e) { updateProcessingField('precreateStemsBeforeAnalyze', e.target.checked); }}
+                        title="Create or reuse Demucs stems before analyse for better chords and melody"
+                      />
+                    </div>
+                    {(processingSettings && processingSettings.musicType) === 'piano' && (
+                      <div className="media-import-analyze-meter-segment">
+                        <Form.Check
+                          type="checkbox"
+                          id="media-import-full-piano-voicing"
+                          label="Full piano voicing"
+                          checked={!processingSettings.melodyVoicing || processingSettings.melodyVoicing === 'full'}
+                          onChange={function(e) {
+                            updateProcessingField('melodyVoicing', e.target.checked ? 'full' : 'melody-line');
+                          }}
+                          title="Keep simultaneous piano notes instead of collapsing to a single melody line"
+                        />
+                      </div>
+                    )}
                     <Button
                       variant="primary"
                       disabled={!canStartAnalysis}
@@ -314,7 +368,7 @@ export default function MediaImportAnalyzeToolbar(props) {
       {error && <Alert variant="danger" className="media-import-analyze-alert">{error}</Alert>}
       {analysis && analysis.formatted && (
         <Alert variant="success" className="media-import-analyze-alert">
-          Analysis complete.
+          {formatAnalysisStatusLine(analysis)}
         </Alert>
       )}
       {showSourceDialog && canAnalyzeMedia && (

@@ -6,8 +6,10 @@ import {
   drawableElementsForVoice,
   findDrawableDomIndex,
   isStaffDrawableEvent,
+  noteheadCenterInElement,
   staffCaretAnchorRect,
   staffSelectionAnchorRects,
+  staffNoteheadCentersForEventIds,
   countBarlinesBefore,
   eventIndexForBarDomIndex,
 } from './staffCaretPosition';
@@ -552,6 +554,67 @@ describe('staffCaretPosition', function() {
     expect(rects).toHaveLength(1);
     expect(rects[0].left).toBe(80);
     expect(rects[0].width).toBe(16);
+
+    document.body.removeChild(wrap);
+  });
+
+  test('noteheadCenterInElement prefers head path over stem box mid', function() {
+    const note = document.createElement('g');
+    note.className = 'abcjs-note';
+    note.getBoundingClientRect = function() {
+      return { left: 40, top: 10, right: 56, bottom: 50, width: 16, height: 40 };
+    };
+    const stem = document.createElement('path');
+    stem.setAttribute('class', 'abcjs-stem');
+    stem.getBoundingClientRect = function() {
+      return { left: 52, top: 10, right: 54, bottom: 40, width: 2, height: 30 };
+    };
+    const head = document.createElement('path');
+    head.setAttribute('class', 'abcjs-notehead');
+    head.getBoundingClientRect = function() {
+      return { left: 40, top: 38, right: 54, bottom: 48, width: 14, height: 10 };
+    };
+    note.appendChild(stem);
+    note.appendChild(head);
+
+    const center = noteheadCenterInElement(note);
+    expect(center.y).toBe(43);
+    expect(center.x).toBe(47);
+  });
+
+  test('staffNoteheadCentersForEventIds offsets from wrap and ignores rests', function() {
+    const wrap = document.createElement('div');
+    wrap.getBoundingClientRect = function() {
+      return { left: 10, top: 5, right: 410, bottom: 125, width: 400, height: 120 };
+    };
+    const note = document.createElement('g');
+    note.className = 'abcjs-note abcjs-v0';
+    note.getBoundingClientRect = function() {
+      return { left: 50, top: 20, right: 66, bottom: 60, width: 16, height: 40 };
+    };
+    const head = document.createElement('path');
+    head.setAttribute('class', 'abcjs-notehead');
+    head.getBoundingClientRect = function() {
+      return { left: 50, top: 48, right: 64, bottom: 58, width: 14, height: 10 };
+    };
+    note.appendChild(head);
+    const rest = document.createElement('g');
+    rest.className = 'abcjs-rest abcjs-v0';
+    rest.getBoundingClientRect = function() {
+      return { left: 90, top: 30, right: 100, bottom: 50, width: 10, height: 20 };
+    };
+    wrap.appendChild(note);
+    wrap.appendChild(rest);
+    document.body.appendChild(wrap);
+
+    const events = [
+      { id: 'n1', type: 'note' },
+      { id: 'r1', type: 'rest' },
+    ];
+    const centers = staffNoteheadCentersForEventIds(wrap, events, ['n1', 'r1'], 0);
+    expect(centers).toHaveLength(1);
+    expect(centers[0].x).toBe(47); // 57 - 10
+    expect(centers[0].y).toBe(48); // 53 - 5
 
     document.body.removeChild(wrap);
   });

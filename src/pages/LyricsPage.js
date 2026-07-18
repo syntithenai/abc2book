@@ -18,6 +18,7 @@ import {
   lookupLookupHub,
   lookupReverseDictionary,
 } from '../lyricsWordToolsApi'
+import { useDocumentTitle } from '../pageTitle'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { LYRICS_TOOLS_CLOSE_MESSAGE } from '../embedFrameUtils'
 
@@ -377,6 +378,7 @@ function ExpandableSection(props) {
 }
 
 export default function LyricsPage(props) {
+  useDocumentTitle('Lyrics')
   const [searchParams, setSearchParams] = useSearchParams()
   const accessToken = props.token || ''
   const [lookupQuery, setLookupQuery] = useState(searchParams.get('q') || searchParams.get('toolQ') || '')

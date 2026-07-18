@@ -23,6 +23,7 @@ const RESOLVER_PATHS = new Set([
   '/enrich-feed-sources',
   '/help-query',
   '/discover-composer',
+  '/discover-genre',
   '/separate-stems',
   '/midi2xml',
   '/abc2xml',
@@ -35,7 +36,6 @@ const STATIC_RESOURCE_PREFIXES = [
   '/scrape/',
   '/abcresources/',
   '/midi-js-soundfonts/',
-  '/book_images/',
 ];
 
 function shouldProxyResolver(pathname) {
