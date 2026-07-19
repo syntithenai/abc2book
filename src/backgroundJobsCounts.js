@@ -5,6 +5,7 @@ import * as mediaCacheQueue from './mediaCacheQueue'
 import * as stemCreateQueue from './stemCreateQueue'
 import { getAllPlaybackRegionScanJobs } from './playbackRegionScanJobs'
 import { getAllMediaAnalysisJobs } from './mediaAnalysisJobs'
+import { getFileOcrJobs } from './fileOcrJobs'
 import {
   getActiveBulkCheckSession,
   isBulkCheckPhaseRunning,
@@ -53,6 +54,12 @@ export function countMediaAnalysisIncomplete() {
   }).length
 }
 
+export function countFileOcrIncomplete() {
+  return getFileOcrJobs().filter(function(job) {
+    return job.status === 'pending' || job.status === 'running'
+  }).length
+}
+
 export function countBulkCheckIncomplete() {
   const session = getActiveBulkCheckSession()
   if (!session) return 0
@@ -85,6 +92,7 @@ export const BACKGROUND_JOB_TAB_ORDER = [
   { eventKey: 'playback-scans', countKey: 'playbackScans' },
   { eventKey: 'bulk-check', countKey: 'bulkCheck' },
   { eventKey: 'media-analysis', countKey: 'mediaAnalysis' },
+  { eventKey: 'file-ocr', countKey: 'fileOcr' },
   { eventKey: 'import-enrichment', countKey: 'importEnrichment' },
   { eventKey: 'active-searches', countKey: 'activeSearches' },
 ]
@@ -97,6 +105,7 @@ export function getBackgroundJobTabCounts(mediaController) {
     stemCreate: countStemCreateIncomplete(mediaController),
     playbackScans: countPlaybackScanIncomplete(),
     mediaAnalysis: countMediaAnalysisIncomplete(),
+    fileOcr: countFileOcrIncomplete(),
     bulkCheck: countBulkCheckIncomplete(),
     importEnrichment: countImportEnrichmentIncomplete(),
     activeSearches: countActiveSearchIncomplete(),
@@ -122,6 +131,7 @@ export function getBackgroundJobTabCountsKey(mediaController) {
     counts.stemCreate,
     counts.playbackScans,
     counts.mediaAnalysis,
+    counts.fileOcr,
     counts.bulkCheck,
     counts.importEnrichment,
     counts.activeSearches,

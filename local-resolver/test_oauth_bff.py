@@ -198,7 +198,10 @@ class OAuthBffTests(unittest.TestCase):
     def test_exchange_missing_refresh_token(self):
         handlers = {
             ("POST", oauth_bff.GOOGLE_TOKEN_URL): lambda data: FakeResponse(
-                200, {"access_token": "a", "expires_in": 3600}
+                200, {"access_token": "a", "expires_in": 3600, "scope": "email"}
+            ),
+            ("GET", oauth_bff.GOOGLE_USERINFO_URL): lambda headers: FakeResponse(
+                200, {"email": "online@example.com", "name": "Online"}
             ),
         }
         with patch("oauth_bff.httpx.AsyncClient", return_value=FakeAsyncClient(handlers)):
@@ -210,8 +213,12 @@ class OAuthBffTests(unittest.TestCase):
                     "redirect_uri": "http://localhost:3000",
                 },
             )
-        self.assertEqual(response.status_code, 400)
-        self.assertEqual(response.json()["error"], "refresh_token_missing")
+        self.assertEqual(response.status_code, 200)
+        body = response.json()
+        self.assertEqual(body["access_token"], "a")
+        self.assertEqual(body["email"], "online@example.com")
+        self.assertEqual(body.get("session_id") or "", "")
+        self.assertFalse(body.get("offline"))
 
     def test_logout_deletes_session(self):
         oauth_bff.upsert_session(
@@ -221,15 +228,22 @@ class OAuthBffTests(unittest.TestCase):
             allowed_for_media=False,
             session_id="sess-1",
         )
-        with patch("oauth_bff.httpx.AsyncClient", return_value=FakeAsyncClient({
-            ("POST", oauth_bff.GOOGLE_REVOKE_URL): lambda data: FakeResponse(200, {}),
-        })):
+        # Logout clears our session and must not call Google revoke.
+        calls = []
+
+        class TrackingClient(FakeAsyncClient):
+            async def post(self, url, data=None, **kwargs):
+                calls.append(("POST", url))
+                return await super().post(url, data=data, **kwargs)
+
+        with patch("oauth_bff.httpx.AsyncClient", return_value=TrackingClient({})):
             response = self.client.post(
                 "/auth/google/logout",
                 headers={"X-Abc-Auth-Session": "sess-1"},
             )
         self.assertEqual(response.status_code, 200)
         self.assertIsNone(oauth_bff.get_session("sess-1"))
+        self.assertEqual(calls, [])
 
 
 if __name__ == "__main__":

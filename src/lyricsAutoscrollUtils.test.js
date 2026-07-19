@@ -533,4 +533,74 @@ describe('lyricsAutoscrollUtils', function() {
     expect(isAtLyricsScrollBottom(state, 498)).toBe(true);
     expect(isAtLyricsScrollBottom(state, 490)).toBe(false);
   });
+
+  test('lyrics+structure sync scrolls by lyrics height, not sticky structure', function() {
+    const root = document.createElement('div');
+    root.className = 'music-single';
+    const host = document.createElement('div');
+    host.className = 'tune-lyrics-structure-sync-host';
+    const inner = document.createElement('div');
+    inner.className = 'tune-lyrics-structure-sync-inner';
+    const lyricsCol = document.createElement('div');
+    lyricsCol.className = 'tune-lyrics-structure-sync-lyrics tune-panel-lyrics';
+    const lyricsView = document.createElement('div');
+    lyricsView.className = 'timed-lyrics-chords-view';
+    const line1 = document.createElement('div');
+    line1.className = 'lyrics-line';
+    line1.textContent = 'Verse one';
+    const line2 = document.createElement('div');
+    line2.className = 'lyrics-line';
+    line2.textContent = 'Verse two';
+    lyricsView.appendChild(line1);
+    lyricsView.appendChild(line2);
+    lyricsCol.appendChild(lyricsView);
+    const structureCol = document.createElement('div');
+    structureCol.className = 'tune-lyrics-structure-sync-structure tune-panel-structure';
+    const section = document.createElement('div');
+    section.className = 'structure-section';
+    section.textContent = 'A';
+    structureCol.appendChild(section);
+    inner.appendChild(lyricsCol);
+    inner.appendChild(structureCol);
+    host.appendChild(inner);
+    root.appendChild(host);
+    document.body.appendChild(root);
+
+    Object.defineProperty(window, 'scrollY', { configurable: true, writable: true, value: 0 });
+    Object.defineProperty(window, 'innerHeight', { configurable: true, writable: true, value: 700 });
+    Object.defineProperty(document.documentElement, 'scrollHeight', { configurable: true, value: 2400 });
+
+    jest.spyOn(host, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 2000, left: 0, right: 800, width: 800, height: 1900,
+    });
+    jest.spyOn(lyricsCol, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 2000, left: 0, right: 520, width: 520, height: 1900,
+    });
+    jest.spyOn(lyricsView, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 2000, left: 0, right: 520, width: 520, height: 1900,
+    });
+    jest.spyOn(line1, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 130, left: 0, right: 520, width: 520, height: 30,
+    });
+    jest.spyOn(line2, 'getBoundingClientRect').mockReturnValue({
+      top: 1900, bottom: 1930, left: 0, right: 520, width: 520, height: 30,
+    });
+    // Sticky structure stays in the viewport — must not define scroll end.
+    jest.spyOn(structureCol, 'getBoundingClientRect').mockReturnValue({
+      top: 100, bottom: 700, left: 540, right: 800, width: 260, height: 600,
+    });
+    jest.spyOn(section, 'getBoundingClientRect').mockReturnValue({
+      top: 120, bottom: 680, left: 540, right: 800, width: 260, height: 560,
+    });
+
+    const context = getLyricsScrollContext(root);
+    expect(context.lyricsRoot).toBe(lyricsCol);
+    expect(context.mode).toBe('window');
+
+    const metrics = getLyricsScrollMetrics(context.lyricsRoot, context, root);
+    expect(metrics.mode).toBe('window');
+    expect(metrics.distance).toBeGreaterThan(1000);
+
+    document.body.removeChild(root);
+  });
 });

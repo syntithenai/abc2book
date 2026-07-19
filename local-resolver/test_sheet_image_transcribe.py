@@ -159,7 +159,7 @@ class SheetImageTranscribeTests(unittest.IsolatedAsyncioTestCase):
         with open(fixture, "rb") as handle:
             data = handle.read()
 
-        with patch("sheet_image_transcribe.paddleocr_available", return_value=True), patch(
+        with patch("sheet_image_transcribe.ensure_paddleocr_available", return_value=True), patch(
             "sheet_image_transcribe.extract_ocr_boxes",
             return_value=[
                 {"text": "Verse", "x": 10, "y": 10, "width": 40, "height": 12, "confidence": 0.9},
@@ -168,7 +168,7 @@ class SheetImageTranscribeTests(unittest.IsolatedAsyncioTestCase):
                 {"text": "Amazing", "x": 10, "y": 70, "width": 60, "height": 12, "confidence": 0.9},
                 {"text": "grace", "x": 80, "y": 70, "width": 40, "height": 12, "confidence": 0.9},
             ],
-        ), patch("sheet_image_transcribe.homr_available", return_value=False), patch(
+        ), patch("sheet_image_transcribe.ensure_homr_available", return_value=False), patch(
             "sheet_image_transcribe.maybe_apply_vlm_fallback",
             new=AsyncMock(return_value=None),
         ):
@@ -188,10 +188,10 @@ class SheetImageTranscribeTests(unittest.IsolatedAsyncioTestCase):
         with open(fixture, "rb") as handle:
             data = handle.read()
 
-        with patch("sheet_image_transcribe.paddleocr_available", return_value=True), patch(
+        with patch("sheet_image_transcribe.ensure_paddleocr_available", return_value=True), patch(
             "sheet_image_transcribe.extract_ocr_boxes",
             return_value=[],
-        ), patch("sheet_image_transcribe.homr_available", return_value=True), patch(
+        ), patch("sheet_image_transcribe.ensure_homr_available", return_value=True), patch(
             "sheet_image_transcribe._extract_melody",
             side_effect=RuntimeError("No noteheads found"),
         ), patch(

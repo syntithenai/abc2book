@@ -66,7 +66,10 @@ export default function ImportCollectionsAccordion(props) {
 
     function renderGroupBooks(groupItems) {
         var groupOptions = Object.keys(groupItems)
-        groupOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
+        // Flat curated panel keeps CuratedTuneBooks insertion order; accordion sorts A–Z.
+        if (!flat) {
+            groupOptions.sort(function(a,b) {if (a > b) return 1; else return -1})
+        }
         return groupOptions.map(function(bookTitle) {
             return renderBookButton(bookTitle, groupItems[bookTitle], bookTitle)
         })
@@ -78,13 +81,16 @@ export default function ImportCollectionsAccordion(props) {
         })
     }
 
+    var hideGroupHeadings = props.hideGroupHeadings === true
     if (flat) {
         return (
             <div className="import-collections-flat" data-testid="import-collections-flat">
                 {Object.keys(collatedCurated).map(function(groupTitle, gk) {
                     return (
                         <div key={gk} className="import-collections-flat-group" style={{marginBottom: '0.8em'}}>
-                            <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>{groupTitle}</h4>
+                            {!hideGroupHeadings ? (
+                                <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>{groupTitle}</h4>
+                            ) : null}
                             <div className="import-collections-flat-books">
                                 {renderGroupBooks(collatedCurated[groupTitle])}
                             </div>
@@ -93,7 +99,9 @@ export default function ImportCollectionsAccordion(props) {
                 })}
                 {Object.keys(notCollatedCurated).length > 0 ? (
                     <div className="import-collections-flat-group" style={{marginBottom: '0.8em'}}>
-                        <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>Other</h4>
+                        {!hideGroupHeadings ? (
+                            <h4 className="import-collections-flat-heading" style={{fontSize: '1rem', marginBottom: '0.4em'}}>Other</h4>
+                        ) : null}
                         <div className="import-collections-flat-books">
                             {renderOtherBooks()}
                         </div>

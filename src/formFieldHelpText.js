@@ -1,3 +1,13 @@
+import React from 'react'
+
+function chromeExtensionsLink() {
+  return React.createElement(
+    'a',
+    { href: 'chrome://extensions', target: '_blank', rel: 'noreferrer' },
+    'chrome://extensions'
+  )
+}
+
 export const EDITOR_INFO_FIELD_HELP = {
   tuning: {
     title: 'Tuning',
@@ -123,7 +133,11 @@ export const SETTINGS_FIELD_HELP = {
       },
       {
         title: '3. Load unpacked in Chrome',
-        body: 'Open chrome://extensions, turn on Developer mode, click Load unpacked, and select that folder.',
+        body: [
+          'Open ',
+          chromeExtensionsLink(),
+          ', turn on Developer mode, click Load unpacked, and select that folder.',
+        ],
       },
       {
         title: '4. Reload Tunebook',
@@ -131,7 +145,11 @@ export const SETTINGS_FIELD_HELP = {
       },
       {
         title: '5. Confirm connected',
-        body: 'Status on Settings → Media should show connected. In DevTools → Elements, <html> should have data-tunebook-yt-helper. If it stays disconnected, reload the extension on chrome://extensions, then hard-reload Tunebook again.',
+        body: [
+          'Status on Settings → Media should show connected. If it stays disconnected, reload the extension on ',
+          chromeExtensionsLink(),
+          ', then hard-reload Tunebook again.',
+        ],
       },
     ],
   },
@@ -149,7 +167,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   backgroundJobs: {
     title: 'Background jobs',
-    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
+    body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
   },
 };
 

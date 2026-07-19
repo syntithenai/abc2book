@@ -279,13 +279,6 @@ async def exchange_authorization_code(
         if not access_token:
             return {"error": "token_exchange_failed", "status": 400, "detail": "no access_token"}
 
-        if not refresh_token:
-            return {
-                "error": "refresh_token_missing",
-                "status": 400,
-                "hint": "Re-consent with prompt=consent to obtain a refresh token",
-            }
-
         userinfo_resp = await client.get(
             GOOGLE_USERINFO_URL,
             headers={"Authorization": "Bearer " + access_token},
@@ -310,15 +303,7 @@ async def exchange_authorization_code(
             )
 
         allowed = _email_allowed(email, allowed_emails)
-        session_id = upsert_session(
-            email=email,
-            refresh_token=refresh_token,
-            scopes=scope,
-            allowed_for_media=allowed,
-        )
-
-        return {
-            "session_id": session_id,
+        profile_payload = {
             "access_token": access_token,
             "expires_in": expires_in,
             "scope": scope,
@@ -328,6 +313,28 @@ async def exchange_authorization_code(
             "given_name": profile.get("given_name") or "",
             "family_name": profile.get("family_name") or "",
             "allowed_for_media": allowed,
+        }
+
+        # Google often omits refresh_token unless prompt=consent. Still allow
+        # interactive login with the access token; SPA falls back when renewing.
+        if not refresh_token:
+            return {
+                "session_id": "",
+                "offline": False,
+                **profile_payload,
+            }
+
+        session_id = upsert_session(
+            email=email,
+            refresh_token=refresh_token,
+            scopes=scope,
+            allowed_for_media=allowed,
+        )
+
+        return {
+            "session_id": session_id,
+            "offline": True,
+            **profile_payload,
         }
 
 
@@ -408,9 +415,9 @@ async def load_session_with_token(session_id: str) -> dict[str, Any]:
 
 
 async def logout_session(session_id: str) -> dict[str, Any]:
-    session = get_session(session_id)
-    if session:
-        await _revoke_token_best_effort(session["refresh_token"])
+    # Clear our session only. Do not revoke the Google grant — revoking forces
+    # account/email/Drive consent screens on every subsequent Login.
+    if session_id:
         delete_session(session_id)
     return {"ok": True}
 

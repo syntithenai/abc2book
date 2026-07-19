@@ -1,7 +1,6 @@
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
 import {
-  clearAuthSessionStorage,
   exchangeAuthCode,
   loadAuthSession,
   logoutAuthSession,
@@ -29,7 +28,7 @@ export function createOAuthBffController(ctx) {
   var refreshInFlight = null
   var grantedExtraScopes = []
   var forceConsentNext = false
-  var disposed = false
+  var authRequestSeq = 0
 
   function getAuthBase() {
     return (ctx.getAuthBase && ctx.getAuthBase()) || ''
@@ -97,68 +96,74 @@ export function createOAuthBffController(ctx) {
     return normalized
   }
 
-  function waitForGsiOauth2() {
-    return new Promise(function(resolve, reject) {
-      var tries = 0
-      function tick() {
-        if (disposed) {
-          reject(new Error('disposed'))
-          return
-        }
-        if (global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2) {
-          resolve(global.window.google.accounts.oauth2)
-          return
-        }
-        tries += 1
-        if (tries > 100) {
-          reject(new Error('Google sign-in is still loading'))
-          return
-        }
-        setTimeout(tick, 100)
-      }
-      tick()
-    })
+  function formatGisError(err) {
+    if (!err) return 'Authorization cancelled'
+    if (typeof err === 'string') return err
+    var type = err.type ? String(err.type) : ''
+    var message = err.message ? String(err.message) : ''
+    if (type === 'popup_closed' || type === 'popup_closed_by_user') {
+      return 'Sign-in cancelled'
+    }
+    if (type === 'popup_failed_to_open' || /failed to open popup/i.test(message)) {
+      return 'Pop-up blocked. Allow pop-ups for this site and try Login again.'
+    }
+    // GIS / HMR can report this when a previous sign-in client was replaced.
+    if (type === 'disposed' || /^disposed$/i.test(message)) {
+      return 'Sign-in was interrupted. Close other Google sign-in windows and try Login again.'
+    }
+    return message || type || 'Authorization cancelled'
   }
 
   function requestAuthorizationCode(extraScopes, options) {
     var prompt = ''
     if (options && options.forceConsent) prompt = 'consent'
     else if (forceConsentNext) prompt = 'consent'
-    return waitForGsiOauth2().then(function(oauth2) {
-      return new Promise(function(resolve, reject) {
-        rememberExtraScopes(extraScopes)
-        var useScopes = mergeScopes(extraScopes)
-        var config = {
-          client_id: ctx.clientId,
-          scope: useScopes.join(' '),
-          ux_mode: 'popup',
-          include_granted_scopes: true,
-          // Offline access so the BFF receives a refresh_token.
-          // GIS accepts these fields for code clients.
-          callback: function(response) {
-            if (!response || response.error) {
-              reject(new Error((response && (response.error_description || response.error)) || 'Authorization failed'))
-              return
-            }
-            if (!response.code) {
-              reject(new Error('No authorization code returned'))
-              return
-            }
-            forceConsentNext = false
-            resolve({
-              code: response.code,
-              // GIS popup may not expose verifier; BFF accepts optional verifier.
-              code_verifier: response.code_verifier || '',
-            })
-          },
-          error_callback: function(err) {
-            reject(new Error((err && (err.message || err.type)) || 'Authorization cancelled'))
-          },
-        }
-        if (prompt) config.prompt = prompt
-        var client = oauth2.initCodeClient(config)
-        client.requestCode()
-      })
+    // Prefer a synchronous GIS open on login clicks. Polling for GSI here
+    // runs after setTimeout and browsers block the OAuth popup.
+    var oauth2 = global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2
+    if (!oauth2) {
+      return Promise.reject(new Error('Google sign-in is still loading'))
+    }
+    var requestId = ++authRequestSeq
+    return new Promise(function(resolve, reject) {
+      rememberExtraScopes(extraScopes)
+      var useScopes = mergeScopes(extraScopes)
+      var settled = false
+      function settle(fn, value) {
+        if (settled || requestId !== authRequestSeq) return
+        settled = true
+        fn(value)
+      }
+      var config = {
+        client_id: ctx.clientId,
+        scope: useScopes.join(' '),
+        ux_mode: 'popup',
+        include_granted_scopes: true,
+        // Offline access so the BFF receives a refresh_token.
+        // GIS accepts these fields for code clients.
+        callback: function(response) {
+          if (!response || response.error) {
+            settle(reject, new Error((response && (response.error_description || response.error)) || 'Authorization failed'))
+            return
+          }
+          if (!response.code) {
+            settle(reject, new Error('No authorization code returned'))
+            return
+          }
+          forceConsentNext = false
+          settle(resolve, {
+            code: response.code,
+            // GIS popup may not expose verifier; BFF accepts optional verifier.
+            code_verifier: response.code_verifier || '',
+          })
+        },
+        error_callback: function(err) {
+          settle(reject, new Error(formatGisError(err)))
+        },
+      }
+      if (prompt) config.prompt = prompt
+      var client = oauth2.initCodeClient(config)
+      client.requestCode()
     })
   }
 
@@ -182,13 +187,18 @@ export function createOAuthBffController(ctx) {
   }
 
   function login() {
-    var needsConsent = forceConsentNext || !readStoredAuthSessionId()
-    return requestAuthorizationCode(null, { forceConsent: needsConsent })
-      .then(exchangeCode)
-      .catch(function(err) {
-        console.warn('OAuth BFF login failed', err)
-        throw err
-      })
+    // Prefer the authorization-code popup without forcing consent. That skips
+    // Google's consent UI when the app was already granted (avoids the Token
+    // Client consent page that 500s for some accounts after prior BFF prompts).
+    // Only force consent when we previously learned a refresh_token is required.
+    function attempt(forceConsent) {
+      return requestAuthorizationCode(null, { forceConsent: !!forceConsent }).then(exchangeCode)
+    }
+    var forced = !!forceConsentNext
+    return attempt(forced).catch(function(err) {
+      console.warn('OAuth BFF login failed', err)
+      throw err
+    })
   }
 
   function requestGoogleScopes(extraScopes, options) {
@@ -255,8 +265,19 @@ export function createOAuthBffController(ctx) {
     var authBase = getAuthBase()
     var sessionId = readStoredAuthSessionId()
     clearTimeout(loginRefreshTimeout)
+    // Remember email for Token Client login_hint before clearing profile.
+    try {
+      var profile = null
+      try {
+        profile = JSON.parse(localStorage.getItem('google_login_profile') || 'null')
+      } catch (e) {}
+      if (profile && profile.email) {
+        localStorage.setItem('google_login_hint_email', profile.email)
+      }
+    } catch (e) {}
     return logoutAuthSession(authBase, sessionId).finally(function() {
-      clearAuthSessionStorage()
+      // Drop session id only. Keep sticky auth base. Do not revoke Google grant.
+      storeAuthSessionId('')
       ctx.setUser(null)
       ctx.setAccessToken(null)
       localStorage.setItem('google_login_user', '')
@@ -274,7 +295,6 @@ export function createOAuthBffController(ctx) {
   }
 
   function dispose() {
-    disposed = true
     clearTimeout(loginRefreshTimeout)
   }
 

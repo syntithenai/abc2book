@@ -26,18 +26,44 @@ import {
   __resetForTests,
 } from './longRunningJobRegistry'
 import {
+  enqueueFileOcrJob,
+  cancelFileOcrJob,
+  clearInactiveFileOcrJobs,
+  getFileOcrJobs,
+  __resetFileOcrJobsForTests,
+} from './fileOcrJobs'
+import {
   countPlaybackScanIncomplete,
   countMediaAnalysisIncomplete,
+  countFileOcrIncomplete,
   countImportEnrichmentIncomplete,
   countActiveSearchIncomplete,
   getFirstActiveBackgroundJobTab,
 } from './backgroundJobsCounts'
+
+jest.mock('./tuneFiles', function() {
+  return {
+    resolveTuneFileBlob: jest.fn(function() {
+      return Promise.resolve({ blob: new Blob(['x'], { type: 'image/png' }) })
+    }),
+  }
+})
+
+jest.mock('./sheetImageTranscriptionClient', function() {
+  return {
+    transcribeSheetImageFile: jest.fn(function() {
+      return new Promise(function() { /* hang so job stays active for cancel tests */ })
+    }),
+  }
+})
 
 describe('background job store APIs', function() {
   afterEach(function() {
     stemDownloadQueue.clearFinishedJobs()
     clearInactivePlaybackRegionScanJobs()
     clearInactiveMediaAnalysisJobs()
+    clearInactiveFileOcrJobs()
+    __resetFileOcrJobsForTests()
     clearImportReviewEnrichmentBridge()
     __resetImportReviewEnrichmentBridgeForTests()
     __resetForTests()
@@ -82,6 +108,24 @@ describe('background job store APIs', function() {
     })
     clearInactivePlaybackRegionScanJobs()
     expect(getAllPlaybackRegionScanJobs().length).toBe(0)
+  })
+
+  test('fileOcrJobs list, cancel, clear inactive, and count', function() {
+    const job = enqueueFileOcrJob({
+      tune: { id: 't-ocr', name: 'OCR Tune' },
+      meta: { id: 'f1', name: 'sheet.png', type: 'image/png' },
+    })
+    expect(getFileOcrJobs().length).toBe(1)
+    expect(countFileOcrIncomplete()).toBe(1)
+    expect(getFirstActiveBackgroundJobTab(null)).toBe('file-ocr')
+
+    // Cancel while still pending (before async runner starts)
+    cancelFileOcrJob(job.id)
+    expect(getFileOcrJobs()[0].status).toBe('cancelled')
+    expect(countFileOcrIncomplete()).toBe(0)
+
+    clearInactiveFileOcrJobs()
+    expect(getFileOcrJobs().length).toBe(0)
   })
 
   test('mediaAnalysisJobs list, cancel all, and clear inactive', function() {

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Button, ButtonGroup } from 'react-bootstrap';
 import useLyricsAutoscroll from '../useLyricsAutoscroll';
 import {
@@ -123,6 +124,8 @@ function AutoscrollControls(props) {
 export default function LyricsAutoscrollModal(props) {
   const [show, setShow] = useState(false);
   const barRef = useRef(null);
+  const triggerRef = useRef(null);
+  const ignoreBlurUntilRef = useRef(0);
 
   const tuneRef = useRef(props.tune);
   tuneRef.current = props.tune;
@@ -169,30 +172,56 @@ export default function LyricsAutoscrollModal(props) {
     };
   }, [show, props.setBlockKeyboardShortcuts, isInline]);
 
-  useEffect(function() {
-    if (isInline || !show || !barRef.current) return;
-    barRef.current.focus();
-  }, [show, isInline]);
-
-  function handleClose() {
+  const handleClose = useCallback(function() {
     autoscroll.stop();
     setShow(false);
     if (props.onAutoClose) props.onAutoClose();
-  }
+  }, [autoscroll.stop, props.onAutoClose]);
+
+  useEffect(function() {
+    if (isInline || !show || !barRef.current) return;
+    ignoreBlurUntilRef.current = Date.now() + 300;
+    barRef.current.focus({ preventScroll: true });
+  }, [show, isInline]);
+
+  // Close when pointer is outside the floating bar (blur alone fails on mobile).
+  useEffect(function() {
+    if (isInline || !show) return undefined;
+
+    function handlePointerDown(event) {
+      const target = event.target;
+      if (barRef.current && barRef.current.contains(target)) return;
+      if (triggerRef.current && triggerRef.current.contains(target)) return;
+      handleClose();
+    }
+
+    document.addEventListener('pointerdown', handlePointerDown, true);
+    return function() {
+      document.removeEventListener('pointerdown', handlePointerDown, true);
+    };
+  }, [show, isInline, handleClose]);
 
   function handleShow(e) {
     if (e) {
       e.preventDefault();
       e.stopPropagation();
     }
+    ignoreBlurUntilRef.current = Date.now() + 300;
     setShow(true);
   }
 
   function handleBarBlur(event) {
+    if (Date.now() < ignoreBlurUntilRef.current) return;
     const next = event.relatedTarget;
     if (!barRef.current) return;
     if (next && barRef.current.contains(next)) return;
-    handleClose();
+    // Defer so in-bar button clicks (relatedTarget often null on mobile) settle.
+    window.setTimeout(function() {
+      if (!barRef.current) return;
+      if (barRef.current.contains(document.activeElement)) return;
+      if (Date.now() < ignoreBlurUntilRef.current) return;
+      handleClose();
+    }, 0);
   }
 
   const barClassName = 'lyrics-autoscroll-bar'
@@ -219,33 +248,40 @@ export default function LyricsAutoscrollModal(props) {
     );
   }
 
+  const floatingBar = show ? (
+    <div
+      ref={barRef}
+      className={barClassName}
+      tabIndex={-1}
+      onBlur={handleBarBlur}
+      onClick={function(e) { e.stopPropagation(); }}
+    >
+      <div className="lyrics-autoscroll-bar-panel">
+        <div className="lyrics-autoscroll-bar-inner">
+          <AutoscrollControls {...controlProps} showClose={true} onClose={handleClose} />
+        </div>
+      </div>
+    </div>
+  ) : null;
+
   return (
     <>
-      <Button
-        variant={props.buttonVariant || 'outline-secondary'}
-        size={props.buttonSize || undefined}
-        className="music-toolbar-btn"
-        aria-label="Lyrics autoscroll"
-        onClick={handleShow}
-      >
-        {props.tunebook.icons.stopwatch}
-      </Button>
-
-      {show ? (
-        <div
-          ref={barRef}
-          className={barClassName}
-          tabIndex={-1}
-          onBlur={handleBarBlur}
-          onClick={function(e) { e.stopPropagation(); }}
+      <span ref={triggerRef} className="lyrics-autoscroll-trigger-wrap">
+        <Button
+          variant={props.buttonVariant || 'outline-secondary'}
+          size={props.buttonSize || undefined}
+          className="music-toolbar-btn"
+          aria-label="Lyrics autoscroll"
+          aria-expanded={show}
+          onClick={handleShow}
         >
-          <div className="lyrics-autoscroll-bar-panel">
-            <div className="lyrics-autoscroll-bar-inner">
-              <AutoscrollControls {...controlProps} showClose={true} onClose={handleClose} />
-            </div>
-          </div>
-        </div>
-      ) : null}
+          {props.tunebook.icons.stopwatch}
+        </Button>
+      </span>
+
+      {floatingBar && typeof document !== 'undefined'
+        ? createPortal(floatingBar, document.body)
+        : null}
     </>
   );
 }

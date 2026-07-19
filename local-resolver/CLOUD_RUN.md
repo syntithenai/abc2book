@@ -186,7 +186,7 @@ PROVIDER_LLM_BASE_URL: "https://api.groq.com/openai/v1"
 PROVIDER_LLM_MODEL: "openai/gpt-oss-120b"
 PROVIDER_OCR_PROVIDER: "groq"
 PROVIDER_OCR_BASE_URL: "https://api.groq.com/openai/v1"
-PROVIDER_OCR_MODEL: "meta-llama/llama-4-scout-17b-16e-instruct"
+PROVIDER_OCR_MODEL: "qwen/qwen3.6-27b"
 EOF
 
 gcloud run deploy tunebook-resolver-light \
@@ -268,7 +268,7 @@ On this Cloud Run service, `/youtube` needs one of:
 FREE_ACCESS_EMAILS=syntithenai@gmail.com
 EMBEDDED_CREDS_EMAILS=syntithenai@gmail.com
 PROVIDER_LLM_MODEL=openai/gpt-oss-120b
-PROVIDER_OCR_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
+PROVIDER_OCR_MODEL=qwen/qwen3.6-27b
 PROVIDER_WHISPER_MODEL=whisper-large-v3
 + Groq key in Secret Manager (provider-groq-api-key)
 ```

@@ -46,12 +46,23 @@ export function getFileOcrReviewSummary() {
   const jobs = getFileOcrJobs()
   const ready = []
   const processing = []
+  const failed = []
   jobs.forEach(function(job) {
     if (!job) return
     if (job.status === 'ready') ready.push(job.id)
     if (job.status === 'pending' || job.status === 'running') processing.push(job.id)
+    if (job.status === 'failed') failed.push(job.id)
   })
-  return { ready: ready, processing: processing, total: ready.length + processing.length }
+  return {
+    ready: ready,
+    processing: processing,
+    failed: failed,
+    total: ready.length + processing.length,
+  }
+}
+
+function isActiveFileOcrStatus(status) {
+  return status === 'pending' || status === 'running'
 }
 
 function proposedPatchesFromTranscription(body, tune) {
@@ -104,8 +115,13 @@ function proposedPatchesFromTranscription(body, tune) {
 async function runFileOcrJob(jobId, options) {
   const job = jobsById[jobId]
   if (!job) return
+  if (job.status === 'cancelled') return
+  const abortController = new AbortController()
+  job.abortController = abortController
   job.status = 'running'
   job.error = null
+  job.message = 'Loading file…'
+  job.progress = 0
   notify()
 
   try {
@@ -114,6 +130,11 @@ async function runFileOcrJob(jobId, options) {
       accessToken: options.accessToken || options.token,
       driveApi: options.driveApi,
     })
+    if (job.status === 'cancelled' || abortController.signal.aborted) {
+      job.status = 'cancelled'
+      job.message = 'Cancelled'
+      return
+    }
     const blob = resolved && resolved.blob
     if (!blob) throw new Error('Could not load file for OCR')
     const file = new File(
@@ -125,23 +146,55 @@ async function runFileOcrJob(jobId, options) {
       || (options.token && options.token.access_token)
       || options.token
       || ''
+    const titleHint = options.tune && options.tune.name ? String(options.tune.name).trim() : ''
     const body = await transcribeSheetImageFile({
       file: file,
       accessToken: accessToken,
-      titleHint: options.tune && options.tune.name ? options.tune.name : '',
+      signal: abortController.signal,
+      titleHints: titleHint ? [titleHint] : [],
+      onProgress: function(progressState) {
+        if (!jobsById[jobId] || jobsById[jobId].status !== 'running') return
+        job.message = (progressState && progressState.message) || job.message
+        job.progress = progressState && progressState.progress
+          ? Math.round(Number(progressState.progress) * 100)
+          : job.progress
+        notify()
+      },
     })
+    if (job.status === 'cancelled' || abortController.signal.aborted) {
+      job.status = 'cancelled'
+      job.message = 'Cancelled'
+      return
+    }
     const patches = proposedPatchesFromTranscription(body, options.tune)
     job.result = {
       transcription: body,
       patches: patches,
     }
+    job.progress = 100
     job.status = patches.length > 0 ? 'ready' : 'failed'
-    if (patches.length === 0) job.error = 'OCR found no editable fields'
+    if (patches.length === 0) {
+      job.error = 'OCR found no editable fields'
+      job.message = job.error
+    } else {
+      job.message = 'Ready for review'
+    }
   } catch (err) {
-    job.status = 'failed'
-    job.error = err && err.message ? err.message : String(err)
+    if (job.status === 'cancelled'
+      || abortController.signal.aborted
+      || (err && (err.name === 'AbortError' || /abort/i.test(String(err.message || ''))))) {
+      job.status = 'cancelled'
+      job.message = 'Cancelled'
+      job.error = null
+    } else {
+      job.status = 'failed'
+      job.error = err && err.message ? err.message : String(err)
+      job.message = job.error
+    }
+  } finally {
+    delete job.abortController
+    notify()
   }
-  notify()
 }
 
 export function enqueueFileOcrJob(options) {
@@ -168,6 +221,8 @@ export function enqueueFileOcrJob(options) {
     createdAt: Date.now(),
     error: null,
     result: null,
+    message: 'Queued',
+    progress: 0,
   }
   jobsById[jobId] = job
   notify()
@@ -182,6 +237,34 @@ export function enqueueFileOcrJob(options) {
 export function dismissFileOcrJob(jobId) {
   if (!jobId || !jobsById[jobId]) return
   jobsById[jobId].status = 'dismissed'
+  notify()
+}
+
+export function cancelFileOcrJob(jobId) {
+  const job = jobId ? jobsById[jobId] : null
+  if (!job || !isActiveFileOcrStatus(job.status)) return
+  if (job.abortController) {
+    try { job.abortController.abort() } catch (e) { /* ignore */ }
+  }
+  job.status = 'cancelled'
+  job.message = 'Cancelled'
+  job.error = null
+  delete job.abortController
+  notify()
+}
+
+export function cancelAllActiveFileOcrJobs() {
+  getFileOcrJobs().forEach(function(job) {
+    if (job && isActiveFileOcrStatus(job.status)) cancelFileOcrJob(job.id)
+  })
+}
+
+export function clearInactiveFileOcrJobs() {
+  Object.keys(jobsById).forEach(function(id) {
+    const job = jobsById[id]
+    if (!job || isActiveFileOcrStatus(job.status)) return
+    delete jobsById[id]
+  })
   notify()
 }
 
@@ -205,4 +288,11 @@ export function applyFileOcrPatch(tune, patch) {
     })
   }
   return next
+}
+
+export function __resetFileOcrJobsForTests() {
+  Object.keys(jobsById).forEach(function(id) {
+    delete jobsById[id]
+  })
+  notify()
 }

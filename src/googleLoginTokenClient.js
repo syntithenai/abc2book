@@ -2,6 +2,7 @@ import jwt_decode from 'jwt-decode'
 import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
 
 var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
+var GOOGLE_LOGIN_HINT_EMAIL_KEY = 'google_login_hint_email'
 
 export function readStoredLoginProfile() {
   try {
@@ -23,12 +24,23 @@ export function storeLoginProfile(profile) {
     name: profile.name || profile.email,
     picture: profile.picture || '',
   }))
+  try {
+    localStorage.setItem(GOOGLE_LOGIN_HINT_EMAIL_KEY, profile.email)
+  } catch (e) {}
 }
 
 export function clearLoginProfile() {
   try {
     localStorage.removeItem(GOOGLE_LOGIN_PROFILE_KEY)
   } catch (e) {}
+}
+
+function readLoginHintEmail() {
+  try {
+    return localStorage.getItem(GOOGLE_LOGIN_HINT_EMAIL_KEY) || ''
+  } catch (e) {
+    return ''
+  }
 }
 
 /**
@@ -127,19 +139,53 @@ export function createTokenClientController(ctx) {
   }
 
   function login() {
-    initClient()
-    getToken()
+    if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
+      return Promise.reject(new Error('Google sign-in is still loading'))
+    }
+    // Match historical Token Client login: empty prompt + existing grant =>
+    // at most account chooser (no Drive/email re-consent steps).
+    var useScopes = mergeScopes()
+    var hint = readLoginHintEmail()
+    return new Promise(function(resolve, reject) {
+      var config = {
+        client_id: ctx.clientId,
+        prompt: '',
+        scope: useScopes.join(' '),
+        callback: function(tokenResponse) {
+          if (tokenResponse && tokenResponse.error) {
+            reject(new Error(tokenResponse.error_description || tokenResponse.error))
+            return
+          }
+          resolve(applyToken(tokenResponse))
+        },
+        error_callback: function(err) {
+          var type = err && err.type ? String(err.type) : ''
+          var message = err && err.message ? String(err.message) : ''
+          if (type === 'popup_closed' || type === 'popup_closed_by_user') {
+            reject(new Error('Sign-in cancelled'))
+            return
+          }
+          if (type === 'popup_failed_to_open' || /failed to open popup/i.test(message)) {
+            reject(new Error('Pop-up blocked. Allow pop-ups for this site and try Login again.'))
+            return
+          }
+          reject(new Error(message || type || 'Authorization cancelled'))
+        },
+      }
+      if (hint) config.login_hint = hint
+      client.current = global.window.google.accounts.oauth2.initTokenClient(config)
+      try {
+        client.current.requestAccessToken()
+      } catch (err) {
+        reject(err)
+      }
+    })
   }
 
   function logout() {
+    // Keep email hint for quieter next Login; clear signed-in profile/token only.
+    // Do not revoke the Google grant — that forces consent screens again.
     ctx.setUser(null)
-    try {
-      var token = ctx.getAccessToken && ctx.getAccessToken()
-      var raw = token && token.access_token
-      if (raw && global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2) {
-        global.window.google.accounts.oauth2.revoke(raw, function() {})
-      }
-    } catch (e) {}
     ctx.setAccessToken(null)
     localStorage.setItem('google_login_user', '')
     clearLoginProfile()

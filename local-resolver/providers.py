@@ -2,9 +2,10 @@
 
 Precedence for a capability:
   1. Request overlay (user Settings → Providers)
-  2. Host-embedded env provider (when caller is on EMBEDDED_CREDS)
-  3. Local backend (home only; whisper.cpp / research LLM / PaddleOCR / Demucs)
-  4. Unavailable
+  2. Local backend for OCR when available (home PaddleOCR/OMR; host OCR is light-gateway fallback)
+  3. Host-embedded env provider (when caller is on EMBEDDED_CREDS)
+  4. Local backend (home only; whisper.cpp / research LLM / Demucs)
+  5. Unavailable
 """
 
 from __future__ import annotations
@@ -190,7 +191,16 @@ def resolve_provider(
     allow_embedded: bool = False,
     local_available: bool = False,
 ) -> dict | None:
-    """Pick the active provider config for a capability."""
+    """Pick the active provider config for a capability.
+
+    Precedence:
+      1. Request overlay (Settings → Providers), including explicit local
+      2. Local backend when available — preferred over host-embedded for OCR
+         (home PaddleOCR/OMR is richer; PROVIDER_OCR_* is mainly for light gateway)
+      3. Host-embedded env provider (EMBEDDED_CREDS)
+      4. Local backend for other capabilities
+      5. Unavailable
+    """
     normalized_overlay = normalize_provider_set(overlay)
     if normalized_overlay:
         if normalized_overlay.get("provider") == "local":
@@ -199,6 +209,16 @@ def resolve_provider(
             # fall through if local unavailable
         elif normalized_overlay.get("apiUrl") or normalized_overlay.get("apiKey"):
             return dict(normalized_overlay, source="user")
+
+    # Home sheet-image path: prefer local OCR over host Groq/OpenAI vision.
+    if local_available and capability == "ocr":
+        return {
+            "provider": "local",
+            "apiUrl": "",
+            "apiKey": "",
+            "model": "",
+            "source": "local",
+        }
 
     if allow_embedded:
         host = host_embedded_providers().get(capability)

@@ -96,15 +96,24 @@ function ImportTuneRow(props) {
   )
 }
 
+/** True when Import’s default path changes nothing the user must decide: only keep-local and/or already-match. */
+export function isImportNotificationOnly(counts) {
+  if (!counts) return false
+  return (
+    counts.inserts === 0
+    && counts.updates === 0
+    && counts.deletes === 0
+    && counts.duplicates === 0
+    && (counts.localUpdates > 0 || counts.skippedUpdates > 0)
+  )
+}
+
 export default function ImportWarningDialog(props) {
   var navigate = useNavigate()
   var results = props.importResults || {}
   var nav = props.navigateAfterImport || {}
   var curatedTitle = nav.curatedTitle || null
   var importKind = nav.importKind || (curatedTitle ? 'curated' : 'shared')
-  var dialogTitle = curatedTitle
-    ? ('Review curated book import: ' + curatedTitle)
-    : (importKind === 'shared' ? 'Review shared tune book import' : 'Review import')
 
   var counts = {
     inserts: bucketCount(results.inserts),
@@ -114,6 +123,15 @@ export default function ImportWarningDialog(props) {
     deletes: bucketCount(results.deletes),
     duplicates: bucketCount(results.duplicates),
   }
+
+  var notificationOnly = isImportNotificationOnly(counts)
+  var dialogTitle = notificationOnly
+    ? (curatedTitle
+      ? ('Already up to date: ' + curatedTitle)
+      : 'Already up to date')
+    : (curatedTitle
+      ? ('Review curated book import: ' + curatedTitle)
+      : (importKind === 'shared' ? 'Review shared tune book import' : 'Review import'))
 
   var defaultTab = BUCKET_ORDER.find(function(key) { return counts[key] > 0 }) || 'localUpdates'
 
@@ -142,6 +160,10 @@ export default function ImportWarningDialog(props) {
     })
   }
 
+  function confirmDefaultImport() {
+    props.tunebook.applyImport().then(handleNavigation)
+  }
+
   var canImport = counts.skippedUpdates > 0 || counts.localUpdates > 0 || counts.inserts > 0 || counts.updates > 0 || counts.deletes > 0
 
   return (
@@ -150,9 +172,10 @@ export default function ImportWarningDialog(props) {
       onHide={handleClose}
       backdrop="static"
       keyboard={false}
-      size="xl"
+      size={notificationOnly ? 'lg' : 'xl'}
       dialogClassName="import-warning-dialog"
       data-testid="import-warning-dialog"
+      data-notification-only={notificationOnly ? 'true' : 'false'}
     >
       <Modal.Header>
         <Modal.Title>{dialogTitle}</Modal.Title>
@@ -163,9 +186,13 @@ export default function ImportWarningDialog(props) {
       {props.importResults && (
         <Modal.Body>
           <p className="mb-2">
-            {curatedTitle
-              ? ('Comparing the curated book “' + curatedTitle + '” with your library. Review what will be merged before continuing.')
-              : 'Comparing the import with your library. Review what will be merged before continuing.'}
+            {notificationOnly
+              ? (curatedTitle
+                ? ('“' + curatedTitle + '” is already in your library. Nothing will be merged.')
+                : 'This import is already in your library. Nothing will be merged.')
+              : (curatedTitle
+                ? ('Comparing the curated book “' + curatedTitle + '” with your library. Review what will be merged before continuing.')
+                : 'Comparing the import with your library. Review what will be merged before continuing.')}
           </p>
           <div className="mb-2">
             {counts.updates ? <div>{BUCKET_META.updates.countLabel(counts.updates)}</div> : null}
@@ -177,45 +204,75 @@ export default function ImportWarningDialog(props) {
           </div>
 
           <div style={{ marginTop: '1em', marginBottom: '1em' }}>
-            {canImport ? (
-              <Button
-                variant="success"
-                data-testid="import-warning-confirm"
-                onClick={function() { props.tunebook.applyImport().then(handleNavigation) }}
-              >
-                Import
-              </Button>
-            ) : null}
-            {' '}
-            {counts.duplicates > 0 ? (
-              <Button variant="warning" onClick={function() { props.tunebook.applyImport(true).then(handleNavigation) }}>
-                Import With Duplicates
-              </Button>
-            ) : null}
-            {' '}
-            {counts.localUpdates > 0 ? (
-              <Button variant="warning" onClick={function() { props.tunebook.applyImport(false, true).then(handleNavigation) }}>
-                Discard Local Changes
-              </Button>
-            ) : null}
-            {' '}
-            {(counts.localUpdates > 0 && counts.duplicates > 0) ? (
-              <Button variant="warning" onClick={function() { props.tunebook.applyImport(true, true).then(handleNavigation) }}>
-                Import Duplicates and Discard Local Changes
-              </Button>
-            ) : null}
-            {' '}
-            <Link to="/tunes">
-              <Button
-                variant="danger"
-                onClick={function() {
-                  props.setImportResults(null)
-                  props.closeWarning()
-                }}
-              >
-                Cancel
-              </Button>
-            </Link>
+            {notificationOnly ? (
+              <>
+                <Button
+                  variant="success"
+                  data-testid="import-warning-confirm"
+                  onClick={confirmDefaultImport}
+                >
+                  OK
+                </Button>
+                {counts.localUpdates > 0 ? (
+                  <>
+                    {' '}
+                    <Button
+                      variant="outline-warning"
+                      data-testid="import-warning-discard-local"
+                      onClick={function() { props.tunebook.applyImport(false, true).then(handleNavigation) }}
+                    >
+                      Discard Local Changes
+                    </Button>
+                  </>
+                ) : null}
+              </>
+            ) : (
+              <>
+                {canImport ? (
+                  <Button
+                    variant="success"
+                    data-testid="import-warning-confirm"
+                    onClick={confirmDefaultImport}
+                  >
+                    Import
+                  </Button>
+                ) : null}
+                {' '}
+                {counts.duplicates > 0 ? (
+                  <Button variant="warning" onClick={function() { props.tunebook.applyImport(true).then(handleNavigation) }}>
+                    Import With Duplicates
+                  </Button>
+                ) : null}
+                {' '}
+                {counts.localUpdates > 0 ? (
+                  <Button
+                    variant="warning"
+                    data-testid="import-warning-discard-local"
+                    onClick={function() { props.tunebook.applyImport(false, true).then(handleNavigation) }}
+                  >
+                    Discard Local Changes
+                  </Button>
+                ) : null}
+                {' '}
+                {(counts.localUpdates > 0 && counts.duplicates > 0) ? (
+                  <Button variant="warning" onClick={function() { props.tunebook.applyImport(true, true).then(handleNavigation) }}>
+                    Import Duplicates and Discard Local Changes
+                  </Button>
+                ) : null}
+                {' '}
+                <Link to="/tunes">
+                  <Button
+                    variant="danger"
+                    onClick={function() {
+                      props.setImportResults(null)
+                      props.closeWarning()
+                    }}
+                  >
+                    Cancel
+                  </Button>
+                </Link>
+              </>
+            )}
           </div>
 
           <Tabs defaultActiveKey={defaultTab} id="import-warning-tabs">

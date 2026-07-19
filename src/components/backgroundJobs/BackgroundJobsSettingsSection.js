@@ -17,6 +17,7 @@ import * as mediaCacheQueue from '../../mediaCacheQueue'
 import * as stemCreateQueue from '../../stemCreateQueue'
 import { subscribePlaybackRegionScanJobs } from '../../playbackRegionScanJobs'
 import { subscribeMediaAnalysisJobs } from '../../mediaAnalysisJobs'
+import { subscribeFileOcrJobs } from '../../fileOcrJobs'
 import { subscribeBulkCheckSession } from '../../bulkCheckSessionStore'
 import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
 import { subscribeImportReviewEnrichment } from '../../importReviewEnrichmentBridge'
@@ -27,6 +28,7 @@ import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import { fifoStatusVariant } from './jobQueueUtils'
 import PlaybackScanTabPanel from './PlaybackScanTabPanel'
 import MediaAnalysisTabPanel from './MediaAnalysisTabPanel'
+import FileOcrTabPanel from './FileOcrTabPanel'
 import BulkCheckTabPanel from './BulkCheckTabPanel'
 import ImportEnrichmentTabPanel from './ImportEnrichmentTabPanel'
 import StemCreateTabPanel from './StemCreateTabPanel'
@@ -38,6 +40,7 @@ const TAB_MEDIA_CACHE = 'media-cache'
 const TAB_STEM_CREATE = 'stem-create'
 const TAB_PLAYBACK_SCANS = 'playback-scans'
 const TAB_MEDIA_ANALYSIS = 'media-analysis'
+const TAB_FILE_OCR = 'file-ocr'
 const TAB_BULK_CHECK = 'bulk-check'
 const TAB_IMPORT_ENRICHMENT = 'import-enrichment'
 const TAB_ACTIVE_SEARCHES = 'active-searches'
@@ -50,6 +53,7 @@ function subscribeAllBackgroundJobStores(listener) {
     stemCreateQueue.subscribe(listener),
     subscribePlaybackRegionScanJobs(listener),
     subscribeMediaAnalysisJobs(listener),
+    subscribeFileOcrJobs(listener),
     subscribeBulkCheckSession(listener),
     subscribeBulkCheckRunner(listener),
     subscribeImportReviewEnrichment(listener),
@@ -204,6 +208,11 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
           <Nav.Item>
             <Nav.Link eventKey={TAB_MEDIA_ANALYSIS}>
               {renderTabTitle('Media analysis', tabCounts.mediaAnalysis)}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey={TAB_FILE_OCR}>
+              {renderTabTitle('File OCR', tabCounts.fileOcr)}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -447,6 +456,13 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
               Transcribes linked audio; you choose what to merge into the tune when analysis finishes.
             </p>
             <MediaAnalysisTabPanel tunes={tunes} />
+          </Tab.Pane>
+
+          <Tab.Pane eventKey={TAB_FILE_OCR}>
+            <p className="text-muted settings-background-jobs-tab-note">
+              Reads attached sheet images and chord charts; you choose what to merge when OCR finishes.
+            </p>
+            <FileOcrTabPanel />
           </Tab.Pane>
 
           <Tab.Pane eventKey={TAB_IMPORT_ENRICHMENT}>

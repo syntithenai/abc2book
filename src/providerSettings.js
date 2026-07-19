@@ -53,7 +53,6 @@ export const PROVIDER_PRESETS = [
       whisper: ['whisper-large-v3', 'whisper-large-v3-turbo'],
       ocr: [
         { id: 'qwen/qwen3.6-27b', tier: 'expensive' },
-        { id: 'meta-llama/llama-4-scout-17b-16e-instruct', tier: 'standard' },
       ],
     },
   },
@@ -382,6 +381,21 @@ export function defaultProviderSettings() {
   }
 }
 
+const DEPRECATED_GROQ_OCR_MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct'
+const REPLACEMENT_GROQ_OCR_MODEL = 'qwen/qwen3.6-27b'
+
+function migrateProviderSettings(settings) {
+  const next = settings || defaultProviderSettings()
+  let changed = false
+  const ocrList = Array.isArray(next.ocr) ? next.ocr : []
+  next.ocr = ocrList.map(function(item) {
+    if (!item || String(item.model || '') !== DEPRECATED_GROQ_OCR_MODEL) return item
+    changed = true
+    return Object.assign({}, item, { model: REPLACEMENT_GROQ_OCR_MODEL })
+  })
+  return { settings: next, changed: changed }
+}
+
 export function loadProviderSettings() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
@@ -395,7 +409,15 @@ export function loadProviderSettings() {
         })
       }
     })
-    return out
+    const migrated = migrateProviderSettings(out)
+    if (migrated.changed) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(migrated.settings))
+      } catch (e) {
+        // ignore quota
+      }
+    }
+    return migrated.settings
   } catch (e) {
     return defaultProviderSettings()
   }

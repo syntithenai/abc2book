@@ -491,40 +491,31 @@ export default function BooksPage(props) {
                 </section>
             </div>}
 
-            {tbOptions.length === 0 && <div className="books-page-empty">
-                <div className="books-page-empty-add">
-                    <Button
-                        as={Link}
-                        to="/add"
-                        variant="success"
-                        size="lg"
-                        title="Add Tunes"
-                        data-testid="books-page-add-button"
-                    >
-                        {props.tunebook.icons.fileadd} Add
-                    </Button>
-                    <div className="books-page-empty-add-instructions">
-                        <h4 className="books-page-empty-title">Get started</h4>
-                        <p className="books-page-empty-lead">
-                            Tap <strong>Add</strong> to bring tunes into your book — the same import tools as the header menu.
-                        </p>
-                        <ul className="books-page-empty-import-list">
-                            <li><strong>Add</strong> — one tune at a time from ABC, MusicXML, chord sheets, pasted text, Google Drive, sheet photos, YouTube, or online search.</li>
-                            <li><strong>Bulk</strong> (from Add → Bulk) — many tunes at once from a pasted list, file, YouTube playlist, or curated collection.</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr/>
-                <div style={{marginTop:'1em'}}>
-                    This tune book software helps musicians collect and organise and practice their music.
-                </div>
-                <div style={{marginTop:'1em'}}>
-                    The software helps you to find and manage lyrics and music from the Internet and provides tools to help tidy up those resources into something you can play along with.
-                </div>
-                <div style={{marginTop:'1em',marginBottom:'1em'}}>
-                    Or import one of the curated tunebooks below.
-                </div>
-                <ImportCollectionsAccordion tunebook={props.tunebook} setCurrentTuneBook={props.setCurrentTuneBook} flat />
+            {tbOptions.length === 0 && <div className="books-page-empty" data-testid="books-page-empty">
+                <h3 className="books-page-empty-title">Getting Started</h3>
+                <p className="books-page-empty-lead">
+                    This software helps musicians collect, organise, and practice music — find lyrics and scores online, then tidy them into something you can play along with.
+                </p>
+                <p className="books-page-empty-cta">
+                    Click <strong>Add</strong> to bring in your own tunes, or import from the curated list below.
+                </p>
+                <Button
+                    as={Link}
+                    to="/add"
+                    variant="success"
+                    size="lg"
+                    className="books-page-empty-add-btn"
+                    title="Add Tunes"
+                    data-testid="books-page-add-button"
+                >
+                    {props.tunebook.icons.fileadd} Add
+                </Button>
+                <ImportCollectionsAccordion
+                    tunebook={props.tunebook}
+                    setCurrentTuneBook={props.setCurrentTuneBook}
+                    flat
+                    hideGroupHeadings
+                />
             </div>}
 
             {tbOptions.length > 0 ? (

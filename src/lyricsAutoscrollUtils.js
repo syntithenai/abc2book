@@ -13,7 +13,9 @@ export const LYRICS_AUTOSCROLL_BOTTOM_HOLD_MS = 1000;
 export const LYRICS_AUTOSCROLL_BOTTOM_THRESHOLD_PX = 3;
 
 const LYRICS_SCROLL_ROOT_SELECTORS = [
-  '.tune-lyrics-structure-sync-host',
+  // Do not include .tune-lyrics-structure-sync-host: as an ancestor it wins
+  // querySelectorAll tree order and would pull in sticky structure sections.
+  '.tune-lyrics-structure-sync-lyrics',
   '.music-view-lyrics',
   '.full-lyrics-panel',
   '.timed-lyrics-chords-view:not(.chord-blocks-only)',
@@ -27,6 +29,8 @@ const LYRICS_LINE_SELECTORS = [
   '.chord-line',
   '.structure-section',
 ].join(', ');
+
+const SYNC_STRUCTURE_COLUMN_SELECTOR = '.tune-lyrics-structure-sync-structure';
 
 const NOTATION_SCROLL_SELECTORS = [
   '.tune-panel-notation',
@@ -289,6 +293,14 @@ function isNestedLyricsLineElement(el, scrollRootEl) {
   return !!(parentBlock && scrollRootEl && scrollRootEl.contains(parentBlock));
 }
 
+/** Sticky sync structure column must not define lyrics scroll end. */
+function isSyncStructureColumnLine(el, scrollRootEl) {
+  if (!el || typeof el.closest !== 'function') return false;
+  const structureCol = el.closest(SYNC_STRUCTURE_COLUMN_SELECTOR);
+  if (!structureCol) return false;
+  return !!(scrollRootEl && scrollRootEl.contains(structureCol));
+}
+
 function getAutoscrollLineElements(scrollRootEl) {
   if (!scrollRootEl || typeof scrollRootEl.querySelectorAll !== 'function') return [];
   const lineEls = scrollRootEl.querySelectorAll(LYRICS_LINE_SELECTORS);
@@ -297,6 +309,7 @@ function getAutoscrollLineElements(scrollRootEl) {
     const el = lineEls[i];
     if (isLyricVersionSeparator(el.textContent)) break;
     if (isNestedLyricsLineElement(el, scrollRootEl)) continue;
+    if (isSyncStructureColumnLine(el, scrollRootEl)) continue;
     result.push(el);
   }
   return result;

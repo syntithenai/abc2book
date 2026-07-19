@@ -129,6 +129,10 @@
   align-items: center;
 }
 
+.media-controls-skip-buttons {
+  margin-left: 0.15em;
+}
+
 .media-controls-transport-actions {
   display: flex;
   flex-wrap: wrap;

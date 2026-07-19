@@ -3333,16 +3333,7 @@ export default function useTuneBookMediaController(props) {
     }
     
     
-    function onEnded() { 
-        cleanupTimers()
-        if (mediaLinkNumber !== null && getLinkEndAt() > 0 && !shouldAdvanceQueueOnPlaybackEnd()) {
-            pauseAtRegionStart()
-            return
-        }
-        if (practiceSessionHandlerRef.current) {
-            practiceSessionHandlerRef.current()
-            return
-        }
+    function advanceToNextAfterPlaybackStop() {
         const playingId = tuneRef.current && tuneRef.current.id ? tuneRef.current.id : null
         const pathname = typeof window !== 'undefined' ? (window.location.hash || '').replace(/^#/, '') : ''
         const failCallback = function(reason) {
@@ -3380,6 +3371,19 @@ export default function useTuneBookMediaController(props) {
         props.tunebook.navigateToNextSong(playingId, failCallback, function(path) {
             props.tunebook.navigate(path)
         }, pathname)
+    }
+
+    function onEnded() { 
+        cleanupTimers()
+        if (mediaLinkNumber !== null && getLinkEndAt() > 0 && !shouldAdvanceQueueOnPlaybackEnd()) {
+            pauseAtRegionStart()
+            return
+        }
+        if (practiceSessionHandlerRef.current) {
+            practiceSessionHandlerRef.current()
+            return
+        }
+        advanceToNextAfterPlaybackStop()
     }
 
     function setPracticeSessionHandler(handler) {
@@ -3528,9 +3532,25 @@ export default function useTuneBookMediaController(props) {
         console.log('ERROR',e)
         if (practiceSessionActiveRef.current && playingIntentRef.current) {
             setTapToPlay(true)
+            abortPlayingIntent()
+            cleanupTimers()
+            return
+        }
+        // Removed/unavailable media (and other hard failures): skip ahead when
+        // we were trying to play — including play-from-paused that fails to start.
+        const shouldSkipAhead = !!(
+            playingIntentRef.current
+            || hasActivePlaybackIntent()
+            || isLoading
+        )
+        cleanupTimers()
+        if (shouldSkipAhead) {
+            advanceToNextAfterPlaybackStop()
+            return
         }
         abortPlayingIntent()
-        cleanupTimers()
+        setIsLoading(false)
+        setIsPlaying(false)
     }
     
     

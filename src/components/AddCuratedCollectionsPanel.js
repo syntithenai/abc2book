@@ -9,9 +9,9 @@ export default function AddCuratedCollectionsPanel(props) {
     <div className="add-curated-collections-panel" data-testid="add-curated-panel">
       <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
         <div>
-          <h5 className="mb-1">Curated collections</h5>
+          <h5 className="mb-1">Curated Collections</h5>
           <p className="text-muted small mb-0">
-            Import a ready-made tunebook. Updates match by tune id and skip tunes that are newer locally.
+            Import a ready-made tunebook.
           </p>
         </div>
         <ImportCollectionModal
@@ -25,7 +25,8 @@ export default function AddCuratedCollectionsPanel(props) {
       <ImportCollectionsAccordion
         tunebook={props.tunebook}
         setCurrentTuneBook={props.setCurrentTuneBook}
-        startCollapsed={props.startCollapsed === true}
+        flat
+        hideGroupHeadings
       />
     </div>
   );

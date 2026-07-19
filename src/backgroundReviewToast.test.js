@@ -36,6 +36,7 @@ describe('backgroundReviewToast', function() {
       fieldLookupAwaiting: [],
       fileOcrReady: ['ocr1'],
       fileOcrProcessing: [],
+      fileOcrFailed: [],
       mediaProcessing: [],
     })
   })
@@ -64,6 +65,7 @@ describe('backgroundReviewToast', function() {
       fieldLookupAwaiting: ['f'],
       fileOcrReady: [],
       fileOcrProcessing: [],
+      fileOcrFailed: [],
       mediaProcessing: [],
     })
     syncBackgroundReviewToast({ onReview: jest.fn() })

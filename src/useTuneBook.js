@@ -33,6 +33,7 @@ import {
   handleQueueAdvanceOnEnded,
 } from './nowPlayingQueuePlayback'
 import { playTuneNow } from './tunePlaybackActions'
+import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import {
   isNavigatorOffline,
   playbackModeFromPathname,
@@ -417,41 +418,52 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     var forceSearchList = !!opts.forceSearchList
     // Capture before stop() clears intent/playing state.
     var startPlayback = !!(mediaController && isPlaybackActivelyPlaying(mediaController))
-    if (mediaController) stopSingleViewPlayback(mediaController)
+    // Header / media-controls skip always walks search results. An active playlist
+    // keeps playing in the background — do not stop it or hand the engine a
+    // search-list play (that restarts the current queue tune from the start).
+    // Playlist next/prev lives on the transport bar (no forceSearchList).
+    var preservePlaylistAudio = forceSearchList
+      && isQueueActive(nowPlayingQueue)
+      && isQueuePlaybackEngaged(mediaController)
+    if (preservePlaylistAudio) {
+      startPlayback = false
+    } else if (mediaController) {
+      stopSingleViewPlayback(mediaController)
+    }
     // Explicit next/prev always moves the view, even when followTune is off.
     var stepOpts = {
       forceNavigate: true,
       startPlayback: startPlayback,
     }
     if (mediaController) stepOpts.mediaController = mediaController
-    // Header skip / list browse: always walk the current search results (incl. groups).
-    // Editor also stays on search/list order. Playlist/set stepping uses the bottom bar
-    // (or auto-advance) unless forceSearchList is set — except while the queue is
-    // audibly playing: the queue host owns the playback engine then, so starting a
-    // search-list tune never plays it and instead restarts the current queue tune
-    // from the beginning. While playlist playback is running, next/prev steps the
-    // playlist.
-    var queuePlaybackRunning = startPlayback && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)
     if (!isEditorPath(locationPathname)) {
       if (!forceSearchList && setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
         if (navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, stepOpts)) return
       }
-      // Only step the now-playing queue when the current tune is in it; otherwise
-      // fall through to the current search/list order.
-      if ((!forceSearchList || queuePlaybackRunning) && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
+      // Only step the now-playing queue when not forcing search-list browse.
+      if (!forceSearchList && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
         if (navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, stepOpts)) return
       }
     }
-    if (!currentSongId) return
 
     var orderedIds = buildSearchListOrderedIds()
-    if (orderedIds.length === 0) {
+    if (!orderedIds || orderedIds.length === 0) {
       if (failCallback) failCallback()
       return
     }
-    var idx = orderedIds.findIndex(function(id) { return sameTuneId(id, currentSongId) })
+    var idx = currentSongId
+      ? orderedIds.findIndex(function(id) { return sameTuneId(id, currentSongId) })
+      : -1
+    // Fresh search / list with no current tune: land on first (next) or last (prev).
     if (idx === -1) {
-      if (failCallback) failCallback()
+      var fallbackIdx = direction > 0 ? 0 : orderedIds.length - 1
+      navigateToSearchListTune(
+        orderedIds[fallbackIdx],
+        navigateFn,
+        locationPathname,
+        mediaController,
+        startPlayback
+      )
       return
     }
 
@@ -2193,6 +2205,6 @@ The main difference between the two functions is the additional condition in app
         }
     
 
-  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
+  return {deleteTunes,  removeTunesFromBook, addTunesToBook, addTunesToTag, removeTunesFromTag, clearBoost,applyImport, importAbc, toAbc, fromBook, fromSearch,fromSelection, mediaFromBook, mediaFromSearch, mediaFromSelection, deleteTuneBook, copyTuneBookAbc, downloadTuneBookAbc, resetTuneBook, saveTune, utils, abcTools, icons,  curatedTuneBooks, getTuneBookOptions, getSearchTuneBookOptions, deleteAll, deleteTune, buildTunesHash, updateTunesHash , setTunes, setCurrentTune, setCurrentTuneBook, setTunesHash, forceRefresh, indexes, textSearchIndex, navigate, navigateToPreviousSong,navigateToNextSong, getSearchListOrderedIds: buildSearchListOrderedIds, hasLinks,  hasLyrics, hasNotes, showImportWarning, applyImportData, applyMergeData, createTune, fillAbcPlaylist, fillAnyPlaylist, fillMediaPlaylist, clearNowPlayingQueue, createQueueFromTuneIds, startNowPlayingQueue, bulkChangeTunes , getTuneTagOptions, getSearchTuneTagOptions, getTuneGenreOptions, getSearchTuneGenreOptions, getTuneArtistOptions, getSearchTuneArtistOptions,filterSearch ,groupTunes , hasNotesOrChords  , downloadMidi, getMidiData, getExportAbc, getNotationExportAbc, getMusicXmlExportAbc, applyTuneSnapshot, applyHistoryEntry, undoTuneEdits, redoTuneEdits, canUndoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canUndo === 'function' ? editHistory.canUndo(tuneId) : false }, canRedoTuneEdits: function(tuneId) { return editHistory && typeof editHistory.canRedo === 'function' ? editHistory.canRedo(tuneId) : false }, getUndoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getUndoLabel === 'function' ? editHistory.getUndoLabel(tuneId) : '' }, getRedoTuneEditLabel: function(tuneId) { return editHistory && typeof editHistory.getRedoLabel === 'function' ? editHistory.getRedoLabel(tuneId) : '' }};
 }
 export default useTuneBook

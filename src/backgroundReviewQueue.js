@@ -110,6 +110,7 @@ export function getBackgroundReviewSummary() {
     fieldLookupProcessing: fieldLookupProcessing.map(function(job) { return job.id }),
     fileOcrReady: fileOcrSummary.ready,
     fileOcrProcessing: fileOcrSummary.processing,
+    fileOcrFailed: fileOcrSummary.failed || [],
     hasImportSession: !!importSession,
   }
 }
@@ -127,6 +128,7 @@ export function getBackgroundReviewRevision() {
     (summary.fieldLookupProcessing || []).join(','),
     (summary.fileOcrReady || []).join(','),
     (summary.fileOcrProcessing || []).join(','),
+    (summary.fileOcrFailed || []).join(','),
   ].join('|')
 }
 

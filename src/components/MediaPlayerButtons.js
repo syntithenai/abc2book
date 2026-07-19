@@ -7,10 +7,11 @@ import {
   resumeTunePlayback,
   resolvePlaybackTarget,
   isQueuePlaybackEngaged,
+  playTuneNow,
 } from '../tunePlaybackActions'
 import { isQueueActive, getCurrentTuneId } from '../nowPlayingQueue'
 import { isNavigatorOffline, isTuneOfflinePlayable } from '../offlinePlayback'
-import { getViewedTuneIdFromPath } from '../playbackNavigationUtils'
+import { getViewedTuneIdFromPath, isTuneListPath } from '../playbackNavigationUtils'
 
 function useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune) {
   const [playDisabled, setPlayDisabled] = useState(false)
@@ -85,7 +86,22 @@ export default function MediaPlayerButtons({
    const navigate = useNavigate()
    const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
    const viewedTune = viewedTuneId && tunes ? tunes[viewedTuneId] : null
-   const playDisabledOffline = useOfflinePlayDisabled(mediaController, tunebook, location, viewedTune)
+   const searchListIds = tunebook.getSearchListOrderedIds
+     ? tunebook.getSearchListOrderedIds()
+     : []
+   const firstSearchTuneId = Array.isArray(searchListIds) && searchListIds.length > 0
+     ? searchListIds[0]
+     : null
+   const firstSearchTune = firstSearchTuneId && tunes ? tunes[firstSearchTuneId] : null
+   const onTuneList = isTuneListPath(location.pathname)
+   const canPlayFirstSearchResult = !!(
+     !viewedTuneId
+     && onTuneList
+     && firstSearchTune
+     && viewedTuneIsPlayable(tunebook, firstSearchTune)
+   )
+   const playTargetTune = viewedTune || (canPlayFirstSearchResult ? firstSearchTune : null)
+   const playDisabledOffline = useOfflinePlayDisabled(mediaController, tunebook, location, playTargetTune)
    const queuePlayingId = getCurrentTuneId(nowPlayingQueue)
    const showPlaylistMismatch = !!(
      isQueueActive(nowPlayingQueue)
@@ -95,11 +111,19 @@ export default function MediaPlayerButtons({
      && viewedTuneId !== queuePlayingId
    )
 
-   if (!viewedTuneId || !viewedTuneIsPlayable(tunebook, viewedTune)) {
+   if (!viewedTuneId) {
+     if (!canPlayFirstSearchResult) {
+       return null
+     }
+   } else if (!viewedTuneIsPlayable(tunebook, viewedTune)) {
      return null
    }
 
    function startPlayback() {
+       if (!viewedTuneId && firstSearchTune) {
+         playTuneNow(mediaController, tunebook, navigate, firstSearchTune)
+         return
+       }
        startTunePlayback(mediaController, tunebook, navigate, location, {
          nowPlayingQueue: nowPlayingQueue,
          setQueuePlayConfirm: setQueuePlayConfirm,
@@ -115,6 +139,10 @@ export default function MediaPlayerButtons({
    }
 
    function handlePlayPress() {
+       if (!viewedTuneId) {
+         startPlayback()
+         return
+       }
        if (!resumeTunePlayback(mediaController, viewedTuneId)) {
            startPlayback()
        }
@@ -184,6 +212,7 @@ export default function MediaPlayerButtons({
          tunebook={tunebook}
          buttonSize={buttonSize}
          tunes={tunes}
+         nowPlayingQueue={nowPlayingQueue}
          setNowPlayingQueue={setNowPlayingQueue}
        />
      </ButtonGroup>

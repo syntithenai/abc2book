@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import {Button, Modal, Tabs, Tab} from 'react-bootstrap'
+import {Button, ButtonGroup, Modal, Tabs, Tab} from 'react-bootstrap'
 import {useNavigate, useLocation, useParams} from 'react-router-dom'
 import PitchTempoControlsPanel from './PitchTempoControlsPanel'
 import AudioFiltersPanel from './AudioFiltersPanel'
@@ -8,15 +8,21 @@ import MidiPlaybackMetronomePanel from './MidiPlaybackMetronomePanel'
 import MediaSeekSlider from './MediaSeekSlider'
 import { getActiveLinkIndex } from '../mediaPlaybackUtils'
 import { youtubeAudioBytesAvailable } from '../youtubeUnlock'
+import { isQueueActive } from '../nowPlayingQueue'
+import { getViewedTuneIdFromPath, getSkipNavigationTuneId } from '../playbackNavigationUtils'
 import './MediaPlayerOptionsModal.css'
 
-export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user, tunes}) {
+export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user, tunes, nowPlayingQueue}) {
   const navigate = useNavigate()
   const location = useLocation()
   const params = useParams()
+  // Header mounts this modal outside the /tunes/:tuneId route, so useParams()
+  // is often empty — resolve the viewed tune from the pathname first.
+  const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
+    || (params.tuneId ? params.tuneId : null)
   const viewedTune = (function() {
-    if (params.tuneId && tunes && tunes[params.tuneId]) {
-      return tunes[params.tuneId]
+    if (viewedTuneId && tunes && tunes[viewedTuneId]) {
+      return tunes[viewedTuneId]
     }
     return mediaController.tune
   })()
@@ -34,6 +40,10 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
   const [show, setShow] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
+  const onTuneOrEditor = location.pathname.indexOf("/tunes/") === 0
+    || location.pathname.indexOf("/editor/") === 0
+  const hasMusic = !!(onTuneOrEditor && viewedTune && tunebook.hasNotesOrChords(viewedTune))
+  const hasLinks = !!(onTuneOrEditor && viewedTune && tunebook.hasLinks(viewedTune))
 
   const handleClose = function() {
     setShow(false);
@@ -44,22 +54,6 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
       mediaController.refreshMediaResolverHealth();
     }
   }
-
-  const [hasMusic, setHasMusic] = useState(false)
-  const [hasLinks, setHasLinks] = useState(false)
-
-  useEffect(function() {
-       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune && tunebook.hasNotesOrChords(viewedTune)) {
-          setHasMusic(true)
-       } else {
-           setHasMusic(false)
-       }
-       if ((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune && tunebook.hasLinks(viewedTune)) {
-          setHasLinks(true)
-       } else {
-           setHasLinks(false)
-       }
-   },[viewedTune, location.pathname, tunebook])
 
   const activeLinkIndex = viewedTune
     ? getActiveLinkIndex(viewedTune, mediaController.mediaLinkNumber)
@@ -191,6 +185,35 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     }
   }
 
+  const skipTuneId = getSkipNavigationTuneId(location.pathname, nowPlayingQueue)
+  const showSkipButtons = !!(skipTuneId && viewedTuneId)
+  const navFromId = viewedTuneId || null
+  const queuePlaybackRunning = !!(navFromId)
+    && isQueueActive(nowPlayingQueue)
+    && !!(mediaController && (mediaController.isPlaying || mediaController.isLoading))
+    && Array.isArray(nowPlayingQueue && nowPlayingQueue.items)
+    && nowPlayingQueue.items.some(function(item) {
+      return item && String(item.tuneId) === String(navFromId)
+    })
+  const prevLabel = queuePlaybackRunning ? 'Previous in playlist' : 'Previous search result'
+  const nextLabel = queuePlaybackRunning ? 'Next in playlist' : 'Next search result'
+
+  function handleSkipPrevious() {
+    if (!showSkipButtons) return
+    tunebook.navigateToPreviousSong(navFromId, navigate, location.pathname, {
+      mediaController: mediaController,
+      forceSearchList: true,
+    })
+  }
+
+  function handleSkipNext() {
+    if (!showSkipButtons) return
+    tunebook.navigateToNextSong(navFromId, null, navigate, location.pathname, {
+      mediaController: mediaController,
+      forceSearchList: true,
+    })
+  }
+
   return (
     <>
       <Button size={useButtonSize} onClick={handleShow} variant={(variant ? variant : (mediaController.isLoading ? "secondary" : (mediaController.isPlaying ? "warning" : "success")))}>{tunebook.icons.dropdown}</Button>
@@ -207,13 +230,15 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{maxHeight:'70vh', overflowY:'auto'}}>
-          {((location.pathname.indexOf("/tunes/") === 0 || location.pathname.indexOf("/editor/") === 0) && viewedTune) && (
+          {(onTuneOrEditor && viewedTune) && (
             <div style={{borderBottom:'1px solid black', paddingBottom:'0.5em'}}>
               <div className="media-controls-playback-row">
                 <div className="media-controls-playback-buttons">
                   {mediaController.isLoading ? (
                     <Button
                       variant="secondary"
+                      title="Cancel loading"
+                      aria-label="Cancel loading"
                       onClick={cancelPendingPlayback}
                     >
                       {tunebook.icons.waiting}
@@ -221,6 +246,8 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                   ) : mediaController.isPlaying ? (
                     <Button
                       variant="warning"
+                      title="Pause"
+                      aria-label="Pause"
                       onClick={function() { mediaController.pause() }}
                     >
                       {tunebook.icons.pause} Pause
@@ -250,6 +277,26 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
                       )}
                     </>
                   )}
+                  {showSkipButtons ? (
+                    <ButtonGroup className="media-controls-skip-buttons">
+                      <Button
+                        variant="outline-secondary"
+                        aria-label={prevLabel}
+                        title={prevLabel}
+                        onClick={handleSkipPrevious}
+                      >
+                        {tunebook.icons.skipback}
+                      </Button>
+                      <Button
+                        variant="outline-secondary"
+                        aria-label={nextLabel}
+                        title={nextLabel}
+                        onClick={handleSkipNext}
+                      >
+                        {tunebook.icons.skipforward}
+                      </Button>
+                    </ButtonGroup>
+                  ) : null}
                 </div>
                 <div className="media-controls-transport-actions">
                   {mediaController.rewindToStart && (

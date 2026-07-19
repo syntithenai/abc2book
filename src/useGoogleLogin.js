@@ -13,6 +13,7 @@ import {
   ensureMediaResolverHealthSettingsListener,
   probeMediaResolverHealth,
 } from './mediaResolverHealthStore'
+import { toast } from 'react-toastify'
 import {
   createTokenClientController,
   readStoredLoginProfile,
@@ -90,11 +91,18 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
   }
 
   function selectController(mode, base) {
-    authModeRef.current = mode
-    setAuthMode(mode)
-    authBaseRef.current = base || ''
-    setAuthBase(base || '')
-    if (mode === 'oauth' && base) {
+    var nextBase = base || ''
+    // Avoid setState on every Login click when mode/base are already known —
+    // re-renders during the click stack can make GIS report a disposed client.
+    if (authModeRef.current !== mode) {
+      authModeRef.current = mode
+      setAuthMode(mode)
+    }
+    if (authBaseRef.current !== nextBase) {
+      authBaseRef.current = nextBase
+      setAuthBase(nextBase)
+    }
+    if (mode === 'oauth' && nextBase) {
       activeControllerRef.current = ensureOauthController()
     } else {
       activeControllerRef.current = ensureTokenController()
@@ -114,12 +122,32 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     return modeReadyRef.current
   }
 
+  /** Interactive Login uses Token Client (empty prompt). With an existing Google
+   * grant this usually shows at most the account chooser — not the OAuth code
+   * "confirm / Drive permission" steps. BFF remains for silent resume. */
   function login() {
-    return waitForMode().then(function(controller) {
-      return controller.login()
-    }).catch(function(err) {
+    var controller = ensureTokenController()
+    activeControllerRef.current = controller
+    try {
+      return Promise.resolve(controller.login()).catch(function(err) {
+        console.warn('Google login failed', err)
+        var message = (err && err.message) ? String(err.message) : 'Google login failed'
+        if (/still loading/i.test(message)) {
+          toast.info('Google sign-in is still loading. Try again in a moment.')
+        } else if (/interrupted|pop-up blocked|allow pop-ups/i.test(message)) {
+          toast.info(message)
+        } else if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
+          toast.error(message)
+        }
+      })
+    } catch (err) {
       console.warn('Google login failed', err)
-    })
+      var message = (err && err.message) ? String(err.message) : 'Google login failed'
+      if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
+        toast.error(message)
+      }
+      return Promise.resolve()
+    }
   }
 
   function logout() {
@@ -217,6 +245,16 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     // Start probe early so auth mode can settle before/during GSI load.
     probeMediaResolverHealth(null)
 
+    // Select auth mode from the probe without waiting for GSI. Login can then
+    // open a GIS popup on the click stack once the script is present.
+    waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
+      if (cancelled) return
+      // Upgrade a speculative token selection when an oauth base appears.
+      if (authModeRef.current === 'pending' || (base && authModeRef.current === 'token')) {
+        selectController(base ? 'oauth' : 'token', base)
+      }
+    })
+
     function finishModeAndResume() {
       return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
         if (cancelled) return null
@@ -284,8 +322,15 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       cancelled = true
       if (pollTimeout) clearTimeout(pollTimeout)
       window.removeEventListener('load', initGoogleIdentity)
-      if (tokenControllerRef.current) tokenControllerRef.current.dispose()
-      if (oauthControllerRef.current) oauthControllerRef.current.dispose()
+      // Clear renew timers only. Do not drop controller instances here —
+      // React Strict Mode remounts this effect, and disposing GIS clients
+      // mid-session makes the next Login click fail with "disposed".
+      if (tokenControllerRef.current && tokenControllerRef.current.dispose) {
+        tokenControllerRef.current.dispose()
+      }
+      if (oauthControllerRef.current && oauthControllerRef.current.dispose) {
+        oauthControllerRef.current.dispose()
+      }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps -- initialize once on mount
   }, [])

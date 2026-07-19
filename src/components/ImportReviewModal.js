@@ -1340,7 +1340,6 @@ export default function ImportReviewModal(props) {
       setCurrentTuneBook={props.setCurrentTuneBook}
       currentTuneBook={props.currentTuneBook}
       forceRefresh={props.forceRefresh}
-      startCollapsed={false}
     />
   ) : addPanelMode === 'bulk' ? (
     <AddBulkImportPanel
@@ -1384,7 +1383,7 @@ export default function ImportReviewModal(props) {
   const headerTitle = !addTunesMode
     ? 'Import review'
     : addPanelMode === 'curated'
-      ? 'Curated collections'
+      ? 'Curated Collections'
       : addPanelMode === 'bulk'
         ? 'Bulk import'
         : 'Add';

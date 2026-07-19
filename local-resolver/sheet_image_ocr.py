@@ -88,6 +88,15 @@ def paddleocr_available() -> bool:
     return False
 
 
+def ensure_paddleocr_available() -> bool:
+    """Block until the import probe finishes (for transcription subprocesses)."""
+    if os.getenv("SHEET_IMAGE_OCR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return False
+    if _paddleocr_cached is not None:
+        return _paddleocr_cached
+    return _run_paddleocr_probe()
+
+
 def warmup_paddleocr_probe() -> None:
     """Kick the background import probe (e.g. on server startup)."""
     if os.getenv("SHEET_IMAGE_OCR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
@@ -124,7 +133,7 @@ def _get_paddle_ocr():
     global _paddle_ocr, _paddle_init_error
     if _paddle_ocr is not None:
         return _paddle_ocr
-    if not paddleocr_available():
+    if not ensure_paddleocr_available():
         raise RuntimeError(_paddle_init_error or "PaddleOCR is not available")
     from paddleocr import PaddleOCR
 

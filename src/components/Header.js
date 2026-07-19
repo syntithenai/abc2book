@@ -13,6 +13,7 @@ import { isQueueActive } from '../nowPlayingQueue';
 import {
   getViewedTuneIdFromPath,
   getSkipNavigationTuneId,
+  isTuneListPath,
 } from '../playbackNavigationUtils';
 import { isEditorNotationPath } from '../viewModeUtils';
 import {
@@ -67,8 +68,13 @@ export default function Header(props) {
         const ctrlSeek = event.ctrlKey || event.metaKey;
         const viewedTuneId = getViewedTuneIdFromPath(location.pathname);
         const queueActive = isQueueActive(props.nowPlayingQueue);
-        // Arrow list-browse always starts from the viewed tune and walks search results.
-        const navTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue);
+        const searchListIds = props.tunebook.getSearchListOrderedIds
+            ? props.tunebook.getSearchListOrderedIds()
+            : [];
+        const hasSearchList = Array.isArray(searchListIds) && searchListIds.length > 0;
+        const onTuneList = isTuneListPath(location.pathname);
+        // Arrow list-browse starts from the viewed tune, or first result on a fresh search list.
+        const navTuneId = viewedTuneId || null;
 
         if (ctrlSeek && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && mediaController && mediaController.seekBySeconds) {
             event.preventDefault();
@@ -85,9 +91,10 @@ export default function Header(props) {
             return;
         }
 
-        if ((event.key === 'ArrowRight' || event.key === 'ArrowLeft') && navTuneId) {
+        if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
             const onTunePage = !!(viewedTuneId && (location.pathname.startsWith('/tunes/') || location.pathname.startsWith('/editor/')));
-            if (!onTunePage && !queueActive) return;
+            if (!onTunePage && !queueActive && !(onTuneList && hasSearchList)) return;
+            if (!navTuneId && !(onTuneList && hasSearchList)) return;
             event.preventDefault();
             if (event.key === 'ArrowRight') {
                 props.tunebook.navigateToNextSong(navTuneId, null, navigate, location.pathname, {
@@ -125,14 +132,24 @@ export default function Header(props) {
     const showHeaderPlayback = onTunesOrEditor && !playbackInMenu
     const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
     const skipTuneId = getSkipNavigationTuneId(location.pathname, props.nowPlayingQueue)
-    // Always offer prev/next on a tune page (search/list browse). Playlist queue
-    // stepping still has the bottom transport bar; do not hide these when a
-    // leftover queue is loaded — editor notation already owns arrow keys.
-    const showSkipButtons = !!(skipTuneId && viewedTuneId)
+    const searchListIds = props.tunebook.getSearchListOrderedIds
+        ? props.tunebook.getSearchListOrderedIds()
+        : []
+    const hasSearchList = Array.isArray(searchListIds) && searchListIds.length > 0
+    const onTuneList = isTuneListPath(location.pathname)
+    // Offer prev/next on a tune page, and on the list after a search so the
+    // first result can be opened without clicking a row first.
+    const showSkipButtons = !!(
+        (skipTuneId && viewedTuneId)
+        || (onTuneList && hasSearchList)
+    )
     // On settings/chords/help/etc., show the full player while a queue is active.
     // Hide on metronome/tuner/piano (those pages pause playback for their own audio).
     // Keep skip-only on narrow tunes/editor layouts where playback lives in the menu.
-    const showFullHeaderPlayback = !onPlaybackInterruptTool && showHeaderPlayback && !!viewedTuneId
+    // Also show play on the tune list when search results exist (plays first result).
+    const showFullHeaderPlayback = !onPlaybackInterruptTool && showHeaderPlayback && (
+        !!viewedTuneId || (onTuneList && hasSearchList)
+    )
     const headerDropdownBtnStyle = {
         width: compactNav ? '2.55em' : '3em',
     }
@@ -141,10 +158,12 @@ export default function Header(props) {
         if (!showSkipButtons) return null
         // While the playlist queue is audibly playing, next/prev steps the
         // playlist (see runAdjacentSongNavigation); label accordingly.
-        const queuePlaybackRunning = isQueueActive(props.nowPlayingQueue)
+        const navFromId = viewedTuneId || null
+        const queuePlaybackRunning = !!(navFromId)
+            && isQueueActive(props.nowPlayingQueue)
             && !!(props.mediaController && (props.mediaController.isPlaying || props.mediaController.isLoading))
             && props.nowPlayingQueue.items.some(function(item) {
-                return item && String(item.tuneId) === String(skipTuneId)
+                return item && String(item.tuneId) === String(navFromId)
             })
         const prevLabel = queuePlaybackRunning ? 'Previous in playlist' : 'Previous search result'
         const nextLabel = queuePlaybackRunning ? 'Next in playlist' : 'Next search result'
@@ -152,13 +171,13 @@ export default function Header(props) {
             <span className="header-list-nav">
                 <ButtonGroup className="header-skip-buttons">
                     <Button size={buttonSize} aria-label={prevLabel} title={prevLabel} onClick={function() {
-                        props.tunebook.navigateToPreviousSong(skipTuneId, navigate, location.pathname, {
+                        props.tunebook.navigateToPreviousSong(navFromId, navigate, location.pathname, {
                             mediaController: props.mediaController,
                             forceSearchList: true,
                         })
                     }}>{props.tunebook.icons.skipback}</Button>
                     <Button size={buttonSize} aria-label={nextLabel} title={nextLabel} onClick={function() {
-                        props.tunebook.navigateToNextSong(skipTuneId, null, navigate, location.pathname, {
+                        props.tunebook.navigateToNextSong(navFromId, null, navigate, location.pathname, {
                             mediaController: props.mediaController,
                             forceSearchList: true,
                         })
@@ -191,7 +210,9 @@ export default function Header(props) {
             )
         }
         return (
-            <Button size={size} variant="success" className={className} aria-label="Log in" onClick={function() { props.login() }}>
+            <Button size={size} variant="success" className={className} aria-label="Log in" onClick={function() {
+                if (typeof props.login === 'function') props.login()
+            }}>
                 {props.tunebook.icons.login}
             </Button>
         )

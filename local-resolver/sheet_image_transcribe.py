@@ -22,8 +22,8 @@ from chord_sheet_utils import (
     reconstruct_chord_sheet_details,
 )
 from sheet_image_melody import extract_main_melody_from_musicxml
-from sheet_image_ocr import extract_ocr_boxes, paddleocr_available
-from sheet_image_omr import homr_available, transcribe_image_to_musicxml
+from sheet_image_ocr import ensure_paddleocr_available, extract_ocr_boxes
+from sheet_image_omr import ensure_homr_available, transcribe_image_to_musicxml
 from sheet_image_staff_detect import classify_page_type, detect_staff_regions, vision_stack_available
 from sheet_image_vlm import maybe_apply_vlm_fallback
 
@@ -140,7 +140,9 @@ def _prepare_image_path(data: bytes, filename: str, work_dir: str) -> str:
 
 def _extract_chord_sheet(image_path: str) -> dict[str, Any]:
     warnings: list[str] = []
-    if not paddleocr_available():
+    # Transcription runs in a short-lived vision subprocess; do not skip OCR
+    # while the async /health probe is still cold.
+    if not ensure_paddleocr_available():
         return {
             "format": "chords-over-words",
             "text": "",
@@ -167,7 +169,7 @@ def _extract_chord_sheet(image_path: str) -> dict[str, Any]:
 
 
 def _extract_melody(image_path: str) -> dict[str, Any] | None:
-    if not homr_available():
+    if not ensure_homr_available():
         return None
     musicxml = transcribe_image_to_musicxml(image_path)
     melody = extract_main_melody_from_musicxml(musicxml)
@@ -223,14 +225,19 @@ async def transcribe_sheet_image_bytes(
             title, artist = _guess_title_artist(raw_lines)
 
         melody = None
+        omr_skipped = False
         if staff_info.get("hasStaff"):
-            try:
-                _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
-                melody = _extract_melody(image_path)
-                _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
-            except Exception as exc:
-                warnings.append("omr_failed")
-                warnings.append(str(exc)[:200])
+            if ensure_homr_available():
+                try:
+                    _emit_progress(on_progress, "omr", "Recognizing melody notation (OMR)...", started_at, estimated_total)
+                    melody = _extract_melody(image_path)
+                    _emit_progress(on_progress, "melody", "Converting melody to ABC...", started_at, estimated_total)
+                except Exception as exc:
+                    warnings.append("omr_failed")
+                    warnings.append(str(exc)[:200])
+            else:
+                omr_skipped = True
+                warnings.append("omr_unavailable")
 
         page_type = classify_page_type(bool(staff_info.get("hasStaff")), raw_lines)
         if chord_sheet.get("text") and melody:
@@ -245,15 +252,31 @@ async def transcribe_sheet_image_bytes(
         if isinstance(melody, dict):
             melody_abc = str(melody.get("abc") or "").strip()
         if not chord_text and not melody_abc:
-            if "omr_failed" in warnings or staff_info.get("hasStaff"):
+            if "omr_failed" in warnings:
                 raise RuntimeError(
                     "No chords, lyrics, or melody were detected. Staff notation was found but "
                     "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
                     "for notation scores."
                 )
+            if "paddleocr_unavailable" in warnings and omr_skipped:
+                raise RuntimeError(
+                    "No chords, lyrics, or melody were detected. Sheet OCR/OMR backends "
+                    "are not available on this resolver."
+                )
             if "paddleocr_unavailable" in warnings:
                 raise RuntimeError(
                     "No chords, lyrics, or melody were detected. OCR is not available on this resolver."
+                )
+            if staff_info.get("hasStaff") and omr_skipped:
+                raise RuntimeError(
+                    "No chords, lyrics, or melody were detected. Staff notation was found but "
+                    "melody recognition is not available on this resolver."
+                )
+            if staff_info.get("hasStaff"):
+                raise RuntimeError(
+                    "No chords, lyrics, or melody were detected. Staff notation was found but "
+                    "melody recognition failed. Try a clearer photo, or import MusicXML/ABC "
+                    "for notation scores."
                 )
             raise RuntimeError(
                 "No chords, lyrics, or melody were detected in the image. "

@@ -73,6 +73,8 @@ export default function NowPlayingQueueManager(props) {
                   className="p-0 align-baseline"
                   style={{ marginRight: '1em', fontWeight: 'bold', textDecoration: 'none' }}
                   onClick={function() {
+                    // Update playlist position so transport play/next/prev use this item.
+                    props.setNowPlayingQueue(setQueueIndex(queue, index))
                     navigate('/tunes/' + tune.id)
                     setFilter('')
                     if (props.handleClose) props.handleClose()

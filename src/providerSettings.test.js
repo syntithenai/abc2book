@@ -92,7 +92,7 @@ describe('providerSettings', function() {
     expect(getModelSuggestions('openai', 'whisper')).toContain('whisper-1')
     const groqOcr = getModelSuggestions('groq', 'ocr')
     expect(groqOcr).toContain('qwen/qwen3.6-27b')
-    expect(groqOcr).toContain('meta-llama/llama-4-scout-17b-16e-instruct')
+    expect(groqOcr).not.toContain('meta-llama/llama-4-scout-17b-16e-instruct')
     expect(groqOcr).not.toContain('openai/gpt-oss-120b')
     expect(getSelectablePresets('ocr').some(function(p) { return p.id === 'groq' })).toBe(true)
     expect(getSelectablePresets('whisper').some(function(p) { return p.id === 'replicate' })).toBe(false)
@@ -105,6 +105,27 @@ describe('providerSettings', function() {
     expect(isExpensiveModel('groq', 'llm', 'llama-3.1-8b-instant')).toBe(false)
     expect(isExpensiveModel('openai', 'llm', 'gpt-4o')).toBe(true)
     expect(isExpensiveModel('groq', 'ocr', 'qwen/qwen3.6-27b')).toBe(true)
+  })
+
+  test('loadProviderSettings migrates deprecated Groq Scout OCR model', function() {
+    localStorage.setItem('bookstorage_provider_settings_v1', JSON.stringify({
+      llm: [],
+      whisper: [],
+      ocr: [{
+        id: '1',
+        provider: 'groq',
+        apiUrl: 'https://api.groq.com/openai/v1',
+        apiKey: 'gsk',
+        model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+        active: true,
+        capability: 'ocr',
+      }],
+      stems: [],
+    }))
+    const loaded = loadProviderSettings()
+    expect(loaded.ocr[0].model).toBe('qwen/qwen3.6-27b')
+    const stored = JSON.parse(localStorage.getItem('bookstorage_provider_settings_v1'))
+    expect(stored.ocr[0].model).toBe('qwen/qwen3.6-27b')
   })
 
   test('listGroqCapsMissingKey skips caps with active Groq key', function() {

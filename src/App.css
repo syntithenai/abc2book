@@ -1451,30 +1451,46 @@ a.header-now-playing-label:focus {
   opacity: 0.9;
 }
 
-.books-page-empty-add {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25em;
-  align-items: flex-start;
-  margin-bottom: 1.25em;
-}
-
-.books-page-empty-add-instructions {
-  flex: 1 1 16em;
-  min-width: 0;
+.books-page-empty {
+  width: 100%;
+  margin: 0.5em 0 1.5em;
 }
 
 .books-page-empty-title {
-  margin-bottom: 0.35em;
+  margin: 0 0 0.5em;
+  max-width: 40em;
 }
 
 .books-page-empty-lead {
-  margin-bottom: 0.65em;
+  margin: 0 0 0.75em;
+  max-width: 40em;
+  line-height: 1.45;
 }
 
-.books-page-empty-import-list {
-  margin-bottom: 0;
-  padding-left: 1.25em;
+.books-page-empty-cta {
+  margin: 0 0 1em;
+  max-width: 40em;
+  line-height: 1.45;
+}
+
+.books-page-empty-add-btn {
+  margin-bottom: 1.25em;
+}
+
+.import-collections-flat {
+  width: 100%;
+}
+
+.import-collections-flat-books {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.35em;
+  width: 100%;
+}
+
+.import-collections-flat-books > .btn-group {
+  margin: 0 !important;
 }
 
 .books-page-meta {
@@ -5292,6 +5308,10 @@ button img:after {
     text-align: left;
     padding-right: 0.7em;
   }
+}
+
+.lyrics-autoscroll-trigger-wrap {
+  display: inline-flex;
 }
 
 .lyrics-autoscroll-bar {

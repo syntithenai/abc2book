@@ -73,6 +73,15 @@ def homr_available() -> bool:
     return False
 
 
+def ensure_homr_available() -> bool:
+    """Block until the import probe finishes (for transcription subprocesses)."""
+    if os.getenv("SHEET_IMAGE_OMR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
+        return False
+    if _homr_cached is not None:
+        return _homr_cached
+    return _run_homr_probe()
+
+
 def warmup_homr_probe() -> None:
     """Kick the background import probe (e.g. on server startup)."""
     if os.getenv("SHEET_IMAGE_OMR_ENABLED", "true").strip().lower() in {"0", "false", "no"}:
