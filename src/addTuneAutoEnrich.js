@@ -2,7 +2,7 @@ import { searchChords } from './chordsSearchClient'
 import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
-import { pickChordPasteCandidate, pickNotationPasteCandidate } from './chordSearchSites'
+import { pickNotationPasteCandidate } from './chordSearchSites'
 import {
   applyCandidateToTune,
   historyLabelForKind,
@@ -96,11 +96,41 @@ export function dismissAddTuneAutoEnrichFailure(tuneId) {
 }
 
 export function dismissAddTuneAutoEnrichChordPaste(tuneId) {
-  dismissAddTuneAutoEnrichFailure(tuneId)
+  const key = String(tuneId || '').trim()
+  if (!key || !enrichByTuneId[key]) return
+  const next = Object.assign({}, enrichByTuneId[key], {
+    needsChordPaste: false,
+    chordPasteCandidate: null,
+    chordManualCandidates: [],
+    message: enrichByTuneId[key].needsNotationPaste
+      ? (enrichByTuneId[key].message || '')
+      : '',
+  })
+  if (stateIsIdle(next)) {
+    delete enrichByTuneId[key]
+  } else {
+    enrichByTuneId[key] = next
+  }
+  notify()
 }
 
 export function dismissAddTuneAutoEnrichNotationPaste(tuneId) {
-  dismissAddTuneAutoEnrichFailure(tuneId)
+  const key = String(tuneId || '').trim()
+  if (!key || !enrichByTuneId[key]) return
+  const next = Object.assign({}, enrichByTuneId[key], {
+    needsNotationPaste: false,
+    notationPasteCandidate: null,
+    notationManualCandidates: [],
+    message: enrichByTuneId[key].needsChordPaste
+      ? (enrichByTuneId[key].message || '')
+      : '',
+  })
+  if (stateIsIdle(next)) {
+    delete enrichByTuneId[key]
+  } else {
+    enrichByTuneId[key] = next
+  }
+  notify()
 }
 
 export function pickFirstSearchCandidate(result) {
@@ -214,11 +244,11 @@ export async function runAddTuneAutoEnrich(options) {
 
   let lyricApplied = !isTuneFieldEmptyForKind(tune, 'lyrics')
   let chordApplied = !isTuneFieldEmptyForKind(tune, 'chords')
-  let notationApplied = !isTuneFieldEmptyForKind(tune, 'notation')
+  // Rest-only scaffolds count as empty for enrichment purposes.
+  let notationApplied = !notationLooksReplaceable(tune)
   let lyricsSearchFailed = false
   let notationSearchFailed = false
   let notationAttempted = false
-  let chordManualCandidates = []
   let notationManualCandidates = []
 
   try {
@@ -265,7 +295,9 @@ export async function runAddTuneAutoEnrich(options) {
       loadTuneTexts: opts.loadTuneTexts || null,
       songType: opts.songType || 'instrumental',
       onProgress: function(message, progress) {
-        if (lyricApplied) return
+        // Keep early notation progress quiet while chords/lyrics own the bar;
+        // surface it once those parallel searches have finished.
+        if (chordFrac < 1 || lyricFrac < 1) return
         const frac = fractionProgress(progress)
         updateState(tuneId, {
           pending: true,
@@ -290,7 +322,6 @@ export async function runAddTuneAutoEnrich(options) {
       const chordResult = await chordPromise
       chordFrac = 1
       emitParallelProgress()
-      chordManualCandidates = manualCandidatesFromSearchResult(chordResult)
       const chordCandidate = pickFirstSearchCandidate(chordResult)
       if (chordCandidate) {
         updateState(tuneId, {
@@ -351,9 +382,11 @@ export async function runAddTuneAutoEnrich(options) {
       lyricsSearchFailed = !lyricApplied
     }
 
-    if (!lyricApplied) {
+    // Always try notation when the staff is empty/replaceable — art songs often
+    // have lyrics and MuseScore notation; lyrics must not suppress notation.
+    if (notationLooksReplaceable(tune)) {
       notationAttempted = true
-      lyricsSearchFailed = true
+      if (!lyricApplied) lyricsSearchFailed = true
       updateState(tuneId, {
         pending: true,
         progress: clampPercent(Math.max(getAddTuneAutoEnrichState(tuneId).progress, 72)),
@@ -366,7 +399,7 @@ export async function runAddTuneAutoEnrich(options) {
       } else {
         notationManualCandidates = manualCandidatesFromSearchResult(settled.value)
         const notationCandidate = pickFirstSearchCandidate(settled.value)
-        if (notationCandidate && notationLooksReplaceable(tune)) {
+        if (notationCandidate) {
           updateState(tuneId, {
             pending: true,
             progress: 96,
@@ -387,22 +420,18 @@ export async function runAddTuneAutoEnrich(options) {
         }
       }
     } else {
-      // Lyrics found — drain settled promise (already handled; no unhandled rejection).
-      const settled = await notationSettled
-      if (settled && settled.ok) {
-        notationManualCandidates = manualCandidatesFromSearchResult(settled.value)
-      }
+      // Drain settled promise so a fast miss cannot become an unhandled rejection.
+      await notationSettled
     }
 
     return true
   } finally {
-    const stillNeedsChords = !chordApplied && isTuneFieldEmptyForKind(tune, 'chords')
-    const chordPasteCandidate = stillNeedsChords && lyricApplied
-      ? pickChordPasteCandidate(chordManualCandidates, title, artist)
-      : null
+    // Do not prompt Ultimate Guitar on add-tune enrich: lyrics are already
+    // applied when available, and UG often surfaces non-chord pages for
+    // classical works. Chords can still be pasted via the editor tools.
     const stillNeedsNotation = notationAttempted
       && !notationApplied
-      && isTuneFieldEmptyForKind(tune, 'notation')
+      && notationLooksReplaceable(tune)
     const notationPasteCandidate = stillNeedsNotation
       ? pickNotationPasteCandidate(notationManualCandidates, title, artist)
       : null
@@ -410,24 +439,13 @@ export async function runAddTuneAutoEnrich(options) {
       && (notationAttempted ? notationSearchFailed : false)
       && !notationPasteCandidate
 
-    if (chordPasteCandidate) {
+    if (notationPasteCandidate) {
       updateState(tuneId, {
         pending: false,
         progress: 100,
-        message: 'Lyrics found, but chords need a manual paste from Ultimate Guitar.',
-        failure: '',
-        needsChordPaste: true,
-        chordPasteCandidate: chordPasteCandidate,
-        chordManualCandidates: chordManualCandidates.slice(),
-        needsNotationPaste: false,
-        notationPasteCandidate: null,
-        notationManualCandidates: [],
-      })
-    } else if (notationPasteCandidate) {
-      updateState(tuneId, {
-        pending: false,
-        progress: 100,
-        message: 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.',
+        message: notationPasteCandidate.searchFallback
+          ? 'No downloadable notation was found automatically. Search MuseScore and import MusicXML, .mxl, .mscz, or MIDI.'
+          : 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.',
         failure: '',
         needsChordPaste: false,
         chordPasteCandidate: null,

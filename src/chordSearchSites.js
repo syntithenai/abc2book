@@ -85,8 +85,8 @@ export function pickChordPasteCandidate(manualCandidates, title, artist) {
 
 /**
  * Prefer a concrete MuseScore score URL from notation manualCandidates,
- * then any other locked notation page. No search fallback — only prompt when
- * a locked MuseScore (or other) URL was actually discovered.
+ * then any other locked notation page, then a MuseScore search URL so the
+ * user can still import when discovery did not return a specific score.
  */
 export function pickNotationPasteCandidate(manualCandidates, title, artist) {
   const list = Array.isArray(manualCandidates) ? manualCandidates : []
@@ -107,5 +107,15 @@ export function pickNotationPasteCandidate(manualCandidates, title, artist) {
   })
   if (muse) return muse
   if (other) return other
-  return null
+  const fallbackUrl = buildMuseScoreSearchUrl(title, artist)
+  if (!fallbackUrl) return null
+  return {
+    url: fallbackUrl,
+    title: String(title || '').trim(),
+    source: 'musescore.com',
+    host: 'musescore.com',
+    contentType: 'notation',
+    reason: 'search',
+    searchFallback: true,
+  }
 }

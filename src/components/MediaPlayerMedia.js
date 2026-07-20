@@ -257,6 +257,9 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
         }
         if (!mediaController.shouldIgnoreNativePlaybackEvents()) {
             if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
+                if (mediaController.recoverUnexpectedNativePause) {
+                    mediaController.recoverUnexpectedNativePause()
+                }
                 return
             }
             if (mediaController.pause) {

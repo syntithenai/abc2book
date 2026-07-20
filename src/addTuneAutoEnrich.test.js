@@ -54,6 +54,7 @@ describe('addTuneAutoEnrich', function() {
     dismissAddTuneAutoEnrichFailure('t4')
     dismissAddTuneAutoEnrichFailure('t5')
     dismissAddTuneAutoEnrichFailure('t6')
+    dismissAddTuneAutoEnrichFailure('t7')
   })
 
   test('pickFirstSearchCandidate prefers first candidate from multi results', function() {
@@ -62,7 +63,7 @@ describe('addTuneAutoEnrich', function() {
     })).toEqual({ title: 'A' })
   })
 
-  test('runs chords and lyrics search, skipping notation when lyrics were found', async function() {
+  test('applies notation even when lyrics were found', async function() {
     const tune = { id: 't1', name: 'Song', composer: 'Writer' }
     const tunebook = {
       abcTools: {},
@@ -76,13 +77,13 @@ describe('addTuneAutoEnrich', function() {
       return Promise.resolve({ chordText: 'C | G |', lyricLines: ['line'] })
     })
     searchLyrics.mockResolvedValue({ text: 'lyrics text' })
-    searchNotation.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({ abc: 'X:1\nK:C\nC D E F|' })
     commitChordSearchResultToTune.mockReturnValue({
       ok: true,
       lyricLines: ['line'],
     })
     isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
-      return kind === 'lyrics'
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
     })
     applyCandidateToTune.mockReturnValue(true)
 
@@ -107,11 +108,17 @@ describe('addTuneAutoEnrich', function() {
     expect(commitChordSearchResultToTune).toHaveBeenCalled()
     expect(searchLyrics).toHaveBeenCalled()
     expect(searchNotation).toHaveBeenCalled()
-    expect(applyCandidateToTune).not.toHaveBeenCalledWith(
-      expect.anything(),
+    expect(applyCandidateToTune).toHaveBeenCalledWith(
+      tune,
+      'lyrics',
+      { text: 'lyrics text' },
+      tunebook.abcTools
+    )
+    expect(applyCandidateToTune).toHaveBeenCalledWith(
+      tune,
       'notation',
-      expect.anything(),
-      expect.anything()
+      { abc: 'X:1\nK:C\nC D E F|' },
+      tunebook.abcTools
     )
     expect(isAddTuneAutoEnrichPending('t1')).toBe(false)
     expect(getAddTuneAutoEnrichState('t1').failure).toBe('')
@@ -261,6 +268,56 @@ describe('addTuneAutoEnrich', function() {
       'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-123'
     )
     expect(state.message).toMatch(/Ultimate Guitar/i)
+  })
+
+  test('prompts for MuseScore paste when lyrics succeed but notation is gated', async function() {
+    const tune = { id: 't7', name: 'Apres un reve', composer: 'Faure' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+    let lyricsEmpty = true
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockResolvedValue({ text: 'Dans un sommeil' })
+    searchNotation.mockResolvedValue({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://musescore.com/user/1/scores/42',
+        title: 'Apres un reve',
+        source: 'musescore.com',
+        contentType: 'notation',
+      }],
+    })
+    commitChordSearchResultToTune.mockReturnValue({ ok: false })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      if (kind === 'lyrics') return lyricsEmpty
+      if (kind === 'chords') return true
+      if (kind === 'notation') return true
+      return false
+    })
+    applyCandidateToTune.mockImplementation(function(_tune, kind) {
+      if (kind === 'lyrics') lyricsEmpty = false
+      return kind === 'lyrics'
+    })
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t7')
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.notationPasteCandidate.url).toContain('musescore.com')
+    // Speculative UG search fallback must not hide a real MuseScore hit.
+    expect(state.needsChordPaste).toBe(false)
+    expect(state.failure).toBe('')
+    expect(state.message).toMatch(/MuseScore/i)
   })
 
   test('prompts for MuseScore paste when notation finds only gated scores', async function() {

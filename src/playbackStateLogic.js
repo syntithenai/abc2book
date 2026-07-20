@@ -178,6 +178,36 @@ export function shouldHandleNativePause(snapshot, flags, now) {
   return true
 }
 
+/**
+ * Media Session should stay "playing" while we still intend to play — including
+ * the brief gap between tracks — so Android does not drop the continuous
+ * playback / autoplay privilege when the UI isPlaying flag flips false.
+ */
+export function resolveMediaSessionPlaybackState(snapshot) {
+  if (hasActivePlaybackIntent(snapshot)) return 'playing'
+  if (snapshot.isPlayingUi && !snapshot.userPaused) return 'playing'
+  return 'paused'
+}
+
+/**
+ * True when the browser paused the native media element while we still want
+ * playback (e.g. Android home / screen-off). Callers should try to resume
+ * instead of treating it as a user pause.
+ */
+export function shouldRecoverUnexpectedNativePause(snapshot, flags, now) {
+  if (!hasActivePlaybackIntent(snapshot)) return false
+  if (shouldSuppressSpuriousPause(snapshot, now)) return false
+  if (flags && flags.externalMediaActive) return false
+  if (flags && flags.suppressNativePlaybackEvents) return false
+  if (isSeekGuardActive(snapshot, now)) return false
+  return true
+}
+
+/** Resume AudioContext / outputs when returning to a visible tab with intent. */
+export function shouldResumePlaybackOnVisible(snapshot) {
+  return hasActivePlaybackIntent(snapshot)
+}
+
 export function clampSeekRatio(value) {
   const n = parseFloat(value)
   if (isNaN(n)) return null

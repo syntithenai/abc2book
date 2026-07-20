@@ -198,7 +198,10 @@ export default function NowPlayingHost(props) {
     : '0'
   const engineKey = playbackTarget.type === 'midi'
     ? 'host-midi-' + playingTune.id + '-v' + playableVoiceKey
-    : 'host-media-' + playingTune.id + '-' + routeMediaLinkNumber
+    // Keep a stable media host key so queue advance reuses the same <audio>
+    // element (src change) instead of remounting — required for mobile
+    // screen-off auto-advance / continuous Media Session autoplay.
+    : 'host-media'
 
   return (
     <div className="now-playing-host" aria-hidden="true">

@@ -828,7 +828,10 @@ export default function MusicSingle(props) {
       ) : null}
       <PasteChordSheetModal
         show={showAutoEnrichChordPaste}
-        onHide={function() { setShowAutoEnrichChordPaste(false) }}
+        onHide={function() {
+          setShowAutoEnrichChordPaste(false)
+          dismissAddTuneAutoEnrichChordPaste(params.tuneId)
+        }}
         tune={tune || {}}
         forceUpdateLyrics={false}
         initialUpdateLyrics={false}
@@ -862,7 +865,10 @@ export default function MusicSingle(props) {
       />
       <LockedSourcePasteModal
         show={showAutoEnrichNotationPaste}
-        onHide={function() { setShowAutoEnrichNotationPaste(false) }}
+        onHide={function() {
+          setShowAutoEnrichNotationPaste(false)
+          dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+        }}
         candidate={autoEnrichState.notationPasteCandidate}
         searchTitle={tune && tune.name}
         searchArtist={tune && tune.composer}

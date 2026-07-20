@@ -21,6 +21,9 @@ import {
   shouldConfirmPlayingStarted,
   shouldUseExistingPlayer,
   shouldHandleNativePause,
+  resolveMediaSessionPlaybackState,
+  shouldRecoverUnexpectedNativePause,
+  shouldResumePlaybackOnVisible,
   clampSeekRatio,
   seekSecondsFromRatio,
   seekRatioFromSeconds,
@@ -200,6 +203,51 @@ describe('tap-to-play modal dismiss', function() {
     expect(shouldDismissTapToPlayModalWithoutStop('media', true)).toBe(true)
     expect(shouldDismissTapToPlayModalWithoutStop('media', false)).toBe(false)
     expect(shouldDismissTapToPlayModalWithoutStop('none', true)).toBe(false)
+  })
+})
+
+describe('media session and background recovery', function() {
+  test('media session stays playing while active intent even if UI not playing', function() {
+    expect(resolveMediaSessionPlaybackState(snap({
+      playingIntent: true,
+      userPaused: false,
+      isPlayingUi: false,
+    }))).toBe('playing')
+    expect(resolveMediaSessionPlaybackState(snap({
+      playingIntent: false,
+      userPaused: false,
+      isPlayingUi: false,
+    }))).toBe('paused')
+    expect(resolveMediaSessionPlaybackState(applyPause(snap({
+      playingIntent: true,
+      isPlayingUi: true,
+    })))).toBe('paused')
+  })
+
+  test('unexpected native pause recovers only with active intent', function() {
+    expect(shouldRecoverUnexpectedNativePause(snap({
+      playingIntent: true,
+      userPaused: false,
+    }), {}, NOW)).toBe(true)
+    expect(shouldRecoverUnexpectedNativePause(applyPause(snap({
+      playingIntent: true,
+      isPlayingUi: true,
+    })), {}, NOW)).toBe(false)
+    expect(shouldRecoverUnexpectedNativePause(snap({
+      playingIntent: true,
+      userPaused: false,
+    }), { externalMediaActive: true }, NOW)).toBe(false)
+  })
+
+  test('resume on visible requires active intent', function() {
+    expect(shouldResumePlaybackOnVisible(snap({
+      playingIntent: true,
+      userPaused: false,
+    }))).toBe(true)
+    expect(shouldResumePlaybackOnVisible(applyPause(snap({
+      playingIntent: true,
+      isPlayingUi: true,
+    })))).toBe(false)
   })
 })
 
