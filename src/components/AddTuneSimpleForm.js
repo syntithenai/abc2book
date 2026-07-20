@@ -79,8 +79,13 @@ export default function AddTuneSimpleForm(props) {
       artist: values.artist || '',
       tunes: tunes,
       limit: 8,
+      importTune: {
+        name: values.title || '',
+        composer: values.artist || '',
+        words: String(values.lyrics || '').split(/\r?\n/),
+      },
     }) || []
-  }, [values.title, values.artist, tunes])
+  }, [values.title, values.artist, values.lyrics, tunes])
 
   const composerOptions = useMemo(function() {
     return uniqueStrings([].concat(composerSuggestOptions, musicBrainzComposerOptions))

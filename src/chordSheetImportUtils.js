@@ -1,4 +1,4 @@
-import { classifyLyricChordLines, charOffsetToWordIndex } from './chordSheetUtils'
+import { classifyLyricChordLines, charOffsetToWordIndex, wrapChordGridBars } from './chordSheetUtils'
 import { normalizeLyricStructure } from './lyricStructureUtils'
 
 function mapLyricTokens(lyricTokens) {
@@ -237,7 +237,7 @@ export function sheetLinesToWizardChords(sheetLines) {
   while (result.length > 0 && result[result.length - 1] === '') {
     result.pop()
   }
-  return result.join('\n')
+  return wrapChordGridBars(result.join('\n'), 8)
 }
 
 export function sheetLinesToLyricLines(sheetLines) {

@@ -363,16 +363,16 @@ describe('ImportReviewModal', function() {
     expect(mergeChoicesRegion.textContent).toContain('Choose an existing tune to merge into, or create a new tune.');
     expect(mergeChoicesRegion.textContent).toContain('Create new tune');
     expect(view.container.textContent).not.toContain('Routing:');
-    expect(view.container.textContent).toContain('Google Photos');
-    expect(view.container.textContent).toContain('Drive');
+    expect(view.container.textContent).not.toContain('Add From');
+    expect(view.container.textContent).not.toContain('Google Photos');
 
     await view.unmount();
   });
 
-  test('Add From YouTube updates the live form without reload', async function() {
+  test('Import review does not show Add From or YouTube search', async function() {
     const view = renderModal();
     const session = createImportReviewSession(
-      [{ id: 'imp-1', tune: { name: '', composer: '', links: [] }, sourceKind: 'abc', mergeTargetId: null }],
+      [{ id: 'imp-1', tune: { name: 'Song', composer: '', links: [] }, sourceKind: 'abc', mergeTargetId: null }],
       { entryMode: 'import' }
     );
     const props = buildProps({
@@ -381,21 +381,9 @@ describe('ImportReviewModal', function() {
     });
 
     await view.render(props);
-    expect(view.container.querySelectorAll('[data-testid="form-link"]').length).toBe(0);
-
-    const trigger = view.container.querySelector('[data-testid="youtube-search-trigger"]');
-    expect(trigger).toBeTruthy();
-
-    await act(async function() {
-      trigger.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      await Promise.resolve();
-    });
-
-    const links = view.container.querySelectorAll('[data-testid="form-link"]');
-    expect(links.length).toBe(1);
-    expect(links[0].textContent).toContain('youtube.com/watch?v=abc123');
-    expect(view.container.querySelector('[data-testid="form-title"]').textContent)
-      .toBe('Selected Clip');
+    expect(view.container.textContent).not.toContain('Add From');
+    expect(view.container.querySelector('[data-testid="youtube-search-trigger"]')).toBeFalsy();
+    expect(view.container.querySelector('[data-testid="add-from-curated"]')).toBeFalsy();
 
     await view.unmount();
   });
@@ -671,7 +659,7 @@ describe('ImportReviewModal', function() {
     await view.unmount();
   });
 
-  test('Cancel shows a warning modal and only discards after confirm', async function() {
+  test('Cancel removes the current import and advances immediately', async function() {
     const view = renderModal();
     const onSessionChange = jest.fn();
     const props = buildProps({ onSessionChange: onSessionChange });
@@ -688,28 +676,20 @@ describe('ImportReviewModal', function() {
       await Promise.resolve();
     });
 
-    expect(onSessionChange).not.toHaveBeenCalled();
-    const warning = view.container.querySelector('[data-testid="import-review-cancel-warning"]');
-    expect(warning).toBeTruthy();
-    expect(warning.textContent).toContain('3');
-    expect(warning.textContent).toContain('import request');
-
-    const confirmButton = view.container.querySelector('[data-testid="import-review-cancel-confirm"]');
-    expect(confirmButton).toBeTruthy();
-
-    await act(async function() {
-      confirmButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      await Promise.resolve();
-    });
-
+    expect(view.container.querySelector('[data-testid="import-review-cancel-warning"]')).toBeFalsy();
     expect(onSessionChange).toHaveBeenCalledTimes(1);
-    expect(onSessionChange.mock.calls[0][0].candidates.length).toBe(2);
+    const next = onSessionChange.mock.calls[0][0];
+    expect(next.candidates.length).toBe(2);
+    expect(next.candidates.map(function(c) { return c.id; })).toEqual(['b', 'c']);
+    expect(next.index).toBe(0);
+    expect(next.step).toBe('review');
 
     await view.unmount();
   });
 
-  test('Cancel warning lists attached audio links that will be discarded', async function() {
+  test('Cancel warns when attached audio would be discarded', async function() {
     const view = renderModal();
+    const onSessionChange = jest.fn();
     const session = createImportReviewSession([
       {
         id: 'audio-1',
@@ -725,8 +705,9 @@ describe('ImportReviewModal', function() {
           }],
         },
       },
+      { id: 'b', tune: { name: 'Beta', composer: 'Two', links: [] } },
     ]);
-    const props = buildProps({ session: session });
+    const props = buildProps({ session: session, onSessionChange: onSessionChange });
 
     await view.render(props);
 
@@ -739,10 +720,20 @@ describe('ImportReviewModal', function() {
       await Promise.resolve();
     });
 
+    expect(onSessionChange).not.toHaveBeenCalled();
     const warning = view.container.querySelector('[data-testid="import-review-cancel-warning"]');
     expect(warning).toBeTruthy();
     expect(warning.textContent).toContain('Media and links that will be discarded');
     expect(warning.textContent).toContain('Attached audio: Uploaded Song');
+
+    const confirmButton = view.container.querySelector('[data-testid="import-review-cancel-confirm"]');
+    await act(async function() {
+      confirmButton.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      await Promise.resolve();
+    });
+
+    expect(onSessionChange).toHaveBeenCalledTimes(1);
+    expect(onSessionChange.mock.calls[0][0].candidates.map(function(c) { return c.id; })).toEqual(['b']);
 
     await view.unmount();
   });

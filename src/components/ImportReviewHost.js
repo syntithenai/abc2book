@@ -50,7 +50,7 @@ export default function ImportReviewHost(props) {
   const startReview = useCallback(function(candidates) {
     const tunebook = props.tunebook;
     const tunesHash = props.tunesHash;
-    const split = detectContentHashDuplicates(candidates, tunebook, tunesHash);
+    const split = detectContentHashDuplicates(candidates, tunebook, tunesHash, props.tunes);
     dismissContentHashDuplicateToast();
 
     function openSession(list) {
@@ -75,7 +75,7 @@ export default function ImportReviewHost(props) {
     if (split.nonDuplicates.length > 0) {
       openSession(split.nonDuplicates);
     }
-  }, [props.tunebook, props.tunesHash, notifyActive, resolverAvailable]);
+  }, [props.tunebook, props.tunesHash, props.tunes, notifyActive, resolverAvailable]);
 
   useEffect(function() {
     if (typeof props.onReady === 'function') {

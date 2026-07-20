@@ -5,6 +5,7 @@ import {
   reviewCandidatesFromBatch,
   certainApplyCounts,
   applyCertainFromAbcBatch,
+  dedupeCertainInsertsByTitle,
 } from './abcImportBatchActions';
 
 describe('abcImportBatchActions', function() {
@@ -68,6 +69,34 @@ describe('abcImportBatchActions', function() {
     expect(filtered.localUpdates).toEqual([]);
     expect(filtered.duplicates).toEqual([]);
     expect(filtered.skippedUpdates).toEqual([]);
+  });
+
+  test('dedupeCertainInsertsByTitle collapses version variants onto clean title', function() {
+    const deduped = dedupeCertainInsertsByTitle([
+      { name: 'Help ukulele version', books: ['uke'], words: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] },
+      { name: 'Help', books: ['songs'], words: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k'] },
+    ]);
+    expect(deduped).toHaveLength(1);
+    expect(deduped[0].name).toBe('Help');
+    expect(deduped[0].books).toEqual(expect.arrayContaining(['uke', 'songs']));
+  });
+
+  test('filterCertainImportRaw dedupes title variants among certain inserts', function() {
+    const raw = {
+      updates: [],
+      inserts: [
+        { name: 'Help ukulele version' },
+        { name: 'Help' },
+      ],
+      deletes: {},
+    };
+    const candidates = [
+      { mergeStatus: 'new', mergeTargetId: null, tune: { name: 'Help ukulele version' } },
+      { mergeStatus: 'new', mergeTargetId: null, tune: { name: 'Help' } },
+    ];
+    const filtered = filterCertainImportRaw(raw, candidates);
+    expect(filtered.inserts).toHaveLength(1);
+    expect(filtered.inserts[0].name).toBe('Help');
   });
 
   test('uncertainCandidatesForReview returns only uncertain rows', function() {

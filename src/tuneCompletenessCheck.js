@@ -5,7 +5,7 @@ import { formatTuneDisplayName } from './tuneDisplayName';
 import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
-  hasChordLines,
+  hasLyricEmbeddedChords,
   isSectionHeader,
   splitIntoBlocks,
 } from './chordSheetUtils';
@@ -95,7 +95,7 @@ export function checkPathA(tune, options) {
     issues.push(issue('missing_meter', 'Time signature (M:) is required for chord layout', 'meter'));
   }
 
-  const lyricsHaveInlineChords = hasChordLines(lyrics);
+  const lyricsHaveInlineChords = hasLyricEmbeddedChords(lyrics);
   const abcHasChords = noteLinesTextHasChords(noteLines, opts.hasChords);
   const scaffold = !!tune.timingScaffold;
 

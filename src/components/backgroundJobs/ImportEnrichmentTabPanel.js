@@ -5,6 +5,13 @@ import {
   subscribeImportReviewEnrichment,
 } from '../../importReviewEnrichmentBridge'
 import { enrichmentSummary } from '../../importReviewEnrichmentQueue'
+import {
+  getImportReviewSessionRevision,
+  hasActiveImportReviewSession,
+  isImportReviewUiVisible,
+  openImportReviewFromToast,
+  subscribeImportReviewSession,
+} from '../../importReviewSessionStore'
 
 function getImportEnrichmentRevision() {
   const snapshot = getImportReviewEnrichmentSnapshot()
@@ -44,6 +51,13 @@ export default function ImportEnrichmentTabPanel() {
   const bridge = useImportEnrichmentBridge()
   const summary = enrichmentSummary(bridge.jobs)
   const activeCount = summary.awaiting + summary.pending + summary.running
+  const sessionRevision = useSyncExternalStore(
+    subscribeImportReviewSession,
+    getImportReviewSessionRevision,
+    function() { return '' }
+  )
+  void sessionRevision
+  const canContinueReview = hasActiveImportReviewSession() && !isImportReviewUiVisible()
 
   return (
     <>
@@ -54,6 +68,19 @@ export default function ImportEnrichmentTabPanel() {
           {summary.error > 0 ? (' · ' + summary.error + ' failed') : ''}
         </span>
         <div className="background-jobs-queue-toolbar-actions">
+          {canContinueReview ? (
+            <Button
+              variant="primary"
+              size="sm"
+              className="background-jobs-queue-toolbar-btn"
+              data-testid="bg-jobs-continue-import-review"
+              onClick={function() {
+                openImportReviewFromToast()
+              }}
+            >
+              Continue import review
+            </Button>
+          ) : null}
           <Button
             variant="warning"
             size="sm"
@@ -89,8 +116,10 @@ export default function ImportEnrichmentTabPanel() {
           </Button>
         </div>
       </div>
-      {!bridge.active ? (
+      {!bridge.active && !hasActiveImportReviewSession() ? (
         <p className="text-muted">No import review session is open.</p>
+      ) : !bridge.active ? (
+        <p className="text-muted">Import review is paused. Use Continue import review to resume.</p>
       ) : bridge.jobs.length === 0 ? (
         <p className="text-muted">No enrichment jobs in the current import session.</p>
       ) : (

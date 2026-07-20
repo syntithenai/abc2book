@@ -8814,6 +8814,12 @@ body.app-has-playlist-transport .abc-voices-notes-dialog .modal-body {
 
 .review-notation-merge-preview .abcjs-container {
   margin-bottom: 0.5rem;
+  max-height: 8rem;
+  overflow: auto;
+}
+
+.review-notation-merge-preview {
+  max-height: none;
 }
 
 .settings-background-jobs-section {

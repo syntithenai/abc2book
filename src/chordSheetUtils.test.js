@@ -1,4 +1,4 @@
-import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks } from './chordSheetUtils';
+import { tokenIsChord, isChordLine, isMostlyChordLine, isSectionHeader, isLyricVersionSeparator, truncateLyricLinesAtVersionSeparator, classifyLyricChordLines, hasChordLines, hasLyricEmbeddedChords, linesHaveChordProInlineChords, parseChordProInlineLyricLine, splitIntoBlocks, coalesceSectionHeaderBlocks, splitBlocksOnInteriorHeaders, normalizeLyricBlocks, normalizeSectionType, inferSectionTypesFromLineCounts, inferSectionTypesFromChartFingerprints, chordChartFingerprint, isLeadingTitleComposerLine, splitChordChartIntoBlocks, alignChordBlocksToLyrics, extractChordSequence, extractChordBars, mergeChordsIntoLyricLines, expandRepeatedSectionLyrics, chartBlockHasChords, fillEmptyBarsWithSlash, formatChordChartForDisplay, charOffsetToWordIndex, normalizeChordChartRepeatMarks, wrapChordGridBars } from './chordSheetUtils';
 
 describe('chordSheetUtils', function() {
   test('recognises chord tokens', function() {
@@ -40,7 +40,46 @@ describe('chordSheetUtils', function() {
     expect(isSectionHeader('[Verse 1]')).toBe(true);
     expect(isSectionHeader('[Chorus]')).toBe(true);
     expect(isSectionHeader('Bridge')).toBe(true);
+    expect(isSectionHeader('intro')).toBe(true);
+    expect(isSectionHeader('v1')).toBe(true);
+    expect(isSectionHeader('V2')).toBe(true);
     expect(isSectionHeader('I really like Christmas')).toBe(false);
+    expect(isSectionHeader('[Am]')).toBe(false);
+    expect(isSectionHeader('[F#m7]')).toBe(false);
+    expect(isSectionHeader('[C/G]')).toBe(false);
+  });
+
+  test('identifies bar-dot chord grids', function() {
+    expect(isChordLine('||C . . | F . . |')).toBe(true);
+    expect(isChordLine('C . . . | G . . . |')).toBe(true);
+    expect(classifyLyricChordLines(['||C . . | F . . |', 'sing here'])[0].type).toBe('chord');
+  });
+
+  test('normalizeSectionType maps v1 to verse', function() {
+    expect(normalizeSectionType('v1')).toBe('verse');
+    expect(normalizeSectionType('[V2]')).toBe('verse');
+  });
+
+  test('wrapChordGridBars wraps every 8 bars and keeps section blanks', function() {
+    const twelve = 'C | G | Am | F | C | G | Am | F | C | G | Am | F |';
+    const wrapped = wrapChordGridBars(twelve, 8);
+    expect(wrapped.split('\n')).toHaveLength(2);
+    expect(wrapChordGridBars('C | G |\n\nAm | F |', 8).split('\n\n')).toHaveLength(2);
+  });
+
+  test('splitIntoBlocks soft-joins single blanks when double blanks separate stanzas', function() {
+    const lines = [
+      'line one',
+      '',
+      'line two',
+      '',
+      '',
+      'stanza two',
+    ];
+    expect(splitIntoBlocks(lines)).toEqual([
+      ['line one', 'line two'],
+      ['stanza two'],
+    ]);
   });
 
   test('identifies markdown-style "#" section headers', function() {
@@ -203,9 +242,26 @@ describe('chordSheetUtils', function() {
     expect(hasChordLines(plain)).toBe(false);
   });
 
+  test('detects and tokenizes ChordPro inline lyric chords', function() {
+    const line = '[G]Amazing grace how [C]sweet the [G]sound';
+    expect(linesHaveChordProInlineChords([line])).toBe(true);
+    expect(hasLyricEmbeddedChords([line])).toBe(true);
+    expect(hasChordLines([line])).toBe(false);
+    expect(parseChordProInlineLyricLine(line)).toEqual([
+      { chord: 'G', text: 'Amazing grace how ' },
+      { chord: 'C', text: 'sweet the ' },
+      { chord: 'G', text: 'sound' },
+    ]);
+    expect(parseChordProInlineLyricLine('[Am]')).toEqual([
+      { chord: 'Am', text: '' },
+    ]);
+  });
+
   test('splitIntoBlocks groups lines on blank lines', function() {
-    const blocks = splitIntoBlocks(['a', 'b', '', 'c', '', '', 'd']);
-    expect(blocks).toEqual([['a', 'b'], ['c'], ['d']]);
+    // Legacy: only single blanks → each blank starts a block
+    expect(splitIntoBlocks(['a', 'b', '', 'c', '', 'd'])).toEqual([['a', 'b'], ['c'], ['d']]);
+    // Double-blank stanza sheet: single blanks soft-join verse lines
+    expect(splitIntoBlocks(['a', 'b', '', 'c', '', '', 'd'])).toEqual([['a', 'b', 'c'], ['d']]);
   });
 
   test('normalizeSectionType groups repeated sections', function() {

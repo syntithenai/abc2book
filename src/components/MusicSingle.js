@@ -850,6 +850,7 @@ export default function MusicSingle(props) {
             tunebook: props.tunebook,
             abcjsParser: abcjsParser,
             forceUpdateLyrics: false,
+            skipAbcMerge: !!result.skipAbcMerge,
             historyLabel: result.historyLabel || (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
           })
           if (!committed || !committed.ok) return

@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react'
-import { Button, Modal } from 'react-bootstrap'
+import { useEffect, useRef, useState } from 'react'
+import { Button, Form, Modal } from 'react-bootstrap'
 import abcjs from 'abcjs'
 
 function hasRenderableNotes(abc) {
@@ -105,11 +105,27 @@ function NotationPreview(props) {
 
 /**
  * Preview dialog before applying lyrics or notation suggestion choices.
+ * Lyrics are editable; confirming uses the draft text for the review decision.
  */
 export default function SuggestionPreviewDialog(props) {
   const kind = props.kind === 'notation' ? 'notation' : 'lyrics'
   const choice = props.choice
   const show = !!props.show && !!choice
+  const [lyricsDraft, setLyricsDraft] = useState('')
+  const lyricsRef = useRef(null)
+
+  useEffect(function() {
+    if (!show || kind !== 'lyrics') return
+    setLyricsDraft(lyricsTextFromChoice(choice))
+  }, [show, kind, choice])
+
+  useEffect(function() {
+    if (!show || kind !== 'lyrics') return undefined
+    const timer = setTimeout(function() {
+      if (lyricsRef.current) lyricsRef.current.focus()
+    }, 50)
+    return function() { clearTimeout(timer) }
+  }, [show, kind, choice])
 
   const title = kind === 'notation' ? 'Preview notation' : 'Preview lyrics'
   const body = kind === 'notation'
@@ -119,23 +135,32 @@ export default function SuggestionPreviewDialog(props) {
       />
     )
     : (
-      <pre
+      <Form.Control
+        as="textarea"
+        ref={lyricsRef}
         className="suggestion-preview-lyrics"
+        aria-label="Edit lyrics"
+        value={lyricsDraft}
+        onChange={function(event) { setLyricsDraft(event.target.value) }}
+        rows={16}
         style={{
           whiteSpace: 'pre-wrap',
           wordBreak: 'break-word',
           maxHeight: '50vh',
-          overflow: 'auto',
-          margin: 0,
-          padding: '0.75rem',
-          border: '1px solid #ced4da',
-          borderRadius: '0.375rem',
-          background: '#f8f9fa',
+          fontFamily: 'inherit',
+          resize: 'vertical',
         }}
-      >
-        {lyricsTextFromChoice(choice) || '(empty)'}
-      </pre>
+      />
     )
+
+  function handleConfirm() {
+    if (typeof props.onConfirm !== 'function') return
+    if (kind === 'lyrics') {
+      props.onConfirm(lyricsDraft)
+      return
+    }
+    props.onConfirm()
+  }
 
   return (
     <Modal show={show} onHide={props.onCancel} size="lg" centered>
@@ -153,7 +178,7 @@ export default function SuggestionPreviewDialog(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={props.onCancel}>Cancel</Button>
-        <Button variant="primary" onClick={props.onConfirm}>Use this value</Button>
+        <Button variant="primary" onClick={handleConfirm}>Use this value</Button>
       </Modal.Footer>
     </Modal>
   )

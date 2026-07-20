@@ -35,6 +35,7 @@ describe('chordProFormatUtils', function() {
     expect(parsed.key).toBe('G');
     expect(parsed.capo).toBe(3);
     expect(parsed.lyricLines.join('\n')).toContain('Verse 1');
+    expect(parsed.lyricLines.join('\n')).toContain('[G]Amazing grace how [C]sweet the [G]sound');
     expect(parsed.chordText).toContain('G|');
     expect(parsed.chordProSource).toBe(sampleChordPro);
     expect(Array.isArray(parsed.chordSheetAlignment)).toBe(true);
@@ -43,6 +44,9 @@ describe('chordProFormatUtils', function() {
       chord: 'G',
       wordIndex: 0,
     });
+    const stripped = parseChordSheetText(sampleChordPro, { preservePlacement: false });
+    expect(stripped.lyricLines.join('\n')).not.toContain('[G]');
+    expect(stripped.lyricLines.join('\n')).toContain('Amazing grace');
   });
 
   test('exports and round-trips ChordPro', function() {
@@ -106,7 +110,17 @@ Am    G    Em    F  G`;
 
     const parsed = parseChordSheetText(sample, { fallbackTitle: "Who's That Girl" });
     expect(parsed.title).toBe("Who's That Girl");
-    expect(parsed.lyricLines).toEqual([
+    expect(parsed.preservePlacement).toBe(true);
+    // Preserve mode keeps chords-over-words rows in lyricLines.
+    expect(parsed.lyricLines).toContain('Am    Dm    Dm    Am9');
+    expect(parsed.lyricLines).toContain('The language of love');
+    expect(parsed.lyricLines).toContain("Who's that girl");
+    expect(parsed.lyricLines[0]).toBe('[Intro]');
+    const stripped = parseChordSheetText(sample, {
+      fallbackTitle: "Who's That Girl",
+      preservePlacement: false,
+    });
+    expect(stripped.lyricLines).toEqual([
       '[Intro]',
       '',
       '[Verse 1]',
@@ -201,7 +215,8 @@ The language of love`;
     expect(parsed.tempo).toBe(118);
     expect(parsed.meter).toBe('4/4');
     expect(parsed.tuning).toBe('Standard');
-    expect(parsed.lyricLines[0]).toBe('[Intro]');
+    expect(parsed.lyricLines).toContain('[Intro]');
+    expect(parsed.lyricLines).toContain('Am    Dm    Dm    Am9');
     expect(parsed.lyricLines.join('\n')).not.toMatch(/Song:|By:|Tonality:|Capo|BPM:|Meter:|Tuning:/);
     expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
   });
@@ -216,7 +231,54 @@ The language of love`;
     const parsed = parseChordSheetText(sample);
     expect(parsed.title).toBe('Test Song');
     expect(parsed.composer).toBe('Jane Composer');
+    expect(parsed.artists).toEqual(['Band Name']);
     expect(parsed.key).toBe('C');
+  });
+
+  test('maps duration copyright capo album from ChordPro directives', function() {
+    const sample = `{title: Dreams}
+{artist: Fleetwood Mac}
+{composer: Fleetwood Mac}
+{album: Rumours}
+{year: 1977}
+{time: 4:14}
+{copyright: Warner}
+{ci: Capo at 2nd fret}
+{key: F}
+[F]Hello
+`;
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.composer).toBe('Fleetwood Mac');
+    expect(parsed.discography).toBe('Rumours (1977)');
+    expect(parsed.lyricsScrollDurationSec).toBe(254);
+    expect(parsed.tags).toEqual(['©']);
+    expect(parsed.backgroundInfo).toContain('Copyright: Warner');
+    expect(parsed.capo).toBe(2);
+    expect(parsed.meter).toBe('4/4');
+  });
+
+  test('drops digit-led tempo braces like {164bpm} from lyrics and maps tempo', function() {
+    const sample = `{title: Fast}
+{164bpm}
+[G]Run run run
+`;
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.lyricLines.join('\n')).not.toContain('164bpm');
+    expect(parsed.lyricLines.join('\n')).toContain('[G]Run run run');
+    expect(parsed.tempo).toBe(164);
+  });
+
+  test('drops hyphenated layout directives like zoom-ipad from lyrics', function() {
+    const sample = `{title: Daisy}
+{zoom-ipad: 3.008202}
+{zoom-ipad 3.2}
+{zoom-ipad:
+{key: C}
+[C]Daisy daisy
+`;
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.lyricLines.join('\n')).not.toContain('zoom-ipad');
+    expect(parsed.lyricLines.join('\n')).toContain('[C]Daisy daisy');
   });
 
   test('does not treat lone chord tokens as preamble key meta', function() {

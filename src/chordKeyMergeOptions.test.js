@@ -1,5 +1,6 @@
 import {
   buildChordKeyMergeOptions,
+  buildImportKeyChordSuggestions,
   inferKeyFromChordGrid,
   transposeChordGridText,
 } from './chordKeyMergeOptions'
@@ -8,6 +9,21 @@ describe('chordKeyMergeOptions', function() {
   test('inferKeyFromChordGrid picks dominant root major/minor', function() {
     expect(inferKeyFromChordGrid('G|C|D|G|')).toBe('G')
     expect(inferKeyFromChordGrid('Am|Dm|E|Am|')).toBe('Am')
+  })
+
+  test('inferKeyFromChordGrid reads ChordPro inline lyrics chords', function() {
+    expect(inferKeyFromChordGrid('[G]Amazing [C]grace [G]how [D]sweet')).toBe('G')
+  })
+
+  test('buildImportKeyChordSuggestions prefers fixing key to match chords', function() {
+    const options = buildImportKeyChordSuggestions({
+      lyricsText: '[G]hello [C]world [D]there [G]end',
+      declaredKey: 'C',
+    })
+    expect(options.length).toBeGreaterThan(0)
+    expect(options[0].id).toBe('fix-key')
+    expect(options[0].key).toBe('G')
+    expect(options[0].preferred).toBe(true)
   })
 
   test('identical keys produce a single as-is option', function() {

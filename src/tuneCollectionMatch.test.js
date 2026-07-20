@@ -38,4 +38,35 @@ describe('tuneCollectionMatch', function() {
     expect(results[0].tune.id).toBe('a2');
     expect(results[0].youtubeMatch).toBe(true);
   });
+
+  test('findCollectionMatches drops title hits when lyrics are unrelated', function() {
+    const library = {
+      a1: {
+        id: 'a1',
+        name: 'Whiskey in the Jar',
+        composer: 'Traditional',
+        words: [
+          'As I was going over the far famed Kerry mountains',
+          'I met with Captain Farrell and his money he was counting',
+          'I first produced my pistol and I then produced my rapier',
+          'I said stand and deliver or the devil he may take ya',
+        ],
+      },
+    };
+    const results = findCollectionMatches({
+      title: 'Whiskey in the Jar',
+      artist: 'Traditional',
+      tunes: library,
+      importTune: {
+        name: 'Whiskey in the Jar',
+        words: [
+          "I've been a wild rover for many a year",
+          "And I've spent all my money on whiskey and beer",
+          'And now I am returning with gold in great store',
+          "And I never will play the wild rover no more",
+        ],
+      },
+    });
+    expect(results.some(function(entry) { return entry.tune.id === 'a1'; })).toBe(false);
+  });
 });

@@ -61,9 +61,9 @@ var BUCKET_META = {
   },
   duplicates: {
     tabTitle: 'Duplicates',
-    countLabel: function(n) { return n + ' duplicate tune' + (n === 1 ? '' : 's') + ' will be skipped (same content already exists).' },
-    intro: 'Same musical content already exists under another id. Skipped unless you choose Import With Duplicates.',
-    rowAction: 'Duplicate content — skipped unless you force duplicates',
+    countLabel: function(n) { return n + ' duplicate tune' + (n === 1 ? '' : 's') + ' will be skipped (same content already exists; any new books will be merged onto the existing tune).' },
+    intro: 'Same musical content already exists under another id. Skipped as new tunes unless you choose Import With Duplicates. Missing books from the import are still merged onto the existing tune.',
+    rowAction: 'Duplicate content — books merge onto existing; skipped as new tune unless you force duplicates',
   },
 }
 

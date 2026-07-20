@@ -132,13 +132,20 @@ export function getEffectiveMediaDurationSeconds(tune, mediaController, linkInde
   if (fromMedia > 0) {
     return Math.max(fromMedia, fromLines);
   }
+  const fromChordPro = tune && tune.lyricsScrollDurationSec > 0
+    ? parseFloat(tune.lyricsScrollDurationSec)
+    : 0;
+  if (fromChordPro > 0) {
+    return Math.max(fromChordPro, fromLines);
+  }
   return Math.max(LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC, fromLines);
 }
 
 export function getLyricsAutoscrollDurationSeconds(tune, mediaController, linkIndex) {
   const effective = getEffectiveMediaDurationSeconds(tune, mediaController, linkIndex);
   const hasMedia = resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex) > 0;
-  if (hasMedia) {
+  const hasChordProDuration = tune && tune.lyricsScrollDurationSec > 0;
+  if (hasMedia || hasChordProDuration) {
     return Math.max(1, effective * LYRICS_AUTOSCROLL_COMPLETION_RATIO);
   }
   return effective;

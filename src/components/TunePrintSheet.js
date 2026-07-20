@@ -10,7 +10,7 @@ import {
   resolveDisplayFlagsForTune,
 } from '../viewModeUtils';
 import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay';
-import { hasChordLines } from '../chordSheetUtils';
+import { hasLyricEmbeddedChords } from '../chordSheetUtils';
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import {
   buildAbcWithNoteSpacing,
@@ -208,7 +208,7 @@ export default function TunePrintSheet(props) {
   const showSideColumn = showChordsBlockColumn;
   const hideChordsInText = !showChordsAnnotate;
   const plainLyricLines = tune ? getLyricLinesForDisplay(tune) : [];
-  const isLyricChordSheet = hasChordLines(plainLyricLines);
+  const isLyricChordSheet = hasLyricEmbeddedChords(plainLyricLines);
   const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showChordsBlockColumn;
   const backgroundInfoText = tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo.trim() : '';
   const backgroundMarkdownBlocks = useMemo(function() {

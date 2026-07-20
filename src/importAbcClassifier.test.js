@@ -11,9 +11,10 @@ jest.mock('./tuneCollectionMatch', function() {
     __esModule: true,
     findCollectionMatches: function(options) {
       const title = options && options.title;
-      if (title === 'Matched Song') {
+      const library = (options && options.tunes) || {};
+      if (title === 'Matched Song' && library['lib-1']) {
         return [{
-          tune: { id: 'lib-1', name: 'Matched Song' },
+          tune: library['lib-1'],
           score: 20,
           confidence: 'Exact',
         }];
@@ -92,6 +93,57 @@ describe('importAbcClassifier', function() {
     expect(brandNew.mergeStatus).toBe('new');
     expect(brandNew.mergeTargetId).toBe(null);
     expect(annotated.summary.libraryMatches).toBe(1);
+  });
+
+  test('annotateInsertsWithLibraryMatches ignores title match when lyrics differ', function() {
+    const classified = classifyImportAbcResults({
+      inserts: [{
+        name: 'Matched Song',
+        words: [
+          "I've been a wild rover for many a year",
+          "And I've spent all my money on whiskey and beer",
+          'And now I am returning with gold in great store',
+          "And I never will play the wild rover no more",
+        ],
+      }],
+      updates: [],
+      localUpdates: [],
+      duplicates: [],
+      skippedUpdates: [],
+      deletes: {},
+    });
+    const annotated = annotateInsertsWithLibraryMatches(classified, {
+      'lib-1': {
+        id: 'lib-1',
+        name: 'Matched Song',
+        words: [
+          'As I was going over the far famed Kerry mountains',
+          'I met with Captain Farrell and his money he was counting',
+          'I first produced my pistol and I then produced my rapier',
+          'I said stand and deliver or the devil he may take ya',
+        ],
+      },
+    });
+    const candidate = annotated.candidates[0];
+    expect(candidate.mergeStatus).toBe('new');
+    expect(candidate.mergeTargetId).toBe(null);
+  });
+
+  test('annotateInsertsWithLibraryMatches ignores high-score unrelated titles', function() {
+    const classified = classifyImportAbcResults({
+      inserts: [{ name: 'A Flag Of Our Own' }],
+      updates: [],
+      localUpdates: [],
+      duplicates: [],
+      skippedUpdates: [],
+      deletes: {},
+    });
+    const annotated = annotateInsertsWithLibraryMatches(classified, {
+      'lib-1': { id: 'lib-1', name: "Maggie Brown's Favourite" },
+    });
+    const candidate = annotated.candidates[0];
+    expect(candidate.mergeStatus).toBe('new');
+    expect(candidate.mergeTargetId).toBe(null);
   });
 
   test('shouldShowAbcBatchSummary is true for multi-tune', function() {

@@ -7,6 +7,7 @@ import {
   isImportReviewUiVisible,
   subscribeImportReviewSession,
 } from './importReviewSessionStore'
+import { syncParkedImportReviewToast } from './importReviewParkedToast'
 import { subscribeMediaAnalysisJobs } from './mediaAnalysisJobs'
 import {
   subscribe as subscribeFieldLookupQueue,
@@ -83,6 +84,7 @@ export default function BackgroundReviewNotifications(props) {
     function refresh() {
       refreshToast()
       notifyTerminalFileOcrJobs()
+      syncParkedImportReviewToast()
     }
 
     refresh()

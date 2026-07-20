@@ -34,6 +34,13 @@ import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceS
 import { formValuesToTune, importSuggestionDiffersFromForm } from '../importReviewFieldUtils';
 import { getPlainLyricLines } from '../wLinesUtils';
 import { mergeBibliographicList } from '../tuneBibliographicUtils';
+import {
+  buildImportKeyChordSuggestions,
+  transposeChordGridText,
+} from '../chordKeyMergeOptions';
+import { hasLyricEmbeddedChords } from '../chordSheetUtils';
+import { pitchOffsetToPracticeKey } from '../practiceSessionPlanner';
+
 function FormBlock(props) {
   return (
     <div className={'tune-record-form-block' + (props.className ? ' ' + props.className : '')}>
@@ -159,6 +166,64 @@ export default function TuneRecordForm(props) {
   const lyricsTune = useMemo(function() {
     return formValuesToTune(values, props.previewTune || {});
   }, [values, props.previewTune]);
+
+  function applyNotationSourceKey(source) {
+    const keySuggestion = suggestions && suggestions.keyName;
+    if (!keySuggestion || typeof props.onChange !== 'function') return;
+    const choices = Array.isArray(keySuggestion.choices) ? keySuggestion.choices : [];
+    let choice = null;
+    if (source === 'current') {
+      choice = choices.find(function(c) { return c && (c.source === 'current' || c.id === 'current'); });
+    } else {
+      choice = choices.find(function(c) { return c && c.source !== 'current' && c.id !== 'current'; })
+        || keySuggestion;
+    }
+    if (!choice) return;
+    const nextKey = choice.value != null ? choice.value
+      : (choice.preview != null ? choice.preview : keySuggestion.value);
+    if (nextKey == null) return;
+    if (String(values.keyName || '') === String(nextKey)) return;
+    props.onChange(updateValues(values, { keyName: nextKey }));
+  }
+
+  const keyChordSuggestions = useMemo(function() {
+    const lyrics = String(values.lyrics || '');
+    if (!lyrics.trim() || !hasLyricEmbeddedChords(lyrics.split(/\r?\n/))) return [];
+    return buildImportKeyChordSuggestions({
+      lyricsText: lyrics,
+      declaredKey: values.keyName,
+      notationKey: values.keyName,
+      noteLines: values.voices && Object.keys(values.voices).length
+        ? ((values.voices[Object.keys(values.voices).sort()[0]] || {}).notes || [])
+        : String(values.notes || '').split(/\r?\n/),
+    });
+  }, [values.lyrics, values.keyName, values.voices, values.notes]);
+
+  function applyKeyChordSuggestion(option) {
+    if (!option || typeof props.onChange !== 'function') return;
+    if (option.action === 'noop') return;
+    if (option.action === 'setKey' && option.key) {
+      props.onChange(updateValues(values, { keyName: option.key }));
+      return;
+    }
+    if (option.action === 'transposeChords' && option.chordGridText != null) {
+      // Transpose inline ChordPro chord markers in lyrics to the declared key.
+      const fromKey = keyChordSuggestions[0] && keyChordSuggestions[0].key
+        ? keyChordSuggestions[0].key
+        : '';
+      const amount = option.transposeSemitones != null
+        ? option.transposeSemitones
+        : (fromKey && option.key ? pitchOffsetToPracticeKey(fromKey, option.key) : 0);
+      const nextLyrics = String(values.lyrics || '').replace(
+        /\[([A-G][#b]?[^\]]*)\]/gi,
+        function(_match, chord) {
+          const transposed = transposeChordGridText(chord, amount, option.key || values.keyName);
+          return '[' + String(transposed || chord).trim() + ']';
+        }
+      );
+      props.onChange(updateValues(values, { lyrics: nextLyrics }));
+    }
+  }
 
   const rhythmOptions = useMemo(function() {
     if (Array.isArray(props.rhythmOptions) && props.rhythmOptions.length) return props.rhythmOptions;
@@ -569,6 +634,28 @@ export default function TuneRecordForm(props) {
               onChange={function(next) { setField('keyName', next); }}
               className="tune-record-form-key-input"
             />
+            {keyChordSuggestions.length > 0 ? (
+              <div className="mt-1 small" data-testid="import-key-chord-suggestions">
+                <div className="text-warning mb-1">
+                  Key may not match chords in the lyric chart.
+                </div>
+                <div className="d-flex flex-wrap gap-1">
+                  {keyChordSuggestions.map(function(option) {
+                    return (
+                      <Button
+                        key={option.id}
+                        size="sm"
+                        variant={option.preferred ? 'warning' : 'outline-secondary'}
+                        data-testid={'import-key-chord-' + option.id}
+                        onClick={function() { applyKeyChordSuggestion(option); }}
+                      >
+                        {option.label}
+                      </Button>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : null}
           </Form.Group>
           <Form.Group className="tune-record-form-meta-field tune-record-form-meta-field--tempo">
             <FieldLabelRow label="Tempo" formKey="tempo" suggestion={suggestions.tempo} onApplySuggestion={props.onApplySuggestion} values={values} tight={true}>
@@ -709,6 +796,7 @@ export default function TuneRecordForm(props) {
             importedText={importedNotation}
             metadata={notationMetadata}
             tunebook={tunebook}
+            onSourceChange={applyNotationSourceKey}
             onChange={function(text) {
               const voices = Object.assign({}, values.voices || { '1': { meta: '', notes: [] } });
               const primaryKey = Object.keys(voices).sort()[0] || '1';
@@ -720,61 +808,62 @@ export default function TuneRecordForm(props) {
               }
             }}
           />
-        ) : null}
-        <AbcVoicesNotesEditor
-          voices={values.voices}
-          tunebook={tunebook}
-          metadata={notationMetadata}
-          previewLines={5}
-          suggestionControl={(
-            <>
-              {suggestionControl('notes', 'Notation')}
-              <NotationSearchButton
-                tuneId={props.previewTune && props.previewTune.id}
-                candidateId={props.candidateId}
-                title={values.title}
-                artist={values.artist}
-                rhythm={values.rhythm}
-                currentGenre={values.genre}
-                currentValue={values.notes || ''}
-                token={props.token}
-                tunebook={tunebook}
-                resolverAvailable={props.resolverAvailable}
-                disabled={!String(values.title || '').trim()}
-                onGenreAccept={function(genre) { setField('genre', genre); }}
-                onNotation={function(candidate) {
-                  const abc = candidate && candidate.abc ? String(candidate.abc) : '';
-                  if (!abc || !tunebook || !tunebook.abcTools) return;
-                  const imported = tunebook.abcTools.abc2json(abc);
-                  const notes = imported && Array.isArray(imported.notes)
-                    ? imported.notes.join('\n')
-                    : (imported && imported.voices
-                      ? primaryVoiceNotesText(imported.voices)
-                      : abc);
-                  const voices = Object.assign({}, values.voices || { '1': { meta: '', notes: [] } });
-                  const primaryKey = Object.keys(voices).sort()[0] || '1';
-                  voices[primaryKey] = Object.assign({}, voices[primaryKey] || { meta: '' }, {
-                    notes: String(notes || '').split(/\r?\n/),
-                  });
-                  if (typeof props.onChange === 'function') {
-                    props.onChange(updateValues(values, {
-                      voices: imported && imported.voices ? imported.voices : voices,
-                      notes: notes,
-                    }));
-                  }
-                }}
-              />
-            </>
-          )}
-          onChange={function(nextVoices) {
-            if (typeof props.onChange === 'function') {
-              props.onChange(updateValues(values, {
-                voices: nextVoices,
-                notes: primaryVoiceNotesText(nextVoices),
-              }));
-            }
-          }}
-        />
+        ) : (
+          <AbcVoicesNotesEditor
+            voices={values.voices}
+            tunebook={tunebook}
+            metadata={notationMetadata}
+            previewLines={5}
+            suggestionControl={(
+              <>
+                {suggestionControl('notes', 'Notation')}
+                <NotationSearchButton
+                  tuneId={props.previewTune && props.previewTune.id}
+                  candidateId={props.candidateId}
+                  title={values.title}
+                  artist={values.artist}
+                  rhythm={values.rhythm}
+                  currentGenre={values.genre}
+                  currentValue={values.notes || ''}
+                  token={props.token}
+                  tunebook={tunebook}
+                  resolverAvailable={props.resolverAvailable}
+                  disabled={!String(values.title || '').trim()}
+                  onGenreAccept={function(genre) { setField('genre', genre); }}
+                  onNotation={function(candidate) {
+                    const abc = candidate && candidate.abc ? String(candidate.abc) : '';
+                    if (!abc || !tunebook || !tunebook.abcTools) return;
+                    const imported = tunebook.abcTools.abc2json(abc);
+                    const notes = imported && Array.isArray(imported.notes)
+                      ? imported.notes.join('\n')
+                      : (imported && imported.voices
+                        ? primaryVoiceNotesText(imported.voices)
+                        : abc);
+                    const voices = Object.assign({}, values.voices || { '1': { meta: '', notes: [] } });
+                    const primaryKey = Object.keys(voices).sort()[0] || '1';
+                    voices[primaryKey] = Object.assign({}, voices[primaryKey] || { meta: '' }, {
+                      notes: String(notes || '').split(/\r?\n/),
+                    });
+                    if (typeof props.onChange === 'function') {
+                      props.onChange(updateValues(values, {
+                        voices: imported && imported.voices ? imported.voices : voices,
+                        notes: notes,
+                      }));
+                    }
+                  }}
+                />
+              </>
+            )}
+            onChange={function(nextVoices) {
+              if (typeof props.onChange === 'function') {
+                props.onChange(updateValues(values, {
+                  voices: nextVoices,
+                  notes: primaryVoiceNotesText(nextVoices),
+                }));
+              }
+            }}
+          />
+        )}
       </FormBlock>
 
       <FormBlock>

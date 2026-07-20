@@ -170,7 +170,6 @@ export default function IndexSearchForm(props) {
 
             {(!activeOnly || hasTags) ? (
                 <TagsSearchSelectorModal
-                    tagCollation={props.tagCollation}
                     setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                     forceRefresh={props.forceRefresh}
                     tunebook={props.tunebook}

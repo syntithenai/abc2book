@@ -2,14 +2,20 @@ import {
   applyImportSuggestion,
   applyInlineImportToForm,
   applyCoalescedFieldChoicesToSuggestions,
+  alignedLyricPreviewPairs,
   attachCurrentValueChoice,
   buildReviewFormState,
   canApplyImportInline,
   emptyFormValues,
   formValuesToTune,
   importSuggestionDiffersFromForm,
+  lyricPreviewLines,
   mergeImportedLinks,
+  notationPreviewLine,
+  shouldPreferExistingNotation,
+  tuneHasPreexistingAbcNotesOrChords,
   tuneToFormValues,
+  unionStringLists,
 } from './importReviewFieldUtils';
 
 describe('importReviewFieldUtils', function() {
@@ -73,7 +79,7 @@ describe('importReviewFieldUtils', function() {
     expect(result.suggestions.rhythm).toBeTruthy();
   });
 
-  test('applyInlineImportToForm keeps empty notation and offers Use choices', function() {
+  test('applyInlineImportToForm auto-applies empty notation', function() {
     const current = emptyFormValues();
     current.title = '';
     const imported = {
@@ -84,12 +90,9 @@ describe('importReviewFieldUtils', function() {
     const result = applyInlineImportToForm(current, imported);
     expect(result.formValues.title).toBe('Pastoral');
     expect(result.formValues.bookList).toBe('session');
-    expect(String(result.formValues.notes || '').trim()).toBe('');
-    expect(result.autoAppliedKeys).not.toContain('voices');
-    expect(result.suggestions.notes).toBeTruthy();
-    expect(result.suggestions.notes.choices.map(function(c) { return c.id; })).toEqual(['current', 'imported']);
-    expect(result.suggestions.notes.choices[0].preview).toBe('(empty)');
-    expect(result.suggestions.notes.choices[1].preview).toContain('GAB c2|');
+    expect(String(result.formValues.notes || '').trim()).toContain('GAB c2|');
+    expect(result.autoAppliedKeys).toContain('voices');
+    expect(result.suggestions.notes).toBeFalsy();
   });
 
   test('applyImportSuggestion current value restores pre-import notation', function() {
@@ -119,8 +122,195 @@ describe('importReviewFieldUtils', function() {
     const current = tuneToFormValues({ name: 'Mine', words: ['Old line'] });
     const result = applyInlineImportToForm(current, { name: 'Mine', words: ['New line'] });
     expect(result.suggestions.lyrics).toBeTruthy();
+    expect(result.formValues.lyrics).toContain('Old line');
     expect(result.suggestions.lyrics.choices[0].id).toBe('current');
     expect(result.suggestions.lyrics.choices[0].preview).toContain('Old line');
+  });
+
+  test('ChordPro lyrics become the default merge choice', function() {
+    const current = tuneToFormValues({ name: 'Mine', words: ['Old plain line'] });
+    const result = buildReviewFormState(
+      { name: 'Mine', words: ['Old plain line'] },
+      { name: 'Mine', words: ['[G]Amazing grace how [C]sweet'] },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.lyrics).toContain('[G]Amazing');
+    expect(result.suggestions.lyrics).toBeTruthy();
+    expect(result.suggestions.lyrics.choices[0].id).toBe('imported');
+    expect(result.suggestions.lyrics.choices[1].id).toBe('current');
+  });
+
+  test('suggestOnly auto-fills empty listed metadata fields', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', composer: '', key: '', meter: '', tempo: '', genre: '' },
+      {
+        name: 'Remote',
+        composer: 'Trad',
+        artists: ['Band'],
+        aliases: ['aka'],
+        key: 'D',
+        meter: '6/8',
+        tempo: 144,
+        noteLength: '1/8',
+        capo: 2,
+        genre: 'Irish',
+      },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.artist).toBe('Trad');
+    expect(result.formValues.artists).toEqual(['Band']);
+    expect(result.formValues.aliases).toEqual(['aka']);
+    expect(result.formValues.keyName).toBe('D');
+    expect(result.formValues.meter).toBe('6/8');
+    expect(result.formValues.tempo).toBe('144');
+    expect(result.formValues.noteLength).toBe('1/8');
+    expect(result.formValues.capo).toBe('2');
+    expect(result.formValues.genre).toBe('Irish');
+    expect(result.suggestions.artist).toBeFalsy();
+    expect(result.formValues.title).toBe('Local');
+    expect(result.suggestions.title).toBeTruthy();
+  });
+
+  test('timingScaffold takes imported true without a suggestion', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', timingScaffold: false },
+      { name: 'Local', timingScaffold: true },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.timingScaffold).toBe('true');
+    expect(result.suggestions.timingScaffold).toBeFalsy();
+    expect(result.autoAppliedKeys).toContain('timingScaffold');
+  });
+
+  test('timingScaffold false import is ignored', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', timingScaffold: true },
+      { name: 'Local', timingScaffold: false },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.timingScaffold).toBe('true');
+    expect(result.suggestions.timingScaffold).toBeFalsy();
+  });
+
+  test('imported key overrides existing and offers Current as revert', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', key: 'G' },
+      { name: 'Local', key: 'D' },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.keyName).toBe('D');
+    expect(result.autoAppliedKeys).toContain('key');
+    expect(result.suggestions.keyName).toBeTruthy();
+    expect(result.suggestions.keyName.choices.map(function(c) { return c.id; }))
+      .toEqual(['imported', 'current']);
+    expect(result.suggestions.keyName.choices[1].preview).toBe('G');
+  });
+
+  test('imported tempo overrides existing and offers Current as revert', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', tempo: 100 },
+      { name: 'Local', tempo: 128 },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.tempo).toBe('128');
+    expect(result.autoAppliedKeys).toContain('tempo');
+    expect(result.suggestions.tempo).toBeTruthy();
+  });
+
+  test('alignedLyricPreviewPairs skips intro fluff to shared lyric lines', function() {
+    const original = { words: ['Dashing through the snow', 'in a one horse open sleigh'] };
+    const imported = {
+      words: [
+        'Intro: C G Am',
+        'C . . . |',
+        'Dashing through the snow',
+        'in a one horse open sleigh',
+      ],
+    };
+    const aligned = alignedLyricPreviewPairs(original, imported, 2);
+    expect(aligned.original[0]).toMatch(/Dashing/i);
+    expect(aligned.imported[0]).toMatch(/Dashing/i);
+  });
+
+  test('tuneHasPreexistingAbcNotesOrChords ignores empty and rest-only', function() {
+    expect(tuneHasPreexistingAbcNotesOrChords(null)).toBe(false);
+    expect(tuneHasPreexistingAbcNotesOrChords({ voices: { '1': { notes: ['z z z z |'] } } })).toBe(false);
+    expect(tuneHasPreexistingAbcNotesOrChords({
+      voices: { '1': { notes: ['C D E F |'] } },
+    })).toBe(true);
+    expect(tuneHasPreexistingAbcNotesOrChords({
+      voices: { '1': { notes: ['"Am" z z z |'] } },
+    })).toBe(true);
+  });
+
+  test('inferred key auto-applies when base has no preexisting notes or chords', function() {
+    const result = buildReviewFormState(
+      { name: 'Local', key: 'C', voices: { '1': { notes: [] } } },
+      {
+        name: 'Local',
+        key: 'C',
+        words: ['[G]hello [C]world [D]there [G]end'],
+      },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.keyName).toBe('G');
+    expect(result.autoAppliedKeys).toContain('key');
+  });
+
+  test('inferred key does not auto-apply when base already has melody notes', function() {
+    const result = buildReviewFormState(
+      {
+        name: 'Local',
+        key: 'C',
+        voices: { '1': { notes: ['C D E F | G A B c |'] } },
+      },
+      {
+        name: 'Local',
+        key: 'C',
+        words: ['[G]hello [C]world [D]there [G]end'],
+      },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.keyName).toBe('C');
+  });
+
+  test('inferred key does not auto-apply when base already has ABC chords', function() {
+    const result = buildReviewFormState(
+      {
+        name: 'Local',
+        key: 'C',
+        voices: { '1': { notes: ['"C" z z z | "G" z z z |'] } },
+      },
+      {
+        name: 'Local',
+        key: 'C',
+        words: ['[G]hello [C]world [D]there [G]end'],
+      },
+      'merge',
+      { mergeMode: 'suggestOnly' }
+    );
+    expect(result.formValues.keyName).toBe('C');
+  });
+
+  test('create mode auto-applies inferred key from lyric chords', function() {
+    const result = buildReviewFormState(
+      null,
+      {
+        name: 'New',
+        key: 'C',
+        words: ['[G]hello [C]world [D]there [G]end'],
+      },
+      'create'
+    );
+    expect(result.formValues.keyName).toBe('G');
   });
 
   test('attachCurrentValueChoice drops rest entries matching baseline', function() {
@@ -190,7 +380,7 @@ describe('importReviewFieldUtils', function() {
       tempo: 120,
       noteLength: '1/8',
       voices: { '1': { meta: '', notes: ['C2'] } },
-      wLines: ['line one'],
+      words: ['line one'],
     });
     const tune = formValuesToTune(values, { id: 'x' });
     expect(tune.name).toBe('Test');
@@ -198,6 +388,77 @@ describe('importReviewFieldUtils', function() {
     expect(tune.tempo).toBe(120);
     expect(tune.noteLength).toBe('1/8');
     expect(tune.voices['1'].notes).toEqual(['C2']);
-    expect(tune.wLines).toEqual(['line one']);
+    expect(tune.words).toEqual(['line one']);
+  });
+
+  test('unionStringLists dedupes case-insensitively preserving order', function() {
+    expect(unionStringLists(['songs', 'Irish'], ['SONGS', 'chordpro'])).toEqual([
+      'songs',
+      'Irish',
+      'chordpro',
+    ]);
+  });
+
+  test('buildReviewFormState unions books and tags by default', function() {
+    const existing = {
+      id: '1',
+      name: 'Tune',
+      books: ['session'],
+      tags: ['favorite'],
+    };
+    const imported = {
+      name: 'Tune',
+      books: ['songs', 'session'],
+      tags: ['chordpro'],
+    };
+    const result = buildReviewFormState(existing, imported, 'merge');
+    expect(result.formValues.bookList).toBe('session, songs');
+    expect(result.formValues.tagList).toBe('favorite, chordpro');
+    expect(result.suggestions.bookList).toBeUndefined();
+    expect(result.suggestions.tagList).toBeUndefined();
+  });
+
+  test('shouldPreferExistingNotation when local has melody and import is scaffold', function() {
+    const existing = {
+      voices: { '1': { notes: ['C D E F |'] } },
+    };
+    const imported = {
+      timingScaffold: true,
+      voices: { '1': { notes: ['|:"C"z8 |]'] } },
+    };
+    expect(shouldPreferExistingNotation(existing, imported)).toBe(true);
+    expect(shouldPreferExistingNotation(
+      { voices: { '1': { notes: ['"C" z z z |'] } } },
+      imported
+    )).toBe(false);
+  });
+
+  test('buildReviewFormState skips scaffold notation suggestion when existing has melody', function() {
+    const existing = {
+      id: '1',
+      name: 'Tune',
+      voices: { '1': { notes: ['C D E F |'] } },
+    };
+    const imported = {
+      name: 'Tune',
+      timingScaffold: true,
+      voices: { '1': { notes: ['|:"C"z8 |]'] } },
+    };
+    const result = buildReviewFormState(existing, imported, 'merge');
+    expect(result.suggestions.notes).toBeUndefined();
+    expect(result.formValues.notes).toContain('C D E F');
+  });
+
+  test('lyricPreviewLines returns first three non-empty lines', function() {
+    expect(lyricPreviewLines({
+      words: ['', 'One', 'Two', 'Three', 'Four'],
+    }, 3)).toEqual(['One', 'Two', 'Three']);
+  });
+
+  test('notationPreviewLine returns first non-empty note line', function() {
+    expect(notationPreviewLine({
+      voices: { '1': { meta: '', notes: ['', 'GAB c2|', 'def g2|'] } },
+    })).toBe('GAB c2|');
+    expect(notationPreviewLine({})).toBe('');
   });
 });

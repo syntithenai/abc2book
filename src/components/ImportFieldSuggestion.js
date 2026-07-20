@@ -177,12 +177,21 @@ export default function ImportFieldSuggestion(props) {
           setPreviewChoice(null);
           setPreviewIndex(-1);
         }}
-        onConfirm={function() {
+        onConfirm={function(editedText) {
           const choice = previewChoice;
           const index = previewIndex;
           setPreviewChoice(null);
           setPreviewIndex(-1);
-          if (choice) applyChoice(choice, index);
+          if (!choice) return;
+          if (editedText == null) {
+            applyChoice(choice, index);
+            return;
+          }
+          const text = String(editedText);
+          applyChoice(Object.assign({}, choice, {
+            value: text,
+            preview: text,
+          }), index);
         }}
       />
       <SearchResultPickerModal

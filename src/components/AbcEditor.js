@@ -12,6 +12,7 @@ import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import LyricsSectionsDropdown from './LyricsSectionsDropdown'
 import PasteChordSheetModal from './PasteChordSheetModal'
+import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import useAbcjsParser from '../useAbcjsParser'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
@@ -68,6 +69,7 @@ export default function AbcEditor(props) {
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
   const [showLyricsPaste, setShowLyricsPaste] = useState(false)
+  const [showLyricChordSheet, setShowLyricChordSheet] = useState(false)
   const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
@@ -1069,6 +1071,17 @@ export default function AbcEditor(props) {
                         <Button
                           variant="outline-primary"
                           style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
+                          title="Edit lyric chord sheet (ChordPro)"
+                          onClick={function() {
+                            setShowLyricChordSheet(true)
+                          }}
+                        >
+                          {props.tunebook.icons.words}
+                          Lyric chord sheet
+                        </Button>
+                        <Button
+                          variant="outline-primary"
+                          style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35em' }}
                           title="Paste lyrics and chords"
                           onClick={function() {
                             setShowLyricsPaste(true)
@@ -1112,7 +1125,11 @@ export default function AbcEditor(props) {
                           tunebook: props.tunebook,
                           abcjsParser: abcjsParser,
                           forceUpdateLyrics: true,
-                          historyLabel: 'Paste chords and lyrics',
+                          skipAbcMerge: !!result.skipAbcMerge,
+                          historyLabel: result.historyLabel
+                            || (result.skipAbcMerge
+                              ? 'Update lyric chord sheet'
+                              : 'Paste chords and lyrics'),
                         })
                         if (!committed.ok) {
                           toast.error(
@@ -1126,7 +1143,20 @@ export default function AbcEditor(props) {
                           setWLinesText(committed.lyricLines.join('\n'))
                         }
                         setShowLyricsPaste(false)
-                        toast.success('Chords and lyrics updated')
+                        toast.success(
+                          result.skipAbcMerge
+                            ? 'Lyric chord sheet updated'
+                            : 'Chords and lyrics updated'
+                        )
+                      }}
+                    />
+                    <LyricChordSheetEditorModal
+                      show={showLyricChordSheet}
+                      onHide={function() { setShowLyricChordSheet(false) }}
+                      tune={tune}
+                      tunebook={props.tunebook}
+                      forceRefresh={function() {
+                        setWLinesText(lyricLinesToText(tune))
                       }}
                     />
                     </div>

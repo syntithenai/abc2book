@@ -13,6 +13,8 @@ import { syncLegacyLinkLoopFields } from './mediaPlaybackUtils'
 import { getLyricLines } from './wLinesUtils'
 import { buildNotationWLines } from './noteSpacingUtils'
 import { compareTuneBooks, createTombstone, mergeDeletedTuneMaps, parseDeletedTunesFromAbc, tombstoneAllTunes } from './tuneBookSync'
+import { applyDuplicateBookMerges } from './importDuplicateBooks'
+import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch'
 import { matchesShareImportScope } from './shareTunebookUtils'
 import {
   createQueue,
@@ -1029,6 +1031,7 @@ The main difference between the two functions is the additional condition in app
             } 
             //console.log('done local updates')
             // any more recent changes locally get saved online
+            var bookMergesChanged = false
             if (forceDuplicates && duplicates && Object.keys(duplicates).length > 0) {
               Object.values(duplicates).forEach(function(tune) {
                 tune.id = null
@@ -1036,12 +1039,21 @@ The main difference between the two functions is the additional condition in app
                 tunes[tune.id] = newTune
               })
               //updateSheet(0)
-            } 
+            } else if (duplicates && Object.keys(duplicates).length > 0) {
+              var bookMerge = applyDuplicateBookMerges({
+                tunes: tunes,
+                duplicates: duplicates,
+                importhashes: (tunesHash && tunesHash.importhashes) || {},
+                getTuneImportHash: abcTools.getTuneImportHash,
+                uniquifyArray: utils.uniquifyArray,
+              })
+              bookMergesChanged = bookMerge.mergedTuneIds.length > 0
+            }
             clearTombstonesForTunes(
               tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
             )
             //console.log('done dups')
-            if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
+            if ((discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| bookMergesChanged || (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
                 //console.log('FINALLY SET ',tunes)
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
@@ -1170,7 +1182,22 @@ The main difference between the two functions is the additional condition in app
                 tunes[tune.id] = newTune
               })
               //updateSheet(0)
-            } 
+            } else if (duplicates && Object.keys(duplicates).length > 0) {
+              // Content-hash duplicate: keep one tune; merge missing books onto it.
+              var bookMerge = applyDuplicateBookMerges({
+                tunes: tunes,
+                duplicates: duplicates,
+                importhashes: (tunesHash && tunesHash.importhashes) || {},
+                getTuneImportHash: abcTools.getTuneImportHash,
+                forceBook: forceBook,
+                uniquifyArray: utils.uniquifyArray,
+              })
+              bookMerge.mergedTuneIds.forEach(function(id) {
+                beforeSnapshots[id] = beforeSnapshots[id] || getPersistedTuneSnapshot(id)
+                if (tunes[id]) savePersistedTuneSnapshot(tunes[id])
+              })
+              data._bookMerge = bookMerge
+            }
             clearTombstonesForTunes(
               tuneIdsFromBucket(updates).concat(tuneIdsFromBucket(inserts))
             )
@@ -1192,7 +1219,9 @@ The main difference between the two functions is the additional condition in app
              
                       
             //console.log('done dups')
-            if (forceBook || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
+            var bookMergeResult = data && data._bookMerge
+            var bookMergesChanged = !!(bookMergeResult && bookMergeResult.mergedTuneIds && bookMergeResult.mergedTuneIds.length > 0)
+            if (forceBook || bookMergesChanged || (discardLocalUpdates && localUpdates && Object.keys(localUpdates).length > 0) || (forceDuplicates &&  duplicates && Object.keys(duplicates).length > 0)|| (updates && Object.keys(updates).length > 0)|| (inserts && Object.keys(inserts).length > 0) || (deletes && Object.keys(deletes).length > 0)) {
               Object.keys(updates || {}).forEach(function(id) {
                 recordHistoryChange({
                   tuneId: id,
@@ -1219,6 +1248,21 @@ The main difference between the two functions is the additional condition in app
                   },
                 })
               })
+              if (bookMergesChanged) {
+                bookMergeResult.mergedTuneIds.forEach(function(id) {
+                  recordHistoryChange({
+                    tuneId: id,
+                    before: beforeSnapshots[id] || null,
+                    after: tunes[id] || null,
+                    label: 'Import merge books',
+                    immediate: true,
+                    meta: {
+                      tombstoneBefore: null,
+                      tombstoneAfter: null,
+                    },
+                  })
+                })
+              }
               if (discardLocalUpdates || forceBook) {
                 Object.keys(localUpdates || {}).forEach(function(id) {
                   recordHistoryChange({
@@ -1493,7 +1537,19 @@ The main difference between the two functions is the additional condition in app
                 var hash = abcTools.getTuneImportHash(tune)
                 //utils.hash(tune.notes.join("\n"))
                 //console.log("tryhash",hash,tunesHash, tunesHash.hashes[hash]   )
-                if (currentTunesHash && currentTunesHash.importhashes && currentTunesHash.importhashes[hash] ) {
+                var existingImportIds = []
+                if (currentTunesHash && currentTunesHash.importhashes && currentTunesHash.importhashes[hash]) {
+                  var hashEntry = currentTunesHash.importhashes[hash]
+                  existingImportIds = Array.isArray(hashEntry) ? hashEntry : [hashEntry]
+                }
+                var titleMatchedExisting = existingImportIds.some(function(existingId) {
+                  var existingTune = tunes[existingId]
+                  return existingTune && importTitlesMatchForDeduping(
+                    tuneImportTitle(tune),
+                    tuneImportTitle(existingTune)
+                  )
+                })
+                if (existingImportIds.length > 0 && titleMatchedExisting) {
                   duplicates.push(tune)
                   tuneStatus.duplicates.push({
                     hasLyrics:hasLyrics(tune),

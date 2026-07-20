@@ -1,5 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
+import { findTuneByImportHash } from './tuneCollectionMatch';
+import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch';
 
 let duplicateToastId = null;
 
@@ -10,7 +12,13 @@ export function dismissContentHashDuplicateToast() {
   }
 }
 
-export function detectContentHashDuplicates(candidates, tunebook, tunesHash) {
+/**
+ * @param {Array} candidates
+ * @param {object} tunebook
+ * @param {object} tunesHash
+ * @param {object} [tunes] library map — when provided, hash hits also require matching titles
+ */
+export function detectContentHashDuplicates(candidates, tunebook, tunesHash, tunes) {
   const duplicates = [];
   const nonDuplicates = [];
   if (!candidates || !tunebook || !tunesHash) {
@@ -24,8 +32,15 @@ export function detectContentHashDuplicates(candidates, tunebook, tunesHash) {
       return;
     }
     const hash = tunebook.abcTools.getTuneImportHash(tune);
-    const existingId = tunesHash.importhashes && tunesHash.importhashes[hash];
+    const existingId = findTuneByImportHash(tunesHash, hash);
     if (existingId) {
+      const existing = tunes && tunes[existingId] ? tunes[existingId] : null;
+      if (existing && !importTitlesMatchForDeduping(tuneImportTitle(tune), tuneImportTitle(existing))) {
+        nonDuplicates.push(candidate);
+        return;
+      }
+      // No library tune available to compare titles: still treat as hash duplicate
+      // (legacy call sites); prefer passing tunes when possible.
       duplicates.push(Object.assign({}, candidate, {
         contentHashDuplicate: true,
         mergeTargetId: existingId,

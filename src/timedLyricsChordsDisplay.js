@@ -2,12 +2,22 @@ import { alignChordsToLyricLines } from './timedAbcDeriver';
 import {
   alignChordBlocksToLyrics,
   chartBlockHasChords,
-  hasChordLines,
+  hasLyricEmbeddedChords,
   isSectionHeader,
   splitChordChartIntoBlocks,
 } from './chordSheetUtils';
 import { noteLinesHaveRealMelody } from './timedImportFinalizer';
 import { getLyricLinesForDisplay } from './wLinesUtils';
+
+export { hasLyricEmbeddedChords };
+
+/**
+ * True when the tune's lyric field embeds chord placement (COW or ChordPro).
+ */
+export function tuneHasLyricEmbeddedChords(tune) {
+  if (!tune) return false;
+  return hasLyricEmbeddedChords(getLyricLinesForDisplay(tune));
+}
 
 function getFirstVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return [];
@@ -40,7 +50,7 @@ function getMelodyChordChart(tune, tunebook, abcjsParser) {
  */
 export function tuneHasExplicitChords(tune, tunebook, abcjsParser) {
   if (!tune) return false;
-  if (hasChordLines(getLyricLinesForDisplay(tune))) return true;
+  if (tuneHasLyricEmbeddedChords(tune)) return true;
   const chordBlocks = splitChordChartIntoBlocks(getMelodyChordChart(tune, tunebook, abcjsParser));
   return chordBlocks.some(chartBlockHasChords);
 }

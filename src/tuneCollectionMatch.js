@@ -1,4 +1,5 @@
 import { findTuneCandidates, getVoiceSearchableText, scoreTuneMatch } from './voiceCommandUtils';
+import { importLyricsMatchForDeduping } from './importLyricsMatch';
 
 function normalizeYouTubeId(value) {
   if (!value) return '';
@@ -34,6 +35,7 @@ export function findCollectionMatches(options) {
   const youtubeUrl = options && options.youtubeUrl ? options.youtubeUrl : '';
   const limit = options && options.limit ? options.limit : 8;
   const minScore = options && options.minScore != null ? options.minScore : 3;
+  const importTune = options && (options.importTune || options.lyricsTune) || null;
 
   const query = [title, artist].filter(Boolean).join(' ').trim();
   const youtubeId = normalizeYouTubeId(youtubeUrl);
@@ -91,6 +93,12 @@ export function findCollectionMatches(options) {
   }
 
   return results
+    .filter(function(entry) {
+      if (!importTune || !entry || !entry.tune) return true;
+      // Exact YouTube identity overrides lyric disagreements
+      if (entry.youtubeMatch) return true;
+      return importLyricsMatchForDeduping(importTune, entry.tune);
+    })
     .sort(function(a, b) {
       if (b.score !== a.score) return b.score - a.score;
       return String(a.tune.name || '').localeCompare(String(b.tune.name || ''));
@@ -100,6 +108,7 @@ export function findCollectionMatches(options) {
 
 export function findTuneByImportHash(tunesHash, hash) {
   if (!tunesHash || !hash || !tunesHash.importhashes) return null;
-  const id = tunesHash.importhashes[hash];
-  return id || null;
+  const entry = tunesHash.importhashes[hash];
+  if (Array.isArray(entry)) return entry[0] || null;
+  return entry || null;
 }

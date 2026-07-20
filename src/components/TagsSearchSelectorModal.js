@@ -15,7 +15,11 @@ function TagsSearchSelectorModal(props) {
       setShow(false);
       if (props.handleClose) props.handleClose()
   }
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+      setFilter('')
+      setOptions(props.defaultOptions())
+      setShow(true)
+  };
   
   var filterChangeTimeout = null
   function filterChange(e) {
@@ -52,18 +56,7 @@ function TagsSearchSelectorModal(props) {
       setSelectedTags(uniqueTagsSelected)
     }
     
-    var sortedOptions = Object.keys(options).filter(function(a) {
-          // filter to tags in search results
-          if (!props.tagCollation) {
-              return true
-          } else {
-              if (props.tagCollation[a]) {
-                  return true
-              } else {
-                return false
-              }
-          }
-    });
+    var sortedOptions = Object.keys(options);
     sortedOptions.sort(function (a,b) {if (a > b) return 1; else return -1})
   const hasActiveTags = Array.isArray(props.value) && props.value.length > 0
   const hideSelection = !!props.hideSelection

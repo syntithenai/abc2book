@@ -68,6 +68,9 @@ function keysAreCompatible(a, b) {
   return relativeKeyLabel(infoA) === nb || relativeKeyLabel(infoB) === na
 }
 
+/** Exported for import-review inferred-key auto-apply. */
+export { keysAreCompatible }
+
 function wrapSemitones(semitones) {
   let value = Number(semitones) || 0
   while (value > 6) value -= 12
@@ -106,11 +109,20 @@ function extractChordTokensFromGrid(chordGridText) {
   String(chordGridText || '').split(/\r?\n/).forEach(function(line) {
     let clean = String(line || '').trim()
     if (!clean) return
+    // ChordPro inline chords in lyric lines: [Am]word [G]…
+    const inlineRe = /\[([A-G][#b]?[^\]]*)\]/gi
+    let inlineMatch
+    while ((inlineMatch = inlineRe.exec(clean)) !== null) {
+      const info = parseChordRootInfo(inlineMatch[1])
+      if (info) tokens.push(info)
+    }
     if (clean.endsWith('||')) clean = clean.slice(0, -2)
     else if (clean.endsWith('|')) clean = clean.slice(0, -1)
     clean.split('|').forEach(function(bar) {
       String(bar || '').trim().split(/\s+/).forEach(function(token) {
         if (!token || token === '.' || /^\.+$/.test(token)) return
+        // Skip raw ChordPro brackets already handled
+        if (token.charAt(0) === '[') return
         const info = parseChordRootInfo(token)
         if (info) tokens.push(info)
       })
@@ -412,3 +424,63 @@ export function buildChordKeyMergeOptions(input) {
 
   return [asIs].concat(transposed)
 }
+
+/**
+ * Suggestions when the declared key does not match chords in a lyric/chord chart.
+ * Prefers correcting the key field to match chord spellings (keep chart as-is).
+ *
+ * @returns {Array<{id: string, label: string, action: string, key?: string, chordGridText?: string, preferred?: boolean, rationale?: string}>}
+ */
+export function buildImportKeyChordSuggestions(input) {
+  const opts = input || {}
+  const chordSource = String(opts.chordGridText || opts.lyricsText || '')
+  const declaredKey = String(opts.declaredKey || opts.notationKey || '').trim()
+  const inferred = inferKeyFromChordGrid(chordSource)
+  if (!inferred || !declaredKey) return []
+  if (keysAreCompatible(inferred, declaredKey)) return []
+
+  const transposeOpts = buildChordKeyMergeOptions({
+    chordGridText: chordSource,
+    notationKey: declaredKey,
+    sheetKey: inferred,
+    capo: opts.capo,
+    melodyAbc: opts.melodyAbc,
+    noteLines: opts.noteLines,
+  })
+  const bestTranspose = (transposeOpts || []).find(function(opt) {
+    return opt && opt.id !== 'as-is' && opt.transposeSemitones
+  })
+
+  const suggestions = [
+    {
+      id: 'fix-key',
+      label: 'Set key to ' + inferred + ' (match chords)',
+      action: 'setKey',
+      key: inferred,
+      preferred: true,
+      rationale: 'Declared key ' + declaredKey + ' does not match chord chart (' + inferred + ')',
+    },
+  ]
+  if (bestTranspose) {
+    suggestions.push({
+      id: 'transpose-chords',
+      label: bestTranspose.label || ('Transpose chords to ' + declaredKey),
+      action: 'transposeChords',
+      key: declaredKey,
+      chordGridText: bestTranspose.chordGridText,
+      transposeSemitones: bestTranspose.transposeSemitones,
+      preferred: false,
+      rationale: bestTranspose.rationale || '',
+    })
+  }
+  suggestions.push({
+    id: 'as-is',
+    label: 'Keep key and chords as-is',
+    action: 'noop',
+    key: declaredKey,
+    preferred: false,
+    rationale: 'Do not change key or chord spellings',
+  })
+  return suggestions
+}
+

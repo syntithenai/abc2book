@@ -12,6 +12,7 @@ import CapitalizeTitleButton from './CapitalizeTitleButton'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import LyricsSectionsDropdown from './LyricsSectionsDropdown'
+import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
 import TuneAliasesField from './TuneAliasesField'
 import TuneArtistsField from './TuneArtistsField'
@@ -39,6 +40,7 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   const [show, setShow] = useState(false)
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
+  const [showLyricChordSheet, setShowLyricChordSheet] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
   const lyricsTextareaRef = useRef(null)
   const responsiveModalProps = useResponsiveModalProps()
@@ -49,11 +51,11 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
   const handleShow = () => setShow(true);
 
   useEffect(function() {
-    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics || showLyricsTools)
+    if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(show || showNoteAlignedLyrics || showLyricsTools || showLyricChordSheet)
     return function() {
       if (setBlockKeyboardShortcuts) setBlockKeyboardShortcuts(false)
     }
-  }, [show, showNoteAlignedLyrics, showLyricsTools, setBlockKeyboardShortcuts])
+  }, [show, showNoteAlignedLyrics, showLyricsTools, showLyricChordSheet, setBlockKeyboardShortcuts])
   var musicBrainz = useMusicBrainz()
   const abcjsParser = useAbcjsParser()
   let params = useParams();
@@ -239,6 +241,14 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                         <Button
                           variant="outline-primary"
                           style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
+                          title="Edit lyric chord sheet (ChordPro)"
+                          onClick={function() { setShowLyricChordSheet(true) }}
+                        >
+                          {tunebook.icons.words} Lyric chord sheet
+                        </Button>
+                        <Button
+                          variant="outline-primary"
+                          style={{display: 'inline-flex', alignItems: 'center', gap: '0.35em'}}
                           title="Open lyrics tools with selected text"
                           onClick={openLyricsToolsFromSelection}
                         >
@@ -273,6 +283,12 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
         show={showLyricsTools}
         onHide={function() { setShowLyricsTools(false) }}
         query={lyricsToolsQuery}
+      />
+      <LyricChordSheetEditorModal
+        show={showLyricChordSheet}
+        onHide={function() { setShowLyricChordSheet(false) }}
+        tune={tune}
+        tunebook={tunebook}
       />
     </>
   );

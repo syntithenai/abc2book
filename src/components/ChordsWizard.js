@@ -1,4 +1,4 @@
-import { Button, Form, Modal } from 'react-bootstrap'
+import { Alert, Button, Form, Modal } from 'react-bootstrap'
 import { useState, useEffect, useLayoutEffect, useRef } from 'react'
 import { toast } from 'react-toastify'
 import useAbcjsParser from '../useAbcjsParser'
@@ -10,6 +10,7 @@ import ChordSectionRecordModal from './ChordSectionRecordModal'
 import PasteChordSheetModal from './PasteChordSheetModal'
 import ChordMergeFailureToast from './ChordMergeFailureToast'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
+import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import {
   firstSectionMeter,
   firstSectionTempo,
@@ -35,6 +36,7 @@ import { resolvePrimaryVoiceKey } from '../abcVoiceUtils'
 import { fillEmptyTuneFieldsFromMeta } from '../applyChordSheetToTune'
 import { noteLinesHaveRealMelody } from '../timedImportFinalizer'
 import { listLyricSections } from '../lyricStructureUtils'
+import { tuneHasLyricEmbeddedChords } from '../timedLyricsChordsDisplay'
 
 const AUTOSAVE_MS = 400
 
@@ -524,6 +526,31 @@ export default function ChordsWizard(props) {
 
   function handlePasteSave(result) {
     if (!result) return
+    if (result.skipAbcMerge) {
+      const committed = commitPasteChordSheetToTune({
+        result: result,
+        tune: tune,
+        tunebook: props.tunebook,
+        skipAbcMerge: true,
+        historyLabel: result.historyLabel || 'Update lyric chord sheet',
+      })
+      if (!committed.ok) {
+        toast.error(
+          (committed.error && committed.error.message)
+            ? committed.error.message
+            : 'Could not update lyric chord sheet'
+        )
+        return
+      }
+      setShowPaste(false)
+      setPasteInitialText(null)
+      setPasteInitialUpdateLyrics(false)
+      toast.success('Lyric chord sheet updated')
+      if (Array.isArray(committed.lyricLines) && typeof props.onLyricsImport === 'function') {
+        props.onLyricsImport(committed.lyricLines)
+      }
+      return
+    }
     const lyricLines = result.updateLyrics
       ? (Array.isArray(result.lyricLines) ? result.lyricLines : getPlainLyricLines(tune))
       : undefined
@@ -566,6 +593,12 @@ export default function ChordsWizard(props) {
 
   return (
     <div className="chords-wizard">
+      {tuneHasLyricEmbeddedChords(tune) ? (
+        <Alert variant="info" className="mb-2 py-2">
+          Lyric chords in the lyrics field are the singing-view source of truth.
+          This editor changes ABC staff/structure chords only.
+        </Alert>
+      ) : null}
       <Form.Group controlId="chordwiz">
         <div className="chords-wizard-toolbar">
           <ChordSectionsDropdown

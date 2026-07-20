@@ -15,7 +15,18 @@ jest.mock('./SuggestionPreviewDialog', function() {
     return React.createElement('div', { 'data-testid': 'suggestion-preview' },
       React.createElement('span', null, props.kind),
       React.createElement('button', { type: 'button', onClick: props.onCancel }, 'Cancel'),
-      React.createElement('button', { type: 'button', onClick: props.onConfirm }, 'Use this value')
+      React.createElement('button', {
+        type: 'button',
+        'data-testid': 'suggestion-preview-confirm',
+        onClick: function() {
+          props.onConfirm(props.editedText != null ? props.editedText : undefined)
+        },
+      }, 'Use this value'),
+      React.createElement('button', {
+        type: 'button',
+        'data-testid': 'suggestion-preview-confirm-edited',
+        onClick: function() { props.onConfirm('edited lyrics text') },
+      }, 'Use edited')
     )
   }
 })
@@ -113,6 +124,33 @@ describe('ImportFieldSuggestion', function() {
     act(function() { confirm.click() })
     expect(onSelectChoice).toHaveBeenCalledTimes(1)
     expect(onSelectChoice.mock.calls[0][0].id).toBe('imported')
+  })
+
+  test('preview confirm applies edited lyrics text', function() {
+    const onSelectChoice = jest.fn()
+    act(function() {
+      root.render(
+        React.createElement(ImportFieldSuggestion, {
+          formKey: 'lyrics',
+          fieldKey: 'words',
+          label: 'Lyrics',
+          suggestion: { key: 'words', formKey: 'lyrics', value: 'new' },
+          choices: [
+            { id: 'imported', label: 'Imported', preview: 'new', value: 'new' },
+          ],
+          onSelectChoice: onSelectChoice,
+        })
+      )
+    })
+    const imported = Array.from(container.querySelectorAll('button')).find(function(btn) {
+      return (btn.textContent || '').indexOf('Imported') >= 0
+    })
+    act(function() { imported.click() })
+    const confirmEdited = container.querySelector('[data-testid="suggestion-preview-confirm-edited"]')
+    act(function() { confirmEdited.click() })
+    expect(onSelectChoice).toHaveBeenCalledTimes(1)
+    expect(onSelectChoice.mock.calls[0][0].value).toBe('edited lyrics text')
+    expect(onSelectChoice.mock.calls[0][0].preview).toBe('edited lyrics text')
   })
 
   test('opens notation gallery instead of dropdown', function() {

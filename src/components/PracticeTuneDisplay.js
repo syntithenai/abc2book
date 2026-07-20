@@ -5,7 +5,7 @@ import LyricsDisplayLines from '../LyricsDisplayLines'
 import useAbcjsParser from '../useAbcjsParser'
 import { normalizeViewMode, showsMusicNotation, viewModeToDisplayFlags } from '../viewModeUtils'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
-import { hasChordLines, formatChordChartForDisplay } from '../chordSheetUtils'
+import { hasLyricEmbeddedChords, formatChordChartForDisplay } from '../chordSheetUtils'
 import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
 
 function stripPracticeNotationHeaders(abcText) {
@@ -58,7 +58,7 @@ export default function PracticeTuneDisplay(props) {
     return getLyricLinesForDisplay(tune)
   }, [tune])
   const isLyricChordSheet = useMemo(function() {
-    return hasChordLines(plainLyricLines)
+    return hasLyricEmbeddedChords(plainLyricLines)
   }, [plainLyricLines])
   const chords = useMemo(function() {
     if (!tune) return ''

@@ -62,6 +62,32 @@ describe('lyricsAutoscrollUtils', function() {
     expect(resolveLyricsScrollMediaDuration({ links: [{}] }, mediaControllerWithMidiState(22), 0)).toBe(0);
   });
 
+  test('uses ChordPro lyricsScrollDurationSec when no loaded media', function() {
+    const tune = {
+      links: [],
+      wLines: ['a'],
+      lyricsScrollDurationSec: 200,
+    };
+    expect(getEffectiveMediaDurationSeconds(tune, null, 0)).toBe(
+      Math.max(200, LYRICS_SECONDS_PER_LINE)
+    );
+    expect(getLyricsAutoscrollDurationSeconds(tune, null, 0)).toBe(
+      Math.max(200, LYRICS_SECONDS_PER_LINE) * LYRICS_AUTOSCROLL_COMPLETION_RATIO
+    );
+  });
+
+  test('loaded media duration overrides ChordPro scroll duration', function() {
+    const tune = {
+      links: [{ url: 'x' }],
+      wLines: ['a'],
+      lyricsScrollDurationSec: 200,
+    };
+    const controller = mediaControllerWithElementDuration(100);
+    expect(getLyricsAutoscrollDurationSeconds(tune, controller, 0)).toBe(
+      100 * LYRICS_AUTOSCROLL_COMPLETION_RATIO
+    );
+  });
+
   test('uses loaded media element duration only', function() {
     const controller = mediaControllerWithElementDuration(240);
     expect(resolveLyricsScrollMediaDuration({ links: [{ url: 'x' }] }, controller, 0)).toBe(240);

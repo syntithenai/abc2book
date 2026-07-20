@@ -1,5 +1,5 @@
 import { getLyricLinesForDisplay } from './wLinesUtils'
-import { hasChordLines } from './chordSheetUtils'
+import { hasLyricEmbeddedChords } from './chordSheetUtils'
 
 export function tuneHasLyrics(tune) {
   if (!tune) return false
@@ -13,7 +13,7 @@ export function pickPracticeTuneViewMode(tune, tunebook) {
   if (!tune) return 'music'
   const lines = getLyricLinesForDisplay(tune)
   const hasLyrics = tuneHasLyrics(tune)
-  const isChordSheet = hasChordLines(lines)
+  const isChordSheet = hasLyricEmbeddedChords(lines)
   const hasNotation = tunebook && tunebook.hasNotesOrChords
     ? tunebook.hasNotesOrChords(tune)
     : !!(tune.voices && Object.keys(tune.voices).length > 0)

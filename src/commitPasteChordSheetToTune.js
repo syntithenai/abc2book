@@ -1,11 +1,15 @@
 import { fillEmptyTuneFieldsFromMeta } from './applyChordSheetToTune'
 import { applyBlockMergeToTune } from './chordBlockMerge'
 import { firstSectionMeter } from './chordsEditorSections'
-import { getPlainLyricLines } from './wLinesUtils'
+import { getPlainLyricLines, setPlainLyricLines } from './wLinesUtils'
+import { extractPreservedChordProLyricLines } from './chordProFormatUtils'
+import { linesHaveChordProInlineChords } from './chordSheetUtils'
 
 /**
  * Apply a PasteChordSheetModal result onto a tune (wipe notation + optional lyrics).
  * Mutates and saves via tunebook.saveTune.
+ *
+ * When skipAbcMerge is true, only lyrics + chordProSource meta are updated.
  *
  * @returns {{ ok: boolean, tune?: object, error?: object, updateLyrics?: boolean, lyricLines?: string[] }}
  */
@@ -16,7 +20,49 @@ export function commitPasteChordSheetToTune(options) {
   const abcjsParser = opts.abcjsParser
   const sourceTune = opts.tune
   const abc = opts.abc
-  if (!result || !tunebook || !tunebook.abcTools || !abcjsParser || !sourceTune) {
+  if (!result || !tunebook || !tunebook.abcTools || !sourceTune) {
+    return { ok: false, error: { message: 'Missing paste dependencies' } }
+  }
+
+  if (opts.skipAbcMerge) {
+    fillEmptyTuneFieldsFromMeta(sourceTune, result.meta)
+    sourceTune.meta = Object.assign({}, sourceTune.meta || {})
+    if (result.chordProSource || (result.meta && result.meta.chordProSource)) {
+      sourceTune.meta.chordProSource = result.chordProSource
+        || result.meta.chordProSource
+    }
+    if (result.chordSheetAlignment !== undefined) {
+      sourceTune.meta.chordSheetAlignment = result.chordSheetAlignment
+    }
+    let lyricLines = Array.isArray(result.lyricLines) ? result.lyricLines.slice() : null
+    if ((!lyricLines || !lyricLines.length) && result.chordProSource) {
+      lyricLines = extractPreservedChordProLyricLines(result.chordProSource)
+    }
+    if (!lyricLines || !lyricLines.length) {
+      lyricLines = getPlainLyricLines(sourceTune)
+    }
+    if (result.chordProSource) {
+      const preserved = extractPreservedChordProLyricLines(result.chordProSource)
+      if (preserved.length && linesHaveChordProInlineChords(preserved)) {
+        lyricLines = preserved
+      }
+    }
+    setPlainLyricLines(sourceTune, lyricLines)
+    if (!opts.skipSave) {
+      tunebook.saveTune(sourceTune, false, {
+        historyLabel: opts.historyLabel || 'Update lyric chord sheet',
+        immediate: true,
+      })
+    }
+    return {
+      ok: true,
+      tune: sourceTune,
+      updateLyrics: true,
+      lyricLines: lyricLines,
+    }
+  }
+
+  if (!abcjsParser) {
     return { ok: false, error: { message: 'Missing paste dependencies' } }
   }
 
@@ -62,7 +108,6 @@ export function commitPasteChordSheetToTune(options) {
     return { ok: false, error: merge.error }
   }
 
-  // Copy merged fields onto the live tune object when it is the same reference path.
   Object.keys(abcJson).forEach(function(key) {
     sourceTune[key] = abcJson[key]
   })

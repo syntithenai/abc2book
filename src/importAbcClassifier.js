@@ -7,6 +7,8 @@ import { createImportCandidate } from './importReviewSession';
 import { applyIntakePolicyToCandidates } from './importIntakePolicy';
 import { findCollectionMatches } from './tuneCollectionMatch';
 import { primaryArtist } from './tuneBibliographicUtils';
+import { importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch';
+import { importLyricsMatchForDeduping } from './importLyricsMatch';
 
 function asArray(bucket) {
   if (!bucket) return [];
@@ -136,11 +138,14 @@ export function annotateInsertsWithLibraryMatches(classified, tunes) {
       title: tune.name || tune.title || '',
       artist: primaryArtist(tune) || tune.composer || '',
       tunes: library,
+      importTune: tune,
       limit: 5,
     });
     const best = matches[0];
     if (best && best.tune && best.tune.id
-      && (best.confidence === 'Exact' || best.confidence === 'Likely')) {
+      && (best.confidence === 'Exact' || best.confidence === 'Likely')
+      && importTitlesMatchForDeduping(tuneImportTitle(tune), tuneImportTitle(best.tune))
+      && importLyricsMatchForDeduping(tune, best.tune)) {
       return Object.assign({}, candidate, {
         mergeTargetId: best.tune.id,
         mergeStatus: 'titleMatch',

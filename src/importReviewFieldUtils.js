@@ -5,6 +5,14 @@ import {
   importedFieldIsPresent,
   linkCompareKey,
 } from './tuneImportMergeUtils';
+import { noteLinesHaveRealMelody } from './timedImportFinalizer';
+import { hasLyricEmbeddedChords } from './chordSheetUtils';
+import { setPlainLyricLines } from './wLinesUtils';
+import { stripBraceTempoDirectiveLines } from './chordProMetaUtils';
+import {
+  inferKeyFromChordGrid,
+  keysAreCompatible,
+} from './chordKeyMergeOptions';
 
 const INLINE_IMPORT_SOURCE_KINDS = ['abc', 'chordsheet', 'bulk-text'];
 
@@ -34,6 +42,201 @@ const FORM_KEY_TO_TUNE = {
 };
 
 const SKIP_SUGGESTION_KEYS = { links: true, voices: true, words: true, wLines: true };
+
+/** Even in suggestOnly, fill these when the local tune has no value. */
+const AUTO_FILL_EMPTY_TUNE_KEYS = {
+  composer: true,
+  artists: true,
+  aliases: true,
+  meter: true,
+  key: true,
+  tempo: true,
+  noteLength: true,
+  capo: true,
+  genre: true,
+  voices: true,
+};
+
+/**
+ * Case-insensitive union of string lists; keeps first-seen casing/order.
+ */
+export function unionStringLists() {
+  const seen = {};
+  const out = [];
+  for (let a = 0; a < arguments.length; a += 1) {
+    const list = arguments[a];
+    (Array.isArray(list) ? list : []).forEach(function(item) {
+      const text = String(item == null ? '' : item).trim();
+      if (!text) return;
+      const key = text.toLowerCase();
+      if (seen[key]) return;
+      seen[key] = true;
+      out.push(text);
+    });
+  }
+  return out;
+}
+
+function voiceNoteLines(tune) {
+  const text = notationTextFromTune(tune || {});
+  return text ? text.split(/\r?\n/) : [];
+}
+
+/** Prefer keeping existing voices when they contain real melody notes. */
+export function shouldPreferExistingNotation(baseTune, importedTune) {
+  const baseHasReal = noteLinesHaveRealMelody(voiceNoteLines(baseTune));
+  if (!baseHasReal) return false;
+  const importedIsScaffold = !!(importedTune && importedTune.timingScaffold)
+    || !noteLinesHaveRealMelody(voiceNoteLines(importedTune));
+  return importedIsScaffold;
+}
+
+/**
+ * True when the preexisting collection tune already has ABC melody notes or
+ * quoted chord symbols. Ignores empty / rest-only scaffolds. Used so inferred
+ * keys auto-apply only when there is no real preexisting notation (not when
+ * notation was merely auto-merged from the import).
+ */
+export function tuneHasPreexistingAbcNotesOrChords(tune) {
+  if (!tune) return false;
+  const lines = voiceNoteLines(tune);
+  if (noteLinesHaveRealMelody(lines)) return true;
+  const text = lines.join('\n');
+  // Quoted ABC chord symbols, e.g. "Am" or "F#m7"
+  return /"[A-Ga-g][^"]*"/.test(text);
+}
+
+/** First few non-empty lyric lines for merge comparison UI. */
+export function lyricPreviewLines(tune, limit) {
+  const max = limit > 0 ? limit : 3;
+  const text = lyricsTextFromTune(tune || {});
+  const lines = [];
+  String(text || '').split(/\r?\n/).forEach(function(line) {
+    if (lines.length >= max) return;
+    const trimmed = String(line || '').trim();
+    if (trimmed) lines.push(trimmed);
+  });
+  return lines;
+}
+
+function normalizeLyricCompareLine(line) {
+  return String(line || '')
+    .toLowerCase()
+    .replace(/\[[^\]]*\]/g, ' ')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function lyricLineSimilarity(a, b) {
+  const na = normalizeLyricCompareLine(a);
+  const nb = normalizeLyricCompareLine(b);
+  if (!na || !nb) return 0;
+  if (na === nb) return 1;
+  if (na.length >= 8 && nb.indexOf(na) !== -1) return 0.9;
+  if (nb.length >= 8 && na.indexOf(nb) !== -1) return 0.9;
+  const ta = na.split(' ').filter(function(t) { return t.length > 2; });
+  const tb = nb.split(' ').filter(function(t) { return t.length > 2; });
+  if (!ta.length || !tb.length) return 0;
+  let inter = 0;
+  const setB = {};
+  tb.forEach(function(t) { setB[t] = true; });
+  ta.forEach(function(t) { if (setB[t]) inter += 1; });
+  return inter / Math.max(ta.length, tb.length);
+}
+
+/**
+ * Find best fuzzy alignment between original and import lyric lines, then return
+ * paired previews so intro chord fluff does not hide matching verse lines.
+ */
+export function alignedLyricPreviewPairs(originalTune, importedTune, limit) {
+  const max = limit > 0 ? limit : 3;
+  const originalAll = String(lyricsTextFromTune(originalTune || {}) || '')
+    .split(/\r?\n/)
+    .map(function(line) { return String(line || '').trim(); })
+    .filter(Boolean);
+  const importedAll = String(lyricsTextFromTune(importedTune || {}) || '')
+    .split(/\r?\n/)
+    .map(function(line) { return String(line || '').trim(); })
+    .filter(Boolean);
+
+  if (!originalAll.length && !importedAll.length) {
+    return { original: [], imported: [] };
+  }
+  if (!originalAll.length) {
+    return { original: [], imported: importedAll.slice(0, max) };
+  }
+  if (!importedAll.length) {
+    return { original: originalAll.slice(0, max), imported: [] };
+  }
+
+  let bestScore = -1;
+  let bestOi = 0;
+  let bestIi = 0;
+  const scan = Math.min(originalAll.length, 40);
+  const scanI = Math.min(importedAll.length, 40);
+  for (let oi = 0; oi < scan; oi += 1) {
+    for (let ii = 0; ii < scanI; ii += 1) {
+      const score = lyricLineSimilarity(originalAll[oi], importedAll[ii]);
+      if (score > bestScore) {
+        bestScore = score;
+        bestOi = oi;
+        bestIi = ii;
+      }
+    }
+  }
+  if (bestScore < 0.35) {
+    return {
+      original: originalAll.slice(0, max),
+      imported: importedAll.slice(0, max),
+    };
+  }
+  return {
+    original: originalAll.slice(bestOi, bestOi + max),
+    imported: importedAll.slice(bestIi, bestIi + max),
+  };
+}
+
+/**
+ * Summarize merge field activity for the review banner.
+ * autoMerged = auto-applied keys still matching import (or accepted import).
+ * pending = suggestions still differing from the form.
+ */
+export function summarizeImportMergeFieldCounts(autoAppliedKeys, suggestions, formValues, acceptedImportCount) {
+  const pendingKeys = Object.keys(suggestions || {}).filter(function(key) {
+    return importSuggestionDiffersFromForm(key, suggestions[key], formValues);
+  });
+  const pendingSet = {};
+  pendingKeys.forEach(function(k) { pendingSet[k] = true; });
+  const formKeySeen = {};
+  let autoStillApplied = 0;
+  (Array.isArray(autoAppliedKeys) ? autoAppliedKeys : []).forEach(function(tuneKey) {
+    const formKey = TUNE_KEY_TO_FORM[tuneKey] || tuneKey;
+    if (formKeySeen[formKey]) return;
+    formKeySeen[formKey] = true;
+    if (!pendingSet[formKey]) autoStillApplied += 1;
+  });
+  const accepted = Math.max(0, parseInt(acceptedImportCount, 10) || 0);
+  return {
+    autoMerged: autoStillApplied + accepted,
+    pending: pendingKeys.length,
+    pendingKeys: pendingKeys,
+  };
+}
+
+/** First non-empty ABC voice note line for merge comparison UI. */
+export function notationPreviewLine(tune) {
+  let text = notationTextFromTune(tune || {});
+  if (!String(text || '').trim() && tune && tune.notes != null) {
+    text = String(tune.notes);
+  }
+  const lines = String(text || '').split(/\r?\n/);
+  for (let i = 0; i < lines.length; i += 1) {
+    const trimmed = String(lines[i] || '').trim();
+    if (trimmed) return trimmed;
+  }
+  return '';
+}
 
 function cloneValue(value) {
   if (value === null || value === undefined) return value;
@@ -96,11 +299,12 @@ function baselineDisplayForFormValue(formKey, value) {
 
 /**
  * Ensure every import Use-dropdown includes a "Current value" choice that
- * restores the pre-import field value. Current is always first; other choices
- * that match the baseline (or each other) are dropped.
+ * restores the pre-import field value. Current is first by default; pass
+ * options.preferImported to put the imported choice first (ChordPro lyrics).
  */
-export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisplay) {
+export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisplay, options) {
   if (!suggestion) return suggestion;
+  const opts = options || {};
   const formKey = suggestion.formKey || '';
   const tuneKey = suggestion.key || FORM_KEY_TO_TUNE[formKey] || formKey;
   const display = baselineDisplay != null
@@ -147,9 +351,12 @@ export function attachCurrentValueChoice(suggestion, baselineValue, baselineDisp
     if (dup) return;
     unique.push(choice);
   });
+  const choices = opts.preferImported
+    ? unique.concat([currentChoice])
+    : [currentChoice].concat(unique);
   return Object.assign({}, suggestion, {
     baselineValue: baselineValue === undefined ? null : cloneValue(baselineValue),
-    choices: [currentChoice].concat(unique),
+    choices: choices,
   });
 }
 
@@ -237,13 +444,27 @@ export function notationTextFromTune(tune) {
 }
 
 export function lyricsTextFromTune(tune) {
-  if (tune && Array.isArray(tune.wLines) && tune.wLines.length) {
-    return tune.wLines.join('\n');
-  }
+  // Prefer ChordPro / plain block lyrics in `words` over note-aligned `wLines`.
+  let text = '';
   if (tune && Array.isArray(tune.words) && tune.words.length) {
-    return tune.words.join('\n');
+    text = tune.words.join('\n');
+  } else if (tune && Array.isArray(tune.wLines) && tune.wLines.length) {
+    text = tune.wLines.join('\n');
   }
-  return '';
+  return stripBraceTempoDirectiveLines(text);
+}
+
+function lyricLinesFromTune(tune) {
+  const text = lyricsTextFromTune(tune);
+  if (!text) return [];
+  return text.split(/\r?\n/);
+}
+
+function importedLyricsAreChordPro(importedTune) {
+  const lines = Array.isArray(importedTune && importedTune.words) && importedTune.words.length
+    ? importedTune.words
+    : lyricLinesFromTune(importedTune);
+  return hasLyricEmbeddedChords(lines);
 }
 
 function tuneValueToFormValue(tuneKey, value) {
@@ -467,8 +688,11 @@ export function formValuesToTune(formValues, baseTune) {
 
   const lyricText = String(values.lyrics || '').trim();
   if (lyricText) {
-    next.wLines = lyricText.split('\n');
-    delete next.words;
+    const lyricLines = lyricText.split(/\r?\n/);
+    setPlainLyricLines(next, lyricLines);
+    if (hasLyricEmbeddedChords(lyricLines)) {
+      delete next.wLines;
+    }
   } else {
     delete next.wLines;
     next.words = [];
@@ -503,6 +727,7 @@ function formKeyForTuneKey(tuneKey) {
   if (tuneKey === 'tags') return 'tagList';
   if (tuneKey === 'voices') return 'notes';
   if (tuneKey === 'words' || tuneKey === 'wLines') return 'lyrics';
+  if (tuneKey === 'artists' || tuneKey === 'aliases' || tuneKey === 'links') return tuneKey;
   if (FORM_SCALAR_FIELDS.indexOf(tuneKey) >= 0 || FORM_JSON_FIELDS.indexOf(tuneKey) >= 0) return tuneKey;
   return null;
 }
@@ -528,23 +753,94 @@ export function canApplyImportInline(sourceKind) {
   return INLINE_IMPORT_SOURCE_KINDS.indexOf(sourceKind) >= 0;
 }
 
+/**
+ * When the preexisting base has no ABC notes/chords, prefer the key inferred
+ * from imported lyric/chord-chart spellings over a mismatched declared key.
+ */
+function autoApplyInferredKeyFromChords(formValues, suggestions, autoAppliedKeys, baseTune, imported) {
+  if (tuneHasPreexistingAbcNotesOrChords(baseTune)) {
+    return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+  }
+  const chordSource = lyricsTextFromTune(imported || {});
+  if (!String(chordSource || '').trim()) {
+    return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+  }
+  // Prefer ChordPro / lyric-embedded chords; also try plain chord-grid lines.
+  const inferred = inferKeyFromChordGrid(chordSource);
+  if (!inferred) {
+    return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+  }
+
+  const currentKey = String((formValues && formValues.keyName) || '').trim();
+  if (currentKey && keysAreCompatible(currentKey, inferred)) {
+    return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+  }
+
+  const baselineForRevert = currentKey
+    || String((baseTune && baseTune.key) || '').trim();
+
+  let nextForm = setFormFieldValue(formValues, 'keyName', inferred);
+  const nextAuto = Array.isArray(autoAppliedKeys) ? autoAppliedKeys.slice() : [];
+  if (nextAuto.indexOf('key') < 0) nextAuto.push('key');
+
+  const nextSuggestions = Object.assign({}, suggestions || {});
+  if (baselineForRevert && !keysAreCompatible(baselineForRevert, inferred)) {
+    nextSuggestions.keyName = attachCurrentValueChoice({
+      key: 'key',
+      formKey: 'keyName',
+      value: inferred,
+      displayValue: inferred,
+    }, baselineForRevert, baselineForRevert, { preferImported: true });
+  } else {
+    delete nextSuggestions.keyName;
+  }
+
+  return {
+    formValues: nextForm,
+    suggestions: nextSuggestions,
+    autoAppliedKeys: nextAuto,
+  };
+}
+
 export function buildReviewFormState(baseTune, importedTune, mode, options) {
   const opts = options || {};
   const suggestOnly = opts.mergeMode === 'suggestOnly' || mode === 'suggestOnly';
   const imported = importedTune || {};
   let formValues;
-  const suggestions = {};
-  const autoAppliedKeys = [];
+  let suggestions = {};
+  let autoAppliedKeys = [];
 
   if (mode === 'create') {
     formValues = tuneToFormValues(imported);
-    return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+    return autoApplyInferredKeyFromChords(
+      formValues,
+      suggestions,
+      autoAppliedKeys,
+      null,
+      imported
+    );
   }
 
   formValues = tuneToFormValues(baseTune || {});
 
+  // Default books/tags to the union of original + import (deduped).
+  const unionBooks = unionStringLists(
+    baseTune && baseTune.books,
+    imported.books
+  );
+  const unionTags = unionStringLists(
+    baseTune && baseTune.tags,
+    imported.tags
+  );
+  formValues.bookList = unionBooks.join(', ');
+  formValues.tagList = unionTags.join(', ');
+
   TUNE_IMPORT_FIELD_DEFS.forEach(function(def) {
     const tuneKey = def.key;
+    if (tuneKey === 'books' || tuneKey === 'tags') {
+      // Already applied as union above; do not offer replace suggestions.
+      return;
+    }
     if (SKIP_SUGGESTION_KEYS[tuneKey]) {
       if (tuneKey === 'links' && importedFieldIsPresent('links', imported.links)) {
         const importedLinks = Array.isArray(imported.links) ? imported.links : [];
@@ -577,11 +873,23 @@ export function buildReviewFormState(baseTune, importedTune, mode, options) {
         }
       }
       if (tuneKey === 'voices' && importedFieldIsPresent('voices', imported.voices)) {
+        if (shouldPreferExistingNotation(baseTune, imported)) {
+          // Keep existing real notation; ignore chord-scaffold import for merge default.
+          return;
+        }
         const importedVoices = imported.voices;
         const importedNotes = notationTextFromTune({ voices: importedVoices });
         const baselineVoices = cloneValue(formValues.voices || { '1': { meta: '', notes: [] } });
         const baselineNotes = String(formValues.notes || '').trim()
           || notationTextFromTune({ voices: baselineVoices });
+        const localEmpty = isFormFieldEmpty('notes', formValues.notes)
+          && isFormFieldEmpty('voices', formValues.voices);
+        if (localEmpty && AUTO_FILL_EMPTY_TUNE_KEYS.voices) {
+          formValues.voices = cloneValue(importedVoices);
+          formValues.notes = importedNotes;
+          autoAppliedKeys.push('voices');
+          return;
+        }
         if (!fieldValuesSemanticallyEqual('voices', getTuneFieldValue(baseTune, 'voices'), importedVoices)) {
           suggestions.notes = attachCurrentValueChoice({
             key: 'voices',
@@ -595,9 +903,29 @@ export function buildReviewFormState(baseTune, importedTune, mode, options) {
         const lyrics = lyricsTextFromTune(imported);
         if (lyrics.trim()) {
           const baselineLyrics = formValues.lyrics || '';
-          if (!suggestOnly && isFormFieldEmpty('lyrics', formValues.lyrics)) {
+          const preferChordPro = importedLyricsAreChordPro(imported);
+          const lyricValue = Array.isArray(imported.words) && imported.words.length
+            ? cloneValue(imported.words)
+            : lyrics.split(/\r?\n/);
+          if (isFormFieldEmpty('lyrics', formValues.lyrics)) {
             formValues.lyrics = lyrics;
             autoAppliedKeys.push(tuneKey);
+          } else if (preferChordPro) {
+            // ChordPro-preserved import is the default merge choice.
+            formValues.lyrics = lyrics;
+            autoAppliedKeys.push(tuneKey);
+            if (!fieldValuesSemanticallyEqual(
+              'words',
+              String(baselineLyrics || '').split(/\r?\n/),
+              lyricValue
+            )) {
+              suggestions.lyrics = attachCurrentValueChoice({
+                key: 'words',
+                formKey: 'lyrics',
+                value: lyricValue,
+                displayValue: lyrics,
+              }, baselineLyrics, baselineLyrics, { preferImported: true });
+            }
           } else if (!fieldValuesSemanticallyEqual(tuneKey, getTuneFieldValue(baseTune, tuneKey), getTuneFieldValue(imported, tuneKey))) {
             suggestions.lyrics = attachCurrentValueChoice({
               key: tuneKey,
@@ -638,6 +966,52 @@ export function buildReviewFormState(baseTune, importedTune, mode, options) {
 
     if (fieldValuesSemanticallyEqual(tuneKey, baseValue, importedValue)) return;
 
+    // Timing scaffold: always take a present import (false/empty is absent above).
+    if (tuneKey === 'timingScaffold') {
+      formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
+      autoAppliedKeys.push(tuneKey);
+      return;
+    }
+
+    // Key signature: imported value is the default; keep Current as a revert choice.
+    if (tuneKey === 'key') {
+      const baselineKey = currentFormValue;
+      formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
+      autoAppliedKeys.push(tuneKey);
+      if (!isFormFieldEmpty(formKey, baselineKey)) {
+        suggestions[formKey] = attachCurrentValueChoice({
+          key: tuneKey,
+          formKey: formKey,
+          value: cloneValue(importedValue),
+          displayValue: tuneValueToFormValue(tuneKey, importedValue),
+        }, baselineKey, baselineDisplayForFormValue(formKey, baselineKey), { preferImported: true });
+      }
+      return;
+    }
+
+    // Tempo: imported value is the default when present; Current as revert.
+    if (tuneKey === 'tempo') {
+      const baselineTempo = currentFormValue;
+      formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
+      autoAppliedKeys.push(tuneKey);
+      if (!isFormFieldEmpty(formKey, baselineTempo)) {
+        suggestions[formKey] = attachCurrentValueChoice({
+          key: tuneKey,
+          formKey: formKey,
+          value: cloneValue(importedValue),
+          displayValue: tuneValueToFormValue(tuneKey, importedValue),
+        }, baselineTempo, baselineDisplayForFormValue(formKey, baselineTempo), { preferImported: true });
+      }
+      return;
+    }
+
+    // Fill empty listed fields even in suggestOnly (Import Review default).
+    if (isFormFieldEmpty(formKey, currentFormValue) && AUTO_FILL_EMPTY_TUNE_KEYS[tuneKey]) {
+      formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
+      autoAppliedKeys.push(tuneKey);
+      return;
+    }
+
     if (!suggestOnly && isFormFieldEmpty(formKey, currentFormValue)) {
       formValues = setFormFieldValue(formValues, formKey, tuneValueToFormValue(tuneKey, importedValue));
       autoAppliedKeys.push(tuneKey);
@@ -656,7 +1030,13 @@ export function buildReviewFormState(baseTune, importedTune, mode, options) {
     }, currentFormValue, baselineDisplayForFormValue(formKey, currentFormValue));
   });
 
-  return { formValues: formValues, suggestions: suggestions, autoAppliedKeys: autoAppliedKeys };
+  return autoApplyInferredKeyFromChords(
+    formValues,
+    suggestions,
+    autoAppliedKeys,
+    baseTune,
+    imported
+  );
 }
 
 function formValueAsTuneComparable(formKey, value) {

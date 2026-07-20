@@ -119,6 +119,7 @@ describe('addImportDispatch', function() {
 
   test('dispatchAddImport parses pasted abc to review', async function() {
     const result = await dispatchAddImport('X:1\nT:Hi\nK:C\nC2', mockContext());
+    if (result.action !== 'review') throw new Error(result.message || JSON.stringify(result));
     expect(result.action).toBe('review');
     expect(result.candidates.length).toBe(1);
     expect(result.candidates[0].sourceKind).toBe('abc');

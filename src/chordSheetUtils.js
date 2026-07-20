@@ -71,7 +71,7 @@ export function tokenIsChord(token) {
   }
 }
 
-const SECTION_HEADER_WORD = '(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook)';
+const SECTION_HEADER_WORD = '(verse|chorus|bridge|intro|outro|pre-?chorus|refrain|coda|tag|instrumental|solo|interlude|hook|v\\d+)';
 const SECTION_HEADER_SUFFIX = '(\\s*\\d+)?(\\s*\\([^)]*\\))?\\s*[:.]?';
 const SECTION_HEADER_PREFIX = '(?:(?:guitar|bass|keyboard|piano|drum|mandolin|banjo|fiddle|harmonica|vocal?s?)\\s+)?';
 
@@ -90,16 +90,111 @@ function matchesSectionHeaderText(text) {
   return new RegExp('^' + SECTION_HEADER_PREFIX + SECTION_HEADER_WORD + SECTION_HEADER_SUFFIX + '$', 'i').test(t);
 }
 
+/** Bar / beat placeholders in grids like `||C . . | F . . |`. */
+export function isChordStructureToken(token) {
+  const t = String(token == null ? '' : token).trim();
+  if (!t) return true;
+  return /^[|.:]+$/.test(t);
+}
+
+/**
+ * True when bracket contents look like a single chord token (e.g. Am, F#m7).
+ * Used so lone `[Am]` is not mistaken for a section header.
+ */
+export function isBracketChordOnly(line) {
+  const raw = String(line === null || line === undefined ? '' : line).trim();
+  const match = raw.match(/^\[([^\]]+)\]$/);
+  if (!match) return false;
+  return tokenIsChord(match[1].trim());
+}
+
 /**
  * Section markers such as "[Verse 1]", "[Chorus]", "# Verse", or bare
  * "Verse 2" / "Bridge". A leading markdown-style "#" (optionally repeated) is
  * stripped before matching so "# Verse" / "## Chorus" are recognised.
+ *
+ * Lone chord brackets like `[Am]` / `[F#m7]` are not section headers.
  */
 export function isSectionHeader(line) {
   const raw = String(line === null || line === undefined ? '' : line).trim();
   if (!raw) return false;
+  if (isBracketChordOnly(raw)) return false;
   if (/^\[.+\]$/.test(raw)) return true;
   return matchesSectionHeaderText(raw);
+}
+
+/** ChordPro-style inline chord marker: [Am], [F#m7], [C/G], … */
+const CHORDPRO_INLINE_CHORD_RE = /\[([A-G][#b]?[^\]\n]*)\]/g;
+
+/**
+ * True when a single line contains ChordPro inline chords like `[Am]word`
+ * (not a bare section header).
+ */
+export function lineHasChordProInlineChords(line) {
+  const raw = String(line === null || line === undefined ? '' : line);
+  const trimmed = raw.trim();
+  if (!trimmed) return false;
+  if (isSectionHeader(trimmed)) return false;
+  CHORDPRO_INLINE_CHORD_RE.lastIndex = 0;
+  let match;
+  while ((match = CHORDPRO_INLINE_CHORD_RE.exec(raw)) !== null) {
+    const inner = String(match[1] || '').trim();
+    if (tokenIsChord(inner)) return true;
+  }
+  return false;
+}
+
+/**
+ * True when any lyric line embeds ChordPro `[Am]lyric` markers.
+ */
+export function linesHaveChordProInlineChords(lines) {
+  return (Array.isArray(lines) ? lines : []).some(lineHasChordProInlineChords);
+}
+
+/**
+ * Tokenize a ChordPro lyric line into ChordProLines tokens
+ * `{ chord, text }` (chord floats above the following lyric fragment).
+ *
+ * Example: `[G]Amazing grace how [C]sweet` →
+ *   [{ chord: 'G', text: 'Amazing grace how ' }, { chord: 'C', text: 'sweet' }]
+ */
+export function parseChordProInlineLyricLine(line) {
+  const raw = String(line === null || line === undefined ? '' : line);
+  if (!raw) return [];
+  if (isSectionHeader(raw.trim())) {
+    return [{ chord: '', text: raw.trim() }];
+  }
+
+  const tokens = [];
+  let lastIndex = 0;
+  let pendingChord = '';
+  CHORDPRO_INLINE_CHORD_RE.lastIndex = 0;
+  let match;
+  while ((match = CHORDPRO_INLINE_CHORD_RE.exec(raw)) !== null) {
+    const inner = String(match[1] || '').trim();
+    const isChord = tokenIsChord(inner);
+    if (!isChord) continue;
+
+    const before = raw.slice(lastIndex, match.index);
+    if (before || pendingChord) {
+      tokens.push({ chord: pendingChord, text: before });
+      pendingChord = '';
+    } else if (tokens.length === 0 && match.index === 0) {
+      // Chord at start: attach to following text in next push.
+    }
+    pendingChord = inner;
+    lastIndex = match.index + match[0].length;
+  }
+
+  const trailing = raw.slice(lastIndex);
+  if (pendingChord || trailing) {
+    tokens.push({ chord: pendingChord, text: trailing });
+  }
+
+  if (tokens.length === 0) {
+    return [{ chord: '', text: raw }];
+  }
+  return tokens;
 }
 
 /**
@@ -125,14 +220,17 @@ export function truncateLyricLinesAtVersionSeparator(lines) {
 }
 
 /**
- * chord. Requiring every token to be a chord keeps lyric lines (which contain
- * ordinary words) from being misread as chords.
+ * Require every non-structure token to be a chord (lyrics must not pass).
+ * Barlines and beat dots are ignored so grids like `||C . . | F . . |` count.
  */
 function chordTokensAllParse(tokens) {
+  let chordCount = 0;
   for (let i = 0; i < tokens.length; i++) {
+    if (isChordStructureToken(tokens[i])) continue;
     if (!tokenIsChord(tokens[i])) return false;
+    chordCount += 1;
   }
-  return tokens.length > 0;
+  return chordCount > 0;
 }
 
 export function isChordLine(line) {
@@ -153,7 +251,7 @@ export function isChordLine(line) {
 /**
  * Soft chord-line check for import quality: a majority of tokens (at least 2)
  * parse as chords. Catches lines like "C  yeah  G  Am" that fail the strict
- * every-token-is-a-chord rule.
+ * every-token-is-a-chord rule. Structure tokens (|, .) are ignored.
  */
 export function isMostlyChordLine(line) {
   const t = String(line === null || line === undefined ? '' : line).trim();
@@ -170,10 +268,13 @@ export function isMostlyChordLine(line) {
   }
 
   let chordCount = 0;
+  let contentCount = 0;
   for (let i = 0; i < tokens.length; i++) {
+    if (isChordStructureToken(tokens[i])) continue;
+    contentCount += 1;
     if (tokenIsChord(tokens[i])) chordCount += 1;
   }
-  return chordCount >= 2 && chordCount * 2 > tokens.length;
+  return chordCount >= 2 && chordCount * 2 > contentCount;
 }
 
 /**
@@ -201,18 +302,63 @@ export function hasChordLines(lines) {
 }
 
 /**
- * Split an array of lines into blocks separated by one or more blank lines.
+ * Lyric lines carry embedded chord placement (COW rows or ChordPro `[Am]`).
+ */
+export function hasLyricEmbeddedChords(lines) {
+  return hasChordLines(lines) || linesHaveChordProInlineChords(lines);
+}
+
+/**
+ * True when the source uses two consecutive blank lines somewhere (stanza
+ * separator in double-spaced verse sheets).
+ */
+function sourceUsesDoubleBlankStanzas(lines) {
+  let blankRun = 0;
+  const source = Array.isArray(lines) ? lines : [];
+  for (let i = 0; i < source.length; i++) {
+    const line = source[i] === null || source[i] === undefined ? '' : String(source[i]);
+    if (line.trim().length === 0) {
+      blankRun += 1;
+      if (blankRun >= 2) return true;
+    } else {
+      blankRun = 0;
+    }
+  }
+  return false;
+}
+
+/**
+ * Split an array of lines into blocks.
+ * When the sheet uses double blank lines between stanzas, a single blank is
+ * treated as soft spacing inside a verse (dropped). Otherwise any blank still
+ * starts a new block (legacy ChordPro / UG style).
  */
 export function splitIntoBlocks(lines) {
+  const source = Array.isArray(lines) ? lines : [];
+  const softSingleBlanks = sourceUsesDoubleBlankStanzas(source);
   const blocks = [];
   let current = [];
-  (Array.isArray(lines) ? lines : []).forEach(function(raw) {
+  let blankRun = 0;
+
+  source.forEach(function(raw) {
     const line = raw === null || raw === undefined ? '' : String(raw);
     if (line.trim().length === 0) {
-      if (current.length > 0) { blocks.push(current); current = []; }
-    } else {
-      current.push(line);
+      blankRun += 1;
+      if (!softSingleBlanks) {
+        if (current.length > 0) {
+          blocks.push(current);
+          current = [];
+        }
+        return;
+      }
+      if (blankRun >= 2 && current.length > 0) {
+        blocks.push(current);
+        current = [];
+      }
+      return;
     }
+    blankRun = 0;
+    current.push(line);
   });
   if (current.length > 0) blocks.push(current);
   return blocks;
@@ -377,11 +523,44 @@ export function expandRepeatedSectionLyrics(lyricLines) {
  */
 export function normalizeSectionType(header) {
   if (!header) return null;
-  const cleaned = String(header).toLowerCase().replace(/[[\]]/g, ' ').replace(/[^a-z\s-]/g, ' ').trim();
+  const cleaned = String(header).toLowerCase().replace(/[[\]]/g, ' ').replace(/[^a-z0-9\s-]/g, ' ').trim();
   if (!cleaned) return null;
   const first = cleaned.split(/\s+/)[0] || '';
   if (first.indexOf('pre') === 0) return 'prechorus';
+  if (/^v\d+$/i.test(first)) return 'verse';
   return first || null;
+}
+
+/**
+ * Soft-wrap a chord grid so bars run down the page (default 8 bars per line).
+ * Preserves blank lines as section breaks (`||` strain separators).
+ */
+export function wrapChordGridBars(chordGridText, barsPerLine) {
+  const perLine = Math.max(1, parseInt(barsPerLine, 10) || 8);
+  const source = String(chordGridText == null ? '' : chordGridText);
+  if (!source.trim()) return '';
+
+  function wrapSection(sectionText) {
+    const trimmed = String(sectionText || '').trim();
+    if (!trimmed) return '';
+    // Split on barlines while keeping content; count closed bars.
+    const parts = trimmed.split('|').map(function(part) { return part.trim(); });
+    // Trailing empty from ending |
+    while (parts.length > 0 && parts[parts.length - 1] === '') parts.pop();
+    if (parts.length === 0) return '';
+    const lines = [];
+    for (let i = 0; i < parts.length; i += perLine) {
+      const chunk = parts.slice(i, i + perLine);
+      lines.push(chunk.join(' | ') + ' |');
+    }
+    return lines.join('\n');
+  }
+
+  return source
+    .split(/\n\s*\n/)
+    .map(wrapSection)
+    .filter(Boolean)
+    .join('\n\n');
 }
 
 function blockBodyLines(block) {

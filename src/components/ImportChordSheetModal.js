@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Alert, Button, Modal, ButtonGroup } from 'react-bootstrap';
+import { Alert, Button, Modal, ButtonGroup, Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import BookSelectorModal from './BookSelectorModal';
 import FileInputButton from './FileInputButton';
@@ -19,6 +19,7 @@ export default function ImportChordSheetModal(props) {
   const [preview, setPreview] = useState(null);
   const [error, setError] = useState('');
   const [message, setMessage] = useState(null);
+  const [preservePlacement, setPreservePlacement] = useState(true);
 
   useEffect(function() {
     if (props.routeMode) setShow(true);
@@ -33,6 +34,7 @@ export default function ImportChordSheetModal(props) {
     setList('');
     setPreview(null);
     setError('');
+    setPreservePlacement(true);
     setShow(false);
     if (props.onRouteClose) props.onRouteClose();
     if (props.closeParent) props.closeParent();
@@ -59,9 +61,13 @@ export default function ImportChordSheetModal(props) {
     return true;
   }
 
+  function parseOptions() {
+    return { preservePlacement: !!preservePlacement };
+  }
+
   function buildPreview(text) {
     try {
-      const parsed = parseChordSheetText(text);
+      const parsed = parseChordSheetText(text, parseOptions());
       setPreview(parsed);
       setError('');
       return parsed;
@@ -210,12 +216,32 @@ export default function ImportChordSheetModal(props) {
                 </Button>
               </div>
             </div>
+            <Form.Check
+              type="checkbox"
+              id="import-chordpro-preserve-placement"
+              className="mb-2"
+              checked={preservePlacement}
+              onChange={function(e) {
+                setPreservePlacement(!!e.target.checked);
+                setPreview(null);
+              }}
+              label="Preserve chord placement in lyrics"
+            />
+            <div className="small text-muted mb-2">
+              Keeps ChordPro [Am] markers or chords-over-words rows in the lyrics field.
+              An ABC chord scaffold is still built for notation and structure.
+            </div>
             {error ? <Alert variant="danger">{error}</Alert> : null}
             {preview ? (
               <Alert variant="info">
                 <strong>{preview.title || 'Untitled'}</strong>
                 {preview.composer ? ' — ' + preview.composer : ''}
                 <div>{preview.barCount} chord bars · {preview.sectionCount} sections</div>
+                {preview.preservePlacement ? (
+                  <div className="small">Lyric chord placement will be preserved.</div>
+                ) : (
+                  <div className="small">Lyrics will be stored without inline chords (ABC chart only).</div>
+                )}
                 {preview.warnings && preview.warnings.length > 0 ? (
                   <div className="small text-muted">{preview.warnings.join(' ')}</div>
                 ) : null}

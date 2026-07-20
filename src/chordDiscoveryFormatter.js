@@ -34,7 +34,7 @@ export function formatDiscoveredChords(options) {
     beatTimes,
     beatsPerBar,
     slotsPerBeat,
-    barsPerLine = 5,
+    barsPerLine = 8,
     meterChanges,
     includeMeterChanges = true,
   } = options || {};
@@ -44,7 +44,7 @@ export function formatDiscoveredChords(options) {
 
   const safeBeatsPerBar = Math.max(1, parseInt(beatsPerBar, 10) || 4);
   const safeSlotsPerBeat = Math.max(1, parseInt(slotsPerBeat, 10) || 1);
-  const safeBarsPerLine = Math.max(1, parseInt(barsPerLine, 10) || 5);
+  const safeBarsPerLine = Math.max(1, parseInt(barsPerLine, 10) || 8);
   const bars = buildVariableMeterBars(beatTimes, meterChanges, safeBeatsPerBar)
     .map(function(bar) {
       return Object.assign({}, bar, {

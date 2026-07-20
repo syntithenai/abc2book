@@ -12,7 +12,8 @@ import {
   firstSectionMeter,
   stripMeterMarkers,
 } from '../chordsEditorSections'
-import { hasChordLines } from '../chordSheetUtils'
+import { hasChordLines, hasLyricEmbeddedChords } from '../chordSheetUtils'
+import { getLyricLinesForDisplay } from '../wLinesUtils'
 import './PasteChordSheetModal.css'
 
 const PASTE_CHORD_SHEET_PLACEHOLDER = [
@@ -60,6 +61,7 @@ export default function PasteChordSheetModal(props) {
   const [keyMergeOptions, setKeyMergeOptions] = useState([])
   const [pendingAction, setPendingAction] = useState(null)
   const [updateLyrics, setUpdateLyrics] = useState(false)
+  const [lyricSheetOnly, setLyricSheetOnly] = useState(false)
   const [clipboardBusy, setClipboardBusy] = useState(false)
 
   useEffect(function() {
@@ -72,6 +74,11 @@ export default function PasteChordSheetModal(props) {
     setKeyMergeOptions([])
     setPendingAction(null)
     setUpdateLyrics(forceUpdateLyrics || !!props.initialUpdateLyrics)
+    setLyricSheetOnly(
+      props.initialLyricSheetOnly != null
+        ? !!props.initialLyricSheetOnly
+        : hasLyricEmbeddedChords(getLyricLinesForDisplay(tune))
+    )
     setClipboardBusy(false)
     if (props.initialText != null && String(props.initialText).trim()) {
       setPasteText(String(props.initialText))
@@ -165,7 +172,9 @@ export default function PasteChordSheetModal(props) {
     const opts = overrides || {}
     const grid = rebuildChordGridFromSections(nextSections)
     const meter = firstSectionMeter(nextSections, tune.meter)
-    const doLyrics = opts.updateLyrics != null ? opts.updateLyrics : effectiveUpdateLyrics()
+    const doLyrics = lyricSheetOnly
+      ? true
+      : (opts.updateLyrics != null ? opts.updateLyrics : effectiveUpdateLyrics())
     if (typeof props.onSaveSections === 'function') {
       props.onSaveSections({
         sections: nextSections,
@@ -176,8 +185,11 @@ export default function PasteChordSheetModal(props) {
         selectedMeterOption: opts.selectedMeterOption || { meter: meter, id: 'first-section' },
         selectedKeyOption: opts.selectedKeyOption || null,
         historyLabel: opts.historyLabel
-          || (doLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
-        wipeNotation: true,
+          || (lyricSheetOnly
+            ? 'Update lyric chord sheet'
+            : (doLyrics ? 'Paste chords and lyrics' : 'Paste chords')),
+        wipeNotation: !lyricSheetOnly,
+        skipAbcMerge: !!lyricSheetOnly,
         updateLyrics: !!doLyrics,
         lyricLines: doLyrics ? lyricLinesFromSource(source) : undefined,
       })
@@ -186,6 +198,13 @@ export default function PasteChordSheetModal(props) {
   }
 
   function startCommit(nextSections, source, historyLabel) {
+    if (lyricSheetOnly) {
+      commitSections(nextSections, source, {
+        historyLabel: historyLabel || 'Update lyric chord sheet',
+        updateLyrics: true,
+      })
+      return
+    }
     const meterDecision = buildMeterMergeOptions(source.meter, tune.meter)
     const keyOptions = buildKeyOptions(
       rebuildChordGridFromSections(nextSections),
@@ -232,7 +251,9 @@ export default function PasteChordSheetModal(props) {
     startCommit(
       next,
       parsed,
-      effectiveUpdateLyrics() ? 'Paste chords and lyrics' : 'Paste chords'
+      lyricSheetOnly
+        ? 'Update lyric chord sheet'
+        : (effectiveUpdateLyrics() ? 'Paste chords and lyrics' : 'Paste chords')
     )
   }
 
@@ -304,8 +325,21 @@ export default function PasteChordSheetModal(props) {
                 label="Update lyrics too"
                 checked={updateLyrics}
                 onChange={function(e) { setUpdateLyrics(!!e.target.checked) }}
+                disabled={lyricSheetOnly}
               />
             ) : null}
+            <Form.Check
+              type="checkbox"
+              id="paste-lyric-sheet-only"
+              className="paste-chord-sheet-update-lyrics"
+              label="Update lyric sheet only"
+              checked={lyricSheetOnly}
+              onChange={function(e) {
+                const next = !!e.target.checked
+                setLyricSheetOnly(next)
+                if (next) setUpdateLyrics(true)
+              }}
+            />
             <Button
               variant="success"
               onClick={importAll}
@@ -342,12 +376,21 @@ export default function PasteChordSheetModal(props) {
             </Alert>
           ) : null}
           <Alert variant="warning" className="mb-3">
-            Applying this paste <strong>replaces all existing ABC notation</strong>
-            {' '}(melody and chord symbols) with a new scaffold from the pasted chord sheet.
-            Existing pitched notes are not preserved.
-            {forceUpdateLyrics
-              ? <> Plain and note-aligned lyrics are also replaced from the paste.</>
-              : null}
+            {lyricSheetOnly ? (
+              <>
+                Applying this paste updates the <strong>lyric chord sheet only</strong>
+                {' '}(lyrics + ChordPro source). ABC notation is left unchanged.
+              </>
+            ) : (
+              <>
+                Applying this paste <strong>replaces all existing ABC notation</strong>
+                {' '}(melody and chord symbols) with a new scaffold from the pasted chord sheet.
+                Existing pitched notes are not preserved.
+                {forceUpdateLyrics
+                  ? <> Plain and note-aligned lyrics are also replaced from the paste.</>
+                  : null}
+              </>
+            )}
           </Alert>
           <p className="text-muted small">
             Paste a chord sheet with section labels, then Import.

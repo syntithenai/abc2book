@@ -167,6 +167,8 @@ var useAbcTools = () => {
     }
 
     // App-internal meta (objects / non-ABC). Never emit as header lines.
+    // chordProSource: original ChordPro / lyric-chord sheet (lyric placement truth).
+    // chordSheetAlignment: word↔beat anchors for ABC scaffold merge (optional bridge).
     var INTERNAL_META_KEYS = {
       chordSheetAlignment: true,
       chordProSource: true,
@@ -230,7 +232,7 @@ var useAbcTools = () => {
     function abc2json(abc) {
         //console.log('abc2json',abc)
       if (abc && abc.trim().length > 0) {
-        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', meta: {}}
+        var tune = {id: null, name: null,books:[],voices:{'1':{meta:'',notes:[]}}, tempo: 100, rhythm:null, genre: null, noteLength: null, meter: null,key:null, boost: 0, starred: false, aliases:[], artists:[],abccomments:[], capo: 0, playbackTempo: 1, playbackPitch: 0, playbackFineTune: 0, notes:[], words: [], wLines: [], timingScaffold: false, backgroundInfo: '', lyricsScrollDurationSec: 0, meta: {}}
         var currentVoice = '1'
         var links = {}
          var files = {}
@@ -379,6 +381,9 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-lyrics-scroll-speed')) {
                     var lyricsScrollSpeedVal = parseFloat(abcbookFieldValue(line, '% abcbook-lyrics-scroll-speed'))
                     tune.lyricsScrollSpeed = lyricsScrollSpeedVal > 0 ? lyricsScrollSpeedVal : 1
+                } else  if (line.startsWith('% abcbook-lyrics-scroll-duration')) {
+                    var lyricsScrollDurationVal = parseInt(abcbookFieldValue(line, '% abcbook-lyrics-scroll-duration'), 10)
+                    tune.lyricsScrollDurationSec = lyricsScrollDurationVal > 0 ? lyricsScrollDurationVal : 0
                 } else  if (line.startsWith('% abcbook-zoom')) {
                     var zoomVal = parseFloat(abcbookFieldValue(line, '% abcbook-zoom'))
                     tune.zoom = zoomVal > 0 ? zoomVal : undefined
@@ -857,6 +862,9 @@ var useAbcTools = () => {
                     + (tune.starred ? "% abcbook-starred true\n" : '')
                     + "% abcbook-difficulty " +  ensureNumber(tune.difficulty,0) + "\n" 
                     + "% abcbook-lyrics-scroll-speed " + ensureNumber(tune.lyricsScrollSpeed > 0 ? tune.lyricsScrollSpeed : 1, 1) + "\n"
+                    + (tune.lyricsScrollDurationSec > 0
+                      ? "% abcbook-lyrics-scroll-duration " + ensureNumber(tune.lyricsScrollDurationSec, 0) + "\n"
+                      : '')
                     + (tune.zoom > 0 ? "% abcbook-zoom " + ensureNumber(tune.zoom, 1) + "\n" : '')
                     + (tune.viewMode ? "% abcbook-view-mode " + ensureText(tune.viewMode) + "\n" : '')
                     + (tune.notationFit === 'vertical' || tune.notationFit === 'horizontal'
@@ -1806,9 +1814,24 @@ var useAbcTools = () => {
                 }
             })
         }
-        
-        const hashString = tune.title + tune.tempo+tune.meter+tune.transpose+tune.key+tune.soundFonts + (voicesAndNotes.join("\n")
-            + (Array.isArray(tune.wLines) ? tune.wLines.join("\n") : ''))
+
+        // Include block lyrics (W:/words) so ChordPro-preserved placement
+        // participates in content-hash dedupe; wLines alone miss that store.
+        // Delimit fields so titles cannot collide via adjacency with tempo/meter/etc.
+        const titlePart = String(tune.title || tune.name || '')
+        const wLinesPart = Array.isArray(tune.wLines) ? tune.wLines.join("\n") : ''
+        const wordsPart = Array.isArray(tune.words) ? tune.words.join("\n") : ''
+        const hashString = [
+          titlePart,
+          String(tune.tempo != null ? tune.tempo : ''),
+          String(tune.meter != null ? tune.meter : ''),
+          String(tune.transpose != null ? tune.transpose : ''),
+          String(tune.key != null ? tune.key : ''),
+          String(tune.soundFonts != null ? tune.soundFonts : ''),
+          voicesAndNotes.join("\n"),
+          wLinesPart,
+          wordsPart,
+        ].join('\u0001')
         //console.log("HASH",hashString)
         var hash = utils.hash(hashString)
         return hash

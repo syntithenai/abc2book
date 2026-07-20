@@ -1,6 +1,17 @@
 import { getLyricLinesForDisplay } from '../wLinesUtils';
 import { buildLinesFromTune } from '../timedLyricsChordsDisplay';
-import { classifyLyricChordLines, alignChordBlocksToLyrics, splitChordChartIntoBlocks, mergeChordsIntoLyricLines, hasChordLines, chartBlockHasChords, formatChordChartForDisplay } from '../chordSheetUtils';
+import {
+  classifyLyricChordLines,
+  alignChordBlocksToLyrics,
+  splitChordChartIntoBlocks,
+  mergeChordsIntoLyricLines,
+  hasChordLines,
+  chartBlockHasChords,
+  formatChordChartForDisplay,
+  linesHaveChordProInlineChords,
+  parseChordProInlineLyricLine,
+  isSectionHeader,
+} from '../chordSheetUtils';
 import useAbcjsParser from '../useAbcjsParser';
 import LyricsDisplayLines, { displaySectionHeader, SectionHeader } from '../LyricsDisplayLines';
 import { useFitTextScale } from '../useFitTextScale';
@@ -205,6 +216,24 @@ export default function TimedLyricsChordsView(props) {
       }
     }
 
+    if (linesHaveChordProInlineChords(displayLines)) {
+      const chordOnlyTokens = displayLines.map(function(line) {
+        const trimmed = String(line || '').trim();
+        if (!trimmed || isSectionHeader(trimmed)) return null;
+        return parseChordProInlineLyricLine(line)
+          .map(function(token) { return token.chord; })
+          .filter(Boolean)
+          .join(' ');
+      }).filter(function(row) { return row && String(row).trim(); });
+      if (chordOnlyTokens.length > 0) {
+        return (
+          <ChordsOnlyBlockView zoom={zoom} inheritZoom={inheritZoom} suppressTopMargin={suppressLeadingTitle}>
+            <ChordChartBlocksFromText chart={chordOnlyTokens.join('\n')} />
+          </ChordsOnlyBlockView>
+        );
+      }
+    }
+
     if (melodyHasChords && lines.length > 0) {
       const alignedBlocks = alignChordBlocksToLyrics(getLyricLinesForDisplay(tune), chordBlocks, {
         chordSectionLabels: Array.isArray(tune.chordSectionLabels) ? tune.chordSectionLabels : null,
@@ -265,6 +294,35 @@ export default function TimedLyricsChordsView(props) {
             return null;
           }
           return <div key={index} className="lyrics-line" style={{ whiteSpace: 'pre' }}>{item.text}</div>;
+        })}
+      </div>
+    );
+  }
+
+  // 1b) ChordPro inline markers in lyrics ([Am]word). Prefer over ABC merge.
+  if (linesHaveChordProInlineChords(displayLines)) {
+    const tokenLines = displayLines.map(function(line) {
+      const trimmed = String(line || '').trim();
+      if (!trimmed) return [];
+      if (isSectionHeader(trimmed)) return null;
+      if (hideChords) {
+        return parseChordProInlineLyricLine(line).map(function(token) {
+          return { chord: '', text: token.text };
+        });
+      }
+      return parseChordProInlineLyricLine(line);
+    });
+    return wrapFit(
+      <div className="timed-lyrics-chords-view chordpro-inline" style={contentFontStyle()}>
+        {displayLines.map(function(line, index) {
+          const trimmed = String(line || '').trim();
+          if (!trimmed) {
+            return <div key={index} className="chordpro-line-spacer" style={{ height: '0.4em' }} />;
+          }
+          if (isSectionHeader(trimmed)) {
+            return <SectionHeader key={index} label={displaySectionHeader(trimmed)} />;
+          }
+          return <ChordProLines key={index} tokenLines={[tokenLines[index]]} />;
         })}
       </div>
     );

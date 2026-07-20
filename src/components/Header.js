@@ -1,7 +1,7 @@
 import { Link  , useLocation} from 'react-router-dom'
 import {Button, Dropdown, ButtonGroup} from 'react-bootstrap'
 import SavedPlaylistsOpenModal from './SavedPlaylistsOpenModal'
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useSyncExternalStore} from 'react'
 import {useNavigate} from 'react-router-dom'
 import MediaPlayerButtons from './MediaPlayerButtons'
 import PracticeSessionButton from './PracticeSessionButton'
@@ -21,6 +21,13 @@ import {
   useToolPagePlaybackInterrupt,
 } from '../toolPlaybackInterrupt';
 import useMediaResolverHealth from '../useMediaResolverHealth';
+import {
+  getImportReviewSessionRevision,
+  hasActiveImportReviewSession,
+  isImportReviewUiVisible,
+  openImportReviewFromToast,
+  subscribeImportReviewSession,
+} from '../importReviewSessionStore'
 
 export default function Header(props) {
     var location = useLocation()
@@ -32,6 +39,13 @@ export default function Header(props) {
     const [userImageError, setUserImageError] = useState(false)
     const [showPlaylists, setShowPlaylists] = useState(false)
     const [navMenuOpen, setNavMenuOpen] = useState(false)
+    const importReviewRevision = useSyncExternalStore(
+        subscribeImportReviewSession,
+        getImportReviewSessionRevision,
+        function() { return '' }
+    )
+    const showImportReviewButton = hasActiveImportReviewSession() && !isImportReviewUiVisible()
+    void importReviewRevision
     const token = props.token
     const user = props.user
     const loadUserImage = props.loadUserImage
@@ -283,6 +297,25 @@ export default function Header(props) {
                                 </span>
                             </Button>
                         </span>
+                        {showImportReviewButton ? (
+                            <Button
+                                variant="primary"
+                                size={navButtonSize}
+                                className="header-dropdown-btn header-dropdown-review-btn"
+                                title="Continue import review"
+                                aria-label="Continue import review"
+                                data-testid="header-import-review-button"
+                                onClick={function() {
+                                    setNavMenuOpen(false)
+                                    openImportReviewFromToast()
+                                }}
+                            >
+                                <span className="header-dropdown-btn-label">
+                                    {props.tunebook.icons.reviewsmall || props.tunebook.icons.review}
+                                    <span>Review</span>
+                                </span>
+                            </Button>
+                        ) : null}
                     </div>
                 </div>
                 <Dropdown.Divider />

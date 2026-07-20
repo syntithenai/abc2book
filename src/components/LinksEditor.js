@@ -763,15 +763,17 @@ export default function LinksEditor(props) {
                                     <Form.Group className="links-editor-field-group links-editor-field-group--title">
                                         <div className="links-editor-field-label-row links-editor-field-label-row--title">
                                             <Form.Label className="links-editor-field-label">Title</Form.Label>
-                                            <MediaImportEntryButton
-                                                className="links-editor-field-label-action"
-                                                tune={tuneForMedia || props.tune}
-                                                linkIndex={lk}
-                                                label="Analyse Audio"
-                                                compact={true}
-                                                disabled={!linkHasMedia(link)}
-                                                onOpen={function() { openMediaWizard(lk); }}
-                                            />
+                                            {!simplified ? (
+                                                <MediaImportEntryButton
+                                                    className="links-editor-field-label-action"
+                                                    tune={tuneForMedia || props.tune}
+                                                    linkIndex={lk}
+                                                    label="Analyse Audio"
+                                                    compact={true}
+                                                    disabled={!linkHasMedia(link)}
+                                                    onOpen={function() { openMediaWizard(lk); }}
+                                                />
+                                            ) : null}
                                         </div>
                                         <div className="links-editor-field-input links-editor-title-input-row">
                                             <Form.Control type="text" value={link.title} onChange={function(e) {

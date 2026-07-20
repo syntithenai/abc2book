@@ -4,6 +4,7 @@ import {
   chordBlocksCompleteForLyrics,
   melodyChordsHaveNotes,
   preferInlineChords,
+  tuneHasLyricEmbeddedChords,
 } from './timedLyricsChordsDisplay';
 import { buildTimedLyricsFromTranscription } from './timedLyricsModel';
 import { buildTimedChordsFromDetection } from './timedChordsModel';
@@ -130,5 +131,17 @@ describe('timedLyricsChordsDisplay', function() {
       tunebook,
       makeParser('C | F |\n\nG | D |')
     )).toBe(false);
+  });
+
+  test('tuneHasLyricEmbeddedChords detects ChordPro inline markers', function() {
+    expect(tuneHasLyricEmbeddedChords({
+      words: ['[G]Amazing grace how [C]sweet'],
+    })).toBe(true);
+    expect(tuneHasLyricEmbeddedChords({
+      words: ['Am   G', 'plain lyric'],
+    })).toBe(true);
+    expect(tuneHasLyricEmbeddedChords({
+      words: ['plain lyric only'],
+    })).toBe(false);
   });
 });

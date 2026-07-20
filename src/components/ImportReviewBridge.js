@@ -69,12 +69,13 @@ import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
 import { createAttachedAudioLink, createAttachedVideoLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
-import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues, formValuesToTune } from '../importReviewFieldUtils'
+import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues } from '../importReviewFieldUtils'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
   fieldLookupJobIdsForCandidate,
+  mergeDraftTune,
 } from '../importReviewCandidateUtils'
 import { runAddTuneAutoEnrich } from '../addTuneAutoEnrich'
 import {
@@ -267,7 +268,7 @@ export default function ImportReviewBridge(props) {
 
     const tunebook = props.tunebook
     const tunesHash = props.tunesHash
-    const split = detectContentHashDuplicates(seedList, tunebook, tunesHash)
+    const split = detectContentHashDuplicates(seedList, tunebook, tunesHash, props.tunes)
     dismissContentHashDuplicateToast()
 
     function openSession(list) {
@@ -353,20 +354,24 @@ export default function ImportReviewBridge(props) {
       updateSession(next)
     }
 
-    const applyImportedTune = function(importedTune) {
+    const applyImportedTune = function(importedTune, importedCandidate) {
       const sessionNow = getImportReviewSession()
       if (!sessionNow) return
       const candidate = currentCandidate(sessionNow)
       if (!candidate) return
       const draftTune = (draft && draft.tune) || candidate.tune || {}
+      // Prefer import as the base; keep only non-empty draft fields (book/tags/links).
+      // Round-tripping through formValuesToTune was wiping title/lyrics when a concurrent
+      // form-sync suppressed the subsequent form re-init.
+      const mergedTune = mergeDraftTune(importedTune, draftTune)
       const built = applyInlineImportToForm(tuneToFormValues(draftTune), importedTune || {})
-      const mergedTune = formValuesToTune(built.formValues, Object.assign({}, draftTune, importedTune || {}))
+      const sourceKind = (importedCandidate && importedCandidate.sourceKind)
+        || (candidate.sourceKind && candidate.sourceKind !== 'manual' ? candidate.sourceKind : null)
+        || 'abc'
       updateSession(updateCurrentCandidate(sessionNow, {
         tune: mergedTune,
         mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
-        sourceKind: candidate.sourceKind && candidate.sourceKind !== 'manual'
-          ? candidate.sourceKind
-          : 'abc',
+        sourceKind: sourceKind,
         pendingInlineSuggestions: built.suggestions || {},
       }))
     }
