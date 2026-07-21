@@ -16,7 +16,7 @@ import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import useAbcjsParser from '../useAbcjsParser'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
-import { TABLATURE_INSTRUMENT_OPTIONS } from '../tablatureConfig'
+import TablatureSelector from './TablatureSelector'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
@@ -949,15 +949,15 @@ export default function AbcEditor(props) {
                           <Col xs="auto" className="abc-editor-info-compact-field">
                             <Form.Group className="mb-3" controlId="tab">
                               <FormLabelWithHelp label="Tablature" helpBody={EDITOR_INFO_FIELD_HELP.tablature.body} helpTitle={EDITOR_INFO_FIELD_HELP.tablature.title} />
-                              <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                                {TABLATURE_INSTRUMENT_OPTIONS.map(function(opt) {
-                                  return (
-                                    <option key={opt.value || '__none'} value={opt.value}>
-                                      {opt.label}
-                                    </option>
-                                  )
-                                })}
-                                </Form.Select>
+                              <TablatureSelector
+                                tune={tune}
+                                tunebook={props.tunebook}
+                                onChange={function() {
+                                  tune.id = params.tuneId
+                                  saveTune(tune)
+                                  if (props.forceRefresh) props.forceRefresh()
+                                }}
+                              />
                             </Form.Group>
                           </Col>
                           <Col xs={12} md={5} className="abc-editor-info-compact-field-wide">

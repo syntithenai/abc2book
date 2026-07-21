@@ -9,7 +9,7 @@ import {
   searchThesessionNotation,
   sortNotationCandidates,
 } from './thesessionNotationClient'
-import { isStrongLocalMatch } from './textSearchIndexUtils'
+import { inferNotationSongType, isStrongLocalMatch } from './textSearchIndexUtils'
 import { normalizeNotationSearch } from './notationSearchNormalize'
 
 function emitProgress(onProgress, message, progress, stage) {
@@ -57,6 +57,7 @@ export async function searchNotationLight(options) {
   const opts = options || {}
   const title = String(opts.title || '').trim()
   const artist = String(opts.artist || '').trim()
+  const songType = opts.songType || inferNotationSongType('', artist)
   const abcTools = opts.abcTools
 
   if (!title) {
@@ -83,18 +84,25 @@ export async function searchNotationLight(options) {
     return finalizeLightResult(sortNotationCandidates(localResults, title, artist))
   }
 
-  emitProgress(opts.onProgress, 'Searching The Session...', 0.15, 'thesession')
-  const sessionCandidates = await searchThesessionNotation({
-    title: title,
-    artist: artist,
-    signal: opts.signal,
-    onProgress: function(message, progress, stage) {
-      emitProgress(opts.onProgress, message, 0.15 + (progress * 0.75), stage)
-    },
-  })
+  const skipFolkNotation = songType === 'song' && !!artist
+  if (skipFolkNotation) {
+    emitProgress(opts.onProgress, 'Skipping folk ABC for named-artist song', 0.2, 'local')
+  } else {
+    emitProgress(opts.onProgress, 'Searching The Session...', 0.15, 'thesession')
+  }
+  const sessionCandidates = skipFolkNotation
+    ? []
+    : await searchThesessionNotation({
+      title: title,
+      artist: artist,
+      signal: opts.signal,
+      onProgress: function(message, progress, stage) {
+        emitProgress(opts.onProgress, message, 0.15 + (progress * 0.75), stage)
+      },
+    })
 
   let candidates = sortNotationCandidates(
-    localResults.concat(sessionCandidates),
+    (skipFolkNotation ? [] : localResults).concat(sessionCandidates),
     title,
     artist
   )

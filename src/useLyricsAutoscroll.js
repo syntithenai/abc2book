@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   applyLyricsScrollPosition,
   applySpeedMultiplierToScrollState,
   clampSpeedMultiplier,
   computeScrollProgress,
+  findFirstLinkedAudioLink,
   getLyricsAutoscrollDurationSeconds,
   getLyricsScrollContext,
   getLyricsScrollMetrics,
@@ -18,6 +19,7 @@ import {
   shouldStopAutoscrollAtBottom,
   stepSpeedMultiplier,
 } from './lyricsAutoscrollUtils';
+import { getCachedExternalMediaBlob, getExternalMediaCacheKey } from './externalMediaAudioCache';
 
 const MANUAL_SCROLL_THRESHOLD_PX = 3;
 
@@ -33,6 +35,7 @@ export default function useLyricsAutoscroll(options) {
     return getTuneLyricsScrollSpeed(options.tune);
   });
   const [nothingToScroll, setNothingToScroll] = useState(false);
+  const [linkedMediaDurationSec, setLinkedMediaDurationSec] = useState(0);
 
   const rafRef = useRef(null);
   const scrollStateRef = useRef({
@@ -49,9 +52,98 @@ export default function useLyricsAutoscroll(options) {
   const bottomReachedAtRef = useRef(null);
   const onSpeedChangeRef = useRef(onSpeedChange);
 
+  const durationOptions = useMemo(function() {
+    return {
+      hintDuration: linkedMediaDurationSec,
+      isYoutubeLink: options.isYoutubeLink,
+    };
+  }, [linkedMediaDurationSec, options.isYoutubeLink]);
+
   useEffect(function() {
     onSpeedChangeRef.current = onSpeedChange;
   }, [onSpeedChange]);
+
+  useEffect(function() {
+    setLinkedMediaDurationSec(0);
+    if (!tune || !tune.id) return undefined;
+
+    const firstAudio = findFirstLinkedAudioLink(tune, options.isYoutubeLink);
+    if (!firstAudio || !firstAudio.link || !firstAudio.link.link) return undefined;
+
+    let cancelled = false;
+    const cacheKey = getExternalMediaCacheKey(
+      tune.id,
+      firstAudio.index,
+      String(firstAudio.link.link).trim()
+    );
+    getCachedExternalMediaBlob(cacheKey).then(function(cached) {
+      if (cancelled || !cached || !(cached.duration > 0)) return;
+      setLinkedMediaDurationSec(cached.duration);
+    });
+
+    return function() {
+      cancelled = true;
+    };
+  }, [tune, tune && tune.id, tune && tune.links, options.isYoutubeLink]);
+
+  useEffect(function() {
+    if (!mediaController) return undefined;
+
+    function updateLinkedDuration(next) {
+      if (!(next > 0) || !isFinite(next)) return;
+      setLinkedMediaDurationSec(function(prev) {
+        return Math.max(prev, next);
+      });
+    }
+
+    function readElementDuration() {
+      const player = mediaController.playerRef && mediaController.playerRef.current;
+      const filtered = mediaController.filteredPlayerRef && mediaController.filteredPlayerRef.current;
+      const candidate = (player && player.duration > 0 && isFinite(player.duration))
+        ? player.duration
+        : ((filtered && filtered.duration > 0 && isFinite(filtered.duration))
+          ? filtered.duration
+          : 0);
+      updateLinkedDuration(candidate);
+    }
+
+    readElementDuration();
+
+    if (mediaController.isMediaPlaybackRoute
+      && mediaController.isMediaPlaybackRoute()
+      && mediaController.isReady) {
+      updateLinkedDuration(mediaController.duration);
+    }
+
+    const players = [];
+    if (mediaController.playerRef && mediaController.playerRef.current) {
+      players.push(mediaController.playerRef.current);
+    }
+    if (mediaController.filteredPlayerRef && mediaController.filteredPlayerRef.current) {
+      players.push(mediaController.filteredPlayerRef.current);
+    }
+
+    function handleMetadata() {
+      readElementDuration();
+    }
+
+    for (let i = 0; i < players.length; i++) {
+      players[i].addEventListener('loadedmetadata', handleMetadata);
+      players[i].addEventListener('durationchange', handleMetadata);
+    }
+
+    return function() {
+      for (let i = 0; i < players.length; i++) {
+        players[i].removeEventListener('loadedmetadata', handleMetadata);
+        players[i].removeEventListener('durationchange', handleMetadata);
+      }
+    };
+  }, [
+    mediaController,
+    mediaController && mediaController.duration,
+    mediaController && mediaController.isReady,
+    tune && tune.id,
+  ]);
 
   useEffect(function() {
     speedMultiplierRef.current = speedMultiplier;
@@ -181,7 +273,12 @@ export default function useLyricsAutoscroll(options) {
       setNothingToScroll(true);
       return;
     }
-    const baseDuration = getLyricsAutoscrollDurationSeconds(tune, mediaController, mediaLinkNumber);
+    const baseDuration = getLyricsAutoscrollDurationSeconds(
+      tune,
+      mediaController,
+      mediaLinkNumber,
+      durationOptions
+    );
     const activeMultiplier = speedMultiplierRef.current;
     const totalMs = Math.max(1000, (baseDuration / activeMultiplier) * 1000);
     const scrollState = {
@@ -216,6 +313,7 @@ export default function useLyricsAutoscroll(options) {
     mediaController,
     mediaLinkNumber,
     nudgeByPixels,
+    durationOptions,
   ]);
 
   const setSpeedMultiplierLive = useCallback(function(nextMultiplier) {
@@ -283,7 +381,12 @@ export default function useLyricsAutoscroll(options) {
     increaseSpeed: increaseSpeed,
     decreaseSpeed: decreaseSpeed,
     getBaseDurationSeconds: useCallback(function() {
-      return getLyricsAutoscrollDurationSeconds(tune, mediaController, mediaLinkNumber);
-    }, [mediaController, mediaLinkNumber, tune]),
+      return getLyricsAutoscrollDurationSeconds(
+        tune,
+        mediaController,
+        mediaLinkNumber,
+        durationOptions
+      );
+    }, [durationOptions, mediaController, mediaLinkNumber, tune]),
   };
 }

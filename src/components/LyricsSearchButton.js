@@ -318,7 +318,7 @@ export default function LyricsSearchButton({
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <FieldLookupButtonGroup
           automaticLookup={true}
-          showExternal={false}
+          showExternal={!!(googleUrl && externalLinkIcon)}
           busy={busy}
           disabled={!canSearch || disabled}
           externalUrl={googleUrl}

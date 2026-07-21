@@ -14,6 +14,7 @@ import {
   renderBibliographicComposerLines,
   renderBibliographicTitleLines,
 } from './tuneBibliographicUtils'
+import { renderTimedJsonFields, applyAbcbookJsonChunks, collectAbcbookJsonChunk, parseAbcbookJsonLine, LEGACY_TIMED_JSON_FIELDS } from './abcbookJsonFields'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -353,6 +354,11 @@ var useAbcTools = () => {
                     tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
+                } else  if (line.startsWith('% abcbook-tab-display')) {
+                    var tabDisplayVal = abcbookFieldValue(line, '% abcbook-tab-display')
+                    if (tabDisplayVal === 'tab') {
+                      tune.tabDisplay = 'tab'
+                    }
                 } else  if (line.startsWith('% abcbook-capo')) {
                     tune.capo = parseInt(abcbookFieldValue(line, '% abcbook-capo'), 10) || 0
                 } else  if (line.startsWith('% abcbook-playback-tempo')) {
@@ -454,6 +460,19 @@ var useAbcTools = () => {
                         if (numberParts.length > 1) {
                             if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
                             tuneFiles[numberParts[0]].pdfPage = parseInt(numberParts.slice(1).join(' '), 10) || 1
+                        }
+                    }
+               } else if (line.startsWith('% abcbook-file-pdf-segments-')) {
+                    var parts = line.trim().split('% abcbook-file-pdf-segments-')
+                    if (parts.length > 1) {
+                        var numberParts = parts[1].split(' ')
+                        if (numberParts.length > 1) {
+                            if (!tuneFiles[numberParts[0]]) tuneFiles[numberParts[0]] = {}
+                            try {
+                                tuneFiles[numberParts[0]].pdfSegments = JSON.parse(numberParts.slice(1).join(' '))
+                            } catch (e) {
+                                tuneFiles[numberParts[0]].pdfSegments = []
+                            }
                         }
                     }
                } else  if (line.startsWith('% abcbook-file-')) {
@@ -813,6 +832,9 @@ var useAbcTools = () => {
                 if (file.pdfPage > 0) {
                     tuneFilesRendered.push("% abcbook-file-pdf-page-" + k + ' ' + ensureNumber(file.pdfPage, 1))
                 }
+                if (Array.isArray(file.pdfSegments) && file.pdfSegments.length > 0) {
+                    tuneFilesRendered.push("% abcbook-file-pdf-segments-" + k + ' ' + JSON.stringify(file.pdfSegments))
+                }
             })
         }
         if (tune.activeFile) {
@@ -885,6 +907,9 @@ var useAbcTools = () => {
                       : '')
                     + (tune.suitableForPractice === false ? "% abcbook-suitable-for-practice false\n" : '')
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
+                    + (tune.tabDisplay === 'tab'
+                      ? "% abcbook-tab-display tab\n"
+                      : '')
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 
                     + "% abcbook-tuning " +  ensureText(tune.tuning) + "\n" 

@@ -9,6 +9,7 @@ import ImportFieldSuggestion from './ImportFieldSuggestion';
 import ReviewNotationMergePanel from './ReviewNotationMergePanel';
 import FieldPreviewEditor from './FieldPreviewEditor';
 import LinksEditor from './LinksEditor';
+import ImportReviewSnapshotsSection from './ImportReviewSnapshotsSection';
 import TuneAliasesField from './TuneAliasesField';
 import TuneArtistsField from './TuneArtistsField';
 import ComposerSearchButton from './ComposerSearchButton';
@@ -889,6 +890,11 @@ export default function TuneRecordForm(props) {
           onChange={function(next) { setField('links', next); }}
         />
       </FormBlock>
+
+      <ImportReviewSnapshotsSection
+        tuneFiles={values.tuneFiles}
+        pendingSnapshots={props.pendingSnapshots}
+      />
 
       <FormBlock>
         <FieldPreviewEditor

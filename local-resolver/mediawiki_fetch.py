@@ -227,12 +227,7 @@ async def mediawiki_page_score_file_urls(client, base_url, page_title):
 
 
 async def fetch_mediawiki_page_html(client, page_url):
-    page = await fetch_html_with_fallback(
-        client,
-        page_url,
-        allow_playwright=False,
-        cookies=mediawiki_cookies_for_base_url(page_url),
-    )
+    page = await fetch_html_with_fallback(client, page_url, allow_playwright=False)
     return page.text or "", page.final_url or page_url
 
 

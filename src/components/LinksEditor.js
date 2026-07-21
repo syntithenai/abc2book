@@ -19,7 +19,7 @@ import {
     resolveRecordingLinkAudio,
     resolveRecordingLinkMidi,
 } from '../linkRecording'
-import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile } from '../audioFileMetadata'
+import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFileMetadata } from '../audioFileMetadata'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
@@ -506,6 +506,7 @@ export default function LinksEditor(props) {
                 title: file.name,
                 token: props.token,
                 driveApi: driveDocs,
+                uploadToDrive: false,
             }))
             return
         }
@@ -513,13 +514,18 @@ export default function LinksEditor(props) {
             setWarning('Please choose an audio, video, or MIDI file.')
             return
         }
-        handleOwnedMediaCreated(createAttachedAudioLink({
-            tune: tune,
-            file: file,
-            title: file.name,
-            token: props.token,
-            driveApi: driveDocs,
-        }))
+        handleOwnedMediaCreated((async function() {
+            const metadata = await readAudioFileMetadata(file)
+            const title = metadata.title || file.name
+            return createAttachedAudioLink({
+                tune: tune,
+                file: file,
+                title: title,
+                token: props.token,
+                driveApi: driveDocs,
+                uploadToDrive: false,
+            })
+        })())
     }
 
     function downloadOwnedMediaLink(link, linkIndex) {

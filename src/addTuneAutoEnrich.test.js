@@ -56,6 +56,8 @@ describe('addTuneAutoEnrich', function() {
     dismissAddTuneAutoEnrichFailure('t6')
     dismissAddTuneAutoEnrichFailure('t7')
     dismissAddTuneAutoEnrichFailure('t8')
+    dismissAddTuneAutoEnrichFailure('t11')
+    dismissAddTuneAutoEnrichFailure('t12')
   })
 
   test('pickFirstSearchCandidate prefers first candidate from multi results', function() {
@@ -78,7 +80,12 @@ describe('addTuneAutoEnrich', function() {
       return Promise.resolve({ chordText: 'C | G |', lyricLines: ['line'] })
     })
     searchLyrics.mockResolvedValue({ text: 'lyrics text' })
-    searchNotation.mockResolvedValue({ abc: 'X:1\nK:C\nC D E F|' })
+    searchNotation.mockResolvedValue({
+      abc: 'X:1\nK:C\nC D E F|',
+      title: 'Song',
+      artist: 'Writer',
+      source: 'musescore.com',
+    })
     commitChordSearchResultToTune.mockReturnValue({
       ok: true,
       lyricLines: ['line'],
@@ -118,7 +125,7 @@ describe('addTuneAutoEnrich', function() {
     expect(applyCandidateToTune).toHaveBeenCalledWith(
       tune,
       'notation',
-      { abc: 'X:1\nK:C\nC D E F|' },
+      expect.objectContaining({ abc: 'X:1\nK:C\nC D E F|' }),
       tunebook.abcTools
     )
     expect(isAddTuneAutoEnrichPending('t1')).toBe(false)
@@ -146,7 +153,12 @@ describe('addTuneAutoEnrich', function() {
       if (opts && typeof opts.onProgress === 'function') {
         opts.onProgress('Fetching MuseScore score...', 0.5, 'musescore')
       }
-      return Promise.resolve({ abc: 'X:1\nK:C\nC D E F|' })
+      return Promise.resolve({
+        abc: 'X:1\nK:C\nC D E F|',
+        title: 'Song',
+        artist: 'Writer',
+        source: 'musescore.com',
+      })
     })
     commitChordSearchResultToTune.mockReturnValue({ ok: false })
     isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
@@ -173,7 +185,7 @@ describe('addTuneAutoEnrich', function() {
     expect(applyCandidateToTune).toHaveBeenCalledWith(
       tune,
       'notation',
-      { abc: 'X:1\nK:C\nC D E F|' },
+      expect.objectContaining({ abc: 'X:1\nK:C\nC D E F|' }),
       tunebook.abcTools
     )
     expect(tunebook.saveTune).toHaveBeenCalledWith(
@@ -222,7 +234,7 @@ describe('addTuneAutoEnrich', function() {
     expect(getAddTuneAutoEnrichState('t3').failure).toBe('')
   })
 
-  test('prompts Ultimate Guitar after MuseScore when lyrics succeed without chords', async function() {
+  test('offers Ultimate Guitar paste before MuseScore when chord manual exists', async function() {
     const tune = { id: 't5', name: 'Wonderwall', composer: 'Oasis' }
     const tunebook = {
       abcTools: {},
@@ -273,6 +285,45 @@ describe('addTuneAutoEnrich', function() {
     )
   })
 
+  test('offers Ultimate Guitar paste without lyrics when chord manual exists', async function() {
+    const tune = { id: 't12', name: 'Hells Bells', composer: 'AC/DC' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://tabs.ultimate-guitar.com/tab/ac-dc/hells-bells-chords-123',
+        title: 'Hells Bells',
+        source: 'ultimate-guitar.com',
+        host: 'tabs.ultimate-guitar.com',
+        contentType: 'chords',
+      }],
+    })
+    searchLyrics.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({ empty: true })
+    commitChordSearchResultToTune.mockReturnValue({ ok: false })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
+    })
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t12')
+    expect(state.needsChordPaste).toBe(true)
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.chordPasteCandidate.url).toContain('ultimate-guitar.com')
+  })
+
   test('prompts for MuseScore paste when lyrics succeed but notation is gated', async function() {
     const tune = { id: 't7', name: 'Apres un reve', composer: 'Faure' }
     const tunebook = {
@@ -317,7 +368,7 @@ describe('addTuneAutoEnrich', function() {
     const state = getAddTuneAutoEnrichState('t7')
     expect(state.needsNotationPaste).toBe(true)
     expect(state.notationPasteCandidate.url).toContain('musescore.com')
-    expect(state.needsChordPaste).toBe(true)
+    expect(state.needsChordPaste).toBe(false)
     expect(state.failure).toBe('')
     expect(state.message).toMatch(/MuseScore/i)
   })
@@ -351,7 +402,7 @@ describe('addTuneAutoEnrich', function() {
     expect(state.needsNotationPaste).toBe(true)
     expect(state.notationPasteCandidate.searchFallback).toBe(true)
     expect(state.notationPasteCandidate.url).toContain('musescore.com')
-    expect(state.needsChordPaste).toBe(true)
+    expect(state.needsChordPaste).toBe(false)
   })
 
   test('shouldSkipAbcMergeForChordPaste when real melody and lyrics exist', function() {
@@ -546,7 +597,12 @@ describe('addTuneAutoEnrich', function() {
       source: 'ultimate-guitar.com',
     })
     searchLyrics.mockResolvedValue({ text: 'lyrics text', source: 'lyrics.ovh' })
-    searchNotation.mockResolvedValue({ abc: 'X:1\nK:C\nC D E F|' })
+    searchNotation.mockResolvedValue({
+      abc: 'X:1\nK:C\nC D E F|',
+      title: 'Song',
+      artist: 'Writer',
+      source: 'musescore.com',
+    })
     commitChordSearchResultToTune.mockReturnValue({ ok: true, lyricLines: [] })
     isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
       return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
@@ -564,6 +620,41 @@ describe('addTuneAutoEnrich', function() {
     const state = getAddTuneAutoEnrichState('t10')
     expect(state.summary).toContain('Chords from ultimate-guitar.com')
     expect(state.summary).toContain('Lyrics from lyrics.ovh')
-    expect(state.summary).toContain('Notation from notation search')
+    expect(state.summary).toContain('Notation from musescore.com')
+  })
+
+  test('shows enrichment source summary when notation still needs paste', async function() {
+    const tune = { id: 't11', name: 'Hells Bells', composer: 'AC/DC' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({
+      chordText: 'A | D |',
+      source: 'ultimate-guitar.com',
+    })
+    searchLyrics.mockResolvedValue({ text: 'lyrics text', source: 'lyrics.ovh' })
+    searchNotation.mockResolvedValue({ empty: true, found: false, manualCandidates: [] })
+    commitChordSearchResultToTune.mockReturnValue({ ok: true, lyricLines: ['line'] })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'notation' || kind === 'chords' || kind === 'lyrics'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t11')
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.summary).toContain('Chords from ultimate-guitar.com')
+    expect(state.summary).toContain('Lyrics from lyrics.ovh')
+    expect(state.summary).toContain('Not found: notation')
   })
 })

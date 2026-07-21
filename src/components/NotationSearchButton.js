@@ -23,6 +23,7 @@ import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
 import { buildMuseScoreSearchUrl, filterActionableNotationManualCandidates } from '../chordSearchSites'
+import { buildExternalNotationArchiveChoices } from '../notationSearchSites'
 import { getMediaAnalysisJob } from '../mediaAnalysisJobs'
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 import { restoreFieldLookupOriginalToTune } from '../fieldSuggestionApply'
@@ -75,6 +76,7 @@ function buildExternalNotationChoices(title, artist) {
       url: midiUrl,
     })
   }
+  choices.push.apply(choices, buildExternalNotationArchiveChoices(title, artist))
   return choices
 }
 
@@ -125,7 +127,7 @@ export default function NotationSearchButton({
   const fieldEmpty = !String(currentValue || '').trim()
 
   function finishApply(result, jobId) {
-    if (jobId) applyFieldLookupChoice(jobId, result)
+    if (jobId) void applyFieldLookupChoice(jobId, result)
     if (typeof onNotation === 'function') onNotation(result)
     maybeOfferGenreFromSearchResult({
       tuneId: tuneId,
@@ -311,6 +313,8 @@ export default function NotationSearchButton({
       source: candidate.source || '',
       sourceUrl: candidate.sourceUrl || '',
       matchType: candidate.source || '',
+      pdfAttachment: candidate.pdfAttachment || null,
+      importFormat: candidate.importFormat || '',
     }
   }))
 

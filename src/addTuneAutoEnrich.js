@@ -3,7 +3,7 @@ import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
 import { pickChordPasteCandidate, pickNotationPasteCandidate } from './chordSearchSites'
-import { shouldAutoApplyNotationCandidate } from './notationMatchUtils'
+import { pickAutoApplyNotationCandidate } from './notationMatchUtils'
 import { inferNotationSongType } from './textSearchIndexUtils'
 import {
   applyCandidateToTune,
@@ -46,6 +46,23 @@ function formatEnrichmentSummary(parts) {
     items.push('Not found: ' + parts.missing.join(', '))
   }
   return items.join(' · ')
+}
+
+function buildEnrichmentSummary(tune, parts) {
+  const chordApplied = !!parts.chordApplied
+  const lyricApplied = !!parts.lyricApplied
+  const notationApplied = !!parts.notationApplied
+  const notationAttempted = !!parts.notationAttempted
+  const missing = []
+  if (!chordApplied && isTuneFieldEmptyForKind(tune, 'chords')) missing.push('chords')
+  if (!lyricApplied && isTuneFieldEmptyForKind(tune, 'lyrics')) missing.push('lyrics')
+  if (notationAttempted && !notationApplied && notationLooksReplaceable(tune)) missing.push('notation')
+  return formatEnrichmentSummary({
+    chords: parts.chordSource,
+    lyrics: parts.lyricSource,
+    notation: parts.notationSource,
+    missing: missing,
+  })
 }
 
 function emptyState() {
@@ -273,6 +290,13 @@ export async function runAddTuneAutoEnrich(options) {
   if (!title || !artist) return false
   const songType = opts.songType || inferNotationSongType(tune.rhythm || '', artist)
 
+  function notationPickOptions() {
+    return {
+      songType: songType,
+      preferMuseScoreImport: songType === 'song' && !!artist,
+    }
+  }
+
   let chordFrac = 0
   let lyricFrac = 0
   let lastMessage = 'Searching for chords and lyrics...'
@@ -475,8 +499,15 @@ export async function runAddTuneAutoEnrich(options) {
           && settled.value
           && settled.value.musescorePaywalled
         )
-        const notationCandidate = pickFirstSearchCandidate(settled.value)
-        if (notationCandidate && shouldAutoApplyNotationCandidate(notationCandidate, title, artist, { songType: songType })) {
+        const notationCandidate = settled.ok
+          ? pickAutoApplyNotationCandidate(
+            settled.value,
+            title,
+            artist,
+            notationPickOptions()
+          )
+          : null
+        if (notationCandidate) {
           updateState(tuneId, {
             pending: true,
             progress: 96,
@@ -495,7 +526,7 @@ export async function runAddTuneAutoEnrich(options) {
             notationSource = searchSourceLabel(notationCandidate, 'notation search')
           }
           else notationSearchFailed = true
-        } else if (notationCandidate) {
+        } else if (settled.ok && pickFirstSearchCandidate(settled.value)) {
           notationSearchFailed = true
         } else {
           notationSearchFailed = true
@@ -517,7 +548,7 @@ export async function runAddTuneAutoEnrich(options) {
         musescorePaywalled: notationMusescorePaywalled,
       })
       : null
-    const chordPasteCandidate = stillNeedsChords && lyricApplied
+    const chordPasteCandidate = stillNeedsChords && chordManualCandidates.length > 0
       ? pickChordPasteCandidate(chordManualCandidates, title, artist)
       : null
     const bothFailed = lyricsSearchFailed
@@ -525,21 +556,32 @@ export async function runAddTuneAutoEnrich(options) {
       && !notationPasteCandidate
       && !chordPasteCandidate
 
+    const enrichmentSummary = buildEnrichmentSummary(tune, {
+      chordApplied: chordApplied,
+      lyricApplied: lyricApplied,
+      notationApplied: notationApplied,
+      notationAttempted: notationAttempted,
+      chordSource: chordSource,
+      lyricSource: lyricSource,
+      notationSource: notationSource,
+    })
+
     if (notationPasteCandidate || chordPasteCandidate) {
       const messages = []
+      if (chordPasteCandidate) {
+        messages.push('Chords need a manual paste from Ultimate Guitar.')
+      }
       if (notationPasteCandidate) {
         messages.push(notationPasteCandidate.searchFallback
           ? 'No downloadable notation was found automatically. Search MuseScore and import MusicXML, .mxl, .mscz, or MIDI (paste or choose file).'
           : 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.')
-      }
-      if (chordPasteCandidate) {
-        messages.push('Lyrics found, but chords need a manual paste from Ultimate Guitar.')
       }
       updateState(tuneId, {
         pending: false,
         progress: 100,
         message: messages.join(' '),
         failure: '',
+        summary: enrichmentSummary,
         needsChordPaste: !!chordPasteCandidate,
         chordPasteCandidate: chordPasteCandidate,
         chordManualCandidates: chordPasteCandidate ? chordManualCandidates.slice() : [],
@@ -554,6 +596,7 @@ export async function runAddTuneAutoEnrich(options) {
         progress: 100,
         message: 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.',
         failure: '',
+        summary: enrichmentSummary,
         needsChordPaste: false,
         chordPasteCandidate: null,
         chordManualCandidates: [],
@@ -568,6 +611,7 @@ export async function runAddTuneAutoEnrich(options) {
         progress: 100,
         message: '',
         failure: 'Could not find lyrics or notation for this tune.',
+        summary: enrichmentSummary,
         needsChordPaste: false,
         chordPasteCandidate: null,
         chordManualCandidates: [],
@@ -577,23 +621,13 @@ export async function runAddTuneAutoEnrich(options) {
         musescorePaywalled: false,
       })
     } else {
-      const missing = []
-      if (!chordApplied && isTuneFieldEmptyForKind(tune, 'chords')) missing.push('chords')
-      if (!lyricApplied && isTuneFieldEmptyForKind(tune, 'lyrics')) missing.push('lyrics')
-      if (notationAttempted && !notationApplied && notationLooksReplaceable(tune)) missing.push('notation')
-      const summary = formatEnrichmentSummary({
-        chords: chordSource,
-        lyrics: lyricSource,
-        notation: notationSource,
-        missing: missing,
-      })
-      if (summary) {
+      if (enrichmentSummary) {
         updateState(tuneId, {
           pending: false,
           progress: 100,
           message: '',
           failure: '',
-          summary: summary,
+          summary: enrichmentSummary,
           needsChordPaste: false,
           chordPasteCandidate: null,
           chordManualCandidates: [],
@@ -613,21 +647,65 @@ export async function tryApplyNotationMidiFallback(options) {
   const opts = options || {}
   const tune = opts.tune
   const tunebook = opts.tunebook
-  if (!tune || !tunebook || !notationLooksReplaceable(tune)) return false
+  if (!tune || !tunebook || !notationLooksReplaceable(tune)) {
+    return { applied: false, source: '' }
+  }
   const title = String(opts.title || tune.name || '').trim()
-  if (!title) return false
+  if (!title) return { applied: false, source: '' }
+  const artist = String(opts.artist || tune.composer || '').trim()
+  const songType = opts.songType || inferNotationSongType(tune.rhythm || '', artist)
   try {
     const result = await searchNotation({
       title: title,
-      artist: String(opts.artist || tune.composer || '').trim(),
+      artist: artist,
+      songType: songType,
       resolverAvailable: opts.resolverAvailable,
       accessToken: opts.accessToken || '',
       midiFallback: true,
     })
-    const candidate = pickFirstSearchCandidate(result)
-    if (!candidate) return false
-    return saveAppliedCandidate(tune, 'notation', candidate, tunebook, opts.forceRefresh)
+    const candidate = pickAutoApplyNotationCandidate(
+      result,
+      title,
+      artist,
+      { songType: songType, fallbackPool: true }
+    )
+    if (!candidate) return { applied: false, source: '' }
+    const source = searchSourceLabel(candidate, 'notation search')
+    const applied = saveAppliedCandidate(tune, 'notation', candidate, tunebook, opts.forceRefresh)
+    return { applied: !!applied, source: applied ? source : '' }
   } catch (e) {
-    return false
+    return { applied: false, source: '' }
   }
+}
+
+export async function abandonAutoEnrichNotationPaste(options) {
+  const opts = options || {}
+  const tuneId = opts.tuneId
+  const tune = opts.tune
+  const tunebook = opts.tunebook
+  if (!tuneId || !tune || !tunebook) return { applied: false, source: '' }
+
+  const result = await tryApplyNotationMidiFallback({
+    tune: tune,
+    tunebook: tunebook,
+    title: opts.title,
+    artist: opts.artist,
+    accessToken: opts.accessToken || '',
+    resolverAvailable: opts.resolverAvailable,
+    forceRefresh: opts.forceRefresh,
+  })
+
+  if (result.applied) {
+    updateState(tuneId, {
+      needsNotationPaste: false,
+      notationPasteCandidate: null,
+      notationManualCandidates: [],
+      musescorePaywalled: false,
+      message: '',
+    })
+  } else {
+    dismissAddTuneAutoEnrichNotationPaste(tuneId)
+  }
+
+  return result
 }

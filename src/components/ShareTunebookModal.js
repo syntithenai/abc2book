@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Alert, Button, Modal } from 'react-bootstrap'
 import { QRCodeSVG } from 'qrcode.react'
 import useGoogleDocument from '../useGoogleDocument'
@@ -10,9 +10,11 @@ import {
 import {
   isAnyoneReadable,
   prepareOwnedMediaForShare,
+  summarizeShareMediaWork,
 } from '../shareOwnedMediaUtils'
 import { listPerformanceSets } from '../performanceSetStore'
 import { listSavedPlaylists } from '../savedPlaylistsStore'
+import ShareOwnedMediaProgressModal from './ShareOwnedMediaProgressModal'
 
 const PUBLIC_CONFIRM_KEY = 'bookstorage_tunebook_public'
 
@@ -65,9 +67,13 @@ export default function ShareTunebookModal({
   const [audioSummary, setAudioSummary] = useState('')
   const [audioWarnings, setAudioWarnings] = useState([])
   const [pendingOpen, setPendingOpen] = useState(false)
+  const [mediaModalPhase, setMediaModalPhase] = useState(null)
+  const [mediaWorkSummary, setMediaWorkSummary] = useState(null)
+  const [mediaProgress, setMediaProgress] = useState({})
+  const [mediaEvents, setMediaEvents] = useState([])
+  const shareContinuationRef = useRef(null)
   const docs = useGoogleDocument(token)
 
-  // Auto-open the share dialog after the user logs in (if they clicked Share while logged out)
   useEffect(function() {
     if (token && pendingOpen) {
       setPendingOpen(false)
@@ -106,15 +112,12 @@ export default function ShareTunebookModal({
     setShow(false)
   }
 
-  function confirmAndShareTunebookDoc(finishShare) {
-    if (localStorage.getItem(PUBLIC_CONFIRM_KEY)) {
-      finishShare()
-      return
-    }
-    if (window.confirm('The Google document that stores your tune book will be readable by anyone with the link. Is that OK?')) {
-      localStorage.setItem(PUBLIC_CONFIRM_KEY, 'true')
-      finishShare()
-    }
+  function resetMediaModal() {
+    setMediaModalPhase(null)
+    setMediaWorkSummary(null)
+    setMediaProgress({})
+    setMediaEvents([])
+    shareContinuationRef.current = null
   }
 
   function buildShareScope() {
@@ -127,6 +130,92 @@ export default function ShareTunebookModal({
       playlistId: playlistId,
       playlists: resolvePlaylistsMap(),
     }
+  }
+
+  function confirmAndShareTunebookDoc(finishShare) {
+    if (localStorage.getItem(PUBLIC_CONFIRM_KEY)) {
+      finishShare()
+      return
+    }
+    if (window.confirm('The Google document that stores your tune book will be readable by anyone with the link. Is that OK?')) {
+      localStorage.setItem(PUBLIC_CONFIRM_KEY, 'true')
+      finishShare()
+    }
+  }
+
+  function beginOwnedMediaShare(continuation) {
+    const scope = buildShareScope()
+    const work = summarizeShareMediaWork(tunes || {}, scope)
+    if (!work.hasWork && work.totalItems === 0) {
+      continuation()
+      return
+    }
+
+    shareContinuationRef.current = continuation
+    setMediaWorkSummary(work)
+    setMediaEvents([])
+    setMediaProgress({})
+    if (work.hasWork) {
+      setMediaModalPhase('warning')
+      return
+    }
+    runOwnedMediaShare(continuation)
+  }
+
+  function runOwnedMediaShare(continuation) {
+    const scope = buildShareScope()
+    setMediaModalPhase('working')
+    setMediaEvents([])
+    setMediaProgress({
+      phase: 'upload',
+      current: 0,
+      total: 0,
+      message: 'Starting audio upload…',
+    })
+
+    prepareOwnedMediaForShare(tunes || {}, scope, {
+      token: token,
+      driveApi: docs,
+      googleDocumentId: googleDocumentId,
+      saveTune: saveTune,
+      autoConfirmPublic: true,
+      onEvent: function(event) {
+        setMediaEvents(function(prev) {
+          const next = prev.concat([event])
+          return next.slice(-80)
+        })
+      },
+      onProgress: function(progress) {
+        setMediaProgress(progress || {})
+      },
+    }).then(function(result) {
+      if (result.summary) {
+        setAudioSummary(formatAudioShareSummary(result.summary))
+        setAudioWarnings(result.summary.notUploadable || [])
+      }
+      if (result.tunes && typeof saveTune === 'function') {
+        Object.keys(result.tunes).forEach(function(id) {
+          if (tunes && tunes[id] !== result.tunes[id]) {
+            saveTune(result.tunes[id])
+          }
+        })
+      }
+      resetMediaModal()
+      if (typeof continuation === 'function') continuation()
+    }).catch(function() {
+      resetMediaModal()
+      if (typeof continuation === 'function') continuation()
+    })
+  }
+
+  function handleMediaWarningConfirm() {
+    const continuation = shareContinuationRef.current
+    runOwnedMediaShare(continuation)
+  }
+
+  function handleMediaWarningCancel() {
+    resetMediaModal()
+    setBusy(false)
   }
 
   function prepareShare() {
@@ -150,26 +239,8 @@ export default function ShareTunebookModal({
     }
 
     function runAudioShareThenDocShare() {
-      const scope = buildShareScope()
       setBusy(true)
-      prepareOwnedMediaForShare(tunes || {}, scope, {
-        token: token,
-        driveApi: docs,
-        googleDocumentId: googleDocumentId,
-        saveTune: saveTune,
-      }).then(function(result) {
-        if (result.summary) {
-          setAudioSummary(formatAudioShareSummary(result.summary))
-          setAudioWarnings(result.summary.notUploadable || [])
-        }
-        if (result.tunes && typeof saveTune === 'function') {
-          Object.keys(result.tunes).forEach(function(id) {
-            if (tunes && tunes[id] !== result.tunes[id]) {
-              saveTune(result.tunes[id])
-            }
-          })
-        }
-        setBusy(false)
+      beginOwnedMediaShare(function afterOwnedMedia() {
         if (localStorage.getItem(PUBLIC_CONFIRM_KEY)) {
           finishShare()
           return
@@ -184,9 +255,6 @@ export default function ShareTunebookModal({
           setBusy(false)
           confirmAndShareTunebookDoc(finishShare)
         })
-      }).catch(function() {
-        setBusy(false)
-        confirmAndShareTunebookDoc(finishShare)
       })
     }
 
@@ -253,6 +321,16 @@ export default function ShareTunebookModal({
         {tunebook.icons.share}
         {!tiny && <span className="music-actions-menu-btn-label"> {buttonLabel}</span>}
       </Button>
+
+      <ShareOwnedMediaProgressModal
+        show={!!mediaModalPhase}
+        phase={mediaModalPhase || 'working'}
+        workSummary={mediaWorkSummary}
+        progress={mediaProgress}
+        events={mediaEvents}
+        onConfirm={handleMediaWarningConfirm}
+        onCancel={mediaModalPhase === 'warning' ? handleMediaWarningCancel : null}
+      />
 
       <Modal show={show} onHide={handleClose} fullscreen backdrop="static" keyboard={false}>
         <Modal.Header closeButton>

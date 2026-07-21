@@ -9,6 +9,8 @@ import {
 import { clearFilePickerIntent } from '../filePickerIntent'
 
 export default function SheetImageGooglePhotosModal(props) {
+  const allowVideos = !!props.allowVideos
+  const maxItemCount = props.maxItemCount != null ? props.maxItemCount : 1
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
   const [status, setStatus] = useState('')
@@ -52,6 +54,23 @@ export default function SheetImageGooglePhotosModal(props) {
     return tokenResponse
   }
 
+  function deliverFiles(files) {
+    const list = Array.isArray(files) ? files.filter(Boolean) : []
+    if (!list.length) {
+      throw new Error(allowVideos ? 'No media was selected' : 'No photo was selected')
+    }
+    clearFilePickerIntent()
+    if (list.length > 1 && typeof props.onImportFiles === 'function') {
+      props.onImportFiles(list)
+      handleHide()
+      return
+    }
+    if (typeof props.onSelectFile === 'function') {
+      props.onSelectFile(list[0])
+    }
+    handleHide()
+  }
+
   async function startPicker() {
     if (!props.token) {
       setError('Sign in with Google to pick photos from Google Photos.')
@@ -63,17 +82,13 @@ export default function SheetImageGooglePhotosModal(props) {
     try {
       const photosToken = await ensurePhotosScope()
       const result = await pickGooglePhotosAndDownload(photosToken, {
-        maxItemCount: 1,
+        maxItemCount: maxItemCount,
+        allowVideos: allowVideos,
+        convertVideosToAudio: props.convertVideosToAudio !== false,
         onProgress: setStatus,
         openPicker: openPickerWindow,
       })
-      const file = result.files && result.files[0]
-      if (!file) {
-        throw new Error('No photo was selected')
-      }
-      clearFilePickerIntent()
-      if (props.onSelectFile) props.onSelectFile(file)
-      handleHide()
+      deliverFiles(result.files)
     } catch (e) {
       const message = e && e.message ? e.message : 'Google Photos picker failed'
       if (/access_denied|cancel/i.test(message)) {
@@ -93,15 +108,21 @@ export default function SheetImageGooglePhotosModal(props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.show, props.autoStart])
 
+  const intro = allowVideos
+    ? 'Choose photos or videos from your Google Photos library. Videos are converted to audio and saved locally.'
+    : 'Choose a photo from your Google Photos library, including pictures synced from your phone at photos.google.com.'
+
+  const chooseLabel = allowVideos
+    ? (busy ? 'Waiting for media...' : 'Choose media')
+    : (busy ? 'Waiting for photo...' : 'Choose photo')
+
   return (
     <Modal show={props.show} onHide={function() {}} backdrop="static" keyboard={false} centered>
       <Modal.Header>
         <Modal.Title>Pick from Google Photos</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p className="mb-2">
-          Choose a photo from your Google Photos library, including pictures synced from your phone at photos.google.com.
-        </p>
+        <p className="mb-2">{intro}</p>
         <Alert variant="info" className="small mb-3">
           <strong>If Google shows &quot;Google hasn&apos;t verified this app&quot;</strong>
           <ol className="mb-0 ps-3 mt-2">
@@ -151,7 +172,7 @@ export default function SheetImageGooglePhotosModal(props) {
           Cancel
         </Button>
         <Button variant="primary" onClick={startPicker} disabled={busy || !props.token}>
-          {busy ? 'Waiting for photo...' : 'Choose photo'}
+          {chooseLabel}
         </Button>
       </Modal.Footer>
     </Modal>

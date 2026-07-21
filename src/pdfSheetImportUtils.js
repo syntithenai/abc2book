@@ -81,6 +81,91 @@ export function segmentMetadataPages(pageTitles) {
   return segments
 }
 
+const TOC_LINE_RE = /^\s*(\d+)\.\s+(.+?)\s*$/
+
+function normalizeTitleKey(text) {
+  return String(text || '').trim().toLowerCase().replace(/\s+/g, ' ')
+}
+
+export function parseTocLines(lines) {
+  const list = Array.isArray(lines) ? lines : []
+  const entries = []
+  list.forEach(function(line) {
+    const match = TOC_LINE_RE.exec(String(line || '').trim())
+    if (!match) return
+    const title = String(match[2] || '').trim()
+    if (!title || !looksLikeTitleLine(title)) return
+    entries.push({
+      num: parseInt(match[1], 10),
+      title: title,
+    })
+  })
+  return entries
+}
+
+export function mapTocToPageTitles(tocEntries, pageTitles) {
+  const toc = Array.isArray(tocEntries) ? tocEntries : []
+  const pages = Array.isArray(pageTitles) ? pageTitles : []
+  if (toc.length < 3) return null
+
+  const pageByTitle = {}
+  pages.forEach(function(entry) {
+    const title = String(entry && entry.title || '').trim()
+    const pageNumber = Number(entry && entry.page) || 0
+    if (!title || !pageNumber) return
+    const key = normalizeTitleKey(title)
+    if (!pageByTitle[key]) pageByTitle[key] = pageNumber
+  })
+
+  const segments = []
+  toc.forEach(function(entry) {
+    const title = String(entry && entry.title || '').trim()
+    if (!title) return
+    const key = normalizeTitleKey(title)
+    let page = pageByTitle[key]
+    if (!page) {
+      for (let i = 0; i < pages.length; i += 1) {
+        const pageTitle = normalizeTitleKey(pages[i] && pages[i].title)
+        if (!pageTitle) continue
+        if (pageTitle.indexOf(key) !== -1 || key.indexOf(pageTitle) !== -1) {
+          page = Number(pages[i].page) || 0
+          break
+        }
+      }
+    }
+    if (!page) return
+    segments.push({
+      page: page,
+      endPage: page,
+      title: title,
+      composer: '',
+    })
+  })
+
+  if (segments.length < 3) return null
+  for (let i = 0; i < segments.length; i += 1) {
+    if (i + 1 < segments.length) {
+      segments[i].endPage = Math.max(segments[i].page, segments[i + 1].page - 1)
+    } else {
+      const lastPage = pages.length > 0 ? Number(pages[pages.length - 1].page) || segments[i].page : segments[i].page
+      segments[i].endPage = lastPage
+    }
+  }
+  return segments
+}
+
+export function segmentsFromPageTitles(pageTitles) {
+  const pages = Array.isArray(pageTitles) ? pageTitles : []
+  for (let i = 0; i < Math.min(pages.length, 3); i += 1) {
+    const toc = parseTocLines(pages[i] && pages[i].lines)
+    if (toc.length >= 3) {
+      const mapped = mapTocToPageTitles(toc, pages)
+      if (mapped && mapped.length >= 3) return mapped
+    }
+  }
+  return segmentMetadataPages(pages)
+}
+
 export function ensureUniqueTuneName(baseName, usedNames) {
   const seen = usedNames || new Set()
   let name = String(baseName || '').trim() || 'Untitled'
@@ -148,7 +233,7 @@ export async function extractPdfPageTexts(file) {
   return {
     numPages: doc.numPages,
     pageTitles: pages,
-    segments: segmentMetadataPages(pages),
+    segments: segmentsFromPageTitles(pages),
   }
 }
 

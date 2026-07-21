@@ -134,33 +134,53 @@ function normalizePickedMediaItems(body) {
   return [];
 }
 
-export async function fetchGooglePhotoAsFile(accessToken, mediaItem) {
-  const token = accessTokenValue(accessToken);
-  const mediaFile = mediaItem && mediaItem.mediaFile ? mediaItem.mediaFile : null;
+function isVideoMediaItem(mediaItem, mimeType) {
+  return !!(mediaItem && (mediaItem.type === 'VIDEO' || String(mimeType || '').indexOf('video/') === 0))
+}
+
+export async function fetchGooglePhotoAsFile(accessToken, mediaItem, options) {
+  const opts = options || {}
+  const allowVideos = !!opts.allowVideos
+  const convertVideosToAudio = opts.convertVideosToAudio !== false
+  const token = accessTokenValue(accessToken)
+  const mediaFile = mediaItem && mediaItem.mediaFile ? mediaItem.mediaFile : null
   if (!mediaFile || !mediaFile.baseUrl) {
-    throw new Error('Selected item has no downloadable image');
+    throw new Error('Selected item has no downloadable media')
   }
-  const mimeType = mediaFile.mimeType || 'image/jpeg';
-  if (mediaItem.type === 'VIDEO' || String(mimeType).indexOf('video/') === 0) {
-    throw new Error('Videos are not supported for sheet import. Pick a photo instead.');
+  const mimeType = mediaFile.mimeType || 'image/jpeg'
+  const isVideo = isVideoMediaItem(mediaItem, mimeType)
+  if (isVideo && !allowVideos) {
+    throw new Error('Videos are not supported for sheet import. Pick a photo instead.')
   }
   const response = await fetch(mediaFile.baseUrl + '=d', {
     headers: { Authorization: 'Bearer ' + token },
-  });
+  })
   if (!response.ok) {
-    throw new Error('Could not download the selected photo from Google Photos');
+    throw new Error(isVideo
+      ? 'Could not download the selected video from Google Photos'
+      : 'Could not download the selected photo from Google Photos')
   }
-  const blob = await response.blob();
+  const blob = await response.blob()
   if (!blob || !blob.size) {
-    throw new Error('Downloaded photo was empty');
+    throw new Error(isVideo ? 'Downloaded video was empty' : 'Downloaded photo was empty')
   }
-  const filename = String(mediaFile.filename || 'google-photo.jpg').slice(0, 120);
-  return new File([blob], filename, { type: blob.type || mimeType });
+  const filename = String(mediaFile.filename || (isVideo ? 'google-video.mp4' : 'google-photo.jpg')).slice(0, 120)
+  let file = new File([blob], filename, { type: blob.type || mimeType })
+  if (isVideo && convertVideosToAudio) {
+    const { convertVideoFileToAudioFile } = await import('./videoToAudioFile')
+    if (typeof opts.onProgress === 'function') {
+      opts.onProgress('Converting video to audio...')
+    }
+    file = await convertVideoFileToAudioFile(file)
+  }
+  return file
 }
 
 export async function pickGooglePhotosAndDownload(accessToken, options) {
   const onProgress = options && options.onProgress;
   const maxItemCount = options && options.maxItemCount ? options.maxItemCount : 1;
+  const allowVideos = !!(options && options.allowVideos);
+  const convertVideosToAudio = !options || options.convertVideosToAudio !== false;
   const openPicker = options && options.openPicker;
   let session = null;
 
@@ -172,18 +192,31 @@ export async function pickGooglePhotosAndDownload(accessToken, options) {
       openPicker(pickerUrl);
     }
     await waitForGooglePhotosPickerSelection(accessToken, session, onProgress);
-    if (typeof onProgress === 'function') onProgress('Downloading selected photo...');
+    if (typeof onProgress === 'function') {
+      onProgress(allowVideos ? 'Downloading selected media...' : 'Downloading selected photo...');
+    }
     const listed = await listGooglePhotosPickedMedia(accessToken, session.id);
     const items = normalizePickedMediaItems(listed).filter(function(item) {
-      return item && item.type !== 'VIDEO';
+      if (!item) return false;
+      if (item.type === 'VIDEO') return allowVideos;
+      return true;
     });
     if (!items.length) {
-      throw new Error('No photos were selected');
+      throw new Error(allowVideos ? 'No photos or videos were selected' : 'No photos were selected');
+    }
+    const files = []
+    for (let i = 0; i < items.length; i += 1) {
+      if (typeof onProgress === 'function' && items.length > 1) {
+        onProgress('Downloading item ' + (i + 1) + ' of ' + items.length + '...')
+      }
+      files.push(await fetchGooglePhotoAsFile(accessToken, items[i], {
+        allowVideos: allowVideos,
+        convertVideosToAudio: convertVideosToAudio,
+        onProgress: onProgress,
+      }))
     }
     return {
-      files: await Promise.all(items.map(function(item) {
-        return fetchGooglePhotoAsFile(accessToken, item);
-      })),
+      files: files,
       sessionId: session.id,
     };
   } finally {

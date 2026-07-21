@@ -22,6 +22,15 @@ services:
       - ./page_title_meta.py:/app/page_title_meta.py
       - ./chords_fetch.py:/app/chords_fetch.py
       - ./notation_fetch.py:/app/notation_fetch.py
+      - ./archive_source_config.py:/app/archive_source_config.py
+      - ./mediawiki_fetch.py:/app/mediawiki_fetch.py
+      - ./cpdl_fetch.py:/app/cpdl_fetch.py
+      - ./imslp_fetch.py:/app/imslp_fetch.py
+      - ./josquin_fetch.py:/app/josquin_fetch.py
+      - ./musicalion_fetch.py:/app/musicalion_fetch.py
+      - ./openscore_fetch.py:/app/openscore_fetch.py
+      - ./w3c_musicxml_fetch.py:/app/w3c_musicxml_fetch.py
+      - ./score_attachment_fetch.py:/app/score_attachment_fetch.py
       - ./lyrics_fetch.py:/app/lyrics_fetch.py
       - ./lyrics_word_tools.py:/app/lyrics_word_tools.py
       - ./composer_discovery.py:/app/composer_discovery.py
@@ -47,11 +56,22 @@ services:
       - ./eval_transcription.py:/app/eval_transcription.py
       - ./scripts/eval_chords.py:/app/scripts/eval_chords.py
       - ./image_search.py:/app/image_search.py
+      - ./sheet_image_features.py:/app/sheet_image_features.py
       - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
       - ./sheet_image_metadata.py:/app/sheet_image_metadata.py
       - ./provider_cloud.py:/app/provider_cloud.py
       - ./midi_resources.py:/app/midi_resources.py
       - ./midi_fetch.py:/app/midi_fetch.py
+      - ./midi_convert.py:/app/midi_convert.py
+      - ./midi_analysis.py:/app/midi_analysis.py
+      - ./midi_chord_infer.py:/app/midi_chord_infer.py
+      - ./midi_harmony_voice.py:/app/midi_harmony_voice.py
+      - ./midi_import_orchestrator.py:/app/midi_import_orchestrator.py
+      - ./midi_import_score.py:/app/midi_import_score.py
+      - ./midi_note_events.py:/app/midi_note_events.py
+      - ./midi_to_abc.py:/app/midi_to_abc.py
+      - ./musescore_fetch.py:/app/musescore_fetch.py
+      - ./notation_title_variants.py:/app/notation_title_variants.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - ../:/app/www:ro

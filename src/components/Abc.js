@@ -19,7 +19,8 @@ import {
   measureSingleViewPaper,
   readNotationSvgDims,
 } from '../gigNotationFit'
-import { buildAbcjsTablatureConfig } from '../tablatureConfig'
+import { buildTablatureRenderOptions, shouldApplyTabOnlyDisplay, countActiveTabVoices } from '../tablatureConfig.js'
+import { applyTabOnlyNotationDisplay } from '../notationTabDisplay'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
@@ -33,6 +34,12 @@ export default function Abc(props) {
     const renderedAbcRef = useRef('')
     const fitMode = props.fitMode === NOTATION_FIT_VERTICAL ? NOTATION_FIT_VERTICAL : null
     const fitAppliedRef = useRef(false)
+
+    function finalizeTablatureDisplay(tune, tabOptions) {
+      if (!inputEl || !inputEl.current || props.hideSvg) return
+      if (!shouldApplyTabOnlyDisplay(tune, tabOptions)) return
+      applyTabOnlyNotationDisplay(inputEl.current, countActiveTabVoices(tabOptions))
+    }
 
     function applyFitToRenderedSvg() {
       if (!inputEl || !inputEl.current || props.hideSvg) return
@@ -48,6 +55,11 @@ export default function Abc(props) {
       }
       fitSingleViewVertical(svg, renderEl)
       fitAppliedRef.current = true
+      if (props.abc) {
+        const tune = props.tunebook.abcTools.abc2json(props.abc)
+        const tabOptions = buildTablatureRenderOptions(tune)
+        finalizeTablatureDisplay(tune, tabOptions)
+      }
     }
     
         //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
@@ -229,9 +241,9 @@ export default function Abc(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        const tabCfg = buildAbcjsTablatureConfig(tune)
-        if (tabCfg) {
-          renderOptions.tablature = [tabCfg]
+        const tabOptions = buildTablatureRenderOptions(tune)
+        if (tabOptions) {
+          renderOptions.tablature = tabOptions
         }
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
@@ -271,12 +283,14 @@ export default function Abc(props) {
             fitSingleViewVertical(rendered.svg, renderEl)
             fitAppliedRef.current = true
             res = rendered.visual ? [rendered.visual] : null
+            finalizeTablatureDisplay(tune, tabOptions)
           }
         } else {
           res = abcjs.renderAbc(inputEl.current, abcForRender, renderOptions)
           if (!props.hideSvg) {
             clearNotationFit(inputEl.current.querySelector('svg'), inputEl.current)
           }
+          finalizeTablatureDisplay(tune, tabOptions)
         }
             
         var o = res && res.length > 0 ? res[0] : null

@@ -256,7 +256,7 @@ export default function ChordsSearchButton({
         <ButtonGroup className="chords-search-button-group">
           <FieldLookupButtonGroup
             automaticLookup={automaticLookup}
-            showExternal={!automaticLookup}
+            showExternal={!!(googleUrl && externalLinkIcon)}
             busy={busy}
             disabled={!canSearch || disabled}
             externalUrl={googleUrl}

@@ -59,6 +59,7 @@ import useMediaResolverHealth from '../useMediaResolverHealth';
 import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
 import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
+import { pendingSnapshotsFromCandidate, describeSnapshotForCancel } from '../importReviewSnapshots';
 
 function sheetSnapshotReviewMessage(summary) {
   if (!summary || !summary.total) return '';
@@ -849,6 +850,7 @@ export default function ImportReviewModal(props) {
     const baseTune = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
     if (linksLostOnCancel(formValues.links, baseTune).length > 0) return true;
     if (Array.isArray(formValues.tuneFiles) && formValues.tuneFiles.length > 0) return true;
+    if (pendingSnapshotsFromCandidate(activeCandidate).length > 0) return true;
     return false;
   }
 
@@ -1091,13 +1093,11 @@ export default function ImportReviewModal(props) {
             variant="outline-primary"
             onClick={function() {
               requireGoogleLogin(function() {
-                if (resolverChecked && resolverAvailable) {
-                  selectFormPanelMode();
-                  setShowSheetGooglePhotos(true);
-                }
+                selectFormPanelMode();
+                setShowSheetGooglePhotos(true);
               });
             }}
-            title="Import from Google Photos"
+            title="Import photos or videos from Google Photos"
           >
             Google Photos
           </Button>
@@ -1589,6 +1589,7 @@ export default function ImportReviewModal(props) {
           composerCandidates={activeJob && activeJob.composerCandidates}
           tunes={tunes}
           statusBanner={statusBanner}
+          pendingSnapshots={pendingSnapshotsFromCandidate(activeCandidate)}
         />
       </div>
       <div style={{ flex: '0 0 280px', maxWidth: '280px', overflowY: 'auto' }}>
@@ -1684,13 +1685,15 @@ export default function ImportReviewModal(props) {
   const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions, formValues);
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
+  const pendingSnapshotLabels = pendingSnapshotsFromCandidate(activeCandidate).map(describeSnapshotForCancel);
+  const cancelMediaLinks = pendingMediaLinks.concat(pendingSnapshotLabels);
   const importAllSummary = buildImportAllSummary(buildPersistedSession(), tunes);
   const cancelWarningModal = (
     <ImportReviewCancelWarningModal
       mode={cancelWarningMode}
       importCount={importRequestCount}
       mergeFields={pendingMergeFields}
-      mediaLinks={pendingMediaLinks}
+      mediaLinks={cancelMediaLinks}
       tuneTitle={formValues.title || (activeCandidate && activeCandidate.tune && activeCandidate.tune.name)}
       onHide={function() { setCancelWarningMode(null); }}
       onConfirm={confirmCancelWarning}
@@ -1874,9 +1877,18 @@ export default function ImportReviewModal(props) {
         token={props.token}
         requestGoogleScopes={props.requestGoogleScopes}
         onLogin={props.login}
+        allowVideos={true}
+        convertVideosToAudio={true}
+        maxItemCount={20}
         onSelectFile={function(file) {
           setShowSheetGooglePhotos(false);
           if (typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+        }}
+        onImportFiles={function(files) {
+          setShowSheetGooglePhotos(false);
+          if (typeof props.onImportFiles === 'function') {
+            props.onImportFiles(files, buildDraftCandidate());
+          }
         }}
       />
     </Modal>

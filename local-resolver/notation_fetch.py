@@ -8,7 +8,9 @@ import httpx
 from browser_fetch import fetch_html_with_fallback
 from chords_fetch import normalize_match_text, score_title_artist_match
 from midi_fetch import (
+    collect_local_midi_candidates,
     collect_midi_candidates,
+    collect_web_midi_candidates,
     fetch_midi_from_allowlisted_page,
     fetch_midi_url,
     is_allowed_midi_host,
@@ -844,16 +846,52 @@ SOURCE_BONUS_ABC = 10
 SOURCE_BONUS_PDF = 5
 SOURCE_BONUS_CPDL_CHORAL = 8
 SOURCE_BONUS_MIDI = -45
+SOURCE_BONUS_MIDI_SONG = 28
 MIN_ABC_BASE_SCORE = 30
 MIN_PDF_BASE_SCORE = 15
 MIN_MIDI_BASE_SCORE = 45
 
 
-def notation_source_bonus(candidate, song_type="instrumental"):
-    """Rank preference: MuseScore/archives up, ABC slight boost, MIDI demoted."""
+def notation_artist_match_score(candidate, artist):
+    meta = (candidate or {}).get("tuneMeta") or {}
+    match_artist = str((candidate or {}).get("artist") or "")
+    if isinstance(meta, dict):
+        if not match_artist:
+            match_artist = str(meta.get("composer") or "")
+    return score_title_artist_match("", match_artist, "", artist)
+
+
+TRADITIONAL_ABC_SOURCES = (
+    "thesession.org",
+    "folktunefinder.com",
+    "folkinfo.org",
+    "norbeck.net",
+    "henrik.norbeck.org",
+    "traditionalmusic.co.uk",
+    "irishtune.info",
+    "folkwiki.ibiblio.org",
+    "contemplator.com",
+    "folktunes.org",
+)
+
+
+def _is_traditional_abc_source(candidate):
+    if _candidate_import_format(candidate) != "abc":
+        return False
+    source = str((candidate or {}).get("source") or "").lower()
+    return any(
+        source == host or source.endswith("." + host)
+        for host in TRADITIONAL_ABC_SOURCES
+    )
+
+
+def notation_source_bonus(candidate, song_type="instrumental", artist=""):
+    """Rank preference: MuseScore/archives up, ABC slight boost, MIDI demoted unless song+artist."""
     import_format = _candidate_import_format(candidate)
     source = str((candidate or {}).get("source") or "").lower()
     if import_format == "midi":
+        if normalize_song_type(song_type) == "song" and normalize_match_text(artist):
+            return SOURCE_BONUS_MIDI_SONG
         return SOURCE_BONUS_MIDI
     if import_format == "pdf":
         bonus = SOURCE_BONUS_PDF
@@ -882,7 +920,7 @@ def notation_source_bonus(candidate, song_type="instrumental"):
 
 def notation_priority_score(candidate, title, artist, song_type="instrumental"):
     base = notation_candidate_score(candidate, title, artist)
-    return base + notation_source_bonus(candidate, song_type=song_type)
+    return base + notation_source_bonus(candidate, song_type=song_type, artist=artist)
 
 
 def _with_match_score(candidate, score):
@@ -894,6 +932,8 @@ def _with_match_score(candidate, score):
 def finalize_notation_candidates(candidates, title, artist, relax_midi=False, song_type="instrumental"):
     """Rank/filter candidates with source weights; return up to 20."""
     min_midi_score = 20 if relax_midi else MIN_MIDI_BASE_SCORE
+    artist_key = normalize_match_text(artist)
+    song = normalize_song_type(song_type) == "song"
     usable = [
         candidate for candidate in (candidates or [])
         if _candidate_has_usable_payload(candidate)
@@ -909,13 +949,22 @@ def finalize_notation_candidates(candidates, title, artist, relax_midi=False, so
             import_format in ("musescore", "musicxml")
             or str(candidate.get("source") or "").lower() == "musescore.com"
         )
+        if song and artist_key and import_format == "abc" and not is_midi and not is_muse and not is_pdf:
+            if notation_artist_match_score(candidate, artist) < 30 and base < 100:
+                continue
+            if _is_traditional_abc_source(candidate) and notation_artist_match_score(candidate, artist) < 30:
+                continue
         if is_midi and base < min_midi_score:
             continue
         if is_pdf and base < MIN_PDF_BASE_SCORE:
             continue
         if (not is_midi) and (not is_muse) and (not is_pdf) and base < MIN_ABC_BASE_SCORE:
             continue
-        priority = base + notation_source_bonus(candidate, song_type=song_type)
+        priority = base + notation_source_bonus(
+            candidate,
+            song_type=song_type,
+            artist=artist,
+        )
         filtered.append(_with_match_score(candidate, priority))
 
     filtered.sort(key=lambda candidate: candidate.get("matchScore") or 0, reverse=True)
@@ -1302,6 +1351,30 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
             song_type=song_type,
         )
 
+        if (
+            song_type == "song"
+            and artist
+            and candidates
+            and notation_artist_match_score(candidates[0], artist) < 30
+            and _candidate_import_format(candidates[0]) == "abc"
+        ):
+            midi_boost = await _last_chance_midi_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            )
+            if midi_boost:
+                boosted = finalize_notation_candidates(
+                    dedupe_candidates(midi_boost + candidates),
+                    title,
+                    artist,
+                    relax_midi=True,
+                    song_type=song_type,
+                )
+                if boosted:
+                    candidates = boosted
+
         if not candidates:
             midi_fallback = await _last_chance_midi_candidates(
                 client,
@@ -1344,33 +1417,160 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         }
 
 
-async def search_notation_midi_fallback(title, artist="", on_progress=None):
-    """MIDI-only notation search (used when MuseScore manual import is abandoned)."""
-    title = str(title or "").strip()
-    artist = str(artist or "").strip()
-    if not title:
-        raise ValueError("Song title is required")
+def notation_title_match_score(candidate, title):
+    meta = (candidate or {}).get("tuneMeta") or {}
+    match_title = str((candidate or {}).get("title") or "")
+    if isinstance(meta, dict) and meta.get("name"):
+        match_title = str(meta.get("name") or match_title)
+    else:
+        match_title = strip_notation_match_decorations(match_title)
+    return score_title_artist_match(
+        match_title,
+        "",
+        strip_notation_match_decorations(title),
+        "",
+    )
 
-    async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
-        midi_fallback = await _last_chance_midi_candidates(
+
+def is_very_close_title_match(candidate, title):
+    """Exact normalized title match (score 80); rejects partial folk-tune hits."""
+    return notation_title_match_score(candidate, title) >= 80
+
+
+def _candidate_is_local_midi(candidate):
+    meta = (candidate or {}).get("tuneMeta") or {}
+    if isinstance(meta, dict):
+        nested = meta.get("meta") or {}
+        if isinstance(nested, dict) and nested.get("midiLibrary"):
+            return True
+    source_url = str((candidate or {}).get("sourceUrl") or "")
+    return "/midi-resources/" in source_url
+
+
+SOURCE_BONUS_LOCAL_MIDI_FALLBACK = 50
+SOURCE_BONUS_WEB_MIDI_FALLBACK = 28
+SOURCE_BONUS_ABC_FALLBACK = 5
+
+
+def secondary_fallback_source_bonus(candidate):
+    if _candidate_is_local_midi(candidate):
+        return SOURCE_BONUS_LOCAL_MIDI_FALLBACK
+    if _candidate_import_format(candidate) == "midi":
+        return SOURCE_BONUS_WEB_MIDI_FALLBACK
+    return SOURCE_BONUS_ABC_FALLBACK
+
+
+def finalize_secondary_fallback_candidates(candidates, title, artist=""):
+    usable = [
+        candidate for candidate in (candidates or [])
+        if _candidate_has_usable_payload(candidate)
+    ]
+    filtered = []
+    for candidate in usable:
+        if not is_very_close_title_match(candidate, title):
+            continue
+        base = notation_candidate_score(candidate, title, artist)
+        priority = base + secondary_fallback_source_bonus(candidate)
+        filtered.append(_with_match_score(candidate, priority))
+    filtered.sort(key=lambda candidate: candidate.get("matchScore") or 0, reverse=True)
+    return filtered[:MAX_NOTATION_CANDIDATES]
+
+
+async def _collect_abc_fallback_candidates(client, title, artist="", song_type="instrumental", on_progress=None):
+    artist_key = normalize_match_text(artist)
+    song_type = normalize_song_type(song_type)
+    candidates = []
+    if not artist_key or song_type != "song":
+        await _emit_progress(
+            on_progress,
+            "thesession",
+            "Searching ABC collections...",
+            0.45,
+        )
+        session = await collect_thesession_candidates(
             client,
             title,
             artist,
             on_progress=on_progress,
         )
-        candidates = finalize_notation_candidates(
-            dedupe_candidates(midi_fallback),
-            title,
-            artist,
-            relax_midi=True,
+        candidates.extend(filter_notation_candidates(session, title, artist))
+    await _emit_progress(on_progress, "web", "Searching web ABC...", 0.55)
+    web = await collect_web_abc_candidates(
+        client,
+        title,
+        song_type,
+        artist,
+        on_progress=on_progress,
+    )
+    candidates.extend(web if isinstance(web, list) else _collector_results_or_empty(web))
+    return dedupe_candidates(candidates)
+
+
+async def search_notation_secondary_fallback(
+    title,
+    artist="",
+    song_type="instrumental",
+    on_progress=None,
+):
+    """After MuseScore is skipped: local MIDI, online MIDI, and ABC in parallel."""
+    title = str(title or "").strip()
+    artist = str(artist or "").strip()
+    song_type = normalize_song_type(song_type)
+    if not title:
+        raise ValueError("Song title is required")
+
+    async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
+        await _emit_progress(
+            on_progress,
+            "fallback",
+            "Searching local MIDI, online MIDI, and ABC...",
+            0.2,
         )
+        local_result, web_midi_result, abc_result = await asyncio.gather(
+            collect_local_midi_candidates(title, artist=artist, on_progress=on_progress),
+            collect_web_midi_candidates(
+                client,
+                title,
+                artist=artist,
+                on_progress=on_progress,
+                relaxed=True,
+            ),
+            _collect_abc_fallback_candidates(
+                client,
+                title,
+                artist,
+                song_type=song_type,
+                on_progress=on_progress,
+            ),
+            return_exceptions=True,
+        )
+        combined = dedupe_candidates(
+            _collector_results_or_empty(local_result)
+            + _collector_results_or_empty(web_midi_result)
+            + _collector_results_or_empty(abc_result)
+        )
+        candidates = finalize_secondary_fallback_candidates(combined, title, artist)
         if not candidates:
-            await _emit_progress(on_progress, "done", "No MIDI notation found", 1.0)
-            raise ValueError("No MIDI notation found for this tune")
-        await _emit_progress(on_progress, "done", "MIDI candidates ready", 1.0)
+            await _emit_progress(
+                on_progress,
+                "done",
+                "No close notation matches found",
+                1.0,
+            )
+            raise ValueError("No close notation matches found for this tune")
+        await _emit_progress(on_progress, "done", "Notation fallback candidates ready", 1.0)
         if len(candidates) == 1:
             return candidates[0]
         return {
             "multiple": True,
             "candidates": candidates,
         }
+
+
+async def search_notation_midi_fallback(title, artist="", on_progress=None):
+    """Backward-compatible alias for MuseScore-abandon secondary search."""
+    return await search_notation_secondary_fallback(
+        title,
+        artist,
+        on_progress=on_progress,
+    )

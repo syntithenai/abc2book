@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Button, Col, Form, Modal, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
 import { TABLATURE_INSTRUMENT_OPTIONS } from '../tablatureConfig'
 import { getPlainLyricLines, setPlainLyricLines } from '../wLinesUtils'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'

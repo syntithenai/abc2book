@@ -12,7 +12,8 @@ import TransposeModal from './TransposeModal'
 import {isMobile} from 'react-device-detect'
 import MP3Converter from '../MP3Converter'
 import { getResourceBase } from '../resourceBase'
-import { buildAbcjsTablatureConfig } from '../tablatureConfig'
+import { buildTablatureRenderOptions, shouldApplyTabOnlyDisplay, countActiveTabVoices } from '../tablatureConfig'
+import { applyTabOnlyNotationDisplay } from '../notationTabDisplay'
 
 export default function AbcSynth(props) {
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
@@ -843,12 +844,15 @@ export default function AbcSynth(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        const tabCfg = buildAbcjsTablatureConfig(tune)
-        if (tabCfg) {
-          renderOptions.tablature = [tabCfg]
-        } 
+        const tabOptions = buildTablatureRenderOptions(tune)
+        if (tabOptions) {
+          renderOptions.tablature = tabOptions
+        }
         //if (props.tempo > 0) tune.tempo = props.tempo 
         var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );
+        if (shouldApplyTabOnlyDisplay(tune, tabOptions)) {
+          applyTabOnlyNotationDisplay(inputEl.current, countActiveTabVoices(tabOptions))
+        }
             
         var o = res && res.length > 0 ? res[0] : null
         //console.log('RENDERED TUNE tempo',o) //props.tempo,'pickup', o.getPickupLength(), 'beatlenght',o.getBeatLength(), 'beats per measure',o.getBeatsPerMeasure(), 'bar length',o.getBarLength(), 'bpm',o.getBpm(), 'mspermeasure',o.millisecondsPerMeasure(), o.getTotalBeats(), o.getTotalTime())

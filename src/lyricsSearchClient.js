@@ -1,4 +1,9 @@
 import { parseNdjsonLine } from './ndjsonParse'
+import {
+  fetchViaMediaProxy,
+  isMediaProxyConfigured,
+  isMediaResolverInfrastructureError,
+} from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { handleLyricsSearchStreamEvent, normalizeLyricsSearch } from './lyricsSearchNormalize'
 import { searchLyricsLight } from './lyricsSearchLight'

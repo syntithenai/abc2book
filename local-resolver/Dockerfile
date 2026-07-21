@@ -181,6 +181,15 @@ COPY browser_fetch.py /app/browser_fetch.py
 COPY page_title_meta.py /app/page_title_meta.py
 COPY chords_fetch.py /app/chords_fetch.py
 COPY notation_fetch.py /app/notation_fetch.py
+COPY archive_source_config.py /app/archive_source_config.py
+COPY mediawiki_fetch.py /app/mediawiki_fetch.py
+COPY cpdl_fetch.py /app/cpdl_fetch.py
+COPY imslp_fetch.py /app/imslp_fetch.py
+COPY josquin_fetch.py /app/josquin_fetch.py
+COPY musicalion_fetch.py /app/musicalion_fetch.py
+COPY openscore_fetch.py /app/openscore_fetch.py
+COPY w3c_musicxml_fetch.py /app/w3c_musicxml_fetch.py
+COPY score_attachment_fetch.py /app/score_attachment_fetch.py
 COPY notation_title_variants.py /app/notation_title_variants.py
 COPY musescore_fetch.py /app/musescore_fetch.py
 COPY midi_convert.py /app/midi_convert.py

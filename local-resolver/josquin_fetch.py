@@ -41,9 +41,19 @@ def parse_josquin_catalog_id(url):
     if not text:
         return ""
     try:
-        path = urlparse(text).path or ""
+        parsed = urlparse(text)
+        path = parsed.path or ""
+        query = parsed.query or ""
     except Exception:
         path = text
+        query = ""
+    if "id=" in query:
+        for part in query.split("&"):
+            if part.lower().startswith("id="):
+                catalog = part.split("=", 1)[-1].strip()
+                match = JOSQUIN_CATALOG_RE.search(catalog)
+                if match:
+                    return match.group(1)
     base = path.rsplit("/", 1)[-1]
     base = re.sub(r"\.(musicxml|xml|krn|mei)$", "", base, flags=re.I)
     match = JOSQUIN_CATALOG_RE.search(base)

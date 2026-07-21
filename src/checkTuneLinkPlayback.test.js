@@ -40,6 +40,8 @@ describe('checkTuneLinkPlayback', function() {
     expect(getLinkSrcType({ link: 'https://youtu.be/abc' }, isYoutubeLink)).toBe('youtube')
     expect(getLinkSrcType({ link: 'https://example.com/a.mp3' }, isYoutubeLink)).toBe('audio')
     expect(getLinkSrcType({ link: 'abcbook-recording:rec1' }, isYoutubeLink)).toBe('recording')
+    expect(getLinkSrcType({ link: 'abcbook-recording:rec1', mediaKind: 'midi' }, isYoutubeLink)).toBe('midifile')
+    expect(getLinkSrcType({ link: 'https://example.com/a.mid' }, isYoutubeLink)).toBe('midifile')
   })
 
   test('getEmptyLinkReason explains missing URLs', function() {

@@ -2,13 +2,14 @@ import {
   TUNER_INSTRUMENT_LABELS,
   defaultPresetForInstrument,
   presetsForInstrument,
+  getPreset,
 } from './instrumentTuningPresets.js'
-import { resolvePresetFromText } from './tuningPresetResolver.js'
+import { resolvePresetFromText, canonicalTuningLabel } from './tuningPresetResolver.js'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer.js'
 
 /** Tab-capable tuner instruments (fretted / commonly tabbed). */
 export const TABLATURE_INSTRUMENTS = [
-  { id: 'violin', label: 'Violin / Fiddle' },
-  { id: 'mandolin', label: 'Mandolin' },
+  { id: 'violin', label: 'Violin' },
   { id: 'guitar', label: TUNER_INSTRUMENT_LABELS.guitar },
   { id: 'uke', label: TUNER_INSTRUMENT_LABELS.uke },
   { id: 'banjo4', label: TUNER_INSTRUMENT_LABELS.banjo4 },
@@ -22,9 +23,125 @@ export const TABLATURE_INSTRUMENT_OPTIONS = [
   return { value: inst.id, label: inst.label }
 }))
 
+export const TAB_DISPLAY_MODES = ['both', 'tab']
+
+export const TAB_DISPLAY_OPTIONS = [
+  { value: 'both', label: 'Notation and tab' },
+  { value: 'tab', label: 'Tab only' },
+]
+
+export function normalizeTabDisplay(value) {
+  const mode = String(value || '').trim().toLowerCase()
+  if (mode === 'tab') return 'tab'
+  // Legacy "staff" meant notation-only; turning tab off is the supported path now.
+  return 'both'
+}
+
+export function getTabDisplay(tune) {
+  return normalizeTabDisplay(tune && tune.tabDisplay)
+}
+
+export function tabDisplayLabel(mode) {
+  const normalized = normalizeTabDisplay(mode)
+  const option = TAB_DISPLAY_OPTIONS.find(function(entry) { return entry.value === normalized })
+  return option ? option.label : 'Notation and tab'
+}
+
+export function countActiveTabVoices(tabOptions) {
+  if (!Array.isArray(tabOptions)) return 0
+  return tabOptions.filter(function(opt) { return opt && opt.instrument }).length
+}
+
+export function shouldRenderTablature(tune) {
+  return !!getTablatureSelection(tune).instrumentId
+}
+
+export function shouldApplyTabOnlyDisplay(tune, tabOptions) {
+  if (!shouldRenderTablature(tune)) return false
+  return getTabDisplay(tune) === 'tab' && countActiveTabVoices(tabOptions) > 0
+}
+
+/** Map legacy stored ids and aliases to current tab instrument ids. */
+export function normalizeTablatureInstrument(instrumentId) {
+  const id = String(instrumentId || '').trim()
+  if (!id) return ''
+  if (id === 'mandolin' || id === 'fiddle') return 'violin'
+  return id
+}
+
+export function tabInstrumentLabel(instrumentId) {
+  const id = normalizeTablatureInstrument(instrumentId)
+  const inst = TABLATURE_INSTRUMENTS.find(function(entry) { return entry.id === id })
+  return inst ? inst.label : ''
+}
+
+export function presetsForTabInstrument(instrumentId) {
+  const id = normalizeTablatureInstrument(instrumentId)
+  if (!id || !isSupportedTablatureInstrument(id)) return []
+  return presetsForInstrument(id)
+}
+
+export function getTablatureSelection(tune) {
+  const instrumentId = normalizeTablatureInstrument(tune && tune.tablature)
+  if (!instrumentId || !isSupportedTablatureInstrument(instrumentId)) {
+    return { instrumentId: '', presetId: '', preset: null }
+  }
+  const preset = resolveTuningPresetForTab(instrumentId, tune)
+  return {
+    instrumentId: instrumentId,
+    presetId: preset ? preset.id : '',
+    preset: preset,
+  }
+}
+
+export function getTablatureButtonLabel(tune) {
+  const selection = getTablatureSelection(tune)
+  if (!selection.instrumentId) return 'Tablature'
+  return tabInstrumentLabel(selection.instrumentId)
+}
+
+function sortVoiceKeys(voiceKeys) {
+  return voiceKeys.slice().sort(function(a, b) {
+    const na = parseInt(a, 10)
+    const nb = parseInt(b, 10)
+    if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb
+    return String(a).localeCompare(String(b))
+  })
+}
+
+/** True when a voice has pitched notes, excluding chord-symbol-only lines. */
+export function voiceNoteLinesHaveMelody(noteLines) {
+  return noteLinesHaveRealMelody(noteLines)
+}
+
+/**
+ * Build per-voice abcjs tablature options for the tune being rendered.
+ * Tab is added only under voices with melody; chord-only voices are skipped.
+ */
+export function buildTablatureRenderOptions(tune) {
+  const baseCfg = buildAbcjsTablatureConfig(tune)
+  if (!baseCfg) return null
+
+  const voices = tune && tune.voices
+  if (!voices || typeof voices !== 'object') return [baseCfg]
+
+  const voiceKeys = sortVoiceKeys(Object.keys(voices))
+  if (!voiceKeys.length) return [baseCfg]
+
+  const options = voiceKeys.map(function(voiceKey) {
+    const notes = voices[voiceKey] && voices[voiceKey].notes
+    if (voiceNoteLinesHaveMelody(notes)) {
+      return Object.assign({}, baseCfg)
+    }
+    return { instrument: '' }
+  })
+
+  const hasMelodyTab = options.some(function(opt) { return opt.instrument })
+  return hasMelodyTab ? options : null
+}
+
 const ABCJS_INSTRUMENT_MAP = {
   violin: 'violin',
-  mandolin: 'mandolin',
   guitar: 'guitar',
   uke: 'mandolin',
   banjo4: 'mandolin',
@@ -135,7 +252,8 @@ function sortStringsAscending(strings) {
 }
 
 export function isSupportedTablatureInstrument(instrument) {
-  return TABLATURE_INSTRUMENTS.some(function(inst) { return inst.id === instrument })
+  const id = normalizeTablatureInstrument(instrument)
+  return TABLATURE_INSTRUMENTS.some(function(inst) { return inst.id === id })
 }
 
 export function resolvePresetFromTextForInstrument(text, instrument) {
@@ -173,28 +291,29 @@ export function resolvePresetFromTextForInstrument(text, instrument) {
 }
 
 export function resolveTuningPresetForTab(instrument, tune) {
-  if (!instrument || !isSupportedTablatureInstrument(instrument)) return null
+  const instrumentId = normalizeTablatureInstrument(instrument)
+  if (!instrumentId || !isSupportedTablatureInstrument(instrumentId)) return null
 
   const fromTuning = tune && tune.tuning
-    ? resolvePresetFromTextForInstrument(tune.tuning, instrument)
+    ? resolvePresetFromTextForInstrument(tune.tuning, instrumentId)
     : null
   if (fromTuning) return fromTuning
 
   const globalMatch = tune && tune.tuning ? resolvePresetFromText(tune.tuning) : null
-  if (globalMatch && globalMatch.instrument === instrument) {
+  if (globalMatch && normalizeTablatureInstrument(globalMatch.instrument) === instrumentId) {
     return globalMatch.preset
   }
 
-  return defaultPresetForInstrument(instrument)
+  return defaultPresetForInstrument(instrumentId)
 }
 
 function tabLabelForInstrument(instrumentId) {
-  const inst = TABLATURE_INSTRUMENTS.find(function(entry) { return entry.id === instrumentId })
-  return inst ? inst.label + ' (%T)' : '%T'
+  const label = tabInstrumentLabel(instrumentId)
+  return label ? label + ' (%T)' : '%T'
 }
 
 export function buildAbcjsTablatureConfig(tune) {
-  const instrumentId = tune && tune.tablature ? String(tune.tablature).trim() : ''
+  const instrumentId = normalizeTablatureInstrument(tune && tune.tablature)
   if (!instrumentId || !isSupportedTablatureInstrument(instrumentId)) return null
 
   const abcjsInstrument = ABCJS_INSTRUMENT_MAP[instrumentId]
@@ -214,6 +333,32 @@ export function buildAbcjsTablatureConfig(tune) {
   }
 
   return config
+}
+
+/** Apply tablature instrument + tuning preset to a tune (mutates tune). */
+export function applyTablatureSelection(tune, instrumentId, presetId, tabDisplay) {
+  if (!tune) return tune
+  const normalized = normalizeTablatureInstrument(instrumentId)
+  if (!normalized) {
+    tune.tablature = ''
+    tune.tabDisplay = ''
+    return tune
+  }
+  tune.tablature = normalized
+  const preset = presetId ? getPreset(normalized, presetId) : defaultPresetForInstrument(normalized)
+  tune.tuning = preset ? canonicalTuningLabel(preset) : ''
+  if (tabDisplay != null && String(tabDisplay).trim()) {
+    tune.tabDisplay = normalizeTabDisplay(tabDisplay)
+  } else if (!tune.tabDisplay) {
+    tune.tabDisplay = 'both'
+  }
+  return tune
+}
+
+export function applyTabDisplay(tune, tabDisplay) {
+  if (!tune) return tune
+  tune.tabDisplay = normalizeTabDisplay(tabDisplay)
+  return tune
 }
 
 /** Legacy map keyed by tab instrument id (default tuning, no tune context). */

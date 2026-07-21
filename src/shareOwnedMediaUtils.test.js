@@ -1,6 +1,7 @@
 import {
   collectOwnedMediaForShareScope,
   uploadPendingOwnedMediaInScope,
+  summarizeShareMediaWork,
 } from './shareOwnedMediaUtils'
 import { tuneIdsForPlaylist } from './shareTunebookUtils'
 
@@ -111,5 +112,14 @@ describe('shareOwnedMediaUtils', function() {
     expect(tuneIdsForPlaylist({
       items: [{ tuneId: 'a' }, { tuneId: 'b' }, { tuneId: 'a' }],
     })).toEqual(['a', 'b'])
+  })
+
+  test('summarizeShareMediaWork counts local uploads and public permissions', function() {
+    const work = summarizeShareMediaWork(tunes, { shareKind: 'tune', tuneId: 't1' })
+    expect(work.totalItems).toBe(2)
+    expect(work.needsUpload).toBe(1)
+    expect(work.needsPublic).toBe(1)
+    expect(work.hasWork).toBe(true)
+    expect(work.displayItems.length).toBe(2)
   })
 })

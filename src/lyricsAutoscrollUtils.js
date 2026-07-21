@@ -1,6 +1,7 @@
 import { getLinkRegionStart, getLinkRegionEnd } from './mediaPlaybackUtils';
 import { isLyricVersionSeparator } from './chordSheetUtils';
 import { getLyricLinesForDisplay } from './wLinesUtils';
+import { resolveLinkPlaybackSrcType } from './mediaLinkSrcType';
 
 export const LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC = 240;
 export const LYRICS_SECONDS_PER_LINE = 6;
@@ -97,6 +98,47 @@ export function countLyricLinesForScroll(tune) {
   return getLyricLinesForAutoscroll(tune).length;
 }
 
+const LINKED_AUDIO_SRC_TYPES = {
+  audio: true,
+  recording: true,
+  youtube: true,
+  midifile: true,
+  inline: true,
+};
+
+function defaultIsYoutubeLink(url) {
+  if (!url) return false;
+  return /youtu\.?be|youtube\.com/i.test(String(url));
+}
+
+function readPositiveDuration(value) {
+  const duration = parseFloat(value);
+  return duration > 0 && isFinite(duration) ? duration : 0;
+}
+
+/** First tune link that points at playable audio/video/MIDI media. */
+export function findFirstLinkedAudioLink(tune, isYoutubeLink) {
+  if (!tune || !Array.isArray(tune.links)) return null;
+  const ytCheck = isYoutubeLink || defaultIsYoutubeLink;
+  for (let i = 0; i < tune.links.length; i++) {
+    const link = tune.links[i];
+    const srcType = resolveLinkPlaybackSrcType(link, ytCheck);
+    if (LINKED_AUDIO_SRC_TYPES[srcType]) {
+      return { link: link, index: i };
+    }
+  }
+  return null;
+}
+
+export function tuneHasLinkedAudioMedia(tune, isYoutubeLink) {
+  return !!findFirstLinkedAudioLink(tune, isYoutubeLink);
+}
+
+export function resolveLyricsScrollLinkIndex(tune, _linkIndex, isYoutubeLink) {
+  const firstAudio = findFirstLinkedAudioLink(tune, isYoutubeLink);
+  return firstAudio ? firstAudio.index : null;
+}
+
 function readLoadedMediaElementDuration(mediaController) {
   if (!mediaController) return 0;
   if (mediaController.filteredPlayerRef && mediaController.filteredPlayerRef.current) {
@@ -116,10 +158,38 @@ function readLoadedMediaElementDuration(mediaController) {
   return 0;
 }
 
-export function resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex) {
-  if (!getTuneLink(tune, linkIndex)) return 0;
+function readPreparedMediaControllerDuration(mediaController) {
   if (!mediaController) return 0;
-  return readLoadedMediaElementDuration(mediaController);
+  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) {
+    return 0;
+  }
+  if (!(mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute())) {
+    return 0;
+  }
+  const mediaIsPrepared = !!mediaController.isReady
+    || !!mediaController.externalMediaActive
+    || readLoadedMediaElementDuration(mediaController) > 0;
+  if (!mediaIsPrepared) return 0;
+  return readPositiveDuration(mediaController.duration);
+}
+
+export function resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex, options) {
+  const opts = options || {};
+  const ytCheck = opts.isYoutubeLink || defaultIsYoutubeLink;
+  const resolvedLinkIndex = resolveLyricsScrollLinkIndex(tune, linkIndex, ytCheck);
+  if (resolvedLinkIndex == null) return 0;
+
+  let duration = 0;
+  if (mediaController) {
+    duration = readLoadedMediaElementDuration(mediaController);
+    if (duration <= 0) {
+      duration = readPreparedMediaControllerDuration(mediaController);
+    }
+  }
+  if (duration <= 0) {
+    duration = readPositiveDuration(opts.hintDuration);
+  }
+  return duration;
 }
 
 function applyRegionToMediaDuration(tune, totalMediaDuration, linkIndex) {
@@ -131,11 +201,16 @@ function applyRegionToMediaDuration(tune, totalMediaDuration, linkIndex) {
   return Math.max(1, totalMediaDuration);
 }
 
-export function getEffectiveMediaDurationSeconds(tune, mediaController, linkIndex) {
+export function getEffectiveMediaDurationSeconds(tune, mediaController, linkIndex, options) {
+  const opts = options || {};
+  const ytCheck = opts.isYoutubeLink || defaultIsYoutubeLink;
+  const resolvedLinkIndex = resolveLyricsScrollLinkIndex(tune, linkIndex, ytCheck);
   const lineCount = countLyricLinesForScroll(tune);
   const fromLines = lineCount > 0 ? lineCount * LYRICS_SECONDS_PER_LINE : 0;
-  const rawMedia = resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex);
-  const fromMedia = rawMedia > 0 ? applyRegionToMediaDuration(tune, rawMedia, linkIndex) : 0;
+  const rawMedia = resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex, opts);
+  const fromMedia = rawMedia > 0 && resolvedLinkIndex != null
+    ? applyRegionToMediaDuration(tune, rawMedia, resolvedLinkIndex)
+    : 0;
   if (fromMedia > 0) {
     return Math.max(fromMedia, fromLines);
   }
@@ -148,9 +223,10 @@ export function getEffectiveMediaDurationSeconds(tune, mediaController, linkInde
   return Math.max(LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC, fromLines);
 }
 
-export function getLyricsAutoscrollDurationSeconds(tune, mediaController, linkIndex) {
-  const effective = getEffectiveMediaDurationSeconds(tune, mediaController, linkIndex);
-  const hasMedia = resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex) > 0;
+export function getLyricsAutoscrollDurationSeconds(tune, mediaController, linkIndex, options) {
+  const opts = options || {};
+  const effective = getEffectiveMediaDurationSeconds(tune, mediaController, linkIndex, opts);
+  const hasMedia = resolveLyricsScrollMediaDuration(tune, mediaController, linkIndex, opts) > 0;
   const hasChordProDuration = tune && tune.lyricsScrollDurationSec > 0;
   if (hasMedia || hasChordProDuration) {
     return Math.max(1, effective * LYRICS_AUTOSCROLL_COMPLETION_RATIO);

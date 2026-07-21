@@ -10,7 +10,6 @@ import httpx
 from archive_source_config import notation_source_enabled
 from chords_fetch import score_title_artist_match
 from mediawiki_fetch import (
-    api_endpoint,
     extract_score_links_from_html,
     fetch_binary,
     fetch_mediawiki_page_html,

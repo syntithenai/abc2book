@@ -62,10 +62,31 @@ export function getTuneFileSyncStatus(meta) {
   return 'local'
 }
 
+export function normalizePdfSegments(raw) {
+  if (!Array.isArray(raw)) return []
+  const segments = []
+  raw.forEach(function(entry) {
+    if (!entry || typeof entry !== 'object') return
+    const title = String(entry.title || '').trim()
+    const page = parseInt(entry.page, 10)
+    if (!title || !page || page < 1) return
+    const endPage = parseInt(entry.endPage, 10)
+    const composer = String(entry.composer || entry.artist || '').trim()
+    segments.push({
+      title: title,
+      page: page,
+      endPage: endPage > 0 ? endPage : page,
+      composer: composer,
+    })
+  })
+  return segments
+}
+
 export function normalizeTuneFileMeta(raw) {
   if (!raw || typeof raw !== 'object') return null
   const id = raw.id ? String(raw.id).trim() : ''
   if (!id) return null
+  const pdfSegments = normalizePdfSegments(raw.pdfSegments)
   return {
     id: id,
     name: raw.name ? String(raw.name) : 'File',
@@ -73,6 +94,7 @@ export function normalizeTuneFileMeta(raw) {
     googleId: raw.googleId ? String(raw.googleId) : null,
     source: raw.source ? String(raw.source) : 'file',
     pdfPage: raw.pdfPage > 0 ? parseInt(raw.pdfPage, 10) : 1,
+    pdfSegments: pdfSegments.length > 0 ? pdfSegments : undefined,
     uploadPending: !!raw.uploadPending,
   }
 }
@@ -611,16 +633,39 @@ export async function uploadPendingTuneFilesInScope(tunes, tuneIds, options) {
         nextTunes[tuneId] = tune
         continue
       }
+      if (typeof opts.onFileStart === 'function') {
+        opts.onFileStart({
+          tuneId: tuneId,
+          tuneName: tune.name || tuneId,
+          fileName: meta.name || meta.id,
+        })
+      }
       const result = await uploadTuneFileToDrive({ record: record, token: token, driveApi: driveApi })
       if (result && result.googleId) {
         uploaded += 1
         tune = updateTuneFileMeta(tune, meta.id, { googleId: result.googleId, uploadPending: false })
         nextTunes[tuneId] = tune
         if (typeof saveTune === 'function') saveTune(tune)
+        if (typeof opts.onFileComplete === 'function') {
+          opts.onFileComplete({
+            tuneId: tuneId,
+            tuneName: tune.name || tuneId,
+            fileName: meta.name || meta.id,
+            uploaded: true,
+          })
+        }
       } else {
         errors.push(result && result.error
           ? result.error
           : 'Upload failed for "' + (meta.name || meta.id) + '".')
+        if (typeof opts.onFileComplete === 'function') {
+          opts.onFileComplete({
+            tuneId: tuneId,
+            tuneName: tune.name || tuneId,
+            fileName: meta.name || meta.id,
+            uploaded: false,
+          })
+        }
       }
     }
   }

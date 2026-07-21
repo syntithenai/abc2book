@@ -14,6 +14,11 @@ import { getLyricLines } from '../wLinesUtils'
 import { compareSearchGroupKeys } from '../searchListOrder'
 import { playQueueItem, navigateToQueueTune } from '../nowPlayingQueuePlayback'
 import { toast } from 'react-toastify'
+import {
+  buildSnapshotTuneLink,
+  displayTitleForSearchRow,
+  expandPdfSnapshotSearchRows,
+} from '../pdfSnapshotIndex'
 
 var LIST_PROTECTION_LIMIT = 500
 var PREVIEW_LIST_LIMIT = 150
@@ -393,26 +398,39 @@ export default function IndexLayout(props) {
         //props.forceRefresh()
     }
     
-    function renderListItems(filtered) {
+    function listRowsForTunes(tunes) {
+        const list = Array.isArray(tunes) ? tunes : []
+        return expandPdfSnapshotSearchRows(list, props.filter)
+    }
+
+    function renderListItems(items) {
         var displayMode = props.listDisplayMode || 'compact'
         var previewAllowed = !(props.filtered && props.filtered.length > PREVIEW_LIST_LIMIT)
         var isCompact = displayMode === 'compact'
         var isPreview = displayMode === 'preview' && previewAllowed
         var isDetailed = displayMode === 'detailed' || (displayMode === 'preview' && !previewAllowed)
-        var showRowExtras = (isDetailed || isPreview) && filtered.length > 0 && filtered.length < LIST_PROTECTION_LIMIT
+        var rows = listRowsForTunes(items)
+        var showRowExtras = (isDetailed || isPreview) && rows.length > 0 && rows.length < LIST_PROTECTION_LIMIT
         var showChips = isDetailed || isPreview
 
         return <>
-        {filtered.length > 0 ? <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
-        {filtered.map(function(tune,tk) {
-            return (tune && tune.id) ? <ListGroup.Item key={tk} className={'tune-list-item ' + ((tk%2 === 0) ? 'even': 'odd') + (isCompact ? ' tune-list-item-compact' : '')} style={{borderTop:'2px solid black', borderLeft:'2px solid black', borderRight:'2px solid black'}} >
+        {rows.length > 0 ? <ListGroup id="tune-index"  style={{clear:'both', width: '100%'}}>
+        {rows.map(function(row, tk) {
+            const tune = row && row.tune
+            const snapshotMatch = row && row.snapshotMatch
+            const displayTitle = displayTitleForSearchRow(row)
+            const linkTo = buildSnapshotTuneLink(tune && tune.id, snapshotMatch)
+            const parentName = tune && tune.name && String(tune.name).trim()
+            const showParentSubtitle = !!(snapshotMatch && parentName && parentName.toLowerCase() !== displayTitle.toLowerCase())
+            return (tune && tune.id) ? <ListGroup.Item key={(tune.id || '') + '-' + tk + '-' + (snapshotMatch ? snapshotMatch.page : 'main')} className={'tune-list-item ' + ((tk%2 === 0) ? 'even': 'odd') + (isCompact ? ' tune-list-item-compact' : '')} style={{borderTop:'2px solid black', borderLeft:'2px solid black', borderRight:'2px solid black'}} >
                 <div className="tune-list-item-row">
                 {showRowExtras && <>
                     {(tune && tune.id && selected && selected[tune.id]) && <Button className="tune-list-select-btn" variant={'success'} size="lg" aria-label="Selected" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                     {(tune && tune.id && (!selected || !selected[tune.id])) && <Button className="tune-list-select-btn" variant={'secondary'} size="lg" aria-label="Not selected" onClick={function(e) {handleSelection(e,tune.id)}} >{props.tunebook.icons.check}</Button>}
                 </>}
                 <div className="tune-list-item-title-block">
-                <span className="tune-list-item-title"><Link key={tk} style={{textDecoration:'none', color:'black'}} to={"/tunes/"+tune.id} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" size="lg">{tune.name && tune.name.trim().length > 0 ? tune.name : 'Untitled Song'} {tune.type && <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b>}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{tune.composer ? ' - ' + tune.composer : ''}</span></Button> </Link></span>
+                <span className="tune-list-item-title"><Link key={tk} style={{textDecoration:'none', color:'black'}} to={linkTo} onClick={function() {props.setCurrentTune(tune.id); props.tunebook.utils.scrollTo('topofpage',10)}} ><Button variant="primary" size="lg">{displayTitle} {snapshotMatch ? <b>&nbsp;&nbsp;&nbsp;(PDF)</b> : null} {tune.type && !snapshotMatch ? <b>&nbsp;&nbsp;&nbsp;({tune.type.toLowerCase()})</b> : null}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{fontSize:'0.5em'}}>{snapshotMatch && snapshotMatch.composer ? ' - ' + snapshotMatch.composer : (tune.composer ? ' - ' + tune.composer : '')}</span></Button> </Link></span>
+                {showParentSubtitle ? <div className="small text-muted px-1">in {parentName}</div> : null}
                 {showChips ? (
                 <TuneListFilterChips
                   books={tune.books}

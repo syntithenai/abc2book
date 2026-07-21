@@ -1,5 +1,5 @@
 import { isMusicXmlText } from './mxlExtract';
-import { audioFileAcceptList, isAudioImportFile, mediaFileAcceptList } from './audioFileMetadata';
+import { audioFileAcceptList, isAudioImportFile, mediaFileAcceptList, isVideoImportFile } from './audioFileMetadata';
 import {
   parseChordSheetText,
   createTuneFromChordSheet,
@@ -362,6 +362,8 @@ function isBinaryImportFileName(fileName) {
 
 function isBinaryOrSheetImportFileName(fileName, mime) {
   if (isSheetImageMimeOrName(fileName, mime)) return true;
+  const pseudoFile = { name: fileName || '', type: mime || '' };
+  if (isAudioImportFile(pseudoFile) || isVideoImportFile(pseudoFile)) return true;
   return isBinaryImportFileName(fileName);
 }
 

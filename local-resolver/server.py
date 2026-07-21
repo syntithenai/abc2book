@@ -9,7 +9,7 @@ from lyrics_word_tools import (
     lookup_thesaurus,
 )
 from image_search import image_search_available, search_images
-from notation_fetch import search_notation, search_notation_midi_fallback, search_notation_url
+from notation_fetch import search_notation, search_notation_midi_fallback, search_notation_secondary_fallback, search_notation_url
 from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
 from midi_import_orchestrator import import_midi_bytes
 from playback_region_detect import (
@@ -3619,9 +3619,10 @@ async def search_notation_endpoint(
                                 on_progress=on_progress,
                             )
                         elif midi_fallback:
-                            body = await search_notation_midi_fallback(
+                            body = await search_notation_secondary_fallback(
                                 title,
                                 artist,
+                                song_type=song_type,
                                 on_progress=on_progress,
                             )
                         else:
@@ -3670,7 +3671,11 @@ async def search_notation_endpoint(
         if page_url:
             body = await search_notation_url(page_url)
         elif midi_fallback:
-            body = await search_notation_midi_fallback(title, artist)
+            body = await search_notation_secondary_fallback(
+                title,
+                artist,
+                song_type=song_type,
+            )
         else:
             body = await search_notation(title, artist, song_type=song_type)
         return JSONResponse(content=body, headers=cors_headers(origin))

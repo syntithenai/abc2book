@@ -24,12 +24,14 @@ import { shouldOfferTitleSuggestion } from './composerDiscoveryUtils'
 import { shouldOfferGenreSuggestion } from './genreInference'
 import {
   applyCandidateToTune,
+  applyCandidateToTuneAsync,
   candidateDisplayValue,
   historyLabelForKind,
   isTuneFieldEmptyForKind,
   toastAppliedFieldLookup,
   toastFieldSearchFinished,
 } from './fieldLookupApplyUtils'
+import { isNotationPdfCandidate } from './notationPdfApply'
 import { getImportReviewSession } from './importReviewSessionStore'
 import { getPlainLyricLines } from './wLinesUtils'
 import { primaryArtist } from './tuneBibliographicUtils'
@@ -622,7 +624,7 @@ export function shouldDeferFieldLookupSave(job) {
   return jobSearchMode(job) === 'review'
 }
 
-export function applyFieldLookupChoice(jobId, candidate) {
+export async function applyFieldLookupChoice(jobId, candidate) {
   const job = jobs.find(function(item) { return item.id === jobId })
   if (!job || job.status !== 'awaiting') return null
 
@@ -635,12 +637,23 @@ export function applyFieldLookupChoice(jobId, candidate) {
     if (typeof getTune === 'function' && typeof saveTune === 'function') {
       const tune = getTune(job.tuneId)
       if (tune) {
-        const applied = applyCandidateToTune(
-          tune,
-          job.kind,
-          candidate,
-          queueContext.abcTools
-        )
+        let applied = false
+        if (job.kind === 'notation' && isNotationPdfCandidate(candidate)) {
+          applied = await applyCandidateToTuneAsync(
+            tune,
+            job.kind,
+            candidate,
+            queueContext.abcTools,
+            { accessToken: job.accessToken }
+          )
+        } else {
+          applied = applyCandidateToTune(
+            tune,
+            job.kind,
+            candidate,
+            queueContext.abcTools
+          )
+        }
         if (applied) {
           try {
             saveTune(tune, false, { historyLabel: historyLabelForKind(job.kind) })

@@ -55,7 +55,7 @@ export const EDITOR_INFO_FIELD_HELP = {
   },
   tablature: {
     title: 'Tablature',
-    body: 'Show tablature under the music notation for violin/fiddle, mandolin, guitar, uke, 4- or 5-string banjo, or bouzouki. Uses the tune Tuning field when it matches a preset; otherwise the instrument default tuning applies. Re-entrant tunings (uke high G, 5-string banjo drone) may map notes to unexpected strings.',
+    body: 'Show tablature for violin, guitar, uke, 4- or 5-string banjo, or bouzouki. Choose instrument and tuning. Optionally show tab only instead of notation and tab together. Turn tablature off to show notation alone.',
   },
   soundFonts: {
     title: 'Sound Fonts',

@@ -316,16 +316,53 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
     async def test_search_notation_midi_fallback_endpoint(self):
         midi = annotate_midi_candidate(
             MINIMAL_MUSICXML,
-            title="Bach Cello Suite No. 1",
+            title="Bach Cello Suite No. 1 For Violin",
             source_url="https://archive.org/bach.mid",
         )
         with patch(
-            "notation_fetch._last_chance_midi_candidates",
+            "notation_fetch.collect_local_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_web_midi_candidates",
             new_callable=AsyncMock,
             return_value=[midi],
+        ), patch(
+            "notation_fetch._collect_abc_fallback_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
         ):
             body = await search_notation_midi_fallback("Bach Cello Suite No. 1 For Violin")
         self.assertEqual(body["source"], "archive.org")
+
+    def test_finalize_secondary_fallback_requires_exact_title(self):
+        from notation_fetch import (
+            annotate_candidate,
+            finalize_secondary_fallback_candidates,
+            is_very_close_title_match,
+        )
+
+        close_abc = annotate_candidate(
+            "X:1\nT:Hells Bells\nK:C\nC D E F|",
+            "Hells Bells",
+            "abcnotation.com",
+            "https://abcnotation.com/hells-bells.abc",
+        )
+        wrong_abc = annotate_candidate(
+            "X:1\nT:Black Joke\nK:D\n|:A2|",
+            "Black Joke (jig)",
+            "thesession.org",
+            "https://thesession.org/tunes/1",
+        )
+        self.assertTrue(is_very_close_title_match(close_abc, "Hells Bells"))
+        self.assertFalse(is_very_close_title_match(wrong_abc, "Hells Bells"))
+        finalized = finalize_secondary_fallback_candidates(
+            [wrong_abc, close_abc],
+            "Hells Bells",
+            "AC/DC",
+        )
+        self.assertEqual(len(finalized), 1)
+        self.assertEqual(finalized[0]["title"], "Hells Bells")
 
     def test_finalize_relaxes_midi_threshold(self):
         midi = annotate_midi_candidate(

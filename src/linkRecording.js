@@ -250,7 +250,8 @@ function buildDriveMimeType(mediaKind) {
 
 async function recordingDataToBlob(recording) {
   if (!recording) return null
-  if (recording.mediaKind === 'midi' && recording.data) {
+  if (recording.mediaKind === 'midi' || recording.type === 'audio/midi') {
+    if (!recording.data) return null
     const blob = utils.dataURItoBlob(recording.data, recording.type || 'audio/midi')
     return {
       blob: blob,
@@ -649,6 +650,18 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
   throw new Error('Recording audio is not available offline')
 }
 
+async function blobToArrayBuffer(blob) {
+  if (!blob) return null
+  if (blob instanceof ArrayBuffer) return blob
+  if (typeof blob.arrayBuffer === 'function') {
+    return blob.arrayBuffer()
+  }
+  if (typeof Response !== 'undefined') {
+    return new Response(blob).arrayBuffer()
+  }
+  return null
+}
+
 export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options) {
   const opts = options || {}
   const accessToken = getAccessToken(opts.accessToken)
@@ -665,8 +678,10 @@ export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options)
 
   const cached = await getCachedExternalMediaBlob(cacheKey)
   if (cached && cached.blob) {
-    const arrayBuffer = await cached.blob.arrayBuffer()
-    return { arrayBuffer: arrayBuffer, duration: cached.duration, source: 'cache' }
+    const arrayBuffer = await blobToArrayBuffer(cached.blob)
+    if (arrayBuffer) {
+      return { arrayBuffer: arrayBuffer, duration: cached.duration, source: 'cache' }
+    }
   }
 
   const recording = recordingId ? await getRecording(recordingId) : null
@@ -676,8 +691,10 @@ export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options)
       if (forPlayback || loadOfflineMediaSettings().autocacheOnPlay) {
         await putExternalMediaCache(cacheKey, stored.blob, stored.duration)
       }
-      const arrayBuffer = await stored.blob.arrayBuffer()
-      return { arrayBuffer: arrayBuffer, duration: stored.duration, source: 'local' }
+      const arrayBuffer = await blobToArrayBuffer(stored.blob)
+      if (arrayBuffer) {
+        return { arrayBuffer: arrayBuffer, duration: stored.duration, source: 'local' }
+      }
     }
   }
 
@@ -686,8 +703,10 @@ export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options)
     const remote = await fetchOwnedMediaFromDrive(googleId, accessToken, driveApi, 'midi')
     if (remote && remote.media && remote.media.blob) {
       await putExternalMediaCache(cacheKey, remote.media.blob, remote.media.duration)
-      const arrayBuffer = await remote.media.blob.arrayBuffer()
-      return { arrayBuffer: arrayBuffer, duration: remote.media.duration, source: remote.source }
+      const arrayBuffer = await blobToArrayBuffer(remote.media.blob)
+      if (arrayBuffer) {
+        return { arrayBuffer: arrayBuffer, duration: remote.media.duration, source: remote.source }
+      }
     }
   }
 

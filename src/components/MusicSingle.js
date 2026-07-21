@@ -13,6 +13,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import YouTube from 'react-youtube';  
 import LinksEditorModal from './LinksEditorModal'
 import ViewModeSelectorModal from './ViewModeSelectorModal'
+import TablatureSelector from './TablatureSelector'
 import abcjs from "abcjs";
 //import ParserProblemsDiff from './ParserProblemsDiff'
 import useAbcjsParser from '../useAbcjsParser'
@@ -58,7 +59,7 @@ import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
-import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, tryApplyNotationMidiFallback } from '../addTuneAutoEnrich'
+import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, abandonAutoEnrichNotationPaste } from '../addTuneAutoEnrich'
 import { toast } from 'react-toastify'
 import SearchProgressBar from './SearchProgressBar'
 import PasteChordSheetModal from './PasteChordSheetModal'
@@ -136,12 +137,12 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
       if (autoEnrichPending) return
-      // MuseScore first; Ultimate Guitar paste only after notation is resolved.
-      if (autoEnrichState.needsNotationPaste) {
-        setShowAutoEnrichNotationPaste(true)
-        setShowAutoEnrichChordPaste(false)
-      } else if (autoEnrichState.needsChordPaste) {
+      // Chords/lyrics paste first; MuseScore notation after chord paste is resolved.
+      if (autoEnrichState.needsChordPaste) {
         setShowAutoEnrichChordPaste(true)
+        setShowAutoEnrichNotationPaste(false)
+      } else if (autoEnrichState.needsNotationPaste) {
+        setShowAutoEnrichNotationPaste(true)
       }
     }, [autoEnrichPending, autoEnrichState.needsChordPaste, autoEnrichState.needsNotationPaste, params.tuneId])
 
@@ -153,6 +154,31 @@ export default function MusicSingle(props) {
       toast.info(summary, { autoClose: 12000 })
       dismissAddTuneAutoEnrichSummary(params.tuneId)
     }, [autoEnrichPending, autoEnrichState.summary, params.tuneId])
+
+    function handleAutoEnrichNotationAbandoned() {
+      if (!tune || !props.tunebook) {
+        dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+        return
+      }
+      void abandonAutoEnrichNotationPaste({
+        tuneId: params.tuneId,
+        tune: tune,
+        tunebook: props.tunebook,
+        accessToken: props.token || '',
+        resolverAvailable: resolverAvailable,
+        forceRefresh: props.forceRefresh,
+      }).then(function(result) {
+        setShowAutoEnrichNotationPaste(false)
+        if (result && result.applied) {
+          setTune(Object.assign({}, tune))
+          if (typeof props.forceRefresh === 'function') props.forceRefresh()
+          const label = result.source ? ('Notation from ' + result.source) : 'Notation applied'
+          toast.info(label, { autoClose: 8000 })
+        } else {
+          dismissAddTuneAutoEnrichFailure(params.tuneId)
+        }
+      })
+    }
     
     var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
 	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
@@ -470,6 +496,19 @@ export default function MusicSingle(props) {
                 const tuneTranspose = Number(tune.transpose) || 0
                 const effectiveCapo = Number(tune.capo) || 0
 
+                const tablatureSelector = availableFlags.notation && !fileOverlayActive ? (
+                  <TablatureSelector
+                    tune={tune}
+                    tunebook={props.tunebook}
+                    variant={mediumToolbar ? 'menu' : 'toolbar'}
+                    stopMenuClose={!!mediumToolbar}
+                    onChange={function() {
+                      setTune(Object.assign({}, tune))
+                      if (props.forceRefresh) props.forceRefresh()
+                    }}
+                  />
+                ) : null
+
                 const transposeCapoBlock = (
                   <div className="music-transpose-capo-block">
                     <span className="music-transpose-capo-label">Transpose</span>
@@ -493,6 +532,13 @@ export default function MusicSingle(props) {
                         Capo {effectiveCapo}
                       </Button>
                     ) : null}
+                  </div>
+                )
+
+                const notationControlsBlock = fileOverlayActive ? null : (
+                  <div className="music-notation-controls-block">
+                    {tablatureSelector}
+                    {transposeCapoBlock}
                   </div>
                 )
 
@@ -727,10 +773,10 @@ export default function MusicSingle(props) {
                   }}
                 />
               )}
-              extraMenuContent={fileOverlayActive ? null : transposeCapoBlock}
+              extraMenuContent={mediumToolbar ? notationControlsBlock : null}
 			        onChange={handleViewModeChange}
 			      />
-            {!mediumToolbar && !fileOverlayActive ? transposeCapoBlock : null}
+            {!mediumToolbar && !fileOverlayActive ? notationControlsBlock : null}
 			    </div>
 			  </div>
 			</div>
@@ -745,7 +791,7 @@ export default function MusicSingle(props) {
           />
         </Alert>
       ) : null}
-      {!autoEnrichPending && autoEnrichState.needsChordPaste && !autoEnrichState.needsNotationPaste ? (
+      {!autoEnrichPending && autoEnrichState.needsChordPaste ? (
         <Alert
           variant="warning"
           className="m-2 mb-0"
@@ -755,7 +801,7 @@ export default function MusicSingle(props) {
         >
           <div>
             {autoEnrichState.message
-              || 'Lyrics found, but chords need a manual paste from Ultimate Guitar.'}
+              || 'Chords need a manual paste from Ultimate Guitar.'}
           </div>
           <div className="mt-2 d-flex flex-wrap gap-2">
             <Button
@@ -784,13 +830,13 @@ export default function MusicSingle(props) {
           </div>
         </Alert>
       ) : null}
-      {!autoEnrichPending && autoEnrichState.needsNotationPaste ? (
+      {!autoEnrichPending && autoEnrichState.needsNotationPaste && !autoEnrichState.needsChordPaste ? (
         <Alert
           variant="warning"
           className="m-2 mb-0"
           data-testid="auto-enrich-notation-paste-alert"
           dismissible
-          onClose={function() { dismissAddTuneAutoEnrichNotationPaste(params.tuneId) }}
+          onClose={handleAutoEnrichNotationAbandoned}
         >
           <div>
             {autoEnrichState.message
@@ -829,7 +875,7 @@ export default function MusicSingle(props) {
           className="m-2 mb-0"
           data-testid="auto-enrich-musescore-paywalled-alert"
           dismissible
-          onClose={function() { dismissAddTuneAutoEnrichFailure(params.tuneId) }}
+          onClose={handleAutoEnrichNotationAbandoned}
         >
           {autoEnrichState.message
             || 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'}
@@ -894,22 +940,8 @@ export default function MusicSingle(props) {
         show={showAutoEnrichNotationPaste}
         onHide={function() {
           setShowAutoEnrichNotationPaste(false)
-          dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
         }}
-        onAbandon={function() {
-          if (!tune || !props.tunebook) return
-          void tryApplyNotationMidiFallback({
-            tune: tune,
-            tunebook: props.tunebook,
-            forceRefresh: props.forceRefresh,
-            resolverAvailable: resolverAvailable,
-          }).then(function(applied) {
-            if (applied) {
-              setShowAutoEnrichNotationPaste(false)
-              dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
-            }
-          })
-        }}
+        onAbandon={handleAutoEnrichNotationAbandoned}
         candidate={autoEnrichState.notationPasteCandidate}
         searchTitle={tune && tune.name}
         searchArtist={tune && tune.composer}

@@ -66,15 +66,7 @@ export default function MediaPlayerMidiFile(props) {
 
   useEffect(function() {
     const mc = mediaControllerRef.current
-    if (!mc) return undefined
-
-    mc.playMidiFileRef = mc.playMidiFileRef || { current: null }
-    mc.pauseMidiFileRef = mc.pauseMidiFileRef || { current: null }
-    mc.seekMidiFileRef = mc.seekMidiFileRef || { current: null }
-    mc.getMidiFilePlaybackSecondsRef = mc.getMidiFilePlaybackSecondsRef || { current: null }
-    mc.applyMidiFileTempoRef = mc.applyMidiFileTempoRef || { current: null }
-    mc.prepareMidiFileLinkRef = mc.prepareMidiFileLinkRef || { current: null }
-    mc.stopMidiFileRef = mc.stopMidiFileRef || { current: null }
+    if (!mc || !mc.playMidiFileRef) return undefined
 
     mc.playMidiFileRef.current = async function(opts) {
       const engine = playbackRef.current

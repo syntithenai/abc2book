@@ -107,7 +107,7 @@ export async function searchNotationViaResolver(options) {
           ? 'Fetching MIDI file...'
           : 'Fetching MuseScore score...')
         : (midiFallback
-          ? 'Searching for MIDI files...'
+          ? 'Searching local MIDI, online MIDI, and ABC...'
           : 'Starting notation search...'),
       0,
       'start'

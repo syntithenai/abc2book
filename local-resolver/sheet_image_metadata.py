@@ -82,6 +82,86 @@ def _looks_like_title_line(text: str) -> bool:
     return True
 
 
+def _normalize_title_key(text: str) -> str:
+    return re.sub(r"\s+", " ", str(text or "").strip().lower())
+
+
+def _parse_toc_lines(lines: list[str]) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    for line in lines or []:
+        match = re.match(r"^\s*(\d+)\.\s+(.+?)\s*$", str(line or "").strip())
+        if not match:
+            continue
+        title = str(match.group(2) or "").strip()
+        if title and _looks_like_title_line(title):
+            entries.append({"num": int(match.group(1)), "title": title})
+    return entries
+
+
+def _map_toc_to_pages(
+    toc_entries: list[dict[str, Any]],
+    page_titles: list[dict[str, Any]],
+) -> list[dict[str, Any]] | None:
+    if len(toc_entries) < 3:
+        return None
+
+    page_by_title: dict[str, int] = {}
+    for entry in page_titles:
+        title = str(entry.get("title") or "").strip()
+        page_number = int(entry.get("page") or 0)
+        if not title or page_number <= 0:
+            continue
+        key = _normalize_title_key(title)
+        if key not in page_by_title:
+            page_by_title[key] = page_number
+
+    segments: list[dict[str, Any]] = []
+    for entry in toc_entries:
+        title = str(entry.get("title") or "").strip()
+        if not title:
+            continue
+        key = _normalize_title_key(title)
+        page_number = page_by_title.get(key)
+        if not page_number:
+            for page_entry in page_titles:
+                page_title = _normalize_title_key(str(page_entry.get("title") or ""))
+                if not page_title:
+                    continue
+                if key in page_title or page_title in key:
+                    page_number = int(page_entry.get("page") or 0)
+                    break
+        if not page_number:
+            continue
+        segments.append({
+            "page": page_number,
+            "endPage": page_number,
+            "title": title,
+            "artist": "",
+        })
+
+    if len(segments) < 3:
+        return None
+
+    last_page = len(page_titles) if page_titles else segments[-1]["page"]
+    for index, segment in enumerate(segments):
+        if index + 1 < len(segments):
+            segment["endPage"] = max(segment["page"], segments[index + 1]["page"] - 1)
+        else:
+            segment["endPage"] = last_page
+    return segments
+
+
+def _segments_from_page_titles(page_titles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    for entry in page_titles[:3]:
+        lines = entry.get("lines") or []
+        toc_entries = _parse_toc_lines(lines)
+        if len(toc_entries) >= 3:
+            mapped = _map_toc_to_pages(toc_entries, page_titles)
+            if mapped and len(mapped) >= 3:
+                return mapped
+    return _segment_pages(page_titles)
+
+
 def _segment_pages(page_titles: list[dict[str, Any]]) -> list[dict[str, Any]]:
     segments: list[dict[str, Any]] = []
     current: dict[str, Any] | None = None
@@ -204,7 +284,7 @@ def extract_sheet_metadata_bytes(
                 "lines": lines[:6],
             })
 
-        segments = _segment_pages(page_titles)
+        segments = _segments_from_page_titles(page_titles)
         if not segments:
             fallback_title, fallback_artist = _guess_title_artist(
                 [line for entry in page_titles for line in entry.get("lines") or []]

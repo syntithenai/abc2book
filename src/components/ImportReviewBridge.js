@@ -71,10 +71,11 @@ import useGoogleDocument from '../useGoogleDocument'
 import { toast } from 'react-toastify'
 import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
-import { createAttachedAudioLink, createAttachedVideoLink } from '../linkRecording'
-import { readAudioFileMetadata } from '../audioFileMetadata'
+import { buildMediaImportCandidatesFromFiles } from '../mediaImportCandidates'
+import { isAudioImportFile, isVideoImportFile } from '../audioFileMetadata'
 import { mergeImportedLinks, applyAddFormInlineImport } from '../importReviewFieldUtils'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
+import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
@@ -121,67 +122,8 @@ import {
   summarizeSheetSnapshotCandidates,
 } from '../bulkSheetSnapshotImport'
 
-function freshTuneId() {
-  return 'tune-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
-}
-
-async function audioFileToReviewCandidate(file, draft, token, driveApi, uploadToDrive) {
-  const metadata = await readAudioFileMetadata(file)
-  const title = metadata.title || (draft && draft.tune && draft.tune.name) || file.name
-  const artist = metadata.artist || (draft && draft.tune ? primaryArtist(draft.tune) : '') || ''
-  const tuneBase = {
-    id: freshTuneId(),
-    name: title,
-    composer: artist,
-    links: [],
-  }
-  const result = await createAttachedAudioLink({
-    tune: tuneBase,
-    file: file,
-    title: title,
-    uploadToDrive: !!uploadToDrive,
-    token: token,
-    driveApi: driveApi,
-  })
-  return {
-    tune: Object.assign({}, tuneBase, {
-      links: [result.link],
-      mediaCacheLocked: true,
-    }),
-    sourceKind: 'audio',
-    mergeTargetId: null,
-    skipEnrich: true,
-    mergeMode: 'suggestOnly',
-  }
-}
-
-async function videoFileToReviewCandidate(file, draft, token, driveApi, uploadToDrive) {
-  const title = (draft && draft.tune && draft.tune.name) || file.name || 'Video'
-  const artist = (draft && draft.tune ? primaryArtist(draft.tune) : '') || ''
-  const tuneBase = {
-    id: freshTuneId(),
-    name: String(title).replace(/\.[^.]+$/, ''),
-    composer: artist,
-    links: [],
-  }
-  const result = await createAttachedVideoLink({
-    tune: tuneBase,
-    file: file,
-    title: title,
-    uploadToDrive: !!uploadToDrive,
-    token: token,
-    driveApi: driveApi,
-  })
-  return {
-    tune: Object.assign({}, tuneBase, {
-      links: [result.link],
-      mediaCacheLocked: true,
-    }),
-    sourceKind: 'video',
-    mergeTargetId: null,
-    skipEnrich: true,
-    mergeMode: 'suggestOnly',
-  }
+function isMediaImportFile(file) {
+  return !!(file && (isAudioImportFile(file) || isVideoImportFile(file)))
 }
 
 function useImportReviewStore() {
@@ -416,6 +358,66 @@ export default function ImportReviewBridge(props) {
     }
   }, [resolverAvailable, resolverStatus, features, props.token, props.currentTuneBook, updateSession])
 
+  const appendMediaImportCandidates = useCallback(async function(files, draft, options) {
+    const list = Array.isArray(files) ? files.filter(Boolean) : []
+    if (!list.length) return 0
+    const candidates = await buildMediaImportCandidatesFromFiles(list, Object.assign({
+      draft: draft,
+      token: props.token,
+      driveApi: driveApi,
+    }, options || {}))
+    const independent = candidates.map(function(candidate) {
+      return asIndependentReviewCandidate(candidate, draft)
+    })
+    const baseSession = sessionWithoutIdleAddDraft(getImportReviewSession())
+    let next = appendImportReviewCandidates(baseSession, independent)
+    if (next && next.entryMode === 'add' && independent.length) {
+      next = asImportReviewChrome(next)
+    }
+    updateSession(next)
+    return independent.length
+  }, [props.token, driveApi, updateSession])
+
+  const handleReviewMediaFilesImport = useCallback(async function(files, draft, options) {
+    const list = Array.isArray(files) ? files.filter(Boolean) : []
+    if (!list.length) return
+    const sessionNow = getImportReviewSession()
+    if (!sessionNow) {
+      toast.error('Open the Add form before importing a file.')
+      return
+    }
+    const addChrome = isAddTunesChrome(sessionNow) || sessionNow.entryMode === 'add'
+    const opts = options || {}
+
+    if (addChrome && list.length === 1) {
+      setAttachAnalyzePrompt({
+        kind: 'media',
+        files: list,
+        mediaAction: opts.mediaAction || 'audio',
+        draft: draft || null,
+        fileName: list[0].name || 'media file',
+        sourceUrl: opts.sourceUrl || null,
+      })
+      return
+    }
+
+    if (addChrome) {
+      const count = await appendMediaImportCandidates(list, draft, {
+        uploadToDrive: false,
+        sourceUrl: opts.sourceUrl || null,
+      })
+      toast.success('Added ' + count + ' media file' + (count === 1 ? '' : 's') + ' to import review')
+      return
+    }
+
+    setPendingAudioDraft(Object.assign({}, draft || null, {
+      mediaAction: opts.mediaAction || 'audio',
+      sourceUrl: opts.sourceUrl || null,
+    }))
+    setPendingAudioFiles(list)
+    setShowAudioDriveUploadModal(true)
+  }, [appendMediaImportCandidates])
+
   const handleReviewSourceImport = useCallback(async function(input, draft) {
     const current = getImportReviewSession()
     if (!current) {
@@ -508,22 +510,10 @@ export default function ImportReviewBridge(props) {
     if (result.action === 'audio' || result.action === 'video') {
       const files = result.files || []
       if (files.length === 0) return
-      // Add chrome: Skip/Analyze dialog (default Skip = attach locally, no Drive).
-      if (addChrome) {
-        setAttachAnalyzePrompt({
-          kind: 'media',
-          files: files,
-          mediaAction: result.action,
-          draft: draft || null,
-          fileName: files.length === 1
-            ? (files[0].name || 'media file')
-            : (files.length + ' media files'),
-        })
-        return
-      }
-      setPendingAudioDraft(Object.assign({}, draft || null, { mediaAction: result.action }))
-      setPendingAudioFiles(files)
-      setShowAudioDriveUploadModal(true)
+      await handleReviewMediaFilesImport(files, draft, {
+        mediaAction: result.action,
+        sourceUrl: result.sourceUrl || null,
+      })
       return
     }
 
@@ -562,7 +552,7 @@ export default function ImportReviewBridge(props) {
       )
       if (outcome.handled) return
     }
-  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh])
+  }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh, handleReviewMediaFilesImport])
 
   const handleMidiReimport = useCallback(async function(mode, includeChords) {
     const sessionNow = getImportReviewSession()
@@ -745,32 +735,14 @@ export default function ImportReviewBridge(props) {
     setPendingAudioFiles([])
     setPendingAudioDraft(null)
     if (!files.length) return
-    const candidates = []
-    const mediaAction = draft && draft.mediaAction === 'video' ? 'video' : 'audio'
-    for (let i = 0; i < files.length; i += 1) {
-      if (mediaAction === 'video') {
-        candidates.push(await videoFileToReviewCandidate(
-          files[i],
-          draft,
-          props.token,
-          driveApi,
-          !!(uploadToDriveFlags && uploadToDriveFlags[i])
-        ))
-      } else {
-        candidates.push(await audioFileToReviewCandidate(
-          files[i],
-          draft,
-          props.token,
-          driveApi,
-          !!(uploadToDriveFlags && uploadToDriveFlags[i])
-        ))
-      }
-    }
-    const independent = candidates.map(function(candidate) {
-      return asIndependentReviewCandidate(candidate, draft)
+    const count = await appendMediaImportCandidates(files, draft, {
+      uploadToDriveFlags: uploadToDriveFlags,
+      sourceUrl: draft && draft.sourceUrl ? draft.sourceUrl : null,
     })
-    updateSession(appendImportReviewCandidates(getImportReviewSession(), independent))
-  }, [pendingAudioFiles, pendingAudioDraft, props.token, driveApi, updateSession])
+    if (count > 0) {
+      toast.success('Added ' + count + ' media file' + (count === 1 ? '' : 's') + ' to import review')
+    }
+  }, [pendingAudioFiles, pendingAudioDraft, appendMediaImportCandidates])
 
   const cancelPendingAudioImport = useCallback(function() {
     setShowAudioDriveUploadModal(false)
@@ -852,6 +824,13 @@ export default function ImportReviewBridge(props) {
     updateSession(appendImportReviewCandidates(sessionNow, [independent]))
   }, [updateSession])
 
+  function attachCandidateSourceFiles(tune, candidate, attachOptions) {
+    return attachPendingFileFromCandidate(tune, candidate.pendingFile, attachOptions)
+      .then(function(withFile) {
+        return attachMidiMediaLinkFromPendingFile(withFile, candidate.pendingFile, attachOptions)
+      })
+  }
+
   const finishCandidate = useCallback(function(updatedSession, done) {
     const mergeIndex = updatedSession.mergeIndex
     const candidate = mergeIndex != null
@@ -871,10 +850,12 @@ export default function ImportReviewBridge(props) {
       merged.id = candidate.mergeTargetId
       merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
       merged.lastUpdated = Date.now()
-      attachPendingFileFromCandidate(merged, candidate.pendingFile, {
+      attachCandidateSourceFiles(merged, candidate, {
         token: props.token,
         driveApi: driveApi,
         uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+        resolverAvailable: resolverAvailable,
+        accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
       }).then(function(withFile) {
         tunebook.saveTune(withFile)
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -895,10 +876,12 @@ export default function ImportReviewBridge(props) {
       tunebook.saveTune(tune)
       const savedId = tune.id
       const saved = props.tunes && savedId ? (props.tunes[savedId] || tune) : tune
-      attachPendingFileFromCandidate(saved, candidate.pendingFile, {
+      attachCandidateSourceFiles(saved, candidate, {
         token: props.token,
         driveApi: driveApi,
         uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+        resolverAvailable: resolverAvailable,
+        accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
       }).then(function(withFile) {
         if (withFile && withFile !== saved) tunebook.saveTune(withFile)
         if (typeof props.forceRefresh === 'function') props.forceRefresh()
@@ -929,7 +912,7 @@ export default function ImportReviewBridge(props) {
         merged.id = candidate.mergeTargetId
         merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
         merged.lastUpdated = Date.now()
-        attachPendingFileFromCandidate(merged, candidate.pendingFile, {
+        attachCandidateSourceFiles(merged, candidate, {
           token: props.token,
           driveApi: driveApi,
           uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
@@ -946,7 +929,7 @@ export default function ImportReviewBridge(props) {
           tune.books = books
         }
         tunebook.saveTune(tune)
-        attachPendingFileFromCandidate(tune, candidate.pendingFile, {
+        attachCandidateSourceFiles(tune, candidate, {
           token: props.token,
           driveApi: driveApi,
           uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
@@ -1310,9 +1293,16 @@ export default function ImportReviewBridge(props) {
           if (list.length && isBulkSheetSnapshotFileList(list)) {
             return handleBulkSheetSnapshotImport(list, draft)
           }
-          return Promise.all(list.map(function(file) {
-            return handleReviewSourceImport(file, draft)
-          }))
+          const mediaFiles = list.filter(isMediaImportFile)
+          const otherFiles = list.filter(function(file) { return !isMediaImportFile(file) })
+          const tasks = []
+          if (mediaFiles.length) {
+            tasks.push(handleReviewMediaFilesImport(mediaFiles, draft))
+          }
+          otherFiles.forEach(function(file) {
+            tasks.push(handleReviewSourceImport(file, draft))
+          })
+          return Promise.all(tasks)
         }}
         onImportText={handleReviewSourceImport}
         onImportSource={handleReviewSourceImport}

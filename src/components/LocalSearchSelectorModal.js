@@ -23,6 +23,7 @@ const SONG_TYPE_OPTIONS = [
   { value: 'song', label: 'Song' },
   { value: 'instrumental', label: 'Instrumental' },
   { value: 'traditional_tune', label: 'Traditional tune' },
+  { value: 'choral', label: 'Choral' },
 ]
 
 function defaultOptions() {

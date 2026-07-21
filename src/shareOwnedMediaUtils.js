@@ -195,12 +195,74 @@ export async function checkOwnedMediaPublicStatus(driveApi, googleDocumentId, en
   })
 }
 
+function emitShareMediaEvent(opts, event) {
+  if (typeof opts.onEvent === 'function') {
+    opts.onEvent(Object.assign({ timestamp: Date.now() }, event))
+  }
+}
+
+function emitShareMediaProgress(opts, progress) {
+  if (typeof opts.onProgress === 'function') {
+    opts.onProgress(progress)
+  }
+}
+
+export function summarizeShareMediaWork(tunes, scope) {
+  const entries = collectOwnedMediaForShareScope(tunes, scope)
+  const tuneIds = collectTuneIdsInScope(tunes, scope)
+  const fileEntries = collectTuneFilesForShareScope(tunes, tuneIds)
+  let needsUpload = 0
+  let needsPublic = 0
+
+  entries.forEach(function(entry) {
+    const status = entry.status || getOwnedMediaSyncStatus(entry.link)
+    if (status === 'local' || status === 'pending' || !entry.googleId) {
+      needsUpload += 1
+    } else if (!entry.alreadyPublic && !hasAudioPublicConfirm(entry.googleId)) {
+      needsPublic += 1
+    }
+  })
+
+  fileEntries.forEach(function(entry) {
+    const status = entry.status || getTuneFileSyncStatus(entry.meta)
+    if (status === 'local' || status === 'pending' || !entry.googleId) {
+      needsUpload += 1
+    } else if (!entry.alreadyPublic && !hasFilePublicConfirm(entry.googleId)) {
+      needsPublic += 1
+    }
+  })
+
+  return {
+    entries: entries,
+    fileEntries: fileEntries,
+    displayItems: entries.map(function(entry) {
+      return {
+        tuneName: entry.tuneName,
+        label: entry.linkTitle,
+      }
+    }).concat(fileEntries.map(function(entry) {
+      return {
+        tuneName: entry.tuneName,
+        label: entry.fileName,
+      }
+    })),
+    totalItems: entries.length + fileEntries.length,
+    needsUpload: needsUpload,
+    needsPublic: needsPublic,
+    hasWork: needsUpload > 0 || needsPublic > 0,
+  }
+}
+
 export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
   const opts = options || {}
   const token = opts.token
   const driveApi = opts.driveApi
   const saveTune = opts.saveTune
   if (!token || !driveApi) {
+    emitShareMediaEvent(opts, {
+      type: 'error',
+      message: 'Log in with Google to upload audio to Drive.',
+    })
     return { tunes: tunes, uploaded: 0, errors: ['Log in with Google to upload audio to Drive.'] }
   }
 
@@ -208,6 +270,46 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
   let uploaded = 0
   const errors = []
   const nextTunes = Object.assign({}, tunes || {})
+  const uploadTasks = []
+
+  tuneIds.forEach(function(tuneId) {
+    const tune = nextTunes[tuneId]
+    if (!tune) return
+    const linkIndices = collectScopedOwnedMediaLinkIndices(nextTunes, scope, tuneId)
+    if (linkIndices.length === 0) return
+    linkIndices.forEach(function(linkIndex) {
+      const link = tune.links && tune.links[linkIndex]
+      if (!link || !isOwnedMediaLink(link)) return
+      if (getOwnedMediaSyncStatus(link) === 'synced') return
+      uploadTasks.push({
+        tuneId: tuneId,
+        tuneName: tune.name || tuneId,
+        linkIndex: linkIndex,
+        title: link.title || ('Link ' + (linkIndex + 1)),
+      })
+    })
+  })
+
+  const fileTuneIds = tuneIds.slice()
+  let fileUploadTaskCount = 0
+  fileTuneIds.forEach(function(tuneId) {
+    const tune = nextTunes[tuneId]
+    if (!tune || !Array.isArray(tune.tuneFiles)) return
+    tune.tuneFiles.forEach(function(meta) {
+      if (!meta || getTuneFileSyncStatus(meta) === 'synced') return
+      fileUploadTaskCount += 1
+    })
+  })
+
+  const totalUploadSteps = uploadTasks.length + fileUploadTaskCount
+  let uploadStep = 0
+
+  emitShareMediaProgress(opts, {
+    phase: 'upload',
+    current: 0,
+    total: totalUploadSteps,
+    message: totalUploadSteps > 0 ? 'Preparing audio uploads…' : 'Checking audio files…',
+  })
 
   for (let i = 0; i < tuneIds.length; i += 1) {
     const tuneId = tuneIds[i]
@@ -215,14 +317,42 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
     if (!tune) continue
     const linkIndices = collectScopedOwnedMediaLinkIndices(nextTunes, scope, tuneId)
     if (linkIndices.length === 0) continue
+
+    for (let j = 0; j < linkIndices.length; j += 1) {
+      const linkIndex = linkIndices[j]
+      const link = tune.links && tune.links[linkIndex]
+      if (!link || !isOwnedMediaLink(link) || getOwnedMediaSyncStatus(link) === 'synced') continue
+      uploadStep += 1
+      emitShareMediaProgress(opts, {
+        phase: 'upload',
+        current: uploadStep,
+        total: Math.max(totalUploadSteps, uploadStep),
+        message: 'Uploading "' + (link.title || 'audio') + '" for ' + (tune.name || tuneId) + '…',
+        fileName: link.title || '',
+      })
+      emitShareMediaEvent(opts, {
+        type: 'info',
+        message: 'Uploading "' + (link.title || 'audio') + '" (' + (tune.name || tuneId) + ')…',
+      })
+    }
+
     const result = await uploadOwnedMediaLinksForTune(tune, {
       token: token,
       driveApi: driveApi,
       linkIndices: linkIndices,
     })
-    if (result.uploaded) uploaded += result.uploaded
+    if (result.uploaded) {
+      uploaded += result.uploaded
+      emitShareMediaEvent(opts, {
+        type: 'success',
+        message: 'Uploaded ' + result.uploaded + ' audio file' + (result.uploaded === 1 ? '' : 's') + ' for ' + (tune.name || tuneId) + '.',
+      })
+    }
     if (result.errors && result.errors.length) {
       errors.push.apply(errors, result.errors)
+      result.errors.forEach(function(error) {
+        emitShareMediaEvent(opts, { type: 'error', message: error })
+      })
     }
     if (result.tune) {
       nextTunes[tuneId] = result.tune
@@ -230,19 +360,58 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
     }
   }
 
+  if (fileUploadTaskCount > 0) {
+    emitShareMediaEvent(opts, {
+      type: 'info',
+      message: 'Uploading attached files…',
+    })
+  }
+
   const fileUpload = await uploadPendingTuneFilesInScope(nextTunes, tuneIds, {
     token: token,
     driveApi: driveApi,
     saveTune: saveTune,
+    onFileStart: function(info) {
+      uploadStep += 1
+      emitShareMediaProgress(opts, {
+        phase: 'upload',
+        current: uploadStep,
+        total: Math.max(totalUploadSteps, uploadStep),
+        message: 'Uploading "' + (info.fileName || 'file') + '" for ' + (info.tuneName || '') + '…',
+        fileName: info.fileName || '',
+      })
+      emitShareMediaEvent(opts, {
+        type: 'info',
+        message: 'Uploading file "' + (info.fileName || 'file') + '" (' + (info.tuneName || '') + ')…',
+      })
+    },
+    onFileComplete: function(info) {
+      if (info && info.uploaded) {
+        emitShareMediaEvent(opts, {
+          type: 'success',
+          message: 'Uploaded "' + (info.fileName || 'file') + '".',
+        })
+      }
+    },
   })
   uploaded += fileUpload.uploaded || 0
   if (fileUpload.errors && fileUpload.errors.length) {
     errors.push.apply(errors, fileUpload.errors)
+    fileUpload.errors.forEach(function(error) {
+      emitShareMediaEvent(opts, { type: 'error', message: error })
+    })
   }
 
   try {
     await flushPendingDriveDeletes({ token: token, driveApi: driveApi })
   } catch (e) { /* ignore queued-delete flush failures */ }
+
+  emitShareMediaProgress(opts, {
+    phase: 'upload',
+    current: totalUploadSteps,
+    total: Math.max(totalUploadSteps, 1),
+    message: uploaded > 0 ? 'Uploads complete.' : 'No uploads needed.',
+  })
 
   return {
     tunes: fileUpload.tunes || nextTunes,
@@ -255,17 +424,29 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
   const opts = options || {}
   const driveApi = opts.driveApi
   const confirmFn = typeof opts.confirm === 'function' ? opts.confirm : window.confirm.bind(window)
+  const autoConfirmPublic = opts.autoConfirmPublic === true
+
+  emitShareMediaEvent(opts, {
+    type: 'info',
+    message: 'Checking attached audio in share scope…',
+  })
 
   let workingTunes = Object.assign({}, tunes || {})
   const uploadResult = await uploadPendingOwnedMediaInScope(workingTunes, scope, {
     token: opts.token,
     driveApi: driveApi,
     saveTune: opts.saveTune,
+    onEvent: opts.onEvent,
+    onProgress: opts.onProgress,
   })
   workingTunes = uploadResult.tunes
 
   let entries = collectOwnedMediaForShareScope(workingTunes, scope)
   if (driveApi && typeof driveApi.listPermissions === 'function') {
+    emitShareMediaEvent(opts, {
+      type: 'info',
+      message: 'Checking which audio files are already public…',
+    })
     entries = await checkOwnedMediaPublicStatus(driveApi, opts.googleDocumentId, entries)
   }
 
@@ -280,41 +461,27 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     uploadErrors: uploadResult.errors || [],
   }
 
-  for (let i = 0; i < entries.length; i += 1) {
-    const entry = entries[i]
+  const publicTasks = []
+  entries.forEach(function(entry) {
     const tune = workingTunes[entry.tuneId]
     const link = tune && Array.isArray(tune.links) ? tune.links[entry.linkIndex] : entry.link
     const status = link ? getOwnedMediaSyncStatus(link) : entry.status
     const googleId = link && link.googleId ? link.googleId : entry.googleId
-    if (status === 'local') {
+    if (status === 'local' || status === 'pending' || !googleId) {
       summary.notUploadable.push(entry.tuneName + ' — ' + entry.linkTitle + ' (could not upload)')
-      continue
-    }
-    if (status === 'pending' || !googleId) {
-      summary.notUploadable.push(entry.tuneName + ' — ' + entry.linkTitle + ' (could not upload)')
-      continue
+      return
     }
     if (entry.alreadyPublic || hasAudioPublicConfirm(googleId)) {
       summary.alreadyPublic += 1
-      continue
+      return
     }
-
-    const message = '"' + entry.tuneName + ' — ' + entry.linkTitle + '" will be readable by anyone with the link. Continue?'
-    const ok = confirmFn(message)
-    if (!ok) {
-      summary.cancelled += 1
-      summary.skipped += 1
-      continue
-    }
-
-    const permResult = await driveApi.addPermission(googleId, { type: 'anyone', role: 'reader' })
-    if (permResult && permResult.error) {
-      summary.failed.push(entry.tuneName + ' — ' + entry.linkTitle)
-      continue
-    }
-    setAudioPublicConfirm(googleId)
-    summary.shared += 1
-  }
+    publicTasks.push({
+      kind: 'audio',
+      entry: entry,
+      googleId: googleId,
+      label: entry.tuneName + ' — ' + entry.linkTitle,
+    })
+  })
 
   const tuneIds = collectTuneIdsInScope(workingTunes, scope)
   let fileEntries = collectTuneFilesForShareScope(workingTunes, tuneIds)
@@ -331,33 +498,93 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     }))
   }
 
-  for (let i = 0; i < fileEntries.length; i += 1) {
-    const entry = fileEntries[i]
+  fileEntries.forEach(function(entry) {
     const status = entry.status || getTuneFileSyncStatus(entry.meta)
     const googleId = entry.googleId
     if (status === 'local' || status === 'pending' || !googleId) {
       summary.notUploadable.push(entry.tuneName + ' — ' + entry.fileName + ' (could not upload)')
-      continue
+      return
     }
     if (entry.alreadyPublic || hasFilePublicConfirm(googleId)) {
       summary.alreadyPublic += 1
-      continue
+      return
     }
-    const message = '"' + entry.tuneName + ' — ' + entry.fileName + '" (file) will be readable by anyone with the link. Continue?'
-    const ok = confirmFn(message)
-    if (!ok) {
-      summary.cancelled += 1
-      summary.skipped += 1
-      continue
+    publicTasks.push({
+      kind: 'file',
+      entry: entry,
+      googleId: googleId,
+      label: entry.tuneName + ' — ' + entry.fileName,
+    })
+  })
+
+  emitShareMediaProgress(opts, {
+    phase: 'permissions',
+    current: 0,
+    total: publicTasks.length,
+    message: publicTasks.length > 0 ? 'Making audio files publicly readable…' : 'No public permission changes needed.',
+  })
+
+  for (let i = 0; i < publicTasks.length; i += 1) {
+    const task = publicTasks[i]
+    emitShareMediaProgress(opts, {
+      phase: 'permissions',
+      current: i + 1,
+      total: publicTasks.length,
+      message: 'Sharing "' + task.label + '"…',
+      fileName: task.label,
+    })
+
+    if (!autoConfirmPublic) {
+      const message = '"' + task.label + '" will be readable by anyone with the link. Continue?'
+      const ok = confirmFn(message)
+      if (!ok) {
+        summary.cancelled += 1
+        summary.skipped += 1
+        emitShareMediaEvent(opts, {
+          type: 'warning',
+          message: 'Skipped sharing "' + task.label + '".',
+        })
+        continue
+      }
     }
-    const permResult = await driveApi.addPermission(googleId, { type: 'anyone', role: 'reader' })
+
+    emitShareMediaEvent(opts, {
+      type: 'info',
+      message: 'Making "' + task.label + '" publicly readable…',
+    })
+
+    const permResult = await driveApi.addPermission(task.googleId, { type: 'anyone', role: 'reader' })
     if (permResult && permResult.error) {
-      summary.failed.push(entry.tuneName + ' — ' + entry.fileName)
+      summary.failed.push(task.label)
+      emitShareMediaEvent(opts, {
+        type: 'error',
+        message: 'Could not share "' + task.label + '".',
+      })
       continue
     }
-    setFilePublicConfirm(googleId)
+    if (task.kind === 'audio') {
+      setAudioPublicConfirm(task.googleId)
+    } else {
+      setFilePublicConfirm(task.googleId)
+    }
     summary.shared += 1
+    emitShareMediaEvent(opts, {
+      type: 'success',
+      message: 'Shared "' + task.label + '" publicly.',
+    })
   }
+
+  emitShareMediaProgress(opts, {
+    phase: 'permissions',
+    current: publicTasks.length,
+    total: Math.max(publicTasks.length, 1),
+    message: 'Audio sharing complete.',
+  })
+
+  emitShareMediaEvent(opts, {
+    type: 'success',
+    message: 'Finished preparing audio for sharing.',
+  })
 
   return {
     summary: summary,

@@ -28,6 +28,7 @@ import {
   consumeFilePickerIntent,
   writeFilePickerIntent,
 } from '../filePickerIntent'
+import { indexPdfTuneFile, tuneFileNeedsPdfIndexing } from '../pdfSnapshotIndex'
 
 function isAcceptableFile(file) {
   if (!file) return false
@@ -117,6 +118,44 @@ export default function FileControls(props) {
     }
   }
 
+  async function indexPdfMeta(meta, blob, fileName) {
+    if (!tune || !meta || !blob) return tune
+    try {
+      const nextTune = await indexPdfTuneFile(tune, meta.id, blob, {
+        fileName: fileName || meta.name || 'sheet.pdf',
+        type: meta.type || 'application/pdf',
+        resolverAvailable: resolverAvailable,
+        accessToken: token && token.access_token ? token.access_token : token,
+      })
+      persistTune(nextTune)
+      const segmentCount = (findTuneFileMeta(nextTune, meta.id) || {}).pdfSegments
+      const count = Array.isArray(segmentCount) ? segmentCount.length : 0
+      if (count > 0) {
+        toast.info('Indexed ' + count + ' PDF title' + (count === 1 ? '' : 's'))
+      } else {
+        toast.info('No PDF titles were detected')
+      }
+      return nextTune
+    } catch (err) {
+      toast.error(err && err.message ? err.message : 'PDF indexing failed')
+      return tune
+    }
+  }
+
+  async function indexPdfMetaFromStored(meta) {
+    if (!meta) return
+    setBusy(true)
+    try {
+      const resolved = await resolveTuneFileBlob(meta, tune.id, {
+        token: token,
+        driveApi: driveApi,
+      })
+      await indexPdfMeta(meta, resolved.blob, meta.name)
+    } finally {
+      setBusy(false)
+    }
+  }
+
   async function attachBlob(blob, name, type, source) {
     if (!tune || !blob) return null
     setBusy(true)
@@ -136,6 +175,9 @@ export default function FileControls(props) {
       // Screenshots of on-screen notation/lyrics are already digital — OCR often
       // fails looking up the just-saved blob and only adds noise.
       const skipOcr = source === 'capture'
+      if (isPdfTuneFileType(result.meta && result.meta.type)) {
+        indexPdfMeta(result.meta, blob, name).catch(function() { /* toast handled */ })
+      }
       if (resolverAvailable && !skipOcr) {
         try {
           enqueueFileOcrJob({
@@ -452,6 +494,17 @@ export default function FileControls(props) {
                 disabled={busy}
               >
                 OCR
+              </Button>
+            ) : null}
+            {isPdfTuneFileType(meta.type) ? (
+              <Button
+                size="sm"
+                variant="outline-secondary"
+                title="Index PDF titles for search"
+                onClick={function() { indexPdfMetaFromStored(meta) }}
+                disabled={busy}
+              >
+                {tuneFileNeedsPdfIndexing(meta) ? 'Index' : 'Re-index'}
               </Button>
             ) : null}
             <Button

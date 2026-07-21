@@ -11,6 +11,7 @@ import {
   findScrollableContainer,
   getEffectiveMediaDurationSeconds,
   getLyricsAutoscrollDurationSeconds,
+  findFirstLinkedAudioLink,
   findVisibleNotationElement,
   getLyricsScrollContext,
   getLyricsScrollMetrics,
@@ -55,6 +56,14 @@ function mediaControllerWithMidiState(duration) {
   };
 }
 
+function mediaControllerWithPreparedMedia(duration) {
+  return Object.assign(mediaControllerWithElementDuration(duration), {
+    isReady: true,
+    isMediaPlaybackRoute: function() { return true; },
+    isMidiPlaybackRoute: function() { return false; },
+  });
+}
+
 describe('lyricsAutoscrollUtils', function() {
   test('uses default duration when no media link or loaded media', function() {
     expect(getEffectiveMediaDurationSeconds({ links: [{}] }, {}, 0)).toBe(LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC);
@@ -78,7 +87,7 @@ describe('lyricsAutoscrollUtils', function() {
 
   test('loaded media duration overrides ChordPro scroll duration', function() {
     const tune = {
-      links: [{ url: 'x' }],
+      links: [{ link: 'https://example.com/a.mp3' }],
       wLines: ['a'],
       lyricsScrollDurationSec: 200,
     };
@@ -90,13 +99,13 @@ describe('lyricsAutoscrollUtils', function() {
 
   test('uses loaded media element duration only', function() {
     const controller = mediaControllerWithElementDuration(240);
-    expect(resolveLyricsScrollMediaDuration({ links: [{ url: 'x' }] }, controller, 0)).toBe(240);
-    expect(getEffectiveMediaDurationSeconds({ links: [{ url: 'x' }] }, controller, 0)).toBe(240);
+    expect(resolveLyricsScrollMediaDuration({ links: [{ link: 'https://example.com/a.mp3' }] }, controller, 0)).toBe(240);
+    expect(getEffectiveMediaDurationSeconds({ links: [{ link: 'https://example.com/a.mp3' }] }, controller, 0)).toBe(240);
   });
 
   test('finishes autoscroll before full media duration', function() {
     const controller = mediaControllerWithElementDuration(240);
-    const tune = { links: [{ url: 'x' }] };
+    const tune = { links: [{ link: 'https://example.com/a.mp3' }] };
     expect(getLyricsAutoscrollDurationSeconds(tune, controller, 0)).toBe(240 * LYRICS_AUTOSCROLL_COMPLETION_RATIO);
     expect(getLyricsAutoscrollDurationSeconds(tune, null, 0)).toBe(LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC);
   });
@@ -104,10 +113,45 @@ describe('lyricsAutoscrollUtils', function() {
   test('ignores shared playback progress when media is not loaded', function() {
     const controller = mediaControllerWithMidiState(22);
     const tune = {
-      links: [{ url: 'x' }],
+      links: [{ link: 'https://example.com/a.mp3' }],
       wLines: ['one', 'two', 'three'],
     };
+    expect(resolveLyricsScrollMediaDuration(tune, controller, 0)).toBe(0);
     expect(getEffectiveMediaDurationSeconds(tune, controller, 0)).toBe(LYRICS_AUTOSCROLL_DEFAULT_DURATION_SEC);
+  });
+
+  test('finds the first linked audio file for scroll timing', function() {
+    const tune = {
+      links: [
+        { title: 'Notes only' },
+        { link: 'https://example.com/verse.mp3' },
+        { link: 'https://example.com/chorus.mp3' },
+      ],
+    };
+    const first = findFirstLinkedAudioLink(tune);
+    expect(first.index).toBe(1);
+    expect(first.link.link).toBe('https://example.com/verse.mp3');
+  });
+
+  test('uses prepared media controller duration for linked audio', function() {
+    const tune = {
+      links: [{ link: 'https://example.com/a.mp3' }],
+    };
+    const controller = mediaControllerWithPreparedMedia(185);
+    expect(resolveLyricsScrollMediaDuration(tune, controller, 0)).toBe(185);
+    expect(getLyricsAutoscrollDurationSeconds(tune, controller, 0)).toBe(
+      185 * LYRICS_AUTOSCROLL_COMPLETION_RATIO
+    );
+  });
+
+  test('uses cached linked media duration hint before playback', function() {
+    const tune = {
+      links: [{ link: 'https://example.com/a.mp3' }],
+    };
+    expect(resolveLyricsScrollMediaDuration(tune, null, 0, { hintDuration: 212 })).toBe(212);
+    expect(getLyricsAutoscrollDurationSeconds(tune, null, 0, { hintDuration: 212 })).toBe(
+      212 * LYRICS_AUTOSCROLL_COMPLETION_RATIO
+    );
   });
 
   test('uses lyric line count to set a slower minimum duration', function() {
@@ -145,6 +189,7 @@ describe('lyricsAutoscrollUtils', function() {
   test('uses region end minus start when both are set', function() {
     const tune = {
       links: [{
+        link: 'https://example.com/a.mp3',
         playbackLoops: [{
           active: true,
           startAt: '1:00',
@@ -158,7 +203,7 @@ describe('lyricsAutoscrollUtils', function() {
 
   test('uses media duration minus start when only start is set', function() {
     const tune = {
-      links: [{ startAt: '0:30' }],
+      links: [{ link: 'https://example.com/a.mp3', startAt: '0:30' }],
     };
     const controller = mediaControllerWithElementDuration(180);
     expect(getEffectiveMediaDurationSeconds(tune, controller, 0)).toBe(150);

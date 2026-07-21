@@ -194,6 +194,16 @@ function isAbcNotationText(text, fileName) {
 
 async function dispatchFromSource(source, ctx) {
   try {
+    if (source && source.file) {
+      const mediaKind = classifyImportContent({ kind: 'file', file: source.file }, ctx);
+      if (mediaKind === 'audio' || mediaKind === 'video') {
+        return {
+          action: mediaKind === 'video' ? 'video' : 'audio',
+          files: [source.file],
+          sourceUrl: source.sourceUrl || null,
+        };
+      }
+    }
     if (source && source.text != null && !source.file
       && isAbcNotationText(source.text, source.fileName || 'import.abc')) {
       return reviewAbcText(source.text, ctx);

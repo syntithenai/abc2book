@@ -6,6 +6,7 @@ import { getAudioFilterSettings } from './pitchTempoUtils'
 import useAbcTools from './useAbcTools'
 import useIndexes from './useIndexes'
 import { allArtists, allTitles, tuneMatchesArtistFilter } from './tuneBibliographicUtils'
+import { tuneMatchesPdfSnapshotSearch } from './pdfSnapshotIndex'
 import {icons} from './Icons'
 import curatedTuneBooks from './CuratedTuneBooks'
 import abcjs from "abcjs";
@@ -1972,6 +1973,8 @@ The main difference between the two functions is the additional condition in app
                     if (searchableText.some(function(text) {
                         return text && text.indexOf(filterText) !== -1
                     })) {
+                        filterOk = true
+                    } else if (tuneMatchesPdfSnapshotSearch(tune, filter.trim())) {
                         filterOk = true
                     }
                 }

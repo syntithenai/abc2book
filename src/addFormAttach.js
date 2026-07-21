@@ -4,8 +4,10 @@
  */
 
 import { isSheetImageImportFile } from './importSourceParse'
-import { isAudioImportFile, isVideoImportFile, isMidiImportFile } from './audioFileMetadata'
-import { createTuneFileFromBlob, removeTuneFileMeta, deleteStoredTuneFile } from './tuneFiles'
+import { isAudioImportFile, isVideoImportFile } from './audioFileMetadata'
+import { isMidiImportFile } from './midiFileUtils'
+import { createTuneFileFromBlob, removeTuneFileMeta, deleteStoredTuneFile, isPdfTuneFileType } from './tuneFiles'
+import { indexPdfTuneFile } from './pdfSnapshotIndex'
 import {
   createAttachedAudioLink,
   createAttachedVideoLink,
@@ -13,7 +15,7 @@ import {
   isOwnedMediaLink,
 } from './linkRecording'
 import { freshTuneId } from './importReviewCandidateUtils'
-import { readAudioFileMetadata } from './audioFileMetadata'
+import { resolveMediaFileIdentity } from './mediaImportCandidates'
 
 export function ensureAddDraftTuneId(tune) {
   const next = Object.assign({}, tune || {})
@@ -31,11 +33,12 @@ export function addDraftHasLocalAttachments(tune) {
 }
 
 /**
- * @returns {'sheetImage'|'audio'|'video'|null}
+ * @returns {'sheetImage'|'audio'|'video'|'midi'|null}
  */
 export function classifyAddFormFile(file) {
   if (!file) return null
   if (isSheetImageImportFile(file)) return 'sheetImage'
+  if (isMidiImportFile(file)) return 'midi'
   if (isVideoImportFile(file)) return 'video'
   if (isAudioImportFile(file)) return 'audio'
   return null
@@ -44,7 +47,8 @@ export function classifyAddFormFile(file) {
 /**
  * Attach image/PDF as tuneFiles on the draft (local only).
  */
-export async function attachSheetImageToAddDraft(tune, file) {
+export async function attachSheetImageToAddDraft(tune, file, options) {
+  const opts = options || {}
   const withId = ensureAddDraftTuneId(tune)
   const result = await createTuneFileFromBlob({
     tune: withId,
@@ -55,7 +59,20 @@ export async function attachSheetImageToAddDraft(tune, file) {
     uploadToDrive: false,
     setActive: true,
   })
-  return result.tune
+  let nextTune = result.tune
+  if (file && isPdfTuneFileType(file.type || result.meta && result.meta.type)) {
+    try {
+      nextTune = await indexPdfTuneFile(nextTune, result.meta.id, file, {
+        fileName: file.name || 'sheet.pdf',
+        type: file.type || 'application/pdf',
+        resolverAvailable: opts.resolverAvailable === true,
+        accessToken: opts.accessToken,
+      })
+    } catch (e) {
+      // indexing is best-effort
+    }
+  }
+  return nextTune
 }
 
 /**
@@ -70,33 +87,26 @@ export async function attachMediaFilesToAddDraft(tune, files, mediaAction) {
   for (let i = 0; i < list.length; i += 1) {
     const file = list[i]
     if (!file) continue
-    let title = file.name || (isVideo ? 'Attached video' : 'Attached audio')
-    if (!isVideo) {
-      try {
-        const metadata = await readAudioFileMetadata(file)
-        if (metadata && metadata.title) title = metadata.title
-        if (metadata && metadata.artist && !String(next.composer || '').trim()) {
-          next.composer = metadata.artist
-        }
-        if (metadata && metadata.title && !String(next.name || '').trim()) {
-          next.name = metadata.title
-        }
-      } catch (e) { /* ignore metadata errors */ }
-    } else if (!String(next.name || '').trim() && file.name) {
-      next.name = String(file.name).replace(/\.[^.]+$/, '')
+    const identity = await resolveMediaFileIdentity(file, { tune: next })
+    if (identity.title && !String(next.name || '').trim()) {
+      next.name = identity.title
+    }
+    if (identity.artist && !String(next.composer || '').trim()) {
+      next.composer = identity.artist
     }
 
-    const attached = isVideo
+    const linkTitle = identity.title || file.name || (isVideo ? 'Attached video' : 'Attached audio')
+    const attached = identity.isVideo
       ? await createAttachedVideoLink({
         tune: next,
         file: file,
-        title: title,
+        title: linkTitle,
         uploadToDrive: false,
       })
       : await createAttachedAudioLink({
         tune: next,
         file: file,
-        title: title,
+        title: linkTitle,
         uploadToDrive: false,
       })
     if (attached && attached.link) {
@@ -105,6 +115,35 @@ export async function attachMediaFilesToAddDraft(tune, files, mediaAction) {
   }
 
   next.links = links
+  next.mediaCacheLocked = true
+  return next
+}
+
+export async function attachMidiFilesToAddDraft(tune, files) {
+  let next = ensureAddDraftTuneId(tune)
+  const list = Array.isArray(files) ? files : []
+  const links = Array.isArray(next.links) ? next.links.slice() : []
+
+  for (let i = 0; i < list.length; i += 1) {
+    const file = list[i]
+    if (!file || !isMidiImportFile(file)) continue
+    const title = file.name || 'Attached MIDI'
+    if (!String(next.name || '').trim() && file.name) {
+      next.name = String(file.name).replace(/\.[^.]+$/, '')
+    }
+    const attached = await createAttachedMidiLink({
+      tune: next,
+      file: file,
+      title: title,
+      uploadToDrive: false,
+    })
+    if (attached && attached.link) {
+      links.push(attached.link)
+    }
+  }
+
+  next.links = links
+  next.mediaCacheLocked = true
   return next
 }
 

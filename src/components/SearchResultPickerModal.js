@@ -1,5 +1,6 @@
 import { Button, ListGroup, Modal } from 'react-bootstrap';
 import AbcSnippetPreview from './AbcSnippetPreview';
+import { notationSourceBadgeLabel } from '../notationSearchSites';
 import './SearchResultPickerModal.css';
 
 function formatCandidateLabel(item, fallbackTitle) {
@@ -30,9 +31,15 @@ function looksLikeMatchMeta(text) {
 function formatMatchType(item) {
   if (!item) return '';
   if (item.__current || item.isCurrent || item.id === 'current') return 'Original Value';
+  if (item.importFormat === 'pdf' || (item.pdfAttachment && item.pdfAttachment.downloadUrl)) {
+    const badge = notationSourceBadgeLabel(item.source)
+    return badge ? badge + ' · Sheet PDF' : 'Sheet PDF (no MusicXML)';
+  }
   if (item.matchType) return String(item.matchType);
   const source = item.source ? String(item.source).trim() : '';
-  if (source && source !== 'current' && source !== 'original') return source;
+  if (source && source !== 'current' && source !== 'original') {
+    return notationSourceBadgeLabel(source) || source;
+  }
   const artist = item.artist ? String(item.artist).trim() : '';
   if (artist && looksLikeMatchMeta(artist)) return artist;
   if (artist && item.title) return artist;
@@ -41,6 +48,7 @@ function formatMatchType(item) {
 
 function itemHasAbcPreview(item) {
   if (!item) return false;
+  if (item.pdfAttachment && item.pdfAttachment.downloadUrl) return false;
   if (typeof item.abc === 'string' && item.abc.trim()) return true;
   const preview = item.preview != null ? String(item.preview) : '';
   if (!preview.trim()) return false;
@@ -125,7 +133,11 @@ export default function SearchResultPickerModal({
           {itemHasAbcPreview(item) ? (
             <AbcSnippetPreview item={item} metadata={previewMetadata} maxBars={8} />
           ) : (
-            <div className="text-muted small">No notation preview</div>
+            <div className="text-muted small">
+              {(item && item.pdfAttachment && item.pdfAttachment.downloadUrl)
+                ? 'Sheet PDF will be attached to this tune'
+                : 'No notation preview'}
+            </div>
           )}
         </div>
       </button>

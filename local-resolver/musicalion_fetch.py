@@ -2,11 +2,10 @@
 
 from __future__ import annotations
 
-from urllib.parse import quote, urlparse
+from urllib.parse import urlparse
 
 from archive_source_config import notation_source_enabled
 from chords_fetch import score_title_artist_match
-from mediawiki_fetch import fetch_mediawiki_page_html
 from tune_background_research import search_web
 
 MAX_MUSICALION_URL_TRIES = 5
@@ -72,17 +71,7 @@ async def fetch_musicalion_url(url, on_progress=None, client=None):
     if not is_musicalion_url(url):
         raise ValueError("Not a supported Musicalion URL")
     await _emit_progress(on_progress, "musicalion", "Musicalion requires manual import", 1.0)
-    title = ""
-    if client is not None:
-        try:
-            html, _final = await fetch_mediawiki_page_html(client, url)
-            from musescore_fetch import TAG_RE, TITLE_TAG_RE
-            match = TITLE_TAG_RE.search(html or "")
-            if match:
-                title = TAG_RE.sub("", match.group(1)).strip()
-        except Exception:
-            title = ""
-    manual = build_musicalion_manual_candidate(url, title=title)
+    manual = build_musicalion_manual_candidate(url, title="")
     return {
         "empty": True,
         "found": False,

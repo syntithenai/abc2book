@@ -85,6 +85,34 @@ jest.mock('./mediaProxyClient', function() {
   })
 })
 
+jest.mock('midi-player-js', function() {
+  function Player(callback) {
+    this.callback = callback
+    this.instruments = [0]
+    this._duration = 12
+    this._playing = false
+    this._position = 0
+  }
+  Player.prototype.loadArrayBuffer = function() {
+    const self = this
+    setTimeout(function() {
+      if (self.on) self.on('fileLoaded', {})
+    }, 0)
+  }
+  Player.prototype.getSongTime = function() { return this._duration }
+  Player.prototype.getSongTimeRemaining = function() { return this._duration - this._position }
+  Player.prototype.isPlaying = function() { return this._playing }
+  Player.prototype.play = function() { this._playing = true }
+  Player.prototype.pause = function() { this._playing = false }
+  Player.prototype.skipToSeconds = function(seconds) { this._position = seconds }
+  Player.prototype.on = function(event, handler) {
+    if (event === 'fileLoaded') this._fileLoadedHandler = handler
+    if (event === 'endOfFile') this._endHandler = handler
+    if (event === 'error') this._errorHandler = handler
+  }
+  return { Player: Player }
+})
+
 import localforage from 'localforage'
 import * as mediaProxyClient from './mediaProxyClient'
 import useAbcTools from './useAbcTools'
@@ -101,6 +129,8 @@ import {
   resolveRecordingLinkAudio,
   uploadRecordingToDrive,
   patchTunesWithRecordingUpload,
+  createAttachedMidiLink,
+  resolveRecordingLinkMidi,
 } from './linkRecording'
 
 describe('linkRecording helpers', function() {
@@ -177,6 +207,7 @@ describe('linkRecording ABC round-trip', function() {
         link: 'abcbook-recording:rec1',
         recordingId: 'rec1',
         googleId: 'gid123',
+        mediaKind: 'midi',
         startAt: '1',
         endAt: '30',
       }],
@@ -184,11 +215,13 @@ describe('linkRecording ABC round-trip', function() {
     const abc = abcTools.json2abc(tune)
     expect(abc).toContain('% abcbook-link-recording-id-0 rec1')
     expect(abc).toContain('% abcbook-link-google-id-0 gid123')
+    expect(abc).toContain('% abcbook-link-media-kind-0 midi')
     expect(abc).toContain('% abcbook-link-0 abcbook-recording:rec1')
 
     const parsed = abcTools.abc2json(abc)
     expect(parsed.links[0].recordingId).toBe('rec1')
     expect(parsed.links[0].googleId).toBe('gid123')
+    expect(parsed.links[0].mediaKind).toBe('midi')
     expect(parsed.links[0].link).toBe('abcbook-recording:rec1')
   })
 })
@@ -314,5 +347,36 @@ describe('linkRecording create and resolve', function() {
     })
     expect(result.googleId).toBe('new-drive-id')
     expect(driveApi.createDocument).toHaveBeenCalled()
+  })
+
+  test('createAttachedMidiLink stores raw midi without mp3 conversion', async function() {
+    const midiBytes = new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])
+    const file = new File([midiBytes], 'tune.mid', { type: 'audio/midi' })
+    const result = await createAttachedMidiLink({
+      tune: { id: 't1', name: 'Tune' },
+      file: file,
+      title: 'tune.mid',
+      uploadToDrive: false,
+    })
+    expect(result.link.mediaKind).toBe('midi')
+    expect(result.link.link).toMatch(/^abcbook-recording:/)
+    expect(result.recording.mediaKind).toBe('midi')
+    expect(result.recording.type).toBe('audio/midi')
+    expect(result.recording.data).toBeTruthy()
+  })
+
+  test('resolveRecordingLinkMidi reads cached midi blob', async function() {
+    const midiBytes = new Uint8Array([77, 84, 104, 100, 0, 0, 0, 6])
+    const blob = new Blob([midiBytes], { type: 'audio/midi' })
+    const cacheKey = 'extmedia:t1:0:abcbook-recording:rec-midi-1'
+    externalMediaAudioCache.__cache[cacheKey] = { blob: blob, duration: 12 }
+    const resolved = await resolveRecordingLinkMidi({
+      link: 'abcbook-recording:rec-midi-1',
+      recordingId: 'rec-midi-1',
+      mediaKind: 'midi',
+      title: 'tune.mid',
+    }, 't1', 0, { forPlayback: false })
+    expect(resolved.source).toBe('cache')
+    expect(resolved.arrayBuffer.byteLength).toBeGreaterThan(0)
   })
 })

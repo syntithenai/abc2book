@@ -53,6 +53,85 @@ export function scoreNotationCandidate(candidate, title, artist) {
   return scoreTitleArtistMatch(matchTitle, matchArtist, title, artist)
 }
 
+const TRADITIONAL_NOTATION_SOURCES = [
+  'thesession.org',
+  'folktunefinder.com',
+  'folkinfo.org',
+  'norbeck.net',
+  'henrik.norbeck.org',
+  'traditionalmusic.co.uk',
+  'irishtune.info',
+  'folkwiki.ibiblio.org',
+  'contemplator.com',
+  'folktunes.org',
+]
+
+function notationMatchFields(candidate) {
+  const item = candidate && typeof candidate === 'object' ? candidate : {}
+  const meta = item.tuneMeta && typeof item.tuneMeta === 'object' ? item.tuneMeta : null
+  return {
+    matchTitle: (meta && meta.name) || item.title || '',
+    matchArtist: item.artist || (meta && meta.composer) || '',
+  }
+}
+
+export function notationArtistMatchScore(candidate, artist) {
+  const fields = notationMatchFields(candidate)
+  return scoreTitleArtistMatch('', fields.matchArtist, '', artist)
+}
+
+export function isTraditionalNotationSource(source) {
+  const key = String(source || '').toLowerCase()
+  if (!key) return false
+  return TRADITIONAL_NOTATION_SOURCES.some(function(host) {
+    return key === host || key.endsWith('.' + host)
+  })
+}
+
+function notationImportFormat(candidate) {
+  const item = candidate && typeof candidate === 'object' ? candidate : {}
+  if (item.importFormat) return String(item.importFormat)
+  const meta = item.tuneMeta && typeof item.tuneMeta === 'object' ? item.tuneMeta : null
+  const nested = meta && meta.meta && typeof meta.meta === 'object' ? meta.meta : null
+  if (nested && nested.importFormat) return String(nested.importFormat)
+  const source = String(item.source || '').toLowerCase()
+  if (source === 'musescore.com') return 'musescore'
+  if (item.musicXml && !String(item.abc || '').trim()) return 'musicxml'
+  return 'abc'
+}
+
+export function notationCandidatesFromResult(result) {
+  if (!result || typeof result !== 'object') return []
+  if (Array.isArray(result.candidates)) return result.candidates.slice()
+  if (result.empty) return []
+  if (result.abc || result.musicXml || result.pdfAttachment) return [result]
+  return []
+}
+
+export function notationTitleMatchScore(candidate, title) {
+  const fields = notationMatchFields(candidate)
+  return scoreTitleArtistMatch(
+    fields.matchTitle,
+    '',
+    title,
+    ''
+  )
+}
+
+export function isVeryCloseNotationTitleMatch(candidate, title) {
+  return notationTitleMatchScore(candidate, title) >= 80
+}
+
+export function pickAutoApplyNotationCandidate(result, title, artist, options) {
+  const candidates = notationCandidatesFromResult(result)
+  for (let i = 0; i < candidates.length; i++) {
+    if (shouldAutoApplyNotationCandidate(candidates[i], title, artist, options)) {
+      return candidates[i]
+    }
+  }
+  return null
+}
+
 export function shouldAutoApplyNotationCandidate(candidate, title, artist, options) {
   const opts = options || {}
   const songType = opts.songType || 'instrumental'
@@ -60,12 +139,33 @@ export function shouldAutoApplyNotationCandidate(candidate, title, artist, optio
   const source = String(item.source || '').toLowerCase()
   const artistKey = normalizeMatchText(artist)
   const baseScore = scoreNotationCandidate(item, title, artist)
+  const artistScore = notationArtistMatchScore(item, artist)
+  const importFormat = notationImportFormat(item)
+  const isMidi = importFormat === 'midi'
+  const isArchive = importFormat === 'musescore' || importFormat === 'musicxml' || importFormat === 'pdf'
+  const preferMuseScoreImport = opts.preferMuseScoreImport === true
+  const fallbackPool = opts.fallbackPool === true
+
+  if (fallbackPool) {
+    if (!isVeryCloseNotationTitleMatch(item, title)) return false
+    if (artistKey && isTraditionalNotationSource(source) && artistScore < 30) return false
+    return true
+  }
 
   if (songType === 'song' && source === 'thesession.org') return false
+  if (artistKey && isTraditionalNotationSource(source) && artistScore < 30) return false
   if (artistKey && source === 'thesession.org' && baseScore < 80) return false
   if (artistKey && baseScore > 0 && baseScore < 60) return false
   if (!artistKey && baseScore > 0 && baseScore < 45) return false
-  if (baseScore === 0 && item.abc && !source) return true
+  // Named-artist songs: offer MuseScore import before ABC/MIDI auto-apply.
+  if (preferMuseScoreImport || (songType === 'song' && artistKey)) {
+    if (importFormat === 'abc' && !isArchive) return false
+    if (isMidi) return false
+  }
+  if (baseScore === 0 && item.abc && !source) {
+    return !(songType === 'song' && artistKey)
+  }
   if (baseScore === 0) return false
+  if (isArchive && artistKey && baseScore >= 45) return true
   return true
 }
