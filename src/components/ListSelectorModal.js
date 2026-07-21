@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
+import VoiceFillInput from './VoiceFillInput'
 
 function ListSelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -37,7 +38,16 @@ function ListSelectorModal(props) {
         </div>}
         {props.message == null && <>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}   />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="text"
+            value={filter}
+            onChange={filterChange}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           {props.extraButtons && <span>{props.extraButtons}</span>}
         </Modal.Body>
         <Modal.Footer>

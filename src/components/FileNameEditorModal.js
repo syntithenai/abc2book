@@ -1,8 +1,9 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, Badge} from 'react-bootstrap'
 import ImagesManager from './ImagesManager'
+import VoiceFillInput from './VoiceFillInput'
 
-export default function FileNameEditorModal({tunebook, initvalue, onChange}) {
+export default function FileNameEditorModal({tunebook, initvalue, onChange, token, setBlockKeyboardShortcuts}) {
   //console.log({tunebook, token,googleDocumentId, tiny, tuneId,currentTuneBook, variant})
   const [show, setShow] = useState(false);
   const [value, setValue] = useState(initvalue ? initvalue : '')
@@ -22,7 +23,16 @@ export default function FileNameEditorModal({tunebook, initvalue, onChange}) {
         <Modal.Title>{"Edit Filename"}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-			<input type="text" value={value} onChange={function(e) {setValue(e.target.value)}} />
+			<VoiceFillInput
+			  layout="wrap"
+			  useFormControl={false}
+			  type="text"
+			  value={value}
+			  onChange={function(e) { setValue(e.target.value) }}
+			  fieldKind="search"
+			  token={token}
+			  setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+			/>
         </Modal.Body>
         <Modal.Footer>
 			<Button style={{marginRight:'3em'}} onClick={function() {handleClose(); onChange(value) }} variant="success" >Save</Button>

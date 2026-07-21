@@ -19,6 +19,47 @@ export function mergeDraftTune(importedTune, draftTune) {
   return next;
 }
 
+/**
+ * Add-form file re-import: take the new parse as the song body, but keep
+ * book/tag/link attachments the user already chose on the draft.
+ */
+export function mergeImportDraftTune(importedTune, draftTune) {
+  const imported = importedTune || {};
+  const draft = draftTune || {};
+  const next = Object.assign({}, imported);
+  if (draft.id) next.id = draft.id;
+  next.books = unionDraftStringLists(imported.books, draft.books);
+  next.tags = unionDraftStringLists(imported.tags, draft.tags);
+  if (draftFieldHasValue('links', draft.links)) {
+    next.links = Array.isArray(draft.links) ? draft.links.slice() : draft.links;
+  }
+  if (draftFieldHasValue('tuneFiles', draft.tuneFiles)) {
+    next.tuneFiles = draft.tuneFiles.map(function(file) { return Object.assign({}, file); });
+  }
+  if (draftFieldHasValue('activeFile', draft.activeFile)) {
+    next.activeFile = draft.activeFile;
+  }
+  return next;
+}
+
+function unionDraftStringLists(a, b) {
+  const seen = {};
+  const out = [];
+  function add(items) {
+    (Array.isArray(items) ? items : []).forEach(function(item) {
+      const text = String(item || '').trim();
+      if (!text) return;
+      const key = text.toLowerCase();
+      if (seen[key]) return;
+      seen[key] = true;
+      out.push(text);
+    });
+  }
+  add(a);
+  add(b);
+  return out;
+}
+
 function draftFieldHasValue(key, value) {
   if (value == null) return false;
   if (typeof value === 'string') return !!value.trim();

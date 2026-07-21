@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup, ButtonGroup} from 'react-bootstrap'
+import VoiceFillInput from './VoiceFillInput'
 
 function GenreSearchSelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -101,7 +102,18 @@ function GenreSearchSelectorModal(props) {
               return <Button key={selectedGenre} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectGenre(selectedGenre)}} >{props.tunebook.icons.closecircle}&nbsp;{String(selectedGenre).toLowerCase()}</Button>
             })}</div>
 
-          <input type='search' value={filter} onChange={filterChange}  onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={filterChange}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           {(Array.isArray(sortedOptions) && sortedOptions.length === 0) && <Button onClick={function() {selectGenre(filter)} } >Set</Button>}
         </Modal.Body>
         <Modal.Footer  >

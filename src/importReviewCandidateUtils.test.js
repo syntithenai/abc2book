@@ -2,6 +2,7 @@ import {
   asIndependentReviewCandidate,
   coalesceImportCandidates,
   mergeDraftTune,
+  mergeImportDraftTune,
 } from './importReviewCandidateUtils';
 
 describe('mergeDraftTune', function() {
@@ -30,6 +31,33 @@ describe('mergeDraftTune', function() {
     expect(merged.name).toBe('Mine');
     expect(merged.composer).toBe('A');
     expect(merged.rhythm).toBe('reel');
+  });
+});
+
+describe('mergeImportDraftTune', function() {
+  test('replaces song fields but keeps draft books/tags/links on re-import', function() {
+    const imported = {
+      name: 'Brown Eyed Girl',
+      composer: 'Van Morrison',
+      words: ['[G]Hey where did we go'],
+      books: ['irish'],
+      tags: ['chordpro'],
+    };
+    const draft = {
+      name: 'Amazing Grace',
+      composer: 'John Newton',
+      words: ['[G]Old lyrics'],
+      books: ['songs'],
+      tags: ['favorite'],
+      links: [{ title: 'YouTube', link: 'https://youtu.be/example' }],
+    };
+    const merged = mergeImportDraftTune(imported, draft);
+    expect(merged.name).toBe('Brown Eyed Girl');
+    expect(merged.composer).toBe('Van Morrison');
+    expect(merged.words).toEqual(['[G]Hey where did we go']);
+    expect(merged.books).toEqual(['irish', 'songs']);
+    expect(merged.tags).toEqual(['chordpro', 'favorite']);
+    expect(merged.links).toEqual(draft.links);
   });
 });
 

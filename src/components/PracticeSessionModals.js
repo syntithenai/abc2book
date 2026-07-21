@@ -65,6 +65,8 @@ export default function PracticeSessionModals(props) {
         currentStep={practice.currentStep}
         stepIndex={practice.stepIndex}
         practiceViewMode={practice.practiceViewMode}
+        onPracticeViewModeChange={practice.setPracticeViewMode}
+        forceRefresh={props.forceRefresh}
         currentTempo={practice.currentTempo}
         secondsRemaining={practice.secondsRemaining}
         mediaController={props.mediaController}

@@ -113,6 +113,33 @@ export function subscribeImportReviewSession(listener) {
   }
 }
 
+function currentCandidateRevision(activeSession) {
+  if (!activeSession || !Array.isArray(activeSession.candidates) || !activeSession.candidates.length) {
+    return ''
+  }
+  const index = activeSession.mergeIndex != null ? activeSession.mergeIndex : activeSession.index
+  const candidate = activeSession.candidates[index]
+  if (!candidate) return ''
+  const tune = candidate.tune || {}
+  const words = Array.isArray(tune.words)
+    ? tune.words.join('\n')
+    : (Array.isArray(tune.wLines) ? tune.wLines.join('\n') : '')
+  const inlineForm = candidate.inlineFormValues && typeof candidate.inlineFormValues === 'object'
+    ? candidate.inlineFormValues
+    : null
+  return [
+    candidate.id || '',
+    String(candidate.inlineImportRevision != null ? candidate.inlineImportRevision : ''),
+    candidate.sourceKind || '',
+    String(tune.name || ''),
+    String(tune.composer || ''),
+    words,
+    inlineForm ? String(inlineForm.title || '') : '',
+    inlineForm ? String(inlineForm.artist || '') : '',
+    inlineForm ? String(inlineForm.lyrics || '') : '',
+  ].join('\x1f')
+}
+
 export function getImportReviewSessionRevision() {
   if (!session) return ''
   const jobs = session.enrichmentJobs || []
@@ -128,6 +155,7 @@ export function getImportReviewSessionRevision() {
       return job.id + ':' + job.status
     }).join(','),
     uiVisible ? '1' : '0',
+    currentCandidateRevision(session),
   ].join('|')
 }
 

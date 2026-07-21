@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Form, ListGroup, Modal } from 'react-bootstrap'
+import { ListGroup, Modal } from 'react-bootstrap'
 import { listSavedPlaylists } from '../savedPlaylistsStore'
 import { listPerformanceSets } from '../performanceSetStore'
+import VoiceFillInput from './VoiceFillInput'
 
 function itemCount(list, kind) {
   if (!list || !Array.isArray(list.items)) return 0
@@ -27,6 +28,8 @@ export default function AddTunesToListModal({
   tuneIds,
   onSelect,
   title,
+  token,
+  setBlockKeyboardShortcuts,
 }) {
   const [lists, setLists] = useState([])
   const [search, setSearch] = useState('')
@@ -67,15 +70,18 @@ export default function AddTunesToListModal({
         </Modal.Title>
       </Modal.Header>
       <Modal.Body style={{ maxHeight: '60vh', overflowY: 'auto' }}>
-        <Form.Control
-          type="search"
+        <VoiceFillInput
           className="mb-3"
+          type="search"
           placeholder={'Search ' + nounPlural}
           value={search}
           onChange={function(e) { setSearch(e.target.value) }}
           data-testid={'add-to-' + kind + '-search'}
           aria-label={'Search ' + nounPlural}
           autoFocus
+          setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+          token={token}
+          fieldKind="search"
         />
 
         {lists.length === 0 ? (

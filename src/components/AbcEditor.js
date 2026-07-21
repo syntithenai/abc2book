@@ -16,6 +16,7 @@ import LyricChordSheetEditorModal from './LyricChordSheetEditorModal'
 import useAbcjsParser from '../useAbcjsParser'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
+import { TABLATURE_INSTRUMENT_OPTIONS } from '../tablatureConfig'
 //import ImagesEditor from './ImagesEditor'
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
@@ -28,6 +29,7 @@ import GenreSearchButton from './GenreSearchButton'
 import ArtistsSearchButton from './ArtistsSearchButton'
 import AliasesSearchButton from './AliasesSearchButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
+import VoiceFillInput from './VoiceFillInput'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import MarkdownContent from './MarkdownContent'
 import { FormLabelWithHelp } from './FormFieldHelp'
@@ -382,11 +384,19 @@ export default function AbcEditor(props) {
                                 }}
                               />
                             </div>
-                            <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
+                            <VoiceFillInput
+                              type="text"
+                              placeholder=""
+                              value={tune.name ? tune.name : ''}
+                              onChange={function(e) {
                               tune.name = e.target.value
                               tune.id = params.tuneId
                               saveTune(tune)
-                            }} />
+                            }}
+                              fieldKind="title"
+                              token={props.token}
+                              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                            />
                           </Form.Group>
                           </div>
                         </Col>
@@ -940,9 +950,13 @@ export default function AbcEditor(props) {
                             <Form.Group className="mb-3" controlId="tab">
                               <FormLabelWithHelp label="Tablature" helpBody={EDITOR_INFO_FIELD_HELP.tablature.body} helpTitle={EDITOR_INFO_FIELD_HELP.tablature.title} />
                               <Form.Select value={tune.tablature ? tune.tablature.trim() : ''} onChange={function(e) { tune.tablature = e.target.value ; tune.id = params.tuneId; saveTune(tune)  }} >
-                                <option value=""></option>
-                                <option value="guitar" >Guitar</option>
-                                <option value="violin">Violin</option>
+                                {TABLATURE_INSTRUMENT_OPTIONS.map(function(opt) {
+                                  return (
+                                    <option key={opt.value || '__none'} value={opt.value}>
+                                      {opt.label}
+                                    </option>
+                                  )
+                                })}
                                 </Form.Select>
                             </Form.Group>
                           </Col>

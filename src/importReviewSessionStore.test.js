@@ -77,4 +77,29 @@ describe('importReviewSessionStore persistence', function() {
     expect(after).not.toBe(before)
     expect(after).toContain('curated')
   })
+
+  test('revision changes when current candidate tune is updated inline', function() {
+    const session = createImportReviewSession(
+      [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
+      { entryMode: 'add' }
+    )
+    setImportReviewSession(session)
+    const before = getImportReviewSessionRevision()
+
+    const candidate = Object.assign({}, session.candidates[0], {
+      sourceKind: 'chordsheet',
+      inlineImportRevision: 1,
+      inlineFormValues: { title: 'Brown Eyed Girl', artist: 'Van Morrison', lyrics: '' },
+      tune: Object.assign({}, session.candidates[0].tune, {
+        name: 'Brown Eyed Girl',
+        composer: 'Van Morrison',
+      }),
+    })
+    setImportReviewSession(Object.assign({}, session, {
+      candidates: [candidate],
+    }))
+    const after = getImportReviewSessionRevision()
+
+    expect(after).not.toBe(before)
+  })
 })

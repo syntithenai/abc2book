@@ -1124,7 +1124,7 @@ function App(props) {
                     <Route  path={`filters`}   element={<FiltersPage tunebook={tunebook} setFilter={setFilter} setGroupBy={setGroupBy} setTagFilter={setTagFilter} setGenreFilter={setGenreFilter} setArtistFilter={setArtistFilter} setCurrentTuneBook={setCurrentTuneBook} />} />
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
-                    <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} />}  />
+                    <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} user={user} />}  />
                     <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} />}  />
                     <Route  path={`review`} element={<Navigate to="/" replace />} />
                     <Route  path={`sets`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />

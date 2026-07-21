@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Button, Col, Form, Modal, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { PRACTICE_INSTRUMENTS, normalizeSuitableInstruments } from '../practiceSessionSettings'
+import { TABLATURE_INSTRUMENT_OPTIONS } from '../tablatureConfig'
 import { getPlainLyricLines, setPlainLyricLines } from '../wLinesUtils'
 import { EDITOR_INFO_FIELD_HELP } from '../formFieldHelpText'
 import { FormLabelWithHelp } from './FormFieldHelp'
@@ -11,6 +11,7 @@ import TuneArtistsField from './TuneArtistsField'
 import ComposerSearchButton from './ComposerSearchButton'
 import FieldLookupReviewButton from './FieldLookupReviewButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
+import VoiceFillInput from './VoiceFillInput'
 import KeySignatureInput from './KeySignatureInput'
 
 function cloneTune(tune) {
@@ -115,9 +116,12 @@ export default function BulkCheckTuneEditorModal(props) {
                       onCapitalize={function(next) { updateDraft({ name: next }) }}
                     />
                   </div>
-                  <Form.Control
+                  <VoiceFillInput
                     value={draft.name || ''}
                     onChange={function(e) { updateDraft({ name: e.target.value }) }}
+                    fieldKind="title"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 </Form.Group>
               </Col>
@@ -149,9 +153,12 @@ export default function BulkCheckTuneEditorModal(props) {
                       }}
                     />
                   </div>
-                  <Form.Control
+                  <VoiceFillInput
                     value={draft.composer || ''}
                     onChange={function(e) { updateDraft({ composer: e.target.value }) }}
+                    fieldKind="composer"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 </Form.Group>
               </Col>
@@ -170,19 +177,25 @@ export default function BulkCheckTuneEditorModal(props) {
               <Col md={6}>
                 <Form.Group className="mb-3">
                   <FormLabelWithHelp label="Genre" helpBody={EDITOR_INFO_FIELD_HELP.genre.body} helpTitle={EDITOR_INFO_FIELD_HELP.genre.title} />
-                  <Form.Control
+                  <VoiceFillInput
                     value={draft.genre || ''}
                     onChange={function(e) { updateDraft({ genre: e.target.value }) }}
+                    fieldKind="search"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 </Form.Group>
               </Col>
               <Col md={6}>
                 <Form.Group className="mb-3">
                   <Form.Label>Type</Form.Label>
-                  <Form.Control
+                  <VoiceFillInput
                     value={draft.type || ''}
                     onChange={function(e) { updateDraft({ type: e.target.value }) }}
                     placeholder="e.g. song, reel"
+                    fieldKind="search"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 </Form.Group>
               </Col>
@@ -394,9 +407,13 @@ export default function BulkCheckTuneEditorModal(props) {
                     value={draft.tablature ? String(draft.tablature).trim() : ''}
                     onChange={function(e) { updateDraft({ tablature: e.target.value }) }}
                   >
-                    <option value="">—</option>
-                    <option value="guitar">Guitar</option>
-                    <option value="violin">Violin</option>
+                    {TABLATURE_INSTRUMENT_OPTIONS.map(function(opt) {
+                      return (
+                        <option key={opt.value || '__none'} value={opt.value}>
+                          {opt.value ? opt.label : '—'}
+                        </option>
+                      )
+                    })}
                   </Form.Select>
                 </Form.Group>
               </Col>

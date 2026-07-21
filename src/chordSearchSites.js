@@ -29,6 +29,33 @@ export function isMuseScoreUrl(url) {
   return host === 'musescore.com' || host.endsWith('.musescore.com')
 }
 
+export function isPaywalledMuseScoreAccessTier(accessTier) {
+  const tier = String(accessTier || '').trim().toLowerCase()
+  return tier === 'pro_required' || tier === 'paid_official'
+}
+
+export function isActionableNotationManualCandidate(item) {
+  if (!item || !item.url) return false
+  return !isPaywalledMuseScoreAccessTier(item.accessTier)
+}
+
+export function filterActionableNotationManualCandidates(manualCandidates) {
+  const list = Array.isArray(manualCandidates) ? manualCandidates : []
+  return list.filter(isActionableNotationManualCandidate)
+}
+
+/**
+ * Whether the notation paste flow should be offered.
+ */
+export function hasActionableNotationPasteCandidate(manualCandidates, options) {
+  const opts = options && typeof options === 'object' ? options : {}
+  if (opts.musescorePaywalled === true) return false
+  const actionable = filterActionableNotationManualCandidates(manualCandidates)
+  if (actionable.length > 0) return true
+  if (opts.musescorePaywalled === true) return false
+  return !opts.suppressMuseScoreSearchFallback
+}
+
 /**
  * Ultimate Guitar title search (not a specific tab — used when web search
  * did not return a concrete tabs.ultimate-guitar.com URL).
@@ -88,8 +115,10 @@ export function pickChordPasteCandidate(manualCandidates, title, artist) {
  * then any other locked notation page, then a MuseScore search URL so the
  * user can still import when discovery did not return a specific score.
  */
-export function pickNotationPasteCandidate(manualCandidates, title, artist) {
-  const list = Array.isArray(manualCandidates) ? manualCandidates : []
+export function pickNotationPasteCandidate(manualCandidates, title, artist, options) {
+  const opts = options && typeof options === 'object' ? options : {}
+  const all = Array.isArray(manualCandidates) ? manualCandidates : []
+  const list = filterActionableNotationManualCandidates(all)
   let muse = null
   let other = null
   list.forEach(function(item) {
@@ -101,12 +130,15 @@ export function pickNotationPasteCandidate(manualCandidates, title, artist) {
       host: String(item.host || hostFromUrl(item.url)).trim(),
       contentType: item.contentType || 'notation',
       reason: String(item.reason || '').trim(),
+      accessTier: String(item.accessTier || '').trim(),
     }
     if (!muse && isMuseScoreUrl(candidate.url)) muse = candidate
     else if (!other) other = candidate
   })
   if (muse) return muse
   if (other) return other
+  if (all.length > 0 && list.length === 0) return null
+  if (opts.musescorePaywalled === true) return null
   const fallbackUrl = buildMuseScoreSearchUrl(title, artist)
   if (!fallbackUrl) return null
   return {

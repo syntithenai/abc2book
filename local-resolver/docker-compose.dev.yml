@@ -48,12 +48,18 @@ services:
       - ./scripts/eval_chords.py:/app/scripts/eval_chords.py
       - ./image_search.py:/app/image_search.py
       - ./sheet_image_transcribe.py:/app/sheet_image_transcribe.py
+      - ./sheet_image_metadata.py:/app/sheet_image_metadata.py
+      - ./provider_cloud.py:/app/provider_cloud.py
+      - ./midi_resources.py:/app/midi_resources.py
+      - ./midi_fetch.py:/app/midi_fetch.py
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
+      - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"
       - ../:/app/www:ro
     environment:
       REQUIRE_AUTH: "true"
       STATIC_SITE_DIR: /app/www
       SOUNDFONT_DIR: /soundfonts
+      MIDI_RESOURCES_DIR: /midi-resources
       SOUNDFONT_DOWNLOAD_ENABLED: "${SOUNDFONT_DOWNLOAD_ENABLED:-true}"
     command:
       - python3

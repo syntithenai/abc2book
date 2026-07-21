@@ -184,7 +184,14 @@ COPY notation_fetch.py /app/notation_fetch.py
 COPY notation_title_variants.py /app/notation_title_variants.py
 COPY musescore_fetch.py /app/musescore_fetch.py
 COPY midi_convert.py /app/midi_convert.py
+COPY midi_analysis.py /app/midi_analysis.py
+COPY midi_to_abc.py /app/midi_to_abc.py
+COPY midi_import_score.py /app/midi_import_score.py
+COPY midi_import_orchestrator.py /app/midi_import_orchestrator.py
+COPY midi_chord_infer.py /app/midi_chord_infer.py
+COPY midi_harmony_voice.py /app/midi_harmony_voice.py
 COPY midi_fetch.py /app/midi_fetch.py
+COPY midi_resources.py /app/midi_resources.py
 COPY lyrics_fetch.py /app/lyrics_fetch.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
 COPY composer_discovery.py /app/composer_discovery.py
@@ -221,6 +228,7 @@ COPY sheet_image_omr.py /app/sheet_image_omr.py
 COPY sheet_image_melody.py /app/sheet_image_melody.py
 COPY sheet_image_vlm.py /app/sheet_image_vlm.py
 COPY sheet_image_transcribe.py /app/sheet_image_transcribe.py
+COPY sheet_image_metadata.py /app/sheet_image_metadata.py
 COPY sheet_image_features.py /app/sheet_image_features.py
 COPY image_search.py /app/image_search.py
 

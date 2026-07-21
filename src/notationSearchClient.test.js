@@ -104,6 +104,33 @@ describe('notationSearchClient', function() {
     expect(result.manualCandidates[0].contentType).toBe('notation')
   })
 
+  test('normalizeNotationSearch passes musescorePaywalled flag', function() {
+    const result = normalizeNotationSearch({
+      empty: true,
+      found: false,
+      musescorePaywalled: true,
+      manualCandidates: [],
+    })
+    expect(result.musescorePaywalled).toBe(true)
+    expect(result.manualCandidates).toHaveLength(0)
+  })
+
+  test('normalizeNotationSearch passes accessTier on manual candidates', function() {
+    const result = normalizeNotationSearch({
+      empty: true,
+      found: false,
+      manualCandidates: [{
+        url: 'https://musescore.com/user/1/scores/2',
+        title: 'Tune',
+        source: 'musescore.com',
+        reason: 'paywall',
+        accessTier: 'pro_required',
+        contentType: 'notation',
+      }],
+    })
+    expect(result.manualCandidates[0].accessTier).toBe('pro_required')
+  })
+
   test('normalizeNotationSearch converts MuseScore musicXml to abc', function() {
     const { MINIMAL_MUSICXML } = require('./__fixtures__/musicXmlSamples')
     const result = normalizeNotationSearch({

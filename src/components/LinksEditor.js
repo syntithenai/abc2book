@@ -12,14 +12,17 @@ import useGoogleDocument from '../useGoogleDocument'
 import {
     createRecordingLink,
     createAttachedAudioLink,
+    createAttachedMidiLink,
     isOwnedMediaLink,
     isOwnedMediaLinkUri,
     getOwnedMediaSyncStatus,
     resolveRecordingLinkAudio,
+    resolveRecordingLinkMidi,
 } from '../linkRecording'
-import { audioFileAcceptList, isAudioImportFile } from '../audioFileMetadata'
+import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile } from '../audioFileMetadata'
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
+import FieldVoiceFillButton from './FieldVoiceFillButton'
 
 const YT_PLAYING = 1
 const YT_ENDED = 0
@@ -48,7 +51,7 @@ function LinksEditorToolbarButton({ icon, label, variant, style, className, icon
 function linkIsPreviewable(link, isYoutubeLink) {
     if (!link || !link.link || !String(link.link).trim()) return false
     const srcType = getLinkSrcType(link, isYoutubeLink)
-    return srcType === 'audio' || srcType === 'recording' || srcType === 'youtube'
+    return srcType === 'audio' || srcType === 'recording' || srcType === 'youtube' || srcType === 'midifile'
 }
 
 function parseLinkStartSeconds(link) {
@@ -64,6 +67,7 @@ function parseLinkEndSeconds(link) {
 }
 
 function ownedMediaSourceLabel(link) {
+    if (link && link.mediaKind === 'midi') return 'MIDI file'
     if (link && link.source === 'file') return 'Attached file'
     return 'Recording'
 }
@@ -488,15 +492,25 @@ export default function LinksEditor(props) {
     function handleAttachAudio(event) {
         const tune = getTuneForOwnedMedia()
         if (!tune) {
-            setWarning('Save the tune before attaching audio.')
+            setWarning('Save the tune before attaching media.')
             event.target.value = ''
             return
         }
         const file = event.target.files && event.target.files[0]
         event.target.value = ''
         if (!file) return
+        if (isMidiImportFile(file)) {
+            handleOwnedMediaCreated(createAttachedMidiLink({
+                tune: tune,
+                file: file,
+                title: file.name,
+                token: props.token,
+                driveApi: driveDocs,
+            }))
+            return
+        }
         if (!isAudioImportFile(file)) {
-            setWarning('Please choose an audio file (MP3, WAV, FLAC, etc.). MIDI, notation, and image files are not supported.')
+            setWarning('Please choose an audio, video, or MIDI file.')
             return
         }
         handleOwnedMediaCreated(createAttachedAudioLink({
@@ -511,16 +525,28 @@ export default function LinksEditor(props) {
     function downloadOwnedMediaLink(link, linkIndex) {
         const tuneId = getTuneId()
         if (!tuneId || !link) return
-        resolveRecordingLinkAudio(link, tuneId, linkIndex, {
-            accessToken: props.token,
-            driveApi: driveDocs,
-            forPlayback: true,
-        }).then(function(resolved) {
+        const resolvePromise = getLinkSrcType(link, props.tunebook.utils.isYoutubeLink) === 'midifile'
+            ? resolveRecordingLinkMidi(link, tuneId, linkIndex, {
+                accessToken: props.token,
+                driveApi: driveDocs,
+                forPlayback: true,
+            }).then(function(resolved) {
+                return {
+                    blob: new Blob([resolved.arrayBuffer], { type: 'audio/midi' }),
+                }
+            })
+            : resolveRecordingLinkAudio(link, tuneId, linkIndex, {
+                accessToken: props.token,
+                driveApi: driveDocs,
+                forPlayback: true,
+            })
+        resolvePromise.then(function(resolved) {
             if (!resolved || !resolved.blob) return
             const url = URL.createObjectURL(resolved.blob)
             const a = document.createElement('a')
             a.href = url
-            a.download = (link.title || 'recording') + '.mp3'
+            const ext = link.mediaKind === 'midi' ? '.mid' : '.mp3'
+            a.download = (link.title || 'recording') + ext
             a.click()
             URL.revokeObjectURL(url)
         }).catch(function(e) {
@@ -546,7 +572,7 @@ export default function LinksEditor(props) {
                         label="Attach"
                         variant="primary"
                         style={LINKS_TOOLBAR_BTN_STYLE}
-                        accept={audioFileAcceptList()}
+                        accept={mediaFileAcceptList()}
                         disabled={ownedMediaBusy || audioUtils.isRecording}
                         onChange={handleAttachAudio}
                     />
@@ -737,6 +763,17 @@ export default function LinksEditor(props) {
                                                 links[lk].title = e.target.value
                                                 props.onChange(links)
                                             }} />
+                                            <FieldVoiceFillButton
+                                              fieldKind="search"
+                                              token={props.token}
+                                              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                                              onFill={function(text) {
+                                                var links = props.links
+                                                if (!links[lk]) links[lk] = {}
+                                                links[lk].title = text
+                                                props.onChange(links)
+                                              }}
+                                            />
                                             {ownedMedia && (
                                                 <>
                                                     <Badge bg="secondary">{ownedMediaSourceLabel(link)}</Badge>

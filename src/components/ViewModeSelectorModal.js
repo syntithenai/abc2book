@@ -92,7 +92,7 @@ function renderEditorModeIcon(modeId, tunebook) {
   return null;
 }
 
-function ViewModeVoiceControls(props) {
+export function ViewModeVoiceControls(props) {
   const { tune, tuneId, onChange, inline } = props;
   const voiceKeys = getTuneVoiceKeys(tune);
 
@@ -178,6 +178,7 @@ function DisplayModeToolbar(props) {
     separateInlineFitButton,
     fileControls,
     fileOverlayActive,
+    tablatureSelector,
   } = props;
 
   const notationOn = displayFlags && displayFlags.notation !== 'off';
@@ -205,6 +206,7 @@ function DisplayModeToolbar(props) {
           onChange={onVoiceSettingsChange}
         />
       ) : null}
+      {notationOn && tablatureSelector ? tablatureSelector : null}
       {showFit && !separateInlineFitButton ? (
         <NotationFitButton
           tunebook={tunebook}
@@ -329,6 +331,7 @@ export default function ViewModeSelectorModal(props) {
           separateInlineFitButton={separateInlineFitButton}
           fileControls={props.fileControls}
           fileOverlayActive={fileOverlayActive}
+          tablatureSelector={props.tablatureSelector}
         />
         {showSeparateInlineFitButton ? (
           <NotationFitButton
@@ -413,7 +416,7 @@ export default function ViewModeSelectorModal(props) {
                 </div>
               </>
             ) : null}
-            {displayFlags.notation !== 'off' && getTuneVoiceKeys(props.tune).length > 1 ? (
+            {displayFlags.notation !== 'off' && !props.hideInlineVoiceControls && getTuneVoiceKeys(props.tune).length > 1 ? (
               <>
                 <Dropdown.Divider />
                 <ViewModeVoiceControls
@@ -422,6 +425,18 @@ export default function ViewModeSelectorModal(props) {
                   tunebook={props.tunebook}
                   onChange={props.onVoiceSettingsChange}
                 />
+              </>
+            ) : null}
+            {displayFlags.notation !== 'off' && props.tablatureSelector ? (
+              <>
+                <Dropdown.Divider />
+                <div
+                  className="view-mode-tablature-selector"
+                  onClick={function(e) { e.stopPropagation(); }}
+                  onMouseDown={function(e) { e.stopPropagation(); }}
+                >
+                  {props.tablatureSelector}
+                </div>
               </>
             ) : null}
             {props.extraMenuContent ? (

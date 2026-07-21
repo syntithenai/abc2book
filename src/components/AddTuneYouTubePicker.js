@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Form, ListGroup, Spinner } from 'react-bootstrap'
 import { searchYouTubeVideos } from '../youtubeSearchClient'
+import VoiceFillInput from './VoiceFillInput'
 
 const DEFAULT_DEBOUNCE_MS = 1800
 
@@ -110,7 +111,7 @@ export default function AddTuneYouTubePicker(props) {
         </div>
       ) : null}
 
-      <Form.Control
+      <VoiceFillInput
         value={filter}
         placeholder="Search YouTube…"
         data-testid="add-tune-youtube-query"
@@ -121,6 +122,9 @@ export default function AddTuneYouTubePicker(props) {
         onBlur={function() {
           if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)
         }}
+        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+        token={props.token}
+        fieldKind="search"
       />
 
       {error ? <div className="text-danger small mt-2">{error}</div> : null}

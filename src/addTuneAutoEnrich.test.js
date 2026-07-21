@@ -410,6 +410,43 @@ describe('addTuneAutoEnrich', function() {
     expect(state.failure).toBe('')
   })
 
+  test('does not prompt MuseScore paste when notation is paywalled only', async function() {
+    const tune = { id: 't9', name: 'Bach Suite', composer: 'Bach' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({
+      empty: true,
+      found: false,
+      musescorePaywalled: true,
+      manualCandidates: [],
+    })
+    commitChordSearchResultToTune.mockReturnValue({ ok: false })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'notation' || kind === 'chords'
+    })
+    applyCandidateToTune.mockReturnValue(false)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t9')
+    expect(state.needsNotationPaste).toBe(false)
+    expect(state.musescorePaywalled).toBe(true)
+    expect(state.message).toMatch(/PRO or purchase/i)
+    expect(state.failure).toBe('')
+  })
+
   test('handles early notation rejection without unhandled rejection', async function() {
     const tune = { id: 't4', name: 'Song', composer: 'Writer' }
     const tunebook = {
@@ -460,5 +497,73 @@ describe('addTuneAutoEnrich', function() {
     expect(state.needsNotationPaste).toBe(true)
     expect(state.notationPasteCandidate.searchFallback).toBe(true)
     expect(state.failure).toBe('')
+  })
+
+  test('skips weak Session notation for named-artist songs', async function() {
+    const tune = { id: 't9', name: 'Back in Black', composer: 'AC/DC' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockResolvedValue({ empty: true })
+    searchNotation.mockResolvedValue({
+      source: 'thesession.org',
+      title: 'Black Joke (jig)',
+      abc: 'X:1\nK:D\n|:A2|',
+    })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    expect(applyCandidateToTune).not.toHaveBeenCalledWith(
+      tune,
+      'notation',
+      expect.anything(),
+      tunebook.abcTools
+    )
+  })
+
+  test('shows enrichment source summary after successful lookup', async function() {
+    const tune = { id: 't10', name: 'Song', composer: 'Writer' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({
+      chordText: 'C | G |',
+      source: 'ultimate-guitar.com',
+    })
+    searchLyrics.mockResolvedValue({ text: 'lyrics text', source: 'lyrics.ovh' })
+    searchNotation.mockResolvedValue({ abc: 'X:1\nK:C\nC D E F|' })
+    commitChordSearchResultToTune.mockReturnValue({ ok: true, lyricLines: [] })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'chords' || kind === 'notation'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t10')
+    expect(state.summary).toContain('Chords from ultimate-guitar.com')
+    expect(state.summary).toContain('Lyrics from lyrics.ovh')
+    expect(state.summary).toContain('Notation from notation search')
   })
 })

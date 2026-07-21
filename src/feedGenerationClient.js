@@ -63,6 +63,17 @@ function normalizeArticleItems(body, tune) {
   const now = Date.now()
   const tuneId = tune && tune.id != null ? String(tune.id) : null
   const NEW_RELEASE_RE = /\b(releases?\s+(a\s+)?new(\s+song|\s+single|\s+track)?|new\s+(song|single|track|album|release)\b|just\s+(released|dropped|out)|out\s+now\b|brand[- ]?new\b)/i
+const LOW_VALUE_AI_RE = /\b(musescore|uploaded to (the )?musescore|has been uploaded|digital score provides|readily available for download)\b/i
+const FILLER_ONLINE_RE = /\b(a modern transcription|is available online|available online, allowing musicians to access the score)\b/i
+
+function isLowValueAiArticle(headline, body) {
+  const blob = (headline + '\n' + body).toLowerCase()
+  if (LOW_VALUE_AI_RE.test(blob)) return true
+  if (FILLER_ONLINE_RE.test(blob)) return true
+  if (/\bavailable online\b/i.test(body) && body.length < 240) return true
+  if (/\bmusescore\b/i.test(headline)) return true
+  return false
+}
   return list.map(function(raw) {
     const headline = String(raw.headline || '').trim()
     const teaser = String(raw.teaser || raw.body || '').trim()
@@ -73,6 +84,7 @@ function normalizeArticleItems(body, tune) {
       return null
     }
     if (isThinNameListBody(articleBody)) return null
+    if (isLowValueAiArticle(headline, articleBody)) return null
     if (/^Notes on\b/i.test(headline) && articleBody.length < 120) return null
     return {
       id: makeId('ai'),

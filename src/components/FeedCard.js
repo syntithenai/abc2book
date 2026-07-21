@@ -3,8 +3,10 @@ import { useSwipeable } from 'react-swipeable'
 import { Link } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import { buildQuizBundle } from '../feedQuizUtils'
+import { isFeedFeedbackAdmin, getExampleDisplayCaption } from '../feedFeedbackUtils'
 import AbcSnippetPreview from './AbcSnippetPreview'
 import TheoryLessonNotation from './TheoryLessonNotation'
+import FeedCardFeedbackModal from './FeedCardFeedbackModal'
 import { feedCardTypeClass, feedCardTypeLabel } from '../feedCardStyle'
 
 export default function FeedCard(props) {
@@ -16,6 +18,8 @@ export default function FeedCard(props) {
   const [choiceId, setChoiceId] = useState(null)
   const [results, setResults] = useState([])
   const [summary, setSummary] = useState(false)
+  const [showFeedback, setShowFeedback] = useState(false)
+  const showFeedbackControls = isFeedFeedbackAdmin(props.user)
 
   const quizBundle = item.quiz ? buildQuizBundle(item.quiz, { shuffle: false }) : null
   const questions = quizBundle && quizBundle.questions ? quizBundle.questions : []
@@ -51,6 +55,7 @@ export default function FeedCard(props) {
 
   function onExpandClick(e) {
     if (e && e.target && e.target.closest && e.target.closest('[data-testid="feed-card-dismiss"]')) return
+    if (e && e.target && e.target.closest && e.target.closest('[data-testid="feed-card-feedback"]')) return
     if (e && e.target && e.target.closest && e.target.closest(
       'a, .feed-quiz-choice, [data-testid^="feed-quiz-choice"], [data-testid="feed-quiz-next"], [data-testid="feed-quiz-summary"]'
     )) return
@@ -94,7 +99,9 @@ export default function FeedCard(props) {
   const typeLabel = feedCardTypeLabel(item)
   const hasLessonExample = item.type === 'theory_lesson'
     && !!(item.exampleAbc || item.exampleImageUrl)
-  const lessonPortrait = !!(item.exampleImageUrl && !item.exampleAbc)
+  const lessonImage = !!(item.exampleImageUrl && !item.exampleAbc)
+  const lessonNotation = !!(item.exampleAbc && !item.exampleImageUrl)
+  const exampleLabel = getExampleDisplayCaption(item)
 
   return (
     <article
@@ -126,20 +133,47 @@ export default function FeedCard(props) {
           {!expanded ? (
             <p className="feed-card-teaser" data-testid="feed-card-teaser">{item.teaser}</p>
           ) : null}
-          {!expanded && hasLessonExample && lessonPortrait ? (
+          {!expanded && hasLessonExample && lessonImage ? (
             <div className="feed-card-example feed-card-example--collapsed" data-testid="feed-card-example">
-              {item.exampleCaption ? (
-                <p className="feed-card-example-caption">{item.exampleCaption}</p>
-              ) : null}
               <img
                 className="feed-card-example-image feed-card-example-image--thumb"
                 src={item.exampleImageUrl}
                 alt=""
                 loading="lazy"
               />
+              {exampleLabel ? (
+                <p className="feed-card-example-label">
+                  {exampleLabel}
+                </p>
+              ) : null}
+            </div>
+          ) : null}
+          {!expanded && hasLessonExample && lessonNotation ? (
+            <div
+              className="feed-card-example feed-card-example--collapsed feed-card-example--notation-thumb"
+              data-testid="feed-card-example-notation"
+            >
+              <TheoryLessonNotation abc={item.exampleAbc} compact measuresPerLine={2} />
+              {exampleLabel ? (
+                <p className="feed-card-example-label">
+                  {exampleLabel}
+                </p>
+              ) : null}
             </div>
           ) : null}
         </button>
+        {showFeedbackControls ? (
+          <button
+            type="button"
+            className="feed-card-feedback"
+            data-testid="feed-card-feedback"
+            aria-label="Feedback"
+            title="Feedback"
+            onClick={function() { setShowFeedback(true) }}
+          >
+            ✎
+          </button>
+        ) : null}
         <button
           type="button"
           className="feed-card-dismiss"
@@ -150,14 +184,20 @@ export default function FeedCard(props) {
           ×
         </button>
       </div>
+      {showFeedbackControls ? (
+        <FeedCardFeedbackModal
+          show={showFeedback}
+          item={item}
+          feedbackSyncKey={props.feedbackSyncKey}
+          onChanged={props.onFeedbackChange}
+          onHide={function() { setShowFeedback(false) }}
+        />
+      ) : null}
       {item.source ? <div className="feed-card-source-chip">{item.source}{item.generation ? ' · ' + item.generation : ''}</div> : null}
       {expanded ? (
         <div className="feed-card-body" data-testid="feed-card-body">
           {hasLessonExample ? (
             <div className="feed-card-example feed-card-example--expanded" data-testid="feed-card-example-expanded">
-              {item.exampleCaption ? (
-                <p className="feed-card-example-caption">{item.exampleCaption}</p>
-              ) : null}
               {item.exampleAbc ? (
                 <TheoryLessonNotation abc={item.exampleAbc} />
               ) : item.exampleImageUrl ? (
@@ -167,6 +207,11 @@ export default function FeedCard(props) {
                   alt=""
                   loading="lazy"
                 />
+              ) : null}
+              {exampleLabel ? (
+                <p className="feed-card-example-label">
+                  {exampleLabel}
+                </p>
               ) : null}
             </div>
           ) : null}

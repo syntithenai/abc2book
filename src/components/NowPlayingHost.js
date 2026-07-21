@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import MediaPlayerMedia from './MediaPlayerMedia'
+import MediaPlayerMidiFile from './MediaPlayerMidiFile'
 import Abc from './Abc'
 import {
   isQueueActive,
@@ -14,6 +15,7 @@ import {
 import { shouldSuppressHostAutostart } from '../playbackNavigationUtils'
 import { buildPlayableTuneAbc } from '../abcVoiceFilter'
 import { getPlayableVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
+import { resolveLinkPlaybackSrcType } from '../mediaLinkSrcType'
 import './NowPlayingHost.css'
 
 function resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, urlPlayback) {
@@ -196,6 +198,12 @@ export default function NowPlayingHost(props) {
   const routeMediaLinkNumber = playbackTarget.type === 'media'
     ? String(playbackTarget.linkNum != null ? playbackTarget.linkNum : 0)
     : '0'
+  const activeMediaLink = playbackTarget.type === 'media' && playingTune && Array.isArray(playingTune.links)
+    ? playingTune.links[parseInt(routeMediaLinkNumber, 10) || 0]
+    : null
+  const activeMediaSrcType = activeMediaLink && tunebook
+    ? resolveLinkPlaybackSrcType(activeMediaLink, tunebook.utils && tunebook.utils.isYoutubeLink)
+    : null
   const engineKey = playbackTarget.type === 'midi'
     ? 'host-midi-' + playingTune.id + '-v' + playableVoiceKey
     // Keep a stable media host key so queue advance reuses the same <audio>
@@ -206,18 +214,30 @@ export default function NowPlayingHost(props) {
   return (
     <div className="now-playing-host" aria-hidden="true">
       {playbackTarget.type === 'media' ? (
-        <MediaPlayerMedia
-          key={engineKey}
-          mediaController={mediaController}
-          tunebook={tunebook}
-          tune={playingTune}
-          routePlayState={routePlayState}
-          routeMediaLinkNumber={routeMediaLinkNumber}
-          suppressAutostart={suppressAutostart}
-          suppressTapModal={true}
-          instanceId="queue"
-          compactPlayer={true}
-        />
+        activeMediaSrcType === 'midifile' ? (
+          <MediaPlayerMidiFile
+            key={'host-midifile-' + playingTune.id + '-' + routeMediaLinkNumber}
+            mediaController={mediaController}
+            tunebook={tunebook}
+            tune={playingTune}
+            routePlayState={routePlayState}
+            routeMediaLinkNumber={routeMediaLinkNumber}
+            suppressAutostart={suppressAutostart}
+          />
+        ) : (
+          <MediaPlayerMedia
+            key={engineKey}
+            mediaController={mediaController}
+            tunebook={tunebook}
+            tune={playingTune}
+            routePlayState={routePlayState}
+            routeMediaLinkNumber={routeMediaLinkNumber}
+            suppressAutostart={suppressAutostart}
+            suppressTapModal={true}
+            instanceId="queue"
+            compactPlayer={true}
+          />
+        )
       ) : (
         <Abc
           key={engineKey}

@@ -98,6 +98,10 @@ export function getMediaResolverHealthState() {
   return state;
 }
 
+export function getActiveResolverAccessToken() {
+  return activeAccessToken || '';
+}
+
 export function getAuthResolverBase() {
   return state.authBase || '';
 }

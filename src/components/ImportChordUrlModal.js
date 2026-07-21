@@ -10,6 +10,7 @@ import SearchProgressBar from './SearchProgressBar';
 import TuneAliasesField from './TuneAliasesField';
 import ComposerSearchButton from './ComposerSearchButton';
 import FieldLookupReviewButton from './FieldLookupReviewButton'
+import VoiceFillInput from './VoiceFillInput'
 import { useCancellableAsyncJob } from '../useCancellableAsyncJob';
 
 function parseBulkLine(line) {
@@ -244,7 +245,15 @@ export default function ImportChordUrlModal(props) {
 
           {mode === 'title' ? (
             <>
-              <Form.Control className="mb-2" placeholder="Song title" value={title} onChange={function(e) { setTitle(e.target.value); }} />
+              <VoiceFillInput
+                className="mb-2"
+                placeholder="Song title"
+                value={title}
+                onChange={function(e) { setTitle(e.target.value); }}
+                fieldKind="title"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              />
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6em', flexWrap: 'wrap', marginBottom: '0.35em' }}>
                 <span className="text-muted small">Artist</span>
                 <ComposerSearchButton
@@ -271,7 +280,15 @@ export default function ImportChordUrlModal(props) {
                   }}
                 />
               </div>
-              <Form.Control className="mb-2" placeholder="Artist (optional)" value={artist} onChange={function(e) { setArtist(e.target.value); }} />
+              <VoiceFillInput
+                className="mb-2"
+                placeholder="Artist (optional)"
+                value={artist}
+                onChange={function(e) { setArtist(e.target.value); }}
+                fieldKind="composer"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              />
               <TuneAliasesField
                 value={aliases}
                 onChange={function(next) { setAliases(next); }}

@@ -6,6 +6,7 @@ import TuneBookOptionsModal from '../components/TuneBookOptionsModal'
 import {useNavigate} from 'react-router-dom'
 import YourFilters from '../components/YourFilters'
 import CollectionNav from '../components/CollectionNav'
+import FieldVoiceFillButton from '../components/FieldVoiceFillButton'
 import {
   BOOKS_PAGE_SECTIONS,
   RECENT_ARTISTS_DEFAULT,
@@ -313,6 +314,12 @@ export default function BooksPage(props) {
                         value={sectionSearch}
                         aria-label="Filter all sections"
                         onChange={function(e) { setSectionSearch(e.target.value) }}
+                    />
+                    <FieldVoiceFillButton
+                        fieldKind="search"
+                        token={props.token}
+                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                        onFill={function(text) { setSectionSearch(text) }}
                     />
                 </InputGroup>
 

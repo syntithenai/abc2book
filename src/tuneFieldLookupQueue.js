@@ -182,6 +182,7 @@ function publicJob(job) {
     error: job.error,
     candidates: Array.isArray(job.candidates) ? job.candidates.slice() : [],
     manualCandidates: Array.isArray(job.manualCandidates) ? job.manualCandidates.slice() : [],
+    musescorePaywalled: !!job.musescorePaywalled,
     options: job.options ? Object.assign({}, job.options) : {},
     appliedCandidate: job.appliedCandidate || null,
     suggestedTitle: job.suggestedTitle || '',
@@ -805,11 +806,21 @@ function normalizeCandidatesFromResult(kind, result, options) {
     }
   }
 
+  if (result.empty && result.musescorePaywalled === true) {
+    return {
+      candidates: [],
+      manualCandidates: [],
+      empty: true,
+      musescorePaywalled: true,
+    }
+  }
+
   if (result.empty && Array.isArray(result.manualCandidates) && result.manualCandidates.length > 0) {
     return {
       candidates: [],
       manualCandidates: result.manualCandidates,
       empty: true,
+      musescorePaywalled: result.musescorePaywalled === true,
     }
   }
 
@@ -896,6 +907,8 @@ async function runSearch(job, signal) {
   if (job.kind === 'notation') {
     return searchNotation(Object.assign({}, base, {
       songType: (job.options && job.options.songType) || undefined,
+      midiFallback: !!(job.options && job.options.midiFallback)
+        || !!(searchOptions && searchOptions.midiFallback),
       loadTuneTexts: searchOptions.loadTuneTexts || null,
       searchIndex: searchOptions.searchIndex || null,
     }))
@@ -1164,10 +1177,24 @@ async function runJob(job) {
 
     if (normalized.manualCandidates.length > 0 && normalized.candidates.length === 0) {
       job.manualCandidates = normalized.manualCandidates
+      job.musescorePaywalled = normalized.musescorePaywalled === true
       job.candidates = []
       job.status = 'awaiting'
       job.progress = 100
       job.message = ''
+      notifyLive(job)
+      return
+    }
+
+    if (normalized.musescorePaywalled && normalized.candidates.length === 0) {
+      job.manualCandidates = []
+      job.musescorePaywalled = true
+      job.candidates = []
+      job.status = 'done'
+      job.progress = 100
+      job.message = 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'
+      job.error = null
+      toastFieldSearchFinished(job.kind, { count: 0, applied: false })
       notifyLive(job)
       return
     }

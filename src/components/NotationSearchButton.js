@@ -22,7 +22,7 @@ import FieldSearchResultsCaret from './FieldSearchResultsCaret'
 import { renderFieldLookupSearchUi } from './fieldLookupSearchUi'
 import { maybeOfferGenreFromSearchResult } from '../genreSideSuggestions'
 import { buildExternalSearchQuestion, buildGoogleSearchQuestionUrl } from '../externalSearchLinks'
-import { buildMuseScoreSearchUrl } from '../chordSearchSites'
+import { buildMuseScoreSearchUrl, filterActionableNotationManualCandidates } from '../chordSearchSites'
 import { getMediaAnalysisJob } from '../mediaAnalysisJobs'
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 import { restoreFieldLookupOriginalToTune } from '../fieldSuggestionApply'
@@ -112,6 +112,7 @@ export default function NotationSearchButton({
   const [showRefine, setShowRefine] = useState(false)
   const [refineJobId, setRefineJobId] = useState(null)
   const [manualCandidates, setManualCandidates] = useState([])
+  const [musescorePaywalled, setMusescorePaywalled] = useState(false)
   const [lockedModalCandidate, setLockedModalCandidate] = useState(null)
   const { available: resolverAvailableFromHealth } = useMediaResolverHealth()
   const resolverAvailable = typeof resolverAvailableProp === 'boolean'
@@ -166,15 +167,22 @@ export default function NotationSearchButton({
     kind: 'notation',
     onAwaiting: function(job) {
       const manuals = Array.isArray(job.manualCandidates) ? job.manualCandidates : []
+      const actionableManuals = filterActionableNotationManualCandidates(manuals)
       const candidates = searchableSuggestions(job)
+      setMusescorePaywalled(!!job.musescorePaywalled)
       if (job.status === 'done' || (job.appliedCandidate && fieldEmpty)) {
         if (job.appliedCandidate && typeof onNotation === 'function') {
           onNotation(job.appliedCandidate)
         }
         return
       }
-      if (manuals.length > 0 && candidates.length === 0) {
-        setManualCandidates(manuals)
+      if (actionableManuals.length > 0 && candidates.length === 0) {
+        setManualCandidates(actionableManuals)
+        setError('')
+        return
+      }
+      if (job.musescorePaywalled && candidates.length === 0) {
+        setManualCandidates([])
         setError('')
         return
       }
@@ -183,12 +191,14 @@ export default function NotationSearchButton({
         return
       }
       setManualCandidates([])
+      setMusescorePaywalled(false)
       const key = targetKeyForFieldSearch(tuneId, candidateId)
       if (key) setFieldSearchResults(key, 'notation', candidates)
       openPicker(candidates)
     },
     onError: function(job) {
       setManualCandidates([])
+      setMusescorePaywalled(false)
       setError(job.error || 'Notation search failed')
     },
   })
@@ -228,6 +238,26 @@ export default function NotationSearchButton({
     </Button>
   ) : null
 
+  function runMidiFallbackSearch() {
+    if (!canSearch || busy) return
+    setError('')
+    setManualCandidates([])
+    setMusescorePaywalled(false)
+    setLockedModalCandidate(null)
+    lookup.startSearch({
+      title: title,
+      artist: artist || '',
+      tuneName: title,
+      accessToken: token,
+      options: buildSearchModeOptions('review', { songType: songType, midiFallback: true }),
+      searchOptions: {
+        resolverAvailable: resolverAvailable,
+        abcTools: tunebook && tunebook.abcTools ? tunebook.abcTools : null,
+        midiFallback: true,
+      },
+    })
+  }
+
   function run(mode) {
     if (!canSearch) {
       setError(!(title || '').trim()
@@ -245,6 +275,7 @@ export default function NotationSearchButton({
     setShowPicker(false)
     setPickerCandidates([])
     setManualCandidates([])
+    setMusescorePaywalled(false)
     setLockedModalCandidate(null)
     const started = lookup.startSearch({
       title: title,
@@ -323,6 +354,11 @@ export default function NotationSearchButton({
     suggestionsDropdown: null,
     errorNode: (
       <>
+        {musescorePaywalled ? (
+          <Alert variant="info" className="mt-2 mb-0">
+            MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.
+          </Alert>
+        ) : null}
         {error ? <Alert variant="danger" className="mt-2 mb-0">{error}</Alert> : null}
         <ManualCandidatesFeedback
           message="Notation found on MuseScore, but automatic download is unavailable"
@@ -411,6 +447,7 @@ export default function NotationSearchButton({
         <LockedSourcePasteModal
           show={!!lockedModalCandidate}
           onHide={function() { setLockedModalCandidate(null) }}
+          onAbandon={function() { runMidiFallbackSearch() }}
           candidate={lockedModalCandidate}
           searchTitle={title}
           searchArtist={artist}

@@ -10,10 +10,21 @@ import TunerStabilityMeter from './TunerStabilityMeter'
 import { adaptiveDisplayRange } from './tunerDisplayUtils'
 import {
   createPitchStabilizer,
-  formatDetectedNoteLabel,
+  createNoteStripController,
+  formatDetectedFrequencyLabel,
   fineDisplayRange,
   DEFAULT_GATE_THRESHOLD,
-  IN_TUNE_HOLD_MS
+  IN_TUNE_HOLD_MS,
+  BOWED_IN_TUNE_HOLD_MS,
+  BOWED_IN_TUNE_MAX_STABILITY_CENTS,
+  BOWED_MIN_STRING_DWELL_MS,
+  MEDIAN_WINDOW,
+  BOWED_MEDIAN_WINDOW,
+  BOWED_HOLD_AFTER_MS,
+  BOWED_RECENT_CENTS_MAX,
+  HOLD_AFTER_MS,
+  NOTE_STRIP_HOLD_MS,
+  NOTE_STRIP_HOLD_MS_BOWED
 } from './pitchStabilizer'
 import { playInTuneChime } from './tunerInTuneChime'
 import {
@@ -22,6 +33,8 @@ import {
   CHROMATIC_INSTRUMENT,
   isChromaticInstrument,
   isValidTunerInstrumentSelection,
+  isBowedTunerInstrument,
+  usesBowedTunerStabilization,
   presetsForInstrument,
   getPreset,
   defaultPresetForInstrument
@@ -33,10 +46,17 @@ import {
   wrongStringWarning,
   simpleNoteLabel,
   chromaticCentsForFrequency,
+  frequencyToMidi,
   IN_TUNE_CENTS,
   INTONATION_AMBER_CENTS
 } from '../tunerTuningUtils'
 import { canonicalTuningLabel } from '../tuningPresetResolver'
+import {
+  readRecentTunerSelections,
+  pushRecentTunerSelection,
+  formatRecentTunerSelectionLabel,
+  tunerSelectionKey
+} from './tunerRecentSelections'
 import './style.css'
 
 const LS_INSTRUMENT = 'bookstorage_last_tuner_instrument'
@@ -147,10 +167,17 @@ export default function TunerComponent(props) {
   const [audioStarted, setAudioStarted] = useState(false)
   const [referencePlaying, setReferencePlaying] = useState(false)
   const [savePrompt, setSavePrompt] = useState(null)
+  const [recentSelections, setRecentSelections] = useState(readRecentTunerSelections)
 
   const notesRef = useRef()
   const appRef = useRef()
   const stabilizerRef = useRef(createPitchStabilizer({ gateThreshold: readStoredGate() }))
+  const noteStripRef = useRef(createNoteStripController({
+    holdMs: usesBowedTunerStabilization(initialInstrument)
+      ? NOTE_STRIP_HOLD_MS_BOWED
+      : NOTE_STRIP_HOLD_MS
+  }))
+  const bowedStabilizationRef = useRef(usesBowedTunerStabilization(initialInstrument))
   const presetRef = useRef(null)
   const activeStringRef = useRef(0)
   const modeRef = useRef('tune')
@@ -164,6 +191,7 @@ export default function TunerComponent(props) {
   const fineModeRef = useRef(fineMode)
   const autoAdvanceRef = useRef(autoAdvance)
   const nextStringRef = useRef(function() {})
+  const stringSelectedAtRef = useRef(Date.now())
 
   const preset = useMemo(function() {
     if (isChromaticInstrument(instrument)) return null
@@ -181,6 +209,11 @@ export default function TunerComponent(props) {
 
   useEffect(function() { presetRef.current = preset }, [preset])
   useEffect(function() { activeStringRef.current = activeStringIndex }, [activeStringIndex])
+  useEffect(function() {
+    stringSelectedAtRef.current = Date.now()
+    inTuneSinceRef.current = null
+    autoAdvancedForRef.current = -1
+  }, [activeStringIndex, intonationStep])
   useEffect(function() { modeRef.current = mode }, [mode])
   useEffect(function() { intonationStepRef.current = intonationStep }, [intonationStep])
   useEffect(function() { a4Ref.current = a4 }, [a4])
@@ -188,6 +221,17 @@ export default function TunerComponent(props) {
   useEffect(function() { instrumentRef.current = instrument }, [instrument])
   useEffect(function() { fineModeRef.current = fineMode }, [fineMode])
   useEffect(function() { autoAdvanceRef.current = autoAdvance }, [autoAdvance])
+  useEffect(function() {
+    const bowed = usesBowedTunerStabilization(instrument)
+    bowedStabilizationRef.current = bowed
+    stabilizerRef.current.configure({
+      windowSize: bowed ? BOWED_MEDIAN_WINDOW : MEDIAN_WINDOW,
+      holdAfterMs: bowed ? BOWED_HOLD_AFTER_MS : HOLD_AFTER_MS,
+      recentCentsMax: bowed ? BOWED_RECENT_CENTS_MAX : 24
+    })
+    noteStripRef.current.setHoldMs(bowed ? NOTE_STRIP_HOLD_MS_BOWED : NOTE_STRIP_HOLD_MS)
+  }, [instrument])
+
   useEffect(function() {
     stabilizerRef.current.setGateThreshold(gateThreshold)
   }, [gateThreshold])
@@ -210,6 +254,7 @@ export default function TunerComponent(props) {
 
   function resetReading(clearHistory) {
     stabilizerRef.current.reset()
+    noteStripRef.current.reset()
     inTuneSinceRef.current = null
     autoAdvancedForRef.current = -1
     if (clearHistory) {
@@ -227,13 +272,17 @@ export default function TunerComponent(props) {
     const p = presetRef.current
     if (!p || !freq) return null
     const active = activeStringRef.current
+    const bowedDirect = usesBowedTunerStabilization(instrumentRef.current)
+      && modeRef.current === 'tune'
+      && intonationStepRef.current === 'open'
+    const centsOpts = bowedDirect ? { directOnly: true } : null
     if (modeRef.current === 'tune') {
-      return centsForActiveString(freq, p, active, a4Ref.current)
+      return centsForActiveString(freq, p, active, a4Ref.current, centsOpts)
     }
     const targets = targetFrequenciesForPreset(p, a4Ref.current)
     const openHz = targets[active] ? targets[active].frequency : null
     if (intonationStepRef.current === 'open') {
-      return centsForActiveString(freq, p, active, a4Ref.current)
+      return centsForActiveString(freq, p, active, a4Ref.current, centsOpts)
     }
     if (openHz) {
       const harmonicHz = harmonicTargetForOpenString(openHz)
@@ -268,6 +317,10 @@ export default function TunerComponent(props) {
       inTuneSinceRef.current = null
       return
     }
+    if (held) {
+      inTuneSinceRef.current = null
+      return
+    }
     if (isChromaticInstrument(instrumentRef.current)) return
     if (modeRef.current !== 'tune') return
     if (Math.abs(cents) > IN_TUNE_CENTS) {
@@ -275,10 +328,24 @@ export default function TunerComponent(props) {
       return
     }
 
+    const bowed = usesBowedTunerStabilization(instrumentRef.current)
     const now = Date.now()
+    if (bowed) {
+      if (now - stringSelectedAtRef.current < BOWED_MIN_STRING_DWELL_MS) {
+        inTuneSinceRef.current = null
+        return
+      }
+      const stability = stabilizerRef.current.getStabilityCents()
+      if (stability == null || stability > BOWED_IN_TUNE_MAX_STABILITY_CENTS) {
+        inTuneSinceRef.current = null
+        return
+      }
+    }
+
     if (!inTuneSinceRef.current) inTuneSinceRef.current = now
 
-    if (now - inTuneSinceRef.current < IN_TUNE_HOLD_MS) return
+    const holdMs = bowed ? BOWED_IN_TUNE_HOLD_MS : IN_TUNE_HOLD_MS
+    if (now - inTuneSinceRef.current < holdMs) return
 
     if (autoAdvancedForRef.current === activeStringRef.current) return
 
@@ -291,6 +358,28 @@ export default function TunerComponent(props) {
     if (autoAdvanceRef.current) {
       nextStringRef.current(true)
     }
+  }
+
+  function stringButtonCents() {
+    if (displayCents == null || isHeld) return null
+    if (!usesBowedTunerStabilization(instrument)) return displayCents
+    if (stabilityCents == null || stabilityCents > BOWED_IN_TUNE_MAX_STABILITY_CENTS) return null
+    return displayCents
+  }
+
+  function updateNoteStrip(freq, isHeld) {
+    if (!isChromaticInstrument(instrumentRef.current)) return
+    if (!appRef.current || !freq) return
+    const midi = frequencyToMidi(freq, a4Ref.current)
+    if (!noteStripRef.current.shouldUpdate(midi, isHeld)) return
+    const tuner = appRef.current.tuner
+    appRef.current.update({
+      name: tuner.noteStrings[midi % 12],
+      value: midi,
+      cents: tuner.getCents(freq, midi),
+      octave: parseInt(midi / 12, 10) - 1,
+      frequency: freq
+    })
   }
 
   function applyReading(freq, cents, label, held, appendHistory) {
@@ -315,21 +404,27 @@ export default function TunerComponent(props) {
 
   const onPitchSample = useCallback(function(note) {
     const rawFreq = note.frequency
-    const label = formatDetectedNoteLabel(note)
+    const sampleLevel = note.inputLevel != null && Number.isFinite(note.inputLevel)
+      ? note.inputLevel
+      : inputLevelRef.current
+    inputLevelRef.current = sampleLevel
+
     const stab = stabilizerRef.current.process(
       rawFreq,
-      inputLevelRef.current,
+      sampleLevel,
       null,
-      label
+      null
     )
 
     if (!stab.freq) return
 
+    const label = formatDetectedFrequencyLabel(stab.freq, a4Ref.current)
     const frameCents = computeCentsForFreq(stab.freq)
     stabilizerRef.current.pushCents(frameCents)
     const displayCentsValue = stabilizerRef.current.getDisplayCents()
     const cents = displayCentsValue != null ? displayCentsValue : frameCents
     applyReading(stab.freq, cents, label, stab.isHeld, !stab.isHeld)
+    updateNoteStrip(stab.freq, stab.isHeld)
 
     if (!isChromaticInstrument(instrumentRef.current) && modeRef.current === 'tune' && !dismissedWrongRef.current) {
       const p = presetRef.current
@@ -381,6 +476,10 @@ export default function TunerComponent(props) {
     }
   }, [instrument, presetId])
 
+  function recordRecentSelection(instr, nextPresetId) {
+    setRecentSelections(pushRecentTunerSelection(instr, nextPresetId))
+  }
+
   useEffect(function() {
     if (!props.pauseAudio) return undefined
     if (appRef.current) {
@@ -426,14 +525,28 @@ export default function TunerComponent(props) {
     }).catch(function() {})
   }
 
-  function initAudio() {
-    if (appRef.current && !audioStarted) {
-      if (selectedMicId) appRef.current.setInputDeviceId(selectedMicId)
-      appRef.current.init()
-      appRef.current.start()
+  function ensureAudioCapture() {
+    if (!appRef.current) return
+    const app = appRef.current
+    if (selectedMicId) app.setInputDeviceId(selectedMicId)
+    if (!app.tuner.pitchDetector) {
+      app.init()
+      app.start()
       setAudioStarted(true)
       refreshMicDevices()
+      return
     }
+    if (app.tuner.audioContext && app.tuner.audioContext.state === 'suspended') {
+      app.tuner.audioContext.resume().catch(function() {})
+    }
+    if (!app.tuner.mediaStream) {
+      app.tuner.startRecord()
+    }
+    if (!app.isRunning) {
+      app.start()
+    }
+    setAudioStarted(true)
+    refreshMicDevices()
   }
 
   function handleInstrumentChange(e) {
@@ -447,6 +560,7 @@ export default function TunerComponent(props) {
       setMode('tune')
       setActiveStringIndex(0)
       setIntonationStep('open')
+      recordRecentSelection(instr, '')
       return
     }
     const stored = localStorage.getItem(tuningStorageKey(instr))
@@ -455,6 +569,7 @@ export default function TunerComponent(props) {
     setActiveStringIndex(0)
     setIntonationStep('open')
     setMode(readStoredBool(LS_CHECK_HARMONICS, false) ? 'intonation' : 'tune')
+    recordRecentSelection(instr, nextId)
   }
 
   function handlePresetChange(e) {
@@ -465,12 +580,42 @@ export default function TunerComponent(props) {
     setWrongWarn(null)
     setActiveStringIndex(0)
     setIntonationStep('open')
+    recordRecentSelection(instrument, nextId)
     if (props.tuneId && props.onPresetChange) {
       const p = getPreset(instrument, nextId)
       if (p) {
         setSavePrompt({ label: canonicalTuningLabel(p), preset: p })
       }
     }
+  }
+
+  function applyRecentSelection(entry) {
+    if (!entry) return
+    const nextPresetId = isChromaticInstrument(entry.instrument)
+      ? ''
+      : (entry.presetId || (defaultPresetForInstrument(entry.instrument) || {}).id || '')
+    if (
+      entry.instrument === instrument
+      && nextPresetId === (isChromaticInstrument(instrument) ? '' : presetId)
+    ) {
+      ensureAudioCapture()
+      return
+    }
+    stopReferenceTone()
+    setDismissedWrong(false)
+    setWrongWarn(null)
+    setActiveStringIndex(0)
+    setIntonationStep('open')
+    setInstrument(entry.instrument)
+    if (isChromaticInstrument(entry.instrument)) {
+      setPresetId('')
+      setMode('tune')
+      ensureAudioCapture()
+      return
+    }
+    setPresetId(entry.presetId || (defaultPresetForInstrument(entry.instrument) || {}).id || '')
+    setMode(readStoredBool(LS_CHECK_HARMONICS, false) ? 'intonation' : 'tune')
+    ensureAudioCapture()
   }
 
   function handleMicChange(e) {
@@ -487,7 +632,7 @@ export default function TunerComponent(props) {
   }
 
   function toggleReferenceTone() {
-    initAudio()
+    ensureAudioCapture()
     if (referencePlaying) {
       stopReferenceTone()
       return
@@ -547,9 +692,11 @@ export default function TunerComponent(props) {
     : ''
 
   const displayNoteLabel = noteLabel || (!isChromatic ? activeTargetLabel : '')
+  const activeSelectionKey = tunerSelectionKey(instrument, presetId)
+  const stringMeterCents = stringButtonCents()
 
   return (
-    <div className="tuner-root" onClick={initAudio}>
+    <div className="tuner-root" onClick={ensureAudioCapture}>
       {!audioStarted && (
         <Alert variant="info" className="tuner-tap-hint">Tap anywhere to enable the microphone</Alert>
       )}
@@ -560,6 +707,27 @@ export default function TunerComponent(props) {
 
       <div className="tuner-controls">
         <div className="tuner-settings-block">
+          {recentSelections.length > 0 ? (
+            <div className="tuner-recent-row" onClick={function(e) { e.stopPropagation() }}>
+              {recentSelections.map(function(entry) {
+                const key = tunerSelectionKey(entry.instrument, entry.presetId)
+                const isActive = key === activeSelectionKey
+                return (
+                  <Button
+                    key={key}
+                    size="sm"
+                    variant="outline-secondary"
+                    className={'tuner-recent-btn' + (isActive ? ' tuner-recent-btn-active' : '')}
+                    onClick={function() { applyRecentSelection(entry) }}
+                    title={formatRecentTunerSelectionLabel(entry)}
+                    aria-pressed={isActive}
+                  >
+                    {formatRecentTunerSelectionLabel(entry)}
+                  </Button>
+                )
+              })}
+            </div>
+          ) : null}
           <div className="tuner-row tuner-row-primary">
             <Form.Select
               size="sm"
@@ -612,7 +780,7 @@ export default function TunerComponent(props) {
                     label="Auto next"
                     checked={autoAdvance}
                     onChange={function(e) { setAutoAdvance(e.target.checked) }}
-                    title="Advance to next string after 400ms in tune"
+                    title="Advance to next string after a stable in-tune reading (about 1.4s on fiddle/violin)"
                   />
 
                   <Form.Check
@@ -725,6 +893,12 @@ export default function TunerComponent(props) {
         </Alert>
       )}
 
+      {usesBowedTunerStabilization(instrument) && !isChromatic && (
+        <Alert variant="warning" className="tuner-pluck-hint py-2 mb-2">
+          Bow one string at a time — resonance from nearby strings (especially A) can confuse the tuner if other strings are ringing.
+        </Alert>
+      )}
+
       {instrument === 'guitar' && !isChromatic && (
         <Alert variant="warning" className="tuner-pluck-hint py-2 mb-2">
           Pluck the string repeatedly — a single pick often fades before the tuner can lock on or auto-advance.
@@ -742,7 +916,7 @@ export default function TunerComponent(props) {
             const label = simpleNoteLabel(t.note)
             let cls = 'tuner-string-btn'
             if (isActive) cls += ' active'
-            if (isActive && displayCents != null) cls += ' ' + meterColor(displayCents)
+            if (isActive && stringMeterCents != null) cls += ' ' + meterColor(stringMeterCents)
             return (
               <Button
                 key={i}
@@ -777,8 +951,8 @@ export default function TunerComponent(props) {
 
       <div
         ref={notesRef}
-        className={isChromatic ? 'tuner-notes-hidden' : 'notes tuner-notes-strip'}
-        aria-hidden={isChromatic ? 'true' : undefined}
+        className={isChromatic ? 'notes tuner-notes-strip' : 'tuner-notes-hidden'}
+        aria-hidden={isChromatic ? undefined : 'true'}
       >
         <div className="notes-list"></div>
       </div>
@@ -807,6 +981,7 @@ export default function TunerComponent(props) {
               targetLabel={isChromatic ? displayNoteLabel : activeTargetLabel}
               isHeld={isHeld}
               inTuneFlash={inTuneFlash}
+              needleTauScale={usesBowedTunerStabilization(instrument) ? 2.4 : 1}
             />
           ) : (
             <TunerPitchGraph

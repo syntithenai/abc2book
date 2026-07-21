@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Badge, Button, ButtonGroup, ListGroup, Modal, Row } from 'react-bootstrap';
 import { addFromFileAcceptList } from '../importSourceParse';
+import MidiImportDiagnostics from './MidiImportDiagnostics';
 import {
   cancelCurrentCandidate,
   coalesceSessionCandidatesByMergeTarget,
@@ -27,10 +28,12 @@ import {
   keepAllLocalImportSuggestions,
   alignedLyricPreviewPairs,
   buildReviewFormState,
+  buildTuneFormSyncSignal,
   formValuesToTune,
   importSuggestionDiffersFromForm,
   importedNotationText,
   notationPreviewLine,
+  sessionTuneAheadOfForm,
   summarizeImportMergeFieldCounts,
   tuneToFormValues,
 } from '../importReviewFieldUtils';
@@ -55,6 +58,31 @@ import useGoogleDocument from '../useGoogleDocument';
 import useMediaResolverHealth from '../useMediaResolverHealth';
 import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
+import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
+
+function sheetSnapshotReviewMessage(summary) {
+  if (!summary || !summary.total) return '';
+  if (summary.filename === summary.total) {
+    return 'Titles could not be read from the sheet images. Names are based on filenames or folder names — please review and edit each title before importing.';
+  }
+  if (summary.filename > 0) {
+    return summary.filename + ' title' + (summary.filename === 1 ? '' : 's')
+      + ' could not be read from sheets and '
+      + (summary.filename === 1 ? 'is' : 'are')
+      + ' based on filenames — please review.';
+  }
+  return '';
+}
+
+function activeSheetSnapshotTitleHint(candidate) {
+  const meta = candidate && candidate.sheetSnapshotMeta;
+  if (!meta || meta.titleSource === 'ocr' || meta.titleSource === 'cloud-ocr' || meta.titleSource === 'pdf-text') return '';
+  const fileName = String(meta.sourceFileName || '').trim();
+  if (fileName) {
+    return 'Title from filename (' + fileName + ') — edit if needed.';
+  }
+  return 'Title from filename — edit if needed.';
+}
 
 function dismissCandidateFieldLookups(candidate) {
   fieldLookupJobIdsForCandidate(candidate).forEach(function(jobId) {
@@ -113,6 +141,15 @@ function mergeFieldLabelsFromSuggestions(suggestions, formValues) {
   }).map(function(key) {
     return MERGE_FIELD_LABELS[key] || key;
   });
+}
+
+function addTuneRequirementMessage(title, composer) {
+  const hasTitle = !!String(title || '').trim();
+  const hasComposer = !!String(composer || '').trim();
+  if (hasTitle && hasComposer) return '';
+  if (!hasTitle && !hasComposer) return 'Enter a title and composer to add this tune.';
+  if (!hasTitle) return 'Enter a title to add this tune.';
+  return 'Enter a composer to add this tune.';
 }
 
 function describeLinkForCancelWarning(link) {
@@ -338,6 +375,7 @@ export default function ImportReviewModal(props) {
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const { checked: resolverChecked } = useMediaResolverHealth();
   const fileInputRef = useRef(null);
+  const folderInputRef = useRef(null);
   const recordingStartedAtRef = useRef(0);
   const recordingIntervalRef = useRef(null);
   const suppressFormInitRef = useRef(false);
@@ -372,6 +410,10 @@ export default function ImportReviewModal(props) {
   const importedTuneSource = useMemo(function() {
     return enrichedImportedTune || (activeCandidate && activeCandidate.tune) || {};
   }, [enrichedImportedTune, activeCandidate]);
+
+  const tuneFormSyncSignal = useMemo(function() {
+    return buildTuneFormSyncSignal(activeCandidate);
+  }, [activeCandidate, enrichedImportedTune]);
 
   const mergeMode = mergeTargetId && tunes[mergeTargetId] ? 'merge' : 'create';
 
@@ -417,6 +459,20 @@ export default function ImportReviewModal(props) {
       });
       return { formValues: nextForm, suggestions: nextSuggestions };
     }
+    function applyInlineFormSnapshot(baseFormValues, baseSuggestions) {
+      const pending = activeCandidate && activeCandidate.pendingInlineSuggestions;
+      const snapshot = activeCandidate && activeCandidate.inlineFormValues;
+      const formBase = snapshot && typeof snapshot === 'object'
+        ? Object.assign({}, snapshot)
+        : baseFormValues;
+      const suggestionBase = pending && typeof pending === 'object' ? pending : baseSuggestions;
+      const withChoices = applyCoalescedFieldChoicesToSuggestions(
+        suggestionBase,
+        activeCandidate && activeCandidate.fieldChoices,
+        formBase
+      );
+      return applyDraftOverrides(formBase, withChoices);
+    }
     if (effectiveMergeId && tunes[effectiveMergeId]) {
       const candidateMergeMode = activeCandidate && activeCandidate.mergeMode === 'suggestOnly'
         ? 'suggestOnly'
@@ -446,12 +502,21 @@ export default function ImportReviewModal(props) {
     // create-mode rebuild would otherwise drop them.
     const pending = activeCandidate && activeCandidate.pendingInlineSuggestions;
     const baseSuggestions = pending && typeof pending === 'object' ? pending : built.suggestions;
-    const withChoices = applyCoalescedFieldChoicesToSuggestions(
-      baseSuggestions,
-      activeCandidate && activeCandidate.fieldChoices,
-      built.formValues
-    );
-    const applied = applyDraftOverrides(built.formValues, withChoices);
+    const applied = activeCandidate && activeCandidate.inlineFormValues
+      ? applyInlineFormSnapshot(built.formValues, baseSuggestions)
+      : (function() {
+        const withChoices = applyCoalescedFieldChoicesToSuggestions(
+          baseSuggestions,
+          activeCandidate && activeCandidate.fieldChoices,
+          built.formValues
+        );
+        return applyDraftOverrides(built.formValues, withChoices);
+      })();
+    if (formSyncTimerRef.current) {
+      clearTimeout(formSyncTimerRef.current);
+      formSyncTimerRef.current = null;
+    }
+    suppressFormInitRef.current = !!(activeCandidate && activeCandidate.inlineFormValues);
     setFormValues(applied.formValues);
     setSuggestions(applied.suggestions);
     setAutoAppliedKeys(Array.isArray(built.autoAppliedKeys) ? built.autoAppliedKeys.slice() : []);
@@ -471,20 +536,21 @@ export default function ImportReviewModal(props) {
 
   useEffect(function() {
     if (!activeCandidate) return;
+    const sessionAheadOfForm = sessionTuneAheadOfForm(activeCandidate, formValuesRef.current);
     if (suppressFormInitRef.current) {
       // Form→session sync sets this flag so we do not echo our own write. If the
       // session tune now has content the form lacks (e.g. ChordPro Add From import
       // that raced with sync), re-init anyway so the toast is not a no-op on the UI.
-      const tuneTitle = String((activeCandidate.tune && activeCandidate.tune.name) || '').trim();
-      const formTitle = String((formValuesRef.current && formValuesRef.current.title) || '').trim();
-      const sessionAheadOfForm = !!(tuneTitle && tuneTitle !== formTitle);
       suppressFormInitRef.current = false;
       if (!sessionAheadOfForm) return;
     }
     initializeFormState(activeCandidate.mergeTargetId || null);
+    if (sessionAheadOfForm) {
+      formDirtyRef.current = false;
+    }
   }, [
     activeCandidate && activeCandidate.id,
-    activeCandidate && activeCandidate.tune && activeCandidate.tune.name,
+    tuneFormSyncSignal,
     session && session.index,
     session && session.mergeIndex,
     enrichedImportedTune,
@@ -957,6 +1023,16 @@ export default function ImportReviewModal(props) {
           >
             File
           </Button>
+          <Button
+            variant="outline-primary"
+            onClick={function() {
+              selectFormPanelMode();
+              if (folderInputRef.current) folderInputRef.current.click();
+            }}
+            title="Import every PDF or image in a folder (composer name can be taken from the folder name)"
+          >
+            Folder
+          </Button>
           <PasteImportModal
             onImportText={function(text) {
               selectFormPanelMode();
@@ -1052,12 +1128,41 @@ export default function ImportReviewModal(props) {
       <input
         ref={fileInputRef}
         type="file"
+        multiple
         accept={addFromFileAcceptList(resolverAvailable)}
         style={{ display: 'none' }}
         onChange={function(event) {
-          const file = event.target.files && event.target.files[0];
+          const selected = event.target.files ? Array.from(event.target.files) : [];
           event.target.value = '';
-          if (file && typeof props.onImportFile === 'function') props.onImportFile(file, buildDraftCandidate());
+          if (!selected.length) return;
+          if (selected.length > 1 && typeof props.onImportFiles === 'function') {
+            props.onImportFiles(selected, buildDraftCandidate());
+            return;
+          }
+          if (typeof props.onImportFile === 'function') {
+            props.onImportFile(selected[0], buildDraftCandidate());
+          }
+        }}
+      />
+      <input
+        ref={folderInputRef}
+        type="file"
+        multiple
+        webkitdirectory=""
+        directory=""
+        accept={addFromFileAcceptList(resolverAvailable)}
+        style={{ display: 'none' }}
+        onChange={function(event) {
+          const selected = event.target.files ? Array.from(event.target.files).filter(function(file) {
+            const name = String(file && file.name || '').toLowerCase();
+            const type = String(file && file.type || '').toLowerCase();
+            return type === 'application/pdf' || /\.(pdf|png|jpe?g|webp|gif)$/i.test(name);
+          }) : [];
+          event.target.value = '';
+          if (!selected.length) return;
+          if (typeof props.onImportFiles === 'function') {
+            props.onImportFiles(selected, buildDraftCandidate());
+          }
         }}
       />
     </div>
@@ -1438,9 +1543,29 @@ export default function ImportReviewModal(props) {
     );
   }
 
+  const sheetSnapshotSummary = !addTunesMode && session
+    ? summarizeSheetSnapshotCandidates(session.candidates || [])
+    : null;
+  const sheetSnapshotBannerMessage = sheetSnapshotSummary
+    ? sheetSnapshotReviewMessage(sheetSnapshotSummary)
+    : '';
+  const activeSheetSnapshotHint = activeCandidate
+    ? activeSheetSnapshotTitleHint(activeCandidate)
+    : '';
+
   const panelBody = !addTunesMode ? (
     <Row style={{ flexWrap: 'nowrap' }}>
       <div style={{ flex: '1 1 auto', minWidth: 0, overflowY: 'auto', paddingRight: '1rem' }}>
+        {sheetSnapshotBannerMessage ? (
+          <Alert variant="warning" className="py-2" data-testid="sheet-snapshot-import-banner">
+            {sheetSnapshotBannerMessage}
+          </Alert>
+        ) : null}
+        {activeSheetSnapshotHint ? (
+          <Alert variant="info" className="py-2" data-testid="sheet-snapshot-title-hint">
+            {activeSheetSnapshotHint}
+          </Alert>
+        ) : null}
         <TuneRecordForm
           values={formValues}
           onChange={function(patch) {
@@ -1469,8 +1594,26 @@ export default function ImportReviewModal(props) {
       <div style={{ flex: '0 0 280px', maxWidth: '280px', overflowY: 'auto' }}>
         {renderMergeChoicesPanel()}
         {activeCandidate && activeCandidate.sourceKind && (
-          <div className="text-muted small mt-2">Source: {activeCandidate.sourceKind}</div>
+          <div className="text-muted small mt-2">
+            Source: {activeCandidate.sourceKind}
+            {activeCandidate.sheetSnapshotMeta && activeCandidate.sheetSnapshotMeta.titleSource === 'ocr'
+              ? <Badge bg="success" className="ms-2">Title from sheet</Badge>
+              : null}
+            {activeCandidate.sheetSnapshotMeta && activeCandidate.sheetSnapshotMeta.titleSource === 'cloud-ocr'
+              ? <Badge bg="success" className="ms-2">Title from sheet OCR</Badge>
+              : null}
+            {activeCandidate.sheetSnapshotMeta && activeCandidate.sheetSnapshotMeta.titleSource === 'pdf-text'
+              ? <Badge bg="success" className="ms-2">Title from PDF text</Badge>
+              : null}
+            {activeCandidate.sheetSnapshotMeta && activeCandidate.sheetSnapshotMeta.titleSource === 'filename'
+              ? <Badge bg="warning" text="dark" className="ms-2">Title from filename</Badge>
+              : null}
+          </div>
         )}
+        <MidiImportDiagnostics
+          candidate={activeCandidate}
+          onReimport={props.onMidiReimport}
+        />
         {activeJob && activeJob.status === 'done' && activeJob.enrichedTune && (
           <Alert variant="success" className="mt-2">Enhanced data ready — review suggestions above.</Alert>
         )}
@@ -1531,8 +1674,13 @@ export default function ImportReviewModal(props) {
         ? 'Bulk import'
         : 'Add';
   const primaryActionLabel = addTunesMode ? 'Add' : 'Import';
-  const hasTitleForAdd = !!String(formValues.title || '').trim();
-  const primaryActionDisabled = addTunesMode ? !hasTitleForAdd : false;
+  const addTuneTitle = String(formValues.title || '').trim();
+  const addTuneComposer = String(formValues.artist || '').trim();
+  const canAddTune = !!(addTuneTitle && addTuneComposer);
+  const addTuneRequirementHint = addTunesMode && addPanelMode === 'form'
+    ? addTuneRequirementMessage(formValues.title, formValues.artist)
+    : '';
+  const primaryActionDisabled = addTunesMode && addPanelMode === 'form' ? !canAddTune : false;
   const pendingMergeFields = mergeFieldLabelsFromSuggestions(suggestions, formValues);
   const baseTuneForCancel = mergeTargetId && tunes[mergeTargetId] ? tunes[mergeTargetId] : null;
   const pendingMediaLinks = linksLostOnCancel(formValues.links, baseTuneForCancel).map(describeLinkForCancelWarning);
@@ -1590,16 +1738,28 @@ export default function ImportReviewModal(props) {
       {addTunesMode ? (
         <>
           {addPanelMode === 'form' ? (
-            <Button
-              size="lg"
-              variant={primaryActionDisabled ? 'secondary' : 'success'}
-              disabled={!!primaryActionDisabled}
-              data-testid="add-tune-save"
-              className="add-tunes-header-add-btn"
-              onClick={finishCurrentCandidate}
-            >
-              Add
-            </Button>
+            <>
+              {addTuneRequirementHint ? (
+                <span
+                  className="add-tunes-requirement-hint text-warning small"
+                  data-testid="add-tune-requirement-hint"
+                  role="status"
+                >
+                  {addTuneRequirementHint}
+                </span>
+              ) : null}
+              <Button
+                size="lg"
+                variant={primaryActionDisabled ? 'secondary' : 'success'}
+                disabled={!!primaryActionDisabled}
+                title={addTuneRequirementHint || undefined}
+                data-testid="add-tune-save"
+                className="add-tunes-header-add-btn"
+                onClick={finishCurrentCandidate}
+              >
+                Add
+              </Button>
+            </>
           ) : null}
         </>
       ) : (

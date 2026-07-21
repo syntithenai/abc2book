@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import axios from 'axios'
 import Abc from './Abc'
+import VoiceFillInput from './VoiceFillInput'
 
 //import {useNavigate} from 'react-router-dom'
 
@@ -184,7 +185,16 @@ function TheSessionSearchSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}   />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="text"
+            value={filter}
+            onChange={filterChange}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>

@@ -1,3 +1,4 @@
+import { parseNdjsonLine } from './ndjsonParse'
 import {
   fetchViaMediaProxy,
   isMediaProxyConfigured,
@@ -66,13 +67,13 @@ async function parseStreamingNotationSearchResponse(response, onProgress) {
     buffer = lines.pop() || ''
     lines.forEach(function(line) {
       if (!line.trim()) return
-      const parsed = handleNotationSearchStreamEvent(JSON.parse(line), onProgress)
+      const parsed = handleNotationSearchStreamEvent(parseNdjsonLine(line), onProgress)
       if (parsed) result = parsed
     })
   }
 
   if (buffer.trim()) {
-    const parsed = handleNotationSearchStreamEvent(JSON.parse(buffer), onProgress)
+    const parsed = handleNotationSearchStreamEvent(parseNdjsonLine(buffer), onProgress)
     if (parsed) result = parsed
   }
 
@@ -91,6 +92,7 @@ export async function searchNotationViaResolver(options) {
     accessToken,
     signal,
     onProgress,
+    midiFallback,
   } = options
 
   const pageUrl = url || extractNotationSearchUrl(title)
@@ -104,7 +106,9 @@ export async function searchNotationViaResolver(options) {
         ? (/(\.mid|\.midi)(\?|$)/i.test(pageUrl)
           ? 'Fetching MIDI file...'
           : 'Fetching MuseScore score...')
-        : 'Starting notation search...',
+        : (midiFallback
+          ? 'Searching for MIDI files...'
+          : 'Starting notation search...'),
       0,
       'start'
     )
@@ -116,6 +120,7 @@ export async function searchNotationViaResolver(options) {
       title: title || '',
       artist: artist || '',
       songType: songType || 'instrumental',
+      midiFallback: midiFallback === true,
     }
 
   try {

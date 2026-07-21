@@ -17,7 +17,8 @@ Self-hosted proxy for tunebook pitch/tempo playback.
 | POST | `/lyrics-reverse-dictionary` | Return meaning, topic, and pattern matches for a phrase or concept. |
 | POST | `/lyrics-phrases` | Return left-context, right-context, and phrase-shaped suggestions for a phrase or seed word. |
 | POST | `/search-chords` | Search supported chord-tab sites by title/artist (or fetch a supported chord URL) and return a normalized chord+lyric sheet for import into the chord editor. Accept `application/x-ndjson` for streaming progress events. |
-| POST | `/search-notation` | Search The Session, then ABC sites, public MuseScore.com MusicXML, and allowlisted MIDI sites in parallel by title (optional `songType`). Returns up to 20 candidates ranked by match (MuseScore boosted, MIDI demoted). Optional `url` for musescore.com, direct `.mid`/`.midi`, allowlisted MIDI pages, or allowlisted ABC URLs. Accept `application/x-ndjson` for streaming progress. |
+| POST | `/search-notation` | Search The Session, then ABC sites, public MuseScore.com MusicXML, and the mounted local MIDI library (then allowlisted MIDI sites on the web) in parallel by title (optional `songType`). Returns up to 20 candidates ranked by match (MuseScore boosted, MIDI demoted). Optional `url` for musescore.com, direct `.mid`/`.midi`, `/midi-resources/…`, allowlisted MIDI pages, or allowlisted ABC URLs. Accept `application/x-ndjson` for streaming progress. |
+| GET | `/midi-resources/:path` | Serve a file from the mounted local MIDI library (`MIDI_RESOURCES_DIR`) when an index is present |
 | POST | `/research-tune-background` | Research tune background from Wikipedia, MusicBrainz, and web search, then summarize with a configurable OpenAI-compatible LLM (compose `llm` / LM Studio fallback by default) |
 | POST | `/transcribe` | Transcribe either linked media URLs or uploaded audio |
 | POST | `/voice-command` | Combined voice command: upload short audio, transcribe with Whisper, parse SHOW/SEARCH intent (regex fast path + LLM), return structured tool call |
@@ -83,6 +84,21 @@ a Docker volume mounted at `/soundfonts` (host default `local-resolver/soundfont
   programs onto the embedded instrument subset.
 - Disable with `SOUNDFONT_DOWNLOAD_ENABLED=false`. Change the host folder with
   `SOUNDFONT_HOST_DIR`.
+
+### Local MIDI library
+
+The sibling folder `abc2book_midi_resources` (next to this repo, not inside it) is mounted at `/midi-resources`.
+From `local-resolver/`, the default compose path is `../../abc2book_midi_resources`.
+Build the search index once:
+
+```bash
+cd local-resolver
+python3 scripts/build_midi_resources_index.py ../../abc2book_midi_resources
+```
+
+Notation search checks this library before querying online MIDI sites. Files are
+served at `/midi-resources/...` for direct import. Override the host path with
+`MIDI_RESOURCES_HOST_DIR` in `.env`.
 
 Whisper uses the Vulkan `whisper.cpp` image. `docker-compose.yml` exposes `/dev/dri` to the container, so `WHISPER_BACKEND_PREFERENCE=auto` will try the GPU when a render device is available and fall back to CPU if `WHISPER_CPU_FALLBACK=true`. Set `WHISPER_BACKEND_PREFERENCE=cpu` in `local-resolver/.env` to disable GPU use.
 

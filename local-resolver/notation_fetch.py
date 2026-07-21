@@ -8,19 +8,28 @@ import httpx
 from browser_fetch import fetch_html_with_fallback
 from chords_fetch import normalize_match_text, score_title_artist_match
 from midi_fetch import (
-    collect_web_midi_candidates,
+    collect_midi_candidates,
     fetch_midi_from_allowlisted_page,
     fetch_midi_url,
     is_allowed_midi_host,
     is_direct_midi_file_url,
 )
+from cpdl_fetch import collect_cpdl_candidates, fetch_cpdl_url, is_cpdl_url
+from imslp_fetch import collect_imslp_candidates, fetch_imslp_url, is_imslp_url
+from josquin_fetch import collect_josquin_candidates, fetch_josquin_url, is_josquin_url
+from musicalion_fetch import collect_musicalion_candidates, fetch_musicalion_url, is_musicalion_url
 from musescore_fetch import (
     MuseScoreDownloadUnavailable,
+    actionable_musescore_manual_candidates,
+    build_musescore_manual_candidate,
     collect_musescore_candidates,
+    extract_musescore_page_meta,
     fetch_musescore_url,
     is_musescore_url,
     parse_musescore_score_url,
 )
+from openscore_fetch import collect_openscore_candidates, fetch_openscore_url, is_openscore_url
+from w3c_musicxml_fetch import collect_w3c_examples_candidates, fetch_w3c_musicxml_url, is_w3c_musicxml_url
 from polite_fetch import BROWSER_USER_AGENT
 from tune_background_research import search_web
 
@@ -72,6 +81,7 @@ SONG_TYPE_HINTS = {
     "song": ("lyrics", "folk song", "ballad"),
     "instrumental": ("instrumental", "tune", "melody"),
     "traditional_tune": ("traditional", "irish tune", "folk tune", "session tune"),
+    "choral": ("choral", "choir", "satb"),
 }
 
 ABC_BLOCK_RE = re.compile(
@@ -237,6 +247,8 @@ def normalize_song_type(value):
         return "instrumental"
     if text in ("traditional_tune", "traditional", "traditional_tunes", "tune", "tunes"):
         return "traditional_tune"
+    if text in ("choral", "choir", "satb"):
+        return "choral"
     return "instrumental"
 
 
@@ -802,7 +814,10 @@ def _candidate_has_usable_payload(candidate):
     if abc and "K:" in abc:
         return True
     music_xml = str((candidate or {}).get("musicXml") or "").strip()
-    return bool(music_xml)
+    if music_xml:
+        return True
+    pdf_attachment = (candidate or {}).get("pdfAttachment")
+    return isinstance(pdf_attachment, dict) and bool(pdf_attachment.get("downloadUrl"))
 
 
 def _candidate_import_format(candidate):
@@ -814,6 +829,8 @@ def _candidate_import_format(candidate):
     source = str((candidate or {}).get("source") or "").lower()
     if source == "musescore.com":
         return "musescore"
+    if (candidate or {}).get("pdfAttachment") and not str((candidate or {}).get("musicXml") or "").strip():
+        return "pdf"
     if (candidate or {}).get("musicXml") and not str((candidate or {}).get("abc") or "").strip():
         return "musicxml"
     return "abc"
@@ -821,28 +838,51 @@ def _candidate_import_format(candidate):
 
 MAX_NOTATION_CANDIDATES = 20
 SOURCE_BONUS_MUSESCORE = 30
+SOURCE_BONUS_OPENSCORE = 32
+SOURCE_BONUS_ARCHIVE_MUSICXML = 25
 SOURCE_BONUS_ABC = 10
+SOURCE_BONUS_PDF = 5
+SOURCE_BONUS_CPDL_CHORAL = 8
 SOURCE_BONUS_MIDI = -45
 MIN_ABC_BASE_SCORE = 30
+MIN_PDF_BASE_SCORE = 15
 MIN_MIDI_BASE_SCORE = 45
 
 
-def notation_source_bonus(candidate):
-    """Rank preference: MuseScore up, ABC slight boost, MIDI demoted."""
+def notation_source_bonus(candidate, song_type="instrumental"):
+    """Rank preference: MuseScore/archives up, ABC slight boost, MIDI demoted."""
     import_format = _candidate_import_format(candidate)
+    source = str((candidate or {}).get("source") or "").lower()
     if import_format == "midi":
         return SOURCE_BONUS_MIDI
+    if import_format == "pdf":
+        bonus = SOURCE_BONUS_PDF
+        if normalize_song_type(song_type) == "choral" and source == "cpdl.org":
+            bonus += SOURCE_BONUS_CPDL_CHORAL
+        return bonus
+    if source == "openscore.org":
+        return SOURCE_BONUS_OPENSCORE
+    if source in (
+        "josquin.stanford.edu",
+        "cpdl.org",
+        "imslp.org",
+        "musicxml.com",
+    ) or import_format == "musicxml":
+        bonus = SOURCE_BONUS_ARCHIVE_MUSICXML
+        if normalize_song_type(song_type) == "choral" and source == "cpdl.org":
+            bonus += SOURCE_BONUS_CPDL_CHORAL
+        return bonus
     if (
         import_format in ("musescore", "musicxml")
-        or str((candidate or {}).get("source") or "").lower() == "musescore.com"
+        or source == "musescore.com"
     ):
         return SOURCE_BONUS_MUSESCORE
     return SOURCE_BONUS_ABC
 
 
-def notation_priority_score(candidate, title, artist):
+def notation_priority_score(candidate, title, artist, song_type="instrumental"):
     base = notation_candidate_score(candidate, title, artist)
-    return base + notation_source_bonus(candidate)
+    return base + notation_source_bonus(candidate, song_type=song_type)
 
 
 def _with_match_score(candidate, score):
@@ -851,8 +891,9 @@ def _with_match_score(candidate, score):
     return out
 
 
-def finalize_notation_candidates(candidates, title, artist):
+def finalize_notation_candidates(candidates, title, artist, relax_midi=False, song_type="instrumental"):
     """Rank/filter candidates with source weights; return up to 20."""
+    min_midi_score = 20 if relax_midi else MIN_MIDI_BASE_SCORE
     usable = [
         candidate for candidate in (candidates or [])
         if _candidate_has_usable_payload(candidate)
@@ -863,15 +904,18 @@ def finalize_notation_candidates(candidates, title, artist):
         base = notation_candidate_score(candidate, title, artist)
         import_format = _candidate_import_format(candidate)
         is_midi = import_format == "midi"
+        is_pdf = import_format == "pdf"
         is_muse = (
             import_format in ("musescore", "musicxml")
             or str(candidate.get("source") or "").lower() == "musescore.com"
         )
-        if is_midi and base < MIN_MIDI_BASE_SCORE:
+        if is_midi and base < min_midi_score:
             continue
-        if (not is_midi) and (not is_muse) and base < MIN_ABC_BASE_SCORE:
+        if is_pdf and base < MIN_PDF_BASE_SCORE:
             continue
-        priority = base + notation_source_bonus(candidate)
+        if (not is_midi) and (not is_muse) and (not is_pdf) and base < MIN_ABC_BASE_SCORE:
+            continue
+        priority = base + notation_source_bonus(candidate, song_type=song_type)
         filtered.append(_with_match_score(candidate, priority))
 
     filtered.sort(key=lambda candidate: candidate.get("matchScore") or 0, reverse=True)
@@ -880,7 +924,7 @@ def finalize_notation_candidates(candidates, title, artist):
 
     # Prefer MuseScore MusicXML, then any MusicXML/MIDI, then any usable.
     def score_fallback(candidate):
-        return notation_priority_score(candidate, title, artist)
+        return notation_priority_score(candidate, title, artist, song_type=song_type)
 
     muse = [
         candidate for candidate in usable
@@ -908,32 +952,157 @@ def finalize_notation_candidates(candidates, title, artist):
     return scored[:MAX_NOTATION_CANDIDATES]
 
 
+async def _last_chance_midi_candidates(client, title, artist="", on_progress=None):
+    """Broad MIDI web search when MuseScore/ABC paths produced nothing usable."""
+    title = str(title or "").strip()
+    if not title:
+        return []
+    await _emit_progress(
+        on_progress,
+        "midi",
+        "Trying MIDI fallback...",
+        0.82,
+    )
+    return await collect_midi_candidates(
+        client,
+        title,
+        artist=artist,
+        on_progress=on_progress,
+        relaxed=True,
+    )
+
+
+async def _musescore_page_title(client, page_url):
+    try:
+        page = await fetch_html_with_fallback(client, page_url, allow_playwright=False)
+        html = page.text or ""
+        if page.status >= 400 or not html.strip():
+            return ""
+        meta = extract_musescore_page_meta(html, page.final_url or page_url)
+        return str(meta.get("title") or "").strip()
+    except Exception:
+        return ""
+
+
+def _merge_manual_candidates(*result_sets):
+    merged = []
+    seen = set()
+    for result in result_sets:
+        for item in _collector_manual_candidates(result):
+            url = str(item.get("url") or "").strip()
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            merged.append(item)
+    return merged
+
+
 async def search_notation_url(url, on_progress=None):
     """Fetch notation from MuseScore, MIDI, or allowlisted ABC URL."""
     page_url = str(url or "").strip()
     if not page_url:
         raise ValueError("URL is required")
 
+    if is_josquin_url(page_url):
+        try:
+            return await fetch_josquin_url(page_url, on_progress=on_progress)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch Josquin score") from exc
+
+    if is_cpdl_url(page_url):
+        try:
+            return await fetch_cpdl_url(page_url, on_progress=on_progress)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch CPDL score") from exc
+
+    if is_imslp_url(page_url):
+        try:
+            result = await fetch_imslp_url(page_url, on_progress=on_progress)
+            if isinstance(result, dict) and result.get("empty"):
+                manuals = result.get("manualCandidates") or []
+                if manuals:
+                    return _empty_notation_manual_result(manuals)
+            return result
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch IMSLP score") from exc
+
+    if is_openscore_url(page_url):
+        try:
+            result = await fetch_openscore_url(page_url, on_progress=on_progress)
+            if isinstance(result, dict) and result.get("empty"):
+                manuals = result.get("manualCandidates") or []
+                if manuals:
+                    return _empty_notation_manual_result(manuals)
+            return result
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch OpenScore score") from exc
+
+    if is_musicalion_url(page_url):
+        try:
+            result = await fetch_musicalion_url(page_url, on_progress=on_progress)
+            manuals = result.get("manualCandidates") if isinstance(result, dict) else []
+            if manuals:
+                return _empty_notation_manual_result(manuals)
+            raise ValueError("Musicalion requires manual import")
+        except ValueError:
+            raise
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not open Musicalion page") from exc
+
+    if is_w3c_musicxml_url(page_url):
+        try:
+            return await fetch_w3c_musicxml_url(page_url, on_progress=on_progress)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not fetch MusicXML example") from exc
+
     if is_musescore_url(page_url):
         try:
             return await fetch_musescore_url(page_url, on_progress=on_progress)
-        except MuseScoreDownloadUnavailable:
+        except MuseScoreDownloadUnavailable as exc:
             parsed = parse_musescore_score_url(page_url)
             clean_url = (parsed or {}).get("url") or page_url
+            query_title = ""
+            async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
+                query_title = await _musescore_page_title(client, clean_url)
+                midi_candidates = await _last_chance_midi_candidates(
+                    client,
+                    query_title or "MuseScore import",
+                    on_progress=on_progress,
+                )
+            if midi_candidates:
+                finalized = finalize_notation_candidates(
+                    midi_candidates,
+                    query_title or "",
+                    "",
+                    relax_midi=True,
+                )
+                if finalized:
+                    await _emit_progress(on_progress, "midi", "MIDI fallback ready", 1.0)
+                    if len(finalized) == 1:
+                        return finalized[0]
+                    return {
+                        "multiple": True,
+                        "candidates": finalized,
+                    }
+            manual = build_musescore_manual_candidate(
+                clean_url,
+                title=query_title or "",
+                access_tier=getattr(exc, "access_tier", "unknown"),
+            )
+            manual_result = _notation_manual_result_from_muse_manual([manual])
             await _emit_progress(
                 on_progress,
                 "done",
-                "MuseScore score needs manual download",
+                "MuseScore score needs manual download"
+                if manual_result and manual_result.get("manualCandidates")
+                else "MuseScore matches require PRO or purchase",
                 1.0,
             )
-            return _empty_notation_manual_result([{
-                "url": clean_url,
-                "title": "",
-                "source": "musescore.com",
-                "host": "musescore.com",
-                "reason": "blocked",
-                "contentType": "notation",
-            }])
+            if manual_result:
+                return manual_result
+            raise ValueError(
+                "MuseScore matches require PRO or purchase; try MIDI or ABC sources instead."
+            )
         except ValueError:
             raise
         except Exception as exc:
@@ -1000,6 +1169,24 @@ def _empty_notation_manual_result(manual_candidates):
     }
 
 
+def _empty_notation_paywalled_result():
+    return {
+        "empty": True,
+        "found": False,
+        "musescorePaywalled": True,
+        "manualCandidates": [],
+    }
+
+
+def _notation_manual_result_from_muse_manual(muse_manual):
+    actionable = actionable_musescore_manual_candidates(muse_manual)
+    if actionable:
+        return _empty_notation_manual_result(actionable)
+    if muse_manual:
+        return _empty_notation_paywalled_result()
+    return None
+
+
 async def search_notation(title, artist="", song_type="instrumental", on_progress=None):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
@@ -1019,10 +1206,20 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         await _emit_progress(
             on_progress,
             "sources",
-            "Searching ABC, MuseScore, and MIDI...",
+            "Searching ABC, MuseScore, archives, and MIDI...",
             0.4,
         )
-        web_result, muse_result, midi_result = await asyncio.gather(
+        (
+            web_result,
+            muse_result,
+            midi_result,
+            josquin_result,
+            cpdl_result,
+            imslp_result,
+            openscore_result,
+            musicalion_result,
+            w3c_result,
+        ) = await asyncio.gather(
             collect_web_abc_candidates(
                 client,
                 title,
@@ -1036,7 +1233,43 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
                 artist,
                 on_progress=on_progress,
             ),
-            collect_web_midi_candidates(
+            collect_midi_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_josquin_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_cpdl_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_imslp_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_openscore_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_musicalion_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            ),
+            collect_w3c_examples_candidates(
                 client,
                 title,
                 artist,
@@ -1046,27 +1279,95 @@ async def search_notation(title, artist="", song_type="instrumental", on_progres
         )
 
         muse_manual = _collector_manual_candidates(muse_result)
+        archive_manual = _merge_manual_candidates(
+            imslp_result,
+            openscore_result,
+            musicalion_result,
+        )
         candidates = dedupe_candidates(
             list(session_candidates)
             + _collector_results_or_empty(web_result)
             + _collector_results_or_empty(muse_result)
             + _collector_results_or_empty(midi_result)
+            + _collector_results_or_empty(josquin_result)
+            + _collector_results_or_empty(cpdl_result)
+            + _collector_results_or_empty(imslp_result)
+            + _collector_results_or_empty(openscore_result)
+            + _collector_results_or_empty(w3c_result)
         )
-        candidates = finalize_notation_candidates(candidates, title, artist)
+        candidates = finalize_notation_candidates(
+            candidates,
+            title,
+            artist,
+            song_type=song_type,
+        )
 
         if not candidates:
-            if muse_manual:
+            midi_fallback = await _last_chance_midi_candidates(
+                client,
+                title,
+                artist,
+                on_progress=on_progress,
+            )
+            if midi_fallback:
+                candidates = finalize_notation_candidates(
+                    dedupe_candidates(midi_fallback),
+                    title,
+                    artist,
+                    relax_midi=True,
+                    song_type=song_type,
+                )
+
+        if not candidates:
+            manual_result = _notation_manual_result_from_muse_manual(muse_manual)
+            if not manual_result and archive_manual:
+                manual_result = _empty_notation_manual_result(archive_manual)
+            if manual_result:
                 await _emit_progress(
                     on_progress,
                     "done",
-                    "MuseScore score found — manual download required",
+                    "MuseScore score found — manual download required"
+                    if manual_result.get("manualCandidates")
+                    else "MuseScore matches require PRO or purchase",
                     1.0,
                 )
-                return _empty_notation_manual_result(muse_manual)
+                return manual_result
             await _emit_progress(on_progress, "done", "No ABC notation found", 1.0)
             raise ValueError("No ABC notation found for this tune")
 
         await _emit_progress(on_progress, "done", "ABC candidates ready", 1.0)
+        if len(candidates) == 1:
+            return candidates[0]
+        return {
+            "multiple": True,
+            "candidates": candidates,
+        }
+
+
+async def search_notation_midi_fallback(title, artist="", on_progress=None):
+    """MIDI-only notation search (used when MuseScore manual import is abandoned)."""
+    title = str(title or "").strip()
+    artist = str(artist or "").strip()
+    if not title:
+        raise ValueError("Song title is required")
+
+    async with httpx.AsyncClient(timeout=NOTATION_FETCH_TIMEOUT_SECONDS) as client:
+        midi_fallback = await _last_chance_midi_candidates(
+            client,
+            title,
+            artist,
+            on_progress=on_progress,
+        )
+        candidates = finalize_notation_candidates(
+            dedupe_candidates(midi_fallback),
+            title,
+            artist,
+            relax_midi=True,
+        )
+        if not candidates:
+            await _emit_progress(on_progress, "done", "No MIDI notation found", 1.0)
+            raise ValueError("No MIDI notation found for this tune")
+        await _emit_progress(on_progress, "done", "MIDI candidates ready", 1.0)
         if len(candidates) == 1:
             return candidates[0]
         return {

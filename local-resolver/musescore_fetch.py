@@ -20,13 +20,8 @@ MUSESCORE_FETCH_TIMEOUT_SECONDS = 20.0
 MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS = 90.0
 MAX_MUSESCORE_SEARCH_URLS = 5
 MUSESCORE_HOST_SUFFIXES = ("musescore.com",)
-# Prefer MIDI: current dl-librescore only allows midi/mp3/pdf from MuseScore URLs.
-# MusicXML/MSCZ are still attempted in case LibreScore regains those types.
-LIBRESCORE_TYPE_ATTEMPTS = (
-    ("midi",),
-    ("musicxml",),
-    ("mscz",),
-)
+# LibreScore URL downloads currently allow midi/mp3/pdf only; MIDI converts well to ABC.
+LIBRESCORE_TYPE_ATTEMPTS = (("midi",),)
 LIBRESCORE_URL_TYPE_BLOCKED_RE = re.compile(
     r"only\s+midi,\s*mp3,\s*and\s*pdf\s+are\s+downloadable\s+from\s+a\s+url",
     re.I,
@@ -64,7 +59,40 @@ PAYWALL_MARKERS = (
     "create an account to download",
     "download requires",
     "upgrade to pro",
+    "get pro",
+    "try pro",
 )
+OFFICIAL_PAYWALL_MARKERS = (
+    "official score",
+    "licensed from",
+    "musescore credits",
+    "purchase this score",
+    "buy this score",
+    "pay to download",
+)
+OFFICIAL_JSON_MARKERS = (
+    '"isofficial":true',
+    '"is_official":true',
+    '"officialscore":true',
+    '"scoretype":"official"',
+    '"type":"official"',
+)
+PRO_JSON_MARKERS = (
+    '"ispro":true',
+    '"is_pro":true',
+    '"requirepro":true',
+    '"proonly":true',
+    '"needspro":true',
+    '"downloadrequirespro":true',
+)
+FREE_ACCOUNT_MARKERS = (
+    "public domain",
+    "creative commons",
+    '"isdownloadable":true',
+    '"can_download":true',
+    '"allowdownload":true',
+)
+MUSESCORE_PAYWALLED_ACCESS_TIERS = frozenset(("pro_required", "paid_official"))
 MUSICXML_MARKERS = (
     "<?xml",
     "<score-partwise",
@@ -75,7 +103,7 @@ MUSICXML_MARKERS = (
 class MuseScoreDownloadUnavailable(ValueError):
     """Raised when a MuseScore score cannot be downloaded without auth/Pro."""
 
-    def __init__(self, message=None, source=None):
+    def __init__(self, message=None, source=None, access_tier="unknown"):
         super().__init__(
             message
             or (
@@ -85,6 +113,7 @@ class MuseScoreDownloadUnavailable(ValueError):
             )
         )
         self.source = source or "unknown"
+        self.access_tier = access_tier or "unknown"
 
 
 async def _emit_progress(on_progress, stage, message, progress):
@@ -154,34 +183,64 @@ def _find_downloaded_score_files(output_dir):
     return found
 
 
-def _convert_mscz_to_musicxml(mscz_file, temp_dir):
-    mxl_output = os.path.join(temp_dir, "output.mxl")
-    convert_attempts = (
-        ("xvfb-run", "-a", "mscore", "-o", mxl_output, mscz_file),
-        ("xvfb-run", "-a", "musescore", "-o", mxl_output, mscz_file),
-        ("mscore", "-o", mxl_output, mscz_file),
-        ("musescore", "-o", mxl_output, mscz_file),
-    )
+def _convert_score_file_to_musicxml(score_file: str, temp_dir: str, *, output_stem: str = "output") -> str:
+    """Convert a local score file (MIDI, MSCZ, etc.) to MusicXML via MuseScore CLI."""
     last_error = ""
-    for convert_cmd in convert_attempts:
-        try:
-            convert_result = subprocess.run(
-                list(convert_cmd),
-                capture_output=True,
-                text=True,
-                timeout=MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS,
-            )
-        except FileNotFoundError:
-            last_error = "Command not found: {0}".format(convert_cmd[0])
-            continue
-        if convert_result.returncode == 0 and os.path.isfile(mxl_output):
-            with open(mxl_output, "rb") as handle:
-                return extract_musicxml_from_mxl_bytes(handle.read())
-        last_error = (convert_result.stderr or convert_result.stdout or "").strip()
+    for ext in (".musicxml", ".mxl"):
+        output_path = os.path.join(temp_dir, output_stem + ext)
+        convert_attempts = (
+            ("xvfb-run", "-a", "mscore", "-o", output_path, score_file),
+            ("xvfb-run", "-a", "musescore", "-o", output_path, score_file),
+            ("mscore", "-o", output_path, score_file),
+            ("musescore", "-o", output_path, score_file),
+        )
+        for convert_cmd in convert_attempts:
+            try:
+                convert_result = subprocess.run(
+                    list(convert_cmd),
+                    capture_output=True,
+                    text=True,
+                    timeout=MUSESCORE_LIBRESCORE_TIMEOUT_SECONDS,
+                )
+            except FileNotFoundError:
+                last_error = "Command not found: {0}".format(convert_cmd[0])
+                continue
+            if convert_result.returncode != 0 or not os.path.isfile(output_path):
+                last_error = (convert_result.stderr or convert_result.stdout or "").strip()
+                continue
+            if ext == ".mxl":
+                with open(output_path, "rb") as handle:
+                    return extract_musicxml_from_mxl_bytes(handle.read())
+            with open(output_path, "r", encoding="utf-8", errors="replace") as handle:
+                text = handle.read().strip()
+            if text and is_musicxml_text(text):
+                return text
+            last_error = "MuseScore produced invalid MusicXML"
     raise MuseScoreDownloadUnavailable(
         "MuseScore conversion failed: {0}".format(last_error or "unknown error"),
-        source="librescore",
+        source="musescore",
     )
+
+
+def convert_midi_bytes_to_musicxml_via_musescore(midi_bytes: bytes, filename: str = "import.mid") -> str:
+    """Convert MIDI bytes to MusicXML using the MuseScore CLI (Docker image includes mscore)."""
+    if not midi_bytes:
+        return ""
+    safe_name = os.path.basename(filename or "import.mid") or "import.mid"
+    if not safe_name.lower().endswith((".mid", ".midi")):
+        safe_name += ".mid"
+    with tempfile.TemporaryDirectory() as temp_dir:
+        mid_path = os.path.join(temp_dir, safe_name)
+        with open(mid_path, "wb") as handle:
+            handle.write(midi_bytes)
+        try:
+            return _convert_score_file_to_musicxml(mid_path, temp_dir, output_stem="midi_import")
+        except MuseScoreDownloadUnavailable:
+            return ""
+
+
+def _convert_mscz_to_musicxml(mscz_file, temp_dir):
+    return _convert_score_file_to_musicxml(mscz_file, temp_dir, output_stem="output")
 
 
 def _musicxml_from_librescore_file(path, temp_dir):
@@ -204,7 +263,7 @@ def _musicxml_from_librescore_file(path, temp_dir):
         from midi_convert import convert_midi_bytes_to_musicxml_sync
         with open(path, "rb") as handle:
             midi_bytes = handle.read()
-        return convert_midi_bytes_to_musicxml_sync(midi_bytes)
+        return convert_midi_bytes_to_musicxml_sync(midi_bytes)[0]
     raise MuseScoreDownloadUnavailable(
         "LibreScore downloaded an unsupported file type.",
         source="librescore",
@@ -487,6 +546,77 @@ def page_looks_paywalled(html):
     return any(marker in lower for marker in PAYWALL_MARKERS)
 
 
+def classify_musescore_download_access(html):
+    """
+    Best-effort classification of MuseScore download access from public page HTML.
+
+    Returns one of: paid_official, pro_required, account_free, unknown.
+    """
+    text = str(html or "")
+    if not text.strip():
+        return "unknown"
+    lower = text[:50000].lower()
+
+    if any(marker in lower for marker in OFFICIAL_PAYWALL_MARKERS):
+        return "paid_official"
+    if any(marker in lower for marker in OFFICIAL_JSON_MARKERS):
+        return "paid_official"
+    if re.search(r"official\s+score", lower):
+        return "paid_official"
+    if re.search(r"(purchase|buy).{0,40}(score|download)", lower):
+        return "paid_official"
+    if re.search(r"(credits?).{0,40}(download|score)", lower) and "musescore" in lower:
+        return "paid_official"
+
+    if page_looks_paywalled(html):
+        return "pro_required"
+    if any(marker in lower for marker in PRO_JSON_MARKERS):
+        return "pro_required"
+
+    if any(marker in lower for marker in FREE_ACCOUNT_MARKERS):
+        return "account_free"
+    if extract_musicxml_download_urls(html):
+        return "account_free"
+
+    return "unknown"
+
+
+def is_paywalled_access_tier(access_tier):
+    return str(access_tier or "").strip().lower() in MUSESCORE_PAYWALLED_ACCESS_TIERS
+
+
+def manual_reason_for_access_tier(access_tier):
+    if is_paywalled_access_tier(access_tier):
+        return "paywall"
+    return "blocked"
+
+
+def build_musescore_manual_candidate(page_url, title="", access_tier="unknown"):
+    tier = str(access_tier or "unknown").strip().lower() or "unknown"
+    return {
+        "url": str(page_url or "").strip(),
+        "title": str(title or "").strip(),
+        "source": "musescore.com",
+        "host": "musescore.com",
+        "reason": manual_reason_for_access_tier(tier),
+        "accessTier": tier,
+        "contentType": "notation",
+    }
+
+
+def actionable_musescore_manual_candidates(manual_candidates):
+    """Manual MuseScore imports that may work with a basic free account."""
+    ordered = []
+    for item in manual_candidates or []:
+        if not isinstance(item, dict) or not item.get("url"):
+            continue
+        tier = item.get("accessTier") or "unknown"
+        if is_paywalled_access_tier(tier):
+            continue
+        ordered.append(item)
+    return ordered
+
+
 def _normalize_candidate_url(raw_url, base_url=""):
     url = str(raw_url or "").strip().rstrip(".,;:!?)\"'>]")
     if not url:
@@ -623,6 +753,7 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
 
     title = ""
     artist = ""
+    html = ""
     last_error = None
     page_error = None
 
@@ -729,15 +860,29 @@ async def fetch_musescore_url(url, on_progress=None, client=None):
         except MuseScoreDownloadUnavailable as librescore_exc:
             last_error = librescore_exc
 
+        access_tier = classify_musescore_download_access(html) if html else "unknown"
+
+        def _with_tier(exc):
+            if not isinstance(exc, MuseScoreDownloadUnavailable):
+                return exc
+            if exc.access_tier != "unknown" or access_tier == "unknown":
+                return exc
+            return MuseScoreDownloadUnavailable(
+                str(exc),
+                source=exc.source,
+                access_tier=access_tier,
+            )
+
         if isinstance(last_error, MuseScoreDownloadUnavailable):
-            raise last_error
+            raise _with_tier(last_error)
         if isinstance(page_error, MuseScoreDownloadUnavailable):
-            raise page_error
+            raise _with_tier(page_error)
         raise MuseScoreDownloadUnavailable(
             "No public MusicXML/.mxl download was found on this MuseScore.com page, "
             "and the LibreScore fallback was also unsuccessful. "
             "Export MusicXML from MuseScore.com and use Score file import.",
             source="musescore.com",
+            access_tier=access_tier,
         )
     finally:
         if owns_client:
@@ -848,7 +993,7 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
                 on_progress=on_progress,
                 client=client,
             )
-        except MuseScoreDownloadUnavailable:
+        except MuseScoreDownloadUnavailable as exc:
             await _emit_progress(
                 on_progress,
                 "musescore",
@@ -857,14 +1002,11 @@ async def collect_musescore_candidates(client, title, artist="", on_progress=Non
             )
             parsed = parse_musescore_score_url(score_url)
             page_url = (parsed or {}).get("url") or score_url
-            manual_candidates.append({
-                "url": page_url,
-                "title": title,
-                "source": "musescore.com",
-                "host": "musescore.com",
-                "reason": "blocked",
-                "contentType": "notation",
-            })
+            manual_candidates.append(build_musescore_manual_candidate(
+                page_url,
+                title=title,
+                access_tier=getattr(exc, "access_tier", "unknown"),
+            ))
             continue
         except Exception:
             continue

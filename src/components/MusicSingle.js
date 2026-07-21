@@ -58,7 +58,8 @@ import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
-import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, shouldSkipAbcMergeForChordPaste } from '../addTuneAutoEnrich'
+import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, dismissAddTuneAutoEnrichSummary, shouldSkipAbcMergeForChordPaste, tryApplyNotationMidiFallback } from '../addTuneAutoEnrich'
+import { toast } from 'react-toastify'
 import SearchProgressBar from './SearchProgressBar'
 import PasteChordSheetModal from './PasteChordSheetModal'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
@@ -110,6 +111,7 @@ export default function MusicSingle(props) {
     })
     const [showAutoEnrichChordPaste, setShowAutoEnrichChordPaste] = useState(false)
     const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
+    const autoEnrichSummaryShownRef = useRef('')
 
     useEffect(function() {
         setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
@@ -142,6 +144,15 @@ export default function MusicSingle(props) {
         setShowAutoEnrichChordPaste(true)
       }
     }, [autoEnrichPending, autoEnrichState.needsChordPaste, autoEnrichState.needsNotationPaste, params.tuneId])
+
+    useEffect(function() {
+      const summary = String(autoEnrichState.summary || '').trim()
+      if (!summary || autoEnrichPending) return
+      if (autoEnrichSummaryShownRef.current === summary) return
+      autoEnrichSummaryShownRef.current = summary
+      toast.info(summary, { autoClose: 12000 })
+      dismissAddTuneAutoEnrichSummary(params.tuneId)
+    }, [autoEnrichPending, autoEnrichState.summary, params.tuneId])
     
     var allowedImageMimeTypes = ['text/plain','image/*','application/pdf','application/musicxml','.musicxml','.mxl'] //application/musicxml
 	var fileManager = useFileManager('files',props.token ? props.token : null, props.logout, tune, allowedImageMimeTypes, true)
@@ -596,7 +607,7 @@ export default function MusicSingle(props) {
                     <ButtonGroup className="music-tune-meta-group">
                       <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
                       <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-                      <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
+                      <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
                       <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
                     </ButtonGroup>
                     <ButtonGroup className="music-tune-meta-group">
@@ -647,7 +658,7 @@ export default function MusicSingle(props) {
 			      <ButtonGroup className="music-tune-meta-group">
 			        <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
 			        <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-			        <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
+			        <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
 			        <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
 			      </ButtonGroup>
 			      <ButtonGroup className="music-tune-meta-group">
@@ -812,6 +823,18 @@ export default function MusicSingle(props) {
           </div>
         </Alert>
       ) : null}
+      {!autoEnrichPending && autoEnrichState.musescorePaywalled && !autoEnrichState.needsNotationPaste ? (
+        <Alert
+          variant="info"
+          className="m-2 mb-0"
+          data-testid="auto-enrich-musescore-paywalled-alert"
+          dismissible
+          onClose={function() { dismissAddTuneAutoEnrichFailure(params.tuneId) }}
+        >
+          {autoEnrichState.message
+            || 'MuseScore matches require PRO or purchase; try MIDI or ABC sources instead.'}
+        </Alert>
+      ) : null}
       {!autoEnrichPending && autoEnrichState.failure ? (
         <Alert
           variant="danger"
@@ -872,6 +895,20 @@ export default function MusicSingle(props) {
         onHide={function() {
           setShowAutoEnrichNotationPaste(false)
           dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+        }}
+        onAbandon={function() {
+          if (!tune || !props.tunebook) return
+          void tryApplyNotationMidiFallback({
+            tune: tune,
+            tunebook: props.tunebook,
+            forceRefresh: props.forceRefresh,
+            resolverAvailable: resolverAvailable,
+          }).then(function(applied) {
+            if (applied) {
+              setShowAutoEnrichNotationPaste(false)
+              dismissAddTuneAutoEnrichNotationPaste(params.tuneId)
+            }
+          })
         }}
         candidate={autoEnrichState.notationPasteCandidate}
         searchTitle={tune && tune.name}

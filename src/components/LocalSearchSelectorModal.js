@@ -5,6 +5,7 @@ import Abc from './Abc'
 import TuneImportFieldChooserModal from './TuneImportFieldChooserModal'
 import SearchProgressBar from './SearchProgressBar'
 import SearchResultPickerModal from './SearchResultPickerModal'
+import VoiceFillInput from './VoiceFillInput'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import { isMediaResolverInfrastructureError, isNotationSearchEmptyError } from '../mediaProxyClient'
 import { searchNotation } from '../notationSearchClient'
@@ -469,13 +470,16 @@ function LocalSearchSelectorModal(props) {
             <Modal.Body>
               {useUnifiedSearch ? (
                 <>
-                  <Form.Control
+                  <VoiceFillInput
                     type="text"
-                    className="local-search-title-input"
+                    inputClassName="local-search-title-input"
                     value={filter}
                     onChange={filterChange}
                     placeholder="Tune title"
                     style={{ marginBottom: '0.75em' }}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                    token={props.token}
+                    fieldKind="search"
                   />
                   <div style={{ display: 'flex', gap: '0.75em', flexWrap: 'wrap', alignItems: 'center', marginBottom: '0.75em' }}>
                     <Form.Select
@@ -507,12 +511,15 @@ function LocalSearchSelectorModal(props) {
                       <hr />
                     </>
                   )}
-                  <Form.Control
+                  <VoiceFillInput
                     type="text"
-                    className="local-search-title-input"
+                    inputClassName="local-search-title-input"
                     value={filter}
                     onChange={filterChange}
                     placeholder="Tune title"
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                    token={props.token}
+                    fieldKind="search"
                   />
                 </>
               )}

@@ -10,6 +10,7 @@ import {
 } from '../soundpostSetStore'
 import { TUNER_INSTRUMENT_LABELS } from '../instrumentTuningPresets'
 import { sequencePresetLabel } from '../audioAnalysisSequences'
+import VoiceFillInput from './VoiceFillInput'
 
 const UNGROUPED = '__ungrouped__'
 
@@ -94,11 +95,15 @@ export default function AudioAnalysisHistory(props) {
         </Button>
       </div>
 
-      <Form className="d-flex gap-2 mb-3" onSubmit={onCreateGroup}>
-        <Form.Control
+      <Form className="d-flex gap-2 mb-3 align-items-stretch" onSubmit={onCreateGroup}>
+        <VoiceFillInput
+          className="flex-grow-1"
           placeholder="New group name"
           value={newGroupLabel}
           onChange={function(e) { setNewGroupLabel(e.target.value) }}
+          fieldKind="search"
+          token={props.token}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
         <Button type="submit" variant="outline-primary">Add group</Button>
       </Form>
@@ -189,10 +194,13 @@ export default function AudioAnalysisHistory(props) {
         <Modal.Header closeButton><Modal.Title>Rename group</Modal.Title></Modal.Header>
         <Form onSubmit={onRenameGroup}>
           <Modal.Body>
-            <Form.Control
+            <VoiceFillInput
               value={renameLabel}
               onChange={function(e) { setRenameLabel(e.target.value) }}
               autoFocus
+              fieldKind="search"
+              token={props.token}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             />
           </Modal.Body>
           <Modal.Footer>

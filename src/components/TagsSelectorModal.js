@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup, Badge} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import VoiceFillInput from './VoiceFillInput'
 
 function TagsSelectorModal(props) {
     
@@ -102,7 +103,18 @@ function TagsSelectorModal(props) {
               return <Button key={selectedTag} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectTag(selectedTag)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedTag}</Button>
             })}</div>
             
-          <input type='search' value={filter} onChange={filterChange} onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={filterChange}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           <Button key="newtag" onClick={function() {newTag(filter)}}  >New Tag</Button>
         </Modal.Body>
         <Modal.Footer>

@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup, Badge} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import VoiceFillInput from './VoiceFillInput'
 
 function BookMultiSelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -82,7 +83,18 @@ function BookMultiSelectorModal(props) {
               return <Button key={selectedBook} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectBook(selectedBook)}} >{props.tunebook.icons.closecircle}&nbsp;{selectedBook}</Button>
             })}</div>
             
-          <input type='search' value={filter} onChange={filterChange}   onFocus={function() {props.setBlockKeyboardShortcuts(true)}} onBlur={function() {props.setBlockKeyboardShortcuts(false)}}  />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={filterChange}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           <Button key="newbook" onClick={function() {newBook(filter)}}  >New Book</Button>
         </Modal.Body>
         <Modal.Footer>

@@ -1,18 +1,12 @@
 import { isOwnedMediaLinkUri } from './linkRecording'
+import { resolveUriPlaybackSrcType, isCacheablePlaybackSrcType } from './mediaLinkSrcType'
 
 export function getLinkSrcType(src, isYoutubeLink) {
-  if (!src || !String(src).trim()) return 'abc'
-  const trimmed = String(src).trim()
-  if (isOwnedMediaLinkUri(trimmed)) return 'recording'
-  if (trimmed.startsWith('data:audio/')) return 'inline'
-  if (trimmed.startsWith('data:')) return 'skip'
-  if (typeof isYoutubeLink === 'function' && isYoutubeLink(trimmed)) return 'youtube'
-  if (/^https?:\/\//i.test(trimmed)) return 'audio'
-  return 'abc'
+  return resolveUriPlaybackSrcType(src, isYoutubeLink)
 }
 
 export function isCacheableLinkSrcType(srcType) {
-  return srcType === 'audio' || srcType === 'youtube' || srcType === 'recording'
+  return isCacheablePlaybackSrcType(srcType)
 }
 
 function linkAt(tune, index) {

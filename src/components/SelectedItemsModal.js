@@ -10,6 +10,7 @@ import {appendTunesToPlaylist, savePlaylistFromQueue} from '../savedPlaylistsSto
 import {createQueue} from '../nowPlayingQueue'
 import {Link, useNavigate} from 'react-router-dom'
 import {toast} from 'react-toastify'
+import FieldVoiceFillButton from './FieldVoiceFillButton'
 
 function BulkOpsDualIcon({leading, trailing}) {
   return (
@@ -36,7 +37,7 @@ function BulkOpsButton({icon, label, className, children, ...buttonProps}) {
   )
 }
 
-function BulkOpsSearchBox({icons, id, value, onChange, placeholder}) {
+function BulkOpsSearchBox({icons, id, value, onChange, placeholder, token, setBlockKeyboardShortcuts}) {
   return (
     <div className="bulk-ops-search">
       <span className="bulk-ops-search-icon" aria-hidden="true">{icons.search}</span>
@@ -47,6 +48,12 @@ function BulkOpsSearchBox({icons, id, value, onChange, placeholder}) {
         value={value}
         placeholder={placeholder}
         onChange={function(e) { onChange(e.target.value) }}
+      />
+      <FieldVoiceFillButton
+        fieldKind="search"
+        token={token}
+        setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+        onFill={onChange}
       />
       {value ? (
         <Button
@@ -476,6 +483,8 @@ export default function SelectedItemsModal(props) {
                     value={filterAdd}
                     onChange={filterAddChange}
                     placeholder="Search books"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                   {(props.allowNew !== false) && (
                     <BulkOpsButton
@@ -511,6 +520,8 @@ export default function SelectedItemsModal(props) {
                     value={filterRemove}
                     onChange={filterRemoveChange}
                     placeholder="Search books"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                   <BulkOpsButton
                     variant="success"
@@ -543,6 +554,8 @@ export default function SelectedItemsModal(props) {
                     value={filterAddTag}
                     onChange={filterAddTagChange}
                     placeholder="Search tags"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                   {(props.allowNew !== false) && (
                     <BulkOpsButton
@@ -578,6 +591,8 @@ export default function SelectedItemsModal(props) {
                     value={filterRemoveTag}
                     onChange={filterRemoveTagChange}
                     placeholder="Search tags"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                   <BulkOpsButton
                     variant="success"

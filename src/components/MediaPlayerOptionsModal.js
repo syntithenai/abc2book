@@ -12,7 +12,21 @@ import { isQueueActive } from '../nowPlayingQueue'
 import { getViewedTuneIdFromPath, getSkipNavigationTuneId } from '../playbackNavigationUtils'
 import './MediaPlayerOptionsModal.css'
 
-export default function MediaPlayerOptionsModal({mediaController, tunebook, buttonSize, variant, currentTuneBook, tagFilter, selected, user, tunes, nowPlayingQueue}) {
+export default function MediaPlayerOptionsModal({
+  mediaController,
+  tunebook,
+  buttonSize,
+  variant,
+  currentTuneBook,
+  tagFilter,
+  selected,
+  user,
+  tunes,
+  nowPlayingQueue,
+  contextTune,
+  suppressRouteNavigation,
+  dialogZIndex,
+}) {
   const navigate = useNavigate()
   const location = useLocation()
   const params = useParams()
@@ -21,11 +35,21 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
   const viewedTuneId = getViewedTuneIdFromPath(location.pathname)
     || (params.tuneId ? params.tuneId : null)
   const viewedTune = (function() {
+    if (contextTune) {
+      if (contextTune.id && tunes && tunes[contextTune.id]) {
+        return tunes[contextTune.id]
+      }
+      return contextTune
+    }
     if (viewedTuneId && tunes && tunes[viewedTuneId]) {
       return tunes[viewedTuneId]
     }
     return mediaController.tune
   })()
+  const inPracticeContext = !!contextTune
+  const showTunePlaybackControls = inPracticeContext
+    || location.pathname.indexOf('/tunes/') === 0
+    || location.pathname.indexOf('/editor/') === 0
   const playingTune = (function() {
     const tune = mediaController.tune
     if (!tune || !tune.id) return null
@@ -40,10 +64,8 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
   const [show, setShow] = useState(false);
   const [settingsTab, setSettingsTab] = useState('playback');
   var useButtonSize=(buttonSize ? buttonSize : 'lg')
-  const onTuneOrEditor = location.pathname.indexOf("/tunes/") === 0
-    || location.pathname.indexOf("/editor/") === 0
-  const hasMusic = !!(onTuneOrEditor && viewedTune && tunebook.hasNotesOrChords(viewedTune))
-  const hasLinks = !!(onTuneOrEditor && viewedTune && tunebook.hasLinks(viewedTune))
+  const hasMusic = !!(showTunePlaybackControls && viewedTune && tunebook.hasNotesOrChords(viewedTune))
+  const hasLinks = !!(showTunePlaybackControls && viewedTune && tunebook.hasLinks(viewedTune))
 
   const handleClose = function() {
     setShow(false);
@@ -159,7 +181,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
         startPlaybackFromGesture({ fresh: true })
       }
     }
-    if (location.pathname !== path) {
+    if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)
     }
   }
@@ -180,13 +202,13 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
         startPlaybackFromGesture({ fresh: true })
       }
     }
-    if (location.pathname !== path) {
+    if (!suppressRouteNavigation && location.pathname !== path) {
       navigate(path)
     }
   }
 
   const skipTuneId = getSkipNavigationTuneId(location.pathname, nowPlayingQueue)
-  const showSkipButtons = !!(skipTuneId && viewedTuneId)
+  const showSkipButtons = !suppressRouteNavigation && !!(skipTuneId && viewedTuneId)
   const navFromId = viewedTuneId || null
   const queuePlaybackRunning = !!(navFromId)
     && isQueueActive(nowPlayingQueue)
@@ -218,7 +240,14 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
     <>
       <Button size={useButtonSize} onClick={handleShow} variant={(variant ? variant : (mediaController.isLoading ? "secondary" : (mediaController.isPlaying ? "warning" : "success")))}>{tunebook.icons.dropdown}</Button>
 
-      <Modal onClick={function(e) {e.stopPropagation()}} show={show} onHide={handleClose} size="lg">
+      <Modal
+        onClick={function(e) {e.stopPropagation()}}
+        show={show}
+        onHide={handleClose}
+        size="lg"
+        style={dialogZIndex ? { zIndex: dialogZIndex } : undefined}
+        backdropClassName={dialogZIndex ? 'media-controls-modal-backdrop-elevated' : undefined}
+      >
         <Modal.Header closeButton className="media-controls-modal-header">
           <Modal.Title className="media-controls-modal-title-row">
             <span className="media-controls-modal-title-text">Media Controls</span>
@@ -230,7 +259,7 @@ export default function MediaPlayerOptionsModal({mediaController, tunebook, butt
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{maxHeight:'70vh', overflowY:'auto'}}>
-          {(onTuneOrEditor && viewedTune) && (
+          {(showTunePlaybackControls && viewedTune) && (
             <div style={{borderBottom:'1px solid black', paddingBottom:'0.5em'}}>
               <div className="media-controls-playback-row">
                 <div className="media-controls-playback-buttons">

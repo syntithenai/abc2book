@@ -19,6 +19,7 @@ import {
   measureSingleViewPaper,
   readNotationSvgDims,
 } from '../gigNotationFit'
+import { buildAbcjsTablatureConfig } from '../tablatureConfig'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
@@ -228,9 +229,10 @@ export default function Abc(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
-          renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
-        } 
+        const tabCfg = buildAbcjsTablatureConfig(tune)
+        if (tabCfg) {
+          renderOptions.tablature = [tabCfg]
+        }
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
         var abcForRender = props.tunebook.abcTools.json2abc(tune)

@@ -17,6 +17,33 @@
   padding: 0.6rem 0.75rem;
 }
 
+.tuner-recent-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.55rem;
+}
+
+.tuner-recent-btn {
+  flex: 0 0 auto;
+  width: auto;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.tuner-recent-btn.tuner-recent-btn-active {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.tuner-recent-btn.tuner-recent-btn-active:hover,
+.tuner-recent-btn.tuner-recent-btn-active:focus {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
 .tuner-row {
   display: flex;
   flex-wrap: wrap;
@@ -320,6 +347,84 @@
   width: 100%;
   height: 100%;
   min-height: 220px;
+}
+
+.tuner-fine-scale {
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.85rem;
+}
+
+.tuner-fine-scale-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #868e96;
+  margin-bottom: 0.15rem;
+  padding: 0 0.15rem;
+}
+
+.tuner-fine-scale-track {
+  position: relative;
+  height: 2.1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.35rem;
+  background: linear-gradient(90deg, #fff5f5 0%, #f8f9fa 45%, #f8f9fa 55%, #fff9db 100%);
+}
+
+.tuner-fine-scale-in-tune {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 12%;
+  transform: translateX(-50%);
+  background: rgba(39, 174, 96, 0.12);
+  border-left: 1px solid rgba(39, 174, 96, 0.25);
+  border-right: 1px solid rgba(39, 174, 96, 0.25);
+  pointer-events: none;
+}
+
+.tuner-fine-scale-tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #ced4da;
+  transform: translateX(-50%);
+}
+
+.tuner-fine-scale-tick-major,
+.tuner-fine-scale-tick-center {
+  background: #adb5bd;
+}
+
+.tuner-fine-scale-tick-center {
+  background: #f1c40f;
+  width: 2px;
+}
+
+.tuner-fine-scale-tick-label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.1rem;
+  font-size: 0.62rem;
+  color: #868e96;
+  white-space: nowrap;
+}
+
+.tuner-fine-scale-needle {
+  position: absolute;
+  top: -0.15rem;
+  bottom: -0.15rem;
+  width: 3px;
+  margin-left: -1.5px;
+  border-radius: 2px;
+  background: #2c3e50;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.65);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .tuner-vu-canvas,

@@ -55,4 +55,19 @@ describe('chordSearchSites paste helpers', function() {
     expect(fallback.searchFallback).toBe(true)
     expect(fallback.url).toBe(buildMuseScoreSearchUrl('Song', 'Artist'))
   })
+
+  test('pickNotationPasteCandidate skips paywalled manuals and suppresses search fallback', function() {
+    const { pickNotationPasteCandidate } = require('./chordSearchSites')
+    const picked = pickNotationPasteCandidate([
+      {
+        url: 'https://musescore.com/user/1/scores/9',
+        title: 'Bach Suite',
+        source: 'musescore.com',
+        accessTier: 'pro_required',
+        contentType: 'notation',
+      },
+    ], 'Bach Suite', '')
+    expect(picked).toBeNull()
+    expect(pickNotationPasteCandidate([], 'Bach Suite', '', { musescorePaywalled: true })).toBeNull()
+  })
 })

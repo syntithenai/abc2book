@@ -11,6 +11,17 @@ export function rmsFromTimeDomain(timeDomain) {
   return Math.min(1, rms * 2.5)
 }
 
+export function rmsFromChannelData(channelData) {
+  if (!channelData || !channelData.length) return 0
+  let sum = 0
+  for (let i = 0; i < channelData.length; i += 1) {
+    const sample = channelData[i]
+    sum += sample * sample
+  }
+  const rms = Math.sqrt(sum / channelData.length)
+  return Math.min(1, rms * 2.5)
+}
+
 export function targetAdaptiveRange(absCents) {
   const abs = Math.abs(absCents)
   if (!Number.isFinite(abs)) return ADAPTIVE_RANGE_STEPS[0]
@@ -33,7 +44,7 @@ export function adaptiveDisplayRange(absCents, currentRange, smoothing) {
  * Exponential smoothing for the VU needle. Readout should use raw cents;
  * this only eases visual motion. Converges faster when far from target.
  */
-export function smoothNeedleCents(current, target, deltaMs) {
+export function smoothNeedleCents(current, target, deltaMs, options) {
   if (target == null || !Number.isFinite(target)) {
     if (current == null || !Number.isFinite(current)) return null
     return current
@@ -41,7 +52,9 @@ export function smoothNeedleCents(current, target, deltaMs) {
   if (current == null || !Number.isFinite(current)) return target
   const dt = Math.max(1, deltaMs || 16)
   const error = Math.abs(target - current)
-  const tau = error > 20 ? 120 : error > 8 ? 180 : error > 3 ? 280 : 380
+  const tauScale = options && options.tauScale != null ? options.tauScale : 1
+  const baseTau = error > 20 ? 120 : error > 8 ? 180 : error > 3 ? 280 : 380
+  const tau = baseTau * tauScale
   const alpha = 1 - Math.exp(-dt / tau)
   return current + (target - current) * alpha
 }
@@ -110,6 +123,25 @@ export function formatCentsDetail(cents) {
 
 export function isFarFromTarget(cents) {
   return cents != null && Number.isFinite(cents) && Math.abs(cents) > 50
+}
+
+/**
+ * Map raw cents to the needle position on the current scale.
+ * Values beyond ±halfRange peg to the corresponding edge.
+ */
+export function centsForNeedle(cents, halfRange) {
+  if (cents == null || !Number.isFinite(cents)) return null
+  const range = halfRange > 0 ? halfRange : 50
+  if (Math.abs(cents) >= range) {
+    return cents > 0 ? range : -range
+  }
+  return cents
+}
+
+export function isBeyondNeedleRange(cents, halfRange) {
+  if (cents == null || !Number.isFinite(cents)) return false
+  const range = halfRange > 0 ? halfRange : 50
+  return Math.abs(cents) >= range
 }
 
 export function formatFrequency(freq) {

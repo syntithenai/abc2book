@@ -174,6 +174,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/separate-stems') === 0) return 'separate-stems';
   if (pathAndQuery.indexOf('/transcribe-sheet-image') === 0) return 'transcribe-sheet-image';
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
+  if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
   if (pathAndQuery.indexOf('/midi2xml') === 0) return 'midi2xml';
   if (pathAndQuery.indexOf('/abc2xml') === 0) return 'abc2xml';
   if (/^\/stems\/[^/]+\/status/.test(pathAndQuery)) return 'stem-status';
@@ -377,6 +378,8 @@ export async function probeMediaResolverCandidates(accessToken) {
       : null,
     freeAccess: activeCandidate ? !!activeCandidate.freeAccess : false,
     embeddedCreds: activeCandidate ? !!activeCandidate.embeddedCreds : false,
+    requireAuth: activeCandidate ? !!activeCandidate.requireAuth : false,
+    authReason: activeCandidate ? (activeCandidate.authReason || '') : '',
     providers: activeCandidate && activeCandidate.providers
       ? activeCandidate.providers
       : null,
@@ -392,6 +395,7 @@ const HEAVY_ML_PATH_PREFIXES = [
   '/separate-stems',
   '/stems/',
   '/transcribe-sheet-image',
+  '/extract-sheet-metadata',
   '/analyze-media',
   '/detect-chords',
   '/analyze-practice',

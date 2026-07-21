@@ -20,6 +20,7 @@ import {
 } from '../lyricsWordToolsApi'
 import { useDocumentTitle } from '../pageTitle'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import FieldVoiceFillButton from '../components/FieldVoiceFillButton'
 import { LYRICS_TOOLS_CLOSE_MESSAGE } from '../embedFrameUtils'
 
 function ResultPillList(props) {
@@ -215,6 +216,14 @@ function LookupSearchPanel(props) {
               }}
               placeholder={props.placeholder}
               aria-label={props.title + ' query'}
+            />
+            <FieldVoiceFillButton
+              fieldKind="search"
+              token={props.voiceToken}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              onFill={function(text) {
+                if (props.onQueryChange) props.onQueryChange(text)
+              }}
             />
             <Button type="submit" variant="primary" disabled={loading}>
               {loading ? <Spinner animation="border" size="sm" /> : 'Search'}
@@ -470,6 +479,8 @@ export default function LyricsPage(props) {
             placeholder="Search a word or describe an idea, like bittersweet and glowing"
             query={lookupQuery}
             accessToken={accessToken}
+            voiceToken={props.token}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             autoSearch={embedded && !!lookupQuery.trim()}
             onQueryChange={function(nextQuery) { updateLookupQuery(nextQuery) }}
             onSearchComplete={function(term) { updateLookupQuery(term) }}

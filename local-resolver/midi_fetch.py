@@ -9,6 +9,13 @@ import httpx
 
 from browser_fetch import fetch_html_with_fallback
 from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
+from midi_resources import (
+    MAX_LOCAL_MIDI_CANDIDATES,
+    annotate_local_midi_candidate,
+    midi_resources_enabled,
+    read_midi_resource_bytes,
+    search_midi_resources,
+)
 from notation_title_variants import notation_title_variants
 from polite_fetch import browser_headers
 from tune_background_research import search_web
@@ -98,6 +105,42 @@ def title_from_midi_url(url, fallback=""):
     return str(fallback or "").strip() or "MIDI import"
 
 
+def build_midi_broad_queries(title, artist=""):
+    """High-recall queries run first when site-specific hits are sparse."""
+    title = str(title or "").strip()
+    artist = str(artist or "").strip()
+    if not title:
+        return []
+
+    queries = []
+    seen = set()
+    priority_hosts = (
+        "mutopiaproject.org",
+        "archive.org",
+        "freemidi.net",
+        "midiworld.com",
+        "bitmidi.com",
+    )
+
+    def add(query):
+        key = str(query or "").strip().lower()
+        if not key or key in seen:
+            return
+        seen.add(key)
+        queries.append(str(query).strip())
+
+    for variant in notation_title_variants(title)[:5]:
+        quoted = '"{0}"'.format(variant)
+        add("{0} filetype:mid".format(quoted))
+        add("{0} midi download".format(quoted))
+        if artist:
+            add("{0} {1} midi".format(quoted, '"{0}"'.format(artist)))
+        for host in priority_hosts:
+            add("site:{0} {1} midi".format(host, quoted))
+            add("site:{0} {1} filetype:mid".format(host, quoted))
+    return queries
+
+
 def build_midi_search_queries(title, artist=""):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
@@ -106,6 +149,17 @@ def build_midi_search_queries(title, artist=""):
 
     queries = []
     seen = set()
+
+    def add(query):
+        key = str(query or "").strip().lower()
+        if not key or key in seen:
+            return
+        seen.add(key)
+        queries.append(str(query).strip())
+
+    for query in build_midi_broad_queries(title, artist):
+        add(query)
+
     for variant in notation_title_variants(title):
         quoted = '"{0}"'.format(variant)
         for host in MIDI_SEARCH_SITE_HOSTS:
@@ -119,16 +173,12 @@ def build_midi_search_queries(title, artist=""):
                     "site:{0} {1} {2} midi".format(host, quoted, '"{0}"'.format(artist)),
                 )
             for query in batch:
-                key = query.lower()
-                if key in seen:
-                    continue
-                seen.add(key)
-                queries.append(query)
+                add(query)
     return queries
 
 
-def midi_urls_from_search_results(results):
-    """Collect allowlisted MIDI file URLs and allowlisted HTML page URLs from search hits."""
+def midi_urls_from_search_results(results, *, allow_any_direct_midi=False):
+    """Collect MIDI file URLs and allowlisted HTML page URLs from search hits."""
     file_urls = []
     page_urls = []
     seen_files = set()
@@ -142,12 +192,13 @@ def midi_urls_from_search_results(results):
             host = urlparse(url).hostname
         except Exception:
             return
-        if not is_allowed_midi_host(host):
-            return
         if is_direct_midi_file_url(url):
-            if url not in seen_files:
-                seen_files.add(url)
-                file_urls.append(url)
+            if allow_any_direct_midi or is_allowed_midi_host(host):
+                if url not in seen_files:
+                    seen_files.add(url)
+                    file_urls.append(url)
+            return
+        if not is_allowed_midi_host(host):
             return
         if url not in seen_pages:
             seen_pages.add(url)
@@ -256,7 +307,7 @@ async def fetch_midi_bytes(client, url, referer=None):
 
 
 async def convert_and_annotate_midi(midi_bytes, source_url, query_title="", artist=""):
-    music_xml = await convert_midi_to_musicxml(midi_bytes, filename=source_url or "import.mid")
+    music_xml, _diagnostics = await convert_midi_to_musicxml(midi_bytes, filename=source_url or "import.mid")
     title = title_from_midi_url(source_url, fallback=query_title)
     return annotate_midi_candidate(
         music_xml,
@@ -269,6 +320,25 @@ async def convert_and_annotate_midi(midi_bytes, source_url, query_title="", arti
 async def fetch_midi_url(url, on_progress=None, client=None, title="", artist=""):
     """Download a direct .mid/.midi URL (any host) and convert to a notation candidate."""
     page_url = str(url or "").strip()
+    if page_url.startswith("/midi-resources/") or "/midi-resources/" in page_url:
+        rel_path = page_url.split("/midi-resources/", 1)[-1].split("?", 1)[0]
+        await _emit_progress(on_progress, "midi", "Loading local MIDI file...", 0.3)
+        try:
+            midi_bytes = read_midi_resource_bytes(rel_path)
+        except Exception as exc:
+            raise ValueError(str(exc) or "Could not load local MIDI file") from exc
+        await _emit_progress(on_progress, "midi", "Converting MIDI to MusicXML...", 0.7)
+        music_xml, _diagnostics = await convert_midi_to_musicxml(midi_bytes, filename=rel_path)
+        candidate = annotate_local_midi_candidate(
+            music_xml,
+            title=title_from_midi_url(page_url, fallback=title),
+            path=rel_path,
+            query_title=title,
+            artist=artist,
+        )
+        await _emit_progress(on_progress, "midi", "MIDI notation ready", 1.0)
+        return candidate
+
     if not is_direct_midi_file_url(page_url):
         raise ValueError("Not a MIDI file URL")
 
@@ -336,25 +406,102 @@ async def fetch_midi_from_allowlisted_page(url, on_progress=None, client=None, t
             await client.aclose()
 
 
-async def collect_web_midi_candidates(client, title, artist="", on_progress=None):
+async def collect_local_midi_candidates(title, artist="", on_progress=None):
+    """Search the mounted local MIDI library and convert top matches."""
+    title = str(title or "").strip()
+    artist = str(artist or "").strip()
+    if not title or not midi_resources_enabled():
+        return []
+
+    await _emit_progress(on_progress, "midi", "Searching local MIDI library...", 0.52)
+    matches = search_midi_resources(title, artist=artist)
+    if not matches:
+        await _emit_progress(on_progress, "midi", "No local MIDI matches", 0.58)
+        return []
+
+    candidates = []
+    for index, match in enumerate(matches[:MAX_LOCAL_MIDI_CANDIDATES]):
+        rel_path = str(match.get("path") or "").strip()
+        if not rel_path:
+            continue
+        await _emit_progress(
+            on_progress,
+            "midi",
+            "Converting local MIDI {0}/{1}...".format(index + 1, min(len(matches), MAX_LOCAL_MIDI_CANDIDATES)),
+            0.55 + (0.25 * (index + 1) / max(min(len(matches), MAX_LOCAL_MIDI_CANDIDATES), 1)),
+        )
+        try:
+            midi_bytes = read_midi_resource_bytes(rel_path)
+            music_xml, _diagnostics = await convert_midi_to_musicxml(
+                midi_bytes,
+                filename=rel_path,
+            )
+            candidate = annotate_local_midi_candidate(
+                music_xml,
+                title=str(match.get("title") or ""),
+                path=rel_path,
+                query_title=title,
+                artist=artist,
+            )
+            candidate["matchScore"] = int(match.get("matchScore") or 0)
+            candidates.append(candidate)
+        except Exception:
+            continue
+
+    if candidates:
+        await _emit_progress(on_progress, "midi", "Local MIDI candidates ready", 0.78)
+    else:
+        await _emit_progress(on_progress, "midi", "Local MIDI matches could not be converted", 0.78)
+    return candidates
+
+
+async def collect_midi_candidates(client, title, artist="", on_progress=None, relaxed=False):
+    """Prefer the local MIDI library, then search the web."""
+    local_candidates = await collect_local_midi_candidates(title, artist=artist, on_progress=on_progress)
+    if local_candidates:
+        return local_candidates
+    return await collect_web_midi_candidates(
+        client,
+        title,
+        artist=artist,
+        on_progress=on_progress,
+        relaxed=relaxed,
+    )
+
+
+async def collect_web_midi_candidates(client, title, artist="", on_progress=None, relaxed=False):
     title = str(title or "").strip()
     artist = str(artist or "").strip()
     if not title:
         return []
 
-    await _emit_progress(on_progress, "midi", "Searching MIDI sites...", 0.55)
+    await _emit_progress(
+        on_progress,
+        "midi",
+        "Searching MIDI sites..." if not relaxed else "Searching the web for MIDI files...",
+        0.55,
+    )
     queries = build_midi_search_queries(title, artist)
+    if relaxed:
+        broad = build_midi_broad_queries(title, artist)
+        broad_set = set(broad)
+        queries = broad + [query for query in queries if query not in broad_set]
     file_urls = []
     page_urls = []
     seen_files = set()
     seen_pages = set()
+    max_url_tries = MAX_MIDI_URL_TRIES * 2 if relaxed else MAX_MIDI_URL_TRIES
+    max_file_downloads = MAX_MIDI_FILE_DOWNLOADS * 2 if relaxed else MAX_MIDI_FILE_DOWNLOADS
 
     for query in queries:
         try:
             results = await search_web(client, query)
         except Exception:
             results = []
-        files, pages = midi_urls_from_search_results(results)
+        files, pages = midi_urls_from_search_results(
+            results,
+            allow_any_direct_midi=relaxed,
+        )
         for url in files:
             if url not in seen_files:
                 seen_files.add(url)
@@ -363,11 +510,11 @@ async def collect_web_midi_candidates(client, title, artist="", on_progress=None
             if url not in seen_pages:
                 seen_pages.add(url)
                 page_urls.append(url)
-        if len(file_urls) >= MAX_MIDI_URL_TRIES:
+        if len(file_urls) >= max_url_tries:
             break
 
     for page_url in page_urls[:8]:
-        if len(file_urls) >= MAX_MIDI_URL_TRIES:
+        if len(file_urls) >= max_url_tries:
             break
         try:
             page = await fetch_html_with_fallback(client, page_url, allow_playwright=True)
@@ -380,14 +527,14 @@ async def collect_web_midi_candidates(client, title, artist="", on_progress=None
         except Exception:
             continue
 
-    file_urls = file_urls[:MAX_MIDI_URL_TRIES]
+    file_urls = file_urls[:max_url_tries]
     if not file_urls:
         await _emit_progress(on_progress, "midi", "No MIDI files found", 0.8)
         return []
 
     candidates = []
     for index, midi_url in enumerate(file_urls):
-        if len(candidates) >= MAX_MIDI_FILE_DOWNLOADS:
+        if len(candidates) >= max_file_downloads:
             break
         await _emit_progress(
             on_progress,

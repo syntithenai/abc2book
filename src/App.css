@@ -2116,6 +2116,50 @@ a.header-now-playing-label:focus {
   box-sizing: border-box;
 }
 
+.voice-fill-input-wrap {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  gap: 0;
+}
+
+.voice-fill-input-wrap > input,
+.voice-fill-input-wrap > .form-control {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.voice-fill-input-wrap:has(.field-voice-fill-btn) > input,
+.voice-fill-input-wrap:has(.field-voice-fill-btn) > .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.voice-fill-input-wrap .field-voice-fill-btn {
+  flex: 0 0 auto;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin-left: -1px;
+}
+
+.voice-fill-input-group .field-voice-fill-btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.bulk-ops-search .field-voice-fill-btn {
+  flex: 0 0 auto;
+  border-radius: 0 !important;
+  margin-left: -1px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.books-page-top-search-wrap .field-voice-fill-btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
 .tune-search-filters {
   display: flex;
   flex-wrap: wrap;
@@ -2372,6 +2416,12 @@ html.app-embed-frame .App {
   margin-bottom: 0;
 }
 
+.add-tunes-requirement-hint {
+  max-width: 14rem;
+  line-height: 1.25;
+  text-align: right;
+}
+
 .add-tunes-header-add-btn {
   margin-right: 0.5rem;
   font-size: 1.35rem !important;
@@ -2379,6 +2429,11 @@ html.app-embed-frame .App {
   padding: 0.55rem 1.35rem !important;
   line-height: 1.2;
   min-height: 3rem;
+}
+
+.add-tunes-header-add-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .add-tune-simple-form .add-tune-field-block {
@@ -3573,6 +3628,53 @@ button img:after {
 
 .music-transpose-group .btn,
 .music-capo-toggle-btn {
+  min-height: 2.5rem;
+}
+
+.tablature-selector-block {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.35rem 0.15rem 0.5rem;
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  background: var(--bs-secondary-bg, #e9ecef);
+  flex-wrap: nowrap;
+}
+
+.tablature-selector-label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: #495057;
+  white-space: nowrap;
+}
+
+.tablature-selector-control {
+  min-height: 2.5rem;
+  max-width: 11rem;
+}
+
+.tablature-selector-block--menu {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.35rem 0.5rem;
+}
+
+.tablature-selector-block--menu .tablature-selector-control {
+  flex: 1 1 auto;
+  max-width: none;
+  min-width: 0;
+}
+
+.view-mode-tablature-selector {
+  padding: 0.25rem 0.6rem;
+}
+
+.display-mode-toolbar .tablature-selector-block {
+  flex-shrink: 0;
+}
+
+.display-mode-toolbar .tablature-selector-control {
   min-height: 2.5rem;
 }
 
@@ -8168,6 +8270,10 @@ button img:after {
   gap: 0.5em;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.links-editor-title-input-row .field-voice-fill-btn {
+  flex: 0 0 auto;
 }
 
 .links-editor-title-input-row .form-control {

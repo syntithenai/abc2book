@@ -9,6 +9,7 @@ import ChordSectionsDropdown from './ChordSectionsDropdown'
 import ChordSectionRecordModal from './ChordSectionRecordModal'
 import PasteChordSheetModal from './PasteChordSheetModal'
 import ChordMergeFailureToast from './ChordMergeFailureToast'
+import VoiceFillInput from './VoiceFillInput'
 import { commitChordSearchResultToTune } from '../commitChordSearchResultToTune'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import {
@@ -897,7 +898,7 @@ export default function ChordsWizard(props) {
         <Modal.Body>
           <Form.Group controlId="chords-new-section-name">
             <Form.Label>Section name</Form.Label>
-            <Form.Control
+            <VoiceFillInput
               autoFocus
               value={newSectionName}
               placeholder="e.g. Bridge"
@@ -908,6 +909,9 @@ export default function ChordsWizard(props) {
                   confirmAddSection()
                 }
               }}
+              fieldKind="search"
+              token={props.token}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             />
           </Form.Group>
         </Modal.Body>

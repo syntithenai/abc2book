@@ -1,6 +1,7 @@
 import { getMusicGenreSelectOptions } from './musicGenreOptions'
 import { normalizeKeySignature } from './keySignatureNormalize'
 import { normalizeSuitableInstruments } from './practiceSessionSettings'
+import { TABLATURE_INSTRUMENT_OPTIONS } from './tablatureConfig'
 
 export const BULK_EDIT_FIELDS = [
   { key: 'key', label: 'Key', type: 'key', allowEmpty: true },
@@ -27,11 +28,9 @@ export const BULK_EDIT_FIELDS = [
     label: 'Tablature',
     type: 'select',
     allowEmpty: true,
-    options: [
-      { value: '', label: '(none)' },
-      { value: 'guitar', label: 'Guitar' },
-      { value: 'violin', label: 'Violin' },
-    ],
+    options: TABLATURE_INSTRUMENT_OPTIONS.map(function(opt) {
+      return { value: opt.value, label: opt.value ? opt.label : '(none)' }
+    }),
   },
   {
     key: 'soundFonts',

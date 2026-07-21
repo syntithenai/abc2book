@@ -1,6 +1,9 @@
 import {
   adaptiveDisplayRange,
+  centsForNeedle,
   centsToNeedleAngle,
+  isBeyondNeedleRange,
+  rmsFromChannelData,
   rmsFromTimeDomain,
   smoothNeedleCents,
   targetAdaptiveRange,
@@ -24,6 +27,20 @@ describe('tunerDisplayUtils', function() {
       loud[i] = 128 + (i % 2 === 0 ? 20 : -20)
     }
     expect(rmsFromTimeDomain(loud)).toBeGreaterThan(rmsFromTimeDomain(quiet))
+  })
+
+  test('rmsFromChannelData returns 0 for silence', function() {
+    const data = new Float32Array(128)
+    expect(rmsFromChannelData(data)).toBe(0)
+  })
+
+  test('rmsFromChannelData increases with amplitude', function() {
+    const quiet = new Float32Array(128)
+    const loud = new Float32Array(128)
+    for (let i = 0; i < loud.length; i += 1) {
+      loud[i] = (i % 2 === 0 ? 0.05 : -0.05)
+    }
+    expect(rmsFromChannelData(loud)).toBeGreaterThan(rmsFromChannelData(quiet))
   })
 
   test('targetAdaptiveRange steps down as pitch gets closer', function() {
@@ -58,6 +75,17 @@ describe('tunerDisplayUtils', function() {
     expect(centsToNeedleAngle(50, 50, 80)).toBe(80)
     expect(centsToNeedleAngle(-25, 50, 80)).toBe(-40)
     expect(centsToNeedleAngle(100, 50, 80)).toBe(80)
+  })
+
+  test('centsForNeedle pegs beyond the visible range', function() {
+    expect(centsForNeedle(80, 50)).toBe(50)
+    expect(centsForNeedle(-80, 50)).toBe(-50)
+    expect(centsForNeedle(12, 50)).toBe(12)
+  })
+
+  test('isBeyondNeedleRange detects out-of-scale readings', function() {
+    expect(isBeyondNeedleRange(51, 50)).toBe(true)
+    expect(isBeyondNeedleRange(49, 50)).toBe(false)
   })
 
   test('volumeSegmentColors returns gradient segments', function() {

@@ -9,6 +9,7 @@ import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
 import LyricsSearchButton from './LyricsSearchButton'
 import ComposerSearchButton from './ComposerSearchButton'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
+import VoiceFillInput from './VoiceFillInput'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
 import LyricsSectionsDropdown from './LyricsSectionsDropdown'
@@ -155,11 +156,19 @@ export default function TitleAndLyricsEditorModal({tune, tunebook, token, setBlo
                             }}
                           />
                         </div>
-                        <Form.Control type="text" placeholder="" value={tune.name ? tune.name : ''} onChange={function(e) {
+                        <VoiceFillInput
+                          type="text"
+                          placeholder=""
+                          value={tune.name ? tune.name : ''}
+                          onChange={function(e) {
                           tune.name = e.target.value
                           tune.id = params.tuneId
                           tunebook.saveTune(tune, false, { historyLabel: 'Edit title/lyrics' })
-                        }} />
+                        }}
+                          fieldKind="title"
+                          token={token}
+                          setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+                        />
                       </Form.Group>
 
                       <Form.Group className="mb-3" controlId="composer">

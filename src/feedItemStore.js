@@ -5,7 +5,7 @@
 export const FEED_ITEMS_STORAGE_KEY = 'bookstorage_feed_items'
 export const FEED_ITEMS_VERSION_KEY = 'bookstorage_feed_items_version'
 /** Bump to wipe the persisted pool once (dev/debug resets, schema changes). */
-export const FEED_ITEMS_SCHEMA_VERSION = 8
+export const FEED_ITEMS_SCHEMA_VERSION = 14
 export const FEED_ITEMS_MAX = 200
 export const FEED_DISMISS_COOLDOWN_MS = 7 * 24 * 60 * 60 * 1000
 export const FEED_ENGAGED_COOLDOWN_MS = 3 * 24 * 60 * 60 * 1000

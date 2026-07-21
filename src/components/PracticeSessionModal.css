@@ -20,6 +20,14 @@
 
 .practice-session-header {
   display: block;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.45rem;
+}
+
+.practice-session-modal .modal-header.practice-session-header {
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .practice-session-header-toolbar {
@@ -46,6 +54,73 @@
   gap: 0.5rem;
   flex-shrink: 0;
   justify-self: end;
+}
+
+.practice-session-playback-group {
+  display: inline-flex;
+  align-items: stretch;
+}
+
+.practice-session-playback-group > .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-session-playback-group .practice-session-playback-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.practice-session-playback-group > .btn:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 0.65rem;
+  padding-right: 0.75rem;
+}
+
+.practice-session-tune-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline {
+  position: static;
+  transform: none;
+  width: auto;
+  max-width: 100%;
+  z-index: auto;
+}
+
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar-panel--inline {
+  background: var(--bs-secondary-bg, #e9ecef);
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  box-shadow: none;
+}
+
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-btn,
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-btn,
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-readout {
+  min-height: 2.25rem;
+}
+
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-title,
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-hint,
+.practice-session-modal .practice-session-tune-toolbar .lyrics-autoscroll-bar--inline .lyrics-autoscroll-duration-label {
+  white-space: nowrap;
 }
 
 .practice-session-header-center {
@@ -113,6 +188,8 @@
 
   .practice-session-header-right {
     grid-area: header-right;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .practice-session-header-now-playing {
@@ -122,6 +199,10 @@
   .practice-session-header-title-row {
     width: 100%;
     max-width: 100%;
+  }
+
+  .practice-session-tune-toolbar {
+    gap: 0.35rem;
   }
 }
 
@@ -525,8 +606,17 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.practice-tune-display {
-  max-width: 100%;
+.practice-session-tune-toolbar .view-mode-voice-controls--inline {
+  flex: 0 0 auto;
+}
+
+.practice-tune-display.tune-display-panels {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.practice-tune-display .practice-tune-notation-inner {
+  min-width: 0;
 }
 
 .practice-tune-paper--fit-height {

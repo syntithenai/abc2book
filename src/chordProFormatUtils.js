@@ -105,6 +105,41 @@ export function isChordSheetFilename(name) {
   return CHORD_SHEET_EXTENSIONS.some(function(ext) { return lower.endsWith(ext); });
 }
 
+/** Derive a display title from a chord-sheet filename (e.g. `amazing-grace.pro`). */
+export function titleFromChordSheetFileName(fileName) {
+  const base = String(fileName || '').replace(/\.[^.]+$/, '').trim();
+  if (!base) return '';
+  if (/^(untitled|song|new[\s_-]*tune|import)$/i.test(base)) return '';
+  return base.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function stripLeadingPreambleLabelLines(lines) {
+  const source = Array.isArray(lines) ? lines.slice() : [];
+  const kept = [];
+  let nonEmptySeen = 0;
+  for (let index = 0; index < source.length; index += 1) {
+    const trimmed = String(source[index] == null ? '' : source[index]).trim();
+    if (!trimmed) {
+      kept.push(source[index]);
+      continue;
+    }
+    nonEmptySeen += 1;
+    if (nonEmptySeen <= PREAMBLE_SCAN_LIMIT) {
+      let isPreamble = false;
+      for (let p = 0; p < PREAMBLE_FIELD_PATTERNS.length; p += 1) {
+        if (PREAMBLE_FIELD_PATTERNS[p].re.test(trimmed)) {
+          isPreamble = true;
+          break;
+        }
+      }
+      if (isPreamble) continue;
+    }
+    kept.push(source[index]);
+  }
+  while (kept.length && !String(kept[0] || '').trim()) kept.shift();
+  return kept;
+}
+
 export function normalizeOnSongText(text) {
   let normalized = String(text || '');
   normalized = normalized.replace(/\{\{([^}]+)\}\}/g, function(_match, inner) {
@@ -206,7 +241,15 @@ function buildChordSheetDraftFromLines(sheetLines, sourceText, options, metadata
   const warnings = Array.isArray(meta.warnings) ? meta.warnings.slice() : [];
 
   if (!lyricLines.length && !chordText.trim()) {
-    throw new Error('No lyrics or chords found in chord sheet');
+    const resolved = meta.resolved || {};
+    const hasMeta = !!(
+      resolved.title
+      || meta.title
+      || (options && options.fallbackTitle)
+    );
+    if (!hasMeta) {
+      throw new Error('No lyrics or chords found in chord sheet');
+    }
   }
 
   if (/\{text(fill|color)/i.test(sourceText)) {
@@ -234,7 +277,14 @@ function buildChordSheetDraftFromLines(sheetLines, sourceText, options, metadata
     lyricLines: lyricLines,
     chordText: chordText,
     chordProSource: sourceText,
-    chordSheetAlignment: buildChordSheetAlignmentFromLines(sheetLines),
+    chordSheetAlignment: (function() {
+      try {
+        return buildChordSheetAlignmentFromLines(sheetLines);
+      } catch (e) {
+        warnings.push('Chord alignment could not be computed for this file.');
+        return [];
+      }
+    })(),
     warnings: warnings,
     sectionCount: sheetLines.filter(function(line) { return isSectionHeader(line); }).length,
     barCount: chordText ? chordText.split('\n').filter(function(line) { return line.trim(); }).length : 0,
@@ -246,12 +296,14 @@ function parseChordOverWordsSheetText(sourceText, options) {
   const allLines = sourceText.split(/\r?\n/);
   const preamble = extractChordSheetPreambleMeta(allLines);
   const sheetLines = preamble.strippedLines;
+  const parseOptions = options || {};
+  const fallbackTitle = parseOptions.fallbackTitle || titleFromChordSheetFileName(parseOptions.fileName);
   const resolved = resolveChordProImportMeta({
     preamble: preamble,
     directives: {},
-    fallbackTitle: options && options.fallbackTitle,
+    fallbackTitle: fallbackTitle,
   });
-  return buildChordSheetDraftFromLines(sheetLines, sourceText, options, {
+  return buildChordSheetDraftFromLines(sheetLines, sourceText, parseOptions, {
     resolved: resolved,
     title: resolved.title,
     composer: resolved.composer,
@@ -276,15 +328,25 @@ export function parseChordSheetText(text, options) {
   }
 
   const normalized = normalizeOnSongText(sourceText);
+  const allLines = sourceText.split(/\r?\n/);
+  const preamble = extractChordSheetPreambleMeta(allLines);
   const song = parseSongFromText(normalized);
   const directives = extractChordProDirectives(normalized);
-  const sheetLines = stripMetadataLines(songToSheetLines(song));
+  let sheetLines = [];
+  try {
+    sheetLines = stripMetadataLines(songToSheetLines(song));
+  } catch (e) {
+    sheetLines = [];
+  }
+  const parseOptions = options || {};
+  const fallbackTitle = parseOptions.fallbackTitle || titleFromChordSheetFileName(parseOptions.fileName);
   const resolved = resolveChordProImportMeta({
     song: song,
     directives: directives,
-    fallbackTitle: options && options.fallbackTitle,
+    preamble: preamble,
+    fallbackTitle: fallbackTitle,
   });
-  const draft = buildChordSheetDraftFromLines(sheetLines, sourceText, options, {
+  const draft = buildChordSheetDraftFromLines(sheetLines, sourceText, parseOptions, {
     resolved: resolved,
     title: resolved.title,
     composer: resolved.composer,
@@ -294,7 +356,7 @@ export function parseChordSheetText(text, options) {
     meter: resolved.meter,
   });
   if (preservePlacement) {
-    const preserved = extractPreservedChordProLyricLines(sourceText);
+    const preserved = stripLeadingPreambleLabelLines(extractPreservedChordProLyricLines(sourceText));
     if (preserved.length) {
       draft.lyricLines = preserved;
     }

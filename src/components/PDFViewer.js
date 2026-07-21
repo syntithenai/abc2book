@@ -5,7 +5,8 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import {useState, useEffect, useRef} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import useWindowSize from '../useWindowSize'
-import utilsFunctions from '../utilsFunctions' 
+import utilsFunctions from '../utilsFunctions'
+import VoiceFillInput from './VoiceFillInput'
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -116,11 +117,21 @@ export default function PDFViewer(props) {
 		</>
 			
 			 
-			 <input type='text' style={{width:'8em'}} value={searchFor} onChange={function(e) {
+			 <VoiceFillInput
+				 layout="wrap"
+				 useFormControl={false}
+				 type="text"
+				 style={{width:'8em'}}
+				 value={searchFor}
+				 onChange={function(e) {
 				 setSearchFor(e.target.value)
 				 clearTimeout(searchTimeout)
 				 setSearchTimeout(setTimeout(function() { search(e.target.value)}, 500))
-			 }} />
+			 }}
+				 setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+				 token={props.token}
+				 fieldKind="search"
+			 />
 			 
 			&nbsp;<Button variant="danger" onClick={function() {setSearchFor('')}} >{props.tunebook.icons.closecircle }</Button>&nbsp;&nbsp; 
 			 

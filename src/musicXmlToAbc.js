@@ -23,6 +23,29 @@ export const DEFAULT_XML2ABC_OPTIONS = {
   mnum: -1,
 };
 
+/** xml2abc defaults tuned for MIDI → MusicXML imports. */
+export const MIDI_XML2ABC_OPTIONS = {
+  u: 0,
+  b: 4,
+  n: 0,
+  c: 0,
+  v: 0,
+  d: 8,
+  m: 1,
+  x: 0,
+  t: 0,
+  v1: 0,
+  noped: 0,
+  stm: 0,
+  p: 'f',
+  s: 0,
+  addstavenum: 0,
+  rehparts: 0,
+  addq: 1,
+  q: 100,
+  mnum: -1,
+};
+
 const REDUNDANT_CLEF_MARKERS = [
   '[K:treble]',
   '[K:alto]',

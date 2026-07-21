@@ -12,7 +12,7 @@ import TransposeModal from './TransposeModal'
 import {isMobile} from 'react-device-detect'
 import MP3Converter from '../MP3Converter'
 import { getResourceBase } from '../resourceBase'
-  
+import { buildAbcjsTablatureConfig } from '../tablatureConfig'
 
 export default function AbcSynth(props) {
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
@@ -843,8 +843,9 @@ export default function AbcSynth(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        if (tune && tune.tablature && props.tunebook.abcTools.tablatureConfig.hasOwnProperty(tune.tablature)) {
-          renderOptions.tablature = [props.tunebook.abcTools.tablatureConfig[tune.tablature]]
+        const tabCfg = buildAbcjsTablatureConfig(tune)
+        if (tabCfg) {
+          renderOptions.tablature = [tabCfg]
         } 
         //if (props.tempo > 0) tune.tempo = props.tempo 
         var res = abcjs.renderAbc(inputEl.current, props.tunebook.abcTools.json2abc(tune), renderOptions );

@@ -148,15 +148,39 @@ export function applyChordSheetToTune(tune, options) {
           'z |',
         ].join('\n')
       }
-      finalizeChordSheetToTune({
-        tune: tune,
-        tunebook: tunebook,
-        abcjsParser: abcjsParser,
-        abc: abcForMerge,
-        chordGridText: chordGridText,
-        lyricLines: hasLyrics ? lyricLines : undefined,
-        chordSheetAlignment: opts.chordSheetAlignment || tune.meta.chordSheetAlignment,
-      })
+      try {
+        finalizeChordSheetToTune({
+          tune: tune,
+          tunebook: tunebook,
+          abcjsParser: abcjsParser,
+          abc: abcForMerge,
+          chordGridText: chordGridText,
+          lyricLines: hasLyrics ? lyricLines : undefined,
+          chordSheetAlignment: opts.chordSheetAlignment || tune.meta.chordSheetAlignment,
+        })
+      } catch (e) {
+        if (hasLyrics) {
+          setPlainLyricLines(tune, lyricLines)
+        }
+        if (hasGrid && tunebook && abcjsParser && abc) {
+          try {
+            const voiceKey = resolvePrimaryVoiceKey(tune.voices)
+            const alignment = opts.chordSheetAlignment || tune.meta.chordSheetAlignment
+            const newAbcNotes = tunebook.abcTools.justNotes(
+              abcjsParser.mergeChords(chordGridText, abc, alignment)
+            )
+            tune.voices = Object.assign({}, tune.voices)
+            tune.voices[voiceKey] = Object.assign({}, tune.voices[voiceKey] || { meta: '', notes: [] }, {
+              notes: newAbcNotes.split('\n'),
+            })
+          } catch (inner) {
+            // Keep lyrics/metadata even when chord merge fails.
+          }
+        }
+        clearTransientTimedFields(tune)
+        invalidateChordBlockCache(tune)
+        return tune
+      }
       if (hasLyrics && getPlainLyricLines(tune).length > 0) {
         const spaced = buildNotationWLines(tune)
         if (spaced.some(function(line) { return String(line || '').trim().length > 0 })) {

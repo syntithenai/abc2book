@@ -1,18 +1,28 @@
 import { useEffect, useMemo, useRef } from 'react'
 import abcjs from 'abcjs'
 import TimedLyricsChordsView from './TimedLyricsChordsView'
-import LyricsDisplayLines from '../LyricsDisplayLines'
+import LyricsStructureSyncPanel from './LyricsStructureSyncPanel'
+import StructureChordBlock from './StructureChordBlock'
+import MarkdownContent from './MarkdownContent'
 import useAbcjsParser from '../useAbcjsParser'
-import { normalizeViewMode, showsMusicNotation, viewModeToDisplayFlags } from '../viewModeUtils'
+import {
+  viewModeToDisplayFlags,
+  resolveDisplayFlagsForTune,
+  getAvailableDisplayFlags,
+} from '../viewModeUtils'
+import { resolveTuneDisplayLayout, isViewModesEmpty } from '../tuneDisplayLayout'
+import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { getLyricLinesForDisplay } from '../wLinesUtils'
-import { hasLyricEmbeddedChords, formatChordChartForDisplay } from '../chordSheetUtils'
-import { buildAbcWithNoteSpacing } from '../noteSpacingUtils'
+import { buildAbcWithNoteSpacing, stripEmbeddedChordsFromAbc, stripLyricLinesFromAbc } from '../noteSpacingUtils'
 import { effectiveNotationLineCount } from '../notationFitSettings'
+import { filterTuneVoices } from '../abcVoiceFilter'
+import { getTuneVoiceKeys, getVisibleVoiceKeys } from '../abcVoiceViewSettings'
 import {
   findStaffWidthForVerticalFit,
   fitSingleViewVertical,
   measureSingleViewPaper,
   readNotationSvgDims,
+  buildGigNotationRenderOptions,
 } from '../gigNotationFit'
 
 const PRACTICE_FIT_HEIGHT_MIN_LINES = 4
@@ -58,14 +68,52 @@ export default function PracticeTuneDisplay(props) {
   const notationRef = useRef(null)
   const paperRef = useRef(null)
   const abcjsParser = useAbcjsParser({ tunebook: tunebook })
+  const voiceSettingsVersion = props.voiceSettingsVersion || 0
 
-  const viewMode = normalizeViewMode(props.viewMode || 'music')
-  const flags = viewModeToDisplayFlags(viewMode)
-  const isMusicView = viewMode === 'music'
-  const isMusicAndLyricsView = !!flags.lyrics && flags.notation !== 'off'
-  // musicAndLyrics has structure:true for other UI — do not treat it as chord-block.
-  const isChordBlockView = flags.notation === 'off' || viewMode === 'chordsBlock'
-  const showNotation = showsMusicNotation(viewMode)
+  const viewMode = props.viewMode || 'music'
+  const chordViewMode = props.chordViewMode || 'transposed'
+  const tuneTranspose = tune ? (Number(tune.transpose) || 0) : 0
+  const effectiveCapo = tune ? (Number(tune.capo) || 0) : 0
+  const chordTranspose = tuneTranspose - (chordViewMode === 'capo' ? effectiveCapo : 0)
+  const notationVisualTranspose = chordTranspose
+
+  const hasNotes = !!(tune && tunebook && tunebook.hasNotes && tunebook.hasNotes(tune))
+  const hasChords = !!tune && tuneHasExplicitChords(tune, tunebook, abcjsParser)
+  const displayFlags = useMemo(function() {
+    if (!tune) return viewModeToDisplayFlags(viewMode)
+    return resolveDisplayFlagsForTune(
+      viewModeToDisplayFlags(viewMode),
+      tune,
+      tunebook,
+      { hasChords: hasChords }
+    )
+  }, [viewMode, tune, tunebook, hasChords])
+  const availableFlags = useMemo(function() {
+    if (!tune) {
+      return { notation: true, lyrics: true, structure: true, chords: true, info: true }
+    }
+    return getAvailableDisplayFlags(tune, tunebook, {
+      hasChords: hasChords,
+      hasInfo: !!(tune.backgroundInfo && String(tune.backgroundInfo).trim()),
+    })
+  }, [tune, tunebook, hasChords])
+  const layout = useMemo(function() {
+    return resolveTuneDisplayLayout(displayFlags)
+  }, [displayFlags])
+
+  const showLyrics = !!displayFlags.lyrics
+  const showStructure = !!displayFlags.structure && hasChords
+  const showChordsAnnotate = !!displayFlags.chords
+  const showInfo = !!displayFlags.info
+  const showNotation = displayFlags.notation !== 'off' && hasNotes
+  const hideChordsInText = !showChordsAnnotate
+  const syncLyricsStructure = !!layout.syncLyricsStructure
+  const infoOnlyFullPage = showInfo && !showNotation && !showLyrics && !showStructure
+
+  const visibleVoiceKeys = useMemo(function() {
+    if (!tune) return []
+    return getVisibleVoiceKeys(tune.id, getTuneVoiceKeys(tune))
+  }, [tune, voiceSettingsVersion])
 
   const notationLineCount = useMemo(function() {
     if (!tune || !showNotation) return 0
@@ -84,15 +132,20 @@ export default function PracticeTuneDisplay(props) {
     }
     if (!tune || !notationRef.current) return
     clearNotationEl(notationRef.current)
-    const displayAbc = buildAbcWithNoteSpacing(tune, tunebook.abcTools, { includeLyrics: isMusicAndLyricsView })
-    const staffAbc = stripPracticeNotationHeaders(displayAbc)
+    const notationTune = filterTuneVoices(tune, visibleVoiceKeys)
+    const displayAbc = buildAbcWithNoteSpacing(notationTune, tunebook.abcTools, { includeLyrics: false })
+    let staffAbc = stripPracticeNotationHeaders(displayAbc)
+    staffAbc = stripLyricLinesFromAbc(staffAbc)
+    if (!showChordsAnnotate) {
+      staffAbc = stripEmbeddedChordsFromAbc(staffAbc, tunebook.abcTools)
+    }
     const initialStaffWidth = props.staffWidth || 700
     try {
       function renderAtWidth(staffWidth) {
-        abcjs.renderAbc(notationRef.current, staffAbc, {
+        abcjs.renderAbc(notationRef.current, staffAbc, Object.assign({
           responsive: 'resize',
           staffwidth: staffWidth,
-        })
+        }, buildGigNotationRenderOptions(notationVisualTranspose)))
         const svg = notationRef.current && notationRef.current.querySelector('svg')
         if (!svg) return null
         const dims = readNotationSvgDims(svg)
@@ -118,107 +171,132 @@ export default function PracticeTuneDisplay(props) {
     } catch (e) {
       console.log('practice tune render', e)
     }
-  }, [tune, tunebook, showNotation, isMusicAndLyricsView, props.staffWidth, fitHeight, notationLineCount])
-
-  const plainLyricLines = useMemo(function() {
-    if (!tune) return []
-    return getLyricLinesForDisplay(tune)
-  }, [tune])
+  }, [
+    tune,
+    tunebook,
+    showNotation,
+    showChordsAnnotate,
+    props.staffWidth,
+    fitHeight,
+    notationLineCount,
+    notationVisualTranspose,
+    visibleVoiceKeys,
+    voiceSettingsVersion,
+  ])
 
   useEffect(function() {
     if (typeof props.onLayoutNeeds !== 'function') return
+    const lyricLineCount = tune ? getLyricLinesForDisplay(tune).length : 0
     props.onLayoutNeeds({
       fitHeight: fitHeight,
       needsNotationScroll: needsNotationScroll,
       notationLineCount: notationLineCount,
-      hasLyrics: plainLyricLines.length > 0,
-      lyricLineCount: plainLyricLines.length,
+      hasLyrics: lyricLineCount > 0,
+      lyricLineCount: lyricLineCount,
     })
-  }, [fitHeight, needsNotationScroll, notationLineCount, plainLyricLines.length, props.onLayoutNeeds])
+  }, [fitHeight, needsNotationScroll, notationLineCount, tune, props.onLayoutNeeds])
 
-  const isLyricChordSheet = useMemo(function() {
-    return hasLyricEmbeddedChords(plainLyricLines)
-  }, [plainLyricLines])
-  const chords = useMemo(function() {
-    if (!tune) return ''
-    const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
-      ? Object.values(tune.voices)[0]
-      : { notes: [] }
-    const chordTranspose = Number(tune.transpose) || 0
-    const noteLines = firstVoice && Array.isArray(firstVoice.notes) ? firstVoice.notes : []
-    if (noteLines.length === 0) return ''
+  const structureChordChart = useMemo(function() {
+    if (!tune || !showStructure || !tunebook) return ''
     try {
-      return formatChordChartForDisplay(abcjsParser.renderChords(
-        tunebook.abcTools.emptyABC(tune.name || 'Tune') + noteLines.join('\n'),
+      const firstVoice = tune.voices && Object.keys(tune.voices).length > 0
+        ? Object.values(tune.voices)[0]
+        : { notes: [] }
+      return abcjsParser.renderChords(
+        tunebook.abcTools.emptyABC(tune.name || 'Tune') + (firstVoice.notes || []).join('\n'),
         false,
         chordTranspose,
         tune.key,
         tune.noteLength,
         tune.meter
-      ))
+      ) || ''
     } catch (e) {
-      console.log('practice chord chart render', e)
       return ''
     }
-  }, [tune, tunebook, abcjsParser])
+  }, [tune, tunebook, abcjsParser, showStructure, chordTranspose])
 
   if (!tune) return null
 
-  const lyricsViewProps = {
-    tune: tune,
-    tunebook: tunebook,
-    suppressLeadingTitle: true,
-  }
-
-  const fullLyricsPanel = plainLyricLines.length > 0 ? (
-    isLyricChordSheet
-      ? <TimedLyricsChordsView {...lyricsViewProps} />
-      : <LyricsDisplayLines className="practice-tune-lyrics" lines={plainLyricLines} />
-  ) : null
+  const backgroundInfoText = typeof tune.backgroundInfo === 'string'
+    ? tune.backgroundInfo.trim()
+    : ''
 
   const paperClass = 'practice-tune-paper'
     + (fitHeight ? ' practice-tune-paper--fit-height' : '')
     + (needsNotationScroll ? ' practice-tune-paper--scroll' : '')
 
-  if (isChordBlockView) {
-    return (
-      <div className="practice-tune-display practice-tune-chords" ref={paperRef}>
-        {(isLyricChordSheet || plainLyricLines.length > 0) && (
-          <div className="practice-tune-lyrics-panel">
-            {isLyricChordSheet
-              ? <TimedLyricsChordsView {...lyricsViewProps} />
-              : fullLyricsPanel}
-          </div>
-        )}
-        {chords.trim().length > 0 && (
-          <pre className="practice-tune-chord-chart">{chords}</pre>
-        )}
-      </div>
-    )
-  }
+  const lyricsStructurePanel = syncLyricsStructure ? (
+    <div className="tune-panel-lyrics-structure-sync tune-panel-lyrics tune-slot-main">
+      <LyricsStructureSyncPanel
+        tune={tune}
+        tunebook={tunebook}
+        chordTranspose={chordTranspose}
+        hideChords={hideChordsInText}
+        chords={structureChordChart}
+      />
+    </div>
+  ) : null
 
-  if (isMusicAndLyricsView && plainLyricLines.length > 0) {
+  const lyricsPanel = showLyrics && !syncLyricsStructure ? (
+    <div className={'tune-panel-lyrics' + (layout.main === 'lyrics' ? ' tune-slot-main' : '') + (layout.side === 'lyrics' ? ' tune-slot-side' : '') + (layout.below === 'lyrics' ? ' tune-slot-below' : '')}>
+      <TimedLyricsChordsView
+        tune={tune}
+        tunebook={tunebook}
+        chordTranspose={chordTranspose}
+        hideChords={hideChordsInText}
+        suppressLeadingTitle={true}
+      />
+    </div>
+  ) : null
+
+  const structurePanel = showStructure && !syncLyricsStructure ? (
+    <div className={'tune-panel-structure' + (layout.main === 'structure' ? ' tune-slot-main' : '') + (layout.side === 'structure' ? ' tune-slot-side' : '')}>
+      <StructureChordBlock
+        chords={structureChordChart}
+        tune={tune}
+      />
+    </div>
+  ) : null
+
+  const notationPanel = showNotation ? (
+    <div className={'practice-tune-notation tune-panel-notation' + (layout.main === 'notation' ? ' tune-slot-main' : '') + (!showChordsAnnotate ? ' no-inline-chords' : '')}>
+      <div className="practice-tune-notation-inner" ref={notationRef} />
+    </div>
+  ) : null
+
+  const infoPanel = showInfo && (backgroundInfoText || infoOnlyFullPage) ? (
+    <div className={'tune-background-info-view' + (infoOnlyFullPage ? ' tune-background-info-view--full-page' : '')}>
+      {infoOnlyFullPage ? (
+        <div className="title music-tune-heading">
+          {tune.name}
+          {tune.composer ? <span className="music-tune-composer"> - {tune.composer}</span> : null}
+        </div>
+      ) : null}
+      {backgroundInfoText ? <MarkdownContent text={backgroundInfoText} /> : null}
+    </div>
+  ) : null
+
+  if (isViewModesEmpty(displayFlags, availableFlags)) {
     return (
-      <div className={'practice-tune-display practice-tune-music-lyrics ' + paperClass} ref={paperRef}>
-        <div className="practice-tune-split">
-          <div className="practice-tune-notation" ref={notationRef} />
-          <div className="practice-tune-lyrics-panel">{fullLyricsPanel}</div>
+      <div className="practice-tune-display practice-tune-empty" ref={paperRef}>
+        <div className="tune-view-modes-empty" role="status">
+          <div className="tune-view-modes-empty-title">Nothing to display</div>
+          <div className="tune-view-modes-empty-hint">Turn on notation, lyrics, structure, or info.</div>
         </div>
       </div>
     )
   }
 
-  if (isMusicView || showNotation) {
-    return (
-      <div className={'practice-tune-display practice-tune-music ' + paperClass} ref={paperRef}>
-        <div className="practice-tune-notation" ref={notationRef} />
-      </div>
-    )
-  }
-
   return (
-    <div className="practice-tune-display" ref={paperRef}>
-      {fullLyricsPanel}
+    <div
+      className={'practice-tune-display tune-display-panels ' + layout.layoutClass + ' ' + paperClass}
+      ref={paperRef}
+    >
+      {infoPanel}
+      {lyricsStructurePanel}
+      {notationPanel}
+      {lyricsPanel}
+      {structurePanel}
     </div>
   )
 }

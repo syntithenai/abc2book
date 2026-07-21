@@ -19,6 +19,7 @@ import {
 import { applyBulkCacheAction } from '../bulkCacheActions'
 import useMediaCacheQueue from '../useMediaCacheQueue'
 import KeySignatureInput from './KeySignatureInput'
+import VoiceFillInput from './VoiceFillInput'
 
 var nextRowId = 1
 
@@ -69,7 +70,7 @@ function InstrumentsValueInput({value, onChange, rowId}) {
   )
 }
 
-function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId}) {
+function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId, token, setBlockKeyboardShortcuts}) {
   var field = getBulkEditField(fieldKey)
   if (!field) {
     return (
@@ -153,11 +154,14 @@ function BulkFieldValueInput({fieldKey, value, onChange, tunebook, rowId}) {
   }
 
   return (
-    <Form.Control
+    <VoiceFillInput
       type="text"
       placeholder={field.allowEmpty ? 'Leave blank to clear' : ''}
       value={value}
       onChange={function(e) { onChange(e.target.value) }}
+      fieldKind="search"
+      token={token}
+      setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
     />
   )
 }
@@ -342,6 +346,7 @@ export default function BulkChangeValueModal({tunebook, selected, onClose, force
                         value={row.value}
                         rowId={row.id}
                         tunebook={tunebook}
+                        token={token}
                         onChange={function(nextValue) { updateRow(row.id, { value: nextValue }) }}
                       />
                     </Col>

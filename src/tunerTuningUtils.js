@@ -145,11 +145,15 @@ export function nearestStringForFrequency(freq, preset, a4) {
   }
 }
 
-export function centsForActiveString(freq, preset, stringIndex, a4) {
+export function centsForActiveString(freq, preset, stringIndex, a4, options) {
+  const opts = options || {}
   const targets = targetFrequenciesForPreset(preset, a4)
   if (stringIndex < 0 || stringIndex >= targets.length || !freq) return null
   const t = targets[stringIndex]
   if (t.midi == null || !t.frequency || t.frequency <= 0) return null
+  if (opts.directOnly) {
+    return floatCentsBetween(freq, t.frequency)
+  }
   return centsToTargetWithHarmonics(freq, t.frequency)
 }
 

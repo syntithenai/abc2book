@@ -6,13 +6,7 @@ import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { renderDeletedTunesToAbc } from './tuneBookSync'
 import { stripPerformanceSetLines } from './performanceSetSync'
 import { stripPlaylistLines } from './playlistSync'
-import {
-  applyAbcbookJsonChunks,
-  collectAbcbookJsonChunk,
-  parseAbcbookJsonLine,
-  renderTimedJsonFields,
-  LEGACY_TIMED_JSON_FIELDS,
-} from './abcbookJsonFields'
+import { buildLegacyTablatureConfigMap } from './tablatureConfig.js'
 import { getInterleavedLyricLines, renderBlockLyricsAbc } from './wLinesUtils'
 import {
   mergeBibliographicList,
@@ -616,6 +610,15 @@ var useAbcTools = () => {
                                 links[numberParts[0]].googleId = numberParts.slice(1).join(' ')
                             }
                         }
+                    } else if (line.startsWith('% abcbook-link-media-kind-')) {
+                        var parts = line.trim().split('% abcbook-link-media-kind-')
+                        if (parts.length > 1) {
+                            var numberParts = parts[1].split(' ')
+                            if (numberParts.length > 1) {
+                                if (!links[numberParts[0]]) links[numberParts[0]] = {}
+                                links[numberParts[0]].mediaKind = numberParts.slice(1).join(' ')
+                            }
+                        }
                     } else {
                         var parts = line.trim().split('% abcbook-link-')
                         //console.log(parts)
@@ -764,6 +767,9 @@ var useAbcTools = () => {
                     }
                     if (link.googleId) {
                         linksRendered.push("% abcbook-link-google-id-"+k + ' ' +  ensureText(link.googleId,"") )
+                    }
+                    if (link.mediaKind) {
+                        linksRendered.push("% abcbook-link-media-kind-"+k + ' ' +  ensureText(link.mediaKind,"") )
                     }
                     //console.log("TOABC",link.link,JSON.stringify(linksRendered))
                 }
@@ -1748,16 +1754,7 @@ var useAbcTools = () => {
     }
     
     
-    const tablatureConfig = {
-        'violin': {
-          instrument: "violin",
-          tuning: ["G,", "D", "A", "e"],
-        },
-        'guitar': {
-          instrument: "guitar",
-          tuning: ["E,", "A,", "D", "G", "B", "e"]
-        }
-      }
+    const tablatureConfig = buildLegacyTablatureConfigMap()
   
   function getTuneHash(tune) {
     if (tune) {

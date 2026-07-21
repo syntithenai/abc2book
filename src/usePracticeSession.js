@@ -49,6 +49,10 @@ export default function usePracticeSession(options) {
   const [planError, setPlanError] = useState('')
   const [practiceViewMode, setPracticeViewMode] = useState('music')
 
+  const changePracticeViewMode = useCallback(function(mode) {
+    setPracticeViewMode(mode || 'music')
+  }, [])
+
   const rampTimerRef = useRef(null)
   const sessionTimerRef = useRef(null)
   const savedPlaybackRef = useRef(null)
@@ -489,6 +493,7 @@ export default function usePracticeSession(options) {
     stepIndex,
     currentStep,
     practiceViewMode,
+    setPracticeViewMode: changePracticeViewMode,
     currentTempo,
     secondsRemaining,
     configOpen,

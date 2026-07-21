@@ -13,6 +13,7 @@ import {
   isAddTunesChrome,
   isReviewSessionActive,
   removeAddDraftFromSession,
+  sessionWithoutIdleAddDraft,
   updateCurrentCandidate,
 } from '../importReviewSession'
 import {
@@ -63,21 +64,27 @@ import { applyResolvedFieldLookupToImportSession } from '../fieldLookupReviewPro
 import { buildComposerPickerCandidates } from '../composerDiscoveryUtils'
 import useAbcjsParser from '../useAbcjsParser'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { getActiveResolverAccessToken } from '../mediaResolverHealthStore'
+import { normalizeAccessToken } from '../mediaProxyClient'
+import { tryRefreshAccessToken } from '../googleLoginRefreshRegistry'
 import useGoogleDocument from '../useGoogleDocument'
 import { toast } from 'react-toastify'
 import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
 import { createAttachedAudioLink, createAttachedVideoLink } from '../linkRecording'
 import { readAudioFileMetadata } from '../audioFileMetadata'
-import { mergeImportedLinks, applyInlineImportToForm, tuneToFormValues } from '../importReviewFieldUtils'
+import { mergeImportedLinks, applyAddFormInlineImport } from '../importReviewFieldUtils'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { primaryArtist } from '../tuneBibliographicUtils'
 import {
   asIndependentReviewCandidate,
   fieldLookupJobIdsForCandidate,
-  mergeDraftTune,
+  mergeImportDraftTune,
 } from '../importReviewCandidateUtils'
-import { runAddTuneAutoEnrich } from '../addTuneAutoEnrich'
+import {
+  runAddTuneAutoEnrich,
+} from '../addTuneAutoEnrich'
+import { inferNotationSongType } from '../textSearchIndexUtils'
 import {
   getPendingAbcImportBatch,
   getPendingAbcImportBatchRevision,
@@ -106,6 +113,13 @@ import {
   hideFileOcrReview,
   subscribeFileOcrReviewUi,
 } from '../fileOcrReviewUiStore'
+import BulkSheetSnapshotImportModal from './BulkSheetSnapshotImportModal'
+import {
+  buildSheetSnapshotCandidatesFromFiles,
+  isBulkSheetSnapshotFileList,
+  resetBulkSheetSnapshotImportState,
+  summarizeSheetSnapshotCandidates,
+} from '../bulkSheetSnapshotImport'
 
 function freshTuneId() {
   return 'tune-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9)
@@ -191,7 +205,7 @@ export default function ImportReviewBridge(props) {
   const onReviewRoute = location.pathname === '/review'
   const { session, uiVisible } = useImportReviewStore()
   const abcjsParser = useAbcjsParser()
-  const { available: resolverAvailable, features } = useMediaResolverHealth()
+  const { available: resolverAvailable, features, status: resolverStatus } = useMediaResolverHealth()
   const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh)
   const runningJobRef = useRef(null)
   const sessionRef = useRef(null)
@@ -200,6 +214,7 @@ export default function ImportReviewBridge(props) {
   const [showAudioDriveUploadModal, setShowAudioDriveUploadModal] = useState(false)
   const [attachAnalyzePrompt, setAttachAnalyzePrompt] = useState(null)
   const [attachAnalyzeBusy, setAttachAnalyzeBusy] = useState(false)
+  const [bulkSnapshotProgress, setBulkSnapshotProgress] = useState(null)
   const [abcBatchBusy, setAbcBatchBusy] = useState(false)
   const fileOcrReviewUi = useSyncExternalStore(
     subscribeFileOcrReviewUi,
@@ -328,9 +343,85 @@ export default function ImportReviewBridge(props) {
     updateSession(updatedSession)
   }, [updateSession])
 
+  const handleBulkSheetSnapshotImport = useCallback(async function(files, draft) {
+    const current = getImportReviewSession()
+    if (!current) {
+      toast.error('Open the Add form before importing files.')
+      return
+    }
+    const list = Array.isArray(files) ? files.filter(Boolean) : []
+    if (!list.length) return
+    setAttachAnalyzeBusy(true)
+    setBulkSnapshotProgress({
+      current: 0,
+      total: list.length,
+      fileName: '',
+      message: 'Preparing ' + list.length + ' sheet file' + (list.length === 1 ? '' : 's') + '…',
+    })
+    try {
+      resetBulkSheetSnapshotImportState()
+      let accessToken = normalizeAccessToken(props.token)
+      if (!accessToken) {
+        accessToken = getActiveResolverAccessToken() || ''
+      }
+      const refreshed = await tryRefreshAccessToken()
+      if (refreshed) {
+        accessToken = normalizeAccessToken(refreshed) || accessToken
+      }
+      const outcome = await buildSheetSnapshotCandidatesFromFiles(list, {
+        resolverAvailable: resolverAvailable,
+        sheetImageOcr: !!(features && (features.sheetImageOcr || features.sheetImage)),
+        requireAuth: !!(resolverStatus && resolverStatus.requireAuth),
+        accessToken: accessToken,
+        books: props.currentTuneBook ? [props.currentTuneBook] : [],
+        onProgress: setBulkSnapshotProgress,
+      })
+      const candidates = outcome && outcome.candidates ? outcome.candidates : []
+      const metadataSupport = outcome && outcome.metadataSupport ? outcome.metadataSupport : null
+      if (!candidates.length) {
+        toast.error('No sheet image or PDF files were recognized.')
+        return
+      }
+      const independent = candidates.map(function(candidate) {
+        return asIndependentReviewCandidate(candidate, draft)
+      })
+      let next = appendImportReviewCandidates(sessionWithoutIdleAddDraft(getImportReviewSession()), independent)
+      if (next && next.entryMode === 'add' && independent.length) {
+        next = asImportReviewChrome(next)
+      }
+      updateSession(next)
+      const summary = summarizeSheetSnapshotCandidates(candidates)
+      let message = 'Prepared ' + summary.total + ' sheet snapshot'
+        + (summary.total === 1 ? '' : 's') + ' for review'
+      const fromSheet = summary.ocr + summary.cloudOcr + summary.pdfText
+      if (fromSheet) {
+        message += ' — ' + fromSheet + ' title' + (fromSheet === 1 ? '' : 's') + ' read from sheets'
+        if (summary.filename) {
+          message += ', ' + summary.filename + ' from filenames (please review)'
+        }
+      } else if (summary.filename) {
+        message += ' — titles from filenames'
+        if (metadataSupport && metadataSupport.reason) {
+          message += ' (' + metadataSupport.reason + ')'
+        } else {
+          message += ' (sheet OCR did not return titles)'
+        }
+      }
+      toast.info(message, { autoClose: 10000 })
+    } catch (e) {
+      toast.error((e && e.message) || 'Could not prepare sheet snapshots.')
+    } finally {
+      setAttachAnalyzeBusy(false)
+      setBulkSnapshotProgress(null)
+    }
+  }, [resolverAvailable, resolverStatus, features, props.token, props.currentTuneBook, updateSession])
+
   const handleReviewSourceImport = useCallback(async function(input, draft) {
     const current = getImportReviewSession()
-    if (!current) return
+    if (!current) {
+      toast.error('Open the Add form before importing a file.')
+      return
+    }
     const addChrome = isAddTunesChrome(current) || current.entryMode === 'add'
 
     const importContext = buildImportContext({
@@ -341,13 +432,17 @@ export default function ImportReviewBridge(props) {
       abcjsParser: abcjsParser,
       book: props.currentTuneBook,
       tunes: props.tunes || {},
+      midiMode: (input && input.midiMode) || null,
+      midiStrategy: (input && input.midiStrategy) || 'auto',
+      includeChords: input && input.includeChords !== undefined ? input.includeChords : null,
     })
 
     const appendCandidates = function(candidates) {
       const independent = (candidates || []).map(function(candidate) {
         return asIndependentReviewCandidate(candidate, draft)
       })
-      let next = appendImportReviewCandidates(getImportReviewSession(), independent)
+      const baseSession = sessionWithoutIdleAddDraft(getImportReviewSession())
+      let next = appendImportReviewCandidates(baseSession, independent)
       if (next && next.entryMode === 'add' && independent.length) {
         next = asImportReviewChrome(next)
       }
@@ -356,15 +451,14 @@ export default function ImportReviewBridge(props) {
 
     const applyImportedTune = function(importedTune, importedCandidate) {
       const sessionNow = getImportReviewSession()
-      if (!sessionNow) return
-      const candidate = currentCandidate(sessionNow)
-      if (!candidate) return
+      if (!sessionNow) return false
+      const candidateIndex = sessionNow.mergeIndex != null ? sessionNow.mergeIndex : sessionNow.index
+      const candidate = sessionNow.candidates[candidateIndex]
+      if (!candidate) return false
       const draftTune = (draft && draft.tune) || candidate.tune || {}
       // Prefer import as the base; keep only non-empty draft fields (book/tags/links).
-      // Round-tripping through formValuesToTune was wiping title/lyrics when a concurrent
-      // form-sync suppressed the subsequent form re-init.
-      const mergedTune = mergeDraftTune(importedTune, draftTune)
-      const built = applyInlineImportToForm(tuneToFormValues(draftTune), importedTune || {})
+      const mergedTune = mergeImportDraftTune(importedTune, draftTune)
+      const built = applyAddFormInlineImport(draftTune, importedTune || {})
       const sourceKind = (importedCandidate && importedCandidate.sourceKind)
         || (candidate.sourceKind && candidate.sourceKind !== 'manual' ? candidate.sourceKind : null)
         || 'abc'
@@ -373,7 +467,13 @@ export default function ImportReviewBridge(props) {
         mergeTargetId: (draft && draft.mergeTargetId) || candidate.mergeTargetId || null,
         sourceKind: sourceKind,
         pendingInlineSuggestions: built.suggestions || {},
+        inlineFormValues: built.formValues || null,
+        importWarnings: (importedCandidate && importedCandidate.importWarnings) || candidate.importWarnings || null,
+        midiImport: (importedCandidate && importedCandidate.midiImport) || candidate.midiImport || null,
+        pendingFile: (importedCandidate && importedCandidate.pendingFile) || candidate.pendingFile || null,
+        inlineImportRevision: (Number(candidate.inlineImportRevision) || 0) + 1,
       }))
+      return true
     }
 
     const normalizedInput = input && input.file ? input.file : input
@@ -392,7 +492,10 @@ export default function ImportReviewBridge(props) {
 
     let result
     try {
-      result = await dispatchAddImport(normalizedInput, importContext)
+      const dispatchInput = (input && input.file)
+        ? Object.assign({ file: input.file }, input)
+        : normalizedInput
+      result = await dispatchAddImport(dispatchInput, importContext)
     } catch (e) {
       toast.error(e && e.message ? e.message : 'Import failed.')
       return
@@ -430,6 +533,10 @@ export default function ImportReviewBridge(props) {
     }
 
     if (result.action === 'review') {
+      if (input && input.forceApplyToCurrent && result.candidates && result.candidates.length === 1) {
+        applyImportedTune(result.candidates[0].tune, result.candidates[0])
+        return
+      }
       // Sheet-image transcription review: on Add, still offer attach dialog if somehow reached.
       if (addChrome && result.candidates && result.candidates.length === 1
         && result.candidates[0] && result.candidates[0].sourceKind === 'sheetimage'
@@ -456,6 +563,34 @@ export default function ImportReviewBridge(props) {
       if (outcome.handled) return
     }
   }, [resolverAvailable, props.token, props.tunebook, props.currentTuneBook, props.tunes, abcjsParser, driveApi, updateSession, props.forceRefresh])
+
+  const handleMidiReimport = useCallback(async function(mode, includeChords) {
+    const sessionNow = getImportReviewSession()
+    const candidate = currentCandidate(sessionNow)
+    if (!candidate || !candidate.pendingFile || !candidate.pendingFile.blob) {
+      toast.error('Original MIDI file is not available for re-import.')
+      return
+    }
+    const file = candidate.pendingFile.blob instanceof File
+      ? candidate.pendingFile.blob
+      : new File(
+        [candidate.pendingFile.blob],
+        candidate.pendingFile.name || 'import.mid',
+        { type: candidate.pendingFile.type || 'audio/midi' }
+      )
+    await handleReviewSourceImport({
+      file: file,
+      midiMode: mode,
+      midiStrategy: 'auto',
+      includeChords: includeChords,
+      forceApplyToCurrent: true,
+    }, {
+      tune: candidate.tune,
+      mergeTargetId: candidate.mergeTargetId,
+    })
+    const chordLabel = includeChords === false ? ' without chords' : (includeChords ? ' with chords' : '')
+    toast.info(mode === 'multi_voice' ? 'Re-imported with all voices' + chordLabel : 'Re-imported melody only' + chordLabel)
+  }, [handleReviewSourceImport])
 
   const resolveAttachBaseTune = useCallback(function(draft) {
     const sessionNow = getImportReviewSession()
@@ -1086,7 +1221,7 @@ export default function ImportReviewBridge(props) {
             searchIndex: props.searchIndex,
             loadTuneTexts: props.loadTuneTexts,
             forceRefresh: props.forceRefresh,
-            songType: 'instrumental',
+            songType: inferNotationSongType(savedTune.rhythm || '', savedTune.composer || ''),
           })
           navigate('/tunes/' + encodeURIComponent(savedTune.id))
         } else {
@@ -1171,13 +1306,18 @@ export default function ImportReviewBridge(props) {
         setCurrentTuneBook={props.setCurrentTuneBook}
         onImportFile={handleReviewSourceImport}
         onImportFiles={function(files, draft) {
-          return Promise.all((files || []).map(function(file) {
+          const list = Array.isArray(files) ? files.filter(Boolean) : []
+          if (list.length && isBulkSheetSnapshotFileList(list)) {
+            return handleBulkSheetSnapshotImport(list, draft)
+          }
+          return Promise.all(list.map(function(file) {
             return handleReviewSourceImport(file, draft)
           }))
         }}
         onImportText={handleReviewSourceImport}
         onImportSource={handleReviewSourceImport}
         onImportYouTube={handleReviewYouTubeImport}
+        onMidiReimport={handleMidiReimport}
       />
       <AudioDriveUploadModal
         show={showAudioDriveUploadModal}
@@ -1213,6 +1353,10 @@ export default function ImportReviewBridge(props) {
         onHide={hideFileOcrReview}
         tunes={props.tunes}
         tunebook={props.tunebook}
+      />
+      <BulkSheetSnapshotImportModal
+        show={!!bulkSnapshotProgress}
+        progress={bulkSnapshotProgress}
       />
     </>
   )

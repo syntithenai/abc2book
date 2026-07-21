@@ -1,6 +1,7 @@
 import {useState, cloneElement, isValidElement} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import VoiceFillInput from './VoiceFillInput'
 
 function BookSelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -75,7 +76,18 @@ function BookSelectorModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='search'  onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  value={filter} onChange={function(e) {filterChange(e.target.value)}}   />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={function(e) { filterChange(e.target.value) }}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           {(props.allowNew !== false)  && <Button key="newbook" onClick={function() {newBook(filter); handleClose()}}  >New Book</Button>}
         </Modal.Body>
         <Modal.Footer>

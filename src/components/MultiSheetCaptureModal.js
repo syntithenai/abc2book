@@ -4,6 +4,7 @@ import SheetImageCameraModal from './SheetImageCameraModal';
 import SheetImageGooglePhotosModal from './SheetImageGooglePhotosModal';
 import { transcribeSheetImageFile } from '../sheetImageTranscriptionClient';
 import { createTuneFromSheetImageImport } from '../sheetImageImportUtils';
+import VoiceFillInput from './VoiceFillInput';
 
 function emptyPage() {
   return {
@@ -218,13 +219,17 @@ export default function MultiSheetCaptureModal(props) {
                   {page.previewUrl && <img src={page.previewUrl} alt="" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />}
                   {page.titles.map(function(title, idx) {
                     return (
-                      <Form.Control
+                      <VoiceFillInput
                         key={idx}
                         size="sm"
                         className="mt-1"
+                        inputClassName="mt-1"
                         placeholder="Song title hint"
                         value={title}
                         onChange={function(e) { updatePageTitle(page.id, idx, e.target.value); }}
+                        fieldKind="title"
+                        token={props.token}
+                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                       />
                     );
                   })}

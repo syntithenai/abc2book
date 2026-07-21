@@ -8,6 +8,7 @@ import TagsSearchSelectorModal from './TagsSearchSelectorModal'
 import GenreSearchSelectorModal from './GenreSearchSelectorModal'
 import ArtistSearchSelectorModal from './ArtistSearchSelectorModal'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
+import VoiceFillInput from './VoiceFillInput'
 import { trackSearch } from '../analytics'
 import { useIsCompactViewport } from '../useMediaQuery'
 
@@ -418,7 +419,15 @@ export default function IndexSearchForm(props) {
                 <Modal.Body>
                         <Form.Group>
                             <Form.Label>Name</Form.Label>
-                            <Form.Control autoFocus type="text" value={saveName} onChange={function(e) { setSaveName(e.target.value); if (overwriteWarning) setOverwriteWarning(false) }} />
+                            <VoiceFillInput
+                              autoFocus
+                              type="text"
+                              value={saveName}
+                              onChange={function(e) { setSaveName(e.target.value); if (overwriteWarning) setOverwriteWarning(false) }}
+                              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                              token={props.token}
+                              fieldKind="search"
+                            />
                             {overwriteWarning && <div style={{color:'red', marginTop:'0.5em'}}>A filter with that name already exists. Click Save again to overwrite.</div>}
                         </Form.Group>
                 </Modal.Body>

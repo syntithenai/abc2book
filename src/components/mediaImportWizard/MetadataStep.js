@@ -4,6 +4,7 @@ import AsyncCreatableSelect from 'react-select/async-creatable';
 import ComposerSearchButton from '../ComposerSearchButton'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
 import CapitalizeTitleButton from '../CapitalizeTitleButton'
+import VoiceFillInput from '../VoiceFillInput'
 import KeySignatureInput from '../KeySignatureInput'
 import useMusicBrainz from '../../useMusicBrainz'
 
@@ -121,9 +122,12 @@ export default function MediaImportMetadataStep(props) {
             onCapitalize={function(next) { update('name', next); }}
           />
         </div>
-        <Form.Control
+        <VoiceFillInput
           value={metadata.name || ''}
           onChange={function(e) { update('name', e.target.value); }}
+          fieldKind="title"
+          token={props.token}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
       </Form.Group>
       <Form.Group className="mb-3">

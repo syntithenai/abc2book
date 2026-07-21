@@ -26,8 +26,10 @@ const RESOLVER_PATHS = new Set([
   '/discover-genre',
   '/separate-stems',
   '/midi2xml',
+  '/midi2abc',
   '/abc2xml',
   '/transcribe-sheet-image',
+  '/extract-sheet-metadata',
   '/search-images',
   '/textsearch_index.json',
 ]);

@@ -1,8 +1,59 @@
 .feed-page {
-  max-width: 42rem;
+  width: 100%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 5.5rem 1rem 4rem;
   min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .feed-page {
+    max-width: 100%;
+  }
+}
+
+.feed-feedback-toolbar {
+  position: fixed;
+  top: 4.25rem;
+  right: 0.75rem;
+  z-index: 6;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #6c757d;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.feed-feedback-download {
+  border: 0;
+  background: transparent;
+  color: #334;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.feed-feedback-download:hover {
+  background: #f3f4f6;
+}
+
+.feed-feedback-clear {
+  border: 0;
+  border-left: 1px solid #d0d5db;
+  background: transparent;
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 0.55rem;
+  cursor: pointer;
+}
+
+.feed-feedback-clear:hover {
+  background: #fde8e8;
+  color: #b42318;
 }
 
 .feed-progress {
@@ -203,6 +254,7 @@
   font-size: 0.95rem;
 }
 
+.feed-card-feedback,
 .feed-card-dismiss {
   border: 0;
   background: transparent;
@@ -211,6 +263,27 @@
   color: #778;
   cursor: pointer;
   padding: 0 0.2rem;
+}
+
+.feed-card-feedback {
+  font-size: 1.05rem;
+  color: #5a6a7a;
+}
+
+.feed-card-feedback:hover {
+  color: #0d6efd;
+}
+
+.feed-feedback-modal-headline {
+  font-weight: 600;
+  color: #223;
+  margin-bottom: 0.75rem;
+}
+
+.feed-feedback-modal-saved {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: #6c757d;
 }
 
 .feed-card-source-chip {
@@ -262,14 +335,39 @@
 
 .feed-card-example {
   margin-top: 0.65rem;
-  padding: 0.55rem 0.65rem;
+  padding: 0;
   border-radius: 0.4rem;
   background: rgba(5, 150, 105, 0.06);
   border: 1px solid rgba(5, 150, 105, 0.18);
+  overflow: hidden;
 }
 
 .feed-card--theory .feed-card-example {
   background: rgba(5, 150, 105, 0.08);
+}
+
+.feed-card-example-label {
+  margin: 0;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  color: #047857;
+  background: rgba(5, 150, 105, 0.1);
+  border-top: 1px solid rgba(5, 150, 105, 0.2);
+}
+
+.feed-card-example--collapsed .feed-card-example-image--thumb,
+.feed-card-example--collapsed .theory-lesson-notation,
+.feed-card-example--expanded .theory-lesson-notation,
+.feed-card-example--expanded .feed-card-example-image--portrait {
+  padding: 0.55rem 0.65rem 0;
+}
+
+.feed-card-example--notation-thumb .theory-lesson-notation {
+  max-height: 7rem;
+  overflow: hidden;
 }
 
 .feed-card-example-caption {

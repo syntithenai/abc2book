@@ -3,6 +3,7 @@ import {Button, Modal, ListGroup, ButtonGroup} from 'react-bootstrap'
 import BookSelectorModal from './BookSelectorModal'
 import {useNavigate} from 'react-router-dom'
 import { curatedScrapeUrl } from '../resourceBase'
+import VoiceFillInput from './VoiceFillInput'
 
 function ImportCollectionModal(props) {
   const { setCurrentTuneBook, tunebook } = props
@@ -144,7 +145,16 @@ function ImportCollectionModal(props) {
         </div>
           : <>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}   />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="text"
+            value={filter}
+            onChange={filterChange}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           {props.extraButtons && <span>{props.extraButtons}</span>}
         </Modal.Body>
         <Modal.Footer>

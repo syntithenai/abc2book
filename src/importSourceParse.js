@@ -5,8 +5,10 @@ import {
   createTuneFromChordSheet,
   isChordSheetFilename,
   detectChordSheetFormat,
+  titleFromChordSheetFileName,
 } from './chordProFormatUtils';
 import { detectScoreFormat, importMusicXmlText, importScoreFile } from './scoreImportClient';
+import { finalizeMidiImportAbc } from './midiImportFinalize';
 import {
   parseDriveFileInput,
   fetchDriveFileText,
@@ -16,7 +18,7 @@ import { parseBulkLine } from './bulkListFormat';
 import { transcribeSheetImageFile } from './sheetImageTranscriptionClient';
 import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from './sheetImageImportUtils';
 import { createImportCandidate } from './importReviewSession';
-import { ensurePlainWordsFromNoteAlignedLyrics } from './wLinesUtils';
+import { ensurePlainWordsFromNoteAlignedLyrics, setLyricLines } from './wLinesUtils';
 
 const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong'];
 
@@ -81,19 +83,51 @@ export function abcTextToCandidates(abcText, tunebook, book) {
   });
 }
 
-export function chordSheetTextToCandidate(text, tunebook, abcjsParser, book) {
-  const draft = parseChordSheetText(text);
-  const tune = createTuneFromChordSheet({
-    draft: draft,
-    tunebook: tunebook,
-    abcjsParser: abcjsParser,
-    book: book,
-  });
-  return {
-    tune: tune,
-    sourceKind: 'chordsheet',
-    rawText: text,
+export function chordSheetTextToCandidate(text, tunebook, abcjsParser, book, options) {
+  const opts = options || {};
+  const parseOpts = {
+    fallbackTitle: opts.fallbackTitle || titleFromChordSheetFileName(opts.fileName),
+    fileName: opts.fileName,
+    preservePlacement: opts.preservePlacement,
   };
+  const draft = parseChordSheetText(text, parseOpts);
+  try {
+    const tune = createTuneFromChordSheet({
+      draft: draft,
+      tunebook: tunebook,
+      abcjsParser: abcjsParser,
+      book: book,
+    });
+    return {
+      tune: tune,
+      sourceKind: 'chordsheet',
+      rawText: text,
+    };
+  } catch (e) {
+    const bookName = book ? String(book).trim() : '';
+    const tune = {
+      id: 'tune-' + Date.now() + '-' + Math.random().toString(36).slice(2, 9),
+      name: draft.title || parseOpts.fallbackTitle || 'Untitled',
+      composer: draft.composer || '',
+      key: draft.key || '',
+      capo: draft.capo || 0,
+      tempo: draft.tempo || '',
+      meter: draft.meter || '',
+      books: bookName ? [bookName] : [],
+      voices: { '1': { meta: '', notes: [] } },
+      words: [],
+      meta: { chordProSource: draft.chordProSource || text },
+    };
+    if (Array.isArray(draft.lyricLines) && draft.lyricLines.length) {
+      setLyricLines(tune, draft.lyricLines);
+    }
+    return {
+      tune: tune,
+      sourceKind: 'chordsheet',
+      rawText: text,
+      importWarnings: [String((e && e.message) || 'Could not merge chord notation')],
+    };
+  }
 }
 
 export async function parseImportFile(options) {
@@ -121,9 +155,30 @@ export async function parseImportFile(options) {
     file: file,
     accessToken: accessToken,
     onProgress: onProgress,
+    midiMode: options.midiMode,
+    midiStrategy: options.midiStrategy,
+    includeChords: options.includeChords,
   });
-  return abcTextToCandidates(result.abc, tunebook, book).map(function(c) {
+  let abc = result.abc;
+  if (scoreFormat === 'midi' && abcjsParser) {
+    abc = finalizeMidiImportAbc(abc, result, abcjsParser);
+  }
+  return abcTextToCandidates(abc, tunebook, book).map(function(c) {
     c.sourceKind = scoreFormat || 'musicxml';
+    if (result.warnings && result.warnings.length) {
+      c.importWarnings = result.warnings.slice();
+    }
+    if (result.midiImport) {
+      c.midiImport = result.midiImport;
+    }
+    if (scoreFormat === 'midi' && file) {
+      c.pendingFile = {
+        name: file.name || 'import.mid',
+        type: file.type || 'audio/midi',
+        blob: file,
+        source: 'import',
+      };
+    }
     return c;
   });
 }
@@ -144,7 +199,7 @@ export function parseImportText(options) {
     });
   }
   if (format === 'chordsheet') {
-    return [chordSheetTextToCandidate(text, tunebook, abcjsParser, book)];
+    return [chordSheetTextToCandidate(text, tunebook, abcjsParser, book, { fileName: fileName })];
   }
   return abcTextToCandidates(text, tunebook, book);
 }

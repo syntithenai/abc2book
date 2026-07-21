@@ -10,6 +10,7 @@ import {Modal} from 'react-bootstrap'
 import useAudioUtils from '../useAudioUtils'
 import FileNameEditorModal from './FileNameEditorModal'
 import FileInputButton from './FileInputButton'
+import VoiceFillInput from './VoiceFillInput'
 
 export default function ImagesManager(props) {
     //var allowedMimeTypes = ['text/plain','image/*','application/pdf','.musicxml','.mxl'] //application/musicxml
@@ -82,7 +83,16 @@ export default function ImagesManager(props) {
 		
 		{fileManager.warning && <div style={{fontSize:'1.3em', color:'red', backgroundColor:'pink', minWidth:'10em', clear:'both'}} >{fileManager.warning}</div>}
 		
-		<input type='search' value={fileManager.filter} onChange={function(e) {fileManager.setFilter(e.target.value)}} />
+		<VoiceFillInput
+			layout="wrap"
+			useFormControl={false}
+			type="search"
+			value={fileManager.filter}
+			onChange={function(e) { fileManager.setFilter(e.target.value) }}
+			setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+			token={props.token}
+			fieldKind="search"
+		/>
 		</div>
 		<ListGroup style={{marginTop:'1em'}} >
 			{fileManager.filtered.map(function(file, fk) {

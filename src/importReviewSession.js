@@ -120,6 +120,63 @@ export function isAddDraftCandidate(candidate) {
   return !!(candidate && candidate.addDraft);
 }
 
+function tuneHasMeaningfulAddContent(tune) {
+  if (!tune) return false;
+  if (String(tune.name || '').trim()) return true;
+  if (String(tune.composer || '').trim()) return true;
+  if (Array.isArray(tune.words) && tune.words.some(function(line) { return String(line || '').trim(); })) {
+    return true;
+  }
+  if (Array.isArray(tune.wLines) && tune.wLines.some(function(line) { return String(line || '').trim(); })) {
+    return true;
+  }
+  if (Array.isArray(tune.tuneFiles) && tune.tuneFiles.length > 0) return true;
+  if (Array.isArray(tune.links) && tune.links.length > 0) return true;
+  const voices = tune.voices || {};
+  return Object.keys(voices).some(function(voiceKey) {
+    const voice = voices[voiceKey] || {};
+    const notes = Array.isArray(voice.notes) ? voice.notes.join('\n') : String(voice.notes || '');
+    return !!String(notes || '').trim() || !!String(voice.meta || '').trim();
+  });
+}
+
+/** Blank Add-form draft with no title, notation, lyrics, or local attachments. */
+export function isIdleAddDraftCandidate(candidate) {
+  if (!isAddDraftCandidate(candidate)) return false;
+  return !tuneHasMeaningfulAddContent(candidate.tune);
+}
+
+/**
+ * Drop the live blank Add draft when notation imports should replace it,
+ * not sit beside it in the review queue.
+ */
+export function sessionWithoutIdleAddDraft(session) {
+  if (!session || !Array.isArray(session.candidates)) return session;
+  const hasIdleDraft = session.candidates.some(isIdleAddDraftCandidate);
+  if (!hasIdleDraft) return session;
+  const kept = session.candidates.filter(function(candidate) {
+    return !isIdleAddDraftCandidate(candidate);
+  });
+  if (kept.length === 0) return null;
+  const removedBeforeIndex = session.candidates
+    .slice(0, Math.max(0, session.index || 0))
+    .filter(isIdleAddDraftCandidate).length;
+  const nextIndex = Math.max(0, Math.min(
+    (session.index || 0) - removedBeforeIndex,
+    kept.length - 1
+  ));
+  return Object.assign({}, session, {
+    candidates: kept,
+    index: nextIndex,
+    mergeIndex: null,
+    entryMode: kept.length && session.entryMode === 'add' && !kept.some(isAddDraftCandidate)
+      ? 'import'
+      : session.entryMode,
+    phase: session.phase === 'enrichment' ? 'enrichment' : 'identify',
+    step: 'review',
+  });
+}
+
 /**
  * Open a blank Add draft without wiping an in-progress Review queue.
  * Resumes an existing Add draft when present; otherwise prepends a new blank.

@@ -9,8 +9,9 @@ from lyrics_word_tools import (
     lookup_thesaurus,
 )
 from image_search import image_search_available, search_images
-from notation_fetch import search_notation, search_notation_url
+from notation_fetch import search_notation, search_notation_midi_fallback, search_notation_url
 from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
+from midi_import_orchestrator import import_midi_bytes
 from playback_region_detect import (
     PLAYBACK_SCAN_WHISPER_OPTIONS,
     detect_playback_region_from_wav,
@@ -27,6 +28,12 @@ from soundfont_download import (
     soundfonts_serving_available,
     start_soundfont_download_background,
 )
+from midi_resources import (
+    midi_resources_enabled,
+    midi_resources_health_fields,
+    resolve_midi_resource_file,
+)
+from score_attachment_fetch import fetch_score_attachment_bytes, is_allowed_score_attachment_url
 from subprocess_utils import (
     ClientDisconnected,
     HeavyJobQueueFull,
@@ -2548,7 +2555,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi2xml", "/abc2xml", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi-resources/:path", "/midi2xml", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -2577,6 +2584,7 @@ async def health(request: Request, authorization: str | None = Header(default=No
         "features": resolver_features(),
     }
     body.update(soundfont_health_fields())
+    body.update(midi_resources_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "freeAccess": body.get("freeAccess", False),
@@ -2618,6 +2626,7 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
         "staticSite": static_site_enabled(),
     }
     body.update(soundfont_health_fields())
+    body.update(midi_resources_health_fields())
     body.update(build_auth_health_fields(verified, bool(token), verified_failed))
     flags = {
         "freeAccess": body.get("freeAccess", False),
@@ -3585,6 +3594,7 @@ async def search_notation_endpoint(
         artist = str(payload.get("artist") or "").strip()
         song_type = str(payload.get("songType") or "instrumental").strip()
         page_url = str(payload.get("url") or "").strip()
+        midi_fallback = bool(payload.get("midiFallback"))
 
         accept = request.headers.get("accept", "")
         wants_stream = "application/x-ndjson" in accept
@@ -3606,6 +3616,12 @@ async def search_notation_endpoint(
                         if page_url:
                             body = await search_notation_url(
                                 page_url,
+                                on_progress=on_progress,
+                            )
+                        elif midi_fallback:
+                            body = await search_notation_midi_fallback(
+                                title,
+                                artist,
                                 on_progress=on_progress,
                             )
                         else:
@@ -3653,9 +3669,37 @@ async def search_notation_endpoint(
 
         if page_url:
             body = await search_notation_url(page_url)
+        elif midi_fallback:
+            body = await search_notation_midi_fallback(title, artist)
         else:
             body = await search_notation(title, artist, song_type=song_type)
         return JSONResponse(content=body, headers=cors_headers(origin))
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
+@app.get("/fetch-score-attachment")
+async def fetch_score_attachment_endpoint(
+    request: Request,
+    url: str = Query(default=""),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage("fetch-score-attachment")
+        page_url = str(url or "").strip()
+        if not page_url:
+            raise ValueError("url query parameter is required")
+        if not is_allowed_score_attachment_url(page_url):
+            raise ValueError("URL host is not allowed for score attachment download")
+        data, content_type = await fetch_score_attachment_bytes(page_url)
+        headers = cors_headers(origin)
+        headers["Content-Type"] = content_type
+        headers["Content-Disposition"] = 'inline; filename="score.pdf"'
+        return Response(content=data, headers=headers)
     except ValueError as exc:
         return json_error(400, str(exc), origin)
     except HTTPException as exc:
@@ -4409,6 +4453,33 @@ async def get_stem_audio(
         return json_error(exc.status_code, str(exc.detail), origin)
 
 
+@app.get("/midi-resources/{resource_path:path}")
+async def get_midi_resource_file(
+    resource_path: str,
+    request: Request,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        if not midi_resources_enabled():
+            return json_error(404, "Local MIDI library is not available", origin)
+        abs_path = resolve_midi_resource_file(resource_path)
+        filename = os.path.basename(abs_path)
+        return FileResponse(
+            abs_path,
+            media_type="audio/midi",
+            filename=filename,
+            headers=cors_headers(origin),
+        )
+    except FileNotFoundError:
+        return json_error(404, "MIDI file not found", origin)
+    except ValueError as exc:
+        return json_error(400, str(exc), origin)
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+
+
 @app.post("/midi2xml")
 async def midi2xml(
     request: Request,
@@ -4439,7 +4510,7 @@ async def midi2xml(
                 origin,
             )
 
-        music_xml = await convert_midi_to_musicxml(midi_bytes, filename)
+        music_xml, _diagnostics = await convert_midi_to_musicxml(midi_bytes, filename)
         return Response(
             content=music_xml,
             media_type="application/xml",
@@ -4449,6 +4520,66 @@ async def midi2xml(
         return json_error(exc.status_code, str(exc.detail), origin)
     except Exception as exc:
         detail = str(exc).strip()[:500] or "MIDI conversion failed"
+        return json_error(500, detail, origin)
+
+
+@app.post("/midi2abc")
+async def midi2abc(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    mode: str | None = None,
+    strategy: str = "auto",
+    include_chords: bool | None = None,
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('midi2abc')
+
+        midi_bytes = b""
+        filename = "import.mid"
+
+        if file is not None:
+            midi_bytes = await file.read()
+            filename = file.filename or filename
+        else:
+            return json_error(400, "Missing MIDI file upload", origin)
+
+        if not midi_bytes:
+            return json_error(400, "MIDI file is empty", origin)
+
+        if len(midi_bytes) > MAX_MIDI_IMPORT_BYTES:
+            return json_error(
+                413,
+                "MIDI file too large (limit is " + str(MAX_MIDI_IMPORT_BYTES) + " bytes)",
+                origin,
+            )
+
+        forced_mode = (mode or "").strip().lower() or None
+        if forced_mode not in (None, "melody", "multi_voice"):
+            forced_mode = None
+        forced_strategy = (strategy or "auto").strip().lower() or "auto"
+        include_chords_param = (request.query_params.get("include_chords") or "").strip().lower()
+        forced_include_chords = None
+        if include_chords_param in ("1", "true", "yes"):
+            forced_include_chords = True
+        elif include_chords_param in ("0", "false", "no"):
+            forced_include_chords = False
+
+        result = await asyncio.to_thread(
+            import_midi_bytes,
+            midi_bytes,
+            filename,
+            mode=forced_mode,
+            strategy=forced_strategy,
+            include_chords=forced_include_chords,
+        )
+        return JSONResponse(result, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "MIDI import failed"
         return json_error(500, detail, origin)
 
 
@@ -4620,6 +4751,82 @@ async def format_bulk_import_lines(
         return json_error(exc.status_code, str(exc.detail), origin)
     except Exception as exc:
         detail = str(exc).strip()[:500] or "Bulk line formatting failed"
+        return json_error(500, detail, origin)
+
+
+@app.post("/extract-sheet-metadata")
+async def extract_sheet_metadata(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    composerHint: str | None = Form(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        verified = await maybe_require_auth(authorization)
+        await require_resolver_feature("sheetImage", request, verified)
+        track_resolver_usage("extract-sheet-metadata")
+
+        if file is None:
+            return json_error(400, "Missing image upload", origin)
+
+        image_bytes = await file.read()
+        filename = file.filename or "upload.png"
+        if not image_bytes:
+            return json_error(400, "Image file is empty", origin)
+        if len(image_bytes) > MAX_SHEET_IMAGE_BYTES:
+            return json_error(
+                413,
+                "Image file too large (limit is " + str(MAX_SHEET_IMAGE_BYTES) + " bytes)",
+                origin,
+            )
+
+        composer_hint = str(composerHint or "").strip()
+        provider_cfg = await resolve_request_provider(
+            "ocr",
+            request,
+            verified,
+            local_available=_ocr_local_available(),
+        )
+
+        from sheet_image_metadata import (
+            apply_cloud_title_metadata,
+            extract_sheet_metadata_sync,
+            first_page_image_bytes,
+            metadata_has_readable_title,
+            public_sheet_metadata_body,
+        )
+
+        body = await asyncio.to_thread(
+            extract_sheet_metadata_sync,
+            image_bytes,
+            filename,
+            composer_hint,
+        )
+        if metadata_has_readable_title(body):
+            return JSONResponse(content=public_sheet_metadata_body(body), headers=cors_headers(origin))
+
+        if provider_cfg and provider_cfg.get("provider") != "local" and provider_cfg.get("apiUrl"):
+            import base64
+            import tempfile
+
+            from provider_cloud import ocr_sheet_title_vision
+
+            page_bytes = b""
+            encoded_page = str(body.get("firstPageImageBase64") or "").strip()
+            if encoded_page:
+                page_bytes = base64.b64decode(encoded_page)
+            if not page_bytes:
+                with tempfile.TemporaryDirectory(prefix="sheet-metadata-cloud-") as work_dir:
+                    page_bytes = first_page_image_bytes(image_bytes, filename, work_dir)
+            cloud = await ocr_sheet_title_vision(page_bytes, "page-1.png", provider_cfg)
+            body = apply_cloud_title_metadata(body, cloud, composer_hint=composer_hint)
+
+        return JSONResponse(content=public_sheet_metadata_body(body), headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Sheet metadata extraction failed"
         return json_error(500, detail, origin)
 
 

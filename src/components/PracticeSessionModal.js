@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { Modal, Button } from 'react-bootstrap'
+import { Modal, Button, ButtonGroup } from 'react-bootstrap'
 import Abc from './Abc'
 import PracticeTuneDisplay from './PracticeTuneDisplay'
 import PracticeSessionPlaybackHost from './PracticeSessionPlaybackHost'
@@ -7,6 +7,15 @@ import PracticePlaybackStatus from './PracticePlaybackStatus'
 import PracticeAccuracyOverlay from './PracticeAccuracyOverlay'
 import PracticeWarmupPitchRoll from './PracticeWarmupPitchRoll'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
+import ViewModeSelectorModal, { ViewModeVoiceControls } from './ViewModeSelectorModal'
+import MediaPlayerOptionsModal from './MediaPlayerOptionsModal'
+import {
+  viewModeToDisplayFlags,
+  resolveDisplayFlagsForTune,
+} from '../viewModeUtils'
+import { getTuneVoiceKeys } from '../abcVoiceViewSettings'
+import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
+import useAbcjsParser from '../useAbcjsParser'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
 import { loadPracticeSettings, mergePracticeSettings, clampReferenceGain } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
@@ -41,6 +50,8 @@ export default function PracticeSessionModal(props) {
     hasLyrics: false,
     lyricLineCount: 0,
   })
+  const [chordViewMode, setChordViewMode] = useState('transposed')
+  const [voiceSettingsVersion, setVoiceSettingsVersion] = useState(0)
   const handleTuneLayoutNeeds = useCallback(function(needs) {
     setTuneLayoutNeeds(function(prev) {
       const next = needs || {}
@@ -61,6 +72,7 @@ export default function PracticeSessionModal(props) {
     })
   }, [])
   const resolverHealth = useMediaResolverHealth()
+  const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
   const accuracyEnabled = practiceSettings.accuracyCheckingEnabled
     && currentStep && currentStep.type === 'warmup'
   const referenceGain = practiceSettings.practiceReferenceGain != null
@@ -103,6 +115,10 @@ export default function PracticeSessionModal(props) {
   const mediaTapToPlay = props.mediaController && props.mediaController.tapToPlay
   const showPauseControl = canPausePlayback && !mediaTapToPlay
   const togglePausePlaybackRef = useRef(null)
+
+  useEffect(function() {
+    setChordViewMode('transposed')
+  }, [currentStep, props.stepIndex])
 
   useEffect(function() {
     if (currentStep && currentStep.type === 'warmup') {
@@ -320,6 +336,106 @@ export default function PracticeSessionModal(props) {
   const pauseButtonIcon = icons
     ? (userPaused ? (icons.playwhite || icons.play) : icons.pause)
     : null
+  const isTuneStep = !isEnded && currentStep && currentStep.type === 'tune' && !!tune
+  const showAutoscroll = isTuneStep
+    && (tuneLayoutNeeds.needsNotationScroll || tuneLayoutNeeds.lyricLineCount > 12)
+  const tuneTranspose = tune ? (Number(tune.transpose) || 0) : 0
+  const effectiveCapo = tune ? (Number(tune.capo) || 0) : 0
+  const hasChords = !!(tune && tuneHasExplicitChords(tune, props.tunebook, abcjsParser))
+  const practiceDisplayFlags = tune ? resolveDisplayFlagsForTune(
+    viewModeToDisplayFlags(props.practiceViewMode || 'music'),
+    tune,
+    props.tunebook,
+    { hasChords: hasChords }
+  ) : null
+  const showNotationControls = !!(practiceDisplayFlags && practiceDisplayFlags.notation !== 'off')
+    && !!(tune && props.tunebook && props.tunebook.hasNotes && props.tunebook.hasNotes(tune))
+    && getTuneVoiceKeys(tune).length > 1
+  const mediaDropdownVariant = props.mediaController && props.mediaController.isLoading
+    ? 'secondary'
+    : (props.mediaController && props.mediaController.isPlaying ? 'warning' : 'success')
+
+  function changeTuneTranspose(delta) {
+    if (!tune || !props.tunebook) return
+    const next = tuneTranspose + delta
+    tune.transpose = next
+    props.tunebook.saveTune(tune)
+    if (props.forceRefresh) props.forceRefresh()
+  }
+
+  function handlePracticeViewModeChange(mode) {
+    if (props.onPracticeViewModeChange) props.onPracticeViewModeChange(mode)
+  }
+
+  const transposeCapoBlock = tune ? (
+    <div className="music-transpose-capo-block">
+      <span className="music-transpose-capo-label">Transpose</span>
+      <ButtonGroup size="sm" className="music-transpose-group">
+        <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(-1) }} aria-label="Transpose down">−</Button>
+        <Button variant="outline-secondary" disabled>{tuneTranspose >= 0 ? '+' + tuneTranspose : tuneTranspose}</Button>
+        <Button variant="outline-secondary" onClick={function() { changeTuneTranspose(1) }} aria-label="Transpose up">+</Button>
+      </ButtonGroup>
+      {effectiveCapo > 0 ? (
+        <Button
+          size="sm"
+          variant={chordViewMode === 'capo' ? 'primary' : 'outline-secondary'}
+          className="music-capo-toggle-btn"
+          aria-pressed={chordViewMode === 'capo'}
+          aria-label={'Capo ' + effectiveCapo + (chordViewMode === 'capo' ? ' fingering' : ' transposed')}
+          title={chordViewMode === 'capo' ? 'Show transposed chords' : 'Show capo fingering'}
+          onClick={function() {
+            setChordViewMode(chordViewMode === 'capo' ? 'transposed' : 'capo')
+          }}
+        >
+          Capo {effectiveCapo}
+        </Button>
+      ) : null}
+    </div>
+  ) : null
+
+  function renderPlaybackControls(includeMediaDropdown) {
+    if (!showPauseControl) return null
+    const playButton = (
+      <Button
+        variant={userPaused ? 'success' : 'warning'}
+        className={'practice-session-playback-btn' + (userPaused ? ' practice-session-playback-btn--play' : '')}
+        aria-label={pauseButtonLabel}
+        title={pauseButtonLabel}
+        onClick={togglePausePlayback}
+      >
+        {pauseButtonIcon ? (
+          <span className="practice-session-playback-btn-icon" aria-hidden="true">{pauseButtonIcon}</span>
+        ) : null}
+        <span className="practice-session-playback-btn-label">{pauseButtonLabel}</span>
+      </Button>
+    )
+    return (
+      <>
+        {renderHeaderBtn(
+          'Restart',
+          icons && (icons.skipback || icons.rewind),
+          'practice-session-header-btn--restart',
+          'outline-secondary',
+          handleRestartStep
+        )}
+        {includeMediaDropdown ? (
+          <ButtonGroup className="practice-session-playback-group">
+            {playButton}
+            <MediaPlayerOptionsModal
+              mediaController={props.mediaController}
+              tunebook={props.tunebook}
+              tunes={props.tunes}
+              contextTune={tune}
+              suppressRouteNavigation={true}
+              dialogZIndex={1300}
+              buttonSize="lg"
+              variant={mediaDropdownVariant}
+            />
+          </ButtonGroup>
+        ) : playButton}
+      </>
+    )
+  }
 
   function renderHeaderBtn(label, icon, className, variant, onClick) {
     return (
@@ -423,47 +539,9 @@ export default function PracticeSessionModal(props) {
             </div>
           )}
           <div className="practice-session-header-right">
-            {!isEnded && currentStep && currentStep.type === 'tune' && tune && (
-              (tuneLayoutNeeds.needsNotationScroll || tuneLayoutNeeds.lyricLineCount > 12) ? (
-                <LyricsAutoscrollModal
-                  tune={tune}
-                  tunebook={props.tunebook}
-                  mediaController={props.mediaController}
-                  mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null
-                    ? props.mediaController.mediaLinkNumber
-                    : 0}
-                  musicSingleSelector=".practice-session-scroll-root"
-                  barLayout="gig-inline"
-                  buttonVariant="outline-secondary"
-                  buttonSize="sm"
-                />
-              ) : null
-            )}
             {!isEnded ? (
               <>
-                {showPauseControl ? (
-                  <>
-                    {renderHeaderBtn(
-                      'Restart',
-                      icons && (icons.skipback || icons.rewind),
-                      'practice-session-header-btn--restart',
-                      'outline-secondary',
-                      handleRestartStep
-                    )}
-                    <Button
-                      variant={userPaused ? 'success' : 'warning'}
-                      className={'practice-session-playback-btn' + (userPaused ? ' practice-session-playback-btn--play' : '')}
-                      aria-label={pauseButtonLabel}
-                      title={pauseButtonLabel}
-                      onClick={togglePausePlayback}
-                    >
-                      {pauseButtonIcon ? (
-                        <span className="practice-session-playback-btn-icon" aria-hidden="true">{pauseButtonIcon}</span>
-                      ) : null}
-                      <span className="practice-session-playback-btn-label">{pauseButtonLabel}</span>
-                    </Button>
-                  </>
-                ) : null}
+                {renderPlaybackControls(isTuneStep)}
                 {renderHeaderBtn(
                   'Quit',
                   icons && (icons.stopsmall || icons.stop),
@@ -480,6 +558,48 @@ export default function PracticeSessionModal(props) {
             )}
           </div>
         </div>
+        {isTuneStep ? (
+          <div className="practice-session-tune-toolbar">
+            {showAutoscroll ? (
+              <LyricsAutoscrollModal
+                tune={tune}
+                tunebook={props.tunebook}
+                mediaController={props.mediaController}
+                mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null
+                  ? props.mediaController.mediaLinkNumber
+                  : 0}
+                musicSingleSelector=".practice-session-scroll-root"
+                barLayout="gig-inline"
+                buttonVariant="outline-secondary"
+                buttonSize="sm"
+              />
+            ) : null}
+            <ViewModeSelectorModal
+              className="practice-session-view-mode-selector"
+              viewMode={props.practiceViewMode}
+              tune={tune}
+              tunebook={props.tunebook}
+              forceDropdown={true}
+              hideInlineVoiceControls={true}
+              onVoiceSettingsChange={function() {
+                setVoiceSettingsVersion(function(v) { return v + 1 })
+              }}
+              extraMenuContent={transposeCapoBlock}
+              onChange={handlePracticeViewModeChange}
+            />
+            {showNotationControls ? (
+              <ViewModeVoiceControls
+                inline={true}
+                tune={tune}
+                tuneId={tune.id}
+                tunebook={props.tunebook}
+                onChange={function() {
+                  setVoiceSettingsVersion(function(v) { return v + 1 })
+                }}
+              />
+            ) : null}
+          </div>
+        ) : null}
       </Modal.Header>
       {!isEnded ? (
         <PracticeTapToPlayPrompt
@@ -586,10 +706,12 @@ export default function PracticeSessionModal(props) {
             }
           >
             <PracticeTuneDisplay
-              key={String(tune.id) + '-' + String(props.practiceViewMode || 'music')}
+              key={String(tune.id) + '-' + String(props.practiceViewMode || 'music') + '-' + voiceSettingsVersion + '-' + tuneTranspose + '-' + chordViewMode}
               tune={tune}
               tunebook={props.tunebook}
               viewMode={props.practiceViewMode}
+              chordViewMode={chordViewMode}
+              voiceSettingsVersion={voiceSettingsVersion}
               onLayoutNeeds={handleTuneLayoutNeeds}
             />
             <PracticeSessionPlaybackHost

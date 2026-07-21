@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
-import { Button, Dropdown, Form, Modal } from 'react-bootstrap';
+import { Button, Dropdown, Form, InputGroup, Modal } from 'react-bootstrap';
+import FieldVoiceFillButton from './FieldVoiceFillButton';
 import {
   LYRICS_SECTIONS_ICON,
   PANGRAB_ICON,
@@ -236,14 +237,22 @@ export default function ChordSectionsDropdown(props) {
           >
             <Form.Group controlId="chords-new-section-name">
               <Form.Label>Section name</Form.Label>
-              <Form.Control
-                ref={nameInputRef}
-                type="text"
-                value={newSectionName}
-                placeholder="e.g. Verse 2, Chorus, Bridge"
-                onChange={function(e) { setNewSectionName(e.target.value); }}
-                autoComplete="off"
-              />
+              <InputGroup>
+                <Form.Control
+                  ref={nameInputRef}
+                  type="text"
+                  value={newSectionName}
+                  placeholder="e.g. Verse 2, Chorus, Bridge"
+                  onChange={function(e) { setNewSectionName(e.target.value); }}
+                  autoComplete="off"
+                />
+                <FieldVoiceFillButton
+                  fieldKind="search"
+                  token={props.token}
+                  setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                  onFill={function(text) { setNewSectionName(text); }}
+                />
+              </InputGroup>
             </Form.Group>
             <p className="text-muted small mb-0 mt-2">
               Adds a chord block only. Lyrics are not changed.

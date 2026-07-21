@@ -19,6 +19,8 @@ import {
   asImportReviewChrome,
   ensureBlankAddSession,
   removeAddDraftFromSession,
+  sessionWithoutIdleAddDraft,
+  isIdleAddDraftCandidate,
   coalesceSessionCandidatesByMergeTarget,
   foldIncomingCandidate,
   removeImportReviewCandidatesByFieldLookupJobId,
@@ -93,6 +95,28 @@ describe('importReviewSession', function() {
     expect(next.entryMode).toBe('import');
     expect(next.candidates).toHaveLength(1);
     expect(next.candidates[0].id).toBe('review-1');
+  });
+
+  test('sessionWithoutIdleAddDraft removes blank add draft before notation import', function() {
+    const session = ensureBlankAddSession(createImportReviewSession([{
+      id: 'review-1',
+      tune: { name: 'Prior' },
+    }]), { book: 'songs' });
+    expect(session.candidates).toHaveLength(2);
+    expect(isIdleAddDraftCandidate(session.candidates[0])).toBe(true);
+    const next = sessionWithoutIdleAddDraft(session);
+    expect(next.candidates).toHaveLength(1);
+    expect(next.candidates[0].id).toBe('review-1');
+    expect(next.entryMode).toBe('import');
+  });
+
+  test('sessionWithoutIdleAddDraft keeps add draft with user content', function() {
+    const session = createImportReviewSession([{
+      addDraft: true,
+      sourceKind: 'manual',
+      tune: { name: 'My title', voices: { '1': { notes: [] } } },
+    }], { entryMode: 'add' });
+    expect(sessionWithoutIdleAddDraft(session)).toBe(session);
   });
 
   test('asImportReviewChrome switches add draft to import chrome', function() {

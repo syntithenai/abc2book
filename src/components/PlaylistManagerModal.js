@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
+import VoiceFillInput from './VoiceFillInput'
 import {useNavigate, Link} from 'react-router-dom'
 
 function PlaylistManagerModal(props) {
@@ -34,7 +35,16 @@ function PlaylistManagerModal(props) {
        
         {<>
         <Modal.Body>
-          <input type='text' value={filter} onChange={function(e) {setFilter(e.target.value)}}   />   
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="text"
+            value={filter}
+            onChange={function(e) { setFilter(e.target.value) }}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />   
         </Modal.Body>
         <Modal.Footer>
           <ListGroup  style={{clear:'both', width: '100%'}}>

@@ -12,6 +12,8 @@ def midi_bytes_to_note_events(
     prefer_highest_in_chords: bool = True,
     drop_drums: bool = True,
     program_filter: int | None = None,
+    track_index: int | None = None,
+    tempo_bpm: float = 120.0,
 ) -> list[dict[str, Any]]:
     """Return note events: {start, end, midi, name, confidence, velocity?}."""
     if not midi_bytes:
@@ -19,15 +21,33 @@ def midi_bytes_to_note_events(
     try:
         import pretty_midi
     except Exception:
-        return _midi_bytes_via_mido(midi_bytes, prefer_highest_in_chords=prefer_highest_in_chords)
+        notes = _midi_bytes_via_mido(midi_bytes, prefer_highest_in_chords=prefer_highest_in_chords)
+        if notes:
+            return notes
+        return _midi_bytes_via_music21(
+            midi_bytes,
+            track_index=track_index,
+            prefer_highest_in_chords=prefer_highest_in_chords,
+            tempo_bpm=tempo_bpm,
+        )
 
     try:
         pm = pretty_midi.PrettyMIDI(io.BytesIO(midi_bytes))
     except Exception:
-        return _midi_bytes_via_mido(midi_bytes, prefer_highest_in_chords=prefer_highest_in_chords)
+        notes = _midi_bytes_via_mido(midi_bytes, prefer_highest_in_chords=prefer_highest_in_chords)
+        if notes:
+            return notes
+        return _midi_bytes_via_music21(
+            midi_bytes,
+            track_index=track_index,
+            prefer_highest_in_chords=prefer_highest_in_chords,
+            tempo_bpm=tempo_bpm,
+        )
 
     notes: list[dict[str, Any]] = []
-    for instrument in pm.instruments:
+    for index, instrument in enumerate(pm.instruments):
+        if track_index is not None and index != track_index:
+            continue
         if drop_drums and getattr(instrument, "is_drum", False):
             continue
         if program_filter is not None and int(getattr(instrument, "program", -1)) != int(program_filter):
@@ -44,7 +64,12 @@ def midi_bytes_to_note_events(
             })
 
     if not notes:
-        return []
+        return _midi_bytes_via_mido(midi_bytes, prefer_highest_in_chords=prefer_highest_in_chords) or _midi_bytes_via_music21(
+            midi_bytes,
+            track_index=track_index,
+            prefer_highest_in_chords=prefer_highest_in_chords,
+            tempo_bpm=tempo_bpm,
+        )
 
     if prefer_highest_in_chords:
         notes = _collapse_simultaneous_to_highest(notes)
@@ -114,6 +139,83 @@ def _midi_bytes_via_mido(midi_bytes: bytes, prefer_highest_in_chords: bool = Tru
                 "confidence": min(1.0, max(0.05, float(velocity) / 127.0)),
                 "velocity": int(velocity),
             })
+
+    if prefer_highest_in_chords:
+        notes = _collapse_simultaneous_to_highest(notes)
+    notes.sort(key=lambda row: (row["start"], -row["midi"]))
+    return notes
+
+
+def _note_element_to_events(element: Any, beat_duration: float) -> list[dict[str, Any]]:
+    start = float(getattr(element, "offset", 0) or 0) * beat_duration
+    duration = float(getattr(element.duration, "quarterLength", 0) or 0) * beat_duration
+    if duration <= 0:
+        duration = beat_duration * 0.25
+    end = start + duration
+    velocity = 80
+    if hasattr(element, "volume"):
+        volume_attr = getattr(element, "volume", None)
+        if volume_attr is not None:
+            try:
+                velocity = int(float(getattr(volume_attr, "velocity", volume_attr) or 80))
+            except (TypeError, ValueError):
+                velocity = 80
+    events: list[dict[str, Any]] = []
+    if getattr(element, "isChord", False):
+        for pitch in getattr(element, "pitches", ()) or ():
+            midi = int(getattr(pitch, "midi", 0) or 0)
+            if midi <= 0:
+                continue
+            events.append({
+                "start": start,
+                "end": end,
+                "midi": midi,
+                "name": _midi_name(midi),
+                "confidence": min(1.0, max(0.05, float(velocity) / 127.0)),
+                "velocity": velocity,
+            })
+        return events
+    pitch_attr = getattr(element, "pitch", None)
+    midi = int(getattr(pitch_attr, "midi", 0) or 0) if pitch_attr is not None else 0
+    if midi <= 0:
+        return []
+    return [{
+        "start": start,
+        "end": end,
+        "midi": midi,
+        "name": _midi_name(midi),
+        "confidence": min(1.0, max(0.05, float(velocity) / 127.0)),
+        "velocity": velocity,
+    }]
+
+
+def _midi_bytes_via_music21(
+    midi_bytes: bytes,
+    *,
+    track_index: int | None = None,
+    prefer_highest_in_chords: bool = True,
+    tempo_bpm: float = 120.0,
+) -> list[dict[str, Any]]:
+    try:
+        from music21 import converter
+    except Exception:
+        return []
+    try:
+        score = converter.parseData(midi_bytes)
+    except Exception:
+        return []
+
+    beat_duration = 60.0 / max(float(tempo_bpm or 120.0), 1.0)
+    parts = list(score.parts)
+    if track_index is not None:
+        if track_index < 0 or track_index >= len(parts):
+            return []
+        parts = [parts[track_index]]
+
+    notes: list[dict[str, Any]] = []
+    for part in parts:
+        for element in part.recurse().notes:
+            notes.extend(_note_element_to_events(element, beat_duration))
 
     if prefer_highest_in_chords:
         notes = _collapse_simultaneous_to_highest(notes)

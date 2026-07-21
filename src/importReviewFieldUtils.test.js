@@ -1,10 +1,12 @@
 import {
   applyImportSuggestion,
   applyInlineImportToForm,
+  applyAddFormInlineImport,
   applyCoalescedFieldChoicesToSuggestions,
   alignedLyricPreviewPairs,
   attachCurrentValueChoice,
   buildReviewFormState,
+  buildTuneFormSyncSignal,
   canApplyImportInline,
   emptyFormValues,
   formValuesToTune,
@@ -12,6 +14,7 @@ import {
   lyricPreviewLines,
   mergeImportedLinks,
   notationPreviewLine,
+  sessionTuneAheadOfForm,
   shouldPreferExistingNotation,
   tuneHasPreexistingAbcNotesOrChords,
   tuneToFormValues,
@@ -26,6 +29,60 @@ describe('importReviewFieldUtils', function() {
     expect(canApplyImportInline('musicxml')).toBe(false);
     expect(canApplyImportInline('mscz')).toBe(false);
     expect(canApplyImportInline('onsong')).toBe(false);
+  });
+
+  test('sessionTuneAheadOfForm detects composer and lyrics ahead of empty form', function() {
+    const candidate = {
+      tune: {
+        name: '',
+        composer: 'John Newton',
+        words: ['[G]Amazing grace'],
+      },
+      sourceKind: 'chordsheet',
+    };
+    expect(sessionTuneAheadOfForm(candidate, emptyFormValues())).toBe(true);
+    expect(sessionTuneAheadOfForm(candidate, { title: '', artist: 'John Newton', lyrics: '' })).toBe(true);
+    expect(sessionTuneAheadOfForm(candidate, {
+      title: '',
+      artist: 'John Newton',
+      lyrics: '[G]Amazing grace',
+    })).toBe(false);
+  });
+
+  test('sessionTuneAheadOfForm detects inlineFormValues ahead of empty form', function() {
+    const candidate = {
+      tune: { name: '', composer: '' },
+      inlineFormValues: {
+        title: 'Brown Eyed Girl',
+        artist: 'Van Morrison',
+      },
+      sourceKind: 'chordsheet',
+    };
+    expect(sessionTuneAheadOfForm(candidate, emptyFormValues())).toBe(true);
+  });
+
+  test('buildTuneFormSyncSignal changes when inlineFormValues changes', function() {
+    const base = {
+      id: 'c1',
+      tune: { name: 'Grace', composer: 'Newton' },
+      sourceKind: 'chordsheet',
+      inlineImportRevision: 1,
+    };
+    const next = Object.assign({}, base, {
+      inlineFormValues: { title: 'Grace', artist: 'Newton', lyrics: '[G]Hi' },
+    });
+    expect(buildTuneFormSyncSignal(base)).not.toBe(buildTuneFormSyncSignal(next));
+  });
+
+  test('buildTuneFormSyncSignal changes when imported tune content changes', function() {
+    const base = { id: 'c1', tune: { name: '', composer: '' }, sourceKind: 'manual' };
+    const imported = {
+      id: 'c1',
+      tune: { name: 'Grace', composer: 'Newton', words: ['[G]Hi'] },
+      sourceKind: 'chordsheet',
+      pendingInlineSuggestions: { lyrics: { value: ['[G]Hi'] } },
+    };
+    expect(buildTuneFormSyncSignal(base)).not.toBe(buildTuneFormSyncSignal(imported));
   });
 
   test('buildReviewFormState auto-fills empty title on merge', function() {
@@ -77,6 +134,27 @@ describe('importReviewFieldUtils', function() {
     expect(result.formValues.title).toBe('Mine');
     expect(result.formValues.genre).toBe('Irish');
     expect(result.suggestions.rhythm).toBeTruthy();
+  });
+
+  test('applyAddFormInlineImport replaces previous add-form title on re-import', function() {
+    const draft = tuneToFormValues({
+      name: 'Amazing Grace',
+      composer: 'John Newton',
+      books: ['songs'],
+      tags: ['favorite'],
+      words: ['[G]Old lyrics'],
+    });
+    const result = applyAddFormInlineImport(formValuesToTune(draft, {}), {
+      name: 'Brown Eyed Girl',
+      composer: 'Van Morrison',
+      words: ['[G]Hey where did we go'],
+      books: ['irish'],
+    });
+    expect(result.formValues.title).toBe('Brown Eyed Girl');
+    expect(result.formValues.artist).toBe('Van Morrison');
+    expect(result.formValues.lyrics).toContain('Hey where did we go');
+    expect(result.formValues.bookList).toBe('irish, songs');
+    expect(result.formValues.tagList).toBe('favorite');
   });
 
   test('applyInlineImportToForm auto-applies empty notation', function() {

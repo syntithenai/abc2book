@@ -13,6 +13,7 @@ import {
   inferKeyFromChordGrid,
   keysAreCompatible,
 } from './chordKeyMergeOptions';
+import { mergeImportDraftTune } from './importReviewCandidateUtils';
 
 const INLINE_IMPORT_SOURCE_KINDS = ['abc', 'chordsheet', 'bulk-text'];
 
@@ -754,6 +755,68 @@ export function canApplyImportInline(sourceKind) {
 }
 
 /**
+ * Detect when the import session tune has content the live form still lacks.
+ * Used to re-init the Add form after inline ChordPro/ABC imports that race
+ * with form→session sync (suppressFormInitRef).
+ */
+export function sessionTuneAheadOfForm(candidate, formValues) {
+  if (!candidate || !candidate.tune) return false;
+  const tune = candidate.tune;
+  const form = formValues || emptyFormValues();
+  const tuneTitle = String(tune.name || '').trim();
+  const formTitle = String(form.title || '').trim();
+  if (tuneTitle && tuneTitle !== formTitle) return true;
+  const tuneComposer = String(tune.composer || '').trim();
+  const formComposer = String(form.artist || '').trim();
+  if (tuneComposer && tuneComposer !== formComposer) return true;
+  const tuneLyrics = lyricsTextFromTune(tune).trim();
+  const formLyrics = String(form.lyrics || '').trim();
+  if (tuneLyrics && tuneLyrics !== formLyrics) return true;
+  const tuneNotes = notationTextFromTune(tune).trim();
+  const formNotes = String(form.notes || '').trim();
+  if (tuneNotes && tuneNotes !== formNotes) return true;
+  const pending = candidate.pendingInlineSuggestions;
+  if (pending && typeof pending === 'object' && Object.keys(pending).length > 0) {
+    return true;
+  }
+  const inlineForm = candidate.inlineFormValues;
+  if (inlineForm && typeof inlineForm === 'object') {
+    const inlineTitle = String(inlineForm.title || '').trim();
+    if (inlineTitle && inlineTitle !== formTitle) return true;
+    const inlineComposer = String(inlineForm.artist || '').trim();
+    if (inlineComposer && inlineComposer !== formComposer) return true;
+    const inlineLyrics = String(inlineForm.lyrics || '').trim();
+    if (inlineLyrics && inlineLyrics !== formLyrics) return true;
+  }
+  return false;
+}
+
+/** Stable signal for re-running form init when an import updates the session tune. */
+export function buildTuneFormSyncSignal(candidate) {
+  if (!candidate || !candidate.tune) return '';
+  const tune = candidate.tune;
+  const parts = [
+    String(tune.name || ''),
+    String(tune.composer || ''),
+    lyricsTextFromTune(tune),
+    notationTextFromTune(tune),
+    candidate.sourceKind || '',
+    String(candidate.inlineImportRevision != null ? candidate.inlineImportRevision : ''),
+  ];
+  const inlineForm = candidate.inlineFormValues;
+  if (inlineForm && typeof inlineForm === 'object') {
+    parts.push(String(inlineForm.title || ''));
+    parts.push(String(inlineForm.artist || ''));
+    parts.push(String(inlineForm.lyrics || ''));
+  }
+  const pending = candidate.pendingInlineSuggestions;
+  if (pending && typeof pending === 'object') {
+    parts.push(Object.keys(pending).sort().join(','));
+  }
+  return parts.join('\x1e');
+}
+
+/**
  * When the preexisting base has no ABC notes/chords, prefer the key inferred
  * from imported lyric/chord-chart spellings over a mismatched declared key.
  */
@@ -1203,6 +1266,12 @@ export function keepAllLocalImportSuggestions(formValues, suggestions) {
 export function applyInlineImportToForm(currentFormValues, importedTune) {
   const asTune = formValuesToTune(currentFormValues, {});
   return buildReviewFormState(asTune, importedTune, 'import');
+}
+
+/** Add-form file import: replace song fields from the new parse, keep draft books/tags/links. */
+export function applyAddFormInlineImport(draftTune, importedTune) {
+  const merged = mergeImportDraftTune(importedTune, draftTune);
+  return buildReviewFormState(null, merged, 'create');
 }
 
 export function importedNotationText(importedTune) {

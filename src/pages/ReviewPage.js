@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useDocumentTitle } from '../pageTitle'
 import { Button, Form } from 'react-bootstrap'
 import TuneFieldSuggestionsStrip from '../components/TuneFieldSuggestionsStrip'
+import VoiceFillInput from '../components/VoiceFillInput'
 import {
   subscribe as subscribeFieldLookupQueue,
   getState as getFieldLookupState,
@@ -132,11 +133,15 @@ export default function ReviewPage(props) {
       {tuneCount > 0 ? (
         <Form.Group className="mb-3" style={{ maxWidth: '28em' }}>
           <Form.Label>Filter by title</Form.Label>
-          <Form.Control
+          <VoiceFillInput
             value={titleFilter}
             data-testid="suggestions-title-filter"
             placeholder="Search titles…"
+            type="search"
             onChange={function(e) { setTitleFilter(e.target.value) }}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
           />
         </Form.Group>
       ) : null}

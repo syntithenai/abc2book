@@ -1,4 +1,4 @@
-import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
+import { parseNdjsonLine } from './ndjsonParse'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { handleLyricsSearchStreamEvent, normalizeLyricsSearch } from './lyricsSearchNormalize'
 import { searchLyricsLight } from './lyricsSearchLight'
@@ -45,13 +45,13 @@ async function parseStreamingLyricsSearchResponse(response, onProgress) {
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i]
       if (!line.trim()) continue
-      const parsed = handleLyricsSearchStreamEvent(JSON.parse(line), onProgress)
+      const parsed = handleLyricsSearchStreamEvent(parseNdjsonLine(line), onProgress)
       if (parsed) result = parsed
     }
   }
 
   if (buffer.trim()) {
-    const parsed = handleLyricsSearchStreamEvent(JSON.parse(buffer), onProgress)
+    const parsed = handleLyricsSearchStreamEvent(parseNdjsonLine(buffer), onProgress)
     if (parsed) result = parsed
   }
 

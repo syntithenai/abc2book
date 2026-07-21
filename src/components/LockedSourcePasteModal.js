@@ -74,6 +74,7 @@ export default function LockedSourcePasteModal(props) {
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
   const fileInputRef = useRef(null)
+  const importedRef = useRef(false)
   const allowNotationFile = !!(props.allowNotationFile || props.allowMsczFile
     || (candidate && (candidate.contentType === 'notation' || /musescore/i.test(String(candidate.source || '') + String(candidate.host || '')))))
 
@@ -82,11 +83,18 @@ export default function LockedSourcePasteModal(props) {
       setText('')
       setError('')
       setBusy(false)
+      importedRef.current = false
     }
   }, [show])
 
   function handleClose(options) {
     if (busy && !(options && options.force)) return
+    const abandoned = !importedRef.current
+    const isNotation = (candidate && candidate.contentType === 'notation')
+      || allowNotationFile
+    if (abandoned && isNotation && typeof props.onAbandon === 'function') {
+      props.onAbandon(candidate)
+    }
     if (typeof props.onHide === 'function') props.onHide()
   }
 
@@ -108,6 +116,7 @@ export default function LockedSourcePasteModal(props) {
   }
 
   async function finishWithCandidates(candidates) {
+    importedRef.current = true
     if (typeof props.onImportCandidates === 'function') {
       await props.onImportCandidates(candidates)
       setBusy(false)
@@ -116,6 +125,7 @@ export default function LockedSourcePasteModal(props) {
     }
     requestImportReview(candidates)
     showImportReviewUi()
+    importedRef.current = true
     setBusy(false)
     handleClose({ force: true })
   }
@@ -255,7 +265,7 @@ export default function LockedSourcePasteModal(props) {
       <Modal.Body style={{ display: 'flex', flexDirection: 'column', gap: '0.75em' }}>
         <p style={{ marginBottom: 0 }}>
           {isNotation
-            ? 'This MuseScore page is not available for automatic download. Open the page, download MusicXML, .mxl, .mscz, or MIDI (or copy MusicXML/ABC), then paste below or use Choose score file.'
+            ? 'This MuseScore page is not available for automatic download. Open the page, download MusicXML, .mxl, .mscz, or MIDI (or copy MusicXML/ABC), then paste below or use Choose score file. If you close without importing, ABC Tune Book will search the web for MIDI files.'
             : ('This site blocks automated import. Open the page, copy the ' + pasteKind + ', then paste it below and import to review.')}
         </p>
         <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap' }}>

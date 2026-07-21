@@ -1,8 +1,11 @@
 import React, { useRef, useEffect } from 'react'
+import TunerFineScale from './TunerFineScale'
 import {
   formatCentsDetail,
   formatFrequency,
   isFarFromTarget,
+  centsForNeedle,
+  isBeyondNeedleRange,
   smoothNeedleCents,
   smoothNeedleRange
 } from './tunerDisplayUtils'
@@ -82,7 +85,7 @@ function drawArcMeter(ctx, width, height, cents, halfRange, inTuneFlash) {
   if (cents == null) return
 
   const needleColor = meterAccent(cents)
-  const clamped = Math.max(-range, Math.min(range, cents || 0))
+  const clamped = centsForNeedle(cents, range) || 0
   const needleAngle = -Math.PI / 2 + (clamped / range) * (Math.PI / 2)
 
   ctx.fillStyle = '#f8f9fa'
@@ -114,6 +117,7 @@ export default function TunerVuMeter(props) {
   const smoothedCentsRef = useRef(props.cents)
   const smoothedRangeRef = useRef(props.halfRange || 50)
   const inTuneFlashRef = useRef(props.inTuneFlash)
+  const needleTauScaleRef = useRef(props.needleTauScale || 1)
 
   useEffect(function() {
     targetCentsRef.current = props.cents
@@ -126,6 +130,10 @@ export default function TunerVuMeter(props) {
   useEffect(function() {
     inTuneFlashRef.current = props.inTuneFlash
   }, [props.inTuneFlash])
+
+  useEffect(function() {
+    needleTauScaleRef.current = props.needleTauScale || 1
+  }, [props.needleTauScale])
 
   useEffect(function() {
     const canvas = canvasRef.current
@@ -148,11 +156,17 @@ export default function TunerVuMeter(props) {
       )
 
       if (targetCents != null && Number.isFinite(targetCents)) {
-        smoothedCentsRef.current = smoothNeedleCents(
-          smoothedCentsRef.current,
-          targetCents,
-          delta
-        )
+        const peggedTarget = centsForNeedle(targetCents, smoothedRangeRef.current)
+        if (isBeyondNeedleRange(targetCents, smoothedRangeRef.current)) {
+          smoothedCentsRef.current = peggedTarget
+        } else {
+          smoothedCentsRef.current = smoothNeedleCents(
+            smoothedCentsRef.current,
+            peggedTarget,
+            delta,
+            { tauScale: needleTauScaleRef.current }
+          )
+        }
       }
 
       const rect = canvas.getBoundingClientRect()
@@ -188,6 +202,7 @@ export default function TunerVuMeter(props) {
 
   return (
     <div className="tuner-vu-meter">
+      <TunerFineScale cents={displayCents} halfRange={props.halfRange} />
       <canvas ref={canvasRef} className="tuner-vu-canvas" />
       <div className={readoutClass} style={{ color: meterAccent(displayCents) }}>
         {props.targetLabel ? (

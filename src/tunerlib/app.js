@@ -11,7 +11,6 @@ const Application = function(notes, options) {
   this.tuner = new Tuner(this.a4)
   this.notes = new Notes(notes, this.tuner)
   this.isRunning = true
-  this.lastNote = null
   this.update({ name: 'A', frequency: this.a4, octave: 4, value: 69, cents: 0 })
 }
 
@@ -43,15 +42,8 @@ Application.prototype.start = function() {
   }
 
   this.tuner.onNoteDetected = function(note) {
-    if (self.notes.isAutoMode) {
-      if (self.lastNote === note.name) {
-        self.update(note)
-        if (self.onNoteDetectedCallback) {
-          self.onNoteDetectedCallback(note)
-        }
-      } else {
-        self.lastNote = note.name
-      }
+    if (self.notes.isAutoMode && self.onNoteDetectedCallback) {
+      self.onNoteDetectedCallback(note)
     }
   }
 

@@ -3,6 +3,7 @@ from unittest.mock import AsyncMock, patch
 
 from midi_fetch import (
     annotate_midi_candidate,
+    build_midi_broad_queries,
     build_midi_search_queries,
     extract_midi_file_urls_from_html,
     is_allowed_midi_host,
@@ -14,6 +15,7 @@ from notation_fetch import (
     MAX_NOTATION_CANDIDATES,
     finalize_notation_candidates,
     search_notation,
+    search_notation_midi_fallback,
 )
 from notation_title_variants import notation_title_variants
 from musescore_fetch import annotate_musescore_candidate
@@ -75,6 +77,22 @@ class MidiFetchHelperTests(unittest.TestCase):
         self.assertTrue(any("site:midiworld.com" in q for q in queries))
         self.assertTrue(any("Clair de Lune" in q for q in queries))
         self.assertTrue(any("filetype:mid" in q for q in queries))
+
+    def test_build_broad_queries_prioritize_archive_and_mutopia(self):
+        queries = build_midi_broad_queries("Bach Cello Suite No. 1")
+        self.assertTrue(any("site:mutopiaproject.org" in q for q in queries))
+        self.assertTrue(any("site:archive.org" in q for q in queries))
+        self.assertTrue(any("filetype:mid" in q for q in queries))
+
+    def test_relaxed_search_accepts_direct_midi_from_any_host(self):
+        results = [{
+            "url": "https://example.org/scores/bach-cello-suite-1.mid",
+            "title": "Bach Cello Suite",
+        }]
+        files, pages = midi_urls_from_search_results(results, allow_any_direct_midi=True)
+        self.assertEqual(files, ["https://example.org/scores/bach-cello-suite-1.mid"])
+        files_strict, _pages = midi_urls_from_search_results(results)
+        self.assertEqual(files_strict, [])
 
     def test_extract_midi_from_html_and_search(self):
         html = """
@@ -210,7 +228,7 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[],
         ), patch(
-            "notation_fetch.collect_web_midi_candidates",
+            "notation_fetch.collect_midi_candidates",
             new_callable=AsyncMock,
             return_value=[midi],
         ) as midi_mock:
@@ -247,7 +265,7 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[],
         ), patch(
-            "notation_fetch.collect_web_midi_candidates",
+            "notation_fetch.collect_midi_candidates",
             new_callable=AsyncMock,
             return_value=[],
         ) as midi_mock:
@@ -255,6 +273,74 @@ class MidiCascadeTests(unittest.IsolatedAsyncioTestCase):
 
         midi_mock.assert_awaited()
         self.assertEqual(body["source"], "thesession.org")
+
+    async def test_search_notation_last_chance_midi_when_parallel_empty(self):
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="Bach Cello Suite No. 1",
+            source_url="https://mutopiaproject.org/bach-cello.mid",
+        )
+        with patch(
+            "notation_fetch.collect_thesession_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_web_abc_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_musescore_candidates",
+            new_callable=AsyncMock,
+            return_value={"candidates": [], "manualCandidates": [{
+                "url": "https://musescore.com/user/1/scores/9",
+                "title": "Bach Cello Suite No. 1",
+                "source": "musescore.com",
+                "host": "musescore.com",
+                "reason": "blocked",
+                "contentType": "notation",
+            }]},
+        ), patch(
+            "notation_fetch.collect_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch._last_chance_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[midi],
+        ) as fallback_mock:
+            body = await search_notation("Bach Cello Suite No. 1 For Violin")
+
+        fallback_mock.assert_awaited()
+        self.assertEqual(body["source"], "mutopiaproject.org")
+
+    async def test_search_notation_midi_fallback_endpoint(self):
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="Bach Cello Suite No. 1",
+            source_url="https://archive.org/bach.mid",
+        )
+        with patch(
+            "notation_fetch._last_chance_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[midi],
+        ):
+            body = await search_notation_midi_fallback("Bach Cello Suite No. 1 For Violin")
+        self.assertEqual(body["source"], "archive.org")
+
+    def test_finalize_relaxes_midi_threshold(self):
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="Suite 1",
+            source_url="https://bitmidi.com/suite.mid",
+        )
+        relaxed = finalize_notation_candidates(
+            [midi],
+            "Bach Cello Suite No. 1 For Violin",
+            "",
+            relax_midi=True,
+        )
+        self.assertEqual(len(relaxed), 1)
+        self.assertEqual(relaxed[0]["source"], "bitmidi.com")
 
 
 class MidiConvertSimplifyTests(unittest.TestCase):
@@ -296,7 +382,7 @@ class MidiConvertSimplifyTests(unittest.TestCase):
         score.insert(0, bass)
         score.insert(0, melody)
 
-        simplified = simplify_midi_score_for_notation(score)
+        simplified, _diag = simplify_midi_score_for_notation(score)
         part_count = len(list(simplified.parts))
         self.assertLessEqual(part_count, 2)
         # Drum part should be gone.
@@ -316,7 +402,7 @@ class MidiConvertSimplifyTests(unittest.TestCase):
         part.append(chord.Chord(["D4", "F4", "A4"], quarterLength=1))
         score.insert(0, part)
 
-        simplified = simplify_midi_score_for_notation(score)
+        simplified, _diag = simplify_midi_score_for_notation(score)
         kept = list(simplified.parts)[0]
         notes = list(kept.recurse().notes)
         self.assertTrue(notes)
@@ -324,6 +410,36 @@ class MidiConvertSimplifyTests(unittest.TestCase):
         pitches = [n.pitch.nameWithOctave for n in notes if getattr(n, "isNote", False)]
         self.assertIn("G4", pitches)
         self.assertIn("A4", pitches)
+
+    def test_simplify_prefers_melody_over_dense_chord_accompaniment(self):
+        from music21 import chord, instrument, note, stream
+        from midi_convert import simplify_midi_score_for_notation, _is_drum_part
+
+        score = stream.Score()
+        melody = stream.Part()
+        melody.insert(0, instrument.Flute())
+        for pitch in ("G4", "A4", "B4", "C5"):
+            melody.append(note.Note(pitch, quarterLength=0.5))
+
+        chords = stream.Part()
+        chords.insert(0, instrument.Piano())
+        for pitches in (["G3", "B3", "D4"], ["C3", "E3", "G3"], ["D3", "F3", "A3"], ["G3", "B3", "D4"]):
+            chords.append(chord.Chord(pitches, quarterLength=0.5))
+            chords.append(chord.Chord(pitches, quarterLength=0.5))
+
+        score.insert(0, chords)
+        score.insert(0, melody)
+
+        self.assertFalse(_is_drum_part(chords))
+        simplified, _diag = simplify_midi_score_for_notation(score)
+        self.assertEqual(len(list(simplified.parts)), 1)
+        kept = list(simplified.parts)[0]
+        pitches = [
+            n.pitch.nameWithOctave
+            for n in kept.recurse().notes
+            if getattr(n, "isNote", False)
+        ]
+        self.assertEqual(pitches[:4], ["G4", "A4", "B4", "C5"])
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'csv', label: 'CSV', icon: 'filelist', description: 'Spreadsheet metadata export' },
   { id: 'json', label: 'JSON', icon: 'stack', description: 'Tune data as JSON' },
   { id: 'midi', label: 'MIDI', icon: 'midi', description: 'Generated MIDI playback' },
+  { id: 'midi-notation', label: 'MIDI (notation-friendly)', icon: 'midi', description: 'Melody-focused MIDI for re-import' },
   { id: 'musescore', label: 'MuseScore', icon: 'pianoroll', description: 'MusicXML for MuseScore', requiresResolver: true },
   { id: 'chordpro', label: 'ChordPro', icon: 'words', description: 'ChordPro chord sheet (.cho)' },
   { id: 'onsong', label: 'OnSong', icon: 'words', description: 'OnSong chord sheet (.onsong)' },
@@ -170,7 +171,7 @@ export function isTuneDownloadFormatDisabled(formatId, tunes, tunebook) {
   if (formatId === 'chordpro' || formatId === 'onsong') {
     return !tunes.some(function(tune) { return tuneHasChordSheetContent(tune) })
   }
-  if (formatId === 'midi') {
+  if (formatId === 'midi' || formatId === 'midi-notation') {
     return !tunes.some(function(tune) { return tuneHasNotationAudio(tune, tunebook) })
   }
   if (isLinkedAudioDownloadFormat(formatId)) {
@@ -188,7 +189,7 @@ export function getTuneDownloadStartToastMessage(formatId, tuneCount) {
   if (formatId === 'stems') {
     return 'Starting stems download for ' + count + ' tune' + plural + '...'
   }
-  if (formatId === 'midi') {
+  if (formatId === 'midi' || formatId === 'midi-notation') {
     return 'Starting MIDI download for ' + count + ' tune' + plural + '...'
   }
   return 'Starting download for ' + count + ' tune' + plural + '...'
@@ -244,9 +245,11 @@ export async function executeTuneDownload(formatId, options) {
       utils.download(archiveBaseName + ' lyrics.txt', tunesToLyricsText(tunes))
       return
     }
-    case 'midi': {
+    case 'midi':
+    case 'midi-notation': {
+      var notationFriendly = formatId === 'midi-notation'
       for (var midiIndex = 0; midiIndex < tunes.length; midiIndex++) {
-        tunebook.downloadMidi(tunes[midiIndex])
+        tunebook.downloadMidi(tunes[midiIndex], { notationFriendly: notationFriendly })
         if (midiIndex < tunes.length - 1) {
           await pauseBetweenDownloads(350)
         }

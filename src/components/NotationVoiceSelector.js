@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, ButtonGroup, Form } from 'react-bootstrap';
+import FieldVoiceFillButton from './FieldVoiceFillButton';
 import { voiceDisplayLabel } from '../notation/notationDisplayAbc';
 import { parseVoiceMeta, formatVoiceMeta } from '../notation/voiceMeta';
 import DeleteVoiceConfirmModal from './DeleteVoiceConfirmModal';
@@ -144,6 +145,12 @@ export default function NotationVoiceSelector(props) {
                 onClick={function(e) { handleSelect(vk, e); }}
                 onFocus={function(e) { handleSelect(vk, e); }}
                 onChange={function(e) { handleNameChange(vk, e.target.value, e); }}
+              />
+              <FieldVoiceFillButton
+                fieldKind="search"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                onFill={function(text) { handleNameChange(vk, text, null); }}
               />
               <Button
                 type="button"

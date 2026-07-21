@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Button, Form, Modal, Table } from 'react-bootstrap';
+import VoiceFillInput from './VoiceFillInput';
 import {
   VOICE_CLEFS,
   DEFAULT_VOICE_CLEF,
@@ -125,14 +126,16 @@ export default function VoicesManageModal(props) {
                       />
                     </td>
                     <td>
-                      <Form.Control
-                        type="text"
+                      <VoiceFillInput
                         size="sm"
                         value={parsed.name}
                         aria-label={'Name for ' + label}
                         onChange={function(e) {
                           updateMeta(key, { name: e.target.value });
                         }}
+                        fieldKind="search"
+                        token={props.token}
+                        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                       />
                     </td>
                     <td>

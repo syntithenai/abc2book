@@ -8,6 +8,7 @@ from feed_generation import (
     looks_like_new_release_claim,
     reject_ungrounded_new_release,
     is_thin_name_list_body,
+    is_low_value_ai_article,
     is_usable_article_body,
 )
 import asyncio
@@ -75,6 +76,20 @@ class FeedGenerationTests(unittest.TestCase):
         )
         self.assertFalse(is_thin_name_list_body(rich))
         self.assertTrue(is_usable_article_body("Copper Kettle", rich))
+
+    def test_rejects_low_value_musescore_fluff(self):
+        self.assertTrue(
+            is_low_value_ai_article(
+                "Mélisande’s transcription on Musescore",
+                "A transcription has been uploaded to Musescore for download.",
+            )
+        )
+        self.assertFalse(
+            is_usable_article_body(
+                "Mélisande’s transcription on Musescore",
+                "A transcription has been uploaded to Musescore for download.",
+            )
+        )
 
 
 if __name__ == "__main__":

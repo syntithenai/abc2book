@@ -5,6 +5,7 @@ import {
   normalizeOnSongText,
   tuneHasChordSheetContent,
   isChordSheetFilename,
+  titleFromChordSheetFileName,
   extractChordSheetPreambleMeta,
 } from './chordProFormatUtils';
 import { getBarModel, fullBarRestAbc } from './barModel';
@@ -26,6 +27,11 @@ describe('chordProFormatUtils', function() {
     expect(isChordSheetFilename('song.cho')).toBe(true);
     expect(isChordSheetFilename('song.onsong')).toBe(true);
     expect(isChordSheetFilename('song.abc')).toBe(false);
+  });
+
+  test('titleFromChordSheetFileName humanizes basename', function() {
+    expect(titleFromChordSheetFileName('amazing-grace.pro')).toBe('amazing grace');
+    expect(titleFromChordSheetFileName('untitled.pro')).toBe('');
   });
 
   test('parses ChordPro metadata and lines', function() {
@@ -219,6 +225,46 @@ The language of love`;
     expect(parsed.lyricLines).toContain('Am    Dm    Dm    Am9');
     expect(parsed.lyricLines.join('\n')).not.toMatch(/Song:|By:|Tonality:|Capo|BPM:|Meter:|Tuning:/);
     expect(parsed.chordText).toContain('Am    Dm    Dm    Am9|');
+  });
+
+  test('parses labeled preamble with inline ChordPro lyrics', function() {
+    const sample = `Title: Amazing Grace
+Artist: John Newton
+Key: G
+
+[G]Amazing grace how [C]sweet the [G]sound
+`;
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.title).toBe('Amazing Grace');
+    expect(parsed.composer).toBe('John Newton');
+    expect(parsed.key).toBe('G');
+    expect(parsed.lyricLines.join('\n')).toContain('[G]Amazing grace');
+    expect(parsed.lyricLines.join('\n')).not.toContain('Title:');
+  });
+
+  test('parses metadata-only ChordPro title without lyrics', function() {
+    const parsed = parseChordSheetText('{title: Brown Eyed Girl}\n', { fileName: 'brown-eyed-girl.pro' });
+    expect(parsed.title).toBe('Brown Eyed Girl');
+  });
+
+  test('uses filename as title fallback when metadata is missing', function() {
+    const sample = `[G]Hello [C]world
+`;
+    const parsed = parseChordSheetText(sample, { fileName: 'amazing-grace.pro' });
+    expect(parsed.title).toBe('amazing grace');
+  });
+
+  test('parses chordpro with barline chords in brackets without throwing', function() {
+    const sample = `{title: Test Song}
+[| D |] Hello world
+[G]Second line
+`;
+    expect(function() {
+      return parseChordSheetText(sample);
+    }).not.toThrow();
+    const parsed = parseChordSheetText(sample);
+    expect(parsed.title).toBe('Test Song');
+    expect(parsed.lyricLines.join('\n')).toContain('Hello world');
   });
 
   test('maps ChordPro composer directive when present', function() {

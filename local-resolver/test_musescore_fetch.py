@@ -5,9 +5,12 @@ from unittest.mock import AsyncMock, patch
 
 from musescore_fetch import (
     MuseScoreDownloadUnavailable,
+    actionable_musescore_manual_candidates,
     annotate_musescore_candidate,
     build_librescore_cli_command,
+    build_musescore_manual_candidate,
     build_musescore_search_queries,
+    classify_musescore_download_access,
     extract_musicxml_download_urls,
     extract_musicxml_from_mxl_bytes,
     extract_musescore_page_meta,
@@ -97,6 +100,48 @@ class MuseScoreFetchTests(unittest.TestCase):
         self.assertTrue(page_looks_paywalled("Upgrade to MuseScore Pro to download"))
         self.assertFalse(page_looks_paywalled("<html><body>Public domain score</body></html>"))
 
+    def test_classify_musescore_download_access(self):
+        self.assertEqual(
+            classify_musescore_download_access(
+                "<html><body>Upgrade to MuseScore Pro to download this score</body></html>"
+            ),
+            "pro_required",
+        )
+        self.assertEqual(
+            classify_musescore_download_access(
+                '<html><body>Official score licensed from publisher. Purchase this score.</body></html>'
+            ),
+            "paid_official",
+        )
+        self.assertEqual(
+            classify_musescore_download_access(
+                "<html><body>Public domain arrangement. Creative Commons license.</body></html>"
+            ),
+            "account_free",
+        )
+        self.assertEqual(classify_musescore_download_access(""), "unknown")
+
+    def test_actionable_musescore_manual_candidates_filters_paywall(self):
+        manuals = [
+            build_musescore_manual_candidate(
+                "https://musescore.com/user/1/scores/1",
+                title="Paid",
+                access_tier="paid_official",
+            ),
+            build_musescore_manual_candidate(
+                "https://musescore.com/user/1/scores/2",
+                title="Maybe free",
+                access_tier="unknown",
+            ),
+        ]
+        actionable = actionable_musescore_manual_candidates(manuals)
+        self.assertEqual(len(actionable), 1)
+        self.assertEqual(actionable[0]["url"], "https://musescore.com/user/1/scores/2")
+
+    def test_musescore_download_unavailable_carries_access_tier(self):
+        exc = MuseScoreDownloadUnavailable("blocked", source="musescore.com", access_tier="pro_required")
+        self.assertEqual(exc.access_tier, "pro_required")
+
     def test_extract_musicxml_from_mxl_bytes(self):
         data = _mxl_bytes_for(MINIMAL_MUSICXML, root_name="path/to/score.xml")
         text = extract_musicxml_from_mxl_bytes(data)
@@ -184,7 +229,7 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[muse_ok],
         ), patch(
-            "notation_fetch.collect_web_midi_candidates",
+            "notation_fetch.collect_midi_candidates",
             new_callable=AsyncMock,
             return_value=[],
         ):
@@ -220,7 +265,7 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
             new_callable=AsyncMock,
             return_value=[],
         ), patch(
-            "notation_fetch.collect_web_midi_candidates",
+            "notation_fetch.collect_midi_candidates",
             new_callable=AsyncMock,
             return_value=[],
         ):
@@ -348,6 +393,70 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(result["source"], "musescore.com")
         self.assertIn("<score-partwise", result["musicXml"])
         self.assertEqual(result["title"], "Public Tune")
+
+
+class MuseScoreUrlMidiFallbackTests(unittest.IsolatedAsyncioTestCase):
+    async def test_search_notation_url_musescore_blocked_falls_back_to_midi(self):
+        from midi_fetch import annotate_midi_candidate
+        from notation_fetch import search_notation_url
+
+        midi = annotate_midi_candidate(
+            MINIMAL_MUSICXML,
+            title="Bach Cello Suite No. 1",
+            source_url="https://mutopiaproject.org/bach.mid",
+        )
+
+        with patch(
+            "notation_fetch.fetch_musescore_url",
+            new_callable=AsyncMock,
+            side_effect=MuseScoreDownloadUnavailable("blocked", source="musescore.com"),
+        ), patch(
+            "notation_fetch._musescore_page_title",
+            new_callable=AsyncMock,
+            return_value="Bach Cello Suite No. 1 For Violin",
+        ), patch(
+            "notation_fetch._last_chance_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[midi],
+        ) as fallback_mock:
+            result = await search_notation_url("https://musescore.com/user/1/scores/9")
+
+        fallback_mock.assert_awaited()
+        self.assertEqual(result["source"], "mutopiaproject.org")
+
+
+class MuseScorePaywallSearchTests(unittest.IsolatedAsyncioTestCase):
+    async def test_search_notation_returns_paywalled_when_only_pro_scores(self):
+        paywalled_manual = build_musescore_manual_candidate(
+            "https://musescore.com/user/1/scores/9",
+            title="Bach Suite",
+            access_tier="pro_required",
+        )
+        with patch(
+            "notation_fetch.collect_thesession_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_web_abc_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch.collect_musescore_candidates",
+            new_callable=AsyncMock,
+            return_value={"candidates": [], "manualCandidates": [paywalled_manual]},
+        ), patch(
+            "notation_fetch.collect_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ), patch(
+            "notation_fetch._last_chance_midi_candidates",
+            new_callable=AsyncMock,
+            return_value=[],
+        ):
+            body = await search_notation("Bach Cello Suite No. 1")
+
+        self.assertTrue(body.get("musescorePaywalled"))
+        self.assertEqual(body.get("manualCandidates"), [])
 
 
 if __name__ == "__main__":

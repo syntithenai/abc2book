@@ -118,6 +118,11 @@ export function isBowedTunerInstrument(instrument) {
   return BOWED_TUNER_INSTRUMENTS.indexOf(instrument) !== -1
 }
 
+/** Fiddle uses mandolin presets; apply bowed-style pitch smoothing. */
+export function usesBowedTunerStabilization(instrument) {
+  return isBowedTunerInstrument(instrument) || instrument === 'mandolin'
+}
+
 export function isValidTunerInstrumentSelection(instrument) {
   return isChromaticInstrument(instrument) || TUNER_INSTRUMENTS.indexOf(instrument) !== -1
 }

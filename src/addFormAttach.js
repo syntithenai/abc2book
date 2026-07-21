@@ -4,11 +4,12 @@
  */
 
 import { isSheetImageImportFile } from './importSourceParse'
-import { isAudioImportFile, isVideoImportFile } from './audioFileMetadata'
+import { isAudioImportFile, isVideoImportFile, isMidiImportFile } from './audioFileMetadata'
 import { createTuneFileFromBlob, removeTuneFileMeta, deleteStoredTuneFile } from './tuneFiles'
 import {
   createAttachedAudioLink,
   createAttachedVideoLink,
+  createAttachedMidiLink,
   isOwnedMediaLink,
 } from './linkRecording'
 import { freshTuneId } from './importReviewCandidateUtils'

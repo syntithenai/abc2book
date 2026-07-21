@@ -1,5 +1,6 @@
-import { isOwnedMediaLink, isOwnedMediaLinkUri, resolveRecordingLinkAudio } from './linkRecording'
+import { isOwnedMediaLink, isOwnedMediaLinkUri, resolveRecordingLinkAudio, resolveRecordingLinkMidi } from './linkRecording'
 import { formatTuneDisplayName } from './tuneDisplayName'
+import { resolveLinkPlaybackSrcType } from './mediaLinkSrcType'
 
 export const LINK_CHECK_TIMEOUT_AUDIO_MS = 45000
 export const LINK_CHECK_TIMEOUT_YOUTUBE_MS = 90000
@@ -9,14 +10,7 @@ export function getLinkSrcType(link, isYoutubeLink) {
   if (!link || !link.link || !String(link.link).trim()) {
     return 'empty'
   }
-  const src = String(link.link).trim()
-  if (isOwnedMediaLinkUri(src)) {
-    return 'recording'
-  }
-  if (typeof isYoutubeLink === 'function' && isYoutubeLink(src)) {
-    return 'youtube'
-  }
-  return 'audio'
+  return resolveLinkPlaybackSrcType(link, isYoutubeLink)
 }
 
 export function getEmptyLinkReason(link) {
@@ -181,6 +175,18 @@ export async function checkRecordingLinkPlayback(link, tuneId, linkIndex, option
   const opts = options || {}
   if (!isOwnedMediaLink(link)) {
     return { ok: false, error: 'Not a recording link' }
+  }
+  if (getLinkSrcType(link, opts.isYoutubeLink) === 'midifile') {
+    try {
+      await resolveRecordingLinkMidi(link, tuneId, linkIndex, {
+        accessToken: opts.accessToken,
+        driveApi: opts.driveApi,
+        forPlayback: false,
+      })
+      return { ok: true }
+    } catch (e) {
+      return { ok: false, error: e && e.message ? e.message : 'MIDI recording is not available' }
+    }
   }
   try {
     const resolved = await resolveRecordingLinkAudio(link, tuneId, linkIndex, {

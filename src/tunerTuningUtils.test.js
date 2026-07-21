@@ -106,4 +106,13 @@ describe('tunerTuningUtils', () => {
     const corrected = centsToTargetWithHarmonics(partial, e4)
     expect(Math.abs(corrected)).toBeLessThan(5)
   })
+
+  it('direct cents on violin A string rejects D4 partial match', () => {
+    const preset = getPreset('violin', 'gdae')
+    const d4 = midiToFrequency(noteNameToMidi('D4'), 440)
+    const harmonic = centsForActiveString(d4, preset, 2, 440)
+    const direct = centsForActiveString(d4, preset, 2, 440, { directOnly: true })
+    expect(Math.abs(harmonic)).toBeLessThan(5)
+    expect(Math.abs(direct)).toBeGreaterThan(400)
+  })
 })

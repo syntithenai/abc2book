@@ -41,7 +41,17 @@ export function processReviewResult(result, importContext, applyImportedTune, st
       && canApplyImportInline(candidates[0].sourceKind)) {
       const c = candidates[0];
       if (c && c.tune) {
-        applyImportedTune(c.tune, c);
+        const applied = applyImportedTune(c.tune, c);
+        if (!applied) {
+          startImportReview(candidates);
+          return {
+            handled: true,
+            closeModal: false,
+            inline: false,
+            bulkReviewRequired: false,
+            candidates: candidates,
+          };
+        }
         if (toastLib && toastLib.success) toastLib.success('Imported into form');
         return {
           handled: true,

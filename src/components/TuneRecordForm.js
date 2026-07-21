@@ -21,6 +21,7 @@ import AliasesSearchButton from './AliasesSearchButton';
 import TuneBackgroundSearchButton from './TuneBackgroundSearchButton';
 import ComposerCandidateQuickPick from './ComposerCandidateQuickPick';
 import CapitalizeTitleButton from './CapitalizeTitleButton';
+import VoiceFillInput from './VoiceFillInput';
 import BookSelectorModal from './BookSelectorModal';
 import TagsSelectorModal from './TagsSelectorModal';
 import KeySignatureInput from './KeySignatureInput';
@@ -257,20 +258,26 @@ export default function TuneRecordForm(props) {
           <Col md={6}>
             <Form.Group className="mb-0">
               <FieldLabelRow label="Book(s)" formKey="bookList" suggestion={suggestions.bookList} onApplySuggestion={props.onApplySuggestion}  values={values} />
-              <Form.Control
+              <VoiceFillInput
                 value={values.bookList || ''}
                 placeholder="comma separated"
                 onChange={function(e) { setField('bookList', e.target.value); }}
+                fieldKind="search"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               />
             </Form.Group>
           </Col>
           <Col md={6}>
             <Form.Group className="mb-0">
               <FieldLabelRow label="Tags" formKey="tagList" suggestion={suggestions.tagList} onApplySuggestion={props.onApplySuggestion}  values={values} />
-              <Form.Control
+              <VoiceFillInput
                 value={values.tagList || ''}
                 placeholder="comma separated"
                 onChange={function(e) { setField('tagList', e.target.value); }}
+                fieldKind="search"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               />
             </Form.Group>
           </Col>
@@ -404,12 +411,15 @@ export default function TuneRecordForm(props) {
               onCapitalize={function(next) { setField('title', next); }}
             />
           </FieldLabelRow>
-          <Form.Control
+          <VoiceFillInput
             id="tune-record-title"
             value={values.title || ''}
             onChange={function(e) {
               setField('title', e.target.value);
             }}
+            fieldKind="title"
+            token={props.token}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
           />
         </Form.Group>
 

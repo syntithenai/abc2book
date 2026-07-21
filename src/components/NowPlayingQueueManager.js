@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, ListGroup } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
+import VoiceFillInput from './VoiceFillInput'
 import {
   getCurrentTuneId,
   setQueueIndex,
@@ -28,12 +29,18 @@ export default function NowPlayingQueueManager(props) {
 
   return (
     <div>
-      <input
+      <VoiceFillInput
+        layout="wrap"
+        className="mb-2"
+        inputClassName="form-control"
+        useFormControl={false}
         type="text"
-        className="form-control mb-2"
         value={filter}
         onChange={function(e) { setFilter(e.target.value) }}
         placeholder="Filter playlist"
+        setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+        token={props.token}
+        fieldKind="search"
       />
       <ListGroup style={{ clear: 'both', width: '100%', backgroundColor: 'white' }}>
         {queue.items.map(function(item, index) {

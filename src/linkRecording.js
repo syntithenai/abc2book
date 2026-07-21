@@ -14,6 +14,9 @@ import {
   putExternalMediaCache,
   isExternalMediaCached,
 } from './externalMediaAudioCache'
+import { probeMidiDuration, isMidiOwnedMediaLink } from './midiFileUtils'
+
+export { isMidiOwnedMediaLink } from './midiFileUtils'
 
 export const RECORDING_LINK_PREFIX = 'abcbook-recording:'
 
@@ -221,10 +224,47 @@ function getAccessToken(token) {
   return normalizeAccessToken(token)
 }
 
-function buildDriveFilename(tune, title) {
+function normalizeMediaKind(kind) {
+  if (kind === 'video') return 'video'
+  if (kind === 'midi') return 'midi'
+  return 'audio'
+}
+
+function buildDriveFilename(tune, title, mediaKind) {
   const tunePart = tune && tune.name ? sanitizeFilename(tune.name) : 'Tune'
   const titlePart = sanitizeFilename(title)
+  if (mediaKind === 'video') {
+    return tunePart + ' - ' + titlePart + '.mp4'
+  }
+  if (mediaKind === 'midi') {
+    return tunePart + ' - ' + titlePart + '.mid'
+  }
   return tunePart + ' - ' + titlePart + '.mp3'
+}
+
+function buildDriveMimeType(mediaKind) {
+  if (mediaKind === 'video') return 'video/mp4'
+  if (mediaKind === 'midi') return 'audio/midi'
+  return 'audio/mpeg'
+}
+
+async function recordingDataToBlob(recording) {
+  if (!recording) return null
+  if (recording.mediaKind === 'midi' && recording.data) {
+    const blob = utils.dataURItoBlob(recording.data, recording.type || 'audio/midi')
+    return {
+      blob: blob,
+      duration: recording.duration || null,
+    }
+  }
+  if (recording.mediaKind === 'video' && recording.data) {
+    const blob = utils.dataURItoBlob(recording.data, recording.type || 'video/mp4')
+    return {
+      blob: blob,
+      duration: recording.duration || null,
+    }
+  }
+  return recordingDataToMp3(recording)
 }
 
 export async function uploadRecordingToDrive(options) {
@@ -236,8 +276,9 @@ export async function uploadRecordingToDrive(options) {
     return { error: 'missing recording, drive API, or token' }
   }
 
-  const mp3 = await recordingDataToMp3(recording)
-  if (!mp3 || !mp3.blob) {
+  const mediaKind = normalizeMediaKind(recording.mediaKind)
+  const stored = await recordingDataToBlob(recording)
+  if (!stored || !stored.blob) {
     return { error: 'missing audio data' }
   }
 
@@ -252,12 +293,13 @@ export async function uploadRecordingToDrive(options) {
 
   const filename = buildDriveFilename(
     { name: recording.tuneName },
-    recording.name || 'Recording'
+    recording.name || 'Recording',
+    mediaKind
   )
   const newId = await driveApi.createDocument(
     filename,
-    mp3.blob,
-    'audio/mpeg',
+    stored.blob,
+    buildDriveMimeType(mediaKind),
     'Recording from TuneBook',
     recordingsFolderId
   )
@@ -313,7 +355,7 @@ export async function createOwnedMediaLink(options) {
   const token = opts.token
   const driveApi = opts.driveApi
   const uploadToDrive = opts.uploadToDrive === true
-  const mediaKind = opts.mediaKind === 'video' ? 'video' : 'audio'
+  const mediaKind = normalizeMediaKind(opts.mediaKind)
 
   if (!tune || !tune.id || !audioBlob) {
     throw new Error('Missing tune or audio data')
@@ -328,6 +370,10 @@ export async function createOwnedMediaLink(options) {
   if (mediaKind === 'video') {
     storedBlob = audioBlob
     mimeType = audioBlob.type || 'video/mp4'
+  } else if (mediaKind === 'midi') {
+    storedBlob = audioBlob
+    mimeType = audioBlob.type || 'audio/midi'
+    duration = await probeMidiDuration(audioBlob)
   } else {
     const mp3 = await blobToMp3Blob(audioBlob)
     storedBlob = mp3.blob
@@ -424,6 +470,22 @@ export async function createAttachedVideoLink(options) {
   }))
 }
 
+export async function createAttachedMidiLink(options) {
+  const opts = options || {}
+  const file = opts.file
+  if (!file) {
+    throw new Error('Missing MIDI file')
+  }
+  const title = opts.title || file.name || 'Attached MIDI'
+  return createOwnedMediaLink(Object.assign({}, opts, {
+    audioBlob: file,
+    title: title,
+    source: 'file',
+    uploadToDrive: opts.uploadToDrive !== false,
+    mediaKind: 'midi',
+  }))
+}
+
 export async function listPendingRecordingUploads() {
   const pending = []
   await recordingsStore.iterate(function(value) {
@@ -467,8 +529,11 @@ export async function syncPendingRecordingUploads(options) {
   return { uploaded: uploaded, tunes: tunesCopy }
 }
 
-async function blobToCachedMp3Result(blob) {
+async function blobToCachedMediaResult(blob, mediaKind) {
   if (!blob || blob.error) return null
+  if (mediaKind === 'midi' || mediaKind === 'video') {
+    return { blob: blob, duration: null }
+  }
   if (blob.type === 'audio/mpeg') {
     return { blob: blob, duration: null }
   }
@@ -476,6 +541,10 @@ async function blobToCachedMp3Result(blob) {
     return blobToMp3Blob(blob)
   }
   return null
+}
+
+async function blobToCachedMp3Result(blob) {
+  return blobToCachedMediaResult(blob, 'audio')
 }
 
 export function buildPublicDriveDownloadUrl(googleId) {
@@ -499,29 +568,30 @@ async function fetchPublicDriveBlobViaProxy(googleId, accessToken) {
   }
 }
 
-async function fetchOwnedMediaFromDrive(googleId, accessToken, driveApi) {
+async function fetchOwnedMediaFromDrive(googleId, accessToken, driveApi, mediaKind) {
   if (!googleId || !driveApi) return null
+  const kind = normalizeMediaKind(mediaKind)
 
   if (accessToken && typeof driveApi.getDocumentBlob === 'function') {
     const driveBlob = await driveApi.getDocumentBlob(googleId, accessToken)
-    const mp3 = await blobToCachedMp3Result(driveBlob)
-    if (mp3 && mp3.blob) {
-      return { mp3: mp3, source: 'drive' }
+    const media = await blobToCachedMediaResult(driveBlob, kind)
+    if (media && media.blob) {
+      return { media: media, source: 'drive' }
     }
   }
 
   if (typeof driveApi.getPublicDocumentBlob === 'function') {
     const publicBlob = await driveApi.getPublicDocumentBlob(googleId)
-    const mp3 = await blobToCachedMp3Result(publicBlob)
-    if (mp3 && mp3.blob) {
-      return { mp3: mp3, source: 'public' }
+    const media = await blobToCachedMediaResult(publicBlob, kind)
+    if (media && media.blob) {
+      return { media: media, source: 'public' }
     }
   }
 
   const proxyBlob = await fetchPublicDriveBlobViaProxy(googleId, accessToken)
-  const proxyMp3 = await blobToCachedMp3Result(proxyBlob)
-  if (proxyMp3 && proxyMp3.blob) {
-    return { mp3: proxyMp3, source: 'proxy' }
+  const proxyMedia = await blobToCachedMediaResult(proxyBlob, kind)
+  if (proxyMedia && proxyMedia.blob) {
+    return { media: proxyMedia, source: 'proxy' }
   }
 
   return null
@@ -535,6 +605,9 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
 
   if (!link || !isOwnedMediaLink(link)) {
     throw new Error('Not an owned media link')
+  }
+  if (isMidiOwnedMediaLink(link)) {
+    throw new Error('Use resolveRecordingLinkMidi for MIDI links')
   }
 
   const linkUri = link.link || buildRecordingLinkUri(link.recordingId)
@@ -559,10 +632,10 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
 
   const googleId = link.googleId || (recording && recording.googleId)
   if (googleId && driveApi) {
-    const remote = await fetchOwnedMediaFromDrive(googleId, accessToken, driveApi)
-    if (remote && remote.mp3 && remote.mp3.blob) {
-      await putExternalMediaCache(cacheKey, remote.mp3.blob, remote.mp3.duration)
-      return { blob: remote.mp3.blob, duration: remote.mp3.duration, source: remote.source }
+    const remote = await fetchOwnedMediaFromDrive(googleId, accessToken, driveApi, 'audio')
+    if (remote && remote.media && remote.media.blob) {
+      await putExternalMediaCache(cacheKey, remote.media.blob, remote.media.duration)
+      return { blob: remote.media.blob, duration: remote.media.duration, source: remote.source }
     }
   }
 
@@ -574,6 +647,58 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
   }
 
   throw new Error('Recording audio is not available offline')
+}
+
+export async function resolveRecordingLinkMidi(link, tuneId, linkIndex, options) {
+  const opts = options || {}
+  const accessToken = getAccessToken(opts.accessToken)
+  const driveApi = opts.driveApi
+  const forPlayback = opts.forPlayback !== false
+
+  if (!link || !isOwnedMediaLink(link)) {
+    throw new Error('Not an owned media link')
+  }
+
+  const linkUri = link.link || buildRecordingLinkUri(link.recordingId)
+  const recordingId = link.recordingId || parseRecordingIdFromLinkUri(linkUri)
+  const cacheKey = getExternalMediaCacheKey(tuneId, linkIndex, linkUri)
+
+  const cached = await getCachedExternalMediaBlob(cacheKey)
+  if (cached && cached.blob) {
+    const arrayBuffer = await cached.blob.arrayBuffer()
+    return { arrayBuffer: arrayBuffer, duration: cached.duration, source: 'cache' }
+  }
+
+  const recording = recordingId ? await getRecording(recordingId) : null
+  if (recording) {
+    const stored = await recordingDataToBlob(recording)
+    if (stored && stored.blob) {
+      if (forPlayback || loadOfflineMediaSettings().autocacheOnPlay) {
+        await putExternalMediaCache(cacheKey, stored.blob, stored.duration)
+      }
+      const arrayBuffer = await stored.blob.arrayBuffer()
+      return { arrayBuffer: arrayBuffer, duration: stored.duration, source: 'local' }
+    }
+  }
+
+  const googleId = link.googleId || (recording && recording.googleId)
+  if (googleId && driveApi) {
+    const remote = await fetchOwnedMediaFromDrive(googleId, accessToken, driveApi, 'midi')
+    if (remote && remote.media && remote.media.blob) {
+      await putExternalMediaCache(cacheKey, remote.media.blob, remote.media.duration)
+      const arrayBuffer = await remote.media.blob.arrayBuffer()
+      return { arrayBuffer: arrayBuffer, duration: remote.media.duration, source: remote.source }
+    }
+  }
+
+  if (googleId && !recording) {
+    if (!accessToken) {
+      throw new Error('Shared MIDI is not available. The owner may need to share the file, or log in to Google Drive.')
+    }
+    throw new Error('Shared MIDI could not be downloaded from Google Drive')
+  }
+
+  throw new Error('MIDI recording is not available offline')
 }
 
 export async function isOwnedMediaLinkCached(tuneId, linkIndex, link) {
@@ -591,7 +716,11 @@ export async function cacheOwnedMediaLinkIfNeeded(tuneId, linkIndex, link, optio
     return false
   }
   try {
-    await resolveRecordingLinkAudio(link, tuneId, linkIndex, Object.assign({}, opts, { forPlayback: false }))
+    if (isMidiOwnedMediaLink(link)) {
+      await resolveRecordingLinkMidi(link, tuneId, linkIndex, Object.assign({}, opts, { forPlayback: false }))
+    } else {
+      await resolveRecordingLinkAudio(link, tuneId, linkIndex, Object.assign({}, opts, { forPlayback: false }))
+    }
     return true
   } catch (e) {
     return false

@@ -62,6 +62,15 @@ _CONTEXT_VERB_RE = re.compile(
     r"origin|history|folk|album|single|performed|credited|inspired|collected)\b",
     re.I,
 )
+_LOW_VALUE_AI_RE = re.compile(
+    r"\b(musescore|uploaded to (the )?musescore|has been uploaded|digital score provides|"
+    r"readily available for download)\b",
+    re.I,
+)
+_FILLER_ONLINE_RE = re.compile(
+    r"\b(a modern transcription|is available online|available online, allowing musicians to access the score)\b",
+    re.I,
+)
 
 
 def _looks_like_name_line(line: str) -> bool:
@@ -97,10 +106,25 @@ def is_thin_name_list_body(text: str) -> bool:
     return False
 
 
+def is_low_value_ai_article(headline: str, body: str) -> bool:
+    blob = f"{headline or ''}\n{body or ''}"
+    if _LOW_VALUE_AI_RE.search(blob):
+        return True
+    if _FILLER_ONLINE_RE.search(blob):
+        return True
+    if re.search(r"\bavailable online\b", body or "", re.I) and len((body or "").strip()) < 240:
+        return True
+    if re.search(r"\bmusescore\b", headline or "", re.I):
+        return True
+    return False
+
+
 def is_usable_article_body(headline: str, body: str) -> bool:
     if not (headline or "").strip() or not (body or "").strip():
         return False
     if is_thin_name_list_body(body):
+        return False
+    if is_low_value_ai_article(headline, body):
         return False
     # Generic “Notes on X” with almost no substance beyond the title
     if re.match(r"^Notes on\b", headline or "", re.I) and len((body or "").strip()) < 120:
@@ -201,6 +225,7 @@ async def generate_feed_articles(
         "Return JSON {\"items\":[{\"headline\",\"teaser\",\"body\",\"sourceUrl\"}]}. "
         "Use ONLY facts from the provided notes. No invented years, albums, or events. "
         "Do NOT frame historical songs as brand-new releases, singles, or 'just dropped' news. "
+        "Do NOT write about Musescore uploads, generic online score availability, or low-value catalog listings. "
         "Prefer past-tense history, origin, and context (who wrote it, when it was known, notable versions). "
         "Headlines should read like encyclopedia/magazine background, not press releases."
     )

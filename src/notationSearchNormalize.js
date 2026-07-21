@@ -1,4 +1,5 @@
 import { musicXmlToAbc } from './musicXmlToAbc'
+import { isArchiveNotationHost } from './notationSearchSites'
 
 function hostFromUrl(url) {
   if (!url) return ''
@@ -21,6 +22,7 @@ function normalizeManualCandidate(raw) {
     source: typeof item.source === 'string' && item.source ? item.source : host,
     host: host,
     reason: typeof item.reason === 'string' ? item.reason : '',
+    accessTier: typeof item.accessTier === 'string' ? item.accessTier : '',
     contentType: typeof item.contentType === 'string' ? item.contentType : 'notation',
   }
 }
@@ -46,8 +48,20 @@ function abcPreview(abcText, maxLines) {
   return lines.slice(0, limit).join('\n')
 }
 
+function normalizePdfAttachment(raw) {
+  if (!raw || typeof raw !== 'object') return null
+  const downloadUrl = typeof raw.downloadUrl === 'string' ? raw.downloadUrl.trim() : ''
+  if (!downloadUrl) return null
+  return {
+    downloadUrl: downloadUrl,
+    filename: typeof raw.filename === 'string' ? raw.filename : 'score.pdf',
+    contentType: typeof raw.contentType === 'string' ? raw.contentType : 'application/pdf',
+    sourceUrl: typeof raw.sourceUrl === 'string' ? raw.sourceUrl : downloadUrl,
+  }
+}
+
 /**
- * If the query is a MuseScore.com score URL or a direct .mid/.midi URL, return it.
+ * If the query is a notation archive URL or direct score file URL, return it.
  */
 export function extractNotationSearchUrl(query) {
   const text = String(query || '').trim()
@@ -61,6 +75,17 @@ export function extractNotationSearchUrl(query) {
     }
     if (host === 'musescore.com' || host.endsWith('.musescore.com')) {
       return text
+    }
+    if (isArchiveNotationHost(host)) {
+      return text
+    }
+    if (path.endsWith('.musicxml') || path.endsWith('.mxl') || path.endsWith('.xml')) {
+      if (host === 'imslp.org' || host.endsWith('.imslp.org')
+        || host === 'cpdl.org' || host.endsWith('.cpdl.org')
+        || host === 'data.josqu.in'
+        || host === 'musicxml.com' || host.endsWith('.musicxml.com')) {
+        return text
+      }
     }
   } catch (e) {
     return ''
@@ -83,6 +108,35 @@ function convertMusicXmlCandidate(body) {
 }
 
 function normalizeSingleNotationResult(body) {
+  const pdfAttachment = normalizePdfAttachment(body && body.pdfAttachment)
+  const tuneMeta = body.tuneMeta && typeof body.tuneMeta === 'object' ? body.tuneMeta : null
+  const previewFromBody = typeof body.preview === 'string' && body.preview
+    ? body.preview
+    : ''
+
+  if (pdfAttachment) {
+    const out = {
+      abc: '',
+      source: typeof body.source === 'string' ? body.source : '',
+      sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
+      title: typeof body.title === 'string'
+        ? body.title
+        : (tuneMeta && tuneMeta.name ? String(tuneMeta.name) : ''),
+      artist: typeof body.artist === 'string'
+        ? body.artist
+        : (tuneMeta && tuneMeta.composer ? String(tuneMeta.composer) : ''),
+      preview: previewFromBody || 'Sheet PDF (no MusicXML)',
+      titleOnly: body.titleOnly === true,
+      tuneMeta: tuneMeta,
+      pdfAttachment: pdfAttachment,
+      importFormat: 'pdf',
+    }
+    if (typeof body.matchScore === 'number' && Number.isFinite(body.matchScore)) {
+      out.matchScore = body.matchScore
+    }
+    return out
+  }
+
   let abc = typeof body.abc === 'string' ? body.abc.trim() : ''
   if ((!abc || abc.indexOf('K:') === -1) && body && body.musicXml) {
     abc = convertMusicXmlCandidate(body) || ''
@@ -91,10 +145,7 @@ function normalizeSingleNotationResult(body) {
     throw new Error('Notation search returned no usable ABC')
   }
 
-  const tuneMeta = body.tuneMeta && typeof body.tuneMeta === 'object' ? body.tuneMeta : null
-  const preview = typeof body.preview === 'string' && body.preview
-    ? body.preview
-    : abcPreview(abc)
+  const preview = previewFromBody || abcPreview(abc)
 
   const out = {
     abc: abc,
@@ -130,6 +181,7 @@ export function normalizeNotationSearch(body) {
       multiple: false,
       empty: true,
       found: false,
+      musescorePaywalled: body.musescorePaywalled === true,
       manualCandidates: normalizeManualCandidates(body.manualCandidates),
     }
   }

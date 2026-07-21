@@ -175,3 +175,48 @@ async def ocr_openai_vision(image_bytes, filename, provider_cfg, timeout=180.0):
         "melody": None,
         "backend": "provider:" + (provider_cfg.get("provider") or "cloud"),
     }
+
+
+async def ocr_sheet_title_vision(image_bytes, filename, provider_cfg, timeout=90.0):
+    """Read title and composer from a sheet-music image (first page crop or full page)."""
+    if not provider_cfg or not provider_cfg.get("apiUrl"):
+        raise ValueError("Missing provider apiUrl")
+    mime = _guess_image_mime(filename)
+    b64 = base64.b64encode(image_bytes).decode("ascii")
+    data_url = "data:" + mime + ";base64," + b64
+    prompt = (
+        "This image is a page of sheet music. Return ONLY JSON with keys "
+        "title (string) and artist (string). "
+        "title should be the main tune name, usually the largest text near the top. "
+        "artist is the composer name if visible. Use empty strings when unsure."
+    )
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": prompt},
+                {"type": "image_url", "image_url": {"url": data_url}},
+            ],
+        }
+    ]
+    raw = await chat_openai_compat(messages, provider_cfg, timeout=timeout, temperature=0.1)
+    title = ""
+    artist = ""
+    try:
+        cleaned = raw.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
+            cleaned = re.sub(r"\s*```$", "", cleaned)
+        parsed = json.loads(cleaned)
+        if isinstance(parsed, dict):
+            title = str(parsed.get("title") or "").strip()
+            artist = str(parsed.get("artist") or "").strip()
+    except Exception:
+        title = ""
+        artist = ""
+    return {
+        "title": title,
+        "artist": artist,
+        "warnings": ["cloud_title_ocr"],
+        "source": "provider:" + (provider_cfg.get("provider") or "cloud"),
+    }

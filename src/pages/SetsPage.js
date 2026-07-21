@@ -4,6 +4,7 @@ import { Button, Form } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import GigModeModal from '../components/GigModeModal';
 import ShareTunebookModal from '../components/ShareTunebookModal';
+import VoiceFillInput from '../components/VoiceFillInput';
 import {
   listPerformanceSets,
   getPerformanceSet,
@@ -441,9 +442,15 @@ export default function SetsPage(props) {
         </div>
         <Form.Group className="mb-2">
           <Form.Label>Name</Form.Label>
-          <Form.Control value={draft.name || ''} onChange={function(e) {
+          <VoiceFillInput
+            value={draft.name || ''}
+            onChange={function(e) {
             setDraft(Object.assign({}, draft, { name: e.target.value }));
-          }} />
+          }}
+            fieldKind="search"
+            token={props.token}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+          />
         </Form.Group>
         <Form.Group className="mb-2">
           <Form.Label>Date</Form.Label>
@@ -463,12 +470,15 @@ export default function SetsPage(props) {
         <div className="sets-page-add-tune-panel">
           <Form.Label htmlFor="set-tune-search">Add tune</Form.Label>
           <div className="sets-page-add-tune-row">
-            <Form.Control
+            <VoiceFillInput
               id="set-tune-search"
               type="search"
               placeholder="Search by title, artist, book, or tag"
               value={tuneSearchText}
               onChange={function(e) { setTuneSearchText(e.target.value); }}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+              token={props.token}
+              fieldKind="search"
             />
             <Form.Select
               value={addTuneId}
@@ -544,12 +554,15 @@ export default function SetsPage(props) {
                       </Button>
                     )}
                   </span>
-                  <Form.Control
+                  <VoiceFillInput
                     size="sm"
-                    className="sets-page-set-item-note"
+                    inputClassName="sets-page-set-item-note"
                     placeholder="Note for this song"
                     value={item.note || ''}
                     onChange={function(e) { updateDraftTuneNote(index, e.target.value); }}
+                    fieldKind="search"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 </div>
                 <div className="sets-page-set-item-actions">
@@ -577,12 +590,16 @@ export default function SetsPage(props) {
   function renderSetSidebar() {
     return (
       <aside className="sets-page-sidebar">
-        <Form.Control
+        <VoiceFillInput
           type="search"
-          className="sets-sidebar-filter"
+          className="sets-sidebar-filter-group"
+          inputClassName="sets-sidebar-filter"
           placeholder="Search sets by name, date, or notes"
           value={setListFilterText}
           onChange={function(e) { setSetListFilterText(e.target.value); }}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+          token={props.token}
+          fieldKind="search"
         />
 
         {sets.length > 0 && (hasSetFilter || hiddenSetCount > 0 || canCollapseSetList) && (

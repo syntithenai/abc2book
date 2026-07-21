@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
+import VoiceFillInput from './VoiceFillInput'
 
 function ReviewNavigationModal(props) {
   const [show, setShow] = useState(false);
@@ -57,7 +58,16 @@ function ReviewNavigationModal(props) {
           <Modal.Title>Select a review tune</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <input type="search" value={filter} onChange={function(e) {setFilter(e.target.value)}}  />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={function(e) { setFilter(e.target.value) }}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           <ListGroup>
             {Array.isArray(props.reviewItems) && props.reviewItems.filter(function(item) {
                 if ((!filter || !filter.trim()) || item.name.toLowerCase().indexOf(filter.trim().toLowerCase()) !== -1) return true

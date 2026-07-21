@@ -1,7 +1,19 @@
 export const DEFAULT_GATE_THRESHOLD = 0.04
 export const HOLD_AFTER_MS = 300
 export const MEDIAN_WINDOW = 7
+export const BOWED_MEDIAN_WINDOW = 14
+export const BOWED_HOLD_AFTER_MS = 500
+export const BOWED_RECENT_CENTS_MAX = 40
 export const IN_TUNE_HOLD_MS = 400
+export const BOWED_IN_TUNE_HOLD_MS = 1400
+export const BOWED_IN_TUNE_MAX_STABILITY_CENTS = 4
+export const BOWED_MIN_STRING_DWELL_MS = 2000
+export const NOTE_STRIP_HOLD_MS = 280
+export const NOTE_STRIP_HOLD_MS_BOWED = 800
+
+const NOTE_NAMES = [
+  'C', 'C♯', 'D', 'D♯', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'A♯', 'B'
+]
 
 export function medianOf(values) {
   if (!values || !values.length) return null
@@ -30,6 +42,14 @@ export function formatDetectedNoteLabel(note) {
   return String(note.name || '') + String(octave)
 }
 
+export function formatDetectedFrequencyLabel(freq, a4) {
+  if (!freq || freq <= 0 || !Number.isFinite(freq)) return ''
+  const ref = a4 == null ? 440 : a4
+  const midi = Math.round(12 * (Math.log(freq / ref) / Math.log(2)) + 69)
+  const octave = Math.floor(midi / 12) - 1
+  return NOTE_NAMES[((midi % 12) + 12) % 12] + String(octave)
+}
+
 export function createPitchStabilizer(options) {
   const opts = options || {}
   let windowSize = opts.windowSize || MEDIAN_WINDOW
@@ -39,11 +59,17 @@ export function createPitchStabilizer(options) {
   let held = null
   let lastLiveAt = 0
   let recentCents = []
-  const recentCentsMax = opts.recentCentsMax || 24
+  let recentCentsMax = opts.recentCentsMax || 24
 
   return {
     setGateThreshold: function(threshold) {
       gateThreshold = threshold
+    },
+    configure: function(next) {
+      const cfg = next || {}
+      if (cfg.windowSize != null) windowSize = cfg.windowSize
+      if (cfg.holdAfterMs != null) holdAfterMs = cfg.holdAfterMs
+      if (cfg.recentCentsMax != null) recentCentsMax = cfg.recentCentsMax
     },
     reset: function() {
       freqWindow = []
@@ -100,6 +126,38 @@ export function createPitchStabilizer(options) {
         recentCents.push(cents)
         if (recentCents.length > recentCentsMax) recentCents.shift()
       }
+    }
+  }
+}
+
+export function createNoteStripController(options) {
+  const opts = options || {}
+  let holdMs = opts.holdMs != null ? opts.holdMs : NOTE_STRIP_HOLD_MS
+  let candidate = null
+  let candidateSince = 0
+  let displayed = null
+
+  return {
+    setHoldMs: function(ms) {
+      holdMs = ms
+    },
+    reset: function() {
+      candidate = null
+      candidateSince = 0
+      displayed = null
+    },
+    shouldUpdate: function(midi, isHeld, now) {
+      if (isHeld || midi == null || !Number.isFinite(midi)) return false
+      const t = now != null ? now : Date.now()
+      if (candidate !== midi) {
+        candidate = midi
+        candidateSince = t
+        return false
+      }
+      if (displayed === midi) return false
+      if (t - candidateSince < holdMs) return false
+      displayed = midi
+      return true
     }
   }
 }

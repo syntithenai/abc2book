@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkabc2book=self.webpackChunkabc2book||[]).push([[355],{80355:(e,k,o)=>{o.d(k,{pdfjs:()=>r.default});var r=o(51789);(0,o(78884).nk)(),r.default.GlobalWorkerOptions.workerSrc="pdf.worker.js"}}]);
+//# sourceMappingURL=355.ff996af9.chunk.js.map

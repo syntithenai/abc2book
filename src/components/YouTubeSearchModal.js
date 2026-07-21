@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import axios from 'axios'
 import Abc from './Abc'
+import VoiceFillInput from './VoiceFillInput'
 
 function YouTubeSearchModal(props) {
   const [show, setShow] = useState(false);
@@ -148,7 +149,18 @@ function YouTubeSearchModal(props) {
           
         </Modal.Header>
         <Modal.Body>
-          <input type='text' value={filter} onChange={filterChange}  onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}} onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}   />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="text"
+            value={filter}
+            onChange={filterChange}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
         </Modal.Body>
         <Modal.Footer>
           {(error && error.length > 0) && <b>{error}</b>} 

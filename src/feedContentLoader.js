@@ -1,7 +1,8 @@
 import { assertModuleQuality, assertUniqueModuleIds } from './feedContentQuality'
 import { PRACTICE_SETTINGS_STORAGE_KEY, loadPracticeSettings, clampSkillLevel } from './practiceSessionSettings'
 import { buildQuizBundle } from './feedQuizUtils'
-import { getTheoryLessonExample, getTheoryLessonExampleMeta } from './feedTheoryExamples'
+import { getTheoryLessonExample, getTheoryLessonExampleMeta, isImageTheoryExample } from './feedTheoryExamples'
+import { compressIllustrationPlan } from './feedFeedbackUtils'
 
 let contentCache = null
 
@@ -134,10 +135,17 @@ export function moduleToFeedItems(module) {
   }
   if (module.kind === 'theory_lesson') {
     const exMeta = getTheoryLessonExampleMeta(module.id)
-    const exAbc = getTheoryLessonExample(module.id)
-    if (exMeta && exMeta.caption) base.exampleCaption = exMeta.caption
-    if (exAbc) base.exampleAbc = exAbc
-    if (exMeta && exMeta.imageUrl) base.exampleImageUrl = exMeta.imageUrl
+    const usesImage = isImageTheoryExample(module.id, module)
+    if (exMeta && exMeta.illustrationPlan) {
+      base.exampleIllustrationPlan = exMeta.illustrationPlan
+      base.exampleCaption = compressIllustrationPlan(exMeta.illustrationPlan)
+    }
+    if (usesImage) {
+      if (exMeta && exMeta.imageUrl) base.exampleImageUrl = exMeta.imageUrl
+    } else {
+      const exAbc = getTheoryLessonExample(module.id)
+      if (exAbc) base.exampleAbc = exAbc
+    }
   }
   return [base]
 }

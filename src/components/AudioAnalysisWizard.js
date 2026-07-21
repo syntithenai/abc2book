@@ -17,6 +17,7 @@ import { captureGatedNote, playReferenceTone } from '../audioAnalysisCapture'
 import { captureTapImpulse, TAP_TARGET_COUNT, averageTapPeaks, labelLikelyModes } from '../audioAnalysisTapCapture'
 import { midiToFrequency, noteNameToMidi, simpleNoteLabel } from '../tunerTuningUtils'
 import { listAudioInputDevices } from '../tunerlib/app'
+import VoiceFillInput from './VoiceFillInput'
 
 const UNGROUPED = ''
 
@@ -363,11 +364,14 @@ export default function AudioAnalysisWizard(props) {
 
       <Form.Group className="mb-3">
         <Form.Label>Label</Form.Label>
-        <Form.Control
+        <VoiceFillInput
           value={label}
           onChange={function(e) { setLabel(e.target.value) }}
           placeholder={measurementMode === 'tap' ? 'e.g. Tap after post toward bridge' : 'e.g. Post toward bridge 1mm'}
           required
+          fieldKind="search"
+          token={props.token}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
       </Form.Group>
       <Form.Group className="mb-3">
@@ -378,11 +382,14 @@ export default function AudioAnalysisWizard(props) {
             return <option key={g.id} value={g.id}>{g.label}</option>
           })}
         </Form.Select>
-        <Form.Control
+        <VoiceFillInput
           className="mt-2"
           placeholder="Or create new group…"
           value={newGroupName}
           onChange={function(e) { setNewGroupName(e.target.value) }}
+          fieldKind="search"
+          token={props.token}
+          setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
         />
       </Form.Group>
       <Form.Group className="mb-3">

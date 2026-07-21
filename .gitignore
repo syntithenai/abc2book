@@ -93,3 +93,6 @@ local-resolver/whisper/models/
 # Downloaded MusyngKite soundfont bank (~1GB; Docker volume)
 local-resolver/soundfonts/
 *.bin
+
+# Theory example generator checkpoint (committed output is examples.js)
+src/feedContent/theory/examples.generated.json

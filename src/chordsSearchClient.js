@@ -1,3 +1,4 @@
+import { parseNdjsonLine } from './ndjsonParse'
 import { fetchViaMediaProxy, isMediaProxyConfigured, isMediaResolverInfrastructureError } from './mediaProxyClient'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { buildChordSheetAlignmentFromLines, sheetLinesToLyricLines, sheetLinesToWizardChords } from './chordSheetImportUtils'
@@ -167,7 +168,7 @@ async function parseStreamingChordsSearchResponse(response, onProgress) {
 
   function processLine(line) {
     if (!line.trim()) return
-    const parsed = handleChordsSearchStreamEvent(JSON.parse(line), onProgress)
+    const parsed = handleChordsSearchStreamEvent(parseNdjsonLine(line), onProgress)
     if (parsed) result = parsed
   }
 

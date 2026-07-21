@@ -2232,28 +2232,33 @@ The main difference between the two functions is the additional condition in app
         return abc
     }
 
-    function getMidiData(tune, outputType="binary") {
-        //console.log('getMidiData',tune)
+    function getMidiData(tune, outputType, options) {
         if (tune) {
+            var opts = options || {}
             var abc = getExportAbc(tune)
             if (!abc) return null
-            var a = new Date().getTime()
-            var midi = abcjs.synth.getMidiFile(abc, { chordsOff: false, midiOutputType: outputType });
+            var midiOpts = {
+                chordsOff: !!opts.notationFriendly,
+                midiOutputType: outputType || "binary",
+            }
+            var midi = abcjs.synth.getMidiFile(abc, midiOpts);
             return midi
         }
     }
-    
-    function downloadMidi(tune) {
-            var midi = getMidiData(tune)
+
+    function downloadMidi(tune, options) {
+            var opts = options || {}
+            var midi = getMidiData(tune, "binary", opts)
             if (!midi) {
                 throw new Error('Could not generate MIDI for "' + (tune && tune.name ? tune.name : 'tune') + '"')
             }
+            var suffix = opts.notationFriendly ? ".notation.mid" : ".midi"
             var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
             var a = document.createElement("a");
             document.body.appendChild(a);
             a.style = "display: none";
             a.href = url;
-            a.download = (tune.name ? tune.name : 'download') + ".midi";
+            a.download = (tune.name ? tune.name : 'download') + suffix;
             a.click();
             window.URL.revokeObjectURL(url);
             document.body.removeChild(a);

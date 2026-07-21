@@ -1,6 +1,7 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
 import { extractMusicXmlFromMxl, isMusicXmlText } from './mxlExtract';
-import { musicXmlToAbc } from './musicXmlToAbc';
+import { musicXmlToAbc, MIDI_XML2ABC_OPTIONS } from './musicXmlToAbc';
+import { importMidiToAbc } from './midiToAbcClient';
 
 export const MAX_MIDI_IMPORT_BYTES = 4 * 1024 * 1024;
 export const MAX_ABC_IMPORT_BYTES = 512 * 1024;
@@ -222,16 +223,47 @@ export async function importScoreFile(options) {
 
   if (format === 'midi') {
     if (typeof onProgress === 'function') {
-      onProgress('Converting MIDI to MusicXML...');
+      onProgress('Analyzing and converting MIDI...');
     }
     const buffer = await readFileAsArrayBuffer(file);
-    const musicXml = await midiToMusicXml(buffer, file.name, accessToken, signal);
-    warnings.push('MIDI import is experimental; note durations are quantized.');
-    if (typeof onProgress === 'function') {
-      onProgress('Converting MusicXML to ABC...');
+    const midiOpts = {
+      signal: signal,
+      mode: options.midiMode || null,
+      strategy: options.midiStrategy || 'auto',
+      includeChords: options.includeChords,
+      xml2abcOptions: Object.assign({}, MIDI_XML2ABC_OPTIONS, xml2abcOptions || {}, { fileName: file.name }),
+    };
+    const result = await importMidiToAbc(buffer, file.name, accessToken, midiOpts);
+    if (!result.abc || !result.abc.trim()) {
+      throw new Error('MIDI conversion produced no notation');
     }
-    const abc = musicXmlToAbc(musicXml, conversionOptions);
-    return { abc: abc, sourceFormat: 'midi', warnings: warnings };
+    warnings.push.apply(warnings, result.warnings || []);
+    if (result.confidence < 0.35) {
+      warnings.push('Low confidence import — review notation carefully');
+    }
+    if (result.chords && Array.isArray(result.chords.warnings)) {
+      warnings.push.apply(warnings, result.chords.warnings);
+    }
+    return {
+      abc: result.abc,
+      sourceFormat: 'midi',
+      warnings: warnings,
+      chordSegments: result.chordSegments,
+      harmonyAbc: result.harmonyAbc,
+      harmonyVoiceName: result.harmonyVoiceName,
+      chords: result.chords,
+      midiImport: {
+        strategy: result.strategy,
+        mode: result.mode,
+        confidence: result.confidence,
+        diagnostics: result.diagnostics,
+        profile: result.profile,
+        chords: result.chords,
+        chordSegments: result.chordSegments,
+        harmonyAbc: result.harmonyAbc,
+        harmonyVoiceName: result.harmonyVoiceName,
+      },
+    };
   }
 
   throw new Error('Unsupported score format');

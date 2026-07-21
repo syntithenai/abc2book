@@ -1,6 +1,7 @@
 import { Alert, Button, Form, Nav, Tab } from 'react-bootstrap';
 import TuneAliasesField from './TuneAliasesField';
 import KeySignatureInput from './KeySignatureInput';
+import VoiceFillInput from './VoiceFillInput';
 import { buildDraftFromSheetImageResult } from '../sheetImageImportUtils';
 import { formatSheetImageWarnings } from '../sheetImageFormatUtils';
 
@@ -91,18 +92,24 @@ export default function SheetImageTranscriptionPanel(props) {
           <div className="col-md-6">
             <Form.Group>
               <Form.Label>Title</Form.Label>
-              <Form.Control
+              <VoiceFillInput
                 value={metaTitle}
                 onChange={function(e) { updateMeta({ title: e.target.value }); }}
+                fieldKind="title"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               />
             </Form.Group>
           </div>
           <div className="col-md-6">
             <Form.Group>
               <Form.Label>Artist</Form.Label>
-              <Form.Control
+              <VoiceFillInput
                 value={metaArtist}
                 onChange={function(e) { updateMeta({ artist: e.target.value }); }}
+                fieldKind="composer"
+                token={props.token}
+                setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
               />
             </Form.Group>
           </div>

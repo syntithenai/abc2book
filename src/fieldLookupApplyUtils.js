@@ -3,6 +3,8 @@ import { setPlainLyricLines, lyricLinesToText, ensurePlainWordsFromNoteAlignedLy
 import { isUsableLyricContent } from './lyricsQualityUtils'
 import { needsComposerDiscovery } from './composerDiscoveryUtils'
 import { isGenericArtist } from './genericArtistUtils'
+import { applyNotationTuneMeta } from './notationImportUtils'
+import { applyNotationPdfCandidateToTune, isNotationPdfCandidate } from './notationPdfApply'
 
 export function fieldLookupKindToFormKey(kind) {
   if (kind === 'composer') return 'artist'
@@ -32,6 +34,9 @@ export function candidateDisplayValue(kind, candidate) {
     return String(candidate.chordText || candidate.preview || candidate.abc || '').trim()
   }
   if (kind === 'notation') {
+    if (isNotationPdfCandidate(candidate)) {
+      return String(candidate.preview || 'Sheet PDF').trim()
+    }
     return String(candidate.abc || candidate.preview || '').trim()
   }
   if (kind === 'links') {
@@ -140,6 +145,9 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     return true
   }
   if (kind === 'notation' && abcTools && typeof abcTools.abc2json === 'function') {
+    if (isNotationPdfCandidate(candidate)) {
+      return false
+    }
     const abc = String(candidate.abc || '').trim()
     if (!abc) return false
     const imported = abcTools.abc2json(abc)
@@ -233,6 +241,29 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     return true
   }
   return false
+}
+
+/**
+ * Async apply for notation PDF archive candidates (downloads via resolver proxy).
+ */
+export async function applyCandidateToTuneAsync(tune, kind, candidate, abcTools, options) {
+  if (!tune || !candidate) return false
+  if (kind === 'notation' && isNotationPdfCandidate(candidate)) {
+    try {
+      const applied = await applyNotationPdfCandidateToTune(tune, candidate, options || {})
+      if (applied) {
+        toast.info('Attached archive PDF to tune')
+      }
+      return applied
+    } catch (e) {
+      toast.error((e && e.message) || 'Could not attach archive PDF')
+      return false
+    }
+  }
+  if (kind === 'notation' && candidate.tuneMeta) {
+    applyNotationTuneMeta(tune, candidate.tuneMeta)
+  }
+  return applyCandidateToTune(tune, kind, candidate, abcTools)
 }
 
 export function historyLabelForKind(kind) {

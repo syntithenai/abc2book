@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
+import { Button, ListGroup, Modal } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { createQueue } from '../nowPlayingQueue'
 import ShareTunebookModal from './ShareTunebookModal'
+import VoiceFillInput from './VoiceFillInput'
 import { savePerformanceSet } from '../performanceSetStore'
 import {
   listSavedPlaylists,
@@ -49,6 +50,7 @@ export default function SavedPlaylistsOpenModal({
   token,
   login,
   googleDocumentId,
+  setBlockKeyboardShortcuts,
 }) {
   const navigate = useNavigate()
   const [playlists, setPlaylists] = useState([])
@@ -199,14 +201,17 @@ export default function SavedPlaylistsOpenModal({
           </div>
         ) : null}
 
-        <Form.Control
-          type="search"
+        <VoiceFillInput
           className="mb-3"
+          type="search"
           placeholder="Search playlists"
           value={search}
           onChange={function(e) { setSearch(e.target.value) }}
           data-testid="playlist-manager-search"
           aria-label="Search playlists"
+          setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
+          token={token}
+          fieldKind="search"
         />
 
         {playlists.length === 0 ? (

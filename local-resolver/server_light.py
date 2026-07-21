@@ -317,8 +317,55 @@ async def midi2xml(
         if file is None:
             raise HTTPException(status_code=400, detail="Missing MIDI file upload")
         data = await file.read()
-        xml = await convert_midi_to_musicxml(data, file.filename or "import.mid")
+        xml, _diagnostics = await convert_midi_to_musicxml(data, file.filename or "import.mid")
         return Response(content=xml, media_type="application/xml", headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.post("/midi2abc")
+async def midi2abc_light(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    mode: str | None = None,
+    strategy: str = "auto",
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        from midi_convert import MAX_MIDI_IMPORT_BYTES
+        from midi_import_orchestrator import import_midi_bytes
+        import asyncio
+
+        if file is None:
+            raise HTTPException(status_code=400, detail="Missing MIDI file upload")
+        data = await file.read()
+        if not data:
+            raise HTTPException(status_code=400, detail="MIDI file is empty")
+        if len(data) > MAX_MIDI_IMPORT_BYTES:
+            raise HTTPException(status_code=413, detail="MIDI file too large")
+
+        forced_mode = (mode or "").strip().lower() or None
+        if forced_mode not in (None, "melody", "multi_voice"):
+            forced_mode = None
+        include_chords_param = (request.query_params.get("include_chords") or "").strip().lower()
+        forced_include_chords = None
+        if include_chords_param in ("1", "true", "yes"):
+            forced_include_chords = True
+        elif include_chords_param in ("0", "false", "no"):
+            forced_include_chords = False
+        result = await asyncio.to_thread(
+            import_midi_bytes,
+            data,
+            file.filename or "import.mid",
+            mode=forced_mode,
+            strategy=(strategy or "auto").strip().lower() or "auto",
+            include_chords=forced_include_chords,
+        )
+        return JSONResponse(result, headers=cors_headers(origin))
     except HTTPException as exc:
         return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
     except Exception as exc:

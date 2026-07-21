@@ -118,6 +118,8 @@ export default function AudioAnalysisModal(props) {
               onChanged={bump}
               onNewSet={function() { setView('wizard') }}
               onCompare={function() { setView('compare') }}
+              token={props.token}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             />
           ) : null}
           {view === 'wizard' ? (
@@ -130,6 +132,8 @@ export default function AudioAnalysisModal(props) {
                 bump()
                 if (props.token && props.token.access_token) runSync(true)
               }}
+              token={props.token}
+              setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
             />
           ) : null}
           {view === 'compare' ? (

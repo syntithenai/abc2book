@@ -29,6 +29,8 @@ import { runFeedEnrichment } from '../feedEnrichmentClient'
 import { runFeedAiGeneration } from '../feedGenerationClient'
 import { runFeedMusixmatchEnrichment } from '../feedMusixmatchClient'
 import { planInjectWave, streamSeenMaps } from '../feedInjectUtils'
+import { isFeedFeedbackAdmin } from '../feedFeedbackUtils'
+import { downloadFeedFeedbackJson, getAllFeedFeedback, clearAllFeedFeedback } from '../feedFeedbackStore'
 
 const PAGE_SIZE = 10
 const INJECT_CAP = 3
@@ -81,11 +83,16 @@ export default function FeedPage(props) {
 
   const location = useLocation()
   const tunes = props.tunes || {}
+  const showFeedbackControls = isFeedFeedbackAdmin(props.user)
   const [stream, setStream] = useState([])
   const [pendingNew, setPendingNew] = useState([])
   const [expandedId, setExpandedId] = useState(null)
   const [quizDone, setQuizDone] = useState({})
   const [progress, setProgress] = useState(function() { return getFeedProgress() })
+  const [feedbackRevision, setFeedbackRevision] = useState(0)
+  const [feedbackCount, setFeedbackCount] = useState(function() {
+    return getAllFeedFeedback().length
+  })
   const [updating, setUpdating] = useState(false)
   const [ready, setReady] = useState(false)
   const [caughtUp, setCaughtUp] = useState(false)
@@ -335,8 +342,39 @@ export default function FeedPage(props) {
     setProgress(incrementLearned())
   }
 
+  function handleClearFeedback() {
+    if (!feedbackCount) return
+    if (!window.confirm('Clear all saved feed feedback? This cannot be undone.')) return
+    clearAllFeedFeedback()
+    setFeedbackCount(0)
+    setFeedbackRevision(function(n) { return n + 1 })
+  }
+
   return (
     <div className="feed-page" data-testid="feed-page">
+      {showFeedbackControls && feedbackCount > 0 ? (
+        <div className="feed-feedback-toolbar" data-testid="feed-feedback-toolbar">
+          <button
+            type="button"
+            className="feed-feedback-download"
+            data-testid="feed-feedback-download"
+            title="Download feedback JSON"
+            onClick={function() { downloadFeedFeedbackJson('feed-feedback.json') }}
+          >
+            Download feedback
+          </button>
+          <button
+            type="button"
+            className="feed-feedback-clear"
+            data-testid="feed-feedback-clear"
+            title="Clear all feedback"
+            aria-label="Clear all feedback"
+            onClick={handleClearFeedback}
+          >
+            ×
+          </button>
+        </div>
+      ) : null}
       <div className="feed-progress" data-testid="feed-progress">
         <span>Today {progress.learnedCount}/{FEED_DAILY_GOAL}</span>
       </div>
@@ -371,6 +409,11 @@ export default function FeedPage(props) {
             expanded={expandedId === item.id}
             tunes={tunes}
             tunebook={props.tunebook}
+            user={props.user}
+            feedbackSyncKey={feedbackRevision}
+            onFeedbackChange={function() {
+              setFeedbackCount(getAllFeedFeedback().length)
+            }}
             onExpand={handleExpand}
             onDismiss={handleDismiss}
             onQuizComplete={handleQuizComplete}

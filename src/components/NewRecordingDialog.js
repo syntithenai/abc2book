@@ -1,5 +1,6 @@
 import {useState, useEffect, useCallback} from 'react'
 import {Button, Modal, ListGroup, Form} from 'react-bootstrap'
+import VoiceFillInput from './VoiceFillInput'
 
 function NewRecordingDialog(props) {
   const { tunebook, recording: currentRecording } = props
@@ -108,7 +109,18 @@ function NewRecordingDialog(props) {
               
               <div style={{width:'100%', clear:'both', paddingTop:'1em'}} >
                 <h6>Select a Recording</h6>
-                 <input type="text" style={{width:'100%' ,clear:'both'}} value={searchText} onChange={function(e) {setSearchText(e.target.value)}} />
+                 <VoiceFillInput
+                   layout="wrap"
+                   className="w-100"
+                   style={{clear:'both'}}
+                   useFormControl={false}
+                   type="text"
+                   value={searchText}
+                   onChange={function(e) { setSearchText(e.target.value) }}
+                   setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                   token={props.token}
+                   fieldKind="search"
+                 />
                  <ListGroup className="recordings">
                 {recordings.map(function(recording, rk) {
                   return <ListGroup.Item onClick={function(e) {recordingSelected(recording)}} className={rk %2 === 1 ? 'odd' : 'even'} key={rk} >

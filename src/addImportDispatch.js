@@ -48,6 +48,9 @@ export function buildImportContext(opts) {
     maxCandidates: opts && opts.maxCandidates != null ? opts.maxCandidates : null,
     entryPoint: (opts && opts.entryPoint) || null,
     currentTuneId: (opts && opts.currentTuneId) || null,
+    midiMode: (opts && opts.midiMode) || null,
+    midiStrategy: (opts && opts.midiStrategy) || 'auto',
+    includeChords: opts && opts.includeChords !== undefined ? opts.includeChords : null,
   };
 }
 
@@ -125,6 +128,9 @@ function importOptionsFromContext(ctx) {
     book: ctx.book,
     accessToken: ctx.accessToken,
     resolverAvailable: ctx.resolverAvailable,
+    midiMode: ctx.midiMode || null,
+    midiStrategy: ctx.midiStrategy || 'auto',
+    includeChords: ctx.includeChords !== undefined ? ctx.includeChords : null,
   };
 }
 

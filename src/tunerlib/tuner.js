@@ -2,6 +2,8 @@
 
 //console.log("WWWWIN",window)
 
+import { rmsFromChannelData } from './tunerDisplayUtils.js'
+
 var aubio = window.aubio
 
 const Tuner = function(a4) {
@@ -73,9 +75,8 @@ Tuner.prototype.startRecord = function () {
       self.analyser.connect(self.scriptProcessor)
       self.scriptProcessor.connect(self.audioContext.destination)
       self.scriptProcessor.onaudioprocess = function(event) {
-        const frequency = self.pitchDetector.do(
-          event.inputBuffer.getChannelData(0)
-        )
+        const channelData = event.inputBuffer.getChannelData(0)
+        const frequency = self.pitchDetector.do(channelData)
         if (!frequency) return
         const note = self.getNote(frequency)
         const payload = {
@@ -83,7 +84,8 @@ Tuner.prototype.startRecord = function () {
           value: note,
           cents: self.getCents(frequency, note),
           octave: parseInt(note / 12) - 1,
-          frequency: frequency
+          frequency: frequency,
+          inputLevel: rmsFromChannelData(channelData)
         }
         if (self.onPitchSample) self.onPitchSample(payload)
         if (self.onNoteDetected) self.onNoteDetected(payload)
@@ -95,6 +97,17 @@ Tuner.prototype.startRecord = function () {
 }
 
 Tuner.prototype.init = function() {
+  if (this.audioContext && this.audioContext.state !== 'closed') {
+    if (this.pitchDetector) {
+      this.startRecord()
+      if (this.audioContext.state === 'suspended') {
+        this.audioContext.resume().catch(function() {})
+      }
+      return
+    }
+    this.stopInput()
+  }
+
   this.audioContext = new window.AudioContext()
   this.analyser = this.audioContext.createAnalyser()
   this.scriptProcessor = this.audioContext.createScriptProcessor(
@@ -114,6 +127,9 @@ Tuner.prototype.init = function() {
       self.audioContext.sampleRate
     )
     self.startRecord()
+    if (self.audioContext.state === 'suspended') {
+      self.audioContext.resume().catch(function() {})
+    }
   }).catch(function(e) {
     console.log('=aubio err',e)
   })

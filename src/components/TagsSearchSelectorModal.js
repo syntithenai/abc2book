@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup, Badge, ButtonGroup} from 'react-bootstrap'
+import VoiceFillInput from './VoiceFillInput'
 
 function TagsSearchSelectorModal(props) {
   const [show, setShow] = useState(false);
@@ -105,7 +106,18 @@ function TagsSearchSelectorModal(props) {
               return <Button key={selectedTag} style={{marginRight:'0.2em'}} variant="info" onClick={function(e) {deselectTag(selectedTag)}} >{props.tunebook.icons.closecircle}&nbsp;{String(selectedTag).toLowerCase()}</Button>
             })}</div>
             
-          <input type='search' value={filter} onChange={filterChange}  onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}} onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}  />
+          <VoiceFillInput
+            layout="wrap"
+            useFormControl={false}
+            type="search"
+            value={filter}
+            onChange={filterChange}
+            onFocus={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(true)}}
+            onBlur={function() {if (props.setBlockKeyboardShortcuts) props.setBlockKeyboardShortcuts(false)}}
+            setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+            token={props.token}
+            fieldKind="search"
+          />
           {(Array.isArray(sortedOptions) && sortedOptions.length === 0) && <Button onClick={function() {selectTag(filter)} } >Set</Button>}
         </Modal.Body>
         <Modal.Footer  >

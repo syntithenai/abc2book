@@ -52,3 +52,20 @@ export function scoreNotationCandidate(candidate, title, artist) {
   const matchArtist = item.artist || (meta && meta.composer) || ''
   return scoreTitleArtistMatch(matchTitle, matchArtist, title, artist)
 }
+
+export function shouldAutoApplyNotationCandidate(candidate, title, artist, options) {
+  const opts = options || {}
+  const songType = opts.songType || 'instrumental'
+  const item = candidate && typeof candidate === 'object' ? candidate : {}
+  const source = String(item.source || '').toLowerCase()
+  const artistKey = normalizeMatchText(artist)
+  const baseScore = scoreNotationCandidate(item, title, artist)
+
+  if (songType === 'song' && source === 'thesession.org') return false
+  if (artistKey && source === 'thesession.org' && baseScore < 80) return false
+  if (artistKey && baseScore > 0 && baseScore < 60) return false
+  if (!artistKey && baseScore > 0 && baseScore < 45) return false
+  if (baseScore === 0 && item.abc && !source) return true
+  if (baseScore === 0) return false
+  return true
+}

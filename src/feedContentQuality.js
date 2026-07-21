@@ -24,10 +24,19 @@ export function assertModuleQuality(module) {
     if (body.length < 400) errors.push('theory body too short')
     if (body.split(/\n\n+/).filter(Boolean).length < 2) errors.push('theory needs >=2 paragraphs')
     const exMeta = getTheoryLessonExampleMeta(module.id)
-    if (!exMeta || (!exMeta.abc && !exMeta.imageUrl)) {
-      errors.push('theory example (abc or image) required')
-    } else if (exMeta.kind !== 'image' && !getTheoryLessonExample(module.id) && !exMeta.imageUrl) {
-      errors.push('theory example abc must render')
+    if (!exMeta) {
+      errors.push('theory example required')
+    } else if (exMeta.kind !== 'none') {
+      if (!exMeta.abc && !exMeta.imageUrl) {
+        errors.push('theory example (abc or image) required')
+      } else {
+        if (!exMeta.illustrationPlan || exMeta.illustrationPlan.length < 40) {
+          errors.push('theory example illustrationPlan required (min 40 chars)')
+        }
+        if (exMeta.kind !== 'image' && !getTheoryLessonExample(module.id) && !exMeta.imageUrl) {
+          errors.push('theory example abc must render')
+        }
+      }
     }
     const quizzes = Array.isArray(module.quizzes) ? module.quizzes : []
     if (quizzes.length < 2) errors.push('theory needs >=2 quizzes')

@@ -346,7 +346,7 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
                 with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
-                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_midi_candidates", new=AsyncMock(return_value=[])):
                         result = await search_notation(
                             "Drowsy Maggie",
                             song_type="traditional_tune",
@@ -406,7 +406,7 @@ class NotationFetchAsyncTests(unittest.IsolatedAsyncioTestCase):
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=AsyncMock(return_value=[])):
                 with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
-                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_midi_candidates", new=AsyncMock(return_value=[])):
                         result = await search_notation("Snow On The Tracks", song_type="traditional_tune")
 
         self.assertIn("abc", result)
@@ -562,7 +562,7 @@ K:D
         with patch("notation_fetch.httpx.AsyncClient", return_value=FakeClient()):
             with patch("notation_fetch.collect_web_abc_candidates", new=fake_collect_web_abc_candidates):
                 with patch("notation_fetch.collect_musescore_candidates", new=AsyncMock(return_value=[])):
-                    with patch("notation_fetch.collect_web_midi_candidates", new=AsyncMock(return_value=[])):
+                    with patch("notation_fetch.collect_midi_candidates", new=AsyncMock(return_value=[])):
                         result = await search_notation(
                             "Bicycle Race",
                             artist="Queen",

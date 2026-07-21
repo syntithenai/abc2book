@@ -1,5 +1,7 @@
 import { parseBlob } from 'music-metadata-browser';
 
+export { isMidiImportFile } from './midiFileUtils';
+
 const AUDIO_EXTENSIONS = ['.mp3', '.flac', '.m4a', '.ogg', '.wav', '.aac', '.wma', '.opus', '.webm'];
 const VIDEO_EXTENSIONS = ['.mp4', '.mov', '.m4v', '.webm', '.mkv', '.avi'];
 const MIDI_EXTENSIONS = ['.mid', '.midi'];
@@ -36,8 +38,12 @@ export function videoFileAcceptList() {
   return VIDEO_EXTENSIONS.concat(VIDEO_MIME_TYPES).join(',');
 }
 
+export function midiFileAcceptList() {
+  return MIDI_EXTENSIONS.concat(MIDI_MIME_TYPES).join(',');
+}
+
 export function mediaFileAcceptList() {
-  return audioFileAcceptList() + ',' + videoFileAcceptList();
+  return audioFileAcceptList() + ',' + videoFileAcceptList() + ',' + midiFileAcceptList();
 }
 
 export function isVideoImportFile(file) {

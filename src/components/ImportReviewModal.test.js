@@ -411,6 +411,9 @@ describe('ImportReviewModal', function() {
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
     expect(addButton.disabled).toBe(true);
+    const hint = view.container.querySelector('[data-testid="add-tune-requirement-hint"]');
+    expect(hint).toBeTruthy();
+    expect(hint.textContent).toContain('title and composer');
 
     await view.unmount();
   });
@@ -485,7 +488,47 @@ describe('ImportReviewModal', function() {
     await bulkView.unmount();
   });
 
-  test('Add enables when title is filled', async function() {
+  test('inline chordpro import fills Add form fields after session update', async function() {
+    const view = renderModal();
+    const blank = createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' });
+    const session = createImportReviewSession([blank], { entryMode: 'add' });
+    const props = buildProps({
+      session: session,
+      currentTuneBook: 'songs',
+    });
+
+    await view.render(props);
+
+    const imported = Object.assign({}, blank, {
+      sourceKind: 'chordsheet',
+      tune: Object.assign({}, blank.tune, {
+        name: 'Amazing Grace',
+        composer: 'John Newton',
+        words: ['[G]Amazing grace how [C]sweet the sound'],
+      }),
+      pendingInlineSuggestions: {},
+      inlineFormValues: {
+        title: 'Amazing Grace',
+        artist: 'John Newton',
+        lyrics: '[G]Amazing grace how [C]sweet the sound',
+      },
+      inlineImportRevision: 1,
+    });
+    const nextSession = Object.assign({}, session, {
+      candidates: [imported],
+    });
+
+    await view.render(Object.assign({}, props, { session: nextSession }));
+
+    const titleInput = view.container.querySelector('[data-testid="add-tune-title"]');
+    const composerInput = view.container.querySelector('[data-testid="add-tune-composer"]');
+    expect(titleInput && titleInput.value).toBe('Amazing Grace');
+    expect(composerInput && composerInput.value).toBe('John Newton');
+
+    await view.unmount();
+  });
+
+  test('Add stays disabled when only title is filled', async function() {
     const view = renderModal();
     const session = createImportReviewSession(
       [createBlankAddCandidate({ book: 'songs', candidateId: 'add-1' })],
@@ -509,7 +552,10 @@ describe('ImportReviewModal', function() {
 
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
-    expect(addButton.disabled).toBe(false);
+    expect(addButton.disabled).toBe(true);
+    const hint = view.container.querySelector('[data-testid="add-tune-requirement-hint"]');
+    expect(hint).toBeTruthy();
+    expect(hint.textContent).toContain('composer');
 
     await view.unmount();
   });
@@ -539,6 +585,7 @@ describe('ImportReviewModal', function() {
     const addButton = view.container.querySelector('[data-testid="add-tune-save"]');
     expect(addButton).toBeTruthy();
     expect(addButton.disabled).toBe(false);
+    expect(view.container.querySelector('[data-testid="add-tune-requirement-hint"]')).toBeFalsy();
 
     await view.unmount();
   });

@@ -3,6 +3,7 @@ import {Button, Form} from 'react-bootstrap'
 import {useState, useEffect, useRef} from 'react'
 import WaveformPlaylist from "waveform-playlist";
 import NewRecordingDialog from '../components/NewRecordingDialog'
+import VoiceFillInput from '../components/VoiceFillInput'
 import {isMobile} from 'react-device-detect';
 import MP3Converter from "../MP3Converter";
 
@@ -295,8 +296,12 @@ export default function RecordingPage(props) {
                 
               </div>  
               <div>
-                <input type='text' value={recordingTitle} 
-                  
+                <VoiceFillInput
+                  layout="wrap"
+                  useFormControl={false}
+                  type="text"
+                  style={{width:'80%'}}
+                  value={recordingTitle}
                   onChange={function(e) {
                     setRecordingTitle(e.target.value)
                     clearTimeout(titleChangeTimeout.current)
@@ -304,14 +309,15 @@ export default function RecordingPage(props) {
                       props.tunebook.recordingsManager.updateRecordingTitle(Object.assign({},
                         recording,
                         {title: e.target.value}))
-                      .then(function() { 
+                      .then(function() {
                         //console.log('updated')
                       })
                     },500)
-                    
-                    
-                    
-                  }} style={{width:'80%'}} />
+                  }}
+                  fieldKind="title"
+                  token={props.token}
+                  setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+                />
               </div>
             <div className="loading-data"></div>
             

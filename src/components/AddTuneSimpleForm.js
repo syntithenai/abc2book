@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import { Button, ButtonGroup, Col, Form, InputGroup, ListGroup, Row, Spinner } from 'react-bootstrap'
 import CapitalizeTitleButton from './CapitalizeTitleButton'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
+import VoiceFillInput from './VoiceFillInput'
 import BookSelectorModal from './BookSelectorModal'
 import TagsSelectorModal from './TagsSelectorModal'
 import SelectInput from './SelectInput'
@@ -356,10 +357,13 @@ export default function AddTuneSimpleForm(props) {
                     />
                   </ButtonGroup>
                 ) : (
-                  <Form.Control
+                  <VoiceFillInput
                     value={bookList}
                     placeholder="comma separated"
                     onChange={function(e) { setField('bookList', e.target.value) }}
+                    fieldKind="search"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 )}
               </div>
@@ -386,10 +390,13 @@ export default function AddTuneSimpleForm(props) {
                     })}
                   </div>
                 ) : (
-                  <Form.Control
+                  <VoiceFillInput
                     value={tagList}
                     placeholder="comma separated"
                     onChange={function(e) { setField('tagList', e.target.value) }}
+                    fieldKind="search"
+                    token={props.token}
+                    setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                   />
                 )}
               </div>

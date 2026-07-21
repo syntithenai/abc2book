@@ -9,6 +9,7 @@ import useAudioUtils from '../useAudioUtils'
 import QuickPlayButton from '../components/QuickPlayButton'
 import FileNameEditorModal from '../components/FileNameEditorModal'
 import FileInputButton from './FileInputButton'
+import VoiceFillInput from './VoiceFillInput'
 
 export default function RecordingsManager(props) {
 	var allowedMimeTypes = ['audio/*'] //application/musicxml
@@ -84,7 +85,16 @@ export default function RecordingsManager(props) {
 		
 		{fileManager.warning && <div style={{fontSize:'1.3em', color:'red', backgroundColor:'pink', minWidth:'10em', clear:'both'}} >{fileManager.warning}</div>}
 		
-		<input type='search' value={fileManager.filter} onChange={function(e) {fileManager.setFilter(e.target.value)}} />
+		<VoiceFillInput
+			layout="wrap"
+			useFormControl={false}
+			type="search"
+			value={fileManager.filter}
+			onChange={function(e) { fileManager.setFilter(e.target.value) }}
+			setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
+			token={props.token}
+			fieldKind="search"
+		/>
 		</div>
 		
 		<ListGroup style={{marginTop:'1em'}} >
