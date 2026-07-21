@@ -72,8 +72,44 @@ describe('practiceWarmupGenerator', function() {
     const eligible = getWarmupCatalogEntries('violin', 8)
     const ids = eligible.map(function(item) { return item.id })
     expect(ids.some(function(id) {
-      return id.indexOf('dotted') !== -1 || id.indexOf('jig') !== -1 || id.indexOf('syncopated') !== -1
+      return id.indexOf('dotted') !== -1 || id.indexOf('swing') !== -1 || id.indexOf('syncopated') !== -1
     })).toBe(true)
+  })
+
+  it('never uses quavers or shorter in warmup ABC', function() {
+    ;[1, 5, 10].forEach(function(skill) {
+      const warmups = selectWarmupsForSession('G', skill, { tempo: 90, instrument: 'violin' }, 5)
+      warmups.forEach(function(w) {
+        expect(w.abc).toContain('L:1/4')
+        expect(w.abc).not.toMatch(/L:1\/8/)
+        // Duration suffixes /2 and /3 would be quaver/triplet relative to L:1/4
+        const body = w.abc.split('\n').filter(function(line) {
+          return line && !/^[A-Za-z%]:/.test(line) && line.indexOf('w:') !== 0
+        }).join(' ')
+        // Quaver suffix is /2 after a pitch (not the 3/2 dotted-crotchet form)
+        expect(body).not.toMatch(/[A-Ga-g][,']*\/2/)
+        expect(body).not.toMatch(/\/3/)
+      })
+    })
+  })
+
+  it('slows tempo for varied rhythm warmups', function() {
+    const dotted = getWarmupCatalogEntries('violin', 8).find(function(item) {
+      return item.id.indexOf('dotted') !== -1
+    })
+    expect(dotted).toBeTruthy()
+    // Force selection by building through select with enough picks and checking Q
+    let foundSlower = false
+    for (let i = 0; i < 20 && !foundSlower; i++) {
+      const warmups = selectWarmupsForSession('C', 8, { tempo: 100, instrument: 'violin' }, 6)
+      warmups.forEach(function(w) {
+        if (w.id.indexOf('dotted') !== -1 || w.id.indexOf('swing') !== -1 || w.id.indexOf('mixed') !== -1) {
+          expect(w.abc).toMatch(/Q:1\/4=70/)
+          foundSlower = true
+        }
+      })
+    }
+    expect(foundSlower).toBe(true)
   })
 
   it('uses lower register for cello than violin', function() {

@@ -85,6 +85,10 @@ Application.prototype.stopReference = function() {
   if (this.tuner) this.tuner.stop()
 }
 
+Application.prototype.stopInput = function() {
+  if (this.tuner) this.tuner.stopInput()
+}
+
 Application.prototype.toggleAutoMode = function() {
   this.notes.toggleAutoMode()
 }

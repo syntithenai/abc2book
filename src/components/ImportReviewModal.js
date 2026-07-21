@@ -335,7 +335,7 @@ export default function ImportReviewModal(props) {
   const resolverAvailable = props.resolverAvailable !== false;
   const audioUtils = useAudioUtils();
   const abcjsParser = useAbcjsParser();
-  const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh);
+  const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const { checked: resolverChecked } = useMediaResolverHealth();
   const fileInputRef = useRef(null);
   const recordingStartedAtRef = useRef(0);
@@ -1489,6 +1489,7 @@ export default function ImportReviewModal(props) {
       tunes={tunes}
       token={props.token}
       login={props.login}
+      logout={props.logout}
       requestGoogleScopes={props.requestGoogleScopes}
       forceRefresh={props.forceRefresh}
       currentTuneBook={props.currentTuneBook}

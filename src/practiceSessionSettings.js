@@ -242,14 +242,12 @@ export function getWarmupOptionsForSkill(skillLevel, baseOptions) {
   const tempo = isVoice
     ? 52 + skill * 3
     : 70 + skill * 4
-  const noteLength = isVoice
-    ? '1/4'
-    : (skill <= 4 ? '1/4' : '1/8')
+  // Warmups stay on crotchet unit so catalog DUR suffixes never collapse to quavers.
   return Object.assign({}, opts, {
     skillLevel: skill,
     instrument: instrument,
     tempo: tempo,
-    noteLength: noteLength,
+    noteLength: '1/4',
   })
 }
 

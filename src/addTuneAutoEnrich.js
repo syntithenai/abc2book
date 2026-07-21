@@ -2,12 +2,14 @@ import { searchChords } from './chordsSearchClient'
 import { searchLyrics } from './lyricsSearchClient'
 import { searchNotation } from './notationSearchClient'
 import { commitChordSearchResultToTune } from './commitChordSearchResultToTune'
-import { pickNotationPasteCandidate } from './chordSearchSites'
+import { pickChordPasteCandidate, pickNotationPasteCandidate } from './chordSearchSites'
 import {
   applyCandidateToTune,
   historyLabelForKind,
   isTuneFieldEmptyForKind,
 } from './fieldLookupApplyUtils'
+import { noteLinesHaveRealMelody } from './timedImportFinalizer'
+import { getPlainLyricLines } from './wLinesUtils'
 
 const enrichByTuneId = {}
 const listeners = new Set()
@@ -184,6 +186,25 @@ function notationLooksReplaceable(tune) {
   return hasOnlyRests
 }
 
+/**
+ * When MuseScore (or other real melody) and lyrics are already on the tune,
+ * Ultimate Guitar paste should update chords/lyrics only — not rebuild ABC.
+ */
+export function shouldSkipAbcMergeForChordPaste(tune) {
+  if (!tune) return false
+  const voices = tune.voices && typeof tune.voices === 'object' ? tune.voices : null
+  const noteLines = []
+  if (voices) {
+    Object.keys(voices).forEach(function(key) {
+      const notes = voices[key] && Array.isArray(voices[key].notes) ? voices[key].notes : []
+      notes.forEach(function(line) { noteLines.push(line) })
+    })
+  }
+  if (!noteLinesHaveRealMelody(noteLines)) return false
+  const lyrics = getPlainLyricLines(tune)
+  return lyrics.some(function(line) { return String(line || '').trim() })
+}
+
 function saveAppliedCandidate(tune, kind, candidate, tunebook, forceRefresh) {
   const applied = applyCandidateToTune(tune, kind, candidate, tunebook && tunebook.abcTools)
   if (!applied) return false
@@ -249,6 +270,7 @@ export async function runAddTuneAutoEnrich(options) {
   let lyricsSearchFailed = false
   let notationSearchFailed = false
   let notationAttempted = false
+  let chordManualCandidates = []
   let notationManualCandidates = []
 
   try {
@@ -322,6 +344,7 @@ export async function runAddTuneAutoEnrich(options) {
       const chordResult = await chordPromise
       chordFrac = 1
       emitParallelProgress()
+      chordManualCandidates = manualCandidatesFromSearchResult(chordResult)
       const chordCandidate = pickFirstSearchCandidate(chordResult)
       if (chordCandidate) {
         updateState(tuneId, {
@@ -426,33 +449,42 @@ export async function runAddTuneAutoEnrich(options) {
 
     return true
   } finally {
-    // Do not prompt Ultimate Guitar on add-tune enrich: lyrics are already
-    // applied when available, and UG often surfaces non-chord pages for
-    // classical works. Chords can still be pasted via the editor tools.
+    const stillNeedsChords = !chordApplied && isTuneFieldEmptyForKind(tune, 'chords')
     const stillNeedsNotation = notationAttempted
       && !notationApplied
       && notationLooksReplaceable(tune)
     const notationPasteCandidate = stillNeedsNotation
       ? pickNotationPasteCandidate(notationManualCandidates, title, artist)
       : null
+    const chordPasteCandidate = stillNeedsChords && lyricApplied
+      ? pickChordPasteCandidate(chordManualCandidates, title, artist)
+      : null
     const bothFailed = lyricsSearchFailed
       && (notationAttempted ? notationSearchFailed : false)
       && !notationPasteCandidate
+      && !chordPasteCandidate
 
-    if (notationPasteCandidate) {
+    if (notationPasteCandidate || chordPasteCandidate) {
+      const messages = []
+      if (notationPasteCandidate) {
+        messages.push(notationPasteCandidate.searchFallback
+          ? 'No downloadable notation was found automatically. Search MuseScore and import MusicXML, .mxl, .mscz, or MIDI (paste or choose file).'
+          : 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.')
+      }
+      if (chordPasteCandidate) {
+        messages.push('Lyrics found, but chords need a manual paste from Ultimate Guitar.')
+      }
       updateState(tuneId, {
         pending: false,
         progress: 100,
-        message: notationPasteCandidate.searchFallback
-          ? 'No downloadable notation was found automatically. Search MuseScore and import MusicXML, .mxl, .mscz, or MIDI.'
-          : 'Notation was found on MuseScore, but needs a manual download (MusicXML, .mxl, .mscz, or MIDI) or paste.',
+        message: messages.join(' '),
         failure: '',
-        needsChordPaste: false,
-        chordPasteCandidate: null,
-        chordManualCandidates: [],
-        needsNotationPaste: true,
+        needsChordPaste: !!chordPasteCandidate,
+        chordPasteCandidate: chordPasteCandidate,
+        chordManualCandidates: chordPasteCandidate ? chordManualCandidates.slice() : [],
+        needsNotationPaste: !!notationPasteCandidate,
         notationPasteCandidate: notationPasteCandidate,
-        notationManualCandidates: notationManualCandidates.slice(),
+        notationManualCandidates: notationPasteCandidate ? notationManualCandidates.slice() : [],
       })
     } else if (bothFailed) {
       updateState(tuneId, {

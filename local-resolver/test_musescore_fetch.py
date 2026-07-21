@@ -6,11 +6,13 @@ from unittest.mock import AsyncMock, patch
 from musescore_fetch import (
     MuseScoreDownloadUnavailable,
     annotate_musescore_candidate,
+    build_librescore_cli_command,
     build_musescore_search_queries,
     extract_musicxml_download_urls,
     extract_musicxml_from_mxl_bytes,
     extract_musescore_page_meta,
     is_musescore_url,
+    librescore_input_urls,
     musescore_urls_from_search_results,
     page_looks_paywalled,
     parse_musescore_score_url,
@@ -127,6 +129,29 @@ class MuseScoreFetchTests(unittest.TestCase):
         self.assertEqual(candidate["abc"], "")
         self.assertEqual(candidate["tuneMeta"]["meta"]["musescore_score_id"], "2")
 
+    def test_librescore_cli_uses_dash_i_flags(self):
+        cmd = build_librescore_cli_command(
+            "https://musescore.com/user/1/scores/9",
+            "/tmp/out",
+            ("midi",),
+        )
+        self.assertEqual(cmd[0], "npx")
+        self.assertIn("--yes", cmd)
+        self.assertIn("dl-librescore@latest", cmd)
+        self.assertIn("-i", cmd)
+        self.assertIn("https://musescore.com/user/1/scores/9", cmd)
+        self.assertIn("-t", cmd)
+        self.assertIn("midi", cmd)
+        self.assertIn("-o", cmd)
+        self.assertIn("/tmp/out", cmd)
+        # Must not use legacy positional URL before flags.
+        self.assertNotEqual(cmd[2], "https://musescore.com/user/1/scores/9")
+
+    def test_librescore_input_urls_prefer_page_url(self):
+        urls = librescore_input_urls("9", "https://musescore.com/user/1/scores/9")
+        self.assertEqual(urls[0], "https://musescore.com/user/1/scores/9")
+        self.assertIn("https://musescore.com/score/9", urls)
+
 
 class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
     async def test_search_notation_merges_musescore_and_succeeds_when_gated(self):
@@ -217,9 +242,67 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
                 final_url="https://musescore.com/user/1/scores/9",
                 blocked_reason="none",
             ),
+        ), patch(
+            "musescore_fetch.fetch_musescore_url_with_librescore",
+            new_callable=AsyncMock,
+            side_effect=MuseScoreDownloadUnavailable("librescore miss", source="librescore"),
         ):
             with self.assertRaises(MuseScoreDownloadUnavailable):
                 await fetch_musescore_url("https://musescore.com/user/1/scores/9")
+
+    async def test_fetch_musescore_url_uses_librescore_when_no_download_urls(self):
+        from musescore_fetch import fetch_musescore_url
+        from polite_fetch import FetchResult
+
+        page_html = """
+        <html><head><meta property="og:title" content="Gated Tune"/></head>
+        <body><p>View score online</p></body></html>
+        """
+        with patch(
+            "musescore_fetch.fetch_html_with_fallback",
+            new_callable=AsyncMock,
+            return_value=FetchResult(
+                status=200,
+                text=page_html,
+                final_url="https://musescore.com/user/1/scores/9",
+                blocked_reason="none",
+            ),
+        ), patch(
+            "musescore_fetch.fetch_musescore_url_with_librescore",
+            new_callable=AsyncMock,
+            return_value=MINIMAL_MUSICXML,
+        ) as librescore:
+            result = await fetch_musescore_url("https://musescore.com/user/1/scores/9")
+
+        librescore.assert_awaited()
+        self.assertEqual(result["source"], "librescore")
+        self.assertIn("<score-partwise", result["musicXml"])
+        self.assertEqual(result["title"], "Gated Tune")
+
+    async def test_fetch_musescore_url_uses_librescore_on_403(self):
+        from musescore_fetch import fetch_musescore_url
+        from polite_fetch import FetchResult
+
+        with patch(
+            "musescore_fetch.fetch_html_with_fallback",
+            new_callable=AsyncMock,
+            return_value=FetchResult(
+                status=403,
+                text="Forbidden",
+                final_url="https://musescore.com/user/1/scores/9",
+                blocked_reason="http_status",
+            ),
+        ), patch(
+            "musescore_fetch.fetch_musescore_url_with_librescore",
+            new_callable=AsyncMock,
+            return_value=MINIMAL_MUSICXML,
+        ) as librescore:
+            result = await fetch_musescore_url("https://musescore.com/user/1/scores/9")
+
+        librescore.assert_awaited()
+        kwargs = librescore.await_args.kwargs
+        self.assertEqual(kwargs.get("score_id"), "9")
+        self.assertEqual(result["source"], "librescore")
 
     async def test_fetch_musescore_url_public_mxl(self):
         from musescore_fetch import fetch_musescore_url
@@ -252,12 +335,16 @@ class MuseScoreNotationCascadeTests(unittest.IsolatedAsyncioTestCase):
         ), patch(
             "musescore_fetch.httpx.AsyncClient",
             return_value=fake_client,
-        ):
+        ), patch(
+            "musescore_fetch.fetch_musescore_url_with_librescore",
+            new_callable=AsyncMock,
+        ) as librescore:
             # httpx.AsyncClient used as context manager in fetch_musescore_url when client is None
             fake_client.__aenter__ = AsyncMock(return_value=fake_client)
             fake_client.__aexit__ = AsyncMock(return_value=False)
             result = await fetch_musescore_url("https://musescore.com/user/1/scores/9")
 
+        librescore.assert_not_awaited()
         self.assertEqual(result["source"], "musescore.com")
         self.assertIn("<score-partwise", result["musicXml"])
         self.assertEqual(result["title"], "Public Tune")

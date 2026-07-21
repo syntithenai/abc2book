@@ -1,6 +1,6 @@
 import {
   DEFAULT_TUNING_PRESET_ID,
-  TUNER_INSTRUMENTS,
+  CHORD_TUNER_INSTRUMENTS,
   defaultChordTuningForInstrument
 } from './instrumentTuningPresets.js'
 
@@ -13,7 +13,7 @@ export const CHORD_LETTER_MAP_COMPLETE = {
   'Bb': 'A#', 'Eb': 'D#', 'Ab': 'G#', 'Db': 'C#', 'Gb': 'F#'
 }
 
-export const INSTRUMENTS = TUNER_INSTRUMENTS
+export const INSTRUMENTS = CHORD_TUNER_INSTRUMENTS
 
 export const INSTRUMENT_LABELS = {
   guitar: 'Guitar',
@@ -34,7 +34,14 @@ export const INSTRUMENT_TUNINGS = {
   bouzouki: defaultChordTuningForInstrument('bouzouki')
 }
 
-export const DEFAULT_INSTRUMENT_TUNING_PRESET = DEFAULT_TUNING_PRESET_ID
+export const DEFAULT_INSTRUMENT_TUNING_PRESET = {
+  guitar: DEFAULT_TUNING_PRESET_ID.guitar,
+  mandolin: DEFAULT_TUNING_PRESET_ID.mandolin,
+  uke: DEFAULT_TUNING_PRESET_ID.uke,
+  banjo4: DEFAULT_TUNING_PRESET_ID.banjo4,
+  banjo5: DEFAULT_TUNING_PRESET_ID.banjo5,
+  bouzouki: DEFAULT_TUNING_PRESET_ID.bouzouki
+}
 
 export const BANJO5_DRONE_STRING_INDEX = 0
 export const BANJO5_DRONE_MIN_FRET = 7

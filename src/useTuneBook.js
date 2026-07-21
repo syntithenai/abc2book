@@ -2244,20 +2244,19 @@ The main difference between the two functions is the additional condition in app
     }
     
     function downloadMidi(tune) {
-            //console.log('DL')
             var midi = getMidiData(tune)
-            console.log(new Date().getTime() - a,"ms to render midi")
-            //document.getElementById("midi-link").innerHTML = midi;
-            if (midi) { 
-                var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
-                var a = document.createElement("a");
-                document.body.appendChild(a);
-                a.style = "display: none";
-                a.href = url;
-                a.download = (tune.name ? tune.name : 'download') + ".midi";
-                a.click();
-                window.URL.revokeObjectURL(url);
+            if (!midi) {
+                throw new Error('Could not generate MIDI for "' + (tune && tune.name ? tune.name : 'tune') + '"')
             }
+            var url = window.URL.createObjectURL(new Blob(midi, {type: 'audio/midi'}));
+            var a = document.createElement("a");
+            document.body.appendChild(a);
+            a.style = "display: none";
+            a.href = url;
+            a.download = (tune.name ? tune.name : 'download') + ".midi";
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
         }
     
 

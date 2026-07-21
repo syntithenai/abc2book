@@ -7,7 +7,9 @@ import {
 } from './mxlExtract';
 import { musicXmlToAbc } from './musicXmlToAbc';
 import { detectScoreFormat } from './scoreImportClient';
-import { MINIMAL_MUSICXML } from './__fixtures__/musicXmlSamples';
+import { MINIMAL_MUSICXML, MUSICXML_WITH_NOTE_LYRICS } from './__fixtures__/musicXmlSamples';
+import { abcTextToCandidates } from './importSourceParse';
+import useAbcTools from './useAbcTools';
 
 describe('mxlExtract', function() {
   test('isMusicXmlText detects xml and score-partwise', function() {
@@ -38,12 +40,36 @@ describe('musicXmlToAbc', function() {
     expect(abc.indexOf('M:4/4')).toBeGreaterThan(-1);
   });
 
+  test('converts note lyrics to ABC w: lines', function() {
+    const abc = musicXmlToAbc(MUSICXML_WITH_NOTE_LYRICS, { fileName: 'hello-lyrics.xml' });
+    expect(abc).toMatch(/^w:/m);
+    expect(abc.toLowerCase()).toMatch(/hel/);
+    expect(abc.toLowerCase()).toMatch(/lo/);
+    expect(abc.toLowerCase()).toMatch(/world/);
+  });
+
   test('rejects empty input', function() {
     expect(function() { musicXmlToAbc(''); }).toThrow('empty');
   });
 
   test('rejects invalid xml', function() {
     expect(function() { musicXmlToAbc('<not-xml'); }).toThrow();
+  });
+});
+
+describe('score import captures note-aligned lyrics', function() {
+  const abcTools = useAbcTools();
+
+  test('MusicXML lyrics become wLines and derived words on candidates', function() {
+    const abc = musicXmlToAbc(MUSICXML_WITH_NOTE_LYRICS, { fileName: 'hello-lyrics.xml' });
+    const candidates = abcTextToCandidates(abc, { abcTools: abcTools }, '');
+    expect(candidates.length).toBeGreaterThan(0);
+    const tune = candidates[0].tune;
+    expect(Array.isArray(tune.wLines) && tune.wLines.length).toBeTruthy();
+    expect(tune.wLines.join(' ').toLowerCase()).toMatch(/hel/);
+    expect(Array.isArray(tune.words) && tune.words.length).toBeTruthy();
+    expect(tune.words.join(' ').toLowerCase()).toMatch(/hello/);
+    expect(tune.words.join(' ').toLowerCase()).toMatch(/world/);
   });
 });
 

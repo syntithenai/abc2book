@@ -1,10 +1,19 @@
-import { validateContentBundle, clearFeedContentCache, loadFeedContentModules, modulesForSkill } from './feedContentLoader'
+import {
+  validateContentBundle,
+  clearFeedContentCache,
+  loadFeedContentModules,
+  modulesForSkill,
+  getEffectiveTheorySkill,
+  skillDifficultyWindow,
+} from './feedContentLoader'
 import { assertModuleQuality } from './feedContentQuality'
 import { FEED_CONTENT_GOLDENS } from './feedContent/goldens'
+import { PRACTICE_SETTINGS_STORAGE_KEY } from './practiceSessionSettings'
 
 describe('feedContent quality', function() {
   beforeEach(function() {
     clearFeedContentCache()
+    localStorage.removeItem(PRACTICE_SETTINGS_STORAGE_KEY)
   })
 
   it('loads modules and passes quality gate', async function() {
@@ -40,6 +49,20 @@ describe('feedContent quality', function() {
     expect(at0.every(function(m) { return m.difficulty <= 1 })).toBe(true)
     const at8 = modulesForSkill(bundle.theory, 8)
     expect(at8.some(function(m) { return m.difficulty >= 6 })).toBe(true)
+  })
+
+  it('modulesForSkill expand opens higher difficulties', async function() {
+    const bundle = await loadFeedContentModules()
+    const base = modulesForSkill(bundle.theory, 0)
+    const expanded = modulesForSkill(bundle.theory, 0, { expand: 4 })
+    expect(expanded.length).toBeGreaterThan(base.length)
+    expect(expanded.some(function(m) { return m.difficulty >= 3 })).toBe(true)
+    const win = skillDifficultyWindow(0, { expand: 4 })
+    expect(win.max).toBe(5)
+  })
+
+  it('getEffectiveTheorySkill starts at 0 when practice settings unset', function() {
+    expect(getEffectiveTheorySkill()).toBe(0)
   })
 
   it('assertModuleQuality rejects thin theory', function() {

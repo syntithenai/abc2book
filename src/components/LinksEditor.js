@@ -7,7 +7,6 @@ import MediaImportWizard from './MediaImportWizard'
 import MediaImportEntryButton from './MediaImportEntryButton'
 import FileInputButton from './FileInputButton'
 import useMediaResolverHealth from '../useMediaResolverHealth'
-import { useAutoLinkPlaybackRegionScan } from '../useAutoLinkPlaybackRegionScan'
 import useAudioUtils from '../useAudioUtils'
 import useGoogleDocument from '../useGoogleDocument'
 import {
@@ -25,7 +24,6 @@ import { fetchDirectOrProxy } from '../mediaProxyClient'
 const YT_PLAYING = 1
 const YT_ENDED = 0
 
-const LINK_AUTO_SCAN_DEBOUNCE_MS = 1500
 const LINKS_TOOLBAR_BTN_STYLE = { color: 'black' }
 
 function LinksEditorToolbarButton({ icon, label, variant, style, className, iconOnly, children, ...buttonProps }) {
@@ -84,8 +82,6 @@ export default function LinksEditor(props) {
     const audioUtils = useAudioUtils()
     const driveDocs = useGoogleDocument(props.token, function() {})
     const { available: resolverAvailable, features } = useMediaResolverHealth()
-    const { maybeAutoScan } = useAutoLinkPlaybackRegionScan()
-    const linkScanTimeoutsRef = useRef({})
     const recordingStartedAt = useRef(0)
     const recordingIntervalRef = useRef(null)
     const [warning, setWarning] = useState('')
@@ -388,47 +384,6 @@ export default function LinksEditor(props) {
         return Object.assign({}, tuneForMedia, { id: tuneId })
     }
 
-    function clearScheduledAutoScan(linkIndex) {
-        const key = String(linkIndex)
-        if (linkScanTimeoutsRef.current[key]) {
-            clearTimeout(linkScanTimeoutsRef.current[key])
-            delete linkScanTimeoutsRef.current[key]
-        }
-    }
-
-    function autoScanOptions(links) {
-        return {
-            currentLinks: links,
-            onLinksUpdated: onChange,
-            force: true,
-        }
-    }
-
-    function triggerAutoScan(linkIndex, link, links, immediate) {
-        const tuneId = getTuneId()
-        if (!tuneId || !link) return
-
-        if (immediate) {
-            clearScheduledAutoScan(linkIndex)
-            maybeAutoScan(tuneId, linkIndex, link, autoScanOptions(links))
-            return
-        }
-
-        clearScheduledAutoScan(linkIndex)
-        linkScanTimeoutsRef.current[String(linkIndex)] = setTimeout(function() {
-            delete linkScanTimeoutsRef.current[String(linkIndex)]
-            maybeAutoScan(tuneId, linkIndex, link, autoScanOptions(links))
-        }, LINK_AUTO_SCAN_DEBOUNCE_MS)
-    }
-
-    function afterLinksChanged(links, linkIndex, immediate) {
-        onChange(links)
-        if (linkIndex === null || linkIndex === undefined) return
-        const link = links[linkIndex]
-        if (!linkHasMedia(link)) return
-        triggerAutoScan(linkIndex, link, links, immediate)
-    }
-
     function remapIndexAfterSwap(index, fromIndex, toIndex) {
         if (index === null || index === undefined) return index
         if (index === fromIndex) return toIndex
@@ -471,7 +426,7 @@ export default function LinksEditor(props) {
         const links = Array.isArray(props.links) ? props.links.slice() : []
         links.unshift(newLink)
         setWarning('')
-        afterLinksChanged(links, 0, true)
+        onChange(links)
     }
 
     async function handleOwnedMediaCreated(promise) {
@@ -642,7 +597,7 @@ export default function LinksEditor(props) {
                                     onChange={function(link) {
                                         var links = Array.isArray(props.links) ? props.links : []
                                         links.unshift({title: link.title, link: link.link, startAt: '', endAt: ''})
-                                        afterLinksChanged(links, 0, true)
+                                        props.onChange(links)
                                     }}
                                     setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}
                                     value={youtubeSearchQuery}
@@ -800,10 +755,7 @@ export default function LinksEditor(props) {
                                             <Form.Control type="text" value={link.link} onChange={function(e) {
                                                 var links = props.links
                                                 links[lk].link = e.target.value
-                                                afterLinksChanged(links, lk, false)
-                                            }} onBlur={function() {
-                                                if (!linkHasMedia(link)) return
-                                                triggerAutoScan(lk, props.links[lk], props.links, true)
+                                                props.onChange(links)
                                             }} />
                                         )}
                                         {ownedMedia && (

@@ -23,6 +23,7 @@ import FeedPage from './pages/FeedPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
+import AudioAnalysisSharedReportPage from './pages/AudioAnalysisSharedReportPage'
 import ImportWarningDialog from './components/ImportWarningDialog'
 import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
@@ -46,6 +47,7 @@ import useTuneEditHistory from './useTuneEditHistory'
 import useServiceWorker from './useServiceWorker'
 import useTextSearchIndex from './useTextSearchIndex'
 import useGoogleLogin from './useGoogleLogin' 
+import useAudioAnalysisLoginSync from './useAudioAnalysisLoginSync'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import NowPlayingHost from './components/NowPlayingHost'
@@ -167,6 +169,7 @@ function AppImportReviewBridge(props) {
       currentTuneBook={props.currentTuneBook}
       setCurrentTuneBook={props.setCurrentTuneBook}
       login={props.login}
+      logout={props.logout}
       requestGoogleScopes={props.requestGoogleScopes}
       onOpenTune={function(tune) {
         if (tune && tune.id) navigate('/tunes/' + encodeURIComponent(tune.id))
@@ -295,6 +298,7 @@ function App(props) {
   var [showWaitingOverlay, setShowWaitingOverlay] = useState(false)
   var {user, token, login, logout, refresh, requestGoogleScopes, loadCurrentUser, loadUserImage, breakLoginToken} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   useInitMediaResolverHealth(token && token.access_token ? token.access_token : null, requestGoogleScopes)
+  useAudioAnalysisLoginSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
@@ -1034,6 +1038,7 @@ function App(props) {
                 currentTuneBook={currentTuneBook}
                 setCurrentTuneBook={setCurrentTuneBook}
                 login={login}
+                logout={logout}
                 requestGoogleScopes={requestGoogleScopes}
                 setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}
               />
@@ -1147,7 +1152,8 @@ function App(props) {
                       <Route  path={`:tuneBook`} element={<PrintPage   tunes={tunes}   tunebook={tunebook} selected={selected} selectedCount={selectedCount} viewMode={viewMode}  />} />
                     </Route>
                     <Route  path={`menu`}   element={<MenuPage  tunebook={tunebook}    />}  />
-                    <Route  path={`tuner`}   element={<TunerPage  tunebook={tunebook}    />}  />
+                    <Route  path={`tuner`}   element={<TunerPage  tunebook={tunebook} token={token} login={login} logout={logout}   />}  />
+                    <Route  path={`tuner/audioanalysis`}   element={<TunerPage  tunebook={tunebook} token={token} login={login} logout={logout}   />}  />
                     <Route  path={`piano`}   element={<PianoPage  tunebook={tunebook}    />}  />
                     <Route  path={`metronome`}   element={<MetronomePage  tunebook={tunebook} currentTune={currentTune} tunes={tunes} />}  />
                     <Route  path={`lyrics`}   element={<LyricsPage  tunebook={tunebook} token={token}   />}  />
@@ -1193,6 +1199,10 @@ function App(props) {
                       <Route  path={`:googleDocumentId/book/:bookName`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                     </Route>
+                    <Route
+                      path={`audioanalysis/share/:manifestFileId`}
+                      element={<AudioAnalysisSharedReportPage token={token} login={login} logout={logout} />}
+                    />
                     
                     <Route  path={`importlink`} >
                       <Route  path={`:link`} element={<ImportLinkPage   tunes={tunes} setTunes={setTunes}  currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  tunebook={tunebook}  token={token} refresh={login}  importResults={importResults} setImportResults={setImportResults} forceRefresh={forceRefresh} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue}   setTagFilter={setTagFilter} navigateAfterImport={navigateAfterImport} setNavigateAfterImport={setNavigateAfterImport} />} />

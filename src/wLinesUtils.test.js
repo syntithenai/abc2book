@@ -1,5 +1,6 @@
 import {
   countVoiceNoteLines,
+  ensurePlainWordsFromNoteAlignedLyrics,
   getBlockLyricLines,
   getInterleavedLyricLines,
   getPlainLyricLines,
@@ -102,5 +103,27 @@ describe('wLinesUtils lyric export helpers', function() {
         2: { notes: ['G A |'] },
       },
     })).toBe(3);
+  });
+
+  test('ensurePlainWordsFromNoteAlignedLyrics fills words from wLines when empty', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E |'] } },
+      words: [],
+      wLines: ['Hel- lo world'],
+    };
+    expect(ensurePlainWordsFromNoteAlignedLyrics(tune)).toBe(true);
+    expect(tune.words).toEqual(['Hello world']);
+    expect(tune.wLines).toEqual(['Hel- lo world']);
+  });
+
+  test('ensurePlainWordsFromNoteAlignedLyrics does not overwrite existing words', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E |'] } },
+      words: ['Autofilled lyrics'],
+      wLines: ['Hel- lo world'],
+    };
+    expect(ensurePlainWordsFromNoteAlignedLyrics(tune)).toBe(false);
+    expect(tune.words).toEqual(['Autofilled lyrics']);
+    expect(tune.wLines).toEqual(['Hel- lo world']);
   });
 });

@@ -293,6 +293,11 @@ function quizCardFromQuestions(questions, meta, rng) {
     questions: unique,
   }, { rng: rng, targetCount: 5 })
   if (!quiz) return null
+  var difficulty = 5
+  quiz.questions.forEach(function(q) {
+    const d = Number(q && q.difficulty)
+    if (Number.isFinite(d) && d < difficulty) difficulty = d
+  })
   const hashBase = {
     predicate: 'tune_quiz',
     subjectName: meta.title,
@@ -311,6 +316,7 @@ function quizCardFromQuestions(questions, meta, rng) {
     body: '',
     artist: meta.artist || '',
     quiz: quiz,
+    difficulty: difficulty,
   })
 }
 

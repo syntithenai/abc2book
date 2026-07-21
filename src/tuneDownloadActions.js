@@ -1,12 +1,14 @@
 import { lyricLinesToText } from './wLinesUtils'
 import { abcToMusicXml } from './scoreImportClient'
 import { isMediaProxyConfigured } from './mediaProxyClient'
-import { countCacheableLinks } from './mediaLinkResolve'
+import { countCacheableLinks, resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { resolverHasFeature } from './resolverFeatures'
 import * as mediaCacheQueue from './mediaCacheQueue'
 import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } from './chordProFormatUtils'
-import { getAudioCompressFormat } from './audioCompressSettings'
+import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings'
+import { encodeAudioBuffer } from './audioCompressEncode'
+import { renderAbcToAudioBuffer } from './notationAudioExport'
 
 export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file' },
@@ -153,16 +155,57 @@ export function isTuneDownloadFormatAvailable(formatId) {
   return true
 }
 
+function tuneHasNotationAudio(tune, tunebook) {
+  return !!(tunebook && typeof tunebook.hasNotesOrChords === 'function' && tunebook.hasNotesOrChords(tune))
+}
+
+function tuneHasLinkedOrNotationAudio(tune, tunebook) {
+  const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
+  if (resolveActiveLinkForTune(tune, null, isYoutubeLink)) return true
+  return tuneHasNotationAudio(tune, tunebook)
+}
+
 export function isTuneDownloadFormatDisabled(formatId, tunes, tunebook) {
   if (!isTuneDownloadFormatAvailable(formatId)) return true
   if (formatId === 'chordpro' || formatId === 'onsong') {
     return !tunes.some(function(tune) { return tuneHasChordSheetContent(tune) })
   }
+  if (formatId === 'midi') {
+    return !tunes.some(function(tune) { return tuneHasNotationAudio(tune, tunebook) })
+  }
   if (isLinkedAudioDownloadFormat(formatId)) {
-    const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
-    return countCacheableLinks(tunes, isYoutubeLink) === 0
+    return !tunes.some(function(tune) { return tuneHasLinkedOrNotationAudio(tune, tunebook) })
   }
   return false
+}
+
+export function getTuneDownloadStartToastMessage(formatId, tuneCount) {
+  const count = tuneCount > 0 ? tuneCount : 1
+  const plural = count === 1 ? '' : 's'
+  if (isLinkedAudioDownloadFormat(formatId)) {
+    return 'Starting audio download for ' + count + ' tune' + plural + '...'
+  }
+  if (formatId === 'stems') {
+    return 'Starting stems download for ' + count + ' tune' + plural + '...'
+  }
+  if (formatId === 'midi') {
+    return 'Starting MIDI download for ' + count + ' tune' + plural + '...'
+  }
+  return 'Starting download for ' + count + ' tune' + plural + '...'
+}
+
+async function downloadNotationAudioForTune(tune, tunebook, audioFormat) {
+  const abc = tunebook.getExportAbc ? tunebook.getExportAbc(tune) : null
+  if (!abc || !String(abc).trim()) {
+    throw new Error('Could not generate notation audio for "' + (tune && tune.name ? tune.name : 'tune') + '"')
+  }
+  const buffer = await renderAbcToAudioBuffer(abc)
+  const encoded = await encodeAudioBuffer(buffer, audioFormat)
+  const extension = getAudioCompressExtension(audioFormat)
+  downloadBlob(
+    sanitizeDownloadFilename(tune && tune.name, 'tune') + '.' + extension,
+    encoded.blob
+  )
 }
 
 export async function executeTuneDownload(formatId, options) {
@@ -226,17 +269,32 @@ export async function executeTuneDownload(formatId, options) {
     case 'linked-audio-mp3':
     case 'linked-audio-wav': {
       const audioFormat = linkedAudioDownloadFormat(formatId)
+      const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
       const queueTunebook = {
         utils: tunebook.utils,
         accessToken: token && token.access_token ? token.access_token : null,
       }
-      const ids = mediaCacheQueue.enqueueTunesDownloadJobs(tunes, queueTunebook, null, audioFormat)
-      if (!ids.length) {
-        throw new Error('No cacheable linked media was found on the selected tune(s).')
+      const linkedTunes = tunes.filter(function(tune) {
+        return resolveActiveLinkForTune(tune, null, isYoutubeLink)
+      })
+      const notationTunes = tunes.filter(function(tune) {
+        return !resolveActiveLinkForTune(tune, null, isYoutubeLink) && tuneHasNotationAudio(tune, tunebook)
+      })
+      const ids = mediaCacheQueue.enqueueTunesDownloadJobs(linkedTunes, queueTunebook, null, audioFormat)
+      if (!ids.length && !notationTunes.length) {
+        throw new Error('No linked media or notation audio was found on the selected tune(s).')
       }
-      mediaCacheQueue.start()
-      if (options.onOpenQueue) {
-        options.onOpenQueue()
+      if (ids.length) {
+        mediaCacheQueue.start()
+        if (options.onOpenQueue) {
+          options.onOpenQueue()
+        }
+      }
+      for (var notationIndex = 0; notationIndex < notationTunes.length; notationIndex++) {
+        await downloadNotationAudioForTune(notationTunes[notationIndex], tunebook, audioFormat)
+        if (notationIndex < notationTunes.length - 1) {
+          await pauseBetweenDownloads(500)
+        }
       }
       return
     }

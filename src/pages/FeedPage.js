@@ -5,7 +5,6 @@ import FeedCard from '../components/FeedCard'
 import './FeedPage.css'
 import { getRecentViewedTuneIds } from '../tuneViewHistoryStore'
 import {
-  loadFeedItems,
   upsertFeedItems,
   prepareNavRefreshEligibility,
   getEligibleForStream,
@@ -17,7 +16,14 @@ import {
 import { getFeedProgress, incrementLearned, FEED_DAILY_GOAL } from '../feedProgressStore'
 import { generateLocalFeedItems } from '../feedLocalGenerator'
 import { buildFeedStream, getEffectiveTheorySkill } from '../feedMixer'
-import { loadFeedContentModules, moduleToFeedItems, bundleContentQuizzes, modulesForSkill } from '../feedContentLoader'
+import {
+  loadFeedContentModules,
+  moduleToFeedItems,
+  bundleContentQuizzes,
+  modulesForSkill,
+  FEED_SKILL_EXPAND_STEP,
+  FEED_SKILL_EXPAND_MAX,
+} from '../feedContentLoader'
 import { loadPracticeSettings } from '../practiceSessionSettings'
 import { runFeedEnrichment } from '../feedEnrichmentClient'
 import { runFeedAiGeneration } from '../feedGenerationClient'
@@ -37,19 +43,22 @@ function splitInstructional(items) {
   const pool = []
   const theory = []
   const singing = []
+  const quizzes = []
   ;(items || []).forEach(function(item) {
     if (!item) return
     if (FEED_AI_ONLY && !isAiFeedItem(item)) return
-    if (item.type === 'theory_lesson' || item.type === 'theory_quiz') theory.push(item)
+    if (item.type === 'quiz' || item.type === 'theory_quiz') quizzes.push(item)
+    else if (item.type === 'theory_lesson') theory.push(item)
     else if (item.type === 'singing_tip' || item.type === 'warmup_idea') singing.push(item)
     else pool.push(item)
   })
-  return { pool: pool, theory: theory, singing: singing }
+  return { pool: pool, theory: theory, singing: singing, quizzes: quizzes }
 }
 
-function contentItemsFromBundle(bundle, skill) {
-  const theoryMods = modulesForSkill(bundle.theory || bundle.theoryModules, skill)
-  const singingMods = modulesForSkill(bundle.singing || bundle.singingModules, skill)
+function contentItemsFromBundle(bundle, skill, expand) {
+  const opts = { expand: expand > 0 ? expand : 0 }
+  const theoryMods = modulesForSkill(bundle.theory || bundle.theoryModules, skill, opts)
+  const singingMods = modulesForSkill(bundle.singing || bundle.singingModules, skill, opts)
   const out = []
   theoryMods.forEach(function(m) {
     moduleToFeedItems(m).forEach(function(it) { out.push(it) })
@@ -59,6 +68,12 @@ function contentItemsFromBundle(bundle, skill) {
   })
   bundleContentQuizzes(theoryMods.concat(singingMods)).forEach(function(it) { out.push(it) })
   return out
+}
+
+function upsertContentForSkill(bundle, skill, expand) {
+  const fromContent = contentItemsFromBundle(bundle || { theory: [], singing: [] }, skill, expand)
+  if (fromContent.length) upsertFeedItems(fromContent)
+  return fromContent.length
 }
 
 export default function FeedPage(props) {
@@ -73,12 +88,16 @@ export default function FeedPage(props) {
   const [progress, setProgress] = useState(function() { return getFeedProgress() })
   const [updating, setUpdating] = useState(false)
   const [ready, setReady] = useState(false)
+  const [caughtUp, setCaughtUp] = useState(false)
   const contentRef = useRef(null)
   const sentinelRef = useRef(null)
   const learnedExpandRef = useRef({})
   const streamIdsRef = useRef({})
   const streamHashesRef = useRef({})
   const pendingRef = useRef([])
+  const loadingMoreRef = useRef(false)
+  /** Extra difficulty levels above the preferred skill band (opens when feed is hungry). */
+  const skillExpandRef = useRef(0)
 
   function rememberShown(items) {
     ;(items || []).forEach(function(item) {
@@ -142,22 +161,16 @@ export default function FeedPage(props) {
     prepareNavRefreshEligibility()
     pendingRef.current = []
     setPendingNew([])
+    skillExpandRef.current = 0
     const skill = getEffectiveTheorySkill()
     const settings = loadPracticeSettings()
     const viewIds = getRecentViewedTuneIds(40)
     if (!FEED_AI_ONLY) {
-      let pool = loadFeedItems()
-      if (pool.length < 8) {
-        const local = generateLocalFeedItems({ tunes: tunes, viewIds: viewIds })
-        if (local.length) {
-          upsertFeedItems(local)
-          pool = loadFeedItems()
-        }
-      }
-      const fromContent = contentItemsFromBundle(bundle || { theory: [], singing: [] }, skill)
-      if (fromContent.length) {
-        upsertFeedItems(fromContent)
-      }
+      // Always refresh local tune cards (wiki/news/dyk/quiz) so the pool is not
+      // only instructional content after the first visit.
+      const local = generateLocalFeedItems({ tunes: tunes, viewIds: viewIds })
+      if (local.length) upsertFeedItems(local)
+      upsertContentForSkill(bundle, skill, 0)
     }
     const eligible = getEligibleForStream()
     const parts = splitInstructional(eligible)
@@ -165,6 +178,7 @@ export default function FeedPage(props) {
       poolItems: parts.pool,
       theoryItems: FEED_AI_ONLY ? [] : parts.theory,
       singingItems: FEED_AI_ONLY ? [] : parts.singing,
+      quizItems: FEED_AI_ONLY ? [] : parts.quizzes,
       skill: skill,
       instrument: settings.instrument,
       pageSize: PAGE_SIZE,
@@ -173,6 +187,7 @@ export default function FeedPage(props) {
     streamHashesRef.current = {}
     rememberShown(page)
     setStream(page)
+    setCaughtUp(false)
     setProgress(getFeedProgress())
     setReady(true)
   }
@@ -231,34 +246,61 @@ export default function FeedPage(props) {
 
   useEffect(function() {
     const el = sentinelRef.current
-    if (!el) return undefined
+    if (!el || !ready) return undefined
     const obs = new IntersectionObserver(function(entries) {
       if (!entries[0] || !entries[0].isIntersecting) return
-      const eligible = getEligibleForStream()
-      const parts = splitInstructional(eligible)
-      const skill = getEffectiveTheorySkill()
-      const settings = loadPracticeSettings()
-      const usedIds = streamIdsRef.current || {}
-      const usedHashes = streamHashesRef.current || {}
-      function notUsed(i) {
-        if (!i || usedIds[i.id]) return false
-        if (i.factHash && usedHashes[i.factHash]) return false
-        return true
+      if (loadingMoreRef.current) return
+      loadingMoreRef.current = true
+      try {
+        const skill = getEffectiveTheorySkill()
+        const settings = loadPracticeSettings()
+        const usedIds = streamIdsRef.current || {}
+        const usedHashes = streamHashesRef.current || {}
+        function notUsed(i) {
+          if (!i || usedIds[i.id]) return false
+          if (i.factHash && usedHashes[i.factHash]) return false
+          return true
+        }
+        function buildMore() {
+          const eligible = getEligibleForStream()
+          const parts = splitInstructional(eligible)
+          parts.pool = parts.pool.filter(notUsed)
+          parts.theory = parts.theory.filter(notUsed)
+          parts.singing = parts.singing.filter(notUsed)
+          return buildFeedStream({
+            poolItems: parts.pool,
+            theoryItems: FEED_AI_ONLY ? [] : parts.theory,
+            singingItems: FEED_AI_ONLY ? [] : parts.singing,
+            quizItems: FEED_AI_ONLY ? [] : parts.quizzes,
+            skill: skill,
+            instrument: settings.instrument,
+            pageSize: PAGE_SIZE,
+          })
+        }
+        var more = buildMore()
+        // Prefer low skill; open higher difficulties only when this band is exhausted.
+        if (!more.length && !FEED_AI_ONLY && contentRef.current) {
+          const preferMax = skill + 1
+          const curCeiling = Math.min(FEED_SKILL_EXPAND_MAX, preferMax + skillExpandRef.current)
+          if (curCeiling < FEED_SKILL_EXPAND_MAX) {
+            skillExpandRef.current = Math.min(
+              FEED_SKILL_EXPAND_MAX - preferMax,
+              skillExpandRef.current + FEED_SKILL_EXPAND_STEP
+            )
+            upsertContentForSkill(contentRef.current, skill, skillExpandRef.current)
+            more = buildMore()
+          }
+        }
+        if (!more.length) {
+          setCaughtUp(true)
+          return
+        }
+        setCaughtUp(false)
+        rememberShown(more)
+        setStream(function(prev) { return prev.concat(more) })
+      } finally {
+        loadingMoreRef.current = false
       }
-      parts.pool = parts.pool.filter(notUsed)
-      parts.theory = parts.theory.filter(notUsed)
-      parts.singing = parts.singing.filter(notUsed)
-      const more = buildFeedStream({
-        poolItems: parts.pool,
-        theoryItems: parts.theory,
-        singingItems: parts.singing,
-        skill: skill,
-        instrument: settings.instrument,
-        pageSize: PAGE_SIZE,
-      })
-      if (!more.length) return
-      rememberShown(more)
-      setStream(function(prev) { return prev.concat(more) })
     }, { rootMargin: '200px' })
     obs.observe(el)
     return function() { obs.disconnect() }
@@ -336,6 +378,11 @@ export default function FeedPage(props) {
         )
       })}
       <div className="feed-scroll-sentinel" data-testid="feed-scroll-sentinel" ref={sentinelRef} />
+      {caughtUp && stream.length ? (
+        <div className="feed-caught-up" data-testid="feed-caught-up">
+          You&apos;re caught up for now. Open more tunes or check back later for new stories.
+        </div>
+      ) : null}
     </div>
   )
 }

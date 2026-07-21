@@ -55,6 +55,7 @@ describe('addTuneAutoEnrich', function() {
     dismissAddTuneAutoEnrichFailure('t5')
     dismissAddTuneAutoEnrichFailure('t6')
     dismissAddTuneAutoEnrichFailure('t7')
+    dismissAddTuneAutoEnrichFailure('t8')
   })
 
   test('pickFirstSearchCandidate prefers first candidate from multi results', function() {
@@ -186,7 +187,7 @@ describe('addTuneAutoEnrich', function() {
     })).toBe(true)
   })
 
-  test('records failure when lyrics and notation both fail', async function() {
+  test('offers MuseScore search when lyrics and auto notation both miss', async function() {
     const tune = { id: 't3', name: 'Song', composer: 'Writer' }
     const tunebook = {
       abcTools: {},
@@ -212,15 +213,16 @@ describe('addTuneAutoEnrich', function() {
     })
 
     expect(isAddTuneAutoEnrichPending('t3')).toBe(false)
-    expect(getAddTuneAutoEnrichState('t3').failure).toBe(
-      'Could not find lyrics or notation for this tune.'
-    )
+    const state = getAddTuneAutoEnrichState('t3')
+    expect(state.failure).toBe('')
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.notationPasteCandidate.searchFallback).toBe(true)
 
     dismissAddTuneAutoEnrichFailure('t3')
     expect(getAddTuneAutoEnrichState('t3').failure).toBe('')
   })
 
-  test('prompts for Ultimate Guitar paste when lyrics succeed but chords do not', async function() {
+  test('prompts Ultimate Guitar after MuseScore when lyrics succeed without chords', async function() {
     const tune = { id: 't5', name: 'Wonderwall', composer: 'Oasis' }
     const tunebook = {
       abcTools: {},
@@ -263,11 +265,12 @@ describe('addTuneAutoEnrich', function() {
 
     const state = getAddTuneAutoEnrichState('t5')
     expect(state.pending).toBe(false)
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.notationPasteCandidate.url).toContain('musescore.com')
     expect(state.needsChordPaste).toBe(true)
     expect(state.chordPasteCandidate.url).toBe(
       'https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-123'
     )
-    expect(state.message).toMatch(/Ultimate Guitar/i)
   })
 
   test('prompts for MuseScore paste when lyrics succeed but notation is gated', async function() {
@@ -314,10 +317,57 @@ describe('addTuneAutoEnrich', function() {
     const state = getAddTuneAutoEnrichState('t7')
     expect(state.needsNotationPaste).toBe(true)
     expect(state.notationPasteCandidate.url).toContain('musescore.com')
-    // Speculative UG search fallback must not hide a real MuseScore hit.
-    expect(state.needsChordPaste).toBe(false)
+    expect(state.needsChordPaste).toBe(true)
     expect(state.failure).toBe('')
     expect(state.message).toMatch(/MuseScore/i)
+  })
+
+  test('prompts MuseScore search when notation search returns nothing', async function() {
+    const tune = { id: 't8', name: 'Apres un reve', composer: 'Gabriel Faure' }
+    const tunebook = {
+      abcTools: {},
+      saveTune: jest.fn(),
+    }
+
+    searchChords.mockResolvedValue({ empty: true })
+    searchLyrics.mockResolvedValue({ text: 'Dans un sommeil' })
+    searchNotation.mockResolvedValue({ empty: true })
+    commitChordSearchResultToTune.mockReturnValue({ ok: false })
+    isTuneFieldEmptyForKind.mockImplementation(function(_tune, kind) {
+      return kind === 'lyrics' || kind === 'notation' || kind === 'chords'
+    })
+    applyCandidateToTune.mockReturnValue(true)
+
+    await runAddTuneAutoEnrich({
+      tune: tune,
+      tunebook: tunebook,
+      abcjsParser: { renderChords: jest.fn() },
+      accessToken: 'token',
+      resolverAvailable: true,
+      forceRefresh: jest.fn(),
+    })
+
+    const state = getAddTuneAutoEnrichState('t8')
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.notationPasteCandidate.searchFallback).toBe(true)
+    expect(state.notationPasteCandidate.url).toContain('musescore.com')
+    expect(state.needsChordPaste).toBe(true)
+  })
+
+  test('shouldSkipAbcMergeForChordPaste when real melody and lyrics exist', function() {
+    const { shouldSkipAbcMergeForChordPaste } = require('./addTuneAutoEnrich')
+    expect(shouldSkipAbcMergeForChordPaste({
+      voices: { '1': { notes: ['C D E F |'] } },
+      words: ['Dans un sommeil'],
+    })).toBe(true)
+    expect(shouldSkipAbcMergeForChordPaste({
+      voices: { '1': { notes: ['z4 |'] } },
+      words: ['Dans un sommeil'],
+    })).toBe(false)
+    expect(shouldSkipAbcMergeForChordPaste({
+      voices: { '1': { notes: ['C D E F |'] } },
+      words: [],
+    })).toBe(false)
   })
 
   test('prompts for MuseScore paste when notation finds only gated scores', async function() {
@@ -405,8 +455,10 @@ describe('addTuneAutoEnrich', function() {
 
     process.removeListener('unhandledRejection', onUnhandled)
     expect(unhandled).toEqual([])
-    expect(getAddTuneAutoEnrichState('t4').failure).toBe(
-      'Could not find lyrics or notation for this tune.'
-    )
+    // Notation search failed but MuseScore search fallback still offered.
+    const state = getAddTuneAutoEnrichState('t4')
+    expect(state.needsNotationPaste).toBe(true)
+    expect(state.notationPasteCandidate.searchFallback).toBe(true)
+    expect(state.failure).toBe('')
   })
 })

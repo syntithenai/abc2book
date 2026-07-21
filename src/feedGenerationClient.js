@@ -133,6 +133,12 @@ function normalizeQuizItems(body, tune) {
   }, { targetCount: 5 })
   if (!quiz) return []
 
+  var difficulty = 5
+  quiz.questions.forEach(function(q) {
+    const d = Number(q && q.difficulty)
+    if (Number.isFinite(d) && d < difficulty) difficulty = d
+  })
+
   return [{
     id: makeId('aiq'),
     type: 'quiz',
@@ -163,6 +169,7 @@ function normalizeQuizItems(body, tune) {
     srsDueAt: null,
     isNew: true,
     attemptCount: 0,
+    difficulty: difficulty,
   }]
 }
 

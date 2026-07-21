@@ -54,6 +54,14 @@
   font-size: 0.8rem;
 }
 
+.tuner-toggle-group {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex: 0 0 auto;
+  margin-left: 0.15rem;
+}
+
 .tuner-advanced-toggle,
 .tuner-auto-advance-toggle,
 .tuner-check-harmonics-toggle,
@@ -185,6 +193,10 @@
 
 .tuner-intonation-hint {
   text-align: center;
+  font-size: 0.9rem;
+}
+
+.tuner-pluck-hint {
   font-size: 0.9rem;
 }
 

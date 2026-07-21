@@ -1,3 +1,9 @@
+import {
+  isTabStaffLine,
+  isUsenetOrTabMetaLine,
+  isUsableLyricContent,
+} from './lyricsQualityUtils'
+
 const NOISE_LINE_RE = /^(?:\d+\s+contributors?|contributors?|translations?|embed|share|writer(?:\(s\))?:.*|thanks to .*|submit corrections?|correct these lyrics|you might also like|advertisement|recommended|if\s*\(\s*\/android|document\.write|navigator\.useragent)$/i
 
 const TRANSLATION_LANGUAGE_RE = /^(?:türkçe|español|português|deutsch|polski|українська|srpski|italiano|česky|français|nederlands|русский|日本語|中文|한국어|العربية|english|translation[s]?)$/i
@@ -45,11 +51,17 @@ export function finalizeLyricsLines(rawLines) {
       return
     }
     if (isNoiseLine(line)) return
+    if (isTabStaffLine(line) || isUsenetOrTabMetaLine(line)) return
     lines.push(line)
   })
 
   while (lines.length && lines[lines.length - 1] === '') {
     lines.pop()
+  }
+
+  // Reject guitar TAB / Usenet dumps that lyrics APIs sometimes return for instrumentals.
+  if (!isUsableLyricContent(rawLines).ok || !isUsableLyricContent(lines).ok) {
+    return [[], [], '']
   }
 
   const stanzas = linesToStanzas(lines)

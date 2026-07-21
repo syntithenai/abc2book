@@ -1,4 +1,5 @@
 import { lyricsPreview } from './lyricsParseUtils'
+import { isUsableLyricContent } from './lyricsQualityUtils'
 
 function hostFromUrl(url) {
   if (!url) return ''
@@ -48,13 +49,21 @@ function normalizeSingleLyricsResult(body) {
     ? body.lines.map(function(line) { return String(line) })
     : text.split('\n')
 
+  const quality = isUsableLyricContent(lines)
+  if (!quality.ok || !(quality.lines || []).some(function(line) {
+    return String(line || '').trim()
+  })) {
+    throw new Error('Lyrics search returned no usable text')
+  }
+
+  const usableLines = quality.lines
   const preview = typeof body.preview === 'string' && body.preview
     ? body.preview
-    : lyricsPreview(lines)
+    : lyricsPreview(usableLines)
 
   return {
-    text: text,
-    lines: lines,
+    text: usableLines.join('\n'),
+    lines: usableLines,
     stanzas: Array.isArray(body.stanzas) ? body.stanzas : [],
     source: typeof body.source === 'string' ? body.source : '',
     sourceUrl: typeof body.sourceUrl === 'string' ? body.sourceUrl : '',
@@ -84,8 +93,13 @@ export function normalizeLyricsSearch(body) {
   }
 
   if (body.multiple === true && Array.isArray(body.candidates)) {
-    const candidates = body.candidates.map(function(candidate) {
-      return normalizeSingleLyricsResult(candidate)
+    const candidates = []
+    body.candidates.forEach(function(candidate) {
+      try {
+        candidates.push(normalizeSingleLyricsResult(candidate))
+      } catch (e) {
+        // Skip non-lyric dumps (TAB, Usenet posts, etc.).
+      }
     })
     if (candidates.length === 0) {
       throw new Error('Lyrics search returned no candidates')

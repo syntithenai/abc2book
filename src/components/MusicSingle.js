@@ -35,7 +35,7 @@ import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
 import { NOTATION_FIT_VERTICAL, NOTATION_FIT_HORIZONTAL } from '../gigNotationFit'
-import { stripNotationDisplayMetadata } from '../notation/notationDisplayAbc'
+import { stripNotationDisplayMetadata, stripBlockLyricsFromDisplayAbc } from '../notation/notationDisplayAbc'
 import {
   EDITOR_VIEW_MODES,
   viewModeToDisplayFlags,
@@ -58,12 +58,13 @@ import { tuneHasExplicitChords } from '../timedLyricsChordsDisplay'
 import { shouldMusicSingleMountMediaEngine, shouldMusicSingleOwnMidiEngine } from '../nowPlayingQueuePlayback'
 import { recordTuneView } from '../tuneViewHistoryStore'
 import {buildSingleTuneTitle, DEFAULT_APP_TITLE, setDocumentTitle} from '../pageTitle'
-import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste } from '../addTuneAutoEnrich'
+import { isAddTuneAutoEnrichPending, subscribeAddTuneAutoEnrich, getAddTuneAutoEnrichState, dismissAddTuneAutoEnrichFailure, dismissAddTuneAutoEnrichChordPaste, dismissAddTuneAutoEnrichNotationPaste, shouldSkipAbcMergeForChordPaste } from '../addTuneAutoEnrich'
 import SearchProgressBar from './SearchProgressBar'
 import PasteChordSheetModal from './PasteChordSheetModal'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wLinesUtils'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -132,11 +133,13 @@ export default function MusicSingle(props) {
     }, [params.tuneId])
 
     useEffect(function() {
-      if (!autoEnrichPending && autoEnrichState.needsChordPaste) {
-        setShowAutoEnrichChordPaste(true)
-      }
-      if (!autoEnrichPending && autoEnrichState.needsNotationPaste) {
+      if (autoEnrichPending) return
+      // MuseScore first; Ultimate Guitar paste only after notation is resolved.
+      if (autoEnrichState.needsNotationPaste) {
         setShowAutoEnrichNotationPaste(true)
+        setShowAutoEnrichChordPaste(false)
+      } else if (autoEnrichState.needsChordPaste) {
+        setShowAutoEnrichChordPaste(true)
       }
     }, [autoEnrichPending, autoEnrichState.needsChordPaste, autoEnrichState.needsNotationPaste, params.tuneId])
     
@@ -328,16 +331,14 @@ export default function MusicSingle(props) {
         
     if (tune) {
         var current = 0
-        if (Array.isArray(tune.words)) {
-            tune.words.forEach(function(line) {
-              if (line && line.trim().length > 0) {
-                  if (!Array.isArray(words[current])) words[current] = []
-                  words[current].push(line)
-              } else {
-                  current++
-              }
-            })
-        }  
+        getPlainLyricLines(tune).forEach(function(line) {
+          if (line && line.trim().length > 0) {
+              if (!Array.isArray(words[current])) words[current] = []
+              words[current].push(line)
+          } else {
+              current++
+          }
+        })
         
         //<iframe src={link} ></iframe>
         //console.log('sING abc',props.tunebook.abcTools.tunesToAbc(props.tunes))
@@ -534,13 +535,9 @@ export default function MusicSingle(props) {
 
                 function stripNotationMeta(abcText) {
                   if (!abcText) return ''
-                  // Keep lyrics block off the staff (shown in the lyrics panel).
-                  return stripNotationDisplayMetadata(abcText)
-                    .split('\n')
-                    .filter(function(line) {
-                      return !/^W:/i.test(String(line || '').trim())
-                    })
-                    .join('\n')
+                  // Keep block lyrics (W:) off the staff (shown in the lyrics panel).
+                  // Keep note-aligned lyrics (w:) so abcjs can draw syllables under notes.
+                  return stripBlockLyricsFromDisplayAbc(stripNotationDisplayMetadata(abcText))
                 }
 
                 const notationVisualTranspose = chordTranspose
@@ -737,7 +734,7 @@ export default function MusicSingle(props) {
           />
         </Alert>
       ) : null}
-      {!autoEnrichPending && autoEnrichState.needsChordPaste ? (
+      {!autoEnrichPending && autoEnrichState.needsChordPaste && !autoEnrichState.needsNotationPaste ? (
         <Alert
           variant="warning"
           className="m-2 mb-0"
@@ -834,7 +831,8 @@ export default function MusicSingle(props) {
         }}
         tune={tune || {}}
         forceUpdateLyrics={false}
-        initialUpdateLyrics={false}
+        initialUpdateLyrics={!shouldSkipAbcMergeForChordPaste(tune)}
+        initialLyricSheetOnly={shouldSkipAbcMergeForChordPaste(tune)}
         externalUrl={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.url
           ? autoEnrichState.chordPasteCandidate.url
           : ''}
@@ -844,17 +842,23 @@ export default function MusicSingle(props) {
         externalSourceTitle={autoEnrichState.chordPasteCandidate && autoEnrichState.chordPasteCandidate.title
           ? autoEnrichState.chordPasteCandidate.title
           : ''}
-        externalHelpText="Chords were found on a site that blocks automatic import. Open the page, copy the lyrics and chords, paste them below, then Import."
+        externalHelpText={shouldSkipAbcMergeForChordPaste(tune)
+          ? 'Notation and lyrics are already on this tune. Open the page, copy chords (and lyrics if needed), paste below, then Import — ABC notation will be left unchanged.'
+          : 'Chords were found on a site that blocks automatic import. Open the page, copy the lyrics and chords, paste them below, then Import.'}
         onSaveSections={function(result) {
           if (!result || !tune) return
+          const skipAbc = !!result.skipAbcMerge || shouldSkipAbcMergeForChordPaste(tune)
           const committed = commitPasteChordSheetToTune({
             result: result,
             tune: tune,
             tunebook: props.tunebook,
             abcjsParser: abcjsParser,
             forceUpdateLyrics: false,
-            skipAbcMerge: !!result.skipAbcMerge,
-            historyLabel: result.historyLabel || (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords'),
+            skipAbcMerge: skipAbc,
+            historyLabel: result.historyLabel
+              || (skipAbc
+                ? 'Paste chords (keep notation)'
+                : (result.updateLyrics ? 'Paste chords and lyrics' : 'Paste chords')),
           })
           if (!committed || !committed.ok) return
           setTune(Object.assign({}, tune))
@@ -884,6 +888,15 @@ export default function MusicSingle(props) {
           }
           const imported = first.tune
           imported.id = tune.id
+          // Keep lyrics already autofilled; MuseScore import should not wipe them.
+          if ((!imported.words || !imported.words.length) && tune.words && tune.words.length) {
+            imported.words = tune.words.slice()
+          }
+          if ((!imported.wLines || !imported.wLines.length) && tune.wLines && tune.wLines.length) {
+            imported.wLines = tune.wLines.slice()
+          }
+          // Note-aligned MuseScore lyrics → plain words for the lyrics panel when empty.
+          ensurePlainWordsFromNoteAlignedLyrics(imported)
           if (autoEnrichState.notationPasteCandidate && autoEnrichState.notationPasteCandidate.url) {
             imported.srcUrl = imported.srcUrl || autoEnrichState.notationPasteCandidate.url
           }

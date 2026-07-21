@@ -23,6 +23,16 @@ export function stripNotationDisplayMetadata(abcText) {
   }).join('\n');
 }
 
+/**
+ * Strip block lyrics (W:) from staff display ABC. Keeps note-aligned lyrics (w:).
+ */
+export function stripBlockLyricsFromDisplayAbc(abcText) {
+  if (!abcText) return '';
+  return String(abcText).split('\n').filter(function(line) {
+    return !/^W:/.test(String(line || '').trim());
+  }).join('\n');
+}
+
 function notationDisplayAbc(tune, tunebook) {
   if (!tune || !tunebook || !tunebook.abcTools) return '';
   // Include syllable-aligned lyrics under the staff; keep embedded chord symbols.

@@ -17,8 +17,9 @@ export function clampFileDrawStageScale(scale) {
 }
 
 /**
- * Pan/zoom stage with pen ink and pinch zoom.
- * Fingers: pinch-zoom / pan. Pen (and mouse): draw/erase.
+ * Pan/zoom stage with ink drawing and pinch zoom.
+ * One finger / pen / mouse: draw or erase. Two fingers: pinch zoom.
+ * Use zoom controls when the image is larger than the viewport.
  */
 export default function FileDrawStage(props) {
   const {
@@ -149,20 +150,22 @@ export default function FileDrawStage(props) {
     setCursorPos(null)
   }
 
+  function beginStroke(e) {
+    const pt = toImageCoords(e.clientX, e.clientY)
+    if (!pt) return false
+    try { e.currentTarget.setPointerCapture(e.pointerId) } catch (err) { /* ignore */ }
+    if (e.cancelable) e.preventDefault()
+    const stroke = createStroke(tool, color, width)
+    appendStrokePoint(stroke, pt.x, pt.y, e.pressure)
+    drawingRef.current = stroke
+    drawStrokeOnContext(inkRef.current.getContext('2d'), stroke)
+    return true
+  }
+
   function onPointerDown(e) {
     updateCursorFromEvent(e)
-    const isPen = e.pointerType === 'pen' || e.pointerType === 'mouse'
-    if (isPen) {
-      const pt = toImageCoords(e.clientX, e.clientY)
-      if (!pt) return
-      e.currentTarget.setPointerCapture(e.pointerId)
-      const stroke = createStroke(tool, color, width)
-      appendStrokePoint(stroke, pt.x, pt.y, e.pressure)
-      drawingRef.current = stroke
-      drawStrokeOnContext(inkRef.current.getContext('2d'), stroke)
-      return
-    }
-    // touch — two-finger pinch only; one finger uses native scroll
+
+    // Two-finger pinch takes priority over drawing.
     if (e.pointerType === 'touch') {
       if (!pinchRef.current) {
         pinchRef.current = { pointers: {} }
@@ -170,16 +173,20 @@ export default function FileDrawStage(props) {
       pinchRef.current.pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
       const ids = Object.keys(pinchRef.current.pointers)
       if (ids.length >= 2) {
-        e.preventDefault()
+        // Cancel any in-progress one-finger stroke when a second finger lands.
+        drawingRef.current = null
+        if (e.cancelable) e.preventDefault()
         try { e.currentTarget.setPointerCapture(e.pointerId) } catch (err) { /* ignore */ }
         const a = pinchRef.current.pointers[ids[0]]
         const b = pinchRef.current.pointers[ids[1]]
         const dist = Math.hypot(a.x - b.x, a.y - b.y)
         pinchRef.current.startDist = dist
         pinchRef.current.startScale = scale
+        return
       }
-      return
     }
+
+    beginStroke(e)
   }
 
   function onPointerMove(e) {
@@ -187,6 +194,7 @@ export default function FileDrawStage(props) {
       updateCursorFromEvent(e)
     }
     if (drawingRef.current) {
+      if (e.cancelable) e.preventDefault()
       const pt = toImageCoords(e.clientX, e.clientY)
       if (!pt) return
       appendStrokePoint(drawingRef.current, pt.x, pt.y, e.pressure)
@@ -196,7 +204,7 @@ export default function FileDrawStage(props) {
     if (pinchRef.current && pinchRef.current.pointers[e.pointerId]) {
       const ids = Object.keys(pinchRef.current.pointers)
       if (ids.length >= 2) {
-        if (e.pointerType === 'touch') e.preventDefault()
+        if (e.cancelable) e.preventDefault()
         pinchRef.current.pointers[e.pointerId] = { x: e.clientX, y: e.clientY }
         if (pinchRef.current.startDist > 0) {
           const a = pinchRef.current.pointers[ids[0]]
@@ -240,12 +248,15 @@ export default function FileDrawStage(props) {
   useEffect(function() {
     const el = wrapRef.current
     if (!el || !image) return undefined
-    function blockBrowserPinch(e) {
-      if (e.touches && e.touches.length >= 2) e.preventDefault()
+    function blockBrowserGesture(e) {
+      // Block page scroll / browser pinch while drawing or pinching on the stage.
+      if (drawingRef.current || (e.touches && e.touches.length >= 2)) {
+        e.preventDefault()
+      }
     }
-    el.addEventListener('touchmove', blockBrowserPinch, { passive: false })
+    el.addEventListener('touchmove', blockBrowserGesture, { passive: false })
     return function() {
-      el.removeEventListener('touchmove', blockBrowserPinch)
+      el.removeEventListener('touchmove', blockBrowserGesture)
     }
   }, [image])
 
@@ -288,7 +299,7 @@ export default function FileDrawStage(props) {
       }}
     >
       <div
-        className="file-draw-stage"
+        className="file-draw-stage file-draw-stage--draw"
         ref={wrapRef}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}

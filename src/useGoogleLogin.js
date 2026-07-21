@@ -76,13 +76,21 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         setUser: setUser,
         onTokenUpdated: notifyAccessTokenUpdated,
         onFallbackToTokenClient: function() {
-          // Keep current access token; switch renewals to Token Client popup path.
+          // Keep current access token; switch renewals to Token Client.
+          // Do not open a Token Client popup immediately — that surprises users
+          // mid-session. They can click Login when the token actually expires.
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
           authModeRef.current = 'token'
           setAuthMode('token')
           if (localStorage.getItem('google_login_user')) {
-            tokenCtrl.refresh()
+            var current = accessTokenRef.current
+            var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
+            var stillValid = current && current.access_token
+              && (!expiresAt || expiresAt > Date.now() + 60000)
+            if (!stillValid) {
+              toast.info('Google sign-in expired. Please sign in again.')
+            }
           }
         },
       })
@@ -122,32 +130,45 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     return modeReadyRef.current
   }
 
-  /** Interactive Login uses Token Client (empty prompt). With an existing Google
-   * grant this usually shows at most the account chooser — not the OAuth code
-   * "confirm / Drive permission" steps. BFF remains for silent resume. */
+  /** Prefer BFF code login when an oauthBff resolver is available so renewals
+   * stay silent. Fall back to Token Client when no BFF base is known. */
   function login() {
-    var controller = ensureTokenController()
-    activeControllerRef.current = controller
-    try {
-      return Promise.resolve(controller.login()).catch(function(err) {
+    function runWithController(controller) {
+      activeControllerRef.current = controller
+      try {
+        return Promise.resolve(controller.login()).catch(function(err) {
+          console.warn('Google login failed', err)
+          var message = (err && err.message) ? String(err.message) : 'Google login failed'
+          if (/still loading/i.test(message)) {
+            toast.info('Google sign-in is still loading. Try again in a moment.')
+          } else if (/interrupted|pop-up blocked|allow pop-ups/i.test(message)) {
+            toast.info(message)
+          } else if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
+            toast.error(message)
+          }
+        })
+      } catch (err) {
         console.warn('Google login failed', err)
         var message = (err && err.message) ? String(err.message) : 'Google login failed'
-        if (/still loading/i.test(message)) {
-          toast.info('Google sign-in is still loading. Try again in a moment.')
-        } else if (/interrupted|pop-up blocked|allow pop-ups/i.test(message)) {
-          toast.info(message)
-        } else if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
+        if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
           toast.error(message)
         }
-      })
-    } catch (err) {
-      console.warn('Google login failed', err)
-      var message = (err && err.message) ? String(err.message) : 'Google login failed'
-      if (!/cancel|closed|popup_closed|disposed|sign-in cancelled/i.test(message)) {
-        toast.error(message)
+        return Promise.resolve()
       }
-      return Promise.resolve()
     }
+
+    var knownBase = authBaseRef.current || getAuthResolverBase()
+    if (authModeRef.current === 'oauth' && knownBase) {
+      return runWithController(ensureOauthController())
+    }
+    if (authModeRef.current === 'token' || (authModeRef.current !== 'pending' && !knownBase)) {
+      return runWithController(ensureTokenController())
+    }
+    // Mode still pending: wait briefly for oauthBff probe, then pick controller.
+    return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
+      var controller = selectController(base ? 'oauth' : 'token', base)
+      return runWithController(controller)
+    })
   }
 
   function logout() {

@@ -13,6 +13,8 @@ from lyrics_fetch import (
     extract_songlyrics,
     finalize_lyrics_lines,
     genius_song_candidates,
+    is_usable_lyric_content,
+    looks_like_non_lyric_dump,
     parse_plain_lyrics_text,
     score_title_artist_match,
     search_lyrics,
@@ -198,6 +200,36 @@ class LyricsFetchTests(unittest.TestCase):
         )
         self.assertEqual(lines, ["Yesterday", "All my troubles seemed so far away"])
         self.assertEqual(text, "Yesterday\nAll my troubles seemed so far away")
+
+    def test_rejects_usenet_guitar_tab_dump(self):
+        dump = "\n".join(
+            [
+                "Newsgroups:",
+                "rec.music.makers.guitar.tablature",
+                "Subject:",
+                "TAB:",
+                "moonlight",
+                "sonata",
+                "with",
+                "fingering",
+                "Message-ID:",
+                "<abc@def>",
+                "I have inlcuded left hand fingering underneath the tab.",
+                "p = pull-off, h = hammer-on, s = slide",
+                "Adagio Sostenuto.",
+                "E|------------------3----|s4-----------------2----|",
+                "E|3=============================------------------|",
+                "E|3-----------------3----|s4-----------------2----|",
+                "The end",
+            ]
+        )
+        self.assertTrue(looks_like_non_lyric_dump(dump))
+        ok, kept = is_usable_lyric_content(dump)
+        self.assertFalse(ok)
+        self.assertEqual(kept, [])
+        _, lines, text = parse_plain_lyrics_text(dump)
+        self.assertEqual(lines, [])
+        self.assertEqual(text, "")
 
     def test_extract_azlyrics(self):
         html_text = """

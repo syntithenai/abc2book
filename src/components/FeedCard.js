@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { Button } from 'react-bootstrap'
 import { buildQuizBundle } from '../feedQuizUtils'
 import AbcSnippetPreview from './AbcSnippetPreview'
+import TheoryLessonNotation from './TheoryLessonNotation'
+import { feedCardTypeClass, feedCardTypeLabel } from '../feedCardStyle'
 
 export default function FeedCard(props) {
   const item = props.item || {}
@@ -88,11 +90,18 @@ export default function FeedCard(props) {
 
   const misses = results.filter(function(r) { return !r.correct })
   const correctCount = results.filter(function(r) { return r.correct }).length
+  const typeClass = feedCardTypeClass(item)
+  const typeLabel = feedCardTypeLabel(item)
+  const hasLessonExample = item.type === 'theory_lesson'
+    && !!(item.exampleAbc || item.exampleImageUrl)
+  const lessonPortrait = !!(item.exampleImageUrl && !item.exampleAbc)
 
   return (
     <article
       {...handlers}
-      className={'feed-card' + (expanded ? ' feed-card-expanded' : '') + (item.isNew ? ' feed-card-new' : '')}
+      className={'feed-card ' + typeClass
+        + (expanded ? ' feed-card-expanded' : '')
+        + (item.isNew ? ' feed-card-new' : '')}
       data-testid="feed-card"
       data-feed-id={item.id}
       data-feed-type={item.type}
@@ -107,6 +116,7 @@ export default function FeedCard(props) {
           onClick={onExpandClick}
         >
           <div className="feed-card-title-row">
+            <span className="feed-card-type-badge" data-testid="feed-card-type-badge">{typeLabel}</span>
             <h2 className="feed-card-headline" data-testid="feed-card-headline">{item.headline}</h2>
             {item.isNew ? <span className="feed-new-badge" data-testid="feed-new-badge">New</span> : null}
           </div>
@@ -115,6 +125,19 @@ export default function FeedCard(props) {
           ) : null}
           {!expanded ? (
             <p className="feed-card-teaser" data-testid="feed-card-teaser">{item.teaser}</p>
+          ) : null}
+          {!expanded && hasLessonExample && lessonPortrait ? (
+            <div className="feed-card-example feed-card-example--collapsed" data-testid="feed-card-example">
+              {item.exampleCaption ? (
+                <p className="feed-card-example-caption">{item.exampleCaption}</p>
+              ) : null}
+              <img
+                className="feed-card-example-image feed-card-example-image--thumb"
+                src={item.exampleImageUrl}
+                alt=""
+                loading="lazy"
+              />
+            </div>
           ) : null}
         </button>
         <button
@@ -130,10 +153,27 @@ export default function FeedCard(props) {
       {item.source ? <div className="feed-card-source-chip">{item.source}{item.generation ? ' · ' + item.generation : ''}</div> : null}
       {expanded ? (
         <div className="feed-card-body" data-testid="feed-card-body">
+          {hasLessonExample ? (
+            <div className="feed-card-example feed-card-example--expanded" data-testid="feed-card-example-expanded">
+              {item.exampleCaption ? (
+                <p className="feed-card-example-caption">{item.exampleCaption}</p>
+              ) : null}
+              {item.exampleAbc ? (
+                <TheoryLessonNotation abc={item.exampleAbc} />
+              ) : item.exampleImageUrl ? (
+                <img
+                  className="feed-card-example-image feed-card-example-image--portrait"
+                  src={item.exampleImageUrl}
+                  alt=""
+                  loading="lazy"
+                />
+              ) : null}
+            </div>
+          ) : null}
           {(function() {
             const images = Array.isArray(item.imageUrls) && item.imageUrls.length
               ? item.imageUrls
-              : (item.imageUrl ? [item.imageUrl] : [])
+              : (item.imageUrl && !item.exampleImageUrl ? [item.imageUrl] : [])
             if (!images.length) return null
             return (
               <div className="feed-card-images" data-testid="feed-card-images">

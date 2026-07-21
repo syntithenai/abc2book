@@ -192,7 +192,7 @@ export default function ImportReviewBridge(props) {
   const { session, uiVisible } = useImportReviewStore()
   const abcjsParser = useAbcjsParser()
   const { available: resolverAvailable, features } = useMediaResolverHealth()
-  const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh)
+  const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh)
   const runningJobRef = useRef(null)
   const sessionRef = useRef(null)
   const [pendingAudioFiles, setPendingAudioFiles] = useState([])
@@ -1161,6 +1161,7 @@ export default function ImportReviewBridge(props) {
         tunes={props.tunes}
         token={props.token}
         login={props.login}
+        logout={props.logout}
         requestGoogleScopes={props.requestGoogleScopes}
         forceRefresh={props.forceRefresh}
         searchIndex={props.searchIndex}

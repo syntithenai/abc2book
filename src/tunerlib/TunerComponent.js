@@ -264,7 +264,7 @@ export default function TunerComponent(props) {
   }
 
   function checkInTuneActions(cents, held) {
-    if (held || cents == null || !Number.isFinite(cents)) {
+    if (cents == null || !Number.isFinite(cents)) {
       inTuneSinceRef.current = null
       return
     }
@@ -376,7 +376,21 @@ export default function TunerComponent(props) {
     if (!isChromaticInstrument(instrument)) {
       localStorage.setItem(tuningStorageKey(instrument), presetId)
     }
+    if (props.onPresetChange) {
+      props.onPresetChange({ instrument: instrument, tuningPresetId: presetId })
+    }
   }, [instrument, presetId])
+
+  useEffect(function() {
+    if (!props.pauseAudio) return undefined
+    if (appRef.current) {
+      appRef.current.stopReference()
+      appRef.current.stopInput()
+    }
+    setReferencePlaying(false)
+    setAudioStarted(false)
+    return undefined
+  }, [props.pauseAudio])
 
   useEffect(function() {
     localStorage.setItem(LS_DISPLAY_VIEW, displayView)
@@ -579,41 +593,40 @@ export default function TunerComponent(props) {
               </Form.Select>
             )}
 
-            <Form.Check
-              type="switch"
-              id="tuner-show-advanced"
-              className="tuner-advanced-toggle mb-0"
-              label="Advanced"
-              checked={showAdvanced}
-              onChange={function(e) { setShowAdvanced(e.target.checked) }}
-              onClick={function(e) { e.stopPropagation() }}
-            />
+            <div className="tuner-toggle-group" onClick={function(e) { e.stopPropagation() }}>
+              <Form.Check
+                type="switch"
+                id="tuner-show-advanced"
+                className="tuner-advanced-toggle mb-0"
+                label="Advanced"
+                checked={showAdvanced}
+                onChange={function(e) { setShowAdvanced(e.target.checked) }}
+              />
 
-            {!isChromatic && (
-              <>
-                <Form.Check
-                  type="switch"
-                  id="tuner-auto-advance"
-                  className="tuner-auto-advance-toggle mb-0"
-                  label="Auto next"
-                  checked={autoAdvance}
-                  onChange={function(e) { setAutoAdvance(e.target.checked) }}
-                  onClick={function(e) { e.stopPropagation() }}
-                  title="Advance to next string after 400ms in tune"
-                />
+              {!isChromatic && (
+                <>
+                  <Form.Check
+                    type="switch"
+                    id="tuner-auto-advance"
+                    className="tuner-auto-advance-toggle mb-0"
+                    label="Auto next"
+                    checked={autoAdvance}
+                    onChange={function(e) { setAutoAdvance(e.target.checked) }}
+                    title="Advance to next string after 400ms in tune"
+                  />
 
-                <Form.Check
-                  type="switch"
-                  id="tuner-check-harmonics"
-                  className="tuner-check-harmonics-toggle mb-0"
-                  label="Check Harmonics"
-                  checked={mode === 'intonation'}
-                  onChange={function(e) { toggleCheckHarmonics(e.target.checked) }}
-                  onClick={function(e) { e.stopPropagation() }}
-                  title="Check 12th-fret harmonics against open string tuning"
-                />
-              </>
-            )}
+                  <Form.Check
+                    type="switch"
+                    id="tuner-check-harmonics"
+                    className="tuner-check-harmonics-toggle mb-0"
+                    label="Check Harmonics"
+                    checked={mode === 'intonation'}
+                    onChange={function(e) { toggleCheckHarmonics(e.target.checked) }}
+                    title="Check 12th-fret harmonics against open string tuning"
+                  />
+                </>
+              )}
+            </div>
           </div>
 
           {showAdvanced && (
@@ -709,6 +722,12 @@ export default function TunerComponent(props) {
       {wrongWarn && !dismissedWrong && !isChromatic && mode === 'tune' && (
         <Alert variant="warning" dismissible onClose={function() { setDismissedWrong(true) }}>
           {wrongWarn.message}
+        </Alert>
+      )}
+
+      {instrument === 'guitar' && !isChromatic && (
+        <Alert variant="warning" className="tuner-pluck-hint py-2 mb-2">
+          Pluck the string repeatedly — a single pick often fades before the tuner can lock on or auto-advance.
         </Alert>
       )}
 

@@ -286,7 +286,7 @@ describe('song note filtering', function() {
 describe('mixer type spreading', function() {
   it('does not clump same-type pool cards together', function() {
     const pool = []
-    for (var i = 0; i < 5; i++) pool.push({ id: 'q' + i, type: 'quiz', status: 'queued', createdAt: 1, factHash: 'q' + i })
+    for (var i = 0; i < 5; i++) pool.push({ id: 'n' + i, type: 'news', status: 'queued', createdAt: 1, factHash: 'n' + i })
     for (var j = 0; j < 5; j++) pool.push({ id: 'd' + j, type: 'dyk', status: 'queued', createdAt: 1, factHash: 'd' + j })
     const stream = buildFeedStream({
       poolItems: pool,
@@ -300,6 +300,31 @@ describe('mixer type spreading', function() {
     expect(stream.length).toBe(10)
     for (var k = 1; k < stream.length; k++) {
       expect(stream[k].type).not.toBe(stream[k - 1].type)
+    }
+  })
+
+  it('caps quizzes so they do not dominate a page', function() {
+    const pool = []
+    const quizzes = []
+    for (var i = 0; i < 10; i++) quizzes.push({ id: 'q' + i, type: 'quiz', status: 'queued', createdAt: 1, factHash: 'q' + i, difficulty: 1 })
+    for (var j = 0; j < 10; j++) pool.push({ id: 'd' + j, type: 'dyk', status: 'queued', createdAt: 1, factHash: 'd' + j })
+    const stream = buildFeedStream({
+      poolItems: pool,
+      theoryItems: [],
+      singingItems: [],
+      quizItems: quizzes,
+      skill: 0,
+      instrument: 'mandolin',
+      pageSize: 10,
+      rng: function() { return 0 },
+    })
+    var quizCards = stream.filter(function(c) { return c.type === 'quiz' })
+    expect(quizCards.length).toBeGreaterThanOrEqual(1)
+    expect(quizCards.length).toBeLessThanOrEqual(2)
+    for (var k = 1; k < stream.length; k++) {
+      if (stream[k].type === 'quiz' && stream[k - 1].type === 'quiz') {
+        throw new Error('adjacent quizzes')
+      }
     }
   })
 })

@@ -24,12 +24,24 @@ const ROOT_PC = {
   'F#': 6, Gb: 6, G: 7, 'G#': 8, Ab: 8, A: 9, 'A#': 10, Bb: 10, B: 11,
 }
 
+// Note lengths relative to L:1/4. Only crotchet and longer — no quavers or shorter.
 const DUR = {
   quarter: '',
-  eighth: '/2',
   dottedQuarter: '3/2',
   half: '2',
-  triplet: '/3',
+}
+
+const RHYTHM_TEMPO_SCALE = 0.7
+
+function isVariedRhythm(rhythm) {
+  if (!Array.isArray(rhythm) || rhythm.length === 0) return false
+  return rhythm.some(function(dur) { return dur !== DUR.quarter })
+}
+
+function tempoForRhythm(baseTempo, rhythm) {
+  const tempo = baseTempo || DEFAULT_TEMPO
+  if (!isVariedRhythm(rhythm)) return tempo
+  return Math.max(40, Math.round(tempo * RHYTHM_TEMPO_SCALE))
 }
 
 const VOCAL_SYLLABLES = ['ooh', 'ahh', 'lah', 'pah', 'poo', 'caw', 'cah', 'coo']
@@ -269,7 +281,7 @@ function buildThirdsMidis(key, ctx, options) {
   return midisFromSteps(pairs.concat(pairs.slice(0, -1).reverse()), base)
 }
 
-function catalogExercise(id, minSkill, maxSkill, titleSuffix, action, buildFn, abcOptions) {
+function catalogExercise(id, minSkill, maxSkill, titleSuffix, action, buildFn, abcOptions, rhythm) {
   return {
     id: id,
     minSkill: minSkill,
@@ -278,6 +290,7 @@ function catalogExercise(id, minSkill, maxSkill, titleSuffix, action, buildFn, a
     action: action,
     build: buildFn,
     abcOptions: abcOptions || {},
+    rhythm: rhythm || [DUR.quarter],
   }
 }
 
@@ -290,27 +303,22 @@ function buildWarmupCatalogTemplates() {
       catalogExercise(baseId, minSkill, maxSkill, label, action,
         function(key, ctx) {
           return patternToAbc(key, buildScaleMidis(key, ctx, opts), [DUR.quarter], ctx)
-        }),
-      catalogExercise(baseId + '_eighth', Math.min(10, minSkill + 1), Math.min(10, maxSkill + 1),
-        label + ' (eighth notes)', 'Keep eighth notes even and relaxed.',
-        function(key, ctx) {
-          return patternToAbc(key, buildScaleMidis(key, ctx, opts), [DUR.eighth], ctx, { noteLength: '1/8' })
-        }, { noteLength: '1/8' }),
+        }, {}, [DUR.quarter]),
       catalogExercise(baseId + '_half', minSkill, maxSkill, label + ' (half notes)',
         'Hold each tone with a singing sound.',
         function(key, ctx) {
           return patternToAbc(key, buildScaleMidis(key, ctx, opts), [DUR.half], ctx)
-        }),
+        }, {}, [DUR.half]),
       catalogExercise(baseId + '_dotted', Math.min(10, minSkill + 2), maxSkill, label + ' (dotted rhythm)',
         'Play the long-short pattern steadily.',
         function(key, ctx) {
-          return patternToAbc(key, buildScaleMidis(key, ctx, opts), [DUR.dottedQuarter, DUR.eighth], ctx)
-        }),
+          return patternToAbc(key, buildScaleMidis(key, ctx, opts), [DUR.half, DUR.quarter], ctx)
+        }, {}, [DUR.half, DUR.quarter]),
       catalogExercise(baseId + '_asc', minSkill, maxSkill, label + ' (ascending)',
         'Ascend through the pattern with an even tone.',
         function(key, ctx) {
           return patternToAbc(key, buildScaleMidis(key, ctx, Object.assign({}, opts, { ascending: true })), [DUR.quarter], ctx)
-        })
+        }, {}, [DUR.quarter])
     )
   }
 
@@ -334,22 +342,12 @@ function buildWarmupCatalogTemplates() {
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { mode: 'mixolydian' }), [DUR.quarter], ctx)
       }),
-    catalogExercise('scale_dorian_eighth', 5, 10, ' dorian scale (eighths)',
-      'Keep dorian eighths even.',
-      function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, { mode: 'dorian' }), [DUR.eighth], ctx)
-      }, { noteLength: '1/8' }),
-    catalogExercise('scale_mixolydian_eighth', 5, 10, ' mixolydian scale (eighths)',
-      'Keep mixolydian eighths even.',
-      function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, { mode: 'mixolydian' }), [DUR.eighth], ctx)
-      }, { noteLength: '1/8' }),
     catalogExercise('scale_syncopated', 4, 8, ' syncopated scale',
-      'Keep the pulse steady through the short-long note pattern.',
+      'Keep the pulse steady through the long-short note pattern.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { pentascale: true }),
-          [DUR.eighth, DUR.quarter, DUR.eighth, DUR.quarter], ctx)
-      }),
+          [DUR.half, DUR.quarter, DUR.half, DUR.quarter], ctx)
+      }, {}, [DUR.half, DUR.quarter, DUR.half, DUR.quarter]),
     catalogExercise('scale_two_octave', 8, 10, ' two-octave scale',
       'Play two octaves up and down with an even sound.',
       function(key, ctx) {
@@ -363,13 +361,8 @@ function buildWarmupCatalogTemplates() {
     catalogExercise('waltz_scale', 3, 9, ' waltz rhythm scale',
       'Stress beat one in this 3/4 scale pattern.',
       function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, {}), [DUR.quarter, DUR.eighth, DUR.eighth], ctx)
-      }, { meter: '3/4' }),
-    catalogExercise('jig_scale', 5, 10, ' jig rhythm scale',
-      'Keep the 6/8 lilt steady through the scale.',
-      function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, {}), [DUR.eighth, DUR.eighth, DUR.quarter], ctx)
-      }, { meter: '6/8', noteLength: '1/8' }),
+        return patternToAbc(key, buildScaleMidis(key, ctx, {}), [DUR.quarter, DUR.quarter, DUR.quarter], ctx)
+      }, { meter: '3/4' }, [DUR.quarter, DUR.quarter, DUR.quarter]),
     catalogExercise('march_scale', 2, 7, ' march scale',
       'Steady 2/4 feel through the scale.',
       function(key, ctx) {
@@ -379,8 +372,8 @@ function buildWarmupCatalogTemplates() {
       'Lean into the long-short swing pattern.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, {}),
-          [DUR.dottedQuarter, DUR.eighth, DUR.quarter, DUR.eighth], ctx)
-      })
+          [DUR.dottedQuarter, DUR.quarter, DUR.half], ctx)
+      }, {}, [DUR.dottedQuarter, DUR.quarter, DUR.half])
   )
 
   catalog.push(
@@ -389,21 +382,11 @@ function buildWarmupCatalogTemplates() {
       function(key, ctx) {
         return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.quarter], ctx)
       }),
-    catalogExercise('arpeggio_eighth', 3, 10, ' arpeggio (eighth notes)',
-      'Play the arpeggio in even eighth notes.',
-      function(key, ctx) {
-        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.eighth], ctx)
-      }, { noteLength: '1/8' }),
     catalogExercise('arpeggio_waltz', 3, 9, ' waltz arpeggio',
       'Arpeggiate in a 3/4 feel.',
       function(key, ctx) {
-        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.quarter, DUR.eighth, DUR.eighth], ctx)
-      }, { meter: '3/4' }),
-    catalogExercise('arpeggio_jig', 5, 10, ' jig arpeggio',
-      'Play arpeggios with a jig rhythm.',
-      function(key, ctx) {
-        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.eighth, DUR.eighth, DUR.quarter], ctx)
-      }, { meter: '6/8', noteLength: '1/8' }),
+        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.quarter, DUR.quarter, DUR.quarter], ctx)
+      }, { meter: '3/4' }, [DUR.quarter, DUR.quarter, DUR.quarter]),
     catalogExercise('arpeggio_asc', 2, 7, ' ascending arpeggio',
       'Ascend the arpeggio with a steady pulse.',
       function(key, ctx) {
@@ -412,45 +395,45 @@ function buildWarmupCatalogTemplates() {
     catalogExercise('arpeggio_dotted', 4, 9, ' dotted arpeggio',
       'Use a dotted rhythm on each arpeggio figure.',
       function(key, ctx) {
-        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.dottedQuarter, DUR.eighth], ctx)
-      }),
+        return patternToAbc(key, buildArpeggioMidis(key, ctx, {}), [DUR.half, DUR.quarter], ctx)
+      }, {}, [DUR.half, DUR.quarter]),
     catalogExercise('arpeggio_long', 2, 6, ' long-tone arpeggio',
       'Hold the longer notes, then connect smoothly to the next.',
       function(key, ctx) {
         return patternToAbc(key, buildArpeggioMidis(key, ctx, { ascending: true }), [DUR.half, DUR.quarter], ctx)
-      })
+      }, {}, [DUR.half, DUR.quarter])
   )
 
   catalog.push(
     catalogExercise('thirds', 4, 10, ' scale in thirds',
       'Play each pair of scale steps: up a third, then move to the next pair.',
       function(key, ctx) {
-        return patternToAbc(key, buildThirdsMidis(key, ctx, {}), [DUR.quarter, DUR.eighth], ctx)
+        return patternToAbc(key, buildThirdsMidis(key, ctx, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('sequence', 5, 10, ' scale sequence',
       'Play the 1-2-3, 2-3-4 pattern ascending through the scale.',
       function(key, ctx) {
-        return patternToAbc(key, buildSequenceMidis(key, ctx, {}), [DUR.eighth, DUR.eighth, DUR.quarter], ctx)
+        return patternToAbc(key, buildSequenceMidis(key, ctx, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('interval_third', 3, 8, ' third hops',
       'Repeat third leaps on each scale tone.',
       function(key, ctx) {
-        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 4, {}), [DUR.quarter, DUR.eighth], ctx)
+        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 4, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('interval_fourth', 4, 9, ' fourth hops',
       'Focus on repeated fourths.',
       function(key, ctx) {
-        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 5, {}), [DUR.quarter, DUR.eighth], ctx)
+        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 5, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('interval_fifth', 5, 10, ' fifth hops',
       'Leap to the fifth above each scale tone and return.',
       function(key, ctx) {
-        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 7, {}), [DUR.quarter, DUR.eighth], ctx)
+        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 7, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('interval_octave', 6, 10, ' octave hops',
       'Alternate each tone with its octave.',
       function(key, ctx) {
-        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 12, {}), [DUR.quarter, DUR.eighth], ctx)
+        return patternToAbc(key, buildIntervalFocusMidis(key, ctx, 12, {}), [DUR.quarter], ctx)
       }),
     catalogExercise('neighbor_tones', 4, 8, ' neighbor tones',
       'Play each tone, step above, then return.',
@@ -462,7 +445,7 @@ function buildWarmupCatalogTemplates() {
         steps.forEach(function(step) {
           neighbors.push(step, step + 1, step)
         })
-        return patternToAbc(key, midisFromSteps(neighbors, base), [DUR.eighth, DUR.eighth, DUR.quarter], ctx)
+        return patternToAbc(key, midisFromSteps(neighbors, base), [DUR.quarter], ctx)
       }),
     catalogExercise('chromatic_approach', 7, 10, ' chromatic approach',
       'Approach each scale tone from a half step below.',
@@ -474,25 +457,25 @@ function buildWarmupCatalogTemplates() {
         steps.forEach(function(step) {
           chrom.push(step - 1, step)
         })
-        return patternToAbc(key, midisFromSteps(chrom, base), [DUR.eighth, DUR.quarter], ctx)
-      }),
+        return patternToAbc(key, midisFromSteps(chrom, base), [DUR.quarter, DUR.half], ctx)
+      }, {}, [DUR.quarter, DUR.half]),
     catalogExercise('mixed_rhythm_scale', 5, 10, ' mixed rhythm scale',
-      'Combine quarter and eighth notes evenly.',
+      'Combine quarter and half notes evenly.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, {}),
-          [DUR.quarter, DUR.eighth, DUR.eighth, DUR.quarter], ctx)
-      }),
+          [DUR.quarter, DUR.half, DUR.quarter, DUR.half], ctx)
+      }, {}, [DUR.quarter, DUR.half, DUR.quarter, DUR.half]),
     catalogExercise('long_tone_scale', 1, 4, ' long-tone scale',
       'Sustain each scale degree, then move smoothly.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { ascending: true, pentascale: true }), [DUR.half], ctx)
-      }),
+      }, {}, [DUR.half]),
     catalogExercise('pickup_scale', 3, 7, ' pickup scale',
-      'Lead into the downbeat with a short pickup.',
+      'Lead into the downbeat with a longer pickup.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { ascending: true, pentascale: true }),
-          [DUR.eighth, DUR.quarter, DUR.quarter, DUR.quarter], ctx)
-      }),
+          [DUR.half, DUR.quarter, DUR.quarter, DUR.quarter], ctx)
+      }, {}, [DUR.half, DUR.quarter, DUR.quarter, DUR.quarter]),
     catalogExercise('echo_scale', 2, 6, ' call-and-response scale',
       'Play each degree twice before moving on.',
       function(key, ctx) {
@@ -503,25 +486,19 @@ function buildWarmupCatalogTemplates() {
         steps.forEach(function(step) {
           echoed.push(step, step)
         })
-        return patternToAbc(key, midisFromSteps(echoed, base), [DUR.quarter, DUR.eighth], ctx)
-      }),
+        return patternToAbc(key, midisFromSteps(echoed, base), [DUR.quarter, DUR.half], ctx)
+      }, {}, [DUR.quarter, DUR.half]),
     catalogExercise('dorian_waltz', 5, 10, ' dorian waltz',
       'Dorian mode in 3/4.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { mode: 'dorian', pentascale: true }),
-          [DUR.quarter, DUR.eighth, DUR.eighth], ctx)
-      }, { meter: '3/4' }),
-    catalogExercise('mixolydian_jig', 6, 10, ' mixolydian jig',
-      'Mixolydian colors with a jig feel.',
-      function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, { mode: 'mixolydian' }),
-          [DUR.eighth, DUR.eighth, DUR.quarter], ctx)
-      }, { meter: '6/8', noteLength: '1/8' }),
+          [DUR.quarter, DUR.quarter, DUR.quarter], ctx)
+      }, { meter: '3/4' }, [DUR.quarter, DUR.quarter, DUR.quarter]),
     catalogExercise('thirds_waltz', 5, 10, ' thirds in waltz time',
       'Scale thirds with a waltz pulse.',
       function(key, ctx) {
-        return patternToAbc(key, buildThirdsMidis(key, ctx, {}), [DUR.quarter, DUR.eighth, DUR.eighth], ctx)
-      }, { meter: '3/4' }),
+        return patternToAbc(key, buildThirdsMidis(key, ctx, {}), [DUR.quarter, DUR.quarter, DUR.quarter], ctx)
+      }, { meter: '3/4' }, [DUR.quarter, DUR.quarter, DUR.quarter]),
     catalogExercise('fifth_march', 4, 8, ' fifth hops march',
       'Marching fifth leaps in 2/4.',
       function(key, ctx) {
@@ -531,12 +508,6 @@ function buildWarmupCatalogTemplates() {
       'Mostly stepping motion with a calm pulse.',
       function(key, ctx) {
         return patternToAbc(key, buildScaleMidis(key, ctx, { pentascale: true }), [DUR.quarter], ctx, { noChords: true })
-      }),
-    catalogExercise('voice_gentle_steps_quaver', 3, 10, ' gentle steps with quavers',
-      'Mostly crotchets with occasional quaver pairs.',
-      function(key, ctx) {
-        return patternToAbc(key, buildScaleMidis(key, ctx, { pentascale: true }),
-          [DUR.quarter, DUR.eighth, DUR.eighth, DUR.quarter], ctx, { noChords: true })
       })
   )
 
@@ -581,19 +552,22 @@ export function getWarmupCatalog(instrumentId, skillLevel, options) {
     })
   }
 
-  // Ensure about TARGET_CATALOG_SIZE entries by cloning with meter variants if needed
+  // Ensure about TARGET_CATALOG_SIZE entries by cloning with meter/rhythm variants if needed
   if (eligible.length < TARGET_CATALOG_SIZE) {
     const extras = []
     const meters = [
-      { suffix: '_m34', meter: '3/4', rhythm: [DUR.quarter, DUR.eighth, DUR.eighth] },
-      { suffix: '_m68', meter: '6/8', rhythm: [DUR.eighth, DUR.eighth, DUR.quarter], noteLength: '1/8' },
+      { suffix: '_m34', meter: '3/4', rhythm: [DUR.quarter, DUR.quarter, DUR.quarter] },
       { suffix: '_m24', meter: '2/4', rhythm: [DUR.quarter, DUR.quarter] },
+      { suffix: '_halfpulse', meter: '4/4', rhythm: [DUR.half, DUR.half] },
+      { suffix: '_longshort', meter: '4/4', rhythm: [DUR.half, DUR.quarter] },
     ]
-    eligible.forEach(function(item) {
+    const seed = eligible.slice()
+    seed.forEach(function(item) {
       if (eligible.length + extras.length >= TARGET_CATALOG_SIZE) return
       meters.forEach(function(m) {
         if (eligible.length + extras.length >= TARGET_CATALOG_SIZE) return
-        if (item.abcOptions && item.abcOptions.meter && item.abcOptions.meter === m.meter) return
+        if (item.abcOptions && item.abcOptions.meter && item.abcOptions.meter === m.meter
+          && m.suffix.indexOf('m') === 1) return
         const variantId = item.id + m.suffix
         if (eligible.some(function(e) { return e.id === variantId })
           || extras.some(function(e) { return e.id === variantId })) return
@@ -601,24 +575,25 @@ export function getWarmupCatalog(instrumentId, skillLevel, options) {
           variantId,
           item.minSkill,
           item.maxSkill,
-          (typeof item.title === 'function' ? '' : '') + ' variant',
+          ' variant',
           item.action,
           function(key, ctx) {
-            const built = item.build(key, ctx)
-            // Rebuild scale with variant rhythm when original returns body
             const midis = buildScaleMidis(key, ctx, { pentascale: skill <= 4 })
             return patternToAbc(key, midis, m.rhythm, ctx)
           },
           Object.assign({}, item.abcOptions || {}, {
             meter: m.meter,
-            noteLength: m.noteLength || (item.abcOptions && item.abcOptions.noteLength) || '1/4',
-          })
+            noteLength: '1/4',
+          }),
+          m.rhythm
         ))
-        // Fix variant title
         const last = extras[extras.length - 1]
         const baseTitle = item.title
+        const label = m.suffix.indexOf('m') === 1 ? m.meter : (
+          m.suffix === '_halfpulse' ? 'half notes' : 'long-short'
+        )
         last.title = function(key) {
-          return baseTitle(key) + ' (' + m.meter + ')'
+          return baseTitle(key) + ' (' + label + ')'
         }
       })
     })
@@ -654,16 +629,14 @@ export function selectWarmupsForSession(key, skillLevel, options, maxCount) {
       noteCount = Math.max(1, letters ? letters.length : 1)
     }
     const abcOpts = Object.assign({}, opts, item.abcOptions || {})
+    // Warmups always use crotchet unit — never collapse DUR to quavers via L:1/8.
+    abcOpts.noteLength = '1/4'
+    abcOpts.tempo = tempoForRhythm(abcOpts.tempo || opts.tempo || DEFAULT_TEMPO, item.rhythm)
     if (typeof built === 'object' && built && built.midis && built.midis.length) {
       abcOpts.firstMidi = built.midis[0]
     }
     if (ctx.isVoice) {
       abcOpts.lyricsLine = lyricsForNoteCount(Math.max(1, noteCount), skill, item.id.length + skill)
-      abcOpts.noteLength = abcOpts.noteLength || '1/4'
-      // Voice prefers crotchets: avoid forcing 1/8 from catalog unless already set for jig
-      if (skill <= 6 && abcOpts.meter !== '6/8') {
-        abcOpts.noteLength = '1/4'
-      }
     }
     selected.push(Object.assign(makeWarmup(item.id, title, keyName, body, abcOpts), {
       action: item.action,

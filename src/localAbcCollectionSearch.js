@@ -3,6 +3,7 @@ import utilsFunctions from './utilsFunctions'
 import { buildLocalAbcChordCandidate } from './localAbcChordSheet'
 import { getPlainLyricLines } from './wLinesUtils'
 import { lyricsPreview } from './lyricsParseUtils'
+import { isUsableLyricContent } from './lyricsQualityUtils'
 import {
   compareSearchResults,
   LOCAL_SEARCH_DISPLAY_LIMIT,
@@ -264,20 +265,27 @@ export async function searchLocalCollectionLyrics(options) {
     tunes.forEach(function(tune, settingIndex) {
       const lines = getPlainLyricLines(tune)
       if (!lines.length) return
-      const text = lines.join('\n')
+      const quality = isUsableLyricContent(lines)
+      if (!quality.ok || !(quality.lines || []).some(function(line) {
+        return String(line || '').trim()
+      })) {
+        return
+      }
+      const usableLines = quality.lines
+      const text = usableLines.join('\n')
       const source = localCollectionSourceLabel(result)
       const settingTitle = tunes.length > 1
         ? result.name + ' — setting ' + (settingIndex + 1)
         : result.name
       candidates.push({
         text: text,
-        lines: lines,
+        lines: usableLines,
         stanzas: [],
         title: settingTitle,
         artist: tune ? primaryArtist(tune) : '',
         source: source || 'local collection',
         sourceUrl: '',
-        preview: lyricsPreview(lines),
+        preview: lyricsPreview(usableLines),
         titleOnly: false,
       })
     })

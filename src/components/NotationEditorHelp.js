@@ -317,6 +317,8 @@ export default function NotationEditorHelp(props) {
                 <li><kbd>Shift</kbd>+click — contiguous range from the anchor to the clicked event.</li>
                 <li><kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+click — toggle an event in or out of the selection.</li>
                 <li><strong>Drag on empty staff</strong> — marquee-select events whose glyphs intersect the box.</li>
+                <li><strong>Horizontal drag across notes</strong> — marquee-select (no Shift key needed).</li>
+                <li><strong>Touch</strong> — after selecting one note, tap others to add or remove them.</li>
                 <li><strong>Double-click</strong> a note — select the whole measure (through that measure&apos;s bar line).</li>
                 <li><kbd>←</kbd>/<kbd>→</kbd> — move selection to previous/next event (works even if the staff left focus on the page body).</li>
                 <li><kbd>Shift</kbd>+<kbd>←</kbd>/<kbd>→</kbd> — extend the selection from the anchor.</li>

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { Modal, Button } from 'react-bootstrap'
 import Abc from './Abc'
 import PracticeTuneDisplay from './PracticeTuneDisplay'
@@ -6,6 +6,7 @@ import PracticeSessionPlaybackHost from './PracticeSessionPlaybackHost'
 import PracticePlaybackStatus from './PracticePlaybackStatus'
 import PracticeAccuracyOverlay from './PracticeAccuracyOverlay'
 import PracticeWarmupPitchRoll from './PracticeWarmupPitchRoll'
+import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import { getPracticeSessionCopy, formatPracticeTimeRemaining } from '../practiceSessionCopy'
 import { loadPracticeSettings, mergePracticeSettings, clampReferenceGain } from '../practiceSessionSettings'
 import PracticeTapToPlayPrompt from './PracticeTapToPlayPrompt'
@@ -34,6 +35,31 @@ export default function PracticeSessionModal(props) {
   const warmupPlaybackRef = useRef(null)
   const prevWarmupRunRef = useRef(0)
   const [practiceSettings, setPracticeSettings] = useState(function() { return loadPracticeSettings() })
+  const [tuneLayoutNeeds, setTuneLayoutNeeds] = useState({
+    fitHeight: false,
+    needsNotationScroll: false,
+    hasLyrics: false,
+    lyricLineCount: 0,
+  })
+  const handleTuneLayoutNeeds = useCallback(function(needs) {
+    setTuneLayoutNeeds(function(prev) {
+      const next = needs || {}
+      if (
+        prev.fitHeight === !!next.fitHeight
+        && prev.needsNotationScroll === !!next.needsNotationScroll
+        && prev.hasLyrics === !!next.hasLyrics
+        && prev.lyricLineCount === (next.lyricLineCount || 0)
+      ) {
+        return prev
+      }
+      return {
+        fitHeight: !!next.fitHeight,
+        needsNotationScroll: !!next.needsNotationScroll,
+        hasLyrics: !!next.hasLyrics,
+        lyricLineCount: next.lyricLineCount || 0,
+      }
+    })
+  }, [])
   const resolverHealth = useMediaResolverHealth()
   const accuracyEnabled = practiceSettings.accuracyCheckingEnabled
     && currentStep && currentStep.type === 'warmup'
@@ -397,6 +423,22 @@ export default function PracticeSessionModal(props) {
             </div>
           )}
           <div className="practice-session-header-right">
+            {!isEnded && currentStep && currentStep.type === 'tune' && tune && (
+              (tuneLayoutNeeds.needsNotationScroll || tuneLayoutNeeds.lyricLineCount > 12) ? (
+                <LyricsAutoscrollModal
+                  tune={tune}
+                  tunebook={props.tunebook}
+                  mediaController={props.mediaController}
+                  mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null
+                    ? props.mediaController.mediaLinkNumber
+                    : 0}
+                  musicSingleSelector=".practice-session-scroll-root"
+                  barLayout="gig-inline"
+                  buttonVariant="outline-secondary"
+                  buttonSize="sm"
+                />
+              ) : null
+            )}
             {!isEnded ? (
               <>
                 {showPauseControl ? (
@@ -534,11 +576,21 @@ export default function PracticeSessionModal(props) {
         ) : null}
 
         {currentStep && currentStep.type === 'tune' && tune ? (
-          <div className="practice-session-tune-display">
+          <div
+            className={
+              'practice-session-tune-display practice-session-scroll-root'
+              + (tuneLayoutNeeds.fitHeight ? ' practice-session-scroll-root--fit-height' : '')
+              + ((tuneLayoutNeeds.needsNotationScroll || tuneLayoutNeeds.lyricLineCount > 12)
+                ? ' practice-session-scroll-root--scrollable'
+                : '')
+            }
+          >
             <PracticeTuneDisplay
+              key={String(tune.id) + '-' + String(props.practiceViewMode || 'music')}
               tune={tune}
               tunebook={props.tunebook}
               viewMode={props.practiceViewMode}
+              onLayoutNeeds={handleTuneLayoutNeeds}
             />
             <PracticeSessionPlaybackHost
               active={!!props.show && !isEnded}

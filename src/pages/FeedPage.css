@@ -44,6 +44,8 @@
   position: relative;
   background: #fff;
   border: 1px solid #d7dde5;
+  border-left-width: 4px;
+  border-left-color: #c5ced8;
   border-radius: 0.5rem;
   margin-bottom: 0.85rem;
   padding: 0.85rem 1rem 1rem;
@@ -51,8 +53,54 @@
   touch-action: pan-y;
 }
 
+/* Type accents — quizzes use the strongest contrast */
+.feed-card--quiz {
+  border-left-color: #7c3aed;
+  background: linear-gradient(135deg, #faf5ff 0%, #fff 55%);
+  box-shadow: 0 1px 3px rgba(124, 58, 237, 0.12);
+}
+
+.feed-card--wiki {
+  border-left-color: #0891b2;
+  background: linear-gradient(135deg, #ecfeff 0%, #fff 55%);
+}
+
+.feed-card--story {
+  border-left-color: #2563eb;
+  background: linear-gradient(135deg, #eff6ff 0%, #fff 55%);
+}
+
+.feed-card--dyk {
+  border-left-color: #d97706;
+  background: linear-gradient(135deg, #fffbeb 0%, #fff 55%);
+}
+
+.feed-card--theory {
+  border-left-color: #059669;
+  background: linear-gradient(135deg, #ecfdf5 0%, #fff 55%);
+}
+
+.feed-card--singing {
+  border-left-color: #db2777;
+  background: linear-gradient(135deg, #fdf2f8 0%, #fff 55%);
+}
+
+.feed-card--warmup {
+  border-left-color: #ea580c;
+  background: linear-gradient(135deg, #fff7ed 0%, #fff 55%);
+}
+
+.feed-card--default {
+  border-left-color: #94a3b8;
+}
+
 .feed-card-new {
   border-color: #0d6efd;
+}
+
+.feed-card--quiz.feed-card-new {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.25), 0 2px 6px rgba(124, 58, 237, 0.15);
 }
 
 .feed-card-header {
@@ -74,9 +122,59 @@
   display: flex;
   gap: 0.5rem;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.feed-card-type-badge {
+  flex: 0 0 auto;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  padding: 0.2rem 0.5rem;
+  line-height: 1.2;
+  color: #475569;
+  background: #e8edf2;
+}
+
+.feed-card--quiz .feed-card-type-badge {
+  color: #5b21b6;
+  background: #ede9fe;
+}
+
+.feed-card--wiki .feed-card-type-badge {
+  color: #0e7490;
+  background: #cffafe;
+}
+
+.feed-card--story .feed-card-type-badge {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.feed-card--dyk .feed-card-type-badge {
+  color: #b45309;
+  background: #fde68a;
+}
+
+.feed-card--theory .feed-card-type-badge {
+  color: #047857;
+  background: #d1fae5;
+}
+
+.feed-card--singing .feed-card-type-badge {
+  color: #be185d;
+  background: #fce7f3;
+}
+
+.feed-card--warmup .feed-card-type-badge {
+  color: #c2410c;
+  background: #ffedd5;
 }
 
 .feed-card-headline {
+  flex: 1 1 12rem;
   font-size: 1.1rem;
   margin: 0;
   line-height: 1.3;
@@ -162,6 +260,59 @@
   overflow-x: auto;
 }
 
+.feed-card-example {
+  margin-top: 0.65rem;
+  padding: 0.55rem 0.65rem;
+  border-radius: 0.4rem;
+  background: rgba(5, 150, 105, 0.06);
+  border: 1px solid rgba(5, 150, 105, 0.18);
+}
+
+.feed-card--theory .feed-card-example {
+  background: rgba(5, 150, 105, 0.08);
+}
+
+.feed-card-example-caption {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #047857;
+}
+
+.theory-lesson-notation {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.theory-lesson-notation svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.feed-card-example--expanded .theory-lesson-notation {
+  min-height: 0;
+}
+
+.feed-card-example-image {
+  display: block;
+  width: 100%;
+  border-radius: 0.35rem;
+  background: #f4f7fa;
+  object-fit: contain;
+}
+
+.feed-card-example-image--thumb {
+  max-height: 8rem;
+}
+
+.feed-card-example-image--portrait {
+  max-height: none;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
 .feed-card-images {
   display: flex;
   gap: 0.5rem;
@@ -245,6 +396,13 @@
 
 .feed-scroll-sentinel {
   height: 1px;
+}
+
+.feed-caught-up {
+  padding: 1.25rem 0.5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #678;
 }
 
 .feed-updating {

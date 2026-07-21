@@ -2,6 +2,8 @@
  * Structural quality gate for feed content modules.
  */
 
+import { getTheoryLessonExample, getTheoryLessonExampleMeta } from './feedTheoryExamples'
+
 var ACTION_RE = /\b(hum|breathe|sing|mark|glide|try|feel|notice|hold|sip|stop|practice|speak|listen|count|map|open|release|slide)\b/i
 
 export function assertModuleQuality(module) {
@@ -21,6 +23,12 @@ export function assertModuleQuality(module) {
   if (kind === 'theory_lesson') {
     if (body.length < 400) errors.push('theory body too short')
     if (body.split(/\n\n+/).filter(Boolean).length < 2) errors.push('theory needs >=2 paragraphs')
+    const exMeta = getTheoryLessonExampleMeta(module.id)
+    if (!exMeta || (!exMeta.abc && !exMeta.imageUrl)) {
+      errors.push('theory example (abc or image) required')
+    } else if (exMeta.kind !== 'image' && !getTheoryLessonExample(module.id) && !exMeta.imageUrl) {
+      errors.push('theory example abc must render')
+    }
     const quizzes = Array.isArray(module.quizzes) ? module.quizzes : []
     if (quizzes.length < 2) errors.push('theory needs >=2 quizzes')
     quizzes.forEach(function(q) {

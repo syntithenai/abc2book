@@ -43,6 +43,7 @@ describe('practiceSessionSettings', function() {
     const high = getWarmupOptionsForSkill(10, { key: 'D' })
     expect(low.tempo).toBeLessThan(high.tempo)
     expect(low.noteLength).toBe('1/4')
+    expect(high.noteLength).toBe('1/4')
   })
 
   it('uses slower warmup tempo for voice', function() {

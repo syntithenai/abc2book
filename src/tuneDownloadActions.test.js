@@ -4,6 +4,8 @@ import {
   tunesToLyricsText,
   linkedAudioDownloadFormat,
   isLinkedAudioDownloadFormat,
+  isTuneDownloadFormatDisabled,
+  getTuneDownloadStartToastMessage,
 } from './tuneDownloadActions'
 
 describe('tuneDownloadActions', function() {
@@ -52,5 +54,26 @@ describe('tuneDownloadActions', function() {
     expect(isLinkedAudioDownloadFormat('linked-audio-mp3')).toBe(true)
     expect(isLinkedAudioDownloadFormat('linked-audio-wav')).toBe(true)
     expect(isLinkedAudioDownloadFormat('midi')).toBe(false)
+  })
+
+  test('allows audio and midi downloads for notation-only tunes', function() {
+    var tunebook = {
+      hasNotesOrChords: function(tune) {
+        return !!(tune && tune.notes)
+      },
+      utils: {
+        isYoutubeLink: function() { return false },
+      },
+    }
+    var tunes = [{ id: 't1', name: 'Tune', notes: 'CDEF' }]
+    expect(isTuneDownloadFormatDisabled('midi', tunes, tunebook)).toBe(false)
+    expect(isTuneDownloadFormatDisabled('linked-audio', tunes, tunebook)).toBe(false)
+    expect(isTuneDownloadFormatDisabled('linked-audio', [{ id: 't2', name: 'Empty' }], tunebook)).toBe(true)
+  })
+
+  test('builds starting download toast messages', function() {
+    expect(getTuneDownloadStartToastMessage('abc', 1)).toContain('Starting download')
+    expect(getTuneDownloadStartToastMessage('linked-audio', 2)).toContain('Starting audio download')
+    expect(getTuneDownloadStartToastMessage('midi', 1)).toContain('Starting MIDI download')
   })
 })

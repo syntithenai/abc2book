@@ -201,7 +201,13 @@ export default function useLyricsAutoscroll(options) {
     isScrollingRef.current = true;
     setIsScrolling(true);
     setActiveLyricsAutoscrollSession({ nudgeByPixels: nudgeByPixels });
-    rafRef.current = requestAnimationFrame(tick);
+    // Re-read after the start scroll settles so sticky headers / notation pin
+    // do not look like a manual scroll and stop the session immediately.
+    rafRef.current = requestAnimationFrame(function(timestamp) {
+      if (!isScrollingRef.current) return;
+      lastAppliedYRef.current = readLyricsScrollPosition(scrollStateRef.current);
+      tick(timestamp);
+    });
   }, [
     scrollToLyricsTop,
     cancelAnimation,

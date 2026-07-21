@@ -506,10 +506,40 @@
 
 .practice-session-tune-display {
   margin-top: 0.5rem;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-session-scroll-root {
+  min-height: 0;
+}
+
+.practice-session-scroll-root--fit-height {
+  overflow: hidden;
+}
+
+.practice-session-scroll-root--scrollable {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .practice-tune-display {
   max-width: 100%;
+}
+
+.practice-tune-paper--fit-height {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-tune-paper--fit-height .practice-tune-notation {
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 .practice-tune-split {

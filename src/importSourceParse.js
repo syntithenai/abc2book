@@ -16,6 +16,7 @@ import { parseBulkLine } from './bulkListFormat';
 import { transcribeSheetImageFile } from './sheetImageTranscriptionClient';
 import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from './sheetImageImportUtils';
 import { createImportCandidate } from './importReviewSession';
+import { ensurePlainWordsFromNoteAlignedLyrics } from './wLinesUtils';
 
 const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong'];
 
@@ -71,6 +72,7 @@ export function abcTextToCandidates(abcText, tunebook, book) {
     } else if (book) {
       tune.books = [book];
     }
+    ensurePlainWordsFromNoteAlignedLyrics(tune);
     return {
       tune: tune,
       sourceKind: 'abc',

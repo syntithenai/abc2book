@@ -1,5 +1,6 @@
 import { toast } from 'react-toastify'
-import { setPlainLyricLines, lyricLinesToText } from './wLinesUtils'
+import { setPlainLyricLines, lyricLinesToText, ensurePlainWordsFromNoteAlignedLyrics } from './wLinesUtils'
+import { isUsableLyricContent } from './lyricsQualityUtils'
 import { needsComposerDiscovery } from './composerDiscoveryUtils'
 import { isGenericArtist } from './genericArtistUtils'
 
@@ -131,8 +132,11 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     const lines = Array.isArray(candidate.lines)
       ? candidate.lines
       : String(candidate.text || '').split(/\r?\n/)
-    if (!lines.some(function(line) { return String(line || '').trim() })) return false
-    setPlainLyricLines(tune, lines)
+    const quality = isUsableLyricContent(lines)
+    if (!quality.ok || !quality.lines.some(function(line) { return String(line || '').trim() })) {
+      return false
+    }
+    setPlainLyricLines(tune, quality.lines)
     return true
   }
   if (kind === 'notation' && abcTools && typeof abcTools.abc2json === 'function') {
@@ -144,6 +148,10 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     if (imported.notes) tune.notes = imported.notes
     if (imported.key && !tune.key) tune.key = imported.key
     if (imported.meter && !tune.meter) tune.meter = imported.meter
+    if (Array.isArray(imported.wLines) && imported.wLines.length) {
+      tune.wLines = imported.wLines.slice()
+    }
+    ensurePlainWordsFromNoteAlignedLyrics(tune)
     return true
   }
   if (kind === 'chords') {

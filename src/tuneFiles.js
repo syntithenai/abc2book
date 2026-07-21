@@ -171,6 +171,9 @@ export async function createTuneFileFromBlob(options) {
 
   const fileId = utils.generateObjectId()
   const b64 = await utils.blobToBase64(blob)
+  if (!b64) {
+    throw new Error('Could not encode file data')
+  }
   const shouldUpload = !!(uploadToDrive && token && driveApi)
   const record = {
     id: fileId,
@@ -179,6 +182,9 @@ export async function createTuneFileFromBlob(options) {
     name: name,
     type: type,
     data: b64,
+    // Keep the Blob alongside base64 so OCR/resolve can use it even if
+    // localforage drops or fails to revive the data URL for large screenshots.
+    blob: blob,
     source: source,
     googleId: null,
     uploadPending: shouldUpload,
@@ -236,6 +242,7 @@ export async function updateTuneFileBlob(options) {
   const type = opts.type || (blob && blob.type) || (existing && existing.type) || 'image/png'
   const name = opts.name || (existing && existing.name) || 'File'
   const b64 = await utils.blobToBase64(blob)
+  if (!b64) throw new Error('Could not encode file data')
   const shouldUpload = !!(uploadToDrive && token && driveApi)
   const record = Object.assign({}, existing || {}, {
     id: fileId,
@@ -244,6 +251,7 @@ export async function updateTuneFileBlob(options) {
     name: name,
     type: type,
     data: b64,
+    blob: blob,
     googleId: existing && existing.googleId ? existing.googleId : null,
     uploadPending: shouldUpload || !(existing && existing.googleId),
     updatedTimestamp: new Date(),

@@ -53,6 +53,26 @@ export function getPlainLyricLines(tune) {
   return [];
 }
 
+/**
+ * When MusicXML/MuseScore import produced note-aligned wLines but no block
+ * lyrics, fill plain `words` for the lyrics panel without overwriting existing
+ * autofilled/block lyrics.
+ * @returns {boolean} true if words were filled
+ */
+export function ensurePlainWordsFromNoteAlignedLyrics(tune) {
+  if (!tune) return false;
+  const hasWords = Array.isArray(tune.words) && tune.words.some(function(line) {
+    return String(line || '').trim();
+  });
+  if (hasWords) return false;
+  const wLines = Array.isArray(tune.wLines) ? tune.wLines : [];
+  if (!wLines.some(function(line) { return String(line || '').trim(); })) return false;
+  tune.words = wLines.map(function(line) {
+    return lyricLineHasNoteSpacing(line) ? stripNoteSpacingFromLine(line) : String(line || '');
+  });
+  return true;
+}
+
 export function setPlainLyricLines(tune, lines) {
   if (!tune) return;
   tune.words = Array.isArray(lines) ? lines.slice() : String(lines || '').split('\n');

@@ -34,8 +34,12 @@ describe('chordSearchSites paste helpers', function() {
     expect(picked.url).toBe(buildUltimateGuitarSearchUrl('Wonderwall', 'Oasis'))
   })
 
-  test('pickNotationPasteCandidate prefers MuseScore manuals', function() {
-    const { pickNotationPasteCandidate, isMuseScoreUrl } = require('./chordSearchSites')
+  test('pickNotationPasteCandidate prefers MuseScore manuals then search', function() {
+    const {
+      pickNotationPasteCandidate,
+      isMuseScoreUrl,
+      buildMuseScoreSearchUrl,
+    } = require('./chordSearchSites')
     expect(isMuseScoreUrl('https://musescore.com/user/1/scores/2')).toBe(true)
     const picked = pickNotationPasteCandidate([
       {
@@ -46,6 +50,9 @@ describe('chordSearchSites paste helpers', function() {
       },
     ], 'Song', 'Artist')
     expect(picked.url).toContain('musescore.com')
-    expect(pickNotationPasteCandidate([], 'Song', 'Artist')).toBe(null)
+    expect(picked.searchFallback).toBeFalsy()
+    const fallback = pickNotationPasteCandidate([], 'Song', 'Artist')
+    expect(fallback.searchFallback).toBe(true)
+    expect(fallback.url).toBe(buildMuseScoreSearchUrl('Song', 'Artist'))
   })
 })

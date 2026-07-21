@@ -41,6 +41,23 @@ TRANSLATION_LANGUAGE_RE = re.compile(
     re.I,
 )
 
+TAB_STAFF_LINE_RE = re.compile(r"^[eadgbEADGB]\s*\|[-0-9hpbrx/\\~().=*sS\s|]+$")
+NNTP_HEADER_RE = re.compile(
+    r"^(?:Path|Newsgroups|Message-ID|Xref|NNTP-Posting-Host|Organization|"
+    r"Reply-To|Followup-To|References|X-Newsreader)\s*:",
+    re.I,
+)
+USENET_ARTICLE_RE = re.compile(r"^Article:\s*\d+", re.I)
+TAB_SUBJECT_RE = re.compile(r"\bTAB\s*:", re.I)
+GUITAR_TECH_RE = re.compile(
+    r"\b(?:pull-?offs?|hammer-?ons?|slide|bends?|tremolo|barre|barres|"
+    r"fingering|adagio\s+sostenuto)\b",
+    re.I,
+)
+FINGER_ONLY_RE = re.compile(r"^(?:[1-4]\s*){2,}$")
+ROMAN_BARRE_RE = re.compile(r"^(?:I{1,3}|IV|VI{0,3}|IX|X{0,3})\.{2,}")
+MOSTLY_SYMBOL_RE = re.compile(r"^[\d\s|./\\~\-=*hpbrxX()]+$")
+
 AZLYRICS_BODY_RE = re.compile(
     r"<!-- Usage of azlyrics\.com content.*?-->\s*(.*?)</div>",
     re.S | re.I,
@@ -162,6 +179,93 @@ def is_noise_line(line):
     return False
 
 
+def is_tab_staff_line(line):
+    return bool(TAB_STAFF_LINE_RE.match(str(line or "").strip()))
+
+
+def is_usenet_or_tab_meta_line(line):
+    text = str(line or "").strip()
+    if not text:
+        return False
+    if NNTP_HEADER_RE.match(text):
+        return True
+    if USENET_ARTICLE_RE.match(text):
+        return True
+    if TAB_SUBJECT_RE.search(text):
+        return True
+    if FINGER_ONLY_RE.match(text):
+        return True
+    if ROMAN_BARRE_RE.match(text):
+        return True
+    return False
+
+
+def looks_like_non_lyric_dump(lines_or_text):
+    if isinstance(lines_or_text, str):
+        lines = [ln.strip() for ln in lines_or_text.replace("\r", "").split("\n") if ln.strip()]
+    else:
+        lines = [str(ln or "").strip() for ln in (lines_or_text or []) if str(ln or "").strip()]
+    if len(lines) < 4:
+        return False
+
+    tab_staff = 0
+    meta = 0
+    tech = 0
+    symbol_heavy = 0
+    for line in lines:
+        if is_tab_staff_line(line):
+            tab_staff += 1
+        elif is_usenet_or_tab_meta_line(line):
+            meta += 1
+        elif GUITAR_TECH_RE.search(line):
+            tech += 1
+        elif len(line) >= 8 and MOSTLY_SYMBOL_RE.match(line):
+            symbol_heavy += 1
+
+    if tab_staff >= 2:
+        return True
+    if meta >= 2:
+        return True
+    if tab_staff >= 1 and (meta >= 1 or tech >= 2):
+        return True
+    if tech >= 3 and symbol_heavy >= 3:
+        return True
+    dumpish = tab_staff + meta + tech + symbol_heavy
+    if len(lines) >= 20 and dumpish / float(len(lines)) >= 0.35:
+        return True
+    joined = "\n".join(lines)
+    if re.search(r"Newsgroups\s*:", joined, re.I) and re.search(r"Message-ID\s*:", joined, re.I):
+        return True
+    if re.search(r"\bTAB\s*:", joined, re.I) and tab_staff + tech >= 2:
+        return True
+    return False
+
+
+def is_usable_lyric_content(lines_or_text):
+    if isinstance(lines_or_text, str):
+        raw = lines_or_text.replace("\r", "").split("\n")
+    else:
+        raw = list(lines_or_text or [])
+    kept = []
+    for line in raw:
+        text = str(line or "")
+        trimmed = text.strip()
+        if not trimmed:
+            if kept and kept[-1] != "":
+                kept.append("")
+            continue
+        if is_tab_staff_line(trimmed) or is_usenet_or_tab_meta_line(trimmed):
+            continue
+        kept.append(re.sub(r"\s+", " ", text.replace("\u00a0", " ")).strip())
+    while kept and kept[-1] == "":
+        kept.pop()
+    if not any(str(line or "").strip() for line in kept):
+        return False, []
+    if looks_like_non_lyric_dump(kept) or looks_like_non_lyric_dump(raw):
+        return False, []
+    return True, kept
+
+
 def lines_to_stanzas(lines):
     stanzas = []
     current = []
@@ -187,10 +291,20 @@ def finalize_lyrics_lines(raw_lines):
             continue
         if is_noise_line(line):
             continue
+        if is_tab_staff_line(line) or is_usenet_or_tab_meta_line(line):
+            continue
         lines.append(line)
 
     while lines and lines[-1] == "":
         lines.pop()
+
+    ok, usable = is_usable_lyric_content(raw_lines)
+    if not ok:
+        return [], [], ""
+    ok2, usable2 = is_usable_lyric_content(lines)
+    if not ok2:
+        return [], [], ""
+    lines = usable2 or usable or lines
 
     stanzas = lines_to_stanzas(lines)
     if not stanzas:

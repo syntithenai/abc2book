@@ -133,7 +133,10 @@ export default function FileControls(props) {
         setActive: true,
       })
       persistTune(result.tune)
-      if (resolverAvailable) {
+      // Screenshots of on-screen notation/lyrics are already digital — OCR often
+      // fails looking up the just-saved blob and only adds noise.
+      const skipOcr = source === 'capture'
+      if (resolverAvailable && !skipOcr) {
         try {
           enqueueFileOcrJob({
             tune: result.tune,

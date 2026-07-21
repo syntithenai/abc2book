@@ -3,6 +3,7 @@ import useAbcTools from '../useAbcTools';
 import {
   buildAbcPreviewFromBodies,
   mapAbcClickToVoiceCursor,
+  stripBlockLyricsFromDisplayAbc,
   stripNotationDisplayMetadata,
 } from './notationDisplayAbc';
 
@@ -37,6 +38,22 @@ describe('stripNotationDisplayMetadata', function() {
     expect(stripped).not.toContain('C:Performer Two');
     expect(stripped).not.toContain('C:Another Artist');
     expect(stripped).toMatch(/CDEF/);
+  });
+});
+
+describe('stripBlockLyricsFromDisplayAbc', function() {
+  test('keeps note-aligned w: and drops block W:', function() {
+    const abc = [
+      'X:1',
+      'T:Test',
+      'K:C',
+      'C D E |',
+      'w: Hel- lo world',
+      'W: Block lyrics here',
+    ].join('\n');
+    const stripped = stripBlockLyricsFromDisplayAbc(abc);
+    expect(stripped).toMatch(/^w: Hel- lo world$/m);
+    expect(stripped).not.toMatch(/^W:/m);
   });
 });
 

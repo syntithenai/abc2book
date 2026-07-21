@@ -1,8 +1,10 @@
 import { useMemo, useState } from 'react'
 import { Alert, Button, Dropdown, Modal, ProgressBar } from 'react-bootstrap'
+import { toast } from 'react-toastify'
 import {
   TUNE_DOWNLOAD_FORMATS,
   executeTuneDownload,
+  getTuneDownloadStartToastMessage,
   isStemsDownloadDisabled,
   isTuneDownloadFormatDisabled,
 } from '../tuneDownloadActions'
@@ -43,6 +45,7 @@ function useTuneDownloadState(tunes, tunebook, archiveBaseName, token, onComplet
   async function runDownload(formatId) {
     setErrorMessage('')
     setBusyFormatId(formatId)
+    toast.info(getTuneDownloadStartToastMessage(formatId, tunes.length), { autoClose: 3000 })
     try {
       await executeTuneDownload(formatId, {
         tunes: tunes,
@@ -80,6 +83,7 @@ function StemsDownloadSection({ tunes, tunebook, token, icons, layout }) {
 
   function runStemsDownload() {
     setStemsError('')
+    toast.info(getTuneDownloadStartToastMessage('stems', tunes.length), { autoClose: 3000 })
     const ids = enqueueTunes(tunes, buildStemQueueTunebook(tunebook, token))
     if (!ids.length) {
       setStemsError('No cacheable linked media was found on the selected tune(s).')

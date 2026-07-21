@@ -78,7 +78,11 @@ export default function FileDrawModal(props) {
     if (!modal) return undefined
 
     function onTouchMove(e) {
-      if (e.touches && e.touches.length >= 2) e.preventDefault()
+      // Keep one-finger draws from scrolling the modal; allow nothing to bubble.
+      const stage = e.target && e.target.closest
+        ? e.target.closest('.file-draw-stage--draw')
+        : null
+      if (stage || (e.touches && e.touches.length >= 2)) e.preventDefault()
     }
 
     function blockGesture(e) {

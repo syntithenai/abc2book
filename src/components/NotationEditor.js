@@ -158,6 +158,8 @@ export default function NotationEditor(props) {
   const staffDragTargetRef = useRef(null);
   const staffDragPointerRef = useRef(null);
   const staffMarqueeRef = useRef(null);
+  /** Note pointerdown before axis resolves: horizontal → marquee, vertical → pitch. */
+  const staffPendingGestureRef = useRef(null);
   const slurDragRef = useRef(null);
   const [slurSnapEventId, setSlurSnapEventId] = useState(null);
   const displayedVoiceKeysRef = useRef([]);
@@ -277,21 +279,70 @@ export default function NotationEditor(props) {
   useEffect(function() { sessionRef.current = session; }, [session]);
 
   useEffect(function() {
+    function updateMarqueeRect(clientX, clientY) {
+      const wrap = staffWrapRef.current;
+      const m = staffMarqueeRef.current;
+      if (!wrap || !m || typeof clientX !== 'number') return;
+      const wr = wrap.getBoundingClientRect();
+      setMarqueeClientRect({
+        left: Math.min(m.clientX, clientX) - wr.left + (wrap.scrollLeft || 0),
+        top: Math.min(m.clientY, clientY) - wr.top + (wrap.scrollTop || 0),
+        right: Math.max(m.clientX, clientX) - wr.left + (wrap.scrollLeft || 0),
+        bottom: Math.max(m.clientY, clientY) - wr.top + (wrap.scrollTop || 0),
+      });
+    }
+
+    function resolvePendingGesture(e) {
+      const pending = staffPendingGestureRef.current;
+      if (!pending || typeof e.clientX !== 'number') return false;
+      const dx = e.clientX - pending.clientX;
+      const dy = e.clientY - pending.clientY;
+      if (Math.abs(dx) < 4 && Math.abs(dy) < 4) return true;
+      staffPendingGestureRef.current = null;
+      // Horizontal-dominant drag → marquee (multi-select without Shift).
+      // Vertical-dominant → pitch transpose.
+      if (Math.abs(dx) >= Math.abs(dy)) {
+        staffDragPointerRef.current = null;
+        staffDragTargetRef.current = null;
+        setPitchDragPreview(null);
+        staffMarqueeRef.current = {
+          clientX: pending.clientX,
+          clientY: pending.clientY,
+          lastClientX: e.clientX,
+          lastClientY: e.clientY,
+        };
+        staffDragSuppressClickRef.current = false;
+        updateMarqueeRect(e.clientX, e.clientY);
+      } else {
+        staffMarqueeRef.current = null;
+        setMarqueeClientRect(null);
+        staffDragPointerRef.current = {
+          clientY: pending.clientY,
+          lastClientY: e.clientY,
+          stepPx: pending.stepPx,
+        };
+        staffDragTargetRef.current = pending.eventId;
+        staffDragSuppressClickRef.current = false;
+      }
+      return true;
+    }
+
     function onMove(e) {
+      if (resolvePendingGesture(e)) {
+        if (staffMarqueeRef.current && typeof e.clientX === 'number') {
+          staffMarqueeRef.current.lastClientX = e.clientX;
+          staffMarqueeRef.current.lastClientY = e.clientY;
+          updateMarqueeRect(e.clientX, e.clientY);
+        } else if (staffDragPointerRef.current && typeof e.clientY === 'number') {
+          staffDragPointerRef.current.lastClientY = e.clientY;
+        } else {
+          return;
+        }
+      }
       if (staffMarqueeRef.current && typeof e.clientX === 'number') {
         staffMarqueeRef.current.lastClientX = e.clientX;
         staffMarqueeRef.current.lastClientY = e.clientY;
-        const wrap = staffWrapRef.current;
-        if (wrap) {
-          const wr = wrap.getBoundingClientRect();
-          const m = staffMarqueeRef.current;
-          setMarqueeClientRect({
-            left: Math.min(m.clientX, e.clientX) - wr.left + (wrap.scrollLeft || 0),
-            top: Math.min(m.clientY, e.clientY) - wr.top + (wrap.scrollTop || 0),
-            right: Math.max(m.clientX, e.clientX) - wr.left + (wrap.scrollLeft || 0),
-            bottom: Math.max(m.clientY, e.clientY) - wr.top + (wrap.scrollTop || 0),
-          });
-        }
+        updateMarqueeRect(e.clientX, e.clientY);
         return;
       }
       if (!staffDragPointerRef.current) return;
@@ -540,6 +591,10 @@ export default function NotationEditor(props) {
   // and not torn down mid-drag when React re-renders (e.g. pitch-preview setState).
   const commitStaffPointerUpRef = useRef(null);
   commitStaffPointerUpRef.current = function(endClientX, endClientY) {
+    // Tap without drag: leave pending so the click handler can select/toggle.
+    if (staffPendingGestureRef.current) {
+      staffPendingGestureRef.current = null;
+    }
     if (staffMarqueeRef.current) {
       const marquee = staffMarqueeRef.current;
       staffMarqueeRef.current = null;
@@ -1225,6 +1280,10 @@ export default function NotationEditor(props) {
   }
 
   function handleStaffWrapPointerMove(e) {
+    if (staffPendingGestureRef.current) {
+      // Window-level pointermove resolves pending → marquee/pitch.
+      return;
+    }
     if (staffMarqueeRef.current) {
       staffMarqueeRef.current.lastClientX = e.clientX;
       staffMarqueeRef.current.lastClientY = e.clientY;
@@ -1248,7 +1307,7 @@ export default function NotationEditor(props) {
       const wrap = staffWrapRef.current;
       if (wrap && wrap.contains(e.target) && e.button === 0) {
         // Already tracking this gesture (pointerdown + mousedown both fire).
-        if (staffDragPointerRef.current || staffMarqueeRef.current) return;
+        if (staffDragPointerRef.current || staffMarqueeRef.current || staffPendingGestureRef.current) return;
 
         const voiceStaffIdx = Math.max(0, displayedVoiceKeysRef.current.indexOf(props.voiceKey));
         const noteEl = findStaffClickNoteEl(wrap, pointerAnalysis, e);
@@ -1264,6 +1323,7 @@ export default function NotationEditor(props) {
 
         // Shift/Ctrl clicks wait for click handler (range / toggle) — no pitch drag.
         if (modSelect) {
+          staffPendingGestureRef.current = null;
           staffDragPointerRef.current = null;
           staffDragTargetRef.current = null;
           staffMarqueeRef.current = null;
@@ -1274,22 +1334,33 @@ export default function NotationEditor(props) {
         }
 
         if (noteHit) {
+          // Defer pitch vs marquee until move axis is clear (enables drag-select
+          // across notes, and works without a Shift key on tablets).
           const stepPx = measureStaffStepPx(wrap);
           staffMarqueeRef.current = null;
           setMarqueeClientRect(null);
-          staffDragPointerRef.current = {
+          staffDragPointerRef.current = null;
+          staffDragTargetRef.current = null;
+          setPitchDragPreview(null);
+          staffPendingGestureRef.current = {
+            clientX: e.clientX,
             clientY: e.clientY,
-            lastClientY: e.clientY,
+            eventId: eventId,
             stepPx: stepPx,
           };
-          staffDragTargetRef.current = eventId;
           staffDragSuppressClickRef.current = false;
+          try {
+            if (e.currentTarget && e.pointerId != null) {
+              e.currentTarget.setPointerCapture(e.pointerId);
+            }
+          } catch (err) { /* ignore */ }
           return;
         }
 
         // On a glyph we couldn't map to a pitched event (rest / bar / miss) — do not
         // start marquee; let click selection handle it.
         if (glyphUnderPointer) {
+          staffPendingGestureRef.current = null;
           staffDragPointerRef.current = null;
           staffDragTargetRef.current = null;
           staffMarqueeRef.current = null;
@@ -1299,6 +1370,7 @@ export default function NotationEditor(props) {
         }
 
         // Empty staff / gap: start marquee (no pitch drag).
+        staffPendingGestureRef.current = null;
         staffDragPointerRef.current = null;
         staffDragTargetRef.current = null;
         setPitchDragPreview(null);
@@ -1309,10 +1381,16 @@ export default function NotationEditor(props) {
           lastClientY: e.clientY,
         };
         staffDragSuppressClickRef.current = false;
+        try {
+          if (e.currentTarget && e.pointerId != null) {
+            e.currentTarget.setPointerCapture(e.pointerId);
+          }
+        } catch (err) { /* ignore */ }
       }
       return;
     }
 
+    staffPendingGestureRef.current = null;
     staffDragPointerRef.current = null;
     staffMarqueeRef.current = null;
     setPitchDragPreview(null);
@@ -1345,6 +1423,7 @@ export default function NotationEditor(props) {
   }
 
   function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+    staffPendingGestureRef.current = null;
     if (staffDragSuppressClickRef.current) {
       staffDragSuppressClickRef.current = false;
       staffDragPointerRef.current = null;
@@ -1441,6 +1520,29 @@ export default function NotationEditor(props) {
 
     if (mouseEvent && (mouseEvent.ctrlKey || mouseEvent.metaKey) && targetEv
       && (targetEv.type === 'note' || targetEv.type === 'chord' || targetEv.type === 'barline' || targetEv.type === 'rest')) {
+      const nextSel = toggleSelectionEventId(s.selection, targetEv.id);
+      syncSessionAction({ type: 'SET_SELECTION', selection: nextSel });
+      setSelectionClickRects([]);
+      focusStaffEditor();
+      return;
+    }
+
+    // Touch / coarse pointers have no Shift/Ctrl: tap toggles notes into the selection
+    // once one note is already selected (same as Ctrl+click on desktop).
+    const coarseOrTouch = !!(mouseEvent && (
+      mouseEvent.pointerType === 'touch'
+      || (typeof window !== 'undefined'
+        && window.matchMedia
+        && window.matchMedia('(pointer: coarse)').matches)
+    ));
+    if (
+      coarseOrTouch
+      && targetEv
+      && (targetEv.type === 'note' || targetEv.type === 'chord' || targetEv.type === 'rest')
+      && s.selection
+      && s.selection.eventIds
+      && s.selection.eventIds.length > 0
+    ) {
       const nextSel = toggleSelectionEventId(s.selection, targetEv.id);
       syncSessionAction({ type: 'SET_SELECTION', selection: nextSel });
       setSelectionClickRects([]);
@@ -2189,7 +2291,7 @@ export default function NotationEditor(props) {
       onPointerMove={handleStaffWrapPointerMove}
       onMouseDownCapture={function(e) {
         // Puppeteer/some browsers may not synthesize pointerdown for mouse drags.
-        if (!staffDragPointerRef.current && !staffMarqueeRef.current) {
+        if (!staffDragPointerRef.current && !staffMarqueeRef.current && !staffPendingGestureRef.current) {
           handleStaffWrapPointerDown(e);
         }
       }}

@@ -255,7 +255,7 @@ export default function LockedSourcePasteModal(props) {
       <Modal.Body style={{ display: 'flex', flexDirection: 'column', gap: '0.75em' }}>
         <p style={{ marginBottom: 0 }}>
           {isNotation
-            ? 'This MuseScore page is not available for automatic download. Open the page, download MusicXML, .mxl, .mscz, or MIDI (or copy MusicXML/ABC), then paste below or choose the saved file.'
+            ? 'This MuseScore page is not available for automatic download. Open the page, download MusicXML, .mxl, .mscz, or MIDI (or copy MusicXML/ABC), then paste below or use Choose score file.'
             : ('This site blocks automated import. Open the page, copy the ' + pasteKind + ', then paste it below and import to review.')}
         </p>
         <div style={{ display: 'flex', gap: '0.5em', flexWrap: 'wrap' }}>

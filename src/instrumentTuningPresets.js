@@ -51,7 +51,11 @@ const S = {
   banjo5DropC: ['G4', 'C3', 'G3', 'B3', 'D4'],
   bouzoukiCfad: ['C3', 'F3', 'A3', 'D4'],
   bouzoukiAdad: ['A2', 'D3', 'A3', 'D4'],
-  bouzoukiDgbe: ['D3', 'G3', 'B3', 'E4']
+  bouzoukiDgbe: ['D3', 'G3', 'B3', 'E4'],
+  violinGdae: ['G3', 'D4', 'A4', 'E5'],
+  violaCgda: ['C3', 'G3', 'D4', 'A4'],
+  celloCgda: ['C2', 'G2', 'D3', 'A3'],
+  bassEadg: ['E1', 'A1', 'D2', 'G2']
 }
 
 function chordTuningFromStrings(strings) {
@@ -75,6 +79,10 @@ function preset(id, label, strings, options) {
 
 export const TUNER_INSTRUMENT_LABELS = {
   chromatic: 'Chromatic',
+  violin: 'Violin',
+  viola: 'Viola',
+  cello: 'Cello',
+  bass: 'Double bass',
   guitar: 'Guitar',
   mandolin: 'Fiddle/Mandolin',
   uke: 'Uke',
@@ -85,15 +93,55 @@ export const TUNER_INSTRUMENT_LABELS = {
 
 export const CHROMATIC_INSTRUMENT = 'chromatic'
 
-export const TUNER_INSTRUMENTS = ['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5', 'bouzouki']
+/** Bowed family — tuner + audio analysis; not used by chord charts. */
+export const BOWED_TUNER_INSTRUMENTS = ['violin', 'viola', 'cello', 'bass']
+
+/** Instruments with chord-chart support. */
+export const CHORD_TUNER_INSTRUMENTS = ['guitar', 'mandolin', 'uke', 'banjo4', 'banjo5', 'bouzouki']
+
+export const TUNER_INSTRUMENTS = BOWED_TUNER_INSTRUMENTS.concat(CHORD_TUNER_INSTRUMENTS)
+
+/** Audio Analysis: bowed first, then chord instruments except mandolin (use violin + fiddle tunings). */
+export const AUDIO_ANALYSIS_INSTRUMENTS = BOWED_TUNER_INSTRUMENTS.concat(
+  CHORD_TUNER_INSTRUMENTS.filter(function(i) { return i !== 'mandolin' })
+)
+
+export function normalizeAudioAnalysisInstrument(instrument) {
+  return instrument === 'mandolin' ? 'violin' : instrument
+}
 
 export function isChromaticInstrument(instrument) {
   return instrument === CHROMATIC_INSTRUMENT
 }
 
+export function isBowedTunerInstrument(instrument) {
+  return BOWED_TUNER_INSTRUMENTS.indexOf(instrument) !== -1
+}
+
 export function isValidTunerInstrumentSelection(instrument) {
   return isChromaticInstrument(instrument) || TUNER_INSTRUMENTS.indexOf(instrument) !== -1
 }
+
+const FIDDLE_MANDOLIN_TUNING_PRESETS = [
+  preset('gdae', 'GDAE (standard)', S.gdae, { aliases: ['Italian tuning', 'standard'], tags: ['irish', 'bluegrass', 'classical'] }),
+  preset('aeae', 'AEAE (cross A)', S.aeae, { aliases: ['cross tuning', 'cross A', 'cross chord', 'sawmill'], tags: ['old-time'] }),
+  preset('gdgd', 'GDGD (cross G)', S.gdgd, { aliases: ['cross G', 'sawmill'], tags: ['old-time'] }),
+  preset('aeacSharp', 'Calico (AEAC#)', S.aeacSharp, { aliases: ['Black Mountain Rag', 'Drunken Hiccups', 'calico', 'AEAC#', 'open A'], tags: ['old-time'] }),
+  preset('adae', 'ADAE (high bass)', S.adae, { aliases: ['old-timey D', 'high bass'], tags: ['old-time'] }),
+  preset('ddad', "DDAD (dead man's)", S.ddad, { aliases: ["dee-dad", "Bonaparte's Retreat", 'dead man'], tags: ['old-time'] }),
+  preset('gdad', 'GDAD (gee-dad)', S.gdad, { aliases: ['gee-dad', 'Flatwoods'], tags: ['old-time'] }),
+  preset('aead', 'AEAD (old sledge)', S.aead, { aliases: ['Old Sledge', 'Silver Lake'], tags: ['old-time'] }),
+  preset('gdgb', 'GDGB (G-calico)', S.gdgb, { aliases: ['G-calico'], tags: ['old-time'] }),
+  preset('gdacSharp', 'GDAC#', S.gdacSharp, { tags: ['old-time'] }),
+  preset('fcgd', 'FCGD (Cajun)', S.fcgd, { aliases: ['Cajun'], tags: ['cajun'] }),
+  preset('cgda', 'CGDA (octave mandolin)', S.cgda, { aliases: ['mandola', 'mandocello'] }),
+  preset('edae', 'EDAE', S.edae, { aliases: ['Glory in the Meeting House'], tags: ['old-time'] }),
+  preset('eeae', 'EEAE', S.eeae, { aliases: ['Get Up in the Cool'], tags: ['old-time'] }),
+  preset('gcge', 'GCGE', S.gcge, { aliases: ['Over the Flatlands'], tags: ['old-time'] }),
+  preset('adfSharpE', 'ADF#E (Huldre)', S.adfSharpE, { aliases: ['Huldre'], tags: ['norwegian'] }),
+  preset('ddae', 'DDAE (loose bass)', S.ddae, { aliases: ['lausbass'], tags: ['norwegian'] }),
+  preset('gdadLow', 'GDAD (low)', S.gdadLow, { tags: ['irish'] })
+]
 
 export const INSTRUMENT_TUNING_PRESETS = {
   guitar: [
@@ -110,26 +158,7 @@ export const INSTRUMENT_TUNING_PRESETS = {
     preset('cgdgad', 'CGDGAD', S.cgdgad),
     preset('openA', 'Open A (EAC#EAE)', S.openA)
   ],
-  mandolin: [
-    preset('gdae', 'GDAE (standard)', S.gdae, { aliases: ['Italian tuning', 'standard'], tags: ['irish', 'bluegrass'] }),
-    preset('aeae', 'AEAE (cross A)', S.aeae, { aliases: ['cross tuning', 'cross A', 'cross chord', 'sawmill'], tags: ['old-time'] }),
-    preset('gdgd', 'GDGD (cross G)', S.gdgd, { aliases: ['cross G', 'sawmill'], tags: ['old-time'] }),
-    preset('aeacSharp', 'Calico (AEAC#)', S.aeacSharp, { aliases: ['Black Mountain Rag', 'Drunken Hiccups', 'calico', 'AEAC#', 'open A'], tags: ['old-time'] }),
-    preset('adae', 'ADAE (high bass)', S.adae, { aliases: ['old-timey D', 'high bass'], tags: ['old-time'] }),
-    preset('ddad', "DDAD (dead man's)", S.ddad, { aliases: ["dee-dad", "Bonaparte's Retreat", 'dead man'], tags: ['old-time'] }),
-    preset('gdad', 'GDAD (gee-dad)', S.gdad, { aliases: ['gee-dad', 'Flatwoods'], tags: ['old-time'] }),
-    preset('aead', 'AEAD (old sledge)', S.aead, { aliases: ['Old Sledge', 'Silver Lake'], tags: ['old-time'] }),
-    preset('gdgb', 'GDGB (G-calico)', S.gdgb, { aliases: ['G-calico'], tags: ['old-time'] }),
-    preset('gdacSharp', 'GDAC#', S.gdacSharp, { tags: ['old-time'] }),
-    preset('fcgd', 'FCGD (Cajun)', S.fcgd, { aliases: ['Cajun'], tags: ['cajun'] }),
-    preset('cgda', 'CGDA (octave mandolin)', S.cgda, { aliases: ['mandola', 'mandocello'] }),
-    preset('edae', 'EDAE', S.edae, { aliases: ['Glory in the Meeting House'], tags: ['old-time'] }),
-    preset('eeae', 'EEAE', S.eeae, { aliases: ['Get Up in the Cool'], tags: ['old-time'] }),
-    preset('gcge', 'GCGE', S.gcge, { aliases: ['Over the Flatlands'], tags: ['old-time'] }),
-    preset('adfSharpE', 'ADF#E (Huldre)', S.adfSharpE, { aliases: ['Huldre'], tags: ['norwegian'] }),
-    preset('ddae', 'DDAE (loose bass)', S.ddae, { aliases: ['lausbass'], tags: ['norwegian'] }),
-    preset('gdadLow', 'GDAD (low)', S.gdadLow, { tags: ['irish'] })
-  ],
+  mandolin: FIDDLE_MANDOLIN_TUNING_PRESETS,
   uke: [
     preset('gceaHighG', 'GCEA (high G)', S.gceaHighG, { aliases: ['standard', 'GCEA'] }),
     preset('gceaLowG', 'GCEA (low G)', S.gceaLowG, { aliases: ['low G'] }),
@@ -161,10 +190,24 @@ export const INSTRUMENT_TUNING_PRESETS = {
     preset('adad', 'ADAD (Greek alt)', S.bouzoukiAdad, { aliases: ['ADAD'], tags: ['greek'] }),
     preset('dgbe', 'DGBE (tenor guitar)', S.bouzoukiDgbe, { aliases: ['DGBE', 'tenor guitar'] }),
     preset('gdadLow', 'GDAD (low)', S.gdadLow, { tags: ['irish'] })
+  ],
+  violin: FIDDLE_MANDOLIN_TUNING_PRESETS,
+  viola: [
+    preset('cgda', 'CGDA (standard)', S.violaCgda, { aliases: ['standard', 'CGDA'], tags: ['classical'] })
+  ],
+  cello: [
+    preset('cgda', 'CGDA (standard)', S.celloCgda, { aliases: ['standard', 'CGDA'], tags: ['classical'] })
+  ],
+  bass: [
+    preset('eadg', 'EADG (standard)', S.bassEadg, { aliases: ['standard', 'EADG', 'orchestral'], tags: ['classical', 'jazz'] })
   ]
 }
 
 export const DEFAULT_TUNING_PRESET_ID = {
+  violin: 'gdae',
+  viola: 'cgda',
+  cello: 'cgda',
+  bass: 'eadg',
   guitar: 'standard',
   mandolin: 'gdae',
   uke: 'gceaHighG',

@@ -8,7 +8,7 @@ import { encodeAudioBufferWithSetting } from './audioCompressEncode'
 import { getSoundFontUrl, getSoundFontVolumeMultiplier, isResolverMusyngKiteReady } from './soundFontConfig'
 import { remapFlattenedMidiPrograms } from './localSoundfontInstrumentMap'
 import PitchTempoShifter from './pitchTempoShifter'
-import { getPlaybackSettings } from './pitchTempoUtils'
+import { getPlaybackSettings, combinedPitchSemitones } from './pitchTempoUtils'
 import {
     isStaleSeekEngineReading,
     computeMidiMetronomeCountIn,
@@ -47,6 +47,7 @@ export default function useAbcSynth(props) {
     // Standalone Abc (e.g. practice warmups) calls startPlaying(true) before count-in;
     // isPlaying stays false until MIDI audio starts after the metronome.
     const forcePlaybackUntilStartRef = useRef(false)
+    const isPlayingRef = useRef(false)
     
     const [tune, setTune] = useState(props.tunebook.abcTools.abc2json(props.abc))
     
@@ -221,7 +222,7 @@ export default function useAbcSynth(props) {
             }
             return !!props.mediaController.isPlaying
         }
-        return !!force || isPlaying || forcePlaybackUntilStartRef.current
+        return !!force || !!isPlayingRef.current || forcePlaybackUntilStartRef.current
     }
 
     function isMidiPlaybackActive() {
@@ -235,7 +236,7 @@ export default function useAbcSynth(props) {
             }
             if (props.mediaController.isPlaying) return true
         }
-        return isPlaying
+        return !!isPlayingRef.current
     }
     
     
@@ -250,7 +251,11 @@ export default function useAbcSynth(props) {
     const midiStartHandledRef = useRef(false)
     const [audioChangedHash, setAudioChangedHash] = useState(null)
     
-    const [isPlaying, setIsPlaying] = useState(false)
+    const [isPlaying, setIsPlayingState] = useState(false)
+    function setIsPlaying(v) {
+      isPlayingRef.current = !!v
+      setIsPlayingState(v)
+    }
     const [isLastPlaying, setIsLastPlaying] = useState(false)
     //var [milliSecondsPerMeasure,setMilliSecondsPerMeasure] = useState(null)
     const [playCount, setPlayCountInner] = useState(0)
@@ -713,20 +718,51 @@ export default function useAbcSynth(props) {
             ratio = seconds / gmidiBuffer.current.duration
         }
         if (props.mediaController) {
-            const controllerSeconds = parseFloat(props.mediaController.currentTime)
-            const controllerDuration = parseFloat(props.mediaController.duration)
-            if (!isNaN(controllerSeconds) && controllerSeconds >= 0) {
-                seconds = controllerSeconds
-            }
             const clickSeek = parseFloat(props.mediaController.clickSeek)
             if (!isNaN(clickSeek) && clickSeek >= 0) {
                 ratio = clickSeek
-            } else if (controllerDuration > 0 && !isNaN(controllerSeconds)) {
-                ratio = controllerSeconds / controllerDuration
+                if (gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
+                    seconds = clickSeek * gmidiBuffer.current.duration
+                }
+            } else if (isMidiPlaybackActive()) {
+                // Synth beat clock / shifter are the source of truth while MIDI plays.
+                // mediaController.currentTime is React state and is often stale/zero
+                // (especially during practice), which would seek pitch changes to 0.
+                if (pitchShifterRef.current) {
+                    const shifterRatio = pitchShifterRef.current.getPlaybackRatio()
+                    if (typeof shifterRatio === 'number' && shifterRatio > 0) {
+                        ratio = Math.min(1, shifterRatio)
+                        if (gmidiBuffer.current && gmidiBuffer.current.duration > 0) {
+                            seconds = ratio * gmidiBuffer.current.duration
+                        }
+                    }
+                }
+            } else {
+                const controllerSeconds = parseFloat(props.mediaController.currentTime)
+                const controllerDuration = parseFloat(props.mediaController.duration)
+                if (!isNaN(controllerSeconds) && controllerSeconds >= 0) {
+                    seconds = controllerSeconds
+                }
+                if (controllerDuration > 0 && !isNaN(controllerSeconds)) {
+                    ratio = controllerSeconds / controllerDuration
+                }
             }
         }
         return { seconds: seconds, ratio: ratio }
      }
+
+    function captureLiveMidiPlaybackRatio() {
+        if (pitchShifterRef.current) {
+            const shifterRatio = pitchShifterRef.current.getPlaybackRatio()
+            if (typeof shifterRatio === 'number' && shifterRatio >= 0) {
+                return Math.min(1, shifterRatio)
+            }
+        }
+        if (gmidiBuffer.current && gmidiBuffer.current.duration > 0 && currentTime.current > 0) {
+            return Math.min(1, currentTime.current / gmidiBuffer.current.duration)
+        }
+        return getMidiPlaybackRatio()
+    }
 
     function resolvePlaybackMetronomeOptions() {
         const mcTune = props.mediaController && props.mediaController.tune
@@ -965,16 +1001,28 @@ export default function useAbcSynth(props) {
         }
         //console.log('evcb',ev,autoScroll.current, props.autoScroll,ev.elements[0])
         //console.log('evcbclass', ev.elements[0][0].className.baseVal)
-        if (isPlaying && autoScroll.current && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
+        // Use ref / live MIDI check — TimingCallbacks keep a stale closure over isPlaying.
+        const playing = isPlayingRef.current || isMidiPlaybackActive()
+        if (playing && autoScroll.current && gmidiBuffer && gmidiBuffer.current && gmidiBuffer.current.duration > 0) { 
           //console.log('seekTo',"W",getWarp(),ev.milliseconds,gmidiBuffer.current.duration,"R",ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
           //setSeekTo(ev.milliseconds/(gmidiBuffer.current.duration*1000)*getWarp())
           //if (props.mediaController)  props.mediaController.setCurrentTime((ev.milliseconds / 1000)/(gmidiBuffer.current.duration)*getWarp())
-          var screenRatio = window.visualViewport.width/window.visualViewport.height
-          // allow for small screen mobile in landscape
-          const mobileAdjust =  (isMobile && window.visualViewport.height < 400) ? 0.45 : 1
-          var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
-          if (lastScrollTo.current!= ev.top ) {
-            window.scrollTo(0,finalScroll)
+          if (lastScrollTo.current != ev.top) {
+            const noteEl = ev.elements && ev.elements[0] && ev.elements[0][0]
+            if (noteEl && typeof noteEl.scrollIntoView === 'function') {
+              // Nearest keeps the playing note on-screen without fighting lyrics layout
+              // (the old aspect-ratio window.scrollTo jumped once then stalled).
+              try {
+                noteEl.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+              } catch (err) {
+                noteEl.scrollIntoView(true)
+              }
+            } else {
+              var screenRatio = window.visualViewport.width/window.visualViewport.height
+              const mobileAdjust =  (isMobile && window.visualViewport.height < 400) ? 0.45 : 1
+              var finalScroll = ((ev.top) * screenRatio ) * mobileAdjust
+              window.scrollTo(0,finalScroll)
+            }
           }
           lastScrollTo.current = ev.top
         }
@@ -1165,21 +1213,50 @@ export default function useAbcSynth(props) {
             ? parseInt(pitch, 10) : pitchTempoSettingsRef.current.pitch
         const nextFineTune = fineTune !== undefined && fineTune !== null
             ? parseInt(fineTune, 10) : pitchTempoSettingsRef.current.fineTune
+        const resolvedPitch = isNaN(nextPitch) ? 0 : nextPitch
+        const resolvedFineTune = isNaN(nextFineTune) ? 0 : nextFineTune
         const tempoChanged = pitchTempoSettingsRef.current.tempo !== nextTempo
-        const pitchChanged = pitchTempoSettingsRef.current.pitch !== (isNaN(nextPitch) ? 0 : nextPitch)
-        const fineTuneChanged = pitchTempoSettingsRef.current.fineTune !== (isNaN(nextFineTune) ? 0 : nextFineTune)
+        const pitchChanged = pitchTempoSettingsRef.current.pitch !== resolvedPitch
+        const fineTuneChanged = pitchTempoSettingsRef.current.fineTune !== resolvedFineTune
+        const prevCombined = combinedPitchSemitones(
+            pitchTempoSettingsRef.current.pitch,
+            pitchTempoSettingsRef.current.fineTune
+        )
+        const nextCombined = combinedPitchSemitones(resolvedPitch, resolvedFineTune)
+        const modeWillChange = (Math.abs(prevCombined) < 0.0001) !== (Math.abs(nextCombined) < 0.0001)
+        const wasPlaying = isMidiPlaybackActive()
+        // Capture before any disconnect so pitch changes do not seek to 0.
+        const ratio = captureLiveMidiPlaybackRatio()
         pitchTempoSettingsRef.current = {
             tempo: nextTempo,
-            pitch: isNaN(nextPitch) ? 0 : nextPitch,
-            fineTune: isNaN(nextFineTune) ? 0 : nextFineTune,
+            pitch: resolvedPitch,
+            fineTune: resolvedFineTune,
         }
-        const ratio = getMidiPlaybackRatio()
-        const wasPlaying = isMidiPlaybackActive()
         const settings = pitchTempoSettingsRef.current
         if (opts.liveTempoOnly && wasPlaying && tempoChanged && !pitchChanged && !fineTuneChanged) {
             if (pitchShifterRef.current) {
                 pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
             }
+            return
+        }
+        // Live pitch/fine-tune with no tempo change: keep position.
+        if (wasPlaying && !tempoChanged && (pitchChanged || fineTuneChanged) && pitchShifterRef.current) {
+            midiPlaybackGuardUntilRef.current = Date.now() + 3000
+            if (!modeWillChange) {
+                pitchShifterRef.current.applySettings(settings.tempo, settings.pitch, settings.fineTune)
+                return
+            }
+            // Direct ↔ SoundTouch switch: recreate shifter (same as seek) then resume.
+            if (pitchShifterRef.current.isConnected()) {
+                pitchShifterRef.current.disconnect()
+            }
+            if (pitchShifterBufferRef.current && gaudioContext.current) {
+                initPitchShifter(gaudioContext.current, pitchShifterBufferRef.current)
+            }
+            if (gaudioContext.current && gaudioContext.current.state === 'running') {
+                startMidiAudioOutput(settings, ratio)
+            }
+            midiPlaybackGuardUntilRef.current = Date.now() + 3000
             return
         }
         if (wasPlaying) {
@@ -1196,12 +1273,6 @@ export default function useAbcSynth(props) {
             if (tempoChanged) {
                 // Restart the audio pipe so SoundTouch tempo changes stay aligned with
                 // the recreated timing callbacks and output level stays steady.
-                if (pitchShifterRef.current.isConnected()) {
-                    pitchShifterRef.current.disconnect()
-                }
-                startMidiAudioOutput(settings, ratio)
-                midiPlaybackGuardUntilRef.current = Date.now() + 3000
-            } else if (pitchChanged || fineTuneChanged) {
                 if (pitchShifterRef.current.isConnected()) {
                     pitchShifterRef.current.disconnect()
                 }
@@ -1624,6 +1695,9 @@ export default function useAbcSynth(props) {
               if (opts.forceRatio === undefined) {
                   setTimingProgressFromAudioRatio(ratio > 0 ? ratio : 0)
               }
+              // Mark playing before TimingCallbacks.start so eventCallback autoScroll
+              // sees a live ref (callbacks are created at prime-time with a stale closure).
+              isPlayingRef.current = true
               if (!gtimingCallbacks.current.isRunning) {
                   gtimingCallbacks.current.start()
               }

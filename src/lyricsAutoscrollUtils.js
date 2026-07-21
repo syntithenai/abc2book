@@ -19,6 +19,8 @@ const LYRICS_SCROLL_ROOT_SELECTORS = [
   '.music-view-lyrics',
   '.full-lyrics-panel',
   '.timed-lyrics-chords-view:not(.chord-blocks-only)',
+  '.practice-tune-lyrics',
+  '.practice-tune-lyrics-panel',
   '.lyrics',
 ].join(', ');
 
@@ -39,6 +41,7 @@ const NOTATION_SCROLL_SELECTORS = [
   '.gig-mode-notation-col',
   '.music-and-lyrics-notation',
   '.music-notation-section',
+  '.practice-tune-notation',
 ].join(', ');
 
 const CHORDS_SCROLL_ROOT_SELECTORS = [
@@ -47,9 +50,11 @@ const CHORDS_SCROLL_ROOT_SELECTORS = [
   '.music-chords-block-col',
   '.chord-blocks-only',
   '.chord-block-view',
+  '.practice-tune-chords',
 ].join(', ');
 
 const PREFERRED_LYRICS_SCROLL_CONTAINER_SELECTORS = [
+  '.practice-session-scroll-root--scrollable',
   '.tune-file-image-wrap',
   '.tune-file-pdf-pages',
   '.tune-file-pdf-wrap',
@@ -58,6 +63,8 @@ const PREFERRED_LYRICS_SCROLL_CONTAINER_SELECTORS = [
   '.lyrics-fit-height-host--scrollable',
   '.gig-mode-lyrics-col',
   '.music-and-lyrics-text',
+  // Fit-height single view: lyrics column scrolls under fixed notation.
+  '.music-panels-fit-height .tune-panel-lyrics',
 ];
 
 const FILE_SCROLL_ROOT_SELECTORS = [

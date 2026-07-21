@@ -1,9 +1,13 @@
 import { assertModuleQuality, assertUniqueModuleIds } from './feedContentQuality'
-import { PRACTICE_SETTINGS_STORAGE_KEY } from './practiceSessionSettings'
-import { loadPracticeSettings, clampSkillLevel } from './practiceSessionSettings'
+import { PRACTICE_SETTINGS_STORAGE_KEY, loadPracticeSettings, clampSkillLevel } from './practiceSessionSettings'
 import { buildQuizBundle } from './feedQuizUtils'
+import { getTheoryLessonExample, getTheoryLessonExampleMeta } from './feedTheoryExamples'
 
 let contentCache = null
+
+/** How far above the preferred skill band infinite-scroll may open when hungry. */
+export const FEED_SKILL_EXPAND_STEP = 2
+export const FEED_SKILL_EXPAND_MAX = 10
 
 export async function loadFeedContentModules() {
   if (contentCache) return contentCache
@@ -27,25 +31,50 @@ export function getAllSingingModules(bundle) {
   return (bundle && bundle.singing) || (contentCache && contentCache.singing) || []
 }
 
-export function modulesForSkill(modules, effectiveSkill) {
+/**
+ * Preferred difficulty window for a skill, plus optional upward expansion.
+ * options.expand: extra levels above the preferred max (for “need more cards”).
+ * options.allowMin / options.allowMax: hard override of the window.
+ */
+export function skillDifficultyWindow(effectiveSkill, options) {
+  const opts = options || {}
   const skill = Number(effectiveSkill)
   const s = Number.isFinite(skill) ? skill : 0
-  const min = Math.max(0, s - 2)
-  const max = s + 1
+  const expand = Math.max(0, Number(opts.expand) || 0)
+  const preferMin = Math.max(0, s - 2)
+  const preferMax = s + 1
+  const min = opts.allowMin != null ? Number(opts.allowMin) : preferMin
+  const max = opts.allowMax != null
+    ? Number(opts.allowMax)
+    : Math.min(FEED_SKILL_EXPAND_MAX, preferMax + expand)
+  return {
+    min: Math.max(0, Number.isFinite(min) ? min : preferMin),
+    max: Math.max(0, Number.isFinite(max) ? max : preferMax),
+    preferMin: preferMin,
+    preferMax: preferMax,
+  }
+}
+
+export function modulesForSkill(modules, effectiveSkill, options) {
+  const win = skillDifficultyWindow(effectiveSkill, options)
   return (modules || []).filter(function(m) {
     const d = Number(m.difficulty)
-    return Number.isFinite(d) && d >= min && d <= max
+    return Number.isFinite(d) && d >= win.min && d <= win.max
   })
 }
 
+/**
+ * Feed skill: start at 0 when practice settings are unset so beginners see
+ * easy content first. When settings exist, use the clamped practice skill.
+ */
 export function getEffectiveTheorySkill() {
   try {
     const raw = localStorage.getItem(PRACTICE_SETTINGS_STORAGE_KEY)
     if (!raw) return 0
+    return clampSkillLevel(loadPracticeSettings().skillLevel)
   } catch (e) {
     return 0
   }
-  return clampSkillLevel(loadPracticeSettings().skillLevel)
 }
 
 function makeId(prefix) {
@@ -102,6 +131,13 @@ export function moduleToFeedItems(module) {
     attemptCount: 0,
     tryThis: module.tryThis || '',
     difficulty: module.difficulty,
+  }
+  if (module.kind === 'theory_lesson') {
+    const exMeta = getTheoryLessonExampleMeta(module.id)
+    const exAbc = getTheoryLessonExample(module.id)
+    if (exMeta && exMeta.caption) base.exampleCaption = exMeta.caption
+    if (exAbc) base.exampleAbc = exAbc
+    if (exMeta && exMeta.imageUrl) base.exampleImageUrl = exMeta.imageUrl
   }
   return [base]
 }

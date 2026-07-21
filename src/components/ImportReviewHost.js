@@ -33,7 +33,7 @@ export default function ImportReviewHost(props) {
   const [show, setShow] = useState(false);
   const abcjsParser = useAbcjsParser();
   const { available: resolverAvailable, features } = useMediaResolverHealth();
-  const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh);
+  const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const runningJobRef = useRef(null);
   const sessionRef = useRef(null);
 

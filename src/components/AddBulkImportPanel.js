@@ -38,7 +38,7 @@ const DEFAULT_BOOK = 'songs';
 export default function AddBulkImportPanel(props) {
   const abcjsParser = useAbcjsParser();
   const { available: resolverAvailable } = useMediaResolverHealth();
-  const driveApi = useGoogleDocument(props.token, props.login || function() {}, props.forceRefresh);
+  const driveApi = useGoogleDocument(props.token, props.logout || function() {}, props.forceRefresh);
   const bulkFileInputRef = useRef(null);
 
   const [bulkText, setBulkText] = useState(function() {
