@@ -1,0 +1,67 @@
+import {
+  applyPdfSegmentsToTuneFile,
+  buildSnapshotTuneLink,
+  expandPdfSnapshotSearchRows,
+  pdfSnapshotSearchHits,
+  tuneMatchesPdfSnapshotSearch,
+} from './pdfSnapshotIndex'
+
+describe('pdfSnapshotIndex', function() {
+  const tuneWithPdf = {
+    id: 't1',
+    name: 'Session Book',
+    tuneFiles: [{
+      id: 'f1',
+      name: 'book.pdf',
+      type: 'application/pdf',
+      pdfSegments: [
+        { title: 'Drowsy Maggie', page: 5, endPage: 6, composer: 'Traditional' },
+        { title: 'The Kesh', page: 7, endPage: 8, composer: '' },
+      ],
+    }],
+  }
+
+  test('applyPdfSegmentsToTuneFile stores normalized segments', function() {
+    const tune = { id: 't1', tuneFiles: [{ id: 'f1', name: 'book.pdf', type: 'application/pdf' }] }
+    const next = applyPdfSegmentsToTuneFile(tune, 'f1', [
+      { title: '  Rag Time  ', page: '2', endPage: 3, composer: 'Joplin' },
+    ])
+    expect(next.tuneFiles[0].pdfSegments).toEqual([{
+      title: 'Rag Time',
+      page: 2,
+      endPage: 3,
+      composer: 'Joplin',
+    }])
+  })
+
+  test('pdfSnapshotSearchHits matches segment titles', function() {
+    const hits = pdfSnapshotSearchHits(tuneWithPdf, 'maggie')
+    expect(hits).toHaveLength(1)
+    expect(hits[0].title).toBe('Drowsy Maggie')
+    expect(hits[0].page).toBe(5)
+    expect(hits[0].fileId).toBe('f1')
+  })
+
+  test('tuneMatchesPdfSnapshotSearch returns true for segment-only matches', function() {
+    expect(tuneMatchesPdfSnapshotSearch(tuneWithPdf, 'kesh')).toBe(true)
+    expect(tuneMatchesPdfSnapshotSearch(tuneWithPdf, 'nope')).toBe(false)
+  })
+
+  test('expandPdfSnapshotSearchRows expands segment matches', function() {
+    const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'maggie')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].snapshotMatch.title).toBe('Drowsy Maggie')
+  })
+
+  test('expandPdfSnapshotSearchRows keeps parent row when parent title matches', function() {
+    const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'session')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].snapshotMatch).toBeNull()
+    expect(rows[0].tune.name).toBe('Session Book')
+  })
+
+  test('buildSnapshotTuneLink includes file and page query params', function() {
+    const link = buildSnapshotTuneLink('t1', { fileId: 'f1', page: 5 })
+    expect(link).toBe('/tunes/t1?file=f1&page=5')
+  })
+})

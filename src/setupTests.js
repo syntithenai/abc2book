@@ -10,3 +10,15 @@ if (typeof global.TextDecoder === 'undefined') {
   global.TextDecoder = TextDecoder;
   global.TextEncoder = TextEncoder;
 }
+
+jest.mock('./pdfJsConfig', function() {
+  return {
+    __esModule: true,
+    pdfjs: {
+      GlobalWorkerOptions: { workerSrc: '' },
+      getDocument: jest.fn(function() {
+        return { promise: Promise.reject(new Error('pdfjs unavailable in tests')) }
+      }),
+    },
+  }
+})

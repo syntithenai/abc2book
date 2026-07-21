@@ -30,6 +30,16 @@ jest.mock('./tuneFiles', function() {
       })
     },
     deleteStoredTuneFile: jest.fn(function() { return Promise.resolve() }),
+    isPdfTuneFileType: function(type) {
+      return String(type || '').toLowerCase() === 'application/pdf'
+    },
+  }
+})
+
+jest.mock('./pdfSnapshotIndex', function() {
+  return {
+    __esModule: true,
+    indexPdfTuneFile: jest.fn(function(tune) { return Promise.resolve(tune) }),
   }
 })
 

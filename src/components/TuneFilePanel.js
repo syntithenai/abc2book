@@ -1,13 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import {
   findTuneFileMeta,
   isPdfTuneFileType,
+  normalizePdfSegments,
   resolveTuneFileBlob,
   updateTuneFileMeta,
 } from '../tuneFiles'
 import TuneFilePdfViewer from './TuneFilePdfViewer'
 import { clampFileViewZoom } from './FileZoomControls'
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit'
+import {
+  loadPdfViewPosition,
+  resolvePdfOpenPage,
+} from '../pdfViewPosition'
 
 /**
  * Display the tune's active File (image or PDF) with fit-height / fit-width + zoom.
@@ -21,6 +27,9 @@ export default function TuneFilePanel(props) {
     onTuneChange,
     fitMode,
     zoom,
+    tunebook,
+    embedToolbarInMainBar,
+    toolbarHost,
   } = props
   const activeId = tune && tune.activeFile ? tune.activeFile : ''
   const meta = findTuneFileMeta(tune, activeId)
@@ -29,6 +38,50 @@ export default function TuneFilePanel(props) {
   const [loading, setLoading] = useState(false)
   const fitHeight = fitMode === NOTATION_FIT_VERTICAL || fitMode === 'height'
   const fileZoom = clampFileViewZoom(zoom)
+  const [searchParams] = useSearchParams()
+  const restoredPdfRef = useRef('')
+
+  const routeFileId = String(searchParams.get('file') || '').trim()
+  const routePage = parseInt(searchParams.get('page'), 10)
+  const openedFromSearchRef = useRef(false)
+  const lastMetaIdRef = useRef('')
+  if (meta && meta.id !== lastMetaIdRef.current) {
+    lastMetaIdRef.current = meta.id
+    openedFromSearchRef.current = false
+  }
+  if (meta && routeFileId === meta.id && routePage > 0) {
+    openedFromSearchRef.current = true
+  }
+  const openedFromSearch = openedFromSearchRef.current
+  const storedPosition = meta && tune && tune.id
+    ? loadPdfViewPosition(tune.id, meta.id)
+    : null
+
+  useEffect(function() {
+    if (!meta || !isPdfTuneFileType(meta.type) || !onTuneChange || !tune || !tune.id) return
+    if (openedFromSearch) return
+    const restoreKey = tune.id + ':' + meta.id
+    if (restoredPdfRef.current === restoreKey) return
+    const openPage = resolvePdfOpenPage({
+      tuneId: tune.id,
+      fileId: meta.id,
+      routeFileId: routeFileId,
+      routePage: routePage,
+      metaPage: meta.pdfPage,
+    })
+    restoredPdfRef.current = restoreKey
+    if (openPage > 0 && openPage !== (meta.pdfPage || 1)) {
+      onTuneChange(updateTuneFileMeta(tune, meta.id, { pdfPage: openPage }))
+    }
+  }, [
+    meta && meta.id,
+    meta && meta.pdfPage,
+    tune && tune.id,
+    onTuneChange,
+    openedFromSearch,
+    routeFileId,
+    routePage,
+  ])
 
   useEffect(function() {
     let revoked = null
@@ -74,7 +127,6 @@ export default function TuneFilePanel(props) {
 
   return (
     <div className={rootClass} style={{ width: '100%' }}>
-      <div className="tune-file-panel-label small text-muted px-2 py-1">{meta.name || 'File'}</div>
       {loading ? <div className="p-3">Loading file…</div> : null}
       {error ? <div className="p-3 text-danger">{error}</div> : null}
       {!loading && !error && objectUrl && isPdfTuneFileType(meta.type) ? (
@@ -88,10 +140,21 @@ export default function TuneFilePanel(props) {
             onPageChange={handlePageChange}
             fitMode={fitHeight ? 'height' : 'width'}
             scale={fileZoom}
+            pdfSegments={normalizePdfSegments(meta.pdfSegments)}
+            menuIcon={tunebook && tunebook.icons ? tunebook.icons.menu : null}
+            tuneId={tune.id}
+            fileId={meta.id}
+            fileName={meta.name || 'File'}
+            embedToolbarInMainBar={!!embedToolbarInMainBar}
+            toolbarHost={toolbarHost}
+            restoreScrollTop={openedFromSearch ? 0 : (storedPosition && storedPosition.scrollTop) || 0}
+            openedFromSearch={openedFromSearch}
           />
         </div>
       ) : null}
       {!loading && !error && objectUrl && !isPdfTuneFileType(meta.type) ? (
+        <>
+          <div className="tune-file-panel-label small text-muted px-2 py-1">{meta.name || 'File'}</div>
         <div
           className="tune-file-image-wrap"
           style={fitHeight ? {
@@ -135,6 +198,7 @@ export default function TuneFilePanel(props) {
             />
           </div>
         </div>
+        </>
       ) : null}
     </div>
   )

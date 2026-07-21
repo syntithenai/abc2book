@@ -500,11 +500,12 @@ export default function FileControls(props) {
               <Button
                 size="sm"
                 variant="outline-secondary"
-                title="Index PDF titles for search"
+                className="file-controls-icon-btn"
+                title={tuneFileNeedsPdfIndexing(meta) ? 'Index PDF titles for search' : 'Re-index PDF titles for search'}
                 onClick={function() { indexPdfMetaFromStored(meta) }}
                 disabled={busy}
               >
-                {tuneFileNeedsPdfIndexing(meta) ? 'Index' : 'Re-index'}
+                {tunebook.icons && tunebook.icons.search ? tunebook.icons.search : 'Idx'}
               </Button>
             ) : null}
             <Button

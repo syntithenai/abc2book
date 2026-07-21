@@ -619,7 +619,10 @@ export default function ImportReviewBridge(props) {
           ? 'Added video to links'
           : 'Added audio to links')
       } else {
-        const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file)
+        const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file, {
+          resolverAvailable: resolverAvailable,
+          accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+        })
         applyOntoAddDraft(nextTune, { sourceKind: 'sheetimage', skipEnrich: true })
         toast.success('Added file to this tune')
       }
@@ -629,7 +632,7 @@ export default function ImportReviewBridge(props) {
     } finally {
       setAttachAnalyzeBusy(false)
     }
-  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft])
+  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft, resolverAvailable, props.token])
 
   const handleAttachAnalyzeOcr = useCallback(async function() {
     const prompt = attachAnalyzePrompt
@@ -637,7 +640,10 @@ export default function ImportReviewBridge(props) {
     setAttachAnalyzeBusy(true)
     try {
       const baseTune = resolveAttachBaseTune(prompt.draft)
-      const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file)
+      const nextTune = await attachSheetImageToAddDraft(baseTune, prompt.file, {
+        resolverAvailable: resolverAvailable,
+        accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
+      })
       applyOntoAddDraft(nextTune, { sourceKind: 'sheetimage', skipEnrich: true })
       await queueOcrFromAddDraft({
         tune: nextTune,
@@ -653,7 +659,7 @@ export default function ImportReviewBridge(props) {
     } finally {
       setAttachAnalyzeBusy(false)
     }
-  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft, props.tunebook, props.token, driveApi, updateSession, navigate])
+  }, [attachAnalyzePrompt, resolveAttachBaseTune, applyOntoAddDraft, props.tunebook, props.token, driveApi, updateSession, navigate, resolverAvailable])
 
   const handleAttachAnalyzeMedia = useCallback(async function() {
     const prompt = attachAnalyzePrompt
@@ -933,6 +939,8 @@ export default function ImportReviewBridge(props) {
           token: props.token,
           driveApi: driveApi,
           uploadToDrive: !!(props.token && driveApi && !candidate.addDraft),
+          resolverAvailable: resolverAvailable,
+          accessToken: props.token && props.token.access_token ? props.token.access_token : props.token,
         }).then(function(withFile) {
           if (withFile && withFile.id) {
             tunebook.saveTune(withFile)

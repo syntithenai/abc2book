@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef} from 'react'
-import {Link , useParams , useNavigate, useLocation} from 'react-router-dom'
+import {Link , useParams , useNavigate, useLocation, useSearchParams} from 'react-router-dom'
 import {Alert, Button, Dropdown} from 'react-bootstrap'
 import Abc from './Abc'
 import BoostSettingsModal from './BoostSettingsModal'
@@ -31,7 +31,7 @@ import FileRenderer from './FileRenderer'
 import FileControls from './FileControls'
 import TuneFilePanel from './TuneFilePanel'
 import useGoogleDocument from '../useGoogleDocument'
-import { findTuneFileMeta } from '../tuneFiles'
+import { findTuneFileMeta, isPdfTuneFileType } from '../tuneFiles'
 import LyricsAutoscrollModal from './LyricsAutoscrollModal'
 import TuneDownloadDropdown from './TuneDownloadMenu'
 import { getTuneNotationFitMode, setNotationFitMode } from '../notationFitSettings'
@@ -66,12 +66,14 @@ import PasteChordSheetModal from './PasteChordSheetModal'
 import LockedSourcePasteModal from './LockedSourcePasteModal'
 import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import useMediaResolverHealth from '../useMediaResolverHealth'
+import useTuneSnapshotRouteSync, { applyTuneSnapshotFromSearchParams } from '../useTuneSnapshotRouteSync'
 import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wLinesUtils'
 
 export default function MusicSingle(props) {
     let params = useParams();
     let navigate = useNavigate();
     const location = useLocation();
+    const [searchParams] = useSearchParams();
     var windowSize = useWindowSize()
     const audioPlayer = useRef(); 
     const { available: resolverAvailable } = useMediaResolverHealth()
@@ -113,6 +115,13 @@ export default function MusicSingle(props) {
     const [showAutoEnrichChordPaste, setShowAutoEnrichChordPaste] = useState(false)
     const [showAutoEnrichNotationPaste, setShowAutoEnrichNotationPaste] = useState(false)
     const autoEnrichSummaryShownRef = useRef('')
+    const [pdfToolbarHost, setPdfToolbarHost] = useState(null)
+
+    useTuneSnapshotRouteSync(tune, function(next) {
+      setTune(next)
+      props.tunebook.saveTune(next)
+      if (props.forceRefresh) props.forceRefresh()
+    })
 
     useEffect(function() {
         setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
@@ -203,16 +212,11 @@ export default function MusicSingle(props) {
 
     useEffect(function() {
 		var t = props.tunes ? props.tunes[new String(params.tuneId)] : null
-        //console.log('single change', params.tuneId, t, props.tunes)
         if (t) {
-			//if (t && t.id && Array.isArray(t.files)) console.log('FILES',t.files)
-            //t.tempo = t.tempo * (props.mediaController.playbackSpeed> 0 ? props.mediaController.playbackSpeed : 1)
-            //console.log("HACK TUNE TEMPO", t.tempo)
-            setTune(t)
-            //forceFileRefresh(t)
+            setTune(applyTuneSnapshotFromSearchParams(t, searchParams))
         }
         
-    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed])
+    },[params.tuneId, props.tunes, props.mediaController.playbackSpeed, searchParams])
     
     //const [abc, setAbc] = useState('')
     //let tune = props.tunes ? props.tunes[new String(params.tuneId)] : null
@@ -457,6 +461,11 @@ export default function MusicSingle(props) {
                   { hasChords: hasChords }
                 )
                 const fileOverlayActive = !!findTuneFileMeta(tune, tune.activeFile)
+                const activeFileMeta = fileOverlayActive
+                  ? findTuneFileMeta(tune, tune.activeFile)
+                  : null
+                const pdfSnapshotActive = !!(activeFileMeta && isPdfTuneFileType(activeFileMeta.type))
+                const embedPdfToolbarInMainBar = pdfSnapshotActive && !mediumToolbar
                 const availableForControls = fileOverlayActive
                   ? Object.assign({}, availableFlags, {
                     notation: false,
@@ -717,6 +726,13 @@ export default function MusicSingle(props) {
 			          }
 			        } />
 			      </ButtonGroup>
+            {embedPdfToolbarInMainBar ? (
+              <div
+                ref={setPdfToolbarHost}
+                className="music-pdf-toolbar-slot"
+                aria-hidden={!pdfToolbarHost}
+              />
+            ) : null}
 			    </div>
 
 			    <div className="music-buttons-col-right">
@@ -732,16 +748,18 @@ export default function MusicSingle(props) {
 			          onChange={handleLyricsZoomChange}
 			        />
 			      ) : null}
-			      <LyricsAutoscrollModal
-			        tune={tune}
-			        tunebook={props.tunebook}
-			        mediaController={props.mediaController}
-			        mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
-			        musicSingleSelector=".music-single"
-			        barLayout={compactToolbar ? 'default' : 'gig-inline'}
-			        buttonVariant="outline-secondary"
-			        buttonSize="sm"
-			      />
+			      {!pdfSnapshotActive ? (
+              <LyricsAutoscrollModal
+                tune={tune}
+                tunebook={props.tunebook}
+                mediaController={props.mediaController}
+                mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
+                musicSingleSelector=".music-single"
+                barLayout={compactToolbar ? 'default' : 'gig-inline'}
+                buttonVariant="outline-secondary"
+                buttonSize="sm"
+              />
+            ) : null}
 			      <ViewModeSelectorModal
 			        className="music-view-mode-selector"
 			        viewMode={props.viewMode}
@@ -994,8 +1012,11 @@ export default function MusicSingle(props) {
                  tune={tune}
                  token={props.token}
                  driveApi={driveDocs}
+                 tunebook={props.tunebook}
                  fitMode={notationFitMode}
                  zoom={fileViewZoom}
+                 embedToolbarInMainBar={embedPdfToolbarInMainBar}
+                 toolbarHost={pdfToolbarHost}
                  onTuneChange={function(next) {
                    setTune(next)
                    props.tunebook.saveTune(next)

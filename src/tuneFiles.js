@@ -67,7 +67,7 @@ export function normalizePdfSegments(raw) {
   const segments = []
   raw.forEach(function(entry) {
     if (!entry || typeof entry !== 'object') return
-    const title = String(entry.title || '').trim()
+    const title = String(entry.title || '').trim().replace(/[\x00-\x1f\x7f]/g, '').trim()
     const page = parseInt(entry.page, 10)
     if (!title || !page || page < 1) return
     const endPage = parseInt(entry.endPage, 10)

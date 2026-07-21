@@ -1,9 +1,181 @@
+import { pdfjs } from './pdfJsConfig'
 import { titleFromChordSheetFileName } from './chordProFormatUtils'
 import { titleArtistFromFilename } from './audioFileMetadata'
 import { createImportCandidate } from './importReviewSession'
 import { freshTuneId } from './importReviewCandidateUtils'
 
 const TITLE_LINE_RE = /^(.+?)\s*[-–—|]\s*(.+)$/
+const JAMMED_TITLE_SPLIT_RE = /(?<=[a-z])(?=[A-Z])/
+const JAMMED_FROM_SPLIT_RE = /(From(?:\s+the)?\s+)/i
+
+function stripControlChars(text) {
+  return String(text || '').replace(/[\x00-\x1f\x7f]/g, '').trim()
+}
+
+function normalizeTitleMatchKey(text) {
+  return stripControlChars(text).toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+export function splitJammedTitleRun(text) {
+  return stripControlChars(text).split(JAMMED_TITLE_SPLIT_RE).map(function(part) {
+    return part.trim()
+  }).filter(function(part) {
+    return part.length >= 2
+  })
+}
+
+export function parseJammedSongHeader(line) {
+  let cleaned = stripControlChars(line)
+  if (!cleaned || cleaned.length < 4) return { title: '', composer: '' }
+  cleaned = cleaned.replace(/^\d+/, '').trim()
+  if (!cleaned) return { title: '', composer: '' }
+
+  const fromMatch = JAMMED_FROM_SPLIT_RE.exec(cleaned)
+  const head = fromMatch ? cleaned.slice(0, fromMatch.index).trim() : cleaned
+  const parts = splitJammedTitleRun(head)
+  if (parts.length >= 2) {
+    return {
+      title: parts[0],
+      composer: parts.slice(1).join(' ').trim(),
+    }
+  }
+  if (parts.length === 1 && parts[0].length <= 120) {
+    return { title: parts[0], composer: '' }
+  }
+  return { title: '', composer: '' }
+}
+
+export function parseJammedTocPage(lines) {
+  const list = Array.isArray(lines) ? lines : []
+  for (let i = 0; i < list.length; i += 1) {
+    const text = stripControlChars(list[i])
+    if (text.length < 80) continue
+    const body = text.replace(/^.*TRANSCRIPTIONS/i, '').trim()
+    const source = body && body !== text ? body : text
+    const titles = splitJammedTitleRun(source).filter(function(title) {
+      return looksLikeTitleLine(title)
+    })
+    if (titles.length >= 5) return titles
+  }
+  return []
+}
+
+function titlesRoughlyMatch(left, right) {
+  const a = normalizeTitleMatchKey(left)
+  const b = normalizeTitleMatchKey(right)
+  if (!a || !b) return false
+  if (a === b) return true
+  if (a.indexOf(b) !== -1 || b.indexOf(a) !== -1) return true
+  const wordsA = a.split(' ').filter(function(word) { return word.length > 2 })
+  const wordsB = new Set(b.split(' ').filter(function(word) { return word.length > 2 }))
+  if (!wordsA.length) return false
+  const overlap = wordsA.filter(function(word) { return wordsB.has(word) }).length
+  return overlap >= 2 || (wordsA.length === 1 && overlap === 1)
+}
+
+function titleFromPageLines(lines) {
+  const list = Array.isArray(lines) ? lines : []
+  const guessed = guessTitleComposerFromLines(list)
+  if (guessed.title) return guessed
+  for (let i = 0; i < Math.min(list.length, 4); i += 1) {
+    const jammed = parseJammedSongHeader(list[i])
+    if (jammed.title && looksLikeTitleLine(jammed.title)) return jammed
+  }
+  return { title: '', composer: '' }
+}
+
+function assignInterpolatedPages(segments, pageTitles) {
+  const list = Array.isArray(segments) ? segments : []
+  if (!list.length) return list
+  const anchors = []
+  list.forEach(function(segment, index) {
+    if (segment && segment.page > 0) {
+      anchors.push({ index: index, page: segment.page })
+    }
+  })
+  if (!anchors.length) {
+    list.forEach(function(segment) {
+      segment.page = 1
+      segment.endPage = 1
+    })
+    return list
+  }
+  list.forEach(function(segment, index) {
+    if (segment.page > 0) return
+    let prev = anchors[0]
+    let next = anchors[anchors.length - 1]
+    anchors.forEach(function(anchor) {
+      if (anchor.index <= index) prev = anchor
+    })
+    for (let i = 0; i < anchors.length; i += 1) {
+      if (anchors[i].index >= index) {
+        next = anchors[i]
+        break
+      }
+    }
+    if (prev.index === next.index) {
+      segment.page = prev.page
+    } else {
+      const ratio = (index - prev.index) / (next.index - prev.index)
+      segment.page = Math.max(1, Math.round(prev.page + ratio * (next.page - prev.page)))
+    }
+    if (!segment.endPage) segment.endPage = segment.page
+  })
+
+  const maxPage = pageTitles.length > 0
+    ? Number(pageTitles[pageTitles.length - 1].page) || list[list.length - 1].page
+    : list[list.length - 1].page
+  for (let i = 0; i < list.length; i += 1) {
+    if (i + 1 < list.length && list[i + 1].page > list[i].page) {
+      list[i].endPage = Math.max(list[i].page, list[i + 1].page - 1)
+    } else {
+      list[i].endPage = Math.max(list[i].page, maxPage)
+    }
+  }
+  return list
+}
+
+function segmentsFromJammedToc(tocTitles, pageTitles) {
+  const pages = Array.isArray(pageTitles) ? pageTitles : []
+  const titles = Array.isArray(tocTitles) ? tocTitles : []
+  if (titles.length < 5) return null
+
+  const pageMatches = []
+  pages.forEach(function(entry) {
+    const pageNumber = Number(entry && entry.page) || 0
+    if (!pageNumber) return
+    const parsed = titleFromPageLines(entry && entry.lines)
+    const title = stripControlChars((parsed && parsed.title) || entry && entry.title || '')
+    if (!title || !looksLikeTitleLine(title)) return
+    pageMatches.push({
+      page: pageNumber,
+      title: title,
+      composer: String((parsed && parsed.composer) || entry && entry.artist || '').trim(),
+    })
+  })
+  pageMatches.sort(function(a, b) { return a.page - b.page })
+
+  let pageCursor = 1
+  const segments = titles.map(function(tocTitle) {
+    let match = null
+    for (let i = 0; i < pageMatches.length; i += 1) {
+      const candidate = pageMatches[i]
+      if (candidate.page < pageCursor) continue
+      if (!titlesRoughlyMatch(tocTitle, candidate.title)) continue
+      match = candidate
+      pageCursor = candidate.page + 1
+      break
+    }
+    return {
+      page: match ? match.page : 0,
+      endPage: match ? match.page : 0,
+      title: tocTitle,
+      composer: match ? match.composer : '',
+    }
+  })
+
+  return assignInterpolatedPages(segments, pages)
+}
 
 export function humanizeFolderName(name) {
   const text = String(name || '').trim().replace(/[_-]+/g, ' ')
@@ -35,6 +207,11 @@ export function guessTitleComposerFromLines(lines) {
         title: String(match[1] || '').trim(),
         composer: String(match[2] || '').trim(),
       }
+    }
+    if (text.length >= 80) {
+      const jammed = parseJammedSongHeader(text)
+      if (jammed.title) return jammed
+      continue
     }
     if (text.length < 80 && !/\d/.test(text)) {
       return { title: text, composer: '' }
@@ -162,6 +339,11 @@ export function segmentsFromPageTitles(pageTitles) {
       const mapped = mapTocToPageTitles(toc, pages)
       if (mapped && mapped.length >= 3) return mapped
     }
+    const jammedToc = parseJammedTocPage(pages[i] && pages[i].lines)
+    if (jammedToc.length >= 5) {
+      const mapped = segmentsFromJammedToc(jammedToc, pages)
+      if (mapped && mapped.length >= 5) return mapped
+    }
   }
   return segmentMetadataPages(pages)
 }
@@ -192,12 +374,6 @@ export function fallbackTitleComposerFromFile(file, composerHint) {
 }
 
 async function loadPdfDocument(file) {
-  const { pdfjs } = await import('react-pdf')
-  if (!pdfjs.GlobalWorkerOptions.workerSrc) {
-    pdfjs.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@'
-      + pdfjs.version
-      + '/build/pdf.worker.min.js'
-  }
   const data = await file.arrayBuffer()
   return pdfjs.getDocument({ data: data }).promise
 }
@@ -222,7 +398,7 @@ export async function extractPdfPageTexts(file) {
       }
     })
     if (current.trim()) lines.push(current.trim())
-    const guessed = guessTitleComposerFromLines(lines)
+    const guessed = titleFromPageLines(lines)
     pages.push({
       page: pageNumber,
       title: guessed.title,
