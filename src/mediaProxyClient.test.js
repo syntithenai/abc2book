@@ -37,6 +37,46 @@ describe('mediaProxyClient', function() {
     expect(mediaProxyClient.normalizeAccessToken({})).toBe('');
   });
 
+  test('getResolverLoginWarning when shared resolver needs login', function() {
+    const status = {
+      available: false,
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        requireAuth: true,
+        authReason: 'login_required',
+      }],
+    };
+    const warning = mediaProxyClient.getResolverLoginWarning(status, null);
+    expect(warning).not.toBeNull();
+    expect(warning.showLoginButton).toBe(true);
+    expect(warning.message).toMatch(/Google login/i);
+  });
+
+  test('getResolverLoginWarning is null when resolver is available', function() {
+    expect(mediaProxyClient.getResolverLoginWarning({
+      available: true,
+      candidates: [],
+    }, null)).toBeNull();
+  });
+
+  test('getResolverLoginWarning for unauthorized account', function() {
+    const warning = mediaProxyClient.getResolverLoginWarning({
+      available: false,
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        requireAuth: true,
+        authReason: 'email_not_authorized',
+      }],
+    }, 'ya29.token');
+    expect(warning).not.toBeNull();
+    expect(warning.showLoginButton).toBe(false);
+    expect(warning.message).toMatch(/not authorized/i);
+  });
+
   test('fetchViaMediaProxy retries 405 on later resolver candidates', async function() {
     getMediaProxyBaseCandidates.mockReturnValue([
       'https://public.example',

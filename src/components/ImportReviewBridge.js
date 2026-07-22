@@ -73,6 +73,7 @@ import { buildImportContext, dispatchAddImport } from '../addImportDispatch'
 import { processReviewResult } from '../addSongModalHelper'
 import { buildMediaImportCandidatesFromFiles } from '../mediaImportCandidates'
 import { isAudioImportFile, isVideoImportFile } from '../audioFileMetadata'
+import { runPendingShareImportSideEffect } from '../shareImportSession'
 import { mergeImportedLinks, applyAddFormInlineImport } from '../importReviewFieldUtils'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
@@ -964,6 +965,7 @@ export default function ImportReviewBridge(props) {
     clearImportReviewSession()
     dismissContentHashDuplicateToast()
     dismissBackgroundReviewToast()
+    runPendingShareImportSideEffect()
     if (onReviewRoute || location.pathname.indexOf('/add') === 0) {
       navigate('/tunes')
     }

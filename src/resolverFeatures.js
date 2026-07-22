@@ -69,13 +69,23 @@ export function parseResolverFeaturesFromHealthBody(body) {
 }
 
 export function getResolverFeaturesFromStatus(status) {
-  if (!status || !status.available) {
+  if (!status) {
     return Object.assign({}, DEFAULT_RESOLVER_FEATURES);
+  }
+  if (status.available && status.features) {
+    return normalizeResolverFeatures(status.features, { fallback: false });
+  }
+  const candidates = status.candidates || [];
+  for (let i = 0; i < candidates.length; i++) {
+    const candidate = candidates[i];
+    if (candidate.reachable && candidate.features) {
+      return normalizeResolverFeatures(candidate.features, { fallback: false });
+    }
   }
   if (status.features) {
     return normalizeResolverFeatures(status.features, { fallback: false });
   }
-  return Object.assign({}, ALL_RESOLVER_FEATURES);
+  return Object.assign({}, DEFAULT_RESOLVER_FEATURES);
 }
 
 export function resolverHasFeature(status, feature) {

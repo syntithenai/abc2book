@@ -6,11 +6,29 @@ import {
   mergePlaylistsFromTuneBookAbc,
   importSinglePlaylistFromAbc,
 } from './playlistSyncClient'
+import {
+  registerSyncSourceAfterImport,
+} from './syncSourceImportUtils'
 
 let pendingSideEffect = null
+let pendingSourceRegistration = null
 
 export function setPendingShareImportSideEffect(effect) {
   pendingSideEffect = effect || null
+}
+
+export function setPendingShareImportSourceRegistration(registration) {
+  pendingSourceRegistration = registration || null
+}
+
+export function consumePendingShareImportSourceRegistration() {
+  const registration = pendingSourceRegistration
+  pendingSourceRegistration = null
+  return registration
+}
+
+export function clearPendingShareImportSourceRegistration() {
+  pendingSourceRegistration = null
 }
 
 export function consumePendingShareImportSideEffect() {
@@ -21,6 +39,10 @@ export function consumePendingShareImportSideEffect() {
 
 export function runPendingShareImportSideEffect() {
   const effect = consumePendingShareImportSideEffect()
+  const registration = consumePendingShareImportSourceRegistration()
+  if (registration) {
+    registerSyncSourceAfterImport(registration)
+  }
   if (!effect || !effect.abcText) return Promise.resolve()
 
   if (effect.scope === 'all') {

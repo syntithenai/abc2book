@@ -104,8 +104,7 @@ export default function MediaPlayerOptionsModal({
     && viewedTune.links
     && viewedTune.links[activeLinkIndex]
     && mediaController.getSrcType(viewedTune.links[activeLinkIndex].link) !== 'abc'
-    && mediaController.resolverFeatures
-    && mediaController.resolverFeatures.stems
+    && mediaController.stemsCapabilityAvailable
     && youtubePitchUnlocked
 
   useEffect(function() {
@@ -162,6 +161,9 @@ export default function MediaPlayerOptionsModal({
 
   function handleLinkPlayback(linkKey) {
     if (!viewedTune) return
+    if (mediaController.setTune) {
+      mediaController.setTune(viewedTune)
+    }
     const sameSource = mediaController.isMediaPlaybackRoute
       && mediaController.isMediaPlaybackRoute()
       && mediaController.mediaLinkNumber === linkKey
@@ -188,6 +190,9 @@ export default function MediaPlayerOptionsModal({
 
   function handleMidiPlayback() {
     if (!viewedTune) return
+    if (mediaController.setTune) {
+      mediaController.setTune(viewedTune)
+    }
     const sameSource = mediaController.isMidiPlaybackRoute
       && mediaController.isMidiPlaybackRoute()
     const path = '/tunes/' + viewedTune.id + '/playMidi'
@@ -369,7 +374,7 @@ export default function MediaPlayerOptionsModal({
                       tune={viewedTune}
                       tunebook={tunebook}
                       mediaController={mediaController}
-                      showFilters={showPitchControls && !!(mediaController.resolverFeatures && mediaController.resolverFeatures.stems)}
+                      showFilters={showPitchControls && !!mediaController.stemsCapabilityAvailable}
                     />
                   </Tab>
                 )}

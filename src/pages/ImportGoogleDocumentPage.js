@@ -15,7 +15,7 @@ import {
   mergePlaylistsFromTuneBookAbc,
   importSinglePlaylistFromAbc,
 } from '../playlistSyncClient'
-import { setPendingShareImportSideEffect } from '../shareImportSession'
+import { setPendingShareImportSideEffect, setPendingShareImportSourceRegistration, clearPendingShareImportSourceRegistration } from '../shareImportSession'
 import { useDocumentTitle } from '../pageTitle'
 import { classifyImportAbcResults, buildBatchSummaryFromClassifier } from '../importAbcClassifier'
 import ImportBatchSummaryPanel from '../components/ImportBatchSummaryPanel'
@@ -27,6 +27,11 @@ import {
   filterCertainImportRaw,
   reviewCandidatesFromBatch,
 } from '../abcImportBatchActions'
+import {
+  registerSyncSourceAfterImport,
+  stampSrcUrlOnImportResults,
+} from '../syncSourceImportUtils'
+import { buildGoogleDocUrl } from '../syncSourcesStore'
 
 export default function ImportGoogleDocumentPage({
   tunebook,
@@ -105,11 +110,19 @@ export default function ImportGoogleDocumentPage({
     }
   }, [params.googleDocumentId, accessToken, navigate])
 
-  const applyImportResults = useCallback(function(results, scopePayload, afterMerge) {
-    const chain = tunebook.applyMergeData(results).then(function() {
+  const applyImportResults = useCallback(function(results, scopePayload, afterMerge, scopeOption) {
+    const docUrl = buildGoogleDocUrl(params.googleDocumentId)
+    const stamped = stampSrcUrlOnImportResults(results, docUrl)
+    const chain = tunebook.applyMergeData(stamped).then(function() {
       if (afterMerge) return afterMerge()
     })
     return chain.then(function(mergedTunes) {
+      registerSyncSourceAfterImport({
+        googleDocumentId: params.googleDocumentId,
+        scopeOption: scopeOption,
+        results: stamped,
+        label: 'Shared tunebook',
+      })
       handleImportNavigation(scopePayload, {
         navigate: navigate,
         tunebook: tunebook,
@@ -120,7 +133,15 @@ export default function ImportGoogleDocumentPage({
       })
       if (setNavigateAfterImport) setNavigateAfterImport({})
     })
-  }, [tunebook, setNavigateAfterImport, navigate, setCurrentTuneBook, setTagFilter, setFilter])
+  }, [tunebook, setNavigateAfterImport, navigate, setCurrentTuneBook, setTagFilter, setFilter, params.googleDocumentId])
+
+  const rememberPendingSourceRegistration = useCallback(function(option, limitToTuneIds) {
+    setPendingShareImportSourceRegistration({
+      googleDocumentId: params.googleDocumentId,
+      scopeOption: Object.assign({}, option, { limitToTuneIds: limitToTuneIds || null }),
+      label: 'Shared tunebook',
+    })
+  }, [params.googleDocumentId])
 
   const runImportForOption = useCallback(function(option) {
     if (!abcText || !option) return
@@ -128,18 +149,22 @@ export default function ImportGoogleDocumentPage({
 
     let limitToTuneId = null
     let limitToBookName = null
+    let limitToTagName = null
     let limitToTuneIds = null
     const scopePayload = buildNavigateAfterImport(option.scope, {
       tuneId: option.tuneId,
       bookName: option.bookName,
       setId: option.setId,
       playlistId: option.playlistId,
+      tagName: option.tagName,
     })
 
     if (option.scope === 'tune') {
       limitToTuneId = option.tuneId
     } else if (option.scope === 'book') {
       limitToBookName = option.bookName
+    } else if (option.scope === 'tag') {
+      limitToTagName = option.tagName
     } else if (option.scope === 'set') {
       const setRecord = preview.sets[option.setId]
       limitToTuneIds = tuneIdsForSet(setRecord)
@@ -158,10 +183,10 @@ export default function ImportGoogleDocumentPage({
       }
     }
 
-    const results = tunebook.importAbc(abcText, null, limitToTuneId, limitToBookName, null, limitToTuneIds)
+    const results = tunebook.importAbc(abcText, null, limitToTuneId, limitToBookName, limitToTagName, limitToTuneIds)
 
     // Whole-book (and multi-tune scopes): use Import Review with preserved batch summary.
-    if (option.scope === 'all' || option.scope === 'book' || option.scope === 'set' || option.scope === 'playlist') {
+    if (option.scope === 'all' || option.scope === 'book' || option.scope === 'set' || option.scope === 'playlist' || option.scope === 'tag') {
       const classified = classifyImportAbcResults(results, { includeSkipped: false })
       const summary = buildBatchSummaryFromClassifier(classified)
       setPendingShareImportSideEffect({
@@ -170,9 +195,10 @@ export default function ImportGoogleDocumentPage({
         playlistId: option.playlistId || null,
         abcText: abcText,
       })
+      rememberPendingSourceRegistration(option, limitToTuneIds)
       if (setNavigateAfterImport) setNavigateAfterImport(scopePayload)
       setBatchSummary(summary)
-      setPendingScope(option)
+      setPendingScope(Object.assign({}, option, { limitToTuneIds: limitToTuneIds }))
       setImportBusy(false)
       return
     }
@@ -197,10 +223,10 @@ export default function ImportGoogleDocumentPage({
       afterMerge = function() { return importSinglePlaylistFromAbc(abcText, option.playlistId) }
     }
 
-    applyImportResults(results, scopePayload, afterMerge).finally(function() {
+    applyImportResults(results, scopePayload, afterMerge, Object.assign({}, option, { limitToTuneIds: limitToTuneIds })).finally(function() {
       setImportBusy(false)
     })
-  }, [abcText, preview.sets, preview.playlists, tunebook, applyImportResults, setNavigateAfterImport])
+  }, [abcText, preview.sets, preview.playlists, tunebook, applyImportResults, setNavigateAfterImport, rememberPendingSourceRegistration])
 
   const openBatchInReview = useCallback(function(includeDuplicates) {
     if (!batchSummary) return
@@ -240,9 +266,10 @@ export default function ImportGoogleDocumentPage({
         bookName: pendingScope.bookName,
         setId: pendingScope.setId,
         playlistId: pendingScope.playlistId,
+        tagName: pendingScope.tagName,
       })
       : {}
-    applyImportResults(filtered, scopePayload, afterMerge).finally(function() {
+    applyImportResults(filtered, scopePayload, afterMerge, pendingScope).finally(function() {
       setImportBusy(false)
       setBatchSummary(null)
       setPendingScope(null)
@@ -272,6 +299,7 @@ export default function ImportGoogleDocumentPage({
             setBatchSummary(null)
             setPendingScope(null)
             setPendingShareImportSideEffect(null)
+            clearPendingShareImportSourceRegistration()
             navigate('/tunes')
           }}
         />

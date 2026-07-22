@@ -4528,6 +4528,46 @@ async def midi2xml(
         return json_error(500, detail, origin)
 
 
+@app.post("/score2xml")
+async def score2xml(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('score2xml')
+        import os
+        import tempfile
+        from musescore_fetch import _convert_score_file_to_musicxml
+
+        if file is None:
+            return json_error(400, "Missing score file upload", origin)
+
+        data = await file.read()
+        if not data:
+            return json_error(400, "Score file is empty", origin)
+
+        suffix = os.path.splitext(file.filename or "")[1].lower() or ".mscx"
+        with tempfile.TemporaryDirectory() as temp_dir:
+            in_path = os.path.join(temp_dir, "upload" + suffix)
+            with open(in_path, "wb") as handle:
+                handle.write(data)
+            music_xml = _convert_score_file_to_musicxml(in_path, temp_dir, output_stem="score_import")
+
+        return Response(
+            content=music_xml,
+            media_type="application/xml",
+            headers=cors_headers(origin),
+        )
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "Score conversion failed"
+        return json_error(500, detail, origin)
+
+
 @app.post("/midi2abc")
 async def midi2abc(
     request: Request,

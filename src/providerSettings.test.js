@@ -13,6 +13,7 @@ import {
   getProviderAccountUrl,
   getSelectablePresets,
   isCapabilityAvailable,
+  isStemsCapabilityAvailable,
   isExpensiveModel,
   listGroqCapsMissingKey,
   getModelPageUrl,
@@ -322,5 +323,49 @@ describe('providerSettings', function() {
       ocr: [],
       stems: [],
     })).toBe(true)
+  })
+
+  test('isStemsCapabilityAvailable is false on light gateway without provider', function() {
+    expect(isStemsCapabilityAvailable({
+      stems: true,
+      lightMode: true,
+    }, {
+      llm: [],
+      whisper: [],
+      ocr: [],
+      stems: [],
+    }, {
+      providers: {
+        capabilities: {
+          stems: {
+            localAvailable: false,
+            hostEmbeddedConfigured: false,
+            hostEmbeddedUsable: false,
+            active: null,
+          },
+        },
+      },
+    })).toBe(false)
+  })
+
+  test('isStemsCapabilityAvailable is true on light gateway with BYO stems key', function() {
+    expect(isStemsCapabilityAvailable({
+      stems: true,
+      lightMode: true,
+    }, {
+      llm: [],
+      whisper: [],
+      ocr: [],
+      stems: [{
+        id: 's1',
+        active: true,
+        provider: 'fal',
+        apiKey: 'key',
+        apiUrl: 'https://fal.run',
+        model: 'm',
+        label: 'fal',
+        capability: 'stems',
+      }],
+    }, null)).toBe(true)
   })
 })

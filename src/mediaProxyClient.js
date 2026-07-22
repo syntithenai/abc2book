@@ -176,6 +176,7 @@ function resolverEndpointForPath(pathAndQuery) {
   if (pathAndQuery.indexOf('/search-images') === 0) return 'search-images';
   if (pathAndQuery.indexOf('/midi2abc') === 0) return 'midi2abc';
   if (pathAndQuery.indexOf('/midi2xml') === 0) return 'midi2xml';
+  if (pathAndQuery.indexOf('/score2xml') === 0) return 'score2xml';
   if (pathAndQuery.indexOf('/abc2xml') === 0) return 'abc2xml';
   if (/^\/stems\/[^/]+\/status/.test(pathAndQuery)) return 'stem-status';
   if (pathAndQuery.indexOf('/stems/') === 0) return 'stem-audio';
@@ -564,6 +565,55 @@ export function describeResolverAuthReason(authReason) {
   if (authReason === 'email_not_authorized') return 'Google account not authorized';
   if (authReason === 'invalid_token') return 'Login expired or invalid';
   return '';
+}
+
+/**
+ * When shared resolver providers are reachable but blocked on auth.
+ * Returns { message, showLoginButton } or null.
+ */
+export function getResolverLoginWarning(resolverStatus, accessToken) {
+  if (!resolverStatus || resolverStatus.available) return null;
+
+  const candidates = resolverStatus.candidates || [];
+  const authBlocked = candidates.filter(function(candidate) {
+    return candidate.reachable && candidate.requireAuth && !candidate.available;
+  });
+  if (authBlocked.length === 0) return null;
+
+  const hasToken = !!accessToken;
+  const loginRequired = authBlocked.some(function(candidate) {
+    return candidate.authReason === 'login_required' || (!candidate.authReason && !hasToken);
+  });
+  const invalidToken = authBlocked.some(function(candidate) {
+    return candidate.authReason === 'invalid_token';
+  });
+  const notAuthorized = authBlocked.some(function(candidate) {
+    return candidate.authReason === 'email_not_authorized';
+  });
+
+  if (loginRequired && !hasToken) {
+    return {
+      message: 'Shared resolver providers (LLM, Whisper, OCR, Stems) are online but need a Google login. Log in to use them, or run your own local resolver.',
+      showLoginButton: true,
+    };
+  }
+  if (invalidToken) {
+    return {
+      message: 'Your Google login has expired. Sign in again to use shared resolver providers.',
+      showLoginButton: true,
+    };
+  }
+  if (notAuthorized) {
+    return {
+      message: 'Your Google account is not authorized on the shared resolver. Add your own API keys under Providers, or run a local resolver.',
+      showLoginButton: false,
+    };
+  }
+
+  return {
+    message: 'Shared resolver providers are reachable but not available to this account. Log in with an authorized Google account or configure your own API keys.',
+    showLoginButton: !hasToken,
+  };
 }
 
 export function isMediaResolverInfrastructureError(error) {

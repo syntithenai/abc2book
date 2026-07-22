@@ -3466,16 +3466,16 @@ button img:after {
 
 .music-buttons-col-left {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-shrink: 0;
-  align-self: stretch;
+  align-self: center;
   gap: 0.3em;
 }
 
 .music-buttons-col-left > .btn-group,
 .music-buttons-col-left > .dropdown {
   display: flex;
-  height: 100%;
+  height: auto;
 }
 
 .music-actions-edit-btn {
@@ -3546,8 +3546,8 @@ button img:after {
 }
 
 .music-buttons-col-meta.music-tune-meta-inline {
-  align-self: stretch;
-  align-items: stretch;
+  align-self: center;
+  align-items: center;
 }
 
 .music-buttons-col-right {
@@ -3753,7 +3753,11 @@ button img:after {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+.music-buttons-col-right .music-notation-controls-block {
+  flex-wrap: nowrap;
 }
 
 .view-mode-extra-menu-content .music-notation-controls-block {
@@ -5210,6 +5214,19 @@ button img:after {
 
 .music-buttons--folded-menu .music-buttons-col-right {
   display: none;
+}
+
+.music-buttons--compact-controls .music-buttons-inner {
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.music-buttons--compact-controls .music-buttons-col-right {
+  flex: 1 1 auto;
+  width: auto;
+  margin-left: auto;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
 }
 
 .music-buttons--folded-menu .music-buttons-inner {
@@ -7679,6 +7696,31 @@ button img:after {
 .bulk-check-tab-badge {
   font-size: 0.75em;
   vertical-align: middle;
+}
+
+.bulk-check-item-issues li {
+  margin-bottom: 0.2rem;
+}
+
+.bulk-check-fix-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.bulk-check-fix-preview-pane h6 {
+  margin-bottom: 0.5rem;
+}
+
+.bulk-check-fix-preview-abc {
+  max-height: 18rem;
+  overflow: auto;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 0.75rem;
 }
 
 .bulk-ops-modal .modal-content {

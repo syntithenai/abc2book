@@ -10,11 +10,20 @@ import {
   setSourceMergePref,
 } from '../incomingMergePrefs';
 import { dismissMergeToast, showIncomingMergeToast } from '../mergeToast';
+import {
+  applyMergeDismissalState,
+  dismissEntireMergeBatch,
+} from '../sourceMergeDismissals';
+
+function getTuneImportHash(tunebook) {
+  return tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
+}
 
 export default function IncomingMergeHost(props) {
   const sheetUpdateResults = props.sheetUpdateResults;
   const googleDocumentId = props.googleDocumentId;
   const token = props.token;
+  const tunebook = props.tunebook;
   const [showModal, setShowModal] = useState(false);
   const [pendingBatch, setPendingBatch] = useState(null);
   const toastShownRef = useRef(false);
@@ -22,7 +31,10 @@ export default function IncomingMergeHost(props) {
   const buildDriveBatch = useCallback(function(results) {
     if (!results) return null;
     const sourceKey = googleDocumentId || DRIVE_TUNEBOOK_SOURCE_KEY;
-    const records = buildDriveMergeRecords(results);
+    const records = buildDriveMergeRecords(results, {
+      sourceKey: sourceKey,
+      getTuneImportHash: getTuneImportHash(tunebook),
+    });
     return {
       kind: 'drive',
       sourceKey: sourceKey,
@@ -31,7 +43,7 @@ export default function IncomingMergeHost(props) {
       records: records,
       sheetUpdateResults: results,
     };
-  }, [googleDocumentId]);
+  }, [googleDocumentId, tunebook]);
 
   const clearPending = useCallback(function() {
     setPendingBatch(null);
@@ -47,19 +59,24 @@ export default function IncomingMergeHost(props) {
     if (options && options.acceptAllFromSource) {
       setSourceMergePref(batch.sourceKey, 'alwaysAccept');
     }
+    applyMergeDismissalState(batch.sourceKey, batch, recordState, getTuneImportHash(tunebook));
     if (typeof props.onApplyDriveMerge === 'function') {
       props.onApplyDriveMerge(batch.sheetUpdateResults, recordState);
     }
     clearPending();
-  }, [pendingBatch, buildDriveBatch, sheetUpdateResults, props, clearPending]);
+  }, [pendingBatch, buildDriveBatch, sheetUpdateResults, props, clearPending, tunebook]);
 
   const rejectBatch = useCallback(function(options) {
     const batch = pendingBatch || buildDriveBatch(sheetUpdateResults);
-    if (batch && options && options.rejectAllFromSource) {
-      setSourceMergePref(batch.sourceKey, 'alwaysReject');
+    if (batch) {
+      if (options && options.rejectAllFromSource) {
+        setSourceMergePref(batch.sourceKey, 'alwaysReject');
+      } else {
+        dismissEntireMergeBatch(batch.sourceKey, batch, getTuneImportHash(tunebook));
+      }
     }
     clearPending();
-  }, [pendingBatch, buildDriveBatch, sheetUpdateResults, clearPending]);
+  }, [pendingBatch, buildDriveBatch, sheetUpdateResults, clearPending, tunebook]);
 
   useEffect(function() {
     if (!token || !sheetUpdateResults) {
@@ -68,7 +85,10 @@ export default function IncomingMergeHost(props) {
     }
 
     const batch = buildDriveBatch(sheetUpdateResults);
-    if (!batch || batch.records.length === 0) return;
+    if (!batch || batch.records.length === 0) {
+      if (typeof props.onClear === 'function') props.onClear();
+      return;
+    }
 
     const pref = getSourceMergePref(batch.sourceKey);
     if (pref === 'alwaysReject') {
@@ -76,6 +96,7 @@ export default function IncomingMergeHost(props) {
       return;
     }
     if (pref === 'alwaysAccept') {
+      applyMergeDismissalState(batch.sourceKey, batch, null, getTuneImportHash(tunebook));
       if (typeof props.onApplyDriveMerge === 'function') {
         props.onApplyDriveMerge(sheetUpdateResults, null);
       }
@@ -97,13 +118,13 @@ export default function IncomingMergeHost(props) {
         },
       });
     }
-  }, [token, sheetUpdateResults, buildDriveBatch, applyDriveBatch, props]);
+  }, [token, sheetUpdateResults, buildDriveBatch, applyDriveBatch, props, tunebook]);
 
   return (
     <IncomingMergeModal
       show={showModal}
       batch={pendingBatch}
-      tunebook={props.tunebook}
+      tunebook={tunebook}
       onClose={function() { setShowModal(false); }}
       onApply={applyDriveBatch}
       onReject={rejectBatch}

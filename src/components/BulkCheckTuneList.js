@@ -57,6 +57,7 @@ export default function BulkCheckTuneList(props) {
                 </Button>
                 <BulkCheckFixDropdown
                   tune={tune}
+                  issues={report.issues}
                   tunes={props.tunesById}
                   tunebook={props.tunebook}
                   token={props.token}

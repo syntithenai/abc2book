@@ -4,9 +4,11 @@ import { toast } from 'react-toastify'
 import FormFieldHelp, { FieldHelpModal } from './FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import {
+  DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   DEFAULT_PUBLIC_MEDIA_PROXY,
   getLocalMediaProxyCandidates,
 } from '../mediaProxyConfig'
+import { getResolverLoginWarning } from '../mediaProxyClient'
 import {
   PROVIDER_CAPABILITIES,
   applyProviderEdits,
@@ -501,7 +503,6 @@ function ResolverTab({
   refreshResolverStatus,
   resolverMessage,
   resolverStatus,
-  accessToken,
   formatCandidateStatus,
 }) {
   const [showResolverInstallHelp, setShowResolverInstallHelp] = useState(false)
@@ -542,7 +543,8 @@ function ResolverTab({
         onHide={function() { setShowResolverInstallHelp(false) }}
       />
       <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-        Order when blank: {getLocalMediaProxyCandidates()[0]}, then {DEFAULT_PUBLIC_MEDIA_PROXY}
+        Order when blank: {getLocalMediaProxyCandidates()[0]}, then {DEFAULT_PUBLIC_MEDIA_PROXY}, then{' '}
+        {DEFAULT_CLOUD_LIGHT_MEDIA_PROXY}
       </p>
       <div className="App-settings-resolver-status">
         <strong>{resolverMessage}</strong>
@@ -557,11 +559,6 @@ function ResolverTab({
             )
           })}
         </ul>
-      ) : null}
-      {!accessToken ? (
-        <p className="app-text-muted" style={{ marginTop: '0.75rem', marginBottom: 0 }}>
-          Log in with Google if the shared resolver requires an authorized account.
-        </p>
       ) : null}
     </div>
   )
@@ -622,6 +619,7 @@ export default function ProvidersSettingsSection({
   resolverMessage,
   accessToken,
   formatCandidateStatus,
+  login,
 }) {
   const [settings, setSettings] = useState(function() { return loadProviderSettings() })
   const [webshareUrl, setWebshareUrl] = useState(function() { return getSavedWebshareProxyUrl() })
@@ -638,6 +636,7 @@ export default function ProvidersSettingsSection({
     helperOk: !!helperStatus.ok,
     helperVersion: helperStatus.version || '',
   })
+  const loginWarning = getResolverLoginWarning(resolverStatus, accessToken)
 
   useEffect(function() {
     let cancelled = false
@@ -689,6 +688,18 @@ export default function ProvidersSettingsSection({
 
   return (
     <div className="App-providers-settings">
+      {loginWarning ? (
+        <Alert variant="danger" className="App-settings-section">
+          <div>{loginWarning.message}</div>
+          {loginWarning.showLoginButton && typeof login === 'function' ? (
+            <div className="mt-2">
+              <Button variant="outline-danger" size="sm" onClick={login}>
+                Log in with Google
+              </Button>
+            </div>
+          ) : null}
+        </Alert>
+      ) : null}
       <div className="app-surface-panel App-settings-section App-providers-intro">
         <h2>Providers</h2>
         <p className="app-text-muted App-providers-intro-text">
@@ -770,7 +781,6 @@ export default function ProvidersSettingsSection({
                 refreshResolverStatus={refreshResolverStatus || function() {}}
                 resolverMessage={resolverMessage || ''}
                 resolverStatus={resolverStatus}
-                accessToken={accessToken}
                 formatCandidateStatus={formatCandidateStatus || function(c) { return c.base }}
               />
             </Tab.Pane>

@@ -13,7 +13,7 @@ import {
   detectChordSheetFormat,
 } from '../chordProFormatUtils'
 
-const OFFLINE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip'
+const OFFLINE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.mscx,.cho,.pro,.crd,.onsong,.chopro,.chordpro,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip'
 const MIDI_ACCEPT = ',.mid,.midi,audio/midi,audio/mid'
 const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong']
 

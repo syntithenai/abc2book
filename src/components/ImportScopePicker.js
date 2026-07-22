@@ -38,6 +38,13 @@ function playlistImportSubtitle(playlistRecord, tunes) {
   return 'Imports playlist and ' + found + ' of ' + tuneIds.length + ' tune(s) found in shared book'
 }
 
+function countTunesWithTag(tunes, tagName) {
+  if (!tunes || !tagName) return 0
+  return Object.values(tunes).filter(function(tune) {
+    return tune && Array.isArray(tune.tags) && tune.tags.indexOf(tagName) !== -1
+  }).length
+}
+
 function wholeSongbookOption(tunes, sets, playlists, recommended) {
   const tuneList = Object.values(tunes).filter(function(t) { return t && t.id })
   const setCount = Object.keys(sets).length
@@ -60,6 +67,19 @@ export function buildImportScopeOptions(preview, context) {
   const playlists = preview && preview.playlists ? preview.playlists : {}
   const ctx = context || {}
   const options = []
+
+  if (ctx.scopeHint === 'tag' && ctx.tagName) {
+    options.push({
+      id: 'tag:' + ctx.tagName,
+      scope: 'tag',
+      tagName: ctx.tagName,
+      recommended: true,
+      title: 'Import tag: ' + ctx.tagName,
+      subtitle: countTunesWithTag(tunes, ctx.tagName) + ' tune(s)',
+    })
+    options.push(wholeSongbookOption(tunes, sets, playlists, false))
+    return options
+  }
 
   if (ctx.scopeHint === 'playlist' && ctx.playlistId) {
     const playlistRecord = playlists[ctx.playlistId]

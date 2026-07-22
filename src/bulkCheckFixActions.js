@@ -10,6 +10,12 @@ import { enqueueStemCreateJob } from './stemCreateQueue'
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { syncTuneFromStore } from './bulkCheckTuneSync'
 import { capitalizeSongTitle } from './titleCaseUtils'
+import {
+  applyStructureFix,
+  previewStructureFix,
+  STRUCTURE_FIX_ACTIONS,
+} from './tuneAbcStructureFix'
+import { fixTuneAbcHeaders } from './tuneAbcCorrectnessCheck'
 
 function tuneTitle(tune) {
   return tune && tune.name ? String(tune.name).trim() : ''
@@ -199,6 +205,20 @@ export async function runBulkCheckFixAction(action, options) {
     return next
   }
 
+  const structureAction = STRUCTURE_FIX_ACTIONS.find(function(item) { return item.id === action })
+  if (structureAction) {
+    const abcTools = tunebook.abcTools
+    const parseAndRender = opts.parseAndRender
+    const fixed = applyStructureFix(action, next, abcTools, parseAndRender)
+    if (!fixed) throw new Error('This fix could not be applied to the tune')
+    return syncTuneFromStore(fixed, opts)
+  }
+
+  if (action === 'fixHeaders') {
+    next = fixTuneAbcHeaders(next, tunebook.abcTools)
+    return syncTuneFromStore(next, opts)
+  }
+
   if (action === 'searchAll') {
     if (next.name) {
       next.name = capitalizeSongTitle(next.name)
@@ -236,4 +256,4 @@ export const BULK_CHECK_FIX_ACTIONS = [
   { id: 'stems', label: 'Stems', requiresAudio: true },
 ]
 
-export { syncTuneFromStore }
+export { syncTuneFromStore, previewStructureFix, STRUCTURE_FIX_ACTIONS }

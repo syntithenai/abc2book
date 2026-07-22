@@ -109,6 +109,61 @@ class StemsCloudSeparateTests(unittest.TestCase):
             self.assertEqual(result["backend"], "provider:fal")
             self.assertTrue(os.path.isfile(os.path.join(tmp, "vocals.wav")))
 
+    def test_replicate_retries_with_latest_version_on_model_404(self):
+        async def fake_upload(*args, **kwargs):
+            return "https://example.com/audio.wav"
+
+        model_calls = {"count": 0}
+
+        async def fake_get(url, **kwargs):
+            self.assertIn("/models/cjwbw/demucs", url)
+            return mock.Mock(
+                status_code=200,
+                json=lambda: {"latest_version": {"id": "version-hash-abc"}},
+            )
+
+        async def fake_post(url, **kwargs):
+            if url.endswith("/models/cjwbw/demucs/predictions"):
+                return mock.Mock(status_code=404, text='{"detail":"not found"}')
+            if url.endswith("/predictions"):
+                body = kwargs.get("json") or {}
+                self.assertEqual(body.get("version"), "version-hash-abc")
+                return mock.Mock(
+                    status_code=201,
+                    json=lambda: {
+                        "id": "pred-1",
+                        "status": "succeeded",
+                        "urls": {"get": "https://api.replicate.com/v1/predictions/pred-1"},
+                        "output": {
+                            "drums": "https://example.com/drums.wav",
+                            "bass": "https://example.com/bass.wav",
+                            "other": "https://example.com/other.wav",
+                            "vocals": "https://example.com/vocals.wav",
+                        },
+                    },
+                )
+            raise AssertionError("unexpected POST " + url)
+
+        async def fake_download(client, url, dest):
+            with open(dest, "wb") as handle:
+                handle.write(b"RIFF")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            with mock.patch.object(stems_cloud, "_replicate_upload_or_data_uri", side_effect=fake_upload), \
+                 mock.patch.object(stems_cloud.httpx.AsyncClient, "get", side_effect=fake_get), \
+                 mock.patch.object(stems_cloud.httpx.AsyncClient, "post", side_effect=fake_post), \
+                 mock.patch.object(stems_cloud, "_download_file", side_effect=fake_download):
+                result = asyncio.run(
+                    stems_cloud.separate_stems_cloud(
+                        b"audio",
+                        "a.wav",
+                        {"provider": "replicate", "apiKey": "r8_test", "model": "cjwbw/demucs"},
+                        tmp,
+                    )
+                )
+            self.assertEqual(result["backend"], "provider:replicate")
+            self.assertTrue(os.path.isfile(os.path.join(tmp, "vocals.wav")))
+
 
 if __name__ == "__main__":
     unittest.main()

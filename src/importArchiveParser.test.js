@@ -11,6 +11,8 @@ describe('importArchiveParser', function() {
 
   test('isChordSheetMemberName', function() {
     expect(isChordSheetMemberName('songs/foo.cho')).toBe(true);
+    expect(isChordSheetMemberName('songs/foo.chopro')).toBe(true);
+    expect(isChordSheetMemberName('songs/foo.chordpro')).toBe(true);
     expect(isChordSheetMemberName('songs/foo.onsong')).toBe(true);
     expect(isChordSheetMemberName('__MACOSX/._foo.cho')).toBe(false);
     expect(isChordSheetMemberName('readme.md')).toBe(false);

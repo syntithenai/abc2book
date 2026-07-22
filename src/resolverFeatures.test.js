@@ -33,8 +33,35 @@ describe('resolverFeatures', function() {
     expect(parseResolverFeaturesFromHealthBody({ ok: true })).toEqual(ALL_RESOLVER_FEATURES);
   });
 
-  test('getResolverFeaturesFromStatus returns defaults when resolver unavailable', function() {
-    expect(getResolverFeaturesFromStatus({ available: false, features: ALL_RESOLVER_FEATURES }))
+  test('getResolverFeaturesFromStatus uses reachable candidate when active resolver unavailable', function() {
+    expect(getResolverFeaturesFromStatus({
+      available: false,
+      features: { proxy: true, stems: false, whisper: true, llm: true, lightMode: true, youtubeEgressRequired: true },
+      candidates: [{
+        base: 'https://resolver.example',
+        reachable: true,
+        available: false,
+        features: { proxy: true, stems: false, whisper: true, llm: true, lightMode: true, youtubeEgressRequired: true },
+      }],
+    })).toEqual({
+      proxy: true,
+      stems: false,
+      whisper: true,
+      llm: true,
+      practiceAnalysis: false,
+      oauthBff: false,
+      soundfonts: false,
+      sheetImage: false,
+      sheetImageOcr: false,
+      sheetImageOmr: false,
+      lightMode: true,
+      youtubeAudio: false,
+      youtubeEgressRequired: true,
+    });
+  });
+
+  test('getResolverFeaturesFromStatus returns defaults when no reachable candidates', function() {
+    expect(getResolverFeaturesFromStatus({ available: false, candidates: [] }))
       .toEqual(DEFAULT_RESOLVER_FEATURES);
   });
 

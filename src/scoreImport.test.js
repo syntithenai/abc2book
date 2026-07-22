@@ -4,6 +4,7 @@ import {
   checkForMissingXmlHeader,
   extractMusicXmlFromMxl,
   isMusicXmlText,
+  isMuseScoreNativeText,
 } from './mxlExtract';
 import { musicXmlToAbc } from './musicXmlToAbc';
 import { detectScoreFormat } from './scoreImportClient';
@@ -15,6 +16,11 @@ describe('mxlExtract', function() {
   test('isMusicXmlText detects xml and score-partwise', function() {
     expect(isMusicXmlText('<?xml version="1.0"?><score-partwise></score-partwise>')).toBe(true);
     expect(isMusicXmlText('plain text')).toBe(false);
+  });
+
+  test('isMuseScoreNativeText detects MuseScore root element', function() {
+    expect(isMuseScoreNativeText('<?xml version="1.0"?><museScore version="4.00"></museScore>')).toBe(true);
+    expect(isMuseScoreNativeText('<?xml version="1.0"?><score-partwise></score-partwise>')).toBe(false);
   });
 
   test('checkForMissingXmlHeader prepends declaration when needed', function() {
@@ -78,6 +84,7 @@ describe('scoreImportClient', function() {
     expect(detectScoreFormat('tune.mxl')).toBe('mxl');
     expect(detectScoreFormat('tune.musicxml')).toBe('musicxml');
     expect(detectScoreFormat('tune.mid')).toBe('midi');
+    expect(detectScoreFormat('tune.mscx')).toBe('mscx');
     expect(detectScoreFormat('tune.abc')).toBe('abc');
     expect(detectScoreFormat('tune.pdf')).toBe(null);
   });

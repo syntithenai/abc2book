@@ -1129,7 +1129,7 @@ export default function ImportReviewModal(props) {
         ref={fileInputRef}
         type="file"
         multiple
-        accept={addFromFileAcceptList(resolverAvailable)}
+        accept={addFromFileAcceptList(!!props.resolverAvailable)}
         style={{ display: 'none' }}
         onChange={function(event) {
           const selected = event.target.files ? Array.from(event.target.files) : [];
@@ -1150,7 +1150,7 @@ export default function ImportReviewModal(props) {
         multiple
         webkitdirectory=""
         directory=""
-        accept={addFromFileAcceptList(resolverAvailable)}
+        accept={addFromFileAcceptList(!!props.resolverAvailable)}
         style={{ display: 'none' }}
         onChange={function(event) {
           const selected = event.target.files ? Array.from(event.target.files).filter(function(file) {

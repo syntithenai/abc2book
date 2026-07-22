@@ -1,5 +1,5 @@
 import { fetchViaMediaProxy } from './mediaProxyClient';
-import { extractMusicXmlFromMxl, isMusicXmlText } from './mxlExtract';
+import { extractMusicXmlFromMxl, isMusicXmlText, isMuseScoreNativeText } from './mxlExtract';
 import { musicXmlToAbc, MIDI_XML2ABC_OPTIONS } from './musicXmlToAbc';
 import { importMidiToAbc } from './midiToAbcClient';
 
@@ -14,6 +14,7 @@ const SCORE_EXTENSIONS = {
   mxl: 'mxl',
   mid: 'midi',
   midi: 'midi',
+  mscx: 'mscx',
 };
 
 function extensionOf(fileName) {
@@ -162,6 +163,48 @@ export async function midiToMusicXml(midiBytes, fileName, accessToken, signal) {
   return readMusicXmlConversionResponse(response, 'MIDI conversion');
 }
 
+export async function convertMuseScoreFileToMusicXml(file, accessToken, signal) {
+  const formData = new FormData();
+  formData.append('file', file, file.name || 'score.mscx');
+
+  const response = await fetchViaMediaProxy('/score2xml', accessToken, {
+    method: 'POST',
+    body: formData,
+    signal: signal,
+    headers: {
+      Accept: 'application/xml, text/xml, text/plain, application/json',
+    },
+  });
+
+  return readMusicXmlConversionResponse(response, 'MuseScore conversion');
+}
+
+async function resolveMusicXmlFromFile(file, format, accessToken, signal, onProgress) {
+  const buffer = await readFileAsArrayBuffer(file);
+  const text = decodeArrayBufferToText(buffer);
+
+  if (format === 'mscx') {
+    if (isMusicXmlText(text)) {
+      return text;
+    }
+    if (isMuseScoreNativeText(text)) {
+      if (!accessToken) {
+        throw new Error('Native MuseScore .mscx import needs the media resolver.');
+      }
+      if (typeof onProgress === 'function') {
+        onProgress('Converting MuseScore file to MusicXML...');
+      }
+      return convertMuseScoreFileToMusicXml(file, accessToken, signal);
+    }
+    throw new Error('File does not look like a MuseScore or MusicXML score');
+  }
+
+  if (!isMusicXmlText(text)) {
+    throw new Error('File does not look like MusicXML');
+  }
+  return text;
+}
+
 /**
  * Import a score file and return ABC text.
  */
@@ -208,17 +251,19 @@ export async function importScoreFile(options) {
     return { abc: abc, sourceFormat: 'mxl', warnings: warnings };
   }
 
-  if (format === 'musicxml') {
-    const buffer = await readFileAsArrayBuffer(file);
-    const musicXml = decodeArrayBufferToText(buffer);
-    if (!isMusicXmlText(musicXml)) {
-      throw new Error('File does not look like MusicXML');
-    }
+  if (format === 'musicxml' || format === 'mscx') {
+    const musicXml = await resolveMusicXmlFromFile(
+      file,
+      format,
+      accessToken,
+      signal,
+      onProgress
+    );
     if (typeof onProgress === 'function') {
       onProgress('Converting MusicXML to ABC...');
     }
     const abc = musicXmlToAbc(musicXml, conversionOptions);
-    return { abc: abc, sourceFormat: 'musicxml', warnings: warnings };
+    return { abc: abc, sourceFormat: format, warnings: warnings };
   }
 
   if (format === 'midi') {

@@ -1,19 +1,30 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import IncomingMergeModal from './IncomingMergeModal';
 import { getSourceMergePref, setSourceMergePref } from '../incomingMergePrefs';
-import { pollSourceUrlUpdates, startSourceUrlPolling } from '../sourceUrlSync';
+import { pollRegisteredSourceUpdates, startSourceUrlPolling } from '../sourceUrlSync';
 import { registerMergeCheckHandler, unregisterMergeCheckHandler } from '../mergeCheckTrigger';
 import { dismissMergeToast, showIncomingMergeToast } from '../mergeToast';
+import { backfillSourcesFromTunes } from '../syncSourcesStore';
+import {
+  applyMergeDismissalState,
+  dismissEntireMergeBatch,
+} from '../sourceMergeDismissals';
 
-export default function SourceUrlSyncHost(props) {
+function getTuneImportHash(tunebook) {
+  return tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
+}
+
+export default function SyncSourcesHost(props) {
   const token = props.token;
   const tunes = props.tunes;
+  const deletedTunes = props.deletedTunes;
   const tunebook = props.tunebook;
   const driveApi = props.driveApi;
   const [pendingBatch, setPendingBatch] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const queueRef = useRef([]);
   const showingToastRef = useRef(false);
+  const backfilledRef = useRef(false);
 
   const processQueue = useCallback(function() {
     if (showingToastRef.current || pendingBatch) return;
@@ -27,13 +38,15 @@ export default function SourceUrlSyncHost(props) {
         }
         continue;
       }
+      if (!next.records || next.records.length === 0) continue;
       setPendingBatch(next);
       showingToastRef.current = true;
       showIncomingMergeToast({
-        message: 'Source URL updates available for ' + next.sourceLabel + '.',
+        message: 'Source updates available for ' + next.sourceLabel + '.',
         onAccept: function() {
           showingToastRef.current = false;
           dismissMergeToast();
+          applyMergeDismissalState(next.sourceKey, next, null, getTuneImportHash(tunebook));
           if (typeof props.onApplySourceUrlMerge === 'function') {
             props.onApplySourceUrlMerge(next, null);
           }
@@ -47,36 +60,46 @@ export default function SourceUrlSyncHost(props) {
       });
       return;
     }
-  }, [pendingBatch, props]);
+  }, [pendingBatch, props, tunebook]);
 
   const applyBatch = useCallback(function(recordState, options) {
     if (!pendingBatch || typeof props.onApplySourceUrlMerge !== 'function') return;
     if (options && options.acceptAllFromSource) {
       setSourceMergePref(pendingBatch.sourceKey, 'alwaysAccept');
     }
+    applyMergeDismissalState(pendingBatch.sourceKey, pendingBatch, recordState, getTuneImportHash(tunebook));
     props.onApplySourceUrlMerge(pendingBatch, recordState);
     setPendingBatch(null);
     setShowModal(false);
     showingToastRef.current = false;
     dismissMergeToast();
     processQueue();
-  }, [pendingBatch, props, processQueue]);
+  }, [pendingBatch, props, processQueue, tunebook]);
 
   const rejectBatch = useCallback(function(options) {
-    if (pendingBatch && options && options.rejectAllFromSource) {
-      setSourceMergePref(pendingBatch.sourceKey, 'alwaysReject');
+    if (pendingBatch) {
+      if (options && options.rejectAllFromSource) {
+        setSourceMergePref(pendingBatch.sourceKey, 'alwaysReject');
+      } else {
+        dismissEntireMergeBatch(pendingBatch.sourceKey, pendingBatch, getTuneImportHash(tunebook));
+      }
     }
     setPendingBatch(null);
     setShowModal(false);
     showingToastRef.current = false;
     dismissMergeToast();
     processQueue();
-  }, [pendingBatch, processQueue]);
+  }, [pendingBatch, processQueue, tunebook]);
 
   const handlePoll = useCallback(async function() {
     if (!token || !tunes || !tunebook) return;
-    const batches = await pollSourceUrlUpdates({
+    if (!backfilledRef.current) {
+      backfillSourcesFromTunes(tunes);
+      backfilledRef.current = true;
+    }
+    const batches = await pollRegisteredSourceUpdates({
       tunes: tunes,
+      deletedTunes: deletedTunes,
       tunebook: tunebook,
       driveApi: driveApi,
       onSourceUrlAbcFetched: props.onSourceUrlAbcFetched,
@@ -85,12 +108,8 @@ export default function SourceUrlSyncHost(props) {
       queueRef.current = queueRef.current.concat(batches);
       processQueue();
     }
-  }, [token, tunes, tunebook, driveApi, processQueue]);
+  }, [token, tunes, deletedTunes, tunebook, driveApi, processQueue, props.onSourceUrlAbcFetched]);
 
-  // Poll via a ref so the interval survives re-renders. handlePoll changes
-  // identity on nearly every App render (tunes/props churn during playback);
-  // restarting the interval each time fired the immediate initial tick and
-  // hammered every tune's source URL with fetches.
   const handlePollRef = useRef(handlePoll);
   handlePollRef.current = handlePoll;
 
@@ -102,8 +121,10 @@ export default function SourceUrlSyncHost(props) {
 
   useEffect(function() {
     registerMergeCheckHandler('sourceUrl', function() { return handlePollRef.current(); });
+    registerMergeCheckHandler('sharedSources', function() { return handlePollRef.current(); });
     return function() {
       unregisterMergeCheckHandler('sourceUrl');
+      unregisterMergeCheckHandler('sharedSources');
     };
   }, []);
 

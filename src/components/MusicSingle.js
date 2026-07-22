@@ -69,6 +69,8 @@ import useMediaResolverHealth from '../useMediaResolverHealth'
 import useTuneSnapshotRouteSync, { applyTuneSnapshotFromSearchParams } from '../useTuneSnapshotRouteSync'
 import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wLinesUtils'
 import { isMobilePlatform } from '../platformUtils'
+import useMusicToolbarWidth from '../useMusicToolbarWidth'
+import { isMusicToolbarCompact, isMusicToolbarFolded } from '../musicToolbarLayout'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -76,6 +78,8 @@ export default function MusicSingle(props) {
     const location = useLocation();
     const [searchParams] = useSearchParams();
     var windowSize = useWindowSize()
+    const toolbarRef = useRef(null)
+    const toolbarContainerWidth = useMusicToolbarWidth(toolbarRef)
     const audioPlayer = useRef(); 
     const { available: resolverAvailable } = useMediaResolverHealth()
     
@@ -448,9 +452,14 @@ export default function MusicSingle(props) {
         const ownMidiEngine = shouldMusicSingleOwnMidiEngine(tune.id, props.nowPlayingQueue)
        
                 const compactToolbar = windowSize[0] <= 768
-                const mediumToolbar = windowSize[0] <= 1180
                 const collapseToolbarToMenu = isMobilePlatform()
-                const foldControlsIntoMenu = collapseToolbarToMenu || mediumToolbar
+                const foldControlsIntoMenu = isMusicToolbarFolded(windowSize[0], collapseToolbarToMenu)
+                const mediumToolbar = foldControlsIntoMenu
+                const compactNotationControls = isMusicToolbarCompact(
+                  toolbarContainerWidth,
+                  windowSize[0],
+                  foldControlsIntoMenu
+                )
                 const showInlineTuneMeta = !foldControlsIntoMenu
                 const hasChords = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                 const availableFlags = getAvailableDisplayFlags(tune, props.tunebook, {
@@ -470,6 +479,7 @@ export default function MusicSingle(props) {
                 const pdfSnapshotActive = !!(activeFileMeta && isPdfTuneFileType(activeFileMeta.type))
                 const toolbarClassName = 'music-buttons'
                   + (foldControlsIntoMenu ? ' music-buttons--folded-menu' : '')
+                  + (compactNotationControls ? ' music-buttons--compact-controls' : '')
                   + (collapseToolbarToMenu ? ' music-buttons--mobile-collapsed' : '')
                   + (mediumToolbar && !collapseToolbarToMenu ? ' music-buttons--meta-collapsed' : '')
                   + (pdfSnapshotActive ? ' music-buttons--pdf-snapshot' : '')
@@ -515,12 +525,13 @@ export default function MusicSingle(props) {
                 const tuneTranspose = Number(tune.transpose) || 0
                 const effectiveCapo = Number(tune.capo) || 0
 
+                const tablatureInViewMode = foldControlsIntoMenu || compactNotationControls
                 const tablatureSelector = availableFlags.notation && !fileOverlayActive ? (
                   <TablatureSelector
                     tune={tune}
                     tunebook={props.tunebook}
-                    variant={mediumToolbar ? 'menu' : 'toolbar'}
-                    stopMenuClose={!!mediumToolbar}
+                    variant={tablatureInViewMode ? 'menu' : 'toolbar'}
+                    stopMenuClose={!!tablatureInViewMode}
                     onChange={function() {
                       setTune(Object.assign({}, tune))
                       if (props.forceRefresh) props.forceRefresh()
@@ -695,15 +706,15 @@ export default function MusicSingle(props) {
                     viewMode={props.viewMode}
                     tune={tune}
                     tunebook={props.tunebook}
-                    forceDropdown={!foldControlsIntoMenu && mediumToolbar}
+                    forceDropdown={compactNotationControls}
                     embeddedPanel={foldControlsIntoMenu}
-                    stopMenuClose={foldControlsIntoMenu}
+                    stopMenuClose={foldControlsIntoMenu || compactNotationControls}
                     notationFitMode={notationFitMode}
                     onNotationFitModeChange={handleNotationFitModeChange}
                     hideInlineVoiceControls={fileOverlayActive}
                     fileOverlayActive={fileOverlayActive}
                     availableOverride={availableForControls}
-                    tablatureSelector={tablatureSelector}
+                    tablatureSelector={tablatureInViewMode ? tablatureSelector : null}
                     onVoiceSettingsChange={function() {
                       setVoiceSettingsVersion(function(v) { return v + 1 })
                     }}
@@ -711,7 +722,7 @@ export default function MusicSingle(props) {
                     afterDisplayModes={foldControlsIntoMenu ? zoomControlsElement : null}
                     extraMenuContent={foldControlsIntoMenu
                       ? (fileOverlayActive ? null : transposeCapoBlock)
-                      : (mediumToolbar && !fileOverlayActive ? notationControlsBlock : null)}
+                      : (compactNotationControls && !fileOverlayActive ? notationControlsBlock : null)}
                     onChange={handleViewModeChange}
                   />
                 )
@@ -771,7 +782,7 @@ export default function MusicSingle(props) {
 
                 var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
                 return <div className={'music-single' + (fileOverlayActive ? ' music-single--file-overlay' : '')} style={{border:'1px solid black'}} {...handlers} >
-			<div className={toolbarClassName}>
+			<div ref={toolbarRef} className={toolbarClassName}>
 			  <div className="music-buttons-inner">
 			    <div className="music-buttons-col-left">
             <Dropdown as={ButtonGroup} autoClose="outside">
@@ -874,7 +885,7 @@ export default function MusicSingle(props) {
               />
             ) : null}
 			      {viewModeSelector}
-            {!mediumToolbar && !fileOverlayActive ? notationControlsBlock : null}
+            {!compactNotationControls && !fileOverlayActive ? notationControlsBlock : null}
 			    </div>
             ) : null}
 			  </div>

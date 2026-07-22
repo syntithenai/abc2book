@@ -62,6 +62,13 @@ function tombstoneWinsOverTune(tombAt, tuneAt) {
   return tombAt > 0 && tombAt >= tuneAt
 }
 
+export function isLocallyDeletedTune(deletedTunes, tuneId, incomingLastUpdated) {
+  if (!deletedTunes || !tuneId) return false
+  const tomb = deletedTunes[tuneId]
+  if (!tomb) return false
+  return tombstoneWinsOverTune(toMs(tomb.deletedAt), toMs(incomingLastUpdated))
+}
+
 /**
  * Classify differences between local state and remote/imported ABC content.
  * Returns buckets used by merge and import warning UIs.

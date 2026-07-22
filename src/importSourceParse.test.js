@@ -1,4 +1,5 @@
 import {
+  addFromFileAcceptList,
   candidatesFromImportSource,
   classifyTextImport,
   isSheetImageImportFile,
@@ -53,6 +54,23 @@ function baseOptions(overrides) {
 }
 
 describe('importSourceParse helpers', function() {
+  test('addFromFileAcceptList gates resolver-only types but keeps attachable media', function() {
+    const withResolver = addFromFileAcceptList(true);
+    const withoutResolver = addFromFileAcceptList(false);
+    expect(withResolver).not.toBe(withoutResolver);
+    expect(withResolver).toContain('.mscx');
+    expect(withoutResolver).not.toContain('.mscx');
+    [
+      '.abc', '.mxl', '.mscz', '.mid', '.midi', '.pdf', '.png', '.jpg', '.mp3', '.mp4',
+      '.cho', '.chopro', '.chordpro', '.onsongarchive', '.backup', '.sbp', '.html', '.zip',
+    ].forEach(function(ext) {
+      expect(withoutResolver).toContain(ext);
+      expect(withResolver).toContain(ext);
+    });
+    expect(withoutResolver).toContain('image/*');
+    expect(withoutResolver).toContain('application/pdf');
+  });
+
   test('classifyTextImport prefers notation for abc headers', function() {
     expect(classifyTextImport('X:1\nT:Hi\nK:C\nC2', 't.abc')).toBe('notation');
   });

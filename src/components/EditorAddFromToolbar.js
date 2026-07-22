@@ -131,7 +131,7 @@ export default function EditorAddFromToolbar(props) {
         ref={fileRef}
         type="file"
         hidden
-        accept={addFromFileAcceptList(resolverAvailable)}
+        accept={addFromFileAcceptList(!!props.resolverAvailable)}
         onChange={function(event) {
           const file = event.target.files && event.target.files[0];
           event.target.value = '';

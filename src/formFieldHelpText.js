@@ -169,6 +169,10 @@ export const SETTINGS_FIELD_HELP = {
     title: 'Background jobs',
     body: 'View and manage background work from Settings. Red tab badges show incomplete jobs. Automatic jobs (research, media cache, stems, playback scans, bulk check) apply results and keep running while you browse unless you cancel them. Review jobs (media analysis, file OCR, import enrichment, field searches) fetch data you still choose how to use — field searches keep running in the background and show Choose buttons on the form when results are ready. Use Cancel for individual jobs, Cancel all for a category, and Clear finished to remove completed and awaiting-review field searches.',
   },
+  sources: {
+    title: 'Sources',
+    body: 'Lists your Google Drive tunebook and any shared tunebooks or URLs you subscribe to for ongoing updates. Filters limit which tunes are synced from each source. Pause stops polling; Remove stops sync but keeps imported tunes and their Source URL.',
+  },
 };
 
 export const CHORDS_FIELD_HELP = {

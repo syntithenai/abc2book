@@ -125,12 +125,18 @@ def auth_flags(verified: dict | None) -> dict[str, bool]:
     }
 
 
-def light_features() -> dict[str, Any]:
+def light_features(allow_embedded: bool = False) -> dict[str, Any]:
     host_proxy = bool(os.getenv("YTDLP_PROXY", "").strip())
     require_egress = os.getenv("YTDLP_REQUIRE_USER_PROXY", "true").lower() in ("1", "true", "yes")
+    stems_cfg = resolve_provider(
+        "stems",
+        local_available=False,
+        allow_embedded=allow_embedded,
+    )
+    stems_available = is_cloud_stems_provider(stems_cfg)
     return {
         "proxy": True,
-        "stems": True,  # cloud BYO / host PROVIDER_STEMS_*
+        "stems": stems_available,
         "whisper": True,
         "llm": True,
         "practiceAnalysis": False,
@@ -174,7 +180,6 @@ async def _health_body(authorization: str | None) -> dict:
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "lightMode": True,
-        "features": light_features(),
         "oauthBff": False,
         "staticSite": False,
     }
@@ -208,6 +213,7 @@ async def _health_body(authorization: str | None) -> dict:
     flags = auth_flags(verified if body.get("authorized") else None)
     if not REQUIRE_AUTH:
         flags = auth_flags(None)
+    body["features"] = light_features(allow_embedded=flags["embeddedCreds"])
     body["providers"] = providers_health_payload(
         allow_embedded=flags["embeddedCreds"],
         local_backends={"llm": False, "whisper": False, "ocr": False, "stems": False},
@@ -318,6 +324,37 @@ async def midi2xml(
             raise HTTPException(status_code=400, detail="Missing MIDI file upload")
         data = await file.read()
         xml, _diagnostics = await convert_midi_to_musicxml(data, file.filename or "import.mid")
+        return Response(content=xml, media_type="application/xml", headers=cors_headers(origin))
+    except HTTPException as exc:
+        return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))
+    except Exception as exc:
+        return JSONResponse({"error": str(exc)[:500]}, status_code=502, headers=cors_headers(origin))
+
+
+@app.post("/score2xml")
+async def score2xml(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await require_auth(authorization)
+        import os
+        import tempfile
+        from musescore_fetch import _convert_score_file_to_musicxml
+
+        if file is None:
+            raise HTTPException(status_code=400, detail="Missing score file upload")
+        data = await file.read()
+        if not data:
+            raise HTTPException(status_code=400, detail="Score file is empty")
+        suffix = os.path.splitext(file.filename or "")[1].lower() or ".mscx"
+        with tempfile.TemporaryDirectory() as temp_dir:
+            in_path = os.path.join(temp_dir, "upload" + suffix)
+            with open(in_path, "wb") as handle:
+                handle.write(data)
+            xml = _convert_score_file_to_musicxml(in_path, temp_dir, output_stem="score_import")
         return Response(content=xml, media_type="application/xml", headers=cors_headers(origin))
     except HTTPException as exc:
         return JSONResponse({"error": str(exc.detail)}, status_code=exc.status_code, headers=cors_headers(origin))

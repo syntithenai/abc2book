@@ -85,6 +85,14 @@ export function measureCapacityBeats(meterText) {
 }
 
 export function validateMeasureFits(events, meterText, unitLengthDecimal) {
+  return findMeasureDurationIssues(events, meterText, unitLengthDecimal).length === 0;
+}
+
+/**
+ * Returns measures whose total duration does not match one full bar (within tolerance).
+ * @returns {Array<{ measureIndex: number, beats: number, capacity: number, type: 'underfull'|'overfull' }>}
+ */
+export function findMeasureDurationIssues(events, meterText, unitLengthDecimal) {
   const cap = measureCapacityBeats(meterText);
   const byMeasure = {};
   events.forEach(function(ev) {
@@ -92,7 +100,17 @@ export function validateMeasureFits(events, meterText, unitLengthDecimal) {
     const m = ev.measureIndex || 0;
     byMeasure[m] = (byMeasure[m] || 0) + durationToBeats(ev.duration, unitLengthDecimal);
   });
-  return Object.keys(byMeasure).every(function(m) {
-    return byMeasure[m] <= cap + 0.001;
+  const issues = [];
+  Object.keys(byMeasure).forEach(function(key) {
+    const beats = byMeasure[key];
+    const diff = beats - cap;
+    if (Math.abs(diff) <= 0.001) return;
+    issues.push({
+      measureIndex: parseInt(key, 10),
+      beats: beats,
+      capacity: cap,
+      type: diff < 0 ? 'underfull' : 'overfull',
+    });
   });
+  return issues;
 }

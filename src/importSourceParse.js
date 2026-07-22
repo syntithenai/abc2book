@@ -4,6 +4,7 @@ import {
   parseChordSheetText,
   createTuneFromChordSheet,
   isChordSheetFilename,
+  CHORD_SHEET_IMPORT_EXTENSIONS,
   detectChordSheetFormat,
   titleFromChordSheetFileName,
 } from './chordProFormatUtils';
@@ -20,7 +21,7 @@ import { buildDraftFromSheetImageResult, createTuneFromSheetImageImport } from '
 import { createImportCandidate } from './importReviewSession';
 import { ensurePlainWordsFromNoteAlignedLyrics, setLyricLines } from './wLinesUtils';
 
-const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong'];
+const CHORD_SHEET_EXTENSIONS = CHORD_SHEET_IMPORT_EXTENSIONS;
 
 export function isChordSheetExtension(fileName) {
   const lower = String(fileName || '').toLowerCase();
@@ -204,29 +205,40 @@ export function parseImportText(options) {
   return abcTextToCandidates(text, tunebook, book);
 }
 
-export const OFFLINE_FILE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip';
+export const OFFLINE_FILE_ACCEPT = '.abc,.txt,.xml,.musicxml,.mxl,.cho,.pro,.crd,.onsong,.chopro,.chordpro,.zip,.mscz,.sbp,.sbpbackup,.onsongarchive,.html,.htm,application/vnd.recordare.musicxml+xml,application/xml,text/plain,application/zip';
 export const MIDI_FILE_ACCEPT = ',.mid,.midi,audio/midi,audio/mid';
+/** MuseScore .mscx (native format) needs resolver conversion; MusicXML-in-.mscx is rare in the picker. */
+export const RESOLVER_SCORE_FILE_ACCEPT = '.mscx';
 /** Score formats commonly downloadable from MuseScore (and paste-dialog file pick). */
 export const NOTATION_DOWNLOAD_FILE_ACCEPT =
-  '.mscz,.musicxml,.xml,.mxl,.abc,.mid,.midi,'
+  '.mscz,.mscx,.musicxml,.xml,.mxl,.abc,.mid,.midi,.chopro,.chordpro,'
   + 'application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml,'
   + 'application/x-musescore,application/xml,audio/midi,audio/mid'
 export const AUDIO_FILE_ACCEPT = ',.mp3,.flac,.m4a,.ogg,.wav,.aac,.wma,.opus,.webm,audio/*';
 
 export const BULK_TEXT_FILE_ACCEPT = '.txt,.csv,.tsv,.abc,text/plain';
-export const SHEET_IMAGE_FILE_ACCEPT = ',image/*,application/pdf,.pdf';
+/** Sheet scans / PDFs — explicit extensions help file pickers that mishandle image/*. */
+export const SHEET_IMAGE_FILE_ACCEPT =
+  'image/*,application/pdf,.pdf,.png,.jpg,.jpeg,.gif,.webp,.bmp,.tif,.tiff,.heic,.heif';
+/** Archive / notation MIME types missing from OFFLINE_FILE_ACCEPT. */
+export const ADD_FROM_EXTRA_FILE_ACCEPT =
+  '.backup,application/x-zip-compressed,application/vnd.recordare.musicxml,application/x-musescore';
 
 export function fileAcceptList(resolverAvailable) {
   return addFromFileAcceptList(resolverAvailable);
 }
 
 export function addFromFileAcceptList(resolverAvailable) {
-  let accept = OFFLINE_FILE_ACCEPT + ',' + mediaFileAcceptList();
+  const parts = [
+    OFFLINE_FILE_ACCEPT,
+    ADD_FROM_EXTRA_FILE_ACCEPT,
+    mediaFileAcceptList(),
+    SHEET_IMAGE_FILE_ACCEPT,
+  ];
   if (resolverAvailable) {
-    accept += MIDI_FILE_ACCEPT;
-    accept += SHEET_IMAGE_FILE_ACCEPT;
+    parts.push(RESOLVER_SCORE_FILE_ACCEPT);
   }
-  return accept;
+  return parts.join(',');
 }
 
 export function isSheetImageMimeOrName(fileName, mime) {
@@ -342,7 +354,7 @@ export function isNotationImportFile(file) {
   if (detectScoreFormat(file.name)) return true;
   if (isChordSheetExtension(file.name)) return true;
   const name = String(file.name || '').toLowerCase();
-  return ['.abc', '.txt', '.xml', '.musicxml', '.cho', '.pro', '.crd', '.onsong'].some(function(ext) {
+  return ['.abc', '.txt', '.xml', '.musicxml', '.mscx', '.cho', '.pro', '.crd', '.onsong', '.chopro', '.chordpro'].some(function(ext) {
     return name.endsWith(ext);
   });
 }

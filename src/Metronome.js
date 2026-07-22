@@ -178,13 +178,45 @@ export default class Metronome
         }
     }
 
-    beginScheduling()
+    beginScheduling(startSlot)
     {
         if (this.isRunning) return;
         this.isRunning = true;
-        this.currentSlotInBar = 0;
+        const totalSlots = slotsPerBar(this.rhythm);
+        const slot = startSlot !== undefined && startSlot !== null
+            ? ((startSlot % totalSlots) + totalSlots) % totalSlots
+            : 0;
+        this.currentSlotInBar = slot;
         this.nextNoteTime = this.audioContext.currentTime + 0.05;
         this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
+    }
+
+    startAtSlot(slotIndex)
+    {
+        if (!(this.tempo > 0)) return;
+        if (this.isRunning) return;
+
+        if (this.audioContext == null)
+        {
+            this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        const pendingSlot = slotIndex;
+        if (this.audioContext.state === 'running') {
+            this.beginScheduling(pendingSlot);
+        } else if (this.audioContext.state === 'suspended') {
+            const self = this;
+            this.audioContext.resume().then(() => {
+                if (self.audioContext.state === 'running') {
+                    self.beginScheduling(pendingSlot);
+                } else if (self.errorCallback) {
+                    self.errorCallback();
+                }
+            }).catch(() => {
+                if (self.errorCallback) self.errorCallback();
+            });
+        } else if (this.errorCallback) {
+            this.errorCallback();
+        }
     }
 
     stop()

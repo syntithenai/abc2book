@@ -5,6 +5,11 @@ import axios from 'axios'
 import { curatedScrapeUrl } from '../resourceBase'
 import { findCuratedImportTitle } from '../curatedImportMatch'
 import { useDocumentTitle } from '../pageTitle'
+import {
+  registerSyncSourceAfterImport,
+  stampSrcUrlOnImportResults,
+} from '../syncSourceImportUtils'
+import { setPendingShareImportSourceRegistration } from '../shareImportSession'
 
 const IMPORT_SOURCE_TIMEOUT_MS = 30000
 const RESOLVER_HINT = 'Start the local resolver with `npm run start:resolver` (or `cd local-resolver && docker compose up`).'
@@ -61,6 +66,7 @@ export default function ImportLinkPage({
     axios.get(sourceUrl, { timeout: IMPORT_SOURCE_TIMEOUT_MS }).then(function(res) {
       if (res.data && looksLikeAbc(res.data)) {
         var results = tunebook.importAbc(res.data, null, params.tuneId, params.bookName, params.tagName)
+        const stampedResults = stampSrcUrlOnImportResults(results, sourceUrl)
         setCurrentTuneBook('')
         if (params.bookName) {
           setCurrentTuneBook(params.bookName)
@@ -69,8 +75,19 @@ export default function ImportLinkPage({
         if (params.tagName) {
           setTagFilter([params.tagName])
         }
-        if (!tunebook.showImportWarning(results)) {
-          tunebook.applyMergeData(results).then(function(mergedTunes) {
+        if (!tunebook.showImportWarning(stampedResults)) {
+          tunebook.applyMergeData(stampedResults).then(function(mergedTunes) {
+            registerSyncSourceAfterImport({
+              url: sourceUrl,
+              label: curatedTitle || 'Imported collection',
+              scopeOption: {
+                scope: params.tuneId ? 'tune' : (params.tagName ? 'tag' : (params.bookName ? 'book' : 'all')),
+                tuneId: params.tuneId || null,
+                bookName: params.bookName || null,
+                tagName: params.tagName || null,
+              },
+              results: stampedResults,
+            })
             if (autoplay && mergedTunes) {
               if (params.tuneId) {
                 navigate('/tunes' + (params.tuneId ? '/' + params.tuneId + (autoplay ? '/playMedia' : '') : ''))
@@ -96,12 +113,23 @@ export default function ImportLinkPage({
             }
           })
         } else {
+          setPendingShareImportSourceRegistration({
+            url: sourceUrl,
+            label: curatedTitle || 'Imported collection',
+            scopeOption: {
+              scope: params.tuneId ? 'tune' : (params.tagName ? 'tag' : (params.bookName ? 'book' : 'all')),
+              tuneId: params.tuneId || null,
+              bookName: params.bookName || null,
+              tagName: params.tagName || null,
+            },
+            results: stampedResults,
+          })
           setNavigateAfterImport(Object.assign({}, params, {
             autoplay: autoplay,
             curatedTitle: curatedTitle || null,
             importKind: curatedTitle ? 'curated' : 'shared',
           }))
-          if (setImportResults) setImportResults(results)
+          if (setImportResults) setImportResults(stampedResults)
           setFinished(true)
         }
       } else {

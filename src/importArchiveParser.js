@@ -29,7 +29,7 @@ export function isChordSheetZipArchive(file) {
   return false;
 }
 
-const CHORD_MEMBER_EXTS = ['.cho', '.pro', '.crd', '.onsong', '.txt'];
+const CHORD_MEMBER_EXTS = ['.cho', '.pro', '.crd', '.onsong', '.chopro', '.chordpro', '.txt'];
 
 export function isChordSheetMemberName(name) {
   const lower = String(name || '').toLowerCase();

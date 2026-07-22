@@ -1,3 +1,5 @@
+import { normalizeAbcForImport } from './abcImportNormalize'
+
 export function applyNotationTuneMeta(importedTune, tuneMeta) {
   if (!importedTune || !tuneMeta || typeof tuneMeta !== 'object') {
     return importedTune
@@ -46,7 +48,8 @@ export function applyNotationTuneMeta(importedTune, tuneMeta) {
 }
 
 export function importedTuneFromNotationCandidate(abcTools, abcText, candidate) {
-  const importedTune = abcTools.abc2json(abcText)
+  const normalized = normalizeAbcForImport(abcText)
+  const importedTune = abcTools.abc2json(normalized)
   if (candidate && candidate.tuneMeta) {
     applyNotationTuneMeta(importedTune, candidate.tuneMeta)
   }

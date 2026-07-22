@@ -13,63 +13,14 @@ import {
   shouldNowPlayingHostOwnPlayback,
 } from '../nowPlayingQueuePlayback'
 import { shouldSuppressHostAutostart } from '../playbackNavigationUtils'
+import {
+  resolveHostPlaybackTarget,
+  shouldSkipHostMidiRouteApply,
+} from '../playbackHostTarget'
 import { buildPlayableTuneAbc } from '../abcVoiceFilter'
 import { getPlayableVoiceKeys, getTuneVoiceKeys, VOICE_VIEW_SETTINGS_CHANGED } from '../abcVoiceViewSettings'
 import { resolveLinkPlaybackSrcType } from '../mediaLinkSrcType'
 import './NowPlayingHost.css'
-
-function resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, urlPlayback) {
-  if (!playingTune || !tunebook || !mediaController) return null
-
-  if (isQueueActive(queue) && currentItem) {
-    return resolvePlaybackForItem(playingTune, currentItem, tunebook)
-  }
-
-  if (mediaController.requestedPlayState === 'playMidi') {
-    return { type: 'midi' }
-  }
-  if (mediaController.requestedPlayState === 'playMedia') {
-    const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-    return { type: 'media', linkNum: linkNum }
-  }
-  if (mediaController.playbackRouteMode === 'midi') {
-    return { type: 'midi' }
-  }
-  if (mediaController.playbackRouteMode === 'media') {
-    const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-    return { type: 'media', linkNum: linkNum }
-  }
-  if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute()) {
-    return { type: 'midi' }
-  }
-  if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute()) {
-    const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-    return { type: 'media', linkNum: linkNum }
-  }
-  if (mediaController.hasActivePlaybackIntent && mediaController.hasActivePlaybackIntent()) {
-    if (tunebook.hasNotesOrChords && tunebook.hasNotesOrChords(playingTune)) {
-      return { type: 'midi' }
-    }
-    if (Array.isArray(playingTune.links) && playingTune.links.length > 0) {
-      const linkNum = mediaController.mediaLinkNumber != null ? mediaController.mediaLinkNumber : 0
-      return { type: 'media', linkNum: linkNum }
-    }
-  }
-  if (urlPlayback) {
-    if (urlPlayback.playState === 'playMidi'
-      && tunebook.hasNotesOrChords
-      && tunebook.hasNotesOrChords(playingTune)) {
-      return { type: 'midi' }
-    }
-    if (urlPlayback.playState === 'playMedia'
-      && Array.isArray(playingTune.links)
-      && playingTune.links.length > 0) {
-      const linkNum = parseInt(urlPlayback.mediaLinkNumber, 10) || 0
-      return { type: 'media', linkNum: linkNum }
-    }
-  }
-  return null
-}
 
 /**
  * App-level host for the active media/midi engine.
@@ -135,7 +86,18 @@ export default function NowPlayingHost(props) {
 
   const playbackTarget = useMemo(function() {
     const routeFromUrl = parseTunePagePlaybackFromUrl(pathname)
-    return resolveHostPlaybackTarget(mediaController, playingTune, tunebook, queue, currentItem, routeFromUrl)
+    return resolveHostPlaybackTarget(
+      mediaController,
+      playingTune,
+      tunebook,
+      queue,
+      currentItem,
+      routeFromUrl,
+      {
+        isQueueActive: isQueueActive,
+        resolvePlaybackForItem: resolvePlaybackForItem,
+      }
+    )
   }, [
     playingTune,
     currentItem,
@@ -175,6 +137,7 @@ export default function NowPlayingHost(props) {
 
     const mc = mediaControllerRef.current
     if (!mc || !mc.applyPlaybackRoute) return undefined
+    if (shouldSkipHostMidiRouteApply(mc)) return undefined
 
     const tuneId = playingTune.id
     const tuneChanged = lastMidiRouteTuneIdRef.current !== tuneId

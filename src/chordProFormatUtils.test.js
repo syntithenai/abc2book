@@ -25,6 +25,8 @@ describe('chordProFormatUtils', function() {
 
   test('detects chord sheet filenames', function() {
     expect(isChordSheetFilename('song.cho')).toBe(true);
+    expect(isChordSheetFilename('song.chopro')).toBe(true);
+    expect(isChordSheetFilename('song.chordpro')).toBe(true);
     expect(isChordSheetFilename('song.onsong')).toBe(true);
     expect(isChordSheetFilename('song.abc')).toBe(false);
   });

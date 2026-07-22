@@ -1,4 +1,5 @@
 import {
+  DEFAULT_CLOUD_LIGHT_MEDIA_PROXY,
   DEFAULT_PUBLIC_MEDIA_PROXY,
   getMediaProxyBaseCandidates,
   normalizeMediaProxyBase,
@@ -30,8 +31,12 @@ describe('mediaProxyConfig', function() {
     const candidates = getMediaProxyBaseCandidates()
     expect(candidates[0]).toBe('http://localhost:8787')
     expect(candidates).toContain(DEFAULT_PUBLIC_MEDIA_PROXY)
+    expect(candidates).toContain(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
     expect(candidates.indexOf('http://localhost:8787')).toBeLessThan(
       candidates.indexOf(DEFAULT_PUBLIC_MEDIA_PROXY)
+    )
+    expect(candidates.indexOf(DEFAULT_PUBLIC_MEDIA_PROXY)).toBeLessThan(
+      candidates.indexOf(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
     )
   })
 })

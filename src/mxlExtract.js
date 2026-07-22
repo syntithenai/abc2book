@@ -72,6 +72,14 @@ export function isMusicXmlText(text) {
     || head.indexOf('<score-timewise') !== -1;
 }
 
+export function isMuseScoreNativeText(text) {
+  if (!text || typeof text !== 'string') {
+    return false;
+  }
+  const head = text.slice(0, 400).toLowerCase();
+  return head.indexOf('<musescore') !== -1;
+}
+
 export function checkForMissingXmlHeader(input) {
   const re = /^<score-partwise\s+version="([^"]+)">/;
   const match = input.match(re);

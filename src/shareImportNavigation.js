@@ -6,6 +6,7 @@ export function buildNavigateAfterImport(scope, details) {
     bookName: d.bookName || null,
     setId: d.setId || null,
     playlistId: d.playlistId || null,
+    tagName: d.tagName || null,
   }
 }
 
@@ -37,6 +38,14 @@ export function applyShareImportNavigation(navigateAfterImport, helpers) {
     if (setTagFilter) setTagFilter([])
     if (setFilter) setFilter('')
     if (setCurrentTuneBook) setCurrentTuneBook(params.bookName)
+    navigate('/tunes')
+    return true
+  }
+
+  if (params.scope === 'tag' && params.tagName) {
+    if (setTagFilter) setTagFilter([params.tagName])
+    if (setFilter) setFilter('')
+    if (setCurrentTuneBook) setCurrentTuneBook('')
     navigate('/tunes')
     return true
   }

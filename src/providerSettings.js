@@ -459,6 +459,22 @@ export function isCapabilityAvailable(capability, features, settings) {
   return false
 }
 
+/** Stems on light gateway need BYO or host-embedded cloud Demucs provider. */
+export function isStemsCapabilityAvailable(features, settings, resolverStatus) {
+  const srcSettings = settings || loadProviderSettings()
+  const active = getActiveProvider(srcSettings, 'stems')
+  if (active && active.provider === 'local') return true
+  if (active && (active.apiKey || active.apiUrl)) return true
+  if (!(features && features.stems)) return false
+  if (!features.lightMode) return true
+  const healthProviders = resolverStatus && resolverStatus.providers
+  const base = (resolverStatus && resolverStatus.heavyMlBase)
+    || (resolverStatus && resolverStatus.activeBase)
+    || ''
+  const source = describeProviderSource(healthProviders, 'stems', active, base)
+  return source.kind === 'user' || source.kind === 'host'
+}
+
 /** Headers to send with media proxy requests for the active provider overlays. */
 export function getActiveProviderHeaders(settings) {
   const headers = {}
@@ -583,7 +599,9 @@ export function buildProviderServiceStatusRows(resolverStatus, settings, opts) {
       const featureOk = cap === 'llm' ? !!features.llm
         : (cap === 'whisper' ? !!features.whisper
           : (cap === 'ocr' ? !!(features.sheetImageOcr || features.sheetImage)
-            : (cap === 'stems' ? !!features.stems : false)))
+            : (cap === 'stems'
+              ? isStemsCapabilityAvailable(features, settings, resolverStatus)
+              : false)))
       if (featureOk) {
         kind = 'local'
         available = true

@@ -6,6 +6,7 @@ import { getLyricLines } from './wLinesUtils'
 import { formatTuneDisplayName } from './tuneDisplayName'
 import { checkTuneCompleteness } from './tuneCompletenessCheck'
 import { checkTuneAbcCorrectness } from './tuneAbcCorrectnessCheck'
+import { checkTuneAbcStructure } from './tuneAbcStructureCheck'
 import { tuneHasLinkContent } from './checkTuneLinkPlayback'
 import { isSongTitleCapitalized } from './titleCaseUtils'
 
@@ -126,6 +127,13 @@ function flattenCompletenessIssues(completenessResult) {
   })
 }
 
+function flattenStructureIssues(structureResult) {
+  if (!structureResult || !Array.isArray(structureResult.issues)) return []
+  return structureResult.issues.map(function(item) {
+    return issue(item.code, item.message, item.severity || 'warning', item.field || 'voices')
+  })
+}
+
 function flattenAbcIssues(abcResult) {
   if (!abcResult || !Array.isArray(abcResult.issues)) return []
   return abcResult.issues.map(function(item) {
@@ -151,7 +159,8 @@ export function classifyTuneSeverity(tune, allIssues, optionalGaps, options) {
     return SEVERITY_ORANGE
   }
 
-  if (optionalGaps.length > 0) {
+  const infoIssues = allIssues.filter(function(item) { return item.severity === 'info' })
+  if (infoIssues.length > 0 || optionalGaps.length > 0) {
     return SEVERITY_BLUE
   }
 
@@ -167,10 +176,12 @@ export function buildTuneCheckReport(tune, options) {
 
   const completenessResult = checkTuneCompleteness(tune, checkOpts)
   const abcResult = checkTuneAbcCorrectness(tune, checkOpts)
+  const structureResult = checkTuneAbcStructure(tune, checkOpts)
 
   const issues = []
   issues.push.apply(issues, flattenCompletenessIssues(completenessResult))
   issues.push.apply(issues, flattenAbcIssues(abcResult))
+  issues.push.apply(issues, flattenStructureIssues(structureResult))
   issues.push.apply(issues, collectFieldWarnings(tune))
   issues.push.apply(issues, collectLinkIssues(tune, opts.linkContext))
 
@@ -181,7 +192,8 @@ export function buildTuneCheckReport(tune, options) {
   if (severity === SEVERITY_GREEN) {
     displayIssues = []
   } else if (severity === SEVERITY_BLUE) {
-    displayIssues = optionalGaps.slice()
+    displayIssues = issues.filter(function(item) { return item.severity === 'info' })
+    displayIssues = displayIssues.concat(optionalGaps)
   } else {
     displayIssues = issues.slice()
   }
@@ -195,6 +207,7 @@ export function buildTuneCheckReport(tune, options) {
     optionalGaps: optionalGaps,
     completenessResult: completenessResult,
     abcResult: abcResult,
+    structureResult: structureResult,
   }
 }
 

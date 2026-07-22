@@ -133,6 +133,35 @@ describe('incomingMergeUtils source URL merge', function() {
     expect(records[0].kind).toBe('insert');
   });
 
+  test('buildSourceUrlMergeRecords skips locally deleted tunes', function() {
+    const records = buildSourceUrlMergeRecords({}, {
+      t2: { id: 't2', name: 'Deleted before', lastUpdated: 100 },
+    }, null, {
+      deletedTunes: {
+        t2: { id: 't2', deletedAt: Date.now() },
+      },
+    });
+    expect(records).toEqual([]);
+  });
+
+  test('buildSourceUrlMergeRecords skips dismissed incoming', function() {
+    const incoming = { id: 't1', name: 'Remote', lastUpdated: 500, voices: { '1': { notes: ['D2'] } } };
+    const records = buildSourceUrlMergeRecords({
+      t1: { id: 't1', name: 'Local', lastUpdated: 100, voices: { '1': { notes: ['G2'] } } },
+    }, { t1: incoming }, null, {
+      sourceKey: 'source-a',
+      deletedTunes: {},
+    });
+    expect(records).toHaveLength(1);
+    const { recordSourceMergeDismissal } = require('./sourceMergeDismissals');
+    recordSourceMergeDismissal('source-a', 't1', incoming);
+    expect(buildSourceUrlMergeRecords({
+      t1: { id: 't1', name: 'Local', lastUpdated: 100, voices: { '1': { notes: ['G2'] } } },
+    }, { t1: incoming }, null, {
+      sourceKey: 'source-a',
+    })).toEqual([]);
+  });
+
   test('summarizeMergeRecords counts visible records only', function() {
     const summary = summarizeMergeRecords([
       { kind: 'update' },

@@ -29,7 +29,7 @@ import MusicSingle from './components/MusicSingle'
 import MusicEditor from './components/MusicEditor'
 //import VideoPlayerTest from './components/VideoPlayerTest'
 import IncomingMergeHost from './components/IncomingMergeHost'
-import SourceUrlSyncHost from './components/SourceUrlSyncHost'
+import SyncSourcesHost from './components/SyncSourcesHost'
 import { applySourceUrlMergeBatch } from './sourceUrlSync'
 import { registerMergeCheckHandler, unregisterMergeCheckHandler, runMergeChecksNow } from './mergeCheckTrigger'
 import MidiPlayer from './components/MidiPlayer'
@@ -985,10 +985,11 @@ function App(props) {
               onApplyDriveMerge={applyDriveMergeWithSelections}
               onClear={function() { setSheetUpdateResults(null) }}
             />
-            <SourceUrlSyncHost
+            <SyncSourcesHost
               token={token}
               tunebook={tunebook}
               tunes={tunes}
+              deletedTunes={deletedTunes}
               driveApi={filesDocumentManager}
               onApplySourceUrlMerge={applySourceUrlMergeWithSelections}
               onSourceUrlAbcFetched={function(abcText, sourceUrl) {
@@ -1195,6 +1196,7 @@ function App(props) {
                       <Route  path={`:googleDocumentId/share/book/:bookName`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId/share/set/:setId`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId/share/playlist/:playlistId`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
+                      <Route  path={`:googleDocumentId/share/tag/:tagName`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId/tune/:tuneId`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId/book/:bookName`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />
                       <Route  path={`:googleDocumentId`} element={<ImportGoogleDocumentPage tunebook={tunebook} token={token} refresh={login} setNavigateAfterImport={setNavigateAfterImport} setCurrentTuneBook={setCurrentTuneBook} setTagFilter={setTagFilter} setFilter={setFilter} />} />

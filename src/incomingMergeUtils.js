@@ -5,7 +5,8 @@ import {
   setAllTuneImportSelections,
   tunePairHasDifferingImportFields,
 } from './tuneImportMergeUtils';
-import { isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
+import { isLocallyDeletedTune, isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
+import { isSourceMergeDismissed } from './sourceMergeDismissals';
 
 export function sheetUpdateResultsNeedAttention(results) {
   if (!results) return false;
@@ -44,12 +45,16 @@ export function summarizeMergeRecords(records) {
   return parts.join(', ');
 }
 
-export function buildDriveMergeRecords(sheetUpdateResults) {
+export function buildDriveMergeRecords(sheetUpdateResults, options) {
+  const opts = options || {};
+  const sourceKey = opts.sourceKey || '';
+  const getTuneImportHash = opts.getTuneImportHash;
   const records = [];
   if (!sheetUpdateResults) return records;
 
   Object.values(sheetUpdateResults.inserts || {}).forEach(function(tune) {
     if (!tune || !tune.id) return;
+    if (sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
     records.push({
       id: tune.id,
       kind: 'insert',
@@ -62,6 +67,7 @@ export function buildDriveMergeRecords(sheetUpdateResults) {
   Object.keys(sheetUpdateResults.updates || {}).forEach(function(id) {
     const pair = sheetUpdateResults.updates[id];
     if (!pair || !pair[1]) return;
+    if (sourceKey && isSourceMergeDismissed(sourceKey, id, pair[1], getTuneImportHash)) return;
     if (!tunePairHasDifferingImportFields(pair[0], pair[1])) return;
     records.push({
       id: id,
@@ -74,6 +80,7 @@ export function buildDriveMergeRecords(sheetUpdateResults) {
 
   Object.values(sheetUpdateResults.deletes || {}).forEach(function(tune) {
     if (!tune || !tune.id) return;
+    if (sourceKey && isSourceMergeDismissed(sourceKey, tune.id, tune, getTuneImportHash)) return;
     records.push({
       id: tune.id,
       kind: 'delete',
@@ -109,12 +116,16 @@ export function resolveLocalTuneForIncoming(localTunes, incoming, getTuneImportH
   return index[hash] || null;
 }
 
-export function buildSourceUrlMergeRecords(localTunes, incomingById, getTuneImportHash) {
+export function buildSourceUrlMergeRecords(localTunes, incomingById, getTuneImportHash, options) {
+  const opts = options || {};
+  const deletedTunes = opts.deletedTunes || {};
+  const sourceKey = opts.sourceKey || '';
   const hashIndex = buildLocalImportHashIndex(localTunes, getTuneImportHash);
   const records = [];
   Object.keys(incomingById || {}).forEach(function(incomingId) {
     const incoming = incomingById[incomingId];
     if (!incoming) return;
+    if (isLocallyDeletedTune(deletedTunes, incoming.id || incomingId, incoming.lastUpdated)) return;
     let local = incoming.id && localTunes && localTunes[incoming.id]
       ? localTunes[incoming.id]
       : null;
@@ -122,12 +133,14 @@ export function buildSourceUrlMergeRecords(localTunes, incomingById, getTuneImpo
       const hash = getTuneImportHash(incoming);
       if (hash && hashIndex[hash]) local = hashIndex[hash];
     }
+    if (local && isLocallyDeletedTune(deletedTunes, local.id, incoming.lastUpdated)) return;
+    const recordId = local ? local.id : incomingId;
+    if (sourceKey && isSourceMergeDismissed(sourceKey, recordId, incoming, getTuneImportHash)) return;
     if (local && !isIncomingTuneNewer(local, incoming)) return;
     if (local && !tunePairHasDifferingImportFields(local, incoming)) return;
     const rows = buildTuneImportFieldRows(local, incoming).filter(function(row) {
       return row.differs;
     });
-    const recordId = local ? local.id : incomingId;
     records.push({
       id: recordId,
       kind: local ? 'update' : 'insert',

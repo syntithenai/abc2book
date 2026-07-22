@@ -2,6 +2,10 @@ const STORAGE_KEY = 'bookstorage_media_proxy_base'
 
 export const DEFAULT_PUBLIC_MEDIA_PROXY = 'https://peppertrees.syntithenai.com'
 
+/** Hosted resolver-lite on Cloud Run — fallback when peppertrees is down. */
+export const DEFAULT_CLOUD_LIGHT_MEDIA_PROXY =
+  'https://tunebook-resolver-light-ytrp5enyda-ts.a.run.app'
+
 export function normalizeMediaProxyBase(value) {
   if (value === undefined || value === null) return ''
   const trimmed = String(value).trim().replace(/\/$/, '')
@@ -92,7 +96,7 @@ function parseCsvMediaProxyUrls(value) {
 }
 
 export function getDefaultPublicMediaProxyCandidates() {
-  const urls = [DEFAULT_PUBLIC_MEDIA_PROXY]
+  const urls = [DEFAULT_PUBLIC_MEDIA_PROXY, DEFAULT_CLOUD_LIGHT_MEDIA_PROXY]
   parseCsvMediaProxyUrls(process.env.REACT_APP_PUBLIC_MEDIA_PROXY_URLS || '').forEach(function(url) {
     if (urls.indexOf(url) === -1) urls.push(url)
   })

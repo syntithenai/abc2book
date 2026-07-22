@@ -48,6 +48,9 @@ var useAbcTools = () => {
         if (tune.playbackMetronomeCountInBars > 0 && tune.playbackMetronomeCountInBars !== 1) {
             lines += "% abcbook-playback-metronome-count-in-bars " + tune.playbackMetronomeCountInBars + "\n"
         }
+        if (tune.playbackMetronomeDuringPlayback === true) {
+            lines += "% abcbook-playback-metronome-during-playback true\n"
+        }
         if (tune.playbackMetronomeRhythm) {
             try {
                 lines += "% abcbook-playback-metronome-rhythm " + JSON.stringify(tune.playbackMetronomeRhythm) + "\n"
@@ -380,6 +383,9 @@ var useAbcTools = () => {
                 } else  if (line.startsWith('% abcbook-playback-metronome-count-in-bars')) {
                     var countInBarsVal = parseInt(abcbookFieldValue(line, '% abcbook-playback-metronome-count-in-bars'), 10)
                     tune.playbackMetronomeCountInBars = countInBarsVal > 0 ? countInBarsVal : 1
+                } else  if (line.startsWith('% abcbook-playback-metronome-during-playback')) {
+                    var duringPlaybackVal = abcbookFieldValue(line, '% abcbook-playback-metronome-during-playback')
+                    tune.playbackMetronomeDuringPlayback = duringPlaybackVal === 'true' || duringPlaybackVal === '1'
                 } else  if (line.startsWith('% abcbook-playback-metronome-rhythm')) {
                     try {
                         tune.playbackMetronomeRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-rhythm'))

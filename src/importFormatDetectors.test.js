@@ -1,11 +1,12 @@
-import { isMsczFile } from './msczExtract';
+import { isMsczFile, isMscxFile } from './msczExtract';
 import { isOnsongArchiveFile } from './onsongArchiveParse';
 import { isIRealProHtmlFile } from './irealProParse';
 import { isVideoImportFile, isAudioImportFile } from './audioFileMetadata';
 
 describe('format detectors', function() {
-  test('mscz / onsong / ireal file detectors', function() {
+  test('mscz / mscx / onsong / ireal file detectors', function() {
     expect(isMsczFile({ name: 'score.mscz' })).toBe(true);
+    expect(isMscxFile({ name: 'score.mscx' })).toBe(true);
     expect(isOnsongArchiveFile({ name: 'library.onsongarchive' })).toBe(true);
     expect(isIRealProHtmlFile({ name: 'playlist.html' })).toBe(true);
     expect(isIRealProHtmlFile({ name: 'notes.txt' })).toBe(false);

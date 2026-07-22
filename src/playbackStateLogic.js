@@ -3,6 +3,8 @@
  * Used by useTuneBookMediaController and unit-tested without React or DOM.
  */
 
+import { slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
+
 export const YT_STATE = {
   UNSTARTED: -1,
   ENDED: 0,
@@ -357,6 +359,26 @@ export function computeMidiMetronomeCountIn(input) {
 }
 
 /**
+ * BPM for one abcjs meter beat at the current playback speed.
+ * Matches TimingCallbacks / MIDI beat spacing (not necessarily the raw Q: field BPM).
+ */
+export function computePlaybackMetronomeTempo(input) {
+  const o = input || {}
+  const beatsPerMeasure = parseFloat(o.beatsPerMeasure) || 0
+  const msPerMeasure = parseFloat(o.millisecondsPerMeasure) || 0
+  const tempoFactor = o.tempoFactor > 0 ? parseFloat(o.tempoFactor) : 1
+  const fallback = parseFloat(o.fallbackQpm) || 120
+  if (beatsPerMeasure <= 0 || msPerMeasure <= 0) {
+    return fallback > 0 ? fallback : 120
+  }
+  const beatDurationMs = (msPerMeasure / beatsPerMeasure) / tempoFactor
+  if (!(beatDurationMs > 0)) {
+    return fallback > 0 ? fallback : 120
+  }
+  return 60000 / beatDurationMs
+}
+
+/**
  * abcjs TimingCallbacks extraMeasuresAtBeginning for count-in cursor alignment.
  * With anacrusis, count-in length matches 2 bars minus pickup; abcjs models that
  * as N measures at the start minus pickup length. Returns 0 when not an integer
@@ -442,4 +464,29 @@ export function timingProgressToAudioSeconds(timingProgress, musicStartMs, lastM
   const currentMs = p * last
   if (currentMs <= start) return 0
   return Math.min(dur, ((currentMs - start) / (last - start)) * dur)
+}
+
+/**
+ * Map music-only playback position to the metronome slot index within the bar.
+ * Used to restart the click track in phase after seek or mid-song resume.
+ */
+export function metronomeSlotFromMusicSeconds(musicSeconds, qpm, rhythm) {
+  if (!rhythm || !(rhythm.beatsPerBar > 0)) return 0
+  const tempo = parseFloat(qpm) || 120
+  const secPerBeat = 60 / tempo
+  const totalSlots = slotsPerBar(rhythm)
+  const barDur = rhythm.beatsPerBar * secPerBeat
+  const secs = Math.max(0, parseFloat(musicSeconds) || 0)
+  const posInBar = barDur > 0 ? (secs % barDur) : 0
+  let elapsed = 0
+  for (let slot = 0; slot < totalSlots; slot++) {
+    const beatIndex = slotBeatIndex(rhythm, slot)
+    const pulses = (rhythm.pulsesPerBeat && rhythm.pulsesPerBeat[beatIndex]) || 1
+    const slotDur = secPerBeat / pulses
+    if (posInBar < elapsed + slotDur - 0.0001) {
+      return slot
+    }
+    elapsed += slotDur
+  }
+  return 0
 }

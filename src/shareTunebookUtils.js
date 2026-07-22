@@ -1,7 +1,7 @@
 import { normalizePerformanceSetItems } from './performanceSetStore'
 import { tuneIdsForPlaylistRecord } from './savedPlaylistsStore'
 
-export const SHARE_KINDS = ['tune', 'book', 'set', 'playlist', 'all']
+export const SHARE_KINDS = ['tune', 'book', 'set', 'playlist', 'tag', 'all']
 
 function sameTuneId(a, b) {
   return String(a) === String(b)
@@ -17,6 +17,12 @@ export function matchesShareImportScope(tune, limits) {
   if (opts.limitToTuneId && !sameTuneId(tune.id, opts.limitToTuneId)) return false
   if (opts.limitToBookName && (!Array.isArray(tune.books) || tune.books.indexOf(opts.limitToBookName) === -1)) return false
   if (opts.limitToTagName && (!Array.isArray(tune.tags) || tune.tags.indexOf(opts.limitToTagName) === -1)) return false
+  if (Array.isArray(opts.limitToTagNames) && opts.limitToTagNames.length > 0) {
+    const tags = Array.isArray(tune.tags) ? tune.tags : []
+    for (let i = 0; i < opts.limitToTagNames.length; i += 1) {
+      if (tags.indexOf(opts.limitToTagNames[i]) === -1) return false
+    }
+  }
   return true
 }
 
@@ -45,6 +51,8 @@ export function buildShareImportLink(options) {
     path += '/share/set/' + encodeURIComponent(opts.setId)
   } else if (kind === 'playlist' && opts.playlistId) {
     path += '/share/playlist/' + encodeURIComponent(opts.playlistId)
+  } else if (kind === 'tag' && opts.tagName) {
+    path += '/share/tag/' + encodeURIComponent(opts.tagName)
   }
 
   return base + path
@@ -77,6 +85,7 @@ export function parseImportDocRouteParams(params) {
   let bookName = null
   let setId = null
   let playlistId = null
+  let tagName = null
 
   if (p.tuneId) {
     scopeHint = 'tune'
@@ -90,9 +99,12 @@ export function parseImportDocRouteParams(params) {
   } else if (p.playlistId) {
     scopeHint = 'playlist'
     playlistId = decodeURIComponent(p.playlistId)
+  } else if (p.tagName) {
+    scopeHint = 'tag'
+    tagName = decodeURIComponent(p.tagName)
   }
 
-  return { scopeHint, tuneId, bookName, setId, playlistId }
+  return { scopeHint, tuneId, bookName, setId, playlistId, tagName }
 }
 
 export function booksForTune(tunes, tuneId) {

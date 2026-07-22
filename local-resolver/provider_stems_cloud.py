@@ -272,6 +272,52 @@ async def _fal_separate(
     }
 
 
+async def _replicate_fetch_latest_version(
+    client: httpx.AsyncClient,
+    api_key: str,
+    model_path: str,
+) -> str:
+    """Return the latest Replicate model version id for owner/name."""
+    resp = await client.get(
+        f"{REPLICATE_API}/models/{model_path}",
+        headers={"Authorization": "Bearer " + api_key},
+    )
+    if resp.status_code >= 400:
+        raise RuntimeError(
+            f"Replicate model lookup failed ({resp.status_code}): {(resp.text or '')[:400]}"
+        )
+    payload = resp.json()
+    latest = payload.get("latest_version") or {}
+    version_id = _strip(latest.get("id"))
+    if not version_id:
+        raise RuntimeError(f"Replicate model {model_path} has no latest version")
+    return version_id
+
+
+async def _replicate_create_prediction(
+    client: httpx.AsyncClient,
+    api_key: str,
+    audio_uri: str,
+    model_path: str,
+    version: str | None,
+) -> httpx.Response:
+    create_body: dict[str, Any] = {
+        "input": {
+            "audio": audio_uri,
+        },
+    }
+    if version:
+        create_url = f"{REPLICATE_API}/predictions"
+        create_body["version"] = version
+    else:
+        create_url = f"{REPLICATE_API}/models/{model_path}/predictions"
+    return await client.post(
+        create_url,
+        headers=_replicate_auth_headers(api_key),
+        json=create_body,
+    )
+
+
 async def _replicate_upload_or_data_uri(
     client: httpx.AsyncClient,
     api_key: str,
@@ -323,27 +369,13 @@ async def _replicate_separate(
     os.makedirs(output_dir, exist_ok=True)
     async with httpx.AsyncClient(timeout=timeout) as client:
         audio_uri = await _replicate_upload_or_data_uri(client, api_key, audio_bytes, filename)
-        create_body: dict[str, Any] = {
-            "input": {
-                "audio": audio_uri,
-            },
-        }
-        if version:
-            create_url = f"{REPLICATE_API}/predictions"
-            create_body["version"] = version
-        else:
-            # Prefer model endpoint when no version pinned
-            create_url = f"{REPLICATE_API}/models/{model_path}/predictions"
-
-        create = await client.post(
-            create_url,
-            headers=_replicate_auth_headers(api_key),
-            json=create_body,
+        create = await _replicate_create_prediction(
+            client, api_key, audio_uri, model_path, version
         )
         if create.status_code >= 400 and not version:
-            # Older style: require version — try cjwbw/demucs latest via models API
-            raise RuntimeError(
-                f"Replicate prediction failed ({create.status_code}): {(create.text or '')[:400]}"
+            version = await _replicate_fetch_latest_version(client, api_key, model_path)
+            create = await _replicate_create_prediction(
+                client, api_key, audio_uri, model_path, version
             )
         if create.status_code >= 400:
             raise RuntimeError(

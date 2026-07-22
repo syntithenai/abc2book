@@ -38,7 +38,10 @@ import {
   timingProgressToAudioSeconds,
   isMidiStartFromBeginning,
   shouldUseMidiMetronomeCountIn,
+  metronomeSlotFromMusicSeconds,
+  computePlaybackMetronomeTempo,
 } from './playbackStateLogic'
+import { rhythmFromPreset } from './metronomeRhythmPresets'
 
 const NOW = 1_000_000
 
@@ -751,5 +754,51 @@ describe('timing progress audio mapping', function() {
   test('mapping is identity when there is no count-in prefix', function() {
     expect(audioRatioToTimingProgress(0.25, 0, 8000)).toBeCloseTo(0.25)
     expect(timingProgressToAudioSeconds(0.25, 0, 8000, 40)).toBeCloseTo(10)
+  })
+})
+
+describe('computePlaybackMetronomeTempo', function() {
+  test('derives meter-beat BPM from abcjs timing (4/4 at 120)', function() {
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 4,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+    })).toBeCloseTo(120)
+  })
+
+  test('applies playback tempo factor', function() {
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 4,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1.5,
+    })).toBeCloseTo(180)
+  })
+
+  test('matches compound meter beat spacing (6/8)', function() {
+    expect(computePlaybackMetronomeTempo({
+      beatsPerMeasure: 2,
+      millisecondsPerMeasure: 2000,
+      tempoFactor: 1,
+    })).toBeCloseTo(60)
+  })
+
+  test('falls back when timing data is missing', function() {
+    expect(computePlaybackMetronomeTempo({ fallbackQpm: 96 })).toBe(96)
+  })
+})
+
+describe('metronomeSlotFromMusicSeconds', function() {
+  const rhythm44 = rhythmFromPreset('4-4')
+
+  test('returns slot 0 at music start', function() {
+    expect(metronomeSlotFromMusicSeconds(0, 120, rhythm44)).toBe(0)
+  })
+
+  test('returns slot 1 after one beat at 120 bpm', function() {
+    expect(metronomeSlotFromMusicSeconds(0.5, 120, rhythm44)).toBe(1)
+  })
+
+  test('wraps within the bar', function() {
+    expect(metronomeSlotFromMusicSeconds(2.0, 120, rhythm44)).toBe(0)
   })
 })

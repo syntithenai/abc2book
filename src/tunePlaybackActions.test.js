@@ -143,6 +143,39 @@ describe('tunePlaybackActions navigate-then-play', function() {
 
     expect(resolvePlaybackTarget(mediaController, tunebook, location, tune)).toEqual({ type: 'midi' })
   })
+
+  test('resolvePlaybackTarget prefers URL playMedia over stale midi route', function() {
+    const tune = makeTune(SAMPLE_TUNE_IDS.amazingGrace, {
+      links: [{ link: 'https://example.com/a.mp3' }, { link: 'https://www.youtube.com/watch?v=abc' }],
+    })
+    const mediaController = makeMockMediaController(tune, {
+      isMidiPlaybackRoute: function() { return true },
+    })
+    const location = { pathname: '/tunes/' + tune.id + '/playMedia/1' }
+    const tunebook = makeMockTunebook()
+
+    expect(resolvePlaybackTarget(mediaController, tunebook, location, tune)).toEqual({
+      type: 'media',
+      linkNum: 1,
+    })
+  })
+
+  test('resolvePlaybackTarget defaults to first media link when tune has links', function() {
+    const tune = makeTune(SAMPLE_TUNE_IDS.amazingGrace, {
+      links: [{ link: 'https://example.com/a.mp3' }],
+      notes: 'CDEF',
+    })
+    const mediaController = makeMockMediaController(tune, {
+      isMidiPlaybackRoute: function() { return true },
+    })
+    const location = { pathname: '/tunes/' + tune.id }
+    const tunebook = makeMockTunebook()
+
+    expect(resolvePlaybackTarget(mediaController, tunebook, location, tune)).toEqual({
+      type: 'media',
+      linkNum: 0,
+    })
+  })
 })
 
 describe('resumeTunePlayback tune identity guard', function() {

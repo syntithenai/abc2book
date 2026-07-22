@@ -193,7 +193,7 @@ export async function isYoutubeExtensionConnected() {
  * (before the content script runs); the async check is authoritative.
  */
 export function isYoutubeExtensionConnectedSync() {
-  if (cachedPing && cachedPing.ok && Date.now() - cachedPingAt < PING_CACHE_MS) {
+  if (cachedPing && cachedPing.ok) {
     return true
   }
   return !!readDomMarker()

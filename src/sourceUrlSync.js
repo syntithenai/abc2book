@@ -1,7 +1,13 @@
 import { buildSourceUrlMergeRecords, summarizeMergeRecords } from './incomingMergeUtils';
+import { normalizeSourceUrlKey } from './incomingMergePrefs';
 import { toTuneUpdatedMs } from './tuneBookSync';
-import { getSourceMergePref, normalizeSourceUrlKey, setSourceMergePref } from './incomingMergePrefs';
 import { applyTuneImportSelections, buildDefaultTuneImportSelections, buildTuneImportFieldRows } from './tuneImportMergeUtils';
+import {
+  listActiveSyncSources,
+  sourceSyncKey,
+  tuneMatchesSourceFilters,
+  updateSyncSourceMeta,
+} from './syncSourcesStore';
 
 const POLL_MS = 10 * 60 * 1000;
 
@@ -15,6 +21,34 @@ export function groupTunesBySourceUrl(tunes) {
     groups[key].tuneIds.push(tune.id);
   });
   return groups;
+}
+
+function filterIncomingTunes(incomingTunes, filters) {
+  return (incomingTunes || []).filter(function(tune) {
+    return tuneMatchesSourceFilters(tune, filters);
+  });
+}
+
+function filterLocalTunesForSource(localTunes, source) {
+  const allTunes = localTunes || {};
+  const key = sourceSyncKey(source);
+  const ids = {};
+  Object.values(allTunes).forEach(function(tune) {
+    if (!tune) return;
+    const matchesUrl = tune.srcUrl && normalizeSourceUrlKey(tune.srcUrl) === normalizeSourceUrlKey(key);
+    const matchesDoc = source.googleDocumentId && tune.srcUrl && tune.srcUrl.indexOf(source.googleDocumentId) !== -1;
+    if (!matchesUrl && !matchesDoc) return;
+    if (!tuneMatchesSourceFilters(tune, source.filters)) return;
+    ids[tune.id] = tune;
+  });
+  if (Array.isArray(source.tuneIds) && source.tuneIds.length > 0) {
+    source.tuneIds.forEach(function(id) {
+      if (allTunes[id] && tuneMatchesSourceFilters(allTunes[id], source.filters)) {
+        ids[id] = allTunes[id];
+      }
+    });
+  }
+  return ids;
 }
 
 export async function fetchSourceUrlAbc(sourceUrl, driveApi) {
@@ -34,17 +68,40 @@ export async function fetchSourceUrlAbc(sourceUrl, driveApi) {
   return response.text();
 }
 
-export function buildSourceUrlMergeBatch(localTunes, sourceUrl, incomingTunes, getTuneImportHash) {
+export function buildSourceUrlMergeBatch(localTunes, sourceUrl, incomingTunes, options) {
+  const opts = options || {};
+  const getTuneImportHash = opts.getTuneImportHash;
+  const filters = opts.filters;
+  const deletedTunes = opts.deletedTunes;
+  const scopedLocal = {};
+  const incomingList = filterIncomingTunes(incomingTunes, filters);
+  incomingList.forEach(function(tune) {
+    if (tune && tune.id && localTunes[tune.id]) {
+      scopedLocal[tune.id] = localTunes[tune.id];
+    }
+  });
+  Object.keys(localTunes || {}).forEach(function(id) {
+    const tune = localTunes[id];
+    if (!tune || !tune.srcUrl) return;
+    if (normalizeSourceUrlKey(tune.srcUrl) !== normalizeSourceUrlKey(sourceUrl)) return;
+    if (!tuneMatchesSourceFilters(tune, filters)) return;
+    scopedLocal[id] = tune;
+  });
+
   const incomingById = {};
-  (incomingTunes || []).forEach(function(tune) {
+  incomingList.forEach(function(tune) {
     if (tune && tune.id) incomingById[tune.id] = tune;
   });
+  const sourceKey = normalizeSourceUrlKey(sourceUrl);
   return {
     kind: 'sourceUrl',
-    sourceKey: normalizeSourceUrlKey(sourceUrl),
+    sourceKey: sourceKey,
     sourceLabel: 'Source: ' + sourceUrl,
     sourceUrl: sourceUrl,
-    records: buildSourceUrlMergeRecords(localTunes, incomingById, getTuneImportHash),
+    records: buildSourceUrlMergeRecords(scopedLocal, incomingById, getTuneImportHash, {
+      deletedTunes: deletedTunes,
+      sourceKey: sourceKey,
+    }),
     incomingById: incomingById,
   };
 }
@@ -56,11 +113,71 @@ export function finalizeSourceUrlMergeBatch(batch) {
   });
 }
 
-export async function pollSourceUrlUpdates(options) {
+export async function pollRegisteredSourceUpdates(options) {
   const opts = options || {};
   const tunes = opts.tunes || {};
+  const deletedTunes = opts.deletedTunes || {};
   const tunebook = opts.tunebook;
   const driveApi = opts.driveApi;
+  const getTuneImportHash = tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
+  const batches = [];
+  if (!tunebook) return batches;
+
+  const sources = opts.sources || listActiveSyncSources();
+  for (let i = 0; i < sources.length; i += 1) {
+    const source = sources[i];
+    if (!source || source.kind === 'ownTunebook' || source.paused || source.removed) continue;
+    const sourceUrl = String(source.url || '').trim();
+    if (!sourceUrl) continue;
+    try {
+      const text = await fetchSourceUrlAbc(sourceUrl, driveApi);
+      const incomingTunes = tunebook.abcTools.abc2Tunebook(text);
+      const scopedLocal = filterLocalTunesForSource(tunes, source);
+      const batch = finalizeSourceUrlMergeBatch(
+        buildSourceUrlMergeBatch(
+          scopedLocal,
+          sourceUrl,
+          incomingTunes,
+          {
+            getTuneImportHash: getTuneImportHash,
+            filters: source.filters,
+            deletedTunes: deletedTunes,
+          }
+        )
+      );
+      batch.abcText = text;
+      batch.syncSourceId = source.id;
+      if (typeof opts.onSourceUrlAbcFetched === 'function') {
+        opts.onSourceUrlAbcFetched(text, sourceUrl);
+      }
+      updateSyncSourceMeta(source.id, {
+        lastSyncAt: Date.now(),
+        lastError: undefined,
+      });
+      if (batch.records && batch.records.length > 0) {
+        batches.push(batch);
+      }
+    } catch (e) {
+      updateSyncSourceMeta(source.id, {
+        lastSyncAt: Date.now(),
+        lastError: e && e.message ? e.message : 'Sync failed',
+      });
+      if (typeof opts.onError === 'function') opts.onError(e, source);
+    }
+  }
+  return batches;
+}
+
+export async function pollSourceUrlUpdates(options) {
+  const opts = options || {};
+  if (opts.useRegistry !== false) {
+    return pollRegisteredSourceUpdates(opts);
+  }
+  const tunes = opts.tunes || {};
+  const deletedTunes = opts.deletedTunes || {};
+  const tunebook = opts.tunebook;
+  const driveApi = opts.driveApi;
+  const getTuneImportHash = tunebook && tunebook.abcTools && tunebook.abcTools.getTuneImportHash;
   const batches = [];
   if (!tunebook) return batches;
 
@@ -76,7 +193,10 @@ export async function pollSourceUrlUpdates(options) {
           tunes,
           group.sourceUrl,
           incomingTunes,
-          tunebook.abcTools && tunebook.abcTools.getTuneImportHash
+          {
+            getTuneImportHash: getTuneImportHash,
+            deletedTunes: deletedTunes,
+          }
         )
       );
       batch.abcText = text;
@@ -110,8 +230,6 @@ export function applySourceUrlMergeBatch(localTunes, batch, recordState) {
       ? state.fieldSelections
       : buildDefaultTuneImportSelections(buildTuneImportFieldRows(record.localTune, record.incomingTune).filter(function(r) { return r.differs; }));
     next[record.id] = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
-    // Must beat the incoming timestamp even if the source's clock is ahead,
-    // or the same records get re-detected as incoming updates next poll.
     next[record.id].lastUpdated = Math.max(Date.now(), toTuneUpdatedMs(record.incomingTune.lastUpdated) + 1);
   });
   return next;
@@ -139,4 +257,4 @@ export function startSourceUrlPolling(options) {
   };
 }
 
-export { getSourceMergePref, setSourceMergePref, normalizeSourceUrlKey };
+export { getSourceMergePref, setSourceMergePref, normalizeSourceUrlKey } from './incomingMergePrefs';

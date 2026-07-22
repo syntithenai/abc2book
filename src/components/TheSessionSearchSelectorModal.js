@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import {Button, Modal, ListGroup} from 'react-bootstrap'
 import axios from 'axios'
+import { normalizeAbcForImport } from '../abcImportNormalize'
 import Abc from './Abc'
 import VoiceFillInput from './VoiceFillInput'
 
@@ -75,7 +76,7 @@ function TheSessionSearchSelectorModal(props) {
             tune.key = setting.key
             tune.meter = props.tunebook.abcTools.timeSignatureFromTuneType(tune.type)
             tune.rhythm = tune.type
-            tune.voices = {'1': {meta:'',notes:setting.abc.split("\n")}}
+            tune.voices = {'1': {meta:'',notes:normalizeAbcForImport(setting.abc).split("\n")}}
             console.log('final tuine ',tune) 
             props.tunebook.saveTune(tune)
         }

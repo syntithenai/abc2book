@@ -36,6 +36,7 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
     tune && tune.rhythm,
     tune && tune.playbackMetronomeCountIn,
     tune && tune.playbackMetronomeCountInBars,
+    tune && tune.playbackMetronomeDuringPlayback,
     tune && tune.playbackMetronomeRhythm,
     tune && tune.playbackTempo,
     tune && tune.tempo,
@@ -70,6 +71,10 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
 
   function handleCountInToggle(event) {
     persistCountInFields(Object.assign({}, settings, { countIn: !!event.target.checked }))
+  }
+
+  function handleDuringPlaybackToggle(event) {
+    persistCountInFields(Object.assign({}, settings, { duringPlayback: !!event.target.checked }))
   }
 
   function handleCountInBarsChange(event) {
@@ -107,6 +112,19 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
           checked={settings.countIn !== false}
           onChange={handleCountInToggle}
         />
+      </Form.Group>
+
+      <Form.Group className="mb-3">
+        <Form.Check
+          type="checkbox"
+          id="midi-metronome-during-playback"
+          label="Metronome during playback"
+          checked={settings.duringPlayback === true}
+          onChange={handleDuringPlaybackToggle}
+        />
+        <Form.Text muted>
+          Keep the click track running through the tune, not only during count-in.
+        </Form.Text>
       </Form.Group>
 
       <Form.Group className="mb-3">

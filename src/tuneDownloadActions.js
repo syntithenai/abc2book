@@ -3,7 +3,8 @@ import { abcToMusicXml } from './scoreImportClient'
 import { isMediaProxyConfigured } from './mediaProxyClient'
 import { countCacheableLinks, resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
-import { resolverHasFeature } from './resolverFeatures'
+import { getResolverFeaturesFromStatus } from './resolverFeatures'
+import { isStemsCapabilityAvailable, loadProviderSettings } from './providerSettings'
 import * as mediaCacheQueue from './mediaCacheQueue'
 import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } from './chordProFormatUtils'
 import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings'
@@ -161,7 +162,9 @@ async function downloadMusicXmlForTune(tune, tunebook, token) {
 
 export function isStemsDownloadAvailable() {
   if (!isMediaProxyConfigured()) return false
-  return resolverHasFeature(getMediaResolverHealthState().status, 'stems')
+  const status = getMediaResolverHealthState().status
+  const features = getResolverFeaturesFromStatus(status)
+  return isStemsCapabilityAvailable(features, loadProviderSettings(), status)
 }
 
 export function isStemsDownloadDisabled(tunes, tunebook) {

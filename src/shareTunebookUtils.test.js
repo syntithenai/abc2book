@@ -56,6 +56,7 @@ describe('shareTunebookUtils', function() {
       bookName: null,
       setId: null,
       playlistId: null,
+      tagName: null,
     })
     expect(parseImportDocRouteParams({ bookName: 'Reels' })).toEqual({
       scopeHint: 'book',
@@ -63,6 +64,7 @@ describe('shareTunebookUtils', function() {
       bookName: 'Reels',
       setId: null,
       playlistId: null,
+      tagName: null,
     })
     expect(parseImportDocRouteParams({ setId: 'set1' })).toEqual({
       scopeHint: 'set',
@@ -70,6 +72,7 @@ describe('shareTunebookUtils', function() {
       bookName: null,
       setId: 'set1',
       playlistId: null,
+      tagName: null,
     })
     expect(parseImportDocRouteParams({ playlistId: 'pl1' })).toEqual({
       scopeHint: 'playlist',
@@ -77,6 +80,15 @@ describe('shareTunebookUtils', function() {
       bookName: null,
       setId: null,
       playlistId: 'pl1',
+      tagName: null,
+    })
+    expect(parseImportDocRouteParams({ tagName: 'session' })).toEqual({
+      scopeHint: 'tag',
+      tuneId: null,
+      bookName: null,
+      setId: null,
+      playlistId: null,
+      tagName: 'session',
     })
     expect(parseImportDocRouteParams({})).toEqual({
       scopeHint: 'all',
@@ -84,6 +96,7 @@ describe('shareTunebookUtils', function() {
       bookName: null,
       setId: null,
       playlistId: null,
+      tagName: null,
     })
   })
 

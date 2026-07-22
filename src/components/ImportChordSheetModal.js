@@ -200,7 +200,7 @@ export default function ImportChordSheetModal(props) {
                 <FileInputButton
                   label="Choose file"
                   icon={props.tunebook.icons.file}
-                  accept=".cho,.pro,.crd,.onsong,.txt,text/plain"
+                  accept=".cho,.pro,.crd,.onsong,.chopro,.chordpro,.txt,text/plain"
                   onChange={fileSelected}
                 />
                 <Button variant="outline-secondary" onClick={function() { buildPreview(list); }}>

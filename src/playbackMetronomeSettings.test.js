@@ -1,6 +1,7 @@
 import {
   defaultPlaybackMetronomeSettings,
   getPlaybackMetronomeSettings,
+  applyPlaybackMetronomeCountInFields,
   hasCustomPlaybackMetronomeRhythm,
   resolveTuneTimeSignature,
 } from './playbackMetronomeSettings'
@@ -47,5 +48,27 @@ describe('playbackMetronomeSettings', function() {
     expect(hasCustomPlaybackMetronomeRhythm({
       playbackMetronomeRhythm: { beatsPerBar: 3, accents: [1, 0, 0], pulsesPerBeat: [1, 1, 1] },
     })).toBe(true)
+  })
+
+  test('defaultPlaybackMetronomeSettings disables during playback by default', function() {
+    const settings = defaultPlaybackMetronomeSettings({ meter: '4/4' })
+    expect(settings.duringPlayback).toBe(false)
+  })
+
+  test('getPlaybackMetronomeSettings reads duringPlayback from tune', function() {
+    expect(getPlaybackMetronomeSettings({ meter: '4/4' }).duringPlayback).toBe(false)
+    expect(getPlaybackMetronomeSettings({
+      meter: '4/4',
+      playbackMetronomeDuringPlayback: true,
+    }).duringPlayback).toBe(true)
+  })
+
+  test('applyPlaybackMetronomeCountInFields persists duringPlayback', function() {
+    const updated = applyPlaybackMetronomeCountInFields(
+      { id: 't1', meter: '4/4' },
+      { countIn: true, countInBars: 2, duringPlayback: true }
+    )
+    expect(updated.playbackMetronomeDuringPlayback).toBe(true)
+    expect(updated.playbackMetronomeCountInBars).toBe(2)
   })
 })

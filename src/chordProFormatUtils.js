@@ -24,7 +24,8 @@ const { ChordProParser, ChordsOverWordsParser } = ChordSheetJS;
 
 export { linesHaveChordProInlineChords, lineHasChordProInlineChords };
 
-const CHORD_SHEET_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong', '.txt'];
+export const CHORD_SHEET_IMPORT_EXTENSIONS = ['.cho', '.pro', '.crd', '.onsong', '.chopro', '.chordpro'];
+export const CHORD_SHEET_EXTENSIONS = CHORD_SHEET_IMPORT_EXTENSIONS.concat(['.txt']);
 const PREAMBLE_SCAN_LIMIT = 15;
 
 const PREAMBLE_FIELD_PATTERNS = [

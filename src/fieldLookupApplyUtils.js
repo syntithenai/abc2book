@@ -4,6 +4,7 @@ import { isUsableLyricContent } from './lyricsQualityUtils'
 import { needsComposerDiscovery } from './composerDiscoveryUtils'
 import { isGenericArtist } from './genericArtistUtils'
 import { applyNotationTuneMeta } from './notationImportUtils'
+import { normalizeAbcForImport } from './abcImportNormalize'
 import { applyNotationPdfCandidateToTune, isNotationPdfCandidate } from './notationPdfApply'
 
 export function fieldLookupKindToFormKey(kind) {
@@ -148,7 +149,7 @@ export function applyCandidateToTune(tune, kind, candidate, abcTools) {
     if (isNotationPdfCandidate(candidate)) {
       return false
     }
-    const abc = String(candidate.abc || '').trim()
+    const abc = normalizeAbcForImport(String(candidate.abc || '').trim())
     if (!abc) return false
     const imported = abcTools.abc2json(abc)
     if (!imported) return false

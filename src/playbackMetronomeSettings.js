@@ -31,6 +31,7 @@ export function defaultPlaybackMetronomeSettings(tune, tunebook) {
   return {
     countIn: true,
     countInBars: 1,
+    duringPlayback: false,
     rhythm: rhythm,
   }
 }
@@ -54,6 +55,7 @@ export function getPlaybackMetronomeSettings(tune, tunebook) {
   return {
     countIn: countIn,
     countInBars: bars > 0 ? bars : defaults.countInBars,
+    duringPlayback: tune.playbackMetronomeDuringPlayback === true,
     rhythm: hasCustomPlaybackMetronomeRhythm(tune)
       ? normalizePlaybackMetronomeRhythm(tune.playbackMetronomeRhythm, tune, tunebook)
       : defaults.rhythm,
@@ -66,6 +68,7 @@ export function applyPlaybackMetronomeSettings(tune, settings, options) {
   next.playbackMetronomeCountIn = settings.countIn !== false
   const bars = parseInt(settings.countInBars, 10)
   next.playbackMetronomeCountInBars = bars > 0 ? bars : 1
+  next.playbackMetronomeDuringPlayback = settings.duringPlayback === true
   if (!options || options.persistRhythm !== false) {
     next.playbackMetronomeRhythm = normalizePlaybackMetronomeRhythm(settings.rhythm, tune, tunebookFromOptions(options))
   }
@@ -82,6 +85,7 @@ export function applyPlaybackMetronomeCountInFields(tune, settings) {
   next.playbackMetronomeCountIn = settings.countIn !== false
   const bars = parseInt(settings.countInBars, 10)
   next.playbackMetronomeCountInBars = bars > 0 ? bars : 1
+  next.playbackMetronomeDuringPlayback = settings.duringPlayback === true
   return next
 }
 

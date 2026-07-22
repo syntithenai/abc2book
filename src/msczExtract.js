@@ -11,6 +11,11 @@ export function isMsczFile(file) {
   return String(file.name || '').toLowerCase().endsWith('.mscz');
 }
 
+export function isMscxFile(file) {
+  if (!file) return false;
+  return String(file.name || '').toLowerCase().endsWith('.mscx');
+}
+
 function isMscxName(name) {
   const lower = String(name || '').toLowerCase();
   if (!lower || lower.endsWith('/')) return false;

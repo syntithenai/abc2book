@@ -24,6 +24,7 @@ import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
+import SourcesSettingsSection from '../components/SourcesSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -52,6 +53,7 @@ const TAB_MEDIA = 'media'
 const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
+const TAB_SOURCES = 'sources'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -323,7 +325,7 @@ export default function SettingsPage(props) {
     if (!pendingMergeCheckAfterLoginRef.current) return
     if (!props.token || !props.token.access_token) return
     pendingMergeCheckAfterLoginRef.current = false
-    // Defer so App/SourceUrlSyncHost can re-register merge handlers with the new token.
+    // Defer so App/SyncSourcesHost can re-register merge handlers with the new token.
     var timeoutId = setTimeout(function() {
       runMergeCheckNow()
     }, 0)
@@ -371,6 +373,9 @@ export default function SettingsPage(props) {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_PROVIDERS}>Providers</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey={TAB_SOURCES}>Sources</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
@@ -621,6 +626,18 @@ export default function SettingsPage(props) {
             resolverMessage={resolverMessage}
             accessToken={accessToken}
             formatCandidateStatus={formatCandidateStatus}
+            login={props.login}
+          />
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_SOURCES}>
+          <SourcesSettingsSection
+            tunes={tunes}
+            token={token}
+            login={props.login}
+            googleDocumentId={props.googleDocumentId}
+            onCheckMergeNow={handleCheckMergeNow}
+            mergeCheckBusy={mergeCheckBusy}
           />
         </Tab.Pane>
 

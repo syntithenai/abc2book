@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { normalizeMatchText, scoreNotationCandidate, scoreTitleArtistMatch } from './notationMatchUtils'
+import { normalizeAbcForImport } from './abcImportNormalize'
 
 const THESESSION_BASE = 'https://thesession.org'
 const MAX_SESSION_TUNES = 5
@@ -15,7 +16,7 @@ function meterForThesessionType(tuneType) {
 }
 
 export function buildThesessionSettingAbc(tuneDetail, setting) {
-  const abcBody = String((setting && setting.abc) || '').trim()
+  const abcBody = normalizeAbcForImport(String((setting && setting.abc) || '').trim())
   if (!abcBody) return ''
 
   if (/^K:/m.test(abcBody) || abcBody.startsWith('X:')) {

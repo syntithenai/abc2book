@@ -26,23 +26,31 @@ export function resolvePlaybackTarget(mediaController, tunebook, location, tune)
     const hasLinks = Array.isArray(tune.links) && tune.links.length > 0
     if (!hasMusic && !hasLinks) return null
 
-    if (mediaController.isMidiPlaybackRoute && mediaController.isMidiPlaybackRoute() && hasMusic) {
-        return { type: 'midi' }
-    }
-    if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute() && hasLinks) {
-        const linkNum = mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
-            ? mediaController.mediaLinkNumber : 0
-        return { type: 'media', linkNum: linkNum }
-    }
-    if (location.pathname.indexOf('/playMidi') >= 0 && hasMusic) {
-        return { type: 'midi' }
-    }
     if (location.pathname.indexOf('/playMedia') >= 0 && hasLinks) {
         const parts = location.pathname.split('/playMedia/')
         const parsed = parts.length > 1 ? parseInt(parts[1], 10) : 0
         const linkNum = !isNaN(parsed) ? parsed : 0
         return { type: 'media', linkNum: linkNum }
     }
+    if (location.pathname.indexOf('/playMidi') >= 0 && hasMusic) {
+        return { type: 'midi' }
+    }
+
+    if (mediaController.requestedPlayState === 'playMedia' && hasLinks) {
+        const linkNum = mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
+            ? mediaController.mediaLinkNumber : 0
+        return { type: 'media', linkNum: linkNum }
+    }
+    if (mediaController.requestedPlayState === 'playMidi' && hasMusic) {
+        return { type: 'midi' }
+    }
+
+    if (mediaController.isMediaPlaybackRoute && mediaController.isMediaPlaybackRoute() && hasLinks) {
+        const linkNum = mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
+            ? mediaController.mediaLinkNumber : 0
+        return { type: 'media', linkNum: linkNum }
+    }
+
     if (hasLinks) {
         const linkNum = mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
             ? mediaController.mediaLinkNumber : 0
