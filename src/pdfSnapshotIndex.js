@@ -79,23 +79,61 @@ export function listPdfSnapshotSegments(tune) {
         composer: segment.composer,
         fileId: meta.id,
         parentTune: tune,
+        matchKind: 'segment',
       })
     })
   })
   return results
 }
 
+function listPdfFileNameSearchHits(tune, filter) {
+  const hits = []
+  getTuneFiles(tune).forEach(function(meta) {
+    if (!meta || !isPdfTuneFileType(meta.type)) return
+    const name = String(meta.name || '').trim()
+    const nameKey = normalizeFilterText(name)
+    if (!nameKey || nameKey.indexOf(filter) === -1) return
+    const page = meta.pdfPage > 0 ? parseInt(meta.pdfPage, 10) : 1
+    hits.push({
+      title: name || 'PDF',
+      page: page,
+      endPage: page,
+      composer: '',
+      fileId: meta.id,
+      parentTune: tune,
+      matchKind: 'fileName',
+    })
+  })
+  return hits
+}
+
+function pushUniquePdfSearchHit(hits, seen, hit) {
+  const key = [
+    hit.fileId || '',
+    hit.matchKind || 'segment',
+    hit.page || 0,
+    hit.title || '',
+  ].join(':')
+  if (seen.has(key)) return
+  seen.add(key)
+  hits.push(hit)
+}
+
 export function pdfSnapshotSearchHits(tune, filterText) {
   const filter = normalizeFilterText(filterText)
   if (!filter || filter.length < 3 || !tune) return []
   const hits = []
+  const seen = new Set()
   listPdfSnapshotSegments(tune).forEach(function(segment) {
     const titleKey = normalizeFilterText(segment.title)
     const composerKey = normalizeFilterText(segment.composer)
     if ((titleKey && titleKey.indexOf(filter) !== -1)
       || (composerKey && composerKey.indexOf(filter) !== -1)) {
-      hits.push(segment)
+      pushUniquePdfSearchHit(hits, seen, segment)
     }
+  })
+  listPdfFileNameSearchHits(tune, filter).forEach(function(hit) {
+    pushUniquePdfSearchHit(hits, seen, hit)
   })
   return hits
 }

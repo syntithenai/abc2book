@@ -1,52 +1,201 @@
-import { useEffect, useState } from 'react'
-import { Button, Form, ListGroup, Modal } from 'react-bootstrap'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { Button, Form, Modal } from 'react-bootstrap'
 import { useResponsiveModalProps } from '../useResponsiveModalProps'
+import { voiceDisplayLabel } from '../notation/notationDisplayAbc'
+import SelectInput from './SelectInput'
 import {
   TABLATURE_INSTRUMENTS,
   applyTablatureSelection,
+  applyTablatureVoiceConfigs,
   getTabDisplay,
   getTablatureSelection,
+  getTablatureVoiceSettings,
+  getTablatureVoices,
   normalizeTablatureInstrument,
-  presetsForTabInstrument,
-  tabInstrumentLabel,
+  resolveVoiceTuningSelection,
+  tablatureInstrumentSummary,
+  tuningOptionsForInstrument,
 } from '../tablatureConfig'
 import { canonicalTuningLabel } from '../tuningPresetResolver'
+
+function VoiceTablatureRow(props) {
+  const { setting, tune, multiVoice, onChange } = props
+  const tuningOptions = setting.instrumentId ? tuningOptionsForInstrument(setting.instrumentId) : []
+
+  function update(patch) {
+    onChange(setting.voiceKey, patch)
+  }
+
+  function handleInstrumentChange(nextInstrumentId) {
+    const normalized = normalizeTablatureInstrument(nextInstrumentId)
+    if (!normalized) {
+      update({
+        instrumentId: '',
+        presetId: '',
+        tuningText: '',
+        enabled: false,
+      })
+      return
+    }
+    const resolved = resolveVoiceTuningSelection(normalized, '', '')
+    update({
+      instrumentId: normalized,
+      presetId: resolved.presetId,
+      tuningText: resolved.tuningText,
+      enabled: multiVoice ? true : setting.enabled,
+    })
+  }
+
+  function handleEnableChange(checked) {
+    if (!checked) {
+      update({
+        enabled: false,
+        instrumentId: '',
+        presetId: '',
+        tuningText: '',
+      })
+      return
+    }
+    const instrumentId = setting.instrumentId || 'guitar'
+    const resolved = resolveVoiceTuningSelection(
+      instrumentId,
+      setting.tuningText,
+      setting.presetId
+    )
+    update({
+      enabled: true,
+      instrumentId: instrumentId,
+      presetId: resolved.presetId,
+      tuningText: resolved.tuningText,
+    })
+  }
+
+  function handleTuningChange(text) {
+    const resolved = resolveVoiceTuningSelection(
+      setting.instrumentId,
+      text,
+      setting.presetId
+    )
+    update({
+      tuningText: resolved.tuningText,
+      presetId: resolved.presetId,
+    })
+  }
+
+  const showConfig = multiVoice ? setting.enabled : true
+
+  if (multiVoice) {
+    return (
+      <div className="tablature-voice-card">
+        <Form.Check
+          type="checkbox"
+          id={'tablature-voice-' + setting.voiceKey}
+          className="tablature-voice-enable"
+          label={voiceDisplayLabel(tune, setting.voiceKey)}
+          checked={setting.enabled}
+          onChange={function(e) { handleEnableChange(e.target.checked) }}
+        />
+        {showConfig ? (
+          <div className="tablature-voice-config">
+            <Form.Group className="mb-3" controlId={'tablature-instrument-' + setting.voiceKey}>
+              <Form.Label>Instrument</Form.Label>
+              <Form.Select
+                value={setting.instrumentId}
+                onChange={function(e) { handleInstrumentChange(e.target.value) }}
+              >
+                {TABLATURE_INSTRUMENTS.map(function(inst) {
+                  return (
+                    <option key={inst.id} value={inst.id}>{inst.label}</option>
+                  )
+                })}
+              </Form.Select>
+            </Form.Group>
+            {setting.instrumentId ? (
+              <Form.Group className="mb-0" controlId={'tablature-tuning-' + setting.voiceKey}>
+                <Form.Label>Tuning</Form.Label>
+                <SelectInput
+                  value={setting.tuningText}
+                  options={tuningOptions}
+                  placeholder="Type or select tuning"
+                  onChange={handleTuningChange}
+                />
+              </Form.Group>
+            ) : null}
+          </div>
+        ) : null}
+      </div>
+    )
+  }
+
+  return (
+    <>
+      <Form.Group className="mb-3" controlId="tablature-instrument">
+        <Form.Label>Instrument</Form.Label>
+        <Form.Select
+          value={setting.instrumentId}
+          onChange={function(e) { handleInstrumentChange(e.target.value) }}
+        >
+          <option value="">(none)</option>
+          {TABLATURE_INSTRUMENTS.map(function(inst) {
+            return (
+              <option key={inst.id} value={inst.id}>{inst.label}</option>
+            )
+          })}
+        </Form.Select>
+      </Form.Group>
+
+      {setting.instrumentId ? (
+        <Form.Group className="mb-0" controlId="tablature-tuning">
+          <Form.Label>Tuning</Form.Label>
+          <SelectInput
+            value={setting.tuningText}
+            options={tuningOptions}
+            placeholder="Type or select tuning"
+            onChange={handleTuningChange}
+          />
+        </Form.Group>
+      ) : (
+        <p className="text-muted mb-0">Choose an instrument to show tablature with the notation.</p>
+      )}
+    </>
+  )
+}
 
 export default function TablatureSettingsModal(props) {
   const { show, onHide, tune, tunebook, onApply } = props
   const responsiveModalProps = useResponsiveModalProps()
-  const [instrumentId, setInstrumentId] = useState('')
-  const [presetId, setPresetId] = useState('')
+  const [voiceSettings, setVoiceSettings] = useState([])
   const [tabDisplay, setTabDisplay] = useState('both')
+  const loadedForRef = useRef('')
+
+  const multiVoice = voiceSettings.length > 1
 
   useEffect(function() {
-    if (!show || !tune) return
-    const selection = getTablatureSelection(tune)
-    setInstrumentId(selection.instrumentId || '')
-    setPresetId(selection.presetId || '')
+    if (!show || !tune) {
+      if (!show) loadedForRef.current = ''
+      return
+    }
+    const loadKey = String(tune.id || 'draft') + ':' + String(show)
+    if (loadedForRef.current === loadKey) return
+    loadedForRef.current = loadKey
+    setVoiceSettings(getTablatureVoiceSettings(tune))
     setTabDisplay(getTabDisplay(tune))
   }, [show, tune])
 
-  const presets = instrumentId ? presetsForTabInstrument(instrumentId) : []
+  const updateVoiceSetting = useCallback(function(voiceKey, patch) {
+    setVoiceSettings(function(prev) {
+      return prev.map(function(setting) {
+        if (setting.voiceKey !== voiceKey) return setting
+        return Object.assign({}, setting, patch)
+      })
+    })
+  }, [])
 
-  useEffect(function() {
-    if (!instrumentId || !presets.length) {
-      setPresetId('')
-      return
-    }
-    if (presetId && presets.some(function(p) { return p.id === presetId })) return
-    setPresetId(presets[0].id)
-  }, [instrumentId, presets, presetId])
-
-  function handleInstrumentChange(nextInstrumentId) {
-    const normalized = normalizeTablatureInstrument(nextInstrumentId)
-    setInstrumentId(normalized)
-    const nextPresets = normalized ? presetsForTabInstrument(normalized) : []
-    setPresetId(nextPresets.length ? nextPresets[0].id : '')
-    if (normalized && tabDisplay === 'tab') {
-      setTabDisplay('both')
-    }
-  }
+  const anyEnabled = voiceSettings.some(function(setting) {
+    return multiVoice
+      ? (setting.enabled && setting.instrumentId)
+      : !!setting.instrumentId
+  })
 
   function saveAndClose(clearTab) {
     if (!tune) {
@@ -55,8 +204,17 @@ export default function TablatureSettingsModal(props) {
     }
     if (clearTab) {
       applyTablatureSelection(tune, '', '')
-    } else if (instrumentId) {
-      applyTablatureSelection(tune, instrumentId, presetId, tabDisplay)
+    } else if (multiVoice) {
+      applyTablatureVoiceConfigs(tune, voiceSettings, tabDisplay)
+    } else if (voiceSettings[0] && voiceSettings[0].instrumentId) {
+      const single = voiceSettings[0]
+      applyTablatureSelection(
+        tune,
+        single.instrumentId,
+        single.presetId,
+        tabDisplay,
+        single.tuningText
+      )
     } else {
       applyTablatureSelection(tune, '', '')
     }
@@ -79,55 +237,45 @@ export default function TablatureSettingsModal(props) {
         <Modal.Title>Tablature</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Form.Group className="mb-3" controlId="tablature-instrument">
-          <Form.Label>Instrument</Form.Label>
-          <Form.Select
-            value={instrumentId}
-            onChange={function(e) { handleInstrumentChange(e.target.value) }}
-          >
-            <option value="">(none)</option>
-            {TABLATURE_INSTRUMENTS.map(function(inst) {
+        {anyEnabled ? (
+          <Form.Group className="mb-3" controlId="tablature-display">
+            <Form.Check
+              type="checkbox"
+              id="tablature-tab-only"
+              label="Show tab only (hide notation)"
+              checked={tabDisplay === 'tab'}
+              onChange={function(e) {
+                setTabDisplay(e.target.checked ? 'tab' : 'both')
+              }}
+            />
+          </Form.Group>
+        ) : null}
+
+        {multiVoice ? (
+          <div className="tablature-voice-list">
+            {voiceSettings.map(function(setting) {
               return (
-                <option key={inst.id} value={inst.id}>{inst.label}</option>
+                <VoiceTablatureRow
+                  key={setting.voiceKey}
+                  tune={tune}
+                  setting={setting}
+                  multiVoice={true}
+                  onChange={updateVoiceSetting}
+                />
               )
             })}
-          </Form.Select>
-        </Form.Group>
-
-        {instrumentId ? (
-          <>
-            <Form.Group className="mb-3" controlId="tablature-display">
-              <Form.Check
-                type="checkbox"
-                id="tablature-tab-only"
-                label="Show tab only (hide notation)"
-                checked={tabDisplay === 'tab'}
-                onChange={function(e) { setTabDisplay(e.target.checked ? 'tab' : 'both') }}
-              />
-            </Form.Group>
-
-            <Form.Group className="mb-2" controlId="tablature-tuning">
-              <Form.Label>Tuning</Form.Label>
-              <ListGroup className="tablature-preset-list">
-                {presets.map(function(preset) {
-                  const active = preset.id === presetId
-                  return (
-                    <ListGroup.Item
-                      key={preset.id}
-                      action
-                      active={active}
-                      onClick={function() { setPresetId(preset.id) }}
-                    >
-                      <div className="tablature-preset-label">{canonicalTuningLabel(preset)}</div>
-                    </ListGroup.Item>
-                  )
-                })}
-              </ListGroup>
-            </Form.Group>
-          </>
-        ) : (
-          <p className="text-muted mb-0">Choose an instrument to show tablature with the notation.</p>
-        )}
+            {!anyEnabled ? (
+              <p className="text-muted mb-0">Enable tablature on one or more voices and choose instrument and tuning for each.</p>
+            ) : null}
+          </div>
+        ) : voiceSettings[0] ? (
+          <VoiceTablatureRow
+            tune={tune}
+            setting={voiceSettings[0]}
+            multiVoice={false}
+            onChange={updateVoiceSetting}
+          />
+        ) : null}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="outline-secondary" onClick={function() { saveAndClose(true) }}>
@@ -138,7 +286,10 @@ export default function TablatureSettingsModal(props) {
         </Button>
         <Button
           variant="primary"
-          disabled={!!instrumentId && !presetId}
+          disabled={anyEnabled && voiceSettings.some(function(setting) {
+            const active = multiVoice ? setting.enabled : !!setting.instrumentId
+            return active && setting.instrumentId && !String(setting.tuningText || '').trim()
+          })}
           onClick={function() { saveAndClose(false) }}
         >
           Apply
@@ -149,12 +300,24 @@ export default function TablatureSettingsModal(props) {
 }
 
 export function tablatureSettingsSummary(tune) {
+  const summary = tablatureInstrumentSummary(tune)
+  if (!summary) return 'Off'
+
   const selection = getTablatureSelection(tune)
-  if (!selection.instrumentId) return 'Off'
-  const instrument = tabInstrumentLabel(selection.instrumentId)
   const tuning = selection.preset ? canonicalTuningLabel(selection.preset) : ''
   const display = getTabDisplay(tune)
   const displaySuffix = display === 'tab' ? ' · tab only' : ''
-  if (tuning) return instrument + ' · ' + tuning + displaySuffix
-  return instrument + displaySuffix
+  const activeKeys = Object.keys(getTablatureVoices(tune) || {})
+
+  if (activeKeys.length > 1) {
+    return summary + displaySuffix
+  }
+
+  const stored = getTablatureVoices(tune)
+  const firstKey = activeKeys[0]
+  const storedTuning = firstKey && stored[firstKey] ? stored[firstKey].tuning : ''
+  const tuningLabel = storedTuning || tuning
+
+  if (tuningLabel) return summary + ' · ' + tuningLabel + displaySuffix
+  return summary + displaySuffix
 }

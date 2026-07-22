@@ -3,6 +3,7 @@ import { titleFromChordSheetFileName } from './chordProFormatUtils'
 import { titleArtistFromFilename } from './audioFileMetadata'
 import { createImportCandidate } from './importReviewSession'
 import { freshTuneId } from './importReviewCandidateUtils'
+import { enforceMonotonicPageRanges } from './pdfSegmentPageRanges'
 
 const TITLE_LINE_RE = /^(.+?)\s*[-–—|]\s*(.+)$/
 const JAMMED_TITLE_SPLIT_RE = /(?<=[a-z])(?=[A-Z])/
@@ -86,6 +87,8 @@ function titleFromPageLines(lines) {
 
 function assignInterpolatedPages(segments, pageTitles) {
   const list = Array.isArray(segments) ? segments : []
+  const pages = Array.isArray(pageTitles) ? pageTitles : []
+  const numPages = pages.length > 0 ? Number(pages[pages.length - 1].page) || 0 : 0
   if (!list.length) return list
   const anchors = []
   list.forEach(function(segment, index) {
@@ -114,7 +117,19 @@ function assignInterpolatedPages(segments, pageTitles) {
       }
     }
     if (prev.index === next.index) {
-      segment.page = prev.page
+      const anchor = prev
+      if (index <= anchor.index && anchor.index > 0) {
+        const ratio = index / anchor.index
+        const firstSongPage = anchor.page > 2 ? 2 : 1
+        segment.page = Math.max(
+          firstSongPage,
+          Math.round(firstSongPage + ratio * (anchor.page - firstSongPage))
+        )
+      } else if (index <= anchor.index) {
+        segment.page = anchor.page
+      } else {
+        segment.page = anchor.page
+      }
     } else {
       const ratio = (index - prev.index) / (next.index - prev.index)
       segment.page = Math.max(1, Math.round(prev.page + ratio * (next.page - prev.page)))
@@ -122,17 +137,16 @@ function assignInterpolatedPages(segments, pageTitles) {
     if (!segment.endPage) segment.endPage = segment.page
   })
 
-  const maxPage = pageTitles.length > 0
-    ? Number(pageTitles[pageTitles.length - 1].page) || list[list.length - 1].page
-    : list[list.length - 1].page
   for (let i = 0; i < list.length; i += 1) {
-    if (i + 1 < list.length && list[i + 1].page > list[i].page) {
-      list[i].endPage = Math.max(list[i].page, list[i + 1].page - 1)
+    const start = list[i].page
+    if (i + 1 < list.length && list[i + 1].page > start) {
+      list[i].endPage = Math.max(start, list[i + 1].page - 1)
     } else {
-      list[i].endPage = Math.max(list[i].page, maxPage)
+      list[i].endPage = start
     }
   }
-  return list
+
+  return enforceMonotonicPageRanges(list, numPages)
 }
 
 function segmentsFromJammedToc(tocTitles, pageTitles) {
@@ -144,6 +158,7 @@ function segmentsFromJammedToc(tocTitles, pageTitles) {
   pages.forEach(function(entry) {
     const pageNumber = Number(entry && entry.page) || 0
     if (!pageNumber) return
+    if (parseJammedTocPage(entry && entry.lines).length >= 5) return
     const parsed = titleFromPageLines(entry && entry.lines)
     const title = stripControlChars((parsed && parsed.title) || entry && entry.title || '')
     if (!title || !looksLikeTitleLine(title)) return
@@ -320,19 +335,20 @@ export function mapTocToPageTitles(tocEntries, pageTitles) {
   })
 
   if (segments.length < 3) return null
+  const numPages = pages.length > 0 ? Number(pages[pages.length - 1].page) || 0 : 0
   for (let i = 0; i < segments.length; i += 1) {
     if (i + 1 < segments.length) {
       segments[i].endPage = Math.max(segments[i].page, segments[i + 1].page - 1)
     } else {
-      const lastPage = pages.length > 0 ? Number(pages[pages.length - 1].page) || segments[i].page : segments[i].page
-      segments[i].endPage = lastPage
+      segments[i].endPage = segments[i].page
     }
   }
-  return segments
+  return enforceMonotonicPageRanges(segments, numPages)
 }
 
 export function segmentsFromPageTitles(pageTitles) {
   const pages = Array.isArray(pageTitles) ? pageTitles : []
+  const numPages = pages.length > 0 ? Number(pages[pages.length - 1].page) || 0 : 0
   for (let i = 0; i < Math.min(pages.length, 3); i += 1) {
     const toc = parseTocLines(pages[i] && pages[i].lines)
     if (toc.length >= 3) {
@@ -345,7 +361,7 @@ export function segmentsFromPageTitles(pageTitles) {
       if (mapped && mapped.length >= 5) return mapped
     }
   }
-  return segmentMetadataPages(pages)
+  return enforceMonotonicPageRanges(segmentMetadataPages(pages), numPages)
 }
 
 export function ensureUniqueTuneName(baseName, usedNames) {

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
-import { Form, ListGroup, Modal } from 'react-bootstrap'
+import { Form, Modal } from 'react-bootstrap'
 import { Document, Page, Outline, pdfjs } from 'react-pdf'
 import 'react-pdf/dist/Page/TextLayer.css'
 import 'react-pdf/dist/Page/AnnotationLayer.css'
@@ -8,6 +8,11 @@ import { clampFileViewZoom } from './FileZoomControls'
 import TuneFilePdfToolbar from './TuneFilePdfToolbar'
 import { savePdfViewPosition } from '../pdfViewPosition'
 import { computePdfSpreadLayout } from '../pdfSpreadLayout'
+import {
+  collectPdfSegmentStartPages,
+  computeAlignedNextPage,
+  computeAlignedPrevPage,
+} from '../pdfSpreadNavigation'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -16,6 +21,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 function normalizeIndexFilter(text) {
   return String(text || '').trim().toLowerCase()
+}
+
+function formatSegmentPageRange(segment) {
+  const start = Math.max(1, parseInt(segment && segment.page, 10) || 1)
+  const end = Math.max(start, parseInt(segment && segment.endPage, 10) || start)
+  if (end > start) return start + '–' + end
+  return String(start)
 }
 
 function PdfIndexModal(props) {
@@ -59,20 +71,21 @@ function PdfIndexModal(props) {
               onChange={function(e) { setFilter(e.target.value) }}
             />
             {filteredSegments.length > 0 ? (
-              <ListGroup variant="flush">
+              <div className="tune-file-pdf-index-list" role="list">
                 {filteredSegments.map(function(segment, index) {
                   return (
-                    <ListGroup.Item
+                    <div
                       key={(segment.title || 'segment') + '-' + segment.page + '-' + index}
+                      role="listitem"
                       className="tune-file-pdf-index-item"
                       onClick={function() { onJump(segment.page) }}
                     >
                       <span className="tune-file-pdf-index-title">{segment.title}</span>
-                      <span className="tune-file-pdf-index-page text-muted">p. {segment.page}</span>
-                    </ListGroup.Item>
+                      <span className="tune-file-pdf-index-page text-muted">{formatSegmentPageRange(segment)}</span>
+                    </div>
                   )
                 })}
-              </ListGroup>
+              </div>
             ) : (
               <p className="text-muted small mb-0">No tunes match &ldquo;{filter}&rdquo;.</p>
             )}
@@ -94,7 +107,7 @@ function PdfIndexModal(props) {
 }
 
 /**
- * Compact PDF viewer for tune Files panel: page nav + indexed contents dialog.
+ * Compact PDF viewer for tune Files panel: page nav + multi-column spread in fit-height mode.
  * Fit mode and zoom come from the single-view toolbar (Fit height / file zoom).
  */
 export default function TuneFilePdfViewer(props) {
@@ -106,11 +119,13 @@ export default function TuneFilePdfViewer(props) {
     scale: scaleProp,
     pdfSegments,
     menuIcon,
+    icons,
     tuneId,
     fileId,
     restoreScrollTop,
     openedFromSearch,
     fileName,
+    onFileNameChange,
     embedToolbarInMainBar,
     toolbarHost,
   } = props
@@ -128,6 +143,9 @@ export default function TuneFilePdfViewer(props) {
   const effectiveScale = pinchScale != null ? pinchScale : scale
   const segments = Array.isArray(pdfSegments) ? pdfSegments : []
   const hasIndexedContents = segments.length > 0
+  const segmentStartPages = useMemo(function() {
+    return collectPdfSegmentStartPages(segments)
+  }, [segments])
   const multiSpread = spreadCount > 1 && numPages > 1
   const spreadPages = multiSpread
     ? Array.from({ length: spreadCount }, function(_, offset) { return page + offset }).filter(function(pageNum) {
@@ -137,6 +155,44 @@ export default function TuneFilePdfViewer(props) {
   const lastPageRef = useRef(page)
   const restoredScrollRef = useRef(false)
   const scrollSaveTimerRef = useRef(null)
+  const spreadCountRef = useRef(spreadCount)
+  const pageRef = useRef(page)
+  const numPagesRef = useRef(numPages)
+  const segmentStartsRef = useRef(segmentStartPages)
+  const edgeScrollRef = useRef({ direction: null, at: 0 })
+  spreadCountRef.current = spreadCount
+  pageRef.current = page
+  numPagesRef.current = numPages
+  segmentStartsRef.current = segmentStartPages
+
+  function pageStep() {
+    return Math.max(1, spreadCountRef.current)
+  }
+
+  function setPage(n) {
+    if (!onPageChange) return
+    const maxPage = numPagesRef.current > 0 ? numPagesRef.current : n
+    const next = Math.min(Math.max(1, n), maxPage)
+    onPageChange(next)
+  }
+
+  function goToPrevSpread() {
+    setPage(computeAlignedPrevPage(
+      pageRef.current,
+      pageStep(),
+      numPagesRef.current,
+      segmentStartsRef.current
+    ))
+  }
+
+  function goToNextSpread() {
+    setPage(computeAlignedNextPage(
+      pageRef.current,
+      pageStep(),
+      numPagesRef.current,
+      segmentStartsRef.current
+    ))
+  }
 
   useEffect(function() {
     setPinchScale(null)
@@ -199,6 +255,7 @@ export default function TuneFilePdfViewer(props) {
         containerWidth: rect.width,
         containerHeight: rect.height,
         fitMode: fitMode,
+        toolbarEmbedded: !!embedToolbarInMainBar,
       })
       setSpreadCount(layout.spreadCount)
       setPageWidth(layout.pageWidth)
@@ -206,13 +263,65 @@ export default function TuneFilePdfViewer(props) {
     measure()
     window.addEventListener('resize', measure)
     return function() { window.removeEventListener('resize', measure) }
-  }, [fitMode, src])
+  }, [fitMode, src, embedToolbarInMainBar])
 
-  function setPage(n) {
-    if (!onPageChange) return
-    const next = Math.min(Math.max(1, n), numPages || n)
-    onPageChange(next)
-  }
+  useEffect(function() {
+    edgeScrollRef.current = { direction: null, at: 0 }
+  }, [page, src, fileId])
+
+  useEffect(function() {
+    const node = pagesRef.current
+    if (!node) return undefined
+
+    const EDGE_SCROLL_CHAIN_MS = 300
+    const SCROLL_EDGE_PX = 2
+
+    function isAtTop(el) {
+      return el.scrollTop <= SCROLL_EDGE_PX
+    }
+
+    function isAtBottom(el) {
+      return el.scrollTop + el.clientHeight >= el.scrollHeight - SCROLL_EDGE_PX
+    }
+
+    function handleWheel(e) {
+      const now = Date.now()
+      const edge = edgeScrollRef.current
+
+      if (e.deltaY > 0 && isAtBottom(node)) {
+        if (edge.direction === 'down' && now - edge.at <= EDGE_SCROLL_CHAIN_MS) {
+          e.preventDefault()
+          edgeScrollRef.current = { direction: null, at: 0 }
+          if (pageRef.current < (numPagesRef.current || pageRef.current)) {
+            goToNextSpread()
+          }
+          return
+        }
+        edgeScrollRef.current = { direction: 'down', at: now }
+        return
+      }
+
+      if (e.deltaY < 0 && isAtTop(node)) {
+        if (edge.direction === 'up' && now - edge.at <= EDGE_SCROLL_CHAIN_MS) {
+          e.preventDefault()
+          edgeScrollRef.current = { direction: null, at: 0 }
+          if (pageRef.current > 1) {
+            goToPrevSpread()
+          }
+          return
+        }
+        edgeScrollRef.current = { direction: 'up', at: now }
+        return
+      }
+
+      edgeScrollRef.current = { direction: null, at: 0 }
+    }
+
+    node.addEventListener('wheel', handleWheel, { passive: false })
+    return function() {
+      node.removeEventListener('wheel', handleWheel)
+    }
+  }, [src, fileId, numPages])
 
   function jumpToPage(nextPage) {
     setPage(nextPage)
@@ -255,15 +364,20 @@ export default function TuneFilePdfViewer(props) {
       fileName={fileName}
       page={page}
       numPages={numPages}
+      pageStep={pageStep()}
       onPageChange={setPage}
+      onPrevSpread={goToPrevSpread}
+      onNextSpread={goToNextSpread}
+      onFileNameChange={onFileNameChange}
       onOpenIndex={function() { setShowOutline(true) }}
       menuIcon={menuIcon}
+      icons={icons}
       embedded={!!embedToolbarInMainBar}
     />
   )
 
   return (
-    <div className="tune-file-pdf-viewer" ref={wrapRef} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <div className="tune-file-pdf-viewer" ref={wrapRef}>
       {embedToolbarInMainBar && toolbarHost
         ? createPortal(toolbar, toolbarHost)
         : !embedToolbarInMainBar
@@ -273,7 +387,7 @@ export default function TuneFilePdfViewer(props) {
       <div
         ref={pagesRef}
         className={'tune-file-pdf-pages' + (multiSpread ? ' tune-file-pdf-pages--spread' : '')}
-        style={{ flex: 1, overflow: 'auto', textAlign: 'center', touchAction: 'pan-x pan-y' }}
+        style={{ touchAction: 'pan-x pan-y' }}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
@@ -295,7 +409,7 @@ export default function TuneFilePdfViewer(props) {
             <div className={'tune-file-pdf-spread' + spreadClass}>
               {spreadPages.map(function(pageNum) {
                 return (
-                  <div key={'pdf-page-wrap-' + pageNum} className="tune-file-pdf-page-sizer">
+                  <div key={'pdf-page-wrap-' + pageNum} className="tune-file-pdf-page-sizer" data-pdf-page={pageNum}>
                     <Page
                       pageNumber={pageNum}
                       width={renderedWidth}

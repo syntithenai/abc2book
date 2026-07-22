@@ -55,7 +55,7 @@ export const EDITOR_INFO_FIELD_HELP = {
   },
   tablature: {
     title: 'Tablature',
-    body: 'Show tablature for violin, guitar, uke, 4- or 5-string banjo, or bouzouki. Choose instrument and tuning. Optionally show tab only instead of notation and tab together. Turn tablature off to show notation alone.',
+    body: 'Show tablature for violin, guitar, uke, 4- or 5-string banjo, or bouzouki. Choose which voices get tab and set instrument and tuning per voice. Optionally show tab only instead of notation and tab together. Turn tablature off to show notation alone.',
   },
   soundFonts: {
     title: 'Sound Fonts',

@@ -122,8 +122,13 @@ export default function TuneFilePanel(props) {
     onTuneChange(updateTuneFileMeta(tune, meta.id, { pdfPage: page }))
   }
 
+  function handleFileNameChange(name) {
+    if (!onTuneChange) return
+    onTuneChange(updateTuneFileMeta(tune, meta.id, { name: name }))
+  }
+
   const rootClass = 'tune-panel-file'
-    + (fitHeight ? ' tune-file-fit-height music-panels-fit-height' : ' tune-file-fit-width')
+    + (fitHeight ? ' tune-file-fit-height music-panels-fit-height tune-panel-file--fit-height' : ' tune-file-fit-width')
 
   return (
     <div className={rootClass} style={{ width: '100%' }}>
@@ -131,8 +136,7 @@ export default function TuneFilePanel(props) {
       {error ? <div className="p-3 text-danger">{error}</div> : null}
       {!loading && !error && objectUrl && isPdfTuneFileType(meta.type) ? (
         <div
-          className="tune-file-pdf-wrap"
-          style={fitHeight ? { height: 'calc(100vh - 8rem)' } : { minHeight: '12rem', overflow: 'auto' }}
+          className={'tune-file-pdf-wrap' + (fitHeight ? ' tune-file-pdf-wrap--fit-height' : ' tune-file-pdf-wrap--fit-width')}
         >
           <TuneFilePdfViewer
             src={objectUrl}
@@ -142,9 +146,11 @@ export default function TuneFilePanel(props) {
             scale={fileZoom}
             pdfSegments={normalizePdfSegments(meta.pdfSegments)}
             menuIcon={tunebook && tunebook.icons ? tunebook.icons.menu : null}
+            icons={tunebook && tunebook.icons ? tunebook.icons : null}
             tuneId={tune.id}
             fileId={meta.id}
             fileName={meta.name || 'File'}
+            onFileNameChange={handleFileNameChange}
             embedToolbarInMainBar={!!embedToolbarInMainBar}
             toolbarHost={toolbarHost}
             restoreScrollTop={openedFromSearch ? 0 : (storedPosition && storedPosition.scrollTop) || 0}

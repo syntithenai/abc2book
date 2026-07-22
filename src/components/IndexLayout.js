@@ -421,7 +421,11 @@ export default function IndexLayout(props) {
             const displayTitle = displayTitleForSearchRow(row)
             const linkTo = buildSnapshotTuneLink(tune && tune.id, snapshotMatch)
             const parentName = tune && tune.name && String(tune.name).trim()
-            const showParentSubtitle = !!(snapshotMatch && parentName && parentName.toLowerCase() !== displayTitle.toLowerCase())
+            const showParentSubtitle = !!(snapshotMatch && parentName && (
+              snapshotMatch.matchKind === 'segment'
+                ? parentName.toLowerCase() !== displayTitle.toLowerCase()
+                : true
+            ))
             return (tune && tune.id) ? <ListGroup.Item key={(tune.id || '') + '-' + tk + '-' + (snapshotMatch ? snapshotMatch.page : 'main')} className={'tune-list-item ' + ((tk%2 === 0) ? 'even': 'odd') + (isCompact ? ' tune-list-item-compact' : '')} style={{borderTop:'2px solid black', borderLeft:'2px solid black', borderRight:'2px solid black'}} >
                 <div className="tune-list-item-row">
                 {showRowExtras && <>

@@ -354,6 +354,12 @@ var useAbcTools = () => {
                     tune.difficulty = parseInt(line.slice(21).trim())
                 } else  if (line.startsWith('% abcbook-tablature')) {
                     tune.tablature = line.slice(20).trim()
+                } else  if (line.startsWith('% abcbook-tablature-voices')) {
+                    try {
+                      tune.tablatureVoices = JSON.parse(abcbookFieldValue(line, '% abcbook-tablature-voices'))
+                    } catch (e) {
+                      tune.tablatureVoices = null
+                    }
                 } else  if (line.startsWith('% abcbook-tab-display')) {
                     var tabDisplayVal = abcbookFieldValue(line, '% abcbook-tab-display')
                     if (tabDisplayVal === 'tab') {
@@ -907,6 +913,16 @@ var useAbcTools = () => {
                       : '')
                     + (tune.suitableForPractice === false ? "% abcbook-suitable-for-practice false\n" : '')
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
+                    + (function() {
+                      try {
+                        const raw = tune.tablatureVoices && typeof tune.tablatureVoices === 'object'
+                          ? JSON.stringify(tune.tablatureVoices)
+                          : ''
+                        return raw ? "% abcbook-tablature-voices " + raw + "\n" : ''
+                      } catch (e) {
+                        return ''
+                      }
+                    })()
                     + (tune.tabDisplay === 'tab'
                       ? "% abcbook-tab-display tab\n"
                       : '')

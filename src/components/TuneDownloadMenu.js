@@ -2,11 +2,12 @@ import { useMemo, useState } from 'react'
 import { Alert, Button, Dropdown, Modal, ProgressBar } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import {
-  TUNE_DOWNLOAD_FORMATS,
   executeTuneDownload,
+  getTuneDownloadFormatsForContext,
   getTuneDownloadStartToastMessage,
   isStemsDownloadDisabled,
   isTuneDownloadFormatDisabled,
+  shouldShowRestrictedTuneDownloads,
 } from '../tuneDownloadActions'
 import useStemDownloadQueue from '../useStemDownloadQueue'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
@@ -157,11 +158,17 @@ export function TuneDownloadModal({
   token,
   onComplete,
   onOpenQueue,
+  user,
+  allowRestrictedFormats,
 }) {
   const icons = tunebook.icons
   const tuneList = useMemo(function() {
     return Array.isArray(tunes) ? tunes.filter(Boolean) : []
   }, [tunes])
+  const downloadFormats = useMemo(function() {
+    return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
+  }, [user, allowRestrictedFormats])
+  const showStemsDownload = shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
     tuneList,
     tunebook,
@@ -185,7 +192,7 @@ export function TuneDownloadModal({
         </p>
         {errorMessage ? <Alert variant="danger">{errorMessage}</Alert> : null}
         <div className="tune-download-options">
-          {TUNE_DOWNLOAD_FORMATS.map(function(format) {
+          {downloadFormats.map(function(format) {
             return (
               <DownloadOptionButton
                 key={format.id}
@@ -198,13 +205,15 @@ export function TuneDownloadModal({
               />
             )
           })}
-          <StemsDownloadSection
-            tunes={tuneList}
-            tunebook={tunebook}
-            token={token}
-            icons={icons}
-            layout="modal"
-          />
+          {showStemsDownload ? (
+            <StemsDownloadSection
+              tunes={tuneList}
+              tunebook={tunebook}
+              token={token}
+              icons={icons}
+              layout="modal"
+            />
+          ) : null}
         </div>
       </Modal.Body>
     </Modal>
@@ -220,11 +229,19 @@ export default function TuneDownloadDropdown({
   onOpenQueue,
   buttonVariant,
   buttonClassName,
+  labelClassName,
+  user,
+  allowRestrictedFormats,
 }) {
   const icons = tunebook.icons
   const tuneList = useMemo(function() {
     return Array.isArray(tunes) ? tunes.filter(Boolean) : []
   }, [tunes])
+  const downloadFormats = useMemo(function() {
+    return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
+  }, [user, allowRestrictedFormats])
+  const showStemsDownload = shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
+  const toggleLabelClassName = labelClassName || 'bulk-ops-btn-label'
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
     tuneList,
     tunebook,
@@ -244,7 +261,7 @@ export default function TuneDownloadDropdown({
         disabled={!!busyFormatId}
       >
         {icons.save}
-        <span className="bulk-ops-btn-label"> Download</span>
+        <span className={toggleLabelClassName}> Download</span>
       </Dropdown.Toggle>
       <Dropdown.Menu
         className="tune-download-dropdown-menu"
@@ -280,7 +297,7 @@ export default function TuneDownloadDropdown({
           </Dropdown.ItemText>
         ) : null}
         <div className="tune-download-dropdown-options">
-          {TUNE_DOWNLOAD_FORMATS.map(function(format) {
+          {downloadFormats.map(function(format) {
             var disabled = formatIsDisabled(format, tuneList, tunebook) || !!busyFormatId
             return (
               <Button
@@ -297,13 +314,15 @@ export default function TuneDownloadDropdown({
               </Button>
             )
           })}
-          <StemsDownloadSection
-            tunes={tuneList}
-            tunebook={tunebook}
-            token={token}
-            icons={icons}
-            layout="modal"
-          />
+          {showStemsDownload ? (
+            <StemsDownloadSection
+              tunes={tuneList}
+              tunebook={tunebook}
+              token={token}
+              icons={icons}
+              layout="modal"
+            />
+          ) : null}
         </div>
       </Dropdown.Menu>
     </Dropdown>

@@ -40,6 +40,15 @@ describe('pdfSnapshotIndex', function() {
     expect(hits[0].title).toBe('Drowsy Maggie')
     expect(hits[0].page).toBe(5)
     expect(hits[0].fileId).toBe('f1')
+    expect(hits[0].matchKind).toBe('segment')
+  })
+
+  test('pdfSnapshotSearchHits matches PDF document file names', function() {
+    const hits = pdfSnapshotSearchHits(tuneWithPdf, 'book.pdf')
+    expect(hits).toHaveLength(1)
+    expect(hits[0].title).toBe('book.pdf')
+    expect(hits[0].matchKind).toBe('fileName')
+    expect(hits[0].fileId).toBe('f1')
   })
 
   test('tuneMatchesPdfSnapshotSearch returns true for segment-only matches', function() {
@@ -51,6 +60,15 @@ describe('pdfSnapshotIndex', function() {
     const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'maggie')
     expect(rows).toHaveLength(1)
     expect(rows[0].snapshotMatch.title).toBe('Drowsy Maggie')
+    expect(rows[0].snapshotMatch.matchKind).toBe('segment')
+  })
+
+  test('expandPdfSnapshotSearchRows expands PDF file name matches', function() {
+    const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'book.pdf')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].snapshotMatch.title).toBe('book.pdf')
+    expect(rows[0].snapshotMatch.matchKind).toBe('fileName')
+    expect(buildSnapshotTuneLink('t1', rows[0].snapshotMatch)).toContain('file=f1')
   })
 
   test('expandPdfSnapshotSearchRows keeps parent row when parent title matches', function() {

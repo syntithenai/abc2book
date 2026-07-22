@@ -6,7 +6,11 @@ import {
   isLinkedAudioDownloadFormat,
   isTuneDownloadFormatDisabled,
   getTuneDownloadStartToastMessage,
+  getTuneDownloadFormatsForContext,
+  shouldShowRestrictedTuneDownloads,
+  canShowRestrictedTuneDownloads,
 } from './tuneDownloadActions'
+import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
 
 describe('tuneDownloadActions', function() {
   test('sanitizes download filenames', function() {
@@ -75,5 +79,24 @@ describe('tuneDownloadActions', function() {
     expect(getTuneDownloadStartToastMessage('abc', 1)).toContain('Starting download')
     expect(getTuneDownloadStartToastMessage('linked-audio', 2)).toContain('Starting audio download')
     expect(getTuneDownloadStartToastMessage('midi', 1)).toContain('Starting MIDI download')
+  })
+
+  test('hides audio download formats except for the download admin user', function() {
+    const adminUser = { email: FEED_FEEDBACK_ADMIN_EMAIL }
+    const otherUser = { email: 'someone@example.com' }
+    const adminFormats = getTuneDownloadFormatsForContext({ user: adminUser })
+    const guestFormats = getTuneDownloadFormatsForContext({ user: null })
+    const bulkFormats = getTuneDownloadFormatsForContext({ allowRestrictedFormats: true })
+
+    expect(adminFormats.some(function(format) { return format.id === 'linked-audio' })).toBe(true)
+    expect(guestFormats.some(function(format) { return format.id === 'linked-audio' })).toBe(false)
+    expect(getTuneDownloadFormatsForContext({ user: otherUser }).some(function(format) {
+      return format.id === 'linked-audio'
+    })).toBe(false)
+    expect(bulkFormats.some(function(format) { return format.id === 'linked-audio' })).toBe(true)
+    expect(canShowRestrictedTuneDownloads(adminUser)).toBe(true)
+    expect(canShowRestrictedTuneDownloads(otherUser)).toBe(false)
+    expect(shouldShowRestrictedTuneDownloads({ allowRestrictedFormats: true })).toBe(true)
+    expect(shouldShowRestrictedTuneDownloads({ user: otherUser })).toBe(false)
   })
 })

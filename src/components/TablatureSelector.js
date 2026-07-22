@@ -4,8 +4,8 @@ import {
   TAB_DISPLAY_OPTIONS,
   applyTabDisplay,
   getTabDisplay,
-  getTablatureSelection,
-  tabInstrumentLabel,
+  getTablatureButtonLabel,
+  shouldRenderTablature,
 } from '../tablatureConfig'
 import TablatureSettingsModal, { tablatureSettingsSummary } from './TablatureSettingsModal'
 
@@ -15,10 +15,9 @@ export default function TablatureSelector(props) {
   const [showMenu, setShowMenu] = useState(false)
   if (!tune) return null
 
-  const selection = getTablatureSelection(tune)
-  const tabActive = !!selection.instrumentId
+  const tabActive = shouldRenderTablature(tune)
   const tabDisplay = getTabDisplay(tune)
-  const buttonText = tabActive ? tabInstrumentLabel(selection.instrumentId) : 'Tablature'
+  const buttonText = getTablatureButtonLabel(tune)
   const buttonTitle = tabActive
     ? ('Tablature: ' + tablatureSettingsSummary(tune))
     : 'Set tablature instrument and tuning'
@@ -40,6 +39,7 @@ export default function TablatureSelector(props) {
     setShowMenu(false)
     tune.tablature = ''
     tune.tabDisplay = ''
+    tune.tablatureVoices = null
     if (tune.id && tunebook && tunebook.saveTune) {
       tunebook.saveTune(tune)
     }
@@ -60,65 +60,63 @@ export default function TablatureSelector(props) {
     + (variant === 'menu' ? ' tablature-selector-block--menu' : '')
     + (className ? ' ' + className : '')
 
+  const mainButton = (
+    <Button
+      size="sm"
+      variant={tabActive ? 'primary' : 'outline-secondary'}
+      className="tablature-selector-btn"
+      aria-label={buttonTitle}
+      title={buttonTitle}
+      onClick={openModal}
+    >
+      {buttonText}
+    </Button>
+  )
+
   return (
     <div
       className={blockClass}
       onClick={stop}
       onMouseDown={stop}
     >
-      <Dropdown
-        as={ButtonGroup}
-        show={showMenu}
-        onToggle={function(next) { setShowMenu(next) }}
-        align="end"
-      >
-        <Button
-          size="sm"
-          variant={tabActive ? 'primary' : 'outline-secondary'}
-          className="tablature-selector-btn"
-          aria-label={buttonTitle}
-          title={buttonTitle}
-          onClick={openModal}
+      {tabActive ? (
+        <Dropdown
+          as={ButtonGroup}
+          show={showMenu}
+          onToggle={function(next) { setShowMenu(next) }}
+          align="end"
         >
-          {buttonText}
-        </Button>
-        <Dropdown.Toggle
-          split
-          size="sm"
-          variant={tabActive ? 'primary' : 'outline-secondary'}
-          className="tablature-selector-toggle"
-          aria-label="Tablature options"
-        />
-        <Dropdown.Menu
-          className="tablature-selector-menu"
-          popperConfig={{ strategy: 'fixed' }}
-        >
-          <Dropdown.Item onClick={openModal}>
-            Choose instrument and tuning…
-          </Dropdown.Item>
-          {tabActive ? (
-            <>
-              <Dropdown.Divider />
-              {TAB_DISPLAY_OPTIONS.map(function(option) {
-                const active = tabDisplay === option.value
-                return (
-                  <Dropdown.Item
-                    key={option.value}
-                    active={active}
-                    onClick={function(e) { setDisplayMode(e, option.value) }}
-                  >
-                    {option.label}
-                  </Dropdown.Item>
-                )
-              })}
-              <Dropdown.Divider />
-              <Dropdown.Item onClick={turnOff}>
-                Turn off tablature
-              </Dropdown.Item>
-            </>
-          ) : null}
-        </Dropdown.Menu>
-      </Dropdown>
+          {mainButton}
+          <Dropdown.Toggle
+            split
+            size="sm"
+            variant="primary"
+            className="tablature-selector-toggle"
+            aria-label="Tablature options"
+          />
+          <Dropdown.Menu
+            className="tablature-selector-menu"
+            popperConfig={{ strategy: 'fixed' }}
+          >
+            {TAB_DISPLAY_OPTIONS.map(function(option) {
+              const active = tabDisplay === option.value
+              return (
+                <Dropdown.Item
+                  key={option.value}
+                  active={active}
+                  onClick={function(e) { setDisplayMode(e, option.value) }}
+                >
+                  {option.label}
+                </Dropdown.Item>
+              )
+            })}
+            <Dropdown.Divider />
+            <Dropdown.Item onClick={turnOff}>
+              Turn off tablature
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      ) : mainButton}
 
       <TablatureSettingsModal
         show={showModal}

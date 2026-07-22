@@ -1,3 +1,4 @@
+import { enforceMonotonicPageRanges } from './pdfSegmentPageRanges'
 import localforage from 'localforage'
 import utilsFunctions from './utilsFunctions'
 import {
@@ -79,7 +80,7 @@ export function normalizePdfSegments(raw) {
       composer: composer,
     })
   })
-  return segments
+  return enforceMonotonicPageRanges(segments)
 }
 
 export function normalizeTuneFileMeta(raw) {

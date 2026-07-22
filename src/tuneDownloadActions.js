@@ -9,6 +9,7 @@ import { exportTuneToChordPro, exportTuneToOnSong, tuneHasChordSheetContent } fr
 import { getAudioCompressFormat, getAudioCompressExtension } from './audioCompressSettings'
 import { encodeAudioBuffer } from './audioCompressEncode'
 import { renderAbcToAudioBuffer } from './notationAudioExport'
+import { FEED_FEEDBACK_ADMIN_EMAIL } from './feedFeedbackUtils'
 
 export const TUNE_DOWNLOAD_FORMATS = [
   { id: 'abc', label: 'ABC', icon: 'music', description: 'ABC notation file' },
@@ -36,6 +37,26 @@ export function isLinkedAudioDownloadFormat(formatId) {
   return formatId === 'linked-audio'
     || formatId === 'linked-audio-wav'
     || formatId === 'linked-audio-mp3'
+}
+
+export function isRestrictedTuneDownloadFormat(formatId) {
+  return isLinkedAudioDownloadFormat(formatId) || formatId === 'stems'
+}
+
+export function canShowRestrictedTuneDownloads(user) {
+  return !!(user && user.email === FEED_FEEDBACK_ADMIN_EMAIL)
+}
+
+export function shouldShowRestrictedTuneDownloads(options) {
+  if (options && options.allowRestrictedFormats) return true
+  return canShowRestrictedTuneDownloads(options && options.user)
+}
+
+export function getTuneDownloadFormatsForContext(options) {
+  const showRestricted = shouldShowRestrictedTuneDownloads(options)
+  return TUNE_DOWNLOAD_FORMATS.filter(function(format) {
+    return showRestricted || !isLinkedAudioDownloadFormat(format.id)
+  })
 }
 
 function escapeCsvCell(value) {

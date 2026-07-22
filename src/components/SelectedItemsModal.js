@@ -465,6 +465,7 @@ export default function SelectedItemsModal(props) {
                 tunes={selectedTunes()}
                 archiveBaseName="selected"
                 token={props.token}
+                allowRestrictedFormats={true}
                 onComplete={handleClose}
               />
               <BulkOpsButton as={Link} to="/print" variant="primary" icon={icons.printer} label="Print" />

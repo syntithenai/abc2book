@@ -2198,7 +2198,7 @@ a.header-now-playing-label:focus {
 }
 
 .App-body {
-  margin-top: 5em;
+  margin-top: calc(3.7em + 1px + env(safe-area-inset-top, 0px));
 /*
   margin-bottom: 3.6em;
 */
@@ -3437,11 +3437,16 @@ button img:after {
 
 .music-buttons {
   background-color: var(--app-brand-subtle);
-  width: 100%;
   min-height: 3em;
+  --music-buttons-sticky-height: 3.2em;
   padding: 0.1em;
   box-sizing: border-box;
   border-bottom: 1px solid var(--app-border);
+  /* Flush under App-header; cancel App-body top/side padding. */
+  margin-top: -0.2em;
+  margin-left: -0.1em;
+  margin-right: -0.2em;
+  width: auto;
   /* Stick to the bottom edge of the fixed App-header (3.3em + 0.4em padding + 1px border). */
   position: sticky;
   top: calc(3.7em + 1px + env(safe-area-inset-top, 0px));
@@ -3556,6 +3561,47 @@ button img:after {
   min-width: 0;
 }
 
+.music-buttons--pdf-snapshot {
+  --music-buttons-sticky-height: 3.2em;
+}
+
+.music-buttons--pdf-snapshot.music-buttons--pdf-toolbar-subrow {
+  --music-buttons-sticky-height: 5.75em;
+}
+
+.music-buttons--pdf-snapshot .music-buttons-inner {
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.music-buttons--pdf-snapshot .music-buttons-col-meta {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.music-buttons--pdf-snapshot .music-buttons-col-right {
+  flex: 0 1 auto;
+  width: auto;
+  margin-left: auto;
+  flex-wrap: nowrap;
+}
+
+.music-buttons-pdf-row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  padding: 0.05em 0.35em 0.12em;
+  border-top: 1px solid var(--app-border);
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.music-buttons-pdf-row .music-pdf-toolbar-slot {
+  flex: 0 0 auto;
+}
+
 @media (max-width: 1180px) {
   .music-buttons-inner {
     flex-wrap: wrap;
@@ -3563,9 +3609,42 @@ button img:after {
     overflow-x: visible;
   }
 
+  .music-buttons--folded-menu .music-buttons-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .music-buttons-col-left {
+    align-self: center;
+    align-items: center;
+  }
+
   .music-buttons-col-meta {
     flex: 1 1 auto;
     min-width: 0;
+    align-self: center;
+    align-items: center;
+  }
+
+  .music-buttons-col-meta.music-tune-meta-inline {
+    align-self: center;
+    align-items: center;
+  }
+
+  .music-tune-meta-group {
+    align-items: center;
+  }
+
+  .music-tune-meta-group > .btn,
+  .music-tune-meta-group .tune-meta-modal-btn {
+    align-self: center;
+    height: 2.35rem;
+  }
+
+  .music-actions-edit-btn {
+    align-self: center;
+    height: 2.75rem;
   }
 
   .music-buttons-col-right {
@@ -3573,6 +3652,40 @@ button img:after {
     margin-left: 0;
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+
+  .music-buttons--meta-collapsed .music-buttons-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .music-buttons--meta-collapsed .music-buttons-col-meta.music-tune-meta-inline {
+    display: none;
+  }
+
+  .music-buttons--meta-collapsed .music-buttons-col-right {
+    flex: 1 1 auto;
+    width: auto;
+    margin-left: auto;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-col-meta {
+    flex: 0 1 auto;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-col-right {
+    flex: 0 1 auto;
+    width: auto;
+    margin-left: auto;
+    flex-wrap: nowrap;
   }
 }
 
@@ -3585,6 +3698,11 @@ button img:after {
   .music-buttons-col-meta,
   .music-buttons-col-right {
     flex-wrap: wrap;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-inner,
+  .music-buttons--pdf-snapshot .music-buttons-col-right {
+    flex-wrap: nowrap;
   }
 }
 
@@ -3697,6 +3815,26 @@ button img:after {
 
 .tablature-preset-label {
   font-size: 0.95rem;
+}
+
+.tablature-voice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tablature-voice-card {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+}
+
+.tablature-voice-enable {
+  margin-bottom: 0.75rem;
+}
+
+.tablature-voice-row--expanded .tablature-voice-config {
+  margin-top: 0;
 }
 
 .display-mode-toolbar .tablature-selector-block {
@@ -4190,6 +4328,88 @@ button img:after {
   min-height: 0;
 }
 
+.music-single.music-single--file-overlay {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - 3.7em - 1px - var(--app-playlist-transport-offset, 0px) - env(safe-area-inset-top, 0px));
+}
+
+.music-single.music-single--file-overlay > .tune-panel-file--fit-height {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.music-single.music-single--file-overlay > .tune-panel-file.tune-file-fit-width {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.music-single.music-single--file-overlay > .music-single-panels--file-overlay {
+  flex: 0 0 0;
+  height: 0;
+  min-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.music-single.music-single--file-overlay .tune-file-pdf-wrap--fit-height {
+  flex: 1 1 0;
+  min-height: calc(100dvh - 7rem - var(--app-playlist-transport-offset, 0px) - env(safe-area-inset-top, 0px));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.music-single.music-single--file-overlay .tune-file-pdf-wrap--fit-width {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tune-file-pdf-wrap--fit-width {
+  min-height: 12rem;
+}
+
+.tune-file-pdf-viewer {
+  flex: 1 1 0;
+  min-height: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tune-file-pdf-viewer > .tune-file-pdf-toolbar:not(.tune-file-pdf-toolbar--embedded) {
+  position: sticky;
+  top: calc(3.7em + 1px + env(safe-area-inset-top, 0px) + var(--music-buttons-sticky-height, 3.2em));
+  z-index: 999;
+  flex-shrink: 0;
+  background-color: var(--app-brand-subtle);
+  border-bottom: 1px solid var(--app-border);
+}
+
+.tune-file-pdf-pages {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+}
+
+.music-single.music-single--file-overlay .tune-file-pdf-pages {
+  min-height: calc(100dvh - 11rem - var(--app-playlist-transport-offset, 0px) - env(safe-area-inset-top, 0px));
+}
+
+.music-single.music-single--file-overlay.music-single--pdf-toolbar-subrow .tune-file-pdf-pages {
+  min-height: calc(100dvh - 13rem - var(--app-playlist-transport-offset, 0px) - env(safe-area-inset-top, 0px));
+}
+
 .tune-panel-file.tune-file-fit-width .tune-file-image-wrap {
   width: 100%;
   max-width: 100%;
@@ -4213,6 +4433,26 @@ button img:after {
   width: 1.1em;
   height: 1.1em;
   vertical-align: -0.15em;
+}
+
+.music-buttons .file-zoom-group {
+  align-items: stretch;
+}
+
+.music-buttons .file-zoom-group .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.music-buttons .file-zoom-group .btn svg {
+  display: block;
+  width: 1.15em;
+  height: 1.15em;
 }
 
 .file-draw-toolbar .btn svg {
@@ -4351,9 +4591,8 @@ button img:after {
 .music-pdf-toolbar-slot {
   display: flex;
   align-items: center;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   min-width: 0;
-  max-width: 100%;
 }
 
 .music-pdf-toolbar-slot:empty {
@@ -4364,32 +4603,52 @@ button img:after {
   flex-wrap: nowrap;
   min-width: 0;
   padding: 0.15rem 0.35rem;
-  border-bottom: 1px solid var(--bs-border-color, #ced4da);
-  background: var(--bs-body-bg, #fff);
 }
 
 .tune-file-pdf-toolbar--embedded {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
   padding: 0;
+}
+
+.tune-file-pdf-toolbar-group {
+  display: inline-flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.tune-file-pdf-toolbar-group > .btn,
+.tune-file-pdf-toolbar-group > .tune-file-pdf-page-input {
+  align-self: stretch;
+  display: inline-flex;
+  align-items: center;
+}
+
+.tune-file-pdf-page-btn svg {
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.tune-file-pdf-toolbar-title-input {
+  flex: 0 1 auto;
+  min-width: 6rem;
+  max-width: 50ch;
   border: 0;
-  background: transparent;
-  gap: 0.25rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0 0.25rem 0.25rem 0;
+  background: #fff;
+  align-self: stretch;
 }
 
-.tune-file-pdf-toolbar--embedded .tune-file-pdf-toolbar-title {
-  flex: 1 1 auto;
-  min-width: 0;
-  max-width: 14rem;
-  font-size: 0.85rem;
-  color: var(--bs-secondary-color, #6c757d);
+.tune-file-pdf-toolbar--embedded .tune-file-pdf-toolbar-group {
+  width: auto;
 }
 
-.tune-file-pdf-toolbar-title {
-  flex: 1 1 auto;
-  min-width: 0;
-  text-align: left;
-  font-size: 0.875rem;
+.tune-file-pdf-toolbar--embedded .tune-file-pdf-toolbar-title-input {
+  max-width: 50ch;
 }
 
 .tune-file-pdf-page-input {
@@ -4421,6 +4680,10 @@ button img:after {
   flex-wrap: nowrap;
 }
 
+.tune-file-pdf-pages--spread {
+  text-align: center;
+}
+
 .tune-file-pdf-index-search {
   position: sticky;
   top: 0;
@@ -4428,37 +4691,46 @@ button img:after {
   background: var(--bs-body-bg, #fff);
 }
 
-.tune-file-pdf-pages--spread {
-  text-align: center;
+.tune-file-pdf-index-modal .tune-file-pdf-index-list {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tune-file-pdf-index-item {
+  display: table-row;
+  cursor: pointer;
+}
+
+.tune-file-pdf-index-item:hover .tune-file-pdf-index-title,
+.tune-file-pdf-index-item:hover .tune-file-pdf-index-page {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.tune-file-pdf-index-title,
+.tune-file-pdf-index-page {
+  display: table-cell;
+  padding: 0.5rem 0;
+  vertical-align: baseline;
+}
+
+.tune-file-pdf-index-title {
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+  padding-right: 0.75rem;
+}
+
+.tune-file-pdf-index-page {
+  width: 1%;
+  white-space: nowrap;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
 .tune-file-pdf-page-sizer {
   display: inline-block;
   vertical-align: top;
-}
-
-.tune-file-pdf-index-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.75rem;
-  cursor: pointer;
-  border: 0;
-  background: transparent;
-}
-
-.tune-file-pdf-index-item:hover {
-  background-color: rgba(0, 0, 0, 0.04);
-}
-
-.tune-file-pdf-index-title {
-  min-width: 0;
-  text-align: left;
-}
-
-.tune-file-pdf-index-page {
-  flex: 0 0 auto;
-  white-space: nowrap;
 }
 
 .tune-file-pdf-native-outline {
@@ -4800,6 +5072,242 @@ button img:after {
   display: none;
 }
 
+.music-buttons--meta-collapsed .music-actions-dropdown-col-meta-compact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em;
+  border-left: 1px solid #dee2e6;
+  padding: 0.5em 0.65em 0.5em 0;
+}
+
+.music-buttons--meta-collapsed .music-actions-dropdown-col-meta-compact .music-actions-edit-dropdown {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.music-buttons--meta-collapsed .music-actions-dropdown-col-meta-compact .music-actions-edit-btn {
+  width: auto;
+  min-width: 3.15em;
+}
+
+.music-buttons--meta-collapsed .music-actions-dropdown-col-meta-compact .music-tune-meta-group {
+  flex: 0 0 auto;
+}
+
+.music-actions-dropdown-menu-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 16em;
+  max-width: min(100vw - 1.5rem, 24rem);
+}
+
+.music-actions-dropdown-section {
+  padding: 0.5em 0.65em;
+}
+
+.music-actions-dropdown-section-layout .view-mode-display-panel {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.music-actions-dropdown-section-layout .view-mode-display-panel > .dropdown-divider:first-child {
+  display: none;
+}
+
+.music-actions-dropdown-section-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: stretch;
+}
+
+.music-actions-dropdown-section-meta .music-actions-edit-dropdown {
+  display: flex;
+  width: 100%;
+}
+
+.music-actions-dropdown-section-meta .music-actions-edit-dropdown > .dropdown {
+  width: 100%;
+}
+
+.music-actions-dropdown-section-meta .music-actions-edit-btn {
+  width: 100%;
+}
+
+.music-actions-dropdown-section-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+}
+
+.music-actions-dropdown-section-actions .dropdown-item {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  min-width: 0;
+}
+
+.music-actions-dropdown-section-actions .dropdown-item:hover,
+.music-actions-dropdown-section-actions .dropdown-item:focus,
+.music-actions-dropdown-section-actions .dropdown-item:active {
+  background: transparent;
+  color: inherit;
+}
+
+.music-actions-dropdown-section-actions .music-actions-menu-btn {
+  width: 100%;
+  text-align: left;
+  white-space: normal;
+}
+
+.music-actions-dropdown-autoscroll {
+  margin-top: 0.35rem;
+}
+
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline {
+  position: static;
+  transform: none;
+  width: 100%;
+  max-width: none;
+  z-index: auto;
+  pointer-events: auto;
+}
+
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar-panel--inline {
+  background: var(--bs-secondary-bg, #e9ecef);
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  padding: 0.15rem;
+  box-shadow: none;
+}
+
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: nowrap;
+  min-height: 0;
+  overflow-x: auto;
+}
+
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-bar-btn,
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-btn,
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-speed-readout {
+  min-height: 2.5rem;
+}
+
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-title,
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-hint,
+.music-actions-dropdown-autoscroll .lyrics-autoscroll-bar--inline .lyrics-autoscroll-duration-label {
+  white-space: nowrap;
+}
+
+.music-actions-dropdown-divider {
+  margin: 0;
+}
+
+.music-buttons--folded-menu .music-buttons-col-right {
+  display: none;
+}
+
+.music-buttons--folded-menu .music-buttons-inner {
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.music-buttons--folded-menu .music-buttons-col-left {
+  flex: 0 0 auto;
+}
+
+.platform-mobile .music-buttons--mobile-collapsed .music-buttons-col-meta.music-tune-meta-inline {
+  display: none;
+}
+
+.platform-mobile .music-buttons--mobile-collapsed .music-buttons-inner {
+  flex-wrap: nowrap;
+  overflow-x: visible;
+  align-items: center;
+}
+
+.music-buttons--mobile-collapsed.music-buttons--pdf-snapshot .music-buttons-inner {
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.music-pdf-toolbar-slot--beside-menu {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.music-pdf-toolbar-slot--beside-menu .tune-file-pdf-toolbar {
+  width: 100%;
+  min-width: 0;
+}
+
+.music-pdf-toolbar-slot--beside-menu .tune-file-pdf-toolbar--embedded {
+  width: 100%;
+}
+
+.view-mode-menu-section {
+  width: 100%;
+}
+
+.display-mode-toolbar--menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.display-mode-toolbar--menu .display-mode-controls {
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.15rem;
+  border: 1px solid var(--bs-border-color, #ced4da);
+  border-radius: 0.375rem;
+  background-color: var(--bs-secondary-bg, #e9ecef);
+}
+
+.display-mode-toolbar--menu .display-mode-group {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.display-mode-toolbar--menu .display-mode-group .btn,
+.display-mode-toolbar--menu .file-controls-dropdown > .btn,
+.display-mode-toolbar--menu .notation-fit-btn {
+  flex: 1 1 auto;
+  min-height: 2.5rem;
+}
+
+.music-actions-dropdown-section-layout .view-mode-menu-section > .dropdown-divider:first-child {
+  display: none;
+}
+
+.platform-mobile .music-actions-dropdown-section-meta {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.platform-mobile .music-actions-dropdown-section-meta .music-actions-edit-dropdown {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.platform-mobile .music-actions-dropdown-section-meta .music-actions-edit-btn {
+  width: auto;
+  min-width: 3.15em;
+}
+
 .music-actions-dropdown-col-meta .btn {
   float: none;
   display: block;
@@ -4821,16 +5329,45 @@ button img:after {
     gap: 0.75em;
   }
 
-  .music-actions-dropdown-actions {
+  .music-actions-dropdown-actions,
+  .music-actions-dropdown-section-actions {
     flex: 1 1 50%;
     min-width: 0;
   }
 
-  .music-actions-dropdown-actions .music-actions-menu-btn-label {
+  .music-actions-dropdown-actions .music-actions-menu-btn-label,
+  .music-actions-dropdown-section-actions .music-actions-menu-btn-label {
     display: none;
   }
 
-  .music-actions-dropdown-actions .music-actions-menu-btn {
+  .music-actions-dropdown-actions .music-actions-menu-btn--labeled .music-actions-menu-btn-label,
+  .music-actions-dropdown-section-actions .music-actions-menu-btn--labeled .music-actions-menu-btn-label,
+  .music-actions-dropdown-actions .music-actions-dropdown-item-labeled .music-actions-menu-btn-label,
+  .music-actions-dropdown-section-actions .music-actions-dropdown-item-labeled .music-actions-menu-btn-label,
+  .music-actions-dropdown-actions .music-actions-dropdown-item-labeled .bulk-ops-btn-label,
+  .music-actions-dropdown-section-actions .music-actions-dropdown-item-labeled .bulk-ops-btn-label {
+    display: inline;
+  }
+
+  .music-actions-dropdown-actions .music-actions-menu-btn--labeled,
+  .music-actions-dropdown-section-actions .music-actions-menu-btn--labeled,
+  .music-actions-dropdown-actions .music-actions-dropdown-item-labeled .music-actions-menu-btn,
+  .music-actions-dropdown-section-actions .music-actions-dropdown-item-labeled .music-actions-menu-btn,
+  .music-actions-dropdown-actions .music-actions-dropdown-item-labeled .tune-download-dropdown .dropdown-toggle,
+  .music-actions-dropdown-section-actions .music-actions-dropdown-item-labeled .tune-download-dropdown .dropdown-toggle {
+    text-align: left;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .music-actions-dropdown-actions .music-actions-dropdown-item-labeled .tune-download-dropdown,
+  .music-actions-dropdown-section-actions .music-actions-dropdown-item-labeled .tune-download-dropdown {
+    display: block;
+    width: 100%;
+  }
+
+  .music-actions-dropdown-actions .music-actions-menu-btn,
+  .music-actions-dropdown-section-actions .music-actions-menu-btn {
     text-align: center;
     min-width: 2.75rem;
     padding-left: 0.5rem;
@@ -4844,10 +5381,6 @@ button img:after {
 
   .music-actions-dropdown-col-meta-compact {
     display: flex;
-  }
-
-  .music-actions-download-main {
-    display: none;
   }
 }
 
@@ -5259,6 +5792,10 @@ button img:after {
 }
 
 @media (max-width: 680px) {
+  .music-buttons {
+    --music-buttons-sticky-height: 5.8em;
+  }
+
   .music-buttons-inner {
     flex-wrap: wrap;
     overflow-x: visible;
@@ -5275,6 +5812,31 @@ button img:after {
     width: 100%;
     margin-left: 0;
     justify-content: flex-start;
+  }
+
+  .music-buttons--pdf-snapshot {
+    --music-buttons-sticky-height: 7.4em;
+  }
+
+  .music-buttons--folded-menu.music-buttons--pdf-snapshot {
+    --music-buttons-sticky-height: 3.2em;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .music-buttons--folded-menu .music-buttons-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .music-buttons--pdf-snapshot .music-buttons-col-right {
+    order: 0;
+    width: auto;
+    margin-left: auto;
+    flex-wrap: nowrap;
   }
 }
 

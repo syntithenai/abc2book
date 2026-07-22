@@ -9,7 +9,11 @@ import {
   getTabDisplay,
   getTablatureSelection,
   getTablatureButtonLabel,
+  getTablatureVoiceSettings,
   applyTablatureSelection,
+  applyTablatureVoiceConfigs,
+  parseTablatureVoices,
+  tablatureInstrumentSummary,
   shouldRenderTablature,
   shouldApplyTabOnlyDisplay,
   countActiveTabVoices,
@@ -132,6 +136,51 @@ describe('tablatureConfig', () => {
       applyTablatureSelection(tune, 'mandolin', 'gdad')
       expect(tune.tablature).toBe('violin')
       expect(tune.tuning).toMatch(/GDAD/i)
+      expect(tune.tablatureVoices).toBeNull()
+    })
+  })
+
+  describe('applyTablatureVoiceConfigs', () => {
+    it('stores per-voice instrument and tuning selections', () => {
+      const tune = { voices: { '1': { notes: ['C |'] }, '2': { notes: ['D |'] } } }
+      applyTablatureVoiceConfigs(tune, [
+        { voiceKey: '1', enabled: true, instrumentId: 'guitar', presetId: 'standard', tuningText: 'Standard' },
+        { voiceKey: '2', enabled: true, instrumentId: 'violin', presetId: 'gdae', tuningText: 'GDAE' },
+      ], 'both')
+      expect(tune.tablatureVoices['1'].instrumentId).toBe('guitar')
+      expect(tune.tablatureVoices['2'].instrumentId).toBe('violin')
+      expect(tune.tablatureVoices['1'].tuning).toBe('Standard')
+      expect(tune.tablature).toBe('guitar')
+      expect(shouldRenderTablature(tune)).toBe(true)
+    })
+
+    it('stores custom tuning text when preset is not matched', () => {
+      const tune = { voices: { '1': { notes: ['C |'] } } }
+      applyTablatureVoiceConfigs(tune, [
+        { voiceKey: '1', enabled: true, instrumentId: 'guitar', presetId: '', tuningText: 'My custom tuning' },
+      ])
+      expect(tune.tablatureVoices['1'].tuning).toBe('My custom tuning')
+    })
+
+    it('clears tablature when no voices are enabled', () => {
+      const tune = { tablature: 'guitar', tablatureVoices: { '1': { instrumentId: 'guitar', presetId: 'standard' } } }
+      applyTablatureVoiceConfigs(tune, [
+        { voiceKey: '1', enabled: false, instrumentId: '', presetId: '' },
+      ])
+      expect(tune.tablature).toBe('')
+      expect(tune.tablatureVoices).toBeNull()
+    })
+  })
+
+  describe('parseTablatureVoices', () => {
+    it('normalizes stored voice entries', () => {
+      const parsed = parseTablatureVoices({
+        '1': { instrumentId: 'mandolin', presetId: 'gdae' },
+        '2': { instrument: 'guitar', preset: 'dadgad' },
+      })
+      expect(parsed['1'].instrumentId).toBe('violin')
+      expect(parsed['2'].instrumentId).toBe('guitar')
+      expect(parsed['2'].presetId).toBe('dadgad')
     })
   })
 
@@ -151,6 +200,21 @@ describe('tablatureConfig', () => {
 
     it('returns Tablature when off', () => {
       expect(getTablatureButtonLabel({ tablature: '' })).toBe('Tablature')
+    })
+
+    it('returns Tablature when multiple instruments are active', () => {
+      const tune = {
+        tablatureVoices: {
+          '1': { instrumentId: 'guitar', presetId: 'standard' },
+          '2': { instrumentId: 'violin', presetId: 'gdae' },
+        },
+        voices: {
+          '1': { notes: ['C |'] },
+          '2': { notes: ['D |'] },
+        },
+      }
+      expect(getTablatureButtonLabel(tune)).toBe('Tablature')
+      expect(tablatureInstrumentSummary(tune)).toBe('Guitar + Violin')
     })
   })
 
@@ -206,6 +270,55 @@ describe('tablatureConfig', () => {
       })
       expect(opts).toHaveLength(1)
       expect(opts[0].instrument).toBe('guitar')
+    })
+
+    it('uses per-voice instrument and tuning when configured', () => {
+      const opts = buildTablatureRenderOptions({
+        tablature: 'guitar',
+        tablatureVoices: {
+          '1': { instrumentId: 'violin', presetId: 'gdae', tuning: 'GDAE' },
+          '2': { instrumentId: 'guitar', presetId: 'standard', tuning: 'Standard' },
+        },
+        voices: {
+          '1': { notes: ['| "C" z2 "G" z |'] },
+          '2': { notes: ['C D E F |'] },
+        },
+      })
+      expect(opts).toHaveLength(2)
+      expect(opts[0].instrument).toBe('violin')
+      expect(opts[1].instrument).toBe('guitar')
+    })
+
+    it('skips voices without per-voice tab configuration', () => {
+      const opts = buildTablatureRenderOptions({
+        tablatureVoices: {
+          '2': { instrumentId: 'guitar', presetId: 'standard' },
+        },
+        voices: {
+          '1': { notes: ['C D E F |'] },
+          '2': { notes: ['G A B c |'] },
+        },
+      })
+      expect(opts).toHaveLength(2)
+      expect(opts[0].instrument).toBe('')
+      expect(opts[1].instrument).toBe('guitar')
+    })
+  })
+
+  describe('getTablatureVoiceSettings', () => {
+    it('derives enabled melody voices from legacy global tablature', () => {
+      const settings = getTablatureVoiceSettings({
+        tablature: 'guitar',
+        tuning: 'Standard',
+        voices: {
+          '1': { notes: ['| "C" z2 "G" z |'] },
+          '2': { notes: ['C D E F |'] },
+        },
+      })
+      expect(settings).toHaveLength(2)
+      expect(settings[0].enabled).toBe(false)
+      expect(settings[1].enabled).toBe(true)
+      expect(settings[1].instrumentId).toBe('guitar')
     })
   })
 

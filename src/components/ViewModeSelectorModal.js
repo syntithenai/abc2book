@@ -22,19 +22,14 @@ import { useIsNarrowViewport } from '../useMediaQuery';
 import DisplayModeControls from './DisplayModeControls';
 import { NOTATION_FIT_VERTICAL } from '../gigNotationFit';
 
-/** True when Fit height can apply to the current panels (or file overlay). */
+/** True when Fit height can apply to the current panels (hidden during file snapshot overlay). */
 export function canShowFitHeightButton(flags, options) {
-  if (options && options.fileOverlayActive) return true;
+  if (options && options.fileOverlayActive) return false;
   if (!flags) return false;
   return flags.notation !== 'off' || !!flags.lyrics || !!flags.structure;
 }
 
-function fitHeightLabel(flags, vertical, fileOverlayActive) {
-  if (fileOverlayActive) {
-    return vertical
-      ? 'Fit file to page width'
-      : 'Fit file to page height';
-  }
+function fitHeightLabel(flags, vertical) {
   const notationOn = flags && flags.notation !== 'off';
   const lyricsOn = !!(flags && flags.lyrics);
   const structureOn = !!(flags && flags.structure);
@@ -49,9 +44,9 @@ function fitHeightLabel(flags, vertical, fileOverlayActive) {
 }
 
 function NotationFitButton(props) {
-  const { tunebook, fitMode, onChange, stopMenuClose, className, displayFlags, fileOverlayActive } = props;
+  const { tunebook, fitMode, onChange, stopMenuClose, className, displayFlags } = props;
   const vertical = fitMode === NOTATION_FIT_VERTICAL;
-  const label = fitHeightLabel(displayFlags, vertical, fileOverlayActive);
+  const label = fitHeightLabel(displayFlags, vertical);
 
   function stop(e) {
     if (!stopMenuClose) return;
@@ -213,7 +208,6 @@ function DisplayModeToolbar(props) {
           fitMode={notationFitMode}
           onChange={onNotationFitModeChange}
           displayFlags={displayFlags}
-          fileOverlayActive={fileOverlayActive}
         />
       ) : null}
     </div>
@@ -254,9 +248,198 @@ function EditorViewModeToolbar(props) {
   );
 }
 
+function ViewModeDisplayPanel(props) {
+  const {
+    displayFlags,
+    available,
+    tune,
+    tunebook,
+    onFlagsChange,
+    onVoiceSettingsChange,
+    notationFitMode,
+    onNotationFitModeChange,
+    hideInlineVoiceControls,
+    fileControls,
+    fileOverlayActive,
+    tablatureSelector,
+    extraMenuContent,
+    afterDisplayModes,
+    stopMenuClose,
+  } = props;
+
+  function stop(e) {
+    if (!stopMenuClose) return;
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  return (
+    <div
+      className="view-mode-display-panel px-2 py-2"
+      onClick={stop}
+      onMouseDown={stop}
+    >
+      <DisplayModeControls
+        className="display-mode-controls--stacked"
+        flags={displayFlags}
+        available={available}
+        tunebook={tunebook}
+        onChange={onFlagsChange}
+        stopMenuClose={!!stopMenuClose}
+      />
+      {afterDisplayModes ? (
+        <>
+          <Dropdown.Divider />
+          <div className="view-mode-panel-slot px-1 py-1">{afterDisplayModes}</div>
+        </>
+      ) : null}
+      {fileControls ? (
+        <>
+          <Dropdown.Divider />
+          <div
+            className="view-mode-file-controls px-1 py-1"
+            onClick={stop}
+            onMouseDown={stop}
+          >
+            {fileControls}
+          </div>
+        </>
+      ) : null}
+      {displayFlags.notation !== 'off' && !hideInlineVoiceControls && getTuneVoiceKeys(tune).length > 1 ? (
+        <>
+          <Dropdown.Divider />
+          <ViewModeVoiceControls
+            tune={tune}
+            tuneId={tune && tune.id}
+            tunebook={tunebook}
+            onChange={onVoiceSettingsChange}
+          />
+        </>
+      ) : null}
+      {displayFlags.notation !== 'off' && tablatureSelector ? (
+        <>
+          <Dropdown.Divider />
+          <div
+            className="view-mode-tablature-selector"
+            onClick={stop}
+            onMouseDown={stop}
+          >
+            {tablatureSelector}
+          </div>
+        </>
+      ) : null}
+      {extraMenuContent ? (
+        <>
+          <Dropdown.Divider />
+          <div
+            className="view-mode-extra-menu-content"
+            onClick={stop}
+            onMouseDown={stop}
+          >
+            {extraMenuContent}
+          </div>
+        </>
+      ) : null}
+      {canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive }) && onNotationFitModeChange ? (
+        <>
+          <Dropdown.Divider />
+          <NotationFitButton
+            className="notation-fit-btn--menu"
+            tunebook={tunebook}
+            fitMode={notationFitMode}
+            onChange={onNotationFitModeChange}
+            displayFlags={displayFlags}
+            stopMenuClose={!!stopMenuClose}
+          />
+        </>
+      ) : null}
+    </div>
+  );
+}
+
+function ViewModeMenuSection(props) {
+  const {
+    displayFlags,
+    available,
+    tune,
+    tunebook,
+    onFlagsChange,
+    onVoiceSettingsChange,
+    notationFitMode,
+    onNotationFitModeChange,
+    hideInlineVoiceControls,
+    fileControls,
+    fileOverlayActive,
+    tablatureSelector,
+    extraMenuContent,
+    afterDisplayModes,
+    stopMenuClose,
+  } = props;
+
+  function stop(e) {
+    if (!stopMenuClose) return;
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  const showVoiceBelow = displayFlags.notation !== 'off'
+    && !hideInlineVoiceControls
+    && getTuneVoiceKeys(tune).length > 1;
+
+  return (
+    <div
+      className="view-mode-menu-section"
+      onClick={stop}
+      onMouseDown={stop}
+    >
+      <DisplayModeToolbar
+        className="display-mode-toolbar--menu"
+        displayFlags={displayFlags}
+        available={available}
+        tune={tune}
+        tunebook={tunebook}
+        onFlagsChange={onFlagsChange}
+        onVoiceSettingsChange={onVoiceSettingsChange}
+        notationFitMode={notationFitMode}
+        onNotationFitModeChange={onNotationFitModeChange}
+        hideInlineVoiceControls={true}
+        fileControls={fileControls}
+        fileOverlayActive={fileOverlayActive}
+        tablatureSelector={tablatureSelector}
+      />
+      {showVoiceBelow ? (
+        <>
+          <Dropdown.Divider />
+          <ViewModeVoiceControls
+            tune={tune}
+            tuneId={tune && tune.id}
+            tunebook={tunebook}
+            onChange={onVoiceSettingsChange}
+          />
+        </>
+      ) : null}
+      {afterDisplayModes ? (
+        <>
+          <Dropdown.Divider />
+          <div className="view-mode-panel-slot px-1 py-1">{afterDisplayModes}</div>
+        </>
+      ) : null}
+      {extraMenuContent ? (
+        <>
+          <Dropdown.Divider />
+          <div className="view-mode-extra-menu-content">
+            {extraMenuContent}
+          </div>
+        </>
+      ) : null}
+    </div>
+  );
+}
+
 export default function ViewModeSelectorModal(props) {
   const [show, setShow] = useState(false);
   const isEditor = props.variant === 'editor';
+  const embeddedPanel = !!props.embeddedPanel;
   const isNarrowViewport = useIsNarrowViewport();
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook });
   const hasChords = !isEditor && !!props.tune
@@ -303,6 +486,28 @@ export default function ViewModeSelectorModal(props) {
     props.onChange(nextMode);
   }
 
+  if (!isEditor && embeddedPanel) {
+    return (
+      <ViewModeMenuSection
+        displayFlags={displayFlags}
+        available={available}
+        tune={props.tune}
+        tunebook={props.tunebook}
+        onFlagsChange={handleFlagsChange}
+        onVoiceSettingsChange={props.onVoiceSettingsChange}
+        notationFitMode={props.notationFitMode}
+        onNotationFitModeChange={props.onNotationFitModeChange}
+        hideInlineVoiceControls={props.hideInlineVoiceControls}
+        fileControls={props.fileControls}
+        fileOverlayActive={fileOverlayActive}
+        tablatureSelector={props.tablatureSelector}
+        extraMenuContent={props.extraMenuContent}
+        afterDisplayModes={props.afterDisplayModes}
+        stopMenuClose={props.stopMenuClose}
+      />
+    );
+  }
+
   if (useEditorToolbar) {
     return (
       <EditorViewModeToolbar
@@ -340,7 +545,6 @@ export default function ViewModeSelectorModal(props) {
             fitMode={props.notationFitMode}
             onChange={props.onNotationFitModeChange}
             displayFlags={displayFlags}
-            fileOverlayActive={fileOverlayActive}
           />
         ) : null}
       </>
@@ -395,77 +599,23 @@ export default function ViewModeSelectorModal(props) {
             );
           })
         ) : (
-          <div className="view-mode-display-panel px-2 py-2">
-            <DisplayModeControls
-              className="display-mode-controls--stacked"
-              flags={displayFlags}
-              available={available}
-              tunebook={props.tunebook}
-              onChange={handleFlagsChange}
-              stopMenuClose={true}
-            />
-            {props.fileControls ? (
-              <>
-                <Dropdown.Divider />
-                <div
-                  className="view-mode-file-controls px-1 py-1"
-                  onClick={function(e) { e.stopPropagation(); }}
-                  onMouseDown={function(e) { e.stopPropagation(); }}
-                >
-                  {props.fileControls}
-                </div>
-              </>
-            ) : null}
-            {displayFlags.notation !== 'off' && !props.hideInlineVoiceControls && getTuneVoiceKeys(props.tune).length > 1 ? (
-              <>
-                <Dropdown.Divider />
-                <ViewModeVoiceControls
-                  tune={props.tune}
-                  tuneId={props.tune && props.tune.id}
-                  tunebook={props.tunebook}
-                  onChange={props.onVoiceSettingsChange}
-                />
-              </>
-            ) : null}
-            {displayFlags.notation !== 'off' && props.tablatureSelector ? (
-              <>
-                <Dropdown.Divider />
-                <div
-                  className="view-mode-tablature-selector"
-                  onClick={function(e) { e.stopPropagation(); }}
-                  onMouseDown={function(e) { e.stopPropagation(); }}
-                >
-                  {props.tablatureSelector}
-                </div>
-              </>
-            ) : null}
-            {props.extraMenuContent ? (
-              <>
-                <Dropdown.Divider />
-                <div
-                  className="view-mode-extra-menu-content"
-                  onClick={function(e) { e.stopPropagation(); }}
-                  onMouseDown={function(e) { e.stopPropagation(); }}
-                >
-                  {props.extraMenuContent}
-                </div>
-              </>
-            ) : null}
-            {canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive }) && props.onNotationFitModeChange ? (
-              <>
-                <Dropdown.Divider />
-                <NotationFitButton
-                  className="notation-fit-btn--menu"
-                  tunebook={props.tunebook}
-                  fitMode={props.notationFitMode}
-                  onChange={props.onNotationFitModeChange}
-                  displayFlags={displayFlags}
-                  fileOverlayActive={fileOverlayActive}
-                  stopMenuClose={true}
-                />
-              </>
-            ) : null}
-          </div>
+          <ViewModeDisplayPanel
+            displayFlags={displayFlags}
+            available={available}
+            tune={props.tune}
+            tunebook={props.tunebook}
+            onFlagsChange={handleFlagsChange}
+            onVoiceSettingsChange={props.onVoiceSettingsChange}
+            notationFitMode={props.notationFitMode}
+            onNotationFitModeChange={props.onNotationFitModeChange}
+            hideInlineVoiceControls={props.hideInlineVoiceControls}
+            fileControls={props.fileControls}
+            fileOverlayActive={fileOverlayActive}
+            tablatureSelector={props.tablatureSelector}
+            extraMenuContent={props.extraMenuContent}
+            afterDisplayModes={props.afterDisplayModes}
+            stopMenuClose={true}
+          />
         )}
       </Dropdown.Menu>
     </Dropdown>

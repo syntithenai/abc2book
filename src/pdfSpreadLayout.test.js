@@ -45,4 +45,24 @@ describe('computePdfSpreadLayout', function() {
     expect(layout.spreadCount).toBe(4)
     expect(layout.pageWidth).toBeCloseTo(fullHeightWidth, 1)
   })
+
+  test('does not use multi-page spread in width fit mode', function() {
+    const layout = computePdfSpreadLayout({
+      containerWidth: 2400,
+      containerHeight: 900,
+      fitMode: 'width',
+    })
+    expect(layout.spreadCount).toBe(1)
+    expect(layout.pageWidth).toBeCloseTo(2392, 1)
+  })
+
+  test('uses no toolbar allowance when embedded in main bar', function() {
+    const layout = computePdfSpreadLayout({
+      containerWidth: 700,
+      containerHeight: 900,
+      fitMode: 'height',
+      toolbarEmbedded: true,
+    })
+    expect(layout.pageWidth).toBeCloseTo(900 * 0.707, 1)
+  })
 })

@@ -68,6 +68,7 @@ import { commitPasteChordSheetToTune } from '../commitPasteChordSheetToTune'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import useTuneSnapshotRouteSync, { applyTuneSnapshotFromSearchParams } from '../useTuneSnapshotRouteSync'
 import { ensurePlainWordsFromNoteAlignedLyrics, getPlainLyricLines } from '../wLinesUtils'
+import { isMobilePlatform } from '../platformUtils'
 
 export default function MusicSingle(props) {
     let params = useParams();
@@ -448,7 +449,9 @@ export default function MusicSingle(props) {
        
                 const compactToolbar = windowSize[0] <= 768
                 const mediumToolbar = windowSize[0] <= 1180
-                const toolbarClassName = 'music-buttons'
+                const collapseToolbarToMenu = isMobilePlatform()
+                const foldControlsIntoMenu = collapseToolbarToMenu || mediumToolbar
+                const showInlineTuneMeta = !foldControlsIntoMenu
                 const hasChords = tuneHasExplicitChords(tune, props.tunebook, abcjsParser)
                 const availableFlags = getAvailableDisplayFlags(tune, props.tunebook, {
                   hasChords: hasChords,
@@ -465,7 +468,14 @@ export default function MusicSingle(props) {
                   ? findTuneFileMeta(tune, tune.activeFile)
                   : null
                 const pdfSnapshotActive = !!(activeFileMeta && isPdfTuneFileType(activeFileMeta.type))
-                const embedPdfToolbarInMainBar = pdfSnapshotActive && !mediumToolbar
+                const toolbarClassName = 'music-buttons'
+                  + (foldControlsIntoMenu ? ' music-buttons--folded-menu' : '')
+                  + (collapseToolbarToMenu ? ' music-buttons--mobile-collapsed' : '')
+                  + (mediumToolbar && !collapseToolbarToMenu ? ' music-buttons--meta-collapsed' : '')
+                  + (pdfSnapshotActive ? ' music-buttons--pdf-snapshot' : '')
+                const embedPdfToolbarInMainBar = pdfSnapshotActive
+                const pdfToolbarBesideMenu = pdfSnapshotActive && foldControlsIntoMenu
+                const pdfToolbarInMainRow = pdfSnapshotActive && !foldControlsIntoMenu
                 const availableForControls = fileOverlayActive
                   ? Object.assign({}, availableFlags, {
                     notation: false,
@@ -609,56 +619,39 @@ export default function MusicSingle(props) {
                 const notationVisualTranspose = chordTranspose
                 const notationAbc = stripNotationMeta(props.tunebook.abcTools.json2abc(notationTune))
 
-                var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
-                return <div className="music-single" style={{border:'1px solid black'}} {...handlers} >
-			<div className={toolbarClassName}>
-			  <div className="music-buttons-inner">
-			    <div className="music-buttons-col-left">
-            <Dropdown as={ButtonGroup} autoClose="outside">
-			        <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" className="music-actions-dropdown-toggle">
-			          {props.tunebook.icons.menu}
-			        </Dropdown.Toggle>
-
-			        <Dropdown.Menu className="music-actions-dropdown-menu" popperConfig={{ strategy: 'fixed' }}>
-                <div className="music-actions-dropdown-cols">
-                  <div className="music-actions-dropdown-actions">
-                    <Dropdown.Item>
-                      <ShareTunebookModal tunebook={props.tunebook} token={props.token} login={props.login} googleDocumentId={props.googleDocumentId} shareKind="tune" tuneId={tune.id} tuneName={tune.name} tunes={props.tunes} saveTune={props.tunebook.saveTune} />
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Button className="music-actions-menu-btn btn-primary" onClick={openPrintPdfLayout}>
-                        {props.tunebook.icons.printer} Print
-                      </Button>
-                    </Dropdown.Item>
-                    <Dropdown.Item as="div" className="music-actions-download-main">
-                      <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
-                        <TuneDownloadDropdown
-                          tunebook={props.tunebook}
-                          tunes={[tune]}
-                          archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
-                          token={props.token}
-                          buttonVariant="success"
-                          buttonClassName="music-actions-menu-btn"
-                        />
-                      </div>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <Button
-                        variant="danger"
-                        className="music-actions-menu-btn"
-                        onClick={function() {
-                          if (window.confirm('Do you really want to delete this tune ?')) {
-                            props.tunebook.deleteTune(tune.id)
-                          }
-                          navigate('/tunes')
-                        }}
-                      >
-                        {props.tunebook.icons.bin} Delete
-                      </Button>
-                    </Dropdown.Item>
-                  </div>
-
-                  <div className="music-actions-dropdown-col-meta music-actions-dropdown-col-meta-compact">
+                const menuControlsVariant = foldControlsIntoMenu ? 'menu' : 'toolbar'
+                const menuControlsStopClose = foldControlsIntoMenu
+                const fileControlsElement = (
+                  <FileControls
+                    tune={tune}
+                    tunebook={props.tunebook}
+                    token={props.token}
+                    driveApi={driveDocs}
+                    requestGoogleScopes={props.requestGoogleScopes}
+                    login={props.login}
+                    variant={menuControlsVariant}
+                    stopMenuClose={menuControlsStopClose}
+                    onTuneChange={function(next) {
+                      setTune(next)
+                      props.tunebook.saveTune(next)
+                      if (props.forceRefresh) props.forceRefresh()
+                    }}
+                  />
+                )
+                const zoomControlsElement = fileOverlayActive && !pdfSnapshotActive ? (
+                  <FileZoomControls
+                    zoom={fileViewZoom}
+                    onChange={handleFileViewZoomChange}
+                    tunebook={props.tunebook}
+                  />
+                ) : availableFlags.lyrics && !fitHeightOn ? (
+                  <LyricsZoomControls
+                    zoom={lyricsZoom}
+                    onChange={handleLyricsZoomChange}
+                  />
+                ) : null
+                const tuneMetaButtons = (
+                  <>
                     <ButtonGroup className="music-tune-meta-group">
                       <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
                       <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
@@ -675,79 +668,199 @@ export default function MusicSingle(props) {
                         }
                       } />
                     </ButtonGroup>
-                    <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
-                      <TuneDownloadDropdown
+                  </>
+                )
+                const editTuneDropdown = (
+                  <Dropdown as={ButtonGroup} className="music-actions-edit-dropdown" title="Edit tune">
+                    <Dropdown.Toggle variant="warning" className="music-actions-edit-btn" aria-label="Edit tune">
+                      {props.tunebook.icons.pencil}
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu
+                      className="music-actions-edit-submenu-menu"
+                      popperConfig={{ strategy: 'fixed' }}
+                    >
+                      {EDITOR_VIEW_MODES.map(function(mode) {
+                        return (
+                          <Dropdown.Item key={mode.id} as={Link} to={'/editor/' + params.tuneId + '/' + mode.id}>
+                            {mode.label}
+                          </Dropdown.Item>
+                        )
+                      })}
+                    </Dropdown.Menu>
+                  </Dropdown>
+                )
+                const viewModeSelector = (
+                  <ViewModeSelectorModal
+                    className="music-view-mode-selector"
+                    viewMode={props.viewMode}
+                    tune={tune}
+                    tunebook={props.tunebook}
+                    forceDropdown={!foldControlsIntoMenu && mediumToolbar}
+                    embeddedPanel={foldControlsIntoMenu}
+                    stopMenuClose={foldControlsIntoMenu}
+                    notationFitMode={notationFitMode}
+                    onNotationFitModeChange={handleNotationFitModeChange}
+                    hideInlineVoiceControls={fileOverlayActive}
+                    fileOverlayActive={fileOverlayActive}
+                    availableOverride={availableForControls}
+                    tablatureSelector={tablatureSelector}
+                    onVoiceSettingsChange={function() {
+                      setVoiceSettingsVersion(function(v) { return v + 1 })
+                    }}
+                    fileControls={fileControlsElement}
+                    afterDisplayModes={foldControlsIntoMenu ? zoomControlsElement : null}
+                    extraMenuContent={foldControlsIntoMenu
+                      ? (fileOverlayActive ? null : transposeCapoBlock)
+                      : (mediumToolbar && !fileOverlayActive ? notationControlsBlock : null)}
+                    onChange={handleViewModeChange}
+                  />
+                )
+                const sharePrintDownloadDelete = (
+                  <>
+                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
+                      <ShareTunebookModal
                         tunebook={props.tunebook}
-                        tunes={[tune]}
-                        archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
                         token={props.token}
-                        buttonVariant="success"
-                        buttonClassName="music-actions-menu-btn"
+                        login={props.login}
+                        googleDocumentId={props.googleDocumentId}
+                        shareKind="tune"
+                        tuneId={tune.id}
+                        tuneName={tune.name}
+                        tunes={props.tunes}
+                        saveTune={props.tunebook.saveTune}
+                        buttonClassName="music-actions-menu-btn btn-info music-actions-menu-btn--labeled"
                       />
-			    </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
+                      <Button className="music-actions-menu-btn btn-primary music-actions-menu-btn--labeled" onClick={openPrintPdfLayout}>
+                        {props.tunebook.icons.printer}
+                        <span className="music-actions-menu-btn-label"> Print</span>
+                      </Button>
+                    </Dropdown.Item>
+                    <Dropdown.Item as="div" className="music-actions-dropdown-item-labeled">
+                      <div className="music-actions-nested-dropdown-wrap" onClick={function(e) { e.stopPropagation() }}>
+                        <TuneDownloadDropdown
+                          tunebook={props.tunebook}
+                          tunes={[tune]}
+                          archiveBaseName={(tune.name ? tune.name.trim() : 'tune')}
+                          token={props.token}
+                          user={props.user}
+                          buttonVariant="success"
+                          buttonClassName="music-actions-menu-btn music-actions-menu-btn--labeled"
+                          labelClassName="music-actions-menu-btn-label"
+                        />
+                      </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item className="music-actions-dropdown-item-labeled">
+                      <Button
+                        variant="danger"
+                        className="music-actions-menu-btn music-actions-menu-btn--labeled"
+                        onClick={function() {
+                          if (window.confirm('Do you really want to delete this tune ?')) {
+                            props.tunebook.deleteTune(tune.id)
+                          }
+                          navigate('/tunes')
+                        }}
+                      >
+                        {props.tunebook.icons.bin}
+                        <span className="music-actions-menu-btn-label"> Delete</span>
+                      </Button>
+                    </Dropdown.Item>
+                  </>
+                )
+
+                var useInstrument = localStorage.getItem('bookstorage_last_chord_instrument') ? localStorage.getItem('bookstorage_last_chord_instrument') : 'guitar'
+                return <div className={'music-single' + (fileOverlayActive ? ' music-single--file-overlay' : '')} style={{border:'1px solid black'}} {...handlers} >
+			<div className={toolbarClassName}>
+			  <div className="music-buttons-inner">
+			    <div className="music-buttons-col-left">
+            <Dropdown as={ButtonGroup} autoClose="outside">
+			        <Dropdown.Toggle variant="outline-dark" id="dropdown-basic" className="music-actions-dropdown-toggle">
+			          {props.tunebook.icons.menu}
+			        </Dropdown.Toggle>
+
+			        <Dropdown.Menu className="music-actions-dropdown-menu" popperConfig={{ strategy: 'fixed' }}>
+                {foldControlsIntoMenu ? (
+                  <div className="music-actions-dropdown-menu-body">
+                    <div className="music-actions-dropdown-section music-actions-dropdown-section-layout">
+                      {viewModeSelector}
+                      {!pdfSnapshotActive ? (
+                        <div
+                          className="music-actions-dropdown-autoscroll"
+                          onClick={function(e) { e.stopPropagation() }}
+                          onMouseDown={function(e) { e.stopPropagation() }}
+                        >
+                          <LyricsAutoscrollModal
+                            tune={tune}
+                            tunebook={props.tunebook}
+                            mediaController={props.mediaController}
+                            mediaLinkNumber={props.mediaController && props.mediaController.mediaLinkNumber != null ? props.mediaController.mediaLinkNumber : 0}
+                            musicSingleSelector=".music-single"
+                            barLayout="gig-inline"
+                            buttonVariant="outline-secondary"
+                            buttonSize="sm"
+                          />
+                        </div>
+                      ) : null}
+                    </div>
+                    <Dropdown.Divider className="music-actions-dropdown-divider" />
+                    <div
+                      className="music-actions-dropdown-section music-actions-dropdown-section-meta"
+                      onClick={function(e) { e.stopPropagation() }}
+                      onMouseDown={function(e) { e.stopPropagation() }}
+                    >
+                      {editTuneDropdown}
+                      {tuneMetaButtons}
+                    </div>
+                    <Dropdown.Divider className="music-actions-dropdown-divider" />
+                    <div className="music-actions-dropdown-section music-actions-dropdown-section-actions">
+                      {sharePrintDownloadDelete}
+                    </div>
+                  </div>
+                ) : (
+                <div className="music-actions-dropdown-cols">
+                  <div className="music-actions-dropdown-actions">
+                    {sharePrintDownloadDelete}
+                  </div>
+
+                  <div
+                    className="music-actions-dropdown-col-meta music-actions-dropdown-col-meta-compact"
+                    onClick={function(e) { e.stopPropagation() }}
+                    onMouseDown={function(e) { e.stopPropagation() }}
+                  >
+                    {mediumToolbar ? editTuneDropdown : null}
+                    {tuneMetaButtons}
 		          </div>
 			</div>
+                )}
 			        </Dropdown.Menu>
 			      </Dropdown>
 
-            <Dropdown as={ButtonGroup} className="music-actions-edit-dropdown" title="Edit tune">
-              <Dropdown.Toggle variant="warning" className="music-actions-edit-btn" aria-label="Edit tune">
-                {props.tunebook.icons.pencil}
-              </Dropdown.Toggle>
-              <Dropdown.Menu
-                className="music-actions-edit-submenu-menu"
-                popperConfig={{ strategy: 'fixed' }}
-              >
-                {EDITOR_VIEW_MODES.map(function(mode) {
-                  return (
-                    <Dropdown.Item key={mode.id} as={Link} to={'/editor/' + params.tuneId + '/' + mode.id}>
-                      {mode.label}
-                    </Dropdown.Item>
-                  )
-                })}
-              </Dropdown.Menu>
-            </Dropdown>
+            {showInlineTuneMeta ? editTuneDropdown : null}
 			    </div>
 
+          {pdfToolbarBesideMenu ? (
+            <div
+              ref={setPdfToolbarHost}
+              className="music-pdf-toolbar-slot music-pdf-toolbar-slot--beside-menu"
+              aria-hidden={!pdfToolbarHost}
+            />
+          ) : null}
+
 			    <div className="music-buttons-col-meta music-tune-meta-inline">
-			      <ButtonGroup className="music-tune-meta-group">
-			        <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
-			        <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-			        <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
-			        <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-			      </ButtonGroup>
-			      <ButtonGroup className="music-tune-meta-group">
-			        <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} onChange={
-			          function(links) {
-			            if (tune) {
-			              tune.links = links
-			              props.tunebook.saveTune(tune)
-			            }
-			          }
-			        } />
-			      </ButtonGroup>
-            {embedPdfToolbarInMainBar ? (
+			      {showInlineTuneMeta ? tuneMetaButtons : null}
+			    </div>
+
+			    {!foldControlsIntoMenu ? (
+			    <div className="music-buttons-col-right">
+            {pdfToolbarInMainRow ? (
               <div
                 ref={setPdfToolbarHost}
                 className="music-pdf-toolbar-slot"
                 aria-hidden={!pdfToolbarHost}
               />
             ) : null}
-			    </div>
-
-			    <div className="music-buttons-col-right">
-			      {fileOverlayActive ? (
-			        <FileZoomControls
-			          zoom={fileViewZoom}
-			          onChange={handleFileViewZoomChange}
-			          tunebook={props.tunebook}
-			        />
-			      ) : availableFlags.lyrics && !fitHeightOn ? (
-			        <LyricsZoomControls
-			          zoom={lyricsZoom}
-			          onChange={handleLyricsZoomChange}
-			        />
-			      ) : null}
+			      {zoomControlsElement}
 			      {!pdfSnapshotActive ? (
               <LyricsAutoscrollModal
                 tune={tune}
@@ -760,42 +873,10 @@ export default function MusicSingle(props) {
                 buttonSize="sm"
               />
             ) : null}
-			      <ViewModeSelectorModal
-			        className="music-view-mode-selector"
-			        viewMode={props.viewMode}
-			        tune={tune}
-			        tunebook={props.tunebook}
-              forceDropdown={mediumToolbar}
-			        notationFitMode={notationFitMode}
-			        onNotationFitModeChange={handleNotationFitModeChange}
-              hideInlineVoiceControls={fileOverlayActive}
-              fileOverlayActive={fileOverlayActive}
-              availableOverride={availableForControls}
-              onVoiceSettingsChange={function() {
-                  setVoiceSettingsVersion(function(v) { return v + 1 })
-              }}
-              fileControls={(
-                <FileControls
-                  tune={tune}
-                  tunebook={props.tunebook}
-                  token={props.token}
-                  driveApi={driveDocs}
-                  requestGoogleScopes={props.requestGoogleScopes}
-                  login={props.login}
-                  variant={mediumToolbar ? 'menu' : 'toolbar'}
-                  stopMenuClose={!!mediumToolbar}
-                  onTuneChange={function(next) {
-                    setTune(next)
-                    props.tunebook.saveTune(next)
-                    if (props.forceRefresh) props.forceRefresh()
-                  }}
-                />
-              )}
-              extraMenuContent={mediumToolbar ? notationControlsBlock : null}
-			        onChange={handleViewModeChange}
-			      />
+			      {viewModeSelector}
             {!mediumToolbar && !fileOverlayActive ? notationControlsBlock : null}
 			    </div>
+            ) : null}
 			  </div>
 			</div>
       {autoEnrichPending ? (
@@ -1013,7 +1094,7 @@ export default function MusicSingle(props) {
                  token={props.token}
                  driveApi={driveDocs}
                  tunebook={props.tunebook}
-                 fitMode={notationFitMode}
+                 fitMode={NOTATION_FIT_VERTICAL}
                  zoom={fileViewZoom}
                  embedToolbarInMainBar={embedPdfToolbarInMainBar}
                  toolbarHost={pdfToolbarHost}
