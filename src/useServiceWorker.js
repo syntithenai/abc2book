@@ -1,7 +1,9 @@
 import {useEffect} from 'react'
+import { prefersFreshAppLoad } from './appFreshLoadUtils'
 
 export default function useServiceWorker() {
    const registerServiceWorker = async () => {
+   if (prefersFreshAppLoad()) return
    if ('serviceWorker' in navigator) {
       try {
         const registration = await navigator.serviceWorker.register(

@@ -17,6 +17,11 @@ export function getStemSourceCacheKey(tuneId, linkIndex, src, model) {
   return 'stems:' + tuneId + ':' + linkIndex + ':' + src + modelSuffix;
 }
 
+export function getScratchpadStemCacheKey(itemId, blobKey, model) {
+  const modelSuffix = model ? ':' + model : '';
+  return 'stems:scratchpad:' + itemId + ':' + blobKey + modelSuffix;
+}
+
 // Legacy alias kept for callers that still pass cacheId.
 export function getStemCacheKey(tuneId, linkIndex, src, cacheId, model) {
   return getStemSourceCacheKey(tuneId, linkIndex, src, model || cacheId);

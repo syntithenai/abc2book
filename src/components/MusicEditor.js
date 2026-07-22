@@ -1,6 +1,6 @@
 import {useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import {Button, ButtonGroup} from 'react-bootstrap'
-import {useState, useEffect, useCallback, useRef, useSyncExternalStore} from 'react'
+import {useState, useEffect, useCallback, useRef, useSyncExternalStore, useMemo} from 'react'
 import AbcEditor from './AbcEditor'
 import TuneEnhanceButton from './TuneEnhanceButton'
 import NotationSearchButton from './NotationSearchButton'
@@ -21,18 +21,40 @@ import {
 import { mediaAnalysisJobHasMelodySourceNotes } from '../mediaAnalysisSuggestions'
 
 export default function MusicEditor(props) {
+    const embedded = !!props.embedded
+    const notationOnly = !!props.notationOnly
     const { tunebook, forceRefresh } = props
     let params = useParams();
     var navigate = useNavigate()
     const [searchParams] = useSearchParams()
+    const routeTuneId = params.tuneId || ''
+    const resolvedTuneId = embedded ? (props.tuneId || routeTuneId) : routeTuneId
     const urlView = params.view ? normalizeEditorViewMode(params.view) : 'info'
-    var [editorViewMode, setEditorViewMode] = useState(urlView)
-    let tune = props.tunes ? props.tunes[params.tuneId] : null
-    let abc = tunebook.abcTools.json2abc(tune)
+    var [editorViewMode, setEditorViewMode] = useState(
+      notationOnly ? 'music' : (embedded ? (props.initialView || 'info') : urlView)
+    )
+
+    const tune = useMemo(function() {
+      if (!resolvedTuneId || !tunebook) return null
+      if (embedded && typeof tunebook.fromSelection === 'function') {
+        const matches = tunebook.fromSelection({ [resolvedTuneId]: true })
+        if (matches && matches[0]) return matches[0]
+      }
+      if (props.tunes && props.tunes[resolvedTuneId]) return props.tunes[resolvedTuneId]
+      if (embedded && props.tune) return props.tune
+      return null
+    }, [embedded, resolvedTuneId, tunebook, props.tunes, props.tune, props.tunesRevision])
+
+    let abc = tune ? tunebook.abcTools.json2abc(tune) : ''
     const editHistory = props.editHistory
     const historyState = editHistory ? editHistory.historyState : null
     const tuneId = tune && tune.id
-    useBulkCheckReturnToast(tuneId)
+    useBulkCheckReturnToast(embedded ? null : tuneId)
+
+    const notifyRefresh = useCallback(function() {
+      if (typeof forceRefresh === 'function') forceRefresh()
+      if (embedded && typeof props.onLiveSave === 'function') props.onLiveSave()
+    }, [embedded, forceRefresh, props.onLiveSave])
     const canUndo = tuneId && historyState ? canUndoTuneEdit(historyState, tuneId) : false
     const canRedo = tuneId && historyState ? canRedoTuneEdit(historyState, tuneId) : false
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''
@@ -49,14 +71,16 @@ export default function MusicEditor(props) {
     })
 
     useEffect(function() {
+        if (embedded) return
         const nextView = params.view ? normalizeEditorViewMode(params.view) : 'info'
         setEditorViewMode(nextView)
-    }, [params.tuneId, params.view])
+    }, [embedded, params.tuneId, params.view])
 
     function handleEditorViewChange(nextView) {
+        if (notationOnly) return
         const normalized = normalizeEditorViewMode(nextView)
         setEditorViewMode(normalized)
-        if (!tuneId) return
+        if (embedded || !tuneId) return
         const basePath = '/editor/' + encodeURIComponent(tuneId)
         const recordQuery = searchParams.get('record') === '1' && normalized === 'chords' ? '?record=1' : ''
         if (normalized === 'info') {
@@ -68,7 +92,7 @@ export default function MusicEditor(props) {
 
     // Replace legacy sourceAbc/abc URLs with /editor/:id (normalized to info)
     useEffect(function() {
-        if (!tuneId) return
+        if (embedded || !tuneId) return
         var legacyUrl = false
         if (params.view === 'sourceAbc' || params.view === 'abc') {
             legacyUrl = true
@@ -76,33 +100,34 @@ export default function MusicEditor(props) {
         if (legacyUrl) {
             navigate('/editor/' + encodeURIComponent(tuneId), { replace: true })
         }
-    }, [tuneId, params.view])
+    }, [embedded, tuneId, params.view, navigate])
 
     const handleUndo = useCallback(function() {
         if (!tuneId) return
         if (tunebook.undoTuneEdits(tuneId)) {
-            forceRefresh()
+            notifyRefresh()
         }
-    }, [tuneId, tunebook, forceRefresh])
+    }, [tuneId, tunebook, notifyRefresh])
 
     const handleRedo = useCallback(function() {
         if (!tuneId) return
         if (tunebook.redoTuneEdits(tuneId)) {
-            forceRefresh()
+            notifyRefresh()
         }
-    }, [tuneId, tunebook, forceRefresh])
+    }, [tuneId, tunebook, notifyRefresh])
 
     // Editor does not clear the now-playing queue; follow-tune navigation is suppressed in editor.
     useEffect(function() {
-      trackEditorOpen()
-    },[])
+      if (!embedded) trackEditorOpen()
+    }, [embedded])
 
     useEffect(function() {
+        if (embedded) return undefined
         setDocumentTitle(buildSingleTuneTitle(tune && tune.name))
         return function() {
             setDocumentTitle(DEFAULT_APP_TITLE)
         }
-    }, [tune && tune.name])
+    }, [embedded, tune && tune.name])
 
     const leaveWarnedRef = useRef(false)
     function warnIfJobsContinuing() {
@@ -181,11 +206,21 @@ export default function MusicEditor(props) {
     )
 
     //console.log('EDIT',tune,abc)
-    return <div className={'music-editor' + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
+    if (!tune) return null
+
+    return <div className={'music-editor' + (embedded ? ' music-editor--embedded' : '') + (notationOnly ? ' music-editor--notation-only' : '') + (editorViewMode === 'lyrics' ? ' music-editor--lyrics' : '')} style={{width:'100%'}}>
+        {!notationOnly ? (
         <div className="music-editor-buttons">
             <div className="music-editor-buttons-left">
-                <Button className="btn-secondary music-editor-close-btn" onClick={function() {
+                <Button
+                  className="btn-secondary music-editor-close-btn"
+                  title={embedded ? 'Back to bulk check' : 'Close editor'}
+                  onClick={function() {
                   warnIfJobsContinuing()
+                  if (embedded) {
+                    if (typeof props.onClose === 'function') props.onClose()
+                    return
+                  }
                   navigate('/tunes/' + tune.id)
                 }}>{props.tunebook.icons.close}</Button>
                 {isNotationView ? (
@@ -225,7 +260,7 @@ export default function MusicEditor(props) {
                           imported.srcUrl = candidate.sourceUrl
                         }
                         props.tunebook.saveTune(imported, false, { historyLabel: 'Import from notation search' })
-                        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                        notifyRefresh()
                       }}
                     />
                     {canFineTuneAnalysis ? (
@@ -255,7 +290,7 @@ export default function MusicEditor(props) {
                         if (!imported) return
                         imported.id = tune.id
                         props.tunebook.saveTune(imported, false, { historyLabel: 'Fine-tune media analysis' })
-                        if (typeof props.forceRefresh === 'function') props.forceRefresh()
+                        notifyRefresh()
                       }}
                     />
                   </>
@@ -266,7 +301,7 @@ export default function MusicEditor(props) {
                         tune={tune}
                         tunebook={props.tunebook}
                         token={props.token}
-                        forceRefresh={props.forceRefresh}
+                        forceRefresh={notifyRefresh}
                       />
                     ) : null}
                 </span>
@@ -280,13 +315,14 @@ export default function MusicEditor(props) {
                 />
             </div>
         </div>
+        ) : null}
         <AbcEditor
           logout={props.logout}
           login={props.login}
           token={props.token}
           mediaController={props.mediaController}
           audioProps={props.audioProps}
-          forceRefresh={props.forceRefresh}
+          forceRefresh={notifyRefresh}
           isMobile={props.isMobile}
           abc={abc}
           tunebook={props.tunebook}
@@ -298,7 +334,7 @@ export default function MusicEditor(props) {
           searchIndex={props.searchIndex}
           loadTuneTexts={props.loadTuneTexts}
           onNotationHelpModeChange={props.onNotationHelpModeChange}
-          historyControls={isNotationView ? historyButtonGroup : null}
+          historyControls={embedded && notationOnly ? null : (isNotationView ? historyButtonGroup : null)}
         />
     </div>
 }

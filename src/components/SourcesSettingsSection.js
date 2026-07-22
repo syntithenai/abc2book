@@ -7,6 +7,7 @@ import {
   buildOwnTunebookSource,
   countTunesForSource,
   formatSourceFilters,
+  isManagedSyncSource,
   listSyncSources,
   normalizeSyncSourceFilters,
   removeSyncSource,
@@ -27,8 +28,8 @@ function formatLastSync(ts) {
 function sourceTypeLabel(source) {
   if (!source) return '';
   if (source.kind === 'ownTunebook') return 'My tunebook';
-  if (source.kind === 'googleDoc') return 'Shared tunebook';
-  return 'URL';
+  if (source.kind === 'googleDoc' || source.googleDocumentId) return 'Shared tunebook';
+  return 'Static tunebook';
 }
 
 function sourceStatusLabel(source) {
@@ -117,7 +118,9 @@ export default function SourcesSettingsSection(props) {
   const onCheckMergeNow = props.onCheckMergeNow;
   const mergeCheckBusy = !!props.mergeCheckBusy;
 
-  const [sources, setSources] = useState(function() { return listSyncSources({ includeRemoved: true, includePaused: true }); });
+  const [sources, setSources] = useState(function() {
+    return listSyncSources({ includeRemoved: true, includePaused: true, managedOnly: true });
+  });
   const [editingSource, setEditingSource] = useState(null);
   const signedIn = !!(token && token.access_token);
 
@@ -128,7 +131,9 @@ export default function SourcesSettingsSection(props) {
   }, []);
 
   const rows = useMemo(function() {
-    const list = sources.filter(function(source) { return !source.removed; });
+    const list = sources.filter(function(source) {
+      return !source.removed && isManagedSyncSource(source);
+    });
     const own = buildOwnTunebookSource(googleDocumentId);
     return own ? [own].concat(list) : list;
   }, [sources, googleDocumentId]);
@@ -176,8 +181,8 @@ export default function SourcesSettingsSection(props) {
           ) : null}
         </h2>
         <p className="app-text-muted">
-          Tunebooks and URLs you subscribe to for ongoing updates. Shared sources are checked about every 10 minutes.
-          Removing a source stops sync but keeps your tunes and their Source URL field.
+          Your Google Drive tunebook, shared tunebooks via Google, and static collections from tunebook.net.
+          Shared and static sources are checked about every 10 minutes. Removing a source stops sync but keeps your tunes.
         </p>
         <div className="App-settings-actions">
           <Button variant="primary" disabled={mergeCheckBusy || !signedIn} onClick={onCheckMergeNow}>
@@ -199,7 +204,7 @@ export default function SourcesSettingsSection(props) {
           <tbody>
             {rows.length === 0 ? (
               <tr>
-                <td colSpan={7} className="app-text-muted">No subscribed sources yet. Import from a shared tunebook or URL to add one.</td>
+                <td colSpan={7} className="app-text-muted">No subscribed sources yet. Import from a shared tunebook or a tunebook.net collection to add one.</td>
               </tr>
             ) : null}
             {rows.map(function(source) {

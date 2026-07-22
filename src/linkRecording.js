@@ -8,6 +8,7 @@ import {
   isMediaProxyConfigured,
 } from './mediaProxyClient'
 import { loadOfflineMediaSettings } from './offlineMediaSettings'
+import { triggerAutoPublicizeIfShared } from './ownedMediaAutoPublicizeTrigger'
 import {
   getExternalMediaCacheKey,
   getCachedExternalMediaBlob,
@@ -422,6 +423,11 @@ export async function createOwnedMediaLink(options) {
       recording.googleId = uploadResult.googleId
       recording.uploadPending = false
       await saveRecording(recording)
+      triggerAutoPublicizeIfShared(opts, [{
+        googleId: uploadResult.googleId,
+        kind: 'audio',
+        label: title,
+      }])
     }
   }
 
@@ -511,12 +517,18 @@ export async function syncPendingRecordingUploads(options) {
 
   let uploaded = 0
   const tunesCopy = Object.assign({}, tunes)
+  const publicizeItems = []
 
   for (let i = 0; i < pending.length; i += 1) {
     const recording = pending[i]
     const result = await uploadRecordingToDrive({ recording: recording, token: token, driveApi: driveApi })
     if (result && result.googleId) {
       uploaded += 1
+      publicizeItems.push({
+        googleId: result.googleId,
+        kind: 'audio',
+        label: recording.name || 'Recording',
+      })
       const patched = patchTunesWithRecordingUpload(tunesCopy, recording.id, result.googleId)
       patched.forEach(function(tune) {
         tunesCopy[tune.id] = tune
@@ -525,6 +537,10 @@ export async function syncPendingRecordingUploads(options) {
         }
       })
     }
+  }
+
+  if (publicizeItems.length > 0) {
+    triggerAutoPublicizeIfShared(opts, publicizeItems)
   }
 
   return { uploaded: uploaded, tunes: tunesCopy }
@@ -642,9 +658,9 @@ export async function resolveRecordingLinkAudio(link, tuneId, linkIndex, options
 
   if (googleId && !recording) {
     if (!accessToken) {
-      throw new Error('Shared audio is not available. The owner may need to share the audio file, or log in to Google Drive.')
+      throw new Error('Recording not shared publicly — owner may need to log in and save again.')
     }
-    throw new Error('Shared audio could not be downloaded from Google Drive')
+    throw new Error('Recording not shared publicly — owner may need to log in and save again.')
   }
 
   throw new Error('Recording audio is not available offline')

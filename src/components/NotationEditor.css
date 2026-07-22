@@ -44,7 +44,7 @@
 .notation-nonstaff-controls-main {
   position: sticky;
   /* Match .App-header height so the toolbar sits just below the fixed nav */
-  top: 3.3em;
+  top: var(--chrome-header-offset, 3.3em);
   z-index: 30;
 }
 .notation-editing-controls {

@@ -1,10 +1,13 @@
+import { appendFreshLoadParam } from './appFreshLoadUtils'
 import { shareOrigin } from './shareTunebookUtils'
 
 export const AUDIO_ANALYSIS_SHARE_CONFIRM_KEY = 'bookstorage_audio_analysis_share_public'
 
-export function buildAudioAnalysisShareLink(manifestFileId, origin) {
+export function buildAudioAnalysisShareLink(manifestFileId, origin, options) {
   if (!manifestFileId) return ''
-  return shareOrigin(origin) + '/#/audioanalysis/share/' + encodeURIComponent(manifestFileId)
+  const opts = options || {}
+  const link = shareOrigin(origin) + '/#/audioanalysis/share/' + encodeURIComponent(manifestFileId)
+  return opts.includeFreshParam === false ? link : appendFreshLoadParam(link)
 }
 
 export function buildAudioAnalysisSharePlayLink(manifestFileId, options) {
@@ -14,7 +17,8 @@ export function buildAudioAnalysisSharePlayLink(manifestFileId, options) {
   const params = []
   if (opts.side) params.push('side=' + encodeURIComponent(opts.side))
   if (opts.note) params.push('note=' + encodeURIComponent(opts.note))
-  return params.length ? base + '?' + params.join('&') : base
+  const withParams = params.length ? base + '?' + params.join('&') : base
+  return opts.includeFreshParam === false ? withParams : appendFreshLoadParam(withParams)
 }
 
 export function shareEmailSubject(baseline, candidate) {

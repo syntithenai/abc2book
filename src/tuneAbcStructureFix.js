@@ -210,7 +210,8 @@ export function structureFixAvailable(action, tune, abcTools, issues) {
 
   if (action === 'fixHeaders') {
     return codes.some(function(code) {
-      return code === 'missing_meter_header' || code === 'missing_key_header';
+      return code === 'missing_meter_header' || code === 'missing_key_header'
+        || code === 'missing_meter' || code === 'missing_key';
     }) || !String(tune.meter || '').trim() || !String(tune.key || '').trim();
   }
   if (action === 'sessionLineBreaks') {
@@ -249,7 +250,8 @@ export const STRUCTURE_FIX_ACTIONS = [
 export function getAvailableStructureFixes(tune, abcTools, issues, parseAndRender) {
   return STRUCTURE_FIX_ACTIONS.filter(function(action) {
     if (action.id === 'normalizeAbc' && typeof parseAndRender !== 'function') return false;
-    return structureFixAvailable(action.id, tune, abcTools, issues);
+    if (structureFixAvailable(action.id, tune, abcTools, issues)) return true;
+    return !!previewStructureFix(action.id, tune, abcTools, parseAndRender);
   });
 }
 

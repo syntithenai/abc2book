@@ -74,7 +74,8 @@ import { processReviewResult } from '../addSongModalHelper'
 import { buildMediaImportCandidatesFromFiles } from '../mediaImportCandidates'
 import { isAudioImportFile, isVideoImportFile } from '../audioFileMetadata'
 import { runPendingShareImportSideEffect } from '../shareImportSession'
-import { mergeImportedLinks, applyAddFormInlineImport } from '../importReviewFieldUtils'
+import { applyAddFormInlineImport } from '../importReviewFieldUtils'
+import { mergeTuneCollectionExtras } from '../tuneMergeExtras'
 import { attachPendingFileFromCandidate } from '../attachPendingTuneFile'
 import { attachMidiMediaLinkFromPendingFile } from '../attachMidiMediaLink'
 import { primaryArtist } from '../tuneBibliographicUtils'
@@ -855,7 +856,7 @@ export default function ImportReviewBridge(props) {
       const existing = props.tunes[candidate.mergeTargetId]
       let merged = Object.assign({}, existing, candidate.tune)
       merged.id = candidate.mergeTargetId
-      merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
+      mergeTuneCollectionExtras(merged, existing, candidate.tune)
       merged.lastUpdated = Date.now()
       attachCandidateSourceFiles(merged, candidate, {
         token: props.token,
@@ -917,7 +918,7 @@ export default function ImportReviewBridge(props) {
         const existing = tunesSnapshot[candidate.mergeTargetId]
         let merged = Object.assign({}, existing, candidate.tune)
         merged.id = candidate.mergeTargetId
-        merged.links = mergeImportedLinks(existing.links, candidate.tune && candidate.tune.links)
+        mergeTuneCollectionExtras(merged, existing, candidate.tune)
         merged.lastUpdated = Date.now()
         attachCandidateSourceFiles(merged, candidate, {
           token: props.token,

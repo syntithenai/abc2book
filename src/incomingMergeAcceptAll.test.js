@@ -65,7 +65,7 @@ describe('incoming merge accept-all convergence', function() {
     // All differing fields taken from the remote copy, including
     // non-default-import fields like tags and boost.
     expect(applied.tunes.t1.name).toBe('Tune One Renamed');
-    expect(applied.tunes.t1.tags).toEqual(['othertag']);
+    expect(applied.tunes.t1.tags).toEqual(expect.arrayContaining(['mytag', 'othertag']));
     expect(applied.tunes.t1.boost).toBe(5);
 
     // Re-comparing against the same drive content must not re-flag the

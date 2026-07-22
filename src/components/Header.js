@@ -420,6 +420,20 @@ export default function Header(props) {
                         />
                         <Button
                             as={Link}
+                            to="/scratchpad"
+                            size={navButtonSize}
+                            variant="primary"
+                            className="header-dropdown-btn header-dropdown-scratchpad-btn"
+                            data-testid="header-scratchpad-button"
+                            onClick={function() { setNavMenuOpen(false) }}
+                        >
+                            <span className="header-dropdown-btn-label">
+                                {props.tunebook.icons.pencil}
+                                <span>Scratchpad</span>
+                            </span>
+                        </Button>
+                        <Button
+                            as={Link}
                             to="/feed"
                             size={navButtonSize}
                             variant="primary"

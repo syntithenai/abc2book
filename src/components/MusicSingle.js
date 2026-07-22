@@ -638,6 +638,7 @@ export default function MusicSingle(props) {
                     tunebook={props.tunebook}
                     token={props.token}
                     driveApi={driveDocs}
+                    googleDocumentId={props.googleDocumentId}
                     requestGoogleScopes={props.requestGoogleScopes}
                     login={props.login}
                     variant={menuControlsVariant}
@@ -670,7 +671,7 @@ export default function MusicSingle(props) {
                       <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
                     </ButtonGroup>
                     <ButtonGroup className="music-tune-meta-group">
-                      <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} onChange={
+                      <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} onChange={
                         function(links) {
                           if (tune) {
                             tune.links = links

@@ -418,6 +418,8 @@ export default function SelectedItemsModal(props) {
                 selected={props.selected}
                 selectedCount={props.selectedCount}
                 forceRefresh={props.forceRefresh}
+                tunesHash={props.tunesHash}
+                mediaController={props.mediaController}
                 token={props.token}
                 autoStartCheck={false}
               />

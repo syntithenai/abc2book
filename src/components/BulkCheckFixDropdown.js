@@ -24,6 +24,12 @@ export default function BulkCheckFixDropdown(props) {
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
   const tune = props.tune
   const hasAudio = tuneHasAudioForFix(tune, props.tunebook)
+
+  const parseAndRender = useCallback(function(abc) {
+    const parsed = abcjsParser.parse(abc)
+    return abcjsParser.render(parsed, abc)
+  }, [abcjsParser])
+
   const issueCodes = useMemo(function() {
     const issues = props.issues || []
     return issues.map(function(item) { return item.code })
@@ -35,9 +41,9 @@ export default function BulkCheckFixDropdown(props) {
       tune,
       props.tunebook.abcTools,
       props.issues || [],
-      abcjsParser.parseAndRender
+      parseAndRender
     )
-  }, [tune, props.tunebook, props.issues, abcjsParser.parseAndRender])
+  }, [tune, props.tunebook, props.issues, parseAndRender])
 
   const analysisDeps = useMemo(function() {
     const tunes = props.tunes || {}
@@ -78,7 +84,7 @@ export default function BulkCheckFixDropdown(props) {
       runMediaAnalysis: runMediaAnalysis,
       resolverAvailable: resolverChecked ? resolverAvailable : undefined,
       renderChords: function(abc) { return abcjsParser.renderChords(abc, true) },
-      parseAndRender: abcjsParser.parseAndRender,
+      parseAndRender: parseAndRender,
     }
   }
 
@@ -151,7 +157,11 @@ export default function BulkCheckFixDropdown(props) {
   const hasStructureFixes = tierAFixes.length > 0 || tierBFixes.length > 0
   const canFixHeaders = issueCodes.some(function(code) {
     return code === 'missing_meter_header' || code === 'missing_key_header'
-  })
+      || code === 'missing_meter' || code === 'missing_key'
+  }) || (tune && (!String(tune.meter || '').trim() || !String(tune.key || '').trim()))
+  const hasNotationIssues = !!(props.report && (
+    props.report.structureResult || props.report.abcResult
+  ))
 
   return (
     <>
@@ -166,7 +176,7 @@ export default function BulkCheckFixDropdown(props) {
           }}
           renderOnMount
         >
-          {hasStructureFixes ? (
+          {(hasStructureFixes || canFixHeaders) ? (
             <>
               <Dropdown.Header>Notation fixes</Dropdown.Header>
               {tierAFixes.map(function(action) {
@@ -188,12 +198,18 @@ export default function BulkCheckFixDropdown(props) {
                   Fix missing headers
                 </Dropdown.Item>
               ) : null}
+              {!hasStructureFixes && !canFixHeaders && hasNotationIssues ? (
+                <Dropdown.Item disabled>
+                  No automatic fixes for these notation issues — use Edit tune
+                </Dropdown.Item>
+              ) : null}
               <Dropdown.Divider />
             </>
-          ) : canFixHeaders ? (
+          ) : hasNotationIssues ? (
             <>
-              <Dropdown.Item onClick={function() { runAction('fixHeaders') }}>
-                Fix missing headers
+              <Dropdown.Header>Notation fixes</Dropdown.Header>
+              <Dropdown.Item disabled>
+                No automatic fixes for these notation issues — use Edit tune
               </Dropdown.Item>
               <Dropdown.Divider />
             </>

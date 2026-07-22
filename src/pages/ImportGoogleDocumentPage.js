@@ -32,6 +32,11 @@ import {
   stampSrcUrlOnImportResults,
 } from '../syncSourceImportUtils'
 import { buildGoogleDocUrl } from '../syncSourcesStore'
+import {
+  consumeFreshLoadAborted,
+  isOffline,
+  readFreshParamFromLocation,
+} from '../appFreshLoadUtils'
 
 export default function ImportGoogleDocumentPage({
   tunebook,
@@ -59,6 +64,16 @@ export default function ImportGoogleDocumentPage({
   const routeContext = useMemo(function() {
     return parseImportDocRouteParams(params)
   }, [params])
+
+  useEffect(function() {
+    if (consumeFreshLoadAborted()) {
+      navigate('/tunes', { replace: true })
+      return
+    }
+    if (readFreshParamFromLocation() && isOffline()) {
+      navigate('/tunes', { replace: true })
+    }
+  }, [navigate])
 
   const preview = useMemo(function() {
     if (!abcText) return { tunes: {}, sets: {}, playlists: {} }

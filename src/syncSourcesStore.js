@@ -18,6 +18,48 @@ export function buildGoogleDocUrl(googleDocumentId) {
   return 'https://docs.google.com/document/d/' + id + '/edit';
 }
 
+function parseSourceUrl(url) {
+  const raw = String(url || '').trim();
+  if (!raw) return null;
+  if (/^https?:\/\//i.test(raw)) {
+    try {
+      return new URL(raw);
+    } catch (e) {
+      return null;
+    }
+  }
+  if (raw.startsWith('/')) {
+    try {
+      return new URL(raw, 'https://tunebook.net');
+    } catch (e) {
+      return null;
+    }
+  }
+  try {
+    return new URL(raw, 'https://tunebook.net');
+  } catch (e) {
+    return null;
+  }
+}
+
+/** Curated static ABC collections served from tunebook.net /scrape (or same-origin in dev). */
+export function isStaticTunebookNetUrl(url) {
+  const raw = String(url || '').trim();
+  if (!raw) return false;
+  if (raw.startsWith('/scrape/') || raw.startsWith('scrape/')) return true;
+  const parsed = parseSourceUrl(raw);
+  if (!parsed) return false;
+  return parsed.pathname.indexOf('/scrape/') !== -1;
+}
+
+export function isManagedSyncSource(source) {
+  if (!source || typeof source !== 'object') return false;
+  if (source.kind === 'ownTunebook') return true;
+  if (source.kind === 'googleDoc' || source.googleDocumentId) return true;
+  if (isStaticTunebookNetUrl(source.url)) return true;
+  return false;
+}
+
 export function normalizeSyncSourceFilters(filters) {
   const raw = filters && typeof filters === 'object' ? filters : {};
   const next = {};
@@ -117,15 +159,17 @@ export function listSyncSources(options) {
   const opts = options || {};
   const includeRemoved = !!opts.includeRemoved;
   const includePaused = opts.includePaused !== false;
+  const managedOnly = !!opts.managedOnly;
   return readSyncSources().filter(function(source) {
     if (!includeRemoved && source.removed) return false;
     if (!includePaused && source.paused) return false;
+    if (managedOnly && !isManagedSyncSource(source)) return false;
     return true;
   });
 }
 
 export function listActiveSyncSources() {
-  return listSyncSources({ includeRemoved: false, includePaused: false });
+  return listSyncSources({ includeRemoved: false, includePaused: false, managedOnly: true });
 }
 
 export function getSyncSource(id) {
@@ -214,12 +258,15 @@ export function registerSourceFromImport(options) {
   const googleDocumentId = String(opts.googleDocumentId || '').trim();
   const url = String(opts.url || '').trim() || (googleDocumentId ? buildGoogleDocUrl(googleDocumentId) : '');
   if (!url && !googleDocumentId) return null;
+  const kind = googleDocumentId ? 'googleDoc' : 'url';
+  if (!isManagedSyncSource({ kind: kind, url: url, googleDocumentId: googleDocumentId || undefined })) {
+    return null;
+  }
 
   const key = googleDocumentId || normalizeSourceUrlKey(url);
   const existing = findSyncSourceByKey(key);
   const filters = normalizeSyncSourceFilters(opts.filters);
   const tuneIds = Array.isArray(opts.tuneIds) ? opts.tuneIds.map(String) : undefined;
-  const kind = googleDocumentId ? 'googleDoc' : 'url';
 
   if (existing && !existing.removed) {
     const mergedTuneIds = Array.from(new Set([].concat(existing.tuneIds || [], tuneIds || [])));
@@ -256,6 +303,7 @@ export function backfillSourcesFromTunes(tunes) {
   keys.forEach(function(key) {
     const group = groups[key];
     if (!group || !group.sourceUrl) return;
+    if (!isStaticTunebookNetUrl(group.sourceUrl)) return;
     const existing = findSyncSourceByKey(key);
     if (existing) return;
     registerSourceFromImport({

@@ -60,6 +60,7 @@ import { dismissFieldLookup } from '../tuneFieldLookupQueue';
 import FieldLookupReviewButton from './FieldLookupReviewButton';
 import { summarizeSheetSnapshotCandidates } from '../bulkSheetSnapshotImport';
 import { pendingSnapshotsFromCandidate, describeSnapshotForCancel } from '../importReviewSnapshots';
+import { normalizeAbcForImport } from '../abcImportNormalize';
 
 function sheetSnapshotReviewMessage(summary) {
   if (!summary || !summary.total) return '';
@@ -1210,7 +1211,9 @@ export default function ImportReviewModal(props) {
         || ''
       ).trim();
       if (!abc) return;
-      const imported = props.tunebook.abcTools.abc2json(abc);
+      const imported = props.tunebook.abcTools.abc2json(
+        kind === 'notation' ? normalizeAbcForImport(abc) : abc
+      );
       if (!imported && kind === 'notation') return;
       patchFormValues(function(current) {
         if (imported) {

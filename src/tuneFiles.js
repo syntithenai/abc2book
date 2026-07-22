@@ -7,6 +7,7 @@ import {
   isMediaProxyConfigured,
 } from './mediaProxyClient'
 import { buildPublicDriveDownloadUrl } from './linkRecording'
+import { triggerAutoPublicizeIfShared } from './ownedMediaAutoPublicizeTrigger'
 
 const tuneFilesStore = localforage.createInstance({ name: 'tunefiles' })
 const tuneFileBlobCache = localforage.createInstance({ name: 'tunefilecache' })
@@ -237,6 +238,7 @@ export async function createTuneFileFromBlob(options) {
       record: record,
       token: token,
       driveApi: driveApi,
+      googleDocumentId: opts.googleDocumentId,
     })
     if (uploadResult && uploadResult.googleId) {
       meta.googleId = uploadResult.googleId
@@ -301,6 +303,7 @@ export async function updateTuneFileBlob(options) {
       record: record,
       token: token,
       driveApi: driveApi,
+      googleDocumentId: opts.googleDocumentId,
     })
     if (uploadResult && uploadResult.googleId) {
       nextTune = updateTuneFileMeta(nextTune, fileId, {
@@ -348,7 +351,15 @@ export async function uploadTuneFileToDrive(options) {
   record.uploadPending = false
   record.updatedTimestamp = new Date()
   await saveStoredTuneFile(record)
-  return { googleId: newId, record: record }
+  const result = { googleId: newId, record: record }
+  if (opts.googleDocumentId) {
+    triggerAutoPublicizeIfShared(opts, [{
+      googleId: newId,
+      kind: 'file',
+      label: record.name || 'File',
+    }])
+  }
+  return result
 }
 
 export function patchTunesWithTuneFileUpload(tunes, fileId, googleId) {
@@ -392,7 +403,12 @@ export async function syncPendingTuneFileUploads(options) {
 
   for (let i = 0; i < pending.length; i += 1) {
     const record = pending[i]
-    const result = await uploadTuneFileToDrive({ record: record, token: token, driveApi: driveApi })
+    const result = await uploadTuneFileToDrive({
+      record: record,
+      token: token,
+      driveApi: driveApi,
+      googleDocumentId: opts.googleDocumentId,
+    })
     if (result && result.googleId) {
       uploaded += 1
       const patched = patchTunesWithTuneFileUpload(tunesCopy, record.id, result.googleId)
@@ -461,7 +477,7 @@ export async function resolveTuneFileBlob(meta, tuneId, options) {
   }
 
   if (googleId) {
-    throw new Error('File could not be downloaded from Google Drive')
+    throw new Error('File not shared publicly — owner may need to log in and save again.')
   }
   throw new Error('File is not available offline')
 }
@@ -641,7 +657,12 @@ export async function uploadPendingTuneFilesInScope(tunes, tuneIds, options) {
           fileName: meta.name || meta.id,
         })
       }
-      const result = await uploadTuneFileToDrive({ record: record, token: token, driveApi: driveApi })
+      const result = await uploadTuneFileToDrive({
+        record: record,
+        token: token,
+        driveApi: driveApi,
+        googleDocumentId: opts.googleDocumentId,
+      })
       if (result && result.googleId) {
         uploaded += 1
         tune = updateTuneFileMeta(tune, meta.id, { googleId: result.googleId, uploadPending: false })

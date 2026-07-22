@@ -171,7 +171,11 @@ export const SETTINGS_FIELD_HELP = {
   },
   sources: {
     title: 'Sources',
-    body: 'Lists your Google Drive tunebook and any shared tunebooks or URLs you subscribe to for ongoing updates. Filters limit which tunes are synced from each source. Pause stops polling; Remove stops sync but keeps imported tunes and their Source URL.',
+    body: 'Lists your Google Drive tunebook, shared tunebooks via Google, and static collections from tunebook.net that you subscribe to for ongoing updates. Filters limit which tunes are synced from each source. Pause stops polling; Remove stops sync but keeps imported tunes.',
+  },
+  duplicateManager: {
+    title: 'Duplicate manager',
+    body: 'Scans your library for tune records with identical ABC content (exact duplicates) or very similar titles (possible duplicates). Use Compare & merge to pick which fields to keep, or Quick merge for exact duplicates to combine books, tags, links, and sheet snapshots. Use Keep separate when tunes are different versions of the same song — they will stay out of the list until their content changes. Merges save through your normal tunebook sync.',
   },
 };
 

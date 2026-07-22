@@ -1,4 +1,5 @@
 import {useRef, useState, useEffect} from 'react'
+import {useNavigate} from 'react-router-dom'
 import {Button, ButtonGroup, Form, Badge} from 'react-bootstrap'
 import YouTube from 'react-youtube'
 import YouTubeSearchModal from './YouTubeSearchModal'
@@ -23,6 +24,7 @@ import { mediaFileAcceptList, isAudioImportFile, isMidiImportFile, readAudioFile
 import { getLinkSrcType } from '../checkTuneLinkPlayback'
 import { fetchDirectOrProxy } from '../mediaProxyClient'
 import FieldVoiceFillButton from './FieldVoiceFillButton'
+import { createScratchpadItemFromLink, linkCanOpenInScratchpad } from '../scratchpadFromLink'
 
 const YT_PLAYING = 1
 const YT_ENDED = 0
@@ -79,6 +81,7 @@ function syncStatusLabel(status) {
 }
 
 export default function LinksEditor(props) {
+    const navigate = useNavigate()
     function onChange(links) {
         props.onChange(links)
     }
@@ -93,6 +96,7 @@ export default function LinksEditor(props) {
     const [wizardLinkIndex, setWizardLinkIndex] = useState(null)
     const [wizardAutoStartAnalysis, setWizardAutoStartAnalysis] = useState(false)
     const [recordingDuration, setRecordingDuration] = useState(0)
+    const [scratchpadLinkIndex, setScratchpadLinkIndex] = useState(null)
     const [ownedMediaBusy, setOwnedMediaBusy] = useState(false)
     const [previewLinkIndex, setPreviewLinkIndex] = useState(null)
     const [previewLoadingIndex, setPreviewLoadingIndex] = useState(null)
@@ -388,6 +392,28 @@ export default function LinksEditor(props) {
         return Object.assign({}, tuneForMedia, { id: tuneId })
     }
 
+    async function openLinkInScratchpad(link, linkIndex) {
+        setScratchpadLinkIndex(linkIndex)
+        setWarning('')
+        try {
+            const item = await createScratchpadItemFromLink({
+                link: link,
+                linkIndex: linkIndex,
+                tuneId: getTuneId(),
+                title: link.title || 'Audio from link',
+                token: props.token,
+                driveApi: driveDocs,
+                isYoutubeLink: isYoutubeLink,
+                youtubeGetId: props.tunebook && props.tunebook.utils && props.tunebook.utils.YouTubeGetID,
+            })
+            navigate('/scratchpad/' + encodeURIComponent(item.id))
+        } catch (e) {
+            setWarning(e && e.message ? e.message : 'Could not open in scratchpad')
+        } finally {
+            setScratchpadLinkIndex(null)
+        }
+    }
+
     function remapIndexAfterSwap(index, fromIndex, toIndex) {
         if (index === null || index === undefined) return index
         if (index === fromIndex) return toIndex
@@ -481,6 +507,7 @@ export default function LinksEditor(props) {
                 title: 'Recording ' + new Date().toLocaleString(),
                 token: props.token,
                 driveApi: driveDocs,
+                googleDocumentId: props.googleDocumentId,
             }))
         })
     }
@@ -506,6 +533,7 @@ export default function LinksEditor(props) {
                 title: file.name,
                 token: props.token,
                 driveApi: driveDocs,
+                googleDocumentId: props.googleDocumentId,
                 uploadToDrive: false,
             }))
             return
@@ -523,6 +551,7 @@ export default function LinksEditor(props) {
                 title: title,
                 token: props.token,
                 driveApi: driveDocs,
+                googleDocumentId: props.googleDocumentId,
                 uploadToDrive: false,
             })
         })())
@@ -712,6 +741,20 @@ export default function LinksEditor(props) {
                                         {previewLoadingIndex === lk
                                             ? props.tunebook.icons.waiting
                                             : (previewLinkIndex === lk ? props.tunebook.icons.pause : props.tunebook.icons.play)}
+                                    </Button>
+                                )}
+                                {linkCanOpenInScratchpad(link, isYoutubeLink) && (
+                                    <Button
+                                        size="sm"
+                                        variant="outline-primary"
+                                        aria-label="Edit in scratchpad"
+                                        title="Copy audio to scratchpad and edit"
+                                        disabled={scratchpadLinkIndex !== null || ownedMediaBusy || audioUtils.isRecording}
+                                        onClick={function() { openLinkInScratchpad(link, lk) }}
+                                    >
+                                        {scratchpadLinkIndex === lk
+                                            ? props.tunebook.icons.waiting
+                                            : props.tunebook.icons.pencil}
                                     </Button>
                                 )}
                                 {(link && link.link && link.link.startsWith('data:audio/')) && (

@@ -20,6 +20,8 @@ import PrivacyPage from './pages/PrivacyPage'
 import ImportPage from './pages/ImportPage'
 import HelpPage from './pages/HelpPage'
 import FeedPage from './pages/FeedPage'
+import ScratchpadPage from './pages/ScratchpadPage'
+import ScratchpadItemPage from './pages/ScratchpadItemPage'
 import FiltersPage from './pages/FiltersPage'
 import ImportLinkPage from './pages/ImportLinkPage'
 import ImportGoogleDocumentPage from './pages/ImportGoogleDocumentPage'
@@ -45,9 +47,11 @@ import useGoogleDocument from './useGoogleDocument'
 import useAbcTools from './useAbcTools'
 import useTuneEditHistory from './useTuneEditHistory'
 import useServiceWorker from './useServiceWorker'
+import useAppFreshLoad from './useAppFreshLoad'
 import useTextSearchIndex from './useTextSearchIndex'
 import useGoogleLogin from './useGoogleLogin' 
 import useAudioAnalysisLoginSync from './useAudioAnalysisLoginSync'
+import useScratchpadLoginSync from './useScratchpadLoginSync'
 //import useGoogleDocument from './useGoogleDocument' 
 //import GoogleLogin from './GoogleLogin'
 import NowPlayingHost from './components/NowPlayingHost'
@@ -112,6 +116,7 @@ import PlaylistMergeHost from './components/PlaylistMergeHost'
 import { syncPendingRecordingUploads } from './linkRecording'
 import { syncPendingTuneFileUploads } from './tuneFiles'
 import { applyDriveRecordStateToTunes } from './incomingMergeUtils'
+import { TunesProvider } from './TunesContext'
 
 import {useState, useEffect, useRef, useCallback} from 'react';
 //import jwt_decode from "jwt-decode";
@@ -125,6 +130,7 @@ import {ToastContainer, toast}  from 'react-toastify'
 import AppEmbedFrameBootstrap from './components/AppEmbedFrameBootstrap'
 import { isEmbeddedAppFrame } from './embedFrameUtils'
 import { scheduleMediaCacheStorageCheck } from './mediaCacheStorage'
+import { initChromeZoomGuard } from './chromeZoomGuard'
 
 function YouTubeGetID(url){
             url = url.split(/(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/);
@@ -299,10 +305,12 @@ function App(props) {
   var {user, token, login, logout, refresh, requestGoogleScopes, loadCurrentUser, loadUserImage, breakLoginToken} = useGoogleLogin({usePrompt: false, loginButtonId: 'google_login_button', scopes:['https://www.googleapis.com/auth/drive.file'] })
   useInitMediaResolverHealth(token && token.access_token ? token.access_token : null, requestGoogleScopes)
   useAudioAnalysisLoginSync(token, logout)
+  useScratchpadLoginSync(token, logout)
   const filesDocumentManager = useGoogleDocument(token, logout)
   //console.log('APP',token)
   const {textSearchIndex, setTextSearchIndex, loadTextSearchIndex, searchIndex, loadTuneTexts} = useTextSearchIndex()
-  const {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
+  const {tunes, setTunes, setTunesInner, tunesContentRevision, flushTunesPersistence, deletedTunes, setDeletedTunes, tunesHash, setTunesHashInner, setTunesHash,updateTunesHash, buildTunesHash, currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults,  viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset , filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} = useAppData()
+  useAppFreshLoad()
   useServiceWorker()
   
   
@@ -382,6 +390,10 @@ function App(props) {
     return function() {
       document.documentElement.classList.remove('platform-mobile');
     };
+  }, []);
+
+  useEffect(function() {
+    return initChromeZoomGuard()
   }, []);
 
   useEffect(function() {
@@ -759,6 +771,7 @@ function App(props) {
         driveApi: filesDocumentManager,
         tunes: tunesRef.current,
         saveTune: tunebook.saveTune,
+        googleDocumentId: googleDocumentId,
       }).then(function(result) {
         if (result && result.uploaded > 0) {
           const label = result.uploaded === 1 ? 'recording' : 'recordings'
@@ -770,6 +783,7 @@ function App(props) {
         driveApi: filesDocumentManager,
         tunes: tunesRef.current,
         saveTune: tunebook.saveTune,
+        googleDocumentId: googleDocumentId,
       }).then(function(result) {
         if (result && result.uploaded > 0) {
           const label = result.uploaded === 1 ? 'file' : 'files'
@@ -949,8 +963,9 @@ function App(props) {
   return (
 
     <div id="topofpage" className="App" >
-        {showWaitingOverlay && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img alt="" src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }  
+        {(showWaitingOverlay || waiting) && <div style={{zIndex:999999, position:'fixed', top:0, left:0, backgroundColor: 'grey', opacity:'0.5', height:'100%', width:'100%'}} ><img alt="" src="/spinner.svg" style={{marginTop:'10em', marginLeft:'10em', height:'200px', width:'200px'}} /></div> }
           <input type='hidden' name="refreshHash" value={refreshHash} />
+          <TunesProvider tunes={tunes} tunesContentRevision={tunesContentRevision}>
           <Router >
             <AppEmbedFrameBootstrap />
             <RouteAnalytics />
@@ -1126,7 +1141,9 @@ function App(props) {
                     
                     <Route  path={`help`}   element={<HelpPage  tunebook={tunebook}    />}  />
                     <Route  path={`feed`}   element={<FeedPage  tunebook={tunebook} tunes={tunes} user={user} />}  />
-                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} />}  />
+                    <Route  path={`scratchpad`} element={<ScratchpadPage tunebook={tunebook} tunes={tunes} token={token} />} />
+                    <Route  path={`scratchpad/:itemId`} element={<ScratchpadItemPage tunebook={tunebook} tunes={tunes} token={token} editHistory={editHistory} mediaController={mediaController} forceRefresh={forceRefresh} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} />} />
+                    <Route  path={`settings`}  element={<SettingsPage user={user} tunebook={tunebook} tunes={tunes} tunesHash={tunesHash} deletedTunes={deletedTunes} token={token} login={login} forceRefresh={forceRefresh} googleDocumentId={googleDocumentId} onCheckMergeNow={runMergeChecksNow} mediaController={mediaController} overrideTuneBook={overrideTuneBook} />}  />
                     <Route  path={`review`} element={<Navigate to="/" replace />} />
                     <Route  path={`sets`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
                     <Route  path={`sets/:setId`} element={<SetsPage tunes={tunes} tunebook={tunebook} setPlaylist={setPlaylist} setSetPlaylist={setSetPlaylist} mediaController={mediaController} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} token={token} login={login} googleDocumentId={googleDocumentId} />} />
@@ -1160,15 +1177,15 @@ function App(props) {
                     <Route  path={`lyrics`}   element={<LyricsPage  tunebook={tunebook} token={token}   />}  />
                     <Route path={`add`} element={<AddPage mediaController={mediaController} tunes={tunes} tunebook={tunebook} forceRefresh={forceRefresh} tunesHash={tunesHash} token={token} login={login} requestGoogleScopes={requestGoogleScopes} filter={filter} setFilter={setFilter} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />} />
                     <Route path={`add/bulk`} element={<AddPage mediaController={mediaController} tunes={tunes} tunebook={tunebook} forceRefresh={forceRefresh} tunesHash={tunesHash} token={token} login={login} requestGoogleScopes={requestGoogleScopes} filter={filter} setFilter={setFilter} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook} tagFilter={tagFilter} setTagFilter={setTagFilter} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} />} />
-                    <Route  path={`practice`} element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />} />
+                    <Route  path={`practice`} element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} waiting={waiting} tunesContentRevision={tunesContentRevision} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />} />
                     <Route  path={`tunes`}     >
                       <Route
                         index 
-                        element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />}
+                        element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} waiting={waiting} tunesContentRevision={tunesContentRevision} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />}
                       />
                       <Route
                         path={`check`}
-                        element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />}
+                        element={<MusicPage  mediaController={mediaController}  googleDocumentId={googleDocumentId} token={token} importResults={importResults} setImportResults={setImportResults} setCurrentTune={setCurrentTune} tunes={tunes}  tunesHash={props.tunesHash}  forceRefresh={forceRefresh} tunebook={tunebook} currentTuneBook={currentTuneBook} setCurrentTuneBook={setCurrentTuneBook}  blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts}  nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} scrollOffset={scrollOffset} setScrollOffset={setScrollOffset} filter={filter} setFilter={setFilter}  groupBy={groupBy} setGroupBy={setGroupBy} tagFilter={tagFilter} setTagFilter={setTagFilter} genreFilter={genreFilter} setGenreFilter={setGenreFilter} artistFilter={artistFilter} setArtistFilter={setArtistFilter} selected={selected} setSelected={setSelected} lastSelected={lastSelected} setLastSelected={setLastSelected} selectedCount={selectedCount} setSelectedCount={setSelectedCount} filtered={filtered} setFiltered={setFiltered} grouped={grouped} setGrouped={setGrouped}  tuneStatus={tuneStatus} setTuneStatus={setTuneStatus} listHash={listHash} setListHash={setListHash} startWaiting={startWaiting} stopWaiting={stopWaiting} waiting={waiting} tunesContentRevision={tunesContentRevision} searchIndex={searchIndex} loadTuneTexts={loadTuneTexts} listDisplayMode={listDisplayMode} setListDisplayMode={setListDisplayMode} tagCollation={tagCollation} setTagCollation={setTagCollation} />}
                       />
                       <Route  path={`:tuneId`} element={<MusicSingle   mediaController={mediaController}  viewMode={viewMode} setViewMode={setViewMode} tunes={tunes}   forceRefresh={forceRefresh} tunebook={tunebook}  token={token}  user={user} googleDocumentId={googleDocumentId} blockKeyboardShortcuts={blockKeyboardShortcuts} setBlockKeyboardShortcuts={setBlockKeyboardShortcuts} nowPlayingQueue={nowPlayingQueue} setNowPlayingQueue={setNowPlayingQueue} queuePlayConfirm={queuePlayConfirm} setQueuePlayConfirm={setQueuePlayConfirm} currentTuneBook={currentTuneBook} tagFilter={tagFilter} genreFilter={genreFilter} artistFilter={artistFilter} selected={selected} setPlaylist={setPlaylist} login={login} logout={logout} practiceSession={practiceSession} requestGoogleScopes={requestGoogleScopes} />} />
                       
@@ -1234,6 +1251,7 @@ function App(props) {
               </div>}
               
             </Router>
+          </TunesProvider>
 
             <div id="bottomofpage" >
                

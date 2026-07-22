@@ -47,6 +47,7 @@ export default function FileControls(props) {
     driveApi,
     requestGoogleScopes,
     login,
+    googleDocumentId,
     onTuneChange,
     stopMenuClose,
     variant, // 'toolbar' | 'menu'
@@ -168,6 +169,7 @@ export default function FileControls(props) {
         source: source || 'file',
         token: token,
         driveApi: driveApi,
+        googleDocumentId: googleDocumentId,
         uploadToDrive: !!(token && driveApi),
         setActive: true,
       })
@@ -278,6 +280,7 @@ export default function FileControls(props) {
           source: 'capture',
           token: token,
           driveApi: driveApi,
+          googleDocumentId: googleDocumentId,
           uploadToDrive: !!(token && driveApi),
           setActive: true,
         })
@@ -291,6 +294,7 @@ export default function FileControls(props) {
           type: 'image/png',
           token: token,
           driveApi: driveApi,
+          googleDocumentId: googleDocumentId,
           uploadToDrive: !!(token && driveApi),
         })
         nextTune = updated.tune

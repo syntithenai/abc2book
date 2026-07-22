@@ -377,6 +377,51 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
 		})
 	}
 
+    function findOrCreateScratchpadFolderInDrive(parentFolderId) {
+		return new Promise(function(resolve) {
+			if (!parentFolderId || !accessToken) {
+				resolve(null)
+				return
+			}
+			var folderName = 'Scratchpad'
+			var xhr = new XMLHttpRequest()
+			xhr.onload = function(res) {
+				if (!res.target.responseText) {
+					resolve(null)
+					return
+				}
+				var response = JSON.parse(res.target.responseText)
+				var found = null
+				if (response && Array.isArray(response.files)) {
+					response.files.forEach(function(file) {
+						if (file && file.name === folderName) {
+							found = file.id
+						}
+					})
+				}
+				if (found) {
+					resolve(found)
+				} else {
+					createDocument(
+						folderName,
+						null,
+						'application/vnd.google-apps.folder',
+						'Scratchpad items from TuneBook',
+						parentFolderId
+					).then(function(newId) {
+						resolve(newId && !newId.error ? newId : null)
+					})
+				}
+			}
+			var filter = '?q=' + encodeURIComponent(
+				"name='" + folderName + "' and mimeType = 'application/vnd.google-apps.folder' and '" + parentFolderId + "' in parents and trashed = false"
+			)
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter + '&nocache=' + String(parseInt(Math.random() * 1000000000)))
+			xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken)
+			xhr.send()
+		})
+	}
+
     function findFileInFolder(parentFolderId, fileName) {
 		return new Promise(function(resolve) {
 			if (!parentFolderId || !fileName || !accessToken) {
@@ -1062,6 +1107,6 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
     })
   }
 
-  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, findOrCreateAudioAnalysisFolderInDrive, findFileInFolder, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument, listRevisions, getRevisionData}
+  return {findTuneBookFolderInDrive, findOrCreateRecordingsFolderInDrive, findOrCreateFilesFolderInDrive, findOrCreateAudioAnalysisFolderInDrive, findOrCreateScratchpadFolderInDrive, findFileInFolder, getPublicDocument, getPublicDocumentBlob, findDocument, getDocument,getDocumentBlob,  getDocumentMeta, updateDocument,updateDocumentData, createDocument, deleteDocument, pollChanges, stopPollChanges, addPermission, listPermissions, updatePermission, deletePermission, exportDocument, listRevisions, getRevisionData}
   
 }

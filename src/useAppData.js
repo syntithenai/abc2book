@@ -1,4 +1,4 @@
-import {useState, useEffect, useCallback} from 'react'
+import {useState, useEffect, useCallback, useRef} from 'react'
 import useUtils from './useUtils'
 import { normalizeViewMode } from './viewModeUtils'
 import useAbcTools from './useAbcTools'
@@ -183,6 +183,7 @@ export default function useAppData() {
        hashes: nextHashes,
        importhashes: prev.importhashes && typeof prev.importhashes === 'object' ? prev.importhashes : {},
      })
+     bumpTunesContentRevision()
   }
   
   // display single view as music notation OR chords and lyrics
@@ -206,9 +207,35 @@ export default function useAppData() {
   
   // memory copy of all tunes in the current database
   const [tunes, setTunesInner] = useState({});
+  const [tunesContentRevision, setTunesContentRevision] = useState(0)
+  const pendingTunesSaveRef = useRef(null)
+  const tunesSaveTimerRef = useRef(null)
+  const latestTunesRef = useRef(tunes)
+  latestTunesRef.current = tunes
+
+  function bumpTunesContentRevision() {
+    setTunesContentRevision(function(rev) { return rev + 1 })
+  }
+
+  function flushTunesPersistence() {
+    if (tunesSaveTimerRef.current) {
+      clearTimeout(tunesSaveTimerRef.current)
+      tunesSaveTimerRef.current = null
+    }
+    if (pendingTunesSaveRef.current) {
+      utils.saveLocalforageObject('bookstorage_tunes', pendingTunesSaveRef.current)
+      pendingTunesSaveRef.current = null
+    }
+  }
+
   function setTunes(val) {
     setTunesInner(val)
-    utils.saveLocalforageObject('bookstorage_tunes', val)
+    bumpTunesContentRevision()
+    pendingTunesSaveRef.current = val
+    if (tunesSaveTimerRef.current) clearTimeout(tunesSaveTimerRef.current)
+    tunesSaveTimerRef.current = setTimeout(function() {
+      flushTunesPersistence()
+    }, 750)
   }
 
   const [deletedTunes, setDeletedTunesInner] = useState({});
@@ -226,6 +253,14 @@ export default function useAppData() {
     utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(t) {
             setDeletedTunesInner(t || {})
     })
+    function handleBeforeUnload() {
+      flushTunesPersistence()
+    }
+    window.addEventListener('beforeunload', handleBeforeUnload)
+    return function() {
+      window.removeEventListener('beforeunload', handleBeforeUnload)
+      flushTunesPersistence()
+    }
   // eslint-disable-next-line react-hooks/exhaustive-deps -- load persisted tunes once on mount
   },[])
   
@@ -252,6 +287,6 @@ export default function useAppData() {
   const [queuePlayConfirm, setQueuePlayConfirm] = useState(null)
   
   
- return {tunes, setTunes, setTunesInner, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport} 
+ return {tunes, setTunes, setTunesInner, tunesContentRevision, flushTunesPersistence, deletedTunes, setDeletedTunes, setDeletedTunesInner, tunesHash, setTunesHashInner, setTunesHash,  currentTuneBook, setCurrentTuneBookInner, setCurrentTuneBook, currentTune, setCurrentTune, setCurrentTuneInner, setPageMessage, pageMessage, stopWaiting, startWaiting, waiting, setWaiting, refreshHash, setRefreshHash, forceRefresh, sheetUpdateResults, setSheetUpdateResults, updateTunesHash, buildTunesHash, viewMode, setViewMode, importResults, setImportResults, googleDocumentId, setGoogleDocumentId, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, queuePlayConfirm, setQueuePlayConfirm, scrollOffset, setScrollOffset, filter, setFilter, groupBy, setGroupBy, tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, selected, setSelected, lastSelected, setLastSelected,selectedCount, setSelectedCount, filtered, setFiltered,grouped, setGrouped, tuneStatus, setTuneStatus, listHash, setListHash, listDisplayMode, setListDisplayMode, tagCollation, setTagCollation, forceNav, setForceNav, navigateAfterImport, setNavigateAfterImport}
   
 }

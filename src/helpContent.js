@@ -17,7 +17,8 @@ export const HELP_NAV = [
   { id: 'import-from-media', title: 'Import from media' },
   { id: 'chord-sheet-import', title: 'Chord sheet import and export' },
   { id: 'foot-pedal', title: 'Foot pedal / page turn' },
-  { id: 'performance-sets', title: 'Performance sets and Gig Mode' },
+  { id: 'performance-sets', title: 'Performance sets' },
+  { id: 'scratchpad', title: 'Scratchpad' },
   { id: 'more-features', title: 'More features' },
   { id: 'youtube', title: 'YouTube and linked media' },
   { id: 'abc-notation', title: 'ABC notation' },
@@ -91,6 +92,7 @@ export function HelpWhatYouCanDo() {
         <li>Books and tags; filter on the Tunes page; <strong>save filters</strong> on the Books page for one-tap recall.</li>
         <li>Book Tools (dropdown arrow on Books page): Download, Play Media, Play Midi, Cheat Sheet, Print, Share.</li>
         <li>Share tunes, books, or performance sets when logged in — scan the QR code, copy the link, or email it. Recipients choose what to import (one tune, a book, a set, or the whole tunebook).</li>
+        <li>After you share a tunebook once, new recordings and PDF attachments you add are automatically made readable by anyone with the import link (same as the tunebook document).</li>
         <li>Import <strong>shared tune books</strong> from curated collections (Add → <strong>Bulk</strong>) or shared Google import links.</li>
       </ul>
       <h4>Offline and sync</h4>
@@ -476,11 +478,27 @@ export function HelpPerformanceSets() {
   );
 }
 
+export function HelpScratchpad() {
+  return (
+    <>
+      <p><Link to="/scratchpad">Scratchpad</Link> is a local workspace for drafts — text, images, notation, and audio — before you attach them to tunes.</p>
+      <ul>
+        <li>Open <strong>Scratchpad</strong> from the header menu (between Practice and Feed).</li>
+        <li>Use workspaces to group items. Tap <strong>+</strong> beside the workspace dropdown to create one.</li>
+        <li>Tap the green <strong>Create</strong> button to add text, capture/import images, blank or imported notation, or record/import audio.</li>
+        <li>Open an item to edit. Use <strong>Associate with tune</strong> to attach snapshots, merge notation or lyrics, or add audio links.</li>
+      </ul>
+      <p>Scratchpad data is stored on this device first; the schema is ready for future sync.</p>
+    </>
+  );
+}
+
 export function HelpMoreFeatures() {
   return (
     <>
       <ul>
         <li><strong>Performance sets</strong> — Header menu or footer → <strong>Sets</strong> — build gig setlists and play them in fullscreen Gig Mode (<Link to="/gig">/gig</Link>).</li>
+        <li><strong>Scratchpad</strong> — Header menu → <strong>Scratchpad</strong> — local drafts (text, images, notation, audio) with tune association (<Link to="/scratchpad">/scratchpad</Link>).</li>
         <li><strong>Foot pedal scrolling</strong> — Settings → <strong>Foot pedal / page turn</strong> — scroll through charts hands-free; see Help → Foot pedal.</li>
         <li><strong>Import shared books</strong> — Add → <strong>Bulk</strong> → curated books (or Books page). Open a shared import link from another user to merge a tune book into yours.</li>
         <li><strong>File / Drive / Capture / Paste</strong> on the Add tab stage imports through a review queue (identity, match, optional enrich, field merge) instead of blocking the app. Use <strong>Add From</strong> on the Add form.</li>
@@ -646,6 +664,7 @@ export const HELP_SECTIONS = [
   { id: 'chord-sheet-import', title: 'Chord sheet import and export', Content: HelpChordSheetImport },
   { id: 'foot-pedal', title: 'Foot pedal / page turn', Content: HelpFootPedal },
   { id: 'performance-sets', title: 'Performance sets and Gig Mode', Content: HelpPerformanceSets },
+  { id: 'scratchpad', title: 'Scratchpad', Content: HelpScratchpad },
   { id: 'more-features', title: 'More useful features', Content: HelpMoreFeatures },
   { id: 'youtube', title: 'YouTube and linked media', Content: HelpYouTube },
   { id: 'abc-notation', title: 'ABC notation', Content: HelpAbcNotation },

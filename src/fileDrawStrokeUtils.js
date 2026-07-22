@@ -53,14 +53,61 @@ export function drawStrokeOnContext(ctx, stroke) {
   ctx.restore()
 }
 
-export function redrawInkLayer(canvas, strokes) {
+export function drawTextBlocksOnContext(ctx, textBlocks, canvasWidth, canvasHeight) {
+  if (!ctx || !canvasWidth || !canvasHeight) return
+  ;(textBlocks || []).forEach(function(block) {
+    const x = ((block.x || 0) / 100) * canvasWidth
+    const y = ((block.y || 0) / 100) * canvasHeight
+    const fontSize = block.fontSize || 16
+    const text = String(block.text || '').trim()
+    if (!text) return
+    ctx.save()
+    ctx.fillStyle = block.color || '#111111'
+    ctx.font = fontSize + 'px sans-serif'
+    ctx.textBaseline = 'top'
+    const lines = text.split('\n')
+    let lineY = y + 4
+    const maxWidth = Math.max(20, ((block.width || 30) / 100) * canvasWidth - 8)
+    lines.forEach(function(line) {
+      if (!line) {
+        lineY += fontSize * 1.25
+        return
+      }
+      const words = line.split(' ')
+      let current = ''
+      words.forEach(function(word, index) {
+        const trial = current ? current + ' ' + word : word
+        if (ctx.measureText(trial).width > maxWidth && current) {
+          ctx.fillText(current, x + 4, lineY)
+          lineY += fontSize * 1.25
+          current = word
+        } else {
+          current = trial
+        }
+        if (index === words.length - 1 && current) {
+          ctx.fillText(current, x + 4, lineY)
+          lineY += fontSize * 1.25
+        }
+      })
+    })
+    ctx.restore()
+  })
+}
+
+export function redrawInkLayer(canvas, strokes, baseImage, textBlocks) {
   if (!canvas) return
   const ctx = canvas.getContext('2d')
   if (!ctx) return
   ctx.clearRect(0, 0, canvas.width, canvas.height)
+  if (baseImage) {
+    ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height)
+  }
   ;(strokes || []).forEach(function(stroke) {
     drawStrokeOnContext(ctx, stroke)
   })
+  if (textBlocks && textBlocks.length) {
+    drawTextBlocksOnContext(ctx, textBlocks, canvas.width, canvas.height)
+  }
 }
 
 export async function compositeImageAndInk(baseImage, inkCanvas) {

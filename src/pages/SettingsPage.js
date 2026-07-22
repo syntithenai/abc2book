@@ -25,6 +25,7 @@ import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
 import ProvidersSettingsSection from '../components/ProvidersSettingsSection'
 import BackupSettingsSection from '../components/BackupSettingsSection'
 import SourcesSettingsSection from '../components/SourcesSettingsSection'
+import DuplicateManagerSettingsSection from '../components/DuplicateManagerSettingsSection'
 import {
   AUDIO_COMPRESS_FORMAT_OPTIONS,
   loadAudioCompressSettings,
@@ -54,6 +55,7 @@ const TAB_PROVIDERS = 'providers'
 const TAB_PEDAL = 'pedal'
 const TAB_BACKUP = 'backup'
 const TAB_SOURCES = 'sources'
+const TAB_DUPLICATES = 'duplicates'
 
 function formatFeatureSummary(features) {
   if (!features) return ''
@@ -106,6 +108,7 @@ export default function SettingsPage(props) {
   const token = props.token
   const accessToken = token && token.access_token ? token.access_token : null
   const tunes = props.tunes || {}
+  const tunesHash = props.tunesHash || {}
   const deletedTunes = props.deletedTunes || {}
   const totalTuneCount = Object.keys(tunes).length
   const lockedCacheTuneCount = countMediaCacheLockedTunes(tunes)
@@ -378,6 +381,9 @@ export default function SettingsPage(props) {
           <Nav.Link eventKey={TAB_SOURCES}>Sources</Nav.Link>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link eventKey={TAB_DUPLICATES}>Duplicates</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link eventKey={TAB_PEDAL}>Pedal</Nav.Link>
         </Nav.Item>
         <Nav.Item>
@@ -639,6 +645,16 @@ export default function SettingsPage(props) {
             onCheckMergeNow={handleCheckMergeNow}
             mergeCheckBusy={mergeCheckBusy}
           />
+        </Tab.Pane>
+
+        <Tab.Pane eventKey={TAB_DUPLICATES}>
+          {activeTab === TAB_DUPLICATES ? (
+            <DuplicateManagerSettingsSection
+              tunes={tunes}
+              tunesHash={tunesHash}
+              tunebook={tunebook}
+            />
+          ) : null}
         </Tab.Pane>
 
         <Tab.Pane eventKey={TAB_PEDAL}>

@@ -91,6 +91,7 @@ export default function LinksEditorModal(props) {
                     tuneId={activeTune && activeTune.id}
                     handleClose={handleClose}
                     token={props.token}
+                    googleDocumentId={props.googleDocumentId}
                     forceRefresh={props.forceRefresh}
                 />
             </div>

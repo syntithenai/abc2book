@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { resumeTunePlayback } from './tunePlaybackActions'
 
 /** Tool pages that use audio themselves — pause the tune player while visiting. */
-export const PLAYBACK_INTERRUPT_PATH_PREFIXES = ['/metronome', '/tuner', '/piano']
+export const PLAYBACK_INTERRUPT_PATH_PREFIXES = ['/metronome', '/tuner', '/piano', '/scratchpad']
 
 export function isPlaybackInterruptPath(pathname) {
   if (!pathname) return false

@@ -229,3 +229,32 @@ export function countIssuesInReports(reports) {
     return report.severity !== SEVERITY_GREEN
   }).length
 }
+
+/**
+ * All check issues for a tune report — used to gate notation fix actions even when
+ * only a subset is shown in the issue list (e.g. blue-severity info-only display).
+ */
+export function collectReportIssuesForFixes(report) {
+  if (!report) return []
+  const seen = {}
+  const items = []
+
+  function addIssue(item) {
+    if (!item || !item.code || seen[item.code]) return
+    seen[item.code] = true
+    items.push(item)
+  }
+
+  function addFromResult(result) {
+    if (!result || !Array.isArray(result.issues)) return
+    result.issues.forEach(addIssue)
+  }
+
+  addFromResult(report.completenessResult)
+  addFromResult(report.abcResult)
+  addFromResult(report.structureResult)
+  if (Array.isArray(report.issues)) {
+    report.issues.forEach(addIssue)
+  }
+  return items
+}

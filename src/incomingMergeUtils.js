@@ -5,6 +5,7 @@ import {
   setAllTuneImportSelections,
   tunePairHasDifferingImportFields,
 } from './tuneImportMergeUtils';
+import { mergeTuneCollectionExtras } from './tuneMergeExtras';
 import { isLocallyDeletedTune, isIncomingTuneNewer, toTuneUpdatedMs } from './tuneBookSync';
 import { isSourceMergeDismissed } from './sourceMergeDismissals';
 
@@ -176,6 +177,7 @@ export function applyRecordFieldMerge(record, selections) {
     return record.incomingTune || record.localTune;
   }
   const merged = applyTuneImportSelections(record.localTune, record.incomingTune, selections);
+  mergeTuneCollectionExtras(merged, record.localTune, record.incomingTune);
   // The merge decision must supersede the incoming copy even when the remote
   // device's clock is ahead of ours; otherwise the next sync classifies the
   // remote tune as newer again and re-prompts with the same items.

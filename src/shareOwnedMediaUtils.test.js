@@ -2,6 +2,13 @@ import {
   collectOwnedMediaForShareScope,
   uploadPendingOwnedMediaInScope,
   summarizeShareMediaWork,
+  isTunebookPublicShared,
+  publicizeDriveFiles,
+  autoPublicizeMediaIfTunebookShared,
+  resetTunebookPublicSharedCache,
+  getTunebookPublicConfirmKey,
+  audioPublicConfirmKey,
+  filePublicConfirmKey,
 } from './shareOwnedMediaUtils'
 import { tuneIdsForPlaylist } from './shareTunebookUtils'
 
@@ -40,6 +47,8 @@ describe('shareOwnedMediaUtils', function() {
     uploadOwnedMediaLinksForTune.mockImplementation(async function(tune) {
       return { uploaded: 0, errors: [], tune: tune }
     })
+    resetTunebookPublicSharedCache()
+    localStorage.clear()
   })
 
   test('collectOwnedMediaForShareScope on tune includes all owned links', function() {
@@ -121,5 +130,88 @@ describe('shareOwnedMediaUtils', function() {
     expect(work.needsPublic).toBe(1)
     expect(work.hasWork).toBe(true)
     expect(work.displayItems.length).toBe(2)
+  })
+
+  test('isTunebookPublicShared returns false without local consent', async function() {
+    const driveApi = {
+      listPermissions: jest.fn(),
+    }
+    expect(await isTunebookPublicShared(driveApi, 'doc1')).toBe(false)
+    expect(driveApi.listPermissions).not.toHaveBeenCalled()
+  })
+
+  test('isTunebookPublicShared verifies anyone reader when consent is set', async function() {
+    localStorage.setItem(getTunebookPublicConfirmKey(), 'true')
+    const driveApi = {
+      listPermissions: jest.fn().mockResolvedValue({
+        data: { permissions: [{ type: 'anyone', role: 'reader' }] },
+      }),
+    }
+    expect(await isTunebookPublicShared(driveApi, 'doc1')).toBe(true)
+    expect(driveApi.listPermissions).toHaveBeenCalledWith('doc1')
+  })
+
+  test('publicizeDriveFiles skips already-public files and shares private ones', async function() {
+    localStorage.setItem(audioPublicConfirmKey('gid-public'), 'true')
+    const driveApi = {
+      listPermissions: jest.fn().mockImplementation(function(id) {
+        if (id === 'gid-live-public') {
+          return Promise.resolve({
+            data: { permissions: [{ type: 'anyone', role: 'reader' }] },
+          })
+        }
+        return Promise.resolve({ data: { permissions: [] } })
+      }),
+      addPermission: jest.fn().mockResolvedValue({}),
+    }
+
+    const result = await publicizeDriveFiles(driveApi, [
+      { googleId: 'gid-public', kind: 'audio', label: 'Already confirmed' },
+      { googleId: 'gid-live-public', kind: 'audio', label: 'Already on Drive' },
+      { googleId: 'gid-private', kind: 'audio', label: 'Needs share' },
+    ], { autoConfirmPublic: true })
+
+    expect(result.alreadyPublic).toBe(2)
+    expect(result.shared).toBe(1)
+    expect(driveApi.addPermission).toHaveBeenCalledTimes(1)
+    expect(driveApi.addPermission).toHaveBeenCalledWith('gid-private', { type: 'anyone', role: 'reader' })
+    expect(localStorage.getItem(audioPublicConfirmKey('gid-private'))).toBe('true')
+  })
+
+  test('autoPublicizeMediaIfTunebookShared no-ops when tunebook is private', async function() {
+    const driveApi = {
+      listPermissions: jest.fn(),
+      addPermission: jest.fn(),
+    }
+    const result = await autoPublicizeMediaIfTunebookShared({
+      driveApi: driveApi,
+      googleDocumentId: 'doc1',
+      items: [{ googleId: 'gid1', kind: 'audio', label: 'Audio' }],
+    })
+    expect(result.skipped).toBe(1)
+    expect(result.shared).toBe(0)
+    expect(driveApi.addPermission).not.toHaveBeenCalled()
+  })
+
+  test('autoPublicizeMediaIfTunebookShared publicizes when tunebook is shared', async function() {
+    localStorage.setItem(getTunebookPublicConfirmKey(), 'true')
+    const driveApi = {
+      listPermissions: jest.fn().mockImplementation(function(id) {
+        if (id === 'doc1') {
+          return Promise.resolve({
+            data: { permissions: [{ type: 'anyone', role: 'reader' }] },
+          })
+        }
+        return Promise.resolve({ data: { permissions: [] } })
+      }),
+      addPermission: jest.fn().mockResolvedValue({}),
+    }
+    const result = await autoPublicizeMediaIfTunebookShared({
+      driveApi: driveApi,
+      googleDocumentId: 'doc1',
+      items: [{ googleId: 'gid1', kind: 'file', label: 'Snapshot' }],
+    })
+    expect(result.shared).toBe(1)
+    expect(localStorage.getItem(filePublicConfirmKey('gid1'))).toBe('true')
   })
 })

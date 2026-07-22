@@ -980,6 +980,28 @@ The main difference between the two functions is the additional condition in app
     return Object.keys(bucket || {})
   }
 
+  function reindexImportBuckets(data, beforeSnapshots) {
+    if (!indexes) return
+    var changedIds = tuneIdsFromBucket(data.updates)
+      .concat(tuneIdsFromBucket(data.inserts))
+      .concat(tuneIdsFromBucket(data.localUpdates))
+      .concat(tuneIdsFromBucket(data.skippedUpdates))
+      .concat(tuneIdsFromBucket(data.duplicates))
+    Object.keys(data.deletes || {}).forEach(function(id) {
+      var snapshot = beforeSnapshots && beforeSnapshots[id]
+      if (snapshot && indexes.unindexTune) {
+        indexes.unindexTune(snapshot)
+      } else if (tunes[id] && indexes.unindexTune) {
+        indexes.unindexTune(tunes[id])
+      }
+    })
+    if (indexes.indexChangedTunes) {
+      indexes.indexChangedTunes(tunes, changedIds)
+    } else if (indexes.indexTunes) {
+      indexes.indexTunes(tunes)
+    }
+  }
+
   function clearTombstonesForTunes(tuneIds) {
     if (!setDeletedTunes || !tuneIds || tuneIds.length === 0) return
     var nextDeleted = Object.assign({}, deletedTunes || {})
@@ -1000,6 +1022,10 @@ The main difference between the two functions is the additional condition in app
             //console.log('havetunes',  tunes, tunesHash)
       
             var {inserts, updates, duplicates, localUpdates, deletes, remoteDeleted} = data
+            var deleteSnapshots = {}
+            Object.keys(deletes || {}).forEach(function(id) {
+              if (tunes[id]) deleteSnapshots[id] = tunes[id]
+            })
             if (deletes && Object.keys(deletes).length > 0) {
               tunes = applyDeletedTunes(tunes, deletes, remoteDeleted)
             }
@@ -1059,9 +1085,7 @@ The main difference between the two functions is the additional condition in app
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
-              indexes.resetBookIndex()
-              indexes.resetTagIndex()
-              indexes.indexTunes(tunes)
+              reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, duplicates: duplicates, deletes: deletes }, deleteSnapshots)
               setImportResults(null)
               saveTunesOnline()
               resolve(tunes)
@@ -1311,9 +1335,7 @@ The main difference between the two functions is the additional condition in app
               refreshPersistedTuneSnapshots(tunes)
               setTunes(tunes)
               buildTunesHash()
-              indexes.resetBookIndex()
-              indexes.resetTagIndex()
-              indexes.indexTunes(tunes)
+              reindexImportBuckets({ updates: updates, inserts: inserts, localUpdates: localUpdates, skippedUpdates: skippedUpdates, duplicates: duplicates, deletes: deletes }, beforeSnapshots)
               setImportResults(null)
               saveTunesOnline()
               resolve(tunes)

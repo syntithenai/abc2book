@@ -1,3 +1,4 @@
+import { appendFreshLoadParam } from './appFreshLoadUtils'
 import { normalizePerformanceSetItems } from './performanceSetStore'
 import { tuneIdsForPlaylistRecord } from './savedPlaylistsStore'
 
@@ -55,7 +56,9 @@ export function buildShareImportLink(options) {
     path += '/share/tag/' + encodeURIComponent(opts.tagName)
   }
 
-  return base + path
+  const includeFreshParam = opts.includeFreshParam !== false
+  const link = base + path
+  return includeFreshParam ? appendFreshLoadParam(link) : link
 }
 
 export function shareModalTitle(shareKind, context) {

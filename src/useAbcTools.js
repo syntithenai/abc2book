@@ -15,6 +15,7 @@ import {
   renderBibliographicTitleLines,
 } from './tuneBibliographicUtils'
 import { renderTimedJsonFields, applyAbcbookJsonChunks, collectAbcbookJsonChunk, parseAbcbookJsonLine, LEGACY_TIMED_JSON_FIELDS } from './abcbookJsonFields'
+import { convertSessionLineBreaks } from './abcImportNormalize'
 
 var useAbcTools = () => {
     var utils = useUtils()
@@ -1450,7 +1451,7 @@ var useAbcTools = () => {
     }
 
     function fixNotesBang(abc) {
-        return  getNotesFromAbc(abc).replace(/!/g,"\n")
+        return convertSessionLineBreaks(getNotesFromAbc(abc))
     }
     
     function multiplyAbcTiming(multiplier,abc) {

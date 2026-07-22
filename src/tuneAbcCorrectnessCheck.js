@@ -60,15 +60,17 @@ export function checkTuneAbcCorrectness(tune, options) {
     issues.push(issue('parse_failure', 'ABC notation failed to parse', 'error', 'voices'));
   }
 
-  try {
-    const visual = abcjs.renderAbc(document.createElement('div'), abcText, { add_classes: true });
-    const warnings = visual && visual.warnings ? visual.warnings : [];
-    warnings.forEach(function(warning) {
-      const text = warning && warning.message ? warning.message : String(warning);
-      issues.push(issue('render_warning', text, 'warning', 'voices'));
-    });
-  } catch (err) {
-    issues.push(issue('render_failure', 'ABC could not be rendered', 'error', 'voices'));
+  if (!opts.skipRenderAbc) {
+    try {
+      const visual = abcjs.renderAbc(document.createElement('div'), abcText, { add_classes: true });
+      const warnings = visual && visual.warnings ? visual.warnings : [];
+      warnings.forEach(function(warning) {
+        const text = warning && warning.message ? warning.message : String(warning);
+        issues.push(issue('render_warning', text, 'warning', 'voices'));
+      });
+    } catch (err) {
+      issues.push(issue('render_failure', 'ABC could not be rendered', 'error', 'voices'));
+    }
   }
 
   if (typeof opts.parseAndRender === 'function') {

@@ -15,6 +15,14 @@ import { normalizePerformanceSetItems } from './performanceSetStore'
 
 const AUDIO_PUBLIC_CONFIRM_PREFIX = 'bookstorage_audio_public_'
 const FILE_PUBLIC_CONFIRM_PREFIX = 'bookstorage_file_public_'
+const TUNEBOOK_PUBLIC_CONFIRM_KEY = 'bookstorage_tunebook_public'
+const TUNEBOOK_PUBLIC_CACHE_MS = 5 * 60 * 1000
+const AUTO_PUBLICIZE_DEBOUNCE_MS = 300
+
+let tunebookPublicCache = { docId: null, at: 0, value: false }
+let autoPublicizePendingItems = []
+let autoPublicizePendingCtx = null
+let autoPublicizeTimer = null
 
 export function isAnyoneReadable(permissionsRes) {
   const permissions = permissionsRes && permissionsRes.data && Array.isArray(permissionsRes.data.permissions)
@@ -170,6 +178,224 @@ export function hasFilePublicConfirm(googleId) {
 export function setFilePublicConfirm(googleId) {
   if (!googleId) return
   localStorage.setItem(filePublicConfirmKey(googleId), 'true')
+}
+
+export function getTunebookPublicConfirmKey() {
+  return TUNEBOOK_PUBLIC_CONFIRM_KEY
+}
+
+export function resetTunebookPublicSharedCache() {
+  tunebookPublicCache = { docId: null, at: 0, value: false }
+}
+
+export async function isTunebookPublicShared(driveApi, googleDocumentId) {
+  if (!googleDocumentId || !driveApi) return false
+
+  const now = Date.now()
+  if (
+    tunebookPublicCache.docId === googleDocumentId
+    && (now - tunebookPublicCache.at) < TUNEBOOK_PUBLIC_CACHE_MS
+  ) {
+    return tunebookPublicCache.value
+  }
+
+  if (typeof localStorage === 'undefined' || localStorage.getItem(TUNEBOOK_PUBLIC_CONFIRM_KEY) !== 'true') {
+    tunebookPublicCache = { docId: googleDocumentId, at: now, value: false }
+    return false
+  }
+
+  if (typeof driveApi.listPermissions !== 'function') {
+    tunebookPublicCache = { docId: googleDocumentId, at: now, value: true }
+    return true
+  }
+
+  try {
+    const res = await driveApi.listPermissions(googleDocumentId)
+    const value = isAnyoneReadable(res)
+    tunebookPublicCache = { docId: googleDocumentId, at: now, value: value }
+    return value
+  } catch (e) {
+    return false
+  }
+}
+
+function dedupePublicizeItems(items) {
+  const seen = {}
+  const unique = []
+  ;(items || []).forEach(function(item) {
+    if (!item || !item.googleId) return
+    const key = String(item.kind || 'audio') + ':' + String(item.googleId)
+    if (seen[key]) return
+    seen[key] = true
+    unique.push(item)
+  })
+  return unique
+}
+
+export async function publicizeDriveFiles(driveApi, items, options) {
+  const opts = options || {}
+  const confirmFn = typeof opts.confirm === 'function' ? opts.confirm : null
+  const autoConfirmPublic = opts.autoConfirmPublic === true
+  const summary = {
+    shared: 0,
+    skipped: 0,
+    failed: [],
+    alreadyPublic: 0,
+    cancelled: 0,
+  }
+
+  if (!driveApi || typeof driveApi.addPermission !== 'function') {
+    summary.skipped = (items || []).length
+    return summary
+  }
+
+  let tasks = dedupePublicizeItems(items)
+  if (tasks.length === 0) return summary
+
+  const needsPermissionCheck = typeof driveApi.listPermissions === 'function'
+  const stillPrivate = []
+
+  for (let i = 0; i < tasks.length; i += 1) {
+    const item = tasks[i]
+    const kind = item.kind === 'file' ? 'file' : 'audio'
+    const hasConfirm = kind === 'file'
+      ? hasFilePublicConfirm(item.googleId)
+      : hasAudioPublicConfirm(item.googleId)
+    if (hasConfirm) {
+      summary.alreadyPublic += 1
+      continue
+    }
+
+    if (needsPermissionCheck) {
+      try {
+        const res = await driveApi.listPermissions(item.googleId)
+        if (isAnyoneReadable(res)) {
+          if (kind === 'file') setFilePublicConfirm(item.googleId)
+          else setAudioPublicConfirm(item.googleId)
+          summary.alreadyPublic += 1
+          continue
+        }
+      } catch (e) { /* treat as private */ }
+    }
+
+    stillPrivate.push(item)
+  }
+
+  tasks = stillPrivate
+  const total = tasks.length
+
+  for (let i = 0; i < tasks.length; i += 1) {
+    const task = tasks[i]
+    const label = task.label || task.googleId
+    if (typeof opts.onProgress === 'function') {
+      opts.onProgress({
+        current: i + 1,
+        total: total,
+        message: 'Sharing "' + label + '"…',
+        fileName: label,
+      })
+    }
+
+    if (!autoConfirmPublic && confirmFn) {
+      const ok = confirmFn('"' + label + '" will be readable by anyone with the link. Continue?')
+      if (!ok) {
+        summary.cancelled += 1
+        summary.skipped += 1
+        if (typeof opts.onEvent === 'function') {
+          opts.onEvent({
+            type: 'warning',
+            message: 'Skipped sharing "' + label + '".',
+          })
+        }
+        continue
+      }
+    }
+
+    if (typeof opts.onEvent === 'function') {
+      opts.onEvent({
+        type: 'info',
+        message: 'Making "' + label + '" publicly readable…',
+      })
+    }
+
+    const permResult = await driveApi.addPermission(task.googleId, { type: 'anyone', role: 'reader' })
+    if (permResult && permResult.error) {
+      summary.failed.push(label)
+      if (typeof opts.onEvent === 'function') {
+        opts.onEvent({
+          type: 'error',
+          message: 'Could not share "' + label + '".',
+        })
+      }
+      continue
+    }
+
+    if (task.kind === 'file') setFilePublicConfirm(task.googleId)
+    else setAudioPublicConfirm(task.googleId)
+    summary.shared += 1
+    if (typeof opts.onEvent === 'function') {
+      opts.onEvent({
+        type: 'success',
+        message: 'Shared "' + label + '" publicly.',
+      })
+    }
+  }
+
+  return summary
+}
+
+export async function autoPublicizeMediaIfTunebookShared(options) {
+  const opts = options || {}
+  const driveApi = opts.driveApi
+  const googleDocumentId = opts.googleDocumentId
+  const items = dedupePublicizeItems(opts.items)
+  if (!driveApi || !googleDocumentId || items.length === 0) {
+    return { shared: 0, failed: [], alreadyPublic: 0, skipped: items.length, cancelled: 0 }
+  }
+
+  const isPublic = await isTunebookPublicShared(driveApi, googleDocumentId)
+  if (!isPublic) {
+    return { shared: 0, failed: [], alreadyPublic: 0, skipped: items.length, cancelled: 0 }
+  }
+
+  const result = await publicizeDriveFiles(driveApi, items, { autoConfirmPublic: true })
+  if (result.failed && result.failed.length > 0 && typeof opts.onFailureToast === 'function') {
+    opts.onFailureToast(result.failed.length)
+  }
+  return result
+}
+
+export function queueAutoPublicizeMediaIfTunebookShared(options) {
+  const opts = options || {}
+  if (!opts.driveApi || !opts.googleDocumentId) return
+
+  const incoming = dedupePublicizeItems(opts.items)
+  if (incoming.length === 0) return
+
+  autoPublicizePendingCtx = {
+    driveApi: opts.driveApi,
+    googleDocumentId: opts.googleDocumentId,
+    onFailureToast: opts.onFailureToast,
+  }
+
+  incoming.forEach(function(item) {
+    const key = String(item.kind || 'audio') + ':' + String(item.googleId)
+    const exists = autoPublicizePendingItems.some(function(pending) {
+      return String(pending.kind || 'audio') + ':' + String(pending.googleId) === key
+    })
+    if (!exists) autoPublicizePendingItems.push(item)
+  })
+
+  if (autoPublicizeTimer) clearTimeout(autoPublicizeTimer)
+  autoPublicizeTimer = setTimeout(function() {
+    const ctx = autoPublicizePendingCtx
+    const items = autoPublicizePendingItems.slice()
+    autoPublicizePendingItems = []
+    autoPublicizePendingCtx = null
+    autoPublicizeTimer = null
+    if (!ctx || items.length === 0) return
+    autoPublicizeMediaIfTunebookShared(Object.assign({}, ctx, { items: items })).catch(function() {})
+  }, AUTO_PUBLICIZE_DEBOUNCE_MS)
 }
 
 export async function checkOwnedMediaPublicStatus(driveApi, googleDocumentId, entries) {
@@ -371,6 +597,7 @@ export async function uploadPendingOwnedMediaInScope(tunes, scope, options) {
     token: token,
     driveApi: driveApi,
     saveTune: saveTune,
+    googleDocumentId: opts.googleDocumentId,
     onFileStart: function(info) {
       uploadStep += 1
       emitShareMediaProgress(opts, {
@@ -436,6 +663,7 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     token: opts.token,
     driveApi: driveApi,
     saveTune: opts.saveTune,
+    googleDocumentId: opts.googleDocumentId,
     onEvent: opts.onEvent,
     onProgress: opts.onProgress,
   })
@@ -524,55 +752,28 @@ export async function prepareOwnedMediaForShare(tunes, scope, options) {
     message: publicTasks.length > 0 ? 'Making audio files publicly readable…' : 'No public permission changes needed.',
   })
 
-  for (let i = 0; i < publicTasks.length; i += 1) {
-    const task = publicTasks[i]
-    emitShareMediaProgress(opts, {
-      phase: 'permissions',
-      current: i + 1,
-      total: publicTasks.length,
-      message: 'Sharing "' + task.label + '"…',
-      fileName: task.label,
-    })
-
-    if (!autoConfirmPublic) {
-      const message = '"' + task.label + '" will be readable by anyone with the link. Continue?'
-      const ok = confirmFn(message)
-      if (!ok) {
-        summary.cancelled += 1
-        summary.skipped += 1
-        emitShareMediaEvent(opts, {
-          type: 'warning',
-          message: 'Skipped sharing "' + task.label + '".',
-        })
-        continue
-      }
+  const publicizeResult = await publicizeDriveFiles(driveApi, publicTasks.map(function(task) {
+    return {
+      googleId: task.googleId,
+      kind: task.kind,
+      label: task.label,
     }
+  }), {
+    autoConfirmPublic: autoConfirmPublic,
+    confirm: autoConfirmPublic ? null : confirmFn,
+    onProgress: function(progress) {
+      emitShareMediaProgress(opts, Object.assign({ phase: 'permissions' }, progress))
+    },
+    onEvent: function(event) {
+      emitShareMediaEvent(opts, event)
+    },
+  })
 
-    emitShareMediaEvent(opts, {
-      type: 'info',
-      message: 'Making "' + task.label + '" publicly readable…',
-    })
-
-    const permResult = await driveApi.addPermission(task.googleId, { type: 'anyone', role: 'reader' })
-    if (permResult && permResult.error) {
-      summary.failed.push(task.label)
-      emitShareMediaEvent(opts, {
-        type: 'error',
-        message: 'Could not share "' + task.label + '".',
-      })
-      continue
-    }
-    if (task.kind === 'audio') {
-      setAudioPublicConfirm(task.googleId)
-    } else {
-      setFilePublicConfirm(task.googleId)
-    }
-    summary.shared += 1
-    emitShareMediaEvent(opts, {
-      type: 'success',
-      message: 'Shared "' + task.label + '" publicly.',
-    })
-  }
+  summary.shared = publicizeResult.shared
+  summary.skipped += publicizeResult.skipped
+  summary.failed = publicizeResult.failed
+  summary.alreadyPublic += publicizeResult.alreadyPublic
+  summary.cancelled += publicizeResult.cancelled
 
   emitShareMediaProgress(opts, {
     phase: 'permissions',

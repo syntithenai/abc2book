@@ -39,6 +39,83 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      (function() {
+        var ATTEMPT_KEY = 'bookstorage_fresh_load_attempt';
+        var ABORTED_KEY = 'bookstorage_fresh_load_aborted';
+        var PREFER_KEY = 'bookstorage_prefer_fresh_app';
+        var PENDING_CLEAR_KEY = 'bookstorage_fresh_pending_cache_clear';
+        var REVERT_HASH = '#/tunes';
+        var WATCHDOG_MS = 20000;
+
+        function hasFreshParam() {
+          try {
+            if (new URLSearchParams(window.location.search).get('fresh') === '1') return true;
+            var hash = window.location.hash || '';
+            var qIndex = hash.indexOf('?');
+            if (qIndex < 0) return false;
+            return new URLSearchParams(hash.slice(qIndex + 1)).get('fresh') === '1';
+          } catch (e) {
+            return false;
+          }
+        }
+
+        function isImportRoute() {
+          var hash = window.location.hash || '';
+          return hash.indexOf('#/importdoc') === 0;
+        }
+
+        function revertUrl() {
+          return (window.location.pathname || '/') + REVERT_HASH;
+        }
+
+        function clearFreshState() {
+          try {
+            localStorage.removeItem(PREFER_KEY);
+            localStorage.removeItem(PENDING_CLEAR_KEY);
+            sessionStorage.removeItem(ATTEMPT_KEY);
+          } catch (e) {}
+        }
+
+        function revertToCachedApp() {
+          clearFreshState();
+          try { sessionStorage.setItem(ABORTED_KEY, '1'); } catch (e) {}
+          window.location.replace(isImportRoute() ? revertUrl() : (window.location.pathname || '/'));
+        }
+
+        if (!hasFreshParam()) return;
+
+        if (!navigator.onLine) {
+          revertToCachedApp();
+          return;
+        }
+
+        try { sessionStorage.setItem(ATTEMPT_KEY, '1'); } catch (e) {}
+
+        window.setTimeout(function() {
+          try {
+            if (sessionStorage.getItem(ATTEMPT_KEY) !== '1') return;
+          } catch (e) {
+            return;
+          }
+          var root = document.getElementById('root');
+          if (root && root.childNodes && root.childNodes.length > 0) return;
+          revertToCachedApp();
+        }, WATCHDOG_MS);
+
+        window.addEventListener('error', function(event) {
+          try {
+            if (sessionStorage.getItem(ATTEMPT_KEY) !== '1') return;
+          } catch (e) {
+            return;
+          }
+          var src = event && (event.filename || (event.target && event.target.src));
+          if (src && String(src).indexOf('/static/') >= 0) {
+            revertToCachedApp();
+          }
+        }, true);
+      })();
+    </script>
     <div id="root"></div>
     
     <!--

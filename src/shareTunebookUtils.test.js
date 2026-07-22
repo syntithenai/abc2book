@@ -15,34 +15,34 @@ describe('shareTunebookUtils', function() {
       googleDocumentId: 'doc123',
       shareKind: 'tune',
       tuneId: 'tune/1',
-    })).toBe('http://localhost:3000/#/importdoc/doc123/share/tune/tune%2F1')
+    })).toBe('http://localhost:3000/#/importdoc/doc123/share/tune/tune%2F1?fresh=1')
 
     expect(buildShareImportLink({
       origin: 'https://tunebook.net',
       googleDocumentId: 'doc123',
       shareKind: 'book',
       bookName: 'My Book',
-    })).toBe('https://tunebook.net/#/importdoc/doc123/share/book/My%20Book')
+    })).toBe('https://tunebook.net/#/importdoc/doc123/share/book/My%20Book?fresh=1')
 
     expect(buildShareImportLink({
       origin: 'https://tunebook.net',
       googleDocumentId: 'doc123',
       shareKind: 'set',
       setId: 'set-abc',
-    })).toBe('https://tunebook.net/#/importdoc/doc123/share/set/set-abc')
+    })).toBe('https://tunebook.net/#/importdoc/doc123/share/set/set-abc?fresh=1')
 
     expect(buildShareImportLink({
       origin: 'https://tunebook.net',
       googleDocumentId: 'doc123',
       shareKind: 'playlist',
       playlistId: 'pl-abc',
-    })).toBe('https://tunebook.net/#/importdoc/doc123/share/playlist/pl-abc')
+    })).toBe('https://tunebook.net/#/importdoc/doc123/share/playlist/pl-abc?fresh=1')
 
     expect(buildShareImportLink({
       origin: 'https://tunebook.net',
       googleDocumentId: 'doc123',
       shareKind: 'all',
-    })).toBe('https://tunebook.net/#/importdoc/doc123')
+    })).toBe('https://tunebook.net/#/importdoc/doc123?fresh=1')
   })
 
   test('shareOrigin uses window when origin blank', function() {

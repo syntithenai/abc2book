@@ -29,6 +29,7 @@ export default function FileDrawStage(props) {
     width,
     strokes,
     onStrokesChange,
+    compositeBase,
   } = props
 
   const shellRef = useRef(null)
@@ -44,12 +45,12 @@ export default function FileDrawStage(props) {
     const canvas = inkRef.current
     canvas.width = image.naturalWidth || image.width
     canvas.height = image.naturalHeight || image.height
-    redrawInkLayer(canvas, strokes)
-  }, [image])
+    redrawInkLayer(canvas, strokes, compositeBase ? image : null)
+  }, [image, compositeBase])
 
   useEffect(function() {
-    redrawInkLayer(inkRef.current, strokes)
-  }, [strokes])
+    redrawInkLayer(inkRef.current, strokes, compositeBase ? image : null)
+  }, [strokes, image, compositeBase])
 
   function getStageMetrics() {
     if (!image || !wrapRef.current) return null
@@ -158,7 +159,11 @@ export default function FileDrawStage(props) {
     const stroke = createStroke(tool, color, width)
     appendStrokePoint(stroke, pt.x, pt.y, e.pressure)
     drawingRef.current = stroke
-    drawStrokeOnContext(inkRef.current.getContext('2d'), stroke)
+    redrawInkLayer(
+      inkRef.current,
+      (strokes || []).concat([stroke]),
+      compositeBase ? image : null
+    )
     return true
   }
 
@@ -198,7 +203,11 @@ export default function FileDrawStage(props) {
       const pt = toImageCoords(e.clientX, e.clientY)
       if (!pt) return
       appendStrokePoint(drawingRef.current, pt.x, pt.y, e.pressure)
-      redrawInkLayer(inkRef.current, (strokes || []).concat([drawingRef.current]))
+      redrawInkLayer(
+        inkRef.current,
+        (strokes || []).concat([drawingRef.current]),
+        compositeBase ? image : null
+      )
       return
     }
     if (pinchRef.current && pinchRef.current.pointers[e.pointerId]) {
@@ -348,6 +357,7 @@ export default function FileDrawStage(props) {
                 maxWidth: 'none',
                 pointerEvents: 'none',
                 userSelect: 'none',
+                visibility: compositeBase ? 'hidden' : 'visible',
               }}
             />
             <canvas
@@ -362,6 +372,7 @@ export default function FileDrawStage(props) {
                 height: '100%',
               }}
             />
+            {props.overlayChildren || null}
           </div>
         </div>
       </div>
