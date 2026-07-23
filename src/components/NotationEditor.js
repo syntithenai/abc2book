@@ -35,6 +35,7 @@ import {
   transposeSelection,
   transposeSelectionByStaffSteps,
   changeSelectedDuration,
+  toggleDotOnSelection,
   scaleDuration,
   moveCaret,
   repeatLast,
@@ -50,6 +51,7 @@ import {
   insertBarlineAtCaret,
   insertSystemBreakAtCaret,
   insertEmptyMeasureAtCaret,
+  layoutInsertIndex,
   respellEnharmonicSelection,
 } from '../notation/notationActions';
 import {
@@ -96,7 +98,7 @@ import {
   advanceSelectionToNextNote,
   isFingerDecorationKey,
 } from '../notation/notationMarks';
-import { createEventId, eventMidiPitch, eventMelodicMidiPitch } from '../notation/voiceEventModel';
+import { createEventId, eventMidiPitch, eventMelodicMidiPitch, parseVoiceEvents } from '../notation/voiceEventModel';
 import {
   appendMidiRecordNote,
   midiRecordBufferToEvents,
@@ -179,6 +181,7 @@ export default function NotationEditor(props) {
     auditionEvent(ev, s.selection.toneIndex);
   }
   const lastNoteSelectionRef = useRef({ eventIds: [], toneIndex: null, anchorId: null });
+  const layoutInsertBeforeRef = useRef(null);
   const staffDragSuppressClickRef = useRef(false);
   const staffInputHandledRef = useRef(false);
   const staffPointerRef = useRef(null);
@@ -201,12 +204,16 @@ export default function NotationEditor(props) {
 
   const syncSessionAction = useCallback(function(action) {
     sessionRef.current = notationSessionReducer(sessionRef.current, action);
-    if (action.type === 'SET_SELECTION' && action.selection && action.selection.eventIds && action.selection.eventIds.length) {
-      lastNoteSelectionRef.current = {
-        eventIds: action.selection.eventIds.slice(),
-        toneIndex: action.selection.toneIndex,
-        anchorId: action.selection.anchorId || action.selection.eventIds[0],
-      };
+    if (action.type === 'SET_SELECTION' && action.selection) {
+      if (action.selection.eventIds && action.selection.eventIds.length) {
+        lastNoteSelectionRef.current = {
+          eventIds: action.selection.eventIds.slice(),
+          toneIndex: action.selection.toneIndex,
+          anchorId: action.selection.anchorId || action.selection.eventIds[0],
+        };
+      } else {
+        layoutInsertBeforeRef.current = null;
+      }
     }
     dispatch(action);
     return sessionRef.current;
@@ -446,7 +453,15 @@ export default function NotationEditor(props) {
       });
     }
     lastNoteSelectionRef.current = { eventIds: [], toneIndex: null, anchorId: null };
-    dispatch({ type: 'LOAD_VOICE', tuneMeta: tuneMeta, voiceBody: voiceBodyForSession(props.voiceNotes) });
+    layoutInsertBeforeRef.current = null;
+    setSelectionClickRects([]);
+    const voiceBody = voiceBodyForSession(props.voiceNotes);
+    const bodyTrim = String(voiceBody || '').replace(/^%%MIDI[^\n]*\n?/m, '').trim();
+    if (bodyTrim) {
+      const trial = parseVoiceEvents(voiceBody, tuneMeta);
+      if (!trial.length) return;
+    }
+    dispatch({ type: 'LOAD_VOICE', tuneMeta: tuneMeta, voiceBody: voiceBody });
   }, [props.voiceKey, props.voiceNotes, tuneMeta]);
 
   useEffect(function() {
@@ -489,13 +504,13 @@ export default function NotationEditor(props) {
     clearTimeout(commitDebounce.current);
     const eventsSnapshot = events;
     commitDebounce.current = setTimeout(function() {
-      const raw = serializeVoiceEventsViaParser(eventsSnapshot, tuneMeta, abcjsParser);
+      const raw = serializeVoiceEvents(eventsSnapshot, tuneMeta);
       const body = commitBodyWithMidi(raw, vk);
       lastCommittedAbcRef.current = body;
       skipExternalLoad.current = true;
       props.onVoiceNotesChange(vk, body, label);
     }, 50);
-  }, [abcjsParser, props, tuneMeta, commitBodyWithMidi]);
+  }, [props, tuneMeta, commitBodyWithMidi]);
 
   useEffect(function() {
     if (!session.dirty) return;
@@ -512,12 +527,12 @@ export default function NotationEditor(props) {
     const s = sessionRef.current;
     if (!s || !Array.isArray(s.events)) return;
     const vk = voiceKey != null ? voiceKey : props.voiceKey;
-    const raw = serializeVoiceEventsViaParser(s.events, tuneMeta, abcjsParser);
+    const raw = serializeVoiceEvents(s.events, tuneMeta);
     const body = commitBodyWithMidi(raw, vk);
     lastCommittedAbcRef.current = body;
     skipExternalLoad.current = true;
     props.onVoiceNotesChange(vk, body, 'Edit notation');
-  }, [abcjsParser, props, tuneMeta, commitBodyWithMidi]);
+  }, [props, tuneMeta, commitBodyWithMidi]);
 
   const flushAbcDraft = useCallback(function(voiceKey) {
     clearTimeout(abcSaveDebounce.current);
@@ -626,6 +641,16 @@ export default function NotationEditor(props) {
           type: 'SET_SELECTION',
           selection: { eventIds: ids, toneIndex: null, anchorId: ids[0] },
         });
+        let minIdx = s.events.length;
+        let minId = ids[0];
+        ids.forEach(function(id) {
+          const i = s.events.findIndex(function(ev) { return ev.id === id; });
+          if (i >= 0 && i < minIdx) {
+            minIdx = i;
+            minId = id;
+          }
+        });
+        pinLayoutInsertBefore(minId);
         setSelectionClickRects([]);
         focusStaffEditor();
       }
@@ -777,13 +802,25 @@ export default function NotationEditor(props) {
     recordActive: session.midiRecordActive,
   });
 
-  function sessionForCaretInsert(session) {
-    if (session.mode === EDITOR_MODES.NORMAL && session.selection.eventIds.length) {
-      const selId = session.selection.anchorId || session.selection.eventIds[0];
-      const selIdx = session.events.findIndex(function(ev) { return ev.id === selId; });
-      if (selIdx >= 0) return Object.assign({}, session, { caretIndex: selIdx });
+  function pinLayoutInsertBefore(eventId) {
+    if (!eventId) {
+      layoutInsertBeforeRef.current = null;
+      return;
     }
-    return session;
+    layoutInsertBeforeRef.current = { voiceKey: props.voiceKey, eventId: eventId };
+  }
+
+  function pinnedLayoutInsertEventId() {
+    const pin = layoutInsertBeforeRef.current;
+    if (!pin || pin.voiceKey !== props.voiceKey || !pin.eventId) return null;
+    return pin.eventId;
+  }
+
+  function sessionForCaretInsert(session) {
+    const s = sessionWithEditSelection(session);
+    return Object.assign({}, s, {
+      caretIndex: layoutInsertIndex(s, lastNoteSelectionRef.current, pinnedLayoutInsertEventId()),
+    });
   }
 
   function patchAfterLayoutInsert(session, patch) {
@@ -865,6 +902,14 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'toggleDot') {
+      const editSession = sessionWithEditSelection(s);
+      if (editSession.selection && editSession.selection.eventIds && editSession.selection.eventIds.length) {
+        const patch = toggleDotOnSelection(editSession);
+        if (patch) {
+          applyEvents(patch, EDITOR_VIEWS.STAFF, 'Toggle dot');
+          return;
+        }
+      }
       dispatch({ type: 'TOGGLE_DOT' });
       return;
     }
@@ -929,14 +974,6 @@ export default function NotationEditor(props) {
       return;
     }
     if (action.action === 'accidental') {
-      const liveFromSession = (s.selection.eventIds || []).filter(function(id) {
-        return s.events.some(function(ev) { return ev.id === id; });
-      });
-      // Note input with no live selection → carry for next typed note (do not caret-retarget).
-      if (s.mode === EDITOR_MODES.NOTE_INPUT && !liveFromSession.length) {
-        dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: action.value });
-        return;
-      }
       const editSession = sessionWithEditSelection(s);
       if (editSession.selection && editSession.selection.eventIds && editSession.selection.eventIds.length) {
         const patch = applyAccidentalToSelection(editSession, action.value);
@@ -944,6 +981,9 @@ export default function NotationEditor(props) {
           applyEvents(patch, EDITOR_VIEWS.STAFF, 'Accidental');
           return;
         }
+      }
+      if (s.mode === EDITOR_MODES.NOTE_INPUT) {
+        dispatch({ type: 'SET_ACCIDENTAL_CARRY', value: action.value });
       }
       return;
     }
@@ -1422,7 +1462,25 @@ export default function NotationEditor(props) {
     }
   }
 
+  function ensureEditingVoiceForStaffAnalysis(analysis) {
+    const keys = displayedVoiceKeysRef.current;
+    if (!keys || !keys.length) return;
+    const voiceIdx = analysis && typeof analysis.voice === 'number' ? analysis.voice : 0;
+    const voiceKey = keys[voiceIdx];
+    if (!voiceKey) return;
+    const voiceNamesList = props.voiceNames || [];
+    const voiceIdxInTune = voiceNamesList.indexOf(voiceKey);
+    if (voiceIdxInTune >= 0 && voiceIdxInTune !== props.voiceIndex) {
+      handleVoiceSelect(voiceIdxInTune);
+    }
+  }
+
   function handleStaffClick(abcelem, tuneNumber, classes, analysis, drag, mouseEvent, renderedAbc) {
+    const headerType = abcelem && (abcelem.el_type || abcelem.type);
+    if (headerType && ['clef', 'keySignature', 'timeSignature', 'tempo', 'part'].indexOf(headerType) >= 0) {
+      return;
+    }
+    ensureEditingVoiceForStaffAnalysis(analysis);
     staffPendingGestureRef.current = null;
     if (staffDragSuppressClickRef.current) {
       staffDragSuppressClickRef.current = false;
@@ -1563,6 +1621,7 @@ export default function NotationEditor(props) {
     }
 
     if (barEv) {
+      pinLayoutInsertBefore(barEv.id);
       syncSessionAction({
         type: 'SET_SELECTION',
         selection: { eventIds: [barEv.id], toneIndex: null, anchorId: barEv.id },
@@ -1603,6 +1662,7 @@ export default function NotationEditor(props) {
         anchorId: ev.id,
       },
     });
+    pinLayoutInsertBefore(ev.id);
     setCaretIndex(idx);
     auditionEvent(ev, null);
     if (mouseEvent && mouseEvent.detail === 2) {
@@ -1715,6 +1775,8 @@ export default function NotationEditor(props) {
   }
 
   function handleVoiceSelect(index) {
+    if (index === props.voiceIndex) return;
+    layoutInsertBeforeRef.current = null;
     const leavingVoiceKey = props.voiceKey;
     // ABC Notes is source of truth for its textarea; staff/roll commit via events.
     // Always running flushCommit after ABC edits used to drop chord symbols and
@@ -1723,6 +1785,19 @@ export default function NotationEditor(props) {
       flushAbcDraft(leavingVoiceKey);
     } else {
       flushCommit(leavingVoiceKey);
+    }
+    const voiceNamesList = props.voiceNames || [];
+    const newKey = voiceNamesList[index];
+    if (newKey) {
+      const voiceBody = voiceBodyForSession(voiceNotesForKey(newKey));
+      skipExternalLoad.current = true;
+      const loaded = notationSessionReducer(sessionRef.current, {
+        type: 'LOAD_VOICE',
+        tuneMeta: tuneMeta,
+        voiceBody: voiceBody,
+      });
+      sessionRef.current = loaded;
+      dispatch({ type: 'LOAD_VOICE', tuneMeta: tuneMeta, voiceBody: voiceBody });
     }
     if (props.onVoiceSelect) props.onVoiceSelect(index);
   }
@@ -1779,6 +1854,16 @@ export default function NotationEditor(props) {
     if (key === '_clearSlur') {
       const patch = clearSlurOnSelection(s);
       if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Clear slur');
+      return;
+    }
+    if (key === '_graceAcci') {
+      const patch = insertGraceBeforeSelection(s, true);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Grace note');
+      return;
+    }
+    if (key === '_graceApp') {
+      const patch = insertGraceBeforeSelection(s, false);
+      if (patch) applyEvents(patch, EDITOR_VIEWS.STAFF, 'Grace note');
       return;
     }
     if (isFingerDecorationKey(key)) {
@@ -2275,7 +2360,7 @@ export default function NotationEditor(props) {
     };
   }, [tuneMeta, props.voiceKey]);
 
-  const staffAbcSelectTypes = session.mode === EDITOR_MODES.NOTE_INPUT ? 'clickable' : ['note'];
+  const staffAbcSelectTypes = session.mode === EDITOR_MODES.NOTE_INPUT ? ['note', 'rest'] : ['note'];
 
   const activeVoiceStaffIndex = useMemo(function() {
     const idx = displayedVoiceKeys.indexOf(props.voiceKey);
@@ -2318,6 +2403,7 @@ export default function NotationEditor(props) {
         selectTypes={staffAbcSelectTypes}
         onClick={handleStaffClick}
         suppressPlaybackSeek={true}
+        hidePlayer={true}
       />
       <StaffCaretOverlay
         containerRef={staffWrapRef}
@@ -2409,6 +2495,7 @@ export default function NotationEditor(props) {
               if (props.onAddVoice) props.onAddVoice();
             }}
             onDeleteVoice={props.onDeleteVoice}
+            onReorderVoices={props.onReorderVoices}
           />
           {props.historyControls ? (
             <span className="notation-toolbar-history">{props.historyControls}</span>
@@ -2453,6 +2540,7 @@ export default function NotationEditor(props) {
                   if (props.onAddVoice) props.onAddVoice();
                 }}
                 onDeleteVoice={props.onDeleteVoice}
+                onReorderVoices={props.onReorderVoices}
                 onViewChange={handleNotationViewChange}
                 clipboardEpoch={clipboardEpoch}
                 onClipboardAction={function(clipboardAction) {
@@ -2529,6 +2617,9 @@ export default function NotationEditor(props) {
             }}
             onInsertSystemBreak={function() {
               insertLayout(insertSystemBreakAtCaret, 'Insert system break');
+            }}
+            onToggleDot={function() {
+              handleShortcutAction({ action: 'toggleDot' });
             }}
           />
           </div>

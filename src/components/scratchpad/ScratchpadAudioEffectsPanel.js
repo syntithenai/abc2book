@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Form, Modal } from 'react-bootstrap'
+import { Button, Dropdown, Form, Modal } from 'react-bootstrap'
 import { AUDIO_EFFECTS } from '../../scratchpadAudioEffects'
 
 export default function ScratchpadAudioEffectsPanel(props) {
@@ -9,6 +9,7 @@ export default function ScratchpadAudioEffectsPanel(props) {
   const [applying, setApplying] = useState(false)
 
   const effect = AUDIO_EFFECTS.find(function(e) { return e.id === effectId }) || AUDIO_EFFECTS[0]
+  const triggerVariant = props.triggerVariant || 'button'
 
   function openModal() {
     setParams(Object.assign({}, effect.defaultParams))
@@ -26,11 +27,19 @@ export default function ScratchpadAudioEffectsPanel(props) {
     }
   }
 
+  const trigger = triggerVariant === 'menuItem' ? (
+    <Dropdown.Item onClick={openModal} disabled={!props.canApply}>
+      Effects (FX)
+    </Dropdown.Item>
+  ) : (
+    <Button size="sm" variant="outline-dark" onClick={openModal} disabled={!props.canApply} title="Apply audio effect">
+      FX
+    </Button>
+  )
+
   return (
     <>
-      <Button size="sm" variant="outline-dark" onClick={openModal} disabled={!props.canApply}>
-        FX
-      </Button>
+      {trigger}
       <Modal show={show} onHide={function() { setShow(false) }} centered size="sm">
         <Modal.Header closeButton>
           <Modal.Title>Audio effect</Modal.Title>

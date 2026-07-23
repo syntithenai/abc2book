@@ -25,6 +25,35 @@ export const DEFAULT_AUDIO_FILTERS = {
   other: 1,
 };
 
+export const STEM_NAME_ALIASES = {
+  vocal: 'vocals',
+  voice: 'vocals',
+  drum: 'drums',
+  no_vocals: 'other',
+};
+
+export function canonicalStemName(name) {
+  const lower = String(name || '').trim().toLowerCase();
+  if (!lower) return '';
+  if (STEM_NAME_ALIASES[lower]) return STEM_NAME_ALIASES[lower];
+  return lower;
+}
+
+export function normalizeStemBufferMap(stemBuffers) {
+  const out = {};
+  if (!stemBuffers || typeof stemBuffers !== 'object') {
+    return out;
+  }
+  Object.keys(stemBuffers).forEach(function(key) {
+    const canonical = canonicalStemName(key);
+    const buffer = stemBuffers[key];
+    if (canonical && buffer) {
+      out[canonical] = buffer;
+    }
+  });
+  return out;
+}
+
 export function getAudioFilterKeysForDemucsModel(model) {
   if (model === 'htdemucs_6s') {
     return AUDIO_FILTER_KEYS.slice();
@@ -43,7 +72,8 @@ export function getAudioFilterKeysForStemNames(stemNames) {
   }
   const stemSet = {};
   names.forEach(function(name) {
-    if (name) stemSet[String(name)] = true;
+    const canonical = canonicalStemName(name);
+    if (canonical) stemSet[canonical] = true;
   });
   const keys = AUDIO_FILTER_KEYS.filter(function(filterKey) {
     const stem = STEM_NAME_BY_FILTER[filterKey];

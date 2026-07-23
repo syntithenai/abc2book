@@ -416,6 +416,8 @@ export default function SelectedItemsModal(props) {
               <BulkCheckModal
                 tunebook={props.tunebook}
                 selected={props.selected}
+                setSelected={props.setSelected}
+                setSelectedCount={props.setSelectedCount}
                 selectedCount={props.selectedCount}
                 forceRefresh={props.forceRefresh}
                 tunesHash={props.tunesHash}

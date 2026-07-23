@@ -24,6 +24,16 @@ const ATTR_TOKEN_RE = /^[a-zA-Z][\w-]*=/;
  * Example: `Piano clef=bass stem=up` → { name: 'Piano', clef: 'bass', extra: 'stem=up' }
  */
 export function parseVoiceMeta(metaStr) {
+  if (metaStr && typeof metaStr === 'object' && !Array.isArray(metaStr)) {
+    const name = metaStr.name != null ? String(metaStr.name).trim() : '';
+    const clef = metaStr.clef ? String(metaStr.clef).trim() : DEFAULT_VOICE_CLEF;
+    const extra = metaStr.extra != null ? String(metaStr.extra).trim() : '';
+    return {
+      name: name === '[object Object]' ? '' : name,
+      clef: clef || DEFAULT_VOICE_CLEF,
+      extra: extra,
+    };
+  }
   const tokens = String(metaStr || '').trim().split(/\s+/).filter(Boolean);
   let clef = DEFAULT_VOICE_CLEF;
   const nameParts = [];

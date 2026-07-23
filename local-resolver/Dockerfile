@@ -173,6 +173,7 @@ COPY provider_cloud.py /app/provider_cloud.py
 COPY provider_stems_cloud.py /app/provider_stems_cloud.py
 COPY soundfont_download.py /app/soundfont_download.py
 COPY oauth_bff.py /app/oauth_bff.py
+COPY oauth_bff_routes.py /app/oauth_bff_routes.py
 COPY subprocess_utils.py /app/subprocess_utils.py
 COPY recording_artists.py /app/recording_artists.py
 COPY background_markdown_links.py /app/background_markdown_links.py

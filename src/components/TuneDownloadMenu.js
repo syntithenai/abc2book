@@ -11,6 +11,7 @@ import {
 } from '../tuneDownloadActions'
 import useStemDownloadQueue from '../useStemDownloadQueue'
 import { getMediaResolverHealthState } from '../mediaResolverHealthStore'
+import { areStemBulkOperationsEnabled } from '../stemBulkOperations'
 
 const STEMS_FORMAT = {
   id: 'stems',
@@ -168,7 +169,8 @@ export function TuneDownloadModal({
   const downloadFormats = useMemo(function() {
     return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   }, [user, allowRestrictedFormats])
-  const showStemsDownload = shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
+  const showStemsDownload = areStemBulkOperationsEnabled()
+    && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
     tuneList,
     tunebook,
@@ -240,7 +242,8 @@ export default function TuneDownloadDropdown({
   const downloadFormats = useMemo(function() {
     return getTuneDownloadFormatsForContext({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   }, [user, allowRestrictedFormats])
-  const showStemsDownload = shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
+  const showStemsDownload = areStemBulkOperationsEnabled()
+    && shouldShowRestrictedTuneDownloads({ user: user, allowRestrictedFormats: allowRestrictedFormats })
   const toggleLabelClassName = labelClassName || 'bulk-ops-btn-label'
   const { busyFormatId, errorMessage, runDownload } = useTuneDownloadState(
     tuneList,

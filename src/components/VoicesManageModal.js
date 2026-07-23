@@ -28,6 +28,7 @@ export default function VoicesManageModal(props) {
     onVoiceNotesChange,
     onAddVoice,
     onDeleteVoice,
+    onReorderVoices,
   } = props;
 
   const [deleteKey, setDeleteKey] = useState(null);
@@ -72,6 +73,16 @@ export default function VoicesManageModal(props) {
     onVoiceNotesChange(key, nextNotes.join('\n'), 'Voice instrument');
   }
 
+  function moveVoice(index, delta) {
+    if (!onReorderVoices) return;
+    const keys = voiceNames.slice();
+    const nextIndex = index + delta;
+    if (nextIndex < 0 || nextIndex >= keys.length) return;
+    const moved = keys.splice(index, 1)[0];
+    keys.splice(nextIndex, 0, moved);
+    onReorderVoices(keys);
+  }
+
   return (
     <>
       <Modal show={show} onHide={onHide} size="lg" dialogClassName="voices-manage-modal">
@@ -86,6 +97,7 @@ export default function VoicesManageModal(props) {
           <Table responsive size="sm" className="align-middle mb-0">
             <thead>
               <tr>
+                <th scope="col">Order</th>
                 <th scope="col">Visible</th>
                 <th scope="col">Edit</th>
                 <th scope="col">Name</th>
@@ -106,6 +118,28 @@ export default function VoicesManageModal(props) {
                     className={voiceIndex === vk ? 'table-active' : undefined}
                     data-testid={'voices-manage-row-' + key}
                   >
+                    <td>
+                      <div className="d-flex flex-column gap-1">
+                        <Button
+                          size="sm"
+                          variant="outline-secondary"
+                          className="py-0 px-1"
+                          disabled={!onReorderVoices || vk === 0}
+                          aria-label={'Move ' + label + ' up'}
+                          data-testid={'voices-manage-up-' + key}
+                          onClick={function() { moveVoice(vk, -1); }}
+                        >↑</Button>
+                        <Button
+                          size="sm"
+                          variant="outline-secondary"
+                          className="py-0 px-1"
+                          disabled={!onReorderVoices || vk === voiceNames.length - 1}
+                          aria-label={'Move ' + label + ' down'}
+                          data-testid={'voices-manage-down-' + key}
+                          onClick={function() { moveVoice(vk, 1); }}
+                        >↓</Button>
+                      </div>
+                    </td>
                     <td>
                       <Form.Check
                         type="checkbox"

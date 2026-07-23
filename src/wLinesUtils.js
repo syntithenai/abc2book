@@ -134,6 +134,12 @@ export function noteAlignedLyricLinesToText(tune) {
   return getNoteAlignedLyricLines(tune).join('\n');
 }
 
+/** Raw w: lines for the time-aligned lyrics editor (no display filtering). */
+export function wLinesEditorText(tune) {
+  if (!tune || !Array.isArray(tune.wLines)) return '';
+  return tune.wLines.join('\n');
+}
+
 export function countVoiceNoteLines(tune) {
   if (!tune || !tune.voices) return 0;
   return Object.keys(tune.voices).reduce(function(total, voice) {

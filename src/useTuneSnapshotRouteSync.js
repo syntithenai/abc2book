@@ -24,7 +24,6 @@ export default function useTuneSnapshotRouteSync(tune, onTuneChange) {
   const appliedRef = useRef('')
   const onTunePage = location.pathname.startsWith('/tunes/')
     && location.pathname !== '/tunes'
-    && location.pathname !== '/tunes/check'
 
   useEffect(function() {
     appliedRef.current = ''

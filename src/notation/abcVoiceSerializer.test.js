@@ -18,6 +18,19 @@ describe('abcVoiceSerializer roundtrip', function() {
     expect(serializeVoiceEvents(parseVoiceEvents('C D E F |', meta), meta)).toBe('CDEF |');
   });
 
+  test('system break serializes as newline between ABC note lines', function() {
+    const events = parseVoiceEvents('CDEF\nGABc |', meta);
+    expect(events.filter(function(ev) { return ev.type === 'lineBreak'; }).length).toBe(1);
+    expect(serializeVoiceEvents(events, meta)).toBe('CDEF\nGABc |');
+  });
+
+  test('multiple system breaks round-trip', function() {
+    const body = 'CDEF\nGABc\nABcd |';
+    const events = parseVoiceEvents(body, meta);
+    expect(events.filter(function(ev) { return ev.type === 'lineBreak'; }).length).toBe(2);
+    expect(serializeVoiceEvents(events, meta)).toBe(body);
+  });
+
   test('explicit durations', function() {
     expect(serializeVoiceEvents(parseVoiceEvents('C2 D2 |', meta), meta)).toBe('C2D2 |');
   });

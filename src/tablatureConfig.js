@@ -54,7 +54,49 @@ export function countActiveTabVoices(tabOptions) {
 }
 
 export function shouldRenderTablature(tune) {
+  if (!isTablatureEnabled(tune)) return false
   return getActiveTablatureVoiceKeys(tune).length > 0
+}
+
+export function isTablatureEnabled(tune) {
+  if (!tune) return false
+  if (tune.tablatureEnabled === false) return false
+  return true
+}
+
+/** Hide tablature while keeping saved instrument/tuning settings. */
+export function disableTablature(tune) {
+  if (!tune) return tune
+  if (!Object.keys(getTablatureVoices(tune)).length) {
+    const legacy = getLegacyTablatureSelection(tune)
+    if (legacy.instrumentId) {
+      const resolved = resolveVoiceTuningSelection(
+        legacy.instrumentId,
+        tune.tuning,
+        legacy.presetId
+      )
+      tune.tablatureVoices = {
+        '1': {
+          instrumentId: legacy.instrumentId,
+          presetId: resolved.presetId,
+          tuning: resolved.tuningText,
+        },
+      }
+    }
+  }
+  tune.tablatureEnabled = false
+  tune.tablature = ''
+  return tune
+}
+
+export function enableTablature(tune) {
+  if (!tune) return tune
+  tune.tablatureEnabled = true
+  const voices = getTablatureVoices(tune)
+  if (Object.keys(voices).length) {
+    syncLegacyTablatureFields(tune, voices)
+  }
+  return tune
 }
 
 export function shouldApplyTabOnlyDisplay(tune, tabOptions) {
@@ -138,16 +180,18 @@ export function serializeTablatureVoices(tune) {
 
 export function getActiveTablatureVoiceKeys(tune) {
   const stored = getTablatureVoices(tune)
-  const storedKeys = sortVoiceKeys(Object.keys(stored))
+  const tuneVoiceKeys = getTuneVoiceKeys(tune)
+  const storedKeys = sortVoiceKeys(Object.keys(stored)).filter(function(voiceKey) {
+    return !tuneVoiceKeys.length || tuneVoiceKeys.indexOf(voiceKey) >= 0
+  })
   if (storedKeys.length) return storedKeys
 
   const legacy = getLegacyTablatureSelection(tune)
   if (!legacy.instrumentId) return []
 
-  const voiceKeys = getTuneVoiceKeys(tune)
-  if (!voiceKeys.length) return ['1']
+  if (!tuneVoiceKeys.length) return ['1']
 
-  return voiceKeys.filter(function(voiceKey) {
+  return tuneVoiceKeys.filter(function(voiceKey) {
     const notes = tune.voices[voiceKey] && tune.voices[voiceKey].notes
     return voiceNoteLinesHaveMelody(notes)
   })
@@ -253,7 +297,7 @@ export function getTablatureVoiceSettings(tune) {
     }
     return [{
       voiceKey: '1',
-      enabled: true,
+      enabled: isTablatureEnabled(tune),
       instrumentId: legacy.instrumentId,
       presetId: legacy.presetId,
       tuningText: legacyTuningText,
@@ -265,7 +309,7 @@ export function getTablatureVoiceSettings(tune) {
     if (storedEntry) {
       return {
         voiceKey: voiceKey,
-        enabled: true,
+        enabled: isTablatureEnabled(tune),
         instrumentId: storedEntry.instrumentId,
         presetId: storedEntry.presetId,
         tuningText: tuningLabelForVoiceEntry(storedEntry, storedEntry.instrumentId, tune),
@@ -274,7 +318,7 @@ export function getTablatureVoiceSettings(tune) {
     if (!hasStored && legacy.instrumentId && voiceNoteLinesHaveMelody(tune.voices[voiceKey] && tune.voices[voiceKey].notes)) {
       return {
         voiceKey: voiceKey,
-        enabled: true,
+        enabled: isTablatureEnabled(tune),
         instrumentId: legacy.instrumentId,
         presetId: legacy.presetId,
         tuningText: legacyTuningText,
@@ -291,6 +335,7 @@ export function getTablatureVoiceSettings(tune) {
 }
 
 export function tablatureInstrumentSummary(tune) {
+  if (!isTablatureEnabled(tune)) return ''
   const activeKeys = getActiveTablatureVoiceKeys(tune)
   if (!activeKeys.length) return ''
 
@@ -332,35 +377,54 @@ export function voiceNoteLinesHaveMelody(noteLines) {
 /**
  * Build per-voice abcjs tablature options for the tune being rendered.
  * Uses explicit per-voice settings when present; otherwise legacy global tab on melody voices.
+ *
+ * renderContext:
+ *   sourceTune — full tune with original voice keys (before display filtering)
+ *   voiceKeys — ordered original voice keys matching the rendered ABC staves
  */
-export function buildTablatureRenderOptions(tune) {
-  const voiceKeys = getTuneVoiceKeys(tune)
-  const stored = getTablatureVoices(tune)
+export function buildTablatureRenderOptions(tune, renderContext) {
+  const ctx = renderContext || {}
+  const sourceTune = ctx.sourceTune || tune
+  if (!shouldRenderTablature(sourceTune)) return null
+
+  const renderedVoiceKeys = getTuneVoiceKeys(tune)
+  const stored = getTablatureVoices(sourceTune)
   const storedKeys = Object.keys(stored)
 
   if (storedKeys.length) {
-    const keys = voiceKeys.length ? voiceKeys : sortVoiceKeys(storedKeys)
-    const options = keys.map(function(voiceKey) {
-      const entry = stored[voiceKey]
-      if (!entry) return { instrument: '' }
+    const options = []
+    for (let index = 0; index < renderedVoiceKeys.length; index++) {
+      const voiceKey = renderedVoiceKeys[index]
+      const entry = voiceKey ? stored[voiceKey] : null
+      if (!entry) {
+        options.push({ instrument: '' })
+        continue
+      }
       const cfg = buildAbcjsTablatureConfigForSelection(
         entry.instrumentId,
         entry.presetId,
-        tune,
+        sourceTune,
         entry.tuning
       )
-      return cfg || { instrument: '' }
-    })
+      options.push(cfg || { instrument: '' })
+    }
     return options.some(function(opt) { return opt.instrument }) ? options : null
   }
 
-  const baseCfg = buildAbcjsTablatureConfig(tune)
+  const baseCfg = buildAbcjsTablatureConfig(sourceTune)
   if (!baseCfg) return null
 
+  if (!getTuneVoiceKeys(sourceTune).length && !renderedVoiceKeys.length) {
+    return [baseCfg]
+  }
+
+  const voiceKeys = renderedVoiceKeys.length ? renderedVoiceKeys : ['1']
   if (!voiceKeys.length) return [baseCfg]
 
   const options = voiceKeys.map(function(voiceKey) {
-    const notes = tune.voices[voiceKey] && tune.voices[voiceKey].notes
+    const notes = sourceTune.voices && sourceTune.voices[voiceKey]
+      ? sourceTune.voices[voiceKey].notes
+      : null
     if (voiceNoteLinesHaveMelody(notes)) {
       return Object.assign({}, baseCfg)
     }
@@ -409,6 +473,19 @@ function pitchToMidi(pitch) {
   if (parsed.accidental === '#') semitone += 1
   if (parsed.accidental === 'b') semitone -= 1
   return (parsed.octave + 1) * 12 + semitone
+}
+
+/** abcjs tab placement requires strictly ascending open-string pitches (no duplicates). */
+function openStringPitchesAreValid(strings) {
+  if (!Array.isArray(strings) || !strings.length) return false
+  let prev = null
+  for (let i = 0; i < strings.length; i++) {
+    const midi = pitchToMidi(strings[i])
+    if (midi == null) return false
+    if (prev != null && midi <= prev) return false
+    prev = midi
+  }
+  return true
 }
 
 /** Convert scientific pitch strings (e.g. G3, E5) to abcjs tuning tokens. */
@@ -543,22 +620,170 @@ function tabLabelForInstrument(instrumentId) {
   return label ? label + ' (%T)' : '%T'
 }
 
+const TAB_STRING_COUNTS = {
+  guitar: 6,
+  violin: 4,
+  uke: 4,
+  banjo4: 4,
+  banjo5: 5,
+  bouzouki: 4,
+}
+
+const TAB_OCTAVE_TEMPLATES = {
+  guitar: [2, 2, 3, 3, 3, 4],
+  violin: [3, 4, 4, 5],
+  uke: [4, 4, 4, 4],
+  banjo4: [3, 3, 4, 4],
+  banjo5: [3, 3, 3, 3, 4],
+  bouzouki: [2, 3, 3, 4],
+}
+
+function expectedStringCountForInstrument(instrumentId) {
+  const id = normalizeTablatureInstrument(instrumentId)
+  return TAB_STRING_COUNTS[id] || 0
+}
+
+function parseTuningNoteToken(token) {
+  const match = String(token || '').trim().match(/^([A-Ga-g])(#{1,2}|b)?(\d+)?$/)
+  if (!match) return null
+  return {
+    letter: match[1].toUpperCase(),
+    accidental: match[2] === 'b' ? 'b' : (match[2] ? '#' : ''),
+    octave: match[3] ? parseInt(match[3], 10) : null,
+  }
+}
+
+function tokenizeTuningText(text) {
+  const norm = String(text || '').trim()
+  if (!norm) return []
+
+  if (/[\s,;|/+\-]+/.test(norm)) {
+    return norm.split(/[\s,;|/+\-]+/).map(parseTuningNoteToken).filter(Boolean)
+  }
+
+  const tokens = []
+  let index = 0
+  while (index < norm.length) {
+    const match = norm.slice(index).match(/^([A-Ga-g])(#{1,2}|b)?(\d+)?/)
+    if (!match) break
+    tokens.push({
+      letter: match[1].toUpperCase(),
+      accidental: match[2] === 'b' ? 'b' : (match[2] ? '#' : ''),
+      octave: match[3] ? parseInt(match[3], 10) : null,
+    })
+    index += match[0].length
+  }
+  return tokens
+}
+
+function pitchStringFromTuningToken(token, octave) {
+  const oct = token.octave != null ? token.octave : octave
+  return token.letter + (token.accidental || '') + oct
+}
+
+/** Parse user-entered tuning text into scientific pitch strings when no preset matches. */
+export function parseCustomTuningToStrings(text, instrumentId) {
+  const normalized = normalizeTablatureInstrument(instrumentId)
+  if (!normalized || !text) return null
+
+  const fromPreset = resolvePresetFromTextForInstrument(text, normalized)
+  if (fromPreset && fromPreset.strings) return fromPreset.strings.slice()
+
+  const expectedCount = expectedStringCountForInstrument(normalized)
+  const tokens = tokenizeTuningText(text)
+  if (!expectedCount || tokens.length !== expectedCount) return null
+
+  const template = TAB_OCTAVE_TEMPLATES[normalized] || TAB_OCTAVE_TEMPLATES.guitar
+  return tokens.map(function(token, index) {
+    return pitchStringFromTuningToken(token, template[index])
+  })
+}
+
 export function resolveVoiceTabPreset(instrumentId, presetId, tune, tuningText) {
   const normalized = normalizeTablatureInstrument(instrumentId)
   if (!normalized || !isSupportedTablatureInstrument(normalized)) return null
-  if (presetId) {
-    const preset = getPreset(normalized, presetId)
-    if (preset) return preset
-  }
+
   const text = String(tuningText || '').trim()
   if (text) {
     const fromText = resolvePresetFromTextForInstrument(text, normalized)
     if (fromText) return fromText
-    const tuneStub = tune ? Object.assign({}, tune, { tuning: text }) : { tuning: text }
-    const fromStub = resolveTuningPresetForTab(normalized, tuneStub)
-    if (fromStub) return fromStub
+    return null
   }
+
+  if (presetId) {
+    const preset = getPreset(normalized, presetId)
+    if (preset) return preset
+  }
+
   return resolveTuningPresetForTab(normalized, tune)
+}
+
+function tuningFormatExample(instrumentId) {
+  const examples = {
+    guitar: 'E A D G B E',
+    violin: 'G D A E',
+    uke: 'G C E A',
+    banjo4: 'G D G B',
+    banjo5: 'G D G B D',
+    bouzouki: 'G D A D',
+  }
+  return examples[normalizeTablatureInstrument(instrumentId)] || 'low to high'
+}
+
+function orderOpenStringsForInstrument(instrumentId, strings) {
+  const list = strings.slice()
+  const normalized = normalizeTablatureInstrument(instrumentId)
+  if (normalized === 'banjo5' || normalized === 'uke') {
+    return sortStringsAscending(list)
+  }
+  return list
+}
+
+/** User-facing validation for tablature tuning text in settings forms. */
+export function getTablatureTuningValidation(instrumentId, tuningText, presetId) {
+  const normalized = normalizeTablatureInstrument(instrumentId)
+  if (!normalized || !isSupportedTablatureInstrument(normalized)) {
+    return { valid: true, message: '' }
+  }
+
+  const text = String(tuningText || '').trim()
+  if (!text) {
+    return { valid: false, message: 'Enter a tuning.' }
+  }
+
+  const preset = resolveVoiceTabPreset(normalized, presetId, null, tuningText)
+  let strings = preset && preset.strings ? preset.strings.slice() : []
+  if (!strings.length) {
+    strings = parseCustomTuningToStrings(text, normalized) || []
+    if (!strings.length) {
+      const expected = expectedStringCountForInstrument(normalized)
+      return {
+        valid: false,
+        message: 'Enter ' + expected + ' note names from low to high (e.g. '
+          + tuningFormatExample(normalized) + ').',
+      }
+    }
+  }
+
+  strings = orderOpenStringsForInstrument(normalized, strings)
+  if (!openStringPitchesAreValid(strings)) {
+    return {
+      valid: false,
+      message: 'Each string must be higher than the one below it. Repeating the same note (e.g. FFFFFF) is not valid.',
+    }
+  }
+
+  return { valid: true, message: '' }
+}
+
+function isAbcjsTuningToken(token) {
+  return /^[\^_]?[A-Ga-g][,_']*$/.test(String(token || '').trim())
+}
+
+function abcTuningTokensAreValid(tokens, instrumentId) {
+  const expected = expectedStringCountForInstrument(instrumentId)
+  if (!Array.isArray(tokens) || tokens.length !== expected) return false
+  return tokens.every(isAbcjsTuningToken)
 }
 
 export function buildAbcjsTablatureConfigForSelection(instrumentId, presetId, tune, tuningText) {
@@ -568,24 +793,44 @@ export function buildAbcjsTablatureConfigForSelection(instrumentId, presetId, tu
   const abcjsInstrument = ABCJS_INSTRUMENT_MAP[normalized]
   if (!abcjsInstrument) return null
 
+  const text = String(tuningText || '').trim()
   const preset = resolveVoiceTabPreset(normalized, presetId, tune, tuningText)
   let strings = preset && preset.strings ? preset.strings.slice() : []
-  if (normalized === 'banjo5' || normalized === 'uke') {
-    strings = sortStringsAscending(strings)
+  if (!strings.length && text) {
+    strings = parseCustomTuningToStrings(text, normalized) || []
   }
+  if (!strings.length) {
+    const fallback = defaultPresetForInstrument(normalized)
+    strings = fallback && fallback.strings ? fallback.strings.slice() : []
+  }
+  if (!strings.length) return null
+
+  strings = orderOpenStringsForInstrument(normalized, strings)
+
+  if (!openStringPitchesAreValid(strings)) {
+    const fallback = defaultPresetForInstrument(normalized)
+    strings = fallback && fallback.strings ? fallback.strings.slice() : []
+    if (!openStringPitchesAreValid(strings)) return null
+  }
+
+  const tuning = pitchStringsToAbcTuning(strings, normalized)
+  if (!abcTuningTokensAreValid(tuning, normalized)) return null
 
   return {
     instrument: abcjsInstrument,
-    tuning: pitchStringsToAbcTuning(strings, normalized),
+    tuning: tuning,
     label: tabLabelForInstrument(normalized),
     capo: Math.max(0, parseInt(tune && tune.capo, 10) || 0),
   }
 }
 
 export function buildAbcjsTablatureConfig(tune) {
-  const selection = getLegacyTablatureSelection(tune)
-  if (!selection.instrumentId) return null
-  return buildAbcjsTablatureConfigForSelection(selection.instrumentId, selection.presetId, tune)
+  const instrumentId = normalizeTablatureInstrument(tune && tune.tablature)
+  if (!instrumentId || !isSupportedTablatureInstrument(instrumentId)) return null
+  const tuningText = tune && tune.tuning ? String(tune.tuning).trim() : ''
+  const matched = tuningText ? resolvePresetFromTextForInstrument(tuningText, instrumentId) : null
+  const presetId = matched ? matched.id : ''
+  return buildAbcjsTablatureConfigForSelection(instrumentId, presetId, tune, tuningText)
 }
 
 function syncLegacyTablatureFields(tune, tablatureVoices) {
@@ -630,13 +875,10 @@ export function applyTablatureVoiceConfigs(tune, voiceSettings, tabDisplay) {
   })
 
   if (!Object.keys(tablatureVoices).length) {
-    tune.tablature = ''
-    tune.tuning = ''
-    tune.tablatureVoices = null
-    tune.tabDisplay = ''
-    return tune
+    return disableTablature(tune)
   }
 
+  tune.tablatureEnabled = true
   tune.tablatureVoices = tablatureVoices
   syncLegacyTablatureFields(tune, tablatureVoices)
   if (tabDisplay != null && String(tabDisplay).trim()) {
@@ -652,12 +894,9 @@ export function applyTablatureSelection(tune, instrumentId, presetId, tabDisplay
   if (!tune) return tune
   const normalized = normalizeTablatureInstrument(instrumentId)
   if (!normalized) {
-    tune.tablature = ''
-    tune.tuning = ''
-    tune.tablatureVoices = null
-    tune.tabDisplay = ''
-    return tune
+    return disableTablature(tune)
   }
+  tune.tablatureEnabled = true
   tune.tablatureVoices = null
   tune.tablature = normalized
   const resolved = resolveVoiceTuningSelection(normalized, tuningText, presetId)

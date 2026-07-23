@@ -11,6 +11,10 @@ import {
 import { normalizeAudioProject } from './scratchpadAudioProject'
 import { getScratchpadBlob as getBlob, putScratchpadBlob as putBlob } from './scratchpadBlobs'
 import { mergeById, mergeTombstones, applyTombstones } from './audioAnalysisCloudSync'
+import {
+  enqueueScratchpadDriveDeletes,
+  flushScratchpadDriveDeletes,
+} from './scratchpadDriveDeletes'
 
 export const SCRATCHPAD_INDEX_NAME = 'scratchpad-index.json'
 export const SCRATCHPAD_ITEMS_FOLDER = 'items'
@@ -68,6 +72,36 @@ function stripItemForIndex(item) {
   if (!item) return null
   const copy = JSON.parse(JSON.stringify(item))
   return copy
+}
+
+function collectDriveIdsFromItem(item) {
+  const refs = collectItemBlobRefs(item)
+  const ids = refs.map(function(ref) { return ref.driveFileId }).filter(Boolean)
+  if (item && item.type === 'audio' && item.audio && item.audio.projectDriveFileId) {
+    ids.push(item.audio.projectDriveFileId)
+  }
+  if (item && item.type === 'text' && item.text && item.text.driveFileId) {
+    ids.push(item.text.driveFileId)
+  }
+  if (item && item.type === 'notation' && item.notation && item.notation.driveFileId) {
+    ids.push(item.notation.driveFileId)
+  }
+  if (item && item.type === 'image' && item.image && item.image.driveFileId) {
+    ids.push(item.image.driveFileId)
+  }
+  return Array.from(new Set(ids.map(String)))
+}
+
+function findOrphanedDriveIds(remoteItem, localItem) {
+  if (!remoteItem) return []
+  const remoteIds = collectDriveIdsFromItem(remoteItem)
+  const localSet = {}
+  collectDriveIdsFromItem(localItem).forEach(function(id) {
+    localSet[id] = true
+  })
+  return remoteIds.filter(function(id) {
+    return id && !localSet[id]
+  })
 }
 
 function collectItemBlobRefs(item) {
@@ -265,6 +299,8 @@ export async function syncScratchpadWithDrive(driveApi, options) {
     return { ok: false, error: 'Could not create items folder' }
   }
 
+  await flushScratchpadDriveDeletes(driveApi, opts)
+
   const localWorkspaces = listAllWorkspacesRaw().map(function(ws) {
     return Object.assign({}, ws, { id: ws.id })
   })
@@ -274,6 +310,10 @@ export async function syncScratchpadWithDrive(driveApi, options) {
   const remoteItems = remote.data && remote.data.items ? remote.data.items : []
   const remoteTombstones = remote.data && remote.data.tombstones ? remote.data.tombstones : []
   const localTombstones = remote.data && remote.data.localTombstones ? remote.data.localTombstones : []
+  const remoteItemById = {}
+  remoteItems.forEach(function(remoteItem) {
+    if (remoteItem && remoteItem.id) remoteItemById[remoteItem.id] = remoteItem
+  })
 
   const mergedTombstones = mergeTombstones(localTombstones, remoteTombstones)
   let mergedWorkspaces = applyTombstones(mergeById(localWorkspaces, remoteWorkspaces), mergedTombstones.filter(function(t) {
@@ -289,6 +329,11 @@ export async function syncScratchpadWithDrive(driveApi, options) {
 
   for (let i = 0; i < mergedItems.length; i += 1) {
     let item = mergedItems[i]
+    const remoteItem = remoteItemById[item.id]
+    const orphanedRemoteIds = findOrphanedDriveIds(remoteItem, item)
+    if (orphanedRemoteIds.length) {
+      await enqueueScratchpadDriveDeletes(orphanedRemoteIds)
+    }
     const itemFolderId = await ensureItemFolder(driveApi, itemsFolderId, item)
     if (itemFolderId && (!item.sync || !item.sync.driveFolderId)) {
       item = Object.assign({}, item, {
@@ -338,6 +383,7 @@ export async function syncScratchpadWithDrive(driveApi, options) {
     tombstones: mergedTombstones,
   }
   await uploadOrUpdateJson(driveApi, scratchpadFolderId, remote.indexId, SCRATCHPAD_INDEX_NAME, indexPayload)
+  await flushScratchpadDriveDeletes(driveApi, opts)
 
   if (typeof opts.onProgress === 'function') {
     opts.onProgress({ uploaded: uploaded, downloaded: downloaded, items: nextItems.length })

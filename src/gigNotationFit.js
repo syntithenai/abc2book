@@ -25,7 +25,23 @@ const META_SELECTORS = [
 ].join(', ');
 
 const STAFF_SELECTORS = [
-  '.abcjs-instrument-name',
+  '.abcjs-staff',
+  '.abcjs-top-line',
+  '.abcjs-bar',
+  '.abcjs-note',
+  '.abcjs-lyric',
+  '.abcjs-chord',
+  '.abcjs-text',
+  '.abcjs-slur',
+  '.abcjs-tie',
+  '.abcjs-beam',
+  '.abcjs-rest',
+  '.abcjs-clef',
+  '.abcjs-key-signature',
+  '.abcjs-time-signature',
+].join(', ');
+
+const STAFF_SELECTORS_TAB_ONLY = [
   '.abcjs-staff',
   '.abcjs-top-line',
   '.abcjs-bar',
@@ -143,6 +159,7 @@ function measureSelectorBounds(svg, selector) {
   const unitsPerPixelY = envelope && svgRect && svgRect.height > 0 ? envelope.height / svgRect.height : 0;
 
   svg.querySelectorAll(selector).forEach(function(el) {
+    if (el.style && el.style.display === 'none') return
     const box = measureElementBBoxInSvg(svg, el, svgRect, unitsPerPixelX, unitsPerPixelY);
     const next = absorbBox(bounds.minX, bounds.minY, bounds.maxX, bounds.maxY, box);
     bounds = Object.assign(bounds, next);
@@ -155,8 +172,10 @@ export function measureMetaTextBBox(svg) {
   return boundsToBox(measureSelectorBounds(svg, META_SELECTORS));
 }
 
-export function measureStaffContentBBox(svg) {
-  return boundsToBox(measureSelectorBounds(svg, STAFF_SELECTORS));
+export function measureStaffContentBBox(svg, options) {
+  const tabOnly = options && options.tabOnly
+  const selector = tabOnly ? STAFF_SELECTORS_TAB_ONLY : STAFF_SELECTORS
+  return boundsToBox(measureSelectorBounds(svg, selector));
 }
 
 export function measureNotationPaper(paperEl, renderEl) {
@@ -173,11 +192,12 @@ export function measureNotationPaper(paperEl, renderEl) {
   return { availW: availW, availH: availH };
 }
 
-export function getSvgContentBBox(svg) {
+export function getSvgContentBBox(svg, options) {
   if (!svg) return null;
 
+  const tabOnly = options && options.tabOnly
   const metaBox = measureMetaTextBBox(svg);
-  const staffBox = measureStaffContentBBox(svg);
+  const staffBox = measureStaffContentBBox(svg, { tabOnly: tabOnly });
   let contentBox = unionBoxes(metaBox, staffBox);
 
   if (!contentBox) {
@@ -673,8 +693,9 @@ function applyVerticalFitViewBox(svg, frame) {
  * score is still too wide, falls back to contain so every note stays visible.
  * When paperEl is set (gig mode), measure from that container instead of the window.
  */
-export function fitSingleViewVertical(svg, renderEl, paperEl) {
+export function fitSingleViewVertical(svg, renderEl, paperEl, options) {
   if (!svg || !renderEl) return null;
+  options = options || {};
   const dims = readNotationSvgDims(svg);
   if (!dims) return null;
   // Measure meta while native width/height are still present for bbox conversion.
@@ -693,10 +714,12 @@ export function fitSingleViewVertical(svg, renderEl, paperEl) {
   const targetW = horizontalFitTargetWidth(paper.availW);
   const scaleH = targetH / frame.height;
   const scaleW = targetW / frame.width;
-  // Prefer full height when it still fits width; otherwise contain.
-  const scale = Math.min(scaleH, scaleW);
+  const preferWidthFit = !!options.preferWidthFit;
+  // Tablature stacks extra staves; fitting width keeps notation readable and scrolls vertically.
+  const scale = preferWidthFit ? scaleW : Math.min(scaleH, scaleW);
   const width = frame.width * scale;
   const height = frame.height * scale;
+  const overflowsVertically = height > targetH + 1;
 
   resetSvgInlineSize(svg);
   svg.style.width = width + 'px';
@@ -718,15 +741,18 @@ export function fitSingleViewVertical(svg, renderEl, paperEl) {
   renderEl.style.height = paper.availH + 'px';
   renderEl.style.maxHeight = paper.availH + 'px';
   renderEl.style.overflowX = 'hidden';
-  renderEl.style.overflowY = 'hidden';
+  renderEl.style.overflowY = preferWidthFit && overflowsVertically ? 'auto' : 'hidden';
+  if (preferWidthFit && overflowsVertically) {
+    renderEl.classList.add('gig-mode-notation-render--scroll-y');
+  }
 
   return {
     mode: NOTATION_FIT_VERTICAL,
     width: width,
     height: height,
     overflowX: false,
-    overflowY: false,
-    fillsHeight: scale >= scaleH - 1e-6,
+    overflowY: preferWidthFit && overflowsVertically,
+    fillsHeight: !preferWidthFit && scale >= scaleH - 1e-6,
   };
 }
 

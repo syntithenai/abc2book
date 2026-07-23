@@ -22,6 +22,7 @@ import { subscribeBulkCheckSession } from '../../bulkCheckSessionStore'
 import { subscribeBulkCheckRunner } from '../../bulkCheckRunner'
 import { subscribeImportReviewEnrichment } from '../../importReviewEnrichmentBridge'
 import { subscribeLongRunningJobs } from '../../longRunningJobRegistry'
+import { subscribeStemAnalysisJob, getStemAnalysisJobRevision } from '../../stemAnalysisJobStore'
 import * as tuneFieldLookupQueue from '../../tuneFieldLookupQueue'
 import JobQueueTabPanel from './JobQueueTabPanel'
 import ComposerCandidateQuickPick from '../ComposerCandidateQuickPick'
@@ -58,6 +59,7 @@ function subscribeAllBackgroundJobStores(listener) {
     subscribeBulkCheckRunner(listener),
     subscribeImportReviewEnrichment(listener),
     subscribeLongRunningJobs(listener),
+    subscribeStemAnalysisJob(listener),
     tuneFieldLookupQueue.subscribe(listener),
   ]
   return function unsubscribeAll() {
@@ -118,7 +120,7 @@ export default function BackgroundJobsSettingsSection({ tunes, mediaController }
   const tabCountsRevision = useSyncExternalStore(
     subscribeAllBackgroundJobStores,
     function() {
-      return getBackgroundJobTabCountsKey(mediaController)
+      return getBackgroundJobTabCountsKey(mediaController) + '|' + getStemAnalysisJobRevision()
     },
     function() {
       return getBackgroundJobTabCountsKey(null)

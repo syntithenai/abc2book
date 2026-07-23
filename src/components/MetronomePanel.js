@@ -10,6 +10,18 @@ import {
   setMetronomeVolumes,
 } from '../metronomeTickSounds'
 import {
+  ENGINE_MODE_CLICK,
+  ENGINE_MODE_DRUMS,
+  createRhythmConfig,
+  normalizeRhythmConfig,
+  rhythmConfigKey,
+  rhythmsEqual,
+  resizeDrumPattern,
+} from '../rhythmEngineTypes'
+import { primeDrumKit } from '../drumSampleKit'
+import { applyRhythmPreset } from '../drumPatternPresets'
+import DrumPatternEditor from './DrumPatternEditor'
+import {
   METRONOME_PULSE_OPTIONS,
   METRONOME_RHYTHM_PRESETS,
   createRhythm,
@@ -19,7 +31,6 @@ import {
   parseRhythmText,
   presetIdForRhythm,
   rhythmFromTimeSignature,
-  rhythmsEqual,
   rhythmKey,
   slotBeatIndex,
   slotPulseIndex,
@@ -45,6 +56,26 @@ const TEMPO_MARKINGS = {
 }
 
 const METRONOME_HELP_FIELDS = [
+  {
+    title: 'Sound mode',
+    body: 'Click mode uses the classic metronome tick. Drums mode plays a groove from bundled drum samples. Choose a preset to get started quickly, or expand Edit pattern to customise the grid.',
+  },
+  {
+    title: 'Drum presets',
+    body: 'When Drums is selected, open the preset picker to browse grooves by category — rock, funk, jazz, Latin, folk, practice patterns, and more.',
+  },
+  {
+    title: 'Pattern editor',
+    body: 'Expand Edit pattern to toggle individual hits on the step grid. Each column is one subdivision click; beat boundaries are marked with a stronger line.',
+  },
+  {
+    title: 'Swing',
+    body: 'Adds a laid-back feel to off-beat subdivisions. Straight is even; Light and Medium add progressively more swing.',
+  },
+  {
+    title: 'Drum volume',
+    body: 'Controls the loudness of drum samples. Separate from click volume so you can balance the two modes independently.',
+  },
   {
     title: 'Start and stop',
     body: 'Use Start to begin the click track and Stop to silence it. Settings stay in place while it runs, so you can change tempo or rhythm without restarting.',
@@ -134,12 +165,12 @@ function rhythmFromTune(tune, tunebook) {
   return meter ? rhythmFromTimeSignature(meter) : defaultMetronomeRhythm()
 }
 
-function initialRhythm(saved, tune, tunebook) {
+function initialRhythmConfig(saved, tune, tunebook) {
   if (saved && saved.rhythm) {
-    return createRhythm(saved.rhythm.beatsPerBar, saved.rhythm.accents, saved.rhythm.pulsesPerBeat)
+    return normalizeRhythmConfig(saved.rhythm)
   }
-  if (tune) return rhythmFromTune(tune, tunebook)
-  return defaultMetronomeRhythm()
+  if (tune) return normalizeRhythmConfig(rhythmFromTune(tune, tunebook))
+  return normalizeRhythmConfig(defaultMetronomeRhythm())
 }
 
 function initialQuickRhythmText(saved, rhythm) {
@@ -189,15 +220,18 @@ export default function MetronomePanel(props) {
     : settingsFromCurrentTune(props.tunes, props.currentTune, props.tunebook)
   const tuneForDefaults = props.tune || (fromTune && props.tunes && props.currentTune != null ? props.tunes[props.currentTune] : null)
   const externalRhythm = props.rhythm
-  const externalRhythmKey = rhythmKey(externalRhythm)
-  const startingRhythm = externalRhythm
+  const externalRhythmKey = rhythmConfigKey(externalRhythm)
+  const startingRhythm = normalizeRhythmConfig(
+    externalRhythm
     || (fromTune && fromTune.rhythm)
-    || initialRhythm(saved, tuneForDefaults, props.tunebook)
+    || initialRhythmConfig(saved, tuneForDefaults, props.tunebook)
+  )
   const [tempo, setTempo] = useState(
     (fromTune && fromTune.tempo) || (saved && saved.tempo) || DEFAULT_TEMPO
   )
   const [rhythm, setRhythm] = useState(startingRhythm)
   const [activePresetId, setActivePresetId] = useState(function() {
+    if (startingRhythm.presetId) return startingRhythm.presetId
     if (fromTune && fromTune.rhythm) return presetIdForRhythm(fromTune.rhythm)
     if (saved && saved.presetId) return saved.presetId
     return presetIdForRhythm(startingRhythm)
@@ -211,6 +245,8 @@ export default function MetronomePanel(props) {
   const initialVolumes = getMetronomeVolumes()
   const [tickVolume, setTickVolume] = useState(initialVolumes.volume)
   const [accentVolume, setAccentVolume] = useState(initialVolumes.accentVolume)
+  const [drumVolume, setDrumVolume] = useState(initialVolumes.drumVolume)
+  const isDrumMode = rhythm.engineMode === ENGINE_MODE_DRUMS
 
   const metronomeRef = useRef(null)
   const audioContextRef = useRef(null)
@@ -252,12 +288,8 @@ export default function MetronomePanel(props) {
 
   useEffect(function() {
     if (!externalRhythm) return
-    const next = createRhythm(
-      externalRhythm.beatsPerBar,
-      externalRhythm.accents,
-      externalRhythm.pulsesPerBeat
-    )
-    if (rhythmsEqual(rhythmRef.current, next)) return
+    const next = normalizeRhythmConfig(externalRhythm)
+    if (rhythmConfigKey(rhythmRef.current) === rhythmConfigKey(next)) return
     if (metronomeRef.current && metronomeRef.current.isRunning) {
       metronomeRef.current.stop()
       setIsRunning(false)
@@ -266,7 +298,7 @@ export default function MetronomePanel(props) {
     if (metronomeRef.current) metronomeRef.current.setRhythm(next)
     setRhythm(next)
     setQuickRhythmText(formatRhythmText(next))
-    setActivePresetId(presetIdForRhythm(next))
+    setActivePresetId(next.presetId || presetIdForRhythm(next))
   }, [externalRhythmKey])
 
   useEffect(function() {
@@ -299,13 +331,36 @@ export default function MetronomePanel(props) {
   function applyRhythm(nextRhythm, rhythmText, presetId, options) {
     if (disabled) return
     const notifyParent = !options || options.notifyParent !== false
-    setRhythm(nextRhythm)
+    const normalized = normalizeRhythmConfig(nextRhythm)
+    setRhythm(normalized)
     setQuickRhythmText(rhythmText)
-    setActivePresetId(presetId)
-    if (metronomeRef.current) metronomeRef.current.setRhythm(nextRhythm)
+    setActivePresetId(presetId || normalized.presetId || '')
+    if (metronomeRef.current) metronomeRef.current.setRhythm(normalized)
     if (notifyParent && props.onRhythmChange) {
-      props.onRhythmChange({ rhythm: nextRhythm })
+      props.onRhythmChange({ rhythm: normalized })
     }
+  }
+
+  function handleEngineModeChange(mode) {
+    if (disabled) return
+    let next = normalizeRhythmConfig(Object.assign({}, rhythm, { engineMode: mode }))
+    if (mode === ENGINE_MODE_DRUMS && !next.drumPattern) {
+      next = applyRhythmPreset('rock-basic')
+    }
+    if (mode === ENGINE_MODE_CLICK) {
+      next = normalizeRhythmConfig(Object.assign({}, next, {
+        engineMode: ENGINE_MODE_CLICK,
+        drumPattern: null,
+      }))
+    }
+    applyRhythm(next, formatRhythmText(next), next.presetId)
+    if (mode === ENGINE_MODE_DRUMS && audioContextRef.current) {
+      primeDrumKit(audioContextRef.current).catch(function() {})
+    }
+  }
+
+  function handleDrumRhythmChange(nextRhythm) {
+    applyRhythm(nextRhythm, formatRhythmText(nextRhythm), nextRhythm.presetId || '')
   }
 
   function ensureMetronome() {
@@ -333,8 +388,15 @@ export default function MetronomePanel(props) {
 
   function startMetronome() {
     const metro = ensureMetronome()
-    metro.start()
-    setIsRunning(true)
+    const startPlayback = function() {
+      metro.start()
+      setIsRunning(true)
+    }
+    if (rhythm.engineMode === ENGINE_MODE_DRUMS) {
+      primeDrumKit(audioContextRef.current).then(startPlayback).catch(startPlayback)
+    } else {
+      startPlayback()
+    }
   }
 
   function stopMetronome() {
@@ -362,24 +424,49 @@ export default function MetronomePanel(props) {
       setQuickRhythmText(formatRhythmText(rhythm))
       return
     }
-    applyRhythm(parsed, formatRhythmText(parsed), presetIdForRhythm(parsed))
+    const nextRhythm = createRhythmConfig(parsed.beatsPerBar, parsed.accents, parsed.pulsesPerBeat, {
+      engineMode: ENGINE_MODE_CLICK,
+      presetId: presetIdForRhythm(parsed),
+    })
+    applyRhythm(nextRhythm, formatRhythmText(parsed), presetIdForRhythm(parsed))
   }
 
   function setBeatsPerBar(count) {
     const nextCount = Math.max(1, Math.min(16, count))
-    const nextRhythm = createRhythm(nextCount, rhythm.accents, rhythm.pulsesPerBeat)
+    let nextRhythm = createRhythmConfig(nextCount, rhythm.accents, rhythm.pulsesPerBeat, {
+      engineMode: rhythm.engineMode,
+      drumPattern: rhythm.drumPattern,
+      presetId: '',
+    })
+    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern) {
+      nextRhythm = Object.assign({}, nextRhythm, {
+        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
+      })
+    }
     applyRhythm(nextRhythm, formatRhythmText(nextRhythm), '')
   }
 
   function setPulsesForBeat(beatIndex, pulses) {
     const nextPulses = rhythm.pulsesPerBeat.slice()
     nextPulses[beatIndex] = pulses
-    const nextRhythm = createRhythm(rhythm.beatsPerBar, rhythm.accents, nextPulses)
+    let nextRhythm = createRhythmConfig(rhythm.beatsPerBar, rhythm.accents, nextPulses, {
+      engineMode: rhythm.engineMode,
+      drumPattern: rhythm.drumPattern,
+      presetId: '',
+    })
+    if (nextRhythm.engineMode === ENGINE_MODE_DRUMS && nextRhythm.drumPattern) {
+      nextRhythm = Object.assign({}, nextRhythm, {
+        drumPattern: resizeDrumPattern(nextRhythm.drumPattern, slotsPerBar(nextRhythm)),
+      })
+    }
     applyRhythm(nextRhythm, formatRhythmText(nextRhythm), '')
   }
 
   function selectQuickRhythmPreset(preset) {
-    const nextRhythm = createRhythm(preset.beatsPerBar, preset.accents, preset.pulsesPerBeat)
+    const nextRhythm = createRhythmConfig(preset.beatsPerBar, preset.accents, preset.pulsesPerBeat, {
+      engineMode: ENGINE_MODE_CLICK,
+      presetId: preset.id,
+    })
     applyRhythm(nextRhythm, preset.label, preset.id)
     setQuickRhythmOpen(false)
   }
@@ -387,12 +474,24 @@ export default function MetronomePanel(props) {
   function cycleBeatAccent(beatIndex) {
     const accents = rhythm.accents.slice()
     accents[beatIndex] = cycleAccentLevel(accents[beatIndex])
-    const nextRhythm = createRhythm(rhythm.beatsPerBar, accents, rhythm.pulsesPerBeat)
+    const nextRhythm = createRhythmConfig(rhythm.beatsPerBar, accents, rhythm.pulsesPerBeat, {
+      engineMode: rhythm.engineMode,
+      drumPattern: rhythm.drumPattern,
+      presetId: rhythm.presetId,
+    })
     applyRhythm(nextRhythm, formatRhythmText(nextRhythm), presetIdForRhythm(nextRhythm))
   }
 
+  function commitDrumVolume(next) {
+    if (disabled) return
+    const value = Math.max(0, Math.min(1, parseFloat(next)))
+    if (!Number.isFinite(value)) return
+    setDrumVolume(value)
+    setMetronomeVolumes({ drumVolume: value })
+  }
+
   function resetMetronomeForm() {
-    const nextRhythm = rhythmFromTune(tuneForDefaults, props.tunebook)
+    const nextRhythm = normalizeRhythmConfig(rhythmFromTune(tuneForDefaults, props.tunebook))
     const nextRhythmText = formatRhythmText(nextRhythm)
     if (settingsOnly) {
       applyRhythm(nextRhythm, nextRhythmText, presetIdForRhythm(nextRhythm))
@@ -553,7 +652,18 @@ export default function MetronomePanel(props) {
         </div>
         ) : null}
 
+        <DrumPatternEditor
+          rhythm={rhythm}
+          disabled={disabled}
+          compact={settingsOnly && !embedPreview}
+          activeSlot={activeSlot}
+          onEngineModeChange={handleEngineModeChange}
+          onRhythmChange={handleDrumRhythmChange}
+        />
+
         <div className={'metronome-panel__volume-row' + (disabled ? ' metronome-panel__volume-row--disabled' : '')}>
+          {!isDrumMode ? (
+          <>
           <label className="metronome-panel__volume-control">
             <span className="metronome-panel__volume-label">Volume</span>
             <input
@@ -588,9 +698,30 @@ export default function MetronomePanel(props) {
             />
             <span className="metronome-panel__volume-value">{Math.round(accentVolume * 100)}</span>
           </label>
+          </>
+          ) : (
+          <label className="metronome-panel__volume-control">
+            <span className="metronome-panel__volume-label">Drum volume</span>
+            <input
+              type="range"
+              className="metronome-panel__volume-slider"
+              min="0"
+              max="100"
+              step="1"
+              value={Math.round(drumVolume * 100)}
+              disabled={disabled}
+              aria-label="Drum volume"
+              onChange={function(e) {
+                commitDrumVolume(parseInt(e.target.value, 10) / 100)
+              }}
+            />
+            <span className="metronome-panel__volume-value">{Math.round(drumVolume * 100)}</span>
+          </label>
+          )}
         </div>
 
         <div className={'metronome-panel__rhythm-row' + (disabled ? ' metronome-panel__rhythm-row--disabled' : '')}>
+          {!isDrumMode ? (
           <div className="metronome-panel__preset-wrap" ref={quickRhythmRef}>
             <ButtonGroup className="metronome-panel__control-group metronome-panel__preset-group" aria-label="Quick rhythms">
               <Button
@@ -654,6 +785,7 @@ export default function MetronomePanel(props) {
               </ul>
             ) : null}
           </div>
+          ) : null}
 
           <ButtonGroup className="metronome-panel__control-group" aria-label="Beats per bar">
             <Button variant="light" className="metronome-panel__group-label" disabled>
@@ -678,6 +810,8 @@ export default function MetronomePanel(props) {
             </Button>
           </ButtonGroup>
 
+          {!isDrumMode ? (
+          <>
           <ButtonGroup className="metronome-panel__control-group metronome-panel__accents-group" aria-label="Beat accents">
             <Button variant="light" className="metronome-panel__group-label" disabled>
               Beat accents
@@ -723,6 +857,8 @@ export default function MetronomePanel(props) {
               )
             })}
           </ButtonGroup>
+          </>
+          ) : null}
         </div>
       </div>
     </div>

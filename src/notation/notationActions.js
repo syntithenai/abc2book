@@ -102,9 +102,39 @@ export function insertRestAtCaret(session) {
   });
 }
 
+/** Insert layout tokens before the leftmost selected note, or at the caret. */
+export function layoutInsertIndex(session, lastSelection, pinnedEventId) {
+  if (!session || !Array.isArray(session.events)) return 0;
+  const events = session.events;
+
+  if (pinnedEventId) {
+    const pinnedIdx = events.findIndex(function(ev) { return ev.id === pinnedEventId; });
+    if (pinnedIdx >= 0) return pinnedIdx;
+  }
+
+  const hasExplicitSelection = !!(
+    (session.selection && session.selection.eventIds && session.selection.eventIds.length)
+    || (lastSelection && lastSelection.eventIds && lastSelection.eventIds.length)
+  );
+  if (hasExplicitSelection) {
+    const resolved = resolveEditTargetIds(session, lastSelection);
+    if (resolved && resolved.eventIds.length) {
+      let minIdx = events.length;
+      resolved.eventIds.forEach(function(id) {
+        const i = events.findIndex(function(ev) { return ev.id === id; });
+        if (i >= 0 && i < minIdx) minIdx = i;
+      });
+      if (minIdx < events.length) return minIdx;
+    }
+  }
+
+  const caret = typeof session.caretIndex === 'number' ? session.caretIndex : 0;
+  return Math.min(Math.max(0, caret), events.length);
+}
+
 export function insertBarlineAtCaret(session, barToken) {
   const events = session.events.map(cloneVoiceEvent);
-  const idx = Math.min(session.caretIndex, events.length);
+  const idx = layoutInsertIndex(session);
   const ev = {
     id: createEventId('bar'),
     type: 'barline',
@@ -119,7 +149,7 @@ export function insertBarlineAtCaret(session, barToken) {
 
 export function insertSystemBreakAtCaret(session) {
   const events = session.events.map(cloneVoiceEvent);
-  const idx = Math.min(session.caretIndex, events.length);
+  const idx = layoutInsertIndex(session);
   const ev = {
     id: createEventId('break'),
     type: 'lineBreak',
@@ -576,6 +606,26 @@ export function changeSelectedDuration(session, durationKey, dotted) {
     ev.duration = duration;
   });
   return patchSession(session, { events: events, durationKey: durationKey, dotted: !!dotted });
+}
+
+export function toggleDotOnSelection(session) {
+  const resolved = resolveEditTargetIds(session);
+  if (!resolved || !resolved.eventIds.length) return null;
+  const ids = resolved.eventIds;
+  const events = session.events.map(cloneVoiceEvent);
+  let changed = false;
+  events.forEach(function(ev) {
+    if (ids.indexOf(ev.id) < 0) return;
+    if (ev.type === 'barline' || ev.type === 'lineBreak' || ev.type === 'rest') return;
+    if (!ev.duration) return;
+    ev.duration = Object.assign({}, ev.duration, { dotted: !ev.duration.dotted });
+    changed = true;
+  });
+  if (!changed) return null;
+  return patchSession(session, {
+    events: events,
+    selection: resolved,
+  });
 }
 
 export function scaleDuration(session, factor, dotAware) {

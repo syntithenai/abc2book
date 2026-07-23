@@ -72,7 +72,12 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     };
   }
 
-  const fetched = await fetchStemBuffers(separation, cacheOptions.accessToken, opts.signal);
+  const fetched = await fetchStemBuffers(separation, cacheOptions.accessToken, opts.signal, {
+    onProgress: opts.onProgress,
+  });
+  if (typeof opts.onProgress === 'function') {
+    opts.onProgress('Caching stems locally...', 95);
+  }
   const saveKey = getStemSourceCacheKey(
     cacheOptions.tuneId,
     cacheOptions.linkIndex,
@@ -84,6 +89,9 @@ export async function loadStemBuffersForSource(cacheOptions, options) {
     stemBuffers: fetched.stemBuffers,
     stemWavBytes: fetched.stemWavBytes,
   });
+  if (typeof opts.onProgress === 'function') {
+    opts.onProgress('Stems ready', 100);
+  }
   const cachedAfterSave = await getCachedStemSet(saveKey);
   return {
     separation: separation,

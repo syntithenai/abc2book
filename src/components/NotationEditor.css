@@ -47,6 +47,9 @@
   top: var(--chrome-header-offset, 3.3em);
   z-index: 30;
 }
+.notation-editing-controls-main {
+  zoom: var(--chrome-vv-zoom, 1);
+}
 .notation-editing-controls {
   display: flex;
   flex-wrap: wrap;
@@ -248,6 +251,15 @@
 .notation-mode-badge-input {
   background: #0d6efd;
   color: #fff;
+}
+.notation-mode-badge-input-slot {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.notation-mode-badge-input--reserved {
+  visibility: hidden;
+  pointer-events: none;
 }
 .notation-duration-buttons .btn {
   min-width: 2.15rem;

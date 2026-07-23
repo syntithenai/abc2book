@@ -3,7 +3,7 @@ import {
   isMediaProxyConfigured,
   probeMediaResolverCandidates,
 } from './mediaProxyClient';
-import { readStoredAuthBase, resolveStickyAuthBase } from './authResolverClient';
+import { readStoredAuthBase, readStoredAuthSessionId, isOAuthLoginInFlight, resolveStickyAuthBase } from './authResolverClient';
 
 const initialState = {
   available: false,
@@ -52,6 +52,16 @@ function applyProbeResult(nextStatus) {
   return !!(nextStatus && nextStatus.available);
 }
 
+function authBaseUsesOauthBff() {
+  const authBase = state.authBase || readStoredAuthBase();
+  if (!authBase) return false;
+  const candidates = state.status && state.status.candidates ? state.status.candidates : [];
+  for (let i = 0; i < candidates.length; i++) {
+    if (candidates[i].base === authBase && candidates[i].oauthBff) return true;
+  }
+  return false;
+}
+
 async function finishProbe(accessToken, mySeq) {
   const nextStatus = await probeMediaResolverCandidates(accessToken);
   if (mySeq !== probeSeq) {
@@ -62,6 +72,11 @@ async function finishProbe(accessToken, mySeq) {
       && identityScopeRequestFn
       && typeof localStorage !== 'undefined'
       && localStorage.getItem('google_login_user')) {
+    // OAuth BFF handles identity + refresh; never stack extra GIS popups here.
+    if (isOAuthLoginInFlight() || authBaseUsesOauthBff()
+        || (readStoredAuthSessionId() && readStoredAuthBase())) {
+      return applyProbeResult(nextStatus);
+    }
     try {
       const tokenResponse = await identityScopeRequestFn();
       const upgradedToken = tokenResponse && tokenResponse.access_token

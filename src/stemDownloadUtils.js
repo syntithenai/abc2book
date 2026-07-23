@@ -9,6 +9,7 @@ import {
   getAudioCompressExtension,
   getAudioCompressFormat,
 } from './audioCompressSettings';
+import { areStemBulkOperationsEnabled } from './stemBulkOperations';
 
 export function stemDownloadEntryNames(extension) {
   const ext = extension || getAudioCompressExtension(getAudioCompressFormat());
@@ -88,7 +89,7 @@ export async function buildStemZipBlob(cacheOptions, options) {
 
   report(0, 'Loading stems...');
   const loaded = await loadStemBuffersForSource(cacheOptions, {
-    allowNetworkSeparation: true,
+    allowNetworkSeparation: areStemBulkOperationsEnabled(),
     signal: opts.signal,
     onProgress: function(message, percent) {
       const mapped = 5 + Math.round((percent || 0) * 0.8);

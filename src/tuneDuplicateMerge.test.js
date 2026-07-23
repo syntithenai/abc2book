@@ -55,6 +55,44 @@ describe('tuneDuplicateMerge', function() {
     expect(merged.books).toEqual(['irish']);
   });
 
+  test('mergeTunesIntoSurvivor keeps survivor notation by default', function() {
+    const survivor = {
+      id: 'a',
+      name: 'Tune',
+      voices: { '1': { notes: ['C D |'] } },
+      links: [],
+      books: [],
+    };
+    const incoming = {
+      id: 'b',
+      name: 'Tune',
+      voices: { '1': { notes: ['E F |'] } },
+      links: [],
+      books: [],
+    };
+    const merged = mergeTunesIntoSurvivor(survivor, incoming, {});
+    expect(merged.voices['1'].notes).toEqual(['C D |']);
+  });
+
+  test('mergeTunesIntoSurvivor unions links even when links field is selected', function() {
+    const survivor = {
+      id: 'a',
+      name: 'Tune',
+      books: [],
+      links: [{ title: 'A', link: 'https://youtu.be/abc12345678' }],
+      voices: { '1': { notes: ['C'] } },
+    };
+    const incoming = {
+      id: 'b',
+      name: 'Tune',
+      books: [],
+      links: [{ title: 'B', link: 'https://youtu.be/xyz98765432' }],
+      voices: { '1': { notes: ['C'] } },
+    };
+    const merged = mergeTunesIntoSurvivor(survivor, incoming, { links: true });
+    expect(merged.links).toHaveLength(2);
+  });
+
   test('mergeTunesIntoSurvivor unions snapshots from both tunes', function() {
     const survivor = {
       id: 'a',

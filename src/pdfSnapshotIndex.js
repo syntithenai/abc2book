@@ -12,6 +12,7 @@ import {
   normalizePdfSegments,
   updateTuneFileMeta,
 } from './tuneFiles'
+import { dedupeTunesById } from './tuneListFilter'
 
 const utils = utilsFunctions()
 
@@ -155,7 +156,7 @@ export function parentTuneMatchesSearch(tune, filterText) {
 
 export function expandPdfSnapshotSearchRows(tunes, filterText) {
   const filter = String(filterText || '').trim()
-  const list = Array.isArray(tunes) ? tunes : []
+  const list = dedupeTunesById(Array.isArray(tunes) ? tunes : [])
   if (!filter || filter.length < 3) {
     return list.map(function(tune) {
       return { tune: tune, snapshotMatch: null }
@@ -165,16 +166,21 @@ export function expandPdfSnapshotSearchRows(tunes, filterText) {
   list.forEach(function(tune) {
     const parentMatch = parentTuneMatchesSearch(tune, filter)
     const hits = pdfSnapshotSearchHits(tune, filter)
-    if (hits.length > 0) {
-      hits.forEach(function(hit) {
-        rows.push({ tune: tune, snapshotMatch: hit })
-      })
-    }
-    if (parentMatch) {
-      rows.push({ tune: tune, snapshotMatch: null })
-    }
+    const row = bestPdfSnapshotSearchRow(tune, parentMatch, hits)
+    if (row) rows.push(row)
   })
   return rows
+}
+
+function bestPdfSnapshotSearchRow(tune, parentMatch, hits) {
+  if (!tune) return null
+  if (parentMatch) {
+    return { tune: tune, snapshotMatch: null }
+  }
+  if (hits.length > 0) {
+    return { tune: tune, snapshotMatch: hits[0] }
+  }
+  return null
 }
 
 export function displayTitleForSearchRow(row) {

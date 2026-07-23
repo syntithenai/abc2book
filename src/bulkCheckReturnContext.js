@@ -41,6 +41,36 @@ export function clearBulkCheckReturnContext() {
   writeJson(RETURN_CONTEXT_KEY, null)
 }
 
+export function selectedMapFromSelectionKey(selectionKey) {
+  const selected = {}
+  String(selectionKey || '').split(',').filter(Boolean).forEach(function(id) {
+    selected[id] = true
+  })
+  return selected
+}
+
+const openListeners = new Set()
+
+export function requestOpenBulkCheck(options) {
+  const opts = options || {}
+  const request = {
+    selectionKey: opts.selectionKey || '',
+    autoStartCheck: !!opts.autoStartCheck,
+    nonce: Date.now(),
+  }
+  openListeners.forEach(function(listener) {
+    listener(request)
+  })
+  return request
+}
+
+export function subscribeBulkCheckOpenRequest(listener) {
+  openListeners.add(listener)
+  return function unsubscribe() {
+    openListeners.delete(listener)
+  }
+}
+
 export function setReopenBulkCheckFlag(selectionKey, activeTab) {
   writeJson(REOPEN_FLAG_KEY, {
     selectionKey: selectionKey,
@@ -151,12 +181,11 @@ export function beginBulkCheckEditTune(options) {
   const opts = options || {}
   if (!opts.selectionKey || !opts.tuneId) return
   const activeTab = opts.activeTab || 'completeness'
-  const returnPath = '/tunes/check'
   setBulkCheckReturnContext({
     selectionKey: opts.selectionKey,
     activeTab: activeTab,
     tuneId: opts.tuneId,
-    returnPath: returnPath,
+    returnPath: '/tunes',
   })
   if (typeof opts.onNavigate === 'function') {
     opts.onNavigate('/editor/' + encodeURIComponent(opts.tuneId))

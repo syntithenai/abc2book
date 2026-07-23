@@ -1,11 +1,15 @@
 import {
   applyTuneImportSelections,
+  applyDuplicateMergeSelections,
   buildDefaultTuneImportSelections,
+  buildDefaultDuplicateMergeSelections,
+  buildDuplicateMergeFieldRows,
   buildTuneImportFieldRows,
   formatTuneFieldValue,
   importedFieldIsPresent,
   metaDiffAutoAccept,
   setAllTuneImportSelections,
+  tuneHasNotationContent,
   tuneLinksEqual,
 } from './tuneImportMergeUtils';
 
@@ -121,6 +125,41 @@ describe('tuneImportMergeUtils', function() {
     const linksRow = rows.find(function(row) { return row.key === 'links'; });
     expect(linksRow).toBeTruthy();
     expect(linksRow.differs).toBe(false);
+  });
+
+  test('buildDuplicateMergeFieldRows includes voices from survivor only', function() {
+    const rows = buildDuplicateMergeFieldRows(
+      { voices: { '1': { notes: ['C D |'] } } },
+      { name: 'Other title' }
+    );
+    const voicesRow = rows.find(function(row) { return row.key === 'voices'; });
+    expect(voicesRow).toBeTruthy();
+    expect(voicesRow.differs).toBe(true);
+  });
+
+  test('buildDefaultDuplicateMergeSelections keeps survivor fields', function() {
+    const rows = buildDuplicateMergeFieldRows(original, imported);
+    const selections = buildDefaultDuplicateMergeSelections(rows.filter(function(row) { return row.differs; }));
+    expect(selections.voices).toBe(false);
+    expect(selections.name).toBe(false);
+  });
+
+  test('applyDuplicateMergeSelections ignores books tags and links selections', function() {
+    const merged = applyDuplicateMergeSelections(
+      { id: 'a', books: ['mine'], tags: ['a'], links: [{ title: 'A', link: 'https://example.com/a' }], voices: { '1': { notes: ['C'] } } },
+      { id: 'b', books: ['theirs'], tags: ['b'], links: [{ title: 'B', link: 'https://example.com/b' }], voices: { '1': { notes: ['D'] } } },
+      { books: true, tags: true, links: true, voices: true }
+    );
+    expect(merged.books).toEqual(['mine']);
+    expect(merged.tags).toEqual(['a']);
+    expect(merged.links).toHaveLength(1);
+    expect(merged.voices['1'].notes).toEqual(['D']);
+  });
+
+  test('tuneHasNotationContent detects voices and legacy notes', function() {
+    expect(tuneHasNotationContent({ voices: { '1': { notes: ['C'] } } })).toBe(true);
+    expect(tuneHasNotationContent({ notes: 'CDEF|' })).toBe(true);
+    expect(tuneHasNotationContent({ voices: { '1': { notes: [] } } })).toBe(false);
   });
 
   test('metaDiffAutoAccept treats ABC tune index as non-differing metadata', function() {

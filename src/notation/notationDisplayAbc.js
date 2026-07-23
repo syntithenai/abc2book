@@ -88,15 +88,6 @@ function voiceBodyLines(bodyText) {
   return lines.length ? lines : [''];
 }
 
-function sortVoiceKeys(voiceKeys) {
-  return voiceKeys.slice().sort(function(a, b) {
-    const na = parseInt(a, 10);
-    const nb = parseInt(b, 10);
-    if (!isNaN(na) && !isNaN(nb)) return na - nb;
-    return String(a).localeCompare(String(b));
-  });
-}
-
 /** Preview ABC for one or more voices with independent note bodies. */
 export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsByKey, options) {
   if (!tune || !tunebook || !voiceKeys || !voiceKeys.length) return '';
@@ -104,7 +95,7 @@ export function buildAbcPreviewFromBodies(tune, tunebook, voiceKeys, bodyTextsBy
   const tuneCopy = JSON.parse(JSON.stringify(tune));
   if (!tuneCopy.voices) return '';
   tuneCopy.voices = {};
-  sortVoiceKeys(voiceKeys).forEach(function(voiceKey, index) {
+  voiceKeys.forEach(function(voiceKey, index) {
     if (!tune.voices || !tune.voices[voiceKey]) return;
     const voiceMeta = tune.voices[voiceKey];
     const displayKey = String(index + 1);
@@ -123,7 +114,7 @@ export function voiceDisplayLabel(tune, voiceKey) {
   if (!voiceKey) return '';
   if (tune && tune.voices && tune.voices[voiceKey]) {
     const parsed = parseVoiceMeta(tune.voices[voiceKey].meta);
-    if (parsed.name) return parsed.name;
+    if (parsed.name && parsed.name !== '[object Object]') return parsed.name;
   }
   return 'Voice ' + voiceKey;
 }
@@ -134,7 +125,7 @@ export function voiceDisplayLabel(tune, voiceKey) {
  * displayedVoiceKeys are the original tune keys in display order (V:1, V:2, …).
  */
 export function mapAbcClickToVoiceCursor(fullAbc, displayedVoiceKeys, analysisVoiceIndex, startChar) {
-  const keys = sortVoiceKeys(displayedVoiceKeys || []);
+  const keys = (displayedVoiceKeys || []).slice();
   if (!keys.length) return null;
   const voiceIdx = typeof analysisVoiceIndex === 'number' && analysisVoiceIndex >= 0
     ? analysisVoiceIndex

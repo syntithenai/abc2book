@@ -171,6 +171,9 @@ function DisplayModeToolbar(props) {
     className,
     hideInlineVoiceControls,
     separateInlineFitButton,
+    embedFitInDisplayGroup,
+    wrapFileControlsWithDividers,
+    stopMenuClose,
     fileControls,
     fileOverlayActive,
     tablatureSelector,
@@ -179,6 +182,15 @@ function DisplayModeToolbar(props) {
   const notationOn = displayFlags && displayFlags.notation !== 'off';
   const showFit = canShowFitHeightButton(displayFlags, { fileOverlayActive: fileOverlayActive })
     && !!onNotationFitModeChange;
+  const fitButton = showFit ? (
+    <NotationFitButton
+      tunebook={tunebook}
+      fitMode={notationFitMode}
+      onChange={onNotationFitModeChange}
+      displayFlags={displayFlags}
+      stopMenuClose={!!stopMenuClose}
+    />
+  ) : null;
 
   return (
     <div
@@ -190,8 +202,22 @@ function DisplayModeToolbar(props) {
         available={available}
         tunebook={tunebook}
         onChange={onFlagsChange}
+        appendControl={embedFitInDisplayGroup ? fitButton : null}
       />
-      {fileControls || null}
+      {fileControls ? (
+        wrapFileControlsWithDividers ? (
+          <>
+            <Dropdown.Divider className="view-mode-file-controls-divider" />
+            <div
+              className="view-mode-file-controls"
+              onClick={function(e) { e.stopPropagation(); }}
+              onMouseDown={function(e) { e.stopPropagation(); }}
+            >
+              {fileControls}
+            </div>
+          </>
+        ) : fileControls
+      ) : null}
       {notationOn && !hideInlineVoiceControls ? (
         <ViewModeVoiceControls
           inline
@@ -202,14 +228,7 @@ function DisplayModeToolbar(props) {
         />
       ) : null}
       {notationOn && tablatureSelector ? tablatureSelector : null}
-      {showFit && !separateInlineFitButton ? (
-        <NotationFitButton
-          tunebook={tunebook}
-          fitMode={notationFitMode}
-          onChange={onNotationFitModeChange}
-          displayFlags={displayFlags}
-        />
-      ) : null}
+      {showFit && !separateInlineFitButton && !embedFitInDisplayGroup ? fitButton : null}
     </div>
   );
 }
@@ -403,6 +422,9 @@ function ViewModeMenuSection(props) {
         notationFitMode={notationFitMode}
         onNotationFitModeChange={onNotationFitModeChange}
         hideInlineVoiceControls={true}
+        embedFitInDisplayGroup={true}
+        wrapFileControlsWithDividers={true}
+        stopMenuClose={!!stopMenuClose}
         fileControls={fileControls}
         fileOverlayActive={fileOverlayActive}
         tablatureSelector={tablatureSelector}

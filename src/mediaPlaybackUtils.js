@@ -1,3 +1,5 @@
+import { resolveActiveLinkForTune } from './mediaLinkResolve'
+
 export function formatSecondsToMs(totalSeconds) {
   const seconds = Math.max(0, Math.floor(parseFloat(totalSeconds) || 0));
   const minutes = Math.floor(seconds / 60);
@@ -142,4 +144,11 @@ export function getActiveLinkIndex(tune, mediaLinkNumber) {
     return mediaLinkNumber;
   }
   return 0;
+}
+
+/** First cacheable non-MIDI media link (audio, recording, YouTube), or null. */
+export function getFirstPlayableMediaLinkIndex(tune, preferredLinkIndex, isYoutubeLink) {
+  if (!tune || !Array.isArray(tune.links) || tune.links.length === 0) return null;
+  const resolved = resolveActiveLinkForTune(tune, preferredLinkIndex, isYoutubeLink);
+  return resolved ? resolved.linkIndex : null;
 }

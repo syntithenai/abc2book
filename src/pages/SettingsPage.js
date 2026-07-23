@@ -19,6 +19,10 @@ import {
 } from '../mediaProxyConfig'
 import { describeResolverAuthReason } from '../mediaProxyClient'
 import { pingYoutubeExtension } from '../youtubeExtensionClient'
+import {
+  isYoutubeHelperDisabled,
+  setYoutubeHelperDisabled,
+} from '../youtubeHelperSettings'
 import useMediaResolverHealth from '../useMediaResolverHealth'
 import FormFieldHelp, { FieldHelpModal } from '../components/FormFieldHelp'
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText'
@@ -124,7 +128,7 @@ export default function SettingsPage(props) {
   const [cacheStatsLoading, setCacheStatsLoading] = useState(true)
   const [showMediaCacheTunes, setShowMediaCacheTunes] = useState(false)
   const [activeTab, setActiveTab] = useState(TAB_BACKGROUND_JOBS)
-  const { status: resolverStatus, checked, features, refreshMediaResolverHealth } = useMediaResolverHealth()
+  const { status: resolverStatus, checked, features, authBase, authBaseChecked, refreshMediaResolverHealth } = useMediaResolverHealth()
   const [resolverMessage, setResolverMessage] = useState('Checking resolvers...')
   const [youtubeHelperStatus, setYoutubeHelperStatus] = useState({
     checking: true,
@@ -133,6 +137,7 @@ export default function SettingsPage(props) {
     error: null,
   })
   const [showYoutubeHelperInstallHelp, setShowYoutubeHelperInstallHelp] = useState(false)
+  const [youtubeHelperDisabled, setYoutubeHelperDisabledState] = useState(isYoutubeHelperDisabled)
   const mediaProxyUrlSkipDebounceRef = useRef(true)
   const youtubeHelperZipHref =
     (process.env.PUBLIC_URL || '') + '/downloads/tunebook-helper.zip'
@@ -140,6 +145,15 @@ export default function SettingsPage(props) {
     !!(props.user && props.user.email === 'syntithenai@gmail.com')
 
   const refreshYoutubeHelperStatus = useCallback(function() {
+    if (isYoutubeHelperDisabled()) {
+      setYoutubeHelperStatus({
+        checking: false,
+        ok: false,
+        version: null,
+        error: 'Disabled in settings',
+      })
+      return Promise.resolve({ ok: false, disabled: true })
+    }
     setYoutubeHelperStatus(function(prev) {
       return Object.assign({}, prev, { checking: true })
     })
@@ -153,6 +167,17 @@ export default function SettingsPage(props) {
       return result
     })
   }, [])
+
+  useEffect(function() {
+    function onHelperSettingsChanged() {
+      setYoutubeHelperDisabledState(isYoutubeHelperDisabled())
+      refreshYoutubeHelperStatus()
+    }
+    window.addEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
+    return function() {
+      window.removeEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
+    }
+  }, [refreshYoutubeHelperStatus])
 
   useEffect(function() {
     refreshYoutubeHelperStatus()
@@ -489,21 +514,36 @@ export default function SettingsPage(props) {
             <p className="app-text-muted">
               Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.
             </p>
+            <Form.Group className="mb-3">
+              <Form.Check
+                type="switch"
+                id="youtube-helper-enabled"
+                label="Use TuneBook Helper for media"
+                checked={!youtubeHelperDisabled}
+                onChange={function(e) {
+                  const enabled = e.target.checked
+                  setYoutubeHelperDisabled(!enabled)
+                  setYoutubeHelperDisabledState(!enabled)
+                }}
+              />
+            </Form.Group>
             <div className="App-settings-resolver-status">
               <strong>
-                {youtubeHelperStatus.checking
-                  ? 'Checking TuneBook Helper…'
-                  : youtubeHelperStatus.ok
-                    ? ('TuneBook Helper: connected' +
-                      (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
-                    : 'TuneBook Helper: not connected'}
+                {youtubeHelperDisabled
+                  ? 'TuneBook Helper: disabled in settings'
+                  : youtubeHelperStatus.checking
+                    ? 'Checking TuneBook Helper…'
+                    : youtubeHelperStatus.ok
+                      ? ('TuneBook Helper: connected' +
+                        (youtubeHelperStatus.version ? ' (v' + youtubeHelperStatus.version + ')' : ''))
+                      : 'TuneBook Helper: not connected'}
               </strong>
-              {!youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
+              {!youtubeHelperDisabled && !youtubeHelperStatus.checking && !youtubeHelperStatus.ok && youtubeHelperStatus.error ? (
                 <span className="app-text-muted"> — {youtubeHelperStatus.error}</span>
               ) : null}
             </div>
             <div className="App-settings-actions" style={{ marginTop: '0.75rem' }}>
-              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus}>
+              <Button variant="outline-secondary" onClick={refreshYoutubeHelperStatus} disabled={youtubeHelperDisabled}>
                 Refresh Helper status
               </Button>
               <Button
@@ -633,6 +673,14 @@ export default function SettingsPage(props) {
             accessToken={accessToken}
             formatCandidateStatus={formatCandidateStatus}
             login={props.login}
+            logout={props.logout}
+            refresh={props.refresh}
+            requestGoogleScopes={props.requestGoogleScopes}
+            user={props.user}
+            token={props.token}
+            authMode={props.authMode}
+            authBase={authBase}
+            authBaseChecked={authBaseChecked}
           />
         </Tab.Pane>
 

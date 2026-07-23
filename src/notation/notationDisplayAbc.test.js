@@ -91,6 +91,27 @@ describe('buildAbcPreviewFromBodies', function() {
     expect(abc).toMatch(/C,2 E,2/);
   });
 
+  test('preserves caller voice key order instead of sorting keys', function() {
+    const scratchTune = Object.assign({}, tune, {
+      voices: {
+        V: { meta: 'Lead', notes: ['CDEF |'] },
+        2: { meta: 'Bass', notes: ['C,2 E,2 |'] },
+      },
+    });
+    const abc = buildAbcPreviewFromBodies(scratchTune, tunebook, ['V', '2'], {
+      V: 'CDEF |',
+      2: 'C,2 E,2 |',
+    });
+    const v1 = abc.indexOf('V:1');
+    const v2 = abc.indexOf('V:2');
+    const lead = abc.indexOf('CDEF');
+    const bass = abc.indexOf('C,2 E,2');
+    expect(v1).toBeGreaterThan(-1);
+    expect(v2).toBeGreaterThan(v1);
+    expect(lead).toBeGreaterThan(v1);
+    expect(bass).toBeGreaterThan(v2);
+  });
+
   test('mapAbcClickToVoiceCursor maps into the correct voice body', function() {
     const abc = buildAbcPreviewFromBodies(tune, tunebook, ['1', '2'], {
       1: 'CDEF |',

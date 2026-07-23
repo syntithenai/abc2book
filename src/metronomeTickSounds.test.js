@@ -1,6 +1,7 @@
 import {
   DEFAULT_METRONOME_ACCENT_VOLUME,
   DEFAULT_METRONOME_VOLUME,
+  DEFAULT_DRUM_VOLUME,
   getMetronomeVolumes,
   setMetronomeVolumes,
   METRONOME_ACCENT,
@@ -13,15 +14,16 @@ describe('metronomeTickSounds volumes', function() {
     setMetronomeVolumes({
       volume: DEFAULT_METRONOME_VOLUME,
       accentVolume: DEFAULT_METRONOME_ACCENT_VOLUME,
+      drumVolume: DEFAULT_DRUM_VOLUME,
     })
   })
 
   test('setMetronomeVolumes clamps and persists round-trip via getters', function() {
-    setMetronomeVolumes({ volume: 0.4, accentVolume: 0.9 })
-    expect(getMetronomeVolumes()).toEqual({ volume: 0.4, accentVolume: 0.9 })
+    setMetronomeVolumes({ volume: 0.4, accentVolume: 0.9, drumVolume: 0.5 })
+    expect(getMetronomeVolumes()).toEqual({ volume: 0.4, accentVolume: 0.9, drumVolume: 0.5 })
 
-    setMetronomeVolumes({ volume: 2, accentVolume: -1 })
-    expect(getMetronomeVolumes()).toEqual({ volume: 1, accentVolume: 0 })
+    setMetronomeVolumes({ volume: 2, accentVolume: -1, drumVolume: 3 })
+    expect(getMetronomeVolumes()).toEqual({ volume: 1, accentVolume: 0, drumVolume: 1 })
   })
 
   test('exports accent level constants', function() {

@@ -20,7 +20,7 @@ import {
   readNotationSvgDims,
 } from '../gigNotationFit'
 import { buildTablatureRenderOptions, shouldApplyTabOnlyDisplay, countActiveTabVoices } from '../tablatureConfig.js'
-import { applyTabOnlyNotationDisplay } from '../notationTabDisplay'
+import { applyTabOnlyNotationDisplay, clearTabOnlyNotationDisplay } from '../notationTabDisplay'
 export default function Abc(props) {
     const navigate = useNavigate()
     const abcSynth = useAbcSynth(Object.assign({},props,{onEnded: function(e) {
@@ -35,10 +35,43 @@ export default function Abc(props) {
     const fitMode = props.fitMode === NOTATION_FIT_VERTICAL ? NOTATION_FIT_VERTICAL : null
     const fitAppliedRef = useRef(false)
 
-    function finalizeTablatureDisplay(tune, tabOptions) {
+    function getTablatureDisplayTune(renderTune) {
+      return props.tablatureSourceTune || renderTune
+    }
+
+    function finalizeTablatureDisplay(renderTune, tabOptions) {
       if (!inputEl || !inputEl.current || props.hideSvg) return
-      if (!shouldApplyTabOnlyDisplay(tune, tabOptions)) return
-      applyTabOnlyNotationDisplay(inputEl.current, countActiveTabVoices(tabOptions))
+      const displayTune = getTablatureDisplayTune(renderTune)
+      const root = inputEl.current
+      if (!shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
+        clearTabOnlyNotationDisplay(root)
+        return
+      }
+      applyTabOnlyNotationDisplay(root, countActiveTabVoices(tabOptions))
+    }
+
+    function getVerticalFitOptions(renderTune, tabOptions) {
+      const displayTune = getTablatureDisplayTune(renderTune)
+      if (shouldApplyTabOnlyDisplay(displayTune, tabOptions)) return null
+      if (countActiveTabVoices(tabOptions) > 0) {
+        return { preferWidthFit: true }
+      }
+      return null
+    }
+
+    function refitVerticalAfterTablature(renderTune, tabOptions) {
+      if (!inputEl || !inputEl.current || props.hideSvg || fitMode !== NOTATION_FIT_VERTICAL) return
+      const svg = inputEl.current.querySelector('svg')
+      if (!svg) return
+      fitSingleViewVertical(svg, inputEl.current, null, getVerticalFitOptions(renderTune, tabOptions))
+      fitAppliedRef.current = true
+    }
+
+    function getTablatureRenderContext(renderTune) {
+      return {
+        sourceTune: props.tablatureSourceTune || renderTune,
+        voiceKeys: props.tablatureVoiceKeys,
+      }
     }
 
     function applyFitToRenderedSvg() {
@@ -53,13 +86,24 @@ export default function Abc(props) {
         }
         return
       }
-      fitSingleViewVertical(svg, renderEl)
-      fitAppliedRef.current = true
+      let verticalFitOptions = null
+      let tabOptions = null
+      let displayTune = null
+      let tune = null
       if (props.abc) {
-        const tune = props.tunebook.abcTools.abc2json(props.abc)
-        const tabOptions = buildTablatureRenderOptions(tune)
+        tune = props.tunebook.abcTools.abc2json(props.abc)
+        tabOptions = buildTablatureRenderOptions(tune, getTablatureRenderContext(tune))
+        displayTune = getTablatureDisplayTune(tune)
+        verticalFitOptions = getVerticalFitOptions(tune, tabOptions)
+      }
+      fitSingleViewVertical(svg, renderEl, null, verticalFitOptions)
+      if (displayTune && tabOptions && shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
+        finalizeTablatureDisplay(tune, tabOptions)
+        fitSingleViewVertical(svg, renderEl, null, verticalFitOptions)
+      } else if (displayTune && tabOptions) {
         finalizeTablatureDisplay(tune, tabOptions)
       }
+      fitAppliedRef.current = true
     }
     
         //console.log('ABC tune',tune) //, props.abc, metronomeTimeout, metronome, gaudioContext, gmidiBuffer, gvisualObj, gtimingCallbacks, gcursor)
@@ -106,6 +150,13 @@ export default function Abc(props) {
     // updateOnChange calls renderTune (defined below); abc/staffwidth/fitMode/visualTranspose are the intentional triggers
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.abc, props.playbackAbc, props.staffwidth, fitMode, props.visualTranspose])
+
+    useEffect(function() {
+      if (!inputEl || !inputEl.current || props.hideSvg || !props.abc) return
+      renderTune(props.abc)
+    // tablatureSourceTune carries enabled/display flags that require a full re-render
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [props.tablatureSourceTune, props.tablatureVoiceKeys, props.hideSvg, fitMode])
 
     // Re-layout fit-height when the viewport/column size changes (staffwidth search).
     useEffect(function() {
@@ -227,12 +278,6 @@ export default function Abc(props) {
           renderOptions.selectionColor = props.selectionColor || '#0d6efd'
           renderOptions.dragColor = props.dragColor || '#0d6efd'
         }
-        if (fitMode !== NOTATION_FIT_VERTICAL) {
-          renderOptions.responsive = "resize"
-          if (props.staffwidth && props.staffwidth > 0) {
-            renderOptions.staffwidth = props.staffwidth
-          }
-        }
         var tune = props.tunebook.abcTools.abc2json(abcTune)
         var effectiveVisualTranspose = props.visualTranspose != null ? props.visualTranspose : (tune ? (tune.transpose || 0) : 0)
         if (effectiveVisualTranspose > 0 || effectiveVisualTranspose < 0) {
@@ -241,9 +286,17 @@ export default function Abc(props) {
         if (props.scale && props.scale > 0) {
           renderOptions.scale = props.scale
         }
-        const tabOptions = buildTablatureRenderOptions(tune)
+        const tabOptions = buildTablatureRenderOptions(tune, getTablatureRenderContext(tune))
         if (tabOptions) {
           renderOptions.tablature = tabOptions
+        }
+        if (fitMode !== NOTATION_FIT_VERTICAL) {
+          if (!shouldApplyTabOnlyDisplay(getTablatureDisplayTune(tune), tabOptions)) {
+            renderOptions.responsive = "resize"
+          }
+          if (props.staffwidth && props.staffwidth > 0) {
+            renderOptions.staffwidth = props.staffwidth
+          }
         }
         //var useWarp = props.warp >= 0.25 && props.warp <= 2 ? props.warp : 1
         //tune.tempo = tune.tempo * useWarp
@@ -259,31 +312,43 @@ export default function Abc(props) {
           var pageStaffWidth = (props.staffwidth && props.staffwidth > 0)
             ? props.staffwidth
             : Math.max(200, paper.availW - 16)
+          var verticalFitOptions = getVerticalFitOptions(tune, tabOptions)
 
-          function renderAtStaffWidth(staffWidth) {
+          function renderAtStaffWidth(staffWidth, renderPass) {
             renderEl.innerHTML = ''
             var attempt = abcjs.renderAbc(renderEl, abcForRender, Object.assign({}, renderOptions, {
               staffwidth: staffWidth,
             }))
             var svg = renderEl.querySelector('svg')
             if (!svg) return null
+            const displayTune = getTablatureDisplayTune(tune)
+            if (renderPass === 'measure' && shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
+              applyTabOnlyNotationDisplay(renderEl, countActiveTabVoices(tabOptions))
+            }
             var dims = readNotationSvgDims(svg)
             if (!dims || !(dims.width > 0) || !(dims.height > 0)) return null
             return { svg: svg, dims: dims, visual: attempt && attempt.length > 0 ? attempt[0] : null }
           }
 
-          // Only narrow below page width when height-scaling would overflow horizontally.
-          // Never widen past the page — that produced a single long system.
-          var staffFit = findStaffWidthForVerticalFit(function(staffWidth) {
-            return renderAtStaffWidth(staffWidth)
-          }, paper.availW, paper.availH, pageStaffWidth)
-          var useStaffWidth = Math.min(pageStaffWidth, staffFit.staffWidth)
-          var rendered = renderAtStaffWidth(useStaffWidth)
+          var useStaffWidth = pageStaffWidth
+          if (!verticalFitOptions) {
+            var staffFit = findStaffWidthForVerticalFit(function(staffWidth) {
+              return renderAtStaffWidth(staffWidth, 'measure')
+            }, paper.availW, paper.availH, pageStaffWidth)
+            useStaffWidth = Math.min(pageStaffWidth, staffFit.staffWidth)
+          }
+          var rendered = renderAtStaffWidth(useStaffWidth, 'final')
           if (rendered) {
-            fitSingleViewVertical(rendered.svg, renderEl)
+            const displayTune = getTablatureDisplayTune(tune)
+            fitSingleViewVertical(rendered.svg, renderEl, null, verticalFitOptions)
+            if (shouldApplyTabOnlyDisplay(displayTune, tabOptions)) {
+              finalizeTablatureDisplay(tune, tabOptions)
+              fitSingleViewVertical(rendered.svg, renderEl, null, verticalFitOptions)
+            } else {
+              finalizeTablatureDisplay(tune, tabOptions)
+            }
             fitAppliedRef.current = true
             res = rendered.visual ? [rendered.visual] : null
-            finalizeTablatureDisplay(tune, tabOptions)
           }
         } else {
           res = abcjs.renderAbc(inputEl.current, abcForRender, renderOptions)

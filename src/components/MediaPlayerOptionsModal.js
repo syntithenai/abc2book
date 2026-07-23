@@ -6,9 +6,8 @@ import AudioFiltersPanel from './AudioFiltersPanel'
 import MediaPlaybackRegionPanel from './MediaPlaybackRegionPanel'
 import MidiPlaybackMetronomePanel from './MidiPlaybackMetronomePanel'
 import MediaSeekSlider from './MediaSeekSlider'
-import { getActiveLinkIndex } from '../mediaPlaybackUtils'
+import { getActiveLinkIndex, getFirstPlayableMediaLinkIndex } from '../mediaPlaybackUtils'
 import { youtubeAudioBytesAvailable } from '../youtubeUnlock'
-import { isQueueActive } from '../nowPlayingQueue'
 import { getViewedTuneIdFromPath, getSkipNavigationTuneId } from '../playbackNavigationUtils'
 import './MediaPlayerOptionsModal.css'
 
@@ -78,7 +77,13 @@ export default function MediaPlayerOptionsModal({
   }
 
   const activeLinkIndex = viewedTune
-    ? getActiveLinkIndex(viewedTune, mediaController.mediaLinkNumber)
+    ? (mediaController.mediaLinkNumber !== null && mediaController.mediaLinkNumber !== undefined
+      ? getActiveLinkIndex(viewedTune, mediaController.mediaLinkNumber)
+      : getFirstPlayableMediaLinkIndex(
+        viewedTune,
+        null,
+        tunebook.utils && tunebook.utils.isYoutubeLink
+      ))
     : null
 
   const showLoopTab = viewedTune
@@ -215,15 +220,8 @@ export default function MediaPlayerOptionsModal({
   const skipTuneId = getSkipNavigationTuneId(location.pathname, nowPlayingQueue)
   const showSkipButtons = !suppressRouteNavigation && !!(skipTuneId && viewedTuneId)
   const navFromId = viewedTuneId || null
-  const queuePlaybackRunning = !!(navFromId)
-    && isQueueActive(nowPlayingQueue)
-    && !!(mediaController && (mediaController.isPlaying || mediaController.isLoading))
-    && Array.isArray(nowPlayingQueue && nowPlayingQueue.items)
-    && nowPlayingQueue.items.some(function(item) {
-      return item && String(item.tuneId) === String(navFromId)
-    })
-  const prevLabel = queuePlaybackRunning ? 'Previous in playlist' : 'Previous search result'
-  const nextLabel = queuePlaybackRunning ? 'Next in playlist' : 'Next search result'
+  const prevLabel = 'Previous search result'
+  const nextLabel = 'Next search result'
 
   function handleSkipPrevious() {
     if (!showSkipButtons) return

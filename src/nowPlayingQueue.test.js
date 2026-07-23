@@ -4,6 +4,9 @@ import {
   getCurrentTuneId,
   advanceQueue,
   setFollowTune,
+  setLoop,
+  setShuffle,
+  buildShuffleOrder,
   setQueueIndex,
   resolvePlaybackForItem,
   shouldSuppressFollowNavigate,
@@ -15,6 +18,7 @@ import {
   removeQueueItem,
   loadActiveQueue,
   persistActiveQueue,
+  findQueueIndexForTuneId,
 } from './nowPlayingQueue'
 
 describe('nowPlayingQueue', function() {
@@ -22,6 +26,12 @@ describe('nowPlayingQueue', function() {
     hasNotesOrChords: function(t) { return !!(t && t.notes) },
     hasLinks: function(t) { return !!(t && t.links && t.links.length) },
   }
+
+  test('findQueueIndexForTuneId matches string ids', function() {
+    const q = createQueue({ tuneIds: ['a', 'b', 'c'] })
+    expect(findQueueIndexForTuneId(q, 'b')).toBe(1)
+    expect(findQueueIndexForTuneId(q, 'missing')).toBe(-1)
+  })
 
   test('createQueue and getCurrentTuneId', function() {
     const q = createQueue({ tuneIds: ['a', 'b', 'c'], name: 'Test' })
@@ -43,6 +53,42 @@ describe('nowPlayingQueue', function() {
     const next = advanceQueue(q, 1)
     expect(next.atEdge).toBe(true)
     expect(next.edge).toBe('end')
+  })
+
+  test('setLoop toggles repeat flag', function() {
+    const q = createQueue({ tuneIds: ['a', 'b'] })
+    expect(setLoop(q, true).loop).toBe(true)
+    expect(setLoop(q, false).loop).toBe(false)
+  })
+
+  test('setShuffle builds order with current tune first', function() {
+    const q = createQueue({ tuneIds: ['a', 'b', 'c', 'd'], currentIndex: 2 })
+    const shuffled = setShuffle(q, true)
+    expect(shuffled.shuffle).toBe(true)
+    expect(shuffled.shuffleOrder).toHaveLength(4)
+    expect(shuffled.shuffleOrder[0]).toBe(2)
+    expect(setShuffle(shuffled, false).shuffle).toBe(false)
+    expect(setShuffle(shuffled, false).shuffleOrder).toBeNull()
+  })
+
+  test('advanceQueue with shuffle follows shuffle order', function() {
+    const q = Object.assign(createQueue({
+      tuneIds: ['a', 'b', 'c', 'd'],
+      currentIndex: 0,
+      shuffle: true,
+    }), { shuffleOrder: [0, 2, 1, 3] })
+    const next = advanceQueue(q, 1)
+    expect(next.queue.currentIndex).toBe(2)
+    expect(next.atEdge).toBe(false)
+    const back = advanceQueue(next.queue, -1)
+    expect(back.queue.currentIndex).toBe(0)
+  })
+
+  test('buildShuffleOrder keeps start index first', function() {
+    const order = buildShuffleOrder(5, 3)
+    expect(order).toHaveLength(5)
+    expect(order[0]).toBe(3)
+    expect(new Set(order).size).toBe(5)
   })
 
   test('setFollowTune', function() {

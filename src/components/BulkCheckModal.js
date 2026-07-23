@@ -1,11 +1,17 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Alert, Button, Form, Modal } from 'react-bootstrap'
 import BulkCheckTuneList from './BulkCheckTuneList'
 import BulkCheckTuneEditorModal from './BulkCheckTuneEditorModal'
 import SearchProgressBar from './SearchProgressBar'
-import useBulkCheckRouteSync from '../useBulkCheckRouteSync'
+import { dismissBulkCheckReturnToast, selectedMapFromSelectionKey, subscribeBulkCheckOpenRequest } from '../bulkCheckReturnContext'
+import {
+  buildLinkCheckQueue,
+  getLinkRegionWarnings,
+} from '../checkTuneLinkPlayback'
+import { getLiveTune } from '../bulkCheckTuneSync'
+import { dedupeTunesById } from '../tuneListFilter'
 import useAbcjsParser from '../useAbcjsParser'
-import useBulkCheckReports from '../useBulkCheckReports'
+import useBulkCheckReports, { clearBulkCheckReportCache, invalidateTuneReportCache } from '../useBulkCheckReports'
 import {
   getBulkCheckSession,
   isBulkCheckLinkPhaseRunning,
@@ -19,17 +25,10 @@ import {
   startBulkCheckLinkRun,
   startBulkCheckStaticRun,
 } from '../bulkCheckRunner'
-import { dismissBulkCheckReturnToast } from '../bulkCheckReturnContext'
-import {
-  buildLinkCheckQueue,
-  getLinkRegionWarnings,
-} from '../checkTuneLinkPlayback'
-import { getLiveTune } from '../bulkCheckTuneSync'
 
 const BULK_CHECK_SELECTION_WARN_THRESHOLD = 100
 
 export default function BulkCheckModal(props) {
-  const bulkCheckRoute = useBulkCheckRouteSync()
   const abcjsParser = useAbcjsParser({ tunebook: props.tunebook })
 
   const [show, setShow] = useState(false)
@@ -46,6 +45,9 @@ export default function BulkCheckModal(props) {
   const [editingTuneId, setEditingTuneId] = useState(null)
   const [fixBusyTuneId, setFixBusyTuneId] = useState(null)
   const [refreshKey, setRefreshKey] = useState(0)
+  const [pendingOpenRequest, setPendingOpenRequest] = useState(null)
+  const autoLinkStartedRef = useRef(false)
+  const lastLinkRefreshKeyRef = useRef('')
 
   const selectionKey = useMemo(function() {
     if (!props.selected) return ''
@@ -57,12 +59,13 @@ export default function BulkCheckModal(props) {
 
   const selectedTunes = useMemo(function() {
     if (!props.tunebook || !props.selected) return []
-    return props.tunebook.fromSelection(props.selected).map(function(tune) {
+    const tunes = props.tunebook.fromSelection(props.selected).map(function(tune) {
       if (!tune || !tune.id) return tune
       const live = getLiveTune(tune.id, { tunebook: props.tunebook })
       return live || tune
     })
-  }, [props.tunebook, props.selected, refreshKey, props.tunesHash])
+    return dedupeTunesById(tunes)
+  }, [props.tunebook, props.selected, refreshKey])
 
   const tunesById = useMemo(function() {
     const map = {}
@@ -214,6 +217,22 @@ export default function BulkCheckModal(props) {
 
   useEffect(function() {
     syncFromSession()
+    const session = getBulkCheckSession(selectionKey)
+    if (!sessionMatchesSelection(session)) return
+    const linkRefreshKey = [
+      session.phase,
+      session.linksChecked ? '1' : '0',
+      (session.links && session.links.failures ? session.links.failures.length : 0),
+      (session.links && session.links.warnings ? session.links.warnings.length : 0),
+      session.links ? session.links.progressPercent : 0,
+    ].join(':')
+    if (linkRefreshKey !== lastLinkRefreshKeyRef.current) {
+      lastLinkRefreshKeyRef.current = linkRefreshKey
+      if (session.hasRun && (session.linksChecked || session.phase === 'links-done' || session.phase === 'running-links')) {
+        clearBulkCheckReportCache()
+        setRefreshKey(function(k) { return k + 1 })
+      }
+    }
   }, [selectionKey, sessionTick])
 
   useEffect(function() {
@@ -229,7 +248,26 @@ export default function BulkCheckModal(props) {
   function handleClose() {
     persistSession(buildSessionSnapshot())
     setShow(false)
-    if (bulkCheckRoute.routeActive) bulkCheckRoute.closeRoute()
+  }
+
+  function restoreSelectionForKey(targetSelectionKey) {
+    if (!targetSelectionKey || targetSelectionKey === selectionKey) return false
+    if (typeof props.setSelected !== 'function') return false
+    const nextSelected = selectedMapFromSelectionKey(targetSelectionKey)
+    props.setSelected(nextSelected)
+    if (typeof props.setSelectedCount === 'function') {
+      props.setSelectedCount(Object.keys(nextSelected).length)
+    }
+    return true
+  }
+
+  function queueOpenRequest(request) {
+    if (!request || !request.selectionKey) return
+    if (restoreSelectionForKey(request.selectionKey)) {
+      setPendingOpenRequest(request)
+      return
+    }
+    openModal({ autoStartCheck: !!request.autoStartCheck })
   }
 
   function openModal(options) {
@@ -252,10 +290,6 @@ export default function BulkCheckModal(props) {
     }
   }
 
-  function handleShow() {
-    openModal({ autoStartCheck: false })
-  }
-
   useEffect(function() {
     if (show && hasRun) {
       refreshCheckData()
@@ -264,12 +298,17 @@ export default function BulkCheckModal(props) {
   }, [show, hasRun])
 
   useEffect(function() {
-    if (!bulkCheckRoute.routeActive) return
-    if (!show) {
-      openModal({ autoStartCheck: true })
-    }
+    return subscribeBulkCheckOpenRequest(queueOpenRequest)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bulkCheckRoute.routeActive, selectionKey])
+  }, [selectionKey])
+
+  useEffect(function() {
+    if (!pendingOpenRequest) return
+    if (pendingOpenRequest.selectionKey !== selectionKey) return
+    openModal({ autoStartCheck: !!pendingOpenRequest.autoStartCheck })
+    setPendingOpenRequest(null)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pendingOpenRequest, selectionKey])
 
   function handleCheckLinksClick() {
     if (isLinkChecking) {
@@ -307,14 +346,30 @@ export default function BulkCheckModal(props) {
     setFixBusyTuneId(null)
   }
 
-  function handleRecheckTune() {
+  function refreshTuneReportForId(tuneId, updatedTune) {
+    if (props.forceRefresh) props.forceRefresh()
+    const liveTune = (updatedTune && updatedTune.id)
+      ? updatedTune
+      : (tuneId ? getLiveTune(tuneId, { tunebook: props.tunebook }) : null)
+    if (liveTune && reportsState.refreshTuneReport) {
+      invalidateTuneReportCache(liveTune.id)
+      reportsState.refreshTuneReport(liveTune)
+    }
+    setRefreshKey(function(k) { return k + 1 })
+  }
+
+  function handleRecheckTune(tuneId, updatedTune) {
+    if (tuneId != null) {
+      refreshTuneReportForId(tuneId, updatedTune)
+      persistSession(buildSessionSnapshot())
+      return
+    }
     refreshCheckData()
     persistSession(buildSessionSnapshot())
   }
 
-  function handleEditorLiveSave() {
-    if (props.forceRefresh) props.forceRefresh()
-    setRefreshKey(function(k) { return k + 1 })
+  function handleEditorLiveSave(tuneId) {
+    refreshTuneReportForId(tuneId, null)
   }
 
   function handleEditorSaved() {
@@ -328,7 +383,38 @@ export default function BulkCheckModal(props) {
 
   const isRunning = isBulkCheckPhaseRunning(phase) || isBulkCheckRunnerActive()
   const isLinkChecking = isBulkCheckLinkPhaseRunning(phase) || (isBulkCheckRunnerActive() && phase === 'running-links')
-  const editingTune = editingTuneId ? tunesById[editingTuneId] : null
+
+  useEffect(function() {
+    if (!show) {
+      autoLinkStartedRef.current = false
+      return
+    }
+    if (!hasRun || staticCheckRunning || isLinkChecking || linksChecked) return
+    if (selectedTunes.length > 0 && reports.length < selectedTunes.length) return
+    if (autoLinkStartedRef.current) return
+    autoLinkStartedRef.current = true
+    if (queue.length > 0) {
+      runLinkCheck()
+      return
+    }
+    setLinksChecked(true)
+    persistSession(buildSessionSnapshot({
+      linksChecked: true,
+      phase: 'static-done',
+      links: {
+        failures: linkFailures,
+        warnings: linkWarnings,
+        progressMessage: 'No links to check.',
+        progressPercent: 100,
+      },
+    }))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [show, hasRun, staticCheckRunning, isLinkChecking, linksChecked, queue.length, selectedTunes.length, reports.length])
+
+  const editingTune = useMemo(function() {
+    if (!editingTuneId) return null
+    return getLiveTune(editingTuneId, { tunebook: props.tunebook }) || tunesById[editingTuneId] || null
+  }, [editingTuneId, props.tunebook, tunesById, refreshKey, props.tunesHash])
 
   const ignoredCount = Object.keys(ignoredTuneIds).filter(function(id) {
     return ignoredTuneIds[id]
@@ -344,7 +430,6 @@ export default function BulkCheckModal(props) {
         className="bulk-ops-action-btn"
         variant="success"
         onClick={function() {
-          bulkCheckRoute.openRoute()
           openModal({ autoStartCheck: true })
         }}
         aria-label={hasRun ? 'Check' : 'Check'}
@@ -385,9 +470,34 @@ export default function BulkCheckModal(props) {
                 Run check
               </Button>
             )}
-            {hasRun && (
+            {hasRun && linksChecked && !isLinkChecking && (
               <Button
-                variant={isLinkChecking ? 'warning' : 'primary'}
+                variant="outline-primary"
+                size="sm"
+                onClick={function() {
+                  autoLinkStartedRef.current = false
+                  setLinksChecked(false)
+                  runLinkCheck()
+                }}
+              >
+                Recheck links
+              </Button>
+            )}
+            {hasRun && !linksChecked && !isLinkChecking && queue.length > 0 && (
+              <Button
+                variant="primary"
+                size="sm"
+                onClick={function() {
+                  autoLinkStartedRef.current = true
+                  runLinkCheck()
+                }}
+              >
+                Check links
+              </Button>
+            )}
+            {hasRun && isLinkChecking && (
+              <Button
+                variant="warning"
                 size="sm"
                 onClick={handleCheckLinksClick}
               >
@@ -449,6 +559,7 @@ export default function BulkCheckModal(props) {
 
       <BulkCheckTuneEditorModal
         show={!!editingTuneId}
+        tuneId={editingTuneId}
         tune={editingTune}
         tunes={tunesById}
         tunesRevision={refreshKey}

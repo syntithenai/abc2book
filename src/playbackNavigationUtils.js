@@ -1,11 +1,15 @@
 import { isQueueActive, getCurrentTuneId } from './nowPlayingQueue'
 
+/** Only an active now-playing queue with auto-advance should continue past track end. */
+export function shouldAdvancePlaybackOnEnd(queue, canUpdateQueue) {
+  return isQueueActive(queue) && queue.autoAdvance !== false && !!canUpdateQueue
+}
+
 /** Tune index routes (not a single-tune page). */
 export function isTuneListPath(pathname) {
   if (!pathname) return false
   return pathname === '/tunes'
     || pathname === '/tunes/'
-    || pathname === '/tunes/check'
     || pathname === '/tunes/practice'
 }
 
@@ -55,8 +59,24 @@ export function getViewedTuneIdFromPath(pathname) {
 
 export function getSkipNavigationTuneId(pathname, nowPlayingQueue) {
   const viewedId = getViewedTuneIdFromPath(pathname)
-  const queueTuneId = getCurrentTuneId(nowPlayingQueue)
-  return viewedId || queueTuneId || null
+  if (viewedId) return viewedId
+  return null
+}
+
+/**
+ * Header skip / keyboard arrows walk search results by default.
+ * Only the playlist transport bar opts into queue stepping.
+ */
+export function shouldUseQueueNavigationForAdjacent(options) {
+  const opts = options || {}
+  if (opts.forceSearchList) return false
+  return !!opts.useQueueNavigation
+}
+
+/** Keep playlist audio running while browsing search results in the header. */
+export function shouldPreservePlaylistAudioDuringSearchBrowse(options, queue, mediaController) {
+  if (shouldUseQueueNavigationForAdjacent(options)) return false
+  return isQueueActive(queue) && isQueuePlaybackEngaged(mediaController)
 }
 
 export function shouldShowPlaylistTransportBar(pathname, nowPlayingQueue, gigModeActive) {

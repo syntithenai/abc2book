@@ -1,4 +1,5 @@
 import utilsFunctions from './utilsFunctions'
+import { defaultVoiceMeta } from './notation/voiceMeta'
 import {
   copyScratchpadBlob,
   deleteScratchpadBlobsForItem,
@@ -11,10 +12,13 @@ import {
   migrateLegacyAudioItem,
   normalizeAudioProject,
   collectProjectBlobKeys,
+  collectAudioDriveFileIds,
+  findOrphanedAudioDriveFileIds,
   nowIso,
   generateTrackId,
   generateTakeId,
 } from './scratchpadAudioProject'
+import { enqueueScratchpadDriveDeletes } from './scratchpadDriveDeletes'
 
 const utils = utilsFunctions()
 
@@ -426,7 +430,7 @@ export function blankNotationTune(id, title) {
     noteLength: '1/8',
     rhythm: '',
     voices: {
-      V: { notes: ['z4'], meta: { clef: 'treble' } },
+      V: { notes: ['z4'], meta: defaultVoiceMeta('Voice 1') },
     },
     words: [],
     wLines: [],
@@ -438,6 +442,12 @@ export function blankNotationTune(id, title) {
 export function updateScratchpadItem(itemId, patch) {
   const existing = getScratchpadItem(itemId)
   if (!existing) return null
+  if (existing.type === 'audio' && patch && patch.audio) {
+    const orphaned = findOrphanedAudioDriveFileIds(existing.audio, patch.audio)
+    if (orphaned.length) {
+      enqueueScratchpadDriveDeletes(orphaned).catch(function() {})
+    }
+  }
   return saveScratchpadItem(Object.assign({}, existing, patch, { id: itemId }))
 }
 
@@ -520,6 +530,19 @@ export async function copyScratchpadItem(itemId, targetWorkspaceId, options) {
 export function deleteScratchpadItem(itemId) {
   const item = getScratchpadItem(itemId)
   if (!item) return false
+  if (item.type === 'audio' && item.audio) {
+    const driveIds = collectAudioDriveFileIds(item.audio)
+    if (item.audio.projectDriveFileId) driveIds.push(String(item.audio.projectDriveFileId))
+    if (driveIds.length) {
+      enqueueScratchpadDriveDeletes(driveIds).catch(function() {})
+    }
+  } else if (item.type === 'image' && item.image && item.image.driveFileId) {
+    enqueueScratchpadDriveDeletes([item.image.driveFileId]).catch(function() {})
+  } else if (item.type === 'text' && item.text && item.text.driveFileId) {
+    enqueueScratchpadDriveDeletes([item.text.driveFileId]).catch(function() {})
+  } else if (item.type === 'notation' && item.notation && item.notation.driveFileId) {
+    enqueueScratchpadDriveDeletes([item.notation.driveFileId]).catch(function() {})
+  }
   removeItemFromWorkspaceOrder(item.workspaceId, itemId)
   const map = readItemsMap()
   delete map[itemId]

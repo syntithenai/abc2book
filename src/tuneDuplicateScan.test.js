@@ -1,4 +1,4 @@
-import { scanDuplicateGroups, scanExactContentDuplicates, scanSimilarTitleDuplicates } from './tuneDuplicateScan';
+import { scanDuplicateGroups, scanExactContentDuplicates, scanSimilarTitleDuplicates, filterDuplicateGroupsByName } from './tuneDuplicateScan';
 
 describe('tuneDuplicateScan', function() {
   const getTuneImportHash = function(tune) {
@@ -66,5 +66,51 @@ describe('tuneDuplicateScan', function() {
     expect(result.exactCount).toBe(1);
     expect(result.similarCount).toBeGreaterThanOrEqual(0);
     expect(result.groups.some(function(g) { return g.kind === 'exactContent'; })).toBe(true);
+  });
+
+  test('does not group unrelated all-prefix titles', function() {
+    const tunes = {
+      a: { id: 'a', name: 'All Through The Night', books: ['christmas songs'] },
+      b: { id: 'b', name: 'All or nothing at all', books: ['songs'] },
+      c: { id: 'c', name: 'All the World is Green', books: ['songs'] },
+      d: { id: 'd', name: 'All The Good Times', books: ['canberra pickers and fiddlers', 'songs'] },
+    };
+    tunes.a._hash = 'hash-a';
+    tunes.b._hash = 'hash-b';
+    tunes.c._hash = 'hash-c';
+    tunes.d._hash = 'hash-d';
+    const result = scanDuplicateGroups({ tunes, tunesHash: {}, getTuneImportHash });
+    const groupedIds = {};
+    result.groups.forEach(function(group) {
+      (group.tuneIds || []).forEach(function(id) {
+        groupedIds[id] = true;
+      });
+    });
+    expect(groupedIds.a).toBeFalsy();
+    expect(groupedIds.b).toBeFalsy();
+    expect(groupedIds.c).toBeFalsy();
+    expect(groupedIds.d).toBeFalsy();
+  });
+
+  test('filterDuplicateGroupsByName matches group label and tune titles', function() {
+    const groups = [
+      {
+        id: 'g1',
+        label: 'Wild Rover',
+        tunes: [{ id: 'a', tune: { id: 'a', name: 'Wild Rover' } }],
+      },
+      {
+        id: 'g2',
+        label: 'Two variants',
+        tunes: [
+          { id: 'b', tune: { id: 'b', name: 'After the Battle of Aughrim' } },
+          { id: 'c', tune: { id: 'c', name: 'Another Tune' } },
+        ],
+      },
+    ];
+    expect(filterDuplicateGroupsByName(groups, 'aughrim')).toHaveLength(1);
+    expect(filterDuplicateGroupsByName(groups, 'aughrim')[0].id).toBe('g2');
+    expect(filterDuplicateGroupsByName(groups, 'wild')).toHaveLength(1);
+    expect(filterDuplicateGroupsByName(groups, '')).toHaveLength(2);
   });
 });

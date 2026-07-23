@@ -34,9 +34,15 @@ import {
   playCurrentQueueItem,
   navigateToQueueTune,
   handleQueueAdvanceOnEnded,
+  advanceQueueToPlayableAndStart,
 } from './nowPlayingQueuePlayback'
+import { advanceQueueToNextPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import { playTuneNow } from './tunePlaybackActions'
-import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
+import {
+  isQueuePlaybackEngaged,
+  shouldUseQueueNavigationForAdjacent,
+  shouldPreservePlaylistAudioDuringSearchBrowse,
+} from './playbackNavigationUtils'
 import {
   isNavigatorOffline,
   playbackModeFromPathname,
@@ -46,7 +52,7 @@ import { parseTempoBpm, tempoRangeLabel } from './tempoRange'
 import { noteLinesHaveRealMelody } from './timedImportFinalizer'
 import { buildOrderedSearchListIds, compareSearchGroupKeys } from './searchListOrder'
 
-var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
+var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTunes, setDeletedTunes, isLoggedIn, currentTune, setCurrentTune, currentTuneBook, setCurrentTuneBook,tagFilter, setTagFilter, genreFilter, setGenreFilter, artistFilter, setArtistFilter, starredFilter, setStarredFilter, filter, setFilter, groupBy, setGroupBy, filtered, grouped, forceRefresh, textSearchIndex, tunesHash, setTunesHash, updateSheet, indexes, updateTunesHash, buildTunesHash, pauseSheetUpdates, nowPlayingQueue, setNowPlayingQueue, setPlaylist, setSetPlaylist, forceNav, setForceNav, editHistory, practiceSessionActiveRef}) => {
   //console.log('usetuneook',typeof tunes)
   const utils = useUtils()
   const abcTools = useAbcTools()
@@ -239,7 +245,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
 
   function isCurrentTuneInQueue(queue, currentSongId) {
     if (!isQueueActive(queue)) return false
-    if (!currentSongId) return true
+    if (!currentSongId) return false
     return queue.items.some(function(item) {
       return sameTuneId(queueItemTuneId(item), currentSongId)
     })
@@ -264,23 +270,33 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       previewOnce: forceNavigate ? null : nowPlayingQueue.previewOnce,
     })
     var stepDirection = direction >= 0 ? 1 : -1
-    var stepped = advanceQueue(synced, stepDirection)
-    if (stepped.atEdge) {
-      if (failCallback) failCallback(stepped.edge)
-      return true
-    }
+    var playbackMode = playbackModeFromPathname(locationPathname)
+    var tunebookApi = playbackApi()
 
-    function finishQueueStep(nextQueue, item, tune) {
-      var tuneId = queueItemTuneId(item)
-      if (!tuneId) return false
-      setNowPlayingQueue(nextQueue)
-      var api = playbackApi()
-      if (mediaController && startPlayback && tune) {
-        playQueueItem(mediaController, api, tune, item, { fromUserGesture: true })
+    advanceQueueToNextPlayable(synced, tunes, tunebookApi, {
+      direction: stepDirection,
+      advanceFirst: true,
+      isYoutubeLink: utils.isYoutubeLink,
+      playbackMode: playbackMode,
+    }).then(function(result) {
+      if (result.atEnd || !result.tune || !result.item) {
+        if (startPlayback) stopPlaylistPlayback(mediaController)
+        if (failCallback) failCallback(stepDirection > 0 ? 'end' : 'start')
+        return
       }
+
+      var nextQueue = result.queue
+      var item = result.item
+      var tune = result.tune
+      var tuneId = queueItemTuneId(item)
+      if (!tuneId) return
+
+      setNowPlayingQueue(nextQueue)
+      if (mediaController && startPlayback && tune) {
+        playQueueItem(mediaController, tunebookApi, tune, item, { fromUserGesture: true })
+      }
+
       var shouldFollow = forceNavigate || nextQueue.followTune
-      // Explicit next/prev always moves the view (except during practice); followTune
-      // still respects editor/gig/set suppress for auto-advance.
       var allowFollow = forceNavigate
         ? !isPracticeSessionActive()
         : !shouldSuppressFollowNavigate({
@@ -292,47 +308,11 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
       if (shouldFollow && nav && allowFollow) {
         setCurrentTune(tuneId)
         if (startPlayback || !forceNavigate) {
-          navigateToQueueTune(nav, tuneId, item, api, tunes)
+          navigateToQueueTune(nav, tuneId, item, tunebookApi, tunes)
         } else {
           nav('/tunes/' + tuneId)
         }
       }
-      return true
-    }
-
-    if (!isNavigatorOffline()) {
-      var nextQueue = stepped.queue
-      var item = getCurrentItem(nextQueue)
-      var tune = lookupTune(queueItemTuneId(item))
-      return finishQueueStep(nextQueue, item, tune)
-    }
-
-    var playbackMode = playbackModeFromPathname(locationPathname)
-    var tunebookApi = playbackApi()
-    var queueTunes = nowPlayingQueue.items.map(function(queueItem) {
-      return lookupTune(queueItemTuneId(queueItem))
-    })
-
-    findNextOfflinePlayableListIndex(
-      queueTunes,
-      syncIndex,
-      stepDirection,
-      function(tune, index) {
-        var queueItem = nowPlayingQueue.items[index]
-        return queueItem ? resolvePlaybackForItem(tune, queueItem, tunebookApi) : null
-      },
-      tunebookApi,
-      utils.isYoutubeLink,
-      playbackMode
-    ).then(function(nextIndex) {
-      if (nextIndex === -1) {
-        if (failCallback) failCallback(stepDirection > 0 ? 'end' : 'start')
-        return
-      }
-      var nextQueue = Object.assign({}, synced, { currentIndex: nextIndex })
-      var item = getCurrentItem(nextQueue)
-      var tune = lookupTune(queueItemTuneId(item))
-      finishQueueStep(nextQueue, item, tune)
     })
     return true
   }
@@ -342,7 +322,7 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     var fromListState = buildOrderedSearchListIds(filtered, grouped, groupBy)
     if (fromListState && fromListState.length > 0) return fromListState
 
-    var useTunes = fromSearch(filter, currentTuneBook, tagFilter, genreFilter, artistFilter)
+    var useTunes = fromSearch(filter, currentTuneBook, tagFilter, genreFilter, artistFilter, starredFilter)
     useTunes.sort(function(a, b) {
       return (a.name && b.name && a.name.toLowerCase().trim() < b.name.toLowerCase().trim()) ? -1 : 1
     })
@@ -418,16 +398,17 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
   function runAdjacentSongNavigation(direction, currentSongId, failCallback, navigateFn, locationPathname, options) {
     var opts = options || {}
     var mediaController = opts.mediaController
-    var forceSearchList = !!opts.forceSearchList
+    var useQueueNavigation = shouldUseQueueNavigationForAdjacent(opts)
     // Capture before stop() clears intent/playing state.
     var startPlayback = !!(mediaController && isPlaybackActivelyPlaying(mediaController))
-    // Header / media-controls skip always walks search results. An active playlist
-    // keeps playing in the background — do not stop it or hand the engine a
-    // search-list play (that restarts the current queue tune from the start).
-    // Playlist next/prev lives on the transport bar (no forceSearchList).
-    var preservePlaylistAudio = forceSearchList
-      && isQueueActive(nowPlayingQueue)
-      && isQueuePlaybackEngaged(mediaController)
+    // Header / media-controls skip walks search results. An active playlist
+    // keeps playing in the background — do not stop it or restart the queue tune.
+  // Playlist next/prev uses useQueueNavigation on the transport bar.
+    var preservePlaylistAudio = shouldPreservePlaylistAudioDuringSearchBrowse(
+      opts,
+      nowPlayingQueue,
+      mediaController
+    )
     if (preservePlaylistAudio) {
       startPlayback = false
     } else if (mediaController) {
@@ -440,11 +421,10 @@ var useTuneBook = ({importResults, setImportResults, tunes, setTunes, deletedTun
     }
     if (mediaController) stepOpts.mediaController = mediaController
     if (!isEditorPath(locationPathname)) {
-      if (!forceSearchList && setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
+      if (useQueueNavigation && setPlaylist && setPlaylist.tunes && setPlaylist.tunes.length > 0) {
         if (navigateSetPlaylistStep(direction, currentSongId, failCallback, locationPathname, stepOpts)) return
       }
-      // Only step the now-playing queue when not forcing search-list browse.
-      if (!forceSearchList && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
+      if (useQueueNavigation && isCurrentTuneInQueue(nowPlayingQueue, currentSongId)) {
         if (navigateQueueStep(direction, currentSongId, failCallback, navigateFn, locationPathname, stepOpts)) return
       }
     }
@@ -1831,10 +1811,10 @@ The main difference between the two functions is the additional condition in app
     return res
   }
   
-  function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter) {
+  function fromSearch(filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly) {
     //console.log('from book',book, tunes)
     var res = Object.values(tunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter)
+        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
     })
     //console.log('to abc res',res)
     return res
@@ -1960,7 +1940,7 @@ The main difference between the two functions is the additional condition in app
     return res
   }
   
-  function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = []) {
+  function filterSearch(tune, filter, bookFilter, tagFilter = [], genreFilter = [], artistFilter = [], starredOnly = false) {
        //console.log('filterSearch',props.currentTuneBook,props.filter, props.tagFilter)
         var filterOk = false
         var bookFilterOk = false
@@ -1977,7 +1957,7 @@ The main difference between the two functions is the additional condition in app
             return (a) ? true : false
         }) : []
         // no filters means show tunes with NO book selected
-        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0) && (!genreFilter || genreFilter.length === 0) && (!artistFilter || artistFilter.length === 0)  ) {
+        if (!bookFilter && (!filter) && (!tagFilter || tagFilter.length === 0) && (!genreFilter || genreFilter.length === 0) && (!artistFilter || artistFilter.length === 0) && !starredOnly) {
             if (tune.books && tune.books.length > 0) {
                 return false
             } else {
@@ -2046,15 +2026,16 @@ The main difference between the two functions is the additional condition in app
                 artistFilterOk = tuneMatchesArtistFilter(tune, artistFilterClean)
             }
             //console.log('FILTER',tune,props.filter, bookFilter,tune.name, tune.books,(filterOk && bookFilterOk))
-            return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk)
+            var starredFilterOk = !starredOnly || !!(tune && tune.starred)
+            return (filterOk && bookFilterOk && tagFilterOk && genreFilterOk && artistFilterOk && starredFilterOk)
         }
     }
   
-  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = []) {
+  function mediaFromSearch(filter, bookFilter, tagFilter, useTunes = null, genreFilter = [], artistFilter = [], starredOnly = false) {
     if (!useTunes) useTunes = tunes
     //console.log('from sesarc','F',filter,'B' ,bookFilter,'T', tagFilter, useTunes)
     var res = Object.values(useTunes).filter(function(tune) {
-        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter)
+        return filterSearch(tune, filter, bookFilter, tagFilter, genreFilter, artistFilter, starredOnly)
     })
     //console.log('from search res',res)
     res = shuffle(res)

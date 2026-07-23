@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Button, Form, Modal } from 'react-bootstrap'
 import abcjs from 'abcjs'
+import { fitNotationToWidth } from '../gigNotationFit'
 
 function hasRenderableNotes(abc) {
   return String(abc || '').split(/\n/).some(function(line) {
@@ -51,6 +52,22 @@ function buildAbcFromChoice(choice, metadata) {
   return typeof choice.preview === 'string' ? choice.preview : ''
 }
 
+export function buildAbcFromTune(tune) {
+  if (!tune) return ''
+  const metadata = {
+    meter: tune.meter || '4/4',
+    noteLength: tune.noteLength || '1/8',
+    key: tune.key || 'C',
+  }
+  if (tune.voices && typeof tune.voices === 'object' && Object.keys(tune.voices).length) {
+    return buildAbcFromChoice({ value: { voices: tune.voices } }, metadata)
+  }
+  if (tune.notes != null && String(tune.notes).trim()) {
+    return buildAbcFromChoice({ preview: String(tune.notes) }, metadata)
+  }
+  return ''
+}
+
 function lyricsTextFromChoice(choice) {
   if (!choice) return ''
   const value = choice.value
@@ -63,43 +80,85 @@ function lyricsTextFromChoice(choice) {
   return choice.preview != null ? String(choice.preview) : ''
 }
 
-function NotationPreview(props) {
+export function NotationPreview(props) {
+  const wrapperRef = useRef(null)
   const hostRef = useRef(null)
   const abc = props.abc || ''
+  const fitWidth = props.fitWidth !== false
   const canRender = hasRenderableNotes(abc)
 
   useEffect(function() {
+    const wrapper = wrapperRef.current
     const host = hostRef.current
-    if (!host) return undefined
+    if (!wrapper || !host) return undefined
     host.innerHTML = ''
     if (!canRender) {
       host.textContent = 'No notation preview'
       return undefined
     }
-    try {
-      abcjs.renderAbc(host, abc, {
-        add_classes: true,
-        selectTypes: false,
-        staffwidth: Math.max(480, (host.parentElement && host.parentElement.clientWidth) || 480),
-        scale: 1,
-        paddingtop: 10,
-        paddingbottom: 10,
-        paddingleft: 4,
-        paddingright: 4,
-      })
-    } catch (e) {
-      host.textContent = 'Unable to render notation.'
+
+    function renderAndFit() {
+      host.innerHTML = ''
+      const availW = Math.max(120, wrapper.clientWidth)
+      const staffWidth = fitWidth ? availW : Math.max(480, availW)
+      try {
+        abcjs.renderAbc(host, abc, {
+          add_classes: true,
+          selectTypes: false,
+          staffwidth: staffWidth,
+          scale: 1,
+          paddingtop: 10,
+          paddingbottom: 10,
+          paddingleft: 4,
+          paddingright: 4,
+        })
+        const svg = host.querySelector('svg')
+        if (svg && fitWidth && availW > 0) {
+          fitNotationToWidth(svg, host, availW)
+        }
+      } catch (e) {
+        host.textContent = 'Unable to render notation.'
+      }
     }
-    return undefined
-  }, [abc, canRender])
+
+    renderAndFit()
+
+    if (!fitWidth || typeof ResizeObserver === 'undefined') {
+      return undefined
+    }
+    const observer = new ResizeObserver(function() {
+      renderAndFit()
+    })
+    observer.observe(wrapper)
+    return function() {
+      observer.disconnect()
+    }
+  }, [abc, canRender, fitWidth])
 
   return (
     <div
-      className="suggestion-preview-notation"
-      style={{ overflow: 'auto', maxHeight: '50vh', minHeight: '8rem', border: '1px solid #ced4da', borderRadius: '0.375rem', padding: '0.5rem', background: '#fff' }}
-      ref={hostRef}
-      aria-label="Notation preview"
-    />
+      ref={wrapperRef}
+      className="suggestion-preview-notation-wrap"
+      style={{ maxWidth: '100%', minWidth: 0 }}
+    >
+      <div
+        className="suggestion-preview-notation"
+        style={{
+          overflowX: 'hidden',
+          overflowY: 'auto',
+          maxHeight: '50vh',
+          minHeight: '8rem',
+          maxWidth: '100%',
+          border: '1px solid #ced4da',
+          borderRadius: '0.375rem',
+          padding: '0.5rem',
+          background: '#fff',
+          boxSizing: 'border-box',
+        }}
+        ref={hostRef}
+        aria-label="Notation preview"
+      />
+    </div>
   )
 }
 

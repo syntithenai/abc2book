@@ -4,6 +4,8 @@ import {
   insertRestAtCaret,
   insertMidiChordAtCaret,
   insertBarlineAtCaret,
+  insertSystemBreakAtCaret,
+  layoutInsertIndex,
   pitchFromLetter,
   pitchFromMidi,
   transposeSelectionByStaffSteps,
@@ -42,6 +44,62 @@ describe('notationActions', function() {
     expect(session.caretIndex).toBe(3);
     const abc = serializeVoiceEvents(session.events, tuneMeta);
     expect(abc).toMatch(/CD \| EF/);
+  });
+
+  test('insertBarlineAtCaret inserts before leftmost selected note', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      caretIndex: 4,
+      selection: { eventIds: [notes[2].id], toneIndex: null, anchorId: notes[2].id },
+    });
+    session = insertBarlineAtCaret(session, '|');
+    const abc = serializeVoiceEvents(session.events, tuneMeta);
+    expect(abc).toMatch(/CD \| EF/);
+  });
+
+  test('layoutInsertIndex prefers leftmost selected note over caret', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      caretIndex: 4,
+      selection: { eventIds: [notes[1].id], toneIndex: null, anchorId: notes[1].id },
+    });
+    expect(layoutInsertIndex(session)).toBe(1);
+  });
+
+  test('layoutInsertIndex uses lastSelection when session selection is empty', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      caretIndex: 4,
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+    const lastSelection = { eventIds: [notes[2].id], toneIndex: null, anchorId: notes[2].id };
+    expect(layoutInsertIndex(session, lastSelection)).toBe(2);
+  });
+
+  test('layoutInsertIndex uses pinned event id over stale caret', function() {
+    let session = createInitialSession(tuneMeta, 'C D E F |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    session = Object.assign({}, session, {
+      caretIndex: 4,
+      selection: { eventIds: [], toneIndex: null, anchorId: null },
+    });
+    expect(layoutInsertIndex(session, null, notes[1].id)).toBe(1);
+  });
+
+  test('insertSystemBreakAtCaret inserts before selected note', function() {
+    let session = createInitialSession(tuneMeta, 'CDEF | GABc |');
+    const notes = session.events.filter(function(ev) { return ev.type === 'note'; });
+    const gIdx = notes.findIndex(function(ev) { return ev.pitch && ev.pitch.step === 'G'; });
+    session = Object.assign({}, session, {
+      caretIndex: session.events.length,
+      selection: { eventIds: [notes[gIdx].id], toneIndex: null, anchorId: notes[gIdx].id },
+    });
+    session = insertSystemBreakAtCaret(session);
+    const abc = serializeVoiceEvents(session.events, tuneMeta);
+    expect(abc).toMatch(/CDEF \|\nGABc/);
   });
 
   test('sequential insert at caret advances and preserves order', function() {

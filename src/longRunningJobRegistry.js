@@ -58,6 +58,13 @@ export function getActiveTrackedJobs() {
   return Array.from(trackedJobs.values())
 }
 
+/** Manual searches (not background stem separation). */
+export function getManualTrackedSearchJobs() {
+  return getActiveTrackedJobs().filter(function(job) {
+    return !job.id || job.id.indexOf('stem-lrj-') !== 0
+  })
+}
+
 function getActiveTrackedJobsRevision() {
   return getActiveTrackedJobs().map(function(job) {
     return job.id + ':' + (job.label || '')
@@ -90,8 +97,8 @@ export function subscribeLongRunningJobs(listener) {
 // scans, media analysis) are intentionally excluded: they keep running while you browse
 // tunes and surface completion via the review toast/page.
 export function hasActiveLongRunningJobs() {
+  // Background stem separation is intentionally excluded (see stemAnalysisJobStore).
   return manualJobCount > 0
-    || stemJobCount > 0
 }
 
 function subscribeAllLongRunningJobs(listener) {

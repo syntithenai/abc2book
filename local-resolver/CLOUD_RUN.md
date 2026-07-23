@@ -87,15 +87,86 @@ Only callers on `EMBEDDED_CREDS_EMAILS` (or `ALL`) use these. Everyone else must
 
 **Do not** set `YTDLP_PROXY` on the public Cloud Run service for “everyone” — users BYO Webshare in Settings, or use the browser Helper / home resolver.
 
-### Optional — OAuth BFF on Cloud Run
+### OAuth BFF on Cloud Run (Firestore sessions)
 
-Skip for the light public gateway unless you intentionally host silent refresh here:
+Silent Google refresh for the SPA. Sessions are stored in **Firestore** (durable across deploys, cold starts, and multiple instances).
 
-- `GOOGLE_CLIENT_SECRET`
-- `AUTH_SESSION_SECRET`
-- `AUTH_SESSION_DB_PATH` (needs writable volume — awkward on Cloud Run; prefer BFF on home Caddy host)
+**One-time GCP setup:**
 
-Without those, `oauthBff` stays false; SPA login still works via Token Client + Bearer token to this resolver.
+```bash
+gcloud services enable firestore.googleapis.com --project=abc2book
+
+# Create Native-mode database (once) — pick region near Cloud Run
+gcloud firestore databases create \
+  --project=abc2book \
+  --location=australia-southeast1 \
+  --type=firestore-native \
+  || true
+
+PROJECT_NUMBER=$(gcloud projects describe abc2book --format='value(projectNumber)')
+SA="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
+gcloud projects add-iam-policy-binding abc2book \
+  --member="serviceAccount:${SA}" \
+  --role="roles/datastore.user"
+```
+
+**Secrets in Secret Manager** (in addition to `google-client-id`):
+
+```bash
+cd local-resolver
+set -a && source .env && set +a
+
+echo -n "$GOOGLE_CLIENT_SECRET" | gcloud secrets create google-client-secret --data-file=- --project=abc2book \
+  || echo -n "$GOOGLE_CLIENT_SECRET" | gcloud secrets versions add google-client-secret --data-file=-
+
+python3 -c "import secrets; print(secrets.token_urlsafe(32), end='')" | \
+  gcloud secrets create auth-session-secret --data-file=- --project=abc2book \
+  || python3 -c "import secrets; print(secrets.token_urlsafe(32), end='')" | \
+     gcloud secrets versions add auth-session-secret --data-file=-
+
+python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode(), end='')" | \
+  gcloud secrets create auth-refresh-token-fernet-key --data-file=- --project=abc2book \
+  || python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode(), end='')" | \
+     gcloud secrets versions add auth-refresh-token-fernet-key --data-file=-
+
+for S in google-client-secret auth-session-secret auth-refresh-token-fernet-key; do
+  gcloud secrets add-iam-policy-binding "$S" \
+    --member="serviceAccount:${SA}" \
+    --role="roles/secretmanager.secretAccessor" \
+    --project=abc2book || true
+done
+```
+
+**Env vars** — add to `/tmp/tunebook-resolver-env.yaml` (or `deploy/tunebook-resolver-env.yaml`):
+
+```yaml
+AUTH_SESSION_STORE: "firestore"
+AUTH_SESSION_FIRESTORE_PROJECT: "abc2book"
+AUTH_SESSION_FIRESTORE_COLLECTION: "oauth_sessions"
+```
+
+**Deploy secrets** — extend `--set-secrets`:
+
+```
+GOOGLE_CLIENT_SECRET=google-client-secret:latest,
+AUTH_SESSION_SECRET=auth-session-secret:latest,
+AUTH_REFRESH_TOKEN_FERNET_KEY=auth-refresh-token-fernet-key:latest
+```
+
+After deploy, `curl "$URL/health"` must include `"oauthBff": true`.
+
+Optional tuning (defaults are safe for Firestore free tier):
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `AUTH_REFRESH_MIN_INTERVAL_SECONDS` | `45` | Min seconds between Google token refreshes per session |
+| `AUTH_ACCESS_TOKEN_CACHE_SKEW_SECONDS` | `60` | Serve cached access token when expiry is farther out than this |
+
+Home peppertrees uses SQLite instead — see [PEPPERTREES_OAUTH.md](PEPPERTREES_OAUTH.md).
+
+### Optional — skip OAuth BFF on Cloud Run
+
+Without `GOOGLE_CLIENT_SECRET` / `AUTH_SESSION_SECRET`, `oauthBff` stays false; SPA login uses Token Client + Bearer token to this resolver.
 
 ### Not needed on Cloud Run light
 
@@ -187,6 +258,9 @@ PROVIDER_LLM_MODEL: "openai/gpt-oss-120b"
 PROVIDER_OCR_PROVIDER: "groq"
 PROVIDER_OCR_BASE_URL: "https://api.groq.com/openai/v1"
 PROVIDER_OCR_MODEL: "qwen/qwen3.6-27b"
+AUTH_SESSION_STORE: "firestore"
+AUTH_SESSION_FIRESTORE_PROJECT: "abc2book"
+AUTH_SESSION_FIRESTORE_COLLECTION: "oauth_sessions"
 EOF
 
 gcloud run deploy tunebook-resolver-light \
@@ -203,6 +277,9 @@ gcloud run deploy tunebook-resolver-light \
   --env-vars-file=/tmp/tunebook-resolver-env.yaml \
   --set-secrets="\
 GOOGLE_CLIENT_ID=google-client-id:latest,\
+GOOGLE_CLIENT_SECRET=google-client-secret:latest,\
+AUTH_SESSION_SECRET=auth-session-secret:latest,\
+AUTH_REFRESH_TOKEN_FERNET_KEY=auth-refresh-token-fernet-key:latest,\
 PROVIDER_WHISPER_API_KEY=provider-groq-api-key:latest,\
 PROVIDER_LLM_API_KEY=provider-groq-api-key:latest,\
 PROVIDER_OCR_API_KEY=provider-groq-api-key:latest\

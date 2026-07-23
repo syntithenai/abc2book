@@ -83,4 +83,35 @@ describe('useAbcTools bibliographic fields', function() {
     expect(exported).toContain('% abcbook-lyrics-scroll-duration 158');
     expect(abcTools.abc2json(exported).lyricsScrollDurationSec).toBe(158);
   });
+
+  test('round-trips multi-voice tablature settings without corrupting legacy tablature field', function() {
+    const tune = {
+      id: 'tab-test',
+      name: 'Copper Kettle',
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'D',
+      tablature: 'guitar',
+      tabDisplay: 'tab',
+      tablatureVoices: {
+        '1': { instrumentId: 'guitar', presetId: 'standard', tuning: 'Standard' },
+        '2': { instrumentId: 'violin', presetId: 'aeae', tuning: 'AEAE' },
+      },
+      voices: {
+        '1': { notes: ['A2A2 |'] },
+        '2': { notes: ['d2d2 |'] },
+      },
+    };
+    const exported = abcTools.json2abc(tune);
+    expect(exported).toContain('% abcbook-tablature-voices');
+    expect(exported).toContain('% abcbook-tab-display tab');
+    expect(exported).not.toContain('% abcbook-tablature -voices');
+
+    const parsed = abcTools.abc2json(exported);
+    expect(parsed.tablature).toBe('guitar');
+    expect(parsed.tabDisplay).toBe('tab');
+    expect(parsed.tablatureVoices['1'].instrumentId).toBe('guitar');
+    expect(parsed.tablatureVoices['2'].instrumentId).toBe('violin');
+    expect(parsed.tablatureVoices['2'].tuning).toBe('AEAE');
+  });
 });

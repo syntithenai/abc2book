@@ -1,8 +1,9 @@
 import axios from 'axios'
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import {
   AUTH_MODE_PROBE_WAIT_MS,
+  readStoredAuthBase,
 } from './authResolverClient'
 import {
   isMediaProxyConfigured,
@@ -27,6 +28,17 @@ import {
 
 var gsiInitialized = false
 var gsiRenderedButtonIds = {}
+var lastAuthResumeAt = 0
+var AUTH_RESUME_DEDUPE_MS = 5000
+
+function shouldSkipAuthResume() {
+  var now = Date.now()
+  if (lastAuthResumeAt && now - lastAuthResumeAt < AUTH_RESUME_DEDUPE_MS) {
+    return true
+  }
+  lastAuthResumeAt = now
+  return false
+}
 
 export { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
 
@@ -71,14 +83,26 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       oauthControllerRef.current = createOAuthBffController({
         clientId: clientId,
         scopes: scopes,
-        getAuthBase: function() { return authBaseRef.current || getAuthResolverBase() },
+        getAuthBase: function() {
+          return getAuthResolverBase() || authBaseRef.current || readStoredAuthBase()
+        },
+        getAccessToken: function() { return accessTokenRef.current },
         setAccessToken: setAccessToken,
         setUser: setUser,
         onTokenUpdated: notifyAccessTokenUpdated,
+        onAuthBaseResolved: function(base) {
+          if (base) selectController('oauth', base)
+        },
         onFallbackToTokenClient: function() {
-          // Keep current access token; switch renewals to Token Client.
-          // Do not open a Token Client popup immediately — that surprises users
-          // mid-session. They can click Login when the token actually expires.
+          // Keep OAuth mode when the access token is still valid — missing BFF
+          // session only affects silent renew, not resolver Bearer auth.
+          var current = accessTokenRef.current
+          var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
+          var stillValid = current && current.access_token
+            && (!expiresAt || expiresAt > Date.now() + 60000)
+          if (stillValid && (authBaseRef.current || getAuthResolverBase())) {
+            return
+          }
           var tokenCtrl = ensureTokenController()
           activeControllerRef.current = tokenCtrl
           authModeRef.current = 'token'
@@ -139,6 +163,10 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
         return Promise.resolve(controller.login()).catch(function(err) {
           console.warn('Google login failed', err)
           var message = (err && err.message) ? String(err.message) : 'Google login failed'
+          if (err && err.body) {
+            if (err.body.hint) message = String(err.body.hint)
+            else if (err.body.detail) message = String(err.body.detail)
+          }
           if (/still loading/i.test(message)) {
             toast.info('Google sign-in is still loading. Try again in a moment.')
           } else if (/interrupted|pop-up blocked|allow pop-ups/i.test(message)) {
@@ -157,9 +185,17 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       }
     }
 
+    function startLoginWithFreshAuthBase(controller) {
+      return waitForAuthBase(5000).then(function(base) {
+        if (base) selectController('oauth', base)
+        else if (authModeRef.current !== 'token') selectController('token', '')
+        return runWithController(controller)
+      })
+    }
+
     var knownBase = authBaseRef.current || getAuthResolverBase()
     if (authModeRef.current === 'oauth' && knownBase) {
-      return runWithController(ensureOauthController())
+      return startLoginWithFreshAuthBase(ensureOauthController())
     }
     if (authModeRef.current === 'token' || (authModeRef.current !== 'pending' && !knownBase)) {
       return runWithController(ensureTokenController())
@@ -187,6 +223,12 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       return controller.requestGoogleScopes(extraScopes, options)
     })
   }
+
+  var stableRequestGoogleScopes = useCallback(function(extraScopes, options) {
+    return requestGoogleScopes(extraScopes, options)
+  // waitForMode uses refs; stable across renders.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   function ensureGoogleIdentityScopes(options) {
     return requestGoogleScopes(GOOGLE_IDENTITY_SCOPES, options)
@@ -280,6 +322,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       return waitForAuthBase(AUTH_MODE_PROBE_WAIT_MS).then(function(base) {
         if (cancelled) return null
         var controller = selectController(base ? 'oauth' : 'token', base)
+        if (shouldSkipAuthResume()) return null
         if (base && controller.resumeSession) {
           // Silent BFF resume only. Do not fall back to Token Client popup on
           // mount when an OAuth resolver is available — user can click Login.
@@ -324,7 +367,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
       // If no media proxy configured, skip probe wait and use Token Client immediately.
       if (!isMediaProxyConfigured()) {
         selectController('token', '')
-        if (localStorage.getItem('google_login_user')) {
+        if (!shouldSkipAuthResume() && localStorage.getItem('google_login_user')) {
           ensureTokenController().refresh()
         }
         return
@@ -380,7 +423,7 @@ export default function useGoogleLogin({ scopes, usePrompt, loginButtonId }) {
     login: login,
     logout: logout,
     refresh: refresh,
-    requestGoogleScopes: requestGoogleScopes,
+    requestGoogleScopes: stableRequestGoogleScopes,
     ensureGoogleIdentityScopes: ensureGoogleIdentityScopes,
     loadUserImage: loadUserImage,
     breakLoginToken: breakLoginToken,

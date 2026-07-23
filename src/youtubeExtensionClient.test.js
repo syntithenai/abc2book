@@ -7,6 +7,7 @@ import {
   isYoutubeExtensionConnectedSync,
   pingYoutubeExtension,
 } from './youtubeExtensionClient'
+import { setYoutubeHelperDisabled } from './youtubeHelperSettings'
 import { youtubeAudioBytesAvailable } from './youtubeUnlock'
 
 function encodeBase64(str) {
@@ -19,6 +20,7 @@ describe('youtubeExtensionClient', function () {
 
   beforeEach(function () {
     __resetYoutubeExtensionPingCache()
+    localStorage.clear()
     document.documentElement.removeAttribute('data-tunebook-yt-helper')
     listeners = []
     postMessageSpy = jest.fn()
@@ -125,6 +127,41 @@ describe('youtubeExtensionClient', function () {
     const result = await pingYoutubeExtension({ force: true, timeoutMs: 40 })
     expect(result.ok).toBe(false)
     expect(String(result.error || '')).toMatch(/not connected|timed out/i)
+  })
+
+  test('disabled helper is treated as not connected', async function () {
+    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+    setYoutubeHelperDisabled(true)
+    expect(isYoutubeExtensionConnectedSync()).toBe(false)
+    const result = await pingYoutubeExtension({ force: true })
+    expect(result.ok).toBe(false)
+    expect(result.disabled).toBe(true)
+    expect(postMessageSpy).not.toHaveBeenCalled()
+  })
+
+  test('disabling helper aborts in-flight fetch', async function () {
+    const pending = fetchYoutubeAudioViaExtension('dQw4w9WgXcQ')
+    await Promise.resolve()
+    const pingCall = postMessageSpy.mock.calls.find(function (c) {
+      return c[0].type === 'tunebook.ping'
+    })
+    expect(pingCall).toBeTruthy()
+    emitFromExtension({
+      type: 'tunebook.pong',
+      requestId: pingCall[0].requestId,
+      version: '0.1.2',
+      ok: true,
+    })
+    let fetchCall
+    for (let i = 0; i < 20 && !fetchCall; i++) {
+      await Promise.resolve()
+      fetchCall = postMessageSpy.mock.calls.find(function (c) {
+        return c[0].type === 'tunebook.fetchYoutubeAudio'
+      })
+    }
+    expect(fetchCall).toBeTruthy()
+    setYoutubeHelperDisabled(true)
+    await expect(pending).rejects.toThrow(/disabled in settings/i)
   })
 
   test('youtubeAudioBytesAvailable true for BYOR fat proxy features', async function () {

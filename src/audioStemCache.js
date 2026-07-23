@@ -17,6 +17,29 @@ export function getStemSourceCacheKey(tuneId, linkIndex, src, model) {
   return 'stems:' + tuneId + ':' + linkIndex + ':' + src + modelSuffix;
 }
 
+export async function loadCachedStemSetForMedia(cacheOptions) {
+  if (!cacheOptions) {
+    return null;
+  }
+  const model = cacheOptions.demucsModel || '';
+  const primaryKey = getStemSourceCacheKey(
+    cacheOptions.tuneId,
+    cacheOptions.linkIndex,
+    cacheOptions.src,
+    model
+  );
+  let cached = await getCachedStemSet(primaryKey);
+  if (!cached && model) {
+    cached = await getCachedStemSet(getStemSourceCacheKey(
+      cacheOptions.tuneId,
+      cacheOptions.linkIndex,
+      cacheOptions.src,
+      ''
+    ));
+  }
+  return cached;
+}
+
 export function getScratchpadStemCacheKey(itemId, blobKey, model) {
   const modelSuffix = model ? ':' + model : '';
   return 'stems:scratchpad:' + itemId + ':' + blobKey + modelSuffix;
@@ -132,9 +155,15 @@ export async function saveCachedStemSet(cacheKey, payload) {
   let stemBuffers = payload && payload.stemBuffers ? payload.stemBuffers : null;
   let stemAudioBytes = payload && payload.stemAudioBytes ? payload.stemAudioBytes : null;
   let audioFormat = payload && payload.audioFormat ? payload.audioFormat : null;
+  const hasWavBytes = payload && payload.stemWavBytes
+    && typeof payload.stemWavBytes === 'object'
+    && Object.keys(payload.stemWavBytes).length > 0;
 
-  // Prefer encoding from decoded buffers so we persist the global compress format.
-  if (stemBuffers && Object.keys(stemBuffers).length > 0) {
+  // Fresh separation already provides WAV bytes — persist them without re-encoding.
+  if (hasWavBytes && stemBuffers) {
+    stemAudioBytes = payload.stemWavBytes;
+    audioFormat = audioFormat || 'wav';
+  } else if (stemBuffers && Object.keys(stemBuffers).length > 0) {
     const encoded = await encodeStemBuffers(stemBuffers, getAudioCompressFormat());
     stemAudioBytes = encoded.stemAudioBytes;
     audioFormat = encoded.audioFormat;

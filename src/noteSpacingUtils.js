@@ -318,6 +318,22 @@ export function buildNotationWLines(tune) {
  */
 export function resolveNoteAlignedWLines(tune) {
   if (!tune) return [];
+  const rawWLines = Array.isArray(tune.wLines) ? tune.wLines : [];
+  const voiceKey = resolvePrimaryVoiceKey(tune.voices);
+  const voice = tune.voices && tune.voices[voiceKey];
+  const noteLines = voice && Array.isArray(voice.notes) ? voice.notes : [];
+  const hasRawWLines = rawWLines.some(function(line) {
+    return String(line || '').trim();
+  });
+
+  // Prefer stored w: lines as edited — do not re-fit to one letter per note.
+  if (hasRawWLines) {
+    if (noteLines.length === 0) return rawWLines.slice();
+    return noteLines.map(function(_noteLine, index) {
+      return index < rawWLines.length ? String(rawWLines[index] || '') : '';
+    });
+  }
+
   if (hasStoredNoteAlignedLyrics(tune)) {
     const stored = getNoteAlignedLyricLines(tune);
     const voiceKey = resolvePrimaryVoiceKey(tune.voices);
@@ -363,7 +379,10 @@ export function buildAbcWithNoteSpacing(tune, abcTools, options) {
   }
   const plain = getPlainLyricLines(tune);
   const stored = getNoteAlignedLyricLines(tune);
-  if (plain.length === 0 && stored.length === 0) {
+  const hasRawWLines = Array.isArray(tune.wLines) && tune.wLines.some(function(line) {
+    return String(line || '').trim();
+  });
+  if (plain.length === 0 && stored.length === 0 && !hasRawWLines) {
     return abcTools.json2abc(Object.assign({}, tune, { wLines: [], words: [] }));
   }
   const wLines = resolveNoteAlignedWLines(tune);

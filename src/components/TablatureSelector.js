@@ -3,6 +3,7 @@ import { Button, ButtonGroup, Dropdown } from 'react-bootstrap'
 import {
   TAB_DISPLAY_OPTIONS,
   applyTabDisplay,
+  disableTablature,
   getTabDisplay,
   getTablatureButtonLabel,
   shouldRenderTablature,
@@ -37,13 +38,11 @@ export default function TablatureSelector(props) {
   function turnOff(e) {
     stop(e)
     setShowMenu(false)
-    tune.tablature = ''
-    tune.tabDisplay = ''
-    tune.tablatureVoices = null
+    disableTablature(tune)
     if (tune.id && tunebook && tunebook.saveTune) {
       tunebook.saveTune(tune)
     }
-    if (onChange) onChange('')
+    if (onChange) onChange(tune.tablature || '')
   }
 
   function setDisplayMode(e, mode) {

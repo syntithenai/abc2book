@@ -134,6 +134,12 @@ export default class PitchTempoShifter {
       this.seek(ratio);
     }
     if (wasConnected) {
+      // Live stem remixes are often triggered from a slider drag, which is not
+      // always treated as a user gesture. Resume before reconnecting so playback
+      // does not go silent while the UI still shows "playing".
+      if (this.audioContext && this.audioContext.state === 'suspended') {
+        try { this.audioContext.resume(); } catch (e) {}
+      }
       this.connect();
     }
   }

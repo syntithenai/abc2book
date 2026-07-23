@@ -2,6 +2,10 @@
 # Redeploy tunebook-resolver-light to Cloud Run (build + deploy).
 # Usage: from repo root or local-resolver/
 #   ./local-resolver/deploy-cloud-light.sh
+#
+# OAuth BFF (silent refresh) requires Firestore + secrets on the service.
+# See CLOUD_RUN.md sections "OAuth BFF on Cloud Run" and "Create secrets".
+# Env vars and --set-secrets persist on the service unless you change them.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -31,4 +35,5 @@ URL="$(gcloud run services describe tunebook-resolver-light \
 echo "Smoke: $URL/health"
 curl -sS "$URL/health" | head -c 500
 echo
+echo "Check oauthBff: curl -sS $URL/health | jq .oauthBff"
 echo "Done: $URL"

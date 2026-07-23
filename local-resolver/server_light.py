@@ -29,6 +29,7 @@ from providers import (
     providers_health_payload,
     resolve_provider,
 )
+from oauth_bff_routes import register_oauth_bff_routes
 from provider_stems_cloud import demucs_stems_for_model
 
 app = FastAPI(title="tunebook-resolver-light")
@@ -50,11 +51,20 @@ _stem_background_tasks: dict[str, asyncio.Task] = {}
 _stem_inflight_locks: dict[str, asyncio.Lock] = {}
 
 
+def oauth_bff_available() -> bool:
+    try:
+        from oauth_bff import oauth_bff_configured
+
+        return bool(oauth_bff_configured())
+    except Exception:
+        return False
+
+
 def cors_headers(origin: str | None) -> dict[str, str]:
     headers = {
         "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
         "Access-Control-Allow-Headers": (
-            "Authorization,Content-Type,"
+            "Authorization,Content-Type,X-Abc-Auth-Session,"
             "X-Tunebook-Provider-llm,X-Tunebook-Provider-whisper,"
             "X-Tunebook-Provider-ocr,X-Tunebook-Provider-stems,"
             "X-Tunebook-Ytdlp-Proxy"
@@ -68,6 +78,13 @@ def cors_headers(origin: str | None) -> dict[str, str]:
     elif not ALLOWED_ORIGINS:
         headers["Access-Control-Allow-Origin"] = origin or "*"
     return headers
+
+
+register_oauth_bff_routes(
+    app,
+    get_allowed_emails=lambda: FREE_ACCESS_EMAILS,
+    cors_headers=cors_headers,
+)
 
 
 def get_bearer_token(auth_header: str | None) -> str | None:
@@ -134,6 +151,7 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         allow_embedded=allow_embedded,
     )
     stems_available = is_cloud_stems_provider(stems_cfg)
+    oauth_bff = oauth_bff_available()
     return {
         "proxy": True,
         "stems": stems_available,
@@ -145,7 +163,7 @@ def light_features(allow_embedded: bool = False) -> dict[str, Any]:
         "sheetImageOmr": False,
         "imageSearch": False,
         "playwright": False,
-        "oauthBff": False,
+        "oauthBff": oauth_bff,
         "soundfonts": False,
         "lightMode": True,
         "midiConvert": True,
@@ -176,11 +194,12 @@ async def root(request: Request):
 async def _health_body(authorization: str | None) -> dict:
     token = get_bearer_token(authorization)
     verified = None
+    oauth_bff = oauth_bff_available()
     body: dict[str, Any] = {
         "ok": True,
         "requireAuth": REQUIRE_AUTH,
         "lightMode": True,
-        "oauthBff": False,
+        "oauthBff": oauth_bff,
         "staticSite": False,
     }
     if REQUIRE_AUTH:

@@ -3,6 +3,7 @@ import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { getMediaResolverHealthState } from './mediaResolverHealthStore'
 import { isAbortError } from './abortUtils'
 import { getStemSourceCacheKey, getCachedStemSet } from './audioStemCache'
+import { areStemBulkOperationsEnabled } from './stemBulkOperations'
 
 const STORAGE_KEY = 'queue-state'
 const store = localforage.createInstance({ name: 'stemcreatequeue' })
@@ -160,6 +161,15 @@ function mapSavedJob(item) {
 
 export async function restoreAndResume() {
   if (restored) return
+  if (!areStemBulkOperationsEnabled()) {
+    try {
+      await store.removeItem(STORAGE_KEY)
+    } catch (e) {
+      console.log(e)
+    }
+    restored = true
+    return
+  }
   try {
     const saved = await store.getItem(STORAGE_KEY)
     if (!saved || !Array.isArray(saved.jobs)) {
@@ -198,6 +208,9 @@ function resolveAccessToken(tunebook) {
 }
 
 export function enqueueStemCreateJob(options) {
+  if (!areStemBulkOperationsEnabled()) {
+    return null
+  }
   const tuneId = options.tuneId
   const linkIndex = options.linkIndex
   const src = options.src
@@ -233,6 +246,9 @@ export function enqueueStemCreateJob(options) {
 }
 
 export function enqueueTunesStemCreateJobs(tunes, tunebook, preferredLinkIndexByTuneId) {
+  if (!areStemBulkOperationsEnabled()) {
+    return []
+  }
   const ids = []
   const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null
   const accessToken = resolveAccessToken(tunebook)

@@ -1,6 +1,7 @@
 import { Accordion, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NotationEditorHelp from './components/NotationEditorHelp';
+import ScratchpadAudioEditorHelp from './components/scratchpad/ScratchpadAudioEditorHelp';
 
 export const HELP_NAV = [
   { id: 'start-here', title: 'Start here' },
@@ -19,6 +20,7 @@ export const HELP_NAV = [
   { id: 'foot-pedal', title: 'Foot pedal / page turn' },
   { id: 'performance-sets', title: 'Performance sets' },
   { id: 'scratchpad', title: 'Scratchpad' },
+  { id: 'scratchpad-audio-editor', title: 'Scratchpad audio editor' },
   { id: 'more-features', title: 'More features' },
   { id: 'youtube', title: 'YouTube and linked media' },
   { id: 'abc-notation', title: 'ABC notation' },
@@ -79,7 +81,7 @@ export function HelpWhatYouCanDo() {
       <ul>
         <li>Play generated MIDI or linked media.</li>
         <li>Adjust tempo, pitch, fine tune, and named loops (saved with the tune).</li>
-        <li>Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong> (chord diagram lookup). See <a href="#tuner">Tuner</a> for full tuner help.</li>
+        <li>Header menu: <strong>Tuner</strong>, <strong>Rhythm</strong> (metronome and drum machine), <strong>Keyboard</strong>, <strong>Chords</strong> (chord diagram lookup). See <a href="#tuner">Tuner</a> for full tuner help.</li>
       </ul>
       <h4>Lyrics, chords, background</h4>
       <ul>
@@ -481,14 +483,27 @@ export function HelpPerformanceSets() {
 export function HelpScratchpad() {
   return (
     <>
-      <p><Link to="/scratchpad">Scratchpad</Link> is a local workspace for drafts — text, images, notation, and audio — before you attach them to tunes.</p>
+      <p><Link to="/scratchpad">Scratchpad</Link> is a workspace for drafts — text, images, notation, and audio — before you attach them to tunes.</p>
       <ul>
         <li>Open <strong>Scratchpad</strong> from the header menu (between Practice and Feed).</li>
         <li>Use workspaces to group items. Tap <strong>+</strong> beside the workspace dropdown to create one.</li>
         <li>Tap the green <strong>Create</strong> button to add text, capture/import images, blank or imported notation, or record/import audio.</li>
         <li>Open an item to edit. Use <strong>Associate with tune</strong> to attach snapshots, merge notation or lyrics, or add audio links.</li>
+        <li>Open an <strong>audio</strong> item for the multitrack editor — see <a href="#scratchpad-audio-editor">Scratchpad audio editor</a> below.</li>
       </ul>
-      <p>Scratchpad data is stored on this device first; the schema is ready for future sync.</p>
+      <p>Scratchpad data is stored on this device first. When logged in with Google, items sync to your <strong>ABC Tune Book/Scratchpad</strong> folder in Drive.</p>
+    </>
+  );
+}
+
+export function HelpScratchpadAudioEditor() {
+  return (
+    <>
+      <p>
+        Open a scratchpad <strong>audio</strong> item to use the multitrack editor — record, edit, mix, and export before associating with a tune.
+        The same content is available from the editor <strong>?</strong> help button.
+      </p>
+      <ScratchpadAudioEditorHelp />
     </>
   );
 }
@@ -508,7 +523,7 @@ export function HelpMoreFeatures() {
         <li><strong>Undo and redo</strong> — Editor toolbar arrow buttons undo/redo recent edits.</li>
         <li><strong>Download MIDI</strong> — Where available, export generated playback as a MIDI file.</li>
         <li><strong>Stem separation</strong> — After media analysis, <strong>Audio Filters</strong> on playback lets you mix vocals, drums, bass, and other stems for practice.</li>
-        <li><strong>Tuner, metronome, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Metronome</strong>, <strong>Keyboard</strong>, <strong>Chords</strong>. See <a href="#tuner">Tuner</a> for string tuning, intonation, and advanced controls.</li>
+        <li><strong>Tuner, rhythm, keyboard, chord lookup</strong> — Header menu: <strong>Tuner</strong>, <strong>Rhythm</strong> (metronome and drum grooves), <strong>Keyboard</strong>, <strong>Chords</strong>. See <a href="#tuner">Tuner</a> for string tuning, intonation, and advanced controls.</li>
         <li><strong>Clear caches</strong> — Settings: <strong>Clear Audio Cache</strong> (downloaded linked media), <strong>Clear Midi Cache</strong> (ABC/MIDI synth playback), or <strong>Clear Stems</strong> (stem separation for audio filters).</li>
       </ul>
     </>
@@ -665,6 +680,7 @@ export const HELP_SECTIONS = [
   { id: 'foot-pedal', title: 'Foot pedal / page turn', Content: HelpFootPedal },
   { id: 'performance-sets', title: 'Performance sets and Gig Mode', Content: HelpPerformanceSets },
   { id: 'scratchpad', title: 'Scratchpad', Content: HelpScratchpad },
+  { id: 'scratchpad-audio-editor', title: 'Scratchpad audio editor', Content: HelpScratchpadAudioEditor },
   { id: 'more-features', title: 'More useful features', Content: HelpMoreFeatures },
   { id: 'youtube', title: 'YouTube and linked media', Content: HelpYouTube },
   { id: 'abc-notation', title: 'ABC notation', Content: HelpAbcNotation },

@@ -19,6 +19,48 @@ export function parseDriveFileInput(input) {
   return extractDriveFileId(input);
 }
 
+/** Coerce picker objects, URLs, or plain ids into a Drive file id string. */
+export function normalizeDriveFileId(input) {
+  if (input == null || input === '') return '';
+  if (typeof input === 'string') {
+    const trimmed = input.trim();
+    if (!trimmed || trimmed.indexOf('[object') >= 0) return '';
+    const parsed = extractDriveFileId(trimmed);
+    return parsed || trimmed;
+  }
+  if (typeof input === 'object') {
+    if (input.error) return '';
+    if (typeof input.id === 'string') return input.id.trim();
+    if (typeof input.driveFileId === 'string') return input.driveFileId.trim();
+    if (typeof input.googleId === 'string') return input.googleId.trim();
+    if (typeof input.fileId === 'string') return input.fileId.trim();
+  }
+  return '';
+}
+
+export const GOOGLE_DRIVE_FILE_SCOPE = 'https://www.googleapis.com/auth/drive.file';
+
+export function tokenHasDriveAccess(token) {
+  const scope = token && token.scope ? String(token.scope) : '';
+  if (!scope) return false;
+  return scope.indexOf('drive.file') >= 0
+    || scope.indexOf('drive.readonly') >= 0
+    || scope.indexOf('/auth/drive') >= 0;
+}
+
+/** Request drive.file only when the user explicitly needs Drive (never on login). */
+export function ensureDriveFileScope(requestGoogleScopes, token) {
+  if (tokenHasDriveAccess(token)) {
+    return Promise.resolve(token);
+  }
+  if (typeof requestGoogleScopes !== 'function') {
+    return Promise.resolve(null);
+  }
+  return requestGoogleScopes([GOOGLE_DRIVE_FILE_SCOPE])
+    .then(function(updated) { return updated || token; })
+    .catch(function() { return null; });
+}
+
 export async function fetchDriveFileText(driveApi, fileId, accessToken) {
   if (!driveApi || !fileId) throw new Error('Drive file id required');
   const meta = await new Promise(function(resolve, reject) {
@@ -44,7 +86,7 @@ export async function fetchDriveFileBlob(driveApi, fileId) {
   });
 }
 
-const DRIVE_READONLY_SCOPE = 'https://www.googleapis.com/auth/drive.readonly';
+export const DRIVE_READONLY_SCOPE = 'https://www.googleapis.com/auth/drive.readonly';
 
 function loadGooglePickerApi() {
   return new Promise(function(resolve, reject) {
@@ -101,5 +143,3 @@ export async function openGoogleDrivePicker(options) {
     picker.setVisible(true);
   });
 }
-
-export { DRIVE_READONLY_SCOPE };

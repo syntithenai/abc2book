@@ -16,6 +16,11 @@ const METHOD_ORDER = [
   NOTE_INPUT_METHODS.INSERT,
 ];
 
+const LONGEST_NOTE_INPUT_LABEL = METHOD_ORDER.reduce(function(longest, method) {
+  const label = NOTE_INPUT_METHOD_LABELS[method] || '';
+  return label.length > longest.length ? label : longest;
+}, 'Note name');
+
 export default function NotationDurationToolbar(props) {
   const {
     session,
@@ -23,6 +28,7 @@ export default function NotationDurationToolbar(props) {
     onToggleNoteInput,
     onApplyDuration,
     onInsertSystemBreak,
+    onToggleDot,
     expandFlags,
   } = props;
 
@@ -72,15 +78,21 @@ export default function NotationDurationToolbar(props) {
           </Dropdown.Menu>
         </Dropdown>
       </ButtonGroup>
-      {session.mode === EDITOR_MODES.NOTE_INPUT ? (
-        <span
-          className="notation-mode-badge notation-mode-badge-input"
-          title={'Note input — ' + methodLabel}
-          data-testid="notation-mode-badge-input"
-        >
-          {methodLabel}
-        </span>
-      ) : null}
+      <span className="notation-mode-badge-input-slot" aria-hidden={session.mode !== EDITOR_MODES.NOTE_INPUT}>
+        {session.mode === EDITOR_MODES.NOTE_INPUT ? (
+          <span
+            className="notation-mode-badge notation-mode-badge-input"
+            title={'Note input — ' + methodLabel}
+            data-testid="notation-mode-badge-input"
+          >
+            {methodLabel}
+          </span>
+        ) : (
+          <span className="notation-mode-badge notation-mode-badge-input notation-mode-badge-input--reserved">
+            {LONGEST_NOTE_INPUT_LABEL}
+          </span>
+        )}
+      </span>
       {expandDurations ? (
         <NotationDurationButtonGroup
           session={session}
@@ -97,7 +109,10 @@ export default function NotationDurationToolbar(props) {
       <Button
         size="lg"
         variant={session.dotted ? 'primary' : 'outline-secondary'}
-        onClick={function() { dispatch({ type: 'TOGGLE_DOT' }); }}
+        onClick={function() {
+          if (typeof onToggleDot === 'function') onToggleDot();
+          else dispatch({ type: 'TOGGLE_DOT' });
+        }}
         title="Dot (.)"
         data-testid="notation-dot"
       >.</Button>

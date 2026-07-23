@@ -6,6 +6,11 @@ import {
   resolveTuneTimeSignature,
 } from './playbackMetronomeSettings'
 import { rhythmFromPreset } from './metronomeRhythmPresets'
+import { normalizeRhythmConfig } from './rhythmEngineTypes'
+
+function expectRhythmPreset(actual, presetId) {
+  expect(actual).toEqual(normalizeRhythmConfig(rhythmFromPreset(presetId)))
+}
 
 describe('playbackMetronomeSettings', function() {
   test('resolveTuneTimeSignature prefers tune meter', function() {
@@ -24,17 +29,17 @@ describe('playbackMetronomeSettings', function() {
 
   test('defaultPlaybackMetronomeSettings derives rhythm from meter', function() {
     const settings = defaultPlaybackMetronomeSettings({ meter: '3/4' })
-    expect(settings.rhythm).toEqual(rhythmFromPreset('3-4'))
+    expectRhythmPreset(settings.rhythm, '3-4')
   })
 
   test('defaultPlaybackMetronomeSettings handles ABC common time', function() {
     const settings = defaultPlaybackMetronomeSettings({ meter: 'C' })
-    expect(settings.rhythm).toEqual(rhythmFromPreset('4-4'))
+    expectRhythmPreset(settings.rhythm, '4-4')
   })
 
   test('getPlaybackMetronomeSettings uses meter until rhythm is customized', function() {
     const fromMeter = getPlaybackMetronomeSettings({ meter: '6/8' })
-    expect(fromMeter.rhythm).toEqual(rhythmFromPreset('6-8'))
+    expectRhythmPreset(fromMeter.rhythm, '6-8')
 
     const customized = getPlaybackMetronomeSettings({
       meter: '6/8',

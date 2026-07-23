@@ -4,7 +4,7 @@ import { FixedSizeList } from 'react-window'
 import AutoSizer from 'react-virtualized-auto-sizer'
 import TuneListRow from './TuneListRow'
 
-export const COMPACT_ROW_HEIGHT = 52
+export const COMPACT_ROW_HEIGHT = 72
 export const DETAILED_ROW_HEIGHT = 96
 
 export default function VirtualizedTuneList(props) {
@@ -37,7 +37,7 @@ export default function VirtualizedTuneList(props) {
           isCompact={props.isCompact}
           isPreview={props.isPreview}
           showRowExtras={props.showRowExtras}
-          showChips={props.showChips}
+          showStarToggle={props.showStarToggle}
           selected={props.selected}
           tuneStatus={props.tuneStatus}
           tunebook={props.tunebook}

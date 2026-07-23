@@ -1,10 +1,14 @@
 import {
-  createRhythm,
   defaultMetronomeRhythm,
   parseRhythmText,
   formatRhythmText,
   rhythmFromTimeSignature,
 } from './metronomeRhythmPresets'
+import {
+  createRhythmConfig,
+  normalizeRhythmConfig,
+  ENGINE_MODE_CLICK,
+} from './rhythmEngineTypes'
 
 export function resolveTuneTimeSignature(tune, tunebook) {
   if (!tune) return ''
@@ -27,7 +31,9 @@ export function hasCustomPlaybackMetronomeRhythm(tune) {
 
 export function defaultPlaybackMetronomeSettings(tune, tunebook) {
   const meter = resolveTuneTimeSignature(tune, tunebook)
-  const rhythm = meter ? rhythmFromTimeSignature(meter) : defaultMetronomeRhythm()
+  const rhythm = meter
+    ? normalizeRhythmConfig(rhythmFromTimeSignature(meter))
+    : normalizeRhythmConfig(defaultMetronomeRhythm())
   return {
     countIn: true,
     countInBars: 1,
@@ -38,11 +44,7 @@ export function defaultPlaybackMetronomeSettings(tune, tunebook) {
 
 export function normalizePlaybackMetronomeRhythm(rhythm, tune, tunebook) {
   if (rhythm && typeof rhythm === 'object' && rhythm.beatsPerBar > 0) {
-    return createRhythm(
-      rhythm.beatsPerBar,
-      rhythm.accents,
-      rhythm.pulsesPerBeat
-    )
+    return normalizeRhythmConfig(rhythm)
   }
   return defaultPlaybackMetronomeSettings(tune, tunebook).rhythm
 }
@@ -52,13 +54,24 @@ export function getPlaybackMetronomeSettings(tune, tunebook) {
   if (!tune) return defaults
   const countIn = tune.playbackMetronomeCountIn !== false
   const bars = parseInt(tune.playbackMetronomeCountInBars, 10)
+  let rhythm = hasCustomPlaybackMetronomeRhythm(tune)
+    ? normalizePlaybackMetronomeRhythm(tune.playbackMetronomeRhythm, tune, tunebook)
+    : defaults.rhythm
+  if (tune.playbackMetronomeEngine) {
+    rhythm = normalizeRhythmConfig(Object.assign({}, rhythm, {
+      engineMode: tune.playbackMetronomeEngine,
+    }))
+  }
+  if (tune.playbackMetronomePresetId) {
+    rhythm = normalizeRhythmConfig(Object.assign({}, rhythm, {
+      presetId: tune.playbackMetronomePresetId,
+    }))
+  }
   return {
     countIn: countIn,
     countInBars: bars > 0 ? bars : defaults.countInBars,
     duringPlayback: tune.playbackMetronomeDuringPlayback === true,
-    rhythm: hasCustomPlaybackMetronomeRhythm(tune)
-      ? normalizePlaybackMetronomeRhythm(tune.playbackMetronomeRhythm, tune, tunebook)
-      : defaults.rhythm,
+    rhythm: rhythm,
   }
 }
 
@@ -70,7 +83,10 @@ export function applyPlaybackMetronomeSettings(tune, settings, options) {
   next.playbackMetronomeCountInBars = bars > 0 ? bars : 1
   next.playbackMetronomeDuringPlayback = settings.duringPlayback === true
   if (!options || options.persistRhythm !== false) {
-    next.playbackMetronomeRhythm = normalizePlaybackMetronomeRhythm(settings.rhythm, tune, tunebookFromOptions(options))
+    const normalized = normalizePlaybackMetronomeRhythm(settings.rhythm, tune, tunebookFromOptions(options))
+    next.playbackMetronomeRhythm = normalized
+    next.playbackMetronomeEngine = normalized.engineMode || ENGINE_MODE_CLICK
+    next.playbackMetronomePresetId = normalized.presetId || ''
   }
   return next
 }
@@ -91,11 +107,17 @@ export function applyPlaybackMetronomeCountInFields(tune, settings) {
 
 export function serializePlaybackMetronomeRhythm(rhythm) {
   const normalized = normalizePlaybackMetronomeRhythm(rhythm)
-  return JSON.stringify({
+  const payload = {
     beatsPerBar: normalized.beatsPerBar,
     accents: normalized.accents,
     pulsesPerBeat: normalized.pulsesPerBeat,
-  })
+    engineMode: normalized.engineMode,
+    presetId: normalized.presetId || '',
+  }
+  if (normalized.engineMode === 'drums' && normalized.drumPattern) {
+    payload.drumPattern = normalized.drumPattern
+  }
+  return JSON.stringify(payload)
 }
 
 export function parsePlaybackMetronomeRhythmField(raw, tune, tunebook) {

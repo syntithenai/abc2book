@@ -2,6 +2,7 @@ import { resolveActiveLinkForTune } from './mediaLinkResolve';
 import { getMediaResolverHealthState } from './mediaResolverHealthStore';
 import { sanitizeDownloadFilename } from './tuneDownloadActions';
 import { downloadStemZipForTune } from './stemDownloadUtils';
+import { areStemBulkOperationsEnabled } from './stemBulkOperations';
 
 let jobCounter = 0;
 let running = false;
@@ -67,6 +68,9 @@ export function subscribe(listener) {
 }
 
 export function enqueueStemDownloadJob(options) {
+  if (!areStemBulkOperationsEnabled()) {
+    return null;
+  }
   const tuneId = options.tuneId;
   const linkIndex = options.linkIndex;
   const src = options.src;
@@ -101,6 +105,9 @@ export function enqueueStemDownloadJob(options) {
 }
 
 export function enqueueTunesStemDownloadJobs(tunes, tunebook, preferredLinkIndexByTuneId) {
+  if (!areStemBulkOperationsEnabled()) {
+    return [];
+  }
   const ids = [];
   const isYoutubeLink = tunebook && tunebook.utils ? tunebook.utils.isYoutubeLink : null;
   const accessToken = tunebook && tunebook.getGoogleAccessToken

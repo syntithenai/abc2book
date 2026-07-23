@@ -30,6 +30,7 @@ export default function IndexSearchForm(props) {
     const showGroupBy = props.tunes && props.filtered && props.filtered.length < props.LIST_PROTECTION_LIMIT * 5
     const hasActiveSearchFilters = !!(
         props.currentTuneBook
+        || props.starredFilter
         || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0)
         || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0)
         || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)
@@ -104,6 +105,7 @@ export default function IndexSearchForm(props) {
         props.setTagFilter([])
         if (props.setGenreFilter) props.setGenreFilter([])
         if (props.setArtistFilter) props.setArtistFilter([])
+        if (props.setStarredFilter) props.setStarredFilter(false)
         props.setSelected({})
         props.setSelectedCount(0)
         props.setFiltered('')
@@ -135,6 +137,30 @@ export default function IndexSearchForm(props) {
         }
     }
 
+    function renderStarredFilterToggle(hideSelection) {
+        return (
+            <Button
+                type="button"
+                variant={props.starredFilter ? 'warning' : (hideSelection ? 'outline-secondary' : 'secondary')}
+                className="tune-search-starred-filter-btn"
+                title={props.starredFilter ? 'Show all tunes' : 'Show starred tunes only'}
+                aria-label={props.starredFilter ? 'Clear starred filter' : 'Filter starred tunes'}
+                aria-pressed={!!props.starredFilter}
+                onClick={function() {
+                    if (typeof props.setStarredFilter === 'function') {
+                        props.setStarredFilter(!props.starredFilter)
+                    }
+                    props.setListHash('')
+                    props.forceRefresh()
+                }}
+            >
+                {props.starredFilter
+                    ? (props.tunebook.icons.starfilled || props.tunebook.icons.star)
+                    : props.tunebook.icons.star}
+            </Button>
+        )
+    }
+
     function renderBookTagArtistFilters(options) {
         var activeOnly = !!(options && options.activeOnly)
         var hideSelection = !!(options && options.hideSelection)
@@ -144,6 +170,7 @@ export default function IndexSearchForm(props) {
         var hasArtists = Array.isArray(props.artistFilter) && props.artistFilter.length > 0
 
         return <>
+            {(!activeOnly || props.starredFilter) ? renderStarredFilterToggle(hideSelection) : null}
             {(!activeOnly || hasBook) ? (
                 <ButtonGroup>
                     <BookSelectorModal

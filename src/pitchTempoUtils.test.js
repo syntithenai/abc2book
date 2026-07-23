@@ -59,5 +59,8 @@ describe('audio filter settings', function() {
     expect(getAudioFilterKeysForStemNames(['drums', 'bass', 'other', 'vocals', 'guitar', 'piano'])).toEqual([
       'percussion', 'vocals', 'bass', 'guitar', 'piano', 'other',
     ]);
+    expect(getAudioFilterKeysForStemNames(['drums', 'bass', 'other', 'vocal'])).toEqual([
+      'percussion', 'vocals', 'bass', 'other',
+    ]);
   });
 });

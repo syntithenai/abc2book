@@ -443,6 +443,56 @@ body {
   color: #b42318;
 }
 
+.App-providers-status-pill.is-warn {
+  color: #b54708;
+}
+
+.App-providers-status-pill.is-pending {
+  color: var(--app-text-muted);
+}
+
+.App-providers-auth-status {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.App-providers-auth-headline {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.App-providers-auth-summary {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.App-providers-auth-silent {
+  margin-bottom: 0.75rem;
+}
+
+.App-providers-auth-actions-title {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.App-providers-auth-action-list {
+  margin: 0 0 0.75rem;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.App-providers-auth-action-link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: var(--app-link, #0d6efd);
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+}
+
 .App-providers-tabs-panel {
   margin-top: 0.75rem;
 }

@@ -1,5 +1,6 @@
-import { playMetronomeTick } from './metronomeTickSounds'
-import { createRhythm, slotAccentLevel, slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
+import { playRhythmSlot } from './rhythmSlotPlayback'
+import { createRhythmConfig, normalizeRhythmConfig } from './rhythmEngineTypes'
+import { slotBeatIndex, slotsPerBar } from './metronomeRhythmPresets'
 
 export default class Metronome
 {
@@ -22,11 +23,11 @@ export default class Metronome
         this.lastScheduledTime = 0;
         this.completionTimeoutId = null;
 
-        this.setRhythm(rhythm || createRhythm(beatsPerBar));
+        this.setRhythm(rhythm || createRhythmConfig(beatsPerBar));
     }
 
     setRhythm(rhythm) {
-        this.rhythm = rhythm || createRhythm(4);
+        this.rhythm = normalizeRhythmConfig(rhythm || createRhythmConfig(4));
         this.beatsPerBar = this.rhythm.beatsPerBar;
         this.pulsesPerBeat = this.rhythm.pulsesPerBeat;
         this.accents = this.rhythm.accents;
@@ -71,8 +72,7 @@ export default class Metronome
         this.notesInQueue.push({ slot: slotIndex, time: time });
         this.lastScheduledTime = time;
 
-        const accentLevel = slotAccentLevel(this.rhythm, slotIndex);
-        playMetronomeTick(this.audioContext, time, accentLevel);
+        playRhythmSlot(this.audioContext, time, this.rhythm, slotIndex);
 
         this.currentBeat += 1;
         if (this.currentBeat === 1 && typeof this.onFirstNoteSchedule === 'function') {
@@ -189,6 +189,20 @@ export default class Metronome
         this.currentSlotInBar = slot;
         this.nextNoteTime = this.audioContext.currentTime + 0.05;
         this.intervalID = setInterval(() => this.scheduler(), this.lookahead);
+    }
+
+    alignToSlot(slotIndex, nextNoteTime) {
+        if (!this.isRunning || !this.audioContext) return
+        const totalSlots = slotsPerBar(this.rhythm)
+        const slot = slotIndex !== undefined && slotIndex !== null
+            ? ((slotIndex % totalSlots) + totalSlots) % totalSlots
+            : this.currentSlotInBar
+        this.currentSlotInBar = slot
+        const now = this.audioContext.currentTime
+        const next = parseFloat(nextNoteTime)
+        this.nextNoteTime = Number.isFinite(next) && next > now
+            ? next
+            : now + 0.02
     }
 
     startAtSlot(slotIndex)

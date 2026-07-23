@@ -105,13 +105,12 @@ export function getDefaultPublicMediaProxyCandidates() {
 
 export function getMediaProxyBaseCandidates() {
   const urls = []
+  const saved = getSavedMediaProxyBase()
+  // Explicit Settings override wins over automatic localhost / dev-proxy discovery.
+  if (saved) urls.push(saved)
+
   const devBase = getDevServerMediaProxyBase()
   if (devBase) urls.push(devBase)
-
-  // Prefer explicit UI URL, then local, then env/public Cloud Run — so a healthy
-  // home resolver wins over Cloud Run and avoids accidental cloud traffic.
-  const saved = getSavedMediaProxyBase()
-  if (saved) urls.push(saved)
 
   getLocalMediaProxyCandidates().forEach(function(url) {
     urls.push(url)

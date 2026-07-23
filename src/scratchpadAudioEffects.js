@@ -123,6 +123,75 @@ function buildImpulse(sampleRate, durationSec) {
   return impulse
 }
 
+async function applyCompressor(buffer, opts) {
+  const offline = new OfflineAudioContext(
+    buffer.numberOfChannels,
+    buffer.length,
+    buffer.sampleRate
+  )
+  const comp = offline.createDynamicsCompressor()
+  comp.threshold.value = opts.threshold != null ? opts.threshold : -24
+  comp.knee.value = opts.knee != null ? opts.knee : 30
+  comp.ratio.value = opts.ratio != null ? opts.ratio : 12
+  comp.attack.value = opts.attack != null ? opts.attack : 0.003
+  comp.release.value = opts.release != null ? opts.release : 0.25
+  const source = offline.createBufferSource()
+  source.buffer = buffer
+  source.connect(comp)
+  comp.connect(offline.destination)
+  source.start(0)
+  return offline.startRendering()
+}
+
+async function applyFilter(buffer, type, opts) {
+  const offline = new OfflineAudioContext(
+    buffer.numberOfChannels,
+    buffer.length,
+    buffer.sampleRate
+  )
+  const filter = offline.createBiquadFilter()
+  filter.type = type
+  filter.frequency.value = opts.frequency || (type === 'highpass' ? 80 : 8000)
+  filter.Q.value = opts.q != null ? opts.q : 0.7
+  const source = offline.createBufferSource()
+  source.buffer = buffer
+  source.connect(filter)
+  filter.connect(offline.destination)
+  source.start(0)
+  return offline.startRendering()
+}
+
+async function applyPlaybackRate(buffer, rate) {
+  const r = Math.max(0.25, Math.min(4, Number(rate) || 1))
+  const outLength = Math.max(1, Math.floor(buffer.length / r))
+  const offline = new OfflineAudioContext(buffer.numberOfChannels, outLength, buffer.sampleRate)
+  const source = offline.createBufferSource()
+  source.buffer = buffer
+  source.playbackRate.value = r
+  source.connect(offline.destination)
+  source.start(0)
+  return offline.startRendering()
+}
+
+async function applyNoiseReduction(buffer, opts) {
+  const threshold = opts.threshold != null ? opts.threshold : 0.02
+  const reduction = opts.reduction != null ? opts.reduction : 0.5
+  const out = new AudioBuffer({
+    numberOfChannels: buffer.numberOfChannels,
+    length: buffer.length,
+    sampleRate: buffer.sampleRate,
+  })
+  for (let ch = 0; ch < buffer.numberOfChannels; ch += 1) {
+    const src = buffer.getChannelData(ch)
+    const dst = out.getChannelData(ch)
+    for (let i = 0; i < src.length; i += 1) {
+      const v = src[i]
+      dst[i] = Math.abs(v) < threshold ? v * reduction : v
+    }
+  }
+  return out
+}
+
 async function applyReverb(buffer, opts) {
   const sampleRate = buffer.sampleRate
   const offline = new OfflineAudioContext(
@@ -163,6 +232,18 @@ async function processBuffer(buffer, effectId, params, selection) {
     processed = await applyEq(working, params || {})
   } else if (effectId === 'reverb') {
     processed = await applyReverb(working, params || {})
+  } else if (effectId === 'compressor') {
+    processed = await applyCompressor(working, params || {})
+  } else if (effectId === 'highpass') {
+    processed = await applyFilter(working, 'highpass', params || {})
+  } else if (effectId === 'lowpass') {
+    processed = await applyFilter(working, 'lowpass', params || {})
+  } else if (effectId === 'changeTempo') {
+    processed = await applyPlaybackRate(working, params.rate || 1)
+  } else if (effectId === 'changePitch') {
+    processed = await applyPlaybackRate(working, params.semitones != null ? Math.pow(2, params.semitones / 12) : 1)
+  } else if (effectId === 'noiseReduction') {
+    processed = await applyNoiseReduction(working, params || {})
   }
   if (selection && selection.end > selection.start) {
     return replaceSelection(buffer, processed, selection.start)
@@ -181,4 +262,10 @@ export const AUDIO_EFFECTS = [
   { id: 'amplify', label: 'Amplify', defaultParams: { db: 3 } },
   { id: 'eq', label: 'EQ', defaultParams: { lowGainDb: 0, midGainDb: 0, highGainDb: 0 } },
   { id: 'reverb', label: 'Reverb', defaultParams: { mix: 0.35, decay: 1.5 } },
+  { id: 'compressor', label: 'Compressor', defaultParams: { threshold: -24, ratio: 12 } },
+  { id: 'highpass', label: 'High-pass filter', defaultParams: { frequency: 80 } },
+  { id: 'lowpass', label: 'Low-pass filter', defaultParams: { frequency: 8000 } },
+  { id: 'changeTempo', label: 'Change tempo', defaultParams: { rate: 1.1 } },
+  { id: 'changePitch', label: 'Change pitch', defaultParams: { semitones: 2 } },
+  { id: 'noiseReduction', label: 'Noise reduction', defaultParams: { threshold: 0.02, reduction: 0.5 } },
 ]

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './reactBootstrapDropdownPatch';
 import './index.css';
 import './breakpoints.css';
 import { applyColorScheme, getColorScheme } from './colorSchemeSettings';

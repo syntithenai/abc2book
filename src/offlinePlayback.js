@@ -4,8 +4,8 @@ import {
   resolvePlaybackForItem,
   isQueueActive,
   getCurrentItem,
-  advanceQueue,
 } from './nowPlayingQueue'
+import { advanceQueueToNextPlayable } from './playlistPlaybackResilience'
 
 export function isNavigatorOffline() {
   return typeof navigator !== 'undefined' && navigator.onLine === false
@@ -87,31 +87,16 @@ export async function findNextOfflinePlayableListIndex(tunes, startIndex, direct
 }
 
 export async function advanceQueueToOfflinePlayable(queue, tunes, tunebook, isYoutubeLink, playbackMode) {
-  if (!isQueueActive(queue)) {
-    return { queue: queue, tune: null, item: null, atEnd: true }
+  const result = await advanceQueueToNextPlayable(queue, tunes, tunebook, {
+    direction: 1,
+    advanceFirst: false,
+    isYoutubeLink: isYoutubeLink,
+    playbackMode: playbackMode,
+  })
+  return {
+    queue: result.queue,
+    tune: result.tune,
+    item: result.item,
+    atEnd: result.atEnd,
   }
-
-  let workingQueue = queue
-  let attempts = 0
-  const maxAttempts = queue.items.length
-
-  while (attempts < maxAttempts) {
-    const item = getCurrentItem(workingQueue)
-    const tune = item && item.tuneId && tunes ? tunes[item.tuneId] : null
-    if (!tune) {
-      return { queue: workingQueue, tune: null, item: item, atEnd: true }
-    }
-    const target = resolvePlaybackForItem(tune, item, tunebook)
-    if (!isNavigatorOffline() || await isTuneOfflinePlayable(tune, target, tunebook, isYoutubeLink, playbackMode)) {
-      return { queue: workingQueue, tune: tune, item: item, atEnd: false }
-    }
-    const stepped = advanceQueue(workingQueue, 1)
-    if (stepped.atEdge && stepped.edge === 'end') {
-      return { queue: workingQueue, tune: null, item: null, atEnd: true }
-    }
-    workingQueue = stepped.queue
-    attempts += 1
-  }
-
-  return { queue: workingQueue, tune: null, item: null, atEnd: true }
 }

@@ -1,18 +1,34 @@
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
-import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
+import { normalizeToTokenResponse, mergeScopeStrings } from './googleLoginTokenAdapter'
 import {
   exchangeAuthCode,
   loadAuthSession,
   logoutAuthSession,
   readStoredAuthSessionId,
   refreshAuthSession,
+  setOAuthLoginInFlight,
   storeAuthBase,
   storeAuthSessionId,
 } from './authResolverClient'
+import { waitForAuthBase } from './mediaResolverHealthStore'
 import {
   clearLoginProfile,
+  readLoginHintEmail,
+  readStoredLoginProfile,
   storeLoginProfile,
 } from './googleLoginTokenClient'
+
+function loginHintEmail() {
+  var hint = readLoginHintEmail()
+  if (hint) return hint
+  var profile = readStoredLoginProfile()
+  if (profile && profile.email) return profile.email
+  try {
+    var stored = localStorage.getItem('google_login_user') || ''
+    if (stored.indexOf('@') > 0) return stored
+  } catch (e) {}
+  return ''
+}
 
 function redirectUri() {
   if (typeof window === 'undefined' || !window.location) return ''
@@ -25,7 +41,9 @@ function redirectUri() {
  */
 export function createOAuthBffController(ctx) {
   var loginRefreshTimeout = null
+  var loginInFlight = null
   var refreshInFlight = null
+  var resumeInFlight = null
   var grantedExtraScopes = []
   var forceConsentNext = false
   var authRequestSeq = 0
@@ -59,6 +77,8 @@ export function createOAuthBffController(ctx) {
     })
   }
 
+  var refreshBackoffUntil = 0
+
   function scheduleRenew(tokenResponse) {
     if (!(tokenResponse && tokenResponse.expires_in > 0)) return
     clearTimeout(loginRefreshTimeout)
@@ -71,6 +91,10 @@ export function createOAuthBffController(ctx) {
   function applyTokenPayload(payload) {
     var normalized = normalizeToTokenResponse(payload)
     if (!normalized) return null
+    var previous = ctx.getAccessToken && ctx.getAccessToken()
+    if (previous && previous.scope) {
+      normalized.scope = mergeScopeStrings(previous.scope, normalized.scope.split(/\s+/))
+    }
     if (payload.session_id) {
       storeAuthSessionId(payload.session_id)
     }
@@ -114,6 +138,22 @@ export function createOAuthBffController(ctx) {
     return message || type || 'Authorization cancelled'
   }
 
+  function scopesForRequest(extraScopes, options) {
+    // Incremental scope upgrades (picker, photos, etc.) — not the main login path.
+    if (options && (options.loginOnly || options.identityOnly)) {
+      return GOOGLE_IDENTITY_SCOPES.slice()
+    }
+    return mergeScopes(extraScopes)
+  }
+
+  function isIdentityOnlyScopes(extraScopes) {
+    if (!Array.isArray(extraScopes) || extraScopes.length === 0) return false
+    for (var i = 0; i < extraScopes.length; i++) {
+      if (GOOGLE_IDENTITY_SCOPES.indexOf(extraScopes[i]) === -1) return false
+    }
+    return true
+  }
+
   function requestAuthorizationCode(extraScopes, options) {
     var prompt = ''
     if (options && options.forceConsent) prompt = 'consent'
@@ -126,21 +166,28 @@ export function createOAuthBffController(ctx) {
     }
     var requestId = ++authRequestSeq
     return new Promise(function(resolve, reject) {
-      rememberExtraScopes(extraScopes)
-      var useScopes = mergeScopes(extraScopes)
+      if (!(options && (options.loginOnly || options.identityOnly))) {
+        rememberExtraScopes(extraScopes)
+      }
+      var useScopes = scopesForRequest(extraScopes, options)
       var settled = false
       function settle(fn, value) {
         if (settled || requestId !== authRequestSeq) return
         settled = true
         fn(value)
       }
+      var identityOnly = !!(options && (options.loginOnly || options.identityOnly))
+      var incremental = !!(options && options.incremental)
       var config = {
         client_id: ctx.clientId,
         scope: useScopes.join(' '),
         ux_mode: 'popup',
-        include_granted_scopes: true,
-        // Offline access so the BFF receives a refresh_token.
-        // GIS accepts these fields for code clients.
+        // Login must request only the scopes listed above. include_granted_scopes
+        // would re-attach old sensitive grants (e.g. drive.readonly) and trigger
+        // "Google hasn't verified this app" even when drive.file is approved.
+        include_granted_scopes: incremental && !identityOnly,
+        // Required for BFF refresh tokens (GIS passes through to Google auth URL).
+        access_type: 'offline',
         callback: function(response) {
           if (!response || response.error) {
             settle(reject, new Error((response && (response.error_description || response.error)) || 'Authorization failed'))
@@ -162,13 +209,15 @@ export function createOAuthBffController(ctx) {
         },
       }
       if (prompt) config.prompt = prompt
+      var hint = loginHintEmail()
+      if (hint) config.login_hint = hint
       var client = oauth2.initCodeClient(config)
       client.requestCode()
     })
   }
 
-  function exchangeCode(codePayload) {
-    var authBase = getAuthBase()
+  function exchangeCode(codePayload, authBaseOverride) {
+    var authBase = authBaseOverride || getAuthBase()
     if (!authBase) {
       return Promise.reject(new Error('No OAuth resolver available'))
     }
@@ -177,6 +226,14 @@ export function createOAuthBffController(ctx) {
       code_verifier: codePayload.code_verifier || '',
       redirect_uri: redirectUri(),
     }).then(function(body) {
+      if (body && body.access_token && !body.session_id) {
+        // Online-only grant: resolver works now; user may need one consent retry later
+        // for silent BFF refresh (revoke app access at Google, then log in again).
+        forceConsentNext = true
+        console.warn('OAuth BFF: signed in without offline refresh session')
+      } else if (body && body.session_id) {
+        forceConsentNext = false
+      }
       return applyTokenPayload(body)
     }).catch(function(err) {
       if (err && err.body && err.body.error === 'refresh_token_missing') {
@@ -187,29 +244,52 @@ export function createOAuthBffController(ctx) {
   }
 
   function login() {
-    // Prefer the authorization-code popup without forcing consent. That skips
-    // Google's consent UI when the app was already granted (avoids the Token
-    // Client consent page that 500s for some accounts after prior BFF prompts).
-    // Only force consent when we previously learned a refresh_token is required.
-    function attempt(forceConsent) {
-      return requestAuthorizationCode(null, { forceConsent: !!forceConsent }).then(exchangeCode)
-    }
-    var forced = !!forceConsentNext
-    return attempt(forced).catch(function(err) {
-      console.warn('OAuth BFF login failed', err)
-      throw err
+    if (loginInFlight) return loginInFlight
+    setOAuthLoginInFlight(true)
+    var needConsent = !!forceConsentNext
+    loginInFlight = waitForAuthBase(5000).then(function(base) {
+      if (!base) {
+        throw new Error('No OAuth resolver available. Check Settings → Providers.')
+      }
+      storeAuthBase(base)
+      if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
+      return requestAuthorizationCode(null, {
+        forceConsent: needConsent,
+      }).then(function(codePayload) {
+        return exchangeCode(codePayload, base)
+      })
+    }).finally(function() {
+      loginInFlight = null
+      setOAuthLoginInFlight(false)
     })
+    return loginInFlight
   }
 
   function requestGoogleScopes(extraScopes, options) {
     if (!localStorage.getItem('google_login_user')) {
       return Promise.reject(new Error('Not logged in'))
     }
-    return requestAuthorizationCode(extraScopes, options).then(exchangeCode)
+    var scopeOptions = Object.assign({ incremental: true }, options || {})
+    if (isIdentityOnlyScopes(extraScopes)) {
+      scopeOptions.identityOnly = true
+    }
+    return waitForAuthBase(5000).then(function(base) {
+      if (!base) {
+        throw new Error('No OAuth resolver available')
+      }
+      storeAuthBase(base)
+      if (ctx.onAuthBaseResolved) ctx.onAuthBaseResolved(base)
+      return requestAuthorizationCode(extraScopes, scopeOptions).then(function(codePayload) {
+        return exchangeCode(codePayload, base)
+      })
+    })
   }
 
   function silentRefresh() {
     if (refreshInFlight) return refreshInFlight
+    if (refreshBackoffUntil > Date.now()) {
+      return Promise.resolve(null)
+    }
     var authBase = getAuthBase()
     var sessionId = readStoredAuthSessionId()
     if (!authBase || !sessionId) {
@@ -218,10 +298,21 @@ export function createOAuthBffController(ctx) {
     refreshInFlight = refreshAuthSession(authBase, sessionId)
       .then(function(body) {
         refreshInFlight = null
+        refreshBackoffUntil = 0
         return applyTokenPayload(Object.assign({}, body, { session_id: body.session_id || sessionId }))
       })
       .catch(function(err) {
         refreshInFlight = null
+        if (err && err.status === 429) {
+          var retryAfter = Number(err.retryAfter || (err.body && err.body.retry_after)) || 60
+          refreshBackoffUntil = Date.now() + retryAfter * 1000
+          clearTimeout(loginRefreshTimeout)
+          loginRefreshTimeout = setTimeout(function() {
+            silentRefresh().catch(function() {})
+          }, retryAfter * 1000)
+          console.warn('OAuth BFF refresh rate limited; retry in', retryAfter, 's')
+          return null
+        }
         console.warn('OAuth BFF silent refresh failed', err)
         return fallbackToTokenClientRenew()
       })
@@ -238,27 +329,39 @@ export function createOAuthBffController(ctx) {
   }
 
   function tryRefreshAccessToken() {
+    if (refreshBackoffUntil > Date.now()) {
+      return Promise.resolve(null)
+    }
+    var current = ctx.getAccessToken && ctx.getAccessToken()
+    var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
+    if (current && current.access_token && expiresAt > Date.now() + 120000) {
+      return Promise.resolve(current)
+    }
     return silentRefresh()
   }
 
   function resumeSession() {
+    if (resumeInFlight) return resumeInFlight
     var authBase = getAuthBase()
     var sessionId = readStoredAuthSessionId()
     if (!authBase || !sessionId || !localStorage.getItem('google_login_user')) {
       return Promise.resolve(null)
     }
-    return loadAuthSession(authBase, sessionId)
+    resumeInFlight = loadAuthSession(authBase, sessionId)
       .then(function(body) {
+        resumeInFlight = null
         return applyTokenPayload(Object.assign({}, body, {
           session_id: body.session_id || sessionId,
           email: body.email,
         }))
       })
       .catch(function(err) {
+        resumeInFlight = null
         console.warn('OAuth BFF session resume failed', err)
         storeAuthSessionId('')
         return null
       })
+    return resumeInFlight
   }
 
   function logout() {
@@ -276,8 +379,9 @@ export function createOAuthBffController(ctx) {
       }
     } catch (e) {}
     return logoutAuthSession(authBase, sessionId).finally(function() {
-      // Drop session id only. Keep sticky auth base. Do not revoke Google grant.
+      // Drop BFF session; clear OAuth host so the next login uses probe priority (local first).
       storeAuthSessionId('')
+      storeAuthBase('')
       ctx.setUser(null)
       ctx.setAccessToken(null)
       localStorage.setItem('google_login_user', '')

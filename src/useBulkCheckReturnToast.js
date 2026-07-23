@@ -4,6 +4,7 @@ import {
   clearBulkCheckReturnContext,
   dismissBulkCheckReturnToast,
   getBulkCheckReturnContext,
+  requestOpenBulkCheck,
   showBulkCheckReturnToast,
 } from './bulkCheckReturnContext'
 
@@ -18,7 +19,13 @@ export function useBulkCheckReturnToast(tuneId) {
     showBulkCheckReturnToast({
       onBack: function() {
         clearBulkCheckReturnContext()
-        navigate(context.returnPath || '/tunes/check')
+        if (context.selectionKey) {
+          requestOpenBulkCheck({
+            selectionKey: context.selectionKey,
+            autoStartCheck: false,
+          })
+        }
+        navigate('/tunes')
       },
     })
 

@@ -11,7 +11,7 @@ from midi_analysis import MidiProfile, analyze_midi_bytes
 
 MAX_MIDI_IMPORT_BYTES = int(os.getenv("MAX_MIDI_IMPORT_BYTES", str(4 * 1024 * 1024)))
 MAX_MIDI_IMPORT_PARTS_MELODY = 1
-MAX_MIDI_IMPORT_PARTS_MULTI = 4
+MAX_MIDI_IMPORT_PARTS_MULTI = 8
 MIDI_QUANTIZE_DIVISOR_CANDIDATES = (2, 4, 8, 3, 6, 12)
 
 
@@ -97,6 +97,9 @@ def _keep_profile_parts(
     mode: str | None = None,
     *,
     include_chords: bool = False,
+    explicit_track_ids: list[int] | None = None,
+    include_drums: bool = False,
+    max_parts: int | None = None,
 ):
     from music21 import stream
 
@@ -105,22 +108,32 @@ def _keep_profile_parts(
         return score, []
 
     import_mode = mode or (profile.recommended_mode if profile else "melody")
-    if include_chords and import_mode != "multi_voice":
-        max_parts = 2
-    elif import_mode == "multi_voice":
-        max_parts = MAX_MIDI_IMPORT_PARTS_MULTI
-    else:
-        max_parts = MAX_MIDI_IMPORT_PARTS_MELODY
+    if max_parts is None:
+        if include_chords and import_mode != "multi_voice":
+            max_parts = 2
+        elif import_mode == "multi_voice":
+            max_parts = MAX_MIDI_IMPORT_PARTS_MULTI
+        else:
+            max_parts = MAX_MIDI_IMPORT_PARTS_MELODY
 
     keep: list = []
     if profile:
         from midi_analysis import track_ids_for_import
 
-        id_list = track_ids_for_import(profile, import_mode, include_chords=include_chords)
+        id_list = track_ids_for_import(
+            profile,
+            import_mode,
+            include_chords=include_chords,
+            explicit_track_ids=explicit_track_ids,
+            max_voices=max_parts,
+        )
         id_set = set(id_list)
         for index, part in enumerate(parts):
-            if index in id_set and not _is_drum_part(part):
-                keep.append(part)
+            if index not in id_set:
+                continue
+            if _is_drum_part(part) and not include_drums:
+                continue
+            keep.append(part)
         keep = keep[:max_parts]
 
     if not keep:
@@ -256,10 +269,21 @@ def simplify_midi_score_for_notation(
     mode: str | None = None,
     *,
     include_chords: bool = False,
+    explicit_track_ids: list[int] | None = None,
+    include_drums: bool = False,
+    max_parts: int | None = None,
 ):
     if score is None:
         return score, {"quant_error": 1.0, "tracks_imported": 0}
-    simplified, kept = _keep_profile_parts(score, profile, mode, include_chords=include_chords)
+    simplified, kept = _keep_profile_parts(
+        score,
+        profile,
+        mode,
+        include_chords=include_chords,
+        explicit_track_ids=explicit_track_ids,
+        include_drums=include_drums,
+        max_parts=max_parts,
+    )
     import_mode = mode or (profile.recommended_mode if profile else "melody")
     flatten = import_mode != "multi_voice"
     if flatten:
@@ -315,12 +339,18 @@ def write_score_to_musicxml(
     mode: str | None = None,
     *,
     include_chords: bool = False,
+    explicit_track_ids: list[int] | None = None,
+    include_drums: bool = False,
+    max_parts: int | None = None,
 ) -> tuple[str, dict[str, Any]]:
     simplified, diagnostics = simplify_midi_score_for_notation(
         score,
         profile,
         mode,
         include_chords=include_chords,
+        explicit_track_ids=explicit_track_ids,
+        include_drums=include_drums,
+        max_parts=max_parts,
     )
     _apply_metadata(simplified, profile)
     prepared = _finalize_score_for_musicxml(simplified)
@@ -334,6 +364,9 @@ def convert_midi_bytes_to_musicxml_sync(
     profile: MidiProfile | None = None,
     mode: str | None = None,
     include_chords: bool = False,
+    explicit_track_ids: list[int] | None = None,
+    include_drums: bool = False,
+    max_parts: int | None = None,
 ) -> tuple[str, dict[str, Any]]:
     from music21 import converter
 
@@ -343,7 +376,15 @@ def convert_midi_bytes_to_musicxml_sync(
         converter.parseData(midi_bytes, quarterLengthDivisors=(4, 8, 3, 6))
     )
     score = converter.parseData(midi_bytes, quarterLengthDivisors=divisors)
-    return write_score_to_musicxml(score, profile, mode, include_chords=include_chords)
+    return write_score_to_musicxml(
+        score,
+        profile,
+        mode,
+        include_chords=include_chords,
+        explicit_track_ids=explicit_track_ids,
+        include_drums=include_drums,
+        max_parts=max_parts,
+    )
 
 
 async def convert_midi_to_musicxml(

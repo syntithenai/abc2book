@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Alert, Badge, Button, Nav, Tab, Table } from 'react-bootstrap';
+import { Alert, Badge, Button, Form, Nav, Tab, Table } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import FormFieldHelp from './FormFieldHelp';
 import { SETTINGS_FIELD_HELP } from '../formFieldHelpText';
@@ -8,6 +8,7 @@ import { tuneImportTitle } from '../importTitleMatch';
 import {
   scanDuplicateGroupsAsync,
   filterDuplicateGroupsByKind,
+  filterDuplicateGroupsByName,
 } from '../tuneDuplicateScan';
 import { dismissDuplicateGroup } from '../tuneDuplicateDismissals';
 import { applyDuplicateMerge, pickDefaultSurvivorId } from '../tuneDuplicateMerge';
@@ -46,6 +47,7 @@ export default function DuplicateManagerSettingsSection(props) {
   const navigate = useNavigate();
 
   const [filterKind, setFilterKind] = useState(FILTER_ALL);
+  const [nameFilter, setNameFilter] = useState('');
   const [expandedGroupId, setExpandedGroupId] = useState(null);
   const [mergeGroup, setMergeGroup] = useState(null);
   const [scanVersion, setScanVersion] = useState(0);
@@ -104,8 +106,21 @@ export default function DuplicateManagerSettingsSection(props) {
   }, [tuneCount, scanVersion]);
 
   const filteredGroups = useMemo(function() {
-    return filterDuplicateGroupsByKind(scanResult.groups, filterKind);
-  }, [scanResult.groups, filterKind]);
+    const byKind = filterDuplicateGroupsByKind(scanResult.groups, filterKind);
+    return filterDuplicateGroupsByName(byKind, nameFilter);
+  }, [scanResult.groups, filterKind, nameFilter]);
+
+  const matchingTunes = useMemo(function() {
+    const query = nameFilter.trim().toLowerCase();
+    if (!query) return [];
+    return Object.values(tunes).filter(function(tune) {
+      if (!tune || !tune.id) return false;
+      const title = tuneImportTitle(tune);
+      return title && String(title).toLowerCase().indexOf(query) !== -1;
+    }).sort(function(a, b) {
+      return tuneImportTitle(a).localeCompare(tuneImportTitle(b));
+    });
+  }, [tunes, nameFilter]);
 
   const handleRescan = useCallback(function() {
     setScanVersion(function(v) { return v + 1; });
@@ -196,6 +211,17 @@ export default function DuplicateManagerSettingsSection(props) {
           <p className="app-text-muted mb-3">Scanning your library for duplicates…</p>
         ) : null}
 
+        <Form.Group className="mb-3" controlId="duplicate-manager-name-filter">
+          <Form.Label className="mb-1">Filter by name</Form.Label>
+          <Form.Control
+            type="search"
+            placeholder="Search duplicate groups by tune title…"
+            value={nameFilter}
+            onChange={function(e) { setNameFilter(e.target.value); }}
+            disabled={scanning}
+          />
+        </Form.Group>
+
         <Tab.Container activeKey={filterKind} onSelect={function(key) { setFilterKind(key || FILTER_ALL); }}>
           <Nav variant="pills" className="mb-3 flex-wrap">
             <Nav.Item>
@@ -211,10 +237,12 @@ export default function DuplicateManagerSettingsSection(props) {
         </Tab.Container>
 
         {filteredGroups.length === 0 ? (
-          <Alert variant="secondary" className="mb-0">
+          <Alert variant="secondary" className="mb-3">
             {scanResult.groups.length === 0
-              ? 'No duplicates found in your library.'
-              : 'No groups match this filter.'}
+              ? 'No duplicate groups found in your library.'
+              : (nameFilter.trim()
+                ? 'No duplicate groups match that name.'
+                : 'No groups match this filter.')}
           </Alert>
         ) : (
           <Table size="sm" responsive>
@@ -229,13 +257,23 @@ export default function DuplicateManagerSettingsSection(props) {
             <tbody>
               {filteredGroups.map(function(group) {
                 const expanded = expandedGroupId === group.id;
+                const tuneCount = Array.isArray(group.tuneIds) ? group.tuneIds.length : 0;
+                const multiTuneGroup = tuneCount >= 3;
                 return (
                   <tr key={group.id}>
                     <td colSpan={4} style={{ padding: 0, border: 'none' }}>
-                      <div className="border rounded mb-2 overflow-hidden">
+                      <div
+                        className={'border rounded mb-2 overflow-hidden' + (multiTuneGroup ? ' border-warning border-2' : '')}
+                        data-testid={multiTuneGroup ? 'duplicate-group-multi' : undefined}
+                        style={multiTuneGroup ? { boxShadow: '0 0 0 1px var(--bs-warning)' } : undefined}
+                      >
                         <div
                           className="px-3 py-2 d-flex flex-wrap align-items-center gap-2"
-                          style={{ backgroundColor: 'var(--bs-light, #f8f9fa)' }}
+                          style={{
+                            backgroundColor: multiTuneGroup
+                              ? 'var(--bs-warning-bg-subtle, #fff3cd)'
+                              : 'var(--bs-light, #f8f9fa)',
+                          }}
                         >
                           <Button
                             size="sm"
@@ -249,6 +287,9 @@ export default function DuplicateManagerSettingsSection(props) {
                           </Button>
                           <Badge bg={confidenceVariant(group.confidence)}>{group.confidence}</Badge>
                           <Badge bg="light" text="dark">{kindLabel(group.kind)}</Badge>
+                          {multiTuneGroup ? (
+                            <Badge bg="warning" text="dark">{tuneCount} tunes</Badge>
+                          ) : null}
                           {group.largeGroup ? (
                             <Badge bg="warning" text="dark">Large group — review individually</Badge>
                           ) : null}
@@ -323,12 +364,57 @@ export default function DuplicateManagerSettingsSection(props) {
             </tbody>
           </Table>
         )}
+
+        {nameFilter.trim() ? (
+          <div className="duplicate-manager-matching-tunes mt-4">
+            <h3 className="h5">Tunes matching “{nameFilter.trim()}”</h3>
+            <p className="app-text-muted">
+              These are all library records with a matching title. Duplicate groups only appear when content or titles are similar enough to merge.
+              If you see one row here but two in the tune list, the list was showing the same record twice — refresh after updating.
+              If you see multiple rows below with different tune IDs, those are separate records you can compare and delete.
+            </p>
+            {matchingTunes.length === 0 ? (
+              <Alert variant="secondary" className="mb-0">No tunes match that name.</Alert>
+            ) : (
+              <Table size="sm" responsive>
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Tune ID</th>
+                    <th>Books</th>
+                    <th>Last updated</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {matchingTunes.map(function(tune) {
+                    const books = Array.isArray(tune.books) ? tune.books.join(', ') : '';
+                    return (
+                      <tr key={tune.id}>
+                        <td>{tuneImportTitle(tune)}</td>
+                        <td className="app-text-muted"><code>{tune.id}</code></td>
+                        <td className="app-text-muted">{books || '—'}</td>
+                        <td className="app-text-muted">{formatLastUpdated(tune.lastUpdated)}</td>
+                        <td>
+                          <Button size="sm" variant="link" onClick={function() { handleOpenTune(tune.id); }}>
+                            Open
+                          </Button>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </Table>
+            )}
+          </div>
+        ) : null}
       </div>
 
       <DuplicateMergeModal
         show={!!mergeGroup}
         group={mergeGroup}
         tunes={tunes}
+        tunebook={tunebook}
         onClose={function() { setMergeGroup(null); }}
         onConfirm={handleMergeConfirm}
         onKeepSeparate={handleModalKeepSeparate}

@@ -8,7 +8,10 @@ import {
   isBulkCheckRunnerActive,
   subscribeBulkCheckRunner,
 } from './bulkCheckRunner'
-import { showBulkCheckCompleteToast } from './bulkCheckReturnContext'
+import {
+  requestOpenBulkCheck,
+  showBulkCheckCompleteToast,
+} from './bulkCheckReturnContext'
 
 export function useBulkCheckCompleteToast() {
   const navigate = useNavigate()
@@ -38,7 +41,13 @@ export function useBulkCheckCompleteToast() {
         showBulkCheckCompleteToast({
           issueCount: issueCount,
           onOpenCheck: function() {
-            navigate('/tunes/check')
+            if (session && session.selectionKey) {
+              requestOpenBulkCheck({
+                selectionKey: session.selectionKey,
+                autoStartCheck: false,
+              })
+            }
+            navigate('/tunes')
           },
         })
       }

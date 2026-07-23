@@ -21,6 +21,7 @@ COPY providers.py /app/providers.py
 COPY provider_cloud.py /app/provider_cloud.py
 COPY provider_stems_cloud.py /app/provider_stems_cloud.py
 COPY oauth_bff.py /app/oauth_bff.py
+COPY oauth_bff_routes.py /app/oauth_bff_routes.py
 COPY midi_convert.py /app/midi_convert.py
 COPY lyrics_word_tools.py /app/lyrics_word_tools.py
 COPY bulk_list_format.py /app/bulk_list_format.py

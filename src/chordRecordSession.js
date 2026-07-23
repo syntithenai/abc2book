@@ -1,10 +1,15 @@
 import Metronome from './Metronome';
 import {
-  createRhythm,
   formatRhythmText,
   rhythmFromTimeSignature,
   slotPulseIndex,
 } from './metronomeRhythmPresets';
+import {
+  normalizeRhythmConfig,
+  createRhythmConfig,
+  ENGINE_MODE_DRUMS,
+} from './rhythmEngineTypes';
+import { primeDrumKit } from './drumSampleKit';
 import {
   beatsPerBarFromMeter,
   metronomeBarDurationSec,
@@ -36,7 +41,7 @@ export function createChordRecordSession(options) {
   let meter = opts.meter || '4/4';
   let tempo = opts.tempo > 0 ? opts.tempo : 120;
   let key = opts.key || 'C';
-  let rhythm = opts.rhythm || rhythmFromTimeSignature(meter) || createRhythm(beatsPerBarFromMeter(meter));
+  let rhythm = normalizeRhythmConfig(opts.rhythm || rhythmFromTimeSignature(meter) || createRhythmConfig(beatsPerBarFromMeter(meter)));
   let beatsPerBar = Math.max(1, rhythm.beatsPerBar || beatsPerBarFromMeter(meter));
   let chordLabels = [];
   let countInBeats = beatsPerBar;
@@ -222,7 +227,14 @@ export function createChordRecordSession(options) {
     };
 
     metronome.onSlotChange = handleSlotPulse;
-    metronome.start();
+    const startMetro = function() {
+      metronome.start();
+    };
+    if (rhythm.engineMode === ENGINE_MODE_DRUMS) {
+      primeDrumKit(audioContext).then(startMetro).catch(startMetro);
+    } else {
+      startMetro();
+    }
   }
 
   async function ensureAudioContext() {
@@ -262,16 +274,12 @@ export function createChordRecordSession(options) {
     configure(config) {
       const next = config || {};
       if (next.rhythm) {
-        rhythm = createRhythm(
-          next.rhythm.beatsPerBar,
-          next.rhythm.accents,
-          next.rhythm.pulsesPerBeat
-        );
+        rhythm = normalizeRhythmConfig(next.rhythm);
         beatsPerBar = Math.max(1, rhythm.beatsPerBar);
         meter = meterFromRhythm(rhythm);
       } else if (next.meter) {
         meter = next.meter;
-        rhythm = rhythmFromTimeSignature(meter) || createRhythm(beatsPerBarFromMeter(meter));
+        rhythm = normalizeRhythmConfig(rhythmFromTimeSignature(meter) || createRhythmConfig(beatsPerBarFromMeter(meter)));
         beatsPerBar = Math.max(1, rhythm.beatsPerBar || beatsPerBarFromMeter(meter));
       }
       if (next.tempo > 0) tempo = next.tempo;

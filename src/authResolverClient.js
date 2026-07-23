@@ -3,6 +3,16 @@ export const AUTH_SESSION_ID_KEY = 'abc_auth_session_id'
 export const AUTH_BASE_KEY = 'abc_auth_base'
 export const AUTH_MODE_PROBE_WAIT_MS = 3000
 
+let oauthLoginInFlight = false
+
+export function setOAuthLoginInFlight(active) {
+  oauthLoginInFlight = !!active
+}
+
+export function isOAuthLoginInFlight() {
+  return oauthLoginInFlight
+}
+
 export function candidateOffersOauthBff(candidate) {
   if (!candidate || !candidate.reachable) return false
   if (candidate.oauthBff === true) return true
@@ -57,13 +67,14 @@ export function clearAuthSessionStorage() {
 }
 
 /**
- * Resolve sticky auth base: keep previous sticky base if still offering oauthBff;
- * otherwise pick preferred; clear sticky storage when sticky is gone from candidates.
+ * Resolve sticky auth base: keep previous sticky base if still offering oauthBff
+ * and a BFF session exists to resume; otherwise pick first oauthBff by probe order.
  */
 export function resolveStickyAuthBase(candidates, previousSticky) {
   var preferred = pickAuthResolverBase(candidates)
+  var sessionId = readStoredAuthSessionId()
   var sticky = previousSticky || readStoredAuthBase()
-  if (sticky) {
+  if (sticky && sessionId) {
     var stillOk = false
     for (var i = 0; i < (candidates || []).length; i++) {
       if (candidates[i].base === sticky && candidateOffersOauthBff(candidates[i])) {
@@ -78,6 +89,9 @@ export function resolveStickyAuthBase(candidates, previousSticky) {
     // Sticky unreachable or no longer oauthBff — clear sticky session keys only.
     storeAuthBase('')
     storeAuthSessionId('')
+  } else if (sticky && !sessionId) {
+    // Signed out: do not keep an old OAuth host; let probe priority pick local first.
+    storeAuthBase('')
   }
   if (preferred) storeAuthBase(preferred)
   return preferred || ''
@@ -90,11 +104,20 @@ function authHeaders(sessionId) {
 }
 
 export async function exchangeAuthCode(authBase, payload) {
-  var response = await fetch(authBase + '/auth/google/exchange', {
-    method: 'POST',
-    headers: authHeaders(),
-    body: JSON.stringify(payload || {}),
-  })
+  var url = authBase + '/auth/google/exchange'
+  var response
+  try {
+    response = await fetch(url, {
+      method: 'POST',
+      headers: authHeaders(),
+      body: JSON.stringify(payload || {}),
+    })
+  } catch (err) {
+    var hint = (err && err.message) ? String(err.message) : 'network error'
+    var netErr = new Error('Could not reach OAuth resolver at ' + authBase + ' (' + hint + ')')
+    netErr.cause = err
+    throw netErr
+  }
   var body = null
   try {
     body = await response.json()
@@ -125,6 +148,7 @@ export async function refreshAuthSession(authBase, sessionId) {
     var err = new Error((body && (body.detail || body.error)) || 'OAuth refresh failed')
     err.status = response.status
     err.body = body
+    if (body && body.retry_after != null) err.retryAfter = Number(body.retry_after)
     throw err
   }
   return body
@@ -145,6 +169,7 @@ export async function loadAuthSession(authBase, sessionId) {
     var err = new Error((body && (body.detail || body.error)) || 'OAuth session failed')
     err.status = response.status
     err.body = body
+    if (body && body.retry_after != null) err.retryAfter = Number(body.retry_after)
     throw err
   }
   return body

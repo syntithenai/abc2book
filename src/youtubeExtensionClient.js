@@ -3,7 +3,10 @@
  * Discovery: DOM attribute, CustomEvent, then postMessage ping (with retry).
  */
 
+import { isYoutubeHelperDisabled } from './youtubeHelperSettings'
+
 const PAGE_SOURCE = 'tunebook-page'
+const DISABLED_ERROR = 'TuneBook Helper disabled in settings'
 const EXT_SOURCE = 'tunebook-extension'
 const ATTR = 'data-tunebook-yt-helper'
 
@@ -14,6 +17,19 @@ const PING_CACHE_MS = 10000
 let nextRequestId = 1
 let cachedPing = null
 let cachedPingAt = 0
+/** @type {Map<string, { abort: function(): void }>} */
+const activeFetches = new Map()
+
+function abortAllYoutubeExtensionFetches() {
+  activeFetches.forEach(function (entry) {
+    entry.abort()
+  })
+  activeFetches.clear()
+}
+
+function disabledPingResult() {
+  return { ok: false, error: DISABLED_ERROR, disabled: true }
+}
 
 function makeRequestId() {
   nextRequestId += 1
@@ -130,6 +146,11 @@ export async function pingYoutubeExtension(options) {
   const force = options && options.force
   const timeoutMs = (options && options.timeoutMs) || PING_TIMEOUT_MS
   const now = Date.now()
+  if (isYoutubeHelperDisabled()) {
+    cachedPing = disabledPingResult()
+    cachedPingAt = now
+    return cachedPing
+  }
   if (!force && cachedPing && now - cachedPingAt < PING_CACHE_MS) {
     return cachedPing
   }
@@ -193,6 +214,7 @@ export async function isYoutubeExtensionConnected() {
  * (before the content script runs); the async check is authoritative.
  */
 export function isYoutubeExtensionConnectedSync() {
+  if (isYoutubeHelperDisabled()) return false
   if (cachedPing && cachedPing.ok) {
     return true
   }
@@ -208,6 +230,9 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
   if (!/^[a-zA-Z0-9_-]{11}$/.test(id)) {
     throw new Error('Invalid YouTube video id')
   }
+  if (isYoutubeHelperDisabled()) {
+    throw new Error(DISABLED_ERROR)
+  }
 
   const connected = await pingYoutubeExtension({ force: true })
   if (!connected.ok) {
@@ -222,6 +247,7 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
   let meta = null
 
   const done = new Promise(function (resolve, reject) {
+    let settled = false
     const timer = setTimeout(function () {
       cleanup()
       reject(new Error('TuneBook Helper extension fetch timed out'))
@@ -231,9 +257,26 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
       clearTimeout(timer)
       window.removeEventListener('message', onWindowMessage)
       document.removeEventListener('tunebook-yt-helper-message', onDomMessage, true)
+      activeFetches.delete(requestId)
     }
 
+    function finish(fn) {
+      if (settled) return
+      settled = true
+      cleanup()
+      fn()
+    }
+
+    function abort() {
+      finish(function () {
+        reject(new Error(DISABLED_ERROR))
+      })
+    }
+
+    activeFetches.set(requestId, { abort: abort })
+
     function handle(data) {
+      if (settled) return
       if (!data || data.source !== EXT_SOURCE) return
       if (data.requestId !== requestId) return
 
@@ -246,15 +289,17 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
         return
       }
       if (data.type === 'tunebook.audioDone') {
-        cleanup()
-        resolve(true)
+        finish(function () {
+          resolve(true)
+        })
         return
       }
       if (data.type === 'tunebook.audioError') {
-        cleanup()
-        reject(
-          new Error(data.message || data.code || 'TuneBook Helper extension fetch failed')
-        )
+        finish(function () {
+          reject(
+            new Error(data.message || data.code || 'TuneBook Helper extension fetch failed')
+          )
+        })
       }
     }
 
@@ -293,10 +338,21 @@ export async function fetchYoutubeAudioViaExtension(videoId) {
   }
 }
 
+if (typeof window !== 'undefined') {
+  window.addEventListener('youtubeHelperSettingsChanged', function () {
+    __resetYoutubeExtensionPingCache()
+    abortAllYoutubeExtensionFetches()
+  })
+}
+
 /** Test helpers */
 export function __resetYoutubeExtensionPingCache() {
   cachedPing = null
   cachedPingAt = 0
+}
+
+export function __abortAllYoutubeExtensionFetchesForTests() {
+  abortAllYoutubeExtensionFetches()
 }
 
 export function __base64ToArrayBufferForTests(base64) {

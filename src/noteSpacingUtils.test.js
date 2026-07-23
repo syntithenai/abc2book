@@ -4,6 +4,7 @@ import {
   fitLyricLineToNoteCount,
   applyNoteSpacingToLyrics,
   buildAbcWithNoteSpacing,
+  resolveNoteAlignedWLines,
   stripEmbeddedChordsFromAbc,
   stripLyricLinesFromAbc,
   flattenAbcNoteLineBreaks,
@@ -104,6 +105,15 @@ describe('noteSpacingUtils', function() {
     expect(lines).toContain('First~bound');
     expect(lines).toContain('Sec- ond');
     expect(lines).not.toContain('wrong words here');
+  });
+
+  test('resolveNoteAlignedWLines uses raw wLines without per-letter fitting', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C2 D2 E2 F2 |'] } },
+      words: ['ignored block lyrics'],
+      wLines: ['hello world'],
+    };
+    expect(resolveNoteAlignedWLines(tune)).toEqual(['hello world']);
   });
 
   test('buildAbcWithNoteSpacing prefers stored note-aligned lyrics', function() {

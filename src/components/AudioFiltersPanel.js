@@ -1,5 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { Button, ProgressBar } from 'react-bootstrap';
+import {
+  getStemAnalysisJobRevision,
+  getStemAnalysisJobSnapshot,
+  subscribeStemAnalysisJob,
+} from '../stemAnalysisJobStore';
 import {
   AUDIO_FILTER_MAX,
   AUDIO_FILTER_MIN,
@@ -23,10 +28,15 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const [filters, setFilters] = useState(DEFAULT_AUDIO_FILTERS);
   const [analysisError, setAnalysisError] = useState('');
   const [downloadError, setDownloadError] = useState('');
-  const [analysing, setAnalysing] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const saveTimerRef = useRef(null);
   const applyTimerRef = useRef(null);
+  const stemJobRevision = useSyncExternalStore(
+    subscribeStemAnalysisJob,
+    getStemAnalysisJobRevision,
+    function() { return ''; }
+  );
+  const stemJob = getStemAnalysisJobSnapshot();
 
   const demucsModel = mediaController && mediaController.getDemucsModel
     ? mediaController.getDemucsModel()
@@ -38,13 +48,22 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   const availableStemNames = mediaController && Array.isArray(mediaController.availableStemNames)
     ? mediaController.availableStemNames
     : [];
-  const analysisActive = !!(mediaController && (
+  const analysisActive = !!(tune && stemJob.active && String(stemJob.tuneId) === String(tune.id))
+    || !!(mediaController && (
     mediaController.stemSeparationActive
     || (mediaController.stemAnalysisProgress && mediaController.stemAnalysisProgress.active)
   ));
-  const analysisProgress = mediaController && mediaController.stemAnalysisProgress
-    ? mediaController.stemAnalysisProgress
-    : { progress: 0, message: '' };
+  const analysisProgress = (function() {
+    if (tune && stemJob.active && String(stemJob.tuneId) === String(tune.id)) {
+      return {
+        progress: stemJob.progress || 0,
+        message: stemJob.message || 'Analysing stems...',
+      };
+    }
+    return mediaController && mediaController.stemAnalysisProgress
+      ? mediaController.stemAnalysisProgress
+      : { progress: 0, message: '' };
+  })();
 
   const playbackAudioFiltersKey = tune ? JSON.stringify(tune.playbackAudioFilters) : null
   useEffect(function() {
@@ -52,6 +71,13 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
       setFilters(getAudioFilterSettings(tune));
     }
   }, [tune, playbackAudioFiltersKey]);
+
+  useEffect(function() {
+    if (!tune || !tune.id || !stemJob.error) return;
+    if (String(stemJob.tuneId) === String(tune.id)) {
+      setAnalysisError(stemJob.error);
+    }
+  }, [tune, tune && tune.id, stemJobRevision, stemJob.error, stemJob.tuneId]);
 
   useEffect(function() {
     return function() {
@@ -63,9 +89,12 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
   function applyLive(nextFilters) {
     if (!mediaController || !mediaController.updateTuneAudioFilterSettings) return;
     if (applyTimerRef.current) clearTimeout(applyTimerRef.current);
+    const playing = !!(mediaController.hasActivePlaybackIntent
+      && mediaController.hasActivePlaybackIntent());
+    const delay = playing ? 0 : 250;
     applyTimerRef.current = setTimeout(function() {
       mediaController.updateTuneAudioFilterSettings(nextFilters);
-    }, 250);
+    }, delay);
   }
 
   function scheduleSave(nextFilters) {
@@ -77,6 +106,14 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
       });
       tunebook.saveTune(updated);
     }, 400);
+  }
+
+  function primeStemPlaybackHandoff() {
+    if (mediaController && mediaController.prepareStemFilterHandoff) {
+      mediaController.prepareStemFilterHandoff();
+    } else if (mediaController && mediaController.resumeExternalAudioContextFromGesture) {
+      mediaController.resumeExternalAudioContextFromGesture();
+    }
   }
 
   function updateFilter(key, value) {
@@ -97,22 +134,27 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
     updateFilter(key, filters[key] <= 0 ? 1 : 0);
   }
 
-  async function handleAnalyse(forceRefresh) {
+  function handleAnalyse(forceRefresh) {
     if (!mediaController || !mediaController.analyseMediaStems) return;
+    const effectiveTune = tune
+      || (mediaController.tune && mediaController.tune.id ? mediaController.tune : null);
+    if (!effectiveTune || !effectiveTune.id) {
+      setAnalysisError('No tune selected');
+      return;
+    }
     setAnalysisError('');
-    setAnalysing(true);
-    try {
-      await mediaController.analyseMediaStems({ forceRefresh: !!forceRefresh });
-    } catch (e) {
+    mediaController.analyseMediaStems({
+      forceRefresh: !!forceRefresh,
+      tune: effectiveTune,
+    }).catch(function(e) {
+      if (!tune || !tune.id) return;
       const message = e && e.message ? e.message : 'Stem analysis failed';
       if (e && e.name === 'AbortError') {
         setAnalysisError('Analysis cancelled.');
       } else {
         setAnalysisError(message);
       }
-    } finally {
-      setAnalysing(false);
-    }
+    });
   }
 
   async function handleDownload() {
@@ -132,7 +174,6 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
     if (mediaController && mediaController.cancelStemAnalysis) {
       mediaController.cancelStemAnalysis();
     }
-    setAnalysing(false);
   }
 
   if (!tune) return null;
@@ -162,7 +203,6 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
               <Button
                 variant="primary"
                 size="sm"
-                disabled={analysing && !analysisActive}
                 onClick={function() {
                   if (analysisActive) {
                     handleCancelAnalysis();
@@ -257,6 +297,7 @@ export default function AudioFiltersPanel({ tune, tunebook, mediaController, sho
                   disabled={slidersDisabled}
                   aria-disabled={slidersDisabled}
                   title={slidersDisabled ? 'Analyse stems first to enable volume sliders' : undefined}
+                  onPointerDown={primeStemPlaybackHandoff}
                   onChange={function(e) { updateFilter(key, parseFloat(e.target.value)); }}
                   className="slider audio-filter-slider"
                 />

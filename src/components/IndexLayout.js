@@ -20,10 +20,10 @@ import {
   PREVIEW_LIST_LIMIT,
   filterSearchNoBooks,
   runTuneListFilterAsync,
+  runTuneListFilterSync,
+  buildTuneStatusEntry,
   pruneSelectionForStatus,
   buildListHashKey,
-  sortTunesByName,
-  filterTunes,
 } from '../tuneListFilter'
 
 function IndexLayout(props) {
@@ -52,6 +52,7 @@ function IndexLayout(props) {
     var setTagCollation = props.setTagCollation
     var [onlyShowDuplicates, setOnlyShowDuplicates] = useState(false) 
     var filterRunIdRef = useRef(0)
+    var listSelectionCurtailedToastKeyRef = useRef(null)
     const navigate = useNavigate()
     
     const scrollOffset = props.scrollOffset
@@ -75,10 +76,10 @@ function IndexLayout(props) {
         //console.log('CLEAR SELECTION',props.groupBy,props.currentTuneBook, props.tagFilter)
         setSelected({})
         setSelectedCount(0)
-    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, setSelected, setSelectedCount])
+    },[props.groupBy,props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, setSelected, setSelectedCount])
     
     function filterSearch(tune) {
-       return props.tunebook.filterSearch(tune,props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter)
+       return props.tunebook.filterSearch(tune, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter)
     }
 
     function applyFilterResult(result) {
@@ -113,15 +114,35 @@ function IndexLayout(props) {
     }
 
     function runDefaultFilter() {
-      const filteredList = sortTunesByName(filterTunes(props.tunes, filterSearchNoBooks))
-      let nextGrouped = null
-      if (props.groupBy && props.groupBy !== 'tuneStatus') {
-        nextGrouped = props.tunebook.groupTunes(filteredList, props.groupBy)
-      }
-      setGrouped(nextGrouped)
-      setFiltered(filteredList)
-      setTuneStatus({})
+      const result = runTuneListFilterSync({
+        tunes: props.tunes,
+        filterSearchFn: filterSearchNoBooks,
+        groupBy: props.groupBy,
+        tunebook: props.tunebook,
+      })
+      setGrouped(result.grouped)
+      setFiltered(result.filtered)
+      setTuneStatus(result.tuneStatus)
+      setTagCollation(result.tagCollation)
       props.stopWaiting()
+    }
+
+    function ensureTuneStatusForVisibleList(tuneList) {
+      const list = Array.isArray(tuneList) ? tuneList : []
+      if (list.length === 0 || list.length >= LIST_PROTECTION_LIMIT) return
+      setTuneStatus(function(prev) {
+        const nextStatus = Object.assign({}, prev)
+        let changed = false
+        list.forEach(function(tune) {
+          if (!tune || !tune.id || nextStatus[tune.id]) return
+          const entry = buildTuneStatusEntry(tune, props.tunebook)
+          if (entry) {
+            nextStatus[tune.id] = entry
+            changed = true
+          }
+        })
+        return changed ? nextStatus : prev
+      })
     }
 
     const stopWaiting = props.stopWaiting
@@ -176,11 +197,12 @@ function IndexLayout(props) {
           props.tagFilter,
           props.genreFilter,
           props.artistFilter,
+          props.starredFilter,
           tuneCount,
           props.tunesContentRevision || 0,
         ])
       if (listHash !== newHash) {
-            if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| (Array.isArray(props.tagFilter) && props.tagFilter.length > 0) || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0) || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)) {
+            if (props.filter && props.filter.trim().length > 2 || props.currentTuneBook|| props.starredFilter || (Array.isArray(props.tagFilter) && props.tagFilter.length > 0) || (Array.isArray(props.genreFilter) && props.genreFilter.length > 0) || (Array.isArray(props.artistFilter) && props.artistFilter.length > 0)) {
                 runFilter()
                 setTimeout(function() {
                     window.scroll(0,props.scrollOffset)
@@ -194,7 +216,61 @@ function IndexLayout(props) {
             setListHash(newHash)
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- listHash comparison prevents redundant filter runs
-    },[props.groupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision])
+    },[props.groupBy, props.filter, props.currentTuneBook, props.tagFilter, props.genreFilter, props.artistFilter, props.starredFilter, listHash, props.tunes ? Object.keys(props.tunes).length : 0, props.tunesContentRevision])
+
+    useEffect(function() {
+      const displayMode = props.listDisplayMode || 'compact'
+      if (displayMode !== 'detailed' && displayMode !== 'preview') {
+        listSelectionCurtailedToastKeyRef.current = null
+        return
+      }
+      ensureTuneStatusForVisibleList(filtered)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild status metadata when detailed/preview list is shown
+    }, [props.listDisplayMode, filtered, props.tunebook])
+
+    function listRowsForTunes(tunes) {
+      const list = Array.isArray(tunes) ? tunes : []
+      return expandPdfSnapshotSearchRows(list, props.filter)
+    }
+
+    function isListSelectionCurtailed(tunes) {
+      const rows = listRowsForTunes(tunes)
+      return rows.length > 0 && rows.length >= LIST_PROTECTION_LIMIT
+    }
+
+    function selectionCurtailedInCurrentView() {
+      const displayMode = props.listDisplayMode || 'compact'
+      if (displayMode !== 'detailed' && displayMode !== 'preview') return false
+      if (!Array.isArray(filtered) || filtered.length === 0) return false
+      if (!grouped || Object.keys(grouped).length === 0) {
+        return isListSelectionCurtailed(filtered)
+      }
+      return Object.keys(grouped).some(function(groupKey) {
+        const indices = grouped[groupKey]
+        if (!Array.isArray(indices)) return false
+        const groupTunes = indices.map(function(itemKey) { return filtered[itemKey] }).filter(Boolean)
+        return isListSelectionCurtailed(groupTunes)
+      })
+    }
+
+    useEffect(function() {
+      const displayMode = props.listDisplayMode || 'compact'
+      if (displayMode !== 'detailed' && displayMode !== 'preview') {
+        listSelectionCurtailedToastKeyRef.current = null
+        return
+      }
+      if (!selectionCurtailedInCurrentView()) {
+        listSelectionCurtailedToastKeyRef.current = null
+        return
+      }
+      const toastKey = displayMode + ':' + (listHash || '') + ':' + (Array.isArray(filtered) ? filtered.length : 0)
+      if (listSelectionCurtailedToastKeyRef.current === toastKey) return
+      listSelectionCurtailedToastKeyRef.current = toastKey
+      toast.warn(
+        'Refine your search to ' + LIST_PROTECTION_LIMIT + ' or fewer results to enable selection checkboxes and row metadata in Detailed mode'
+      )
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- toast once per curtailed list view
+    }, [props.listDisplayMode, filtered, grouped, listHash, props.filter])
     
     
     function selectAllToggle(groupKey=null) {
@@ -325,11 +401,6 @@ function IndexLayout(props) {
         runFilter()
         //props.forceRefresh()
     }
-    
-    function listRowsForTunes(tunes) {
-        const list = Array.isArray(tunes) ? tunes : []
-        return expandPdfSnapshotSearchRows(list, props.filter)
-    }
 
     function renderListItems(items) {
         var displayMode = props.listDisplayMode || 'compact'
@@ -339,12 +410,12 @@ function IndexLayout(props) {
         var isDetailed = displayMode === 'detailed' || (displayMode === 'preview' && !previewAllowed)
         var rows = listRowsForTunes(items)
         var showRowExtras = (isDetailed || isPreview) && rows.length > 0 && rows.length < LIST_PROTECTION_LIMIT
-        var showChips = isDetailed || isPreview
+        var showStarToggle = isDetailed
         var rowProps = {
           isCompact: isCompact,
           isPreview: isPreview,
           showRowExtras: showRowExtras,
-          showChips: showChips,
+          showStarToggle: showStarToggle,
           selected: selected,
           tuneStatus: tuneStatus,
           tunebook: props.tunebook,
@@ -382,7 +453,6 @@ function IndexLayout(props) {
             isCompact={isCompact}
             isPreview={false}
             showRowExtras={showRowExtras}
-            showChips={showChips}
             selected={selected}
             tuneStatus={tuneStatus}
             tunebook={props.tunebook}
@@ -446,7 +516,7 @@ function IndexLayout(props) {
                     return ''
                 }
             }).join(",") 
-            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
+            } nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} googleDocumentId={props.googleDocumentId} token={props.token}  tunesHash={props.tunesHash} filter={props.filter} setFilter={props.setFilter} forceRefresh={function() { setListHash(''); props.forceRefresh()}} currentTuneBook={props.currentTuneBook} setCurrentTuneBook={props.setCurrentTuneBook}  tunebook={props.tunebook}  blockKeyboardShortcuts={props.blockKeyboardShortcuts} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  nowPlayingQueue={props.nowPlayingQueue} setNowPlayingQueue={props.setNowPlayingQueue} groupBy={props.groupBy} setGroupBy={props.setGroupBy} filtered={filtered} tagFilter={props.tagFilter} setTagFilter={props.setTagFilter} genreFilter={props.genreFilter} setGenreFilter={props.setGenreFilter} artistFilter={props.artistFilter} setArtistFilter={props.setArtistFilter} starredFilter={props.starredFilter} setStarredFilter={props.setStarredFilter}   setSelected={props.setSelected} lastSelected={props.lastSelected} setLastSelected={props.setLastSelected} selectedCount={props.selectedCount} setSelectedCount={props.setSelectedCount} setFiltered={props.setFiltered} grouped={props.grouped} setGrouped={props.setGrouped}  tuneStatus={props.tuneStatus} setTuneStatus={props.setTuneStatus}  listHash={props.listHash} setListHash={props.setListHash}  searchIndex={props.searchIndex} loadTuneTexts={props.loadTuneTexts}  listDisplayMode={props.listDisplayMode} setListDisplayMode={props.setListDisplayMode} LIST_PROTECTION_LIMIT={LIST_PROTECTION_LIMIT} PREVIEW_LIST_LIMIT={PREVIEW_LIST_LIMIT} tagCollation={tagCollation} />
         
 
 			{props.tunes && <div style={{ height:'3em', padding:'0.2em', clear:'both'}}  >

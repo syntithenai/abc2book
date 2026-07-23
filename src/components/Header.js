@@ -170,17 +170,9 @@ export default function Header(props) {
 
     function renderSkipButtons(buttonSize) {
         if (!showSkipButtons) return null
-        // While the playlist queue is audibly playing, next/prev steps the
-        // playlist (see runAdjacentSongNavigation); label accordingly.
         const navFromId = viewedTuneId || null
-        const queuePlaybackRunning = !!(navFromId)
-            && isQueueActive(props.nowPlayingQueue)
-            && !!(props.mediaController && (props.mediaController.isPlaying || props.mediaController.isLoading))
-            && props.nowPlayingQueue.items.some(function(item) {
-                return item && String(item.tuneId) === String(navFromId)
-            })
-        const prevLabel = queuePlaybackRunning ? 'Previous in playlist' : 'Previous search result'
-        const nextLabel = queuePlaybackRunning ? 'Next in playlist' : 'Next search result'
+        const prevLabel = 'Previous search result'
+        const nextLabel = 'Next search result'
         return (
             <span className="header-list-nav">
                 <ButtonGroup className="header-skip-buttons">
@@ -370,7 +362,7 @@ export default function Header(props) {
                     <Dropdown.Item as="div">
                         <Link to="/metronome">
                             <Button size={navButtonSize} variant="info" className="header-dropdown-btn">
-                                {props.tunebook.icons.metronome} Metronome
+                                {props.tunebook.icons.metronome} Rhythm
                             </Button>
                         </Link>
                     </Dropdown.Item>

@@ -1,3 +1,4 @@
+import abcjs from 'abcjs'
 import {
   pitchStringsToAbcTuning,
   buildAbcjsTablatureConfig,
@@ -12,7 +13,11 @@ import {
   getTablatureVoiceSettings,
   applyTablatureSelection,
   applyTablatureVoiceConfigs,
+  disableTablature,
+  isTablatureEnabled,
   parseTablatureVoices,
+  parseCustomTuningToStrings,
+  getTablatureTuningValidation,
   tablatureInstrumentSummary,
   shouldRenderTablature,
   shouldApplyTabOnlyDisplay,
@@ -116,6 +121,95 @@ describe('tablatureConfig', () => {
       const cfg = buildAbcjsTablatureConfig({ tablature: 'guitar' })
       expect(cfg.label).toBe('Guitar (%T)')
     })
+
+    it('uses custom guitar tuning text that does not match a preset name', () => {
+      const cfg = buildAbcjsTablatureConfig({
+        tablature: 'guitar',
+        tuning: 'C G D G A D',
+        capo: 0,
+      })
+      expect(cfg.tuning).toEqual(['C,', 'G,', 'D', 'G', 'A', 'd'])
+    })
+
+    it('uses compact custom guitar tuning letters', () => {
+      const cfg = buildAbcjsTablatureConfig({
+        tablature: 'guitar',
+        tuning: 'CGDGAD',
+        capo: 0,
+      })
+      expect(cfg.tuning).toEqual(['C,', 'G,', 'D', 'G', 'A', 'd'])
+    })
+
+    it('uses scientific pitch strings for custom guitar tuning', () => {
+      const cfg = buildAbcjsTablatureConfig({
+        tablature: 'guitar',
+        tuning: 'D2 A2 D3 G3 A3 D4',
+        capo: 0,
+      })
+      expect(cfg.tuning).toEqual(['D,', 'A,', 'D', 'G', 'A', 'd'])
+    })
+
+    it('falls back to standard tuning when custom text cannot be parsed', () => {
+      const cfg = buildAbcjsTablatureConfig({
+        tablature: 'guitar',
+        tuning: 'My custom tuning',
+        capo: 0,
+      })
+      expect(cfg.tuning).toEqual(['E,', 'A,', 'D', 'G', 'B', 'e'])
+    })
+  })
+
+  describe('parseCustomTuningToStrings', () => {
+    it('parses spaced note names for guitar', () => {
+      expect(parseCustomTuningToStrings('C G D G A D', 'guitar')).toEqual([
+        'C2', 'G2', 'D3', 'G3', 'A3', 'D4',
+      ])
+    })
+
+    it('parses compact note letters for guitar', () => {
+      expect(parseCustomTuningToStrings('DADGAD', 'guitar')).toEqual([
+        'D2', 'A2', 'D3', 'G3', 'A3', 'D4',
+      ])
+    })
+
+    it('returns null when string count does not match instrument', () => {
+      expect(parseCustomTuningToStrings('DADGAD', 'violin')).toBeNull()
+    })
+  })
+
+  describe('getTablatureTuningValidation', () => {
+    it('accepts standard preset names', () => {
+      expect(getTablatureTuningValidation('guitar', 'Standard', '')).toEqual({
+        valid: true,
+        message: '',
+      })
+    })
+
+    it('accepts spaced custom guitar tunings', () => {
+      expect(getTablatureTuningValidation('guitar', 'C G D G A D', '')).toEqual({
+        valid: true,
+        message: '',
+      })
+    })
+
+    it('rejects tunings with duplicate open-string pitches', () => {
+      const result = getTablatureTuningValidation('guitar', 'FFFFFF', '')
+      expect(result.valid).toBe(false)
+      expect(result.message).toMatch(/higher than the one below/i)
+    })
+
+    it('rejects tunings that cannot be parsed', () => {
+      const result = getTablatureTuningValidation('guitar', 'My custom tuning', '')
+      expect(result.valid).toBe(false)
+      expect(result.message).toMatch(/6 note names/i)
+    })
+
+    it('requires tuning text', () => {
+      expect(getTablatureTuningValidation('guitar', '', '')).toEqual({
+        valid: false,
+        message: 'Enter a tuning.',
+      })
+    })
   })
 
   describe('resolveTuningPresetForTab', () => {
@@ -162,13 +256,14 @@ describe('tablatureConfig', () => {
       expect(tune.tablatureVoices['1'].tuning).toBe('My custom tuning')
     })
 
-    it('clears tablature when no voices are enabled', () => {
+    it('disables tablature but keeps saved settings when no voices are enabled', () => {
       const tune = { tablature: 'guitar', tablatureVoices: { '1': { instrumentId: 'guitar', presetId: 'standard' } } }
       applyTablatureVoiceConfigs(tune, [
         { voiceKey: '1', enabled: false, instrumentId: '', presetId: '' },
       ])
       expect(tune.tablature).toBe('')
-      expect(tune.tablatureVoices).toBeNull()
+      expect(tune.tablatureVoices['1'].instrumentId).toBe('guitar')
+      expect(isTablatureEnabled(tune)).toBe(false)
     })
   })
 
@@ -262,6 +357,28 @@ describe('tablatureConfig', () => {
       expect(opts[0].instrument).toBe('guitar')
     })
 
+    it('maps tab config using rendered voice keys after filtering', () => {
+      const sourceTune = {
+        tablature: 'guitar',
+        voices: {
+          '1': { notes: ['| "C" z2 "G" z |'] },
+          '2': { notes: ['C D E F |'] },
+        },
+      }
+      const displayTune = {
+        tablature: 'guitar',
+        voices: {
+          '2': { notes: ['C D E F |'] },
+        },
+      }
+      const opts = buildTablatureRenderOptions(displayTune, {
+        sourceTune: sourceTune,
+        voiceKeys: ['2'],
+      })
+      expect(opts).toHaveLength(1)
+      expect(opts[0].instrument).toBe('guitar')
+    })
+
     it('still builds tab options for tab-only display mode', () => {
       const opts = buildTablatureRenderOptions({
         tablature: 'guitar',
@@ -303,6 +420,59 @@ describe('tablatureConfig', () => {
       expect(opts[0].instrument).toBe('')
       expect(opts[1].instrument).toBe('guitar')
     })
+
+    it('matches tab option count to rendered staff count when voices are filtered', () => {
+      const sourceTune = {
+        tablatureVoices: {
+          '2': { instrumentId: 'guitar', presetId: 'dadgad', tuning: 'DADGAD' },
+        },
+        voices: {
+          '1': { notes: ['| "C" z2 "G" z |'] },
+          '2': { notes: ['C D E F |'] },
+        },
+      }
+      const displayTune = {
+        tablatureVoices: sourceTune.tablatureVoices,
+        voices: {
+          '2': { notes: ['C D E F |'] },
+        },
+      }
+      const opts = buildTablatureRenderOptions(displayTune, {
+        sourceTune: sourceTune,
+        voiceKeys: ['2'],
+      })
+      expect(opts).toHaveLength(1)
+      expect(opts[0].instrument).toBe('guitar')
+      expect(opts[0].tuning).toEqual(['D,', 'A,', 'D', 'G', 'A', 'd'])
+    })
+
+    it('abcjs renders custom guitar tablature without throwing', () => {
+      const cfg = buildAbcjsTablatureConfig({ tablature: 'guitar', tuning: 'CGDGAD' })
+      const abc = 'X:1\nT:t\nM:4/4\nL:1/8\nK:C\nCDEF GABc |]\n'
+      expect(function() {
+        abcjs.renderAbc('*', abc, { tablature: [cfg] })
+      }).not.toThrow()
+    })
+
+    it('abcjs renders multi-voice tune with repeated-letter custom guitar tuning', () => {
+      const tune = {
+        tablatureVoices: {
+          '2': { instrumentId: 'guitar', presetId: '', tuning: 'FFFFFF' },
+        },
+        voices: {
+          '1': { notes: ['| "C" z2 "G" z |'] },
+          '2': { notes: ['CDEF GABc |'] },
+        },
+      }
+      const opts = buildTablatureRenderOptions(tune)
+      expect(opts).toHaveLength(2)
+      // Duplicate open-string pitches hang abcjs; fall back to standard tuning.
+      expect(opts[1].tuning).toEqual(['E,', 'A,', 'D', 'G', 'B', 'e'])
+      const abc = 'X:1\nT:t\nM:4/4\nL:1/8\nK:C\nV:1\n| "C" z2 "G" z |\nV:2\nCDEF GABc |\n'
+      expect(function() {
+        abcjs.renderAbc('*', abc, { tablature: opts })
+      }).not.toThrow()
+    })
   })
 
   describe('getTablatureVoiceSettings', () => {
@@ -331,16 +501,32 @@ describe('tablatureConfig', () => {
     })
 
     it('clears tab display when tablature is turned off', () => {
-      const tune = { tablature: 'guitar', tabDisplay: 'tab' }
-      applyTablatureSelection(tune, '', '')
+      const tune = {
+        tablature: 'guitar',
+        tabDisplay: 'tab',
+        tablatureVoices: { '1': { instrumentId: 'guitar', presetId: 'standard', tuning: 'Standard' } },
+      }
+      disableTablature(tune)
       expect(tune.tablature).toBe('')
-      expect(tune.tabDisplay).toBe('')
+      expect(tune.tabDisplay).toBe('tab')
+      expect(tune.tablatureVoices['1'].instrumentId).toBe('guitar')
+      expect(isTablatureEnabled(tune)).toBe(false)
+      expect(shouldRenderTablature(tune)).toBe(false)
     })
 
     it('defaults new tab selections to both', () => {
       const tune = {}
       applyTablatureSelection(tune, 'guitar', 'standard')
       expect(tune.tabDisplay).toBe('both')
+    })
+
+    it('returns null when tablature is disabled but settings are saved', () => {
+      expect(buildTablatureRenderOptions({
+        tablatureEnabled: false,
+        tablature: '',
+        tablatureVoices: { '1': { instrumentId: 'guitar', presetId: 'standard' } },
+        voices: { '1': { notes: ['C D E |'] } },
+      })).toBeNull()
     })
 
     it('detects tab-only post processing', () => {

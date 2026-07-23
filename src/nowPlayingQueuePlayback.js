@@ -2,7 +2,6 @@ import {
   isQueueActive,
   getCurrentItem,
   getCurrentTuneId,
-  advanceQueue,
   endPreviewOnce,
   resolvePlaybackForItem,
   buildPlaybackPath,
@@ -10,9 +9,10 @@ import {
 } from './nowPlayingQueue'
 import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 import {
-  isNavigatorOffline,
-  advanceQueueToOfflinePlayable,
-} from './offlinePlayback'
+  advanceQueueToNextPlayable,
+  isQueueItemPlayable,
+  stopPlaylistPlayback,
+} from './playlistPlaybackResilience'
 
 export function playQueueItem(mediaController, tunebook, tune, item, options) {
   if (!mediaController || !tunebook || !tune || !item) return false
@@ -55,6 +55,7 @@ export function playCurrentQueueItem(mediaController, tunebook, tunes, queue, op
   if (!item) return false
   const tune = tunes && item.tuneId ? tunes[item.tuneId] : null
   if (!tune) return false
+  if (!isQueueItemPlayable(tune, item, tunebook)) return false
   return playQueueItem(mediaController, tunebook, tune, item, options)
 }
 
@@ -62,8 +63,106 @@ export function navigateToQueueTune(navigate, tuneId, item, tunebook, tunes) {
   if (!navigate || !tuneId) return
   const tune = tunes && tunes[tuneId] ? tunes[tuneId] : null
   const target = tune && item ? resolvePlaybackForItem(tune, item, tunebook) : null
-  const path = buildPlaybackPath(tuneId, target || { type: 'media', linkNum: 0 })
+  const path = target ? buildPlaybackPath(tuneId, target) : '/tunes/' + tuneId
   navigate(path)
+}
+
+function syncQueueIndex(queue, currentPlayingTuneId) {
+  let syncIndex = queue.currentIndex
+  if (currentPlayingTuneId) {
+    const found = queue.items.findIndex(function(item) {
+      return item && item.tuneId === currentPlayingTuneId
+    })
+    if (found !== -1) syncIndex = found
+  }
+  return Object.assign({}, queue, { currentIndex: syncIndex })
+}
+
+function finishQueueAdvance(params, nextQueue, item, tune) {
+  const {
+    setQueue,
+    tunes,
+    tunebook,
+    mediaController,
+    navigate,
+    location,
+    setPlaylist,
+    practiceSessionActive,
+    failCallback,
+    playbackOptions,
+  } = params
+
+  if (!tune || !item || !mediaController || !setQueue) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  if (!isQueueItemPlayable(tune, item, tunebook)) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  setQueue(nextQueue)
+  const started = playQueueItem(mediaController, tunebook, tune, item, playbackOptions || { deferPlaybackEngine: true })
+  if (!started) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  const shouldFollow = nextQueue.followTune && navigate && !shouldSuppressFollowNavigate({
+    pathname: location && location.pathname,
+    setPlaylist: setPlaylist,
+    practiceSessionActive: practiceSessionActive,
+  })
+  if (shouldFollow) {
+    navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
+  }
+  return true
+}
+
+/**
+ * Advance the queue to the next playable item and start playback.
+ * Used by track-end, error skip, and manual next/prev (via options.direction).
+ */
+export async function advanceQueueToPlayableAndStart(params) {
+  const {
+    queue,
+    setQueue,
+    tunes,
+    tunebook,
+    mediaController,
+    failCallback,
+    currentPlayingTuneId,
+    playbackMode,
+    isYoutubeLink,
+    direction,
+    advanceFirst,
+    playbackOptions,
+  } = params || {}
+
+  if (!isQueueActive(queue) || !setQueue) {
+    if (failCallback) failCallback()
+    return false
+  }
+
+  const synced = syncQueueIndex(queue, currentPlayingTuneId)
+  const result = await advanceQueueToNextPlayable(synced, tunes, tunebook, {
+    direction: direction != null ? direction : 1,
+    advanceFirst: advanceFirst !== false,
+    isYoutubeLink: isYoutubeLink,
+    playbackMode: playbackMode,
+  })
+
+  if (result.atEnd || !result.tune || !result.item) {
+    stopPlaylistPlayback(mediaController)
+    if (failCallback) failCallback('end')
+    return false
+  }
+
+  return finishQueueAdvance(params, result.queue, result.item, result.tune)
 }
 
 export function handleQueueAdvanceOnEnded(params) {
@@ -78,9 +177,6 @@ export function handleQueueAdvanceOnEnded(params) {
     setPlaylist,
     practiceSessionActive,
     failCallback,
-    currentPlayingTuneId,
-    playbackMode,
-    isYoutubeLink,
   } = params || {}
 
   if (!isQueueActive(queue) || !setQueue) {
@@ -93,7 +189,7 @@ export function handleQueueAdvanceOnEnded(params) {
     setQueue(restored)
     const item = getCurrentItem(restored)
     const tune = item && tunes ? tunes[item.tuneId] : null
-    if (tune && mediaController) {
+    if (tune && mediaController && isQueueItemPlayable(tune, item, tunebook)) {
       playQueueItem(mediaController, tunebook, tune, item, {})
       if (restored.followTune && navigate && !shouldSuppressFollowNavigate({
         pathname: location && location.pathname,
@@ -102,6 +198,8 @@ export function handleQueueAdvanceOnEnded(params) {
       })) {
         navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
       }
+    } else {
+      stopPlaylistPlayback(mediaController)
     }
     return true
   }
@@ -111,62 +209,7 @@ export function handleQueueAdvanceOnEnded(params) {
     return false
   }
 
-  let syncIndex = queue.currentIndex
-  if (currentPlayingTuneId) {
-    const found = queue.items.findIndex(function(item) {
-      return item && item.tuneId === currentPlayingTuneId
-    })
-    if (found !== -1) syncIndex = found
-  }
-
-  const synced = Object.assign({}, queue, { currentIndex: syncIndex })
-  const advanced = advanceQueue(synced, 1)
-  if (advanced.atEdge && advanced.edge === 'end') {
-    if (failCallback) failCallback('end')
-    return false
-  }
-
-  const finishAdvance = function(nextQueue, item, tune) {
-    if (!tune || !mediaController) {
-      if (failCallback) failCallback()
-      return false
-    }
-
-    setQueue(nextQueue)
-    playQueueItem(mediaController, tunebook, tune, item, { deferPlaybackEngine: true })
-
-    const shouldFollow = nextQueue.followTune && navigate && !shouldSuppressFollowNavigate({
-      pathname: location && location.pathname,
-      setPlaylist: setPlaylist,
-      practiceSessionActive: practiceSessionActive,
-    })
-    if (shouldFollow) {
-      navigateToQueueTune(navigate, item.tuneId, item, tunebook, tunes)
-    }
-    return true
-  }
-
-  if (!isNavigatorOffline()) {
-    const nextQueue = advanced.queue
-    const item = getCurrentItem(nextQueue)
-    const tune = item && tunes ? tunes[item.tuneId] : null
-    return finishAdvance(nextQueue, item, tune)
-  }
-
-  advanceQueueToOfflinePlayable(
-    advanced.queue,
-    tunes,
-    tunebook,
-    isYoutubeLink,
-    playbackMode
-  ).then(function(result) {
-    if (result.atEnd || !result.tune || !result.item) {
-      if (failCallback) failCallback('end')
-      return
-    }
-    finishAdvance(result.queue, result.item, result.tune)
-  })
-
+  advanceQueueToPlayableAndStart(params)
   return true
 }
 

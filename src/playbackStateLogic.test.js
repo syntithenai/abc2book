@@ -11,6 +11,7 @@ import {
   shouldIgnoreNativePlaybackEvents,
   shouldBlockAutoplayDuringSeek,
   shouldBlockPlayDuringSeek,
+  resolvePlaybackHandoffPosition,
   shouldTriggerAutoplayRecovery,
   youtubeAutoplayAppearsBlocked,
   shouldShowTapToPlayFromYoutubePoll,
@@ -48,6 +49,43 @@ const NOW = 1_000_000
 function snap(overrides) {
   return createPlaybackIntentSnapshot(overrides)
 }
+
+describe('playback handoff position', function() {
+  test('resolvePlaybackHandoffPosition preserves position only for the same tune', function() {
+    const base = {
+      tuneId: 'a',
+      playbackClockTuneId: 'a',
+      queueResumePending: false,
+      routeMode: 'media',
+      positionSeconds: 42,
+      userPaused: false,
+      activePlaybackIntent: true,
+      playingIntent: true,
+      regionStart: 0,
+    }
+    expect(resolvePlaybackHandoffPosition(base)).toBe(42)
+    expect(resolvePlaybackHandoffPosition(Object.assign({}, base, {
+      playbackClockTuneId: 'b',
+    }))).toBe(null)
+    expect(resolvePlaybackHandoffPosition(Object.assign({}, base, {
+      tuneId: 'b',
+    }))).toBe(null)
+  })
+
+  test('resolvePlaybackHandoffPosition ignores stale intent after auto-advance', function() {
+    expect(resolvePlaybackHandoffPosition({
+      tuneId: 'next',
+      playbackClockTuneId: 'prev',
+      queueResumePending: false,
+      routeMode: 'media',
+      positionSeconds: 180,
+      userPaused: false,
+      activePlaybackIntent: true,
+      playingIntent: true,
+      regionStart: 0,
+    })).toBe(null)
+  })
+})
 
 describe('playback intent', function() {
   test('active intent requires playing intent and not user paused', function() {
@@ -174,6 +212,11 @@ describe('autoplay and tap-to-play', function() {
   test('autoplay recovery runs when intent set but UI not playing', function() {
     const state = snap({ playingIntent: true, isPlayingUi: false })
     expect(shouldTriggerAutoplayRecovery(state, {})).toBe(true)
+  })
+
+  test('autoplay recovery suppressed when queue item has no playback target', function() {
+    const state = snap({ playingIntent: true, isPlayingUi: false })
+    expect(shouldTriggerAutoplayRecovery(state, { queueItemUnplayable: true })).toBe(false)
   })
 
   test('block play during a playing seek unless restart', function() {

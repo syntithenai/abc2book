@@ -21,14 +21,6 @@ export default function NotationTupletDropdown(props) {
       <Dropdown.Divider />
       <Dropdown.Item onClick={function() { onTupletAction('_endTuplet'); }}>End tuplet mode</Dropdown.Item>
       <Dropdown.Item onClick={function() { onTupletAction('_beamBreak'); }}>Break beam before selection</Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Header>Grace notes</Dropdown.Header>
-      <Dropdown.Item onClick={function() { onTupletAction('_graceAcci'); }}>
-        Grace before (acciaccatura)
-      </Dropdown.Item>
-      <Dropdown.Item onClick={function() { onTupletAction('_graceApp'); }}>
-        Grace before (appoggiatura)
-      </Dropdown.Item>
     </Dropdown.Menu>
   );
 

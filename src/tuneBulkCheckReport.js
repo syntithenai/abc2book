@@ -75,7 +75,7 @@ function collectOptionalGaps(tune) {
   const gaps = []
   if (!tune) return gaps
   if (!String(tune.backgroundInfo ?? '').trim()) {
-    gaps.push(issue('missing_background', 'Background information is empty', 'info', 'backgroundInfo'))
+    gaps.push(issue('missing_background', 'Background information is missing', 'info', 'backgroundInfo'))
   }
   if (tune.suitableForPractice === false) {
     gaps.push(issue('blocked_practice', 'Marked as not suitable for practice', 'info', 'suitableForPractice'))
@@ -196,6 +196,9 @@ export function buildTuneCheckReport(tune, options) {
     displayIssues = displayIssues.concat(optionalGaps)
   } else {
     displayIssues = issues.slice()
+    if (optionalGaps.length > 0) {
+      displayIssues = displayIssues.concat(optionalGaps)
+    }
   }
 
   return {
@@ -255,6 +258,9 @@ export function collectReportIssuesForFixes(report) {
   addFromResult(report.structureResult)
   if (Array.isArray(report.issues)) {
     report.issues.forEach(addIssue)
+  }
+  if (Array.isArray(report.optionalGaps)) {
+    report.optionalGaps.forEach(addIssue)
   }
   return items
 }

@@ -7,16 +7,51 @@ import {
   TABLATURE_INSTRUMENTS,
   applyTablatureSelection,
   applyTablatureVoiceConfigs,
+  disableTablature,
   getTabDisplay,
   getTablatureSelection,
   getTablatureVoiceSettings,
   getTablatureVoices,
+  getTablatureTuningValidation,
   normalizeTablatureInstrument,
   resolveVoiceTuningSelection,
   tablatureInstrumentSummary,
   tuningOptionsForInstrument,
 } from '../tablatureConfig'
 import { canonicalTuningLabel } from '../tuningPresetResolver'
+
+function isActiveTablatureVoice(setting, multiVoice) {
+  return multiVoice ? (setting.enabled && setting.instrumentId) : !!setting.instrumentId
+}
+
+function TuningField(props) {
+  const { setting, tuningOptions, controlId, onChange } = props
+  const validation = getTablatureTuningValidation(
+    setting.instrumentId,
+    setting.tuningText,
+    setting.presetId
+  )
+  const showError = !!String(setting.tuningText || '').trim() && !validation.valid
+
+  return (
+    <Form.Group className="mb-0" controlId={controlId}>
+      <Form.Label>Tuning</Form.Label>
+      <SelectInput
+        value={setting.tuningText}
+        options={tuningOptions}
+        placeholder="Type or select tuning"
+        onChange={onChange}
+        isInvalid={showError}
+        data-testid={controlId ? controlId + '-input' : undefined}
+      />
+      {showError ? (
+        <Form.Text className="text-danger tablature-tuning-feedback" data-testid={controlId ? controlId + '-feedback' : undefined}>
+          {validation.message}
+        </Form.Text>
+      ) : null}
+    </Form.Group>
+  )
+}
 
 function VoiceTablatureRow(props) {
   const { setting, tune, multiVoice, onChange } = props
@@ -111,15 +146,12 @@ function VoiceTablatureRow(props) {
               </Form.Select>
             </Form.Group>
             {setting.instrumentId ? (
-              <Form.Group className="mb-0" controlId={'tablature-tuning-' + setting.voiceKey}>
-                <Form.Label>Tuning</Form.Label>
-                <SelectInput
-                  value={setting.tuningText}
-                  options={tuningOptions}
-                  placeholder="Type or select tuning"
-                  onChange={handleTuningChange}
-                />
-              </Form.Group>
+              <TuningField
+                setting={setting}
+                tuningOptions={tuningOptions}
+                controlId={'tablature-tuning-' + setting.voiceKey}
+                onChange={handleTuningChange}
+              />
             ) : null}
           </div>
         ) : null}
@@ -145,15 +177,12 @@ function VoiceTablatureRow(props) {
       </Form.Group>
 
       {setting.instrumentId ? (
-        <Form.Group className="mb-0" controlId="tablature-tuning">
-          <Form.Label>Tuning</Form.Label>
-          <SelectInput
-            value={setting.tuningText}
-            options={tuningOptions}
-            placeholder="Type or select tuning"
-            onChange={handleTuningChange}
-          />
-        </Form.Group>
+        <TuningField
+          setting={setting}
+          tuningOptions={tuningOptions}
+          controlId="tablature-tuning"
+          onChange={handleTuningChange}
+        />
       ) : (
         <p className="text-muted mb-0">Choose an instrument to show tablature with the notation.</p>
       )}
@@ -192,9 +221,16 @@ export default function TablatureSettingsModal(props) {
   }, [])
 
   const anyEnabled = voiceSettings.some(function(setting) {
-    return multiVoice
-      ? (setting.enabled && setting.instrumentId)
-      : !!setting.instrumentId
+    return isActiveTablatureVoice(setting, multiVoice)
+  })
+
+  const hasBlockingTuningError = voiceSettings.some(function(setting) {
+    if (!isActiveTablatureVoice(setting, multiVoice)) return false
+    return !getTablatureTuningValidation(
+      setting.instrumentId,
+      setting.tuningText,
+      setting.presetId
+    ).valid
   })
 
   function saveAndClose(clearTab) {
@@ -203,7 +239,7 @@ export default function TablatureSettingsModal(props) {
       return
     }
     if (clearTab) {
-      applyTablatureSelection(tune, '', '')
+      disableTablature(tune)
     } else if (multiVoice) {
       applyTablatureVoiceConfigs(tune, voiceSettings, tabDisplay)
     } else if (voiceSettings[0] && voiceSettings[0].instrumentId) {
@@ -286,10 +322,7 @@ export default function TablatureSettingsModal(props) {
         </Button>
         <Button
           variant="primary"
-          disabled={anyEnabled && voiceSettings.some(function(setting) {
-            const active = multiVoice ? setting.enabled : !!setting.instrumentId
-            return active && setting.instrumentId && !String(setting.tuningText || '').trim()
-          })}
+          disabled={anyEnabled && hasBlockingTuningError}
           onClick={function() { saveAndClose(false) }}
         >
           Apply

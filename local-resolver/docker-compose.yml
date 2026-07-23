@@ -8,6 +8,7 @@ services:
       - .env
     volumes:
       - ./secrets:/app/secrets:ro
+      - ./data:/app/data
       - "${WHISPER_MODELS_DIR:-./whisper/models}:/models:ro"
       - "${SOUNDFONT_HOST_DIR:-./soundfonts}:/soundfonts"
       - "${MIDI_RESOURCES_HOST_DIR:-../../abc2book_midi_resources}:/midi-resources:ro"

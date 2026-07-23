@@ -4,7 +4,7 @@ export const CHROME_ZOOM_GUARD_SELECTORS = [
   '.App-header',
   '.music-buttons',
   '.music-editor-buttons',
-  '.notation-editing-controls',
+  '.notation-editing-controls-main',
   '.notation-nonstaff-controls-main',
   '.abc-editor-lyrics-toolbar',
   '.links-editor-toolbar',

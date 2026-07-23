@@ -305,9 +305,15 @@ export default function MediaPlayerMedia({mediaController, tunebook, tune, route
     const nativeAudioSrc = useCachedAudioPlayer
         ? cachedPlaybackSrc
         : (recordingAwaitingBlob ? '' : src)
-    const needsExternalProcessor = !!(src && mediaController.usesExternalPitchTempo && mediaController.usesExternalPitchTempo())
+    // Keep the YouTube iframe mounted until the external stem/pitch engine is
+    // actually outputting audio. usesExternalPitchTempo() becomes true as soon
+    // as a stem slider moves off 100%, and unmounting the iframe immediately
+    // stops native playback before the handoff can finish.
+    const externalOutputActive = typeof mediaController.isExternalOutputActive === 'function'
+        ? mediaController.isExternalOutputActive()
+        : !!mediaController.externalMediaActive
     const showYoutubeEmbed = srcType === 'youtube'
-        && (instanceId === 'practice' || !needsExternalProcessor || mediaController.nativePlaybackFallbackRequired)
+        && (instanceId === 'practice' || !externalOutputActive)
 
     if (useCachedAudioPlayer || srcType === 'audio' || srcType === 'recording') {
         content =  <audio 

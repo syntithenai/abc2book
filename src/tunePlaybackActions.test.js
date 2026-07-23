@@ -4,7 +4,9 @@ import {
   resumeTunePlayback,
   isQueuePlaybackEngaged,
   playTuneNow,
+  resumePlaylistPlayback,
 } from './tunePlaybackActions'
+import { createQueue } from './nowPlayingQueue'
 import { SAMPLE_TUNE_IDS } from './devSeed/sampleTunebookAbc'
 
 function makeTune(id, overrides) {
@@ -231,6 +233,102 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
   })
 
+  test('idle queue keeps playlist when viewed tune is on the queue', function() {
+    const viewed = makeTune(SAMPLE_TUNE_IDS.cooleys)
+    const firstTune = makeTune(SAMPLE_TUNE_IDS.amazingGrace)
+    const mediaController = makeMockMediaController(firstTune)
+    const navigate = jest.fn()
+    const setQueuePlayConfirm = jest.fn()
+    const setNowPlayingQueue = jest.fn()
+    const location = { pathname: '/tunes/' + viewed.id }
+    const tunebook = makeMockTunebook()
+    const queue = {
+      items: [
+        { tuneId: firstTune.id },
+        { tuneId: viewed.id },
+      ],
+      currentIndex: 0,
+    }
+
+    startTunePlayback(mediaController, tunebook, navigate, location, {
+      tunes: { [viewed.id]: viewed, [firstTune.id]: firstTune },
+      nowPlayingQueue: queue,
+      setQueuePlayConfirm: setQueuePlayConfirm,
+      setNowPlayingQueue: setNowPlayingQueue,
+    })
+
+    expect(setQueuePlayConfirm).not.toHaveBeenCalled()
+    expect(setNowPlayingQueue).toHaveBeenCalledWith(expect.objectContaining({
+      currentIndex: 1,
+    }))
+    expect(setNowPlayingQueue).not.toHaveBeenCalledWith(null)
+    expect(mediaController._calls.playFromUserGesture.length).toBe(1)
+    expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
+  })
+
+  test('idle queue on current tune keeps playlist and starts queue playback', function() {
+    const tune = makeTune(SAMPLE_TUNE_IDS.cooleys)
+    const mediaController = makeMockMediaController(tune)
+    const navigate = jest.fn()
+    const setQueuePlayConfirm = jest.fn()
+    const setNowPlayingQueue = jest.fn()
+    const location = { pathname: '/tunes/' + tune.id }
+    const tunebook = makeMockTunebook()
+    const queue = {
+      items: [{ tuneId: tune.id }],
+      currentIndex: 0,
+    }
+
+    startTunePlayback(mediaController, tunebook, navigate, location, {
+      tunes: { [tune.id]: tune },
+      nowPlayingQueue: queue,
+      setQueuePlayConfirm: setQueuePlayConfirm,
+      setNowPlayingQueue: setNowPlayingQueue,
+    })
+
+    expect(setNowPlayingQueue).not.toHaveBeenCalled()
+    expect(setNowPlayingQueue).not.toHaveBeenCalledWith(null)
+    expect(mediaController._calls.playFromUserGesture.length).toBe(1)
+    expect(mediaController._calls.requestPlayback).toHaveLength(0)
+    expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMidi')
+  })
+
+  test('engaged queue updates current index when viewed tune is on the playlist', function() {
+    const viewed = makeTune(SAMPLE_TUNE_IDS.cooleys)
+    const firstTune = makeTune(SAMPLE_TUNE_IDS.amazingGrace)
+    const mediaController = makeMockMediaController(firstTune, {
+      isPlaying: true,
+    })
+    const navigate = jest.fn()
+    const setQueuePlayConfirm = jest.fn()
+    const setNowPlayingQueue = jest.fn()
+    const location = { pathname: '/tunes/' + viewed.id }
+    const tunebook = makeMockTunebook()
+    const queue = {
+      items: [
+        { tuneId: firstTune.id },
+        { tuneId: viewed.id },
+      ],
+      currentIndex: 0,
+    }
+
+    startTunePlayback(mediaController, tunebook, navigate, location, {
+      tunes: { [viewed.id]: viewed, [firstTune.id]: firstTune },
+      nowPlayingQueue: queue,
+      setQueuePlayConfirm: setQueuePlayConfirm,
+      setNowPlayingQueue: setNowPlayingQueue,
+      skipQueueConfirm: true,
+    })
+
+    expect(setQueuePlayConfirm).not.toHaveBeenCalled()
+    expect(setNowPlayingQueue).toHaveBeenCalledWith(expect.objectContaining({
+      currentIndex: 1,
+      previewOnce: null,
+    }))
+    expect(mediaController._calls.playFromUserGesture.length).toBe(1)
+    expect(navigate).toHaveBeenCalledWith('/tunes/' + viewed.id + '/playMidi')
+  })
+
   test('actively playing queue on another tune asks for confirmation', function() {
     const viewed = makeTune(SAMPLE_TUNE_IDS.cooleys)
     const queueTune = makeTune(SAMPLE_TUNE_IDS.amazingGrace)
@@ -315,5 +413,57 @@ describe('startTunePlayback with a persisted now-playing queue', function() {
     expect(playTuneNow(mediaController, makeMockTunebook(), navigate, tune)).toBe(true)
     expect(mediaController._calls.requestPlayback[0].playState).toBe('playMidi')
     expect(navigate).toHaveBeenCalledWith('/tunes/' + tune.id + '/playMidi')
+  })
+})
+
+describe('resumePlaylistPlayback', function() {
+  test('advances to next playable tune when current queue item is unplayable', async function() {
+    const tunebook = makeMockTunebook()
+    const tunes = {
+      empty: makeTune('empty', { notes: '', links: [] }),
+      playable: makeTune('playable', { notes: '', links: [{ link: 'https://example.com/a.mp3' }] }),
+    }
+    const queue = createQueue({ tuneIds: ['empty', 'playable'], currentIndex: 0 })
+    const mediaController = makeMockMediaController(tunes.empty, {
+      applyPlaybackRoute: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      playFromUserGesture: jest.fn(),
+    })
+    const navigate = jest.fn()
+    let updatedQueue = null
+
+    expect(resumePlaylistPlayback(
+      mediaController,
+      tunebook,
+      navigate,
+      queue,
+      tunes,
+      function(q) { updatedQueue = q }
+    )).toBe(true)
+
+    await new Promise(function(resolve) { setTimeout(resolve, 0) })
+    expect(updatedQueue).not.toBeNull()
+    expect(updatedQueue.currentIndex).toBe(1)
+    expect(navigate).toHaveBeenCalledWith('/tunes/playable/playMedia/0')
+    expect(mediaController.playFromUserGesture).toHaveBeenCalled()
+  })
+
+  test('stops playlist when no playable tunes remain', async function() {
+    const tunebook = makeMockTunebook()
+    const tunes = { empty: makeTune('empty', { notes: '', links: [] }) }
+    const queue = createQueue({ tuneIds: ['empty'], currentIndex: 0 })
+    const calls = []
+    const mediaController = {
+      canResumePlayback: function() { return false },
+      abortPlayingIntent: function() { calls.push('abort') },
+      pause: function() { calls.push('pause') },
+      setIsLoading: function(v) { calls.push('loading:' + v) },
+      setIsPlaying: function(v) { calls.push('playing:' + v) },
+      setIsReady: function(v) { calls.push('ready:' + v) },
+    }
+
+    resumePlaylistPlayback(mediaController, tunebook, null, queue, tunes, jest.fn())
+    await new Promise(function(resolve) { setTimeout(resolve, 0) })
+    expect(calls).toEqual(['abort', 'pause', 'loading:false', 'playing:false', 'ready:false'])
   })
 })

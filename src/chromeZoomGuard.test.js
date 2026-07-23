@@ -80,7 +80,7 @@ describe('chromeZoomGuard', function() {
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.App-header')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.music-buttons')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.music-editor-buttons')
-    expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-editing-controls')
+    expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-editing-controls-main')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.notation-nonstaff-controls-main')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.abc-editor-lyrics-toolbar')
     expect(CHROME_ZOOM_GUARD_SELECTOR).toContain('.links-editor-toolbar')

@@ -39,6 +39,7 @@ function normalizePlaylistBody(playlistRecord) {
     items: Array.isArray(playlistRecord.items) ? playlistRecord.items : [],
     followTune: !!playlistRecord.followTune,
     loop: !!playlistRecord.loop,
+    shuffle: !!playlistRecord.shuffle,
     autoAdvance: playlistRecord.autoAdvance !== false,
     updatedAt: toMs(playlistRecord.updatedAt),
   };

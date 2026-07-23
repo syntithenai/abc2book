@@ -43,6 +43,14 @@ TUNE_IMPORT_FIELD_DEFS.forEach(function(def) {
 
 const RESERVED_KEYS = { id: true, lastUpdated: true, lastHash: true };
 
+/** Collection fields always union on duplicate merge — never replaced from field checkboxes. */
+export const DUPLICATE_MERGE_ALWAYS_UNION_KEYS = {
+  books: true,
+  tags: true,
+  links: true,
+  tuneFiles: true,
+};
+
 function cloneValue(value) {
   if (value === null || value === undefined) return value;
   return JSON.parse(JSON.stringify(value));
@@ -221,32 +229,37 @@ function collectImportedFieldKeys(importedTune) {
   });
 }
 
-export function tunePairHasDifferingImportFields(localTune, incomingTune) {
-  return buildTuneImportFieldRows(localTune, incomingTune).some(function(row) {
-    return row.differs;
-  });
-}
-
-export function buildTuneImportFieldRows(originalTune, importedTune) {
-  const rows = [];
-  collectImportedFieldKeys(importedTune).forEach(function(key) {
-    const originalValue = originalTune ? originalTune[key] : undefined;
-    const importedValue = importedTune[key];
-    const def = getFieldDef(key);
-    rows.push({
-      key: key,
-      label: def.label,
-      group: def.group,
-      defaultImport: def.defaultImport,
-      originalValue: originalValue,
-      importedValue: importedValue,
-      originalDisplay: formatTuneFieldValue(key, originalValue),
-      importedDisplay: formatTuneFieldValue(key, importedValue),
-      differs: !fieldValuesSemanticallyEqual(key, originalValue, importedValue),
-      autoApply: getAutoAppliedImportFieldKeys(originalTune, importedTune).indexOf(key) >= 0,
+function collectDuplicateMergeFieldKeys(survivorTune, incomingTune) {
+  const keys = {};
+  [survivorTune, incomingTune].forEach(function(tune) {
+    collectImportedFieldKeys(tune).forEach(function(key) {
+      if (!DUPLICATE_MERGE_ALWAYS_UNION_KEYS[key] && !RESERVED_KEYS[key]) {
+        keys[key] = true;
+      }
     });
   });
+  return Object.keys(keys);
+}
 
+function buildFieldRow(key, originalTune, importedTune) {
+  const originalValue = originalTune ? originalTune[key] : undefined;
+  const importedValue = importedTune ? importedTune[key] : undefined;
+  const def = getFieldDef(key);
+  return {
+    key: key,
+    label: def.label,
+    group: def.group,
+    defaultImport: def.defaultImport,
+    originalValue: originalValue,
+    importedValue: importedValue,
+    originalDisplay: formatTuneFieldValue(key, originalValue),
+    importedDisplay: formatTuneFieldValue(key, importedValue),
+    differs: !fieldValuesSemanticallyEqual(key, originalValue, importedValue),
+    autoApply: getAutoAppliedImportFieldKeys(originalTune, importedTune).indexOf(key) >= 0,
+  };
+}
+
+function sortFieldRows(rows) {
   const groupOrder = ['ABC metadata', 'Music', 'Lyrics', 'Collection data', 'Playback & extras', 'Other'];
   rows.sort(function(a, b) {
     const groupDiff = groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group);
@@ -256,12 +269,63 @@ export function buildTuneImportFieldRows(originalTune, importedTune) {
   return rows;
 }
 
+export function tuneHasNotationContent(tune) {
+  if (!tune) return false;
+  if (importedFieldIsPresent('voices', tune.voices)) return true;
+  if (tune.notes != null && String(tune.notes).trim()) return true;
+  return false;
+}
+
+export function tunePairHasDifferingImportFields(localTune, incomingTune) {
+  return buildTuneImportFieldRows(localTune, incomingTune).some(function(row) {
+    return row.differs;
+  });
+}
+
+export function buildTuneImportFieldRows(originalTune, importedTune) {
+  const rows = [];
+  collectImportedFieldKeys(importedTune).forEach(function(key) {
+    rows.push(buildFieldRow(key, originalTune, importedTune));
+  });
+  return sortFieldRows(rows);
+}
+
+/**
+ * Duplicate merge compares fields present on either tune (except collection data, which always unions).
+ */
+export function buildDuplicateMergeFieldRows(survivorTune, incomingTune) {
+  const rows = [];
+  collectDuplicateMergeFieldKeys(survivorTune, incomingTune).forEach(function(key) {
+    rows.push(buildFieldRow(key, survivorTune, incomingTune));
+  });
+  return sortFieldRows(rows);
+}
+
 export function buildDefaultTuneImportSelections(rows) {
   const selections = {};
   (rows || []).forEach(function(row) {
     selections[row.key] = row.defaultImport;
   });
   return selections;
+}
+
+/** Duplicate merge keeps the survivor unless the user explicitly checks a field. */
+export function buildDefaultDuplicateMergeSelections(rows) {
+  const selections = {};
+  (rows || []).forEach(function(row) {
+    selections[row.key] = false;
+  });
+  return selections;
+}
+
+export function filterDuplicateMergeFieldSelections(selections) {
+  const filtered = {};
+  Object.keys(selections || {}).forEach(function(key) {
+    if (!DUPLICATE_MERGE_ALWAYS_UNION_KEYS[key]) {
+      filtered[key] = selections[key];
+    }
+  });
+  return filtered;
 }
 
 export function applyTuneImportSelections(originalTune, importedTune, selections) {
@@ -283,6 +347,27 @@ export function applyTuneImportSelections(originalTune, importedTune, selections
   return merged;
 }
 
+export function applyDuplicateMergeSelections(survivorTune, incomingTune, selections) {
+  const merged = cloneValue(survivorTune || {});
+  merged.id = survivorTune && survivorTune.id ? survivorTune.id : merged.id;
+  const filtered = filterDuplicateMergeFieldSelections(selections);
+
+  buildDuplicateMergeFieldRows(survivorTune, incomingTune).forEach(function(row) {
+    if (filtered[row.key] && incomingTune && incomingTune.hasOwnProperty(row.key)) {
+      merged[row.key] = cloneValue(incomingTune[row.key]);
+    }
+  });
+
+  getAutoAppliedImportFieldKeys(survivorTune, incomingTune).forEach(function(key) {
+    if (DUPLICATE_MERGE_ALWAYS_UNION_KEYS[key]) return;
+    if (incomingTune && incomingTune.hasOwnProperty(key)) {
+      merged[key] = cloneValue(incomingTune[key]);
+    }
+  });
+
+  return merged;
+}
+
 export function setAllTuneImportSelections(rows, selected) {
   const next = {};
   (rows || []).forEach(function(row) {
@@ -293,4 +378,8 @@ export function setAllTuneImportSelections(rows, selected) {
 
 export function setRecommendedTuneImportSelections(rows) {
   return buildDefaultTuneImportSelections(rows);
+}
+
+export function setRecommendedDuplicateMergeSelections(rows) {
+  return buildDefaultDuplicateMergeSelections(rows);
 }

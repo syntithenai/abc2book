@@ -58,6 +58,7 @@ export default function NotationToolbar(props) {
         onVoiceNotesChange={props.onVoiceNotesChange}
         onAddVoice={props.onAddVoice}
         onDeleteVoice={props.onDeleteVoice}
+        onReorderVoices={props.onReorderVoices}
       />
       <NotationClipboardToolbar
         tunebook={tunebook}
@@ -100,6 +101,7 @@ export default function NotationToolbar(props) {
                 title={option.description + ' (' + option.label + ')'}
                 data-testid={option.token === BARLINE_TOKENS.SINGLE ? 'notation-barline' : undefined}
                 onClick={function() { onInsertBarline(option.token); }}
+                onMouseDown={function(e) { e.preventDefault(); }}
               >{option.label}</Button>
             );
           })}
@@ -112,6 +114,7 @@ export default function NotationToolbar(props) {
             className="notation-barline-main-btn"
             title="Bar line (|)"
             onClick={function() { onInsertBarline(BARLINE_TOKENS.SINGLE); }}
+            onMouseDown={function(e) { e.preventDefault(); }}
             data-testid="notation-barline"
           >|</Button>
           <Dropdown.Toggle
@@ -128,6 +131,7 @@ export default function NotationToolbar(props) {
                 <Dropdown.Item
                   key={option.token}
                   title={option.description + ' (' + option.label + ')'}
+                  onMouseDown={function(e) { e.preventDefault(); }}
                   onClick={function() { onInsertBarline(option.token); }}
                 >
                   <span className="notation-barline-menu-label">{option.label}</span>

@@ -4,6 +4,8 @@ import isOnline from 'is-online';
 import useUtils from './useUtils'
 import * as localForage from "localforage";
 import { tryRefreshAccessToken } from './googleLoginRefreshRegistry'
+import { normalizeDriveFileId } from './googleDrivePickerClient'
+import { normalizeAccessToken } from './mediaProxyClient'
 //console.log(await isOnline());
 
 var unauthorizedRefreshInFlight = null
@@ -26,9 +28,18 @@ function handleDriveUnauthorized(logout) {
   })
 }
 
+function driveId(input) {
+  return normalizeDriveFileId(input)
+}
+
 export default function useGoogleDocument(token, logout, refresh, onChanges, pausePolling, pollInterval) {
 //console.log('use g doc',token)
   var accessToken = token ? token.access_token : null
+
+  function bearerToken(forceToken) {
+    if (forceToken) return normalizeAccessToken(forceToken)
+    return token && token.access_token ? token.access_token : null
+  }
   var pollChangesTimeout = useRef(null)
   var onChangesRef = useRef(onChanges)
   var pollIntervalRef = useRef(pollInterval)
@@ -645,12 +656,11 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function getDocument(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec',id ,accessToken)
-      //var useToken = accessToken ? accessToken : access_token
-      if (id && accessToken) {
+      var fileId = driveId(id)
+      if (fileId && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
+          url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           console.log("USE GOT DOC",postRes)
@@ -674,12 +684,11 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function exportDocument(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('export rec',id ,accessToken)
-      //var useToken = accessToken ? accessToken : access_token
-      if (id && accessToken) {
+      var fileId = driveId(id)
+      if (fileId && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media',
+          url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media',
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           //console.log("export GOT DOC",postRes)
@@ -703,12 +712,12 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function getDocumentBlob(id, force_token = null) {
     return new Promise(function(resolve,reject) {
-      //console.log('get g bloib',id ,accessToken)
-      var useToken = force_token ? force_token : (token ? token.access_token : null)
-      if (id && useToken) {
+      var fileId = driveId(id)
+      var useToken = bearerToken(force_token)
+      if (fileId && useToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
+          url: 'https://www.googleapis.com/drive/v3/files/'+fileId+'?alt=media'+'&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+useToken},
           responseType: 'blob'
         }).then(function(postRes) {
@@ -733,12 +742,11 @@ export default function useGoogleDocument(token, logout, refresh, onChanges, pau
   
   function getDocumentMeta(id) {
     return new Promise(function(resolve,reject) {
-      //console.log('get rec meta',id ,accessToken)
-      //var useToken = accessToken ? accessToken : access_token
-      if (id && accessToken) {
+      var fileId = driveId(id)
+      if (fileId && accessToken) {
         axios({
           method: 'get',
-          url: 'https://www.googleapis.com/drive/v3/files/'+id  + '?fields=modifiedTime,name,kind,fileExtension,mimeType,exportLinks,thumbnailLink,size,id,description,trashed,explicitlyTrashed', //&nocache='+String(parseInt(Math.random()*1000000000)),
+          url: 'https://www.googleapis.com/drive/v3/files/'+fileId  + '?fields=modifiedTime,name,kind,fileExtension,mimeType,exportLinks,thumbnailLink,size,id,description,trashed,explicitlyTrashed', //&nocache='+String(parseInt(Math.random()*1000000000)),
           headers: {'Authorization': 'Bearer '+accessToken},
         }).then(function(postRes) {
           resolve(postRes.data)

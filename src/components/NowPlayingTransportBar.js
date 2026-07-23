@@ -8,6 +8,7 @@ import {
 } from '../nowPlayingQueue'
 import { resumePlaylistPlayback } from '../tunePlaybackActions'
 import { isPlaybackInterruptPath } from '../toolPlaybackInterrupt'
+import { isQueuePlaybackEngaged } from '../playbackNavigationUtils'
 import PlaylistModal from './PlaylistModal'
 import './NowPlayingTransportBar.css'
 
@@ -38,22 +39,29 @@ export default function NowPlayingTransportBar({
   const positionLabel = getQueuePositionLabel(nowPlayingQueue)
   const isPlaying = !!(mediaController && mediaController.isPlaying)
   const isLoading = !!(mediaController && mediaController.isLoading)
+  const isEngaged = isQueuePlaybackEngaged(mediaController)
+  const showLoading = isLoading && isEngaged
+  const stallTitle = mediaController && mediaController.playlistStalled
+    ? 'Paused — network timeout'
+    : null
 
   function stepPlaylist(direction) {
     if (direction >= 0) {
       tunebook.navigateToNextSong(queueTuneId, null, navigate, location.pathname, {
         mediaController: mediaController,
+        useQueueNavigation: true,
       })
     } else {
       tunebook.navigateToPreviousSong(queueTuneId, navigate, location.pathname, {
         mediaController: mediaController,
+        useQueueNavigation: true,
       })
     }
   }
 
   function handlePlaylistPlayPause() {
     if (!mediaController) return
-    if (isLoading) {
+    if (showLoading) {
       mediaController.pause()
       mediaController.setIsLoading(false)
       mediaController.setIsReady(false)
@@ -63,7 +71,7 @@ export default function NowPlayingTransportBar({
       mediaController.pause()
       return
     }
-    resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes)
+    resumePlaylistPlayback(mediaController, tunebook, navigate, nowPlayingQueue, tunes, setNowPlayingQueue)
   }
 
   return (
@@ -83,12 +91,12 @@ export default function NowPlayingTransportBar({
 
         <div className="now-playing-transport-center">
           <div className="now-playing-transport-center-group">
-            {isLoading ? (
+            {showLoading ? (
               <Button
                 variant="secondary"
                 className="now-playing-transport-play-btn"
-                title="Cancel loading"
-                aria-label="Cancel loading"
+                title={stallTitle || 'Cancel loading'}
+                aria-label={stallTitle || 'Cancel loading'}
                 onClick={handlePlaylistPlayPause}
               >
                 {tunebook.icons.waiting}

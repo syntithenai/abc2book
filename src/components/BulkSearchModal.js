@@ -7,6 +7,7 @@ import useBulkBackgroundResearchQueue from '../useBulkBackgroundResearchQueue'
 import useBulkComposerDiscoveryQueue from '../useBulkComposerDiscoveryQueue'
 import useTuneFieldLookupQueue from '../useTuneFieldLookupQueue'
 import useStemCreateQueue from '../useStemCreateQueue'
+import { areStemBulkOperationsEnabled } from '../stemBulkOperations'
 import { lyricLinesToText } from '../wLinesUtils'
 import { requestTuneMediaAnalysis } from '../useTuneMediaAnalysis'
 import { tuneHasAudioForFix } from '../bulkCheckFixActions'
@@ -248,6 +249,10 @@ export default function BulkSearchModal({
   }
 
   function handleStems() {
+    if (!areStemBulkOperationsEnabled()) {
+      toast.info('Bulk stem generation is disabled. Use Analyse in Media Controls for one tune at a time.')
+      return
+    }
     const tunes = selectedTunes()
     const health = getMediaResolverHealthState()
     const ids = stemCreateQueue.enqueueTunesStemCreateJobs(tunes, {
@@ -385,9 +390,11 @@ export default function BulkSearchModal({
           <Dropdown.Item onClick={handlePlaybackRegions}>
             Playback regions
           </Dropdown.Item>
-          <Dropdown.Item onClick={handleStems}>
-            Stems
-          </Dropdown.Item>
+          {areStemBulkOperationsEnabled() ? (
+            <Dropdown.Item onClick={handleStems}>
+              Stems
+            </Dropdown.Item>
+          ) : null}
           <Dropdown.Divider />
           <Dropdown.Item onClick={handleAllWebLookups}>
             All web lookups

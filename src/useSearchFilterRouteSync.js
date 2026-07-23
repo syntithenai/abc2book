@@ -16,7 +16,7 @@ function serializeParams(params) {
 }
 
 export function isSearchListRoute(pathname) {
-  return pathname === '/tunes' || pathname === '/tunes/check'
+  return pathname === '/tunes'
 }
 
 /**

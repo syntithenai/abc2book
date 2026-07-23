@@ -20,6 +20,7 @@ import {
 } from './importReviewEnrichmentBridge'
 import {
   registerLongRunningJob,
+  registerStemSeparationJob,
   getActiveTrackedJobs,
   cancelTrackedJob,
   cancelAllTrackedJobs,
@@ -184,6 +185,16 @@ describe('background job store APIs', function() {
     expect(countActiveSearchIncomplete()).toBe(1)
     cancelTrackedJob(getActiveTrackedJobs()[0].id)
     expect(onCancel).toHaveBeenCalled()
+    unregister()
+  })
+
+  test('stem separation tracked jobs do not count as active searches', function() {
+    const unregister = registerStemSeparationJob({
+      label: 'Stem separation',
+      onCancel: jest.fn(),
+    })
+    expect(getActiveTrackedJobs().length).toBe(1)
+    expect(countActiveSearchIncomplete()).toBe(0)
     unregister()
   })
 

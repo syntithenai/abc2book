@@ -31,7 +31,9 @@ export default function MusicEditor(props) {
     const resolvedTuneId = embedded ? (props.tuneId || routeTuneId) : routeTuneId
     const urlView = params.view ? normalizeEditorViewMode(params.view) : 'info'
     var [editorViewMode, setEditorViewMode] = useState(
-      notationOnly ? 'music' : (embedded ? (props.initialView || 'info') : urlView)
+      notationOnly
+        ? (props.initialView || 'music')
+        : (embedded ? (props.initialView || 'info') : urlView)
     )
 
     const tune = useMemo(function() {
@@ -53,8 +55,8 @@ export default function MusicEditor(props) {
 
     const notifyRefresh = useCallback(function() {
       if (typeof forceRefresh === 'function') forceRefresh()
-      if (embedded && typeof props.onLiveSave === 'function') props.onLiveSave()
-    }, [embedded, forceRefresh, props.onLiveSave])
+      if (embedded && typeof props.onLiveSave === 'function') props.onLiveSave(tuneId)
+    }, [embedded, forceRefresh, props.onLiveSave, tuneId])
     const canUndo = tuneId && historyState ? canUndoTuneEdit(historyState, tuneId) : false
     const canRedo = tuneId && historyState ? canRedoTuneEdit(historyState, tuneId) : false
     const undoLabel = tuneId && historyState ? getUndoTuneEditLabel(historyState, tuneId) : ''
@@ -77,10 +79,9 @@ export default function MusicEditor(props) {
     }, [embedded, params.tuneId, params.view])
 
     function handleEditorViewChange(nextView) {
-        if (notationOnly) return
         const normalized = normalizeEditorViewMode(nextView)
         setEditorViewMode(normalized)
-        if (embedded || !tuneId) return
+        if (notationOnly || embedded || !tuneId) return
         const basePath = '/editor/' + encodeURIComponent(tuneId)
         const recordQuery = searchParams.get('record') === '1' && normalized === 'chords' ? '?record=1' : ''
         if (normalized === 'info') {
@@ -335,6 +336,7 @@ export default function MusicEditor(props) {
           loadTuneTexts={props.loadTuneTexts}
           onNotationHelpModeChange={props.onNotationHelpModeChange}
           historyControls={embedded && notationOnly ? null : (isNotationView ? historyButtonGroup : null)}
+          alignedLyricsOnly={notationOnly}
         />
     </div>
 }

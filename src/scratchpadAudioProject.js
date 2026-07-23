@@ -111,6 +111,10 @@ export function createDefaultAudioProject(itemId, options) {
     sampleRate: opts.sampleRate || 48000,
     tempo: opts.tempo || 120,
     countInBars: opts.countInBars || 1,
+    rhythmConfig: opts.rhythmConfig || null,
+    metronomeEnabled: !!opts.metronomeEnabled,
+    metronomeDuringPlayback: !!opts.metronomeDuringPlayback,
+    metronomeDuringRecording: !!opts.metronomeDuringRecording,
     punchInEnabled: false,
     recordMode: 'newTake',
     tracks: [track],
@@ -160,7 +164,26 @@ export function migrateLegacyAudioItem(item) {
 }
 
 export function normalizeAudioProject(item) {
-  if (!item || item.type !== 'audio') return null
+  if (!item) return null
+  if (item.version >= AUDIO_PROJECT_VERSION && Array.isArray(item.tracks)) {
+    const audio = Object.assign({}, item)
+    audio.tracks = (audio.tracks || []).map(function(track) {
+      const next = Object.assign({}, track)
+      next.takes = (next.takes || []).map(function(take) {
+        return Object.assign({}, take)
+      })
+      if (!next.activeTakeId && next.takes.length) {
+        next.activeTakeId = next.takes[0].id
+      }
+      next.compRegions = Array.isArray(next.compRegions) ? next.compRegions.slice() : []
+      return next
+    })
+    if (!audio.tracks.length) {
+      audio.tracks = [createDefaultAudioTrack(item.id || 'item', 'Track 1')]
+    }
+    return audio
+  }
+  if (item.type !== 'audio') return null
   const migrated = migrateLegacyAudioItem(item)
   const audio = Object.assign({}, migrated.audio)
   audio.version = AUDIO_PROJECT_VERSION
@@ -179,6 +202,23 @@ export function normalizeAudioProject(item) {
     audio.tracks = [createDefaultAudioTrack(item.id, 'Track 1')]
   }
   return audio
+}
+
+export function resolveAudioProject(item, audioOverride) {
+  if (audioOverride) {
+    const withId = Object.assign({ id: item && item.id }, audioOverride)
+    if (withId.version >= AUDIO_PROJECT_VERSION && Array.isArray(withId.tracks)) {
+      return normalizeAudioProject(withId)
+    }
+  }
+  if (item && item.type === 'audio') {
+    const normalized = normalizeAudioProject(item)
+    if (normalized) return normalized
+  }
+  if (item && item.id) {
+    return createDefaultAudioProject(item.id)
+  }
+  return createDefaultAudioProject('item')
 }
 
 export function getTrackById(audio, trackId) {
@@ -227,6 +267,32 @@ export function collectProjectBlobKeys(audio) {
   return keys
 }
 
+export function collectAudioDriveFileIds(audio) {
+  if (!audio) return []
+  const normalized = Array.isArray(audio.tracks)
+    ? normalizeAudioProject(Object.assign({ version: AUDIO_PROJECT_VERSION }, audio))
+    : normalizeAudioProject({ type: 'audio', audio: audio, id: 'item' })
+  const ids = []
+  ;(normalized.tracks || []).forEach(function(track) {
+    ;(track.takes || []).forEach(function(take) {
+      if (take.driveFileId) ids.push(String(take.driveFileId))
+    })
+  })
+  if (normalized.mixdownDriveFileId) ids.push(String(normalized.mixdownDriveFileId))
+  return ids
+}
+
+export function findOrphanedAudioDriveFileIds(prevAudio, nextAudio) {
+  const prev = collectAudioDriveFileIds(prevAudio)
+  const nextSet = {}
+  collectAudioDriveFileIds(nextAudio).forEach(function(id) {
+    nextSet[id] = true
+  })
+  return prev.filter(function(id) {
+    return id && !nextSet[id]
+  })
+}
+
 export async function projectHasAudioContent(audio) {
   const keys = collectProjectBlobKeys(audio)
   for (let i = 0; i < keys.length; i += 1) {
@@ -236,15 +302,19 @@ export async function projectHasAudioContent(audio) {
   return false
 }
 
-export async function loadProjectTracks(item) {
-  const audio = normalizeAudioProject(item)
+export async function loadProjectTracks(item, audioOverride) {
+  const audio = resolveAudioProject(item, audioOverride)
   const specs = []
   for (let i = 0; i < audio.tracks.length; i += 1) {
     const track = audio.tracks[i]
     if (track.type === 'midi') continue
     const take = getActiveTake(track)
     if (!take || !take.blobKey) continue
-    const blob = await getScratchpadBlob(take.blobKey)
+    let blob = await getScratchpadBlob(take.blobKey)
+    if (track.compEnabled && (track.compRegions || []).length) {
+      const compBlob = await buildCompBuffer(track, getScratchpadBlob)
+      if (compBlob) blob = compBlob
+    }
     if (!blob || blob.size <= 0) continue
     const spec = {
       src: blob,
@@ -266,8 +336,9 @@ export async function loadProjectTracks(item) {
 }
 
 export async function getProjectDuration(audio) {
+  if (!audio || !Array.isArray(audio.tracks)) return 0
   let max = 0
-  const tracks = audio.tracks || []
+  const tracks = audio.tracks
   for (let i = 0; i < tracks.length; i += 1) {
     const track = tracks[i]
     if (track.type === 'midi') {
@@ -354,6 +425,10 @@ export async function buildCompBuffer(track, getBlob) {
   const offline = new OfflineAudioContext(channels, Math.ceil(duration * sampleRate), sampleRate)
   const dest = offline.createGain()
   dest.connect(offline.destination)
+  const baseSrc = offline.createBufferSource()
+  baseSrc.buffer = baseBuffer
+  baseSrc.connect(dest)
+  baseSrc.start(0)
   regions.forEach(function(region) {
     const buf = takeBuffers[region.takeId]
     if (!buf) return
@@ -364,12 +439,6 @@ export async function buildCompBuffer(track, getBlob) {
     const regionDur = region.end - region.start
     src.start(region.start, offset, regionDur)
   })
-  if (!regions.length) {
-    const src = offline.createBufferSource()
-    src.buffer = baseBuffer
-    src.connect(dest)
-    src.start(0)
-  }
   const rendered = await offline.startRendering()
   return encodeAudioBufferToWav(rendered)
 }
@@ -440,11 +509,18 @@ export function midiEventsToTimedMelody(events, tempo) {
   }
 }
 
-export function assignCompRegion(track, start, end, takeId) {
+export function assignCompRegion(track, start, end, takeId, options) {
+  const opts = options || {}
   const regions = (track.compRegions || []).filter(function(r) {
     return r.end <= start || r.start >= end
   })
-  regions.push({ start: start, end: end, takeId: takeId, offset: 0 })
+  regions.push({
+    start: start,
+    end: end,
+    takeId: takeId,
+    offset: 0,
+    crossfadeSec: opts.crossfadeSec != null ? opts.crossfadeSec : 0.05,
+  })
   regions.sort(function(a, b) { return a.start - b.start })
   return Object.assign({}, track, { compRegions: regions, compEnabled: true })
 }

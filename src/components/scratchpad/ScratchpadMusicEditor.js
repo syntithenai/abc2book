@@ -64,7 +64,7 @@ export default function ScratchpadMusicEditor(props) {
         const before = currentPayload.tuneSnapshot
           ? JSON.parse(JSON.stringify(currentPayload.tuneSnapshot))
           : null
-        const next = Object.assign({}, savedTune, { id: itemId })
+        const next = Object.assign({}, savedTune, { id: itemId, words: [] })
         if (props.editHistory && before) {
           props.editHistory.recordChange({
             tuneId: itemId,

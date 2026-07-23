@@ -33,7 +33,7 @@ describe('authResolverClient', function() {
     expect(candidateOffersOauthBff({ reachable: true, oauthBff: false })).toBe(false)
   })
 
-  test('resolveStickyAuthBase keeps sticky when still offering oauthBff', function() {
+  test('resolveStickyAuthBase keeps sticky when still offering oauthBff and session exists', function() {
     localStorage.setItem(AUTH_BASE_KEY, 'http://sticky')
     localStorage.setItem(AUTH_SESSION_ID_KEY, 'sess')
     const result = resolveStickyAuthBase([
@@ -42,6 +42,16 @@ describe('authResolverClient', function() {
     ], 'http://sticky')
     expect(result).toBe('http://sticky')
     expect(localStorage.getItem(AUTH_SESSION_ID_KEY)).toBe('sess')
+  })
+
+  test('resolveStickyAuthBase prefers probe order when signed out (no session)', function() {
+    localStorage.setItem(AUTH_BASE_KEY, 'http://sticky')
+    const result = resolveStickyAuthBase([
+      { base: 'http://local', reachable: true, oauthBff: true },
+      { base: 'http://sticky', reachable: true, oauthBff: true },
+    ], 'http://sticky')
+    expect(result).toBe('http://local')
+    expect(localStorage.getItem(AUTH_BASE_KEY)).toBe('http://local')
   })
 
   test('resolveStickyAuthBase clears sticky session when sticky unreachable', function() {

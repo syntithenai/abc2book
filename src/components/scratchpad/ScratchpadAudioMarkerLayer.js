@@ -48,7 +48,7 @@ export default function ScratchpadAudioMarkerLayer(props) {
         dragRef.current.moved = true
       }
       const index = dragRef.current.index
-      const time = markerTimeFromClientX(e.clientX, layout)
+      const time = markerTimeFromClientX(e.clientX, layout, { continuous: true })
       if (props.onMarkerDrag) props.onMarkerDrag(index, time)
     }
 
@@ -59,7 +59,7 @@ export default function ScratchpadAudioMarkerLayer(props) {
       dragRef.current = null
       if (moved) suppressClickRef.current = true
       if (layout && props.onMarkerDragEnd) {
-        const time = markerTimeFromClientX(e.clientX, layout)
+        const time = markerTimeFromClientX(e.clientX, layout, { continuous: true })
         props.onMarkerDragEnd(index, time, moved)
       }
     }
@@ -82,6 +82,7 @@ export default function ScratchpadAudioMarkerLayer(props) {
         const left = markerClientXFromTime(marker.time, layout)
         const isLoopStart = marker.loopRole === 'start'
         const isLoopEnd = marker.loopRole === 'end'
+        const atStart = marker.time <= 0
         return (
           <div
             key={index}
@@ -94,7 +95,10 @@ export default function ScratchpadAudioMarkerLayer(props) {
           >
             <button
               type="button"
-              className="scratchpad-audio-marker-chip"
+              className={
+                'scratchpad-audio-marker-chip'
+                + (atStart ? ' scratchpad-audio-marker-chip--at-start' : '')
+              }
               title={marker.label + ' (' + formatMarkerTime(marker.time) + 's) — drag to move, click to edit'}
               onPointerDown={function(e) {
                 if (e.button !== 0) return

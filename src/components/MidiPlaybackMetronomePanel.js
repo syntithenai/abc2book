@@ -38,6 +38,8 @@ export default function MidiPlaybackMetronomePanel({ tune, tunebook, mediaContro
     tune && tune.playbackMetronomeCountInBars,
     tune && tune.playbackMetronomeDuringPlayback,
     tune && tune.playbackMetronomeRhythm,
+    tune && tune.playbackMetronomeEngine,
+    tune && tune.playbackMetronomePresetId,
     tune && tune.playbackTempo,
     tune && tune.tempo,
     tunebook,

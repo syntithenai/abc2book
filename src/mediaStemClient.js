@@ -91,9 +91,8 @@ async function decodeStemResponse(response) {
 }
 
 async function decodeStemAudio(arrayBuffer) {
-  const decodeModule = await import('audio-decode');
-  const decode = decodeModule.default || decodeModule;
-  return decode(arrayBuffer);
+  const { decodeAudioBytes } = await import('./audioDecodeBytes');
+  return decodeAudioBytes(arrayBuffer);
 }
 
 export async function fetchStemSeparationStatus(cacheId, accessToken, signal) {
@@ -206,7 +205,8 @@ export async function separateStemsFromSource(options) {
   );
 }
 
-export async function fetchStemBuffers(separation, accessToken, signal) {
+export async function fetchStemBuffers(separation, accessToken, signal, options) {
+  const opts = options || {};
   const stemBuffers = {};
   const stemWavBytes = {};
   const stemNames = separation && separation.stems
@@ -214,8 +214,13 @@ export async function fetchStemBuffers(separation, accessToken, signal) {
     : Object.keys(STEM_NAME_BY_FILTER).map(function(key) {
       return STEM_NAME_BY_FILTER[key];
     });
+  const downloadable = stemNames.filter(function(stemName) {
+    return !!(separation && separation.stems && separation.stems[stemName]);
+  });
+  const total = downloadable.length || 1;
+  let completed = 0;
 
-  await Promise.all(stemNames.map(async function(stemName) {
+  await Promise.all(downloadable.map(async function(stemName) {
     const stemPath = separation.stems[stemName];
     if (!stemPath) return;
     const response = await fetchViaMediaProxy(stemPath, accessToken, {
@@ -230,6 +235,11 @@ export async function fetchStemBuffers(separation, accessToken, signal) {
     const arrayBuffer = await response.arrayBuffer();
     stemWavBytes[stemName] = arrayBuffer;
     stemBuffers[stemName] = await decodeStemAudio(arrayBuffer);
+    completed += 1;
+    if (typeof opts.onProgress === 'function') {
+      const progress = 90 + Math.round((completed / total) * 10);
+      opts.onProgress('Downloading stems... (' + completed + '/' + total + ')', progress);
+    }
   }));
 
   return {

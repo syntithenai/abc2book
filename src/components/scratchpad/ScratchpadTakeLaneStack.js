@@ -1,4 +1,5 @@
 import { Button, ButtonGroup, Form } from 'react-bootstrap'
+import ScratchpadNewTrackDialog from './ScratchpadNewTrackDialog'
 
 export default function ScratchpadTakeLaneStack(props) {
   const track = props.track
@@ -61,8 +62,21 @@ export default function ScratchpadTakeLaneStack(props) {
 
 export function ScratchpadTrackList(props) {
   const tracks = props.tracks || []
+  const icons = props.icons || {}
+
   return (
     <div className="scratchpad-track-list">
+      <div className="scratchpad-track-sidebar-header d-flex align-items-center justify-content-between mb-2">
+        <strong className="small">Tracks</strong>
+        <ScratchpadNewTrackDialog
+          itemId={props.itemId}
+          trackCount={tracks.length}
+          ee={props.ee}
+          icons={icons}
+          onAddTrack={props.onAddTrack}
+          onImport={props.onImport}
+        />
+      </div>
       {tracks.map(function(track) {
         if (track.type === 'midi') {
           return (

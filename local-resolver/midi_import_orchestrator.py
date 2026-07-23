@@ -6,12 +6,12 @@ import os
 import shutil
 from typing import Any
 
-from midi_analysis import analyze_midi_bytes
+from midi_analysis import analyze_midi_bytes, apply_profile_overrides
 from midi_chord_infer import infer_chords_from_midi, should_infer_chords
 from midi_convert import convert_midi_bytes_to_musicxml_sync
 from midi_harmony_voice import build_harmony_voice_abc
 from midi_import_score import pick_best_candidate, score_abc_import, score_musicxml_candidate
-from midi_to_abc import convert_midi_to_abc_note_events
+from midi_to_abc import MidiAbcBuildOptions, convert_midi_to_abc_note_events
 from musescore_fetch import convert_midi_bytes_to_musicxml_via_musescore
 
 MUSESCORE_BACKUP_SCORE_THRESHOLD = 0.45
@@ -79,6 +79,11 @@ def _should_run_musescore(
     return False
 
 
+def analyze_midi_for_import(midi_bytes: bytes, filename: str = "import.mid") -> dict[str, Any]:
+    profile = analyze_midi_bytes(midi_bytes, filename)
+    return profile.to_dict()
+
+
 def import_midi_bytes(
     midi_bytes: bytes,
     filename: str = "import.mid",
@@ -86,24 +91,37 @@ def import_midi_bytes(
     mode: str | None = None,
     strategy: str = "auto",
     include_chords: bool | None = None,
+    track_ids: list[int] | None = None,
+    drum_track_ids: list[int] | None = None,
+    include_drums: bool = False,
+    quant_slots_per_beat: int | None = None,
+    note_length: str | None = None,
+    cleanup_options: dict[str, Any] | None = None,
+    tempo_bpm: float | None = None,
+    time_signature: str | None = None,
+    estimated_key: str | None = None,
+    max_voices: int = 8,
 ) -> dict[str, Any]:
     """
     Run MIDI import strategies and return the best result.
 
     strategy: auto | note_events | musicxml | musescore
     mode: melody | multi_voice | None (use profile)
-
-    In auto mode, strategies A (musicxml) and B (note_events) always run.
-    Strategy C (MuseScore CLI) runs when routing is ambiguous, when A/B tie,
-    or when A/B scores are low. Set MIDI_IMPORT_MUSESCORE=0 to disable MuseScore.
     """
     profile = analyze_midi_bytes(midi_bytes, filename)
+    apply_profile_overrides(
+        profile,
+        tempo_bpm=tempo_bpm,
+        time_signature=time_signature,
+        estimated_key=estimated_key,
+        explicit_track_ids=track_ids,
+    )
     forced_mode = mode if mode in ("melody", "multi_voice") else None
     import_mode = forced_mode or profile.recommended_mode
     routing_hint = getattr(profile, "routing_hint", None) or import_mode
     infer_chords = should_infer_chords(profile, include_chords)
 
-    if import_mode == "reject":
+    if import_mode == "reject" and not track_ids:
         return {
             "abc": "",
             "musicXml": "",
@@ -115,6 +133,20 @@ def import_midi_bytes(
             "profile": profile.to_dict(),
         }
 
+    build_options = MidiAbcBuildOptions(
+        mode=import_mode,
+        track_ids=track_ids,
+        drum_track_ids=list(drum_track_ids or []),
+        include_drums=include_drums,
+        quant_slots_per_beat=int(quant_slots_per_beat or 2),
+        note_length=note_length or "1/8",
+        cleanup_options=cleanup_options,
+        max_voices=max_voices,
+        tempo_bpm=tempo_bpm,
+        time_signature=time_signature,
+        estimated_key=estimated_key,
+    )
+
     source_note_count = profile.total_pitched_notes
     candidates: list[dict[str, Any]] = []
 
@@ -122,7 +154,12 @@ def import_midi_bytes(
     run_musicxml = strategy in ("auto", "musicxml")
 
     if run_note_events:
-        note_result = convert_midi_to_abc_note_events(midi_bytes, filename, mode=import_mode)
+        note_result = convert_midi_to_abc_note_events(
+            midi_bytes,
+            filename,
+            mode=import_mode,
+            options=build_options,
+        )
         scored = score_abc_import(
             note_result.get("abc") or "",
             source_note_count=source_note_count,
@@ -148,6 +185,9 @@ def import_midi_bytes(
                 profile=profile,
                 mode=import_mode,
                 include_chords=infer_chords,
+                explicit_track_ids=track_ids,
+                include_drums=include_drums,
+                max_parts=max_voices,
             )
             scored = score_musicxml_candidate(
                 music_xml,

@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes';
 import { getResolverFeaturesFromStatus } from './resolverFeatures';
-import { startResolverLoginToastSync } from './resolverLoginToast';
 import {
   ensureMediaResolverHealthSettingsListener,
   getMediaResolverHealthState,
@@ -22,10 +21,8 @@ export function useInitMediaResolverHealth(accessToken, requestGoogleScopes) {
       setMediaResolverIdentityScopeRequest(null);
     }
     probeMediaResolverHealth(accessToken);
-    const stopLoginToast = startResolverLoginToastSync(accessToken);
     return function() {
       setMediaResolverIdentityScopeRequest(null);
-      stopLoginToast();
     };
   }, [accessToken, requestGoogleScopes]);
 

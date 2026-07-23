@@ -6,6 +6,7 @@ import { encodeAudioBuffer } from './audioCompressEncode'
 import { getAudioCompressFormat, normalizeAudioCompressFormat } from './audioCompressSettings'
 import { triggerBlobDownload } from './processedMediaExport'
 import { trimAudioBuffer, getLinkTrimBounds } from './mediaAudioTrim'
+import { areStemBulkOperationsEnabled } from './stemBulkOperations'
 
 async function decodeCachedAudio(blob) {
   const arrayBuffer = await blob.arrayBuffer()
@@ -117,13 +118,15 @@ export async function buildTuneMediaExportBlob(options) {
   const filtersActive = settings.audioFilters && !audioFiltersAreNeutral(settings.audioFilters)
   if (filtersActive) {
     const loaded = await loadStemBuffersForSource(cacheOptions, {
-      allowNetworkSeparation: true,
+      allowNetworkSeparation: areStemBulkOperationsEnabled(),
       signal: options.signal,
       onProgress: options.onProgress,
       onStatus: options.onStatus,
     })
     if (!loaded || !loaded.stemBuffers) {
-      throw new Error('Could not separate stems for download with audio filters applied')
+      throw new Error(areStemBulkOperationsEnabled()
+        ? 'Could not separate stems for download with audio filters applied'
+        : 'Stem filters require analysed stems. Open Media Controls → Audio Filters and click Analyse first.')
     }
     const mixed = mixStemBuffersOffline(loaded.stemBuffers, settings.audioFilters)
     if (!mixed) {

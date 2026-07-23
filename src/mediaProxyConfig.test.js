@@ -27,6 +27,22 @@ describe('mediaProxyConfig', function() {
     )
   })
 
+  test('saved override ranks before dev-server proxy when both exist', function() {
+    const originalEnv = process.env.NODE_ENV
+    const originalLocation = window.location
+    process.env.NODE_ENV = 'development'
+    Object.defineProperty(window, 'location', {
+      configurable: true,
+      value: { protocol: 'http:', origin: 'http://localhost:3000', hostname: 'localhost' },
+    })
+    localStorage.setItem('bookstorage_media_proxy_base', DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
+    const candidates = getMediaProxyBaseCandidates()
+    expect(candidates[0]).toBe(DEFAULT_CLOUD_LIGHT_MEDIA_PROXY)
+    expect(candidates[1]).toBe('http://localhost:3000')
+    process.env.NODE_ENV = originalEnv
+    Object.defineProperty(window, 'location', { configurable: true, value: originalLocation })
+  })
+
   test('uses localhost then public when no saved setting', function() {
     const candidates = getMediaProxyBaseCandidates()
     expect(candidates[0]).toBe('http://localhost:8787')

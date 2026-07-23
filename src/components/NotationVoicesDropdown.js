@@ -14,6 +14,7 @@ export default function NotationVoicesDropdown(props) {
     onVoiceNotesChange,
     onAddVoice,
     onDeleteVoice,
+    onReorderVoices,
   } = props;
 
   const [showManage, setShowManage] = useState(false);
@@ -45,6 +46,7 @@ export default function NotationVoicesDropdown(props) {
         onVoiceNotesChange={onVoiceNotesChange}
         onAddVoice={onAddVoice}
         onDeleteVoice={onDeleteVoice}
+        onReorderVoices={onReorderVoices}
       />
     </>
   );

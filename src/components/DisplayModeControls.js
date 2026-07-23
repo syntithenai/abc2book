@@ -33,6 +33,7 @@ export default function DisplayModeControls(props) {
     size,
     className,
     stopMenuClose,
+    appendControl,
   } = props;
 
   function stop(e) {
@@ -116,6 +117,7 @@ export default function DisplayModeControls(props) {
             onClick={function() { apply('info', 'toggle'); }}
           />
         )}
+        {appendControl || null}
       </ButtonGroup>
     </div>
   );

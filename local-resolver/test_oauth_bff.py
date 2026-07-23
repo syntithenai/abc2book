@@ -61,9 +61,12 @@ class OAuthBffTests(unittest.TestCase):
         oauth_bff.GOOGLE_CLIENT_ID = "client-id"
         oauth_bff.GOOGLE_CLIENT_SECRET = "client-secret"
         oauth_bff.AUTH_SESSION_SECRET = "session-secret-value-32bytes-min"
+        oauth_bff.AUTH_SESSION_STORE = "sqlite"
         oauth_bff.AUTH_SESSION_DB_PATH = self.db_path
         oauth_bff.AUTH_REFRESH_TOKEN_FERNET_KEY = ""
         oauth_bff._db_initialized = False
+        oauth_bff._firestore_client = None
+        oauth_bff._refresh_locks = {}
         oauth_bff._fernet = None
         oauth_bff._fernet_checked = False
         oauth_bff.ensure_db()
@@ -147,6 +150,14 @@ class OAuthBffTests(unittest.TestCase):
         session_id = body["session_id"]
         self.assertTrue(session_id)
 
+        oauth_bff.ensure_db()
+        with oauth_bff._connect() as conn:
+            conn.execute(
+                "UPDATE oauth_sessions SET access_token_enc = '', access_expires_at = 0, last_refresh_at = 0 WHERE session_id = ?",
+                (session_id,),
+            )
+            conn.commit()
+
         def refresh_handler(data):
             self.assertEqual(data.get("grant_type"), "refresh_token")
             self.assertEqual(data.get("refresh_token"), "refresh-1")
@@ -219,6 +230,52 @@ class OAuthBffTests(unittest.TestCase):
         self.assertEqual(body["email"], "online@example.com")
         self.assertEqual(body.get("session_id") or "", "")
         self.assertFalse(body.get("offline"))
+
+    def test_refresh_returns_cached_access_token_without_google_call(self):
+        import asyncio
+
+        oauth_bff.upsert_session(
+            email="user@example.com",
+            refresh_token="refresh",
+            scopes="email",
+            allowed_for_media=False,
+            session_id="sess-cache",
+        )
+        oauth_bff._store_access_cache("sess-cache", "cached-access", 3600, "email")
+
+        async def fail_if_called(*args, **kwargs):
+            raise AssertionError("Google token endpoint should not be called")
+
+        with patch("oauth_bff.httpx.AsyncClient") as client_cls:
+            client_cls.return_value.__aenter__.return_value.post = fail_if_called
+            result = asyncio.run(oauth_bff.refresh_access_token("sess-cache"))
+
+        self.assertEqual(result["access_token"], "cached-access")
+        self.assertTrue(result.get("cached"))
+
+    def test_refresh_rate_limited_when_called_too_soon(self):
+        import asyncio
+
+        oauth_bff.upsert_session(
+            email="user@example.com",
+            refresh_token="refresh",
+            scopes="email",
+            allowed_for_media=False,
+            session_id="sess-limit",
+        )
+        oauth_bff._store_access_cache("sess-limit", "access", 3600, "email")
+        oauth_bff.ensure_db()
+        with oauth_bff._connect() as conn:
+            conn.execute(
+                "UPDATE oauth_sessions SET access_token_enc = '', access_expires_at = 0 WHERE session_id = ?",
+                ("sess-limit",),
+            )
+            conn.commit()
+
+        result = asyncio.run(oauth_bff.refresh_access_token("sess-limit"))
+        self.assertEqual(result.get("error"), "refresh_rate_limited")
+        self.assertEqual(result.get("status"), 429)
+        self.assertGreater(result.get("retry_after") or 0, 0)
 
     def test_logout_deletes_session(self):
         oauth_bff.upsert_session(

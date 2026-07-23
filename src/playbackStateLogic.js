@@ -99,10 +99,33 @@ export function shouldBlockPlayDuringSeek(snapshot, opts, now) {
     && !snapshot.userPaused
 }
 
+/**
+ * Playback position to restore when remounting the media engine for the same
+ * tune (e.g. list↔single navigation). Returns null when the stored clock
+ * belongs to a different tune so auto-advance always starts from the top.
+ */
+export function resolvePlaybackHandoffPosition(opts) {
+  const o = opts || {}
+  if (!o.tuneId || o.playbackClockTuneId !== o.tuneId) return null
+  if (o.queueResumePending) return null
+  if (o.routeMode === 'none') return null
+
+  const regionStart = typeof o.regionStart === 'number' ? o.regionStart : 0
+  const pos = typeof o.positionSeconds === 'number' ? o.positionSeconds : 0
+  const shouldPreserve = !!(
+    o.userPaused
+    || o.activePlaybackIntent
+    || (o.playingIntent && pos > regionStart + 0.05)
+  )
+  if (!shouldPreserve) return null
+  return pos
+}
+
 export function shouldTriggerAutoplayRecovery(snapshot, flags) {
   const f = flags || {}
   if (f.isSeekGuardActive) return false
   if (f.tapToPlay) return false
+  if (f.queueItemUnplayable) return false
   if (snapshot.playCancelled) return false
   if (!snapshot.playingIntent || snapshot.userPaused) return false
   if (snapshot.isPlayingUi || f.isLoading) return false

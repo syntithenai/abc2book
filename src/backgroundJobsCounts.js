@@ -12,10 +12,11 @@ import {
 } from './bulkCheckSessionStore'
 import { isBulkCheckRunnerActive } from './bulkCheckRunner'
 import { getImportReviewEnrichmentSnapshot } from './importReviewEnrichmentBridge'
-import { getActiveTrackedJobs } from './longRunningJobRegistry'
+import { getManualTrackedSearchJobs } from './longRunningJobRegistry'
 import { enrichmentSummary } from './importReviewEnrichmentQueue'
 import * as tuneFieldLookupQueue from './tuneFieldLookupQueue'
 import { isMediaAnalysisLookupJob } from './mediaAnalysisSuggestions'
+import { getStemAnalysisJobSnapshot } from './stemAnalysisJobStore'
 
 export function countBackgroundResearchIncomplete() {
   return countActiveFifoJobs(bulkBackgroundResearchQueue.getState().jobs)
@@ -33,11 +34,14 @@ export function countMediaCacheIncomplete() {
 
 export function countStemCreateIncomplete(mediaController) {
   let count = countActiveFifoJobs(stemCreateQueue.getState().jobs)
+  const liveJob = getStemAnalysisJobSnapshot()
   if (mediaController) {
     if (mediaController.stemSeparationActive) count += 1
     else if (mediaController.stemAnalysisProgress && mediaController.stemAnalysisProgress.active) {
       count += 1
     }
+  } else if (liveJob.active) {
+    count += 1
   }
   return count
 }
@@ -80,7 +84,7 @@ export function countActiveSearchIncomplete() {
     if (isMediaAnalysisLookupJob(job)) return false
     return job.status === 'pending' || job.status === 'running' || job.status === 'awaiting'
   }).length
-  return fieldJobs + getActiveTrackedJobs().length
+  return fieldJobs + getManualTrackedSearchJobs().length
 }
 
 /** Display order of Background Jobs tabs in Settings (eventKey → count field). */

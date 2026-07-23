@@ -13,6 +13,8 @@ MELODY_NAME_RE = re.compile(r"melody|lead|voice\s*1|v:\s*1|soprano|treble", re.I
 CHORD_NAME_RE = re.compile(r"chord|accomp|harmony|pad|guitar|piano", re.I)
 BASS_NAME_RE = re.compile(r"bass|cello|tuba|baritone", re.I)
 
+MAX_MIDI_IMPORT_VOICES = 8
+
 KEY_PROFILES = {
     "C": [6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88],
     "G": [2.88, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 6.35],
@@ -260,7 +262,7 @@ def _analyze_with_pretty_midi(midi_bytes: bytes) -> MidiProfile | None:
         profile.recommended_mode = "multi_voice"
         profile.routing_hint = "multi_voice"
         ids = [melody_track.index] + [t.index for t in independent[:3]]
-        profile.recommended_track_ids = ids[:4]
+        profile.recommended_track_ids = ids[:MAX_MIDI_IMPORT_VOICES]
         return profile
 
     profile.recommended_mode = "melody"
@@ -308,10 +310,17 @@ def track_ids_for_import(
     mode: str | None = None,
     *,
     include_chords: bool = False,
+    explicit_track_ids: list[int] | None = None,
+    max_voices: int = MAX_MIDI_IMPORT_VOICES,
 ) -> list[int]:
+    if explicit_track_ids:
+        valid = {t.index for t in profile.tracks}
+        ids = [int(track_id) for track_id in explicit_track_ids if int(track_id) in valid]
+        return ids[:max(1, max_voices)]
+
     import_mode = mode or profile.recommended_mode
     if import_mode == "multi_voice":
-        return list(profile.recommended_track_ids or [])
+        return list(profile.recommended_track_ids or [])[:max_voices]
     melody_id = (profile.recommended_track_ids or [None])[0]
     if melody_id is None:
         pitched = [t for t in profile.tracks if not t.is_drum and t.note_count > 0]
@@ -323,7 +332,44 @@ def track_ids_for_import(
     for track_id in harm_ids:
         if track_id not in ids:
             ids.append(track_id)
-    return ids[:2]
+    return ids[:min(2, max_voices)]
+
+
+def clef_hint_for_track(track: MidiTrackProfile) -> str:
+    if track.is_drum:
+        return "perc"
+    if track.role_hint == "bass":
+        return "bass"
+    return "treble"
+
+
+def apply_profile_overrides(
+    profile: MidiProfile,
+    *,
+    tempo_bpm: float | None = None,
+    time_signature: str | None = None,
+    estimated_key: str | None = None,
+    explicit_track_ids: list[int] | None = None,
+) -> MidiProfile:
+    if tempo_bpm is not None and tempo_bpm > 0:
+        profile.tempo_bpm = float(tempo_bpm)
+    if time_signature:
+        profile.time_signature = str(time_signature)
+        try:
+            profile.beats_per_bar = int(str(time_signature).split("/")[0])
+        except (ValueError, IndexError):
+            pass
+    if estimated_key:
+        profile.estimated_key = str(estimated_key)
+    if explicit_track_ids:
+        profile.recommended_track_ids = list(explicit_track_ids)
+        if len(explicit_track_ids) > 1:
+            profile.recommended_mode = "multi_voice"
+            profile.routing_hint = "multi_voice"
+        elif len(explicit_track_ids) == 1:
+            profile.recommended_mode = "melody"
+            profile.routing_hint = "melody"
+    return profile
 
 
 def _analyze_with_music21(midi_bytes: bytes) -> MidiProfile | None:

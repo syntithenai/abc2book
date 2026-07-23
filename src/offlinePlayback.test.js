@@ -3,7 +3,9 @@ import {
   playbackModeFromPathname,
   isTuneOfflinePlayable,
   findNextOfflinePlayableListIndex,
+  advanceQueueToOfflinePlayable,
 } from './offlinePlayback'
+import { createQueue } from './nowPlayingQueue'
 
 function isYoutubeLink(url) {
   return /youtu\.?be/.test(url)
@@ -89,5 +91,21 @@ describe('offlinePlayback', function() {
   test('isNavigatorOffline reflects navigator.onLine', function() {
     Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
     expect(isNavigatorOffline()).toBe(true)
+  })
+
+  test('advanceQueueToOfflinePlayable skips uncached remote media when offline', async function() {
+    Object.defineProperty(navigator, 'onLine', { configurable: true, value: false })
+    const queue = createQueue({
+      tuneIds: ['uncached', 'inline'],
+      currentIndex: 0,
+    })
+    const tunes = {
+      uncached: { id: 'uncached', links: [{ link: 'https://example.com/a.mp3' }] },
+      inline: { id: 'inline', links: [{ link: 'data:audio/mp3;base64,abc' }] },
+    }
+    const result = await advanceQueueToOfflinePlayable(queue, tunes, tunebook, isYoutubeLink, 'media')
+    expect(result.atEnd).toBe(false)
+    expect(result.tune.id).toBe('inline')
+    expect(result.queue.currentIndex).toBe(1)
   })
 })

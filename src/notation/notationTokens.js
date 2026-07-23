@@ -150,6 +150,8 @@ export const MARK_MENU_GROUPS = [
       { key: 'lowermordent', label: 'Lower mordent' },
       { key: 'turn', label: 'Turn' },
       { key: 'pralltriller', label: 'Pralltriller' },
+      { key: '_graceAcci', label: 'Grace before (acciaccatura)' },
+      { key: '_graceApp', label: 'Grace before (appoggiatura)' },
     ],
   },
   {

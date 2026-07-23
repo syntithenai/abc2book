@@ -6,6 +6,7 @@ import { createRoot } from 'react-dom/client'
 import { act } from 'react-dom/test-utils'
 import SuggestionPreviewDialog, {
   buildAbcFromChoice,
+  buildAbcFromTune,
   lyricsTextFromChoice,
 } from './SuggestionPreviewDialog'
 
@@ -79,6 +80,17 @@ describe('SuggestionPreviewDialog helpers', function() {
     expect(abc).toContain('M:4/4')
     expect(abc).toContain('K:G')
     expect(abc).toContain('CDEF|')
+  })
+
+  test('buildAbcFromTune builds from voices', function() {
+    const abc = buildAbcFromTune({
+      meter: '4/4',
+      noteLength: '1/8',
+      key: 'D',
+      voices: { '1': { meta: '', notes: ['DEFG|'] } },
+    })
+    expect(abc).toContain('K:D')
+    expect(abc).toContain('DEFG|')
   })
 })
 

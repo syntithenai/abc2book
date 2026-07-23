@@ -63,6 +63,25 @@ describe('pdfSnapshotIndex', function() {
     expect(rows[0].snapshotMatch.matchKind).toBe('segment')
   })
 
+  test('expandPdfSnapshotSearchRows uses one row when multiple PDF segments match', function() {
+    const tune = {
+      id: 't3',
+      name: 'Session Book',
+      tuneFiles: [{
+        id: 'f3',
+        name: 'book.pdf',
+        type: 'application/pdf',
+        pdfSegments: [
+          { title: 'Battle of Aughrim', page: 1, endPage: 2, composer: '' },
+          { title: 'Battle of Aughrim (alt)', page: 3, endPage: 4, composer: '' },
+        ],
+      }],
+    }
+    const rows = expandPdfSnapshotSearchRows([tune], 'battle')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].tune.id).toBe('t3')
+  })
+
   test('expandPdfSnapshotSearchRows expands PDF file name matches', function() {
     const rows = expandPdfSnapshotSearchRows([tuneWithPdf], 'book.pdf')
     expect(rows).toHaveLength(1)
@@ -76,6 +95,25 @@ describe('pdfSnapshotIndex', function() {
     expect(rows).toHaveLength(1)
     expect(rows[0].snapshotMatch).toBeNull()
     expect(rows[0].tune.name).toBe('Session Book')
+  })
+
+  test('expandPdfSnapshotSearchRows avoids parent row when PDF hits already match', function() {
+    const tune = {
+      id: 't2',
+      name: 'After the Battle of Aughrim',
+      tuneFiles: [{
+        id: 'f2',
+        name: 'set.pdf',
+        type: 'application/pdf',
+        pdfSegments: [
+          { title: 'After the Battle of Aughrim', page: 12, endPage: 13, composer: '' },
+        ],
+      }],
+    }
+    const rows = expandPdfSnapshotSearchRows([tune], 'aughrim')
+    expect(rows).toHaveLength(1)
+    expect(rows[0].snapshotMatch).toBeNull()
+    expect(rows[0].tune.id).toBe('t2')
   })
 
   test('buildSnapshotTuneLink includes file and page query params', function() {

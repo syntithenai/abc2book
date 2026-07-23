@@ -76,6 +76,30 @@ describe('tuneBulkCheckReport', function() {
     expect(report.issues.some(function(i) { return i.code === 'missing_composer' })).toBe(true)
   })
 
+  test('includes optional gaps in orange severity display issues', function() {
+    const tune = {
+      id: 'warn-bg',
+      name: 'has content',
+      composer: 'Artist',
+      tempo: 120,
+      meter: '4/4',
+      key: 'C',
+      backgroundInfo: '',
+      suitableFor: ['violin'],
+      words: ['Lyrics'],
+      timingScaffold: true,
+      links: [{ link: 'https://example.com/a.mp3' }],
+      voices: { '1': { notes: ['"C" z z z |'] } },
+    }
+    const report = buildTuneCheckReport(tune, {
+      hasChords: hasChords,
+      hasNotesOrChords: function() { return true },
+    })
+    expect(report.severity).toBe(SEVERITY_ORANGE)
+    expect(report.issues.some(function(i) { return i.code === 'title_not_capitalized' })).toBe(true)
+    expect(report.issues.some(function(i) { return i.code === 'missing_background' })).toBe(true)
+  })
+
   test('warns when title is not capitalised', function() {
     const tune = {
       id: 'case',

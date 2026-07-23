@@ -15,7 +15,6 @@ describe('normalizeRoute', function() {
     expect(normalizeRoute('/books')).toBe('/books')
     expect(normalizeRoute('/importlink/shared-book/book/MyBook')).toBe('/importlink/:link/book/:name')
     expect(normalizeRoute('/practice')).toBe('/practice')
-    expect(normalizeRoute('/tunes/check')).toBe('/tunes/check')
     expect(normalizeRoute('/gig/set-1')).toBe('/gig/:setId')
     expect(normalizeRoute('/gig/set-1/tune-abc')).toBe('/gig/:setId/:tuneId')
     expect(normalizeRoute('/sets/set-1')).toBe('/sets/:setId')

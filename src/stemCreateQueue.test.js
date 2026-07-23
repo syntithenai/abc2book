@@ -1,3 +1,9 @@
+jest.mock('./stemBulkOperations', function() {
+  return {
+    areStemBulkOperationsEnabled: jest.fn(function() { return true }),
+  }
+})
+
 jest.mock('./nativeFilteredMedia', function() {
   return {
     loadStemBuffersForSource: jest.fn(function() {
@@ -48,6 +54,7 @@ jest.mock('localforage', function() {
 
 import { loadStemBuffersForSource } from './nativeFilteredMedia'
 import { getCachedStemSet } from './audioStemCache'
+import { areStemBulkOperationsEnabled } from './stemBulkOperations'
 import * as stemCreateQueue from './stemCreateQueue'
 
 function makeTune(overrides) {
@@ -61,6 +68,7 @@ function makeTune(overrides) {
 describe('stemCreateQueue', function() {
   beforeEach(function() {
     stemCreateQueue.__resetForTests()
+    areStemBulkOperationsEnabled.mockReturnValue(true)
     Object.keys(localforageData).forEach(function(key) {
       delete localforageData[key]
     })
@@ -192,5 +200,21 @@ describe('stemCreateQueue', function() {
     expect(stemCreateQueue.getState().jobs[0].status).toBe('done')
     expect(stemCreateQueue.getState().jobs[0].message).toBe('Already cached')
     expect(loadStemBuffersForSource).not.toHaveBeenCalled()
+  })
+
+  test('does not enqueue when bulk stem operations are disabled', function() {
+    areStemBulkOperationsEnabled.mockReturnValue(false)
+    const id = stemCreateQueue.enqueueStemCreateJob({
+      tuneId: 't1',
+      linkIndex: 0,
+      src: 'https://example.com/a.mp3',
+      srcType: 'audio',
+      tuneName: 'Tune',
+    })
+    expect(id).toBeNull()
+    expect(stemCreateQueue.enqueueTunesStemCreateJobs([makeTune()], {
+      accessToken: 'token',
+      demucsModel: 'htdemucs',
+    })).toEqual([])
   })
 })

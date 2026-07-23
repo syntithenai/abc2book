@@ -4,6 +4,7 @@ import {
   normalizeProxyUrl,
   setSavedWebshareProxyUrl,
 } from './webshareProxySettings'
+import { isYoutubeHelperDisabled, setYoutubeHelperDisabled } from './youtubeHelperSettings'
 import { youtubeAudioBytesAvailableSync } from './youtubeUnlock'
 import { __resetYoutubeExtensionPingCache } from './youtubeExtensionClient'
 
@@ -56,5 +57,11 @@ describe('youtubeUnlock', function() {
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
     document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
     expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(true)
+  })
+
+  test('disabled helper ignores extension DOM marker', function() {
+    document.documentElement.setAttribute('data-tunebook-yt-helper', '0.1.2')
+    setYoutubeHelperDisabled(true)
+    expect(youtubeAudioBytesAvailableSync({ resolverFeatures: null })).toBe(false)
   })
 })

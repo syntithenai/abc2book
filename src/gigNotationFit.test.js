@@ -286,6 +286,25 @@ describe('gigNotationFit', function() {
       expect(fit.overflowX).toBe(false);
     });
 
+    it('prefers width fit with vertical scroll for tall tablature scores', function() {
+      const svg = makeSvg(200, 800);
+      const renderEl = makeRenderEl();
+      const originalInnerHeight = window.innerHeight;
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: 700 });
+      Object.defineProperty(document.documentElement, 'clientWidth', { configurable: true, value: 420 });
+
+      const fit = fitSingleViewVertical(svg, renderEl, null, { preferWidthFit: true });
+
+      Object.defineProperty(window, 'innerHeight', { configurable: true, value: originalInnerHeight });
+
+      const availW = 400 - 8;
+      const targetW = availW - GIG_NOTATION_FIT_SAFETY_PX;
+      expect(fit.width).toBeCloseTo(targetW, 5);
+      expect(fit.overflowY).toBe(true);
+      expect(renderEl.style.overflowY).toBe('auto');
+      expect(renderEl.classList.contains('gig-mode-notation-render--scroll-y')).toBe(true);
+    });
+
     it('includes title overhang in the viewBox so fit-height does not clip it', function() {
       const svg = makeSvg(400, 800, { left: -60, top: 8, width: 520, height: 28 });
       const renderEl = makeRenderEl();

@@ -1,6 +1,7 @@
 import {
   cleanImportTitleForMatching,
   importTitlesMatchForDeduping,
+  importTitlesMatchForSimilarDuplicate,
   normalizeImportTitle,
   preferCleanImportTitle,
   tuneImportTitle,
@@ -53,5 +54,24 @@ describe('importTitleMatch', function() {
   test('tuneImportTitle prefers name then title', function() {
     expect(tuneImportTitle({ name: 'A', title: 'B' })).toBe('A')
     expect(tuneImportTitle({ title: 'B' })).toBe('B')
+  })
+
+  test('similar duplicate match handles leading article', function() {
+    expect(importTitlesMatchForSimilarDuplicate('The Sally Gardens', 'Sally Gardens')).toBe(true)
+    expect(importTitlesMatchForSimilarDuplicate('Wild Rover', 'The Wild Rover')).toBe(true)
+  })
+
+  test('similar duplicate match rejects unrelated all-prefix titles', function() {
+    const titles = [
+      'All Through The Night',
+      'All or nothing at all',
+      'All the World is Green',
+      'All The Good Times',
+    ]
+    for (let i = 0; i < titles.length; i += 1) {
+      for (let j = i + 1; j < titles.length; j += 1) {
+        expect(importTitlesMatchForSimilarDuplicate(titles[i], titles[j])).toBe(false)
+      }
+    }
   })
 })

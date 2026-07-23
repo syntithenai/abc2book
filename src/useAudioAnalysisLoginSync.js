@@ -6,6 +6,7 @@ import { useEffect, useRef } from 'react'
 import useGoogleDocument from './useGoogleDocument'
 import { syncAudioAnalysisWithDrive } from './audioAnalysisCloudSync'
 import { listUnsyncedSets, listDeletedSets, listDeletedGroups, listGroups } from './soundpostSetStore'
+import { tokenHasDriveAccess } from './googleDrivePickerClient'
 
 let inFlight = null
 
@@ -50,7 +51,7 @@ export default function useAudioAnalysisLoginSync(token, logout) {
 
   useEffect(function() {
     const key = token && token.access_token ? String(token.access_token).slice(0, 24) : null
-    if (!key) {
+    if (!key || !tokenHasDriveAccess(token)) {
       ranFor.current = null
       return
     }

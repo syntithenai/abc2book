@@ -7,6 +7,7 @@ export const METRONOME_SUB = 'sub'
 const VOLUME_STORAGE_KEY = 'bookstorage_metronome_volumes'
 export const DEFAULT_METRONOME_VOLUME = 0.7
 export const DEFAULT_METRONOME_ACCENT_VOLUME = 1
+export const DEFAULT_DRUM_VOLUME = 0.85
 
 const TICK_PROFILES = {
   // A bit louder/brighter than before so 100% accent cuts through clearly.
@@ -30,6 +31,7 @@ function loadVolumeSettings() {
       return {
         volume: DEFAULT_METRONOME_VOLUME,
         accentVolume: DEFAULT_METRONOME_ACCENT_VOLUME,
+        drumVolume: DEFAULT_DRUM_VOLUME,
       }
     }
     const parsed = JSON.parse(raw)
@@ -39,11 +41,13 @@ function loadVolumeSettings() {
         parsed && (parsed.accentVolume != null ? parsed.accentVolume : parsed.accent),
         DEFAULT_METRONOME_ACCENT_VOLUME
       ),
+      drumVolume: clampVolume(parsed && parsed.drumVolume, DEFAULT_DRUM_VOLUME),
     }
   } catch (e) {
     return {
       volume: DEFAULT_METRONOME_VOLUME,
       accentVolume: DEFAULT_METRONOME_ACCENT_VOLUME,
+      drumVolume: DEFAULT_DRUM_VOLUME,
     }
   }
 }
@@ -54,6 +58,7 @@ function persistVolumeSettings(next) {
     localStorage.setItem(VOLUME_STORAGE_KEY, JSON.stringify({
       volume: next.volume,
       accentVolume: next.accentVolume,
+      drumVolume: next.drumVolume,
     }))
   } catch (e) { /* ignore quota / private mode */ }
 }
@@ -62,7 +67,12 @@ export function getMetronomeVolumes() {
   return {
     volume: volumeState.volume,
     accentVolume: volumeState.accentVolume,
+    drumVolume: volumeState.drumVolume,
   }
+}
+
+export function getDrumVolume() {
+  return volumeState.drumVolume
 }
 
 export function getMetronomeVolume() {
@@ -85,6 +95,9 @@ export function setMetronomeVolumes(next) {
     accentVolume: patch.accentVolume != null
       ? clampVolume(patch.accentVolume, volumeState.accentVolume)
       : volumeState.accentVolume,
+    drumVolume: patch.drumVolume != null
+      ? clampVolume(patch.drumVolume, volumeState.drumVolume)
+      : volumeState.drumVolume,
   }
   persistVolumeSettings(volumeState)
   return getMetronomeVolumes()

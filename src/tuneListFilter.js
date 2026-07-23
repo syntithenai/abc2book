@@ -17,7 +17,27 @@ function compareTuneNames(a, b) {
 
 export function filterTunes(tunes, filterSearchFn) {
   if (!tunes || typeof tunes !== 'object') return []
-  return Object.values(tunes).filter(filterSearchFn)
+  const seen = {}
+  const result = []
+  Object.values(tunes).forEach(function(tune) {
+    if (!tune || tune.id == null) return
+    if (seen[tune.id]) return
+    seen[tune.id] = true
+    if (filterSearchFn(tune)) result.push(tune)
+  })
+  return result
+}
+
+export function dedupeTunesById(tunes) {
+  return filterTunes(
+    Array.isArray(tunes)
+      ? tunes.reduce(function(acc, tune) {
+        if (tune && tune.id != null) acc[tune.id] = tune
+        return acc
+      }, {})
+      : (tunes || {}),
+    function() { return true }
+  )
 }
 
 export function sortTunesByName(tunes) {

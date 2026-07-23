@@ -9,6 +9,10 @@ import useUtils from './useUtils'
 import useGoogleDocument from './useGoogleDocument'
 import { appendTuneBookSyncSectionsToAbc } from './tuneBookAbc'
 import {
+  normalizeDriveFileId,
+  tokenHasDriveAccess,
+} from './googleDrivePickerClient'
+import {
   readPerformanceSetsMap,
   readDeletedPerformanceSets,
 } from './performanceSetStore'
@@ -103,66 +107,70 @@ export default function useGoogleSheet(props) {
 
 
 	const findTuneBookInDrive = useCallback(function() {
-		if (!accessToken) return
+		if (!token || !token.access_token) return
 		if (googleSheetId.current) return
-		//console.log('find book in drive')
-		var xhr = new XMLHttpRequest();
-		xhr.onload = function (res) {
-			if (res.target.responseText) {
-				var response = JSON.parse(res.target.responseText)
-				//console.log('find tunebook',response)
-				var found = false
-				if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
-					// load whole file
-					if (Array.isArray(response.files)) {
-						response.files.forEach(function(file) {
-							if (file && file.name === tuneBookName) {
-								found = file.id
+
+		function runSearch(useToken) {
+			if (!useToken) return
+			var xhr = new XMLHttpRequest();
+			xhr.onload = function (res) {
+				if (res.target.responseText) {
+					var response = JSON.parse(res.target.responseText)
+					var found = false
+					if (response && response.files && Array.isArray(response.files) && response.files.length > 0)  {
+						if (Array.isArray(response.files)) {
+							response.files.forEach(function(file) {
+								if (file && file.name === tuneBookName) {
+									found = file.id
+								}
+							})
+						}
+					}
+					if (found) {
+						googleSheetId.current = found
+						setGoogleDocumentId(found)
+						docsRef.current.getDocument(found).then(function(fullSheet) {
+							if (typeof onMergeRef.current === 'function') {
+								onMergeRef.current(fullSheet)
+							}
+						})
+					} else {
+						docsRef.current.findTuneBookFolderInDrive().then(function(folderId) {
+							if (folderId) {
+								utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
+								var initialAbc = appendTuneBookSyncSectionsToAbc(
+	                abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}),
+	                readPerformanceSetsMap(),
+	                readDeletedPerformanceSets(),
+	                readPlaylistsMap(),
+	                readDeletedPlaylists()
+	              )
+								docsRef.current.createDocument(tuneBookName, initialAbc, 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
+									var fileId = normalizeDriveFileId(newId)
+									if (!fileId) return
+									googleSheetId.current = fileId
+									setGoogleDocumentId(fileId)
+									docsRef.current.getDocument(fileId).then(function(fullSheet) {
+										if (typeof onMergeRef.current === 'function') {
+											onMergeRef.current(fullSheet)
+										}
+									})
+								})
+								})
 							}
 						})
 					}
 				}
-				//console.log('found tunebook',found)
-				if (found) {
-					googleSheetId.current = found
-					setGoogleDocumentId(found)
-					docsRef.current.getDocument(found).then(function(fullSheet) {
-						if (typeof onMergeRef.current === 'function') {
-							onMergeRef.current(fullSheet)
-						}
-					})
-				} else {
-					docsRef.current.findTuneBookFolderInDrive().then(function(folderId) {
-						if (folderId) {
-							//console.log('found folder creating doc',folderId)
-							utils.loadLocalforageObject('bookstorage_deleted_tunes').then(function(deletedTunes) {
-							var initialAbc = appendTuneBookSyncSectionsToAbc(
-                abcTools.tunesToAbc(tunesRef.current, deletedTunes || {}),
-                readPerformanceSetsMap(),
-                readDeletedPerformanceSets(),
-                readPlaylistsMap(),
-                readDeletedPlaylists()
-              )
-							docsRef.current.createDocument(tuneBookName, initialAbc, 'application/vnd.google-apps.document','Document for '+tuneBookName+' data', folderId).then(function(newId) {
-								googleSheetId.current = newId
-								setGoogleDocumentId(newId)
-								docsRef.current.getDocument(newId).then(function(fullSheet) {
-									if (typeof onMergeRef.current === 'function') {
-										onMergeRef.current(fullSheet)
-									}
-								})
-							})
-							})
-						}
-					})
-				}
-			}
-		};
-		var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType != 'application/vnd.google-apps.folder' and trashed = false") //" //+urlencode()   //'"+decoded.name+"\'s Tune Book'" 
-		xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
-		xhr.setRequestHeader('Authorization', 'Bearer ' + accessToken);
-		xhr.send();
-	}, [accessToken, setGoogleDocumentId, abcTools, tuneBookName, utils])
+			};
+			var filter = "?q="+ encodeURIComponent("name='"+tuneBookName+"' and mimeType != 'application/vnd.google-apps.folder' and trashed = false")
+			xhr.open('GET', 'https://www.googleapis.com/drive/v3/files' + filter+'&nocache='+String(parseInt(Math.random()*1000000000)));
+			xhr.setRequestHeader('Authorization', 'Bearer ' + useToken);
+			xhr.send();
+		}
+
+		if (!tokenHasDriveAccess(token)) return
+		runSearch(token.access_token)
+	}, [token, setGoogleDocumentId, abcTools, tuneBookName, utils])
 
   useEffect(function() {
       if (token && token.access_token) {

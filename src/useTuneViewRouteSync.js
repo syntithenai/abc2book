@@ -9,7 +9,6 @@ export default function useTuneViewRouteSync(viewMode, setViewMode) {
   const [searchParams] = useSearchParams()
   const onTunePage = location.pathname.startsWith('/tunes/')
       && location.pathname !== '/tunes'
-      && location.pathname !== '/tunes/check'
   const urlView = searchParams.get('view')
 
   useEffect(function() {

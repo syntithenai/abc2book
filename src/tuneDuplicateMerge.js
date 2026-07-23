@@ -1,4 +1,4 @@
-import { applyTuneImportSelections } from './tuneImportMergeUtils';
+import { applyDuplicateMergeSelections } from './tuneImportMergeUtils';
 import { mergeTuneCollectionExtras } from './tuneMergeExtras';
 import { clearDuplicateDismissalsForTuneIds } from './tuneDuplicateDismissals';
 
@@ -44,7 +44,7 @@ export function pickDefaultSurvivorId(tuneIds, tunes) {
 export function mergeTunesIntoSurvivor(survivor, incoming, fieldSelections) {
   if (!survivor || !incoming) return survivor;
 
-  let merged = applyTuneImportSelections(survivor, incoming, fieldSelections || {});
+  let merged = applyDuplicateMergeSelections(survivor, incoming, fieldSelections || {});
   merged.id = survivor.id;
   mergeTuneCollectionExtras(merged, survivor, incoming);
   merged.lastUpdated = Date.now();

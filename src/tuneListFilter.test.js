@@ -20,6 +20,17 @@ function makeTune(id, name, extra) {
 }
 
 describe('tuneListFilter', function() {
+  test('filterTunes keeps only one entry per tune id', function() {
+    const shared = makeTune('same-id', 'After the Battle of Aughrim')
+    const tunes = {
+      key1: shared,
+      key2: Object.assign({}, shared, { books: ['other book'] }),
+    }
+    const filtered = filterTunes(tunes, function() { return true })
+    expect(filtered).toHaveLength(1)
+    expect(filtered[0].id).toBe('same-id')
+  })
+
   test('filterTunes and sortTunesByName handle large synthetic sets', function() {
     const tunes = {}
     for (let i = 0; i < 2000; i += 1) {

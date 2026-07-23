@@ -6,7 +6,7 @@ import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import { renderDeletedTunesToAbc } from './tuneBookSync'
 import { stripPerformanceSetLines } from './performanceSetSync'
 import { stripPlaylistLines } from './playlistSync'
-import { buildLegacyTablatureConfigMap } from './tablatureConfig.js'
+import { buildLegacyTablatureConfigMap, parseTablatureVoices } from './tablatureConfig.js'
 import { getInterleavedLyricLines, renderBlockLyricsAbc } from './wLinesUtils'
 import {
   mergeBibliographicList,
@@ -56,6 +56,12 @@ var useAbcTools = () => {
             try {
                 lines += "% abcbook-playback-metronome-rhythm " + JSON.stringify(tune.playbackMetronomeRhythm) + "\n"
             } catch (e) {}
+        }
+        if (tune.playbackMetronomeEngine && tune.playbackMetronomeEngine !== 'click') {
+            lines += "% abcbook-playback-metronome-engine " + tune.playbackMetronomeEngine + "\n"
+        }
+        if (tune.playbackMetronomePresetId) {
+            lines += "% abcbook-playback-metronome-preset-id " + tune.playbackMetronomePresetId + "\n"
         }
         return lines
     }
@@ -356,19 +362,22 @@ var useAbcTools = () => {
                     tune.starred = starredVal === 'true' || starredVal === '1'
                 } else if (line.startsWith('% abcbook-difficulty')) {
                     tune.difficulty = parseInt(line.slice(21).trim())
-                } else  if (line.startsWith('% abcbook-tablature')) {
-                    tune.tablature = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tablature-voices')) {
                     try {
-                      tune.tablatureVoices = JSON.parse(abcbookFieldValue(line, '% abcbook-tablature-voices'))
+                      tune.tablatureVoices = parseTablatureVoices(
+                        JSON.parse(abcbookFieldValue(line, '% abcbook-tablature-voices'))
+                      )
                     } catch (e) {
                       tune.tablatureVoices = null
                     }
+                } else  if (line.startsWith('% abcbook-tablature-enabled')) {
+                    var tabEnabledVal = abcbookFieldValue(line, '% abcbook-tablature-enabled')
+                    tune.tablatureEnabled = tabEnabledVal !== 'false' && tabEnabledVal !== '0'
+                } else  if (line.startsWith('% abcbook-tablature')) {
+                    tune.tablature = line.slice(20).trim()
                 } else  if (line.startsWith('% abcbook-tab-display')) {
                     var tabDisplayVal = abcbookFieldValue(line, '% abcbook-tab-display')
-                    if (tabDisplayVal === 'tab') {
-                      tune.tabDisplay = 'tab'
-                    }
+                    tune.tabDisplay = tabDisplayVal === 'tab' ? 'tab' : 'both'
                 } else  if (line.startsWith('% abcbook-capo')) {
                     tune.capo = parseInt(abcbookFieldValue(line, '% abcbook-capo'), 10) || 0
                 } else  if (line.startsWith('% abcbook-playback-tempo')) {
@@ -391,6 +400,10 @@ var useAbcTools = () => {
                     try {
                         tune.playbackMetronomeRhythm = JSON.parse(abcbookFieldValue(line, '% abcbook-playback-metronome-rhythm'))
                     } catch (e) {}
+                } else  if (line.startsWith('% abcbook-playback-metronome-engine')) {
+                    tune.playbackMetronomeEngine = abcbookFieldValue(line, '% abcbook-playback-metronome-engine')
+                } else  if (line.startsWith('% abcbook-playback-metronome-preset-id')) {
+                    tune.playbackMetronomePresetId = abcbookFieldValue(line, '% abcbook-playback-metronome-preset-id')
                 } else  if (line.startsWith('% abcbook-lyrics-scroll-speed')) {
                     var lyricsScrollSpeedVal = parseFloat(abcbookFieldValue(line, '% abcbook-lyrics-scroll-speed'))
                     tune.lyricsScrollSpeed = lyricsScrollSpeedVal > 0 ? lyricsScrollSpeedVal : 1
@@ -921,17 +934,20 @@ var useAbcTools = () => {
                     + (tune.suitableForPractice === false ? "% abcbook-suitable-for-practice false\n" : '')
                     + "% abcbook-tablature " +  ensureText(tune.tablature) + "\n"
                     + (function() {
+                      const voices = parseTablatureVoices(tune.tablatureVoices)
+                      const keys = Object.keys(voices)
+                      if (!keys.length) return ''
                       try {
-                        const raw = tune.tablatureVoices && typeof tune.tablatureVoices === 'object'
-                          ? JSON.stringify(tune.tablatureVoices)
-                          : ''
-                        return raw ? "% abcbook-tablature-voices " + raw + "\n" : ''
+                        return '% abcbook-tablature-voices ' + JSON.stringify(voices) + '\n'
                       } catch (e) {
                         return ''
                       }
                     })()
                     + (tune.tabDisplay === 'tab'
                       ? "% abcbook-tab-display tab\n"
+                      : '')
+                    + (tune.tablatureEnabled === false
+                      ? "% abcbook-tablature-enabled false\n"
                       : '')
                     + "% abcbook-capo " +  ensureText(tune.capo) + "\n"
                     + "% abcbook-transpose " +  ensureText(tune.transpose) + "\n" 

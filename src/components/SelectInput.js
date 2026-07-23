@@ -14,6 +14,7 @@ export default function SelectInput({
   placeholder,
   endAppend,
   disabled,
+  isInvalid,
   onFocus,
   onBlur,
   autoComplete,
@@ -45,6 +46,7 @@ export default function SelectInput({
         onChange={handleInputChange}
         placeholder={placeholder || 'Type or select an option'}
         disabled={disabled}
+        isInvalid={isInvalid}
         onFocus={onFocus}
         onBlur={onBlur}
         autoComplete={autoComplete}

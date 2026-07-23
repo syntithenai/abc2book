@@ -1,4 +1,5 @@
 const { allArtists, allTitles } = require('./tuneBibliographicUtils')
+const { toSearchText: foldToSearchText } = require('./searchTextUtils')
 
 const VOICE_COMMAND_WORDS = new Set([
   'show', 'open', 'go', 'to', 'play', 'search', 'find', 'filter',
@@ -26,7 +27,7 @@ export function formatVoiceCommandFeedback(transcript, message) {
 }
 
 function toSearchText(text) {
-  return text ? String(text).toLowerCase().trim() : '';
+  return foldToSearchText(text);
 }
 
 export function buildVoiceCatalogs(tunebook) {

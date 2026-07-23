@@ -1,13 +1,17 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Alert, Button, Form, Modal, Nav, Tab, Table } from 'react-bootstrap';
 import {
-  buildTuneImportFieldRows,
-  buildDefaultTuneImportSelections,
+  buildDuplicateMergeFieldRows,
+  buildDefaultDuplicateMergeSelections,
+  fieldValuesSemanticallyEqual,
   setAllTuneImportSelections,
-  setRecommendedTuneImportSelections,
+  setRecommendedDuplicateMergeSelections,
+  tuneHasNotationContent,
 } from '../tuneImportMergeUtils';
 import { pickDefaultSurvivorId } from '../tuneDuplicateMerge';
 import { tuneImportTitle } from '../importTitleMatch';
+import { buildAbcFromTune, NotationPreview } from './SuggestionPreviewDialog';
+import TuneSingleViewDialog from './TuneSingleViewDialog';
 
 function buildTuneMapFromGroup(group, liveTunes) {
   const map = {};
@@ -32,7 +36,7 @@ function DuplicateFieldTable(props) {
   const incoming = props.incoming;
   const onlyDiffering = props.onlyDiffering !== false;
   const rows = useMemo(function() {
-    const all = buildTuneImportFieldRows(survivor, incoming);
+    const all = buildDuplicateMergeFieldRows(survivor, incoming);
     return onlyDiffering ? all.filter(function(row) { return row.differs; }) : all;
   }, [survivor, incoming, onlyDiffering]);
 
@@ -44,7 +48,11 @@ function DuplicateFieldTable(props) {
   }
 
   if (rows.length === 0) {
-    return <Alert variant="secondary" className="mb-0">No differing fields between these tunes.</Alert>;
+    return (
+      <Alert variant="secondary" className="mb-0">
+        No differing fields between these tunes. Books, tags, and links are still combined automatically.
+      </Alert>
+    );
   }
 
   return (
@@ -88,6 +96,53 @@ function DuplicateFieldTable(props) {
   );
 }
 
+function notationDiffersBetweenTunes(survivor, incoming) {
+  if (!survivor || !incoming) return false;
+  if (!fieldValuesSemanticallyEqual('voices', survivor.voices, incoming.voices)) return true;
+  if (!fieldValuesSemanticallyEqual('notes', survivor.notes, incoming.notes)) return true;
+  return false;
+}
+
+function DuplicateNotationPreview(props) {
+  const survivor = props.survivor;
+  const incoming = props.incoming;
+  if (!survivor || !incoming) return null;
+
+  return (
+    <div className="duplicate-merge-notation-preview mt-3" data-testid="duplicate-merge-notation-preview">
+      <h6 className="mb-2">Notation preview</h6>
+      <div className="row g-2">
+        <div className="col-md-6" style={{ minWidth: 0 }}>
+          <div className="small text-muted mb-1">Keep (survivor)</div>
+          <NotationPreview abc={buildAbcFromTune(survivor)} fitWidth={true} />
+        </div>
+        <div className="col-md-6" style={{ minWidth: 0 }}>
+          <div className="small text-muted mb-1">From duplicate</div>
+          <NotationPreview abc={buildAbcFromTune(incoming)} fitWidth={true} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DuplicateNotationStatus(props) {
+  const survivor = props.survivor;
+  const incoming = props.incoming;
+  if (!tuneHasNotationContent(survivor) && !tuneHasNotationContent(incoming)) {
+    return null;
+  }
+
+  if (notationDiffersBetweenTunes(survivor, incoming)) {
+    return <DuplicateNotationPreview survivor={survivor} incoming={incoming} />;
+  }
+
+  return (
+    <Alert variant="secondary" className="mb-0 mt-3" data-testid="duplicate-merge-notation-identical">
+      Music (notation) is identical on both tunes. The survivor&apos;s notation will be kept.
+    </Alert>
+  );
+}
+
 export default function DuplicateMergeModal(props) {
   const show = !!props.show;
   const group = props.group;
@@ -103,6 +158,7 @@ export default function DuplicateMergeModal(props) {
   const [activeDuplicateId, setActiveDuplicateId] = useState(null);
   const [selectionsByTuneId, setSelectionsByTuneId] = useState({});
   const [initializing, setInitializing] = useState(false);
+  const [previewTuneId, setPreviewTuneId] = useState(null);
 
   useEffect(function() {
     if (!show || !group) {
@@ -110,6 +166,7 @@ export default function DuplicateMergeModal(props) {
       setActiveDuplicateId(null);
       setSelectionsByTuneId({});
       setInitializing(false);
+      setPreviewTuneId(null);
       return;
     }
 
@@ -139,9 +196,9 @@ export default function DuplicateMergeModal(props) {
       const survivor = tuneMap[survivorId];
       const incoming = tuneMap[activeDuplicateId];
       if (!survivor || !incoming) return prev;
-      const rows = buildTuneImportFieldRows(survivor, incoming).filter(function(r) { return r.differs; });
+      const rows = buildDuplicateMergeFieldRows(survivor, incoming).filter(function(r) { return r.differs; });
       return Object.assign({}, prev, {
-        [activeDuplicateId]: buildDefaultTuneImportSelections(rows),
+        [activeDuplicateId]: buildDefaultDuplicateMergeSelections(rows),
       });
     });
   }, [show, survivorId, activeDuplicateId, tuneMap]);
@@ -152,9 +209,10 @@ export default function DuplicateMergeModal(props) {
 
   const survivor = survivorId ? tuneMap[survivorId] : null;
   const activeIncoming = activeDuplicateId ? tuneMap[activeDuplicateId] : null;
+  const previewTune = previewTuneId ? tuneMap[previewTuneId] : null;
   const activeRows = useMemo(function() {
     if (!survivor || !activeIncoming) return [];
-    return buildTuneImportFieldRows(survivor, activeIncoming).filter(function(r) { return r.differs; });
+    return buildDuplicateMergeFieldRows(survivor, activeIncoming).filter(function(r) { return r.differs; });
   }, [survivor, activeIncoming]);
 
   function updateSelectionsForTune(tuneId, nextSelections) {
@@ -197,6 +255,7 @@ export default function DuplicateMergeModal(props) {
   if (!show || !group) return null;
 
   return (
+    <>
     <Modal
       show={show}
       onHide={props.onClose}
@@ -212,8 +271,8 @@ export default function DuplicateMergeModal(props) {
       </Modal.Header>
       <Modal.Body>
         <Alert variant="info">
-          Choose which tune to keep. Checked fields will be taken from each duplicate before it is removed.
-          Books, tags, links, and sheet snapshots are always merged onto the survivor.
+          Choose which tune to keep. Checked fields are taken from each duplicate; unchecked fields stay on the survivor.
+          Books, tags, links, and sheet snapshots are always combined from every tune in the merge (duplicate YouTube links count as one).
         </Alert>
 
         {initializing ? (
@@ -227,15 +286,24 @@ export default function DuplicateMergeModal(props) {
             if (!tune) return null;
             const books = Array.isArray(tune.books) ? tune.books.join(', ') : '';
             return (
-              <Form.Check
-                key={id}
-                type="radio"
-                name="duplicate-survivor"
-                id={'survivor-' + id}
-                label={tuneImportTitle(tune) + (books ? ' — ' + books : '')}
-                checked={survivorId === id}
-                onChange={function() { handleSurvivorChange(id); }}
-              />
+              <div key={id} className="d-flex flex-wrap align-items-center gap-2 mb-1">
+                <Form.Check
+                  type="radio"
+                  name="duplicate-survivor"
+                  id={'survivor-' + id}
+                  className="mb-0"
+                  label={tuneImportTitle(tune) + (books ? ' — ' + books : '')}
+                  checked={survivorId === id}
+                  onChange={function() { handleSurvivorChange(id); }}
+                />
+                <Button
+                  size="sm"
+                  variant="outline-secondary"
+                  onClick={function() { setPreviewTuneId(id); }}
+                >
+                  Open tune
+                </Button>
+              </div>
             );
           })}
         </Form.Group>
@@ -267,16 +335,16 @@ export default function DuplicateMergeModal(props) {
         ) : null}
 
         {activeIncoming && !initializing ? (
-          <div className="mt-2 d-flex flex-wrap gap-2">
+          <div className="duplicate-merge-actions mt-3 pt-3 border-top d-flex flex-wrap align-items-center gap-2">
             <Button
               size="sm"
               variant="outline-primary"
               onClick={function() {
                 if (!activeDuplicateId) return;
-                updateSelectionsForTune(activeDuplicateId, setRecommendedTuneImportSelections(activeRows));
+                updateSelectionsForTune(activeDuplicateId, setRecommendedDuplicateMergeSelections(activeRows));
               }}
             >
-              Recommended fields
+              Keep survivor fields
             </Button>
             <Button
               size="sm"
@@ -298,20 +366,34 @@ export default function DuplicateMergeModal(props) {
             >
               Select none
             </Button>
+            <div className="ms-auto d-flex flex-wrap gap-2">
+              <Button variant="outline-secondary" size="sm" onClick={handleKeepSeparate}>
+                Keep separate
+              </Button>
+              <Button variant="secondary" size="sm" onClick={props.onClose}>Cancel</Button>
+              <Button
+                variant="success"
+                size="sm"
+                onClick={handleConfirm}
+                disabled={!survivorId || duplicateIds.length === 0}
+              >
+                Merge and delete duplicate{duplicateIds.length === 1 ? '' : 's'}
+              </Button>
+            </div>
           </div>
         ) : null}
+
+        {!initializing && survivor && activeIncoming ? (
+          <DuplicateNotationStatus survivor={survivor} incoming={activeIncoming} />
+        ) : null}
       </Modal.Body>
-      <Modal.Footer className="d-flex flex-wrap gap-2">
-        <Button variant="outline-secondary" onClick={handleKeepSeparate} disabled={initializing}>
-          Keep separate
-        </Button>
-        <div className="ms-auto d-flex flex-wrap gap-2">
-          <Button variant="secondary" onClick={props.onClose}>Cancel</Button>
-          <Button variant="success" onClick={handleConfirm} disabled={initializing || !survivorId || duplicateIds.length === 0}>
-            Merge and delete duplicate{duplicateIds.length === 1 ? '' : 's'}
-          </Button>
-        </div>
-      </Modal.Footer>
     </Modal>
+    <TuneSingleViewDialog
+      show={!!previewTune}
+      tune={previewTune}
+      tunebook={props.tunebook}
+      onClose={function() { setPreviewTuneId(null); }}
+    />
+    </>
   );
 }

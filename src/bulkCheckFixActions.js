@@ -7,9 +7,17 @@ import { unwrapSearchResult } from './searchResultUtils'
 import { setPlainLyricLines } from './wLinesUtils'
 import { importedTuneFromNotationCandidate } from './notationImportUtils'
 import { enqueueStemCreateJob } from './stemCreateQueue'
+import { areStemBulkOperationsEnabled } from './stemBulkOperations'
 import { resolveActiveLinkForTune } from './mediaLinkResolve'
 import { syncTuneFromStore } from './bulkCheckTuneSync'
 import { capitalizeSongTitle } from './titleCaseUtils'
+import {
+  listAvailableFixActionIds,
+  needsBackgroundSearch,
+  needsChordsLyricsSearch,
+  needsNotationSearch,
+  needsTitleCapitalize,
+} from './bulkCheckIssueGroups'
 import {
   applyStructureFix,
   previewStructureFix,
@@ -189,7 +197,39 @@ export async function runBulkCheckFixAction(action, options) {
     return syncTuneFromStore(next, opts)
   }
 
+  if (action === 'capitalizeTitle') {
+    if (next.name) {
+      next.name = capitalizeSongTitle(next.name)
+    }
+    return syncTuneFromStore(next, opts)
+  }
+
+  if (action === 'allowPractice') {
+    next.suitableForPractice = true
+    return syncTuneFromStore(next, opts)
+  }
+
+  if (action === 'scanLinkRegion') {
+    const linkIndex = opts.linkIndex != null ? opts.linkIndex : 0
+    const links = Array.isArray(next.links) ? next.links : []
+    const link = links[linkIndex]
+    if (!link || !String(link.link || '').trim()) {
+      throw new Error('No link URL to scan')
+    }
+    if (typeof opts.maybeAutoScan !== 'function') {
+      throw new Error('Playback region scan is not available')
+    }
+    await opts.maybeAutoScan(next.id, linkIndex, link, {
+      force: true,
+      currentLinks: links,
+    })
+    return syncTuneFromStore(next, opts)
+  }
+
   if (action === 'stems') {
+    if (!areStemBulkOperationsEnabled()) {
+      throw new Error('Bulk stem generation is disabled to limit external API cost. Use Analyse in Media Controls for one tune at a time.')
+    }
     const linkInfo = getPrimaryLink(next, tunebook)
     if (!linkInfo) throw new Error('No audio link for stems')
     const src = String(linkInfo.src || '').trim()
@@ -220,21 +260,36 @@ export async function runBulkCheckFixAction(action, options) {
   }
 
   if (action === 'searchAll') {
-    if (next.name) {
-      next.name = capitalizeSongTitle(next.name)
-      next = saveFixTune(next, tunebook, opts)
+    const issues = Array.isArray(opts.issues) ? opts.issues : []
+    const searchOptions = {
+      hasNotesOrChords: tunebook && tunebook.hasNotesOrChords
+        ? tunebook.hasNotesOrChords.bind(tunebook)
+        : null,
     }
-    const actions = ['searchAbc', 'searchChordsLyrics', 'backgroundInfo']
-    if (tuneHasAudioForFix(next, tunebook)) {
-      actions.unshift('analyse')
-      actions.push('stems')
+    const actions = []
+    if (needsTitleCapitalize(next, issues)) actions.push('capitalizeTitle')
+    if (needsNotationSearch(next, issues, searchOptions)) actions.push('searchAbc')
+    if (needsChordsLyricsSearch(next, issues)) actions.push('searchChordsLyrics')
+    if (needsBackgroundSearch(next, issues)) actions.push('backgroundInfo')
+
+    const safeStructureActions = STRUCTURE_FIX_ACTIONS
+      .filter(function(item) { return !item.requiresPreview })
+      .map(function(item) { return item.id })
+    if (opts.report) {
+      listAvailableFixActionIds(opts.report, next, tunebook, opts.parseAndRender).forEach(function(actionId) {
+        if (safeStructureActions.indexOf(actionId) >= 0 && actions.indexOf(actionId) < 0) {
+          actions.push(actionId)
+        }
+      })
     }
+
     for (let i = 0; i < actions.length; i++) {
       if (signal && signal.aborted) break
+      const step = actions[i]
       try {
-        next = await runBulkCheckFixAction(actions[i], Object.assign({}, opts, { tune: next }))
+        next = await runBulkCheckFixAction(step, Object.assign({}, opts, { tune: next }))
         next = syncTuneFromStore(next, opts)
-        if (actions[i] !== 'analyse' && actions[i] !== 'stems' && tunebook) {
+        if (tunebook && step !== 'stems') {
           next = saveFixTune(next, tunebook, opts)
         }
       } catch (e) {

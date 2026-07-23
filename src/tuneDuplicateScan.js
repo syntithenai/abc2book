@@ -1,11 +1,15 @@
 import { importHashIds } from './importDuplicateBooks';
-import { cleanImportTitleForMatching, importTitlesMatchForDeduping, tuneImportTitle } from './importTitleMatch';
+import {
+  cleanImportTitleForMatching,
+  importTitlesMatchForDeduping,
+  importTitlesMatchForSimilarDuplicate,
+  tuneImportTitle,
+} from './importTitleMatch';
 import { matchConfidenceLabel } from './tuneCollectionMatch';
 import { scoreTuneMatch } from './voiceCommandUtils';
 import { isDuplicatePairDismissed } from './tuneDuplicateDismissals';
 
 const LARGE_CLUSTER_LIMIT = 6;
-const SIMILAR_TITLE_MIN_SCORE = 8;
 const CLUSTER_PAIR_YIELD_INTERVAL = 200;
 const TITLE_BLOCK_PREFIX_LEN = 4;
 
@@ -33,16 +37,15 @@ function buildTitleBlocks(tuneList) {
 }
 
 function compareTunePairForCluster(a, b, union) {
-  const cleanA = cleanImportTitleForMatching(tuneImportTitle(a));
-  const cleanB = cleanImportTitleForMatching(tuneImportTitle(b));
+  const titleA = tuneImportTitle(a);
+  const titleB = tuneImportTitle(b);
+  const cleanA = cleanImportTitleForMatching(titleA);
+  const cleanB = cleanImportTitleForMatching(titleB);
   if (cleanA && cleanB && cleanA === cleanB) {
     union(a.id, b.id);
     return;
   }
-  const scoreAB = scoreTuneMatch(tuneImportTitle(a), b);
-  const scoreBA = scoreTuneMatch(tuneImportTitle(b), a);
-  const score = Math.max(scoreAB, scoreBA);
-  if (score >= SIMILAR_TITLE_MIN_SCORE) {
+  if (importTitlesMatchForSimilarDuplicate(titleA, titleB)) {
     union(a.id, b.id);
   }
 }
@@ -494,5 +497,20 @@ export function filterDuplicateGroupsByKind(groups, kind) {
   if (!kind || kind === 'all') return groups || [];
   return (groups || []).filter(function(group) {
     return group.kind === kind;
+  });
+}
+
+export function filterDuplicateGroupsByName(groups, nameFilter) {
+  const query = String(nameFilter || '').trim().toLowerCase();
+  if (!query) return groups || [];
+  return (groups || []).filter(function(group) {
+    if (group.label && String(group.label).toLowerCase().indexOf(query) !== -1) {
+      return true;
+    }
+    const tuneEntries = Array.isArray(group.tunes) ? group.tunes : [];
+    return tuneEntries.some(function(entry) {
+      const title = tuneImportTitle(entry && entry.tune);
+      return title && String(title).toLowerCase().indexOf(query) !== -1;
+    });
   });
 }

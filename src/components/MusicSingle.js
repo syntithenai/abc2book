@@ -663,24 +663,20 @@ export default function MusicSingle(props) {
                   />
                 ) : null
                 const tuneMetaButtons = (
-                  <>
-                    <ButtonGroup className="music-tune-meta-group">
-                      <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
-                      <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
-                      <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
-                      <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
-                    </ButtonGroup>
-                    <ButtonGroup className="music-tune-meta-group">
-                      <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} onChange={
-                        function(links) {
-                          if (tune) {
-                            tune.links = links
-                            props.tunebook.saveTune(tune)
-                          }
+                  <ButtonGroup className="music-tune-meta-group">
+                    <StarToggleButton className="tune-meta-modal-btn" tunebook={props.tunebook} tune={tune} forceRefresh={props.forceRefresh} />
+                    <BoostSettingsModal tunebook={props.tunebook} value={tune.boost} onChange={function(val) {tune.boost = val; props.tunebook.saveTune(tune); props.forceRefresh()}} difficulty={tune.difficulty > 0 ? tune.difficulty : 0} onChangeDifficulty={function(val) {tune.difficulty = val; props.tunebook.saveTune(tune); props.forceRefresh()}} />
+                    <BookMultiSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts} token={props.token} defaultOptions={props.tunebook.getTuneBookOptions} searchOptions={props.tunebook.getSearchTuneBookOptions} value={tune.books} onChange={function(val) { tune.books = val; props.tunebook.saveTune(tune);} } />
+                    <TagsSelectorModal forceRefresh={props.forceRefresh} tunebook={props.tunebook} setBlockKeyboardShortcuts={props.setBlockKeyboardShortcuts}  defaultOptions={props.tunebook.getTuneTagOptions} searchOptions={props.tunebook.getSearchTuneTagOptions} value={tune.tags} onChange={function(val) { tune.tags = val; props.tunebook.saveTune(tune);} } />
+                    <LinksEditorModal icon="media" mediaController={props.mediaController} forceRefresh={props.forceRefresh} tunebook={props.tunebook} tune={tune} token={props.token} googleDocumentId={props.googleDocumentId} onChange={
+                      function(links) {
+                        if (tune) {
+                          tune.links = links
+                          props.tunebook.saveTune(tune)
                         }
-                      } />
-                    </ButtonGroup>
-                  </>
+                      }
+                    } />
+                  </ButtonGroup>
                 )
                 const editTuneDropdown = (
                   <Dropdown as={ButtonGroup} className="music-actions-edit-dropdown" title="Edit tune">
@@ -701,6 +697,12 @@ export default function MusicSingle(props) {
                     </Dropdown.Menu>
                   </Dropdown>
                 )
+                const foldedZoomTransposeRow = foldControlsIntoMenu && (zoomControlsElement || (!fileOverlayActive && transposeCapoBlock)) ? (
+                  <div className="view-mode-zoom-transpose-row">
+                    {!fileOverlayActive ? transposeCapoBlock : null}
+                    {zoomControlsElement}
+                  </div>
+                ) : null
                 const viewModeSelector = (
                   <ViewModeSelectorModal
                     className="music-view-mode-selector"
@@ -720,10 +722,10 @@ export default function MusicSingle(props) {
                       setVoiceSettingsVersion(function(v) { return v + 1 })
                     }}
                     fileControls={fileControlsElement}
-                    afterDisplayModes={foldControlsIntoMenu ? zoomControlsElement : null}
-                    extraMenuContent={foldControlsIntoMenu
-                      ? (fileOverlayActive ? null : transposeCapoBlock)
-                      : (compactNotationControls && !fileOverlayActive ? notationControlsBlock : null)}
+                    afterDisplayModes={foldedZoomTransposeRow}
+                    extraMenuContent={!foldControlsIntoMenu && compactNotationControls && !fileOverlayActive
+                      ? transposeCapoBlock
+                      : null}
                     onChange={handleViewModeChange}
                   />
                 )
@@ -821,8 +823,10 @@ export default function MusicSingle(props) {
                       onClick={function(e) { e.stopPropagation() }}
                       onMouseDown={function(e) { e.stopPropagation() }}
                     >
-                      {editTuneDropdown}
-                      {tuneMetaButtons}
+                      <div className="music-tune-meta-toolbar">
+                        {editTuneDropdown}
+                        {tuneMetaButtons}
+                      </div>
                     </div>
                     <Dropdown.Divider className="music-actions-dropdown-divider" />
                     <div className="music-actions-dropdown-section music-actions-dropdown-section-actions">
@@ -1134,8 +1138,8 @@ export default function MusicSingle(props) {
                  <div style={{paddingLeft:'0.7em', paddingRight:'0.7em'}}>
                    {(showMedia && Array.isArray(tune.links) && tune.links.length > 0) && <div style={{clear:'both', width:'100%', height:'3em'}} />}
                    <div id={"abccontainer-"+(autoStart ? "Y":"N")+"-"+(localStorage.getItem('bookstorage_autoprime') === "true"?"Y":"N")}>
-                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
-                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} />}
+                     {autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController} speakTitle={localStorage.getItem('bookstorage_announcesong')} autoStart={true} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} />}
+                     {!autoStart && <Abc  showRepeats={true} warp={props.mediaController.playbackSpeed} onStarted={function() {props.mediaController.play()}} onStopped={function() {props.mediaController.pause()}}  mediaController={props.mediaController}  speakTitle={localStorage.getItem('bookstorage_announcesong')}  autoStart={false} autoPrime={true} autoScroll={showNotationUi} setMidiData={setMidiData} forceRefresh={props.forceRefresh} metronomeCountIn={true}  tunes={props.tunes} editableTempo={true} repeat={notationTune.repeats > 0 ? notationTune.repeats : 1 } tunebook={props.tunebook}  abc={notationAbc}  meter={notationTune.meter} fitMode={notationFitMode} onEnded={onEnded} hideSvg={false} hidePlayer={true} visualTranspose={notationVisualTranspose} playbackEngine={ownMidiEngine} tablatureSourceTune={tune} tablatureVoiceKeys={visibleVoiceKeys} />}
                    </div>
                  </div>
                </div>

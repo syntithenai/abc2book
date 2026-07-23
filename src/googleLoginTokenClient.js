@@ -1,4 +1,5 @@
 import jwt_decode from 'jwt-decode'
+import { GOOGLE_IDENTITY_SCOPES } from './googleIdentityScopes'
 import { normalizeToTokenResponse } from './googleLoginTokenAdapter'
 
 var GOOGLE_LOGIN_PROFILE_KEY = 'google_login_profile'
@@ -35,7 +36,7 @@ export function clearLoginProfile() {
   } catch (e) {}
 }
 
-function readLoginHintEmail() {
+export function readLoginHintEmail() {
   try {
     return localStorage.getItem(GOOGLE_LOGIN_HINT_EMAIL_KEY) || ''
   } catch (e) {
@@ -50,11 +51,15 @@ function readLoginHintEmail() {
 export function createTokenClientController(ctx) {
   var client = { current: null }
   var loginRefreshTimeout = null
+  var refreshPendingTimeout = null
+  var refreshInFlight = false
   var grantedExtraScopes = []
 
   function mergeScopes(extraScopes) {
-    var userInfoScopes = ['email']
-    var useScopes = Array.isArray(ctx.scopes) ? ctx.scopes.slice() : userInfoScopes.slice()
+    var useScopes = Array.isArray(ctx.scopes) ? ctx.scopes.slice() : []
+    GOOGLE_IDENTITY_SCOPES.forEach(function(scope) {
+      if (useScopes.indexOf(scope) === -1) useScopes.push(scope)
+    })
     grantedExtraScopes.forEach(function(scope) {
       if (useScopes.indexOf(scope) === -1) useScopes.push(scope)
     })
@@ -84,6 +89,7 @@ export function createTokenClientController(ctx) {
   }
 
   function applyToken(tokenResponse) {
+    refreshInFlight = false
     var normalized = normalizeToTokenResponse(tokenResponse) || tokenResponse
     ctx.setAccessToken(normalized)
     localStorage.setItem('google_login_user', '1')
@@ -91,23 +97,37 @@ export function createTokenClientController(ctx) {
     return normalized
   }
 
-  function initClient(extraScopes) {
+  function scopesForClient(extraScopes, identityOnly) {
+    if (identityOnly) {
+      return GOOGLE_IDENTITY_SCOPES.slice()
+    }
+    return mergeScopes(extraScopes)
+  }
+
+  function initClient(extraScopes, identityOnly) {
     if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
       return
     }
-    var useScopes = mergeScopes(extraScopes)
+    var useScopes = scopesForClient(extraScopes, !!identityOnly)
     client.current = global.window.google.accounts.oauth2.initTokenClient({
       client_id: ctx.clientId,
       prompt: '',
       scope: useScopes.join(' '),
       callback: function(tokenResponse) {
+        refreshInFlight = false
+        if (tokenResponse && tokenResponse.error) return
         applyToken(tokenResponse)
+      },
+      error_callback: function() {
+        refreshInFlight = false
       },
     })
   }
 
   function getToken() {
-    if (client.current) client.current.requestAccessToken()
+    if (!client.current || refreshInFlight) return
+    refreshInFlight = true
+    client.current.requestAccessToken()
   }
 
   function requestGoogleScopes(extraScopes, options) {
@@ -142,9 +162,11 @@ export function createTokenClientController(ctx) {
     if (!(global.window.google && global.window.google.accounts && global.window.google.accounts.oauth2)) {
       return Promise.reject(new Error('Google sign-in is still loading'))
     }
-    // Match historical Token Client login: empty prompt + existing grant =>
-    // at most account chooser (no Drive/email re-consent steps).
-    var useScopes = mergeScopes()
+    clearTimeout(refreshPendingTimeout)
+    refreshPendingTimeout = null
+    refreshInFlight = false
+    // Identity + drive.file (app-created tunebook files) in one consent screen.
+    var useScopes = mergeScopes(null)
     var hint = readLoginHintEmail()
     return new Promise(function(resolve, reject) {
       var config = {
@@ -193,12 +215,19 @@ export function createTokenClientController(ctx) {
   }
 
   function refresh(scope) {
-    if (localStorage.getItem('google_login_user')) {
-      setTimeout(function() {
-        initClient(scope)
-        getToken()
-      }, 1000)
+    if (!localStorage.getItem('google_login_user')) return
+    if (refreshInFlight || refreshPendingTimeout) return
+    var current = ctx.getAccessToken && ctx.getAccessToken()
+    var expiresAt = current && current.expires_at ? Number(current.expires_at) : 0
+    if (current && current.access_token && expiresAt > Date.now() + 60000) {
+      scheduleRenew(current)
+      return
     }
+    refreshPendingTimeout = setTimeout(function() {
+      refreshPendingTimeout = null
+      initClient(scope, !scope)
+      getToken()
+    }, 1000)
   }
 
   function handleCredentialResponse(response) {
@@ -213,12 +242,14 @@ export function createTokenClientController(ctx) {
     ctx.setUser(profile)
     storeLoginProfile(profile)
     localStorage.setItem('google_login_user', decoded.email)
-    initClient()
+    initClient(null, true)
     getToken()
   }
 
   function dispose() {
     clearTimeout(loginRefreshTimeout)
+    clearTimeout(refreshPendingTimeout)
+    refreshPendingTimeout = null
   }
 
   return {

@@ -1,4 +1,4 @@
-from chords_fetch import fetch_chords_url, search_chords
+from oauth_bff_routes import register_oauth_bff_routes
 from lyrics_fetch import fetch_lyrics_url, search_lyrics
 from lyrics_word_tools import (
     lookup_alliteration,
@@ -11,7 +11,7 @@ from lyrics_word_tools import (
 from image_search import image_search_available, search_images
 from notation_fetch import search_notation, search_notation_midi_fallback, search_notation_secondary_fallback, search_notation_url
 from midi_convert import MAX_MIDI_IMPORT_BYTES, convert_midi_to_musicxml
-from midi_import_orchestrator import import_midi_bytes
+from midi_import_orchestrator import analyze_midi_for_import, import_midi_bytes
 from playback_region_detect import (
     PLAYBACK_SCAN_WHISPER_OPTIONS,
     detect_playback_region_from_wav,
@@ -220,6 +220,13 @@ def cors_headers(origin):
         ),
         "Access-Control-Expose-Headers": "Content-Length, Content-Range, Accept-Ranges, Content-Type",
     }
+
+
+register_oauth_bff_routes(
+    app,
+    get_allowed_emails=lambda: ALLOWED_EMAILS,
+    cors_headers=cors_headers,
+)
 
 
 def static_site_root():
@@ -2555,7 +2562,7 @@ async def root(request: Request):
             "health": "/health",
             "staticSite": static_site_enabled(),
             "staticSiteRoot": static_site_root() if static_site_enabled() else None,
-            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi-resources/:path", "/midi2xml", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
+            "endpoints": ["/youtube/:videoId/audio", "/proxy-audio?url=...", "/transcribe", "/detect-playback-region", "/voice-command", "/detect-chords", "/analyze-media", "/search-lyrics", "/search-chords", "/search-notation", "/fetch-score-attachment", "/search-images", "/research-tune-background", "/discover-composer", "/discover-genre", "/separate-stems", "/stems/:cacheId/:stem", "/midi-resources/:path", "/midi2xml", "/midi2analyze", "/midi2abc", "/abc2xml", "/extract-sheet-metadata", "/transcribe-sheet-image"],
             "auth": "optional (set REQUIRE_AUTH=true to require Google login)",
         },
         headers=cors_headers(origin),
@@ -2643,92 +2650,6 @@ async def health_ready(request: Request, authorization: str | None = Header(defa
     )
     body["heavyJobs"] = heavy_jobs_status()
     return JSONResponse(body, headers=cors_headers(request.headers.get("origin")))
-
-
-@app.post("/auth/google/exchange")
-async def auth_google_exchange(request: Request):
-    origin = request.headers.get("origin")
-    try:
-        from oauth_bff import exchange_authorization_code
-    except Exception:
-        return json_error(503, "oauth_bff_unavailable", origin)
-
-    try:
-        body = await request.json()
-    except Exception:
-        return json_error(400, "Invalid JSON body", origin)
-
-    result = await exchange_authorization_code(
-        code=(body or {}).get("code") or "",
-        code_verifier=(body or {}).get("code_verifier") or "",
-        redirect_uri=(body or {}).get("redirect_uri") or "",
-        allowed_emails=ALLOWED_EMAILS,
-    )
-    if result.get("error"):
-        status = int(result.get("status") or 400)
-        err_body = {"error": result["error"]}
-        if result.get("hint"):
-            err_body["hint"] = result["hint"]
-        if result.get("detail"):
-            err_body["detail"] = result["detail"]
-        return JSONResponse(status_code=status, content=err_body, headers=cors_headers(origin))
-    return JSONResponse(content=result, headers=cors_headers(origin))
-
-
-@app.post("/auth/google/refresh")
-async def auth_google_refresh(request: Request):
-    origin = request.headers.get("origin")
-    from oauth_bff import refresh_access_token, session_id_from_headers
-
-    session_id = session_id_from_headers(request.headers)
-    if not session_id:
-        return JSONResponse(
-            status_code=401,
-            content={"error": "missing_session"},
-            headers=cors_headers(origin),
-        )
-    result = await refresh_access_token(session_id)
-    if result.get("error"):
-        status = int(result.get("status") or 401)
-        return JSONResponse(
-            status_code=status,
-            content={"error": result["error"], "detail": result.get("detail")},
-            headers=cors_headers(origin),
-        )
-    return JSONResponse(content=result, headers=cors_headers(origin))
-
-
-@app.get("/auth/google/session")
-async def auth_google_session(request: Request):
-    origin = request.headers.get("origin")
-    from oauth_bff import load_session_with_token, session_id_from_headers
-
-    session_id = session_id_from_headers(request.headers)
-    if not session_id:
-        return JSONResponse(
-            status_code=401,
-            content={"error": "missing_session"},
-            headers=cors_headers(origin),
-        )
-    result = await load_session_with_token(session_id)
-    if result.get("error"):
-        status = int(result.get("status") or 401)
-        return JSONResponse(
-            status_code=status,
-            content={"error": result["error"], "detail": result.get("detail")},
-            headers=cors_headers(origin),
-        )
-    return JSONResponse(content=result, headers=cors_headers(origin))
-
-
-@app.post("/auth/google/logout")
-async def auth_google_logout(request: Request):
-    origin = request.headers.get("origin")
-    from oauth_bff import logout_session, session_id_from_headers
-
-    session_id = session_id_from_headers(request.headers)
-    result = await logout_session(session_id)
-    return JSONResponse(content=result, headers=cors_headers(origin))
 
 
 @app.get("/proxy-audio")
@@ -4568,6 +4489,73 @@ async def score2xml(
         return json_error(500, detail, origin)
 
 
+@app.post("/midi2analyze")
+async def midi2analyze(
+    request: Request,
+    file: UploadFile | None = File(default=None),
+    authorization: str | None = Header(default=None),
+):
+    origin = request.headers.get("origin")
+    try:
+        await maybe_require_auth(authorization)
+        track_resolver_usage('midi2analyze')
+
+        midi_bytes = b""
+        filename = "import.mid"
+
+        if file is not None:
+            midi_bytes = await file.read()
+            filename = file.filename or filename
+        else:
+            return json_error(400, "Missing MIDI file upload", origin)
+
+        if not midi_bytes:
+            return json_error(400, "MIDI file is empty", origin)
+
+        if len(midi_bytes) > MAX_MIDI_IMPORT_BYTES:
+            return json_error(
+                413,
+                "MIDI file too large (limit is " + str(MAX_MIDI_IMPORT_BYTES) + " bytes)",
+                origin,
+            )
+
+        result = await asyncio.to_thread(analyze_midi_for_import, midi_bytes, filename)
+        return JSONResponse({"profile": result}, headers=cors_headers(origin))
+    except HTTPException as exc:
+        return json_error(exc.status_code, str(exc.detail), origin)
+    except Exception as exc:
+        detail = str(exc).strip()[:500] or "MIDI analysis failed"
+        return json_error(500, detail, origin)
+
+
+def _parse_int_list_param(raw: str | None) -> list[int]:
+    if not raw:
+        return []
+    values: list[int] = []
+    for part in str(raw).split(","):
+        part = part.strip()
+        if not part:
+            continue
+        try:
+            values.append(int(part))
+        except ValueError:
+            continue
+    return values
+
+
+def _parse_cleanup_options(request: Request) -> dict | None:
+    import json
+
+    raw = request.query_params.get("cleanup_options")
+    if not raw:
+        return None
+    try:
+        parsed = json.loads(raw)
+        return parsed if isinstance(parsed, dict) else None
+    except Exception:
+        return None
+
+
 @app.post("/midi2abc")
 async def midi2abc(
     request: Request,
@@ -4612,6 +4600,24 @@ async def midi2abc(
         elif include_chords_param in ("0", "false", "no"):
             forced_include_chords = False
 
+        track_ids = _parse_int_list_param(request.query_params.get("track_ids"))
+        drum_track_ids = _parse_int_list_param(request.query_params.get("drum_track_ids"))
+        include_drums_param = (request.query_params.get("include_drums") or "").strip().lower()
+        include_drums = include_drums_param in ("1", "true", "yes")
+
+        quant_slots = request.query_params.get("quant_slots_per_beat")
+        quant_slots_per_beat = int(quant_slots) if quant_slots and quant_slots.isdigit() else None
+        note_length = request.query_params.get("note_length") or None
+
+        tempo_param = request.query_params.get("tempo_bpm")
+        tempo_bpm = float(tempo_param) if tempo_param else None
+        time_signature = request.query_params.get("time_signature") or None
+        estimated_key = request.query_params.get("estimated_key") or None
+        cleanup_options = _parse_cleanup_options(request)
+
+        max_voices_param = request.query_params.get("max_voices")
+        max_voices = int(max_voices_param) if max_voices_param and max_voices_param.isdigit() else 8
+
         result = await asyncio.to_thread(
             import_midi_bytes,
             midi_bytes,
@@ -4619,6 +4625,16 @@ async def midi2abc(
             mode=forced_mode,
             strategy=forced_strategy,
             include_chords=forced_include_chords,
+            track_ids=track_ids or None,
+            drum_track_ids=drum_track_ids or None,
+            include_drums=include_drums,
+            quant_slots_per_beat=quant_slots_per_beat,
+            note_length=note_length,
+            cleanup_options=cleanup_options,
+            tempo_bpm=tempo_bpm,
+            time_signature=time_signature,
+            estimated_key=estimated_key,
+            max_voices=max_voices,
         )
         return JSONResponse(result, headers=cors_headers(origin))
     except HTTPException as exc:

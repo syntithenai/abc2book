@@ -24,9 +24,91 @@ export function createQueue(options) {
     followTune: opts.followTune !== undefined ? !!opts.followTune : true,
     autoAdvance: opts.autoAdvance !== false,
     loop: !!opts.loop,
+    shuffle: !!opts.shuffle,
+    shuffleOrder: null,
     suspendSnapshot: null,
     previewOnce: null,
   }
+}
+
+export function buildShuffleOrder(length, startIndex) {
+  const indices = []
+  for (let i = 0; i < length; i++) indices.push(i)
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    const tmp = indices[i]
+    indices[i] = indices[j]
+    indices[j] = tmp
+  }
+  const start = typeof startIndex === 'number' ? startIndex : 0
+  if (start > 0 && start < length) {
+    const pos = indices.indexOf(start)
+    if (pos > 0) {
+      indices.splice(pos, 1)
+      indices.unshift(start)
+    }
+  }
+  return indices
+}
+
+function getShufflePosition(queue) {
+  if (!queue.shuffle || !Array.isArray(queue.shuffleOrder) || !queue.shuffleOrder.length) {
+    return null
+  }
+  const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  const pos = queue.shuffleOrder.indexOf(idx)
+  return pos >= 0 ? pos : 0
+}
+
+function ensureShuffleOrder(queue) {
+  const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  if (Array.isArray(queue.shuffleOrder) && queue.shuffleOrder.length === queue.items.length) {
+    return queue
+  }
+  return Object.assign({}, queue, {
+    shuffleOrder: buildShuffleOrder(queue.items.length, idx),
+  })
+}
+
+function advanceQueueShuffled(queue, direction) {
+  const dir = direction >= 0 ? 1 : -1
+  let active = ensureShuffleOrder(queue)
+  const order = active.shuffleOrder
+  const pos = getShufflePosition(active)
+
+  if (dir > 0) {
+    if (pos + 1 < order.length) {
+      return {
+        queue: Object.assign({}, active, { currentIndex: order[pos + 1] }),
+        atEdge: false,
+      }
+    }
+    if (active.loop) {
+      const newOrder = buildShuffleOrder(active.items.length, order[pos])
+      return {
+        queue: Object.assign({}, active, {
+          shuffleOrder: newOrder,
+          currentIndex: newOrder[0],
+        }),
+        atEdge: false,
+      }
+    }
+    return { queue: active, atEdge: true, edge: 'end' }
+  }
+
+  if (pos > 0) {
+    return {
+      queue: Object.assign({}, active, { currentIndex: order[pos - 1] }),
+      atEdge: false,
+    }
+  }
+  if (active.loop) {
+    return {
+      queue: Object.assign({}, active, { currentIndex: order[order.length - 1] }),
+      atEdge: false,
+    }
+  }
+  return { queue: Object.assign({}, active, { currentIndex: order[0] }), atEdge: true, edge: 'start' }
 }
 
 export function isQueueActive(queue) {
@@ -46,6 +128,14 @@ export function getCurrentTuneId(queue) {
   return item && item.tuneId ? item.tuneId : null
 }
 
+export function findQueueIndexForTuneId(queue, tuneId) {
+  if (!isQueueActive(queue) || tuneId == null) return -1
+  const targetId = String(tuneId)
+  return queue.items.findIndex(function(item) {
+    return item && item.tuneId != null && String(item.tuneId) === targetId
+  })
+}
+
 export function getQueuePositionLabel(queue) {
   if (!isQueueActive(queue)) return ''
   const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
@@ -56,6 +146,9 @@ export function advanceQueue(queue, direction) {
   const dir = direction >= 0 ? 1 : -1
   if (!isQueueActive(queue)) {
     return { queue: null, atEdge: true, edge: dir > 0 ? 'end' : 'start' }
+  }
+  if (queue.shuffle) {
+    return advanceQueueShuffled(queue, direction)
   }
   const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
   const nextIndex = idx + dir
@@ -96,6 +189,24 @@ export function setAutoAdvance(queue, autoAdvance) {
   return Object.assign({}, queue, { autoAdvance: !!autoAdvance })
 }
 
+export function setLoop(queue, loop) {
+  if (!queue) return null
+  return Object.assign({}, queue, { loop: !!loop })
+}
+
+export function setShuffle(queue, shuffle) {
+  if (!queue) return null
+  const enabled = !!shuffle
+  if (!enabled) {
+    return Object.assign({}, queue, { shuffle: false, shuffleOrder: null })
+  }
+  const idx = typeof queue.currentIndex === 'number' ? queue.currentIndex : 0
+  return Object.assign({}, queue, {
+    shuffle: true,
+    shuffleOrder: buildShuffleOrder(queue.items.length, idx),
+  })
+}
+
 export function clearQueue() {
   return null
 }
@@ -112,7 +223,13 @@ export function removeQueueItem(queue, index) {
   } else if (index === currentIndex && currentIndex >= nextItems.length) {
     currentIndex = nextItems.length - 1
   }
-  return Object.assign({}, queue, { items: nextItems, currentIndex: currentIndex })
+  let next = Object.assign({}, queue, { items: nextItems, currentIndex: currentIndex })
+  if (next.shuffle) {
+    next = Object.assign({}, next, {
+      shuffleOrder: buildShuffleOrder(next.items.length, currentIndex),
+    })
+  }
+  return next
 }
 
 export function loadActiveQueue() {
@@ -137,6 +254,7 @@ export function persistActiveQueue(queue) {
     const toStore = Object.assign({}, queue)
     delete toStore.previewOnce
     delete toStore.playbackResume
+    delete toStore.shuffleOrder
     localStorage.setItem(ACTIVE_QUEUE_STORAGE_KEY, JSON.stringify(toStore))
   } catch (e) {
     // ignore quota / private mode failures

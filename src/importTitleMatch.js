@@ -57,6 +57,42 @@ function titleTokens(normalized) {
   })
 }
 
+function stripLeadingArticle(clean) {
+  return String(clean || '').replace(/^(the|a|an)\s+/, '')
+}
+
+function titlesMatchByTokenOverlap(cleanA, cleanB) {
+  if (!cleanA || !cleanB) return false
+  if (cleanA === cleanB) return true
+
+  const ta = titleTokens(cleanA)
+  const tb = titleTokens(cleanB)
+  if (ta.length === 0 || tb.length === 0) return false
+  if (ta.length !== tb.length) return false
+
+  let inter = 0
+  const setB = {}
+  tb.forEach(function(t) { setB[t] = true })
+  ta.forEach(function(t) {
+    if (setB[t]) inter += 1
+  })
+  const union = ta.length + tb.length - inter
+  if (union <= 0) return false
+  return inter >= 2 && (inter / union) >= 0.7
+}
+
+/**
+ * True when titles are similar enough to suggest a duplicate (settings merge UI).
+ * Stricter than voice-search scoring; handles leading "the" variants.
+ */
+export function importTitlesMatchForSimilarDuplicate(titleA, titleB) {
+  if (importTitlesMatchForDeduping(titleA, titleB)) return true
+
+  const a = stripLeadingArticle(cleanImportTitleForMatching(titleA))
+  const b = stripLeadingArticle(cleanImportTitleForMatching(titleB))
+  return titlesMatchByTokenOverlap(a, b)
+}
+
 /**
  * True when titles are the same or clearly the same song (cleaned equality /
  * high token overlap). Extra substantive words (Aussie Jingle Bells vs Jingle
@@ -73,26 +109,7 @@ export function importTitlesMatchForDeduping(titleA, titleB) {
   if (!a || !b) return false
   if (a === b) return true
 
-  // Allow only when one side is the other plus trailing parenthetical leftover
-  // that cleaning already removed — if cleaned forms differ by an extra word, reject.
-  const ta = titleTokens(a)
-  const tb = titleTokens(b)
-  if (ta.length === 0 || tb.length === 0) return false
-
-  // Asymmetric token count: an extra substantive word means different songs
-  // (e.g. "aussie jingle bells" vs "jingle bells").
-  if (ta.length !== tb.length) return false
-
-  let inter = 0
-  const setB = {}
-  tb.forEach(function(t) { setB[t] = true })
-  ta.forEach(function(t) {
-    if (setB[t]) inter += 1
-  })
-  const union = ta.length + tb.length - inter
-  if (union <= 0) return false
-  // Need both strong overlap and at least two shared meaningful tokens
-  return inter >= 2 && (inter / union) >= 0.7
+  return titlesMatchByTokenOverlap(a, b)
 }
 
 export function tuneImportTitle(tune) {

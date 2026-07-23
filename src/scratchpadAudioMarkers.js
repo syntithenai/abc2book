@@ -13,16 +13,35 @@ export function formatMarkerTime(seconds) {
   return roundMarkerTime(seconds).toFixed(1)
 }
 
-export function clampMarkerTime(seconds, duration) {
-  const value = roundMarkerTime(seconds)
-  const max = Number.isFinite(duration) && duration > 0 ? duration : value
+export function clampMarkerTimeContinuous(seconds, duration) {
+  const value = Number(seconds)
+  if (!Number.isFinite(value)) return 0
+  const max = Number.isFinite(duration) && duration > 0 ? duration : Math.max(0, value)
   return Math.max(0, Math.min(max, value))
+}
+
+export function clampMarkerTime(seconds, duration) {
+  return clampMarkerTimeContinuous(roundMarkerTime(seconds), duration)
 }
 
 /**
  * Map a timeline X coordinate (viewport pixels) to seconds.
  */
-export function markerTimeFromClientX(clientX, layout) {
+export function waveformBoundsInWrap(layout) {
+  if (!layout) return { left: 0, right: 0 }
+  const {
+    tracksLeft,
+    wrapLeft,
+    tracksScrollLeft,
+    waveformWidth,
+    controlWidth,
+  } = layout
+  const left = tracksLeft - wrapLeft + controlWidth - tracksScrollLeft
+  const right = left + waveformWidth
+  return { left: left, right: right }
+}
+
+export function markerTimeFromClientX(clientX, layout, options) {
   if (!layout || !layout.duration) return 0
   const {
     duration,
@@ -34,8 +53,13 @@ export function markerTimeFromClientX(clientX, layout) {
   if (waveformWidth <= 0) return 0
   const xInTracks = clientX - tracksLeft
   const xInWaveform = xInTracks + tracksScrollLeft - controlWidth
-  const ratio = xInWaveform / waveformWidth
-  return clampMarkerTime(ratio * duration, duration)
+  const clampedX = Math.max(0, Math.min(waveformWidth, xInWaveform))
+  const ratio = clampedX / waveformWidth
+  const time = ratio * duration
+  if (options && options.continuous) {
+    return clampMarkerTimeContinuous(time, duration)
+  }
+  return clampMarkerTime(time, duration)
 }
 
 /**
@@ -52,9 +76,13 @@ export function markerClientXFromTime(time, layout) {
     controlWidth,
   } = layout
   if (waveformWidth <= 0) return tracksLeft - wrapLeft
-  const xInWaveform = (time / duration) * waveformWidth
+  const clampedTime = clampMarkerTimeContinuous(time, duration)
+  const xInWaveform = (clampedTime / duration) * waveformWidth
   const xInTracks = controlWidth + xInWaveform - tracksScrollLeft
-  return xInTracks - wrapLeft
+  let left = xInTracks - wrapLeft
+  const bounds = waveformBoundsInWrap(layout)
+  left = Math.max(bounds.left, Math.min(bounds.right, left))
+  return left
 }
 
 export function getLoopRegion(markers, explicitLoop) {
@@ -84,7 +112,7 @@ export function measureTimelineLayout(editorEl, wrapEl, duration) {
   const controlEl = tracks.querySelector('.controls')
   const controlWidth = controlEl ? controlEl.getBoundingClientRect().width : 100
   const waveformWidth = Math.max(0, tracks.scrollWidth - controlWidth)
-  return {
+  const layout = {
     duration: duration,
     wrapLeft: wrapRect.left,
     tracksLeft: tracksRect.left,
@@ -92,4 +120,8 @@ export function measureTimelineLayout(editorEl, wrapEl, duration) {
     waveformWidth: waveformWidth,
     controlWidth: controlWidth,
   }
+  const bounds = waveformBoundsInWrap(layout)
+  layout.waveformLeftPx = bounds.left
+  layout.waveformRightPx = bounds.right
+  return layout
 }

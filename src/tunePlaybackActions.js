@@ -3,8 +3,10 @@ import {
   startPreviewOnce,
   getCurrentItem,
   getCurrentTuneId,
+  findQueueIndexForTuneId,
 } from './nowPlayingQueue'
 import { playQueueItem, navigateToQueueTune, playCurrentQueueItem } from './nowPlayingQueuePlayback'
+import { advanceQueueToNextPlayable, isQueueItemPlayable, stopPlaylistPlayback } from './playlistPlaybackResilience'
 import { isQueuePlaybackEngaged } from './playbackNavigationUtils'
 
 export { isQueuePlaybackEngaged }
@@ -162,15 +164,36 @@ export function startTunePlayback(mediaController, tunebook, navigate, location,
     const setQueuePlayConfirm = ctx.setQueuePlayConfirm
 
     if (isQueueActive(queue) && setQueuePlayConfirm) {
-        const playingId = queue.items[queue.currentIndex] && queue.items[queue.currentIndex].tuneId
-        if (playingId && playingId !== tune.id && !isQueuePlaybackEngaged(mediaController)) {
-            // The queue exists (persisted across reloads) but nothing is
-            // playing or paused. Asking "a playlist is already playing" would
-            // be wrong, and leaving the queue active hands playback to the
-            // background host so the viewed tune can never start. Discard the
-            // idle queue and play the tune the user asked for.
+        const playingId = getCurrentTuneId(queue)
+        const queueIndex = findQueueIndexForTuneId(queue, tune.id)
+
+        if (queueIndex !== -1) {
+            let activeQueue = queue
             if (ctx.setNowPlayingQueue) {
-                ctx.setNowPlayingQueue(null)
+                const needsUpdate = queueIndex !== queue.currentIndex || queue.previewOnce
+                if (needsUpdate) {
+                    activeQueue = Object.assign({}, queue, {
+                        currentIndex: queueIndex,
+                        previewOnce: null,
+                    })
+                    ctx.setNowPlayingQueue(activeQueue)
+                }
+            }
+            const item = activeQueue.items[queueIndex]
+            playQueueItem(mediaController, tunebook, tune, item, { fromUserGesture: true })
+            if (navigate) {
+                navigateToQueueTune(navigate, tune.id, item, tunebook, ctx.tunes)
+            }
+            return true
+        }
+
+        if (!isQueuePlaybackEngaged(mediaController)) {
+            if (playingId && playingId !== tune.id) {
+                // Viewed tune is outside the idle playlist — discard the stale queue
+                // so single-tune playback is not blocked by the background host.
+                if (ctx.setNowPlayingQueue) {
+                    ctx.setNowPlayingQueue(null)
+                }
             }
         } else if (playingId && playingId !== tune.id) {
             if (ctx.skipQueueConfirm) {
@@ -261,20 +284,49 @@ export function toggleTunePlayback(mediaController, tunebook, navigate, location
     return startTunePlayback(mediaController, tunebook, navigate, location, queueContext)
 }
 
-export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes) {
+export function resumePlaylistPlayback(mediaController, tunebook, navigate, queue, tunes, setNowPlayingQueue) {
     if (!isQueueActive(queue)) return false
     const tuneId = getCurrentTuneId(queue)
     const item = getCurrentItem(queue)
-    if (tuneId && navigate) {
-        navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
-    }
-    if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {
-        if (mediaController.playFromUserGesture) {
-            mediaController.playFromUserGesture()
-        } else {
-            mediaController.play()
+    const tune = tuneId && tunes ? tunes[tuneId] : null
+
+    function tryResumeCurrent() {
+        if (tuneId && navigate) {
+            navigateToQueueTune(navigate, tuneId, item, tunebook, tunes)
         }
-        return true
+        if (mediaController && mediaController.canResumePlayback && mediaController.canResumePlayback()) {
+            if (mediaController.playFromUserGesture) {
+                mediaController.playFromUserGesture()
+            } else {
+                mediaController.play()
+            }
+            return true
+        }
+        return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
     }
-    return playCurrentQueueItem(mediaController, tunebook, tunes, queue, { fromUserGesture: true })
+
+    if (tune && item && isQueueItemPlayable(tune, item, tunebook)) {
+        return tryResumeCurrent()
+    }
+
+    advanceQueueToNextPlayable(queue, tunes, tunebook, {
+        direction: 1,
+        advanceFirst: false,
+    }).then(function(result) {
+        if (result.atEnd || !result.tune || !result.item) {
+            stopPlaylistPlayback(mediaController)
+            return
+        }
+        if (setNowPlayingQueue) {
+            setNowPlayingQueue(result.queue)
+        }
+        const nextItem = result.item
+        const nextTune = result.tune
+        if (navigate) {
+            navigateToQueueTune(navigate, nextItem.tuneId, nextItem, tunebook, tunes)
+        }
+        playQueueItem(mediaController, tunebook, nextTune, nextItem, { fromUserGesture: true })
+    })
+
+    return true
 }

@@ -13,6 +13,7 @@ import {
 } from './mediaCacheStorage';
 import { chordParserFactory, chordRendererFactory } from 'chord-symbol';
 import {unzip} from 'unzipit';
+import { toSearchText as foldToSearchText } from './searchTextUtils';
 
 
 /**
@@ -154,7 +155,7 @@ export default function utilsFunctions(props) {
     }
     
     function toSearchText(text) {
-      return text ? text.toLowerCase().trim() : ''
+      return foldToSearchText(text)
     }
     
     /**

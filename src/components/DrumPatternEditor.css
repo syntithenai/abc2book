@@ -1,0 +1,165 @@
+.drum-pattern-editor {
+  margin-bottom: 1rem;
+}
+
+.drum-pattern-editor__preset-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.drum-pattern-editor__preset-picker {
+  position: relative;
+  flex: 1 1 12rem;
+}
+
+.drum-pattern-editor__preset-button {
+  width: 100%;
+  text-align: left;
+}
+
+.drum-pattern-editor__preset-menu {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  right: 0;
+  max-height: 18rem;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+  padding: 0.5rem;
+}
+
+.drum-pattern-editor__preset-search {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.drum-pattern-editor__preset-category-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.drum-pattern-editor__preset-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.drum-pattern-editor__preset-option:hover,
+.drum-pattern-editor__preset-option.is-active {
+  background: #e7f1ff;
+}
+
+.drum-pattern-editor__swing-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.drum-pattern-editor__swing-label {
+  font-weight: 600;
+  min-width: 3rem;
+}
+
+.drum-pattern-editor__edit-toggle {
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+}
+
+.drum-pattern-editor__grid-wrap {
+  overflow-x: auto;
+  margin-bottom: 0.5rem;
+}
+
+.drum-pattern-editor__grid {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  min-width: 100%;
+}
+
+.drum-pattern-editor__grid-header,
+.drum-pattern-editor__grid-row {
+  display: table-row;
+}
+
+.drum-pattern-editor__grid-label-cell,
+.drum-pattern-editor__grid-slot-header,
+.drum-pattern-editor__grid-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.drum-pattern-editor__grid-label-cell {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+  min-width: 3.5rem;
+}
+
+.drum-pattern-editor__grid-slot-header {
+  font-size: 0.65rem;
+  color: #6c757d;
+  text-align: center;
+  min-width: 1.4rem;
+  padding-bottom: 0.15rem;
+}
+
+.drum-pattern-editor__grid-slot-header.is-beat-start {
+  border-left: 2px solid #adb5bd;
+}
+
+.drum-pattern-editor__grid-slot-header.is-active {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+.drum-pattern-editor__grid-cell {
+  width: 1.4rem;
+  height: 1.4rem;
+  min-width: 1.4rem;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  background: #f8f9fa;
+  padding: 0;
+  cursor: pointer;
+}
+
+.drum-pattern-editor__grid-cell.is-beat-start {
+  border-left-width: 2px;
+  border-left-color: #adb5bd;
+}
+
+.drum-pattern-editor__grid-cell.is-on {
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.drum-pattern-editor__grid-cell.is-active {
+  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.35);
+}
+
+.drum-pattern-editor--compact .drum-pattern-editor__swing-row,
+.drum-pattern-editor--compact .drum-pattern-editor__grid-section {
+  display: none;
+}

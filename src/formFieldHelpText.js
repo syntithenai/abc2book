@@ -89,7 +89,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   resolverUrl: {
     title: 'Resolver URL',
-    body: 'Optional override of resolver base URL for pitch/tempo playback, lyrics transcription, chord discovery and more. Leave blank to try localhost first, then shared public resolvers.',
+    body: 'Optional override of resolver base URL for pitch/tempo playback, lyrics transcription, chord discovery and more. When set, this URL is tried first (including OAuth login). Leave blank to try the dev proxy / localhost, then shared public resolvers.',
   },
   resolverInstall: {
     title: 'How to install a resolver',
@@ -118,7 +118,7 @@ export const SETTINGS_FIELD_HELP = {
   },
   youtubeHelper: {
     title: 'TuneBook Helper extension',
-    body: 'Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver.',
+    body: 'Optional Chromium extension that loads audio in your browser so pitch, filters, and caching work without a resolver. Turn off Use TuneBook Helper for media to test without the extension installed — in-flight downloads stop immediately.',
   },
   youtubeHelperInstall: {
     title: 'How to install TuneBook Helper',

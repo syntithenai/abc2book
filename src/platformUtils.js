@@ -8,3 +8,17 @@ import { isMobile } from 'react-device-detect';
 export function isMobilePlatform() {
   return isMobile;
 }
+
+/**
+ * Desktop Chromium-based Google Chrome (not Edge, Opera, or mobile Chrome).
+ * TuneBook Helper is a desktop Chrome extension.
+ */
+export function isChromiumDesktopBrowser() {
+  if (isMobilePlatform()) return false;
+  if (typeof navigator === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  return /Chrome\//.test(ua)
+    && !/Edg\//.test(ua)
+    && !/OPR\//.test(ua)
+    && !/SamsungBrowser\//.test(ua);
+}

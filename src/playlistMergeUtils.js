@@ -18,6 +18,7 @@ export const PLAYLIST_FIELD_DEFS = [
   { key: 'items', label: 'Tunes', defaultImport: true },
   { key: 'followTune', label: 'Follow tune', defaultImport: true },
   { key: 'loop', label: 'Loop', defaultImport: true },
+  { key: 'shuffle', label: 'Shuffle', defaultImport: true },
   { key: 'autoAdvance', label: 'Auto advance', defaultImport: true },
 ];
 
@@ -70,7 +71,7 @@ export function formatPlaylistItemsForDisplay(items, tunesById) {
 
 export function formatPlaylistFieldValue(fieldKey, value, tunesById) {
   if (fieldKey === 'items') return formatPlaylistItemsForDisplay(value, tunesById);
-  if (fieldKey === 'followTune' || fieldKey === 'loop' || fieldKey === 'autoAdvance') {
+  if (fieldKey === 'followTune' || fieldKey === 'loop' || fieldKey === 'shuffle' || fieldKey === 'autoAdvance') {
     return value ? 'Yes' : 'No';
   }
   if (isEmptyValue(value)) return '—';

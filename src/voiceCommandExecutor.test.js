@@ -28,6 +28,11 @@ describe('voiceCommandUtils', function() {
     expect(exact).toBeGreaterThanOrEqual(partial);
   });
 
+  test('scoreTuneMatch matches titles without diacritics', function() {
+    const score = scoreTuneMatch('reve', { name: 'Après un rêve', composer: 'Fauré' });
+    expect(score).toBeGreaterThan(0);
+  });
+
   test('findTuneCandidates returns sorted matches', function() {
     const tunes = {
       a: { id: 'a', name: 'Down By The Sally Gardens', composer: '' },

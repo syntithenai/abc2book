@@ -7,6 +7,8 @@ import {
   assignCompRegion,
   getActiveTake,
   AUDIO_PROJECT_VERSION,
+  findOrphanedAudioDriveFileIds,
+  resolveAudioProject,
 } from './scratchpadAudioProject'
 
 describe('scratchpadAudioProject', function() {
@@ -61,5 +63,34 @@ describe('scratchpadAudioProject', function() {
     const item = { id: 'a', type: 'audio', audio: { version: 2, tracks: [] } }
     const audio = normalizeAudioProject(item)
     expect(audio.tracks.length).toBeGreaterThan(0)
+  })
+
+  test('resolveAudioProject accepts bare audio override', function() {
+    const project = createDefaultAudioProject('item-2')
+    const resolved = resolveAudioProject({ id: 'item-2', type: 'audio' }, project)
+    expect(resolved.tracks.length).toBe(1)
+  })
+
+  test('findOrphanedAudioDriveFileIds returns removed take and mixdown ids', function() {
+    const prev = {
+      tracks: [{
+        id: 't1',
+        type: 'audio',
+        takes: [
+          { id: 'take-1', driveFileId: 'drive-a' },
+          { id: 'take-2', driveFileId: 'drive-b' },
+        ],
+      }],
+      mixdownDriveFileId: 'drive-mix',
+    }
+    const next = {
+      tracks: [{
+        id: 't1',
+        type: 'audio',
+        takes: [{ id: 'take-1', driveFileId: 'drive-a' }],
+      }],
+      mixdownDriveFileId: null,
+    }
+    expect(findOrphanedAudioDriveFileIds(prev, next).sort()).toEqual(['drive-b', 'drive-mix'])
   })
 })

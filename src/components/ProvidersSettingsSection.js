@@ -33,6 +33,8 @@ import {
   setSavedWebshareProxyUrl,
 } from '../webshareProxySettings'
 import { pingYoutubeExtension } from '../youtubeExtensionClient'
+import { isYoutubeHelperDisabled } from '../youtubeHelperSettings'
+import GoogleAuthStatusSection from './GoogleAuthStatusSection'
 
 const CAP_LABELS = {
   llm: 'LLM',
@@ -620,6 +622,14 @@ export default function ProvidersSettingsSection({
   accessToken,
   formatCandidateStatus,
   login,
+  logout,
+  refresh,
+  user,
+  token,
+  authMode,
+  authBase,
+  authBaseChecked,
+  requestGoogleScopes,
 }) {
   const [settings, setSettings] = useState(function() { return loadProviderSettings() })
   const [webshareUrl, setWebshareUrl] = useState(function() { return getSavedWebshareProxyUrl() })
@@ -633,7 +643,7 @@ export default function ProvidersSettingsSection({
   const statusRows = buildProviderServiceStatusRows(resolverStatus, settings, {
     webshareSaved: !!getSavedWebshareProxyUrl(),
     egressRequired: egressRequired,
-    helperOk: !!helperStatus.ok,
+    helperOk: !!helperStatus.ok && !isYoutubeHelperDisabled(),
     helperVersion: helperStatus.version || '',
   })
   const loginWarning = getResolverLoginWarning(resolverStatus, accessToken)
@@ -641,6 +651,12 @@ export default function ProvidersSettingsSection({
   useEffect(function() {
     let cancelled = false
     function refreshHelper() {
+      if (isYoutubeHelperDisabled()) {
+        if (!cancelled) {
+          setHelperStatus({ ok: false, version: null, checking: false })
+        }
+        return
+      }
       pingYoutubeExtension({ force: true }).then(function(result) {
         if (cancelled) return
         setHelperStatus({
@@ -652,9 +668,14 @@ export default function ProvidersSettingsSection({
     }
     refreshHelper()
     const intervalId = setInterval(refreshHelper, 15000)
+    function onHelperSettingsChanged() {
+      refreshHelper()
+    }
+    window.addEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
     return function() {
       cancelled = true
       clearInterval(intervalId)
+      window.removeEventListener('youtubeHelperSettingsChanged', onHelperSettingsChanged)
     }
   }, [])
 
@@ -823,6 +844,19 @@ export default function ProvidersSettingsSection({
         settings={(groqFill && groqFill.settings) || settings}
         onHide={function() { setGroqFill(null) }}
         onConfirm={applyGroqFill}
+      />
+
+      <GoogleAuthStatusSection
+        user={user}
+        token={token}
+        authMode={authMode}
+        authBase={authBase}
+        authBaseChecked={authBaseChecked}
+        resolverStatus={resolverStatus}
+        login={login}
+        logout={logout}
+        refresh={refresh}
+        requestGoogleScopes={requestGoogleScopes}
       />
     </div>
   )

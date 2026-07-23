@@ -5,6 +5,7 @@ import {
   getInterleavedLyricLines,
   getPlainLyricLines,
   getNoteAlignedLyricLines,
+  wLinesEditorText,
   setPlainLyricLines,
   setNoteAlignedLyricLines,
   stripNoteSpacingFromLine,
@@ -77,6 +78,16 @@ describe('wLinesUtils lyric export helpers', function() {
     expect(tune.wLines).toEqual(['A- maz- ing grace']);
     expect(getPlainLyricLines(tune)).toEqual(['Amazing grace']);
     expect(getNoteAlignedLyricLines(tune)).toEqual(['A- maz- ing grace']);
+  });
+
+  test('wLinesEditorText returns raw stored wLines for the editor', function() {
+    const tune = {
+      voices: { 1: { meta: '', notes: ['C D E F |', 'G A B c |'] } },
+      words: ['Amazing grace how sweet'],
+      wLines: ['hello world'],
+    };
+    expect(getNoteAlignedLyricLines(tune)).toEqual([]);
+    expect(wLinesEditorText(tune)).toBe('hello world');
   });
 
   test('setNoteAlignedLyricLines stores per-note-line alignment', function() {

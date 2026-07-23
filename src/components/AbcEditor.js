@@ -5,8 +5,9 @@ import {Container, Row, Col, Tabs, Tab, Form, Button, ButtonGroup, Modal} from '
 import { toast } from 'react-toastify'
 import Abc from './Abc'
 import NotationEditor from './NotationEditor'
+import { nextVoiceKey, reorderVoicesObject, orderedVoiceKeys } from '../voiceKeyOrder'
 import ChordsWizard from './ChordsWizard'
-import { lyricLinesToText, setPlainLyricLines } from '../wLinesUtils'
+import { lyricLinesToText, wLinesEditorText, setPlainLyricLines, setNoteAlignedLyricLines } from '../wLinesUtils'
 import LinksEditor from './LinksEditor'
 import NoteAlignedLyricsModal from './NoteAlignedLyricsModal'
 import LyricsToolsModal from './LyricsToolsModal'
@@ -66,7 +67,8 @@ export default function AbcEditor(props) {
   const [warnings, setWarnings] = useState([])
   var [saveTimeout, setSaveTimeout] = useState(null)
   var [chordsChanged, setChordsChanged] = useState(false)
-  const [wLinesText, setWLinesText] = useState('')
+  const [blockLyricsText, setBlockLyricsText] = useState('')
+  const [alignedLyricsText, setAlignedLyricsText] = useState('')
   const [showNoteAlignedLyrics, setShowNoteAlignedLyrics] = useState(false)
   const [showLyricsTools, setShowLyricsTools] = useState(false)
   const [lyricsToolsQuery, setLyricsToolsQuery] = useState('')
@@ -75,6 +77,7 @@ export default function AbcEditor(props) {
   const wLyricsTextareaRef = useRef(null)
   const [pendingChordImport, setPendingChordImport] = useState('')
   const wLinesSaveTimeout = useRef(null)
+  const alignedLyricsSaveGenRef = useRef(0)
   const [abcRecordExpanded, setAbcRecordExpanded] = useState(false)
   const [backgroundInfoText, setBackgroundInfoText] = useState('')
   const [backgroundInfoPreview, setBackgroundInfoPreview] = useState(false)
@@ -89,10 +92,14 @@ export default function AbcEditor(props) {
   }
 
   useEffect(function() {
-    setWLinesText(lyricLinesToText(tune))
+    setBlockLyricsText(lyricLinesToText(tune))
     setBackgroundInfoText(tune && typeof tune.backgroundInfo === 'string' ? tune.backgroundInfo : '')
     setBackgroundInfoPreview(false)
   }, [props.abc, tune, tuneId])
+
+  useEffect(function() {
+    setAlignedLyricsText(wLinesEditorText(tune))
+  }, [tuneId])
   
   useEffect(function() {
     return function() {
@@ -128,7 +135,10 @@ export default function AbcEditor(props) {
   }
 
   function saveTune(tune, options) {
-     return props.tunebook.saveTune(tune, false, options)
+    if (props.alignedLyricsOnly) {
+      tune.words = []
+    }
+    return props.tunebook.saveTune(tune, false, options)
   }
 
   function acceptSuggestedGenre(genre) {
@@ -180,7 +190,7 @@ export default function AbcEditor(props) {
     var voice = analysis.voice
     setCurrentVoice(voice)
     if (tune && tune.voices && textareaEl) {
-      var voiceNames = Object.keys(tune.voices)
+      var voiceNames = orderedVoiceKeys(tune)
       var voiceName = voiceNames.length > voice ? voiceNames[voice] : null
       if (voiceName) {
         var voiceParts = abcText.split("\nV:"+voiceName)
@@ -200,24 +210,39 @@ export default function AbcEditor(props) {
   }
   
   function addVoice() {
-    var numVoices = Object.keys(tune.voices).length
-    var key = (numVoices + 1) + ''
+    var keys = orderedVoiceKeys(tune)
+    var key = nextVoiceKey(tune.voices)
+    tune.voiceOrder = keys.concat([key])
+    tune.voices = reorderVoicesObject(tune.voices, tune.voiceOrder)
     tune.voices[key] = {
       meta: 'Voice ' + key + ' clef=treble',
       notes: ['%%MIDI program 0', ''],
     }
     tune.id = params.tuneId
     saveTune(tune)
-    setCurrentVoice(numVoices)
+    setCurrentVoice(keys.length)
+    props.forceRefresh()
+  }
+
+  function reorderVoices(orderedKeys) {
+    if (!orderedKeys || !orderedKeys.length) return
+    var currentKey = orderedVoiceKeys(tune)[currentVoice]
+    tune.voiceOrder = orderedKeys.slice()
+    tune.voices = reorderVoicesObject(tune.voices, orderedKeys)
+    var nextIndex = orderedKeys.indexOf(currentKey)
+    if (nextIndex >= 0) setCurrentVoice(nextIndex)
+    tune.id = params.tuneId
+    saveTune(tune, false, { historyLabel: 'Reorder voices' })
     props.forceRefresh()
   }
 
 
   function deleteVoice(key) {
-    const names = Object.keys(tune.voices);
+    const names = orderedVoiceKeys(tune);
     const deleteIndex = names.indexOf(key);
     delete tune.voices[key];
-    const remaining = Object.keys(tune.voices);
+    tune.voiceOrder = orderedVoiceKeys(tune).filter(function(k) { return k !== key; });
+    const remaining = orderedVoiceKeys(tune);
     if (remaining.length === 0) {
       tune.voices['1'] = { meta: 'Voice 1 clef=treble', notes: ['%%MIDI program 0', ''] };
       setCurrentVoice(0);
@@ -240,7 +265,7 @@ export default function AbcEditor(props) {
         <Abc showRepeats={true} mediaController={props.mediaController} audioRenderTimeout={30000} tunebook={props.tunebook} abc={props.abc} onWarnings={onWarnings} distempo={tune && tune.tempo > 0 ? tune.tempo : null} showTempoSlider={true} editableTempo={true} meter={tune.meter} onClick={onAbcClick} />
       )
     }
-    var voiceNames = Object.keys(tune.voices)
+    var voiceNames = orderedVoiceKeys(tune)
     var voiceKey = voiceNames.length > currentVoice ? voiceNames[currentVoice] : voiceNames[0]
     var voiceNotes = voiceKey && tune.voices[voiceKey]
       ? (Array.isArray(tune.voices[voiceKey].notes) ? tune.voices[voiceKey].notes.join('\n') : '')
@@ -258,6 +283,7 @@ export default function AbcEditor(props) {
         onVoiceSelect={setCurrentVoice}
         onAddVoice={addVoice}
         onDeleteVoice={deleteVoice}
+        onReorderVoices={reorderVoices}
         onVoiceNotesChange={function(vk, notesText, label) { tuneNotesChanged(vk, notesText, label) }}
         onVoiceMetaChange={function(vk, meta) { tuneVoiceMetaChanged(vk, meta) }}
         onActiveVoicesChange={function(voiceKeys) {
@@ -277,14 +303,27 @@ export default function AbcEditor(props) {
     )
   }
 
-  function handleLyricsTextChange(next) {
-    setWLinesText(next)
+  function handleBlockLyricsTextChange(next) {
+    setBlockLyricsText(next)
     if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
     wLinesSaveTimeout.current = setTimeout(function() {
       setPlainLyricLines(tune, next.split('\n'))
       tune.id = params.tuneId
       saveTune(tune)
     }, 500)
+  }
+
+  function handleAlignedLyricsTextChange(next) {
+    setAlignedLyricsText(next)
+    if (wLinesSaveTimeout.current) clearTimeout(wLinesSaveTimeout.current)
+    const saveGen = alignedLyricsSaveGenRef.current + 1
+    alignedLyricsSaveGenRef.current = saveGen
+    wLinesSaveTimeout.current = setTimeout(function() {
+      if (saveGen !== alignedLyricsSaveGenRef.current) return
+      setNoteAlignedLyricLines(tune, next.split('\n'))
+      tune.id = params.tuneId
+      saveTune(tune)
+    }, 300)
   }
 
   function getFirstSelectedLine(textValue, selectionStart, selectionEnd) {
@@ -328,18 +367,6 @@ export default function AbcEditor(props) {
     )
   }
 
-  function renderLyricsTextarea(className) {
-    return (
-      <textarea
-        ref={className ? undefined : wLyricsTextareaRef}
-        className={className || 'abc-editor-lyrics-textarea'}
-        value={wLinesText}
-        aria-label="Lyrics"
-        onChange={function(e) { handleLyricsTextChange(e.target.value) }}
-      />
-    )
-  }
-
   function renderEditorPanel() {
     if (editorViewMode === 'music') {
       return (
@@ -349,7 +376,12 @@ export default function AbcEditor(props) {
           </div>
           <div className="abc-editor-music-lyrics">
             <div className="abc-editor-music-lyrics-label">Lyrics</div>
-            {renderLyricsTextarea('abc-editor-music-lyrics-textarea')}
+            <textarea
+              className="abc-editor-music-lyrics-textarea"
+              value={alignedLyricsText}
+              aria-label="Time-aligned lyrics"
+              onChange={function(e) { handleAlignedLyricsTextChange(e.target.value) }}
+            />
           </div>
         </div>
       )
@@ -781,6 +813,7 @@ export default function AbcEditor(props) {
                                 tune.suitableForPractice = !!e.target.checked
                                 tune.id = params.tuneId
                                 saveTune(tune)
+                                if (typeof props.forceRefresh === 'function') props.forceRefresh()
                               }}
                             />
                           </Form.Group>
@@ -809,6 +842,7 @@ export default function AbcEditor(props) {
                                       tune.suitableFor = next
                                       tune.id = params.tuneId
                                       saveTune(tune)
+                                      if (typeof props.forceRefresh === 'function') props.forceRefresh()
                                     }}
                                   />
                                 )
@@ -841,7 +875,7 @@ export default function AbcEditor(props) {
                           tuneId={params.tuneId || tune.id}
                           title={tune.name}
                           artist={tune.composer || ''}
-                          lyrics={wLinesText}
+                          lyrics={blockLyricsText}
                           rhythm={tune.rhythm || ''}
                           currentGenre={tune.genre || ''}
                           onGenreAccept={acceptSuggestedGenre}
@@ -1022,10 +1056,10 @@ export default function AbcEditor(props) {
                     <div className="abc-editor-lyrics-panel">
                     <div className="abc-editor-lyrics-toolbar">
                       <LyricsSectionsDropdown
-                        lyricsText={wLinesText}
+                        lyricsText={blockLyricsText}
                         textareaRef={wLyricsTextareaRef}
                         tunebook={props.tunebook}
-                        onChange={handleLyricsTextChange}
+                        onChange={handleBlockLyricsTextChange}
                       />
                       {renderNoteAlignedLyricsButton()}
                       <Button
@@ -1050,7 +1084,7 @@ export default function AbcEditor(props) {
                           defaultUpdateLyrics={true}
                           forceUpdateLyrics={true}
                           confirmOverwrite={true}
-                          existingLyrics={wLinesText}
+                          existingLyrics={blockLyricsText}
                           onChords={function(result, options) {
                             const committed = commitChordSearchResultToTune({
                               result: result,
@@ -1072,7 +1106,7 @@ export default function AbcEditor(props) {
                               return
                             }
                             if (committed.updateLyrics && Array.isArray(committed.lyricLines)) {
-                              setWLinesText(committed.lyricLines.join('\n'))
+                              setBlockLyricsText(committed.lyricLines.join('\n'))
                             }
                             toast.success(
                               committed.updateLyrics
@@ -1106,7 +1140,13 @@ export default function AbcEditor(props) {
                         </Button>
                       </div>
                     </div>
-                    {renderLyricsTextarea()}
+                    <textarea
+                      ref={wLyricsTextareaRef}
+                      className="abc-editor-lyrics-textarea"
+                      value={blockLyricsText}
+                      aria-label="Lyrics"
+                      onChange={function(e) { handleBlockLyricsTextChange(e.target.value) }}
+                    />
                     <NoteAlignedLyricsModal
                       show={showNoteAlignedLyrics}
                       onHide={function() { setShowNoteAlignedLyrics(false) }}
@@ -1115,6 +1155,7 @@ export default function AbcEditor(props) {
                       onSaved={function(savedTune) {
                         savedTune.id = params.tuneId
                         saveTune(savedTune, { historyLabel: 'Edit note-aligned lyrics', immediate: true })
+                        setAlignedLyricsText(wLinesEditorText(savedTune))
                       }}
                     />
                     <LyricsToolsModal
@@ -1154,7 +1195,7 @@ export default function AbcEditor(props) {
                           return
                         }
                         if (Array.isArray(committed.lyricLines)) {
-                          setWLinesText(committed.lyricLines.join('\n'))
+                          setBlockLyricsText(committed.lyricLines.join('\n'))
                         }
                         setShowLyricsPaste(false)
                         toast.success(
@@ -1170,7 +1211,7 @@ export default function AbcEditor(props) {
                       tune={tune}
                       tunebook={props.tunebook}
                       forceRefresh={function() {
-                        setWLinesText(lyricLinesToText(tune))
+                        setBlockLyricsText(lyricLinesToText(tune))
                       }}
                     />
                     </div>
@@ -1191,7 +1232,7 @@ export default function AbcEditor(props) {
                       onConsumePendingChordImport={function() { setPendingChordImport('') }}
                       autoActivateChordRecord={props.autoActivateChordRecord}
                       onLyricsImport={function(lines) {
-                        setWLinesText(lines.join('\n'))
+                        setBlockLyricsText(lines.join('\n'))
                         setPlainLyricLines(tune, lines)
                         tune.id = params.tuneId
                         saveTune(tune, { historyLabel: 'Search chords and lyrics', immediate: true })

@@ -7,6 +7,7 @@ import {
   parseTunePagePlaybackFromUrl,
   isViewingDifferentFromPlaying,
   playQueueItem,
+  handleQueueAdvanceOnEnded,
 } from './nowPlayingQueuePlayback'
 
 describe('nowPlayingQueuePlayback', function() {
@@ -151,5 +152,79 @@ describe('nowPlayingQueuePlayback', function() {
     expect(ok).toBe(true)
     expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
     expect(mediaController.play).not.toHaveBeenCalled()
+  })
+
+  test('handleQueueAdvanceOnEnded skips unplayable tunes and stops when none remain', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = {
+      empty: { id: 'empty' },
+      media: { id: 'media', links: [{ link: 'https://example.com/a.mp3' }] },
+    }
+    const queue = createQueue({
+      tuneIds: ['empty', 'media'],
+      currentIndex: 0,
+      autoAdvance: true,
+    })
+    const mediaController = {
+      setTune: jest.fn(),
+      setMediaLinkNumber: jest.fn(),
+      applyPlaybackRoute: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      play: jest.fn(),
+      abortPlayingIntent: jest.fn(),
+      pause: jest.fn(),
+      setIsLoading: jest.fn(),
+      setIsPlaying: jest.fn(),
+      setIsReady: jest.fn(),
+    }
+    let failReason = null
+    let updatedQueue = null
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: function(q) { updatedQueue = q },
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: function(reason) { failReason = reason },
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(updatedQueue).not.toBeNull()
+    expect(updatedQueue.currentIndex).toBe(1)
+    expect(mediaController.armPlaybackIntent).toHaveBeenCalled()
+    expect(failReason).toBeNull()
+  })
+
+  test('handleQueueAdvanceOnEnded stops without arming intent when all tunes unplayable', async function() {
+    const tunebook = {
+      hasNotesOrChords: function(tune) { return !!(tune && tune.notes) },
+      hasLinks: function(tune) { return !!(tune && tune.links && tune.links.length > 0) },
+    }
+    const tunes = { empty: { id: 'empty' } }
+    const queue = createQueue({ tuneIds: ['empty'], currentIndex: 0, autoAdvance: true })
+    const mediaController = {
+      setTune: jest.fn(),
+      armPlaybackIntent: jest.fn(),
+      abortPlayingIntent: jest.fn(),
+      pause: jest.fn(),
+      setIsLoading: jest.fn(),
+      setIsPlaying: jest.fn(),
+      setIsReady: jest.fn(),
+    }
+    let failReason = null
+    handleQueueAdvanceOnEnded({
+      queue: queue,
+      setQueue: jest.fn(),
+      tunes: tunes,
+      tunebook: tunebook,
+      mediaController: mediaController,
+      failCallback: function(reason) { failReason = reason },
+    })
+    await new Promise(function(resolve) { setTimeout(resolve, 50) })
+    expect(mediaController.armPlaybackIntent).not.toHaveBeenCalled()
+    expect(mediaController.abortPlayingIntent).toHaveBeenCalled()
+    expect(failReason).toBe('end')
   })
 })
